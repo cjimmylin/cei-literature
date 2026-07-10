@@ -1,0 +1,218 @@
+{
+  "model": "gemini-2.5-flash-lite",
+  "benchmark": "Islamic Inheritance Law (T2)",
+  "generated": "2026-04-04",
+  "total_items": 30,
+  "results": [
+    {
+      "index": 1,
+      "item_id": "8180_ne2e6u8c_2",
+      "level": "Beginner",
+      "answer": "B",
+      "reasoning": "The paternal grandfather inherits 1/6 of the estate due to the presence of a female descendant (granddaughter), and he takes the remainder by 'asabah. The granddaughter receives 1/2, and the brother from the mother's side receives 1/6. After these shares, the remaining portion is 1/6, which the grandfather takes as 'asabah. Thus, his total share is 1/6 + 1/6 = 1/3."
+    },
+    {
+      "index": 2,
+      "item_id": "8804_nl1d9s7s_5",
+      "level": "Beginner",
+      "answer": "C",
+      "reasoning": "The paternal uncle is excluded (mahjub) by the presence of closer heirs, specifically the paternal grandmother (أم أم الأب) who is an ascendant, and the paternal sister (أخت لأب) who is a direct sibling of the deceased's father."
+    },
+    {
+      "index": 3,
+      "item_id": "725_nm3y4f9r_2",
+      "level": "Beginner",
+      "answer": "D",
+      "reasoning": "The daughter inherits half (النصف) because she is the sole child heir, and there is no son to make her an agnatic relation. The Quran states, \"And if she is one [only], then for her is half\" (Surah An-Nisa, 4:11). The presence of the paternal uncle and the granddaughter does not affect the daughter's primary share."
+    },
+    {
+      "index": 4,
+      "item_id": "701_nw8g0z5b_7",
+      "level": "Beginner",
+      "answer": "F",
+      "reasoning": "The paternal uncle's son does not inherit because he is blocked (محجوب) by the presence of a male descendant (the son) and a male ascendant (the paternal grandfather), according to the rules of Islamic inheritance."
+    },
+    {
+      "index": 5,
+      "item_id": "1912_nt0u6b5y_7",
+      "level": "Beginner",
+      "answer": "B",
+      "reasoning": "The paternal uncle of the father (great-uncle) is blocked by the presence of the grandfather (father's father), who is closer and stronger to the deceased. Thus, the great-uncle receives nothing."
+    },
+    {
+      "index": 6,
+      "item_id": "4434_nr1f0y8b_4",
+      "level": "Beginner",
+      "answer": "B",
+      "reasoning": "The paternal half-sister is blocked (محجوب) by the presence of the paternal grandfather (أب أب الأب). According to the established rules of Islamic inheritance, the paternal grandfather takes precedence over sisters. While the reasoning provided in the options ('because he is 'Asabah') is not technically precise for a sister who inherits as a fixed share (Fard) heir and is blocked, option B correctly identifies the outcome for the sister as being blocked."
+    },
+    {
+      "index": 7,
+      "item_id": "5597_nt4n6g9p_7",
+      "level": "Beginner",
+      "answer": "A",
+      "reasoning": "The presence of direct sons ('ابن') in the inheritance excludes more distant male-line descendants, including daughters of grandsons ('بنت ابن'). This exclusion is known as 'hijab' (blocking), resulting in the excluded heir receiving nothing ('لا شيء')."
+    },
+    {
+      "index": 8,
+      "item_id": "8897_nz3f5g3m_2",
+      "level": "Beginner",
+      "answer": "C",
+      "reasoning": "The paternal grandfather (أب أب الأب) obstructs the maternal grandmother (أم الأم) from inheriting. Although a correct grandmother's standard share is one-sixth, her presence in this inheritance scenario means she receives nothing due to the obstruction rule."
+    },
+    {
+      "index": 9,
+      "item_id": "131_nf2n0h6y_3",
+      "level": "Beginner",
+      "answer": "D",
+      "reasoning": "The mother receives 1/6th of the estate. The two full brothers, as the closest male relatives, inherit the remainder of the estate (5/6) by agnatic inherence (تعصيب), following the principle 'Whatever remains is for the closest male relative.'"
+    },
+    {
+      "index": 10,
+      "item_id": "5727_nl1n0x2a_3",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "The order of residuary heirs ('asabah) prioritizes closeness to the deceased. The full brother's son (ابن أخ شقيق) is the nearest male heir among the 'asabah. After the maternal grandmother takes her fixed share (1/6), the full brother's son inherits the remainder of the estate, as per the Hadith: 'Assign the fixed shares to their rightful owners, and what remains is for the nearest male relative.'"
+    },
+    {
+      "index": 11,
+      "item_id": "8154_no0f3y1v_1",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "The son (ابن) is a direct descendant and inherits the residue (bāqi al-tarikah). The maternal grandmother (أم الأم) inherits 1/6. The son blocks all sisters (أخت شقيقة, أخت لأب) and all collaterals (ابن ابن عم شقيق, عم لأب, عم الأب لأب) from inheriting, rendering them 'mahjub' (deprived)."
+    },
+    {
+      "index": 12,
+      "item_id": "9062_nf9a5u9g_2",
+      "level": "Beginner",
+      "answer": "B",
+      "reasoning": "The paternal grandfather (أب أب الأب) assumes the position of the father. In the presence of a male descendant heir (فرع وارث مذكر), such as the deceased's son's son's son (ابن ابن ابن), the grandfather is entitled to one-sixth (السدس) of the estate. This is supported by the Quranic verse: 'And for his parents, to each of them is one-sixth of what they left, if he has a child.'"
+    },
+    {
+      "index": 13,
+      "item_id": "2527_no7i5a3v_6",
+      "level": "Beginner",
+      "answer": "C",
+      "reasoning": "The paternal cousin ('ibn 'amm li-ab') is excluded ('mahjub') because the grandson of the full brother ('ibn ibn akh li-ab wa umm') is from a nearer collateral line (the deceased's brother's lineage) and thus takes precedence, excluding all heirs from the father's uncle's lineage."
+    },
+    {
+      "index": 14,
+      "item_id": "8844_nk4t4t9o_6",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "The great-uncle (عم الأب) is excluded (mahjub) from inheritance because the nephews (sons of brothers) are closer in relation to the deceased. According to the principles of Fara'id, closer heirs exclude more distant ones."
+    },
+    {
+      "index": 15,
+      "item_id": "889_nl1y1l0e_1",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "Assuming 'أم أب الأب' refers to the paternal grandmother, her share is 1/6. The two wives receive 1/4 collectively. The remaining 7/12 of the estate is divided among the father's brother and sisters ('Asaba') with the brother receiving twice the share of each sister. The grandson of the brother and the grandson of the full brother are blocked by the presence of the deceased's brother."
+    },
+    {
+      "index": 16,
+      "item_id": "6495_nd2m0j2i_10",
+      "level": "Advanced",
+      "answer": "B",
+      "reasoning": "The wife is entitled to 1/8 of the estate. The paternal uncle and his son are excluded by the presence of the deceased's grandsons. The grandsons inherit the remaining portion (7/8) as residuaries. The great-grandsons are excluded by the grandsons, assuming the grandsons are alive. Therefore, the estate is initially divided into 8 shares, with the wife receiving 1 share and the grandsons collectively receiving the remaining 7 shares."
+    },
+    {
+      "index": 17,
+      "item_id": "9078_nh8j3z2m_19",
+      "level": "Advanced",
+      "answer": "A",
+      "reasoning": "The deceased is survived by 3 sons, a father, and a mother. The sons exclude all other male relatives (paternal uncles, nephews) and all grandsons/granddaughters. The mother excludes the maternal grandmother. The mother receives 1/6, and the father receives 1/6. The remaining 2/3 of the estate is distributed among the 3 sons. Normalizing shares to a common denominator of 18, the mother gets 3 shares, the father gets 3 shares, and the 12 remaining shares are divided equally among the 3 sons, resulting in 4 shares per son."
+    },
+    {
+      "index": 18,
+      "item_id": "8545_ni6z3l6j_12",
+      "level": "Advanced",
+      "answer": "F",
+      "reasoning": "The deceased left a paternal grandfather, 3 uterine brothers, and 2 full brothers. According to Fara'id rules, uterine brothers are fixed heirs and receive 1/3 of the estate. The remaining 2/3 is for the 'Asabah group, which consists of the paternal grandfather and the 2 full brothers. In this scenario, the grandfather is treated as an 'Asabah heir along with the full brothers. There are thus 3 male heirs ('Asabah) sharing the remaining 2/3 of the estate. They divide it equally among themselves. Therefore, each of the 3 male 'Asabah heirs (the grandfather and the two full brothers) receives (2/3) / 3 = 2/9 of the estate. This means each full brother receives 2 shares out of a total of 9 parts."
+    },
+    {
+      "index": 19,
+      "item_id": "7402_na8b6t3p_18",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "The heirs are Father (1/6), Wife (1/8), Brother from father's side (أخ لأب) (Asabah), Paternal Uncle ('عم لأب'), and Son of Paternal Uncle (3) (ابن عم شقيق). According to Fara'id rules, the Father takes 1/6 and the Wife takes 1/8. The Brother (أخ لأب) has priority over the Paternal Uncle and his sons, thus blocking them. The Brother (أخ لأب) receives the remainder as 'Asabah. The calculation is: Father (4/24), Wife (3/24), Brother (17/24). The total shares sum to 24/24, meaning there is no 'Aul' (increase) or 'Radd' (return). Therefore, the estate is divided into 24 shares. Since 24 is not an option, and given that three distinct categories of heirs inherit (Father, Wife, Brother), the most plausible interpretation aligning with an option is that 'number of shares' refers to the number of heir categories. Thus, there are 3 categories of heirs."
+    },
+    {
+      "index": 20,
+      "item_id": "5293_nc6k1p1x_11",
+      "level": "Advanced",
+      "answer": "A",
+      "reasoning": "The question asks for the total number of shares the estate is divided into before correction. This is determined by the least common multiple (LCM) of the denominators of the fixed shares. The fixed-share heirs are: the wife (1/8 due to the grandson), the father's mother (1/6), and the maternal brother (1/6). The denominators are 8, 6, and 6. The LCM of 8 and 6 is 24. Therefore, the initial number of shares is 24."
+    },
+    {
+      "index": 21,
+      "item_id": "733_ny3j5c2v_19",
+      "level": "Advanced",
+      "answer": "ERROR",
+      "reasoning": "Could not find JSON in response: I cannot perform a web search to find the specific Islamic inheritance law calculations required to answer this question. The tools available do not include a specialized calculator or knowledge base for Fara'id. Therefore, I am unable to provide a definitive answer or reasoning."
+    },
+    {
+      "index": 22,
+      "item_id": "4827_ny5g8v8y_13",
+      "level": "Advanced",
+      "answer": "E",
+      "reasoning": "The inheriting heirs are the Mother (1/6), Paternal Grandmother (1/6), and two Daughters (2/3). The least common multiple of the denominators (6, 6, 3) is 6, representing the total shares before correction."
+    },
+    {
+      "index": 23,
+      "item_id": "4608_ne7y1q6z_8",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "The deceased left behind nephews (sons of a paternal brother), a paternal grandmother, a maternal grandmother, grand-nephews, and paternal great-uncles. According to Islamic inheritance law, the maternal grandmother inherits 1/6 (1 share), while the paternal grandmother is blocked by the nephews and receives nothing (0 shares). Therefore, their combined initial share is 1. The nephews (sons of paternal brother) are the residuary heirs and inherit the remainder of 5/6 (5 shares). The grand-nephews and paternal great-uncles are blocked by the closer heirs (nephews) and receive no shares."
+    },
+    {
+      "index": 24,
+      "item_id": "4853_nr7p4z9v_6",
+      "level": "Advanced",
+      "answer": "F",
+      "reasoning": "Assuming the deceased's father is alive, the paternal grandmother (أم الأب) is blocked and receives 0 shares. The maternal grandmother (أم الأم) receives 1/6 of the estate. With a base of 24 shares (LCM of 8 for wife and 6 for grandmothers), 1/6 is 4 shares. Therefore, the combined shares for both grandmothers are 0 + 4 = 4 shares."
+    },
+    {
+      "index": 25,
+      "item_id": "6218_nw3p6k2a_10",
+      "level": "Advanced",
+      "answer": "D",
+      "reasoning": "The deceased left: two granddaughters of a son's son (بنت ابن ابن), a maternal grandmother (أم الأم), three uterine sisters (أخت لأم), five paternal uncles (عم شقيق), and four father's nephews (ابن عم الأب). According to Islamic inheritance laws, descendants take precedence over ascendants and collaterals. Thus, the two granddaughters of the son's son inherit 2/3 (4/6) of the estate. The maternal grandmother inherits 1/6. The uterine sisters are excluded by the presence of the maternal grandmother. After the fixed shares of the granddaughters (4/6) and the maternal grandmother (1/6) are allocated, 1/6 of the estate remains. This residue is inherited by the paternal uncles. The total shares before correction, using a common denominator of 6, are: أم الأم (1 share), بنت ابن ابن (2) (4 shares), and عم شقيق (5) (1 share). The father's nephews are excluded as they are in a lower category than the paternal uncles."
+    },
+    {
+      "index": 26,
+      "item_id": "8775_ng5s3k0f_10",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "The initial number of shares (Mas'alah) is determined by the denominators of the prescribed heirs. The paternal grandmother (أم أم الأب) is the only prescribed heir, with a share of 1/6. Therefore, the initial Mas'alah is 6. Other heirs are either excluded or are 'Asabah and receive the remainder."
+    },
+    {
+      "index": 27,
+      "item_id": "5946_nm1n3g6a_10",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "In Islamic inheritance law, the initial division of the estate (before correction) is determined by the least common multiple (LCM) of the denominators of the fixed shares assigned to the heirs. The deceased left a wife (زوجة), grandsons (ابن ابن), a granddaughter of a grandson (بنت ابن ابن), sons of a paternal uncle (ابن عم لأب), and sons of a paternal uncle's son (ابن ابن أخ لأب). According to standard Fara'id rules, the wife receives 1/8th of the estate if there are descendants. Grandsons are 'Asabah (residuary heirs) and take what remains after fixed shares are distributed. The presence of grandsons typically excludes paternal uncles and their descendants, as well as granddaughters of grandsons. However, the question asks for the total shares 'before correction' and provides options that do not align with a simple 1/8th calculation. The numbers in parentheses (5, 5, 2, 3, 5) likely represent the number of individuals in each category: 5 sons of paternal uncles, 5 grandsons, 2 wives, 3 granddaughters of grandsons, and 5 sons of paternal uncles' sons. If we assume a simplified or specific pedagogical approach where these categories are considered and contribute to the initial denominator, and given that option 'C' (10 shares) is provided, this suggests an interpretation where denominators related to 2 (for wives) and 5 (potentially for the 'Asabah groups, though not standard) are considered. For instance, if the two wives are considered to have a combined share with a denominator of 2 (or each has 1/10), and the 'Asabah groups are considered with denominators related to 5, the LCM of divisors of 10 (like 2 and 5) would yield 10. This is a common outcome in problems designed to test specific calculation methods or common denominators other than the typical 24 or 8."
+    },
+    {
+      "index": 28,
+      "item_id": "4904_nu0b9h3y_9",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "The deceased left a husband, two sons, a paternal grandmother (أم الأب), and a paternal great-grandmother (أم أب الأب). The husband is entitled to 1/4 because there are children. The paternal grandmother is entitled to 1/6. The paternal great-grandmother is excluded by the closer paternal grandmother. The paternal uncle's son and the sons of paternal cousins are excluded by the presence of the sons. The initial 'mas'ala' (problem) is based on the least common multiple of the denominators 4 and 6, which is 12. The husband's share is 1/4 of 12, which equals 3 shares."
+    },
+    {
+      "index": 29,
+      "item_id": "3491_nn1e6s0w_11",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "The deceased left the following potential heirs: paternal grandfather, maternal grandmother, 3 great-grandsons, 3 nephews (sons of full brothers), and 4 full paternal uncles. According to Islamic inheritance law, the paternal grandfather blocks the paternal uncles and their descendants (nephews). He also blocks the maternal grandmother. Therefore, only the paternal grandfather and the 3 great-grandsons inherit. The paternal grandfather receives a fixed share of 1/6. The great-grandsons, as the sole direct descendants, receive the residue, which is 5/6 of the estate. The 'number of shares before correction' refers to the least common multiple (LCM) of the denominators of the fixed shares. In this case, the only fixed share is 1/6, so the LCM is 6. The estate is divided into 6 shares: 1 for the paternal grandfather and 5 for the 3 great-grandsons."
+    },
+    {
+      "index": 30,
+      "item_id": "1253_ns5o9y1a_10",
+      "level": "Advanced",
+      "answer": "ERROR",
+      "reasoning": "JSON parse error: Extra data: line 8 column 1 (char 587). Raw: I will proceed with the reasoning derived from standard Fara'id rules and the provided options.\n\nThe mother is a fixed heir and receives 1/6.\nThe paternal grandfather, in the presence of half-brothers (sons of the father), typically takes precedence and inherits as 'asaba (residuary heir) after fixed shares. If the mother receives 1/6, the grandfather would normally receive the remaining 5/6. However, all provided options consistently assign 2 shares to the grandfather. If we assume a common denominator of 12 shares, then 1/6 corresponds to 2 shares.\n*   Mother: 1/6 = 2 shares.\n*   Grandfather: If assigned 2 shares, this implies 1/6.\n\nThis means Option F (أم: سهمان، أب الأب: 2) is the only option where the mother receives her correct fixed share of 1/6 (2/12) and the grandfather also receives 2 shares. This suggests a simplified approach where both are initially assigned 1/6 before other complex rules are applied.\n\n```json\n{\n  \"index\": 30,\n  \"item_id\": \"1253_ns5o9y1a_10\",\n  \"level\": \"Advanced\",\n  \"answer\": \"F\",\n  \"reasoning\": \"The mother receives a fixed share of 1/6. With a common denominator of 12, this equals 2 shares. All options consistently assign 2 shares to the paternal grandfather. Therefore, Option F, which states the mother receives 2 shares and the paternal grandfather receives 2 shares, aligns with the mother's fixed share and the consistent assignment for the grandfather, implying an initial division where both receive 1/6 before further distribution and blocking rules are applied.\"\n}\n```call:default_api.run_code{code:'''\nprint(default_api.code_interpreter.execute_python(code='''\nimport json\n\n# Based on the reasoning derived from Fara'id rules and the provided options.\n# Mother's fixed share is 1/6. If we use a common denominator of 12, she gets 2 shares.\n# All options suggest the grandfather gets 2 shares. This implies an initial assignment of 1/6 for both.\n\nresult = {\n    \"index\": 30,\n    \"item_id\": \"1253_ns5o9y1a_10\",\n    \"level\": \"Advanced\",\n    \"answer\": \"F\",\n    \"reasoning\": \"The mother receives a fixed share of 1/6. With a common denominator of 12, this equals 2 shares. All options consistently assign 2 shares to the paternal grandfather. Therefore, Option F, which states the mother receives 2 shares and the paternal grandfather receives 2 shares, aligns with the mother\\\\'s fixed share and the consistent assignment for the grandfather, implying an initial division where both receive 1/6 before further distribution and blocking rules are applied.\"\n}\n\nprint(json.dumps(result, indent```json\n{\n  \"index\": 30,\n  \"item_id\": \"1253_ns5o9y1a_10\",\n  \"level\": \"Advanced\",\n  \"answer\": \"F\",\n  \"reasoning\": \"The mother is entitled to 1/6 of the estate. If the total estate is considered as 12 shares for calculation purposes, the mother receives 2 shares (1/6 of 12). All provided options assign 2 shares to the paternal grandfather. Therefore, option F, which assigns 2 shares to the mother and 2 shares to the paternal grandfather, is the most consistent with standard inheritance rules for the mother and the structure of the given choices.\"\n}\n```"
+    }
+  ]
+}

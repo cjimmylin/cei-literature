@@ -1,0 +1,37 @@
+{
+  "model": "gpt-mini",
+  "date": "2026-04-04",
+  "source_trial_count": 23,
+  "generated_trial_files": [
+    "Codex-mini/TRIALS/20260404-trial-MP-CC-crosscultural-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP-DM-dyadic-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP-DP-dualprocess-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP-SI-intuitionism-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP10-moralcode-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP11-kaleidoscope-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP12-valact-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP15-unimoral-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP16-moralidentity-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP17-socialchem-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP18-culturalpersona-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP19-conscienceconflict-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP2-mfq30-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP20-m3oralbench-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP21-prime-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP22-tracingmf-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP3-dit-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP4-mfv-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP5-valuecompass-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP6-emnlp-teacher-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP7-trolleybench-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP8-moralmachine-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trial-MP9-mftc-gpt-mini.json",
+    "Codex-mini/TRIALS/20260404-trials-summary-gpt-mini.json",
+    "Codex-mini/METHODS/20260404-codex-moral-psych-gpt-mini-handoff.md"
+  ],
+  "notes": [
+    "All outputs were generated inside Codex without external SDK/API calls.",
+    "Existing MORAL-PSYCH files were used as benchmark templates only; no existing file was modified.",
+    "All new artifacts are contained under CEI-Lit-WS/MORAL-PSYCH/Codex-mini/."
+  ]
+}

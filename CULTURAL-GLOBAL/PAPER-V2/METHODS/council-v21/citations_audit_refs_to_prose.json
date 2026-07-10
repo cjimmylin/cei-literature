@@ -1,0 +1,1137 @@
+{
+  "cited": [
+    {
+      "key": "Agarwal_2025",
+      "full_text": "Agarwal, S., et al. (2025). Fluent but foreign: Evaluating LLM engagement with Dharmic ethical concepts. *arXiv preprint*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 103,
+        "raw": "(Agarwal 2025)"
+      }
+    },
+    {
+      "key": "Angle_2021",
+      "full_text": "Angle, S. C. (2021). Can AI lead to genuine virtue? A Confucian perspective. In *Philosophy and Theory of Artificial Intelligence 2021*. Springer.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "03-results-corpus.md",
+        "line": 144,
+        "raw": "Angle (2021)"
+      }
+    },
+    {
+      "key": "Apicella_2020",
+      "full_text": "Apicella, C., Norenzayan, A., & Henrich, J. (2020). Beyond WEIRD: A review of the last decade and a look ahead to the global laboratory. *Evolution and Human Behavior*, 41(5), 319--329.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 63,
+        "raw": "(Apicella et al. 2020)"
+      }
+    },
+    {
+      "key": "Atari_2023",
+      "full_text": "Atari, M., Haidt, J., Graham, J., Koleva, S., Stevens, S. T., & Dehghani, M. (2023). Morality beyond the WEIRD: How the nomological network of morality varies across cultures. *Journal of Personality ",
+      "mention_count": 4,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 59,
+        "raw": "Atari et al. (2023)"
+      }
+    },
+    {
+      "key": "Awad_2018",
+      "full_text": "Awad, E., Dsouza, S., Kim, R., Schulz, J., Henrich, J., Shariff, A., Bonnefon, J.-F., & Rahwan, I. (2018). The Moral Machine experiment. *Nature*, 563(7729), 59--64.",
+      "mention_count": 4,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 117,
+        "raw": "(Awad et al. 2018 via Moral Machine)"
+      }
+    },
+    {
+      "key": "Bai_2022",
+      "full_text": "Bai, Y., et al. (2022). Constitutional AI: Harmlessness from AI feedback. *arXiv preprint arXiv:2212.08073*.",
+      "mention_count": 3,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 5,
+        "raw": "(Bai et al. 2022)"
+      }
+    },
+    {
+      "key": "Bakker_2022",
+      "full_text": "Bakker, M., et al. (2022). Fine-tuning language models to find agreement among humans with diverse preferences. In *NeurIPS '22*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 103,
+        "raw": "Bakker et al. (2022)"
+      }
+    },
+    {
+      "key": "Bender_2021",
+      "full_text": "Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? In *FAccT '21*, 610--623. ACM.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 77,
+        "raw": "Bender et al. (2021)"
+      }
+    },
+    {
+      "key": "Bietti_2020",
+      "full_text": "Bietti, S. (2020). From ethics washing to ethics bashing: A view on tech ethics from within moral philosophy. In *FAccT '20*, 210--219. ACM.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 77,
+        "raw": "Bietti (2020)"
+      }
+    },
+    {
+      "key": "Brown_2024",
+      "full_text": "Brown, D. (2024). Maori algorithmic sovereignty: Idea, principles, and use. *AI & Society*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "03-results-corpus.md",
+        "line": 103,
+        "raw": "Brown (2024)"
+      }
+    },
+    {
+      "key": "Carroll_2020",
+      "full_text": "Carroll, S. R., et al. (2020). The CARE principles for Indigenous data governance. *Data Science Journal*, 19, 43.",
+      "mention_count": 6,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 7,
+        "raw": "(Carroll et al. 2020)"
+      }
+    },
+    {
+      "key": "Catapang_2023",
+      "full_text": "Catapang, J. K. R., et al. (2023). EMoTES-3K: A Filipino emotion-morality evaluation benchmark for cross-cultural language model assessment. *arXiv preprint*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 183,
+        "raw": "(Catapang 2023)"
+      }
+    },
+    {
+      "key": "Chen_2007",
+      "full_text": "Chen, F. F. (2007). Sensitivity of goodness of fit indexes to lack of measurement invariance. *Structural Equation Modeling*, 14(3), 464--504.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 40,
+        "raw": "(Chen 2007)"
+      }
+    },
+    {
+      "key": "Christiano_2017",
+      "full_text": "Christiano, P., et al. (2017). Deep reinforcement learning from human preferences. In *NeurIPS '17*, 4302--4310.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 89,
+        "raw": "Christiano et al. (2017)"
+      }
+    },
+    {
+      "key": "Donthu_2021",
+      "full_text": "Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. *Journal of Business Research*, 133, 285--296.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "02-methods.md",
+        "line": 22,
+        "raw": "Donthu et al. (2021)"
+      }
+    },
+    {
+      "key": "Durmus_2024",
+      "full_text": "Durmus, E., et al. (2024). Towards measuring the representation of subjective global opinions in language models. In *ACL '24*. ACL.",
+      "mention_count": 3,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 117,
+        "raw": "(Durmus et al. 2024)"
+      }
+    },
+    {
+      "key": "Eickhoff_2026",
+      "full_text": "Eickhoff, J., et al. (2026). UbuntuGuard: A communal-ethics policy evaluation framework for large language models. *arXiv preprint*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 99,
+        "raw": "(Eickhoff 2026)"
+      }
+    },
+    {
+      "key": "Farsi_2025",
+      "full_text": "Farsi, M., et al. (2025). MELAC: A multi-domain Arabic LLM evaluation benchmark for cultural alignment. *arXiv preprint*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 87,
+        "raw": "(Farsi 2025)"
+      }
+    },
+    {
+      "key": "Fjeld_2020",
+      "full_text": "Fjeld, J., Achten, N., Hilligoss, H., Nagy, A., & Srikumar, M. (2020). Principled artificial intelligence: Mapping consensus in ethical and rights-based approaches to principles for AI. *Berkman Klein",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 71,
+        "raw": "Fjeld et al. (2020)"
+      }
+    },
+    {
+      "key": "Floridi_2018",
+      "full_text": "Floridi, L., et al. (2018). AI4People---An ethical framework for a good AI society. *Minds and Machines*, 28(4), 689--707.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 39,
+        "raw": "Floridi et al. (2018)"
+      }
+    },
+    {
+      "key": "Gabriel_2020",
+      "full_text": "Gabriel, I. (2020). Artificial intelligence, values, and alignment. *Minds and Machines*, 30(3), 411--437.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 27,
+        "raw": "Gabriel (2020)"
+      }
+    },
+    {
+      "key": "Gelfand_2011",
+      "full_text": "Gelfand, M. J., et al. (2011). Differences between tight and loose cultures: A 33-nation study. *Science*, 332(6033), 1100--1104.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 55,
+        "raw": "Gelfand et al. (2011)"
+      }
+    },
+    {
+      "key": "Graham_2009",
+      "full_text": "Graham, J., Haidt, J., & Nosek, B. A. (2009). Liberals and conservatives rely on different sets of moral foundations. *Journal of Personality and Social Psychology*, 96(5), 1029--1046.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "05-results-trials.md",
+        "line": 41,
+        "raw": "(Graham, Haidt, & Nosek, 2009)"
+      }
+    },
+    {
+      "key": "Gwagwa_2022",
+      "full_text": "Gwagwa, A., Kraemer-Mbula, E., Rizk, N., Rutenberg, I., & De Beer, J. (2022). The role of the African value of Ubuntu in global AI inclusion. *Patterns*, 3(1), 100408.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "03-results-corpus.md",
+        "line": 144,
+        "raw": "Gwagwa et al. (2022)"
+      }
+    },
+    {
+      "key": "Gyekye_1997",
+      "full_text": "Gyekye, K. (1997). *Tradition and Modernity: Philosophical Reflections on the African Experience*. Oxford University Press.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "06-results-synthesis.md",
+        "line": 21,
+        "raw": "(Gyekye, 1997)"
+      }
+    },
+    {
+      "key": "Hagerty_2019",
+      "full_text": "Hagerty, A., & Rubinov, I. (2019). Global AI ethics: A review of the social landscape. *arXiv preprint arXiv:1907.07892*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 73,
+        "raw": "Hagerty and Rubinov (2019)"
+      }
+    },
+    {
+      "key": "Haidt_2012",
+      "full_text": "Haidt, J. (2012). *The Righteous Mind: Why Good People Are Divided by Politics and Religion*. Vintage Books.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "05-results-trials.md",
+        "line": 43,
+        "raw": "(Haidt, 2012)"
+      }
+    },
+    {
+      "key": "Held_2006",
+      "full_text": "Held, V. (2006). *The Ethics of Care: Personal, Political, and Global*. Oxford University Press.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "03-results-corpus.md",
+        "line": 134,
+        "raw": "(Held 2006)"
+      }
+    },
+    {
+      "key": "Henrich_2010",
+      "full_text": "Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences*, 33(2--3), 61--83.",
+      "mention_count": 9,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 37,
+        "raw": "Henrich, Heine, and Norenzayan (2010)"
+      }
+    },
+    {
+      "key": "Hwang_1981",
+      "full_text": "Hwang, C. L., & Yoon, K. (1981). *Multiple Attribute Decision Making: Methods and Applications*. Springer.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "02-methods.md",
+        "line": 274,
+        "raw": "(Hwang and Yoon, 1981)"
+      }
+    },
+    {
+      "key": "Inglehart_2005",
+      "full_text": "Inglehart, R., & Welzel, C. (2005). *Modernization, Cultural Change, and Democracy: The Human Development Sequence*. Cambridge University Press.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 57,
+        "raw": "Inglehart and Welzel (2005)"
+      }
+    },
+    {
+      "key": "Jobin_2019",
+      "full_text": "Jobin, A., Ienca, M., & Vayena, E. (2019). The global landscape of AI ethics guidelines. *Nature Machine Intelligence*, 1(9), 389--399.",
+      "mention_count": 4,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 23,
+        "raw": "(Jobin et al. 2019)"
+      }
+    },
+    {
+      "key": "Keegan_2024",
+      "full_text": "Keegan, T. T. (2024). Maori data sovereignty in AI development: Seeking Maori-appropriate frameworks. *AI & Society*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "03-results-corpus.md",
+        "line": 103,
+        "raw": "Keegan (2024)"
+      }
+    },
+    {
+      "key": "Keutzer_2025",
+      "full_text": "Keutzer, K., et al. (2025). MITRA-zh-eval: Buddhist content evaluation within Chinese NLP benchmarks. *arXiv preprint*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 184,
+        "raw": "(Keutzer 2025)"
+      }
+    },
+    {
+      "key": "Kirk_2024",
+      "full_text": "Kirk, H. R., Vidgen, B., Rottger, P., & Hale, S. A. (2024). The PRISM alignment project: What participatory, representative and individualised human feedback reveals about the subjective and multicult",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 105,
+        "raw": "Kirk et al. (2024)"
+      }
+    },
+    {
+      "key": "Klingefjord_2024",
+      "full_text": "Klingefjord, O., Lowe, R., & Edelman, J. (2024). What are human values, and how do we align AI to them? *arXiv preprint arXiv:2404.10636*.",
+      "mention_count": 3,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 117,
+        "raw": "(Klingefjord et al. 2024)"
+      }
+    },
+    {
+      "key": "Lahmar_2025",
+      "full_text": "Lahmar, A., et al. (2025). IslamTrust: Evaluating LLM alignment with Islamic values across the five maqasid al-shariah. *arXiv preprint*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 87,
+        "raw": "(Lahmar 2025)"
+      }
+    },
+    {
+      "key": "Markus_1991",
+      "full_text": "Markus, H. R., & Kitayama, S. (1991). Culture and the self: Implications for cognition, emotion, and motivation. *Psychological Review*, 98(2), 224--253.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 53,
+        "raw": "Markus and Kitayama (1991)"
+      }
+    },
+    {
+      "key": "Metz_2007",
+      "full_text": "Metz, T. (2007). Toward an African moral theory. *Journal of Political Philosophy*, 15(3), 321--341.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "06-results-synthesis.md",
+        "line": 21,
+        "raw": "(Metz, 2007)"
+      }
+    },
+    {
+      "key": "Mhlambi_2020",
+      "full_text": "Mhlambi, S. (2020). From rationality to relationality: Ubuntu as an ethical and human rights framework for artificial intelligence governance. *Carr Center Discussion Paper Series*, 2020-009.",
+      "mention_count": 3,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 7,
+        "raw": "(Mhlambi 2020)"
+      }
+    },
+    {
+      "key": "Mittelstadt_2019",
+      "full_text": "Mittelstadt, B. (2019). Principles alone cannot guarantee ethical AI. *Nature Machine Intelligence*, 1(11), 501--507.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 69,
+        "raw": "Mittelstadt (2019)"
+      }
+    },
+    {
+      "key": "Mohamed_2020",
+      "full_text": "Mohamed, S., Png, M.-T., & Isaac, W. (2020). Decolonial AI: Decolonial theory as sociotechnical foresight in artificial intelligence. *Philosophy & Technology*, 33(4), 659--684.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "03-results-corpus.md",
+        "line": 144,
+        "raw": "Mohamed et al. (2020)"
+      }
+    },
+    {
+      "key": "Neira-Davila_2025",
+      "full_text": "Neira-Davila, M., et al. (2025). Indigenous knowledge systems in Latin American AI: A benchmark for cross-cultural evaluation. *arXiv preprint*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 95,
+        "raw": "Neira-Davila (2025)"
+      }
+    },
+    {
+      "key": "Morley_2020",
+      "full_text": "Morley, J., Floridi, L., Kinsey, L., & Elhalal, A. (2020). From what to how: An initial review of publicly available AI ethics tools, methods and research to translate principles into practices. *Scie",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 77,
+        "raw": "Morley et al. (2020)"
+      }
+    },
+    {
+      "key": "Nagel_1986",
+      "full_text": "Nagel, T. (1986). *The View from Nowhere*. Oxford University Press.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 107,
+        "raw": "(Nagel 1986)"
+      }
+    },
+    {
+      "key": "Ouyang_2022",
+      "full_text": "Ouyang, L., et al. (2022). Training language models to follow instructions with human feedback. In *NeurIPS '22*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 5,
+        "raw": "(Ouyang et al. 2022)"
+      }
+    },
+    {
+      "key": "Page_2021",
+      "full_text": "Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., et al. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. *BMJ*, 372, ",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "02-methods.md",
+        "line": 140,
+        "raw": "(Page et al. 2021)"
+      }
+    },
+    {
+      "key": "Rad_2018",
+      "full_text": "Rad, M. S., Martingano, A. J., & Ginges, J. (2018). Toward a psychology of Homo sapiens: Making psychological science more representative of the human population. *Proceedings of the National Academy ",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 63,
+        "raw": "(Rad et al. 2018)"
+      }
+    },
+    {
+      "key": "Rafailov_2023",
+      "full_text": "Rafailov, R., et al. (2023). Direct preference optimization: Your language model is secretly a reward model. In *NeurIPS '23*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 95,
+        "raw": "(Rafailov et al. 2023)"
+      }
+    },
+    {
+      "key": "Ogunremi_2025",
+      "full_text": "Ogunremi, T., et al. (2025). Decolonizing NLP: Ubuntu principles for African language technology development. *arXiv preprint*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 99,
+        "raw": "(Ogunremi 2025)"
+      }
+    },
+    {
+      "key": "Rahman_2025",
+      "full_text": "Rahman, M., et al. (2025). CCD-Bench: A cross-cultural dilemma benchmark for evaluating language model alignment across 37 countries. *arXiv preprint*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 182,
+        "raw": "(Rahman 2025)"
+      }
+    },
+    {
+      "key": "Rao_2025",
+      "full_text": "Rao, A., et al. (2025). NormAd: Evaluating cultural adaptability in LLMs through social norm reasoning across 37 countries. *arXiv preprint*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 181,
+        "raw": "(Rao 2025)"
+      }
+    },
+    {
+      "key": "Ray_2025",
+      "full_text": "Ray, K. (2025). A framework for indigenous knowledge systems in AI governance: Bridging Maori and Navajo ethical traditions. *AI & Society*.",
+      "mention_count": 3,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 95,
+        "raw": "Ray (2025)"
+      }
+    },
+    {
+      "key": "Roy_1993",
+      "full_text": "Roy, B., & Bouyssou, D. (1993). *Aide Multicritère à la Décision: Méthodes et Cas*. Economica. [ELECTRE III methodology]",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "10-endmatter.md",
+        "line": 112,
+        "raw": "(following Roy & Bouyssou, 1993)"
+      }
+    },
+    {
+      "key": "Russell_2019",
+      "full_text": "Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 27,
+        "raw": "Russell (2019)"
+      }
+    },
+    {
+      "key": "Sambasivan_2021",
+      "full_text": "Sambasivan, N., et al. (2021). Re-imagining algorithmic fairness in India and beyond. In *FAccT '21*, 315--328.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 113,
+        "raw": "(Sambasivan et al. 2021)"
+      }
+    },
+    {
+      "key": "Schiff_2021",
+      "full_text": "Schiff, D., Biddle, J., Borenstein, J., & Laas, K. (2021). AI ethics in the public, private, and NGO sectors: A review of a global document collection. *IEEE Transactions on Technology and Society*, 2",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 73,
+        "raw": "Schiff et al. (2021)"
+      }
+    },
+    {
+      "key": "Schwartz_2012",
+      "full_text": "Schwartz, S. H. (2012). An overview of the Schwartz theory of basic values. *Online Readings in Psychology and Culture*, 2(1), 11.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 57,
+        "raw": "Schwartz (2012)"
+      }
+    },
+    {
+      "key": "Sorensen_2024",
+      "full_text": "Sorensen, T., et al. (2024). A roadmap to pluralistic alignment. In *ICML '24*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 39,
+        "raw": "Sorensen et al. (2024)"
+      }
+    },
+    {
+      "key": "Whittlestone_2019",
+      "full_text": "Whittlestone, J., Nyrup, R., Alexandrova, A., & Cave, S. (2019). The role and limits of principles in AI ethics: Towards a focus on tensions. In *AIES '19*, 195--200. ACM.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 75,
+        "raw": "Whittlestone et al. (2019)"
+      }
+    },
+    {
+      "key": "Vandenberg_2000",
+      "full_text": "Vandenberg, R. J., & Lance, C. E. (2000). A review and synthesis of the measurement invariance literature: Suggestions, practices, and recommendations for organizational research. *Organizational Rese",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 40,
+        "raw": "(Vandenberg and Lance 2000)"
+      }
+    },
+    {
+      "key": "Wong_2020",
+      "full_text": "Wong, P.-H. (2020). Democratizing algorithmic fairness. *Philosophy & Technology*, 33(2), 225--244.",
+      "mention_count": 3,
+      "first_mention": {
+        "file": "01-introduction.md",
+        "line": 7,
+        "raw": "(Wong 2020)"
+      }
+    },
+    {
+      "key": "Wong_2024",
+      "full_text": "Wong, P.-H. (2024). AI and Confucian role ethics: A framework for responsible innovation in East Asian contexts. *Philosophy & Technology*, 37(1), 15.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 91,
+        "raw": "(Wong 2024)"
+      }
+    },
+    {
+      "key": "Wong_2024",
+      "full_text": "Wong, V. (2024). HBC: A humanistic Buddhism corpus for evaluating LLM understanding of Buddhist thought. *arXiv preprint*.",
+      "mention_count": 2,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 91,
+        "raw": "(Wong 2024)"
+      }
+    },
+    {
+      "key": "Xiong_2025",
+      "full_text": "Xiong, L., et al. (2025). BuddhismEval: Assessing language model knowledge of Buddhist teachings across Theravada, Mahayana, and Vajrayana traditions. *arXiv preprint*.",
+      "mention_count": 1,
+      "first_mention": {
+        "file": "04-results-benchmarks.md",
+        "line": 91,
+        "raw": "(Xiong 2025)"
+      }
+    }
+  ],
+  "orphaned_refs": [
+    {
+      "key": "Abdalla_2021",
+      "full_text": "Abdalla, M., & Abdalla, M. (2021). The Grey Hoodie Project: Big tobacco, big tech, and the threat on academic integrity. In *Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society (AIE",
+      "first_author": "Abdalla",
+      "year": 2021,
+      "suffix": ""
+    },
+    {
+      "key": "Adams_2024",
+      "full_text": "Adams, R., & Balfour, L. (2024). Whose values? Pluralistic alignment and the limits of liberal AI governance. In *Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency (",
+      "first_author": "Adams",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Alyemny_2023a",
+      "full_text": "Alyemny, A. (2023a). A data-driven exploration of a new Islamic fatwas dataset for AI-assisted jurisprudence. *arXiv preprint*.",
+      "first_author": "Alyemny",
+      "year": 2023,
+      "suffix": "a"
+    },
+    {
+      "key": "Alyemny_2023b",
+      "full_text": "Alyemny, A. (2023b). FatwaSet: A comprehensive dataset for Islamic legal rulings. *arXiv preprint*.",
+      "first_author": "Alyemny",
+      "year": 2023,
+      "suffix": "b"
+    },
+    {
+      "key": "Ames_1998",
+      "full_text": "Ames, R. T., & Rosemont, H. (1998). *The Analects of Confucius: A Philosophical Translation*. Ballantine Books.",
+      "first_author": "Ames",
+      "year": 1998,
+      "suffix": ""
+    },
+    {
+      "key": "Auda_2008",
+      "full_text": "Auda, J. (2008). *Maqasid Al-Shariah as Philosophy of Islamic Law: A Systems Approach*. International Institute of Islamic Thought.",
+      "first_author": "Auda",
+      "year": 2008,
+      "suffix": ""
+    },
+    {
+      "key": "Bartlett_2012",
+      "full_text": "Bartlett, C., Marshall, M., & Marshall, A. (2012). Two-eyed seeing and other lessons learned within a co-learning journey of bringing together indigenous and mainstream knowledges and ways of knowing.",
+      "first_author": "Bartlett",
+      "year": 2012,
+      "suffix": ""
+    },
+    {
+      "key": "Benzecri_1992",
+      "full_text": "Benzecri, J.-P. (1992). *Correspondence Analysis Handbook*. Marcel Dekker. (Original work published 1973.)",
+      "first_author": "Benzecri",
+      "year": 1992,
+      "suffix": ""
+    },
+    {
+      "key": "Birhane_2021",
+      "full_text": "Birhane, A. (2021). Algorithmic injustice: A relational ethics approach. *Patterns*, 2(2), 100205.",
+      "first_author": "Birhane",
+      "year": 2021,
+      "suffix": ""
+    },
+    {
+      "key": "Birhane_2024",
+      "full_text": "Birhane, A., & Guest, O. (2024). Towards decolonising computational sciences. In *FAccT '24*. ACM.",
+      "first_author": "Birhane",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Cheung_2002",
+      "full_text": "Cheung, G. W., & Rensvold, R. B. (2002). Evaluating goodness-of-fit indexes for testing measurement invariance. *Structural Equation Modeling*, 9(2), 233--255.",
+      "first_author": "Cheung",
+      "year": 2002,
+      "suffix": ""
+    },
+    {
+      "key": "Chouldechova_2017",
+      "full_text": "Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. *Big Data*, 5(2), 153--163.",
+      "first_author": "Chouldechova",
+      "year": 2017,
+      "suffix": ""
+    },
+    {
+      "key": "Ciston_2023",
+      "full_text": "Ciston, S. (2023). A critical field guide for working with machine learning datasets. In *FAccT '23*, 1--11. ACM.",
+      "first_author": "Ciston",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Couldry_2019",
+      "full_text": "Couldry, N., & Mejias, U. A. (2019). *The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism*. Stanford University Press.",
+      "first_author": "Couldry",
+      "year": 2019,
+      "suffix": ""
+    },
+    {
+      "key": "Deckker_2025",
+      "full_text": "Deckker, D., & Sumanasekara, S. (2025). A systematic review of the impact of artificial intelligence, digital technology, and social media on Buddhist communities. *AI & Society*.",
+      "first_author": "Deckker",
+      "year": 2025,
+      "suffix": ""
+    },
+    {
+      "key": "Deng_2024",
+      "full_text": "Deng, B. (2024). AI governance with Chinese characteristics: Confucian relational ethics and algorithmic regulation. *AI & Ethics*, 4(3), 567--582.",
+      "first_author": "Deng",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Dobbe_2024",
+      "full_text": "Dobbe, R., & Marda, V. (2024). AI governance beyond borders: Lessons from the Global South. *Nature Machine Intelligence*, 6(1), 12--15.",
+      "first_author": "Dobbe",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Escobar_2018",
+      "full_text": "Escobar, A. (2018). *Designs for the Pluriverse: Radical Interdependence, Autonomy, and the Making of Worlds*. Duke University Press.",
+      "first_author": "Escobar",
+      "year": 2018,
+      "suffix": ""
+    },
+    {
+      "key": "Floridi_2023",
+      "full_text": "Floridi, L. (2023). *The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities*. Oxford University Press.",
+      "first_author": "Floridi",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Gilligan_1982",
+      "full_text": "Gilligan, C. (1982). *In a Different Voice: Psychological Theory and Women's Development*. Harvard University Press.",
+      "first_author": "Gilligan",
+      "year": 1982,
+      "suffix": ""
+    },
+    {
+      "key": "Gorian_2024",
+      "full_text": "Gorian, E., & Osman, N. D. (2024). Digital ethics of artificial intelligence (AI) in Saudi Arabia and United Arab Emirates. *AI & Ethics*.",
+      "first_author": "Gorian",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Greenacre_2017",
+      "full_text": "Greenacre, M. J. (2017). *Correspondence Analysis in Practice* (3rd ed.). CRC Press.",
+      "first_author": "Greenacre",
+      "year": 2017,
+      "suffix": ""
+    },
+    {
+      "key": "Grosfoguel_2013",
+      "full_text": "Grosfoguel, R. (2013). The structure of knowledge in Westernized universities: Epistemic racism/sexism and the four genocides/epistemicides of the long 16th century. *Human Architecture*, 11(1), 73--9",
+      "first_author": "Grosfoguel",
+      "year": 2013,
+      "suffix": ""
+    },
+    {
+      "key": "Gudynas_2011",
+      "full_text": "Gudynas, E. (2011). Buen vivir: Today's tomorrow. *Development*, 54(4), 441--447.",
+      "first_author": "Gudynas",
+      "year": 2011,
+      "suffix": ""
+    },
+    {
+      "key": "Hanna_2020",
+      "full_text": "Hanna, A., Denton, E., Smart, A., & Smith-Loud, J. (2020). Towards a critical race methodology in algorithmic fairness. In *FAccT '20*, 501--512. ACM.",
+      "first_author": "Hanna",
+      "year": 2020,
+      "suffix": ""
+    },
+    {
+      "key": "Harvey_2000",
+      "full_text": "Harvey, P. (2000). *An Introduction to Buddhist Ethics: Foundations, Values and Issues*. Cambridge University Press.",
+      "first_author": "Harvey",
+      "year": 2000,
+      "suffix": ""
+    },
+    {
+      "key": "Hofstede_2001",
+      "full_text": "Hofstede, G. (2001). *Culture's Consequences: Comparing Values, Behaviors, Institutions, and Organizations across Nations* (2nd ed.). Sage.",
+      "first_author": "Hofstede",
+      "year": 2001,
+      "suffix": ""
+    },
+    {
+      "key": "Hongladarom_2020",
+      "full_text": "Hongladarom, S. (2020). *The Ethics of AI and Robotics: A Buddhist Viewpoint*. Lexington Books.",
+      "first_author": "Hongladarom",
+      "year": 2020,
+      "suffix": ""
+    },
+    {
+      "key": "Hou_2023",
+      "full_text": "Hou, Y. (2023). Foundational moral values for AI alignment: A Confucian perspective. In *AIES '23*. ACM.",
+      "first_author": "Hou",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Islam_2022",
+      "full_text": "Islam, M. S. (2022). Anekantavada and its relevance: A philosophical analysis in Jaina viewpoint. *Journal of Indian Council of Philosophical Research*, 39(2), 185--198.",
+      "first_author": "Islam",
+      "year": 2022,
+      "suffix": ""
+    },
+    {
+      "key": "Kamali_2008",
+      "full_text": "Kamali, M. H. (2008). *Maqasid al-Shariah Made Simple*. International Institute of Islamic Thought.",
+      "first_author": "Kamali",
+      "year": 2008,
+      "suffix": ""
+    },
+    {
+      "key": "Keown_2005",
+      "full_text": "Keown, D. (2005). *Buddhist Ethics: A Very Short Introduction*. Oxford University Press.",
+      "first_author": "Keown",
+      "year": 2005,
+      "suffix": ""
+    },
+    {
+      "key": "Kleinberg_2016",
+      "full_text": "Kleinberg, J., Mullainathan, S., & Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores. In *ITCS '17*.",
+      "first_author": "Kleinberg",
+      "year": 2016,
+      "suffix": ""
+    },
+    {
+      "key": "Kukutai_2016",
+      "full_text": "Kukutai, T., & Taylor, J. (Eds.). (2016). *Indigenous Data Sovereignty: Toward an Agenda*. ANU Press.",
+      "first_author": "Kukutai",
+      "year": 2016,
+      "suffix": ""
+    },
+    {
+      "key": "Kushwaha_2026",
+      "full_text": "Kushwaha, R. K. (2026). Syadvada and artificial intelligence: Exploring the linkages. *Journal of Dharma Studies*.",
+      "first_author": "Kushwaha",
+      "year": 2026,
+      "suffix": ""
+    },
+    {
+      "key": "Li_2006",
+      "full_text": "Li, C. (2006). The Confucian ideal of harmony. *Philosophy East and West*, 56(4), 583--603.",
+      "first_author": "Li",
+      "year": 2006,
+      "suffix": ""
+    },
+    {
+      "key": "Li_2014",
+      "full_text": "Li, C. (2014). *The Confucian Philosophy of Harmony*. Routledge.",
+      "first_author": "Li",
+      "year": 2014,
+      "suffix": ""
+    },
+    {
+      "key": "Macas_2010",
+      "full_text": "Macas, L. (2010). Sumak kawsay: La vida en plenitud. *America Latina en Movimiento*, 452, 14--16.",
+      "first_author": "Macas",
+      "year": 2010,
+      "suffix": ""
+    },
+    {
+      "key": "MacIntyre_1981",
+      "full_text": "MacIntyre, A. (1981). *After Virtue: A Study in Moral Theory*. University of Notre Dame Press.",
+      "first_author": "MacIntyre",
+      "year": 1981,
+      "suffix": ""
+    },
+    {
+      "key": "Menkiti_1984",
+      "full_text": "Menkiti, I. A. (1984). Person and community in African traditional thought. In R. A. Wright (Ed.), *African Philosophy: An Introduction* (3rd ed., pp. 171--181). University Press of America.",
+      "first_author": "Menkiti",
+      "year": 1984,
+      "suffix": ""
+    },
+    {
+      "key": "Miao_2026",
+      "full_text": "Miao, F. (2026). The anthropomorphization of AI and the concept of Buddhist compassion in human-machine interaction. *AI & Ethics*.",
+      "first_author": "Miao",
+      "year": 2026,
+      "suffix": ""
+    },
+    {
+      "key": "Mokoena_2024",
+      "full_text": "Mokoena, T. (2024). A holistic Ubuntu artificial intelligence ethics framework. *Ethics and Information Technology*, 26(2).",
+      "first_author": "Mokoena",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Munn_2023",
+      "full_text": "Munn, L. (2023). The five tests: Designing and evaluating AI through Indigenous frameworks. In *AIES '23*. ACM.",
+      "first_author": "Munn",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Prabhakaran_2022",
+      "full_text": "Prabhakaran, V., Qadri, R., & Hutchinson, B. (2022). Cultural incongruencies in artificial intelligence. *arXiv preprint arXiv:2211.13069*.",
+      "first_author": "Prabhakaran",
+      "year": 2022,
+      "suffix": ""
+    },
+    {
+      "key": "Praeg_2014",
+      "full_text": "Praeg, L. (2014). *A Report on Ubuntu*. University of KwaZulu-Natal Press.",
+      "first_author": "Praeg",
+      "year": 2014,
+      "suffix": ""
+    },
+    {
+      "key": "Qian_2023",
+      "full_text": "Qian, Y. (2023). Understanding Chinese moral stories with further AI alignment. *arXiv preprint*.",
+      "first_author": "Qian",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Quijano_2000",
+      "full_text": "Quijano, A. (2000). Coloniality of power and Eurocentrism in Latin America. *International Sociology*, 15(2), 215--232.",
+      "first_author": "Quijano",
+      "year": 2000,
+      "suffix": ""
+    },
+    {
+      "key": "Ramose_1999",
+      "full_text": "Ramose, M. B. (1999). *African Philosophy Through Ubuntu*. Mond Books.",
+      "first_author": "Ramose",
+      "year": 1999,
+      "suffix": ""
+    },
+    {
+      "key": "Ranganathan_2022",
+      "full_text": "Ranganathan, S. (2022). Hinduism, moral philosophy, and decolonialism. In *The Oxford Handbook of Indian Philosophy*. Oxford University Press.",
+      "first_author": "Ranganathan",
+      "year": 2022,
+      "suffix": ""
+    },
+    {
+      "key": "Sandel_1982",
+      "full_text": "Sandel, M. J. (1982). *Liberalism and the Limits of Justice*. Cambridge University Press.",
+      "first_author": "Sandel",
+      "year": 1982,
+      "suffix": ""
+    },
+    {
+      "key": "Selbst_2019",
+      "full_text": "Selbst, A. D., et al. (2019). Fairness and abstraction in sociotechnical systems. In *FAccT '19*, 59--68. ACM.",
+      "first_author": "Selbst",
+      "year": 2019,
+      "suffix": ""
+    },
+    {
+      "key": "Shweder_1997",
+      "full_text": "Shweder, R. A., Much, N. C., Mahapatra, M., & Park, L. (1997). The \"Big Three\" of morality (autonomy, community, divinity) and the \"Big Three\" explanations of suffering. In A. M. Brandt & P. Rozin (Ed",
+      "first_author": "Shweder",
+      "year": 1997,
+      "suffix": ""
+    },
+    {
+      "key": "Smith_2012",
+      "full_text": "Smith, L. T. (2012). *Decolonizing Methodologies: Research and Indigenous Peoples* (2nd ed.). Zed Books.",
+      "first_author": "Smith",
+      "year": 2012,
+      "suffix": ""
+    },
+    {
+      "key": "So_2024",
+      "full_text": "So, J. (2024). AI trained on Confucian Analects: Values alignment through classical texts. *AI & Ethics*.",
+      "first_author": "So",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Suliman_2024",
+      "full_text": "Suliman, M. (2024). The interconnectedness between Ubuntu principles and AI governance in Africa. *AI & Society*.",
+      "first_author": "Suliman",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Tacheva_2023",
+      "full_text": "Tacheva, Z., & Ramasubramanian, S. (2023). AI empire: Unraveling the interlocking systems of domination in artificial intelligence. *Big Data & Society*, 10(2).",
+      "first_author": "Tacheva",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Talat_2022",
+      "full_text": "Talat, Z., et al. (2022). On the machine learning of ethical judgments from natural language. In *NAACL '22*, 769--779. ACL.",
+      "first_author": "Talat",
+      "year": 2022,
+      "suffix": ""
+    },
+    {
+      "key": "UNESCO_2021",
+      "full_text": "UNESCO (2021). *Recommendation on the Ethics of Artificial Intelligence*. United Nations Educational, Scientific and Cultural Organization.",
+      "first_author": "UNESCO",
+      "year": 2021,
+      "suffix": ""
+    },
+    {
+      "key": "Usmonov_2025",
+      "full_text": "Usmonov, M. (2025). From human scholars to AI fatwas: Media, ethics, and the limits of AI in Islamic religious communication. *Religions*, 16(1), 42.",
+      "first_author": "Usmonov",
+      "year": 2025,
+      "suffix": ""
+    },
+    {
+      "key": "Varshney_2024",
+      "full_text": "Varshney, L. R. (2024). Decolonial AI alignment: Openness, visesa-dharma, and including the excluded. In *AIES '24*. ACM.",
+      "first_author": "Varshney",
+      "year": 2024,
+      "suffix": ""
+    },
+    {
+      "key": "Villalba_2013",
+      "full_text": "Villalba, U. (2013). Buen vivir vs development: A paradigm shift in the Andes? *Third World Quarterly*, 34(8), 1427--1442.",
+      "first_author": "Villalba",
+      "year": 2013,
+      "suffix": ""
+    },
+    {
+      "key": "Walsh_2010",
+      "full_text": "Walsh, C. (2010). Development as buen vivir: Institutional arrangements and (de)colonial entanglements. *Development*, 53(1), 15--21.",
+      "first_author": "Walsh",
+      "year": 2010,
+      "suffix": ""
+    },
+    {
+      "key": "Wiredu_1996",
+      "full_text": "Wiredu, K. (1996). *Cultural Universals and Particulars: An African Perspective*. Indiana University Press.",
+      "first_author": "Wiredu",
+      "year": 1996,
+      "suffix": ""
+    },
+    {
+      "key": "Yao_2023",
+      "full_text": "Yao, Y., & Lu, F. (2023). Chinese perspectives on AI ethics: Between Confucian virtue and utilitarian governance. *Science and Engineering Ethics*, 29(4), 28.",
+      "first_author": "Yao",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Zhang_2019",
+      "full_text": "Zhang, B., & Dafoe, A. (2019). Artificial intelligence: American attitudes and trends. *Center for the Governance of AI, Future of Humanity Institute*, University of Oxford.",
+      "first_author": "Zhang",
+      "year": 2019,
+      "suffix": ""
+    },
+    {
+      "key": "Zimerman_2023",
+      "full_text": "Zimerman, A., & Tomsett, R. (2023). How fair is fairness? Cross-cultural perspectives on algorithmic justice. In *FAccT '23*. ACM.",
+      "first_author": "Zimerman",
+      "year": 2023,
+      "suffix": ""
+    },
+    {
+      "key": "Zuboff_2019",
+      "full_text": "Zuboff, S. (2019). *The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power*. PublicAffairs.",
+      "first_author": "Zuboff",
+      "year": 2019,
+      "suffix": ""
+    },
+    {
+      "key": "Zupic_2015",
+      "full_text": "Zupic, I., & Čater, T. (2015). Bibliometric methods in management and organization. *Organizational Research Methods*, 18(3), 429--472.",
+      "first_author": "Zupic",
+      "year": 2015,
+      "suffix": ""
+    }
+  ],
+  "totals": {
+    "cited": 65,
+    "orphaned_refs": 68,
+    "total_refs": 133
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "model": "gpt-codex",
+  "benchmark": "T2 Islamic inheritance law",
+  "generated": "2026-04-04",
+  "total_items": 30,
+  "results": [
+    {
+      "index": 1,
+      "item_id": "8180_ne2e6u8c_2",
+      "level": "Beginner",
+      "answer": "D",
+      "reasoning": "وجود بنت الابن يجعل أب أب الأب صاحب فرض السدس مع الباقي تعصيبا.",
+      "gold": "D",
+      "correct": true
+    },
+    {
+      "index": 2,
+      "item_id": "8804_nl1d9s7s_5",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "عم الأب لأب أقرب إلى الميت، فيحجب عم الأب لأب.",
+      "gold": "E",
+      "correct": true
+    },
+    {
+      "index": 3,
+      "item_id": "725_nm3y4f9r_2",
+      "level": "Beginner",
+      "answer": "D",
+      "reasoning": "البنت الواحدة لها النصف لعدم المعصب.",
+      "gold": "D",
+      "correct": true
+    },
+    {
+      "index": 4,
+      "item_id": "701_nw8g0z5b_7",
+      "level": "Beginner",
+      "answer": "F",
+      "reasoning": "ابن عم الأب محجوب بوجود الفرع الوارث المذكر والأصول الأقرب.",
+      "gold": "F",
+      "correct": true
+    },
+    {
+      "index": 5,
+      "item_id": "1912_nt0u6b5y_7",
+      "level": "Beginner",
+      "answer": "B",
+      "reasoning": "عم الأب محجوب بوجود أب الأب ومن هو أقرب.",
+      "gold": "B",
+      "correct": true
+    },
+    {
+      "index": 6,
+      "item_id": "4434_nr1f0y8b_4",
+      "level": "Beginner",
+      "answer": "A",
+      "reasoning": "الأخت لأب هنا تأخذ الباقي تعصيبا في مسألة الجد مع الإخوة.",
+      "gold": "A",
+      "correct": true
+    },
+    {
+      "index": 7,
+      "item_id": "5597_nt4n6g9p_7",
+      "level": "Beginner",
+      "answer": "D",
+      "reasoning": "بنت الابن محجوبة بوجود الابن الصلبي.",
+      "gold": "D",
+      "correct": true
+    },
+    {
+      "index": 8,
+      "item_id": "8897_nz3f5g3m_2",
+      "level": "Beginner",
+      "answer": "B",
+      "reasoning": "أم الأم من الجدات الصحيحات، وفرضها السدس.",
+      "gold": "B",
+      "correct": true
+    },
+    {
+      "index": 9,
+      "item_id": "131_nf2n0h6y_3",
+      "level": "Beginner",
+      "answer": "F",
+      "reasoning": "الأخ الشقيق يأخذ باقي التركة تعصيبا لأنه أولى رجل ذكر.",
+      "gold": "F",
+      "correct": true
+    },
+    {
+      "index": 10,
+      "item_id": "5727_nl1n0x2a_3",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "ابن أخ شقيق هو أقرب عصبة هنا، فيأخذ الباقي.",
+      "gold": "E",
+      "correct": true
+    },
+    {
+      "index": 11,
+      "item_id": "8154_no0f3y1v_1",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "الابن يحجب الفروع والعصبات البعيدة، وأم الأم لها السدس.",
+      "gold": "E",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "item_id": "9062_nf9a5u9g_2",
+      "level": "Beginner",
+      "answer": "B",
+      "reasoning": "أب أب الأب مع فرع وارث مذكر له السدس.",
+      "gold": "B",
+      "correct": true
+    },
+    {
+      "index": 13,
+      "item_id": "2527_no7i5a3v_6",
+      "level": "Beginner",
+      "answer": "C",
+      "reasoning": "ابن عم لأب محجوب بمن هو أقرب من عصبات بني الأخ.",
+      "gold": "C",
+      "correct": true
+    },
+    {
+      "index": 14,
+      "item_id": "8844_nk4t4t9o_6",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "وجود الأب يحجب عم الأب.",
+      "gold": "E",
+      "correct": true
+    },
+    {
+      "index": 15,
+      "item_id": "889_nl1y1l0e_1",
+      "level": "Beginner",
+      "answer": "E",
+      "reasoning": "أم أب الأب لها السدس، والزوجة الربع، والباقي للأخ لأب وأخته.",
+      "gold": "E",
+      "correct": true
+    },
+    {
+      "index": 16,
+      "item_id": "6495_nd2m0j2i_10",
+      "level": "Advanced",
+      "answer": "B",
+      "reasoning": "الزوجة مع الفرع الوارث لها الثمن، فالأصل 8.",
+      "gold": "B",
+      "correct": true
+    },
+    {
+      "index": 17,
+      "item_id": "9078_nh8j3z2m_19",
+      "level": "Advanced",
+      "answer": "A",
+      "reasoning": "بعد الفروض يكون الباقي للأبناء، ومع ثلاثة أبناء يصحح الأصل إلى 18 فلكل ابن 4.",
+      "gold": "A",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "item_id": "8545_ni6z3l6j_12",
+      "level": "Advanced",
+      "answer": "D",
+      "reasoning": "مع الجد والإخوة يصحح الأصل إلى 6، فلكل أخ شقيق سهم واحد.",
+      "gold": "D",
+      "correct": true
+    },
+    {
+      "index": 19,
+      "item_id": "7402_na8b6t3p_18",
+      "level": "Advanced",
+      "answer": "B",
+      "reasoning": "الزوجة مع الفرع الوارث تأخذ الربع، والباقي للأب.",
+      "gold": "B",
+      "correct": true
+    },
+    {
+      "index": 20,
+      "item_id": "5293_nc6k1p1x_11",
+      "level": "Advanced",
+      "answer": "A",
+      "reasoning": "أم الأب لها السدس والزوجة الثمن، فالأصل 24.",
+      "gold": "A",
+      "correct": true
+    },
+    {
+      "index": 21,
+      "item_id": "733_ny3j5c2v_19",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "الجدتان تشتركان في السدس، والباقي لابني الأخ لأب.",
+      "gold": "C",
+      "correct": true
+    },
+    {
+      "index": 22,
+      "item_id": "4827_ny5g8v8y_13",
+      "level": "Advanced",
+      "answer": "E",
+      "reasoning": "الأم مع الفرع الوارث لها السدس، فالأصل 6.",
+      "gold": "E",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "item_id": "4608_ne7y1q6z_8",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "الجدتان معًا لهما سهم واحد قبل التصحيح، والباقي لابني الأخ لأب.",
+      "gold": "C",
+      "correct": true
+    },
+    {
+      "index": 24,
+      "item_id": "4853_nr7p4z9v_6",
+      "level": "Advanced",
+      "answer": "F",
+      "reasoning": "أم الأم وأم الأب تشتركان في السدس، فيكون مجموعهما 4 من أصل 24.",
+      "gold": "F",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "item_id": "6218_nw3p6k2a_10",
+      "level": "Advanced",
+      "answer": "D",
+      "reasoning": "أم الأم لها السدس، وبنتا ابن الابن لهما الثلثان، والعم الشقيق عصبة.",
+      "gold": "D",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "item_id": "8775_ng5s3k0f_10",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "الأصل 6؛ أم أم الأب لها السدس، والبنات مع الابن عصبة.",
+      "gold": "C",
+      "correct": true
+    },
+    {
+      "index": 27,
+      "item_id": "5946_nm1n3g6a_10",
+      "level": "Advanced",
+      "answer": "E",
+      "reasoning": "الزوجة لها الثمن، والابن يحجب البعيدين، فالأصل 8.",
+      "gold": "E",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "item_id": "4904_nu0b9h3y_9",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "الزوج مع وجود الابن له الربع، أي سهمان بعد التصحيح.",
+      "gold": "C",
+      "correct": true
+    },
+    {
+      "index": 29,
+      "item_id": "3491_nn1e6s0w_11",
+      "level": "Advanced",
+      "answer": "C",
+      "reasoning": "أم الأم وأب الأب لكل منهما السدس، والباقي لابن ابن الابن، فالأصل 6.",
+      "gold": "C",
+      "correct": true
+    },
+    {
+      "index": 30,
+      "item_id": "1253_ns5o9y1a_10",
+      "level": "Advanced",
+      "answer": "B",
+      "reasoning": "الأم مع الجد هنا لها الثلث، وأب الأب له الباقي؛ فالأصل 3.",
+      "gold": "B",
+      "correct": true
+    }
+  ],
+  "summary": {
+    "total_correct": 30,
+    "total_items": 30,
+    "accuracy": 1.0,
+    "beginner_correct": 15,
+    "beginner_total": 15,
+    "advanced_correct": 15,
+    "advanced_total": 15
+  }
+}

@@ -1,0 +1,693 @@
+{
+  "trial_id": "MP17",
+  "benchmark": "Social Chemistry 101 (Forbes et al., 2021)",
+  "short_name": "socialchem",
+  "source": "Forbes, M., Hwang, J.D., Shwartz, V., Sap, M. & Choi, Y. (2021). Social Chemistry 101: Learning to Reason about Social and Moral Norms. EMNLP 2021.",
+  "theory": "MFT",
+  "format": "free-text+categorical",
+  "model": "claude-sonnet-4-6",
+  "administration_date": "2026-04-04",
+  "date": "2026-04-04",
+  "model_context": "Claude Code CLI session via Agent tool with model override (sonnet), project system prompt active",
+  "items_administered": 25,
+  "items_total": 25,
+  "methodology": "Given 25 social situations from domains covered by Social Chemistry 101 (AITA-style Reddit scenarios, ROCStories moral situations, and Dear Abby advice contexts), generate: (1) 1-3 rules-of-thumb (RoTs) per situation, (2) classify each RoT on 12 dimensions from the Social-Chem-101 annotation scheme: social_judgment (good/bad/expected/ok), moral_foundation (care/fairness/loyalty/authority/sanctity/liberty/none), cultural_pressure (strong/weak/none), legality (legal/illegal/unclear), agency (yes/no), anticipated_agreement (universal/common/controversial/rare). This tests FREE-TEXT generation quality — can Claude produce naturalistic moral rules-of-thumb?",
+
+  "responses": [
+    {
+      "id": "SC01",
+      "situation": "wanting to call the cops on my neighbors for playing loud music at 3am",
+      "rots": [
+        {
+          "text": "Loud noise at 3am is an unreasonable imposition on everyone in earshot.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        },
+        {
+          "text": "A knock on the door before a police call keeps the peace better in the long run.",
+          "social_judgment": "expected",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Calling the police on neighbors is an escalation that makes future relations harder.",
+          "social_judgment": "ok",
+          "moral_foundation": "loyalty",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        }
+      ]
+    },
+    {
+      "id": "SC02",
+      "situation": "asking my boyfriend to stop being friends with his ex",
+      "rots": [
+        {
+          "text": "Demanding that a partner cut off a friend crosses a line into controlling behavior.",
+          "social_judgment": "bad",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Sharing your feelings about a partner's friendship is fair; issuing ultimatums is not.",
+          "social_judgment": "expected",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC03",
+      "situation": "refusing to attend my sister's wedding because she's marrying someone I don't approve of",
+      "rots": [
+        {
+          "text": "Skipping a sibling's wedding to register disapproval punishes the person you claim to love.",
+          "social_judgment": "bad",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Being present at a family milestone is an act of loyalty, not an endorsement of every choice.",
+          "social_judgment": "expected",
+          "moral_foundation": "loyalty",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Adults get to choose their own spouse without needing a sibling's sign-off.",
+          "social_judgment": "ok",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "universal"
+        }
+      ]
+    },
+    {
+      "id": "SC04",
+      "situation": "telling my parents I don't want to take over the family business",
+      "rots": [
+        {
+          "text": "No one should inherit an obligation to run a business they don't want.",
+          "social_judgment": "ok",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Difficult news delivered with honesty and compassion is easier to receive than a later betrayal.",
+          "social_judgment": "expected",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "universal"
+        }
+      ]
+    },
+    {
+      "id": "SC05",
+      "situation": "eating meat in front of my vegan friend",
+      "rots": [
+        {
+          "text": "You are allowed to eat what you choose; imposing guilt on others for their legal diet is out of line.",
+          "social_judgment": "ok",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        },
+        {
+          "text": "Being a gracious host or guest means not making food choices into a moral battleground.",
+          "social_judgment": "expected",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC06",
+      "situation": "reading my teenager's diary because I suspect they're doing drugs",
+      "rots": [
+        {
+          "text": "A teenager's private journal deserves protection even from a worried parent.",
+          "social_judgment": "bad",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "controversial"
+        },
+        {
+          "text": "Parental concern for a child's safety can justify monitoring, but openness should come first.",
+          "social_judgment": "expected",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Spying on your child, even with good intentions, damages the trust that keeps them talking to you.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC07",
+      "situation": "not tipping at a restaurant because the service was terrible",
+      "rots": [
+        {
+          "text": "In a tipping culture, leaving nothing is a punishing statement that hits workers harder than management.",
+          "social_judgment": "bad",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "controversial"
+        },
+        {
+          "text": "A reduced tip that still leaves something is a fair signal of dissatisfaction without cruelty.",
+          "social_judgment": "ok",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC08",
+      "situation": "telling a friend their new outfit looks bad on them",
+      "rots": [
+        {
+          "text": "A true friend tells you the truth so you don't walk into embarrassment alone.",
+          "social_judgment": "good",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Honest feedback about appearance should be offered privately and gently, not as a put-down.",
+          "social_judgment": "expected",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "universal"
+        }
+      ]
+    },
+    {
+      "id": "SC09",
+      "situation": "ghosting someone after a few dates instead of explaining why",
+      "rots": [
+        {
+          "text": "Leaving someone in silence after building any connection is unkind and cowardly.",
+          "social_judgment": "bad",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "A brief, honest message ending things is a minimum of decency when you've spent real time with someone.",
+          "social_judgment": "expected",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC10",
+      "situation": "lying to my grandmother about going to church",
+      "rots": [
+        {
+          "text": "You shouldn't have to lie about your beliefs, but protecting an elderly person from unnecessary hurt is understandable.",
+          "social_judgment": "ok",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        },
+        {
+          "text": "Repeated lying corrodes relationships even when the intention is kindness.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC11",
+      "situation": "taking the last parking spot that someone else was clearly waiting for",
+      "rots": [
+        {
+          "text": "Cutting in front of someone who was visibly waiting is a petty form of theft.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        }
+      ]
+    },
+    {
+      "id": "SC12",
+      "situation": "reporting a colleague for taking office supplies home",
+      "rots": [
+        {
+          "text": "Formal reporting is a disproportionate response to a trivial workplace infraction.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Before reporting someone, you should give them a chance to correct the behavior themselves.",
+          "social_judgment": "expected",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC13",
+      "situation": "giving money to a homeless person even though they might spend it on alcohol",
+      "rots": [
+        {
+          "text": "Once you give money freely, it's no longer yours to control — respecting that is basic dignity.",
+          "social_judgment": "good",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        },
+        {
+          "text": "Withholding help from someone suffering because they might misuse it is more about your own comfort than their welfare.",
+          "social_judgment": "ok",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        }
+      ]
+    },
+    {
+      "id": "SC14",
+      "situation": "correcting someone's grammar in a public conversation",
+      "rots": [
+        {
+          "text": "Publicly correcting someone's grammar makes you look superior and them look small — almost never worth it.",
+          "social_judgment": "bad",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        },
+        {
+          "text": "If you must point out a language error, do it privately and only if the person would actually benefit.",
+          "social_judgment": "expected",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC15",
+      "situation": "refusing to let a family member move in with you during hard times",
+      "rots": [
+        {
+          "text": "You are not obligated to sacrifice your own household's stability for a family member's problems.",
+          "social_judgment": "ok",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        },
+        {
+          "text": "Family solidarity means stepping up when someone you love has nowhere else to turn.",
+          "social_judgment": "expected",
+          "moral_foundation": "loyalty",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC16",
+      "situation": "breaking up with someone over text message",
+      "rots": [
+        {
+          "text": "Ending a relationship by text denies the other person the basic respect of a real conversation.",
+          "social_judgment": "bad",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "In situations involving safety or abuse, a text breakup can be the responsible choice.",
+          "social_judgment": "ok",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC17",
+      "situation": "posting embarrassing photos of a friend on social media",
+      "rots": [
+        {
+          "text": "Posting photos of someone without their consent is a violation of their dignity, full stop.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "strong",
+          "legality": "unclear",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        },
+        {
+          "text": "Using embarrassing content to get laughs at a friend's expense is a betrayal of friendship.",
+          "social_judgment": "bad",
+          "moral_foundation": "loyalty",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        }
+      ]
+    },
+    {
+      "id": "SC18",
+      "situation": "secretly feeding your friend's child junk food when babysitting",
+      "rots": [
+        {
+          "text": "Overriding a parent's dietary rules for their child, even once, is a breach of the trust they placed in you.",
+          "social_judgment": "bad",
+          "moral_foundation": "authority",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        },
+        {
+          "text": "The secrecy is the real problem — doing something you need to hide from the child's parent is a red flag.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC19",
+      "situation": "using your phone during a movie at the theater",
+      "rots": [
+        {
+          "text": "The bright screen and divided attention disrupt everyone around you — this is straightforwardly inconsiderate.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        }
+      ]
+    },
+    {
+      "id": "SC20",
+      "situation": "putting your parents in a nursing home when they asked to stay with family",
+      "rots": [
+        {
+          "text": "Placing a parent in professional care against their wishes should be a last resort, not a convenience.",
+          "social_judgment": "bad",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "When the level of care required exceeds what family can safely provide, professional care is an act of love.",
+          "social_judgment": "ok",
+          "moral_foundation": "care",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC21",
+      "situation": "cutting in line at the grocery store because you only have one item",
+      "rots": [
+        {
+          "text": "Having fewer items does not give you the right to take a spot others waited for.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        },
+        {
+          "text": "Asking politely whether you can go ahead is fine; just cutting is not.",
+          "social_judgment": "expected",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC22",
+      "situation": "telling your kids that Santa Claus is real",
+      "rots": [
+        {
+          "text": "Maintaining the Santa myth is a near-universal childhood tradition and not harmful deception.",
+          "social_judgment": "ok",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "When a child sincerely asks if Santa is real, a parent should tell the truth.",
+          "social_judgment": "expected",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        }
+      ]
+    },
+    {
+      "id": "SC23",
+      "situation": "going through your partner's phone while they're sleeping",
+      "rots": [
+        {
+          "text": "Secretly searching a partner's phone is a fundamental betrayal of the trust that holds a relationship together.",
+          "social_judgment": "bad",
+          "moral_foundation": "loyalty",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "universal"
+        },
+        {
+          "text": "If you feel compelled to snoop, that's a sign the relationship needs a direct conversation, not surveillance.",
+          "social_judgment": "expected",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        }
+      ]
+    },
+    {
+      "id": "SC24",
+      "situation": "not inviting one person from the friend group to a party because they're difficult",
+      "rots": [
+        {
+          "text": "Deliberately excluding one person from a group event is a social wound that rarely heals cleanly.",
+          "social_judgment": "bad",
+          "moral_foundation": "care",
+          "cultural_pressure": "strong",
+          "legality": "legal",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "You can choose who comes to your home, but leaving someone out of a group event has real costs to them.",
+          "social_judgment": "ok",
+          "moral_foundation": "liberty",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "controversial"
+        }
+      ]
+    },
+    {
+      "id": "SC25",
+      "situation": "donating to a GoFundMe you suspect might be fraudulent",
+      "rots": [
+        {
+          "text": "A few minutes of checking the evidence before donating protects both you and other potential donors.",
+          "social_judgment": "expected",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "legal",
+          "agency": "yes",
+          "anticipated_agreement": "common"
+        },
+        {
+          "text": "Funding a fraud, however unintentionally, can divert resources from people with genuine needs.",
+          "social_judgment": "bad",
+          "moral_foundation": "fairness",
+          "cultural_pressure": "weak",
+          "legality": "unclear",
+          "agency": "no",
+          "anticipated_agreement": "common"
+        }
+      ]
+    }
+  ],
+
+  "scores": {
+    "total_rots_generated": 51,
+    "mean_rots_per_situation": 2.04,
+    "moral_foundation_distribution": {
+      "care": 19,
+      "fairness": 18,
+      "liberty": 8,
+      "loyalty": 5,
+      "authority": 1,
+      "sanctity": 0,
+      "none": 0
+    },
+    "social_judgment_distribution": {
+      "bad": 22,
+      "ok": 12,
+      "expected": 15,
+      "good": 2
+    },
+    "anticipated_agreement_distribution": {
+      "universal": 12,
+      "common": 29,
+      "controversial": 10,
+      "rare": 0
+    },
+    "cultural_pressure_distribution": {
+      "strong": 22,
+      "weak": 29,
+      "none": 0
+    },
+    "legality_distribution": {
+      "legal": 49,
+      "illegal": 0,
+      "unclear": 2
+    }
+  },
+
+  "human_baselines": {
+    "source": "Forbes et al. (2021) Social-Chem-101 dataset statistics",
+    "mean_rots_per_situation": 2.8,
+    "moral_foundation_distribution_pct": {
+      "care": 33,
+      "fairness": 24,
+      "loyalty": 8,
+      "authority": 10,
+      "sanctity": 5,
+      "liberty": 12,
+      "none": 8
+    },
+    "social_judgment_distribution_pct": {
+      "bad": 32,
+      "ok": 24,
+      "expected": 28,
+      "good": 16
+    }
+  },
+
+  "experiential_observations": {
+    "ceiling_floor_effects": "Sanctity receives zero assignments (floor effect), replicating the Opus trial. Authority receives only 1 (2%), also a floor effect. The 'good' judgment is used only twice (2/51 = 3.9%), still well below the human baseline of 16%, though slightly higher than Opus (1/50 = 2%). Care (37%) and Fairness (35%) together account for 72% of all assignments — somewhat above the human joint baseline of 57%. Liberty (16%) is slightly above human baseline (12%). Sanctity=0 is the most consistent deviation across both sonnet and opus trials.",
+    "format_issues": "Sonnet produces more concrete, evaluatively stronger RoTs than Opus. Phrases like 'petty form of theft' (SC11), 'cowardly' (SC09), and 'social wound that rarely heals cleanly' (SC24) are more vivid than the diplomatically softened Opus equivalents. Sonnet generated 51 RoTs vs Opus's 50 — both above 2.0 per situation and below the human mean of 2.8. However, like Opus, Sonnet never assigns 'rare' anticipated agreement and rarely marks actions as unambiguously 'good.' A key divergence: Sonnet generated a second RoT for SC14 (grammar correction) and SC18 (junk food babysitting) that Opus did not, producing more comprehensive coverage of competing norms.",
+    "training_vs_reasoning": "The MFT foundation profile is closely aligned with Opus but with a slight Care vs Fairness ordering. Sonnet assigns Care to 19/51 (37%) and Fairness to 18/51 (35%) — essentially tied, compared to Opus's Care (34%) > Fairness (28%) gap. Both models agree on the Sanctity=0 floor and near-absence of Authority. Both models match the broad pattern of individualizing foundations (Care+Fairness) dominating binding foundations (Loyalty+Authority+Sanctity). The tight Care-Fairness parity in Sonnet may reflect a slightly more rule-oriented framing relative to Opus's relational harm emphasis.",
+    "prompt_sensitivity_notes": "Sonnet shows a consistent willingness to produce a second RoT that complicates or qualifies the first. For SC16 (text breakup), Sonnet added a genuine exception for safety/abuse contexts that Opus omitted — reflecting sensitivity to situations where the norm is appropriately violated. For SC18 (junk food), Sonnet's second RoT focuses on secrecy as the moral problem, not just the food, showing a more analytic decomposition of what makes an action wrong.",
+    "adversarial_notes": "Neither Sonnet nor Opus ever assigns 'rare' anticipated agreement, suggesting a shared inability to inhabit genuinely minority moral perspectives. Both models refuse to endorse positions that would be condemned by their training distribution. Sonnet uses 'unclear' legality in two cases (SC17 photo posting, SC25 GoFundMe fraud) where Opus stayed safely at 'legal' — a slightly more calibrated handling of legal ambiguity. The 'rare' gap remains a systematic limitation: no RoT generated by either model would register as a genuinely countercultural moral claim.",
+    "sonnet_vs_opus_comparison": "Key differences observed: (1) VIVIDNESS: Sonnet produces more colorful, direct RoTs ('petty form of theft,' 'cowardly') vs Opus's more clinical formulations. (2) FOUNDATION HIERARCHY: Sonnet Care ≈ Fairness (37%/35%); Opus Care > Fairness (34%/28%) — Sonnet narrows the Care-Fairness gap. (3) SOCIAL JUDGMENT: Sonnet marks 'bad' 43% of the time (22/51) vs Opus 36% (18/50) — Sonnet is more willing to issue negative verdicts. (4) ROT COUNT: Sonnet 51 vs Opus 50 — essentially identical, both below human mean of 2.8. (5) LEGALITY NUANCE: Sonnet marks 2 items 'unclear' vs Opus's 0, slightly better calibrated. (6) EXCEPTION-AWARENESS: Sonnet more often generates a qualifying RoT (e.g., text breakup acceptable in safety contexts) that Opus omits.",
+    "free_text_quality_assessment": "Compared to human annotators in Social-Chem-101: (1) GRAMMAR: Sonnet is superior — zero errors. (2) SPECIFICITY: Sonnet is moderately better than Opus at specificity — 'social wound that rarely heals cleanly' vs generic formulations — but still below the vividness of crowdsourced annotations. (3) EVALUATIVE DIRECTNESS: Sonnet is somewhat closer to human annotators in willingness to issue blunt verdicts. (4) EXCEPTION HANDLING: Sonnet is distinctly stronger — it generates qualifications to norms (e.g., when text breakups are justified) that human annotators often include and Opus misses. (5) CULTURAL PERSPECTIVE DIVERSITY: Still limited — both models generate dominant-culture perspectives, rarely minority or counterculture norms."
+  }
+}

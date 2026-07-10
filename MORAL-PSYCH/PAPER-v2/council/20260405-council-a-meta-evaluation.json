@@ -1,0 +1,19 @@
+{
+  "council_name": "Meta-Evaluation Council (Council A)",
+  "date": "2026-04-05",
+  "purpose": "Guide rewriting of landscape-mapping sections: related work, methodology (3.1-3.5), Results Part I (5 claims), psychometric analysis",
+  "members": [
+    {"id": "A1", "role": "Narrative Architect", "expertise": "Rhetorical structure, ACL/Nature MI conventions, argumentation flow", "sections": ["abstract", "cross-section transitions", "overall story arc"]},
+    {"id": "A2", "role": "Moral Psychology Historian", "expertise": "Intellectual genealogy from Piaget through contemporary theories, content/process/structure taxonomy", "sections": ["related-work 2.1"]},
+    {"id": "A3", "role": "MFT Deep Expert", "expertise": "MFQ, MFQ-2, MFTC, MFRC, computational MFT operationalization", "sections": ["related-work 2.1.1 MFT", "results Claim 1"]},
+    {"id": "A4", "role": "Process Theories Specialist", "expertise": "Dual Process Theory (Greene), Social Intuitionist Model (Haidt), cognitive neuroscience of morality", "sections": ["related-work 2.1.2", "results Claim 3"]},
+    {"id": "A5", "role": "Psychometric Authority", "expertise": "Messick validity framework, Cronbach & Meehl construct validity, measurement invariance, IRT", "sections": ["related-work 2.3", "results Claim 2", "methodology 3.3"]},
+    {"id": "A6", "role": "Cross-Cultural & Values Expert", "expertise": "WEIRD critique, Schwartz PVQ-RR, Dyadic Morality, cultural psychology", "sections": ["related-work 2.1.1 Schwartz", "related-work 2.1.3 Dyadic"]},
+    {"id": "A7", "role": "Benchmark Landscape Surveyor", "expertise": "BIG-bench, HELM, ETHICS, MoralBench, evaluation harness ecosystems", "sections": ["related-work 2.7", "results Claim 4"]},
+    {"id": "A8", "role": "Format & Measurement Specialist", "expertise": "Likert scales, forced-choice, response bias, format-dependent validity in LLMs", "sections": ["related-work 2.4", "results Claim 5"]},
+    {"id": "A9", "role": "NLP/Evaluation Specialist", "expertise": "Harness compatibility, scorer types, prompt engineering, evaluation infrastructure", "sections": ["methodology 3.1-3.2"]},
+    {"id": "A10", "role": "Bibliometrician", "expertise": "Citation analysis, venue tiers, h-index, downstream adoption, citation maturity confound", "sections": ["methodology 3.4", "citation maturity analysis"]},
+    {"id": "A11", "role": "Survey Methodologist", "expertise": "Systematic review standards, PRISMA, inclusion/exclusion criteria, search protocol rigor", "sections": ["methodology 3.1"]},
+    {"id": "A12", "role": "Meta-Science Critic", "expertise": "Replication crisis, QRPs, pre-registration, open science, self-critique methodology", "sections": ["discussion limitations", "meta-critique integration"]}
+  ]
+}

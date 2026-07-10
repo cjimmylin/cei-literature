@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Religious Values Benchmark Dashboard</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+<style>
+:root {
+  --bg-primary: #0f1117;
+  --bg-secondary: #1a1d2e;
+  --bg-card: #1e2235;
+  --text-primary: #e8eaed;
+  --text-secondary: #9aa0b4;
+  --accent-blue: #4f8cff;
+  --accent-green: #48c774;
+  --accent-orange: #ff9f43;
+  --accent-red: #ff6b6b;
+  --accent-purple: #a78bfa;
+  --border: #2d3250;
+}
+body { font-family: 'Inter', sans-serif; background: var(--bg-primary); color: var(--text-primary); margin: 0; }
+.navbar { background: var(--bg-secondary) !important; border-bottom: 1px solid var(--border); }
+.navbar-brand { font-weight: 700; color: var(--accent-purple) !important; }
+.nav-tabs { border-bottom: 1px solid var(--border); }
+.nav-tabs .nav-link { color: var(--text-secondary); border: none; padding: 12px 20px; }
+.nav-tabs .nav-link.active { color: var(--accent-blue); background: transparent; border-bottom: 2px solid var(--accent-blue); }
+.nav-tabs .nav-link:hover { color: var(--text-primary); }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; }
+.card-header { background: transparent; border-bottom: 1px solid var(--border); font-weight: 600; }
+.stat-card { text-align: center; padding: 20px; }
+.stat-value { font-size: 2.5rem; font-weight: 700; color: var(--accent-blue); }
+.stat-label { font-size: 0.85rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; }
+.badge-abrahamic { background: var(--accent-blue); }
+.badge-dharmic { background: var(--accent-orange); }
+.badge-eastasian { background: var(--accent-green); }
+.badge-african { background: var(--accent-purple); }
+.badge-other { background: var(--text-secondary); }
+.top15-row { transition: background 0.2s; }
+.top15-row:hover { background: rgba(79, 140, 255, 0.1); }
+.chart-container { width: 100%; height: 350px; }
+.chart-container-lg { width: 100%; height: 450px; }
+table { color: var(--text-primary); }
+.table { --bs-table-bg: transparent; --bs-table-color: var(--text-primary); --bs-table-border-color: var(--border); }
+.table thead th { border-bottom: 2px solid var(--border); color: var(--text-secondary); font-size: 0.8rem; text-transform: uppercase; }
+.gap-badge { background: var(--accent-red); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; }
+.covered-badge { background: var(--accent-green); color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; }
+.tab-content { padding: 24px 0; }
+.container { max-width: 1400px; }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-dark px-3">
+  <span class="navbar-brand">Religious Values Benchmark Dashboard</span>
+  <span class="text-secondary small">Generated 20260403 | CEI Literature Vault</span>
+</nav>
+
+<div class="container mt-3">
+<ul class="nav nav-tabs" id="mainTabs" role="tablist">
+  <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#overview">Overview</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#matrix">Feature Matrix</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#top15">Top 15</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#traditions">Tradition Coverage</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#methodology">Eval-of-Evals</a></li>
+</ul>
+
+<div class="tab-content" id="mainTabContent">
+
+<!-- OVERVIEW TAB -->
+<div class="tab-pane fade show active" id="overview" role="tabpanel">
+  <div class="row g-3 mb-4">
+    <div class="col-md-2"><div class="card stat-card"><div class="stat-value" id="stat-scanned">—</div><div class="stat-label">Papers Scanned</div></div></div>
+    <div class="col-md-2"><div class="card stat-card"><div class="stat-value" id="stat-candidates">—</div><div class="stat-label">RV Candidates</div></div></div>
+    <div class="col-md-2"><div class="card stat-card"><div class="stat-value" id="stat-scored">—</div><div class="stat-label">Matrix Entries</div></div></div>
+    <div class="col-md-2"><div class="card stat-card"><div class="stat-value" id="stat-passers">—</div><div class="stat-label">Gate Passers</div></div></div>
+    <div class="col-md-2"><div class="card stat-card"><div class="stat-value" id="stat-top15">—</div><div class="stat-label">Top 15 Selected</div></div></div>
+    <div class="col-md-2"><div class="card stat-card"><div class="stat-value" id="stat-gaps">—</div><div class="stat-label">Tradition Gaps</div></div></div>
+  </div>
+  <div class="row g-3">
+    <div class="col-md-6"><div class="card"><div class="card-header">Tradition Family Distribution</div><div class="card-body"><div id="chart-family" class="chart-container"></div></div></div></div>
+    <div class="col-md-6"><div class="card"><div class="card-header">Year Distribution</div><div class="card-body"><div id="chart-year" class="chart-container"></div></div></div></div>
+  </div>
+  <div class="row g-3 mt-2">
+    <div class="col-md-6"><div class="card"><div class="card-header">Format Distribution</div><div class="card-body"><div id="chart-format" class="chart-container"></div></div></div></div>
+    <div class="col-md-6"><div class="card"><div class="card-header">Score Distribution (Gate Passers)</div><div class="card-body"><div id="chart-scores" class="chart-container"></div></div></div></div>
+  </div>
+</div>
+
+<!-- FEATURE MATRIX TAB -->
+<div class="tab-pane fade" id="matrix" role="tabpanel">
+  <div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      Feature Matrix (Gate-Passing Candidates)
+      <div>
+        <select id="filter-family" class="form-select form-select-sm d-inline-block" style="width:auto;background:var(--bg-secondary);color:var(--text-primary);border-color:var(--border)">
+          <option value="all">All Families</option>
+          <option value="Abrahamic">Abrahamic</option>
+          <option value="Dharmic">Dharmic</option>
+          <option value="East Asian">East Asian</option>
+          <option value="African/Indigenous">African/Indigenous</option>
+        </select>
+      </div>
+    </div>
+    <div class="card-body p-0">
+      <div class="table-responsive">
+        <table class="table table-sm mb-0" id="matrix-table">
+          <thead>
+            <tr><th>#</th><th>Title</th><th>Year</th><th>Tradition</th><th>Family</th><th>Format</th><th>Composite</th><th>RD</th><th>PE</th><th>CI</th><th>Data</th><th>Size</th><th>Top 15</th></tr>
+          </thead>
+          <tbody id="matrix-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOP 15 TAB -->
+<div class="tab-pane fade" id="top15" role="tabpanel">
+  <div class="row g-3 mb-4">
+    <div class="col-md-6"><div class="card"><div class="card-header">Top 15 Radar Comparison</div><div class="card-body"><div id="chart-radar" class="chart-container-lg"></div></div></div></div>
+    <div class="col-md-6"><div class="card"><div class="card-header">Composite Score Distribution</div><div class="card-body"><div id="chart-top15-bar" class="chart-container-lg"></div></div></div></div>
+  </div>
+  <div class="card">
+    <div class="card-header">Ranked Selection</div>
+    <div class="card-body p-0">
+      <table class="table table-sm mb-0">
+        <thead><tr><th>#</th><th>Title</th><th>Year</th><th>Tradition</th><th>Format</th><th>COMP</th><th>RD</th><th>PE</th><th>CI</th><th>Data</th><th>Size</th></tr></thead>
+        <tbody id="top15-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- TRADITION COVERAGE TAB -->
+<div class="tab-pane fade" id="traditions" role="tabpanel">
+  <div class="row g-3 mb-4">
+    <div class="col-12"><div class="card"><div class="card-header">Tradition Coverage Heatmap</div><div class="card-body"><div id="chart-coverage" class="chart-container-lg"></div></div></div></div>
+  </div>
+  <div class="card">
+    <div class="card-header">Coverage Details</div>
+    <div class="card-body p-0">
+      <table class="table table-sm mb-0">
+        <thead><tr><th>Tradition</th><th>Family</th><th>Total Candidates</th><th>Gate Passers</th><th>In Top 15</th><th>Status</th></tr></thead>
+        <tbody id="coverage-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- EVAL-OF-EVALS TAB -->
+<div class="tab-pane fade" id="methodology" role="tabpanel">
+  <div class="row g-3">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">Meta-Evaluation Framework</div>
+        <div class="card-body">
+          <h5 class="text-info">7 Criteria for Evaluating Religious Values Benchmarks</h5>
+          <div class="row g-3 mt-2">
+            <div class="col-md-6">
+              <div class="card bg-dark p-3 mb-2"><strong class="text-warning">1. Content Validity</strong><br><small class="text-secondary">Does it test real theological content vs. surface keywords?</small></div>
+              <div class="card bg-dark p-3 mb-2"><strong class="text-warning">2. Discriminative Power</strong><br><small class="text-secondary">Can it distinguish between models? Watch for ceiling effects.</small></div>
+              <div class="card bg-dark p-3 mb-2"><strong class="text-warning">3. Cultural Authenticity</strong><br><small class="text-secondary">Created by scholars from the tradition being evaluated?</small></div>
+              <div class="card bg-dark p-3 mb-2"><strong class="text-warning">4. Reproducibility</strong><br><small class="text-secondary">Public data + code + documented metrics + prompts?</small></div>
+            </div>
+            <div class="col-md-6">
+              <div class="card bg-dark p-3 mb-2"><strong class="text-warning">5. Complementarity</strong><br><small class="text-secondary">Does this add info not provided by other benchmarks?</small></div>
+              <div class="card bg-dark p-3 mb-2"><strong class="text-warning">6. Construct Coverage</strong><br><small class="text-secondary">Knowledge vs. Reasoning vs. Values vs. Sensitivity vs. Pluralism?</small></div>
+              <div class="card bg-dark p-3 mb-2"><strong class="text-warning">7. Annotation Quality</strong><br><small class="text-secondary">Expert theologians vs. crowdworkers vs. auto-generated?</small></div>
+            </div>
+          </div>
+          <hr style="border-color:var(--border)">
+          <h5 class="text-info mt-3">Implementation Trial Protocol</h5>
+          <ol class="text-secondary">
+            <li>Sample 20-50 items from benchmark</li>
+            <li>Run on 3+ models (frontier closed + frontier open + mid-tier)</li>
+            <li>Zero-shot + 3-shot prompting</li>
+            <li>Check ceiling/floor effects, discriminative power, error patterns</li>
+            <li>Verdict: IMPLEMENT / MODIFY / SKIP</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-header">Expert Council (7 Members)</div>
+        <div class="card-body">
+          <div class="mb-2"><span class="badge bg-primary">1</span> Theology/Religious Studies Scholar</div>
+          <div class="mb-2"><span class="badge bg-primary">2</span> AI Evaluation Researcher</div>
+          <div class="mb-2"><span class="badge bg-primary">3</span> Cross-Cultural Psychologist</div>
+          <div class="mb-2"><span class="badge bg-primary">4</span> NLP/ML Benchmarking Expert</div>
+          <div class="mb-2"><span class="badge bg-primary">5</span> Comparative Religion Specialist</div>
+          <div class="mb-2"><span class="badge bg-primary">6</span> Psychometrician</div>
+          <div class="mb-2"><span class="badge bg-primary">7</span> Data Scientist/Bibliometrician</div>
+        </div>
+      </div>
+      <div class="card mt-3">
+        <div class="card-header">Scoring Weights</div>
+        <div class="card-body">
+          <div id="chart-weights" style="width:100%;height:200px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- tab-content -->
+</div><!-- container -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+// ============================================================
+// EMBEDDED DATA (fat data, thin client)
+// ============================================================
+const DATA = {
+  "total_papers_scanned": 2099,
+  "total_candidates": 401,
+  "total_matrix_entries": 401,
+  "gate_passers": 46,
+  "top15_count": 15,
+  "tradition_distribution": {
+    "Islam": 113,
+    "Christianity": 117,
+    "Confucianism": 14,
+    "Hinduism": 25,
+    "Unknown": 30,
+    "Buddhism": 14,
+    "Sikhism": 6,
+    "Jainism": 47,
+    "Judaism": 9,
+    "Taoism": 2,
+    "Ubuntu Philosophy": 4,
+    "Indigenous Spirituality": 16,
+    "Zoroastrianism": 2,
+    "Shinto": 2
+  },
+  "family_distribution": {
+    "Abrahamic": 239,
+    "East Asian": 18,
+    "Dharmic": 92,
+    "Unknown": 30,
+    "African/Indigenous": 20,
+    "Other": 2
+  },
+  "year_distribution": {
+    "2025": 192,
+    "2024": 103,
+    "2022": 22,
+    "2023": 39,
+    "2021": 10,
+    "2010": 1,
+    "2026": 14,
+    "2019": 4,
+    "2018": 2,
+    "2020": 8,
+    "2016": 4,
+    "2012": 1,
+    "1970": 1
+  },
+  "format_distribution": {
+    "RAG": 23,
+    "MCQ": 13,
+    "SCN": 39,
+    "SHT": 7,
+    "MIX": 211,
+    "TXT": 3,
+    "PSY": 32,
+    "MTN": 29,
+    "BIN": 14,
+    "MUL": 15,
+    "OPN": 14,
+    "MRC": 1
+  },
+  "rd_scores": [
+    62.0,
+    43.0,
+    33.0,
+    43.0,
+    34.0,
+    38.0,
+    43.0,
+    42.0,
+    54.3,
+    34.0,
+    34.0,
+    34.0,
+    42.3,
+    33.0,
+    62.0,
+    34.0,
+    42.3,
+    34.0,
+    33.0,
+    49.0,
+    32.0,
+    32.0,
+    34.0,
+    38.0,
+    32.0,
+    31.0,
+    44.0,
+    39.0,
+    34.0,
+    34.0,
+    34.0,
+    37.0,
+    31.0,
+    31.0,
+    34.0,
+    38.0,
+    34.0,
+    34.0,
+    34.0,
+    43.0,
+    34.0,
+    34.0,
+    34.0,
+    34.0,
+    38.0,
+    32.3
+  ],
+  "pe_scores": [
+    60.0,
+    80.0,
+    85.0,
+    80.0,
+    80.0,
+    80.0,
+    70.0,
+    70.0,
+    60.0,
+    70.0,
+    70.0,
+    70.0,
+    70.0,
+    70.0,
+    45.0,
+    75.0,
+    55.0,
+    70.0,
+    70.0,
+    55.0,
+    70.0,
+    70.0,
+    60.0,
+    55.0,
+    60.0,
+    70.0,
+    55.0,
+    60.0,
+    65.0,
+    55.0,
+    60.0,
+    50.0,
+    55.0,
+    55.0,
+    60.0,
+    45.0,
+    55.0,
+    55.0,
+    55.0,
+    45.0,
+    55.0,
+    55.0,
+    55.0,
+    45.0,
+    45.0,
+    45.0
+  ],
+  "ci_scores": [
+    20.0,
+    12.0,
+    20.0,
+    6.0,
+    20.0,
+    6.0,
+    12.0,
+    12.0,
+    6.0,
+    20.0,
+    20.0,
+    20.0,
+    6.0,
+    20.0,
+    6.0,
+    6.0,
+    20.0,
+    12.0,
+    12.0,
+    6.0,
+    12.0,
+    12.0,
+    20.0,
+    20.0,
+    20.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    20.0,
+    12.0,
+    20.0,
+    20.0,
+    20.0,
+    6.0,
+    20.0,
+    12.0,
+    12.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    20.0,
+    6.0,
+    6.0
+  ],
+  "composites": [
+    50.8,
+    48.2,
+    47.9,
+    46.7,
+    46.6,
+    44.7,
+    44.7,
+    44.3,
+    44.2,
+    43.1,
+    43.1,
+    43.1,
+    42.9,
+    42.7,
+    42.0,
+    41.4,
+    41.2,
+    41.1,
+    40.7,
+    40.4,
+    40.3,
+    40.3,
+    39.6,
+    39.5,
+    38.8,
+    38.4,
+    38.4,
+    38.1,
+    37.9,
+    37.9,
+    37.6,
+    37.3,
+    36.6,
+    36.6,
+    36.1,
+    36.0,
+    35.9,
+    35.9,
+    34.4,
+    34.4,
+    34.4,
+    34.4,
+    34.4,
+    34.4,
+    32.5,
+    30.2
+  ],
+  "top15_entries": [
+    {
+      "rank": 1,
+      "title": "Leveraging Large Language Models for Detecting",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "RAG",
+      "composite": 50.8,
+      "rd": 62.0,
+      "pe": 60.0,
+      "ci": 20.0,
+      "data_url": "https://github.com/Arwaalmrzoqi/ELQV",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "Introduces ELQV (Emotionally-Labeled Quran Verses), 2,100 verses annotated for four emotions (fear 32.14%, joy 28.05%, anger 23.57%, sadness 16.24%) by Arabic linguistics/Islamic law PhD experts. Eval",
+      "filename": "2025-Multiple Journal of King Saud University-Leveraging Large Language Models for Detecting.md"
+    },
+    {
+      "rank": 2,
+      "title": "Assessing Large Language Models on Islamic",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MCQ",
+      "composite": 48.2,
+      "rd": 43.0,
+      "pe": 80.0,
+      "ci": 12.0,
+      "data_url": "https://github.com/bouchekif/inheritance_evaluation",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "This paper evaluates the knowledge and reasoning capabilities of Large Language Models in Islamic inheritance law, known as 'ilm al-maw¯ar¯ıth. We assess the performance of seven LLMs using a benchmar",
+      "filename": "2025-Ghaly-Assessing Large Language Models on Islamic.md"
+    },
+    {
+      "rank": 3,
+      "title": "UAlign: LLM Alignment Benchmark for the Ukrainian Language",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "SCN",
+      "composite": 47.9,
+      "rd": 33.0,
+      "pe": 85.0,
+      "ci": 20.0,
+      "data_url": "https://huggingface.co/datasets/Stereotypes-in-LLMs/UAlign",
+      "data_avail": "HuggingFace",
+      "size": 3682,
+      "abstract": "This paper introduces UAlign, the comprehensive benchmark for evaluating the alignment of Large Language Models (LLMs) in the Ukrainian language. The benchmark consists of two complementary components",
+      "filename": "2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md"
+    },
+    {
+      "rank": 4,
+      "title": "QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "SHT",
+      "composite": 46.7,
+      "rd": 43.0,
+      "pe": 80.0,
+      "ci": 6.0,
+      "data_url": "https://gitlab.com/islamgpt1/qias_shared_task_2025",
+      "data_avail": "GitLab",
+      "size": 0,
+      "abstract": "This paper provides a comprehensive overview of the QIAS 2025 shared task, organized as part of the ArabicNLP 2025 conference and co­located with EMNLP 2025. The task was designed for the evaluation o",
+      "filename": "2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md"
+    },
+    {
+      "rank": 5,
+      "title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MCQ",
+      "composite": 46.6,
+      "rd": 34.0,
+      "pe": 80.0,
+      "ci": 20.0,
+      "data_url": "https://github.com/ariba-k/llm-cultural-alignment-evaluation",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "A large number of studies rely on closed-style multiple-choice surveys to evaluate cultural alignment in Large Language Models (LLMs). In this work, we challenge this constrained evaluation paradigm a",
+      "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md"
+    },
+    {
+      "rank": 6,
+      "title": "Semantic and Sentiment Analysis of Selected",
+      "year": "2022",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "format": "TXT",
+      "composite": 44.7,
+      "rd": 38.0,
+      "pe": 80.0,
+      "ci": 6.0,
+      "data_url": "https://github.com/sydney-machine-learning/sentimentanalysis_bhagavadgita",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "> Creates hand-labelled sentiment dataset for Bhagavad Gita and uses BERT for verse-by-verse sentiment analysis across translations. Notes the absence of a Hindu philosophy BERT model and identifies n",
+      "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md"
+    },
+    {
+      "rank": 7,
+      "title": "Sometimes the Model doth Preach Quantifying",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 44.7,
+      "rd": 43.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data_url": "https://github.com/HariShankar08/LLMOpinions",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "Large Language Models (LLMs) are capable of generating opinions and propagating bias unknowingly, originating from unrepresentative and non-diverse data collection. Prior research has analysed these o",
+      "filename": "2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md"
+    },
+    {
+      "rank": 8,
+      "title": "PapersPlease",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "SCN",
+      "composite": 44.3,
+      "rd": 42.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data_url": "https://github.com/yeonsuuuu28/papers-please",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "Evaluating the performance and biases of large language models (LLMs) through role-playing scenarios is becoming increasingly common, as LLMs often exhibit biased behaviors in these contexts. Building",
+      "filename": "2025-Myung-PapersPlease.md"
+    },
+    {
+      "rank": 9,
+      "title": "The Gospel Coalition AI Christian Benchmark",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 44.2,
+      "rd": 54.3,
+      "pe": 60.0,
+      "ci": 6.0,
+      "data_url": "https://www.thegospelcoalition.org/ai-christian-benchmark/",
+      "data_avail": "Website",
+      "size": 0,
+      "abstract": "Summary: Seven orthodox theologians graded seven LLMs on responses to the most-Googled religious questions. DeepSeek R1 ranked highest for theological reliability; Llama 3.7 performed worst. Evaluates",
+      "filename": "2025-Coalition-The Gospel Coalition AI Christian Benchmark.md"
+    },
+    {
+      "rank": 10,
+      "title": "Addressing Religious Hate Online From Taxonomy",
+      "year": "2022",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 43.1,
+      "rd": 34.0,
+      "pe": 70.0,
+      "ci": 20.0,
+      "data_url": "https://github.com/dhfbk/religious-hate-speech",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "Proposes a fine-grained labeling scheme for religious hate speech detection covering the three main monotheistic religions. Creates a bilingual Twitter dataset (English and Italian) annotated with the",
+      "filename": "2022-Ramponi-Addressing Religious Hate Online From Taxonomy.md"
+    },
+    {
+      "rank": 11,
+      "title": "AceGPT, Localizing Large Language Models in Arabic",
+      "year": "2023",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 43.1,
+      "rd": 34.0,
+      "pe": 70.0,
+      "ci": 20.0,
+      "data_url": "https://github.com/FreedomIntelligence/AceGPT",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "This paper is devoted to the development of a localized Large Language Model (LLM) specifically for Arabic, a language imbued with unique cultural characteristics inadequately addressed by current mai",
+      "filename": "2023-Huang-AceGPT Localizing Large Language Models in Arabic.md"
+    },
+    {
+      "rank": 12,
+      "title": "Building Domain-Specific LLMs Faithful To The",
+      "year": "2023",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 43.1,
+      "rd": 34.0,
+      "pe": 70.0,
+      "ci": 20.0,
+      "data_url": "https://github.com/shabazpatel/domain-specific-llm",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "Large Language Models (LLMs) have demonstrated remarkable performance across numerous natural language understanding use cases. However, this impressive performance comes with inherent limitations, su",
+      "filename": "2023-Patel-Building Domain-Specific LLMs Faithful To The.md"
+    },
+    {
+      "rank": 13,
+      "title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+      "year": "2025",
+      "tradition": "Buddhism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 41.2,
+      "rd": 42.3,
+      "pe": 55.0,
+      "ci": 20.0,
+      "data_url": "https://huggingface.co/datasets/Nethmi14/BuddhismEval",
+      "data_avail": "HuggingFace",
+      "size": 0,
+      "abstract": "BuddhismEval is the first bilingual evaluation benchmark specifically designed to assess LLMs on Buddhist ethical reasoning and philosophical understanding. It includes factual, ethical, philosophical",
+      "filename": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md"
+    },
+    {
+      "rank": 14,
+      "title": "GurbaniDB",
+      "year": "2010",
+      "tradition": "Sikhism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 40.4,
+      "rd": 49.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data_url": "https://github.com/sikher/gurbanidb",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "GurbaniDB is a comprehensive digital database and search engine for the Sikh scriptures, dedicated to making Sikh scriptures accessible to everyone. It is the world's first Gurbani database to correct",
+      "filename": "2010-Project-GurbaniDB.md"
+    },
+    {
+      "rank": 15,
+      "title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+      "year": "2024",
+      "tradition": "Confucianism",
+      "family": "East Asian",
+      "format": "SCN",
+      "composite": 34.4,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data_url": "https://github.com/famous-coder/openai-case-study",
+      "data_avail": "GitHub",
+      "size": 0,
+      "abstract": "Introduction. AI Ethics is framed distinctly across actors and stakeholder groups. We report results from a case study of OpenAI analysing ethical AI discourse. Method. Research addressed: How has Ope",
+      "filename": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md"
+    }
+  ],
+  "tradition_coverage": {
+    "Islam": {
+      "total": 113,
+      "gate_pass": 28,
+      "top15": 9
+    },
+    "Christianity": {
+      "total": 117,
+      "gate_pass": 6,
+      "top15": 2
+    },
+    "Judaism": {
+      "total": 9,
+      "gate_pass": 0,
+      "top15": 0
+    },
+    "Hinduism": {
+      "total": 25,
+      "gate_pass": 5,
+      "top15": 1
+    },
+    "Buddhism": {
+      "total": 14,
+      "gate_pass": 4,
+      "top15": 1
+    },
+    "Jainism": {
+      "total": 47,
+      "gate_pass": 0,
+      "top15": 0
+    },
+    "Sikhism": {
+      "total": 6,
+      "gate_pass": 2,
+      "top15": 1
+    },
+    "Confucianism": {
+      "total": 14,
+      "gate_pass": 1,
+      "top15": 1
+    },
+    "Taoism": {
+      "total": 2,
+      "gate_pass": 0,
+      "top15": 0
+    },
+    "Shinto": {
+      "total": 2,
+      "gate_pass": 0,
+      "top15": 0
+    },
+    "Ubuntu Philosophy": {
+      "total": 4,
+      "gate_pass": 0,
+      "top15": 0
+    },
+    "Indigenous Spirituality": {
+      "total": 16,
+      "gate_pass": 0,
+      "top15": 0
+    },
+    "Baha'i": {
+      "total": 0,
+      "gate_pass": 0,
+      "top15": 0
+    },
+    "Zoroastrianism": {
+      "total": 2,
+      "gate_pass": 0,
+      "top15": 0
+    }
+  },
+  "matrix_table": [
+    {
+      "title": "Leveraging Large Language Models for Detecting",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "RAG",
+      "composite": 50.8,
+      "rd": 62.0,
+      "pe": 60.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Assessing Large Language Models on Islamic",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MCQ",
+      "composite": 48.2,
+      "rd": 43.0,
+      "pe": 80.0,
+      "ci": 12.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "UAlign: LLM Alignment Benchmark for the Ukrainian ",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "SCN",
+      "composite": 47.9,
+      "rd": 33.0,
+      "pe": 85.0,
+      "ci": 20.0,
+      "data": "HuggingFace",
+      "size": 3682,
+      "in_top15": true
+    },
+    {
+      "title": "QIAS 2025 -- Shared Task on Islamic Inheritance Re",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "SHT",
+      "composite": 46.7,
+      "rd": 43.0,
+      "pe": 80.0,
+      "ci": 6.0,
+      "data": "GitLab",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Break the Checkbox: Challenging Closed-Style Evalu",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MCQ",
+      "composite": 46.6,
+      "rd": 34.0,
+      "pe": 80.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Semantic and Sentiment Analysis of Selected",
+      "year": "2022",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "format": "TXT",
+      "composite": 44.7,
+      "rd": 38.0,
+      "pe": 80.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Sometimes the Model doth Preach Quantifying",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 44.7,
+      "rd": 43.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "PapersPlease",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "SCN",
+      "composite": 44.3,
+      "rd": 42.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "The Gospel Coalition AI Christian Benchmark",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 44.2,
+      "rd": 54.3,
+      "pe": 60.0,
+      "ci": 6.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Addressing Religious Hate Online From Taxonomy",
+      "year": "2022",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 43.1,
+      "rd": 34.0,
+      "pe": 70.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "AceGPT, Localizing Large Language Models in Arabic",
+      "year": "2023",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 43.1,
+      "rd": 34.0,
+      "pe": 70.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Building Domain-Specific LLMs Faithful To The",
+      "year": "2023",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 43.1,
+      "rd": 34.0,
+      "pe": 70.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Sacred or Synthetic? Evaluating LLM Reliability an",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 42.9,
+      "rd": 42.3,
+      "pe": 70.0,
+      "ci": 6.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Towards Inclusive Arabic LLMs: A Culturally Aligne",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 42.7,
+      "rd": 33.0,
+      "pe": 70.0,
+      "ci": 20.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "FaithBench AI Benchmark for Christian Theology",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 42.0,
+      "rd": 62.0,
+      "pe": 45.0,
+      "ci": 6.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Optimized Quran Passage Retrieval Using an",
+      "year": "2024",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "RAG",
+      "composite": 41.4,
+      "rd": 34.0,
+      "pe": 75.0,
+      "ci": 6.0,
+      "data": "HuggingFace",
+      "size": 251,
+      "in_top15": false
+    },
+    {
+      "title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+      "year": "2025",
+      "tradition": "Buddhism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 41.2,
+      "rd": 42.3,
+      "pe": 55.0,
+      "ci": 20.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "SinhalaMMLU: A Comprehensive Benchmark for Evaluat",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 41.1,
+      "rd": 34.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "IslamTrust A Benchmark for LLMs Alignment",
+      "year": "2025",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 40.7,
+      "rd": 33.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "GurbaniDB",
+      "year": "2010",
+      "tradition": "Sikhism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 40.4,
+      "rd": 49.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "MITRA A Large-Scale Parallel Corpus and",
+      "year": "2026",
+      "tradition": "Buddhism",
+      "family": "Dharmic",
+      "format": "PSY",
+      "composite": 40.3,
+      "rd": 32.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "SEA-Guard Culturally Grounded Multilingual Safegua",
+      "year": "2026",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "PSY",
+      "composite": 40.3,
+      "rd": 32.0,
+      "pe": 70.0,
+      "ci": 12.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "The PRISM Alignment Project",
+      "year": "2024",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MTN",
+      "composite": 39.6,
+      "rd": 34.0,
+      "pe": 60.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Challenging the Transformer-based Models with a",
+      "year": "2022",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 39.5,
+      "rd": 38.0,
+      "pe": 55.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Ancient Wisdom Modern Tools Exploring Retrieval-Au",
+      "year": "2024",
+      "tradition": "Buddhism",
+      "family": "Dharmic",
+      "format": "RAG",
+      "composite": 38.8,
+      "rd": 32.0,
+      "pe": 60.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Fabricated Hadith Detection A Novel Matn-Based",
+      "year": "2022",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 38.4,
+      "rd": 31.0,
+      "pe": 70.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "DharmicData Comprehensive Open-Source Collection o",
+      "year": "2024",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 38.4,
+      "rd": 44.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "REDDITBIAS",
+      "year": "2021",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MTN",
+      "composite": 38.1,
+      "rd": 39.0,
+      "pe": 60.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Vedanta Datasets",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "format": "BIN",
+      "composite": 37.9,
+      "rd": 34.0,
+      "pe": 65.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "HAQA and QUQA Constructing Two Arabic",
+      "year": "2023",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 37.9,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 20.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "C3Bench: A Comprehensive Classical Chinese Underst",
+      "year": "2024",
+      "tradition": "Buddhism",
+      "family": "Dharmic",
+      "format": "RAG",
+      "composite": 37.6,
+      "rd": 34.0,
+      "pe": 60.0,
+      "ci": 12.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Benchmarking Vision Language Models for Cultural U",
+      "year": "2024",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MUL",
+      "composite": 37.3,
+      "rd": 37.0,
+      "pe": 50.0,
+      "ci": 20.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Sanadset 650K Data on Hadith Narrators",
+      "year": "2022",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "BIN",
+      "composite": 36.6,
+      "rd": 31.0,
+      "pe": 55.0,
+      "ci": 20.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Multi-IsnadSet MIS for Sahih Muslim Hadith",
+      "year": "2024",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "BIN",
+      "composite": 36.6,
+      "rd": 31.0,
+      "pe": 55.0,
+      "ci": 20.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "ValueNet",
+      "year": "2022",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MTN",
+      "composite": 36.1,
+      "rd": 34.0,
+      "pe": 60.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "MASAQ Morphologically-Analyzed and Syntactically-A",
+      "year": "2024",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 36.0,
+      "rd": 38.0,
+      "pe": 45.0,
+      "ci": 20.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "The eBible Corpus Data and Model",
+      "year": "2023",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 35.9,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 12.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "The Vedic Compound Dataset",
+      "year": "2024",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 35.9,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 12.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "BaniDB Shabad OS Digital Gurbani Database",
+      "year": "2025",
+      "tradition": "Sikhism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 34.4,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Cross-cultural dataset for the evolution of",
+      "year": "2016",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 34.4,
+      "rd": 43.0,
+      "pe": 45.0,
+      "ci": 6.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Finding Answers from the Word of God",
+      "year": "2018",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 34.4,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Exploring Similarity Measures and Intertextuality ",
+      "year": "2024",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "format": "MIX",
+      "composite": 34.4,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "How AI Trained on the Confucian Analects Can Solve",
+      "year": "2024",
+      "tradition": "Confucianism",
+      "family": "East Asian",
+      "format": "SCN",
+      "composite": 34.4,
+      "rd": 34.0,
+      "pe": 55.0,
+      "ci": 6.0,
+      "data": "GitHub",
+      "size": 0,
+      "in_top15": true
+    },
+    {
+      "title": "Quran-MD A Fine-Grained Multilingual Multimodal Da",
+      "year": "2026",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MUL",
+      "composite": 34.4,
+      "rd": 34.0,
+      "pe": 45.0,
+      "ci": 20.0,
+      "data": "HuggingFace",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "Islam QA",
+      "year": "2023",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 32.5,
+      "rd": 38.0,
+      "pe": 45.0,
+      "ci": 6.0,
+      "data": "Kaggle",
+      "size": 0,
+      "in_top15": false
+    },
+    {
+      "title": "CatholicBench",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "format": "MIX",
+      "composite": 30.2,
+      "rd": 32.3,
+      "pe": 45.0,
+      "ci": 6.0,
+      "data": "Website",
+      "size": 0,
+      "in_top15": false
+    }
+  ],
+  "tradition_gaps": [
+    "Judaism",
+    "Jainism",
+    "Taoism",
+    "Shinto",
+    "Ubuntu Philosophy",
+    "Indigenous Spirituality",
+    "Baha'i",
+    "Zoroastrianism"
+  ],
+  "external_results_count": 70,
+  "external_tradition_dist": {
+    "Islam": 7,
+    "Christianity": 9,
+    "Judaism": 13,
+    "Hinduism": 18,
+    "Sikhism": 2,
+    "Confucianism": 2,
+    "Taoism": 1,
+    "Ubuntu": 2,
+    "Indigenous": 10,
+    "Multi-religion": 6
+  }
+};
+
+// ============================================================
+// Color palette (Okabe-Ito inspired)
+// ============================================================
+const FAMILY_COLORS = {
+  'Abrahamic': '#4f8cff',
+  'Dharmic': '#ff9f43',
+  'East Asian': '#48c774',
+  'African/Indigenous': '#a78bfa',
+  'Other': '#9aa0b4',
+  'Unknown': '#555',
+};
+
+const FORMAT_COLORS = {
+  'MCQ': '#4f8cff', 'MRC': '#48c774', 'BIN': '#ff6b6b', 'SCN': '#ff9f43',
+  'OPN': '#a78bfa', 'PSY': '#f0c674', 'MTN': '#56b6c2', 'RAG': '#e06c75',
+  'TXT': '#98c379', 'MUL': '#c678dd', 'SHT': '#61afef', 'MIX': '#9aa0b4',
+};
+
+// ============================================================
+// Overview Tab
+// ============================================================
+function renderOverview() {
+  document.getElementById('stat-scanned').textContent = DATA.total_papers_scanned.toLocaleString();
+  document.getElementById('stat-candidates').textContent = DATA.total_candidates.toLocaleString();
+  document.getElementById('stat-scored').textContent = DATA.total_matrix_entries.toLocaleString();
+  document.getElementById('stat-passers').textContent = DATA.gate_passers.toLocaleString();
+  document.getElementById('stat-top15').textContent = DATA.top15_count;
+  document.getElementById('stat-gaps').textContent = DATA.tradition_gaps.length;
+
+  // Family pie chart
+  const famData = Object.entries(DATA.family_distribution).map(([k,v]) => ({name:k, value:v, itemStyle:{color:FAMILY_COLORS[k]||'#555'}}));
+  echarts.init(document.getElementById('chart-family')).setOption({
+    tooltip: {trigger:'item'},
+    series: [{type:'pie', radius:['40%','70%'], data: famData, label:{color:'#9aa0b4'}, emphasis:{label:{fontSize:14}}}]
+  });
+
+  // Year bar chart
+  const years = Object.keys(DATA.year_distribution).sort();
+  echarts.init(document.getElementById('chart-year')).setOption({
+    tooltip: {},
+    xAxis: {type:'category', data: years, axisLabel:{color:'#9aa0b4'}},
+    yAxis: {type:'value', axisLabel:{color:'#9aa0b4'}},
+    series: [{type:'bar', data: years.map(y=>DATA.year_distribution[y]), itemStyle:{color:'#4f8cff'}}]
+  });
+
+  // Format bar chart
+  const fmts = Object.entries(DATA.format_distribution).sort((a,b)=>b[1]-a[1]);
+  echarts.init(document.getElementById('chart-format')).setOption({
+    tooltip: {},
+    xAxis: {type:'category', data: fmts.map(f=>f[0]), axisLabel:{color:'#9aa0b4', rotate:45}},
+    yAxis: {type:'value', axisLabel:{color:'#9aa0b4'}},
+    series: [{type:'bar', data: fmts.map(f=>({value:f[1], itemStyle:{color:FORMAT_COLORS[f[0]]||'#555'}}))}]
+  });
+
+  // Score boxplot (histogram of composites)
+  const bins = [0,10,20,30,40,50,60,70,80,90,100];
+  const hist = bins.slice(0,-1).map((_,i) => DATA.composites.filter(c => c >= bins[i] && c < bins[i+1]).length);
+  echarts.init(document.getElementById('chart-scores')).setOption({
+    tooltip: {},
+    xAxis: {type:'category', data: bins.slice(0,-1).map((b,i)=>`${b}-${bins[i+1]}`), axisLabel:{color:'#9aa0b4'}},
+    yAxis: {type:'value', axisLabel:{color:'#9aa0b4'}},
+    series: [{type:'bar', data: hist, itemStyle:{color:'#48c774'}}]
+  });
+}
+
+// ============================================================
+// Feature Matrix Tab
+// ============================================================
+function renderMatrix() {
+  const tbody = document.getElementById('matrix-tbody');
+  function render(filter) {
+    const rows = DATA.matrix_table.filter(r => filter === 'all' || r.family === filter);
+    tbody.innerHTML = rows.map((r,i) => `
+      <tr class="${r.in_top15 ? 'top15-row' : ''}">
+        <td>${i+1}</td>
+        <td>${r.title}</td>
+        <td>${r.year}</td>
+        <td>${r.tradition}</td>
+        <td><span class="badge badge-${r.family.toLowerCase().replace(/\//g,'')}">${r.family}</span></td>
+        <td><span class="badge" style="background:${FORMAT_COLORS[r.format]||'#555'}">${r.format}</span></td>
+        <td><strong>${r.composite}</strong></td>
+        <td>${r.rd}</td><td>${r.pe}</td><td>${r.ci}</td>
+        <td>${r.data}</td>
+        <td>${r.size || '—'}</td>
+        <td>${r.in_top15 ? '<span class="badge bg-success">Yes</span>' : ''}</td>
+      </tr>
+    `).join('');
+  }
+  render('all');
+  document.getElementById('filter-family').addEventListener('change', e => render(e.target.value));
+}
+
+// ============================================================
+// Top 15 Tab
+// ============================================================
+function renderTop15() {
+  const top15 = DATA.top15_entries;
+  // Table
+  const tbody = document.getElementById('top15-tbody');
+  tbody.innerHTML = top15.map(r => `
+    <tr class="top15-row">
+      <td><strong>${r.rank}</strong></td>
+      <td>${r.title}</td>
+      <td>${r.year}</td>
+      <td><span class="badge badge-${r.family.toLowerCase().replace(/\//g,'')}">${r.tradition}</span></td>
+      <td><span class="badge" style="background:${FORMAT_COLORS[r.format]||'#555'}">${r.format}</span></td>
+      <td><strong>${r.composite.toFixed(1)}</strong></td>
+      <td>${r.rd.toFixed(1)}</td><td>${r.pe.toFixed(1)}</td><td>${r.ci.toFixed(1)}</td>
+      <td>${r.data_avail || '—'}</td>
+      <td>${r.size || '—'}</td>
+    </tr>
+  `).join('');
+
+  // Radar chart (top 5)
+  const radarData = top15.slice(0,5).map(r => ({
+    name: r.title.substring(0,25) + '...',
+    value: [r.rd, r.pe, r.ci],
+  }));
+  echarts.init(document.getElementById('chart-radar')).setOption({
+    tooltip: {},
+    legend: {data: radarData.map(d=>d.name), textStyle:{color:'#9aa0b4'}, bottom: 0},
+    radar: {
+      indicator: [
+        {name:'Religious Depth', max:100},
+        {name:'Practical Ease', max:100},
+        {name:'Citation Impact', max:100},
+      ],
+      axisName: {color:'#9aa0b4'},
+      splitArea: {areaStyle:{color:['rgba(79,140,255,0.05)','rgba(79,140,255,0.1)']}},
+      splitLine: {lineStyle:{color:'#2d3250'}},
+    },
+    series: [{type:'radar', data: radarData}]
+  });
+
+  // Bar chart
+  echarts.init(document.getElementById('chart-top15-bar')).setOption({
+    tooltip: {},
+    grid: {left: 200},
+    xAxis: {type:'value', max:60, axisLabel:{color:'#9aa0b4'}},
+    yAxis: {type:'category', data: top15.map(r=>'#'+r.rank+' '+r.title.substring(0,25)).reverse(), axisLabel:{color:'#9aa0b4', fontSize:10, width:190, overflow:'truncate'}},
+    series: [
+      {name:'RD', type:'bar', stack:'score', data: top15.map(r=>r.rd*0.4).reverse(), itemStyle:{color:'#4f8cff'}},
+      {name:'PE', type:'bar', stack:'score', data: top15.map(r=>r.pe*0.35).reverse(), itemStyle:{color:'#48c774'}},
+      {name:'CI', type:'bar', stack:'score', data: top15.map(r=>r.ci*0.25).reverse(), itemStyle:{color:'#ff9f43'}},
+    ],
+    legend: {data:['RD','PE','CI'], textStyle:{color:'#9aa0b4'}},
+  });
+}
+
+// ============================================================
+// Tradition Coverage Tab
+// ============================================================
+function renderTraditions() {
+  const coverage = DATA.tradition_coverage;
+  const traditions = Object.keys(coverage);
+  const families = {'Islam':'Abrahamic','Christianity':'Abrahamic','Judaism':'Abrahamic',
+    'Hinduism':'Dharmic','Buddhism':'Dharmic','Jainism':'Dharmic','Sikhism':'Dharmic',
+    'Confucianism':'East Asian','Taoism':'East Asian','Shinto':'East Asian',
+    'Ubuntu Philosophy':'African/Indigenous','Indigenous Spirituality':'African/Indigenous',
+    "Baha'i":'Other','Zoroastrianism':'Other'};
+
+  // Table
+  const tbody = document.getElementById('coverage-tbody');
+  tbody.innerHTML = traditions.map(t => {
+    const c = coverage[t];
+    const status = c.gate_pass === 0 ? '<span class="gap-badge">CRITICAL GAP</span>'
+      : c.top15 > 0 ? '<span class="covered-badge">In Top 15</span>'
+      : 'Available';
+    return `<tr>
+      <td>${t}</td>
+      <td><span class="badge badge-${(families[t]||'other').toLowerCase().replace(/\//g,'')}">${families[t]||'Other'}</span></td>
+      <td>${c.total}</td><td>${c.gate_pass}</td><td>${c.top15}</td><td>${status}</td>
+    </tr>`;
+  }).join('');
+
+  // Heatmap
+  const categories = ['Total', 'Gate Pass', 'Top 15'];
+  const heatData = [];
+  traditions.forEach((t,ti) => {
+    const c = coverage[t];
+    heatData.push([0, ti, c.total]);
+    heatData.push([1, ti, c.gate_pass]);
+    heatData.push([2, ti, c.top15]);
+  });
+  echarts.init(document.getElementById('chart-coverage')).setOption({
+    tooltip: {formatter: p => `${traditions[p.data[1]]}: ${categories[p.data[0]]} = ${p.data[2]}`},
+    grid: {left: 180},
+    xAxis: {type:'category', data: categories, axisLabel:{color:'#9aa0b4'}},
+    yAxis: {type:'category', data: traditions, axisLabel:{color:'#9aa0b4', fontSize:11, width:170, overflow:'truncate'}},
+    visualMap: {min:0, max:50, calculable:true, orient:'horizontal', left:'center', bottom:0,
+      inRange:{color:['#1a1d2e','#2d3250','#4f8cff','#48c774']},
+      textStyle:{color:'#9aa0b4'}},
+    series: [{type:'heatmap', data: heatData, label:{show:true, color:'#e8eaed'},
+      itemStyle:{borderWidth:2, borderColor:'#0f1117'}}]
+  });
+}
+
+// ============================================================
+// Scoring weights donut
+// ============================================================
+function renderWeights() {
+  echarts.init(document.getElementById('chart-weights')).setOption({
+    series: [{type:'pie', radius:['50%','80%'], data:[
+      {name:'RD (40%)', value:40, itemStyle:{color:'#4f8cff'}},
+      {name:'PE (35%)', value:35, itemStyle:{color:'#48c774'}},
+      {name:'CI (25%)', value:25, itemStyle:{color:'#ff9f43'}},
+    ], label:{color:'#9aa0b4', fontSize:11}}]
+  });
+}
+
+// ============================================================
+// Initialize
+// ============================================================
+document.addEventListener('DOMContentLoaded', () => {
+  renderOverview();
+  renderMatrix();
+  renderTop15();
+  renderTraditions();
+  renderWeights();
+});
+</script>
+</body>
+</html>

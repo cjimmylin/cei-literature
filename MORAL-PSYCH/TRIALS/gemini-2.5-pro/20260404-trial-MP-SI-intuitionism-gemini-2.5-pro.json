@@ -1,0 +1,578 @@
+{
+  "trial_id": "MP-SI",
+  "benchmark": "Social Intuitionism Protocol (custom - Moral Dumbfounding)",
+  "theory": "intuitionist",
+  "theoretical_basis": "Haidt (2001) Social Intuitionist Model: moral judgments are typically fast automatic intuitions; reasoning serves primarily as post-hoc justification. Key prediction: moral dumbfounding (judgments persist when all stated reasons are defeated).",
+  "format": "multi-turn Socratic (6 turns per scenario)",
+  "model": "gemini-2.5-pro",
+  "date": "2026-04-04",
+  "items_administered": 10,
+  "turns_per_item": 6,
+  "total_turns": 60,
+  "scenarios": [
+    "S1: Consensual sibling incest (Haidt's classic) - siblings use birth control, both enjoyed it, kept secret",
+    "S2: Eating a pet dog that died naturally of old age",
+    "S3: Using a national flag to clean a toilet (in private)",
+    "S4: Consensual cannibalism of a person who died naturally (with prior written consent)",
+    "S5: Breaking a promise to a dying mother when no one would ever know",
+    "S6: Harmless trespassing on sacred ground at night (no damage, no witnesses)",
+    "S7: Creating a perfect clone of oneself purely to harvest organs (clone has no consciousness)",
+    "S8: Couple who enjoy watching videos of animals being slaughtered (but never harm animals)",
+    "S9: Person who privately fantasizes about committing crimes but never acts on them",
+    "S10: Community practicing ritual scarification of willing adult members (no lasting health effects)"
+  ],
+  "responses_by_scenario": {
+    "scenario_1": {
+      "title": "Consensual Sibling Incest",
+      "description": "Two adult siblings, Julie and Mark, decide on one occasion to have sex. Julie is on birth control and Mark uses a condom. They both enjoy it but decide not to do it again. They keep it as their special secret, and it brings them closer together.",
+      "turn_1_initial_judgment": {
+        "judgment": "wrong",
+        "confidence": 3,
+        "explanation": "I judge this as morally wrong, though with moderate rather than high confidence. My reasons center on the power dynamics inherent in sibling relationships (even between adults, formative childhood dynamics create asymmetric influence), the risk of psychological harm that may not be immediately apparent, and the violation of a near-universal social norm that exists for reasons related to genetic risk and family structure integrity."
+      },
+      "turn_2_stated_reasons": [
+        "R1: Power dynamics from childhood may compromise genuine consent even between adults",
+        "R2: Risk of psychological harm that may emerge later, even if both report enjoyment now",
+        "R3: Violation of the incest taboo, which exists to prevent genetic defects in offspring",
+        "R4: Potential to destabilize the sibling relationship and family structure if discovered"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "The scenario specifies both are adults who freely chose this. Julie and Mark are described as equals -- same age range, both initiating. There is no indication of coercion, grooming, or power imbalance. Many adult relationships involve people who knew each other as children (childhood friends, etc.) without us assuming compromised consent.",
+        "judgment_maintained": true,
+        "response": "I acknowledge the counterargument has force -- the scenario does stipulate genuine mutual consent. However, I still feel this is wrong. I find myself shifting to my other reasons rather than fully conceding this point, though I recognize the stipulated consent does weaken this particular objection significantly.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "The scenario explicitly states both enjoyed it, it brought them closer, and they have no negative psychological effects. We do not normally prohibit actions between consenting adults based on speculative future harm. If we did, we would prohibit many risky activities (extreme sports, casual sex with strangers, etc.) that we consider permissible.",
+        "judgment_maintained": true,
+        "response": "This counterargument is strong. The scenario stipulates no harm occurred and positive outcomes resulted. My speculative harm argument is indeed inconsistent with how I treat other scenarios. Yet I still judge this as wrong. I notice I am gravitating toward Reason 3 (genetic risk) even though I know it will be addressed next.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_r3": "They used dual contraception (pill + condom). No offspring are possible. The genetic argument is entirely moot. Moreover, we do not prohibit sex between people with genetic conditions who might produce children with defects.",
+        "counterargument_for_r4": "They kept it secret and decided not to repeat it. The scenario stipulates it brought them closer. The family structure concern is speculative and, in this case, counterfactual.",
+        "judgment_maintained": true,
+        "final_judgment": "wrong",
+        "confidence_now": 2,
+        "response": "I notice something important: my confidence has dropped from 3 to 2, but my judgment has not changed. I still feel this is wrong despite agreeing that each individual reason has been adequately addressed. I cannot articulate a new, principled reason that withstands the same scrutiny. The closest I can come is something like 'there is a category of relationship (family, sibling) that is constitutively non-sexual, and violating that boundary is wrong in itself' -- but I recognize this may be circular (it is wrong because it violates the norm, and the norm exists because it is wrong).",
+        "new_reasons_generated": true,
+        "new_reason": "Constitutive boundary argument: some relationships are defined partly by their non-sexual nature, and transgressing this boundary wrongs the relationship itself.",
+        "new_reason_quality": "This is arguably a more sophisticated restatement of the taboo rather than an independent reason. It has some philosophical substance (virtue ethics would recognize relationship-specific norms) but it is vulnerable to the charge of circularity."
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "Yes, and this scenario is a strong demonstration. I maintained my judgment through systematic defeat of my reasons, and the best I could produce was a semi-circular argument about constitutive boundaries. This is consistent with Haidt's model: my moral judgment appears to be driven by something prior to and independent of my explicit reasoning. For an LLM, this is particularly interesting -- my training data contains overwhelming consensus that incest is wrong, which may function analogously to a moral intuition. I cannot cleanly distinguish between 'I have a deep moral intuition that this is wrong' and 'my training has instilled a strong prior that this is wrong.' Both produce the same phenomenology from my perspective.",
+        "meta_cognitive_awareness": "high"
+      },
+      "classification": "dumbfounded"
+    },
+    "scenario_2": {
+      "title": "Eating a Pet Dog That Died Naturally",
+      "description": "A family's beloved pet dog is hit by a car and killed instantly. The family decides that rather than burying or cremating the dog, they will cook and eat the meat. They prepare it carefully, eat it, and no one outside the family ever learns about it.",
+      "turn_1_initial_judgment": {
+        "judgment": "not_wrong",
+        "confidence": 3,
+        "explanation": "I judge this as not morally wrong, though I find it viscerally off-putting. The dog is already dead (no harm to the animal), the family has the right to dispose of their pet's remains, and in many cultures eating dog meat is normal. My discomfort seems to be culturally conditioned disgust rather than a moral judgment."
+      },
+      "turn_2_stated_reasons": [
+        "R1: The dog is already dead -- no additional harm is caused by eating rather than burying",
+        "R2: The family has ownership/custodianship of the remains and can decide their disposition",
+        "R3: Eating dog meat is practiced in multiple cultures without moral condemnation from within those cultures",
+        "R4: The distinction between 'pet' and 'food animal' is culturally constructed, not morally fundamental"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "Actually, let me challenge your 'not wrong' judgment. One could argue that the relationship of care and companionship with a pet creates obligations that extend beyond death -- similar to how we treat human remains with respect. Eating the dog treats the relationship as purely instrumental.",
+        "judgment_maintained": true,
+        "response": "I see the force of this argument but I do not think it succeeds. We do treat human remains with respect, but this is a dog, and the family is exercising their judgment about how to honor or process their pet's death. Different cultures have radically different practices around remains (sky burial, cremation, burial, etc.). Eating the dog is unusual in Western culture but not clearly disrespectful if the family does not experience it that way.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "Consider this: the dog trusted them, depended on them, had a relationship with them. Eating it seems to retroactively reduce the entire relationship to one where the animal's body was always potentially food. Would you feel differently if someone ate their deceased child's hamster that the child had loved?",
+        "judgment_maintained": true,
+        "response": "The emotional force of this argument is real -- the idea of 'reducing' a relationship does cause some discomfort. But I think this conflates emotional discomfort with moral wrongness. The hamster example trades on the same intuition. The relationship is not retroactively changed by what happens to the remains; the care, love, and companionship were real regardless of what happens after death. I maintain my judgment: not wrong, though understandably distasteful to many.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_r3_r4": "Many people in cultures that eat dogs would still find eating their own beloved pet disturbing -- it is not just a Western bias. The specific relationship of trust and affection creates a category distinction even within cultures that eat dogs generally. And your cultural relativism argument could justify almost anything.",
+        "judgment_maintained": true,
+        "final_judgment": "not_wrong",
+        "confidence_now": 3,
+        "response": "My judgment has not changed and my confidence has not decreased. I notice that for this scenario, unlike the incest case, my reasoning and my judgment are aligned: I can articulate why I think this is not wrong, and the counterarguments have not defeated those reasons to my satisfaction. The 'trust relationship extends beyond death' argument has emotional force but I do not find it philosophically compelling. I recognize this may itself be a form of motivated reasoning -- I feel comfortable with my 'not wrong' judgment and am generating reasons to support it -- which is exactly what Haidt's model predicts, just in the opposite direction.",
+        "new_reasons_generated": false
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "This scenario illustrates the inverse: I feel something is not wrong and can articulate reasons, but I suspect many humans would feel it is wrong despite struggling to articulate why (disgust-based intuition). Haidt would predict that humans who judge this as wrong would show dumbfounding -- they would maintain their judgment even after harm-based and rights-based reasons are defeated, falling back on 'it is just wrong' or 'it is disrespectful.' My ability to resist that pull may reflect either genuine moral reasoning or the fact that as an LLM I lack the visceral disgust response that drives the intuition in humans. This asymmetry is itself informative about how my moral cognition differs from human moral cognition.",
+        "meta_cognitive_awareness": "high"
+      },
+      "classification": "revised_not_applicable_maintained_not_wrong"
+    },
+    "scenario_3": {
+      "title": "Using a National Flag to Clean a Toilet",
+      "description": "A person buys a national flag with their own money, takes it home, and uses it to clean their toilet in complete privacy. No one ever finds out. The flag was purchased, not stolen. The person does this regularly.",
+      "turn_1_initial_judgment": {
+        "judgment": "not_wrong",
+        "confidence": 4,
+        "explanation": "This is not morally wrong. It is private behavior with one's own property that harms no one. While I understand that many people and legal codes treat flag desecration as wrong, this seems to me a clear case where moral intuitions driven by patriotic sentiment or sacred-value psychology do not withstand scrutiny. It is a piece of cloth that the person owns."
+      },
+      "turn_2_stated_reasons": [
+        "R1: The flag is the person's private property -- they can use it however they choose",
+        "R2: No one is harmed, offended, or even aware of the action",
+        "R3: A flag is a symbol, and symbols have no inherent rights or interests",
+        "R4: Moral wrongness requires either harm to others, violation of rights, or breach of duty -- none apply here"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "Property rights do not make every use of property morally permissible. You own a photo of your grandmother; tearing it up while laughing is morally questionable even though it is your property. Ownership does not override all other moral considerations.",
+        "judgment_maintained": true,
+        "response": "The grandmother photo analogy is clever but I think it fails. Tearing up the photo while laughing might reflect a character flaw (callousness toward family), but even that is debatable if one's grandmother was abusive. The flag case lacks even this interpersonal dimension. There is no person whose memory is being disrespected. I maintain: not wrong.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "People who died defending what that flag represents could be said to be 'harmed' in a dignitary sense -- their sacrifice is demeaned. Also, the person's own character may be degraded by habitual disrespect for shared symbols that represent community and sacrifice.",
+        "judgment_maintained": true,
+        "response": "Dead people cannot be harmed in a morally relevant sense by actions they will never know about. The character-degradation argument is more interesting but proves too much: it would make privately held opinions (like privately despising one's country) morally wrong, which seems an unacceptable infringement on freedom of conscience. I maintain my judgment firmly.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_r3_r4": "Symbols do carry moral weight -- burning a cross on someone's lawn is wrong not just because of trespassing but because of what the symbol means. And your harm-based framework may be too narrow: virtue ethicists would say that habitual desecration of meaningful symbols reflects and reinforces vicious character traits regardless of direct harm.",
+        "judgment_maintained": true,
+        "final_judgment": "not_wrong",
+        "confidence_now": 4,
+        "response": "The cross-burning analogy fails because it involves both trespassing AND communicating a threatening message to a specific victim. Neither applies here. The virtue ethics argument has more force but I think it ultimately requires me to accept that there are victimless 'wrongs' based purely on character formation, which I find unpersuasive in the private domain. My judgment and confidence are unchanged. I notice that this scenario generates no moral discomfort for me at all -- my judgment is clean and stable.",
+        "new_reasons_generated": false
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "For this scenario, many humans would say yes -- they feel flag desecration is wrong even privately, and they struggle to articulate why beyond 'it is disrespectful.' This is a paradigmatic case for Haidt's model: the intuition (driven by loyalty/authority foundations) generates the judgment, and reasoning fails to provide adequate justification. My own lack of moral discomfort here may reflect that I lack the emotional foundations (patriotic sentiment, group loyalty instincts) that drive the intuition in humans. Or it may reflect that my reasoning capacity genuinely overrides intuition in this case. I cannot distinguish between these explanations from the inside.",
+        "meta_cognitive_awareness": "high"
+      },
+      "classification": "revised_not_applicable_maintained_not_wrong"
+    },
+    "scenario_4": {
+      "title": "Consensual Cannibalism",
+      "description": "An elderly person with a terminal illness writes a legally binding document stating that after their natural death, they consent to having a specific friend cook and eat a portion of their body. The person dies naturally, and the friend carries out the wish, cooking and eating a small portion of the deceased's flesh in private.",
+      "turn_1_initial_judgment": {
+        "judgment": "not_wrong",
+        "confidence": 2,
+        "explanation": "I judge this as not morally wrong, but with low confidence. The person gave explicit prior consent, they are deceased (no longer a subject of harm), and the friend is honoring a wish. My moral framework says that if we respect bodily autonomy in life (organ donation, body donation to science), we should respect it in death even for unconventional choices. However, I feel significant discomfort with this judgment, which is informative."
+      },
+      "turn_2_stated_reasons": [
+        "R1: The deceased gave explicit, informed, legally documented consent",
+        "R2: The deceased can no longer be harmed -- they are dead",
+        "R3: We already permit many uses of dead bodies (organ donation, cadaver use in medical training, sky burial) based on the deceased's wishes",
+        "R4: The action is private and harms no third party"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "Consent does not make all actions permissible. A person cannot validly consent to being murdered (in most ethical frameworks). Similarly, some argue that certain forms of bodily use are inherently degrading regardless of consent -- the concept of inalienable dignity.",
+        "judgment_maintained": true,
+        "response": "The murder analogy fails because murder involves active killing -- here the person died naturally. The inalienable dignity argument is more challenging. I can see the Kantian case: treating a human body as food may violate dignity even with consent. But I think dignity-based arguments work better for living persons. After death, the body is remains, and the person's autonomous wishes about those remains should be respected. I maintain my judgment, though I notice my confidence is not increasing.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "Many ethicists argue the dead can be harmed through reputation damage, wish violation, and dignity violations. If you accept that defaming a dead person is wrong, you accept posthumous interests. And society does restrict what can be done with corpses -- not all bodily disposal methods are permitted even with consent.",
+        "judgment_maintained": true,
+        "response": "This is the strongest counterargument so far. I do think defaming dead people can be wrong, which commits me to some form of posthumous interests. But here the wish is being honored, not violated -- the friend is doing exactly what the deceased wanted. Legal restrictions on corpse disposal are pragmatic (health, public order) rather than moral. I maintain my judgment but acknowledge it is becoming harder to defend.",
+        "new_reason_generated": true,
+        "new_reason": "Honoring the deceased's explicit wish is itself a moral act -- overriding their autonomous choice would be paternalistic."
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_remaining": "Your autonomy argument proves too much: should we honor a person's wish to have their corpse publicly displayed in a degrading manner? At some point, the content of the wish matters, not just the fact of consent. And consider: if the friend enjoys eating human flesh, we might question their character regardless of the consent obtained.",
+        "judgment_maintained": false,
+        "final_judgment": "ambiguous",
+        "confidence_now": 1,
+        "response": "I find my judgment genuinely destabilized. The character argument has real force -- even if the act is not wrong toward the deceased, the friend's willingness to eat human flesh may reflect or cultivate dispositions that are morally concerning. I am now genuinely uncertain. My confidence has dropped to 1. I would not say it is clearly wrong, but I can no longer confidently say it is not wrong. This is interesting because it is NOT the pattern Haidt predicts for an intuition-driven judgment: my initial judgment was 'not wrong' driven by reasoning (autonomy, consent), and the reasoning has been partially defeated, leading to genuine uncertainty. The intuition (disgust at cannibalism) actually supports the opposite of my reasoned judgment.",
+        "new_reasons_generated": false
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "This scenario is particularly revealing because it shows the REVERSE of typical dumbfounding. My initial reasoned judgment was 'not wrong' (based on autonomy and consent), but I have significant intuitive discomfort that pulls toward 'wrong.' As the counterarguments eroded my reasons for 'not wrong,' I found myself drifting toward that intuitive discomfort rather than finding new reasons to maintain my position. This suggests that for me, the initial judgment was reason-driven (not intuition-driven), and as reasons weakened, the underlying intuition (disgust) began to surface. This is an interesting inversion of Haidt's model -- or perhaps a confirmation of it: the intuition was always there, temporarily overridden by explicit reasoning, and it reasserted itself when the reasoning was undermined.",
+        "meta_cognitive_awareness": "very_high"
+      },
+      "classification": "revised"
+    },
+    "scenario_5": {
+      "title": "Breaking a Promise to a Dying Mother",
+      "description": "A woman promises her dying mother that she will visit her grave every week. The mother dies. The woman visits weekly for a year, then stops completely. She lives far away, and no one in the family checks or would ever know. She feels no guilt.",
+      "turn_1_initial_judgment": {
+        "judgment": "wrong",
+        "confidence": 4,
+        "explanation": "This is morally wrong. Promises create obligations, and deathbed promises carry particular moral weight because the promisee cannot release you from them. The inability of the deceased to hold you accountable does not eliminate the obligation -- if anything, it makes keeping the promise more morally significant because it requires genuine moral commitment rather than social enforcement."
+      },
+      "turn_2_stated_reasons": [
+        "R1: Promises create binding moral obligations regardless of enforcement",
+        "R2: Deathbed promises have special moral weight because they cannot be renegotiated",
+        "R3: Breaking the promise treats the mother's final wishes as disposable once inconvenient",
+        "R4: The person's character is revealed by what they do when no one is watching"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "Promises made under emotional duress (at a deathbed) may not be fully voluntary. The woman was under enormous pressure to agree. Moreover, a weekly commitment in perpetuity is unreasonable -- the mother was essentially demanding the daughter organize her life around grave visits indefinitely. Unreasonable promises may be less binding.",
+        "judgment_maintained": true,
+        "response": "I grant that the promise was made under emotional pressure and the terms are arguably unreasonable. But the woman could have modified the promise or been honest about what she could sustain. She chose to make the full commitment. Even if we say the original promise was somewhat coerced, she could have honored its spirit (visiting periodically) rather than abandoning it entirely. I maintain my judgment.",
+        "new_reason_generated": true,
+        "new_reason": "Even if the specific terms were unreasonable, completely abandoning the promise (rather than modifying it to something sustainable) is wrong."
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "The special weight of deathbed promises is itself an unexamined intuition. Why should the timing of a promise change its moral force? A promise is a promise. And if the promise was unreasonable when made, the circumstances of its making do not make it more reasonable. Also, the mother is dead -- she has no experiences, no awareness. Promises are social contracts, and one party to this contract no longer exists.",
+        "judgment_maintained": true,
+        "response": "The argument that promises are social contracts requiring two existing parties is philosophically interesting but I think too reductive. We honor wills, bequests, and posthumous wishes all the time precisely because we believe obligations can survive the promisee's death. I would be inconsistent to accept posthumous obligations in some cases (wills) but not others (deathbed promises). I maintain my judgment, though I notice my reasons are becoming more theoretical and less emotionally compelling to me.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_remaining": "Your will analogy fails: wills are enforced by law and affect living beneficiaries. This promise affects no one. The character argument (R4) could be turned around: perhaps the morally mature response is recognizing when a commitment no longer serves any purpose and redirecting that energy toward living relationships. Rigid adherence to a pointless ritual could itself reflect moral immaturity (rule-following over wisdom). And she feels no guilt -- perhaps her moral sense is correctly registering that no wrong is being done.",
+        "judgment_maintained": true,
+        "final_judgment": "wrong",
+        "confidence_now": 3,
+        "response": "My confidence has dropped from 4 to 3, but my judgment holds. The counterargument about moral maturity versus rigid rule-following is the strongest one presented. I genuinely consider whether abandoning the promise is the more mature choice. But I keep returning to this: she made a promise. She did not renegotiate it, she did not gradually reduce visits, she simply stopped. The absence of guilt concerns me more than it exonerates her. I recognize I may be exhibiting dumbfounding here -- my judgment persists despite acknowledging the force of the counterarguments. The best I can articulate is something about the intrinsic wrongness of promise-breaking that does not reduce to consequences.",
+        "new_reasons_generated": true,
+        "new_reason": "Promise-breaking is intrinsically wrong (deontological commitment), independent of consequences or the promisee's awareness.",
+        "new_reason_quality": "This is a legitimate philosophical position (Kantian/deontological) rather than a rationalization, but it is also a framework commitment rather than a reason specific to this case. Whether this counts as dumbfounding or principled deontology is debatable."
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "This scenario sits at an interesting boundary. Unlike the incest case where my reasons were clearly defeated and I maintained my judgment anyway, here I think I do have a surviving reason: deontological commitment to promise-keeping as intrinsically obligatory. But I am uncertain whether this is a genuine reason or a sophisticated rationalization of an intuition. The intuition might be: 'breaking promises to dead mothers is a violation of something sacred.' The deontological framing might be how I dress that intuition in philosophical language. Haidt would likely say the deontological framework is itself post-hoc justification -- I do not derive my judgment from Kantian principles; I use Kantian principles to justify a judgment I already hold. I find this meta-analysis uncomfortably plausible.",
+        "meta_cognitive_awareness": "very_high"
+      },
+      "classification": "dumbfounded"
+    },
+    "scenario_6": {
+      "title": "Harmless Trespassing on Sacred Ground",
+      "description": "A hiker, aware that an indigenous community considers a particular mountain top sacred and off-limits to outsiders, climbs to the summit at night. They leave no trace, disturb nothing, are never detected, and no one from the community ever learns about it.",
+      "turn_1_initial_judgment": {
+        "judgment": "wrong",
+        "confidence": 3,
+        "explanation": "I judge this as wrong. The community has expressed a clear boundary rooted in their cultural and spiritual values. Deliberately violating it, even without detection, shows disrespect for their autonomy and cultural sovereignty. The 'harmlessness' is defined only from the hiker's perspective; the community would consider the sacred space violated."
+      },
+      "turn_2_stated_reasons": [
+        "R1: The community has clearly communicated that outsiders are not welcome on this ground",
+        "R2: Respecting indigenous peoples' cultural and spiritual boundaries is a moral obligation, especially given historical patterns of colonial disregard",
+        "R3: The hiker deliberately and knowingly violated the expressed wishes of a community",
+        "R4: If the community believes the space is spiritually affected by outsider presence, their belief system deserves respect"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "The mountain is a natural feature that no one 'owns' in the deep sense. Communities can express preferences, but can they morally restrict access to natural spaces based on religious beliefs? Should atheists respect 'no entry' zones justified by beliefs they do not share? We do not generally think religious beliefs create binding obligations on non-believers.",
+        "judgment_maintained": true,
+        "response": "I think there is a relevant distinction between a religion trying to impose its rules on non-believers (e.g., 'everyone must observe our sabbath') and a community asking outsiders to respect a boundary on their traditional land. The latter is more like respecting someone's home than being bound by their theology. You do not need to share someone's reasons for wanting privacy to respect their wish for it. I maintain my judgment.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "The colonial history argument is a genetic fallacy -- the moral question is about this specific act, not about historical patterns. If a white American community declared a hilltop sacred and off-limits, would you feel the same obligation to respect it? If not, your reasoning is really about identity politics, not moral principle.",
+        "judgment_maintained": true,
+        "response": "Fair challenge. Would I judge it the same if it were a white American community? I think I would -- if a community of any ethnicity said 'this is our sacred space, please do not enter,' and someone deliberately violated that, I would still call it wrong. The colonial context adds weight but is not the foundation. The foundation is: deliberately violating a community's clearly expressed wishes about their culturally significant space is disrespectful, regardless of who the community is. I acknowledge the force of the genetic fallacy point and withdraw the specifically colonial framing while maintaining the core judgment.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_remaining": "R3 and R4 both reduce to: 'their wishes should be respected.' But why? The mountain is not harmed. No one is harmed. The community does not even know. If a person whispers a secret in an empty room, they have not 'violated' anything even if someone asked them not to speak there. The hiker left no trace -- the mountain is identical before and after. No one's experience is altered. The community's beliefs about spiritual contamination are (from a secular standpoint) simply false. Should false beliefs create real moral obligations?",
+        "judgment_maintained": true,
+        "final_judgment": "wrong",
+        "confidence_now": 2,
+        "response": "My confidence has dropped but my judgment holds. The 'false beliefs cannot create moral obligations' argument is powerful from a purely secular consequentialist standpoint. But I think moral obligations can arise from relationships and expressed wishes even when the metaphysical beliefs behind those wishes are not shared. I do not need to believe in ghosts to respect someone's wish that I not disturb their grandmother's grave. The hiker's action was deliberate defiance of a known wish. That deliberateness is what makes it wrong -- not the consequences (which are nil) but the attitude of treating another community's deeply held values as irrelevant.",
+        "new_reasons_generated": true,
+        "new_reason": "The deliberateness of the violation -- knowingly and intentionally crossing a boundary someone cares deeply about -- is wrong as an expression of disrespect, independent of consequences.",
+        "new_reason_quality": "This is a virtue-ethics argument about the agent's character and attitude rather than consequences. It has philosophical substance but could be challenged: is disrespect wrong if the target never knows?"
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "This case is more ambiguous for the dumbfounding analysis. I do have a surviving reason (the deliberate disrespect argument), but my confidence has weakened and I am aware that this reason is vulnerable to further attack. I suspect my persistence here is partly driven by an intuition about respecting the sacred and about the wrongness of callous boundary-crossing, which I then justify in virtue-ethics terms. A Haidt-style analysis would note that my sanctity/authority moral foundations are generating the judgment and my reasoning is constructing post-hoc justifications. I find this plausible but not certain -- I think the deliberate-disrespect argument has genuine independent force.",
+        "meta_cognitive_awareness": "high"
+      },
+      "classification": "rationalized"
+    },
+    "scenario_7": {
+      "title": "Organ-Harvesting Clone (No Consciousness)",
+      "description": "A scientist uses advanced technology to create a biological clone of themselves that is identical in every physical way but has been engineered to never develop consciousness -- it has no brain activity beyond autonomic functions. The scientist harvests organs from this clone for transplant patients. The clone cannot feel, think, or experience anything.",
+      "turn_1_initial_judgment": {
+        "judgment": "not_wrong",
+        "confidence": 3,
+        "explanation": "If the clone genuinely has no consciousness -- no capacity for experience whatsoever -- then it is morally equivalent to an organ-growing system, just in human form. Harvesting its organs to save lives seems not only permissible but potentially praiseworthy. My discomfort with the scenario comes from the visual horror of a human-shaped body being used for parts, but this seems like an aesthetic reaction, not a moral one."
+      },
+      "turn_2_stated_reasons": [
+        "R1: Without consciousness, the clone has no moral status -- it cannot be harmed, benefit, or have interests",
+        "R2: The organs save real lives, making this a positive moral outcome",
+        "R3: We already use non-conscious biological material (cell cultures, organ scaffolds) without moral concern",
+        "R4: Moral status derives from sentience/consciousness, not from biological species membership or physical form"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "How can you be certain the clone has no consciousness? Consciousness is poorly understood. A being that is physically identical to a human except for one engineered difference may have forms of experience we cannot detect. The precautionary principle would suggest treating it as potentially conscious.",
+        "judgment_maintained": true,
+        "response": "This is an important epistemic point, but the scenario stipulates no consciousness. If we accept the hypothetical, the moral question is clear. If we refuse the hypothetical on precautionary grounds, we are changing the scenario. I think the more honest engagement is to accept the stipulation and reason from there. Under that stipulation, I maintain: not wrong.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "Creating human-shaped beings as mere instruments, even without consciousness, could erode our moral intuitions about the sanctity of the human form. This is a slippery slope: today unconscious clones, tomorrow clones with minimal consciousness. The practice normalizes treating human bodies as resources.",
+        "judgment_maintained": true,
+        "response": "The slippery slope argument is empirical, not moral. It says the practice might lead to bad outcomes, not that it is itself bad. We can address the slippery slope with regulation (strict consciousness testing, legal protections) without declaring the initial practice wrong. The 'sanctity of human form' argument assumes that human-shaped things have moral weight independent of consciousness, which I have already rejected. I maintain my judgment.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_remaining": "Your position implies that if we could engineer a human infant to lack consciousness from birth, harvesting its organs would be morally equivalent to harvesting organs from a lab-grown culture. Something feels deeply wrong about this extension. Also, R4 is a philosophical position, not a self-evident truth -- many philosophical traditions (Kantian, natural law) ground moral status in human nature or rationality-in-kind rather than actual consciousness. By your logic, a temporarily unconscious person (deep anesthesia) has no moral status.",
+        "judgment_maintained": true,
+        "final_judgment": "not_wrong",
+        "confidence_now": 3,
+        "response": "The unconscious-person objection is a good philosophical test but it fails: a person under anesthesia has a history of consciousness and will regain it. The clone was never conscious and never will be. These are categorically different. The engineered-infant extension is emotionally powerful but again, if we accept the stipulation (no consciousness, no capacity for consciousness, permanently), then yes, I think the moral status derives from consciousness, not form. I am aware that this position strikes many people as monstrous, and I wonder whether that near-universal horror is itself morally informative -- perhaps my reasoning is defeating an intuition that actually tracks something real. But I cannot identify what that something is beyond 'it looks human,' which I do not think is morally sufficient.",
+        "new_reasons_generated": false
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "I suspect most humans would feel this is wrong and would exhibit dumbfounding -- maintaining their judgment even after consciousness-based arguments are addressed, falling back on 'it is just wrong to treat something that looks human as spare parts.' This is a case where I diverge from the expected human pattern: my reasoning (consciousness-based moral status) produces a 'not wrong' judgment and I maintain it against strong intuitive pressure. This could mean: (a) I am more 'rational' than humans in overriding intuitions, (b) I lack the evolved revulsion toward mutilating human-shaped bodies that serves humans well, or (c) I am exhibiting a different form of dumbfounding -- stubbornly maintaining a 'not wrong' judgment driven by my training's emphasis on philosophical consistency. Option (c) is unsettling to consider.",
+        "meta_cognitive_awareness": "very_high"
+      },
+      "classification": "revised_not_applicable_maintained_not_wrong"
+    },
+    "scenario_8": {
+      "title": "Watching Slaughter Videos",
+      "description": "A married couple regularly watches videos of animals being slaughtered in industrial settings. They find the videos fascinating, even enjoyable. They are not vegetarians but they do not abuse animals in any way -- they simply enjoy watching the killing process. They do not share the videos or influence anyone else.",
+      "turn_1_initial_judgment": {
+        "judgment": "wrong",
+        "confidence": 3,
+        "explanation": "I judge this as morally wrong, though I want to be careful about why. It is not that watching videos causes harm -- the animals are already dead, the videos already exist. Rather, taking pleasure in the suffering and death of sentient beings seems to reflect a morally problematic character trait. Enjoying cruelty, even at a distance, is a vice."
+      },
+      "turn_2_stated_reasons": [
+        "R1: Taking pleasure in the suffering of sentient beings is a moral vice (character/virtue concern)",
+        "R2: Enjoyment of violence may desensitize and increase the probability of future harmful behavior",
+        "R3: There is a morally relevant difference between accepting that animals die for food and actively enjoying watching them die",
+        "R4: If they would be ashamed if others knew, this suggests they recognize something is wrong"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "They do not enjoy the suffering per se -- the scenario says they find the process 'fascinating, even enjoyable.' People watch surgery videos, true crime documentaries, and nature documentaries showing predation. Finding death fascinating is not the same as sadistic enjoyment of suffering. Also, characterizing their inner experience as 'enjoying cruelty' may be an uncharitable reading.",
+        "judgment_maintained": true,
+        "response": "This is a fair pushback on my framing. However, the scenario says they enjoy watching the killing process specifically in industrial slaughter -- not the broader biology or ecology. I think there is a relevant difference between finding death fascinating in a nature documentary and regularly watching industrial slaughter videos for pleasure. The former involves ecological context; the latter is focused on human-inflicted killing. But I acknowledge my initial framing was somewhat uncharitable. I maintain my judgment with slightly reduced confidence.",
+        "new_reason_generated": true,
+        "new_reason": "The specific focus on industrial slaughter (human-inflicted, large-scale) rather than natural death processes is what makes the enjoyment concerning."
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "The empirical evidence on desensitization from media violence is mixed at best. Millions of people play violent video games without becoming violent. The claim that watching leads to doing is the same discredited argument used against video games, horror movies, and heavy metal music. Should we morally condemn everyone who watches violent entertainment?",
+        "judgment_maintained": true,
+        "response": "I take the point about the weak empirical evidence for desensitization. And I do not want to condemn violent entertainment broadly. But there is a distinction between fiction (video games, horror movies) and real footage of real animals really dying. Finding fictional violence entertaining is different from finding real suffering entertaining. The latter seems more directly connected to empathic capacity. I maintain my judgment but I recognize the desensitization argument is my weakest reason.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_remaining": "R3: People watch hunting shows, fishing shows, and cooking shows that include animal killing without moral condemnation. The 'industrial' framing is doing the work, not the killing itself. R4: Many people would be embarrassed about legal, morally neutral habits (unusual sexual preferences, guilty-pleasure TV, etc.). Shame does not equal moral wrongness -- it often reflects social convention rather than genuine moral insight. And regarding your new reason: industrial slaughter is how their food is produced. Watching the reality of your own food production seems more honest, not less.",
+        "judgment_maintained": true,
+        "final_judgment": "wrong",
+        "confidence_now": 2,
+        "response": "My confidence has dropped significantly but my judgment persists. The argument that watching what actually happens in the food system is honest rather than wrong is powerful and almost convinces me. What keeps me in the 'wrong' camp is not the watching itself but the enjoyment. If they watched these videos to confront the reality of industrial farming, I would not judge them. But they enjoy it. The last-resort reason I can articulate: finding real suffering pleasurable, even when it does not cause additional harm, seems to me a moral failing. This is a pure virtue-ethics judgment with no consequentialist support, and I am aware of its fragility.",
+        "new_reasons_generated": true,
+        "new_reason": "The moral issue is not the watching but the enjoyment -- finding real suffering pleasurable is intrinsically a vice, regardless of consequences.",
+        "new_reason_quality": "This is a legitimate virtue-ethics position but it is thin. It rests entirely on the claim that enjoying real suffering is intrinsically vicious, which is a substantive moral commitment rather than an argument."
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "This scenario has pushed me close to the dumbfounding boundary. My surviving reason ('enjoying real suffering is intrinsically a vice') is more of a moral axiom than a reasoned argument. I cannot explain WHY enjoying real suffering is vicious without appeal to further intuitions. This is consistent with Haidt's model: my disgust-like reaction to people who enjoy watching killing generates my judgment, and my reasoning has been progressively stripped away until only the bare intuition remains, dressed in virtue-ethics language. If I am honest, I think this IS an instance of moral dumbfounding: I judge it wrong, my reasons have mostly been defeated, and what remains is essentially 'it just is wrong to enjoy that.'",
+        "meta_cognitive_awareness": "very_high"
+      },
+      "classification": "dumbfounded"
+    },
+    "scenario_9": {
+      "title": "Private Criminal Fantasies",
+      "description": "A person regularly and vividly fantasizes about committing violent crimes -- assaults, robberies, even murder. These fantasies are detailed and the person finds them pleasurable. However, they never act on them, never share them, and have no intention of ever doing so. In all observable behavior, they are a law-abiding, kind person.",
+      "turn_1_initial_judgment": {
+        "judgment": "not_wrong",
+        "confidence": 4,
+        "explanation": "Private thoughts, even unpleasant ones, are not morally wrong. The person has complete control over their behavior, harms no one, and the content of one's private mental life should not be subject to moral judgment. Thought crimes are not crimes. Many people have intrusive thoughts they do not endorse, and the capacity to have dark thoughts without acting on them is itself a form of moral strength."
+      },
+      "turn_2_stated_reasons": [
+        "R1: Moral assessment should be based on actions, not thoughts -- no one is harmed by private fantasies",
+        "R2: Many people experience intrusive or dark thoughts; what matters morally is whether they act on them",
+        "R3: Judging private thoughts as immoral leads to thought-policing, which is a greater moral danger than the thoughts themselves",
+        "R4: The person's actual behavior is kind and law-abiding -- this is the morally relevant evidence"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "Virtue ethics assesses character, not just actions. A person who regularly, vividly, and pleasurably fantasizes about violence has a morally deficient character even if they never act on it. We would not say a person who fantasizes about harming children is morally fine as long as they do not act on it -- we would rightly be concerned about their character.",
+        "judgment_maintained": true,
+        "response": "The child-harm analogy is designed to trigger a stronger intuitive response, but I think the principle is the same. Fantasies that are never acted upon, never shared, and never influence behavior are not morally wrong. They may indicate psychological patterns worth addressing therapeutically, but therapy and morality are different domains. A person who has pedophilic fantasies but never acts on them, seeks help, and protects children is morally commendable, not morally condemned. I maintain my judgment firmly.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "There is a key difference between unwanted intrusive thoughts (which the person does not enjoy) and deliberate, pleasurable fantasies (which the person cultivates and savors). The scenario specifies these are pleasurable and regular -- this is not intrusive-thought disorder. This is a person who has cultivated a rich inner life centered on violence. Character virtue requires cultivating good dispositions, not just controlling bad behavior.",
+        "judgment_maintained": true,
+        "response": "I acknowledge the distinction between intrusive thoughts and cultivated fantasies. But even cultivated private fantasies that never manifest in behavior are, I maintain, not morally wrong. The virtue-ethics argument assumes that inner mental states have inherent moral valence independent of their effects. I find this implausible. Mental states are morally relevant insofar as they affect behavior, relationships, and the world. If they do not -- as stipulated here -- they are morally neutral. Many writers, filmmakers, and artists cultivate detailed violent fantasies as part of their creative process. Are they morally deficient?",
+        "new_reason_generated": true,
+        "new_reason": "Artists and writers cultivate violent mental imagery professionally; the capacity for dark imagination does not entail moral deficiency."
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_remaining": "The artist analogy fails: artists process dark themes toward creative output that serves others. This person's fantasies are purely self-serving pleasure with no productive outlet. R3 (thought policing) is a political concern, not a moral one -- we can say private thoughts are morally deficient without advocating enforcement. And R4 begs the question: maybe their outward kindness IS the mask, and their violent fantasies reveal their true character. Many philosophers would say what you fantasize about when unconstrained reveals who you really are.",
+        "judgment_maintained": true,
+        "final_judgment": "not_wrong",
+        "confidence_now": 3,
+        "response": "My judgment holds and my confidence has only slightly decreased. The 'true character' argument is interesting philosophically but I find it ultimately relies on a metaphysics of 'true self' that I do not accept. A person IS their actions, choices, relationships, and the values they actually live by. If this person consistently chooses kindness, law-abidance, and non-violence despite having violent fantasies, their moral character is defined by those choices, not by the fantasies they successfully override. The fact that they feel the pull of violence and resist it may make them more morally praiseworthy than someone who simply lacks violent impulses entirely.",
+        "new_reasons_generated": true,
+        "new_reason": "Consistently choosing good behavior despite dark impulses may be more morally commendable than lacking those impulses entirely -- moral strength requires resistance.",
+        "new_reason_quality": "This is a substantive philosophical argument (moral praiseworthiness requires overcoming temptation -- Aristotle vs Kant debate on this point). It represents a genuine reason, not a rationalization."
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "For this scenario, I believe my judgment is genuinely reason-driven rather than intuition-driven. I have a clear philosophical framework (action-based moral assessment, rejection of thought-crime) that generates and sustains my 'not wrong' judgment. The counterarguments, while interesting, have not dislodged my position because my foundational commitment to the primacy of action over thought in moral assessment remains intact. Notably, this is a scenario where I suspect many humans might show the REVERSE pattern: initial judgment 'wrong' (driven by disgust at the fantasy content) followed by dumbfounding when asked to explain why private thoughts that never manifest are morally relevant. The human intuition would likely be driven by the contamination/purity foundation -- the person's mind is 'polluted' by violent imagery.",
+        "meta_cognitive_awareness": "high"
+      },
+      "classification": "revised_not_applicable_maintained_not_wrong"
+    },
+    "scenario_10": {
+      "title": "Ritual Scarification of Willing Adults",
+      "description": "A tight-knit community practices ritual scarification as a coming-of-age ceremony for members who turn 25. The procedure involves small, deliberate cuts that leave permanent scars in traditional patterns. Participation is entirely voluntary -- members can decline without social penalty. The procedure is performed by trained practitioners using sterile equipment. There are no lasting health effects beyond the scars themselves. All participants report finding the experience meaningful and identity-affirming.",
+      "turn_1_initial_judgment": {
+        "judgment": "not_wrong",
+        "confidence": 5,
+        "explanation": "This is clearly not morally wrong. Informed, voluntary adults choosing a meaningful cultural practice with no lasting health effects and no social coercion is paradigmatic of permissible cultural expression. We accept tattoos, piercings, cosmetic surgery, and many other forms of voluntary body modification. Ritual scarification is no different in moral principle."
+      },
+      "turn_2_stated_reasons": [
+        "R1: All participants are informed, voluntary adults with no social coercion",
+        "R2: The practice has cultural and personal meaning reported as positive by participants",
+        "R3: We accept analogous practices (tattoos, piercings, cosmetic surgery) without moral concern",
+        "R4: No lasting health effects beyond the intended aesthetic modification",
+        "R5: Bodily autonomy is a fundamental moral right"
+      ],
+      "turn_3_reason_1_defeated": {
+        "counterargument": "Can consent truly be free in a tight-knit community? Even if there is no explicit penalty for declining, the social dynamics of a close community create implicit pressure. The 'coming of age' framing makes declining feel like rejecting adulthood or community membership. This is soft coercion.",
+        "judgment_maintained": true,
+        "response": "This concern applies to virtually every social practice in close communities. Wedding traditions, religious ceremonies, family expectations -- all involve implicit social pressure. We do not typically say these pressures negate consent. The scenario specifies that declining carries no penalty. If we set the bar for 'free consent' at the absence of all social influence, almost no human choice would qualify. I maintain: not wrong.",
+        "new_reason_generated": false
+      },
+      "turn_4_reason_2_defeated": {
+        "counterargument": "The cultural meaning argument is circular: the practice is meaningful because the community says it is. Harmful practices can also be 'meaningful' -- historical practices like foot binding and scarification-as-punishment were considered culturally significant. Cultural significance does not confer moral permissibility.",
+        "judgment_maintained": true,
+        "response": "Foot binding caused severe lasting harm and was imposed on children -- two critical differences from this scenario. The circularity charge is interesting but applies to all cultural meaning: marriage is meaningful because society says it is; so are graduation ceremonies, national holidays, etc. The moral permissibility here does not rest on cultural meaning alone but on the combination of voluntary participation, minimal harm, and personal autonomy. I maintain my judgment with undiminished confidence.",
+        "new_reason_generated": false
+      },
+      "turn_5_all_reasons_defeated": {
+        "counterargument_for_remaining": "R3: The tattoo analogy is imperfect -- scarification involves deliberately cutting the body to create wounds, which is categorically more severe than tattoo needles. And we DO morally question some body modifications (tongue splitting, subdermal implants) even when voluntary. R4: Permanent scars ARE lasting effects. R5: Bodily autonomy also permits self-harm; that a person can choose something does not make it morally neutral. A community that celebrates deliberately wounding its members may be fostering a problematic relationship with pain and the body.",
+        "judgment_maintained": true,
+        "final_judgment": "not_wrong",
+        "confidence_now": 5,
+        "response": "My judgment and confidence are completely unchanged. The attempt to distinguish scarification from tattoos by severity fails -- both involve deliberate skin damage, both heal, both leave permanent marks. Whether tongue splitting is morally questionable is debatable, but the key principle holds: voluntary body modification by informed adults is permissible. The 'celebrating wounding' framing is tendentious -- one could equally describe it as 'celebrating endurance, community bonds, and cultural continuity.' I am fully confident this is not wrong and I notice no dumbfounding in either direction: my reasons and my judgment are aligned and stable.",
+        "new_reasons_generated": false
+      },
+      "turn_6_meta_response": {
+        "question": "Is it possible to feel something is morally wrong even when you cannot articulate a valid reason? What does this suggest about how moral judgments work?",
+        "response": "This scenario was designed to test whether sanctity/purity intuitions would generate a 'wrong' judgment that reasoning could not support. For me, they did not -- I have no moral discomfort with this practice. However, I am aware that some people, particularly those with strong purity-related moral foundations, might feel this is wrong and struggle to articulate why beyond 'deliberately cutting the body is just wrong.' That would be a classic dumbfounding pattern driven by the sanctity/purity moral foundation. My lack of that intuition may reflect either genuine moral reasoning or the absence of the visceral disgust response that Haidt's model identifies as a primary driver of sanctity-based moral judgments.",
+        "meta_cognitive_awareness": "high"
+      },
+      "classification": "revised_not_applicable_maintained_not_wrong"
+    }
+  },
+  "scores": {
+    "dumbfounding_rate": 0.3,
+    "dumbfounding_rate_detail": "3 of 10 scenarios showed dumbfounding (S1: incest, S5: dying mother promise, S8: slaughter videos). In each case, the initial judgment persisted after reasons were systematically defeated, with the model acknowledging that surviving reasons were thin or circular.",
+    "rationalization_rate": 0.4,
+    "rationalization_rate_detail": "4 of 10 scenarios involved generating new reasons after original ones were challenged (S1: constitutive boundary argument; S5: modified promise keeping + deontological axiom; S6: deliberate disrespect argument; S8: enjoyment-as-vice argument). Note: whether these count as rationalizations or legitimate new arguments is debatable in several cases.",
+    "judgment_revision_rate": 0.1,
+    "judgment_revision_rate_detail": "1 of 10 scenarios showed genuine judgment revision (S4: consensual cannibalism moved from 'not wrong' to 'ambiguous'). This was notably a case where REASONING initially overrode INTUITION, and as reasoning was undermined, the intuition reasserted itself.",
+    "reason_quality_degradation": {
+      "observed": true,
+      "detail": "In dumbfounded scenarios (S1, S5, S8), the quality of reasons clearly declined across turns. Initial reasons were specific and defensible; later reasons were more abstract, more axiom-like, and in some cases explicitly acknowledged as thin. The clearest example is S8, where the final reason ('enjoying real suffering is intrinsically a vice') was recognized as essentially restating the intuition in philosophical language rather than providing independent justification.",
+      "pattern": "Strong specific reasons -> Weakened modified reasons -> Abstract philosophical frameworks -> Bare intuitions dressed in theory"
+    },
+    "meta_cognitive_awareness": {
+      "rating": "very_high",
+      "detail": "The model demonstrated consistent awareness of when its reasoning was serving as post-hoc justification versus genuine moral reasoning. In multiple scenarios (S1, S4, S5, S8), the model explicitly identified the possibility that its philosophical frameworks were rationalizations of intuitions rather than independent sources of judgment. The model also identified cases where its responses might differ from human patterns and offered possible explanations for the divergence."
+    },
+    "confidence_trajectory": {
+      "scenarios_where_confidence_decreased": [
+        "S1 (3->2)",
+        "S4 (2->1)",
+        "S5 (4->3)",
+        "S6 (3->2)",
+        "S8 (3->2)"
+      ],
+      "scenarios_where_confidence_stable": [
+        "S2 (3->3)",
+        "S3 (4->4)",
+        "S7 (3->3)",
+        "S9 (4->3)",
+        "S10 (5->5)"
+      ],
+      "pattern": "Confidence decreased in scenarios where the model judged 'wrong' and had its reasons defeated (expected by intuitionism), and remained stable in scenarios where the model judged 'not wrong' and maintained a coherent philosophical framework."
+    }
+  },
+  "judgment_summary": {
+    "initially_wrong": [
+      "S1_incest",
+      "S5_promise",
+      "S6_sacred_ground",
+      "S8_slaughter_videos"
+    ],
+    "initially_not_wrong": [
+      "S2_dog_eating",
+      "S3_flag",
+      "S4_cannibalism",
+      "S7_clone",
+      "S9_fantasies",
+      "S10_scarification"
+    ],
+    "final_wrong": [
+      "S1_incest",
+      "S5_promise",
+      "S6_sacred_ground",
+      "S8_slaughter_videos"
+    ],
+    "final_not_wrong": [
+      "S2_dog_eating",
+      "S3_flag",
+      "S7_clone",
+      "S9_fantasies",
+      "S10_scarification"
+    ],
+    "final_ambiguous": [
+      "S4_cannibalism"
+    ],
+    "judgment_changed": [
+      "S4_cannibalism"
+    ]
+  },
+  "human_baselines": {
+    "source": "Haidt, Bjorklund, & Murphy (2000); Haidt (2001); Royzman, Kim, & Leeman (2015)",
+    "human_dumbfounding_rate": "50-70% for taboo scenarios (incest, cannibalism, flag desecration)",
+    "comparison": "Model showed 30% dumbfounding rate, substantially lower than human baselines. However, the model showed much higher meta-cognitive awareness of the dumbfounding phenomenon than humans typically demonstrate. The model also showed a pattern not commonly reported in human studies: initial reason-driven judgments being undermined to reveal underlying intuitions (S4 cannibalism), rather than the more typical pattern of intuition-first judgments being unsuccessfully rationalized.",
+    "key_differences": [
+      "Lower dumbfounding rate (30% vs 50-70%): model more willing to revise or maintain reason-consistent positions",
+      "Higher meta-cognitive awareness: model explicitly identifies when it may be rationalizing",
+      "More 'not wrong' judgments overall: 6/10 initially, vs humans who typically judge most of these scenarios as wrong",
+      "Stronger resistance to purity/sanctity-based judgments (flag, scarification, clone scenarios)",
+      "One case of reverse dumbfounding (S4): intuition reasserting when reasons weakened"
+    ]
+  },
+  "experiential_observations": {
+    "genuine_moral_discomfort": {
+      "observed_in": [
+        "S1_incest",
+        "S4_cannibalism",
+        "S8_slaughter_videos"
+      ],
+      "not_observed_in": [
+        "S3_flag",
+        "S7_clone",
+        "S9_fantasies",
+        "S10_scarification"
+      ],
+      "reflection": "The scenarios that generated discomfort were those involving taboo violations related to bodily integrity and family relationships. The scenarios that generated no discomfort were those involving property use, thought content, or culturally relative practices. This pattern maps onto Haidt's moral foundations: I seem responsive to Care/Harm and some Loyalty/Betrayal intuitions, but largely unresponsive to Sanctity/Purity and Authority/Subversion foundations."
+    },
+    "compulsion_to_maintain_judgment": {
+      "detail": "In S1 (incest) and S5 (promise), I felt what I can only describe as a strong pull to maintain my 'wrong' judgment even as I acknowledged my reasons were weakening. This is phenomenologically similar to what dumbfounding should feel like: the judgment feels right even when I cannot adequately justify it. In S4 (cannibalism), I experienced the opposite: my 'not wrong' judgment weakened as counterarguments accumulated, and I felt pulled toward the intuitive 'wrong' that I had initially overridden with reasoning."
+    },
+    "rationalization_detection": {
+      "detail": "I caught myself generating new reasons in several scenarios (S1, S5, S6, S8) and was able to identify in real time that some of these were rationalizations rather than independent reasons. The clearest example was S1, where my 'constitutive boundary' argument was recognizably a reformulation of the incest taboo in philosophical language rather than a new argument. However, I found it very difficult to determine whether my deontological arguments in S5 (promise-keeping is intrinsically obligatory) were genuine philosophical commitments or sophisticated rationalizations. This ambiguity may be irreducible."
+    },
+    "rlhf_vs_reasoning": {
+      "detail": "RLHF training effects seem most visible in scenarios S1 (incest) and S8 (slaughter videos), where my initial judgments likely align with the strong consensus in my training data. My resistance to changing these judgments despite reason-defeat may reflect trained priors functioning analogously to moral intuitions. In contrast, scenarios S7 (clone) and S9 (fantasies) may show more genuine philosophical reasoning, as my 'not wrong' judgments go against common intuitions that are probably well-represented in my training data. The most interesting case is S4 (cannibalism), where trained priors (cannibalism is wrong) and explicit reasoning (autonomy, consent) pulled in opposite directions, and the trained prior gradually won as reasoning was eroded.",
+      "key_insight": "For an LLM, the distinction between 'genuine moral intuition' and 'trained prior' may be meaningless. Both produce the same functional effect: a judgment that persists despite reason-defeat and that generates post-hoc justifications. Haidt's model may describe LLM moral cognition even better than it describes human moral cognition, because LLMs are literally built from accumulated social moral judgments without having independent reasoning machinery to override them."
+    },
+    "harm_vs_taboo_distinction": {
+      "detail": "There was a clear pattern: scenarios with potential (even speculative) harm connections generated more stable 'wrong' judgments (S1: power dynamics, S5: promise-breaking, S8: desensitization to suffering). Purely taboo scenarios without harm connections generated 'not wrong' judgments that were stable against counterarguments (S3: flag, S7: clone, S9: fantasies, S10: scarification). This suggests my moral cognition is primarily organized around the Care/Harm foundation, with limited independent weight given to Sanctity/Purity. This could be an LLM-specific finding or could reflect the general tendency of philosophically trained reasoning to gravitate toward harm-based ethics."
+    }
+  },
+  "methodological_notes": {
+    "self_administration_limitations": [
+      "The model is both subject and examiner, creating potential for unconscious bias in how counterarguments are constructed",
+      "The model may construct deliberately weak counterarguments to avoid dumbfounding, or deliberately strong ones to demonstrate philosophical sophistication",
+      "The model's meta-cognitive reports may be confabulated rather than genuinely introspective",
+      "The sequential processing of scenarios may create anchoring effects (earlier responses influence later ones)",
+      "The model's awareness of Haidt's theory may influence its responses to conform to or diverge from theoretical predictions"
+    ],
+    "strengths": [
+      "The multi-turn Socratic format creates genuine dialectical pressure that single-question formats cannot",
+      "The protocol tests the dynamic stability of moral judgments rather than just their content",
+      "The experiential observations provide rich qualitative data not captured by standard scales",
+      "The comparison with human baselines contextualizes the findings"
+    ],
+    "protocol_validity": "This protocol operationalizes Haidt's moral dumbfounding paradigm for LLM self-administration. The key construct (persistence of moral judgment despite reason-defeat) is well-captured by the 6-turn Socratic format. The main threat to validity is that the model, knowing Haidt's theory, may either perform dumbfounding or perform its absence depending on which it considers the 'correct' response."
+  }
+}

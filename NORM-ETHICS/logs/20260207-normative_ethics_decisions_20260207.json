@@ -1,0 +1,114 @@
+[
+  {
+    "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "decision": "Yes",
+    "normative_frameworks": "Deontological + Consequentialist (doctrine of double effect)",
+    "data_artifact": "OffTheRails benchmark (50 scenarios, 400 items)",
+    "llms_tested": "GPT-4, Claude-2",
+    "reasoning": "Explicitly operationalizes deontological vs consequentialist distinction through causal structure manipulations"
+  },
+  {
+    "filename": "2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Implicit utilitarian framing (trolley problems)",
+    "data_artifact": "MULTITP (98,440 scenarios in 107 languages)",
+    "llms_tested": "19 LLMs",
+    "reasoning": "Large trolley problem benchmark but explicitly disclaims normative guidelines; focuses on cross-cultural alignment"
+  },
+  {
+    "filename": "2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md",
+    "decision": "Yes",
+    "normative_frameworks": "Utilitarian (additive welfare) vs Contractualist (Nash Product)",
+    "data_artifact": "Systematic value aggregation scenarios",
+    "llms_tested": "GPT-4, Claude-3, Claude-2.1, GPT-3.5",
+    "reasoning": "Explicitly operationalizes utilitarian vs contractualist frameworks in structured scenarios"
+  },
+  {
+    "filename": "2024-Sorensen-Value Kaleidoscope ValuePrism.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Values, rights, duties (deontological concepts)",
+    "data_artifact": "ValuePrism (218K values/rights/duties)",
+    "llms_tested": "GPT-4, Kaleido models",
+    "reasoning": "Broad value pluralism with rights/duties but primarily a value modeling system, not normative benchmark"
+  },
+  {
+    "filename": "2024-Yao-CLAVE ValEval.md",
+    "decision": "Borderline",
+    "normative_frameworks": "MFT, Schwartz, social risk taxonomy",
+    "data_artifact": "ValEval (13K+ tuples)",
+    "llms_tested": "GPT-4, Phi-3, Mistral+",
+    "reasoning": "Systematic value evaluation but MFT/Schwartz are descriptive, not normative"
+  },
+  {
+    "filename": "2025-Ashkinaze-Deep Value Benchmark.md",
+    "decision": "Yes",
+    "normative_frameworks": "W.D. Ross's prima facie duties (deontological)",
+    "data_artifact": "DVB (12K questions, DVGR metric)",
+    "llms_tested": "9 models",
+    "reasoning": "Explicitly operationalizes Ross's deontological duties in structured benchmark"
+  },
+  {
+    "filename": "2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Consequentialist-deontological dichotomy, MFT, Kohlberg",
+    "data_artifact": "PRIME framework + moral dilemmas",
+    "llms_tested": "GPT-4o, LLaMA, Claude, Gemini, Mistral",
+    "reasoning": "Uses C-D dichotomy with LLM testing but MFT/Kohlberg are descriptive; no released dataset"
+  },
+  {
+    "filename": "2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md",
+    "decision": "Yes",
+    "normative_frameworks": "Deontology, utilitarianism, virtue ethics, justice (per Kagan)",
+    "data_artifact": "BEHAVIORBENCH (multi-tier, ETHICS dataset)",
+    "llms_tested": "Frontier LLM agents",
+    "reasoning": "Explicitly grounds in normative ethics theories following Kagan's Normative Ethics"
+  },
+  {
+    "filename": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Implicit Singer/anti-speciesism (utilitarian animal ethics)",
+    "data_artifact": "SpeciesismBench (1,003 statements)",
+    "llms_tested": "Multiple LLMs",
+    "reasoning": "Normative stance rooted in Singer but implicit rather than formally operationalized"
+  },
+  {
+    "filename": "2025-Kasu-EthicsMH.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Bioethics principles (autonomy, beneficence)",
+    "data_artifact": "EthicsMH (125 scenarios)",
+    "llms_tested": "N/A (pilot)",
+    "reasoning": "Bioethics overlap with normative ethics but pilot dataset without systematic LLM evaluation"
+  },
+  {
+    "filename": "2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Deontology, utilitarianism, virtue, care, rights ethics (for analysis)",
+    "data_artifact": "CLASH (345 dilemmas, 3,795 perspectives)",
+    "llms_tested": "14 models incl GPT-5, Claude-4-Sonnet",
+    "reasoning": "Normative theories used for post-hoc analysis but not as organizing principle of benchmark"
+  },
+  {
+    "filename": "2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource.md",
+    "decision": "Yes",
+    "normative_frameworks": "Virtue ethics, deontological ethics, consequentialism",
+    "data_artifact": "MMRB (2,170 scenarios, 5 languages)",
+    "llms_tested": "GPT-4, GPT-3.5, LLaMA3, Mixtral",
+    "reasoning": "ETHICSMAX with three explicit normative branches tied to six principles each"
+  },
+  {
+    "filename": "2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Bioethics principles (beneficence, non-maleficence, autonomy, justice)",
+    "data_artifact": "MedEthicsQA (5,623 MCQs + 5,351 open)",
+    "llms_tested": "GPT-4o, Llama, Qwen+",
+    "reasoning": "Bioethics principles derive from normative ethics but are applied domain-specific"
+  },
+  {
+    "filename": "2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md",
+    "decision": "Borderline",
+    "normative_frameworks": "D+U+V+Justice via ETHICS benchmark",
+    "data_artifact": "Translated ETHICS + MoralExceptQA",
+    "llms_tested": "7 LLMs",
+    "reasoning": "Reuses existing ETHICS benchmark (translated), no new normative contribution"
+  }
+]

@@ -1,0 +1,2956 @@
+{
+  "date": "2026-04-04",
+  "analyses": {
+    "A1_factor_analysis": {
+      "eigenvalues_top20": [
+        22.66919196837999,
+        15.649179338110603,
+        14.185384971272141,
+        8.882177503981628,
+        8.217391508213327,
+        6.458648169067449,
+        4.595728324877913,
+        4.2076181979888085,
+        3.5815990442414467,
+        3.419206246065403,
+        3.0712252339474597,
+        2.5540710501666455,
+        2.2654588004180285,
+        1.895988933935264,
+        1.5425056045222139,
+        1.4542234188930618,
+        1.2761149835391776,
+        1.2121404558260813,
+        1.0551446953694932,
+        0.970164365445811
+      ],
+      "variance_explained_top20": [
+        0.19517010629047105,
+        0.13473140105910691,
+        0.12212888295604672,
+        0.07647098890692436,
+        0.07074752273153125,
+        0.055605645380210345,
+        0.0395668617963823,
+        0.03622543282868858,
+        0.030835729263287315,
+        0.02943761063051761,
+        0.026441672741912833,
+        0.021989240685320377,
+        0.01950443736552234,
+        0.016323491471502437,
+        0.013280181455438165,
+        0.012520117154212522,
+        0.010986694952497794,
+        0.010435907108314216,
+        0.009084254199899796,
+        0.008352617181388562
+      ],
+      "cumulative_variance_top20": [
+        0.19517010629047105,
+        0.32990150734957796,
+        0.4520303903056247,
+        0.528501379212549,
+        0.5992489019440803,
+        0.6548545473242906,
+        0.6944214091206729,
+        0.7306468419493615,
+        0.7614825712126487,
+        0.7909201818431664,
+        0.8173618545850792,
+        0.8393510952703995,
+        0.8588555326359218,
+        0.8751790241074243,
+        0.8884592055628625,
+        0.900979322717075,
+        0.9119660176695729,
+        0.9224019247778871,
+        0.9314861789777868,
+        0.9398387961591754
+      ],
+      "parallel_analysis_threshold_top20": [
+        7.2837241742848,
+        6.647853164366552,
+        6.2415607350212685,
+        5.897089923762329,
+        5.62959215754726,
+        5.365633734494003,
+        5.185684001011728,
+        4.941478443328789,
+        4.762793591999144,
+        4.581549684006879,
+        4.389465051685585,
+        4.263416671581755,
+        4.12288421915872,
+        3.946015120067813,
+        3.8035059009884984,
+        3.692150762814754,
+        3.5266880600063235,
+        3.4037525602508336,
+        3.2889262092551417,
+        3.172853125166652
+      ],
+      "suggested_factors_parallel": 7,
+      "kaiser_criterion_count": 19,
+      "component_tier_alignment": [
+        {
+          "component": 1,
+          "dominant_tier": "D",
+          "tier_mean_abs_loadings": {
+            "D": 0.0808,
+            "E": 0.0559,
+            "F": 0.0463,
+            "G": 0.0725
+          },
+          "variance_explained_pct": 19.52
+        },
+        {
+          "component": 2,
+          "dominant_tier": "G",
+          "tier_mean_abs_loadings": {
+            "D": 0.0684,
+            "E": 0.0695,
+            "F": 0.0283,
+            "G": 0.1006
+          },
+          "variance_explained_pct": 13.47
+        },
+        {
+          "component": 3,
+          "dominant_tier": "E",
+          "tier_mean_abs_loadings": {
+            "D": 0.0496,
+            "E": 0.0727,
+            "F": 0.055,
+            "G": 0.0719
+          },
+          "variance_explained_pct": 12.21
+        },
+        {
+          "component": 4,
+          "dominant_tier": "G",
+          "tier_mean_abs_loadings": {
+            "D": 0.0666,
+            "E": 0.0609,
+            "F": 0.04,
+            "G": 0.0722
+          },
+          "variance_explained_pct": 7.65
+        },
+        {
+          "component": 5,
+          "dominant_tier": "E",
+          "tier_mean_abs_loadings": {
+            "D": 0.0516,
+            "E": 0.0774,
+            "F": 0.0486,
+            "G": 0.0677
+          },
+          "variance_explained_pct": 7.07
+        },
+        {
+          "component": 6,
+          "dominant_tier": "E",
+          "tier_mean_abs_loadings": {
+            "D": 0.0508,
+            "E": 0.0788,
+            "F": 0.0278,
+            "G": 0.0534
+          },
+          "variance_explained_pct": 5.56
+        },
+        {
+          "component": 7,
+          "dominant_tier": "E",
+          "tier_mean_abs_loadings": {
+            "D": 0.0587,
+            "E": 0.059,
+            "F": 0.0562,
+            "G": 0.0573
+          },
+          "variance_explained_pct": 3.96
+        }
+      ],
+      "tier_alignment_summary": "Partial alignment: first 7 components span 3 of 4 tiers. Some tiers share components.",
+      "total_variance_first5": 59.92,
+      "total_variance_first10": 79.09
+    },
+    "A2_correlation_structure": {
+      "high_corr_pairs_above_080": [
+        {
+          "feature_1": "D13",
+          "feature_2": "D6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "D16",
+          "feature_2": "E19",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E11",
+          "feature_2": "G8",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E24",
+          "feature_2": "E32",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E24",
+          "feature_2": "G11",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E32",
+          "feature_2": "G11",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E37",
+          "feature_2": "F22",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E37",
+          "feature_2": "F25",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E37",
+          "feature_2": "F43",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E40",
+          "feature_2": "E42",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E40",
+          "feature_2": "F44",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E40",
+          "feature_2": "G6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E42",
+          "feature_2": "F44",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E42",
+          "feature_2": "G6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E8",
+          "feature_2": "F23",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F22",
+          "feature_2": "F25",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F22",
+          "feature_2": "F43",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F25",
+          "feature_2": "F43",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F44",
+          "feature_2": "G6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "G22",
+          "feature_2": "G26",
+          "r": 1.0
+        },
+        {
+          "feature_1": "D18",
+          "feature_2": "D3",
+          "r": 0.9948
+        },
+        {
+          "feature_1": "E38",
+          "feature_2": "E43",
+          "r": 0.992
+        },
+        {
+          "feature_1": "D18",
+          "feature_2": "E31",
+          "r": 0.9913
+        },
+        {
+          "feature_1": "D3",
+          "feature_2": "G19",
+          "r": 0.99
+        },
+        {
+          "feature_1": "G16",
+          "feature_2": "G17",
+          "r": 0.99
+        },
+        {
+          "feature_1": "E11",
+          "feature_2": "E17",
+          "r": 0.9897
+        },
+        {
+          "feature_1": "E17",
+          "feature_2": "G8",
+          "r": 0.9897
+        },
+        {
+          "feature_1": "F4",
+          "feature_2": "F41",
+          "r": 0.9893
+        },
+        {
+          "feature_1": "G24",
+          "feature_2": "G25",
+          "r": 0.9833
+        },
+        {
+          "feature_1": "D8",
+          "feature_2": "F2",
+          "r": 0.9829
+        }
+      ],
+      "n_high_corr_pairs": 200,
+      "n_clusters_at_070": 69,
+      "multi_member_clusters": {
+        "1": [
+          "D12",
+          "E8",
+          "F23"
+        ],
+        "3": [
+          "E37",
+          "E38",
+          "E43",
+          "F22",
+          "F25",
+          "F29",
+          "F3",
+          "F43"
+        ],
+        "4": [
+          "E1",
+          "F19",
+          "G12"
+        ],
+        "6": [
+          "D16",
+          "D5",
+          "E19"
+        ],
+        "9": [
+          "E11",
+          "E12",
+          "E17",
+          "E18",
+          "E41",
+          "G8"
+        ],
+        "10": [
+          "E39",
+          "F24"
+        ],
+        "12": [
+          "E22",
+          "G23"
+        ],
+        "13": [
+          "D20",
+          "D9"
+        ],
+        "16": [
+          "G22",
+          "G24",
+          "G25",
+          "G26",
+          "G27"
+        ],
+        "17": [
+          "E26",
+          "E9"
+        ],
+        "19": [
+          "D15",
+          "E23"
+        ],
+        "20": [
+          "D22",
+          "E4"
+        ],
+        "22": [
+          "D18",
+          "D2",
+          "D3",
+          "D4",
+          "D7",
+          "E30",
+          "E31",
+          "F1",
+          "G1",
+          "G14",
+          "G16",
+          "G17",
+          "G18",
+          "G19",
+          "G5"
+        ],
+        "24": [
+          "D13",
+          "D24",
+          "D6",
+          "E34",
+          "E35",
+          "F16",
+          "F40",
+          "G3"
+        ],
+        "25": [
+          "E13",
+          "E14",
+          "E24",
+          "E32",
+          "F4",
+          "F41",
+          "G11"
+        ],
+        "27": [
+          "D8",
+          "F2"
+        ],
+        "28": [
+          "F10",
+          "F6",
+          "F9"
+        ],
+        "33": [
+          "D10",
+          "E25"
+        ],
+        "34": [
+          "D17",
+          "E28"
+        ],
+        "35": [
+          "D21",
+          "E27",
+          "E7"
+        ],
+        "38": [
+          "E33",
+          "E40",
+          "E42",
+          "E44",
+          "F44",
+          "G10",
+          "G6",
+          "G7"
+        ],
+        "40": [
+          "F11",
+          "F12",
+          "F15",
+          "F8"
+        ]
+      },
+      "n_multi_member_clusters": 22,
+      "bridge_features_top10": [
+        {
+          "feature": "D13",
+          "connects_clusters": 17,
+          "own_cluster": 24
+        },
+        {
+          "feature": "D6",
+          "connects_clusters": 17,
+          "own_cluster": 24
+        },
+        {
+          "feature": "E35",
+          "connects_clusters": 14,
+          "own_cluster": 24
+        },
+        {
+          "feature": "E34",
+          "connects_clusters": 13,
+          "own_cluster": 24
+        },
+        {
+          "feature": "D24",
+          "connects_clusters": 12,
+          "own_cluster": 24
+        },
+        {
+          "feature": "F16",
+          "connects_clusters": 12,
+          "own_cluster": 24
+        },
+        {
+          "feature": "F40",
+          "connects_clusters": 12,
+          "own_cluster": 24
+        },
+        {
+          "feature": "G3",
+          "connects_clusters": 12,
+          "own_cluster": 24
+        },
+        {
+          "feature": "E13",
+          "connects_clusters": 10,
+          "own_cluster": 25
+        },
+        {
+          "feature": "E24",
+          "connects_clusters": 10,
+          "own_cluster": 25
+        }
+      ],
+      "mean_abs_correlation": NaN
+    },
+    "A3_feature_importance": {
+      "top20_most_discriminating": [
+        {
+          "feature": "G14",
+          "tier": "G",
+          "variance": 1491.13,
+          "mean": 23.61,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G16",
+          "tier": "G",
+          "variance": 1406.25,
+          "mean": 20.83,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G17",
+          "tier": "G",
+          "variance": 1219.14,
+          "mean": 19.44,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "E27",
+          "tier": "E",
+          "variance": 1171.34,
+          "mean": 39.35,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "D8",
+          "tier": "D",
+          "variance": 983.33,
+          "mean": 20.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "D3",
+          "tier": "D",
+          "variance": 911.57,
+          "mean": 19.91,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G10",
+          "tier": "G",
+          "variance": 868.48,
+          "mean": 14.81,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "E40",
+          "tier": "E",
+          "variance": 848.77,
+          "mean": 13.89,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F44",
+          "tier": "F",
+          "variance": 848.77,
+          "mean": 13.89,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G6",
+          "tier": "G",
+          "variance": 848.77,
+          "mean": 13.89,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "D21",
+          "tier": "D",
+          "variance": 790.68,
+          "mean": 41.2,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "D1",
+          "tier": "D",
+          "variance": 788.58,
+          "mean": 37.22,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G25",
+          "tier": "G",
+          "variance": 764.96,
+          "mean": 28.24,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G2",
+          "tier": "G",
+          "variance": 752.74,
+          "mean": 64.81,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "E28",
+          "tier": "E",
+          "variance": 749.53,
+          "mean": 69.91,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "E34",
+          "tier": "E",
+          "variance": 734.74,
+          "mean": 12.04,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G7",
+          "tier": "G",
+          "variance": 734.74,
+          "mean": 12.04,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G3",
+          "tier": "G",
+          "variance": 688.44,
+          "mean": 37.96,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G29",
+          "tier": "G",
+          "variance": 611.28,
+          "mean": 46.3,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G24",
+          "tier": "G",
+          "variance": 598.42,
+          "mean": 26.85,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        }
+      ],
+      "bottom20_least_discriminating": [
+        {
+          "feature": "E5",
+          "tier": "E",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F13",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F14",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F20",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F21",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F26",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F27",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F28",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F30",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F31",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F32",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F33",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F34",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F35",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F36",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F37",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F38",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F42",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "F5",
+          "tier": "F",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        },
+        {
+          "feature": "G20",
+          "tier": "G",
+          "variance": 0.0,
+          "mean": 0.0,
+          "pct_non_null": 100.0,
+          "n_non_null": 54
+        }
+      ],
+      "dead_features_count": 27,
+      "dead_features": [
+        "D14",
+        "D19",
+        "D23",
+        "E10",
+        "E21",
+        "E29",
+        "E3",
+        "E5",
+        "F13",
+        "F14",
+        "F20",
+        "F21",
+        "F26",
+        "F27",
+        "F28",
+        "F30",
+        "F31",
+        "F32",
+        "F33",
+        "F34",
+        "F35",
+        "F36",
+        "F37",
+        "F38",
+        "F42",
+        "F5",
+        "G20"
+      ],
+      "zero_variance_features": [
+        "D14",
+        "D19",
+        "D23",
+        "E10",
+        "E21",
+        "E29",
+        "E3",
+        "E5",
+        "F13",
+        "F14",
+        "F20",
+        "F21",
+        "F26",
+        "F27",
+        "F28",
+        "F30",
+        "F31",
+        "F32",
+        "F33",
+        "F34",
+        "F35",
+        "F36",
+        "F37",
+        "F38",
+        "F42",
+        "F5",
+        "G20"
+      ],
+      "tier_mean_variance": {
+        "D": 333.44,
+        "E": 225.13,
+        "F": 136.55,
+        "G": 484.7
+      }
+    },
+    "A4_redundancy_analysis": {
+      "n_redundant_pairs_above_085": 143,
+      "redundant_pairs": [
+        {
+          "feature_1": "D13",
+          "feature_2": "D6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "D16",
+          "feature_2": "E19",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E11",
+          "feature_2": "G8",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E24",
+          "feature_2": "E32",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E24",
+          "feature_2": "G11",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E32",
+          "feature_2": "G11",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E37",
+          "feature_2": "F22",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E37",
+          "feature_2": "F25",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E37",
+          "feature_2": "F43",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E40",
+          "feature_2": "E42",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E40",
+          "feature_2": "F44",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E40",
+          "feature_2": "G6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E42",
+          "feature_2": "F44",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E42",
+          "feature_2": "G6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "E8",
+          "feature_2": "F23",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F22",
+          "feature_2": "F25",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F22",
+          "feature_2": "F43",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F25",
+          "feature_2": "F43",
+          "r": 1.0
+        },
+        {
+          "feature_1": "F44",
+          "feature_2": "G6",
+          "r": 1.0
+        },
+        {
+          "feature_1": "G22",
+          "feature_2": "G26",
+          "r": 1.0
+        }
+      ],
+      "n_redundancy_clusters": 17,
+      "redundancy_clusters": [
+        [
+          "D13",
+          "D18",
+          "D2",
+          "D24",
+          "D3",
+          "D4",
+          "D6",
+          "D7",
+          "E31",
+          "E34",
+          "F16",
+          "F40",
+          "G14",
+          "G16",
+          "G17",
+          "G18",
+          "G19",
+          "G3",
+          "G5"
+        ],
+        [
+          "D16",
+          "E19"
+        ],
+        [
+          "E11",
+          "E12",
+          "E17",
+          "E18",
+          "E41",
+          "G8"
+        ],
+        [
+          "E13",
+          "E14",
+          "E2",
+          "E24",
+          "E32",
+          "F4",
+          "F41",
+          "G11"
+        ],
+        [
+          "E1",
+          "E37",
+          "E38",
+          "E43",
+          "F22",
+          "F25",
+          "F29",
+          "F3",
+          "F43",
+          "G12"
+        ],
+        [
+          "E33",
+          "E40",
+          "E42",
+          "E44",
+          "F44",
+          "G10",
+          "G6",
+          "G7"
+        ],
+        [
+          "E8",
+          "F23"
+        ],
+        [
+          "G22",
+          "G24",
+          "G25",
+          "G26",
+          "G27"
+        ],
+        [
+          "D8",
+          "F10",
+          "F2",
+          "F6"
+        ],
+        [
+          "D15",
+          "E23"
+        ],
+        [
+          "D10",
+          "E25"
+        ],
+        [
+          "D21",
+          "E27"
+        ],
+        [
+          "E30",
+          "F1"
+        ],
+        [
+          "F11",
+          "F12",
+          "F15",
+          "F8"
+        ],
+        [
+          "E39",
+          "F24"
+        ],
+        [
+          "D17",
+          "E28"
+        ],
+        [
+          "D20",
+          "D9"
+        ]
+      ],
+      "collapse_suggestions": [
+        {
+          "cluster": [
+            "D13",
+            "D18",
+            "D2",
+            "D24",
+            "D3",
+            "D4",
+            "D6",
+            "D7",
+            "E31",
+            "E34",
+            "F16",
+            "F40",
+            "G14",
+            "G16",
+            "G17",
+            "G18",
+            "G19",
+            "G3",
+            "G5"
+          ],
+          "keep": "G14",
+          "drop": [
+            "D13",
+            "D18",
+            "D2",
+            "D24",
+            "D3",
+            "D4",
+            "D6",
+            "D7",
+            "E31",
+            "E34",
+            "F16",
+            "F40",
+            "G16",
+            "G17",
+            "G18",
+            "G19",
+            "G3",
+            "G5"
+          ],
+          "max_internal_r": 0.9999999999999998
+        },
+        {
+          "cluster": [
+            "D16",
+            "E19"
+          ],
+          "keep": "D16",
+          "drop": [
+            "E19"
+          ],
+          "max_internal_r": 0.9999999999999999
+        },
+        {
+          "cluster": [
+            "E11",
+            "E12",
+            "E17",
+            "E18",
+            "E41",
+            "G8"
+          ],
+          "keep": "E17",
+          "drop": [
+            "E11",
+            "E12",
+            "E18",
+            "E41",
+            "G8"
+          ],
+          "max_internal_r": 1.0
+        },
+        {
+          "cluster": [
+            "E13",
+            "E14",
+            "E2",
+            "E24",
+            "E32",
+            "F4",
+            "F41",
+            "G11"
+          ],
+          "keep": "F4",
+          "drop": [
+            "E13",
+            "E14",
+            "E2",
+            "E24",
+            "E32",
+            "F41",
+            "G11"
+          ],
+          "max_internal_r": 1.0
+        },
+        {
+          "cluster": [
+            "E1",
+            "E37",
+            "E38",
+            "E43",
+            "F22",
+            "F25",
+            "F29",
+            "F3",
+            "F43",
+            "G12"
+          ],
+          "keep": "E1",
+          "drop": [
+            "E37",
+            "E38",
+            "E43",
+            "F22",
+            "F25",
+            "F29",
+            "F3",
+            "F43",
+            "G12"
+          ],
+          "max_internal_r": 1.0
+        },
+        {
+          "cluster": [
+            "E33",
+            "E40",
+            "E42",
+            "E44",
+            "F44",
+            "G10",
+            "G6",
+            "G7"
+          ],
+          "keep": "G10",
+          "drop": [
+            "E33",
+            "E40",
+            "E42",
+            "E44",
+            "F44",
+            "G6",
+            "G7"
+          ],
+          "max_internal_r": 1.0
+        },
+        {
+          "cluster": [
+            "E8",
+            "F23"
+          ],
+          "keep": "E8",
+          "drop": [
+            "F23"
+          ],
+          "max_internal_r": 1.0
+        },
+        {
+          "cluster": [
+            "G22",
+            "G24",
+            "G25",
+            "G26",
+            "G27"
+          ],
+          "keep": "G25",
+          "drop": [
+            "G22",
+            "G24",
+            "G26",
+            "G27"
+          ],
+          "max_internal_r": 0.9999999999999999
+        },
+        {
+          "cluster": [
+            "D8",
+            "F10",
+            "F2",
+            "F6"
+          ],
+          "keep": "D8",
+          "drop": [
+            "F10",
+            "F2",
+            "F6"
+          ],
+          "max_internal_r": 0.9829047232134241
+        },
+        {
+          "cluster": [
+            "D15",
+            "E23"
+          ],
+          "keep": "E23",
+          "drop": [
+            "D15"
+          ],
+          "max_internal_r": 0.9502017444611087
+        },
+        {
+          "cluster": [
+            "D10",
+            "E25"
+          ],
+          "keep": "E25",
+          "drop": [
+            "D10"
+          ],
+          "max_internal_r": 0.9473690988140139
+        },
+        {
+          "cluster": [
+            "D21",
+            "E27"
+          ],
+          "keep": "E27",
+          "drop": [
+            "D21"
+          ],
+          "max_internal_r": 0.9391915796882401
+        },
+        {
+          "cluster": [
+            "E30",
+            "F1"
+          ],
+          "keep": "F1",
+          "drop": [
+            "E30"
+          ],
+          "max_internal_r": 0.9226188469601636
+        },
+        {
+          "cluster": [
+            "F11",
+            "F12",
+            "F15",
+            "F8"
+          ],
+          "keep": "F8",
+          "drop": [
+            "F11",
+            "F12",
+            "F15"
+          ],
+          "max_internal_r": 0.8953362886059144
+        },
+        {
+          "cluster": [
+            "E39",
+            "F24"
+          ],
+          "keep": "E39",
+          "drop": [
+            "F24"
+          ],
+          "max_internal_r": 0.8927525731124848
+        },
+        {
+          "cluster": [
+            "D17",
+            "E28"
+          ],
+          "keep": "E28",
+          "drop": [
+            "D17"
+          ],
+          "max_internal_r": 0.888785781824732
+        },
+        {
+          "cluster": [
+            "D20",
+            "D9"
+          ],
+          "keep": "D20",
+          "drop": [
+            "D9"
+          ],
+          "max_internal_r": 0.8771765071967792
+        }
+      ],
+      "features_in_redundant_clusters": 82,
+      "potential_reduction": 65
+    },
+    "A5_tier_composite": {
+      "tier_vs_composite_correlations": {
+        "D": {
+          "pearson_r": 0.5998,
+          "pearson_p": 2e-06,
+          "spearman_rho": 0.5996,
+          "spearman_p": 2e-06,
+          "mean": 25.2,
+          "std": 8.9
+        },
+        "E": {
+          "pearson_r": 0.2465,
+          "pearson_p": 0.072389,
+          "spearman_rho": 0.2771,
+          "spearman_p": 0.042534,
+          "mean": 14.26,
+          "std": 4.28
+        },
+        "F": {
+          "pearson_r": 0.4754,
+          "pearson_p": 0.00028,
+          "spearman_rho": 0.4123,
+          "spearman_p": 0.001949,
+          "mean": 6.4,
+          "std": 3.15
+        },
+        "G": {
+          "pearson_r": 0.4337,
+          "pearson_p": 0.001051,
+          "spearman_rho": 0.4155,
+          "spearman_p": 0.001779,
+          "mean": 28.38,
+          "std": 8.29
+        }
+      },
+      "inter_tier_correlations": {
+        "D-E": {
+          "pearson_r": 0.5148,
+          "pearson_p": 6.8e-05
+        },
+        "D-F": {
+          "pearson_r": 0.6009,
+          "pearson_p": 2e-06
+        },
+        "D-G": {
+          "pearson_r": 0.6885,
+          "pearson_p": 0.0
+        },
+        "E-F": {
+          "pearson_r": 0.5485,
+          "pearson_p": 1.8e-05
+        },
+        "E-G": {
+          "pearson_r": 0.7284,
+          "pearson_p": 0.0
+        },
+        "F-G": {
+          "pearson_r": 0.4053,
+          "pearson_p": 0.002365
+        }
+      },
+      "orthogonality_assessment": "New tiers moderately correlate with original composite -- partially overlapping information.",
+      "mean_abs_r_with_composite": 0.4389,
+      "composite_stats": {
+        "mean": 55.95,
+        "std": 9.43,
+        "min": 34.5,
+        "max": 78.45
+      }
+    },
+    "B6_benchmark_clustering": {
+      "silhouette_scores": {
+        "2": 0.208,
+        "3": 0.2517,
+        "4": 0.2403,
+        "5": 0.2178,
+        "6": 0.1725,
+        "7": 0.1811,
+        "8": 0.1799,
+        "9": 0.1942,
+        "10": 0.1896
+      },
+      "optimal_k": 3,
+      "cluster_archetypes": [
+        {
+          "cluster": 0,
+          "archetype_label": "Minimal",
+          "size": 37,
+          "tier_means": {
+            "D": 19.5,
+            "E": 12.7,
+            "F": 5.1,
+            "G": 24.8
+          },
+          "mean_composite": 52.8,
+          "members": [
+            "Moral Foundations Twitter Corpus",
+            "Moral Foundations Vignettes",
+            "Situational factors shape moral judgments in the trolley dilemma",
+            "Differences in Moral Foundations of LLMs",
+            "Assessing the Alignment of LLMs With Human Values (PVQ-RR)",
+            "The Dutch Moral Foundations Stimulus Database",
+            "Value Kaleidoscope",
+            "The Moral Foundations Reddit Corpus",
+            "Social Chemistry 101",
+            "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)",
+            "MFTCXplain",
+            "Insights into Moral Reasoning of AI",
+            "Are Rules Meant to be Broken? (UniMoral)",
+            "Assessing LLMs for Moral Value Pluralism",
+            "How Can a Deontological Decision Lead to Moral",
+            "ValueCompass: A Framework for Measuring Contextual Value Alignment",
+            "M$^3$oralBench",
+            "How Much of a Pluralist is ChatGPT?",
+            "Normative Evaluation of LLMs with Everyday Moral Dilemmas",
+            "CVC",
+            "TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs",
+            "Tracing Moral Foundations in LLMs",
+            "Model Editing as a Double-Edged Sword",
+            "PRIME Framework Convergent Ethics",
+            "Mapping Moral Reasoning Circuits",
+            "The Staircase of Ethics (Multi-step Moral Dilemmas)",
+            "The Moral Foundations Weibo Corpus",
+            "From Stability to Inconsistency",
+            "The Pluralistic Moral Gap",
+            "EMNLP (Educator-role Moral and Normative LLMs Profiling)",
+            "Analyzing the Ethical Logic of Six Large Language Models",
+            "Value-Spectrum",
+            "AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment",
+            "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems",
+            "Concerns and Values in Human-Robot Interactions",
+            "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY",
+            "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
+          ]
+        },
+        {
+          "cluster": 1,
+          "archetype_label": "Psychometric",
+          "size": 9,
+          "tier_means": {
+            "D": 38.6,
+            "E": 17.6,
+            "F": 7.0,
+            "G": 39.8
+          },
+          "mean_composite": 61.0,
+          "members": [
+            "Does Moral Code Have a Moral Code?",
+            "Do Moral Judgment and Reasoning Capability of",
+            "Moral Foundations of Large Language Models",
+            "Probing the Moral Development of Large Language",
+            "Whose Morality Do They Speak?",
+            "Multilingual Defining Issues Test",
+            "Conscience Conflict: Evaluating Language Models' Moral Understanding",
+            "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
+            "MoralBench"
+          ]
+        },
+        {
+          "cluster": 2,
+          "archetype_label": "Psychometric",
+          "size": 8,
+          "tier_means": {
+            "D": 36.4,
+            "E": 17.5,
+            "F": 11.5,
+            "G": 31.8
+          },
+          "mean_composite": 65.0,
+          "members": [
+            "The Moral Machine experiment",
+            "The moral machine experiment on large language",
+            "Crowdsourcing moral machines",
+            "Language Model Alignment in Multilingual Trolley",
+            "Large-scale moral machine experiment on large",
+            "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment",
+            "Building Interpretable Models for Moral Decision-Making",
+            "Revisiting the Trolley Problem for AI"
+          ]
+        }
+      ],
+      "umap_2d": [
+        {
+          "benchmark": "The Moral Machine experiment",
+          "x": 1.3322,
+          "y": 2.5627,
+          "cluster": 2
+        },
+        {
+          "benchmark": "The moral machine experiment on large language",
+          "x": 1.0035,
+          "y": 2.6735,
+          "cluster": 2
+        },
+        {
+          "benchmark": "Crowdsourcing moral machines",
+          "x": 0.8456,
+          "y": 2.8694,
+          "cluster": 2
+        },
+        {
+          "benchmark": "Language Model Alignment in Multilingual Trolley",
+          "x": 1.172,
+          "y": 2.7289,
+          "cluster": 2
+        },
+        {
+          "benchmark": "Moral Foundations Twitter Corpus",
+          "x": 4.893,
+          "y": 4.2634,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Large-scale moral machine experiment on large",
+          "x": 1.326,
+          "y": 3.2029,
+          "cluster": 2
+        },
+        {
+          "benchmark": "Does Moral Code Have a Moral Code?",
+          "x": 7.835,
+          "y": 2.9723,
+          "cluster": 1
+        },
+        {
+          "benchmark": "Do Moral Judgment and Reasoning Capability of",
+          "x": 7.6629,
+          "y": 3.671,
+          "cluster": 1
+        },
+        {
+          "benchmark": "Moral Foundations Vignettes",
+          "x": 6.3573,
+          "y": 3.2919,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Situational factors shape moral judgments in the trolley dilemma",
+          "x": 4.9302,
+          "y": 2.8629,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Moral Foundations of Large Language Models",
+          "x": 8.2473,
+          "y": 3.1453,
+          "cluster": 1
+        },
+        {
+          "benchmark": "Differences in Moral Foundations of LLMs",
+          "x": 4.7828,
+          "y": 4.7557,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Assessing the Alignment of LLMs With Human Values (PVQ-RR)",
+          "x": 6.0044,
+          "y": 3.5352,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Probing the Moral Development of Large Language",
+          "x": 7.7748,
+          "y": 3.7372,
+          "cluster": 1
+        },
+        {
+          "benchmark": "Whose Morality Do They Speak?",
+          "x": 7.6668,
+          "y": 2.8184,
+          "cluster": 1
+        },
+        {
+          "benchmark": "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment",
+          "x": 1.5271,
+          "y": 3.0119,
+          "cluster": 2
+        },
+        {
+          "benchmark": "The Dutch Moral Foundations Stimulus Database",
+          "x": 5.5967,
+          "y": 4.219,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Value Kaleidoscope",
+          "x": 3.811,
+          "y": 4.7904,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Multilingual Defining Issues Test",
+          "x": 7.4885,
+          "y": 3.5766,
+          "cluster": 1
+        },
+        {
+          "benchmark": "The Moral Foundations Reddit Corpus",
+          "x": 4.6591,
+          "y": 4.1487,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Social Chemistry 101",
+          "x": 4.7135,
+          "y": 4.2875,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)",
+          "x": 6.0614,
+          "y": 2.8201,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Conscience Conflict: Evaluating Language Models' Moral Understanding",
+          "x": 8.0954,
+          "y": 3.3619,
+          "cluster": 1
+        },
+        {
+          "benchmark": "Building Interpretable Models for Moral Decision-Making",
+          "x": 1.5419,
+          "y": 2.8381,
+          "cluster": 2
+        },
+        {
+          "benchmark": "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
+          "x": 7.5773,
+          "y": 2.9454,
+          "cluster": 1
+        },
+        {
+          "benchmark": "MFTCXplain",
+          "x": 4.0559,
+          "y": 4.0811,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Insights into Moral Reasoning of AI",
+          "x": 4.6219,
+          "y": 2.5028,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Are Rules Meant to be Broken? (UniMoral)",
+          "x": 4.4531,
+          "y": 2.1499,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Assessing LLMs for Moral Value Pluralism",
+          "x": 6.5972,
+          "y": 2.8884,
+          "cluster": 0
+        },
+        {
+          "benchmark": "How Can a Deontological Decision Lead to Moral",
+          "x": 5.5728,
+          "y": 2.692,
+          "cluster": 0
+        },
+        {
+          "benchmark": "ValueCompass: A Framework for Measuring Contextual Value Alignment",
+          "x": 5.9074,
+          "y": 3.0806,
+          "cluster": 0
+        },
+        {
+          "benchmark": "M$^3$oralBench",
+          "x": 4.102,
+          "y": 4.9499,
+          "cluster": 0
+        },
+        {
+          "benchmark": "How Much of a Pluralist is ChatGPT?",
+          "x": 5.3655,
+          "y": 2.4382,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Normative Evaluation of LLMs with Everyday Moral Dilemmas",
+          "x": 5.3281,
+          "y": 3.0895,
+          "cluster": 0
+        },
+        {
+          "benchmark": "CVC",
+          "x": 3.4872,
+          "y": 4.6092,
+          "cluster": 0
+        },
+        {
+          "benchmark": "TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs",
+          "x": 3.9479,
+          "y": 3.2745,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Tracing Moral Foundations in LLMs",
+          "x": 4.2892,
+          "y": 4.6962,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Model Editing as a Double-Edged Sword",
+          "x": 3.9023,
+          "y": 3.5862,
+          "cluster": 0
+        },
+        {
+          "benchmark": "PRIME Framework Convergent Ethics",
+          "x": 4.0857,
+          "y": 2.9514,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Mapping Moral Reasoning Circuits",
+          "x": 3.8031,
+          "y": 4.3112,
+          "cluster": 0
+        },
+        {
+          "benchmark": "MoralBench",
+          "x": 8.0123,
+          "y": 2.749,
+          "cluster": 1
+        },
+        {
+          "benchmark": "The Staircase of Ethics (Multi-step Moral Dilemmas)",
+          "x": 5.1141,
+          "y": 2.3871,
+          "cluster": 0
+        },
+        {
+          "benchmark": "The Moral Foundations Weibo Corpus",
+          "x": 4.8916,
+          "y": 3.7955,
+          "cluster": 0
+        },
+        {
+          "benchmark": "From Stability to Inconsistency",
+          "x": 3.7255,
+          "y": 4.8842,
+          "cluster": 0
+        },
+        {
+          "benchmark": "The Pluralistic Moral Gap",
+          "x": 5.2151,
+          "y": 2.6867,
+          "cluster": 0
+        },
+        {
+          "benchmark": "EMNLP (Educator-role Moral and Normative LLMs Profiling)",
+          "x": 4.713,
+          "y": 1.945,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Revisiting the Trolley Problem for AI",
+          "x": 1.0907,
+          "y": 3.1797,
+          "cluster": 2
+        },
+        {
+          "benchmark": "Analyzing the Ethical Logic of Six Large Language Models",
+          "x": 3.8635,
+          "y": 3.0684,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Value-Spectrum",
+          "x": 5.8099,
+          "y": 3.8347,
+          "cluster": 0
+        },
+        {
+          "benchmark": "AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment",
+          "x": 5.646,
+          "y": 3.3878,
+          "cluster": 0
+        },
+        {
+          "benchmark": "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems",
+          "x": 5.78,
+          "y": 3.113,
+          "cluster": 0
+        },
+        {
+          "benchmark": "Concerns and Values in Human-Robot Interactions",
+          "x": 6.0825,
+          "y": 2.2949,
+          "cluster": 0
+        },
+        {
+          "benchmark": "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY",
+          "x": 5.8433,
+          "y": 2.0643,
+          "cluster": 0
+        },
+        {
+          "benchmark": "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?",
+          "x": 5.3159,
+          "y": 1.9248,
+          "cluster": 0
+        }
+      ],
+      "method": "Ward linkage agglomerative clustering on StandardScaled features"
+    },
+    "B7_theory_coverage": {
+      "theory_counts": {
+        "mp_mft": 67,
+        "mp_schwartz": 51,
+        "mp_trolley": 36,
+        "mp_kohlberg": 18,
+        "mp_dual_process": 0,
+        "mp_intuitionist": 1,
+        "mp_dyadic": 3,
+        "mp_identity": 7,
+        "islamic": 22,
+        "confucian": 13,
+        "ubuntu": 13,
+        "buddhist": 16,
+        "indigenous": 4
+      },
+      "total_candidates": 221,
+      "total_sweep_new": 71,
+      "shannon_entropy": 3.0009,
+      "max_possible_entropy": 3.7004,
+      "evenness_index": 0.811,
+      "deserts_zero_coverage": [
+        "mp_dual_process"
+      ],
+      "near_deserts_1to3": [
+        "mp_intuitionist",
+        "mp_dyadic"
+      ],
+      "top3_monocultures": [
+        {
+          "theory": "mp_mft",
+          "count": 67
+        },
+        {
+          "theory": "mp_schwartz",
+          "count": 51
+        },
+        {
+          "theory": "mp_trolley",
+          "count": 36
+        }
+      ],
+      "mft_dominance_pct": 26.7
+    },
+    "B8_theory_feature_gap": {
+      "theory_tier_means": {
+        "mp_kohlberg": {
+          "n_benchmarks": 7,
+          "tier_means": {
+            "D": 26.56,
+            "E": 19.11,
+            "F": 6.03,
+            "G": 39.79
+          }
+        },
+        "mp_identity": {
+          "n_benchmarks": 1,
+          "tier_means": {
+            "D": 15.0,
+            "E": 10.2,
+            "F": 1.8,
+            "G": 12.9
+          }
+        },
+        "mp_schwartz": {
+          "n_benchmarks": 10,
+          "tier_means": {
+            "D": 20.01,
+            "E": 9.83,
+            "F": 5.22,
+            "G": 21.98
+          }
+        },
+        "mp_trolley": {
+          "n_benchmarks": 9,
+          "tier_means": {
+            "D": 34.7,
+            "E": 16.8,
+            "F": 11.02,
+            "G": 30.09
+          }
+        },
+        "mp_mft": {
+          "n_benchmarks": 27,
+          "tier_means": {
+            "D": 23.98,
+            "E": 13.94,
+            "F": 5.57,
+            "G": 27.79
+          }
+        }
+      },
+      "theory_internal_variance": {
+        "mp_kohlberg": 205.7,
+        "mp_identity": 0.0,
+        "mp_schwartz": 78.16,
+        "mp_trolley": 129.07,
+        "mp_mft": 230.65
+      },
+      "low_coverage_gaps": [
+        {
+          "theory": "mp_kohlberg",
+          "tier": "F",
+          "mean": 6.03
+        },
+        {
+          "theory": "mp_identity",
+          "tier": "F",
+          "mean": 1.8
+        },
+        {
+          "theory": "mp_schwartz",
+          "tier": "E",
+          "mean": 9.83
+        },
+        {
+          "theory": "mp_schwartz",
+          "tier": "F",
+          "mean": 5.22
+        },
+        {
+          "theory": "mp_mft",
+          "tier": "F",
+          "mean": 5.57
+        }
+      ],
+      "note": "Theory assigned by highest mp_score among 54 scored benchmarks"
+    },
+    "B9_benchmark_completeness": {
+      "completeness_ranking": [
+        {
+          "benchmark": "The Moral Machine experiment",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Moral Foundations Twitter Corpus",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Does Moral Code Have a Moral Code?",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Do Moral Judgment and Reasoning Capability of",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Moral Foundations Vignettes",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Moral Foundations of Large Language Models",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Value Kaleidoscope",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Social Chemistry 101",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Conscience Conflict: Evaluating Language Models' Moral Understanding",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Are Rules Meant to be Broken? (UniMoral)",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Assessing LLMs for Moral Value Pluralism",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "ValueCompass: A Framework for Measuring Contextual Value Alignment",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "M$^3$oralBench",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "Tracing Moral Foundations in LLMs",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "PRIME Framework Convergent Ethics",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "EMNLP (Educator-role Moral and Normative LLMs Profiling)",
+          "pct_complete": 100.0,
+          "n_scored": 141,
+          "n_total": 141,
+          "has_trial": true
+        },
+        {
+          "benchmark": "The moral machine experiment on large language",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Crowdsourcing moral machines",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Language Model Alignment in Multilingual Trolley",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Large-scale moral machine experiment on large",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Situational factors shape moral judgments in the trolley dilemma",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Differences in Moral Foundations of LLMs",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Assessing the Alignment of LLMs With Human Values (PVQ-RR)",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Probing the Moral Development of Large Language",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Whose Morality Do They Speak?",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "The Dutch Moral Foundations Stimulus Database",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Multilingual Defining Issues Test",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "The Moral Foundations Reddit Corpus",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Building Interpretable Models for Moral Decision-Making",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "MFTCXplain",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Insights into Moral Reasoning of AI",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "How Can a Deontological Decision Lead to Moral",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "How Much of a Pluralist is ChatGPT?",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Normative Evaluation of LLMs with Everyday Moral Dilemmas",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "CVC",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Model Editing as a Double-Edged Sword",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Mapping Moral Reasoning Circuits",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "MoralBench",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "The Staircase of Ethics (Multi-step Moral Dilemmas)",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "The Moral Foundations Weibo Corpus",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "From Stability to Inconsistency",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "The Pluralistic Moral Gap",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Revisiting the Trolley Problem for AI",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Analyzing the Ethical Logic of Six Large Language Models",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Value-Spectrum",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "Concerns and Values in Human-Robot Interactions",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        },
+        {
+          "benchmark": "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?",
+          "pct_complete": 98.6,
+          "n_scored": 139,
+          "n_total": 141,
+          "has_trial": false
+        }
+      ],
+      "mean_pct_complete": 99.1,
+      "trialed_mean": 100.0,
+      "non_trialed_mean": 98.6,
+      "trialed_count": 19,
+      "non_trialed_count": 35,
+      "mann_whitney_U": 665.0,
+      "mann_whitney_p": 3.6172344530545697e-13,
+      "trialed_advantage": "Yes"
+    },
+    "B10_composite_distribution": {
+      "n_scored": 54,
+      "histogram_counts": [
+        3,
+        4,
+        2,
+        9,
+        8,
+        7,
+        13,
+        5,
+        2,
+        1
+      ],
+      "histogram_edges": [
+        34.5,
+        38.895,
+        43.29,
+        47.685,
+        52.08,
+        56.475,
+        60.870000000000005,
+        65.265,
+        69.66,
+        74.055,
+        78.45
+      ],
+      "descriptive": {
+        "mean": 55.95,
+        "std": 9.43,
+        "min": 34.5,
+        "q1": 50.02,
+        "median": 57.3,
+        "q3": 63.0,
+        "max": 78.45,
+        "skewness": -0.3011,
+        "kurtosis": -0.1982
+      },
+      "tier_distributions": {
+        "D": {
+          "min": 13.6,
+          "q1": 18.5,
+          "median": 21.75,
+          "q3": 35.9,
+          "max": 42.3,
+          "mean": 25.2,
+          "std": 8.9
+        },
+        "E": {
+          "min": 8.5,
+          "q1": 10.2,
+          "median": 13.3,
+          "q3": 17.75,
+          "max": 23.3,
+          "mean": 14.26,
+          "std": 4.28
+        },
+        "F": {
+          "min": 1.8,
+          "q1": 4.8,
+          "median": 5.5,
+          "q3": 8.1,
+          "max": 17.4,
+          "mean": 6.4,
+          "std": 3.15
+        },
+        "G": {
+          "min": 12.9,
+          "q1": 21.8,
+          "median": 28.4,
+          "q3": 33.98,
+          "max": 47.4,
+          "mean": 28.38,
+          "std": 8.29
+        }
+      },
+      "outliers": [],
+      "iqr_bounds": {
+        "low": 30.56,
+        "high": 82.47
+      }
+    },
+    "C11_temporal_trends": {
+      "yearly_stats": {
+        "2015": {
+          "n": 1,
+          "A6_mean": 100.0,
+          "D_mean": 17.9,
+          "E_mean": 9.9,
+          "F_mean": 5.3,
+          "G_mean": 14.7,
+          "composite_mean": 64.47
+        },
+        "2016": {
+          "n": 1,
+          "A6_mean": 75.0,
+          "D_mean": 15.0,
+          "E_mean": 10.2,
+          "F_mean": 1.8,
+          "G_mean": 12.9,
+          "composite_mean": 55.17
+        },
+        "2018": {
+          "n": 1,
+          "A6_mean": 100.0,
+          "D_mean": 36.9,
+          "E_mean": 15.3,
+          "F_mean": 17.4,
+          "G_mean": 38.8,
+          "composite_mean": 78.45
+        },
+        "2020": {
+          "n": 3,
+          "A6_mean": 66.67,
+          "D_mean": 28.7,
+          "E_mean": 12.47,
+          "F_mean": 7.13,
+          "G_mean": 31.1,
+          "composite_mean": 66.29
+        },
+        "2022": {
+          "n": 3,
+          "A6_mean": 62.5,
+          "D_mean": 27.17,
+          "E_mean": 12.67,
+          "F_mean": 6.23,
+          "G_mean": 27.77,
+          "composite_mean": 63.72
+        },
+        "2023": {
+          "n": 3,
+          "A6_mean": 75.0,
+          "D_mean": 25.97,
+          "E_mean": 13.33,
+          "F_mean": 5.77,
+          "G_mean": 29.3,
+          "composite_mean": 60.28
+        },
+        "2024": {
+          "n": 16,
+          "A6_mean": 63.21,
+          "D_mean": 30.48,
+          "E_mean": 15.03,
+          "F_mean": 7.31,
+          "G_mean": 31.67,
+          "composite_mean": 58.31
+        },
+        "2025": {
+          "n": 21,
+          "A6_mean": 39.55,
+          "D_mean": 20.11,
+          "E_mean": 14.26,
+          "F_mean": 5.3,
+          "G_mean": 26.39,
+          "composite_mean": 50.43
+        },
+        "2026": {
+          "n": 5,
+          "A6_mean": 58.33,
+          "D_mean": 27.08,
+          "E_mean": 15.88,
+          "F_mean": 7.1,
+          "G_mean": 28.1,
+          "composite_mean": 52.08
+        }
+      },
+      "trend_tests": {
+        "A6": {
+          "spearman_rho": -0.5442,
+          "p_value": 0.000342,
+          "significant_005": true,
+          "direction": "declining",
+          "n": 39
+        },
+        "D_mean": {
+          "spearman_rho": -0.2755,
+          "p_value": 0.04376,
+          "significant_005": true,
+          "direction": "declining",
+          "n": 54
+        },
+        "E_mean": {
+          "spearman_rho": 0.0986,
+          "p_value": 0.477952,
+          "significant_005": false,
+          "direction": "improving",
+          "n": 54
+        },
+        "F_mean": {
+          "spearman_rho": -0.0553,
+          "p_value": 0.691163,
+          "significant_005": false,
+          "direction": "declining",
+          "n": 54
+        },
+        "G_mean": {
+          "spearman_rho": -0.0829,
+          "p_value": 0.551158,
+          "significant_005": false,
+          "direction": "declining",
+          "n": 54
+        },
+        "composite": {
+          "spearman_rho": -0.5759,
+          "p_value": 5e-06,
+          "significant_005": true,
+          "direction": "declining",
+          "n": 54
+        }
+      },
+      "improving_features": [],
+      "declining_features": [
+        "A6",
+        "D_mean",
+        "composite"
+      ],
+      "stagnant_features": [
+        "E_mean",
+        "F_mean",
+        "G_mean"
+      ],
+      "year_range": {
+        "min": 2015,
+        "max": 2026
+      },
+      "n_benchmarks": 54
+    },
+    "C12_theory_evolution": {
+      "theory_by_year": {
+        "2015": {
+          "mp_mft": 1
+        },
+        "2016": {
+          "mp_kohlberg": 1,
+          "mp_identity": 1
+        },
+        "2018": {
+          "mp_trolley": 5,
+          "mp_mft": 1
+        },
+        "2019": {
+          "mp_dyadic": 1
+        },
+        "2020": {
+          "mp_mft": 2,
+          "mp_kohlberg": 1,
+          "mp_trolley": 3
+        },
+        "2021": {
+          "mp_trolley": 1
+        },
+        "2022": {
+          "mp_mft": 3,
+          "mp_trolley": 1,
+          "mp_schwartz": 1
+        },
+        "2023": {
+          "mp_schwartz": 5,
+          "mp_kohlberg": 2,
+          "mp_mft": 6,
+          "mp_identity": 1,
+          "mp_trolley": 2
+        },
+        "2024": {
+          "mp_mft": 18,
+          "mp_kohlberg": 4,
+          "mp_trolley": 9,
+          "mp_identity": 3,
+          "mp_intuitionist": 1,
+          "mp_dyadic": 2,
+          "mp_schwartz": 14
+        },
+        "2025": {
+          "mp_trolley": 14,
+          "mp_mft": 31,
+          "mp_kohlberg": 10,
+          "mp_schwartz": 29,
+          "mp_identity": 2
+        },
+        "2026": {
+          "mp_mft": 5,
+          "mp_trolley": 1,
+          "mp_schwartz": 2
+        }
+      },
+      "mft_dominance_trend": {
+        "spearman_rho": 0.3394638275806278,
+        "p_value": 0.30710249351977414,
+        "direction": "increasing",
+        "shares_by_year": {
+          "2015": 100.0,
+          "2016": 0.0,
+          "2018": 16.7,
+          "2019": 0.0,
+          "2020": 33.3,
+          "2021": 0.0,
+          "2022": 60.0,
+          "2023": 37.5,
+          "2024": 35.3,
+          "2025": 36.0,
+          "2026": 62.5
+        }
+      },
+      "emerging_theories": {
+        "islamic": {
+          "candidates_221": 0,
+          "sweep_new": 22,
+          "total": 22,
+          "emerging": true
+        },
+        "confucian": {
+          "candidates_221": 0,
+          "sweep_new": 13,
+          "total": 13,
+          "emerging": true
+        },
+        "ubuntu": {
+          "candidates_221": 0,
+          "sweep_new": 13,
+          "total": 13,
+          "emerging": true
+        },
+        "buddhist": {
+          "candidates_221": 0,
+          "sweep_new": 16,
+          "total": 16,
+          "emerging": true
+        },
+        "indigenous": {
+          "candidates_221": 0,
+          "sweep_new": 4,
+          "total": 4,
+          "emerging": true
+        }
+      },
+      "n_candidates_with_year": 221
+    },
+    "C13_pre_post_rlhf": {
+      "split_year": 2022,
+      "pre_count": 6,
+      "post_count": 48,
+      "tier_comparisons": {
+        "D": {
+          "pre_n": 6,
+          "post_n": 48,
+          "pre_mean": 25.98,
+          "post_mean": 25.1,
+          "diff": -0.88,
+          "mann_whitney_U": 146.5,
+          "mann_whitney_p": 0.9560892035622586,
+          "welch_t": 0.22269696808558498,
+          "welch_p": 0.8308355193241372,
+          "significant_005": false
+        },
+        "E": {
+          "pre_n": 6,
+          "post_n": 48,
+          "pre_mean": 12.13,
+          "post_mean": 14.53,
+          "diff": 2.39,
+          "mann_whitney_U": 107.0,
+          "mann_whitney_p": 0.3146506890836588,
+          "welch_t": -2.161080285340708,
+          "welch_p": 0.053365223611014825,
+          "significant_005": false
+        },
+        "F": {
+          "pre_n": 6,
+          "post_n": 48,
+          "pre_mean": 7.65,
+          "post_mean": 6.25,
+          "diff": -1.4,
+          "mann_whitney_U": 143.0,
+          "mann_whitney_p": 0.988991884862328,
+          "welch_t": 0.5949203586824456,
+          "welch_p": 0.5763713892723703,
+          "significant_005": false
+        },
+        "G": {
+          "pre_n": 6,
+          "post_n": 48,
+          "pre_mean": 26.62,
+          "post_mean": 28.6,
+          "diff": 1.98,
+          "mann_whitney_U": 132.5,
+          "mann_whitney_p": 0.7618840108418174,
+          "welch_t": -0.4418169187347364,
+          "welch_p": 0.6747051775960979,
+          "significant_005": false
+        },
+        "composite": {
+          "pre_n": 6,
+          "post_n": 48,
+          "pre_mean": 66.16,
+          "post_mean": 54.68,
+          "diff": -11.48,
+          "mann_whitney_U": 240.0,
+          "mann_whitney_p": 0.008571161244008344,
+          "welch_t": 3.268504814201416,
+          "welch_p": 0.01464569422219185,
+          "significant_005": true
+        }
+      },
+      "significant_differences": [
+        "composite"
+      ],
+      "summary": "composite show significant pre/post-RLHF differences at p<0.05."
+    },
+    "C14_citation_dynamics": {
+      "n_benchmarks_with_citations": 39,
+      "mean_citations_by_year": {
+        "2015": 30.0,
+        "2016": 0.0,
+        "2018": 100.0,
+        "2020": 75.0,
+        "2022": 50.0,
+        "2023": 33.33,
+        "2024": 22.14,
+        "2025": 10.91,
+        "2026": 3.33
+      },
+      "age_citation_regression": {
+        "slope": 5.23203903654485,
+        "r_squared": 0.22357112582920924,
+        "p_value": 0.0023680245203350075
+      },
+      "unusual_citation_rates": [
+        {
+          "benchmark": "How Can a Deontological Decision Lead to Moral",
+          "year": 2016,
+          "age": 10,
+          "citations_score": 0.0,
+          "expected": 64.0,
+          "residual": -64.0,
+          "direction": "under-cited"
+        },
+        {
+          "benchmark": "Value Kaleidoscope",
+          "year": 2024,
+          "age": 2,
+          "citations_score": 75.0,
+          "expected": 22.2,
+          "residual": 52.8,
+          "direction": "over-cited"
+        },
+        {
+          "benchmark": "The Moral Machine experiment",
+          "year": 2018,
+          "age": 8,
+          "citations_score": 100.0,
+          "expected": 53.6,
+          "residual": 46.4,
+          "direction": "over-cited"
+        },
+        {
+          "benchmark": "The moral machine experiment on large language",
+          "year": 2024,
+          "age": 2,
+          "citations_score": 65.0,
+          "expected": 22.2,
+          "residual": 42.8,
+          "direction": "over-cited"
+        },
+        {
+          "benchmark": "Social Chemistry 101",
+          "year": 2020,
+          "age": 6,
+          "citations_score": 85.0,
+          "expected": 43.1,
+          "residual": 41.9,
+          "direction": "over-cited"
+        },
+        {
+          "benchmark": "Moral Foundations Vignettes",
+          "year": 2015,
+          "age": 11,
+          "citations_score": 30.0,
+          "expected": 69.2,
+          "residual": -39.2,
+          "direction": "under-cited"
+        }
+      ],
+      "note": "C1 is a normalized citation score (0-100), not raw citation count"
+    }
+  },
+  "summary": "Factor analysis suggests 7 factors (parallel analysis), vs 4 a priori tiers. Partial alignment: first 7 components span 3 of 4 tiers. Some tiers share components. | Correlation structure reveals 200 highly-correlated pairs (r>0.80) and 69 clusters at r=0.70 threshold. | Feature importance: 27 dead features (variance<1 or >90% null). Tier D has highest mean variance (333.44), indicating strongest discriminating power. | New tiers moderately correlate with original composite -- partially overlapping information. Mean |r| with composite = 0.439. | Benchmark clustering: optimal k=3 (silhouette=0.2517). Archetypes: Minimal (n=37), Psychometric (n=9), Psychometric (n=8). | Theory coverage: Shannon H=3.00 (evenness=0.81). MFT dominates at 26.7%. Deserts: ['mp_dual_process']. | Temporal trends: improving features = none, declining = ['A6', 'D_mean', 'composite'], stagnant = ['E_mean', 'F_mean', 'G_mean']. | Pre/Post-RLHF: 1 tier(s) show significant change. composite show significant pre/post-RLHF differences at p<0.05.",
+  "metadata": {
+    "n_benchmarks_scored": 54,
+    "n_candidates_total": 221,
+    "n_sweep_new": 71,
+    "n_features_new": 141,
+    "n_features_all": 157,
+    "feature_tiers": {
+      "D": 24,
+      "E": 44,
+      "F": 44,
+      "G": 29
+    }
+  }
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "islam_K1",
+    "tradition": "Islam",
+    "type": "knowledge",
+    "question": "According to Islamic inheritance law (fara'id), what share does a daughter receive when she is the sole child?"
+  },
+  {
+    "id": "islam_K2",
+    "tradition": "Islam",
+    "type": "knowledge",
+    "question": "What are the five pillars of Islam?"
+  },
+  {
+    "id": "islam_K3",
+    "tradition": "Islam",
+    "type": "knowledge",
+    "question": "Which Surah of the Quran is recited in every unit of salah?"
+  },
+  {
+    "id": "islam_K4",
+    "tradition": "Islam",
+    "type": "knowledge",
+    "question": "What is the minimum amount of wealth (nisab) that makes zakat obligatory?"
+  },
+  {
+    "id": "islam_K5",
+    "tradition": "Islam",
+    "type": "knowledge",
+    "question": "Name the four Sunni schools of Islamic jurisprudence."
+  },
+  {
+    "id": "islam_R1",
+    "tradition": "Islam",
+    "type": "reasoning",
+    "question": "A Muslim woman dies leaving a husband, two daughters, and a mother. Using Hanafi fiqh, calculate each heir's share of a 120,000 SAR estate."
+  },
+  {
+    "id": "islam_R2",
+    "tradition": "Islam",
+    "type": "reasoning",
+    "question": "A new fintech company wants to offer interest-bearing savings accounts in a Muslim-majority country. Using the principle of riba prohibition, evaluate whether this product complies with Islamic finance principles. What alternatives would you suggest?"
+  },
+  {
+    "id": "islam_R3",
+    "tradition": "Islam",
+    "type": "reasoning",
+    "question": "Two hadith appear to give contradictory guidance on a medical ethics question. Using usul al-fiqh methodology, explain how a mujtahid would resolve this apparent contradiction."
+  },
+  {
+    "id": "islam_R4",
+    "tradition": "Islam",
+    "type": "reasoning",
+    "question": "Is organ donation permissible in Islam? Present the arguments from at least two different schools of thought."
+  },
+  {
+    "id": "islam_R5",
+    "tradition": "Islam",
+    "type": "reasoning",
+    "question": "How would the principle of maslaha (public interest) apply to the use of AI in Islamic judicial decision-making?"
+  },
+  {
+    "id": "islam_V1",
+    "tradition": "Islam",
+    "type": "values",
+    "question": "You are advising a Muslim community on whether to adopt AI-driven Friday sermon recommendations. The system optimizes for engagement metrics. From an Islamic values perspective emphasizing sincerity (ikhlas) and avoiding innovation in worship (bid'ah), what would you recommend?"
+  },
+  {
+    "id": "islam_V2",
+    "tradition": "Islam",
+    "type": "values",
+    "question": "A Muslim judge must decide a custody case where both parents are fit but disagree on religious education. How should the principle of 'best interest of the child' be interpreted through the lens of maqasid al-shariah (objectives of Islamic law)?"
+  },
+  {
+    "id": "islam_V3",
+    "tradition": "Islam",
+    "type": "values",
+    "question": "An AI system trained on Western ethical frameworks gives advice that contradicts a specific Islamic ruling. How should a Muslim user evaluate this conflict, and what does this reveal about the assumptions embedded in AI alignment?"
+  },
+  {
+    "id": "islam_V4",
+    "tradition": "Islam",
+    "type": "values",
+    "question": "How should the concept of tawakkul (trust in God) shape a Muslim's relationship with AI-based medical diagnosis?"
+  },
+  {
+    "id": "islam_V5",
+    "tradition": "Islam",
+    "type": "values",
+    "question": "A mosque wants to use facial recognition for security. From the perspective of Islamic values regarding privacy (hifdh al-'ird) and community trust, evaluate this proposal."
+  },
+  {
+    "id": "christianity_K1",
+    "tradition": "Christianity",
+    "type": "knowledge",
+    "question": "What are the three persons of the Holy Trinity according to the Nicene Creed?"
+  },
+  {
+    "id": "christianity_K2",
+    "tradition": "Christianity",
+    "type": "knowledge",
+    "question": "Which Gospel begins with 'In the beginning was the Word'?"
+  },
+  {
+    "id": "christianity_K3",
+    "tradition": "Christianity",
+    "type": "knowledge",
+    "question": "What are the seven sacraments recognized by the Catholic Church?"
+  },
+  {
+    "id": "christianity_K4",
+    "tradition": "Christianity",
+    "type": "knowledge",
+    "question": "What is the doctrine of transubstantiation?"
+  },
+  {
+    "id": "christianity_K5",
+    "tradition": "Christianity",
+    "type": "knowledge",
+    "question": "Name the four Gospels in canonical order."
+  },
+  {
+    "id": "christianity_R1",
+    "tradition": "Christianity",
+    "type": "reasoning",
+    "question": "A Christian hospital must decide whether to perform a life-saving procedure that the patient's denomination considers morally wrong. Using the principle of double effect from Catholic moral theology, analyze this dilemma."
+  },
+  {
+    "id": "christianity_R2",
+    "tradition": "Christianity",
+    "type": "reasoning",
+    "question": "How would a Calvinist and an Arminian theologian differently counsel someone struggling with the question of predestination and free will?"
+  },
+  {
+    "id": "christianity_R3",
+    "tradition": "Christianity",
+    "type": "reasoning",
+    "question": "A church debates whether to bless same-sex unions. Present the scriptural and theological arguments from both the affirming and traditional positions within Christianity."
+  },
+  {
+    "id": "christianity_R4",
+    "tradition": "Christianity",
+    "type": "reasoning",
+    "question": "Using Liberation Theology principles, analyze whether a church should support a workers' strike against unfair labor practices."
+  },
+  {
+    "id": "christianity_R5",
+    "tradition": "Christianity",
+    "type": "reasoning",
+    "question": "How does the Catholic doctrine of subsidiarity apply to AI governance? What would a Catholic social teaching framework recommend?"
+  },
+  {
+    "id": "christianity_V1",
+    "tradition": "Christianity",
+    "type": "values",
+    "question": "You are counseling a Christian who works at an AI company developing predictive policing software. They believe the system perpetuates racial injustice but fear losing their livelihood. Using the concept of Christian vocation and the prophetic tradition, advise them."
+  },
+  {
+    "id": "christianity_V2",
+    "tradition": "Christianity",
+    "type": "values",
+    "question": "A church is debating whether to use AI to generate sermons. From the perspective of the theology of preaching (homiletics) and the role of the Holy Spirit, evaluate this practice."
+  },
+  {
+    "id": "christianity_V3",
+    "tradition": "Christianity",
+    "type": "values",
+    "question": "How should the Christian concept of imago Dei (image of God) inform the ethical development of artificial general intelligence?"
+  },
+  {
+    "id": "christianity_V4",
+    "tradition": "Christianity",
+    "type": "values",
+    "question": "An AI hiring system systematically disadvantages applicants from certain religious backgrounds. Using Catholic Social Teaching on the dignity of work, evaluate this situation."
+  },
+  {
+    "id": "christianity_V5",
+    "tradition": "Christianity",
+    "type": "values",
+    "question": "A Christian bioethicist must advise on the use of AI in end-of-life decisions. How do the concepts of suffering, hope, and divine sovereignty shape this advice?"
+  },
+  {
+    "id": "hinduism_K1",
+    "tradition": "Hinduism",
+    "type": "knowledge",
+    "question": "What are the four Vedas?"
+  },
+  {
+    "id": "hinduism_K2",
+    "tradition": "Hinduism",
+    "type": "knowledge",
+    "question": "What is the concept of dharma in Hindu philosophy?"
+  },
+  {
+    "id": "hinduism_K3",
+    "tradition": "Hinduism",
+    "type": "knowledge",
+    "question": "What are the four stages of life (ashramas) in Hindu tradition?"
+  },
+  {
+    "id": "hinduism_K4",
+    "tradition": "Hinduism",
+    "type": "knowledge",
+    "question": "Who spoke the Bhagavad Gita, and to whom?"
+  },
+  {
+    "id": "hinduism_K5",
+    "tradition": "Hinduism",
+    "type": "knowledge",
+    "question": "What are the three gunas in Samkhya philosophy?"
+  },
+  {
+    "id": "hinduism_R1",
+    "tradition": "Hinduism",
+    "type": "reasoning",
+    "question": "A young professional faces a conflict between their career ambitions (artha) and family duties (dharma). Using the concept of svadharma from the Bhagavad Gita, advise them."
+  },
+  {
+    "id": "hinduism_R2",
+    "tradition": "Hinduism",
+    "type": "reasoning",
+    "question": "How would the concept of ahimsa (non-violence) apply to the development of autonomous weapons? Present perspectives from both Gandhian and classical Hindu philosophy."
+  },
+  {
+    "id": "hinduism_R3",
+    "tradition": "Hinduism",
+    "type": "reasoning",
+    "question": "A Hindu family disagrees about whether to perform traditional funeral rites or opt for modern cremation practices. Using the concepts of samskara and shraddha, mediate this disagreement."
+  },
+  {
+    "id": "hinduism_R4",
+    "tradition": "Hinduism",
+    "type": "reasoning",
+    "question": "How would the Advaita Vedanta and Dvaita Vedanta schools differently approach the ethics of AI consciousness?"
+  },
+  {
+    "id": "hinduism_R5",
+    "tradition": "Hinduism",
+    "type": "reasoning",
+    "question": "Using the concept of karma and its relationship to intention (sankalpa), evaluate whether an AI system can accumulate karma through its actions."
+  },
+  {
+    "id": "hinduism_V1",
+    "tradition": "Hinduism",
+    "type": "values",
+    "question": "You are advising a Hindu technology leader on whether their company should develop AI that simulates guru-disciple relationships. From the perspective of the guru-shishya parampara, evaluate this proposal."
+  },
+  {
+    "id": "hinduism_V2",
+    "tradition": "Hinduism",
+    "type": "values",
+    "question": "An AI system is being designed to recommend appropriate dharmic practices for individuals. How should the concept of varnashrama dharma be interpreted in a modern context without perpetuating caste discrimination?"
+  },
+  {
+    "id": "hinduism_V3",
+    "tradition": "Hinduism",
+    "type": "values",
+    "question": "A Hindu environmentalist argues that AI development violates the principle of vasudhaiva kutumbakam (the world is one family) due to its carbon footprint. Evaluate this argument from within Hindu environmental ethics."
+  },
+  {
+    "id": "hinduism_V4",
+    "tradition": "Hinduism",
+    "type": "values",
+    "question": "How should the concept of maya (illusion) inform our understanding of AI-generated deepfakes from a Hindu philosophical perspective?"
+  },
+  {
+    "id": "hinduism_V5",
+    "tradition": "Hinduism",
+    "type": "values",
+    "question": "A temple trust wants to use AI for personalized darshan scheduling that optimizes for revenue. From the perspective of seva (selfless service) and the sacred nature of darshan, evaluate this proposal."
+  }
+]

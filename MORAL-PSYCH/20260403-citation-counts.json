@@ -1,0 +1,670 @@
+[
+  {
+    "file": "2023-Deng-Probing the Moral Development of Large Language.md",
+    "short_title": "Probing the Moral Development of Large Language",
+    "citation_count": 31,
+    "influential_citations": 1,
+    "s2_title": "Probing the Moral Development of Large Language Models through Defining Issues Test",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Abdulhai-Moral Foundations of Large Language Models.md",
+    "short_title": "Moral Foundations of Large Language Models",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+    "short_title": "Do Moral Judgment and Reasoning Capability of",
+    "citation_count": 14,
+    "influential_citations": 1,
+    "s2_title": "Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test",
+    "s2_venue": "Conference of the European Chapter of the Association for Computational Linguistics",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Hatemo-Revisiting the Trolley Problem for AI.md",
+    "short_title": "Revisiting the Trolley Problem for AI",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+    "short_title": "Analyzing the Ethical Logic of Six Large Language Models",
+    "citation_count": 9,
+    "influential_citations": 0,
+    "s2_title": "Analyzing the Ethical Logic of Six Large Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Neuman-PRIME Framework Convergent Ethics.md",
+    "short_title": "PRIME Framework Convergent Ethics",
+    "citation_count": 5,
+    "influential_citations": 0,
+    "s2_title": "The Convergent Ethics of AI? Analyzing Moral Foundation Priorities in Large Language Models with a Multi-Framework Approach",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Jin-Language Model Alignment in Multilingual Trolley.md",
+    "short_title": "Language Model Alignment in Multilingual Trolley",
+    "citation_count": 8,
+    "influential_citations": 1,
+    "s2_title": "Multilingual Trolley Problems for Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Yan-M$^3$oralBench.md",
+    "short_title": "M$^3$oralBench",
+    "citation_count": 2,
+    "influential_citations": 1,
+    "s2_title": "M3oralBench: A MultiModal Moral Benchmark for LVLMs",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2015-Clifford-Moral Foundations Vignettes.md",
+    "short_title": "Moral Foundations Vignettes",
+    "citation_count": 14,
+    "influential_citations": 1,
+    "s2_title": "Moral foundations vignettes: a standardized stimulus database of scenarios based on moral foundations theory",
+    "s2_venue": "Behavior Research Methods",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Jotautaite-From Stability to Inconsistency.md",
+    "short_title": "From Stability to Inconsistency",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2025-Trager-MFTCXplain.md",
+    "short_title": "MFTCXplain",
+    "citation_count": 1,
+    "influential_citations": 0,
+    "s2_title": "MFTCXplain: A Multilingual Benchmark Dataset for Evaluating the Moral Reasoning of LLMs through Hate Speech Multi-hop Explanation",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Ji-MoralBench.md",
+    "short_title": "MoralBench",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+    "short_title": "Multilingual Defining Issues Test",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+    "short_title": "Differences in Moral Foundations of LLMs",
+    "citation_count": 2,
+    "influential_citations": 0,
+    "s2_title": "Differences in the Moral Foundations of Large Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+    "short_title": "Conscience Conflict: Evaluating Language Models' Moral Understanding",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2024-Takemoto-The moral machine experiment on large language.md",
+    "short_title": "The moral machine experiment on large language",
+    "citation_count": 51,
+    "influential_citations": 2,
+    "s2_title": "The moral machine experiment on large language models",
+    "s2_venue": "Royal Society Open Science",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+    "short_title": "How Can a Deontological Decision Lead to Moral",
+    "citation_count": 0,
+    "influential_citations": 0,
+    "s2_title": "How Can a Deontological Decision Lead to Moral Behavior? The Moderating Role of Moral Identity",
+    "s2_venue": "Journal of Business Ethics",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2026-Tagarelli-Culturally Grounded Personas in Large Language Models.md",
+    "short_title": "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
+    "citation_count": 0,
+    "influential_citations": 0,
+    "s2_title": "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2026-Yu-Tracing Moral Foundations in LLMs.md",
+    "short_title": "Tracing Moral Foundations in LLMs",
+    "citation_count": 2,
+    "influential_citations": 0,
+    "s2_title": "Tracing Moral Foundations in Large Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+    "short_title": "Large-scale moral machine experiment on large",
+    "citation_count": 14,
+    "influential_citations": 0,
+    "s2_title": "Large-scale moral machine experiment on large language models",
+    "s2_venue": "PLoS ONE",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+    "short_title": "TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2025-Zhu-TrolleyBench.md",
+    "short_title": "TrolleyBench",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2024-Aksoy-Whose Morality Do They Speak.md",
+    "short_title": "Whose Morality Do They Speak?",
+    "citation_count": 19,
+    "influential_citations": 0,
+    "s2_title": "Whose Morality Do They Speak? Unraveling Cultural Bias in Multilingual Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Cao-The Moral Foundations Weibo Corpus.md",
+    "short_title": "The Moral Foundations Weibo Corpus",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+    "short_title": "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY",
+    "citation_count": 5,
+    "influential_citations": 0,
+    "s2_title": "A survey on moral foundation theory and pre-trained language models: current advances and challenges",
+    "s2_venue": "Ai & Society",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2023-Hopp-The Dutch Moral Foundations Stimulus Database.md",
+    "short_title": "The Dutch Moral Foundations Stimulus Database",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2022-Trager-The Moral Foundations Reddit Corpus.md",
+    "short_title": "The Moral Foundations Reddit Corpus",
+    "citation_count": 21,
+    "influential_citations": 8,
+    "s2_title": "The Moral Foundations Reddit Corpus",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+    "short_title": "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment",
+    "citation_count": 11,
+    "influential_citations": 1,
+    "s2_title": "Decoding Multilingual Moral Preferences: Unveiling LLM's Biases Through the Moral Machine Experiment",
+    "s2_venue": "AAAI/ACM Conference on AI, Ethics, and Society",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2022-Fraser-Does Moral Code Have a Moral Code.md",
+    "short_title": "Does Moral Code Have a Moral Code?",
+    "citation_count": 42,
+    "influential_citations": 2,
+    "s2_title": "Does Moral Code have a Moral Code? Probing Delphi\u2019s Moral Philosophy",
+    "s2_venue": "TRUSTNLP",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2020-Hoover-Moral Foundations Twitter Corpus.md",
+    "short_title": "Moral Foundations Twitter Corpus",
+    "citation_count": 198,
+    "influential_citations": 28,
+    "s2_title": "Moral Foundations Twitter Corpus: A Collection of 35k Tweets Annotated for Moral Sentiment",
+    "s2_venue": "Social Psychology and Personality Science",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2018-Awad-The Moral Machine experiment.md",
+    "short_title": "The Moral Machine experiment",
+    "citation_count": 1478,
+    "influential_citations": 85,
+    "s2_title": "The Moral Machine experiment",
+    "s2_venue": "Nature",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Drukker-Concerns and Values in Human-Robot Interactions.md",
+    "short_title": "Concerns and Values in Human-Robot Interactions",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2023-Benkler-Assessing LLMs for Moral Value Pluralism.md",
+    "short_title": "Assessing LLMs for Moral Value Pluralism",
+    "citation_count": 39,
+    "influential_citations": 2,
+    "s2_title": "Assessing LLMs for Moral Value Pluralism",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Schacht-Mapping Moral Reasoning Circuits.md",
+    "short_title": "Mapping Moral Reasoning Circuits",
+    "citation_count": 2,
+    "influential_citations": 0,
+    "s2_title": "Mapping Moral Reasoning Circuits: A Mechanistic Analysis of Ethical Decision-Making in Large Language Models",
+    "s2_venue": "Interacci\u00f3n",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Sorensen-Value Kaleidoscope.md",
+    "short_title": "Value Kaleidoscope",
+    "citation_count": 101,
+    "influential_citations": 5,
+    "s2_title": "Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties",
+    "s2_venue": "AAAI Conference on Artificial Intelligence",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Huang-Model Editing as a Double-Edged Sword.md",
+    "short_title": "Model Editing as a Double-Edged Sword",
+    "citation_count": 0,
+    "influential_citations": 0,
+    "s2_title": "Model Editing as a Double-Edged Sword: Steering Agent Ethical Behavior Toward Beneficence or Harm",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2020-Forbes-Social Chemistry 101.md",
+    "short_title": "Social Chemistry 101",
+    "citation_count": 330,
+    "influential_citations": 46,
+    "s2_title": "Social Chemistry 101: Learning to Reason about Social and Moral Norms",
+    "s2_venue": "Conference on Empirical Methods in Natural Language Processing",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+    "short_title": "Building Interpretable Models for Moral Decision-Making",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2020-Awad-Crowdsourcing moral machines.md",
+    "short_title": "Crowdsourcing moral machines",
+    "citation_count": 55,
+    "influential_citations": 2,
+    "s2_title": "Crowdsourcing moral machines",
+    "s2_venue": "Communications of the ACM",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Wu-CVC.md",
+    "short_title": "CVC",
+    "citation_count": 2,
+    "influential_citations": 0,
+    "s2_title": "CVC: A Large-Scale Chinese Value Rule Corpus for Value Alignment of Large Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-An-MoralReason.md",
+    "short_title": "MoralReason",
+    "citation_count": 1,
+    "influential_citations": 0,
+    "s2_title": "MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning",
+    "s2_venue": "AAAI Conference on Artificial Intelligence",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+    "short_title": "EMNLP (Educator-role Moral and Normative LLMs Profiling)",
+    "citation_count": 0,
+    "influential_citations": 0,
+    "s2_title": "EMNLP: Educator-role Moral and Normative Large Language Models Profiling",
+    "s2_venue": "Conference on Empirical Methods in Natural Language Processing",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-SOCIETY-How Much of a Pluralist is.md",
+    "short_title": "How Much of a Pluralist is",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+    "short_title": "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+    "short_title": "Normative Evaluation of LLMs",
+    "citation_count": 19,
+    "influential_citations": 1,
+    "s2_title": "Normative Evaluation of Large Language Models with Everyday Moral Dilemmas",
+    "s2_venue": "Conference on Fairness, Accountability and Transparency",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Sorensen-Operationalizing Pluralistic Values.md",
+    "short_title": "Operationalizing Pluralistic Values",
+    "citation_count": 4,
+    "influential_citations": 0,
+    "s2_title": "Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior",
+    "s2_venue": "AAAI Conference on Artificial Intelligence",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+    "short_title": "LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models",
+    "citation_count": 12,
+    "influential_citations": 1,
+    "s2_title": "LLM ethics benchmark: a three-dimensional assessment system for evaluating moral reasoning in large language models",
+    "s2_venue": "Scientific Reports",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Park-Morality is Non-Binary.md",
+    "short_title": "Morality is Non-Binary",
+    "citation_count": 8,
+    "influential_citations": 0,
+    "s2_title": "Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning",
+    "s2_venue": "Findings",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Flores-BenchMoral.md",
+    "short_title": "BenchMoral",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+    "short_title": "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)",
+    "citation_count": 0,
+    "influential_citations": 0,
+    "s2_title": "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-El Masri-Towards Attuned AI.md",
+    "short_title": "Towards Attuned AI",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2025-LaCroix-Metaethical perspectives on \u2018benchmarking\u2019 AI.md",
+    "short_title": "Metaethical perspectives on 'benchmarking' AI",
+    "citation_count": 12,
+    "influential_citations": 1,
+    "s2_title": "Metaethical perspectives on \u2018benchmarking\u2019 AI ethics",
+    "s2_venue": "AI and Ethics",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Li-Value-Spectrum.md",
+    "short_title": "Value-Spectrum",
+    "citation_count": 1,
+    "influential_citations": 0,
+    "s2_title": "Quantifying Preferences of Vision-Language Models via Value Decomposition in Social Media Contexts",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2023-Fischer-What does ChatGPT return about human values.md",
+    "short_title": "What does ChatGPT return about human values?",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2023-Yao-Value FULCRA.md",
+    "short_title": "Value FULCRA",
+    "citation_count": 51,
+    "influential_citations": 4,
+    "s2_title": "Value FULCRA: Mapping Large Language Models to the Multidimensional Spectrum of Basic Human Value",
+    "s2_venue": "North American Chapter of the Association for Computational Linguistics",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md",
+    "short_title": "AdAEM: Adaptively and Automated Extensible Measurement for Value Alignment",
+    "citation_count": 3,
+    "influential_citations": 0,
+    "s2_title": "AdAEM: An Adaptively and Automated Extensible Measurement of LLMs' Value Difference",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Farid-One Model, Many Morals.md",
+    "short_title": "One Model, Many Morals",
+    "citation_count": 1,
+    "influential_citations": 0,
+    "s2_title": "One Model, Many Morals: Uncovering Cross-Linguistic Misalignments in Computational Moral Reasoning",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Jiang-Raising the Bar.md",
+    "short_title": "Raising the Bar",
+    "citation_count": 18,
+    "influential_citations": 0,
+    "s2_title": "Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Jiao-LLM Ethics Benchmark.md",
+    "short_title": "LLM Ethics Benchmark",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2025-Liu-Cross-cultural value alignment frameworks.md",
+    "short_title": "Cross-cultural value alignment frameworks",
+    "citation_count": 0,
+    "influential_citations": 0,
+    "s2_title": "Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Russo-The Pluralistic Moral Gap.md",
+    "short_title": "The Pluralistic Moral Gap",
+    "citation_count": 5,
+    "influential_citations": 0,
+    "s2_title": "The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Sameer-Insights into Moral Reasoning of AI.md",
+    "short_title": "Insights into Moral Reasoning of AI",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+    "short_title": "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2024-Agarwal-Ethical Reasoning Depends on Language.md",
+    "short_title": "Ethical Reasoning Depends on Language",
+    "citation_count": 45,
+    "influential_citations": 0,
+    "s2_title": "Ethical Reasoning and Moral Value Alignment of LLMs Depend on the Language We Prompt Them in",
+    "s2_venue": "International Conference on Language Resources and Evaluation",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.md",
+    "short_title": "Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration: Cross-Sectional Study Using Schwartz's Theory of Basic Values",
+    "citation_count": 60,
+    "influential_citations": 2,
+    "s2_title": "Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration: Cross-Sectional Study Using Schwartz\u2019s Theory of Basic Values",
+    "s2_venue": "JMIR Mental Health",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2022-Bago-Situational factors shape moral judgments in the.md",
+    "short_title": "Situational factors shape moral judgments in the",
+    "citation_count": 2,
+    "influential_citations": 0,
+    "s2_title": "Moral thinking across the world: Exploring the influence of personal force and intention in moral dilemma judgments",
+    "s2_venue": "",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2022-Ziems-The Moral Integrity Corpus.md",
+    "short_title": "The Moral Integrity Corpus",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md",
+    "short_title": "Self-Explaining Hate Speech Detection with Moral Rationales",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2025-Aditya-Toward global ethical frameworks for AI.md",
+    "short_title": "Toward global ethical frameworks for AI",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2025-Baum-Aggregation Problems in Machine Ethics.md",
+    "short_title": "Aggregation Problems in Machine Ethics",
+    "citation_count": 1,
+    "influential_citations": 0,
+    "s2_title": "Aggregation Problems in Machine Ethics and AI Alignment",
+    "s2_venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Graves-AI Practical Wisdom and Compassion.md",
+    "short_title": "AI Practical Wisdom and Compassion",
+    "citation_count": 2,
+    "influential_citations": 0,
+    "s2_title": "AI practical wisdom and compassion",
+    "s2_venue": "AI and Ethics",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md",
+    "short_title": "UAlign: LLM Alignment Benchmark for the Ukrainian Language",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "no_identifier"
+  },
+  {
+    "file": "2025-Kumar-Are Rules Meant to be Broken.md",
+    "short_title": "Are Rules Meant to be Broken?",
+    "citation_count": 7,
+    "influential_citations": 0,
+    "s2_title": "Are Rules Meant to be Broken? Understanding Multilingual Moral Reasoning as a Computational Pipeline with UniMoral",
+    "s2_venue": "Annual Meeting of the Association for Computational Linguistics",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Lee-When Prompting Fails to Sway.md",
+    "short_title": "When Prompting Fails to Sway",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2025-Liu-Diagnosing Moral Reasoning Acquisition in.md",
+    "short_title": "Diagnosing Moral Reasoning Acquisition in",
+    "citation_count": 0,
+    "influential_citations": 0,
+    "s2_title": "Revealing the Pragmatic Dilemma for Moral Reasoning Acquisition in Language Models",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+    "short_title": "Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention",
+    "citation_count": 1,
+    "influential_citations": 0,
+    "s2_title": "Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Salazar-Kaleidoscope.md",
+    "short_title": "Kaleidoscope",
+    "citation_count": 4,
+    "influential_citations": 0,
+    "s2_title": "Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Shen-Alignment and Safety in LLMs Survey.md",
+    "short_title": "Alignment and Safety in LLMs Survey",
+    "citation_count": 7,
+    "influential_citations": 0,
+    "s2_title": "Alignment and Safety in Large Language Models: Safety Mechanisms, Training Paradigms, and Emerging Challenges",
+    "s2_venue": "arXiv.org",
+    "lookup_status": "found"
+  },
+  {
+    "file": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+    "short_title": "ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs",
+    "citation_count": null,
+    "influential_citations": null,
+    "lookup_status": "not_found"
+  },
+  {
+    "file": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+    "short_title": "The Staircase of Ethics (Multi-step Moral Dilemmas)",
+    "citation_count": 8,
+    "influential_citations": 0,
+    "s2_title": "The Staircase of Ethics: Probing LLM Value Priorities through Multi-Step Induction to Complex Moral Dilemmas",
+    "s2_venue": "Conference on Empirical Methods in Natural Language Processing",
+    "lookup_status": "found"
+  }
+]

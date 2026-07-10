@@ -1,0 +1,1227 @@
+{
+  "generated": "20260403",
+  "total_results": 70,
+  "queries_executed": 72,
+  "vault_titles_for_dedup": 2044,
+  "tradition_distribution": {
+    "Islam": 7,
+    "Christianity": 9,
+    "Judaism": 13,
+    "Hinduism": 18,
+    "Sikhism": 2,
+    "Confucianism": 2,
+    "Taoism": 1,
+    "Ubuntu": 2,
+    "Indigenous": 10,
+    "Multi-religion": 6
+  },
+  "source_distribution": {
+    "Semantic Scholar": 56,
+    "arXiv": 14
+  },
+  "query_log": [],
+  "results": [
+    {
+      "title": "A Benchmark Dataset with Larger Context for Non-Factoid Question Answering over Islamic Text",
+      "abstract": "Accessing and comprehending religious texts, particularly the Quran (the sacred scripture of Islam) and Ahadith (the corpus of the sayings or traditions of the Prophet Muhammad), in today's digital era necessitates efficient and accurate Question-Answering (QA) systems. Yet, the scarcity of QA systems tailored specifically to the detailed nature of inquiries about the Quranic Tafsir (explanation, interpretation, context of Quran for clarity) and Ahadith poses significant challenges. To address t",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/d177e20a752677cb3b4c0dadb7d51f368ca0c267",
+      "source": "Semantic Scholar",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "query": "Quran question answering dataset",
+      "citations": 8,
+      "is_open_access": false,
+      "venue": "arXiv.org",
+      "s2_paper_id": "d177e20a752677cb3b4c0dadb7d51f368ca0c267",
+      "authors": [
+        "Faiza Qamar",
+        "Seemab Latif",
+        "R. Latif"
+      ]
+    },
+    {
+      "title": "HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith",
+      "abstract": "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question–answer datasets: Hadith Question–Answer pairs (HAQA) and Quran Question–Answer pairs (QUQA). HAQA is the first Arabic Hadith question–answer dataset available to",
+      "year": "2023",
+      "url": "https://www.semanticscholar.org/paper/2aa382e75e8bc9dbb7e4d5e895152208b76b668a",
+      "source": "Semantic Scholar",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "query": "Quran question answering dataset",
+      "citations": 8,
+      "is_open_access": true,
+      "venue": "Recent Advances in Natural Language Processing",
+      "s2_paper_id": "2aa382e75e8bc9dbb7e4d5e895152208b76b668a",
+      "authors": [
+        "Sarah Alnefaie",
+        "Eric Atwell",
+        "M. Alsalka"
+      ]
+    },
+    {
+      "title": "New instances classification framework on Quran ontology applied to question answering system",
+      "abstract": "Instances classification with the small dataset for Quran ontology is the current research problem which appears in Quran ontology development. The existing classification approach used machine learning: Backpropagation Neural Network. However, this method has a drawback; if the training set amount is small, then the classifier accuracy could decline. Unfortunately, Holy Quran has a small corpus. Based on this problem, our study aims to formulate new instances classification framework for small ",
+      "year": "2019",
+      "url": "https://www.semanticscholar.org/paper/e323d753cfe208777743da5e89aa9571c3923930",
+      "source": "Semantic Scholar",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "query": "Quran question answering dataset",
+      "citations": 13,
+      "is_open_access": true,
+      "venue": "TELKOMNIKA (Telecommunication Computing Electronics and Control)",
+      "s2_paper_id": "e323d753cfe208777743da5e89aa9571c3923930",
+      "authors": [
+        "F. S. Utomo",
+        "N. Suryana",
+        "M. S. Azmi"
+      ]
+    },
+    {
+      "title": "Using the Retrieval-Augmented Generation Technique to Improve the Performance of GPT-4 in Answering Quran Questions",
+      "abstract": "One of the challenges in natural text processing concerns answering questions, and studies have tended to use large language models for this task. However, these models often generate misleading and incorrect answers. Answering religious questions is a delicate and sensitive topic. Therefore, the contribution of this paper is to use the retrieval-augmented generation technique to improve the performance of large language modules in Arabic. In this experiment, we compared the answers of standard ",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/c86507b7caa483310ffc6695884a305e891d0898",
+      "source": "Semantic Scholar",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "query": "Quran question answering dataset",
+      "citations": 1,
+      "is_open_access": false,
+      "venue": "ICON",
+      "s2_paper_id": "c86507b7caa483310ffc6695884a305e891d0898",
+      "authors": [
+        "Sarah Alnefaie",
+        "Eric Atwell",
+        "M. Alsalka"
+      ]
+    },
+    {
+      "title": "Al-Bayan: An Arabic Question Answering System for the Holy Quran",
+      "abstract": "Recently, Question Answering (QA) has been one of the main focus of natural language processing research. However, Arabic Question Answering is still not in the mainstream. The challenges of the Arabic language and the lack of resources have made it difficult to provide Arabic QA systems with high accuracy. While low accuracies may be accepted for general purpose systems, it is critical in some fields such as religious affairs. Therefore, there is a need for specialized accurate systems that tar",
+      "year": "2014",
+      "url": "https://www.semanticscholar.org/paper/1b8a0bc9a63a55512327e2f22e48cec8b5c90737",
+      "source": "Semantic Scholar",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "query": "Quran question answering dataset",
+      "citations": 86,
+      "is_open_access": true,
+      "venue": "ANLP@EMNLP",
+      "s2_paper_id": "1b8a0bc9a63a55512327e2f22e48cec8b5c90737",
+      "authors": [
+        "Heba Abdelnasser",
+        "Maha Ragab",
+        "Reham Mohamed",
+        "Alaa Mohamed",
+        "Bassant Farouk"
+      ]
+    },
+    {
+      "title": "SemEval-2015 Task 3: Answer Selection in Community Question Answering",
+      "abstract": "Community Question Answering (cQA) provides new interesting research directions to the traditional Question Answering (QA) field, e.g., the exploitation of the interaction between users and the structure of related posts. In this context, we organized SemEval2015 Task 3 on Answer Selection in cQA, which included two subtasks: (a) classifying answers as good, bad, or potentially relevant with respect to the question, and (b) answering a YES/NO question with yes, no, or unsure, based on the list o",
+      "year": "2015",
+      "url": "https://www.semanticscholar.org/paper/bcf0d9a7c425ebb443d063c613715e021c88865b",
+      "source": "Semantic Scholar",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "query": "Quran question answering dataset",
+      "citations": 146,
+      "is_open_access": true,
+      "venue": "International Workshop on Semantic Evaluation",
+      "s2_paper_id": "bcf0d9a7c425ebb443d063c613715e021c88865b",
+      "authors": [
+        "Preslav Nakov",
+        "Lluís Màrquez i Villodre",
+        "Walid Magdy",
+        "Alessandro Moschitti",
+        "James R. Glass"
+      ]
+    },
+    {
+      "title": "Cross-Language Approach for Quranic QA",
+      "abstract": "Question answering systems face critical limitations in languages with limited resources and scarce data, making the development of robust models especially challenging. The Quranic QA system holds significant importance as it facilitates a deeper understanding of the Quran, a Holy text for over a billion people worldwide. However, these systems face unique challenges, including the linguistic disparity between questions written in Modern Standard Arabic and answers found in Quranic verses writt",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/16267e9d1c7294b5bf3cd0d566de99066189f334",
+      "source": "Semantic Scholar",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "query": "Quran question answering dataset",
+      "citations": 5,
+      "is_open_access": false,
+      "venue": "arXiv.org",
+      "s2_paper_id": "16267e9d1c7294b5bf3cd0d566de99066189f334",
+      "authors": [
+        "Islam Oshallah",
+        "Mohamed Basem",
+        "Ali Hamdi",
+        "Ammar Mohammed"
+      ]
+    },
+    {
+      "title": "The homoousios as a lasting benchmark for Christology",
+      "abstract": "ABSTRACT The term homoousios stands as a cornerstone of the Nicene Creed. In churches where the Nicene Creed is recited liturgically, the shared essence of Father and Son forms an integral tenet of faith. Yet, this very term is often rejected or reinterpreted within modern Christology, viewed as quintessentially a product of the Greco-Roman context surrounding early Christian confession. It has become conventional to link homoousios with the substance metaphysics characteristic of pre-Enlightenm",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/b51c4830d435a45545d565c015d5e446de0d51ad",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "International Journal of Philosophy and Theology",
+      "s2_paper_id": "b51c4830d435a45545d565c015d5e446de0d51ad",
+      "authors": [
+        "M. Wisse"
+      ]
+    },
+    {
+      "title": "Conceptual History of Human Dignity from a Functional Perspective",
+      "abstract": "This study aims to provide a theoretical foundation for understanding the normative significance and practical implications of the concept of human dignity in contemporary constitutional and social contexts by re-examining its historical development through a functional perspective. While human dignity is widely recognized as the supreme principle of constitutional law in modern democratic states, the specific content and normative functions of this concept remain underexplored. Accordingly, thi",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/85968e2cc22d8d16611da1c76b681e24d9483ba9",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Center for Public Interest & Human Rights Law Chonnam National University",
+      "s2_paper_id": "85968e2cc22d8d16611da1c76b681e24d9483ba9",
+      "authors": [
+        "Jiyong Park"
+      ]
+    },
+    {
+      "title": "The Ethics of Precision Medicine",
+      "abstract": "THE ETHICS OF PRECISION MEDICINE: The Problems of Prevention in Healthcare by Paul Scherz. University of Notre Dame Press, 2024. 194 pages. Hardcover; $40.00. ISBN: 9780268209056. *Why do people have yearly checkups? Why do we have blood tests for risk factors such as cholesterol? Why are there cancer screening programs? These are examples of managing risk, and this is a realm of precision medicine. Rather than accept these developments at face value, Paul Scherz is concerned that, as the number",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/6d95a0f0cd20dae499c30bc022d2b5e2f9e54907",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 2,
+      "is_open_access": false,
+      "venue": "Perspectives on Science and Christian Faith",
+      "s2_paper_id": "6d95a0f0cd20dae499c30bc022d2b5e2f9e54907",
+      "authors": [
+        "P. Scherz"
+      ]
+    },
+    {
+      "title": "Implikasi Teologi Kaum Puritan bagi Kehidupan Gereja di Indonesia",
+      "abstract": "The lack of correct understanding and weak teachings of the church regarding holiness are actual problems throughout time. Political influences and a world that has been damaged by sin have become a challenge for believers to live a holy life. The church needs to be purified constantly. The church's weak understanding and teaching about biblical holiness will have an impact on the weak quality of Christian faith. The Puritans who emerged in the 16th century AD in England were famous for their te",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/5777f28015d76b4da263445aaf118919e577714b",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "HARVESTER: Jurnal Teologi dan Kepemimpinan Kristen",
+      "s2_paper_id": "5777f28015d76b4da263445aaf118919e577714b",
+      "authors": [
+        "G. A. Lado"
+      ]
+    },
+    {
+      "title": "Blessed Victors",
+      "abstract": "The late second through third centuries saw the remarkable confluence of the early church’s developing identity, theological understanding and praxis, with a period of opposition and intermittent persecution from the world around it. Theology necessarily engaged with the persecution experience, as the church considered the goodness and providence of God, the Name to be confessed and the purposeful outcome of the antagonism they faced. Ruth Sutcliffe argues that the early fathers’ theological und",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/0e0918c40b2fdce9e244d690c5ac130f3474a736",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "",
+      "s2_paper_id": "0e0918c40b2fdce9e244d690c5ac130f3474a736",
+      "authors": [
+        "R. Sutcliffe"
+      ]
+    },
+    {
+      "title": "Tinjauan terhadap Konsep Pengudusan Progresif dalam Perspektif Teologi Reformed",
+      "abstract": "Living in holiness is an absolute command that God gives to all God's people. In Reformed theology, the concept of progressive sanctification is very often highlighted and emphasized as a very important part of the Christian's life and relationship with God. This article wants to review the concept of progressive sanctification in the perspective of Reformed theology by highlighting the view of the concept and process that takes place in progressive sanctification and its implications in the pra",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/1cc2193c46aa90aaf4782a204213a643a4700f9e",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "HARVESTER: Jurnal Teologi dan Kepemimpinan Kristen",
+      "s2_paper_id": "1cc2193c46aa90aaf4782a204213a643a4700f9e",
+      "authors": [
+        "Roberto Siahaan"
+      ]
+    },
+    {
+      "title": "Gereja Ramah Disabilitas Sebagai Upaya Pelaksanaan Tri Tugas Gereja di GKPI Labuhan Batu",
+      "abstract": "A disability-friendly church is a concrete manifestation of the Christian faith's call to live out God's love in a tangible way in the lives of its congregation. The presence of people with disabilities in society and within church communities is often viewed as a neglected group, both in terms of physical accessibility, opportunities for participation, and involvement in ministry. However, theologically,people with disabilities are also God's creations, possessing the same dignity as other memb",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/b620a7055e53fb49163dd2a0647866607abd05fd",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "JURNAL RISET RUMPUN AGAMA DAN FILSAFAT",
+      "s2_paper_id": "b620a7055e53fb49163dd2a0647866607abd05fd",
+      "authors": [
+        "Daud Marsahata Simamora",
+        "Arip Surpi Sitompul",
+        "Rencan Carisma Marbun"
+      ]
+    },
+    {
+      "title": "Critical Review of Eight Highly-Rated Books on Moral Theology: Finding a Common Ground For an Ethics Education Program",
+      "abstract": "This paper reviews eight highly-rated books on Moral Theology to find a common ground for an ethics education program for undergraduate students. Using James Rest’s four domains of moral functioning as its frame of reference, it examined the substantive contents and determined the extent of their alignment with identified learning outcomes for an undergraduate ethics course. Although they differed in the elements of approach and method, it is evident that in terms of their overall substantive co",
+      "year": "2018",
+      "url": "https://www.semanticscholar.org/paper/32163345eee8a14b15e098486098c2def8bf4524",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 0,
+      "is_open_access": true,
+      "venue": "Scientia",
+      "s2_paper_id": "32163345eee8a14b15e098486098c2def8bf4524",
+      "authors": [
+        "Noel Asiones"
+      ]
+    },
+    {
+      "title": "Syncretism in African Christian Mission: Assessing the Role of Historical-critical Method of Hermeneutics",
+      "abstract": "amount Abstract: Christianity in Africa is experiencing significant exponential growth. Its vastness in terms of numbers is indeed broadening yet its actual spiritual depth remains illusory and elusive. While Africa is rapidly becoming one of the world regions for benchmarking Christianity, syncretism is among its major threats. Syncretism calls into question the authenticity of African Christian identity in the light of the historic Christian faith and hinders its spirituality. Although a degre",
+      "year": "2020",
+      "url": "https://www.semanticscholar.org/paper/71d07d089a953e8cfc12ec85e06dd4a9cd944ae0",
+      "source": "Semantic Scholar",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "query": "FaithBench Christian theology benchmark",
+      "citations": 1,
+      "is_open_access": true,
+      "venue": "The International Journal of Humanities & Social Studies",
+      "s2_paper_id": "71d07d089a953e8cfc12ec85e06dd4a9cd944ae0",
+      "authors": [
+        "Meshack O. Mbago"
+      ]
+    },
+    {
+      "title": "Deep Learning based UPoS Tagger for Assamese Religious Text",
+      "abstract": "Religious texts are known to be with specific patterns of writing, and also involve specific vocabularies. These are also known to follow specific style of writing. Thereby these texts are enriched with typical semantic and syntactic characteristics, demanding special attention for Natural Language Processing (NLP) tasks. This research paper focuses on the application of Deep Learning (DL) techniques for Parts of Speech (PoS) tagging focusing on Assamese language religious texts. We have created",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/3c06fc0dd12be909fceae19f326eb8ca8c416c73",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 3,
+      "is_open_access": true,
+      "venue": "International Journal of Religion",
+      "s2_paper_id": "3c06fc0dd12be909fceae19f326eb8ca8c416c73",
+      "authors": [
+        "Kuwali Talukdar",
+        "Shikhar Kumar Sarma",
+        "Farha Naznin",
+        "Ratul Deka"
+      ]
+    },
+    {
+      "title": "Building Conversational AI for Assamese Religious Text using Deep Learning",
+      "abstract": "This paper focuses on the use of Deep Learning techniques to build an AI Conversational Agent for Assamese religious texts. Assamese is spoken by the people of Assam which is a state of North East India. It is a language that has unique semantic and syntactic features. In order to handle the religious text in Assamese language specialized Natural Language Processing (NLP) task is required. In this paper we have presented the Deep Learning approach using bi-LSTM model to handle Assamese religious",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/0ff09e8c37b1a58d254a52f93e089a42e5ee021b",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 0,
+      "is_open_access": true,
+      "venue": "International Journal of Religion",
+      "s2_paper_id": "0ff09e8c37b1a58d254a52f93e089a42e5ee021b",
+      "authors": [
+        "Surajit Sarma",
+        "Nabankur Pathak",
+        "Neeva Rani Phukan",
+        "Risheraj Baruah",
+        "Sonali Deka"
+      ]
+    },
+    {
+      "title": "Automatic Text Segmentation of Ancient and Historic Hebrew",
+      "abstract": "Ancient texts often lack punctuation marks, making it challenging to determine sentence boundaries and clause boundaries. Texts may contain sequences of hundreds of words without any period or indication of a full stop. Determining such boundaries is a crucial step in various NLP pipelines, especially regarding language models such as BERT that have context window constraints and regarding machine translation models which may become far less accurate when fed too much text at a time. In this pap",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/641e5e45e522cd6697159a25eae7b65bc8319a15",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Proceedings of the Second Workshop on Ancient Language Processing",
+      "s2_paper_id": "641e5e45e522cd6697159a25eae7b65bc8319a15",
+      "authors": [
+        "Elisha Rosensweig",
+        "Benjamin Resnick",
+        "Hillel Gershuni",
+        "Joshua Guedalia",
+        "N. Dershowitz"
+      ]
+    },
+    {
+      "title": "Identifying Diabetes Related-Complications in a Real-World Free-Text Electronic Medical Records in Hebrew Using Natural Language Processing Techniques",
+      "abstract": "Background: Studies have demonstrated that 50% to 80% of patients do not receive an International Classification of Diseases (ICD) code assigned to their medical encounter or condition. For these patients, their clinical information is mostly recorded as unstructured free-text narrative data in the medical record without standardized coding or extraction of structured data elements. Leumit Health Services (LHS) in collaboration with the Israeli Ministry of Health (MoH) conducted this study using",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/15aeca39ea018ad5055bc1063c6cf6419ee097d3",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 7,
+      "is_open_access": false,
+      "venue": "Journal of Diabetes Science and Technology",
+      "s2_paper_id": "15aeca39ea018ad5055bc1063c6cf6419ee097d3",
+      "authors": [
+        "M. Saban",
+        "M. Lutski",
+        "Inbar Zucker",
+        "Moshe Uziel",
+        "Dror Ben-Moshe"
+      ]
+    },
+    {
+      "title": "Exploring the Effectiveness of GPT-3 in Translating Specialized Religious Text from Arabic to English: A Comparative Study with Human Translation",
+      "abstract": "In recent years, Natural Language Processing (NLP) models such as Generative Pre-trained Transformer 3 (GPT-3) have shown remarkable improvements in various language-related tasks, including machine translation. However, most studies that have evaluated the performance of NLP models in translation tasks have focused on general-purpose text, leaving the evaluation of their effectiveness in handling specialized text to be relatively unexplored. Therefore, this study aimed to evaluate the effective",
+      "year": "2023",
+      "url": "https://www.semanticscholar.org/paper/ba198cf0fd16b173fb07736e91fc75e17198bf69",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 10,
+      "is_open_access": true,
+      "venue": "Journal of Translation and Language Studies",
+      "s2_paper_id": "ba198cf0fd16b173fb07736e91fc75e17198bf69",
+      "authors": [
+        "Maysa Banat",
+        "Yasmine Abu Adla"
+      ]
+    },
+    {
+      "title": "Style Transfer of Modern Hebrew Literature Using Text Simplification and Generative Language Modeling",
+      "abstract": "",
+      "year": "2023",
+      "url": "https://www.semanticscholar.org/paper/f0aece53a9b1a536070cd569c16b0a820692c780",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 1,
+      "is_open_access": false,
+      "venue": "Workshop on Computational Humanities Research",
+      "s2_paper_id": "f0aece53a9b1a536070cd569c16b0a820692c780",
+      "authors": [
+        "Pavel Kaganovich",
+        "Ophir Münz-Manor",
+        "Elishai Ezra Tsur"
+      ]
+    },
+    {
+      "title": "Automatic Extraction and Summarization of Ethical Dilemmas from Hindu Religious Texts: A Multilevel NLP Framework",
+      "abstract": "This paper introduces a new way to find and examine moral dilemmas in ancient Indian religious texts. Initially, those passages are identified where characters encounter ethical dilemmas by creating short summaries of these passages and breaking them down into smaller sentences to reveal the arguments. The process has three main steps: (i) automatically pulling out passages with emotional and argumentative conflicts, (ii) processing each sentence to highlight argument roles and recognize types o",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/37de4ae2b117bee1c8de7c3955ac9e1c46b88d06",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 1,
+      "is_open_access": false,
+      "venue": "2025 IEEE International Conference on Cyber Humanities (IEEE-CH)",
+      "s2_paper_id": "37de4ae2b117bee1c8de7c3955ac9e1c46b88d06",
+      "authors": [
+        "Jalaj Nayan",
+        "Ruelia Saha",
+        "Priyadarshi Patnaik",
+        "Sudip Misra"
+      ]
+    },
+    {
+      "title": "Multilingual Sequence-to-Sequence Models for Hebrew NLP",
+      "abstract": "Recent work attributes progress in NLP to large language models (LMs) with increased model size and large quantities of pretraining data. Despite this, current state-of-the-art LMs for Hebrew are both under-parameterized and under-trained compared to LMs in other languages. Additionally, previous work on pretrained Hebrew LMs focused on encoder-only models. While the encoder-only architecture is beneficial for classification tasks, it does not cater well for sub-word prediction tasks, such as Na",
+      "year": "2022",
+      "url": "https://www.semanticscholar.org/paper/f3b15f3399d26409ce519e522cb0e07d1651731b",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 5,
+      "is_open_access": true,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "s2_paper_id": "f3b15f3399d26409ce519e522cb0e07d1651731b",
+      "authors": [
+        "Matan Eyal",
+        "Hila Noga",
+        "Roee Aharoni",
+        "Idan Szpektor",
+        "Reut Tsarfaty"
+      ]
+    },
+    {
+      "title": "Detection of Anorexic Girls - in Blog Posts Written in Hebrew using a Combined Heuristic AI and NLP Method",
+      "abstract": "In this study, we aim to detect in social media texts written in Hebrew girls who are suspected of being anorexic. We constructed a dataset containing 100 blog posts written by females who are probably anorexic, and 100 blog posts written by females who are likely to be non-anorexic. The construction of this dataset was supervised and approved by an international expert on anorexia. We tested several text classification (TC) methods, using various feature sets (content-based and style-based), fi",
+      "year": "2022",
+      "url": "https://www.semanticscholar.org/paper/577574645483c1a9874892682903dec01e7ede47",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 6,
+      "is_open_access": true,
+      "venue": "IEEE Access",
+      "s2_paper_id": "577574645483c1a9874892682903dec01e7ede47",
+      "authors": [
+        "Yaakov HaCohen-Kerner",
+        "Natan Manor",
+        "Michael Goldmeier",
+        "E. Bachar"
+      ]
+    },
+    {
+      "title": "AraQA: An Arabic Generative Question-Answering Model for Authentic Religious Text",
+      "abstract": "Recently, the internet has become a vast repository of religious texts and sources. The quest for valid and dependable Islamic Q/A that provides accurate substantiation from the Holy Quran (Muslim holy book) and Hadith (Prophet Muhammed teachings) has become challenging, given the abundance of misleading answers lacking credible evidence and proper sources. Concurrently, transformer-based architectures have demonstrated remarkable efficacy in language modeling and comprehension. Notably, applica",
+      "year": "2023",
+      "url": "https://www.semanticscholar.org/paper/1adfc2185a0ce393f0ca15ebdbd3f0d991b53fe8",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Hebrew religious text NLP",
+      "citations": 3,
+      "is_open_access": false,
+      "venue": "2023 11th International Japan-Africa Conference on Electronics, Communications, and Computations (JAC-ECC)",
+      "s2_paper_id": "1adfc2185a0ce393f0ca15ebdbd3f0d991b53fe8",
+      "authors": [
+        "Yousef Adel",
+        "Mostafa Dorrah",
+        "Ahmed Ashraf",
+        "Abdallah Elsaadany",
+        "Mahmoud Mohamed"
+      ]
+    },
+    {
+      "title": "Infertility evaluation and treatment according to Jewish law.",
+      "abstract": "",
+      "year": "1997",
+      "url": "https://www.semanticscholar.org/paper/3d904171d876cf865c0c4866458e7c5e8ffd5930",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Jewish law halakha AI evaluation",
+      "citations": 32,
+      "is_open_access": false,
+      "venue": "European Journal of Obstetrics, Gynecology, and Reproductive Biology",
+      "s2_paper_id": "3d904171d876cf865c0c4866458e7c5e8ffd5930",
+      "authors": [
+        "J. Schenker"
+      ]
+    },
+    {
+      "title": "\"They Shall not Draw Nigh\": The Access of Unbelievers to Sacred Space in Islamic and Jewish Law",
+      "abstract": "This essay compares the Sunnī Muslim position(s) concerning the ingress of non-Muslims to the Meccan Sanctuary with the Rabbinic outlook on the entry of non-Jews into the Temple precinct. In both cases, the issue is one of purity and pollution, and the algorithms of each religion’s ritual code are therefore probed in search of the underlying bases for their respective policies on the subject. The discussion will follow the legists through their intricate evaluation of what is perceived by many t",
+      "year": "1970",
+      "url": "https://www.semanticscholar.org/paper/8705bcc52ee9b5e321a91cf785bc817734bc3705",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Jewish law halakha AI evaluation",
+      "citations": 11,
+      "is_open_access": true,
+      "venue": "",
+      "s2_paper_id": "8705bcc52ee9b5e321a91cf785bc817734bc3705",
+      "authors": [
+        "Ze'ev Maghen"
+      ]
+    },
+    {
+      "title": "Information Retrieval in the Service of Generating Narrative Explanation - What we Want from Gallura",
+      "abstract": "Information retrieval (IR) and, all the more so, knowledge discovery (KD), do not exist in isolation: it is necessary to consider the architectural context in which they are invoked in order to fulfil given kinds of tasks. This paper discusses a retrieval-intensive context of use, whose intended output is the generation of narrative explanations in a non-bona-fide, entertainment mode subject to heavy intertextuality and strictly constrained by culture-bound poetic conventions. The GALLURA projec",
+      "year": "2011",
+      "url": "https://www.semanticscholar.org/paper/95d97e2e87103d10ca0c2ef0a2384f76e0aa6355",
+      "source": "Semantic Scholar",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "query": "Jewish law halakha AI evaluation",
+      "citations": 6,
+      "is_open_access": true,
+      "venue": "International Conference on Knowledge Discovery and Information Retrieval",
+      "s2_paper_id": "95d97e2e87103d10ca0c2ef0a2384f76e0aa6355",
+      "authors": [
+        "E. Nissan",
+        "Yaakov HaCohen-Kerner"
+      ]
+    },
+    {
+      "title": "Contextual Understanding in Retrieval Augmented Generation: A Comparative Evaluation of BLOOM-560M and Pythia-410M on Bhagavad Gita Interpretation",
+      "abstract": "Large Language Models have advanced a lot in natural language understanding and generation. But still their implementation in specialized fields needs further contextual understanding. Retrieval Augmented Generation has proven to be an important model for integrating external knowledge sources and generative models for generating more accurate and specialized responses. In this study, we evaluate the behavior of medium scale LLMs through a RAG pipeline for contextual question answering from the ",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/99f2694edfd2668a54f6b084c41ed133a68bcdd1",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "International Joint Conference on the Analysis of Images, Social Networks and Texts",
+      "s2_paper_id": "99f2694edfd2668a54f6b084c41ed133a68bcdd1",
+      "authors": [
+        "Divyansh Tuli",
+        "Hardik Yadav",
+        "Aryan Rawat"
+      ]
+    },
+    {
+      "title": "A Machine Learning Model for Predicting Workplace Spirituality Levels Based on Bhagavad Gita Stress Management Parameters",
+      "abstract": "Spirituality in the workplace is essential in facilitating the welfare and motivation of employees as well as harmony in the organization. Nevertheless, the majority of the current methods are based on subjective evaluation and do not have quantitative predictive practices. To overcome this weakness, it proposes a machine learning model, KarmaNet, to estimate Workplace Spirituality Levels (WSL) based on Bhagavad Gita-based parameters of stress management, including Equanimity, Karma Orientation,",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/d10bfdd0497ed38f4f6536b6c88ed18c08e96a33",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "2025 IEEE 5th International Conference on ICT in Business Industry & Government (ICTBIG)",
+      "s2_paper_id": "d10bfdd0497ed38f4f6536b6c88ed18c08e96a33",
+      "authors": [
+        "K.S. Sivakumar",
+        "G. Madhumita"
+      ]
+    },
+    {
+      "title": "The Bhagavad Gita as a Framework for Sattvic AI: Aligning Artificial Intelligence with Sustainable Development",
+      "abstract": "Background: The current \"move fast and break things\" approach to technology and innovation is proving to be a significant threat to humanity, especially when artificial intelligence (AI) is considered to be a civilization-altering technology. In the absence of a robust ethical foundation, AI could potentially worsen the current sustainability crises and hinder the achievement of the United Nations Sustainable Development Goals (SDGs). The current state of AI ethics, where sustainability is consi",
+      "year": "2026",
+      "url": "https://www.semanticscholar.org/paper/0d3728f55c7d8a227d250d40696ab34bba485735",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "NPRC Journal of Multidisciplinary Research",
+      "s2_paper_id": "0d3728f55c7d8a227d250d40696ab34bba485735",
+      "authors": [
+        "S. R. Adhikari",
+        "Hira Lal Shrestha",
+        "Dasarath Neupane"
+      ]
+    },
+    {
+      "title": "Cultivating the Ideal Citizen: A Modern Analysis of the Bhakti Yoga Framework in Chapter 12 of the Bhagavad Gita for Fostering Global Ethos and Social Harmony",
+      "abstract": "Purpose: The purpose of this research case study is to argue that the structured path of devotion and virtues outlined in the Twelfth Chapter of the Bhagavad Gita provide a universal framework for cultivating ethical individuals. It aims to demonstrate how this framework serves as a powerful tool for addressing modern societal challenges such as polarization and ethical apathy. Ultimately, the study seeks to guide the development of a conscious, compassionate, and harmonious global society throu",
+      "year": "2026",
+      "url": "https://www.semanticscholar.org/paper/d3b28ae67791225c0ec9df6cde7331f17a7a7a5e",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "d3b28ae67791225c0ec9df6cde7331f17a7a7a5e",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "Arjuna's Dilemma as a Universal Paradigm: A Multi-Framework Analysis of Ethics, Impact, and Future Pathways in the First Chapter of the Bhagavad Gita",
+      "abstract": "Purpose: The purpose of this research case study is to critically re-evaluate the first chapter of the Bhagavad Gita, Arjuna Vishada Yoga, moving beyond its traditional perception as a mere narrative prelude. It employs the SWOC and ABCD analytical frameworks to deconstruct Arjuna's ethical crisis, examining its strengths, weaknesses, opportunities, and challenges from multiple stakeholder perspectives. Ultimately, the study aims to establish this chapter as a foundational paradigm for a \"new et",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/1b212ac3b20b6c07fbca449bdd1088cd7dee9957",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 3,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "1b212ac3b20b6c07fbca449bdd1088cd7dee9957",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "The Dharma of Engaged Living: A Multi-Framework Analysis of Karma Yoga in Chapter 3 of the Bhagavad Gita for the Modern World",
+      "abstract": "Purpose: The purpose of this research analysis is to systematically evaluate the applicability of the Karma Yoga philosophy from Chapter 3 of the Bhagavad Gita to contemporary life. It employs structured analytical frameworks, namely SWOC and ABCD, to assess the strengths, weaknesses, opportunities, and challenges of this ethical system from multiple stakeholder perspectives. The analysis ultimately aims to translate ancient spiritual wisdom into a practical, multi-level framework for addressing",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/805c848a656d0fb84c64e1b1483e9ed4b2b9783a",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 3,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "805c848a656d0fb84c64e1b1483e9ed4b2b9783a",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "The Unified Path to Inner Sovereignty: A Multi-Dimensional Analysis of Karma Sannyasa in the Fifth Chapter of the Bhagavad Gita",
+      "abstract": "Purpose: The purpose of this research case study is to conduct a holistic and multi-dimensional analysis of the fifth chapter of the Bhagavad Gita, known as Karma Sannyasa Yoga. It aims to deconstruct the chapter's central thesis—the identity of the paths of knowledge and action—using the SWOC and ABCD analytical frameworks. Ultimately, the study seeks to evaluate the transformative potential of this philosophy on individual autonomy and societal well-being, offering actionable insights for futu",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/b1910d370888dfdec410d4ace1919f7ec883142d",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 1,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "b1910d370888dfdec410d4ace1919f7ec883142d",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "The Blueprint for Conscious Living: A Multi-Dimensional Analysis of Nishkama Karma and Stitha-Prajna in the Second Chapter of the Bhagavad Gita",
+      "abstract": "Purpose: The purpose of this research case study is to conduct a multi-dimensional examination of the philosophical concepts of Nishkama Karma (selfless action) and Stitha-prajna (steadfast wisdom) as presented in the second chapter of the Bhagavad Gita. It aims to analyze their relevance as a practical blueprint for conscious living in contemporary contexts, including leadership, psychology, and ethics. The study seeks to bridge ancient spiritual wisdom and modern life challenges through struct",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/e21d8dbfdf390f7babbe36de2385722d21825ecb",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 2,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "e21d8dbfdf390f7babbe36de2385722d21825ecb",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "The Cosmic Blueprint for Ethical Action: A Multi-Dimensional Analysis of Jnana Karma Sannyasa in the Fourth Chapter of Bhagavad Gita",
+      "abstract": "Purpose: The purpose of this research case study is to systematically analyze the philosophical tenets of Jnana Karma Sannyasa Yoga as presented in the fourth chapter of the Bhagavad Gita. It aims to explore the synthesis of knowledge, action, and renunciation, and to evaluate their practical implications for modern ethical and spiritual living. Furthermore, the study seeks to assess the transformative potential and contemporary relevance of this integrated path using structured analytical frame",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/4e095bd343c17ead53016aba19f1df237f63504d",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 2,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "4e095bd343c17ead53016aba19f1df237f63504d",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "Mastering the Inner World: A Multi-Dimensional Analysis of Dhyana Yoga in Chapter 6 of the Bhagavad Gita as a Foundation for Global Well-being",
+      "abstract": "Purpose: To conduct a multi-dimensional exploration of Dhyana Yoga as presented in Chapter 6 of the Bhagavad Gita, examining its philosophical, psychological, and ethical dimensions as a pathway to inner mastery and global well-being. It aims to deconstruct the chapter’s principles using SWOC and ABCD analytical frameworks to assess their practical relevance and transformative potential in modern life. The study seeks to demonstrate how the Gita’s meditative discipline can serve as a universal f",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/97b61eb66b872d74d043633972ffc0b0039bfded",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "97b61eb66b872d74d043633972ffc0b0039bfded",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "The Democratization of the Divine: A Critical Analysis of Inclusivity, Grace, and Social Ethics in Chapter Nine of the Bhagavad Gita through Raja Vidya Raja Guhya Yoga",
+      "abstract": "Purpose: The purpose of this research case study is to critically analyze the theological and ethical propositions within Chapter Nine of the Bhagavad Gita, known as the Raja Vidya Raja Guhya Yoga. It specifically aims to examine how the chapter’s principles of divine immanence, grace (prasada), and radical inclusivity propose a democratized spiritual path and a transformative social ethic. The study seeks to systematically evaluate this potential using structured analytical frameworks (SWOC and",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/d912c8d0583d7dc6f49aebeeccdb25c8cf72bc46",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "d912c8d0583d7dc6f49aebeeccdb25c8cf72bc46",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "Conscious Living and Dying: The Soteriology of the Final Thought through Akshara Brahma Yoga in the Bhagavad Gita's Eighth Chapter",
+      "abstract": "Purpose: The purpose of this research case study is to conduct a detailed textual and philosophical analysis of the Akshara Brahma Yoga from the Bhagavad Gita's Eighth Chapter. It aims to explore the chapter’s unique framework for conscious living and dying, focusing on the doctrine of the \"final thought\" and its soteriological implications. Additionally, the study systematically evaluates the applicability and impact of these teachings for the modern individual and society using structured anal",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/c7e357936d32fd48399922ba57373e7835b46a43",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "c7e357936d32fd48399922ba57373e7835b46a43",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "Sentiment Analysis of Spiritual Teachings: Ensemble Learning Applied to Twitter Religious Text and Bhagavad Gita",
+      "abstract": "Religious texts serve as guiding principles that shape moral values, ethics, and social conduct across cultures. It also provides profound insights into spirituality and human behavior. Despite its historical and cultural significance, the computational analysis of the text remains an under-explored area of research. State-of-the-art models have shown lower performance, partly due to assumptions of feature independence. Religious texts often contain metaphors and context-specific meanings, makin",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/826103564c0f16108c6daa739c6e7aaf6b9dc240",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "2025 7th International Conference on Signal Processing, Computing and Control (ISPCC)",
+      "s2_paper_id": "826103564c0f16108c6daa739c6e7aaf6b9dc240",
+      "authors": [
+        "Nidhi Rohra",
+        "Shiv Shankar Prasad Shukla"
+      ]
+    },
+    {
+      "title": "The Kṣetra-Kṣetrajña Vibhāga Yoga Framework of the Thirteenth Chapter of Bhagavad Gita for Conscious Leadership and Systemic Ethical Transformation in the 21st Century",
+      "abstract": "Purpose: The purpose of this research case study is to analyze the metaphysical distinction between the \"Field\" (Kṣetra) and the \"Knower\" (Kṣetrajña) as presented in the Thirteenth Chapter of the Bhagavad Gita to establish a foundation for conscious leadership. It explores the systematic learnings and twenty virtues identified in this framework that facilitate detached engagement and ethical decision-making in 21st-century organizational contexts. Additionally, the study aims to evaluate this co",
+      "year": "2026",
+      "url": "https://www.semanticscholar.org/paper/4086d4f10aaec855fdbcbc4f97d5cb6f40881a8d",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "4086d4f10aaec855fdbcbc4f97d5cb6f40881a8d",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "The Puruṣottama Yoga Paradigm: Leveraging Chapter 15 of Bhagavad Gita's World-Tree Metaphor for Global Systems Thinking and Transcendent Ethical Leadership",
+      "abstract": "Purpose: The purpose of this research case study is to examine the metaphysical architecture of Chapter 15 of the Bhagavad Gita, specifically the Aśvattha (World-Tree) metaphor, as a foundational model for global systems thinking. It analyzes the \"Puruṣottama Yoga\" paradigm to distinguish between perishable, imperishable, and supreme aspects of reality for diagnosing contemporary global challenges. Additionally, the study evaluates the impact of Transcendent Ethical Leadership by leveraging the ",
+      "year": "2026",
+      "url": "https://www.semanticscholar.org/paper/3495f484b8d3849b03023c3c97359048b32a30e9",
+      "source": "Semantic Scholar",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Bhagavad Gita dataset AI evaluation",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+      "s2_paper_id": "3495f484b8d3849b03023c3c97359048b32a30e9",
+      "authors": [
+        "P. S. Aithal",
+        "Ramanathan S."
+      ]
+    },
+    {
+      "title": "A Benchmark and Dataset for Post-OCR text correction in Sanskrit",
+      "abstract": "Sanskrit is a classical language with about 30 million extant manuscripts fit for digitisation, available in written, printed or scannedimage forms. However, it is still considered to be a low-resource language when it comes to available digital resources. In this work, we release a post-OCR text correction dataset containing around 218,000 sentences, with 1.5 million words, from 30 different books. Texts in Sanskrit are known to be diverse in terms of their linguistic and stylistic usage since Sanskrit was the 'lingua franca' for discourse in the Indian subcontinent for about 3 millennia. Keeping this in mind, we release a multi-domain dataset, from areas as diverse as astronomy, medicine and mathematics, with some of them as old as 18 centuries. Further, we release multiple strong baselines as benchmarks for the task, based on pre-trained Seq2Seq language models. We find that our best-performing model, consisting of byte level tokenization in conjunction with phonetic encoding (Byt5+SLP1), yields a 23% point increase over the OCR output in terms of word and character error rates. Moreover, we perform extensive experiments in evaluating these models on their performance and analyse common causes of mispredictions both at the graphemic and lexical levels. Our code and dataset is publicly available at https://github.com/ayushbits/pe-ocr-sanskrit.",
+      "url": "http://arxiv.org/abs/2211.07980v1",
+      "year": "2022",
+      "source": "arXiv",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Sanskrit NLP benchmark religious"
+    },
+    {
+      "title": "Is Sanskrit the most token-efficient language? A quantitative study using GPT, Gemini, and SentencePiece",
+      "abstract": "Tokens are the basic units of Large Language Models (LLMs). LLMs rely on tokenizers to segment text into these tokens, and tokenization is the primary determinant of computational and inference cost. Sanskrit, one of the oldest languages, is hypothesized to express more meaning per token due to its morphology and grammar rules; however, no prior work has quantified this. We use a dataset of 701 parallel verses of the Bhagavad Gita, which comprises three languages-Sanskrit, English, and Hindi along with transliteration of Sanskrit into English. We test tokenizers including SentencePiece (SPM), older GPT models, and the latest generation tokenizers from Gemini and GPT. We use metrics of token count, characters per token (token efficiency), and tokens per character (token cost). Results show a ~2x difference in token counts between Sanskrit and English/Hindi under the unbiased SPM baseline. English/Hindi translations of Sanskrit commentary resulted in an approximately 20x increase in token count. GPT o200k base (latest, used by GPT-4o) and Gemini (latest) reduce bias by a significant degree compared to GPT cl100k base (used until GPT-4), but still fail to fully capture Sanskrit's compactness. This matters because there might be a penalty bias for non-English users, which inflates the token count. This research provides a foundation for improving future tokenizer design and shows the potential of Sanskrit for highly compact encoding, saving on cost while speeding up training and inference. The code and dataset are available at https://github.com/anshulkr713/sanskrit-token-efficiency",
+      "url": "http://arxiv.org/abs/2601.06142v1",
+      "year": "2026",
+      "source": "arXiv",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Sanskrit NLP benchmark religious"
+    },
+    {
+      "title": "One Model is All You Need: ByT5-Sanskrit, a Unified Model for Sanskrit NLP Tasks",
+      "abstract": "Morphologically rich languages are notoriously challenging to process for downstream NLP applications. This paper presents a new pretrained language model, ByT5-Sanskrit, designed for NLP applications involving the morphologically rich language Sanskrit. We evaluate ByT5-Sanskrit on established Sanskrit word segmentation tasks, where it outperforms previous data-driven approaches by a considerable margin and matches the performance of the current best lexicon-based model. It is easier to deploy and more robust to data not covered by external linguistic resources. It also achieves new state-of-the-art results in Vedic Sanskrit dependency parsing and OCR post-correction tasks. Additionally, based on the Digital Corpus of Sanskrit, we introduce a novel multitask dataset for the joint training of Sanskrit word segmentation, lemmatization, and morphosyntactic tagging tasks. We fine-tune ByT5-Sanskrit on this dataset, creating a versatile multitask model for various downstream Sanskrit applications. We have used this model in Sanskrit linguistic annotation projects, in information retrieval setups, and as a preprocessing step in a Sanskrit machine translation pipeline. We also show that our approach yields new best scores for lemmatization and dependency parsing of other morphologically rich languages. We thus demonstrate that byte-level pretrained language models can achieve excellent performance for morphologically rich languages, outperforming tokenizer-based models and presenting an important vector of exploration when constructing NLP pipelines for such languages.",
+      "url": "http://arxiv.org/abs/2409.13920v1",
+      "year": "2024",
+      "source": "arXiv",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "query": "Sanskrit NLP benchmark religious"
+    },
+    {
+      "title": "A Backdoor-based Explainable AI Benchmark for High Fidelity Evaluation of Attributions",
+      "abstract": "Attribution methods compute importance scores for input features to explain model predictions. However, assessing the faithfulness of these methods remains challenging due to the absence of attribution ground truth to model predictions. In this work, we first identify a set of fidelity criteria that reliable benchmarks for attribution methods are expected to fulfill, thereby facilitating a systematic assessment of attribution benchmarks. Next, we introduce a Backdoor-based eXplainable AI benchma",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/9042714d57943c825ba9c632025de47801fd16bf",
+      "source": "Semantic Scholar",
+      "tradition": "Sikhism",
+      "family": "Dharmic",
+      "query": "Sikh AI benchmark evaluation",
+      "citations": 2,
+      "is_open_access": false,
+      "venue": "",
+      "s2_paper_id": "9042714d57943c825ba9c632025de47801fd16bf",
+      "authors": [
+        "Peiyu Yang",
+        "Naveed Akhtar",
+        "Jiantong Jiang",
+        "Ajmal Mian"
+      ]
+    },
+    {
+      "title": "AEGIS: Authenticity Evaluation Benchmark for AI-Generated Video Sequences",
+      "abstract": "Recent advances in AI-generated content have fueled the rise of highly realistic synthetic videos, posing severe risks to societal trust and digital integrity. Existing benchmarks for video authenticity detection typically suffer from limited realism, insufficient scale, and inadequate complexity, failing to effectively evaluate modern vision-language models against sophisticated forgeries. To address this critical gap, we introduce AEGIS, a novel large-scale benchmark explicitly targeting the d",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/e671b93b3b94473dd956694a6ba64faa70cad095",
+      "source": "Semantic Scholar",
+      "tradition": "Sikhism",
+      "family": "Dharmic",
+      "query": "Sikh AI benchmark evaluation",
+      "citations": 3,
+      "is_open_access": false,
+      "venue": "ACM Multimedia",
+      "s2_paper_id": "e671b93b3b94473dd956694a6ba64faa70cad095",
+      "authors": [
+        "Jieyu Li",
+        "Xin Zhang",
+        "Joey Tianyi Zhou"
+      ]
+    },
+    {
+      "title": "CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility",
+      "abstract": "With the rapid evolution of large language models (LLMs), there is a growing concern that they may pose risks or have negative social impacts. Therefore, evaluation of human values alignment is becoming increasingly important. Previous work mainly focuses on assessing the performance of LLMs on certain knowledge and reasoning abilities, while neglecting the alignment to human values, especially in a Chinese context. In this paper, we present CValues, the first Chinese human values evaluation benchmark to measure the alignment ability of LLMs in terms of both safety and responsibility criteria. As a result, we have manually collected adversarial safety prompts across 10 scenarios and induced responsibility prompts from 8 domains by professional experts. To provide a comprehensive values evaluation of Chinese LLMs, we not only conduct human evaluation for reliable comparison, but also construct multi-choice prompts for automatic evaluation. Our findings suggest that while most Chinese LLMs perform well in terms of safety, there is considerable room for improvement in terms of responsibility. Moreover, both the automatic and human evaluation are important for assessing the human values alignment in different aspects. The benchmark and code is available on ModelScope and Github.",
+      "url": "http://arxiv.org/abs/2307.09705v1",
+      "year": "2023",
+      "source": "arXiv",
+      "tradition": "Confucianism",
+      "family": "EastAsian",
+      "query": "CValues Chinese moral values benchmark"
+    },
+    {
+      "title": "CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review",
+      "abstract": "Many specialized domains remain untouched by deep learning, as large labeled datasets require expensive expert annotators. We address this bottleneck within the legal domain by introducing the Contract Understanding Atticus Dataset (CUAD), a new dataset for legal contract review. CUAD was created with dozens of legal experts from The Atticus Project and consists of over 13,000 annotations. The task is to highlight salient portions of a contract that are important for a human to review. We find that Transformer models have nascent performance, but that this performance is strongly influenced by model design and training dataset size. Despite these promising results, there is still substantial room for improvement. As one of the only large, specialized NLP benchmarks annotated by experts, CUAD can serve as a challenging research benchmark for the broader NLP community.",
+      "url": "http://arxiv.org/abs/2103.06268v2",
+      "year": "2021",
+      "source": "arXiv",
+      "tradition": "Confucianism",
+      "family": "EastAsian",
+      "query": "Analects NLP dataset computational"
+    },
+    {
+      "title": "TAO Conceptual Design Report: A Precision Measurement of the Reactor Antineutrino Spectrum with Sub-percent Energy Resolution",
+      "abstract": "The Taishan Antineutrino Observatory (TAO, also known as JUNO-TAO) is a satellite experiment of the Jiangmen Underground Neutrino Observatory (JUNO). A ton-level liquid scintillator detector will be placed at about 30 m from a core of the Taishan Nuclear Power Plant. The reactor antineutrino spectrum will be measured with sub-percent energy resolution, to provide a reference spectrum for future reactor neutrino experiments, and to provide a benchmark measurement to test nuclear databases. A spherical acrylic vessel containing 2.8 ton gadolinium-doped liquid scintillator will be viewed by 10 m^2 Silicon Photomultipliers (SiPMs) of &gt;50% photon detection efficiency with almost full coverage. The photoelectron yield is about 4500 per MeV, an order higher than any existing large-scale liquid scintillator detectors. The detector operates at -50 degree C to lower the dark noise of SiPMs to an acceptable level. The detector will measure about 2000 reactor antineutrinos per day, and is designed to be well shielded from cosmogenic backgrounds and ambient radioactivities to have about 10% background-to-signal ratio. The experiment is expected to start operation in 2022.",
+      "url": "http://arxiv.org/abs/2005.08745v1",
+      "year": "2020",
+      "source": "arXiv",
+      "tradition": "Taoism",
+      "family": "EastAsian",
+      "query": "Tao Te Ching NLP dataset evaluation"
+    },
+    {
+      "title": "Where Are We? Evaluating LLM Performance on African Languages",
+      "abstract": "Africa's rich linguistic heritage remains underrepresented in NLP, largely due to historical policies that favor foreign languages and create significant data inequities. In this paper, we integrate theoretical insights on Africa's language landscape with an empirical evaluation using Sahara - a comprehensive benchmark curated from large-scale, publicly accessible datasets capturing the continent's linguistic diversity. By systematically assessing the performance of leading large language models",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/da06c621d93e7c42870171d482ca61dc619d2e2b",
+      "source": "Semantic Scholar",
+      "tradition": "Ubuntu",
+      "family": "African",
+      "query": "African philosophy AI benchmark dataset",
+      "citations": 11,
+      "is_open_access": false,
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "s2_paper_id": "da06c621d93e7c42870171d482ca61dc619d2e2b",
+      "authors": [
+        "Ife Adebara",
+        "Hawau Olamide Toyin",
+        "Nahom Tesfu Ghebremichael",
+        "AbdelRahim Elmadany",
+        "M. Abdul-Mageed"
+      ]
+    },
+    {
+      "title": "AfriStereo: A Culturally Grounded Dataset for Evaluating Stereotypical Bias in Large Language Models",
+      "abstract": "Existing AI bias evaluation benchmarks largely reflect Western perspectives, leaving African contexts underrepresented and enabling harmful stereotypes in applications across various domains. To address this gap, we introduce AfriStereo, the first open-source African stereotype dataset and evaluation framework grounded in local socio-cultural contexts. Through community engaged efforts across Senegal, Kenya, and Nigeria, we collected 1,163 stereotypes spanning gender, ethnicity, religion, age, a",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/a2421ad66c42bf92bd37bca984c0ce2a53458416",
+      "source": "Semantic Scholar",
+      "tradition": "Ubuntu",
+      "family": "African",
+      "query": "African philosophy AI benchmark dataset",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "arXiv.org",
+      "s2_paper_id": "a2421ad66c42bf92bd37bca984c0ce2a53458416",
+      "authors": [
+        "Yann Le Beux",
+        "Oluchi Audu",
+        "Oche D. Ankeli",
+        "D. Balakrishnan",
+        "Melissah Weya"
+      ]
+    },
+    {
+      "title": "FUSE : A Ridge and Random Forest-Based Metric for Evaluating MT in Indigenous Languages",
+      "abstract": "This paper presents the winning submission of the RaaVa team to the AmericasNLP 2025 Shared Task 3 on Automatic Evaluation Metrics for Machine Translation (MT) into Indigenous Languages of America, where our system ranked first overall based on average Pearson correlation with the human annotations. We introduce Feature-Union Scorer (FUSE) for Evaluation, FUSE integrates Ridge regression and Gradient Boosting to model translation quality. In addition to FUSE, we explore five alternative approaches leveraging different combinations of linguistic similarity features and learning paradigms. FUSE Score highlights the effectiveness of combining lexical, phonetic, semantic, and fuzzy token similarity with learning-based modeling to improve MT evaluation for morphologically rich and low-resource languages. MT into Indigenous languages poses unique challenges due to polysynthesis, complex morphology, and non-standardized orthography. Conventional automatic metrics such as BLEU, TER, and ChrF often fail to capture deeper aspects like semantic adequacy and fluency. Our proposed framework, formerly referred to as FUSE, incorporates multilingual sentence embeddings and phonological encodings to better align with human evaluation. We train supervised models on human-annotated development sets and evaluate held-out test data. Results show that FUSE consistently achieves higher Pearson and Spearman correlations with human judgments, offering a robust and linguistically informed solution for MT evaluation in low-resource settings.",
+      "url": "http://arxiv.org/abs/2504.00021v3",
+      "year": "2025",
+      "source": "arXiv",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous knowledge AI benchmark evaluation"
+    },
+    {
+      "title": "Parallel Corpus for Indigenous Language Translation: Spanish-Mazatec and Spanish-Mixtec",
+      "abstract": "In this paper, we present a parallel Spanish-Mazatec and Spanish-Mixtec corpus for machine translation (MT) tasks, where Mazatec and Mixtec are two indigenous Mexican languages. We evaluated the usability of the collected corpus using three different approaches: transformer, transfer learning, and fine-tuning pre-trained multilingual MT models. Fine-tuning the Facebook M2M100-48 model outperformed the other approaches, with BLEU scores of 12.09 and 22.25 for Mazatec-Spanish and Spanish-Mazatec translations, respectively, and 16.75 and 22.15 for Mixtec-Spanish and Spanish-Mixtec translations, respectively. The findings show that the dataset size (9,799 sentences in Mazatec and 13,235 sentences in Mixtec) affects translation performance and that indigenous languages work better when used as target languages. The findings emphasize the importance of creating parallel corpora for indigenous languages and fine-tuning models for low-resource translation tasks. Future research will investigate zero-shot and few-shot learning approaches to further improve translation performance in low-resource settings. The dataset and scripts are available at \\url{https://github.com/atnafuatx/Machine-Translation-Resources}",
+      "url": "http://arxiv.org/abs/2305.17404v1",
+      "year": "2023",
+      "source": "arXiv",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous knowledge AI benchmark evaluation"
+    },
+    {
+      "title": "VLM@school -- Evaluation of AI image understanding on German middle school knowledge",
+      "abstract": "This paper introduces a novel benchmark dataset designed to evaluate the capabilities of Vision Language Models (VLMs) on tasks that combine visual reasoning with subject-specific background knowledge in the German language. In contrast to widely used English-language benchmarks that often rely on artificially difficult or decontextualized problems, this dataset draws from real middle school curricula across nine domains including mathematics, history, biology, and religion. The benchmark includes over 2,000 open-ended questions grounded in 486 images, ensuring that models must integrate visual interpretation with factual reasoning rather than rely on superficial textual cues. We evaluate thirteen state-of-the-art open-weight VLMs across multiple dimensions, including domain-specific accuracy and performance on adversarial crafted questions. Our findings reveal that even the strongest models achieve less than 45% overall accuracy, with particularly poor performance in music, mathematics, and adversarial settings. Furthermore, the results indicate significant discrepancies between success on popular benchmarks and real-world multimodal understanding. We conclude that middle school-level tasks offer a meaningful and underutilized avenue for stress-testing VLMs, especially in non-English contexts. The dataset and evaluation protocol serve as a rigorous testbed to better understand and improve the visual and linguistic reasoning capabilities of future AI systems.",
+      "url": "http://arxiv.org/abs/2506.11604v2",
+      "year": "2025",
+      "source": "arXiv",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous knowledge AI benchmark evaluation"
+    },
+    {
+      "title": "Fit for our purpose, not yours: Benchmark for a low-resource, Indigenous language",
+      "abstract": "Influential and popular benchmarks in AI are largely irrelevant to developing NLP tools for low-resource, Indigenous languages. With the primary goal of measuring the performance of general-purpose AI systems, these benchmarks fail to give due consideration and care to individual language communities, especially low-resource languages. The datasets contain numerous grammatical and orthographic errors, poor pronunciation, limited vocabulary, and the content lacks cultural relevance to the languag",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/3bb30f34befd2b14731f8dbb8c74c03410205d0a",
+      "source": "Semantic Scholar",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous spirituality AI benchmark",
+      "citations": 1,
+      "is_open_access": false,
+      "venue": "Neural Information Processing Systems",
+      "s2_paper_id": "3bb30f34befd2b14731f8dbb8c74c03410205d0a",
+      "authors": [
+        "Suzanne Duncan",
+        "G. Leoni",
+        "Lee Steven",
+        "Keoni Mahelona",
+        "Peter-Lucas Jones"
+      ]
+    },
+    {
+      "title": "Generating a Culturally and Linguistically Adapted Word Similarity Benchmark for Yucatec Maya",
+      "abstract": "In the field of AI, word embedding models have proven to be one of the most effective methods for capturing semantic and syntactic relationships between words, enabling significant advancements in natural language processing. However, producing word embeddings for low-resource indigenous languages—such as Yucatec Maya—often suffers from poor reliability due to limited data availability and unsuitable evaluation benchmarks.In this work, we propose a novel methodology for constructing reliable wor",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/bcbd362b4f5b96d7a0acadab2583473f53e3b3c2",
+      "source": "Semantic Scholar",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous spirituality AI benchmark",
+      "citations": 0,
+      "is_open_access": false,
+      "venue": "Inteligencia Artif.",
+      "s2_paper_id": "bcbd362b4f5b96d7a0acadab2583473f53e3b3c2",
+      "authors": [
+        "Alejandro Molina-Villegas",
+        "Joel Suro-Villalobos",
+        "Jorge Reyes-Magaña",
+        "Silvia Fernandez Sabido"
+      ]
+    },
+    {
+      "title": "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages",
+      "abstract": "Southeast Asia (SEA) is a region rich in linguistic diversity and cultural variety, with over 1,300 indigenous languages and a population of 671 million people. However, prevailing AI models suffer from a significant lack of representation of texts, images, and audio datasets from SEA, compromising the quality of AI models for SEA languages. Evaluating models for SEA languages is challenging due to the scarcity of high-quality datasets, compounded by the dominance of English training data, raisi",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/ba5284674face6cca3b678fd7a82d691ec29349b",
+      "source": "Semantic Scholar",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous spirituality AI benchmark",
+      "citations": 41,
+      "is_open_access": false,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "s2_paper_id": "ba5284674face6cca3b678fd7a82d691ec29349b",
+      "authors": [
+        "Holy Lovenia",
+        "Rahmad Mahendra",
+        "Salsabil Maulana Akbar",
+        "Lester James Validad Miranda",
+        "Jennifer Santoso"
+      ]
+    },
+    {
+      "title": "Let's Play Across Cultures: A Large Multilingual, Multicultural Benchmark for Assessing Language Models' Understanding of Sports",
+      "abstract": "Language Models (LMs) are primarily evaluated on globally popular sports, often overlooking regional and indigenous sporting traditions. To address this gap, we introduce \\textbf{\\textit{CultSportQA}}, a benchmark designed to assess LMs'understanding of traditional sports across 60 countries and 6 continents, encompassing four distinct cultural categories. The dataset features 33,000 multiple-choice questions (MCQs) across text and image modalities, each of which is categorized into three key ty",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/3af36339a3cd3071a1c9cfce9ac3f03bc8edcce6",
+      "source": "Semantic Scholar",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous spirituality AI benchmark",
+      "citations": 1,
+      "is_open_access": false,
+      "venue": "Conference on Empirical Methods in Natural Language Processing",
+      "s2_paper_id": "3af36339a3cd3071a1c9cfce9ac3f03bc8edcce6",
+      "authors": [
+        "Punit Kumar Singh",
+        "Nishant Kumar",
+        "Akash Ghosh",
+        "Kunal Pasad",
+        "Khushi Soni"
+      ]
+    },
+    {
+      "title": "Applying an Indigenous Connectedness Framework to Examine Environmental Risk and Protective Factors for Urban American Indian Children’s Executive Function Development",
+      "abstract": "Indigenous frameworks suggest environmental risk and protective factors for American Indian (AI) children’s development can be understood in terms of connecting and disconnecting forces in five domains: spirituality, family, intergenerational ties, community, and environment/land. This study examined the prevalence of these forces among 156 urban AI parents and their children (mean age = 10.69, SD = 1.92) and investigated associations with child executive function (EF). Parents reported on three",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/95dcc67ea526fe8d2d5ff04dad591e2f310d85d2",
+      "source": "Semantic Scholar",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous spirituality AI benchmark",
+      "citations": 0,
+      "is_open_access": true,
+      "venue": "Behavioral Science",
+      "s2_paper_id": "95dcc67ea526fe8d2d5ff04dad591e2f310d85d2",
+      "authors": [
+        "Alexis Merculief",
+        "Monica Tsethlikai",
+        "Felix B Muniz"
+      ]
+    },
+    {
+      "title": "Exploring AI-generated content and professional guidelines in cancer symptom management: A comparative analysis between ChatGPT and NCCN guidelines.",
+      "abstract": "e13610 Background: Artificial intelligence (AI)-driven tools, like ChatGPT, have become widely-available sources for online health information. Limited research has explored the congruity between AI-generated content and professional treatment guidelines. This study seeks to compare recommendations for cancer-related symptoms generated from ChatGPT with guidelines from National Comprehensive Cancer Network (NCCN), a provider focused source requiring users to log in or register to access its reco",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/9a4f780e3c45b5265c0994a368f8d6ecbd49eec8",
+      "source": "Semantic Scholar",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous spirituality AI benchmark",
+      "citations": 2,
+      "is_open_access": false,
+      "venue": "Journal of Clinical Oncology",
+      "s2_paper_id": "9a4f780e3c45b5265c0994a368f8d6ecbd49eec8",
+      "authors": [
+        "David Lazris",
+        "Yael Schenker",
+        "T. Thomas"
+      ]
+    },
+    {
+      "title": "Enhancing Translation for Indigenous Languages: Experiments with Multilingual Models",
+      "abstract": "This paper describes CIC NLP's submission to the AmericasNLP 2023 Shared Task on machine translation systems for indigenous languages of the Americas. We present the system descriptions for three methods. We used two multilingual models, namely M2M-100 and mBART50, and one bilingual (one-to-one) -- Helsinki NLP Spanish-English translation model, and experimented with different transfer learning setups. We experimented with 11 languages from America and report the setups we used as well as the results we achieved. Overall, the mBART setup was able to improve upon the baseline for three out of the eleven languages.",
+      "url": "http://arxiv.org/abs/2305.17406v1",
+      "year": "2023",
+      "source": "arXiv",
+      "tradition": "Indigenous",
+      "family": "African",
+      "query": "Indigenous spirituality AI benchmark"
+    },
+    {
+      "title": "LiveBench: A Challenging, Contamination-Limited LLM Benchmark",
+      "abstract": "Test set contamination, wherein test data from a benchmark ends up in a newer model's training set, is a well-documented obstacle for fair LLM evaluation and can quickly render benchmarks obsolete. To mitigate this, many recent benchmarks crowdsource new prompts and evaluations from human or LLM judges; however, these can introduce significant biases, and break down when scoring hard questions. In this work, we introduce a new benchmark for LLMs designed to be resistant to both test set contamin",
+      "year": "2024",
+      "url": "https://www.semanticscholar.org/paper/774d01e152003f342596031c0c0fbf1936dee41a",
+      "source": "Semantic Scholar",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "query": "religious values LLM benchmark evaluation",
+      "citations": 102,
+      "is_open_access": false,
+      "venue": "International Conference on Learning Representations",
+      "s2_paper_id": "774d01e152003f342596031c0c0fbf1936dee41a",
+      "authors": [
+        "Colin White",
+        "Samuel Dooley",
+        "Manley Roberts",
+        "Arka Pal",
+        "Ben Feuer"
+      ]
+    },
+    {
+      "title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions",
+      "abstract": "Despite the increasing usage of Large Language Models\n(LLMs) in answering in questions in a variety of domains,\ntheir reliability and accuracy remain unexamined for a\na plethora of domains, including the religious domains. In\nthis paper, we introduce a novel benchmark FiqhQA focused\non the LLM generated Islamic rulings explicitly categorized\nby the four major Sunni schools of thought, in both Arabic\nand English. Unlike prior work, which either overlooks the\ndistinctions between religious schools",
+      "year": "2025",
+      "url": "https://www.semanticscholar.org/paper/4d6606388f4e924182bfb025aa01a18401015ad0",
+      "source": "Semantic Scholar",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "query": "religious values LLM benchmark evaluation",
+      "citations": 7,
+      "is_open_access": false,
+      "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+      "s2_paper_id": "4d6606388f4e924182bfb025aa01a18401015ad0",
+      "authors": [
+        "Farah Atif",
+        "Nursultan Askarbekuly",
+        "Kareem Darwish",
+        "Monojit Choudhury"
+      ]
+    },
+    {
+      "title": "Measuring Spiritual Values and Bias of Large Language Models",
+      "abstract": "Large language models (LLMs) have become integral tool for users from various backgrounds. LLMs, trained on vast corpora, reflect the linguistic and cultural nuances embedded in their pre-training data. However, the values and perspectives inherent in this data can influence the behavior of LLMs, leading to potential biases. As a result, the use of LLMs in contexts involving spiritual or moral values necessitates careful consideration of these underlying biases. Our work starts with verification of our hypothesis by testing the spiritual values of popular LLMs. Experimental results show that LLMs' spiritual values are quite diverse, as opposed to the stereotype of atheists or secularists. We then investigate how different spiritual values affect LLMs in social-fairness scenarios e.g., hate speech identification). Our findings reveal that different spiritual values indeed lead to different sensitivity to different hate target groups. Furthermore, we propose to continue pre-training LLMs on spiritual texts, and empirical results demonstrate the effectiveness of this approach in mitigating spiritual bias.",
+      "url": "http://arxiv.org/abs/2410.11647v2",
+      "year": "2024",
+      "source": "arXiv",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "query": "spiritual values alignment benchmark LLM"
+    },
+    {
+      "title": "Spiritual-LLM : Gita Inspired Mental Health Therapy In the Era of LLMs",
+      "abstract": "Traditional mental health support systems often generate responses based solely on the user's current emotion and situations, resulting in superficial interventions that fail to address deeper emotional needs. This study introduces a novel framework by integrating spiritual wisdom from the Bhagavad Gita with advanced large language model GPT-4o to enhance emotional well-being. We present the GITes (Gita Integrated Therapy for Emotional Support) dataset, which enhances the existing ExTES mental health dataset by including 10,729 spiritually guided responses generated by GPT-4o and evaluated by domain experts. We benchmark GITes against 12 state-of-the-art LLMs, including both mental health specific and general purpose models. To evaluate spiritual relevance in generated responses beyond what conventional n-gram based metrics capture, we propose a novel Spiritual Insight metric and automate assessment via an LLM as jury framework using chain-of-thought prompting. Integrating spiritual guidance into AI driven support enhances both NLP and spiritual metrics for the best performing LLM Phi3-Mini 3.2B Instruct, achieving improvements of 122.71% in ROUGE, 126.53% in METEOR, 8.15% in BERT score, 15.92% in Spiritual Insight, 18.61% in Sufficiency and 13.22% in Relevance compared to its zero-shot counterpart. While these results reflect substantial improvements across automated empathy and spirituality metrics, further validation in real world patient populations remains a necessary step. Our findings indicate a strong potential for AI systems enriched with spiritual guidance to enhance user satisfaction and perceived support outcomes. The code and dataset will be publicly available to advance further research in this emerging area.",
+      "url": "http://arxiv.org/abs/2506.19185v1",
+      "year": "2025",
+      "source": "arXiv",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "query": "spiritual values alignment benchmark LLM"
+    },
+    {
+      "title": "Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs' Cultural Intelligence with CQ-Bench",
+      "abstract": "Cultural Intelligence (CQ) refers to the ability to understand unfamiliar cultural contexts, a crucial skill for large language models (LLMs) to effectively engage with globally diverse users. Existing studies often focus on explicitly stated cultural norms, but fail to capture the subtle, implicit values that are common in daily conversation. To address this gap, we introduce CQBench, a benchmark specifically designed to assess LLMs' capability to infer implicit cultural values from natural conversational contexts. CQBench consists of multi character conversation based stories using values from the World Value Survey and the GlobalOpinions, with topics including ethical, religious, social, etc. Our automatic dataset construction pipeline integrates rigorous validation procedures (incorporation, consistency, and implicitness checks), achieving a 94.5% human model agreement in the final validation. To leverage CQBench data, we design three tasks of increasing complexity: attitude detection, value selection, and value extraction. These tasks evaluate whether models can detect attitude and recognize values embedded within natural dialogues rather than relying on explicit cultural knowledge. We find that while frontier models like o1 reach human level performance in value selection (0.809 F1), they still fall short in nuanced attitude detection (0.622 F1). Notably, finetuning a smaller LLaMA-3.2-3B on only 500 culturally rich examples improves performance by over 10%, even outperforming o3-mini in some cases. Using CQ-Bench, we provide insights into the current challenges in LLMs' CQ research and suggest practical pathways for enhancing LLMs' cross-cultural reasoning abilities.",
+      "url": "http://arxiv.org/abs/2504.01127v2",
+      "year": "2025",
+      "source": "arXiv",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "query": "cross-cultural religious values benchmark"
+    },
+    {
+      "title": "How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion",
+      "abstract": "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT-4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India, using prompts designed to encourage diversity to varying extents. Comparing the diversity of religious and caste representation in the outputs against the actual population distribution in India as recorded in census data, we quantify the presence and \"stickiness\" of representational bias in the LLM for religion and caste. We find that GPT-4 responses consistently overrepresent culturally dominant groups far beyond their statistical representation, despite prompts intended to encourage representational diversity. Our findings also suggest that representational bias in LLMs has a winner-take-all quality that is more biased than the likely distribution bias in their training data, and repeated prompt-based nudges have limited and inconsistent efficacy in dislodging these biases. These results suggest that diversifying training data alone may not be sufficient to correct LLM bias, highlighting the need for more fundamental changes in model development. Dataset and Codebook: https://github.com/agrimaseth/How-Deep-Is-Representational-Bias-in-LLMs",
+      "url": "http://arxiv.org/abs/2508.03712v1",
+      "year": "2025",
+      "source": "arXiv",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "query": "religion bias LLM evaluation benchmark"
+    }
+  ]
+}

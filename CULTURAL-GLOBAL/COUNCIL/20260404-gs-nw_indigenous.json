@@ -1,0 +1,610 @@
+{
+  "framework": "nw_indigenous_relational",
+  "date": "20260404",
+  "detected_labels": [
+    {
+      "filename": "2020-Carroll-The CARE Principles for Indigenous Data Governance.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Foundational paper on CARE Principles for Indigenous Data Governance; core Indigenous ethical framework for data/AI"
+    },
+    {
+      "filename": "2023-Munn-The Five Tests Designing and Evaluating.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Proposes five ethical tests for AI design and evaluation engaging Indigenous relational perspectives"
+    },
+    {
+      "filename": "2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Directly addresses Maori algorithmic sovereignty principles including tikanga and data sovereignty for AI"
+    },
+    {
+      "filename": "2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Maori data sovereignty applied to AI/LLM development; deeply engages tikanga and Maori-appropriate pathways"
+    },
+    {
+      "filename": "2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.md",
+      "score": 100,
+      "label": "N",
+      "reason": "Focus on NLP technology for endangered Indigenous languages; no substantive engagement with Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Decolonial AI alignment framework that explicitly includes excluded Indigenous knowledges; addresses epistemic justice"
+    },
+    {
+      "filename": "2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Indigenous-led research program reimagining AI through Indigenous knowledge systems; uses relational ontology as analytical framework"
+    },
+    {
+      "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "African data ethics framework for decolonial AI; engages Indigenous African epistemologies and data sovereignty"
+    },
+    {
+      "filename": "2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Systematic review on Indigenous peoples and AI; addresses Indigenous data sovereignty, relational ethics, and self-determination"
+    },
+    {
+      "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Examines Andean Indigenous ethics of reciprocity (ayni, minka, sumak kawsay) as framework for challenging AI's epistemological assumptions"
+    },
+    {
+      "filename": "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Systematic review on GenAI and Indigenous Knowledge Systems in Global South; addresses epistemic justice, data governance, decolonial frameworks"
+    },
+    {
+      "filename": "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Directly applies Indigenous epistemologies to counteract cognitive imperialism in AI; substantive engagement with Indigenous knowledge systems"
+    },
+    {
+      "filename": "2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Applies Indigenous data sovereignty principles as ethical framework for AI in business contexts"
+    },
+    {
+      "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Integrates Maori Kaitiakitanga and Navajo Hozho principles into concrete AI governance framework"
+    },
+    {
+      "filename": "2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md",
+      "score": 100,
+      "label": "N",
+      "reason": "Survey on power dynamics in African NLP; focuses on data colonialism but NLP technical focus, not Indigenous ethical frameworks as analytical lens"
+    },
+    {
+      "filename": "2018-Walter-Artificial Intelligence and Indigenous Data Sovereignty.md",
+      "score": 95,
+      "label": "Y",
+      "reason": "Foundational work on AI and Indigenous data sovereignty by Walter and Kukutai; core Indigenous relational ethics applied to AI"
+    },
+    {
+      "filename": "2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+      "score": 95,
+      "label": "N",
+      "reason": "Workshop paper on decolonizing African NLP; focuses on technical NLP issues and power dynamics, not Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.md",
+      "score": 95,
+      "label": "Y",
+      "reason": "Cultural Survival publication on Indigenous peoples defending rights in AI; addresses Indigenous self-determination and data sovereignty"
+    },
+    {
+      "filename": "2025-Russ-Smith-AI and Indigenous Data Sovereignty Knowing Engaging and Learning in.md",
+      "score": 90,
+      "label": "Y",
+      "reason": "Directly addresses AI and Indigenous data sovereignty; engages with relational knowing and Indigenous epistemologies"
+    },
+    {
+      "filename": "2024-Grezes-\u201cIt\u2019s how you do things that matters\u201d Attending to Process to Better.md",
+      "score": 75,
+      "label": "Y",
+      "reason": "Addresses process-centered approach to serving Indigenous communities with language technologies; engages community-led ethics"
+    },
+    {
+      "filename": "2025-Khan-Two-Eyed Seeing and Artificial Intelligence Enhancing Healthcare.md",
+      "score": 75,
+      "label": "Y",
+      "reason": "Applies Two-Eyed Seeing (Etuaptmumk) as ethical framework for AI in Indigenous healthcare; core Indigenous relational concept"
+    },
+    {
+      "filename": "2024-Crepelle-Tribes and AI Possibilities for Tribal Sovereignty.md",
+      "score": 70,
+      "label": "Y",
+      "reason": "Examines AI through lens of tribal sovereignty; engages Indigenous self-governance and data sovereignty for Native American tribes"
+    },
+    {
+      "filename": "2021-Carroll-Operationalizing the CARE and FAIR Principles for Indigenous Data.md",
+      "score": 65,
+      "label": "Y",
+      "reason": "Operationalizes CARE Principles for Indigenous data futures; directly applies Indigenous relational ethics to data governance"
+    },
+    {
+      "filename": "2022-Trye-Harnessing Indigenous Tweets.md",
+      "score": 65,
+      "label": "N",
+      "reason": "Corpus building from Maori-language tweets; NLP technical work without substantive engagement with Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+      "score": 65,
+      "label": "N",
+      "reason": "AI regulation framework; mentions Buen Vivir and Ubuntu in passing as examples of non-Western ethics but does not use them as analytical framework"
+    },
+    {
+      "filename": "2025-Unknown-New report and guidelines for indigenous data sovereignty in.md",
+      "score": 65,
+      "label": "Y",
+      "reason": "Report on guidelines for Indigenous data sovereignty in AI; directly addresses Indigenous governance of AI development"
+    },
+    {
+      "filename": "2025-Yilma-Ethics of AI in Africa.md",
+      "score": 60,
+      "label": "N",
+      "reason": "Discusses Ubuntu and African AI ethics but framed as general African philosophy; not specifically Indigenous relational ethics as analytical framework for AI"
+    },
+    {
+      "filename": "2022-Tapu-A New Age Indigenous Instrument Artificial Intelligence & Its.md",
+      "score": 55,
+      "label": "Y",
+      "reason": "Examines AI as Indigenous instrument for decolonized data; engages Pacific Islander Indigenous perspectives on technology and colonialism"
+    },
+    {
+      "filename": "2025-Khurana-Decolonizing Artificial Intelligence Indigenous Knowledge Systems.md",
+      "score": 55,
+      "label": "Y",
+      "reason": "Directly addresses decolonizing AI through Indigenous knowledge systems and epistemic pluralism; substantive engagement with Indigenous ethics"
+    },
+    {
+      "filename": "2019-Bourgeois-Doyle-Two-Eyed AI A Reflection on Artificial Intelligence.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "UNESCO report applying Two-Eyed Seeing (Mi'kmaq concept) as framework for AI; core Indigenous relational perspective"
+    },
+    {
+      "filename": "2022-Network-How can NLP Help Revitalize Endangered Languages.md",
+      "score": 50,
+      "label": "N",
+      "reason": "NLP for endangered language revitalization; technical focus without substantive Indigenous ethical framework engagement"
+    },
+    {
+      "filename": "2023-Catapang-EMoTES-3K.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Filipino/English morality dataset; commonsense morality in Tagalog, no Indigenous relational ethics engagement"
+    },
+    {
+      "filename": "2024-Arif-Generalists vs Specialists Evaluating Large Language.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Urdu NLP evaluation benchmark; no engagement with Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2024-Lewis-Abundant Intelligences Placing AI within Indigenous Knowledge.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "Identical research program to Yolgoermez 2024; Indigenous-led AI reimagining through Indigenous knowledge systems and relational ontology"
+    },
+    {
+      "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "Proposes holistic Ubuntu AI ethics from African theological ethics; engages Indigenous African relational philosophy applied to AI"
+    },
+    {
+      "filename": "2024-Ungless-ETHICS WHITEPAPER.md",
+      "score": 50,
+      "label": "N",
+      "reason": "General LLM ethics whitepaper; broad ethical considerations without specific Indigenous relational ethics engagement"
+    },
+    {
+      "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Evaluates Indian LLMs on cultural alignment using surveys; no Indigenous relational ethics framework"
+    },
+    {
+      "filename": "2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Ethnographic framework for AI in African contexts; decolonial framing but focuses on NLP methods, not Indigenous ethical frameworks as analytical lens"
+    },
+    {
+      "filename": "2025-Koc-Generative AI and Large Language Models in Language Preservation.md",
+      "score": 50,
+      "label": "N",
+      "reason": "GenAI for language preservation; discusses cultural misappropriation risks but technical NLP focus, not Indigenous ethical framework"
+    },
+    {
+      "filename": "2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Technical NLP paper on Maori-English code-switching detection; no engagement with Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.md",
+      "score": 50,
+      "label": "N",
+      "reason": "NLP workshop proceedings for Indigenous languages of Americas; technical NLP focus, not Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Evaluates cultural expressiveness in LLMs for Latin America; mentions Indigenous languages but no Indigenous relational ethics framework"
+    },
+    {
+      "filename": "2025-Ogunremi-1 Decolonizing NLP for \"Low-resource Languages\".md",
+      "score": 50,
+      "label": "N",
+      "reason": "Decolonizing NLP methodology paper; focuses on technical NLP approaches, not Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2025-Perera-Indigenous Peoples and Artificial Intelligence A Systematic Review.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "Systematic review on Indigenous peoples and AI covering data sovereignty, self-determination, and Indigenous-led approaches"
+    },
+    {
+      "filename": "2025-Soria-Decolonizing Minority Language Technology - State of the Internet's.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Report on minority language technology; decolonial framing but focuses on digital language support, not Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2025-Halmai-Common Rule Revisions to Govern Machine Learning on Indigenous Data.md",
+      "score": 45,
+      "label": "Y",
+      "reason": "Proposes governance revisions for ML on Indigenous data implementing CARE Principles; directly engages Indigenous data sovereignty ethics"
+    },
+    {
+      "filename": "2025-Jiang-Preserving the Past AI in Indigenous Language Preservation - Viterbi.md",
+      "score": 35,
+      "label": "N",
+      "reason": "Brief web summary on AI for Indigenous language preservation; no substantive analysis or engagement with Indigenous ethical frameworks"
+    },
+    {
+      "filename": "2025-Blayone-Using Digital Technologies for Indigenous Sociocultural Advancement.md",
+      "score": 35,
+      "label": "Y",
+      "reason": "Systematic synthesis on digital technologies for Indigenous sociocultural advancement; identifies ideopolitical frames including countering Euro-Western dominance and Indigenous data control"
+    }
+  ],
+  "non_detected_labels": [
+    {
+      "filename": "2020-Ema-Artificial Intelligence and Indigenous Perspectives Protecting and.md",
+      "score": 15,
+      "label": "Y",
+      "reason": "Proposes relational shift toward AI using Indigenous epistemologies; engages strongly relational Indigenous perspectives on non-human entities"
+    },
+    {
+      "filename": "2025-Raza-HumaniBench.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Persona-based bias auditing benchmark; no Indigenous content"
+    },
+    {
+      "filename": "2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Survey on MFT and language models; no Indigenous content"
+    },
+    {
+      "filename": "2025-Sel-Backtracking for Safety.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM safety alignment technique; no Indigenous content"
+    },
+    {
+      "filename": "2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indian hate speech dataset; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md",
+      "score": 0,
+      "label": "N",
+      "reason": "South Asian hate speech shared task; no Indigenous content"
+    },
+    {
+      "filename": "2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Red teaming LLMs for safety; no Indigenous content"
+    },
+    {
+      "filename": "2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Kannada abusive speech detection model; no Indigenous content"
+    },
+    {
+      "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cultural alignment evaluation critique; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indonesian hate speech dataset; no Indigenous content"
+    },
+    {
+      "filename": "2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Kazakh language LLM evaluation; no Indigenous content"
+    },
+    {
+      "filename": "2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual safety alignment; no Indigenous content"
+    },
+    {
+      "filename": "2024-Segev-Artificial Intelligence, Discrimination, Fairness.md",
+      "score": 0,
+      "label": "N",
+      "reason": "AI discrimination and fairness; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2024-Ye-Measuring Human and AI Values Based on Generative.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Value measurement for LLMs; no Indigenous content"
+    },
+    {
+      "filename": "2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cultural understanding evaluation framework; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Code-switching evaluation; no Indigenous content"
+    },
+    {
+      "filename": "2021-Askell-A General Language Assistant as a Laboratory for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Anthropic alignment research; no Indigenous content"
+    },
+    {
+      "filename": "2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Baltic/Nordic LLM evaluation; no Indigenous content"
+    },
+    {
+      "filename": "2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.md",
+      "score": 0,
+      "label": "N",
+      "reason": "African language sentiment analysis; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cross-lingual hate speech detection; no Indigenous content"
+    },
+    {
+      "filename": "2022-Hu-\"I'm sorry to hear that\".md",
+      "score": 0,
+      "label": "N",
+      "reason": "Empathetic dialogue systems; no Indigenous content"
+    },
+    {
+      "filename": "2021-Emelin-Moral Stories.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Commonsense moral reasoning dataset; no Indigenous content"
+    },
+    {
+      "filename": "2024-Rozado-The Political Preferences of LLMs.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Political bias in LLMs; no Indigenous content"
+    },
+    {
+      "filename": "2025-Mitchell-SHADES.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Bias/safety benchmark; no Indigenous content"
+    },
+    {
+      "filename": "2024-Li-Value-Spectrum.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Value alignment spectrum analysis; no Indigenous content"
+    },
+    {
+      "filename": "2025-Sameer-Insights into Moral Reasoning of AI.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Moral reasoning in AI; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Russian cultural benchmark for image generation; no Indigenous content"
+    },
+    {
+      "filename": "2022-Ngo-The Alignment Problem from a Deep Learning.md",
+      "score": 0,
+      "label": "N",
+      "reason": "AI alignment from deep learning perspective; no Indigenous content"
+    },
+    {
+      "filename": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Computational moral preferences stability; no Indigenous content"
+    },
+    {
+      "filename": "2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese fake news dataset; no Indigenous content"
+    },
+    {
+      "filename": "2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual local knowledge benchmark; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2024-Velankar-SamPar A Marathi Hate Speech Dataset.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Marathi hate speech dataset; no Indigenous content"
+    },
+    {
+      "filename": "2023-Canada-Bias Considerations in Bilingual Natural Language Processing.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Bilingual NLP bias; no Indigenous relational ethics"
+    },
+    {
+      "filename": "2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean language benchmark; no Indigenous content"
+    },
+    {
+      "filename": "2023-Liu-AgentBench.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM agent evaluation benchmark; no Indigenous content"
+    },
+    {
+      "filename": "2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Gender-fair text generation; no Indigenous content"
+    },
+    {
+      "filename": "2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multi-agent LLM evaluation; no Indigenous content"
+    },
+    {
+      "filename": "2024-Bonagiri-SaGE.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Social alignment benchmark; no Indigenous content"
+    },
+    {
+      "filename": "2025-Wu-COIG-P.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese instruction-following dataset; no Indigenous content"
+    },
+    {
+      "filename": "2025-funded-Analysis of Indic Language Capabilities in.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indic language capabilities analysis; no Indigenous content"
+    },
+    {
+      "filename": "2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "German toxic comment detection shared task; no Indigenous content"
+    },
+    {
+      "filename": "2024-Tu-CharacterEval.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Character role-playing evaluation; no Indigenous content"
+    },
+    {
+      "filename": "2025-Sermsri-Debiasing Large Language Models in Thai.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Thai LLM debiasing; no Indigenous content"
+    },
+    {
+      "filename": "2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual sentiment analysis; no Indigenous content"
+    },
+    {
+      "filename": "2025-Chared-AI-driven detection of hate speech on social media a case study in.md",
+      "score": 0,
+      "label": "N",
+      "reason": "French hate speech detection; no Indigenous content"
+    },
+    {
+      "filename": "2022-Hendrycks-X-Risk Analysis for AI Research.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Existential risk from AI; no Indigenous content"
+    },
+    {
+      "filename": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Islamophobia hate speech detection; no Indigenous content"
+    },
+    {
+      "filename": "2025-Jin-MedEthicEval.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Medical ethics evaluation benchmark; no Indigenous content"
+    },
+    {
+      "filename": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Brazilian Portuguese hate speech detection; no Indigenous content"
+    },
+    {
+      "filename": "2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ....md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual bias evaluation challenges; no Indigenous content"
+    }
+  ],
+  "summary": {
+    "detected_total": 48,
+    "detected_Y": 28,
+    "detected_N": 20,
+    "detected_U": 0,
+    "non_detected_total": 50,
+    "non_detected_Y": 1,
+    "non_detected_N": 49,
+    "non_detected_U": 0,
+    "precision": 0.583,
+    "recall_estimate": 0.966,
+    "f1": 0.727,
+    "notes": "Precision = 28/48 = 0.583. Recall estimated from non-detected: 1 FN found in 50 sampled non-detected (Ema 2020, score 15). Estimated total FN = 1/50 * (2315-48) = ~45.3. Recall = 28/(28+1) = 0.966 from sample. Many detected false positives are NLP/language technology papers that mention 'indigenous' languages but lack ethical framework engagement."
+  }
+}

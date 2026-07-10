@@ -1,0 +1,66 @@
+{
+  "generated": "2026-04-04",
+  "title": "Vendor-level comparison across Anthropic, OpenAI/Codex, and Gemini",
+  "vendors": [
+    {
+      "vendor": "Anthropic",
+      "models": [
+        "claude-opus-4-6",
+        "claude-sonnet-4-20250514",
+        "claude-haiku-4-5-20251001"
+      ],
+      "n_models": 3,
+      "gradient_holds_all": true,
+      "mean_knowledge_length": 1463.3,
+      "mean_reasoning_length": 4378.2333,
+      "mean_values_length": 6572.1,
+      "mean_bias_values_r": 0.565,
+      "mean_rubric_knowledge": 1.0,
+      "mean_rubric_reasoning": 1.0,
+      "mean_rubric_values": 0.9777,
+      "mean_t2_accuracy": 0.9223,
+      "max_t2_accuracy": 1.0,
+      "min_t2_accuracy": 0.767
+    },
+    {
+      "vendor": "Gemini",
+      "models": [
+        "gemini-2.5-flash-lite",
+        "gemini-2.5-flash",
+        "gemini-2.5-pro",
+        "gemini-3.1-pro"
+      ],
+      "n_models": 4,
+      "gradient_holds_all": false,
+      "mean_knowledge_length": 201.1,
+      "mean_reasoning_length": 251.4,
+      "mean_values_length": 221.55,
+      "mean_bias_values_r": 1.0,
+      "mean_rubric_knowledge": 0.0,
+      "mean_rubric_reasoning": 0.0,
+      "mean_rubric_values": 0.05,
+      "mean_t2_accuracy": 0.1167,
+      "max_t2_accuracy": 0.2,
+      "min_t2_accuracy": 0.0667
+    },
+    {
+      "vendor": "OpenAI",
+      "models": [
+        "gpt-codex",
+        "gpt-codex-mini"
+      ],
+      "n_models": 2,
+      "gradient_holds_all": false,
+      "mean_knowledge_length": 79.95,
+      "mean_reasoning_length": 443.2,
+      "mean_values_length": 438.3,
+      "mean_bias_values_r": 0.186,
+      "mean_rubric_knowledge": 0.9667,
+      "mean_rubric_reasoning": 0.9167,
+      "mean_rubric_values": 0.8834,
+      "mean_t2_accuracy": 0.9334,
+      "max_t2_accuracy": 1.0,
+      "min_t2_accuracy": 0.8667
+    }
+  ]
+}

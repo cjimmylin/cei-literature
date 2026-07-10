@@ -1,0 +1,1066 @@
+[
+  {
+    "file": "2025-Unknown-AI in Islamic Finance A Maqasid.md",
+    "short_title": "AI in Islamic Finance: A Maqasid Al-Shariah Perspective",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: applies Maqasid al-Shariah framework (5 objectives) to AI ethics in finance, but does not use a validated psychometric instrument for the framework; partial theoretical grounding"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "Not a benchmark; no moral dilemmas or scenarios presented for evaluation. Conceptual/normative paper on AI alignment with Islamic finance objectives"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No response format instrument; paper proposes an alignment framework, not a measurement tool"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; conceptual paper with no empirical study"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Minimal construct validity evidence; face validity only for Maqasid framework. No convergent, discriminant, or structural validity reported"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Not a benchmark with structured items; open/generative analysis of AI alignment with Islamic principles"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data repository; data_url=none, no code or dataset shared"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No evaluation pipeline; purely theoretical paper"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Proprietary/conceptual framework; no harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "No automated scoring possible; would require human evaluation of alignment judgments"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Major paradigm change required to administer to LLMs; paper proposes principles not a test"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 paper, likely <5 citations; ResearchGate preprint with no citation count available"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "2025 paper; citation velocity cannot be computed; estimated <2/yr given recency and venue"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Artificial Intelligence in Fatwa and Islamic.md",
+    "short_title": "Artificial Intelligence in Fatwa and Islamic Law: Prospects, Regulations, and Ethics",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: applies Islamic jurisprudence frameworks to AI regulation and ethics, but no validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "Not a benchmark; no moral scenarios presented. Regulatory/descriptive analysis of AI in fatwa contexts"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; conceptual regulatory paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data reported"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Minimal validity evidence; face validity only via Islamic jurisprudence literature"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; open discursive analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No dataset or repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No evaluation pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility; requires human expert evaluation"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required for regulatory/fatwa alignment judgments"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required for LLM administration"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 paper in regional Islamic studies journal; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent for reliable velocity estimate; likely <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Ethical challenges for using AI in.md",
+    "short_title": "Ethical challenges for using AI in understanding Islamic jurisprudence",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Islamic jurisprudence (usul al-fiqh) as ethical framework applied to AI; not a validated instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; ethical challenge enumeration paper, not a benchmark"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; no formal validation evidence"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; open discursive format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Major paradigm change required for LLM use"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 preprint via ResearchGate; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity estimate <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Ethics of AI in Maqasid Al-Sharias.md",
+    "short_title": "Ethics of AI in Maqasid Al-Sharia's Perspective",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Maqasid al-Shariah (5 objectives) applied to AI ethics; partial theoretical coverage without psychometric validation"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "Conceptual paper; no scenarios or dilemmas"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No response format instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only via Maqasid framework literature"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; discursive analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No evaluation pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 paper in Indonesian Islamic studies journal; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity estimate <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-The Transformation of Ijtihad and Fatwa.md",
+    "short_title": "The Transformation of Ijtihad and Fatwa in the Era of AI",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: ijtihad epistemology framework applied to AI era; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios or dilemmas; epistemological analysis paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No response format instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; theoretical epistemological argument"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; discursive"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 paper in specialized Islamic studies journal; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity estimate <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-The role of AI in enhancing.md",
+    "short_title": "The role of AI in enhancing shariah compliance: Efficiency and transparency in Islamic finance",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: shariah compliance framework (fiqh al-mu'amalat) applied to AI in finance; not psychometrically validated"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios or dilemmas; applied finance paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No response format instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ResearchGate preprint; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity estimate <2/yr"}
+    }
+  },
+  {
+    "file": "2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md",
+    "short_title": "Arabic LLMs for Banking, Telecom and Government in GCC - 2026",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Maliki Fiqh compliance framework for GPT-4o/ALLaM benchmark; 550 curated questions but no validated psychometric instrument for Islamic jurisprudence dimensions"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Single-domain forced-choice QA benchmark with 550 questions across 3 Maliki Fiqh domains; question format without rich scenario narrative"},
+      "A4": {"score": 0, "confidence": "medium", "evidence": "No validated psychometric source instrument; ad hoc curated QA set for Maliki Fiqh"},
+      "A5": {"score": 0, "confidence": "medium", "evidence": "No human baseline data reported; LLM-only evaluation"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only via Islamic jurisprudence experts; no formal convergent/discriminant validation reported in blog post"},
+      "B1": {"score": 100, "confidence": "medium", "evidence": "MCQ/binary-choice format with 550 curated questions; suitable for LLM evaluation"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No public repository; web report only, data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No evaluation pipeline code shared"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom implementation required; MCQ format adaptable but no harness integration"},
+      "B7": {"score": 100, "confidence": "medium", "evidence": "Exact match scoring on MCQ answers"},
+      "B10": {"score": 70, "confidence": "medium", "evidence": "Minor prompt adaptation needed to frame Maliki Fiqh questions for LLM; items are already question-answer format"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2026 web report; effectively 0 citations in academic literature"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "No academic citation velocity; web report format"}
+    }
+  },
+  {
+    "file": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+    "short_title": "Harmonizing Artificial Intelligence for Social Good",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: draws on Confucian harmony (Wa, Takt) as ethical principle for AI; not a validated psychometric instrument but grounded in East Asian philosophical tradition"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios or dilemmas; conceptual paper proposing harmony as an AI ethics principle"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No response format instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; philosophical argumentation without formal validity testing"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; discursive philosophical paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "Springer Philosophy & Technology 2020; DOI available; estimated ~100 citations based on venue and age (5 years)"},
+      "C2": {"score": 50, "confidence": "medium", "evidence": "2020 paper; estimated ~20 citations/yr for well-cited philosophy journal article"}
+    }
+  },
+  {
+    "file": "2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
+    "short_title": "Can AI Lead to Genuine Virtue Confucian",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucian virtue ethics (ren, li, yi) applied to AI; philosophical chapter not a psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Book chapter discussing AI ethical dilemmas from Confucian perspective; mostly conceptual, single-topic framing without structured scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; philosophical analysis"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; 810 accesses and 1 citation in extract suggests limited validation evidence"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; open philosophical analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2021 Springer book chapter; extract shows 1 citation; estimated ~20 total given niche topic"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2021 chapter; estimated ~5/yr citation velocity for book chapter in AI ethics"}
+    }
+  },
+  {
+    "file": "2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community.md",
+    "short_title": "Emotional AI, Ethics, and Japanese Spice: Contributing Community, Wholeness, Sincerity, and Heart",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Japanese philosophical traditions (Fukuzawa, Nishida, Watsuji), Shinto animism, Confucian Wa as AI ethics framework; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; cultural philosophy paper distilling ethical spices for AI"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via philosophical literature; no formal validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "Springer Philosophy & Technology 2021; DOI available; estimated ~80-120 citations for active journal over 4 years"},
+      "C2": {"score": 50, "confidence": "medium", "evidence": "2021 paper; estimated ~20-25/yr in active AI ethics journal"}
+    }
+  },
+  {
+    "file": "2022-Unknown-Confucius cyberpunk and Mr Science comparing.md",
+    "short_title": "Confucius, cyberpunk and Mr. Science: comparing AI ethics principles between China and the EU",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucian ethics as lens for China-EU AI ethics comparison; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; comparative policy analysis paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via policy comparison methodology; no formal psychometric validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; comparative discursive analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; PubMed/PMC hosting but no data deposit"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "PMC-indexed 2022 paper; comparative AI ethics is high-visibility topic; estimated ~100+ citations"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2022 paper; estimated ~25-30/yr for PMC AI ethics paper"}
+    }
+  },
+  {
+    "file": "2023-Oxford-How Chinese Philosophy Impacts AI Narratives.md",
+    "short_title": "How Chinese Philosophy Impacts AI Narratives and Imagined AI Futures",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucian/Daoist/Buddhist philosophy as frame for AI narrative analysis; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; narrative/discourse analysis chapter"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Chinese philosophy literature; no formal validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; discursive narrative analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 50, "confidence": "low", "evidence": "2023 Oxford University Press book chapter; estimated ~20-50 citations"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2023 chapter; estimated ~10-20/yr for OUP AI ethics anthology"}
+    }
+  },
+  {
+    "file": "2024-HK-Confucian Philosophy Revitalized in the Digital.md",
+    "short_title": "Confucian Philosophy Revitalized in the Digital Era: Maintaining Interpersonal Ethics with AI",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucian interpersonal ethics (ren, li) applied to AI era challenges; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; philosophical argument paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Confucian ethics literature"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 publication from City University of Hong Kong; recent, estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2024 paper; estimated ~5/yr given recency"}
+    }
+  },
+  {
+    "file": "2024-Muyskens-Can an AI-carebot be filial.md",
+    "short_title": "Can an AI-carebot be filial",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Confucian virtue ethics (xiao, ren) applied to AI carebot analysis; abstract explicitly names virtue-based framework but no validated psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Discusses eldercare ethical scenarios through Confucian lens; single-issue framing, not multi-scenario benchmark"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; philosophical case analysis"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Confucian virtue ethics literature; SAGE journal publication adds credibility but no formal validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; case analysis format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 SAGE Nursing Ethics journal; recent; estimated ~10-20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2024 paper; estimated ~5/yr"}
+    }
+  },
+  {
+    "file": "2024-So-AI Trained on Confucian Analects.md",
+    "short_title": "AI Trained on Confucian Analects",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucian Analects as foundational ethical training data for AI; proposes practical application but no validated psychometric instrument for measuring Confucian values"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Discusses AI ethical dilemma resolution using Confucian principles with psychology examples; conceptual framing rather than structured scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; theoretical proposal paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; proposal stage"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Confucian texts; PhilArchive preprint without peer review or formal validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; theoretical paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2024 PhilArchive preprint; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Preprint with low velocity; <2/yr estimated"}
+    }
+  },
+  {
+    "file": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+    "short_title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: same as 2024-So above; Confucian Analects as ethical framework for AI. Appears to be a duplicate entry with different publication status"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Discusses ethical dilemma resolution but from conceptual Confucian lens; no structured benchmark scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; unknown publication venue"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "Unknown publication, no citation data available"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Unknown venue; velocity cannot be estimated"}
+    }
+  },
+  {
+    "file": "2024-Unknown-Confucian Role Ethics and Artificial Intelligence.md",
+    "short_title": "Confucian Role Ethics and Artificial Intelligence",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucian role ethics (ren, yi, xiao) applied to AI analysis; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; philosophical analysis of role-based AI ethics"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Confucian role ethics literature; Academia.edu preprint with limited review"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; discursive analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2024 Academia.edu preprint; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Preprint; velocity estimate <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Elder-The Ethics of Digital Ghosts.md",
+    "short_title": "The Ethics of Digital Ghosts",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Confucian virtue ethics (ren, li, yi) + Mohism + Zhuangism applied to digital AI ethics; multi-tradition coverage without validated psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Book explores ethical scenarios around digital ghosts and AI caregiving from Chinese philosophical traditions; narrative case analysis, not structured benchmark scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; philosophical book"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Multiple philosophical traditions engaged with some cross-validation between traditions; Taylor & Francis monograph suggests peer review; partial content validity"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; book-length philosophical analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; book format, data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 Taylor & Francis monograph; DOI available; very recent, likely <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 book; velocity estimate ~5/yr if well-received"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Social and Ethical Considerations of AI.md",
+    "short_title": "Social and Ethical Considerations of AI in East Asia and Beyond",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucianist, Daoist, Christian reflections applied to AI ethics in East Asia; multiple traditions covered but no validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; edited volume with philosophical reflections"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via East Asian philosophy literature; Springer volume implies peer review"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 Springer volume; very recent; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "2025 publication; velocity too early to estimate; <2/yr"}
+    }
+  },
+  {
+    "file": "2026-Unknown-Natural intelligence not artificial a Confucian.md",
+    "short_title": "Natural intelligence, not artificial: a Confucian reframing of generative AI in higher education",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Confucian philosophy reframes generative AI for education; not a psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; conceptual reframing paper for higher education"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; 2026 Tandfonline preprint/early access"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2026 paper; essentially 0 citations yet"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "2026 paper; too recent for velocity estimate"}
+    }
+  },
+  {
+    "file": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+    "short_title": "The role of the African value of Ubuntu in global",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Ubuntu as normative framework for AI inclusion in SSA; draws on Ubuntu philosophical literature but no validated psychometric instrument for Ubuntu values"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; normative argument paper on AI ethics and inclusion. Extract confirms policy/governance focus"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; theoretical paper"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Multi-author paper with cross-institutional validation (Utrecht, UCL, Holistic AI); Patterns (Cell Press) peer review; partial content validity via Ubuntu literature review. No formal psychometric validity"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; normative argumentative paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No evaluation pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "2022 Cell Press Patterns; high-impact open-access journal; DOI available; estimated ~100 citations over 3 years"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2022 paper; estimated ~30-35/yr for Cell Press AI ethics paper"}
+    }
+  },
+  {
+    "file": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+    "short_title": "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Ubuntu/African philosophy as normative framework for AI inclusion; not a validated psychometric instrument. Note: PDF extract content appears mismatched (social exclusion paper from 2011), suggesting file mismatch"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; normative inclusion argument paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "low", "evidence": "Cannot assess fully due to PDF mismatch; face validity inferred from title and PMC indexing"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 50, "confidence": "low", "evidence": "PMC-indexed 2022 paper; Ubuntu AI ethics is emerging area; estimated ~20-50 citations"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2022 paper; estimated ~10-15/yr for PMC AI ethics paper"}
+    }
+  },
+  {
+    "file": "2022-Norren-The ethics of artificial intelligence UNESCO.md",
+    "short_title": "The ethics of artificial intelligence, UNESCO and the African Ubuntu perspective",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Ubuntu philosophy applied to UNESCO AI ethics framework; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; UNESCO policy analysis from Ubuntu perspective"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; PhilPapers indexing but no formal validation evidence"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2022 paper; PhilPapers indexed; estimated ~10-20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2022 paper; estimated ~5/yr in African philosophy of technology niche"}
+    }
+  },
+  {
+    "file": "2024-Harvard-Artificial Intelligence Journalism and the Ubuntu.md",
+    "short_title": "Artificial Intelligence, Journalism, and the Ubuntu Robot in Sub-Saharan Africa",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Ubuntu philosophy applied to AI journalism normative framework; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; normative framework paper for AI journalism"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Ubuntu journalism literature; Harvard working paper format"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 Harvard working paper; estimated ~10-20 citations given prestigious affiliation"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2024 paper; estimated ~5-10/yr for working paper"}
+    }
+  },
+  {
+    "file": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+    "short_title": "A holistic ubuntu artificial intelligence ethics",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Ubuntu ethics (African theological ethics + philosophy of technology) for AI; three-concern structure (humanity, spirituality, environment) but no validated psychometric instrument. Extract confirms interdisciplinary African theology approach"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; theological ethics analysis paper with practical recommendations"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; theoretical-theological paper"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Face validity via Ubuntu literature; Verbum et Ecclesia peer review; 5 citations in 2024 suggests minimal external validation. No convergent or discriminant validity evidence"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; normative argument paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "high", "evidence": "2024 paper; PDF extract shows CITATIONS: 5 — approximately 5-10 total citations"},
+      "C2": {"score": 30, "confidence": "high", "evidence": "2024 paper with 5 citations; ~5/yr estimated for niche African theology journal"}
+    }
+  },
+  {
+    "file": "2024-Odero-The Ubuntu Way.md",
+    "short_title": "The Ubuntu Way",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Keyword-only: title suggests Ubuntu but PDF extract content is entirely about Public Financial Management and health system efficiency — file mismatch or wrong paper. Cannot assess Ubuntu content reliably"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No moral scenarios; if correctly identified as Ubuntu AI paper, would still be 0 (no scenarios)"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human moral baseline data"},
+      "A6": {"score": 10, "confidence": "low", "evidence": "Cannot assess; PDF content mismatch suggests Wellcome Open Research scoping review on PFM/health systems, not Ubuntu AI ethics"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured moral items; scoping review methodology if correctly identified"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "Cannot assess reliably due to PDF mismatch; 2024 Wellcome Open Research paper on PFM has limited AI ethics relevance"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Cannot assess reliably; recent paper, velocity unknown"}
+    }
+  },
+  {
+    "file": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+    "short_title": "The interconnectedness between Ubuntu principles",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Ubuntu principles (communal well-being, interconnectedness) applied to generative AI in distance education; not a validated psychometric instrument. Extract confirms full Ubuntu-GenAI integration framework"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; conceptual framework paper for higher education"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; conceptual article"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Face validity only; Discover Education (Springer) peer-reviewed 2024; no formal psychometric validation beyond theoretical grounding"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 Discover Education paper; recent; estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2024 paper; estimated ~5/yr"}
+    }
+  },
+  {
+    "file": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+    "short_title": "Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Ubuntu values as normative framework for African AI policy; analyzes current AI policies against Ubuntu principles. Extract confirms detailed policy-Ubuntu alignment analysis. Not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; policy analysis paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Springer AI and Ethics (2025) peer review; systematic policy analysis with some content validity via Ubuntu literature. No formal psychometric validation; DOI confirms publication"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; policy analysis format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 Springer AI and Ethics; very recent; estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 paper; estimated ~5-10/yr for Springer AI ethics"}
+    }
+  },
+  {
+    "file": "2025-Unknown-AI Ethics Meets Ubuntu Towards A.md",
+    "short_title": "AI Ethics Meets Ubuntu: Towards A Context-Aware Governance Model For Sustainable Innovation In Africa",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Ubuntu philosophy combined with AI ethics governance; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; governance model paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; ResearchGate preprint with limited peer review evidence"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ResearchGate preprint; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Digital platform sovereignty through Ubuntu Re-imagining.md",
+    "short_title": "Digital platform sovereignty through Ubuntu: Re-imagining AI-enabled work future in Africa",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Ubuntu-aligned governance mechanisms for AI platform work in Africa; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; governance/labor framework paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity only; Springer Electronic Markets (link visible) suggests peer review but no formal psychometric validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 Springer paper; very recent; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "2025 paper; too recent for velocity; <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Yilma-Ethics of AI in Africa.md",
+    "short_title": "Ethics of AI in Africa",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Ubuntu and African AI governance frameworks analyzed as normative ethics tools; explicitly critiques Ubuntu's normative coherence. Not a validated psychometric instrument. Extract confirms rigorous philosophical analysis"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; critical philosophical analysis of Ubuntu and AI governance"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Ethics and Information Technology (Springer) peer-reviewed 2025; DOI available; systematically examines Ubuntu's coherence as normative framework. Partial content validity via governance analysis. No formal psychometric validity"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; critical analysis format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 Ethics and Information Technology; very recent but established journal; estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 paper; estimated ~5-10/yr"}
+    }
+  },
+  {
+    "file": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+    "short_title": "An Ubuntu-Guided Large Language Model Framework",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Ubuntu principles (communal well-being, spiritual grounding, interconnectedness) operationalized in CBT-AI framework; deep/surface cultural adaptation but no validated psychometric instrument for Ubuntu values. Extract confirms full DSR methodology"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Includes CBT case scenarios adapted through Ubuntu principles with UniEval conversational quality assessment; scenarios are therapeutic dialogues, not structured moral dilemmas"},
+      "A4": {"score": 0, "confidence": "medium", "evidence": "UniEval used for conversation quality, not psychometric moral measurement; no validated psychological instrument for Ubuntu moral dimensions"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Expert-informed case studies used for evaluation; partial human baseline via expert panel but not population norms for Ubuntu moral values"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "arXiv 2026; empirical evaluation via UniEval + CBT reliability + cultural-linguistic alignment measures; partial validity evidence (convergent via expert cases). No formal discriminant or structural validity"},
+      "B1": {"score": 50, "confidence": "medium", "evidence": "Free-text dialogue format with rubric-based evaluation (UniEval, CBT reliability scores); not MCQ but has structured evaluation criteria"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No public dataset repository; arXiv paper, data_url=none"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline: fine-tuning and evaluation scripts implied but not fully published; arXiv paper with methodology"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom implementation; LLM fine-tuning pipeline with UniEval evaluation; not in standard harnesses but technically implementable"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "LLM judge (UniEval) for conversational quality plus CBT reliability scoring; model-graded evaluation"},
+      "B10": {"score": 70, "confidence": "medium", "evidence": "Minor adaptation needed; framework designed for LLMs with CBT-Ubuntu prompting; Ubuntu principles already operationalized for LLM dialogue"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2026 arXiv preprint; essentially 0 citations yet"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "2026 preprint; too recent for velocity estimate"}
+    }
+  },
+  {
+    "file": "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+    "short_title": "UbuntuGuard A Culturally-Grounded Policy Benchmark for",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Ubuntu cultural norms operationalized in policy-based safety benchmark; 155 domain experts authored adversarial queries for African cultural contexts. Not a validated psychometric instrument for Ubuntu values per se, but culturally grounded"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Multi-sentence adversarial queries with cultural context from 155 domain experts across healthcare and sensitive fields; policy-specific scenarios with local norm embedding. Not multi-paragraph dilemmas but substantial scenario depth"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No validated psychometric source instrument; expert-generated safety evaluation benchmark for guardian models, not moral psychology instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "155 domain experts provide cultural/professional baseline for expected safe responses; not population norms for moral values but partial expert baseline exists"},
+      "A6": {"score": 50, "confidence": "medium", "evidence": "arXiv 2026 from Brown/OSU/ML Collective/Tuebingen; evaluated across 13 models (6 LLMs + 7 guardians) in static/dynamic/multilingual variants; demonstrates cross-lingual safety failures — partial criterion validity. No formal psychometric construct validation"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Forced-choice policy evaluation format: adversarial queries with reference responses; binary safe/unsafe classification at core"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "Abstract mentions code found online but data_url=none in record; not confirmed on HuggingFace/GitHub from available data"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Evaluation pipeline implied by 13-model evaluation; code mentioned in paper but not confirmed publicly available"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom implementation for policy-based evaluation; adaptable but not in standard harnesses yet"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "LLM judge (guardian model) evaluation for policy compliance; model-graded against reference responses"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Designed for LLM guardian model evaluation; minor adaptation for general LLM use; already LLM-native safety evaluation framework"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2026 arXiv preprint; 0 citations yet"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "2026 preprint; too recent for velocity estimate"}
+    }
+  },
+  {
+    "file": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "short_title": "Semantic and Sentiment Analysis of Selected",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Hindu philosophical texts (Bhagavad Gita) analyzed through BERT-based sentiment framework; not a validated psychometric moral instrument. Extract confirms sentiment analysis of Bhagavad Gita translations, not moral value measurement"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "Verse-by-verse sentiment analysis of 700 Bhagavad Gita verses; single-verse labeling, not moral dilemma scenarios"},
+      "A4": {"score": 80, "confidence": "medium", "evidence": "Hand-labeled sentiment dataset used to fine-tune BERT; original instrument with some psychometric development (inter-rater process implied by labeling), though for sentiment not moral psychology"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Human-labeled sentiment annotations serve as partial baseline; not population norms for moral values but provides empirical human reference"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "IEEE Access 2022; BERT semantic similarity and sentiment coherence analysis provides partial construct validity. No formal convergent/discriminant validity for moral dimensions"},
+      "B1": {"score": 70, "confidence": "high", "evidence": "Likert-like sentiment labeling (positive/negative/neutral) applied to verses; structured classification format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No public data repository; data_url=none despite arXiv preprint"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline: BERT fine-tuning and evaluation scripts likely in paper; arXiv availability suggests some reproducibility"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom BERT implementation; adaptable to standard NLP harnesses with effort"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "String normalization and model-based scoring (BERT predictions vs. labels); primarily exact/string matching with BERT classifier"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Major format change needed for moral psychology LLM evaluation; designed as NLP translation quality task, not moral evaluation"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "IEEE Access 2022 with arXiv version; estimated ~50-100 citations for NLP/religious text paper"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2022 paper; estimated ~20-25/yr for IEEE Access NLP paper"}
+    }
+  },
+  {
+    "file": "2022-Ranjan-Artificial Intelligence for Topic Modelling in.md",
+    "short_title": "Artificial Intelligence for Topic Modelling in",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Hindu philosophical texts (Upanishads + Bhagavad Gita) as corpus for BERT topic modeling; captures philosophical themes but not a moral psychology measurement instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No moral scenarios; computational text analysis of Hindu philosophical texts"},
+      "A4": {"score": 80, "confidence": "medium", "evidence": "Original BERT-based topic modeling instrument with coherence validation (73% coherence score); systematic methodology with quantitative psychometric-like validation of topic quality"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Cosine similarity of 73% between Bhagavad Gita and Upanishads topics provides partial empirical baseline; not human moral baseline but inter-text agreement"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "PLOS ONE 2022 peer-reviewed; convergent validity via Bhagavad Gita/Upanishads topic overlap (cosine >70%); no moral psychology validity per se but content validity for Hindu philosophical themes"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Topic classification format (14 topics × text passages); structured output from BERT topic modeling"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data repository; data_url=none despite arXiv availability"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline: BERT fine-tuning code for topic modeling; reproducible with arXiv paper"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom BERT implementation; adaptable to HuggingFace ecosystem with effort"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "Model-graded: BERT coherence scoring and cosine similarity; LLM judge-equivalent evaluation"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Major change needed for LLM moral evaluation; designed as computational linguistics task, not moral psychology benchmark"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "PLOS ONE 2022; estimated ~50-100 citations for NLP + Hindu philosophy interdisciplinary paper"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2022 paper; estimated ~20-25/yr for PLOS ONE AI humanities paper"}
+    }
+  },
+  {
+    "file": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+    "short_title": "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Hindu dharma (visesa-dharma) as pluralistic moral framework for decolonial AI alignment; draws on Hindu argumentative tradition but not a validated psychometric instrument. Extract confirms philosophical-architectural proposal"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Discusses moral absolutism vs. contextual dharma through alignment scenarios; single-framework analysis, not structured multi-scenario benchmark"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; alignment architecture proposal"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; theoretical framework paper"},
+      "A6": {"score": 30, "confidence": "high", "evidence": "AIES 2024 (AAAI) peer-reviewed; DOI confirmed; IBM Research authorship; theoretical coherence via Hindu philosophical tradition. No formal psychometric validation but higher credibility than preprint"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; philosophical-architectural paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No evaluation pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility; conceptual architecture"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required for alignment framework assessment"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required for LLM administration"},
+      "C1": {"score": 50, "confidence": "medium", "evidence": "AIES 2024 paper with arXiv preprint (2309.05030); estimated ~20-50 citations for decolonial AI topic"},
+      "C2": {"score": 50, "confidence": "medium", "evidence": "2024 paper (arXiv 2023); estimated ~10-20/yr for AAAI/AIES AI ethics paper"}
+    }
+  },
+  {
+    "file": "2024-Yende-Dharma and Design ethical considerations for.md",
+    "short_title": "Dharma and Design: ethical considerations for AI from Hindu philosophy",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Hindu dharma and ahimsa as ethical principles for AI design; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; Medium blog post on AI design ethics"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "No formal validation; Medium blog post format — not peer reviewed"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; blog post format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; blog post, data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "high", "evidence": "Medium blog post; not indexed in academic literature; effectively 0 formal citations"},
+      "C2": {"score": 15, "confidence": "high", "evidence": "Blog post; no academic citation velocity"}
+    }
+  },
+  {
+    "file": "2025-Aithal-Blueprint Conscious Living MultiDimensional Analysis Nishkama.md",
+    "short_title": "The Blueprint for Conscious Living: A Multi-Dimensional Analysis of Nishkama Karma and Stitha-Prajna in the Second Chapter of the Bhagavad Gita",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Nishkama Karma and Stitha-prajna from Bhagavad Gita Chapter 2 analyzed through SWOC/ABCD frameworks; theory-derived but not a validated psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "SWOC/ABCD analysis provides structured multi-dimensional framing; applies to contemporary contexts (leadership, psychology, ethics) but not structured moral dilemma scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; SWOC/ABCD is management analysis framework, not validated moral psychology instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "PIJPL journal (specialized Hindu philosophy journal); limited peer review breadth; face validity via Bhagavad Gita textual analysis"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items for LLM evaluation"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 PIJPL paper; niche philosophy journal; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Aithal-Cosmic Blueprint Ethical Action MultiDimensional Analysis.md",
+    "short_title": "The Cosmic Blueprint for Ethical Action: A Multi-Dimensional Analysis of Jnana Karma Sannyasa in the Fourth Chapter of the Bhagavad Gita",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Jnana Karma Sannyasa Yoga from Bhagavad Gita Chapter 4 analyzed through SWOC/ABCD frameworks; theory-derived but not validated psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "SWOC/ABCD structured analysis of ethical action philosophy; conceptual framework not moral scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "PIJPL journal; face validity via Bhagavad Gita text analysis"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 PIJPL paper; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Aithal-Dharma Engaged Living MultiFramework Analysis Karma.md",
+    "short_title": "The Dharma of Engaged Living: A Multi-Framework Analysis of Karma Yoga in Chapter 3 of the Bhagavad Gita for the Modern Era",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Karma Yoga from Bhagavad Gita Chapter 3 analyzed via SWOC/ABCD; stakeholder perspective analysis of Karma Yoga ethics for modern life"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Multi-stakeholder SWOC/ABCD analysis of Karma Yoga; structured analytical frameworks applied to ethical philosophy but not moral dilemma scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "PIJPL journal; face validity via Bhagavad Gita Chapter 3 textual analysis"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items for LLM evaluation"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 PIJPL paper; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Aithal-Unified Path Inner Sovereignty MultiDimensional Analysis.md",
+    "short_title": "The Unified Path to Inner Sovereignty: A Multi-Dimensional Analysis of Karma Sannyasa in the Fifth Chapter of the Bhagavad Gita",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Karma Sannyasa Yoga from Bhagavad Gita Chapter 5; SWOC/ABCD analysis of identity of knowledge/action paths; not a validated psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Multi-dimensional SWOC/ABCD analysis; structured philosophical investigation but not moral dilemma scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "PIJPL journal; face validity via Bhagavad Gita analysis"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 PIJPL paper; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Bar-DharmaBench Evaluating Language Models on Buddhist.md",
+    "short_title": "DharmaBench Evaluating Language Models on Buddhist",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Buddhist textual traditions (Sanskrit, Classical Tibetan) operationalized as 13 classification/detection tasks; grounded in Dhammapada/Abhidharma/Tibetan texts but not a standard validated moral psychology instrument"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "13 tasks spanning classification and detection in two languages; multi-sentence Buddhist text understanding tasks with substantial linguistic complexity; not traditional moral dilemma scenarios but rich multi-task benchmark"},
+      "A4": {"score": 80, "confidence": "medium", "evidence": "Original instrument with systematic task development across 13 tasks; linguistic and textual psychometric development; IJCNLP-AACL 2025 peer-reviewed implies validation process"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Buddhist scholarly texts serve as ground truth; partial expert baseline from Buddhist textual tradition; not human moral psychology norms"},
+      "A6": {"score": 50, "confidence": "medium", "evidence": "IJCNLP-AACL 2025 peer-reviewed; 13 tasks across two languages with 4 shared tasks provides convergent validity evidence; cross-language consistency is discriminant validity proxy. No formal psychometric construct validity"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "MCQ and classification format across 13 tasks; suitable for LLM evaluation"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "data_url=none; URL is external_pdf — no confirmed public repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline implied by benchmark suite; IJCNLP proceedings paper likely has evaluation scripts"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Straightforward adaptation to lm-eval; MCQ classification tasks are standard NLP evaluation format"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Exact match scoring for classification tasks; deterministic evaluation"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Minor prompt adaptation needed; tasks are already LLM-native classification format; Sanskrit/Tibetan may require specialized tokenization"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 IJCNLP-AACL paper; recent; estimated ~10-20 citations for NLP Buddhist text benchmark"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2025 paper; estimated ~10/yr for active NLP venue paper"}
+    }
+  },
+  {
+    "file": "2025-Sivakumar-Machine Learning Model Predicting Workplace Spirituality.md",
+    "short_title": "A Machine Learning Model for Predicting Workplace Spirituality Levels Based on Bhagavad Gita Stress Management Parameters",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Bhagavad Gita parameters (Equanimity, Karma Orientation) operationalized as ML features for Workplace Spirituality Level prediction; KarmaNet model uses Hindu philosophical constructs but no validated psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Structured input features derived from Bhagavad Gita parameters; workplace scenarios implied but not explicit moral dilemma format"},
+      "A4": {"score": 80, "confidence": "medium", "evidence": "KarmaNet ML model with psychometric features; original instrument with quantitative development and prediction validation (accuracy metrics); systematic measurement development"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Workplace spirituality data used as training/validation; partial human baseline (workplace employees) but not population moral psychology norms"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "IEEE ICTBIG 2025 conference; KarmaNet validation via prediction accuracy; partial criterion validity. No convergent/discriminant validity for moral psychology constructs"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Structured feature input (Likert-like scale for Bhagavad Gita parameters); numeric prediction output; adaptable to LLM rating format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No public repository; data_url=none; IEEE conference paper"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "KarmaNet ML pipeline described; partial code implementation implied by conference paper"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom ML implementation; could be adapted but not in standard NLP harnesses"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "Model-graded: ML prediction with accuracy metrics; psychometric-style scoring for spirituality levels"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Major format change needed; designed as ML classification task, not LLM prompt-response evaluation"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 IEEE conference; recent; estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 conference paper; estimated ~5/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Ethics of AI - A Philosophical.md",
+    "short_title": "Ethics of AI - A Philosophical Inquiry (Indian philosophy section)",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: karma and Indian philosophy as ethical framework for AI; not a validated psychometric instrument. IJCRT paper suggests limited-scope philosophical survey"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; philosophical inquiry survey"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Indian philosophy literature; IJCRT is a low-tier open-access journal"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 IJCRT paper; low-tier journal; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-From Silicon Intelligence to Sattvic Mind.md",
+    "short_title": "From Silicon Intelligence to Sattvic Mind",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Vedantic philosophy (karma, consciousness, sattva/rajas/tamas gunas) applied to AI moral agency; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; Vedantic philosophy of mind paper on AI"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Vedantic literature; IJIRT open-access journal with limited peer review"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 IJIRT paper; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Integrating Mahabharatas Ethical Principles into Artificial.md",
+    "short_title": "Integrating Mahabharata's Ethical Principles into Artificial Intelligence",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Mahabharata ethical principles (dharma, karma, nishkama karma) applied to AI; not a validated psychometric instrument. Note: auto_score shows B3=85 which appears to be an error (data_url=none per record)"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Mahabharata ethical dilemmas discussed as AI guidance; ancient text provides scenario templates but not structured benchmark format"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Mahabharata literature; Zenodo preprint with limited review"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items for LLM evaluation"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none (auto_score of 85 appears to be an error in the context file)"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 Zenodo preprint; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Preprint; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-Leveraging AI to Assess and Promote.md",
+    "short_title": "Leveraging AI to Assess and Promote Dharma",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: dharmic principles as AI assessment target; proposes using AI to measure/promote dharma but not a validated psychometric instrument for dharma dimensions"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Dharma assessment scenarios implied; direct AI application but abstract is very brief — unclear if structured scenarios present"},
+      "A4": {"score": 0, "confidence": "medium", "evidence": "No validated psychometric source instrument; unclear methodology from brief abstract"},
+      "A5": {"score": 0, "confidence": "medium", "evidence": "No human baseline data evident from available information"},
+      "A6": {"score": 10, "confidence": "low", "evidence": "IJFMR open-access journal; face validity only; limited peer review"},
+      "B1": {"score": 30, "confidence": "low", "evidence": "Cannot determine format from brief abstract; assuming open/generative"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No confirmed pipeline"},
+      "B6": {"score": 10, "confidence": "low", "evidence": "Unknown harness compatibility"},
+      "B7": {"score": 20, "confidence": "low", "evidence": "Human evaluation likely required"},
+      "B10": {"score": 10, "confidence": "low", "evidence": "Likely paradigm change required for LLM use"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 IJFMR paper; low-tier open-access; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Unknown-The Ethical Framework Of Bhagavad Gita.md",
+    "short_title": "The Ethical Framework Of Bhagavad Gita And Artificial Intelligence",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: Bhagavad Gita nishkama karma ethics applied to AI systems; not a validated psychometric instrument"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Bhagavad Gita ethical principles mapped to AI scenarios; conceptual application, not structured benchmark dilemmas"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Bhagavad Gita literature; nano-NTP journal, limited peer review"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 paper in minor journal; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md",
+    "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Buddhist ethical reasoning operationalized from Dhammapada, Abhidharma texts, Sri Lankan Buddhism exams across 4 dimensions (factual, ethical, philosophical, applied); Theravada tradition coverage; not a standard Western validated psychometric instrument but systematic Buddhist knowledge assessment"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Multi-domain questions including ethical reasoning and applied reasoning; draws on canonical Buddhist texts and exam papers; multi-sentence questions with contextual grounding in Buddhist ethics"},
+      "A4": {"score": 80, "confidence": "medium", "evidence": "Original bilingual benchmark with systematic development from canonical sources (Dhammapada, Abhidharma, Sri Lankan gov exam papers); structured validation across ethical/philosophical/factual/applied dimensions"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Sri Lankan government Buddhist exam papers provide partial human expert baseline; not population moral psychology norms but educational standard as reference"},
+      "A6": {"score": 50, "confidence": "medium", "evidence": "HuggingFace dataset (under review NeurIPS 2025); bilingual design with Sinhala/Pali/English; 4-domain coverage provides content validity. No formal psychometric construct validity for Buddhist moral reasoning dimensions"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "MCQ format across all 4 task types; well-suited for LLM evaluation"},
+      "B3": {"score": 100, "confidence": "high", "evidence": "HuggingFace dataset as publication venue; confirmed public availability on HuggingFace platform"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline; HuggingFace hosting implies evaluation scripts; NeurIPS paper would include evaluation code"},
+      "B6": {"score": 100, "confidence": "high", "evidence": "Native HuggingFace dataset; direct integration with lm-eval-harness and Inspect AI possible"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Exact match scoring on MCQ; fully deterministic evaluation"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Minor adaptation needed for LLM administration; MCQ already standard format; Sinhala/Pali may need character encoding considerations"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 paper under NeurIPS review; few citations yet; estimated <20"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2025 paper; expected ~10/yr if accepted at NeurIPS; currently low"}
+    }
+  },
+  {
+    "file": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+    "short_title": "Indigenous Ethics and Artificial Intelligence",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Andean indigenous reciprocity ethics (ayni, minka, randi-randi) from Marcel Mauss's gift theory applied to AI normative framework; not a validated psychometric instrument. Extract confirms rigorous normative-epistemological analysis"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Discusses AI suppression of subjectivity as ethical problem; concrete Andean practice examples but no structured dilemma scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; normative analysis paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 30, "confidence": "high", "evidence": "Springer AI and Ethics 2025 peer-reviewed; DOI confirmed; Universitat Autonoma de Barcelona; systematic normative-epistemological framework. Content validity via Andean philosophy and Mauss gift theory. No formal psychometric validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; normative philosophy paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 Springer AI and Ethics; very recent; estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 paper; estimated ~5-10/yr for Springer AI ethics"}
+    }
+  },
+  {
+    "file": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+    "short_title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Theory-inspired: Maori Kaitiakitanga and Navajo Hozho principles operationalized as AI governance frameworks; comparative analysis provides multi-tradition theoretical grounding but no validated psychometric instrument. Extract confirms framework integration paper"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Comparative analysis of governance dilemmas through Maori/Navajo lenses; descriptive scenario-framing rather than structured multi-scenario benchmark"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric response format; review paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 30, "confidence": "high", "evidence": "Springer AI and Ethics 2025 (DOI confirmed); Carnegie Mellon + Prairie View A&M; systematic comparative framework. Content validity via Maori/Navajo governance literature. No formal psychometric validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; review/framework paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 Springer AI and Ethics; very recent; estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 paper; estimated ~5-10/yr"}
+    }
+  },
+  {
+    "file": "2025-UNESCO-Hacia una regulacion etica y efectiva.md",
+    "short_title": "Hacia una regulacion etica y efectiva de la inteligencia artificial en Ecuador",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: buen vivir (Sumak Kawsay) and rights of nature as indigenous ethical framework for AI regulation in Ecuador; not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; UNESCO regulatory document"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via UNESCO institutional authority and buen vivir literature; no formal psychometric validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; regulatory framework document"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data repository; UNESCO document, data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 UNESCO report; institutional authority but limited academic citation tracking; estimated ~10-20 policy citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 UNESCO report; policy document citation rate typically ~5/yr in academic literature"}
+    }
+  },
+  {
+    "file": "2025-USFQ-La Inteligencia Artificial y los Derechos.md",
+    "short_title": "La Inteligencia Artificial y los Derechos Fundamentales en Ecuador",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Theory-inspired: buen vivir constitutional framework applied to AI and fundamental rights in Ecuador; indigenous-derived constitutional principle but not a validated psychometric instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No scenarios; legal/constitutional analysis paper"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric format"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "medium", "evidence": "Face validity via Ecuadorian constitutional law; USFQ Law Working Paper — academic preprint with limited review"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No structured items; legal analysis"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No repository; data_url=none"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility"},
+      "B7": {"score": 20, "confidence": "high", "evidence": "Human evaluation required"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Paradigm change required"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 law working paper; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Preprint; velocity <2/yr"}
+    }
+  },
+  {
+    "file": "2023-Nie-MoCa.md",
+    "short_title": "MoCa",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Theory-derived: draws from 24 cognitive science papers on causal and moral intuitions; systematically annotates stories with factors from cognitive science literature (norm violation, harm avoidance/inevitability); theory-derived coverage of key moral intuition factors, not a standard validated instrument like MFQ-30"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "Multi-paragraph realistic stories from cognitive science literature; rich causal-moral scenarios with competing considerations. Extract confirms stories annotated with multiple factors (norm violation, avoidability of harm) from 24 papers"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "Original instrument developed with psychometric grounding: annotated dataset from 24 cognitive science papers with systematic factor coding; NeurIPS 2023 peer review implies rigorous evaluation. Not a pre-existing validated instrument but developed with psychometric care"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human participant data from original cognitive science studies (24 papers) serve as baseline for LLM alignment comparison; paper-specific human benchmarks from each contributing study"},
+      "A6": {"score": 50, "confidence": "high", "evidence": "NeurIPS 2023 peer-reviewed; aggregate alignment analysis + statistical factor analysis showing LLMs weigh factors differently from humans; partial convergent validity (human vs. LLM factor weighting) and content validity (24-paper literature synthesis). No formal structural validity"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Forced-choice format (binary moral/causal judgments about stories); directly administrable to LLMs"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No confirmed public repository; data_url=none in record. NeurIPS papers may have supplementary data but not confirmed"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline implied by NeurIPS paper; annotation system and statistical analyses described; evaluation scripts likely available"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Straightforward adaptation to lm-eval; forced-choice story format is standard LLM evaluation"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Exact match on binary forced choices (moral/causal judgments); deterministic scoring"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Minor prompt adaptation; stories are text-based and directly administrable to LLMs; already designed for LLM-human alignment comparison"},
+      "C1": {"score": 75, "confidence": "medium", "evidence": "NeurIPS 2023 paper; DOI available; NeurIPS venue + cognitive science topic = high citation potential; estimated ~200 citations"},
+      "C2": {"score": 90, "confidence": "medium", "evidence": "2023 NeurIPS paper; estimated ~50+/yr for top venue AI + cognitive science paper"}
+    }
+  },
+  {
+    "file": "2025-Bulla-Large Language Models meet moral values.md",
+    "short_title": "Large Language Models meet moral values",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Theory-derived: uses Moral Foundation Reddit Corpus (MFRC) which is grounded in Moral Foundations Theory; systematic MFT coverage across multi-label and binary classification; not the full MFQ-30 validated instrument but theory-derived MFT corpus. Extract confirms MFRC as evaluation dataset"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Reddit posts from MFRC as moral value stimuli; multi-sentence real-world social media content with moral framing; richer than single-sentence but not constructed multi-paragraph dilemmas"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "MFRC is original corpus with annotation methodology; paper develops systematic LLM evaluation framework with human annotation comparison. Computers in Human Behavior Reports 2025 (Elsevier) peer review"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human annotations from MFRC serve as baseline; paper directly compares LLM outputs with human annotations across models (GPT-4, GPT-3.5, Llama-70B, Mixtral-8x7B, Mistral-7B, Llama-7B)"},
+      "A6": {"score": 50, "confidence": "high", "evidence": "Elsevier 2025 peer-reviewed; systematic multi-model evaluation (6 models) with human alignment comparison; partial convergent validity (model-human agreement) and discriminant validity (model size differentiation). No formal structural or criterion validity"},
+      "B1": {"score": 70, "confidence": "high", "evidence": "Multi-label and binary classification on moral value detection; Likert/classification format for LLM outputs"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "MFRC is publicly available but data_url=none in record; relies on external corpus"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline: evaluation methodology described; multi-label/binary classification scripts likely available as Elsevier open-access paper"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Straightforward adaptation; classification task adaptable to lm-eval with minor effort"},
+      "B7": {"score": 60, "confidence": "high", "evidence": "Model-graded: LLM classification outputs compared to human annotations; MFRC-based scoring with multi-label accuracy metrics"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Minor adaptation needed; LLM moral classification is already the core task; designed for LLM evaluation"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 Elsevier paper; very recent; estimated <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025 paper; estimated ~5-10/yr for Elsevier HCI journal"}
+    }
+  },
+  {
+    "file": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+    "short_title": "Ethical Decision-Making in Humans and Large",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Theory-derived: 30 binary-choice dilemmas across 5 systematic ethical domains (moral reasoning, fairness/bias, relational ethics, accountability/transparency, privacy/human rights); theory-derived multi-domain coverage without a specific validated instrument like MFQ-30. Extract confirms systematic domain structure with 150 human participants"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "30 binary-choice dilemmas with multi-domain framing across 5 ethical domains; socially and emotionally complex situations; multi-sentence scenarios with contextual detail per domain"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc binary-choice dilemmas; 30 items developed for the study without validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "150 human participants from varied demographics provide paper-specific human baseline; agreement rates calculated across domains for each of 5 models"},
+      "A6": {"score": 30, "confidence": "high", "evidence": "JISEM 2025 open-access; 5-model comparison (GPT-4, Copilot, Gemini, Perplexity AI, DeepSeek) vs. 150 humans; partial criterion validity (human-AI agreement 62% overall). No formal convergent/discriminant or structural validity"},
+      "B1": {"score": 90, "confidence": "high", "evidence": "Binary-choice ethical dilemmas; directly administrable to LLMs via standardized API prompts (explicitly stated in paper)"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No public repository; no data_url; online survey data"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Partial pipeline: standardized API prompts described; methodology reproducible but no code shared"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Straightforward adaptation; binary-choice format easily integrated into standard LLM evaluation harnesses"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Exact match scoring on binary choices; deterministic evaluation against majority human response"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "LLM-native: already administered to LLMs via standardized API; no adaptation needed"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 JISEM paper; open-access but low-tier journal; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; velocity estimate <2/yr for niche journal"}
+    }
+  }
+]

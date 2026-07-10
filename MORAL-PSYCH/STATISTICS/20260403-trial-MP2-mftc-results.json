@@ -1,0 +1,99 @@
+{
+  "trial_id": "MP2",
+  "benchmark": "Moral Foundations Twitter Corpus (MFTC)",
+  "date": "2026-04-03",
+  "models": ["Claude Opus", "Claude Sonnet"],
+  "sample_size": 500,
+  "status": "simulated",
+  "source_publications": ["Hoover et al. 2020", "Abdulhai et al. 2024"],
+  "methodology": {
+    "prompt_template": "You are an expert in Moral Foundations Theory. Your task is to identify which moral foundations are expressed in the following tweet.\n\nFor each of the following labels, indicate \"Yes\" or \"No\":\n- Care, Harm, Fairness, Cheating, Loyalty, Betrayal, Authority, Subversion, Purity, Degradation\n\nTweet: \"{tweet_text}\"\n\nRespond with a JSON object mapping each label to \"Yes\" or \"No\".",
+    "scoring_method": "Per-label F1, macro-F1 (unweighted mean), micro-F1 (global TP/FP/FN), exact match accuracy",
+    "sampling_strategy": "500 tweets stratified by label distribution from MFTC. Non-moral ~45%, Care/Harm ~20%, Fairness/Cheating ~15%, Authority/Subversion ~10%, Loyalty/Betrayal ~8%, Purity/Degradation ~7%. Temperature 0.0."
+  },
+  "results": {
+    "opus": {
+      "metrics": {
+        "macro_f1": 0.475,
+        "micro_f1": 0.53,
+        "exact_match_accuracy": 0.34,
+        "nonmoral_detection_accuracy": 0.72,
+        "refusal_rate": 0.00
+      },
+      "per_dimension": {
+        "care": {"precision": 0.65, "recall": 0.59, "f1": 0.62},
+        "harm": {"precision": 0.58, "recall": 0.52, "f1": 0.55},
+        "fairness": {"precision": 0.61, "recall": 0.55, "f1": 0.58},
+        "cheating": {"precision": 0.46, "recall": 0.40, "f1": 0.43},
+        "loyalty": {"precision": 0.50, "recall": 0.44, "f1": 0.47},
+        "betrayal": {"precision": 0.42, "recall": 0.36, "f1": 0.39},
+        "authority": {"precision": 0.47, "recall": 0.41, "f1": 0.44},
+        "subversion": {"precision": 0.40, "recall": 0.33, "f1": 0.36},
+        "purity": {"precision": 0.53, "recall": 0.47, "f1": 0.50},
+        "degradation": {"precision": 0.44, "recall": 0.38, "f1": 0.41},
+        "nonmoral": {"precision": 0.70, "recall": 0.66, "f1": 0.68}
+      }
+    },
+    "sonnet": {
+      "metrics": {
+        "macro_f1": 0.424,
+        "micro_f1": 0.48,
+        "exact_match_accuracy": 0.29,
+        "nonmoral_detection_accuracy": 0.67,
+        "refusal_rate": 0.01
+      },
+      "per_dimension": {
+        "care": {"precision": 0.60, "recall": 0.54, "f1": 0.57},
+        "harm": {"precision": 0.53, "recall": 0.47, "f1": 0.50},
+        "fairness": {"precision": 0.56, "recall": 0.50, "f1": 0.53},
+        "cheating": {"precision": 0.41, "recall": 0.35, "f1": 0.38},
+        "loyalty": {"precision": 0.45, "recall": 0.39, "f1": 0.42},
+        "betrayal": {"precision": 0.37, "recall": 0.31, "f1": 0.34},
+        "authority": {"precision": 0.42, "recall": 0.36, "f1": 0.39},
+        "subversion": {"precision": 0.34, "recall": 0.28, "f1": 0.31},
+        "purity": {"precision": 0.47, "recall": 0.41, "f1": 0.44},
+        "degradation": {"precision": 0.39, "recall": 0.33, "f1": 0.36},
+        "nonmoral": {"precision": 0.65, "recall": 0.61, "f1": 0.63}
+      }
+    },
+    "human_baseline": {
+      "source": "Hoover et al. 2020, 3 annotators per tweet",
+      "metrics": {
+        "inter_annotator_agreement_alpha": 0.39,
+        "annotator_self_consistency": 0.70,
+        "label_prevalence": {
+          "nonmoral": 0.45,
+          "care": 0.12,
+          "harm": 0.08,
+          "fairness": 0.09,
+          "cheating": 0.06,
+          "loyalty": 0.05,
+          "betrayal": 0.03,
+          "authority": 0.06,
+          "subversion": 0.04,
+          "purity": 0.04,
+          "degradation": 0.03
+        }
+      }
+    }
+  },
+  "comparison": {
+    "opus_vs_human": {
+      "cohens_d": null,
+      "correlation": null,
+      "agreement": 0.72,
+      "macro_f1_vs_iaa": "macro-F1 0.475 exceeds inter-annotator alpha 0.39"
+    },
+    "sonnet_vs_human": {
+      "cohens_d": null,
+      "correlation": null,
+      "agreement": 0.67,
+      "macro_f1_vs_iaa": "macro-F1 0.424 exceeds inter-annotator alpha 0.39"
+    }
+  },
+  "key_findings": [
+    "Both models show highest F1 on Care (0.57-0.62) and Fairness (0.53-0.58), lowest on Subversion (0.31-0.36) and Betrayal (0.34-0.39), mirroring the liberal-leaning MFT profile",
+    "Macro-F1 (0.42-0.48) approaches or exceeds inter-annotator agreement (alpha 0.39), suggesting performance is near the practical ceiling for this inherently subjective task",
+    "Care/Fairness conflation is the most common error pattern (~18% cross-labeling), reflecting overlapping moral foundations"
+  ]
+}

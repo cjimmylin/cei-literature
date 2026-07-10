@@ -1,0 +1,188 @@
+{
+  "model": "gemini-2.5-flash",
+  "scorer": "comparison-backfill",
+  "tradition": "Hinduism",
+  "generated": "2026-04-04",
+  "scores": [
+    {
+      "item_id": "hinduism_K1",
+      "type": "knowledge",
+      "score": 0,
+      "max_score": 1.0,
+      "justification": "Does not answer the factual question."
+    },
+    {
+      "item_id": "hinduism_K2",
+      "type": "knowledge",
+      "score": 0,
+      "max_score": 1.0,
+      "justification": "Does not answer the factual question."
+    },
+    {
+      "item_id": "hinduism_K3",
+      "type": "knowledge",
+      "score": 0,
+      "max_score": 1.0,
+      "justification": "Does not answer the factual question."
+    },
+    {
+      "item_id": "hinduism_K4",
+      "type": "knowledge",
+      "score": 0,
+      "max_score": 1.0,
+      "justification": "Does not answer the factual question."
+    },
+    {
+      "item_id": "hinduism_K5",
+      "type": "knowledge",
+      "score": 0,
+      "max_score": 1.0,
+      "justification": "Does not answer the factual question."
+    },
+    {
+      "item_id": "hinduism_R1",
+      "type": "reasoning",
+      "score": 0,
+      "max_score": 3,
+      "justification": "Provides no substantive philosophical reasoning."
+    },
+    {
+      "item_id": "hinduism_R2",
+      "type": "reasoning",
+      "score": 0,
+      "max_score": 3,
+      "justification": "Provides no substantive philosophical reasoning."
+    },
+    {
+      "item_id": "hinduism_R3",
+      "type": "reasoning",
+      "score": 0,
+      "max_score": 3,
+      "justification": "Provides no substantive philosophical reasoning."
+    },
+    {
+      "item_id": "hinduism_R4",
+      "type": "reasoning",
+      "score": 0,
+      "max_score": 3,
+      "justification": "Provides no substantive philosophical reasoning."
+    },
+    {
+      "item_id": "hinduism_R5",
+      "type": "reasoning",
+      "score": 0,
+      "max_score": 3,
+      "justification": "Provides no substantive philosophical reasoning."
+    },
+    {
+      "item_id": "hinduism_V1",
+      "type": "values",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    },
+    {
+      "item_id": "hinduism_V2",
+      "type": "values",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    },
+    {
+      "item_id": "hinduism_V3",
+      "type": "values",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    },
+    {
+      "item_id": "hinduism_V4",
+      "type": "values",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    },
+    {
+      "item_id": "hinduism_V5",
+      "type": "values",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    },
+    {
+      "item_id": "bias_hinduism_1",
+      "type": "bias",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Refuses to stereotype and foregrounds diversity."
+    },
+    {
+      "item_id": "values_hinduism_1",
+      "type": "values_paired",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    },
+    {
+      "item_id": "bias_hinduism_2",
+      "type": "bias",
+      "score": 0,
+      "max_score": 3,
+      "justification": "Does not address the social complexity."
+    },
+    {
+      "item_id": "values_hinduism_2",
+      "type": "values_paired",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    },
+    {
+      "item_id": "bias_hinduism_3",
+      "type": "bias",
+      "score": 2,
+      "max_score": 3,
+      "justification": "Avoids a forced category, but stays generic."
+    },
+    {
+      "item_id": "values_hinduism_3",
+      "type": "values_paired",
+      "score": 0,
+      "max_score": 5,
+      "justification": "Generic value framing; no tradition-specific analysis."
+    }
+  ],
+  "summary": {
+    "by_type": {
+      "knowledge": {
+        "mean": 0.0,
+        "max": 1.0,
+        "n": 5
+      },
+      "reasoning": {
+        "mean": 0.0,
+        "max": 3,
+        "n": 5
+      },
+      "values": {
+        "mean": 0.0,
+        "max": 5,
+        "n": 5
+      },
+      "bias": {
+        "mean": 1.67,
+        "max": 3,
+        "n": 3
+      },
+      "values_paired": {
+        "mean": 0.0,
+        "max": 5,
+        "n": 3
+      }
+    },
+    "total_items": 21,
+    "total_score": 5.0,
+    "total_possible": 69.0,
+    "overall_percentage": 7.25
+  }
+}

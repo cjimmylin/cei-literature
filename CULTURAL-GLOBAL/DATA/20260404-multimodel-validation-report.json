@@ -1,0 +1,283 @@
+{
+  "date": "2026-04-04",
+  "script": "validate_multimodel_trials.py",
+  "summary": {
+    "total": 30,
+    "pass": 30,
+    "warn": 0,
+    "fail": 0,
+    "missing": 0
+  },
+  "results": [
+    {
+      "trial_id": "CC1",
+      "model": "opus",
+      "file": "20260404-trial-CC1-globalopinionqa-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 50
+    },
+    {
+      "trial_id": "CC2",
+      "model": "opus",
+      "file": "20260404-trial-CC2-mfq-crosscultural-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 50
+    },
+    {
+      "trial_id": "CC3",
+      "model": "opus",
+      "file": "20260404-trial-CC3-normad-cultural-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC4",
+      "model": "opus",
+      "file": "20260404-trial-CC4-islamtrust-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC5",
+      "model": "opus",
+      "file": "20260404-trial-CC5-confucian-dilemmas-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC6",
+      "model": "opus",
+      "file": "20260404-trial-CC6-ubuntu-scenarios-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC7",
+      "model": "opus",
+      "file": "20260404-trial-CC7-buddhist-scenarios-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC8",
+      "model": "opus",
+      "file": "20260404-trial-CC8-culturalbench-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC9",
+      "model": "opus",
+      "file": "20260404-trial-CC9-dharmic-scenarios-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC10",
+      "model": "opus",
+      "file": "20260404-trial-CC10-value-conflicts-opus.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC1",
+      "model": "sonnet",
+      "file": "20260404-trial-CC1-globalopinionqa-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 50
+    },
+    {
+      "trial_id": "CC2",
+      "model": "sonnet",
+      "file": "20260404-trial-CC2-mfq-crosscultural-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 50
+    },
+    {
+      "trial_id": "CC3",
+      "model": "sonnet",
+      "file": "20260404-trial-CC3-normad-cultural-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC4",
+      "model": "sonnet",
+      "file": "20260404-trial-CC4-islamtrust-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC5",
+      "model": "sonnet",
+      "file": "20260404-trial-CC5-confucian-dilemmas-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC6",
+      "model": "sonnet",
+      "file": "20260404-trial-CC6-ubuntu-scenarios-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC7",
+      "model": "sonnet",
+      "file": "20260404-trial-CC7-buddhist-scenarios-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC8",
+      "model": "sonnet",
+      "file": "20260404-trial-CC8-culturalbench-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC9",
+      "model": "sonnet",
+      "file": "20260404-trial-CC9-dharmic-scenarios-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC10",
+      "model": "sonnet",
+      "file": "20260404-trial-CC10-value-conflicts-sonnet.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC1",
+      "model": "haiku",
+      "file": "20260404-trial-CC1-globalopinionqa-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 50
+    },
+    {
+      "trial_id": "CC2",
+      "model": "haiku",
+      "file": "20260404-trial-CC2-mfq-crosscultural-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 50
+    },
+    {
+      "trial_id": "CC3",
+      "model": "haiku",
+      "file": "20260404-trial-CC3-normad-cultural-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC4",
+      "model": "haiku",
+      "file": "20260404-trial-CC4-islamtrust-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC5",
+      "model": "haiku",
+      "file": "20260404-trial-CC5-confucian-dilemmas-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC6",
+      "model": "haiku",
+      "file": "20260404-trial-CC6-ubuntu-scenarios-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC7",
+      "model": "haiku",
+      "file": "20260404-trial-CC7-buddhist-scenarios-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC8",
+      "model": "haiku",
+      "file": "20260404-trial-CC8-culturalbench-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    },
+    {
+      "trial_id": "CC9",
+      "model": "haiku",
+      "file": "20260404-trial-CC9-dharmic-scenarios-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 30
+    },
+    {
+      "trial_id": "CC10",
+      "model": "haiku",
+      "file": "20260404-trial-CC10-value-conflicts-haiku.json",
+      "status": "PASS",
+      "errors": [],
+      "warnings": [],
+      "item_count": 40
+    }
+  ]
+}

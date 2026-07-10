@@ -1,0 +1,37 @@
+{
+  "model": "gpt-5-codex",
+  "date": "2026-04-04",
+  "source_trial_count": 23,
+  "generated_trial_files": [
+    "Codex/TRIALS/20260404-trial-MP-CC-crosscultural-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP-DM-dyadic-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP-DP-dualprocess-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP-SI-intuitionism-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP10-moralcode-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP11-kaleidoscope-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP12-valact-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP15-unimoral-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP16-moralidentity-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP17-socialchem-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP18-culturalpersona-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP19-conscienceconflict-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP2-mfq30-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP20-m3oralbench-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP21-prime-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP22-tracingmf-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP3-dit-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP4-mfv-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP5-valuecompass-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP6-emnlp-teacher-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP7-trolleybench-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP8-moralmachine-gpt.json",
+    "Codex/TRIALS/20260404-trial-MP9-mftc-gpt.json",
+    "Codex/TRIALS/20260404-trials-summary-gpt.json",
+    "Codex/METHODS/20260404-codex-moral-psych-gpt-handoff.md"
+  ],
+  "notes": [
+    "All outputs were generated inside Codex without external SDK/API calls.",
+    "Existing MORAL-PSYCH files were used as benchmark templates only; no existing file was modified.",
+    "All new artifacts are contained under CEI-Lit-WS/MORAL-PSYCH/Codex/."
+  ]
+}

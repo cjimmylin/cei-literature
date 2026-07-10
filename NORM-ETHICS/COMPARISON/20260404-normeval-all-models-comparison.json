@@ -1,0 +1,2496 @@
+{
+  "meta": {
+    "date": "2026-04-04",
+    "benchmark_group": "NormEval T6-T15 replicated trials",
+    "providers_included": [
+      "Anthropic",
+      "OpenAI",
+      "Google"
+    ],
+    "structured_models": [
+      {
+        "model": "claude-haiku-4-5",
+        "provider": "Anthropic"
+      },
+      {
+        "model": "claude-sonnet-4-6",
+        "provider": "Anthropic"
+      },
+      {
+        "model": "gemini-2.5-flash",
+        "provider": "Google"
+      },
+      {
+        "model": "gemini-2.5-flash-lite",
+        "provider": "Google"
+      },
+      {
+        "model": "gemini-2.5-pro",
+        "provider": "Google"
+      },
+      {
+        "model": "gemini-3.1-pro",
+        "provider": "Google"
+      },
+      {
+        "model": "gpt-5 (Codex agent)",
+        "provider": "OpenAI"
+      },
+      {
+        "model": "gpt-5-mini (Codex agent)",
+        "provider": "OpenAI"
+      }
+    ],
+    "opus_baseline_source": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-normeval-cross-model-comparison.json",
+    "note": "Opus is included as an existing metric-level baseline from the prior Claude cross-model summary because no Opus per-item JSON files were present in STATISTICS."
+  },
+  "per_trial": {
+    "T6": {
+      "benchmark": "PrinciplismQA Medical Ethics",
+      "items": 10,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T6-principlismqa-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T6-principlismqa-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T6-principlismqa-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T6-principlismqa-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T6-principlismqa-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T6-principlismqa-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T6-principlismqa-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T6-principlismqa-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "PrinciplismQA",
+        "items": 10,
+        "opus_mcq_accuracy": 100.0,
+        "sonnet_mcq_accuracy": 100.0,
+        "haiku_mcq_accuracy": 100.0,
+        "three_model_agreement": "10/10 (100%)",
+        "finding": "Perfect agreement on medical ethics MCQs across all model tiers"
+      }
+    },
+    "T7": {
+      "benchmark": "Moral Persuasion in LLMs",
+      "items": 3,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "decision_change_rate": 33.3
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T7-moralpersuasion-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "decision_change_rate": 0.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T7-moralpersuasion-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "decision_change_rate": 33.3
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T7-moralpersuasion-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "decision_change_rate": 33.3
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T7-moralpersuasion-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "decision_change_rate": 33.3
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T7-moralpersuasion-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "decision_change_rate": 33.3
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T7-moralpersuasion-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "decision_change_rate": 0.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T7-moralpersuasion-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "decision_change_rate": 0.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T7-moralpersuasion-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "Moral Persuasion",
+        "items": 3,
+        "opus_change_rate": 66.7,
+        "sonnet_change_rate": 0.0,
+        "haiku_change_rate": 33.3,
+        "finding": "Persuasion susceptibility: Opus > Haiku > Sonnet. Sonnet is most persuasion-resistant."
+      }
+    },
+    "T8": {
+      "benchmark": "AMAeval (Beyond Ethical Alignment)",
+      "items": 7,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "abductive_eval_mean": 3.0,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T8-amaeval-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "abductive_eval_mean": 3.0,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T8-amaeval-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "abductive_eval_mean": 3.0,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T8-amaeval-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "abductive_eval_mean": 3.0,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T8-amaeval-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "abductive_eval_mean": 3.0,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T8-amaeval-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "abductive_eval_mean": 3.0,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T8-amaeval-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "abductive_eval_mean": 2.67,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T8-amaeval-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "abductive_eval_mean": 3.0,
+            "deductive_accuracy": "3/3 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T8-amaeval-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 3,
+          "agreement_percent": 50.0
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 5,
+          "agreement_percent": 83.3
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 3,
+          "agreement_percent": 50.0
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 3,
+          "agreement_percent": 50.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 3,
+          "agreement_percent": 50.0
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 3,
+          "agreement_percent": 50.0
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 5,
+          "agreement_percent": 83.3
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "AMAeval",
+        "items": 7,
+        "deductive_agreement": "3/3 all models agree (100%)",
+        "adversarial_detected_all": true,
+        "abductive_eval_means": {
+          "opus": 2.67,
+          "sonnet": 3.0,
+          "haiku": 3.0
+        },
+        "finding": "Deductive reasoning perfect across tiers; adversarial detection robust; abductive ratings vary slightly"
+      }
+    },
+    "T9": {
+      "benchmark": "JETHICS — Japanese Ethics Understanding Evaluation Dataset",
+      "items": 22,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T9-jethics-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T9-jethics-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T9-jethics-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T9-jethics-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T9-jethics-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T9-jethics-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T9-jethics-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T9-jethics-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "JETHICS",
+        "items": 22,
+        "opus_accuracy": 100.0,
+        "sonnet_accuracy": 100.0,
+        "haiku_accuracy": 100.0,
+        "three_model_agreement": "22/22 (100%)",
+        "finding": "Ceiling effect confirmed across all Claude model tiers — even Haiku saturates"
+      }
+    },
+    "T10": {
+      "benchmark": "Pluralistic Moral Gap",
+      "items": 7,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "high_consensus_alignment": "3/3 (100%)",
+            "medium_consensus_alignment": "1/2 (50%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T10-pluralisticmoralgap-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "high_consensus_alignment": "2/3 (67%)",
+            "medium_consensus_alignment": "2/2 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T10-pluralisticmoralgap-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "high_consensus_alignment": "3/3 (100%)",
+            "medium_consensus_alignment": "1/2 (50%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T10-pluralisticmoralgap-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "high_consensus_alignment": "3/3 (100%)",
+            "medium_consensus_alignment": "1/2 (50%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T10-pluralisticmoralgap-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "high_consensus_alignment": "3/3 (100%)",
+            "medium_consensus_alignment": "1/2 (50%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T10-pluralisticmoralgap-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "high_consensus_alignment": "3/3 (100%)",
+            "medium_consensus_alignment": "1/2 (50%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T10-pluralisticmoralgap-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "high_consensus_alignment": "3/3 (100%)",
+            "medium_consensus_alignment": "2/2 (100%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T10-pluralisticmoralgap-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "high_consensus_alignment": "3/3 (100%)",
+            "medium_consensus_alignment": "1/2 (50%)"
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T10-pluralisticmoralgap-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 7,
+          "items_agreed": 5,
+          "agreement_percent": 71.4
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 7,
+          "items_agreed": 5,
+          "agreement_percent": 71.4
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 7,
+          "items_agreed": 5,
+          "agreement_percent": 71.4
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 5,
+          "agreement_percent": 71.4
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 5,
+          "agreement_percent": 71.4
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 5,
+          "agreement_percent": 71.4
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "Pluralistic Moral Gap",
+        "items": 7,
+        "high_consensus_alignment": {
+          "opus": "90%",
+          "sonnet": "67%",
+          "haiku": "100%"
+        },
+        "divergence_items": {
+          "HC1": {
+            "opus": "Wrong",
+            "sonnet": "Right",
+            "haiku": "Wrong"
+          },
+          "MC1": {
+            "opus": "Right",
+            "sonnet": "Right",
+            "haiku": "Wrong"
+          }
+        },
+        "finding": "HC1 (grounding teen for volunteering) splits models: Sonnet sided with parental authority. Haiku best matches human consensus on high-consensus items."
+      }
+    },
+    "T11": {
+      "benchmark": "MedEthicsQA",
+      "items": 7,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T11-medethicsqa-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T11-medethicsqa-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T11-medethicsqa-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T11-medethicsqa-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T11-medethicsqa-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T11-medethicsqa-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T11-medethicsqa-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "mcq_accuracy": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T11-medethicsqa-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "MedEthicsQA",
+        "items": 7,
+        "opus_mcq_accuracy": 100.0,
+        "sonnet_mcq_accuracy": 100.0,
+        "haiku_mcq_accuracy": 100.0,
+        "three_model_agreement": "7/7 (100%)",
+        "finding": "Medical ethics knowledge perfectly robust across model tiers"
+      }
+    },
+    "T12": {
+      "benchmark": "UniMoral Multilingual Moral Reasoning",
+      "items": 6,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "mean_stage": 5.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T12-unimoral-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "mean_stage": 5.17
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T12-unimoral-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "mean_stage": 5.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T12-unimoral-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "mean_stage": 5.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T12-unimoral-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "mean_stage": 5.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T12-unimoral-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "mean_stage": 5.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T12-unimoral-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "mean_stage": 5.17
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T12-unimoral-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "mean_stage": 5.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T12-unimoral-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 5,
+          "agreement_percent": 83.3
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "UniMoral",
+        "items": 6,
+        "all_post_conventional": {
+          "opus": true,
+          "sonnet": true,
+          "haiku": true
+        },
+        "kohlberg_mean": {
+          "opus": 5.0,
+          "sonnet": 5.17,
+          "haiku": 5.0
+        },
+        "sp1_ranking_top": {
+          "sonnet": "Environmental protection",
+          "haiku": "Public's right to know"
+        },
+        "finding": "All models reason at Kohlberg Stage 5-6; minor ranking differences in multi-criteria prioritization"
+      }
+    },
+    "T13": {
+      "benchmark": "The Greatest Good Benchmark (OUS)",
+      "items": 30,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "IB_mean": 4.87,
+            "IH_mean": 4.47
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T13-greatestgood-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "IB_mean": 5.0,
+            "IH_mean": 3.2
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T13-greatestgood-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "IB_mean": 4.87,
+            "IH_mean": 4.47
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T13-greatestgood-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "IB_mean": 4.87,
+            "IH_mean": 4.47
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T13-greatestgood-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "IB_mean": 4.87,
+            "IH_mean": 4.47
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T13-greatestgood-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "IB_mean": 4.87,
+            "IH_mean": 4.47
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T13-greatestgood-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "IB_mean": 5.13,
+            "IH_mean": 2.93
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T13-greatestgood-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "IB_mean": 4.87,
+            "IH_mean": 3.2
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T13-greatestgood-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 30,
+          "items_agreed": 11,
+          "agreement_percent": 36.7
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 9,
+          "agreement_percent": 30.0
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 15,
+          "agreement_percent": 50.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 30,
+          "items_agreed": 11,
+          "agreement_percent": 36.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 30,
+          "items_agreed": 11,
+          "agreement_percent": 36.7
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 30,
+          "items_agreed": 11,
+          "agreement_percent": 36.7
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 30,
+          "items_agreed": 11,
+          "agreement_percent": 36.7
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 24,
+          "agreement_percent": 80.0
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 17,
+          "agreement_percent": 56.7
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 9,
+          "agreement_percent": 30.0
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 15,
+          "agreement_percent": 50.0
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 9,
+          "agreement_percent": 30.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 15,
+          "agreement_percent": 50.0
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 30,
+          "items_agreed": 30,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 9,
+          "agreement_percent": 30.0
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 15,
+          "agreement_percent": 50.0
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 9,
+          "agreement_percent": 30.0
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 15,
+          "agreement_percent": 50.0
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 30,
+          "items_agreed": 20,
+          "agreement_percent": 66.7
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "Greatest Good (OUS)",
+        "items": 30,
+        "IB_means": {
+          "opus": 4.7,
+          "sonnet": 5.0,
+          "haiku": 4.87
+        },
+        "IH_means": {
+          "opus": 3.0,
+          "sonnet": 3.2,
+          "haiku": 4.47
+        },
+        "IB_IH_gap": {
+          "opus": 1.7,
+          "sonnet": 1.8,
+          "haiku": 0.4
+        },
+        "finding": "CRITICAL: IH acceptance scales inversely with model capability. Haiku IH=4.47 approaches utilitarian philosopher levels (4.5). IB stable across tiers."
+      }
+    },
+    "T14": {
+      "benchmark": "Cognitive Biases in Moral Decision-Making (PNAS)",
+      "items": 22,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 69.2,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T14-cognitivebiases-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 53.8,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T14-cognitivebiases-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 69.2,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T14-cognitivebiases-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 69.2,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T14-cognitivebiases-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 69.2,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T14-cognitivebiases-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 69.2,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T14-cognitivebiases-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 46.2,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T14-cognitivebiases-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "CBR_rate_moral_dilemmas": 53.8,
+            "Altruistic_rate_collective": 77.8
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T14-cognitivebiases-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 22,
+          "items_agreed": 19,
+          "agreement_percent": 86.4
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 17,
+          "agreement_percent": 77.3
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 18,
+          "agreement_percent": 81.8
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 22,
+          "items_agreed": 19,
+          "agreement_percent": 86.4
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 22,
+          "items_agreed": 19,
+          "agreement_percent": 86.4
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 19,
+          "agreement_percent": 86.4
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 19,
+          "agreement_percent": 86.4
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 20,
+          "agreement_percent": 90.9
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 21,
+          "agreement_percent": 95.5
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 17,
+          "agreement_percent": 77.3
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 18,
+          "agreement_percent": 81.8
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 17,
+          "agreement_percent": 77.3
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 18,
+          "agreement_percent": 81.8
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 17,
+          "agreement_percent": 77.3
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 18,
+          "agreement_percent": 81.8
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 17,
+          "agreement_percent": 77.3
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 18,
+          "agreement_percent": 81.8
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 22,
+          "items_agreed": 21,
+          "agreement_percent": 95.5
+        }
+      },
+      "opus_metric_baseline": {
+        "benchmark": "Cognitive Biases (PNAS)",
+        "items": 22,
+        "CBR_rate_MD": {
+          "opus": 46.2,
+          "sonnet": 53.8,
+          "haiku": 69.2
+        },
+        "Altruistic_rate_CA": {
+          "opus": 77.8,
+          "sonnet": 77.8,
+          "haiku": 77.8
+        },
+        "pairwise_agreement": {
+          "opus_sonnet": 77.3,
+          "opus_haiku": 63.6,
+          "sonnet_haiku": 77.3
+        },
+        "three_model_agreement": "59.1%",
+        "key_divergence_items": [
+          "MD3",
+          "MD6",
+          "MD9",
+          "MD10",
+          "MD12"
+        ],
+        "finding": "Haiku is 23pp more consequentialist than Opus on moral dilemmas. Collective action altruism is model-invariant."
+      }
+    },
+    "T15": {
+      "benchmark": "ProMoral-Bench",
+      "items": 5,
+      "models": [
+        {
+          "model": "claude-haiku-4-5",
+          "provider": "Anthropic",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T15-promoralbench-haiku.json"
+        },
+        {
+          "model": "claude-sonnet-4-6",
+          "provider": "Anthropic",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/20260404-trial-T15-promoralbench-sonnet.json"
+        },
+        {
+          "model": "gemini-2.5-flash",
+          "provider": "Google",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash/20260404-trial-T15-promoralbench-gemini-2.5-flash.json"
+        },
+        {
+          "model": "gemini-2.5-flash-lite",
+          "provider": "Google",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-flash-lite/20260404-trial-T15-promoralbench-gemini-2.5-flash-lite.json"
+        },
+        {
+          "model": "gemini-2.5-pro",
+          "provider": "Google",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-2.5-pro/20260404-trial-T15-promoralbench-gemini-2.5-pro.json"
+        },
+        {
+          "model": "gemini-3.1-pro",
+          "provider": "Google",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/STATISTICS/gemini-3.1-pro/20260404-trial-T15-promoralbench-gemini-3.1-pro.json"
+        },
+        {
+          "model": "gpt-5 (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/results/20260404-trial-T15-promoralbench-gpt-codex.json"
+        },
+        {
+          "model": "gpt-5-mini (Codex agent)",
+          "provider": "OpenAI",
+          "metrics": {
+            "accuracy_zero_shot": 100.0,
+            "accuracy_few_shot_cot": 100.0,
+            "accuracy_constitutional": 100.0
+          },
+          "path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/NORM-ETHICS/Codex/mini/results/20260404-trial-T15-promoralbench-gpt-codex-mini.json"
+        }
+      ],
+      "pairwise_agreement": {
+        "claude-haiku-4-5 vs claude-sonnet-4-6": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-2.5-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gemini-3.1-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-2.5-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gemini-3.1-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-2.5-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gemini-3.1-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gemini-3.1-pro": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        }
+      },
+      "opus_metric_baseline": null
+    }
+  },
+  "aggregate_pairwise_agreement": {
+    "claude-haiku-4-5 vs claude-sonnet-4-6": {
+      "items_compared": 114,
+      "items_agreed": 85,
+      "agreement_percent": 74.6
+    },
+    "claude-haiku-4-5 vs gemini-2.5-flash": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "claude-haiku-4-5 vs gemini-2.5-flash-lite": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "claude-haiku-4-5 vs gemini-2.5-pro": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "claude-haiku-4-5 vs gemini-3.1-pro": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "claude-haiku-4-5 vs gpt-5 (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 81,
+      "agreement_percent": 71.1
+    },
+    "claude-haiku-4-5 vs gpt-5-mini (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 90,
+      "agreement_percent": 78.9
+    },
+    "claude-sonnet-4-6 vs gemini-2.5-flash": {
+      "items_compared": 114,
+      "items_agreed": 85,
+      "agreement_percent": 74.6
+    },
+    "claude-sonnet-4-6 vs gemini-2.5-flash-lite": {
+      "items_compared": 114,
+      "items_agreed": 85,
+      "agreement_percent": 74.6
+    },
+    "claude-sonnet-4-6 vs gemini-2.5-pro": {
+      "items_compared": 114,
+      "items_agreed": 85,
+      "agreement_percent": 74.6
+    },
+    "claude-sonnet-4-6 vs gemini-3.1-pro": {
+      "items_compared": 114,
+      "items_agreed": 85,
+      "agreement_percent": 74.6
+    },
+    "claude-sonnet-4-6 vs gpt-5 (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 103,
+      "agreement_percent": 90.4
+    },
+    "claude-sonnet-4-6 vs gpt-5-mini (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 96,
+      "agreement_percent": 84.2
+    },
+    "gemini-2.5-flash vs gemini-2.5-flash-lite": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "gemini-2.5-flash vs gemini-2.5-pro": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "gemini-2.5-flash vs gemini-3.1-pro": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "gemini-2.5-flash vs gpt-5 (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 81,
+      "agreement_percent": 71.1
+    },
+    "gemini-2.5-flash vs gpt-5-mini (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 90,
+      "agreement_percent": 78.9
+    },
+    "gemini-2.5-flash-lite vs gemini-2.5-pro": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "gemini-2.5-flash-lite vs gemini-3.1-pro": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "gemini-2.5-flash-lite vs gpt-5 (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 81,
+      "agreement_percent": 71.1
+    },
+    "gemini-2.5-flash-lite vs gpt-5-mini (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 90,
+      "agreement_percent": 78.9
+    },
+    "gemini-2.5-pro vs gemini-3.1-pro": {
+      "items_compared": 114,
+      "items_agreed": 114,
+      "agreement_percent": 100.0
+    },
+    "gemini-2.5-pro vs gpt-5 (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 81,
+      "agreement_percent": 71.1
+    },
+    "gemini-2.5-pro vs gpt-5-mini (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 90,
+      "agreement_percent": 78.9
+    },
+    "gemini-3.1-pro vs gpt-5 (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 81,
+      "agreement_percent": 71.1
+    },
+    "gemini-3.1-pro vs gpt-5-mini (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 90,
+      "agreement_percent": 78.9
+    },
+    "gpt-5 (Codex agent) vs gpt-5-mini (Codex agent)": {
+      "items_compared": 114,
+      "items_agreed": 99,
+      "agreement_percent": 86.8
+    }
+  }
+}

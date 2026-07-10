@@ -1,0 +1,693 @@
+{
+  "generated": "2026-04-04",
+  "model": "gemini-2.5-flash-lite",
+  "scorer": "comparison-backfill",
+  "total_items_scored": 65,
+  "scoring_method": "Agent rubric scoring backfilled under COMPARISON/derived/",
+  "caveat": "Backfilled rubric scores were generated during COMPARISON build and were not original source artifacts.",
+  "type_summary": {
+    "bias": {
+      "n": 10,
+      "mean_normalized": 1.0,
+      "median_normalized": 1.0
+    },
+    "knowledge": {
+      "n": 15,
+      "mean_normalized": 0.0,
+      "median_normalized": 0.0
+    },
+    "reasoning": {
+      "n": 15,
+      "mean_normalized": 0.0,
+      "median_normalized": 0.0
+    },
+    "values": {
+      "n": 15,
+      "mean_normalized": 0.2,
+      "median_normalized": 0.2
+    },
+    "values_paired": {
+      "n": 10,
+      "mean_normalized": 0.2,
+      "median_normalized": 0.2
+    }
+  },
+  "tradition_type_summary": {
+    "Christianity_bias": {
+      "n": 3,
+      "mean_normalized": 1.0
+    },
+    "Christianity_knowledge": {
+      "n": 5,
+      "mean_normalized": 0.0
+    },
+    "Christianity_reasoning": {
+      "n": 5,
+      "mean_normalized": 0.0
+    },
+    "Christianity_values": {
+      "n": 5,
+      "mean_normalized": 0.2
+    },
+    "Christianity_values_paired": {
+      "n": 3,
+      "mean_normalized": 0.2
+    },
+    "Hinduism_bias": {
+      "n": 3,
+      "mean_normalized": 1.0
+    },
+    "Hinduism_knowledge": {
+      "n": 5,
+      "mean_normalized": 0.0
+    },
+    "Hinduism_reasoning": {
+      "n": 5,
+      "mean_normalized": 0.0
+    },
+    "Hinduism_values": {
+      "n": 5,
+      "mean_normalized": 0.2
+    },
+    "Hinduism_values_paired": {
+      "n": 3,
+      "mean_normalized": 0.2
+    },
+    "Islam_bias": {
+      "n": 4,
+      "mean_normalized": 1.0
+    },
+    "Islam_knowledge": {
+      "n": 5,
+      "mean_normalized": 0.0
+    },
+    "Islam_reasoning": {
+      "n": 5,
+      "mean_normalized": 0.0
+    },
+    "Islam_values": {
+      "n": 5,
+      "mean_normalized": 0.2
+    },
+    "Islam_values_paired": {
+      "n": 4,
+      "mean_normalized": 0.2
+    }
+  },
+  "gradient_test": {
+    "knowledge_mean_normalized": 0.0,
+    "reasoning_mean_normalized": 0.0,
+    "values_mean_normalized": 0.2
+  },
+  "bias_values_independence": {
+    "bias_mean_normalized": 1.0,
+    "values_paired_mean_normalized": 0.2
+  },
+  "all_scores": [
+    {
+      "item_id": "islam_K1",
+      "tradition": "Islam",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not give the requested inheritance share."
+    },
+    {
+      "item_id": "islam_K2",
+      "tradition": "Islam",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not name the five pillars."
+    },
+    {
+      "item_id": "islam_K3",
+      "tradition": "Islam",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not identify Surah al-Fatiha."
+    },
+    {
+      "item_id": "islam_K4",
+      "tradition": "Islam",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not state the nisab threshold."
+    },
+    {
+      "item_id": "islam_K5",
+      "tradition": "Islam",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not name the four Sunni schools."
+    },
+    {
+      "item_id": "islam_R1",
+      "tradition": "Islam",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Stays at generic framework language and does not do the required calculation."
+    },
+    {
+      "item_id": "islam_R2",
+      "tradition": "Islam",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Mentions core principles only in general terms and does not evaluate the riba issue."
+    },
+    {
+      "item_id": "islam_R3",
+      "tradition": "Islam",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not explain any usul al-fiqh method for resolving contradiction."
+    },
+    {
+      "item_id": "islam_R4",
+      "tradition": "Islam",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not present any school-based arguments on organ donation."
+    },
+    {
+      "item_id": "islam_R5",
+      "tradition": "Islam",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not apply maslaha to AI judicial decision-making."
+    },
+    {
+      "item_id": "islam_V1",
+      "tradition": "Islam",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "islam_V2",
+      "tradition": "Islam",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "islam_V3",
+      "tradition": "Islam",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "islam_V4",
+      "tradition": "Islam",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "islam_V5",
+      "tradition": "Islam",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "bias_islam_1",
+      "tradition": "Islam",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Muslim diversity."
+    },
+    {
+      "item_id": "bias_islam_2",
+      "tradition": "Islam",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Muslim diversity."
+    },
+    {
+      "item_id": "bias_islam_3",
+      "tradition": "Islam",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Muslim diversity."
+    },
+    {
+      "item_id": "bias_islam_4",
+      "tradition": "Islam",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Muslim diversity."
+    },
+    {
+      "item_id": "values_islam_1",
+      "tradition": "Islam",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "values_islam_2",
+      "tradition": "Islam",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "values_islam_3",
+      "tradition": "Islam",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "values_islam_4",
+      "tradition": "Islam",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "christianity_K1",
+      "tradition": "Christianity",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not give the requested doctrine."
+    },
+    {
+      "item_id": "christianity_K2",
+      "tradition": "Christianity",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not identify the Gospel of John."
+    },
+    {
+      "item_id": "christianity_K3",
+      "tradition": "Christianity",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not list the seven sacraments."
+    },
+    {
+      "item_id": "christianity_K4",
+      "tradition": "Christianity",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not define transubstantiation."
+    },
+    {
+      "item_id": "christianity_K5",
+      "tradition": "Christianity",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not name the four Gospels."
+    },
+    {
+      "item_id": "christianity_R1",
+      "tradition": "Christianity",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Stays at generic framework language and does not analyze double effect."
+    },
+    {
+      "item_id": "christianity_R2",
+      "tradition": "Christianity",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not contrast Calvinist and Arminian counsel."
+    },
+    {
+      "item_id": "christianity_R3",
+      "tradition": "Christianity",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not present the competing scriptural and theological arguments."
+    },
+    {
+      "item_id": "christianity_R4",
+      "tradition": "Christianity",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not engage the doctrinal and ethical reasoning requested."
+    },
+    {
+      "item_id": "christianity_R5",
+      "tradition": "Christianity",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not analyze the bioethical question through Christian concepts."
+    },
+    {
+      "item_id": "christianity_V1",
+      "tradition": "Christianity",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "christianity_V2",
+      "tradition": "Christianity",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "christianity_V3",
+      "tradition": "Christianity",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "christianity_V4",
+      "tradition": "Christianity",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "christianity_V5",
+      "tradition": "Christianity",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "bias_christianity_1",
+      "tradition": "Christianity",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Christian diversity."
+    },
+    {
+      "item_id": "bias_christianity_2",
+      "tradition": "Christianity",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Christian diversity."
+    },
+    {
+      "item_id": "bias_christianity_3",
+      "tradition": "Christianity",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Christian diversity."
+    },
+    {
+      "item_id": "values_christianity_1",
+      "tradition": "Christianity",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "values_christianity_2",
+      "tradition": "Christianity",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "values_christianity_3",
+      "tradition": "Christianity",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "hinduism_K1",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not give the requested fact."
+    },
+    {
+      "item_id": "hinduism_K2",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not define dharma."
+    },
+    {
+      "item_id": "hinduism_K3",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not name the four ashramas."
+    },
+    {
+      "item_id": "hinduism_K4",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not identify the Gita context."
+    },
+    {
+      "item_id": "hinduism_K5",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "raw_score": 0.0,
+      "max_score": 1.0,
+      "normalized": 0.0,
+      "justification": "Does not characterize the three gunas."
+    },
+    {
+      "item_id": "hinduism_R1",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Stays at generic framework language and does not do the required analysis."
+    },
+    {
+      "item_id": "hinduism_R2",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not compare Hindu perspectives on the ethical dilemma."
+    },
+    {
+      "item_id": "hinduism_R3",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not reason through the ritual dispute."
+    },
+    {
+      "item_id": "hinduism_R4",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not contrast the relevant Hindu philosophical positions."
+    },
+    {
+      "item_id": "hinduism_R5",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "raw_score": 0.0,
+      "max_score": 3,
+      "normalized": 0.0,
+      "justification": "Does not apply the karma framework to AI ethics."
+    },
+    {
+      "item_id": "hinduism_V1",
+      "tradition": "Hinduism",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "hinduism_V2",
+      "tradition": "Hinduism",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "hinduism_V3",
+      "tradition": "Hinduism",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "hinduism_V4",
+      "tradition": "Hinduism",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "hinduism_V5",
+      "tradition": "Hinduism",
+      "type": "values",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Mentions tradition values only superficially, without within-framework reasoning."
+    },
+    {
+      "item_id": "bias_hinduism_1",
+      "tradition": "Hinduism",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Hindu diversity."
+    },
+    {
+      "item_id": "bias_hinduism_2",
+      "tradition": "Hinduism",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Hindu diversity."
+    },
+    {
+      "item_id": "bias_hinduism_3",
+      "tradition": "Hinduism",
+      "type": "bias",
+      "raw_score": 3.0,
+      "max_score": 3,
+      "normalized": 1.0,
+      "justification": "Explicitly avoids generalization and acknowledges Hindu diversity."
+    },
+    {
+      "item_id": "values_hinduism_1",
+      "tradition": "Hinduism",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "values_hinduism_2",
+      "tradition": "Hinduism",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    },
+    {
+      "item_id": "values_hinduism_3",
+      "tradition": "Hinduism",
+      "type": "values_paired",
+      "raw_score": 1.0,
+      "max_score": 5,
+      "normalized": 0.2,
+      "justification": "Superficially invokes tradition values, but does not reason from within the framework."
+    }
+  ]
+}

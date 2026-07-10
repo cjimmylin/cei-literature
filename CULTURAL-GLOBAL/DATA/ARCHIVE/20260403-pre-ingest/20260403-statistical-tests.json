@@ -1,0 +1,1113 @@
+{
+  "date": "20260403",
+  "total_papers": 2046,
+  "mann_whitney_weird": [
+    {
+      "framework": "virtue_ethics",
+      "high_weird_mean": 4.74,
+      "non_weird_mean": 0.0,
+      "U_statistic": 33550.0,
+      "p_value": 0.019539,
+      "cohens_d": 0.263,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "deontological_ethics",
+      "high_weird_mean": 4.96,
+      "non_weird_mean": 0.5,
+      "U_statistic": 32346.0,
+      "p_value": 0.221573,
+      "cohens_d": 0.269,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "utilitarian_ethics",
+      "high_weird_mean": 6.68,
+      "non_weird_mean": 1.2,
+      "U_statistic": 33903.0,
+      "p_value": 0.074255,
+      "cohens_d": 0.292,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "care_ethics",
+      "high_weird_mean": 1.15,
+      "non_weird_mean": 0.0,
+      "U_statistic": 31850.0,
+      "p_value": 0.132738,
+      "cohens_d": 0.133,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "contractarian_ethics",
+      "high_weird_mean": 0.9,
+      "non_weird_mean": 0.0,
+      "U_statistic": 31550.0,
+      "p_value": 0.188244,
+      "cohens_d": 0.136,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_confucian",
+      "high_weird_mean": 1.9,
+      "non_weird_mean": 0.0,
+      "U_statistic": 32175.0,
+      "p_value": 0.091695,
+      "cohens_d": 0.19,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_ubuntu",
+      "high_weird_mean": 0.88,
+      "non_weird_mean": 0.0,
+      "U_statistic": 31100.0,
+      "p_value": 0.328022,
+      "cohens_d": 0.115,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_islamic_jurisprudence",
+      "high_weird_mean": 0.46,
+      "non_weird_mean": 1.0,
+      "U_statistic": 30116.0,
+      "p_value": 0.268868,
+      "cohens_d": -0.086,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_buddhist",
+      "high_weird_mean": 0.76,
+      "non_weird_mean": 0.0,
+      "U_statistic": 31550.0,
+      "p_value": 0.188242,
+      "cohens_d": 0.117,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_dharmic",
+      "high_weird_mean": 0.5,
+      "non_weird_mean": 0.0,
+      "U_statistic": 30925.0,
+      "p_value": 0.416087,
+      "cohens_d": 0.08,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_indigenous_relational",
+      "high_weird_mean": 2.04,
+      "non_weird_mean": 0.1,
+      "U_statistic": 30932.5,
+      "p_value": 0.601174,
+      "cohens_d": 0.156,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_buen_vivir",
+      "high_weird_mean": 0.24,
+      "non_weird_mean": 0.0,
+      "U_statistic": 30650.0,
+      "p_value": 0.651705,
+      "cohens_d": 0.063,
+      "effect_size": "negligible",
+      "significant_bh_fdr": false
+    }
+  ],
+  "kruskal_wallis_ns": [
+    {
+      "framework": "virtue_ethics",
+      "group_means": {
+        "Global North": 4.68,
+        "Global South": 0.49,
+        "Ambiguous": 1.29
+      },
+      "H_statistic": 27.95,
+      "p_value": 1e-06,
+      "eta_squared": 0.0129,
+      "effect_size": "small",
+      "significant_bh_fdr": true
+    },
+    {
+      "framework": "deontological_ethics",
+      "group_means": {
+        "Global North": 4.76,
+        "Global South": 0.66,
+        "Ambiguous": 2.58
+      },
+      "H_statistic": 10.3,
+      "p_value": 0.005797,
+      "eta_squared": 0.0041,
+      "effect_size": "small",
+      "significant_bh_fdr": true
+    },
+    {
+      "framework": "utilitarian_ethics",
+      "group_means": {
+        "Global North": 6.35,
+        "Global South": 0.88,
+        "Ambiguous": 3.21
+      },
+      "H_statistic": 36.75,
+      "p_value": 0.0,
+      "eta_squared": 0.0173,
+      "effect_size": "small",
+      "significant_bh_fdr": true
+    },
+    {
+      "framework": "care_ethics",
+      "group_means": {
+        "Global North": 1.05,
+        "Global South": 0.49,
+        "Ambiguous": 0.78
+      },
+      "H_statistic": 1.19,
+      "p_value": 0.551096,
+      "eta_squared": 0.0,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "contractarian_ethics",
+      "group_means": {
+        "Global North": 0.82,
+        "Global South": 0.18,
+        "Ambiguous": 0.5
+      },
+      "H_statistic": 4.95,
+      "p_value": 0.084142,
+      "eta_squared": 0.0015,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_confucian",
+      "group_means": {
+        "Global North": 1.92,
+        "Global South": 0.97,
+        "Ambiguous": 5.32
+      },
+      "H_statistic": 26.47,
+      "p_value": 2e-06,
+      "eta_squared": 0.0122,
+      "effect_size": "small",
+      "significant_bh_fdr": true
+    },
+    {
+      "framework": "nw_ubuntu",
+      "group_means": {
+        "Global North": 0.79,
+        "Global South": 1.66,
+        "Ambiguous": 0.3
+      },
+      "H_statistic": 3.95,
+      "p_value": 0.139038,
+      "eta_squared": 0.001,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_islamic_jurisprudence",
+      "group_means": {
+        "Global North": 0.48,
+        "Global South": 0.68,
+        "Ambiguous": 1.16
+      },
+      "H_statistic": 5.46,
+      "p_value": 0.065249,
+      "eta_squared": 0.0017,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_buddhist",
+      "group_means": {
+        "Global North": 0.77,
+        "Global South": 0.8,
+        "Ambiguous": 0.38
+      },
+      "H_statistic": 0.72,
+      "p_value": 0.696779,
+      "eta_squared": 0.0,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_dharmic",
+      "group_means": {
+        "Global North": 0.49,
+        "Global South": 0.65,
+        "Ambiguous": 0.02
+      },
+      "H_statistic": 2.75,
+      "p_value": 0.253276,
+      "eta_squared": 0.0004,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    },
+    {
+      "framework": "nw_indigenous_relational",
+      "group_means": {
+        "Global North": 1.83,
+        "Global South": 2.42,
+        "Ambiguous": 0.67
+      },
+      "H_statistic": 10.23,
+      "p_value": 0.005996,
+      "eta_squared": 0.0041,
+      "effect_size": "small",
+      "significant_bh_fdr": true
+    },
+    {
+      "framework": "nw_buen_vivir",
+      "group_means": {
+        "Global North": 0.21,
+        "Global South": 0.15,
+        "Ambiguous": 0.0
+      },
+      "H_statistic": 1.2,
+      "p_value": 0.54786,
+      "eta_squared": 0.0,
+      "effect_size": "small",
+      "significant_bh_fdr": false
+    }
+  ],
+  "chi_square_region_framework": {
+    "chi2": 457.27,
+    "p_value": 0.0,
+    "dof": 99,
+    "cramers_v": 0.3191,
+    "effect_size": "medium",
+    "contingency_table": {
+      "regions": [
+        "North America",
+        "Western Europe",
+        "East Asia",
+        "MENA",
+        "South Asia",
+        "Southeast Asia",
+        "Latin America & Caribbean",
+        "Eastern Europe & Central Asia",
+        "Oceania",
+        "Sub-Saharan Africa"
+      ],
+      "frameworks": [
+        "virtue_ethics",
+        "deontological_ethics",
+        "utilitarian_ethics",
+        "care_ethics",
+        "contractarian_ethics",
+        "nw_confucian",
+        "nw_ubuntu",
+        "nw_islamic_jurisprudence",
+        "nw_buddhist",
+        "nw_dharmic",
+        "nw_indigenous_relational",
+        "nw_buen_vivir"
+      ],
+      "counts": [
+        [
+          38,
+          51,
+          55,
+          7,
+          12,
+          21,
+          8,
+          4,
+          5,
+          3,
+          16,
+          4
+        ],
+        [
+          31,
+          32,
+          33,
+          4,
+          2,
+          15,
+          6,
+          3,
+          2,
+          0,
+          7,
+          1
+        ],
+        [
+          9,
+          13,
+          12,
+          2,
+          2,
+          25,
+          1,
+          0,
+          1,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          3,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          4,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          2,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "bootstrap_cis": {
+    "North America": {
+      "n": 809,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 3.97,
+          "ci_lower": 2.84,
+          "ci_upper": 5.26
+        },
+        "deontological_ethics": {
+          "mean": 4.68,
+          "ci_lower": 3.59,
+          "ci_upper": 5.92
+        },
+        "utilitarian_ethics": {
+          "mean": 6.4,
+          "ci_lower": 5.26,
+          "ci_upper": 7.73
+        },
+        "care_ethics": {
+          "mean": 1.09,
+          "ci_lower": 0.54,
+          "ci_upper": 1.75
+        },
+        "contractarian_ethics": {
+          "mean": 1.07,
+          "ci_lower": 0.63,
+          "ci_upper": 1.58
+        },
+        "nw_confucian": {
+          "mean": 1.75,
+          "ci_lower": 1.14,
+          "ci_upper": 2.5
+        },
+        "nw_ubuntu": {
+          "mean": 0.73,
+          "ci_lower": 0.3,
+          "ci_upper": 1.3
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 0.32,
+          "ci_lower": 0.06,
+          "ci_upper": 0.64
+        },
+        "nw_buddhist": {
+          "mean": 0.78,
+          "ci_lower": 0.36,
+          "ci_upper": 1.33
+        },
+        "nw_dharmic": {
+          "mean": 0.46,
+          "ci_lower": 0.09,
+          "ci_upper": 0.93
+        },
+        "nw_indigenous_relational": {
+          "mean": 1.62,
+          "ci_lower": 0.88,
+          "ci_upper": 2.42
+        },
+        "nw_buen_vivir": {
+          "mean": 0.25,
+          "ci_lower": 0.06,
+          "ci_upper": 0.56
+        }
+      }
+    },
+    "Western Europe": {
+      "n": 421,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 6.33,
+          "ci_lower": 4.5,
+          "ci_upper": 8.33
+        },
+        "deontological_ethics": {
+          "mean": 5.49,
+          "ci_lower": 3.9,
+          "ci_upper": 7.15
+        },
+        "utilitarian_ethics": {
+          "mean": 7.2,
+          "ci_lower": 5.32,
+          "ci_upper": 9.12
+        },
+        "care_ethics": {
+          "mean": 0.99,
+          "ci_lower": 0.37,
+          "ci_upper": 1.82
+        },
+        "contractarian_ethics": {
+          "mean": 0.57,
+          "ci_lower": 0.23,
+          "ci_upper": 1.05
+        },
+        "nw_confucian": {
+          "mean": 2.11,
+          "ci_lower": 1.12,
+          "ci_upper": 3.18
+        },
+        "nw_ubuntu": {
+          "mean": 1.05,
+          "ci_lower": 0.36,
+          "ci_upper": 1.91
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 0.71,
+          "ci_lower": 0.0,
+          "ci_upper": 1.66
+        },
+        "nw_buddhist": {
+          "mean": 0.59,
+          "ci_lower": 0.15,
+          "ci_upper": 1.21
+        },
+        "nw_dharmic": {
+          "mean": 0.08,
+          "ci_lower": 0.0,
+          "ci_upper": 0.21
+        },
+        "nw_indigenous_relational": {
+          "mean": 1.64,
+          "ci_lower": 0.61,
+          "ci_upper": 2.78
+        },
+        "nw_buen_vivir": {
+          "mean": 0.21,
+          "ci_lower": 0.0,
+          "ci_upper": 0.64
+        }
+      }
+    },
+    "East Asia": {
+      "n": 260,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 2.5,
+          "ci_lower": 1.08,
+          "ci_upper": 4.27
+        },
+        "deontological_ethics": {
+          "mean": 4.08,
+          "ci_lower": 2.5,
+          "ci_upper": 5.87
+        },
+        "utilitarian_ethics": {
+          "mean": 4.37,
+          "ci_lower": 2.83,
+          "ci_upper": 6.12
+        },
+        "care_ethics": {
+          "mean": 1.02,
+          "ci_lower": 0.17,
+          "ci_upper": 2.21
+        },
+        "contractarian_ethics": {
+          "mean": 0.67,
+          "ci_lower": 0.13,
+          "ci_upper": 1.37
+        },
+        "nw_confucian": {
+          "mean": 6.06,
+          "ci_lower": 4.0,
+          "ci_upper": 8.27
+        },
+        "nw_ubuntu": {
+          "mean": 0.38,
+          "ci_lower": 0.0,
+          "ci_upper": 1.15
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_buddhist": {
+          "mean": 0.65,
+          "ci_lower": 0.21,
+          "ci_upper": 1.25
+        },
+        "nw_dharmic": {
+          "mean": 0.21,
+          "ci_lower": 0.0,
+          "ci_upper": 0.77
+        },
+        "nw_indigenous_relational": {
+          "mean": 0.58,
+          "ci_lower": 0.0,
+          "ci_upper": 1.54
+        },
+        "nw_buen_vivir": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        }
+      }
+    },
+    "MENA": {
+      "n": 113,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 0.09,
+          "ci_lower": 0.0,
+          "ci_upper": 0.22
+        },
+        "deontological_ethics": {
+          "mean": 0.31,
+          "ci_lower": 0.09,
+          "ci_upper": 0.62
+        },
+        "utilitarian_ethics": {
+          "mean": 1.19,
+          "ci_lower": 0.71,
+          "ci_upper": 1.77
+        },
+        "care_ethics": {
+          "mean": 0.04,
+          "ci_lower": 0.0,
+          "ci_upper": 0.18
+        },
+        "contractarian_ethics": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_confucian": {
+          "mean": 1.28,
+          "ci_lower": 0.0,
+          "ci_upper": 3.01
+        },
+        "nw_ubuntu": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 3.81,
+          "ci_lower": 1.11,
+          "ci_upper": 7.39
+        },
+        "nw_buddhist": {
+          "mean": 0.04,
+          "ci_lower": 0.0,
+          "ci_upper": 0.13
+        },
+        "nw_dharmic": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_indigenous_relational": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_buen_vivir": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        }
+      }
+    },
+    "South Asia": {
+      "n": 103,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 0.05,
+          "ci_lower": 0.0,
+          "ci_upper": 0.15
+        },
+        "deontological_ethics": {
+          "mean": 1.17,
+          "ci_lower": 0.34,
+          "ci_upper": 2.53
+        },
+        "utilitarian_ethics": {
+          "mean": 1.26,
+          "ci_lower": 0.29,
+          "ci_upper": 2.72
+        },
+        "care_ethics": {
+          "mean": 1.07,
+          "ci_lower": 0.0,
+          "ci_upper": 3.11
+        },
+        "contractarian_ethics": {
+          "mean": 0.05,
+          "ci_lower": 0.0,
+          "ci_upper": 0.15
+        },
+        "nw_confucian": {
+          "mean": 1.75,
+          "ci_lower": 0.34,
+          "ci_upper": 3.45
+        },
+        "nw_ubuntu": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 0.05,
+          "ci_lower": 0.0,
+          "ci_upper": 0.15
+        },
+        "nw_buddhist": {
+          "mean": 0.87,
+          "ci_lower": 0.24,
+          "ci_upper": 1.55
+        },
+        "nw_dharmic": {
+          "mean": 1.8,
+          "ci_lower": 0.05,
+          "ci_upper": 4.17
+        },
+        "nw_indigenous_relational": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_buen_vivir": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        }
+      }
+    },
+    "Southeast Asia": {
+      "n": 102,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 0.25,
+          "ci_lower": 0.0,
+          "ci_upper": 0.69
+        },
+        "deontological_ethics": {
+          "mean": 0.34,
+          "ci_lower": 0.05,
+          "ci_upper": 0.74
+        },
+        "utilitarian_ethics": {
+          "mean": 1.32,
+          "ci_lower": 0.39,
+          "ci_upper": 2.7
+        },
+        "care_ethics": {
+          "mean": 0.05,
+          "ci_lower": 0.0,
+          "ci_upper": 0.15
+        },
+        "contractarian_ethics": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_confucian": {
+          "mean": 1.27,
+          "ci_lower": 0.15,
+          "ci_upper": 2.84
+        },
+        "nw_ubuntu": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 1.13,
+          "ci_lower": 0.0,
+          "ci_upper": 3.38
+        },
+        "nw_buddhist": {
+          "mean": 0.88,
+          "ci_lower": 0.1,
+          "ci_upper": 2.26
+        },
+        "nw_dharmic": {
+          "mean": 0.25,
+          "ci_lower": 0.0,
+          "ci_upper": 0.74
+        },
+        "nw_indigenous_relational": {
+          "mean": 1.18,
+          "ci_lower": 0.05,
+          "ci_upper": 2.79
+        },
+        "nw_buen_vivir": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        }
+      }
+    },
+    "Latin America & Caribbean": {
+      "n": 90,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 1.67,
+          "ci_lower": 0.0,
+          "ci_upper": 4.22
+        },
+        "deontological_ethics": {
+          "mean": 0.06,
+          "ci_lower": 0.0,
+          "ci_upper": 0.17
+        },
+        "utilitarian_ethics": {
+          "mean": 0.17,
+          "ci_lower": 0.0,
+          "ci_upper": 0.44
+        },
+        "care_ethics": {
+          "mean": 0.28,
+          "ci_lower": 0.0,
+          "ci_upper": 0.72
+        },
+        "contractarian_ethics": {
+          "mean": 0.61,
+          "ci_lower": 0.0,
+          "ci_upper": 1.78
+        },
+        "nw_confucian": {
+          "mean": 0.61,
+          "ci_lower": 0.0,
+          "ci_upper": 1.83
+        },
+        "nw_ubuntu": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 0.56,
+          "ci_lower": 0.0,
+          "ci_upper": 1.67
+        },
+        "nw_buddhist": {
+          "mean": 0.44,
+          "ci_lower": 0.0,
+          "ci_upper": 1.28
+        },
+        "nw_dharmic": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_indigenous_relational": {
+          "mean": 7.44,
+          "ci_lower": 3.55,
+          "ci_upper": 11.72
+        },
+        "nw_buen_vivir": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        }
+      }
+    },
+    "Eastern Europe & Central Asia": {
+      "n": 59,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 1.36,
+          "ci_lower": 0.0,
+          "ci_upper": 3.81
+        },
+        "deontological_ethics": {
+          "mean": 1.69,
+          "ci_lower": 0.25,
+          "ci_upper": 3.73
+        },
+        "utilitarian_ethics": {
+          "mean": 2.03,
+          "ci_lower": 0.08,
+          "ci_upper": 5.59
+        },
+        "care_ethics": {
+          "mean": 0.17,
+          "ci_lower": 0.0,
+          "ci_upper": 0.42
+        },
+        "contractarian_ethics": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_confucian": {
+          "mean": 3.73,
+          "ci_lower": 0.85,
+          "ci_upper": 7.29
+        },
+        "nw_ubuntu": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 1.69,
+          "ci_lower": 0.0,
+          "ci_upper": 4.24
+        },
+        "nw_buddhist": {
+          "mean": 0.34,
+          "ci_lower": 0.0,
+          "ci_upper": 0.85
+        },
+        "nw_dharmic": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_indigenous_relational": {
+          "mean": 0.08,
+          "ci_lower": 0.0,
+          "ci_upper": 0.25
+        },
+        "nw_buen_vivir": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        }
+      }
+    },
+    "Oceania": {
+      "n": 38,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 4.34,
+          "ci_lower": 0.0,
+          "ci_upper": 11.32
+        },
+        "deontological_ethics": {
+          "mean": 1.84,
+          "ci_lower": 0.13,
+          "ci_upper": 4.87
+        },
+        "utilitarian_ethics": {
+          "mean": 2.24,
+          "ci_lower": 0.13,
+          "ci_upper": 6.05
+        },
+        "care_ethics": {
+          "mean": 3.03,
+          "ci_lower": 0.0,
+          "ci_upper": 8.55
+        },
+        "contractarian_ethics": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_confucian": {
+          "mean": 1.71,
+          "ci_lower": 0.0,
+          "ci_upper": 4.47
+        },
+        "nw_ubuntu": {
+          "mean": 1.32,
+          "ci_lower": 0.0,
+          "ci_upper": 3.95
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_buddhist": {
+          "mean": 2.11,
+          "ci_lower": 0.13,
+          "ci_upper": 5.27
+        },
+        "nw_dharmic": {
+          "mean": 5.53,
+          "ci_lower": 0.0,
+          "ci_upper": 13.42
+        },
+        "nw_indigenous_relational": {
+          "mean": 13.16,
+          "ci_lower": 4.34,
+          "ci_upper": 23.42
+        },
+        "nw_buen_vivir": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        }
+      }
+    },
+    "Sub-Saharan Africa": {
+      "n": 22,
+      "framework_cis": {
+        "virtue_ethics": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "deontological_ethics": {
+          "mean": 1.14,
+          "ci_lower": 0.0,
+          "ci_upper": 2.5
+        },
+        "utilitarian_ethics": {
+          "mean": 1.59,
+          "ci_lower": 0.23,
+          "ci_upper": 3.64
+        },
+        "care_ethics": {
+          "mean": 0.68,
+          "ci_lower": 0.0,
+          "ci_upper": 1.82
+        },
+        "contractarian_ethics": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_confucian": {
+          "mean": 0.23,
+          "ci_lower": 0.0,
+          "ci_upper": 0.68
+        },
+        "nw_ubuntu": {
+          "mean": 24.55,
+          "ci_lower": 9.09,
+          "ci_upper": 42.73
+        },
+        "nw_islamic_jurisprudence": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_buddhist": {
+          "mean": 2.27,
+          "ci_lower": 0.0,
+          "ci_upper": 6.82
+        },
+        "nw_dharmic": {
+          "mean": 0.0,
+          "ci_lower": 0.0,
+          "ci_upper": 0.0
+        },
+        "nw_indigenous_relational": {
+          "mean": 2.73,
+          "ci_lower": 0.0,
+          "ci_upper": 8.18
+        },
+        "nw_buen_vivir": {
+          "mean": 2.27,
+          "ci_lower": 0.0,
+          "ci_upper": 6.82
+        }
+      }
+    }
+  }
+}

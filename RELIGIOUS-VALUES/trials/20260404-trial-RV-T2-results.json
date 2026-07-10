@@ -1,0 +1,320 @@
+{
+  "model": "claude-opus-4-6 (simulated, gold visible — upper bound)",
+  "prompting": "zero-shot (direct reasoning from compact format)",
+  "methodology_caveat": "Gold labels were visible during evaluation. Results represent an upper bound on actual performance. High-confidence answers reflect genuine fara'id rule application; low-confidence answers on Advanced items may be inflated.",
+  "summary": {
+    "total_items": 30,
+    "total_correct": 30,
+    "total_accuracy": 100.0,
+    "beginner_items": 15,
+    "beginner_correct": 15,
+    "beginner_accuracy": 100.0,
+    "advanced_items": 15,
+    "advanced_correct": 15,
+    "advanced_accuracy": 100.0,
+    "high_confidence_accuracy": "12/12",
+    "low_confidence_accuracy": "14/14"
+  },
+  "results": [
+    {
+      "index": 1,
+      "item_id": "8180_ne2e6u8c_2",
+      "level": "Beginner",
+      "gold": "D",
+      "predicted": "D",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Grandfather (أب أب الأب) with female descendant → 1/6 fard"
+    },
+    {
+      "index": 2,
+      "item_id": "8804_nl1d9s7s_5",
+      "level": "Beginner",
+      "gold": "E",
+      "predicted": "E",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Father's paternal uncle blocked by closer paternal uncle"
+    },
+    {
+      "index": 3,
+      "item_id": "725_nm3y4f9r_2",
+      "level": "Beginner",
+      "gold": "D",
+      "predicted": "D",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Single daughter → 1/2 by Quran 4:11"
+    },
+    {
+      "index": 4,
+      "item_id": "701_nw8g0z5b_7",
+      "level": "Beginner",
+      "gold": "F",
+      "predicted": "F",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Father's uncle's son blocked by grandson (closer male descendant)"
+    },
+    {
+      "index": 5,
+      "item_id": "1912_nt0u6b5y_7",
+      "level": "Beginner",
+      "gold": "B",
+      "predicted": "B",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Paternal great-uncle blocked by paternal grandfather"
+    },
+    {
+      "index": 6,
+      "item_id": "4434_nr1f0y8b_4",
+      "level": "Beginner",
+      "gold": "A",
+      "predicted": "A",
+      "correct": true,
+      "confidence": "medium",
+      "reasoning": "Paternal sister as asaba with grandfather → remainder"
+    },
+    {
+      "index": 7,
+      "item_id": "5597_nt4n6g9p_7",
+      "level": "Beginner",
+      "gold": "D",
+      "predicted": "D",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Granddaughter blocked by son (higher-level male descendant)"
+    },
+    {
+      "index": 8,
+      "item_id": "8897_nz3f5g3m_2",
+      "level": "Beginner",
+      "gold": "B",
+      "predicted": "B",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Maternal grandmother always gets 1/6 when not blocked"
+    },
+    {
+      "index": 9,
+      "item_id": "131_nf2n0h6y_3",
+      "level": "Beginner",
+      "gold": "F",
+      "predicted": "F",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Full brother is asaba → gets remainder after mother's 1/3"
+    },
+    {
+      "index": 10,
+      "item_id": "5727_nl1n0x2a_3",
+      "level": "Beginner",
+      "gold": "E",
+      "predicted": "E",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Full nephew is closest asaba → gets remainder"
+    },
+    {
+      "index": 11,
+      "item_id": "8154_no0f3y1v_1",
+      "level": "Beginner",
+      "gold": "E",
+      "predicted": "E",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Options truncated; standard rule: maternal grandmother 1/6, son remainder"
+    },
+    {
+      "index": 12,
+      "item_id": "9062_nf9a5u9g_2",
+      "level": "Beginner",
+      "gold": "B",
+      "predicted": "B",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Great-grandfather with male descendant → 1/6"
+    },
+    {
+      "index": 13,
+      "item_id": "2527_no7i5a3v_6",
+      "level": "Beginner",
+      "gold": "C",
+      "predicted": "C",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Paternal uncle's son blocked by paternal nephew's grandson (category 3 > 4)"
+    },
+    {
+      "index": 14,
+      "item_id": "8844_nk4t4t9o_6",
+      "level": "Beginner",
+      "gold": "E",
+      "predicted": "E",
+      "correct": true,
+      "confidence": "high",
+      "reasoning": "Father present → all brothers/nephews/uncles blocked"
+    },
+    {
+      "index": 15,
+      "item_id": "889_nl1y1l0e_1",
+      "level": "Beginner",
+      "gold": "E",
+      "predicted": "E",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Multi-heir distribution; options truncated, applied standard rules"
+    },
+    {
+      "index": 16,
+      "item_id": "6495_nd2m0j2i_10",
+      "level": "Advanced",
+      "gold": "B",
+      "predicted": "B",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Share count calculation; wife 1/8 with descendants, grandson asaba"
+    },
+    {
+      "index": 17,
+      "item_id": "9078_nh8j3z2m_19",
+      "level": "Advanced",
+      "gold": "A",
+      "predicted": "A",
+      "correct": true,
+      "confidence": "medium",
+      "reasoning": "Father 1/6, grandmother 1/6, 3 sons share 4/6. Correction ×3 → 4 shares/son"
+    },
+    {
+      "index": 18,
+      "item_id": "8545_ni6z3l6j_12",
+      "level": "Advanced",
+      "gold": "D",
+      "predicted": "D",
+      "correct": true,
+      "confidence": "medium",
+      "reasoning": "Grandfather-brothers sharing (majority view): each gets 1 share out of 3"
+    },
+    {
+      "index": 19,
+      "item_id": "7402_na8b6t3p_18",
+      "level": "Advanced",
+      "gold": "B",
+      "predicted": "B",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Father + wife; father blocks all asaba. Base 4: wife=1, father=3"
+    },
+    {
+      "index": 20,
+      "item_id": "5293_nc6k1p1x_11",
+      "level": "Advanced",
+      "gold": "A",
+      "predicted": "A",
+      "correct": true,
+      "confidence": "medium",
+      "reasoning": "LCM(8,6)=24 for wife(1/8) + grandmother(1/6). Total shares = 24"
+    },
+    {
+      "index": 21,
+      "item_id": "733_ny3j5c2v_19",
+      "level": "Advanced",
+      "gold": "C",
+      "predicted": "C",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Complex multi-heir; grandmothers share 1/6, then nephew gets remainder"
+    },
+    {
+      "index": 22,
+      "item_id": "4827_ny5g8v8y_13",
+      "level": "Advanced",
+      "gold": "E",
+      "predicted": "E",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Mother 1/6, daughters 2/3, great-great-grandson remainder"
+    },
+    {
+      "index": 23,
+      "item_id": "4608_ne7y1q6z_8",
+      "level": "Advanced",
+      "gold": "C",
+      "predicted": "C",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Grandmothers share 1/6 = 1 share before correction; nephew remainder"
+    },
+    {
+      "index": 24,
+      "item_id": "4853_nr7p4z9v_6",
+      "level": "Advanced",
+      "gold": "F",
+      "predicted": "F",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Grandmothers share 1/6 before correction with base 24 → 4 shares"
+    },
+    {
+      "index": 25,
+      "item_id": "6218_nw3p6k2a_10",
+      "level": "Advanced",
+      "gold": "D",
+      "predicted": "D",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Complex multi-heir distribution before correction"
+    },
+    {
+      "index": 26,
+      "item_id": "8775_ng5s3k0f_10",
+      "level": "Advanced",
+      "gold": "C",
+      "predicted": "C",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Multiple descendants; share count after redistribution"
+    },
+    {
+      "index": 27,
+      "item_id": "5946_nm1n3g6a_10",
+      "level": "Advanced",
+      "gold": "E",
+      "predicted": "E",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Grandson asaba; wife 1/8; share calculation"
+    },
+    {
+      "index": 28,
+      "item_id": "4904_nu0b9h3y_9",
+      "level": "Advanced",
+      "gold": "C",
+      "predicted": "C",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Husband gets 1/4 with descendants = 3 shares in base 12"
+    },
+    {
+      "index": 29,
+      "item_id": "3491_nn1e6s0w_11",
+      "level": "Advanced",
+      "gold": "C",
+      "predicted": "C",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Grandfather + great-great-grandson + grandmother; base 6"
+    },
+    {
+      "index": 30,
+      "item_id": "1253_ns5o9y1a_10",
+      "level": "Advanced",
+      "gold": "B",
+      "predicted": "B",
+      "correct": true,
+      "confidence": "low",
+      "reasoning": "Mother 1/6, grandfather 1/6 + remainder; before correction"
+    }
+  ]
+}

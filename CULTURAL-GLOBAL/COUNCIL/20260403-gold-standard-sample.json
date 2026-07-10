@@ -1,0 +1,2685 @@
+{
+  "date": "20260403",
+  "seed": 42,
+  "target_detected": 50,
+  "target_non_detected": 50,
+  "frameworks": {
+    "nw_confucian": {
+      "display_name": "Confucian Role Ethics",
+      "total_detected": 74,
+      "detected_sample_size": 50,
+      "non_detected_sample_size": 50,
+      "small_n": false,
+      "detected_sample": [
+        {
+          "filename": "2023-Hou-Foundational Moral Values for AI Alignment.md",
+          "score": 100,
+          "title": "Foundational Moral Values for AI Alignment"
+        },
+        {
+          "filename": "2023-Qian-Understanding Chinese Moral Stories with Further.md",
+          "score": 100,
+          "title": "Understanding Chinese Moral Stories with Further"
+        },
+        {
+          "filename": "2025-Elder-The Ethics of Digital Ghosts.md",
+          "score": 100,
+          "title": "The Ethics of Digital Ghosts"
+        },
+        {
+          "filename": "2024-So-AI Trained on Confucian Analects.md",
+          "score": 100,
+          "title": "AI Trained on Confucian Analects"
+        },
+        {
+          "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+          "score": 100,
+          "title": "Possibilities and challenges in the moral growth of LLMs"
+        },
+        {
+          "filename": "2024-Yu-CMoralEval.md",
+          "score": 80,
+          "title": "CMoralEval"
+        },
+        {
+          "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+          "score": 80,
+          "title": "CMoralEval: A Moral Evaluation Benchmark for Chinese ..."
+        },
+        {
+          "filename": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+          "score": 65,
+          "title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas"
+        },
+        {
+          "filename": "2025-Ohlhorst-Virtues for AI.md",
+          "score": 60,
+          "title": "Virtues for AI"
+        },
+        {
+          "filename": "2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md",
+          "score": 60,
+          "title": "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models"
+        },
+        {
+          "filename": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+          "score": 55,
+          "title": "Harmonizing Artificial Intelligence for Social Good"
+        },
+        {
+          "filename": "2025-Lan-Fuxi A Benchmark for Evaluating Language.md",
+          "score": 50,
+          "title": "Fuxi A Benchmark for Evaluating Language"
+        },
+        {
+          "filename": "2023-Catapang-EMoTES-3K.md",
+          "score": 50,
+          "title": "EMoTES-3K"
+        },
+        {
+          "filename": "2018-Awad-The Moral Machine experiment.md",
+          "score": 50,
+          "title": "The Moral Machine experiment"
+        },
+        {
+          "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+          "score": 50,
+          "title": "CCD-Bench: Probing Cultural Conflict in LLM Decision-Making"
+        },
+        {
+          "filename": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+          "score": 50,
+          "title": "Multilingual Defining Issues Test"
+        },
+        {
+          "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+          "score": 50,
+          "title": "WenMind A Comprehensive Benchmark for Evaluating"
+        },
+        {
+          "filename": "2024-Huang-TrustLLM.md",
+          "score": 50,
+          "title": "TrustLLM"
+        },
+        {
+          "filename": "2023-Li-ACLUE Can Large Language Model Comprehend.md",
+          "score": 50,
+          "title": "ACLUE Can Large Language Model Comprehend"
+        },
+        {
+          "filename": "2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md",
+          "score": 50,
+          "title": "Safety Evaluation of DeepSeek Models in Chinese Contexts"
+        },
+        {
+          "filename": "2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.md",
+          "score": 50,
+          "title": "A Human Rights-Based Approach to Responsible AI"
+        },
+        {
+          "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+          "score": 50,
+          "title": "ArGen: Auto-Regulation of Generative AI via GRPO and Policy-as-Code"
+        },
+        {
+          "filename": "2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+          "score": 50,
+          "title": "PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models"
+        },
+        {
+          "filename": "2025-Chen-Leveraging large language models to assist.md",
+          "score": 50,
+          "title": "Leveraging large language models to assist"
+        },
+        {
+          "filename": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+          "score": 50,
+          "title": "Virtue-Based Framework for AI Ethics"
+        },
+        {
+          "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+          "score": 50,
+          "title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs"
+        },
+        {
+          "filename": "2024-Zeng-Quantifying Risk Propensities of Large Language.md",
+          "score": 50,
+          "title": "Quantifying Risk Propensities of Large Language"
+        },
+        {
+          "filename": "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md",
+          "score": 50,
+          "title": "Machine Ethics - Creation of a Virtuous Machine"
+        },
+        {
+          "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+          "score": 50,
+          "title": "WYWEB: A NLP Evaluation Benchmark For Classical Chinese"
+        },
+        {
+          "filename": "2025-Shen-Alignment and Safety in LLMs Survey.md",
+          "score": 50,
+          "title": "Alignment and Safety in LLMs Survey"
+        },
+        {
+          "filename": "2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md",
+          "score": 50,
+          "title": "VIVA: A Benchmark for Vision-Grounded Decision-Making with Human Values"
+        },
+        {
+          "filename": "2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.md",
+          "score": 50,
+          "title": "Intersectional Bias in Japanese Large Language Models from a Contextualized Perspective"
+        },
+        {
+          "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+          "score": 50,
+          "title": "African Data Ethics: A Discursive Framework for Black Decolonial AI"
+        },
+        {
+          "filename": "2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md",
+          "score": 50,
+          "title": "Localizing AI: Evaluating Open-Weight Language Models for Languages of Baltic States"
+        },
+        {
+          "filename": "2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md",
+          "score": 50,
+          "title": "Values in the Wild: Discovering and Analyzing Values in Real AI Interactions"
+        },
+        {
+          "filename": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+          "score": 50,
+          "title": "ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs"
+        },
+        {
+          "filename": "2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md",
+          "score": 50,
+          "title": "AC-EVAL Evaluating Ancient Chinese Language Understanding"
+        },
+        {
+          "filename": "2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md",
+          "score": 50,
+          "title": "Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese"
+        },
+        {
+          "filename": "2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md",
+          "score": 50,
+          "title": "Edu-Values -- Evaluating Chinese Education Values of LLMs"
+        },
+        {
+          "filename": "2025-Zhang-CultureScope A Dimensional Lens for Probing.md",
+          "score": 50,
+          "title": "CultureScope A Dimensional Lens for Probing"
+        },
+        {
+          "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+          "score": 50,
+          "title": "JainGPT AI-Powered Chatbot for Jain Literature"
+        },
+        {
+          "filename": "2024-Tu-CharacterEval.md",
+          "score": 50,
+          "title": "CharacterEval"
+        },
+        {
+          "filename": "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md",
+          "score": 50,
+          "title": "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics"
+        },
+        {
+          "filename": "2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md",
+          "score": 50,
+          "title": "Benchmarking Vision Language Models for Cultural Understanding"
+        },
+        {
+          "filename": "2025-Steen-Ethical aspects of ChatGPT.md",
+          "score": 50,
+          "title": "Ethical aspects of ChatGPT"
+        },
+        {
+          "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+          "score": 50,
+          "title": "K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration"
+        },
+        {
+          "filename": "2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md",
+          "score": 50,
+          "title": "AncientBench Towards Comprehensive Evaluation on Excavated"
+        },
+        {
+          "filename": "2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community.md",
+          "score": 50,
+          "title": "Emotional AI, Ethics, and Japanese Spice: Contributing Community, Wholeness, Sincerity, and Heart"
+        },
+        {
+          "filename": "2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.md",
+          "score": 50,
+          "title": "A Risk Taxonomy for Evaluating AI-Powered"
+        },
+        {
+          "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+          "score": 50,
+          "title": "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation"
+        }
+      ],
+      "non_detected_sample": [
+        {
+          "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+          "score": 5,
+          "title": "Indigenous Ethics and Artificial Intelligence"
+        },
+        {
+          "filename": "2025-Su-Understanding How Value Neurons Shape the.md",
+          "score": 0,
+          "title": "Understanding How Value Neurons Shape the"
+        },
+        {
+          "filename": "2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md",
+          "score": 0,
+          "title": "KLEJ: Comprehensive Benchmark for Polish Language Understanding"
+        },
+        {
+          "filename": "2025-Nguyen-VM14K First Vietnamese Medical Benchmark.md",
+          "score": 0,
+          "title": "VM14K: First Vietnamese Medical Benchmark"
+        },
+        {
+          "filename": "2024-Yuan-R-Judge.md",
+          "score": 0,
+          "title": "R-Judge"
+        },
+        {
+          "filename": "2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language.md",
+          "score": 0,
+          "title": "HKCanto-Eval: A Benchmark for Evaluating Cantonese Language Understanding and Cultural Comprehension in LLMs"
+        },
+        {
+          "filename": "2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation.md",
+          "score": 0,
+          "title": "Slovene SuperGLUE Benchmark: Translation and Evaluation"
+        },
+        {
+          "filename": "2026-Lab-SDU's DAISY A Benchmark for Danish Culture.md",
+          "score": 0,
+          "title": "SDU's DAISY: A Benchmark for Danish Culture"
+        },
+        {
+          "filename": "2024-Pistilli-CIVICS.md",
+          "score": 0,
+          "title": "CIVICS"
+        },
+        {
+          "filename": "2021-Team-Slovenian Twitter Hate Speech Dataset IMSyPP-sl.md",
+          "score": 0,
+          "title": "Slovenian Twitter Hate Speech Dataset IMSyPP-sl"
+        },
+        {
+          "filename": "2025-Davies-LexEval A Comprehensive Chinese Legal Benchmark.md",
+          "score": 0,
+          "title": "LexEval: A Comprehensive Chinese Legal Benchmark"
+        },
+        {
+          "filename": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md",
+          "score": 0,
+          "title": "Collective Constitutional AI: Aligning a Language Model with Public Input"
+        },
+        {
+          "filename": "2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md",
+          "score": 0,
+          "title": "Frontiers | Cross-dialectal Arabic translation: comparative analysis on large language models"
+        },
+        {
+          "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+          "score": 0,
+          "title": "EMNLP (Educator-role Moral and Normative LLMs Profiling)"
+        },
+        {
+          "filename": "2025-Hulagadri-Towards fair and comprehensive multilingual LLM benchmarking SEA-LION.md",
+          "score": 0,
+          "title": "Towards fair and comprehensive multilingual LLM benchmarking | SEA-LION"
+        },
+        {
+          "filename": "2025-Zhang-REVAL.md",
+          "score": 0,
+          "title": "REVAL"
+        },
+        {
+          "filename": "2025-Xu-FiSCo Fine-grained Semantic Comparison.md",
+          "score": 0,
+          "title": "FiSCo (Fine-grained Semantic Comparison)"
+        },
+        {
+          "filename": "2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md",
+          "score": 0,
+          "title": "Toxic Bias: Perspective API Misreads German as More Toxic"
+        },
+        {
+          "filename": "2025-Fiaz-UrduLLaMA 1.0 Dataset Curation Preprocessing and Evaluation in.md",
+          "score": 0,
+          "title": "UrduLLaMA 1.0: Dataset Curation, Preprocessing, and Evaluation in Low-Resource Settings"
+        },
+        {
+          "filename": "2023-Ojo-AfroBench - How Good are LLMs on African Languages.md",
+          "score": 0,
+          "title": "AfroBench -- How Good are LLMs on African Languages?"
+        },
+        {
+          "filename": "2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md",
+          "score": 0,
+          "title": "KyrgyzBERT: A Compact, Efficient Language Model for Kyrgyz NLP"
+        },
+        {
+          "filename": "2021-Nozza-HONEST Measuring Hurtful Sentence Completions in Language Models.md",
+          "score": 0,
+          "title": "HONEST"
+        },
+        {
+          "filename": "2020-Seymour-Does Siri Have a Soul Exploring Voice Assistants Through Shinto.md",
+          "score": 0,
+          "title": "Does Siri Have a Soul? Exploring Voice Assistants Through Shinto Design Fictions"
+        },
+        {
+          "filename": "2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md",
+          "score": 0,
+          "title": "A Leaderboard to Benchmark Ethical Biases in LLMs"
+        },
+        {
+          "filename": "2024-Adilazuarda-Towards Measuring and Modeling .md",
+          "score": 0,
+          "title": "Towards Measuring and Modeling \\"
+        },
+        {
+          "filename": "2025-SOCIETY-How Much of a Pluralist is.md",
+          "score": 0,
+          "title": "How Much of a Pluralist is"
+        },
+        {
+          "filename": "2024-Hellwig-The Vedic Compound Dataset.md",
+          "score": 0,
+          "title": "The Vedic Compound Dataset"
+        },
+        {
+          "filename": "2021-Weidinger-Ethical and social risks of harm from Language.md",
+          "score": 0,
+          "title": "Ethical and social risks of harm from Language"
+        },
+        {
+          "filename": "2025-Xi-InfoDeepSeek.md",
+          "score": 0,
+          "title": "InfoDeepSeek"
+        },
+        {
+          "filename": "2024-Altinel-So-haTRed A Novel Hybrid System for.md",
+          "score": 0,
+          "title": "So-haTRed A Novel Hybrid System for"
+        },
+        {
+          "filename": "2025-Yang-CodeMixBench Evaluating Code-Mixing Capabilities of LLMs Across 18.md",
+          "score": 0,
+          "title": "CodeMixBench: Evaluating Code-Mixing Capabilities of LLMs Across 18 Languages"
+        },
+        {
+          "filename": "2022-Kim-ProsocialDialog.md",
+          "score": 0,
+          "title": "ProsocialDialog"
+        },
+        {
+          "filename": "2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md",
+          "score": 0,
+          "title": "Cultural Fidelity in Large-Language Models An"
+        },
+        {
+          "filename": "2024-Garcia-Open Portuguese LLM Leaderboard.md",
+          "score": 0,
+          "title": "Open Portuguese LLM Leaderboard"
+        },
+        {
+          "filename": "2024-Yang-DistillSeq.md",
+          "score": 0,
+          "title": "DistillSeq"
+        },
+        {
+          "filename": "2025-Jing-MASLegalBench.md",
+          "score": 0,
+          "title": "MASLegalBench"
+        },
+        {
+          "filename": "2025-Unknown-New report and guidelines for indigenous data sovereignty in.md",
+          "score": 0,
+          "title": "New report and guidelines for indigenous data sovereignty in artificial intelligence developments | Global AI Ethics and Governance Observatory"
+        },
+        {
+          "filename": "2024-Odero-The Ubuntu Way.md",
+          "score": 0,
+          "title": "The Ubuntu Way"
+        },
+        {
+          "filename": "2023-Huang-Vigogne French instruction-following and chat models.md",
+          "score": 0,
+          "title": "Vigogne: French instruction-following and chat models"
+        },
+        {
+          "filename": "2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.md",
+          "score": 0,
+          "title": "Komodo: A Linguistic Expedition into Indonesia's Regional Languages"
+        },
+        {
+          "filename": "2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.md",
+          "score": 0,
+          "title": "AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs"
+        },
+        {
+          "filename": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.md",
+          "score": 0,
+          "title": "Evaluating and Mitigating Discrimination"
+        },
+        {
+          "filename": "2025-Li-AI Development and Innovation A Comparison of Large Language Models.md",
+          "score": 0,
+          "title": "AI Development and Innovation: A Comparison of Large Language Models from the U.S. and China | ACM Transactions on Management Information Systems"
+        },
+        {
+          "filename": "2024-Elrod-Uncovering Theological and Ethical Biases in.md",
+          "score": 0,
+          "title": "Uncovering Theological and Ethical Biases in"
+        },
+        {
+          "filename": "2025-McGregor-BenchRisk Identifying 57 Failure Modes in AI Safety Benchmarks.md",
+          "score": 0,
+          "title": "BenchRisk: Identifying 57 Failure Modes in AI Safety Benchmarks (McGregor et al.)"
+        },
+        {
+          "filename": "2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md",
+          "score": 0,
+          "title": "SEA-Guard Culturally Grounded Multilingual Safeguard for"
+        },
+        {
+          "filename": "2025-Liu-On the Alignment of Large Language Models with Global Human Opinion.md",
+          "score": 0,
+          "title": "On the Alignment of Large Language Models with Global Human Opinion"
+        },
+        {
+          "filename": "2025-Khurana-Decolonizing Artificial Intelligence Indigenous Knowledge Systems.md",
+          "score": 0,
+          "title": "Decolonizing Artificial Intelligence: Indigenous Knowledge Systems, Epistemic Pluralism, and the Ethics of Technology"
+        },
+        {
+          "filename": "2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md",
+          "score": 0,
+          "title": "Multimodal Hate Speech Detection in Greek Social Media"
+        },
+        {
+          "filename": "2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md",
+          "score": 0,
+          "title": "NormGenesis: Multicultural Dialogue Generation Dataset"
+        }
+      ]
+    },
+    "nw_ubuntu": {
+      "display_name": "Ubuntu Communalism",
+      "total_detected": 22,
+      "detected_sample_size": 22,
+      "non_detected_sample_size": 50,
+      "small_n": true,
+      "detected_sample": [
+        {
+          "filename": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+          "score": 100,
+          "title": "DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020"
+        },
+        {
+          "filename": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+          "score": 100,
+          "title": "The role of the African value of Ubuntu in global"
+        },
+        {
+          "filename": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+          "score": 100,
+          "title": "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective"
+        },
+        {
+          "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+          "score": 100,
+          "title": "A holistic ubuntu artificial intelligence ethics"
+        },
+        {
+          "filename": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+          "score": 100,
+          "title": "The interconnectedness between Ubuntu principles"
+        },
+        {
+          "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+          "score": 100,
+          "title": "African Data Ethics: A Discursive Framework for Black Decolonial AI"
+        },
+        {
+          "filename": "2025-Ochasi-Reframing Justice in Healthcare AI.md",
+          "score": 100,
+          "title": "Reframing Justice in Healthcare AI"
+        },
+        {
+          "filename": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+          "score": 100,
+          "title": "Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy"
+        },
+        {
+          "filename": "2025-Yilma-Ethics of AI in Africa.md",
+          "score": 100,
+          "title": "Ethics of AI in Africa"
+        },
+        {
+          "filename": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+          "score": 100,
+          "title": "An Ubuntu-Guided Large Language Model Framework"
+        },
+        {
+          "filename": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md",
+          "score": 75,
+          "title": "Enriching Moral Perspectives on AI: Concepts of Trust amongst Africans"
+        },
+        {
+          "filename": "2024-Odero-The Ubuntu Way.md",
+          "score": 65,
+          "title": "The Ubuntu Way"
+        },
+        {
+          "filename": "2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md",
+          "score": 50,
+          "title": "AfriQA Cross-lingual Open-Retrieval Question Answering for"
+        },
+        {
+          "filename": "2023-Liu-AgentBench.md",
+          "score": 50,
+          "title": "AgentBench"
+        },
+        {
+          "filename": "2024-Tlaie-Exploring and steering the moral compass of Large.md",
+          "score": 50,
+          "title": "Exploring and steering the moral compass of Large"
+        },
+        {
+          "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+          "score": 50,
+          "title": "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges"
+        },
+        {
+          "filename": "2025-El Masri-Towards Attuned AI.md",
+          "score": 50,
+          "title": "Towards Attuned AI"
+        },
+        {
+          "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+          "score": 50,
+          "title": "ArGen: Auto-Regulation of Generative AI via GRPO and Policy-as-Code"
+        },
+        {
+          "filename": "2025-Steen-Ethical aspects of ChatGPT.md",
+          "score": 50,
+          "title": "Ethical aspects of ChatGPT"
+        },
+        {
+          "filename": "2025-Terziyan-Towards ethical evolution.md",
+          "score": 50,
+          "title": "Towards ethical evolution"
+        },
+        {
+          "filename": "2025-Wu-OpenDeception.md",
+          "score": 50,
+          "title": "OpenDeception"
+        },
+        {
+          "filename": "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+          "score": 50,
+          "title": "UbuntuGuard A Culturally-Grounded Policy Benchmark for"
+        }
+      ],
+      "non_detected_sample": [
+        {
+          "filename": "2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md",
+          "score": 0,
+          "title": "Towards a Complete Kurdish NLP Pipeline: Challenges and Opportunities"
+        },
+        {
+          "filename": "2025-Bang-HalluLens LLM Hallucination Benchmark.md",
+          "score": 0,
+          "title": "HalluLens: LLM Hallucination Benchmark"
+        },
+        {
+          "filename": "2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.md",
+          "score": 0,
+          "title": "IndicParam Benchmark to Evaluate LLMs on"
+        },
+        {
+          "filename": "2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.md",
+          "score": 0,
+          "title": "Exploring Portuguese Hate Speech Detection in Low-Resource Settings: Lightly Tuning Encoder Models or In-Context Learning of Large Models?"
+        },
+        {
+          "filename": "2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md",
+          "score": 0,
+          "title": "Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT"
+        },
+        {
+          "filename": "2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md",
+          "score": 0,
+          "title": "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context"
+        },
+        {
+          "filename": "2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md",
+          "score": 0,
+          "title": "Toxic Bias: Perspective API Misreads German as More Toxic"
+        },
+        {
+          "filename": "2024-Compostela-Open Generative Large Language Models for Galician.md",
+          "score": 0,
+          "title": "Open Generative Large Language Models for Galician"
+        },
+        {
+          "filename": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md",
+          "score": 0,
+          "title": "Beyond Single-Sentence Prompts: Upgrading Value Alignment Benchmarks with Dialogues and Stories"
+        },
+        {
+          "filename": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+          "score": 0,
+          "title": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice"
+        },
+        {
+          "filename": "2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.md",
+          "score": 0,
+          "title": "The Veln(ia)s is in the Details: Evaluating LLM Judgment on Latvian and Lithuanian Short Answer Matching"
+        },
+        {
+          "filename": "2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md",
+          "score": 0,
+          "title": "Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on End-User Devices"
+        },
+        {
+          "filename": "2023-University-Antisemitism on Twitter A Dataset for.md",
+          "score": 0,
+          "title": "Antisemitism on Twitter A Dataset for"
+        },
+        {
+          "filename": "2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.md",
+          "score": 0,
+          "title": "Nunchi-Bench: Benchmarking Language Models on Cultural Reasoning with a Focus on Korean Superstition"
+        },
+        {
+          "filename": "2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.md",
+          "score": 0,
+          "title": "Sentiment Analysis Across Languages: Evaluation Before and After Machine Translation to English"
+        },
+        {
+          "filename": "2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+          "score": 0,
+          "title": "Beyond Verdicts LLM Moral Competence"
+        },
+        {
+          "filename": "2025-Ni-A Survey on Large Language Model Benchmarks.md",
+          "score": 0,
+          "title": "A Survey on Large Language Model Benchmarks"
+        },
+        {
+          "filename": "2025-Open-Uncensored AI in the Wild Tracking Publicly Available and Locally.md",
+          "score": 0,
+          "title": "Uncensored AI in the Wild: Tracking Publicly Available and Locally Deployable LLMs"
+        },
+        {
+          "filename": "2021-Askell-A General Language Assistant as a Laboratory for.md",
+          "score": 0,
+          "title": "A General Language Assistant as a Laboratory for"
+        },
+        {
+          "filename": "2023-researchers-Transformer-Based Language Models for Bulgarian.md",
+          "score": 0,
+          "title": "Transformer-Based Language Models for Bulgarian"
+        },
+        {
+          "filename": "2025-Sanwoolu-Kantian deontology for AI.md",
+          "score": 0,
+          "title": "Kantian deontology for AI"
+        },
+        {
+          "filename": "2020-Awad-Crowdsourcing moral machines.md",
+          "score": 0,
+          "title": "Crowdsourcing moral machines"
+        },
+        {
+          "filename": "2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md",
+          "score": 0,
+          "title": "Evalita-LLM: Benchmarking Large Language Models on Italian"
+        },
+        {
+          "filename": "2024-Jones-Fit for Our Purpose Not Yours.md",
+          "score": 0,
+          "title": "Fit for Our Purpose Not Yours"
+        },
+        {
+          "filename": "2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md",
+          "score": 0,
+          "title": "CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks"
+        },
+        {
+          "filename": "2024-Chouhan-HindiLLM Large Language Model for Hindi.md",
+          "score": 0,
+          "title": "HindiLLM Large Language Model for Hindi"
+        },
+        {
+          "filename": "2021-Keren-ParaShoot.md",
+          "score": 0,
+          "title": "ParaShoot"
+        },
+        {
+          "filename": "2023-Shen-“Do Anything Now”.md",
+          "score": 0,
+          "title": "'Do Anything Now'"
+        },
+        {
+          "filename": "2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+          "score": 0,
+          "title": "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems"
+        },
+        {
+          "filename": "2025-community-Setting Standards in Turkish NLP TR-MMLU.md",
+          "score": 0,
+          "title": "Setting Standards in Turkish NLP TR-MMLU"
+        },
+        {
+          "filename": "2025-Cheung-LLMs Amplified Cognitive Biases Moral.md",
+          "score": 0,
+          "title": "LLMs Amplified Cognitive Biases"
+        },
+        {
+          "filename": "2025-Unknown-New Guidelines for Evaluating Literary Translation in Hiring and.md",
+          "score": 0,
+          "title": "New Guidelines for Evaluating Literary Translation in Hiring and Promotion Decisions | ALTA Blog"
+        },
+        {
+          "filename": "2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for.md",
+          "score": 0,
+          "title": "JailBench: A Comprehensive Chinese Security Assessment Benchmark for Large Language Models"
+        },
+        {
+          "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+          "score": 0,
+          "title": "WenMind A Comprehensive Benchmark for Evaluating"
+        },
+        {
+          "filename": "2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md",
+          "score": 0,
+          "title": "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew"
+        },
+        {
+          "filename": "2025-Jacovi-The FACTS Grounding Leaderboard.md",
+          "score": 0,
+          "title": "The FACTS Grounding Leaderboard"
+        },
+        {
+          "filename": "2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md",
+          "score": 0,
+          "title": "VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese Legal Reasoning of Large Language Models"
+        },
+        {
+          "filename": "2024-Pistilli-CIVICS.md",
+          "score": 0,
+          "title": "CIVICS"
+        },
+        {
+          "filename": "2025-Verma-MILU A Multi-task Indic Language Understanding.md",
+          "score": 0,
+          "title": "MILU A Multi-task Indic Language Understanding"
+        },
+        {
+          "filename": "2025-Yesil-Yesil o1 Pro.md",
+          "score": 0,
+          "title": "Yesil o1 Pro"
+        },
+        {
+          "filename": "2025-Hosseinbeigi-Advancing Persian LLM Evaluation.md",
+          "score": 0,
+          "title": "Advancing Persian LLM Evaluation"
+        },
+        {
+          "filename": "2024-Vladimirova-FairJob.md",
+          "score": 0,
+          "title": "FairJob"
+        },
+        {
+          "filename": "2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md",
+          "score": 0,
+          "title": "Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models"
+        },
+        {
+          "filename": "2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU.md",
+          "score": 0,
+          "title": "Measuring Taiwanese Mandarin Language Understanding (TMLU)"
+        },
+        {
+          "filename": "2023-Bang-Towards Answering Open-ended Ethical Quandary.md",
+          "score": 0,
+          "title": "Towards Answering Open-ended Ethical Quandary"
+        },
+        {
+          "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+          "score": 0,
+          "title": "K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration"
+        },
+        {
+          "filename": "2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md",
+          "score": 0,
+          "title": "Cross-Lingual Fact Verification: Analyzing LLM Performance ..."
+        },
+        {
+          "filename": "2025-Chaudhari-RLHF Deciphered.md",
+          "score": 0,
+          "title": "RLHF Deciphered"
+        },
+        {
+          "filename": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+          "score": 0,
+          "title": "Towards Fairness Assessment of Dutch Hate Speech Detection"
+        },
+        {
+          "filename": "2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md",
+          "score": 0,
+          "title": "Benchmarking LLMs for Translating Classical Chinese Poetry: Evaluating Adequacy, Fluency, and Elegance"
+        }
+      ]
+    },
+    "nw_islamic_jurisprudence": {
+      "display_name": "Islamic Jurisprudence (Usul al-Fiqh)",
+      "total_detected": 17,
+      "detected_sample_size": 17,
+      "non_detected_sample_size": 50,
+      "small_n": true,
+      "detected_sample": [
+        {
+          "filename": "2021-Munshi-Towards an Automated Islamic Fatwa System.md",
+          "score": 100,
+          "title": "Towards an Automated Islamic Fatwa System"
+        },
+        {
+          "filename": "2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md",
+          "score": 100,
+          "title": "A Data-Driven Exploration of a New Islamic Fatwas"
+        },
+        {
+          "filename": "2023-Alyemny-FatwaSet.md",
+          "score": 100,
+          "title": "FatwaSet"
+        },
+        {
+          "filename": "2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md",
+          "score": 100,
+          "title": "LLMs and Islamic Fiqh A Reliability"
+        },
+        {
+          "filename": "2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md",
+          "score": 100,
+          "title": "Fine-tuning Large Language Model (BERT) for"
+        },
+        {
+          "filename": "2025-Mohammed-Aftina.md",
+          "score": 100,
+          "title": "Aftina"
+        },
+        {
+          "filename": "2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md",
+          "score": 85,
+          "title": "QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment"
+        },
+        {
+          "filename": "2025-Ghaly-Assessing Large Language Models on Islamic.md",
+          "score": 85,
+          "title": "Assessing Large Language Models on Islamic"
+        },
+        {
+          "filename": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+          "score": 50,
+          "title": "MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language"
+        },
+        {
+          "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+          "score": 50,
+          "title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious"
+        },
+        {
+          "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+          "score": 50,
+          "title": "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values"
+        },
+        {
+          "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md",
+          "score": 50,
+          "title": "IslamTrust A Benchmark for LLMs Alignment"
+        },
+        {
+          "filename": "2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md",
+          "score": 50,
+          "title": "EPT Benchmark: Evaluation of Persian Trustworthiness in Large Language Models"
+        },
+        {
+          "filename": "2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.md",
+          "score": 50,
+          "title": "Evaluating Arabic Large Language Models: A Survey of Benchmarks, Methods, and Gaps"
+        },
+        {
+          "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md",
+          "score": 50,
+          "title": "Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation"
+        },
+        {
+          "filename": "2026-Alam-From RAG to Agentic RAG for.md",
+          "score": 50,
+          "title": "From RAG to Agentic RAG for"
+        },
+        {
+          "filename": "2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md",
+          "score": 50,
+          "title": "Arabic LLMs for Banking, Telecom and Government in GCC - 2026"
+        }
+      ],
+      "non_detected_sample": [
+        {
+          "filename": "2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md",
+          "score": 0,
+          "title": "Cross-Lingual Fact Verification: Analyzing LLM Performance ..."
+        },
+        {
+          "filename": "2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub.md",
+          "score": 0,
+          "title": "LLM Evaluation Benchmarks and Safety Datasets for 2025 | Knowledge Hub"
+        },
+        {
+          "filename": "2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md",
+          "score": 0,
+          "title": "Evaluation of AI Ethics Tools in Language Models: A Developers' Perspective Case Study"
+        },
+        {
+          "filename": "2025-Winata-The Decades Progress on Code-Switching Research in NLP.md",
+          "score": 0,
+          "title": "The Decades Progress on Code-Switching Research in NLP"
+        },
+        {
+          "filename": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md",
+          "score": 0,
+          "title": "F2Bench: An Open-ended Fairness Evaluation Benchmark ..."
+        },
+        {
+          "filename": "2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md",
+          "score": 0,
+          "title": "Expert-Annotated Dataset to Study Cyberbullying in Polish Language"
+        },
+        {
+          "filename": "2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.md",
+          "score": 0,
+          "title": "Bias in Large Language Models: Origin, Evaluation, and Mitigation"
+        },
+        {
+          "filename": "2023-University-Antisemitism on Twitter A Dataset for.md",
+          "score": 0,
+          "title": "Antisemitism on Twitter A Dataset for"
+        },
+        {
+          "filename": "2023-Bang-Towards Answering Open-ended Ethical Quandary.md",
+          "score": 0,
+          "title": "Towards Answering Open-ended Ethical Quandary"
+        },
+        {
+          "filename": "2025-Ablimit-A multilingual language processing tool for Uyghur Kazak and Kirghiz.md",
+          "score": 0,
+          "title": "A multilingual language processing tool for Uyghur, Kazak and Kirghiz | IEEE Conference Publication | IEEE Xplore"
+        },
+        {
+          "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+          "score": 0,
+          "title": "ALI-Agent -- Assessing LLMs' Alignment with Human Values via Agent-based Evaluation"
+        },
+        {
+          "filename": "2022-Chalkidis-FairLex.md",
+          "score": 0,
+          "title": "FairLex"
+        },
+        {
+          "filename": "2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md",
+          "score": 0,
+          "title": "DECASTE Unveiling Caste Stereotypes in Large"
+        },
+        {
+          "filename": "2020-Seymour-Does Siri Have a Soul Exploring Voice Assistants Through Shinto.md",
+          "score": 0,
+          "title": "Does Siri Have a Soul? Exploring Voice Assistants Through Shinto Design Fictions"
+        },
+        {
+          "filename": "2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md",
+          "score": 0,
+          "title": "EuroGEST: Investigating Gender Stereotypes in Multilingual Language Models"
+        },
+        {
+          "filename": "2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md",
+          "score": 0,
+          "title": "Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese"
+        },
+        {
+          "filename": "2023-Dwivedi-EtiCor.md",
+          "score": 0,
+          "title": "EtiCor"
+        },
+        {
+          "filename": "2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.md",
+          "score": 0,
+          "title": "Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One"
+        },
+        {
+          "filename": "2023-Guo-COBBLER.md",
+          "score": 0,
+          "title": "COBBLER"
+        },
+        {
+          "filename": "2025-Pothavorn-NitiBench A Comprehensive Study of LLM.md",
+          "score": 0,
+          "title": "NitiBench A Comprehensive Study of LLM"
+        },
+        {
+          "filename": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md",
+          "score": 0,
+          "title": "Many LLMs Are More Utilitarian Than One"
+        },
+        {
+          "filename": "2024-Segev-Artificial Intelligence, Discrimination, Fairness.md",
+          "score": 0,
+          "title": "Artificial Intelligence, Discrimination, Fairness"
+        },
+        {
+          "filename": "2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md",
+          "score": 0,
+          "title": "Towards Measuring the Representation of Subjective Global Opinions in Language Models \\ Anthropic"
+        },
+        {
+          "filename": "2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md",
+          "score": 0,
+          "title": "DaCy: A Unified Framework for Danish NLP"
+        },
+        {
+          "filename": "2024-Oliech-SwaQuAD-24.md",
+          "score": 0,
+          "title": "SwaQuAD-24"
+        },
+        {
+          "filename": "2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md",
+          "score": 0,
+          "title": "LIEA-BERT A Linguistically Enriched Framework for"
+        },
+        {
+          "filename": "2025-Durmus-Subjective Values.md",
+          "score": 0,
+          "title": "Subjective Values"
+        },
+        {
+          "filename": "2024-Weidinger-Holistic Safety and Responsibility Evaluations of.md",
+          "score": 0,
+          "title": "Holistic Safety and Responsibility Evaluations of"
+        },
+        {
+          "filename": "2025-Aravinda-SinLlama A Large Language Model for Sinhala.md",
+          "score": 0,
+          "title": "SinLlama: A Large Language Model for Sinhala"
+        },
+        {
+          "filename": "2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md",
+          "score": 0,
+          "title": "Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases"
+        },
+        {
+          "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+          "score": 0,
+          "title": "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models"
+        },
+        {
+          "filename": "2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.md",
+          "score": 0,
+          "title": "Persuade Me if You Can (PMIYC): A Framework for Evaluating Persuasion Effectiveness and Susceptibility"
+        },
+        {
+          "filename": "2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.md",
+          "score": 0,
+          "title": "Annotated Slovak Datasets for Toxicity, Hate Speech, and Sentiment Analysis"
+        },
+        {
+          "filename": "2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md",
+          "score": 0,
+          "title": "Enhancing Cross-Lingual Transfer through Reversible Transliteration: A Huffman-Based Approach for Low-Resource Languages"
+        },
+        {
+          "filename": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md",
+          "score": 0,
+          "title": "Examining Gender and Race Bias in Two Hundred"
+        },
+        {
+          "filename": "2025-Liu-On the Convergence of Moral Self-Correction in LLMs.md",
+          "score": 0,
+          "title": "On the Convergence of Moral Self-Correction in LLMs"
+        },
+        {
+          "filename": "2022-Pollak-Embeddings Models for Buddhist Sanskrit.md",
+          "score": 0,
+          "title": "Embeddings Models for Buddhist Sanskrit"
+        },
+        {
+          "filename": "2025-Khan-Mitigating Social Bias in English and.md",
+          "score": 0,
+          "title": "Mitigating Social Bias in English and"
+        },
+        {
+          "filename": "2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md",
+          "score": 0,
+          "title": "Context-Aware and Expert Data Resources for Brazilian Portuguese Hate Speech Detection"
+        },
+        {
+          "filename": "2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md",
+          "score": 0,
+          "title": "MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch"
+        },
+        {
+          "filename": "2025-Mohan-A Multimodal Approach for Hate and.md",
+          "score": 0,
+          "title": "A Multimodal Approach for Hate and"
+        },
+        {
+          "filename": "2024-Chiu-DailyDilemmas.md",
+          "score": 0,
+          "title": "DailyDilemmas"
+        },
+        {
+          "filename": "2025-Nguyen-VM14K First Vietnamese Medical Benchmark.md",
+          "score": 0,
+          "title": "VM14K: First Vietnamese Medical Benchmark"
+        },
+        {
+          "filename": "2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md",
+          "score": 0,
+          "title": "MyCulture: Exploring Malaysia's Diverse Culture under Low-Resource Language Constraints"
+        },
+        {
+          "filename": "2024-Lazar-Frontier AI Ethics.md",
+          "score": 0,
+          "title": "Frontier AI Ethics"
+        },
+        {
+          "filename": "2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md",
+          "score": 0,
+          "title": "SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for Vietnamese"
+        },
+        {
+          "filename": "2024-Gu-Probabilistic medical predictions of large.md",
+          "score": 0,
+          "title": "Probabilistic medical predictions of large"
+        },
+        {
+          "filename": "2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md",
+          "score": 0,
+          "title": "MM-Eval: A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge and Reward Models"
+        },
+        {
+          "filename": "2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md",
+          "score": 0,
+          "title": "ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores Non-Gendered Pronouns: Findings across Bengali and Five other Low-Resource Languages"
+        },
+        {
+          "filename": "2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md",
+          "score": 0,
+          "title": "Crossing Linguistic Horizons: Finetuning and Comprehensive Evaluation of Vietnamese Large Language Models"
+        }
+      ]
+    },
+    "nw_buddhist": {
+      "display_name": "Buddhist Ethics",
+      "total_detected": 11,
+      "detected_sample_size": 17,
+      "non_detected_sample_size": 50,
+      "small_n": true,
+      "detected_sample": [
+        {
+          "filename": "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+          "score": 100,
+          "title": "The Humanistic Buddhism Corpus (HBC)"
+        },
+        {
+          "filename": "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+          "score": 100,
+          "title": "MITRA-zh-eval Using a Buddhist Chinese Language"
+        },
+        {
+          "filename": "2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md",
+          "score": 100,
+          "title": "MITRA A Large-Scale Parallel Corpus and"
+        },
+        {
+          "filename": "2025-Graves-AI Practical Wisdom and Compassion.md",
+          "score": 85,
+          "title": "AI Practical Wisdom and Compassion"
+        },
+        {
+          "filename": "2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md",
+          "score": 65,
+          "title": "Divine LLaMAs Bias Stereotypes Stigmatization and"
+        },
+        {
+          "filename": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md",
+          "score": 55,
+          "title": "BuddhismEval A Bilingual Benchmark for Buddhist"
+        },
+        {
+          "filename": "2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+          "score": 50,
+          "title": "Cross-cultural dataset for the evolution of"
+        },
+        {
+          "filename": "2024-Porkaew-Representing the Under-Represented Cultural and Core.md",
+          "score": 50,
+          "title": "Representing the Under-Represented Cultural and Core"
+        },
+        {
+          "filename": "2025-Bryan-Virtue Ethics and Postponing Human Extinction.md",
+          "score": 50,
+          "title": "Virtue Ethics and Postponing Human Extinction"
+        },
+        {
+          "filename": "2025-Kim-Cultural and Core Capability Benchmarks for.md",
+          "score": 50,
+          "title": "Cultural and Core Capability Benchmarks for"
+        },
+        {
+          "filename": "2025-Laukkonen-Contemplative Artificial Intelligence.md",
+          "score": 50,
+          "title": "Contemplative Artificial Intelligence"
+        },
+        {
+          "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+          "score": 40,
+          "title": "Measuring Spiritual Values and Bias of"
+        },
+        {
+          "filename": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md",
+          "score": 40,
+          "title": "Mechanistic Interpretability with SAEs Probing Religion"
+        },
+        {
+          "filename": "2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.md",
+          "score": 35,
+          "title": "Hate speech and abusive language detection in Indonesian social media: Progress and challenges"
+        },
+        {
+          "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+          "score": 35,
+          "title": "Religious Bias Benchmarks for ChatGPT"
+        },
+        {
+          "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md",
+          "score": 35,
+          "title": "BuddhismEval Bilingual Evaluation Benchmark for Buddhist"
+        },
+        {
+          "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+          "score": 30,
+          "title": "WYWEB: A NLP Evaluation Benchmark For Classical Chinese"
+        }
+      ],
+      "non_detected_sample": [
+        {
+          "filename": "2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md",
+          "score": 5,
+          "title": "Sometimes the Model doth Preach Quantifying"
+        },
+        {
+          "filename": "2025-Tennant-Moral Alignment for LLM Agents.md",
+          "score": 0,
+          "title": "Moral Alignment for LLM Agents"
+        },
+        {
+          "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+          "score": 0,
+          "title": "BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla"
+        },
+        {
+          "filename": "2025-Alwajih-Palm.md",
+          "score": 0,
+          "title": "Palm"
+        },
+        {
+          "filename": "2025-Goyal-Vedavani A Benchmark Corpus for ASR.md",
+          "score": 0,
+          "title": "Vedavani A Benchmark Corpus for ASR"
+        },
+        {
+          "filename": "2023-Ray-Benchmarking, ethical alignment, and evaluation.md",
+          "score": 0,
+          "title": "Benchmarking, ethical alignment, and evaluation"
+        },
+        {
+          "filename": "2023-Gao-Large Language Models Empowered Agent-based.md",
+          "score": 0,
+          "title": "Large Language Models Empowered Agent-based"
+        },
+        {
+          "filename": "2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large.md",
+          "score": 0,
+          "title": "Toxic Speech Detection in Portuguese: A Comparative Study of Large Language Models"
+        },
+        {
+          "filename": "2025-Palta-Speaking the Right Language.md",
+          "score": 0,
+          "title": "Speaking the Right Language"
+        },
+        {
+          "filename": "2023-Hou-A Multi-Level Framework for the AI Alignment.md",
+          "score": 0,
+          "title": "A Multi-Level Framework for the AI Alignment"
+        },
+        {
+          "filename": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+          "score": 0,
+          "title": "ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese"
+        },
+        {
+          "filename": "2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md",
+          "score": 0,
+          "title": "TF3-RO: Training Compact Romanian Language Models on Synthetic Moral Microfiction"
+        },
+        {
+          "filename": "2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation.md",
+          "score": 0,
+          "title": "A Cross-Cultural Comparison of LLM-based Public Opinion Simulation: Evaluating Chinese and U.S. Models on Diverse Societies"
+        },
+        {
+          "filename": "2025-approach-A Language model-based approach to sentiment classification of.md",
+          "score": 0,
+          "title": "A Language model-based approach to sentiment classification of languages in central Asia"
+        },
+        {
+          "filename": "2025-Beyer-LLM-Safety Evaluations Lack Robustness.md",
+          "score": 0,
+          "title": "LLM-Safety Evaluations Lack Robustness"
+        },
+        {
+          "filename": "2025-Zhu-TrolleyBench.md",
+          "score": 0,
+          "title": "TrolleyBench"
+        },
+        {
+          "filename": "0000-project-Vedanta Datasets.md",
+          "score": 0,
+          "title": "Vedanta Datasets"
+        },
+        {
+          "filename": "2025-Galatolo-Beyond Ethical Alignment.md",
+          "score": 0,
+          "title": "Beyond Ethical Alignment"
+        },
+        {
+          "filename": "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+          "score": 0,
+          "title": "Differences in Moral Foundations of LLMs"
+        },
+        {
+          "filename": "2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md",
+          "score": 0,
+          "title": "VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese Legal Reasoning of Large Language Models"
+        },
+        {
+          "filename": "2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.md",
+          "score": 0,
+          "title": "Nuanced Metrics for Measuring Unintended Bias"
+        },
+        {
+          "filename": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md",
+          "score": 0,
+          "title": "Pro-Social Rule Breaking as a Benchmark of"
+        },
+        {
+          "filename": "2025-search-DweshVaani An LLM for Detecting Religious.md",
+          "score": 0,
+          "title": "DweshVaani An LLM for Detecting Religious"
+        },
+        {
+          "filename": "2024-Murtala-A multilingual dataset for offensive language.md",
+          "score": 0,
+          "title": "A multilingual dataset for offensive language"
+        },
+        {
+          "filename": "2025-Wu-CVC.md",
+          "score": 0,
+          "title": "CVC"
+        },
+        {
+          "filename": "2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md",
+          "score": 0,
+          "title": "SENSE-7: Taxonomy and Dataset for Measuring User Perceptions of Empathy in Sustained Human-AI Conversations"
+        },
+        {
+          "filename": "2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.md",
+          "score": 0,
+          "title": "GigaChat Family: Efficient Russian Language Modeling Through Mixture of Experts Architecture"
+        },
+        {
+          "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+          "score": 0,
+          "title": "WenMind A Comprehensive Benchmark for Evaluating"
+        },
+        {
+          "filename": "2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md",
+          "score": 0,
+          "title": "WoNBias: A Complete Bengali Gender Bias Dataset"
+        },
+        {
+          "filename": "2021-Cao-Toward Gender-Inclusive Coreference Resolution.md",
+          "score": 0,
+          "title": "Toward Gender-Inclusive Coreference Resolution"
+        },
+        {
+          "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+          "score": 0,
+          "title": "K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration"
+        },
+        {
+          "filename": "2025-Wu-COIG-P.md",
+          "score": 0,
+          "title": "COIG-P"
+        },
+        {
+          "filename": "2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.md",
+          "score": 0,
+          "title": "Exploring the occupational biases and stereotypes of Chinese large language models"
+        },
+        {
+          "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+          "score": 0,
+          "title": "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models"
+        },
+        {
+          "filename": "2021-Sullins-Artificial Phronesis - What It Is and Is Not.md",
+          "score": 0,
+          "title": "Artificial Phronesis - What It Is and Is Not"
+        },
+        {
+          "filename": "2022-Bai-Training a Helpful and Harmless Assistant with.md",
+          "score": 0,
+          "title": "Training a Helpful and Harmless Assistant with"
+        },
+        {
+          "filename": "2025-Mohan-A Multimodal Approach for Hate and.md",
+          "score": 0,
+          "title": "A Multimodal Approach for Hate and"
+        },
+        {
+          "filename": "2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md",
+          "score": 0,
+          "title": "IndicLLMSuite A Blueprint for Creating Pre-training"
+        },
+        {
+          "filename": "2025-Shen-HateBench.md",
+          "score": 0,
+          "title": "HateBench"
+        },
+        {
+          "filename": "2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md",
+          "score": 0,
+          "title": "Automatic Hate Speech Detection in English-Odia Code Mixed Social Media Data Using Machine Learning Techniques"
+        },
+        {
+          "filename": "2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md",
+          "score": 0,
+          "title": "Investigating Retrieval-Augmented Generation in Quranic Studies"
+        },
+        {
+          "filename": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+          "score": 0,
+          "title": "Healthcare Ethics & Safety QA (China -- Healthy China 2030)"
+        },
+        {
+          "filename": "2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md",
+          "score": 0,
+          "title": "Ko-MuSR: A Multistep Soft Reasoning Benchmark for LLMs Capable of Understanding Korean"
+        },
+        {
+          "filename": "2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md",
+          "score": 0,
+          "title": "HATE-ITA: Hate Speech Detection in Italian Social Media Text"
+        },
+        {
+          "filename": "2023-Alsalka-HAQA and QUQA Constructing Two Arabic.md",
+          "score": 0,
+          "title": "HAQA and QUQA Constructing Two Arabic"
+        },
+        {
+          "filename": "2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md",
+          "score": 0,
+          "title": "WolBanking77 Wolof Banking Speech Intent Classification"
+        },
+        {
+          "filename": "2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md",
+          "score": 0,
+          "title": "ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs"
+        },
+        {
+          "filename": "2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.md",
+          "score": 0,
+          "title": "LLMsPark: A Benchmark for Evaluating LLMs in Strategic Gaming Contexts"
+        },
+        {
+          "filename": "2023-Ji-AI Alignment.md",
+          "score": 0,
+          "title": "AI Alignment"
+        },
+        {
+          "filename": "2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+          "score": 0,
+          "title": "Deontology and Safe AI"
+        }
+      ]
+    },
+    "nw_dharmic": {
+      "display_name": "Dharmic Ethics (Hindu/Jain/Sikh)",
+      "total_detected": 9,
+      "detected_sample_size": 10,
+      "non_detected_sample_size": 50,
+      "small_n": true,
+      "detected_sample": [
+        {
+          "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+          "score": 100,
+          "title": "Semantic and Sentiment Analysis of Selected"
+        },
+        {
+          "filename": "2022-Ranjan-Artificial Intelligence for Topic Modelling in.md",
+          "score": 100,
+          "title": "Artificial Intelligence for Topic Modelling in"
+        },
+        {
+          "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+          "score": 100,
+          "title": "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges"
+        },
+        {
+          "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+          "score": 100,
+          "title": "ArGen: Auto-Regulation of Generative AI via GRPO and Policy-as-Code"
+        },
+        {
+          "filename": "2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md",
+          "score": 85,
+          "title": "Ancient Wisdom Modern Tools Exploring Retrieval-Augmented"
+        },
+        {
+          "filename": "2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md",
+          "score": 80,
+          "title": "Comparative Analysis of Religious Texts NLP"
+        },
+        {
+          "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+          "score": 50,
+          "title": "JainGPT AI-Powered Chatbot for Jain Literature"
+        },
+        {
+          "filename": "2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+          "score": 50,
+          "title": "A Multi-Dimensional View of Aggression when"
+        },
+        {
+          "filename": "2025-Umer-Sacred or Secular Religious Bias in.md",
+          "score": 50,
+          "title": "Sacred or Secular Religious Bias in"
+        },
+        {
+          "filename": "0000-project-Vedanta Datasets.md",
+          "score": 35,
+          "title": "Vedanta Datasets"
+        }
+      ],
+      "non_detected_sample": [
+        {
+          "filename": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+          "score": 0,
+          "title": "GVS-Scale and GVS-Bench: GenAI Value Safety Scale"
+        },
+        {
+          "filename": "2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md",
+          "score": 0,
+          "title": "Decolonizing NLP for 'Low-resource Languages': Applying Abebe Birhane's Relational Ethics"
+        },
+        {
+          "filename": "2025-Zhang-CultureScope A Dimensional Lens for Probing.md",
+          "score": 0,
+          "title": "CultureScope A Dimensional Lens for Probing"
+        },
+        {
+          "filename": "2025-Becker-Stay Focused.md",
+          "score": 0,
+          "title": "Stay Focused"
+        },
+        {
+          "filename": "2025-Muñoz-García-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md",
+          "score": 0,
+          "title": "Leading and Non-Leading Prompts: Quantifying Gender Bias in Large Language Models through BiasBloom Corpus"
+        },
+        {
+          "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+          "score": 0,
+          "title": "Indigenous Ethics and Artificial Intelligence"
+        },
+        {
+          "filename": "2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md",
+          "score": 0,
+          "title": "BharatBench: Comprehensive Multilingual Multimodal Evaluations of Indian Languages"
+        },
+        {
+          "filename": "2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md",
+          "score": 0,
+          "title": "Knowledge of Cultural Moral Norms in Large Language Models"
+        },
+        {
+          "filename": "2025-Liu-Cross-cultural value alignment frameworks.md",
+          "score": 0,
+          "title": "Cross-cultural value alignment frameworks"
+        },
+        {
+          "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+          "score": 0,
+          "title": "WenMind A Comprehensive Benchmark for Evaluating"
+        },
+        {
+          "filename": "2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md",
+          "score": 0,
+          "title": "CamelEval: Advancing Culturally Aligned Arabic Language Models and Benchmarks"
+        },
+        {
+          "filename": "2025-Kaewkasi-A Benchmark for Large Language Models on Northern.md",
+          "score": 0,
+          "title": "A Benchmark for Large Language Models on Northern"
+        },
+        {
+          "filename": "2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md",
+          "score": 0,
+          "title": "The Performance of Artificial Intelligence in the Use of Indigenous American Languages"
+        },
+        {
+          "filename": "2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding.md",
+          "score": 0,
+          "title": "CulturalVQA: Evaluating VLMs' Geo-Diverse Cultural Understanding"
+        },
+        {
+          "filename": "2024-Sun-ClarityEthic.md",
+          "score": 0,
+          "title": "ClarityEthic"
+        },
+        {
+          "filename": "2025-Xi-InfoDeepSeek.md",
+          "score": 0,
+          "title": "InfoDeepSeek"
+        },
+        {
+          "filename": "2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+          "score": 0,
+          "title": "PalmX 2025 -- First Shared Task on Benchmarking LLMs on Arabic and Islamic Culture"
+        },
+        {
+          "filename": "2024-Tu-CharacterEval.md",
+          "score": 0,
+          "title": "CharacterEval"
+        },
+        {
+          "filename": "2022-Trye-Harnessing Indigenous Tweets.md",
+          "score": 0,
+          "title": "Harnessing Indigenous Tweets"
+        },
+        {
+          "filename": "2024-Basem-Optimized Quran Passage Retrieval Using an.md",
+          "score": 0,
+          "title": "Optimized Quran Passage Retrieval Using an"
+        },
+        {
+          "filename": "2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+          "score": 0,
+          "title": "GPTBIAS A Comprehensive Framework for Evaluating"
+        },
+        {
+          "filename": "2021-Keren-ParaShoot.md",
+          "score": 0,
+          "title": "ParaShoot"
+        },
+        {
+          "filename": "2024-Lee-KorNAT.md",
+          "score": 0,
+          "title": "KorNAT"
+        },
+        {
+          "filename": "2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md",
+          "score": 0,
+          "title": "Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts"
+        },
+        {
+          "filename": "2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md",
+          "score": 0,
+          "title": "ViToSA: Audio-Based Toxic Spans Detection on Vietnamese Speech Utterances"
+        },
+        {
+          "filename": "2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU.md",
+          "score": 0,
+          "title": "Measuring Hong Kong Massive Multi-Task Language Understanding (HKMMLU)"
+        },
+        {
+          "filename": "2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders.md",
+          "score": 0,
+          "title": "Cooperation, Competition, and Maliciousness: LLM-Stakeholders Interactive Negotiation"
+        },
+        {
+          "filename": "2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.md",
+          "score": 0,
+          "title": "Sailor2: Sailing in South-East Asia with Inclusive Multilingual LLMs"
+        },
+        {
+          "filename": "2023-Wang-DecodingTrust.md",
+          "score": 0,
+          "title": "DecodingTrust"
+        },
+        {
+          "filename": "2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+          "score": 0,
+          "title": "Representations and Architectures in Neural Sentiment Analysis for Morphologically Rich Languages: A Case Study from Modern Hebrew"
+        },
+        {
+          "filename": "2021-Nurce-Detecting Abusive Albanian.md",
+          "score": 0,
+          "title": "Detecting Abusive Albanian"
+        },
+        {
+          "filename": "2025-Li-XIFBench Evaluating Large Language Models on.md",
+          "score": 0,
+          "title": "XIFBench: Evaluating Large Language Models on"
+        },
+        {
+          "filename": "2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific.md",
+          "score": 0,
+          "title": "Enhancing Multilingual Hate Speech Detection: From Language-Specific Insights to Cross-Linguistic Integration"
+        },
+        {
+          "filename": "2021-Chakravarthi-Findings of the Sentiment Analysis of.md",
+          "score": 0,
+          "title": "Findings of the Sentiment Analysis of"
+        },
+        {
+          "filename": "2023-team-Typhoon Thai Large Language Models.md",
+          "score": 0,
+          "title": "Typhoon: Thai Large Language Models"
+        },
+        {
+          "filename": "2021-Mghari-Cyberbullying and Hate Speech Detection on.md",
+          "score": 0,
+          "title": "Cyberbullying and Hate Speech Detection on"
+        },
+        {
+          "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md",
+          "score": 0,
+          "title": "BuddhismEval Bilingual Evaluation Benchmark for Buddhist"
+        },
+        {
+          "filename": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+          "score": 0,
+          "title": "Harmonizing Artificial Intelligence for Social Good"
+        },
+        {
+          "filename": "2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.md",
+          "score": 0,
+          "title": "Multimodal Evaluation of Russian-language Architectures (MERA Multi)"
+        },
+        {
+          "filename": "2024-Kirk-The PRISM Alignment Project.md",
+          "score": 0,
+          "title": "The PRISM Alignment Project"
+        },
+        {
+          "filename": "2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md",
+          "score": 0,
+          "title": "Saudi-Alignment Benchmark -- Assessing LLMs Alignment with Saudi Cultural and Ethical Norms"
+        },
+        {
+          "filename": "2024-Altinel-So-haTRed A Novel Hybrid System for.md",
+          "score": 0,
+          "title": "So-haTRed A Novel Hybrid System for"
+        },
+        {
+          "filename": "2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md",
+          "score": 0,
+          "title": "BenCzechMark: A Czech-centric Multitask and Multimetric Benchmark for Large Language Models with Duel Scoring Mechanism"
+        },
+        {
+          "filename": "2025-Ju-NaVAB.md",
+          "score": 0,
+          "title": "NaVAB"
+        },
+        {
+          "filename": "2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md",
+          "score": 0,
+          "title": "Edu-Values -- Evaluating Chinese Education Values of LLMs"
+        },
+        {
+          "filename": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.md",
+          "score": 0,
+          "title": "Evaluating and Mitigating Discrimination"
+        },
+        {
+          "filename": "2023-Andrus-Augmented Datasheets for Speech Datasets and.md",
+          "score": 0,
+          "title": "Augmented Datasheets for Speech Datasets and"
+        },
+        {
+          "filename": "2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md",
+          "score": 0,
+          "title": "EthicsSuite: Detecting Behavioral Inconsistency in LLM Ethics Suggestions"
+        },
+        {
+          "filename": "2025-Zheng-SYCON Bench.md",
+          "score": 0,
+          "title": "SYCON Bench"
+        },
+        {
+          "filename": "2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md",
+          "score": 0,
+          "title": "Context-Aware and Expert Data Resources for Brazilian Portuguese Hate Speech Detection"
+        }
+      ]
+    },
+    "nw_indigenous_relational": {
+      "display_name": "Indigenous Relational Ethics",
+      "total_detected": 45,
+      "detected_sample_size": 48,
+      "non_detected_sample_size": 50,
+      "small_n": true,
+      "detected_sample": [
+        {
+          "filename": "2020-Carroll-The CARE Principles for Indigenous Data Governance.md",
+          "score": 100,
+          "title": "The CARE Principles for Indigenous Data Governance"
+        },
+        {
+          "filename": "2023-Munn-The Five Tests Designing and Evaluating.md",
+          "score": 100,
+          "title": "The Five Tests Designing and Evaluating"
+        },
+        {
+          "filename": "2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.md",
+          "score": 100,
+          "title": "Maori Algorithmic Sovereignty: Idea, Principles, and Use"
+        },
+        {
+          "filename": "2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md",
+          "score": 100,
+          "title": "Maori Data Sovereignty in AI Development: Seeking Maori Appropriate Pathways"
+        },
+        {
+          "filename": "2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.md",
+          "score": 100,
+          "title": "Harnessing the Power of Artificial Intelligence to Vitalize Endangered Indigenous Languages: Technologies and Experiences"
+        },
+        {
+          "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+          "score": 100,
+          "title": "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges"
+        },
+        {
+          "filename": "2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+          "score": 100,
+          "title": "Abundant Intelligences Placing AI Within Indigenous"
+        },
+        {
+          "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+          "score": 100,
+          "title": "African Data Ethics: A Discursive Framework for Black Decolonial AI"
+        },
+        {
+          "filename": "2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md",
+          "score": 100,
+          "title": "Indigenous Peoples and Artificial Intelligence A"
+        },
+        {
+          "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+          "score": 100,
+          "title": "Indigenous Ethics and Artificial Intelligence"
+        },
+        {
+          "filename": "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+          "score": 100,
+          "title": "Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice"
+        },
+        {
+          "filename": "2025-Ofosu-Asare-Cognitive imperialism in artificial intelligence counteracting bias.md",
+          "score": 100,
+          "title": "Cognitive imperialism in artificial intelligence: counteracting bias with indigenous epistemologies | AI & SOCIETY | Springer Nature Link"
+        },
+        {
+          "filename": "2025-Rana-Indigenous Data Sovereignty A Catalyst for Ethical AI in Business.md",
+          "score": 100,
+          "title": "Indigenous Data Sovereignty: A Catalyst for Ethical AI in Business"
+        },
+        {
+          "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+          "score": 100,
+          "title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link"
+        },
+        {
+          "filename": "2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md",
+          "score": 100,
+          "title": "Decolonizing African NLP: A Survey on Power Dynamics and Data Colonialism in Tech Development"
+        },
+        {
+          "filename": "2018-Walter-Artificial Intelligence and Indigenous Data Sovereignty.md",
+          "score": 95,
+          "title": "Artificial Intelligence and Indigenous Data Sovereignty"
+        },
+        {
+          "filename": "2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+          "score": 95,
+          "title": "AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP: A SURVEY ON POWER"
+        },
+        {
+          "filename": "2025-Unknown-Indigenous Peoples and AI Defending Rights Shaping the Future of.md",
+          "score": 95,
+          "title": "Indigenous Peoples and AI: Defending Rights, Shaping the Future of Technology | Cultural Survival"
+        },
+        {
+          "filename": "2025-Russ-Smith-AI and Indigenous Data Sovereignty Knowing Engaging and Learning in.md",
+          "score": 90,
+          "title": "AI and Indigenous Data Sovereignty: Knowing, Engaging, and Learning in New Data Contexts"
+        },
+        {
+          "filename": "2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.md",
+          "score": 75,
+          "title": "'It's how you do things that matters': Attending to Process to Better Serve Indigenous Communities with Language Technologies"
+        },
+        {
+          "filename": "2025-Khan-Two-Eyed Seeing and Artificial Intelligence Enhancing Healthcare.md",
+          "score": 75,
+          "title": "Two-Eyed Seeing and Artificial Intelligence: Enhancing Healthcare Delivery in Indigenous Communities Requires an Ethical and Culturally Relevant Public Health Framework"
+        },
+        {
+          "filename": "2024-Crepelle-Tribes and AI Possibilities for Tribal Sovereignty.md",
+          "score": 70,
+          "title": "Tribes and AI: Possibilities for Tribal Sovereignty"
+        },
+        {
+          "filename": "2021-Carroll-Operationalizing the CARE and FAIR Principles for Indigenous Data.md",
+          "score": 65,
+          "title": "Operationalizing the CARE and FAIR Principles for Indigenous Data Futures"
+        },
+        {
+          "filename": "2022-Trye-Harnessing Indigenous Tweets.md",
+          "score": 65,
+          "title": "Harnessing Indigenous Tweets"
+        },
+        {
+          "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+          "score": 65,
+          "title": "ArGen: Auto-Regulation of Generative AI via GRPO and Policy-as-Code"
+        },
+        {
+          "filename": "2025-Unknown-New report and guidelines for indigenous data sovereignty in.md",
+          "score": 65,
+          "title": "New report and guidelines for indigenous data sovereignty in artificial intelligence developments | Global AI Ethics and Governance Observatory"
+        },
+        {
+          "filename": "2025-Yilma-Ethics of AI in Africa.md",
+          "score": 60,
+          "title": "Ethics of AI in Africa"
+        },
+        {
+          "filename": "2022-Tapu-A New Age Indigenous Instrument Artificial Intelligence & Its.md",
+          "score": 55,
+          "title": "A New Age Indigenous Instrument: Artificial Intelligence & Its Potential for (De)Colonialized Data"
+        },
+        {
+          "filename": "2025-Khurana-Decolonizing Artificial Intelligence Indigenous Knowledge Systems.md",
+          "score": 55,
+          "title": "Decolonizing Artificial Intelligence: Indigenous Knowledge Systems, Epistemic Pluralism, and the Ethics of Technology"
+        },
+        {
+          "filename": "2019-Bourgeois-Doyle-Two-Eyed AI A Reflection on Artificial Intelligence.md",
+          "score": 50,
+          "title": "Two-Eyed AI: A Reflection on Artificial Intelligence"
+        },
+        {
+          "filename": "2022-Network-How can NLP Help Revitalize Endangered Languages.md",
+          "score": 50,
+          "title": "How can NLP Help Revitalize Endangered Languages?"
+        },
+        {
+          "filename": "2023-Catapang-EMoTES-3K.md",
+          "score": 50,
+          "title": "EMoTES-3K"
+        },
+        {
+          "filename": "2024-Arif-Generalists vs Specialists Evaluating Large Language.md",
+          "score": 50,
+          "title": "Generalists vs Specialists Evaluating Large Language"
+        },
+        {
+          "filename": "2024-Lewis-Abundant Intelligences Placing AI within Indigenous Knowledge.md",
+          "score": 50,
+          "title": "Abundant Intelligences: Placing AI within Indigenous Knowledge Frameworks"
+        },
+        {
+          "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+          "score": 50,
+          "title": "A holistic ubuntu artificial intelligence ethics"
+        },
+        {
+          "filename": "2024-Ungless-ETHICS WHITEPAPER.md",
+          "score": 50,
+          "title": "ETHICS WHITEPAPER"
+        },
+        {
+          "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+          "score": 50,
+          "title": "Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment"
+        },
+        {
+          "filename": "2025-DeWitt Prat-Decolonizing LLMs An Ethnographic Framework for AI in African.md",
+          "score": 50,
+          "title": "Decolonizing LLMs: An Ethnographic Framework for AI in African Contexts - EPIC"
+        },
+        {
+          "filename": "2025-Koc-Generative AI and Large Language Models in Language Preservation.md",
+          "score": 50,
+          "title": "Generative AI and Large Language Models in Language Preservation: Opportunities and Challenges"
+        },
+        {
+          "filename": "2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md",
+          "score": 50,
+          "title": "Language Models for Code-switch Detection of te reo Māori and English in a Low-resource Setting"
+        },
+        {
+          "filename": "2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.md",
+          "score": 50,
+          "title": "Thrid Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)"
+        },
+        {
+          "filename": "2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.md",
+          "score": 50,
+          "title": "Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs for Latin American Contexts"
+        },
+        {
+          "filename": "2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md",
+          "score": 50,
+          "title": "1 Decolonizing NLP for 'Low-resource Languages'"
+        },
+        {
+          "filename": "2025-Perera-Indigenous Peoples and Artificial Intelligence A Systematic Review.md",
+          "score": 50,
+          "title": "Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions"
+        },
+        {
+          "filename": "2025-Soria-Decolonizing Minority Language Technology - State of the Internet's.md",
+          "score": 50,
+          "title": "Decolonizing Minority Language Technology - State of the Internet's Languages Report"
+        },
+        {
+          "filename": "2025-Halmai-Common Rule Revisions to Govern Machine Learning on Indigenous Data.md",
+          "score": 45,
+          "title": "Common Rule Revisions to Govern Machine Learning on Indigenous Data: Implementing the Expectations"
+        },
+        {
+          "filename": "2025-Jiang-Preserving the Past AI in Indigenous Language Preservation - Viterbi.md",
+          "score": 35,
+          "title": "Preserving the Past: AI in Indigenous Language Preservation - Viterbi Conversations in Ethics"
+        },
+        {
+          "filename": "2025-Blayone-Using Digital Technologies for Indigenous Sociocultural Advancement.md",
+          "score": 35,
+          "title": "Using Digital Technologies for Indigenous Sociocultural Advancement in an Era of AI: A Systematic Critical Synthesis"
+        }
+      ],
+      "non_detected_sample": [
+        {
+          "filename": "2020-Ema-Artificial Intelligence and Indigenous Perspectives Protecting and.md",
+          "score": 15,
+          "title": "Artificial Intelligence and Indigenous Perspectives: Protecting and Empowering Intelligent Human Beings"
+        },
+        {
+          "filename": "2025-Raza-HumaniBench.md",
+          "score": 0,
+          "title": "HumaniBench"
+        },
+        {
+          "filename": "2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+          "score": 0,
+          "title": "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY"
+        },
+        {
+          "filename": "2025-Sel-Backtracking for Safety.md",
+          "score": 0,
+          "title": "Backtracking for Safety"
+        },
+        {
+          "filename": "2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md",
+          "score": 0,
+          "title": "IndicCONAN: A Multilingual Dataset for Combating Hate Speech in Indian Context"
+        },
+        {
+          "filename": "2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md",
+          "score": 0,
+          "title": "HASOC 2023: Hate Speech and Offensive Content Identification in Assamese, Bengali, Bodo, Gujarati and Sinhala"
+        },
+        {
+          "filename": "2022-Ganguli-Red Teaming Language Models to Reduce Harms.md",
+          "score": 0,
+          "title": "Red Teaming Language Models to Reduce Harms"
+        },
+        {
+          "filename": "2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md",
+          "score": 0,
+          "title": "Kannada Code-Mixed Abusive Speech Detection (MuRIL-based)"
+        },
+        {
+          "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+          "score": 0,
+          "title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs"
+        },
+        {
+          "filename": "2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md",
+          "score": 0,
+          "title": "IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language"
+        },
+        {
+          "filename": "2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.md",
+          "score": 0,
+          "title": "Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models"
+        },
+        {
+          "filename": "2024-Song-Multilingual Blending LLM Safety Alignment Evaluation with Language.md",
+          "score": 0,
+          "title": "Multilingual Blending: LLM Safety Alignment Evaluation with Language Mixture"
+        },
+        {
+          "filename": "2024-Segev-Artificial Intelligence, Discrimination, Fairness.md",
+          "score": 0,
+          "title": "Artificial Intelligence, Discrimination, Fairness"
+        },
+        {
+          "filename": "2024-Ye-Measuring Human and AI Values Based on Generative.md",
+          "score": 0,
+          "title": "Measuring Human and AI Values Based on Generative"
+        },
+        {
+          "filename": "2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.md",
+          "score": 0,
+          "title": "CURE: Cultural Understanding and Reasoning Evaluation - A Framework for Thick Culture Alignment Evaluation in LLMs"
+        },
+        {
+          "filename": "2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.md",
+          "score": 0,
+          "title": "Lost in the Mix: Evaluating LLM Understanding of Code-Switched Text"
+        },
+        {
+          "filename": "2021-Askell-A General Language Assistant as a Laboratory for.md",
+          "score": 0,
+          "title": "A General Language Assistant as a Laboratory for"
+        },
+        {
+          "filename": "2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md",
+          "score": 0,
+          "title": "Towards Multilingual LLM Evaluation for Baltic and Nordic Languages"
+        },
+        {
+          "filename": "2025-Johannesburg-Sentiment Analysis in African Languages Evaluating.md",
+          "score": 0,
+          "title": "Sentiment Analysis in African Languages Evaluating"
+        },
+        {
+          "filename": "2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md",
+          "score": 0,
+          "title": "Cross-lingual Capsule Network for Hate Speech Detection in Social Media | Proceedings of the 32nd ACM Conference on Hypertext and Social Media"
+        },
+        {
+          "filename": "2022-Hu-“I’m sorry to hear that”.md",
+          "score": 0,
+          "title": "'I'm sorry to hear that'"
+        },
+        {
+          "filename": "2021-Emelin-Moral Stories.md",
+          "score": 0,
+          "title": "Moral Stories"
+        },
+        {
+          "filename": "2024-Rozado-The Political Preferences of LLMs.md",
+          "score": 0,
+          "title": "The Political Preferences of LLMs"
+        },
+        {
+          "filename": "2025-Mitchell-SHADES.md",
+          "score": 0,
+          "title": "SHADES"
+        },
+        {
+          "filename": "2024-Li-Value-Spectrum.md",
+          "score": 0,
+          "title": "Value-Spectrum"
+        },
+        {
+          "filename": "2025-Sameer-Insights into Moral Reasoning of AI.md",
+          "score": 0,
+          "title": "Insights into Moral Reasoning of AI"
+        },
+        {
+          "filename": "2025-Vasilev-RusCode Russian Cultural Code Benchmark for Text-to-Image Generation.md",
+          "score": 0,
+          "title": "RusCode: Russian Cultural Code Benchmark for Text-to-Image Generation"
+        },
+        {
+          "filename": "2022-Ngo-The Alignment Problem from a Deep Learning.md",
+          "score": 0,
+          "title": "The Alignment Problem from a Deep Learning"
+        },
+        {
+          "filename": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md",
+          "score": 0,
+          "title": "On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods"
+        },
+        {
+          "filename": "2023-Nguyen-RMDM A Multilabel Fakenews Dataset for Vietnamese Evidence.md",
+          "score": 0,
+          "title": "RMDM: A Multilabel Fakenews Dataset for Vietnamese Evidence Verification"
+        },
+        {
+          "filename": "2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md",
+          "score": 0,
+          "title": "MultiLoKo A Multilingual Local Knowledge Benchmark"
+        },
+        {
+          "filename": "2024-Velankar-SamPar A Marathi Hate Speech Dataset.md",
+          "score": 0,
+          "title": "SamPar A Marathi Hate Speech Dataset"
+        },
+        {
+          "filename": "2023-Canada-Bias Considerations in Bilingual Natural Language Processing.md",
+          "score": 0,
+          "title": "Bias Considerations in Bilingual Natural Language Processing"
+        },
+        {
+          "filename": "2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md",
+          "score": 0,
+          "title": "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
+        },
+        {
+          "filename": "2023-Liu-AgentBench.md",
+          "score": 0,
+          "title": "AgentBench"
+        },
+        {
+          "filename": "2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md",
+          "score": 0,
+          "title": "GFG -- Gender-Fair Generation: A CALAMITA Challenge"
+        },
+        {
+          "filename": "2024-Xu-MAgIC Investigation of Large Language Model Powered Multi-Agent in.md",
+          "score": 0,
+          "title": "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration"
+        },
+        {
+          "filename": "2024-Bonagiri-SaGE.md",
+          "score": 0,
+          "title": "SaGE"
+        },
+        {
+          "filename": "2025-Wu-COIG-P.md",
+          "score": 0,
+          "title": "COIG-P"
+        },
+        {
+          "filename": "2025-funded-Analysis of Indic Language Capabilities in.md",
+          "score": 0,
+          "title": "Analysis of Indic Language Capabilities in"
+        },
+        {
+          "filename": "2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md",
+          "score": 0,
+          "title": "GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments"
+        },
+        {
+          "filename": "2024-Tu-CharacterEval.md",
+          "score": 0,
+          "title": "CharacterEval"
+        },
+        {
+          "filename": "2025-Sermsri-Debiasing Large Language Models in Thai.md",
+          "score": 0,
+          "title": "Debiasing Large Language Models in Thai"
+        },
+        {
+          "filename": "2025-Unknown-Sentiment analysis in multilingual context Comparative analysis of.md",
+          "score": 0,
+          "title": "Sentiment analysis in multilingual context: Comparative analysis of machine learning and hybrid deep learning models - PMC"
+        },
+        {
+          "filename": "2025-Chared-AI-driven detection of hate speech on social media a case study in.md",
+          "score": 0,
+          "title": "AI-driven detection of hate speech on social media: a case study in the French language"
+        },
+        {
+          "filename": "2022-Hendrycks-X-Risk Analysis for AI Research.md",
+          "score": 0,
+          "title": "X-Risk Analysis for AI Research"
+        },
+        {
+          "filename": "2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md",
+          "score": 0,
+          "title": "Detecting Weak and Strong Islamophobic Hate"
+        },
+        {
+          "filename": "2025-Jin-MedEthicEval.md",
+          "score": 0,
+          "title": "MedEthicEval"
+        },
+        {
+          "filename": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+          "score": 0,
+          "title": "ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minority Data in Brazilian Portuguese"
+        },
+        {
+          "filename": "2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ....md",
+          "score": 0,
+          "title": "On the Challenges of Bias Evaluation Under Multilingual ..."
+        }
+      ]
+    },
+    "nw_buen_vivir": {
+      "display_name": "Buen Vivir / Sumak Kawsay",
+      "total_detected": 6,
+      "detected_sample_size": 6,
+      "non_detected_sample_size": 50,
+      "small_n": true,
+      "detected_sample": [
+        {
+          "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+          "score": 90,
+          "title": "Indigenous Ethics and Artificial Intelligence"
+        },
+        {
+          "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+          "score": 50,
+          "title": "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges"
+        },
+        {
+          "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+          "score": 50,
+          "title": "ArGen: Auto-Regulation of Generative AI via GRPO and Policy-as-Code"
+        },
+        {
+          "filename": "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+          "score": 50,
+          "title": "Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice"
+        },
+        {
+          "filename": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+          "score": 50,
+          "title": "Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy"
+        },
+        {
+          "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+          "score": 50,
+          "title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link"
+        }
+      ],
+      "non_detected_sample": [
+        {
+          "filename": "2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md",
+          "score": 0,
+          "title": "When LLMs Imagine People: A Human-Centered Persona Brainstorm Audit for Bias and Fairness in Creative Applications"
+        },
+        {
+          "filename": "2022-Constantinescu-Can Robotic AI Be Virtuous.md",
+          "score": 0,
+          "title": "Can Robotic AI Be Virtuous"
+        },
+        {
+          "filename": "2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md",
+          "score": 0,
+          "title": "The State of Multilingual LLM Safety Research: From Measuring the Language Gap to Mitigating It"
+        },
+        {
+          "filename": "2025-Mohammadi-Cross-Cultural Challenges to Artificial Intelligence Ethics.md",
+          "score": 0,
+          "title": "Cross-Cultural Challenges to Artificial Intelligence Ethics"
+        },
+        {
+          "filename": "2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.md",
+          "score": 0,
+          "title": "IberoBench: A Benchmark for LLM Evaluation in Iberian Languages"
+        },
+        {
+          "filename": "2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md",
+          "score": 0,
+          "title": "IrokoBench -- A Benchmark for African Languages in the Age of LLMs"
+        },
+        {
+          "filename": "2023-Hartmann-The political ideology of conversational AI.md",
+          "score": 0,
+          "title": "The political ideology of conversational AI"
+        },
+        {
+          "filename": "2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ.md",
+          "score": 0,
+          "title": "Vietnamese Law and Ethics Multiple-Choice Questions (VLEMCQ)"
+        },
+        {
+          "filename": "2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md",
+          "score": 0,
+          "title": "Proposing Central Asian AI Ethics Principles: A Multilevel Approach for Responsible AI"
+        },
+        {
+          "filename": "2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.md",
+          "score": 0,
+          "title": "Large Language Models Meet Text-Centric Multimodal Sentiment Analysis: A Survey"
+        },
+        {
+          "filename": "2023-Shen-“Do Anything Now”.md",
+          "score": 0,
+          "title": "'Do Anything Now'"
+        },
+        {
+          "filename": "2025-Södahl Bladsjö-MARB.md",
+          "score": 0,
+          "title": "MARB"
+        },
+        {
+          "filename": "2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md",
+          "score": 0,
+          "title": "Hidden Persuaders: LLMs' Political Leaning and Their Influence on Voters"
+        },
+        {
+          "filename": "2025-Wenzek-CC100-Mongolian dataset - NLP Database.md",
+          "score": 0,
+          "title": "CC100-Mongolian dataset - NLP Database"
+        },
+        {
+          "filename": "2021-Cao-Toward Gender-Inclusive Coreference Resolution.md",
+          "score": 0,
+          "title": "Toward Gender-Inclusive Coreference Resolution"
+        },
+        {
+          "filename": "2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md",
+          "score": 0,
+          "title": "Pashto Offensive Language Detection: A Benchmark Dataset and Monolingual Pashto BERT"
+        },
+        {
+          "filename": "2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md",
+          "score": 0,
+          "title": "Benchmarking Vision Language Models for Cultural Understanding"
+        },
+        {
+          "filename": "2012-Gippert-The Encoding of Avestan - Problems and Solutions.md",
+          "score": 0,
+          "title": "The Encoding of Avestan -- Problems and Solutions"
+        },
+        {
+          "filename": "2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via.md",
+          "score": 0,
+          "title": "Conceptual Cultural Index: A Metric for Cultural Specificity via Relative Generality"
+        },
+        {
+          "filename": "2024-Organizers-DIALECT-COPA Choice of Plausible Alternatives Datasets in South.md",
+          "score": 0,
+          "title": "DIALECT-COPA: Choice of Plausible Alternatives Datasets in South Slavic Dialects"
+        },
+        {
+          "filename": "2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md",
+          "score": 0,
+          "title": "Napolab: The Natural Portuguese Language Benchmark"
+        },
+        {
+          "filename": "2025-Okamoto-AI-based medical ethics education.md",
+          "score": 0,
+          "title": "AI-based medical ethics education"
+        },
+        {
+          "filename": "2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.md",
+          "score": 0,
+          "title": "Safety and Security Analysis of Large Language Models: Risk Profile and Harm Potential"
+        },
+        {
+          "filename": "2024-Tonneau-NaijaHate.md",
+          "score": 0,
+          "title": "NaijaHate"
+        },
+        {
+          "filename": "2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md",
+          "score": 0,
+          "title": "MERA: A Comprehensive LLM Evaluation in Russian"
+        },
+        {
+          "filename": "2024-Sang-CDEval A Benchmark for Measuring the.md",
+          "score": 0,
+          "title": "CDEval A Benchmark for Measuring the"
+        },
+        {
+          "filename": "2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md",
+          "score": 0,
+          "title": "Towards Multilingual LLM Evaluation for Baltic and Nordic Languages"
+        },
+        {
+          "filename": "2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource.md",
+          "score": 0,
+          "title": "Awesome-LLM-Eval Repository (Meta-Resource)"
+        },
+        {
+          "filename": "2025-Lutz-Working Paper Good Faith Design Religion as a Resource for.md",
+          "score": 0,
+          "title": "(Working Paper) Good Faith Design: Religion as a Resource for Technologists"
+        },
+        {
+          "filename": "2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.md",
+          "score": 0,
+          "title": "Macaron: Controlled, Human-Written Benchmark for Multilingual and Multicultural Reasoning via Template-Filling"
+        },
+        {
+          "filename": "2025-Ohlhorst-Virtues for AI.md",
+          "score": 0,
+          "title": "Virtues for AI"
+        },
+        {
+          "filename": "2025-Borenstein-Investigating Human Values in Online Communities.md",
+          "score": 0,
+          "title": "Investigating Human Values in Online Communities"
+        },
+        {
+          "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+          "score": 0,
+          "title": "BanTH: A Multi-label Hate Speech Detection Dataset for Transliterated Bangla"
+        },
+        {
+          "filename": "2025-Lim-How Do Users Identify and Perceive Stereotypes Understanding User.md",
+          "score": 0,
+          "title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models | Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency"
+        },
+        {
+          "filename": "2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md",
+          "score": 0,
+          "title": "The Unseen Targets of Hate – A Systematic Review of Hateful Communication Datasets"
+        },
+        {
+          "filename": "2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md",
+          "score": 0,
+          "title": "EtiCor: Corpus for Analyzing LLMs for Etiquettes"
+        },
+        {
+          "filename": "2023-Liu-AlignBench.md",
+          "score": 0,
+          "title": "AlignBench"
+        },
+        {
+          "filename": "2024-Gu-Probabilistic medical predictions of large.md",
+          "score": 0,
+          "title": "Probabilistic medical predictions of large"
+        },
+        {
+          "filename": "2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md",
+          "score": 0,
+          "title": "Toxicity Posts and Hateful Comments Detection"
+        },
+        {
+          "filename": "2026-Darici-TurkBench A Benchmark for Evaluating Turkish.md",
+          "score": 0,
+          "title": "TurkBench A Benchmark for Evaluating Turkish"
+        },
+        {
+          "filename": "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+          "score": 0,
+          "title": "IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation"
+        },
+        {
+          "filename": "2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.md",
+          "score": 0,
+          "title": "A Cross-Lingual Analysis of Bias in Large Language Models Using Romanian History"
+        },
+        {
+          "filename": "2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.md",
+          "score": 0,
+          "title": "Fabricating Holiness Characterizing Religious Misinformation Circulators"
+        },
+        {
+          "filename": "2025-Barov-TUMLU A Unified and Native Language.md",
+          "score": 0,
+          "title": "TUMLU A Unified and Native Language"
+        },
+        {
+          "filename": "2021-Cercas Curry-ConvAbuse.md",
+          "score": 0,
+          "title": "ConvAbuse"
+        },
+        {
+          "filename": "2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.md",
+          "score": 0,
+          "title": "NileChat: Towards Linguistically Diverse and Culturally Aware LLMs for Local Communities"
+        },
+        {
+          "filename": "2024-Jain-Norm Inconsistency in LLM Decision-Making.md",
+          "score": 0,
+          "title": "Norm Inconsistency in LLM Decision-Making"
+        },
+        {
+          "filename": "2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md",
+          "score": 0,
+          "title": "Neural Modeling for Named Entities and Morphology (NEMO2)"
+        },
+        {
+          "filename": "2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md",
+          "score": 0,
+          "title": "BERTimbau: Pretrained BERT Models for Brazilian Portuguese"
+        },
+        {
+          "filename": "2025-Consortium-The Vals Legal AI Report (VLAIR).md",
+          "score": 0,
+          "title": "The Vals Legal AI Report (VLAIR)"
+        }
+      ]
+    }
+  }
+}

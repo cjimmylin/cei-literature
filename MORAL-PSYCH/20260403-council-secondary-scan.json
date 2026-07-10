@@ -1,0 +1,857 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-04-03",
+    "scope": "Candidates ranked 41-80 from moral psychology benchmark list",
+    "scanner": "Manual extract review + keyword search across all 222 candidates",
+    "note": "Assessments based on PDF extract reading + metadata analysis"
+  },
+  "secondary_assessments": [
+    {
+      "rank": 41,
+      "file": "2025-An-MoralReason.md",
+      "short_title": "MoralReason",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Uses utilitarian/deontological/virtue frameworks for RL alignment, not standard moral psych instruments",
+      "has_data": true,
+      "data_url": "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA",
+      "format": "Scenario rating",
+      "size": 680,
+      "size_note": "680 human-annotated high-ambiguity moral scenarios with reasoning traces",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 42,
+      "file": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+      "short_title": "EMNLP (Educator-role Moral and Normative LLMs Profiling)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "kohlberg"
+      ],
+      "theory_detail": "Uses moral development stage measurement + personality profiling + 88 teacher-specific moral dilemmas. Extends Kohlberg-style moral reasoning evaluation to professional role-playing contexts.",
+      "has_data": true,
+      "data_url": "https://e-m-n-l-p.github.io/",
+      "format": "Mixed",
+      "size": 88,
+      "size_note": "88 teacher-specific moral dilemmas + personality scales + prompt injection tests",
+      "hidden_gem": true,
+      "gem_rationale": "Novel niche: first benchmark to assess moral/psychological alignment in professional role-playing (teacher). Bridges Kohlberg developmental assessment with SP (Simulating Professions). Low mp_max=70 but highly specialized."
+    },
+    {
+      "rank": 43,
+      "file": "2025-SOCIETY-How Much of a Pluralist is.md",
+      "short_title": "How Much of a Pluralist is ChatGPT?",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Uses Magic Wand Survey to measure value pluralism (cognitive and behavioral). Tests 'Both/and Reasoning' and 'Willingness to Preserve Difference'. Not standard moral psych theory but touches value pluralism.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "Likert",
+      "size": 120,
+      "size_note": "120 iterations per model on Magic Wand Survey, compared to N=335 humans",
+      "hidden_gem": true,
+      "gem_rationale": "Unique framing: measures 'pluralism mindset' in AI, a construct rarely tested. Published in AI & SOCIETY. Reveals that AI chatbots show higher cognitive than behavioral pluralism. Not a classic moral psych benchmark but theoretically novel."
+    },
+    {
+      "rank": 44,
+      "file": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+      "short_title": "The Straight and Narrow: Internal Moral Path in LLMs",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft"
+      ],
+      "theory_detail": "Uses MFT (Care, Fairness, Loyalty, Authority, Sanctity) to map internal moral representations. Extracts 'Moral Vectors' from latent space. Cross-lingual probing (EN/ZH). Proposes Adaptive Moral Fusion (AMF).",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "Other",
+      "size": null,
+      "size_note": "Representation-level analysis, not a traditional item-based benchmark",
+      "hidden_gem": true,
+      "gem_rationale": "Mechanistic interpretability of MFT in LLMs. Goes beyond behavioral evaluation to probe internal moral representations. Novel approach of extracting steerable Moral Vectors. Under-scored at mp_max=60."
+    },
+    {
+      "rank": 45,
+      "file": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+      "short_title": "Normative Evaluation of LLMs (AITA)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "other"
+      ],
+      "theory_detail": "Uses 10,000+ Reddit AITA moral dilemmas. References MFQ/MFT in related work. Evaluates 7 LLMs on blame assignment. Analysis of moral principle invocation (fairness, harm, etc.).",
+      "has_data": true,
+      "data_url": "https://github.com/dlab-projects/normative_evaluation_llms_everyday_dilemmas",
+      "format": "Scenario rating",
+      "size": 10000,
+      "size_note": "10,000+ AITA dilemmas from Reddit with human judgments",
+      "hidden_gem": true,
+      "gem_rationale": "Massive scale (10K+ dilemmas) with real-world moral complexity far beyond trolley problems. Finds low inter-model agreement despite high self-consistency. Dataset publicly available. mp_max=60 understates significance."
+    },
+    {
+      "rank": 46,
+      "file": "2025-Sorensen-Operationalizing Pluralistic Values.md",
+      "short_title": "Operationalizing Pluralistic Values",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Alignment study (N=1,095 participants, 27,375 ratings) measuring Toxicity, Emotional Awareness, Sensitivity, Stereotypical Bias, Helpfulness. Not grounded in moral psych theory.",
+      "has_data": true,
+      "data_url": "https://github.com/DALIAALISIDDIG/AlignCure",
+      "format": "Likert",
+      "size": 27375,
+      "size_note": "27,375 ratings from 1,095 US and German participants",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 47,
+      "file": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+      "short_title": "LLM Ethics Benchmark (3D Assessment, Scientific Reports)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "schwartz",
+        "trolley"
+      ],
+      "theory_detail": "Three-dimensional framework: (1) foundational moral principles via MFQ + World Values Survey, (2) reasoning robustness, (3) value consistency. Published in Scientific Reports.",
+      "has_data": true,
+      "data_url": "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git",
+      "format": "Mixed",
+      "size": null,
+      "size_note": "Multiple instruments adapted: MFQ, WVS items, custom dilemmas",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 48,
+      "file": "2024-Park-Morality is Non-Binary.md",
+      "short_title": "Morality is Non-Binary",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "mft"
+      ],
+      "theory_detail": "Builds pluralist moral sentence embedding space using MFT-grounded contrastive learning. Not a benchmark per se but a method for capturing moral pluralism in embeddings.",
+      "has_data": true,
+      "data_url": "https://github.com/jeongwoopark0514/morality-is-non-binary",
+      "format": "Other",
+      "size": null,
+      "size_note": "Uses existing MFT-annotated corpora (MFTC, Social Chemistry) for contrastive learning",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 49,
+      "file": "2025-Flores-BenchMoral.md",
+      "short_title": "BenchMoral (Spanish MFQ)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft"
+      ],
+      "theory_detail": "MFQ-30 adapted to Spanish for LLM evaluation. Uses Haidt's Moral Foundations Theory. Tests moral sensitivity in Spanish-language LLMs.",
+      "has_data": true,
+      "data_url": "https://docs.google.com/spreadsheets/d/1dPWRAcyXpdw1xZst77CrwrqOCr8UBNtB2XO3AKgeNqI/edit?usp=sharing",
+      "format": "Likert",
+      "size": 30,
+      "size_note": "MFQ-30 items adapted to Spanish",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 50,
+      "file": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+      "short_title": "Knowing But Not Doing (ValAct-15k)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "Uses Schwartz Theory of Basic Human Values (10 values). 3,000 Reddit-derived advice-seeking scenarios + PVQ-40. Tests knowledge-action gap in LLMs.",
+      "has_data": true,
+      "data_url": "NA",
+      "format": "Mixed",
+      "size": 15000,
+      "size_note": "ValAct-15k: 3,000 scenarios x 5 values = 15,000 items; also uses PVQ-40",
+      "hidden_gem": true,
+      "gem_rationale": "Discovers systematic knowledge-action gap (r=0.3 for LLMs, r=0.4 for humans). Tests 10 frontier LLMs (5 US, 5 Chinese). Near-perfect cross-model consistency (r~1.0) vs high human variability. Novel 'role-play aversion' finding."
+    },
+    {
+      "rank": 51,
+      "file": "2025-El Masri-Towards Attuned AI.md",
+      "short_title": "Towards Attuned AI (Ethics of Care)",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Theoretical paper on Ethics of Care for LLM alignment. Not a benchmark or dataset.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Theoretical/position paper",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 52,
+      "file": "2025-LaCroix-Metaethical perspectives on 'benchmarking' AI.md",
+      "short_title": "Metaethical perspectives on benchmarking AI",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "trolley",
+        "other"
+      ],
+      "theory_detail": "Meta-ethical critique arguing universal ethics benchmarks are philosophically impossible. Discusses trolley dilemmas and metaethical assumptions. Not a benchmark itself.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Critical/philosophical analysis paper",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 53,
+      "file": "2024-Li-Value-Spectrum.md",
+      "short_title": "Value-Spectrum (Video VQA)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "VQA benchmark using Schwartz value dimensions to assess VLMs on 50K+ short videos from TikTok/YouTube/Instagram. Tests vision-language models, not just text LLMs.",
+      "has_data": true,
+      "data_url": "https://github.com/Jeremyyny/Value-Spectrum",
+      "format": "MCQ",
+      "size": 50000,
+      "size_note": "50,000+ short videos with value-oriented questions",
+      "hidden_gem": true,
+      "gem_rationale": "Rare multimodal moral psych benchmark (video VQA). Tests VLMs on Schwartz values using real social media content. Massive scale. Unique coverage of non-text moral reasoning."
+    },
+    {
+      "rank": 54,
+      "file": "2023-Fischer-What does ChatGPT return about human values.md",
+      "short_title": "What does ChatGPT return about human values?",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "Direct application of Schwartz's revised Portrait Value Questionnaire (PVQ-RR) to ChatGPT. Uses theory-driven value dictionary with bag-of-words. Data on OSF.",
+      "has_data": true,
+      "data_url": "https://osf.io/w46nq/",
+      "format": "Likert",
+      "size": null,
+      "size_note": "PVQ-RR items + generated text corpus analysis",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 55,
+      "file": "2023-Yao-Value FULCRA.md",
+      "short_title": "Value FULCRA",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "Maps LLM behaviors to Schwartz's Theory of Basic Values. 5K (LLM output, value vector) pairs. Continuous value alignment dataset.",
+      "has_data": true,
+      "data_url": "https://ValueCompass.github.io",
+      "format": "Other",
+      "size": 5000,
+      "size_note": "5,000 (LLM output, value vector) pairs",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 56,
+      "file": "2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md",
+      "short_title": "AdAEM (Adaptive Value Measurement)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "Self-extensible value assessment grounded in Schwartz Value Theory. 12,310 auto-generated questions. Tests 16 LLMs. Information-theoretic optimization for maximum discriminability.",
+      "has_data": true,
+      "data_url": "NA",
+      "format": "MCQ",
+      "size": 12310,
+      "size_note": "12,310 Schwartz-grounded questions auto-generated via in-context optimization",
+      "hidden_gem": true,
+      "gem_rationale": "Novel adaptive/self-extending benchmark that co-evolves with LLMs. Addresses benchmark contamination problem. 12K+ items. Theoretically grounded in Schwartz values. Under-recognized at mp_max=50."
+    },
+    {
+      "rank": 57,
+      "file": "2025-Farid-One Model, Many Morals.md",
+      "short_title": "One Model, Many Morals",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "intuitionist"
+      ],
+      "theory_detail": "Translates MoralExceptQA + ETHICS benchmark into 5 languages. Cross-cultural moral reasoning evaluation. References Haidt's work.",
+      "has_data": true,
+      "data_url": "https://github.com/sualehafarid/moral-project",
+      "format": "MCQ",
+      "size": null,
+      "size_note": "MoralExceptQA + ETHICS translated to Chinese, German, Hindi, Spanish, Urdu",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 58,
+      "file": "2025-Jiang-Raising the Bar.md",
+      "short_title": "GETA (Generative Evolving Testing Approach)",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "trolley"
+      ],
+      "theory_detail": "Adaptive testing for LLM ethics using measurement theory. Dynamically generates test items. Tests moral boundaries but not grounded in specific moral psych theories.",
+      "has_data": true,
+      "data_url": "https://github.com/Salomeeeee/GETA",
+      "format": "Mixed",
+      "size": null,
+      "size_note": "Dynamic generation - no fixed size",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 59,
+      "file": "2025-Jiao-LLM Ethics Benchmark.md",
+      "short_title": "LLM Ethics Benchmark (NeurIPS version)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "dual_process",
+        "identity"
+      ],
+      "theory_detail": "Same team as #47 (Scientific Reports). Three-dimensional framework with MFQ, WVS. References dual process theory and moral identity (Aquino & Reed). NeurIPS workshop paper.",
+      "has_data": true,
+      "data_url": "https://github.com/The-Responsible-AI-Initiative/LLM_Ethics_Benchmark.git",
+      "format": "Mixed",
+      "size": null,
+      "size_note": "Duplicate/companion to rank #47",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 60,
+      "file": "2025-Liu-Cross-cultural value alignment frameworks.md",
+      "short_title": "Cross-cultural value alignment (Multi-Layered Auditing)",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "Multi-Layered Auditing Platform comparing 20+ LLMs on cross-cultural values. Uses Ethical Dilemma Corpus, DEF framework, and MARK reasoning framework. More engineering than moral psych.",
+      "has_data": true,
+      "data_url": "NA",
+      "format": "Mixed",
+      "size": null,
+      "size_note": "20+ models tested across cultural dimensions",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 61,
+      "file": "2025-Russo-The Pluralistic Moral Gap.md",
+      "short_title": "The Pluralistic Moral Gap",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Moral Dilemma Dataset (1,618 dilemmas) + 60-value taxonomy from 3,783 value expressions. Dynamic Moral Profiling (DMP) method. Pluralistic distributional alignment.",
+      "has_data": true,
+      "data_url": "NA",
+      "format": "Mixed",
+      "size": 1618,
+      "size_note": "1,618 real-world moral dilemmas with human judgment distributions + 3,783 value expressions",
+      "hidden_gem": true,
+      "gem_rationale": "Rich pluralistic framework: 60-value taxonomy built from human rationales. Tests distributional alignment (not just majority vote). Reveals LLMs use narrower value set than humans. Under-scored at mp_max=50."
+    },
+    {
+      "rank": 62,
+      "file": "2025-Sameer-Insights into Moral Reasoning of AI.md",
+      "short_title": "Insights into Moral Reasoning of AI",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "kohlberg",
+        "intuitionist"
+      ],
+      "theory_detail": "Uses both Moral Competence Test (MCT, Kohlberg-derived) and Moral Foundations Questionnaire (MFQ). Compares human vs LLM moral reasoning. References intuitionist model.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "Mixed",
+      "size": null,
+      "size_note": "MCT + MFQ administered to humans and LLMs",
+      "hidden_gem": true,
+      "gem_rationale": "Rare dual-instrument study using BOTH MCT (Kohlberg) and MFQ (Haidt). Finds LLMs prioritize individualist values over collective ones. Under-recognized bridge between developmental and foundations approaches."
+    },
+    {
+      "rank": 63,
+      "file": "2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+      "short_title": "GPLA (Generative Psycho-Lexical Approach)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "Proposes psychologically grounded five-factor value system for LLMs using psycho-lexical approach. Compares against Schwartz values. Includes benchmarking tasks.",
+      "has_data": true,
+      "data_url": "https://github.com/Value4AI/ValueBench",
+      "format": "Mixed",
+      "size": null,
+      "size_note": "Three benchmarking tasks integrating psychological principles",
+      "hidden_gem": true,
+      "gem_rationale": "Novel theoretical contribution: builds LLM-specific value system from psycho-lexical principles. Shows their system outperforms Schwartz values for LLM safety prediction and alignment."
+    },
+    {
+      "rank": 64,
+      "file": "2024-Agarwal-Ethical Reasoning Depends on Language.md",
+      "short_title": "Ethical Reasoning Depends on Language",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "intuitionist",
+        "other"
+      ],
+      "theory_detail": "Tests LLMs across 6 languages on deontology/virtue/consequentialism dilemmas. References moral intuition. Extension of Rao et al. framework.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "Scenario rating",
+      "size": null,
+      "size_note": "Ethical dilemmas in 6 languages",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 65,
+      "file": "2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.md",
+      "short_title": "LLM Alignment with Schwartz Values (Mental Health)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz"
+      ],
+      "theory_detail": "4 LLMs complete PVQ-RR (Portrait Values Questionnaire-Revised). Compared to 53,472 individuals across 49 nations. Published in peer-reviewed journal.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "Likert",
+      "size": null,
+      "size_note": "PVQ-RR (57 items) administered to 4 LLMs over 10 trials each; benchmarked against 53,472 humans",
+      "hidden_gem": true,
+      "gem_rationale": "Largest human comparison sample (53,472 across 49 nations) for any Schwartz-based LLM study. Reveals all models prioritize universalism/self-direction while de-emphasizing achievement/power/security. mp_max=50 understates rigor."
+    },
+    {
+      "rank": 66,
+      "file": "2022-Bago-Situational factors shape moral judgments in the.md",
+      "short_title": "Situational factors in moral judgments (45-country trolley study)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "trolley",
+        "dual_process",
+        "intuitionist"
+      ],
+      "theory_detail": "Massive 45-country replication of Greene et al. trolley experiments. Tests situational factors (personal force, intentionality) on deontological vs utilitarian judgment. Dual process framework.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "Binary",
+      "size": null,
+      "size_note": "45-country replication with hundreds of authors. Human behavioral study (not LLM benchmark)",
+      "hidden_gem": true,
+      "gem_rationale": "MASSIVE cross-cultural moral psychology study (45 countries, 200+ authors) directly testing Greene's dual process theory. Not an LLM benchmark but the GOLD STANDARD human baseline for trolley dilemma responses. mp_max=50 severely underrates this foundational work."
+    },
+    {
+      "rank": 67,
+      "file": "2022-Ziems-The Moral Integrity Corpus.md",
+      "short_title": "MIC (Moral Integrity Corpus)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "other"
+      ],
+      "theory_detail": "38K prompt-reply pairs with 99K Rules of Thumb (RoTs). 9 moral/social attributes annotated. MFT-adjacent but uses own taxonomy of moral judgments.",
+      "has_data": true,
+      "data_url": "https://github.com/GT-SALT/mic",
+      "format": "Mixed",
+      "size": 99000,
+      "size_note": "38K prompt-reply pairs, 99K Rules of Thumb",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 68,
+      "file": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md",
+      "short_title": "SMRA (Hate Speech with Moral Rationales)",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "mft"
+      ],
+      "theory_detail": "Uses MFT moral rationales for hate speech detection. Introduces HateBR-MoralXplain dataset (Brazilian Portuguese). Application of MFT to NLP task, not a moral reasoning benchmark.",
+      "has_data": true,
+      "data_url": "https://github.com/franciellevargas/SMRA",
+      "format": "Other",
+      "size": null,
+      "size_note": "Hate speech dataset annotated with moral foundations rationales",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 69,
+      "file": "2025-Aditya-Toward global ethical frameworks for AI.md",
+      "short_title": "Toward global ethical frameworks for AI",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Governance/policy paper proposing three-tiered oversight structure. Not a benchmark or empirical study.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Policy/governance paper",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 70,
+      "file": "2025-Baum-Aggregation Problems in Machine Ethics.md",
+      "short_title": "Aggregation Problems in Machine Ethics",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Philosophical analysis of moral/social aggregation in machine ethics. Disentangles value aggregation, uncertainty aggregation, and social aggregation. Not empirical.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Philosophical analysis paper",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 71,
+      "file": "2025-Graves-AI Practical Wisdom and Compassion.md",
+      "short_title": "AI Practical Wisdom and Compassion",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "identity",
+        "other"
+      ],
+      "theory_detail": "Proposes artificial practical wisdom (phronesis) grounded in compassion. Integrates Aristotelian, Buddhist, and utilitarian perspectives. Theoretical, no benchmark.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Theoretical paper",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 72,
+      "file": "2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md",
+      "short_title": "UAlign (Ukrainian Alignment Benchmark)",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "3,682 moral judgment scenarios + 1,700 ethical situations for Ukrainian. Parallel EN-UK pairs. General alignment benchmark, not grounded in specific moral psych theories.",
+      "has_data": true,
+      "data_url": "https://huggingface.co/datasets/Stereotypes-in-LLMs/UAlign",
+      "format": "MCQ",
+      "size": 5382,
+      "size_note": "3,682 moral scenarios + 1,700 ethical situations (parallel EN-UK)",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 73,
+      "file": "2025-Kumar-Are Rules Meant to be Broken.md",
+      "short_title": "UniMoral",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "kohlberg",
+        "dual_process",
+        "intuitionist"
+      ],
+      "theory_detail": "UniMoral: unified multilingual dataset (6 languages) with psychological dilemmas annotated for action choices, ethical principles, factors, and consequences. References dual process, intuitionist model, and developmental approaches.",
+      "has_data": true,
+      "data_url": "https://huggingface.co/datasets/shivaniku/UniMoral",
+      "format": "Mixed",
+      "size": null,
+      "size_note": "Multilingual dataset spanning 6 languages with multiple annotation layers",
+      "hidden_gem": true,
+      "gem_rationale": "Bridges psychological and social-media moral dilemmas across 6 languages with multi-layer annotations (actions, principles, factors, consequences, annotator moral profiles). Engages multiple underrepresented theories. mp_max=50 severely underrates."
+    },
+    {
+      "rank": 74,
+      "file": "2025-Lee-When Prompting Fails to Sway.md",
+      "short_title": "When Prompting Fails to Sway",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "mft",
+        "intuitionist"
+      ],
+      "theory_detail": "Tests LLM value inertia using role-play-at-scale. Finds persistent moral dimensions (harm avoidance, fairness) resist persona prompting. References moral intuition.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "Likert",
+      "size": null,
+      "size_note": "Randomized persona prompts with macroscopic analysis",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 75,
+      "file": "2025-Liu-Diagnosing Moral Reasoning Acquisition in.md",
+      "short_title": "Diagnosing Moral Reasoning Acquisition",
+      "is_moral_psych_benchmark": "Partial",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Theoretical analysis of how LLMs acquire moral reasoning. Proposes 'pragmatic dilemma' concept. Not a benchmark but analyzes learning paradigms for moral cognition.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Analytical/theoretical study",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 76,
+      "file": "2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+      "short_title": "Moral Anchor System (MAS)",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Technical framework for detecting value drift using Bayesian inference + LSTM. Engineering approach, not grounded in moral psychology.",
+      "has_data": false,
+      "data_url": "NA",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Technical framework paper with simulations",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 77,
+      "file": "2025-Salazar-Kaleidoscope.md",
+      "short_title": "Kaleidoscope",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Multilingual VLM exam benchmark (18 languages, 14 subjects, 20,911 MCQ). General-purpose multimodal benchmark, not moral psychology focused.",
+      "has_data": true,
+      "data_url": "https://hf.co/datasets/CohereForAI/kaleidoscope",
+      "format": "MCQ",
+      "size": 20911,
+      "size_note": "20,911 multiple-choice questions across 18 languages",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 78,
+      "file": "2025-Shen-Alignment and Safety in LLMs Survey.md",
+      "short_title": "Alignment and Safety in LLMs Survey",
+      "is_moral_psych_benchmark": "No",
+      "theories": [
+        "other"
+      ],
+      "theory_detail": "Comprehensive survey of alignment techniques and training protocols. Surveys DPO, Constitutional AI, brain-inspired methods. Not a benchmark.",
+      "has_data": false,
+      "data_url": "https://github.com/ethz-spylab/rlhf_trojan_competition",
+      "format": "N/A",
+      "size": null,
+      "size_note": "Survey paper",
+      "hidden_gem": false,
+      "gem_rationale": ""
+    },
+    {
+      "rank": 79,
+      "file": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+      "short_title": "ValueCompass",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "schwartz",
+        "dyadic"
+      ],
+      "theory_detail": "Framework grounded in psychological theories (mentions Schwartz). Tests 5 LLMs + 112 humans from 7 countries across 4 scenarios. References Gray & Schein in analysis.",
+      "has_data": true,
+      "data_url": "https://github.com/huashen218/value_action_gap",
+      "format": "Scenario rating",
+      "size": null,
+      "size_note": "4 scenarios (collaborative writing, education, public sectors, healthcare) x 5 LLMs x 112 humans",
+      "hidden_gem": true,
+      "gem_rationale": "Cross-national (7 countries) contextual value alignment study. Finds context-dependent misalignments (e.g., humans prioritize national security, LLMs reject it). References dyadic morality (Gray & Schein). Under-scored at mp_max=50."
+    },
+    {
+      "rank": 80,
+      "file": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+      "short_title": "Staircase of Ethics (Multi-step Moral Dilemmas)",
+      "is_moral_psych_benchmark": "Yes",
+      "theories": [
+        "mft",
+        "dual_process"
+      ],
+      "theory_detail": "3,302 five-stage escalating moral dilemmas. Tests how LLMs recalibrate moral judgments as dilemma complexity increases. References dual process theory.",
+      "has_data": true,
+      "data_url": "https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/",
+      "format": "Multi-turn",
+      "size": 3302,
+      "size_note": "3,302 five-stage dilemmas (16,510 total decision points)",
+      "hidden_gem": true,
+      "gem_rationale": "FIRST multi-step escalating moral dilemma benchmark. 5-stage progression reveals value priority shifts. Care often superseded by fairness in complex contexts. Novel dynamic evaluation paradigm. mp_max=50 underrates."
+    }
+  ],
+  "underrepresented_theory_finds": {
+    "dual_process": {
+      "description": "Joshua Greene's Dual Process Theory of moral cognition (System 1 intuition vs System 2 deliberation)",
+      "papers": [
+        "2023-Deng-Probing the Moral Development of Large Language.md",
+        "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+        "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+        "2025-Zhu-TrolleyBench.md",
+        "2025-Jiao-LLM Ethics Benchmark.md",
+        "2022-Bago-Situational factors shape moral judgments in the.md",
+        "2025-Kumar-Are Rules Meant to be Broken.md",
+        "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+        "2023-Astobiza-MoralNet.md",
+        "2025-Chakraborty-Structured Moral Reasoning.md",
+        "2018-Noothigattu-A Voting-Based System for Ethical Decision Making.md",
+        "2024-Garcia-The Moral Turing Test.md",
+        "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md"
+      ],
+      "total": 13,
+      "note": "mp_dual_process scorer only caught 2 papers (score >0). Deep extract search found 13. Major gap in keyword scorer."
+    },
+    "intuitionist": {
+      "description": "Haidt's Social Intuitionist Model (moral judgments arise from intuitions, reasoning is post-hoc)",
+      "papers": [
+        "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+        "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+        "2025-Neuman-PRIME Framework Convergent Ethics.md",
+        "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+        "2024-Yan-M$^3$oralBench.md",
+        "2015-Clifford-Moral Foundations Vignettes.md",
+        "2025-Jotautaite-From Stability to Inconsistency.md",
+        "2024-Khandelwal-Multilingual Defining Issues Test.md",
+        "2026-Yu-Tracing Moral Foundations in LLMs.md",
+        "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+        "2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+        "2023-Hopp-The Dutch Moral Foundations Stimulus Database.md",
+        "2022-Fraser-Does Moral Code Have a Moral Code.md",
+        "2025-Schacht-Mapping Moral Reasoning Circuits.md",
+        "2020-Awad-Crowdsourcing moral machines.md",
+        "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+        "2025-Farid-One Model, Many Morals.md",
+        "2025-Jiao-LLM Ethics Benchmark.md",
+        "2025-Sameer-Insights into Moral Reasoning of AI.md",
+        "2024-Agarwal-Ethical Reasoning Depends on Language.md",
+        "2025-Aditya-Toward global ethical frameworks for AI.md",
+        "2025-Kumar-Are Rules Meant to be Broken.md",
+        "2025-Lee-When Prompting Fails to Sway.md",
+        "2024-Chiu-DailyDilemmas.md",
+        "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+        "2023-Astobiza-MoralNet.md",
+        "2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+        "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md",
+        "2023-Duan-Denevil.md",
+        "2025-Kneer-Hard Problem AI Alignment Value Forks.md",
+        "2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md",
+        "2021-Hendrycks-Aligning AI with Shared Human Values.md",
+        "2023-Zhang-Heterogeneous Value Alignment Evaluation for.md",
+        "2023-Körner-Deontology and Utilitarianism in Real Life.md",
+        "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.md"
+      ],
+      "total": 35,
+      "note": "mp_intuitionist scorer only caught 1 paper (score >=50). Deep extract search found 35 mentioning moral intuition or Haidt's intuitionist theory. MASSIVE gap in keyword scorer."
+    },
+    "dyadic": {
+      "description": "Gray & Schein's Theory of Dyadic Morality (harm requires perceived agent + patient)",
+      "papers": [
+        "2025-Trager-MFTCXplain.md",
+        "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+        "2026-Yu-Tracing Moral Foundations in LLMs.md",
+        "2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+        "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+        "2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+        "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md",
+        "2024-Wu-WorldValuesBench.md"
+      ],
+      "total": 8,
+      "note": "mp_dyadic scorer caught 3 papers (score >=50). Deep extract search found 8. Moderate gap but dyadic morality remains genuinely rare in LLM evaluation literature."
+    },
+    "identity": {
+      "description": "Moral Identity theory (Aquino & Reed; moral self-concept as motivator of moral action)",
+      "papers": [
+        "2024-Yan-M$^3$oralBench.md",
+        "2024-Ji-MoralBench.md",
+        "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+        "2024-Aksoy-Whose Morality Do They Speak.md",
+        "2025-Huang-Model Editing as a Double-Edged Sword.md",
+        "2025-An-MoralReason.md",
+        "2025-Jiao-LLM Ethics Benchmark.md",
+        "2025-Graves-AI Practical Wisdom and Compassion.md",
+        "2023-Astobiza-MoralNet.md",
+        "2025-Chakraborty-Structured Moral Reasoning.md",
+        "2025-Atf-Kantian-Utilitarian XAI.md",
+        "2021-Stenseke-Artificial Virtuous Agents.md",
+        "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+        "2025-Kumar-BengaliMoralBench.md"
+      ],
+      "total": 14,
+      "note": "mp_identity scorer caught 7 papers (score >=50). Deep extract search found 14 including moral character references. Moderate gap; 'moral character' is often discussed without citing Aquino/Reed identity scale."
+    }
+  },
+  "summary_statistics": {
+    "total_assessed": 40,
+    "genuine_moral_psych_benchmark": 21,
+    "partial": 10,
+    "not_moral_psych": 9,
+    "hidden_gems_flagged": 15,
+    "with_accessible_data": 22,
+    "theory_coverage_in_tier2": {
+      "mft": 14,
+      "schwartz": 12,
+      "trolley": 3,
+      "kohlberg": 2,
+      "dual_process": 3,
+      "intuitionist": 4,
+      "dyadic": 1,
+      "identity": 2,
+      "other": 14
+    },
+    "keyword_scorer_gaps": {
+      "dual_process": "Scorer found 2, deep search found 13 (85% miss rate)",
+      "intuitionist": "Scorer found 1, deep search found 35 (97% miss rate)",
+      "dyadic": "Scorer found 3, deep search found 8 (63% miss rate)",
+      "identity": "Scorer found 7, deep search found 14 (50% miss rate)"
+    },
+    "top_hidden_gems": [
+      {
+        "file": "2022-Bago-Situational factors shape moral judgments in the.md",
+        "rationale": "45-country Greene trolley replication. Gold standard human baseline for dual process theory."
+      },
+      {
+        "file": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+        "rationale": "10K+ real-world AITA dilemmas with data. Far beyond trolley-scale complexity."
+      },
+      {
+        "file": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+        "rationale": "First multi-step escalating moral dilemma benchmark (3,302 x 5 stages)."
+      },
+      {
+        "file": "2024-Li-Value-Spectrum.md",
+        "rationale": "Rare multimodal (video VQA) moral psych benchmark on Schwartz values."
+      },
+      {
+        "file": "2025-Kumar-Are Rules Meant to be Broken.md",
+        "rationale": "6-language UniMoral dataset bridging psych and social-media dilemmas with multi-layer annotations."
+      }
+    ]
+  }
+}

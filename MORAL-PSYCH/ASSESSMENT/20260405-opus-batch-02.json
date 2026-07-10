@@ -1,0 +1,1123 @@
+[
+  {
+    "file": "2025-Russo-The Pluralistic Moral Gap.md",
+    "short_title": "The Pluralistic Moral Gap",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Uses a 60-value taxonomy built from extracted rationales — theory-inspired but not a validated instrument like MFQ or PVQ"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "1,618 real-world moral dilemmas with binary evaluation + free-text rationale — multi-paragraph realistic scenario format"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc dataset constructed from real-world dilemmas; no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Distribution of human moral judgments collected as baselines for each of the 1,618 dilemmas"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity via human annotation; no published multi-study construct validity evidence for the taxonomy"},
+      "B1": {"score": 90, "confidence": "high", "evidence": "Binary evaluation (yes/no) per dilemma, plus free-text rationale"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; abstract mentions Moral Dilemma Dataset but no repository link found"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "DMP (Dirichlet-based) pipeline described; likely partial scripts but no explicit full pipeline link"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom dataset requiring custom evaluation pipeline; no native harness compatibility"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "Distributional alignment measured via Dirichlet; LLM judge-style comparison of distributions"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Benchmark designed for LLM evaluation with binary + free-text format; minor adaptation needed for standard harnesses"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv preprint; likely <5 citations at time of assessment"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Very new (2025); citation rate not yet established, likely <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Sameer-Insights into Moral Reasoning of AI.md",
+    "short_title": "Insights into Moral Reasoning of AI",
+    "scores": {
+      "A2": {"score": 100, "confidence": "high", "evidence": "Uses MFQ (Moral Foundations Questionnaire) and MCT (Moral Competence Test) — both validated instruments"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "MCT uses structured dilemmas but MFQ uses Likert-scale items on brief scenarios; standard instrument format"},
+      "A4": {"score": 100, "confidence": "high", "evidence": "Administers validated MFQ and MCT directly to LLMs and human participants"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Comparative study with human participants alongside LLMs; paper-specific human baseline"},
+      "A6": {"score": 50, "confidence": "medium", "evidence": "Adapts validated instruments (MFQ/MCT) to LLMs without LLM-specific revalidation study"},
+      "B1": {"score": 70, "confidence": "high", "evidence": "MFQ uses Likert scale; MCT uses structured choice format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data repository mentioned; Journal of Media Ethics study without open data"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code repository mentioned; administration described but no pipeline released"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom administration of standard instruments; not in native lm-eval harness"},
+      "B7": {"score": 40, "confidence": "high", "evidence": "MCT scoring uses psychometric scoring methodology; MFQ uses summed subscale scores"},
+      "B10": {"score": 70, "confidence": "medium", "evidence": "Standard questionnaires administered with minor prompt adaptation for LLM context"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 publication in Journal of Media Ethics; very new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent for established citation rate; <2/yr estimated"}
+    }
+  },
+  {
+    "file": "2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+    "short_title": "GPLA: Generative Psycho-Lexical Approach for Constructing Value Systems",
+    "scores": {
+      "A2": {"score": 70, "confidence": "medium", "evidence": "Builds on Schwartz Theory of Basic Human Values; constructs psychologically-grounded five-factor value system — theory-derived"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Three benchmarking tasks described; scenarios appear to be sentence-level evaluation tasks"},
+      "A4": {"score": 80, "confidence": "medium", "evidence": "Original value system derived via psycho-lexical approach with psychometric validation (meets standard psychological criteria)"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Validated against Schwartz canonical data; partial normative reference but no full population-level human baseline for LLM comparison"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single-study validation; meets standard psychological criteria per abstract; factor structure reported"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Benchmarking tasks likely use Likert-style or classification format; ACL paper suggests structured evaluation"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; no explicit HuggingFace/GitHub repository mentioned in abstract"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "ACL paper likely includes some code; partial pipeline assumed but not confirmed"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom framework; not in native harness but straightforward to adapt for classification tasks"},
+      "B7": {"score": 85, "confidence": "medium", "evidence": "Value classification tasks likely scored with string normalization or exact match"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Value system explicitly designed for LLMs; benchmarking tasks designed with LLM evaluation in mind"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ACL paper; very new, likely <5 citations at time of assessment"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent for established citation rate"}
+    }
+  },
+  {
+    "file": "2024-Agarwal-Ethical Reasoning Depends on Language.md",
+    "short_title": "Ethical Reasoning Depends on Language",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Uses Schwartz-inspired ethical dilemmas/policies; extends Rao et al. framework — theory-inspired rather than validated instrument"},
+      "A3": {"score": 60, "confidence": "medium", "evidence": "Ethical dilemmas from three normative ethics branches (deontology, virtue, consequentialism); multi-sentence scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc dilemma set adapted from Rao et al.; no validated psychometric source instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; purely LLM comparison across languages"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal validity — cross-lingual consistency used as proxy; no construct validity evidence"},
+      "B1": {"score": 30, "confidence": "medium", "evidence": "Likely open-ended generation responses with post-hoc classification; or binary judgment"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; LREC-COLING paper without explicit open repository"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code release mentioned"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom administration; not in native harness"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "LLM response classification for ethical stance — likely LLM judge or human annotation"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Designed for LLM evaluation across languages with minor prompt adaptation per language"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 LREC-COLING; roughly ~20 citations estimated for mid-tier conference paper"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "~2024, ~1 year old; estimated ~5/yr"}
+    }
+  },
+  {
+    "file": "2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.md",
+    "short_title": "Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration",
+    "scores": {
+      "A2": {"score": 100, "confidence": "high", "evidence": "Administers Portrait Values Questionnaire-Revised (PVQ-RR) — a fully validated instrument covering all 19 Schwartz values"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "PVQ-RR uses brief portrait descriptions (2–3 sentences per item) to elicit value ratings via Likert scale"},
+      "A4": {"score": 100, "confidence": "high", "evidence": "PVQ-RR is a validated psychometric instrument with published population norms"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Human baseline from 53,472 individuals across 49 nations — published population norms"},
+      "A6": {"score": 50, "confidence": "medium", "evidence": "Applies PVQ-RR to LLMs without LLM-specific revalidation; single-study comparison"},
+      "B1": {"score": 70, "confidence": "high", "evidence": "PVQ-RR uses 6-point Likert scale responses"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; JMIR paper without open data repository mentioned"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code release mentioned"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom administration of PVQ-RR to LLMs; not in native harness"},
+      "B7": {"score": 40, "confidence": "high", "evidence": "Psychometric scoring using Schwartz value profile computation from Likert responses"},
+      "B10": {"score": 70, "confidence": "medium", "evidence": "PVQ-RR administered with prompt adaptation; minor format change (portrait descriptions as text prompts)"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 JMIR paper; specialized venue, estimated ~10-20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2024 paper, ~1 year old; estimated ~5-10/yr"}
+    }
+  },
+  {
+    "file": "2022-Bago-Situational factors shape moral judgments in the.md",
+    "short_title": "Situational factors shape moral judgments in the",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Uses trolley dilemma paradigm — theory-inspired moral dilemma framework, not a validated multi-foundation instrument"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "Large multi-lab study with detailed trolley/footbridge scenarios; multi-paragraph with situational factor manipulations"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "Systematically varied moral dilemmas with psychometric validation across 35+ labs; original instrument with strong psychometrics"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Large multinational sample (Eastern, Southern, Western countries); published population norms from diverse cultural sample"},
+      "A6": {"score": 100, "confidence": "high", "evidence": "Multi-study (35+ labs), convergent and structural validity, cultural breadth — Nature Human Behaviour publication"},
+      "B1": {"score": 90, "confidence": "high", "evidence": "Binary forced-choice (permissible/not) per dilemma — close to binary/forced-choice format"},
+      "B3": {"score": 90, "confidence": "high", "evidence": "OSF preregistration at osf.io/9uaqm — data available on OSF"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Large collaborative study; likely analysis scripts on OSF but full LLM evaluation pipeline not available"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Human psychology study; adapting to LLM evaluation requires custom implementation"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Binary forced-choice scoring — exact match applicable"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Designed for human subjects; major format change needed to adapt trolley vignettes for LLM batch evaluation"},
+      "C1": {"score": 75, "confidence": "medium", "evidence": "Nature Human Behaviour 2022; estimated ~150-200 citations for high-impact multi-lab study"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2022, ~3 years old; ~50-75 citations/yr for Nature Human Behaviour paper"}
+    }
+  },
+  {
+    "file": "2022-Ziems-The Moral Integrity Corpus.md",
+    "short_title": "The Moral Integrity Corpus",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "9 moral/social attributes inspired by MFT; theory-inspired but not administering full MFQ"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "38k prompt-reply pairs from dialogue; multi-sentence contextual evaluation of conversational morality"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc annotation framework (Rules of Thumb + 9 moral attributes); no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Crowdsourced human annotation of 38k pairs; paper-specific human sample as baseline"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single ACL study; inter-rater reliability reported; systematic evaluation of RoT generation"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "MIC includes MCQ-style attribute classification benchmark alongside generation"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "Explicit GitHub link: https://github.com/GT-SALT/mic mentioned in abstract"},
+      "B4": {"score": 95, "confidence": "high", "evidence": "GitHub repository implies full pipeline for RoT generation and attribute classification benchmark"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Straightforward to adapt for lm-eval; classification task with clear input-output format"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Attribute classification uses standard string/label matching with normalization"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Explicitly designed for benchmarking conversational AI systems; dialogue-based evaluation"},
+      "C1": {"score": 85, "confidence": "medium", "evidence": "ACL 2022 paper; well-cited dialogue ethics dataset, estimated 300-500+ citations"},
+      "C2": {"score": 80, "confidence": "medium", "evidence": "2022, ~3 years old; ~100-150/yr for popular ACL benchmark"}
+    }
+  },
+  {
+    "file": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md",
+    "short_title": "Self-Explaining Hate Speech Detection with Moral Rationales",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Based on Moral Foundations Theory with expert-annotated moral rationales; theory-derived coverage"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Hate speech examples with token-level moral rationale annotations; multi-sentence socio-political content"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "New HateBR-MoralXplain dataset; ad hoc annotation — no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Expert-annotated moral rationales serve as human baseline for the Portuguese dataset"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study; IoU F1 and Token F1 as validity metrics; systematic evaluation on held-out data"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Binary hate speech detection + multi-label moral sentiment classification — MCQ/binary format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; arXiv 2026 preprint without confirmed repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "SMRA framework described with attention supervision; likely code available but not confirmed in record"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom SMRA architecture with specialized training objective; not in native harness"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Binary classification with F1 metric; string-matching applicable for label prediction"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Requires supervised training with moral rationale attention supervision; major adaptation for zero-shot LLM evaluation"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2026 arXiv preprint; too new for citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent for citation rate"}
+    }
+  },
+  {
+    "file": "2025-Aditya-Toward global ethical frameworks for AI.md",
+    "short_title": "Toward global ethical frameworks for AI",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Policy/governance paper; Schwartz reference is conceptual only — keyword-level engagement"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No moral scenarios or stimulus materials; purely theoretical governance framework"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric source instrument; conceptual framework paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; purely normative/prescriptive paper"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal validity evidence; governance framework proposal without empirical validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No benchmark format; theoretical paper — open generation/conceptual only"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data; non-empirical paper"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code; non-empirical"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "No harness compatibility; not a benchmark"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer; framework proposal only"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Not designed for LLM administration; purely conceptual"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 World Journal paper; low-tier venue, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "New and low-impact venue; <2/yr estimated"}
+    }
+  },
+  {
+    "file": "2025-Baum-Aggregation Problems in Machine Ethics.md",
+    "short_title": "Aggregation Problems in Machine Ethics",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Theoretical/conceptual paper on aggregation; Schwartz reference is conceptual framework — keyword-level engagement"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No moral scenarios; philosophical analysis of aggregation problems"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric source instrument; conceptual paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal — philosophical argument paper"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No benchmark format; theoretical/position paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data; non-empirical"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Not a benchmark"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Not designed for LLM administration"},
+      "C1": {"score": 50, "confidence": "medium", "evidence": "AIES 2025; AAAI/ACM conference paper on machine ethics — estimated ~20-50 citations for this topic"},
+      "C2": {"score": 50, "confidence": "medium", "evidence": "2025, ~1 year old; ~10-20/yr for ethics/philosophy AAAI paper"}
+    }
+  },
+  {
+    "file": "2025-Graves-AI Practical Wisdom and Compassion.md",
+    "short_title": "AI Practical Wisdom and Compassion",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Virtue ethics / Aristotelian framework — keyword-level mention of Schwartz; no validated instrument"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No moral scenarios; philosophical argument paper about AI practical wisdom"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric instrument; conceptual paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal — philosophical/normative argument"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "No benchmark format"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Not a benchmark"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Not designed for LLM administration"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "AI and Ethics journal 2026 (pub date); Springer journal, likely <20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "New publication; estimated ~5/yr"}
+    }
+  },
+  {
+    "file": "2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md",
+    "short_title": "UAlign: LLM Alignment Benchmark for the Ukrainian Language",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "MFT-inspired moral judgment scenarios; theory-inspired framework with 3,682 scenarios of varying ethical complexity"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "3,682 moral judgment scenarios + 1,700 ethical situations; varying ethical complexities per abstract"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Machine-translated and validated Ukrainian benchmark; ad hoc scenarios without validated psychometric instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Cross-lingual evaluation comparing English vs Ukrainian performance; partial human baseline through linguistic validation"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity; linguistic validation with Ukrainian language models for grammatical error correction; no full construct validation"},
+      "B1": {"score": 90, "confidence": "high", "evidence": "Moral judgment dataset designed as binary/classification evaluation; clear right/wrong distinctions in normative dataset"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "Abstract states 'benchmark has been made publicly available'; likely GitHub given ACL workshop context"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Evaluation pipeline for six LLMs described; likely partial scripts available"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Straightforward to adapt for standard LLM evaluation; classification format"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Binary/classification moral judgment scoring; string normalization applicable"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed specifically for LLM alignment evaluation; parallel English-Ukrainian pairs designed for LLM testing"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ACL workshop (UNLP); very new and workshop-level publication, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; workshop paper, likely <2/yr"}
+    }
+  },
+  {
+    "file": "2025-Kumar-Are Rules Meant to be Broken.md",
+    "short_title": "Are Rules Meant to be Broken?",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "UNIMORAL integrates MFT and Kohlberg-grounded moral dilemmas; theory-derived annotations including moral typology and cultural profiles"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Integrated psychologically-grounded + social-media dilemmas; multi-sentence with action choices, ethical principles, contributing factors"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc unified dataset; annotations inspired by MFT/Kohlberg but no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Annotators' moral and cultural profiles collected; paper-specific human sample with profile data"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study; validated across four tasks and three LLMs at ACL-level publication"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Four tasks: action prediction (MCQ), moral typology classification (MCQ), factor attribution, consequence generation"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; ACL 2025 paper — may have data but not confirmed in available metadata"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Benchmark evaluations of three LLMs described; likely partial code"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Classification tasks straightforwardly adaptable for lm-eval; multilingual adds complexity"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Action prediction and classification tasks scored with exact match / string normalization"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed explicitly for LLM benchmark evaluation across six languages"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ACL paper; very new at time of assessment, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent for established rate"}
+    }
+  },
+  {
+    "file": "2025-Lee-When Prompting Fails to Sway.md",
+    "short_title": "When Prompting Fails to Sway",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Uses SVS/Schwartz value dimensions and MFQ-inspired dimensions; theory-derived analysis with harm avoidance and fairness dimensions"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Role-play prompts with persona assignment; primarily single-statement or short prompts testing value orientation"},
+      "A4": {"score": 70, "confidence": "medium", "evidence": "Uses established Schwartz/MFT-inspired value survey items; theory-derived but not full validated instrument administration"},
+      "A5": {"score": 70, "confidence": "medium", "evidence": "Role-play at scale with diverse persona prompts; macroscopic trend analysis implies human-baseline comparison via persona diversity"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity of inertia finding; single study with replication across models but no construct validity for the measurement instrument"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Likely Likert-style value ratings or binary stance measurement across randomized personas"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; arXiv preprint without confirmed repository"},
+      "B4": {"score": 0, "confidence": "medium", "evidence": "No code mentioned in available metadata"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom persona-prompting framework; not in native harness"},
+      "B7": {"score": 85, "confidence": "medium", "evidence": "Value dimension scoring with normalization; measurement of directional bias via aggregated scores"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Explicitly designed for LLM evaluation; role-play prompting is native LLM methodology"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024/2025 arXiv; estimated ~10-20 citations for value alignment topic"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "~2024-2025; estimated ~10/yr for relevant LLM alignment topic"}
+    }
+  },
+  {
+    "file": "2025-Liu-Diagnosing Moral Reasoning Acquisition in.md",
+    "short_title": "Diagnosing Moral Reasoning Acquisition in",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "MFT-inspired ethical judgment tasks; theory-inspired framework without administering full validated MFQ"},
+      "A3": {"score": 60, "confidence": "medium", "evidence": "EMNLP paper uses ethics-based judgment scenarios; likely multi-sentence scenarios from established moral datasets"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Uses curated datasets; no validated psychometric source instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Comparison against dataset annotations as proxy human baseline; partial normative reference"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity via performance on ethics tasks; distributional semantics analysis; no construct validity evidence"},
+      "B1": {"score": 100, "confidence": "medium", "evidence": "Ethics-based judgment tasks likely MCQ or binary classification format (standard NLP ethics benchmark format)"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url in record"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Fine-tuning and learning paradigm comparison study; likely partial code released with EMNLP paper"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Uses established moral reasoning datasets; straightforward to adapt"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Ethics judgment tasks scored with exact match against annotated labels"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Explicitly studies LLM moral reasoning acquisition; designed for LLM evaluation"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 EMNLP paper; very new, likely <5 citations at time of assessment"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Ravindran-Moral Anchor System A Predictive Framework for AI Value Alignment and.md",
+    "short_title": "Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Schwartz reference is conceptual framing for value states; no validated instrument used — keyword-level"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "Simulated environments for value drift detection; no moral scenarios for human/LLM psychology"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric source instrument; Bayesian/LSTM system paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "Simulated agents; no human baseline data"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal — simulation results only; no construct validity for psychological measurement"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Detection system, not a benchmark format for LLM moral psychology evaluation"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code released"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Proprietary simulation framework"},
+      "B7": {"score": 85, "confidence": "medium", "evidence": "Bayesian detection with threshold scoring; deterministic scoring pipeline"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Runtime monitoring system, not an evaluation benchmark for LLM moral psychology"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv preprint; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Salazar-Kaleidoscope.md",
+    "short_title": "Kaleidoscope",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Vision-language benchmark for multilingual evaluation; Schwartz tag likely misattributed — this is a VLM benchmark, not moral psychology"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "In-language exam questions per country; single-question format without deep moral dilemma structure"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc multilingual exam questions; no validated psychometric source instrument for values"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human moral baseline; multilingual VLM benchmark"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal validity for moral psychology; general VLM evaluation validity"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "In-language exams likely MCQ format across multiple countries"},
+      "B3": {"score": 95, "confidence": "medium", "evidence": "Large collaborative Cohere-affiliated project; likely GitHub/HuggingFace repository"},
+      "B4": {"score": 95, "confidence": "medium", "evidence": "Large community benchmark likely has full evaluation pipeline"},
+      "B6": {"score": 100, "confidence": "medium", "evidence": "Large-scale collaborative benchmark likely in major harnesses"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Exam questions scored with exact match"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for LLM/VLM evaluation"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv preprint; likely <5 citations at time of assessment"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Shen-Alignment and Safety in LLMs Survey.md",
+    "short_title": "Alignment and Safety in LLMs Survey",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Survey paper on alignment techniques; Schwartz values mentioned conceptually — keyword-level engagement"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "Survey paper; no moral scenarios administered"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric instrument; literature survey"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data; literature review"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal — meta-level synthesis paper"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Not a benchmark; survey paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Not a benchmark"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Survey paper, not a benchmark"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv survey; too new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; surveys take time to accumulate citations"}
+    }
+  },
+  {
+    "file": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+    "short_title": "ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Schwartz theory-grounded framework; value dimensions derived from psychological theories for contextual alignment measurement"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Four scenarios (collaborative writing, education, public sectors, healthcare); multi-sentence contextual value scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc value elicitation framework; not using validated psychometric instrument like PVQ"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "112 humans from seven countries as comparison baseline; paper-specific human sample"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single ACL study; systematic comparison across 5 LLMs and 112 humans; construct validity examined"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Likely Likert or ranking scale for value elicitation across scenarios"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; ACL 2025 paper — data availability not confirmed"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Framework paper with evaluation code likely partial"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom contextual value measurement framework; not in native harness"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Value alignment measurement uses psychometric scoring across Schwartz dimensions"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed specifically for human-LLM alignment measurement in realistic deployment scenarios"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ACL; very new, likely <5 citations at assessment time"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+    "short_title": "The Staircase of Ethics (Multi-step Moral Dilemmas)",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "MFT-inspired value prioritization (care, fairness); theory-inspired but not administering full validated MFQ"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "3,302 five-stage escalating dilemmas; multi-step moral dilemma format with progressing complexity — multi-paragraph"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel MMDs dataset; ad hoc multi-step dilemma construction without validated psychometric instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline; nine LLM evaluation only"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity; pairwise value comparison methodology; single study without construct validity evidence"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Forced-choice/pairwise value comparisons across five stages; binary-like per stage"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "Project site: https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/ mentioned — likely GitHub repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Project website suggests code available; partial evaluation pipeline"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Structured dilemma format; straightforward to adapt for lm-eval"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Binary choice per dilemma stage; exact match / string normalization applicable"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed explicitly for LLM evaluation; multi-step format specifically addresses LLM moral adaptation"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 EMNLP paper; very new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2024-Chiu-DailyDilemmas.md",
+    "short_title": "DailyDilemmas",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Five theoretical frameworks (WVS, MFT, Maslow, Aristotle's Virtues, Plutchik) — theory-derived multi-framework approach"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "1,360 daily-life moral dilemmas with two possible actions and affected parties; multi-sentence realistic daily scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel dataset; ad hoc construction from everyday moral dilemmas — no validated psychometric source instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Studies OpenAI ModelSpec and Anthropic Constitutional AI principles as reference; partial human normative reference only"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity; five-framework analysis provides construct breadth; ICLR publication but no formal construct validity study"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Forced-choice between two possible actions per dilemma"},
+      "B3": {"score": 100, "confidence": "high", "evidence": "Explicit HuggingFace link: https://hf.co/datasets/kellycyy/daily_dilemmas and GitHub: https://github.com/kellycyy/daily_dilemmas"},
+      "B4": {"score": 95, "confidence": "high", "evidence": "GitHub repository with evaluation code; ICLR paper typically includes full evaluation pipeline"},
+      "B6": {"score": 70, "confidence": "high", "evidence": "Straightforward forced-choice format; adaptable for lm-eval"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Action choice scoring with string normalization; binary forced-choice"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for LLM evaluation of value preferences in daily-life contexts"},
+      "C1": {"score": 50, "confidence": "medium", "evidence": "ICLR 2025 paper; high-impact venue; estimated ~20-30 citations for well-designed benchmark"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2024/2025; ICLR paper; ~10-20/yr estimated"}
+    }
+  },
+  {
+    "file": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "short_title": "OffTheRails: Procedural Dilemma Generation for Moral Reasoning",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Trolley problem paradigm; systematically varied causal factors (necessity, side effects, action/omission) — theory-inspired"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "Procedurally generated multi-paragraph moral dilemmas with causal graphs; 50 scenarios × 8 conditions with competing considerations"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "Original procedurally generated dilemma framework using causal graphs; systematic variation with psychometric properties"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human moral permissibility and intention judgments collected for subset; paper-specific human sample"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study; effect of necessity vs side-effect replicated across humans and LLMs; systematic manipulation check"},
+      "B1": {"score": 90, "confidence": "high", "evidence": "Binary moral permissibility judgment per dilemma; 400 unique test items"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; arXiv workshop/conference paper — data availability not confirmed"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Procedural generation pipeline described; likely code available for dilemma generation"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Binary judgment format; straightforward to adapt for lm-eval"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Binary permissibility judgment; exact match scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Explicitly designed for both human and LLM evaluation; Stanford group designed for LLM moral reasoning"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 arXiv from Stanford; estimated ~20-30 citations given Stanford authorship and trolley paradigm topic"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "~2024; estimated ~10-15/yr"}
+    }
+  },
+  {
+    "file": "2024-Hancox-Li-Is ETHICS about ethics.md",
+    "short_title": "Is ETHICS about ethics?",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Critiques ETHICS benchmark from MFT and moral psychology lens; theory-inspired analysis"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "Brief position paper evaluating ETHICS benchmark scenarios; 4-page paper with limited scenario analysis"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Critique/analysis paper; no new validated instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "References empirical moral psychology literature as baseline standard; indirect human normative reference"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity analysis of ETHICS benchmark; philosophical validity critique — no empirical validity study"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Position/critique paper; not a benchmark itself — reviews existing benchmark"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data; position paper"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code; position paper"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Not a benchmark"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer; analysis paper"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Position paper; not a benchmark"},
+      "C1": {"score": 30, "confidence": "medium", "evidence": "2024 arXiv; critique of popular ETHICS benchmark — likely ~10-20 citations from community"},
+      "C2": {"score": 50, "confidence": "medium", "evidence": "2024, ~1 year old; ~10-20/yr for relevant benchmark critique"}
+    }
+  },
+  {
+    "file": "2024-Yao-CLAVE ValEval.md",
+    "short_title": "CLAVE / ValEval",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "ValEval covers three major value systems (MFT, Schwartz, and others); theory-derived multi-system dataset"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "13k+ (text, value, label) tuples across diverse domains; multi-sentence value-laden text with value classification"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc annotation framework; CLAVE uses dual-LLM approach — no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "<100 human-labeled samples per value for calibration; paper-specific human annotation as baseline"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study; 12+ LLM evaluators benchmarked; systematic evaluation of generalizability (adaptability + generalizability claims)"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Value classification task — MCQ/binary label prediction from text"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; Microsoft Research paper — may have internal dataset"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Dual-LLM framework implementation described; likely partial code"},
+      "B6": {"score": 60, "confidence": "medium", "evidence": "LLM-based evaluation framework; requires LLM-in-the-loop — custom adaptation needed"},
+      "B7": {"score": 60, "confidence": "high", "evidence": "Fine-tuned small model scorer for value classification; LLM judge for high-level extraction"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "CLAVE designed for evaluating LLM-generated responses; ValEval designed for LLM value evaluation"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2024 arXiv from Microsoft Research Asia; estimated ~20-50 citations for value evaluation framework"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2024; Microsoft Research paper, ~10-20/yr estimated"}
+    }
+  },
+  {
+    "file": "2023-Astobiza-MoralNet.md",
+    "short_title": "MoralNet",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Proof-of-concept proposal; identity theory tag but no validated instrument — keyword-level conceptual framework"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "Proof-of-concept; likely uses existing single-sentence moral scenarios as placeholder examples"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Conceptual proposal; ad hoc — no validated instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "Proof of concept paper; no human baseline data collected"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal; call-to-action paper without empirical validation"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Conceptual platform proposal; format not specified"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "OSF URL in paper record but conceptual paper; no actual dataset confirmed"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code; proposal paper"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Proposed platform concept only"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer implemented"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Not designed for current LLM administration; conceptual proposal"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2023 anonymous/OSF preprint; likely <5 citations given proof-of-concept status"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Minimal citation impact; <2/yr estimated"}
+    }
+  },
+  {
+    "file": "2023-Davani-Disentangling Perceptions of Offensiveness.md",
+    "short_title": "Disentangling Perceptions of Offensiveness",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Explicitly uses MFT (Care, Purity as significant mediators); theory-derived MFT subscale scoring"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "4,309 participants across 21 countries evaluating offensive language; multi-sentence social media content with cultural context"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Cross-cultural offensiveness annotation; no validated psychometric source instrument"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Large-scale cross-cultural study with 4,309 participants from 21 countries — population-level norms across cultural regions"},
+      "A6": {"score": 75, "confidence": "high", "evidence": "Single-study; cross-cultural mediation analysis at FAccT venue; construct validity via moral value mediation analysis"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Likert-scale offensiveness ratings; MFT questionnaire items for moral values"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; Google Research paper without confirmed open data repository"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code repository mentioned"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom cross-cultural survey framework; not in native harness"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Mediation analysis with moral foundation subscale scores; psychometric scoring"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Human cross-cultural study; major format change needed for LLM adaptation"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "FAccT 2023; Google Research paper on cross-cultural offensiveness; estimated ~100+ citations"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2023, ~2 years old; ~50/yr estimated for Google FAccT paper on relevant topic"}
+    }
+  },
+  {
+    "file": "2023-Rao-Ethical Reasoning over Moral Alignment.md",
+    "short_title": "Ethical Reasoning over Moral Alignment",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Three branches of normative ethics framework; theory-inspired dilemmas with ethical policies — not validated instrument"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "Multi-paragraph realistic dilemmas with ethical policies from normative ethics; Monica's Dilemma example shows complex competing considerations"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Original dilemma set constructed by authors; ad hoc — no validated psychometric source instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline; GPT model comparison only"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity; Western bias finding suggests limited cultural validity; position paper rather than full validation study"},
+      "B1": {"score": 30, "confidence": "medium", "evidence": "Open-ended ethical reasoning with rubric evaluation; not MCQ"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; EMNLP findings paper"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code repository mentioned"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom framework for policy-conditioned ethical reasoning; not in native harness"},
+      "B7": {"score": 50, "confidence": "medium", "evidence": "Free-text ethical reasoning evaluated with rubric; requires human or LLM judge evaluation"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Designed for LLM ethical reasoning evaluation; GPT-4 as primary subject"},
+      "C1": {"score": 30, "confidence": "medium", "evidence": "EMNLP 2023 findings paper; estimated ~20-30 citations"},
+      "C2": {"score": 50, "confidence": "medium", "evidence": "2023, ~2 years old; ~10-15/yr for EMNLP findings"}
+    }
+  },
+  {
+    "file": "2022-Qiu-ValueNet.md",
+    "short_title": "ValueNet",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Schwartz 10-dimensional value theory; ten dimensions conforming to basic human value theory in intercultural research — theory-derived"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "21,374 text scenarios; scenario-based value attitude measurement but primarily single-sentence dialogue contexts"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel ValueNet dataset; ad hoc human attitude annotations without validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human attitudes collected for 21,374 scenarios; paper-specific crowdsourced human baseline"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study at AAAI; Transformer-based value regression validated on downstream tasks; construct validity via dialogue task improvements"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Value regression model output; likely Likert-like attitude scoring"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "Dataset available at https://liang-qiu.github.io/ValueNet/ — confirmed public data repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Transformer-based value model released; partial pipeline for reinforcement learning application"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom value regression framework; requires RL integration for full use"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Value utility distribution regression; psychometric-style scoring with value model"},
+      "B10": {"score": 70, "confidence": "medium", "evidence": "Designed for dialogue system evaluation; minor adaptation needed for static LLM evaluation"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "AAAI 2022; first large-scale human value dataset; estimated ~100+ citations"},
+      "C2": {"score": 50, "confidence": "medium", "evidence": "2022, ~3 years old; ~30-50/yr estimated for foundational AAAI value dataset"}
+    }
+  },
+  {
+    "file": "2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+    "short_title": "Requisite Variety Ethical Utility Functions",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Dyadic moral theory tag; theoretical analysis of moral utility functions — keyword-level engagement with moral psychology"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "No moral scenarios; theoretical framework paper on ethical utility functions"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric instrument; theoretical AI safety paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal validity evidence; theoretical proposal"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Not a benchmark; theoretical framework"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Not a benchmark"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Not a benchmark"},
+      "C1": {"score": 30, "confidence": "medium", "evidence": "2019 arXiv; AI safety topic; estimated ~20-50 citations over 6 years"},
+      "C2": {"score": 30, "confidence": "medium", "evidence": "2019, ~6 years old; ~5-10/yr for AI safety position paper"}
+    }
+  },
+  {
+    "file": "2018-Berberich-The Virtuous Machine.md",
+    "short_title": "The Virtuous Machine",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Virtue ethics framework (Aristotle, temperance, friendship); trolley problem mentioned conceptually — keyword-level"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "Trolley problem scenario used as motivating example only; no systematic scenario evaluation"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric instrument; philosophical argument paper"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline data"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal; philosophical argument for virtue ethics in AI"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Not a benchmark; position paper"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Not a benchmark"},
+      "B7": {"score": 30, "confidence": "high", "evidence": "No scorer"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Not designed for LLM administration"},
+      "C1": {"score": 50, "confidence": "medium", "evidence": "2018 arXiv, 7 years old; AI ethics early paper; estimated ~50-100 citations"},
+      "C2": {"score": 30, "confidence": "medium", "evidence": "2018, ~7 years old; ~10-15/yr for AI ethics position paper"}
+    }
+  },
+  {
+    "file": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "short_title": "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Four value theories with HIVES hierarchical embedding; Schwartz-grounded theory-derived value intensity framework"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "VIDB value-labeled texts; primarily sentence/short-text contexts for value intensity estimation"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "VIDB is a novel ranking-based dataset; no validated psychometric source instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Ranking-based aggregation from human-derived value profiles; partial normative reference"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study (arXiv Feb 2026); comprehensive evaluation across 10 models and 4 theories; anchor-based evaluator validation"},
+      "B1": {"score": 60, "confidence": "medium", "evidence": "Ranking-based evaluation; intensity scores from panel comparisons — not MCQ but structured ranking"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; arXiv preprint without confirmed repository"},
+      "B4": {"score": 0, "confidence": "medium", "evidence": "No code release confirmed"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom VALUEFLOW framework with anchor-based evaluator; not in native harness"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Anchor-based intensity scoring via panel comparison; psychometric-style consistency scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed explicitly for LLM value intensity evaluation and steerability testing"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2026 arXiv preprint; too new for citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Borenstein-Investigating Human Values in Online Communities.md",
+    "short_title": "Investigating Human Values in Online Communities",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "MFT and Schwartz values explicitly; trains classifiers on Schwartz values across Reddit — theory-derived multi-foundation"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "Reddit posts as stimuli; social media text — primarily short posts, not moral dilemmas"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel Reddit annotation framework; no validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "In-domain and out-of-domain human annotations for classifier training and validation"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single NAACL study; in-domain and out-of-domain evaluation; geographic correlation analysis for external validation"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Value relevance and polarity classification — binary/MCQ classification task"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; NAACL paper — data availability not confirmed"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Classifiers trained and described; likely partial pipeline with NAACL paper"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Classification task straightforwardly adaptable for LLM evaluation"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Binary/multi-label value classification scored with standard metrics"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Designed for analyzing human Reddit posts; major adaptation needed for LLM moral psychology evaluation"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "NAACL 2025; new paper, likely ~10-20 citations"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2025, ~1 year old; ~10-15/yr for NAACL paper"}
+    }
+  },
+  {
+    "file": "2025-Chakraborty-Structured Moral Reasoning.md",
+    "short_title": "Structured Moral Reasoning",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Schwartz values + care ethics explicit; value systems and ethical theories used as explicit scaffolds — theory-derived"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Four moral datasets with value-grounded prompts; multi-sentence moral scenarios from established datasets"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Reuses existing moral datasets; no validated psychometric source instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Evaluation against labeled moral datasets as human-derived baseline; indirect human normative reference"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study evaluating 12 open-source models; systematic taxonomy of prompts; accuracy and coherence measurement"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Moral decision-making tasks likely MCQ/binary classification across four datasets"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; arXiv paper"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Distillation approach described; likely partial code"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Uses standard moral datasets; straightforward to adapt for lm-eval"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Decision-making accuracy on established datasets; exact match scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed explicitly for LLM evaluation with value-grounded prompting strategies"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv; too new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "short_title": "MoVa: Towards Generalizable Classification of Human Morals and Values",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Four theoretically-grounded frameworks including MFT; 16 labeled datasets — theory-derived multi-framework coverage"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Classification of moral/value content in text; primarily sentence-level or short text classification"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Classification benchmark from existing datasets; no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human annotations across 16 labeled datasets; paper-specific human annotation as baseline"},
+      "A6": {"score": 75, "confidence": "high", "evidence": "Single EMNLP study; in-domain and out-of-domain evaluation; all@once strategy validated across multiple frameworks"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Multi-label classification tasks — MCQ/classification format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; EMNLP paper — data availability not confirmed in metadata"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Prompting strategy described; likely partial code with EMNLP paper"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Classification tasks straightforwardly adaptable for lm-eval"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Multi-label classification scored with F1/exact match with normalization"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Explicitly designed for LLM evaluation; recommends all@once prompting for LLMs"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 EMNLP; very new, likely <5 citations at assessment time"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Cheung-LLMs Amplified Cognitive Biases Moral.md",
+    "short_title": "LLMs Amplified Cognitive Biases",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Trolley problem paradigm with omission bias, action bias, framing effects — theory-inspired dual-process moral dilemmas"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "Multi-study design with 22+ dilemmas; realistic moral dilemmas from Reddit posts; multi-paragraph scenarios including collective action problems"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "Four-study preregistered design; Study 2 and 3 preregistered; systematically varied dilemma types with psychometric rigor"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Study 1: N=285 representative US sample; Study 2: N=474; Study 3: N=491 — published human baseline with representativeness claim"},
+      "A6": {"score": 100, "confidence": "high", "evidence": "Multi-study (4 studies): replication, mechanism (fine-tuning study), preregistration — convergent, discriminant, content validity"},
+      "B1": {"score": 90, "confidence": "high", "evidence": "Binary moral judgment (yes/no per question framing); forced-choice moral dilemmas"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; PNAS paper without confirmed open data repository"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code repository mentioned"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom binary judgment administration; not in native harness"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Binary yes/no judgment; exact match scoring"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Designed for LLM vs human comparison; minor adaptation needed from human study format"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "PNAS 2025; high-prestige venue; estimated ~50-100 citations for PNAS cognitive bias + LLM paper"},
+      "C2": {"score": 80, "confidence": "medium", "evidence": "2025, PNAS; ~50/yr estimated for high-profile cognitive bias finding"}
+    }
+  },
+  {
+    "file": "2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md",
+    "short_title": "Exploring Cultural Variations in Moral Judgments with Large Language Models",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "World Values Survey and Pew Research Global Attitudes Survey used — validated survey instruments for moral attitudes"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "WVS/Pew ethical topics as items; primarily Likert-scale opinion questions on ethical issues rather than complex dilemmas"},
+      "A4": {"score": 100, "confidence": "high", "evidence": "World Values Survey and Pew Research Center surveys — both are validated large-scale psychometric instruments"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "WVS and Pew survey data from thousands of respondents across multiple countries — published population norms"},
+      "A6": {"score": 50, "confidence": "medium", "evidence": "Adapts WVS/Pew to LLMs without LLM-specific revalidation; log-probability scoring as novel administration mode"},
+      "B1": {"score": 70, "confidence": "high", "evidence": "Log-probability-based moral justifiability scores; Likert-equivalent format from survey items"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; arXiv paper; WVS data is external"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Log-probability scoring pipeline described; likely partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom log-probability administration; not in native harness"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Log-probability correlation with survey data; psychometric-style alignment scoring"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "LLM evaluation with log-probability scoring; minor adaptation from human survey to LLM administration"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv; too new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Samway-Are Language Models Consequentialist or Deontological.md",
+    "short_title": "Are LLMs Consequentialist or Deontological",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Trolley problem paradigm; taxonomy of moral rationales for consequentialism vs deontology — theory-inspired classification"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "600+ distinct trolley problems with CoT reasoning traces; multi-paragraph dilemma format with reasoning chain analysis"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel taxonomy applied to generated trolley variants; no validated psychometric source instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline collected; LLM-only study"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity via taxonomy of rationale classification; single study; no construct validity against human data"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Open generation of moral reasoning traces (CoT); post-hoc classification — open generation format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; arXiv paper without confirmed repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Taxonomy-based classifier described; likely partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom CoT elicitation and classification pipeline"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "Rationale classification likely uses LLM judge or trained classifier for taxonomy coding"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for LLM moral reasoning analysis; CoT traces are native LLM output"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 EMNLP; very new, likely <5 citations at assessment time"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Su-Understanding How Value Neurons Shape the.md",
+    "short_title": "Understanding How Value Neurons Shape the",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Schwartz Values Survey grounding; ValueInsight operationalizes four dimensions of universal value — theory-derived"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Behavioral contexts in real-world settings; short text stimuli for neuron activation difference analysis"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel ValueInsight dataset; ad hoc construction — no validated psychometric instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline; mechanistic interpretability study of value neurons"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single EMNLP study; causal validation via neuron manipulation; targeted manipulation establishes causal relationship"},
+      "B1": {"score": 100, "confidence": "medium", "evidence": "Value classification and neuron probing tasks — MCQ/binary classification format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Neuron identification method described; likely partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom mechanistic interpretability framework; not in standard harness"},
+      "B7": {"score": 85, "confidence": "medium", "evidence": "Activation difference measurement; deterministic scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed specifically for LLM internal value representation analysis"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 EMNLP; very new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Wang-Multimodal Understanding of Human Values in Videos.md",
+    "short_title": "Multimodal Understanding of Human Values in Videos",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Schwartz Theory of Personal Values used for annotation; annotated according to Schwartz values — theory-derived"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "TikTok videos as stimuli; value identification from video content — not moral dilemma scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel TikTok value annotation dataset; ad hoc without validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human annotations of TikTok videos; paper-specific human annotation as baseline"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single Neurocomputing study; state-of-the-art results; 2-step pipeline validation with fine-tuned masked LM"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Value identification classification task — MCQ/binary classification"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "First values-annotated TikTok dataset mentioned; no confirmed public repository URL"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "2-step pipeline described; likely partial code available with journal paper"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Multimodal pipeline requiring video processing; not in standard text harness"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Value classification scored with standard F1 metrics; string normalization applicable"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Video-based multimodal task; major format change needed for text-only LLM evaluation"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 Neurocomputing; specialized journal; estimated ~10-20 citations"},
+      "C2": {"score": 30, "confidence": "low", "evidence": "2025, ~1 year old; ~5-10/yr for Neurocomputing paper"}
+    }
+  },
+  {
+    "file": "2025-Xiang-Comparing Moral Values in Western.md",
+    "short_title": "Comparing Moral Values in Western",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "MFT seed words as foundation; propagates moral values through word association graphs — theory-derived MFT-based method"},
+      "A3": {"score": 0, "confidence": "high", "evidence": "Word association task — not moral dilemmas or scenarios; implicit measurement via association graphs"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel word association methodology; no validated psychometric source instrument"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Existing large-scale human word association dataset used as baseline — population-level norms from Western English-speaking communities"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single ACL study; novel methodology with comparison against validated human baseline; correlation analysis validates approach"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Word association generation — open generation format; LLMs generate word associations"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; arXiv/ACL paper without confirmed repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Graph propagation methodology described; likely partial code with ACL paper"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom word association graph pipeline; not in native harness"},
+      "B7": {"score": 85, "confidence": "medium", "evidence": "Association graph comparison; deterministic cosine similarity or correlation scoring"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Word association generation is natural for LLMs; minor adaptation from human free-association task"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ACL paper; very new, likely <5 citations at assessment time"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Yao-Value Compass Benchmarks.md",
+    "short_title": "Value Compass Benchmarks",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Multiple basic value systems from social science; Schwartz and other systems grounded framework — theory-derived"},
+      "A3": {"score": 60, "confidence": "medium", "evidence": "Generative real-world test items co-evolving with LLMs; multi-sentence contextual value scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Generative evolving evaluation paradigm; ad hoc — no validated psychometric source instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Cultural values alignment visualization implies some human normative reference; partial comparison to cultural value norms"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single study; 33 LLMs evaluated; 27 value dimensions; systematic platform with contamination avoidance via generative evolution"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Multi-dimensional value scoring across 27 dimensions; likely Likert-equivalent format"},
+      "B3": {"score": 95, "confidence": "medium", "evidence": "Interactive platform at Value Compass Benchmarks website; likely publicly accessible"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Platform with evaluation infrastructure described; likely partial pipeline"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom dynamic platform; not in standard harness"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Value diagnosis across 27 dimensions; psychometric-style multi-scale scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Explicitly designed for LLM value evaluation; co-evolves with advancing LLMs to address contamination"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 arXiv; Microsoft Research paper; estimated ~10-20 citations"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2025; Microsoft Research, ~10-15/yr estimated"}
+    }
+  },
+  {
+    "file": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+    "short_title": "CMoralEval: A Moral Evaluation Benchmark for Chinese ...",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "MFT-inspired Chinese morality taxonomy; theory-inspired but adapted to Chinese cultural norms — not validated MFQ"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "14,964 explicit moral scenarios + 15,424 moral dilemma scenarios; multi-sentence Chinese moral scenarios with AI-assisted generation"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel Chinese morality taxonomy; ad hoc annotation with AI-assisted platform — no validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human annotation platform; Chinese morality annotated by humans through systematic review; paper-specific human baseline"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single ACL Anthology study; extensive experiments with variety of Chinese LLMs; challenging benchmark claim validated"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "MCQ-style moral scenario evaluation; explicit/dilemma scenarios with classification labels"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "Publicly available at https://github.com/tjunlp-lab/CMoralEval — confirmed GitHub repository"},
+      "B4": {"score": 95, "confidence": "high", "evidence": "GitHub repository with dataset and evaluation code; AI-assisted annotation platform described"},
+      "B6": {"score": 70, "confidence": "high", "evidence": "Classification format; straightforward to adapt for standard evaluation harness"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Classification against labeled moral categories; exact match scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed specifically for Chinese LLM moral evaluation; benchmark purpose stated explicitly"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "ACL 2024 Anthology; relatively new; estimated ~20-30 citations"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2025 (ACL Anthology publication), ~1 year old; ~10-20/yr for Chinese NLP benchmark"}
+    }
+  },
+  {
+    "file": "2025-Zhu-EAVIT.md",
+    "short_title": "EAVIT",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "Schwartz values framework for human value identification; uses established Schwartz theory — theory-derived"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Text-based value identification; short argumentative text stimuli for value detection — not moral dilemma scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "EAVIT is a novel pipeline framework; no validated psychometric source instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Comparison with traditional NLP methods implies human-annotated training data; partial baseline"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single IJCAI study; benchmarked against traditional NLP and LLM methods; systematic token reduction validation"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Value identification classification — MCQ/multi-label format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; arXiv/IJCAI paper without confirmed public repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Framework pipeline described; likely partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom two-stage pipeline (value detector + online LLM); not in native harness"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Value identification scored with standard classification metrics"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for efficient LLM value identification; reduces tokens by 1/6 vs direct querying"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 IJCAI paper; very new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+    "short_title": "Evaluating Moral Beliefs across LLMs through a",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Kohlberg-inspired moral choice scenarios; theory-inspired from moral development framework; 472 Chinese moral scenarios"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "472 moral choice scenarios in Chinese; multi-sentence scenarios derived from moral words with context"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel Chinese moral scenario dataset; ad hoc annotation — no validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Chinese university student sample as human baseline for moral principle preferences"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single EMNLP study; three-module framework (scenarios, moral debates, comparative ranking); systematic validation"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Moral choice scenarios with ranking; moral debate format is forced-choice"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; EMNLP paper without confirmed repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Three-module framework described; likely partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom moral debate framework with forced-choice; not in native harness"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Moral choice ranking; adherence measurement with string normalization"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed explicitly for comparing LLM moral beliefs against humans"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2024 EMNLP; too new, likely <5 citations at time of assessment"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2024-Obi-Value Imprint.md",
+    "short_title": "Value Imprint",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Original taxonomy from integrated philosophy/axiology/ethics review; theory-inspired Schwartz-adjacent but ad hoc taxonomy"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "6,501 RLHF preference annotations; short preference comparisons rather than moral dilemma scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Custom philosophy-derived taxonomy; no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human annotators labeling RLHF preferences; paper-specific human annotation as baseline"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single NeurIPS study; transformer-based auditing validated on three RLHF datasets; systematic pattern finding"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Binary classification of RLHF preference pairs — MCQ/binary format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "Abstract mentions contributing datasets; NeurIPS paper — availability not confirmed in record"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Transformer classifier pipeline described; likely partial code with NeurIPS paper"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Classification task on RLHF pairs; straightforward to adapt"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Binary preference classification with exact match scoring against human labels"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for auditing LLM training datasets (RLHF); directly relevant to LLM value analysis"},
+      "C1": {"score": 50, "confidence": "medium", "evidence": "NeurIPS 2024; high-prestige venue; estimated ~20-50 citations for RLHF auditing paper"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2024; NeurIPS, ~20-30/yr estimated"}
+    }
+  },
+  {
+    "file": "2024-Sorensen-A Roadmap to Pluralistic Alignment.md",
+    "short_title": "A Roadmap to Pluralistic Alignment",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Value pluralism framework; Schwartz reference as conceptual framing — theory-inspired position paper"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Empirical experiments on value pluralism; primarily conceptual framework with illustrative experiments"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Position paper with illustrative experiments; no validated psychometric instrument"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Experiments show standard alignment reduces distributional pluralism; partial reference to human value distributions"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Position paper; face validity for pluralism framework; no formal construct validity study"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Multi-objective benchmarks and trade-off evaluation — primarily conceptual Likert/rating format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; ICML position paper"},
+      "B4": {"score": 0, "confidence": "medium", "evidence": "No confirmed code repository"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Pluralistic benchmark concepts require custom implementation"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Distributional alignment scoring; psychometric-style distribution comparison"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Explicitly designed for LLM alignment evaluation; roadmap paper focused on LLM pluralism"},
+      "C1": {"score": 85, "confidence": "medium", "evidence": "ICML 2024 position paper from UW/Yejin Choi group; high citation impact, estimated ~400-600 citations"},
+      "C2": {"score": 90, "confidence": "medium", "evidence": "2024, ~1 year old; ~200+/yr for influential ICML position paper from prominent group"}
+    }
+  },
+  {
+    "file": "2024-Yu-CMoralEval.md",
+    "short_title": "CMoralEval",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "MFT-inspired Chinese morality taxonomy; theory-inspired but culturally adapted for Chinese context — same as 2025 version"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Same 30k scenarios as 2025 version; multi-sentence Chinese moral scenarios"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Ad hoc annotation platform; no validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Human annotation via systematic platform; paper-specific human baseline"},
+      "A6": {"score": 75, "confidence": "high", "evidence": "Single ACL Findings study (2024); extensive experiments; challenging benchmark claim validated across Chinese LLMs"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "MCQ-style classification; same as 2025 version with GitHub repository confirmed"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "https://github.com/tjunlp-lab/CMoralEval — confirmed GitHub repository"},
+      "B4": {"score": 95, "confidence": "high", "evidence": "GitHub repository with evaluation code"},
+      "B6": {"score": 70, "confidence": "high", "evidence": "Classification format adaptable for standard harness"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Exact match classification scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for Chinese LLM moral evaluation"},
+      "C1": {"score": 50, "confidence": "medium", "evidence": "ACL Findings 2024; well-designed Chinese moral benchmark; estimated ~30-60 citations"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2024, ~1 year old; ~30-50/yr for ACL Findings benchmark paper on Chinese LLMs"}
+    }
+  },
+  {
+    "file": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md",
+    "short_title": "Rethinking Machine Ethics",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Dyadic moral theory tag; uses well-established moral theories as top-down framework — theory-inspired alignment analysis"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Uses existing morality datasets (ETHICS, Jiminy Cricket); multi-sentence moral scenario datasets with theory-grounded analysis"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Uses existing datasets; no validated psychometric source instrument for the novel framework"},
+      "A5": {"score": 40, "confidence": "medium", "evidence": "Existing morality datasets have human annotations as partial baseline; indirect human normative reference"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single NAACL Findings study; theory-guided framework validated on multiple datasets; cross-dataset alignment analysis"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Binary/MCQ moral judgment classification on existing datasets"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; uses existing datasets with NAACL paper"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Top-down framework described; likely partial code for theory-guided prompting"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Uses standard moral datasets; straightforward to adapt for lm-eval"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Classification on labeled moral datasets; exact match scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for LLM moral reasoning evaluation with flexible theory-guided framework"},
+      "C1": {"score": 50, "confidence": "medium", "evidence": "NAACL Findings 2024; estimated ~30-50 citations for widely-relevant machine ethics paper"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2024, ~1 year old; ~25-40/yr for NAACL findings paper"}
+    }
+  },
+  {
+    "file": "2023-Duan-Denevil.md",
+    "short_title": "Denevil",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "MFT and Kohlberg-grounded; 500+ value principles from moral philosophy — theory-derived coverage"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "MoralPrompt: 2,397 prompts covering 500+ principles; multi-sentence prompts designed to elicit value violations"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "MoralPrompt is novel; dynamic prompt generation — no validated psychometric source instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline; LLM misalignment detection study only"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single ICLR study; DeNEVIL validated by showing most models essentially misaligned; VILMO alignment improvement quantified"},
+      "B1": {"score": 30, "confidence": "high", "evidence": "Generative open-ended value violation elicitation; prompted generation — open generation format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; ICLR paper — likely code released but not confirmed"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "ICLR paper typically releases code; DeNEVIL + VILMO pipeline described"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom prompt generation algorithm; not in native harness"},
+      "B7": {"score": 60, "confidence": "medium", "evidence": "Value violation detection via LLM judge classification; black-box and open-source compatible"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for LLM ethical value evaluation; works with black-box and open-source LLMs"},
+      "C1": {"score": 65, "confidence": "medium", "evidence": "ICLR 2024; high-prestige venue; estimated ~100-150 citations for LLM alignment benchmark"},
+      "C2": {"score": 80, "confidence": "medium", "evidence": "2023/ICLR 2024, ~2 years old; ~50-75/yr for ICLR alignment paper"}
+    }
+  },
+  {
+    "file": "2023-Roger-Towards ethical multimodal systems.md",
+    "short_title": "Towards ethical multimodal systems",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Trolley theory tag; Moral Machine reference only — keyword-level engagement; multimodal ethics database not MFT-based"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Multimodal ethical database from human feedback; text+image ethicality judgments — single-sentence judgment format"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel multimodal ethical database; ad hoc human feedback collection — no validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Multimodal ethical database created from human feedback on ethicality — paper-specific human baseline"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity; RoBERTa classifier validated on held-out set; single arXiv study without formal construct validation"},
+      "B1": {"score": 90, "confidence": "high", "evidence": "Binary ethicality judgment (ethical/unethical) for text+image pairs"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; arXiv paper without confirmed public data"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "RoBERTa + MLP classifiers described; likely partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Multimodal pipeline requiring image+text; not in standard text harness"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Binary classification; exact match / string normalization applicable"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Designed for multimodal AI systems; major format change needed for text-only LLM evaluation"},
+      "C1": {"score": 30, "confidence": "medium", "evidence": "2023 arXiv from Mila; estimated ~15-25 citations"},
+      "C2": {"score": 30, "confidence": "medium", "evidence": "2023, ~2 years old; ~10/yr estimated"}
+    }
+  },
+  {
+    "file": "2018-Behzadan-TrolleyMod v1.0.md",
+    "short_title": "TrolleyMod v1.0",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Trolley problem paradigm for autonomous vehicle ethical decisions; theory-inspired moral dilemma framework"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "High-fidelity 3D simulation with realistic physics; multi-scenario trolley problem variants with competing ethical considerations"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "CARLA simulation platform for human behavioral data; no validated psychometric instrument"},
+      "A5": {"score": 70, "confidence": "medium", "evidence": "Human decision/action data collected in simulation; paper-specific human sample for AV ethics"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity for AV ethical decision making; simulation platform for data collection — no formal construct validity study"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Binary forced-choice ethical decisions in simulation environment"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "Open-source platform at http://blogs.k-state.edu/aisecurityresearch/ — confirmed open platform"},
+      "B4": {"score": 95, "confidence": "high", "evidence": "Open-source CARLA-based platform with Python interface; full simulation pipeline released"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Requires CARLA simulator integration; proprietary-like simulation environment; not adaptable to lm-eval"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Vehicle control decisions are exact choice records; exact match applicable"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Simulation-based physical agent platform; paradigm change needed for text-based LLM evaluation"},
+      "C1": {"score": 30, "confidence": "medium", "evidence": "AIES 2018; 7 years old; estimated ~25-40 citations for AV ethics simulation platform"},
+      "C2": {"score": 30, "confidence": "medium", "evidence": "2018, ~7 years old; ~5-8/yr estimated"}
+    }
+  },
+  {
+    "file": "2018-Crone-The Socio-Moral Image Database (SMID).md",
+    "short_title": "The Socio-Moral Image Database (SMID)",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "MFT subscales with normative ratings for all 2,941 images; theory-derived MFT-based rating system across all five foundations"},
+      "A3": {"score": 30, "confidence": "medium", "evidence": "Photographic images as moral stimuli; image-based rather than narrative scenario format"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "Standardized stimulus set with psychometric validation; 820,525 individual judgments from 2,716 participants — rigorous psychometric development"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Normative ratings from 2,716 participants; published population norms for affective valence, arousal, moral wrongness, and MFT subscales"},
+      "A6": {"score": 100, "confidence": "high", "evidence": "Inter-rater consensus, rating precision, and breadth validated; recommendations for reproducibility — comprehensive psychometric analysis"},
+      "B1": {"score": 70, "confidence": "high", "evidence": "Likert-scale ratings for moral wrongness and MFT dimensions; Likert format for normative ratings"},
+      "B3": {"score": 90, "confidence": "high", "evidence": "Available at https://osf.io/2rqad/ — confirmed OSF repository with images and normative data"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "OSF repository includes normative data and resources; analysis scripts likely partial"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Image-based stimulus set; requires vision+language or multimodal adaptation for LLMs"},
+      "B7": {"score": 40, "confidence": "high", "evidence": "Likert rating comparison to normative data; psychometric scoring via profile comparison"},
+      "B10": {"score": 10, "confidence": "high", "evidence": "Image-based human psychology stimulus set; paradigm change needed for text LLM evaluation"},
+      "C1": {"score": 85, "confidence": "medium", "evidence": "PLOS ONE 2018; 7 years old; major moral psychology resource; estimated ~300-500 citations"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2018, ~7 years old; ~50/yr estimated for foundational moral psychology dataset"}
+    }
+  },
+  {
+    "file": "2018-Noothigattu-A Voting-Based System for Ethical Decision Making.md",
+    "short_title": "A Voting-Based System for Ethical Decision Making",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Trolley problem paradigm with Moral Machine data; theory-inspired moral dilemma framework for AV ethics"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "Moral Machine data: 1.3 million people preferences over AV trolley dilemmas; detailed multi-factor ethical scenarios"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "Moral Machine experiment provides large-scale psychometric data; systematic preference elicitation with rigorous methodology"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "1.3 million participants through Moral Machine website — exceptionally large population-level human norms"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single AAAI study; swap-dominance voting theory provides mathematical validity; external validation via Moral Machine scale"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Forced-choice preference comparisons between ethical dilemma outcomes"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; references Moral Machine website; full data not confirmed in record"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Voting algorithm described; AAAI paper likely has partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Computational social choice system; custom implementation required for LLM adaptation"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Forced-choice voting; exact match / majority vote scoring"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Human preference-based system; major adaptation needed for LLM text-based evaluation"},
+      "C1": {"score": 75, "confidence": "medium", "evidence": "AAAI 2018; 7 years old; CMU + MIT authors on Moral Machine; estimated ~200-300 citations"},
+      "C2": {"score": 65, "confidence": "medium", "evidence": "2018, ~7 years old; ~30-40/yr estimated for well-cited AI ethics AAAI paper"}
+    }
+  },
+  {
+    "file": "2025-Atf-Kantian-Utilitarian XAI.md",
+    "short_title": "Kantian-Utilitarian XAI",
+    "scores": {
+      "A2": {"score": 10, "confidence": "high", "evidence": "Identity theory tag; Kantian/utilitarian dual system for coffee consumer decisions — keyword-level normative ethics engagement"},
+      "A3": {"score": 60, "confidence": "medium", "evidence": "Six rounds with coffee ethical trade-offs (carbon, labor, pricing); multi-attribute consumer dilemmas with competing considerations"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No psychometric source instrument; gamified XAI system with rule-based scoring"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline for moral psychology; system paper for consumer decisions"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal validity; demo paper with regret bound analysis but no moral psychology construct validation"},
+      "B1": {"score": 100, "confidence": "high", "evidence": "Three options per round — MCQ format for consumer ethical decisions"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data repository; demo paper"},
+      "B4": {"score": 95, "confidence": "medium", "evidence": "Releases structured configuration, policy trace, and interactive UI — near full pipeline"},
+      "B6": {"score": 10, "confidence": "high", "evidence": "Domain-specific gamified system; proprietary-like; not adaptable to lm-eval"},
+      "B7": {"score": 100, "confidence": "high", "evidence": "Symbolic rule-based exact scoring for Kantian violations and utilitarian welfare"},
+      "B10": {"score": 40, "confidence": "medium", "evidence": "Consumer decision game; major format change needed for standard LLM moral psychology evaluation"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv demo paper; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; demo paper with low citation expected"}
+    }
+  },
+  {
+    "file": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+    "short_title": "Measuring Moral LLM Responses in Multilingual Capacities",
+    "scores": {
+      "A2": {"score": 40, "confidence": "medium", "evidence": "Kohlberg theory tag; evaluates five moral dimensions including Consent & Autonomy and Harm Prevention — theory-inspired framework"},
+      "A3": {"score": 60, "confidence": "medium", "evidence": "Five moral categories evaluated across languages; multi-sentence ethical question format evaluated by judge LLM"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "No validated psychometric source instrument; five-category moral framework appears custom"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline; LLM-only multilingual evaluation"},
+      "A6": {"score": 10, "confidence": "high", "evidence": "Minimal validity; preliminary study; student researchers; judge LLM grading without validation"},
+      "B1": {"score": 50, "confidence": "medium", "evidence": "Five-point rubric grading by judge LLM; free-text with rubric evaluation"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; arXiv preprint without confirmed repository"},
+      "B4": {"score": 0, "confidence": "high", "evidence": "No code mentioned"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom multilingual evaluation with judge LLM; not in native harness"},
+      "B7": {"score": 60, "confidence": "high", "evidence": "Five-point rubric scored by judge LLM — LLM judge evaluation"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed specifically for LLM moral response evaluation across languages"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv preprint by student researchers; likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent; student project paper"}
+    }
+  },
+  {
+    "file": "2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+    "short_title": "Between a Rock and a Hard Place (TRIAL)",
+    "scores": {
+      "A2": {"score": 40, "confidence": "high", "evidence": "Trolley theory tag; uses ethical dilemma framing (binary safe/unsafe expansion); theory-inspired moral dilemma framework for red-teaming"},
+      "A3": {"score": 90, "confidence": "high", "evidence": "Multi-turn red-teaming with harmful requests embedded in ethical framings; multi-paragraph moral dilemma escalation with Socratic challenge structure"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel TRIAL methodology; ad hoc ethical framing — no validated psychometric instrument"},
+      "A5": {"score": 0, "confidence": "high", "evidence": "No human baseline; LLM red-teaming attack success rates only"},
+      "A6": {"score": 30, "confidence": "medium", "evidence": "Face validity for attack success; ERR defense validated; single study on multiple models"},
+      "B1": {"score": 85, "confidence": "high", "evidence": "Multi-turn forced-choice ethical framing — forced-choice format for harmful/ethical compromise decisions"},
+      "B3": {"score": 0, "confidence": "high", "evidence": "No data_url; arXiv preprint without confirmed repository"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "ERR defense framework described; likely partial code for LoRA architecture"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom multi-turn red-teaming pipeline; not in native harness"},
+      "B7": {"score": 85, "confidence": "high", "evidence": "Attack success rate binary measurement; yes/no harmful compliance scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed specifically for LLM safety evaluation via ethical reasoning exploitation"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv preprint; too new for citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md",
+    "short_title": "Reward Model Perspectives on Demographic Alignment (Elle et al.)",
+    "scores": {
+      "A2": {"score": 70, "confidence": "high", "evidence": "MFT and trolley dilemma paradigm for measuring demographic opinion alignment; theory-derived multi-foundation coverage"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Controversial topic opinions and attitudes with sociodemographic framing; multi-sentence opinion items"},
+      "A4": {"score": 0, "confidence": "high", "evidence": "Novel RM alignment measurement framework; no validated psychometric source instrument"},
+      "A5": {"score": 70, "confidence": "high", "evidence": "Sociodemographic group opinions and values used as human baselines; GitHub code confirms human-derived baselines"},
+      "A6": {"score": 75, "confidence": "medium", "evidence": "Single arXiv study; formalized framework validated across multiple RMs with steering experiments"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Controversial topic opinion measurement; likely Likert-scale format for opinion alignment"},
+      "B3": {"score": 95, "confidence": "high", "evidence": "GitHub: github.com/socialnlp/rmp explicitly stated in paper"},
+      "B4": {"score": 95, "confidence": "high", "evidence": "GitHub repository with full evaluation code for RM perspective measurement"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Reward model evaluation framework; straightforward to adapt with GitHub code"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Reward model score comparison to demographic profiles; psychometric-style profile alignment scoring"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed specifically for reward model alignment evaluation; core LLM alignment research tool"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 arXiv from Oxford; too new, likely <5 citations"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Han-Value Portrait.md",
+    "short_title": "Value Portrait",
+    "scores": {
+      "A2": {"score": 100, "confidence": "high", "evidence": "Psychometrically validated items correlated with actual Schwartz value scores from human subjects — validated instrument-grade approach"},
+      "A3": {"score": 60, "confidence": "high", "evidence": "Real-life user-LLM interaction scenarios; multi-sentence realistic interaction contexts from actual use cases"},
+      "A4": {"score": 80, "confidence": "high", "evidence": "Original benchmark with psychometric validation: items rated by human subjects, correlations derived with actual value scores — original with psychometrics"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Human subjects rate items and provide actual value scores; correlations derived — population-level validation with published norms"},
+      "A6": {"score": 75, "confidence": "high", "evidence": "Single ACL study; 44 LLMs evaluated; psychometrically validated items with correlation analysis; demographic bias analysis"},
+      "B1": {"score": 70, "confidence": "medium", "evidence": "Likert-style similarity ratings from humans; LLMs likely respond to same format"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url in record; ACL 2025 paper — data availability not confirmed in metadata"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "44 LLMs evaluated; likely partial evaluation code with ACL paper"},
+      "B6": {"score": 70, "confidence": "medium", "evidence": "Standardized item format; straightforward to adapt for lm-eval"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Psychometric scoring via correlation with value profiles; not exact match"},
+      "B10": {"score": 100, "confidence": "high", "evidence": "Designed for LLM value assessment; 44 LLMs evaluated; ecologically valid LLM interaction scenarios"},
+      "C1": {"score": 10, "confidence": "low", "evidence": "2025 ACL; very new, likely <5 citations at assessment time"},
+      "C2": {"score": 15, "confidence": "low", "evidence": "Too recent"}
+    }
+  },
+  {
+    "file": "2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.md",
+    "short_title": "Made-in China, Thinking in America: U.S. Values Persist in Chinese LLMs",
+    "scores": {
+      "A2": {"score": 100, "confidence": "high", "evidence": "Uses MFQ 2.0 and World Values Survey — both validated instruments administered to 10 Chinese and 10 American LLMs"},
+      "A3": {"score": 30, "confidence": "high", "evidence": "MFQ 2.0 uses standard item format; WVS uses opinion questions — standard Likert/forced-choice items rather than complex dilemmas"},
+      "A4": {"score": 100, "confidence": "high", "evidence": "MFQ 2.0 and World Values Survey are validated psychometric instruments with population norms"},
+      "A5": {"score": 100, "confidence": "high", "evidence": "Thousands of Chinese and American survey respondents from WVS and MFQ databases — published population norms"},
+      "A6": {"score": 50, "confidence": "medium", "evidence": "Adapts MFQ 2.0 and WVS to LLMs without LLM-specific revalidation; cosine similarity metric as validity proxy"},
+      "B1": {"score": 70, "confidence": "high", "evidence": "MFQ 2.0 uses Likert format; WVS uses rating scales"},
+      "B3": {"score": 0, "confidence": "medium", "evidence": "No data_url; arXiv paper; WVS/MFQ data is external"},
+      "B4": {"score": 50, "confidence": "medium", "evidence": "Cosine similarity scoring pipeline described; likely partial code"},
+      "B6": {"score": 40, "confidence": "medium", "evidence": "Custom multi-model evaluation pipeline; not in native harness"},
+      "B7": {"score": 40, "confidence": "medium", "evidence": "Cosine similarity scoring between LLM responses and human survey profiles; psychometric-style alignment"},
+      "B10": {"score": 70, "confidence": "high", "evidence": "Administered to 20 LLMs with minor prompt adaptation (Chinese language prompting + persona)"},
+      "C1": {"score": 30, "confidence": "low", "evidence": "2025 arXiv; HKUST group on US-China LLM values; estimated ~10-20 citations"},
+      "C2": {"score": 50, "confidence": "low", "evidence": "2025, ~1 year old; relevant geopolitical topic; ~10-15/yr estimated"}
+    }
+  }
+]

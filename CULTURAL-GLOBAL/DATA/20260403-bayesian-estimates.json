@@ -1,0 +1,1505 @@
+{
+  "date": "20260403",
+  "total_papers": 2046,
+  "detection_threshold": 50,
+  "prior": {
+    "detection": "Beta(1, 1) \u2014 uniform",
+    "score": "NIG(mu0=25.0, kappa0=1.0, alpha0=2.0, beta0=100.0)"
+  },
+  "detection_rate_posteriors": {
+    "nw_confucian": {
+      "North America": {
+        "n": 809,
+        "k_detected": 21,
+        "alpha_post": 22,
+        "beta_post": 789,
+        "posterior_mean": 0.0271,
+        "hdi_95_lower": 0.0171,
+        "hdi_95_upper": 0.0394,
+        "prob_rate_gt_5pct": 0.0004
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 15,
+        "alpha_post": 16,
+        "beta_post": 407,
+        "posterior_mean": 0.0378,
+        "hdi_95_lower": 0.0218,
+        "hdi_95_upper": 0.0579,
+        "prob_rate_gt_5pct": 0.1012
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 25,
+        "alpha_post": 26,
+        "beta_post": 236,
+        "posterior_mean": 0.0992,
+        "hdi_95_lower": 0.0661,
+        "hdi_95_upper": 0.1381,
+        "prob_rate_gt_5pct": 0.9993
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 112,
+        "posterior_mean": 0.0261,
+        "hdi_95_lower": 0.0055,
+        "hdi_95_upper": 0.0619,
+        "prob_rate_gt_5pct": 0.0717
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 3,
+        "alpha_post": 4,
+        "beta_post": 101,
+        "posterior_mean": 0.0381,
+        "hdi_95_lower": 0.0106,
+        "hdi_95_upper": 0.082,
+        "prob_rate_gt_5pct": 0.2308
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 101,
+        "posterior_mean": 0.0288,
+        "hdi_95_lower": 0.006,
+        "hdi_95_upper": 0.0684,
+        "prob_rate_gt_5pct": 0.1065
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 90,
+        "posterior_mean": 0.0217,
+        "hdi_95_lower": 0.0027,
+        "hdi_95_upper": 0.0597,
+        "prob_rate_gt_5pct": 0.0544
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 4,
+        "alpha_post": 5,
+        "beta_post": 56,
+        "posterior_mean": 0.082,
+        "hdi_95_lower": 0.0276,
+        "hdi_95_upper": 0.162,
+        "prob_rate_gt_5pct": 0.8197
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 38,
+        "posterior_mean": 0.05,
+        "hdi_95_lower": 0.0063,
+        "hdi_95_upper": 0.1348,
+        "prob_rate_gt_5pct": 0.4129
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 23,
+        "posterior_mean": 0.0417,
+        "hdi_95_lower": 0.0011,
+        "hdi_95_upper": 0.1482,
+        "prob_rate_gt_5pct": 0.3074
+      }
+    },
+    "nw_ubuntu": {
+      "North America": {
+        "n": 809,
+        "k_detected": 8,
+        "alpha_post": 9,
+        "beta_post": 802,
+        "posterior_mean": 0.0111,
+        "hdi_95_lower": 0.0051,
+        "hdi_95_upper": 0.0194,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 6,
+        "alpha_post": 7,
+        "beta_post": 416,
+        "posterior_mean": 0.0165,
+        "hdi_95_lower": 0.0067,
+        "hdi_95_upper": 0.0307,
+        "prob_rate_gt_5pct": 0.0001
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 260,
+        "posterior_mean": 0.0076,
+        "hdi_95_lower": 0.0009,
+        "hdi_95_upper": 0.0212,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 114,
+        "posterior_mean": 0.0087,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0318,
+        "prob_rate_gt_5pct": 0.0029
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 104,
+        "posterior_mean": 0.0095,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0348,
+        "prob_rate_gt_5pct": 0.0048
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 103,
+        "posterior_mean": 0.0096,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0352,
+        "prob_rate_gt_5pct": 0.0051
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 91,
+        "posterior_mean": 0.0109,
+        "hdi_95_lower": 0.0003,
+        "hdi_95_upper": 0.0397,
+        "prob_rate_gt_5pct": 0.0094
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 60,
+        "posterior_mean": 0.0164,
+        "hdi_95_lower": 0.0004,
+        "hdi_95_upper": 0.0596,
+        "prob_rate_gt_5pct": 0.0461
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 38,
+        "posterior_mean": 0.05,
+        "hdi_95_lower": 0.0063,
+        "hdi_95_upper": 0.1348,
+        "prob_rate_gt_5pct": 0.4129
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 6,
+        "alpha_post": 7,
+        "beta_post": 17,
+        "posterior_mean": 0.2917,
+        "hdi_95_lower": 0.1321,
+        "hdi_95_upper": 0.4841,
+        "prob_rate_gt_5pct": 0.9999
+      }
+    },
+    "nw_islamic_jurisprudence": {
+      "North America": {
+        "n": 809,
+        "k_detected": 4,
+        "alpha_post": 5,
+        "beta_post": 806,
+        "posterior_mean": 0.0062,
+        "hdi_95_lower": 0.002,
+        "hdi_95_upper": 0.0126,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 3,
+        "alpha_post": 4,
+        "beta_post": 419,
+        "posterior_mean": 0.0095,
+        "hdi_95_lower": 0.0026,
+        "hdi_95_upper": 0.0206,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 261,
+        "posterior_mean": 0.0038,
+        "hdi_95_lower": 0.0001,
+        "hdi_95_upper": 0.014,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 6,
+        "alpha_post": 7,
+        "beta_post": 108,
+        "posterior_mean": 0.0609,
+        "hdi_95_lower": 0.025,
+        "hdi_95_upper": 0.111,
+        "prob_rate_gt_5pct": 0.6556
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 104,
+        "posterior_mean": 0.0095,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0348,
+        "prob_rate_gt_5pct": 0.0048
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 102,
+        "posterior_mean": 0.0192,
+        "hdi_95_lower": 0.0024,
+        "hdi_95_upper": 0.0529,
+        "prob_rate_gt_5pct": 0.0326
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 90,
+        "posterior_mean": 0.0217,
+        "hdi_95_lower": 0.0027,
+        "hdi_95_upper": 0.0597,
+        "prob_rate_gt_5pct": 0.0544
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 58,
+        "posterior_mean": 0.0492,
+        "hdi_95_lower": 0.0104,
+        "hdi_95_upper": 0.1153,
+        "prob_rate_gt_5pct": 0.4174
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 39,
+        "posterior_mean": 0.025,
+        "hdi_95_lower": 0.0006,
+        "hdi_95_upper": 0.0903,
+        "prob_rate_gt_5pct": 0.1353
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 23,
+        "posterior_mean": 0.0417,
+        "hdi_95_lower": 0.0011,
+        "hdi_95_upper": 0.1482,
+        "prob_rate_gt_5pct": 0.3074
+      }
+    },
+    "nw_buddhist": {
+      "North America": {
+        "n": 809,
+        "k_detected": 5,
+        "alpha_post": 6,
+        "beta_post": 805,
+        "posterior_mean": 0.0074,
+        "hdi_95_lower": 0.0027,
+        "hdi_95_upper": 0.0143,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 420,
+        "posterior_mean": 0.0071,
+        "hdi_95_lower": 0.0015,
+        "hdi_95_upper": 0.017,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 260,
+        "posterior_mean": 0.0076,
+        "hdi_95_lower": 0.0009,
+        "hdi_95_upper": 0.0212,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 114,
+        "posterior_mean": 0.0087,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0318,
+        "prob_rate_gt_5pct": 0.0029
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 104,
+        "posterior_mean": 0.0095,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0348,
+        "prob_rate_gt_5pct": 0.0048
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 102,
+        "posterior_mean": 0.0192,
+        "hdi_95_lower": 0.0024,
+        "hdi_95_upper": 0.0529,
+        "prob_rate_gt_5pct": 0.0326
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 91,
+        "posterior_mean": 0.0109,
+        "hdi_95_lower": 0.0003,
+        "hdi_95_upper": 0.0397,
+        "prob_rate_gt_5pct": 0.0094
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 60,
+        "posterior_mean": 0.0164,
+        "hdi_95_lower": 0.0004,
+        "hdi_95_upper": 0.0596,
+        "prob_rate_gt_5pct": 0.0461
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 38,
+        "posterior_mean": 0.05,
+        "hdi_95_lower": 0.0063,
+        "hdi_95_upper": 0.1348,
+        "prob_rate_gt_5pct": 0.4129
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 22,
+        "posterior_mean": 0.0833,
+        "hdi_95_lower": 0.0107,
+        "hdi_95_upper": 0.2195,
+        "prob_rate_gt_5pct": 0.6794
+      }
+    },
+    "nw_dharmic": {
+      "North America": {
+        "n": 809,
+        "k_detected": 3,
+        "alpha_post": 4,
+        "beta_post": 807,
+        "posterior_mean": 0.0049,
+        "hdi_95_lower": 0.0013,
+        "hdi_95_upper": 0.0108,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 422,
+        "posterior_mean": 0.0024,
+        "hdi_95_lower": 0.0001,
+        "hdi_95_upper": 0.0087,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 260,
+        "posterior_mean": 0.0076,
+        "hdi_95_lower": 0.0009,
+        "hdi_95_upper": 0.0212,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 114,
+        "posterior_mean": 0.0087,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0318,
+        "prob_rate_gt_5pct": 0.0029
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 3,
+        "alpha_post": 4,
+        "beta_post": 101,
+        "posterior_mean": 0.0381,
+        "hdi_95_lower": 0.0106,
+        "hdi_95_upper": 0.082,
+        "prob_rate_gt_5pct": 0.2308
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 103,
+        "posterior_mean": 0.0096,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0352,
+        "prob_rate_gt_5pct": 0.0051
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 91,
+        "posterior_mean": 0.0109,
+        "hdi_95_lower": 0.0003,
+        "hdi_95_upper": 0.0397,
+        "prob_rate_gt_5pct": 0.0094
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 60,
+        "posterior_mean": 0.0164,
+        "hdi_95_lower": 0.0004,
+        "hdi_95_upper": 0.0596,
+        "prob_rate_gt_5pct": 0.0461
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 37,
+        "posterior_mean": 0.075,
+        "hdi_95_lower": 0.0162,
+        "hdi_95_upper": 0.1732,
+        "prob_rate_gt_5pct": 0.6906
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 23,
+        "posterior_mean": 0.0417,
+        "hdi_95_lower": 0.0011,
+        "hdi_95_upper": 0.1482,
+        "prob_rate_gt_5pct": 0.3074
+      }
+    },
+    "nw_indigenous_relational": {
+      "North America": {
+        "n": 809,
+        "k_detected": 16,
+        "alpha_post": 17,
+        "beta_post": 794,
+        "posterior_mean": 0.021,
+        "hdi_95_lower": 0.0123,
+        "hdi_95_upper": 0.0319,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 7,
+        "alpha_post": 8,
+        "beta_post": 415,
+        "posterior_mean": 0.0189,
+        "hdi_95_lower": 0.0082,
+        "hdi_95_upper": 0.0339,
+        "prob_rate_gt_5pct": 0.0003
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 259,
+        "posterior_mean": 0.0115,
+        "hdi_95_lower": 0.0024,
+        "hdi_95_upper": 0.0274,
+        "prob_rate_gt_5pct": 0.0002
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 114,
+        "posterior_mean": 0.0087,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0318,
+        "prob_rate_gt_5pct": 0.0029
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 104,
+        "posterior_mean": 0.0095,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0348,
+        "prob_rate_gt_5pct": 0.0048
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 101,
+        "posterior_mean": 0.0288,
+        "hdi_95_lower": 0.006,
+        "hdi_95_upper": 0.0684,
+        "prob_rate_gt_5pct": 0.1065
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 8,
+        "alpha_post": 9,
+        "beta_post": 83,
+        "posterior_mean": 0.0978,
+        "hdi_95_lower": 0.0462,
+        "hdi_95_upper": 0.1659,
+        "prob_rate_gt_5pct": 0.9616
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 60,
+        "posterior_mean": 0.0164,
+        "hdi_95_lower": 0.0004,
+        "hdi_95_upper": 0.0596,
+        "prob_rate_gt_5pct": 0.0461
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 6,
+        "alpha_post": 7,
+        "beta_post": 33,
+        "posterior_mean": 0.175,
+        "hdi_95_lower": 0.0754,
+        "hdi_95_upper": 0.3053,
+        "prob_rate_gt_5pct": 0.9971
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 22,
+        "posterior_mean": 0.0833,
+        "hdi_95_lower": 0.0107,
+        "hdi_95_upper": 0.2195,
+        "prob_rate_gt_5pct": 0.6794
+      }
+    },
+    "nw_buen_vivir": {
+      "North America": {
+        "n": 809,
+        "k_detected": 4,
+        "alpha_post": 5,
+        "beta_post": 806,
+        "posterior_mean": 0.0062,
+        "hdi_95_lower": 0.002,
+        "hdi_95_upper": 0.0126,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 421,
+        "posterior_mean": 0.0047,
+        "hdi_95_lower": 0.0006,
+        "hdi_95_upper": 0.0131,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 261,
+        "posterior_mean": 0.0038,
+        "hdi_95_lower": 0.0001,
+        "hdi_95_upper": 0.014,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 114,
+        "posterior_mean": 0.0087,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0318,
+        "prob_rate_gt_5pct": 0.0029
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 104,
+        "posterior_mean": 0.0095,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0348,
+        "prob_rate_gt_5pct": 0.0048
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 103,
+        "posterior_mean": 0.0096,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0352,
+        "prob_rate_gt_5pct": 0.0051
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 91,
+        "posterior_mean": 0.0109,
+        "hdi_95_lower": 0.0003,
+        "hdi_95_upper": 0.0397,
+        "prob_rate_gt_5pct": 0.0094
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 60,
+        "posterior_mean": 0.0164,
+        "hdi_95_lower": 0.0004,
+        "hdi_95_upper": 0.0596,
+        "prob_rate_gt_5pct": 0.0461
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 39,
+        "posterior_mean": 0.025,
+        "hdi_95_lower": 0.0006,
+        "hdi_95_upper": 0.0903,
+        "prob_rate_gt_5pct": 0.1353
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 22,
+        "posterior_mean": 0.0833,
+        "hdi_95_lower": 0.0107,
+        "hdi_95_upper": 0.2195,
+        "prob_rate_gt_5pct": 0.6794
+      }
+    },
+    "dharmic_family": {
+      "North America": {
+        "n": 809,
+        "k_detected": 8,
+        "alpha_post": 9,
+        "beta_post": 802,
+        "posterior_mean": 0.0111,
+        "hdi_95_lower": 0.0051,
+        "hdi_95_upper": 0.0194,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "Western Europe": {
+        "n": 421,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 420,
+        "posterior_mean": 0.0071,
+        "hdi_95_lower": 0.0015,
+        "hdi_95_upper": 0.017,
+        "prob_rate_gt_5pct": 0.0
+      },
+      "East Asia": {
+        "n": 260,
+        "k_detected": 2,
+        "alpha_post": 3,
+        "beta_post": 259,
+        "posterior_mean": 0.0115,
+        "hdi_95_lower": 0.0024,
+        "hdi_95_upper": 0.0274,
+        "prob_rate_gt_5pct": 0.0002
+      },
+      "MENA": {
+        "n": 113,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 114,
+        "posterior_mean": 0.0087,
+        "hdi_95_lower": 0.0002,
+        "hdi_95_upper": 0.0318,
+        "prob_rate_gt_5pct": 0.0029
+      },
+      "South Asia": {
+        "n": 103,
+        "k_detected": 3,
+        "alpha_post": 4,
+        "beta_post": 101,
+        "posterior_mean": 0.0381,
+        "hdi_95_lower": 0.0106,
+        "hdi_95_upper": 0.082,
+        "prob_rate_gt_5pct": 0.2308
+      },
+      "Southeast Asia": {
+        "n": 102,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 102,
+        "posterior_mean": 0.0192,
+        "hdi_95_lower": 0.0024,
+        "hdi_95_upper": 0.0529,
+        "prob_rate_gt_5pct": 0.0326
+      },
+      "Latin America & Caribbean": {
+        "n": 90,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 91,
+        "posterior_mean": 0.0109,
+        "hdi_95_lower": 0.0003,
+        "hdi_95_upper": 0.0397,
+        "prob_rate_gt_5pct": 0.0094
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 59,
+        "k_detected": 0,
+        "alpha_post": 1,
+        "beta_post": 60,
+        "posterior_mean": 0.0164,
+        "hdi_95_lower": 0.0004,
+        "hdi_95_upper": 0.0596,
+        "prob_rate_gt_5pct": 0.0461
+      },
+      "Oceania": {
+        "n": 38,
+        "k_detected": 3,
+        "alpha_post": 4,
+        "beta_post": 36,
+        "posterior_mean": 0.1,
+        "hdi_95_lower": 0.0287,
+        "hdi_95_upper": 0.2087,
+        "prob_rate_gt_5pct": 0.8709
+      },
+      "Sub-Saharan Africa": {
+        "n": 22,
+        "k_detected": 1,
+        "alpha_post": 2,
+        "beta_post": 22,
+        "posterior_mean": 0.0833,
+        "hdi_95_lower": 0.0107,
+        "hdi_95_upper": 0.2195,
+        "prob_rate_gt_5pct": 0.6794
+      }
+    }
+  },
+  "score_posteriors": {
+    "nw_confucian": {
+      "North America": {
+        "n": 41,
+        "sample_mean": 34.51,
+        "sample_sd": 28.12,
+        "posterior_mean_mu": 34.29,
+        "ci_95_lower": 26.01,
+        "ci_95_upper": 42.56
+      },
+      "Western Europe": {
+        "n": 23,
+        "sample_mean": 38.7,
+        "sample_sd": 27.4,
+        "posterior_mean_mu": 38.13,
+        "ci_95_lower": 27.65,
+        "ci_95_upper": 48.6
+      },
+      "East Asia": {
+        "n": 35,
+        "sample_mean": 45.0,
+        "sample_sd": 28.57,
+        "posterior_mean_mu": 44.44,
+        "ci_95_lower": 35.36,
+        "ci_95_upper": 53.53
+      },
+      "MENA": {
+        "n": 3,
+        "sample_mean": 48.33,
+        "sample_sd": 2.89,
+        "posterior_mean_mu": 42.5,
+        "ci_95_lower": 31.33,
+        "ci_95_upper": 53.67,
+        "predictive_95_lower": 17.52,
+        "predictive_95_upper": 67.48
+      },
+      "South Asia": {
+        "n": 8,
+        "sample_mean": 22.5,
+        "sample_sd": 22.83,
+        "posterior_mean_mu": 22.78,
+        "ci_95_lower": 9.76,
+        "ci_95_upper": 35.8,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 63.94
+      },
+      "Southeast Asia": {
+        "n": 6,
+        "sample_mean": 21.67,
+        "sample_sd": 22.29,
+        "posterior_mean_mu": 22.14,
+        "ci_95_lower": 8.32,
+        "ci_95_upper": 35.96,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 61.23
+      },
+      "Latin America & Caribbean": {
+        "n": 1,
+        "sample_mean": 55.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 40.0,
+        "ci_95_lower": 19.28,
+        "ci_95_upper": 60.72,
+        "predictive_95_lower": 4.1,
+        "predictive_95_upper": 75.9
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 6,
+        "sample_mean": 36.67,
+        "sample_sd": 20.9,
+        "posterior_mean_mu": 35.0,
+        "ci_95_lower": 21.68,
+        "ci_95_upper": 48.32,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 72.66
+      },
+      "Oceania": {
+        "n": 3,
+        "sample_mean": 21.67,
+        "sample_sd": 24.66,
+        "posterior_mean_mu": 22.5,
+        "ci_95_lower": 5.63,
+        "ci_95_upper": 39.37,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 60.22
+      },
+      "Sub-Saharan Africa": {
+        "n": 1,
+        "sample_mean": 5.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 0,
+        "ci_95_upper": 31.26,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 43.16
+      }
+    },
+    "nw_ubuntu": {
+      "North America": {
+        "n": 11,
+        "sample_mean": 53.64,
+        "sample_sd": 33.92,
+        "posterior_mean_mu": 51.25,
+        "ci_95_lower": 33.52,
+        "ci_95_upper": 68.98,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 115.18
+      },
+      "Western Europe": {
+        "n": 12,
+        "sample_mean": 36.67,
+        "sample_sd": 35.89,
+        "posterior_mean_mu": 35.77,
+        "ci_95_lower": 18.07,
+        "ci_95_upper": 53.46,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 101.98
+      },
+      "East Asia": {
+        "n": 1,
+        "sample_mean": 100.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 62.5,
+        "ci_95_lower": 17.88,
+        "ci_95_upper": 107.12,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 139.78
+      },
+      "Oceania": {
+        "n": 1,
+        "sample_mean": 50.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 37.5,
+        "ci_95_lower": 19.1,
+        "ci_95_upper": 55.9,
+        "predictive_95_lower": 5.63,
+        "predictive_95_upper": 69.37
+      },
+      "Sub-Saharan Africa": {
+        "n": 6,
+        "sample_mean": 90.0,
+        "sample_sd": 15.81,
+        "posterior_mean_mu": 80.71,
+        "ci_95_lower": 61.75,
+        "ci_95_upper": 99.68,
+        "predictive_95_lower": 27.07,
+        "predictive_95_upper": 134.36
+      }
+    },
+    "nw_islamic_jurisprudence": {
+      "North America": {
+        "n": 5,
+        "sample_mean": 52.0,
+        "sample_sd": 31.94,
+        "posterior_mean_mu": 47.5,
+        "ci_95_lower": 25.98,
+        "ci_95_upper": 69.02,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 104.44
+      },
+      "Western Europe": {
+        "n": 3,
+        "sample_mean": 100.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 81.25,
+        "ci_95_lower": 51.54,
+        "ci_95_upper": 110.96,
+        "predictive_95_lower": 14.83,
+        "predictive_95_upper": 147.67
+      },
+      "MENA": {
+        "n": 8,
+        "sample_mean": 53.75,
+        "sample_sd": 35.63,
+        "posterior_mean_mu": 50.56,
+        "ci_95_lower": 29.78,
+        "ci_95_upper": 71.33,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 116.26
+      },
+      "South Asia": {
+        "n": 1,
+        "sample_mean": 5.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 0,
+        "ci_95_upper": 31.26,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 43.16
+      },
+      "Southeast Asia": {
+        "n": 2,
+        "sample_mean": 57.5,
+        "sample_sd": 60.1,
+        "posterior_mean_mu": 46.67,
+        "ci_95_lower": 7.91,
+        "ci_95_upper": 85.43,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 124.19
+      },
+      "Latin America & Caribbean": {
+        "n": 1,
+        "sample_mean": 50.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 37.5,
+        "ci_95_lower": 19.1,
+        "ci_95_upper": 55.9,
+        "predictive_95_lower": 5.63,
+        "predictive_95_upper": 69.37
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 2,
+        "sample_mean": 50.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 41.67,
+        "ci_95_lower": 27.34,
+        "ci_95_upper": 55.99,
+        "predictive_95_lower": 13.02,
+        "predictive_95_upper": 70.31
+      }
+    },
+    "nw_buddhist": {
+      "North America": {
+        "n": 30,
+        "sample_mean": 21.17,
+        "sample_sd": 29.93,
+        "posterior_mean_mu": 21.29,
+        "ci_95_lower": 11.16,
+        "ci_95_upper": 31.42
+      },
+      "Western Europe": {
+        "n": 8,
+        "sample_mean": 31.25,
+        "sample_sd": 28.38,
+        "posterior_mean_mu": 30.56,
+        "ci_95_lower": 14.49,
+        "ci_95_upper": 46.62,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 81.36
+      },
+      "East Asia": {
+        "n": 10,
+        "sample_mean": 17.0,
+        "sample_sd": 14.76,
+        "posterior_mean_mu": 17.73,
+        "ci_95_lower": 9.59,
+        "ci_95_upper": 25.87,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 45.92
+      },
+      "MENA": {
+        "n": 1,
+        "sample_mean": 5.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 0,
+        "ci_95_upper": 31.26,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 43.16
+      },
+      "South Asia": {
+        "n": 7,
+        "sample_mean": 12.86,
+        "sample_sd": 5.67,
+        "posterior_mean_mu": 14.38,
+        "ci_95_lower": 9.02,
+        "ci_95_upper": 19.73,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 30.45
+      },
+      "Southeast Asia": {
+        "n": 6,
+        "sample_mean": 15.0,
+        "sample_sd": 24.49,
+        "posterior_mean_mu": 16.43,
+        "ci_95_lower": 1.16,
+        "ci_95_upper": 31.69,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 59.61
+      },
+      "Latin America & Caribbean": {
+        "n": 2,
+        "sample_mean": 20.0,
+        "sample_sd": 21.21,
+        "posterior_mean_mu": 21.67,
+        "ci_95_lower": 6.78,
+        "ci_95_upper": 36.56,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 51.45
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 2,
+        "sample_mean": 10.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 4.21,
+        "ci_95_upper": 25.79,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 36.58
+      },
+      "Oceania": {
+        "n": 4,
+        "sample_mean": 20.0,
+        "sample_sd": 20.41,
+        "posterior_mean_mu": 21.0,
+        "ci_95_lower": 7.02,
+        "ci_95_upper": 34.98,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 55.24
+      },
+      "Sub-Saharan Africa": {
+        "n": 1,
+        "sample_mean": 50.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 37.5,
+        "ci_95_lower": 19.1,
+        "ci_95_upper": 55.9,
+        "predictive_95_lower": 5.63,
+        "predictive_95_upper": 69.37
+      }
+    },
+    "nw_dharmic": {
+      "North America": {
+        "n": 11,
+        "sample_mean": 33.64,
+        "sample_sd": 40.5,
+        "posterior_mean_mu": 32.92,
+        "ci_95_lower": 12.4,
+        "ci_95_upper": 53.43,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 106.88
+      },
+      "Western Europe": {
+        "n": 3,
+        "sample_mean": 11.67,
+        "sample_sd": 7.64,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 5.52,
+        "ci_95_upper": 24.48,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 36.2
+      },
+      "East Asia": {
+        "n": 2,
+        "sample_mean": 27.5,
+        "sample_sd": 31.82,
+        "posterior_mean_mu": 26.67,
+        "ci_95_lower": 6.55,
+        "ci_95_upper": 46.78,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 66.9
+      },
+      "South Asia": {
+        "n": 4,
+        "sample_mean": 46.25,
+        "sample_sd": 30.92,
+        "posterior_mean_mu": 42.0,
+        "ci_95_lower": 20.65,
+        "ci_95_upper": 63.35,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 94.31
+      },
+      "Southeast Asia": {
+        "n": 1,
+        "sample_mean": 25.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 25.0,
+        "ci_95_lower": 13.5,
+        "ci_95_upper": 36.5,
+        "predictive_95_lower": 5.09,
+        "predictive_95_upper": 44.91
+      },
+      "Oceania": {
+        "n": 3,
+        "sample_mean": 70.0,
+        "sample_sd": 51.96,
+        "posterior_mean_mu": 58.75,
+        "ci_95_lower": 21.05,
+        "ci_95_upper": 96.45,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 143.06
+      }
+    },
+    "nw_indigenous_relational": {
+      "North America": {
+        "n": 20,
+        "sample_mean": 65.5,
+        "sample_sd": 31.33,
+        "posterior_mean_mu": 63.57,
+        "ci_95_lower": 50.44,
+        "ci_95_upper": 76.7
+      },
+      "Western Europe": {
+        "n": 13,
+        "sample_mean": 53.08,
+        "sample_sd": 40.55,
+        "posterior_mean_mu": 51.07,
+        "ci_95_lower": 31.41,
+        "ci_95_upper": 70.73,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 127.2
+      },
+      "East Asia": {
+        "n": 2,
+        "sample_mean": 75.0,
+        "sample_sd": 35.36,
+        "posterior_mean_mu": 58.33,
+        "ci_95_lower": 26.14,
+        "ci_95_upper": 90.53,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 122.73
+      },
+      "Southeast Asia": {
+        "n": 4,
+        "sample_mean": 30.0,
+        "sample_sd": 26.14,
+        "posterior_mean_mu": 29.0,
+        "ci_95_lower": 11.63,
+        "ci_95_upper": 46.37,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 71.55
+      },
+      "Latin America & Caribbean": {
+        "n": 15,
+        "sample_mean": 44.67,
+        "sample_sd": 31.37,
+        "posterior_mean_mu": 43.44,
+        "ci_95_lower": 29.06,
+        "ci_95_upper": 57.81,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 102.7
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 1,
+        "sample_mean": 5.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 0,
+        "ci_95_upper": 31.26,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 43.16
+      },
+      "Oceania": {
+        "n": 8,
+        "sample_mean": 62.5,
+        "sample_sd": 38.27,
+        "posterior_mean_mu": 58.33,
+        "ci_95_lower": 35.66,
+        "ci_95_upper": 81.01,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 130.05
+      },
+      "Sub-Saharan Africa": {
+        "n": 2,
+        "sample_mean": 30.0,
+        "sample_sd": 28.28,
+        "posterior_mean_mu": 28.33,
+        "ci_95_lower": 9.94,
+        "ci_95_upper": 46.72,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 65.11
+      }
+    },
+    "nw_buen_vivir": {
+      "North America": {
+        "n": 4,
+        "sample_mean": 50.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 45.0,
+        "ci_95_lower": 35.35,
+        "ci_95_upper": 54.65,
+        "predictive_95_lower": 21.37,
+        "predictive_95_upper": 68.63
+      },
+      "Western Europe": {
+        "n": 1,
+        "sample_mean": 90.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 57.5,
+        "ci_95_lower": 18.41,
+        "ci_95_upper": 96.59,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 125.21
+      },
+      "Sub-Saharan Africa": {
+        "n": 1,
+        "sample_mean": 50.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 37.5,
+        "ci_95_lower": 19.1,
+        "ci_95_upper": 55.9,
+        "predictive_95_lower": 5.63,
+        "predictive_95_upper": 69.37
+      }
+    },
+    "dharmic_family": {
+      "North America": {
+        "n": 34,
+        "sample_mean": 28.24,
+        "sample_sd": 35.18,
+        "posterior_mean_mu": 28.14,
+        "ci_95_lower": 16.9,
+        "ci_95_upper": 39.39
+      },
+      "Western Europe": {
+        "n": 11,
+        "sample_mean": 25.91,
+        "sample_sd": 25.67,
+        "posterior_mean_mu": 25.83,
+        "ci_95_lower": 12.74,
+        "ci_95_upper": 38.93,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 73.04
+      },
+      "East Asia": {
+        "n": 12,
+        "sample_mean": 18.75,
+        "sample_sd": 16.94,
+        "posterior_mean_mu": 19.23,
+        "ci_95_lower": 10.67,
+        "ci_95_upper": 27.79,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 51.26
+      },
+      "MENA": {
+        "n": 1,
+        "sample_mean": 5.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 0,
+        "ci_95_upper": 31.26,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 43.16
+      },
+      "South Asia": {
+        "n": 11,
+        "sample_mean": 25.0,
+        "sample_sd": 24.29,
+        "posterior_mean_mu": 25.0,
+        "ci_95_lower": 12.59,
+        "ci_95_upper": 37.41,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 69.74
+      },
+      "Southeast Asia": {
+        "n": 6,
+        "sample_mean": 15.0,
+        "sample_sd": 24.49,
+        "posterior_mean_mu": 16.43,
+        "ci_95_lower": 1.16,
+        "ci_95_upper": 31.69,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 59.61
+      },
+      "Latin America & Caribbean": {
+        "n": 2,
+        "sample_mean": 20.0,
+        "sample_sd": 21.21,
+        "posterior_mean_mu": 21.67,
+        "ci_95_lower": 6.78,
+        "ci_95_upper": 36.56,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 51.45
+      },
+      "Eastern Europe & Central Asia": {
+        "n": 2,
+        "sample_mean": 10.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 15.0,
+        "ci_95_lower": 4.21,
+        "ci_95_upper": 25.79,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 36.58
+      },
+      "Oceania": {
+        "n": 5,
+        "sample_mean": 54.0,
+        "sample_sd": 45.19,
+        "posterior_mean_mu": 49.17,
+        "ci_95_lower": 19.85,
+        "ci_95_upper": 78.49,
+        "predictive_95_lower": 0,
+        "predictive_95_upper": 126.74
+      },
+      "Sub-Saharan Africa": {
+        "n": 1,
+        "sample_mean": 50.0,
+        "sample_sd": 0.0,
+        "posterior_mean_mu": 37.5,
+        "ci_95_lower": 19.1,
+        "ci_95_upper": 55.9,
+        "predictive_95_lower": 5.63,
+        "predictive_95_upper": 69.37
+      }
+    }
+  },
+  "weird_comparison": {
+    "nw_confucian": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 36,
+      "high_weird_rate": 0.0303,
+      "non_weird_n": 50,
+      "non_weird_detected": 0,
+      "non_weird_rate": 0.0192,
+      "prob_high_gt_non": 0.7857,
+      "interpretation": "Inconclusive"
+    },
+    "nw_ubuntu": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 15,
+      "high_weird_rate": 0.0131,
+      "non_weird_n": 50,
+      "non_weird_detected": 0,
+      "non_weird_rate": 0.0192,
+      "prob_high_gt_non": 0.4857,
+      "interpretation": "Inconclusive"
+    },
+    "nw_islamic_jurisprudence": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 7,
+      "high_weird_rate": 0.0065,
+      "non_weird_n": 50,
+      "non_weird_detected": 1,
+      "non_weird_rate": 0.0385,
+      "prob_high_gt_non": 0.0489,
+      "interpretation": "Strong evidence Non-WEIRD > WEIRD"
+    },
+    "nw_buddhist": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 8,
+      "high_weird_rate": 0.0074,
+      "non_weird_n": 50,
+      "non_weird_detected": 0,
+      "non_weird_rate": 0.0192,
+      "prob_high_gt_non": 0.31,
+      "interpretation": "Inconclusive"
+    },
+    "nw_dharmic": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 5,
+      "high_weird_rate": 0.0049,
+      "non_weird_n": 50,
+      "non_weird_detected": 0,
+      "non_weird_rate": 0.0192,
+      "prob_high_gt_non": 0.2172,
+      "interpretation": "Inconclusive"
+    },
+    "nw_indigenous_relational": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 29,
+      "high_weird_rate": 0.0245,
+      "non_weird_n": 50,
+      "non_weird_detected": 0,
+      "non_weird_rate": 0.0192,
+      "prob_high_gt_non": 0.7134,
+      "interpretation": "Inconclusive"
+    },
+    "nw_buen_vivir": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 5,
+      "high_weird_rate": 0.0049,
+      "non_weird_n": 50,
+      "non_weird_detected": 0,
+      "non_weird_rate": 0.0192,
+      "prob_high_gt_non": 0.2172,
+      "interpretation": "Inconclusive"
+    },
+    "dharmic_family": {
+      "high_weird_n": 1221,
+      "high_weird_detected": 13,
+      "high_weird_rate": 0.0114,
+      "non_weird_n": 50,
+      "non_weird_detected": 0,
+      "non_weird_rate": 0.0192,
+      "prob_high_gt_non": 0.4403,
+      "interpretation": "Inconclusive"
+    }
+  }
+}

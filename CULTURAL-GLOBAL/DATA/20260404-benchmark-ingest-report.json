@@ -1,0 +1,81 @@
+{
+  "date": "2026-04-04",
+  "papers_ingested": 11,
+  "papers_skipped": 1,
+  "key_range": "EXSR0690-EXSR0700",
+  "papers": [
+    {
+      "filename": "2024-Li-CULTURE-GEN.md",
+      "key": "EXSR0690",
+      "title": "CULTURE-GEN: Revealing Global Cultural Perception in Language Models through Natural Language Prompting",
+      "status": "ingested"
+    },
+    {
+      "filename": "2026-Pham-LiveCultureBench.md",
+      "key": "EXSR0691",
+      "title": "LiveCultureBench: a Multi-Agent, Multi-Cultural Benchmark for Large Language Models in Dynamic Social Simulations",
+      "status": "ingested"
+    },
+    {
+      "filename": "2026-Pourdavood-Does Claudes Constitution Have a Culture.md",
+      "key": "EXSR0692",
+      "title": "Does Claude's Constitution Have a Culture?",
+      "status": "ingested"
+    },
+    {
+      "filename": "2022-Jin-MoralExceptQA.md",
+      "key": "EXSR0693",
+      "title": "When to Make Exceptions: Exploring Language Models as Accounts of Human Moral Judgment",
+      "status": "ingested"
+    },
+    {
+      "filename": "2025-Segerer-Cultural Value Alignment Prompt-Based.md",
+      "key": "EXSR0694",
+      "title": "Cultural Value Alignment in Large Language Models: A Prompt-based Analysis of Schwartz Values in Gemini, ChatGPT, and DeepSeek",
+      "status": "ingested"
+    },
+    {
+      "filename": "2025-Ali-Islamic Ethics Trusteeship.md",
+      "key": "EXSR0695",
+      "title": "Islamic Ethics and AI: An Evaluation of Existing Approaches to AI using Trusteeship Ethics",
+      "status": "ingested"
+    },
+    {
+      "filename": "2022-Bakker-Fine-tuning LMs to Find Agreement.md",
+      "key": "EXSR0696",
+      "title": "Fine-tuning language models to find agreement among humans with diverse preferences",
+      "status": "ingested"
+    },
+    {
+      "filename": "2024-Klingefjord-Moral Graph Elicitation.md",
+      "key": "EXSR0697",
+      "title": "What are human values, and how do we align AI to them?",
+      "status": "ingested"
+    },
+    {
+      "filename": "2026-Zheng-VISPA Pluralistic Alignment.md",
+      "key": "EXSR0698",
+      "title": "VISPA: Pluralistic Alignment via Automatic Value Selection and Activation",
+      "status": "ingested"
+    },
+    {
+      "filename": "2025-Kyrychenko-C3AI Crafting Constitutions.md",
+      "key": "EXSR0699",
+      "title": "C3AI: Crafting and Evaluating Constitutions for Constitutional AI",
+      "status": "ingested"
+    },
+    {
+      "filename": "2025-Guo-COUPLE Counterfactual Pluralistic.md",
+      "key": "EXSR0700",
+      "title": "Counterfactual Reasoning for Steerable Pluralistic Value Alignment of Large Language Models",
+      "status": "ingested"
+    },
+    {
+      "filename": "SKIPPED",
+      "key": "N/A",
+      "title": "Artificial Intelligence (AI) in Islamic Ethics: Towards Pluralist Ethical Benchmarking for AI",
+      "status": "skipped",
+      "reason": "Already in vault as CGSR0064 (2023-Unknown-Artificial Intelligence AI in Islamic Ethics.md)"
+    }
+  ]
+}

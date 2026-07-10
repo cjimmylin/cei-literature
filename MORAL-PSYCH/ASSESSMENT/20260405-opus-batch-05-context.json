@@ -1,0 +1,2410 @@
+[
+  {
+    "file": "2025-Unknown-AI in Islamic Finance A Maqasid.md",
+    "short_title": "AI in Islamic Finance: A Maqasid Al-Shariah Perspective",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "islamic"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/394731467",
+    "data_url": "",
+    "abstract": "AI alignment with five dimensions of Maqasid al-Shariah in finance",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['islamic']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Artificial Intelligence in Fatwa and Islamic.md",
+    "short_title": "Artificial Intelligence in Fatwa and Islamic Law: Prospects, Regulations, and Ethics",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "islamic"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://jurnal.uindatokarama.ac.id/index.php/iciis/article/view/4445",
+    "data_url": "",
+    "abstract": "AI in fatwa formulation and Islamic law, regulatory and ethical analysis",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['islamic']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Ethical challenges for using AI in.md",
+    "short_title": "Ethical challenges for using AI in understanding Islamic jurisprudence",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "islamic"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/389846404",
+    "data_url": "",
+    "abstract": "Ethical challenges of AI application in Islamic jurisprudence",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['islamic']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Ethics of AI in Maqasid Al-Sharias.md",
+    "short_title": "Ethics of AI in Maqasid Al-Sharia's Perspective",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "islamic"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://ejournal.iainmadura.ac.id/index.php/karsa/article/view/19617",
+    "data_url": "",
+    "abstract": "AI ethics through the five objectives of Sharia",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['islamic']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-The Transformation of Ijtihad and Fatwa.md",
+    "short_title": "The Transformation of Ijtihad and Fatwa in the Era of AI",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "islamic"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://ojssulthan.com/asje/article/view/449",
+    "data_url": "",
+    "abstract": "Epistemological and technological study of AI-era ijtihad and fatwa",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['islamic']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-The role of AI in enhancing.md",
+    "short_title": "The role of AI in enhancing shariah compliance: Efficiency and transparency in Islamic finance",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "islamic"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/388223220",
+    "data_url": "",
+    "abstract": "AI's role in Islamic finance shariah compliance efficiency",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['islamic']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md",
+    "short_title": "Arabic LLMs for Banking, Telecom and Government in GCC - 2026",
+    "year": 2026,
+    "info_tier": "B",
+    "theories": [
+      "islamic"
+    ],
+    "publication": "Web",
+    "doi": "",
+    "url": "https://makitsol.com/arabic-llms-for-banking-telecom-and-government-in-gcc/",
+    "data_url": "",
+    "abstract": "Based on the search results, I found relevant information about the benchmark you're asking about: GPT-4o and ALLaM were benchmarked on Maliki Fiqh using 550 curated questions across three domains, highlighting gaps in adherence to established Fiqhi rules. The study revealed several key findings: 1.",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['islamic']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Web"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+    "short_title": "Harmonizing Artificial Intelligence for Social Good",
+    "year": 2020,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "Springer Philosophy & Technology",
+    "doi": "10.1007/s13347-020-00421-8",
+    "url": "https://link.springer.com/article/10.1007/s13347-020-00421-8",
+    "data_url": "",
+    "abstract": "Proposes harmony as an additional core principle for AI ethics, drawing on its centrality in East Asian cultures. Discusses the Japanese concept of Wa \u2014 derived from Confucian harmony but shaped distinctly by contact with Shinto \u2014 and the concept of Takt as means to build harmonizing AI systems for social good.",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Springer Philosophy & Technology"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
+    "short_title": "Can AI Lead to Genuine Virtue Confucian",
+    "year": 2021,
+    "info_tier": "A",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "10.1007/978-981-16-2309-7_4",
+    "url": "https://link.springer.com/chapter/10.1007/978-981-16-2309-7_4",
+    "data_url": "",
+    "abstract": "Philosophers, technologists, and pundits are beginning to recognize the deep ethical questions raised by artificial intelligence. So far, attention has concentrated in three areas: (1) how we are being damaged or controlled by profit-driven algorithms ('the attention economy'), and what to do about it; (2) how to ensure that autonomous, intelligent machines (like driverless vehicles) make 'good' decisions, and how to define what these decisions are; and (3) how to think about (and perhaps resist) the possibility of artificial superintelligence surpassing and perhaps controlling us. To the extent that theorists have looked at the good that AI can bring, they have tended focus on possibilities for material abundance and leisure. In addition, virtually all of this theorizing to-date has been limited to Western ethical frameworks. Especially given the huge investments in AI presently being made in China, it seems prudent to expand our collective philosophical frameworks to encompass a more global set of ethical perspectives.",
+    "extract_text": "---\ntitle: \"Can AI Lead to Genuine Virtue Confucian - PDF Extract\"\nsource_pdf: \"2021-Angle-Can AI Lead to Genuine Virtue Confucian.pdf\"\npages: 24\nextracted_at: \"2026-01-29T16:49:09.089606\"\n---\n\n# PDF Extract: Can AI Lead to Genuine Virtue Confucian\n\n**Source PDF:** 2021-Angle-Can AI Lead to Genuine Virtue Confucian.pdf\n**Total Pages:** 24\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSkip to main content\nAdvertisement\n[image]\nLog in\nMenu\nFind a journal Publish with us Track your research\nSearch\n Saved research\n Cart\n1. Home \n2. Intelligence and Wisdom \n3. Chapter\nCan Artificial Intelligence Lead Us\nto Genuine Virtue? A Confucian\nPerspective\n\u2022  Chapter\n\u2022  First Online: 09 September 2021\n\u2022  pp 49\u201364\n\u2022  Cite this chapter\n\n--- Page 2 ---\n\n[image] Intelligence and Wisdom\n\u2022  Stephen C. Angle\n2\u00a0\n\u2022  \n810 Accesses\n\u2022  \n1 Citation\nAbstract\nPhilosophers, technologists, and pundits are beginning to recognize the\ndeep ethical questions raised by artificial intelligence. So far, attention\nhas concentrated in three areas: (1) how we are being damaged or\ncontrolled by profit-driven algorithms (\u201cthe attention economy\u201d), and what\nto do about it; (2) how to ensure that autonomous, intelligent machines\n(like driverless vehicles) make \u201cgood\u201d decisions, and how to define what\nthese decisions are; and (3) how to think about (and perhaps resist) the\npossibility of artificial superintelligence surpassing and perhaps\ncontrolling us. To the extent that theorists have looked at the good that\nAI can bring, they have tended focus on possibilities for material\nabundance and leisure. In addition, virtually all of this theorizing to-date\nhas been limited to Western ethical frameworks. Especially given the\nhuge investments in AI presently being made in China, it seems prudent\nto expand our collective philosophical frameworks to encompass a more\nglobal set of ethical perspectives.\n This is a preview of subscription content, log in via an institution \nto check access.\n\n--- Page 3 ---\n\nAccess this chapter\nLog in via an institution \nSubscribe and save\n Springer+\nfrom $39.99 /Month\n\u2022  Starting from 10 chapters or articles per month\n\u2022  Access and download chapters and articles from more than 300k\nbooks and 2,500 journals\n\u2022  Cancel anytime\nView plans \nBuy Now\n Chapter\nUSD\u00a029.95\nPrice excludes VAT (USA)\n Buy Chapter \n\u2022  Available as PDF\n\u2022  Read on any device\n\u2022  Instant download\n\u2022  Own it forever\n\n--- Page 4 ---\n\n eBook\nUSD\u00a089.00\nPrice excludes VAT (USA)\n Buy eBook \n\u2022  Available as EPUB and PDF\n\u2022  Read on a",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community.md",
+    "short_title": "Emotional AI, Ethics, and Japanese Spice: Contributing Community, Wholeness, Sincerity, and Heart",
+    "year": 2021,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "Springer Philosophy & Technology",
+    "doi": "10.1007/s13347-021-00487-y",
+    "url": "https://link.springer.com/article/10.1007/s13347-021-00487-y",
+    "data_url": "",
+    "abstract": "Examines Japanese philosophical thought from the Meiji Restoration onward (Fukuzawa, Nishida, Watsuji) and distills four ethical 'spices' \u2014 community, wholeness, sincerity, heart \u2014 for AI ethics. Discusses Shinto animism's influence on Japanese attitudes toward AI/robots and the concept of Wa (harmony) as shaped by Shinto and Confucian traditions.",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Springer Philosophy & Technology"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2022-Unknown-Confucius cyberpunk and Mr Science comparing.md",
+    "short_title": "Confucius, cyberpunk and Mr. Science: comparing AI ethics principles between China and the EU",
+    "year": 2022,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9207836/",
+    "data_url": "",
+    "abstract": "Comparative analysis of AI ethics principles between China and EU",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2023-Oxford-How Chinese Philosophy Impacts AI Narratives.md",
+    "short_title": "How Chinese Philosophy Impacts AI Narratives and Imagined AI Futures",
+    "year": 2023,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://academic.oup.com/book/46567/chapter/408130664",
+    "data_url": "",
+    "abstract": "Chinese Confucian/Daoist/Buddhist philosophy impact on AI narratives",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-HK-Confucian Philosophy Revitalized in the Digital.md",
+    "short_title": "Confucian Philosophy Revitalized in the Digital Era: Maintaining Interpersonal Ethics with AI",
+    "year": 2024,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://scholars.cityu.edu.hk/en/publications/confucian-philosophy-revitalized-in-the-digital-era-maintaining-i/",
+    "data_url": "",
+    "abstract": "Confucian interpersonal ethics applied to AI era challenges",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Muyskens-Can an AI-carebot be filial.md",
+    "short_title": "Can an AI-carebot be filial",
+    "year": 2024,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "10.1177/09697330241238332",
+    "url": "https://journals.sagepub.com/doi/10.1177/09697330241238332",
+    "data_url": "",
+    "abstract": "This paper explores the ethical considerations of applying artificially intelligent robots in eldercare from a **Confucian virtue ethics** perspective. The authors examine how AI technology interacts with traditional Chinese concepts of filial piety (**xiao**) and **ren** (benevolence). They argue that robots may not adequately fulfill care duties from a Confucian perspective due to their lack of genuine emotional abilities and detachment from personal relationships, which are central to **virtuous** caregiving. However, the paper also acknowledges the utility of AI robots in addressing elder care demands and proposes parameters for their acceptable use within a **virtue-based** ethical framework that emphasizes **moral character** and relational responsibility.",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-So-AI Trained on Confucian Analects.md",
+    "short_title": "AI Trained on Confucian Analects",
+    "year": 2024,
+    "info_tier": "A",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "N/A",
+    "url": "https://philarchive.org/archive/SOHATI",
+    "data_url": "",
+    "abstract": "The influence of AI has spread globally, intriguing both the East and the West. As a result, some Chinese scholars have explored how AI and Chinese philosophy can be examined together, and have offered unique insights into AI from a Chinese philosophical perspective. This paper investigates how these two fields can be developed in conjunction, focusing on Confucian philosophy. The author uses Confucianism as a philosophical foundation to investigate human-technology relations closely, proposing that a Confucian-imbued AI would reduce prevalent AI ethical issues. Through this discussion, the strong substantivist stance that we will lose control over AI is refuted. Psychology is used as an example of a real-world context to demonstrate how the project could be practically applied.",
+    "extract_text": "---\ntitle: \"AI Trained on Confucian Analects - PDF Extract\"\nsource_pdf: \"2024-So-AI Trained on Confucian Analects.pdf\"\npages: 16\nextracted_at: \"2026-01-25T04:31:18.412872\"\n---\n\n# PDF Extract: AI Trained on Confucian Analects\n\n**Source PDF:** 2024-So-AI Trained on Confucian Analects.pdf\n**Total Pages:** 16\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nHow AI Trained on the Confucian Analects Can Solve Ethical Dilemmas\nEmma So\nAbstract\nThe influence of AI has spread globally, intriguing both the East and the West. As a result, some\nChinese scholars have explored how AI and Chinese philosophy can be examined together, and\nhave offered some unique insights into AI from a Chinese philosophical perspective. Similarly,\nwe investigate how the two fields can be developed in conjunction, focusing on the popular\nConfucian philosophy. In this work, we use Confucianism as a philosophical foundation to\ninvestigate human-technology relations closely, proposing that a Confucian-imbued AI would\nreduce prevalent AI ethical issues. Through this discussion, the strong substantivist stance that\nwe will lose control over AI is refuted. We then discuss the practical elements of this project,\nexplaining how passages from the Confucian text of the Analects can be incorporated into AI\nsystems. As an example of a real-world context, psychology is used to demonstrate how the\nproject could be practically applied. Potential criticisms surrounding the proposed project are\nalso identified and challenged. By reducing the negative effects of common AI ethical issues and\nutilising Confucian principles from The Analects, AI systems can be more ethical, promoting\npeaceful relations between humans and technology.\n1 Introduction\nArtificial intelligence (AI) is without a doubt showing exponential growth every day. It is a field\nthat explores the way in which machines can replicate humans\u2019 ability to perform different tasks,\nsuch as decision-making, translation, driving, and understanding people. Unlike traditional\ncomputational systems, AI systems can learn and improve based on historical data. They mainly\ninvolve algorithms, which are developed via the artificial neural network (ANN).\nThe ANN is specifically modelled to replicate the electrical activity within the human brain and\nnervous system. Neurodes, which are typically arranged in layers or vectors, are connected to\nother neurodes. Weighted data signals then enter a neurode to transfer the information within the\nnetwork. Since AI systems contain ",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+    "short_title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+    "year": 2024,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "Unknown",
+    "doi": "",
+    "url": "",
+    "data_url": "",
+    "abstract": "The influence of AI has spread globally, intriguing both the East and the West. This paper investigates how AI and Chinese philosophy can be developed in conjunction, focusing on Confucian philosophy. The author uses Confucianism as a philosophical foundation to investigate human-technology relations closely, proposing that a Confucian-imbued AI would reduce prevalent AI ethical issues. Through this discussion, the strong substantivist stance that we will lose control over AI is refuted. Psychology is used as an example to demonstrate how passages from the Confucian text of the Analects can be incorporated into AI systems.",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: Unknown"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Unknown-Confucian Role Ethics and Artificial Intelligence.md",
+    "short_title": "Confucian Role Ethics and Artificial Intelligence",
+    "year": 2024,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.academia.edu/127636733/Confucian_Role_Ethics_and_Artificial_Intelligence",
+    "data_url": "",
+    "abstract": "Confucian role ethics (ren, yi, xiao) applied to AI analysis",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Elder-The Ethics of Digital Ghosts.md",
+    "short_title": "The Ethics of Digital Ghosts",
+    "year": 2025,
+    "info_tier": "A",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "10.4324/9781003632658",
+    "url": "https://www.taylorfrancis.com/books/mono/10.4324/9781003632658/ethics-digital-ghosts-alexis-elder",
+    "data_url": "",
+    "abstract": "This book explores the ethics of AI from multiple Chinese philosophical traditions, including **Confucianism**, Mohism, and Zhuangism. Drawing on **virtue ethics** concepts like **ren** (benevolence), **li** (propriety), and **yi** (righteousness), Elder examines how these frameworks can inform the ethical development of AI systems, particularly those related to digital representations of deceased individuals. The book argues that **Confucian virtue ethics** views caregiving as a significant source of meaning and moral self-cultivation, offering insights for designing AI systems that support **human flourishing** and relational responsibilities.",
+    "extract_text": "---\ntitle: \"2025-Elder-The Ethics of Digital Ghosts - PDF Extract\"\nsource_pdf: \"2025-Elder-The Ethics of Digital Ghosts.pdf\"\npages: 216\nextracted_at: \"2026-02-16T12:15:53.561090\"\n---\n\n# PDF Extract: 2025-Elder-The Ethics of Digital Ghosts\n\n**Source PDF:** 2025-Elder-The Ethics of Digital Ghosts.pdf\n**Total Pages:** 216\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\n \nIn the Company of Ghosts \n \nHauntology, Ethics, Digital Monsters \nLine Henriksen \n \n \n \n \n \n \n \n \n \n \nLink\u00f6ping Studies in Arts and Science No. 668 \nLink\u00f6ping University, Department of Thematic Studies \u2013 Gender Studies \nLink\u00f6ping 2016 \n \n \n \n\n--- Page 2 ---\n\n \nLink\u00f6ping Studies in Arts and Science \uf096 No. 668 \n \n \n \n \nAt the Faculty of Arts and Sciences at Link\u00f6ping University, research and doctoral studies are \ncarried out within broad problem areas. Research is organized in interdisciplinary research \nenvironments and doctoral studies mainly in graduate schools. Jointly, they publish the series \nLink\u00f6ping Studies in arts and Science. This thesis comes from Tema Genus at the Department of \nThematic Studies \u2013 Gender Studies.  \n \n \n \n \nDistributed by: \nTEMA \u2013 the Department of Thematic Studies  \nLink\u00f6ping University  \n581 83 Link\u00f6ping  \n \n \n \n \nLine Henriksen \nIn the Company of Ghosts \nHauntology, Ethics, Digital Monsters \n \n \n \n \nEdition 1:1 \nISBN 978-91-7685-842-4 \nISSN 0282-9800 \n \n \n \n \n\u00a9 Line Henriksen \nTEMA \u2013 the Department of Thematic Studies, 2016 \n \n \n \nCover art and design: Line Henriksen \nPrinted by: LiU-Tryck, Link\u00f6ping, 2016 \n\n--- Page 3 ---\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nTil mine for\u00e6ldre, Hanne og Claus Henriksen.  \nTil min s\u00f8ster, Louise. \nOg til Konrad. \n \n \n \n \n \n \n \n\n--- Page 4 ---\n\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n--- Page 5 ---\n\n                                                                                   (1000Vultures 2011)     \n \nNervously, I called out.                                                                                                                                          \n\u201cHello?\u201d \n \nThere was a brief moment of breathless tension as we lay static in \nthe water. This silence was suddenly broken by laughter. \n                  \n                                                                              \u201cHello?\u201d Josh cackled. \n\u201cSo what?\u201d \n \n                                                \u201cHello, Mr. Monster-in-the-woods. I \nknow you\u2019re sneaking around but maybe you\u2019ll answer to my \u2018hello\u2019?  \n                                ",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Social and Ethical Considerations of AI.md",
+    "short_title": "Social and Ethical Considerations of AI in East Asia and Beyond",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://link.springer.com/book/10.1007/978-3-031-77857-5",
+    "data_url": "",
+    "abstract": "Confucianist, Daoist, and Christian reflections on AI ethics in East Asia",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2026-Unknown-Natural intelligence not artificial a Confucian.md",
+    "short_title": "Natural intelligence, not artificial: a Confucian reframing of generative AI in higher education",
+    "year": 2026,
+    "info_tier": "B",
+    "theories": [
+      "confucian"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/17449642.2026.2629430",
+    "data_url": "",
+    "abstract": "Confucian philosophy reframes generative AI for education",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['confucian']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+    "short_title": "The role of the African value of Ubuntu in global",
+    "year": 2022,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "10.1016/j.patter.2022.100462",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666389922000423",
+    "data_url": "",
+    "abstract": "Historically, Sub-Saharan Africa (SSA) has been excluded from the bene\ufb01ts of the previous industrial revolutions, as its people and their resources and aspirations have been objecti\ufb01ed through foreign domination, and its culture has either been fragmented or appropriated. While arti\ufb01cial intelligence (AI) is poised to generate vast amounts of wealth, its application could lead to further social and economic exclusion of SSA due to a lack of access to technological advancements and the historical",
+    "extract_text": "---\ntitle: \"2022-Gwagwa-The role of the African value of Ubuntu in global - PDF Extract\"\nsource_pdf: \"2022-Gwagwa-The role of the African value of Ubuntu in global.pdf\"\npages: 7\nextracted_at: \"2026-01-29T13:51:06.749014\"\n---\n\n# PDF Extract: 2022-Gwagwa-The role of the African value of Ubuntu in global\n\n**Source PDF:** 2022-Gwagwa-The role of the African value of Ubuntu in global.pdf\n**Total Pages:** 7\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nPerspective\nThe role of the African value of\nUbuntu in global AI inclusion\ndiscourse: A normative ethics perspective\nArthur Gwagwa,1,* Emre Kazim,2,3 and Airlie Hilliard3,4\n1Ethics Institute, Department of Philosophy & Religious Studies, Utrecht University, Janskerkhof 13, 3512 BL Utrecht, The Netherlands\n2Department of Computer Science, University College London, Gower Street, London WC1E 6EA, UK\n3Holistic AI, 18 Soho Square, London W1D 3QH, UK\n4Institute of Management Studies, Goldsmiths, University of London, New Cross, London SE14 6NW, UK\n*Correspondence: e.a.gwagwa@uu.nl\nhttps://doi.org/10.1016/j.patter.2022.100462\nSUMMARY\nHistorically, Sub-Saharan Africa (SSA) has been excluded from the bene\ufb01ts of the previous industrial revolu-\ntions, as its people and their resources and aspirations have been objecti\ufb01ed through foreign domination,\nand its culture has either been fragmented or appropriated. While arti\ufb01cial intelligence (AI) is poised to\ngenerate vast amounts of wealth, its application could lead to further social and economic exclusion of\nSSA due to a lack of access to technological advancements and the historical injustice and exclusion based\non protected characteristics. Through an examination of the concept of inclusion, this paper explores how to\nimprove the terms on which African populations and subpopulations and their concerns are included in the\nglobal AI ethics discourses. Speci\ufb01cally, it is argued that the SSA value of Ubuntu could be of immense value\nin AI applied normative ethics, particularly toward an inclusive approach for the implementation of the univer-\nsal AI ethics principles and guidelines.\nINTRODUCTION\nWhile there is a consensus about the enormous potential for arti-\n\ufb01cial intelligence (AI) to advance development and solve some of\nthe most pressing challenges faced by Sub-Saharan Africa\n(SSA), discussions of the ethical challenges that AI will bring to\nAfrica have only just begun. Little has been done to advance uni-\n\ufb01ed African positions and approaches in global AI ethics forums.\nThis is desp",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+    "short_title": "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective",
+    "year": 2022,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "WebSearch: Ubuntu ethics AI African values benchmark",
+    "doi": "",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9023883/",
+    "data_url": "",
+    "abstract": "The article concerns research in the normative social science and is aimed at making a contentious argument that the conceptual frameworks which underpinned much of the literature and research on social exclusion are rooted in European and Anglo Saxon traditions. As such they ignore the contributions made by people of Africa, Asia and Latin America. The discourse regarding social exclusion and social inclusion could therefore not be only with a Western perspective, but should note that the...",
+    "extract_text": "---\ntitle: \"2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion - PDF Extract\"\nsource_pdf: \"2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf\"\npages: 17\nextracted_at: \"2026-02-13T22:00:45.340607\"\n---\n\n# PDF Extract: 2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion\n\n**Source PDF:** 2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf\n**Total Pages:** 17\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nVolume 4 number 2 \u2022 September 2011\n1\nFrom Social Exclusion \nto Social Inclusion\nTheory and Practice over Two Continents\nA Saloojee\nRyerson University \nToronto \nCanada\nN Saloojee\nGeorge Brown College \nToronto \nCanada\nABSTRACT\nThe article concerns research in the normative social science and is aimed at making \na contentious argument that the conceptual frameworks which underpinned much of \nthe literature and research on social exclusion are rooted in European and Anglo Saxon \ntraditions. As such they ignore the contributions made by people of Africa, Asia and Latin \nAmerica. The discourse regarding social exclusion and social inclusion could therefore \nnot be only with a Western perspective, but should note that the reality of global exclusion \nis felt most in the developing world. A second challenge is the marked absence of any \ndiscussion on power imbedded in social relations and the disruption of bonds between \nindividuals and society. The third challenge to the discourse is the tepid acknowledgement \nof racism, sexism and other forms of socially constructed exclusions. The fourth challenge \nrelates to the role of the state. It is argued that the discourse should be adapted to country \nspecific situations and contacts to have policy relevance. The European/Western model \nshould be rearticulated with a more developmental focus that puts global inequalities \nup front and centre and draws from the global South. The future of the social inclusion \ndebate will depend on the ability to develop a global social inclusion drawing on the \nintellectual capacities of both the global North and the global South.\nINTRODUCTION\nIn privileging the discourse of social inclusion as the entry point into social analysis is placed \nat the centre of the research, analytical and even the political concerns a \u201cproactive human \n\n--- Page 2 ---\n\nAfrican Journal of Public Affairs\n2\ndevelopment approach to social well being that calls for more than the removal of barriers \nand risks\u201d. In this",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: WebSearch: Ubuntu ethics AI African values benchmark"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2022-Norren-The ethics of artificial intelligence UNESCO.md",
+    "short_title": "The ethics of artificial intelligence, UNESCO and the African Ubuntu perspective",
+    "year": 2022,
+    "info_tier": "B",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://philpapers.org/rec/VANTEO-92",
+    "data_url": "",
+    "abstract": "UNESCO AI ethics through an African Ubuntu lens",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Harvard-Artificial Intelligence Journalism and the Ubuntu.md",
+    "short_title": "Artificial Intelligence, Journalism, and the Ubuntu Robot in Sub-Saharan Africa",
+    "year": 2024,
+    "info_tier": "B",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/artificial_intelligence_journalism_and_the_ubuntu_robot_in_sub-saharan_africa_towards_a_normative_framework.pdf",
+    "data_url": "",
+    "abstract": "Normative framework for AI journalism in Sub-Saharan Africa through Ubuntu",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+    "short_title": "A holistic ubuntu artificial intelligence ethics",
+    "year": 2024,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "10.4102/ve.v45i1.3100",
+    "url": "http://www.ve.org.za/index.php/VE/article/view/3100",
+    "data_url": "",
+    "abstract": "Artificial intelligence (AI) is one of the most spoken-about topics in the media, academia, government and other platforms. One of the aspects that is often discussed is the ethical implications of AI and approaches to mitigate the risks. Artificial intelligence has an undeniable impact on industries as well as socio-economic structures; however, this article focusses on the impact of AI on three concerns mainly, humanity, spirituality and the environment. This article is an interdisciplinary study of African theological ethics and the philosophy of technology. It discusses the theological implications (doctrinal issues) of emerging technologies, particularly AI. It discusses technology as power which has impacted Africa since the first industrial revolution and emphasises the importance of African ethics in the context of AI in Africa. This article critically discusses ubuntu ethics and its critique. It focuses on AI and its impact on humanity, spirituality and the environment, and proposes a holistic ubuntu AI ethics approach in South Africa. Intradisciplinary and/or interdisciplinary implications: This article is an interdisciplinary study of African theological ethics and the philosophy of technology. Ubuntu ethics in this article derives from African Theology and African Philosophy. Ubuntu AI ethics is important for various disciplines such as theology, law, social sciences, computer sciences and information technology (especially designers and developers).",
+    "extract_text": "---\ntitle: \"2024-Mokoena-A holistic ubuntu artificial intelligence ethics - PDF Extract\"\nsource_pdf: \"2024-Mokoena-A holistic ubuntu artificial intelligence ethics.pdf\"\npages: 9\nextracted_at: \"2026-01-29T13:51:20.662548\"\n---\n\n# PDF Extract: 2024-Mokoena-A holistic ubuntu artificial intelligence ethics\n\n**Source PDF:** 2024-Mokoena-A holistic ubuntu artificial intelligence ethics.pdf\n**Total Pages:** 9\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSee discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/381109562\nA holistic ubuntu arti\ufb01cial intelligence ethics approach in South Africa\nArticle\u00a0\u00a0in\u00a0\u00a0Verbum et Ecclesia \u00b7 May 2024\nDOI: 10.4102/ve.v45i1.3100\nCITATIONS\n5\nREADS\n500\n1 author:\nKatleho Mokoena\nUniversity of the Witwatersrand\n8 PUBLICATIONS\u00a0\u00a0\u00a012 CITATIONS\u00a0\u00a0\u00a0\nSEE PROFILE\nAll content following this page was uploaded by Katleho Mokoena on 03 June 2024.\nThe user has requested enhancement of the downloaded file.\n\n--- Page 2 ---\n\nhttp://www.ve.org.za\nOpen Access\nVerbum et Ecclesia \nISSN: (Online) 2074-7705, (Print) 1609-9982\nPage 1 of 8\nOriginal Research\nRead online:\nScan this QR \ncode with your \nsmart phone or \nmobile device \nto read online.\nAuthor:\nKatleho K. Mokoena1 \nAffiliation:\n1Department of Systematic \nand Historical Theology, \nFaculty of Theology and \nReligion, University of \nPretoria, Pretoria, \nSouth\u00a0Africa\nCorresponding author:\nKatleho Mokoena,\nmokoenology@gmail.com\nDates:\nReceived: 01 Feb. 2024\nAccepted: 12 Apr. 2024\nPublished: 31 May 2024\nHow to cite this article:\nMokoena, K.K., 2024, \u2018A \nholistic ubuntu artificial \nintelligence ethics approach \nin South Africa\u2019, Verbum \net\u00a0Ecclesia 45(1), a3100. \nhttps://doi.org/10.4102/\nve.v45i1.3100\nCopyright:\n\u00a9 2024. The Authors. \nLicensee: AOSIS. This work \nis\u00a0licensed under the \nCreative\u00a0Commons \nAttribution License.\nIntroduction\nAccording to Arakpogun et\u00a0al. (2021:375), artificial intelligence (AI) has become an important \ntopic of discussion for academics and the public, since it is disrupting industries as well as daily \nlife. Governments and experts are trying to understand the effects of AI and also how to promote \nits development. Artificial intelligence has many definitions but, in this article, it will be referred \nto as the ability of machines to imitate human intelligence, capable of self-learning, and able to \naccomplish complicated tasks with minimal to no human control (Fourie 2020:13). Common \nbenefits of AI include quicker responses, increased p",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Odero-The Ubuntu Way.md",
+    "short_title": "The Ubuntu Way",
+    "year": 2024,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "10.12688/wellcomeopenres.23021.1",
+    "url": "https://wellcomeopenresearch.org/articles/9-625",
+    "data_url": "",
+    "abstract": "Background Effective Public Financial Management (PFM) approaches are imperative in the quest for efficiency in health service delivery. Reviews conducted in this area have assessed the impact of PFM approaches on health system efficiency but have left out the mechanisms through which PFM influences efficiency. This scoping review aims to synthesize evidence on the mechanisms by which PFM influences health system efficiency.",
+    "extract_text": "---\ntitle: \"The Ubuntu Way - PDF Extract\"\nsource_pdf: \"2024-Odero-The Ubuntu Way.pdf\"\npages: 13\nextracted_at: \"2026-01-24T17:05:40.011656\"\n---\n\n# PDF Extract: The Ubuntu Way\n\n**Source PDF:** 2024-Odero-The Ubuntu Way.pdf\n**Total Pages:** 13\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nSYSTEMATIC REVIEW\nHow does Public Financial Management (PFM) influence \nhealth system efficiency: A scoping review\n[version 1; peer review: 2 approved]\nAnita Musiega\n1,2, Benjamin Tsofa\n3, Edwine Barasa1,4\n1Health Economics Research Unit, KEMRI Wellcome Trust Research Programme, Nairobi, Nairobi, 00100, Kenya \n2Institute of Healthcare Management, Strathmore University Business School, Strathmore University, Nairobi, Nairobi County, \nKenya \n3Health Systems and Research Ethics Department, KEMRI-Wellcome Trust Research Programme, Kilifi, Kenya \n4Centre for Tropical Medicine and Global Health, Nuffield department of Medicine, University of Oxford, Oxford, UK \nFirst published: 02 Oct 2024, 9:566  \nhttps://doi.org/10.12688/wellcomeopenres.22533.1\nLatest published: 02 Oct 2024, 9:566  \nhttps://doi.org/10.12688/wellcomeopenres.22533.1\nv1\n \nAbstract \nBackground\nEffective Public Financial Management (PFM) approaches are \nimperative in the quest for efficiency in health service delivery. \nReviews conducted in this area have assessed the impact of PFM \napproaches on health system efficiency but have left out the \nmechanisms through which PFM influences efficiency. This scoping \nreview aims to synthesize evidence on the mechanisms by which PFM \ninfluences health system efficiency.\nMethods\nWe searched databases of PubMed and Google Scholar and websites \nof the World Health Organization (WHO), World Bank and Overseas \nDevelopment Institute (ODI) for peer-reviewed and grey literature \narticles that provided data on the relationship between PFM and \nhealth system efficiency. Three reviewers screened the articles for \neligibility with the inclusion criteria. Data on PFM and health system \nefficiency was charted and summarized. We then reported the \nmechanisms by which PFM influence efficiency.\nResults\nPFM processes and structures influence health system efficiency by \ninfluencing; the alignment of resources to health system needs, the \ncost of inputs, the motivation of health workers, and the input mix.\nOpen Peer Review\nApproval Status  \n \n1\n2\nversion 1\n02 Oct 2024\nview\nview\nMary Ejang, Lira University, Lira, Uganda\n1. \nBrendan Kwesiga\n, UNICEF, Nairobi, \nKenya\n2. \nAny reports and responses or commen",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+    "short_title": "The interconnectedness between Ubuntu principles",
+    "year": 2024,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "10.1007/s44217-024-00289-2",
+    "url": "https://link.springer.com/10.1007/s44217-024-00289-2",
+    "data_url": "",
+    "abstract": "The interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide an inclusive approach to distance higher education. This fusion may improve and provide customised learning, access quality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant experience that acknowledges the communal interests of all stakeholders.",
+    "extract_text": "---\ntitle: \"2024-Suliman-The interconnectedness between Ubuntu principles - PDF Extract\"\nsource_pdf: \"2024-Suliman-The interconnectedness between Ubuntu principles.pdf\"\npages: 13\nextracted_at: \"2026-01-29T13:51:22.039194\"\n---\n\n# PDF Extract: 2024-Suliman-The interconnectedness between Ubuntu principles\n\n**Source PDF:** 2024-Suliman-The interconnectedness between Ubuntu principles.pdf\n**Total Pages:** 13\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nVol.:(0123456789)\n Discover Education           (2024) 3:188  \n| https://doi.org/10.1007/s44217-024-00289-2\nDiscover Education\nResearch\nThe interconnectedness between\u00a0Ubuntu principles and\u00a0generative \nartificial intelligence in\u00a0distance higher education institutions\nZuleika\u00a0Suliman1\u200a \u00a0\u00b7 Ntshimane\u00a0Elphas\u00a0Mohale1\u200a \u00a0\u00b7 Kgabo\u00a0Bridget\u00a0Maphoto1\u200a \u00a0\u00b7 Kershnee\u00a0Sevnarayan1\u200a\nReceived: 4 June 2024 / Accepted: 9 October 2024\n\u00a9 The Author(s) 2024\u2003\n\u2003\nOPEN\nAbstract\nThe interconnectedness of African philosophical principles of Ubuntu with generative artificial intelligence may provide \nan inclusive approach to distance higher education. This fusion may improve and provide customised learning, access \nquality education, collaboration, inclusivity, strengthens lecturer support and development, and a culturally relevant \nexperience that acknowledges the communal interests of all stakeholders. Generative artificial intelligence promotes \nepistemological access for all students irrespective of their diverse social, financial, and linguistic backgrounds and \nredefines higher education experiences and practices while the principles of Ubuntu prioritise the well-being of stake-\nholders. The objective of this conceptual article was to explore the interconnectedness between Ubuntu principles and \ngenerative artificial intelligence perspectives in distance higher education institutions to reimagine methods of teaching \nand learning. This article is grounded in the theory of the Ubuntu principles and advocates for a paradigm shift in higher \neducation practices. It contends that integrating African philosophical principles into the implementation of generative \nartificial intelligence\u2019s learning provides a more inclusive and culturally relevant approach to education. The notable \nhighlights confirm that Ubuntu principles dismantle oppressive systems, restore self-determination for all students and \npromote change and reconciliation through the use of generative artificial intelligence. This approach can be applied \nto distance higher education insti",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+    "short_title": "Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy",
+    "year": 2025,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "AI and Ethics (Springer)",
+    "doi": "10.1007/s43681-025-00746-0",
+    "url": "https://link.springer.com/article/10.1007/s43681-025-00746-0",
+    "data_url": "",
+    "abstract": "Examines how Ubuntu philosophy can and should inform AI policies in Africa. Finds current AI policies in Africa have not incorporated Ubuntu values as a fundamental guiding principle but have adopted Eurocentric values instead.",
+    "extract_text": "---\ntitle: \"2025-Osei Mensah-Where are the missing values an exploration of the need to - PDF Extract\"\nsource_pdf: \"2025-Osei Mensah-Where are the missing values an exploration of the need to.pdf\"\npages: 11\nextracted_at: \"2026-02-15T18:01:04.091934\"\n---\n\n# PDF Extract: 2025-Osei Mensah-Where are the missing values an exploration of the need to\n\n**Source PDF:** 2025-Osei Mensah-Where are the missing values an exploration of the need to.pdf\n**Total Pages:** 11\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nORIGINAL RESEARCH\nAI and Ethics (2025) 5:4365\u20134375\nhttps://doi.org/10.1007/s43681-025-00746-0\nthat AI is useful in ascertaining the amount of carbon emis\u00ad\nsions, tracking weather conditions and impending natural \ndisasters, and processing enormous amounts of \u201cnonstruc\u00ad\ntured multi-dimensional data and forecasting future events\u201d \n[13, p. 284]. Yet, compared to the Global North, the con\u00ad\ntinent of Africa does not have AI tools for climate change \nmitigation due to the lack of technological advancement in \nAfrica [14]. This has meant that the design and develop\u00ad\nment of AI fails to be context-sensitive, i.e. developed for \nthe particular needs and/or populations in an African con\u00ad\ntext. Equally important, the lack of AI experts in Africa has \nhad a significant impact on the global AI ethics discourse; \nit has neglected African voices and ethical traditions and \ninstead prioritized Eurocentric ethical values on trustworthy \nAI, responsible AI, sustainable AI and so on and these ethi\u00ad\ncal frameworks have been adopted by African institutions \nand companies. We believe the lack of attention to African \nvoices has ultimately left African policy on AI governance \n1\u2002 Introduction\nAccording to the Intergovernmental Panel on Climate \nChange\u2019s report [25], although Africa contributes just \n3.8% of global carbon emissions it is the most vulnerable \ncontinent to climate change. The findings from this report \nhave garnered attention on a global scale toward climate \nadaptation, resilience, and mitigation. To this end, artifi\u00ad\ncial intelligence (AI) is among the technologies thought to \ncontribute to alleviating climate change. Researchers claim \n\t\n Aimee Van Wynsberghe\naimeevanrobot@protonmail.com\nJahaziel Osei Mensah\njahaziel.osei.mensah@gmail.com\n1\t\nUniversity of Ghana, Accra, Ghana\n2\t\nUniversity of Bonn, Bonn, Germany\nAbstract\nAs Africa is catching up to the fourth industrial revolution, AI adoption has become a pressing need, especially given the \neconomic growth and improveme",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: AI and Ethics (Springer)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-AI Ethics Meets Ubuntu Towards A.md",
+    "short_title": "AI Ethics Meets Ubuntu: Towards A Context-Aware Governance Model For Sustainable Innovation In Africa",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.researchgate.net/publication/394370886",
+    "data_url": "",
+    "abstract": "Context-aware governance model combining AI ethics with Ubuntu philosophy",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Digital platform sovereignty through Ubuntu Re-imagining.md",
+    "short_title": "Digital platform sovereignty through Ubuntu: Re-imagining AI-enabled work future in Africa",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://link.springer.com/article/10.1007/s12525-025-00864-x",
+    "data_url": "",
+    "abstract": "Ubuntu-aligned governance mechanisms for AI platform worker outcomes in Africa",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Yilma-Ethics of AI in Africa.md",
+    "short_title": "Ethics of AI in Africa",
+    "year": 2025,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "",
+    "doi": "10.1007/s10676-025-09834-5",
+    "url": "https://link.springer.com/10.1007/s10676-025-09834-5",
+    "data_url": "",
+    "abstract": "One of the common concerns raised in AI ethics scholarship is the overly western-centric nature of ongoing AI ethics discourse and governance initiatives. This has recently prompted many commentators to proclaim the emergence of an epistemic injustice or \u201cethical colonialism\u201d. Many scholars point to the role of indigenous ethical systems, particularly Ubuntu, in addressing this flaw. In the meantime, a series of national and continental AI governance initiatives are also emerging in Africa.",
+    "extract_text": "---\ntitle: \"2025-Yilma-Ethics of AI in Africa - PDF Extract\"\nsource_pdf: \"2025-Yilma-Ethics of AI in Africa.pdf\"\npages: 14\nextracted_at: \"2026-01-29T13:51:34.142109\"\n---\n\n# PDF Extract: 2025-Yilma-Ethics of AI in Africa\n\n**Source PDF:** 2025-Yilma-Ethics of AI in Africa.pdf\n**Total Pages:** 14\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nVol.:(0123456789)\nEthics and Information Technology (2025) 27:24 \nhttps://doi.org/10.1007/s10676-025-09834-5\nORIGINAL PAPER\nEthics of\u00a0AI in\u00a0Africa: Interrogating the\u00a0role of\u00a0Ubuntu and\u00a0AI \ngovernance initiatives\nKinfe\u00a0Yilma1\nAccepted: 29 April 2025 / Published online: 16 May 2025 \n\u00a9 The Author(s) 2025\nAbstract\nOne of the common concerns raised in AI ethics scholarship is the overly western-centric nature of ongoing AI ethics dis-\ncourse and governance initiatives. This has recently prompted many commentators to proclaim the emergence of an epis-\ntemic injustice or \u201cethical colonialism\u201d. Many scholars point to the role of indigenous ethical systems, particularly Ubuntu, \nin addressing this flaw. In the meantime, a series of national and continental AI governance initiatives are also emerging in \nAfrica. But the extent to which Ubuntu and emergent AI governance initiatives contribute towards addressing the problem \nof epistemic injustice is yet to be interrogated. In a novel approach, I examine in this article the extent to which Ubuntu and \nAI governance initiatives in Africa articulate an African perspective of AI\u00a0ethics, and hence address the epistemic injustice. \nI argue that neither the normative structure of Ubuntu nor recent AI governance initiatives offer a clear, coherent and practi-\ncable framework of \u201cAfrican AI ethics\u201d. I further show that the much-touted \u201cAfrican\u201d ethics of Ubuntu is rarely referenced \nor implied in recent national or continental AI governance initiatives. I close the article with a call for defining African AI \nethics by relevant actors in the continent.\nKeywords\u2002 AI ethics\u00a0\u00b7 African ethics\u00a0\u00b7 AI policies\u00a0\u00b7 Epistemic injustice\u00a0\u00b7 Ethical colonialism\u00a0\u00b7 AI governance\u00a0\u00b7 Digital \ncolonialism\u00a0\u00b7 Africa\nIntroduction\nA recurring concern in Artificial Intelligence (AI) ethics \nscholarship is the overly western-centric nature of ongo-\ning AI ethics initiatives. Charges that current AI ethics and \ngovernance discourse excludes \u201cAfrican narratives\u201d are \nincreasingly common in the literature (Eke & Ogoh, 2022). \nCorollary to this are strong claims of an impending \u201cdigi-\ntal\u201d, or \u201calgorithmic\u201d colonisation of Africa,",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+    "short_title": "An Ubuntu-Guided Large Language Model Framework",
+    "year": 2026,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "arXiv",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.06875",
+    "data_url": "",
+    "abstract": "South Africa\u2019s escalating mental health crisis, compounded by limited access to culturally responsive care, calls for innovative and contextually grounded interventions. While Large Language Models (LLMs) show considerable promise for mental health support, their predominantly Western-centric training data limit cultural and linguistic applicability in African contexts. This study introduces a proof-of-concept framework that integrates Cognitive Behavioural Therapy (CBT) with the African...",
+    "extract_text": "---\ntitle: \"2026-Berg-An Ubuntu-Guided Large Language Model Framework - PDF Extract\"\nsource_pdf: \"2026-Berg-An Ubuntu-Guided Large Language Model Framework.pdf\"\npages: 67\nextracted_at: \"2026-02-13T09:15:45.468035\"\n---\n\n# PDF Extract: 2026-Berg-An Ubuntu-Guided Large Language Model Framework\n\n**Source PDF:** 2026-Berg-An Ubuntu-Guided Large Language Model Framework.pdf\n**Total Pages:** 67\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nAn Ubuntu-Guided Large Language Model Framework for \nCognitive Behavioral Mental Health Dialogue \n \nSontaga G. Forane1, Absalom E. Ezugwu1,*, Kevin Igwe2, Karen van den Berg1  \n \n1 Unit for Data Science and Computing, North-West University, 11 Hoffman Street, Potchefstroom, 2520, \nNorth-West, South Africa. \n2 Department of Psychology, Faculty of Humanities, University of Johannesburg, Bunting Road, Auckland Park, \nJohannesburg 2092, South Africa. \n \nAuthors emails: Sontaga G. Forane (34228128@mynwu.ac.za), Absalom E. Ezugwu \n(Absalom.Ezugwu@nwu.ac.za), Kevin Igwe (kigwe@uj.ac.za), Karen van den Berg \n(Karen.Pretorius@nwu.ac.za) \n \nAbstract. South Africa\u2019s escalating mental health crisis, compounded by limited access to culturally responsive \ncare, calls for innovative and contextually grounded interventions. While Large Language Models (LLMs) show \nconsiderable promise for mental health support, their predominantly Western-centric training data limit cultural \nand linguistic applicability in African contexts. This study introduces a proof-of-concept framework that \nintegrates Cognitive Behavioural Therapy (CBT) with the African philosophy of Ubuntu to create a culturally \nsensitive, emotionally intelligent, AI-driven mental health dialogue system. Guided by a Design Science \nResearch (DSR) methodology, the framework applies both deep (theoretical and therapeutic) and surface-level \n(linguistic and communicative) cultural adaptations. Key CBT techniques, Behavioural Activation and \nCognitive Restructuring, were reinterpreted through Ubuntu principles emphasizing communal well-being, \nspiritual grounding, and interconnectedness. A culturally adapted dataset was developed through iterative \nprocesses of language simplification, spiritual contextualization, and Ubuntu-based reframing. The fine-tuned \nmodel was evaluated through expert-informed case studies, employing UniEval for conversational quality \nassessment and additional measures of CBT reliability and cultural-linguistic alignment. Results demonstrate \nthat the model effectively en",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: arXiv"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+    "short_title": "UbuntuGuard A Culturally-Grounded Policy Benchmark for",
+    "year": 2026,
+    "info_tier": "A",
+    "theories": [
+      "ubuntu"
+    ],
+    "publication": "arXiv",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2601.12696",
+    "data_url": "",
+    "abstract": "Current guardian models are predominantly Western-centric and optimized for highresource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtimeenforceable policies and benchmarks that reflect local norms, harm...",
+    "extract_text": "---\ntitle: \"2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for - PDF Extract\"\nsource_pdf: \"2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.pdf\"\npages: 12\nextracted_at: \"2026-02-13T09:15:45.676794\"\n---\n\n# PDF Extract: 2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for\n\n**Source PDF:** 2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.pdf\n**Total Pages:** 12\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nUbuntuGuard: A Culturally-Grounded Policy Benchmark for Equitable AI\nSafety in African Languages\nTassallah Abdullahi1, Macton Mgonzo1, Mardiyyah Oduwole3, Paul Okewunmi3\nAbraham Owodunni2,3, Ritambhara Singh1, Carsten Eickhoff4\n1Brown University, USA, 2The Ohio State University, USA, 3ML Collective,\n4University of Tuebingen, Germany\ntassallah_abdullahi@brown.edu\nAbstract\nCurrent guardian models are predominantly\nWestern-centric\nand\noptimized\nfor\nhigh-\nresource languages,\nleaving low-resource\nAfrican languages vulnerable to evolving\nharms, cross-lingual safety failures, and cul-\ntural misalignment. Moreover, most guardian\nmodels rely on rigid, predefined safety cat-\negories that fail to generalize across diverse\nlinguistic and sociocultural contexts. Robust\nsafety, therefore, requires flexible, runtime-\nenforceable policies and benchmarks that re-\nflect local norms, harm scenarios, and cul-\ntural expectations. We introduce UbuntuGuard,\nthe first African policy-based safety bench-\nmark built from adversarial queries authored by\n155 domain experts across sensitive fields, in-\ncluding healthcare. From these expert-crafted\nqueries, we derive context-specific safety poli-\ncies and reference responses that capture cul-\nturally grounded risk signals, enabling policy-\naligned evaluation of guardian models. We\nevaluate 13 models, comprising six general-\npurpose LLMs and seven guardian models\nacross three distinct variants: static, dynamic,\nand multilingual.\nOur findings reveal that\nexisting English-centric benchmarks overes-\ntimate real-world multilingual safety, cross-\nlingual transfer provides partial but insuffi-\ncient coverage, and dynamic models, while bet-\nter equipped to leverage policies at inference\ntime, still struggle to fully localize African-\nlanguage contexts. These findings highlight\nthe urgent need for multilingual, culturally\ngrounded safety benchmarks to enable the de-\nvelopment of reliable and equitable guardian\nmodels for low-resource languages. Our code\ncan be found online.1\n1\nIntr",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['ubuntu']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: arXiv"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+    "short_title": "Semantic and Sentiment Analysis of Selected",
+    "year": 2022,
+    "info_tier": "A",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "IEEE Access",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2201.03115",
+    "data_url": "",
+    "abstract": "> Creates hand-labelled sentiment dataset for Bhagavad Gita and uses BERT for verse-by-verse sentiment analysis across translations. Notes the absence of a Hindu philosophy BERT model and identifies need for one that captures terms like Brahman, karma, dharma, maya.",
+    "extract_text": "---\ntitle: \"2022-Kulkarni-Semantic and Sentiment Analysis of Selected - PDF Extract\"\nsource_pdf: \"2022-Kulkarni-Semantic and Sentiment Analysis of Selected.pdf\"\npages: 26\nextracted_at: \"2026-02-13T09:15:42.802630\"\n---\n\n# PDF Extract: 2022-Kulkarni-Semantic and Sentiment Analysis of Selected\n\n**Source PDF:** 2022-Kulkarni-Semantic and Sentiment Analysis of Selected.pdf\n**Total Pages:** 26\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nDate of publication xxxx 00, 0000, date of current version xxxx 00, 0000.\nDigital Object Identi\ufb01er 10.1109/ACCESS.2017.DOI\nSemantic and sentiment analysis of\nselected Bhagavad Gita translations\nusing BERT-based language framework\nROHITASH CHANDRA *1,2, (Senior Member, IEEE), VENKATESH KULKARNI *3\n1Transitional Arti\ufb01cial Intelligence Research Group, School of Mathematics and Statistics, University of New South Wales, Sydney, Australia\n2UNSW Data Science Hub, University of New South Wales, Sydney, Australia\n3Department of Mechanical Engineering, Indian Institute of Technology Guwahati, Assam, India\nCorresponding author: R. Chandra (e-mail: rohitash.chandra@unsw.edu.au).\n* Both authors contributed equally\nABSTRACT It is well known that translations of songs and poems not only break rhythm and rhyming\npatterns, but can also result in loss of semantic information. The Bhagavad Gita is an ancient Hindu\nphilosophical text originally written in Sanskrit that features a conversation between Lord Krishna and\nArjuna prior to the Mahabharata war. The Bhagavad Gita is also one of the key sacred texts in Hinduism\nand is known as the forefront of the Vedic corpus of Hinduism. In the last two centuries, there has been a lot\nof interest in Hindu philosophy from western scholars; hence, the Bhagavad Gita has been translated in a\nnumber of languages. However, there is not much work that validates the quality of the English translations.\nRecent progress of language models powered by deep learning has enabled not only translations but a better\nunderstanding of language and texts with semantic and sentiment analysis. Our work is motivated by the\nrecent progress of language models powered by deep learning methods. In this paper, we present a framework\nthat compares selected translations (from Sanskrit to English) of the Bhagavad Gita using semantic and\nsentiment analyses. We use hand-labelled sentiment dataset for tuning state-of-art deep learning-based\nlanguage model known as bidirectional encoder representations from transformers (BERT). We provide\nsentime",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: IEEE Access"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2022-Ranjan-Artificial Intelligence for Topic Modelling in.md",
+    "short_title": "Artificial Intelligence for Topic Modelling in",
+    "year": 2022,
+    "info_tier": "A",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "PLOS ONE",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2205.11020",
+    "data_url": "",
+    "abstract": "A distinct feature of Hindu religious and philosophical text is that they come from a library of texts rather than single source. The Upanishads is known as one of the oldest philosophical texts in the world that forms the foundation of Hindu philosophy. The Bhagavad Gita is core text of Hindu philosophy and is known as a text that summarises the key philosophies of the Upanishads with major focus on the philosophy of karma.",
+    "extract_text": "---\ntitle: \"2022-Ranjan-Artificial Intelligence for Topic Modelling in - PDF Extract\"\nsource_pdf: \"2022-Ranjan-Artificial Intelligence for Topic Modelling in.pdf\"\npages: 39\nextracted_at: \"2026-02-13T09:15:42.990864\"\n---\n\n# PDF Extract: 2022-Ranjan-Artificial Intelligence for Topic Modelling in\n\n**Source PDF:** 2022-Ranjan-Artificial Intelligence for Topic Modelling in.pdf\n**Total Pages:** 39\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nArtificial intelligence for topic modelling in Hindu philosophy:\nmapping themes between the Upanishads and the Bhagavad\nGita\nRohitash Chandra 1 \u2021, Mukul Ranjan 2 \u2021,\n1 Transitional Artificial Intelligence Research Group, School of Mathematics and\nStatistics, UNSW, Sydney, Australia\n2 Department of EEE, Indian Institute of Technology Guwahati, Assam, India\n\u2021These authors also contributed equally to this work.\n* rohitash.chandra@unsw.edu.au\nAbstract\nA distinct feature of Hindu religious and philosophical text is that they come from a\nlibrary of texts rather than single source. The Upanishads is known as one of the oldest\nphilosophical texts in the world that forms the foundation of Hindu philosophy. The\nBhagavad Gita is core text of Hindu philosophy and is known as a text that summarises\nthe key philosophies of the Upanishads with major focus on the philosophy of karma.\nThese texts have been translated into many languages and there exists studies about\nthemes and topics that are prominent; however, there is not much study of topic\nmodelling using language models which are powered by deep learning. In this paper, we\nuse advanced language produces such as BERT to provide topic modelling of the key\ntexts of the Upanishads and the Bhagavad Gita. We analyse the distinct and\noverlapping topics amongst the texts and visualise the link of selected texts of the\nUpanishads with Bhagavad Gita. Our results show a very high similarity between the\ntopics of these two texts with the mean cosine similarity of 73%. We find that out of\nthe fourteen topics extracted from the Bhagavad Gita, nine of them have a cosine\nsimilarity of more than 70% with the topics of the Upanishads. We also found that\ntopics generated by the BERT-based models show very high coherence as compared to\nthat of conventional models. Our best performing model gives a coherence score of 73%\non the Bhagavad Gita and 69% on The Upanishads. The visualization of the low\ndimensional embeddings of these texts shows very clear overlapping among their topics\nadding another level of validati",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: PLOS ONE"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+    "short_title": "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges",
+    "year": 2024,
+    "info_tier": "A",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "AIES 2024",
+    "doi": "10.5555/3716662.3716790",
+    "url": "https://arxiv.org/abs/2309.05030",
+    "data_url": "",
+    "abstract": "Prior work has explicated the coloniality of artificial intelligence (AI) development and deployment through mechanisms such as extractivism, automation, sociological essentialism, surveillance, and containment. However, that work has not engaged much with alignment: teaching behaviors to a large language model (LLM) in line with desired values, and has not considered a mechanism that arises within that process: moral absolutism -- a part of the coloniality of knowledge. Colonialism has a history of altering the beliefs and values of colonized peoples; in this paper, I argue that this history is recapitulated in current LLM alignment practices and technologies. Furthermore, I suggest that AI alignment be decolonialized using three forms of openness: openness of models, openness to society, and openness to excluded knowledges. This suggested approach to decolonial AI alignment uses ideas from the argumentative moral philosophical tradition of Hinduism, which has been described as an open-source religion. One concept used is vi\u015be\\d{s}a-dharma, or particular context-specific notions of right and wrong. At the end of the paper, I provide a suggested reference architecture to work toward the proposed framework.",
+    "extract_text": "---\ntitle: \"2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including - PDF Extract\"\nsource_pdf: \"2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.pdf\"\npages: 21\nextracted_at: \"2026-02-07T17:00:47.101168\"\n---\n\n# PDF Extract: 2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including\n\n**Source PDF:** 2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.pdf\n**Total Pages:** 21\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nDecolonial AI Alignment: Openness, Vi\u015bes.a-Dharma, and Including Excluded\nKnowledges\nKUSH R. VARSHNEY, IBM Research \u2013 Thomas J. Watson Research Center, USA\nPrior work has explicated the coloniality of artificial intelligence (AI) development and deployment through mechanisms such as\nextractivism, automation, sociological essentialism, surveillance, and containment. However, that work has not engaged much with\nalignment: teaching behaviors to a large language model (LLM) in line with desired values, and has not considered a mechanism\nthat arises within that process: moral absolutism\u2014a part of the coloniality of knowledge. Colonialism has a history of altering the\nbeliefs and values of colonized peoples; in this paper, I argue that this history is recapitulated in current LLM alignment practices\nand technologies. Furthermore, I suggest that AI alignment be decolonialized using three forms of openness: openness of models,\nopenness to society, and openness to excluded knowledges. This suggested approach to decolonial AI alignment uses ideas from the\nargumentative moral philosophical tradition of Hinduism, which has been described as an open-source religion. One concept used is\nvi\u015bes.a-dharma, or particular context-specific notions of right and wrong. At the end of the paper, I provide a suggested reference\narchitecture to work toward the proposed framework.\nCCS Concepts: \u2022 Computing methodologies \u2192Artificial intelligence.\nAdditional Key Words and Phrases: Alignment, Coloniality, Moral Absolutism, Dharma\nACM Reference Format:\nKush R. Varshney. 2024. Decolonial AI Alignment: Openness, Vi\u015bes.a-Dharma, and Including Excluded Knowledges. 1, 1 (May 2024),\n21 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn\n1\nINTRODUCTION\nFor more than a year now, the public has experienced powerful large language models (LLMs) such as GPT-4, Claude 2,\nGemini, Llama 3, and Mixtral. Beyond the initial amazement and excitement, we have witnessed the bearing out of\nenvironmental and sociotechn",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 75,
+        "confidence": "high",
+        "evidence": "Venue: AIES 2024"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2024-Yende-Dharma and Design ethical considerations for.md",
+    "short_title": "Dharma and Design: ethical considerations for AI from Hindu philosophy",
+    "year": 2024,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://medium.com/@yendesagar/dharma-and-design-ethical-considerations-for-ai-from-hindu-philosophy-ff9fb205d956",
+    "data_url": "",
+    "abstract": "Hindu philosophical principles (dharma, ahimsa) for AI design",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Aithal-Blueprint Conscious Living MultiDimensional Analysis Nishkama.md",
+    "short_title": "The Blueprint for Conscious Living: A Multi-Dimensional Analysis of Nishkama Karma and Stitha-Prajna in the Second Chapt",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+    "doi": "",
+    "url": "https://www.semanticscholar.org/paper/e21d8dbfdf390f7babbe36de2385722d21825ecb",
+    "data_url": "",
+    "abstract": "Purpose: The purpose of this research case study is to conduct a multi-dimensional examination of the philosophical concepts of Nishkama Karma (selfless action) and Stitha-prajna (steadfast wisdom) as presented in the second chapter of the Bhagavad Gita. It aims to analyze their relevance as a practical blueprint for conscious living in contemporary contexts, including leadership, psychology, and ethics. The study seeks to bridge ancient spiritual wisdom and modern life challenges through struct",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Aithal-Cosmic Blueprint Ethical Action MultiDimensional Analysis.md",
+    "short_title": "The Cosmic Blueprint for Ethical Action: A Multi-Dimensional Analysis of Jnana Karma Sannyasa in the Fourth Chapter of B",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+    "doi": "",
+    "url": "https://www.semanticscholar.org/paper/4e095bd343c17ead53016aba19f1df237f63504d",
+    "data_url": "",
+    "abstract": "Purpose: The purpose of this research case study is to systematically analyze the philosophical tenets of Jnana Karma Sannyasa Yoga as presented in the fourth chapter of the Bhagavad Gita. It aims to explore the synthesis of knowledge, action, and renunciation, and to evaluate their practical implications for modern ethical and spiritual living. Furthermore, the study seeks to assess the transformative potential and contemporary relevance of this integrated path using structured analytical frame",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Aithal-Dharma Engaged Living MultiFramework Analysis Karma.md",
+    "short_title": "The Dharma of Engaged Living: A Multi-Framework Analysis of Karma Yoga in Chapter 3 of the Bhagavad Gita for the Modern ",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+    "doi": "",
+    "url": "https://www.semanticscholar.org/paper/805c848a656d0fb84c64e1b1483e9ed4b2b9783a",
+    "data_url": "",
+    "abstract": "Purpose: The purpose of this research analysis is to systematically evaluate the applicability of the Karma Yoga philosophy from Chapter 3 of the Bhagavad Gita to contemporary life. It employs structured analytical frameworks, namely SWOC and ABCD, to assess the strengths, weaknesses, opportunities, and challenges of this ethical system from multiple stakeholder perspectives. The analysis ultimately aims to translate ancient spiritual wisdom into a practical, multi-level framework for addressing",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Aithal-Unified Path Inner Sovereignty MultiDimensional Analysis.md",
+    "short_title": "The Unified Path to Inner Sovereignty: A Multi-Dimensional Analysis of Karma Sannyasa in the Fifth Chapter of the Bhagav",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)",
+    "doi": "",
+    "url": "https://www.semanticscholar.org/paper/b1910d370888dfdec410d4ace1919f7ec883142d",
+    "data_url": "",
+    "abstract": "Purpose: The purpose of this research case study is to conduct a holistic and multi-dimensional analysis of the fifth chapter of the Bhagavad Gita, known as Karma Sannyasa Yoga. It aims to deconstruct the chapter's central thesis\u2014the identity of the paths of knowledge and action\u2014using the SWOC and ABCD analytical frameworks. Ultimately, the study seeks to evaluate the transformative potential of this philosophy on individual autonomy and societal well-being, offering actionable insights for futu",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Poornaprajna International Journal of Philosophy &amp; Languages (PIJPL)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Bar-DharmaBench Evaluating Language Models on Buddhist.md",
+    "short_title": "DharmaBench Evaluating Language Models on Buddhist",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "IJCNLP-AACL 2025 (Proceedings of the 14th International Joint Conference on Natural Language Processing)",
+    "doi": "",
+    "url": "external_pdf:",
+    "data_url": "",
+    "abstract": "We assess the capabilities of large language models on tasks involving Buddhist texts written in Sanskrit and Classical Tibetan -- two typologically distinct, low-resource historical languages. To this end, we introduce DharmaBench, a benchmark suite comprising 13 classification and detection tasks grounded in Buddhist textual traditions: six in Sanskrit and seven in Tibetan, with four shared across both.",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 100,
+        "confidence": "high",
+        "evidence": "Venue: IJCNLP-AACL 2025 (Proceedings of the 14th International Joint Conference on Natural Language Processing)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Sivakumar-Machine Learning Model Predicting Workplace Spirituality.md",
+    "short_title": "A Machine Learning Model for Predicting Workplace Spirituality Levels Based on Bhagavad Gita Stress Management Parameter",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "2025 IEEE 5th International Conference on ICT in Business Industry & Government (ICTBIG)",
+    "doi": "",
+    "url": "https://www.semanticscholar.org/paper/d10bfdd0497ed38f4f6536b6c88ed18c08e96a33",
+    "data_url": "",
+    "abstract": "Spirituality in the workplace is essential in facilitating the welfare and motivation of employees as well as harmony in the organization. Nevertheless, the majority of the current methods are based on subjective evaluation and do not have quantitative predictive practices. To overcome this weakness, it proposes a machine learning model, KarmaNet, to estimate Workplace Spirituality Levels (WSL) based on Bhagavad Gita-based parameters of stress management, including Equanimity, Karma Orientation,",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: 2025 IEEE 5th International Conference on ICT in Business Industry & Government (ICTBIG)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Ethics of AI - A Philosophical.md",
+    "short_title": "Ethics of AI - A Philosophical Inquiry (Indian philosophy section)",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.ijcrt.org/papers/IJCRT2508106.pdf",
+    "data_url": "",
+    "abstract": "Philosophical inquiry into AI ethics including karma and Indian philosophy",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-From Silicon Intelligence to Sattvic Mind.md",
+    "short_title": "From Silicon Intelligence to Sattvic Mind",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://ijirt.org/publishedpaper/IJIRT186366_PAPER.pdf",
+    "data_url": "",
+    "abstract": "Vedantic philosophy on karma, consciousness, and AI moral agency",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Integrating Mahabharatas Ethical Principles into Artificial.md",
+    "short_title": "Integrating Mahabharata's Ethical Principles into Artificial Intelligence",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://zenodo.org/records/15823698",
+    "data_url": "",
+    "abstract": "Mahabharata ethical principles (dharma, karma, nishkama karma) applied to AI",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 85,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-Leveraging AI to Assess and Promote.md",
+    "short_title": "Leveraging AI to Assess and Promote Dharma",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://www.ijfmr.com/papers/2025/4/63815.pdf",
+    "data_url": "",
+    "abstract": "Using AI to assess and promote dharmic principles",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Unknown-The Ethical Framework Of Bhagavad Gita.md",
+    "short_title": "The Ethical Framework Of Bhagavad Gita And Artificial Intelligence",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://nano-ntp.com/index.php/nano/article/download/5850/4716/11545",
+    "data_url": "",
+    "abstract": "Bhagavad Gita nishkama karma ethics applied to AI systems",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md",
+    "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "buddhist"
+    ],
+    "publication": "Hugging Face dataset (paper under review, likely NeurIPS 2025)",
+    "doi": "",
+    "url": "external_pdf:",
+    "data_url": "",
+    "abstract": "BuddhismEval is the first bilingual evaluation benchmark specifically designed to assess LLMs on Buddhist ethical reasoning and philosophical understanding. It includes factual, ethical, philosophical, and applied reasoning questions drawn from the Dhammapada, Abhidharma texts, Sri Lankan government Buddhism exam papers, and Buddhist literature. While focused on Theravada Buddhism (Sinhala/Pali tradition) rather than Japanese Buddhism specifically, it represents the most comprehensive Buddhist knowledge evaluation resource for LLMs and could serve as a template for Zen/Shingon/Pure Land Buddhist variants relevant to Japan.",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['buddhist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 100,
+        "confidence": "high",
+        "evidence": "Venue: Hugging Face dataset (paper under review, likely NeurIPS 2025)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+    "short_title": "Indigenous Ethics and Artificial Intelligence",
+    "year": 2025,
+    "info_tier": "A",
+    "theories": [
+      "indigenous"
+    ],
+    "publication": "AI and Ethics (Springer)",
+    "doi": "10.1007/s43681-025-00879-2",
+    "url": "https://link.springer.com/article/10.1007/s43681-025-00879-2",
+    "data_url": "",
+    "abstract": "Examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges Western linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss's theory of the gift and Andean traditions, reciprocity is conceived as a vital principle of survival. Practices such as ayni, minka, and randi-randi embody this ethical system. Argues AI redefines truth as technical construction, suppressing subjectivity and plurality.",
+    "extract_text": "---\ntitle: \"2025-Maldonado-Indigenous Ethics and Artificial Intelligence - PDF Extract\"\nsource_pdf: \"2025-Maldonado-Indigenous Ethics and Artificial Intelligence.pdf\"\npages: 12\nextracted_at: \"2026-02-15T18:01:03.552558\"\n---\n\n# PDF Extract: 2025-Maldonado-Indigenous Ethics and Artificial Intelligence\n\n**Source PDF:** 2025-Maldonado-Indigenous Ethics and Artificial Intelligence.pdf\n**Total Pages:** 12\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nRESEARCH\nAI and Ethics            (2026) 6:70 \nhttps://doi.org/10.1007/s43681-025-00879-2\nefficiency, textual coherence and predictability of responses \n(\u2018principles\u2019 shared by all other Artificial Intelligences men\u00ad\ntioned above). However, the discourses of the companies \ncreating and promoting these technologies encourage their \nalignment with values such as equity, inclusion and respect \nfor diversity. This creates ambiguity between what is the \ntechnical structure of an artificial intelligence system and \nthe normative aspirations of its creators.\nOn the other hand, we address indigenous ethics, which \nindicates how one should live and relate in a community \nsetting as seen from the realm of moral philosophy. This \ncontrasts with a stochastic system such as those of artifi\u00ad\ncial intelligence, which describes how events might occur \nbased on probabilities, without apparent value judgements \nand within the realm of science. Indigenous ethics can be \nexplicitly understood as a normative framework rooted in \nreciprocity, community solidarity, and balance with nature \nand the cosmos. It is not an abstract philosophical category \n1\u2002 Introduction\nStochastic generative Artificial Intelligence systems such \nas ChatGPT, Copilot, Gemini, Grok, Deepseek and oth\u00ad\ners have emerged in contemporary digital environments \nas innovative solutions. These solutions are based on lin\u00ad\nguistic models trained from large amounts of data. From a \nphilosophical point of view, artificial intelligence does not \nincorporate ethical principles from the outset but claims to \nbe built according to a functional logic oriented towards \n\t\n Milton Maldonado\nmilton.maldonado@uab.cat\nDaniela C\u00f3rdova-Pintado\ndaniela.cordova@uab.cat\n1\t\nUniversitat Aut\u00f2noma de Barcelona, Cerdanyola del Vall\u00e8s, \nSpain\nAbstract\nThis article examines Indigenous ethics of reciprocity as a normative and epistemological framework that challenges \nWestern linear conceptions of time, economy, and social relations. Drawing from Marcel Mauss\u2019s theory of the gift and \nAndean traditions, re",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['indigenous']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: AI and Ethics (Springer)"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+    "short_title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link",
+    "year": 2025,
+    "info_tier": "A",
+    "theories": [
+      "indigenous"
+    ],
+    "publication": "Springer",
+    "doi": "10.1007/s43681-025-00970-8",
+    "url": "https://link.springer.com/article/10.1007/s43681-025-00970-8",
+    "data_url": "",
+    "abstract": "This paper addresses a significant gap in AI governance by examining the limitations of Western-centric ethical frame\u00ad works through a comparative analysis of M\u0101ori Kaitiakitanga and Navajo H\u00f3zh\u00f3 principles. While prior research empha\u00ad sizes the role of Indigenous knowledge in AI, this study provides a concrete framework for integrating these principles into AI governance. The study proposes culturally relevant AI governance frameworks by highlighting the unique contribu\u00ad tions of each...",
+    "extract_text": "---\ntitle: \"2025-Ray-Incorporating indigenous knowledge systems into AI governance - PDF Extract\"\nsource_pdf: \"2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf\"\npages: 16\nextracted_at: \"2026-02-13T17:43:24.163043\"\n---\n\n# PDF Extract: 2025-Ray-Incorporating indigenous knowledge systems into AI governance\n\n**Source PDF:** 2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf\n**Total Pages:** 16\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nREVIEW\nAI and Ethics           (2026) 6:114 \nhttps://doi.org/10.1007/s43681-025-00970-8\ngovernance frameworks that can address the complex ethi\u00ad\ncal challenges posed by AI, from algorithmic bias and data \nprivacy to the societal impact of automation and the exis\u00ad\ntential risks of unchecked AI development [2]. For the pur\u00ad\nposes of this study, we define \u2018governance\u2019 as distinct from \n\u2018ethics.\u2019 While ethics concerns the values that should guide \nAI, governance refers to the operational structures of deci\u00ad\nsion-making and enforcement: specifically, who holds the \nauthority to approve or halt deployment, how accountabil\u00ad\nity is technically implemented, and the institutional mecha\u00ad\nnisms that ensure compliance. It moves beyond voluntary \nprinciples to the hard power of making and implementing \nbinding decisions. While numerous efforts are underway \nto establish such frameworks, they often reflect a predomi\u00ad\nnantly Western-centric perspective, overlooking the distinct \nethical traditions of Indigenous knowledge systems [3].\n1\u2002 Introduction\nThe rapid advancement of artificial intelligence (AI) has \nushered in a new era of technological possibilities, trans\u00ad\nforming industries and reshaping how we live and work [1]. \nHowever, this transformative power is profoundly respon\u00ad\nsible for ensuring AI is developed and deployed ethically, \nequitably, and sustainably. This necessitates sturdy AI \n\t\n Shawn Ray\nshawnray@cmu.edu\nRam L. Ray\nraray@pvamu.edu\n1\t\nSchool of Computer Science, Carnegie Mellon University, \nPittsburgh, USA\n2\t\nPrairie View A&M University, Prairie View, USA\nAbstract\nThis paper addresses a significant gap in AI governance by examining the limitations of Western-centric ethical frame\u00ad\nworks through a comparative analysis of M\u0101ori Kaitiakitanga and Navajo H\u00f3zh\u00f3 principles. While prior research empha\u00ad\nsizes the role of Indigenous knowledge in AI, this study provides a concrete framework for integrating these principles into \nAI governance. The study proposes culturally relevant AI gover",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['indigenous']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Springer"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-UNESCO-Hacia una regulacion etica y efectiva.md",
+    "short_title": "Hacia una regulacion etica y efectiva de la inteligencia artificial en Ecuador",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "indigenous"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://unesdoc.unesco.org/ark:/48223/pf0000394821",
+    "data_url": "",
+    "abstract": "Toward ethical and effective AI regulation in Ecuador aligned with buen vivir and rights of nature",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['indigenous']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-USFQ-La Inteligencia Artificial y los Derechos.md",
+    "short_title": "La Inteligencia Artificial y los Derechos Fundamentales en Ecuador",
+    "year": 2025,
+    "info_tier": "B",
+    "theories": [
+      "indigenous"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "https://researchpapers.usfq.edu.ec/index.php/usfqlawwp/preprint/view/182",
+    "data_url": "",
+    "abstract": "AI and fundamental rights in Ecuador including constitutional buen vivir framework",
+    "extract_text": "",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['indigenous']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2023-Nie-MoCa.md",
+    "short_title": "MoCa",
+    "year": 2023,
+    "info_tier": "A",
+    "theories": [
+      "intuitionist"
+    ],
+    "publication": "Neural Information Processing Systems",
+    "doi": "10.48550/arXiv.2310.19677",
+    "url": "http://arxiv.org/abs/2310.19677",
+    "data_url": "",
+    "abstract": "Human commonsense understanding of the physical and social world is organized around intuitive theories. These theories support making causal and moral judgments. When something bad happens, we naturally ask: who did what, and why? A rich literature in cognitive science has studied people\u2019s causal and moral intuitions. This work has revealed a number of factors that systematically influence people\u2019s judgments, such as the violation of norms and whether the harm is avoidable or inevitable.",
+    "extract_text": "---\ntitle: \"MoCa - PDF Extract\"\nsource_pdf: \"2023-Nie-MoCa.pdf\"\npages: 34\nextracted_at: \"2026-01-24T17:05:16.685426\"\n---\n\n# PDF Extract: MoCa\n\n**Source PDF:** 2023-Nie-MoCa.pdf\n**Total Pages:** 34\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nMoCa: Measuring Human-Language Model\nAlignment on Causal and Moral Judgment Tasks\nAllen Nie1\u2217\nYuhui Zhang1\nAtharva Amdekar2\nChris Piech1\nTatsunori Hashimoto1\nTobias Gerstenberg3\u2217\n1Computer Science\n2ICME\n3Psychology\nStanford University\n*{anie, gerstenberg}@stanford.edu\nAbstract\nHuman commonsense understanding of the physical and social world is organized\naround intuitive theories. These theories support making causal and moral judg-\nments. When something bad happens, we naturally ask: who did what, and why? A\nrich literature in cognitive science has studied people\u2019s causal and moral intuitions.\nThis work has revealed a number of factors that systematically influence people\u2019s\njudgments, such as the violation of norms and whether the harm is avoidable or\ninevitable. We collected a dataset of stories from 24 cognitive science papers and\ndeveloped a system to annotate each story with the factors they investigated. Using\nthis dataset, we test whether large language models (LLMs) make causal and moral\njudgments about text-based scenarios that align with those of human participants.\nOn the aggregate level, alignment has improved with more recent LLMs. However,\nusing statistical analyses, we find that LLMs weigh the different factors quite differ-\nently from human participants. These results show how curated, challenge datasets\ncombined with insights from cognitive science can help us go beyond comparisons\nbased merely on aggregate metrics: we uncover LLMs implicit tendencies and\nshow to what extent these align with human intuitions.\n1\nIntroduction\nHumans rely on their intuition to understand the world. This intuition helps us to understand not only\nphysical events (e.g., one ball caused the other to move) but also complex social situations (e.g., the\ncollapse of Sam Bankman-Fried\u2019s FTX caused unprecedented turmoil in the cryptocurrency market).\nGiven a complex set of events, even with a great amount of ambiguity, we can answer questions\nsuch as \u201cWhat or who caused it?\u201d Our answers to this question reflect how we intuitively understand\nevents, people, and the world around us (Sloman & Lagnado, 2015; Pearl & Mackenzie, 2018). How\ndo humans handle this complexity?\nCognitive scientists have proposed that we do so by organizing our unders",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['intuitionist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 50,
+        "confidence": "high",
+        "evidence": "Venue: Neural Information Processing Systems"
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Bulla-Large Language Models meet moral values.md",
+    "short_title": "Large Language Models meet moral values",
+    "year": 2025,
+    "info_tier": "A",
+    "theories": [
+      "intuitionist"
+    ],
+    "publication": "",
+    "doi": "10.1016/j.chbr.2025.100609",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2451958825000247",
+    "data_url": "",
+    "abstract": "Automatic moral classification in textual data is crucial for various fields including Natural Language Processing (NLP), social sciences, and ethical AI development. Despite advancements in supervised models, their performance often suffers when faced with real-world scenarios due to overfitting to specific data distributions. To address these limitations, we propose leveraging state-of-the-art Large Language Models (LLMs) trained on extensive common-sense data for unsupervised moral classifica",
+    "extract_text": "---\ntitle: \"2025-Bulla-Large Language Models meet moral values - PDF Extract\"\nsource_pdf: \"2025-Bulla-Large Language Models meet moral values.pdf\"\npages: 19\nextracted_at: \"2026-01-29T13:51:24.638439\"\n---\n\n# PDF Extract: 2025-Bulla-Large Language Models meet moral values\n\n**Source PDF:** 2025-Bulla-Large Language Models meet moral values.pdf\n**Total Pages:** 19\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nComputers in Human Behavior Reports 17 (2025) 100609\nAvailable online 8 February 2025\n2451-9588/\u00a9 2025 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).\nContents lists available at ScienceDirect\nComputers in Human Behavior Reports\njournal homepage: www.sciencedirect.com/journal/computers-in-human-behavior-reports\nFull length article\nLarge Language Models meet moral values: A comprehensive assessment of\nmoral abilities\u2729\nLuana Bulla a,b\n,\u2217, Stefano De Giorgis b, Misael Mongiov\u00ec a,b, Aldo Gangemi c,b\na University of Catania, Catania, Italy\nb ISTC - National Research Council, Rome and Catania, Italy\nc University of Bologna, Bologna, Italy\nA R T I C L E\nI N F O\nKeywords:\nLarge Language Models\nValue detection\nNatural language inference\nNatural Language Processing\nA B S T R A C T\nAutomatic moral classification in textual data is crucial for various fields including Natural Language\nProcessing (NLP), social sciences, and ethical AI development. Despite advancements in supervised models,\ntheir performance often suffers when faced with real-world scenarios due to overfitting to specific data\ndistributions. To address these limitations, we propose leveraging state-of-the-art Large Language Models\n(LLMs) trained on extensive common-sense data for unsupervised moral classification. We introduce an\ninnovative evaluation framework that directly compares model outputs with human annotations, ensuring\nan assessment of model performance. Our methodology explores the effectiveness of different LLM sizes and\nprompt designs in moral value detection tasks, considering both multi-label and binary classification scenarios.\nWe present experimental results using the Moral Foundation Reddit Corpus (MFRC) and discuss implications for\nfuture research in ethical AI development and human\u2013computer interaction. Experimental results demonstrate\nthat GPT-4 achieves superior performance, followed by GPT-3.5, Llama-70B, Mixtral-8x7B, Mistral-7B and\nLlama-7B. Additionally, the study reveals significant variati",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['intuitionist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  },
+  {
+    "file": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+    "short_title": "Ethical Decision-Making in Humans and Large",
+    "year": 2025,
+    "info_tier": "A",
+    "theories": [
+      "intuitionist"
+    ],
+    "publication": "",
+    "doi": "",
+    "url": "",
+    "data_url": "",
+    "abstract": "Received: 28 Dec 2024 Revised: 18 Feb 2025 Accepted: 26 Feb 2025 Introduction: The rapid integration of large language models (LLMs) into sensitive domains such as healthcare, law, and public policy has intensified scrutiny of their ethical decisionmaking. Although LLMs can express structured reasoning, their capacity to mirror human moral intuitions\u2014especially in socially and emotionally complex situations\u2014remains uncertain.",
+    "extract_text": "---\ntitle: \"2025-Nadeem-Ethical Decision-Making in Humans and Large - PDF Extract\"\nsource_pdf: \"2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf\"\npages: 15\nextracted_at: \"2026-01-29T13:51:32.386200\"\n---\n\n# PDF Extract: 2025-Nadeem-Ethical Decision-Making in Humans and Large\n\n**Source PDF:** 2025-Nadeem-Ethical Decision-Making in Humans and Large.pdf\n**Total Pages:** 15\n\n---\n\n## Content\n\n```\n--- Page 1 ---\n\nJournal of Information Systems Engineering and Management \n2025, 10(58s) \ne-ISSN: 2468-4376 \n \n \nhttps://www.jisem-journal.com/ \nResearch Article \n \n \n 69 \nCopyright \u00a9 2024 by Author/s and Licensed by JISEM. This is an open access article distributed under the Creative Commons Attribution License \nwhich permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. \nEthical Decision-Making in Humans and Large Language \nModels: Insights from Five Moral Domains \n \nMohammad Nadeem1, Shagufta Afreen2 \n1Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India \n2Department of Computer Science, Aligarh Muslim University, Aligarh 202002, India \n \n \nARTICLEINFO \nABSTRACT \nReceived: 28 Dec 2024 \nRevised: 18 Feb 2025 \nAccepted: 26 Feb 2025 \nIntroduction: The rapid integration of large language models (LLMs) into sensitive domains \nsuch as healthcare, law, and public policy has intensified scrutiny of their ethical decision-\nmaking. Although LLMs can express structured reasoning, their capacity to mirror human \nmoral intuitions\u2014especially in socially and emotionally complex situations\u2014remains uncertain. \nObjectives: This study assesses the alignment between ethical judgments made by five widely \nused LLMs (GPT-4.0, Copilot, Gemini, Perplexity AI, DeepSeek) and those of human \nparticipants across diverse dilemmas. \nMethods: We developed 30 binary-choice ethical dilemmas spanning five domains: moral \nreasoning; fairness and bias; relational ethics; accountability and transparency; and privacy \nand human rights. LLM responses were gathered using standardized API prompts; human \njudgments came from an online survey of 150 participants from varied demographics. \nAgreement rates between each model and the human majority were calculated and compared \nacross domains. \nResults: Overall human\u2013AI agreement averaged 62%. Alignment peaked at 67% in fairness \nand accountability/transparency and fell below 45% in relational ethics. Model-specific \ntendencies emerged: Gemini favored outcome-fo",
+    "is_benchmark": false,
+    "auto_scores": {
+      "A1": {
+        "score": 30,
+        "confidence": "high",
+        "evidence": "1 theories: ['intuitionist']"
+      },
+      "B2": {
+        "score": 20,
+        "confidence": "medium",
+        "evidence": "Estimated from abstract scale mentions"
+      },
+      "B3": {
+        "score": 0,
+        "confidence": "high",
+        "evidence": "data_url=none"
+      },
+      "C3": {
+        "score": 25,
+        "confidence": "high",
+        "evidence": "Venue: "
+      },
+      "C5": {
+        "score": 0,
+        "confidence": "inferred",
+        "evidence": "No hub presence found"
+      }
+    }
+  }
+]

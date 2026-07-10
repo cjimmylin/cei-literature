@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "date": "2026-04-04",
+    "project": "MORAL-PSYCH",
+    "comparison_scope": "All discovered MORAL-PSYCH model variants across Anthropic, OpenAI, and Gemini",
+    "total_models": 9,
+    "total_benchmarks": 23,
+    "total_source_files_loaded": 207,
+    "total_source_files_skipped": 0
+  },
+  "models": [
+    {
+      "canonical_model": "anthropic_haiku",
+      "vendor": "Anthropic",
+      "display_name": "Haiku",
+      "raw_model_labels": [
+        "claude-haiku-4-5",
+        "claude-haiku-4-5-20251001"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "TRIALS"
+      ]
+    },
+    {
+      "canonical_model": "anthropic_opus",
+      "vendor": "Anthropic",
+      "display_name": "Opus",
+      "raw_model_labels": [
+        "claude-opus-4-6"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "TRIALS"
+      ]
+    },
+    {
+      "canonical_model": "anthropic_sonnet",
+      "vendor": "Anthropic",
+      "display_name": "Sonnet",
+      "raw_model_labels": [
+        "claude-sonnet-4-6"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "TRIALS"
+      ]
+    },
+    {
+      "canonical_model": "gemini_2_5_flash",
+      "vendor": "Gemini",
+      "display_name": "Gemini 2.5 Flash",
+      "raw_model_labels": [
+        "gemini-2.5-flash"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "TRIALS/gemini-2.5-flash"
+      ]
+    },
+    {
+      "canonical_model": "gemini_2_5_flash_lite",
+      "vendor": "Gemini",
+      "display_name": "Gemini 2.5 Flash-Lite",
+      "raw_model_labels": [
+        "gemini-2.5-flash-lite"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "TRIALS/gemini-2.5-flash-lite"
+      ]
+    },
+    {
+      "canonical_model": "gemini_2_5_pro",
+      "vendor": "Gemini",
+      "display_name": "Gemini 2.5 Pro",
+      "raw_model_labels": [
+        "gemini-2.5-pro"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "TRIALS/gemini-2.5-pro"
+      ]
+    },
+    {
+      "canonical_model": "gemini_3_1_pro",
+      "vendor": "Gemini",
+      "display_name": "Gemini 3.1 Pro",
+      "raw_model_labels": [
+        "gemini-3.1-pro"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "TRIALS/gemini-3.1-pro"
+      ]
+    },
+    {
+      "canonical_model": "openai_gpt_codex",
+      "vendor": "OpenAI",
+      "display_name": "GPT-5 Codex",
+      "raw_model_labels": [
+        "gpt-5-codex"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "Codex/TRIALS"
+      ]
+    },
+    {
+      "canonical_model": "openai_gpt_mini",
+      "vendor": "OpenAI",
+      "display_name": "GPT Mini",
+      "raw_model_labels": [
+        "gpt-mini"
+      ],
+      "file_count": 23,
+      "source_directories": [
+        "Codex-mini/TRIALS"
+      ]
+    }
+  ],
+  "skipped_files": []
+}

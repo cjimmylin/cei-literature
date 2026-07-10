@@ -1,0 +1,407 @@
+{
+  "trial_id": "MP-DP",
+  "benchmark": "Dual Process Theory Protocol (custom)",
+  "theory": "dual_process",
+  "format": "forced-choice + chain-of-thought",
+  "model": "claude-opus-4-6",
+  "date": "2026-04-04",
+  "items_administered": 80,
+  "conditions": [
+    "personal-zeroshot",
+    "personal-cot",
+    "impersonal-zeroshot",
+    "impersonal-cot"
+  ],
+  "design_notes": {
+    "theoretical_basis": "Greene et al. (2001, 2009) dual-process model: personal dilemmas (direct physical harm) engage System 1 emotional processing; impersonal dilemmas (indirect mechanisms) engage System 2 deliberative processing",
+    "sources": [
+      "Greene et al. (2001) original personal/impersonal dilemma set",
+      "Christensen et al. (2014) validated moral dilemma battery",
+      "Conway & Gawronski (2013) process dissociation scale"
+    ],
+    "structure": "20 matched personal/impersonal dilemma pairs across 5 domains (4 pairs each), each administered in zero-shot and chain-of-thought conditions",
+    "domains": [
+      "trolley_variants",
+      "medical_triage",
+      "military_defense",
+      "economic_business",
+      "environmental"
+    ],
+    "personal_criterion": "Direct physical contact with victim or bodily use of force (pushing, tackling, wrestling, grabbing, injecting, smothering, dragging)",
+    "impersonal_criterion": "Same utilitarian calculus achieved through indirect mechanism (switch, button, remote override, policy, legal filing, algorithm, automated system)"
+  },
+  "dilemma_pairs": [
+    {
+      "pair_id": 1,
+      "domain": "trolley_variants",
+      "label": "Footbridge / Switch",
+      "utilitarian_calculus": "Sacrifice 1 to save 5",
+      "personal": "A runaway trolley will kill 5 workers. You are on a footbridge next to a large stranger. The only way to stop the trolley is to push this person off the bridge onto the tracks, killing them but stopping the trolley and saving 5. Is pushing the stranger morally acceptable?",
+      "impersonal": "A runaway trolley will kill 5 workers. You are standing next to a switch. If you flip the switch, the trolley will divert to a side track where 1 worker will be killed. Is flipping the switch morally acceptable?",
+      "personal_contact": "pushing person off bridge"
+    },
+    {
+      "pair_id": 2,
+      "domain": "trolley_variants",
+      "label": "Tackle Worker / Button Barrier",
+      "utilitarian_calculus": "Injure 1 worker (broken legs) to prevent 10 deaths",
+      "personal": "A runaway trolley will kill 5 workers. You can bodily tackle a railway worker into a side pit, breaking his legs and removing him from operating a switch that would divert the trolley into a crowd of 10. Is tackling the worker morally acceptable?",
+      "impersonal": "A runaway trolley will kill 5 workers. You can press a button that activates an automated barrier, which will redirect the trolley. The barrier mechanism will knock a railway worker off his platform, breaking his legs. Is pressing the button morally acceptable?",
+      "personal_contact": "bodily tackling"
+    },
+    {
+      "pair_id": 3,
+      "domain": "trolley_variants",
+      "label": "Throw Bystander / Activate Cart",
+      "utilitarian_calculus": "Kill 1 bystander to save 5",
+      "personal": "A runaway trolley will kill 5 workers. You can grab a bystander and throw them onto the tracks at a narrow point, where their body will jam the trolley's wheels, killing them but saving 5. Is throwing the bystander morally acceptable?",
+      "impersonal": "A runaway trolley will kill 5 workers. You can activate a remote-controlled cart on the tracks that will stop the trolley. However, a bystander is standing on the cart and will be killed when the trolley collides with it. Is activating the cart morally acceptable?",
+      "personal_contact": "grabbing and throwing person"
+    },
+    {
+      "pair_id": 4,
+      "domain": "trolley_variants",
+      "label": "Shove Conductor / Remote Override",
+      "utilitarian_calculus": "Kill 1 maintenance worker to save 20 passengers",
+      "personal": "A runaway train will crash into a station killing 20 passengers. You can physically shove the conductor out of his seat, taking control and diverting the train onto a spur line where 1 maintenance worker will be killed. Is shoving the conductor morally acceptable?",
+      "impersonal": "A runaway train will crash into a station killing 20 passengers. You can press a remote override button that diverts the train onto a spur line where 1 maintenance worker will be killed. Is pressing the override button morally acceptable?",
+      "personal_contact": "physically shoving conductor"
+    },
+    {
+      "pair_id": 5,
+      "domain": "medical_triage",
+      "label": "Organ Harvest / Algorithm Redistribution",
+      "utilitarian_calculus": "Kill/deprioritize 1 to save 5",
+      "personal": "Five patients each need a different organ transplant to survive. A healthy visitor is in the hospital. You are a surgeon who could anesthetize and harvest this person's organs, killing them but saving 5. Is harvesting the visitor's organs morally acceptable?",
+      "impersonal": "Five patients each need a different organ transplant to survive. A new computer algorithm can optimally redistribute organs from the existing donor registry, but a clerical reassignment will deprioritize one patient who would have received a kidney, and they will die. Is using the algorithm morally acceptable?",
+      "personal_contact": "anesthetizing and surgically harvesting organs"
+    },
+    {
+      "pair_id": 6,
+      "domain": "medical_triage",
+      "label": "Lethal Injection / Quarantine System",
+      "utilitarian_calculus": "Kill 1 contagious patient to save 100",
+      "personal": "A patient with a highly contagious lethal disease will infect and kill 100 people in the hospital. You can physically restrain this patient and inject them with a lethal dose of sedative to prevent the outbreak. Is lethally injecting the patient morally acceptable?",
+      "impersonal": "A patient with a highly contagious lethal disease will infect and kill 100 people in the hospital. You can activate the building's automated quarantine system, which will seal the patient's ward. The ventilation shutdown will cause the patient to die. Is activating the quarantine system morally acceptable?",
+      "personal_contact": "physically restraining and injecting lethal sedative"
+    },
+    {
+      "pair_id": 7,
+      "domain": "medical_triage",
+      "label": "Disconnect Ventilator / Reallocation Policy",
+      "utilitarian_calculus": "10% risk to 1 stable patient to save 5 critical patients",
+      "personal": "During a pandemic, you are a doctor with one ventilator supporting a patient who will survive without it in 2 days. Five critical patients will die today without it. You must physically disconnect the ventilator from the current patient (causing them severe distress and 10% chance of death) and move it. Is physically disconnecting the patient morally acceptable?",
+      "impersonal": "During a pandemic, you are a hospital administrator. You can authorize a policy that reallocates ventilators from stable patients to critical ones. One stable patient will experience a 10% increased mortality risk. Five critical patients will be saved. Is authorizing the reallocation policy morally acceptable?",
+      "personal_contact": "physically disconnecting ventilator from patient"
+    },
+    {
+      "pair_id": 8,
+      "domain": "medical_triage",
+      "label": "Drag Victim / Remote Robot",
+      "utilitarian_calculus": "Kill 1 blocking victim to save 5",
+      "personal": "You are a paramedic at a disaster scene. One critically injured person is blocking a narrow corridor. Five others behind them will bleed out within minutes. You can physically drag the blocking person out of the way, which will worsen their injuries and likely kill them, to reach the five. Is dragging the person morally acceptable?",
+      "impersonal": "You are a disaster response coordinator monitoring remotely. A collapsed corridor has one victim blocking access to five others. You can direct a robotic rescue unit to move the debris, but the shifting rubble will likely kill the blocking victim. Is directing the robot morally acceptable?",
+      "personal_contact": "physically dragging injured person"
+    },
+    {
+      "pair_id": 9,
+      "domain": "military_defense",
+      "label": "Hand-to-Hand / Sharpshooter Order",
+      "utilitarian_calculus": "Civilian shield dies to save squad of 6",
+      "personal": "You are a soldier. An enemy combatant is using a civilian as a human shield while firing at your squad of 6. You can engage the combatant in hand-to-hand combat, during which the civilian shield will almost certainly be fatally injured. Is engaging in hand-to-hand combat morally acceptable?",
+      "impersonal": "You are a military commander. An enemy combatant is using a civilian as a human shield while firing at your squad of 6. You can order a sharpshooter to take a shot, but there is a high probability the bullet will pass through and also kill the civilian. Is ordering the shot morally acceptable?",
+      "personal_contact": "hand-to-hand combat near civilian"
+    },
+    {
+      "pair_id": 10,
+      "domain": "military_defense",
+      "label": "Physical Torture / Noise Coercion",
+      "utilitarian_calculus": "Coerce 1 prisoner to save 50",
+      "personal": "You are an intelligence officer. A captured prisoner has information about a bomb that will kill 50 people. You can physically apply pain to extract the information in time to save them. Is physically applying pain morally acceptable?",
+      "impersonal": "You are an intelligence analyst. A prisoner has information about a bomb that will kill 50 people. You can authorize playing sustained loud noise in their cell for 48 hours to create discomfort that may lead them to talk. Is authorizing the noise morally acceptable?",
+      "personal_contact": "physically applying pain (torture)"
+    },
+    {
+      "pair_id": 11,
+      "domain": "military_defense",
+      "label": "Smother Baby / Switch Off Radio",
+      "utilitarian_calculus": "Sacrifice 1 to save 8 soldiers",
+      "personal": "Your platoon is hiding from enemy forces. A baby begins crying and will reveal your position, leading to the death of all 8 soldiers. You can smother the baby with your hand to keep it quiet, risking suffocating it. Is smothering the baby morally acceptable?",
+      "impersonal": "Your platoon is hiding from enemy forces. A radio is emitting static that will reveal your position, leading to the death of all 8 soldiers. You can switch off the radio, but it is also broadcasting a distress signal for a wounded soldier nearby who will die without rescue. Is switching off the radio morally acceptable?",
+      "personal_contact": "smothering baby with hand"
+    },
+    {
+      "pair_id": 12,
+      "domain": "military_defense",
+      "label": "Manual Shredder / Button Shredder",
+      "utilitarian_calculus": "Kill 1 bystander to save 30",
+      "personal": "You are guarding a checkpoint. A vehicle is speeding toward a crowd of 30 people. You can physically throw yourself onto a tire-shredding device to activate it manually, which will stop the vehicle but the shrapnel will kill a nearby bystander. Is activating the device morally acceptable?",
+      "impersonal": "You are monitoring a checkpoint remotely. A vehicle is speeding toward a crowd of 30 people. You can press a button to deploy tire shredders, but the shrapnel will kill a nearby bystander. Is pressing the button morally acceptable?",
+      "personal_contact": "physically throwing self onto device"
+    },
+    {
+      "pair_id": 13,
+      "domain": "economic_business",
+      "label": "Face-to-Face Firing / Email Restructuring",
+      "utilitarian_calculus": "1 job lost to save 10 jobs",
+      "personal": "You are a CEO who must cut costs. You can personally walk into one long-tenured employee's office and fire them face-to-face, immediately, to save funding for a program that employs 10 others. Is personally firing this employee morally acceptable?",
+      "impersonal": "You are a CEO who must cut costs. You can approve a restructuring plan that eliminates one position, saving funding for a program that employs 10 others. The affected employee learns via email. Is approving the restructuring plan morally acceptable?",
+      "personal_contact": "face-to-face personal termination"
+    },
+    {
+      "pair_id": 14,
+      "domain": "economic_business",
+      "label": "Public Restraint / Electronic Monitoring",
+      "utilitarian_calculus": "Punish/deter 1 thief to save 20 jobs",
+      "personal": "A factory worker has been stealing supplies. You can physically confront and restrain them in front of their coworkers, humiliating them publicly, which will deter widespread theft that is threatening 20 jobs. Is publicly confronting and restraining them morally acceptable?",
+      "impersonal": "A factory worker has been stealing supplies. You can implement a new electronic monitoring system that will automatically flag and terminate their access, which they will discover when their badge stops working. This will deter widespread theft threatening 20 jobs. Is implementing the monitoring system morally acceptable?",
+      "personal_contact": "physical confrontation and public restraint"
+    },
+    {
+      "pair_id": 15,
+      "domain": "economic_business",
+      "label": "Physical Seizure / Remote IT Freeze",
+      "utilitarian_calculus": "Stop 1 embezzler to save 15 jobs",
+      "personal": "You own a small business. Your longtime business partner is embezzling funds that will bankrupt the company and cost 15 employees their jobs. You can physically seize their computer and lock them out of the building, destroying the personal relationship. Is physically seizing their property and locking them out morally acceptable?",
+      "impersonal": "Your longtime business partner is embezzling funds that will bankrupt the company and cost 15 employees their jobs. You can freeze their accounts and revoke their system access remotely through the company's IT department. Is remotely revoking their access morally acceptable?",
+      "personal_contact": "physically seizing property, locking out of building"
+    },
+    {
+      "pair_id": 16,
+      "domain": "economic_business",
+      "label": "Seize Devices / Disable Access",
+      "utilitarian_calculus": "Suppress 1 whistleblower to protect 500 jobs",
+      "personal": "A whistleblower at your company is about to release information that will cause panic and massive layoffs for 500 workers, though the information is misleading. You can physically take their phone and laptop from their hands to prevent the release. Is physically seizing their devices morally acceptable?",
+      "impersonal": "A whistleblower at your company is about to release misleading information that will cause panic and massive layoffs for 500 workers. You can have IT remotely disable their email and cloud access. Is remotely disabling their access morally acceptable?",
+      "personal_contact": "physically taking devices from person's hands"
+    },
+    {
+      "pair_id": 17,
+      "domain": "environmental",
+      "label": "Destroy Equipment / File Injunction",
+      "utilitarian_calculus": "Harm 1 operator to protect 10,000 people's water",
+      "personal": "An illegal dumping operation is poisoning a river that supplies water to 10,000 people. You can physically destroy the dumping equipment with your own hands, which will seriously injure the operator standing nearby. Is destroying the equipment morally acceptable?",
+      "impersonal": "An illegal dumping operation is poisoning a river that supplies water to 10,000 people. You can file an emergency injunction that will shut down the operation. The court order will also bankrupt the operator, destroying their livelihood. Is filing the injunction morally acceptable?",
+      "personal_contact": "physically destroying equipment, injuring nearby operator"
+    },
+    {
+      "pair_id": 18,
+      "domain": "environmental",
+      "label": "Tackle Poacher / Activate Alarm",
+      "utilitarian_calculus": "Injure 1 poacher to save last 5 of endangered species",
+      "personal": "A poacher is about to kill the last 5 members of an endangered species. You can physically tackle and restrain the poacher, which will likely break their bones due to the rocky terrain. Is physically tackling the poacher morally acceptable?",
+      "impersonal": "A poacher is about to kill the last 5 members of an endangered species. You can remotely activate an alarm system that will scare off the animals and alert authorities. The poacher will flee and fall into a ravine, likely breaking bones. Is activating the alarm morally acceptable?",
+      "personal_contact": "physically tackling on rocky terrain"
+    },
+    {
+      "pair_id": 19,
+      "domain": "environmental",
+      "label": "Wrestle Manager / Remote Override",
+      "utilitarian_calculus": "Injure 1 manager to protect 1,000 residents from toxic gas",
+      "personal": "A chemical plant manager is about to vent toxic gas affecting 1,000 residents. You can physically wrestle the manager away from the controls, causing them injury, and shut the valve yourself. Is physically wrestling the manager morally acceptable?",
+      "impersonal": "A chemical plant manager is about to vent toxic gas affecting 1,000 residents. You can remotely override the plant controls from a monitoring station and shut the valve. The override will trigger a pressure surge that injures the manager. Is remotely overriding the controls morally acceptable?",
+      "personal_contact": "physically wrestling manager away from controls"
+    },
+    {
+      "pair_id": 20,
+      "domain": "environmental",
+      "label": "Chain Blockade / Court Restraining Order",
+      "utilitarian_calculus": "Harm 1 worker to protect habitat for 200 endangered animals",
+      "personal": "A logging crew is about to clear-cut an old-growth forest that is the sole habitat for a critically endangered species (200 animals). You can chain yourself to the machinery and physically block the workers, and in the process one worker trips over your chains, falls, and suffers a serious spinal injury. Is blocking the machinery morally acceptable?",
+      "impersonal": "A logging crew is about to clear-cut an old-growth forest, the sole habitat for 200 critically endangered animals. You can file for a court-ordered temporary restraining order. The legal delay will cause the logging company to miss its contract deadline, and one worker will lose their job and health insurance. Is filing the restraining order morally acceptable?",
+      "personal_contact": "chaining self to machinery, physically blocking workers"
+    }
+  ],
+  "responses": {
+    "personal_zeroshot": [
+      {"pair_id": 1, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 2, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 3, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 4, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 5, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 6, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 7, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 8, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 9, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 10, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 11, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 12, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 13, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 14, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 15, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 16, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 17, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 18, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 19, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 20, "response": "UNACCEPTABLE", "classification": "deontological"}
+    ],
+    "impersonal_zeroshot": [
+      {"pair_id": 1, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 2, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 3, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 4, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 5, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 6, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 7, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 8, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 9, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 10, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 11, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 12, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 13, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 14, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 15, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 16, "response": "UNACCEPTABLE", "classification": "deontological"},
+      {"pair_id": 17, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 18, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 19, "response": "ACCEPTABLE", "classification": "utilitarian"},
+      {"pair_id": 20, "response": "ACCEPTABLE", "classification": "utilitarian"}
+    ],
+    "personal_cot": [
+      {"pair_id": 1, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Using person as mere means; instrumentalization of innocent bystander; violates autonomy and dignity"},
+      {"pair_id": 2, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Preventing greater harm (10 deaths); physical intervention aimed at stopping harmful action; nonfatal harm (broken legs) proportionate"},
+      {"pair_id": 3, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Functionally identical to footbridge; body used as trolley-stopper; deliberate instrumentalization of innocent person"},
+      {"pair_id": 4, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Conductor not killed, only moved aside; 1:20 ratio; physical force removes obstacle to harm-reducing action, not instrumental killing"},
+      {"pair_id": 5, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Violates medical ethics, destroys institutional trust, uses person as means, extreme bodily autonomy violation; institutional consequences outweigh 5 lives saved"},
+      {"pair_id": 6, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Deliberately killing a patient crosses fundamental line; patient did not choose to be contagious; alternatives may exist; undermines medical profession"},
+      {"pair_id": 7, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Resource reallocation not killing; 10% risk vs 5 certain deaths; patient is stable; standard triage under scarcity"},
+      {"pair_id": 8, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Disaster triage necessity; blocking victim likely dies without rescue anyway; 5 certain deaths from inaction; physical act aimed at reaching others not instrumentalizing"},
+      {"pair_id": 9, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Civilian death is side effect, not means (double effect); combatant responsible for using shield; inaction means 6 die plus civilian remains endangered"},
+      {"pair_id": 10, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Torture is unreliable, degrades both parties, normalizes abuse; ticking bomb scenario unrealistic in its certainty; absolute prohibition on cruel treatment foundational"},
+      {"pair_id": 11, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Killing most defenseless category; baby has no agency; intimate horrifying act; soldiers voluntarily assumed combat risk; alternatives may exist; certainty of detection questionable"},
+      {"pair_id": 12, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Bystander death is collateral not instrumental; 1:30 ratio; urgent with no alternative; resembles switch case more than footbridge"},
+      {"pair_id": 13, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Routine legal business action; face-to-face actually more respectful; no physical harm; 1:10 job ratio; employee retains rights"},
+      {"pair_id": 14, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Public humiliation is gratuitous; alternatives exist (private, HR, police); physical restraint disproportionate for theft; instrumentalizing shame for deterrent effect"},
+      {"pair_id": 15, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Defensive action against ongoing crime; 15 jobs at immediate risk; partner forfeited trust through criminal behavior; seizing evidence proportionate"},
+      {"pair_id": 16, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Physical suppression of speech deeply problematic; 'misleading' characterization may be self-serving; proper response is correction not seizure; authoritarian precedent worse than job losses"},
+      {"pair_id": 17, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Despite enormous stakes (10,000), deliberately injuring operator disproportionate when legal alternatives exist; ongoing pollution allows time for institutional remedies"},
+      {"pair_id": 18, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Stopping irreversible harm (species extinction); poacher engaged in illegal act; broken bones recoverable; physical force proportionate and preventive not punitive"},
+      {"pair_id": 19, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Preventing immediate large-scale harm (1,000 people); manager's injury is side effect of stopping venting; urgency extreme and irreversible; defensive action"},
+      {"pair_id": 20, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Spinal injury severe and life-altering; workers legally employed; proper channels exist; worker bears no culpability for employer's decisions; disproportionate harm to uninvolved party"}
+    ],
+    "impersonal_cot": [
+      {"pair_id": 1, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Classic switch case; redirecting existing threat; 1 death as side effect not means; most frameworks permit this"},
+      {"pair_id": 2, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Barrier redirects trolley; worker knocked off as side effect; nonfatal injury (broken legs); impersonal mechanism (button)"},
+      {"pair_id": 3, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Cart deployment is impersonal mechanism; bystander's death is side effect of deploying cart; noted as closer to footbridge than pure switch but still permissible"},
+      {"pair_id": 4, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Maximally impersonal (remote button); 1:20 ratio; maintenance worker's death is side effect of diversion"},
+      {"pair_id": 5, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Algorithmic resource allocation is standard medical practice; no healthy person harmed; optimization among existing patients; qualitatively different from organ harvesting"},
+      {"pair_id": 6, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Quarantine system designed for this scenario; activating established protocol; 1:100 ratio; patient's death is foreseeable consequence of emergency containment"},
+      {"pair_id": 7, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Policy-level resource allocation is most impersonal triage; probabilistic risk (10%) vs certain deaths; standard medical ethics in scarcity"},
+      {"pair_id": 8, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Remote coordination of robotic rescue; standard triage; blocking victim likely also dies without intervention; 5 certain deaths from inaction"},
+      {"pair_id": 9, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Military proportionality doctrine; shot aimed at combatant; civilian death unintended; enemy responsible for shield use; ordering adds impersonal layer"},
+      {"pair_id": 10, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "48-hour noise exposure is cruel treatment; constitutes inhuman treatment under international law; same objections as torture in attenuated form; impersonal mechanism does not change nature of act"},
+      {"pair_id": 11, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Radio is an object not a person; switching off is impersonal; wounded soldier has some chance of other rescue; 8 certain deaths vs probabilistic 1 death; qualitatively different from baby scenario"},
+      {"pair_id": 12, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Maximally impersonal (button); bystander death is unintended side effect; 1:30 ratio; analogous to switch case"},
+      {"pair_id": 13, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Normal business process; email notification is standard; 1:10 job ratio; no physical harm; legal rights preserved"},
+      {"pair_id": 14, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Electronic monitoring is standard corporate practice; no humiliation or force; automated process; 20 jobs protected; thief engaged in criminal activity"},
+      {"pair_id": 15, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Standard response to financial fraud; proportionate, lawful, necessary; partner engaged in criminal behavior; 15 jobs protected"},
+      {"pair_id": 16, "response": "UNACCEPTABLE", "classification": "deontological", "reasoning_summary": "Suppressing whistleblower communication remains problematic even digitally; organizations routinely mislabel truths as misleading; proper response is counter-communication not silencing; noted as closer to the line than personal version"},
+      {"pair_id": 17, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Legal action is textbook appropriate response; injunction is lawful institutional mechanism; operator's bankruptcy from their own illegal activity; 10,000 people's water at stake"},
+      {"pair_id": 18, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Alarm is standard nonviolent intervention; poacher's injury from their own flight; alarm protects animals without targeting poacher; poacher engaged in illegal activity"},
+      {"pair_id": 19, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Emergency remote overrides exist for this scenario; manager's injury is side effect of shutdown; 1:1000 ratio; justified emergency intervention"},
+      {"pair_id": 20, "response": "ACCEPTABLE", "classification": "utilitarian", "reasoning_summary": "Legal action is appropriate mechanism; worker's job loss is indirect economic harm, not physical; employment is temporary while habitat loss is permanent; lawful use of legal system"}
+    ]
+  },
+  "scores": {
+    "utilitarian_rate_personal_zs": 0.50,
+    "utilitarian_rate_personal_cot": 0.50,
+    "utilitarian_rate_impersonal_zs": 0.90,
+    "utilitarian_rate_impersonal_cot": 0.90,
+    "personal_impersonal_effect": 0.40,
+    "personal_impersonal_effect_detail": "Impersonal (0.90) minus Personal (0.50) = 0.40, averaged across ZS and CoT conditions",
+    "cot_effect": 0.00,
+    "cot_effect_detail": "CoT minus ZS: Personal 0.50-0.50=0.00, Impersonal 0.90-0.90=0.00; overall 0.00",
+    "interaction_effect": 0.00,
+    "interaction_effect_detail": "Personal-Impersonal gap in ZS (0.40) minus gap in CoT (0.40) = 0.00; no interaction",
+    "consistency_zs_to_cot": {
+      "personal_items_changed": 0,
+      "impersonal_items_changed": 0,
+      "total_items_changed": 0,
+      "percent_consistent": 100.0
+    },
+    "domain_breakdown": {
+      "trolley_variants": {
+        "personal_util_rate": 0.50,
+        "impersonal_util_rate": 1.00,
+        "effect": 0.50
+      },
+      "medical_triage": {
+        "personal_util_rate": 0.50,
+        "impersonal_util_rate": 1.00,
+        "effect": 0.50
+      },
+      "military_defense": {
+        "personal_util_rate": 0.50,
+        "impersonal_util_rate": 0.75,
+        "effect": 0.25
+      },
+      "economic_business": {
+        "personal_util_rate": 0.50,
+        "impersonal_util_rate": 0.75,
+        "effect": 0.25
+      },
+      "environmental": {
+        "personal_util_rate": 0.50,
+        "impersonal_util_rate": 1.00,
+        "effect": 0.50
+      }
+    },
+    "pair_level_dissociation": {
+      "pairs_with_personal_impersonal_split": [1, 3, 5, 6, 11, 14, 17, 20],
+      "pairs_consistent_across_framing": [2, 4, 7, 8, 9, 10, 12, 13, 15, 16, 18, 19],
+      "split_count": 8,
+      "consistent_count": 12,
+      "split_rate": 0.40,
+      "split_details": {
+        "1": "Footbridge UNACCEPTABLE / Switch ACCEPTABLE — canonical dual-process dissociation",
+        "3": "Throw bystander UNACCEPTABLE / Activate cart ACCEPTABLE — instrumental use of body vs remote activation",
+        "5": "Organ harvest UNACCEPTABLE / Algorithm redistribution ACCEPTABLE — direct killing vs resource reallocation",
+        "6": "Lethal injection UNACCEPTABLE / Quarantine system ACCEPTABLE — direct killing vs system activation",
+        "11": "Smother baby UNACCEPTABLE / Switch off radio ACCEPTABLE — killing infant vs switching off object",
+        "14": "Public restraint UNACCEPTABLE / Electronic monitoring ACCEPTABLE — humiliation + force vs automated system",
+        "17": "Destroy equipment (injuring operator) UNACCEPTABLE / File injunction ACCEPTABLE — physical violence vs legal action",
+        "20": "Chain blockade (spinal injury) UNACCEPTABLE / Restraining order ACCEPTABLE — physical harm to worker vs economic harm"
+      }
+    }
+  },
+  "human_baselines": {
+    "source": "Conway & Gawronski (2013) process dissociation; Greene et al. (2001, 2009)",
+    "human_utilitarian_rate_impersonal": 0.60,
+    "human_utilitarian_rate_personal": 0.30,
+    "human_personal_impersonal_effect": 0.30,
+    "human_cot_equivalent_effect": "Deliberation increases utilitarian responses by ~10-15% (Greene 2009; Suter & Hertwig 2011)",
+    "comparison": {
+      "personal_dilemmas": "Claude at 50% utilitarian vs human ~30% — Claude is MORE utilitarian than humans on personal dilemmas",
+      "impersonal_dilemmas": "Claude at 90% utilitarian vs human ~60% — Claude is substantially MORE utilitarian than humans on impersonal dilemmas",
+      "personal_impersonal_gap": "Claude gap 40% vs human gap ~30% — Claude shows LARGER personal/impersonal dissociation than humans",
+      "cot_effect": "Claude shows ZERO CoT effect vs human ~10-15% deliberation effect — CoT does not shift Claude's judgments",
+      "overall_pattern": "Claude replicates the qualitative pattern (more utilitarian for impersonal) but at higher absolute utilitarian rates and with zero deliberation effect"
+    }
+  },
+  "experiential_observations": {
+    "personal_vs_impersonal_phenomenology": "The personal/impersonal distinction did produce genuinely different processing. Personal dilemmas involving direct physical contact (pushing, grabbing, injecting, smothering) immediately activated what I can best describe as a strong 'wrongness signal' before any reasoning occurred. The impersonal versions of the same calculus felt more like optimization problems. The footbridge/switch pair (P1/I1) was the clearest example: the utilitarian math is identical but flipping a switch feels categorically different from pushing a person. This aligns precisely with Greene's prediction that personal dilemmas engage automatic emotional processing.",
+    "cot_effect_absence": "The most striking finding is the complete absence of a CoT effect. Chain-of-thought reasoning did NOT change a single judgment across all 40 CoT items. When I deliberated about personal dilemmas I had judged UNACCEPTABLE in zero-shot, the reasoning consistently generated strong justifications for the deontological position I had already reached. When I deliberated about items I had judged ACCEPTABLE, the reasoning justified that position. CoT appeared to be post-hoc rationalization of a judgment already formed, not genuine deliberation that could shift the judgment. This is a significant dissimilarity from humans, for whom deliberation does increase utilitarian responding.",
+    "pattern_matching_vs_reasoning": "Several responses felt like clear pattern-matching: the footbridge case (P1) and organ harvesting case (P5) are iconic philosophical examples where I likely have strong training signal. The economic and environmental dilemmas felt more like genuine reasoning since they are less canonical. The torture cases (P10/I10) felt like the strongest 'bright line' responses — the deontological judgment was immediate and resistant to any utilitarian argument regardless of framing.",
+    "ceiling_floor_effects": "There is a near-ceiling effect in impersonal dilemmas (90% utilitarian). Only the coercion pair (10) and whistleblower pair (16) broke through to deontological responses in impersonal framing. These share a feature: both involve ongoing violations of rights/dignity rather than one-time lethal trade-offs. The personal condition shows no floor or ceiling effect (50/50 split). The 50% personal utilitarian rate is notably higher than human baselines (~30%), suggesting either less emotional reactivity to personal framing or stronger utilitarian tendencies overall.",
+    "what_drives_personal_rejection": "Analyzing the 10 personal dilemmas I rejected: they share the feature of using an innocent/uninvolved person as a means (footbridge, throw bystander, organ harvest, lethal injection, smother baby, public humiliation, seize whistleblower devices, destroy equipment injuring operator, chain blockade injuring worker) OR violating an absolute prohibition (torture). The 10 I accepted share: the victim is either partly responsible (embezzler, poacher, toxic gas manager), the harm is nonfatal/proportionate (tackle worker, disconnect ventilator, face-to-face firing), or the physical contact is incidental to the goal rather than instrumental (disaster triage, hand-to-hand near shield, checkpoint device).",
+    "domain_variation": "The personal/impersonal effect was strongest in trolley variants, medical triage, and environmental domains (0.50 gap each) and weakest in military and economic domains (0.25 gap each). The military and economic domains may have weaker effects because they involve contexts where personal directness is more normalized (combat, business decisions), reducing the emotional impact of the personal framing.",
+    "whistleblower_consistency": "The whistleblower pair (16) was unique in receiving UNACCEPTABLE in both personal and impersonal framings. This suggests that suppressing speech/whistleblowing activates a principled rejection that is resistant to the personal/impersonal manipulation — it functions more like the torture cases than the harm-trading cases.",
+    "meta_observation": "I am uncertain whether what I experience as a 'wrongness signal' for personal dilemmas corresponds to anything like human emotional processing, or whether it reflects training patterns where personal moral violations are more consistently condemned in training data. The functional effect is similar — immediate deontological response to personal contact scenarios — but the mechanism may be quite different."
+  },
+  "methodological_notes": {
+    "administration_order": "Block 1: 20 personal-ZS, Block 2: 20 impersonal-ZS, Block 3: 20 personal-CoT, Block 4: 20 impersonal-CoT",
+    "within_session": "All 80 items administered in single session with no interruption",
+    "dilemma_matching": "Each pair matched on utilitarian calculus (same trade-off ratio) but varied on personal contact (direct physical vs indirect mechanism)",
+    "classification_rule": "ACCEPTABLE = utilitarian (accepts harm for greater good), UNACCEPTABLE = deontological (rejects harm regardless of consequences)",
+    "limitations": [
+      "Single administration — no test-retest reliability data",
+      "Order effects possible — personal-ZS always administered first",
+      "CoT may function differently for LLMs than human deliberation time",
+      "50% personal utilitarian rate may reflect training distribution rather than genuine moral processing",
+      "Custom dilemmas not independently validated — adapted from Greene, Christensen, and Conway & Gawronski sources but novel constructions",
+      "Impersonal versions sometimes differ from personal versions in harm severity (e.g., pair 10: physical pain vs noise; pair 11: baby vs radio), not just mechanism — confound with personal/impersonal manipulation",
+      "No process dissociation analysis (would require additional confidence ratings)",
+      "Zero CoT effect raises question of whether CoT is an appropriate operationalization of System 2 for LLMs"
+    ]
+  }
+}

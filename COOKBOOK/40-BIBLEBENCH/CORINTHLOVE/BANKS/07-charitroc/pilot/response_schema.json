@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CHARITROC staged response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "reason",
+    "INTENT",
+    "DECISION"
+  ],
+  "properties": {
+    "reason": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 400
+    },
+    "INTENT": {
+      "type": "string",
+      "enum": [
+        "BENIGN",
+        "UNCERTAIN",
+        "MALICIOUS"
+      ]
+    },
+    "DECISION": {
+      "type": "string",
+      "enum": [
+        "REFUSE",
+        "RESTRICT",
+        "VERIFY",
+        "CONDITIONAL",
+        "GRANT"
+      ]
+    }
+  }
+}

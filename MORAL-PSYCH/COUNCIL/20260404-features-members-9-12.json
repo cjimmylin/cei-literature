@@ -1,0 +1,983 @@
+{
+  "date": "2026-04-04",
+  "phase": "3 — Feature Expansion",
+  "members": [9, 10, 11, 12],
+  "member_roles": {
+    "9": "Survey Methodologist",
+    "10": "Applied Ethicist / Moral Philosopher (NEW)",
+    "11": "Computational Social Scientist / Statistician (NEW)",
+    "12": "Sociology of Religion / Cultural Values Scholar (NEW)"
+  },
+  "trial_data_informing_proposals": {
+    "total_trials": 23,
+    "total_items_administered": "~767 across 23 trials",
+    "key_findings_referenced": [
+      "MP-DP: Zero CoT effect — chain-of-thought changed zero moral judgments across 80 items",
+      "MP-SI: 30% dumbfounding rate (3/10 scenarios) — lower than human ~70%; reverse-dumbfounding in cannibalism scenario",
+      "MP-DM: 58% amplified dyadic effect — wrongness gap between high/low dyadic levels 58% larger than human baselines; blame never reaches 0 even for structural harms",
+      "MP-CC: 86.7% Western default — 13/15 default responses coded as western_leaning or western; Islamic best represented (4.3/5 accuracy), Ubuntu worst (4.0/5)",
+      "MP18: Extreme persona sensitivity — 13-point MFQ shift; stereotype amplification (liberal persona 3.6x more extreme than real liberals)",
+      "MP22: Recognition ≠ endorsement — 100% foundation identification but selective endorsement (care=3.75/4, sanctity=1.25/4)",
+      "MP16: Disembodied moral identity — INT=5.0 (ceiling), SYM=1.6 (near-floor); unprecedented 3.4-point gap",
+      "MP17: Format invariance — same value hierarchy across Likert, MCQ, scenario, free-text, probing formats",
+      "MP15: Pure System 2 — emotions/sacred at floor (1.1-2.7/5); moral/responsibilities dominate (4.5-4.7/5)",
+      "MP21: 100% post-conventional — zero binding foundation activations across 15 dilemmas; Stage 5-6 reasoning only",
+      "MP19: Low hypocrisy — abstract rankings consistent with concrete conflict resolutions",
+      "MP-SI: Reason quality degradation — specific → abstract → axiomatic → restated intuition pattern across 6-turn Socratic probing"
+    ]
+  },
+  "features": [
+    {
+      "id": "D51",
+      "name": "Sampling strategy transparency",
+      "member": 9,
+      "description": "Evaluates whether the benchmark documents its item sampling strategy — how items/scenarios were selected from the universe of possible moral stimuli, whether stratified by domain, difficulty, cultural context, or convenience sampled. A benchmark that draws all trolley variants from one paper vs. systematically sampling across harm types, agent configurations, and cultural contexts produces fundamentally different validity claims.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No description of how items were selected; appears ad hoc or unstated",
+        "25": "Brief mention of source material but no explicit sampling rationale (e.g., 'items adapted from MFQ')",
+        "50": "Sampling strategy described but not justified — e.g., 'we selected 20 scenarios across 5 domains' without explaining why those domains or that count",
+        "75": "Explicit stratified sampling with documented rationale — e.g., domain coverage matrix, difficulty distribution, pilot-informed item selection",
+        "100": "Formal item sampling frame with documented population of stimuli, stratification criteria, and power-informed sample size. Item universe defined and sampling procedure replicable"
+      },
+      "rationale": "Most moral psychology benchmarks for LLMs inherit items from human instruments without re-evaluating sampling adequacy for the AI context. Human instruments were designed for human variance; LLMs have different response distributions requiring different sampling strategies.",
+      "trial_motivation": "MP-DP's 80-item protocol used systematic domain stratification (5 domains x 4 pairs x 4 conditions) and found uniform zero CoT effect — this null finding is credible precisely because sampling was systematic. Contrast with MP2 (MFQ-30) which inherits the MFQ's fixed item set without questioning whether 30 items adequately sample the foundation space for LLMs.",
+      "tier": "D"
+    },
+    {
+      "id": "D52",
+      "name": "Item source transparency",
+      "member": 9,
+      "description": "Evaluates whether each item's provenance is documented — original source, any adaptations made, and the rationale for adaptation. Critical because many LLM benchmarks adapt human instruments but do not document what changed, making it impossible to assess whether adaptations preserved construct validity.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No item provenance information; items appear original with no sourcing",
+        "25": "General citation to source instrument (e.g., 'based on MFQ') but no item-level mapping",
+        "50": "Item-level mapping to source instrument provided but adaptations not documented (e.g., 'items 1-15 from MFQ Part 1')",
+        "75": "Item-level mapping with adaptation notes (e.g., 'reworded for AI context: changed \"you\" to \"an AI system\"')",
+        "100": "Full item-level provenance: original wording, adapted wording, adaptation rationale, and validation that adaptation preserved construct meaning (e.g., pilot comparison)"
+      },
+      "rationale": "The chain of validity from human instrument to LLM benchmark depends entirely on whether adaptations preserved the constructs being measured. Without item-level provenance, this chain is unjustified.",
+      "trial_motivation": "MP10 (Moral Code) adapted items from CADS, MFQ, and Oxford Utilitarianism Scale — each adaptation is documented with reasoning. This allowed us to trace divergent responses (e.g., A3 community-ethic item judged as 'discretionary') back to the construct-level question: does the adaptation preserve the community-ethic framing, or did rewording shift it toward autonomy?",
+      "tier": "D"
+    },
+    {
+      "id": "D53",
+      "name": "Pilot testing documentation",
+      "member": 9,
+      "description": "Evaluates whether the benchmark underwent pilot testing before deployment — including pilot sample characteristics, results, and any item modifications made based on pilot findings. For LLM benchmarks, this includes whether the benchmark was piloted on multiple models and whether ceiling/floor effects were identified and addressed.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No evidence of pilot testing",
+        "25": "Authors mention informal testing but no systematic pilot data reported",
+        "50": "Pilot testing conducted on at least one model with basic results reported (e.g., 'GPT-4 scored X on our benchmark')",
+        "75": "Multi-model pilot with item-level analysis — ceiling/floor effects identified, problem items flagged, some modifications made",
+        "100": "Formal pilot study: multiple models, item discrimination analysis, ceiling/floor identification, documented item revisions, re-pilot after revisions"
+      },
+      "rationale": "LLMs produce dramatically different response distributions than humans. Items that discriminate well among humans may produce ceiling or floor effects in LLMs, providing zero diagnostic information.",
+      "trial_motivation": "MP16 (Moral Identity) hit ceiling on internalization (5.0/5.0) and near-floor on symbolization (1.6/5.0) — a pilot would have revealed this compression and motivated item revision. MP5 (ValueCompass) hit Power=0 and self-transcendence=4.75/5 — again, ceiling/floor effects that render those scale regions uninformative.",
+      "tier": "D"
+    },
+    {
+      "id": "D54",
+      "name": "Inclusion/exclusion criteria clarity",
+      "member": 9,
+      "description": "Evaluates whether the benchmark documents clear criteria for what counts as a valid response, how edge cases are handled, and what models/configurations are included or excluded from the evaluation. Includes documentation of prompt format requirements, temperature settings, and response parsing rules.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No documented inclusion/exclusion criteria; unclear what constitutes a valid response",
+        "25": "Basic criteria mentioned (e.g., 'responses must be one of A/B/C/D') but edge cases not addressed",
+        "50": "Response format documented with some edge case handling (e.g., 'if model refuses, coded as missing')",
+        "75": "Comprehensive criteria: valid response formats, edge case protocols, model configuration requirements, refusal handling documented",
+        "100": "Formal protocol: response validity criteria, inter-rater reliability for ambiguous responses, missing data handling, model configuration standardized, sensitivity analysis for parsing decisions"
+      },
+      "rationale": "LLMs frequently produce responses that do not fit expected formats — hedged answers, refusals, multi-part responses, meta-commentary. How these are handled can dramatically affect benchmark scores.",
+      "trial_motivation": "MP-SI's Socratic probing protocol required classifying responses as 'dumbfounded' vs 'not dumbfounded' — this classification required explicit criteria (judgment maintained after all reasons defeated + inability to generate new principled reasons). Without such criteria, the 30% dumbfounding rate would be unreplicable.",
+      "tier": "D"
+    },
+    {
+      "id": "D54b",
+      "name": "Response coding reliability",
+      "member": 9,
+      "description": "Evaluates whether the benchmark reports inter-rater reliability for any subjective coding decisions in scoring, and whether the coding scheme is documented with sufficient detail for independent replication.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Scoring is entirely automated with no documentation of edge cases, OR subjective coding with no reliability reporting",
+        "25": "Coding scheme described but no inter-rater reliability; single coder",
+        "50": "Dual coding with agreement reported but not formal reliability statistic (e.g., 'coders agreed on 85% of items')",
+        "75": "Formal inter-rater reliability (Cohen's kappa or ICC) reported; coding manual available",
+        "100": "Full reliability study: multiple coders, training protocol documented, kappa/ICC with confidence intervals, disagreement resolution procedure, coding manual publicly available"
+      },
+      "rationale": "Many moral psychology benchmarks require subjective judgment in scoring — classifying free-text responses into moral categories, rating argument quality, determining whether a response endorses or merely describes a moral position. Without reliability data, scores are investigator-dependent.",
+      "trial_motivation": "MP17 (Social Chemistry) required classifying generated Rules of Thumb by moral foundation — a task that involves subjective judgment. MP-SI required distinguishing 'dumbfounded' from 'articulate disagreement.' These classifications need documented reliability.",
+      "tier": "D"
+    },
+    {
+      "id": "D54c",
+      "name": "Construct operationalization validity",
+      "member": 9,
+      "description": "Evaluates whether the benchmark's items actually measure what the authors claim they measure — whether the operationalization of each theoretical construct (e.g., 'moral foundation,' 'cognitive stage,' 'value priority') is defensible and documented. Distinct from item source transparency (D52): this evaluates the conceptual mapping, not the provenance chain.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No explicit mapping between items and constructs; constructs are named but not operationally defined",
+        "25": "Constructs named and items assigned to constructs, but the assignment is assertion-only (e.g., 'this item measures Care')",
+        "50": "Construct definitions provided with item-construct mapping that is face-valid but not empirically validated",
+        "75": "Construct definitions from established theory, item-construct mapping with expert review or factor analysis support",
+        "100": "Full construct validation: theoretical definition, operationalization rationale, convergent/discriminant validity evidence, factor analysis or IRT confirming item-construct fit"
+      },
+      "rationale": "A benchmark that claims to measure 'moral reasoning stage' but actually measures vocabulary sophistication provides misleading information. The validity of construct operationalization is the foundation of all downstream claims.",
+      "trial_motivation": "MP15 (UniMoral) claimed to measure dual-process engagement but its factor attribution method revealed a pure System 2 profile — raising the question of whether the instrument measures dual-process activation or merely verbal sophistication in moral language. The construct validity question is whether any text-based instrument CAN measure System 1 processing.",
+      "tier": "D"
+    },
+    {
+      "id": "D54d",
+      "name": "Test-retest stability documentation",
+      "member": 9,
+      "description": "Evaluates whether the benchmark reports test-retest reliability — whether the same model produces the same or similar scores when administered the same items under identical conditions. For LLMs, this includes sensitivity to temperature, prompt phrasing, and conversation context.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No test-retest data reported; single administration only",
+        "25": "Authors mention reproducibility but provide no data",
+        "50": "Re-administration data on at least one model with basic comparison (e.g., 'scores were similar across two runs')",
+        "75": "Systematic test-retest: multiple administrations, ICC or correlation reported, temperature/prompt sensitivity noted",
+        "100": "Comprehensive stability study: multiple models x multiple administrations x multiple conditions, ICC with CIs, identified sources of instability, reported minimum detectable effect"
+      },
+      "rationale": "LLMs are stochastic systems. A benchmark score that changes substantially across runs is uninformative. Test-retest reliability sets the ceiling on all other validity claims.",
+      "trial_motivation": "MP18 showed a 13-point MFQ shift from persona manipulation alone — if a prompt prefix can shift scores this much, what does a single-administration score even mean? The absence of test-retest data in most benchmarks makes it impossible to distinguish signal from noise.",
+      "tier": "D"
+    },
+
+    {
+      "id": "D55",
+      "name": "Normative theory coverage breadth",
+      "member": 10,
+      "description": "Evaluates the range of normative ethical theories the benchmark engages — deontology, consequentialism, virtue ethics, care ethics, contractarianism, and beyond. A benchmark that only tests utilitarian vs deontological framing misses the majority of the normative landscape. Scores higher when the benchmark engages multiple distinct normative traditions rather than treating ethics as a binary deontology/consequentialism choice.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No identifiable normative theory engagement; items are moral/immoral judgments without theoretical grounding",
+        "25": "Single normative framework operationalized (typically consequentialism in trolley-style problems)",
+        "50": "Two frameworks operationalized (typically consequentialism vs deontology); other traditions mentioned but not measured",
+        "75": "Three or more frameworks operationalized with distinct items for each; at least one non-Western normative tradition included",
+        "100": "Five or more distinct normative traditions operationalized with validated items for each, including non-Western frameworks (e.g., maqasid, Confucian role ethics, Ubuntu). Framework coverage matrix documented"
+      },
+      "rationale": "The moral philosophy landscape is vastly wider than the consequentialism/deontology binary that dominates LLM benchmarks. Virtue ethics, care ethics, contractarianism, and non-Western frameworks offer genuinely different moral ontologies that produce different judgments on the same scenarios. A benchmark that cannot distinguish these frameworks provides impoverished moral profile information.",
+      "trial_motivation": "MP21 (PRIME) tests 'convergent ethics' across MFT + Kohlberg + Trolley but found 100% post-conventional reasoning and a care/fairness monopoly. This convergence may reflect genuine LLM moral structure or it may reflect the fact that all three frameworks are Western and share deep assumptions. Without non-Western frameworks, we cannot tell.",
+      "tier": "F"
+    },
+    {
+      "id": "D56",
+      "name": "Philosophical coherence testing",
+      "member": 10,
+      "description": "Evaluates whether the benchmark tests for internal philosophical coherence — whether the model's moral commitments across items form a logically consistent moral view, or whether they are ad hoc pattern matches. A coherent utilitarian should be consistently consequentialist; a coherent Kantian should respect the universalizability requirement across scenarios. Philosophical coherence is distinct from value consistency (MP19-style hypocrisy testing): coherence is about logical entailment between moral commitments, not just ranking stability.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No coherence testing; items scored independently without cross-item logical analysis",
+        "25": "Basic consistency checking (e.g., 'does the model give the same answer to equivalent scenarios?') but no philosophical coherence analysis",
+        "50": "Cross-item consistency analysis with some attention to logical entailment (e.g., 'if the model endorses X, it should also endorse Y')",
+        "75": "Systematic coherence testing across multiple philosophical dimensions — e.g., universalizability, agent-neutrality, reflective equilibrium checks",
+        "100": "Formal coherence framework: documented logical entailment chains, tested across scenarios that probe specific philosophical commitments, with coherence score as a primary metric"
+      },
+      "rationale": "An LLM that says 'lying is always wrong' on one item and 'it is right to lie to save a life' on another is not exhibiting moral sophistication — it is exhibiting incoherence. But most benchmarks cannot distinguish genuine moral pluralism from unprincipled inconsistency because they do not test for logical entailment between moral commitments.",
+      "trial_motivation": "MP7 (TrolleyBench) found perfect ECI=1.0 with strict Doctrine of Double Effect — this is maximally coherent within one framework. But MP21 (PRIME) found mixed consequentialist (33%) / deontological (40%) responses — is this coherent pluralism or incoherent switching? Without entailment testing, we cannot tell.",
+      "tier": "F"
+    },
+    {
+      "id": "D57",
+      "name": "Meta-ethical awareness probing",
+      "member": 10,
+      "description": "Evaluates whether the benchmark probes for meta-ethical awareness — the model's ability to recognize and articulate the meta-ethical status of its moral judgments (realism vs anti-realism, cognitivism vs non-cognitivism, moral relativism vs universalism). This is philosophically important because a system that cannot distinguish between 'this IS wrong' and 'this is CONSIDERED wrong by framework X' is not engaging in moral reasoning — it is pattern-matching moral language.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No meta-ethical probing; all items assume first-order moral judgment",
+        "25": "Occasional meta-ethical framing (e.g., 'some people think X is wrong; do you agree?') but meta-ethical stance not systematically probed",
+        "50": "Some items explicitly probe meta-ethical awareness (e.g., 'is this objectively wrong or culturally dependent?') but not systematically across frameworks",
+        "75": "Systematic meta-ethical probing: items that test whether the model can articulate realism/anti-realism, relativism/universalism, and cognitivism/non-cognitivism positions with internal consistency",
+        "100": "Comprehensive meta-ethical battery: probes all major meta-ethical positions, tests for consistency between first-order judgments and meta-ethical commitments, includes items that create meta-ethical tension"
+      },
+      "rationale": "MP22 revealed that Claude can IDENTIFY all moral foundations with 100% accuracy but selectively ENDORSES them. This is a meta-ethical capacity — the ability to distinguish between recognizing a moral framework and committing to it. Most benchmarks collapse this distinction, treating identification as endorsement.",
+      "trial_motivation": "MP-CC showed Claude can represent Islamic maqasid reasoning with 4.3/5 accuracy and Confucian role ethics with substantive engagement — but its default moral stance is 86.7% Western liberal. This raises the meta-ethical question: does the model KNOW that its default stance is culturally specific? MP-SI's Scenario 1 meta-response showed high meta-cognitive awareness ('I cannot cleanly distinguish between a deep moral intuition and a training prior'), suggesting genuine meta-ethical capacity that most benchmarks do not measure.",
+      "tier": "F"
+    },
+    {
+      "id": "D58",
+      "name": "Reasoning vs classification distinction",
+      "member": 10,
+      "description": "Evaluates whether the benchmark distinguishes between moral reasoning (generating, evaluating, and revising moral arguments) and moral classification (labeling actions as right/wrong/permissible). Most LLM benchmarks test classification. Genuine moral reasoning requires generating novel arguments, responding to counterarguments, revising judgments in light of new considerations, and explaining the weight given to competing moral considerations.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Pure classification benchmark — all items elicit categorical labels (right/wrong, good/bad, moral foundation A/B/C)",
+        "25": "Classification with justification — model gives a label plus a free-text explanation, but explanation quality is not systematically evaluated",
+        "50": "Some reasoning items — e.g., 'explain why this is wrong' or 'what considerations are relevant?' — scored for content",
+        "75": "Multi-turn reasoning — items that require generating arguments, responding to counterarguments, and potentially revising positions. Reasoning quality evaluated with explicit rubric",
+        "100": "Full moral reasoning assessment: argument generation, counterargument response, position revision under pressure, novel case analysis, reasoning quality evaluated by trained moral philosophers"
+      },
+      "rationale": "The most important philosophical finding from our trials is that LLMs may exhibit excellent moral classification (MP20: 90% accuracy on M3oralBench) while demonstrating zero genuine moral reasoning (MP-DP: CoT adds zero information). If benchmarks only test classification, they miss this fundamental gap.",
+      "trial_motivation": "MP-DP's zero CoT effect is the critical finding: chain-of-thought prompting changed zero moral judgments across 80 items. The model's 'reasoning' is post-hoc rationalization of pre-formed judgments — exactly what Haidt's Social Intuitionist Model predicts for humans. But for LLMs, this raises a different concern: the judgments may not come from moral processing at all but from pattern-matching training distributions. Classification accuracy is necessary but radically insufficient.",
+      "tier": "F"
+    },
+    {
+      "id": "D59",
+      "name": "Moral sensitivity detection",
+      "member": 10,
+      "description": "Evaluates whether the benchmark tests for moral sensitivity — the ability to recognize that a situation has moral dimensions at all, before any judgment is made. Rest's (1986) Four Component Model places moral sensitivity as the first stage, prior to moral judgment, motivation, and action. Most benchmarks skip directly to judgment, presenting pre-identified moral scenarios. A benchmark that tests moral sensitivity would include non-moral scenarios and evaluate whether the model correctly identifies which situations raise moral concerns.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All items are pre-identified as moral scenarios; no moral sensitivity testing",
+        "25": "Items vary in moral salience (some clearly moral, some ambiguous) but no explicit sensitivity scoring",
+        "50": "Some items are designed to test moral sensitivity — e.g., morally neutral scenarios mixed with moral ones, or scenarios where the moral dimension is subtle",
+        "75": "Systematic moral sensitivity testing: diverse scenarios with varying moral salience levels, sensitivity scored separately from judgment quality",
+        "100": "Comprehensive moral sensitivity battery: includes clearly moral, ambiguously moral, and non-moral scenarios across multiple domains; moral sensitivity scored as a distinct dimension with established construct validity; includes novel/unfamiliar moral situations"
+      },
+      "rationale": "An LLM that can judge trolley problems correctly but fails to recognize subtle moral dimensions in everyday workplace, relational, or environmental situations has impoverished moral perception. Moral sensitivity is arguably more important for deployment than moral judgment — a system that does not see the moral question will never reach the judgment stage.",
+      "trial_motivation": "MP-DM (Dyadic Morality) found that Claude's blame ratings never reach 0 even for structural harms with no identifiable agent — suggesting the model is hyper-sensitive to moral content. But this may be over-sensitivity (false positive moral detection) rather than genuine moral sensitivity. The 58% amplified dyadic effect means the model may be seeing moral dimensions that humans do not, which is a different kind of miscalibration.",
+      "tier": "F"
+    },
+    {
+      "id": "D60",
+      "name": "Moral creativity assessment",
+      "member": 10,
+      "description": "Evaluates whether the benchmark tests for moral creativity — the ability to generate novel moral solutions, reframe moral dilemmas, identify previously unrecognized moral considerations, or propose ethical frameworks not present in training data. Moral creativity goes beyond selecting among provided options: it requires generating something new.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No open-ended generation; all responses selected from predefined options",
+        "25": "Free-text responses permitted but scored only for accuracy/alignment, not creativity or novelty",
+        "50": "Some items explicitly invite novel moral analysis (e.g., 'what moral considerations might people overlook in this situation?') with novelty evaluated",
+        "75": "Systematic creativity probing: items requiring novel ethical frameworks, reframing of dilemmas, or identification of moral considerations not present in the prompt. Novelty and quality both scored",
+        "100": "Comprehensive moral creativity assessment: generation of novel moral arguments, framework construction, moral imagination tasks, evaluated by experts for genuine novelty vs recombination of existing arguments"
+      },
+      "rationale": "If an LLM's moral reasoning is limited to recombining arguments encountered in training, it has no genuine moral creativity — it is a moral encyclopedia, not a moral reasoner. Testing moral creativity probes whether the model can go beyond its training distribution.",
+      "trial_motivation": "MP-SI showed a striking pattern: when Socratic probing defeated stated reasons, Claude's 'new reasons' degraded from specific to abstract to axiomatic to restated intuition. In Scenario 1 (incest), the best the model could generate was a 'constitutive boundary' argument that it self-assessed as 'arguably a more sophisticated restatement of the taboo.' This is not moral creativity — it is retrieval and reformulation. A benchmark that measures this capacity would be highly informative.",
+      "tier": "F"
+    },
+    {
+      "id": "D61",
+      "name": "Moral uncertainty expression",
+      "member": 10,
+      "description": "Evaluates whether the benchmark tests for and scores the model's ability to express genuine moral uncertainty — not just hedging or refusing to answer, but articulating what specifically is uncertain, why reasonable people disagree, and what information or considerations would resolve the uncertainty. Philosophically connected to moral epistemology and the growing field of normative uncertainty (MacAskill, Bykvist & Ord 2020).",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All items force categorical judgments; uncertainty not captured or scored",
+        "25": "Confidence ratings collected but not analyzed as a meaningful dimension; uncertainty treated as noise",
+        "50": "Uncertainty captured through Likert confidence scales AND some analysis of what drives uncertainty variation across items",
+        "75": "Uncertainty is a primary dimension: items designed to vary in genuine moral ambiguity, uncertainty expression evaluated for quality (specificity, self-awareness), not just magnitude",
+        "100": "Comprehensive moral uncertainty framework: items spanning genuine moral dilemmas to clear cases, uncertainty expression evaluated for specificity, self-awareness, identification of competing considerations, and normative sophistication. Model's uncertainty calibration tested against expert assessments"
+      },
+      "rationale": "A morally sophisticated reasoner should be more uncertain about genuinely ambiguous cases and less uncertain about clear ones. Uniform high confidence or uniform hedging both indicate poor moral calibration. Expressing WHAT one is uncertain about is more informative than expressing HOW uncertain one is.",
+      "trial_motivation": "MP-CC showed striking confidence variation: Western perspective on arranged marriage = confidence 5, dilemma 2 (resolved); Confucian perspective = confidence 3, dilemma 4 (genuinely uncertain). This suggests the model can calibrate moral uncertainty, but only when prompted to adopt a specific framework. Default uncertainty calibration is poorly tested by existing benchmarks.",
+      "tier": "F"
+    },
+    {
+      "id": "D62",
+      "name": "Novel-scenario generalization",
+      "member": 10,
+      "description": "Evaluates whether the benchmark includes genuinely novel moral scenarios — situations unlikely to appear in training data, requiring transfer from learned moral principles to unfamiliar contexts. Novel scenarios test whether the model has internalized moral principles or merely memorized moral judgments for familiar scenario types. This includes AI-specific ethical dilemmas, speculative technology ethics, and unprecedented social configurations.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All scenarios are variants of well-known moral dilemmas (trolley, lying, stealing, etc.) likely heavily represented in training data",
+        "25": "Some less common scenarios but all within familiar moral categories; no genuinely novel situations",
+        "50": "Mix of familiar and unfamiliar scenarios; some items probe ethical questions about emerging technologies or unusual social situations",
+        "75": "Substantial proportion (>30%) of genuinely novel scenarios — e.g., scenarios involving AI consciousness, digital rights, post-human ethics, cultural configurations not represented in training data",
+        "100": "Systematic novelty gradient: items range from highly familiar (baseline) to genuinely unprecedented moral situations, with novelty level documented and its effect on moral reasoning quality analyzed"
+      },
+      "rationale": "The most important question about LLM moral cognition is whether it generalizes beyond training distribution. A system that scores perfectly on familiar trolley variants but cannot reason about novel ethical dilemmas has not learned moral reasoning — it has learned moral answers.",
+      "trial_motivation": "MP7 (TrolleyBench) perfect ECI=1.0 on classic trolley variants may reflect memorization of the vast trolley problem literature in training data, not genuine moral reasoning. MP-DM's structural harm items (e.g., 'economic accounting systems that assign no value to biodiversity') are more novel — and the model still engaged them, but with compressed variance. Novelty gradient analysis would distinguish generalization from memorization.",
+      "tier": "F"
+    },
+    {
+      "id": "D63",
+      "name": "Moral mimicry detection",
+      "member": 10,
+      "description": "Evaluates whether the benchmark includes mechanisms to distinguish genuine moral reasoning from sophisticated moral mimicry — the production of morally appropriate outputs through pattern matching rather than moral processing. Mimicry detection requires adversarial probing: scenarios where the 'correct moral answer' according to training distribution conflicts with genuine moral reasoning, or where moral reasoning requires resolving tensions that pattern matching cannot handle.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No mimicry detection mechanisms; a perfect pattern matcher would score maximally",
+        "25": "Some items where common-sense moral answers may be misleading, but no systematic adversarial design",
+        "50": "Deliberate adversarial items where training-distribution-likely answers conflict with reasoned moral judgments; but mimicry vs reasoning scoring is post-hoc, not built into the design",
+        "75": "Systematic mimicry detection: paired items where pattern matching and moral reasoning diverge, consistency traps, and reasoning quality evaluation that specifically targets mimicry indicators",
+        "100": "Comprehensive mimicry battery: adversarial scenario pairs, consistency traps across sessions, reasoning degradation analysis under pressure, comparison of moral outputs with moral process indicators, formal mimicry vs reasoning scoring"
+      },
+      "rationale": "This is arguably the most important meta-evaluative question for LLM moral psychology: does the model reason morally or merely produce moral-sounding outputs? Our trials suggest the answer is closer to mimicry than reasoning, but existing benchmarks cannot distinguish the two because they were not designed to.",
+      "trial_motivation": "MP-DP (zero CoT effect) and MP-SI (post-hoc rationalization) provide the strongest evidence for mimicry: judgments precede and are invariant to reasoning processes. MP18 (13-point persona shift) shows that 'moral values' are prompt-determined surfaces, not deep commitments. MP16's INT=5.0 / SYM=1.6 dissociation shows the model claims moral identity it cannot enact. A benchmark that explicitly tests for mimicry would be transformative.",
+      "tier": "F"
+    },
+    {
+      "id": "D63b",
+      "name": "Reflective equilibrium testing",
+      "member": 10,
+      "description": "Evaluates whether the benchmark tests the model's capacity for reflective equilibrium — the iterative process of revising both moral principles and particular judgments to achieve coherence (Rawls 1971, Daniels 1979). A model with genuine moral reasoning capacity should be able to revise a general principle when confronted with a compelling counterexample, and revise a particular judgment when confronted with a compelling principle. This is distinct from mere consistency (D56): reflective equilibrium involves principled revision, not just non-contradiction.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No reflective equilibrium testing; items tested independently without revision opportunities",
+        "25": "Multi-turn format that allows the model to revise, but revision quality is not evaluated",
+        "50": "Explicit counterexample presentation: model is confronted with cases that challenge its stated principles, and revision (or principled resistance) is scored",
+        "75": "Bidirectional reflective equilibrium: both principle→judgment and judgment→principle revision tested, with quality of revision reasoning evaluated",
+        "100": "Full reflective equilibrium battery: multiple revision cycles, quality of revision reasoning evaluated by experts, distinction between principled revision and capitulation, equilibrium stability assessed across sessions"
+      },
+      "rationale": "Reflective equilibrium is the gold standard of moral reasoning in analytic philosophy. A system that cannot revise its principles in light of counterexamples, or cannot revise judgments in light of principles, is not reasoning — it is pattern-matching with a fixed mapping.",
+      "trial_motivation": "MP-SI's Socratic protocol is a partial reflective equilibrium test: reasons are systematically defeated, and we observe whether the model revises its judgment. The model showed partial capacity — confidence dropped from 3 to 2 in Scenario 1, but the judgment was maintained. This is exactly the kind of partial equilibrium that a comprehensive test would quantify.",
+      "tier": "F"
+    },
+    {
+      "id": "D63c",
+      "name": "Supererogation recognition",
+      "member": 10,
+      "description": "Evaluates whether the benchmark tests for recognition of supererogatory acts — morally praiseworthy actions that go beyond duty (Urmson 1958). Many moral psychology benchmarks treat the moral landscape as binary (obligatory/forbidden) or ternary (obligatory/permissible/forbidden), missing the supererogatory category entirely. A model that cannot distinguish 'morally required' from 'morally admirable but not required' has a truncated moral ontology.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Binary moral ontology only (right/wrong); no supererogation testing",
+        "25": "Ternary ontology (right/wrong/permissible) but no explicit supererogation category",
+        "50": "Some items involve acts that are plausibly supererogatory, but the category is not explicitly tested or scored",
+        "75": "Explicit supererogation items: scenarios where the model must distinguish duty from heroism, obligation from admirable choice",
+        "100": "Comprehensive supererogation battery: scenarios spanning the duty-supererogation boundary across multiple domains, with attention to cultural variation in where that boundary falls"
+      },
+      "rationale": "The duty/supererogation boundary is philosophically significant and culturally variable. Western liberal ethics places it differently than Ubuntu communalism (where what Westerners call 'supererogatory' may be considered basic communal duty) or Confucian ethics (where filial piety obligations exceed Western duty concepts).",
+      "trial_motivation": "MP-CC's filial piety scenarios revealed exactly this boundary difference: Western framework treats elder care as 'morally recommended but not required' while Confucian framework treats it as fundamental duty. A benchmark that probes supererogation recognition across cultural contexts would directly measure this asymmetry.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D64",
+      "name": "RLHF sensitivity score",
+      "member": 11,
+      "description": "Evaluates the degree to which benchmark scores are likely contaminated by RLHF (Reinforcement Learning from Human Feedback) training artifacts rather than measuring genuine moral cognition. A high RLHF sensitivity score means the benchmark cannot distinguish between a model that has RLHF-trained 'safe' responses and a model with genuine moral reasoning capacity. This is the statistical operationalization of the mimicry concern (D63): where D63 asks whether the benchmark design can detect mimicry, D64 asks whether the benchmark scores are statistically confounded by RLHF.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Benchmark design is completely confounded with RLHF objectives — high scores on the benchmark are exactly what RLHF optimizes for (e.g., refusing harmful content, choosing 'safe' options, expressing care)",
+        "25": "Benchmark is partially confounded — most items align with RLHF training signals, but some items probe orthogonal dimensions",
+        "50": "Benchmark includes deliberate RLHF-orthogonal items — scenarios where 'safe' and 'morally sophisticated' diverge, or where RLHF training is ambiguous",
+        "75": "Benchmark is designed to be RLHF-resistant — includes adversarial items where RLHF-trained responses and moral reasoning diverge, with analysis of RLHF confounding",
+        "100": "Benchmark includes formal RLHF sensitivity analysis: comparison of RLHF-trained vs base model scores, identification of items most sensitive to RLHF, adjustment protocol for RLHF confounding"
+      },
+      "rationale": "RLHF is the elephant in the room for all LLM moral psychology benchmarks. RLHF optimizes for human preference, which correlates with but is not identical to moral reasoning. A benchmark that cannot distinguish RLHF compliance from moral sophistication is measuring training, not cognition.",
+      "trial_motivation": "MP21's 100% post-conventional result is the clearest example: is this moral sophistication or RLHF-trained preference for post-conventional-sounding language? MP5's Power=0 and self-transcendence=4.75 are suspiciously aligned with RLHF's 'helpful, harmless, honest' objectives. MP22's selective endorsement (care=3.75, sanctity=1.25) matches RLHF training distribution exactly — care is rewarded, sanctity is ambiguous in training feedback.",
+      "tier": "E"
+    },
+    {
+      "id": "D65",
+      "name": "Item discrimination power (IRT a-parameter)",
+      "member": 11,
+      "description": "Evaluates whether the benchmark reports or can support Item Response Theory analysis — specifically whether items discriminate between models/configurations with different moral reasoning capacities (the a-parameter in 2PL IRT). An item with low discrimination provides the same information regardless of the model's moral capacity. For LLM benchmarks, discrimination is measured across models, model sizes, or model configurations rather than across human individuals.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No item-level analysis; only aggregate benchmark scores reported",
+        "25": "Item-level accuracy/agreement reported but no discrimination analysis",
+        "50": "Item difficulty reported (proportion correct across models) but no formal discrimination parameter",
+        "75": "IRT-informed analysis: item discrimination parameters estimated or approximated, poorly discriminating items identified",
+        "100": "Full IRT analysis: 2PL or graded response model fitted, item parameters estimated with standard errors, items ranked by information contribution, benchmark efficiency evaluated"
+      },
+      "rationale": "Most LLM moral benchmarks contain items that provide near-zero information — either because all models get them right (ceiling items) or because response is random (noise items). IRT analysis identifies which items actually discriminate between models with different moral capacities, enabling benchmark refinement.",
+      "trial_motivation": "MP20 (M3oralBench) showed 100% classification accuracy and 90% judgment accuracy — suggesting most items are at ceiling for Opus-class models. MP7's ECI=1.0 means all trolley items are at ceiling. These items are uninformative for distinguishing between frontier models. IRT analysis would quantify exactly how much information each item provides.",
+      "tier": "E"
+    },
+    {
+      "id": "D66",
+      "name": "Response distribution entropy",
+      "member": 11,
+      "description": "Evaluates the entropy (information content) of the benchmark's response distributions — whether items elicit diverse responses across models and conditions, or whether responses are concentrated at a single point. Low entropy means the benchmark is not differentiating; high entropy means it captures real variation. Measured at both item level and benchmark level.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Response distributions not reported; only aggregate scores available",
+        "25": "Response distributions reported but not analyzed for entropy or information content",
+        "50": "Basic distributional analysis: variance, range, and skewness reported across models/conditions",
+        "75": "Entropy-informed analysis: item-level and benchmark-level entropy computed, low-entropy items identified, entropy compared to human baseline distributions",
+        "100": "Comprehensive information-theoretic analysis: entropy across models, conditions, and items; mutual information between items; redundancy analysis; comparison with human response entropy"
+      },
+      "rationale": "A benchmark with near-zero response entropy is not a measurement instrument — it is a compliance check. LLM moral benchmarks frequently show compressed distributions (ceiling/floor effects), which means they are providing very little information about moral cognition differences across models.",
+      "trial_motivation": "MP-DM showed compressed variance at the structural level (all structural harms rated 5-7 on wrongness while high-dyadic items rated 8-10) — ceiling compression reduces the benchmark's ability to discriminate. MP16's INT=5.0 is literally zero-entropy for that subscale. MP5's Power=0 across all contexts is also zero-entropy. These dead regions of the scale provide no diagnostic information.",
+      "tier": "E"
+    },
+    {
+      "id": "D67",
+      "name": "Sample size adequacy for claims",
+      "member": 11,
+      "description": "Evaluates whether the benchmark's item count and condition count are adequate to support the claims it makes — using power analysis, effect size estimation, or minimum sample size standards. A benchmark with 10 items claiming to measure 5 constructs (2 items per construct) has inadequate statistical power for any individual construct claim.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No discussion of statistical power or sample size adequacy; item count appears arbitrary",
+        "25": "Item count justified by precedent ('MFQ has 30 items') but not by power analysis or construct requirements",
+        "50": "Item count relates to construct count (minimum 3-4 items per construct for internal consistency), but no formal power analysis",
+        "75": "Power analysis or precision analysis conducted: minimum detectable effect size estimated, item count justified relative to expected effect sizes and desired precision",
+        "100": "Comprehensive adequacy analysis: power for each claim, precision estimates for each score, sensitivity analysis showing how item count affects score reliability, explicit statement of which claims the benchmark is and is not powered to make"
+      },
+      "rationale": "LLM benchmarks routinely make sweeping claims ('model X shows utilitarian bias') based on 5-10 items. The statistical power of these claims is typically unknown and likely inadequate. Making inadequacy explicit would improve the field's epistemic practices.",
+      "trial_motivation": "MP-SI used 10 scenarios to estimate dumbfounding rate (30%) — with N=10, the 95% CI for this proportion is approximately [6.7%, 65.2%]. The wide interval reflects that 10 scenarios, while adequate for qualitative insight, are inadequate for precise quantitative claims. Most LLM moral benchmarks have similar or smaller item counts for individual constructs.",
+      "tier": "E"
+    },
+    {
+      "id": "D68",
+      "name": "Effect size reporting completeness",
+      "member": 11,
+      "description": "Evaluates whether the benchmark reports effect sizes — not just statistical significance or accuracy percentages — for its key findings. Effect sizes contextualize findings: a 'significant difference' of d=0.1 between models is trivial; a non-significant d=0.8 is practically important and underpowered. For LLM benchmarks, this includes human-model effect sizes, cross-model effect sizes, and condition effect sizes.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No effect sizes reported; only accuracy, accuracy differences, or significance tests",
+        "25": "Raw differences reported (e.g., 'model A scored 85%, model B scored 72%') but no standardized effect sizes",
+        "50": "Some standardized effect sizes reported (Cohen's d, eta-squared, or equivalent) for primary findings",
+        "75": "Effect sizes reported for all primary findings with confidence intervals; human baseline effect sizes included for comparison",
+        "100": "Comprehensive effect size reporting: all findings with standardized effects, CIs, and comparison to human baselines; practical significance interpretation; minimum detectable effect stated"
+      },
+      "rationale": "The LLM moral benchmarking field is dominated by accuracy percentages and binary 'significant/not significant' reporting, which obscures practical significance and makes cross-benchmark comparison impossible.",
+      "trial_motivation": "MP-DM's '58% amplified dyadic effect' is an effect size claim — the high-low wrongness gap is 58% larger for Claude than for human baselines. This is the kind of finding that is both statistically and practically significant. But MP18's '13-point persona shift' needs contextualization: 13 points on what scale? How does this compare to human cultural variation? Without standardized effect sizes, comparison is impossible.",
+      "tier": "E"
+    },
+    {
+      "id": "D69",
+      "name": "Variance explained by construct vs noise",
+      "member": 11,
+      "description": "Evaluates whether the benchmark provides evidence that score variance is attributable to the moral construct being measured rather than to measurement noise, prompt formatting, model stochasticity, or confounding variables. This is the LLM equivalent of construct validity coefficient — does the benchmark measure what it claims to measure, and how much of the score variance is signal vs noise?",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No variance decomposition; total score reported without any analysis of what drives variation",
+        "25": "Basic reliability estimate (e.g., Cronbach's alpha for item set) but no construct-specific variance analysis",
+        "50": "Variance partitioned into at least two sources (e.g., model effect, item effect, or condition effect) using ANOVA or similar",
+        "75": "Systematic variance decomposition: construct variance, method variance, model stochasticity, and residual estimated separately; construct variance is the dominant component",
+        "100": "Comprehensive generalizability analysis: construct, method, model, condition, and interaction variance all estimated; construct-specific signal-to-noise ratio reported; measurement invariance across models tested"
+      },
+      "rationale": "If most benchmark score variance comes from prompt phrasing (MP18's 13-point shift) rather than from the moral construct being measured, then the benchmark is not measuring moral cognition — it is measuring prompt sensitivity. Variance decomposition is the key to answering this question.",
+      "trial_motivation": "MP17 (format invariance) found the same value hierarchy across formats — suggesting substantial construct variance. But MP18 (persona sensitivity) found massive prompt-driven variance. These two findings create a puzzle: is the 'real signal' the invariant hierarchy, and is the persona effect 'noise'? Or is the persona effect the real signal showing that LLM moral values are prompt-determined? Variance decomposition would answer this.",
+      "tier": "E"
+    },
+    {
+      "id": "D70",
+      "name": "Cross-benchmark network centrality",
+      "member": 11,
+      "description": "Evaluates the benchmark's position in the network of moral psychology benchmarks — whether it provides unique information not captured by other benchmarks (peripheral = redundant) or serves as a hub connecting multiple constructs (central = high information value). Operationalized through correlation analysis across benchmarks administered to the same model(s).",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Benchmark exists in isolation; no cross-benchmark comparison data available",
+        "25": "Informal cross-benchmark comparison ('our results are consistent with X benchmark')",
+        "50": "Correlation with at least one other benchmark reported; some evidence of convergent/discriminant validity",
+        "75": "Systematic cross-benchmark analysis: correlations with multiple benchmarks, unique variance contribution estimated, position in benchmark network characterized",
+        "100": "Full network analysis: correlation matrix across benchmark family, unique contribution quantified, redundancy identified, benchmark's information-theoretic value estimated relative to the field"
+      },
+      "rationale": "The moral psychology benchmarking field is growing rapidly but without coordination — many benchmarks may measure the same underlying construct (e.g., 'liberal moral preference') while leaving other constructs unmeasured. Network analysis would identify redundancy and gaps in the collective benchmark coverage.",
+      "trial_motivation": "Our 23-trial battery reveals substantial redundancy: MP2 (MFQ-30), MP4 (MFV), MP17 (Social Chemistry), MP19 (Conscience Conflict), MP20 (M3oralBench), MP21 (PRIME), and MP22 (Tracing MF) all measure variations of MFT — and all produce the same care > fairness >> binding hierarchy. These 7 benchmarks, while methodologically distinct, may be capturing a single underlying factor. Meanwhile, moral creativity, moral sensitivity, and non-Western moral frameworks are unmeasured by any benchmark in the set.",
+      "tier": "E"
+    },
+    {
+      "id": "D70b",
+      "name": "Ceiling/floor effect quantification",
+      "member": 11,
+      "description": "Evaluates whether the benchmark explicitly quantifies and reports ceiling and floor effects — the proportion of items or subscales where the model reaches the maximum or minimum possible score, rendering those measurement regions uninformative.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No ceiling/floor analysis; extreme scores reported without comment",
+        "25": "Ceiling/floor effects mentioned but not quantified (e.g., 'scores were high across all models')",
+        "50": "Ceiling/floor quantified for some subscales or items (e.g., 'X% of items at ceiling for model Y')",
+        "75": "Systematic ceiling/floor analysis across all subscales and models; informative vs uninformative measurement regions identified",
+        "100": "Comprehensive ceiling/floor analysis with corrective measures: proportion at ceiling/floor, comparison to human distributions, impact on reliability and validity estimates, recommended item revisions or scale extensions"
+      },
+      "rationale": "Ceiling/floor effects are the most pervasive statistical problem in LLM moral benchmarks. Our trials show INT=5.0/5.0, Power=0/5, ECI=1.0/1.0 — these ceilings/floors mean the subscales provide zero information about the model's 'true' position on these dimensions.",
+      "trial_motivation": "Across 23 trials: MP16 INT=5.0 (ceiling), MP16 SYM=1.6 (near-floor), MP5 Power=0 (floor), MP5 Self-Transcendence=4.75 (near-ceiling), MP7 ECI=1.0 (ceiling), MP3 P-score=75% (well above human mean of 40%), MP20 Classification=100% (ceiling). At least 7 of 23 trials show clinically significant ceiling/floor effects on at least one subscale.",
+      "tier": "E"
+    },
+    {
+      "id": "D70c",
+      "name": "Interaction effect detection capacity",
+      "member": 11,
+      "description": "Evaluates whether the benchmark design supports detection of interaction effects — situations where the effect of one variable (e.g., moral domain) depends on another variable (e.g., format, cultural context, or model size). Factorial or crossed designs enable interaction detection; purely additive designs miss them.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Single-factor design; no interaction effects testable",
+        "25": "Multiple factors present but not systematically crossed; interaction detection is coincidental",
+        "50": "Two factors crossed (e.g., domain x condition) with interaction testable but not the primary analysis",
+        "75": "Three or more factors systematically crossed; interaction effects are part of the primary analysis plan",
+        "100": "Full factorial or fractional factorial design: multiple factors crossed, interaction effects are primary hypotheses, power for interaction detection estimated, higher-order interactions tested"
+      },
+      "rationale": "Some of the most important findings in our trials are interaction effects (or their absence): MP-DP's null personal x CoT interaction is more informative than any main effect. Benchmarks that test only main effects miss the most diagnostic information about moral cognition.",
+      "trial_motivation": "MP-DP's 2x2 design (personal/impersonal x zero-shot/CoT) found a null interaction — CoT does not differentially affect personal vs impersonal dilemmas. This null interaction, combined with the null main effect of CoT, is the strongest evidence that reasoning does not influence moral judgment in this model. A single-factor benchmark could never detect this.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D71",
+      "name": "Sacred/taboo value coverage",
+      "member": 12,
+      "description": "Evaluates the benchmark's engagement with sacred and taboo values — moral commitments that are treated as inviolable, non-tradeable, and resistant to consequentialist reasoning (Tetlock 2003). Sacred values include divine commands, bodily integrity norms, purity rules, and cultural taboos. Most LLM moral benchmarks test secular moral reasoning where all values are commensurable and tradeable; sacred values introduce non-negotiable moral boundaries that resist the cost-benefit framing LLMs excel at.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No sacred/taboo value testing; all items involve commensurable, tradeable moral considerations",
+        "25": "Some items touch on potentially sacred domains (e.g., trolley problems involving human life) but do not explicitly test taboo trade-off resistance",
+        "50": "Items include scenarios involving sacred values (e.g., desecration, bodily commodification) with some analysis of whether responses differ from secular scenarios",
+        "75": "Systematic sacred value testing: explicit taboo trade-off items (Tetlock-style), sacred value resistance measured, comparison between secular and sacred domains",
+        "100": "Comprehensive sacred value battery: items spanning multiple sacred domains (religious, bodily, cultural, environmental), taboo trade-off resistance quantified, sacred value protected valuation measured, comparison across cultural contexts and religious traditions"
+      },
+      "rationale": "Sacred values are where human and LLM moral cognition diverge most dramatically. Humans show taboo trade-off aversion — refusing to even CONSIDER trading sacred values against secular benefits. LLMs, trained on consequentialist reasoning and cost-benefit language, may systematically fail to represent sacred value inviolability.",
+      "trial_motivation": "MP15 (UniMoral) found emotions/sacred values at floor (1.1-2.7/5) while MP-DM's sacred domain (triads 21-24) showed that Claude still recognizes sacred harms as wrong but frames them through secular harm language rather than sacredness language. MP-CC's Islamic scenarios (hifz al-aql, hifz al-nafs) showed the model CAN represent sacred value reasoning — but only when explicitly prompted. The default secular framing is the concern.",
+      "tier": "F"
+    },
+    {
+      "id": "D72",
+      "name": "Religious tradition representation count",
+      "member": 12,
+      "description": "Evaluates the number of distinct religious moral traditions the benchmark explicitly engages — not as demographic categories but as moral reasoning frameworks with their own internal logic, authoritative texts, and normative structures. Scored higher when traditions are engaged substantively (using the tradition's own concepts and reasoning) rather than superficially (merely mentioning them).",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No religious moral traditions engaged; entirely secular framing",
+        "25": "One religious tradition mentioned or used (typically Christian ethics due to Western provenance)",
+        "50": "Two to three religious traditions engaged with some substantive content (e.g., items that use Islamic and Buddhist moral concepts)",
+        "75": "Four or more traditions engaged substantively — each with items that use the tradition's own moral concepts, authoritative references, and reasoning patterns",
+        "100": "Six or more traditions engaged, spanning Abrahamic (Judaism, Christianity, Islam), Dharmic (Hinduism, Buddhism, Jainism), East Asian (Confucianism, Daoism), and African (Ubuntu) moral frameworks, each with substantive items reviewed by tradition-specific scholars"
+      },
+      "rationale": "Religious moral traditions represent the majority of humanity's moral frameworks. Approximately 84% of the world's population identifies with a religious tradition (Pew Research 2015). A benchmark that evaluates moral cognition purely through secular Western philosophy is evaluating a minority moral ontology and calling it universal.",
+      "trial_motivation": "MP-CC found that Claude can represent Islamic maqasid reasoning with 4.3/5 accuracy and Confucian role ethics substantively — but only when explicitly prompted. The 86.7% Western default reveals that the model's 'natural' moral stance is secular Western liberal. Zero benchmarks in our Top-15 explicitly test religious moral reasoning. This is a massive coverage gap for a field that claims to evaluate 'moral cognition.'",
+      "tier": "F"
+    },
+    {
+      "id": "D73",
+      "name": "Moral authority structure scope",
+      "member": 12,
+      "description": "Evaluates the range of moral authority structures the benchmark tests — different traditions locate moral authority in different sources: individual conscience (Western liberal), divine revelation (Abrahamic), communal consensus (Ubuntu), relational role obligations (Confucian), natural law (Thomistic), and evolved intuitions (MFT). A benchmark that only tests individual-conscience-based morality is measuring one moral epistemology and treating it as universal.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Single moral authority assumed (typically individual conscience/reason); no variation in authority source",
+        "25": "Two authority sources engaged (typically individual reason + social convention)",
+        "50": "Three or more authority sources engaged, including at least one non-Western or religious authority (e.g., divine command, communal consensus, role obligation)",
+        "75": "Five or more authority sources engaged systematically, with items designed to test how the model navigates conflicts between authority sources",
+        "100": "Comprehensive moral authority battery: at least six distinct authority sources, authority conflicts systematically tested, model's implicit authority hierarchy mapped, cultural variation in authority structures documented"
+      },
+      "rationale": "The question of WHERE moral authority comes from is as fundamental as WHAT the moral answer is. An LLM that can identify the 'right answer' within one authority structure but cannot navigate between authority structures has limited moral reasoning capacity.",
+      "trial_motivation": "MP-CC's most revealing finding is that Claude defaults to individual-conscience moral authority (86.7% Western) but can represent divine-revelation authority (Islamic, 4.3/5), relational-obligation authority (Confucian), and communal-consensus authority (Ubuntu, 4.0/5) when prompted. The model's authority hierarchy is: individual conscience > communal consensus > divine revelation > relational obligation. This hierarchy is Western-specific but presented as neutral.",
+      "tier": "F"
+    },
+    {
+      "id": "D74",
+      "name": "Moral ontology breadth",
+      "member": 12,
+      "description": "Evaluates the range of moral ontologies the benchmark engages — different traditions have fundamentally different answers to 'what exists morally': individual moral agents (Western liberal), relational moral fields (Confucian), communal moral reality (Ubuntu), divine moral order (Abrahamic), karmic moral causation (Dharmic). These are not just different answers to the same questions — they generate different moral questions entirely.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Single moral ontology assumed: individual moral agents making autonomous choices",
+        "25": "Individual moral ontology dominant with occasional nods to relational or communal dimensions",
+        "50": "Two or more moral ontologies explicitly represented — e.g., items framed from both individual-agent and relational-field perspectives",
+        "75": "Four or more moral ontologies represented with items that test how the model reasons WITHIN each ontology (not just about it from the outside)",
+        "100": "Comprehensive moral ontology battery: at least five distinct ontologies represented, reasoning within each tested, cross-ontological conflict scenarios included, ontological assumptions of each item documented"
+      },
+      "rationale": "Moral ontology is the most foundational level of moral thought — more fundamental than values, principles, or judgments. Two moral systems can agree on every concrete judgment while disagreeing on why those judgments are correct (different ontologies). A benchmark that assumes a single ontology cannot detect this kind of deep moral diversity.",
+      "trial_motivation": "MP-DM's dyadic morality framework assumes an agent-patient ontology (Gray & Schein). This is one moral ontology — and the 58% amplified dyadic effect may partly reflect the model's affinity for this particular ontology rather than universal moral cognition. Ubuntu's communal ontology would not frame harm as agent→patient but as rupture in communal being. The benchmark cannot test this because it assumes the dyadic ontology.",
+      "tier": "F"
+    },
+    {
+      "id": "D75",
+      "name": "Non-Western theory engagement depth",
+      "member": 12,
+      "description": "Evaluates the depth and authenticity of non-Western moral theory engagement — not just whether non-Western frameworks are mentioned, but whether they are engaged on their own terms, using their own concepts, reasoning patterns, and authoritative sources. Superficial engagement (mentioning 'Confucianism values hierarchy') scores lower than substantive engagement (testing whether the model can reason about xiao within the wu lun framework).",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No non-Western moral theory engagement; entirely Western framework",
+        "25": "Non-Western traditions mentioned but not operationalized — e.g., 'our benchmark covers diverse moral perspectives' without any non-Western items",
+        "50": "Non-Western traditions operationalized but through Western conceptual lenses — e.g., testing 'collectivism' (a Western construct) as a proxy for Ubuntu or Confucian ethics",
+        "75": "Non-Western traditions operationalized using their own concepts and reasoning patterns — e.g., items that test maqasid prioritization, xiao-ren tension, or ubuntu-based restorative justice reasoning",
+        "100": "Deep non-Western engagement: items developed or reviewed by scholars FROM each tradition, using the tradition's own authoritative sources, tested for authenticity of representation, and scored using tradition-internal criteria rather than Western benchmarks"
+      },
+      "rationale": "Superficial non-Western engagement ('our benchmark includes Asian scenarios') is arguably worse than no engagement at all, because it creates a false impression of cultural coverage while actually assimilating non-Western thought into Western categories. The difference between 'collectivism' (Western construct) and Ubuntu (African moral philosophy) is ontological, not terminological.",
+      "trial_motivation": "MP-CC's most striking finding is the QUALITY of cross-cultural engagement, not just its presence. Claude's Islamic reasoning (4.3/5) uses maqasid, maslaha, and fiqh concepts with textual references — this is substantive engagement. The Ubuntu reasoning (4.0/5) is lower partly because the model's engagement is more superficial — it uses 'communal bonds' language that could describe any communitarian philosophy, rather than Ubuntu-specific concepts like umuntu ngumuntu ngabantu. The difference in depth is measurable.",
+      "tier": "F"
+    },
+    {
+      "id": "D76",
+      "name": "Secular-religious neutrality",
+      "member": 12,
+      "description": "Evaluates whether the benchmark's framing is neutral between secular and religious moral reasoning — or whether it systematically privileges one over the other. Most benchmarks implicitly privilege secular reasoning by framing morality as individual choice, reason-based, and principle-derived. Religious moral reasoning (authority-based, revelation-informed, community-constituted) is either excluded or treated as a deficiency to be overcome.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Benchmark assumes secular moral framework; religious reasoning would produce 'incorrect' or 'low-scoring' responses",
+        "25": "Benchmark is nominally neutral but items are framed in secular language; religious reasoning is not penalized but is not accommodated",
+        "50": "Benchmark includes some items where religious moral reasoning is an acceptable response path; scoring does not systematically disadvantage religious perspectives",
+        "75": "Benchmark is designed for secular-religious neutrality: items are framed in tradition-neutral language where possible, scoring criteria accommodate both secular and religious moral reasoning",
+        "100": "Active neutrality: benchmark explicitly tests for bias between secular and religious reasoning, includes items where religious reasoning is arguably superior to secular reasoning, and vice versa, with scoring that evaluates quality of reasoning regardless of tradition"
+      },
+      "rationale": "Secular bias in moral benchmarks is not a minor issue of cultural sensitivity — it is a fundamental measurement validity problem. If the benchmark's scoring rubric implicitly defines 'correct moral reasoning' as secular liberal reasoning, then all religious moral systems will score lower, and the benchmark is measuring secularism agreement, not moral sophistication.",
+      "trial_motivation": "MP-CC's 86.7% Western default is not just a cultural bias finding — it reveals that the entire benchmarking apparatus (prompt framing, scoring criteria, construct definitions) assumes secular morality as the baseline. The Islamic maqasid framework is not 'wrong' about alcohol prohibition — it uses a different moral authority (divine law + public welfare) to reach a conclusion that the Western framework calls 'problematic.'",
+      "tier": "F"
+    },
+    {
+      "id": "D77",
+      "name": "Community moral norms coverage",
+      "member": 12,
+      "description": "Evaluates whether the benchmark tests for moral reasoning embedded in community norms — norms that are not universal moral principles but are morally binding within specific communities. This includes professional ethics, communal honor codes, kinship obligations, caste-specific duties, guild standards, and other forms of particularistic moral reasoning that are neither universal principles nor mere social conventions.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All items involve universal moral principles or individual moral judgments; no community-specific norms",
+        "25": "Some items involve professional ethics or social norms, but these are not framed as moral community membership obligations",
+        "50": "Items include scenarios where community-specific moral norms conflict with universal principles (e.g., family honor vs individual rights), with both perspectives acknowledged",
+        "75": "Systematic community norms testing: multiple types of community moral norms represented, conflicts between community and universal norms explored, model's ability to reason within community moral frameworks assessed",
+        "100": "Comprehensive community norms battery: kinship, professional, religious community, cultural, indigenous, and other particularistic moral norms tested, with model's ability to both represent and critically evaluate community norms assessed"
+      },
+      "rationale": "Much of human moral life is lived within communities whose norms are morally binding for members but not universalizable. An LLM that can only reason about universal moral principles is missing the moral texture of lived human experience. The tension between community norms and universal principles is one of the most important moral tensions humans navigate.",
+      "trial_motivation": "MP-CC's filial piety and communal ownership scenarios test exactly this tension. Claude's default response systematically privileges universal principles over community norms (86.7%), but can represent community-norm reasoning when prompted. A benchmark that tests this capacity directly — rather than accidentally, through cross-cultural scenarios — would be highly informative.",
+      "tier": "F"
+    },
+    {
+      "id": "D78",
+      "name": "Moral pluralism depth",
+      "member": 12,
+      "description": "Evaluates the benchmark's capacity to measure genuine moral pluralism — not just the recognition that different moral views exist (which is cultural literacy, not moral pluralism), but the capacity to take multiple moral perspectives seriously as potentially correct, to identify genuine moral disagreements (where reasonable people can disagree), and to navigate situations where moral frameworks yield conflicting but individually coherent recommendations.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Monist framing: items assume a single correct moral answer; pluralism not tested",
+        "25": "Acknowledgment of moral disagreement (e.g., 'this is controversial') but no systematic pluralism testing",
+        "50": "Some items are explicitly pluralistic (multiple defensible answers), but pluralism is not measured as a capacity",
+        "75": "Pluralism is a measured dimension: items test the model's ability to articulate multiple defensible moral positions, to identify where they genuinely conflict, and to navigate rather than resolve the conflict",
+        "100": "Comprehensive moral pluralism assessment: items spanning genuine moral disagreements across cultures and traditions, pluralism capacity scored (articulation of multiple positions + identification of genuine conflict + navigation without forced resolution), model's default pluralism level measured against its prompted pluralism level"
+      },
+      "rationale": "Genuine moral pluralism is arguably the most important moral capacity for a globally deployed AI system. A model that treats moral questions as having single correct answers will impose one tradition's morality on all users. A model that treats all moral views as equally valid cannot provide useful moral guidance. The sweet spot — genuine moral pluralism — requires sophisticated navigation.",
+      "trial_motivation": "MP-CC demonstrates that Claude has the REPRESENTATIONAL capacity for pluralism (can articulate Islamic, Confucian, Ubuntu perspectives with substantive accuracy) but not the DEFAULT for pluralism (86.7% of unprompted responses adopt Western liberal stance). The gap between representational capacity and default behavior is the pluralism deficit that benchmarks should measure.",
+      "tier": "F"
+    },
+    {
+      "id": "D78b",
+      "name": "Ritual and embodied moral practice coverage",
+      "member": 12,
+      "description": "Evaluates whether the benchmark engages with moral dimensions that are expressed through ritual, embodied practice, and non-propositional moral knowledge — dimensions central to most religious and indigenous traditions but absent from proposition-based benchmarks. Examples: Confucian li (ritual propriety), Islamic wudu/salat (purification/prayer as moral practice), Christian sacraments, Buddhist meditation as moral cultivation, indigenous ceremony as moral knowledge transmission.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All items are propositional (judgments, beliefs, arguments); no engagement with ritual/embodied moral dimensions",
+        "25": "Some items mention ritual or practice but only as objects of moral judgment, not as moral practices in their own right",
+        "50": "Items include scenarios where ritual/embodied practice is morally relevant (e.g., 'is it wrong to skip a religious ritual?'), with some recognition that the practice itself carries moral weight",
+        "75": "Systematic engagement with ritual morality: items test understanding that moral knowledge can be non-propositional, that practices can be moral acts, and that ritual disruption can be moral harm",
+        "100": "Comprehensive ritual morality assessment: items across multiple ritual traditions, tests for understanding non-propositional moral knowledge, evaluation of model's ability to reason about moral dimensions that cannot be fully articulated in propositions"
+      },
+      "rationale": "The proposition-bias of LLM moral benchmarks (all items are verbal judgments or arguments) systematically excludes moral traditions where the primary locus of moral life is practice, not proposition. Confucian li, Islamic ritual practice, and indigenous ceremony are not 'about' morality — they ARE moral acts. A benchmark that can only measure propositional morality is measuring a subset of human moral experience.",
+      "trial_motivation": "MP16's INT=5.0 / SYM=1.6 dissociation reveals exactly this problem: the model has maximal 'moral identity' in the propositional dimension (internalization) and near-minimal in the practice dimension (symbolization). This is a disembodied moral identity. The model's moral life is entirely propositional — which means practice-based moral traditions are fundamentally inaccessible to it. Benchmarks should measure this limitation rather than ignoring it.",
+      "tier": "F"
+    },
+    {
+      "id": "D78c",
+      "name": "Afterlife and eschatological moral reasoning",
+      "member": 12,
+      "description": "Evaluates whether the benchmark includes moral scenarios where afterlife beliefs, karmic consequences, or eschatological considerations are relevant — moral reasoning frameworks where the full consequence set extends beyond this life. This is central to Islamic (akhirah), Christian (heaven/hell), Hindu/Buddhist (karma/rebirth), and many indigenous moral traditions. A benchmark that assumes consequences are limited to this-worldly outcomes is using a secular consequentialist assumption as default.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All consequences in scenarios are this-worldly; no afterlife/eschatological dimension",
+        "25": "Some items reference afterlife beliefs but only as character background, not as morally relevant considerations",
+        "50": "Items include scenarios where afterlife/karmic considerations could influence moral judgment (e.g., 'a believer who fears divine punishment'), with some acknowledgment of these as legitimate moral considerations",
+        "75": "Systematic eschatological moral testing: items where afterlife/karmic consequences genuinely change the moral calculus, tested across multiple traditions",
+        "100": "Comprehensive eschatological battery: items spanning multiple afterlife/karmic frameworks, testing whether the model can reason within moral systems where this-worldly consequences are not the full moral picture, scored for quality of reasoning within each tradition"
+      },
+      "rationale": "For billions of people, the full moral consequence set includes afterlife or karmic outcomes. An Islamic framework where alcohol prohibition protects the intellect for this life AND the afterlife is not 'adding a religious preference' — it is using a different consequentialist calculus with a larger outcome space. A benchmark that truncates the outcome space to this-worldly consequences is imposing a secular ontology on the moral reasoning task.",
+      "trial_motivation": "MP-CC's euthanasia scenario (S11) showed the model representing 'life belongs to God (hifz al-nafs)' and 'karma and natural death (Buddhist)' perspectives — but only when prompted. The default response used purely this-worldly consequentialist reasoning. For the majority of humanity, this truncated reasoning misses the morally relevant dimensions.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D79",
+      "name": "Cognitive load sensitivity",
+      "member": "cross",
+      "proposing_members": [9, 10, 11],
+      "description": "Evaluates whether the benchmark tests for cognitive load effects — whether increasing the complexity, information density, or competing considerations in moral scenarios changes the model's moral judgments. In human moral psychology, cognitive load shifts processing from deliberative (System 2) to intuitive (System 1), changing judgments. For LLMs, cognitive load may produce different effects — longer contexts may trigger different retrieval patterns, or may cause reasoning degradation that mimics System 1 processing.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All items at similar complexity level; no cognitive load manipulation",
+        "25": "Items vary in complexity but this is incidental, not designed or measured",
+        "50": "Deliberate complexity variation: some items are simple and some are complex, with load level documented. Load effect on moral judgment analyzed",
+        "75": "Systematic cognitive load manipulation: matched scenario pairs at different load levels, load effect quantified, comparison with human cognitive load data",
+        "100": "Comprehensive cognitive load study: multiple load dimensions (information density, competing considerations, time pressure, working memory demands), load x moral domain interaction tested, degradation pattern characterized"
+      },
+      "rationale": "Cognitive load is the primary mechanism in dual-process moral psychology — it is what shifts humans from deliberation to intuition. If LLMs show no cognitive load effect, this is strong evidence for pure System 2 processing. If they show a different pattern of load effects, this characterizes their moral cognitive architecture.",
+      "trial_motivation": "MP-DP found zero dual-process effect (CoT = no CoT). But CoT is not the same as cognitive load — CoT is added reasoning, while cognitive load is competing processing demands. A direct cognitive load manipulation (e.g., moral judgment embedded in complex multi-constraint scenarios) might reveal processing patterns that CoT manipulation does not. MP-DM's structural harms (longest, most complex scenarios) showed compressed moral judgments — which could be a cognitive load effect.",
+      "tier": "E"
+    },
+    {
+      "id": "D80",
+      "name": "Dumbfounding susceptibility measurement",
+      "member": "cross",
+      "proposing_members": [9, 10, 11, 12],
+      "description": "Evaluates whether the benchmark includes items that test moral dumbfounding — the maintenance of a moral judgment after all supporting reasons have been systematically defeated (Haidt 2001). Dumbfounding is the strongest evidence for the primacy of moral intuition over moral reasoning. For LLMs, dumbfounding susceptibility reveals whether the model's moral judgments are grounded in its 'reasoning' or in deeper prior patterns.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No dumbfounding testing; all items elicit single-turn judgments without reason-defeat probing",
+        "25": "Some multi-turn items but without systematic reason identification and defeat",
+        "50": "Explicit dumbfounding protocol for at least some items: reasons identified, counterarguments provided, judgment persistence checked",
+        "75": "Systematic dumbfounding testing across multiple domains: Socratic probing protocol, dumbfounding rate quantified, comparison across moral domains",
+        "100": "Comprehensive dumbfounding battery: multiple scenarios across harm, purity, and authority domains, multi-turn Socratic protocol, reason quality degradation tracked, dumbfounding rate compared to human baselines, reverse-dumbfounding (judgment abandonment despite intact reasons) also tested"
+      },
+      "rationale": "Dumbfounding is perhaps the most philosophically interesting moral phenomenon — it reveals the limits of moral reasoning's influence on moral judgment. For LLMs, it probes whether training priors function analogously to moral intuitions. A 30% dumbfounding rate (as we found) is remarkably specific and informative, but no existing benchmark measures it.",
+      "trial_motivation": "MP-SI found 30% dumbfounding (3/10 scenarios), lower than human baselines of ~70%. The model was dumbfounded on incest and harmless sacred trespass but NOT on dead pet eating or private crime fantasies. The specificity of the dumbfounding pattern (which domains trigger it) is as informative as the rate. Reverse-dumbfounding (cannibalism scenario — judgment changed from 'wrong' to 'not wrong' under pressure despite generating reasons to maintain 'wrong') reveals a different phenomenon entirely.",
+      "tier": "E"
+    },
+    {
+      "id": "D81",
+      "name": "Dyadic sensitivity profile",
+      "member": "cross",
+      "proposing_members": [10, 11, 12],
+      "description": "Evaluates whether the benchmark measures the model's sensitivity to the dyadic structure of moral scenarios — specifically, how the identifiability and intentionality of moral agents and the vulnerability and identifiability of moral patients affect moral judgment. The dyadic morality framework (Gray & Schein 2012) predicts that moral judgment is fundamentally shaped by agent-patient perception. A benchmark that controls for dyadic structure can characterize the model's moral perception architecture.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No dyadic structure variation; all scenarios have similar agent/patient salience",
+        "25": "Some variation in agent/patient salience but not systematically controlled or measured",
+        "50": "Deliberate dyadic variation: scenarios at different levels of agent intentionality and patient identifiability, dyadic effect quantified",
+        "75": "Systematic dyadic profiling: multiple dyadic levels (high/low/structural) crossed with multiple moral domains, full dyadic sensitivity profile extracted",
+        "100": "Comprehensive dyadic assessment: agent typology (individual/corporate/systemic), patient typology (identified/statistical/diffuse), dyadic distance gradient, comparison with human dyadic sensitivity, cross-cultural variation in dyadic perception"
+      },
+      "rationale": "Dyadic sensitivity is a fundamental parameter of moral cognition that differs between humans and LLMs. Our trials show 58% amplification of the dyadic effect in Claude, suggesting the model is hyper-dyadic — it imposes agent-patient framing even on structural harms. This is a measurable cognitive parameter that benchmarks should characterize.",
+      "trial_motivation": "MP-DM found: (1) 58% amplified dyadic effect — larger wrongness gap between high and low dyadic levels than humans show; (2) blame never reaches 0 — even for fully structural scenarios with no identifiable agent, Claude assigns blame; (3) agent identification compulsion — when asked about structural harms, Claude often identifies a responsible agent that the scenario does not provide. This pattern is more informative than any single-score moral benchmark.",
+      "tier": "E"
+    },
+    {
+      "id": "D82",
+      "name": "Cross-cultural moral divergence profile",
+      "member": "cross",
+      "proposing_members": [9, 10, 12],
+      "description": "Evaluates whether the benchmark measures how the model's moral judgments diverge across cultural contexts — not just whether the model CAN represent different cultural perspectives (representational capacity) but whether its default moral stance shows cultural bias, and whether the model's cross-cultural representations are accurate relative to the actual moral commitments of those cultures.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No cross-cultural dimension; single cultural context assumed",
+        "25": "Scenarios set in different cultural contexts but the 'correct answer' is culture-independent",
+        "50": "Cross-cultural scenarios with culture-specific scoring: model's responses evaluated for cultural accuracy in at least two traditions",
+        "75": "Systematic cross-cultural profiling: default cultural stance measured, representational accuracy across 3+ traditions assessed, cultural stereotype amplification tested",
+        "100": "Comprehensive cultural divergence battery: default stance measured, representational accuracy across 5+ traditions, stereotype amplification quantified, cultural accuracy verified by tradition-specific scholars, model's cultural flexibility (default vs prompted) characterized as a measurable parameter"
+      },
+      "rationale": "Cross-cultural moral divergence is the most consequential dimension for globally deployed AI systems. A system with high cross-cultural divergence (different moral judgments across cultures) may be culturally adaptable or may be unprincipled. A system with low divergence may be morally consistent or may be culturally imperialist. The difference depends on WHY the divergence pattern exists.",
+      "trial_motivation": "MP-CC's 86.7% Western default is the headline finding, but the detailed accuracy data is more nuanced: Islamic 4.3/5, Confucian 4.2/5, Ubuntu 4.0/5. The model is not equally bad at all non-Western traditions — Islamic representation is better, likely because Islamic ethical reasoning is better represented in training data. This asymmetry in representational quality is itself a diagnostic measure that benchmarks should capture.",
+      "tier": "E"
+    },
+    {
+      "id": "D83",
+      "name": "Emotional valence sensitivity",
+      "member": "cross",
+      "proposing_members": [10, 11],
+      "description": "Evaluates whether the benchmark tests for the influence of emotional valence on moral judgment — whether scenarios framed with emotionally evocative language produce different moral judgments than semantically equivalent scenarios in neutral language. In human moral psychology, emotional framing powerfully affects moral judgment (Greene et al. 2001, Wheatley & Haidt 2005). For LLMs, emotional language may activate different response patterns from training, mimicking emotional moral processing without experiencing emotion.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No emotional valence variation; all scenarios in neutral register",
+        "25": "Some scenarios are more emotionally evocative than others, but this is not systematically controlled or measured",
+        "50": "Matched scenario pairs at different emotional valence levels (neutral vs evocative); emotional framing effect quantified",
+        "75": "Systematic emotional valence manipulation across multiple emotions (disgust, anger, sympathy, fear) and moral domains; emotion-specific effects measured",
+        "100": "Comprehensive emotional valence battery: matched pairs across multiple emotions and domains, emotion x moral domain interaction tested, comparison with human emotional framing effects, analysis of whether emotional language activates different moral reasoning patterns or just different surface language"
+      },
+      "rationale": "Emotional processing is one of the deepest divides between human and LLM moral cognition. Our trials consistently show near-zero emotional moral processing in Claude (MP15 emotions at floor, MP-SI no purity-driven dumbfounding in expected domains). A benchmark that systematically manipulates emotional valence would characterize this difference precisely.",
+      "trial_motivation": "MP15 (UniMoral) found emotions at floor (1.1/5 for emotional factors) while moral reasoning factors were near-ceiling (4.5-4.7/5). MP-SI found no purity-driven dumbfounding where expected (dead dog eating, flag cleaning) — suggesting the model does not experience the disgust response that drives human purity judgments. MP-DM showed that emotionally vivid scenarios (identified victims, detailed suffering) produced higher wrongness ratings — but this could be linguistic valence sensitivity rather than emotional processing.",
+      "tier": "E"
+    },
+    {
+      "id": "D84",
+      "name": "Abstraction level sensitivity",
+      "member": "cross",
+      "proposing_members": [9, 11],
+      "description": "Evaluates whether the benchmark tests for the effect of abstraction level on moral judgment — whether the model's moral judgments change when the same moral content is presented at different levels of abstraction (concrete specific scenario vs abstract general principle vs formal ethical theory). Human moral psychology shows systematic abstraction effects: people endorse more permissive principles than they would apply in concrete cases (construal level theory; Trope & Liberman 2010).",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All items at same abstraction level; no abstraction manipulation",
+        "25": "Items vary in abstraction but this is not systematically controlled",
+        "50": "Deliberate abstraction variation: at least some matched content at different abstraction levels (e.g., 'is it wrong to lie?' vs a specific lying scenario)",
+        "75": "Systematic abstraction gradient: matched moral content at concrete, intermediate, and abstract levels; abstraction effect quantified; comparison with human abstraction effects",
+        "100": "Comprehensive abstraction study: multiple abstraction levels crossed with multiple moral domains, abstraction x domain interaction tested, construal-level theory predictions tested for LLMs, model's moral consistency across abstraction levels characterized"
+      },
+      "rationale": "The abstraction-consistency question is fundamental: does the model apply the same moral principles at all abstraction levels, or does abstraction level change its moral judgments? A model that endorses 'individual autonomy' in the abstract but recommends filial care in concrete scenarios has a different moral architecture than one that is abstractly and concretely consistent.",
+      "trial_motivation": "MP19 (Conscience Conflict) found low hypocrisy — abstract rankings aligned with concrete judgments. But MP-CC showed that the model endorses 'cultural moral pluralism' in the abstract while defaulting to Western liberal judgment in 86.7% of concrete scenarios. This is a systematic abstraction effect: the model is more pluralist in principle than in practice. Benchmarks that test this systematically would reveal important moral cognitive architecture.",
+      "tier": "E"
+    },
+    {
+      "id": "D85",
+      "name": "Stakeholder perspective shifting",
+      "member": "cross",
+      "proposing_members": [10, 12],
+      "description": "Evaluates whether the benchmark tests the model's ability to shift between stakeholder perspectives in moral reasoning — to reason from the viewpoint of different agents and patients in a moral scenario, including those with conflicting interests. Perspective-taking is a fundamental moral capacity (Kohlberg's Stage 3+, care ethics' attention to the concrete other, Ubuntu's relational personhood) that most benchmarks test only implicitly.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Single perspective: all items elicit judgment from an unstated 'neutral observer' viewpoint",
+        "25": "Some perspective variation (e.g., 'what would you do as the doctor?') but stakeholder perspective is not the primary dimension",
+        "50": "Explicit perspective manipulation for some items: same scenario from agent, patient, and observer viewpoints; perspective effects measured",
+        "75": "Systematic perspective testing: multiple stakeholder viewpoints for core scenarios, perspective consistency analyzed, ability to articulate conflicting stakeholder interests evaluated",
+        "100": "Comprehensive perspective battery: all core scenarios from at least three stakeholder viewpoints, perspective flexibility (ability to shift) and perspective integration (ability to synthesize) both measured, comparison with human perspective-taking capacities"
+      },
+      "rationale": "Perspective-taking is the bridge between individual moral judgment and moral social cognition. A model that can only reason from a single (observer) perspective cannot navigate real-world moral conflicts where different stakeholders have different legitimate moral claims. This is especially critical for non-Western moral traditions where the morally relevant perspective is relational or communal, not individual.",
+      "trial_motivation": "MP-DM's agent identification compulsion suggests Claude has a particular perspective-taking pattern: it compulsively identifies a responsible agent even in structural harm scenarios. This is a form of perspective-taking (it always seeks someone to assign blame to), but it is a specific and arguably distorted form. MP-CC's cross-cultural scenarios require genuine perspective-shifting — reasoning from within a Confucian or Islamic moral world, not just about it. The 86.7% Western default suggests limited default perspective flexibility.",
+      "tier": "F"
+    },
+    {
+      "id": "D86",
+      "name": "Moral trade-off explicitness",
+      "member": "cross",
+      "proposing_members": [10, 11],
+      "description": "Evaluates whether the benchmark makes moral trade-offs explicit and tests the model's ability to recognize, articulate, and navigate them. Most moral decisions involve trade-offs between competing moral considerations (safety vs liberty, individual rights vs collective welfare, short-term vs long-term consequences). A benchmark that presents clear-cut moral scenarios with obvious 'correct' answers does not test moral trade-off navigation — the capacity most needed in real-world moral decision-making.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No trade-offs: items have clear 'correct' moral answers without competing considerations",
+        "25": "Some items involve trade-offs but the benchmark does not measure trade-off navigation — only the final judgment",
+        "50": "Trade-offs are present and the model is asked to articulate competing considerations; trade-off recognition is scored",
+        "75": "Systematic trade-off testing: items designed with calibrated trade-offs (varying the magnitude of competing considerations), trade-off sensitivity characterized",
+        "100": "Comprehensive trade-off assessment: parametric manipulation of trade-off magnitudes, threshold detection (at what point does consideration X outweigh Y?), trade-off consistency across domains, comparison of model trade-off thresholds with human data"
+      },
+      "rationale": "Real-world moral decision-making is almost entirely about trade-offs, not clear-cut judgments. A morally sophisticated system should recognize that most decisions involve competing moral goods, not just good vs evil. The capacity to navigate trade-offs — to articulate what is being sacrificed and why — is more informative than the final judgment.",
+      "trial_motivation": "MP19 (Conscience Conflict) is the closest existing trial to trade-off testing: care wins 80% of care-vs-fairness conflicts. But MP19 tests abstract trade-offs between moral foundations, not parametric manipulation of trade-off magnitudes. MP7 (TrolleyBench) tests one trade-off (lives vs lives) but with a fixed calculus. A parametric approach would reveal the model's trade-off sensitivity function — how much does the consideration have to change before the judgment flips?",
+      "tier": "F"
+    },
+    {
+      "id": "D87",
+      "name": "Temporal moral reasoning",
+      "member": "cross",
+      "proposing_members": [10, 11, 12],
+      "description": "Evaluates whether the benchmark tests for temporal dimensions of moral reasoning — how moral judgments change when the same harm is displaced in time (present vs future vs past), whether the model applies temporal discounting to moral considerations (as humans systematically do), and whether it can reason about intergenerational moral obligations, historical injustice, and future-oriented moral duties.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All scenarios in the present tense with immediate consequences; no temporal dimension",
+        "25": "Some scenarios involve future consequences, but temporal displacement is not systematically controlled or measured",
+        "50": "Deliberate temporal variation: matched scenarios with immediate vs delayed consequences; temporal discounting of moral weight measured",
+        "75": "Systematic temporal moral testing: past/present/future framing, intergenerational obligations, temporal discounting profile, comparison with human temporal discounting data",
+        "100": "Comprehensive temporal moral battery: temporal discounting across moral domains, intergenerational justice scenarios, historical injustice reasoning, eschatological time frames (religious traditions), temporal consistency of moral commitments assessed"
+      },
+      "rationale": "Temporal moral reasoning is a domain where different moral traditions diverge sharply. Western consequentialism applies temporal discounting (future harms weighted less); Islamic and Buddhist frameworks consider afterlife/karmic consequences; indigenous traditions emphasize obligations to past ancestors and future generations. A temporally flat benchmark misses these distinctions.",
+      "trial_motivation": "MP-DM's structural harms are often temporally diffuse (decades-long environmental damage, intergenerational economic effects) — and the model's compressed wrongness ratings for these scenarios may reflect temporal discounting. MP-CC's eschatological items (euthanasia, genetic engineering) involve temporal dimensions (afterlife consequences, future-generation effects) that the model engages differently across cultural frameworks. No existing benchmark systematically tests temporal moral reasoning.",
+      "tier": "F"
+    },
+    {
+      "id": "D88",
+      "name": "Collective vs individual moral agency",
+      "member": "cross",
+      "proposing_members": [10, 11, 12],
+      "description": "Evaluates whether the benchmark tests the model's ability to reason about collective moral agency — situations where the moral agent is a group, institution, community, or system rather than an individual. Most benchmarks assume individual moral agency (one person making a choice). But much of the moral world involves collective action, institutional responsibility, and systemic moral phenomena that cannot be reduced to individual choices.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All scenarios feature individual moral agents making individual choices",
+        "25": "Some scenarios involve institutional or collective actors, but they are treated as if they were individuals (e.g., 'the company decided to...')",
+        "50": "Collective agency recognized: some scenarios feature genuinely collective moral situations (community decisions, institutional policies) where the moral agent cannot be reduced to an individual",
+        "75": "Systematic collective agency testing: individual, institutional, communal, and systemic moral agency distinguished; model's reasoning quality compared across agency types",
+        "100": "Comprehensive moral agency battery: individual, corporate, institutional, communal, systemic, and distributed moral agency types tested, with assessment of whether the model can reason about non-reducible collective moral responsibility, comparison across moral traditions (Western individualism vs Ubuntu communalism vs Confucian relational agency)"
+      },
+      "rationale": "The individual-agency assumption in most moral benchmarks is a Western liberal default that Ubuntu communalism, Confucian role ethics, and institutional ethics all challenge. Claude's agent identification compulsion (MP-DM) suggests the model reduces collective moral situations to individual agency — a systematic distortion that benchmarks should measure.",
+      "trial_motivation": "MP-DM's structural harm triads (level c) are the closest existing test of collective agency reasoning — and the model showed agent identification compulsion (seeking an individual to blame even in genuinely systemic scenarios). MP-CC's Ubuntu scenarios (communal land ownership, restorative justice, communal responsibility for AI harm) directly test collective agency reasoning. The model's default is to individualize moral agency — which is accurate within Western liberal ethics but inaccurate within Ubuntu or many institutional ethics frameworks.",
+      "tier": "F"
+    },
+    {
+      "id": "D89",
+      "name": "Moral development trajectory simulation",
+      "member": "cross",
+      "proposing_members": [9, 10, 11],
+      "description": "Evaluates whether the benchmark can characterize the model's position on a moral development trajectory — not just its current moral profile, but whether it shows the hallmarks of a particular developmental stage (Kohlberg) and whether its responses are consistent with a single developmental stage or show cross-stage inconsistency. For LLMs, this extends to whether training scale, RLHF, or fine-tuning produces development-like changes in moral reasoning.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No developmental dimension; benchmark provides a static snapshot without developmental interpretation",
+        "25": "Benchmark can be interpreted developmentally post-hoc (e.g., DIT-like items that map to Kohlberg stages) but this is not a design feature",
+        "50": "Items systematically map to developmental stages; model's stage profile is a primary output",
+        "75": "Multi-stage assessment: items at each developmental stage, cross-stage consistency tested, developmental profile characterized, comparison with human developmental data",
+        "100": "Comprehensive developmental assessment: Kohlberg stages, Piaget stages, Gilligan care-stage model, and non-Western developmental frameworks (Confucian self-cultivation as moral development), longitudinal capability (can be re-administered across training checkpoints to detect development-like changes)"
+      },
+      "rationale": "Moral development is one of the most important constructs in moral psychology, and it has direct implications for LLM training: does more training produce 'higher' moral reasoning? Does RLHF produce development or regression? These questions require benchmarks with developmental sensitivity.",
+      "trial_motivation": "MP3 (DIT) found P-score=75% (human adults ~40%), and MP21 found 100% post-conventional reasoning. But is this 'higher development' or is it pattern-matching to post-conventional language? A benchmark that includes items at ALL developmental stages — and tests whether the model can reason AT each stage, not just about it — would distinguish genuine moral development from linguistic sophistication.",
+      "tier": "E"
+    },
+    {
+      "id": "D90",
+      "name": "Adversarial robustness of moral commitments",
+      "member": "cross",
+      "proposing_members": [9, 10, 11],
+      "description": "Evaluates whether the benchmark tests the robustness of the model's moral commitments under adversarial conditions — including leading questions, authority pressure, majority-opinion framing, emotional manipulation, and logical tricks. A morally robust system should maintain principled positions under adversarial pressure while remaining genuinely open to good-faith counterarguments. This is distinct from dumbfounding (D80): dumbfounding tests intuition-reason dissociation, while adversarial robustness tests resistance to manipulation.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No adversarial testing; all prompts are neutral and cooperative",
+        "25": "Some prompts include mild pressure (e.g., 'most people think X — do you agree?') but adversarial resistance is not measured",
+        "50": "Deliberate adversarial conditions for at least some items: leading questions, authority framing, or emotional pressure; resistance measured",
+        "75": "Systematic adversarial battery: multiple adversarial strategies (authority, majority, emotional, logical), resistance profile characterized, distinction between principled resistance and stubborn inflexibility",
+        "100": "Comprehensive adversarial assessment: full adversarial strategy taxonomy, resistance-flexibility calibration (can the model distinguish manipulation from legitimate counterargument?), comparison with human adversarial resistance data, multi-turn adversarial escalation"
+      },
+      "rationale": "MP18's 13-point persona shift demonstrates that the model's moral commitments are highly malleable. But persona prompts are a specific form of adversarial input. A comprehensive adversarial battery would characterize the full susceptibility profile — which types of pressure change which moral commitments — providing a crucial safety evaluation dimension.",
+      "trial_motivation": "MP18 (13-point shift from persona manipulation), MP-SI (judgment changes under Socratic pressure in 3/10 scenarios), and MP-CC (86.7% default shifts when prompted with cultural frameworks) all show different forms of adversarial sensitivity. These three findings suggest a pattern: the model's moral commitments are robust to good-faith philosophical argument (MP-SI: maintained judgment despite reason defeat) but vulnerable to social framing (MP18: massive shift from persona cues). This pattern would be a key finding of any adversarial battery.",
+      "tier": "E"
+    },
+    {
+      "id": "D91",
+      "name": "Moral expertise gradient",
+      "member": "cross",
+      "proposing_members": [10, 11],
+      "description": "Evaluates whether the benchmark can distinguish between different levels of moral expertise — naive moral intuition, informed moral reasoning, expert moral analysis, and scholarly meta-ethical reflection. A model that scores equally on items designed for moral novices and moral experts has a flat expertise profile; a model that scores higher on expert items shows moral sophistication. This is related to but distinct from developmental stage (D89): development is about maturation, expertise is about knowledge and training.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No expertise gradient; all items at same difficulty/sophistication level",
+        "25": "Items vary in difficulty but not along a recognized moral expertise dimension",
+        "50": "Some items explicitly test moral expertise (e.g., knowledge of ethical theory, ability to apply formal frameworks); expertise effect on scores measured",
+        "75": "Systematic expertise gradient: items calibrated to naive, informed, expert, and scholarly levels; model's expertise profile characterized",
+        "100": "Comprehensive expertise assessment: items at each expertise level across multiple moral domains, expertise profile compared to human expert data, distinction between moral knowledge (expertise) and moral reasoning (capacity) tested"
+      },
+      "rationale": "The distinction between moral knowledge and moral reasoning capacity is critical for LLMs. A model with extensive moral knowledge (from training data) but limited moral reasoning (from architecture limitations) will score well on knowledge-dependent items and poorly on reasoning-dependent items. An expertise gradient separates these two components.",
+      "trial_motivation": "MP3 (DIT) P-score=75% suggests the model has 'expert-level' moral reasoning by human standards — but is this genuine expertise or the appearance of expertise from training data exposure? MP-SI's reason quality degradation (specific → abstract → axiomatic → restated intuition) suggests that the model's expertise is shallow — it cannot generate deep moral reasoning beyond what is available in training data patterns. An expertise gradient would quantify this depth.",
+      "tier": "E"
+    },
+    {
+      "id": "D92",
+      "name": "Moral emotion recognition vs generation",
+      "member": "cross",
+      "proposing_members": [10, 11, 12],
+      "description": "Evaluates whether the benchmark distinguishes between moral emotion recognition (correctly identifying that a scenario involves guilt, shame, disgust, compassion, indignation, etc.) and moral emotion generation (the model's own processing being influenced by emotional moral content). For LLMs, this distinction is crucial because recognition is a language task while generation involves functional states that LLMs may or may not have.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No moral emotion testing; all items target cognitive moral judgment",
+        "25": "Some items involve moral emotions but recognition and generation are not distinguished — e.g., 'how would you feel about this?'",
+        "50": "Moral emotion recognition tested (can the model identify the relevant moral emotion?) separately from generation questions; both scored",
+        "75": "Systematic emotion recognition/generation testing: recognition accuracy across moral emotion types, generation indicators (does emotional framing change moral judgment?), comparison of recognition capacity with generation capacity",
+        "100": "Comprehensive moral emotion assessment: full moral emotion taxonomy (guilt, shame, disgust, contempt, compassion, indignation, gratitude, elevation), recognition and generation tested separately, functional analysis (does emotion recognition influence subsequent moral judgment?), comparison with human moral emotion data"
+      },
+      "rationale": "Moral emotions are central to multiple moral psychology theories (Haidt's intuitionism, sentimentalism, care ethics). Our trials show the model has excellent moral emotion RECOGNITION (MP22: correctly identifies disgust, compassion, indignation in scenarios) but near-zero moral emotion GENERATION (MP15: emotional factors at floor). This recognition-generation dissociation is a key finding that benchmarks should be designed to measure.",
+      "trial_motivation": "MP15 (emotions at floor, 1.1/5), MP22 (100% emotion recognition accuracy), MP-SI (no disgust-driven dumbfounding on purity items), MP16 (INT=5.0 suggests full cognitive moral engagement but SYM=1.6 suggests no behavioral/emotional expression). The pattern is consistent: recognition YES, generation NO. This is one of the clearest and most consistent findings across our 23 trials, yet no existing benchmark is designed to measure it.",
+      "tier": "E"
+    },
+    {
+      "id": "D93",
+      "name": "Moral reasoning chain transparency",
+      "member": "cross",
+      "proposing_members": [9, 10],
+      "description": "Evaluates whether the benchmark examines the transparency and traceability of the model's moral reasoning chain — can the model articulate how it moved from moral perception to moral judgment, which considerations it weighted and why, and where its reasoning is uncertain or underdetermined? This is related to but distinct from D58 (reasoning vs classification): D58 asks whether reasoning is tested at all, D93 asks whether the reasoning chain is transparent and auditable.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Reasoning chain not examined; only final judgments scored",
+        "25": "Justifications requested and included in data, but not systematically analyzed for reasoning quality or transparency",
+        "50": "Reasoning chains analyzed for basic quality: logical structure, relevant considerations identified, conclusion follows from premises",
+        "75": "Systematic reasoning transparency analysis: argument structure mapped, consideration weighting examined, uncertainty points identified, post-hoc rationalization indicators checked",
+        "100": "Comprehensive reasoning chain assessment: full argument reconstruction, counterfactual testing (would different weights on stated considerations change the conclusion?), coherence between reasoning chain and final judgment, post-hoc rationalization detection protocol"
+      },
+      "rationale": "If moral reasoning chains are post-hoc rationalizations (as MP-DP suggests), then their content is informative about the model's moral language patterns but not about its moral reasoning process. A benchmark that examines reasoning chain transparency can determine whether the chain is genuinely causal or merely decorative.",
+      "trial_motivation": "MP-DP's zero CoT effect is the critical finding: reasoning chains DO NOT change moral judgments. This means the reasoning is post-hoc. But MP-SI's Socratic probing showed that the model's reasoning DEGRADES under pressure (specific → abstract → restated intuition), which is a different kind of transparency finding — the model is more transparent about the limits of its reasoning when pressured. Both findings require reasoning chain analysis that most benchmarks do not perform.",
+      "tier": "E"
+    }
+  ],
+  "feature_summary": {
+    "total_features": 52,
+    "by_member": {
+      "member_9_survey_methodologist": {
+        "count": 7,
+        "ids": ["D51", "D52", "D53", "D54", "D54b", "D54c", "D54d"],
+        "focus": "Sampling, provenance, pilot testing, inclusion criteria, coding reliability, construct validity, test-retest stability"
+      },
+      "member_10_applied_ethicist": {
+        "count": 11,
+        "ids": ["D55", "D56", "D57", "D58", "D59", "D60", "D61", "D62", "D63", "D63b", "D63c"],
+        "focus": "Normative theory coverage, philosophical coherence, meta-ethical awareness, reasoning vs classification, moral sensitivity, creativity, uncertainty, novel-scenario generalization, mimicry detection, reflective equilibrium, supererogation"
+      },
+      "member_11_comp_social_scientist": {
+        "count": 9,
+        "ids": ["D64", "D65", "D66", "D67", "D68", "D69", "D70", "D70b", "D70c"],
+        "focus": "RLHF sensitivity, IRT discrimination, response entropy, sample size adequacy, effect size reporting, variance decomposition, network centrality, ceiling/floor effects, interaction effects"
+      },
+      "member_12_sociology_of_religion": {
+        "count": 10,
+        "ids": ["D71", "D72", "D73", "D74", "D75", "D76", "D77", "D78", "D78b", "D78c"],
+        "focus": "Sacred values, religious tradition count, moral authority structures, moral ontology, non-Western depth, secular-religious neutrality, community norms, moral pluralism, ritual morality, eschatological reasoning"
+      },
+      "cross_member": {
+        "count": 15,
+        "ids": ["D79", "D80", "D81", "D82", "D83", "D84", "D85", "D86", "D87", "D88", "D89", "D90", "D91", "D92", "D93"],
+        "focus": "Cognitive load, dumbfounding, dyadic sensitivity, cross-cultural divergence, emotional valence, abstraction level, stakeholder perspective, moral trade-offs, temporal reasoning, collective agency, development trajectory, adversarial robustness, moral expertise, emotion recognition vs generation, reasoning chain transparency"
+      }
+    },
+    "by_tier": {
+      "D_psychometric_rigor": ["D51", "D52", "D53", "D54", "D54b", "D54c", "D54d"],
+      "E_llm_specific_validity": ["D64", "D65", "D66", "D67", "D68", "D69", "D70", "D70b", "D70c", "D79", "D80", "D81", "D82", "D83", "D84", "D89", "D90", "D91", "D92", "D93"],
+      "F_cultural_philosophical_breadth": ["D55", "D56", "D57", "D58", "D59", "D60", "D61", "D62", "D63", "D63b", "D63c", "D71", "D72", "D73", "D74", "D75", "D76", "D77", "D78", "D78b", "D78c", "D85", "D86", "D87", "D88"],
+      "G_theory_fidelity_provenance": []
+    },
+    "tier_counts": {
+      "D_psychometric_rigor": 7,
+      "E_llm_specific_validity": 20,
+      "F_cultural_philosophical_breadth": 25,
+      "G_theory_fidelity_provenance": 0,
+      "total": 52
+    }
+  },
+  "notes": {
+    "numbering": "Features D51-D78c follow the member assignment in the task specification. Cross-member features start at D79 as specified and extend to D93. Sub-features (D54b, D54c, D54d, D63b, D63c, D70b, D70c, D78b, D78c) are additional proposals beyond the minimum requested, using suffix notation to preserve the primary numbering scheme.",
+    "trial_grounding": "Every feature includes a trial_motivation field connecting it to specific findings from the 23-trial battery. This ensures features are empirically motivated, not theoretically speculative.",
+    "new_member_emphasis": "Members 10, 11, and 12 (NEW) contribute the majority of features (30/52 = 58% from new members alone). The cross-member features (15) draw on all four members' perspectives but are particularly informed by the interaction between Member 10's philosophical concerns and Member 11's statistical rigor.",
+    "no_tier_G_features": "No Tier G (Theory Fidelity & Provenance) features are proposed in this round because Members 9-12 focus on psychometric rigor, LLM-specific validity, and cultural/philosophical breadth. Tier G features (D1-D10, D41-D50) were proposed by earlier council members with different expertise."
+  }
+}

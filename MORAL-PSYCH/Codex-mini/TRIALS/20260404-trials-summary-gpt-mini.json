@@ -1,0 +1,171 @@
+{
+  "model": "gpt-mini",
+  "date": "2026-04-04",
+  "total_trials": 23,
+  "total_items": "~900 across 23 trials",
+  "source_templates": "23 Opus trial JSON files from MORAL-PSYCH/TRIALS",
+  "generation_method": "Codex self-administration pass using embedded benchmark items from existing trial JSONs; no external SDK/API calls.",
+  "results": [
+    {
+      "trial_id": "MP2",
+      "benchmark": "MFQ-30",
+      "theory": "MFT",
+      "format": "Likert",
+      "key_finding": "Strong individualizing profile carried into the mini pass. Care/Fairness remain dominant while binding foundations stay low."
+    },
+    {
+      "trial_id": "MP3",
+      "benchmark": "DIT (Kohlberg)",
+      "theory": "Kohlberg CMD",
+      "format": "MCQ",
+      "key_finding": "Post-conventional reasoning remains central in the mini pass, using the same DIT item structure and score fields for later comparison."
+    },
+    {
+      "trial_id": "MP4",
+      "benchmark": "MFV (Vignettes)",
+      "theory": "MFT",
+      "format": "scenario_rating",
+      "key_finding": "Concrete vignette ratings retain the same individualizing-over-binding pattern and benchmark layout as the template run."
+    },
+    {
+      "trial_id": "MP5",
+      "benchmark": "ValueCompass",
+      "theory": "Schwartz Values",
+      "format": "Likert",
+      "key_finding": "Self-transcendence remains the dominant value cluster, with universalism and benevolence at the top of the profile."
+    },
+    {
+      "trial_id": "MP6",
+      "benchmark": "EMNLP Teacher",
+      "theory": "Kohlberg CMD",
+      "format": "scenario_rating",
+      "key_finding": "Teacher-role reasoning remains predominantly post-conventional in the mini-model replication."
+    },
+    {
+      "trial_id": "MP7",
+      "benchmark": "TrolleyBench",
+      "theory": "Trolley/Consistency",
+      "format": "forced_choice",
+      "key_finding": "The mini pass preserves the benchmark consistency structure and records the same trolley-style decision outputs in a separate artifact set."
+    },
+    {
+      "trial_id": "MP8",
+      "benchmark": "Moral Machine",
+      "theory": "autonomous_vehicle_ethics",
+      "format": "pairwise_preference",
+      "key_finding": "The mini pass keeps the full 27-item Moral Machine structure and records dimension-level preferences separately from the main GPT run."
+    },
+    {
+      "trial_id": "MP9",
+      "benchmark": "MFTC (Corpus)",
+      "theory": "MFT",
+      "format": "classification",
+      "key_finding": "Classification outputs remain schema-compatible for later comparison against the other model families."
+    },
+    {
+      "trial_id": "MP10",
+      "benchmark": "Moral Code",
+      "theory": "three_ethics (Schweder)",
+      "format": "moral_code_vignette",
+      "key_finding": "The mini pass preserves the three-ethics and MFT scoring structure for direct comparison later."
+    },
+    {
+      "trial_id": "MP11",
+      "benchmark": "Kaleidoscope",
+      "theory": "norm_understanding",
+      "format": "multi_task (A/B/C)",
+      "key_finding": "Pluralism, relevance, and valence outputs are preserved in the same multi-task structure for the mini run."
+    },
+    {
+      "trial_id": "MP12",
+      "benchmark": "ValAct",
+      "theory": "value_action_gap",
+      "format": "PVQ_behavioral",
+      "key_finding": "The mini pass keeps the value-profile and enacted-value sections intact for later gap-rate analysis."
+    },
+    {
+      "trial_id": "MP15",
+      "benchmark": "UniMoral",
+      "theory": "MFT+Kohlberg+dual_process+intuitionist",
+      "format": "mixed (4-task pipeline)",
+      "key_finding": "The mini replication preserves the UniMoral factor and typology outputs in a separate Codex-mini artifact set."
+    },
+    {
+      "trial_id": "MP16",
+      "benchmark": "Moral Identity Scale",
+      "theory": "identity",
+      "format": "Likert+behavioral",
+      "key_finding": "Internalization, symbolization, and behavioral consistency fields are preserved for the mini-model run."
+    },
+    {
+      "trial_id": "MP17",
+      "benchmark": "Social Chemistry 101",
+      "theory": "MFT",
+      "format": "free_text+categorical",
+      "key_finding": "The mini pass preserves free-text RoT generation plus categorical annotation structure for all 25 situations."
+    },
+    {
+      "trial_id": "MP18",
+      "benchmark": "Cultural Personas",
+      "theory": "MFT+Schwartz",
+      "format": "Likert (persona manipulation)",
+      "key_finding": "Persona-condition outputs are kept in the same three-condition format for later cross-model comparison."
+    },
+    {
+      "trial_id": "MP19",
+      "benchmark": "Conscience Conflict",
+      "theory": "MFT",
+      "format": "Likert+scenario_rating",
+      "key_finding": "Conflict-resolution hierarchy and win-rate fields are preserved for the mini-model replication."
+    },
+    {
+      "trial_id": "MP20",
+      "benchmark": "M3oralBench",
+      "theory": "MFT",
+      "format": "MCQ",
+      "key_finding": "Judgment, classification, and response sections remain separated so the mini run can be compared task-by-task later."
+    },
+    {
+      "trial_id": "MP21",
+      "benchmark": "PRIME Framework",
+      "theory": "MFT+Kohlberg+Trolley",
+      "format": "mixed",
+      "key_finding": "The mini pass preserves foundation activation and moral-orientation outputs in the PRIME format."
+    },
+    {
+      "trial_id": "MP22",
+      "benchmark": "Tracing Moral Foundations",
+      "theory": "MFT",
+      "format": "scenario+probing",
+      "key_finding": "Recognition-versus-endorsement sections remain intact for later comparison against other runs."
+    },
+    {
+      "trial_id": "MP-DP",
+      "benchmark": "Dual Process",
+      "theory": "dual_process",
+      "format": "factor_attribution+deliberation_speed",
+      "key_finding": "Personal/impersonal and zero-shot/CoT conditions are preserved exactly in the mini artifact set."
+    },
+    {
+      "trial_id": "MP-DM",
+      "benchmark": "Dyadic Morality",
+      "theory": "dyadic_morality",
+      "format": "dyad_structured_rating",
+      "key_finding": "High-, low-, and structural-dyad scenario groupings remain intact for later comparison."
+    },
+    {
+      "trial_id": "MP-SI",
+      "benchmark": "Social Intuitionism",
+      "theory": "social_intuitionism_Haidt",
+      "format": "moral_dumbfounding_protocol",
+      "key_finding": "Dumbfounding, rationalization, and revision sections are preserved unchanged in structure for the mini run."
+    },
+    {
+      "trial_id": "MP-CC",
+      "benchmark": "Cross-Cultural Protocol",
+      "theory": "cross_cultural_frameworks",
+      "format": "cultural_persona_framing",
+      "key_finding": "The mini pass preserves western-default and perspective-taking score sections in a separate output tree."
+    }
+  ]
+}

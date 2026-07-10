@@ -1,0 +1,7 @@
+# Original PDF/source files are too large for git tracking (~170MB)
+# Use EXTRACT/ folder for all analysis — contains markdown text extracts
+ORIG/
+
+# Legacy source directories (now emptied, originals moved to ORIG/)
+01-vault-papers/
+02-external-papers/

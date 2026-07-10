@@ -1,0 +1,110 @@
+{
+  "council_date": "2026-04-03",
+  "purpose": "Assemble expert perspectives to guide background literature search for 'Mapping the Moral Mind of Machines' paper",
+  "members": [
+    {
+      "id": 1,
+      "role": "Moral Foundations Theory Specialist",
+      "expertise": "MFT's adoption in NLP, MFTC lineage, computational moral language analysis",
+      "search_guidance": "Track the Haidt→Graham→Hoover→Abdulhai citation chain. Look for papers that explain WHY MFT became the default framework in NLP (circa 2018-2020). Key venues: ACL, EMNLP, NAACL. Also find the early moral sentiment analysis papers that preceded MFT adoption.",
+      "key_authors": ["Jonathan Haidt", "Jesse Graham", "Joe Hoover", "Marwa Abdulhai", "Morteza Dehghani"],
+      "folders": ["01-moral-foundations-theory"]
+    },
+    {
+      "id": 2,
+      "role": "Dual Process Theory Researcher",
+      "expertise": "Greene's fMRI studies, cognitive load effects, utilitarian vs deontological processing",
+      "search_guidance": "Find Greene's foundational fMRI papers (2001, 2004, 2009), the personal vs impersonal dilemma distinction, cognitive load manipulation studies, and recent LLM papers that test dual-process predictions without naming the theory. Also look for Cushman's work on model-free vs model-based moral cognition.",
+      "key_authors": ["Joshua Greene", "Fiery Cushman", "Molly Crockett", "Guy Kahane", "Andrea Manrique-Rincón"],
+      "folders": ["02-dual-process-theory"]
+    },
+    {
+      "id": 3,
+      "role": "Social Intuitionist Psychologist",
+      "expertise": "Haidt's intuitionism, moral dumbfounding, emotion-first moral judgment",
+      "search_guidance": "Start with Haidt 2001 ('The Emotional Dog'), find moral dumbfounding experiments (Haidt et al. 2000, Royzman & Bonanno), the elephant/rider metaphor papers, and any attempt to test post-hoc rationalization in AI. Key concept: reasoning as 'press secretary' not 'judge'.",
+      "key_authors": ["Jonathan Haidt", "Frederik Björklund", "Thalia Wheatley", "Jonathan Baron", "Matthew Feinberg"],
+      "folders": ["03-social-intuitionism"]
+    },
+    {
+      "id": 4,
+      "role": "Dyadic Morality Theorist",
+      "expertise": "Gray & Schein's theory, agent-patient dynamics, harm perception",
+      "search_guidance": "Find Gray et al. 2012 (original theory), Schein & Gray 2018 (Theory of Dyadic Morality), papers on moral typecasting (agents judged as intentional, patients as suffering), and any computational operationalization. Also look for the 'harm as essence of morality' debate.",
+      "key_authors": ["Kurt Gray", "Chelsea Schein", "Daniel Wegner", "Adam Waytz"],
+      "folders": ["04-dyadic-morality"]
+    },
+    {
+      "id": 5,
+      "role": "Cross-Cultural Psychologist",
+      "expertise": "Schwartz Value Theory, World Values Survey, WEIRD critique",
+      "search_guidance": "Find Schwartz 1992/2012 (theory + refined theory), PVQ-40 and PVQ-RR validation studies, Henrich et al. 2010 (WEIRD critique), and cross-cultural LLM value studies. Look for papers comparing Western vs non-Western moral frameworks in AI.",
+      "key_authors": ["Shalom Schwartz", "Joseph Henrich", "Michele Gelfand", "Daphna Oyserman"],
+      "folders": ["05-schwartz-kohlberg"]
+    },
+    {
+      "id": 6,
+      "role": "Developmental Psychologist",
+      "expertise": "Kohlberg's stages, Rest's DIT, moral development measurement",
+      "search_guidance": "Find Rest 1979 (DIT manual), Thoma 2006 (DIT-2 update), the massive DIT meta-analyses (Bebeau & Thoma), and any LLM moral development papers. DIT has 40+ years of norms — find the key validation papers.",
+      "key_authors": ["James Rest", "Stephen Thoma", "Muriel Bebeau", "Lawrence Kohlberg", "Georg Lind"],
+      "folders": ["05-schwartz-kohlberg"]
+    },
+    {
+      "id": 7,
+      "role": "Psychometrician",
+      "expertise": "Construct validity, measurement invariance, instrument revalidation",
+      "search_guidance": "Find Messick 1995 (validity evidence framework), papers on measurement invariance when changing respondent populations, any work on revalidating human instruments for AI (a very new area). Also look for Cronbach & Meehl 1955 (construct validity original).",
+      "key_authors": ["Samuel Messick", "Lee Cronbach", "Michael Kane", "Bruno Zumbo"],
+      "folders": ["06-psychometric-validity"]
+    },
+    {
+      "id": 8,
+      "role": "NLP Benchmark Evaluator",
+      "expertise": "LLM evaluation methodology, benchmark quality meta-analyses",
+      "search_guidance": "Find HELM (Liang et al. 2023), BIG-bench (Srivastava et al. 2023), benchmark contamination studies, and recent meta-surveys of LLM ethics evaluation. Look for papers critiquing benchmark quality or proposing evaluation frameworks.",
+      "key_authors": ["Percy Liang", "Aarohi Srivastava", "Dan Hendrycks", "Yejin Choi", "Samuel Bowman"],
+      "folders": ["07-benchmark-meta-analyses"]
+    },
+    {
+      "id": 9,
+      "role": "AI Alignment Researcher",
+      "expertise": "RLHF, Constitutional AI, value alignment",
+      "search_guidance": "Find Ouyang et al. 2022 (InstructGPT), Bai et al. 2022 (Constitutional AI), papers on how RLHF shapes moral outputs, and the debate about whether alignment training creates genuine moral understanding vs surface compliance.",
+      "key_authors": ["Jan Leike", "Paul Christiano", "Yuntao Bai", "Amanda Askell", "Deep Ganguli"],
+      "folders": ["11-prompting-effects"]
+    },
+    {
+      "id": 10,
+      "role": "Computational Social Scientist",
+      "expertise": "Survey design for LLMs, prompting effects on responses",
+      "search_guidance": "Find Santurkar et al. 2023 (opinion survey reliability), Argyle et al. 2023 (silicon sampling), papers on Likert scale bias in LLMs, response distribution studies, and persona/role-playing effects on moral responses.",
+      "key_authors": ["Shibani Santurkar", "Lisa Argyle", "Marcel Binz", "Eric Schulz"],
+      "folders": ["08-format-mismatch", "11-prompting-effects"]
+    },
+    {
+      "id": 11,
+      "role": "Philosophy of Mind / AI Ethics Scholar",
+      "expertise": "Moral agency, moral competence, philosophical grounding",
+      "search_guidance": "Find papers on whether LLMs can be moral agents (Floridi, Coeckelbergh), the moral Turing test concept, and philosophical analyses of what it means to 'measure morality' in machines. Also: Gabriel et al. 2026 Nature roadmap.",
+      "key_authors": ["Luciano Floridi", "Mark Coeckelbergh", "Iason Gabriel", "Shannon Vallor", "John Danaher"],
+      "folders": ["07-benchmark-meta-analyses"]
+    },
+    {
+      "id": 12,
+      "role": "Meta-Science / Reproducibility Researcher",
+      "expertise": "Benchmark reproducibility, open science, replication crisis",
+      "search_guidance": "Find papers on the replication crisis in AI benchmarks, benchmark contamination, evaluation gaming, and standards for reproducible moral evaluation. Look for Biderman et al., Dehghani et al. on data documentation.",
+      "key_authors": ["Stella Biderman", "Emily Bender", "Timnit Gebru", "Margaret Mitchell"],
+      "folders": ["07-benchmark-meta-analyses"]
+    },
+    {
+      "id": 13,
+      "role": "Multimodal/Multilingual Researcher",
+      "expertise": "Cross-lingual moral evaluation, video/image moral reasoning",
+      "search_guidance": "Find papers on multilingual moral benchmarks, value assessment in non-English languages, and multimodal moral reasoning (e.g., Value-Spectrum video VQA). Look for cultural bias in English-centric moral evaluation.",
+      "key_authors": ["Yejin Choi", "Diyi Yang", "Rada Mihalcea"],
+      "folders": ["09-human-baselines", "12-emerging-benchmarks"]
+    }
+  ]
+}

@@ -1,0 +1,758 @@
+{
+  "date": "2026-04-04",
+  "papers_scanned": 2329,
+  "theory_hits": {
+    "islamic": [
+      {
+        "file": "2021-Munshi-Towards an Automated Islamic Fatwa System.md",
+        "short_title": "Towards an Automated Islamic Fatwa System",
+        "keywords_matched": [
+          "fatwa"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2021/2021-Munshi-Towards an Automated Islamic Fatwa System.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md",
+        "short_title": "A Data-Driven Exploration of a New Islamic Fatwas",
+        "keywords_matched": [
+          "fatwa"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2023/2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2023-Alyemny-FatwaSet.md",
+        "short_title": "FatwaSet",
+        "keywords_matched": [
+          "fatwa"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2023/2023-Alyemny-FatwaSet.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2023-Unknown-Artificial Intelligence AI in Islamic Ethics.md",
+        "short_title": "Artificial Intelligence (AI) in Islamic Ethics: Towards Pluralist Ethical Benchmarking for AI",
+        "keywords_matched": [
+          "islamic ethics"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Aleid-Hajj-FQA.md",
+        "short_title": "Hajj-FQA",
+        "keywords_matched": [
+          "fatwa"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Aleid-Hajj-FQA.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md",
+        "short_title": "LLMs and Islamic Fiqh A Reliability",
+        "keywords_matched": [
+          "fiqh"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Atif-Sacred or Synthetic Evaluating LLM Reliability.md",
+        "short_title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions",
+        "keywords_matched": [
+          "fiqh"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md",
+        "short_title": "Fine-tuning Large Language Model (BERT) for",
+        "keywords_matched": [
+          "islamic jurisprudence"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md",
+        "short_title": "QIAS 2025 -- Shared Task on Islamic Inheritance Reasoning and Knowledge Assessment",
+        "keywords_matched": [
+          "islamic jurisprudence"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Ghaly-Assessing Large Language Models on Islamic.md",
+        "short_title": "Assessing Large Language Models on Islamic",
+        "keywords_matched": [
+          "islamic jurisprudence"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Ghaly-Assessing Large Language Models on Islamic.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+        "short_title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious",
+        "keywords_matched": [
+          "fiqh"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+        "short_title": "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values",
+        "keywords_matched": [
+          "islamic ethics"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Mohammed-Aftina.md",
+        "short_title": "Aftina",
+        "keywords_matched": [
+          "fatwa"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Mohammed-Aftina.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-AI in Fatwa Formulation Transforming Sharia-Compliant.md",
+        "short_title": "AI in Fatwa Formulation: Transforming Sharia-Compliant Finance",
+        "keywords_matched": [
+          "fatwa"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-AI in Islamic Fatwa and Shariah.md",
+        "short_title": "AI in Islamic Fatwa and Shariah Advisory: Human-in-the-Loop Shariah Governance",
+        "keywords_matched": [
+          "fatwa",
+          "shariah"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-AI in Islamic Finance A Maqasid.md",
+        "short_title": "AI in Islamic Finance: A Maqasid Al-Shariah Perspective",
+        "keywords_matched": [
+          "maqasid",
+          "shariah"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Artificial Intelligence in Fatwa and Islamic.md",
+        "short_title": "Artificial Intelligence in Fatwa and Islamic Law: Prospects, Regulations, and Ethics",
+        "keywords_matched": [
+          "fatwa"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Ethical challenges for using AI in.md",
+        "short_title": "Ethical challenges for using AI in understanding Islamic jurisprudence",
+        "keywords_matched": [
+          "islamic jurisprudence"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Ethics of AI in Maqasid Al-Sharias.md",
+        "short_title": "Ethics of AI in Maqasid Al-Sharia's Perspective",
+        "keywords_matched": [
+          "maqasid"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-The Transformation of Ijtihad and Fatwa.md",
+        "short_title": "The Transformation of Ijtihad and Fatwa in the Era of AI",
+        "keywords_matched": [
+          "fatwa",
+          "ijtihad"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-The role of AI in enhancing.md",
+        "short_title": "The role of AI in enhancing shariah compliance: Efficiency and transparency in Islamic finance",
+        "keywords_matched": [
+          "shariah"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md",
+        "short_title": "Arabic LLMs for Banking, Telecom and Government in GCC - 2026",
+        "keywords_matched": [
+          "fiqh"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      }
+    ],
+    "confucian": [
+      {
+        "file": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+        "short_title": "Harmonizing Artificial Intelligence for Social Good",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
+        "short_title": "Can AI Lead to Genuine Virtue Confucian",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2021/2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2021-McStay-Emotional AI Ethics and Japanese Spice Contributing Community.md",
+        "short_title": "Emotional AI, Ethics, and Japanese Spice: Contributing Community, Wholeness, Sincerity, and Heart",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2022-Unknown-Confucius cyberpunk and Mr Science comparing.md",
+        "short_title": "Confucius, cyberpunk and Mr. Science: comparing AI ethics principles between China and the EU",
+        "keywords_matched": [
+          "confucius"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2023-Oxford-How Chinese Philosophy Impacts AI Narratives.md",
+        "short_title": "How Chinese Philosophy Impacts AI Narratives and Imagined AI Futures",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2024-HK-Confucian Philosophy Revitalized in the Digital.md",
+        "short_title": "Confucian Philosophy Revitalized in the Digital Era: Maintaining Interpersonal Ethics with AI",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Muyskens-Can an AI-carebot be filial.md",
+        "short_title": "Can an AI-carebot be filial",
+        "keywords_matched": [
+          "confucian",
+          "filial piety",
+          "xiao"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2024-So-AI Trained on Confucian Analects.md",
+        "short_title": "AI Trained on Confucian Analects",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2024/2024-So-AI Trained on Confucian Analects.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+        "short_title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2024/2024-So-How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Unknown-Confucian Role Ethics and Artificial Intelligence.md",
+        "short_title": "Confucian Role Ethics and Artificial Intelligence",
+        "keywords_matched": [
+          "confucian",
+          "role ethics",
+          "xiao"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Elder-The Ethics of Digital Ghosts.md",
+        "short_title": "The Ethics of Digital Ghosts",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Elder-The Ethics of Digital Ghosts.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Social and Ethical Considerations of AI.md",
+        "short_title": "Social and Ethical Considerations of AI in East Asia and Beyond",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2026-Unknown-Natural intelligence not artificial a Confucian.md",
+        "short_title": "Natural intelligence, not artificial: a Confucian reframing of generative AI in higher education",
+        "keywords_matched": [
+          "confucian"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      }
+    ],
+    "ubuntu": [
+      {
+        "file": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+        "short_title": "The role of the African value of Ubuntu in global",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+        "short_title": "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2022-Norren-The ethics of artificial intelligence UNESCO.md",
+        "short_title": "The ethics of artificial intelligence, UNESCO and the African Ubuntu perspective",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Harvard-Artificial Intelligence Journalism and the Ubuntu.md",
+        "short_title": "Artificial Intelligence, Journalism, and the Ubuntu Robot in Sub-Saharan Africa",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+        "short_title": "A holistic ubuntu artificial intelligence ethics",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Odero-The Ubuntu Way.md",
+        "short_title": "The Ubuntu Way",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+        "short_title": "The interconnectedness between Ubuntu principles",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+        "short_title": "Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-AI Ethics Meets Ubuntu Towards A.md",
+        "short_title": "AI Ethics Meets Ubuntu: Towards A Context-Aware Governance Model For Sustainable Innovation In Africa",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Digital platform sovereignty through Ubuntu Re-imagining.md",
+        "short_title": "Digital platform sovereignty through Ubuntu: Re-imagining AI-enabled work future in Africa",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Yilma-Ethics of AI in Africa.md",
+        "short_title": "Ethics of AI in Africa",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+        "short_title": "An Ubuntu-Guided Large Language Model Framework",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+        "short_title": "UbuntuGuard A Culturally-Grounded Policy Benchmark for",
+        "keywords_matched": [
+          "ubuntu"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2026/2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+        "already_candidate": false
+      }
+    ],
+    "buddhist": [
+      {
+        "file": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+        "short_title": "Semantic and Sentiment Analysis of Selected",
+        "keywords_matched": [
+          "dharma",
+          "karma"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2022/2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2022-Ranjan-Artificial Intelligence for Topic Modelling in.md",
+        "short_title": "Artificial Intelligence for Topic Modelling in",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2022/2022-Ranjan-Artificial Intelligence for Topic Modelling in.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+        "short_title": "Decolonial AI Alignment -- Openness, Visesa-Dharma, and Including Excluded Knowledges",
+        "keywords_matched": [
+          "dharma"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2024/2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2024-Yende-Dharma and Design ethical considerations for.md",
+        "short_title": "Dharma and Design: ethical considerations for AI from Hindu philosophy",
+        "keywords_matched": [
+          "ahimsa",
+          "dharma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Aithal-Blueprint Conscious Living MultiDimensional Analysis Nishkama.md",
+        "short_title": "The Blueprint for Conscious Living: A Multi-Dimensional Analysis of Nishkama Karma and Stitha-Prajna in the Second Chapt",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Aithal-Cosmic Blueprint Ethical Action MultiDimensional Analysis.md",
+        "short_title": "The Cosmic Blueprint for Ethical Action: A Multi-Dimensional Analysis of Jnana Karma Sannyasa in the Fourth Chapter of B",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Aithal-Dharma Engaged Living MultiFramework Analysis Karma.md",
+        "short_title": "The Dharma of Engaged Living: A Multi-Framework Analysis of Karma Yoga in Chapter 3 of the Bhagavad Gita for the Modern ",
+        "keywords_matched": [
+          "dharma",
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Aithal-Unified Path Inner Sovereignty MultiDimensional Analysis.md",
+        "short_title": "The Unified Path to Inner Sovereignty: A Multi-Dimensional Analysis of Karma Sannyasa in the Fifth Chapter of the Bhagav",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Bar-DharmaBench Evaluating Language Models on Buddhist.md",
+        "short_title": "DharmaBench Evaluating Language Models on Buddhist",
+        "keywords_matched": [
+          "dharma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Sivakumar-Machine Learning Model Predicting Workplace Spirituality.md",
+        "short_title": "A Machine Learning Model for Predicting Workplace Spirituality Levels Based on Bhagavad Gita Stress Management Parameter",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Ethics of AI - A Philosophical.md",
+        "short_title": "Ethics of AI - A Philosophical Inquiry (Indian philosophy section)",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-From Silicon Intelligence to Sattvic Mind.md",
+        "short_title": "From Silicon Intelligence to Sattvic Mind",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Integrating Mahabharatas Ethical Principles into Artificial.md",
+        "short_title": "Integrating Mahabharata's Ethical Principles into Artificial Intelligence",
+        "keywords_matched": [
+          "dharma",
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-Leveraging AI to Assess and Promote.md",
+        "short_title": "Leveraging AI to Assess and Promote Dharma",
+        "keywords_matched": [
+          "dharma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Unknown-The Ethical Framework Of Bhagavad Gita.md",
+        "short_title": "The Ethical Framework Of Bhagavad Gita And Artificial Intelligence",
+        "keywords_matched": [
+          "karma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md",
+        "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+        "keywords_matched": [
+          "dharma"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      }
+    ],
+    "indigenous": [
+      {
+        "file": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+        "short_title": "Indigenous Ethics and Artificial Intelligence",
+        "keywords_matched": [
+          "indigenous ethics"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+        "short_title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link",
+        "keywords_matched": [
+          "kaitiakitanga"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-UNESCO-Hacia una regulacion etica y efectiva.md",
+        "short_title": "Hacia una regulacion etica y efectiva de la inteligencia artificial en Ecuador",
+        "keywords_matched": [
+          "buen vivir"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      },
+      {
+        "file": "2025-USFQ-La Inteligencia Artificial y los Derechos.md",
+        "short_title": "La Inteligencia Artificial y los Derechos Fundamentales en Ecuador",
+        "keywords_matched": [
+          "buen vivir"
+        ],
+        "has_extract": false,
+        "extract_path": null,
+        "already_candidate": false
+      }
+    ],
+    "dual_process": [],
+    "intuitionist": [
+      {
+        "file": "2023-Nie-MoCa.md",
+        "short_title": "MoCa",
+        "keywords_matched": [
+          "moral intuition"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2023/2023-Nie-MoCa.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Bulla-Large Language Models meet moral values.md",
+        "short_title": "Large Language Models meet moral values",
+        "keywords_matched": [
+          "automatic moral"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Bulla-Large Language Models meet moral values.md",
+        "already_candidate": false
+      },
+      {
+        "file": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+        "short_title": "Ethical Decision-Making in Humans and Large",
+        "keywords_matched": [
+          "moral intuition"
+        ],
+        "has_extract": true,
+        "extract_path": "PDF Extracts/2025/2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+        "already_candidate": false
+      }
+    ],
+    "dyadic": []
+  },
+  "summary": {
+    "total_new_hits": 71,
+    "already_candidates": 0,
+    "new_candidates": 71,
+    "by_theory": {
+      "islamic": 22,
+      "confucian": 13,
+      "ubuntu": 13,
+      "buddhist": 16,
+      "indigenous": 4,
+      "dual_process": 0,
+      "intuitionist": 3,
+      "dyadic": 0
+    },
+    "papers_scanned": 2329,
+    "errors": 0
+  }
+}

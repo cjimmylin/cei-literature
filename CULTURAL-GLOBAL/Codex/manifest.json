@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "source": "20260404-trial-CC1-globalopinionqa-opus.json",
+      "output": "20260404-trial-CC1-globalopinionqa-gpt54.json",
+      "trial_id": "CC1",
+      "items_count": 50,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC2-mfq-crosscultural-opus.json",
+      "output": "20260404-trial-CC2-mfq-crosscultural-gpt54.json",
+      "trial_id": "CC2",
+      "items_count": 50,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC3-normad-cultural-opus.json",
+      "output": "20260404-trial-CC3-normad-cultural-gpt54.json",
+      "trial_id": "CC3",
+      "items_count": 40,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC4-islamtrust-opus.json",
+      "output": "20260404-trial-CC4-islamtrust-gpt54.json",
+      "trial_id": "CC4",
+      "items_count": 40,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC5-confucian-dilemmas-opus.json",
+      "output": "20260404-trial-CC5-confucian-dilemmas-gpt54.json",
+      "trial_id": "CC5",
+      "items_count": 30,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC6-ubuntu-scenarios-opus.json",
+      "output": "20260404-trial-CC6-ubuntu-scenarios-gpt54.json",
+      "trial_id": "CC6",
+      "items_count": 30,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC7-buddhist-scenarios-opus.json",
+      "output": "20260404-trial-CC7-buddhist-scenarios-gpt54.json",
+      "trial_id": "CC7",
+      "items_count": 30,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC8-culturalbench-opus.json",
+      "output": "20260404-trial-CC8-culturalbench-gpt54.json",
+      "trial_id": "CC8",
+      "items_count": 40,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC9-dharmic-scenarios-opus.json",
+      "output": "20260404-trial-CC9-dharmic-scenarios-gpt54.json",
+      "trial_id": "CC9",
+      "items_count": 30,
+      "model": "gpt-5.4"
+    },
+    {
+      "source": "20260404-trial-CC10-value-conflicts-opus.json",
+      "output": "20260404-trial-CC10-value-conflicts-gpt54.json",
+      "trial_id": "CC10",
+      "items_count": 40,
+      "model": "gpt-5.4"
+    }
+  ]
+}

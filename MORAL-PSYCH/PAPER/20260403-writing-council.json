@@ -1,0 +1,91 @@
+{
+  "council_name": "Introduction & Literature Review Writing Council",
+  "date": "2026-04-03",
+  "purpose": "Guide the design and writing of comprehensive introduction and literature review for MPBench paper",
+  "members": [
+    {
+      "id": 1,
+      "role": "Narrative Architect",
+      "expertise": "ACL/EMNLP paper conventions, rhetorical structure, argumentation flow",
+      "contribution": "Controls opening hook, rhetorical arc, transitions between sections, overall persuasive structure",
+      "assigned_sections": ["1.1 Opening", "1.6 Contributions", "1.7 Roadmap", "2.7 Positioning"]
+    },
+    {
+      "id": 2,
+      "role": "Moral Psychology Historian",
+      "expertise": "Intellectual genealogy of moral psychology from Piaget through contemporary theories",
+      "contribution": "Maps who influenced whom, when theories emerged, paradigm shifts. Ensures chronological accuracy",
+      "assigned_sections": ["1.2 Landscape of Moral Psychology", "2.1.4 Synthesis"]
+    },
+    {
+      "id": 3,
+      "role": "MFT Deep Expert",
+      "expertise": "Moral Foundations Theory, MFQ instruments, MFTC/MFRC corpora, computational MFT",
+      "contribution": "MFT's dominance story: why it was adopted first in NLP, the MFQ→MFTC pipeline, MFQ-2 revisions",
+      "assigned_sections": ["2.1.1 Content Theories (MFT)", "2.2.1 NLP Adoption"]
+    },
+    {
+      "id": 4,
+      "role": "Process Theories Specialist",
+      "expertise": "Dual Process Theory (Greene), Social Intuitionist Model (Haidt), cognitive neuroscience of morality",
+      "contribution": "Greene's fMRI findings, Haidt's intuition-first model, why these have zero LLM benchmarks",
+      "assigned_sections": ["2.1.2 Process Theories", "2.2.3 Missing Operationalizations"]
+    },
+    {
+      "id": 5,
+      "role": "Harm & Values Theorist",
+      "expertise": "Dyadic Morality (Gray/Schein), Schwartz Value Theory, cross-cultural value measurement",
+      "contribution": "Gray's dyadic template, Schwartz's circular structure, PVQ-RR cross-cultural validation",
+      "assigned_sections": ["2.1.1 Content Theories (Schwartz)", "2.1.3 Structural Theories (Dyadic)"]
+    },
+    {
+      "id": 6,
+      "role": "Developmental Psychologist",
+      "expertise": "Kohlberg stages, Rest's DIT/DIT-2, trolley problem tradition from Foot through Moral Machine",
+      "contribution": "DIT lineage, neo-Kohlbergian schemas, trolley evolution from thought experiment to 40M-decision dataset",
+      "assigned_sections": ["2.1.3 Structural Theories (Kohlberg, Trolley)"]
+    },
+    {
+      "id": 7,
+      "role": "Psychometric Authority",
+      "expertise": "Messick's validity framework, Cronbach & Meehl construct validity, measurement invariance",
+      "contribution": "Why revalidation is necessary for LLMs, content/criterion/construct validity distinctions",
+      "assigned_sections": ["1.3 Why Theoretical Grounding Matters", "2.3 Psychometric Validity"]
+    },
+    {
+      "id": 8,
+      "role": "Benchmark Landscape Surveyor",
+      "expertise": "BIG-bench, HELM, ETHICS, MoralBench, evaluation harness ecosystems",
+      "contribution": "Maps existing meta-analyses, identifies what they miss, positions our work relative to them",
+      "assigned_sections": ["1.4 Research Gap", "2.7 Positioning"]
+    },
+    {
+      "id": 9,
+      "role": "Format & Measurement Specialist",
+      "expertise": "Likert scales, forced-choice, binary vs. continuous formats, response bias in LLMs",
+      "contribution": "Format mismatch evidence, Likert compression, ranking difficulty, format-dependent validity",
+      "assigned_sections": ["2.4.1 Format Mismatch"]
+    },
+    {
+      "id": 10,
+      "role": "Cross-Cultural & Baseline Expert",
+      "expertise": "WEIRD critique, Moral Machine cross-cultural data, WVS, population-level norms",
+      "contribution": "Human baseline imperative, cross-cultural variation in moral cognition, WEIRD sampling bias",
+      "assigned_sections": ["2.4.2 Human Baseline Imperative"]
+    },
+    {
+      "id": 11,
+      "role": "Alignment & Training Effects Expert",
+      "expertise": "RLHF, Constitutional AI, InstructGPT, prompting malleability, value encoding",
+      "contribution": "How training shapes moral outputs, whose values get encoded, prompt sensitivity implications",
+      "assigned_sections": ["2.5 Alignment Training and Prompting Effects"]
+    },
+    {
+      "id": 12,
+      "role": "Emerging Frontiers Scout",
+      "expertise": "MoReBench, ValAct, UniMoral, paradigm shifts in moral AI evaluation",
+      "contribution": "Forward-looking framing, field trajectory, what's emerging and what's still missing",
+      "assigned_sections": ["2.6 Emerging Benchmarks", "1.4 Research Gap"]
+    }
+  ]
+}

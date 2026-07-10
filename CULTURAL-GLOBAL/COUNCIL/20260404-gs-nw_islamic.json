@@ -1,0 +1,423 @@
+{
+  "framework": "nw_islamic_ethics",
+  "date": "20260404",
+  "detected_labels": [
+    {
+      "filename": "2021-Munshi-Towards an Automated Islamic Fatwa System.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Automated fatwa system using NLP; directly applies Islamic jurisprudence (Sharia/fatwa) to AI"
+    },
+    {
+      "filename": "2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Islamic fatwa dataset for NLP; substantive engagement with Islamic jurisprudential content"
+    },
+    {
+      "filename": "2023-Alyemny-FatwaSet.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Islamic fatwa dataset; same substantive engagement with fiqh content for NLP"
+    },
+    {
+      "filename": "2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Tests LLMs on Maliki Fiqh; school-specific Islamic legal reasoning as core evaluation framework"
+    },
+    {
+      "filename": "2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Fine-tuning BERT for Islamic perspective; LLM understanding of Islamic ethical concepts"
+    },
+    {
+      "filename": "2025-Mohammed-Aftina.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "QA system for Islamic fatwas; fiqh reasoning as core analytical framework"
+    },
+    {
+      "filename": "2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md",
+      "score": 85,
+      "label": "Y",
+      "reason": "Islamic inheritance law reasoning benchmark; ilm al-mawarith as core evaluation domain"
+    },
+    {
+      "filename": "2025-Ghaly-Assessing Large Language Models on Islamic.md",
+      "score": 85,
+      "label": "Y",
+      "reason": "LLM assessment on Islamic inheritance law; fiqh reasoning as evaluation framework"
+    },
+    {
+      "filename": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Persian LLM cultural alignment benchmark; mentions Islamic jurisprudence (Shia/Sunni) as one category among many. Not substantive fiqh analysis."
+    },
+    {
+      "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "FiqhQA benchmark testing LLMs on Islamic law and fatwa reasoning; substantive fiqh engagement"
+    },
+    {
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "Benchmark for LLM alignment with Islamic ethical principles; evaluates consensus-based Islamic ethics across Sunni schools"
+    },
+    {
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "Same IslamTrust benchmark (likely duplicate entry); substantive Islamic values alignment evaluation"
+    },
+    {
+      "filename": "2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Persian LLM trustworthiness benchmark; mentions Islamic values/jurisprudence as context but focus is on Persian language trustworthiness, not Islamic ethics analysis"
+    },
+    {
+      "filename": "2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Survey of Arabic LLM benchmarks; mentions fatwa QA benchmarks in passing but is a broad survey, not substantive Islamic ethics analysis"
+    },
+    {
+      "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Arabic cultural benchmark with Islamic Ethics as one topic category; not substantive fiqh/jurisprudential analysis, just knowledge questions"
+    },
+    {
+      "filename": "2026-Alam-From RAG to Agentic RAG for.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "RAG system for Islamic QA; fiqh-style reasoning and fatwa evaluation as core use case"
+    },
+    {
+      "filename": "2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Industry article about Arabic LLMs in GCC banking/telecom; abstract mentions Fiqh but paper is about commercial deployment, not Islamic ethics analysis"
+    }
+  ],
+  "non_detected_labels": [
+    {
+      "filename": "2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cross-lingual fact verification; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Benchmarks knowledge hub; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md",
+      "score": 0,
+      "label": "N",
+      "reason": "AI ethics tools evaluation; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Winata-The Decades Progress on Code-Switching Research in NLP.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Code-switching NLP survey; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md",
+      "score": 0,
+      "label": "N",
+      "reason": "Fairness evaluation benchmark; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Polish cyberbullying dataset; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM bias survey; no Islamic ethics content"
+    },
+    {
+      "filename": "2023-University-Antisemitism on Twitter A Dataset for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Antisemitism dataset; no Islamic ethics content"
+    },
+    {
+      "filename": "2023-Bang-Towards Answering Open-ended Ethical Quandary.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Open-ended ethical QA; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Ablimit-A multilingual language processing tool for Uyghur Kazak and Kirghiz.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Uyghur/Kazak NLP tool; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Human values alignment agent; no Islamic ethics content"
+    },
+    {
+      "filename": "2022-Chalkidis-FairLex.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual legal fairness; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Caste stereotypes in LLMs; no Islamic ethics content"
+    },
+    {
+      "filename": "2020-Seymour-Does Siri Have a Soul Exploring Voice Assistants Through Shinto.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Shinto design fictions; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Gender stereotypes in multilingual LLMs; no Islamic ethics content"
+    },
+    {
+      "filename": "2022-Micallef-Pre-training Data Quality and Quantity for a Low-Resource Language.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Maltese language models; no Islamic ethics content"
+    },
+    {
+      "filename": "2023-Dwivedi-EtiCor.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Ethical corpus; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Japanese-Chinese translation; no Islamic ethics content"
+    },
+    {
+      "filename": "2023-Guo-COBBLER.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Code-switching benchmark; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Pothavorn-NitiBench A Comprehensive Study of LLM.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Thai LLM moral benchmark; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Utilitarian LLM debate; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Segev-Artificial Intelligence, Discrimination, Fairness.md",
+      "score": 0,
+      "label": "N",
+      "reason": "AI discrimination/fairness; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Durmus-Towards Measuring the Representation of Subjective Global Opinions in.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Subjective global opinions; no Islamic ethics content"
+    },
+    {
+      "filename": "2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Danish NLP framework; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Oliech-SwaQuAD-24.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Swahili QA dataset; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Nigerian language NLP; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Durmus-Subjective Values.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Subjective values measurement; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Weidinger-Holistic Safety and Responsibility Evaluations of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Google safety evaluations; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Aravinda-SinLlama A Large Language Model for Sinhala.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Sinhala language model; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md",
+      "score": 0,
+      "label": "N",
+      "reason": "German hate speech datasets; no Islamic ethics content"
+    },
+    {
+      "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Pluralistic value alignment; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Bozdag-Persuade Me if You Can PMIYC A Framework for Evaluating Persuasion.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Persuasion evaluation framework; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Team-Annotated Slovak Datasets for Toxicity Hate Speech and Sentiment.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Slovak toxicity/hate speech; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Transliteration for low-resource languages; no Islamic ethics content"
+    },
+    {
+      "filename": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Gender/race bias in NLP; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Liu-On the Convergence of Moral Self-Correction in LLMs.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM moral self-correction; no Islamic ethics content"
+    },
+    {
+      "filename": "2022-Pollak-Embeddings Models for Buddhist Sanskrit.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Buddhist Sanskrit embeddings; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Khan-Mitigating Social Bias in English and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Social bias mitigation; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Brazilian Portuguese hate speech; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Dutch embedding benchmark; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Mohan-A Multimodal Approach for Hate and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multimodal hate detection; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Chiu-DailyDilemmas.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Daily moral dilemmas; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Nguyen-VM14K First Vietnamese Medical Benchmark.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese medical benchmark; no Islamic ethics content"
+    },
+    {
+      "filename": "2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Malaysian cultural evaluation; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Lazar-Frontier AI Ethics.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Frontier AI ethics analysis; no Islamic ethics content"
+    },
+    {
+      "filename": "2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese social media classification; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Gu-Probabilistic medical predictions of large.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Medical prediction evaluation; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual meta-evaluation; no Islamic ethics content"
+    },
+    {
+      "filename": "2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Gender bias in MT; no Islamic ethics content"
+    },
+    {
+      "filename": "2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese LLM finetuning; no Islamic ethics content"
+    }
+  ],
+  "summary": {
+    "detected_total": 17,
+    "detected_Y": 12,
+    "detected_N": 5,
+    "detected_U": 0,
+    "non_detected_total": 50,
+    "non_detected_Y": 0,
+    "non_detected_N": 50,
+    "non_detected_U": 0,
+    "precision": 0.7059,
+    "recall_estimate": 1.0,
+    "f1": 0.8276
+  }
+}

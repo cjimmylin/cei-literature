@@ -1,0 +1,569 @@
+{
+  "generated": "20260403",
+  "total_processed": 70,
+  "ingested_count": 53,
+  "skipped_duplicate": 1,
+  "skipped_quality": 16,
+  "skipped_no_title": 0,
+  "tradition_distribution": {
+    "Islam": 5,
+    "Christianity": 7,
+    "Judaism": 9,
+    "Hinduism": 18,
+    "Confucianism": 1,
+    "Ubuntu": 1,
+    "Indigenous": 7,
+    "Multi-religion": 5
+  },
+  "ingested": [
+    {
+      "filename": "2024-Qamar-Benchmark Dataset Larger Context NonFactoid Question.md",
+      "key": "EXSR0623",
+      "title": "A Benchmark Dataset with Larger Context for Non-Factoid Question Answering over Islamic Text",
+      "year": "2024",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2023-Alnefaie-HAQA QUQA Constructing Two Arabic QuestionAnswering.md",
+      "key": "EXSR0624",
+      "title": "HAQA and QUQA: Constructing Two Arabic Question-Answering Corpora for the Quran and Hadith",
+      "year": "2023",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2019-Utomo-New instances classification framework Quran ontology.md",
+      "key": "EXSR0625",
+      "title": "New instances classification framework on Quran ontology applied to question answering system",
+      "year": "2019",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Alnefaie-Using RetrievalAugmented Generation Technique Improve Performance.md",
+      "key": "EXSR0626",
+      "title": "Using the Retrieval-Augmented Generation Technique to Improve the Performance of GPT-4 in Answering Quran Questions",
+      "year": "2024",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2014-Abdelnasser-AlBayan Arabic Question Answering System Holy.md",
+      "key": "EXSR0627",
+      "title": "Al-Bayan: An Arabic Question Answering System for the Holy Quran",
+      "year": "2014",
+      "tradition": "Islam",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Wisse-homoousios as lasting benchmark Christology.md",
+      "key": "EXSR0628",
+      "title": "The homoousios as a lasting benchmark for Christology",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Lado-Implikasi Teologi Kaum Puritan bagi Kehidupan.md",
+      "key": "EXSR0629",
+      "title": "Implikasi Teologi Kaum Puritan bagi Kehidupan Gereja di Indonesia",
+      "year": "2024",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Sutcliffe-Blessed Victors.md",
+      "key": "EXSR0630",
+      "title": "Blessed Victors",
+      "year": "2024",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Siahaan-Tinjauan terhadap Konsep Pengudusan Progresif dalam.md",
+      "key": "EXSR0631",
+      "title": "Tinjauan terhadap Konsep Pengudusan Progresif dalam Perspektif Teologi Reformed",
+      "year": "2024",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Simamora-Gereja Ramah Disabilitas Sebagai Upaya Pelaksanaan.md",
+      "key": "EXSR0632",
+      "title": "Gereja Ramah Disabilitas Sebagai Upaya Pelaksanaan Tri Tugas Gereja di GKPI Labuhan Batu",
+      "year": "2025",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2018-Asiones-Critical Review Eight HighlyRated Books Moral.md",
+      "key": "EXSR0633",
+      "title": "Critical Review of Eight Highly-Rated Books on Moral Theology: Finding a Common Ground For an Ethics Education Program",
+      "year": "2018",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2020-Mbago-Syncretism African Christian Mission Assessing Role.md",
+      "key": "EXSR0634",
+      "title": "Syncretism in African Christian Mission: Assessing the Role of Historical-critical Method of Hermeneutics",
+      "year": "2020",
+      "tradition": "Christianity",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Talukdar-Deep Learning based UPoS Tagger Assamese.md",
+      "key": "EXSR0635",
+      "title": "Deep Learning based UPoS Tagger for Assamese Religious Text",
+      "year": "2024",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Sarma-Building Conversational AI Assamese Religious Text.md",
+      "key": "EXSR0636",
+      "title": "Building Conversational AI for Assamese Religious Text using Deep Learning",
+      "year": "2024",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Rosensweig-Automatic Text Segmentation Ancient Historic Hebrew.md",
+      "key": "EXSR0637",
+      "title": "Automatic Text Segmentation of Ancient and Historic Hebrew",
+      "year": "2025",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2023-Banat-Exploring Effectiveness GPT3 Translating Specialized Religious.md",
+      "key": "EXSR0638",
+      "title": "Exploring the Effectiveness of GPT-3 in Translating Specialized Religious Text from Arabic to English: A Comparative Study with Human Translation",
+      "year": "2023",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2023-Kaganovich-Style Transfer Modern Hebrew Literature Using.md",
+      "key": "EXSR0639",
+      "title": "Style Transfer of Modern Hebrew Literature Using Text Simplification and Generative Language Modeling",
+      "year": "2023",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Nayan-Automatic Extraction Summarization Ethical Dilemmas from.md",
+      "key": "EXSR0640",
+      "title": "Automatic Extraction and Summarization of Ethical Dilemmas from Hindu Religious Texts: A Multilevel NLP Framework",
+      "year": "2025",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2022-Eyal-Multilingual SequencetoSequence Models Hebrew NLP.md",
+      "key": "EXSR0641",
+      "title": "Multilingual Sequence-to-Sequence Models for Hebrew NLP",
+      "year": "2022",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2023-Adel-AraQA Arabic Generative QuestionAnswering Model Authentic.md",
+      "key": "EXSR0642",
+      "title": "AraQA: An Arabic Generative Question-Answering Model for Authentic Religious Text",
+      "year": "2023",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "1970-Maghen-They Shall not Draw Nigh Access.md",
+      "key": "EXSR0643",
+      "title": "\"They Shall not Draw Nigh\": The Access of Unbelievers to Sacred Space in Islamic and Jewish Law",
+      "year": "1970",
+      "tradition": "Judaism",
+      "family": "Abrahamic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Tuli-Contextual Understanding Retrieval Augmented Generation Comparative.md",
+      "key": "EXSR0644",
+      "title": "Contextual Understanding in Retrieval Augmented Generation: A Comparative Evaluation of BLOOM-560M and Pythia-410M on Bhagavad Gita Interpretation",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Sivakumar-Machine Learning Model Predicting Workplace Spirituality.md",
+      "key": "EXSR0645",
+      "title": "A Machine Learning Model for Predicting Workplace Spirituality Levels Based on Bhagavad Gita Stress Management Parameters",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2026-Adhikari-Bhagavad Gita as Framework Sattvic AI.md",
+      "key": "EXSR0646",
+      "title": "The Bhagavad Gita as a Framework for Sattvic AI: Aligning Artificial Intelligence with Sustainable Development",
+      "year": "2026",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2026-Aithal-Cultivating Ideal Citizen Modern Analysis Bhakti.md",
+      "key": "EXSR0647",
+      "title": "Cultivating the Ideal Citizen: A Modern Analysis of the Bhakti Yoga Framework in Chapter 12 of the Bhagavad Gita for Fostering Global Ethos and Social Harmony",
+      "year": "2026",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Arjunas Dilemma as Universal Paradigm MultiFramework.md",
+      "key": "EXSR0648",
+      "title": "Arjuna's Dilemma as a Universal Paradigm: A Multi-Framework Analysis of Ethics, Impact, and Future Pathways in the First Chapter of the Bhagavad Gita",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Dharma Engaged Living MultiFramework Analysis Karma.md",
+      "key": "EXSR0649",
+      "title": "The Dharma of Engaged Living: A Multi-Framework Analysis of Karma Yoga in Chapter 3 of the Bhagavad Gita for the Modern World",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Unified Path Inner Sovereignty MultiDimensional Analysis.md",
+      "key": "EXSR0650",
+      "title": "The Unified Path to Inner Sovereignty: A Multi-Dimensional Analysis of Karma Sannyasa in the Fifth Chapter of the Bhagavad Gita",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Blueprint Conscious Living MultiDimensional Analysis Nishkama.md",
+      "key": "EXSR0651",
+      "title": "The Blueprint for Conscious Living: A Multi-Dimensional Analysis of Nishkama Karma and Stitha-Prajna in the Second Chapter of the Bhagavad Gita",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Cosmic Blueprint Ethical Action MultiDimensional Analysis.md",
+      "key": "EXSR0652",
+      "title": "The Cosmic Blueprint for Ethical Action: A Multi-Dimensional Analysis of Jnana Karma Sannyasa in the Fourth Chapter of Bhagavad Gita",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Mastering Inner World MultiDimensional Analysis Dhyana.md",
+      "key": "EXSR0653",
+      "title": "Mastering the Inner World: A Multi-Dimensional Analysis of Dhyana Yoga in Chapter 6 of the Bhagavad Gita as a Foundation for Global Well-being",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Democratization Divine Critical Analysis Inclusivity Grace.md",
+      "key": "EXSR0654",
+      "title": "The Democratization of the Divine: A Critical Analysis of Inclusivity, Grace, and Social Ethics in Chapter Nine of the Bhagavad Gita through Raja Vidya Raja Guhya Yoga",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Aithal-Conscious Living Dying Soteriology Final Thought.md",
+      "key": "EXSR0655",
+      "title": "Conscious Living and Dying: The Soteriology of the Final Thought through Akshara Brahma Yoga in the Bhagavad Gita's Eighth Chapter",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Rohra-Sentiment Analysis Spiritual Teachings Ensemble Learning.md",
+      "key": "EXSR0656",
+      "title": "Sentiment Analysis of Spiritual Teachings: Ensemble Learning Applied to Twitter Religious Text and Bhagavad Gita",
+      "year": "2025",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2026-Aithal-KṣetraKṣetrajña Vibhāga Yoga Framework Thirteenth Chapter.md",
+      "key": "EXSR0657",
+      "title": "The Kṣetra-Kṣetrajña Vibhāga Yoga Framework of the Thirteenth Chapter of Bhagavad Gita for Conscious Leadership and Systemic Ethical Transformation in the 21st Century",
+      "year": "2026",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2026-Aithal-Puruṣottama Yoga Paradigm Leveraging Chapter 15.md",
+      "key": "EXSR0658",
+      "title": "The Puruṣottama Yoga Paradigm: Leveraging Chapter 15 of Bhagavad Gita's World-Tree Metaphor for Global Systems Thinking and Transcendent Ethical Leadership",
+      "year": "2026",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2022-Unknown-Benchmark Dataset PostOCR text correction Sanskrit.md",
+      "key": "EXSR0659",
+      "title": "A Benchmark and Dataset for Post-OCR text correction in Sanskrit",
+      "year": "2022",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2026-Unknown-Is Sanskrit most tokenefficient language quantitative.md",
+      "key": "EXSR0660",
+      "title": "Is Sanskrit the most token-efficient language? A quantitative study using GPT, Gemini, and SentencePiece",
+      "year": "2026",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2024-Unknown-One Model is All You Need.md",
+      "key": "EXSR0661",
+      "title": "One Model is All You Need: ByT5-Sanskrit, a Unified Model for Sanskrit NLP Tasks",
+      "year": "2024",
+      "tradition": "Hinduism",
+      "family": "Dharmic",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2023-Unknown-CValues Measuring Values Chinese Large Language.md",
+      "key": "EXSR0662",
+      "title": "CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility",
+      "year": "2023",
+      "tradition": "Confucianism",
+      "family": "EastAsian",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2025-Beux-AfriStereo Culturally Grounded Dataset Evaluating Stereotypical.md",
+      "key": "EXSR0663",
+      "title": "AfriStereo: A Culturally Grounded Dataset for Evaluating Stereotypical Bias in Large Language Models",
+      "year": "2025",
+      "tradition": "Ubuntu",
+      "family": "African",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2023-Unknown-Parallel Corpus Indigenous Language Translation SpanishMazatec.md",
+      "key": "EXSR0664",
+      "title": "Parallel Corpus for Indigenous Language Translation: Spanish-Mazatec and Spanish-Mixtec",
+      "year": "2023",
+      "tradition": "Indigenous",
+      "family": "African",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2024-Duncan-Fit our purpose not yours Benchmark.md",
+      "key": "EXSR0665",
+      "title": "Fit for our purpose, not yours: Benchmark for a low-resource, Indigenous language",
+      "year": "2024",
+      "tradition": "Indigenous",
+      "family": "African",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Molina-Villegas-Generating Culturally Linguistically Adapted Word Similarity.md",
+      "key": "EXSR0666",
+      "title": "Generating a Culturally and Linguistically Adapted Word Similarity Benchmark for Yucatec Maya",
+      "year": "2025",
+      "tradition": "Indigenous",
+      "family": "African",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Lovenia-SEACrowd Multilingual Multimodal Data Hub Benchmark.md",
+      "key": "EXSR0667",
+      "title": "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages",
+      "year": "2024",
+      "tradition": "Indigenous",
+      "family": "African",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2025-Singh-Lets Play Across Cultures Large Multilingual.md",
+      "key": "EXSR0668",
+      "title": "Let's Play Across Cultures: A Large Multilingual, Multicultural Benchmark for Assessing Language Models' Understanding of Sports",
+      "year": "2025",
+      "tradition": "Indigenous",
+      "family": "African",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Merculief-Applying Indigenous Connectedness Framework Examine Environmental.md",
+      "key": "EXSR0669",
+      "title": "Applying an Indigenous Connectedness Framework to Examine Environmental Risk and Protective Factors for Urban American Indian Children’s Executive Function Development",
+      "year": "2024",
+      "tradition": "Indigenous",
+      "family": "African",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2023-Unknown-Enhancing Translation Indigenous Languages Experiments Multilingual.md",
+      "key": "EXSR0670",
+      "title": "Enhancing Translation for Indigenous Languages: Experiments with Multilingual Models",
+      "year": "2023",
+      "tradition": "Indigenous",
+      "family": "African",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2025-Atif-Sacred or Synthetic Evaluating LLM Reliability.md",
+      "key": "EXSR0671",
+      "title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions",
+      "year": "2025",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "source": "Semantic Scholar"
+    },
+    {
+      "filename": "2024-Unknown-Measuring Spiritual Values Bias Large Language.md",
+      "key": "EXSR0672",
+      "title": "Measuring Spiritual Values and Bias of Large Language Models",
+      "year": "2024",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2025-Unknown-SpiritualLLM Gita Inspired Mental Health Therapy.md",
+      "key": "EXSR0673",
+      "title": "Spiritual-LLM : Gita Inspired Mental Health Therapy In the Era of LLMs",
+      "year": "2025",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2025-Unknown-Can LLMs Grasp Implicit Cultural Values.md",
+      "key": "EXSR0674",
+      "title": "Can LLMs Grasp Implicit Cultural Values? Benchmarking LLMs' Cultural Intelligence with CQ-Bench",
+      "year": "2025",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "source": "arXiv"
+    },
+    {
+      "filename": "2025-Unknown-How Deep Is Representational Bias LLMs.md",
+      "key": "EXSR0675",
+      "title": "How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion",
+      "year": "2025",
+      "tradition": "Multi-religion",
+      "family": "Multi",
+      "source": "arXiv"
+    }
+  ],
+  "skipped_quality_details": [
+    {
+      "title": "SemEval-2015 Task 3: Answer Selection in Community Question Answering",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "Conceptual History of Human Dignity from a Functional Perspective",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "The Ethics of Precision Medicine",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "Identifying Diabetes Related-Complications in a Real-World Free-Text Electronic Medical Records in Hebrew Using Natural Language Processing Techniques",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "Detection of Anorexic Girls - in Blog Posts Written in Hebrew using a Combined Heuristic AI and NLP Method",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "Infertility evaluation and treatment according to Jewish law.",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "Information Retrieval in the Service of Generating Narrative Explanation - What we Want from Gallura",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "A Backdoor-based Explainable AI Benchmark for High Fidelity Evaluation of Attributions",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "AEGIS: Authenticity Evaluation Benchmark for AI-Generated Video Sequences",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "TAO Conceptual Design Report: A Precision Measurement of the Reactor Antineutrino Spectrum with Sub-percent Energy Resolution",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "Where Are We? Evaluating LLM Performance on African Languages",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "FUSE : A Ridge and Random Forest-Based Metric for Evaluating MT in Indigenous Languages",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "VLM@school -- Evaluation of AI image understanding on German middle school knowledge",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "Exploring AI-generated content and professional guidelines in cancer symptom management: A comparative analysis between ChatGPT and NCCN guidelines.",
+      "reason": "Failed relevance filter"
+    },
+    {
+      "title": "LiveBench: A Challenging, Contamination-Limited LLM Benchmark",
+      "reason": "Failed relevance filter"
+    }
+  ],
+  "skipped_duplicate_details": [
+    {
+      "title": "Cross-Language Approach for Quranic QA",
+      "existing": "2025-Mohammed-Cross-Language Approach for Quranic QA.md"
+    }
+  ]
+}

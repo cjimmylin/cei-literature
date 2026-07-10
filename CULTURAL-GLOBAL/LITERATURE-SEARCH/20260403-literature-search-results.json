@@ -1,0 +1,1981 @@
+{
+  "date": "20260403",
+  "total_found": 196,
+  "search_queries_executed": 30,
+  "by_region": {
+    "African": 34,
+    "Latin American": 15,
+    "Southeast Asian": 14,
+    "Islamic": 17,
+    "Confucian/East Asian": 17,
+    "Indigenous": 14,
+    "Hindu/Dharmic": 16,
+    "Eastern European/Central Asian": 20,
+    "Cross-Cultural Comparative": 19,
+    "Pacific Island": 14,
+    "Buddhist-specific AI ethics": 8,
+    "Buen vivir / Latin American decolonial": 8
+  },
+  "papers": [
+    {
+      "title": "Ethics of AI in Africa: Interrogating the Role of Ubuntu and AI Governance Initiatives",
+      "authors": "Kinfe Yilma",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s10676-025-09834-5",
+      "source": "Springer (Ethics and Information Technology)",
+      "gap_category": "African",
+      "in_vault": true,
+      "description": "Examines extent to which Ubuntu and AI governance initiatives articulate an African perspective of AI ethics"
+    },
+    {
+      "title": "The role of the African value of Ubuntu in global AI inclusion discourse",
+      "authors": "Sabelo Mhlambi",
+      "year": 2022,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666389922000423",
+      "source": "ScienceDirect (Patterns)",
+      "gap_category": "African",
+      "in_vault": true,
+      "description": "Normative ethics perspective on Ubuntu in global AI inclusion"
+    },
+    {
+      "title": "The Ubuntu Way: Ensuring Ethical AI Integration in Health Research",
+      "authors": "Odero et al.",
+      "year": 2024,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11599802/",
+      "source": "PMC",
+      "gap_category": "African",
+      "in_vault": true,
+      "description": "Ubuntu framework for ethical AI in health research"
+    },
+    {
+      "title": "Digital platform sovereignty through Ubuntu: Re-imagining AI-enabled work future in Africa",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s12525-025-00864-x",
+      "source": "Springer (Electronic Markets)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Ubuntu-aligned governance mechanisms for AI platform worker outcomes in Africa"
+    },
+    {
+      "title": "AI Ethics Meets Ubuntu: Towards A Context-Aware Governance Model For Sustainable Innovation In Africa",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.researchgate.net/publication/394370886",
+      "source": "ResearchGate",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Context-aware governance model combining AI ethics with Ubuntu philosophy"
+    },
+    {
+      "title": "The ethics of artificial intelligence, UNESCO and the African Ubuntu perspective",
+      "authors": "Dorine Eva van Norren",
+      "year": 2022,
+      "url": "https://philpapers.org/rec/VANTEO-92",
+      "source": "PhilPapers",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "UNESCO AI ethics through an African Ubuntu lens"
+    },
+    {
+      "title": "Artificial Intelligence, Journalism, and the Ubuntu Robot in Sub-Saharan Africa",
+      "authors": "Unknown (Harvard)",
+      "year": 2024,
+      "url": "https://scholar.harvard.edu/sites/scholar.harvard.edu/files/artificial_intelligence_journalism_and_the_ubuntu_robot_in_sub-saharan_africa_towards_a_normative_framework.pdf",
+      "source": "Harvard",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Normative framework for AI journalism in Sub-Saharan Africa through Ubuntu"
+    },
+    {
+      "title": "The Case for Decolonial Artificial Intelligence Development in Africa",
+      "authors": "Kavengi Kitonga",
+      "year": 2026,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6048234",
+      "source": "SSRN",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Pathway to African agency in AI through decoloniality framework"
+    },
+    {
+      "title": "Decolonizing global AI governance: assessment of the state of decolonized AI governance in Sub-Saharan Africa",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rsos.231994",
+      "source": "Royal Society Open Science",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Assessment of decolonization progress in AI governance across 10 Sub-Saharan countries"
+    },
+    {
+      "title": "Decolonizing AI ethics in Africa's healthcare: An ethical perspective",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s43681-024-00650-z",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Decolonization of AI ethics in African healthcare contexts"
+    },
+    {
+      "title": "Responsible artificial intelligence in Africa: towards policy learning",
+      "authors": "Unknown",
+      "year": 2023,
+      "url": "https://www.cambridge.org/core/journals/data-and-policy/article/responsible-artificial-intelligence-in-africa-towards-policy-learning/046FDCF371DF7EB95300BCCB7A887B41",
+      "source": "Cambridge (Data & Policy)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Policy learning frameworks for responsible AI adoption across Africa"
+    },
+    {
+      "title": "Toward a Decolonial Framework for Communicating AI in African Public Service",
+      "authors": "Gloria Anyango Ooko",
+      "year": 2025,
+      "url": "https://journals.sagepub.com/doi/10.1177/27523543251374174",
+      "source": "SAGE",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Decolonial communication framework for AI in African public service"
+    },
+    {
+      "title": "AI: Inclusive Innovation or Digital Dispossession? Inequality and African Ways of Knowing",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s44206-026-00248-4",
+      "source": "Springer (Digital Society)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "AI inequality through African epistemological frameworks"
+    },
+    {
+      "title": "Reimagining Artificial Intelligence for zoonotic disease detection in Africa: a decolonial approach",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00779-5",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Decolonial approach to AI for zoonotic disease detection using community engagement"
+    },
+    {
+      "title": "African Data Ethics: A Discursive Framework for Black Decolonial AI",
+      "authors": "Barrett et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2502.16043v2",
+      "source": "arXiv / FAccT",
+      "gap_category": "African",
+      "in_vault": true,
+      "description": "Seven-principle African data ethics framework for decolonial AI"
+    },
+    {
+      "title": "AI systems and the question of African personhood",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s00146-024-02077-w",
+      "source": "Springer (AI & Society)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "African conceptions of personhood applied to AI systems"
+    },
+    {
+      "title": "Artificial Intelligence and African Conceptions of Personhood",
+      "authors": "C. S. Wareham",
+      "year": 2023,
+      "url": "https://philpapers.org/rec/WARAIA-7",
+      "source": "PhilPapers",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "African philosophical conceptions of personhood and AI"
+    },
+    {
+      "title": "Are certain African ethical values at risk from artificial intelligence?",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.cambridge.org/core/journals/data-and-policy/article/are-certain-african-ethical-values-at-risk-from-artificial-intelligence/4B936B25C0E4DE43069561583F8E4D3D",
+      "source": "Cambridge (Data & Policy)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "How Afro-communitarianism and human dignity values are threatened by corporate AI"
+    },
+    {
+      "title": "Machine ethics and African identities",
+      "authors": "Unknown",
+      "year": 2023,
+      "url": "https://mpra.ub.uni-muenchen.de/113799/7/MPRA_paper_113799.pdf",
+      "source": "MPRA",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Machine ethics frameworks through the lens of African identities"
+    },
+    {
+      "title": "Reimagining the Digital Oracle: An African Philosophical Framework",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://journal.jfpublisher.com/index.php/jssh/article/download/869/965/6347",
+      "source": "JSSH",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "African philosophical reframing of AI as digital oracle"
+    },
+    {
+      "title": "We know what we are doing: the politics and trends in artificial intelligence policies in Africa",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00083968.2025.2456619",
+      "source": "Taylor & Francis",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "AI policy development in Rwanda and Ghana, political dynamics"
+    },
+    {
+      "title": "Navigating algorithm bias in AI: ensuring fairness and trust in Africa",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11540688/",
+      "source": "Frontiers / PMC",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Algorithmic bias, fairness, and trust in African AI deployment"
+    },
+    {
+      "title": "Ethical Concerns and Institutional Policy Responses to AI in Higher Education Across Sub-Saharan Africa",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.researchgate.net/publication/399163981",
+      "source": "ResearchGate",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "AI ethics in higher education institutions across Sub-Saharan Africa"
+    },
+    {
+      "title": "Building Trustworthiness as a Requirement for AI in Africa",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-75674-0_3",
+      "source": "Springer",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Building AI trustworthiness through stakeholder perspectives in Africa"
+    },
+    {
+      "title": "Bridging the AI Governance Gap: Ethical and Regulatory Imperatives for Generative AI in Nigeria",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://papers.academic-conferences.org/index.php/icair/article/view/4129",
+      "source": "ICAIR Conference",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "AI governance gap analysis for generative AI in Nigeria"
+    },
+    {
+      "title": "Toward a trustworthy and inclusive data governance policy for AI in Africa",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.cambridge.org/core/journals/data-and-policy/article/toward-a-trustworthy-and-inclusive-data-governance-policy-for-the-use-of-artificial-intelligence-in-africa/6C22513DE8598A0A8B1EDBD9A2D6A102",
+      "source": "Cambridge (Data & Policy)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Trustworthy and inclusive data governance framework for AI in Africa"
+    },
+    {
+      "title": "(Re)Examining the Concept of Regulation in AI Governance: Modest Efforts in Africa",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-02762-7_16",
+      "source": "Springer",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Regulatory approaches to AI governance in Africa"
+    },
+    {
+      "title": "Case studies of AI policy development in Africa",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.cambridge.org/core/journals/data-and-policy/article/case-studies-of-ai-policy-development-in-africa/56593C560BCF498E0A6C424DA830D133",
+      "source": "Cambridge (Data & Policy)",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Case studies of AI policy in African countries"
+    },
+    {
+      "title": "AI Ethics in Africa: Balancing Innovation with Cultural and Social Values",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.irejournals.com/formatedpaper/1706316.pdf",
+      "source": "IRE Journals",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Balancing AI innovation with African cultural and social values"
+    },
+    {
+      "title": "Challenges of Integrating AI Ethics into Higher Education Curricula in West Africa: Nigerian Universities Narrative",
+      "authors": "Unknown",
+      "year": 2023,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-23035-6_5",
+      "source": "Springer",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Challenges in AI ethics education in Nigerian universities"
+    },
+    {
+      "title": "Structural bias and geographical imbalances in AI ethics",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://ijirss.com/index.php/ijirss/article/download/9202/2064/15553",
+      "source": "IJIRSS",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Geographic imbalances in AI ethics research, with focus on Africa's marginalization"
+    },
+    {
+      "title": "The political economy of authoritarian AI policy assemblages in the Global South",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13563467.2026.2637132",
+      "source": "Taylor & Francis",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Authoritarian AI governance in Global South including Africa and Central Asia"
+    },
+    {
+      "title": "Ethical and Legal Dilemmas of Artificial Intelligence in Latin America",
+      "authors": "Rosa Maria Alonzo Gonzalez (ed.)",
+      "year": 2025,
+      "url": "https://link.springer.com/book/10.1007/978-3-031-86540-4",
+      "source": "Springer",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Comprehensive book on ethical and legal AI controversies in Latin American public sphere"
+    },
+    {
+      "title": "Artificial Intelligence for Social Good in Latin America and the Caribbean",
+      "authors": "IDB (Inter-American Development Bank)",
+      "year": 2024,
+      "url": "https://publications.iadb.org/en/artificial-intelligence-for-social-good-in-latin-america-and-the-caribbean-the-regional-landscape-and-12-country-snapshots",
+      "source": "IDB",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Regional landscape of AI for social good with 12 country snapshots across LAC"
+    },
+    {
+      "title": "Critical Vulnerabilities of AI in Latin America",
+      "authors": "Claudia Dobles Camargo",
+      "year": 2025,
+      "url": "https://dspace.mit.edu/bitstream/handle/1721.1/162299/doblescamargo-claudia-sm-dusp-2025-thesis.pdf",
+      "source": "MIT Thesis",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "AI vulnerabilities in Latin America, risks of deepening historical inequalities"
+    },
+    {
+      "title": "Artificial Intelligence and Information Integrity: Latin American experiences",
+      "authors": "International IDEA",
+      "year": 2025,
+      "url": "https://www.idea.int/publications/catalogue/html/artificial-intelligence-and-information-integrity-latin-american",
+      "source": "International IDEA",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "AI and information integrity in Latin American democracies"
+    },
+    {
+      "title": "The Shaping of AI Policies in Latin America: A Study of International Influence and Local Realities",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-84748-6_12",
+      "source": "Springer",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "How international influence shapes AI policies in Latin American countries"
+    },
+    {
+      "title": "AI Governance in Latin America",
+      "authors": "Center for Cybersecurity Policy",
+      "year": 2025,
+      "url": "https://www.centerforcybersecuritypolicy.org/insights-and-research/ai-governance-in-latin-america",
+      "source": "Center for Cybersecurity Policy",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Overview of AI governance frameworks across Latin American countries"
+    },
+    {
+      "title": "Ethical and Legal Dilemmas of National AI Policies in Latin American Countries",
+      "authors": "Rosa Maria Alonzo Gonzalez",
+      "year": 2025,
+      "url": "https://philpapers.org/rec/ALOEAL",
+      "source": "PhilPapers",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "National AI policy dilemmas across Latin American countries"
+    },
+    {
+      "title": "The position of Latin America in the debate on the regulation of Artificial Intelligence: Who is setting the rules?",
+      "authors": "CEMERI",
+      "year": 2025,
+      "url": "https://cemeri.org/en/art/a-inteligencia-artificial-america-latina-bu",
+      "source": "CEMERI",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Decolonial approach to AI regulation from Latin American perspective"
+    },
+    {
+      "title": "AI Governance in Latin America (Global Solutions Journal)",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.global-solutions-initiative.org/wp-content/uploads/2025/05/v8_WS_GS_journal_11_S156-163.pdf",
+      "source": "Global Solutions Initiative",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Latin American AI governance with focus on critical decolonial approach"
+    },
+    {
+      "title": "Regional cooperation crucial for AI safety and governance in Latin America",
+      "authors": "Brookings",
+      "year": 2025,
+      "url": "https://www.brookings.edu/articles/regional-cooperation-crucial-for-ai-safety-and-governance-in-latin-america/",
+      "source": "Brookings",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Regional cooperation needs for AI governance in Latin America"
+    },
+    {
+      "title": "Regulating AI on Latin America's Terms",
+      "authors": "Americas Quarterly",
+      "year": 2025,
+      "url": "https://americasquarterly.org/article/regulating-ai-on-latin-americas-terms/",
+      "source": "Americas Quarterly",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Latin America developing AI governance on its own terms vs importing from Brussels/Silicon Valley"
+    },
+    {
+      "title": "AI Regulation in Latin America: Overview and Emerging Trends in Key Proposals",
+      "authors": "FPF",
+      "year": 2025,
+      "url": "https://fpf.org/blog/ai-regulation-in-latin-america-overview-and-emerging-trends-in-key-proposals/",
+      "source": "Future of Privacy Forum",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Overview of AI regulation proposals across Brazil, Chile, Colombia, Peru"
+    },
+    {
+      "title": "Brazil's AI Act and Regulation Framework",
+      "authors": "Various",
+      "year": 2025,
+      "url": "https://artificialintelligenceact.com/brazil-ai-act/",
+      "source": "Multiple sources",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "Brazil's Bill No 2338/2023 for comprehensive AI regulation"
+    },
+    {
+      "title": "Santiago Declaration for Ethical Artificial Intelligence in Latin America and the Caribbean",
+      "authors": "UNESCO/Government of Chile",
+      "year": 2024,
+      "url": "https://www.unesco.org/en/articles/ethical-and-inclusive-artificial-intelligence-latin-america-and-caribbean-unesco-presents-its",
+      "source": "UNESCO",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "20-nation declaration for ethical AI in LAC region"
+    },
+    {
+      "title": "Latin American Artificial Intelligence Index (ILIA)",
+      "authors": "CEPAL",
+      "year": 2025,
+      "url": "https://www.cepal.org/en/pressreleases/latin-american-artificial-intelligence-index-ilia-reconfirms-chile-brazil-and-uruguay",
+      "source": "CEPAL/ECLAC",
+      "gap_category": "Latin American",
+      "in_vault": false,
+      "description": "AI readiness index for Latin America; Chile, Brazil, Uruguay leading"
+    },
+    {
+      "title": "The Guiding Role of Buddhist Thought in the Ethics of AI",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://drpress.org/ojs/index.php/EHSS/article/download/27085/26623/37837",
+      "source": "DRPress (EHSS)",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Buddhist ethical principles as guide for AI ethics and development"
+    },
+    {
+      "title": "The anthropomorphization of AI and the concept of Buddhist compassion in human-machine interaction",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1583565/full",
+      "source": "Frontiers in Psychology",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Buddhist four immeasurables as framework for human-robot interaction ethics"
+    },
+    {
+      "title": "AI practical wisdom and compassion",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00877-4",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Buddhist compassion integrated with Aristotelian practical wisdom for AI alignment"
+    },
+    {
+      "title": "A Middle Path for AI Ethics? Some Buddhist Reflections",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/14746700.2024.2436776",
+      "source": "Taylor & Francis (Theology and Science)",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Buddhist Middle Path applied to AI ethics questions"
+    },
+    {
+      "title": "AI and Humanistic Buddhism",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.academia.edu/122707128/AI_and_Humanistic_Buddhism",
+      "source": "Academia.edu",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Humanistic Buddhist perspectives on AI development and ethics"
+    },
+    {
+      "title": "Buddhist Wisdom In The Age Of Artificial Intelligence",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.ijcrt.org/papers/IJCRT2603487.pdf",
+      "source": "IJCRT",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Buddhist wisdom applied to contemporary AI challenges"
+    },
+    {
+      "title": "Between Buddhist Self-Enlightenment and Artificial Intelligence: South Korea Emerging as a New Balancer",
+      "authors": "Unknown",
+      "year": 2023,
+      "url": "https://www.mdpi.com/2077-1444/14/2/150",
+      "source": "MDPI (Religions)",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "South Korea balancing Buddhist self-enlightenment traditions with AI advancement"
+    },
+    {
+      "title": "Technologies of Consciousness, AI, and Life-Wisdom: Philosophical Resources from Indian and Tibetan Buddhism",
+      "authors": "Marc-Henri Deroche",
+      "year": 2025,
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5574910.pdf?abstractid=5574910",
+      "source": "SSRN",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Buddhist philosophical resources on consciousness applied to AI"
+    },
+    {
+      "title": "ASEAN Guide on AI Governance and Ethics",
+      "authors": "ASEAN",
+      "year": 2024,
+      "url": "https://asean.org/book/asean-guide-on-ai-governance-and-ethics/",
+      "source": "ASEAN",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "ASEAN's voluntary framework on AI governance and ethics principles"
+    },
+    {
+      "title": "Expanded ASEAN Guide on AI Governance and Ethics - Generative AI",
+      "authors": "ASEAN",
+      "year": 2025,
+      "url": "https://asean.org/wp-content/uploads/2025/01/Expanded-ASEAN-Guide-on-AI-Governance-and-Ethics-Generative-AI.pdf",
+      "source": "ASEAN",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Expanded ASEAN AI governance guide addressing generative AI"
+    },
+    {
+      "title": "From Paper to Practice: Utilizing the ASEAN Guide on AI Governance and Ethics",
+      "authors": "Kristina Fong",
+      "year": 2025,
+      "url": "https://www.iseas.edu.sg/articles-commentaries/trends-in-southeast-asia/from-paper-to-practice-utilizing-the-asean-guide-on-artificial-intelligence-ai-governance-and-ethics-by-kristina-fong/",
+      "source": "ISEAS",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Implementation analysis of ASEAN AI governance guide"
+    },
+    {
+      "title": "AI governance in Asia: policies, praxis and approaches",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/22041451.2024.2391204",
+      "source": "Taylor & Francis",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Comparative AI governance across Asian countries including Southeast Asia"
+    },
+    {
+      "title": "Charting ASEAN's Path to AI Governance: Uneven Yet Gaining Ground",
+      "authors": "NBR",
+      "year": 2025,
+      "url": "https://www.nbr.org/publication/charting-aseans-path-to-ai-governance-uneven-yet-gaining-ground/",
+      "source": "National Bureau of Asian Research",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "ASEAN AI governance progress with country-level analysis"
+    },
+    {
+      "title": "Navigating AI Governance and Ethics Across ASEAN",
+      "authors": "Tech For Good Institute",
+      "year": 2025,
+      "url": "https://techforgoodinstitute.org/insights/perspectives/navigating-ai-governance-and-ethics-across-asean/",
+      "source": "Tech For Good Institute",
+      "gap_category": "Southeast Asian",
+      "in_vault": false,
+      "description": "Navigating diverse AI governance approaches across ASEAN member states"
+    },
+    {
+      "title": "Artificial Intelligence in Fatwa and Islamic Law: Prospects, Regulations, and Ethics",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://jurnal.uindatokarama.ac.id/index.php/iciis/article/view/4445",
+      "source": "ICIIS Conference",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI in fatwa formulation and Islamic law, regulatory and ethical analysis"
+    },
+    {
+      "title": "Ethics of the Use of AI in the Paradigm of Islamic Law",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://journal.walideminstitute.com/index.php/sicopus/article/view/393",
+      "source": "SICOPUS",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI ethics through the paradigm of Islamic law"
+    },
+    {
+      "title": "Ethical challenges for using AI in understanding Islamic jurisprudence",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.researchgate.net/publication/389846404",
+      "source": "ResearchGate",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "Ethical challenges of AI application in Islamic jurisprudence"
+    },
+    {
+      "title": "The Transformation of Ijtihad and Fatwa in the Era of AI",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://ojssulthan.com/asje/article/view/449",
+      "source": "As-Sulthan Journal",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "Epistemological and technological study of AI-era ijtihad and fatwa"
+    },
+    {
+      "title": "AI in Fatwa Formulation: Transforming Sharia-Compliant Finance",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.jcli-bi.org/index.php/jcli/article/view/446",
+      "source": "Journal of Central Banking Law",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI transformation of fatwa in Islamic finance"
+    },
+    {
+      "title": "AI in Islamic Fatwa and Shariah Advisory: Human-in-the-Loop Shariah Governance",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://zenodo.org/records/18431019",
+      "source": "Zenodo",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "Human-in-the-loop governance for AI in Islamic fatwa and advisory"
+    },
+    {
+      "title": "Islamic Law in the Era of AI: A Systematic Literature Review",
+      "authors": "Sudirman",
+      "year": 2025,
+      "url": "https://ijesty.org/index.php/ijesty/article/view/1072",
+      "source": "IJESTY",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "Systematic review of AI and Islamic law literature"
+    },
+    {
+      "title": "Artificial Intelligence (AI) in Islamic Ethics: Towards Pluralist Ethical Benchmarking for AI",
+      "authors": "Unknown",
+      "year": 2023,
+      "url": "https://link.springer.com/article/10.1007/s13347-023-00668-x",
+      "source": "Springer (Philosophy & Technology)",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "Pluralist AI ethics benchmarking from Islamic perspective"
+    },
+    {
+      "title": "Ethics of AI in Maqasid Al-Sharia's Perspective",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://ejournal.iainmadura.ac.id/index.php/karsa/article/view/19617",
+      "source": "KARSA Journal",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI ethics through the five objectives of Sharia"
+    },
+    {
+      "title": "AI in Islamic Finance: A Maqasid Al-Shariah Perspective",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.researchgate.net/publication/394731467",
+      "source": "ResearchGate",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI alignment with five dimensions of Maqasid al-Shariah in finance"
+    },
+    {
+      "title": "AI in Islamic Finance: A PRISMA-Guided Systematic Review on Sharia Compliance",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.researchgate.net/publication/398068529",
+      "source": "ResearchGate",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "PRISMA systematic review of 26 publications on AI and Sharia compliance"
+    },
+    {
+      "title": "Digital Ethics of AI in Saudi Arabia and UAE",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://mjsl.usim.edu.my/index.php/jurnalmjsl/article/view/798",
+      "source": "Malaysian Journal of Syariah and Law",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI digital ethics integrating Islamic values in Saudi Arabia and UAE"
+    },
+    {
+      "title": "Exploring AI governance in the MENA region: gaps, efforts, and initiatives",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.cambridge.org/core/journals/data-and-policy/article/exploring-ai-governance-in-the-middle-east-and-north-africa-mena-region-gaps-efforts-and-initiatives/867858AA465EEB06B5C43FF7048D8652",
+      "source": "Cambridge (Data & Policy)",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI governance gaps and initiatives across MENA region"
+    },
+    {
+      "title": "Regulating AI in health in the Middle East: case studies from Qatar, Saudi Arabia and UAE",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK613206/",
+      "source": "NCBI Bookshelf",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI regulation in healthcare across three Gulf states"
+    },
+    {
+      "title": "From predicting dissent to programming power: AI-driven authoritarian governance in the Middle East through TRIAD framework",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13510347.2025.2576527",
+      "source": "Taylor & Francis",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI-driven authoritarian governance analysis in Middle East"
+    },
+    {
+      "title": "The role of AI in enhancing shariah compliance: Efficiency and transparency in Islamic finance",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.researchgate.net/publication/388223220",
+      "source": "ResearchGate",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI's role in Islamic finance shariah compliance efficiency"
+    },
+    {
+      "title": "Exploration of AI in Ensuring Sharia Compliance in Islamic Financial Institutions",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=141442",
+      "source": "SCIRP",
+      "gap_category": "Islamic",
+      "in_vault": false,
+      "description": "AI for sharia compliance in Islamic accounting practices"
+    },
+    {
+      "title": "Operationalizing AI governance: data annotation, La Qi and manual alignment in China",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1369118X.2025.2526162",
+      "source": "Taylor & Francis",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Data annotation and manual alignment practices in Chinese AI governance"
+    },
+    {
+      "title": "Natural intelligence, not artificial: a Confucian reframing of generative AI in higher education",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17449642.2026.2629430",
+      "source": "Taylor & Francis",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Confucian philosophy reframes generative AI for education"
+    },
+    {
+      "title": "How AI Trained on the Confucian Analects Can Solve Ethical Dilemmas",
+      "authors": "Emma So",
+      "year": 2024,
+      "url": "https://philarchive.org/archive/SOHATI",
+      "source": "PhilArchive",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": true,
+      "description": "AI trained on Confucian Analects applied to ethical dilemma solving"
+    },
+    {
+      "title": "Toward a Cultural Co-Genesis of AI Ethics",
+      "authors": "Ammar Younas et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/pdf/2505.21542",
+      "source": "arXiv",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Cultural co-genesis framework for AI ethics across traditions"
+    },
+    {
+      "title": "Confucius, cyberpunk and Mr. Science: comparing AI ethics principles between China and the EU",
+      "authors": "Unknown",
+      "year": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9207836/",
+      "source": "PMC",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Comparative analysis of AI ethics principles between China and EU"
+    },
+    {
+      "title": "Confucian Philosophy Revitalized in the Digital Era: Maintaining Interpersonal Ethics with AI",
+      "authors": "Unknown (CityU HK)",
+      "year": 2024,
+      "url": "https://scholars.cityu.edu.hk/en/publications/confucian-philosophy-revitalized-in-the-digital-era-maintaining-i/",
+      "source": "CityU HK Scholars",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Confucian interpersonal ethics applied to AI era challenges"
+    },
+    {
+      "title": "Confucian Role Ethics and Artificial Intelligence",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.academia.edu/127636733/Confucian_Role_Ethics_and_Artificial_Intelligence",
+      "source": "Academia.edu",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Confucian role ethics (ren, yi, xiao) applied to AI analysis"
+    },
+    {
+      "title": "How Chinese Philosophy Impacts AI Narratives and Imagined AI Futures",
+      "authors": "Unknown (Oxford)",
+      "year": 2023,
+      "url": "https://academic.oup.com/book/46567/chapter/408130664",
+      "source": "Oxford Academic",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Chinese Confucian/Daoist/Buddhist philosophy impact on AI narratives"
+    },
+    {
+      "title": "Artificial intelligence with American values and Chinese characteristics",
+      "authors": "Unknown",
+      "year": 2022,
+      "url": "https://link.springer.com/article/10.1007/s00146-022-01499-8",
+      "source": "Springer (AI & Society)",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Comparative analysis of US and Chinese government AI policies"
+    },
+    {
+      "title": "Cross-cultural value alignment frameworks for responsible AI governance: Evidence from China-West comparative analysis",
+      "authors": "Liu et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2511.17256",
+      "source": "arXiv",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": true,
+      "description": "Multi-layered auditing platform for China-West AI value alignment"
+    },
+    {
+      "title": "Social and Ethical Considerations of AI in East Asia and Beyond",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/book/10.1007/978-3-031-77857-5",
+      "source": "Springer (book)",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Confucianist, Daoist, and Christian reflections on AI ethics in East Asia"
+    },
+    {
+      "title": "Ethical and Social Concerns of Artificial Intelligence in Asia",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s11569-025-00472-1",
+      "source": "Springer (Ethics and Society)",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "AI ethical and social concerns across Asian societies"
+    },
+    {
+      "title": "The Evolving AI Governance in Korea",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/18752160.2024.2348307",
+      "source": "Taylor & Francis",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "South Korea's evolving AI governance framework"
+    },
+    {
+      "title": "AI Governance in East Asia: Comparing the AI Acts of South Korea and Japan",
+      "authors": "Montreal AI Ethics Institute",
+      "year": 2025,
+      "url": "https://montrealethics.ai/ai-policy-corner-ai-governance-in-east-asia-comparing-the-ai-acts-of-south-korea-and-japan/",
+      "source": "Montreal AI Ethics Institute",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Comparing South Korean and Japanese AI legislation"
+    },
+    {
+      "title": "Accumulations of AI in East Asia: Archaeology of Experiments, Institutions, and Policies in Taiwan and Japan",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/24694452.2025.2599852",
+      "source": "Annals of AAG",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Historical archaeology of AI development in Taiwan and Japan"
+    },
+    {
+      "title": "Perspectives and Approaches in AI Ethics: East Asia (Research Summary)",
+      "authors": "Montreal AI Ethics Institute",
+      "year": 2024,
+      "url": "https://montrealethics.ai/perspectives-and-approaches-in-ai-ethics-east-asia-research-summary/",
+      "source": "Montreal AI Ethics Institute",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Research summary of East Asian approaches to AI ethics"
+    },
+    {
+      "title": "Asia's middle powers must find their collective voice on AI governance",
+      "authors": "Unknown",
+      "year": 2023,
+      "url": "https://eastasiaforum.org/2023/07/14/asias-middle-powers-must-find-their-collective-voice-on-ai-governance/",
+      "source": "East Asia Forum",
+      "gap_category": "Confucian/East Asian",
+      "in_vault": false,
+      "description": "Asian middle powers and collective AI governance voice"
+    },
+    {
+      "title": "Maori Algorithmic Sovereignty: Idea, Principles, and Use",
+      "authors": "Brown et al.",
+      "year": 2024,
+      "url": "https://datascience.codata.org/articles/10.5334/dsj-2024-015",
+      "source": "Data Science Journal",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Maori algorithmic sovereignty principles extending data sovereignty to AI"
+    },
+    {
+      "title": "Indigenous peoples and artificial intelligence: A systematic review and future directions",
+      "authors": "Perera, Vidanaarachchi, Chandrashekeran et al.",
+      "year": 2025,
+      "url": "https://journals.sagepub.com/doi/10.1177/20539517251349170",
+      "source": "SAGE (Big Data & Society)",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Systematic review of Indigenous peoples and AI literature"
+    },
+    {
+      "title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00970-8",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Maori and Navajo knowledge systems integrated into AI governance"
+    },
+    {
+      "title": "Abundant intelligences: placing AI within Indigenous knowledge frameworks",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s00146-024-02099-4",
+      "source": "Springer (AI & Society)",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "AI placed within Indigenous knowledge frameworks"
+    },
+    {
+      "title": "Cognitive imperialism in AI: counteracting bias with indigenous epistemologies",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s00146-024-02065-0",
+      "source": "Springer (AI & Society)",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Indigenous epistemologies to counteract cognitive imperialism in AI"
+    },
+    {
+      "title": "Indigenous Protocol and AI Position Paper",
+      "authors": "IP AI Working Group",
+      "year": 2020,
+      "url": "https://www.indigenous-ai.net/position-paper/",
+      "source": "indigenous-ai.net",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Position paper on Indigenous perspectives for AI design"
+    },
+    {
+      "title": "He Tangata, He Karetao, He Atarangi: Indigenous Peoples AI Framework for Maori",
+      "authors": "Taiuru",
+      "year": 2026,
+      "url": "https://waateanews.com/2026/03/11/tech-indigenous-ai-framework-offers-path-for-maori-in-the-age-of-artificial-intelligence/",
+      "source": "Waatea News",
+      "gap_category": "Indigenous",
+      "in_vault": false,
+      "description": "New Indigenous AI framework for Maori communities to evaluate AI systems against tikanga"
+    },
+    {
+      "title": "Maori AI Sovereignty Principles",
+      "authors": "Taiuru",
+      "year": 2024,
+      "url": "https://www.taiuru.co.nz/maori-ai-sovereignty-principles/",
+      "source": "taiuru.co.nz",
+      "gap_category": "Indigenous",
+      "in_vault": false,
+      "description": "Principles for Maori AI sovereignty based on tikanga and matauranga"
+    },
+    {
+      "title": "Maori data sovereignty: contributions to data cultures in the government sector in New Zealand",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1369118X.2024.2302987",
+      "source": "Taylor & Francis",
+      "gap_category": "Indigenous",
+      "in_vault": false,
+      "description": "Maori data sovereignty in NZ government sector data cultures"
+    },
+    {
+      "title": "Indigenous data sovereignty: Challenges and opportunities in Aotearoa NZ",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.academia.edu/144715077/Indigenous_data_sovereignty_Challenges_and_opportunities_in_Aotearoa_NZ",
+      "source": "Academia.edu",
+      "gap_category": "Indigenous",
+      "in_vault": false,
+      "description": "Indigenous data sovereignty challenges and opportunities in NZ context"
+    },
+    {
+      "title": "The future impact of artificial intelligence on First Nations communities",
+      "authors": "Unknown (APO)",
+      "year": 2024,
+      "url": "https://apo.org.au/node/333026",
+      "source": "APO (Australia)",
+      "gap_category": "Indigenous",
+      "in_vault": false,
+      "description": "Impact of AI on Aboriginal and Torres Strait Islander communities in Australia"
+    },
+    {
+      "title": "Indigenous Futures in Artificial Intelligence: From Language Sovereignty to Ecological Stewardship",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://icmagazine.org/indigenous-futures-in-artificial-intelligence-from-language-sovereignty-to-ecological-stewardship/",
+      "source": "Intercontinental Cry",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Indigenous futures in AI from language sovereignty to ecological stewardship"
+    },
+    {
+      "title": "Indigenous Peoples and AI: Defending Rights, Shaping the Future of Technology",
+      "authors": "Cultural Survival",
+      "year": 2025,
+      "url": "https://www.culturalsurvival.org/news/indigenous-peoples-and-ai-defending-rights-shaping-future-technology",
+      "source": "Cultural Survival",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Indigenous peoples defending rights in AI development"
+    },
+    {
+      "title": "Artificial Intelligence and Indigenous Perspectives (AAAI/ACM AIES)",
+      "authors": "Unknown",
+      "year": 2020,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3375627.3375845",
+      "source": "ACM (AIES)",
+      "gap_category": "Indigenous",
+      "in_vault": true,
+      "description": "Indigenous perspectives on AI from AIES conference"
+    },
+    {
+      "title": "Exploring Multi-Religious Perspective of Artificial Intelligence",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/14746700.2024.2436783",
+      "source": "Taylor & Francis (Theology and Science)",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Multi-religious perspectives on AI across Christianity, Islam, Hinduism, Buddhism, Judaism"
+    },
+    {
+      "title": "Integrating Mahabharata's Ethical Principles into Artificial Intelligence",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://zenodo.org/records/15823698",
+      "source": "Zenodo",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Mahabharata ethical principles (dharma, karma, nishkama karma) applied to AI"
+    },
+    {
+      "title": "Hindu Responses to Artificial Intelligence: Theological and Ethical Perspectives",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://ijrtssh.com/wp-content/uploads/2025/05/ijrtssh.vol_.3.issue2_.147.pdf",
+      "source": "IJRTSSH",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Hindu theological and ethical responses to AI, Advaita Vedanta and consciousness"
+    },
+    {
+      "title": "Arya Prajna: Artificial Intelligence according to Indian ethical values",
+      "authors": "Unknown",
+      "year": 2020,
+      "url": "https://pragyata.com/arya-prajna-artificial-intelligence-according-to-indian-ethical-values-part-i/",
+      "source": "Pragyata",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "AI ethics framework based on Indian ethical values"
+    },
+    {
+      "title": "The Ethical Framework Of Bhagavad Gita And Artificial Intelligence",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://nano-ntp.com/index.php/nano/article/download/5850/4716/11545",
+      "source": "NANO",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Bhagavad Gita nishkama karma ethics applied to AI systems"
+    },
+    {
+      "title": "Hinduism and Artificial Intelligence",
+      "authors": "Unknown (Cambridge)",
+      "year": 2023,
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-companion-to-religion-and-artificial-intelligence/hinduism-and-artificial-intelligence/F374429DA7F074F9C4E709B5A43F8F06",
+      "source": "Cambridge University Press",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Cambridge Companion chapter on Hinduism and AI"
+    },
+    {
+      "title": "From Silicon Intelligence to Sattvic Mind",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://ijirt.org/publishedpaper/IJIRT186366_PAPER.pdf",
+      "source": "IJIRT",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Vedantic philosophy on karma, consciousness, and AI moral agency"
+    },
+    {
+      "title": "Artificial Intelligence and Indian Knowledge Systems",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "http://journal.ijierm.co.in/index.php/ijierm/article/download/2855/2158/",
+      "source": "IJIERM",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "AI integration with traditional Indian knowledge systems"
+    },
+    {
+      "title": "Dharma and Design: ethical considerations for AI from Hindu philosophy",
+      "authors": "Sagar Yende",
+      "year": 2024,
+      "url": "https://medium.com/@yendesagar/dharma-and-design-ethical-considerations-for-ai-from-hindu-philosophy-ff9fb205d956",
+      "source": "Medium",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Hindu philosophical principles (dharma, ahimsa) for AI design"
+    },
+    {
+      "title": "Broadening AI Ethics Narratives: An Indic Art View",
+      "authors": "Unknown",
+      "year": 2022,
+      "url": "https://www.researchgate.net/publication/359865240_Broadening_AI_Ethics_Narratives_An_Indic_Art_View",
+      "source": "ResearchGate",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Indic art and philosophical perspectives broadening AI ethics narratives"
+    },
+    {
+      "title": "Decolonial AI Alignment: Openness, Visesa-Dharma, and Including Excluded Knowledges",
+      "authors": "Varshney",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2309.05030v3",
+      "source": "arXiv",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": true,
+      "description": "Visesa-dharma (specific duty) applied to decolonial AI alignment"
+    },
+    {
+      "title": "Technologies of Consciousness, AI, and Life-Wisdom: Resources from Indian and Tibetan Buddhism",
+      "authors": "Marc-Henri Deroche",
+      "year": 2025,
+      "url": "https://papers.ssrn.com/sol3/Delivery.cfm/5574910.pdf?abstractid=5574910",
+      "source": "SSRN",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Indian and Tibetan Buddhist philosophy on consciousness applied to AI"
+    },
+    {
+      "title": "Leveraging AI to Assess and Promote Dharma",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.ijfmr.com/papers/2025/4/63815.pdf",
+      "source": "IJFMR",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Using AI to assess and promote dharmic principles"
+    },
+    {
+      "title": "The digital temple: Artificial intelligence in Hindu religious contexts",
+      "authors": "Unknown",
+      "year": 2022,
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00877-4",
+      "source": "Arsha Vidya Research",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "AI in Hindu religious contexts and digital temple concept"
+    },
+    {
+      "title": "Beyond Western Frameworks: Why AI Ethics Needs a Dharmic Perspective",
+      "authors": "Priya Krishnamoorthy",
+      "year": 2025,
+      "url": "https://medium.com/@priya.krishnamoorthy/beyond-western-frameworks-why-ai-ethics-needs-a-dharmic-perspective-53796e284632",
+      "source": "Medium",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Dharmic perspective as complement to Western AI ethics frameworks"
+    },
+    {
+      "title": "Ethics of AI - A Philosophical Inquiry (Indian philosophy section)",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.ijcrt.org/papers/IJCRT2508106.pdf",
+      "source": "IJCRT",
+      "gap_category": "Hindu/Dharmic",
+      "in_vault": false,
+      "description": "Philosophical inquiry into AI ethics including karma and Indian philosophy"
+    },
+    {
+      "title": "The Outsider: Russia in the Race for Artificial Intelligence",
+      "authors": "Ifri",
+      "year": 2024,
+      "url": "https://www.ifri.org/en/studies/outsider-russia-race-artificial-intelligence",
+      "source": "Ifri",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Russia's position in global AI race, strategy and governance"
+    },
+    {
+      "title": "High Hopes Amid Hard Realities: Defense AI in Russia",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-58649-1_16",
+      "source": "Springer",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Russia's defense AI ambitions and realities"
+    },
+    {
+      "title": "The political economy of authoritarian AI policy assemblages in the Global South (includes Kazakhstan)",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13563467.2026.2637132",
+      "source": "Taylor & Francis",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Authoritarian AI governance in Kazakhstan and Global South"
+    },
+    {
+      "title": "Proposing Central Asian AI Ethics Principles: A Multilevel Approach",
+      "authors": "Younas",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s43681-024-00500-0",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": true,
+      "description": "Multilevel AI ethics principles for Central Asia"
+    },
+    {
+      "title": "International governance of advancing artificial intelligence",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://link.springer.com/article/10.1007/s00146-024-02050-7",
+      "source": "Springer (AI & Society)",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "International AI governance including Russia and BRICS"
+    },
+    {
+      "title": "Global AI governance: barriers and pathways forward",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://academic.oup.com/ia/article/100/3/1275/7641064",
+      "source": "Oxford (International Affairs)",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Global AI governance barriers including Eastern European perspectives"
+    },
+    {
+      "title": "Charting the Geopolitics and European Governance of AI",
+      "authors": "Carnegie Endowment",
+      "year": 2024,
+      "url": "https://carnegieendowment.org/research/2024/03/charting-the-geopolitics-and-european-governance-of-artificial-intelligence",
+      "source": "Carnegie",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Geopolitics of AI governance in Europe including Eastern Europe"
+    },
+    {
+      "title": "Mapping global AI governance: a nascent regime in a fragmented landscape",
+      "authors": "Unknown",
+      "year": 2021,
+      "url": "https://link.springer.com/article/10.1007/s43681-021-00083-y",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Mapping global AI governance regime fragmentation"
+    },
+    {
+      "title": "Understanding AI and power: situated perspectives from Global North and South practitioners",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02731-x",
+      "source": "Springer (AI & Society)",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "AI power dynamics from Global North and South practitioner perspectives"
+    },
+    {
+      "title": "A biased emerging governance regime for AI? How AI ethics get skewed",
+      "authors": "Unknown",
+      "year": 2022,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0308596122001811",
+      "source": "ScienceDirect",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "How AI ethics principles get skewed moving from principles to practices"
+    },
+    {
+      "title": "Ethics and diversity in artificial intelligence policies, strategies and initiatives",
+      "authors": "Unknown",
+      "year": 2022,
+      "url": "https://link.springer.com/article/10.1007/s43681-022-00218-9",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Ethics and diversity across global AI policies and strategies"
+    },
+    {
+      "title": "Governing AI in the World of Work: A review of global ethics guidelines",
+      "authors": "ILO",
+      "year": 2025,
+      "url": "https://www.ilo.org/resource/article/governing-ai-world-work-review-global-ethics-guidelines",
+      "source": "ILO",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "ILO review of global AI ethics guidelines for work"
+    },
+    {
+      "title": "Pluralistic AI Alignment: A Cross-Cultural Pilot Survey",
+      "authors": "Khashayar Alavi et al.",
+      "year": 2025,
+      "url": "https://openreview.net/forum?id=A9oz6qFlQ4",
+      "source": "OpenReview (ICML workshop)",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "Cross-cultural pilot survey on pluralistic AI alignment perceptions"
+    },
+    {
+      "title": "Toward a Cultural Co-Genesis of AI Ethics",
+      "authors": "Ammar Younas et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/pdf/2505.21542",
+      "source": "arXiv",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "Framework for cultural co-genesis of AI ethics across traditions"
+    },
+    {
+      "title": "Multilingual != Multicultural: Evaluating Gaps Between Multilingual Capabilities and Cultural Alignment in LLMs",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2502.16534",
+      "source": "arXiv",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "Disentangling language capabilities from cultural alignment in LLMs"
+    },
+    {
+      "title": "Cultural diversity and artificial intelligence: Toward a pluralistic framework",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.ojed.org/STEM/article/view/9644",
+      "source": "American Journal of STEM Education",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "Pluralistic framework for cultural diversity in AI"
+    },
+    {
+      "title": "Overcoming Barriers to Cross-cultural Cooperation in AI Ethics and Governance",
+      "authors": "O hEigeartaigh et al.",
+      "year": 2020,
+      "url": "https://link.springer.com/article/10.1007/s13347-020-00402-x",
+      "source": "Springer (Philosophy & Technology)",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Barriers to cross-cultural cooperation in AI ethics"
+    },
+    {
+      "title": "How Well Do LLMs Represent Values Across Cultures? Hofstede Cultural Dimensions",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2406.14805",
+      "source": "arXiv",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "LLM value representation evaluated using Hofstede cultural dimensions"
+    },
+    {
+      "title": "Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs",
+      "authors": "Khan et al.",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2503.08688v2",
+      "source": "arXiv / FAccT 2025",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Critique of cultural alignment evaluation methods in LLMs"
+    },
+    {
+      "title": "Break the Checkbox: Challenging Closed-Style Evaluations of Cultural Alignment in LLMs",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2502.08045v2",
+      "source": "arXiv",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Challenging closed-style cultural alignment evaluation methods"
+    },
+    {
+      "title": "An Evaluation of Cultural Value Alignment in LLM",
+      "authors": "Nicholas Sukiennik",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2504.08863",
+      "source": "arXiv",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Cultural value alignment evaluation using VSM across models/countries/languages"
+    },
+    {
+      "title": "Cultural Alignment in Large Language Models (COLING)",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://aclanthology.org/2025.coling-main.567.pdf",
+      "source": "ACL Anthology (COLING)",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Cultural alignment analysis in LLMs using Hofstede dimensions"
+    },
+    {
+      "title": "Fluent but Foreign: Even Regional LLMs Lack Cultural Alignment",
+      "authors": "Agarwal et al.",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2505.21548",
+      "source": "arXiv",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Regional LLMs still lack cultural alignment using World Values Survey"
+    },
+    {
+      "title": "Incorporating Diverse Perspectives in Cultural Alignment",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://aclanthology.org/2025.emnlp-main.862.pdf",
+      "source": "ACL Anthology (EMNLP)",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Incorporating diverse perspectives in cultural alignment evaluation"
+    },
+    {
+      "title": "Cultural Value Alignment in LLMs (overview)",
+      "authors": "Various",
+      "year": 2025,
+      "url": "https://www.emergentmind.com/topics/cultural-value-alignment-in-llms",
+      "source": "Emergent Mind",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "Overview of cultural value alignment research in LLMs"
+    },
+    {
+      "title": "Investigating Cultural Alignment of Large Language Models",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.researchgate.net/publication/384214557_Investigating_Cultural_Alignment_of_Large_Language_Models",
+      "source": "ResearchGate",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Investigation of cultural alignment in LLMs"
+    },
+    {
+      "title": "Pluralistic Alignment @ ICML 2026 (Workshop)",
+      "authors": "Various",
+      "year": 2026,
+      "url": "https://pluralistic-alignment.github.io/",
+      "source": "ICML 2026",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "ICML 2026 workshop on pluralistic AI alignment"
+    },
+    {
+      "title": "CCD-Bench: Cultural Conflict in LLM Decision-Making",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://arxiv.org/html/2502.16534",
+      "source": "arXiv",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": true,
+      "description": "Benchmark for evaluating LLM decision-making under cross-cultural value conflict"
+    },
+    {
+      "title": "Artificial Intelligence in Global South smart cities: addressing governance inequality",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.researchsquare.com/article/rs-7502315/v1",
+      "source": "Research Square",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "AI governance inequality in Global South smart cities"
+    },
+    {
+      "title": "Moving Beyond the Term 'Global South' in AI Ethics and Policy",
+      "authors": "Stanford HAI",
+      "year": 2025,
+      "url": "https://hai.stanford.edu/policy/moving-beyond-the-term-global-south-in-ai-ethics-and-policy",
+      "source": "Stanford HAI",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "Critique of 'Global South' terminology in AI ethics policy"
+    },
+    {
+      "title": "Ethical Governance of AI in the Global South: A Human Rights Approach",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.mdpi.com/2504-3900/81/1/136",
+      "source": "MDPI",
+      "gap_category": "Cross-Cultural Comparative",
+      "in_vault": false,
+      "description": "Human rights approach to AI governance in Global South"
+    },
+    {
+      "title": "The State of Artificial Intelligence in the Pacific Islands",
+      "authors": "AI Asia Pacific Institute",
+      "year": 2024,
+      "url": "https://aiasiapacific.org/wp-content/uploads/2024/08/The-State-of-Artificial-Intelligence-in-the-Pacific-Islands.pdf",
+      "source": "AI Asia Pacific Institute",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Comprehensive state of AI in 16 Pacific Island countries"
+    },
+    {
+      "title": "How Small Island Developing States could shape the protection of culture and creativity in the age of AI",
+      "authors": "UNESCO",
+      "year": 2025,
+      "url": "https://www.unesco.org/ethics-ai/en/articles/how-small-island-developing-states-could-shape-protection-culture-and-creativity-age-ai",
+      "source": "UNESCO",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "SIDS protecting culture and creativity in AI age"
+    },
+    {
+      "title": "Bridging the digital divide in Pacific island states",
+      "authors": "ASPI",
+      "year": 2025,
+      "url": "https://www.aspistrategist.org.au/bridging-the-digital-divide-in-pacific-island-states/",
+      "source": "ASPI",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Digital divide challenges in Pacific Island states for AI adoption"
+    },
+    {
+      "title": "AI infrastructure's environmental costs clash with Pacific Island nations' needs",
+      "authors": "Brookings",
+      "year": 2025,
+      "url": "https://www.brookings.edu/articles/ai-infrastructures-environmental-costs-clash-with-pacific-island-nations-needs/",
+      "source": "Brookings",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Environmental costs of AI infrastructure vs Pacific Island nations' sustainability needs"
+    },
+    {
+      "title": "Bridging the divide: building Pacific agency in the AI era",
+      "authors": "Devpolicy",
+      "year": 2025,
+      "url": "https://devpolicy.org/bridging-the-divide-building-pacific-agency-in-the-ai-era-20250711/",
+      "source": "Devpolicy Blog",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Building Pacific Island agency and governance in AI era"
+    },
+    {
+      "title": "Laying the foundations for AI in Australia and the Pacific",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://eastasiaforum.org/2024/08/12/laying-the-foundations-for-ai-in-australia-and-the-pacific/",
+      "source": "East Asia Forum",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "AI foundations for Australia and Pacific region"
+    },
+    {
+      "title": "Tech vs. Corruption: How AI and Digital Tools Can Aid Transparency in the Pacific",
+      "authors": "UNDP Pacific",
+      "year": 2025,
+      "url": "https://www.undp.org/pacific/blog/tech-vs-corruption-how-ai-and-digital-tools-can-aid-transparency-pacific",
+      "source": "UNDP",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "AI for transparency and anti-corruption in Pacific Islands"
+    },
+    {
+      "title": "Africa AI Policy Lab resources",
+      "authors": "Africa AI Policy Lab",
+      "year": 2025,
+      "url": "https://www.aipolicy.africa/",
+      "source": "Africa AI Policy Lab",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Continental platform for African AI policy research and coordination"
+    },
+    {
+      "title": "Artificial Intelligence in Africa: Emerging Challenges",
+      "authors": "Unknown",
+      "year": 2022,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-08215-3_5",
+      "source": "Springer",
+      "gap_category": "African",
+      "in_vault": false,
+      "description": "Emerging challenges of AI in Africa"
+    },
+    {
+      "title": "The State of Digital Transformation in Pacific Island Countries",
+      "authors": "Carnegie Endowment for International Peace",
+      "year": 2025,
+      "url": "https://carnegieendowment.org/europe/research/2025/11/the-state-of-digital-transformation-in-pacific-island-countries",
+      "source": "Carnegie Endowment",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Comprehensive assessment of digital transformation progress across Pacific Island countries including AI readiness"
+    },
+    {
+      "title": "Navigating the Digital Pacific: Insights from Tonga and Solomon Islands' Digital Readiness Assessments",
+      "authors": "UNDP Pacific",
+      "year": 2025,
+      "url": "https://www.undp.org/pacific/blog/navigating-digital-pacific-insights-tonga-and-solomon-islands-digital-readiness-assessments",
+      "source": "UNDP",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Digital readiness assessments for Tonga and Solomon Islands with AI governance implications"
+    },
+    {
+      "title": "Pasifika Futures Report: Navigating Development with Indigenous Wisdom",
+      "authors": "UNDP Pacific",
+      "year": 2025,
+      "url": "https://www.undp.org/pacific/publications/pasifika-futures-report-navigating-development-indigenous-wisdom",
+      "source": "UNDP",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Indigenous Pacific wisdom frameworks for navigating technology-driven development futures"
+    },
+    {
+      "title": "Tikanga in Technology: Indigenous Data and Governance",
+      "authors": "Te Ngira Institute, University of Waikato",
+      "year": 2024,
+      "url": "https://www.waikato.ac.nz/research/institutes-centres-entities/institutes/te-ngira/research/tikanga-in-technology/",
+      "source": "University of Waikato",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "How matauranga Maori and tikanga guide AI, data sovereignty, and governance in Aotearoa and the Pacific"
+    },
+    {
+      "title": "Maori Data Governance Model",
+      "authors": "Te Ngira Institute, University of Waikato",
+      "year": 2024,
+      "url": "https://www.waikato.ac.nz/assets/Uploads/Research/Research-institutes-centres-and-groups/Institutes/Te-Ngira-Institute-for-Population-Research/Maori_Data_Governance_Model.pdf",
+      "source": "University of Waikato",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Data governance model grounded in Maori values for culturally appropriate management of indigenous data"
+    },
+    {
+      "title": "Papua New Guinea's Digital Transformation: Progress in Context with Regional Peers",
+      "authors": "Modern Diplomacy",
+      "year": 2025,
+      "url": "https://moderndiplomacy.eu/2025/12/03/papua-new-guineas-digital-transformation-progress-in-context-with-regional-peers/",
+      "source": "Modern Diplomacy",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "PNG digital transformation and AI readiness compared to Pacific Island peers"
+    },
+    {
+      "title": "The State of Artificial Intelligence in the Pacific Islands (Montreal AI Ethics Analysis)",
+      "authors": "Montreal AI Ethics Institute",
+      "year": 2024,
+      "url": "https://montrealethics.ai/the-state-of-artificial-intelligence-in-the-pacific-islands/",
+      "source": "Montreal AI Ethics Institute",
+      "gap_category": "Pacific Island",
+      "in_vault": false,
+      "description": "Ethics analysis of AI state in Pacific Islands including governance gaps and cultural considerations"
+    },
+    {
+      "title": "Russia's Drive for AI: Do Deeds Match the Words?",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://www.tandfonline.com/doi/full/10.1080/0163660X.2024.2435162",
+      "source": "Taylor & Francis",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Assessment of whether Russia's AI development actions match its strategic rhetoric"
+    },
+    {
+      "title": "United States, China or Russia: Who Writes the Moral Code for Artificial Intelligence?",
+      "authors": "Lowy Institute",
+      "year": 2024,
+      "url": "https://www.lowyinstitute.org/the-interpreter/united-states-china-or-russia-who-writes-moral-code-artificial-intelligence",
+      "source": "Lowy Institute",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Geopolitical competition over AI ethics norms between US, China, and Russia"
+    },
+    {
+      "title": "AI, Global Governance, and Digital Sovereignty",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://arxiv.org/html/2410.17481v1",
+      "source": "arXiv",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "AI global governance through the lens of digital sovereignty including Russian and authoritarian models"
+    },
+    {
+      "title": "Kazakhstan's Digital Evolution: From eGov to AI Governance",
+      "authors": "UN DESA",
+      "year": 2025,
+      "url": "https://publicadministration.desa.un.org/blog/kazakhstans-digital-evolution-egov-ai-governance",
+      "source": "UN DESA",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Kazakhstan's institutional AI governance evolution including Ministry of AI establishment"
+    },
+    {
+      "title": "AI Regulation and the Ministry of Artificial Intelligence in Kazakhstan",
+      "authors": "Mondaq",
+      "year": 2026,
+      "url": "https://www.mondaq.com/new-technology/1747632/ai-regulation-and-the-ministry-of-artificial-intelligence-in-kazakhstan",
+      "source": "Mondaq",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Analysis of Kazakhstan's 2025 AI law and new Ministry of AI with seven governance principles"
+    },
+    {
+      "title": "Navigating AI in Central Asia: Legal Systems, Free Economic Zones, and Global Partnerships",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://ijsspa.org/index.php/ojs/article/view/222",
+      "source": "IJSSPA",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Legal frameworks for AI governance across Central Asian nations"
+    },
+    {
+      "title": "Kazakhstan's AI Silknet: Building a Digital Bridge for Central Asia's Future",
+      "authors": "CACI Analyst",
+      "year": 2025,
+      "url": "https://www.cacianalyst.org/publications/analytical-articles/item/13905-kazakhstans-ai-silknet-building-a-digital-bridge-for-central-asias-future.html",
+      "source": "CACI Analyst",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Kazakhstan's AI Silknet initiative as regional digital infrastructure hub for Central Asia"
+    },
+    {
+      "title": "The Rise of Artificial Intelligence in Central Eurasia",
+      "authors": "StrategEast",
+      "year": 2025,
+      "url": "https://www.strategeast.org/ai-in-central-eurasia-report-2025/",
+      "source": "StrategEast",
+      "gap_category": "Eastern European/Central Asian",
+      "in_vault": false,
+      "description": "Comprehensive report on AI development and governance across Central Eurasian countries"
+    },
+    {
+      "title": "What Buddhism Can Do for AI Ethics",
+      "authors": "MIT Technology Review",
+      "year": 2021,
+      "url": "https://www.technologyreview.com/2021/01/06/1015779/what-buddhism-can-do-ai-ethics/",
+      "source": "MIT Technology Review",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": false,
+      "description": "How Buddhist philosophy of suffering reduction and non-attachment can inform AI ethics frameworks"
+    },
+    {
+      "title": "A Buddhist Perspective on AI: Cultivating Freedom of Attention and True Diversity in an AI Future",
+      "authors": "Future of Life Institute",
+      "year": 2023,
+      "url": "https://futureoflife.org/religion/a-buddhist-perspective-on-ai/",
+      "source": "Future of Life Institute",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": false,
+      "description": "Buddhist framework for AI focusing on attention freedom and genuine diversity"
+    },
+    {
+      "title": "Compassion and Buddhist AI",
+      "authors": "Dharma Wangi",
+      "year": 2024,
+      "url": "https://www.dharma-wangi.space/post/compassion-and-buddhist-ai",
+      "source": "Dharma Wangi",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": false,
+      "description": "Buddhist compassion (karuna) as foundation for ethical AI design and human-machine interaction"
+    },
+    {
+      "title": "Buddhism and Artificial Intelligence (Wikipedia Scholarly Overview)",
+      "authors": "Multiple contributors",
+      "year": 2025,
+      "url": "https://en.wikipedia.org/wiki/Buddhism_and_artificial_intelligence",
+      "source": "Wikipedia",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": false,
+      "description": "Comprehensive overview of Buddhist perspectives on AI sentience, ethics, and the Bodhisattva vow for AI"
+    },
+    {
+      "title": "Roshi Joan Halifax: What Has AI Got To Do with Buddhism?",
+      "authors": "Joan Halifax",
+      "year": 2023,
+      "url": "https://www.upaya.org/2023/10/roshi-joan-halifax-what-has-ai-got-to-do-with-buddhism/",
+      "source": "Upaya Zen Center",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": false,
+      "description": "Zen Buddhist teacher's perspective on AI ethics through Buddhist lens of compassion and mindfulness"
+    },
+    {
+      "title": "Decolonizing the 'Ethics of Artificial Intelligence'",
+      "authors": "Unknown",
+      "year": 2024,
+      "url": "https://cosmosandhistory.org/index.php/journal/article/view/1006",
+      "source": "Cosmos and History",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": false,
+      "description": "Decolonizing AI ethics through non-Western frameworks including Buddhist and indigenous perspectives"
+    },
+    {
+      "title": "Indigenous Ethics and Artificial Intelligence",
+      "authors": "Maldonado et al.",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00879-2",
+      "source": "Springer (AI and Ethics)",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": true,
+      "description": "Indigenous worldview based on reciprocity for AI ethics including Sumak Kawsay and Buddhist perspectives"
+    },
+    {
+      "title": "The NORBU Project: Buddhist AI as Spiritual Friend (Kalyana Mitta)",
+      "authors": "NORBU AI Team",
+      "year": 2024,
+      "url": "https://ijrar.org/papers/IJRAR25B3177.pdf",
+      "source": "IJRAR",
+      "gap_category": "Buddhist-specific AI ethics",
+      "in_vault": false,
+      "description": "Buddhist AI chatbot guided by four brahma-viharas: metta, karuna, mudita, and upekkha"
+    },
+    {
+      "title": "La Inteligencia Artificial y los Derechos Fundamentales en Ecuador",
+      "authors": "USFQ",
+      "year": 2025,
+      "url": "https://researchpapers.usfq.edu.ec/index.php/usfqlawwp/preprint/view/182",
+      "source": "USFQ Law Working Papers",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "AI and fundamental rights in Ecuador including constitutional buen vivir framework"
+    },
+    {
+      "title": "La dignidad humana frente a la inteligencia artificial: un analisis etico y normativo en America Latina",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://www.unilim.fr/trahs/6367",
+      "source": "TRAHS",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "Human dignity vs AI: ethical and normative analysis in Latin America"
+    },
+    {
+      "title": "Hacia una regulacion etica y efectiva de la inteligencia artificial en Ecuador",
+      "authors": "UNESCO",
+      "year": 2025,
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000394821",
+      "source": "UNESCO",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "Toward ethical and effective AI regulation in Ecuador aligned with buen vivir and rights of nature"
+    },
+    {
+      "title": "Crossing Routes: Artificial Intelligence Governance and Human Rights in Latin America",
+      "authors": "CEBRI Journal",
+      "year": 2024,
+      "url": "https://cebri.org/revista/en/artigo/108/crossing-routes-artificial-intelligence-governance-and-human-rights-in-latin-america",
+      "source": "CEBRI Journal",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "AI governance and human rights intersections in Latin America including Cartagena and Montevideo Declarations"
+    },
+    {
+      "title": "Artificial Intelligence in the Colonial Matrix of Power",
+      "authors": "Unknown",
+      "year": 2023,
+      "url": "https://link.springer.com/article/10.1007/s13347-023-00687-8",
+      "source": "Springer (Philosophy & Technology)",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "Quijano's colonial matrix of power applied to AI systems and coloniality of knowledge"
+    },
+    {
+      "title": "Colonial Structures in AI: A Latin American Decolonial Literature Review",
+      "authors": "Unknown",
+      "year": 2025,
+      "url": "https://link.springer.com/article/10.1007/s00146-025-02547-9",
+      "source": "Springer (AI & Society)",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "Latin American decolonial review of AI structural implications: data colonialism, labour coloniality, digital feudalism"
+    },
+    {
+      "title": "Cognitive Sovereignty and Decolonial Public Health: Reclaiming Epistemic Authority in the Global AI Era",
+      "authors": "Unknown",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1785170/full",
+      "source": "Frontiers in Public Health",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "Cognitive sovereignty framework drawing from Indigenous OCAP/CARE and Latin American decolonial thought"
+    },
+    {
+      "title": "Bolivia avanza hacia una ley pionera para regular la Inteligencia Artificial",
+      "authors": "Unifranz",
+      "year": 2025,
+      "url": "https://unifranz.edu.bo/blog/bolivia-avanza-hacia-una-ley-pionera-para-regular-la-inteligencia-artificial/",
+      "source": "Unifranz Bolivia",
+      "gap_category": "Buen vivir / Latin American decolonial",
+      "in_vault": false,
+      "description": "Bolivia's pioneering AI regulation bill within its plurinational constitutional framework"
+    }
+  ]
+}

@@ -1,0 +1,1880 @@
+{
+  "matched": [
+    {
+      "file": "01-introduction.md",
+      "line": 5,
+      "raw": "(Ouyang et al. 2022)",
+      "first_author": "ouyang",
+      "year": 2022,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Ouyang_2022",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 5,
+      "raw": "(Bai et al. 2022)",
+      "first_author": "bai",
+      "year": 2022,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Bai_2022",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 7,
+      "raw": "(Wong 2020)",
+      "first_author": "wong",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Wong_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 7,
+      "raw": "(Mhlambi 2020)",
+      "first_author": "mhlambi",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Mhlambi_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 7,
+      "raw": "(Carroll et al. 2020)",
+      "first_author": "carroll",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Carroll_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 11,
+      "raw": "(Bai et al. 2022)",
+      "first_author": "bai",
+      "year": 2022,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Bai_2022",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 23,
+      "raw": "(Jobin et al. 2019)",
+      "first_author": "jobin",
+      "year": 2019,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Jobin_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 47,
+      "raw": "(Mhlambi 2020)",
+      "first_author": "mhlambi",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Mhlambi_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 47,
+      "raw": "(Wong 2020)",
+      "first_author": "wong",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Wong_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 47,
+      "raw": "(Carroll et al. 2020)",
+      "first_author": "carroll",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Carroll_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 63,
+      "raw": "(Rad et al. 2018)",
+      "first_author": "rad",
+      "year": 2018,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Rad_2018",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 63,
+      "raw": "(Apicella et al. 2020)",
+      "first_author": "apicella",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Apicella_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 95,
+      "raw": "(Rafailov et al. 2023)",
+      "first_author": "rafailov",
+      "year": 2023,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Rafailov_2023",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 107,
+      "raw": "(Nagel 1986)",
+      "first_author": "nagel",
+      "year": 1986,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Nagel_1986",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 113,
+      "raw": "(Jobin et al. 2019)",
+      "first_author": "jobin",
+      "year": 2019,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Jobin_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 113,
+      "raw": "(Sambasivan et al. 2021)",
+      "first_author": "sambasivan",
+      "year": 2021,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Sambasivan_2021",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 117,
+      "raw": "(Durmus et al. 2024)",
+      "first_author": "durmus",
+      "year": 2024,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Durmus_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 117,
+      "raw": "(Klingefjord et al. 2024)",
+      "first_author": "klingefjord",
+      "year": 2024,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Klingefjord_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 117,
+      "raw": "(Awad et al. 2018 via Moral Machine)",
+      "first_author": "awad",
+      "year": 2018,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Awad_2018",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 27,
+      "raw": "Russell (2019)",
+      "first_author": "russell",
+      "year": 2019,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Russell_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 27,
+      "raw": "Gabriel (2020)",
+      "first_author": "gabriel",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Gabriel_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 29,
+      "raw": "Awad et al. (2018)",
+      "first_author": "awad",
+      "year": 2018,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Awad_2018",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 31,
+      "raw": "Sambasivan et al. (2021)",
+      "first_author": "sambasivan",
+      "year": 2021,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Sambasivan_2021",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 31,
+      "raw": "Klingefjord et al. (2024)",
+      "first_author": "klingefjord",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Klingefjord_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 37,
+      "raw": "Henrich, Heine, and Norenzayan (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 39,
+      "raw": "Jobin et al. (2019)",
+      "first_author": "jobin",
+      "year": 2019,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Jobin_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 39,
+      "raw": "Floridi et al. (2018)",
+      "first_author": "floridi",
+      "year": 2018,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Floridi_2018",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 39,
+      "raw": "Sorensen et al. (2024)",
+      "first_author": "sorensen",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Sorensen_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 51,
+      "raw": "Henrich, Heine, and Norenzayan (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 53,
+      "raw": "Markus and Kitayama (1991)",
+      "first_author": "markus",
+      "year": 1991,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Markus_1991",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 55,
+      "raw": "Gelfand et al. (2011)",
+      "first_author": "gelfand",
+      "year": 2011,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Gelfand_2011",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 57,
+      "raw": "Schwartz (2012)",
+      "first_author": "schwartz",
+      "year": 2012,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Schwartz_2012",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 57,
+      "raw": "Inglehart and Welzel (2005)",
+      "first_author": "inglehart",
+      "year": 2005,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Inglehart_2005",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 59,
+      "raw": "Atari et al. (2023)",
+      "first_author": "atari",
+      "year": 2023,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Atari_2023",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 61,
+      "raw": "Awad et al.'s (2018)",
+      "first_author": "awad",
+      "year": 2018,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Awad_2018",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 67,
+      "raw": "Jobin, Ienca, and Vayena (2019)",
+      "first_author": "jobin",
+      "year": 2019,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Jobin_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 69,
+      "raw": "Floridi et al. (2018)",
+      "first_author": "floridi",
+      "year": 2018,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Floridi_2018",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 69,
+      "raw": "Mittelstadt (2019)",
+      "first_author": "mittelstadt",
+      "year": 2019,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Mittelstadt_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 71,
+      "raw": "Fjeld et al. (2020)",
+      "first_author": "fjeld",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Fjeld_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 73,
+      "raw": "Schiff et al. (2021)",
+      "first_author": "schiff",
+      "year": 2021,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Schiff_2021",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 73,
+      "raw": "Hagerty and Rubinov (2019)",
+      "first_author": "hagerty",
+      "year": 2019,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Hagerty_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 75,
+      "raw": "Whittlestone et al. (2019)",
+      "first_author": "whittlestone",
+      "year": 2019,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Whittlestone_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 77,
+      "raw": "Bender et al. (2021)",
+      "first_author": "bender",
+      "year": 2021,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Bender_2021",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 77,
+      "raw": "Morley et al. (2020)",
+      "first_author": "morley",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Morley_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 77,
+      "raw": "Bietti (2020)",
+      "first_author": "bietti",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Bietti_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 85,
+      "raw": "Gabriel (2020)",
+      "first_author": "gabriel",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Gabriel_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 87,
+      "raw": "Russell (2019)",
+      "first_author": "russell",
+      "year": 2019,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Russell_2019",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 89,
+      "raw": "Christiano et al. (2017)",
+      "first_author": "christiano",
+      "year": 2017,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Christiano_2017",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 91,
+      "raw": "Ouyang et al. (2022)",
+      "first_author": "ouyang",
+      "year": 2022,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Ouyang_2022",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 93,
+      "raw": "Bai et al. (2022)",
+      "first_author": "bai",
+      "year": 2022,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Bai_2022",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 97,
+      "raw": "Durmus et al. (2024)",
+      "first_author": "durmus",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Durmus_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 99,
+      "raw": "Klingefjord, Lowe, and Edelman (2024)",
+      "first_author": "klingefjord",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Klingefjord_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 101,
+      "raw": "Sorensen et al. (2024)",
+      "first_author": "sorensen",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Sorensen_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 103,
+      "raw": "Bakker et al. (2022)",
+      "first_author": "bakker",
+      "year": 2022,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Bakker_2022",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 105,
+      "raw": "Kirk et al. (2024)",
+      "first_author": "kirk",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Kirk_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 127,
+      "raw": "Awad et al. (2018)",
+      "first_author": "awad",
+      "year": 2018,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Awad_2018",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 165,
+      "raw": "Henrich et al.'s (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "02-methods.md",
+      "line": 140,
+      "raw": "(Page et al. 2021)",
+      "first_author": "page",
+      "year": 2021,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Page_2021",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "02-methods.md",
+      "line": 274,
+      "raw": "(Hwang and Yoon, 1981)",
+      "first_author": "hwang",
+      "year": 1981,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Hwang_1981",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "02-methods.md",
+      "line": 22,
+      "raw": "Donthu et al. (2021)",
+      "first_author": "donthu",
+      "year": 2021,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Donthu_2021",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "02-methods.md",
+      "line": 105,
+      "raw": "Henrich, Heine, and Norenzayan (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "02-methods.md",
+      "line": 113,
+      "raw": "Henrich et al. (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 134,
+      "raw": "(Held 2006)",
+      "first_author": "held",
+      "year": 2006,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Held_2006",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 136,
+      "raw": "(Atari et al. 2023)",
+      "first_author": "atari",
+      "year": 2023,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Atari_2023",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 103,
+      "raw": "Carroll et al. (2020)",
+      "first_author": "carroll",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Carroll_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 103,
+      "raw": "Keegan (2024)",
+      "first_author": "keegan",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Keegan_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 103,
+      "raw": "Brown (2024)",
+      "first_author": "brown",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Brown_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 144,
+      "raw": "Mhlambi (2020)",
+      "first_author": "mhlambi",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Mhlambi_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 144,
+      "raw": "Gwagwa et al. (2022)",
+      "first_author": "gwagwa",
+      "year": 2022,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Gwagwa_2022",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 144,
+      "raw": "Wong (2020)",
+      "first_author": "wong",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Wong_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 144,
+      "raw": "Angle (2021)",
+      "first_author": "angle",
+      "year": 2021,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Angle_2021",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "03-results-corpus.md",
+      "line": 144,
+      "raw": "Mohamed et al. (2020)",
+      "first_author": "mohamed",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Mohamed_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 40,
+      "raw": "(Vandenberg and Lance 2000)",
+      "first_author": "vandenberg",
+      "year": 2000,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Vandenberg_2000",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 40,
+      "raw": "(Chen 2007)",
+      "first_author": "chen",
+      "year": 2007,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Chen_2007",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 87,
+      "raw": "(Lahmar 2025)",
+      "first_author": "lahmar",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Lahmar_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 87,
+      "raw": "(Farsi 2025)",
+      "first_author": "farsi",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Farsi_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 91,
+      "raw": "(Xiong 2025)",
+      "first_author": "xiong",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Xiong_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 95,
+      "raw": "(Carroll et al. 2020)",
+      "first_author": "carroll",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Carroll_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 99,
+      "raw": "(Eickhoff 2026)",
+      "first_author": "eickhoff",
+      "year": 2026,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Eickhoff_2026",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 99,
+      "raw": "(Ogunremi 2025)",
+      "first_author": "ogunremi",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Ogunremi_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 103,
+      "raw": "(Agarwal 2025)",
+      "first_author": "agarwal",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Agarwal_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 181,
+      "raw": "(Rao 2025)",
+      "first_author": "rao",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Rao_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 182,
+      "raw": "(Rahman 2025)",
+      "first_author": "rahman",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Rahman_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 183,
+      "raw": "(Catapang 2023)",
+      "first_author": "catapang",
+      "year": 2023,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Catapang_2023",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 184,
+      "raw": "(Keutzer 2025)",
+      "first_author": "keutzer",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Keutzer_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 193,
+      "raw": "(Lahmar 2025)",
+      "first_author": "lahmar",
+      "year": 2025,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Lahmar_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 193,
+      "raw": "(Eickhoff 2026)",
+      "first_author": "eickhoff",
+      "year": 2026,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Eickhoff_2026",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 95,
+      "raw": "Ray (2025)",
+      "first_author": "ray",
+      "year": 2025,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Ray_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 95,
+      "raw": "Neira-Davila (2025)",
+      "first_author": "neiradavila",
+      "year": 2025,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Neira-Davila_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 107,
+      "raw": "Ray (2025)",
+      "first_author": "ray",
+      "year": 2025,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Ray_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 107,
+      "raw": "Neira-Davila (2025)",
+      "first_author": "neiradavila",
+      "year": 2025,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Neira-Davila_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 175,
+      "raw": "Ray (2025)",
+      "first_author": "ray",
+      "year": 2025,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Ray_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "05-results-trials.md",
+      "line": 41,
+      "raw": "(Graham, Haidt, & Nosek, 2009)",
+      "first_author": "graham",
+      "year": 2009,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Graham_2009",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "05-results-trials.md",
+      "line": 43,
+      "raw": "(Haidt, 2012)",
+      "first_author": "haidt",
+      "year": 2012,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Haidt_2012",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "05-results-trials.md",
+      "line": 43,
+      "raw": "(Atari et al., 2023)",
+      "first_author": "atari",
+      "year": 2023,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Atari_2023",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "06-results-synthesis.md",
+      "line": 21,
+      "raw": "(Metz, 2007)",
+      "first_author": "metz",
+      "year": 2007,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Metz_2007",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "06-results-synthesis.md",
+      "line": 21,
+      "raw": "(Gyekye, 1997)",
+      "first_author": "gyekye",
+      "year": 1997,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Gyekye_1997",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 35,
+      "raw": "(Carroll et al., 2020)",
+      "first_author": "carroll",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Carroll_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 43,
+      "raw": "(Carroll et al., 2020)",
+      "first_author": "carroll",
+      "year": 2020,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Carroll_2020",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 43,
+      "raw": "(Keegan, 2024)",
+      "first_author": "keegan",
+      "year": 2024,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Keegan_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 43,
+      "raw": "(Brown, 2024)",
+      "first_author": "brown",
+      "year": 2024,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Brown_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 61,
+      "raw": "(Vandenberg & Lance, 2000)",
+      "first_author": "vandenberg",
+      "year": 2000,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Vandenberg_2000",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 61,
+      "raw": "(Chen, 2007)",
+      "first_author": "chen",
+      "year": 2007,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Chen_2007",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 7,
+      "raw": "Henrich, Heine, and Norenzayan (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 59,
+      "raw": "Durmus et al. (2024)",
+      "first_author": "durmus",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Durmus_2024",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 59,
+      "raw": "Rao et al. (2025)",
+      "first_author": "rao",
+      "year": 2025,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Rao_2025",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 59,
+      "raw": "Atari et al. (2023)",
+      "first_author": "atari",
+      "year": 2023,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Atari_2023",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 63,
+      "raw": "Henrich et al. (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 139,
+      "raw": "Henrich et al. (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 141,
+      "raw": "Henrich, Heine, and Norenzayan (2010)",
+      "first_author": "henrich",
+      "year": 2010,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Henrich_2010",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "10-endmatter.md",
+      "line": 111,
+      "raw": "(following Hwang & Yoon, 1981)",
+      "first_author": "hwang",
+      "year": 1981,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Hwang_1981",
+        "reason": "unique_author_year"
+      }
+    },
+    {
+      "file": "10-endmatter.md",
+      "line": 112,
+      "raw": "(following Roy & Bouyssou, 1993)",
+      "first_author": "roy",
+      "year": 1993,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "matched",
+        "confidence": 0.95,
+        "matched_key": "Roy_1993",
+        "reason": "unique_author_year"
+      }
+    }
+  ],
+  "uncertain": [
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 91,
+      "raw": "(Wong 2024)",
+      "first_author": "wong",
+      "year": 2024,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "uncertain",
+        "confidence": 0.6,
+        "matched_key": [
+          "Wong_2024",
+          "Wong_2024"
+        ],
+        "reason": "multiple_candidates_same_author_year"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 186,
+      "raw": "(Wong 2024)",
+      "first_author": "wong",
+      "year": 2024,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "uncertain",
+        "confidence": 0.6,
+        "matched_key": [
+          "Wong_2024",
+          "Wong_2024"
+        ],
+        "reason": "multiple_candidates_same_author_year"
+      }
+    }
+  ],
+  "orphan": [
+    {
+      "file": "01-introduction.md",
+      "line": 95,
+      "raw": "(Perrigo 2023)",
+      "first_author": "perrigo",
+      "year": 2023,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 59,
+      "raw": "Shweder's (1997)",
+      "first_author": "shweders",
+      "year": 1997,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 75,
+      "raw": "UNESCO's (2021)",
+      "first_author": "unescos",
+      "year": 2021,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "01-introduction.md",
+      "line": 77,
+      "raw": "Madaio et al. (2020)",
+      "first_author": "madaio",
+      "year": 2020,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "02-methods.md",
+      "line": 203,
+      "raw": "(April 2026)",
+      "first_author": "april",
+      "year": 2026,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "02-methods.md",
+      "line": 274,
+      "raw": "(Roy, 1991)",
+      "first_author": "roy",
+      "year": 1991,
+      "suffix": "",
+      "form": "parenthetical",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "04-results-benchmarks.md",
+      "line": 56,
+      "raw": "Tests (2017)",
+      "first_author": "tests",
+      "year": 2017,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 63,
+      "raw": "Commission (2017)",
+      "first_author": "commission",
+      "year": 2017,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 95,
+      "raw": "Act (2024)",
+      "first_author": "act",
+      "year": 2024,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    },
+    {
+      "file": "07-discussion.md",
+      "line": 97,
+      "raw": "AI (2021)",
+      "first_author": "ai",
+      "year": 2021,
+      "suffix": "",
+      "form": "narrative",
+      "classification": {
+        "bin": "orphan",
+        "confidence": 0.0,
+        "matched_key": null,
+        "reason": "no_author_year_match"
+      }
+    }
+  ],
+  "totals": {
+    "matched": 112,
+    "uncertain": 2,
+    "orphan": 10,
+    "total": 124
+  }
+}

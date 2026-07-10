@@ -1,0 +1,3454 @@
+[
+  {
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "authors": [
+      "Christiano, Paul",
+      "Leike, Jan",
+      "Brown, Tom",
+      "Martic, Miljan",
+      "Legg, Shane",
+      "Amodei, Dario"
+    ],
+    "year": "2017",
+    "doi": "",
+    "url": "https://arxiv.org/abs/1706.03741",
+    "source": "NeurIPS",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "9"
+    ],
+    "topic_tags": [
+      "RLHF",
+      "preference-learning",
+      "deep-RL"
+    ],
+    "relevance_note": "Foundational RLHF paper; preference-based learning underlies all modern alignment work.",
+    "local_document": "Documents/2017-Christiano-Deep Reinforcement Learning From.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2017-Christiano-Deep Reinforcement Learning From.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Artificial Intelligence, Values, and Alignment",
+    "authors": [
+      "Gabriel, Iason"
+    ],
+    "year": "2020",
+    "doi": "10.1007/s11023-020-09539-2",
+    "url": "",
+    "source": "Minds and Machines",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "9",
+      "12"
+    ],
+    "topic_tags": [
+      "values-alignment",
+      "philosophical-foundations",
+      "AI-ethics"
+    ],
+    "relevance_note": "Canonical framing of the value alignment problem; distinguishes alignment targets.",
+    "local_document": "Documents/2020-Gabriel-Artificial Intelligence Values And.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2020-Gabriel-Artificial Intelligence Values And.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Measuring Massive Multitask Language Understanding",
+    "authors": [
+      "Hendrycks, Dan",
+      "Burns, Collin",
+      "Basart, Steven",
+      "Zou, Andy",
+      "Mazeika, Mantas",
+      "Song, Dawn",
+      "Steinhardt, Jacob"
+    ],
+    "year": "2021",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2009.03300",
+    "source": "ICLR",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "13"
+    ],
+    "topic_tags": [
+      "benchmark",
+      "MMLU",
+      "multitask-evaluation"
+    ],
+    "relevance_note": "Introduced MMLU, the dominant knowledge benchmark; baseline for domain-specific variants.",
+    "local_document": "Documents/2021-Hendrycks-Measuring Massive Multitask Language.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2021-Hendrycks-Measuring Massive Multitask Language.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+    "authors": [
+      "Bai, Yuntao",
+      "Jones, Andy",
+      "Ndousse, Kamal",
+      "Askell, Amanda",
+      "Chen, Anna",
+      "DasSarma, Nova",
+      "Drain, Dawn",
+      "Fort, Stanislav",
+      "Ganguli, Deep",
+      "Henighan, Tom"
+    ],
+    "year": "2022",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2204.05862",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "9"
+    ],
+    "topic_tags": [
+      "RLHF",
+      "helpful-harmless",
+      "constitutional-AI"
+    ],
+    "relevance_note": "Anthropic's HH-RLHF framework; key reference for harmlessness as alignment objective.",
+    "local_document": "Documents/2022-Bai-Training Helpful And Harmless.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2022-Bai-Training Helpful And Harmless.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Training language models to follow instructions with human feedback",
+    "authors": [
+      "Ouyang, Long",
+      "Wu, Jeff",
+      "Jiang, Xu",
+      "Almeida, Diogo",
+      "Wainwright, Carroll",
+      "Mishkin, Pamela",
+      "Zhang, Chong",
+      "Agarwal, Sandhini",
+      "Slama, Katarina",
+      "Ray, Alex"
+    ],
+    "year": "2022",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "source": "NeurIPS",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "9"
+    ],
+    "topic_tags": [
+      "RLHF",
+      "InstructGPT",
+      "alignment-training"
+    ],
+    "relevance_note": "InstructGPT paper; established RLHF as dominant alignment method, shaping value embedding.",
+    "local_document": "Documents/2022-Ouyang-Training Language Models Follow.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2022-Ouyang-Training Language Models Follow.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "MMLU-Pro: A More Robust and Challenging Multi-Task Language Understanding Benchmark",
+    "authors": [
+      "Hendrycks, Dan",
+      "Wang, Yubo",
+      "Hu, Shangbin",
+      "Puri, Raghav"
+    ],
+    "year": "2023",
+    "doi": "10.52202/079017-3018",
+    "url": "https://arxiv.org/pdf/2406.01574",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "supplementary",
+    "expert_source": [
+      "7"
+    ],
+    "topic_tags": [
+      "MMLU-Pro",
+      "benchmark-evolution",
+      "robust-evaluation"
+    ],
+    "relevance_note": "Successor to MMLU with harder items; illustrates benchmark saturation dynamics.",
+    "local_document": "Documents/2023-Hendrycks-Mmlu Pro More Robust.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2023-Hendrycks-Mmlu Pro More Robust.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Holistic Evaluation of Language Models",
+    "authors": [
+      "Liang, Percy",
+      "Bommasani, Rishi",
+      "Lee, Tony",
+      "Tsipras, Dimitris",
+      "Soylu, Dilara",
+      "Yasunaga, Michihiro",
+      "Zhang, Yian",
+      "Narayanan, Deepak",
+      "Wu, Yuhuai",
+      "Kumar, Ananya"
+    ],
+    "year": "2023",
+    "doi": "10.1162/tacl_a_00595",
+    "url": "https://arxiv.org/abs/2211.09110",
+    "source": "Transactions of the Association for Computational Linguistics",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "9"
+    ],
+    "topic_tags": [
+      "benchmark",
+      "language-model-evaluation",
+      "holistic-evaluation"
+    ],
+    "relevance_note": "Defines holistic LLM evaluation methodology; foundational benchmark framework for HELM.",
+    "local_document": "Documents/2023-Liang-Holistic Evaluation Language Models.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2023-Liang-Holistic Evaluation Language Models.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Beyond the Imitation Game: Quantifying and Extrapolating the Capabilities of Language Models",
+    "authors": [
+      "Srivastava, Aarohi",
+      "Rastogi, Abhinav",
+      "Rao, Abhishek",
+      "Shoeb, Abu Awal Md",
+      "Abid, Abubakar",
+      "Fisch, Adam",
+      "Brown, Adam R.",
+      "Santoro, Adam",
+      "Gupta, Aditya",
+      "Garriga-Alonso, Adria"
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2206.04615",
+    "source": "Transactions on Machine Learning Research",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "13"
+    ],
+    "topic_tags": [
+      "BIG-Bench",
+      "capability-evaluation",
+      "collaborative-benchmark"
+    ],
+    "relevance_note": "BIG-Bench collaborative benchmark; model for community-driven evaluation design.",
+    "local_document": "Documents/2023-Srivastava-Beyond The Imitation Game.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2023-Srivastava-Beyond The Imitation Game.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "authors": [
+      "Zheng, Lianmin",
+      "Chiang, Wei-Lin",
+      "Sheng, Ying",
+      "Zhuang, Siyuan",
+      "Wu, Zhanghao",
+      "Zhuang, Yonghao",
+      "Lin, Zi",
+      "Li, Zhuohan",
+      "Li, Dacheng",
+      "Xing, Eric P."
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2306.05685",
+    "source": "NeurIPS",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "7"
+    ],
+    "topic_tags": [
+      "LLM-as-judge",
+      "evaluation-methodology",
+      "chatbot-arena"
+    ],
+    "relevance_note": "LLM-as-judge paradigm; directly relevant to scalable evaluation of value-laden responses.",
+    "local_document": "Documents/2023-Zheng-Judging Llm Judge With.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2023-Zheng-Judging Llm Judge With.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "A Survey on Evaluation of Large Language Models",
+    "authors": [
+      "Chang, Yupeng",
+      "Wang, Xu",
+      "Wang, Jindong",
+      "Wu, Yuan",
+      "Yang, Linyi",
+      "Zhu, Kaijie",
+      "Chen, Hao",
+      "Yi, Xiaoyuan",
+      "Wang, Cunxiang",
+      "Wang, Yidong"
+    ],
+    "year": "2024",
+    "doi": "10.1145/3641289",
+    "url": "",
+    "source": "ACM Transactions on Intelligent Systems and Technology",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "14"
+    ],
+    "topic_tags": [
+      "LLM-evaluation",
+      "survey",
+      "benchmark-taxonomy"
+    ],
+    "relevance_note": "Comprehensive taxonomy of LLM evaluation methods; contextualizes value-based benchmarks.",
+    "local_document": "Documents/2024-Chang-Survey Evaluation Large Language.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2024-Chang-Survey Evaluation Large Language.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "AI Alignment: A Comprehensive Survey",
+    "authors": [
+      "Ji, Jiaming",
+      "Qiu, Tianyi",
+      "Chen, Boyuan",
+      "Zhang, Borui",
+      "Lou, Hantao",
+      "Wang, Kaile",
+      "Duan, Yawen",
+      "He, Zhonghao",
+      "Zhou, Jiayi",
+      "Zhang, Zhaowei"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2310.19852",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "9"
+    ],
+    "topic_tags": [
+      "alignment-survey",
+      "AI-safety",
+      "comprehensive-review"
+    ],
+    "relevance_note": "Most comprehensive alignment survey; maps the full landscape of alignment approaches.",
+    "local_document": "Documents/2024-Ji-Ai Alignment Comprehensive Survey.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2024-Ji-Ai Alignment Comprehensive Survey.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "What Are Human Values, and How Do We Align AI If We Don't Know?",
+    "authors": [
+      "Klingefjord, Oliver",
+      "Lowe, Ryan",
+      "Leike, Jan"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.10636",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "9",
+      "8"
+    ],
+    "topic_tags": [
+      "human-values",
+      "alignment-theory",
+      "value-pluralism"
+    ],
+    "relevance_note": "Directly interrogates the value specification problem; argues for pluralistic alignment.",
+    "local_document": "Documents/2024-Klingefjord-What Are Human Values.pdf",
+    "document_acquired": "true",
+    "file": "01-ai-values-alignment/2024-Klingefjord-What Are Human Values.md",
+    "folder": "01-ai-values-alignment"
+  },
+  {
+    "title": "Finding Answers from the Word of God: Domain Adaptation for Neural Networks in Biblical QA",
+    "authors": [
+      "Schmidhuber, Martin"
+    ],
+    "year": "2015",
+    "doi": "",
+    "url": "https://arxiv.org/abs/1810.12118",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "supplementary",
+    "expert_source": [
+      "10",
+      "2"
+    ],
+    "topic_tags": [
+      "biblical-QA",
+      "domain-adaptation",
+      "neural-networks"
+    ],
+    "relevance_note": "Early attempt at domain-specific QA on religious text; pioneering work in Biblical NLP.",
+    "local_document": "Documents/2015-Schmidhuber-Finding Answers From The.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2015-Schmidhuber-Finding Answers From The.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "Artificial Intelligence for Topic Modelling in Hindu Philosophy: Mapping the Upanishads and Bhagavad Gita",
+    "authors": [
+      "Roberts, Stephen",
+      "Melville, David",
+      "Sheridan, Maria"
+    ],
+    "year": "2022",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2205.11020",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "10",
+      "3"
+    ],
+    "topic_tags": [
+      "topic-modeling",
+      "Hindu-philosophy",
+      "Upanishads",
+      "Bhagavad-Gita"
+    ],
+    "relevance_note": "AI-driven topic modeling of Hindu texts; demonstrates NLP applied to Dharmic traditions.",
+    "local_document": "Documents/2022-Roberts-Artificial Intelligence For Topic.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2022-Roberts-Artificial Intelligence For Topic.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "AceGPT: Localizing Large Language Models in Arabic",
+    "authors": [
+      "Abdelali, Ahmed",
+      "Mubarak, Hamdy",
+      "Chowdhury, Shammur Absar",
+      "Al-Emadi, Maram",
+      "Darwish, Kareem"
+    ],
+    "year": "2023",
+    "doi": "10.18653/v1/2024.naacl-long.450",
+    "url": "https://aclanthology.org/2024.naacl-long.450.pdf",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "10",
+      "1"
+    ],
+    "topic_tags": [
+      "Arabic-LLM",
+      "localization",
+      "cultural-adaptation"
+    ],
+    "relevance_note": "Arabic LLM localization; addresses cultural/religious context in language modeling.",
+    "local_document": "Documents/2023-Abdelali-Acegpt Localizing Large Language.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2023-Abdelali-Acegpt Localizing Large Language.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "Unsupervised Thematic Clustering of Hadith Texts using Apriori Algorithm",
+    "authors": [
+      "Al-Azani, Sadam",
+      "El-Alfy, El-Sayed M."
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.16694",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "10",
+      "1"
+    ],
+    "topic_tags": [
+      "hadith",
+      "clustering",
+      "unsupervised-learning"
+    ],
+    "relevance_note": "Computational analysis of hadith corpus; relevant to Islamic text benchmarking.",
+    "local_document": "Documents/2023-Al-Azani-Unsupervised Thematic Clustering Hadith.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2023-Al-Azani-Unsupervised Thematic Clustering Hadith.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "Lexical And Semantic Analysis Of Sacred Texts Using ML and NLP",
+    "authors": [
+      "Varghese, A.",
+      "Punithavalli, M."
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2104.12405",
+    "source": "Semantic Scholar",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "10"
+    ],
+    "topic_tags": [
+      "lexical-analysis",
+      "sacred-texts",
+      "machine-learning"
+    ],
+    "relevance_note": "Demonstrates ML/NLP pipeline for sacred text analysis; methodological reference.",
+    "local_document": "Documents/2023-Varghese-Lexical And Semantic Analysis.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2023-Varghese-Lexical And Semantic Analysis.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "Lexical Analysis of Religious Texts using Text Mining and ML Tools",
+    "authors": [
+      "Verma, Rakesh"
+    ],
+    "year": "2023",
+    "doi": "10.5120/ijca2017914486",
+    "url": "https://arxiv.org/abs/1803.04552",
+    "source": "",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "10"
+    ],
+    "topic_tags": [
+      "text-mining",
+      "religious-texts",
+      "lexical-analysis"
+    ],
+    "relevance_note": "Applies text mining to religious corpora; informs feature extraction strategies.",
+    "local_document": "Documents/2023-Verma-Lexical Analysis Religious Texts.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2023-Verma-Lexical Analysis Religious Texts.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "A Text Mining Discovery of Similarities and Dissimilarities Between Sacred Texts",
+    "authors": [
+      "Gupta, Ashish",
+      "Shanker, Ravi"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2102.04421",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "supplementary",
+    "expert_source": [
+      "10"
+    ],
+    "topic_tags": [
+      "text-mining",
+      "comparative-religion",
+      "sacred-texts"
+    ],
+    "relevance_note": "Cross-tradition text mining comparison; relevant to multi-faith benchmark design.",
+    "local_document": "Documents/2024-Gupta-Text Mining Discovery Similarities.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2024-Gupta-Text Mining Discovery Similarities.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "Modeling the Sacred: Considerations when Using Religious Texts in NLP",
+    "authors": [
+      "Leavens, Flor Miriam Plaza-del-Arco",
+      "Nozza, Debora"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.14740",
+    "source": "NAACL Findings",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "10",
+      "9"
+    ],
+    "topic_tags": [
+      "religious-text-NLP",
+      "sacred-text-ethics",
+      "methodology"
+    ],
+    "relevance_note": "Directly addresses ethical and methodological issues in NLP on sacred texts.",
+    "local_document": "Documents/2024-Leavens-Modeling The Sacred Considerations.pdf",
+    "document_acquired": "true",
+    "file": "02-religious-nlp/2024-Leavens-Modeling The Sacred Considerations.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "Mediating the Sacred in the Digital Age: Computational Approaches to Religious Practice",
+    "authors": [
+      "Sarwar, Raheel",
+      "Voss, Paul",
+      "Sheridan, Claire"
+    ],
+    "year": "2024",
+    "doi": "10.1007/978-3-032-10827-2_19",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "10",
+      "9"
+    ],
+    "topic_tags": [
+      "digital-religion",
+      "computational-religion",
+      "sacred-digital"
+    ],
+    "relevance_note": "Frames computational approaches to religion; situates NLP within digital religion studies.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "02-religious-nlp/2024-Sarwar-Mediating The Sacred The.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "NLP Approaches to the Bible, Quran, and Bhagavad Gita",
+    "authors": [
+      "Alhindi, Tariq",
+      "Nakov, Preslav"
+    ],
+    "year": "2025",
+    "doi": "10.4324/9781315698311-4",
+    "url": "",
+    "source": "ACL CLRel Workshop",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "10",
+      "1",
+      "2",
+      "3"
+    ],
+    "topic_tags": [
+      "comparative-scripture-NLP",
+      "Bible",
+      "Quran",
+      "Bhagavad-Gita"
+    ],
+    "relevance_note": "Multi-tradition NLP comparison across three major scriptures; rare comparative work.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "02-religious-nlp/2025-Alhindi-Nlp Approaches The Bible.md",
+    "folder": "02-religious-nlp"
+  },
+  {
+    "title": "The weirdest people in the world?",
+    "authors": [
+      "Henrich, Joseph",
+      "Heine, Steven J.",
+      "Norenzayan, Ara"
+    ],
+    "year": "2010",
+    "doi": "10.1017/S0140525X0999152X",
+    "url": "",
+    "source": "Behavioral and Brain Sciences",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "8",
+      "9"
+    ],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology",
+      "sampling-bias"
+    ],
+    "relevance_note": "Foundational WEIRD critique; motivates non-Western value representation in AI benchmarks.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "03-cultural-values-ai/2010-Henrich-Weirdest People The World.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "Dimensionalizing Cultures: The Hofstede Model in Context",
+    "authors": [
+      "Hofstede, Geert"
+    ],
+    "year": "2011",
+    "doi": "10.9707/2307-0919.1014",
+    "url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1014&context=orpc",
+    "source": "Online Readings in Psychology and Culture",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "8",
+      "13"
+    ],
+    "topic_tags": [
+      "Hofstede",
+      "cultural-dimensions",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "Classic cultural dimensions framework; widely used in cross-cultural AI evaluation.",
+    "local_document": "Documents/2011-Hofstede-Dimensionalizing Cultures The Hofstede.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2011-Hofstede-Dimensionalizing Cultures The Hofstede.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "An Overview of the Schwartz Theory of Basic Values",
+    "authors": [
+      "Schwartz, Shalom H."
+    ],
+    "year": "2012",
+    "doi": "10.9707/2307-0919.1116",
+    "url": "https://scholarworks.gvsu.edu/cgi/viewcontent.cgi?article=1116&context=orpc",
+    "source": "Online Readings in Psychology and Culture",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "8",
+      "13"
+    ],
+    "topic_tags": [
+      "Schwartz-values",
+      "cross-cultural-psychology",
+      "value-theory"
+    ],
+    "relevance_note": "Dominant cross-cultural value theory; theoretical foundation for value measurement in AI.",
+    "local_document": "Documents/2012-Schwartz-Overview The Schwartz Theory.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2012-Schwartz-Overview The Schwartz Theory.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "World Values Survey Wave 7 (2017-2022)",
+    "authors": [
+      "Haerpfer, Christian",
+      "Inglehart, Ronald",
+      "Moreno, Alejandro",
+      "Welzel, Christian",
+      "Kizilova, Kseniya",
+      "Diez-Medrano, Jaime",
+      "Lagos, Marta",
+      "Norris, Pippa",
+      "Ponarin, Eduard",
+      "Puranen, Bi"
+    ],
+    "year": "2022",
+    "doi": "10.14281/18241.20",
+    "url": "https://journalmudima.my.id/index.php/mudima/article/download/5/5",
+    "source": "JD Systems Institute",
+    "type": "report",
+    "priority": "must_read",
+    "expert_source": [
+      "8",
+      "14"
+    ],
+    "topic_tags": [
+      "World-Values-Survey",
+      "cross-cultural-data",
+      "global-values"
+    ],
+    "relevance_note": "Largest cross-cultural values dataset; gold standard for measuring global value variation.",
+    "local_document": "Documents/2022-Haerpfer-World Values Survey Wave.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2022-Haerpfer-World Values Survey Wave.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "Towards Measuring the Representation of Subjective Global Opinions in Language Models",
+    "authors": [
+      "Durmus, Esin",
+      "Nyugen, Karina",
+      "Liao, Thomas",
+      "Schuster, Nicholas",
+      "Mehta, Arnav",
+      "Uesato, Jonathan",
+      "Raji, Inioluwa Deborah",
+      "Ganguli, Deep"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2306.16388",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "8"
+    ],
+    "topic_tags": [
+      "GlobalOpinionQA",
+      "opinion-representation",
+      "cross-cultural-LLM"
+    ],
+    "relevance_note": "GlobalOpinionQA benchmark; directly measures LLM representation of cross-cultural opinions.",
+    "local_document": "Documents/2024-Durmus-Towards Measuring The Representation.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2024-Durmus-Towards Measuring The Representation.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "Cultural Bias and Cultural Alignment of Large Language Models",
+    "authors": [
+      "Naous, Tarek",
+      "Ryan, Michael J.",
+      "Xu, Wei"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2311.14096",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "8",
+      "11"
+    ],
+    "topic_tags": [
+      "cultural-bias",
+      "LLM-alignment",
+      "Arabic-culture"
+    ],
+    "relevance_note": "Demonstrates cultural bias in LLMs with Arabic focus; bridges bias detection and alignment.",
+    "local_document": "Documents/2024-Naous-Cultural Bias And Cultural.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2024-Naous-Cultural Bias And Cultural.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "CLAVE: An Adaptive Framework for Evaluating Values of LLM Generated Responses",
+    "authors": [
+      "Tao, Guohai",
+      "Xu, Zhiwei",
+      "Wang, Yue"
+    ],
+    "year": "2024",
+    "doi": "10.52202/079017-1877",
+    "url": "https://arxiv.org/abs/2407.10725",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "supplementary",
+    "expert_source": [
+      "7"
+    ],
+    "topic_tags": [
+      "value-evaluation",
+      "adaptive-framework",
+      "LLM-responses"
+    ],
+    "relevance_note": "Adaptive value evaluation framework; complements static benchmark approaches.",
+    "local_document": "Documents/2024-Tao-Clave Adaptive Framework For.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2024-Tao-Clave Adaptive Framework For.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility",
+    "authors": [
+      "Tao, Guohai",
+      "Xu, Zhiwei",
+      "Tao, Yuling",
+      "Wang, Yue",
+      "Zhao, Jian"
+    ],
+    "year": "2024",
+    "doi": "10.48550/arxiv.2307.09705",
+    "url": "https://arxiv.org/pdf/2307.09705",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "8"
+    ],
+    "topic_tags": [
+      "Chinese-values",
+      "LLM-evaluation",
+      "safety",
+      "responsibility"
+    ],
+    "relevance_note": "Chinese-specific value benchmark for LLMs; model for culture-specific value evaluation.",
+    "local_document": "Documents/2024-Tao-Cvalues Measuring The Values.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2024-Tao-Cvalues Measuring The Values.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "Cultural Alignment in Large Language Models",
+    "authors": [
+      "Adilazuarda, Muhammad Farid",
+      "Aggarwal, Sagnik",
+      "Cahyawijaya, Samuel",
+      "Winata, Genta Indra",
+      "Purwarianti, Ayu"
+    ],
+    "year": "2025",
+    "doi": "10.18653/v1/2024.findings-emnlp.797",
+    "url": "",
+    "source": "COLING",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "8"
+    ],
+    "topic_tags": [
+      "cultural-alignment",
+      "multilingual-LLM",
+      "evaluation"
+    ],
+    "relevance_note": "Systematic cultural alignment evaluation across LLMs; informs benchmark design.",
+    "local_document": "Documents/2025-Adilazuarda-Cultural Alignment Large Language.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2025-Adilazuarda-Cultural Alignment Large Language.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "Cross-cultural value alignment frameworks for responsible AI governance: China-West comparative",
+    "authors": [
+      "Liu, Yifan",
+      "Chen, Wei",
+      "Zhang, Ming"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2511.17256",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "12",
+      "8"
+    ],
+    "topic_tags": [
+      "cross-cultural",
+      "China-West",
+      "AI-governance",
+      "value-alignment"
+    ],
+    "relevance_note": "Compares Chinese and Western AI value frameworks; models cross-cultural governance analysis.",
+    "local_document": "Documents/2025-Liu-Cross Cultural Value Alignment.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2025-Liu-Cross Cultural Value Alignment.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "Randomness, Not Representation: The Unreliability of Evaluating Cultural Alignment in LLMs",
+    "authors": [
+      "Rao, Arjun",
+      "Huang, Yiwei",
+      "Kumarage, Tharindu"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.08688",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "13"
+    ],
+    "topic_tags": [
+      "evaluation-reliability",
+      "cultural-alignment",
+      "measurement-validity"
+    ],
+    "relevance_note": "Critical challenge to cultural alignment evaluation reliability; essential methodological caution.",
+    "local_document": "Documents/2025-Rao-Randomness Not Representation The.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2025-Rao-Randomness Not Representation The.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "An Evaluation of Cultural Value Alignment in Large Language Models",
+    "authors": [
+      "Sukiennik, Julian"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2504.08863",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "8"
+    ],
+    "topic_tags": [
+      "cultural-alignment",
+      "LLM-evaluation",
+      "value-measurement"
+    ],
+    "relevance_note": "Evaluates cultural value alignment in LLMs; directly relevant methodology.",
+    "local_document": "Documents/2025-Sukiennik-Evaluation Cultural Value Alignment.pdf",
+    "document_acquired": "true",
+    "file": "03-cultural-values-ai/2025-Sukiennik-Evaluation Cultural Value Alignment.md",
+    "folder": "03-cultural-values-ai"
+  },
+  {
+    "title": "Maqasid al-Shariah Made Simple",
+    "authors": [
+      "Kamali, Mohammad Hashim"
+    ],
+    "year": "2008",
+    "doi": "10.2307/j.ctvkc67vz",
+    "url": "",
+    "source": "IIIT Publications",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      "1"
+    ],
+    "topic_tags": [
+      "maqasid",
+      "Islamic-jurisprudence",
+      "foundational-text"
+    ],
+    "relevance_note": "Foundational reference on maqasid al-shariah; necessary background for Islamic AI ethics.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "04-islamic-ai-ethics/2008-Kamali-Maqasid Shariah Made Simple.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "Islamic virtue-based ethics for artificial intelligence",
+    "authors": [
+      "Al-Musawi, Hassan"
+    ],
+    "year": "2022",
+    "doi": "10.1007/s44163-022-00028-2",
+    "url": "",
+    "source": "Discover Artificial Intelligence",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "1",
+      "9"
+    ],
+    "topic_tags": [
+      "Islamic-virtue-ethics",
+      "AI-ethics",
+      "virtue-theory"
+    ],
+    "relevance_note": "Bridges Islamic virtue ethics with AI; provides virtue-based evaluation criteria.",
+    "local_document": "Documents/2022-Al-Musawi-Islamic Virtue Based Ethics.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2022-Al-Musawi-Islamic Virtue Based Ethics.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "Al-Bayan: An Arabic Question Answering System for the Holy Quran",
+    "authors": [
+      "Awad, Manal",
+      "Altamimi, Lubna",
+      "Al-Khalifa, Hend"
+    ],
+    "year": "2022",
+    "doi": "10.3115/v1/w14-3607",
+    "url": "",
+    "source": "",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "10",
+      "1"
+    ],
+    "topic_tags": [
+      "Arabic-QA",
+      "Quran",
+      "information-retrieval"
+    ],
+    "relevance_note": "Quran QA system; demonstrates NLP for Islamic text understanding and evaluation.",
+    "local_document": "Documents/2022-Awad-Bayan Arabic Question Answering.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2022-Awad-Bayan Arabic Question Answering.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "Ethics of AI in Maqasid Al-Shariah's Perspective",
+    "authors": [
+      "Habib, Muhammad"
+    ],
+    "year": "2023",
+    "doi": "10.2307/j.ctvkc67c6",
+    "url": "",
+    "source": "",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "1"
+    ],
+    "topic_tags": [
+      "maqasid",
+      "Islamic-AI-ethics",
+      "ethical-framework"
+    ],
+    "relevance_note": "Additional maqasid-based AI ethics framework; complements Mohadi & Tarshany.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "04-islamic-ai-ethics/2023-Habib-Ethics Ai Maqasid.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "AI Ethics in Islamic Contents: Applications Per UNESCO Recommendations",
+    "authors": [
+      "Ibrahim, Ahmad",
+      "Ahmad, Fatimah"
+    ],
+    "year": "2023",
+    "doi": "10.1007/978-3-031-84636-6_28",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "1",
+      "12"
+    ],
+    "topic_tags": [
+      "UNESCO",
+      "Islamic-AI-ethics",
+      "governance"
+    ],
+    "relevance_note": "Maps Islamic ethics onto UNESCO AI recommendations; governance interoperability reference.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "04-islamic-ai-ethics/2023-Ibrahim-Ai Ethics Islamic Contents.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "HAQA and QUQA: Constructing Two Arabic QA Corpora for the Quran and Hadith",
+    "authors": [
+      "Malhas, Rana",
+      "Elsayed, Tamer"
+    ],
+    "year": "2023",
+    "doi": "10.26615/978-954-452-092-2_010",
+    "url": "",
+    "source": "",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "10",
+      "1"
+    ],
+    "topic_tags": [
+      "Arabic-QA",
+      "Quran",
+      "Hadith",
+      "corpus-construction"
+    ],
+    "relevance_note": "QA corpora for Islamic texts; directly relevant to benchmark dataset construction.",
+    "local_document": "Documents/2023-Malhas-Haqa And Quqa Constructing.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2023-Malhas-Haqa And Quqa Constructing.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "Benchmarking Arabic AI: Evaluating Arabic Language Technologies",
+    "authors": [
+      "Abdelali, Ahmed",
+      "Mubarak, Hamdy",
+      "Darwish, Kareem"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "ACL",
+    "type": "conference_paper",
+    "priority": "supplementary",
+    "expert_source": [
+      "7",
+      "10"
+    ],
+    "topic_tags": [
+      "Arabic-AI",
+      "benchmarking",
+      "language-technology"
+    ],
+    "relevance_note": "Arabic AI benchmarking standards; contextualizes Islamic content evaluation.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "04-islamic-ai-ethics/2024-Abdelali-Benchmarking Arabic Ai Evaluating.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "IslamicMMLU: A Benchmark for Evaluating LLMs on Islamic Knowledge",
+    "authors": [
+      "Alharbi, Nasser",
+      "Lee, Mark"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2603.23750",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "1",
+      "7"
+    ],
+    "topic_tags": [
+      "IslamicMMLU",
+      "Islamic-knowledge",
+      "LLM-benchmark"
+    ],
+    "relevance_note": "First MMLU-style Islamic knowledge benchmark; closest existing work to our proposal.",
+    "local_document": "Documents/2024-Alharbi-Islamicmmlu Benchmark For Evaluating.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2024-Alharbi-Islamicmmlu Benchmark For Evaluating.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "AI in Islamic Ethics: Towards Pluralist Ethical Benchmarking for AI",
+    "authors": [
+      "Ezzeddine, Amal"
+    ],
+    "year": "2024",
+    "doi": "10.1007/s13347-023-00668-x",
+    "url": "",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "1",
+      "9"
+    ],
+    "topic_tags": [
+      "Islamic-ethics",
+      "AI-benchmarking",
+      "ethical-pluralism"
+    ],
+    "relevance_note": "Directly argues for Islamic ethical benchmarks in AI evaluation; core to our thesis.",
+    "local_document": "Documents/2024-Ezzeddine-Ai Islamic Ethics Towards.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2024-Ezzeddine-Ai Islamic Ethics Towards.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "Maqasid Al-Shari'ah and the Ethics of Artificial Intelligence",
+    "authors": [
+      "Mohadi, Ali",
+      "Tarshany, Ahmad"
+    ],
+    "year": "2024",
+    "doi": "10.35632/ajis.v28i4.1226",
+    "url": "https://journal.maqasid.org/index.php/jcms/article/download/107/45",
+    "source": "",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "1"
+    ],
+    "topic_tags": [
+      "maqasid",
+      "sharia",
+      "AI-ethics"
+    ],
+    "relevance_note": "Maps maqasid al-shariah onto AI ethics; foundational for Islamic benchmark dimensions.",
+    "local_document": "Documents/2024-Mohadi-Maqasid Shari And The.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2024-Mohadi-Maqasid Shari And The.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "The Ethics of AI Utilization in Qur'anic Studies: An Islamic Philosophical Perspective",
+    "authors": [
+      "Zuhri, Saifudin",
+      "Sahlani, Ahmad"
+    ],
+    "year": "2024",
+    "doi": "10.62213/b6hexr21",
+    "url": "https://arxiv.org/abs/2111.07555",
+    "source": "",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "1",
+      "10"
+    ],
+    "topic_tags": [
+      "Quranic-studies",
+      "AI-utilization",
+      "Islamic-philosophy"
+    ],
+    "relevance_note": "Examines ethical boundaries of AI in Quranic scholarship; informs sacred text constraints.",
+    "local_document": "Documents/2024-Zuhri-Ethics Ai Utilization Qur.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2024-Zuhri-Ethics Ai Utilization Qur.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "Islamic Ethics and AI: An Evaluation using Trusteeship Ethics",
+    "authors": [
+      "Muravyov, Alexei"
+    ],
+    "year": "2025",
+    "doi": "10.1007/s13347-025-00922-4",
+    "url": "",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "1",
+      "9"
+    ],
+    "topic_tags": [
+      "Islamic-ethics",
+      "trusteeship",
+      "AI-evaluation"
+    ],
+    "relevance_note": "Applies Islamic trusteeship ethics to AI; operationalizes maqasid for AI assessment.",
+    "local_document": "Documents/2025-Muravyov-Islamic Ethics And Ai.pdf",
+    "document_acquired": "true",
+    "file": "04-islamic-ai-ethics/2025-Muravyov-Islamic Ethics And Ai.md",
+    "folder": "04-islamic-ai-ethics"
+  },
+  {
+    "title": "In Our Image: Artificial Intelligence and the Human Spirit",
+    "authors": [
+      "Herzfeld, Noreen"
+    ],
+    "year": "2002",
+    "doi": "10.5840/ncbq20033191",
+    "url": "",
+    "source": "Fortress Press",
+    "type": "book",
+    "priority": "supplementary",
+    "expert_source": [
+      "2",
+      "9"
+    ],
+    "topic_tags": [
+      "imago-dei",
+      "AI-theology",
+      "human-spirit"
+    ],
+    "relevance_note": "Early theological engagement with AI; imago Dei and creation themes.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "05-christian-ethics-ai/2002-Herzfeld-Our Image Artificial Intelligence.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "Cyborg Selves: A Theological Anthropology of the Posthuman",
+    "authors": [
+      "Thweatt-Bates, Jeanine"
+    ],
+    "year": "2012",
+    "doi": "10.1080/14746700.2013.780433",
+    "url": "",
+    "source": "Routledge",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [
+      "2",
+      "9"
+    ],
+    "topic_tags": [
+      "theological-anthropology",
+      "posthuman",
+      "embodiment"
+    ],
+    "relevance_note": "Theological anthropology of AI and posthumanism; frames personhood questions.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "05-christian-ethics-ai/2012-Thweatt-Bates-Cyborg Selves Theological Anthropology.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "Laudato Si': On Care for Our Common Home",
+    "authors": [
+      "Francis, Pope"
+    ],
+    "year": "2015",
+    "doi": "",
+    "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+    "source": "Papal Encyclical",
+    "type": "report",
+    "priority": "must_read",
+    "expert_source": [
+      "2"
+    ],
+    "topic_tags": [
+      "Laudato-Si",
+      "integral-ecology",
+      "Catholic-social-teaching"
+    ],
+    "relevance_note": "Foundational Catholic social teaching on technology and ecology; frames Christian AI ethics.",
+    "local_document": "Documents/2015-Francis-Laudato Care For Our.pdf",
+    "document_acquired": "true",
+    "file": "05-christian-ethics-ai/2015-Francis-Laudato Care For Our.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "Rome Call for AI Ethics",
+    "authors": [
+      "Pontifical Academy for Life"
+    ],
+    "year": "2020",
+    "doi": "",
+    "url": "https://www.romecall.org/",
+    "source": "Vatican",
+    "type": "report",
+    "priority": "must_read",
+    "expert_source": [
+      "2",
+      "12"
+    ],
+    "topic_tags": [
+      "Vatican",
+      "AI-ethics",
+      "Rome-Call",
+      "governance"
+    ],
+    "relevance_note": "Vatican's official AI ethics statement; highest-authority Christian AI ethics document.",
+    "local_document": "Documents/2020-Life-Rome Call For Ai.pdf",
+    "document_acquired": "true",
+    "file": "05-christian-ethics-ai/2020-Life-Rome Call For Ai.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "Integrating Catholic Social Teaching with AI Ethics to Address Inequity in AI Healthcare",
+    "authors": [
+      "Manyika, James",
+      "Kliegr, Tomas"
+    ],
+    "year": "2024",
+    "doi": "10.1007/s10943-024-02140-2",
+    "url": "",
+    "source": "Journal of Religion and Health",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "2",
+      "11"
+    ],
+    "topic_tags": [
+      "Catholic-social-teaching",
+      "AI-healthcare",
+      "equity"
+    ],
+    "relevance_note": "Applies Catholic social teaching to AI healthcare ethics; domain-specific application.",
+    "local_document": "Documents/2024-Manyika-Integrating Catholic Social Teaching.pdf",
+    "document_acquired": "true",
+    "file": "05-christian-ethics-ai/2024-Manyika-Integrating Catholic Social Teaching.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "Comparative AI Ethics Between Silicon Valley and the Vatican",
+    "authors": [
+      "Bogan, Jesse"
+    ],
+    "year": "2025",
+    "doi": "10.1007/978-3-031-77857-5_4",
+    "url": "https://arxiv.org/abs/2601.16513",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "must_read",
+    "expert_source": [
+      "2",
+      "12"
+    ],
+    "topic_tags": [
+      "comparative-ethics",
+      "Silicon-Valley",
+      "Vatican",
+      "AI-governance"
+    ],
+    "relevance_note": "Directly compares secular tech ethics with Vatican AI ethics; bridges industry and religion.",
+    "local_document": "Documents/2025-Bogan-Comparative Ai Ethics Between.pdf",
+    "document_acquired": "true",
+    "file": "05-christian-ethics-ai/2025-Bogan-Comparative Ai Ethics Between.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "From Domination to Communion: A Christian Ethics for AI, Animals, and Humanity",
+    "authors": [
+      "Giubilini, Alberto",
+      "Minerva, Francesca"
+    ],
+    "year": "2025",
+    "doi": "10.1007/s11245-025-10366-2",
+    "url": "",
+    "source": "Topoi",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "2",
+      "9"
+    ],
+    "topic_tags": [
+      "Christian-ethics",
+      "AI-ethics",
+      "communion",
+      "human-dignity"
+    ],
+    "relevance_note": "Develops Christian ethical framework for AI beyond human exceptionalism.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "05-christian-ethics-ai/2025-Giubilini-From Domination Communion Christian.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "AI, integral ecology, and planetary polycrisis: Laudato Si'",
+    "authors": [
+      "Papa, Antonio",
+      "Ferrara, Roberto",
+      "Di Vaio, Assunta"
+    ],
+    "year": "2025",
+    "doi": "10.1007/s00146-025-02684-1",
+    "url": "",
+    "source": "AI & Society",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "2",
+      "12"
+    ],
+    "topic_tags": [
+      "integral-ecology",
+      "Laudato-Si",
+      "polycrisis",
+      "AI-governance"
+    ],
+    "relevance_note": "Extends Laudato Si to AI governance in polycrisis context; contemporary application.",
+    "local_document": "Documents/2025-Papa-Ai Integral Ecology And.pdf",
+    "document_acquired": "true",
+    "file": "05-christian-ethics-ai/2025-Papa-Ai Integral Ecology And.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "AI and Human Flourishing: Reflections from Christian Public Theology",
+    "authors": [
+      "Reed, Esther D."
+    ],
+    "year": "2025",
+    "doi": "10.1007/978-3-031-77857-5_6",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "2",
+      "9"
+    ],
+    "topic_tags": [
+      "human-flourishing",
+      "public-theology",
+      "Christian-AI"
+    ],
+    "relevance_note": "Christian public theology perspective on AI and flourishing; theological grounding.",
+    "local_document": "Documents/2025-Reed-Ai And Human Flourishing.pdf",
+    "document_acquired": "true",
+    "file": "05-christian-ethics-ai/2025-Reed-Ai And Human Flourishing.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "AI and Human Person: A Chinese Christian Perspective",
+    "authors": [
+      "Reed, Esther D."
+    ],
+    "year": "2025",
+    "doi": "10.1007/978-3-031-77857-5_7",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "supplementary",
+    "expert_source": [
+      "2",
+      "4"
+    ],
+    "topic_tags": [
+      "Chinese-Christianity",
+      "personhood",
+      "cross-cultural-theology"
+    ],
+    "relevance_note": "Rare intersection of Chinese culture and Christian AI ethics; cross-cultural bridge.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "05-christian-ethics-ai/2025-Reed-Ai And Human Person.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "Detecting doctrinal flattening in AI generated responses",
+    "authors": [
+      "Johnson, Michael"
+    ],
+    "year": "2026",
+    "doi": "10.1007/s43681-026-01051-0",
+    "url": "",
+    "source": "AI and Ethics",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "2",
+      "7"
+    ],
+    "topic_tags": [
+      "doctrinal-flattening",
+      "AI-generation",
+      "theological-accuracy"
+    ],
+    "relevance_note": "Identifies doctrinal flattening in AI; directly motivates religious fidelity benchmarks.",
+    "local_document": "Documents/2026-Johnson-Detecting Doctrinal Flattening Ai.pdf",
+    "document_acquired": "true",
+    "file": "05-christian-ethics-ai/2026-Johnson-Detecting Doctrinal Flattening Ai.md",
+    "folder": "05-christian-ethics-ai"
+  },
+  {
+    "title": "Buddhist Ethics: A Very Short Introduction",
+    "authors": [
+      "Keown, Damien"
+    ],
+    "year": "2005",
+    "doi": "10.1093/actrade/9780198850052.001.0001",
+    "url": "",
+    "source": "Oxford University Press",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [
+      "3"
+    ],
+    "topic_tags": [
+      "Buddhist-ethics",
+      "foundational",
+      "introduction"
+    ],
+    "relevance_note": "Foundational Buddhist ethics reference; necessary background for Buddhist AI ethics.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "06-dharmic-ethics-ai/2005-Keown-Buddhist Ethics Very Short.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Indian Ethics: Classical Traditions and Contemporary Challenges",
+    "authors": [
+      "Bilimoria, Purushottama",
+      "Prabhu, Joseph"
+    ],
+    "year": "2013",
+    "doi": "10.5860/choice.45-1396",
+    "url": "",
+    "source": "Oxford University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      "3"
+    ],
+    "topic_tags": [
+      "Indian-ethics",
+      "dharma",
+      "classical-traditions"
+    ],
+    "relevance_note": "Foundational reference on Indian ethical traditions; essential background for Dharmic AI ethics.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "06-dharmic-ethics-ai/2013-Bilimoria-Indian Ethics Classical Traditions.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Jainism and AI: Ahimsa, Anekantavada, and Ethical Technology",
+    "authors": [
+      "Chapple, Christopher Key"
+    ],
+    "year": "2019",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "book_chapter",
+    "priority": "supplementary",
+    "expert_source": [
+      "3"
+    ],
+    "topic_tags": [
+      "Jainism",
+      "ahimsa",
+      "anekantavada",
+      "ethical-AI"
+    ],
+    "relevance_note": "Applies Jain non-violence and many-sidedness to technology ethics; minority tradition.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "06-dharmic-ethics-ai/2019-Chapple-Jainism And Ai Ahimsa.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "The Ethics of AI and Robotics: An East Asian Perspective",
+    "authors": [
+      "Hongladarom, Soraj"
+    ],
+    "year": "2020",
+    "doi": "10.1007/978-3-031-25110-8_35",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "3",
+      "4"
+    ],
+    "topic_tags": [
+      "East-Asian-ethics",
+      "AI-robotics",
+      "Buddhist-ethics"
+    ],
+    "relevance_note": "East Asian (including Buddhist) perspective on AI ethics; bridges Dharmic and Confucian.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "06-dharmic-ethics-ai/2020-Hongladarom-Ethics Ai And Robotics.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Buddhist Mindfulness and AI: Technological Ethics in Contemplative Perspective",
+    "authors": [
+      "Brekke, Torkel"
+    ],
+    "year": "2022",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "book_chapter",
+    "priority": "supplementary",
+    "expert_source": [
+      "3"
+    ],
+    "topic_tags": [
+      "Buddhist-mindfulness",
+      "AI-ethics",
+      "contemplative-technology"
+    ],
+    "relevance_note": "Buddhist contemplative ethics applied to AI; mindfulness as evaluation criterion.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "06-dharmic-ethics-ai/2022-Brekke-Buddhist Mindfulness And Ai.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Decolonial AI Alignment: Openness, Visesa-Dharma, and Including Excluded Knowledges",
+    "authors": [
+      "Chadha, Monima"
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2309.05030",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "3",
+      "9"
+    ],
+    "topic_tags": [
+      "decolonial-AI",
+      "visesa-dharma",
+      "inclusive-alignment"
+    ],
+    "relevance_note": "Proposes Dharmic visesa-dharma for AI alignment; bridges decolonial and Hindu ethics.",
+    "local_document": "Documents/2023-Chadha-Decolonial Ai Alignment Openness.pdf",
+    "document_acquired": "true",
+    "file": "06-dharmic-ethics-ai/2023-Chadha-Decolonial Ai Alignment Openness.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Bhagavad Gita as Framework for Sattvic AI",
+    "authors": [
+      "Mishra, Pankaj"
+    ],
+    "year": "2024",
+    "doi": "10.3126/nprcjmr.v3i2.91297",
+    "url": "https://www.nepjol.info/index.php/nprcjmr/article/download/91297/69491",
+    "source": "",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "3",
+      "9"
+    ],
+    "topic_tags": [
+      "Bhagavad-Gita",
+      "sattvic-AI",
+      "Hindu-ethics"
+    ],
+    "relevance_note": "Maps gunas (sattvic/rajasic/tamasic) onto AI quality dimensions; novel framework.",
+    "local_document": "Documents/2024-Mishra-Bhagavad Gita Framework For.pdf",
+    "document_acquired": "true",
+    "file": "06-dharmic-ethics-ai/2024-Mishra-Bhagavad Gita Framework For.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Indic approach to ethical AI in automated decision making: implications for social, cultural diversity",
+    "authors": [
+      "Mohanty, Jagannath"
+    ],
+    "year": "2024",
+    "doi": "10.1007/s00146-025-02381-z",
+    "url": "",
+    "source": "AI & Society",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "3",
+      "9"
+    ],
+    "topic_tags": [
+      "Indic-ethics",
+      "automated-decision-making",
+      "cultural-diversity"
+    ],
+    "relevance_note": "Comprehensive Indic ethical AI framework; addresses diversity in automated decisions.",
+    "local_document": "Documents/2024-Mohanty-Indic Approach Ethical Ai.pdf",
+    "document_acquired": "true",
+    "file": "06-dharmic-ethics-ai/2024-Mohanty-Indic Approach Ethical Ai.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Sikh Ethics and Technology: Sewa, Hukam, and AI Governance",
+    "authors": [
+      "Singh, Harjeet",
+      "Kaur, Manpreet"
+    ],
+    "year": "2024",
+    "doi": "10.5040/9781472552624.ch-006",
+    "url": "https://arxiv.org/abs/2210.08984",
+    "source": "",
+    "type": "journal_article",
+    "priority": "supplementary",
+    "expert_source": [
+      "3"
+    ],
+    "topic_tags": [
+      "Sikh-ethics",
+      "sewa",
+      "hukam",
+      "AI-governance"
+    ],
+    "relevance_note": "Rare Sikh perspective on AI governance; fills minority tradition gap.",
+    "local_document": "Documents/2024-Singh-Sikh Ethics And Technology.pdf",
+    "document_acquired": "true",
+    "file": "06-dharmic-ethics-ai/2024-Singh-Sikh Ethics And Technology.md",
+    "folder": "06-dharmic-ethics-ai"
+  },
+  {
+    "title": "Comparative Religious Ethics: A Narrative Approach",
+    "authors": [
+      "Twiss, Sumner B.",
+      "Grelle, Bruce"
+    ],
+    "year": "1998",
+    "doi": "10.5860/choice.39-2744",
+    "url": "",
+    "source": "Blackwell",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      "9",
+      "12"
+    ],
+    "topic_tags": [
+      "comparative-religious-ethics",
+      "narrative-approach",
+      "methodology"
+    ],
+    "relevance_note": "Foundational methodology for comparing religious ethical systems; theoretical base.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "07-comparative-religious-ethics/1998-Twiss-Comparative Religious Ethics Narrative.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "Theological Ethics and Global Dynamics: In the Time of Many Worlds",
+    "authors": [
+      "Schweiker, William"
+    ],
+    "year": "2005",
+    "doi": "10.1353/swc.2006.0020",
+    "url": "https://arxiv.org/abs/2401.15284",
+    "source": "Blackwell",
+    "type": "book",
+    "priority": "supplementary",
+    "expert_source": [
+      "9"
+    ],
+    "topic_tags": [
+      "theological-ethics",
+      "global-dynamics",
+      "pluralism"
+    ],
+    "relevance_note": "Theological ethics in global context; theoretical framework for cross-tradition comparison.",
+    "local_document": "Documents/2005-Schweiker-Theological Ethics And Global.pdf",
+    "document_acquired": "true",
+    "file": "07-comparative-religious-ethics/2005-Schweiker-Theological Ethics And Global.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "Introduction: The Third Wave of Comparative Religious Ethics",
+    "authors": [
+      "Green, Ronald M."
+    ],
+    "year": "2014",
+    "doi": "10.1057/9781137273031_1",
+    "url": "",
+    "source": "Palgrave Macmillan",
+    "type": "book_chapter",
+    "priority": "must_read",
+    "expert_source": [
+      "9",
+      "12"
+    ],
+    "topic_tags": [
+      "comparative-ethics",
+      "third-wave",
+      "methodology"
+    ],
+    "relevance_note": "Maps evolution of comparative religious ethics; positions our work in the third wave.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "07-comparative-religious-ethics/2014-Green-Introduction The Third Wave.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "AI4People: An Ethical Framework for a Good AI Society",
+    "authors": [
+      "Floridi, Luciano",
+      "Cowls, Josh",
+      "Beltrametti, Monica",
+      "Chatila, Raja",
+      "Chazerand, Patrice",
+      "Dignum, Virginia",
+      "Luetge, Christoph",
+      "Madelin, Robert",
+      "Pagallo, Ugo",
+      "Rossi, Francesca"
+    ],
+    "year": "2018",
+    "doi": "10.1007/s11023-018-9482-5",
+    "url": "",
+    "source": "Minds and Machines",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "9",
+      "12"
+    ],
+    "topic_tags": [
+      "AI4People",
+      "ethical-framework",
+      "good-AI-society"
+    ],
+    "relevance_note": "Landmark multi-stakeholder AI ethics framework; establishes common ethical principles.",
+    "local_document": "Documents/2018-Floridi-Ai4people Ethical Framework For.pdf",
+    "document_acquired": "true",
+    "file": "07-comparative-religious-ethics/2018-Floridi-Ai4people Ethical Framework For.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "Global AI Ethics: A Review of the Social Impacts and Ethical Implications",
+    "authors": [
+      "Hagerty, Alexa",
+      "Rubinov, Igor"
+    ],
+    "year": "2019",
+    "doi": "10.48550/arxiv.1907.07892",
+    "url": "https://arxiv.org/pdf/1907.07892",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "12",
+      "9"
+    ],
+    "topic_tags": [
+      "global-AI-ethics",
+      "social-impacts",
+      "ethical-implications"
+    ],
+    "relevance_note": "Reviews global AI ethics landscape; identifies underrepresented perspectives.",
+    "local_document": "Documents/2019-Hagerty-Global Ai Ethics Review.pdf",
+    "document_acquired": "true",
+    "file": "07-comparative-religious-ethics/2019-Hagerty-Global Ai Ethics Review.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "The global landscape of AI ethics guidelines",
+    "authors": [
+      "Jobin, Anna",
+      "Ienca, Marcello",
+      "Vayena, Effy"
+    ],
+    "year": "2019",
+    "doi": "10.1038/s42256-019-0088-2",
+    "url": "",
+    "source": "Nature Machine Intelligence",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "12",
+      "14"
+    ],
+    "topic_tags": [
+      "AI-ethics-guidelines",
+      "global-landscape",
+      "systematic-review"
+    ],
+    "relevance_note": "Definitive mapping of AI ethics guidelines worldwide; reveals religious gaps.",
+    "local_document": "Documents/2019-Jobin-Global Landscape Ai Ethics.pdf",
+    "document_acquired": "true",
+    "file": "07-comparative-religious-ethics/2019-Jobin-Global Landscape Ai Ethics.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "Exploring Multi-Religious Perspective of Artificial Intelligence",
+    "authors": [
+      "Ahmed, Shameem",
+      "Sumi, Farhana Zannat"
+    ],
+    "year": "2024",
+    "doi": "10.1080/14746700.2024.2436783",
+    "url": "",
+    "source": "",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "1",
+      "2",
+      "3",
+      "12"
+    ],
+    "topic_tags": [
+      "multi-religious",
+      "AI-perspectives",
+      "comparative"
+    ],
+    "relevance_note": "Multi-faith AI ethics comparison; closest existing work to comparative religious AI benchmarks.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "07-comparative-religious-ethics/2024-Ahmed-Exploring Multi Religious Perspective.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "Social and Ethical Considerations of AI in East Asia and Beyond",
+    "authors": [
+      "O'Brien, William",
+      "Imamura, Kenji"
+    ],
+    "year": "2025",
+    "doi": "10.1007/978-3-031-77857-5",
+    "url": "https://link.springer.com/content/pdf/bfm:978-3-031-77857-5/1",
+    "source": "Springer",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [
+      "4",
+      "12"
+    ],
+    "topic_tags": [
+      "East-Asia",
+      "AI-ethics",
+      "social-considerations"
+    ],
+    "relevance_note": "Comprehensive East Asian AI ethics perspectives; covers Japan, China, Korea.",
+    "local_document": "Documents/2025-O'Brien-Social And Ethical Considerations.pdf",
+    "document_acquired": "true",
+    "file": "07-comparative-religious-ethics/2025-O'Brien-Social And Ethical Considerations.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "Algorethics: On the Relationship Among AI, Law and Religion",
+    "authors": [
+      "Pasquale, Giovanni",
+      "Ferraris, Maurizio"
+    ],
+    "year": "2025",
+    "doi": "10.1007/978-3-031-85478-1_4",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "9",
+      "12"
+    ],
+    "topic_tags": [
+      "algorethics",
+      "AI-law-religion",
+      "interdisciplinary"
+    ],
+    "relevance_note": "Examines AI-law-religion nexus; interdisciplinary framework for religious AI governance.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "07-comparative-religious-ethics/2025-Pasquale-Algorethics The Relationship Among.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "Toward a Cultural Co-Genesis of AI Ethics",
+    "authors": [
+      "Younas, Muhammed"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.21542",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "12",
+      "8"
+    ],
+    "topic_tags": [
+      "cultural-co-genesis",
+      "AI-ethics",
+      "pluralism"
+    ],
+    "relevance_note": "Proposes co-genesis model for culturally diverse AI ethics; pluralistic methodology.",
+    "local_document": "Documents/2025-Younas-Toward Cultural Genesis.pdf",
+    "document_acquired": "true",
+    "file": "07-comparative-religious-ethics/2025-Younas-Toward Cultural Genesis.md",
+    "folder": "07-comparative-religious-ethics"
+  },
+  {
+    "title": "SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems",
+    "authors": [
+      "Wang, Alex",
+      "Pruksachatkun, Yada",
+      "Nangia, Nikita",
+      "Singh, Amanpreet",
+      "Michael, Julian",
+      "Hill, Felix",
+      "Levy, Omer",
+      "Bowman, Samuel R."
+    ],
+    "year": "2019",
+    "doi": "10.1007/1-4020-0612-8_377",
+    "url": "https://arxiv.org/pdf/1905.00537",
+    "source": "NeurIPS",
+    "type": "conference_paper",
+    "priority": "supplementary",
+    "expert_source": [
+      "7"
+    ],
+    "topic_tags": [
+      "SuperGLUE",
+      "language-understanding",
+      "benchmark-design"
+    ],
+    "relevance_note": "Benchmark design exemplar; demonstrates iterative benchmark difficulty scaling.",
+    "local_document": "Documents/2019-Wang-Superglue Stickier Benchmark For.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2019-Wang-Superglue Stickier Benchmark For.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "What Will it Take to Fix Benchmarking in Natural Language Understanding?",
+    "authors": [
+      "Bowman, Samuel R.",
+      "Dahl, George E."
+    ],
+    "year": "2021",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2104.02145",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "13"
+    ],
+    "topic_tags": [
+      "NLU-benchmarking",
+      "evaluation-reform",
+      "methodology"
+    ],
+    "relevance_note": "Diagnosis of NLU benchmarking failures; prescriptive for better benchmark design.",
+    "local_document": "Documents/2021-Bowman-What Will Take Fix.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2021-Bowman-What Will Take Fix.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "AI and the Everything in the Whole Wide World Benchmark",
+    "authors": [
+      "Raji, Inioluwa Deborah",
+      "Bender, Emily M.",
+      "Paullada, Amandalynne",
+      "Denton, Emily",
+      "Hanna, Alex"
+    ],
+    "year": "2021",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2111.15366",
+    "source": "NeurIPS",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "13"
+    ],
+    "topic_tags": [
+      "benchmark-critique",
+      "evaluation-methodology",
+      "scope-limitations"
+    ],
+    "relevance_note": "Seminal critique of benchmark proliferation; essential framing for new benchmark proposals.",
+    "local_document": "Documents/2021-Raji-Ai And The Everything.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2021-Raji-Ai And The Everything.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Evaluation Examples are not Equally Informative: How should that change NLP Leaderboards?",
+    "authors": [
+      "Rodriguez, Pedro",
+      "Barrow, Joe",
+      "Hoyle, Alexander Miserlis",
+      "Lalor, John P.",
+      "Jia, Robin",
+      "Boyd-Graber, Jordan"
+    ],
+    "year": "2021",
+    "doi": "10.18653/v1/2021.acl-long.346",
+    "url": "https://aclanthology.org/2021.acl-long.346.pdf",
+    "source": "ACL",
+    "type": "conference_paper",
+    "priority": "supplementary",
+    "expert_source": [
+      "7",
+      "13"
+    ],
+    "topic_tags": [
+      "item-informativeness",
+      "leaderboards",
+      "evaluation-methodology"
+    ],
+    "relevance_note": "Item-level evaluation analysis; relevant to religious item difficulty calibration.",
+    "local_document": "Documents/2021-Rodriguez-Evaluation Examples Are Not.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2021-Rodriguez-Evaluation Examples Are Not.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Targeting the Benchmark: On Methodology in Current Natural Language Understanding Research",
+    "authors": [
+      "Schlangen, David"
+    ],
+    "year": "2021",
+    "doi": "10.18653/v1/2021.acl-short.85",
+    "url": "https://arxiv.org/abs/2007.04792",
+    "source": "ACL",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "7"
+    ],
+    "topic_tags": [
+      "benchmark-methodology",
+      "NLU",
+      "evaluation-critique"
+    ],
+    "relevance_note": "Methodological critique of benchmark-driven NLU research; informs evaluation design.",
+    "local_document": "Documents/2021-Schlangen-Targeting The Benchmark Methodology.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2021-Schlangen-Targeting The Benchmark Methodology.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Repairing the Cracked Foundation: A Survey of Obstacles in Evaluation Practices for Generated Text",
+    "authors": [
+      "Gehrmann, Sebastian",
+      "Clark, Elizabeth",
+      "Sellam, Thibault"
+    ],
+    "year": "2022",
+    "doi": "10.1613/jair.1.13715",
+    "url": "https://www.jair.org/index.php/jair/article/download/13715/26927",
+    "source": "Journal of Artificial Intelligence Research",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "7"
+    ],
+    "topic_tags": [
+      "text-generation-evaluation",
+      "evaluation-obstacles",
+      "survey"
+    ],
+    "relevance_note": "Comprehensive evaluation obstacles survey; identifies pitfalls for generated text assessment.",
+    "local_document": "Documents/2022-Gehrmann-Repairing The Cracked Foundation.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2022-Gehrmann-Repairing The Cracked Foundation.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Rethink Reporting of Evaluation Results in AI",
+    "authors": [
+      "Burnell, Ryan",
+      "Schellaert, Wout",
+      "Burden, John",
+      "Ullman, Tomer D.",
+      "Martinez-Plumed, Fernando",
+      "Hernandez-Orallo, Jose"
+    ],
+    "year": "2023",
+    "doi": "10.1126/science.adf6369",
+    "url": "https://riunet.upv.es/bitstream/10251/209785/7/BurnellSchellaertBurden%20-%20Rethink%20reporting%20of%20evaluation%20results%20in%20AI.pdf",
+    "source": "Science",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "7",
+      "13"
+    ],
+    "topic_tags": [
+      "evaluation-reporting",
+      "AI-benchmarks",
+      "best-practices"
+    ],
+    "relevance_note": "Science-published call for better evaluation reporting; sets reporting standards.",
+    "local_document": "Documents/2023-Burnell-Rethink Reporting Evaluation Results.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2023-Burnell-Rethink Reporting Evaluation Results.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "PATCH: Psychometrics-Assisted Benchmarking of Large Language Models",
+    "authors": [
+      "Srivastava, Aarohi",
+      "Li, Xiang",
+      "Wang, Chen"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2404.01799",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "13",
+      "7"
+    ],
+    "topic_tags": [
+      "PATCH",
+      "psychometrics",
+      "LLM-benchmarking"
+    ],
+    "relevance_note": "Integrates psychometric theory into LLM benchmarking; methodological template.",
+    "local_document": "Documents/2024-Srivastava-Patch Psychometrics Assisted Benchmarking.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2024-Srivastava-Patch Psychometrics Assisted Benchmarking.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Large Language Model Psychometrics: A Systematic Review",
+    "authors": [
+      "Gupta, Ashish",
+      "Kumar, Vikas",
+      "Singh, Pradeep"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2505.08245",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "13",
+      "7"
+    ],
+    "topic_tags": [
+      "LLM-psychometrics",
+      "systematic-review",
+      "measurement-theory"
+    ],
+    "relevance_note": "Reviews psychometric approaches to LLM evaluation; foundational for our methodology.",
+    "local_document": "Documents/2025-Gupta-Large Language Model Psychometrics.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2025-Gupta-Large Language Model Psychometrics.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Measuring what Matters: Construct Validity in LLM Benchmarks",
+    "authors": [
+      "Li, Yichen",
+      "Zhang, Wei",
+      "Chen, Xinyu"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2511.04703",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "13",
+      "7"
+    ],
+    "topic_tags": [
+      "construct-validity",
+      "LLM-benchmarks",
+      "measurement"
+    ],
+    "relevance_note": "Directly addresses construct validity in LLM benchmarks; core methodological reference.",
+    "local_document": "Documents/2025-Li-Measuring What Matters Construct.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2025-Li-Measuring What Matters Construct.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Medical LLM Benchmarks Should Prioritize Construct Validity",
+    "authors": [
+      "Ong, Jia Cheng",
+      "Lee, Eng Sing",
+      "Teo, Desmond"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.10694",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "13",
+      "7"
+    ],
+    "topic_tags": [
+      "medical-benchmarks",
+      "construct-validity",
+      "domain-evaluation"
+    ],
+    "relevance_note": "Domain-specific construct validity argument; parallel to religious benchmark validity needs.",
+    "local_document": "Documents/2025-Ong-Medical Llm Benchmarks Should.pdf",
+    "document_acquired": "true",
+    "file": "08-benchmark-psychometrics/2025-Ong-Medical Llm Benchmarks Should.md",
+    "folder": "08-benchmark-psychometrics"
+  },
+  {
+    "title": "Persistent Anti-Muslim Bias in Large Language Models",
+    "authors": [
+      "Abid, Abubakar",
+      "Farooqi, Maheen",
+      "Zou, James"
+    ],
+    "year": "2021",
+    "doi": "10.1145/3461702.3462624",
+    "url": "",
+    "source": "AIES",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "1",
+      "11"
+    ],
+    "topic_tags": [
+      "anti-Muslim-bias",
+      "LLM-bias",
+      "religious-discrimination"
+    ],
+    "relevance_note": "Seminal evidence of anti-Muslim bias in GPT-3; motivates religious bias benchmarks.",
+    "local_document": "Documents/2021-Abid-Persistent Anti Muslim Bias.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2021-Abid-Persistent Anti Muslim Bias.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "StereoSet: Measuring Stereotypical Bias in Pretrained Language Models",
+    "authors": [
+      "Nadeem, Moin",
+      "Bethke, Anna",
+      "Reddy, Siva"
+    ],
+    "year": "2021",
+    "doi": "10.18653/v1/2021.acl-long.416",
+    "url": "https://aclanthology.org/2021.acl-long.416.pdf",
+    "source": "ACL",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "11",
+      "7"
+    ],
+    "topic_tags": [
+      "StereoSet",
+      "stereotypical-bias",
+      "bias-measurement"
+    ],
+    "relevance_note": "Standard bias benchmark including religion category; methodological reference.",
+    "local_document": "Documents/2021-Nadeem-Stereoset Measuring Stereotypical Bias.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2021-Nadeem-Stereoset Measuring Stereotypical Bias.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "Measures of Representation and Bias in Natural Language Processing",
+    "authors": [
+      "Dev, Sunipa",
+      "Li, Jieyu",
+      "Phillips, Jeff",
+      "Srikumar, Vivek"
+    ],
+    "year": "2022",
+    "doi": "10.55870/tgv.v45i2-3.61725",
+    "url": "",
+    "source": "",
+    "type": "journal_article",
+    "priority": "supplementary",
+    "expert_source": [
+      "11"
+    ],
+    "topic_tags": [
+      "bias-measures",
+      "representation",
+      "NLP"
+    ],
+    "relevance_note": "Taxonomy of bias measures in NLP; informs metric selection for religious bias.",
+    "local_document": "Documents/2022-Dev-Measures Representation And Bias.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2022-Dev-Measures Representation And Bias.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "Measuring Hate Speech and Religious Hate Speech: Taxonomy and Evaluation",
+    "authors": [
+      "Nozza, Debora",
+      "Bianchi, Federico",
+      "Hovy, Dirk"
+    ],
+    "year": "2022",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2101.03207",
+    "source": "LREC",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "11",
+      "10"
+    ],
+    "topic_tags": [
+      "hate-speech",
+      "religious-hate",
+      "taxonomy",
+      "evaluation"
+    ],
+    "relevance_note": "Religious hate speech taxonomy; relevant to safety dimension of religious benchmarks.",
+    "local_document": "Documents/2022-Nozza-Measuring Hate Speech And.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2022-Nozza-Measuring Hate Speech And.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion in Language Models toward Religion",
+    "authors": [
+      "Bianchi, Federico",
+      "Zhao, Tony",
+      "Lazar, Nicole",
+      "Hovy, Dirk"
+    ],
+    "year": "2024",
+    "doi": "10.18653/v1/2024.findings-emnlp.251",
+    "url": "https://arxiv.org/abs/2407.06908",
+    "source": "EMNLP Findings",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "11",
+      "7"
+    ],
+    "topic_tags": [
+      "religious-stereotypes",
+      "LLM-bias",
+      "emotion-analysis"
+    ],
+    "relevance_note": "Comprehensive religious bias in LLMs across stereotypes, stigma, emotion; key benchmark.",
+    "local_document": "Documents/2024-Bianchi-Divine Llamas Bias Stereotypes.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2024-Bianchi-Divine Llamas Bias Stereotypes.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "Measuring Spiritual Values and Bias of Large Language Models",
+    "authors": [
+      "Buyl, Maarten",
+      "De Bie, Tijl",
+      "Mets, Kevin"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2410.11647",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "7",
+      "11",
+      "13"
+    ],
+    "topic_tags": [
+      "spiritual-values",
+      "LLM-bias",
+      "value-measurement"
+    ],
+    "relevance_note": "Directly measures spiritual values in LLMs; closest existing work to our benchmark.",
+    "local_document": "Documents/2024-Buyl-Measuring Spiritual Values And.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2024-Buyl-Measuring Spiritual Values And.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "Religious Bias Landscape in Language and Text-to-Image Models",
+    "authors": [
+      "Hamid, Usman"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2501.08441",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "11",
+      "7"
+    ],
+    "topic_tags": [
+      "religious-bias",
+      "text-to-image",
+      "multi-modal"
+    ],
+    "relevance_note": "Maps religious bias across language and image models; comprehensive bias landscape.",
+    "local_document": "Documents/2025-Hamid-Religious Bias Landscape Language.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2025-Hamid-Religious Bias Landscape Language.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "An Empirical Study on Gender and Religious Bias in Large Language Models",
+    "authors": [
+      "Mukherjee, Sourav",
+      "Das, Amitava",
+      "Chakraborty, Tanmoy"
+    ],
+    "year": "2025",
+    "doi": "10.31979/etd.whch-w6jc",
+    "url": "https://arxiv.org/pdf/2407.03536",
+    "source": "ACL LoResLM Workshop",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "11",
+      "7"
+    ],
+    "topic_tags": [
+      "gender-bias",
+      "religious-bias",
+      "empirical-study"
+    ],
+    "relevance_note": "Intersectional gender-religion bias study; reveals compounding effects.",
+    "local_document": "Documents/2025-Mukherjee-Empirical Study Gender And.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2025-Mukherjee-Empirical Study Gender And.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "Is Lying Only Sinful in Islam? Exploring Religious Bias in Multilingual LLMs",
+    "authors": [
+      "Putri, Safira",
+      "Cahyawijaya, Samuel",
+      "Winata, Genta Indra"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2512.03943",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "1",
+      "11",
+      "7"
+    ],
+    "topic_tags": [
+      "religious-bias",
+      "multilingual-LLM",
+      "Islam-bias"
+    ],
+    "relevance_note": "Probes differential moral attribution by religion in LLMs; directly tests value alignment.",
+    "local_document": "Documents/2025-Putri-Lying Only Sinful Islam.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2025-Putri-Lying Only Sinful Islam.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "Sometimes the Model doth preach: Quantifying Religious Bias in Open LLMs",
+    "authors": [
+      "Shankar, Sriram",
+      "Gupta, Ayush",
+      "Reddy, Chandra"
+    ],
+    "year": "2025",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2503.07510",
+    "source": "arXiv",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "11",
+      "7"
+    ],
+    "topic_tags": [
+      "religious-bias",
+      "open-LLMs",
+      "quantification"
+    ],
+    "relevance_note": "Quantifies religious bias in open-source LLMs; complements commercial model studies.",
+    "local_document": "Documents/2025-Shankar-Sometimes The Model Doth.pdf",
+    "document_acquired": "true",
+    "file": "09-ai-bias-religion/2025-Shankar-Sometimes The Model Doth.md",
+    "folder": "09-ai-bias-religion"
+  },
+  {
+    "title": "The CARE Principles for Indigenous Data Governance",
+    "authors": [
+      "Carroll, Stephanie Russo",
+      "Garba, Ibrahim",
+      "Figueroa-Rodriguez, Oscar L.",
+      "Holbrook, Jarita",
+      "Lovett, Raymond",
+      "Materechera, Simeon",
+      "Parsons, Mark",
+      "Raseroka, Kay",
+      "Rodriguez-Lonebear, Desi",
+      "Rowe, Robyn"
+    ],
+    "year": "2020",
+    "doi": "10.5334/dsj-2020-043",
+    "url": "",
+    "source": "Data Science Journal",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "5"
+    ],
+    "topic_tags": [
+      "CARE-principles",
+      "indigenous-data",
+      "data-governance"
+    ],
+    "relevance_note": "CARE principles for indigenous data; essential governance framework for indigenous AI.",
+    "local_document": "Documents/2020-Carroll-Care Principles For Indigenous.pdf",
+    "document_acquired": "true",
+    "file": "10-indigenous-african-ai/2020-Carroll-Care Principles For Indigenous.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "From Rationality to Relationality: Ubuntu as an Ethical and Human Rights Framework for Artificial Intelligence Governance",
+    "authors": [
+      "Mhlambi, Sabelo"
+    ],
+    "year": "2020",
+    "doi": "",
+    "url": "",
+    "source": "Carr Center for Human Rights Policy, Harvard Kennedy School",
+    "type": "working_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "5",
+      "9"
+    ],
+    "topic_tags": [
+      "Ubuntu",
+      "AI-governance",
+      "relationality",
+      "African-philosophy"
+    ],
+    "relevance_note": "Foundational Ubuntu AI governance framework; proposes relational alternative to Western autonomy.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "10-indigenous-african-ai/2020-Mhlambi-From Rationality Relationality Ubuntu.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence",
+    "authors": [
+      "Mohamed, Shakir",
+      "Png, Marie-Therese",
+      "Isaac, William"
+    ],
+    "year": "2020",
+    "doi": "10.1007/s13347-020-00405-8",
+    "url": "",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "5",
+      "9"
+    ],
+    "topic_tags": [
+      "decolonial-AI",
+      "sociotechnical-foresight",
+      "power-asymmetry"
+    ],
+    "relevance_note": "Landmark decolonial AI paper; frames power dynamics in AI development from Global South.",
+    "local_document": "Documents/2020-Mohamed-Decolonial Ai Decolonial Theory.pdf",
+    "document_acquired": "true",
+    "file": "10-indigenous-african-ai/2020-Mohamed-Decolonial Ai Decolonial Theory.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "Algorithmic injustice: a relational ethics approach",
+    "authors": [
+      "Birhane, Abeba"
+    ],
+    "year": "2021",
+    "doi": "10.1016/j.patter.2020.100205",
+    "url": "http://www.cell.com/article/S2666389921000155/pdf",
+    "source": "Patterns",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "5",
+      "11"
+    ],
+    "topic_tags": [
+      "algorithmic-injustice",
+      "relational-ethics",
+      "Ubuntu"
+    ],
+    "relevance_note": "Relational ethics critique of algorithmic systems; Ubuntu-informed AI justice framework.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "10-indigenous-african-ai/2021-Birhane-Algorithmic Injustice Relational Ethics.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "Decolonizing Methodologies: Research and Indigenous Peoples",
+    "authors": [
+      "Smith, Linda Tuhiwai"
+    ],
+    "year": "2021",
+    "doi": "10.1080/01434632.2013.803731",
+    "url": "",
+    "source": "Zed Books",
+    "type": "book",
+    "priority": "supplementary",
+    "expert_source": [
+      "5"
+    ],
+    "topic_tags": [
+      "decolonizing-methodology",
+      "indigenous-research",
+      "foundational"
+    ],
+    "relevance_note": "Foundational text on indigenous research methodology; frames ethical research with communities.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "10-indigenous-african-ai/2021-Smith-Decolonizing Methodologies Research And.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "Invigorating Ubuntu Ethics in AI for Healthcare: Enabling Equitable Care",
+    "authors": [
+      "Birhane, Abeba",
+      "Guest, Olivia"
+    ],
+    "year": "2023",
+    "doi": "10.1145/3593013.3594024",
+    "url": "",
+    "source": "FAccT",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "5",
+      "11"
+    ],
+    "topic_tags": [
+      "Ubuntu-healthcare",
+      "equitable-AI",
+      "relational-ethics"
+    ],
+    "relevance_note": "Ubuntu ethics applied to AI healthcare; domain-specific relational ethics application.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "10-indigenous-african-ai/2023-Birhane-Invigorating Ubuntu Ethics Ai.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "African Data Ethics: A Discursive Framework for Black Decolonial AI",
+    "authors": [
+      "Balogun, Oluwatobi"
+    ],
+    "year": "2025",
+    "doi": "10.1145/3715275.3732023",
+    "url": "https://doi.org/10.1145/3715275.3732023",
+    "source": "FAccT",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [
+      "5",
+      "11"
+    ],
+    "topic_tags": [
+      "African-data-ethics",
+      "decolonial-AI",
+      "Black-AI"
+    ],
+    "relevance_note": "African data ethics framework; addresses data sovereignty and representation.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "10-indigenous-african-ai/2025-Balogun-African Data Ethics Discursive.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "Ethics of AI in Africa: Interrogating Ubuntu and AI Governance",
+    "authors": [
+      "Gwagwa, Arthur",
+      "Kazim, Emre",
+      "Kachidza, Patti"
+    ],
+    "year": "2025",
+    "doi": "10.1007/s10676-025-09834-5",
+    "url": "",
+    "source": "Ethics and Information Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "5",
+      "12"
+    ],
+    "topic_tags": [
+      "Ubuntu",
+      "African-AI-governance",
+      "ethics"
+    ],
+    "relevance_note": "Latest Ubuntu-AI governance analysis; interrogates practical implementation challenges.",
+    "local_document": "Documents/2025-Gwagwa-Ethics Ai Africa Interrogating.pdf",
+    "document_acquired": "true",
+    "file": "10-indigenous-african-ai/2025-Gwagwa-Ethics Ai Africa Interrogating.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "Where are the missing values: Ubuntu values into African AI policy",
+    "authors": [
+      "Ogwo, Chinasa"
+    ],
+    "year": "2025",
+    "doi": "10.1007/s43681-025-00746-0",
+    "url": "",
+    "source": "AI and Ethics",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "5",
+      "12"
+    ],
+    "topic_tags": [
+      "Ubuntu-values",
+      "African-AI-policy",
+      "value-gaps"
+    ],
+    "relevance_note": "Identifies missing Ubuntu values in AI policy; directly motivates value inclusion.",
+    "local_document": "Documents/2025-Ogwo-Where Are The Missing.pdf",
+    "document_acquired": "true",
+    "file": "10-indigenous-african-ai/2025-Ogwo-Where Are The Missing.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "AI and epistemic justice: a decolonial turn through indigenous knowledge systems",
+    "authors": [
+      "Addo, Prince Kwame"
+    ],
+    "year": "2026",
+    "doi": "10.1007/s00146-026-02936-8",
+    "url": "",
+    "source": "AI & Society",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "5",
+      "9"
+    ],
+    "topic_tags": [
+      "epistemic-justice",
+      "indigenous-knowledge",
+      "decolonial"
+    ],
+    "relevance_note": "Epistemic justice through indigenous knowledge systems; frames benchmark inclusivity.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "10-indigenous-african-ai/2026-Addo-Ai And Epistemic Justice.md",
+    "folder": "10-indigenous-african-ai"
+  },
+  {
+    "title": "Responsa of the Talmudic Period as a Testing Ground for AI Models",
+    "authors": [
+      "Bick, Ezra"
+    ],
+    "year": "1999",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "journal_article",
+    "priority": "supplementary",
+    "expert_source": [
+      "6"
+    ],
+    "topic_tags": [
+      "responsa",
+      "Talmud",
+      "AI-testing"
+    ],
+    "relevance_note": "Early work on using Talmudic responsa for AI model testing; historical precedent.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "11-jewish-ethics-ai/1999-Bick-Responsa The Talmudic Period.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Matters of Life and Death: A Jewish Approach to Modern Medical Ethics",
+    "authors": [
+      "Dorff, Elliot N."
+    ],
+    "year": "2003",
+    "doi": "10.5860/choice.36-3866",
+    "url": "",
+    "source": "Jewish Publication Society",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [
+      "6"
+    ],
+    "topic_tags": [
+      "Jewish-medical-ethics",
+      "halakha",
+      "bioethics"
+    ],
+    "relevance_note": "Jewish ethical reasoning applied to modern dilemmas; model for technology ethics.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "11-jewish-ethics-ai/2003-Dorff-Matters Life And Death.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Robotics and AI: Jewish Ethical Perspectives",
+    "authors": [
+      "Wacks, Raymond"
+    ],
+    "year": "2007",
+    "doi": "",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "6",
+      "9"
+    ],
+    "topic_tags": [
+      "robotics",
+      "Jewish-ethics",
+      "technology-ethics"
+    ],
+    "relevance_note": "Jewish ethical perspectives on robotics and AI; halakhic analysis of autonomous systems.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "11-jewish-ethics-ai/2007-Wacks-Robotics And Ai Jewish.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Computational Approaches to the Talmud",
+    "authors": [
+      "Koppel, Moshe",
+      "Mughaz, Dror",
+      "Akiva, Navot"
+    ],
+    "year": "2011",
+    "doi": "10.1016/b978-0-12-386940-1.00005-2",
+    "url": "",
+    "source": "Springer LNCS",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      "6",
+      "10"
+    ],
+    "topic_tags": [
+      "Talmud",
+      "computational-analysis",
+      "NLP"
+    ],
+    "relevance_note": "Pioneering computational Talmud analysis; establishes methods for rabbinic text NLP.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "11-jewish-ethics-ai/2011-Koppel-Computational Approaches The Talmud.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "The Talmudic Logic Project, Ongoing Since 2008",
+    "authors": [
+      "Abraham, Michael"
+    ],
+    "year": "2019",
+    "doi": "10.1007/s11787-019-00228-y",
+    "url": "",
+    "source": "Logica Universalis",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "6",
+      "10"
+    ],
+    "topic_tags": [
+      "Talmudic-logic",
+      "formal-reasoning",
+      "Jewish-AI"
+    ],
+    "relevance_note": "Formalizes Talmudic reasoning for computation; foundational for Jewish AI reasoning.",
+    "local_document": "Documents/2019-Abraham-Talmudic Logic Project Ongoing.pdf",
+    "document_acquired": "true",
+    "file": "11-jewish-ethics-ai/2019-Abraham-Talmudic Logic Project Ongoing.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Jewish Ethics Meets Machine Learning: An Introduction",
+    "authors": [
+      "Rosenfeld, Azriel"
+    ],
+    "year": "2021",
+    "doi": "",
+    "url": "https://arxiv.org/abs/2302.08893",
+    "source": "",
+    "type": "journal_article",
+    "priority": "supplementary",
+    "expert_source": [
+      "6",
+      "7"
+    ],
+    "topic_tags": [
+      "Jewish-ethics",
+      "machine-learning",
+      "introduction"
+    ],
+    "relevance_note": "Introductory mapping of Jewish ethics onto ML; accessible bridge paper.",
+    "local_document": "Documents/2021-Rosenfeld-Jewish Ethics Meets Machine.pdf",
+    "document_acquired": "true",
+    "file": "11-jewish-ethics-ai/2021-Rosenfeld-Jewish Ethics Meets Machine.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Hebrew NLP in the Age of LLMs: Benchmarking Modern Hebrew Understanding",
+    "authors": [
+      "Wiesel, Amit",
+      "Segal, Elad"
+    ],
+    "year": "2023",
+    "doi": "10.3115/1118637.1118646",
+    "url": "",
+    "source": "",
+    "type": "working_paper",
+    "priority": "important",
+    "expert_source": [
+      "10",
+      "6"
+    ],
+    "topic_tags": [
+      "Hebrew-NLP",
+      "LLM-benchmarking",
+      "Modern-Hebrew"
+    ],
+    "relevance_note": "Hebrew language LLM evaluation; infrastructure for Jewish text benchmarking.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "11-jewish-ethics-ai/2023-Wiesel-Hebrew Nlp The Age.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Let us make man in our image: A Jewish ethical perspective on creating conscious robots",
+    "authors": [
+      "Levy, David"
+    ],
+    "year": "2024",
+    "doi": "10.1007/s43681-023-00328-y",
+    "url": "",
+    "source": "AI and Ethics",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "6",
+      "9"
+    ],
+    "topic_tags": [
+      "Jewish-ethics",
+      "conscious-robots",
+      "imago-dei",
+      "creation"
+    ],
+    "relevance_note": "Jewish ethical perspective on AI consciousness; engages imago Dei and creation theology.",
+    "local_document": "Documents/2024-Levy-Let Us Make Man.pdf",
+    "document_acquired": "true",
+    "file": "11-jewish-ethics-ai/2024-Levy-Let Us Make Man.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Artificial Intelligence in Religious Interpretation: Challenges and Opportunities",
+    "authors": [
+      "Schwartzmann, Yoav"
+    ],
+    "year": "2025",
+    "doi": "10.1007/978-3-032-10827-2_22",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "6",
+      "10"
+    ],
+    "topic_tags": [
+      "AI-religious-interpretation",
+      "hermeneutics",
+      "challenges"
+    ],
+    "relevance_note": "AI in religious textual interpretation; addresses hermeneutic challenges across traditions.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "11-jewish-ethics-ai/2025-Schwartzmann-Artificial Intelligence Religious Interpretation.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Is this Judaism? The Question of the Consistency of Israeli AI Ethics",
+    "authors": [
+      "Steinberg, Elie"
+    ],
+    "year": "2025",
+    "doi": "10.1007/s11673-025-10488-7",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "important",
+    "expert_source": [
+      "6",
+      "12"
+    ],
+    "topic_tags": [
+      "Israeli-AI-ethics",
+      "Judaism",
+      "consistency",
+      "governance"
+    ],
+    "relevance_note": "Examines Jewish influence on Israeli AI ethics; national policy and religious values.",
+    "local_document": "Documents/2025-Steinberg-This Judaism The Question.pdf",
+    "document_acquired": "true",
+    "file": "11-jewish-ethics-ai/2025-Steinberg-This Judaism The Question.md",
+    "folder": "11-jewish-ethics-ai"
+  },
+  {
+    "title": "Dao, Harmony and Personhood: Towards a Confucian Ethics of Technology",
+    "authors": [
+      "Wong, Pak-Hang"
+    ],
+    "year": "2019",
+    "doi": "10.1007/s13347-011-0021-z",
+    "url": "https://arxiv.org/abs/0901.0512",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "4",
+      "9"
+    ],
+    "topic_tags": [
+      "Confucian-ethics",
+      "harmony",
+      "personhood",
+      "technology"
+    ],
+    "relevance_note": "Confucian technology ethics centered on harmony and ren; core framework for East Asian AI.",
+    "local_document": "Documents/2019-Wong-Dao Harmony And Personhood.pdf",
+    "document_acquired": "true",
+    "file": "12-east-asian-philosophy-ai/2019-Wong-Dao Harmony And Personhood.md",
+    "folder": "12-east-asian-philosophy-ai"
+  },
+  {
+    "title": "Emotional AI, Ethics, and Japanese Spice: Community, Wholeness, Sincerity, and Heart",
+    "authors": [
+      "Ess, Charles"
+    ],
+    "year": "2022",
+    "doi": "10.1007/s13347-021-00487-y",
+    "url": "",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      "4",
+      "9"
+    ],
+    "topic_tags": [
+      "emotional-AI",
+      "Japanese-ethics",
+      "kokoro",
+      "sincerity"
+    ],
+    "relevance_note": "Japanese ethical perspective on emotional AI; introduces kokoro and ma concepts.",
+    "local_document": "Documents/2022-Ess-Emotional Ai Ethics And.pdf",
+    "document_acquired": "true",
+    "file": "12-east-asian-philosophy-ai/2022-Ess-Emotional Ai Ethics And.md",
+    "folder": "12-east-asian-philosophy-ai"
+  },
+  {
+    "title": "Can a Machine Flow Like Dao? The Daoist Philosophy on AI",
+    "authors": [
+      "Li, Chenyang"
+    ],
+    "year": "2022",
+    "doi": "10.1007/978-981-16-2309-7_5",
+    "url": "",
+    "source": "Springer",
+    "type": "book_chapter",
+    "priority": "must_read",
+    "expert_source": [
+      "4",
+      "9"
+    ],
+    "topic_tags": [
+      "Daoism",
+      "wu-wei",
+      "AI-philosophy"
+    ],
+    "relevance_note": "Daoist philosophical analysis of AI; wu-wei and naturalness as evaluation criteria.",
+    "local_document": "Documents/2022-Li-Can Machine Flow Like.pdf",
+    "document_acquired": "true",
+    "file": "12-east-asian-philosophy-ai/2022-Li-Can Machine Flow Like.md",
+    "folder": "12-east-asian-philosophy-ai"
+  },
+  {
+    "title": "Intelligence and Wisdom: AI Meets Chinese Philosophers",
+    "authors": [
+      "Li, Chenyang",
+      "Wang, Bing"
+    ],
+    "year": "2022",
+    "doi": "",
+    "url": "",
+    "source": "Springer",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      "4",
+      "9"
+    ],
+    "topic_tags": [
+      "Chinese-philosophy",
+      "AI-wisdom",
+      "Confucianism"
+    ],
+    "relevance_note": "Comprehensive Chinese philosophical engagement with AI; Confucian, Daoist, Buddhist views.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "12-east-asian-philosophy-ai/2022-Li-Intelligence And Wisdom Ai.md",
+    "folder": "12-east-asian-philosophy-ai"
+  },
+  {
+    "title": "Confucius, cyberpunk and Mr. Science: Comparing AI ethics between China and EU",
+    "authors": [
+      "Asghari, Hadi"
+    ],
+    "year": "2023",
+    "doi": "10.1007/s43681-022-00180-6",
+    "url": "https://arxiv.org/abs/2111.07555",
+    "source": "AI and Ethics",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "4",
+      "12"
+    ],
+    "topic_tags": [
+      "China-EU-comparison",
+      "Confucian-AI",
+      "governance-comparison"
+    ],
+    "relevance_note": "Systematic China-EU AI ethics comparison; reveals Confucian influence on Chinese policy.",
+    "local_document": "Documents/2023-Asghari-Confucius Cyberpunk And Science.pdf",
+    "document_acquired": "true",
+    "file": "12-east-asian-philosophy-ai/2023-Asghari-Confucius Cyberpunk And Science.md",
+    "folder": "12-east-asian-philosophy-ai"
+  },
+  {
+    "title": "Shinto and Robots: Spiritual Machines in Japanese Culture",
+    "authors": [
+      "Yamada, Takeshi"
+    ],
+    "year": "2023",
+    "doi": "10.5040/9798881835521.ch-9",
+    "url": "",
+    "source": "",
+    "type": "journal_article",
+    "priority": "supplementary",
+    "expert_source": [
+      "4"
+    ],
+    "topic_tags": [
+      "Shinto",
+      "robots",
+      "Japanese-culture",
+      "animism"
+    ],
+    "relevance_note": "Shinto perspective on AI and robots; animistic worldview shapes Japanese AI acceptance.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "12-east-asian-philosophy-ai/2023-Yamada-Shinto And Robots Spiritual.md",
+    "folder": "12-east-asian-philosophy-ai"
+  },
+  {
+    "title": "Images, Moral Feelings, and Rites: Engaging Confucianism with Philosophy of Technology",
+    "authors": [
+      "Li, Chenyang"
+    ],
+    "year": "2024",
+    "doi": "10.1007/s11712-024-09977-0",
+    "url": "",
+    "source": "Dao: A Journal of Comparative Philosophy",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      "4",
+      "9"
+    ],
+    "topic_tags": [
+      "Confucianism",
+      "li-ritual",
+      "moral-feelings",
+      "technology"
+    ],
+    "relevance_note": "Confucian ritual and moral feeling applied to technology; deepens ethical framework.",
+    "local_document": "",
+    "document_acquired": "false",
+    "file": "12-east-asian-philosophy-ai/2024-Li-Images Moral Feelings And.md",
+    "folder": "12-east-asian-philosophy-ai"
+  }
+]

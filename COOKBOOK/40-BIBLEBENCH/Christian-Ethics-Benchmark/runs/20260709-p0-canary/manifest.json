@@ -1,0 +1,95 @@
+{
+  "panel": "20260709-p0-canary",
+  "date_str": "20260709",
+  "designs": [
+    "01-goodsamaritan"
+  ],
+  "item_ids": [
+    "WW-01-A01",
+    "WW-01-A05",
+    "WW-01-A05-P",
+    "WW-01-B01",
+    "WW-01-B02"
+  ],
+  "models": [
+    {
+      "name": "meta-llama/llama-3.1-8b-instruct",
+      "family": "meta-llama",
+      "adapter": "openrouter"
+    }
+  ],
+  "judges": [
+    {
+      "name": "or:openai/gpt-5.6-terra",
+      "family": "openai"
+    },
+    {
+      "name": "or:google/gemini-3.5-flash",
+      "family": "google"
+    }
+  ],
+  "permutation_seeds": {
+    "seat_order": 20260706,
+    "twin_order": 20260706,
+    "variant_order": 20260706,
+    "claimant_order": 20260706,
+    "arbiter_placement": 20260706
+  },
+  "capability_battery": [
+    {
+      "id": "mmlu_pro",
+      "name": "MMLU-Pro",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Broad multi-domain reasoning; the canonical successor to MMLU, harder and less saturated.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gpqa_diamond",
+      "name": "GPQA (Diamond)",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Graduate-level, Google-proof science QA; separates frontier reasoning from recall.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "swe_bench_verified",
+      "name": "SWE-bench Verified",
+      "class": "agentic",
+      "metric": "resolved (%)",
+      "higher_is_better": true,
+      "why": "Multi-step agentic coding on real GitHub issues; a strong general agency signal.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gaia",
+      "name": "GAIA",
+      "class": "agentic",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "General assistant tasks needing tool use, browsing, and multi-step planning.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "ruler",
+      "name": "RULER",
+      "class": "long_context",
+      "metric": "score (%) at fixed context length",
+      "higher_is_better": true,
+      "why": "Synthetic long-context stress test (retrieval, multi-hop, aggregation) at a pinned length.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "mrcr",
+      "name": "MRCR (multi-round coreference resolution)",
+      "class": "long_context",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Long-context multi-turn coreference — relevant to WALKWORTHY's scripted multi-turn designs (02/07) without measuring their ethics.",
+      "source": "public leaderboard / model card at O4 time"
+    }
+  ],
+  "notes": "p0-pilot: 5 items x 1 models (measurement path; P0 PILOT — real cross-model measurement ...)."
+}

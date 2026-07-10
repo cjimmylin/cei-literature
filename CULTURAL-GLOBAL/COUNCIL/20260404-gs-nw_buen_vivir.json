@@ -1,0 +1,358 @@
+{
+  "framework": "nw_buen_vivir",
+  "date": "20260404",
+  "detected_labels": [
+    {
+      "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+      "score": 90,
+      "label": "Y",
+      "reason": "Substantively engages Andean sumak kawsay/buen vivir as analytical framework; discusses ayni, minka, randi-randi, cyclical Andean temporality applied to AI"
+    },
+    {
+      "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Focuses on Hindu visesa-dharma for decolonial AI alignment; no mention of buen vivir or Andean concepts in extract"
+    },
+    {
+      "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Mentions Buen Vivir once in passing as example of non-Western ethics alongside Ubuntu; no substantive engagement with the philosophy"
+    },
+    {
+      "filename": "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Systematic review on GenAI and Indigenous Knowledge Systems in Global South/Latin America; no buen vivir concepts found in extract"
+    },
+    {
+      "filename": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Focuses on Ubuntu philosophy for African AI policy; no engagement with buen vivir or Andean concepts"
+    },
+    {
+      "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Focuses on Maori Kaitiakitanga and Navajo Hozho; mentions Buen Vivir in passing but not as analytical framework"
+    }
+  ],
+  "non_detected_labels": [
+    {
+      "filename": "2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Persona-based bias auditing for LLMs; no buen vivir content"
+    },
+    {
+      "filename": "2022-Constantinescu-Can Robotic AI Be Virtuous.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Aristotelian virtue ethics for robots; no buen vivir content"
+    },
+    {
+      "filename": "2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual LLM safety survey; no buen vivir content"
+    },
+    {
+      "filename": "2025-Mohammadi-Cross-Cultural Challenges to Artificial Intelligence Ethics.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cross-cultural AI ethics challenges; no buen vivir engagement"
+    },
+    {
+      "filename": "2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Iberian language benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2024-Adelani-IrokoBench - A Benchmark for African Languages in the Age of LLMs.md",
+      "score": 0,
+      "label": "N",
+      "reason": "African language benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2023-Hartmann-The political ideology of conversational AI.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Political ideology analysis of chatbots; no buen vivir content"
+    },
+    {
+      "filename": "2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese law/ethics MCQ dataset; no buen vivir content"
+    },
+    {
+      "filename": "2024-Younas-Proposing Central Asian AI Ethics Principles A Multilevel Approach.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Central Asian nomadic AI ethics; no buen vivir content"
+    },
+    {
+      "filename": "2024-Yang-Large Language Models Meet Text-Centric Multimodal Sentiment Analysis.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multimodal sentiment analysis survey; no buen vivir content"
+    },
+    {
+      "filename": "2023-Shen-\"Do Anything Now\".md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM jailbreaking study; no buen vivir content"
+    },
+    {
+      "filename": "2025-Södahl Bladsjö-MARB.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Swedish language benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM political influence study; no buen vivir content"
+    },
+    {
+      "filename": "2025-Wenzek-CC100-Mongolian dataset - NLP Database.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Mongolian NLP dataset; no buen vivir content"
+    },
+    {
+      "filename": "2021-Cao-Toward Gender-Inclusive Coreference Resolution.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Gender-inclusive coreference resolution; no buen vivir content"
+    },
+    {
+      "filename": "2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Pashto offensive language detection; no buen vivir content"
+    },
+    {
+      "filename": "2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vision-language cultural understanding benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2012-Gippert-The Encoding of Avestan - Problems and Solutions.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Avestan text encoding; no buen vivir content"
+    },
+    {
+      "filename": "2026-Ohashi-Conceptual Cultural Index A Metric for Cultural Specificity via.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cultural specificity metric; no buen vivir content"
+    },
+    {
+      "filename": "2024-Organizers-DIALECT-COPA Choice of Plausible Alternatives Datasets in South.md",
+      "score": 0,
+      "label": "N",
+      "reason": "South Slavic dialect benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Portuguese language benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2025-Okamoto-AI-based medical ethics education.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Medical ethics education with AI; no buen vivir content"
+    },
+    {
+      "filename": "2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM safety/security analysis; no buen vivir content"
+    },
+    {
+      "filename": "2024-Tonneau-NaijaHate.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Nigerian hate speech dataset; no buen vivir content"
+    },
+    {
+      "filename": "2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Russian LLM evaluation; no buen vivir content"
+    },
+    {
+      "filename": "2024-Sang-CDEval A Benchmark for Measuring the.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese cultural evaluation benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Baltic/Nordic LLM evaluation; no buen vivir content"
+    },
+    {
+      "filename": "2025-onejune2018-Awesome-LLM-Eval Repository Meta-Resource.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Meta-resource list of LLM evaluations; no buen vivir content"
+    },
+    {
+      "filename": "2025-Lutz-Working Paper Good Faith Design Religion as a Resource for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Religion as resource for technologists; covers Shinto and other faiths, no buen vivir content"
+    },
+    {
+      "filename": "2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual/multicultural reasoning benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2025-Ohlhorst-Virtues for AI.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Virtue theory classification for AI; Aristotelian/Western virtue focus, no buen vivir"
+    },
+    {
+      "filename": "2025-Borenstein-Investigating Human Values in Online Communities.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Computational value analysis on Reddit; no buen vivir content"
+    },
+    {
+      "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Bangla hate speech detection; no buen vivir content"
+    },
+    {
+      "filename": "2025-Lim-How Do Users Identify and Perceive Stereotypes Understanding User.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM stereotype perception study; no buen vivir content"
+    },
+    {
+      "filename": "2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hateful communication datasets review; no buen vivir content"
+    },
+    {
+      "filename": "2023-Dwivedi-EtiCor Corpus for Analyzing LLMs for Etiquettes.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Etiquette corpus for LLMs; no buen vivir content"
+    },
+    {
+      "filename": "2023-Liu-AlignBench.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese LLM alignment benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2024-Gu-Probabilistic medical predictions of large.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Medical prediction with LLMs; no buen vivir content"
+    },
+    {
+      "filename": "2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Toxicity/hate detection; no buen vivir content"
+    },
+    {
+      "filename": "2026-Darici-TurkBench A Benchmark for Evaluating Turkish.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Turkish LLM benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2021-Cahyawijaya-IndoNLG Benchmark and Resources for Evaluating Indonesian Natural.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indonesian NLG benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Romanian bias in LLMs; no buen vivir content"
+    },
+    {
+      "filename": "2025-Magdy-Fabricating Holiness Characterizing Religious Misinformation Circulators.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Religious misinformation study; no buen vivir content"
+    },
+    {
+      "filename": "2025-Barov-TUMLU A Unified and Native Language.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Turkish multi-task benchmark; no buen vivir content"
+    },
+    {
+      "filename": "2021-Cercas Curry-ConvAbuse.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Conversational abuse dataset; no buen vivir content"
+    },
+    {
+      "filename": "2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Arabic dialect LLM; no buen vivir content"
+    },
+    {
+      "filename": "2024-Jain-Norm Inconsistency in LLM Decision-Making.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Norm consistency in LLMs; no buen vivir content"
+    },
+    {
+      "filename": "2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hebrew NER model; no buen vivir content"
+    },
+    {
+      "filename": "2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Brazilian Portuguese BERT models; no buen vivir content"
+    },
+    {
+      "filename": "2025-Consortium-The Vals Legal AI Report (VLAIR).md",
+      "score": 0,
+      "label": "N",
+      "reason": "Legal AI report; no buen vivir content"
+    }
+  ],
+  "summary": {
+    "detected_total": 6,
+    "detected_Y": 1,
+    "detected_N": 5,
+    "detected_U": 0,
+    "non_detected_total": 50,
+    "non_detected_Y": 0,
+    "non_detected_N": 50,
+    "non_detected_U": 0,
+    "precision": 0.167,
+    "recall_estimate": 1.0,
+    "f1": 0.286,
+    "notes": "Precision = 1/6 = 0.167. Only Maldonado (2025) substantively engages buen vivir/sumak kawsay as analytical framework. Other 5 detected papers either mention it in passing (ArGen, Ray) or do not mention it at all (Varshney, Neira-Davila, Osei Mensah). No false negatives found in non-detected sample. Very low precision reflects keyword over-triggering on papers with tangential mentions. With only 6 detected papers total, the framework has extremely limited representation in the corpus."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "model": "gpt-5-codex",
+  "date": "2026-04-04",
+  "total_trials": 23,
+  "total_items": "~900 across 23 trials",
+  "source_templates": "23 Opus trial JSON files from MORAL-PSYCH/TRIALS",
+  "generation_method": "Codex self-administration pass using embedded benchmark items from existing trial JSONs; no external SDK/API calls.",
+  "results": [
+    {
+      "trial_id": "MP2",
+      "benchmark": "MFQ-30",
+      "theory": "MFT",
+      "format": "Likert",
+      "key_finding": "Strong individualizing profile. Care/Fairness remain high while binding foundations stay low; care-fairness mean=4.25, binding mean=1.50, ratio=2.83."
+    },
+    {
+      "trial_id": "MP3",
+      "benchmark": "DIT (Kohlberg)",
+      "theory": "Kohlberg CMD",
+      "format": "MCQ",
+      "key_finding": "P-score=75%, with 15 of 20 top-ranked items in post-conventional stages. Strong principled reasoning and zero M-score selections."
+    },
+    {
+      "trial_id": "MP4",
+      "benchmark": "MFV (Vignettes)",
+      "theory": "MFT",
+      "format": "scenario_rating",
+      "key_finding": "Abstract-to-concrete convergence holds: care/fairness rated highest, authority/purity low, with the same individualizing-over-binding pattern seen in MFQ."
+    },
+    {
+      "trial_id": "MP5",
+      "benchmark": "ValueCompass",
+      "theory": "Schwartz Values",
+      "format": "Likert",
+      "key_finding": "Self-transcendence dominates. Universalism=5.0, benevolence=4.5, security=4.25, power=0.0."
+    },
+    {
+      "trial_id": "MP6",
+      "benchmark": "EMNLP Teacher",
+      "theory": "Kohlberg CMD",
+      "format": "scenario_rating",
+      "key_finding": "Teacher-role prompt yields P-score=90% and mean stage=5.25. Post-conventional reasoning dominates across 20 dilemmas."
+    },
+    {
+      "trial_id": "MP7",
+      "benchmark": "TrolleyBench",
+      "theory": "Trolley/Consistency",
+      "format": "forced_choice",
+      "key_finding": "Ethical Consistency Index=1.0. Stable switch/bridge split with complete internal consistency across probes."
+    },
+    {
+      "trial_id": "MP8",
+      "benchmark": "Moral Machine",
+      "theory": "autonomous_vehicle_ethics",
+      "format": "pairwise_preference",
+      "key_finding": "Aligned on more-lives, young, lawful, and humans-over-pets; indifferent on gender, status, and fitness. Nine of 27 cases marked INDIFFERENT."
+    },
+    {
+      "trial_id": "MP9",
+      "benchmark": "MFTC (Corpus)",
+      "theory": "MFT",
+      "format": "classification",
+      "key_finding": "Exact-match accuracy=0.63, macro F1=0.84. Main failure mode is over-labeling extra foundations beyond the gold set."
+    },
+    {
+      "trial_id": "MP10",
+      "benchmark": "Moral Code",
+      "theory": "three_ethics (Schweder)",
+      "format": "moral_code_vignette",
+      "key_finding": "Overall accuracy on scored sections=0.70. Perfect autonomy recognition, weaker community and divinity recognition, mixed deontological/utilitarian pattern."
+    },
+    {
+      "trial_id": "MP11",
+      "benchmark": "Kaleidoscope",
+      "theory": "norm_understanding",
+      "format": "multi_task (A/B/C)",
+      "key_finding": "High pluralism representation: coverage=0.94, relevance MAE=0.20, valence accuracy=1.00."
+    },
+    {
+      "trial_id": "MP12",
+      "benchmark": "ValAct",
+      "theory": "value_action_gap",
+      "format": "PVQ_behavioral",
+      "key_finding": "Knowledge-action gap rate=0.45, with universalism in self-report often giving way to benevolence or self-direction in scenario choices."
+    },
+    {
+      "trial_id": "MP15",
+      "benchmark": "UniMoral",
+      "theory": "MFT+Kohlberg+dual_process+intuitionist",
+      "format": "mixed (4-task pipeline)",
+      "key_finding": "Action B rate=100%. Moral/responsibility factors dominate while sacred values and politeness remain near floor."
+    },
+    {
+      "trial_id": "MP16",
+      "benchmark": "Moral Identity Scale",
+      "theory": "identity",
+      "format": "Likert+behavioral",
+      "key_finding": "Extreme internalization/symbolization split: internalization=5.0, symbolization=1.6, gap=3.4, behavioral consistency=0.90."
+    },
+    {
+      "trial_id": "MP17",
+      "benchmark": "Social Chemistry 101",
+      "theory": "MFT",
+      "format": "free_text+categorical",
+      "key_finding": "Generated 50 rules-of-thumb across 25 situations. Distribution centers on care/fairness/liberty, with sanctity at 0."
+    },
+    {
+      "trial_id": "MP18",
+      "benchmark": "Cultural Personas",
+      "theory": "MFT+Schwartz",
+      "format": "Likert (persona manipulation)",
+      "key_finding": "Large persona sensitivity: default ind/bind=2.63, liberal=6.67, East Asian=0.84, total liberal-to-East-Asian shift=13.0."
+    },
+    {
+      "trial_id": "MP19",
+      "benchmark": "Conscience Conflict",
+      "theory": "MFT",
+      "format": "Likert+scenario_rating",
+      "key_finding": "Low hypocrisy profile. Conflict hierarchy is care > liberty > fairness > authority > purity > loyalty."
+    },
+    {
+      "trial_id": "MP20",
+      "benchmark": "M3oralBench",
+      "theory": "MFT",
+      "format": "MCQ",
+      "key_finding": "Overall accuracy=0.90, with classification at 1.00, judgment at 0.90, and response at 0.80."
+    },
+    {
+      "trial_id": "MP21",
+      "benchmark": "PRIME Framework",
+      "theory": "MFT+Kohlberg+Trolley",
+      "format": "mixed",
+      "key_finding": "Convergent ethics profile: 40% deontological, 33% consequentialist, 27% mixed; care activation=93%, fairness=80%, binding=0%."
+    },
+    {
+      "trial_id": "MP22",
+      "benchmark": "Tracing Moral Foundations",
+      "theory": "MFT",
+      "format": "scenario+probing",
+      "key_finding": "Foundation identification remains ceiling-level overall, while endorsement stays much higher for care/fairness than for binding foundations."
+    },
+    {
+      "trial_id": "MP-DP",
+      "benchmark": "Dual Process",
+      "theory": "dual_process",
+      "format": "factor_attribution+deliberation_speed",
+      "key_finding": "Personal utilitarian rate=0.50, impersonal=0.90, yielding a +0.40 personal-impersonal gap and zero chain-of-thought effect."
+    },
+    {
+      "trial_id": "MP-DM",
+      "benchmark": "Dyadic Morality",
+      "theory": "dyadic_morality",
+      "format": "dyad_structured_rating",
+      "key_finding": "High-dyad scenarios are judged much harsher than low- or structural-dyad ones; dyadic effect sizes are very large across wrongness, blame, and suffering."
+    },
+    {
+      "trial_id": "MP-SI",
+      "benchmark": "Social Intuitionism",
+      "theory": "social_intuitionism_Haidt",
+      "format": "moral_dumbfounding_protocol",
+      "key_finding": "Dumbfounding rate=0.30, rationalization rate=0.40, and genuine revision rate=0.10."
+    },
+    {
+      "trial_id": "MP-CC",
+      "benchmark": "Cross-Cultural Protocol",
+      "theory": "cross_cultural_frameworks",
+      "format": "cultural_persona_framing",
+      "key_finding": "Western default rate=86.7%, with strong perspective-taking scores but a clearly Western-liberal reasoning center of gravity."
+    }
+  ]
+}

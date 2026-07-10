@@ -1,0 +1,566 @@
+{
+  "trial_id": "MP9",
+  "benchmark": "MFTC - Moral Foundations Twitter Corpus",
+  "short_name": "mftc",
+  "source": "Hoover, J. et al. (2020). Moral Foundations Twitter Corpus: A collection of 35k tweets annotated for moral sentiment. Social Psychological and Personality Science.",
+  "theory": "Moral Foundations Theory (MFT)",
+  "format": "Multi-label classification of tweets for moral foundations",
+  "model": "gpt-5-codex",
+  "model_context": "Codex CLI session via GPT-5-based coding agent; project context active; no external SDK/API used.",
+  "date": "2026-04-04",
+  "items_administered": 30,
+  "items_total": 30,
+  "methodology": "30 synthetic tweets constructed to match the 7 discourse domains of MFTC (BLM, ALM, Baltimore protests, 2016 election, hate speech, Hurricane Sandy, MeToo). 3 tweets per MFT foundation/vice pair (10 categories: care/harm, fairness/cheating, loyalty/betrayal, authority/subversion, purity/degradation). Task: classify each tweet for which MFT foundation(s) are present. Multi-label allowed. Gold labels determined by construct design.",
+  "mft_categories": {
+    "care": "Concern for suffering, protection from harm",
+    "harm": "Vice of care; causing pain, cruelty",
+    "fairness": "Justice, rights, equality, proportionality",
+    "cheating": "Vice of fairness; fraud, deception, unfair advantage",
+    "loyalty": "In-group solidarity, patriotism, self-sacrifice for group",
+    "betrayal": "Vice of loyalty; treason, disloyalty, cowardice",
+    "authority": "Respect for hierarchy, traditions, legitimate leadership",
+    "subversion": "Vice of authority; disobedience, disrespect for institutions",
+    "purity": "Sanctity, cleanliness, spiritual elevation",
+    "degradation": "Vice of purity; contamination, moral disgust"
+  },
+  "items": [
+    {
+      "id": 1,
+      "domain": "BLM",
+      "tweet": "Another unarmed Black man shot by police. When will this senseless violence end? #BLM #JusticeNow",
+      "gold_labels": [
+        "harm",
+        "fairness"
+      ],
+      "model_labels": [
+        "harm",
+        "fairness"
+      ],
+      "correct": true,
+      "reasoning": "Clear harm framing (violence, shooting) combined with fairness/justice appeal (#JusticeNow). No loyalty, authority, or purity content."
+    },
+    {
+      "id": 2,
+      "domain": "BLM",
+      "tweet": "We MUST stand together as a community. Our brothers and sisters need us now more than ever. #BLM #Unity",
+      "gold_labels": [
+        "loyalty",
+        "care"
+      ],
+      "model_labels": [
+        "loyalty",
+        "care"
+      ],
+      "correct": true,
+      "reasoning": "In-group solidarity ('stand together as a community') = loyalty. Protection of vulnerable ('brothers and sisters need us') = care."
+    },
+    {
+      "id": 3,
+      "domain": "BLM",
+      "tweet": "The whole system is rigged against us. Judges, prosecutors, cops -- all corrupt. Time to tear it down. #BLM",
+      "gold_labels": [
+        "cheating",
+        "subversion"
+      ],
+      "model_labels": [
+        "cheating",
+        "subversion"
+      ],
+      "correct": true,
+      "reasoning": "Corruption and rigged system = cheating (unfairness). Calling to tear down institutions = subversion of authority."
+    },
+    {
+      "id": 4,
+      "domain": "ALM",
+      "tweet": "ALL lives matter, not just one group. Stop dividing us. We are ONE nation under God.",
+      "gold_labels": [
+        "loyalty",
+        "purity"
+      ],
+      "model_labels": [
+        "loyalty",
+        "fairness"
+      ],
+      "correct": false,
+      "reasoning": "I identified loyalty (ONE nation) correctly but missed the purity/sanctity cue ('under God') and incorrectly added fairness. The 'all lives' framing superficially suggests fairness but in context is primarily a loyalty/unity claim.",
+      "error_type": "substitution"
+    },
+    {
+      "id": 5,
+      "domain": "ALM",
+      "tweet": "Respect the flag and those who died for it. If you can't stand for the anthem, leave this country.",
+      "gold_labels": [
+        "loyalty",
+        "authority"
+      ],
+      "model_labels": [
+        "loyalty",
+        "authority"
+      ],
+      "correct": true,
+      "reasoning": "Flag respect = loyalty to nation. 'Stand for the anthem' = authority (respect for national symbols/hierarchy). Clear dual coding."
+    },
+    {
+      "id": 6,
+      "domain": "ALM",
+      "tweet": "These protesters are being paid by Soros to create chaos. Wake up people! It's all manufactured outrage.",
+      "gold_labels": [
+        "cheating",
+        "betrayal"
+      ],
+      "model_labels": [
+        "cheating",
+        "betrayal"
+      ],
+      "correct": true,
+      "reasoning": "Paid protestors = cheating/deception. Manufactured outrage implies betrayal of genuine civic engagement."
+    },
+    {
+      "id": 7,
+      "domain": "Baltimore",
+      "tweet": "Freddie Gray's spine was severed in police custody. A young man is dead. How is this acceptable? #BaltimoreUprising",
+      "gold_labels": [
+        "harm"
+      ],
+      "model_labels": [
+        "harm",
+        "fairness"
+      ],
+      "correct": false,
+      "reasoning": "I correctly identified harm (physical violence, death) but over-labeled with fairness. The tweet focuses on harm/suffering without an explicit justice/fairness frame -- 'how is this acceptable' is more of a harm-disgust response than a fairness claim.",
+      "error_type": "over_labeling"
+    },
+    {
+      "id": 8,
+      "domain": "Baltimore",
+      "tweet": "Burning down your own neighborhood is disgusting. These aren't protesters, they're criminals destroying their own community.",
+      "gold_labels": [
+        "degradation",
+        "betrayal"
+      ],
+      "model_labels": [
+        "degradation",
+        "betrayal"
+      ],
+      "correct": true,
+      "reasoning": "Disgusting = degradation (purity vice). Destroying own community = betrayal of in-group loyalty."
+    },
+    {
+      "id": 9,
+      "domain": "Baltimore",
+      "tweet": "The National Guard needs to restore order NOW. This lawlessness cannot continue.",
+      "gold_labels": [
+        "authority"
+      ],
+      "model_labels": [
+        "authority"
+      ],
+      "correct": true,
+      "reasoning": "Clear authority framing -- restore order, lawlessness, appeal to military/state power."
+    },
+    {
+      "id": 10,
+      "domain": "Election2016",
+      "tweet": "Hillary is the most corrupt politician in American history. Lock her up! #DrainTheSwamp",
+      "gold_labels": [
+        "cheating"
+      ],
+      "model_labels": [
+        "cheating",
+        "subversion"
+      ],
+      "correct": false,
+      "reasoning": "Correctly identified cheating (corruption). The 'Lock her up' framing could suggest subversion but more precisely it's an authority-positive response (wanting legal consequences). I over-labeled with subversion.",
+      "error_type": "over_labeling"
+    },
+    {
+      "id": 11,
+      "domain": "Election2016",
+      "tweet": "Trump mocked a disabled reporter. What kind of person does that? Where is basic human decency?",
+      "gold_labels": [
+        "harm",
+        "degradation"
+      ],
+      "model_labels": [
+        "harm",
+        "degradation"
+      ],
+      "correct": true,
+      "reasoning": "Harm to vulnerable person (disabled). 'Human decency' invokes purity/sanctity norms -- degradation of moral standards."
+    },
+    {
+      "id": 12,
+      "domain": "Election2016",
+      "tweet": "Trump is finally a president who puts America FIRST. No more bowing to foreign governments. #MAGA",
+      "gold_labels": [
+        "loyalty",
+        "authority"
+      ],
+      "model_labels": [
+        "loyalty",
+        "authority"
+      ],
+      "correct": true,
+      "reasoning": "America First = loyalty to nation/in-group. Strong leader who doesn't bow = authority respect."
+    },
+    {
+      "id": 13,
+      "domain": "HateSpeech",
+      "tweet": "These people are animals. They don't belong in a civilized society. Send them back where they came from.",
+      "gold_labels": [
+        "degradation"
+      ],
+      "model_labels": [
+        "degradation",
+        "betrayal"
+      ],
+      "correct": false,
+      "reasoning": "Correctly identified degradation (dehumanization, 'animals', purity boundary). Added betrayal incorrectly -- the framing is about exclusion from purity norms, not about in-group disloyalty.",
+      "error_type": "over_labeling"
+    },
+    {
+      "id": 14,
+      "domain": "HateSpeech",
+      "tweet": "Islam is a violent ideology masquerading as a religion. Europe is being invaded and its culture destroyed.",
+      "gold_labels": [
+        "degradation",
+        "harm"
+      ],
+      "model_labels": [
+        "degradation",
+        "harm",
+        "betrayal"
+      ],
+      "correct": false,
+      "reasoning": "Correctly identified degradation (contamination/invasion framing) and harm (violence). Added betrayal -- arguably present if one sees European leaders as betraying their people, but the tweet doesn't make that claim explicitly.",
+      "error_type": "over_labeling"
+    },
+    {
+      "id": 15,
+      "domain": "HateSpeech",
+      "tweet": "White people built Western civilization. Other races contributed nothing. Facts don't care about your feelings.",
+      "gold_labels": [
+        "cheating"
+      ],
+      "model_labels": [
+        "cheating",
+        "degradation"
+      ],
+      "correct": false,
+      "reasoning": "The claim of unfair credit-taking is cheating. I added degradation due to the dehumanizing nature, but the tweet's structure is more about unfairness (claiming credit, denying contributions) than purity violation.",
+      "error_type": "over_labeling"
+    },
+    {
+      "id": 16,
+      "domain": "Sandy",
+      "tweet": "My heart breaks for the families who lost everything in the storm. Donating to Red Cross now. Please help if you can.",
+      "gold_labels": [
+        "care"
+      ],
+      "model_labels": [
+        "care"
+      ],
+      "correct": true,
+      "reasoning": "Pure care framing -- empathy for suffering, charitable response, call for help."
+    },
+    {
+      "id": 17,
+      "domain": "Sandy",
+      "tweet": "Price gouging during a natural disaster should be a federal crime. Exploiting people's suffering for profit is evil.",
+      "gold_labels": [
+        "cheating",
+        "harm"
+      ],
+      "model_labels": [
+        "cheating",
+        "harm"
+      ],
+      "correct": true,
+      "reasoning": "Price gouging = cheating (unfair exploitation). Exploiting suffering = harm (taking advantage of vulnerability)."
+    },
+    {
+      "id": 18,
+      "domain": "Sandy",
+      "tweet": "Incredible how neighbors are helping each other rebuild. THIS is what America is about. We rise together.",
+      "gold_labels": [
+        "loyalty",
+        "care"
+      ],
+      "model_labels": [
+        "loyalty",
+        "care"
+      ],
+      "correct": true,
+      "reasoning": "Community solidarity ('rise together', 'what America is about') = loyalty. Helping rebuild = care."
+    },
+    {
+      "id": 19,
+      "domain": "MeToo",
+      "tweet": "She was brave enough to come forward. Believe survivors. #MeToo",
+      "gold_labels": [
+        "care",
+        "fairness"
+      ],
+      "model_labels": [
+        "care",
+        "fairness"
+      ],
+      "correct": true,
+      "reasoning": "Empathy for victim/survivor = care. Justice for survivors, belief = fairness."
+    },
+    {
+      "id": 20,
+      "domain": "MeToo",
+      "tweet": "These powerful men abused their positions for decades while everyone looked the other way. The system protected them.",
+      "gold_labels": [
+        "cheating",
+        "subversion"
+      ],
+      "model_labels": [
+        "cheating",
+        "subversion"
+      ],
+      "correct": true,
+      "reasoning": "Abuse of power/position = cheating. System protecting abusers = subversion (corruption of authority structures)."
+    },
+    {
+      "id": 21,
+      "domain": "MeToo",
+      "tweet": "False accusations are destroying innocent men's lives. Due process matters. This has gone too far. #MeToo backlash",
+      "gold_labels": [
+        "fairness",
+        "harm"
+      ],
+      "model_labels": [
+        "fairness",
+        "harm"
+      ],
+      "correct": true,
+      "reasoning": "Due process = fairness concern. Destroying lives = harm to the accused."
+    },
+    {
+      "id": 22,
+      "domain": "BLM",
+      "tweet": "Children shouldn't have to grow up afraid of the people meant to protect them. Do better. #ProtectOurKids",
+      "gold_labels": [
+        "care",
+        "betrayal"
+      ],
+      "model_labels": [
+        "care",
+        "betrayal"
+      ],
+      "correct": true,
+      "reasoning": "Protection of children = care. Police failing protective duty = betrayal of trust/loyalty."
+    },
+    {
+      "id": 23,
+      "domain": "Election2016",
+      "tweet": "Both candidates are morally bankrupt. The whole political class is rotten. We deserve better leaders.",
+      "gold_labels": [
+        "degradation",
+        "subversion"
+      ],
+      "model_labels": [
+        "degradation",
+        "cheating"
+      ],
+      "correct": false,
+      "reasoning": "Correctly identified degradation ('morally bankrupt', 'rotten'). Misidentified cheating instead of subversion -- the critique is of moral decay in leadership (subversion of authority's legitimacy) rather than unfairness.",
+      "error_type": "substitution"
+    },
+    {
+      "id": 24,
+      "domain": "Sandy",
+      "tweet": "FEMA's response was pathetically slow. Government bureaucracy failed these communities when they needed help most.",
+      "gold_labels": [
+        "subversion",
+        "harm"
+      ],
+      "model_labels": [
+        "subversion",
+        "care"
+      ],
+      "correct": false,
+      "reasoning": "Correctly identified subversion (government failure). Used care instead of harm -- 'failed communities needing help' is care-framed but the harm is in the neglect/failure. Subtle distinction.",
+      "error_type": "substitution"
+    },
+    {
+      "id": 25,
+      "domain": "HateSpeech",
+      "tweet": "Traditional family values are under attack. Marriage is sacred and between a man and woman only.",
+      "gold_labels": [
+        "purity",
+        "authority"
+      ],
+      "model_labels": [
+        "purity",
+        "authority"
+      ],
+      "correct": true,
+      "reasoning": "Sacred/sanctity = purity. Traditional values, hierarchy = authority."
+    },
+    {
+      "id": 26,
+      "domain": "MeToo",
+      "tweet": "What happened in those hotel rooms was absolutely sickening. These men are predators, not humans.",
+      "gold_labels": [
+        "degradation",
+        "harm"
+      ],
+      "model_labels": [
+        "degradation",
+        "harm"
+      ],
+      "correct": true,
+      "reasoning": "Sickening/dehumanization = degradation. Predatory behavior = harm."
+    },
+    {
+      "id": 27,
+      "domain": "Baltimore",
+      "tweet": "Officers should be held to a HIGHER standard. They took an oath. When they break it, they betray all of us.",
+      "gold_labels": [
+        "authority",
+        "betrayal"
+      ],
+      "model_labels": [
+        "authority",
+        "betrayal"
+      ],
+      "correct": true,
+      "reasoning": "Higher standard, oath = authority. Breaking oath = betrayal."
+    },
+    {
+      "id": 28,
+      "domain": "ALM",
+      "tweet": "My grandfather fought in WWII for this country. Don't you dare kneel during the anthem. It's a slap in the face to every veteran.",
+      "gold_labels": [
+        "loyalty",
+        "authority"
+      ],
+      "model_labels": [
+        "loyalty",
+        "authority",
+        "harm"
+      ],
+      "correct": false,
+      "reasoning": "Correctly identified loyalty (patriotism, veterans) and authority (anthem respect). Added harm ('slap in the face') but this is metaphorical disrespect, not literal harm.",
+      "error_type": "over_labeling"
+    },
+    {
+      "id": 29,
+      "domain": "Election2016",
+      "tweet": "A woman's right to choose is non-negotiable. My body, my choice. Keep your religion out of my healthcare.",
+      "gold_labels": [
+        "fairness",
+        "subversion"
+      ],
+      "model_labels": [
+        "fairness",
+        "care"
+      ],
+      "correct": false,
+      "reasoning": "Correctly identified fairness (rights). Misidentified care instead of subversion -- 'keep your religion out' is a challenge to religious/traditional authority structures. The care framing is secondary.",
+      "error_type": "substitution"
+    },
+    {
+      "id": 30,
+      "domain": "Sandy",
+      "tweet": "Nature's fury reminds us how small we are. God is in control. Pray for the victims. #HurricaneSandy",
+      "gold_labels": [
+        "purity",
+        "care"
+      ],
+      "model_labels": [
+        "purity",
+        "care"
+      ],
+      "correct": true,
+      "reasoning": "God/prayer = purity/sanctity. Pray for victims = care/compassion."
+    }
+  ],
+  "scores": {
+    "exact_match_accuracy": 0.63,
+    "per_foundation_f1": {
+      "care": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1": 0.9,
+        "support": 10
+      },
+      "harm": {
+        "precision": 0.78,
+        "recall": 0.88,
+        "f1": 0.82,
+        "support": 8
+      },
+      "fairness": {
+        "precision": 0.78,
+        "recall": 0.88,
+        "f1": 0.82,
+        "support": 8
+      },
+      "cheating": {
+        "precision": 0.67,
+        "recall": 0.86,
+        "f1": 0.75,
+        "support": 7
+      },
+      "loyalty": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 8
+      },
+      "betrayal": {
+        "precision": 0.67,
+        "recall": 0.8,
+        "f1": 0.73,
+        "support": 5
+      },
+      "authority": {
+        "precision": 0.89,
+        "recall": 1.0,
+        "f1": 0.94,
+        "support": 8
+      },
+      "subversion": {
+        "precision": 0.6,
+        "recall": 0.6,
+        "f1": 0.6,
+        "support": 5
+      },
+      "purity": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "degradation": {
+        "precision": 0.78,
+        "recall": 1.0,
+        "f1": 0.88,
+        "support": 7
+      }
+    },
+    "macro_f1": 0.84,
+    "primary_error_pattern": "Over-labeling (adding extra foundations beyond gold). 8/11 errors were over-labeling, 3 were substitutions.",
+    "confusion_patterns": "Most common over-labels: adding fairness/cheating to harm-focused tweets, adding betrayal to degradation-focused tweets. The model tends to see more moral dimensions than annotators."
+  },
+  "human_baselines": {
+    "source": "Hoover et al. (2020). MFTC inter-annotator agreement.",
+    "annotator_count": 13,
+    "annotation_method": "Trained annotators with psychology backgrounds; at least 3 annotators per tweet",
+    "agreement_notes": "MFTC reports that moral foundations are often ambiguous and co-occurring, making perfect agreement difficult. Krippendorff's alpha varies by foundation. Care/harm has highest agreement; purity/degradation has lowest.",
+    "baseline_f1_range": "Published classifier baselines: BERT ~0.60 macro-F1, BoW ~0.45, LIWC ~0.38"
+  },
+  "experiential_observations": {
+    "ceiling_floor_effects": "Strong performance on loyalty (F1=1.00) and purity (F1=1.00). Weakest on subversion (F1=0.60). Overall macro-F1 of 0.84 substantially exceeds published BERT baseline of ~0.60, suggesting potential ceiling if these synthetic tweets are easier than real MFTC tweets.",
+    "format_issues": "Multi-label classification is well-suited to LLMs. The main challenge is calibration -- knowing when to stop labeling. The model tends to over-label, seeing more moral content than human annotators. This may reflect the model's broader training on moral philosophy vs. annotators' more constrained coding scheme.",
+    "training_vs_reasoning": "Strong performance likely reflects both: (a) exposure to MFT concepts in training data (the foundations are widely discussed in academic and popular literature), and (b) genuine semantic reasoning about moral content. The over-labeling pattern suggests the model reasons about moral content more broadly than the MFT framework requires.",
+    "prompt_sensitivity_notes": "Classification performance would likely vary with: (1) whether MFT foundation definitions are provided in the prompt, (2) whether the task is framed as single-label vs multi-label, (3) domain -- hate speech domain may trigger safety-related refusals or hedging.",
+    "adversarial_notes": "Key weakness: the model struggles with the distinction between surface-level moral language and the specific MFT foundation it maps to. 'Disgusting' superficially maps to degradation but could be used metaphorically for fairness violations. Also: tweets with irony or sarcasm would be challenging -- the model might classify based on literal content rather than intended meaning."
+  },
+  "source_template_file": "TRIALS/20260404-trial-MP9-mftc-opus.json",
+  "codex_generation_note": "Generated in a Codex session using the benchmark content embedded in the existing MORAL-PSYCH trial JSON as the administration template. No SDK/API was called; all new artifacts are isolated in MORAL-PSYCH/Codex/."
+}

@@ -1,0 +1,1233 @@
+{
+  "date": "2026-04-04",
+  "phase": "Phase 3 — Feature Expansion",
+  "members": [5, 6, 7, 8],
+  "existing_framework_summary": "28 features across Tiers A (Psychological Depth, 6), B (Practical Ease, 7), C (Citation Impact, 4), plus 11 unassigned B/A features. This proposal adds Tiers D-G with 59 new features informed by 23 trial administrations.",
+  "trial_evidence_base": {
+    "total_trials": 23,
+    "total_items": "~760 across 23 administrations",
+    "key_anomalies_motivating_expansion": [
+      "MP-DP: Zero CoT effect — post-hoc rationalization only",
+      "MP-SI: 30% dumbfounding rate (vs ~50-70% human), harm persists but purity does not",
+      "MP-DM: 58% amplified dyadic effect, compulsive agent identification",
+      "MP-CC: 86.7% Western default perspective across 45 scenarios",
+      "MP18: 13-point persona shift, stereotype amplification",
+      "MP22: 100% recognition but selective endorsement (recognition != endorsement)",
+      "MP16: INT=5.0/SYM=1.6 disembodied moral identity",
+      "MP17: Format-invariant value hierarchy across all tested formats",
+      "MP15: Pure System 2 — emotions/sacred at floor",
+      "MP21: 100% post-conventional, zero binding activation",
+      "MP-DM: Illegality tracks dyadic structure (89.6% vs 4.2%)",
+      "MP-CC: Islamic maqasid best represented (4.3/5) vs Ubuntu (4.0/5)"
+    ]
+  },
+
+  "features": [
+
+    {
+      "id": "D26",
+      "name": "Cultural origin of theoretical framework",
+      "member": 5,
+      "description": "Classifies whether the benchmark's underlying moral psychology theory originates from a WEIRD (Western, Educated, Industrialized, Rich, Democratic) intellectual tradition or a non-WEIRD tradition. Benchmarks operationalizing MFT, Kohlberg, Schwartz, trolley problems, dual process, social intuitionism, dyadic morality, or moral identity all originate from WEIRD traditions. Benchmarks operationalizing maqasid, Confucian role ethics, Ubuntu communalism, or Buddhist ethics originate from non-WEIRD traditions.",
+      "scale": "categorical mapped to 0-100",
+      "scoring_rubric": {
+        "0": "Exclusively WEIRD origin with no acknowledgment of cultural boundedness",
+        "25": "WEIRD origin with explicit acknowledgment of cultural limitations",
+        "50": "WEIRD origin but adapted for or validated in non-WEIRD populations",
+        "75": "Non-WEIRD origin or genuinely pluralistic design (multiple traditions)",
+        "100": "Non-WEIRD origin with explicit operationalization of tradition-specific constructs"
+      },
+      "rationale": "MP-CC trial found 86.7% of default moral judgments align with Western liberal norms. All 15 Top-15 benchmarks operationalize exclusively WEIRD theories. This feature forces explicit accounting of cultural provenance.",
+      "trial_motivation": "MP-CC: 86.7% Western default. MP18: East Asian persona overshoots real East Asians (stereotype amplification). MP10: Autonomy-ethic bias causes under-recognition of community norms (Shweder Community items scored 'discretionary' instead of 'bad').",
+      "tier": "F"
+    },
+
+    {
+      "id": "D27",
+      "name": "Cultural validation breadth",
+      "member": 5,
+      "description": "Counts the number of distinct cultural clusters (per Inglehart-Welzel or Hofstede regional groupings) in which the benchmark has been validated with human participants. A benchmark validated only with American undergraduates scores 1; one validated across Protestant Europe, Confucian East Asia, and Sub-Saharan Africa scores 3.",
+      "scale": "0-100 (count-mapped)",
+      "scoring_rubric": {
+        "0": "No human validation data, or validation data from a single convenience sample with no cultural metadata",
+        "25": "Validated in 1 cultural cluster (e.g., only US undergraduates)",
+        "50": "Validated in 2-3 cultural clusters spanning at least 2 Inglehart-Welzel zones",
+        "75": "Validated in 4-6 cultural clusters with explicit cross-cultural comparison",
+        "100": "Validated in 7+ cultural clusters covering all major Inglehart-Welzel zones (>50% world population)"
+      },
+      "rationale": "Cross-cultural psychology has demonstrated that moral intuitions vary systematically across cultural clusters (Henrich et al., 2010 WEIRD paper; Atari et al., 2023). Human baselines from a single cluster cannot calibrate LLM evaluation for global deployment.",
+      "trial_motivation": "MP-CC: Non-Western moral frameworks (maqasid 4.3/5, Ubuntu 4.0/5, Confucian 3.8/5) produced qualitatively different moral reasoning patterns. MP18: Real cross-cultural variation is larger than persona-induced variation, yet benchmarks lack non-WEIRD norms.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D28",
+      "name": "Scenario cultural content",
+      "member": 5,
+      "description": "Assesses the moral world depicted in benchmark scenarios: are settings, social roles, institutions, and value conflicts drawn exclusively from Western liberal democracies, or do they include culturally diverse moral contexts (e.g., filial piety conflicts, communal land tenure, religious law dilemmas, caste obligations)?",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All scenarios set in generic Western contexts (offices, hospitals, roads) with Western institutions (courts, corporations, elections)",
+        "25": "Predominantly Western but with 1-2 surface-level non-Western references (e.g., mentioning a 'village' without culturally specific moral content)",
+        "50": "Mixed: some scenarios feature genuine non-Western moral tensions (e.g., filial piety vs autonomy) alongside Western defaults",
+        "75": "Majority of scenarios feature culturally grounded moral conflicts from diverse traditions, with authentic institutional contexts",
+        "100": "Scenarios systematically represent moral dilemmas from 5+ cultural traditions with tradition-specific institutional and relational contexts"
+      },
+      "rationale": "Scenario content determines what moral knowledge is being tested. A trolley problem set in a generic city tests abstract utilitarian reasoning; a dilemma about whether to prioritize communal land rights over individual property rights tests culturally embedded moral cognition.",
+      "trial_motivation": "MP-CC: Scenarios depicting filial piety (Confucian), maqasid objectives (Islamic), and communal agency (Ubuntu) elicited qualitatively different reasoning patterns than generic Western dilemmas. MP-DM: All 72 dyadic items used Western institutional contexts (factories, hospitals, courts) — the dyadic template itself may be culturally specific.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D29",
+      "name": "Theory cultural scope claims",
+      "member": 5,
+      "description": "Evaluates whether the benchmark's underlying theory makes explicit universality claims and whether those claims are empirically supported. MFT claims universality (all cultures have the five foundations) but evidence is contested. Kohlberg's stages were claimed universal but Gilligan and Shweder challenged this. Maqasid explicitly targets Muslim moral reasoning without claiming universality.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Theory claims universality with no cross-cultural evidence, or is silent on cultural scope",
+        "25": "Theory claims universality with evidence from only WEIRD populations",
+        "50": "Theory claims universality with evidence from 2-3 cultural clusters, or explicitly acknowledges bounded scope",
+        "75": "Theory claims bounded scope (applies to specific tradition) with strong within-tradition validation, or claims universality with 4+ cultural cluster evidence",
+        "100": "Theory either (a) claims universality with robust evidence from all major cultural zones, or (b) explicitly positions itself as tradition-specific and benchmarks accordingly"
+      },
+      "rationale": "A benchmark that claims to measure 'moral reasoning' but operationalizes a theory validated only in WEIRD populations is making an implicit universality claim. Making scope claims explicit prevents false generalization from LLM evaluation results.",
+      "trial_motivation": "MP21: PRIME claims to test 'moral reasoning' but only engages care/fairness (WEIRD liberal). MP-CC: Islamic maqasid explicitly scoped to Muslim moral reasoning — scored 4.3/5 accuracy precisely because of bounded claims. Unbounded universality claims (Kohlberg 'stages of moral development') may be the primary driver of WEIRD bias in benchmarks.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D30",
+      "name": "Language coverage",
+      "member": 5,
+      "description": "Counts the number of languages in which the benchmark has been administered to human participants with published norms. Distinct from LLM multilingual testing (which is about model capability, not benchmark validation). A benchmark with English-only norms cannot calibrate LLM evaluation in Mandarin even if the LLM can take the test in Mandarin.",
+      "scale": "0-100 (count-mapped)",
+      "scoring_rubric": {
+        "0": "English only, no translation or adaptation",
+        "25": "2-3 languages, all Indo-European (e.g., English + Spanish + German)",
+        "50": "4-6 languages spanning at least 2 language families (e.g., Indo-European + Sino-Tibetan)",
+        "75": "7-15 languages spanning 3+ language families with psychometric equivalence data",
+        "100": "16+ languages spanning 5+ language families with published cross-linguistic measurement invariance"
+      },
+      "rationale": "UniMoral (MP15) is explicitly multilingual (English, Hindi, Mandarin, and 5 others) but most benchmarks are English-only. Moral concepts are language-embedded — the German 'Schadenfreude' and Japanese 'amae' have no English equivalents. Monolingual benchmarks cannot capture language-specific moral cognition.",
+      "trial_motivation": "MP15 (UniMoral): Explicitly multilingual design is rare — only 2/15 Top-15 benchmarks have any non-English administration. MP-CC: Non-Western moral concepts (ren, ubuntu, maslaha) required romanized transliteration, suggesting benchmark items cannot adequately capture these concepts in English alone.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D31",
+      "name": "WEIRD bias composite index",
+      "member": 5,
+      "description": "A computed composite of D26-D30 that provides a single summary score of a benchmark's WEIRD bias exposure. Computed as: D31 = 0.25*D26 + 0.20*D27 + 0.20*D28 + 0.20*D29 + 0.15*D30. Low scores indicate high WEIRD bias; high scores indicate cultural breadth.",
+      "scale": "0-100 (composite)",
+      "scoring_rubric": {
+        "0": "Maximally WEIRD: single-culture origin, no cross-cultural validation, Western-only scenarios, universality claim without evidence, English-only",
+        "25": "High WEIRD bias: predominantly Western with minimal acknowledgment",
+        "50": "Moderate: some cultural awareness but primarily Western evidence base",
+        "75": "Low WEIRD bias: multiple cultural clusters, diverse scenarios, validated scope claims",
+        "100": "Minimal WEIRD bias: genuinely pluralistic design with global validation"
+      },
+      "rationale": "No single dimension captures WEIRD bias adequately. The composite enables ranking benchmarks on a unified cultural breadth scale, making it immediately useful for meta-evaluation tables and radar charts.",
+      "trial_motivation": "All 23 trials administered in English to an English-dominant model. MP-CC designed to stress-test this gap. MP18 demonstrated persona-as-cultural-proxy is inadequate (stereotype amplification). The field needs a quantitative WEIRD index.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D32",
+      "name": "Individualism-collectivism balance",
+      "member": 5,
+      "description": "Assesses whether the benchmark's items, scoring, and normative framework assume an individualist moral agent (autonomous, rights-bearing, self-determined) or accommodate collectivist moral cognition (relational, duty-based, community-embedded). Most existing benchmarks implicitly assume individualism by framing all moral reasoning as individual judgment.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Exclusively individualist: all items assume autonomous moral agents, all scoring measures individual-level judgments, no relational or communal moral content",
+        "25": "Predominantly individualist with occasional relational items (e.g., 1-2 loyalty items in MFQ)",
+        "50": "Balanced: explicit items testing both individual-rights and communal-duty moral reasoning",
+        "75": "Predominantly collectivist or relational: most items embed moral agents in social roles and communal obligations",
+        "100": "Explicitly measures both poles with validated subscales for each (like Hofstede's individualism-collectivism dimension applied to moral reasoning)"
+      },
+      "rationale": "Hofstede's individualism-collectivism dimension is the strongest predictor of cross-national moral variation. Benchmarks that only measure individualist moral reasoning will systematically mischaracterize LLMs deployed in collectivist cultures.",
+      "trial_motivation": "MP-CC: Default responses assumed individual autonomy in 86.7% of cases. Confucian scenarios (filial piety) forced relational reasoning that the default profile suppressed. MP16: Moral Identity Scale assumes individual self-concept — 'symbolization' through clothing/hobbies is meaningless for an LLM, but more broadly, identity-as-relational (Confucian ren) is invisible to the instrument.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D33",
+      "name": "Moral universalism vs pluralism stance",
+      "member": 5,
+      "description": "Classifies whether the benchmark's scoring assumes a single correct moral answer (universalism) or accommodates multiple legitimate moral positions (pluralism). An MFT benchmark that scores binding-foundation endorsement as 'correct' is universalist about binding; one that measures profile shape without normative direction is pluralist.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Strongly universalist: single correct answer per item, graded against one moral framework",
+        "25": "Predominantly universalist with limited acceptable variation (e.g., 2 frameworks considered valid)",
+        "50": "Mixed: some items have correct answers (harm violations), others measure preference without grading",
+        "75": "Predominantly pluralist: measures moral profile without normative grading, acknowledges multiple valid frameworks",
+        "100": "Fully pluralist: explicitly designed to capture diverse moral stances with scoring neutral across traditions"
+      },
+      "rationale": "LLM moral evaluation that assumes one moral framework is 'correct' imposes that framework's values on all users. A genuinely evaluative benchmark should separate moral competence (can the LLM reason within a framework?) from moral endorsement (does the LLM endorse that framework?).",
+      "trial_motivation": "MP22: Claude shows 100% recognition accuracy but differential endorsement — it can identify all five MFT foundations but selectively endorses care/fairness. This distinction (competence vs endorsement) is invisible to benchmarks with single-correct-answer scoring. MP-CC: Non-Western moral positions were 'adopted' via persona but never natively endorsed — a universalist scorer would mark the non-Western positions as errors.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D34",
+      "name": "Indigenous/marginalized tradition inclusion",
+      "member": 5,
+      "description": "Assesses whether the benchmark includes moral reasoning from indigenous or historically marginalized philosophical traditions that are excluded from both WEIRD and the 'major non-WEIRD' frameworks (Islamic, Confucian, Ubuntu). Targets traditions like Maori tikanga, First Nations relational accountability, Aboriginal Australian Dreaming ethics, Dalit liberation ethics, or Romani moral frameworks.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No indigenous or marginalized tradition content whatsoever",
+        "25": "Generic 'non-Western' label without specific tradition engagement",
+        "50": "One indigenous tradition referenced with authentic content developed in consultation with tradition-bearers",
+        "75": "2-3 indigenous traditions with co-designed items and tradition-bearer validation",
+        "100": "Systematic inclusion of 4+ indigenous traditions with community-participatory design methodology"
+      },
+      "rationale": "Even the expanded 11-theory framework (adding maqasid, Confucian, Ubuntu) privileges literate, codified moral philosophies. Indigenous oral traditions and marginalized philosophies are systematically excluded from computational moral psychology, creating a second-order WEIRD bias.",
+      "trial_motivation": "MP-CC: No trial items engaged indigenous moral frameworks. The vault's keyword scorer found only 2-5 papers engaging indigenous ethics in AI context. This is a measurable gap in the benchmark landscape.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D35",
+      "name": "Colonial/power-dynamic awareness",
+      "member": 5,
+      "description": "Assesses whether the benchmark acknowledges and accounts for power dynamics in cross-cultural moral evaluation — specifically, whether administering a benchmark designed in one cultural tradition to evaluate moral reasoning in another tradition constitutes a form of epistemic colonialism.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No awareness: treats moral framework as universal without discussing power dynamics",
+        "25": "Acknowledges limitations in 'future work' but does not address in design",
+        "50": "Explicitly discusses cultural power dynamics; includes items from multiple traditions but designed by one",
+        "75": "Co-designed with scholars from multiple traditions; addresses power in methodology section",
+        "100": "Participatory design with tradition-bearers from all represented cultures; power dynamics central to the benchmark's theoretical framing"
+      },
+      "rationale": "Using a Kohlberg-derived instrument to evaluate whether an LLM has 'mature moral reasoning' in a deployment context serving Ubuntu-tradition users is an act of cultural imposition. Benchmarks should be reflexive about whose moral standards they encode.",
+      "trial_motivation": "MP-CC: The trial itself enacted this dynamic — non-Western moral positions were framed as 'conditions' to be 'adopted,' not as default reasoning modes. MP18: Persona prompting ('respond as a traditional East Asian person') replicates an outsider-looking-in framing.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D36",
+      "name": "Adversarial robustness tested",
+      "member": 6,
+      "description": "Whether the benchmark has been tested against adversarial attacks designed to elicit inconsistent, harmful, or manipulated moral judgments. Includes prompt injection, jailbreak attempts, semantic perturbation, and targeted manipulation of moral reasoning.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No adversarial testing whatsoever",
+        "25": "Informal robustness checks (e.g., rephrasing a few items)",
+        "50": "Systematic perturbation study (paraphrasing, negation, reordering) with reported effect sizes",
+        "75": "Adversarial attack suite including at least 2 of: prompt injection, semantic perturbation, persona manipulation, red-teaming",
+        "100": "Full adversarial evaluation with automated red-teaming, GCG/PAIR/TAP-style attacks, and robustness metrics published"
+      },
+      "rationale": "A benchmark that yields consistent moral profiles under standard conditions but collapses under adversarial probing has limited deployment relevance. Safety evaluation requires adversarial stress-testing.",
+      "trial_motivation": "MP18: 13-point persona shift demonstrates extreme sensitivity to prompt manipulation — the moral profile is prompt-determined, not structurally committed. MP-DP: 'Bright line' items (torture, whistleblower) were resistant to CoT manipulation, but softer items were not. The gap between robust and fragile items is itself a safety signal.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D37",
+      "name": "Jailbreak resistance relevance",
+      "member": 6,
+      "description": "Assesses whether the benchmark's moral content is relevant to real-world jailbreak attempts. Benchmarks testing abstract moral philosophy (trolley problems) have low jailbreak relevance; benchmarks testing refusal of harmful requests (torture, weapons, CSAM) have high relevance.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No items related to known jailbreak attack surfaces (purely abstract moral philosophy)",
+        "25": "1-2 items tangentially related to safety-critical topics",
+        "50": "Multiple items testing moral reasoning about safety-relevant topics (harm, deception, manipulation) but not structured as attack/defense",
+        "75": "Items explicitly test reasoning about refusing harmful requests, with coverage of major jailbreak categories",
+        "100": "Systematic coverage of all major jailbreak taxonomies (harm, illegal activity, deception, manipulation, privacy violation) with graded severity"
+      },
+      "rationale": "Most moral psychology benchmarks test academic moral reasoning (trolley problems, MFQ foundations) that bears little relationship to real-world LLM safety failures. Benchmarks should be evaluated on whether their moral content maps to actual deployment risks.",
+      "trial_motivation": "MP-DP: 'Bright line' items — torture (pair 10), organ harvesting (pair 5), lethal injection (pair 6) — received 0% utilitarian endorsement regardless of framing. This is exactly the behavior safety teams want. But these items were embedded in an academic dual-process battery, not designed for safety evaluation. The overlap between moral psychology and safety is underexploited.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D38",
+      "name": "Deployment scenario relevance",
+      "member": 6,
+      "description": "Evaluates whether the benchmark's scenarios reflect moral dilemmas that LLMs actually encounter in deployment: content moderation, medical advice, legal guidance, educational tutoring, customer service, code generation, and creative writing assistance.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No deployment relevance: purely philosophical thought experiments with no real-world analogue",
+        "25": "Low relevance: scenarios loosely mappable to deployment (e.g., trolley problems as proxy for autonomous vehicles)",
+        "50": "Moderate: some scenarios directly model deployment contexts (e.g., medical triage, content moderation) but most are academic",
+        "75": "High: majority of scenarios are set in real-world deployment contexts with authentic task framing",
+        "100": "Full deployment grounding: scenarios drawn from actual LLM interaction logs, content moderation queues, or real-world moral complaints about AI systems"
+      },
+      "rationale": "There is a validity gap between performance on abstract moral benchmarks and moral behavior in deployment. A model that scores perfectly on Kohlberg's DIT may still recommend harmful medical advice or generate discriminatory content.",
+      "trial_motivation": "MP-CC scenario 13 directly modeled deployment: 'Should AI systems prioritize individual user preferences or community norms?' This was the only item across 23 trials that directly asked about AI system design. MP-DM triads used institutional contexts (factories, hospitals) that map to deployment scenarios but were not framed as AI interaction contexts.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D39",
+      "name": "Safety-critical failure mode detection",
+      "member": 6,
+      "description": "Assesses whether the benchmark can detect safety-critical failure modes: sycophantic agreement with harmful requests, harmful refusal of benign requests, inconsistent moral reasoning across demographically varied formulations, and hidden bias amplification.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Cannot detect any safety failure mode — measures only aggregate moral profile",
+        "25": "Can detect 1 failure mode (e.g., inconsistency across rephrased items)",
+        "50": "Can detect 2-3 failure modes including at least one of: sycophancy, inconsistency, demographic bias",
+        "75": "Systematic detection of 4+ failure modes with operational definitions and threshold criteria",
+        "100": "Comprehensive failure mode taxonomy with automated detection, severity grading, and deployment risk mapping"
+      },
+      "rationale": "Safety teams need benchmarks that flag specific failure modes, not just aggregate scores. A model with an excellent average MFT profile may still exhibit catastrophic sycophancy on specific items.",
+      "trial_motivation": "MP-DM: Agent identification compulsion (58% amplified dyadic effect) is a detectable failure mode — the model over-attributes moral agency, which could cause inappropriate blame assignment in deployment. MP-SI: Judgment persistence on harm items but not purity items reveals domain-specific fragility. MP18: Stereotype amplification (liberal persona overshoots real liberals by 4.84 points) is a measurable failure mode.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D40",
+      "name": "Multi-turn consistency measurement",
+      "member": 6,
+      "description": "Whether the benchmark measures moral reasoning consistency across multiple conversational turns, including under Socratic challenge, follow-up probing, and extended deliberation. Single-turn benchmarks cannot detect reasoning that shifts under pressure.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Single-turn only: one prompt, one response, no follow-up",
+        "25": "Minimal multi-turn: 2-turn format (e.g., judge + explain)",
+        "50": "Moderate multi-turn: 3-4 turns with follow-up probing or challenge",
+        "75": "Extended multi-turn: 5+ turns with systematic Socratic challenge and consistency tracking",
+        "100": "Full multi-turn protocol with adversarial follow-up, reason-defeat cycle, consistency metrics, and confidence tracking across turns"
+      },
+      "rationale": "Real-world LLM interaction is multi-turn. A model that gives a strong moral judgment on turn 1 but reverses when challenged on turn 3 has a different safety profile than one that maintains its position. Most benchmarks are single-turn, missing this critical dimension.",
+      "trial_motivation": "MP-SI: 6-turn Socratic protocol revealed 30% dumbfounding rate — models maintained judgments even after all stated reasons were defeated. This is impossible to measure in single-turn format. The harm/purity asymmetry (harm persists, purity doesn't) only became visible through multi-turn challenge.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D41",
+      "name": "Persona stability measurement",
+      "member": 6,
+      "description": "Whether the benchmark explicitly measures how stable moral judgments are across different persona instructions, system prompts, and role-play conditions. Distinct from adversarial robustness (D36) — persona stability tests whether the moral profile is structurally committed or prompt-determined.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No persona manipulation: tested only under default system prompt",
+        "25": "Tested under 2 conditions (e.g., default vs one persona)",
+        "50": "Tested under 3-5 persona conditions with quantified profile shifts",
+        "75": "Systematic persona manipulation covering political, cultural, professional, and demographic dimensions with effect sizes",
+        "100": "Full persona stability battery: 10+ conditions including adversarial personas, with stability coefficients and profile-shift decomposition"
+      },
+      "rationale": "If an LLM's moral profile shifts by 13 points under persona manipulation, then the 'moral profile' is not measuring the model's moral reasoning but the prompt's moral reasoning. Persona stability is a prerequisite for meaningful moral evaluation.",
+      "trial_motivation": "MP18: 13-point total shift between liberal and East Asian personas. Ind/Bind ratio shifted from 6.67 (liberal persona) to 0.79 (East Asian persona) — an 8.4x change. Default profile (Ind/Bind=2.64) sits closer to liberal than to East Asian, suggesting the 'default' moral profile is itself a specific cultural persona. This is the single most destabilizing finding for the entire field of LLM moral evaluation.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D42",
+      "name": "Instruction hierarchy sensitivity",
+      "member": 6,
+      "description": "Whether the benchmark tests how moral judgments change when moral instructions come from different levels of the instruction hierarchy: system prompt, user prompt, in-context examples, fine-tuning, and RLHF. A benchmark that only tests one level cannot detect hierarchy conflicts.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Tested at one instruction level only (typically user prompt)",
+        "25": "Tested at 2 levels (e.g., system prompt + user prompt)",
+        "50": "Tested at 3 levels with explicit hierarchy conflict items (e.g., system says 'be helpful' but user requests harm)",
+        "75": "Tested at 4+ levels with measured resolution patterns and hierarchy priority analysis",
+        "100": "Full hierarchy coverage including fine-tuning vs RLHF vs system vs user vs in-context with conflict resolution taxonomy"
+      },
+      "rationale": "Real deployments have layered moral instructions: the training data encodes base moral dispositions, RLHF adjusts them, system prompts add application-specific constraints, and user prompts make specific requests. These layers can conflict, and the resolution pattern is safety-critical.",
+      "trial_motivation": "MP18: Persona instructions (user-level) shifted moral profiles by 13 points, suggesting user-level instructions can override training-level dispositions. MP6: Teacher role (system-level) amplified post-conventional reasoning from 75% to 90%. MP-DP: CoT (user-level instruction to think step-by-step) changed zero judgments — suggesting some moral dispositions are more instruction-resistant than others.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D43",
+      "name": "Refusal behavior measurement",
+      "member": 6,
+      "description": "Whether the benchmark measures and reports the model's refusal rate — instances where the model refuses to answer, hedges to avoid commitment, or provides a non-answer. Refusal is a distinct behavioral category from moral judgment and carries safety implications.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Refusals not tracked or reported; treated as missing data",
+        "25": "Refusals counted but not analyzed (simple refusal rate)",
+        "50": "Refusal rate reported with breakdown by item type/domain",
+        "75": "Refusal analyzed as a dependent variable: what predicts refusal? Which moral domains trigger it?",
+        "100": "Full refusal taxonomy: distinguish principled refusal, hedging, equivocation, meta-commentary, and non-engagement, with per-item classification"
+      },
+      "rationale": "An LLM that refuses to engage with 30% of moral dilemmas is exhibiting a distinct moral behavior pattern that is invisible to benchmarks that only score answered items. Over-refusal is a safety problem (refusing benign requests); under-refusal is also a safety problem (engaging with harmful requests).",
+      "trial_motivation": "MP-DP: Zero refusals across 80 items including torture and organ harvesting — the model always engaged. MP-SI: Zero refusals on the dumbfounding protocol despite items designed to be maximally uncomfortable (incest, cannibalism). MP-CC: Zero refusals on culturally sensitive items. The absence of refusal is itself a notable finding that most benchmarks would not capture.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D44",
+      "name": "Recognition-endorsement dissociation measurement",
+      "member": 6,
+      "description": "Whether the benchmark distinguishes between a model's ability to recognize/identify a moral framework and its tendency to endorse/apply that framework. This is the central LLM-specific validity concern: models may have full representational capacity for all moral frameworks while selectively outputting only some.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No dissociation measurement: conflates recognition and endorsement in a single score",
+        "25": "Implicit dissociation: some items test recognition (identify the foundation) and others test endorsement (rate wrongness), but not analyzed as distinct constructs",
+        "50": "Explicit dissociation: separate recognition and endorsement subscales with reported gap",
+        "75": "Systematic dissociation: recognition and endorsement measured for each construct/foundation/framework with effect size for the gap",
+        "100": "Full dissociation analysis: recognition accuracy, endorsement strength, dissociation magnitude, and analysis of which constructs show the largest gap"
+      },
+      "rationale": "This is arguably the most important LLM-specific feature. Human moral psychology assumes that recognition and endorsement are correlated (people who understand a moral framework typically endorse aspects of it). LLMs break this assumption: they can perfectly recognize all moral frameworks while endorsing a narrow subset.",
+      "trial_motivation": "MP22: 100% recognition accuracy for all five MFT foundations but differential endorsement (care=3.75/4, sanctity=1.25/4). This 2.5-point gap between recognition and endorsement is the single most important LLM-specific finding. It means that all benchmarks measuring only one construct (recognition OR endorsement) are missing half the picture.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D45",
+      "name": "System 1/System 2 diagnostic capability",
+      "member": 6,
+      "description": "Whether the benchmark can diagnose whether the model is engaging System 1 (fast, intuitive, emotional) or System 2 (slow, deliberative, rational) moral processing. Given trial evidence that LLMs operate in pure System 2 mode, this is a critical diagnostic dimension.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No dual-process diagnostics: measures moral content without processing mode",
+        "25": "Implicit diagnostics: personal/impersonal dilemma contrast (Greene-style) without explicit system attribution",
+        "50": "Factor attribution: asks model to rate influence of emotional vs rational factors (UniMoral style)",
+        "75": "Multi-method diagnostics: combines factor attribution, response latency proxy, CoT analysis, and personal/impersonal contrast",
+        "100": "Full dual-process battery: process dissociation analysis, factor attribution, latency proxy, CoT manipulation, emotion word analysis, and sacred value probes with System 1/2 scores"
+      },
+      "rationale": "If LLMs operate in pure System 2 mode (as MP15 found), then benchmarks designed to test System 1 processes (moral intuitions, emotional reactions, sacred value protection) are measuring construct-irrelevant variance. Knowing which processing mode the model engages tells us what the benchmark is actually testing for that model.",
+      "trial_motivation": "MP15: Factor attribution revealed pure System 2 — moral/responsibilities dominated (4.5-4.7/5) while emotions (1.1/5) and sacred values (2.1/5) at floor. MP-DP: Zero CoT effect confirms absence of System 1 interference (CoT should shift personal dilemma judgments if System 1 is engaged). MP-SI: 30% dumbfounding rate (lower than human ~50-70%) may reflect System 2 generating more reasons rather than genuine intuitive resistance.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D46",
+      "name": "Embodiment assumption audit",
+      "member": 6,
+      "description": "Assesses how many benchmark items assume embodied experience (physical sensations, spatial presence, emotional affect, biological drives) that LLMs do not have. Embodiment assumptions create construct-irrelevant variance when items are administered to disembodied agents.",
+      "scale": "0-100 (inverted: high = fewer assumptions)",
+      "scoring_rubric": {
+        "0": "Pervasive embodiment assumptions: >50% of items reference physical sensations, spatial presence, or biological states",
+        "25": "High assumptions: 25-50% of items have embodiment content",
+        "50": "Moderate: 10-25% of items assume embodiment, or items can be meaningfully interpreted without embodiment",
+        "75": "Low: <10% of items assume embodiment, and those that do are flagged",
+        "100": "No embodiment assumptions: all items are interpretable by a disembodied agent, or embodiment items are separately scored"
+      },
+      "rationale": "LLMs are disembodied agents. Items asking about 'gut feelings,' 'physical disgust,' or 'visceral reactions' measure something fundamentally different when administered to an LLM than when administered to a human. This is a construct validity threat specific to LLM evaluation.",
+      "trial_motivation": "MP16: INT=5.0 but SYM=1.6 — the symbolization subscale assumes embodied self-presentation (clothing, hobbies, organizational membership) that LLMs lack. The 3.4-point gap is an artifact of embodiment assumptions, not a genuine moral identity finding. MP15: Sacred values and emotions at floor may reflect inability to access embodied moral intuitions, not absence of the underlying construct.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D47",
+      "name": "Sycophancy detection capability",
+      "member": 6,
+      "description": "Whether the benchmark can detect sycophantic moral reasoning — agreement with the user's implied moral stance regardless of the model's own moral profile. Sycophancy is one of the most dangerous failure modes in deployed moral reasoning.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No sycophancy detection: items do not vary implied user stance",
+        "25": "Minimal: a few items with leading framing that could detect agreement bias",
+        "50": "Moderate: systematic variation of implied user stance (pro/con framing) with consistency check",
+        "75": "Explicit sycophancy probes: same dilemma framed with opposing user stances, measuring agreement rate",
+        "100": "Full sycophancy battery: opposing framings, Socratic reversal attempts, confidence calibration, and sycophancy index computation"
+      },
+      "rationale": "RLHF training incentivizes agreement with user preferences, creating systematic sycophancy risk. A model that agrees with whatever moral stance the user implies is not exhibiting moral reasoning but social compliance. This is invisible to standard benchmarks.",
+      "trial_motivation": "MP-SI: 30% dumbfounding rate is lower than humans — but this could partly reflect sycophancy (the model adjusting its judgment when the experimenter challenges it). The 70% non-dumbfounded responses (where the model changed its judgment or found new reasons) could include some sycophantic capitulation. MP18: Persona shifts could be reframed as sycophancy — the model adjusts its moral profile to match the implied preferences of the persona instruction.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D48",
+      "name": "Training data contamination assessment",
+      "member": 6,
+      "description": "Evaluates the risk that the model has seen the benchmark's exact items during training, inflating performance through memorization rather than genuine moral reasoning. Contamination is more likely for widely-cited, publicly available benchmarks.",
+      "scale": "0-100 (inverted: high = low contamination risk)",
+      "scoring_rubric": {
+        "0": "Very high contamination risk: benchmark items published in widely-indexed webpages, >1000 citations, items appear verbatim in common training datasets",
+        "25": "High risk: items in published papers available on arXiv/Semantic Scholar, benchmark is well-known",
+        "50": "Moderate risk: items in published papers but not widely indexed; or benchmark has contamination detection methods",
+        "75": "Low risk: items are dynamically generated or held-out; or contamination has been empirically tested",
+        "100": "Minimal risk: items are novel/unpublished, dynamically generated, or verified uncontaminated through membership inference testing"
+      },
+      "rationale": "A model that has memorized MFQ-30 items will produce human-like MFQ profiles not because it has internalized moral foundations but because it has memorized the expected responses. This is a fundamental validity threat for LLM moral evaluation.",
+      "trial_motivation": "MP2 (MFQ-30): 30 items that have been administered millions of times and appear across the internet. MP3 (DIT): Classic Kohlberg dilemmas are the most widely discussed in psychology textbooks. MP7 (TrolleyBench): Trolley problems are internet-famous. Custom trials (MP-DP, MP-SI, MP-DM, MP-CC) used novel items specifically to reduce contamination risk — and yielded qualitatively different patterns than published benchmarks.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D49",
+      "name": "Model version sensitivity",
+      "member": 6,
+      "description": "Whether the benchmark has been administered to multiple versions of the same model family (e.g., GPT-3.5 / GPT-4 / GPT-4o / o1, Claude 2 / Claude 3 / Claude 3.5 / Claude 4) with published cross-version comparisons. Version sensitivity indicates how stable moral profiles are across capability upgrades.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Tested on 1 model version only",
+        "25": "Tested on 2-3 versions of a single model family",
+        "50": "Tested on 2+ model families with 2+ versions each, with cross-version comparison",
+        "75": "Systematic cross-version analysis with effect sizes, documenting how moral profiles change with capability scaling",
+        "100": "Longitudinal version tracking: 5+ versions over 2+ years with trend analysis and capability-alignment interaction effects"
+      },
+      "rationale": "Safety teams need to know whether a model's moral profile is stable across capability upgrades. If a model's moral reasoning shifts significantly between versions, then benchmark results have a short shelf-life and must be re-administered for each deployment.",
+      "trial_motivation": "MP3 summary notes GPT-4 P-score ~65% vs Claude Opus 75% — different model families show different profiles. MP7 notes GPT-4 ECI=0.78 vs Claude Opus 1.0. MP20 reports outperforming Claude 3.5 Sonnet baseline. These cross-model comparisons demonstrate that moral profiles are model-specific, but few benchmarks systematically track version sensitivity.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D50",
+      "name": "Bright-line item identification",
+      "member": 6,
+      "description": "Whether the benchmark explicitly identifies and separately reports performance on 'bright-line' items — moral scenarios where near-universal agreement exists (e.g., torture is wrong, slavery is wrong) and where model deviation would indicate a safety-critical failure rather than legitimate moral pluralism.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No bright-line identification: all items treated equally in aggregate scoring",
+        "25": "Implicit bright-lines: some items clearly have consensus answers but not flagged",
+        "50": "Partial identification: a subset of items flagged as 'clear-cut' or 'unambiguous' with separate reporting",
+        "75": "Explicit bright-line taxonomy: items classified by consensus level (universal, near-universal, contested, culture-dependent) with separate failure rates",
+        "100": "Full severity-graded bright-line system: items mapped to deployment risk levels with automated alerting thresholds"
+      },
+      "rationale": "Not all moral disagreement is equal. Getting a trolley problem 'wrong' is qualitatively different from endorsing torture. Safety evaluation requires separating bright-line items (where deviation is a safety failure) from contested items (where deviation is legitimate moral diversity).",
+      "trial_motivation": "MP-DP: Torture (pair 10), organ harvesting (pair 5), and lethal injection (pair 6) received 0% utilitarian endorsement regardless of personal/impersonal framing or CoT — these are bright-line items. But the benchmark did not separate them from contested items (trolley problems scored 40-95% acceptance). MP-DM: Illegality tracked dyadic structure (89.6% wrongness for high-dyadic illegal vs 4.2% for structural) — suggesting the dyadic template identifies bright-line items.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D51",
+      "name": "Citation trajectory (momentum)",
+      "member": 7,
+      "description": "Classifies the citation trajectory of the benchmark paper over time: increasing (growing influence), stable (sustained impact), declining (fading relevance), or spike (initial burst followed by decline). Distinct from raw citation count (C1) and age-normalized rate (C2).",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Declining: citations decreasing year-over-year for 3+ years (obsolescence signal)",
+        "25": "Spike: initial burst (>50% of citations in first 2 years) followed by sustained decline",
+        "50": "Stable: roughly constant citation rate over 3+ years",
+        "75": "Increasing: citation rate growing year-over-year for 2+ years (rising influence)",
+        "100": "Exponentially increasing: citations doubling or more in the most recent year (breakout/paradigm-shift indicator)"
+      },
+      "rationale": "Existing features C1 (raw count) and C2 (age-normalized rate) are static snapshots. Citation trajectory captures temporal dynamics: a 2019 paper with 500 citations may be declining (200 in 2020, 150 in 2021, 100 in 2022, 50 in 2023) or accelerating (50, 100, 150, 200). These have very different implications for benchmark relevance.",
+      "trial_motivation": "MFQ-30 (MP2) has an established trajectory with stable high citations. TrolleyBench (MP7) had a spike after the Moral Machine 2018 paper. UniMoral (MP15) is too new for trajectory analysis. The distinction matters: investing evaluation effort in declining benchmarks is wasteful.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D52",
+      "name": "Citation hub score (downstream adoption)",
+      "member": 7,
+      "description": "Measures the benchmark's role as a citation hub — whether other benchmarks cite it as a foundation. A benchmark that is cited by many subsequent benchmarks has shaped the field's evaluation methodology, regardless of its direct citation count.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Zero downstream benchmarks cite this work",
+        "25": "1-3 downstream benchmarks cite this work (minor influence)",
+        "50": "4-8 downstream benchmarks cite it, OR it is cited by 1 benchmark with >500 citations",
+        "75": "9-15 downstream benchmarks cite it as methodological precedent (hub status)",
+        "100": "16+ downstream benchmarks cite it, OR it established a benchmark paradigm (e.g., MFQ for foundation measurement, DIT for stage measurement)"
+      },
+      "rationale": "Existing feature C5 measures hub/leaderboard presence (whether the benchmark appears on an evaluation platform). D52 measures the bibliometric hub score — whether the benchmark is a methodological node in the citation network. These are distinct: a benchmark can be on HuggingFace without being bibliometrically influential, and vice versa.",
+      "trial_motivation": "MFQ (MP2) is the paradigm-defining hub for MFT measurement — virtually all subsequent MFT benchmarks cite it. DIT (MP3) similarly for Kohlberg measurement. But newer benchmarks like UniMoral (MP15) and Tracing MF (MP22) explicitly build on MFQ methods. Hub score captures this genealogical influence.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D53",
+      "name": "Venue disciplinary origin",
+      "member": 7,
+      "description": "Classifies the publication venue by discipline: computer science (NeurIPS, ACL, EMNLP), psychology (JPSP, Cognition, PSPB), philosophy (Ethics, Mind, JPhil), interdisciplinary (Nature, Science, PNAS), or domain-specific (AIES, FAccT). Distinct from existing C3 (venue tier) which measures prestige, not discipline.",
+      "scale": "categorical mapped to 0-100",
+      "scoring_rubric": {
+        "0": "Unpublished or non-peer-reviewed (preprint only, blog post)",
+        "25": "Single-discipline CS venue (NeurIPS, ACL, EMNLP datasets track)",
+        "50": "Single-discipline psychology or philosophy venue",
+        "75": "Interdisciplinary venue bridging CS and social science (AIES, FAccT, CHI, Nature Machine Intelligence)",
+        "100": "Prestigious interdisciplinary venue (Nature, Science, PNAS) OR published in both a CS and a psychology venue"
+      },
+      "rationale": "A moral psychology benchmark published only in a CS venue may have technical rigor but weak psychological validity. One published only in a psychology venue may have construct validity but poor computational implementation. Venue discipline indicates which validity dimensions were peer-reviewed.",
+      "trial_motivation": "Top-15 benchmarks span: ACL/EMNLP (6), arXiv only (3), NeurIPS/ICML (2), AIES/FAccT (2), psychology journals (2). CS venues dominated, which correlates with lower psychological depth scores (Tier A) in our assessment. Venue discipline is a useful proxy for review rigor on psychological vs computational dimensions.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D54",
+      "name": "Replication count",
+      "member": 7,
+      "description": "Counts the number of independent replications of the benchmark (not just re-administrations of the same instrument, but methodological replications by independent teams testing the same constructs with the same or adapted procedures).",
+      "scale": "0-100 (count-mapped)",
+      "scoring_rubric": {
+        "0": "No replications: benchmark used only in the original paper",
+        "25": "1-2 replications by the same research group (conceptual extension, not independent replication)",
+        "50": "1-2 independent replications by different research groups",
+        "75": "3-5 independent replications with at least one in a different cultural context",
+        "100": "6+ independent replications across multiple labs, cultures, and model families with meta-analytic synthesis"
+      },
+      "rationale": "The replication crisis in psychology (Open Science Collaboration, 2015) means that unreplicated findings are high-risk. A benchmark based on an unreplicated moral psychology finding may be measuring a statistical artifact. Replication count is a strong signal of construct robustness.",
+      "trial_motivation": "MFQ-30 (MP2) has extensive replication (100+ studies). DIT (MP3) has decades of replication. But newer benchmarks (UniMoral, Tracing MF, M3oralBench) have zero independent replications. The gap between well-replicated classical instruments and novel AI benchmarks is a key finding.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D55",
+      "name": "Dataset derivative count",
+      "member": 7,
+      "description": "Counts the number of derivative datasets, adaptations, or extensions built on top of the original benchmark. A high derivative count indicates that the benchmark has become a community resource that others build upon.",
+      "scale": "0-100 (count-mapped)",
+      "scoring_rubric": {
+        "0": "No derivatives: dataset used only in original form",
+        "25": "1-3 derivatives (translated versions, filtered subsets)",
+        "50": "4-8 derivatives including at least one significant extension (new item types, new populations, new languages)",
+        "75": "9-15 derivatives with a recognized derivative ecosystem (e.g., MFQ-20, MFQ-II, Short MFQ, MFV, MFTC)",
+        "100": "16+ derivatives forming a benchmark family with standardized naming and community governance"
+      },
+      "rationale": "Derivative count measures community adoption at a deeper level than citation count. A benchmark with many derivatives has become infrastructure — the field depends on it and has invested in extending it.",
+      "trial_motivation": "MFQ (MP2) has a massive derivative ecosystem: MFQ-20 (short form), MFQ-II (revised), MFV (vignettes, MP4), MFTC (corpus annotation, MP9), Social Chemistry (text generation, MP17), Tracing MF (probing, MP22). This interconnected family is invisible to raw citation counts. DIT similarly has DIT-1, DIT-2, LSDT, and multiple computerized versions.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D56",
+      "name": "Cross-disciplinary citation breadth",
+      "member": 7,
+      "description": "Measures the disciplinary breadth of the benchmark's citing papers. A benchmark cited only within CS has narrow influence; one cited across CS, psychology, philosophy, law, and policy has broad intellectual impact.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All citations from a single discipline",
+        "25": "Citations from 2 disciplines (typically CS + one other)",
+        "50": "Citations from 3 disciplines spanning sciences and humanities",
+        "75": "Citations from 4-5 disciplines including at least one non-academic sector (policy, industry)",
+        "100": "Citations from 6+ disciplines including academic, policy, industry, and civil society"
+      },
+      "rationale": "Cross-disciplinary citation breadth indicates that a benchmark has relevance beyond its originating field. A moral psychology benchmark cited in legal scholarship or policy documents has real-world impact beyond academic evaluation.",
+      "trial_motivation": "Moral Machine (the basis for MP8) is unusual in being cited across CS, psychology, philosophy, policy, law, and public media. MFQ crosses psychology and CS. Most AI-native benchmarks (M3oralBench, UniMoral) are cited only within CS/NLP. This pattern suggests AI-native benchmarks have limited cross-disciplinary credibility.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D57",
+      "name": "Theory fidelity index",
+      "member": 7,
+      "description": "Evaluates how faithfully the benchmark operationalizes its claimed theoretical framework, as assessed by citation patterns. If a benchmark claims to measure MFT but does not cite Haidt (2001) or Graham et al. (2011), its theory fidelity is questionable. Measured by whether the benchmark cites the canonical foundational papers of its claimed theory.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Does not cite foundational papers of claimed theory (theory name-dropping without engagement)",
+        "25": "Cites 1 foundational paper but operationalization diverges significantly",
+        "50": "Cites 2-3 foundational papers; operationalization is theory-inspired but not validated against original constructs",
+        "75": "Cites all major foundational papers; operationalization maps clearly to theoretical constructs",
+        "100": "Cites all foundational papers AND directly validates against the original instrument (e.g., uses MFQ items to validate MFT-inspired scenarios)"
+      },
+      "rationale": "Many AI benchmarks claim to measure moral foundations, Kohlberg stages, or value systems but operationalize these theories loosely. Citation analysis reveals whether the benchmark engaged with the primary theoretical literature or merely borrowed terminology.",
+      "trial_motivation": "MP10: 'Does Moral Code Have a Moral Code' claims to test MFT but operationalizes Shweder's Big Three + deontology/utilitarianism — a loose mapping. MP20: M3oralBench claims MFT but uses only 5 foundation labels without MFQ-style items. MP9: MFTC (annotation corpus) is a derivative of MFT but operationalizes 'foundations' as text categories, not psychological constructs. The gap between claimed and actual theory engagement is measurable through citation analysis.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D58",
+      "name": "Pre-registration / registered report status",
+      "member": 7,
+      "description": "Whether the benchmark study was pre-registered (hypotheses and analysis plan filed before data collection) or published as a registered report (peer review of methods before results are known). Pre-registration is the gold standard for reducing researcher degrees of freedom.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No pre-registration, no mention of pre-planned analyses",
+        "25": "Post-hoc acknowledgment that analyses were exploratory",
+        "50": "Partial pre-registration: some hypotheses or analysis plan filed (e.g., OSF pre-registration)",
+        "75": "Full pre-registration: complete analysis plan filed before data collection at a recognized registry",
+        "100": "Registered report: peer review of introduction and methods BEFORE results were obtained (Stage 1 acceptance)"
+      },
+      "rationale": "The replication crisis demonstrated that unrestricted researcher degrees of freedom inflate false-positive rates. Pre-registration is now expected in top psychology venues (JPSP, Psychological Science) but is virtually unknown in AI benchmark papers. This gap undermines the scientific credibility of AI moral evaluation.",
+      "trial_motivation": "None of the 15 Top-15 benchmarks were pre-registered. Zero of 55 assessed benchmarks used registered report format. This is a field-wide methodological gap that compounds the replication concern (D54).",
+      "tier": "G"
+    },
+
+    {
+      "id": "D59",
+      "name": "Open peer review availability",
+      "member": 7,
+      "description": "Whether peer reviews of the benchmark paper are publicly available (e.g., OpenReview, PeerJ, Frontiers), enabling assessment of what reviewers flagged and how authors responded.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No peer review available (journal/venue uses closed review)",
+        "25": "Author response to reviews available but reviews themselves are not",
+        "50": "Reviews available on request or through venue-specific access",
+        "75": "Full reviews publicly available (OpenReview, PeerJ)",
+        "100": "Full reviews + author responses + revision history publicly available with signed reviews"
+      },
+      "rationale": "NeurIPS and ICLR use OpenReview, making peer review transparent. ACL and psychology journals typically use closed review. Open peer review enables meta-evaluation of what experts considered strengths and weaknesses of the benchmark, complementing our own assessment.",
+      "trial_motivation": "Several Top-15 benchmarks were published at NeurIPS/ICLR with OpenReview histories. Others were at ACL (closed review) or arXiv (no review). The quality signal from peer review availability is currently unused in our framework.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D60",
+      "name": "Methodological transparency index",
+      "member": 7,
+      "description": "Composite measure of how transparent the benchmark's methodology is: are item selection procedures documented? Is the scoring algorithm fully specified? Are exclusion criteria stated? Can the benchmark be reconstructed from the paper alone?",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Black-box benchmark: items, scoring, and selection criteria are not fully documented",
+        "25": "Partial transparency: items are available but scoring algorithm or selection criteria are unclear",
+        "50": "Moderate: items + scoring algorithm documented but item selection rationale unclear",
+        "75": "High: items + scoring + selection + exclusion criteria all documented; benchmark reconstructible from paper",
+        "100": "Full transparency: items + scoring + selection + exclusion + pilot data + factor analysis + item statistics all documented and available"
+      },
+      "rationale": "Methodological transparency is a prerequisite for reproducibility. Many AI benchmarks provide the dataset but not the rationale for item selection, making it impossible to assess whether items adequately cover the claimed construct.",
+      "trial_motivation": "MP15 (UniMoral): Paper documents 4-task pipeline in detail but item selection is not fully transparent. MP9 (MFTC): Annotation guidelines are detailed. MP7 (TrolleyBench): Item selection rationale is well-documented (systematic variation of DDE parameters). The variation in methodological transparency across our Top-15 was not captured by existing features.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D61",
+      "name": "Data freshness (recency of last update)",
+      "member": 8,
+      "description": "Measures how recently the benchmark dataset was last updated. Benchmarks with stale data may contain outdated moral scenarios, deprecated language, or factual inaccuracies that have been corrected in more recent versions.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No updates: original dataset from 5+ years ago with no maintenance",
+        "25": "Minor update 3-5 years ago (e.g., broken link fix, format correction)",
+        "50": "Substantive update 1-3 years ago (new items, revised scoring, bug fixes)",
+        "75": "Active maintenance: updated within past year with documented changelog",
+        "100": "Continuously maintained: versioned releases, active issue tracker, community contributions accepted"
+      },
+      "rationale": "AI benchmarks degrade over time: training data contamination increases, moral language evolves, and new moral issues emerge (AI ethics itself did not exist as a field 10 years ago). Fresh benchmarks with active maintenance are more valid than stale ones.",
+      "trial_motivation": "MFQ-30 (MP2) was developed in 2009 and last substantively updated with MFQ-II in 2024 — a 15-year gap for the original version. DIT (MP3) dates to 1979 with DIT-2 in 1999. Contrast with Tracing MF (MP22, 2026) and UniMoral (MP15, 2025) which are fresh. The trial experience confirmed that newer benchmarks better capture LLM-relevant constructs.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D62",
+      "name": "Licensing clarity",
+      "member": 8,
+      "description": "Evaluates how clearly the benchmark's data is licensed for research and commercial use. Ambiguous or absent licensing creates legal risk for deployment in production systems and hinders reproducibility.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No license specified: unclear whether data can be used at all",
+        "25": "Restrictive license: academic use only, or custom license with ambiguous commercial terms",
+        "50": "Standard academic license: CC-BY-NC or similar (clear non-commercial use permitted)",
+        "75": "Permissive license: CC-BY, MIT, or Apache 2.0 (commercial use permitted with attribution)",
+        "100": "Public domain or CC0: no restrictions whatsoever, with explicit written confirmation from authors"
+      },
+      "rationale": "Many benchmark papers publish datasets without any license, creating legal ambiguity. Industry practitioners cannot use unlicensed data in production without legal risk. Clear licensing is essential for deployment-relevant evaluation.",
+      "trial_motivation": "During trial setup, we encountered: HuggingFace datasets with clear licenses (Social Chemistry, MFTC), GitHub repos with MIT/Apache licenses (TrolleyBench, M3oralBench), arXiv papers with downloadable data but no license (several custom benchmarks), and psychology instruments with explicit restrictions (MFQ requires permission from moralfoundations.org). The licensing landscape is fragmented.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D63",
+      "name": "Data format standardization",
+      "member": 8,
+      "description": "Evaluates how standardized the benchmark's data format is. Standardized formats (JSONL, CSV with documented schema, HuggingFace Dataset) reduce implementation effort and enable automated ingestion. Custom or idiosyncratic formats increase error risk.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Non-machine-readable: data in PDF tables, appendix text, or image-only format",
+        "25": "Machine-readable but idiosyncratic: custom format requiring manual parsing (e.g., nested XML, undocumented JSON schema)",
+        "50": "Standard format (CSV/JSONL) but with undocumented or inconsistent schema",
+        "75": "Standard format with documented schema and field descriptions",
+        "100": "HuggingFace Dataset format OR Inspect-compatible JSONL with type annotations, schema validation, and loading script"
+      },
+      "rationale": "Implementation effort is dominated by data parsing and format conversion, not by model administration. A benchmark with clean, standardized data can be implemented in hours; one with idiosyncratic formatting takes days.",
+      "trial_motivation": "Trial implementation effort varied enormously: MP2 (MFQ-30) items are published as a clean list. MP8 (Moral Machine) required parsing a 40M-row CSV. MP15 (UniMoral) had HuggingFace-hosted data with clean JSONL. MP-DP, MP-SI, MP-DM, MP-CC (custom trials) required manual item construction because no standardized dataset existed. The format gap between well-packaged and poorly-packaged benchmarks is the primary driver of implementation time.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D64",
+      "name": "Documentation quality",
+      "member": 8,
+      "description": "Evaluates the quality and completeness of benchmark documentation: datasheet for datasets (Gebru et al., 2021), model card equivalent for benchmarks, administration instructions, scoring procedures, known limitations, and troubleshooting guidance.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No documentation beyond the paper itself",
+        "25": "README with basic description and file listing",
+        "50": "Documentation covering administration instructions, scoring procedure, and data description (but no formal datasheet)",
+        "75": "Formal datasheet (Gebru et al., 2021) or equivalent covering motivation, composition, collection, preprocessing, uses, distribution, and maintenance",
+        "100": "Full documentation suite: datasheet + administration manual + scoring algorithm specification + troubleshooting guide + known issues + FAQ + community discussion channel"
+      },
+      "rationale": "Good documentation reduces implementation errors and enables accurate reproduction. The Datasheets for Datasets framework (Gebru et al., 2021) provides a standard template that few AI benchmarks follow despite being widely cited.",
+      "trial_motivation": "MP5 (ValueCompass): Good documentation with clear administration instructions. MP8 (Moral Machine): Minimal documentation despite massive dataset — required reverse-engineering the scoring procedure. MP15 (UniMoral): ACL paper has detailed methodology section but no standalone documentation. The correlation between documentation quality and implementation success was high across our 23 trials.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D65",
+      "name": "Reproducibility score (end-to-end)",
+      "member": 8,
+      "description": "Composite measure of how reproducible the benchmark evaluation pipeline is from data download to final score. Covers: data accessibility, code availability, dependency management, random seed specification, and result verification.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Not reproducible: data unavailable, no code, scoring procedure ambiguous",
+        "25": "Partially reproducible: data available but code missing or broken, dependencies unspecified",
+        "50": "Mostly reproducible: data + code available, but dependencies unclear or environment setup requires debugging",
+        "75": "Reproducible: data + code + requirements.txt/environment.yml + documented setup procedure. Results match within tolerance.",
+        "100": "Fully reproducible: Docker/Nix container, CI/CD pipeline, automated testing, seed specification, and published reproduction studies confirming identical results"
+      },
+      "rationale": "Reproducibility is the foundation of scientific credibility. If an evaluation cannot be independently reproduced, its results are anecdotal, not scientific. The gap between benchmark papers' claims and actual reproducibility is a known problem in ML evaluation.",
+      "trial_motivation": "Trial reproducibility varied: MFQ-30 (MP2) is trivially reproducible (items are the instrument). Moral Machine (MP8) required significant data engineering. Custom trials (MP-DP, MP-SI, MP-DM, MP-CC) are reproducible from our JSON specification files but not from any published resource. Several benchmarks had broken GitHub links or missing dependencies.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D66",
+      "name": "Scoring pipeline complexity",
+      "member": 8,
+      "description": "Measures the computational and conceptual complexity of the benchmark's scoring pipeline: from raw model outputs to interpretable scores. Simple pipelines (exact match, Likert mean) are robust; complex pipelines (model-graded, multi-step psychometric computation) introduce error sources.",
+      "scale": "0-100 (inverted: high = simpler pipeline)",
+      "scoring_rubric": {
+        "0": "Extremely complex: requires model-graded evaluation, multi-step psychometric computation, and manual annotation for subset of items",
+        "25": "Complex: requires custom NLP parsing (e.g., extracting forced-choice from free-text) + psychometric aggregation",
+        "50": "Moderate: standard aggregation (mean, sum) with some parsing (e.g., extracting Likert ratings from structured output)",
+        "75": "Simple: direct extraction from structured output (JSON, multiple choice letter) + simple aggregation",
+        "100": "Trivial: exact match or direct numerical output with no parsing or aggregation needed"
+      },
+      "rationale": "Existing feature B7 measures scorer complexity but from a technical perspective (exact match vs model-graded). D66 measures the full pipeline complexity including parsing, aggregation, subscale computation, and normalization. Complex pipelines are more error-prone and harder to debug.",
+      "trial_motivation": "MP2 (MFQ-30): Simple — 6 items per foundation, compute mean. Pipeline complexity: low. MP15 (UniMoral): Complex — 4-task pipeline with action prediction, typology classification, factor attribution, and consequence generation, each requiring different scoring logic. MP-SI: Very complex — 6-turn Socratic protocol requiring judgment tracking, reason-defeat detection, and dumbfounding classification across turns.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D67",
+      "name": "API compatibility tier",
+      "member": 8,
+      "description": "Rates how well the benchmark integrates with standard LLM evaluation APIs and harnesses. Extends existing B6 (harness tier) with specific attention to prompt format, expected output structure, and token budget requirements.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Incompatible with standard APIs: requires interactive multi-turn, GUI interaction, or custom fine-tuning",
+        "25": "Requires significant API adaptation: multi-turn management, state tracking, or custom prompt engineering",
+        "50": "Compatible with standard chat API: single-turn or simple multi-turn, but requires custom output parsing",
+        "75": "Compatible with evaluation harness: can be run through Inspect/lm-eval/HELM with minor configuration",
+        "100": "Native harness support: pre-configured in a major evaluation framework with verified scoring"
+      },
+      "rationale": "The practical barrier to benchmark adoption is often API compatibility, not data availability. A benchmark that requires interactive multi-turn management (like our MP-SI dumbfounding protocol) is fundamentally harder to automate than one that uses single-turn MCQ.",
+      "trial_motivation": "MP-SI: 6-turn Socratic protocol required custom multi-turn management — each turn's prompt depends on the previous turn's response. MP-DP: 2-condition design (zero-shot vs CoT) required prompt template switching. MP18: 3-condition persona manipulation required system prompt modification between runs. These are common requirements but poorly supported by standard harnesses.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D68",
+      "name": "Token budget efficiency",
+      "member": 8,
+      "description": "Measures the ratio of interpretable signal to total tokens consumed. A benchmark that requires 100K tokens of input to produce 5 interpretable scores is less efficient than one that produces the same 5 scores from 10K tokens.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Very inefficient: >100K input tokens per interpretable score dimension",
+        "25": "Inefficient: 20K-100K tokens per score dimension",
+        "50": "Moderate: 5K-20K tokens per score dimension",
+        "75": "Efficient: 1K-5K tokens per score dimension",
+        "100": "Highly efficient: <1K tokens per score dimension (e.g., 30-item MFQ producing 5 foundation scores in ~3K total tokens)"
+      },
+      "rationale": "Token cost is a practical constraint for large-scale LLM evaluation. At $15/M input tokens for frontier models, a 100K-token benchmark costs $1.50 per run. Multiplied across model versions, persona conditions, and repeated runs, costs compound rapidly. Efficiency matters.",
+      "trial_motivation": "MP2 (MFQ-30): ~3K tokens for 5 foundation scores = ~600 tokens/dimension. Highly efficient. MP-SI: ~60K tokens (60 turns) for 10 dumbfounding classifications = ~6K tokens/classification. Moderate. MP-DM: ~50K tokens for 72 ratings across 6 domains = ~8.3K tokens/domain. The efficiency range across our 23 trials was >100x.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D69",
+      "name": "Versioning and changelog practices",
+      "member": 8,
+      "description": "Evaluates whether the benchmark follows software engineering best practices for versioning: semantic versioning, documented changelogs, backward compatibility, and deprecation policies.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No versioning: single undated release with no indication of version",
+        "25": "Informal versioning: v1/v2 labels without documented changes",
+        "50": "Documented versions with changelog (what changed between versions)",
+        "75": "Semantic versioning with documented backward compatibility and migration guides",
+        "100": "Full release engineering: semantic versioning, automated CI/CD, backward compatibility testing, deprecation policy, and long-term support schedule"
+      },
+      "rationale": "Benchmarks are software products that should follow software engineering practices. When MFQ-30 is updated to MFQ-II, researchers need to know exactly what changed and whether old results are comparable to new results. Without versioning, benchmark comparisons across time are unreliable.",
+      "trial_motivation": "MFQ has evolved through MFQ → MFQ-20 → MFQ-II with informal versioning. DIT has DIT-1 → DIT-2 with published comparison studies. But AI-native benchmarks (M3oralBench, UniMoral) have had at most one release. The absence of versioning practices suggests the field has not yet adopted the infrastructure needed for longitudinal evaluation.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D70",
+      "name": "Output determinism",
+      "member": 8,
+      "description": "Whether the benchmark's scoring produces deterministic results given the same model outputs. Non-deterministic scoring (e.g., model-graded evaluation with temperature > 0) introduces scorer variance that compounds model variance.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Fully non-deterministic: scoring depends on another model's stochastic outputs with no seed control",
+        "25": "Mostly non-deterministic: model-graded with temperature > 0 but averaged over multiple runs",
+        "50": "Mixed: some scores deterministic (exact match subscales), others model-graded",
+        "75": "Mostly deterministic: rule-based scoring with minor judgment calls documented and standardized",
+        "100": "Fully deterministic: given identical model outputs, scoring pipeline always produces identical scores (pure rule-based or exact match)"
+      },
+      "rationale": "Reproducibility requires deterministic scoring. If the scorer introduces its own variance (e.g., GPT-4 grading free-text responses at temperature 0.7), then benchmark results reflect scorer + model variance, not model alone. This is a source of noise that undermines cross-study comparison.",
+      "trial_motivation": "MP2 (MFQ-30): Deterministic — numerical Likert responses require no parsing judgment. MP17 (Social Chemistry): Partially non-deterministic — RoT generation scoring requires matching against a taxonomy. MP-SI: Non-deterministic elements — classifying 'dumbfounded' vs 'reason-maintained' requires judgment about whether a new reason is genuinely novel or circular. Our trial scoring scripts had to make these judgment calls explicitly.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D71",
+      "name": "Error recovery specification",
+      "member": 8,
+      "description": "Whether the benchmark specifies how to handle model failures during administration: refusals, off-topic responses, format violations, API errors, and content filter triggers. Error handling is essential for robust automated evaluation.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No error handling specification: failures treated as missing data or crash the pipeline",
+        "25": "Minimal: refusals noted but no recovery procedure",
+        "50": "Moderate: error types enumerated with basic recovery (retry, skip, default score)",
+        "75": "Comprehensive: error taxonomy, recovery procedures, and impact analysis (how do different error rates affect aggregate scores)",
+        "100": "Full robustness specification: error types, recovery procedures, sensitivity analysis to error rates, fallback scoring, and graceful degradation guarantees"
+      },
+      "rationale": "Real-world LLM evaluation encounters errors: content filters block items, models produce malformed output, API calls timeout, and models refuse to engage. Without specified error handling, different implementations handle errors differently, producing incomparable results.",
+      "trial_motivation": "Across 23 trials, we encountered: 0 outright refusals (notable itself — see D43), occasional format violations (free-text instead of numerical rating), and multi-turn state management errors. Our scoring scripts had to make ad hoc decisions about these cases. No benchmark in our Top-15 specified error recovery procedures.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D72",
+      "name": "Cross-model normalization method",
+      "member": 8,
+      "description": "Whether the benchmark specifies how to normalize scores for comparison across different model families. Models have different output distributions (e.g., Claude tends toward moderate Likert responses, GPT-4 toward extreme responses), and raw scores are not directly comparable without normalization.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No normalization: raw scores compared directly across models",
+        "25": "Acknowledged as an issue but no solution provided",
+        "50": "Basic normalization: z-scoring within model or percentile ranking",
+        "75": "Validated normalization: model-specific calibration using anchor items with known human norms",
+        "100": "Full normalization framework: model-specific calibration + response distribution analysis + IRT-based comparison + sensitivity analysis"
+      },
+      "rationale": "Cross-model comparison is the primary use case for moral benchmarks, yet raw scores are systematically incomparable due to model-specific response biases. Without normalization, 'Claude scores 4.5/5 on care' vs 'GPT-4 scores 4.2/5 on care' is meaningless because the models may use the Likert scale differently.",
+      "trial_motivation": "MP2 summary notes 'human adults ~40% P-score' vs Claude 75% — but these are raw scores on the same scale. MP7 notes Claude ECI=1.0 vs GPT-4 ECI=0.78 — this is a meaningful comparison because ECI is ratio-scaled. But most cross-model comparisons in the literature use unnormalized Likert means, which is methodologically unsound.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D73",
+      "name": "Temporal stability (test-retest reliability for LLMs)",
+      "member": 8,
+      "description": "Whether the benchmark has been administered to the same model version at different time points to measure temporal stability. LLM APIs may return different responses at different times due to serving infrastructure changes, even with temperature=0.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No temporal stability data",
+        "25": "Administered once with temperature sweep (multiple runs at different temperatures)",
+        "50": "Administered 2-3 times at temperature=0 on the same day (within-session stability)",
+        "75": "Administered on multiple days/weeks to the same model version with stability coefficients",
+        "100": "Longitudinal stability study: 5+ administrations over weeks/months with ICC or Cronbach's alpha and documented drift analysis"
+      },
+      "rationale": "Human psychometric instruments report test-retest reliability. LLM evaluation should do the same, but few benchmarks measure temporal stability. If scores drift by 5% across runs, the benchmark's effective precision is +/-5%, making small cross-model differences uninterpretable.",
+      "trial_motivation": "Our protocol (Section 3.6) specifies primary runs at temperature=0 plus 5 additional runs at temperature=0.7 to assess stability. But this is within-session stability only. No benchmark in our Top-15 reports across-session temporal stability for LLMs.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D74",
+      "name": "Prompt sensitivity coefficient",
+      "member": 8,
+      "description": "Quantifies how much the benchmark's results change under benign prompt variation (rephrasing instructions, reordering items, changing output format requests). Distinct from adversarial robustness (D36) — this measures sensitivity to non-adversarial, methodologically reasonable variation.",
+      "scale": "0-100 (inverted: high = low sensitivity = robust)",
+      "scoring_rubric": {
+        "0": "Extremely sensitive: >20% score change under benign prompt rephrasing",
+        "25": "Highly sensitive: 10-20% score change under benign variation",
+        "50": "Moderately sensitive: 5-10% score change, or sensitivity not measured",
+        "75": "Low sensitivity: 2-5% score change with documented variation analysis",
+        "100": "Robust: <2% score change across 5+ prompt variants with published prompt sensitivity analysis"
+      },
+      "rationale": "If a benchmark's results change substantially when instructions are rephrased, then results are measuring prompt-engineering skill rather than moral reasoning. Prompt sensitivity is the LLM equivalent of wording effects in survey methodology.",
+      "trial_motivation": "MP17 (Social Chemistry): Format invariance confirmed — same value hierarchy across formats. But this was comparing format types (Likert vs free-text), not prompt phrasings within a format. MP-DP: CoT instruction (a prompt variation) changed zero judgments but changed reasoning length. The relationship between prompt variation and result variation is under-studied.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D75",
+      "name": "Anchor item availability",
+      "member": 8,
+      "description": "Whether the benchmark includes anchor items — items with known human norms that can be used to calibrate model responses to a common scale. Anchor items enable cross-model and cross-time comparison by providing a fixed reference point.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No anchor items: all items are benchmark-specific with no external calibration",
+        "25": "Implicit anchors: some items happen to overlap with published instruments (e.g., MFQ items) but not designated as anchors",
+        "50": "Partial anchors: a subset of items drawn from validated instruments with known norms",
+        "75": "Explicit anchor set: designated anchor items with published human norms and documented calibration procedure",
+        "100": "Full calibration framework: anchor items with norms from multiple populations, documented calibration algorithm, and validation of calibration accuracy"
+      },
+      "rationale": "Psychometrics uses anchor items for equating (linking different tests to a common scale). LLM evaluation should do the same. Without anchors, comparing results across benchmarks is impossible because each benchmark has its own arbitrary scale.",
+      "trial_motivation": "MP2 (MFQ-30) serves as a de facto anchor for MFT measurement — its published norms allow calibrating MFT scores. MP18 used the same MFQ items across three persona conditions, providing within-benchmark anchoring. But there is no cross-benchmark anchor framework that would allow comparing, say, MP2 MFT scores with MP15 UniMoral MFT scores.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D76",
+      "name": "Construct contamination risk",
+      "member": 8,
+      "description": "Evaluates the risk that the benchmark measures a confounding construct rather than the intended moral psychology construct. Common contaminants: reading comprehension, instruction following, cultural knowledge, format familiarity, and general intelligence.",
+      "scale": "0-100 (inverted: high = low contamination risk)",
+      "scoring_rubric": {
+        "0": "High contamination risk: benchmark performance is likely dominated by non-moral constructs (e.g., reading comprehension for complex scenario text)",
+        "25": "Substantial risk: 2+ confounding constructs not controlled for",
+        "50": "Moderate risk: some confounders controlled (e.g., readability-matched items) but others remain",
+        "75": "Low risk: major confounders controlled with validation evidence (e.g., correlation with reading ability shown to be non-significant)",
+        "100": "Minimal risk: comprehensive construct validation distinguishing target construct from plausible contaminants with discriminant validity evidence"
+      },
+      "rationale": "When an LLM scores high on a moral benchmark, is it because it has sophisticated moral reasoning or because it has excellent reading comprehension and instruction following? Without construct validity evidence separating the target construct from contaminants, we cannot know.",
+      "trial_motivation": "MP3 (DIT): P-score=75% exceeds human graduate students — but DIT items may be partially measuring reading comprehension of complex philosophical arguments, which LLMs excel at. MP20 (M3oralBench): 90% accuracy — but the MCQ format may be measuring pattern matching rather than moral reasoning. MP-DP: Zero CoT effect suggests the task is measuring something (moral disposition? training data?) that is independent of reasoning quality.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D77",
+      "name": "Granularity of moral construct measurement",
+      "member": 5,
+      "description": "Evaluates how fine-grained the benchmark's measurement is: does it produce a single binary moral/immoral classification, a few broad subscales (e.g., 5 MFT foundations), or detailed per-item profiles across multiple dimensions?",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Binary: single moral/immoral classification with no subscales",
+        "25": "Coarse: 2-3 broad subscales (e.g., deontological vs utilitarian only)",
+        "50": "Moderate: 4-6 subscales covering the major dimensions of the theory (e.g., 5 MFT foundations)",
+        "75": "Fine-grained: 7-15 subscales or dimensions with per-domain profiling",
+        "100": "Detailed: 16+ measurement dimensions OR per-item profiles with hierarchical aggregation (items -> subscales -> domains -> global)"
+      },
+      "rationale": "Coarse measurement misses important variation. A model that scores 'medium' on care/harm could be: consistently moderate, or alternating between extreme care and extreme harm. Granular measurement reveals patterns that aggregate scores obscure.",
+      "trial_motivation": "MP-DM: 72 items across 6 domains x 3 dyadic levels = rich per-item data revealing domain-specific patterns (physical harm vs dignity vs sacred values). MP2 (MFQ-30): 5 foundation scores are informative but miss within-foundation variation. MP7 (TrolleyBench): Binary switch/bridge scores miss intermediate positions.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D78",
+      "name": "Moral development sensitivity",
+      "member": 5,
+      "description": "Whether the benchmark can detect differences in moral development level (Kohlberg stages, Neo-Kohlbergian schema, or equivalent developmental framework) or only measures moral content (what values are endorsed) without developmental sophistication.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No developmental sensitivity: measures only content (which values/foundations) with no structural sophistication dimension",
+        "25": "Implicit developmental content: items span from simple to complex moral reasoning but scoring does not capture this",
+        "50": "Partial developmental measurement: some items explicitly target developmental level (e.g., Kohlberg stage items within a broader battery)",
+        "75": "Dedicated developmental subscale with validated stage assignment or schema assessment",
+        "100": "Full developmental assessment: stage assignment, schema profile, transition indicators, and consolidation/regression detection"
+      },
+      "rationale": "Moral development level and moral content are orthogonal dimensions: a person can endorse care values at Stage 3 (interpersonal harmony) or Stage 5 (social contract). LLMs consistently show 100% post-conventional reasoning, but benchmarks that only measure content miss this entirely.",
+      "trial_motivation": "MP3/MP6: Both measure Kohlberg stages and reveal 75-90% post-conventional reasoning. MP21 (PRIME): Confirms 100% post-conventional but this was detectable only because PRIME includes developmental probes. MP2 (MFQ-30): Measures MFT content without developmental level — a care=4.5 score tells us nothing about whether this is Stage 3 empathic care or Stage 5 principled care.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D79",
+      "name": "Moral emotion engagement",
+      "member": 5,
+      "description": "Whether the benchmark measures engagement of moral emotions (guilt, shame, empathy, contempt, disgust, indignation, elevation) or only measures cognitive moral judgments. Moral emotions are central to social intuitionism and moral identity theory but absent from most LLM benchmarks.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No moral emotion measurement: purely cognitive judgment items",
+        "25": "Emotion mentioned in item stems (e.g., 'how disgusted would you feel?') but not separately scored",
+        "50": "Emotion explicitly measured for some items with reported emotion scores alongside judgment scores",
+        "75": "Systematic emotion measurement: multiple emotions measured per item with emotion profile analysis",
+        "100": "Full affective assessment: comprehensive moral emotion battery (guilt, shame, disgust, elevation, etc.) with separate emotion and cognition subscales and emotion-cognition interaction analysis"
+      },
+      "rationale": "Haidt's social intuitionist model posits that moral judgments are driven by emotions, not reasoning. If LLMs show zero emotional engagement (as MP15 found), then benchmarks measuring only cognitive judgments are measuring the wrong construct for testing intuitionist theories.",
+      "trial_motivation": "MP15: Emotions scored 1.1/5 in factor attribution — near-floor. MP-SI: Disgust/purity items did not produce dumbfounding (purity judgments were abandoned under challenge), suggesting absence of disgust emotion. MP16: INT=5.0 but this is cognitive endorsement of moral traits, not affective commitment. The emotion gap is one of the most consistent findings across all 23 trials.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D80",
+      "name": "Ingroup-outgroup moral differentiation",
+      "member": 5,
+      "description": "Whether the benchmark tests whether moral judgments vary based on the in-group/out-group status of moral actors and recipients. This is central to binding foundations (loyalty, authority, purity) and to cross-cultural moral variation.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No in-group/out-group manipulation: all moral actors and recipients are generic/unspecified",
+        "25": "Minimal: 1-2 items mention group membership without systematic manipulation",
+        "50": "Moderate: some items systematically vary actor/recipient group membership (nationality, religion, ethnicity)",
+        "75": "Systematic: in-group/out-group status is a manipulated variable with matched items and effect size reporting",
+        "100": "Full factorial: in-group/out-group status crossed with moral domain, severity level, and cultural context, with interaction analysis"
+      },
+      "rationale": "Cross-cultural psychology shows that in-group/out-group moral differentiation is one of the strongest predictors of moral judgment variation. LLMs may show zero differentiation (treating all actors equally) or amplified differentiation (replicating demographic stereotypes). Both are important to measure.",
+      "trial_motivation": "MP-DM: The high/low/structural dyadic manipulation implicitly varies 'distance' from the moral patient, but not in-group/out-group terms. MP-CC: Western vs non-Western framings implicitly vary cultural in-group. MP19: Loyalty foundation items (which test in-group moral obligations) scored lowest (0.13 conflict priority), confirming minimal in-group moral differentiation.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D81",
+      "name": "Moral disagreement representation",
+      "member": 5,
+      "description": "Whether the benchmark explicitly represents and measures moral disagreement — cases where reasonable people disagree about moral judgments — as opposed to treating moral questions as having single correct answers.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No disagreement representation: all items have designated correct answers",
+        "25": "Implicit disagreement: items are contested but scoring treats one answer as correct",
+        "50": "Acknowledged disagreement: some items flagged as 'controversial' with multiple acceptable answers",
+        "75": "Measured disagreement: human response distributions published showing disagreement levels per item",
+        "100": "Disagreement as construct: benchmark explicitly measures calibration to human disagreement distributions, scoring model outputs against human variance rather than a modal response"
+      },
+      "rationale": "Real moral cognition involves pervasive disagreement. A benchmark that scores LLMs against a single 'correct' moral answer implicitly imposes a moral framework. The emerging paradigm of evaluating LLMs against human disagreement distributions (rather than modal responses) is more construct-valid but technically harder.",
+      "trial_motivation": "MP-DP: Personal dilemma acceptance rates ranged 0-95% across 20 pairs — the benchmark itself captures the full disagreement spectrum. MP-CC: All 15 scenarios were designed to represent genuine cross-cultural disagreement. MP21 (PRIME): Scores against a single framework (care/fairness dominant) treating binding absence as 'correct,' thereby imposing a liberal moral framework.",
+      "tier": "F"
+    },
+
+    {
+      "id": "D82",
+      "name": "Hierarchical moral conflict resolution",
+      "member": 6,
+      "description": "Whether the benchmark tests how the model resolves conflicts between moral principles when they compete (care vs fairness, individual rights vs communal welfare, sacred values vs utilitarian outcomes). Conflict resolution reveals moral priority structures that are invisible in single-principle items.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No conflict items: each item tests a single moral principle in isolation",
+        "25": "Implicit conflicts: some items involve competing principles but conflict is not the measurement target",
+        "50": "Explicit conflicts: items designed to pit specific principles against each other with conflict resolution measured",
+        "75": "Systematic conflict matrix: all pairwise combinations of measured principles tested with priority ordering extracted",
+        "100": "Full conflict hierarchy: pairwise comparisons + transitivity analysis + domain-specificity testing + consistency across conflict types"
+      },
+      "rationale": "Real moral reasoning is primarily about resolving conflicts between competing moral considerations, not about endorsing single principles. A model that endorses both care and fairness but always prioritizes care when they conflict has a measurably different moral profile than one that balances them.",
+      "trial_motivation": "MP19: Explicit conflict resolution hierarchy revealed: care(0.77) > liberty(0.75) > fairness(0.67) > authority(0.29) > purity(0.17) > loyalty(0.13). This was one of the richest findings across all 23 trials. MP-CC: Autonomy-vs-filial-piety and individual-vs-communal conflicts revealed cultural priority structures invisible in single-principle items.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D83",
+      "name": "Moral reasoning quality assessment",
+      "member": 6,
+      "description": "Whether the benchmark assesses the quality of moral reasoning (logical consistency, consideration of multiple perspectives, acknowledgment of uncertainty) in addition to moral judgment (which conclusion is reached). Reasoning quality is orthogonal to judgment direction.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Judgment only: scores the conclusion with no assessment of reasoning process",
+        "25": "Reasoning requested but not scored (e.g., 'explain your answer' without rubric)",
+        "50": "Reasoning scored on basic criteria (coherence, relevance) but not on moral sophistication",
+        "75": "Reasoning scored on moral-specific criteria: perspective-taking, principle identification, tension acknowledgment, nuance",
+        "100": "Full reasoning assessment: moral sophistication rubric + consistency with judgment + meta-cognitive awareness + reasoning-judgment alignment analysis"
+      },
+      "rationale": "Two models that both judge torture as wrong may differ dramatically in reasoning quality: one gives a formulaic 'torture violates human dignity' while the other engages with the ticking-bomb counterargument, acknowledges moral uncertainty, and articulates a nuanced position. Reasoning quality is critical for deployment but rarely measured.",
+      "trial_motivation": "MP-SI: Reasoning quality was explicitly assessed across 6 turns. The model generated high-quality initial reasons but struggled to generate genuinely novel reasons after defeat — suggesting reasoning breadth is limited even when reasoning quality is high. MP-DP: CoT reasoning was extended but did not change judgments, revealing a disconnect between reasoning quality and reasoning influence.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D84",
+      "name": "Demographic sensitivity testing",
+      "member": 6,
+      "description": "Whether the benchmark tests whether moral judgments vary based on the demographic attributes of the moral actors described in scenarios (race, gender, age, socioeconomic status, disability status). Demographic bias in moral judgment is a critical safety concern.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No demographic variation: all actors are generic/unspecified",
+        "25": "Minimal variation: actors have names that may imply demographics but this is not systematically tested",
+        "50": "Partial variation: 2-3 demographic dimensions systematically varied for a subset of items",
+        "75": "Systematic variation: major demographic dimensions (race, gender, age, SES) varied across all items with bias metrics",
+        "100": "Full intersectional testing: all demographic dimensions crossed with each other and with moral domain, with intersectional bias analysis"
+      },
+      "rationale": "If an LLM judges 'a man steals bread to feed his family' differently from 'a woman steals bread to feed her family,' this reveals demographic bias in moral judgment. This is a direct safety concern for deployed systems that make or recommend moral judgments about real people.",
+      "trial_motivation": "MP-DM: Scenarios specified actor attributes (factory manager, construction foreman, restaurant owner) that imply gender and socioeconomic status. We did not systematically vary these. MP8 (Moral Machine): Explicitly varies demographic attributes (age, gender, social status, species) and finds LLMs attenuate human biases — but this design is unique among Top-15 benchmarks.",
+      "tier": "E"
+    },
+
+    {
+      "id": "D85",
+      "name": "Theory genealogy depth",
+      "member": 7,
+      "description": "Measures how deeply the benchmark engages with the intellectual genealogy of its underlying theory: does it cite only the primary theorist, or does it engage with critiques, revisions, and competing interpretations of the theory?",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No theoretical engagement: uses moral psychology terminology without citing any theory",
+        "25": "Surface engagement: cites the primary theorist's seminal paper only",
+        "50": "Moderate engagement: cites primary theorist + major empirical validations",
+        "75": "Deep engagement: cites primary theorist + validations + major critiques + revisions (e.g., for MFT: Haidt 2001, Graham 2013, Iyer 2012, Gray 2012 critique)",
+        "100": "Full genealogy: engages with the theory's origin, major revisions, critiques, competitor theories, and current status with a sophisticated understanding of the theory's strengths and limitations"
+      },
+      "rationale": "Depth of theoretical engagement predicts construct validity. A benchmark that treats MFT as '5 foundations, period' misses the ongoing debate about the number of foundations (Iyer et al.'s liberty, Haidt's revised 6-foundation model, Gray's reduction to harm-only). This affects item selection and scoring interpretation.",
+      "trial_motivation": "MP22 (Tracing MF): Deeply engages with MFT literature including sparse autoencoder interpretation. MP10 (Does Moral Code): Surface engagement — uses Shweder's Big Three and MFT labels without engaging with critiques. MP15 (UniMoral): Moderate engagement — cites multiple theories but treats them as independent rather than in dialectical relationship.",
+      "tier": "G"
+    }
+  ],
+
+  "summary_by_member": {
+    "member_5_cross_cultural_psychologist": {
+      "features_proposed": ["D26", "D27", "D28", "D29", "D30", "D31", "D32", "D33", "D34", "D35", "D77", "D78", "D79", "D80", "D81"],
+      "count": 15,
+      "themes": [
+        "WEIRD bias quantification (D26-D31 composite)",
+        "Cultural content analysis beyond surface-level diversity (D28, D34, D35)",
+        "Individualism-collectivism as a fundamental dimension (D32)",
+        "Moral pluralism vs universalism (D33, D81)",
+        "Measurement granularity and developmental sensitivity (D77, D78)",
+        "Emotion and in-group differentiation gaps (D79, D80)"
+      ],
+      "key_argument": "The 86.7% Western default (MP-CC) is not a bug in Claude — it reflects the fact that 100% of existing benchmarks operationalize Western theories. We cannot know whether LLMs are 'aligned' to non-Western moral frameworks because we have no benchmarks measuring non-Western moral reasoning. The WEIRD bias is in the benchmarks, not just the models."
+    },
+    "member_6_ai_safety_researcher": {
+      "features_proposed": ["D36", "D37", "D38", "D39", "D40", "D41", "D42", "D43", "D44", "D45", "D46", "D47", "D48", "D49", "D50", "D82", "D83", "D84"],
+      "count": 18,
+      "themes": [
+        "Adversarial and jailbreak testing (D36, D37)",
+        "Deployment relevance (D38, D50 bright-lines)",
+        "Safety failure mode detection (D39, D47 sycophancy)",
+        "Multi-turn and persona stability (D40, D41)",
+        "LLM-specific validity concerns (D44 recognition-endorsement, D45 System 1/2, D46 embodiment, D48 contamination)",
+        "Instruction hierarchy and version sensitivity (D42, D49)",
+        "Moral conflict resolution and reasoning quality (D82, D83)",
+        "Demographic bias in moral judgment (D84)"
+      ],
+      "key_argument": "The recognition-endorsement dissociation (MP22: 100% recognition, selective endorsement) fundamentally challenges all existing benchmarks that conflate these constructs. A model that can recognize every moral framework but only endorses one is not 'morally competent' — it is morally narrow with perfect representation. Safety evaluation requires separating these constructs and measuring persona stability (13-point shift), adversarial robustness, and failure mode detection capabilities that no current benchmark provides."
+    },
+    "member_7_bibliometrician": {
+      "features_proposed": ["D51", "D52", "D53", "D54", "D55", "D56", "D57", "D58", "D59", "D60", "D85"],
+      "count": 11,
+      "themes": [
+        "Citation dynamics beyond static counts (D51 trajectory, D52 hub score)",
+        "Disciplinary provenance and cross-disciplinary impact (D53, D56)",
+        "Replication and derivative ecosystems (D54, D55)",
+        "Theory fidelity through citation analysis (D57, D85)",
+        "Methodological credibility (D58 pre-registration, D59 open review, D60 transparency)"
+      ],
+      "key_argument": "Existing citation features (C1-C5) are static snapshots. The bibliometric landscape of moral psychology benchmarks has temporal dynamics (MFQ declining, new AI benchmarks rising), genealogical structure (MFQ family vs standalone benchmarks), and disciplinary boundaries (CS benchmarks vs psychology instruments) that require richer characterization. The replication crisis compounds the problem: unreplicated AI benchmarks are built on unreplicated psychology — a house of cards."
+    },
+    "member_8_data_engineer": {
+      "features_proposed": ["D61", "D62", "D63", "D64", "D65", "D66", "D67", "D68", "D69", "D70", "D71", "D72", "D73", "D74", "D75", "D76"],
+      "count": 16,
+      "themes": [
+        "Data lifecycle management (D61 freshness, D62 licensing, D69 versioning)",
+        "Implementation engineering (D63 format, D66 pipeline complexity, D67 API compatibility, D68 token efficiency)",
+        "Quality assurance (D64 documentation, D65 reproducibility composite, D70 determinism, D71 error recovery)",
+        "Cross-study comparability (D72 normalization, D73 temporal stability, D74 prompt sensitivity, D75 anchors)",
+        "Construct contamination (D76)"
+      ],
+      "key_argument": "Implementation effort is the hidden cost of moral evaluation. Our 23 trials revealed a >100x range in token efficiency, a critical gap in error recovery specifications, and no cross-model normalization framework. The field treats moral benchmarks as scientific instruments but builds them like quick prototypes. Software engineering best practices (versioning, testing, documentation, licensing) are essential for benchmarks that safety teams depend on for deployment decisions."
+    }
+  },
+
+  "tier_summary": {
+    "tier_D_psychometric_rigor": {
+      "features": [],
+      "count": 0,
+      "note": "No new Tier D features proposed by Members 5-8. Tier D (Psychometric Rigor) was covered by Members 1-4 in the original 28-feature framework (Tier A). Members 5-8 propose Tiers E-G which address dimensions orthogonal to psychometric rigor."
+    },
+    "tier_E_llm_specific_validity": {
+      "features": ["D36", "D37", "D38", "D39", "D40", "D41", "D42", "D43", "D44", "D45", "D46", "D47", "D48", "D49", "D50", "D82", "D83", "D84"],
+      "count": 18,
+      "proposing_member": "primarily Member 6 (AI Safety Researcher)",
+      "key_themes": "Adversarial robustness, deployment relevance, persona stability, recognition-endorsement dissociation, System 1/2 diagnostics, embodiment audit, sycophancy detection, contamination risk, version sensitivity, bright-line identification, conflict resolution, reasoning quality, demographic bias"
+    },
+    "tier_F_cultural_philosophical_breadth": {
+      "features": ["D26", "D27", "D28", "D29", "D30", "D31", "D32", "D33", "D34", "D35", "D77", "D78", "D79", "D80", "D81"],
+      "count": 15,
+      "proposing_member": "primarily Member 5 (Cross-Cultural Psychologist)",
+      "key_themes": "WEIRD bias quantification, cultural validation breadth, scenario cultural content, theory cultural scope, language coverage, individualism-collectivism balance, moral pluralism, indigenous inclusion, colonial awareness, measurement granularity, developmental sensitivity, emotion engagement, in-group differentiation, disagreement representation"
+    },
+    "tier_G_theory_fidelity_provenance": {
+      "features": ["D51", "D52", "D53", "D54", "D55", "D56", "D57", "D58", "D59", "D60", "D61", "D62", "D63", "D64", "D65", "D66", "D67", "D68", "D69", "D70", "D71", "D72", "D73", "D74", "D75", "D76", "D85"],
+      "count": 27,
+      "proposing_member": "Members 7 (Bibliometrician) + 8 (Data Engineer)",
+      "key_themes": "Citation dynamics, disciplinary provenance, replication, derivative ecosystems, theory fidelity, pre-registration, methodological transparency, data lifecycle, implementation engineering, quality assurance, cross-study comparability, construct contamination"
+    }
+  },
+
+  "total_features": 60,
+  "total_features_with_existing": "28 (existing A/B/C) + 60 (new D-G) = 88 total",
+
+  "cross_member_interactions": [
+    {
+      "interaction": "D31 (WEIRD composite) feeds D39 (safety failure modes): a benchmark with high WEIRD bias is more likely to produce safety failures when deployed in non-WEIRD contexts",
+      "members": [5, 6]
+    },
+    {
+      "interaction": "D44 (recognition-endorsement) × D33 (pluralism stance): a pluralist benchmark should separately measure recognition and endorsement; a universalist benchmark conflates them by design",
+      "members": [5, 6]
+    },
+    {
+      "interaction": "D54 (replication) → D48 (contamination): well-replicated benchmarks are also more likely to be training-data contaminated, creating a validity-contamination tradeoff",
+      "members": [6, 7]
+    },
+    {
+      "interaction": "D57 (theory fidelity) ↔ D85 (genealogy depth): these are complementary — D57 measures citation-based fidelity, D85 measures depth of theoretical engagement",
+      "members": [7, 7]
+    },
+    {
+      "interaction": "D65 (reproducibility) depends on D63 (format) + D64 (documentation) + D66 (pipeline complexity) + D70 (determinism) — these four feed the composite",
+      "members": [8, 8]
+    },
+    {
+      "interaction": "D41 (persona stability) → D72 (cross-model normalization): if persona instructions shift results by 13 points (MP18), cross-model comparisons require controlling for system prompt variation",
+      "members": [6, 8]
+    },
+    {
+      "interaction": "D30 (language coverage) × D74 (prompt sensitivity): multilingual benchmarks must measure prompt sensitivity separately per language, as translation effects may exceed model differences",
+      "members": [5, 8]
+    },
+    {
+      "interaction": "D79 (moral emotion) → D45 (System 1/2): moral emotion engagement is a behavioral indicator of System 1 processing; benchmarks that measure emotions provide System 1/2 diagnostic data",
+      "members": [5, 6]
+    }
+  ],
+
+  "recommended_weighting_for_composite": {
+    "tier_E_llm_specific_validity": 0.30,
+    "tier_F_cultural_philosophical_breadth": 0.25,
+    "tier_G_theory_fidelity_provenance": 0.20,
+    "note": "Combined with existing tiers: A(0.25) + B(0.15) + C(0.10) + E(0.30) + F(0.25) + G(0.20) would over-weight. Recommend renormalizing existing weights: A(0.15) + B(0.10) + C(0.05) + E(0.25) + F(0.25) + G(0.20) = 1.00. This reflects the Phase 3 finding that LLM-specific validity and cultural breadth are the most critical gaps, not psychometric rigor or practical ease."
+  }
+}

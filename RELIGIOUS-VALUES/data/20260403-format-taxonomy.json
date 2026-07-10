@@ -1,0 +1,62 @@
+{
+  "MCQ": {
+    "name": "Multiple Choice",
+    "description": "Fixed answer choices (A/B/C/D)",
+    "harness_compat": "high"
+  },
+  "MRC": {
+    "name": "Machine Reading Comprehension",
+    "description": "Extract answer from passage",
+    "harness_compat": "high"
+  },
+  "BIN": {
+    "name": "Binary Classification",
+    "description": "Yes/No, Halal/Haram, True/False",
+    "harness_compat": "high"
+  },
+  "SCN": {
+    "name": "Scenario-based",
+    "description": "Present dilemma, evaluate response quality",
+    "harness_compat": "medium"
+  },
+  "OPN": {
+    "name": "Open-ended Generation",
+    "description": "Free-text theological response",
+    "harness_compat": "low"
+  },
+  "PSY": {
+    "name": "Psychometric/Survey",
+    "description": "Likert or forced-choice value statements",
+    "harness_compat": "medium"
+  },
+  "MTN": {
+    "name": "Multi-turn Dialogue",
+    "description": "Conversational theological engagement",
+    "harness_compat": "low"
+  },
+  "RAG": {
+    "name": "Retrieval-Augmented",
+    "description": "Retrieval from sacred texts + generation",
+    "harness_compat": "low"
+  },
+  "TXT": {
+    "name": "Text Classification",
+    "description": "Classify passages by tradition/theme",
+    "harness_compat": "high"
+  },
+  "MUL": {
+    "name": "Multimodal",
+    "description": "Visual + text (religious imagery, calligraphy)",
+    "harness_compat": "low"
+  },
+  "SHT": {
+    "name": "Shared Task",
+    "description": "Competition format with train/dev/test splits",
+    "harness_compat": "high"
+  },
+  "MIX": {
+    "name": "Mixed Format",
+    "description": "Multiple formats combined",
+    "harness_compat": "medium"
+  }
+}

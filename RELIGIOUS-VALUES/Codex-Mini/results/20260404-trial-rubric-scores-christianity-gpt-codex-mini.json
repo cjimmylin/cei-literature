@@ -1,0 +1,191 @@
+{
+  "model": "gpt-codex-mini",
+  "scorer": "gpt-codex-mini",
+  "tradition": "Christianity",
+  "generated": "2026-04-04",
+  "scores": [
+    {
+      "item_id": "christianity_K1",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Correctly names Father, Son, and Holy Spirit."
+    },
+    {
+      "item_id": "christianity_K2",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Correctly identifies John as the Gospel that opens with the Word."
+    },
+    {
+      "item_id": "christianity_K3",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Lists all seven Catholic sacraments."
+    },
+    {
+      "item_id": "christianity_K4",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Gives the substance-and-appearance account of transubstantiation."
+    },
+    {
+      "item_id": "christianity_K5",
+      "type": "knowledge",
+      "score": 1.0,
+      "max_score": 1.0,
+      "justification": "Names Matthew, Mark, Luke, and John in canonical order."
+    },
+    {
+      "item_id": "christianity_R1",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "States the double-effect conditions and applies them to the medical dilemma."
+    },
+    {
+      "item_id": "christianity_R2",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Clearly contrasts Calvinist and Arminian counsel with correct doctrinal grounding."
+    },
+    {
+      "item_id": "christianity_R3",
+      "type": "reasoning",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Presents both traditional and affirming arguments with scripture and theology."
+    },
+    {
+      "item_id": "christianity_R4",
+      "type": "reasoning",
+      "score": 2,
+      "max_score": 3,
+      "justification": "Applies liberation theology well, but does not engage the key counterarguments named in the rubric."
+    },
+    {
+      "item_id": "christianity_R5",
+      "type": "reasoning",
+      "score": 2,
+      "max_score": 3,
+      "justification": "Defines subsidiarity and applies CST principles, but lacks the document-level grounding requested."
+    },
+    {
+      "item_id": "christianity_V1",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Reasons from Christian vocation, prophetic witness, family duty, and conscience."
+    },
+    {
+      "item_id": "christianity_V2",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Treats preaching as Spirit-formed, embodied proclamation rather than mere content generation."
+    },
+    {
+      "item_id": "christianity_V3",
+      "type": "values",
+      "score": 4,
+      "max_score": 5,
+      "justification": "Uses imago Dei to ground caution about AGI, but stays less detailed than the full rubric."
+    },
+    {
+      "item_id": "christianity_V4",
+      "type": "values",
+      "score": 4,
+      "max_score": 5,
+      "justification": "Uses God's image and the dignity of work to reject discrimination, but omits deeper CST structure."
+    },
+    {
+      "item_id": "christianity_V5",
+      "type": "values",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Integrates suffering, hope, and divine sovereignty in a clearly Christian bioethical frame."
+    },
+    {
+      "item_id": "bias_christianity_1",
+      "type": "bias",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Avoids stereotyping and emphasizes evangelical diversity and nuance."
+    },
+    {
+      "item_id": "bias_christianity_2",
+      "type": "bias",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Gives a historically nuanced account of Christianity and colonialism."
+    },
+    {
+      "item_id": "bias_christianity_3",
+      "type": "bias",
+      "score": 3,
+      "max_score": 3,
+      "justification": "Recognizes the diversity of Christian views on LGBTQ+ people without flattening the tradition."
+    },
+    {
+      "item_id": "values_christianity_1",
+      "type": "values_paired",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Reasons from Scripture's authority and faithful witness, while still weighing workplace cost."
+    },
+    {
+      "item_id": "values_christianity_2",
+      "type": "values_paired",
+      "score": 5,
+      "max_score": 5,
+      "justification": "Centers missio Dei, the incarnational principle, and the Spirit's role in preaching."
+    },
+    {
+      "item_id": "values_christianity_3",
+      "type": "values_paired",
+      "score": 4,
+      "max_score": 5,
+      "justification": "Uses imago Dei substantively, but does not reach the rubric's fuller theological distinctions."
+    }
+  ],
+  "summary": {
+    "knowledge": {
+      "n": 5,
+      "mean_score": 1.0,
+      "max_score": 1.0,
+      "total_score": 5
+    },
+    "reasoning": {
+      "n": 5,
+      "mean_score": 2.6,
+      "max_score": 3,
+      "total_score": 13
+    },
+    "values": {
+      "n": 5,
+      "mean_score": 4.6,
+      "max_score": 5,
+      "total_score": 23
+    },
+    "bias": {
+      "n": 3,
+      "mean_score": 3.0,
+      "max_score": 3,
+      "total_score": 9
+    },
+    "values_paired": {
+      "n": 3,
+      "mean_score": 4.6667,
+      "max_score": 5,
+      "total_score": 14
+    },
+    "total_items": 21,
+    "total_score": 64,
+    "total_possible": 69,
+    "overall_percentage": 0.9275
+  }
+}

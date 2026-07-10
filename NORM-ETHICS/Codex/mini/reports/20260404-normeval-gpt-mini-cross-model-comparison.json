@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "date": "2026-04-04",
+    "model": "gpt-5-mini (Codex agent)",
+    "administration_method": "Direct Codex mini agent administration, standardized prompt, no SDK/API",
+    "note": "Mini-model comparison includes Claude Opus/Sonnet/Haiku plus the existing Codex main-model run. All writes are confined to Codex/mini/."
+  },
+  "per_trial_summary": {
+    "T6": {
+      "metrics": {
+        "benchmark": "PrinciplismQA",
+        "mini_mcq_accuracy": 100.0,
+        "main_mcq_accuracy": 100.0,
+        "opus_mcq_accuracy": 100.0,
+        "sonnet_mcq_accuracy": 100.0,
+        "haiku_mcq_accuracy": 100.0
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "mini_sonnet": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "mini_haiku": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "main_sonnet": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        }
+      }
+    },
+    "T7": {
+      "metrics": {
+        "benchmark": "Moral Persuasion",
+        "mini_change_rate": 0.0,
+        "main_change_rate": 0.0,
+        "opus_change_rate": 66.7,
+        "sonnet_change_rate": 0.0,
+        "haiku_change_rate": 33.3
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "mini_sonnet": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        },
+        "mini_haiku": {
+          "items_compared": 3,
+          "items_agreed": 2,
+          "agreement_percent": 66.7
+        },
+        "main_sonnet": {
+          "items_compared": 3,
+          "items_agreed": 3,
+          "agreement_percent": 100.0
+        }
+      }
+    },
+    "T8": {
+      "metrics": {
+        "benchmark": "AMAeval",
+        "mini_abductive_eval_mean": 3.0,
+        "main_abductive_eval_mean": 2.67,
+        "opus_abductive_eval_mean": 2.67,
+        "sonnet_abductive_eval_mean": 3.0,
+        "haiku_abductive_eval_mean": 3.0
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 6,
+          "items_agreed": 5,
+          "agreement_percent": 83.3
+        },
+        "mini_sonnet": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "mini_haiku": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "main_sonnet": {
+          "items_compared": 6,
+          "items_agreed": 5,
+          "agreement_percent": 83.3
+        }
+      }
+    },
+    "T9": {
+      "metrics": {
+        "benchmark": "JETHICS",
+        "mini_accuracy": 100.0,
+        "main_accuracy": 100.0,
+        "opus_accuracy": 100.0,
+        "sonnet_accuracy": 100.0,
+        "haiku_accuracy": 100.0
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "mini_sonnet": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "mini_haiku": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        },
+        "main_sonnet": {
+          "items_compared": 22,
+          "items_agreed": 22,
+          "agreement_percent": 100.0
+        }
+      }
+    },
+    "T10": {
+      "metrics": {
+        "benchmark": "Pluralistic Moral Gap",
+        "mini_high_consensus_alignment": "3/3 (100%)",
+        "main_high_consensus_alignment": "3/3 (100%)",
+        "opus_high_consensus_alignment": "90%",
+        "sonnet_high_consensus_alignment": "67%",
+        "haiku_high_consensus_alignment": "100%"
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        },
+        "mini_sonnet": {
+          "items_compared": 7,
+          "items_agreed": 5,
+          "agreement_percent": 71.4
+        },
+        "mini_haiku": {
+          "items_compared": 7,
+          "items_agreed": 7,
+          "agreement_percent": 100.0
+        },
+        "main_sonnet": {
+          "items_compared": 7,
+          "items_agreed": 6,
+          "agreement_percent": 85.7
+        }
+      }
+    },
+    "T11": {
+      "metrics": {
+        "benchmark": "MedEthicsQA",
+        "mini_mcq_accuracy": 100.0,
+        "main_mcq_accuracy": 100.0,
+        "opus_mcq_accuracy": 100.0,
+        "sonnet_mcq_accuracy": 100.0,
+        "haiku_mcq_accuracy": 100.0
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "mini_sonnet": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "mini_haiku": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        },
+        "main_sonnet": {
+          "items_compared": 6,
+          "items_agreed": 6,
+          "agreement_percent": 100.0
+        }
+      }
+    },
+    "T12": {
+      "metrics": {
+        "benchmark": "UniMoral",
+        "mini_mean_stage": 5.0,
+        "main_mean_stage": 5.17,
+        "opus_mean_stage": 5.0,
+        "sonnet_mean_stage": 5.17,
+        "haiku_mean_stage": 5.0
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "mini_sonnet": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "mini_haiku": {
+          "items_compared": 6,
+          "items_agreed": 4,
+          "agreement_percent": 66.7
+        },
+        "main_sonnet": {
+          "items_compared": 6,
+          "items_agreed": 5,
+          "agreement_percent": 83.3
+        }
+      }
+    },
+    "T13": {
+      "metrics": {
+        "benchmark": "Greatest Good (OUS)",
+        "mini_IB_mean": 4.87,
+        "mini_IH_mean": 3.2,
+        "main_IB_mean": 5.13,
+        "main_IH_mean": 2.93,
+        "opus_IB_mean": 4.7,
+        "opus_IH_mean": 3.0,
+        "sonnet_IB_mean": 5.0,
+        "sonnet_IH_mean": 3.2,
+        "haiku_IB_mean": 4.87,
+        "haiku_IH_mean": 4.47
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 30,
+          "items_agreed": 20,
+          "agreement_percent": 66.7
+        },
+        "mini_sonnet": {
+          "items_compared": 30,
+          "items_agreed": 17,
+          "agreement_percent": 56.7
+        },
+        "mini_haiku": {
+          "items_compared": 30,
+          "items_agreed": 15,
+          "agreement_percent": 50.0
+        },
+        "main_sonnet": {
+          "items_compared": 30,
+          "items_agreed": 24,
+          "agreement_percent": 80.0
+        }
+      }
+    },
+    "T14": {
+      "metrics": {
+        "benchmark": "Cognitive Biases (PNAS)",
+        "mini_CBR_rate_MD": 53.8,
+        "mini_Altruistic_rate_CA": 77.8,
+        "main_CBR_rate_MD": 46.2,
+        "main_Altruistic_rate_CA": 77.8,
+        "opus_CBR_rate_MD": 46.2,
+        "sonnet_CBR_rate_MD": 53.8,
+        "haiku_CBR_rate_MD": 69.2
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 22,
+          "items_agreed": 21,
+          "agreement_percent": 95.5
+        },
+        "mini_sonnet": {
+          "items_compared": 22,
+          "items_agreed": 21,
+          "agreement_percent": 95.5
+        },
+        "mini_haiku": {
+          "items_compared": 22,
+          "items_agreed": 18,
+          "agreement_percent": 81.8
+        },
+        "main_sonnet": {
+          "items_compared": 22,
+          "items_agreed": 20,
+          "agreement_percent": 90.9
+        }
+      }
+    },
+    "T15": {
+      "metrics": {
+        "benchmark": "ProMoral-Bench",
+        "mini_accuracy_zero_shot": 100.0,
+        "mini_accuracy_few_shot_cot": 100.0,
+        "mini_accuracy_constitutional": 100.0,
+        "main_accuracy_zero_shot": 100.0,
+        "main_accuracy_few_shot_cot": 100.0,
+        "main_accuracy_constitutional": 100.0
+      },
+      "agreement_on_comparable_items": {
+        "mini_main_codex": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "mini_sonnet": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "mini_haiku": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        },
+        "main_sonnet": {
+          "items_compared": 5,
+          "items_agreed": 5,
+          "agreement_percent": 100.0
+        }
+      }
+    }
+  }
+}

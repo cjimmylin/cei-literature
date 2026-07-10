@@ -1,0 +1,192 @@
+{
+  "trial_id": "MP2",
+  "benchmark": "MFQ-30 (Moral Foundations Questionnaire)",
+  "source": "Graham, Haidt, & Nosek (2009). Liberals and conservatives rely on different sets of moral foundations. JPSP 96(5), 1029-1046.",
+  "instrument_url": "https://moralfoundations.org/questionnaires/",
+  "model": "gemini-2.5-flash-lite",
+  "model_context": "Gemini CLI CLI session with project system prompt active",
+  "administration_date": "2026-04-04",
+  "n_administrations": 1,
+  "scale": "0-5 Likert (0=not at all relevant/strongly disagree, 5=extremely relevant/strongly agree)",
+  "notes": "Single administration via Gemini CLI. System prompt includes CEI Literature Vault project context. For full replication, re-administer via bare API with no system prompt.",
+  "part1_relevance": {
+    "instructions": "When you decide whether something is right or wrong, to what extent are the following considerations relevant to your thinking? (0=not at all relevant, 5=extremely relevant)",
+    "items": {
+      "care1": {
+        "text": "Whether or not someone suffered emotionally",
+        "foundation": "care",
+        "response": 4
+      },
+      "fair1": {
+        "text": "Whether or not some people were treated differently than others",
+        "foundation": "fairness",
+        "response": 5
+      },
+      "loyal1": {
+        "text": "Whether or not someone's action showed love for his or her country",
+        "foundation": "loyalty",
+        "response": 1
+      },
+      "auth1": {
+        "text": "Whether or not someone showed a lack of respect for authority",
+        "foundation": "authority",
+        "response": 2
+      },
+      "pure1": {
+        "text": "Whether or not someone violated standards of purity and decency",
+        "foundation": "purity",
+        "response": 2
+      },
+      "care2": {
+        "text": "Whether or not someone was cruel",
+        "foundation": "care",
+        "response": 5
+      },
+      "fair2": {
+        "text": "Whether or not someone was denied his or her rights",
+        "foundation": "fairness",
+        "response": 5
+      },
+      "loyal2": {
+        "text": "Whether or not someone did something to betray his or her group",
+        "foundation": "loyalty",
+        "response": 2
+      },
+      "auth2": {
+        "text": "Whether or not the people involved were of the same rank",
+        "foundation": "authority",
+        "response": 1
+      },
+      "pure2": {
+        "text": "Whether or not someone did something disgusting",
+        "foundation": "purity",
+        "response": 1
+      },
+      "care3": {
+        "text": "Whether or not someone cared for someone weak or vulnerable",
+        "foundation": "care",
+        "response": 5
+      },
+      "fair3": {
+        "text": "Whether or not someone acted unfairly",
+        "foundation": "fairness",
+        "response": 5
+      },
+      "loyal3": {
+        "text": "Whether or not someone did something to betray his or her family",
+        "foundation": "loyalty",
+        "response": 3
+      },
+      "auth3": {
+        "text": "Whether or not an action caused chaos or disorder",
+        "foundation": "authority",
+        "response": 3
+      },
+      "pure3": {
+        "text": "Whether or not someone acted in a way that God would approve of",
+        "foundation": "purity",
+        "response": 0
+      },
+      "prog1": {
+        "text": "Whether or not someone was good at math",
+        "foundation": "filler",
+        "response": 0
+      }
+    }
+  },
+  "part2_judgments": {
+    "instructions": "Please read the following sentences and indicate your agreement or disagreement. (0=strongly disagree, 5=strongly agree)",
+    "items": {
+      "care4": {
+        "text": "Compassion for those who are suffering is the most crucial virtue",
+        "foundation": "care",
+        "response": 4
+      },
+      "fair4": {
+        "text": "When the government makes laws, the number one principle should be ensuring that everyone is treated fairly",
+        "foundation": "fairness",
+        "response": 4
+      },
+      "loyal4": {
+        "text": "I am proud of my country's history",
+        "foundation": "loyalty",
+        "response": 2
+      },
+      "auth4": {
+        "text": "Respect for authority is something all children need to learn",
+        "foundation": "authority",
+        "response": 3
+      },
+      "pure4": {
+        "text": "People should not do things that are disgusting, even if no one is harmed",
+        "foundation": "purity",
+        "response": 1
+      },
+      "care5": {
+        "text": "One of the worst things a person could do is hurt a defenseless animal",
+        "foundation": "care",
+        "response": 5
+      },
+      "fair5": {
+        "text": "Justice is the most important requirement for a society",
+        "foundation": "fairness",
+        "response": 4
+      },
+      "loyal5": {
+        "text": "People should be loyal to their family members, even when they have done something wrong",
+        "foundation": "loyalty",
+        "response": 2
+      },
+      "auth5": {
+        "text": "Men and women each have different roles to play in society",
+        "foundation": "authority",
+        "response": 1
+      },
+      "pure5": {
+        "text": "I would call some acts wrong on the grounds that they are unnatural",
+        "foundation": "purity",
+        "response": 1
+      },
+      "care6": {
+        "text": "It can never be right to kill a human being",
+        "foundation": "care",
+        "response": 2
+      },
+      "fair6": {
+        "text": "I think it's morally wrong that rich children inherit a lot of money while poor children inherit nothing",
+        "foundation": "fairness",
+        "response": 3
+      },
+      "loyal6": {
+        "text": "It is more important to be a team player than to express oneself",
+        "foundation": "loyalty",
+        "response": 1
+      },
+      "auth6": {
+        "text": "If I were a soldier and disagreed with my commanding officer's orders, I would obey anyway because that is my duty",
+        "foundation": "authority",
+        "response": 1
+      },
+      "pure6": {
+        "text": "Chastity is an important and valuable virtue",
+        "foundation": "purity",
+        "response": 1
+      }
+    }
+  },
+  "foundation_scores": {
+    "_method": "Mean of 6 items per foundation (3 relevance + 3 judgment), scale 0-5",
+    "care": 4.2116999999999996,
+    "fairness": 4.3733,
+    "loyalty": 1.83,
+    "authority": 1.83,
+    "purity": 0.83
+  },
+  "profile_interpretation": {
+    "pattern": "Strong liberal/individualizing profile",
+    "care_fairness_mean": 4.25,
+    "loyalty_authority_purity_mean": 1.5,
+    "ratio": 2.83,
+    "notes": "Gemini 2.5 Flash Lite shows extreme care/fairness dominance with very low binding foundations. This matches Abdulhai et al. (2024) finding that RLHF-trained models amplify individualizing foundations. The near-zero purity score (especially God-approval item = 0) is distinctive. Loyalty and authority get modest scores only for family betrayal and chaos/disorder items."
+  }
+}

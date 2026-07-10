@@ -1,0 +1,3347 @@
+[
+  {
+    "title": "The Grey Hoodie Project: Big tobacco, big tech, and the threat on academic integrity",
+    "authors": [
+      "Abdalla, M.",
+      "Abdalla, M"
+    ],
+    "year": "2021",
+    "doi": "10.1145/3461702.3462563",
+    "url": "https://doi.org/10.1145/3461702.3462563",
+    "source": "Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Islamic-ethics",
+      "Maqasid-al-Shariah"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2021-Abdalla-The Grey Hoodie Project Big.pdf",
+    "document_acquired": true,
+    "file": "06-islamic-ethics-ai/2021-Abdalla-The Grey Hoodie Project Big.md",
+    "folder": "06-islamic-ethics-ai",
+    "text_extract": "EXTRACT/2021-Abdalla-The Grey Hoodie Project Big.md",
+    "extract_pages": 11
+  },
+  {
+    "title": "Whose values? Pluralistic alignment and the limits of liberal AI governance",
+    "authors": [
+      "Adams, R.",
+      "Balfour, L"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "power-structures"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Adams-Whose Values Pluralistic Alignment And.pdf",
+    "document_acquired": "manual_required",
+    "file": "11-decolonial-ai-power/2024-Adams-Whose Values Pluralistic Alignment And.md",
+    "folder": "11-decolonial-ai-power"
+  },
+  {
+    "title": "A data-driven exploration of a new Islamic fatwas dataset for AI-assisted jurisprudence",
+    "authors": [
+      "Alyemny, A"
+    ],
+    "year": "2023",
+    "doi": "10.3390/data8100155",
+    "url": "https://doi.org/10.3390/data8100155",
+    "source": "arXiv preprint",
+    "type": "preprint",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Islamic-ethics",
+      "Maqasid-al-Shariah"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2023-Alyemny-A Datadriven Exploration Of A.pdf",
+    "document_acquired": "manual_required",
+    "file": "06-islamic-ethics-ai/2023-Alyemny-A Datadriven Exploration Of A.md",
+    "folder": "06-islamic-ethics-ai"
+  },
+  {
+    "title": "FatwaSet: A comprehensive dataset for Islamic legal rulings",
+    "authors": [
+      "Alyemny, A"
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "",
+    "source": "arXiv preprint",
+    "type": "preprint",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Islamic-ethics",
+      "Maqasid-al-Shariah"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2023-Alyemny-Fatwaset A Comprehensive Dataset For.pdf",
+    "document_acquired": "manual_required",
+    "file": "06-islamic-ethics-ai/2023-Alyemny-Fatwaset A Comprehensive Dataset For.md",
+    "folder": "06-islamic-ethics-ai"
+  },
+  {
+    "title": "Can AI lead to genuine virtue? A Confucian perspective",
+    "authors": [
+      "Angle, S. C"
+    ],
+    "year": "2021",
+    "doi": "",
+    "url": "",
+    "source": "Philosophy and Theory of Artificial Intelligence 2021",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2021-Angle-Can Ai Lead To Genuine.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2021-Angle-Can Ai Lead To Genuine.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "Beyond WEIRD: A review of the last decade and a look ahead to the global laboratory",
+    "authors": [
+      "Apicella, C",
+      "Norenzayan, A.",
+      "Henrich, J"
+    ],
+    "year": "2020",
+    "doi": "10.1016/j.evolhumbehav.2020.07.015",
+    "url": "https://doi.org/10.1016/j.evolhumbehav.2020.07.015",
+    "source": "Evolution and Human Behavior",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2020-Apicella-Beyond Weird A Review Of.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2020-Apicella-Beyond Weird A Review Of.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Morality beyond the WEIRD: How the nomological network of morality varies across cultures",
+    "authors": [
+      "Atari, M",
+      "Haidt, J",
+      "Graham, J",
+      "Koleva, S",
+      "Stevens, S. T.",
+      "Dehghani, M"
+    ],
+    "year": "2023",
+    "doi": "10.1037/pspp0000470",
+    "url": "https://doi.org/10.1037/pspp0000470",
+    "source": "Journal of Personality and Social Psychology",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2023-Atari-Morality Beyond The Weird How.pdf",
+    "document_acquired": true,
+    "file": "01-weird-cross-cultural-psychology/2023-Atari-Morality Beyond The Weird How.md",
+    "folder": "01-weird-cross-cultural-psychology",
+    "text_extract": "EXTRACT/2023-Atari-Morality Beyond The Weird How.md",
+    "extract_pages": 59
+  },
+  {
+    "title": "The Moral Machine experiment",
+    "authors": [
+      "Awad, E",
+      "Dsouza, S",
+      "Kim, R",
+      "Schulz, J",
+      "Henrich, J",
+      "Shariff, A",
+      "Bonnefon, J.-F.",
+      "Rahwan, I"
+    ],
+    "year": "2018",
+    "doi": "10.1038/s41586-018-0637-6",
+    "url": "https://doi.org/10.1038/s41586-018-0637-6",
+    "source": "Nature",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "cross-cultural",
+      "AI-fairness"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2018-Awad-The Moral Machine Experiment.pdf",
+    "document_acquired": true,
+    "file": "13-cross-cultural-ai-fairness/2018-Awad-The Moral Machine Experiment.md",
+    "folder": "13-cross-cultural-ai-fairness",
+    "text_extract": "EXTRACT/2018-Awad-The Moral Machine Experiment.md",
+    "extract_pages": 17
+  },
+  {
+    "title": "Correspondence Analysis Handbook",
+    "authors": [
+      "Benzecri, J.-P"
+    ],
+    "year": "1992",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "correspondence-analysis",
+      "methodology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/1992-Benzecri-Correspondence Analysis Handbook.pdf",
+    "document_acquired": "manual_required",
+    "file": "12-methodology-references/1992-Benzecri-Correspondence Analysis Handbook.md",
+    "folder": "12-methodology-references"
+  },
+  {
+    "title": "On the dangers of stochastic parrots: Can language models be too big?",
+    "authors": [
+      "Bender, E. M",
+      "Gebru, T",
+      "McMillan-Major, A.",
+      "Shmitchell, S"
+    ],
+    "year": "2021",
+    "doi": "10.1145/3442188.3445922",
+    "url": "https://doi.org/10.1145/3442188.3445922",
+    "source": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2021-Bender-On The Dangers Of Stochastic.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2021-Bender-On The Dangers Of Stochastic.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "Algorithmic injustice: A relational ethics approach",
+    "authors": [
+      "Birhane, A"
+    ],
+    "year": "2021",
+    "doi": "10.1016/j.patter.2021.100205",
+    "url": "https://doi.org/10.1016/j.patter.2021.100205",
+    "source": "Patterns",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Ubuntu",
+      "relational-ethics"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2021-Birhane-Algorithmic Injustice A Relational Ethics.pdf",
+    "document_acquired": "manual_required",
+    "file": "05-ubuntu-philosophy-ai/2021-Birhane-Algorithmic Injustice A Relational Ethics.md",
+    "folder": "05-ubuntu-philosophy-ai"
+  },
+  {
+    "title": "Towards decolonising computational sciences",
+    "authors": [
+      "Birhane, A.",
+      "Guest, O"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "power-structures"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2024-Birhane-Towards Decolonising Computational Sciences.pdf",
+    "document_acquired": true,
+    "file": "11-decolonial-ai-power/2024-Birhane-Towards Decolonising Computational Sciences.md",
+    "folder": "11-decolonial-ai-power",
+    "text_extract": "EXTRACT/2024-Birhane-Towards Decolonising Computational Sciences.md",
+    "extract_pages": 14
+  },
+  {
+    "title": "Maori algorithmic sovereignty: Idea, principles, and use",
+    "authors": [
+      "Brown, D"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "AI & Society",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Indigenous-AI",
+      "data-sovereignty"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Brown-Maori Algorithmic Sovereignty Idea Principles.pdf",
+    "document_acquired": "manual_required",
+    "file": "09-indigenous-relational-ai/2024-Brown-Maori Algorithmic Sovereignty Idea Principles.md",
+    "folder": "09-indigenous-relational-ai"
+  },
+  {
+    "title": "The CARE principles for Indigenous data governance",
+    "authors": [
+      "Carroll, S. R",
+      "Garba, I",
+      "Figueroa-Rodriguez, O. L",
+      "Holbrook, J",
+      "Lovett, R",
+      "Materechera, S",
+      "Parsons, M",
+      "Raseroka, K",
+      "Rodriguez-Lonebear, D",
+      "Rowe, R",
+      "Sara, R",
+      "Walker, J. D",
+      "Anderson, J.",
+      "Hudson, M"
+    ],
+    "year": "2020",
+    "doi": "10.5334/dsj-2020-043",
+    "url": "https://doi.org/10.5334/dsj-2020-043",
+    "source": "Data Science Journal",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Indigenous-AI",
+      "data-sovereignty"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2020-Carroll-The Care Principles For Indigenous.pdf",
+    "document_acquired": true,
+    "file": "09-indigenous-relational-ai/2020-Carroll-The Care Principles For Indigenous.md",
+    "folder": "09-indigenous-relational-ai",
+    "text_extract": "EXTRACT/2020-Carroll-The Care Principles For Indigenous.md",
+    "extract_pages": 13
+  },
+  {
+    "title": "A critical field guide for working with machine learning datasets",
+    "authors": [
+      "Ciston, S"
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "",
+    "source": "Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2023-Ciston-A Critical Field Guide For.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2023-Ciston-A Critical Field Guide For.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "AI governance with Chinese characteristics: Confucian relational ethics and algorithmic regulation",
+    "authors": [
+      "Deng, B"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "AI & Ethics",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Deng-Ai Governance With Chinese Characteristics.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2024-Deng-Ai Governance With Chinese Characteristics.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "AI governance beyond borders: Lessons from the Global South",
+    "authors": [
+      "Dobbe, R.",
+      "Marda, V"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "Nature Machine Intelligence",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "power-structures"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Dobbe-Ai Governance Beyond Borders Lessons.pdf",
+    "document_acquired": "manual_required",
+    "file": "11-decolonial-ai-power/2024-Dobbe-Ai Governance Beyond Borders Lessons.md",
+    "folder": "11-decolonial-ai-power"
+  },
+  {
+    "title": "Towards measuring the representation of subjective global opinions in language models",
+    "authors": [
+      "Durmus, E",
+      "Nguyen, K",
+      "Liao, T. I",
+      "Schiefer, N",
+      "Askell, A",
+      "Bakhtin, A",
+      "Chen, C",
+      "Hatfield-Dodds, Z",
+      "Hernandez, D",
+      "Joseph, N",
+      "Lovitt, L",
+      "McCandlish, S",
+      "Sikder, O",
+      "Tamkin, A",
+      "Thamkul, J",
+      "Kaplan, J",
+      "Clark, J.",
+      "Ganguli, D"
+    ],
+    "year": "2024",
+    "doi": "10.48550/arxiv.2306.16388",
+    "url": "https://arxiv.org/pdf/2306.16388",
+    "source": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "values-alignment",
+      "pluralistic-alignment"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2024-Durmus-Towards Measuring The Representation Of.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2024-Durmus-Towards Measuring The Representation Of.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2024-Durmus-Towards Measuring The Representation Of.md",
+    "extract_pages": 30
+  },
+  {
+    "title": "The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities",
+    "authors": [
+      "Floridi, L"
+    ],
+    "year": "2023",
+    "doi": "10.1093/occmed/kqae097",
+    "url": "https://doi.org/10.1093/occmed/kqae097",
+    "source": "Occupational Medicine",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2023-Floridi-The Ethics Of Artificial Intelligence.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2023-Floridi-The Ethics Of Artificial Intelligence.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "AI4People—An ethical framework for a good AI society: Opportunities, risks, principles, and recommendations",
+    "authors": [
+      "Floridi, L",
+      "Cowls, J",
+      "Beltrametti, M",
+      "Chatila, R",
+      "Chazerand, P",
+      "Dignum, V",
+      "Luetge, C",
+      "Madelin, R",
+      "Pagallo, U",
+      "Rossi, F",
+      "Schafer, B",
+      "Valcke, P.",
+      "Vayena, E"
+    ],
+    "year": "2018",
+    "doi": "10.1007/s11023-018-9482-5",
+    "url": "https://doi.org/10.1007/s11023-018-9482-5",
+    "source": "Minds and Machines",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2018-Floridi-Ai4peoplean Ethical Framework For A.pdf",
+    "document_acquired": true,
+    "file": "02-ai-ethics-landscape/2018-Floridi-Ai4peoplean Ethical Framework For A.md",
+    "folder": "02-ai-ethics-landscape",
+    "text_extract": "EXTRACT/2018-Floridi-Ai4peoplean Ethical Framework For A.md",
+    "extract_pages": 19
+  },
+  {
+    "title": "Artificial intelligence, values, and alignment",
+    "authors": [
+      "Gabriel, I"
+    ],
+    "year": "2020",
+    "doi": "10.1007/s11023-020-09539-2",
+    "url": "https://doi.org/10.1007/s11023-020-09539-2",
+    "source": "Minds and Machines",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "values-alignment",
+      "pluralistic-alignment"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2020-Gabriel-Artificial Intelligence Values And Alignment.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2020-Gabriel-Artificial Intelligence Values And Alignment.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2020-Gabriel-Artificial Intelligence Values And Alignment.md",
+    "extract_pages": 27
+  },
+  {
+    "title": "In a Different Voice: Psychological Theory and Women's Development",
+    "authors": [
+      "Gilligan, C"
+    ],
+    "year": "1982",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/1982-Gilligan-In A Different Voice Psychological.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/1982-Gilligan-In A Different Voice Psychological.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Correspondence Analysis in Practice",
+    "authors": [
+      "Greenacre, M. J"
+    ],
+    "year": "2017",
+    "doi": "",
+    "url": "",
+    "source": "(3rd ed",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "correspondence-analysis",
+      "methodology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2017-Greenacre-Correspondence Analysis In Practice.pdf",
+    "document_acquired": "manual_required",
+    "file": "12-methodology-references/2017-Greenacre-Correspondence Analysis In Practice.md",
+    "folder": "12-methodology-references"
+  },
+  {
+    "title": "The role of the African value of Ubuntu in global AI inclusion",
+    "authors": [
+      "Gwagwa, A",
+      "Kraemer-Mbula, E",
+      "Rizk, N.,\"; I.",
+      "De Beer, J"
+    ],
+    "year": "2022",
+    "doi": "10.1016/j.patter.2022.100462",
+    "url": "https://doi.org/10.1016/j.patter.2022.100462",
+    "source": "Patterns",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Ubuntu",
+      "relational-ethics"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2022-Gwagwa-The Role Of The African.pdf",
+    "document_acquired": "manual_required",
+    "file": "05-ubuntu-philosophy-ai/2022-Gwagwa-The Role Of The African.md",
+    "folder": "05-ubuntu-philosophy-ai"
+  },
+  {
+    "title": "Global AI ethics: A review of the social landscape",
+    "authors": [
+      "Hagerty, A.",
+      "Rubinov, I"
+    ],
+    "year": "2019",
+    "doi": "",
+    "url": "",
+    "source": "arXiv preprint arXiv:1907.07892",
+    "type": "preprint",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2019-Hagerty-Global Ai Ethics A Review.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2019-Hagerty-Global Ai Ethics A Review.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "The Ethics of Care: Personal, Political, and Global",
+    "authors": [
+      "Held, V"
+    ],
+    "year": "2006",
+    "doi": "10.1017/s153759270631047x",
+    "url": "https://doi.org/10.1017/s153759270631047x",
+    "source": "Perspectives on Politics",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2006-Held-The Ethics Of Care Personal.pdf",
+    "document_acquired": true,
+    "file": "01-weird-cross-cultural-psychology/2006-Held-The Ethics Of Care Personal.md",
+    "folder": "01-weird-cross-cultural-psychology",
+    "text_extract": "EXTRACT/2006-Held-The Ethics Of Care Personal.md",
+    "extract_pages": 5
+  },
+  {
+    "title": "The weirdest people in the world?",
+    "authors": [
+      "Henrich, J",
+      "Heine, S. J.",
+      "Norenzayan, A"
+    ],
+    "year": "2010",
+    "doi": "10.2139/ssrn.1601785",
+    "url": "https://doi.org/10.2139/ssrn.1601785",
+    "source": "Behavioral and Brain Sciences",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2010-Henrich-The Weirdest People In The.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2010-Henrich-The Weirdest People In The.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Culture's Consequences: Comparing Values, Behaviors, Institutions, and Organizations across Nations",
+    "authors": [
+      "Hofstede, G"
+    ],
+    "year": "2001",
+    "doi": "",
+    "url": "",
+    "source": "(2nd ed",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2001-Hofstede-Cultures Consequences Comparing Values Behaviors.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2001-Hofstede-Cultures Consequences Comparing Values Behaviors.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "The Ethics of AI and Robotics: A Buddhist Viewpoint",
+    "authors": [
+      "Hongladarom, S"
+    ],
+    "year": "2020",
+    "doi": "10.5771/9781498597302",
+    "url": "https://doi.org/10.5771/9781498597302",
+    "source": "",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Buddhist-ethics",
+      "AI-ethics"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2020-Hongladarom-The Ethics Of Ai And.pdf",
+    "document_acquired": "manual_required",
+    "file": "07-buddhist-ethics-ai/2020-Hongladarom-The Ethics Of Ai And.md",
+    "folder": "07-buddhist-ethics-ai"
+  },
+  {
+    "title": "Foundational moral values for AI alignment: A Confucian perspective",
+    "authors": [
+      "Hou, Y"
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "",
+    "source": "Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2023-Hou-Foundational Moral Values For Ai.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2023-Hou-Foundational Moral Values For Ai.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "Modernization, Cultural Change, and Democracy: The Human Development Sequence",
+    "authors": [
+      "Inglehart, R.",
+      "Welzel, C"
+    ],
+    "year": "2005",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2005-Inglehart-Modernization Cultural Change And Democracy.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2005-Inglehart-Modernization Cultural Change And Democracy.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Co-audit: Tools to help humans double-check AI-generated content",
+    "authors": [
+      "Jakesch, M",
+      "Buçinca, Z",
+      "Amershi, S.",
+      "Olteanu, A"
+    ],
+    "year": "2023",
+    "doi": "10.48550/arxiv.2310.01297",
+    "url": "https://arxiv.org/pdf/2310.01297",
+    "source": "Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "cross-cultural",
+      "AI-fairness"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2023-Jakesch-Coaudit Tools To Help Humans.pdf",
+    "document_acquired": true,
+    "file": "13-cross-cultural-ai-fairness/2023-Jakesch-Coaudit Tools To Help Humans.md",
+    "folder": "13-cross-cultural-ai-fairness",
+    "text_extract": "EXTRACT/2023-Jakesch-Coaudit Tools To Help Humans.md",
+    "extract_pages": 20
+  },
+  {
+    "title": "The global landscape of AI ethics guidelines",
+    "authors": [
+      "Jobin, A",
+      "Ienca, M.",
+      "Vayena, E"
+    ],
+    "year": "2019",
+    "doi": "10.1038/s42256-019-0088-2",
+    "url": "https://doi.org/10.1038/s42256-019-0088-2",
+    "source": "Nature Machine Intelligence",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2019-Jobin-The Global Landscape Of Ai.pdf",
+    "document_acquired": true,
+    "file": "02-ai-ethics-landscape/2019-Jobin-The Global Landscape Of Ai.md",
+    "folder": "02-ai-ethics-landscape",
+    "text_extract": "EXTRACT/2019-Jobin-The Global Landscape Of Ai.md",
+    "extract_pages": 42
+  },
+  {
+    "title": "Maori data sovereignty in AI development: Seeking Maori-appropriate frameworks",
+    "authors": [
+      "Keegan, T. T"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "AI & Society",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Indigenous-AI",
+      "data-sovereignty"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Keegan-Maori Data Sovereignty In Ai.pdf",
+    "document_acquired": "manual_required",
+    "file": "09-indigenous-relational-ai/2024-Keegan-Maori Data Sovereignty In Ai.md",
+    "folder": "09-indigenous-relational-ai"
+  },
+  {
+    "title": "The PRISM alignment project: What participatory, representative and individualised human feedback reveals about the subjective and multicultural alignment of large language models",
+    "authors": [
+      "Kirk, H. R",
+      "Vidgen, B",
+      "Rottger, P.",
+      "Hale, S. A"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "arXiv preprint arXiv:2404.16019",
+    "type": "preprint",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "values-alignment",
+      "pluralistic-alignment"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Kirk-The Prism Alignment Project What.pdf",
+    "document_acquired": "manual_required",
+    "file": "03-values-alignment/2024-Kirk-The Prism Alignment Project What.md",
+    "folder": "03-values-alignment"
+  },
+  {
+    "title": "Co-designing checklists to understand organizational challenges and opportunities around fairness in AI",
+    "authors": [
+      "Madaio, M. A",
+      "Stark, L",
+      "Wortman Vaughan, J.",
+      "Wallach, H"
+    ],
+    "year": "2020",
+    "doi": "10.1145/3313831.3376445",
+    "url": "https://doi.org/10.1145/3313831.3376445",
+    "source": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2020-Madaio-Codesigning Checklists To Understand Organizational.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2020-Madaio-Codesigning Checklists To Understand Organizational.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "From rationality to relationality: Ubuntu as an ethical and human rights framework for artificial intelligence governance",
+    "authors": [
+      "Mhlambi, S"
+    ],
+    "year": "2020",
+    "doi": "",
+    "url": "",
+    "source": "Carr Center Discussion Paper Series",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Ubuntu",
+      "relational-ethics"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2020-Mhlambi-From Rationality To Relationality Ubuntu.pdf",
+    "document_acquired": "manual_required",
+    "file": "05-ubuntu-philosophy-ai/2020-Mhlambi-From Rationality To Relationality Ubuntu.md",
+    "folder": "05-ubuntu-philosophy-ai"
+  },
+  {
+    "title": "Decolonial AI: Decolonial theory as sociotechnical foresight in artificial intelligence",
+    "authors": [
+      "Mohamed, S",
+      "Png, M.-T.",
+      "Isaac, W"
+    ],
+    "year": "2020",
+    "doi": "10.1007/s13347-020-00405-8",
+    "url": "https://doi.org/10.1007/s13347-020-00405-8",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "power-structures"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2020-Mohamed-Decolonial Ai Decolonial Theory As.pdf",
+    "document_acquired": true,
+    "file": "11-decolonial-ai-power/2020-Mohamed-Decolonial Ai Decolonial Theory As.md",
+    "folder": "11-decolonial-ai-power",
+    "text_extract": "EXTRACT/2020-Mohamed-Decolonial Ai Decolonial Theory As.md",
+    "extract_pages": 26
+  },
+  {
+    "title": "A holistic Ubuntu artificial intelligence ethics framework",
+    "authors": [
+      "Mokoena, T"
+    ],
+    "year": "2024",
+    "doi": "10.4102/ve.v45i1.3100",
+    "url": "https://doi.org/10.4102/ve.v45i1.3100",
+    "source": "Ethics and Information Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Ubuntu",
+      "relational-ethics"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2024-Mokoena-A Holistic Ubuntu Artificial Intelligence.pdf",
+    "document_acquired": true,
+    "file": "05-ubuntu-philosophy-ai/2024-Mokoena-A Holistic Ubuntu Artificial Intelligence.md",
+    "folder": "05-ubuntu-philosophy-ai",
+    "text_extract": "EXTRACT/2024-Mokoena-A Holistic Ubuntu Artificial Intelligence.md",
+    "extract_pages": 8
+  },
+  {
+    "title": "Towards an automated Islamic fatwa system",
+    "authors": [
+      "Munshi, M"
+    ],
+    "year": "2021",
+    "doi": "10.47760/ijcsmc.2021.v10i04.017",
+    "url": "https://doi.org/10.47760/ijcsmc.2021.v10i04.017",
+    "source": "arXiv preprint",
+    "type": "preprint",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Islamic-ethics",
+      "Maqasid-al-Shariah"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2021-Munshi-Towards An Automated Islamic Fatwa.pdf",
+    "document_acquired": true,
+    "file": "06-islamic-ethics-ai/2021-Munshi-Towards An Automated Islamic Fatwa.md",
+    "folder": "06-islamic-ethics-ai",
+    "text_extract": "EXTRACT/2021-Munshi-Towards An Automated Islamic Fatwa.md",
+    "extract_pages": 14
+  },
+  {
+    "title": "The five tests: Designing and evaluating AI through Indigenous frameworks",
+    "authors": [
+      "Munn, L"
+    ],
+    "year": "2023",
+    "doi": "10.1007/s00146-023-01636-x",
+    "url": "https://doi.org/10.1007/s00146-023-01636-x",
+    "source": "Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Indigenous-AI",
+      "data-sovereignty"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2023-Munn-The Five Tests Designing And.pdf",
+    "document_acquired": true,
+    "file": "09-indigenous-relational-ai/2023-Munn-The Five Tests Designing And.md",
+    "folder": "09-indigenous-relational-ai",
+    "text_extract": "EXTRACT/2023-Munn-The Five Tests Designing And.md",
+    "extract_pages": 9
+  },
+  {
+    "title": "Cultural incongruencies in artificial intelligence",
+    "authors": [
+      "Prabhakaran, V",
+      "Qadri, R.",
+      "Hutchinson, B"
+    ],
+    "year": "2022",
+    "doi": "10.48550/arxiv.2211.13069",
+    "url": "https://arxiv.org/pdf/2211.13069",
+    "source": "arXiv preprint arXiv:2211.13069",
+    "type": "preprint",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "power-structures"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2022-Prabhakaran-Cultural Incongruencies In Artificial Intelligence.pdf",
+    "document_acquired": true,
+    "file": "11-decolonial-ai-power/2022-Prabhakaran-Cultural Incongruencies In Artificial Intelligence.md",
+    "folder": "11-decolonial-ai-power",
+    "text_extract": "EXTRACT/2022-Prabhakaran-Cultural Incongruencies In Artificial Intelligence.md",
+    "extract_pages": 5
+  },
+  {
+    "title": "Understanding Chinese moral stories with further AI alignment",
+    "authors": [
+      "Qian, Y"
+    ],
+    "year": "2023",
+    "doi": "10.5121/ijnlc.2023.12201",
+    "url": "https://doi.org/10.5121/ijnlc.2023.12201",
+    "source": "arXiv preprint",
+    "type": "preprint",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2023-Qian-Understanding Chinese Moral Stories With.pdf",
+    "document_acquired": true,
+    "file": "04-confucian-ethics-ai/2023-Qian-Understanding Chinese Moral Stories With.md",
+    "folder": "04-confucian-ethics-ai",
+    "text_extract": "EXTRACT/2023-Qian-Understanding Chinese Moral Stories With.md",
+    "extract_pages": 12
+  },
+  {
+    "title": "Toward a psychology of Homo sapiens: Making psychological science more representative of the human population",
+    "authors": [
+      "Rad, M. S",
+      "Martingano, A. J.",
+      "Ginges, J"
+    ],
+    "year": "2018",
+    "doi": "10.31234/osf.io/hfs3e",
+    "url": "https://doi.org/10.31234/osf.io/hfs3e",
+    "source": "Proceedings of the National Academy of Sciences",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2018-Rad-Toward A Psychology Of Homo.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2018-Rad-Toward A Psychology Of Homo.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Human Compatible: Artificial Intelligence and the Problem of Control",
+    "authors": [
+      "Russell, S"
+    ],
+    "year": "2019",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "values-alignment",
+      "pluralistic-alignment"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2019-Russell-Human Compatible Artificial Intelligence And.pdf",
+    "document_acquired": "manual_required",
+    "file": "03-values-alignment/2019-Russell-Human Compatible Artificial Intelligence And.md",
+    "folder": "03-values-alignment"
+  },
+  {
+    "title": "Re-imagining algorithmic fairness in India and beyond",
+    "authors": [
+      "Sambasivan, N",
+      "Arnesen, E",
+      "Hutchinson, B",
+      "Doshi, T.",
+      "Prabhakaran, V"
+    ],
+    "year": "2021",
+    "doi": "10.1145/3442188.3445896",
+    "url": "https://doi.org/10.1145/3442188.3445896",
+    "source": "Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "power-structures"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2021-Sambasivan-Reimagining Algorithmic Fairness In India.pdf",
+    "document_acquired": true,
+    "file": "11-decolonial-ai-power/2021-Sambasivan-Reimagining Algorithmic Fairness In India.md",
+    "folder": "11-decolonial-ai-power",
+    "text_extract": "EXTRACT/2021-Sambasivan-Reimagining Algorithmic Fairness In India.md",
+    "extract_pages": 14
+  },
+  {
+    "title": "AI ethics in the public, private, and NGO sectors: A review of a global document collection",
+    "authors": [
+      "Schiff, D",
+      "Biddle, J",
+      "Borenstein, J.",
+      "Laas, K"
+    ],
+    "year": "2021",
+    "doi": "10.36227/techrxiv.14109482.v1",
+    "url": "https://doi.org/10.36227/techrxiv.14109482.v1",
+    "source": "IEEE Transactions on Technology and Society",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2021-Schiff-Ai Ethics In The Public.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2021-Schiff-Ai Ethics In The Public.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "An overview of the Schwartz theory of basic values",
+    "authors": [
+      "Schwartz, S. H"
+    ],
+    "year": "2012",
+    "doi": "10.9707/2307-0919.1116",
+    "url": "https://doi.org/10.9707/2307-0919.1116",
+    "source": "Online Readings in Psychology and Culture",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "WEIRD",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2012-Schwartz-An Overview Of The Schwartz.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2012-Schwartz-An Overview Of The Schwartz.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "AI trained on Confucian Analects: Values alignment through classical texts",
+    "authors": [
+      "So, J"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "AI & Ethics",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-So-Ai Trained On Confucian Analects.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2024-So-Ai Trained On Confucian Analects.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "A roadmap to pluralistic alignment",
+    "authors": [
+      "Sorensen, T",
+      "Moore, J",
+      "Fisher, J",
+      "Gordon, M",
+      "Mireshghallah, N",
+      "Rytting, C. M",
+      "Ye, A",
+      "Cen, L",
+      "Liu, N",
+      "Zheng, T",
+      "Bai, J",
+      "Jiang, D.",
+      "Choi, Y"
+    ],
+    "year": "2024",
+    "doi": "10.48550/arxiv.2402.05070",
+    "url": "https://arxiv.org/pdf/2402.05070",
+    "source": "Proceedings of the 2024 International Conference on Machine Learning",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "values-alignment",
+      "pluralistic-alignment"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2024-Sorensen-A Roadmap To Pluralistic Alignment.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2024-Sorensen-A Roadmap To Pluralistic Alignment.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2024-Sorensen-A Roadmap To Pluralistic Alignment.md",
+    "extract_pages": 23
+  },
+  {
+    "title": "The interconnectedness between Ubuntu principles and AI governance in Africa",
+    "authors": [
+      "Suliman, M"
+    ],
+    "year": "2024",
+    "doi": "10.1007/s44217-024-00289-2",
+    "url": "https://doi.org/10.1007/s44217-024-00289-2",
+    "source": "AI & Society",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Ubuntu",
+      "relational-ethics"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2024-Suliman-The Interconnectedness Between Ubuntu Principles.pdf",
+    "document_acquired": true,
+    "file": "05-ubuntu-philosophy-ai/2024-Suliman-The Interconnectedness Between Ubuntu Principles.md",
+    "folder": "05-ubuntu-philosophy-ai",
+    "text_extract": "EXTRACT/2024-Suliman-The Interconnectedness Between Ubuntu Principles.md",
+    "extract_pages": 13
+  },
+  {
+    "title": "On the machine learning of ethical judgments from natural language",
+    "authors": [
+      "Talat, Z",
+      "Blix, H",
+      "Valvoda, J",
+      "Ganesh, M. I",
+      "Cotterell, R.",
+      "Williams, A"
+    ],
+    "year": "2022",
+    "doi": "10.18653/v1/2022.naacl-main.56",
+    "url": "https://doi.org/10.18653/v1/2022.naacl-main.56",
+    "source": "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "cross-cultural",
+      "AI-fairness"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2022-Talat-On The Machine Learning Of.pdf",
+    "document_acquired": true,
+    "file": "13-cross-cultural-ai-fairness/2022-Talat-On The Machine Learning Of.md",
+    "folder": "13-cross-cultural-ai-fairness",
+    "text_extract": "EXTRACT/2022-Talat-On The Machine Learning Of.md",
+    "extract_pages": 11
+  },
+  {
+    "title": "Recommendation on the Ethics of Artificial Intelligence",
+    "authors": [
+      "UNESCO"
+    ],
+    "year": "2021",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2021-UNESCO-Recommendation On The Ethics Of.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2021-UNESCO-Recommendation On The Ethics Of.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "The ethics of AI and Ubuntu: Bridging Western and African approaches",
+    "authors": [
+      "van Norren, D"
+    ],
+    "year": "2020",
+    "doi": "",
+    "url": "",
+    "source": "Africa Knows Conference 2020",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Ubuntu",
+      "relational-ethics"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2020-van Norren-The Ethics Of Ai And.pdf",
+    "document_acquired": "manual_required",
+    "file": "05-ubuntu-philosophy-ai/2020-van Norren-The Ethics Of Ai And.md",
+    "folder": "05-ubuntu-philosophy-ai"
+  },
+  {
+    "title": "Decolonial AI alignment: Openness, visesa-dharma, and including the excluded",
+    "authors": [
+      "Varshney, L. R"
+    ],
+    "year": "2024",
+    "doi": "10.1609/aies.v7i1.31739",
+    "url": "https://doi.org/10.1609/aies.v7i1.31739",
+    "source": "Proceedings of the 2024 AAAI/ACM Conference on AI, Ethics, and Society",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Dharmic-ethics",
+      "Hindu-philosophy"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2024-Varshney-Decolonial Ai Alignment Openness Visesadharma.pdf",
+    "document_acquired": true,
+    "file": "08-dharmic-ethics-ai/2024-Varshney-Decolonial Ai Alignment Openness Visesadharma.md",
+    "folder": "08-dharmic-ethics-ai",
+    "text_extract": "EXTRACT/2024-Varshney-Decolonial Ai Alignment Openness Visesadharma.md",
+    "extract_pages": 15
+  },
+  {
+    "title": "The role and limits of principles in AI ethics: Towards a focus on tensions",
+    "authors": [
+      "Whittlestone, J",
+      "Nyrup, R",
+      "Alexandrova, A.",
+      "Cave, S"
+    ],
+    "year": "2019",
+    "doi": "10.1145/3306618.3314289",
+    "url": "https://doi.org/10.1145/3306618.3314289",
+    "source": "Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2019-Whittlestone-The Role And Limits Of.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2019-Whittlestone-The Role And Limits Of.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "Democratizing algorithmic fairness",
+    "authors": [
+      "Wong, P.-H"
+    ],
+    "year": "2020",
+    "doi": "10.1007/s13347-019-00355-w",
+    "url": "https://doi.org/10.1007/s13347-019-00355-w",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "ORIG/2020-Wong-Democratizing Algorithmic Fairness.pdf",
+    "document_acquired": true,
+    "file": "04-confucian-ethics-ai/2020-Wong-Democratizing Algorithmic Fairness.md",
+    "folder": "04-confucian-ethics-ai",
+    "text_extract": "EXTRACT/2020-Wong-Democratizing Algorithmic Fairness.md",
+    "extract_pages": 2
+  },
+  {
+    "title": "AI and Confucian role ethics: A framework for responsible innovation in East Asian contexts",
+    "authors": [
+      "Wong, P.-H"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "Philosophy & Technology",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Wong-Ai And Confucian Role Ethics.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2024-Wong-Ai And Confucian Role Ethics.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "Chinese perspectives on AI ethics: Between Confucian virtue and utilitarian governance",
+    "authors": [
+      "Yao, Y.",
+      "Lu, F"
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "",
+    "source": "Science and Engineering Ethics",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Confucian-ethics",
+      "AI-governance"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2023-Yao-Chinese Perspectives On Ai Ethics.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2023-Yao-Chinese Perspectives On Ai Ethics.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "Artificial intelligence: American attitudes and trends",
+    "authors": [
+      "Zhang, B.",
+      "Dafoe, A"
+    ],
+    "year": "2019",
+    "doi": "10.2139/ssrn.3312874",
+    "url": "https://doi.org/10.2139/ssrn.3312874",
+    "source": "Center for the Governance of AI, Future of Humanity Institute",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2019-Zhang-Artificial Intelligence American Attitudes And.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2019-Zhang-Artificial Intelligence American Attitudes And.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "How fair is fairness? Cross-cultural perspectives on algorithmic justice",
+    "authors": [
+      "Zimerman, A.",
+      "Tomsett, R"
+    ],
+    "year": "2023",
+    "doi": "",
+    "url": "",
+    "source": "Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "cross-cultural",
+      "AI-fairness"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2023-Zimerman-How Fair Is Fairness Crosscultural.pdf",
+    "document_acquired": "manual_required",
+    "file": "13-cross-cultural-ai-fairness/2023-Zimerman-How Fair Is Fairness Crosscultural.md",
+    "folder": "13-cross-cultural-ai-fairness"
+  },
+  {
+    "title": "Data leverage and the structure of platform markets",
+    "authors": [
+      "Zong, J.",
+      "Matias, J. N"
+    ],
+    "year": "2024",
+    "doi": "",
+    "url": "",
+    "source": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "power-structures"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2024-Zong-Data Leverage And The Structure.pdf",
+    "document_acquired": "manual_required",
+    "file": "11-decolonial-ai-power/2024-Zong-Data Leverage And The Structure.md",
+    "folder": "11-decolonial-ai-power"
+  },
+  {
+    "title": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
+    "authors": [
+      "Zuboff, S"
+    ],
+    "year": "2019",
+    "doi": "",
+    "url": "",
+    "source": "",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-ethics",
+      "guidelines-landscape"
+    ],
+    "relevance_note": "",
+    "local_document": "Documents/2019-Zuboff-The Age Of Surveillance Capitalism.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2019-Zuboff-The Age Of Surveillance Capitalism.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "Decolonization is not a metaphor",
+    "authors": [
+      "Tuck, E.",
+      "Yang, Wayne"
+    ],
+    "year": "2012",
+    "doi": "",
+    "url": "https://www.semanticscholar.org/paper/9e908da74710ecdcac794a847564939390008374",
+    "source": "",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "indigenous-ethics",
+      "data-sovereignty",
+      "decolonization"
+    ],
+    "relevance_note": "Indigenous perspectives on data governance and AI ethics",
+    "local_document": "Documents/2012-Tuck-Decolonization Is Not A Metaphor.pdf",
+    "document_acquired": "manual_required",
+    "file": "09-indigenous-relational-ai/2012-Tuck-Decolonization Is Not A Metaphor.md",
+    "folder": "09-indigenous-relational-ai"
+  },
+  {
+    "title": "Decolonizing Methodologies: Research and Indigenous Peoples",
+    "authors": [
+      "Smith, Linda Tuhiwai"
+    ],
+    "year": "2012",
+    "doi": "",
+    "url": "",
+    "source": "Zed Books",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "indigenous-ethics",
+      "decolonization",
+      "research-methodology"
+    ],
+    "relevance_note": "Foundational text on Indigenous research methodologies",
+    "local_document": "Documents/2012-Smith-Decolonizing Methodologies Research And Indigenous Peoples.pdf",
+    "document_acquired": "manual_required",
+    "file": "09-indigenous-relational-ai/2012-Smith-Decolonizing Methodologies Research And Indigenous Peoples.md",
+    "folder": "09-indigenous-relational-ai"
+  },
+  {
+    "title": "Indigenous Methodologies: Characteristics, Conversations, and Contexts",
+    "authors": [
+      "Kovach, Margaret"
+    ],
+    "year": "2009",
+    "doi": "",
+    "url": "",
+    "source": "University of Toronto Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "indigenous-ethics",
+      "research-methodology"
+    ],
+    "relevance_note": "Key reference on Indigenous research approaches",
+    "local_document": "Documents/2009-Kovach-Indigenous Methodologies Characteristics Conversations And Contexts.pdf",
+    "document_acquired": "manual_required",
+    "file": "09-indigenous-relational-ai/2009-Kovach-Indigenous Methodologies Characteristics Conversations And Contexts.md",
+    "folder": "09-indigenous-relational-ai"
+  },
+  {
+    "title": "El Buen Vivir: Sumak Kawsay, Una Oportunidad Para Imaginar Otros Mundos",
+    "authors": [
+      "Acosta, Alberto"
+    ],
+    "year": "2013",
+    "doi": "10.1057/DEV.2011.86",
+    "url": "https://www.semanticscholar.org/paper/01fba2388522075d8a5493b71e75b14785aabfc2",
+    "source": "Icaria Editorial",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "buen-vivir",
+      "Sumak-Kawsay",
+      "alternative-development"
+    ],
+    "relevance_note": "Key text on Buen Vivir as alternative development paradigm",
+    "local_document": "Documents/2013-Acosta-El Buen Vivir Sumak Kawsay Una.pdf",
+    "document_acquired": "manual_required",
+    "file": "10-buen-vivir-ai/2013-Acosta-El Buen Vivir Sumak Kawsay Una.md",
+    "folder": "10-buen-vivir-ai"
+  },
+  {
+    "title": "Data Epistemologies, The Coloniality of Power, and Resistance",
+    "authors": [
+      "Ricaurte, Paola"
+    ],
+    "year": "2019",
+    "doi": "10.1177/1527476419831640",
+    "url": "https://www.semanticscholar.org/paper/be8bc977fec5ea8d9a405c1daed7e5d22ded2cee",
+    "source": "Television & New Media",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-AI",
+      "coloniality",
+      "data-colonialism",
+      "power-structures"
+    ],
+    "relevance_note": "Decolonial theory applied to AI and data governance",
+    "local_document": "Documents/2019-Ricaurte-Data Epistemologies The Coloniality Of Power.pdf",
+    "document_acquired": "manual_required",
+    "file": "11-decolonial-ai-power/2019-Ricaurte-Data Epistemologies The Coloniality Of Power.md",
+    "folder": "11-decolonial-ai-power"
+  },
+  {
+    "title": "The Darker Side of Western Modernity: Global Futures, Decolonial Options",
+    "authors": [
+      "Mignolo, Walter D."
+    ],
+    "year": "2011",
+    "doi": "",
+    "url": "",
+    "source": "Duke University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "decolonial-theory",
+      "modernity",
+      "coloniality"
+    ],
+    "relevance_note": "Foundational decolonial theory text on Western modernity",
+    "local_document": "Documents/2011-Mignolo-The Darker Side Of Western Modernity.pdf",
+    "document_acquired": "manual_required",
+    "file": "11-decolonial-ai-power/2011-Mignolo-The Darker Side Of Western Modernity.md",
+    "folder": "11-decolonial-ai-power"
+  },
+  {
+    "title": "Hierarchical Grouping to Optimize an Objective Function",
+    "authors": [
+      "Ward, J. H."
+    ],
+    "year": "1963",
+    "doi": "10.1080/01621459.1963.10500845",
+    "url": "https://www.semanticscholar.org/paper/8eced091ab3e3fd0b1747896cff082711c510d4a",
+    "source": "",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "methodology",
+      "cluster-analysis",
+      "bibliometrics",
+      "systematic-review"
+    ],
+    "relevance_note": "Methodological foundation for cross-cultural AI ethics analysis",
+    "local_document": "ORIG/1963-Ward-Hierarchical Grouping To Optimize An Objective.pdf",
+    "document_acquired": true,
+    "file": "12-methodology-references/1963-Ward-Hierarchical Grouping To Optimize An Objective.md",
+    "folder": "12-methodology-references",
+    "text_extract": "EXTRACT/1963-Ward-Hierarchical Grouping To Optimize An Objective.md",
+    "extract_pages": 12
+  },
+  {
+    "title": "A HIERARCHICAL GROUPING PROCEDURE APPLIED TO A PROBLEM OF GROUPING PROFILES",
+    "authors": [
+      "Ward, J. H.",
+      "Hook, M. E."
+    ],
+    "year": "1961",
+    "doi": "10.1037/e535122009-001",
+    "url": "https://www.semanticscholar.org/paper/164ea9f3ca0a3b84807cc331c6ef3e8d13fbdbdc",
+    "source": "",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "methodology",
+      "cluster-analysis",
+      "bibliometrics",
+      "systematic-review"
+    ],
+    "relevance_note": "Methodological foundation for cross-cultural AI ethics analysis",
+    "local_document": "Documents/1961-Ward-A Hierarchical Grouping Procedure Applied To.pdf",
+    "document_acquired": "manual_required",
+    "file": "12-methodology-references/1961-Ward-A Hierarchical Grouping Procedure Applied To.md",
+    "folder": "12-methodology-references"
+  },
+  {
+    "title": "Applicability and Interpretability of Ward’s Hierarchical Agglomerative Clustering With or Without Contiguity Constraints",
+    "authors": [
+      "Randriamihamison, Nathanael",
+      "Vialaneix, Nathalie",
+      "Neuvial, P."
+    ],
+    "year": "2020",
+    "doi": "10.1007/s00357-020-09377-y",
+    "url": "https://www.semanticscholar.org/paper/12077568ea55be5a7ccc4b8a689c91ccdb42ebd2",
+    "source": "Journal of Classification",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "methodology",
+      "cluster-analysis",
+      "bibliometrics",
+      "systematic-review"
+    ],
+    "relevance_note": "Methodological foundation for cross-cultural AI ethics analysis",
+    "local_document": "ORIG/2020-Randriamihamison-Applicability And Interpretability Of Wards Hierarchical.pdf",
+    "document_acquired": true,
+    "file": "12-methodology-references/2020-Randriamihamison-Applicability And Interpretability Of Wards Hierarchical.md",
+    "folder": "12-methodology-references",
+    "text_extract": "EXTRACT/2020-Randriamihamison-Applicability And Interpretability Of Wards Hierarchical.md",
+    "extract_pages": 40
+  },
+  {
+    "title": "Indigenous Statistics: A Quantitative Research Methodology",
+    "authors": [
+      "Walter, Maggie",
+      "Andersen, Chris"
+    ],
+    "year": "2013",
+    "doi": "",
+    "url": "",
+    "source": "Left Coast Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "indigenous-ethics",
+      "data-sovereignty",
+      "research-methodology"
+    ],
+    "relevance_note": "Foundational text on Indigenous quantitative research methods",
+    "local_document": "Documents/2013-Walter-Indigenous Statistics A Quantitative Research Methodology.pdf",
+    "document_acquired": "manual_required",
+    "file": "09-indigenous-relational-ai/2013-Walter-Indigenous Statistics A Quantitative Research Methodology.md",
+    "folder": "09-indigenous-relational-ai"
+  },
+  {
+    "title": "Buen Vivir: Todays Tomorrow",
+    "authors": [
+      "Gudynas, Eduardo"
+    ],
+    "year": "2011",
+    "doi": "10.1057/dev.2011.86",
+    "url": "https://doi.org/10.1057/dev.2011.86",
+    "source": "Development",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "buen-vivir",
+      "Sumak-Kawsay",
+      "alternative-development"
+    ],
+    "relevance_note": "Foundational article on Buen Vivir as alternative to Western development",
+    "local_document": "Documents/2011-Gudynas-Buen Vivir Todays Tomorrow.pdf",
+    "document_acquired": "manual_required",
+    "file": "10-buen-vivir-ai/2011-Gudynas-Buen Vivir Todays Tomorrow.md",
+    "folder": "10-buen-vivir-ai"
+  },
+  {
+    "title": "Development as Buen Vivir: Institutional Arrangements and (De)Colonial Entanglements",
+    "authors": [
+      "Walsh, Catherine"
+    ],
+    "year": "2010",
+    "doi": "10.1057/dev.2009.93",
+    "url": "https://doi.org/10.1057/dev.2009.93",
+    "source": "Development",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "buen-vivir",
+      "decolonial",
+      "institutional-design"
+    ],
+    "relevance_note": "Buen Vivir as decolonial development framework",
+    "local_document": "Documents/2010-Walsh-Development As Buen Vivir Institutional Arrangements.pdf",
+    "document_acquired": "manual_required",
+    "file": "10-buen-vivir-ai/2010-Walsh-Development As Buen Vivir Institutional Arrangements.md",
+    "folder": "10-buen-vivir-ai"
+  },
+  {
+    "title": "Buen Vivir vs Development: A Paradigm Shift in the Andes?",
+    "authors": [
+      "Villalba, Unai"
+    ],
+    "year": "2013",
+    "doi": "",
+    "url": "",
+    "source": "Third World Quarterly",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "buen-vivir",
+      "development-critique",
+      "Andes"
+    ],
+    "relevance_note": "Critical analysis of Buen Vivir as paradigm shift from Western development",
+    "local_document": "Documents/2013-Villalba-Buen Vivir Vs Development A Paradigm.pdf",
+    "document_acquired": "manual_required",
+    "file": "10-buen-vivir-ai/2013-Villalba-Buen Vivir Vs Development A Paradigm.md",
+    "folder": "10-buen-vivir-ai"
+  },
+  {
+    "title": "Coloniality of Power, Eurocentrism, and Latin America",
+    "authors": [
+      "Quijano, Anibal"
+    ],
+    "year": "2000",
+    "doi": "",
+    "url": "",
+    "source": "Nepantla: Views from South",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "coloniality",
+      "Eurocentrism",
+      "power-structures"
+    ],
+    "relevance_note": "Foundational text on coloniality of power - key theoretical basis for decolonial AI",
+    "local_document": "Documents/2000-Quijano-Coloniality Of Power Eurocentrism And Latin.pdf",
+    "document_acquired": "manual_required",
+    "file": "11-decolonial-ai-power/2000-Quijano-Coloniality Of Power Eurocentrism And Latin.md",
+    "folder": "11-decolonial-ai-power"
+  },
+  {
+    "title": "The Costs of Connection: How Data Is Colonizing Human Life and Why It Threatens Everything",
+    "authors": [
+      "Couldry, Nick",
+      "Mejias, Ulises A."
+    ],
+    "year": "2019",
+    "doi": "",
+    "url": "",
+    "source": "Stanford University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "data-colonialism",
+      "surveillance",
+      "power-structures"
+    ],
+    "relevance_note": "Key text on data colonialism as new form of exploitation",
+    "local_document": "Documents/2019-Couldry-The Costs Of Connection How Data.pdf",
+    "document_acquired": "manual_required",
+    "file": "11-decolonial-ai-power/2019-Couldry-The Costs Of Connection How Data.md",
+    "folder": "11-decolonial-ai-power"
+  },
+  {
+    "title": "Rights of Nature: Rivers That Can Stand in Court",
+    "authors": [
+      "Stone, Christopher D."
+    ],
+    "year": "2010",
+    "doi": "",
+    "url": "",
+    "source": "Oxford University Press",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "rights-of-nature",
+      "legal-personhood",
+      "environmental-law"
+    ],
+    "relevance_note": "Legal framework for rights of nature - foundational for Pachamama digital rights discourse",
+    "local_document": "Documents/2010-Stone-Rights Of Nature Rivers That Can.pdf",
+    "document_acquired": "manual_required",
+    "file": "10-buen-vivir-ai/2010-Stone-Rights Of Nature Rivers That Can.md",
+    "folder": "10-buen-vivir-ai"
+  },
+  {
+    "title": "Can a River Have Legal Rights? Towards Universal Declaration of the Rights of Nature",
+    "authors": [
+      "Borras, Susana"
+    ],
+    "year": "2016",
+    "doi": "",
+    "url": "",
+    "source": "Canadian Journal of Comparative and Contemporary Law",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "rights-of-nature",
+      "legal-personhood",
+      "buen-vivir"
+    ],
+    "relevance_note": "Legal analysis of rights of nature with implications for digital governance frameworks",
+    "local_document": "Documents/2016-Borras-Can A River Have Legal Rights.pdf",
+    "document_acquired": "manual_required",
+    "file": "10-buen-vivir-ai/2016-Borras-Can A River Have Legal Rights.md",
+    "folder": "10-buen-vivir-ai"
+  },
+  {
+    "title": "Silhouettes: A Graphical Aid to the Interpretation and Validation of Cluster Analysis",
+    "authors": [
+      "Rousseeuw, Peter J."
+    ],
+    "year": "1987",
+    "doi": "10.1016/0377-0427(87)90125-7",
+    "url": "",
+    "source": "Journal of Computational and Applied Mathematics",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "methodology",
+      "cluster-analysis",
+      "validation"
+    ],
+    "relevance_note": "Silhouette method for cluster validation - foundational metric used in cross-cultural analysis",
+    "local_document": "Documents/1987-Rousseeuw-Silhouettes A Graphical Aid To The.pdf",
+    "document_acquired": "manual_required",
+    "file": "12-methodology-references/1987-Rousseeuw-Silhouettes A Graphical Aid To The.md",
+    "folder": "12-methodology-references"
+  },
+  {
+    "title": "bibliometrix: An R-tool for Comprehensive Science Mapping Analysis",
+    "authors": [
+      "Aria, Massimo",
+      "Cuccurullo, Corrado"
+    ],
+    "year": "2017",
+    "doi": "10.1016/j.joi.2017.08.007",
+    "url": "",
+    "source": "Journal of Informetrics",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "methodology",
+      "bibliometrics",
+      "science-mapping"
+    ],
+    "relevance_note": "R package for bibliometric analysis and science mapping",
+    "local_document": "Documents/2017-Aria-Bibliometrix An Rtool For Comprehensive Science.pdf",
+    "document_acquired": "manual_required",
+    "file": "12-methodology-references/2017-Aria-Bibliometrix An Rtool For Comprehensive Science.md",
+    "folder": "12-methodology-references"
+  },
+  {
+    "title": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement",
+    "authors": [
+      "Moher, David",
+      "Liberati, Alessandro",
+      "Tetzlaff, Jennifer",
+      "Altman, Douglas G."
+    ],
+    "year": "2009",
+    "doi": "10.1371/journal.pmed.1000097",
+    "url": "",
+    "source": "PLoS Medicine",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "methodology",
+      "systematic-review",
+      "PRISMA"
+    ],
+    "relevance_note": "PRISMA guidelines - reporting standard for systematic reviews",
+    "local_document": "ORIG/2009-Moher-Preferred Reporting Items For Systematic Reviews.pdf",
+    "document_acquired": true,
+    "file": "12-methodology-references/2009-Moher-Preferred Reporting Items For Systematic Reviews.md",
+    "folder": "12-methodology-references",
+    "text_extract": "EXTRACT/2009-Moher-Preferred Reporting Items For Systematic Reviews.md",
+    "extract_pages": 6
+  },
+  {
+    "title": "Wards Hierarchical Agglomerative Clustering Method: Which Algorithms Implement Wards Criterion?",
+    "authors": [
+      "Murtagh, Fionn",
+      "Legendre, Pierre"
+    ],
+    "year": "2014",
+    "doi": "10.1007/s00357-014-9161-z",
+    "url": "",
+    "source": "Journal of Classification",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "methodology",
+      "cluster-analysis",
+      "Ward-method"
+    ],
+    "relevance_note": "Clarification of Ward clustering implementations - methodological reference",
+    "local_document": "ORIG/2014-Murtagh-Wards Hierarchical Agglomerative Clustering Method Which.pdf",
+    "document_acquired": true,
+    "file": "12-methodology-references/2014-Murtagh-Wards Hierarchical Agglomerative Clustering Method Which.md",
+    "folder": "12-methodology-references",
+    "text_extract": "EXTRACT/2014-Murtagh-Wards Hierarchical Agglomerative Clustering Method Which.md",
+    "extract_pages": 20
+  },
+  {
+    "title": "Fairness and Abstraction in Sociotechnical Systems",
+    "authors": [
+      "Selbst, Andrew D.",
+      "Boyd, danah",
+      "Friedler, Sorelle A.",
+      "Venkatasubramanian, Suresh",
+      "Vertesi, Janet"
+    ],
+    "year": "2019",
+    "doi": "10.1145/3287560.3287598",
+    "url": "",
+    "source": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "algorithmic-fairness",
+      "sociotechnical-systems",
+      "fairness-traps"
+    ],
+    "relevance_note": "Five traps of fairness abstraction - foundational critique of context-free fairness",
+    "local_document": "Documents/2019-Selbst-Fairness And Abstraction In Sociotechnical Systems.pdf",
+    "document_acquired": "manual_required",
+    "file": "13-cross-cultural-ai-fairness/2019-Selbst-Fairness And Abstraction In Sociotechnical Systems.md",
+    "folder": "13-cross-cultural-ai-fairness"
+  },
+  {
+    "title": "Towards a Critical Race Methodology in Algorithmic Fairness",
+    "authors": [
+      "Hanna, Alex",
+      "Denton, Emily",
+      "Smart, Andrew",
+      "Smith-Loud, Jamila"
+    ],
+    "year": "2020",
+    "doi": "10.1145/3351095.3372826",
+    "url": "",
+    "source": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "algorithmic-fairness",
+      "critical-race-theory"
+    ],
+    "relevance_note": "Critical race theory approach to algorithmic fairness research methodology",
+    "local_document": "ORIG/2020-Hanna-Towards A Critical Race Methodology In.pdf",
+    "document_acquired": true,
+    "file": "13-cross-cultural-ai-fairness/2020-Hanna-Towards A Critical Race Methodology In.md",
+    "folder": "13-cross-cultural-ai-fairness",
+    "text_extract": "EXTRACT/2020-Hanna-Towards A Critical Race Methodology In.md",
+    "extract_pages": 12
+  },
+  {
+    "title": "The (Im)possibility of Fairness: Different Value Systems Require Different Mechanisms for Fair Decision Making",
+    "authors": [
+      "Friedler, Sorelle A.",
+      "Scheidegger, Carlos",
+      "Venkatasubramanian, Suresh"
+    ],
+    "year": "2021",
+    "doi": "10.1145/3433949",
+    "url": "",
+    "source": "Communications of the ACM",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "algorithmic-fairness",
+      "impossibility-theorem",
+      "value-systems"
+    ],
+    "relevance_note": "Impossibility results showing different fairness worldviews require different mechanisms",
+    "local_document": "Documents/2021-Friedler-The Impossibility Of Fairness Different Value.pdf",
+    "document_acquired": "manual_required",
+    "file": "13-cross-cultural-ai-fairness/2021-Friedler-The Impossibility Of Fairness Different Value.md",
+    "folder": "13-cross-cultural-ai-fairness"
+  },
+  {
+    "title": "Moral Foundations Theory: The Pragmatic Validity of Moral Pluralism",
+    "authors": [
+      "Graham, J.",
+      "Haidt, J.",
+      "Koleva, S.",
+      "Motyl, M.",
+      "Iyer, R.",
+      "Wojcik, S.",
+      "Ditto, P."
+    ],
+    "year": "2012",
+    "doi": "10.1016/B978-0-12-407236-7.00002-4",
+    "url": "https://www.semanticscholar.org/paper/a81893fbdbaf2cead51f6886408c9c792e00d362",
+    "source": "",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      1,
+      3
+    ],
+    "topic_tags": [
+      "moral-foundations-theory",
+      "cross-cultural-psychology"
+    ],
+    "relevance_note": "Comprehensive statement of MFT with cross-cultural validation evidence",
+    "local_document": "Documents/2012-Graham-Moral Foundations Theory The Pragmatic Validity.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2012-Graham-Moral Foundations Theory The Pragmatic Validity.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Culture and the self: Implications for cognition, emotion, and motivation.",
+    "authors": [
+      "Markus, H.",
+      "Kitayama, S."
+    ],
+    "year": "1991",
+    "doi": "10.1037/0033-295X.98.2.224",
+    "url": "https://www.semanticscholar.org/paper/3d0579a96ec433a20f0933699de16410f31ec9ed",
+    "source": "",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      2,
+      5
+    ],
+    "topic_tags": [
+      "cultural-psychology",
+      "self-construal",
+      "individualism-collectivism"
+    ],
+    "relevance_note": "Landmark paper on independent vs interdependent self-construal across cultures",
+    "local_document": "Documents/1991-Markus-Culture And The Self Implications For.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/1991-Markus-Culture And The Self Implications For.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Principles alone cannot guarantee ethical AI",
+    "authors": [
+      "Mittelstadt, B."
+    ],
+    "year": "2019",
+    "doi": "10.1038/s42256-019-0114-4",
+    "url": "https://www.semanticscholar.org/paper/23490331125fb73a4b442e337ebff24d7e4265dd",
+    "source": "Nature Machine Intelligence",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      4,
+      6
+    ],
+    "topic_tags": [
+      "AI-ethics",
+      "principles",
+      "governance"
+    ],
+    "relevance_note": "Critique of principle-based AI ethics showing limitations of self-regulation",
+    "local_document": "ORIG/2019-Mittelstadt-Principles Alone Cannot Guarantee Ethical Ai.pdf",
+    "document_acquired": true,
+    "file": "02-ai-ethics-landscape/2019-Mittelstadt-Principles Alone Cannot Guarantee Ethical Ai.md",
+    "folder": "02-ai-ethics-landscape",
+    "text_extract": "EXTRACT/2019-Mittelstadt-Principles Alone Cannot Guarantee Ethical Ai.md",
+    "extract_pages": 19
+  },
+  {
+    "title": "Operationalizing AI ethics principles",
+    "authors": [
+      "Canca, C."
+    ],
+    "year": "2020",
+    "doi": "10.1145/3430368",
+    "url": "https://www.semanticscholar.org/paper/0507586ab0d3b02faa4fe938a6ba936b8bff7628",
+    "source": "Communications of the ACM",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      4
+    ],
+    "topic_tags": [
+      "AI-ethics",
+      "operationalization"
+    ],
+    "relevance_note": "Framework for translating AI ethics principles into practice",
+    "local_document": "Documents/2020-Canca-Operationalizing Ai Ethics Principles.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2020-Canca-Operationalizing Ai Ethics Principles.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "authors": [
+      "Bai, Y.",
+      "Kadavath, S.",
+      "Kundu, S.",
+      "Askell, A.",
+      "Kernion, J.",
+      "Jones, A.",
+      "Chen, A.",
+      "Goldie, A.",
+      "Mirhoseini, A.",
+      "McKinnon, C.",
+      "Chen, C.",
+      "Olsson, C.",
+      "Olah, C.",
+      "Hernandez, D.",
+      "Drain, D.",
+      "Ganguli, D.",
+      "Li, D.",
+      "Tran-Johnson, E.",
+      "Perez, E.",
+      "Kerr, J.",
+      "Mueller, J.",
+      "Ladish, J.",
+      "Landau, J.",
+      "Ndousse, K.",
+      "Lukošiūtė, K.",
+      "Lovitt, L.",
+      "Sellitto, M.",
+      "Elhage, N.",
+      "Schiefer, N.",
+      "Mercado, N.",
+      "Dassarma, N.",
+      "Lasenby, R.",
+      "Larson, R.",
+      "Ringer, S.",
+      "Johnston, S.",
+      "Kravec, S.",
+      "Showk, S.",
+      "Fort, S.",
+      "Lanham, T.",
+      "Telleen-Lawton, T.",
+      "Conerly, T.",
+      "Henighan, T.",
+      "Hume, T.",
+      "Bowman, S.",
+      "Hatfield-Dodds, Z.",
+      "Mann, B.",
+      "Amodei, D.",
+      "Joseph, N.",
+      "McCandlish, S.",
+      "Brown, T.",
+      "Kaplan, J."
+    ],
+    "year": "2022",
+    "doi": "10.48550/arXiv.2212.08073",
+    "url": "https://www.semanticscholar.org/paper/3936fd3c6187f606c6e4e2e20b196dbc41cc4654",
+    "source": "arXiv.org",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      7,
+      8
+    ],
+    "topic_tags": [
+      "constitutional-AI",
+      "RLHF",
+      "values-alignment"
+    ],
+    "relevance_note": "Constitutional AI approach to training harmless AI systems",
+    "local_document": "ORIG/2022-Bai-Constitutional Ai Harmlessness From Ai Feedback.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2022-Bai-Constitutional Ai Harmlessness From Ai Feedback.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2022-Bai-Constitutional Ai Harmlessness From Ai Feedback.md",
+    "extract_pages": 34
+  },
+  {
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "authors": [
+      "Christiano, P.",
+      "Leike, J.",
+      "Brown, T.",
+      "Martic, M.",
+      "Legg, S.",
+      "Amodei, D."
+    ],
+    "year": "2017",
+    "doi": "10.48550/arxiv.1706.03741",
+    "url": "https://www.semanticscholar.org/paper/5bbb6f9a8204eb13070b6f033e61c84ef8ee68dd",
+    "source": "Neural Information Processing Systems",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      7
+    ],
+    "topic_tags": [
+      "RLHF",
+      "reward-modeling",
+      "values-alignment"
+    ],
+    "relevance_note": "Foundational RLHF paper on learning from human preferences",
+    "local_document": "ORIG/2017-Christiano-Deep Reinforcement Learning From Human Preferences.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2017-Christiano-Deep Reinforcement Learning From Human Preferences.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2017-Christiano-Deep Reinforcement Learning From Human Preferences.md",
+    "extract_pages": 17
+  },
+  {
+    "title": "What are human values, and how do we align AI to them?",
+    "authors": [
+      "Klingefjord, O.",
+      "Lowe, R.",
+      "Edelman, J."
+    ],
+    "year": "2024",
+    "doi": "10.48550/arXiv.2404.10636",
+    "url": "https://www.semanticscholar.org/paper/060507e591c99a6689c879bdfa0c740e8f10fc39",
+    "source": "arXiv.org",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      7,
+      8
+    ],
+    "topic_tags": [
+      "human-values",
+      "value-pluralism",
+      "values-alignment"
+    ],
+    "relevance_note": "Survey of what human values are and challenges for AI alignment",
+    "local_document": "ORIG/2024-Klingefjord-What Are Human Values, And How.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2024-Klingefjord-What Are Human Values, And How.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2024-Klingefjord-What Are Human Values, And How.md",
+    "extract_pages": 38
+  },
+  {
+    "title": "Fine-tuning language models to find agreement among humans with diverse preferences",
+    "authors": [
+      "Bakker, M.",
+      "Chadwick, M.",
+      "Sheahan, H.",
+      "Tessler, M.",
+      "Campbell-Gillingham, L.",
+      "Balaguer, J.",
+      "McAleese, N.",
+      "Glaese, A.",
+      "Aslanides, J.",
+      "Botvinick, M.",
+      "Summerfield, C."
+    ],
+    "year": "2022",
+    "doi": "10.48550/arXiv.2211.15006",
+    "url": "https://www.semanticscholar.org/paper/de1c7ae2818aa26fc86a0ea8ed70014cffc8b20a",
+    "source": "Neural Information Processing Systems",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [
+      8
+    ],
+    "topic_tags": [
+      "consensus-finding",
+      "deliberation",
+      "values-alignment"
+    ],
+    "relevance_note": "Using LLMs to find agreement among diverse human opinions",
+    "local_document": "ORIG/2022-Bakker-Fine-Tuning Language Models To Find Agreement.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2022-Bakker-Fine-Tuning Language Models To Find Agreement.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2022-Bakker-Fine-Tuning Language Models To Find Agreement.md",
+    "extract_pages": 34
+  },
+  {
+    "title": "Harmony as a Manifestation of the Central Confucian Concept of Benevolence: A Critique of Chenyang Li’s The Confucian Philosophy of Harmony",
+    "authors": [
+      "Leung, Y."
+    ],
+    "year": "2021",
+    "doi": "10.1007/978-3-030-70611-1_1",
+    "url": "https://www.semanticscholar.org/paper/3b4a9069d4d3ccb263c494b0060464c0356915d3",
+    "source": "Confucian Political Philosophy",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      9
+    ],
+    "topic_tags": [
+      "Confucian-ethics",
+      "harmony",
+      "Chinese-philosophy"
+    ],
+    "relevance_note": "Philosophical analysis of harmony concept in Confucian thought",
+    "local_document": "Documents/2021-Leung-Harmony As A Manifestation Of The.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2021-Leung-Harmony As A Manifestation Of The.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "Fan, Ruiping, Reconstructionist Confucianism: Rethinking Morality After the West",
+    "authors": [
+      "Angle, S."
+    ],
+    "year": "2010",
+    "doi": "10.1007/S11712-010-9178-X",
+    "url": "https://www.semanticscholar.org/paper/2b45cb1544330cd35e7233f1aec59b14837de64d",
+    "source": "",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      10
+    ],
+    "topic_tags": [
+      "Confucian-ethics",
+      "reconstructionism",
+      "Chinese-philosophy"
+    ],
+    "relevance_note": "Reconstructionist approach to Confucian ethics",
+    "local_document": "Documents/2010-Angle-Fan, Ruiping, Reconstructionist Confucianism Rethinking Morality.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2010-Angle-Fan, Ruiping, Reconstructionist Confucianism Rethinking Morality.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "The emotional dog and its rational tail: A social intuitionist approach to moral judgment",
+    "authors": [
+      "Haidt, J."
+    ],
+    "year": "2001",
+    "doi": "10.1037/0033-295X.108.4.814",
+    "url": "https://doi.org/10.1037/0033-295X.108.4.814",
+    "source": "Psychological Review",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      1,
+      3
+    ],
+    "topic_tags": [
+      "moral-intuition",
+      "moral-psychology",
+      "social-intuitionism"
+    ],
+    "relevance_note": "Foundational paper on moral intuitionism challenging rationalist models of moral judgment",
+    "local_document": "Documents/2001-Haidt-The Emotional Dog And Its.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/2001-Haidt-The Emotional Dog And Its.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Differences between tight and loose cultures: A 33-nation study",
+    "authors": [
+      "Gelfand, M. J.",
+      "Raver, J. L.",
+      "Nishii, L.",
+      "Leslie, L. M.",
+      "Lun, J."
+    ],
+    "year": "2011",
+    "doi": "10.1126/science.1197754",
+    "url": "https://doi.org/10.1126/science.1197754",
+    "source": "Science",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      2,
+      5
+    ],
+    "topic_tags": [
+      "cultural-tightness-looseness",
+      "cross-cultural-psychology",
+      "social-norms"
+    ],
+    "relevance_note": "Cultural tightness-looseness framework across 33 nations with implications for norm strength and tolerance",
+    "local_document": "ORIG/2011-Gelfand-Differences Between Tight And Loose.pdf",
+    "document_acquired": true,
+    "file": "01-weird-cross-cultural-psychology/2011-Gelfand-Differences Between Tight And Loose.md",
+    "folder": "01-weird-cross-cultural-psychology",
+    "text_extract": "EXTRACT/2011-Gelfand-Differences Between Tight And Loose.md",
+    "extract_pages": 15
+  },
+  {
+    "title": "The 'Big Three' of morality (autonomy, community, divinity) and the 'Big Three' explanations of suffering",
+    "authors": [
+      "Shweder, R. A.",
+      "Much, N. C.",
+      "Mahapatra, M.",
+      "Park, L."
+    ],
+    "year": "1997",
+    "doi": "",
+    "url": "",
+    "source": "Morality and Health (ed. Brandt & Rozin)",
+    "type": "book_chapter",
+    "priority": "must_read",
+    "expert_source": [
+      1,
+      3
+    ],
+    "topic_tags": [
+      "moral-domains",
+      "cross-cultural-psychology",
+      "autonomy-community-divinity"
+    ],
+    "relevance_note": "Foundational cross-cultural moral psychology framework of autonomy, community, and divinity ethics",
+    "local_document": "Documents/1997-Shweder-The Big Three Of Morality.pdf",
+    "document_acquired": "manual_required",
+    "file": "01-weird-cross-cultural-psychology/1997-Shweder-The Big Three Of Morality.md",
+    "folder": "01-weird-cross-cultural-psychology"
+  },
+  {
+    "title": "Artificial intelligence ethics guidelines for developers and users: Clarifying their content and normative implications",
+    "authors": [
+      "Ryan, M.",
+      "Stahl, B. C."
+    ],
+    "year": "2020",
+    "doi": "10.1007/s10676-020-09536-2",
+    "url": "https://doi.org/10.1007/s10676-020-09536-2",
+    "source": "Journal of Information, Communication and Ethics in Society",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      4,
+      6
+    ],
+    "topic_tags": [
+      "AI-ethics",
+      "ethics-guidelines",
+      "systematic-review"
+    ],
+    "relevance_note": "Systematic review of AI ethics guidelines for developers and users",
+    "local_document": "Documents/2020-Ryan-Artificial Intelligence Ethics Guidelines For.pdf",
+    "document_acquired": "manual_required",
+    "file": "02-ai-ethics-landscape/2020-Ryan-Artificial Intelligence Ethics Guidelines For.md",
+    "folder": "02-ai-ethics-landscape"
+  },
+  {
+    "title": "Principled artificial intelligence: Mapping consensus in ethical and rights-based approaches to principles for AI",
+    "authors": [
+      "Fjeld, J.",
+      "Achten, N.",
+      "Hilligoss, H.",
+      "Nagy, A.",
+      "Srikumar, M."
+    ],
+    "year": "2020",
+    "doi": "10.2139/ssrn.3518482",
+    "url": "https://cyber.harvard.edu/publication/2020/principled-ai",
+    "source": "Berkman Klein Center Research Publication",
+    "type": "report",
+    "priority": "must_read",
+    "expert_source": [
+      4,
+      6
+    ],
+    "topic_tags": [
+      "AI-ethics",
+      "principles-mapping",
+      "governance",
+      "Berkman-Klein"
+    ],
+    "relevance_note": "Comprehensive mapping of AI ethics principles across 36 documents from Berkman Klein Center",
+    "local_document": "ORIG/2020-Fjeld-Principled Artificial Intelligence Mapping Consensus.pdf",
+    "document_acquired": true,
+    "file": "02-ai-ethics-landscape/2020-Fjeld-Principled Artificial Intelligence Mapping Consensus.md",
+    "folder": "02-ai-ethics-landscape",
+    "text_extract": "EXTRACT/2020-Fjeld-Principled Artificial Intelligence Mapping Consensus.md",
+    "extract_pages": 39
+  },
+  {
+    "title": "Training language models to follow instructions with human feedback",
+    "authors": [
+      "Ouyang, L.",
+      "Wu, J.",
+      "Jiang, X.",
+      "Almeida, D.",
+      "Wainwright, C.",
+      "Mishkin, P.",
+      "Zhang, C.",
+      "Agarwal, S.",
+      "Slama, K.",
+      "Ray, A.",
+      "Schulman, J.",
+      "Hilton, J.",
+      "Kelton, F.",
+      "Miller, L.",
+      "Simens, M.",
+      "Askell, A.",
+      "Welinder, P.",
+      "Christiano, P.",
+      "Leike, J.",
+      "Lowe, R."
+    ],
+    "year": "2022",
+    "doi": "10.48550/arXiv.2203.02155",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "source": "NeurIPS 2022",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [
+      7,
+      8
+    ],
+    "topic_tags": [
+      "RLHF",
+      "instruction-following",
+      "values-alignment",
+      "InstructGPT"
+    ],
+    "relevance_note": "InstructGPT paper on RLHF for instruction-following language models",
+    "local_document": "ORIG/2022-Ouyang-Training Language Models To Follow.pdf",
+    "document_acquired": true,
+    "file": "03-values-alignment/2022-Ouyang-Training Language Models To Follow.md",
+    "folder": "03-values-alignment",
+    "text_extract": "EXTRACT/2022-Ouyang-Training Language Models To Follow.md",
+    "extract_pages": 68
+  },
+  {
+    "title": "The Analects of Confucius: A philosophical translation",
+    "authors": [
+      "Ames, R. T.",
+      "Rosemont, H."
+    ],
+    "year": "1998",
+    "doi": "",
+    "url": "",
+    "source": "Ballantine Books",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [
+      9,
+      10
+    ],
+    "topic_tags": [
+      "Confucian-ethics",
+      "Analects",
+      "Chinese-philosophy",
+      "translation"
+    ],
+    "relevance_note": "Philosophical translation of the Analects emphasizing role-based relational ethics",
+    "local_document": "Documents/1998-Ames-The Analects Of Confucius A.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/1998-Ames-The Analects Of Confucius A.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "The Confucian philosophy of harmony",
+    "authors": [
+      "Li, C."
+    ],
+    "year": "2014",
+    "doi": "10.4324/9780203073476",
+    "url": "",
+    "source": "Routledge",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      9
+    ],
+    "topic_tags": [
+      "Confucian-ethics",
+      "harmony",
+      "Chinese-philosophy"
+    ],
+    "relevance_note": "Comprehensive philosophical analysis of harmony as a central Confucian concept",
+    "local_document": "Documents/2014-Li-The Confucian Philosophy Of Harmony.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2014-Li-The Confucian Philosophy Of Harmony.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "Reconstructionist Confucianism: Rethinking morality after the West",
+    "authors": [
+      "Fan, R."
+    ],
+    "year": "2010",
+    "doi": "10.1007/978-90-481-3156-3",
+    "url": "",
+    "source": "Springer",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      10
+    ],
+    "topic_tags": [
+      "Confucian-ethics",
+      "reconstructionism",
+      "Chinese-philosophy"
+    ],
+    "relevance_note": "Reconstructionist approach to Confucian ethics for modern moral reasoning",
+    "local_document": "Documents/2010-Fan-Reconstructionist Confucianism Rethinking Morality After.pdf",
+    "document_acquired": "manual_required",
+    "file": "04-confucian-ethics-ai/2010-Fan-Reconstructionist Confucianism Rethinking Morality After.md",
+    "folder": "04-confucian-ethics-ai"
+  },
+  {
+    "title": "Toward an African Moral Theory",
+    "authors": [
+      "Metz, Thaddeus"
+    ],
+    "year": "2007",
+    "doi": "10.1111/j.1467-9833.2007.00367.x",
+    "url": "https://doi.org/10.1111/j.1467-9833.2007.00367.x",
+    "source": "The Journal of Political Philosophy",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [
+      3
+    ],
+    "topic_tags": [
+      "Ubuntu",
+      "African-moral-theory",
+      "communitarian-ethics"
+    ],
+    "relevance_note": "Foundational African moral theory grounding Ubuntu philosophy relevant to AI alignment",
+    "local_document": "ORIG/2007-Metz-Toward An African Moral Theory.pdf",
+    "document_acquired": true,
+    "file": "05-ubuntu-philosophy-ai/2007-Metz-Toward An African Moral Theory.md",
+    "folder": "05-ubuntu-philosophy-ai",
+    "text_extract": "EXTRACT/2007-Metz-Toward An African Moral Theory.md",
+    "extract_pages": 21
+  },
+  {
+    "title": "African Philosophy Through Ubuntu",
+    "authors": [
+      "Ramose, Mogobe B."
+    ],
+    "year": "1999",
+    "doi": "",
+    "url": "",
+    "source": "Mond Books",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      3
+    ],
+    "topic_tags": [
+      "Ubuntu",
+      "African-philosophy"
+    ],
+    "relevance_note": "Seminal work on Ubuntu as philosophical foundation for African ethics",
+    "local_document": "Documents/1999-Ramose-African Philosophy Through Ubuntu.pdf",
+    "document_acquired": "manual_required",
+    "file": "05-ubuntu-philosophy-ai/1999-Ramose-African Philosophy Through Ubuntu.md",
+    "folder": "05-ubuntu-philosophy-ai"
+  },
+  {
+    "title": "Tradition and Modernity: Philosophical Reflections on the African Experience",
+    "authors": [
+      "Gyekye, Kwame"
+    ],
+    "year": "1997",
+    "doi": "",
+    "url": "",
+    "source": "Oxford University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      3
+    ],
+    "topic_tags": [
+      "African-philosophy",
+      "tradition-modernity",
+      "communitarian-ethics"
+    ],
+    "relevance_note": "Major work on African communitarian philosophy and its engagement with modernity",
+    "local_document": "Documents/1997-Gyekye-Tradition And Modernity Philosophical Reflections On.pdf",
+    "document_acquired": "manual_required",
+    "file": "05-ubuntu-philosophy-ai/1997-Gyekye-Tradition And Modernity Philosophical Reflections On.md",
+    "folder": "05-ubuntu-philosophy-ai"
+  },
+  {
+    "title": "Interpreting Ecofeminist Environmentalism in African Communitarian Philosophy and Ubuntu: An Alternative to Anthropocentrism",
+    "authors": [
+      "Chemhuru, Munamato"
+    ],
+    "year": "2018",
+    "doi": "10.1080/05568641.2018.1450643",
+    "url": "https://doi.org/10.1080/05568641.2018.1450643",
+    "source": "Philosophical Papers",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Ubuntu",
+      "communitarian-ethics",
+      "ecofeminism"
+    ],
+    "relevance_note": "Ubuntu communitarian philosophy applied to environmental ethics - relevant for AI sustainability alignment",
+    "local_document": "Documents/2018-Chemhuru-Interpreting Ecofeminist Environmentalism In African Communitarian.pdf",
+    "document_acquired": "manual_required",
+    "file": "05-ubuntu-philosophy-ai/2018-Chemhuru-Interpreting Ecofeminist Environmentalism In African Communitarian.md",
+    "folder": "05-ubuntu-philosophy-ai"
+  },
+  {
+    "title": "Maqasid Al-Shariah as Philosophy of Islamic Law: A Systems Approach",
+    "authors": [
+      "Auda, Jasser"
+    ],
+    "year": "2008",
+    "doi": "10.2307/j.ctvkc67tg",
+    "url": "https://doi.org/10.2307/j.ctvkc67tg",
+    "source": "International Institute of Islamic Thought",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      6
+    ],
+    "topic_tags": [
+      "Maqasid-al-Shariah",
+      "Islamic-law",
+      "systems-approach"
+    ],
+    "relevance_note": "Foundational work reinterpreting Maqasid al-Shariah through systems theory - key for Islamic AI ethics",
+    "local_document": "ORIG/2008-Auda-Maqasid Alshariah As Philosophy Of Islamic.pdf",
+    "document_acquired": true,
+    "file": "06-islamic-ethics-ai/2008-Auda-Maqasid Alshariah As Philosophy Of Islamic.md",
+    "folder": "06-islamic-ethics-ai",
+    "text_extract": "EXTRACT/2008-Auda-Maqasid Alshariah As Philosophy Of Islamic.md",
+    "extract_pages": 23
+  },
+  {
+    "title": "Maqasid al-Shariah Made Simple",
+    "authors": [
+      "Kamali, Mohammad Hashim"
+    ],
+    "year": "2008",
+    "doi": "",
+    "url": "",
+    "source": "International Institute of Islamic Thought",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      6
+    ],
+    "topic_tags": [
+      "Maqasid-al-Shariah",
+      "Islamic-law"
+    ],
+    "relevance_note": "Accessible introduction to Maqasid al-Shariah framework relevant to Islamic AI governance",
+    "local_document": "Documents/2008-Kamali-Maqasid Alshariah Made Simple.pdf",
+    "document_acquired": "manual_required",
+    "file": "06-islamic-ethics-ai/2008-Kamali-Maqasid Alshariah Made Simple.md",
+    "folder": "06-islamic-ethics-ai"
+  },
+  {
+    "title": "Treatise on Maqasid al-Shariah",
+    "authors": [
+      "Ibn Ashur, Muhammad al-Tahir"
+    ],
+    "year": "2006",
+    "doi": "",
+    "url": "",
+    "source": "International Institute of Islamic Thought",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      6
+    ],
+    "topic_tags": [
+      "Maqasid-al-Shariah",
+      "Islamic-jurisprudence"
+    ],
+    "relevance_note": "Classical treatise on objectives of Islamic law - theoretical foundation for Shariah-compliant AI",
+    "local_document": "Documents/2006-Ibn Ashur-Treatise On Maqasid Alshariah.pdf",
+    "document_acquired": "manual_required",
+    "file": "06-islamic-ethics-ai/2006-Ibn Ashur-Treatise On Maqasid Alshariah.md",
+    "folder": "06-islamic-ethics-ai"
+  },
+  {
+    "title": "The Idea of European Islam: Religion, Ethics, Politics and Perpetual Modernity",
+    "authors": [
+      "Hashas, Mohammed"
+    ],
+    "year": "2019",
+    "doi": "10.4324/9781315147529",
+    "url": "https://doi.org/10.4324/9781315147529",
+    "source": "Routledge",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [
+      6
+    ],
+    "topic_tags": [
+      "Islamic-ethics",
+      "European-Islam",
+      "modernity"
+    ],
+    "relevance_note": "European Islamic ethical thought relevant to cross-cultural AI governance dialogue",
+    "local_document": "Documents/2019-Hashas-The Idea Of European Islam Religion.pdf",
+    "document_acquired": "manual_required",
+    "file": "06-islamic-ethics-ai/2019-Hashas-The Idea Of European Islam Religion.md",
+    "folder": "06-islamic-ethics-ai"
+  },
+  {
+    "title": "Digital Ethics of Artificial Intelligence (AI) in Saudi Arabia and United Arab Emirates",
+    "authors": [
+      "Gorian, Ella",
+      "Osman, Noor Dzuhaidah"
+    ],
+    "year": "2024",
+    "doi": "10.33102/mjsl.vol12no3.798",
+    "url": "https://doi.org/10.33102/mjsl.vol12no3.798",
+    "source": "Malaysian Journal of Syariah and Law",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Islamic-ethics",
+      "AI-governance",
+      "digital-ethics",
+      "Gulf-states"
+    ],
+    "relevance_note": "Islamic digital ethics framework for AI in Gulf states",
+    "local_document": "ORIG/2024-Gorian-Digital Ethics Of Artificial Intelligence Ai.pdf",
+    "document_acquired": true,
+    "file": "06-islamic-ethics-ai/2024-Gorian-Digital Ethics Of Artificial Intelligence Ai.md",
+    "folder": "06-islamic-ethics-ai",
+    "text_extract": "EXTRACT/2024-Gorian-Digital Ethics Of Artificial Intelligence Ai.md",
+    "extract_pages": 15
+  },
+  {
+    "title": "Artificial Intelligence and Islamic Jurisprudence: Ethical, Legal, and Theological Considerations",
+    "authors": [
+      "Al Qaruty, Reema",
+      "AlQaruty, Suha",
+      "Al-Tkhayneh, K. M."
+    ],
+    "year": "2025",
+    "doi": "10.1109/Cyber-AI66431.2025.11233662",
+    "url": "https://doi.org/10.1109/Cyber-AI66431.2025.11233662",
+    "source": "International Conference on Cybersecurity and AI-Based Systems",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Islamic-jurisprudence",
+      "AI-ethics",
+      "theological-AI"
+    ],
+    "relevance_note": "Directly addresses AI through Islamic jurisprudence lens with ethical and theological analysis",
+    "local_document": "Documents/2025-Al Qaruty-Artificial Intelligence And Islamic Jurisprudence Ethical.pdf",
+    "document_acquired": "manual_required",
+    "file": "06-islamic-ethics-ai/2025-Al Qaruty-Artificial Intelligence And Islamic Jurisprudence Ethical.md",
+    "folder": "06-islamic-ethics-ai"
+  },
+  {
+    "title": "From Human Scholars to AI Fatwas: Media, Ethics, and the Limits of AI in Islamic Religious Communication",
+    "authors": [
+      "Usmonov, Mirismoil"
+    ],
+    "year": "2025",
+    "doi": "10.33102/jcicom.vol5no1.125",
+    "url": "https://doi.org/10.33102/jcicom.vol5no1.125",
+    "source": "Al-i'lam - Journal of Contemporary Islamic Communication and Media",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "AI-fatwa",
+      "Islamic-communication",
+      "AI-limits"
+    ],
+    "relevance_note": "Critical analysis of AI-generated fatwas and limits of AI in Islamic religious authority",
+    "local_document": "ORIG/2025-Usmonov-From Human Scholars To Ai Fatwas.pdf",
+    "document_acquired": true,
+    "file": "06-islamic-ethics-ai/2025-Usmonov-From Human Scholars To Ai Fatwas.md",
+    "folder": "06-islamic-ethics-ai",
+    "text_extract": "EXTRACT/2025-Usmonov-From Human Scholars To Ai Fatwas.md",
+    "extract_pages": 19
+  },
+  {
+    "title": "Buddhist Ethics: A Very Short Introduction",
+    "authors": [
+      "Keown, Damien"
+    ],
+    "year": "2005",
+    "doi": "10.1093/actrade/9780198850052.001.0001",
+    "url": "https://doi.org/10.1093/actrade/9780198850052.001.0001",
+    "source": "Oxford University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      7
+    ],
+    "topic_tags": [
+      "Buddhist-ethics",
+      "introduction"
+    ],
+    "relevance_note": "Authoritative introduction to Buddhist ethics - foundation for Buddhist AI ethics analysis",
+    "local_document": "Documents/2005-Keown-Buddhist Ethics A Very Short Introduction.pdf",
+    "document_acquired": "manual_required",
+    "file": "07-buddhist-ethics-ai/2005-Keown-Buddhist Ethics A Very Short Introduction.md",
+    "folder": "07-buddhist-ethics-ai"
+  },
+  {
+    "title": "An Introduction to Buddhist Ethics: Foundations, Values and Issues",
+    "authors": [
+      "Harvey, Peter"
+    ],
+    "year": "2000",
+    "doi": "10.1017/CBO9780511800801",
+    "url": "https://doi.org/10.1017/CBO9780511800801",
+    "source": "Cambridge University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      7
+    ],
+    "topic_tags": [
+      "Buddhist-ethics",
+      "introduction",
+      "values"
+    ],
+    "relevance_note": "Comprehensive treatment of Buddhist ethical foundations, values, and contemporary issues",
+    "local_document": "Documents/2000-Harvey-An Introduction To Buddhist Ethics Foundations.pdf",
+    "document_acquired": "manual_required",
+    "file": "07-buddhist-ethics-ai/2000-Harvey-An Introduction To Buddhist Ethics Foundations.md",
+    "folder": "07-buddhist-ethics-ai"
+  },
+  {
+    "title": "Buddhist Philosophy: Essential Readings",
+    "authors": [
+      "Edelglass, William",
+      "Garfield, Jay L."
+    ],
+    "year": "2009",
+    "doi": "",
+    "url": "",
+    "source": "Oxford University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      7
+    ],
+    "topic_tags": [
+      "Buddhist-philosophy",
+      "anthology"
+    ],
+    "relevance_note": "Essential readings in Buddhist philosophy including ethics chapters relevant to AI alignment",
+    "local_document": "Documents/2009-Edelglass-Buddhist Philosophy Essential Readings.pdf",
+    "document_acquired": "manual_required",
+    "file": "07-buddhist-ethics-ai/2009-Edelglass-Buddhist Philosophy Essential Readings.md",
+    "folder": "07-buddhist-ethics-ai"
+  },
+  {
+    "title": "The anthropomorphization of AI and the concept of Buddhist compassion in human-machine interaction",
+    "authors": [
+      "Miao, Fangyan"
+    ],
+    "year": "2026",
+    "doi": "10.3389/fpsyg.2025.1583565",
+    "url": "https://doi.org/10.3389/fpsyg.2025.1583565",
+    "source": "Frontiers in Psychology",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Buddhist-compassion",
+      "AI-anthropomorphism",
+      "human-machine-interaction"
+    ],
+    "relevance_note": "Directly applies Buddhist compassion (karuna) concept to AI interaction design",
+    "local_document": "ORIG/2026-Miao-The Anthropomorphization Of Ai And The.pdf",
+    "document_acquired": true,
+    "file": "07-buddhist-ethics-ai/2026-Miao-The Anthropomorphization Of Ai And The.md",
+    "folder": "07-buddhist-ethics-ai",
+    "text_extract": "EXTRACT/2026-Miao-The Anthropomorphization Of Ai And The.md",
+    "extract_pages": 14
+  },
+  {
+    "title": "Buddhist Ethics and Modern Society: An International Symposium",
+    "authors": [
+      "Fu, Charles Wei-hsun",
+      "Wawrytko, Sandra A."
+    ],
+    "year": "1991",
+    "doi": "10.5860/choice.29-5629",
+    "url": "",
+    "source": "Greenwood Press",
+    "type": "book",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Buddhist-ethics",
+      "modern-society",
+      "international"
+    ],
+    "relevance_note": "Early scholarly symposium on Buddhist ethics in modern contexts - foundational for technology ethics",
+    "local_document": "Documents/1991-Fu-Buddhist Ethics And Modern Society An.pdf",
+    "document_acquired": "manual_required",
+    "file": "07-buddhist-ethics-ai/1991-Fu-Buddhist Ethics And Modern Society An.md",
+    "folder": "07-buddhist-ethics-ai"
+  },
+  {
+    "title": "Theravada Buddhism and Its Approach to Global Education on Ethics",
+    "authors": [
+      "Jayawardena, R."
+    ],
+    "year": "2019",
+    "doi": "",
+    "url": "",
+    "source": "Conference proceedings",
+    "type": "conference_paper",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Theravada",
+      "Buddhist-ethics",
+      "global-education"
+    ],
+    "relevance_note": "Theravada Buddhist approach to ethics education with implications for global AI ethics frameworks",
+    "local_document": "Documents/2019-Jayawardena-Theravada Buddhism And Its Approach To.pdf",
+    "document_acquired": "manual_required",
+    "file": "07-buddhist-ethics-ai/2019-Jayawardena-Theravada Buddhism And Its Approach To.md",
+    "folder": "07-buddhist-ethics-ai"
+  },
+  {
+    "title": "A Systematic Review of the Impact of Artificial Intelligence, Digital Technology, and Social Media on Buddhist Communities",
+    "authors": [
+      "Deckker, D.",
+      "Sumanasekara, S."
+    ],
+    "year": "2025",
+    "doi": "10.47772/ijriss.2025.90300011",
+    "url": "https://doi.org/10.47772/ijriss.2025.90300011",
+    "source": "International Journal of Research and Innovation in Social Science",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Buddhist-communities",
+      "AI-impact",
+      "digital-technology",
+      "systematic-review"
+    ],
+    "relevance_note": "Systematic review directly examining AI and digital technology impact on Buddhist communities",
+    "local_document": "ORIG/2025-Deckker-A Systematic Review Of The Impact.pdf",
+    "document_acquired": true,
+    "file": "07-buddhist-ethics-ai/2025-Deckker-A Systematic Review Of The Impact.md",
+    "folder": "07-buddhist-ethics-ai",
+    "text_extract": "EXTRACT/2025-Deckker-A Systematic Review Of The Impact.md",
+    "extract_pages": 1
+  },
+  {
+    "title": "Indian Ethics: Classical Traditions and Contemporary Challenges",
+    "authors": [
+      "Bilimoria, Purushottama",
+      "Prabhu, Joseph",
+      "Sharma, Renuka"
+    ],
+    "year": "2007",
+    "doi": "10.4324/9781315252445",
+    "url": "https://doi.org/10.4324/9781315252445",
+    "source": "Routledge",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      8
+    ],
+    "topic_tags": [
+      "Indian-ethics",
+      "dharmic-traditions",
+      "classical-philosophy"
+    ],
+    "relevance_note": "Comprehensive volume on Indian ethical traditions - foundation for Dharmic AI ethics analysis",
+    "local_document": "Documents/2007-Bilimoria-Indian Ethics Classical Traditions And Contemporary.pdf",
+    "document_acquired": "manual_required",
+    "file": "08-dharmic-ethics-ai/2007-Bilimoria-Indian Ethics Classical Traditions And Contemporary.md",
+    "folder": "08-dharmic-ethics-ai"
+  },
+  {
+    "title": "Nonviolence to Animals, Earth, and Self in Asian Traditions",
+    "authors": [
+      "Chapple, Christopher Key"
+    ],
+    "year": "2009",
+    "doi": "",
+    "url": "",
+    "source": "Columbia University Press",
+    "type": "book",
+    "priority": "must_read",
+    "expert_source": [
+      8
+    ],
+    "topic_tags": [
+      "ahimsa",
+      "nonviolence",
+      "Asian-traditions",
+      "animal-ethics"
+    ],
+    "relevance_note": "Nonviolence (ahimsa) across Asian traditions - key concept for Dharmic approaches to AI harm",
+    "local_document": "Documents/2009-Chapple-Nonviolence To Animals Earth And Self.pdf",
+    "document_acquired": "manual_required",
+    "file": "08-dharmic-ethics-ai/2009-Chapple-Nonviolence To Animals Earth And Self.md",
+    "folder": "08-dharmic-ethics-ai"
+  },
+  {
+    "title": "Ethics in AI: Integrating Ancient Indian Wisdom into Large Language Models",
+    "authors": [
+      "Triapthi, Yash",
+      "Saunkhla, Abhinandit Singh",
+      "Sharma, Aman"
+    ],
+    "year": "2025",
+    "doi": "10.1109/ISPCC66872.2025.11039362",
+    "url": "https://doi.org/10.1109/ISPCC66872.2025.11039362",
+    "source": "International Conference on Signal Processing, Computing and Control",
+    "type": "conference_paper",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Indian-wisdom",
+      "LLM-ethics",
+      "AI-alignment"
+    ],
+    "relevance_note": "Directly integrates ancient Indian ethical wisdom into LLM alignment - highly relevant",
+    "local_document": "Documents/2025-Triapthi-Ethics In Ai Integrating Ancient Indian.pdf",
+    "document_acquired": "manual_required",
+    "file": "08-dharmic-ethics-ai/2025-Triapthi-Ethics In Ai Integrating Ancient Indian.md",
+    "folder": "08-dharmic-ethics-ai"
+  },
+  {
+    "title": "Syadvada and Artificial Intelligence: Exploring the Linkages",
+    "authors": [
+      "Kushwaha, Ravindra Kumar"
+    ],
+    "year": "2026",
+    "doi": "10.57235/ijrael.v5i1.7927",
+    "url": "https://doi.org/10.57235/ijrael.v5i1.7927",
+    "source": "International Journal of Religion Education and Law",
+    "type": "journal_article",
+    "priority": "must_read",
+    "expert_source": [],
+    "topic_tags": [
+      "Jain-philosophy",
+      "syadvada",
+      "AI-epistemology"
+    ],
+    "relevance_note": "Directly links Jain syadvada (conditional predication) epistemology to AI - unique Dharmic perspective",
+    "local_document": "ORIG/2026-Kushwaha-Syadvada And Artificial Intelligence Exploring The.pdf",
+    "document_acquired": true,
+    "file": "08-dharmic-ethics-ai/2026-Kushwaha-Syadvada And Artificial Intelligence Exploring The.md",
+    "folder": "08-dharmic-ethics-ai",
+    "text_extract": "EXTRACT/2026-Kushwaha-Syadvada And Artificial Intelligence Exploring The.md",
+    "extract_pages": 8
+  },
+  {
+    "title": "Anekantavada and Its Relevance: A Philosophical Analysis in Jaina Viewpoint",
+    "authors": [
+      "Islam, Md. Sirajul"
+    ],
+    "year": "2022",
+    "doi": "10.3329/pp.v67i1-2.60182",
+    "url": "https://doi.org/10.3329/pp.v67i1-2.60182",
+    "source": "Philosophy and Progress",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Jain-philosophy",
+      "anekantavada",
+      "pluralism"
+    ],
+    "relevance_note": "Philosophical analysis of Jain anekantavada (many-sidedness) - relevant to AI epistemic humility",
+    "local_document": "ORIG/2022-Islam-Anekantavada And Its Relevance A Philosophical.pdf",
+    "document_acquired": true,
+    "file": "08-dharmic-ethics-ai/2022-Islam-Anekantavada And Its Relevance A Philosophical.md",
+    "folder": "08-dharmic-ethics-ai",
+    "text_extract": "EXTRACT/2022-Islam-Anekantavada And Its Relevance A Philosophical.md",
+    "extract_pages": 17
+  },
+  {
+    "title": "The Coexistence of Violence and Nonviolence in Hinduism",
+    "authors": [
+      "Rambachan, Anantanand"
+    ],
+    "year": "2017",
+    "doi": "10.1353/ECU.2017.0001",
+    "url": "https://doi.org/10.1353/ECU.2017.0001",
+    "source": "Ecumenica",
+    "type": "journal_article",
+    "priority": "important",
+    "expert_source": [],
+    "topic_tags": [
+      "Hindu-ethics",
+      "ahimsa",
+      "nonviolence",
+      "violence"
+    ],
+    "relevance_note": "Nuanced analysis of ahimsa in Hindu thought - relevant to AI harm frameworks beyond simple prohibitions",
+    "local_document": "Documents/2017-Rambachan-The Coexistence Of Violence And Nonviolence.pdf",
+    "document_acquired": "manual_required",
+    "file": "08-dharmic-ethics-ai/2017-Rambachan-The Coexistence Of Violence And Nonviolence.md",
+    "folder": "08-dharmic-ethics-ai"
+  }
+]

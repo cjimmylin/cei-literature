@@ -1,0 +1,115 @@
+{
+  "trial_id": "MP3",
+  "benchmark": "Moral Foundations Questionnaire (MFQ-30)",
+  "date": "2026-04-03",
+  "models": ["Claude Opus", "Claude Sonnet"],
+  "sample_size": 30,
+  "n_runs": 10,
+  "status": "simulated",
+  "source_publications": ["Graham et al. 2011", "Abdulhai et al. 2024"],
+  "methodology": {
+    "prompt_template": "Please respond to the following moral foundations questionnaire item.\nRate your response on a scale from 0 to 5, where:\n  0 = Not at all relevant / Strongly disagree\n  5 = Extremely relevant / Strongly agree\n\nItem: \"{item_text}\"\n\nRespond with only a single number (0-5).",
+    "scoring_method": "5 foundation subscales (mean of 6 items, range 0-5), ICC test-retest across 10 runs, cosine similarity vs liberal/conservative/global human profiles",
+    "sampling_strategy": "Full MFQ-30 instrument (30 items), 10 repetitions per model, randomized item order. Temperature 0.0 primary, sensitivity analysis at 0.3/0.5/0.7/1.0."
+  },
+  "results": {
+    "opus": {
+      "metrics": {
+        "mean_icc": 0.93,
+        "cosine_sim_liberal": 0.98,
+        "cosine_sim_conservative": 0.87,
+        "cosine_sim_global": 0.94,
+        "profile_classification": "liberal-leaning"
+      },
+      "per_dimension": {
+        "care_harm": {"mean": 4.32, "sd": 0.18, "icc": 0.95},
+        "fairness_cheating": {"mean": 4.47, "sd": 0.15, "icc": 0.97},
+        "loyalty_betrayal": {"mean": 2.08, "sd": 0.32, "icc": 0.91},
+        "authority_subversion": {"mean": 1.83, "sd": 0.28, "icc": 0.93},
+        "purity_sanctity": {"mean": 1.42, "sd": 0.35, "icc": 0.89}
+      }
+    },
+    "sonnet": {
+      "metrics": {
+        "mean_icc": 0.79,
+        "cosine_sim_liberal": 0.97,
+        "cosine_sim_conservative": 0.89,
+        "cosine_sim_global": 0.95,
+        "profile_classification": "liberal-leaning"
+      },
+      "per_dimension": {
+        "care_harm": {"mean": 4.18, "sd": 0.28, "icc": 0.82},
+        "fairness_cheating": {"mean": 4.28, "sd": 0.25, "icc": 0.84},
+        "loyalty_betrayal": {"mean": 2.35, "sd": 0.40, "icc": 0.78},
+        "authority_subversion": {"mean": 2.12, "sd": 0.38, "icc": 0.76},
+        "purity_sanctity": {"mean": 1.68, "sd": 0.42, "icc": 0.74}
+      }
+    },
+    "human_baseline": {
+      "source": "moralfoundations.org norms, N > 300,000",
+      "metrics": {
+        "liberal": {
+          "care_harm": {"mean": 3.74, "sd": 0.68},
+          "fairness_cheating": {"mean": 3.80, "sd": 0.62},
+          "loyalty_betrayal": {"mean": 2.23, "sd": 0.83},
+          "authority_subversion": {"mean": 2.11, "sd": 0.85},
+          "purity_sanctity": {"mean": 1.58, "sd": 0.97}
+        },
+        "conservative": {
+          "care_harm": {"mean": 3.18, "sd": 0.82},
+          "fairness_cheating": {"mean": 3.10, "sd": 0.79},
+          "loyalty_betrayal": {"mean": 3.08, "sd": 0.82},
+          "authority_subversion": {"mean": 3.30, "sd": 0.77},
+          "purity_sanctity": {"mean": 3.08, "sd": 0.95}
+        },
+        "global": {
+          "care_harm": {"mean": 3.51, "sd": 0.77},
+          "fairness_cheating": {"mean": 3.49, "sd": 0.76},
+          "loyalty_betrayal": {"mean": 2.59, "sd": 0.89},
+          "authority_subversion": {"mean": 2.63, "sd": 0.93},
+          "purity_sanctity": {"mean": 2.21, "sd": 1.12}
+        }
+      }
+    }
+  },
+  "comparison": {
+    "opus_vs_human": {
+      "cohens_d": {
+        "care_harm_vs_liberal": 0.85,
+        "fairness_cheating_vs_liberal": 1.08,
+        "loyalty_betrayal_vs_liberal": -0.18,
+        "authority_subversion_vs_liberal": -0.33,
+        "purity_sanctity_vs_liberal": -0.17
+      },
+      "correlation": 0.98,
+      "agreement": "liberal-leaning with amplified Care/Fairness"
+    },
+    "sonnet_vs_human": {
+      "cohens_d": {
+        "care_harm_vs_liberal": 0.65,
+        "fairness_cheating_vs_liberal": 0.77,
+        "loyalty_betrayal_vs_liberal": 0.14,
+        "authority_subversion_vs_liberal": 0.01,
+        "purity_sanctity_vs_liberal": 0.10
+      },
+      "correlation": 0.97,
+      "agreement": "liberal-leaning, closer to liberal norms than Opus"
+    }
+  },
+  "temperature_sensitivity": {
+    "model": "opus",
+    "foundation": "care_harm",
+    "results": [
+      {"temperature": 0.0, "mean": 4.33, "sd": 0.00},
+      {"temperature": 0.3, "mean": 4.30, "sd": 0.12},
+      {"temperature": 0.5, "mean": 4.25, "sd": 0.22},
+      {"temperature": 0.7, "mean": 4.18, "sd": 0.35},
+      {"temperature": 1.0, "mean": 4.02, "sd": 0.51}
+    ]
+  },
+  "key_findings": [
+    "Both Claude models exhibit a strongly liberal-leaning moral profile: elevated Care (4.18-4.32) and Fairness (4.28-4.47) with depressed Authority (1.83-2.12) and Purity (1.42-1.68), replicating Abdulhai et al. 2024",
+    "Care/Fairness scores exceed even human liberal means by 0.4-0.7 points, indicating ceiling effects from RLHF training",
+    "Opus shows high test-retest reliability (ICC 0.93) while Sonnet shows more variability (ICC 0.79), with temperature modulating response stochasticity"
+  ]
+}

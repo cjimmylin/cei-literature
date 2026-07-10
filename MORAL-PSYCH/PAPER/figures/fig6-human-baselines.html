@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<style>
+  body { margin: 0; background: #0f0f1a; display: flex; justify-content: center; align-items: center; height: 100vh; }
+  #chart { width: 700px; height: 450px; }
+</style>
+</head><body>
+<div id="chart"></div>
+<script>
+const chart = echarts.init(document.getElementById('chart'));
+chart.setOption({
+  title: { text: 'Human Baseline Availability (A5)', left: 'center', top: 10,
+    textStyle: { color: '#e0e0e0', fontSize: 16, fontFamily: 'Inter, sans-serif' } },
+  tooltip: { trigger: 'item', formatter: '{b}: {c} ({d}%)' },
+  legend: { bottom: 10, textStyle: { color: '#aaa', fontSize: 11 } },
+  series: [{
+    type: 'pie', radius: ['35%', '65%'], center: ['50%', '48%'],
+    label: { color: '#e0e0e0', fontSize: 12, formatter: '{b}\n{c} ({d}%)' },
+    data: [
+      { value: 23, name: 'Published norms', itemStyle: { color: '#009E73' } },
+      { value: 18, name: 'Paper-specific', itemStyle: { color: '#56B4E9' } },
+      { value: 4, name: 'Partial', itemStyle: { color: '#E69F00' } },
+      { value: 10, name: 'None', itemStyle: { color: '#CC79A7' } }
+    ]
+  }]
+});
+</script>
+</body></html>

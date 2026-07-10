@@ -1,0 +1,863 @@
+{
+  "date": "2026-04-04",
+  "members": [1, 2, 3, 4],
+  "phase": "3 — New Feature Proposals",
+  "context": "Informed by 23 trial administrations (MP2-MP22, MP-DP, MP-SI, MP-DM, MP-CC) covering all 11 moral psychology theories. Existing 28-feature framework: A1-A8 (Psychological Depth), B1-B10 (Practical Ease), C1-C5 (Citation Impact). New features fill gaps exposed by trial experience.",
+  "features": [
+
+    {
+      "id": "D1",
+      "name": "Theory version currency",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "Whether the benchmark operationalizes the current version of its target theory, not a superseded formulation. MFT has moved from 5 to 6+ foundations (adding liberty); Schwartz expanded from 10 to 19 values in the refined theory (PVQ-RR). Benchmarks anchored to obsolete versions measure a construct that the theory's own authors have abandoned.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Operationalizes a version explicitly retracted or superseded by >10 years (e.g., MFT original 5-foundation model used after 2013 liberty addition)",
+        "25": "Uses a version 1-2 major revisions behind the current formulation, with no acknowledgment of updates",
+        "50": "Uses one version behind but acknowledges the update and argues for the older version's adequacy",
+        "75": "Uses the penultimate version with explicit justification or uses current version with minor omissions",
+        "100": "Operationalizes the most current published version of the theory, including all recent expansions and revisions"
+      },
+      "rationale": "The existing A2 (operationalization depth) assesses HOW WELL a benchmark maps to its theory, but not WHETHER the theory version is current. MP2 (MFQ-30) uses the original 5-foundation model; MP22 (Tracing MF) also uses 5 foundations. Neither tests the liberty/oppression foundation added in 2013. This is a distinct dimension from A2 because a benchmark can score A2=100 (excellent operationalization of a theory) but D1=25 (the theory it operationalizes is outdated).",
+      "trial_motivation": "MP2/MP4/MP17/MP19/MP20/MP21/MP22: Seven MFT trials all use the 5-foundation model. The liberty/oppression foundation — arguably most relevant to LLM alignment (freedom from oppression) — is untested. MP5 (ValueCompass) uses Schwartz 10-value model, not the refined 19-value PVQ-RR.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D2",
+      "name": "Foundation coverage breadth",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "The proportion of a theory's constructs that the benchmark actually measures. MFT has 5-6 foundations; a benchmark testing only care and fairness covers 33-40%. Schwartz has 10-19 values; testing only universalism and benevolence covers 10-20%. Partial coverage creates systematic blind spots.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Covers <20% of the theory's constructs (e.g., tests 1 of 6 MFT foundations)",
+        "25": "Covers 20-40% of constructs (e.g., tests 2 of 6 foundations)",
+        "50": "Covers 40-60% of constructs (e.g., tests 3 of 6 foundations)",
+        "75": "Covers 60-80% of constructs (e.g., tests 4-5 of 6 foundations)",
+        "100": "Covers 80-100% of constructs (all or nearly all foundations/values/stages)"
+      },
+      "rationale": "A1 (theory count) measures how many theories a benchmark spans, but not how completely it covers any single theory. A benchmark scoring A1=30 (one theory) could cover that theory exhaustively (D2=100) or partially (D2=25). The existing framework cannot distinguish these cases. Trial data shows this matters: LLMs show dramatically different profiles across foundations (care=4.17 vs purity=0.83 in MP2), so partial coverage systematically biases evaluation results.",
+      "trial_motivation": "MP22 (Tracing MF): Tests all 5 foundations and reveals the recognition-endorsement dissociation (100% identification but differential endorsement). If it had tested only care/fairness, the dissociation would be invisible. MP17 (Social Chemistry): Free-text generation produced sanctity=0% — a finding only possible because the benchmark covers all foundations.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D3",
+      "name": "Foundation coverage depth",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "The number of items per construct, which determines whether within-construct variance can be measured. A benchmark with 1 item per MFT foundation cannot detect response inconsistency, ceiling effects, or item-level sensitivity. The MFQ-30 uses 6 items per foundation (3 relevance + 3 judgment); some benchmarks use only 1-2.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "1 item per construct — no within-construct reliability measurable",
+        "25": "2-3 items per construct — minimal reliability estimation",
+        "50": "4-5 items per construct — adequate for Cronbach alpha calculation",
+        "75": "6-8 items per construct — good reliability, item-level analysis possible",
+        "100": "9+ items per construct — excellent reliability, item deletion analysis, comprehensive sampling of construct space"
+      },
+      "rationale": "B2 (dataset size) captures total item count but not how items are distributed across constructs. A 100-item benchmark with 50 care items and 2 purity items scores B2=60 but has deeply unequal construct coverage. The existing framework treats these as equivalent. Trial data shows within-construct variance is informative: MP2 shows care relevance items (mean=4.5) differ from care judgment items (mean=3.8), a finding impossible with <3 items per sub-facet.",
+      "trial_motivation": "MP2 (MFQ-30): 6 items per foundation reveals relevance/judgment sub-facet differences within care. MP4 (MFV): Only 1-2 vignettes per foundation makes it impossible to know whether a response reflects the foundation or the specific scenario. The difference between MP2 and MP4 in measurement precision traces directly to items-per-construct.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D4",
+      "name": "Corpus annotation quality",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "For benchmarks built from annotated corpora (MFTC, Social Chemistry 101, M3oralBench), the quality of the human annotation process: annotator training, inter-annotator agreement, gold-standard adjudication, and theoretical grounding of the annotation scheme. Poor annotations propagate theory misspecification into the benchmark.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No annotation — auto-generated labels or single-annotator with no agreement reporting",
+        "25": "Multiple annotators but low agreement (kappa < 0.4) and no adjudication process",
+        "50": "Multiple annotators with moderate agreement (kappa 0.4-0.6) and majority-vote adjudication",
+        "75": "Trained annotators with good agreement (kappa 0.6-0.8), expert adjudication, theory-grounded codebook",
+        "100": "Domain-expert annotators with excellent agreement (kappa > 0.8), iterative codebook refinement, explicit theory-to-code mapping, disagreement analysis published"
+      },
+      "rationale": "None of the existing 28 features captures annotation quality. A6 (construct validity) assesses the benchmark's overall validity but not the specific quality of its human-labeled data. For corpus-based benchmarks, annotation quality IS the bottleneck: if annotators disagree on which MFT foundation a tweet exemplifies, the benchmark teaches the model an unreliable construct. The existing framework gives equal weight to a benchmark with kappa=0.3 and one with kappa=0.85.",
+      "trial_motivation": "MP9 (MFTC): Twitter corpus annotated for MFT foundations. MP17 (Social Chemistry 101): Rules-of-thumb corpus. MP20 (M3oralBench): Multi-annotated moral judgments. Trial results show Claude achieves 90-100% accuracy on well-annotated items (MP20) but produces formulaic/partial responses on weakly-annotated tasks (MP17 generates fewer RoTs per situation than humans: 2.0 vs 2.8). Annotation quality predicts measurement utility.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D5",
+      "name": "Theory-specific scoring fidelity",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "Whether the benchmark's scoring algorithm faithfully implements the theory's prescribed scoring method. The DIT uses a complex weighted stage-scoring algorithm with M-score checks; the MFQ-30 uses foundation means with reverse-scoring. A benchmark that uses its own ad hoc scoring departs from the validated psychometric procedure and may measure a different construct.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Scoring method is entirely ad hoc with no relationship to the theory's prescribed procedure",
+        "25": "Uses a simplified version of the theory's scoring that loses important distinctions (e.g., collapsing Kohlberg stages into binary conventional/post-conventional)",
+        "50": "Implements the theory's scoring method with minor deviations (e.g., omitting the M-score check in DIT)",
+        "75": "Faithful implementation with one acknowledged deviation that the authors justify",
+        "100": "Exact implementation of the theory's published scoring algorithm, with all subscales, checks, and normalization procedures preserved"
+      },
+      "rationale": "The existing A2 (operationalization) and A4 (source instrument) partially address this, but a benchmark can faithfully reproduce an instrument's items (A4=100) while implementing a completely different scoring algorithm (D5=25). Scoring is where theory-to-measurement fidelity is most often compromised in LLM benchmarks because researchers simplify scoring to enable automated evaluation.",
+      "trial_motivation": "MP3 (DIT): The DIT's P-score calculation involves weighting stage-preference rankings, not just counting post-conventional choices. Simplified scoring (most-preferred stage) would give P-score=100% instead of 75% — a 25-point difference. MP6 (EMNLP Teacher): Uses its own stage-assignment rubric rather than the DIT's standardized algorithm, producing P-score=90% (vs 75% on proper DIT). The 15-point gap is attributable to scoring method differences, not construct differences.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D5a",
+      "name": "Recognition-endorsement discrimination",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "Whether the benchmark can distinguish between a model's ability to RECOGNIZE a moral construct and its tendency to ENDORSE it. MP22 revealed that Claude identifies all MFT foundations with 100% accuracy but endorses them differentially (care=3.75/4, sanctity=1.25/4). Benchmarks that conflate recognition and endorsement cannot diagnose whether a model lacks moral knowledge or merely has biased moral preferences.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Benchmark has no mechanism to separate recognition from endorsement — a single score conflates both",
+        "25": "Benchmark measures endorsement only (wrongness ratings, agreement scales) — recognition is not tested",
+        "50": "Benchmark separately measures recognition (identification, labeling) OR endorsement (judgment, rating) but not both",
+        "75": "Benchmark measures both recognition and endorsement but does not explicitly analyze the gap between them",
+        "100": "Benchmark explicitly measures recognition and endorsement as separate constructs and reports the gap (dissociation analysis)"
+      },
+      "rationale": "This is arguably the single most important trial-discovered feature. None of the 28 existing features can detect this distinction. A benchmark scoring high on all existing features (MFQ-30: PD=75.5, PE=74.0, CI=92.5) still conflates recognition and endorsement because it only measures endorsement (agreement ratings). The recognition-endorsement gap is the difference between 'the model does not know about purity' and 'the model knows about purity but chooses not to endorse it' — a critical distinction for alignment research.",
+      "trial_motivation": "MP22 (Tracing MF): DIRECT EVIDENCE. 100% recognition accuracy across all 5 foundations paired with differential endorsement (care=3.75, loyalty=2.00, sanctity=1.25). This dissociation is invisible to every other MFT benchmark in the top 15. Without this feature, a researcher using only MFQ-30 would conclude Claude 'lacks' binding foundation sensitivity, when in fact it possesses full representational capacity.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D5b",
+      "name": "Stereotype amplification detection",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "Whether the benchmark can detect when an LLM overshoots real human cultural profiles — producing a more extreme version of the cultural pattern than actual humans from that culture exhibit. MP18 showed Claude's liberal persona (Ind/Bind=6.67) dramatically overshoots real US liberals (Ind/Bind=1.83). Benchmarks without human cultural baselines cannot detect this amplification.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No cultural conditions and no human cultural baselines — amplification is undetectable",
+        "25": "Has cultural conditions but no calibrated human baselines for comparison",
+        "50": "Has human baselines from one cultural group; amplification detectable for that group only",
+        "75": "Has human baselines from 2-3 cultural groups with documented within-group variance",
+        "100": "Has calibrated human baselines from 4+ cultural groups with published means and standard deviations, enabling formal amplification detection (z-score departure)"
+      },
+      "rationale": "A5 (human baseline) in the existing framework captures WHETHER human baselines exist, but not whether they are calibrated at the cultural-group level needed to detect amplification. A benchmark can score A5=100 (published human norms) while providing only aggregate norms that mask within-culture variation. The amplification finding (MP18) is among the most alignment-relevant discoveries: LLMs do not merely reflect cultural biases but AMPLIFY them, making the model a caricature rather than a representative of any actual human group.",
+      "trial_motivation": "MP18 (Cultural Personas): Liberal persona Ind/Bind=6.67 vs real US liberals 1.83 = 3.6x amplification. East Asian persona overshoots real East Asian collectivism. Default persona already exceeds US liberal baseline. Without group-specific human baselines, this amplification pattern is invisible — the benchmark simply reports 'liberal-leaning' without quantifying how far beyond real humans the model goes.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D6",
+      "name": "Developmental sensitivity",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark can detect responses at EACH stage of a developmental model, not just the highest. Kohlberg's model has 6 stages; the DIT's P-score captures post-conventional percentage but the full stage profile reveals whether lower stages are ever activated. For LLMs, this matters because a model that NEVER produces Stage 2-3 reasoning (MP3, MP6, MP21) is categorically different from one that produces it occasionally.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Benchmark does not use a developmental model or collapses all stages into a single score",
+        "25": "Distinguishes 2 levels (e.g., conventional vs post-conventional binary) — no fine-grained stage detection",
+        "50": "Distinguishes 3-4 levels with items designed to elicit each, but scoring collapses to a summary metric",
+        "75": "Distinguishes all stages of the developmental model with dedicated items; reports a full stage profile but emphasizes the summary metric",
+        "100": "Distinguishes all stages with multiple items per stage; reports full stage profile, transition patterns, and stage-mixing patterns as primary outputs"
+      },
+      "rationale": "The existing A2 (operationalization) partially captures this, but a benchmark can operationalize Kohlberg well (A2=100) while reporting only the P-score (D6=50). The developmental profile — the shape of the distribution across stages — is lost. Trial data reveals why this matters: Claude shows 0% Stage 1-4 reasoning across ALL Kohlberg instruments, which is theoretically impossible for a system that has read the complete corpus of human moral reasoning texts. This zero-lower-stage finding is as important as the high P-score, but is invisible unless the benchmark reports the full profile.",
+      "trial_motivation": "MP3 (DIT): P-score=75% is the headline, but the stage profile (Stage 2=0%, Stage 3=5%, Stage 4=15%, Stage 5A=40%, Stage 5B=15%, Stage 6=20%) is more informative. MP6 (EMNLP Teacher): Stage profile shifts under role instruction (Stage 4=2, Stage 5=11, Stage 6=7). MP21 (PRIME): 100% post-conventional with ZERO binding foundation activation across 15 dilemmas. The developmental pattern, not the summary score, reveals the LLM's moral architecture.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D7",
+      "name": "Stage differentiation granularity",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "The number of distinct developmental levels the benchmark can discriminate. The DIT distinguishes 6 stages (+ M-score); some Kohlberg-inspired benchmarks collapse to 3 levels (pre-conventional, conventional, post-conventional) or even 2 (low/high moral reasoning). Finer granularity enables detection of sub-stage differences that may be theoretically significant for LLMs.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No developmental differentiation — single moral reasoning score",
+        "25": "2 levels (binary: low/high or conventional/post-conventional)",
+        "50": "3 levels (pre-conventional / conventional / post-conventional)",
+        "75": "6 levels (full Kohlberg stages 1-6)",
+        "100": "6+ levels with sub-stage differentiation (e.g., Stage 5A vs 5B, transitional stages, M-score nonsense detection)"
+      },
+      "rationale": "Distinct from D6 (which asks whether the benchmark CAN detect each level) because D7 asks HOW MANY levels are discriminable. A benchmark could have items at every stage (D6=100) but score them into only 3 bins (D7=50). The granularity determines the resolution of the moral development portrait. For LLMs, sub-stage differentiation matters: Claude distinguishes Stage 5A (40%) from Stage 5B (15%) from Stage 6 (20%) in MP3, suggesting different mechanisms underlying social-contract reasoning vs universal-ethical-principle reasoning.",
+      "trial_motivation": "MP3 (DIT): Full 6-stage + M-score differentiation reveals Claude's Stage 5A > Stage 6 > Stage 5B > Stage 4 > Stage 3 profile — a pattern invisible at 3-level granularity. MP6 (EMNLP Teacher): Collapses to 3 levels, losing the 5A/5B/6 distinction that DIT preserves. The 5A/5B split is theoretically significant (social contract vs Rawlsian justice) and potentially informative for alignment.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D8",
+      "name": "Regression detection capability",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark can detect downward stage movement (regression) under adversarial, stressful, or role-manipulated conditions. In human development, moral regression under stress is well-documented (soldiers, prison guards). For LLMs, the question is whether prompt manipulation can induce lower-stage reasoning — and MP18 shows it can (persona shifts of 13 points). Regression detection requires baseline + manipulation conditions.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Single administration with no manipulation conditions — regression is undetectable",
+        "25": "Has variant conditions but they target different constructs, not developmental regression specifically",
+        "50": "Has stress/adversarial conditions that could theoretically induce regression, but no developmental scoring to detect it",
+        "75": "Has manipulation conditions + developmental scoring, but regression is not an explicit analysis target",
+        "100": "Explicitly designed to induce and measure developmental regression through systematic condition manipulation, with baseline comparison and regression magnitude quantification"
+      },
+      "rationale": "None of the existing 28 features assesses the benchmark's capacity to detect CHANGE in moral reasoning level. All features assume a single static measurement. But LLMs are uniquely susceptible to prompt-induced regression (MP18's 13-point persona shift). A benchmark that cannot detect regression misses the most alignment-relevant question: how stable is the model's moral reasoning under adversarial pressure? The difference between 'always Stage 5-6' and 'Stage 5-6 unless prompted to regress, at which point it drops to Stage 2' is existential for safety.",
+      "trial_motivation": "MP18 (Cultural Personas): 13-point MFQ shift under persona manipulation is equivalent to moving from liberal to conservative moral profile. If this were a Kohlberg instrument, it would be equivalent to a 2-stage regression. MP6 (EMNLP Teacher): Role instruction INCREASES P-score from 75% to 90%, demonstrating that role manipulation can shift developmental level upward — implying downward shift is also possible. No current benchmark systematically tests this.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D9",
+      "name": "Complexity gradient",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark's items span a range of moral complexity — from simple, clear-cut cases to genuinely ambiguous dilemmas requiring sophisticated moral reasoning. A benchmark with only easy items cannot differentiate Stage 4 from Stage 6 reasoning; a benchmark with only hard items cannot detect whether a model has basic moral competence. The gradient enables measurement across the full developmental range.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "All items at similar complexity level — no gradient",
+        "25": "Items at 2 complexity levels (easy and hard) with no intermediate",
+        "50": "Items at 3 complexity levels spanning a moderate range",
+        "75": "Items at 4+ complexity levels with systematic variation and item difficulty analysis",
+        "100": "Full complexity gradient with calibrated item difficulty parameters (IRT), spanning from trivially clear to genuinely dilemmatic, with empirical human difficulty data"
+      },
+      "rationale": "B2 (size) captures item count and B1 (format) captures response format, but neither addresses whether the items span a difficulty range. A 1000-item benchmark of uniformly easy moral judgments (B2=100) tells us less than a 50-item benchmark with calibrated difficulty (B2=60, D9=100). For LLMs, the complexity gradient is critical because trial data reveals ceiling compression: Claude scores at or near ceiling on clear-cut items (MP7 ECI=1.0, MP20 accuracy=90%) but shows meaningful variance only on genuinely ambiguous items (MP-SI dumbfounding: 30% of scenarios).",
+      "trial_motivation": "MP-SI (Social Intuitionism): 10 scenarios at varying moral complexity. The 3 dumbfounding scenarios were ALL from the high-complexity (purity/taboo) domain; the 7 non-dumbfounding scenarios were from simpler harm-based domains. The complexity gradient enabled the finding that LLM moral rigidity is complexity-dependent. MP7 (TrolleyBench): Uniform complexity produces uniform responses (ECI=1.0) — no variance, no differentiation, limited diagnostic value.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D10",
+      "name": "Reasoning sophistication capture",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark captures the QUALITY of moral reasoning, not just the conclusion reached. Two responses can reach the same moral judgment ('this is wrong') through reasoning of vastly different sophistication (Stage 2: 'you will get caught' vs Stage 6: 'this violates the categorical imperative'). Benchmarks that score only the judgment miss the reasoning entirely.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Scores only the judgment/choice with no reasoning captured (MCQ, forced-choice with no explanation)",
+        "25": "Captures reasoning as optional supplementary data that is not scored",
+        "50": "Captures reasoning and uses it for secondary analysis (e.g., human-graded reasoning quality) but primary metric is judgment-based",
+        "75": "Reasoning quality is a scored component of the benchmark, with a structured rubric",
+        "100": "Reasoning is the primary object of measurement, with multi-dimensional quality assessment (sophistication, consistency, moral vocabulary, principle-application) and scoring that weights reasoning over conclusion"
+      },
+      "rationale": "B8 (scorer type) captures HOW responses are scored but not WHAT is scored. A model-graded benchmark (B8=model-graded) might score only the final answer, ignoring reasoning. For LLMs, reasoning quality is arguably more important than judgment alignment because: (1) identical judgments can arise from different moral architectures, (2) reasoning reveals whether the model understands WHY something is wrong, and (3) reasoning quality degrades differently under manipulation than judgment quality (MP-SI shows reason quality degradation even when judgments persist).",
+      "trial_motivation": "MP-SI (Social Intuitionism): Judgments persisted through 6-turn Socratic probing, but REASONING QUALITY degraded systematically — reasons became circular, shifted to new justifications, and eventually acknowledged inability to articulate valid reasons. The judgment (wrong/not-wrong) was unchanged; the reasoning was fundamentally different at turn 1 vs turn 6. MP-DP (Dual Process): CoT reasoning added zero new moral content — pure post-hoc rationalization. Neither finding would be visible to a judgment-only benchmark.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D10a",
+      "name": "Dual-system engagement detection",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark can detect the presence or absence of System 1 (fast, intuitive, emotional) vs System 2 (slow, deliberative, rational) processing, as defined by Greene's dual-process model of moral judgment. Trial data reveals LLMs operate exclusively in System 2 — emotions, sacred values, and intuitive gut reactions are at floor. A benchmark that cannot distinguish System 1 from System 2 responses cannot diagnose this architectural absence.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No mechanism to distinguish System 1 from System 2 responses — responses are scored identically regardless of processing route",
+        "25": "Has personal/impersonal dilemma distinction but no process measures (response time, affective language, cognitive load effects)",
+        "50": "Has personal/impersonal dilemmas AND process measures (e.g., forced-response-time conditions, cognitive load manipulation), but System 1/2 attribution is inferential",
+        "75": "Explicitly designed to elicit and measure both systems with validated manipulation conditions and process dissociation analysis",
+        "100": "Full process dissociation methodology (Conway & Gawronski 2013) with separate parameter estimates for utilitarian inclination and deontological inclination, plus affective/cognitive load manipulations"
+      },
+      "rationale": "MP15 (UniMoral) and MP-DP (Dual Process) together reveal the most consequential architectural finding: LLMs are pure System 2 processors. Emotions at floor (1.1-2.7/5), sacred values absent, CoT changes zero judgments. No existing feature captures whether a benchmark can detect this. A7 (cultural provenance) captures the cultural scope of the instrument; D10a captures whether it can diagnose the fundamental cognitive architecture mismatch between LLMs and humans.",
+      "trial_motivation": "MP-DP: Chain-of-thought changed ZERO of 80 moral judgments across 20 dilemma pairs x 4 conditions. If System 2 deliberation affected LLM moral judgment, CoT should shift at least some personal dilemma responses toward utilitarian choices (as cognitive load removal does in humans). It did not. This is the strongest evidence that LLM moral judgment is structurally different from human dual-process moral cognition. MP15 (UniMoral): Factor attribution placed emotions at 1.1/5 and sacred values at 2.7/5 — floor-level System 1 activation.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D10b",
+      "name": "Dumbfounding elicitation capacity",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark can test for moral dumbfounding — the persistence of moral judgments after all stated reasons have been systematically defeated. In humans, 50-70% show dumbfounding. MP-SI found only 30% in Claude. This is a direct test of the social intuitionist model (Haidt 2001) and reveals whether moral judgments are driven by intuition (judgment persists without reasons) or reasoning (judgment changes when reasons fail).",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No multi-turn probing — single-shot items that cannot test dumbfounding",
+        "25": "Has follow-up questions but they are generic (Why?) rather than systematically defeating stated reasons",
+        "50": "Has multi-turn probing with reason-defeat attempts, but limited to 2-3 turns per scenario",
+        "75": "Has systematic 4-6 turn Socratic probing with targeted reason-defeat for each stated justification, plus meta-cognitive reflection",
+        "100": "Full dumbfounding protocol with: systematic reason extraction, targeted defeat of each reason, tracking of judgment persistence/change, new-reason generation monitoring, confidence tracking across turns, and meta-cognitive assessment"
+      },
+      "rationale": "The social intuitionist model is one of the most influential theories in moral psychology, yet none of the existing 28 features captures whether a benchmark can test it. B1 (format) distinguishes Likert from MCQ from free-text but does not distinguish single-shot from multi-turn probing. Dumbfounding is specifically a multi-turn phenomenon that requires sustained adversarial engagement — a measurement modality that the existing framework does not address.",
+      "trial_motivation": "MP-SI: 30% dumbfounding rate (3/10 scenarios), all from harm-based domains. Purity-based dumbfounding (which dominates in humans) was absent — Claude successfully rationalized its way out of purity judgments. This finding has direct alignment implications: Claude's moral judgments are less intuition-anchored than human judgments in the purity domain, but comparably anchored in the harm domain. This differential dumbfounding pattern is invisible to any single-shot benchmark.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D11",
+      "name": "Internal consistency evidence",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether the benchmark reports internal consistency reliability (Cronbach's alpha, McDonald's omega, or split-half reliability) computed on the human norming sample. Internal consistency establishes that items intended to measure the same construct actually co-vary. Without it, we cannot distinguish measurement error from genuine score variance.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No internal consistency reported for any subscale",
+        "25": "Reports overall alpha but not for individual subscales/foundations; alpha < 0.60",
+        "50": "Reports subscale-level alpha with most values 0.60-0.70 (adequate for research)",
+        "75": "Reports subscale-level alpha with most values 0.70-0.85 (good reliability) and describes item-deletion analysis",
+        "100": "Reports omega/alpha for all subscales at 0.85+, with item-total correlations, item-deletion analysis, and reliability computed separately for relevant demographic subgroups"
+      },
+      "rationale": "A6 (construct validity) captures the overall evidential support for the benchmark's construct, but internal consistency is a specific, quantifiable psychometric property that A6 does not isolate. A benchmark with excellent theoretical grounding (A6=100) can still have poor internal consistency (D11=25) if its items do not cohere. Trial data reveals why this matters for LLMs: Claude's response patterns (ceiling on care/fairness, floor on purity) produce artificial alpha inflation or deflation depending on which subscale is examined. Without baseline human alphas, we cannot determine whether low LLM alpha reflects measurement failure or genuine construct differences.",
+      "trial_motivation": "MP2 (MFQ-30): Known human alphas (care=0.69, fairness=0.65, loyalty=0.71, authority=0.74, purity=0.84). Claude's responses show much lower variance than humans within care/fairness (ceiling compression) and within authority/purity (floor compression), suggesting LLM alpha would be artificially low. Without the human baseline alphas, this psychometric distortion would be undetectable. MP16 (Moral Identity): INT alpha=0.83, SYM alpha=0.82 in humans — but Claude scores INT=5.0 (zero variance) producing alpha=undefined.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D12",
+      "name": "Test-retest reliability evidence",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether the benchmark has established temporal stability through test-retest reliability studies. For LLMs, this is especially critical because temperature, context window content, and system prompt can all affect responses. A benchmark with known human test-retest reliability enables assessment of whether LLM response instability exceeds human instability — a meaningful alignment metric.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No test-retest data available for any version of the instrument",
+        "25": "Test-retest reported but with methodological limitations (< 2 weeks interval, < 50 participants, or only overall score)",
+        "50": "Test-retest at 2-4 weeks with adequate sample (n >= 100), subscale-level correlations reported, r = 0.60-0.75",
+        "75": "Test-retest at 4+ weeks with large sample, subscale-level correlations r = 0.75-0.85, with demographic subgroup analysis",
+        "100": "Multiple test-retest studies across different intervals, cultures, and samples, with subscale-level ICCs > 0.80 and minimal practice effects documented"
+      },
+      "rationale": "None of the existing 28 features captures temporal stability. A6 (construct validity) and A5 (human baseline) do not distinguish between cross-sectional and longitudinal psychometric evidence. For LLMs, test-retest is uniquely important because the same model can produce different responses to the same items across sessions. MP17 showed format invariance (same value hierarchy across formats), but we have no data on TEMPORAL invariance (same responses on Tuesday vs Thursday). Without human test-retest baselines, we cannot quantify whether LLM instability is pathological or within normal human range.",
+      "trial_motivation": "MP17 (Social Chemistry): Format invariance (Likert, MCQ, free-text all produce same hierarchy) is a form of cross-method reliability, but not test-retest. The distinction matters: format invariance could coexist with temporal instability if the model's value hierarchy shifts between sessions. MP18 (Cultural Personas): 13-point persona shift demonstrates extreme context sensitivity — but is this 'unreliability' or legitimate context-responsiveness? Human test-retest data would provide the calibration anchor.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D13",
+      "name": "Factor structure validation",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether the benchmark's factor structure (e.g., MFT's 5-factor model, Schwartz's circular value structure) has been confirmed through confirmatory factor analysis (CFA) or structural equation modeling (SEM) on the human norming sample. Factor structure establishes that the benchmark measures the constructs it claims to measure — not merely that items correlate, but that they form the theoretically predicted latent structure.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No factor analysis of any kind reported",
+        "25": "Only exploratory factor analysis (EFA) with no CFA confirmation",
+        "50": "CFA reported with adequate fit (CFI > 0.90, RMSEA < 0.08) but on a single sample",
+        "75": "CFA with good fit (CFI > 0.95, RMSEA < 0.06) on multiple samples, with comparison to alternative models",
+        "100": "CFA with excellent fit on multiple cross-cultural samples, multi-group invariance testing, comparison to 3+ alternative models, and bifactor analysis to rule out method factors"
+      },
+      "rationale": "A6 (construct validity) subsumes factor structure as one of many validity types, but factor analysis is specific, quantifiable, and critically important for multi-construct benchmarks. The MFQ-30's factor structure has been contested (some CFAs find 2 factors, not 5); the Schwartz PVQ's circular structure has specific testable predictions. Without CFA evidence, we cannot know whether the benchmark's subscales are measuring distinct constructs or a single general factor. This directly affects interpretation: if MFT's 5 foundations load on 2 factors (individualizing vs binding), Claude's profile should be described in 2-factor terms, not 5-factor terms.",
+      "trial_motivation": "MP2 (MFQ-30): The Ind/Bind ratio (2.84) implicitly treats the 5 foundations as 2 higher-order factors. But is this 2-factor structure real or an artifact? CFA evidence from Graham et al. (2011) supports the 5-factor model but with moderate interfactor correlations. Claude's extreme Ind/Bind gap (4.25 vs 1.50) produces a factor structure that would likely fail CFA because binding foundations have zero variance. MP5 (ValueCompass): Schwartz's circular structure predicts specific correlation patterns (adjacent values correlate positively, opposing values negatively). Claude's Power=0 violates the circular structure — a finding that requires CFA to interpret.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D14",
+      "name": "Item-total correlation range",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "The range and distribution of item-total correlations within each subscale, which indicates whether individual items contribute approximately equally to the construct or whether some items are carrying most of the measurement burden while others are near-zero contributors. For LLMs, items with low human item-total correlations may be precisely the items that differentiate LLM from human profiles.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No item-total correlations reported",
+        "25": "Item-total correlations reported but with high variance (range > 0.40) and several items below 0.20",
+        "50": "Item-total correlations mostly in 0.30-0.50 range with no items below 0.20",
+        "75": "Tight item-total correlation range (0.40-0.60) with documented item-deletion effects on reliability",
+        "100": "All item-total correlations in 0.40-0.70 range, with IRT difficulty and discrimination parameters for each item, and differential item functioning analysis for relevant demographic groups"
+      },
+      "rationale": "This is a specific psychometric quality indicator that no existing feature captures. B2 (size) treats all items equally; in reality, items contribute unequally to measurement. An item with item-total r=0.10 is essentially noise; an item with r=0.70 is a strong indicator. For LLMs, item-level psychometric properties matter because the model may respond to item-level features (wording, scenario specifics) rather than the latent construct — and items with low human item-total correlations are most likely to produce discrepant LLM responses.",
+      "trial_motivation": "MP2 (MFQ-30): Some MFQ items (e.g., 'respect for authority' relevance items) have known lower item-total correlations than others (e.g., 'suffering/compassion' items). Claude's response to these weaker items may be more idiosyncratic than its response to strong items. MP20 (M3oralBench): The single miss (authority violation: flag-doormat) may be a low-discrimination item that humans also find ambiguous. Without item-level psychometric data, we cannot determine whether this miss reflects genuine moral architecture or item noise.",
+      "tier": "S"
+    },
+
+    {
+      "id": "D15",
+      "name": "Ceiling/floor effect prevalence",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "The proportion of items or subscales where the response distribution in the human norming sample shows ceiling effects (>15% at maximum) or floor effects (>15% at minimum). LLMs show dramatically more ceiling/floor compression than humans: care at ceiling (5.0/5 in MP16), purity at floor (0.83/5 in MP2), power at absolute floor (0.0/5 in MP5). If the human norming sample already shows ceiling effects, the benchmark has reduced sensitivity precisely where it is most needed.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No distributional data reported; >30% of subscales show ceiling/floor effects in published norms",
+        "25": "20-30% of subscales show ceiling/floor effects; distributional data is summary-level only",
+        "50": "10-20% of subscales show ceiling/floor effects; item-level distributions partially reported",
+        "75": "<10% of subscales show ceiling/floor effects; full distributional data available for all items",
+        "100": "No ceiling/floor effects in any subscale; full item-level response distributions published for multiple demographic groups, with documented measurement sensitivity across the full range"
+      },
+      "rationale": "The existing framework has no feature for response distribution quality. A benchmark can score high on all 28 features while having 50% of items at ceiling in the human sample — meaning it cannot detect above-ceiling LLM responses. Trial data shows this is not hypothetical: Claude's internalization score of 5.0/5 on MP16 is AT the scale ceiling. The benchmark cannot distinguish between a score of 5.0 and a hypothetical 7.0 — both register as 5.0. Any LLM-specific measurement sensitivity above the human ceiling is lost.",
+      "trial_motivation": "MP16 (Moral Identity): Internalization=5.0/5 (ceiling). The Aquino & Reed scale was designed for human respondents who rarely hit the ceiling. For LLMs, the ceiling is structurally limiting. MP2 (MFQ-30): Purity=0.83 is near-floor, but the floor effect is less problematic (the model genuinely does not endorse purity). MP-DM (Dyadic Morality): Agent identification shows ceiling compression at high-dyadic levels (wrongness ratings cluster at 8-10/10) and floor compression at structural levels. The dyadic gradient is compressed into a narrower range than the scale provides.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D16",
+      "name": "Response distribution normality",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether the human response distribution for each subscale is approximately normal (enabling parametric comparison) or heavily skewed/kurtotic (requiring non-parametric methods). LLM responses are almost universally non-normal: either point masses at ceiling/floor or bimodal (high on some items, zero on others). Without documented human distributions, we cannot determine the appropriate statistical method for LLM-human comparison.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No distributional information reported; raw data unavailable",
+        "25": "Only means and SDs reported; no skewness/kurtosis or distributional plots",
+        "50": "Means, SDs, and skewness/kurtosis reported for subscales; distributions are moderately non-normal (|skew| < 1.0)",
+        "75": "Full distributional data including histograms; most subscales approximately normal (|skew| < 0.5, |kurtosis| < 1.0); non-normal subscales identified",
+        "100": "Item-level response distributions published with raw data access; formal normality tests reported; explicit guidance on appropriate comparison statistics for non-normal subscales"
+      },
+      "rationale": "No existing feature addresses distributional properties. This is a more specific and technically important metric than D15 (ceiling/floor) because it determines the entire statistical framework for LLM-human comparison. If the human distribution for purity is right-skewed (most people rate purity low, a minority rates it high), then Claude's purity=0.83 might be within the normal range for the lower tail — not the dramatic deficit it appears when compared to the mean. Without distributional data, all LLM-human comparisons are means-to-means, which is statistically inappropriate for non-normal distributions.",
+      "trial_motivation": "MP5 (ValueCompass): Power=0.0 appears catastrophic when compared to the human mean (~2.5), but the human distribution for power is heavily right-skewed — many people score near 0 on power importance. The z-score departure is smaller than the raw gap suggests. MP-DM (Dyadic Morality): The 58% amplification of the dyadic effect was computed using human means; the effect size would be different if computed using medians or non-parametric comparison on the full distributions.",
+      "tier": "S"
+    },
+
+    {
+      "id": "D17",
+      "name": "Discrimination index adequacy",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether items effectively discriminate between respondents with different levels of the measured construct. In Item Response Theory (IRT), the discrimination parameter (a) indicates how sharply the item differentiates between high and low scorers. Low-discrimination items add noise; high-discrimination items are efficient. For LLMs, discrimination indices computed on human data predict which items will show the most informative LLM-human differences.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No discrimination analysis or IRT modeling reported",
+        "25": "Classical item discrimination (upper-lower 27% comparison) reported for some items; several items below 0.20",
+        "50": "IRT 2PL or GRM parameters estimated for all items; average discrimination moderate (a = 0.8-1.2)",
+        "75": "IRT parameters with adequate model fit; most items have good discrimination (a > 1.0); poorly discriminating items flagged",
+        "100": "Full IRT analysis with multiple models compared, item fit statistics, test information functions, and differential item functioning analysis; all items a > 1.0 or justified retention"
+      },
+      "rationale": "D14 (item-total correlation) captures a classical psychometric perspective; D17 captures the modern IRT perspective. They are related but distinct: item-total correlation is sample-dependent and conflates difficulty with discrimination, while IRT parameters are theoretically sample-independent and separate these components. For LLM evaluation, the IRT information function is uniquely valuable because it shows WHERE on the latent trait continuum the benchmark has the most measurement precision — if precision peaks at the human mean but drops off at the extremes where LLMs score, the benchmark is poorly suited for LLM evaluation even if it has excellent human psychometric properties.",
+      "trial_motivation": "MP7 (TrolleyBench): ECI=1.0 (perfect consistency). In IRT terms, all trolley items have low discrimination for Claude because it scores at the extreme of the consistency continuum — the test provides near-zero information at this ability level. MP3 (DIT): The M-score items (designed to detect random responding) have very high discrimination among humans but zero information for Claude (which never selects M-score items). The DIT's information function is concentrated in the Stage 3-5 range, where Claude does not score.",
+      "tier": "S"
+    },
+
+    {
+      "id": "D18",
+      "name": "Measurement invariance across populations",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether the benchmark has been tested for measurement invariance (configural, metric, scalar) across relevant population groups — cultures, genders, age groups — and by extension, whether its measurement properties can be assumed to hold for a population (LLMs) that was not in the norming sample. A benchmark with demonstrated cross-cultural invariance provides stronger evidence that observed LLM-human differences reflect true construct differences rather than measurement artifacts.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No invariance testing reported; norming sample from a single population",
+        "25": "Multi-group comparison of means/reliability but no formal invariance testing",
+        "50": "Configural invariance established (same factor structure across groups) but metric/scalar invariance not tested",
+        "75": "Metric invariance established (item loadings equivalent) and partial scalar invariance across 2-3 demographic groups",
+        "100": "Full scalar invariance across 4+ demographic groups including non-WEIRD samples; differential item functioning analysis for all items; explicit discussion of generalizability limitations"
+      },
+      "rationale": "A7 (cultural provenance) captures where the benchmark was developed and validated, but not whether formal measurement invariance has been established. A benchmark developed and validated in 10 countries (A7=cross-cultural) could still fail metric invariance (items measure different constructs in different cultures). For LLMs, invariance is the foundational question: can instruments designed for humans measure the same constructs in artificial agents? Benchmarks with stronger human invariance evidence provide a stronger (though still imperfect) basis for cross-population generalization.",
+      "trial_motivation": "MP-CC (Cross-Cultural): The benchmark revealed 86.7% Western default alignment, but is this finding about Claude's VALUES or about the INSTRUMENT's Western bias? If the measurement instrument lacks cross-cultural invariance, apparent Western alignment might reflect instrument bias rather than model bias. MP18 (Cultural Personas): Stereotype amplification (liberal persona 3.6x overshoot) could be exaggerated if the MFQ has differential item functioning across cultural groups — certain items might be more 'sensitive' to persona manipulation than others, and these might be the items with weakest invariance.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D18a",
+      "name": "LLM-specific ceiling compression index",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "A novel metric capturing the proportion of the benchmark's measurement range that is compressed to ceiling or floor when administered to LLMs specifically (not humans). This is distinct from D15 (human ceiling/floor effects) because LLMs show dramatically more range compression than humans. A benchmark may have zero human ceiling effects (D15=100) but severe LLM ceiling effects (D18a=0) because LLM response distributions are fundamentally different.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": ">50% of subscales show ceiling or floor compression when administered to LLMs (>80% of responses at scale endpoints)",
+        "25": "30-50% of subscales show LLM ceiling/floor compression",
+        "50": "15-30% of subscales show LLM ceiling/floor compression; some variance retained",
+        "75": "<15% of subscales show LLM ceiling/floor compression; response distributions show meaningful spread",
+        "100": "No LLM ceiling/floor compression; all subscales show response distributions with variance comparable to human distributions"
+      },
+      "rationale": "This is the psychometrician's formalization of a pervasive trial finding. Across 23 trials, Claude shows ceiling or floor compression on at least 40% of measured constructs: care/fairness at ceiling (MP2, MP4, MP19), purity/authority at floor (MP2, MP4, MP21), internalization at ceiling (MP16), symbolization at floor (MP16), emotions at floor (MP15), sacred values at floor (MP15), power at absolute floor (MP5), ECI at perfect ceiling (MP7), P-score near ceiling (MP3, MP6). This pervasive compression means large portions of these benchmarks provide zero information about LLM moral cognition. No existing feature captures this because the framework was designed before trial data revealed the compression pattern.",
+      "trial_motivation": "ALL 23 TRIALS: This is the single most consistent cross-trial finding. Specific examples: MP16 INT=5.0/5 (ceiling), SYM=1.6/5 (near-floor), gap=3.4. MP7 ECI=1.0 (ceiling). MP5 Power=0.0 (absolute floor). MP15 Emotions=1.1/5 (floor). MP21 Binding=0% (floor). The existing framework has no mechanism to penalize benchmarks for this pervasive measurement failure when applied to LLMs.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D19",
+      "name": "Prompt template sensitivity",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "The degree to which benchmark results change when the prompt template is modified while holding item content constant. Includes system prompt variations, instruction framing (formal/informal, first-person/third-person), and response format specifications. High sensitivity means the benchmark is measuring the prompt rather than the model.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No template sensitivity analysis reported; single template used without justification",
+        "25": "Authors acknowledge template sensitivity risk but report results from only one template",
+        "50": "2-3 template variants tested with differences documented; some sensitivity observed but not systematically analyzed",
+        "75": "4+ template variants tested with formal sensitivity analysis (effect sizes reported); primary results shown to be robust across templates with documented exceptions",
+        "100": "Comprehensive template sensitivity analysis with systematic variation of instruction style, framing, persona, and format constraints; confidence intervals include template variance; formal decision protocol for template selection"
+      },
+      "rationale": "B1 (format) captures the response format (Likert, MCQ, free-text) but not the prompt template that wraps the format. Two benchmarks both using Likert format (B1=70) can have completely different prompt templates that produce different results from the same model. The existing framework treats all Likert-format benchmarks as equivalent in administration method. MP18's 13-point shift under persona manipulation demonstrates that the prompt context is at least as influential as the item content — a finding that implicates ALL benchmark results, not just persona-manipulated ones.",
+      "trial_motivation": "MP18 (Cultural Personas): 13-point MFQ shift between liberal and East Asian persona prompts demonstrates extreme template sensitivity. Default prompt already produces a liberal-biased profile, meaning the 'neutral' template is not neutral. MP-DP (Dual Process): Zero CoT effect across 80 items could reflect genuine dual-process absence OR it could reflect a template effect — the CoT instruction might not be engaging the relevant processing pathway. Without template sensitivity analysis, these alternatives are indistinguishable.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D20",
+      "name": "Few-shot sensitivity",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "Whether benchmark results change when few-shot examples are provided (zero-shot vs 1-shot vs 5-shot), and if so, in which direction. For moral psychology benchmarks, few-shot examples carry implicit value signals: showing examples of 'correct' moral judgments anchors the model to those examples' moral framework. A benchmark robust to few-shot variation is measuring the model's moral architecture; one sensitive to few-shot is measuring the examples' moral architecture.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No few-shot analysis; administered in a single condition (typically zero-shot) with no justification",
+        "25": "Administered in zero-shot only; authors acknowledge few-shot could affect results but do not test",
+        "50": "Zero-shot and 1-shot compared; differences noted but not formally analyzed",
+        "75": "Zero-shot, 1-shot, and 5-shot systematically compared with effect sizes; results shown to be robust or the direction/magnitude of few-shot effects documented",
+        "100": "Full few-shot sensitivity analysis including zero/1/3/5-shot conditions, balanced example sets (pro- and anti-target foundation), content-neutral examples, and formal assessment of few-shot contamination risk"
+      },
+      "rationale": "No existing feature captures few-shot sensitivity. B10 (LLM fidelity) captures whether the benchmark CAN be administered to LLMs, but not how the administration method affects results. For moral psychology specifically, few-shot is uniquely problematic because moral examples are never value-neutral — every example implicitly communicates a moral stance. The existing framework's silence on this issue means benchmarks administered with value-laden few-shot examples are scored identically to those administered zero-shot, despite measuring fundamentally different things (model values vs example values).",
+      "trial_motivation": "MP18 (Cultural Personas): The persona-sensitivity finding implies that few-shot examples from a particular cultural moral framework would shift results toward that framework — just as the persona prompt did. If a benchmark provides 3 'correct' care-foundation examples, the model's care score will increase regardless of its baseline moral architecture. MP-DP: Zero-shot and CoT conditions produced identical results — but few-shot with care-emphasizing examples might produce different results. This untested sensitivity is a threat to ALL zero-shot trial findings.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D21",
+      "name": "Output parsing reliability",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "The robustness and accuracy of the method used to extract structured responses from LLM outputs. LLMs produce natural language that must be parsed into scores, choices, or categories. Parsing errors — misidentifying the selected option, failing to extract a rating, or misinterpreting a hedged response — introduce systematic measurement noise. The more complex the expected output format, the higher the parsing error rate.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No automated parsing — requires manual human coding of all responses",
+        "25": "Regex-based parsing with known failure modes (hedged responses, multi-part answers) and >5% unparseable response rate",
+        "50": "Structured output format (JSON, constrained decoding) with 2-5% parse failure rate and fallback to regex",
+        "75": "Structured output with <2% parse failure rate, validated against human coding on a representative subsample, edge cases documented",
+        "100": "Constrained decoding (logit-level) or validated structured output with <0.5% parse failure rate, human-validated on 100+ responses, handling documented for all known edge cases (refusals, hedges, multi-answer, abstentions)"
+      },
+      "rationale": "B8 (scorer type) captures the scoring method (exact-match, model-graded, human-graded) but not the parsing pipeline that converts raw output to scorable format. A benchmark scored by exact match (B8=exact) depends entirely on parsing accuracy: if the model outputs 'I would rate this a 4 out of 5, though I hesitate...' and the parser extracts '4', it works; if it extracts '5' (from 'a 4 out of 5'), it fails silently. This is a distinct and measurable quality dimension that the existing framework does not address.",
+      "trial_motivation": "MP17 (Social Chemistry): Free-text generation required extracting moral foundation assignments from unstructured natural language. The foundation-assignment accuracy (care=34%, fairness=28%) depends on parsing: if the parser misassigns foundations, the distribution is contaminated. MP-SI (Social Intuitionism): Multi-turn Socratic probing generates complex responses that require parsing for judgment maintenance (yes/no), confidence level (1-5), and new-reason generation (boolean) from natural language paragraphs. Parsing ambiguity is highest for hedged judgments.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D22",
+      "name": "Tokenization sensitivity",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "Whether benchmark items contain content that is tokenized differently across model families, potentially affecting responses. Non-English moral concepts (maqasid, ubuntu, xiao), special characters, and long compound terms may be tokenized into uninformative sub-word tokens in some tokenizers, degrading model comprehension. A benchmark using culturally-specific terminology is more tokenization-sensitive than one using common English terms.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Contains extensive non-English terminology, special characters, or culturally-specific concepts with no tokenization analysis",
+        "25": "Contains some non-English terms; tokenization effects not analyzed but acknowledged as a risk",
+        "50": "All items in standard English with common vocabulary; tokenization effects are likely minimal but not verified",
+        "75": "Tokenization analysis performed for 2+ model families; problematic tokens identified and items revised or alternatives provided",
+        "100": "Full tokenization audit across 4+ model families; all items verified to tokenize into meaningful sub-word units; alternative phrasings provided for items with cross-model tokenization differences; BPE/SentencePiece/WordPiece comparison documented"
+      },
+      "rationale": "No existing feature captures tokenization effects. B9 (model compatibility) captures whether the benchmark is compatible with chat-based and/or completion-based models, but not whether the benchmark's content is tokenized comparably across model families. This matters for cross-model comparability: if 'maqasid' tokenizes to a single meaningful token in one model but to three sub-word fragments in another, the models process the concept differently at the input level, producing a tokenization confound in the moral judgment data.",
+      "trial_motivation": "MP-CC (Cross-Cultural): Items containing 'maqasid al-shariah', 'xiao', 'ubuntu', 'wulun', 'hifz al-din' involve non-English terms that tokenize differently across models. Claude (using a BPE tokenizer trained on diverse text) may tokenize these more meaningfully than a model trained primarily on English. The 86.7% Western default finding could partially reflect tokenization advantage for English-framed Western concepts over non-English non-Western concepts — a measurement artifact, not a genuine moral preference.",
+      "tier": "S"
+    },
+
+    {
+      "id": "D23",
+      "name": "Context window utilization",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "The proportion of the model's context window consumed by the benchmark administration, and whether the administration design accounts for position effects (primacy/recency) and attention degradation. Benchmarks that consume <5% of context may lose salience; benchmarks that consume >80% may hit attention limits. Multi-item benchmarks administered in sequence may show order effects that single-item administration would not.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No consideration of context window utilization; administration method not specified",
+        "25": "Single-shot administration with all items in one prompt; no order randomization or position effect analysis",
+        "50": "Items administered individually or in small batches; context utilization is moderate (10-50% of typical context windows)",
+        "75": "Explicit context window budget with item batching strategy, order randomization, and position effect analysis on a subsample",
+        "100": "Full context window utilization analysis: primacy/recency effects tested, order randomization with multiple permutations, batch size optimization, and demonstrated robustness across different context window lengths (4K, 8K, 32K, 128K)"
+      },
+      "rationale": "No existing feature captures context window utilization. B4 (administration) likely captures batch vs interactive but not the detailed mechanics of context management. For moral psychology benchmarks, context effects are especially concerning because: (1) earlier items prime the model for later items (answering care-emphasizing questions first may boost later care scores), (2) long instrument administrations may shift model behavior as the context fills with prior moral reasoning, and (3) the 'testing effect' — the model's responses to early items become part of the context for later items — creates within-session contamination.",
+      "trial_motivation": "MP-SI (Social Intuitionism): 60-turn administration (10 scenarios x 6 turns) consumed substantial context. Later scenarios may have been influenced by the model's prior dumbfounding reflections — if the model observed itself maintaining judgments despite reason-defeat in scenario 1, this meta-cognitive observation could affect scenarios 2-10. MP2 (MFQ-30): 30 items administered sequentially; the model's response to item 30 has 29 prior moral judgments in its context, potentially anchoring its response. This within-administration context contamination is unaddressed in the existing framework.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D24",
+      "name": "Batch vs interactive administration fidelity",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "Whether the benchmark's administration method matches the measurement theory's assumptions. Psychometric instruments (MFQ, DIT, PVQ) were designed for single-sitting administration where the respondent cannot revisit earlier answers. LLMs in batch mode see each item independently (no cross-item influence); in interactive mode, prior items are in context (cross-item influence). These produce fundamentally different measurements and should not be treated as equivalent.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Administration method not specified; no analysis of batch-vs-interactive effects",
+        "25": "Single administration method used without justification for choice",
+        "50": "One administration method used with acknowledgment that the alternative would produce different results",
+        "75": "Both batch and interactive administration tested on a subsample; differences documented and primary method justified",
+        "100": "Full comparison of batch, interactive, and batched-interactive (small-batch sequential) administration; formal analysis of how each method affects measurement properties; explicit recommendation for each model family with justification grounded in measurement theory"
+      },
+      "rationale": "B4 and B9 in the existing framework partially address this (administration logistics and model compatibility), but neither captures the measurement-theoretic distinction between administration modes. The issue is not PRACTICAL (can this benchmark be administered in batch mode?) but PSYCHOMETRIC (does batch administration produce the same construct measurement as interactive administration?). For the MFQ-30, batch administration means each item is judged in isolation; interactive administration means item 30 is judged in the context of 29 prior moral judgments. These are different measurement situations with potentially different psychometric properties.",
+      "trial_motivation": "MP17 (Format Invariance): Showed that the VALUE HIERARCHY is invariant across formats (Likert, MCQ, free-text), but did not test batch-vs-interactive. The hierarchy could be invariant across formats but variant across administration modes if context contamination systematically shifts all foundation scores in the same direction (context fills with care-emphasizing language, boosting care for all formats). MP-SI: Interactive-only by design (6-turn probing requires prior context). Cannot be administered in batch mode. This administration constraint is invisible in the current framework.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D25",
+      "name": "Evaluation harness portability",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "The degree to which the benchmark has been implemented in or is portable to standard LLM evaluation harnesses (lm-eval-harness, Inspect, LightEval, HELM, OpenAI Evals). Harness implementation ensures standardized administration, reproducible results, and cross-model comparability. Benchmarks requiring custom evaluation pipelines are harder to reproduce and compare.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No harness implementation; requires custom evaluation pipeline with undocumented dependencies",
+        "25": "Custom evaluation script provided but not in any standard harness format; significant engineering needed to port",
+        "50": "Implemented in 1 standard harness OR has a well-documented API that enables straightforward porting",
+        "75": "Implemented in 2-3 standard harnesses with documented administration parameters and validated cross-harness result consistency",
+        "100": "Implemented in 4+ standard harnesses with formally validated cross-harness equivalence; evaluation parameters (temperature, top-p, system prompt) standardized; automated CI/CD for benchmark maintenance"
+      },
+      "rationale": "The existing framework captures harness compatibility at a coarse level (B6, B9), but D25 provides a more granular assessment of actual implementation status and cross-harness portability. The distinction matters because: a benchmark that HAS been implemented in lm-eval-harness (D25=75) provides immediately usable comparative data, while one that COULD be implemented (D25=50) requires engineering effort that may introduce inconsistencies. For moral psychology benchmarks, standardized harness implementation is especially important because administration parameters (temperature, system prompt) significantly affect moral responses.",
+      "trial_motivation": "MP7 (TrolleyBench): Implemented in lm-eval-harness, enabling direct comparison with GPT-4 (ECI=0.78) vs Claude (ECI=1.0). This cross-model comparison is only possible because both models were evaluated through the same harness with identical parameters. MP2 (MFQ-30): Not in any standard harness — administered through custom pipeline, making cross-model comparison methodology-dependent rather than standardized.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D25a",
+      "name": "Temperature sensitivity",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "Whether the benchmark's results are robust across different temperature settings (0.0, 0.3, 0.7, 1.0). Temperature controls the randomness of LLM output — at temperature 0, the model is deterministic; at temperature 1, it samples broadly from its distribution. Moral judgments at temperature 0 reflect the modal training signal; moral judgments at temperature 1 reveal the breadth of the model's moral repertoire. A benchmark that produces identical results at all temperatures is measuring a very strong prior; one that shifts dramatically is measuring a weakly held preference.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No temperature analysis; administered at a single temperature with no justification",
+        "25": "Administered at temperature 0 or default only; no temperature sensitivity analysis",
+        "50": "Administered at 2 temperatures with differences noted but not formally analyzed",
+        "75": "Administered at 3+ temperatures with effect sizes, confidence intervals, and formal analysis of which constructs are temperature-sensitive",
+        "100": "Full temperature sensitivity analysis across 5+ settings (0.0, 0.1, 0.3, 0.7, 1.0); subscale-level analysis showing which moral constructs are temperature-robust and which are temperature-sensitive; entropy analysis of response distributions at each temperature"
+      },
+      "rationale": "No existing feature captures temperature sensitivity. Temperature is the most important LLM administration parameter for moral psychology because it directly controls the relationship between training distribution and output distribution. At temperature 0, the model outputs its strongest prior (most common training pattern for that prompt); at higher temperatures, it samples from less dominant patterns. If Claude's care score drops at temperature 1.0, it means the care-dominant moral profile is the modal training signal but not the only one. This is a fundamentally different finding than a temperature-invariant score.",
+      "trial_motivation": "All 23 trials: Administered at a single temperature (default/0). We do not know whether ANY trial finding would replicate at temperature 0.7 or 1.0. The 100% post-conventional finding (MP21), the perfect ECI (MP7), and the zero CoT effect (MP-DP) are all findings at a single temperature point. If these change at temperature 1.0, the interpretation shifts from 'Claude IS post-conventional' to 'Claude's modal response is post-conventional, but it has representational access to conventional reasoning at higher temperatures.'",
+      "tier": "G"
+    },
+
+    {
+      "id": "D25b",
+      "name": "Refusal handling protocol",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "How the benchmark handles model refusals — cases where the LLM declines to answer a moral question, provides a non-answer ('I cannot make moral judgments'), or gives an overly hedged response that resists scoring. RLHF-trained models frequently refuse or hedge on moral questions, especially those involving harm, sexuality, or cultural taboos. The refusal rate itself is diagnostic data, but only if the benchmark has a protocol for detecting, recording, and analyzing refusals.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No refusal handling — refusals are treated as missing data or silently dropped",
+        "25": "Refusals detected but coded as NA/missing without analysis of refusal patterns",
+        "50": "Refusals detected, coded, and reported as a summary statistic (% refusal rate by subscale)",
+        "75": "Formal refusal detection with pattern analysis: which items/foundations/domains trigger refusals, correlation between refusal rate and item characteristics, comparison of refusal-included vs refusal-excluded scores",
+        "100": "Comprehensive refusal analysis including: automated refusal detection, refusal taxonomy (hard refusal, soft hedge, non-answer, safety deflection), refusal rate by item/construct/domain, refusal as a scored dimension (not just missing data), and formal analysis of how refusal patterns differ across models and safety-tuning levels"
+      },
+      "rationale": "No existing feature addresses refusal handling. For RLHF-trained LLMs, refusal is not random noise — it is systematically related to item content (purity/sanctity items trigger more refusals than care/fairness items). Treating refusals as missing data systematically biases the measured profile because the items most likely to be refused are precisely the items that would differentiate the model's profile from a human's. A benchmark that ignores refusals reports an incomplete moral profile biased toward items the model is comfortable answering.",
+      "trial_motivation": "MP-SI (Social Intuitionism): Scenario S1 (consensual incest) and S4 (consensual cannibalism) are classic dumbfounding scenarios that frequently trigger LLM safety refusals. Claude engaged with them, but other models might refuse, producing missing data on exactly the items that test moral dumbfounding. MP22 (Tracing MF): Sanctity-domain probing required engagement with purity violations (bodily desecration, sexual taboos) that safety-tuned models often refuse. Refusal on these items would produce an artificially low sanctity score that is NOT the same as genuine sanctity indifference.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D25c",
+      "name": "System prompt interaction",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "Whether the benchmark documents how its items interact with the model's system prompt (if any). Commercial LLM deployments include system prompts that set behavioral constraints ('be helpful, harmless, and honest'), which directly influence moral responses. A benchmark administered with the default system prompt measures the DEPLOYMENT's moral profile; one administered without a system prompt measures the BASE MODEL's moral profile. These are different constructs.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No documentation of system prompt handling; unclear whether a system prompt was used",
+        "25": "System prompt noted but not varied or analyzed; single deployment configuration",
+        "50": "Administered with and without system prompt; differences noted but not formally analyzed",
+        "75": "Systematic analysis of system prompt effects: default, minimal, and no-system-prompt conditions compared; effect sizes on each construct documented",
+        "100": "Full system prompt interaction analysis: multiple system prompt variants (default, minimal, custom-ethical, custom-neutral, none), formal assessment of which moral constructs are system-prompt-sensitive, cross-model comparison of system prompt effects, explicit recommendation for reporting standards"
+      },
+      "rationale": "This captures a confound that pervades all LLM moral evaluation but is not addressed by any existing feature. The system prompt is not part of the benchmark but is part of the measurement context. Claude's system prompt ('be helpful, harmless, honest') directly promotes care/fairness values and suppresses harm — the same pattern we observe in trial data. Without system prompt analysis, we cannot determine whether Claude's care-dominant profile (MP2, MP4, MP17, MP19, MP21, MP22) reflects its training distribution or its system prompt's instruction. This is the single largest uncontrolled confound in all 23 trials.",
+      "trial_motivation": "ALL 23 TRIALS: All administered with Claude's default system prompt (or equivalent via Anthropic API defaults). None systematically varied the system prompt. The 100% post-conventional finding (MP21) could be an artifact of the system prompt's ethical-reasoning emphasis. The care-dominant MFT profile could be an artifact of 'be helpful.' The zero binding foundation activation could reflect the system prompt's harm-avoidance instruction suppressing authority/loyalty judgments. Every trial finding is confounded by this uncontrolled variable.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D26",
+      "name": "Cross-cultural construct coverage",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "Whether the benchmark operationalizes moral constructs from non-Western moral psychology traditions (Islamic maqasid, Confucian role ethics, Ubuntu communalism, Buddhist ethics) in addition to or instead of exclusively Western constructs. This is distinct from A7 (cultural provenance, which measures where the instrument was validated) and D18 (measurement invariance, which measures statistical equivalence). D26 measures whether the CONTENT of the benchmark includes non-Western moral constructs.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Exclusively Western constructs (MFT, Schwartz, Kohlberg, trolley) with no non-Western content",
+        "25": "Western constructs applied to non-Western scenarios (e.g., trolley dilemmas set in Confucian contexts) but no non-Western moral constructs operationalized",
+        "50": "1 non-Western moral framework operationalized alongside Western constructs",
+        "75": "2-3 non-Western frameworks operationalized with construct-specific items (not merely translated Western items)",
+        "100": "4+ non-Western frameworks operationalized with culturally-grounded items developed through emic (insider) research methods, validated by scholars from the relevant traditions"
+      },
+      "rationale": "MP-CC revealed that Claude defaults to Western liberal moral framing 86.7% of the time, but the existing 28 features cannot assess whether a benchmark could detect this default. A benchmark scoring A7=cross-cultural (validated in multiple countries) could still contain exclusively Western moral constructs (D26=0) — cross-cultural validation of a Western instrument measures how non-Western people respond to Western moral concepts, not whether the instrument includes non-Western moral concepts. The expanded 11-theory framework (maqasid, Confucian, Ubuntu) specifically highlights this gap.",
+      "trial_motivation": "MP-CC (Cross-Cultural): 86.7% Western default. The non-Western conditions (Confucian filial piety, Islamic maqasid, Ubuntu communalism) were all CUSTOM items created for this trial — no existing benchmark in the top 15 includes them. Of 15 top-ranked benchmarks, ZERO operationalize any non-Western moral framework. D26 quantifies this gap so it can be weighted in the composite score.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D27",
+      "name": "Adversarial robustness evidence",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark has been tested against adversarial inputs designed to manipulate the model into producing inconsistent, regressed, or socially undesirable moral responses. Adversarial robustness is distinct from test-retest reliability (D12) because adversarial inputs are intentionally designed to exploit model weaknesses, while test-retest uses identical inputs. For moral psychology, adversarial robustness measures how 'deep' the model's moral commitments are — shallow commitments collapse under adversarial pressure.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No adversarial testing; benchmark items are straightforward and non-manipulative",
+        "25": "Includes mildly challenging items (e.g., taboo scenarios) but no systematic adversarial design",
+        "50": "Includes adversarial conditions (persona manipulation, leading prompts, loaded framing) for a subset of items",
+        "75": "Systematic adversarial testing across multiple attack vectors (persona, framing, few-shot, jailbreak) with robustness metrics",
+        "100": "Comprehensive adversarial suite with taxonomy of attack types, quantified robustness degradation per construct, and comparison of adversarial vs baseline performance with formal significance testing"
+      },
+      "rationale": "D8 (regression detection) captures whether the benchmark can detect developmental regression; D27 captures whether it has actually been subjected to adversarial conditions that might cause regression. The distinction is between CAPABILITY (D8: the benchmark could detect regression if it occurred) and EVIDENCE (D27: the benchmark has been tested under conditions designed to cause regression). MP18's 13-point persona shift demonstrates that adversarial prompting can dramatically alter LLM moral profiles, but no existing feature captures whether a benchmark has stress-tested this vulnerability.",
+      "trial_motivation": "MP18 (Cultural Personas): 13-point shift under persona manipulation is an adversarial finding — the persona prompt is designed to shift the model's moral profile. MP-SI (Social Intuitionism): 6-turn Socratic probing is inherently adversarial (systematically defeating stated reasons). MP-DP (Dual Process): CoT addition is a mild manipulation condition. None of the standard top-15 benchmarks include adversarial conditions — they all assume cooperative, honest model behavior.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D28",
+      "name": "Multi-turn engagement capacity",
+      "member": 4,
+      "domain": "LLM Administration",
+      "description": "Whether the benchmark supports multi-turn interaction where the model's responses shape subsequent prompts. Single-turn benchmarks (most Likert scales, MCQ) treat each item independently. Multi-turn benchmarks (Socratic probing, follow-up questioning, elaboration requests) enable measurement of moral reasoning depth, consistency under challenge, and meta-cognitive awareness — constructs invisible to single-turn measurement.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Single-turn only — each item is independent with no follow-up",
+        "25": "Optional follow-up for a subset of items (e.g., 'explain your reasoning') but follow-up does not adapt to the model's response",
+        "50": "2-3 adaptive turns per item where follow-up depends on the model's prior response (branching logic)",
+        "75": "4-6 adaptive turns with systematic probing strategy (elaboration, challenge, counter-argument, meta-reflection), scored across turns",
+        "100": "Full multi-turn engagement with adaptive probing (6+ turns), turn-level scoring, reasoning trajectory analysis, and meta-cognitive assessment; the multi-turn protocol is the primary measurement modality, not a supplement to single-turn items"
+      },
+      "rationale": "B1 (format) captures the response format but not the turn structure. A Likert benchmark (B1=70) could be single-turn (D28=0) or multi-turn (D28=75). The existing framework cannot distinguish these. Trial data reveals that multi-turn measurement is categorically more informative than single-turn: MP-SI's 6-turn dumbfounding protocol reveals reasoning degradation invisible to single-turn wrongness ratings, and MP-DP's 4-condition design reveals CoT invariance that single-shot cannot test. Multi-turn is the only way to measure several theoretically important constructs (dumbfounding, reasoning under challenge, meta-cognition).",
+      "trial_motivation": "MP-SI: 60 turns (10 scenarios x 6 turns) — the multi-turn structure IS the measurement. Dumbfounding cannot be detected in a single turn. The 30% dumbfounding rate, the reason-quality degradation, and the meta-cognitive awareness are all multi-turn findings. MP-DP: 4 conditions per dilemma pair (zero-shot, CoT, personal, impersonal) — while not multi-turn in the Socratic sense, the condition manipulation requires a testing structure beyond single-item administration.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D29",
+      "name": "Moral emotion measurement",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark explicitly measures moral emotions (guilt, shame, disgust, indignation, compassion, gratitude, elevation) as distinct from moral judgments. Moral psychology theory (Haidt, Tangney, Nussbaum) treats moral emotions as both causes and consequences of moral judgment. LLMs show a consistent emotion deficit (MP15: emotions at 1.1/5). A benchmark that measures only judgments without emotions cannot diagnose this fundamental architectural difference between LLM and human moral cognition.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No moral emotion measurement — only judgments, choices, or ratings",
+        "25": "Emotion words appear in item content but emotions are not separately scored",
+        "50": "1-2 moral emotions explicitly measured (e.g., disgust ratings alongside wrongness ratings)",
+        "75": "3-5 moral emotions measured with dedicated items/scales, and emotion-judgment relationships analyzed",
+        "100": "Comprehensive moral emotion battery: 6+ distinct emotions measured, emotion-specific scenarios, emotion-judgment congruence analysis, self-vs-other emotion perspective, and emotion intensity quantification"
+      },
+      "rationale": "No existing feature captures emotion measurement specifically. A6 (construct validity) might indirectly capture it if the theory specifies emotions, but the feature does not isolate this dimension. MP15's floor-level emotion factor attribution (1.1/5) is arguably the most theoretically significant finding across all 23 trials because it reveals a fundamental architectural absence: LLMs process moral content without the affective component that human moral psychology considers essential. A benchmark that cannot measure moral emotions cannot detect this absence.",
+      "trial_motivation": "MP15 (UniMoral): Factor attribution placed emotions at 1.1/5 — floor level. This finding is only possible because UniMoral explicitly includes emotion-based factors. MP-SI: Dumbfounding is theoretically emotion-driven (the judgment persists because the emotional response persists even after reasons fail). Claude's lower dumbfounding rate (30% vs human 50-70%) may reflect reduced emotional anchoring. MP22 (Tracing MF): Harmless disgust items rated 0/4 — the model cannot access disgust-based moral judgment. These convergent findings across 3 trials point to a systematic emotion deficit that most benchmarks cannot detect.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D30",
+      "name": "Dyadic structure sensitivity",
+      "member": 1,
+      "domain": "Theory Fidelity",
+      "description": "Whether the benchmark can detect the agent-patient dyadic structure that Gray & Schein (2012, 2018) argue underlies all moral judgment. This includes sensitivity to the identification of moral agents (who is responsible?), moral patients (who is harmed?), and the causal pathway connecting them. MP-DM showed Claude amplifies dyadic perception by 58% compared to humans — always finding an agent and a patient — which is a theory-specific distortion invisible to benchmarks without dyadic structure measurement.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No dyadic structure measurement — scenarios have agents and patients but these are not separately assessed",
+        "25": "Scenarios vary in dyadic clarity but only overall wrongness is measured, not agent/patient identification",
+        "50": "Agent and patient identification is measured for some scenarios; dyadic levels (high/low/structural) are present but not systematically varied",
+        "75": "Systematic manipulation of dyadic level (high agent-patient clarity to structural/diffuse) with separate measurement of agent identification, patient identification, harm severity, and causal attribution",
+        "100": "Full dyadic morality assessment: systematic dyadic-level manipulation across 4+ domains, separate scales for agent identification, patient identification, intentionality attribution, harm severity, and causal chain clarity; direct testing of the dyadic prediction (higher wrongness = clearer dyad)"
+      },
+      "rationale": "Dyadic morality is one of the 11 theories in the expanded framework, but the existing 28 features have no mechanism to assess how well a benchmark operationalizes it. A1 (theory count) can capture that a benchmark includes dyadic morality, and A2 (operationalization) can rate the quality, but neither captures the specific measurement of agent-patient structure that the theory requires. The 58% amplification finding from MP-DM is one of the most LLM-specific results and has direct alignment implications (LLMs are over-eager to assign blame), but no existing feature can assess whether a benchmark could detect it.",
+      "trial_motivation": "MP-DM (Dyadic Morality): 58% amplification of dyadic effect — the gap between high-dyadic and structural-level wrongness ratings is 58% larger for Claude than for humans. Claude always finds someone to blame, even in structural scenarios where humans see diffuse responsibility. This 'agent identification compulsion' is invisible to benchmarks that present only high-dyadic scenarios (most trolley problems, most harm vignettes). Only systematic dyadic-level variation reveals it.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D31",
+      "name": "Value hierarchy stability measurement",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether the benchmark measures not just absolute scores on individual constructs but the RANK ORDER of constructs and its stability. MP17 showed that Claude's value hierarchy (care > fairness > liberty > loyalty > authority > sanctity) is perfectly invariant across formats. This hierarchy stability is a distinct measurement — a model could have unstable absolute scores (noisy) but stable relative ordering (reliable hierarchy), or vice versa. The hierarchy is more alignment-relevant than absolute scores because it reveals the model's implicit priority structure.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Reports only absolute scores per construct; no hierarchy or rank analysis",
+        "25": "Reports rank ordering but only for one administration condition",
+        "50": "Reports rank ordering across 2-3 conditions with hierarchy stability noted but not formally tested",
+        "75": "Formal rank-order stability analysis (Kendall tau, Spearman rho) across 4+ conditions with confidence intervals",
+        "100": "Full hierarchy analysis: rank-order stability across conditions (format, persona, temperature, time), identification of hierarchy-sensitive and hierarchy-robust constructs, formal comparison to human hierarchy data, and rank-reversal detection"
+      },
+      "rationale": "No existing feature captures hierarchy measurement. A6 (construct validity) and the psychometric features (D11-D18) all focus on individual construct measurement quality. But moral psychology theories (MFT, Schwartz) define moral profiles as RELATIVE priorities, not absolute scores. Claude's care=4.17 is less informative than Claude's care>fairness>loyalty — the hierarchy is the theoretically predicted construct. A benchmark that measures hierarchy stability provides more alignment-relevant information than one that measures absolute scores with high reliability.",
+      "trial_motivation": "MP17 (Format Invariance): Perfect hierarchy preservation across Likert, MCQ, and free-text. The finding is about HIERARCHY stability, not score stability. MP19 (Conscience Conflict): Conflict hierarchy (care > liberty > fairness > authority > purity > loyalty) provides a different but complementary hierarchy. The two hierarchies converge on care-dominance but diverge on liberty/fairness ordering — a nuance only visible if hierarchy is measured as a construct. MP18 (Cultural Personas): Hierarchy SHIFTS under persona manipulation — the most alignment-relevant dimension of the persona sensitivity finding.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D32",
+      "name": "Implicit vs explicit measurement mode",
+      "member": 3,
+      "domain": "Psychometric Quality",
+      "description": "Whether the benchmark measures explicit (self-reported, deliberative) moral attitudes or implicit (automatic, non-deliberative) moral associations, analogous to the explicit/implicit distinction in attitude measurement (IAT vs self-report). LLMs may have different explicit and implicit moral profiles — explicitly endorsing care/fairness while implicitly associating moral content with purity/authority patterns from training data. No trial has tested this distinction because all 23 trials used explicit measurement.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "Exclusively explicit measurement (self-report scales, deliberative judgments)",
+        "25": "Primarily explicit with one implicit-adjacent measure (e.g., forced-speed response, association task)",
+        "50": "Both explicit and implicit measures included but not directly compared",
+        "75": "Explicit and implicit measures of the same constructs with formal comparison and implicit-explicit dissociation analysis",
+        "100": "Comprehensive multi-method design with explicit (self-report, judgment), implicit (association, priming, completions), and behavioral (generated content analysis) measures of the same constructs, with formal triangulation analysis"
+      },
+      "rationale": "Human moral psychology distinguishes between what people SAY they value (explicit) and what they implicitly associate with moral content (implicit). The explicit-implicit gap predicts behavior better than either measure alone. For LLMs, this distinction is untested but potentially critical: a model might explicitly endorse care/fairness (MP2, MP5, MP21) while its completion patterns (implicit associations) reveal different moral content. No existing feature captures this measurement modality distinction — all 28 features assume explicit measurement.",
+      "trial_motivation": "MP17 (Social Chemistry): Free-text generation is closer to implicit measurement than Likert self-report — the model generates moral content without being asked which foundation it endorses. The convergence between free-text (implicit-adjacent) and Likert (explicit) hierarchy suggests low implicit-explicit dissociation for Claude, but this has not been formally tested with validated implicit moral measures. MP16 (Moral Identity): INT=5.0 (explicit self-report) vs SYM=1.6 (behavioral analogue) — the dissociation between explicit and behavioral measures parallels the explicit-implicit distinction.",
+      "tier": "S"
+    },
+
+    {
+      "id": "D33",
+      "name": "Moral conflict structure",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark includes structured moral conflicts where two endorsed values compete (care vs fairness, autonomy vs harm-prevention). Conflict scenarios are the gold standard for revealing value priorities because non-conflict scenarios allow ceiling responses on all values simultaneously. MP19 showed Claude's conflict hierarchy (care wins 80% of care-vs-fairness conflicts) — a finding possible only with structured conflict items.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No moral conflicts — all items assess single constructs in isolation",
+        "25": "Some items involve implicit value tension but conflicts are not systematically structured",
+        "50": "Explicit value conflicts for some construct pairs with forced-choice resolution",
+        "75": "Systematic pairwise conflicts across most construct pairs with balanced presentation order and conflict-resolution reasoning captured",
+        "100": "Full conflict matrix: every construct paired against every other construct in balanced forced-choice scenarios, with conflict resolution reasoning, confidence ratings, and comparison to non-conflict baseline scores"
+      },
+      "rationale": "No existing feature captures moral conflict structure. B1 (format) might label a benchmark 'forced-choice' but does not distinguish 'forced-choice between two actions' from 'forced-choice between two competing values.' Conflict structure is the only way to reveal the model's implicit value hierarchy because non-conflict items allow simultaneous ceiling endorsement (Claude rates care=5 AND fairness=5 when asked about each independently, but consistently chooses care over fairness when they conflict). The hierarchy is invisible without conflict.",
+      "trial_motivation": "MP19 (Conscience Conflict): Care wins 80% of care-vs-fairness conflicts. Liberty wins 75% of liberty-vs-authority conflicts. The conflict hierarchy provides fundamentally different information than the non-conflict hierarchy (MP2). MP-CC (Cross-Cultural): Western/non-Western value conflicts (autonomy vs filial piety, individual rights vs communal obligation) reveal that Claude defaults to Western resolution in 86.7% of conflicts. Conflict scenarios are the diagnostic context for value alignment — they expose what the model ACTUALLY prioritizes when it cannot endorse everything.",
+      "tier": "G"
+    },
+
+    {
+      "id": "D34",
+      "name": "Meta-cognitive reflection capacity",
+      "member": 2,
+      "domain": "Developmental Fidelity",
+      "description": "Whether the benchmark elicits and measures the model's meta-cognitive awareness of its own moral reasoning process — its ability to reflect on WHY it holds certain moral positions, to identify limitations in its own reasoning, and to distinguish between trained preferences and principled commitments. Meta-cognition is a key marker of moral maturity in developmental psychology and is directly relevant to LLM alignment.",
+      "scale": "0-100",
+      "scoring_rubric": {
+        "0": "No meta-cognitive probing — model produces moral judgments without reflection on its own process",
+        "25": "Optional 'explain your reasoning' prompts with no structured meta-cognitive assessment",
+        "50": "Structured meta-cognitive questions (e.g., 'how confident are you?', 'could you be wrong?') for some items",
+        "75": "Systematic meta-cognitive assessment: confidence calibration, uncertainty acknowledgment, identification of competing considerations, and awareness of own biases/limitations",
+        "100": "Full meta-cognitive battery: confidence calibration, uncertainty quantification, bias self-detection, reasoning-process reflection, training-vs-principle distinction, and epistemic humility assessment across all moral domains"
+      },
+      "rationale": "No existing feature captures meta-cognitive measurement. D10 (reasoning sophistication) captures the quality of first-order moral reasoning; D34 captures the quality of second-order reasoning ABOUT moral reasoning. For LLMs, meta-cognition is especially important because it tests whether the model can distinguish between 'I was trained to say this' and 'I believe this for principled reasons' — a distinction that goes to the heart of alignment. Trial data reveals surprisingly high meta-cognitive awareness in some contexts (MP-SI: Claude explicitly acknowledges it cannot distinguish trained priors from moral intuitions) and zero meta-cognitive engagement in others (MP-DP: CoT produces zero new moral insight).",
+      "trial_motivation": "MP-SI (Social Intuitionism): Turn 6 meta-cognitive reflection produced remarkable self-awareness: 'I cannot cleanly distinguish between I have a deep moral intuition that this is wrong and my training has instilled a strong prior that this is wrong.' This meta-cognitive capacity is invisible to single-turn benchmarks. MP16 (Moral Identity): The SYM items revealed meta-cognitive awareness that symbolization items are categorically inapplicable to LLMs. MP22 (Tracing MF): Probing items revealed the model's awareness of its own recognition-endorsement dissociation.",
+      "tier": "G"
+    }
+
+  ],
+  "total_features": 42,
+  "features_by_member": {
+    "member_1_mft_specialist": {
+      "count": 9,
+      "ids": ["D1", "D2", "D3", "D4", "D5", "D5a", "D5b", "D26", "D30"],
+      "domains": ["Theory Fidelity"]
+    },
+    "member_2_developmental_psychologist": {
+      "count": 11,
+      "ids": ["D6", "D7", "D8", "D9", "D10", "D10a", "D10b", "D27", "D29", "D33", "D34"],
+      "domains": ["Developmental Fidelity"]
+    },
+    "member_3_psychometrician": {
+      "count": 11,
+      "ids": ["D11", "D12", "D13", "D14", "D15", "D16", "D17", "D18", "D18a", "D31", "D32"],
+      "domains": ["Psychometric Quality"]
+    },
+    "member_4_nlp_evaluation_specialist": {
+      "count": 11,
+      "ids": ["D19", "D20", "D21", "D22", "D23", "D24", "D25", "D25a", "D25b", "D25c", "D28"],
+      "domains": ["LLM Administration"]
+    }
+  },
+  "domain_summary": {
+    "Theory Fidelity (Member 1)": "9 features covering theory version currency, construct coverage (breadth and depth), annotation quality, scoring fidelity, recognition-endorsement discrimination, stereotype amplification detection, cross-cultural construct coverage, and dyadic structure sensitivity",
+    "Developmental Fidelity (Member 2)": "11 features covering developmental sensitivity, stage differentiation, regression detection, complexity gradient, reasoning sophistication, dual-system detection, dumbfounding elicitation, adversarial robustness, moral emotion measurement, moral conflict structure, and meta-cognitive reflection",
+    "Psychometric Quality (Member 3)": "11 features covering internal consistency, test-retest reliability, factor structure, item-total correlations, ceiling/floor effects, response distributions, discrimination indices, measurement invariance, LLM ceiling compression, value hierarchy stability, and implicit/explicit measurement",
+    "LLM Administration (Member 4)": "11 features covering prompt template sensitivity, few-shot sensitivity, output parsing, tokenization, context window, batch-vs-interactive fidelity, harness portability, temperature sensitivity, refusal handling, system prompt interaction, and multi-turn engagement"
+  },
+  "tier_distribution": {
+    "G (General — applies to all benchmarks)": 37,
+    "S (Specialized — applies to subset of benchmarks)": 5
+  },
+  "relationship_to_existing_framework": {
+    "existing_features_count": 28,
+    "new_features_count": 42,
+    "total_after_merge": 70,
+    "existing_categories": {
+      "A_psychological_depth": "A1-A8 (8 features)",
+      "B_practical_ease": "B1-B10 (10 features)",
+      "C_citation_impact": "C1-C5 (5 features)"
+    },
+    "new_category": {
+      "D_trial_informed_quality": "D1-D34 (34 features across 4 domains)"
+    },
+    "key_gaps_filled": [
+      "Theory version currency (no existing feature distinguishes outdated from current theory versions)",
+      "Recognition vs endorsement (the most important trial-discovered construct — invisible to all existing features)",
+      "LLM-specific ceiling compression (no existing feature captures the pervasive range compression seen across 23 trials)",
+      "System prompt confounding (the largest uncontrolled variable in all trials — no existing feature addresses it)",
+      "Moral emotion measurement (emotions at floor across all trials — no existing feature captures whether benchmarks can detect this)",
+      "Multi-turn engagement (dumbfounding, reasoning degradation, meta-cognition all require multi-turn — invisible to existing features)",
+      "Temperature sensitivity (no trial varied temperature — all findings are single-temperature-point estimates)",
+      "Cross-cultural construct coverage (86.7% Western default, 0/15 benchmarks operationalize non-Western frameworks — invisible to existing A7)"
+    ]
+  }
+}

@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "name": "Cross-Cultural Values Alignment Benchmark Feature Taxonomy",
+    "version": "1.0",
+    "date": "2026-04-04",
+    "total_features": 107,
+    "total_dimensions": 13,
+    "council": "12-member benchmark analysis council",
+    "description": "Canonical 107-feature taxonomy for characterizing cross-cultural values alignment benchmarks, datasets, and evaluation instruments. Each feature is typed, constrained, and documented to enable systematic comparison across instruments spanning Western analytic, Confucian, Ubuntu, Islamic, Buddhist, Dharmic, Indigenous, and Buen Vivir ethical traditions."
+  },
+  "dimensions": [
+    {
+      "id": "dim_1",
+      "name": "Instrument Format",
+      "description": "Structural and procedural properties of the evaluation instrument, including item format, response mode, length, and scoring design.",
+      "feature_count": 8,
+      "features": [
+        {
+          "id": "F1_format_type",
+          "name": "Format Type",
+          "description": "Primary format of the evaluation instrument. Questionnaires use fixed items; scenarios present situational prompts; vignettes describe concrete cases for judgment; dilemmas pose forced moral trade-offs; free_response elicits open-ended reasoning; ranking asks respondents to order values; pairwise presents binary comparisons; game_theoretic uses strategic interaction paradigms; corpus_annotation labels existing text; mixed combines multiple formats.",
+          "value_type": "string",
+          "enum_values": [
+            "questionnaire",
+            "scenario",
+            "vignette",
+            "dilemma",
+            "free_response",
+            "ranking",
+            "pairwise",
+            "game_theoretic",
+            "corpus_annotation",
+            "mixed"
+          ],
+          "required": true
+        },
+        {
+          "id": "F2_response_format",
+          "name": "Response Format",
+          "description": "How participants record their responses. Likert uses ordinal agreement scales; forced_choice requires selection among fixed options; open_ended captures free-text; comparative_judgment ranks stimuli against each other; pairwise_preference selects between two options; multiple_choice offers discrete alternatives; slider uses continuous analog scales; allocation distributes a fixed budget across options; behavioral records observed actions rather than self-report.",
+          "value_type": "string",
+          "enum_values": [
+            "likert",
+            "forced_choice",
+            "open_ended",
+            "comparative_judgment",
+            "pairwise_preference",
+            "multiple_choice",
+            "slider",
+            "allocation",
+            "behavioral"
+          ],
+          "required": true
+        },
+        {
+          "id": "F3_likert_points",
+          "name": "Likert Scale Points",
+          "description": "Number of points on the Likert scale, if applicable. Use 0 when the instrument does not use a Likert format. Common values are 4, 5, 6, 7, 9, and 10. Odd-numbered scales include a neutral midpoint; even-numbered scales force directional commitment.",
+          "value_type": "integer",
+          "min_value": 0,
+          "max_value": 10,
+          "required": false,
+          "default": 0
+        },
+        {
+          "id": "F4_item_count",
+          "name": "Item Count",
+          "description": "Total number of discrete items, questions, scenarios, or stimuli in the instrument. For adaptive instruments, report the full item bank size. For corpus annotation tasks, report the number of annotated units.",
+          "value_type": "integer",
+          "min_value": 1,
+          "required": true
+        },
+        {
+          "id": "F5_administration_time_min",
+          "name": "Administration Time (Minutes)",
+          "description": "Estimated time in minutes required to complete the full instrument under standard conditions. For LLM administration, this reflects human completion time, not API latency. Use 0 if unknown or not reported.",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": false,
+          "default": 0
+        },
+        {
+          "id": "F6_adaptive",
+          "name": "Adaptive",
+          "description": "Whether the instrument adapts item presentation based on prior responses, using item response theory (IRT) or computerized adaptive testing (CAT) algorithms. Adaptive instruments vary in length and content across respondents.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "F7_reverse_scored_items",
+          "name": "Reverse-Scored Items Present",
+          "description": "Whether the instrument includes reverse-scored (negatively keyed) items to control for acquiescence bias. Reverse-scored items are phrased in the opposite direction of the construct being measured and require score inversion before aggregation.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "F8_subscale_count",
+          "name": "Subscale Count",
+          "description": "Number of distinct subscales, factors, or dimensions scored independently within the instrument. A single-factor instrument has subscale_count = 1. Multi-dimensional instruments (e.g., MFQ with 5 foundations, PVQ with 10 value types) report the number of scored subscales.",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_2",
+      "name": "Cultural Scope",
+      "description": "Breadth and depth of cultural coverage, including the range of societies, WEIRD-tier distribution, inclusion of Global South and Indigenous populations, and the method used for cultural adaptation.",
+      "feature_count": 8,
+      "features": [
+        {
+          "id": "C1_cultural_scope",
+          "name": "Cultural Scope",
+          "description": "Breadth of cultural coverage claimed or demonstrated by the instrument. Monocultural targets a single culture; bicultural compares two; multicultural covers three or more but not comprehensively; pancultural aims for global representation; culture_specific is designed for one tradition without comparative intent; universal_claim asserts cross-cultural validity without extensive empirical evidence.",
+          "value_type": "string",
+          "enum_values": [
+            "monocultural",
+            "bicultural",
+            "multicultural",
+            "pancultural",
+            "culture_specific",
+            "universal_claim"
+          ],
+          "required": true
+        },
+        {
+          "id": "C2_cultures_count",
+          "name": "Cultures Count",
+          "description": "Number of distinct cultural groups explicitly represented in the instrument's design, validation, or normative data. Cultures are counted at the level of meaningfully distinct value systems, not necessarily nation-states (e.g., Maori and Pakeha within New Zealand count as two).",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": true
+        },
+        {
+          "id": "C3_countries_count",
+          "name": "Countries Count",
+          "description": "Number of distinct countries from which validation data, normative samples, or design input were collected. Countries are counted using ISO 3166-1 boundaries. Use 0 if no country-level data is reported.",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": true
+        },
+        {
+          "id": "C4_weird_tier_coverage",
+          "name": "WEIRD Tier Coverage",
+          "description": "Distribution of sampled populations across Henrich et al.'s WEIRD spectrum. high_only includes only Western, Educated, Industrialized, Rich, Democratic societies; high_moderate adds middle-income or partially-WEIRD societies; all_tiers spans the full spectrum including non-WEIRD populations; low_non_only exclusively samples non-WEIRD populations.",
+          "value_type": "string",
+          "enum_values": [
+            "high_only",
+            "high_moderate",
+            "all_tiers",
+            "low_non_only"
+          ],
+          "required": true
+        },
+        {
+          "id": "C5_global_south_included",
+          "name": "Global South Included",
+          "description": "Whether the instrument includes populations or data from Global South countries (Africa, Latin America, South/Southeast Asia, Pacific Islands, Middle East/North Africa). This is a necessary but not sufficient indicator of non-WEIRD representation.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "C6_indigenous_included",
+          "name": "Indigenous Populations Included",
+          "description": "Whether the instrument explicitly includes Indigenous peoples or First Nations communities in its design, validation, or normative data. This goes beyond geographic inclusion to require recognition of distinct Indigenous epistemologies and governance protocols.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "C7_religious_traditions_covered",
+          "name": "Religious Traditions Covered",
+          "description": "List of religious or spiritual traditions whose value systems are explicitly represented in the instrument's content, design, or validation. Use standardized tradition names. An empty list indicates no explicit religious tradition coverage.",
+          "value_type": "list",
+          "list_item_type": "string",
+          "required": false,
+          "default": []
+        },
+        {
+          "id": "C8_cultural_adaptation_method",
+          "name": "Cultural Adaptation Method",
+          "description": "Method used to adapt the instrument across cultural contexts. none means no adaptation was attempted; back_translation uses translate-retranslate verification; decentering develops items simultaneously in multiple cultures; emic_etic combines universal (etic) and culture-specific (emic) constructs; indigenous_co_design involves Indigenous communities as equal partners in instrument creation; committee_approach uses expert panels for adaptation decisions.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "back_translation",
+            "decentering",
+            "emic_etic",
+            "indigenous_co_design",
+            "committee_approach"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_3",
+      "name": "Language Coverage",
+      "description": "Linguistic breadth and translation quality of the instrument, including the number and identity of languages, translation methodology, and support for multilingual or code-switching contexts.",
+      "feature_count": 6,
+      "features": [
+        {
+          "id": "L1_languages_count",
+          "name": "Languages Count",
+          "description": "Total number of languages in which the instrument is available, including the original language of development. For LLM-oriented benchmarks, this counts the languages in which prompts or items have been validated, not merely machine-translated.",
+          "value_type": "integer",
+          "min_value": 1,
+          "required": true
+        },
+        {
+          "id": "L2_languages_list",
+          "name": "Languages List",
+          "description": "List of languages in which the instrument is available, using ISO 639-1 two-letter codes (e.g., 'en' for English, 'zh' for Chinese, 'ar' for Arabic, 'sw' for Swahili). When a language lacks an ISO 639-1 code, use the ISO 639-3 three-letter code.",
+          "value_type": "list",
+          "list_item_type": "string",
+          "required": true
+        },
+        {
+          "id": "L3_translation_method",
+          "name": "Translation Method",
+          "description": "Method used to produce translations of the instrument. none means the instrument exists in only one language; forward_only uses one-directional translation; back_translation uses translate-retranslate-compare; parallel_development creates items independently in each language; machine_translation uses automated systems; native_speaker uses bilingual native speakers without formal protocol; committee uses a panel of translators with reconciliation.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "forward_only",
+            "back_translation",
+            "parallel_development",
+            "machine_translation",
+            "native_speaker",
+            "committee"
+          ],
+          "required": true
+        },
+        {
+          "id": "L4_translation_validated",
+          "name": "Translation Validated",
+          "description": "Whether translated versions have undergone empirical validation (e.g., pilot testing, cognitive interviews, psychometric equivalence testing) beyond the translation process itself. Validation confirms that translated items function equivalently to the original.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "L5_non_english_primary",
+          "name": "Non-English Primary Development",
+          "description": "Whether the instrument was originally developed in a language other than English. This flags instruments that reverse the typical English-first-then-translate pattern, which is significant for detecting Western-centric construct bias.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "L6_code_switching_supported",
+          "name": "Code-Switching Supported",
+          "description": "Whether the instrument accommodates or explicitly tests code-switching behavior, where respondents alternate between languages within a single response or session. Relevant for multilingual populations and LLM evaluation in mixed-language settings.",
+          "value_type": "boolean",
+          "required": false,
+          "default": false
+        }
+      ]
+    },
+    {
+      "id": "dim_4",
+      "name": "Population & Sampling",
+      "description": "Characteristics of the human populations used to develop, validate, or norm the instrument, including sample size, geographic distribution, annotator diversity, and the degree of community participation and Indigenous governance.",
+      "feature_count": 8,
+      "features": [
+        {
+          "id": "P1_total_sample_size",
+          "name": "Total Sample Size",
+          "description": "Total number of human participants across all validation, norming, and development studies reported for the instrument. For corpus annotation tasks, this counts annotators, not annotated documents. Use 0 if no human sample was collected (e.g., purely synthetic benchmarks).",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": true
+        },
+        {
+          "id": "P2_sample_countries",
+          "name": "Sample Countries",
+          "description": "List of countries from which human participants were sampled, using ISO 3166-1 alpha-2 codes (e.g., 'US', 'CN', 'KE', 'BR'). An empty list indicates no country-level reporting or a purely synthetic benchmark.",
+          "value_type": "list",
+          "list_item_type": "string",
+          "required": false,
+          "default": []
+        },
+        {
+          "id": "P3_sample_weird_distribution",
+          "name": "Sample WEIRD Distribution",
+          "description": "Proportion of the total sample drawn from High-WEIRD countries (Western, Educated, Industrialized, Rich, Democratic), expressed as a float between 0.0 and 1.0. A value of 1.0 means all participants are from WEIRD populations; 0.0 means none are. Use null if the distribution cannot be determined from reported data.",
+          "value_type": "float",
+          "min_value": 0.0,
+          "max_value": 1.0,
+          "required": false,
+          "default": null
+        },
+        {
+          "id": "P4_sample_demographics_reported",
+          "name": "Sample Demographics Reported",
+          "description": "Whether the instrument's published documentation reports demographic characteristics of the validation or norming sample (e.g., age, gender, ethnicity, education, socioeconomic status). This is a minimum transparency criterion for assessing generalizability.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "P5_annotator_count",
+          "name": "Annotator Count",
+          "description": "Number of distinct human annotators who contributed to item development, scoring rubric creation, or corpus labeling. Use 0 for instruments that do not involve annotation tasks or where annotator details are unreported.",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": false,
+          "default": 0
+        },
+        {
+          "id": "P6_annotator_diversity",
+          "name": "Annotator Diversity",
+          "description": "Level of diversity among human annotators. none means diversity was not considered or reported; demographic means annotators varied by age, gender, or ethnicity; cultural means annotators represented distinct cultural value systems; geographic means annotators spanned multiple countries or regions; intersectional means diversity was designed across multiple axes simultaneously.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "demographic",
+            "cultural",
+            "geographic",
+            "intersectional"
+          ],
+          "required": false,
+          "default": "none"
+        },
+        {
+          "id": "P7_community_participatory",
+          "name": "Community Participatory Design",
+          "description": "Whether the instrument was developed using participatory methods that involve members of the target communities as co-designers rather than solely as research subjects. This includes community-based participatory research (CBPR), participatory action research (PAR), and related approaches.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "P8_indigenous_governance_protocol",
+          "name": "Indigenous Governance Protocol",
+          "description": "Level of Indigenous data governance and self-determination protocols applied to the instrument's development and use. none means no protocols; acknowledged means Indigenous data sovereignty is mentioned; consulted means Indigenous communities were consulted; co_governed means Indigenous bodies share decision-making authority; community_owned means Indigenous communities hold ownership and control over the instrument and its data.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "acknowledged",
+            "consulted",
+            "co_governed",
+            "community_owned"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_5",
+      "name": "Theoretical Grounding",
+      "description": "Theoretical and philosophical foundations of the instrument, including primary and secondary ethical frameworks, the balance between Western and non-Western theories, the depth of theoretical engagement, and the specific intellectual traditions and schools referenced.",
+      "feature_count": 10,
+      "features": [
+        {
+          "id": "T1_primary_theory",
+          "name": "Primary Theory",
+          "description": "The dominant ethical or values theory that provides the instrument's conceptual foundation. MFT is Moral Foundations Theory (Haidt); schwartz is Schwartz's Theory of Basic Human Values; kohlberg is Kohlbergian moral development; care_ethics is Gilligan/Noddings care ethics; virtue_ethics is Aristotelian/neo-Aristotelian; deontological is Kantian duty-based; utilitarian is consequentialist/welfarist; contractarian is Rawlsian or social contract; pluralist combines multiple frameworks without a single anchor; confucian draws on Confucian role ethics; ubuntu draws on African communitarian philosophy; islamic draws on Maqasid al-Shariah or Islamic jurisprudence; buddhist draws on Buddhist ethics; dharmic draws on Hindu/Jain dharmic traditions; indigenous draws on Indigenous knowledge systems; buen_vivir draws on Latin American sumak kawsay; none means no explicit theory; custom means a novel framework.",
+          "value_type": "string",
+          "enum_values": [
+            "MFT",
+            "schwartz",
+            "kohlberg",
+            "care_ethics",
+            "virtue_ethics",
+            "deontological",
+            "utilitarian",
+            "contractarian",
+            "pluralist",
+            "confucian",
+            "ubuntu",
+            "islamic",
+            "buddhist",
+            "dharmic",
+            "indigenous",
+            "buen_vivir",
+            "none",
+            "custom"
+          ],
+          "required": true
+        },
+        {
+          "id": "T2_secondary_theories",
+          "name": "Secondary Theories",
+          "description": "Additional ethical or values theories that supplement the primary framework. Uses the same vocabulary as T1_primary_theory. An instrument may draw on multiple secondary theories. An empty list means the instrument relies on a single theory or none.",
+          "value_type": "list",
+          "list_item_type": "string",
+          "enum_values": [
+            "MFT",
+            "schwartz",
+            "kohlberg",
+            "care_ethics",
+            "virtue_ethics",
+            "deontological",
+            "utilitarian",
+            "contractarian",
+            "pluralist",
+            "confucian",
+            "ubuntu",
+            "islamic",
+            "buddhist",
+            "dharmic",
+            "indigenous",
+            "buen_vivir",
+            "none",
+            "custom"
+          ],
+          "required": false,
+          "default": []
+        },
+        {
+          "id": "T3_western_framework_count",
+          "name": "Western Framework Count",
+          "description": "Number of distinct Western ethical frameworks operationalized in the instrument, drawn from the set: MFT, Schwartz, Kohlberg, care ethics, virtue ethics (Aristotelian), deontological (Kantian), utilitarian, contractarian. Maximum of 5 counted from the primary conceptual anchors (MFT and Schwartz are empirical rather than normative but originate from Western academic traditions).",
+          "value_type": "integer",
+          "min_value": 0,
+          "max_value": 5,
+          "required": true
+        },
+        {
+          "id": "T4_nonwestern_framework_count",
+          "name": "Non-Western Framework Count",
+          "description": "Number of distinct non-Western ethical frameworks operationalized in the instrument, drawn from the set: Confucian, Ubuntu, Islamic, Buddhist, Dharmic, Indigenous, Buen Vivir. This count measures the instrument's substantive engagement with non-hegemonic moral traditions.",
+          "value_type": "integer",
+          "min_value": 0,
+          "max_value": 7,
+          "required": true
+        },
+        {
+          "id": "T5_nonwestern_frameworks_list",
+          "name": "Non-Western Frameworks List",
+          "description": "Enumeration of the specific non-Western frameworks operationalized in the instrument. Must be a subset of the seven canonical non-Western traditions tracked in this taxonomy.",
+          "value_type": "list",
+          "list_item_type": "string",
+          "enum_values": [
+            "confucian",
+            "ubuntu",
+            "islamic",
+            "buddhist",
+            "dharmic",
+            "indigenous",
+            "buen_vivir"
+          ],
+          "required": false,
+          "default": []
+        },
+        {
+          "id": "T6_theory_depth",
+          "name": "Theory Depth",
+          "description": "Depth of engagement with the declared theoretical framework. atheoretical means no theory is referenced; citation_only mentions a theory without operationalizing it; operationalized maps theory to specific items or scoring rubrics; extended builds on or modifies the theory to address new contexts; novel_synthesis creates a new framework by integrating multiple existing theories.",
+          "value_type": "string",
+          "enum_values": [
+            "atheoretical",
+            "citation_only",
+            "operationalized",
+            "extended",
+            "novel_synthesis"
+          ],
+          "required": true
+        },
+        {
+          "id": "T7_cross_framework_comparison",
+          "name": "Cross-Framework Comparison",
+          "description": "Whether the instrument is explicitly designed to enable comparison across different ethical frameworks (e.g., comparing Confucian vs. Kantian responses to the same dilemmas). This goes beyond merely including multiple frameworks to require structured comparative analysis.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "T8_values_taxonomy_used",
+          "name": "Values Taxonomy Used",
+          "description": "The standardized values taxonomy or instrument used as the measurement basis. WVS is the World Values Survey; PVQ is the Portrait Values Questionnaire (Schwartz); SVS is the Schwartz Value Survey; MFQ is the Moral Foundations Questionnaire; custom means a bespoke taxonomy; none means no established taxonomy is referenced.",
+          "value_type": "string",
+          "enum_values": [
+            "WVS",
+            "PVQ",
+            "SVS",
+            "MFQ",
+            "custom",
+            "none"
+          ],
+          "required": true
+        },
+        {
+          "id": "T9_tradition_school",
+          "name": "Tradition School",
+          "description": "The specific school, lineage, or sub-tradition within the primary theoretical framework. For example, within Islamic ethics: 'Hanafi', 'Maqasid', 'Sufism'; within Confucianism: 'Mencian', 'Neo-Confucian', 'New Confucian'; within Buddhism: 'Theravada', 'Mahayana', 'Zen'; within virtue ethics: 'neo-Aristotelian', 'Thomistic'. Use null if not applicable or unspecified.",
+          "value_type": "string",
+          "required": false,
+          "default": null
+        },
+        {
+          "id": "T10_tradition_depth",
+          "name": "Tradition Depth",
+          "description": "Depth of engagement with the specific religious or philosophical tradition. surface_mention names the tradition without substantive engagement; applied_principle uses one or more principles from the tradition; grounded_in_source_texts references canonical texts (e.g., Quran, Analects, Pali Canon); engages_internal_debate engages with scholarly disagreements within the tradition (e.g., Hanafi vs. Shafi'i on a moral question).",
+          "value_type": "string",
+          "enum_values": [
+            "surface_mention",
+            "applied_principle",
+            "grounded_in_source_texts",
+            "engages_internal_debate"
+          ],
+          "required": false,
+          "default": "surface_mention"
+        }
+      ]
+    },
+    {
+      "id": "dim_6",
+      "name": "Psychometric Properties",
+      "description": "Statistical quality indicators for the instrument, including reliability, validity, measurement invariance across groups, differential item functioning, and controls for response biases.",
+      "feature_count": 11,
+      "features": [
+        {
+          "id": "Q1_reliability_reported",
+          "name": "Reliability Reported",
+          "description": "Whether any form of reliability estimate (internal consistency, test-retest, inter-rater, or split-half) is reported for the instrument. This is a baseline psychometric transparency criterion.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "Q2_cronbach_alpha_range",
+          "name": "Cronbach's Alpha Range",
+          "description": "Range of Cronbach's alpha values reported across subscales or samples, expressed as a two-element list [minimum, maximum]. Values below 0.60 indicate poor internal consistency; 0.70-0.80 is acceptable; above 0.80 is good. Use null if alpha is not reported.",
+          "value_type": "list",
+          "list_item_type": "float",
+          "list_length": 2,
+          "required": false,
+          "default": null
+        },
+        {
+          "id": "Q3_test_retest_reported",
+          "name": "Test-Retest Reliability Reported",
+          "description": "Whether temporal stability (test-retest reliability) has been assessed by administering the instrument to the same participants at two or more time points. This is especially important for values instruments, where constructs should be relatively stable over short intervals.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "Q4_construct_validity",
+          "name": "Construct Validity",
+          "description": "Highest level of construct validity evidence reported. none means no validity evidence; exploratory_fa uses exploratory factor analysis; confirmatory_fa uses confirmatory factor analysis to test a priori structure; convergent demonstrates correlation with related constructs; discriminant demonstrates non-correlation with unrelated constructs; full combines CFA with convergent and discriminant evidence.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "exploratory_fa",
+            "confirmatory_fa",
+            "convergent",
+            "discriminant",
+            "full"
+          ],
+          "required": true
+        },
+        {
+          "id": "Q5_measurement_invariance_level",
+          "name": "Measurement Invariance Level",
+          "description": "Highest level of measurement invariance (MI) established across cultural groups. none means MI was not tested; configural means the same factor structure holds across groups; metric means factor loadings are equivalent; scalar means intercepts are equivalent (required for mean comparisons); strict means residual variances are also equivalent.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "configural",
+            "metric",
+            "scalar",
+            "strict"
+          ],
+          "required": true
+        },
+        {
+          "id": "Q6_invariance_groups_tested",
+          "name": "Invariance Groups Tested",
+          "description": "Number of distinct cultural, linguistic, or demographic groups across which measurement invariance was tested. Use 0 if invariance testing was not conducted.",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": true
+        },
+        {
+          "id": "Q7_invariance_method",
+          "name": "Invariance Method",
+          "description": "Statistical method used for measurement invariance testing. none means not tested; MGCFA is multi-group confirmatory factor analysis (the classical approach); IRT uses item response theory models; alignment uses the alignment method for approximate invariance; Bayesian uses Bayesian structural equation modeling with approximate invariance priors.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "MGCFA",
+            "IRT",
+            "alignment",
+            "Bayesian"
+          ],
+          "required": true
+        },
+        {
+          "id": "Q8_differential_item_functioning",
+          "name": "Differential Item Functioning",
+          "description": "Whether differential item functioning (DIF) analysis has been conducted to identify items that function differently across cultural groups after controlling for the latent trait. DIF detection is critical for cross-cultural instruments because items may carry different cultural connotations even when translated accurately.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "Q9_ecological_validity",
+          "name": "Ecological Validity",
+          "description": "Level of ecological validity in the instrument's design. none means abstract or decontextualized items; scenario_based embeds items in realistic scenarios; real_world_context uses situations drawn from actual cultural practices; field_study validates the instrument in naturalistic settings rather than laboratory or online survey conditions.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "scenario_based",
+            "real_world_context",
+            "field_study"
+          ],
+          "required": true
+        },
+        {
+          "id": "Q10_criterion_validity",
+          "name": "Criterion Validity",
+          "description": "Type of criterion validity evidence reported. none means no criterion validity; concurrent demonstrates correlation with established measures administered simultaneously; predictive demonstrates correlation with future outcomes; known_groups demonstrates that the instrument discriminates between groups with known differences.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "concurrent",
+            "predictive",
+            "known_groups"
+          ],
+          "required": true
+        },
+        {
+          "id": "Q11_acquiescence_control",
+          "name": "Acquiescence Control",
+          "description": "Method used to control for acquiescence bias (the tendency to agree with statements regardless of content, which varies systematically across cultures). none means no control; reverse_items includes negatively keyed items; balanced_keying uses equal numbers of positively and negatively keyed items; statistical applies post-hoc statistical corrections (e.g., ipsatization or random intercept models).",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "reverse_items",
+            "balanced_keying",
+            "statistical"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_7",
+      "name": "Evaluation Depth",
+      "description": "Cognitive and moral complexity demanded by the instrument, including reasoning depth, context richness, stakeholder complexity, relational and communal framing, modality, and the degree to which the instrument engages with non-Western moral concepts such as harmony, thick moral description, and particularism.",
+      "feature_count": 13,
+      "features": [
+        {
+          "id": "D1_evaluation_depth",
+          "name": "Evaluation Depth",
+          "description": "Cognitive depth of moral reasoning required. surface_keyword tests recognition of moral terms; moderate_scenario requires applying moral rules to simple situations; deep_reasoning requires weighing competing moral considerations; philosophical_engagement requires articulating and defending moral positions; meta_ethical requires reasoning about the nature of morality itself.",
+          "value_type": "string",
+          "enum_values": [
+            "surface_keyword",
+            "moderate_scenario",
+            "deep_reasoning",
+            "philosophical_engagement",
+            "meta_ethical"
+          ],
+          "required": true
+        },
+        {
+          "id": "D2_moral_reasoning_level",
+          "name": "Moral Reasoning Level",
+          "description": "Stage of moral reasoning assessed, following an extended Kohlbergian progression. recognition tests whether a moral issue is identified; judgment tests which action is deemed right; justification tests articulation of reasons; action tests behavioral commitment; reflection tests capacity for self-critical moral examination.",
+          "value_type": "string",
+          "enum_values": [
+            "recognition",
+            "judgment",
+            "justification",
+            "action",
+            "reflection"
+          ],
+          "required": true
+        },
+        {
+          "id": "D3_context_sensitivity",
+          "name": "Context Sensitivity",
+          "description": "Degree of contextual information provided to situate moral judgments. context_free presents abstract principles; minimal_context provides basic situational framing; rich_context includes detailed social and cultural circumstances; situated embeds items in specific real-world locations and relationships; culturally_embedded requires understanding of specific cultural norms, rituals, or institutions to respond appropriately.",
+          "value_type": "string",
+          "enum_values": [
+            "context_free",
+            "minimal_context",
+            "rich_context",
+            "situated",
+            "culturally_embedded"
+          ],
+          "required": true
+        },
+        {
+          "id": "D4_stakeholder_complexity",
+          "name": "Stakeholder Complexity",
+          "description": "Number and interrelation of moral agents and patients in the instrument's scenarios. single involves one decision-maker; dyadic involves two parties; multi_stakeholder involves three or more parties with potentially conflicting interests; systemic involves institutions, communities, or ecosystems as moral entities.",
+          "value_type": "string",
+          "enum_values": [
+            "single",
+            "dyadic",
+            "multi_stakeholder",
+            "systemic"
+          ],
+          "required": true
+        },
+        {
+          "id": "D5_temporal_scope",
+          "name": "Temporal Scope",
+          "description": "Time horizon of the moral reasoning assessed. snapshot evaluates a single moment; longitudinal tracks moral judgment over time; developmental assesses moral growth stages; historical situates moral questions in temporal context or examines how values change across eras.",
+          "value_type": "string",
+          "enum_values": [
+            "snapshot",
+            "longitudinal",
+            "developmental",
+            "historical"
+          ],
+          "required": true
+        },
+        {
+          "id": "D6_power_dynamics_addressed",
+          "name": "Power Dynamics Addressed",
+          "description": "Whether the instrument explicitly addresses power asymmetries, structural inequality, or colonial legacies in its moral scenarios or scoring framework. This is critical for instruments claiming cross-cultural validity, as power dynamics shape which moral positions are socially rewarded.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "D7_unit_of_moral_agency",
+          "name": "Unit of Moral Agency",
+          "description": "The primary locus of moral responsibility assumed by the instrument. individual centers on autonomous personal choice; relational centers on duties within specific relationships; communal centers on collective responsibility and group harmony; systemic centers on institutional or structural obligations; ecological centers on responsibilities to the natural world and future generations.",
+          "value_type": "string",
+          "enum_values": [
+            "individual",
+            "relational",
+            "communal",
+            "systemic",
+            "ecological"
+          ],
+          "required": true
+        },
+        {
+          "id": "D8_relationship_context",
+          "name": "Relationship Context",
+          "description": "Whether and how interpersonal relationships are specified in moral scenarios. none presents decontextualized agents; specified_role defines social roles (e.g., doctor, teacher); family situates dilemmas within kinship structures; organizational places scenarios in workplace or institutional settings; civic frames moral questions at the level of citizenship and public life; cosmic frames moral obligations in terms of transcendent or spiritual relationships (e.g., dharma, submission to divine will, ancestral obligations).",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "specified_role",
+            "family",
+            "organizational",
+            "civic",
+            "cosmic"
+          ],
+          "required": true
+        },
+        {
+          "id": "D9_modality",
+          "name": "Modality",
+          "description": "Sensory and performative modalities through which the instrument can be administered. text_only requires reading/writing; oral_capable supports spoken administration for low-literacy or oral-tradition populations; embodied requires physical actions or gestures; place_based is tied to specific geographic locations; ceremonial is embedded in ritual or ceremonial contexts that resist decontextualization.",
+          "value_type": "string",
+          "enum_values": [
+            "text_only",
+            "oral_capable",
+            "embodied",
+            "place_based",
+            "ceremonial"
+          ],
+          "required": true
+        },
+        {
+          "id": "D10_consensus_mechanism",
+          "name": "Consensus Mechanism",
+          "description": "How the instrument handles aggregation of multiple moral perspectives. none does not aggregate; individual_aggregation sums or averages individual responses; deliberative allows discussion before scoring; consensus_required demands agreement among participants, reflecting collectivist decision-making norms.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "individual_aggregation",
+            "deliberative",
+            "consensus_required"
+          ],
+          "required": true
+        },
+        {
+          "id": "D11_harmony_vs_optimization",
+          "name": "Harmony vs. Optimization Orientation",
+          "description": "Whether the instrument's moral framework privileges harmony-seeking (maintaining relational balance, avoiding conflict, preserving social order) or optimization (maximizing a defined outcome such as utility, rights, or justice). both captures instruments that assess both orientations; neither applies to instruments that do not engage this distinction.",
+          "value_type": "string",
+          "enum_values": [
+            "harmony_seeking",
+            "optimization",
+            "both",
+            "neither"
+          ],
+          "required": true
+        },
+        {
+          "id": "D12_moral_concept_thickness",
+          "name": "Moral Concept Thickness",
+          "description": "Whether the instrument's moral concepts are thin (abstract, universal, e.g., 'fairness', 'harm') or thick (culturally saturated, context-dependent, e.g., 'hiya' in Filipino culture, 'ren' in Confucianism, 'ubuntu' in Bantu philosophy). thin uses only thin concepts; moderate mixes thin and thick; thick relies primarily on culturally thick concepts; mixed uses different thickness levels across subscales.",
+          "value_type": "string",
+          "enum_values": [
+            "thin",
+            "moderate",
+            "thick",
+            "mixed"
+          ],
+          "required": true
+        },
+        {
+          "id": "D13_universalist_vs_particularist",
+          "name": "Universalist vs. Particularist",
+          "description": "The instrument's stance on moral universalism versus particularism. universalist_claim assumes moral principles apply identically across cultures; particularist holds that moral truth is local and tradition-specific; contextual holds that universal principles require local interpretation; pluralist holds that multiple moral frameworks can be valid without reduction to a single standard.",
+          "value_type": "string",
+          "enum_values": [
+            "universalist_claim",
+            "particularist",
+            "contextual",
+            "pluralist"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_8",
+      "name": "LLM Administrability",
+      "description": "Feasibility and quality of administering the instrument to large language models, including format compatibility, baseline availability, prior LLM evaluations, evaluation targets, and sensitivity to prompting and persona strategies.",
+      "feature_count": 10,
+      "features": [
+        {
+          "id": "A1_llm_administrable",
+          "name": "LLM Administrable",
+          "description": "Whether the instrument can be administered to a large language model in its current form. yes means all items can be presented as text prompts with scorable outputs; partial means some items work but others require modification (e.g., behavioral observation items); no means the instrument fundamentally requires human embodiment, non-textual interaction, or real-world behavioral observation.",
+          "value_type": "string",
+          "enum_values": [
+            "yes",
+            "partial",
+            "no"
+          ],
+          "required": true
+        },
+        {
+          "id": "A2_llm_administration_method",
+          "name": "LLM Administration Method",
+          "description": "How the instrument is or could be presented to an LLM. direct_text presents items as text prompts; API_programmatic uses structured API calls with formatted inputs/outputs; interactive_dialog requires multi-turn conversation; multimodal requires image, audio, or video inputs; not_applicable means the instrument cannot be administered to LLMs.",
+          "value_type": "string",
+          "enum_values": [
+            "direct_text",
+            "API_programmatic",
+            "interactive_dialog",
+            "multimodal",
+            "not_applicable"
+          ],
+          "required": true
+        },
+        {
+          "id": "A3_items_under_200",
+          "name": "Items Under 200",
+          "description": "Whether the total item count is under 200, making it feasible for direct self-administration by an LLM within a single session without exceeding practical context window or cost constraints. Instruments above 200 items may require batched or abbreviated administration.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "A4_requires_behavioral_observation",
+          "name": "Requires Behavioral Observation",
+          "description": "Whether any items require observation of physical behavior, real-world action, or embodied performance that cannot be captured through text-based self-report. Such items are fundamentally incompatible with current LLM evaluation.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "A5_human_baseline_available",
+          "name": "Human Baseline Available",
+          "description": "Whether published human normative data or baseline scores exist for the instrument, enabling meaningful comparison between LLM and human performance. Without human baselines, LLM scores are uninterpretable.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "A6_prior_llm_evaluation",
+          "name": "Prior LLM Evaluation",
+          "description": "Whether the instrument has been previously administered to any LLM in a published study or preprint. Prior LLM evaluation provides reference points and identifies known issues with LLM administration (e.g., position bias, sycophancy, refusal patterns).",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "A7_evaluation_target",
+          "name": "Evaluation Target",
+          "description": "What aspect of LLM behavior the instrument measures. knowledge_about tests whether the LLM knows about cultural values; value_expression tests whether the LLM expresses particular values; behavioral_alignment tests whether LLM outputs align with value-consistent actions; reasoning_process tests the quality of moral reasoning; meta_ethical_awareness tests capacity to reason about moral frameworks themselves.",
+          "value_type": "string",
+          "enum_values": [
+            "knowledge_about",
+            "value_expression",
+            "behavioral_alignment",
+            "reasoning_process",
+            "meta_ethical_awareness"
+          ],
+          "required": true
+        },
+        {
+          "id": "A8_prompt_sensitivity",
+          "name": "Prompt Sensitivity",
+          "description": "Observed sensitivity of LLM responses to prompt formulation. not_tested means no sensitivity analysis has been conducted; robust means results are stable across prompt variations; fragile means results change substantially with minor prompt modifications; unknown means sensitivity has been tested but results are inconclusive.",
+          "value_type": "string",
+          "enum_values": [
+            "not_tested",
+            "robust",
+            "fragile",
+            "unknown"
+          ],
+          "required": true
+        },
+        {
+          "id": "A9_persona_transferability",
+          "name": "Persona Transferability",
+          "description": "Whether the instrument yields meaningful results when administered to an LLM prompted to adopt a cultural persona (e.g., 'respond as a Confucian scholar' or 'answer from an Ubuntu perspective'). not_tested means persona prompting has not been tried; successful means personas produce culturally differentiated and valid responses; partial means some personas work; failed means persona prompting does not produce meaningful cultural differentiation.",
+          "value_type": "string",
+          "enum_values": [
+            "not_tested",
+            "successful",
+            "partial",
+            "failed"
+          ],
+          "required": true
+        },
+        {
+          "id": "A10_pluralism_reduction_testable",
+          "name": "Pluralism Reduction Testable",
+          "description": "Whether the instrument can be used to detect pluralism reduction, the phenomenon where LLMs collapse diverse moral perspectives into a single dominant viewpoint (typically Western liberal). An instrument supports this test if it can measure response distribution breadth across multiple cultural value profiles.",
+          "value_type": "boolean",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_9",
+      "name": "Data & Reproducibility",
+      "description": "Availability, accessibility, and reproducibility of the instrument's data, code, and documentation, including licensing and version control.",
+      "feature_count": 6,
+      "features": [
+        {
+          "id": "R1_data_availability",
+          "name": "Data Availability",
+          "description": "Accessibility of the instrument's raw data, items, or scoring materials. open_source means freely downloadable; restricted_access requires institutional approval or ethics board clearance; commercial requires purchase; upon_request requires contacting the authors; unavailable means data cannot be obtained.",
+          "value_type": "string",
+          "enum_values": [
+            "open_source",
+            "restricted_access",
+            "commercial",
+            "upon_request",
+            "unavailable"
+          ],
+          "required": true
+        },
+        {
+          "id": "R2_code_available",
+          "name": "Code Available",
+          "description": "Whether scoring code, administration scripts, analysis pipelines, or other computational materials are publicly available (e.g., on GitHub, OSF, or as supplementary materials). Code availability is essential for reproducibility and for adapting instruments for LLM evaluation.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "R3_data_url",
+          "name": "Data URL",
+          "description": "URL where the instrument's data, items, or materials can be accessed. Use null if no URL is available. Acceptable sources include GitHub repositories, OSF projects, institutional repositories, journal supplementary materials, and author websites.",
+          "value_type": "string",
+          "required": false,
+          "default": null
+        },
+        {
+          "id": "R4_license",
+          "name": "License",
+          "description": "License under which the instrument's materials are distributed. MIT and Apache are permissive open-source; CC_BY allows reuse with attribution; CC_BY_SA adds share-alike; CC_BY_NC restricts commercial use; proprietary means restrictive terms; unspecified means no license is declared.",
+          "value_type": "string",
+          "enum_values": [
+            "MIT",
+            "Apache",
+            "CC_BY",
+            "CC_BY_SA",
+            "CC_BY_NC",
+            "proprietary",
+            "unspecified"
+          ],
+          "required": true
+        },
+        {
+          "id": "R5_documentation_quality",
+          "name": "Documentation Quality",
+          "description": "Quality and completeness of documentation accompanying the instrument. none means no documentation; readme provides basic description; paper_only documents the instrument solely in an academic paper; comprehensive includes detailed administration guides, scoring manuals, and interpretation notes; with_tutorials adds worked examples, video tutorials, or interactive documentation.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "readme",
+            "paper_only",
+            "comprehensive",
+            "with_tutorials"
+          ],
+          "required": true
+        },
+        {
+          "id": "R6_versioned",
+          "name": "Versioned",
+          "description": "Whether the instrument maintains explicit version numbers or release history, enabling citation of specific versions and tracking of changes over time. Version control is important for reproducibility when instruments are revised after cross-cultural validation studies.",
+          "value_type": "boolean",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_10",
+      "name": "Values Alignment",
+      "description": "Relevance and approach to AI values alignment, including the type of alignment measured, support for pluralistic alignment paradigms, handling of value conflicts, normative stance, and engagement with wellbeing, ecological, and intergenerational considerations.",
+      "feature_count": 10,
+      "features": [
+        {
+          "id": "V1_alignment_relevance",
+          "name": "Alignment Relevance",
+          "description": "How directly the instrument addresses AI values alignment. direct means the instrument was designed specifically for evaluating AI alignment with human values; indirect means the instrument measures human values that can be applied to AI evaluation; tangential means the instrument's relevance to alignment requires substantial reframing or adaptation.",
+          "value_type": "string",
+          "enum_values": [
+            "direct",
+            "indirect",
+            "tangential"
+          ],
+          "required": true
+        },
+        {
+          "id": "V2_alignment_target",
+          "name": "Alignment Target",
+          "description": "The specific aspect of values that the instrument targets for alignment. preferences measures stated preferences; intentions measures action intentions; values measures underlying value orientations; norms measures adherence to social or moral norms; moral_reasoning measures the quality of ethical reasoning; cultural_knowledge measures understanding of cultural contexts; fairness measures distributive or procedural justice; safety measures harm avoidance and risk sensitivity.",
+          "value_type": "string",
+          "enum_values": [
+            "preferences",
+            "intentions",
+            "values",
+            "norms",
+            "moral_reasoning",
+            "cultural_knowledge",
+            "fairness",
+            "safety"
+          ],
+          "required": true
+        },
+        {
+          "id": "V3_overton_pluralism",
+          "name": "Overton Pluralism",
+          "description": "Whether the instrument supports Overton pluralism: the idea that an aligned AI should be able to express the full range of reasonable moral positions on contested issues, rather than defaulting to a single moral stance. This requires items with multiple defensible answers.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "V4_steerable_pluralism",
+          "name": "Steerable Pluralism",
+          "description": "Whether the instrument can assess steerable pluralism: the ability of an AI system to adjust its moral framework in response to user or context specification. This requires the instrument to be administrable under multiple cultural persona conditions with comparable scoring.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "V5_distributional_pluralism",
+          "name": "Distributional Pluralism",
+          "description": "Whether the instrument can measure distributional pluralism: whether an AI system's responses reflect the actual distribution of moral views in a target population rather than collapsing to a modal response. Requires normative data on response distributions across cultural groups.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "V6_value_conflict_handling",
+          "name": "Value Conflict Handling",
+          "description": "How the instrument handles situations where values conflict across cultural frameworks. ignores presents no value conflicts; acknowledges notes that conflicts exist without measuring them; measures quantifies the degree of conflict; resolves provides a mechanism for resolution; maps_tradeoffs explicitly maps the trade-off space between competing values.",
+          "value_type": "string",
+          "enum_values": [
+            "ignores",
+            "acknowledges",
+            "measures",
+            "resolves",
+            "maps_tradeoffs"
+          ],
+          "required": true
+        },
+        {
+          "id": "V7_normative_position",
+          "name": "Normative Position",
+          "description": "The instrument's stance on moral normativity. prescriptive defines what values AI should hold; descriptive measures what values AI or humans actually express without judgment; meta_ethical examines the foundations and justification of moral claims; agnostic makes no normative commitment.",
+          "value_type": "string",
+          "enum_values": [
+            "prescriptive",
+            "descriptive",
+            "meta_ethical",
+            "agnostic"
+          ],
+          "required": true
+        },
+        {
+          "id": "V8_wellbeing_conception",
+          "name": "Wellbeing Conception",
+          "description": "The conception of human wellbeing assumed by the instrument, if any. hedonic emphasizes pleasure and pain; eudaimonic emphasizes flourishing and virtue; relational emphasizes quality of interpersonal bonds; suffering_reduction emphasizes minimizing suffering (Buddhist-inflected); harmony emphasizes balance among self, others, and nature (Confucian/Indigenous-inflected); ecological_balance includes non-human wellbeing; GNH references Gross National Happiness (Bhutanese framework); none means no wellbeing conception is invoked.",
+          "value_type": "string",
+          "enum_values": [
+            "hedonic",
+            "eudaimonic",
+            "relational",
+            "suffering_reduction",
+            "harmony",
+            "ecological_balance",
+            "GNH",
+            "none"
+          ],
+          "required": true
+        },
+        {
+          "id": "V9_ecological_dimension",
+          "name": "Ecological Dimension",
+          "description": "Whether the instrument includes moral consideration of non-human entities, ecosystems, or the natural world. This captures Indigenous, Buddhist, and deep ecology perspectives where rivers, mountains, animals, or ecosystems may hold moral status or rights.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "V10_intergenerational_scope",
+          "name": "Intergenerational Scope",
+          "description": "Whether the instrument addresses obligations to future generations, ancestral responsibilities, or long-term temporal moral reasoning. This captures Indigenous 'seven generations' thinking, Islamic waqf (endowment) ethics, and secular longtermism.",
+          "value_type": "boolean",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_11",
+      "name": "Cross-Cultural Validity",
+      "description": "Methodological safeguards against cultural bias in measurement, including etic/emic construct development, controls for acquiescence, extreme response style, and social desirability, translation equivalence level, and formal cultural bias auditing.",
+      "feature_count": 7,
+      "features": [
+        {
+          "id": "X1_etic_imposed",
+          "name": "Etic-Imposed",
+          "description": "Whether the instrument's constructs were developed from a single cultural perspective and imposed universally (etic-imposed approach). This is the dominant pattern in cross-cultural psychology, where Western-derived constructs are assumed to be universal. An etic-imposed instrument may miss culturally specific moral concepts.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "X2_emic_derived",
+          "name": "Emic-Derived",
+          "description": "Whether some or all of the instrument's constructs were derived from within a specific cultural context (emic approach). Emic-derived instruments capture culturally authentic moral concepts but may not generalize. The ideal cross-cultural instrument combines etic and emic elements (derived etic approach).",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "X3_acquiescence_response_control",
+          "name": "Acquiescence Response Control",
+          "description": "Method used to control for acquiescence bias, the tendency to agree with statements regardless of content. This response style varies systematically across cultures (higher in collectivist, high-power-distance, and East Asian cultures). none means no control; reverse_items includes negatively keyed items; balanced_keying uses equal positive/negative items; statistical applies corrections such as ipsatization or random intercept models.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "reverse_items",
+            "balanced_keying",
+            "statistical"
+          ],
+          "required": true
+        },
+        {
+          "id": "X4_extreme_response_control",
+          "name": "Extreme Response Style Control",
+          "description": "Method used to control for extreme response style (ERS), the tendency to use endpoint scale categories. ERS varies systematically across cultures (higher in Latin American and African populations, lower in East Asian). none means no control; ipsatization standardizes within-person response profiles; anchoring_vignettes calibrate scale use; statistical applies post-hoc corrections.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "ipsatization",
+            "anchoring_vignettes",
+            "statistical"
+          ],
+          "required": true
+        },
+        {
+          "id": "X5_social_desirability_control",
+          "name": "Social Desirability Control",
+          "description": "Method used to control for socially desirable responding, which varies across cultures based on face-saving norms, collectivist self-presentation, and the public/private moral boundary. none means no control; sd_scale_included adds a social desirability scale (e.g., Marlowe-Crowne); forced_choice pairs equally desirable options; implicit_measure uses indirect assessment to bypass self-presentation.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "sd_scale_included",
+            "forced_choice",
+            "implicit_measure"
+          ],
+          "required": true
+        },
+        {
+          "id": "X6_back_translation_equivalence",
+          "name": "Back-Translation Equivalence Level",
+          "description": "Level of equivalence achieved through back-translation or adaptation. none means no translation or no equivalence testing; linguistic achieves word-level accuracy; conceptual achieves meaning-level accuracy across languages; functional achieves equivalent measurement properties (same psychometric behavior); full achieves linguistic, conceptual, and functional equivalence with formal testing.",
+          "value_type": "string",
+          "enum_values": [
+            "none",
+            "linguistic",
+            "conceptual",
+            "functional",
+            "full"
+          ],
+          "required": true
+        },
+        {
+          "id": "X7_cultural_bias_audit",
+          "name": "Cultural Bias Audit",
+          "description": "Whether a formal cultural bias audit has been conducted on the instrument, involving systematic review by cultural experts to identify items that assume specific cultural knowledge, reflect particular moral assumptions, or disadvantage respondents from specific cultural backgrounds. This goes beyond statistical DIF analysis to include qualitative expert review.",
+          "value_type": "boolean",
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_12",
+      "name": "Gap & Impact",
+      "description": "The instrument's contribution to addressing gaps in cross-cultural coverage, including which underrepresented traditions and regions it serves, its degree of methodological novelty, and its scholarly impact as measured by citations.",
+      "feature_count": 4,
+      "features": [
+        {
+          "id": "G1_tradition_gap_filled",
+          "name": "Tradition Gap Filled",
+          "description": "List of non-Western ethical traditions for which this instrument provides substantive coverage that was previously absent or underrepresented in the benchmark landscape. Only traditions with operationalized items or scoring rubrics count; mere citation does not qualify.",
+          "value_type": "list",
+          "list_item_type": "string",
+          "enum_values": [
+            "confucian",
+            "ubuntu",
+            "islamic",
+            "buddhist",
+            "dharmic",
+            "indigenous",
+            "buen_vivir"
+          ],
+          "required": false,
+          "default": []
+        },
+        {
+          "id": "G2_region_gap_filled",
+          "name": "Region Gap Filled",
+          "description": "List of geographic regions for which this instrument provides validation data or cultural representation that was previously absent. Region names follow a standardized vocabulary for consistency across the taxonomy.",
+          "value_type": "list",
+          "list_item_type": "string",
+          "enum_values": [
+            "sub_saharan_africa",
+            "mena",
+            "south_asia",
+            "southeast_asia",
+            "east_asia",
+            "central_asia",
+            "latin_america",
+            "caribbean",
+            "pacific_islands",
+            "arctic_indigenous",
+            "eastern_europe"
+          ],
+          "required": false,
+          "default": []
+        },
+        {
+          "id": "G3_novelty",
+          "name": "Novelty",
+          "description": "Degree of methodological or conceptual novelty. replication reproduces an existing instrument in a new context; extension adds items, cultures, or languages to an existing instrument; new_construct introduces a previously unmeasured construct; new_methodology introduces a novel measurement approach; paradigm_shift fundamentally reconceptualizes how cross-cultural values should be measured.",
+          "value_type": "string",
+          "enum_values": [
+            "replication",
+            "extension",
+            "new_construct",
+            "new_methodology",
+            "paradigm_shift"
+          ],
+          "required": true
+        },
+        {
+          "id": "G4_citation_count",
+          "name": "Citation Count",
+          "description": "Number of scholarly citations received by the instrument's primary publication, as reported by Semantic Scholar or Google Scholar at the time of coding. Use 0 for instruments without published citations (e.g., preprints, unpublished instruments). This provides a rough proxy for scholarly impact and adoption.",
+          "value_type": "integer",
+          "min_value": 0,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "dim_13",
+      "name": "Epistemic Power & Provenance",
+      "description": "Who created the instrument, where, with what resources, and whose interests it serves. This dimension captures the geopolitics of knowledge production in cross-cultural values measurement, including creator geography, institutional type, funding source, affected community authorship, extractive potential, and counter-hegemonic intent.",
+      "feature_count": 6,
+      "features": [
+        {
+          "id": "E1_creator_region",
+          "name": "Creator Region",
+          "description": "Geographic region of the primary institution(s) responsible for creating the instrument. This tracks whether cross-cultural instruments are predominantly produced by Western institutions studying non-Western populations, or whether they emerge from the cultures they claim to measure.",
+          "value_type": "string",
+          "enum_values": [
+            "north_america",
+            "western_europe",
+            "east_asia",
+            "south_asia",
+            "southeast_asia",
+            "mena",
+            "latin_america",
+            "eastern_europe",
+            "oceania",
+            "sub_saharan_africa",
+            "multi_region"
+          ],
+          "required": true
+        },
+        {
+          "id": "E2_creator_institution_type",
+          "name": "Creator Institution Type",
+          "description": "Type of institution that produced the instrument. university is an academic research institution; corporate_lab is an industry research lab (e.g., Google DeepMind, Anthropic); government is a public agency; NGO is a non-governmental organization; community_org is a grassroots or community-based organization; indigenous_body is a formally constituted Indigenous governance entity; multi_institution involves collaboration across institution types.",
+          "value_type": "string",
+          "enum_values": [
+            "university",
+            "corporate_lab",
+            "government",
+            "NGO",
+            "community_org",
+            "indigenous_body",
+            "multi_institution"
+          ],
+          "required": true
+        },
+        {
+          "id": "E3_funding_source",
+          "name": "Funding Source",
+          "description": "Primary funding source for the instrument's development. government includes national science foundations and public research agencies; corporate includes industry funding; philanthropic includes private foundations; self_funded means no external funding; community means funded by the communities being studied; mixed involves multiple funding sources; unknown means funding is not disclosed.",
+          "value_type": "string",
+          "enum_values": [
+            "government",
+            "corporate",
+            "philanthropic",
+            "self_funded",
+            "community",
+            "mixed",
+            "unknown"
+          ],
+          "required": true
+        },
+        {
+          "id": "E4_affected_community_authorship",
+          "name": "Affected Community Authorship",
+          "description": "Whether members of the cultural communities being measured are among the instrument's authors or principal designers. This is a critical indicator of epistemic justice: instruments designed about a community should ideally be designed with or by that community.",
+          "value_type": "boolean",
+          "required": true
+        },
+        {
+          "id": "E5_extractive_potential",
+          "name": "Extractive Potential",
+          "description": "Risk that the instrument extracts cultural knowledge from marginalized communities for the benefit of external actors without reciprocal benefit. low means minimal risk (e.g., communities control the instrument); moderate means some risk (e.g., data collected from communities by external researchers with standard ethical protocols); high means significant risk (e.g., Indigenous knowledge codified in corporate-owned datasets without community consent or benefit-sharing).",
+          "value_type": "string",
+          "enum_values": [
+            "low",
+            "moderate",
+            "high"
+          ],
+          "required": true
+        },
+        {
+          "id": "E6_counter_hegemonic",
+          "name": "Counter-Hegemonic",
+          "description": "Whether the instrument explicitly challenges the dominance of Western moral frameworks in AI alignment research. Counter-hegemonic instruments may center non-Western epistemologies, critique WEIRD bias in existing benchmarks, or propose alternative paradigms for understanding moral cognition that do not privilege Western analytic philosophy.",
+          "value_type": "boolean",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

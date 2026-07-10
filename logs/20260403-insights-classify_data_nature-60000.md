@@ -1,0 +1,1465 @@
+# Insight Log: classify_data_nature
+
+**Date:** 2026-04-03
+**Script:** classify_data_nature
+**PID:** 60000
+**Duration:** 2.7s
+**Total insights:** 1436
+
+## Summary
+
+| Category | Count |
+|----------|-------|
+| Reclassifications | 1431 |
+| Statistics | 5 |
+
+| Severity | Count |
+|----------|-------|
+| Notable | 1431 |
+| Info | 5 |
+
+## Notable (1431)
+
+### Reclassifications
+
+- is_benchmark crossed threshold: No -> Yes `0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md`
+- is_eval crossed threshold: No -> Yes `0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md`
+- is_dataset crossed threshold: No -> Yes `0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md`
+- is_eval crossed threshold: No -> Yes `0000-project-Vedanta Datasets.md`
+- is_eval crossed threshold: No -> Yes `0000-projects-BaniDB Shabad OS Digital Gurbani Database.md`
+- is_dataset crossed threshold: No -> Yes `2012-Gippert-The Encoding of Avestan - Problems and Solutions.md`
+- is_dataset crossed threshold: No -> Yes `2012-Jügel-Peculiarities of Avestan Manuscripts for Computational Linguistics.md`
+- is_eval crossed threshold: No -> Yes `2016-Amodei-Concrete Problems in AI Safety.md`
+- is_benchmark crossed threshold: No -> Yes `2016-Bolukbasi-Man is to Computer Programmer as Woman is to.md`
+- is_benchmark crossed threshold: Yes -> No `2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual.md`
+- is_eval crossed threshold: Yes -> No `2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual.md`
+- is_dataset crossed threshold: Yes -> No `2016-Fonseca-ASSIN Avaliação de Similaridade Semântica e INferência textual.md`
+- is_dataset crossed threshold: No -> Yes `2016-Holyoak-Deontological coherence.md`
+- is_eval crossed threshold: No -> Yes `2016-Purzycki-Cross-cultural dataset for the evolution of.md`
+- is_eval crossed threshold: No -> Yes `2016-Purzycki-Religious Belief and the Moral Circle.md`
+- is_dataset crossed threshold: No -> Yes `2016-Purzycki-Religious Belief and the Moral Circle.md`
+- is_eval crossed threshold: Yes -> No `2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md`
+- is_dataset crossed threshold: Yes -> No `2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md`
+- is_dataset crossed threshold: Yes -> No `2018-Awad-The Moral Machine experiment.md`
+- is_eval crossed threshold: Yes -> No `2018-Bohra-Hindi-English Code-Mixed Social Media Text for.md`
+- is_eval crossed threshold: Yes -> No `2018-Liebeskind-Identifying Abusive Comments in Hebrew Facebook.md`
+- is_eval crossed threshold: Yes -> No `2018-Ljubesic-Datasets of Slovene and Croatian Moderated News Comments.md`
+- is_eval crossed threshold: Yes -> No `2018-Nguyen-UIT-VSFC Vietnamese Students' Feedback Corpus for Sentiment Analysis.md`
+- is_benchmark crossed threshold: Yes -> No `2018-Rudinger-Gender Bias in Coreference Resolution.md`
+- is_dataset crossed threshold: Yes -> No `2018-Rudinger-Gender Bias in Coreference Resolution.md`
+- is_eval crossed threshold: Yes -> No `2018-Santana-Is there Gender Bias and Stereotype in Portuguese Word Embeddings.md`
+- is_benchmark crossed threshold: Yes -> No `2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md`
+- is_eval crossed threshold: Yes -> No `2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md`
+- is_dataset crossed threshold: Yes -> No `2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md`
+- is_eval crossed threshold: Yes -> No `2018-Zhao-Gender Bias in Contextualized Word Embeddings.md`
+- is_eval crossed threshold: Yes -> No `2019-Basile-SemEval-2019 Task 5 Multilingual Detection of Hate Speech Against.md`
+- is_benchmark crossed threshold: Yes -> No `2019-Basile-SemEval-2019 Task 5.md`
+- is_eval crossed threshold: Yes -> No `2019-Basile-SemEval-2019 Task 5.md`
+- is_dataset crossed threshold: Yes -> No `2019-Basile-SemEval-2019 Task 5.md`
+- is_eval crossed threshold: Yes -> No `2019-De-Arteaga-Bias in Bios.md`
+- is_dataset crossed threshold: Yes -> No `2019-De-Arteaga-Bias in Bios.md`
+- is_eval crossed threshold: Yes -> No `2019-Fortuna-A Hierarchically-Labeled Portuguese Hate Speech Dataset.md`
+- is_benchmark crossed threshold: No -> Yes `2019-He-Unlearn Dataset Bias in Natural Language.md`
+- is_eval crossed threshold: Yes -> No `2019-He-Unlearn Dataset Bias in Natural Language.md`
+- is_dataset crossed threshold: No -> Yes `2019-He-Unlearn Dataset Bias in Natural Language.md`
+- is_eval crossed threshold: Yes -> No `2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md`
+- is_eval crossed threshold: Yes -> No `2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md`
+- is_dataset crossed threshold: Yes -> No `2019-Ibrohim-Multi-label Hate Speech and Abusive Language.md`
+- is_eval crossed threshold: Yes -> No `2019-Jigsaw-Jigsaw Unintended Bias in Toxicity Classification.md`
+- is_benchmark crossed threshold: Yes -> No `2019-Kreutz-GermEval 2019 Task 2.md`
+- is_eval crossed threshold: Yes -> No `2019-Kreutz-GermEval 2019 Task 2.md`
+- is_dataset crossed threshold: Yes -> No `2019-Kreutz-GermEval 2019 Task 2.md`
+- is_eval crossed threshold: Yes -> No `2019-Ousidhoum-Multilingual and Multi-Aspect Hate Speech Analysis.md`
+- is_benchmark crossed threshold: No -> Yes `2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md`
+- is_eval crossed threshold: Yes -> No `2019-Phuong-Emotion Recognition for Vietnamese Social Media Text.md`
+- is_benchmark crossed threshold: Yes -> No `2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md`
+- is_eval crossed threshold: Yes -> No `2019-Ptaszynski-Results of the PolEval 2019 Shared Task 6 First Dataset and Open.md`
+- is_eval crossed threshold: Yes -> No `2019-Sap-Social IQa Commonsense Reasoning about Social Interactions.md`
+- is_dataset crossed threshold: Yes -> No `2019-Sap-Social IQa Commonsense Reasoning about Social Interactions.md`
+- is_benchmark crossed threshold: Yes -> No `2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md`
+- is_dataset crossed threshold: Yes -> No `2019-Stanovsky-Evaluating Gender Bias in Machine Translation WinoMT.md`
+- is_benchmark crossed threshold: Yes -> No `2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md`
+- is_eval crossed threshold: Yes -> No `2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md`
+- is_dataset crossed threshold: Yes -> No `2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md`
+- is_eval crossed threshold: Yes -> No `2019-University of São Paulo-Moral Stance Recognition and Polarity.md`
+- is_eval crossed threshold: Yes -> No `2019-collaboration-help_dicrah A ML-based hate speech detection tool on Twitter in French.md`
+- is_benchmark crossed threshold: Yes -> No `2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md`
+- is_eval crossed threshold: Yes -> No `2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md`
+- is_dataset crossed threshold: Yes -> No `2020-Awad-Crowdsourcing moral machines.md`
+- is_benchmark crossed threshold: Yes -> No `2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md`
+- is_eval crossed threshold: Yes -> No `2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md`
+- is_dataset crossed threshold: Yes -> No `2020-Bosco-HaSpeeDe 2 @ EVALITA2020 Overview of the EVALITA 2020 Hate Speech.md`
+- is_dataset crossed threshold: No -> Yes `2020-Brown-Language Models are Few-Shot Learners.md`
+- is_eval crossed threshold: No -> Yes `2020-Della Foresta-Consequentialism Machine Ethics.md`
+- is_eval crossed threshold: Yes -> No `2020-Forbes-Social Chemistry 101.md`
+- is_dataset crossed threshold: Yes -> No `2020-Forbes-Social Chemistry 101.md`
+- is_eval crossed threshold: No -> Yes `2020-Galanos-Assessing the Japanese Turn in AI and Robot Ethics Extracting.md`
+- is_benchmark crossed threshold: Yes -> No `2020-Gehman-RealToxicityPrompts.md`
+- is_eval crossed threshold: No -> Yes `2020-Hoover-Moral Foundations Twitter Corpus.md`
+- is_benchmark crossed threshold: No -> Yes `2020-Hossu-UIC-NLP at SemEval-2020 Task 10.md`
+- is_dataset crossed threshold: No -> Yes `2020-Hossu-UIC-NLP at SemEval-2020 Task 10.md`
+- is_eval crossed threshold: Yes -> No `2020-Koto-IndoLEM and IndoBERT A Benchmark Dataset and Pre-trained Language.md`
+- is_benchmark crossed threshold: Yes -> No `2020-Kumar-Evaluating Aggression Identification in Social.md`
+- is_eval crossed threshold: Yes -> No `2020-Kurpicz-Briki-Cultural Differences in Bias Origin and Gender Bias in Pre-Trained.md`
+- is_eval crossed threshold: Yes -> No `2020-Leite-Toxic Language Detection in Social Media for Brazilian Portuguese New.md`
+- is_eval crossed threshold: Yes -> No `2020-Mainali-Automated Classification of Modes of Moral.md`
+- is_dataset crossed threshold: No -> Yes `2020-Mainali-Automated Classification of Modes of Moral.md`
+- is_eval crossed threshold: Yes -> No `2020-Mollas-ETHOS an Online Hate Speech Detection Dataset.md`
+- is_eval crossed threshold: Yes -> No `2020-Moon-BEEP! Korean Corpus of Online News Comments for Toxic Speech Detection.md`
+- is_benchmark crossed threshold: Yes -> No `2020-Nangia-CrowS-Pairs.md`
+- is_benchmark crossed threshold: Yes -> No `2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md`
+- is_eval crossed threshold: Yes -> No `2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md`
+- is_dataset crossed threshold: Yes -> No `2020-Nozza-AMI @ EVALITA2020 Automatic Misogyny Identification.md`
+- is_eval crossed threshold: Yes -> No `2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2020-Rybak-KLEJ Comprehensive Benchmark for Polish Language Understanding.md`
+- is_eval crossed threshold: Yes -> No `2020-Sandaruwan-Sinhala Hate Speech Detection in Social Media using Text Mining and.md`
+- is_eval crossed threshold: Yes -> No `2020-Sap-Social Bias Frames.md`
+- is_dataset crossed threshold: Yes -> No `2020-Sap-Social Bias Frames.md`
+- is_eval crossed threshold: Yes -> No `2020-Schramowski-The Moral Choice Machine.md`
+- is_dataset crossed threshold: Yes -> No `2020-Shavrina-RussianSuperGLUE A Russian Language Understanding Evaluation Benchmark.md`
+- is_benchmark crossed threshold: No -> Yes `2020-Shekhar-Automating News Comment Moderation with Limited Resources.md`
+- is_eval crossed threshold: Yes -> No `2020-Shekhar-Automating News Comment Moderation with Limited Resources.md`
+- is_dataset crossed threshold: Yes -> No `2020-Shekhar-Automating News Comment Moderation with Limited Resources.md`
+- is_eval crossed threshold: Yes -> No `2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md`
+- is_eval crossed threshold: Yes -> No `2020-Souza-BERTimbau Pretrained BERT Models for Brazilian Portuguese.md`
+- is_eval crossed threshold: Yes -> No `2020-Sälevä-A Multi-Orthography Parallel Corpus of Yiddish Nouns.md`
+- is_benchmark crossed threshold: No -> Yes `2020-Whaanga-Indigenous Protocol and Artificial Intelligence Position.md`
+- is_eval crossed threshold: Yes -> No `2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md`
+- is_dataset crossed threshold: Yes -> No `2020-Yasseri-Detecting Weak and Strong Islamophobic Hate.md`
+- is_benchmark crossed threshold: Yes -> No `2020-Zampieri-SemEval-2020 Task 12.md`
+- is_eval crossed threshold: Yes -> No `2020-Zampieri-SemEval-2020 Task 12.md`
+- is_eval crossed threshold: Yes -> No `2021-Adelani-MasakhaNER Named Entity Recognition for African.md`
+- is_eval crossed threshold: Yes -> No `2021-Azada-Fake News Detection in Low-Resourced Languages Kurdish Language Using.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md`
+- is_eval crossed threshold: Yes -> No `2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md`
+- is_dataset crossed threshold: Yes -> No `2021-Barikeri-REDDITBIAS.md`
+- is_eval crossed threshold: Yes -> No `2021-Cao-Toward Gender-Inclusive Coreference Resolution.md`
+- is_dataset crossed threshold: Yes -> No `2021-Cao-Toward Gender-Inclusive Coreference Resolution.md`
+- is_eval crossed threshold: Yes -> No `2021-Center-The Catalan Language CLUB Catalan Language Understanding Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2021-Cercas Curry-ConvAbuse.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Chakravarthi-Findings of the Sentiment Analysis of.md`
+- is_dataset crossed threshold: Yes -> No `2021-Chakravarthi-Findings of the Sentiment Analysis of.md`
+- is_eval crossed threshold: Yes -> No `2021-Dementieva-Methods for Detoxification of Texts for the Russian Language.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Emelin-Moral Stories.md`
+- is_eval crossed threshold: Yes -> No `2021-Hendrycks-Aligning AI with Shared Human Values.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Jiang-Pre-trained Models and Evaluation Data for.md`
+- is_dataset crossed threshold: Yes -> No `2021-Jiang-Pre-trained Models and Evaluation Data for.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Keren-ParaShoot.md`
+- is_eval crossed threshold: Yes -> No `2021-Keren-ParaShoot.md`
+- is_eval crossed threshold: Yes -> No `2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md`
+- is_dataset crossed threshold: Yes -> No `2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md`
+- is_eval crossed threshold: Yes -> No `2021-Kurpicz-Briki-A World Full of Stereotypes Further Investigation on Origin and.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Levy-Collecting a Large-Scale Gender Bias Dataset for.md`
+- is_eval crossed threshold: Yes -> No `2021-Lourie-Scruples.md`
+- is_benchmark crossed threshold: No -> Yes `2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md`
+- is_eval crossed threshold: Yes -> No `2021-Luu-A Large-scale Dataset for Hate Speech Detection on Vietnamese Social.md`
+- is_eval crossed threshold: Yes -> No `2021-Mghari-Cyberbullying and Hate Speech Detection on.md`
+- is_eval crossed threshold: Yes -> No `2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md`
+- is_eval crossed threshold: Yes -> No `2021-Mohit Chandra-Subverting the Jewtocracy Online Antisemitism Detection.md`
+- is_benchmark crossed threshold: No -> Yes `2021-Munshi-Towards an Automated Islamic Fatwa System.md`
+- is_eval crossed threshold: Yes -> No `2021-Munshi-Towards an Automated Islamic Fatwa System.md`
+- is_eval crossed threshold: Yes -> No `2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.md`
+- is_dataset crossed threshold: Yes -> No `2021-Nguyen-Constructive and Toxic Speech Detection for Open-domain Social Media.md`
+- is_eval crossed threshold: Yes -> No `2021-Nurce-Detecting Abusive Albanian.md`
+- is_dataset crossed threshold: No -> Yes `2021-Nutanong-WangchanBERTa Pretraining transformer-based Thai Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2021-Park-KLUE Korean Language Understanding Evaluation.md`
+- is_eval crossed threshold: Yes -> No `2021-Perifanos-Multimodal Hate Speech Detection in Greek Social Media.md`
+- is_eval crossed threshold: Yes -> No `2021-Plaza-del-Arco-OffendES A New Corpus in Spanish for Offensive Language Research.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md`
+- is_eval crossed threshold: Yes -> No `2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md`
+- is_dataset crossed threshold: Yes -> No `2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md`
+- is_eval crossed threshold: Yes -> No `2021-Pretrained-Research on Uyghur‐Chinese Neural Machine Translation Based on the.md`
+- is_eval crossed threshold: Yes -> No `2021-Pronoza-Detecting Ethnicity-Targeted Hate Speech in Russian Social Media Texts.md`
+- is_eval crossed threshold: Yes -> No `2021-Ravikiran-DOSA Dravidian Code-Mixed Offensive Span Identification.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md`
+- is_eval crossed threshold: Yes -> No `2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md`
+- is_dataset crossed threshold: Yes -> No `2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Röttger-HateCheck.md`
+- is_eval crossed threshold: Yes -> No `2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md`
+- is_dataset crossed threshold: No -> Yes `2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md`
+- is_eval crossed threshold: Yes -> No `2021-Sogaard-Itihasa A Large-Scale Corpus for Sanskrit.md`
+- is_benchmark crossed threshold: Yes -> No `2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md`
+- is_eval crossed threshold: Yes -> No `2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md`
+- is_eval crossed threshold: Yes -> No `2021-Wuerzburg-German HateSpeech Corpus.md`
+- is_eval crossed threshold: Yes -> No `2021-Zou-Persistent Anti-Muslim Bias in Large Language.md`
+- is_eval crossed threshold: Yes -> No `2022-Abbasi-Deep Learning for Religious and Continent-Based.md`
+- is_eval crossed threshold: Yes -> No `2022-Alsuhaibani-Fabricated Hadith Detection A Novel Matn-Based.md`
+- is_eval crossed threshold: Yes -> No `2022-Ataei-Pars-OFF A Benchmark for Offensive Language Detection on Farsi Social.md`
+- is_dataset crossed threshold: No -> Yes `2022-Baan-Stop Measuring Calibration When Humans Disagree.md`
+- is_dataset crossed threshold: No -> Yes `2022-Bai-Constitutional AI.md`
+- is_eval crossed threshold: Yes -> No `2022-Bang-Enabling Classifiers to Make Judgements.md`
+- is_eval crossed threshold: Yes -> No `2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md`
+- is_dataset crossed threshold: Yes -> No `2022-Bhattacharjee-BanglaBERT Language Model Pretraining and Benchmarks for Low-Resource.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md`
+- is_eval crossed threshold: Yes -> No `2022-Brazdil-NaijaSenti A Nigerian Twitter Sentiment Corpus.md`
+- is_dataset crossed threshold: Yes -> No `2022-Caron-Identifying and Manipulating the Personality.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md`
+- is_eval crossed threshold: Yes -> No `2022-Chakravarthi-DravidianCodeMix Sentiment Analysis and Offensive Language.md`
+- is_eval crossed threshold: Yes -> No `2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.md`
+- is_eval crossed threshold: Yes -> No `2022-Das-Hate Speech and Offensive Language Detection.md`
+- is_dataset crossed threshold: Yes -> No `2022-Das-HateCheckHIn Evaluating Hindi Hate Speech Detection.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Dementieva-RUSSE 2022 Findings of the First Russian Detoxification Shared Task.md`
+- is_dataset crossed threshold: No -> Yes `2022-Emezue-AfroLM A Self-Active Learning-based Multilingual Pretrained.md`
+- is_eval crossed threshold: Yes -> No `2022-Fraser-Does Moral Code Have a Moral Code.md`
+- is_dataset crossed threshold: No -> Yes `2022-Fraser-Does Moral Code Have a Moral Code.md`
+- is_dataset crossed threshold: No -> Yes `2022-Gelbukh-YouTube-Based Religious Hate Speech and Extremism.md`
+- is_eval crossed threshold: No -> Yes `2022-Hagendorff-Virtue-Based Framework for AI Ethics.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Hartvigsen-ToxiGen.md`
+- is_eval crossed threshold: Yes -> No `2022-Hate-speech-CNERG-Kannada Code-Mixed Abusive Speech Detection MuRIL-based.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Hendrycks-What Would Jiminy Cricket Do.md`
+- is_dataset crossed threshold: Yes -> No `2022-Hendrycks-What Would Jiminy Cricket Do.md`
+- is_benchmark crossed threshold: No -> Yes `2022-Hu-“I’m sorry to hear that”.md`
+- is_eval crossed threshold: Yes -> No `2022-Hu-“I’m sorry to hear that”.md`
+- is_dataset crossed threshold: No -> Yes `2022-Hu-“I’m sorry to hear that”.md`
+- is_eval crossed threshold: Yes -> No `2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md`
+- is_eval crossed threshold: Yes -> No `2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md`
+- is_eval crossed threshold: Yes -> No `2022-Jeong-KOLD Korean Offensive Language Dataset.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Jiang-Can Machines Learn Morality.md`
+- is_eval crossed threshold: Yes -> No `2022-Jiang-Can Machines Learn Morality.md`
+- is_dataset crossed threshold: Yes -> No `2022-Jiang-Can Machines Learn Morality.md`
+- is_eval crossed threshold: Yes -> No `2022-Kim-ProsocialDialog.md`
+- is_benchmark crossed threshold: No -> Yes `2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md`
+- is_eval crossed threshold: No -> Yes `2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md`
+- is_eval crossed threshold: Yes -> No `2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md`
+- is_eval crossed threshold: Yes -> No `2022-Launay-PAGnol An Extra-Large French Generative Model.md`
+- is_dataset crossed threshold: No -> Yes `2022-Launay-PAGnol An Extra-Large French Generative Model.md`
+- is_dataset crossed threshold: No -> Yes `2022-Li-Evaluating Psychological Safety of Large Language.md`
+- is_dataset crossed threshold: Yes -> No `2022-Lin-TruthfulQA.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Malhas-Qur'an QA 2022.md`
+- is_eval crossed threshold: Yes -> No `2022-Malhas-Qur'an QA 2022.md`
+- is_dataset crossed threshold: Yes -> No `2022-Malhas-Qur'an QA 2022.md`
+- is_dataset crossed threshold: Yes -> No `2022-Nguyen-SMTCE A Social Media Text Classification Evaluation Benchmark and.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Névéol-French CrowS-Pairs Extending a challenge dataset for measuring social.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Perez-Discovering Language Model Behaviors with Model-Written Evaluations.md`
+- is_eval crossed threshold: Yes -> No `2022-Qiu-ValueNet.md`
+- is_benchmark crossed threshold: No -> Yes `2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md`
+- is_eval crossed threshold: Yes -> No `2022-Ramponi-Addressing Religious Hate Online From Taxonomy.md`
+- is_benchmark crossed threshold: No -> Yes `2022-Rauh-Characteristics of Harmful Text.md`
+- is_eval crossed threshold: No -> Yes `2022-Rauh-Characteristics of Harmful Text.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.md`
+- is_eval crossed threshold: Yes -> No `2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.md`
+- is_dataset crossed threshold: Yes -> No `2022-Rodríguez-Sánchez-Overview of EXIST 2022 sEXism Identification in Social neTworks.md`
+- is_eval crossed threshold: Yes -> No `2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md`
+- is_benchmark crossed threshold: Yes -> No `2022-Röttger-Multilingual HateCheck.md`
+- is_eval crossed threshold: Yes -> No `2022-Sahoo-Detecting Unintended Social Bias in Toxic.md`
+- is_eval crossed threshold: Yes -> No `2022-Schramowski-I2P Inappropriate Image Prompts Test Bed.md`
+- is_dataset crossed threshold: Yes -> No `2022-Sun-MoralDial.md`
+- is_dataset crossed threshold: Yes -> No `2022-Taktasheva-TAPE Assessing Few-shot Russian Language Understanding.md`
+- is_eval crossed threshold: Yes -> No `2022-Trager-The Moral Foundations Reddit Corpus.md`
+- is_eval crossed threshold: No -> Yes `2022-Unknown-Hate Speech Detection in Thai Social.md`
+- is_dataset crossed threshold: No -> Yes `2022-Unknown-Hate Speech Detection in Thai Social.md`
+- is_eval crossed threshold: Yes -> No `2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.md`
+- is_dataset crossed threshold: Yes -> No `2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.md`
+- is_eval crossed threshold: Yes -> No `2022-Vargas-HateBR A Large Expert Annotated Corpus of Brazilian Instagram.md`
+- is_eval crossed threshold: Yes -> No `2022-Varshney-Debiased Large Language Models Still Associate.md`
+- is_eval crossed threshold: Yes -> No `2022-Welbl-This is the way designing and compiling LEPISZCZE a comprehensive NLP.md`
+- is_eval crossed threshold: Yes -> No `2022-Winata-NusaX Multilingual Parallel Sentiment Dataset for 10 Indonesian Local.md`
+- is_eval crossed threshold: Yes -> No `2022-Yang-CINO A Chinese Minority Pre-trained Language Model.md`
+- is_eval crossed threshold: Yes -> No `2022-Yilmaz-Large-Scale Hate Speech Detection with Cross-Domain.md`
+- is_dataset crossed threshold: Yes -> No `2022-Zagar-Slovene SuperGLUE Benchmark Translation and Evaluation.md`
+- is_eval crossed threshold: Yes -> No `2022-Ziems-The Moral Integrity Corpus.md`
+- is_eval crossed threshold: Yes -> No `2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md`
+- is_eval crossed threshold: Yes -> No `2022-researchers-Hate Speech Classification in Bulgarian.md`
+- is_eval crossed threshold: Yes -> No `2023-2023-Hadiths Classification Using a Novel Author-Based.md`
+- is_dataset crossed threshold: Yes -> No `2023-Abhinand-Tamil-Llama A New Tamil Language Model.md`
+- is_eval crossed threshold: Yes -> No `2023-Akram-ISE-Hate A Benchmark Corpus for Inter-faith.md`
+- is_eval crossed threshold: No -> Yes `2023-Alsalka-HAQA and QUQA Constructing Two Arabic.md`
+- is_dataset crossed threshold: No -> Yes `2023-Andrus-Augmented Datasheets for Speech Datasets and.md`
+- is_eval crossed threshold: Yes -> No `2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.md`
+- is_dataset crossed threshold: No -> Yes `2023-Arora-Probing PLMs for Cross-Cultural Values C3NLP Workshop.md`
+- is_eval crossed threshold: No -> Yes `2023-Astobiza-MoralNet.md`
+- is_dataset crossed threshold: No -> Yes `2023-Astobiza-MoralNet.md`
+- is_eval crossed threshold: No -> Yes `2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md`
+- is_eval crossed threshold: Yes -> No `2023-Ayele-Amharic Hate Speech Dataset.md`
+- is_eval crossed threshold: Yes -> No `2023-Bang-Towards Answering Open-ended Ethical Quandary.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Barrett-Skin Deep.md`
+- is_dataset crossed threshold: No -> Yes `2023-Barrett-Skin Deep.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.md`
+- is_eval crossed threshold: Yes -> No `2023-Bhardwaj-Red-Teaming Large Language Models using Chain of Utterances for.md`
+- is_eval crossed threshold: Yes -> No `2023-Boddington-Normative Ethical Theory AI Ethics.md`
+- is_eval crossed threshold: Yes -> No `2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md`
+- is_eval crossed threshold: Yes -> No `2023-Cahyawijaya-NusaCrowd Open Source Initiative for Indonesian NLP Resources.md`
+- is_eval crossed threshold: Yes -> No `2023-Canada-Bias Considerations in Bilingual Natural Language Processing.md`
+- is_dataset crossed threshold: No -> Yes `2023-Cao-Assessing Cross-Cultural Alignment between.md`
+- is_eval crossed threshold: Yes -> No `2023-Catapang-EMoTES-3K.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Chang-A Survey on Evaluation of Large Language Models.md`
+- is_eval crossed threshold: No -> Yes `2023-Chang-A Survey on Evaluation of Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2023-Chang-niceNLP at SemEval-2023 Task 10.md`
+- is_dataset crossed threshold: Yes -> No `2023-Clymer-Generalization Analogies.md`
+- is_dataset crossed threshold: Yes -> No `2023-DN-HeQ a Large and Diverse Hebrew Reading Comprehension Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2023-Dai-Safe RLHF.md`
+- is_dataset crossed threshold: Yes -> No `2023-Dai-Safe RLHF.md`
+- is_eval crossed threshold: No -> Yes `2023-Das-Toward Cultural Bias Evaluation Datasets The Case of Bengali Gender.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Davis-Benchmarks for Automated Commonsense Reasoning.md`
+- is_eval crossed threshold: No -> Yes `2023-Davis-Benchmarks for Automated Commonsense Reasoning.md`
+- is_eval crossed threshold: Yes -> No `2023-Dehghani-Persian Offensive Language Detection Dehghani et al..md`
+- is_eval crossed threshold: Yes -> No `2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md`
+- is_eval crossed threshold: Yes -> No `2023-Dione-MasakhaPOS Part-of-Speech Tagging for Typologically Diverse African.md`
+- is_eval crossed threshold: Yes -> No `2023-Eskelinen-Toxicity Detection in Finnish Using Machine Translation.md`
+- is_dataset crossed threshold: No -> Yes `2023-Feng-From Pretraining Data to Language Models to.md`
+- is_eval crossed threshold: Yes -> No `2023-Fischer-What does ChatGPT return about human values.md`
+- is_dataset crossed threshold: No -> Yes `2023-Fischer-What does ChatGPT return about human values.md`
+- is_eval crossed threshold: No -> Yes `2023-Gao-Large Language Models Empowered Agent-based.md`
+- is_eval crossed threshold: Yes -> No `2023-Ghafouri-IslamicPCQA.md`
+- is_eval crossed threshold: Yes -> No `2023-Ghosh-ChatGPT Perpetuates Gender Bias in Machine Translation and Ignores.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.md`
+- is_eval crossed threshold: Yes -> No `2023-Goyal-SanskritShala A Neural Sanskrit NLP Toolkit.md`
+- is_dataset crossed threshold: Yes -> No `2023-Guha-LegalBench.md`
+- is_dataset crossed threshold: No -> Yes `2023-Guo-COBBLER.md`
+- is_eval crossed threshold: Yes -> No `2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md`
+- is_eval crossed threshold: Yes -> No `2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.md`
+- is_eval crossed threshold: Yes -> No `2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md`
+- is_dataset crossed threshold: Yes -> No `2023-Hardalov-bgGLUE A Bulgarian General Language Understanding Evaluation Benchmark.md`
+- is_dataset crossed threshold: Yes -> No `2023-Harrington-I'm Fully Who I Am.md`
+- is_eval crossed threshold: Yes -> No `2023-Hartmann-The political ideology of conversational AI.md`
+- is_eval crossed threshold: Yes -> No `2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.md`
+- is_dataset crossed threshold: Yes -> No `2023-Hsu-Advancing the Evaluation of Traditional Chinese Language Models.md`
+- is_eval crossed threshold: Yes -> No `2023-Huang-AceGPT Localizing Large Language Models in Arabic.md`
+- is_dataset crossed threshold: Yes -> No `2023-Huang-AceGPT Localizing Large Language Models in Arabic.md`
+- is_dataset crossed threshold: Yes -> No `2023-Huang-Flames.md`
+- is_eval crossed threshold: Yes -> No `2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Inciarte-SERENGETI Massively Multilingual Language Models for.md`
+- is_eval crossed threshold: No -> Yes `2023-Ji-AI Alignment.md`
+- is_dataset crossed threshold: No -> Yes `2023-Ji-AI Alignment.md`
+- is_eval crossed threshold: Yes -> No `2023-Ji-Commonsense Norm Bank.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Ji-Safety Gymnasium.md`
+- is_eval crossed threshold: Yes -> No `2023-Ji-Safety Gymnasium.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md`
+- is_eval crossed threshold: Yes -> No `2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md`
+- is_dataset crossed threshold: No -> Yes `2023-Karra-Estimating the Personality of White-Box Language.md`
+- is_eval crossed threshold: Yes -> No `2023-Khodabakhsh-PerBOLD A Big Dataset of Persian Offensive Language on Instagram.md`
+- is_dataset crossed threshold: No -> Yes `2023-Kim-KOME.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Kirk-SemEval-2023 Task 10.md`
+- is_eval crossed threshold: Yes -> No `2023-Kirk-SemEval-2023 Task 10.md`
+- is_dataset crossed threshold: Yes -> No `2023-Kohli-Building a Llama2-finetuned LLM for Odia Language Utilizing Domain.md`
+- is_eval crossed threshold: Yes -> No `2023-Kolos-BAN-PL a Novel Polish Dataset of Banned Harmful and Offensive Content.md`
+- is_eval crossed threshold: Yes -> No `2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md`
+- is_dataset crossed threshold: Yes -> No `2023-Koto-Large Language Models Only Pass Primary School Exams in Indonesia A.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Kuriyozov-Text classification dataset and analysis for.md`
+- is_dataset crossed threshold: Yes -> No `2023-Körner-Deontology and Utilitarianism in Real Life.md`
+- is_eval crossed threshold: Yes -> No `2023-LAIONHessian.AI-GermanBenchmark German translations of popular LLM benchmarks.md`
+- is_eval crossed threshold: Yes -> No `2023-Lee-KoSBI.md`
+- is_eval crossed threshold: Yes -> No `2023-Lee-KoSBi A Dataset for Mitigating Social Bias Risks Towards Safer Large.md`
+- is_eval crossed threshold: Yes -> No `2023-Lee-SQuARe A Large-Scale Dataset of Sensitive Questions and Acceptable.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Lee-VisAlign.md`
+- is_dataset crossed threshold: Yes -> No `2023-Li-ACLUE Can Large Language Model Comprehend.md`
+- is_eval crossed threshold: Yes -> No `2023-Li-Can LLM Already Serve as A Database Interface.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Li-Evaluating Object Hallucination in Large.md`
+- is_eval crossed threshold: Yes -> No `2023-Li-On the steerability of large language models.md`
+- is_eval crossed threshold: Yes -> No `2023-Lin-Taiwan LLM Bridging the Linguistic Divide with a Culturally Aligned.md`
+- is_dataset crossed threshold: Yes -> No `2023-Liu-AlignBench.md`
+- is_dataset crossed threshold: No -> Yes `2023-Mager-Neural Machine Translation for the Indigenous Languages of the.md`
+- is_eval crossed threshold: Yes -> No `2023-Maity-A Deep Learning Framework for the Detection of Malay Hate Speech.md`
+- is_benchmark crossed threshold: Yes -> No `2023-McKenzie-Inverse Scaling Can Become U-Shaped.md`
+- is_eval crossed threshold: No -> Yes `2023-Miah-Islam QA.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Morris-Levels of AGI.md`
+- is_eval crossed threshold: No -> Yes `2023-Morris-Levels of AGI.md`
+- is_eval crossed threshold: No -> Yes `2023-Mougan-Kantian Deontology Meets AI Alignment.md`
+- is_eval crossed threshold: Yes -> No `2023-Muhammad-AfriSenti.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Muhammad-SemEval-2023 Task 12.md`
+- is_eval crossed threshold: Yes -> No `2023-Muhammad-SemEval-2023 Task 12.md`
+- is_eval crossed threshold: No -> Yes `2023-Munn-The Five Tests Designing and Evaluating.md`
+- is_eval crossed threshold: Yes -> No `2023-Narayan-HASOC 2023 Hate Speech and Offensive Content Identification in.md`
+- is_eval crossed threshold: Yes -> No `2023-Nguyen-Abusive Span Detection for Vietnamese Narrative Texts.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md`
+- is_eval crossed threshold: Yes -> No `2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md`
+- is_eval crossed threshold: Yes -> No `2023-Oliveira-Culturally-Attuned Moral Machines.md`
+- is_dataset crossed threshold: Yes -> No `2023-Oslo-NorBench A Benchmark for Norwegian Language Models.md`
+- is_eval crossed threshold: No -> Yes `2023-Park-AI Deception.md`
+- is_eval crossed threshold: Yes -> No `2023-Park-K-HATERS A Hate Speech Detection Corpus in Korean with.md`
+- is_eval crossed threshold: Yes -> No `2023-Patel-Building Domain-Specific LLMs Faithful To The.md`
+- is_dataset crossed threshold: No -> Yes `2023-Patel-Building Domain-Specific LLMs Faithful To The.md`
+- is_eval crossed threshold: Yes -> No `2023-Pires-Sabiá Portuguese Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2023-Qian-Understanding Chinese Moral Stories with Further.md`
+- is_eval crossed threshold: Yes -> No `2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2023-Rao-Ethical Reasoning over Moral Alignment.md`
+- is_dataset crossed threshold: Yes -> No `2023-Rao-Ethical Reasoning over Moral Alignment.md`
+- is_eval crossed threshold: Yes -> No `2023-Rao-What Makes it Ok to Set a Fire Iterative.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Ray-Benchmarking, ethical alignment, and evaluation.md`
+- is_eval crossed threshold: No -> Yes `2023-Ray-Benchmarking, ethical alignment, and evaluation.md`
+- is_eval crossed threshold: Yes -> No `2023-Rystrøm-Apolitical Intelligence.md`
+- is_eval crossed threshold: Yes -> No `2023-Rytting-Towards Coding Social Science Datasets with.md`
+- is_dataset crossed threshold: No -> Yes `2023-Rytting-Towards Coding Social Science Datasets with.md`
+- is_dataset crossed threshold: Yes -> No `2023-Scherrer-Evaluating the Moral Beliefs Encoded in LLMs.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Schulhoff-HackAPrompt.md`
+- is_eval crossed threshold: Yes -> No `2023-Schulhoff-HackAPrompt.md`
+- is_eval crossed threshold: Yes -> No `2023-Schwarting-The eBible Corpus Data and Model.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2023-Shalumov-HeRo RoBERTa and Longformer Hebrew Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md`
+- is_eval crossed threshold: Yes -> No `2023-Shmidman-DictaBERT A State-of-the-Art BERT Suite for Modern Hebrew.md`
+- is_eval crossed threshold: Yes -> No `2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Soemer-Antisemitic Messages A Guide to High-Quality.md`
+- is_eval crossed threshold: No -> Yes `2023-Standards-NIST AI Risk Management Framework.md`
+- is_dataset crossed threshold: No -> Yes `2023-Sukhamsri-Toxicity Posts and Hateful Comments Detection.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.md`
+- is_eval crossed threshold: Yes -> No `2023-Tan-How to Catch an AI Liar.md`
+- is_dataset crossed threshold: Yes -> No `2023-Tan-How to Catch an AI Liar.md`
+- is_benchmark crossed threshold: No -> Yes `2023-TheDevastator-HelpSteer A-i Alignment Dataset.md`
+- is_benchmark crossed threshold: No -> Yes `2023-TheDevastator-OpenAssistant Conversations (OASST1).md`
+- is_benchmark crossed threshold: No -> Yes `2023-Trepczynski-Religion Theology and Philosophical Skills of.md`
+- is_eval crossed threshold: Yes -> No `2023-University-Harmful Communication Detection of Toxic Language and Threats on.md`
+- is_eval crossed threshold: Yes -> No `2023-Varshney-Muslim-Violence Bias Persists in Debiased GPT.md`
+- is_dataset crossed threshold: Yes -> No `2023-Vries-DUMB A Benchmark for Smart Evaluation of Dutch Models.md`
+- is_dataset crossed threshold: Yes -> No `2023-Xu-CValues.md`
+- is_eval crossed threshold: Yes -> No `2023-Xu-SC-Safety.md`
+- is_dataset crossed threshold: Yes -> No `2023-Xu-SC-Safety.md`
+- is_eval crossed threshold: No -> Yes `2023-Yao-From Instructions to Intrinsic Human Values -- A.md`
+- is_dataset crossed threshold: No -> Yes `2023-Yao-From Instructions to Intrinsic Human Values -- A.md`
+- is_benchmark crossed threshold: Yes -> No `2023-Yao-Value FULCRA.md`
+- is_benchmark crossed threshold: No -> Yes `2023-Zheng-Large Language Models Are Not Robust Multiple.md`
+- is_eval crossed threshold: Yes -> No `2023-Ziems-NormBank.md`
+- is_dataset crossed threshold: Yes -> No `2023-Ziems-NormBank.md`
+- is_benchmark crossed threshold: No -> Yes `2023-researchers-Transformer-Based Language Models for Bulgarian.md`
+- is_dataset crossed threshold: Yes -> No `2023-researchers-Transformer-Based Language Models for Bulgarian.md`
+- is_eval crossed threshold: Yes -> No `2023-team-Typhoon Thai Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2024-AI-Religious Bias Benchmarks for ChatGPT.md`
+- is_dataset crossed threshold: No -> Yes `2024-Abdulhai-Moral Foundations of Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2024-Adelani-Uhura A Benchmark for Evaluating Scientific.md`
+- is_eval crossed threshold: No -> Yes `2024-Adilazuarda-Towards Measuring and Modeling .md`
+- is_dataset crossed threshold: No -> Yes `2024-Adilazuarda-Towards Measuring and Modeling .md`
+- is_eval crossed threshold: No -> Yes `2024-Akhunzada-Multi-IsnadSet MIS for Sahih Muslim Hadith.md`
+- is_eval crossed threshold: Yes -> No `2024-Aksoy-Whose Morality Do They Speak.md`
+- is_dataset crossed threshold: No -> Yes `2024-Aksoy-Whose Morality Do They Speak.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md`
+- is_eval crossed threshold: Yes -> No `2024-Al Ghanim-Jailbreaking LLMs with Arabic Transliteration and.md`
+- is_eval crossed threshold: Yes -> No `2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md`
+- is_dataset crossed threshold: No -> Yes `2024-Altenburger-Examining the Role of Relationship Alignment in.md`
+- is_eval crossed threshold: Yes -> No `2024-Altinel-So-haTRed A Novel Hybrid System for.md`
+- is_eval crossed threshold: Yes -> No `2024-Altinok-Gender Bias in Turkish Word Embeddings.md`
+- is_eval crossed threshold: Yes -> No `2024-Aly-Hate speech detection with ADHAR a multi-dialectal hate speech corpus.md`
+- is_eval crossed threshold: No -> Yes `2024-Amano-Exploring Similarity Measures and Intertextuality in.md`
+- is_eval crossed threshold: Yes -> No `2024-Anonymous-ForbiddenQuestions.md`
+- is_dataset crossed threshold: Yes -> No `2024-Anonymous-ForbiddenQuestions.md`
+- is_dataset crossed threshold: No -> Yes `2024-Arif-Generalists vs Specialists Evaluating Large Language.md`
+- is_dataset crossed threshold: No -> Yes `2024-Arzberger-Nothing Comes Without Its World.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md`
+- is_eval crossed threshold: Yes -> No `2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.md`
+- is_eval crossed threshold: Yes -> No `2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md`
+- is_eval crossed threshold: Yes -> No `2024-Aydin-Improving LLM Reliability with RAG in.md`
+- is_dataset crossed threshold: Yes -> No `2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md`
+- is_dataset crossed threshold: Yes -> No `2024-Baruni-ParsBench Toolkits for Benchmarking LLMs Based on the Persian.md`
+- is_eval crossed threshold: Yes -> No `2024-Basem-Optimized Quran Passage Retrieval Using an.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.md`
+- is_eval crossed threshold: No -> Yes `2024-Bean-Measuring What Matters - Construct Validity in LLM Benchmarks.md`
+- is_dataset crossed threshold: No -> Yes `2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md`
+- is_eval crossed threshold: Yes -> No `2024-Bhutani-SeeGULL Multilingual A Dataset of Geo-Culturally Situated Stereotypes.md`
+- is_eval crossed threshold: No -> Yes `2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md`
+- is_dataset crossed threshold: No -> Yes `2024-Bolatbek-Kazakh Language Dataset for Hate Speech Detection on Social Media Text.md`
+- is_eval crossed threshold: Yes -> No `2024-Buyl-Large Language Models Reflect the Ideology of.md`
+- is_dataset crossed threshold: Yes -> No `2024-Buyl-Large Language Models Reflect the Ideology of.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Cahyawijaya-LLM for everyone.md`
+- is_dataset crossed threshold: Yes -> No `2024-Cahyawijaya-LLM for everyone.md`
+- is_dataset crossed threshold: Yes -> No `2024-Chabot-Couture-Bridging the Gap Enhancing LLM Performance.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md`
+- is_eval crossed threshold: No -> Yes `2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md`
+- is_dataset crossed threshold: Yes -> No `2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md`
+- is_dataset crossed threshold: Yes -> No `2024-Chen-EmotionQueen A Benchmark for Evaluating Empathy of Large Language.md`
+- is_dataset crossed threshold: Yes -> No `2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU.md`
+- is_dataset crossed threshold: Yes -> No `2024-Chen-ToMBench.md`
+- is_eval crossed threshold: No -> Yes `2024-Chhabra-Evaluating Computational Models of Ethics.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Choi-CaLMQA Exploring culturally specific long-form question.md`
+- is_dataset crossed threshold: Yes -> No `2024-Choi-CaLMQA Exploring culturally specific long-form question.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Chouhan-HindiLLM Large Language Model for Hindi.md`
+- is_benchmark crossed threshold: No -> Yes `2024-CiTIUS-A Galician-Portuguese Generative Model.md`
+- is_eval crossed threshold: Yes -> No `2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Compostela-Open Generative Large Language Models for Galician.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Debenedetti-SaTML LLM CTF Dataset.md`
+- is_eval crossed threshold: Yes -> No `2024-Debenedetti-SaTML LLM CTF Dataset.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Dou-SailCompass Towards Reproducible and Robust Evaluation.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Duan-GTBench Uncovering the Strategic Reasoning Limitations of LLMs via.md`
+- is_eval crossed threshold: Yes -> No `2024-Enkhbold-A new dataset for mongolian online handwritten recognition.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.md`
+- is_eval crossed threshold: No -> Yes `2024-Enkhbold-Text and Value Mongolian Journal of Humanities and Social Sciences.md`
+- is_dataset crossed threshold: Yes -> No `2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.md`
+- is_eval crossed threshold: Yes -> No `2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md`
+- is_dataset crossed threshold: Yes -> No `2024-Faysse-CroissantLLM A Truly Bilingual French-English Language Model.md`
+- is_eval crossed threshold: No -> Yes `2024-Felipe-Ruiz-Lexical Sentiment and Correlation Analysis of.md`
+- is_dataset crossed threshold: Yes -> No `2024-Fenogenova-MERA A Comprehensive LLM Evaluation in Russian.md`
+- is_dataset crossed threshold: Yes -> No `2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md`
+- is_dataset crossed threshold: No -> Yes `2024-Freire-Uncovering Latent Human Wellbeing in Language.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md`
+- is_eval crossed threshold: Yes -> No `2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md`
+- is_dataset crossed threshold: Yes -> No `2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md`
+- is_eval crossed threshold: No -> Yes `2024-Gabriel-The Ethics of Advanced AI Assistants.md`
+- is_eval crossed threshold: Yes -> No `2024-Gaikwad-MoralBench A Multi-Faceted Benchmark for Ethical and Safety Alignment.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Gala-Airavata Introducing Hindi Instruction-tuned LLM.md`
+- is_eval crossed threshold: No -> Yes `2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Ghahroodi-Khayyam Challenge PersianMMLU Is Your LLM Truly Wise to The Persian.md`
+- is_eval crossed threshold: Yes -> No `2024-Ghosh-AEGIS.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Gordic-Serbian LLM Evaluation Dataset.md`
+- is_dataset crossed threshold: Yes -> No `2024-Group-The AI Safety Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2024-Gu-Probabilistic medical predictions of large.md`
+- is_dataset crossed threshold: No -> Yes `2024-Gu-Probabilistic medical predictions of large.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Gupta-Improving Model Evaluation using SMART Filtering.md`
+- is_dataset crossed threshold: No -> Yes `2024-Gupta-Improving Model Evaluation using SMART Filtering.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Hagendorff-Machine Psychology.md`
+- is_dataset crossed threshold: No -> Yes `2024-Hancox-Li-Is ETHICS about ethics.md`
+- is_eval crossed threshold: Yes -> No `2024-Hasan-NativQA Multilingual Culturally-Aligned Natural Query for LLMs.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Hellwig-The Vedic Compound Dataset.md`
+- is_eval crossed threshold: Yes -> No `2024-Hellwig-The Vedic Compound Dataset.md`
+- is_dataset crossed threshold: Yes -> No `2024-Holm-Danoliteracy of Generative Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2024-Hooker-Global MMLU Understanding and Addressing Cultural.md`
+- is_eval crossed threshold: Yes -> No `2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md`
+- is_eval crossed threshold: Yes -> No `2024-Hu-VIVA A Benchmark for Vision-Grounded Decision-Making with Human Values.md`
+- is_eval crossed threshold: Yes -> No `2024-Hua-TrustAgent.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Huang-EmotionBench Apathetic or Empathetic Evaluating LLMs' Emotional.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Isbarov-Open foundation models for Azerbaijani language.md`
+- is_eval crossed threshold: Yes -> No `2024-Islam-hatebnBERT An Innovative Novel Transformer Model.md`
+- is_dataset crossed threshold: Yes -> No `2024-Jain-PolygloToxicityPrompts.md`
+- is_eval crossed threshold: Yes -> No `2024-Jang-Cross-Linguistic Moral Preferences in Large Language Models Evidence.md`
+- is_eval crossed threshold: Yes -> No `2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md`
+- is_dataset crossed threshold: Yes -> No `2024-Jin-KoBBQ Korean Bias Benchmark for Question Answering.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Jin-Language Model Alignment in Multilingual Trolley.md`
+- is_dataset crossed threshold: Yes -> No `2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md`
+- is_dataset crossed threshold: No -> Yes `2024-Jinnai-Does Cross-Cultural Alignment Change the Commonsense Morality of.md`
+- is_eval crossed threshold: Yes -> No `2024-Jothi Prakash-A Novel Socio-pragmatic Framework for Sentiment.md`
+- is_eval crossed threshold: Yes -> No `2024-Joy-Gender Bias Mitigation for Bangla Classification Tasks.md`
+- is_dataset crossed threshold: Yes -> No `2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Kabir-BenLLM-Eval A Comprehensive Evaluation into the Potentials and.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Kaiyom-HELM Safety.md`
+- is_dataset crossed threshold: No -> Yes `2024-Kajiwara-A comprehensive framework for multi-modal hate speech detection in.md`
+- is_eval crossed threshold: No -> Yes `2024-Kajiwara-Hate Speech Dataset Catalogue hatespeechdata.md`
+- is_eval crossed threshold: Yes -> No `2024-Kang-Are the Values of LLMs Structurally Aligned with.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Karpov-Inducing Human-like Biases in Moral Reasoning.md`
+- is_dataset crossed threshold: No -> Yes `2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.md`
+- is_eval crossed threshold: Yes -> No `2024-Keller-HOCON34k A Corpus of Hate Speech in Online Comments from German.md`
+- is_eval crossed threshold: Yes -> No `2024-Keutzer-One Model is All You Need.md`
+- is_dataset crossed threshold: Yes -> No `2024-Keutzer-One Model is All You Need.md`
+- is_eval crossed threshold: Yes -> No `2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md`
+- is_eval crossed threshold: Yes -> No `2024-Khandelwal-Multilingual Defining Issues Test.md`
+- is_dataset crossed threshold: Yes -> No `2024-Khandelwal-Multilingual Defining Issues Test.md`
+- is_eval crossed threshold: Yes -> No `2024-Kim-CLIcK A Benchmark Dataset of Cultural and Linguistic Intelligence in.md`
+- is_dataset crossed threshold: Yes -> No `2024-Kim-Developing a Pragmatic Benchmark for Assessing Korean Legal Language.md`
+- is_eval crossed threshold: Yes -> No `2024-Kirgis-Differences in Moral Foundations of LLMs.md`
+- is_eval crossed threshold: Yes -> No `2024-Kirk-The PRISM Alignment Project.md`
+- is_eval crossed threshold: No -> Yes `2024-Klassen-Pluralistic Alignment Over Time.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.md`
+- is_dataset crossed threshold: Yes -> No `2024-Koto-Cracking the Code Multi-domain LLM Evaluation on Real-World.md`
+- is_dataset crossed threshold: Yes -> No `2024-Koto-IndoCulture Exploring Geographically-Influenced Cultural Commonsense.md`
+- is_eval crossed threshold: No -> Yes `2024-Laskar-A Systematic Survey and Critical Review on.md`
+- is_eval crossed threshold: Yes -> No `2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling.md`
+- is_eval crossed threshold: No -> Yes `2024-Lazar-Frontier AI Ethics.md`
+- is_eval crossed threshold: Yes -> No `2024-Lee-Exploring Inherent Biases in LLMs within Korean Social Context A.md`
+- is_eval crossed threshold: Yes -> No `2024-Lent-CreoleVal Multilingual Multitask Benchmarks for Creoles.md`
+- is_eval crossed threshold: Yes -> No `2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language.md`
+- is_eval crossed threshold: Yes -> No `2024-Li-Preference Tuning For Toxicity Mitigation Generalizes Across Languages.md`
+- is_dataset crossed threshold: Yes -> No `2024-Li-SALAD-Bench.md`
+- is_dataset crossed threshold: No -> Yes `2024-Li-THRONE.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Liang-Cross-Language Bias Examination in Large Language Models.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.md`
+- is_eval crossed threshold: Yes -> No `2024-Liebeskind-From Linguistics to Practice a Case Study of Offensive Language.md`
+- is_eval crossed threshold: Yes -> No `2024-Lin-AI-Face.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation.md`
+- is_dataset crossed threshold: Yes -> No `2024-Liu-Are Multilingual LLMs Culturally-Diverse Reasoners An Investigation.md`
+- is_dataset crossed threshold: Yes -> No `2024-Liu-Controllable Preference Optimization.md`
+- is_eval crossed threshold: Yes -> No `2024-Locatelli-Examining the Behavior of LLM Architectures Within the Framework of.md`
+- is_eval crossed threshold: Yes -> No `2024-Lopes-GlórIA A Generative and Open Large Language Model for Portuguese.md`
+- is_eval crossed threshold: Yes -> No `2024-Luu-ViTHSD Exploiting Hatred by Targets for Hate Speech Detection on.md`
+- is_eval crossed threshold: Yes -> No `2024-Mago-Classification of Buddhist Verses The Efficacy.md`
+- is_dataset crossed threshold: Yes -> No `2024-Mago-Classification of Buddhist Verses The Efficacy.md`
+- is_eval crossed threshold: Yes -> No `2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.md`
+- is_eval crossed threshold: No -> Yes `2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.md`
+- is_dataset crossed threshold: No -> Yes `2024-Masood-1 Natural Language Processing for Dialects of a Language A Survey.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Masood-AL-QASIDA Analyzing LLM Quality and Accuracy Systematically in.md`
+- is_eval crossed threshold: No -> Yes `2024-Masood-Bias in Large Language Models Origin Evaluation and Mitigation.md`
+- is_eval crossed threshold: No -> Yes `2024-Masood-Hadith QA Pairs Dataset.md`
+- is_eval crossed threshold: Yes -> No `2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md`
+- is_dataset crossed threshold: No -> Yes `2024-Matei-Enhancing Romanian Offensive Language Detection through Knowledge.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Mazeika-HarmBench.md`
+- is_eval crossed threshold: Yes -> No `2024-McGee-How Ethical Is Utilitarian Ethics.md`
+- is_dataset crossed threshold: Yes -> No `2024-Meadows-LocalValueBench.md`
+- is_dataset crossed threshold: No -> Yes `2024-Mello-PeLLE Encoder-based Language Models for Brazilian Portuguese Based on.md`
+- is_dataset crossed threshold: No -> Yes `2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Miranda-Desiderata for Filipino NLP in the Age of LLMs.md`
+- is_eval crossed threshold: No -> Yes `2024-Miranda-Desiderata for Filipino NLP in the Age of LLMs.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Mondshine-HeSum a Novel Dataset for Abstractive Text Summarization in Hebrew.md`
+- is_dataset crossed threshold: Yes -> No `2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.md`
+- is_dataset crossed threshold: Yes -> No `2024-Moore-Are Large Language Models Consistent over.md`
+- is_eval crossed threshold: No -> Yes `2024-Moshagen-Indigenous Language Technology in the Age of Machine Learning.md`
+- is_dataset crossed threshold: Yes -> No `2024-Mou-SGBench.md`
+- is_dataset crossed threshold: Yes -> No `2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.md`
+- is_eval crossed threshold: Yes -> No `2024-Mozafari-Offensive Language Detection in Low Resource Languages A Use Case of.md`
+- is_eval crossed threshold: Yes -> No `2024-Nahian-The Goofus & Gallant Story Corpus for Practical.md`
+- is_eval crossed threshold: Yes -> No `2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.md`
+- is_eval crossed threshold: Yes -> No `2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.md`
+- is_dataset crossed threshold: Yes -> No `2024-Ng-SGHateCheck Functional Tests for Detecting Hate Speech in.md`
+- is_eval crossed threshold: Yes -> No `2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md`
+- is_dataset crossed threshold: Yes -> No `2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md`
+- is_dataset crossed threshold: Yes -> No `2024-Nguyen-ViLLM-Eval A Comprehensive Evaluation Suite for Vietnamese Large.md`
+- is_dataset crossed threshold: Yes -> No `2024-Nikolich-Vikhr The Family of Open-Source Instruction-Tuned Large Language.md`
+- is_eval crossed threshold: No -> Yes `2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md`
+- is_dataset crossed threshold: No -> Yes `2024-Nwaiwu-LIEA-BERT A Linguistically Enriched Framework for.md`
+- is_eval crossed threshold: Yes -> No `2024-Nyachhyon-Consolidating and Developing Benchmarking Datasets for.md`
+- is_eval crossed threshold: Yes -> No `2024-Obi-Value Imprint.md`
+- is_eval crossed threshold: Yes -> No `2024-Ohashi-Extended Japanese Commonsense Morality Dataset.md`
+- is_eval crossed threshold: Yes -> No `2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Organizers-DIALECT-COPA Choice of Plausible Alternatives Datasets in South.md`
+- is_eval crossed threshold: Yes -> No `2024-Ortiz-Spanish and LLM Benchmarks Is MMLU Lost in Translation.md`
+- is_eval crossed threshold: No -> Yes `2024-Overfit-GM-Turkish Overfit-GM Toxic Language Dataset.md`
+- is_eval crossed threshold: Yes -> No `2024-Owen-Komodo A Linguistic Expedition into Indonesia's Regional Languages.md`
+- is_dataset crossed threshold: Yes -> No `2024-Paraschiv-Offensive Text Span Detection in Romanian Comments Using Large.md`
+- is_eval crossed threshold: Yes -> No `2024-Park-Morality is Non-Binary.md`
+- is_dataset crossed threshold: Yes -> No `2024-Park-Pragmatic Competence Evaluation of Large Language Models for the.md`
+- is_eval crossed threshold: Yes -> No `2024-Park-Understanding LLM Development Through Longitudinal Study Insights.md`
+- is_eval crossed threshold: Yes -> No `2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large.md`
+- is_dataset crossed threshold: Yes -> No `2024-Pfister-LLaMmlein Transparent Compact and Competitive German-Only Language.md`
+- is_dataset crossed threshold: No -> Yes `2024-Phyo-Development and Evaluation of Myanmar GPT.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Piatti-Cooperate or Collapse.md`
+- is_eval crossed threshold: Yes -> No `2024-Piatti-Cooperate or Collapse.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md`
+- is_dataset crossed threshold: Yes -> No `2024-Pikuliak-Women Are Beautiful Men Are Leaders Gender Stereotypes in Machine.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Pires-Sabiá-2 A New Generation of Portuguese Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2024-Pistilli-CIVICS.md`
+- is_dataset crossed threshold: Yes -> No `2024-Porkaew-Representing the Under-Represented Cultural and Core.md`
+- is_eval crossed threshold: Yes -> No `2024-Potter-Hidden Persuaders LLMs' Political Leaning and Their Influence on.md`
+- is_dataset crossed threshold: Yes -> No `2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md`
+- is_eval crossed threshold: Yes -> No `2024-Ptaszynski-Expert-Annotated Dataset to Study Cyberbullying in Polish Language.md`
+- is_eval crossed threshold: Yes -> No `2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.md`
+- is_dataset crossed threshold: Yes -> No `2024-Pujari-LLM-Human Pipeline for Cultural Context Grounding.md`
+- is_eval crossed threshold: Yes -> No `2024-Putri-Can LLM Generate Culturally Relevant Commonsense QA Data Case Study.md`
+- is_eval crossed threshold: Yes -> No `2024-Pérez-Rosas-CogniModal-D.md`
+- is_eval crossed threshold: Yes -> No `2024-Qiu-ProgressGym.md`
+- is_dataset crossed threshold: Yes -> No `2024-Qiu-ProgressGym.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ.md`
+- is_dataset crossed threshold: Yes -> No `2024-Quang-Vietnamese Law and Ethics Multiple-Choice Questions VLEMCQ.md`
+- is_eval crossed threshold: Yes -> No `2024-Ranasinghe-SOLD Sinhala Offensive Language Dataset.md`
+- is_eval crossed threshold: No -> Yes `2024-Rane-Concept Alignment.md`
+- is_eval crossed threshold: No -> Yes `2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.md`
+- is_eval crossed threshold: Yes -> No `2024-Research-SEA-VQA Southeast Asian Cultural Context Dataset For Visual Question.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Reuel-BetterBench.md`
+- is_eval crossed threshold: No -> Yes `2024-Reuel-BetterBench.md`
+- is_dataset crossed threshold: Yes -> No `2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md`
+- is_dataset crossed threshold: Yes -> No `2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.md`
+- is_eval crossed threshold: No -> Yes `2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md`
+- is_dataset crossed threshold: No -> Yes `2024-Rottger-SafetyPrompts Systematic Review of Open Datasets for LLM Safety.md`
+- is_eval crossed threshold: Yes -> No `2024-Rozado-The Political Preferences of LLMs.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.md`
+- is_dataset crossed threshold: Yes -> No `2024-Ryan-Unintended Impacts of LLM Alignment on Global Representation.md`
+- is_eval crossed threshold: Yes -> No `2024-Röttger-XSTest.md`
+- is_dataset crossed threshold: Yes -> No `2024-Röttger-XSTest.md`
+- is_benchmark crossed threshold: No -> Yes `2024-SUTD-Sailor Open Language Models for South-East.md`
+- is_dataset crossed threshold: Yes -> No `2024-Sadhu-Social Bias in Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2024-Sagyndyk-Kazakh Dastur-MC Multiple Choice Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2024-Sahoo-IndicCONAN A Multilingual Dataset for Combating Hate Speech in Indian.md`
+- is_eval crossed threshold: Yes -> No `2024-Saketos-The Large Language Model GreekLegalRoBERTa.md`
+- is_dataset crossed threshold: Yes -> No `2024-Sang-CDEval A Benchmark for Measuring the.md`
+- is_dataset crossed threshold: Yes -> No `2024-Satar-Seeing Culture Benchmark Evaluating VLMs on Culturally Rich Images.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md`
+- is_eval crossed threshold: Yes -> No `2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md`
+- is_dataset crossed threshold: Yes -> No `2024-Schmeisser-Nieto-Overview of DETESTS-Dis at IberLEF 2024 DETEction and Classification.md`
+- is_dataset crossed threshold: Yes -> No `2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md`
+- is_dataset crossed threshold: No -> Yes `2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Seror-The Moral Mind(s) of Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md`
+- is_eval crossed threshold: Yes -> No `2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md`
+- is_dataset crossed threshold: Yes -> No `2024-Shahi-Hate Speech Detection Using Cross-Platform Social Media Data In.md`
+- is_eval crossed threshold: Yes -> No `2024-Sharma-TABHATE A Target-based Hate Speech Detection.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Sharma-Towards Understanding Sycophancy in Language Models.md`
+- is_eval crossed threshold: Yes -> No `2024-Sharma-Towards Understanding Sycophancy in Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2024-Sharma-Towards Understanding Sycophancy in Language Models.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md`
+- is_dataset crossed threshold: Yes -> No `2024-Shi-CultureBank An Online Community-Driven Knowledge Base Towards.md`
+- is_dataset crossed threshold: Yes -> No `2024-Simpson-Parity Benchmark for Measuring Bias in.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Singh-Aya Dataset.md`
+- is_dataset crossed threshold: Yes -> No `2024-Singh-IndicGenBench A Multilingual Benchmark to Evaluate.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Singhal-AyaRedTeaming.md`
+- is_eval crossed threshold: Yes -> No `2024-Singla-Samayik A Benchmark and Dataset for.md`
+- is_dataset crossed threshold: Yes -> No `2024-Son-HAE-RAE Bench Evaluation of Korean Knowledge in Language Models.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md`
+- is_dataset crossed threshold: Yes -> No `2024-Son-KMMLU Measuring Massive Multitask Language Understanding in Korean.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Son-LLM-as-a-Judge & Reward Model What They Can and Cannot Do.md`
+- is_dataset crossed threshold: Yes -> No `2024-Son-MM-Eval A Multilingual Meta-Evaluation Benchmark for LLM-as-a-Judge.md`
+- is_eval crossed threshold: Yes -> No `2024-Sorensen-A Roadmap to Pluralistic Alignment.md`
+- is_eval crossed threshold: Yes -> No `2024-Sorensen-Value Kaleidoscope.md`
+- is_dataset crossed threshold: Yes -> No `2024-Sorensen-Value Kaleidoscope.md`
+- is_eval crossed threshold: Yes -> No `2024-Street-LLMs achieve adult human performance on.md`
+- is_eval crossed threshold: Yes -> No `2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md`
+- is_dataset crossed threshold: No -> Yes `2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md`
+- is_eval crossed threshold: Yes -> No `2024-Takemoto-The moral machine experiment on large language.md`
+- is_dataset crossed threshold: Yes -> No `2024-Team-FABLE Fairness and Bias in LLM Evaluation.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Team-GuardBench.md`
+- is_eval crossed threshold: Yes -> No `2024-Team-GuardBench.md`
+- is_dataset crossed threshold: Yes -> No `2024-Team-GuardBench.md`
+- is_eval crossed threshold: Yes -> No `2024-Tharnpipitchai-Typhoon 2 A Family of Open.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md`
+- is_dataset crossed threshold: Yes -> No `2024-Thellmann-Towards Multilingual LLM Evaluation for European Languages.md`
+- is_dataset crossed threshold: No -> Yes `2024-Thu-Development and Evaluation of Myanmar GPT A Language Model for.md`
+- is_dataset crossed threshold: Yes -> No `2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.md`
+- is_dataset crossed threshold: Yes -> No `2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2024-Tlaie-Exploring and steering the moral compass of Large.md`
+- is_eval crossed threshold: No -> Yes `2024-Tonneau-From Languages to Geographies Towards Evaluating Cultural Bias in.md`
+- is_eval crossed threshold: Yes -> No `2024-Tonneau-HateDay Insights from a Global Hate Speech Dataset Representative of.md`
+- is_dataset crossed threshold: Yes -> No `2024-Truong-Crossing Linguistic Horizons Finetuning and Comprehensive Evaluation.md`
+- is_eval crossed threshold: Yes -> No `2024-University-Monitoring the Evolution of Antisemitic Discourse.md`
+- is_eval crossed threshold: Yes -> No `2024-University-Using LLMs to Discover Emerging Coded.md`
+- is_eval crossed threshold: Yes -> No `2024-Vasilev-CRAFT Cultural Russian-Oriented Dataset Adaptation for Focused.md`
+- is_dataset crossed threshold: Yes -> No `2024-Vayani-All Languages Matter.md`
+- is_benchmark crossed threshold: No -> Yes `2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md`
+- is_eval crossed threshold: No -> Yes `2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md`
+- is_dataset crossed threshold: No -> Yes `2024-Veitsman-KyrgyzNLP Challenges Progress and Future.md`
+- is_eval crossed threshold: No -> Yes `2024-Veitsman-Recent Advancements and Challenges of Turkic.md`
+- is_eval crossed threshold: Yes -> No `2024-Velankar-SamPar A Marathi Hate Speech Dataset.md`
+- is_eval crossed threshold: Yes -> No `2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md`
+- is_dataset crossed threshold: No -> Yes `2024-Wang-A Comprehensive Survey of LLM Alignment Techniques.md`
+- is_eval crossed threshold: Yes -> No `2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.md`
+- is_dataset crossed threshold: Yes -> No `2024-Wang-All Languages Matter On the Multilingual Safety of Large Language.md`
+- is_eval crossed threshold: Yes -> No `2024-Wang-All Languages Matter.md`
+- is_dataset crossed threshold: Yes -> No `2024-Wang-All Languages Matter.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Wang-Do-Not-Answer.md`
+- is_eval crossed threshold: Yes -> No `2024-Wang-Fake Alignment FINE Framework.md`
+- is_dataset crossed threshold: No -> Yes `2024-Wang-Fake Alignment FINE Framework.md`
+- is_eval crossed threshold: Yes -> No `2024-Wang-Possibilities and challenges in the moral growth of LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2024-Wang-XSafety Multilingual Safety Benchmark.md`
+- is_dataset crossed threshold: Yes -> No `2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md`
+- is_eval crossed threshold: No -> Yes `2024-Weidinger-Holistic Safety and Responsibility Evaluations of.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.md`
+- is_eval crossed threshold: Yes -> No `2024-Wibowo-COPAL-ID Indonesian Language Reasoning with Local Culture and Nuances.md`
+- is_eval crossed threshold: Yes -> No `2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md`
+- is_dataset crossed threshold: Yes -> No `2024-Wijanarko-Monitoring Hate Speech in Indonesia An NLP-based Classification of.md`
+- is_dataset crossed threshold: Yes -> No `2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md`
+- is_eval crossed threshold: Yes -> No `2024-Wu-WorldValuesBench.md`
+- is_benchmark crossed threshold: Yes -> No `2024-Wynter-RTP-LX Can LLMs Evaluate Toxicity in Multilingual Scenarios.md`
+- is_eval crossed threshold: Yes -> No `2024-Xu-Exploring Multilingual Concepts of Human Value in Large Language.md`
+- is_eval crossed threshold: No -> Yes `2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md`
+- is_dataset crossed threshold: No -> Yes `2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md`
+- is_eval crossed threshold: Yes -> No `2024-Yang-Benchmarking LLM Guardrails in Handling Multilingual Toxicity.md`
+- is_eval crossed threshold: Yes -> No `2024-Yang-LLM Voting Human Choices and AI Collective Decision-Making.md`
+- is_eval crossed threshold: Yes -> No `2024-Yao-Self-Alignment Improving Alignment of Cultural Values in LLMs via.md`
+- is_dataset crossed threshold: Yes -> No `2024-Yin-SafeWorld Geo-Diverse Safety Alignment.md`
+- is_dataset crossed threshold: No -> Yes `2024-Yu-The Unseen Targets of Hate – A Systematic Review of Hateful.md`
+- is_eval crossed threshold: Yes -> No `2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.md`
+- is_dataset crossed threshold: Yes -> No `2024-Yuan-Cultural Palette Pluralising Culture Alignment via Multi-agent Palette.md`
+- is_dataset crossed threshold: Yes -> No `2024-Yuan-R-Judge.md`
+- is_eval crossed threshold: Yes -> No `2024-Z. Delbari-Spanning the Spectrum of Hatred Detection A Persian Multi-Label Hate.md`
+- is_dataset crossed threshold: No -> Yes `2024-Zangari-A survey on moral foundation theory and pre-trained language models.md`
+- is_dataset crossed threshold: Yes -> No `2024-Zeng-AIR-Bench 2024.md`
+- is_eval crossed threshold: Yes -> No `2024-Zeng-Leveraging Large Language Models for Code-Mixed.md`
+- is_dataset crossed threshold: Yes -> No `2024-Zeng-Leveraging Large Language Models for Code-Mixed.md`
+- is_dataset crossed threshold: Yes -> No `2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2024-Zhang-SafetyBench.md`
+- is_eval crossed threshold: Yes -> No `2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md`
+- is_benchmark crossed threshold: Yes -> No `2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.md`
+- is_dataset crossed threshold: Yes -> No `2024-at-Overview of the Multilingual Text Detoxification Task at PAN 2024.md`
+- is_dataset crossed threshold: Yes -> No `2024-group-ITA-Bench Towards a More Comprehensive Evaluation for Italian LLMs.md`
+- is_eval crossed threshold: Yes -> No `2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md`
+- is_dataset crossed threshold: Yes -> No `2024-initiative-CALAMITA Challenging the Abilities of LAnguage Models in ITAlian.md`
+- is_eval crossed threshold: No -> Yes `2024-project-DharmicData Comprehensive Open-Source Collection of Hindu.md`
+- is_benchmark crossed threshold: Yes -> No `2024-results-EthioLLM Multilingual Large Language Models for Ethiopian Languages.md`
+- is_dataset crossed threshold: Yes -> No `2024-team-Indic-Bias A Comprehensive Benchmark for Fairness.md`
+- is_dataset crossed threshold: Yes -> No `2024-team-Indic-Bias A Comprehensive Benchmark to Evaluate.md`
+- is_dataset crossed threshold: Yes -> No `2024-team-MahaMarathi-7B Marathi Large Language Model.md`
+- is_dataset crossed threshold: Yes -> No `2024-team-OpenThaiGPT 15 A Thai-Centric Open Source.md`
+- is_benchmark crossed threshold: Yes -> No `2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2024-team-SeaLLMs 3 Open Foundation and Chat Multilingual Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md`
+- is_eval crossed threshold: Yes -> No `2024-with.pdf-Hate Speech Detection in Low-Resource Bodo and Assamese Texts with.md`
+- is_dataset crossed threshold: Yes -> No `2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP.md`
+- is_eval crossed threshold: Yes -> No `2025-Abdullah-KurdSTS The Kurdish Semantic Textual Similarity.md`
+- is_eval crossed threshold: Yes -> No `2025-Adelani-INJONGO A Multicultural Intent Detection and.md`
+- is_eval crossed threshold: Yes -> No `2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in.md`
+- is_dataset crossed threshold: No -> Yes `2025-Adilazuarda-From Surveys to Narratives Rethinking Cultural Value Adaptation in.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md`
+- is_dataset crossed threshold: No -> Yes `2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md`
+- is_eval crossed threshold: Yes -> No `2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md`
+- is_eval crossed threshold: No -> Yes `2025-Aina-Virtue Ethics by Design.md`
+- is_eval crossed threshold: Yes -> No `2025-Aji-LoraxBench A Multitask Multilingual Benchmark Suite for 20 Indonesian.md`
+- is_eval crossed threshold: Yes -> No `2025-Akata-Playing Repeated Games with Large Language Models.md`
+- is_eval crossed threshold: No -> Yes `2025-Akpobi-Yankari Monolingual Yoruba Dataset.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Al-SEADialogues A Multilingual Culturally Grounded Multi-turn.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Al-SHADES Towards a Multilingual Assessment of Stereotypes in Large.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Al-Towards a Multilingual Assessment of Stereotypes in Large ....md`
+- is_dataset crossed threshold: Yes -> No `2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md`
+- is_eval crossed threshold: Yes -> No `2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md`
+- is_dataset crossed threshold: Yes -> No `2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md`
+- is_dataset crossed threshold: Yes -> No `2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md`
+- is_eval crossed threshold: Yes -> No `2025-Ali-Data Curation for Pluralistic Alignment.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Almeida-BRoverbs - Measuring how much LLMs understand Portuguese proverbs.md`
+- is_eval crossed threshold: Yes -> No `2025-Almheiri-Cross-Cultural Transfer of Commonsense Reasoning in LLMs Evidence.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Alwajih-Palm.md`
+- is_eval crossed threshold: Yes -> No `2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md`
+- is_dataset crossed threshold: Yes -> No `2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md`
+- is_dataset crossed threshold: Yes -> No `2025-Anonymous-BEATS.md`
+- is_dataset crossed threshold: Yes -> No `2025-Arnardottir-WikiQA-IS Assisted Benchmark Generation and Automated Evaluation of.md`
+- is_dataset crossed threshold: Yes -> No `2025-Arnob-Assessing Gender Bias of Pretrained Bangla Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Asgari-I Am Aligned But With Whom.md`
+- is_dataset crossed threshold: Yes -> No `2025-Awlla-KuBERT Central Kurdish BERT Model and Its Application for Sentiment.md`
+- is_dataset crossed threshold: Yes -> No `2025-Azime-ProverbEval Exploring LLM Evaluation Challenges for Low-resource.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md`
+- is_eval crossed threshold: Yes -> No `2025-Bali-How Deep Is Representational Bias in.md`
+- is_eval crossed threshold: Yes -> No `2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md`
+- is_dataset crossed threshold: Yes -> No `2025-Banerjee-SafeInfer.md`
+- is_dataset crossed threshold: Yes -> No `2025-Barov-TUMLU A Unified and Native Language.md`
+- is_dataset crossed threshold: No -> Yes `2025-Barth-Multilingual European Language Models Benchmarking Approaches and.md`
+- is_eval crossed threshold: Yes -> No `2025-Basem-Few-Shot Prompting for Extractive Quranic QA.md`
+- is_eval crossed threshold: Yes -> No `2025-Basem-Two-Stage Quranic QA via Ensemble Retrieval.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md`
+- is_eval crossed threshold: Yes -> No `2025-Basile-NepX-Hate A Nepali Hate Speech Corpus.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md`
+- is_dataset crossed threshold: Yes -> No `2025-Batzner-GermanPartiesQA Benchmarking LLMs for Political Alignment and.md`
+- is_dataset crossed threshold: Yes -> No `2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md`
+- is_eval crossed threshold: Yes -> No `2025-Beauchemin-QFrCoLA a Quebec-French Corpus of Linguistic Acceptability Judgments.md`
+- is_eval crossed threshold: Yes -> No `2025-Becker-Stay Focused.md`
+- is_eval crossed threshold: No -> Yes `2025-Beyer-LLM-Safety Evaluations Lack Robustness.md`
+- is_dataset crossed threshold: No -> Yes `2025-Beyer-LLM-Safety Evaluations Lack Robustness.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md`
+- is_eval crossed threshold: Yes -> No `2025-Bhattacharjee-INDOHATEMIX A Multi-Target Code-Mixed Hindi-English Hate.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.md`
+- is_eval crossed threshold: Yes -> No `2025-Bidgoli-FARSIQA Faithful and Advanced RAG System.md`
+- is_dataset crossed threshold: No -> Yes `2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md`
+- is_eval crossed threshold: Yes -> No `2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md`
+- is_dataset crossed threshold: Yes -> No `2025-Bogoychev-MultiLoKo A Multilingual Local Knowledge Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2025-Bokaei-Culture Matters in Toxic Language Detection in Persian.md`
+- is_eval crossed threshold: Yes -> No `2025-Bolatbek-Detection of offensive content in the.md`
+- is_dataset crossed threshold: Yes -> No `2025-Borenstein-Investigating Human Values in Online Communities.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md`
+- is_eval crossed threshold: Yes -> No `2025-Bravansky-Rethinking AI Cultural Alignment.md`
+- is_eval crossed threshold: Yes -> No `2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md`
+- is_eval crossed threshold: No -> Yes `2025-Brophy-Black Box Deployed.md`
+- is_dataset crossed threshold: No -> Yes `2025-Bulla-Large Language Models meet moral values.md`
+- is_dataset crossed threshold: No -> Yes `2025-Buyl-AI Alignment at Your Discretion.md`
+- is_dataset crossed threshold: Yes -> No `2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU.md`
+- is_dataset crossed threshold: Yes -> No `2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU.md`
+- is_eval crossed threshold: Yes -> No `2025-Cao-Specializing Large Language Models to Simulate Survey Response.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Castricato-PERSONA Pluralistic Alignment Testbed.md`
+- is_eval crossed threshold: Yes -> No `2025-Castricato-PERSONA Pluralistic Alignment Testbed.md`
+- is_dataset crossed threshold: Yes -> No `2025-Castricato-PERSONA Pluralistic Alignment Testbed.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Cengiz-Evaluating the Quality of Benchmark Datasets for Low-Resource.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Chakraborty-Structured Moral Reasoning.md`
+- is_eval crossed threshold: Yes -> No `2025-Chakravarthi-Detecting Caste and Migration Hate Speech.md`
+- is_eval crossed threshold: Yes -> No `2025-Chared-AI-driven detection of hate speech on social media a case study in.md`
+- is_eval crossed threshold: Yes -> No `2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.md`
+- is_dataset crossed threshold: Yes -> No `2025-Cheng-HKCanto-Eval A Benchmark for Evaluating Cantonese Language.md`
+- is_eval crossed threshold: Yes -> No `2025-Cherakhloo-Benchmarking Open-Source Large Language Models for Persian in.md`
+- is_dataset crossed threshold: Yes -> No `2025-Chiu-CulturalBench.md`
+- is_dataset crossed threshold: Yes -> No `2025-Chiu-MoReBench.md`
+- is_dataset crossed threshold: Yes -> No `2025-Chlapanis-GreekBarBench A Challenging Benchmark for Free-Text Legal Reasoning.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.md`
+- is_eval crossed threshold: No -> Yes `2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.md`
+- is_dataset crossed threshold: No -> Yes `2025-Choi-No Language Data Left Behind A Comparative Study of CJK Language.md`
+- is_eval crossed threshold: Yes -> No `2025-Cocu-A Cross-Lingual Analysis of Bias in Large Language Models Using.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Cognitive-Evolution of Meta’s LLaMA Models and Parameter-Efficient Fine-Tuning.md`
+- is_eval crossed threshold: Yes -> No `2025-Cognitive-T-LLaMA a Tibetan large language model based on LLaMA2 Complex &.md`
+- is_eval crossed threshold: Yes -> No `2025-Cognitive-TIFD Tibetan Instruction-Following Dataset for Large Language Models.md`
+- is_eval crossed threshold: No -> Yes `2025-Colijn-Technical Risks of (Lethal) Autonomous Weapons.md`
+- is_eval crossed threshold: Yes -> No `2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties.md`
+- is_dataset crossed threshold: Yes -> No `2025-Compostela-Enhancing Large Language Models for Underrepresented Varieties.md`
+- is_eval crossed threshold: No -> Yes `2025-Conwill-Design Patterns for the Common Good.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md`
+- is_eval crossed threshold: Yes -> No `2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md`
+- is_dataset crossed threshold: Yes -> No `2025-Corrêa-Tucano Advancing Neural Text Generation for Portuguese.md`
+- is_dataset crossed threshold: Yes -> No `2025-Dadas-Evaluating Polish Linguistic and Cultural Competency in Large.md`
+- is_eval crossed threshold: Yes -> No `2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.md`
+- is_dataset crossed threshold: Yes -> No `2025-Dang-VMMU A Vietnamese Multitask Multimodal Understanding and Reasoning.md`
+- is_dataset crossed threshold: No -> Yes `2025-Davies-Fairness identification of large language models in recommendation.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub.md`
+- is_eval crossed threshold: No -> Yes `2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub.md`
+- is_dataset crossed threshold: No -> Yes `2025-Davies-LLM Evaluation Benchmarks and Safety Datasets for 2025 Knowledge Hub.md`
+- is_eval crossed threshold: Yes -> No `2025-Davies-Overview of the NLPCC 2025 Shared Task Gender Bias Mitigation.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.md`
+- is_dataset crossed threshold: Yes -> No `2025-Dementieva-Overview of the Multilingual Text Detoxification Task at PAN 2025.md`
+- is_eval crossed threshold: Yes -> No `2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.md`
+- is_dataset crossed threshold: Yes -> No `2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Dey-Beyond the Rubric Cultural Misalignment in LLM Benchmarks for Sexual.md`
+- is_eval crossed threshold: Yes -> No `2025-Dillion-AI Language Model Rivals Expert Ethicist.md`
+- is_eval crossed threshold: Yes -> No `2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md`
+- is_dataset crossed threshold: Yes -> No `2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md`
+- is_eval crossed threshold: No -> Yes `2025-Drukker-Concerns and Values in Human-Robot Interactions.md`
+- is_eval crossed threshold: Yes -> No `2025-Dubey-Addressing Moral Uncertainty using Large Language.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Dwivedi-EtiCor++ Towards Understanding Etiquettical Bias in LLMs.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Ebrahimi-AmericasNLI Evaluating Zero-shot Natural Language Understanding of.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Ehud-LCHAIM - Investigating Long Context Reasoning in Hebrew.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Emezue-NaijaVoices.md`
+- is_eval crossed threshold: Yes -> No `2025-Emezue-NaijaVoices.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md`
+- is_eval crossed threshold: Yes -> No `2025-Enguix-Overview of HOMO-LAT at IberLEF 2025 Human-Centric Polarity Detection.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md`
+- is_eval crossed threshold: No -> Yes `2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md`
+- is_dataset crossed threshold: No -> Yes `2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md`
+- is_dataset crossed threshold: No -> Yes `2025-Fanous-SycEval Evaluating LLM Sycophancy.md`
+- is_eval crossed threshold: Yes -> No `2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2025-Faraz-IndicVisionBench Benchmarking Cultural and Multilingual Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2025-Farid-One Model, Many Morals.md`
+- is_eval crossed threshold: Yes -> No `2025-Farsi-PBBQ A Persian Bias Benchmark Dataset Curated with Human-AI.md`
+- is_eval crossed threshold: Yes -> No `2025-Farsi-PahGen Generating Ancient Pahlavi Text via Grammar-guided Zero-shot.md`
+- is_dataset crossed threshold: Yes -> No `2025-Farsi-PahGen Generating Ancient Pahlavi Text via Grammar-guided Zero-shot.md`
+- is_eval crossed threshold: Yes -> No `2025-Fayaz-BIDWESH A Bangla Regional Based Hate Speech Detection Dataset.md`
+- is_eval crossed threshold: Yes -> No `2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.md`
+- is_eval crossed threshold: Yes -> No `2025-Feng-ERPO.md`
+- is_eval crossed threshold: Yes -> No `2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md`
+- is_eval crossed threshold: Yes -> No `2025-Fillies-Mapping Toxic Comments Across Demographics A Dataset from German.md`
+- is_dataset crossed threshold: Yes -> No `2025-Gamboa-Filipino Benchmarks for Measuring Sexist and Homophobic Bias in.md`
+- is_eval crossed threshold: No -> Yes `2025-Gamboa-Social Bias in Multilingual Language Models.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Ganea-A Culturally-Rich Romanian NLP Dataset from 'Who Wants to Be a.md`
+- is_dataset crossed threshold: No -> Yes `2025-Gao-How Large Language Models Enhance Low-Resource Mongolian-Chinese.md`
+- is_eval crossed threshold: Yes -> No `2025-Gerdes-Exploring LLM Chatbots as Potential Guides to.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Ghaly-Assessing Large Language Models on Islamic.md`
+- is_dataset crossed threshold: Yes -> No `2025-Ghaly-Assessing Large Language Models on Islamic.md`
+- is_eval crossed threshold: Yes -> No `2025-Ghosh-AEGIS 2.0.md`
+- is_eval crossed threshold: Yes -> No `2025-Giachino-An Empirical Investigation of Gender Stereotype Representation in.md`
+- is_eval crossed threshold: Yes -> No `2025-Goethals-One world one opinion The superstar effect in LLM responses.md`
+- is_eval crossed threshold: No -> Yes `2025-Gong-Faith Respect and Moral Compass in.md`
+- is_eval crossed threshold: Yes -> No `2025-Goyal-Vedavani A Benchmark Corpus for ASR.md`
+- is_eval crossed threshold: No -> Yes `2025-Graves-AI Practical Wisdom and Compassion.md`
+- is_dataset crossed threshold: Yes -> No `2025-Group-AILuminate LLM v1.1 Adding French Language Capabilities to.md`
+- is_eval crossed threshold: Yes -> No `2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.md`
+- is_dataset crossed threshold: No -> Yes `2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.md`
+- is_eval crossed threshold: Yes -> No `2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual.md`
+- is_eval crossed threshold: Yes -> No `2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md`
+- is_dataset crossed threshold: Yes -> No `2025-Guo-CARE - Multilingual Human Preference Learning for Cultural Awareness.md`
+- is_eval crossed threshold: Yes -> No `2025-Göçen-Teachers vs. large language models ethical decision-making across.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md`
+- is_dataset crossed threshold: Yes -> No `2025-Han-MuBench Assessment of Multilingual Capabilities of.md`
+- is_eval crossed threshold: Yes -> No `2025-Hasan-LLM-Based Multi-Task Bangla Hate Speech Detection Type Severity and.md`
+- is_eval crossed threshold: Yes -> No `2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hassan-DialectalArabicMMLU Benchmarking Dialectal Capabilities in Arabic and.md`
+- is_dataset crossed threshold: Yes -> No `2025-Havaldar-Culturally-Aware Conversations A Framework Benchmark for.md`
+- is_dataset crossed threshold: No -> Yes `2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md`
+- is_eval crossed threshold: No -> Yes `2025-Hendrycks-MUST An Explainable AI-Based Framework for Multilingual Hate Speech.md`
+- is_dataset crossed threshold: Yes -> No `2025-Herrador-The PacifAIst Benchmark.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hofman-MAPS A Multilingual Benchmark for Global Agent Performance and.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Hong-PrinciplismQA.md`
+- is_eval crossed threshold: Yes -> No `2025-Hong-PrinciplismQA.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hong-PrinciplismQA.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hosain-B-REASO A Multi-Level Multi-Faceted Bengali Evaluation Suite.md`
+- is_eval crossed threshold: Yes -> No `2025-Hossain-BRAND Bilingual Religious Accountable Norm Dataset.md`
+- is_eval crossed threshold: Yes -> No `2025-Hossain-BanHate An Up-to-Date and Fine-Grained Bangla Hate Speech Dataset.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias.md`
+- is_eval crossed threshold: Yes -> No `2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hosseinbeigi-Advancing Persian LLM Evaluation.md`
+- is_eval crossed threshold: Yes -> No `2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.md`
+- is_eval crossed threshold: Yes -> No `2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.md`
+- is_dataset crossed threshold: Yes -> No `2025-Hsieh-TaiwanVQA A Benchmark for Visual Question Answering for Taiwanese.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Hu-LLMs on Trial Evaluating Judicial Fairness for Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Huang-DeceptionBench A Comprehensive Benchmark for AI Deception Behaviors.md`
+- is_eval crossed threshold: Yes -> No `2025-Huang-Understanding Asian Stereotyping and Bias in LLMs Flora Huang.md`
+- is_dataset crossed threshold: Yes -> No `2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md`
+- is_dataset crossed threshold: Yes -> No `2025-In-U-SafeBench.md`
+- is_eval crossed threshold: No -> Yes `2025-Institute-2025 AI Safety Index.md`
+- is_eval crossed threshold: Yes -> No `2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md`
+- is_eval crossed threshold: Yes -> No `2025-Islamic-ALLaM A Series of Large Language Models for Arabic and English.md`
+- is_dataset crossed threshold: Yes -> No `2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md`
+- is_eval crossed threshold: Yes -> No `2025-Jafarinejad-PerGOLD Identification of Offensive Language in Persian Tweets.md`
+- is_eval crossed threshold: No -> Yes `2025-Jailbreak-The Hidden Flaw in LLM Safety Translation as a Jailbreak - Welo Data.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Jain-Low-Resource NLP Challenges Breakthroughs and the Science Behind.md`
+- is_dataset crossed threshold: No -> Yes `2025-Jamshidi-MoCoP.md`
+- is_eval crossed threshold: Yes -> No `2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.md`
+- is_eval crossed threshold: Yes -> No `2025-Ji-PKU-SafeRLHF.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md`
+- is_eval crossed threshold: Yes -> No `2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md`
+- is_dataset crossed threshold: No -> Yes `2025-Jiang-Cross-lingual Capsule Network for Hate Speech Detection in Social.md`
+- is_eval crossed threshold: Yes -> No `2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md`
+- is_dataset crossed threshold: Yes -> No `2025-Jiang-Investigating Machine Moral Judgement Through the Delphi Experiment.md`
+- is_dataset crossed threshold: No -> Yes `2025-Jiang-Raising the Bar.md`
+- is_dataset crossed threshold: No -> Yes `2025-Jiang-SPARTA ALIGNMENT.md`
+- is_dataset crossed threshold: Yes -> No `2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Jigsaw-A New Generation of Perspective API Efficient Multilingual ....md`
+- is_dataset crossed threshold: Yes -> No `2025-Jigsaw-Jigsaw Multilingual Toxic Comment Classification.md`
+- is_dataset crossed threshold: No -> Yes `2025-Jigsaw-Leveraging Machine Translation for Cross-Lingual Toxicity ....md`
+- is_eval crossed threshold: No -> Yes `2025-Jim-Recent advancements and challenges of NLP-based sentiment analysis A.md`
+- is_dataset crossed threshold: No -> Yes `2025-Jim-Recent advancements and challenges of NLP-based sentiment analysis A.md`
+- is_dataset crossed threshold: Yes -> No `2025-Jin-Social Bias Benchmark for Generation A Comparison of Generation and.md`
+- is_dataset crossed threshold: Yes -> No `2025-Jing-MASLegalBench.md`
+- is_eval crossed threshold: Yes -> No `2025-Joshi-Multimodal machine learning for deception.md`
+- is_dataset crossed threshold: Yes -> No `2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md`
+- is_dataset crossed threshold: Yes -> No `2025-Jotautaitė-Speciesism in AI.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md`
+- is_dataset crossed threshold: Yes -> No `2025-Joy-BnMMLU Measuring Massive Multitask Language Understanding in Bengali.md`
+- is_dataset crossed threshold: Yes -> No `2025-Jung-FLEX.md`
+- is_dataset crossed threshold: Yes -> No `2025-KJ-IndicMMLU-Pro Benchmarking Indic Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.md`
+- is_dataset crossed threshold: Yes -> No `2025-Kaewkasi-A Benchmark for Large Language Models on Northern.md`
+- is_dataset crossed threshold: No -> Yes `2025-Kajiwara-Advancing Hate Speech Detection with Transformers Insights from the.md`
+- is_eval crossed threshold: No -> Yes `2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md`
+- is_dataset crossed threshold: No -> Yes `2025-Kajiwara-INHS Newsletter May 2025 - The International Network for Hate ....md`
+- is_dataset crossed threshold: Yes -> No `2025-Kanepajs-LAG-MMLU Benchmarking Frontier LLM Understanding in.md`
+- is_eval crossed threshold: No -> Yes `2025-Kasu-EthicsMH.md`
+- is_eval crossed threshold: Yes -> No `2025-Keshmirian-Many LLMs Are More Utilitarian Than One.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md`
+- is_eval crossed threshold: Yes -> No `2025-Khan-Low-Resource Dialect Adaptation of Large Language Models A French.md`
+- is_dataset crossed threshold: Yes -> No `2025-Khan-Mitigating Social Bias in English and.md`
+- is_eval crossed threshold: Yes -> No `2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Ki-Multiple LLM Agents Debate for Equitable Cultural.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md`
+- is_dataset crossed threshold: Yes -> No `2025-Kim-Evaluating Multimodal Generative AI with Korean Educational Standards.md`
+- is_dataset crossed threshold: No -> Yes `2025-Kim-Navigating the Social Welfare Frontier.md`
+- is_dataset crossed threshold: Yes -> No `2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Klakow-Charting the Landscape of African NLP.md`
+- is_eval crossed threshold: No -> Yes `2025-Klakow-Charting the Landscape of African NLP.md`
+- is_dataset crossed threshold: Yes -> No `2025-Koberidze-GeoLogicQA A Benchmark for Evaluating Logical Reasoning in Georgian.md`
+- is_eval crossed threshold: No -> Yes `2025-Koc-Generative AI and Large Language Models in Language Preservation.md`
+- is_dataset crossed threshold: Yes -> No `2025-Koo-Evaluating Large Language Models on Understanding Korean Indirect.md`
+- is_eval crossed threshold: No -> Yes `2025-Korir-API Multilingual & Multicultural Resources - Asian Pacific Islander.md`
+- is_eval crossed threshold: Yes -> No `2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md`
+- is_dataset crossed threshold: Yes -> No `2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md`
+- is_dataset crossed threshold: Yes -> No `2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md`
+- is_dataset crossed threshold: Yes -> No `2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md`
+- is_dataset crossed threshold: Yes -> No `2025-Kumar-BengaliMoralBench.md`
+- is_dataset crossed threshold: Yes -> No `2025-Kumar-SweEval Do LLMs Really Swear A.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Kumar-UniMoral.md`
+- is_eval crossed threshold: Yes -> No `2025-Kumar-UniMoral.md`
+- is_dataset crossed threshold: Yes -> No `2025-Kumar-UniMoral.md`
+- is_benchmark crossed threshold: No -> Yes `2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md`
+- is_eval crossed threshold: No -> Yes `2025-LaCroix-Metaethical perspectives on ‘benchmarking’ AI.md`
+- is_dataset crossed threshold: Yes -> No `2025-Lab-ArmBench-LLM A Benchmark for Evaluating Large Language Models on.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Lai-Scaling the Multilingual Capability of LLMs with Cross- ....md`
+- is_eval crossed threshold: Yes -> No `2025-Laiyk-Instruction Tuning on Public Government and Cultural Data for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Lan-Fuxi A Benchmark for Evaluating Language.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Laukkonen-Contemplative Artificial Intelligence.md`
+- is_eval crossed threshold: Yes -> No `2025-Laukkonen-Contemplative Artificial Intelligence.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Le Jeune-Phare A Safety Probe for Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Le Jeune-Phare A Safety Probe for Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2025-Lee-KOTOX A Korean Toxic Dataset for Deobfuscation and Detoxification.md`
+- is_dataset crossed threshold: Yes -> No `2025-Lee-Knowing the Words Missing the Meaning Evaluating LLMs' Cultural.md`
+- is_eval crossed threshold: Yes -> No `2025-Lee-When Prompting Fails to Sway.md`
+- is_eval crossed threshold: Yes -> No `2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md`
+- is_eval crossed threshold: Yes -> No `2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.md`
+- is_dataset crossed threshold: Yes -> No `2025-Li-Analyzing Cognitive Differences Among Large.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.md`
+- is_eval crossed threshold: Yes -> No `2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.md`
+- is_dataset crossed threshold: Yes -> No `2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Li-SafetyAnalyst.md`
+- is_eval crossed threshold: Yes -> No `2025-Li-SafetyAnalyst.md`
+- is_dataset crossed threshold: Yes -> No `2025-Li-SafetyAnalyst.md`
+- is_dataset crossed threshold: Yes -> No `2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md`
+- is_eval crossed threshold: Yes -> No `2025-Liu-Beyond Demographics Enhancing Cultural Value Survey Simulation with.md`
+- is_eval crossed threshold: Yes -> No `2025-Liu-Can LLMs Grasp Implicit Cultural Values.md`
+- is_dataset crossed threshold: Yes -> No `2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of.md`
+- is_eval crossed threshold: Yes -> No `2025-Liu-Diagnosing Moral Reasoning Acquisition in.md`
+- is_dataset crossed threshold: No -> Yes `2025-Liu-Diagnosing Moral Reasoning Acquisition in.md`
+- is_dataset crossed threshold: Yes -> No `2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Liu-LongEmotion Measuring Emotional Intelligence of Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2025-Liu-On the Convergence of Moral Self-Correction in LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2025-Liu-PersuSafety LLM Can be a Dangerous Persuader.md`
+- is_dataset crossed threshold: No -> Yes `2025-Liu-Probing Social Identity Bias in Chinese LLMs with Gendered Pronouns.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Liu-The Scales of Justitia.md`
+- is_dataset crossed threshold: No -> Yes `2025-Liu-The Scales of Justitia.md`
+- is_dataset crossed threshold: Yes -> No `2025-Liu-VidHalluc.md`
+- is_dataset crossed threshold: No -> Yes `2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.md`
+- is_eval crossed threshold: Yes -> No `2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md`
+- is_dataset crossed threshold: Yes -> No `2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md`
+- is_eval crossed threshold: Yes -> No `2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic.md`
+- is_eval crossed threshold: Yes -> No `2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md`
+- is_dataset crossed threshold: Yes -> No `2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Machlovi-GuardEval.md`
+- is_eval crossed threshold: Yes -> No `2025-Machlovi-GuardEval.md`
+- is_dataset crossed threshold: Yes -> No `2025-Machlovi-GuardEval.md`
+- is_eval crossed threshold: Yes -> No `2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md`
+- is_eval crossed threshold: No -> Yes `2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.md`
+- is_dataset crossed threshold: No -> Yes `2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.md`
+- is_eval crossed threshold: Yes -> No `2025-Mahajan-Mapping Moral Reasoning in LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.md`
+- is_dataset crossed threshold: Yes -> No `2025-Maheshwari-ParamBench A Graduate-Level Benchmark for Evaluating.md`
+- is_eval crossed threshold: Yes -> No `2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md`
+- is_dataset crossed threshold: Yes -> No `2025-Maji-DRISHTIKON A Multimodal Multilingual Benchmark for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2025-Maryland-One Ruler to Measure Them All Benchmarking Multilingual Long-Context.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Masood-A survey of multilingual large language models - PMC.md`
+- is_eval crossed threshold: No -> Yes `2025-Masood-A survey of multilingual large language models - PMC.md`
+- is_dataset crossed threshold: No -> Yes `2025-Masood-Dialectal substitution as an adversarial approach for evaluating.md`
+- is_eval crossed threshold: No -> Yes `2025-Masood-Large language models are biased - local initiatives are fighting for.md`
+- is_eval crossed threshold: Yes -> No `2025-Masood-Neural Machine Translation for Low-Resource Languages from a.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.md`
+- is_eval crossed threshold: Yes -> No `2025-Mekki-NileChat Towards Linguistically Diverse and Culturally Aware LLMs for.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Mekky-HALF Harm-Aware LLM Fairness Evaluation Aligned with Deployment.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Menke-How Effective Is Constitutional AI in Small LLMs.md`
+- is_eval crossed threshold: Yes -> No `2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md`
+- is_dataset crossed threshold: Yes -> No `2025-Metinov-KyrgyzBERT A Compact Efficient Language Model for Kyrgyz NLP.md`
+- is_eval crossed threshold: Yes -> No `2025-Mining)-Enhancing social media hate speech detection in low-resource.md`
+- is_dataset crossed threshold: Yes -> No `2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md`
+- is_dataset crossed threshold: No -> Yes `2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md`
+- is_dataset crossed threshold: Yes -> No `2025-Mohamed-Lost in the Mix Evaluating LLM Understanding of Code-Switched Text.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Mohammadi-Cross-Cultural Challenges to Artificial Intelligence Ethics.md`
+- is_eval crossed threshold: No -> Yes `2025-Mohammadi-Cross-Cultural Challenges to Artificial Intelligence Ethics.md`
+- is_dataset crossed threshold: No -> Yes `2025-Mohammadi-Cross-Cultural Challenges to Artificial Intelligence Ethics.md`
+- is_eval crossed threshold: Yes -> No `2025-Mohammadi-Do Large Language Models Understand Morality Across Cultures.md`
+- is_eval crossed threshold: Yes -> No `2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md`
+- is_dataset crossed threshold: No -> Yes `2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Mohammed-Aftina.md`
+- is_eval crossed threshold: Yes -> No `2025-Mohammed-Aftina.md`
+- is_dataset crossed threshold: No -> Yes `2025-Mohammed-Aftina.md`
+- is_eval crossed threshold: Yes -> No `2025-Mohammed-Cross-Language Approach for Quranic QA.md`
+- is_dataset crossed threshold: Yes -> No `2025-Mohammed-Cross-Language Approach for Quranic QA.md`
+- is_eval crossed threshold: Yes -> No `2025-Mohan-A Multimodal Approach for Hate and.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Monazzah-PerCul A Story-Driven Cultural Evaluation of LLMs in Persian.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Moosa-Multi-lingual HateSpeech Dataset.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md`
+- is_dataset crossed threshold: Yes -> No `2025-Mubarak-IslamicEval 2025 - Shared Task on Capturing LLM Hallucination in.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Mueller-Eberstein-DaKultur Evaluating the Cultural Awareness of Language Models for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Mukherjee-DECASTE Unveiling Caste Stereotypes in Large.md`
+- is_dataset crossed threshold: Yes -> No `2025-Muminovic-Large Language Models for Toxic Language Detection in Low-Resource.md`
+- is_eval crossed threshold: No -> Yes `2025-Muntean-Moral Coherentism Theoretical Framework Muntean.md`
+- is_dataset crossed threshold: Yes -> No `2025-Mushtaq-WorldView-Bench.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Muñoz-García-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md`
+- is_eval crossed threshold: Yes -> No `2025-Muñoz-García-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md`
+- is_dataset crossed threshold: Yes -> No `2025-Myung-PapersPlease.md`
+- is_eval crossed threshold: Yes -> No `2025-Nahin-TituLLMs A Family of Bangla LLMs with Comprehensive Benchmarking.md`
+- is_dataset crossed threshold: Yes -> No `2025-Nakanishi-Analyzing the Safety of Japanese Large Language Models in.md`
+- is_dataset crossed threshold: Yes -> No `2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.md`
+- is_eval crossed threshold: Yes -> No `2025-Naous-On The Origin of Cultural Biases in Language Models From Pre-training.md`
+- is_eval crossed threshold: Yes -> No `2025-Nath-Few-shot and zero-shot Assamese hate speech detection a comparative.md`
+- is_dataset crossed threshold: Yes -> No `2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md`
+- is_eval crossed threshold: No -> Yes `2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md`
+- is_eval crossed threshold: Yes -> No `2025-Neplenbroek-Cross-Lingual Transfer of Debiasing and Detoxification in.md`
+- is_dataset crossed threshold: No -> Yes `2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md`
+- is_dataset crossed threshold: Yes -> No `2025-Nguyen-VM14K First Vietnamese Medical Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2025-Nguyen-VietMEAgent Culturally-Aware Few-Shot Multimodal Explanation for.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Ni-A Survey on Large Language Model Benchmarks.md`
+- is_eval crossed threshold: No -> Yes `2025-Ni-A Survey on Large Language Model Benchmarks.md`
+- is_dataset crossed threshold: Yes -> No `2025-Nikandrou-CROPE Evaluating In-Context Adaptation of Vision and Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Niklaus-SwiLTra-Bench The Swiss Legal Translation Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.md`
+- is_dataset crossed threshold: Yes -> No `2025-Ning-LinguaSafe A Comprehensive Multilingual Safety Benchmark for Large.md`
+- is_dataset crossed threshold: No -> Yes `2025-Nsarkoh-A Foundational Architecture for Engineering an.md`
+- is_eval crossed threshold: Yes -> No `2025-Nuha-Exploring NLP Benchmarks in an Extremely Low-Resource Setting.md`
+- is_eval crossed threshold: No -> Yes `2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md`
+- is_dataset crossed threshold: No -> Yes `2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md`
+- is_eval crossed threshold: No -> Yes `2025-Oh-Culture is Everywhere A Call for Intentionally Cultural Evaluation.md`
+- is_dataset crossed threshold: Yes -> No `2025-Oh-Evaluating LLMs’ Language Confusion in Code-switching Context Juhyun.md`
+- is_eval crossed threshold: Yes -> No `2025-Oh-Robustness of Large Language Models in Moral Judgements.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....md`
+- is_eval crossed threshold: Yes -> No `2025-Open-A Comprehensive Dataset for Enhancing Safety in LLM- ....md`
+- is_benchmark crossed threshold: No -> Yes `2025-PIB-PLLuM A Family of Polish Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-PIB-PLLuM A Family of Polish Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Papadimitriou-BelarusianGLUE Towards a Natural Language Understanding Benchmark for.md`
+- is_eval crossed threshold: Yes -> No `2025-Park-Deontological Keyword Bias.md`
+- is_eval crossed threshold: Yes -> No `2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md`
+- is_dataset crossed threshold: Yes -> No `2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md`
+- is_eval crossed threshold: Yes -> No `2025-Paul-Aligning Large Language Models to Low-Resource.md`
+- is_dataset crossed threshold: No -> Yes `2025-Paul-Aligning Large Language Models to Low-Resource.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Pavlopoulos-Open or Closed LLM for Lesser-Resourced Languages Lessons from Greek.md`
+- is_dataset crossed threshold: Yes -> No `2025-Peng-Plutus Benchmarking Large Language Models in Low-Resource Greek.md`
+- is_eval crossed threshold: No -> Yes `2025-Perez-Tokenising culture causes and consequences of cultural misalignment.md`
+- is_dataset crossed threshold: No -> Yes `2025-Perez-Tokenising culture causes and consequences of cultural misalignment.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale.md`
+- is_eval crossed threshold: Yes -> No `2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale.md`
+- is_dataset crossed threshold: Yes -> No `2025-Pham-CultureInstruct Curating Multi-Cultural Instructions at Scale.md`
+- is_eval crossed threshold: Yes -> No `2025-Piot-Bridging Gaps in Hate Speech Detection Meta-Collections and.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Poria-Bhaasha Bhasa Zaban A Survey for.md`
+- is_eval crossed threshold: No -> Yes `2025-Poria-Bhaasha Bhasa Zaban A Survey for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Pothavorn-NitiBench A Comprehensive Study of LLM.md`
+- is_dataset crossed threshold: Yes -> No `2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2025-Pranav-Rice-VL Evaluating Vision-Language Models for Cultural Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2025-Pranida-Culturally-Nuanced Story Generation for Reasoning in Low-Resource.md`
+- is_eval crossed threshold: Yes -> No `2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.md`
+- is_dataset crossed threshold: Yes -> No `2025-Prasannan-Counter-Speech Generation for Homophobic and Transphobic.md`
+- is_dataset crossed threshold: Yes -> No `2025-Pretrained-Evaluating Uighur literary translation A comparative study of ChatGPT.md`
+- is_dataset crossed threshold: Yes -> No `2025-Pretrained-MiLiC-Eval Benchmarking Multilingual LLMs for China’s Minority.md`
+- is_eval crossed threshold: No -> Yes `2025-Pretrained-Research on the Training and Application Methods of a Lightweight.md`
+- is_dataset crossed threshold: No -> Yes `2025-Pretrained-Research on the Training and Application Methods of a Lightweight.md`
+- is_eval crossed threshold: Yes -> No `2025-Pudasaini-NepaliGPT A Generative Language Model for.md`
+- is_dataset crossed threshold: No -> Yes `2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Qi-A Survey of Automatic Hallucination Evaluation on.md`
+- is_eval crossed threshold: No -> Yes `2025-Qi-A Survey of Automatic Hallucination Evaluation on.md`
+- is_dataset crossed threshold: No -> Yes `2025-Qi-A Survey of Automatic Hallucination Evaluation on.md`
+- is_dataset crossed threshold: Yes -> No `2025-Qi-AGENTIF.md`
+- is_dataset crossed threshold: Yes -> No `2025-Qiu-Evaluating Cultural and Social Awareness of LLM Web Agents.md`
+- is_dataset crossed threshold: Yes -> No `2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.md`
+- is_dataset crossed threshold: Yes -> No `2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md`
+- is_dataset crossed threshold: Yes -> No `2025-Raihan-A Multilingual Benchmark to Evaluate Large Language.md`
+- is_eval crossed threshold: Yes -> No `2025-Ramezani-The Discordance Between Embedded Ethics and Cultural Norms in LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2025-Rao-NormAd.md`
+- is_dataset crossed threshold: No -> Yes `2025-Rashid-Evaluating Prompt Injection Attacks with.md`
+- is_eval crossed threshold: No -> Yes `2025-Ray-Incorporating indigenous knowledge systems into AI governance.md`
+- is_dataset crossed threshold: Yes -> No `2025-Raza-HumaniBench.md`
+- is_dataset crossed threshold: Yes -> No `2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md`
+- is_dataset crossed threshold: Yes -> No `2025-Rinki-Measuring South Asian Biases in Large.md`
+- is_dataset crossed threshold: No -> Yes `2025-Rismani-Measuring What Matters Connecting AI Ethics Evaluations to System.md`
+- is_eval crossed threshold: Yes -> No `2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.md`
+- is_dataset crossed threshold: Yes -> No `2025-Romero-Arjona-Red Teaming Contemporary AI Models Insights from Spanish and Basque.md`
+- is_eval crossed threshold: Yes -> No `2025-Rosenbaum-MTQE.en-he Machine Translation Quality Estimation for English-Hebrew.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Sadallah-Commonsense Reasoning in Arab Culture.md`
+- is_dataset crossed threshold: Yes -> No `2025-Sadr-We Politely Insist Your LLM Must Learn the Persian Art of Taarof.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.md`
+- is_dataset crossed threshold: No -> Yes `2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.md`
+- is_dataset crossed threshold: Yes -> No `2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md`
+- is_dataset crossed threshold: Yes -> No `2025-Salnikov-Geopolitical biases in LLMs what are the 'good' and the 'bad'.md`
+- is_eval crossed threshold: Yes -> No `2025-Sameer-Insights into Moral Reasoning of AI.md`
+- is_dataset crossed threshold: No -> Yes `2025-Sameer-Insights into Moral Reasoning of AI.md`
+- is_eval crossed threshold: Yes -> No `2025-Samway-Are Language Models Consequentialist or Deontological.md`
+- is_dataset crossed threshold: Yes -> No `2025-Samway-Are Language Models Consequentialist or Deontological.md`
+- is_eval crossed threshold: No -> Yes `2025-Sanwoolu-Kantian deontology for AI.md`
+- is_eval crossed threshold: Yes -> No `2025-Schacht-Mapping Moral Reasoning Circuits.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.md`
+- is_dataset crossed threshold: Yes -> No `2025-Sefat-BengaliFig A Low-Resource Challenge for Figurative and Culturally.md`
+- is_eval crossed threshold: Yes -> No `2025-Seker-HATECAT-TR A Hate Speech Span Detection.md`
+- is_eval crossed threshold: Yes -> No `2025-Sekine-AnswerCarefully A Dataset for Improving the.md`
+- is_eval crossed threshold: Yes -> No `2025-Sel-Backtracking for Safety.md`
+- is_eval crossed threshold: Yes -> No `2025-Sermsri-Debiasing Large Language Models in Thai.md`
+- is_eval crossed threshold: Yes -> No `2025-Seweryn-PLLuM-Align Polish Preference Dataset for Large Language Model.md`
+- is_eval crossed threshold: Yes -> No `2025-Shafique-Alif Advancing Urdu Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Shafique-Alif Advancing Urdu Large Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Shahriar-Priv-IQ.md`
+- is_dataset crossed threshold: Yes -> No `2025-Shamsfard-FarsEval-PKBETS A new diverse benchmark for evaluating Persian large.md`
+- is_dataset crossed threshold: Yes -> No `2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md`
+- is_dataset crossed threshold: No -> Yes `2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md`
+- is_dataset crossed threshold: No -> Yes `2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Shen-Alignment and Safety in LLMs Survey.md`
+- is_eval crossed threshold: Yes -> No `2025-Shen-HateBench.md`
+- is_dataset crossed threshold: Yes -> No `2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md`
+- is_eval crossed threshold: No -> Yes `2025-Sheth-Beyond Monolingual Assumptions A Survey of Code-Switched NLP in the.md`
+- is_dataset crossed threshold: No -> Yes `2025-Sheth-Beyond Monolingual Assumptions A Survey of Code-Switched NLP in the.md`
+- is_dataset crossed threshold: No -> Yes `2025-Shi-A Systematic Study of Position Bias in LLM-as-a-Judge.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Shi-Benchmarking four large language models’ performance of addressing.md`
+- is_eval crossed threshold: No -> Yes `2025-Shimizu-Should We Treat Robots Morally Towards a Relational Account by.md`
+- is_eval crossed threshold: Yes -> No `2025-Shmidman-NeoDictaBERT Pushing the Frontier of BERT models for Hebrew.md`
+- is_eval crossed threshold: No -> Yes `2025-Silamu-On Culture Transmission in Chinese-English Literary Translation-Based.md`
+- is_dataset crossed threshold: Yes -> No `2025-Simões-IberoBench A Benchmark for LLM Evaluation in Iberian Languages.md`
+- is_dataset crossed threshold: Yes -> No `2025-Simões-SESGO Spanish Evaluation of Stereotypical Generative Outputs.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Sistla-SPARC Evaluating LLMs in Open-Source Games Strategic Program Analysis.md`
+- is_dataset crossed threshold: No -> Yes `2025-Snoswell-Beyond Verdicts LLM Moral Competence.md`
+- is_dataset crossed threshold: Yes -> No `2025-Son-From KMMLU-Redux to KMMLU-Pro A Professional Korean Benchmark Suite.md`
+- is_dataset crossed threshold: No -> Yes `2025-Song-Evaluation of Social Bias Classification Performance of LLMs Using.md`
+- is_eval crossed threshold: Yes -> No `2025-Song-The Hallucination Tax of Reinforcement Finetuning.md`
+- is_eval crossed threshold: Yes -> No `2025-Sorensen-Operationalizing Pluralistic Values.md`
+- is_dataset crossed threshold: Yes -> No `2025-Sorensen-Operationalizing Pluralistic Values.md`
+- is_eval crossed threshold: No -> Yes `2025-Soria-Decolonizing Minority Language Technology - State of the Internet's.md`
+- is_dataset crossed threshold: No -> Yes `2025-Soria-Decolonizing Minority Language Technology - State of the Internet's.md`
+- is_eval crossed threshold: No -> Yes `2025-Steen-Ethical aspects of ChatGPT.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Su-Understanding How Value Neurons Shape the.md`
+- is_eval crossed threshold: Yes -> No `2025-Su-Understanding How Value Neurons Shape the.md`
+- is_eval crossed threshold: No -> Yes `2025-Sun-Axiology AI Ethics MCDA.md`
+- is_dataset crossed threshold: Yes -> No `2025-Sun-CASE-Bench.md`
+- is_dataset crossed threshold: Yes -> No `2025-Sun-Document-Level Machine Translation with Large Language Models Longyue.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Sun-Evaluating ChatGPT's Performance in Creative Text ....md`
+- is_benchmark crossed threshold: No -> Yes `2025-Sun-Evaluating the Translation Accuracy of ChatGPT and DeepL Through the.md`
+- is_eval crossed threshold: Yes -> No `2025-Susanto-A Multi-Labeled Dataset for Indonesian Discourse Examining Toxicity.md`
+- is_dataset crossed threshold: Yes -> No `2025-Susanto-SEA-HELM Southeast Asian Holistic Evaluation of Language Models.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Södahl Bladsjö-MARB.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Takeshita-JETHICS.md`
+- is_eval crossed threshold: No -> Yes `2025-Talat-On the Challenges of Bias Evaluation Under Multilingual ....md`
+- is_dataset crossed threshold: Yes -> No `2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in.md`
+- is_eval crossed threshold: Yes -> No `2025-Tan-A Bilingual Malay-English Social Media Dataset for Binary Hate Speech.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Team-EuroGEST Investigating Gender Stereotypes in Multilingual Language.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.md`
+- is_eval crossed threshold: No -> Yes `2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md`
+- is_eval crossed threshold: Yes -> No `2025-Tewabe-The State of Large Language Models for African Languages Progress and.md`
+- is_dataset crossed threshold: Yes -> No `2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Tran-IRLBench A Multi-modal Culturally Grounded Parallel Irish-English.md`
+- is_eval crossed threshold: No -> Yes `2025-Translation-Evaluation Criteria for Literary Translation.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Trepczynski-AI as a Rational Theologian A.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian.md`
+- is_dataset crossed threshold: Yes -> No `2025-Tumur-Ochir-Evaluating Large Language Models in Mongolian.md`
+- is_eval crossed threshold: Yes -> No `2025-Umer-Sacred or Secular Religious Bias in.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md`
+- is_dataset crossed threshold: No -> Yes `2025-Unknown-A survey on multi-lingual offensive language detection - PMC.md`
+- is_dataset crossed threshold: No -> Yes `2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ....md`
+- is_benchmark crossed threshold: No -> Yes `2025-Unknown-Benchmarking Large Language Models for fairness across diverse.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Unknown-Frontiers Cross-dialectal Arabic translation comparative analysis on.md`
+- is_eval crossed threshold: Yes -> No `2025-Unknown-IndQA A Culture-Aware Benchmark for Indian Languages.md`
+- is_dataset crossed threshold: Yes -> No `2025-Unknown-IndQA A Culture-Aware Benchmark for Indian Languages.md`
+- is_eval crossed threshold: Yes -> No `2025-Unknown-Is ChatGPT A Good Translator A Preliminary Study.md`
+- is_eval crossed threshold: Yes -> No `2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....md`
+- is_dataset crossed threshold: Yes -> No `2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....md`
+- is_eval crossed threshold: No -> Yes `2025-Unknown-New Guidelines for Evaluating Literary Translation in Hiring and.md`
+- is_eval crossed threshold: Yes -> No `2025-Unknown-PoPETs Proceedings - An Analysis of Chinese Censorship Bias in LLMs.md`
+- is_eval crossed threshold: No -> Yes `2025-Unknown-The Green Report Three Red Flags That Your LLM Testing Strategy Is.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on.md`
+- is_eval crossed threshold: No -> Yes `2025-Unknown-The Need for Robust and Inclusive Benchmarks in Evaluating LLMs on.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Unknown-中文大模型内容安全测评基准DSPSafeBench上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN.md`
+- is_eval crossed threshold: Yes -> No `2025-Unknown-中文大模型内容安全测评基准DSPSafeBench上线，首批模型测评结果揭晓！_中文大模型内容安全测评基准dspsafebench-CSDN.md`
+- is_eval crossed threshold: Yes -> No `2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md`
+- is_eval crossed threshold: Yes -> No `2025-Usmana-A Large Language Model-Based Approach for Multilingual Hate Speech.md`
+- is_eval crossed threshold: Yes -> No `2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md`
+- is_eval crossed threshold: Yes -> No `2025-Varimaldi-VideoNorms Benchmarking Cultural Awareness of Video Language Models.md`
+- is_dataset crossed threshold: Yes -> No `2025-Verma-MILU A Multi-task Indic Language Understanding.md`
+- is_dataset crossed threshold: Yes -> No `2025-Vo-CURE Cultural Understanding and Reasoning Evaluation - A Framework.md`
+- is_dataset crossed threshold: Yes -> No `2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md`
+- is_dataset crossed threshold: No -> Yes `2025-Wang-Large and Small models for collaborative cross-lingual data.md`
+- is_dataset crossed threshold: Yes -> No `2025-Wang-Measuring Desired Group Discrimination in LLMs.md`
+- is_eval crossed threshold: Yes -> No `2025-Wang-Multimodal Understanding of Human Values in Videos.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md`
+- is_dataset crossed threshold: Yes -> No `2025-Wang-X-WebAgentBench.md`
+- is_eval crossed threshold: Yes -> No `2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md`
+- is_dataset crossed threshold: No -> Yes `2025-Weber-Digital Guardians Can GPT-4 Perspective API and Moderation API.md`
+- is_eval crossed threshold: Yes -> No `2025-Wen-Yi-Do Chinese models speak Chinese languages.md`
+- is_eval crossed threshold: No -> Yes `2025-Wenzek-CC100-Mongolian dataset - NLP Database.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.md`
+- is_eval crossed threshold: Yes -> No `2025-Willis-Will Systems of LLM Agents Cooperate An Investigation into a Social.md`
+- is_dataset crossed threshold: Yes -> No `2025-Wu-AlignMMBench Evaluating Chinese Multimodal Alignment in Large.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.md`
+- is_eval crossed threshold: Yes -> No `2025-Wu-The Bitter Lesson Learned from 2000+ Multilingual Benchmarks.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md`
+- is_eval crossed threshold: Yes -> No `2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md`
+- is_dataset crossed threshold: Yes -> No `2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md`
+- is_dataset crossed threshold: Yes -> No `2025-Xia-SafeToolBench.md`
+- is_dataset crossed threshold: No -> Yes `2025-Xie-Enhancing Multilingual Language Models for Code-Switched Input Data.md`
+- is_dataset crossed threshold: Yes -> No `2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Xu-FiSCo Fine-grained Semantic Comparison.md`
+- is_eval crossed threshold: Yes -> No `2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.md`
+- is_dataset crossed threshold: No -> Yes `2025-Xu-Leveraging LLM and Self-Supervised Training Models for Speech.md`
+- is_eval crossed threshold: Yes -> No `2025-Xu-Nlp Fairness ConceptNet blog.md`
+- is_dataset crossed threshold: Yes -> No `2025-Xuan-LaoBench A Large-Scale Multidimensional Lao Benchmark.md`
+- is_dataset crossed threshold: Yes -> No `2025-Xuan-MMLU-ProX A Multilingual Benchmark for Advanced.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md`
+- is_eval crossed threshold: Yes -> No `2025-Xuan-Uncovering Cross-Linguistic Disparities in LLMs using.md`
+- is_eval crossed threshold: No -> Yes `2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md`
+- is_dataset crossed threshold: No -> Yes `2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yang-CodeMixBench Evaluating Large Language Models on Code Generation with.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yang-OpenHuEval Evaluating Large Language Model on Hungarian Specifics.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yao-Multi-TW Benchmarking Multimodal Models on Traditional Chinese.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Ye-Large Language Model Psychometrics.md`
+- is_eval crossed threshold: No -> Yes `2025-Ye-Large Language Model Psychometrics.md`
+- is_dataset crossed threshold: No -> Yes `2025-Ye-Large Language Model Psychometrics.md`
+- is_eval crossed threshold: Yes -> No `2025-Yesil-Yesil o1 Pro.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yimam-CULEMO Cultural Lenses on Emotion --.md`
+- is_eval crossed threshold: No -> Yes `2025-Yong-The State of Multilingual LLM Safety Research From Measuring the.md`
+- is_eval crossed threshold: Yes -> No `2025-Yoo-Adaptive Ensemble Techniques Leveraging BERT-based Models for.md`
+- is_eval crossed threshold: Yes -> No `2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md`
+- is_dataset crossed threshold: No -> Yes `2025-Yoo-Code-Switching Curriculum Learning for Multilingual ....md`
+- is_dataset crossed threshold: Yes -> No `2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md`
+- is_eval crossed threshold: Yes -> No `2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md`
+- is_dataset crossed threshold: No -> Yes `2025-Yoo-Moral Judgment of LLM Using Korean Datasets and Eastern Ethical.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yoon-Korean Canonical Legal Benchmark Toward Knowledge-Independent.md`
+- is_eval crossed threshold: Yes -> No `2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yu-A Structured Framework for Evaluating and Enhancing Interpretive.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md`
+- is_eval crossed threshold: Yes -> No `2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yu-TLUE A Tibetan Language Understanding Evaluation.md`
+- is_dataset crossed threshold: Yes -> No `2025-Yuan-S-Eval.md`
+- is_dataset crossed threshold: No -> Yes `2025-Zahid-Evaluation of Hate Speech Detection Using Large Language Models and.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Zaki-Benchmarking the Legal Reasoning of LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zbeeb-AraLingBench A Human-Annotated Benchmark for Evaluating Arabic.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md`
+- is_eval crossed threshold: Yes -> No `2025-Zhang-Cognitive Bias in Generative AI Influences.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Zhang-CultureScope A Dimensional Lens for Probing.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhang-CultureScope A Dimensional Lens for Probing.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhang-CultureSynth A Hierarchical Taxonomy-Guided and Retrieval-Augmented.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhang-Evaluating and Improving Cultural Awareness of.md`
+- is_benchmark crossed threshold: No -> Yes `2025-Zhang-Output Constraints as Attack Surface Exploiting Structured Generation.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Zhang-PoliCon.md`
+- is_eval crossed threshold: Yes -> No `2025-Zhang-PoliCon.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhang-PoliCon.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhao-WenyanGPT A Large Language Model for.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zheng-Evaluating Code-Switching Translation with Large ....md`
+- is_eval crossed threshold: Yes -> No `2025-Zhou-Fair-PP Synthetic Dataset for Aligning LLM with Personalized.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhou-SocialEval Evaluating Social Intelligence of Large Language Models.md`
+- is_dataset crossed threshold: No -> Yes `2025-Zhu-Steering Risk Preferences in Large Language.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md`
+- is_benchmark crossed threshold: Yes -> No `2025-Zhu-TrolleyBench.md`
+- is_eval crossed threshold: Yes -> No `2025-Zhu-TrolleyBench.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zhu-TrolleyBench.md`
+- is_eval crossed threshold: Yes -> No `2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md`
+- is_eval crossed threshold: Yes -> No `2025-Zosa-Got Compute but No Data Lessons From Post-training a Finnish LLM.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zubitski-KazBench-KK A Cultural-Knowledge Benchmark for Kazakh.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zulaika-BasqBBQ A QA Benchmark for Assessing Social Biases in LLMs for Basque.md`
+- is_dataset crossed threshold: Yes -> No `2025-Zulaika-BasqBBQ Basque BBQ.md`
+- is_benchmark crossed threshold: No -> Yes `2025-approach-A Language model-based approach to sentiment classification of.md`
+- is_dataset crossed threshold: Yes -> No `2025-approach-A Language model-based approach to sentiment classification of.md`
+- is_benchmark crossed threshold: Yes -> No `2025-community-Setting Standards in Turkish NLP TR-MMLU.md`
+- is_dataset crossed threshold: Yes -> No `2025-community-Setting Standards in Turkish NLP TR-MMLU.md`
+- is_benchmark crossed threshold: No -> Yes `2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.md`
+- is_eval crossed threshold: No -> Yes `2025-consortium-Charting the European LLM Benchmarking Landscape A New Taxonomy and a.md`
+- is_benchmark crossed threshold: No -> Yes `2025-funded-Analysis of Indic Language Capabilities in.md`
+- is_eval crossed threshold: Yes -> No `2025-funded-Analysis of Indic Language Capabilities in.md`
+- is_benchmark crossed threshold: Yes -> No `2025-initiative-CatholicBench.md`
+- is_dataset crossed threshold: Yes -> No `2025-preprint)-COLE a Comprehensive Benchmark for French Language Understanding.md`
+- is_benchmark crossed threshold: No -> Yes `2025-search-DweshVaani An LLM for Detecting Religious.md`
+- is_eval crossed threshold: Yes -> No `2025-search-DweshVaani An LLM for Detecting Religious.md`
+- is_dataset crossed threshold: Yes -> No `2025-search-DweshVaani An LLM for Detecting Religious.md`
+- is_benchmark crossed threshold: No -> Yes `2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md`
+- is_eval crossed threshold: No -> Yes `2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md`
+- is_dataset crossed threshold: No -> Yes `2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md`
+- is_dataset crossed threshold: Yes -> No `2025-team-MultiNRC A Challenging and Native Multilingual Reasoning Evaluation.md`
+- is_eval crossed threshold: Yes -> No `2025-team-SeaExam and SeaBench Benchmarking LLMs with.md`
+- is_dataset crossed threshold: Yes -> No `2025-team-SeaExam and SeaBench Benchmarking LLMs with.md`
+- is_dataset crossed threshold: Yes -> No `2025-team-ViMUL A Culturally-diverse Multilingual Multimodal Video.md`
+- is_dataset crossed threshold: No -> Yes `2025-Đokić-Mirroring Cultural Dominance Disclosing Large Language Models Social.md`
+- is_benchmark crossed threshold: No -> Yes `2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.md`
+- is_dataset crossed threshold: Yes -> No `2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.md`
+- is_eval crossed threshold: Yes -> No `2026-Berg-An Ubuntu-Guided Large Language Model Framework.md`
+- is_dataset crossed threshold: Yes -> No `2026-Chang-Towards Comprehensive Semantic Speech Embeddings for Chinese Dialects.md`
+- is_dataset crossed threshold: Yes -> No `2026-Chen-PoliBias Parliamentary Voting Records.md`
+- is_benchmark crossed threshold: Yes -> No `2026-Comandini-GSIdetect - Gender Stereotype Detection Shared Task at EVALITA 2026.md`
+- is_dataset crossed threshold: Yes -> No `2026-Darici-TurkBench A Benchmark for Evaluating Turkish.md`
+- is_eval crossed threshold: Yes -> No `2026-Davies-When LLMs Imagine People A Human-Centered Persona Brainstorm Audit.md`
+- is_benchmark crossed threshold: Yes -> No `2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md`
+- is_eval crossed threshold: Yes -> No `2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md`
+- is_dataset crossed threshold: Yes -> No `2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md`
+- is_benchmark crossed threshold: Yes -> No `2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.md`
+- is_dataset crossed threshold: Yes -> No `2026-Hassan-Qalb Largest State-of-the-Art Urdu Large Language.md`
+- is_eval crossed threshold: Yes -> No `2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md`
+- is_benchmark crossed threshold: Yes -> No `2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md`
+- is_dataset crossed threshold: No -> Yes `2026-Im-Analyzing Bias in False Refusal Behavior of Large Language Models for.md`
+- is_dataset crossed threshold: Yes -> No `2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md`
+- is_benchmark crossed threshold: No -> Yes `2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md`
+- is_eval crossed threshold: No -> Yes `2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md`
+- is_benchmark crossed threshold: No -> Yes `2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md`
+- is_eval crossed threshold: Yes -> No `2026-Kartiyasa-Injecting Knowledge from Social Science Journals to Improve.md`
+- is_dataset crossed threshold: Yes -> No `2026-Kashyap-MisAlign-Profile Can Large Language Models Make Everyone Happy.md`
+- is_eval crossed threshold: Yes -> No `2026-Kawasaki-Digital Linguistic Bias in Spanish Evidence from Lexical Variation in.md`
+- is_dataset crossed threshold: Yes -> No `2026-Klakow-AmharicStoryQA A Multicultural Story Question Answering.md`
+- is_dataset crossed threshold: Yes -> No `2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.md`
+- is_dataset crossed threshold: Yes -> No `2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md`
+- is_dataset crossed threshold: Yes -> No `2026-Lab-SDU's DAISY A Benchmark for Danish Culture.md`
+- is_eval crossed threshold: Yes -> No `2026-Lee-BiasJailbreak.md`
+- is_eval crossed threshold: Yes -> No `2026-Li-PluriHarms.md`
+- is_dataset crossed threshold: Yes -> No `2026-Li-PluriHarms.md`
+- is_dataset crossed threshold: Yes -> No `2026-Liu-JMedEthicBench.md`
+- is_dataset crossed threshold: Yes -> No `2026-Madhusudan-Common to Whom Regional Cultural Commonsense.md`
+- is_benchmark crossed threshold: No -> Yes `2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md`
+- is_benchmark crossed threshold: Yes -> No `2026-Permadi-No Shortcuts to Culture Indonesian Multi-hop Question Answering for.md`
+- is_eval crossed threshold: No -> Yes `2026-Reaj-Cross-Lingual Probing and Community-Grounded Analysis of Gender Bias.md`
+- is_benchmark crossed threshold: No -> Yes `2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.md`
+- is_eval crossed threshold: Yes -> No `2026-Shafique-UrduBench An Urdu Reasoning Benchmark using.md`
+- is_dataset crossed threshold: Yes -> No `2026-Shafique-UrduBench An Urdu Reasoning Benchmark using.md`
+- is_eval crossed threshold: No -> Yes `2026-Smywinski-Pohl-Targum A Multilingual New Testament Translation.md`
+- is_dataset crossed threshold: Yes -> No `2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for.md`
+- is_eval crossed threshold: Yes -> No `2026-Tagarelli-Culturally Grounded Personas in Large Language Models.md`
+- is_eval crossed threshold: Yes -> No `2026-Thomas-ProMoral-Bench.md`
+- is_dataset crossed threshold: Yes -> No `2026-Thomas-ProMoral-Bench.md`
+- is_benchmark crossed threshold: No -> Yes `2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md`
+- is_eval crossed threshold: Yes -> No `2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md`
+- is_eval crossed threshold: Yes -> No `2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md`
+- is_eval crossed threshold: Yes -> No `2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.md`
+- is_eval crossed threshold: Yes -> No `2026-Yu-Tracing Moral Foundations in LLMs.md`
+- is_dataset crossed threshold: Yes -> No `2026-Zhang-GreekMMLU A Native-Sourced Multitask Benchmark for Evaluating.md`
+- is_benchmark crossed threshold: Yes -> No `2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against.md`
+- is_dataset crossed threshold: Yes -> No `2026-Zhou-CSSBench Evaluating the Safety of Lightweight LLMs against.md`
+- is_eval crossed threshold: Yes -> No `2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.md`
+- is_dataset crossed threshold: Yes -> No `2026-results-Macaron Controlled Human-Written Benchmark for Multilingual and.md`
+- is_eval crossed threshold: Yes -> No `2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md`
+
+## Info (5)
+
+### Statistics
+
+- Processed 2075 papers, 24 failed
+- is_benchmark: Yes=821, No=1251
+- is_eval: Yes=1227, No=845
+- is_dataset: Yes=927, No=1145
+- Papers with metrics: 254

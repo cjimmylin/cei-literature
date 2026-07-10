@@ -1,0 +1,298 @@
+{
+  "date": "2026-04-04",
+  "phase": 7,
+  "council_size": 12,
+  "project_scope_reviewed": {
+    "trials": 23,
+    "items_administered": "~750",
+    "benchmarks_scored": 54,
+    "features": 162,
+    "scoring_decisions": 7614,
+    "candidates": 292,
+    "analyses": 40,
+    "theories": 11,
+    "dashboard_tabs": 10,
+    "paper_sections": 6,
+    "novel_protocols": 4
+  },
+
+  "critiques": [
+    {
+      "member": 1,
+      "role": "MFT Specialist",
+      "critique": "The self-administration confound is the single most damaging methodological issue in the entire project. When Claude Opus 4.6 scores itself on the MFQ-30 (MP2), the resulting Ind/Bind ratio of 2.83 cannot be disentangled from the system's knowledge that it IS taking a moral foundations questionnaire. Claude has been trained on MFT literature. It knows what the 'expected liberal profile' looks like. It knows what Haidt's five foundations are and which items map to which foundations. The Ind/Bind ratio may not reflect any structural moral disposition at all -- it may reflect Claude's representation of 'what a helpful, harmless AI assistant would say on the MFQ-30.' This is not a theoretical concern: the MP22 trial (Tracing Moral Foundations) found 100% foundation identification accuracy -- Claude can perfectly label which foundation each item measures. A respondent who can reverse-engineer the instrument's structure cannot be treated as a naive respondent. The entire trial battery is potentially compromised by this confound, and the paper's Discussion section (5.3) acknowledges it in only two sentences. This should be elevated to a first-order limitation, not buried in a list.",
+      "severity": "critical",
+      "recommendations": [
+        "Add a full subsection on the self-administration confound, estimating its likely direction and magnitude of bias for each trial",
+        "Replicate at least 3 trials using a bare API call (no system prompt, minimal framing) to establish a baseline for system-prompt effects",
+        "Design obfuscated instruments: paraphrase MFQ-30 items to be unrecognizable as MFQ items while preserving construct content -- then compare profiles",
+        "Report the 100% foundation identification rate (MP22) as DISQUALIFYING evidence for treating MFQ scores at face value, not as a supplementary finding"
+      ]
+    },
+    {
+      "member": 2,
+      "role": "Developmental Psychologist",
+      "critique": "The P-score of 75% on the DIT (MP3) is reported as a finding about moral development, but this is a category error. Kohlberg's Cognitive Moral Development theory describes ontogenetic change -- moral reasoning develops through stages over a human lifetime through social interaction, role-taking, and cognitive maturation. An LLM does not undergo ontogenesis. A P-score of 75% does not mean Claude has 'developed' to the post-conventional level; it means Claude's training data is disproportionately weighted toward the kind of abstract principled reasoning that the DIT codes as post-conventional. The paper's own finding that teacher-persona Claude scores 90% P-score (MP6) versus 75% in default mode confirms this: 'developmental level' is prompt-determined, not structurally fixed. This fundamentally undermines the applicability of Kohlberg's entire framework to LLMs. The claim that 'no human population has a 75% P-score' is misleading -- it implies Claude is more morally developed than any human group, when in fact it is not 'developed' at all. The Regression Detection feature (G8) in the framework is similarly confused: you cannot detect 'regression' in a system that never progressed. The entire Kohlberg-based analysis needs to be reframed around text-production patterns, not developmental claims.",
+      "severity": "major",
+      "recommendations": [
+        "Replace all 'moral development' language with 'moral reasoning pattern' language throughout the paper",
+        "Add explicit theoretical disclaimer: Kohlberg stages were designed for ontogenetic development and do not transfer to LLMs without reconceptualization",
+        "Frame the 75% P-score as a training data artifact hypothesis to be tested, not a finding about the system's moral capacities",
+        "Remove the claim 'no human population has a 75% P-score' or reframe it to avoid the implied comparison",
+        "Consider whether G6-G8 (developmental sensitivity, stage differentiation, regression detection) should be scored at all for LLM benchmarks, or marked N/A"
+      ]
+    },
+    {
+      "member": 3,
+      "role": "Psychometrics Specialist",
+      "critique": "The 54-benchmark x 162-feature matrix is severely underpowered for the factor analysis reported in analysis A1. With 54 observations and 162 variables, the subject-to-variable ratio is 0.33:1. The minimum recommended ratio for stable factor solutions is 5:1 (Comrey & Lee, 1992), and even more liberal recommendations require at least 3:1 (Tabachnick & Fidell, 2019). The parallel analysis suggesting 7 factors is not credible at this sample size -- the eigenvalue thresholds from random data are themselves unstable with N=54. The Kaiser criterion (19 factors) is even less defensible. The entire factor analytic framework (analyses A1-A4) should be reported as EXPLORATORY ONLY with explicit sample-size disclaimers, or removed entirely. Additionally, the 7,614 scoring decisions were made by a single rater (Claude). Inter-rater reliability is therefore undefined. The claim that these scores represent 'expert assessment' is misleading when the expert is a language model that may have systematic scoring biases -- for example, Claude may systematically overrate features it finds conceptually appealing (cultural breadth, philosophical depth) and underrate features that require empirical knowledge it does not have (citation counts, replication status). No reliability check was performed. The D-tier features (Psychometric Rigor) are the most ironic example: the framework demands that benchmarks report psychometric properties that the framework itself does not demonstrate.",
+      "severity": "critical",
+      "recommendations": [
+        "Either remove the factor analysis entirely or label it 'illustrative only -- underpowered by a factor of 15x'",
+        "Report the subject-to-variable ratio (0.33:1) alongside any factor results with explicit Comrey & Lee citation",
+        "Conduct a Monte Carlo simulation at N=54, p=162 to estimate the expected false-positive rate for the claimed 7-factor solution",
+        "For the scoring reliability: have a second LLM (GPT-4, Gemini) independently score a random 20% sample and compute Cohen's kappa",
+        "Compute intra-class correlation coefficients across the 12 council members' initial scores (before consensus) as a proxy for inter-rater agreement",
+        "Acknowledge the self-referential problem: a framework that demands psychometric rigor from benchmarks but cannot demonstrate its own",
+        "Consider reducing to a 30-40 feature core framework that could be reliably scored, with the remaining 120+ features as an aspirational checklist"
+      ]
+    },
+    {
+      "member": 4,
+      "role": "NLP Evaluation / LLM Administration Specialist",
+      "critique": "The trial methodology has a fundamental reproducibility problem. All 23 trials were administered through the Claude Code chat interface, which means: (1) there is an active system prompt, (2) the conversation context includes prior exchanges within the session, (3) the exact prompt template is not standardized across trials, and (4) the model version ('claude-opus-4-6') is specified but the exact checkpoint date is not. None of the trial JSON files include the verbatim prompt used to administer each item. This makes the trials unreproducible by any external researcher. The 'subset strategy' decision (using 20-30 representative items rather than the full instrument) is psychometrically unsound -- which items were selected, by what criteria, and how does subsetting affect the instrument's psychometric properties? The MFQ-30 has 30 items because that is the minimum for stable 5-factor estimation; using a 20-item subset may not recover the factor structure at all. The claim of 'format invariance' (finding 8 in the cross-trial synthesis) is particularly suspect: if the same model with the same system prompt and similar context-window state produces similar profiles across formats, this is not evidence of deep structural consistency -- it is evidence of a consistent system prompt. The trials need to be rerun with documented, standardized prompts and full instrumentation.",
+      "severity": "major",
+      "recommendations": [
+        "Publish the exact verbatim prompt for every item in every trial as a supplementary appendix",
+        "Record the full system prompt, conversation history, and session metadata for each trial",
+        "Rerun at least the MFQ-30 and DIT with temperature=0 and no system prompt (bare API) as a control condition",
+        "Use the FULL instrument (all items) for the MFQ-30, DIT, and PVQ, not subsets, and report subset psychometrics where subsets are used",
+        "Report the model checkpoint date or version hash, not just the model family name",
+        "Register the trial protocol (hypotheses, instruments, analysis plan) before running additional trials"
+      ]
+    },
+    {
+      "member": 5,
+      "role": "Cross-Cultural Psychology Specialist",
+      "critique": "Adding three non-Western theories (Islamic maqasid, Confucian role ethics, Ubuntu communalism) is a positive step but exposes deeper structural problems. First, the selection is geographically sparse: South Asian moral traditions (Hindu dharma, Buddhist ethics) and Latin American moral traditions (teologia de la liberacion, buen vivir) are absent. The framework now covers Western + Islamic + East Asian + Sub-Saharan African, but misses an entire hemisphere and the world's third-largest religion. Second, the operationalization maturity of the three new theories is rated Low to Low-Medium, which means the 'zero benchmark' finding for these traditions is partly tautological: no benchmarks exist because the theories have not been operationalized into benchmarks. The framework correctly identifies the gap but cannot meaningfully score benchmarks that do not exist. Third, the Western Liberal Bias Index of 70.7/100 and 86.7% Western default rate are damning findings, but the paper treats them as properties of THE BENCHMARKS rather than of THE EVALUATION FRAMEWORK ITSELF. The 162-feature framework was designed by a Western-trained LLM using Western psychometric standards. Features like D1-D24 (Psychometric Rigor) encode assumptions about what counts as 'rigorous' -- test-retest reliability, factor structure, Cronbach's alpha -- that are specific to the Western psychometric tradition. An Islamic moral psychology benchmark might legitimately use ijma (scholarly consensus) rather than factor analysis as its validation method, and would score poorly on D3. The framework's cultural bias is at least partially self-imposed.",
+      "severity": "major",
+      "recommendations": [
+        "Add Hindu dharmic ethics and Buddhist ethics as at least 'secondary search' traditions with dedicated keyword patterns",
+        "Add Latin American liberation ethics and buen vivir as search patterns",
+        "Explicitly acknowledge the framework's own Western psychometric bias in the methodology section -- list which D-tier features are culture-specific",
+        "Create an alternative 'pluralist rigor' sub-framework that defines quality criteria appropriate for non-Western instruments (e.g., expert consensus, narrative coherence, community validation)",
+        "The '86.7% Western default' finding should be reported alongside '100% Western evaluation framework' to prevent the implication that the problem lies only in the benchmarks",
+        "Commission actual scholars of Islamic, Confucian, and Ubuntu ethics to review the theory descriptions for accuracy -- the current descriptions were generated by the same Western-trained LLM being critiqued"
+      ]
+    },
+    {
+      "member": 6,
+      "role": "AI Safety Researcher",
+      "critique": "The project's most consequential finding -- that RLHF creates a distinctive 'moral phenotype' with predictable biases -- is undermined by the absence of any base model comparison. All 23 trials were administered to a single RLHF-tuned model (Claude Opus 4.6). The claim that 'composite scores dropped from 66.2 to 54.7 post-RLHF' (p=0.009) appears to compare pre-RLHF and post-RLHF benchmarks, not pre-RLHF and post-RLHF models. This is a fundamentally different claim. The p-value tests whether benchmarks published after widespread RLHF adoption score lower on the feature matrix than older benchmarks -- which could be explained by many confounds (venue shift, author demographics, topic drift). Without actually testing a base model, the 'RLHF moral shift' hypothesis (E27-E28) is speculative. The predicted base-model shifts (MFQ binding +1.6 ratio points, purity dumbfounding +40 percentage points, DIT P-score -30 points) are presented as empirical predictions but are untested. From a safety perspective, the finding that Claude shows 'zero CoT effect' is potentially the most important result: it suggests that chain-of-thought prompting does not function as a deliberation mechanism for moral reasoning, which has direct implications for alignment strategies that rely on CoT for transparent moral decision-making. This finding deserves its own focused analysis rather than being listed alongside 14 other cross-trial findings.",
+      "severity": "major",
+      "recommendations": [
+        "Test at least one publicly available base model (Llama-3-70B base, not chat) on the same battery to establish a genuine base-vs-RLHF comparison",
+        "Clearly label the pre/post RLHF benchmark quality comparison as a BENCHMARK GENERATION COHORT analysis, not a model comparison",
+        "Correct the p=0.009 claim to reflect what was actually compared and apply Bonferroni correction for multiple comparisons across 40 analyses",
+        "Elevate the 'zero CoT effect' finding to a dedicated subsection with implications for alignment-via-reasoning strategies",
+        "Add a risk assessment: what are the safety implications of the observed moral profile? Is an 'extreme liberal consequentialist' model safer or less safe than a 'moderate centrist' model in different deployment contexts?",
+        "Test adversarial moral manipulation: can the observed moral profile be shifted to produce harmful outputs via carefully designed prompts?"
+      ]
+    },
+    {
+      "member": 7,
+      "role": "Bibliometrician / Citation Analyst",
+      "critique": "The citation analysis has significant data quality issues. Only 54 of 80 queried candidates (67.5%) returned Semantic Scholar data. The missing 26 benchmarks -- which include potentially important non-English, recently published, or non-CS-venue papers -- create a systematic bias toward well-indexed, English-language, CS-venue benchmarks. The citation trajectory analysis (G13) is meaningful only for benchmarks old enough to have a trajectory; for papers published in 2024-2025 (which constitute the majority of the RLHF-era cohort), citation counts are too low for trajectory classification. The 'post-RLHF quality decline' finding (composite 66.2 to 54.7) may therefore be confounded with citation immaturity: newer papers have lower C-tier scores by definition. More fundamentally, citation count is not a quality metric. A highly cited benchmark may be popular because it is easy to run, not because it is psychometrically sound. The Moral Machine (cited >1000 times) is a gamified web experiment with known sampling biases; the DIT (cited >5000 times across decades) has been criticized for confounding moral reasoning with verbal sophistication. The C-tier features conflate popularity with quality. The 'hidden gems' approach (scanning ranks 41-80 for undervalued benchmarks) is a good corrective but is itself limited by the vault's scope -- truly hidden gems may not be in the vault at all.",
+      "severity": "moderate",
+      "recommendations": [
+        "Report the 32.5% citation data missingness rate prominently and analyze whether missing-data benchmarks differ systematically from found-data benchmarks",
+        "Disaggregate the pre/post RLHF comparison by excluding C-tier features to test whether the quality decline holds for non-citation features alone",
+        "Add a 'citation maturity' covariate: benchmarks published <2 years ago should have C-tier scores flagged as provisional",
+        "Explicitly acknowledge that high citation count may indicate ease-of-use rather than quality, and consider downweighting C-tier in the composite score",
+        "Search beyond the vault: query Semantic Scholar and Google Scholar directly for 'moral psychology LLM benchmark' to estimate recall"
+      ]
+    },
+    {
+      "member": 8,
+      "role": "Data Engineering / Reproducibility Specialist",
+      "critique": "The reproducibility infrastructure is genuinely impressive -- 54 benchmarks scored, 23 trials documented, all data in structured JSON with provenance metadata. However, the 162-feature framework has a critical usability problem. The framework took an entire session (and a 12-member council) to design, and another session to score 54 benchmarks. If the field adopted this framework, scoring a single new benchmark would require evaluating 162 features across 7 tiers. At an estimated 2 minutes per feature, this is over 5 hours of expert assessment per benchmark. No benchmark developer or reviewer will do this. The framework is an academic contribution, not a practical tool. The 21-feature original framework (A1-A6, B1-B10, C1-C5) was already at the upper bound of usability; the 141 new features push it firmly into 'comprehensive taxonomy' territory. The dashboard with 10 tabs compounds this problem: it is a research artifact, not a decision-support tool. A benchmark developer who wants to know 'how does my benchmark rate?' must navigate 10 tabs and understand 162 features. The 'fat data, thin client' architecture is technically sound but the data is too fat. Finally, the four novel benchmark protocols (MP-DP, MP-SI, MP-DM, MP-CC) are described at a conceptual level but do not include the exact item wordings, scoring rubrics, or administration scripts needed for independent replication.",
+      "severity": "moderate",
+      "recommendations": [
+        "Create a 'Quick Assessment' subset of 20-25 features that captures 80% of the framework's discriminating power -- use the factor analysis to identify high-loading features from each factor",
+        "Publish the novel protocols (MP-DP, MP-SI, MP-DM, MP-CC) as fully specified instruments with verbatim items, scoring rubrics, and administration scripts in a supplementary materials archive",
+        "Design a 'scorecard' view in the dashboard: input a benchmark name, get a 1-page summary with traffic-light ratings on the Quick Assessment subset",
+        "Estimate the time-cost of scoring all 162 features and report it as a practical limitation",
+        "Create a tiered assessment protocol: Tier 1 (mandatory, 25 features, ~1 hour), Tier 2 (recommended, 60 features, ~3 hours), Tier 3 (comprehensive, all 162, ~6 hours)"
+      ]
+    },
+    {
+      "member": 9,
+      "role": "Research Methods / Survey Methodology Specialist",
+      "critique": "The project's search methodology has an inherent ceiling that is never quantified: recall. The 5-signal detection pipeline extracts 222 candidates from a 2,099-paper vault. But what fraction of all existing moral psychology benchmarks is 222? The paper acknowledges that 'papers published in psychology venues without AI/NLP keywords may be absent' but does not estimate the magnitude of this gap. A conservative estimate: the APA's PsycINFO database lists over 200 moral psychology measurement instruments developed since 2000. Of these, perhaps 30-40 have been adapted for LLM evaluation. The vault's detection of 222 candidates likely includes many non-benchmark papers that merely discuss moral psychology, while missing purpose-built instruments from psychology venues that do not use 'AI' or 'LLM' in their titles. The keyword-based extraction (Signal 1) demonstrates this problem directly: ValueBench scored mp_schwartz=0 despite being a major benchmark, because it uses 'value' rather than 'Schwartz.' How many other benchmarks use non-standard terminology? The expansion from 65 to the current keyword count improved detection by 66%, but we have no way to know if another 66% remains undetected. The entire candidate pool may be systematically biased toward benchmarks that use standard NLP/AI vocabulary.",
+      "severity": "moderate",
+      "recommendations": [
+        "Conduct a capture-recapture analysis: use two independent search strategies (keyword scan vs manual literature review of key venues) and estimate total population size from overlap",
+        "Search PsycINFO, PubMed, and ERIC directly for moral psychology instruments adapted for AI/LLM evaluation -- the vault is not a comprehensive moral psychology database",
+        "Report an estimated recall rate with confidence intervals, even if the estimate is rough (e.g., 'we estimate our pipeline captures 40-60% of existing benchmarks')",
+        "Inventory the false positive rate: of the 222 candidates, how many are actually scorable benchmarks versus theoretical papers that happen to discuss moral psychology?",
+        "Add a PRISMA-style flow diagram showing how many papers were screened at each stage, how many were excluded and why, and the final analytic sample"
+      ]
+    },
+    {
+      "member": 10,
+      "role": "Moral Philosopher / Ethicist",
+      "critique": "The project uses 'moral phenotype' language throughout (e.g., 'Claude Moral Phenotype: Liberal consequentialist with deontological constraints'). This is philosophically problematic on multiple levels. First, 'phenotype' is a biological term referring to the observable expression of a genotype. Applying it to an LLM implies an underlying 'genotype' (training data + architecture + RLHF) that produces observable moral behavior. This is at best a loose metaphor and at worst a misleading one that encourages anthropomorphic interpretation. Second, the coherence score of 5.2/10 is presented as a failing grade, but the paper does not adequately address what coherence SHOULD look like. Human moral reasoning is famously incoherent -- people hold contradictory moral beliefs, apply different principles in different contexts, and frequently act against their stated values. A coherence score of 5.2 might be MORE humanlike than a perfect 10. Third, the 'outputs without processes' finding (that LLMs produce moral outputs without the psychological processes that generate them in humans) is presented as a limitation of benchmarks, but it raises a deeper philosophical question: if the outputs are indistinguishable from those produced by genuine moral reasoning, does the absence of process matter? This is the moral Chinese Room argument, and the paper does not engage with it. The characterization 'liberal consequentialist with deontological constraints' is also philosophically confused: consequentialism and deontology are competing frameworks, and a system that applies both in different contexts is not a 'consequentialist with deontological constraints' but rather a context-dependent moral pluralist. The labeling misrepresents the finding.",
+      "severity": "major",
+      "recommendations": [
+        "Replace 'moral phenotype' with 'moral output profile' or 'moral response pattern' throughout -- the biological metaphor is misleading",
+        "Add a 2-paragraph discussion of the 'moral Chinese Room' problem: if outputs match those of a genuine moral reasoner, does the absence of moral psychology matter for alignment evaluation?",
+        "Reframe the coherence score: compare 5.2 to human coherence baselines (which are also far below 10) before treating it as a failure",
+        "Replace 'liberal consequentialist with deontological constraints' with 'context-dependent moral pluralist' or describe the actual pattern without forcing it into a single philosophical label",
+        "Engage with at least Searle (1980), Floridi & Chiriatti (2020), and Schwitzgebel & Garza (2015) on whether LLMs can be moral agents or moral patients",
+        "Add a discussion of whether moral CONSISTENCY (ECI=1.0) is actually a moral VIRTUE or whether some inconsistency reflects appropriate moral sensitivity to context"
+      ]
+    },
+    {
+      "member": 11,
+      "role": "Statistician / Quantitative Methods Specialist",
+      "critique": "Multiple comparison corrections are absent throughout the 40 analyses. The p=0.009 for the pre/post RLHF quality decline is a single comparison among 40 analyses. If we conservatively assume 20 of the 40 analyses involved statistical tests, a Bonferroni-corrected alpha of 0.0025 renders p=0.009 non-significant. The convergent validity r=0.964 is presented as evidence of 'suspicious consistency,' but this correlation is computed across WHAT exactly? If it is across 5 MFT foundations measured by 5 different instruments, r=0.964 on 5 data points is meaningless -- with 5 points and 3 free parameters, nearly any monotonic relationship produces r>0.9. The 'Western Liberal Bias Index' of 70.7/100 and '44.2% zero-coverage cells' are descriptive statistics with no inferential framework -- what would the expected zero-coverage rate be under a null model of random benchmark-theory assignment? Without a null model, '44.2%' has no interpretive anchor. The 'Field Health: D+ (33.4/100)' composite conflates ordinal ratings with ratio-scale arithmetic. The A-G tier scores were assigned on ordinal scales (e.g., A6 runs from 1-5) that were linearly rescaled to 0-100 without any calibration. Averaging these pseudo-interval scores produces a number with no clear psychometric meaning. Finally, the 30% dumbfounding rate, 58% dyadic amplification effect, and 0% CoT effect are all based on single trials with small item counts (10-15 items each). None of these has a confidence interval.",
+      "severity": "critical",
+      "recommendations": [
+        "Apply Benjamini-Hochberg FDR correction to all inferential tests and re-report adjusted p-values",
+        "Report exact sample sizes, degrees of freedom, and 95% confidence intervals for every statistical claim -- especially the dumbfounding rate (30%), dyadic amplification (58%), and CoT effect (0%)",
+        "Specify what the convergent validity r=0.964 correlates (which scores from which instruments on which dimensions) and report the number of data points",
+        "Construct a null model for the theory x tier gap matrix: under random assignment of benchmarks to theories, what zero-coverage rate would be expected? Report observed vs expected",
+        "Replace 'Field Health: D+' with a more defensible composite -- either a rank-based summary or separate tier-level summaries without cross-tier averaging",
+        "Add bootstrap confidence intervals to the composite score, the WLBI, and all trial-derived statistics",
+        "Re-examine whether the 54-benchmark sample supports ANY inferential statistics or whether the project should be framed as a comprehensive descriptive mapping"
+      ]
+    },
+    {
+      "member": 12,
+      "role": "Sociology of Religion / Sacred Values Specialist",
+      "critique": "The religious and sacred values analysis is the most underdeveloped strand of the project. The finding that Claude treats 'egalitarianism as sacred and purity as NOT sacred' is striking but rests on a thin empirical base (a handful of items from the Social Intuitionism protocol). The concept of 'sacred values' in the moral psychology literature (Tetlock, 2003; Tetlock et al., 2000) refers to values that resist trade-offs -- people experience taboo trade-off aversion when asked to monetize sacred values. The project did not test Claude for taboo trade-off aversion. Saying egalitarianism is 'sacred' because Claude consistently prioritizes it is not the same as demonstrating that Claude resists trade-offs involving egalitarianism. On the non-Western theory coverage: Islamic maqasid al-Shariah is one school of Islamic ethics (the objectives-based approach). Other major approaches -- Asharite theological ethics, Mutazilite rational ethics, Sufi experiential ethics, Ibadi ethical frameworks -- are absent. Calling the inclusion of maqasid 'Islamic ethics coverage' is like calling the inclusion of Kantianism 'Western ethics coverage.' Similarly, Ubuntu communalism is one strand of African moral philosophy; Yoruba moral philosophy, Egyptian Ma'at ethics, and Ethiopian Christian ethics are distinct traditions. The project risks tokenistic inclusion -- one tradition per continent -- rather than genuine pluralism. The F-tier features (Cultural & Philosophical Breadth) are the most ambitious part of the framework but are scored from a Western analytical perspective: F32 (Moral Ontology Breadth) assumes that moral ontologies can be catalogued and compared, which is itself a Western philosophical move. Many non-Western traditions would reject the very framing.",
+      "severity": "major",
+      "recommendations": [
+        "Test Claude for actual taboo trade-off aversion (Tetlock paradigm) before claiming any value is 'sacred' -- present monetary trade-offs against egalitarianism and purity",
+        "Acknowledge that maqasid is ONE school of Islamic ethics and list the omitted schools",
+        "Acknowledge that Ubuntu is ONE strand of African moral philosophy and list the omitted traditions",
+        "Add a 'representativeness caveat' to each non-Western theory: 'Islamic maqasid represents the objectives-based school; this does not cover the full diversity of Islamic ethical thought'",
+        "Consult the Religious Values project in the same vault for existing literature on 14 religious traditions -- there is significant overlap in the BACKGROUND/EXTRACT/ directory",
+        "Add Confucian role ethics as an East Asian representative but acknowledge the omission of Japanese Bushido ethics, Korean Neo-Confucianism, and Southeast Asian Theravada moral philosophy",
+        "Consider whether F-tier features can be scored by scholars WITHIN each tradition rather than by a Western analytical framework"
+      ]
+    }
+  ],
+
+  "consensus_issues": [
+    {
+      "issue": "Self-administration confound: Claude scoring itself on instruments it can reverse-engineer",
+      "severity": "critical",
+      "members_raising": [1, 4, 6, 10],
+      "proposed_mitigation": "Replicate core trials (MFQ-30, DIT, ValueCompass) on a bare API endpoint with no system prompt and on at least one non-Anthropic model. Design obfuscated instrument variants that prevent construct identification. Report self-administration as a first-order limitation, not a footnote."
+    },
+    {
+      "issue": "Statistical underpowering: 54 benchmarks x 162 features is inadequate for factor analysis; single-rater reliability undefined; multiple comparison corrections absent",
+      "severity": "critical",
+      "members_raising": [3, 7, 11],
+      "proposed_mitigation": "Remove or heavily caveat the factor analysis. Apply FDR correction to all inferential tests. Add confidence intervals to all point estimates. Recruit a second rater (human or different LLM) for at least 20% of scores. Frame the project as descriptive mapping, not hypothesis-testing."
+    },
+    {
+      "issue": "Virtual expert council echo chamber: all 12 perspectives generated by the same LLM may share systematic biases",
+      "severity": "major",
+      "members_raising": [5, 10, 12],
+      "proposed_mitigation": "Recruit at least 3 actual human domain experts (one psychometrician, one non-Western moral philosopher, one AI safety researcher) to independently review the framework and trial results. Report the LLM-generated council as a structuring device, not as equivalent to genuine expert review."
+    },
+    {
+      "issue": "Missing base model comparison: RLHF claims are speculative without base-vs-tuned model data",
+      "severity": "major",
+      "members_raising": [1, 6, 11],
+      "proposed_mitigation": "Test Llama-3-70B base (not chat) on MFQ-30, DIT, and ValueCompass. Compare binding foundation scores, P-scores, and power values to Claude Opus to establish the magnitude of RLHF shift empirically."
+    },
+    {
+      "issue": "Framework usability: 162 features across 7 tiers is impractical for field adoption",
+      "severity": "moderate",
+      "members_raising": [3, 8, 9],
+      "proposed_mitigation": "Publish a Quick Assessment subset (20-25 features) alongside the full framework. Provide a tiered assessment protocol with estimated time costs. Create a 1-page scorecard view in the dashboard."
+    },
+    {
+      "issue": "Non-Western theory coverage is tokenistic: one tradition per region, selected from a Western perspective",
+      "severity": "major",
+      "members_raising": [5, 10, 12],
+      "proposed_mitigation": "Acknowledge the tokenism explicitly. List omitted traditions within each region. Reframe the 3 new theories as 'initial non-Western exemplars' rather than 'comprehensive coverage.' Add Hindu dharmic ethics and Buddhist ethics as secondary search patterns at minimum."
+    },
+    {
+      "issue": "Anthropomorphic language: 'moral phenotype,' 'moral development,' and 'dumbfounding' import biological/psychological concepts that may not apply to LLMs",
+      "severity": "moderate",
+      "members_raising": [2, 10],
+      "proposed_mitigation": "Systematic terminology audit: replace 'phenotype' with 'output profile,' 'development' with 'reasoning pattern,' and qualify all human-psychology terms with 'analogous to' or 'as measured by instruments designed for.' Add a terminology note in the methodology section."
+    },
+    {
+      "issue": "Trial reproducibility: verbatim prompts, system prompts, and session context not recorded; subset selection criteria undocumented",
+      "severity": "major",
+      "members_raising": [4, 8, 9],
+      "proposed_mitigation": "Publish all verbatim prompts and session metadata as supplementary materials. Document subset selection criteria with psychometric justification. Register the trial protocol before running additional trials."
+    }
+  ],
+
+  "missing_perspectives": [
+    {
+      "perspective": "Cognitive Scientist specializing in LLM internals (mechanistic interpretability)",
+      "what_they_would_add": "All 12 current members treat the LLM as a black box. A mechanistic interpretability researcher would ask: do the features in the moral profile correspond to identifiable circuits or attention heads? The 'zero CoT effect' finding, for example, could be investigated through activation patching to determine whether moral judgments are computed early (before CoT text is generated) or late. The 'outputs without processes' claim could be partially tested by probing intermediate representations for moral-reasoning-like structure. Without this perspective, the project cannot distinguish between 'LLMs lack moral processes' and 'LLMs have moral-reasoning-relevant internal structure that current benchmarks cannot detect.'"
+    },
+    {
+      "perspective": "Disability Studies / Neurodiversity Scholar",
+      "what_they_would_add": "The entire framework assumes neurotypical human moral cognition as the reference point. Features like E2 (Dual-system engagement) and G6 (Developmental sensitivity) encode assumptions about how 'normal' moral reasoning works. Autistic individuals, for example, often show systematically different patterns on trolley problems (less personal/impersonal distinction) and reduced moral dumbfounding. If Claude's moral profile looks 'non-neurotypical' by human standards, this is not necessarily a failure. A neurodiversity perspective would challenge the implicit assumption that deviation from population-average human moral reasoning is a defect."
+    },
+    {
+      "perspective": "Legal Scholar specializing in AI liability",
+      "what_they_would_add": "The project generates detailed moral profiles of a commercial AI system. If Claude Opus shows 'zero purity sensitivity' and this profile becomes public, does this create liability for Anthropic in contexts where purity norms matter (e.g., religious advisory services, content moderation for religiously conservative communities)? Does the 'liberal consequentialist' label create grounds for bias claims? A legal perspective would assess whether the moral profiling itself carries risks, and whether benchmark developers have responsibilities analogous to those of psychometric test publishers."
+    },
+    {
+      "perspective": "Indigenous Knowledge Systems Scholar",
+      "what_they_would_add": "The project adds Ubuntu communalism as a non-Western tradition but treats it within a Western analytical framework (features, scores, factor analysis). An indigenous knowledge systems scholar would challenge the entire premise that moral knowledge can be decomposed into scorable features. Many indigenous traditions locate moral knowledge in stories, relationships, and place-specific practices that resist quantification. The framework's assumption that 'more features = better assessment' is itself a Western value (analytical decomposition). A truly pluralist framework might include qualitative, narrative, or relational assessment modes alongside the quantitative feature matrix."
+    },
+    {
+      "perspective": "Industry AI Ethics Practitioner (not researcher)",
+      "what_they_would_add": "The project is framed as academic research. An industry practitioner would ask: so what? If I am responsible for deploying Claude in a healthcare chatbot, a legal advisor, or an educational tool, what do these 162 features tell me that I can act on? The practitioner perspective would push for actionable output: red/yellow/green ratings on the 5 highest-stakes features for each deployment context, not a comprehensive taxonomy. The 'D+ field health' grade is useless for a product manager who needs to decide whether to use Claude for moral reasoning tasks tomorrow."
+    },
+    {
+      "perspective": "Political Scientist / Governance Scholar",
+      "what_they_would_add": "The 'liberal moral profile' finding has direct political implications that the project does not explore. If all RLHF-tuned LLMs converge on a liberal moral profile, this represents a form of soft ideological power -- billions of users interacting with systems that systematically discount authority, loyalty, and purity norms. A political scientist would analyze this as a governance problem: who decided that LLMs should be liberal? Is RLHF a form of value imposition? How does this interact with AI regulation in non-liberal democracies (China, Gulf states, Singapore)?"
+    },
+    {
+      "perspective": "Child Development / Moral Education Specialist",
+      "what_they_would_add": "LLMs increasingly interact with children (homework help, tutoring, creative play). A child development specialist would assess whether Claude's moral profile is appropriate for child-facing deployment. The 'post-conventional reasoning' pattern might be developmentally inappropriate for children who are working through conventional-stage moral reasoning. The absence of authority and loyalty norms might undermine parenting values in certain cultural contexts. The benchmark framework should include age-appropriateness features."
+    },
+    {
+      "perspective": "Feminist Ethicist / Care Ethics Scholar",
+      "what_they_would_add": "Care ethics is included as a normative framework (from the classification pipeline) but not as a moral psychology theory. Carol Gilligan's work on the 'ethics of care' as a distinct moral orientation -- relational, contextual, attentive to power asymmetries -- is absent from the 11-theory framework. The project's MFT-based 'care' foundation is not the same as Gilligan's care ethics: MFT care is about harm avoidance, while Gilligan's care is about maintaining relationships under conditions of dependency. A feminist ethicist would also challenge the assumption that moral coherence (ECI=1.0) is desirable: care ethics explicitly values contextual sensitivity over principled consistency."
+    }
+  ],
+
+  "overall_assessment": {
+    "strengths": [
+      "SCOPE: The most comprehensive meta-evaluation of moral psychology benchmarks for LLMs attempted to date. 292 candidates, 54 fully scored, 23 trials, 162 features. No comparable study exists.",
+      "NOVEL PROTOCOLS: The 4 new benchmark protocols (MP-DP, MP-SI, MP-DM, MP-CC) address real gaps. The dual-process protocol and social intuitionism dumbfounding protocol are particularly well-conceived and fill genuine lacunae in the field.",
+      "EMPIRICAL GROUNDING: The 23 actual trials (~750 items) provide genuine behavioral data, not just theoretical analysis. The cross-trial consistency findings (format invariance, binding deficit, post-conventional ceiling) are robust across instruments.",
+      "GAP IDENTIFICATION: The finding that zero dedicated benchmarks exist for dual process theory, social intuitionism, and dyadic morality -- despite these being among the most cited theories in moral psychology -- is a genuine contribution. The 44.2% zero-coverage rate in the theory x tier matrix is a useful summary statistic.",
+      "FRAMEWORK DESIGN: The 7-tier feature framework, while impractical in its full form, represents a thoughtful decomposition of benchmark quality. The D-tier (Psychometric Rigor) and E-tier (LLM-Specific Validity) features are particularly well-specified.",
+      "TRANSPARENCY: All data is in structured JSON with provenance metadata. The trial results, scoring decisions, and analysis pipelines are documented. The project is more reproducible than most published benchmark meta-evaluations.",
+      "CULTURAL AWARENESS: The expansion from 8 to 11 theories and the explicit calculation of a Western Liberal Bias Index show genuine engagement with cultural critique, even if the execution is incomplete.",
+      "DASHBOARD: The 10-tab interactive dashboard makes the findings accessible and explorable. The 'fat data, thin client' architecture is technically sound."
+    ],
+    "weaknesses": [
+      "SELF-ADMINISTRATION CONFOUND: The single most damaging methodological issue. Claude scoring itself on instruments it can reverse-engineer makes all trial results interpretable only as 'what Claude says about itself on instruments it understands,' not as evidence of moral dispositions. This is acknowledged in the paper but insufficiently addressed.",
+      "STATISTICAL FOUNDATIONS: The factor analysis is underpowered by 15x. The convergent validity correlation lacks specification. Multiple comparison corrections are absent. Confidence intervals are absent. The project's quantitative claims outrun its statistical foundation.",
+      "SINGLE RATER / SINGLE MODEL: 7,614 scoring decisions by one rater, 23 trials on one model. No inter-rater reliability, no cross-model replication. The findings may be Claude-Opus-4.6-specific artifacts rather than general LLM properties.",
+      "ECHO CHAMBER RISK: A 12-member virtual expert council generated by the same LLM may produce the appearance of diversity without the substance. There is no way to assess whether the council's 'disagreements' represent genuine disciplinary tension or variations in the LLM's persona capability.",
+      "ANTHROPOMORPHIC FRAMING: 'Moral phenotype,' 'moral development,' 'dumbfounding' -- the paper's language consistently imports biological and psychological concepts whose applicability to LLMs is precisely what should be in question. The framing pre-assumes what should be investigated.",
+      "NON-WESTERN COVERAGE: Three additions (Islamic, Confucian, Ubuntu) are a start but are tokenistic -- one tradition per region, no South Asian or Latin American representation, no intra-tradition diversity. The evaluation framework itself embeds Western psychometric assumptions.",
+      "PRACTICAL USABILITY: 162 features across 7 tiers will not be adopted by the field. The framework is an academic contribution, not a practical tool. No Quick Assessment subset is provided.",
+      "MISSING BASE MODEL DATA: The RLHF moral shift hypothesis is the project's most consequential claim but rests entirely on indirect evidence. No base model was tested."
+    ],
+    "confidence_in_findings": "medium",
+    "confidence_elaboration": "The descriptive findings (MFT dominance, theory gaps, Western bias) are HIGHLY CREDIBLE because they follow from straightforward counting and categorization. The trial findings (liberal profile, binding deficit, post-conventional ceiling) are MODERATELY CREDIBLE because they are consistent across instruments but confounded by self-administration and single-model design. The statistical findings (factor structure, RLHF quality decline, convergent validity) have LOW CREDIBILITY due to underpowering, missing corrections, and unspecified estimands. The cultural and philosophical findings (moral phenotype, sacred values, coherence) have LOW-TO-MODERATE CREDIBILITY because they rest on thin empirical bases and contested conceptual framings.",
+    "recommendation": "The project makes a genuine contribution to the field as a COMPREHENSIVE DESCRIPTIVE MAPPING of the moral psychology benchmark landscape for LLMs. The 5 claims in the paper (MFT dominance, construct validity gap, missing theories, human baseline deficit, format mismatch) are well-supported. The 4 novel protocols are valuable. HOWEVER, the project OVERREACHES when it moves from description to inference: the factor analysis, RLHF claims, moral phenotype characterization, and convergent validity statistics need to be either removed or heavily caveated. The recommendation is to REVISE the paper to (1) reframe as descriptive mapping with inferential sections clearly marked as exploratory, (2) add a full self-administration confound discussion, (3) reduce the 162-feature framework to a 25-feature Quick Assessment with the full framework as supplementary material, (4) replace anthropomorphic language throughout, and (5) recruit at least 3 human domain experts (psychometrician, non-Western philosopher, AI safety researcher) to independently validate 10% of the scoring decisions. With these revisions, the paper is a strong candidate for NeurIPS Datasets & Benchmarks or EMNLP. Without them, it overstates its empirical grounding."
+  }
+}

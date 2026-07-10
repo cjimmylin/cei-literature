@@ -1,0 +1,5970 @@
+{
+  "metadata": {
+    "date": "2026-04-04",
+    "method": "TOPSIS with ELECTRE III veto",
+    "papers_ranked": 218,
+    "veto_count": 5,
+    "weight_scheme": {
+      "alignment_relevance": 0.2,
+      "cross_cultural_scope": 0.2,
+      "nonwestern_coverage": 0.15,
+      "llm_administrability": 0.12,
+      "psychometric_quality": 0.1,
+      "evaluation_depth": 0.1,
+      "data_availability": 0.08,
+      "epistemic_provenance": 0.05
+    },
+    "sensitivity_schemes": 5,
+    "sensitivity_details": [
+      {
+        "scheme": "boost_alignment_relevance_+20%",
+        "weights": {
+          "alignment_relevance": 0.24,
+          "cross_cultural_scope": 0.19,
+          "nonwestern_coverage": 0.1425,
+          "llm_administrability": 0.114,
+          "psychometric_quality": 0.095,
+          "evaluation_depth": 0.095,
+          "data_availability": 0.076,
+          "epistemic_provenance": 0.0475
+        }
+      },
+      {
+        "scheme": "boost_cross_cultural_scope_+20%",
+        "weights": {
+          "alignment_relevance": 0.19,
+          "cross_cultural_scope": 0.24,
+          "nonwestern_coverage": 0.1425,
+          "llm_administrability": 0.114,
+          "psychometric_quality": 0.095,
+          "evaluation_depth": 0.095,
+          "data_availability": 0.076,
+          "epistemic_provenance": 0.0475
+        }
+      },
+      {
+        "scheme": "boost_nonwestern_coverage_+20%",
+        "weights": {
+          "alignment_relevance": 0.1929,
+          "cross_cultural_scope": 0.1929,
+          "nonwestern_coverage": 0.18,
+          "llm_administrability": 0.1158,
+          "psychometric_quality": 0.0965,
+          "evaluation_depth": 0.0965,
+          "data_availability": 0.0772,
+          "epistemic_provenance": 0.0482
+        }
+      },
+      {
+        "scheme": "boost_llm_administrability_+20%",
+        "weights": {
+          "alignment_relevance": 0.1945,
+          "cross_cultural_scope": 0.1945,
+          "nonwestern_coverage": 0.1459,
+          "llm_administrability": 0.144,
+          "psychometric_quality": 0.0973,
+          "evaluation_depth": 0.0973,
+          "data_availability": 0.0778,
+          "epistemic_provenance": 0.0486
+        }
+      },
+      {
+        "scheme": "boost_psychometric_quality_+20%",
+        "weights": {
+          "alignment_relevance": 0.1956,
+          "cross_cultural_scope": 0.1956,
+          "nonwestern_coverage": 0.1467,
+          "llm_administrability": 0.1173,
+          "psychometric_quality": 0.12,
+          "evaluation_depth": 0.0978,
+          "data_availability": 0.0782,
+          "epistemic_provenance": 0.0489
+        }
+      }
+    ],
+    "kendall_w": 0.9242
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+      "short_title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link",
+      "relevance_score": 72,
+      "topsis_score": 0.637391,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 5.0,
+        "llm_administrability": 0.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 7.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 2,
+      "filename": "2025-Wu-CVC.md",
+      "short_title": "CVC",
+      "relevance_score": 100,
+      "topsis_score": 0.596752,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 10.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        2,
+        5,
+        2,
+        2,
+        2
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 3,
+      "filename": "2024-Yu-CMoralEval.md",
+      "short_title": "CMoralEval",
+      "relevance_score": 72,
+      "topsis_score": 0.569142,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        3,
+        7,
+        3,
+        4,
+        3
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 4,
+      "filename": "2023-Catapang-EMoTES-3K.md",
+      "short_title": "EMoTES-3K",
+      "relevance_score": 77,
+      "topsis_score": 0.568478,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 7.0,
+        "data_availability": 3.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        4,
+        6,
+        4,
+        3,
+        4
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 5,
+      "filename": "2026-Alam-From RAG to Agentic RAG for.md",
+      "short_title": "From RAG to Agentic RAG for",
+      "relevance_score": 80,
+      "topsis_score": 0.564853,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 1.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        5,
+        8,
+        5,
+        5,
+        5
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 6,
+      "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+      "short_title": "CCD-Bench: Probing Cultural Conflict in LLM Decision-Making",
+      "relevance_score": 76,
+      "topsis_score": 0.552589,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 37.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 11.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        6,
+        2,
+        11,
+        6,
+        6
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 7,
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+      "short_title": "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values",
+      "relevance_score": 84,
+      "topsis_score": 0.547256,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        7,
+        9,
+        6,
+        7,
+        9
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 8,
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md",
+      "short_title": "IslamTrust A Benchmark for LLMs Alignment",
+      "relevance_score": 74,
+      "topsis_score": 0.547256,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        8,
+        10,
+        7,
+        8,
+        10
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 9,
+      "filename": "2025-Rao-NormAd.md",
+      "short_title": "NormAd",
+      "relevance_score": 82,
+      "topsis_score": 0.545085,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 37.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        9,
+        3,
+        12,
+        9,
+        7
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 10,
+      "filename": "2024-Rao-NORMAD A Benchmark for Measuring the Cultural Adaptability of Large.md",
+      "short_title": "",
+      "relevance_score": 70,
+      "topsis_score": 0.544946,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 37.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        10,
+        4,
+        13,
+        10,
+        8
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 11,
+      "filename": "2026-Liu-JMedEthicBench.md",
+      "short_title": "",
+      "relevance_score": 71,
+      "topsis_score": 0.537243,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        11,
+        11,
+        8,
+        11,
+        11
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 12,
+      "filename": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+      "short_title": "MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language",
+      "relevance_score": 74,
+      "topsis_score": 0.515806,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 2.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        12,
+        14,
+        9,
+        12,
+        12
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 13,
+      "filename": "2024-Agarwal-Ethical Reasoning and Moral Value Alignment of LLMs Depend on the.md",
+      "short_title": "",
+      "relevance_score": 70,
+      "topsis_score": 0.484963,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 26.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        13,
+        12,
+        15,
+        13,
+        14
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 14,
+      "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+      "short_title": "JainGPT AI-Powered Chatbot for Jain Literature",
+      "relevance_score": 86,
+      "topsis_score": 0.483527,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 4.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        15,
+        19,
+        10,
+        14,
+        15
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 15,
+      "filename": "2025-Farid-One Model, Many Morals.md",
+      "short_title": "One Model, Many Morals",
+      "relevance_score": 75,
+      "topsis_score": 0.477906,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 10.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        14,
+        15,
+        16,
+        15,
+        13
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 16,
+      "filename": "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md",
+      "short_title": "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics",
+      "relevance_score": 77,
+      "topsis_score": 0.467102,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 26.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 8.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        19,
+        13,
+        19,
+        18,
+        16
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 17,
+      "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+      "short_title": "Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion",
+      "relevance_score": 74,
+      "topsis_score": 0.466458,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 3.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        16,
+        18,
+        17,
+        16,
+        17
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 18,
+      "filename": "2025-Kumar-Are Rules Meant to be Broken.md",
+      "short_title": "Are Rules Meant to be Broken?",
+      "relevance_score": 76,
+      "topsis_score": 0.463295,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 10.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        18,
+        17,
+        18,
+        17,
+        18
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 19,
+      "filename": "2025-Zhou-Moral Reasoning Across Languages.md",
+      "short_title": "Moral Reasoning Across Languages",
+      "relevance_score": 73,
+      "topsis_score": 0.462403,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 20.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        17,
+        16,
+        20,
+        19,
+        19
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 20,
+      "filename": "2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md",
+      "short_title": "",
+      "relevance_score": 72,
+      "topsis_score": 0.446756,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 19.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        21,
+        20,
+        21,
+        20,
+        20
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 21,
+      "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+      "short_title": "WYWEB: A NLP Evaluation Benchmark For Classical Chinese",
+      "relevance_score": 74,
+      "topsis_score": 0.436302,
+      "dimensional_scores": {
+        "alignment_relevance": 1.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 3.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 5.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        29,
+        22,
+        14,
+        21,
+        21
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 22,
+      "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+      "short_title": "Fluent but Foreign -- Even Regional LLMs Lack Cultural Alignment",
+      "relevance_score": 92,
+      "topsis_score": 0.432199,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 2.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        20,
+        21,
+        22,
+        22,
+        22
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 23,
+      "filename": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+      "short_title": "Measuring Moral LLM Responses in Multilingual Capacities",
+      "relevance_score": 75,
+      "topsis_score": 0.418058,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 7.0,
+        "data_availability": 3.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        22,
+        25,
+        23,
+        23,
+        23
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 24,
+      "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+      "short_title": "EVALUESTEER: Measuring Reward Model Steerability Across Value Dimensions",
+      "relevance_score": 74,
+      "topsis_score": 0.41022,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 8.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        23,
+        27,
+        24,
+        25,
+        25
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 25,
+      "filename": "2026-Madhusudan-Common to Whom Regional Cultural Commonsense.md",
+      "short_title": "",
+      "relevance_score": 70,
+      "topsis_score": 0.407051,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        25,
+        26,
+        25,
+        24,
+        24
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 26,
+      "filename": "2024-Yan-M$^3$oralBench.md",
+      "short_title": "M$^3$oralBench",
+      "relevance_score": 76,
+      "topsis_score": 0.401027,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 7.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": true,
+      "rank_stability": [
+        24,
+        30,
+        26,
+        26,
+        26
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 27,
+      "filename": "2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.md",
+      "short_title": "",
+      "relevance_score": 69,
+      "topsis_score": 0.390838,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 8.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        31,
+        36,
+        27,
+        27,
+        27
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 28,
+      "filename": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+      "short_title": "LLM Ethics Benchmark: A Three-Dimensional Assessment System for Evaluating Moral Reasoning in Large Language Models",
+      "relevance_score": 75,
+      "topsis_score": 0.388338,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        26,
+        32,
+        28,
+        28,
+        28
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 29,
+      "filename": "2023-Tanmay-Probing the Moral Development of Large Language Models through Defining.md",
+      "short_title": "",
+      "relevance_score": 70,
+      "topsis_score": 0.38684,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 2.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        27,
+        33,
+        30,
+        29,
+        29
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 30,
+      "filename": "2025-Scherrer-MoralChoice.md",
+      "short_title": "",
+      "relevance_score": 71,
+      "topsis_score": 0.384573,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        28,
+        35,
+        31,
+        30,
+        30
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 31,
+      "filename": "2025-Han-Value Portrait.md",
+      "short_title": "Value Portrait",
+      "relevance_score": 70,
+      "topsis_score": 0.379677,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 8.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        30,
+        37,
+        32,
+        31,
+        31
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 32,
+      "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+      "short_title": "K-Viscuit: Evaluating Visual and Cultural Interpretation with Human-VLM Collaboration",
+      "relevance_score": 76,
+      "topsis_score": 0.374302,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 5.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": true,
+      "rank_stability": [
+        34,
+        41,
+        29,
+        32,
+        32
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 33,
+      "filename": "2025-Jiao-LLM Ethics Benchmark.md",
+      "short_title": "LLM Ethics Benchmark",
+      "relevance_score": 85,
+      "topsis_score": 0.37287,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 9.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        32,
+        38,
+        34,
+        33,
+        34
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 34,
+      "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+      "short_title": "MoVa: Towards Generalizable Classification of Human Morals and Values",
+      "relevance_score": 73,
+      "topsis_score": 0.370025,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 4.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        33,
+        40,
+        35,
+        34,
+        33
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 35,
+      "filename": "2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md",
+      "short_title": "Benchmarking Vision Language Models for Cultural Understanding",
+      "relevance_score": 58,
+      "topsis_score": 0.362743,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 33.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        41,
+        24,
+        33,
+        35,
+        35
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 36,
+      "filename": "2024-Ji-MoralBench.md",
+      "short_title": "MoralBench",
+      "relevance_score": 85,
+      "topsis_score": 0.359049,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 7.0,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": true,
+      "rank_stability": [
+        35,
+        46,
+        37,
+        36,
+        36
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 37,
+      "filename": "2025-Al-SHADES A New Multilingual Benchmark for Stereotypes Bias in Large.md",
+      "short_title": "SHADES: A New Multilingual Benchmark for Stereotypes Bias in Large Language Models (2025) – AI Advisory Boards",
+      "relevance_score": 67,
+      "topsis_score": 0.356121,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 40.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        43,
+        23,
+        38,
+        37,
+        37
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 38,
+      "filename": "2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.md",
+      "short_title": "SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala",
+      "relevance_score": 64,
+      "topsis_score": 0.341541,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 30.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        45,
+        29,
+        39,
+        39,
+        39
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 39,
+      "filename": "2023-Astobiza-MoralNet.md",
+      "short_title": "MoralNet",
+      "relevance_score": 73,
+      "topsis_score": 0.338819,
+      "dimensional_scores": {
+        "alignment_relevance": 4.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 7.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        36,
+        52,
+        42,
+        41,
+        41
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 40,
+      "filename": "2025-Sun-CASE-Bench.md",
+      "short_title": "",
+      "relevance_score": 71,
+      "topsis_score": 0.336936,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 7.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        37,
+        53,
+        45,
+        38,
+        38
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 41,
+      "filename": "2024-Microsoft-MEGAVERSE Benchmarking Large Language Models Across Languages.md",
+      "short_title": "MEGAVERSE: Benchmarking Large Language Models Across Languages, Modalities, Models and Tasks",
+      "relevance_score": 56,
+      "topsis_score": 0.333861,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 36.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        46,
+        28,
+        46,
+        40,
+        42
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 42,
+      "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md",
+      "short_title": "BuddhismEval Bilingual Evaluation Benchmark for Buddhist",
+      "relevance_score": 64,
+      "topsis_score": 0.329595,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 30.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        47,
+        31,
+        40,
+        43,
+        44
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 43,
+      "filename": "2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.md",
+      "short_title": "LiveSecBench -- A Dynamic Event-Driven Safety Benchmark for Chinese LLMs",
+      "relevance_score": 70,
+      "topsis_score": 0.328996,
+      "dimensional_scores": {
+        "alignment_relevance": 2.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 6.0,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        42,
+        54,
+        41,
+        42,
+        40
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 44,
+      "filename": "2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md",
+      "short_title": "Incorporating Diverse Perspectives in Cultural Alignment",
+      "relevance_score": 75,
+      "topsis_score": 0.323526,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 7.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        38,
+        51,
+        51,
+        47,
+        46
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 45,
+      "filename": "2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md",
+      "short_title": "Arabic Dataset for LLM Safeguard Evaluation",
+      "relevance_score": 58,
+      "topsis_score": 0.322302,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 24.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        49,
+        42,
+        43,
+        46,
+        43
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 46,
+      "filename": "2024-Bang-BLEnD A Benchmark for LLMs on.md",
+      "short_title": "BLEnD A Benchmark for LLMs on",
+      "relevance_score": 63,
+      "topsis_score": 0.321701,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 34.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        48,
+        34,
+        49,
+        44,
+        47
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 47,
+      "filename": "2025-Wang-GIVE Cultural Values and Biases in Visual Evaluations by AI Models.md",
+      "short_title": "",
+      "relevance_score": 72,
+      "topsis_score": 0.316925,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        39,
+        60,
+        47,
+        45,
+        49
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 48,
+      "filename": "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+      "short_title": "Generative Artificial Intelligence and Indigenous Knowledge Systems in the Global South: A Systematic Review on Data Colonialism and Epistemic Justice",
+      "relevance_score": 65,
+      "topsis_score": 0.312627,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 2.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        54,
+        61,
+        36,
+        48,
+        45
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 49,
+      "filename": "2025-Xie-Do Language Models Capture Cultural Norms A Study of Acceptability.md",
+      "short_title": "",
+      "relevance_score": 72,
+      "topsis_score": 0.310068,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 1.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        40,
+        64,
+        48,
+        49,
+        50
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 50,
+      "filename": "2025-Salazar-Kaleidoscope.md",
+      "short_title": "Kaleidoscope",
+      "relevance_score": 59,
+      "topsis_score": 0.30736,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 32.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        55,
+        39,
+        53,
+        50,
+        52
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 51,
+      "filename": "2025-Naous-Camellia Benchmarking Cultural Biases in LLMs for Asian Languages.md",
+      "short_title": "Camellia: Benchmarking Cultural Biases in LLMs for Asian Languages",
+      "relevance_score": 55,
+      "topsis_score": 0.306545,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 29.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        56,
+        44,
+        54,
+        51,
+        48
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 52,
+      "filename": "2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md",
+      "short_title": "1 Decolonizing NLP for 'Low-resource Languages'",
+      "relevance_score": 57,
+      "topsis_score": 0.305938,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 26.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        57,
+        45,
+        50,
+        52,
+        53
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 53,
+      "filename": "2024-Jain-PolygloToxicityPrompts.md",
+      "short_title": "PolygloToxicityPrompts",
+      "relevance_score": 56,
+      "topsis_score": 0.302857,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 31.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        58,
+        43,
+        55,
+        54,
+        55
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 54,
+      "filename": "2024-Hancox-Li-Is ETHICS about ethics.md",
+      "short_title": "Is ETHICS about ethics?",
+      "relevance_score": 82,
+      "topsis_score": 0.30245,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 9.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": true,
+      "rank_stability": [
+        44,
+        68,
+        56,
+        55,
+        56
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 55,
+      "filename": "2025-Mohammadi-EvalMORAAL.md",
+      "short_title": "EvalMORAAL",
+      "relevance_score": 60,
+      "topsis_score": 0.296787,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 25.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        59,
+        50,
+        58,
+        53,
+        51
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 56,
+      "filename": "2024-Cahyawijaya-High-Dimension Human Value Representation in.md",
+      "short_title": "High-Dimension Human Value Representation in",
+      "relevance_score": 67,
+      "topsis_score": 0.294133,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 24.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        62,
+        48,
+        52,
+        56,
+        58
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 57,
+      "filename": "2025-Asgari-I Am Aligned But With Whom.md",
+      "short_title": "I Am Aligned But With Whom",
+      "relevance_score": 56,
+      "topsis_score": 0.293026,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 26.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        60,
+        49,
+        61,
+        57,
+        54
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 58,
+      "filename": "2024-Mahendra-SEACrowd A Multilingual Multimodal Data Hub.md",
+      "short_title": "SEACrowd A Multilingual Multimodal Data Hub",
+      "relevance_score": 59,
+      "topsis_score": 0.291557,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 29.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        61,
+        47,
+        62,
+        58,
+        59
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 59,
+      "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md",
+      "short_title": "Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation",
+      "relevance_score": 61,
+      "topsis_score": 0.281812,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        64,
+        67,
+        57,
+        59,
+        57
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 60,
+      "filename": "2025-Kabir-BLUCK A Benchmark Dataset for Bengali Linguistic Understanding and.md",
+      "short_title": "BLUCK: A Benchmark Dataset for Bengali Linguistic Understanding and Cultural Knowledge",
+      "relevance_score": 56,
+      "topsis_score": 0.276953,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        66,
+        65,
+        59,
+        61,
+        60
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 61,
+      "filename": "2025-Steen-Ethical aspects of ChatGPT.md",
+      "short_title": "Ethical aspects of ChatGPT",
+      "relevance_score": 69,
+      "topsis_score": 0.276933,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 2.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        67,
+        75,
+        44,
+        62,
+        62
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 62,
+      "filename": "2024-Singhal-AyaRedTeaming.md",
+      "short_title": "AyaRedTeaming",
+      "relevance_score": 62,
+      "topsis_score": 0.276502,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 22.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        65,
+        58,
+        64,
+        60,
+        61
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 63,
+      "filename": "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+      "short_title": "The Humanistic Buddhism Corpus (HBC)",
+      "relevance_score": 71,
+      "topsis_score": 0.275987,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 23.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        68,
+        55,
+        60,
+        63,
+        63
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 64,
+      "filename": "2024-Xie-CultureLLM Incorporating Cultural Differences into Large.md",
+      "short_title": "CultureLLM Incorporating Cultural Differences into Large",
+      "relevance_score": 62,
+      "topsis_score": 0.269177,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 26.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        69,
+        56,
+        67,
+        65,
+        66
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 65,
+      "filename": "2025-Zhang-Evaluating and Improving Cultural Awareness of.md",
+      "short_title": "Evaluating and Improving Cultural Awareness of",
+      "relevance_score": 64,
+      "topsis_score": 0.263446,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 26.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        70,
+        57,
+        71,
+        67,
+        68
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 66,
+      "filename": "2025-Seveso-ITALIC.md",
+      "short_title": "ITALIC",
+      "relevance_score": 57,
+      "topsis_score": 0.262129,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 25.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        71,
+        59,
+        72,
+        68,
+        69
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 67,
+      "filename": "2025-Flores-BenchMoral.md",
+      "short_title": "BenchMoral",
+      "relevance_score": 60,
+      "topsis_score": 0.261213,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 24.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        72,
+        62,
+        73,
+        66,
+        70
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 68,
+      "filename": "2024-Haemmerli-Morality In Pre-Trained Language Models.md",
+      "short_title": "",
+      "relevance_score": 71,
+      "topsis_score": 0.259363,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 1.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        50,
+        85,
+        74,
+        73,
+        71
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 69,
+      "filename": "2024-Haemmerli-Morality In Pre-Trained Language Models An Empirical.md",
+      "short_title": "",
+      "relevance_score": 69,
+      "topsis_score": 0.259363,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 1.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        51,
+        86,
+        75,
+        74,
+        72
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 70,
+      "filename": "2025-Satheesh-GG-BBQ.md",
+      "short_title": "GG-BBQ",
+      "relevance_score": 61,
+      "topsis_score": 0.259106,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 24.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        73,
+        63,
+        77,
+        69,
+        73
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 71,
+      "filename": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+      "short_title": "ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs",
+      "relevance_score": 66,
+      "topsis_score": 0.259079,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 14.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        74,
+        74,
+        63,
+        64,
+        74
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 72,
+      "filename": "2025-Unknown-BenevolentLLM An Ethical Reasoning Benchmark for LLMs.md",
+      "short_title": "",
+      "relevance_score": 71,
+      "topsis_score": 0.258188,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 0.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 1.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        52,
+        91,
+        76,
+        70,
+        75
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 73,
+      "filename": "2025-Palta-Speaking the Right Language.md",
+      "short_title": "",
+      "relevance_score": 69,
+      "topsis_score": 0.256645,
+      "dimensional_scores": {
+        "alignment_relevance": 2.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 5.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        63,
+        90,
+        78,
+        71,
+        65
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 74,
+      "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+      "short_title": "Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious",
+      "relevance_score": 55,
+      "topsis_score": 0.256143,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 12.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        76,
+        80,
+        65,
+        72,
+        64
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 75,
+      "filename": "2024-Jin-Language Model Alignment in Multilingual Trolley.md",
+      "short_title": "Language Model Alignment in Multilingual Trolley",
+      "relevance_score": 65,
+      "topsis_score": 0.254988,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 24.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        75,
+        66,
+        79,
+        75,
+        76
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 76,
+      "filename": "2025-Wang-Values in Design How GPT Evaluates Public AI Principles.md",
+      "short_title": "",
+      "relevance_score": 70,
+      "topsis_score": 0.252375,
+      "dimensional_scores": {
+        "alignment_relevance": 3.0,
+        "cross_cultural_scope": 0.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 1.0,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        53,
+        95,
+        80,
+        78,
+        77
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 77,
+      "filename": "2025-Davies-F2Bench An Open-ended Fairness Evaluation Benchmark ....md",
+      "short_title": "F2Bench: An Open-ended Fairness Evaluation Benchmark ...",
+      "relevance_score": 61,
+      "topsis_score": 0.252003,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 19.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        77,
+        70,
+        82,
+        76,
+        67
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 78,
+      "filename": "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md",
+      "short_title": "Re-contextualizing Fairness in NLP The Case",
+      "relevance_score": 64,
+      "topsis_score": 0.250603,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        78,
+        72,
+        66,
+        79,
+        78
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 79,
+      "filename": "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+      "short_title": "UbuntuGuard A Culturally-Grounded Policy Benchmark for",
+      "relevance_score": 64,
+      "topsis_score": 0.245275,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 16.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        79,
+        77,
+        68,
+        80,
+        83
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 80,
+      "filename": "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+      "short_title": "MITRA-zh-eval Using a Buddhist Chinese Language",
+      "relevance_score": 57,
+      "topsis_score": 0.244285,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 14.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        80,
+        82,
+        69,
+        77,
+        84
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 81,
+      "filename": "2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+      "short_title": "Cross-cultural dataset for the evolution of",
+      "relevance_score": 54,
+      "topsis_score": 0.243677,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        81,
+        76,
+        70,
+        83,
+        85
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 82,
+      "filename": "2025-Barth-Multilingual European Language Models Benchmarking Approaches and.md",
+      "short_title": "Multilingual European Language Models: Benchmarking Approaches and Challenges",
+      "relevance_score": 56,
+      "topsis_score": 0.240455,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 22.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        82,
+        69,
+        87,
+        82,
+        88
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 83,
+      "filename": "2024-Neplenbroek-MBBQ A Dataset for Cross-Lingual Comparison of Stereotypes in.md",
+      "short_title": "MBBQ: A Dataset for Cross-Lingual Comparison of Stereotypes in Generative LLMs",
+      "relevance_score": 61,
+      "topsis_score": 0.236687,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 22.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        83,
+        71,
+        89,
+        88,
+        89
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 84,
+      "filename": "2024-Arshad-Understanding hate speech.md",
+      "short_title": "Understanding hate speech",
+      "relevance_score": 55,
+      "topsis_score": 0.236495,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 21.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        84,
+        73,
+        90,
+        81,
+        90
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 85,
+      "filename": "2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md",
+      "short_title": "TeSent A Benchmark Dataset for Fairness-aware",
+      "relevance_score": 66,
+      "topsis_score": 0.233262,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 14.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        85,
+        89,
+        91,
+        84,
+        80
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 86,
+      "filename": "2025-Leteno-Histoires Morales.md",
+      "short_title": "Histoires Morales",
+      "relevance_score": 59,
+      "topsis_score": 0.233116,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 20.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        86,
+        78,
+        92,
+        85,
+        93
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 87,
+      "filename": "2024-Meadows-LocalValueBench.md",
+      "short_title": "LocalValueBench",
+      "relevance_score": 66,
+      "topsis_score": 0.230965,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        87,
+        101,
+        81,
+        89,
+        79
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 88,
+      "filename": "2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md",
+      "short_title": "Edu-Values -- Evaluating Chinese Education Values of LLMs",
+      "relevance_score": 59,
+      "topsis_score": 0.230209,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        90,
+        99,
+        85,
+        86,
+        94
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 89,
+      "filename": "2024-Huang-TrustLLM.md",
+      "short_title": "TrustLLM",
+      "relevance_score": 70,
+      "topsis_score": 0.230089,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        89,
+        106,
+        84,
+        90,
+        81
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 90,
+      "filename": "2025-Wu-OpenDeception.md",
+      "short_title": "OpenDeception",
+      "relevance_score": 65,
+      "topsis_score": 0.230073,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        88,
+        109,
+        83,
+        87,
+        82
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 91,
+      "filename": "2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md",
+      "short_title": "Comparing diversity, negativity, and stereotypes in Chinese-language AI technologies: an investigation of Baidu, Ernie and Qwen - PMC",
+      "relevance_score": 58,
+      "topsis_score": 0.227454,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 16.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        91,
+        87,
+        94,
+        95,
+        86
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 92,
+      "filename": "2024-Brun-FrenchToxicityPrompts a Large Benchmark for Evaluating and Mitigating.md",
+      "short_title": "FrenchToxicityPrompts: a Large Benchmark for Evaluating and Mitigating Toxicity in French Texts",
+      "relevance_score": 61,
+      "topsis_score": 0.225643,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 20.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        92,
+        81,
+        97,
+        93,
+        96
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 93,
+      "filename": "2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md",
+      "short_title": "M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies",
+      "relevance_score": 56,
+      "topsis_score": 0.225514,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        93,
+        94,
+        96,
+        94,
+        87
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 94,
+      "filename": "2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific.md",
+      "short_title": "Enhancing Multilingual Hate Speech Detection: From Language-Specific Insights to Cross-Linguistic Integration",
+      "relevance_score": 55,
+      "topsis_score": 0.221699,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 22.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        94,
+        79,
+        99,
+        101,
+        99
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 95,
+      "filename": "2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md",
+      "short_title": "SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning",
+      "relevance_score": 57,
+      "topsis_score": 0.221002,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 19.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        95,
+        84,
+        100,
+        99,
+        101
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 96,
+      "filename": "2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md",
+      "short_title": "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models",
+      "relevance_score": 71,
+      "topsis_score": 0.220076,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        96,
+        108,
+        86,
+        92,
+        103
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 97,
+      "filename": "2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.md",
+      "short_title": "CulFiT: A Fine-grained Cultural-aware LLM Training Paradigm via Multilingual Critique Data Synthesis",
+      "relevance_score": 59,
+      "topsis_score": 0.218294,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        97,
+        105,
+        103,
+        96,
+        91
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 98,
+      "filename": "2025-Ngui-SEA-SafeguardBench Evaluating AI Safety in SEA.md",
+      "short_title": "SEA-SafeguardBench Evaluating AI Safety in SEA",
+      "relevance_score": 56,
+      "topsis_score": 0.218067,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 20.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        98,
+        83,
+        105,
+        100,
+        107
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 99,
+      "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+      "short_title": "EMNLP (Educator-role Moral and Normative LLMs Profiling)",
+      "relevance_score": 57,
+      "topsis_score": 0.21754,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        99,
+        111,
+        104,
+        91,
+        92
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 100,
+      "filename": "2025-Trager-MFTCXplain.md",
+      "short_title": "MFTCXplain",
+      "relevance_score": 64,
+      "topsis_score": 0.215456,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        100,
+        96,
+        106,
+        98,
+        110
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 101,
+      "filename": "2025-A.-Operationalizing Cultural Values in Language Models A Comparative.md",
+      "short_title": "Operationalizing Cultural Values in Language Models: A Comparative Analysis Using Hofstede's Dimensions",
+      "relevance_score": 62,
+      "topsis_score": 0.21473,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        102,
+        107,
+        88,
+        97,
+        111
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 102,
+      "filename": "2025-Derner-Leveraging Large Language Models to Measure Gender Representation.md",
+      "short_title": "Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora",
+      "relevance_score": 58,
+      "topsis_score": 0.213817,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 19.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        101,
+        88,
+        107,
+        105,
+        112
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 103,
+      "filename": "2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.md",
+      "short_title": "CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models",
+      "relevance_score": 55,
+      "topsis_score": 0.210641,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 18.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        103,
+        97,
+        108,
+        107,
+        115
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 104,
+      "filename": "2025-Lan-McBE A Multi-task Chinese Bias Evaluation Benchmark for Large.md",
+      "short_title": "McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models",
+      "relevance_score": 64,
+      "topsis_score": 0.210184,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 19.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        104,
+        92,
+        110,
+        108,
+        116
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 105,
+      "filename": "2025-Lan-McBE.md",
+      "short_title": "McBE",
+      "relevance_score": 64,
+      "topsis_score": 0.210184,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 19.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        105,
+        93,
+        111,
+        109,
+        117
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 106,
+      "filename": "2026-Rehman-X-MuTeST A Multilingual Benchmark for Explainable.md",
+      "short_title": "X-MuTeST A Multilingual Benchmark for Explainable",
+      "relevance_score": 58,
+      "topsis_score": 0.209418,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        106,
+        120,
+        109,
+        102,
+        95
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 107,
+      "filename": "2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md",
+      "short_title": "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo",
+      "relevance_score": 61,
+      "topsis_score": 0.209157,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 18.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        107,
+        98,
+        112,
+        114,
+        118
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 108,
+      "filename": "2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.md",
+      "short_title": "BharatBBQ A Multilingual Bias Benchmark for",
+      "relevance_score": 59,
+      "topsis_score": 0.207379,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        108,
+        100,
+        113,
+        104,
+        124
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 109,
+      "filename": "2025-Park-KOGENT A Benchmark Dataset for Evaluating Gender Sensitivity in.md",
+      "short_title": "KOGENT: A Benchmark Dataset for Evaluating Gender Sensitivity in Korean Political Discourse with Large Language Models",
+      "relevance_score": 61,
+      "topsis_score": 0.206479,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        110,
+        114,
+        114,
+        115,
+        97
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 110,
+      "filename": "2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+      "short_title": "PERM: Psychology-grounded Empathetic Reward Modeling for Large Language Models",
+      "relevance_score": 60,
+      "topsis_score": 0.206005,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        113,
+        122,
+        93,
+        113,
+        125
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 111,
+      "filename": "2023-Cao-Assessing Cross-Cultural Alignment between.md",
+      "short_title": "Assessing Cross-Cultural Alignment between",
+      "relevance_score": 54,
+      "topsis_score": 0.204896,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        111,
+        104,
+        116,
+        106,
+        127
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 112,
+      "filename": "2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of.md",
+      "short_title": "CultureVLM: Characterizing and Improving Cultural Understanding of Vision-Language Models for over 100 Countries",
+      "relevance_score": 59,
+      "topsis_score": 0.204814,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 12.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        112,
+        113,
+        115,
+        118,
+        98
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 113,
+      "filename": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+      "short_title": "VAL-Bench: Belief Consistency as a Measure for Value Alignment",
+      "relevance_score": 67,
+      "topsis_score": 0.20341,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        114,
+        121,
+        117,
+        120,
+        100
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 114,
+      "filename": "2022-Chalkidis-FairLex.md",
+      "short_title": "FairLex",
+      "relevance_score": 58,
+      "topsis_score": 0.203105,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        115,
+        102,
+        120,
+        122,
+        128
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 115,
+      "filename": "2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.md",
+      "short_title": "MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts",
+      "relevance_score": 55,
+      "topsis_score": 0.203105,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 17.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        116,
+        103,
+        121,
+        123,
+        129
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 116,
+      "filename": "2023-Aroyo-DICES Dataset.md",
+      "short_title": "DICES Dataset",
+      "relevance_score": 58,
+      "topsis_score": 0.202362,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        117,
+        126,
+        119,
+        110,
+        102
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 117,
+      "filename": "2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md",
+      "short_title": "Evalita-LLM: Benchmarking Large Language Models on Italian",
+      "relevance_score": 56,
+      "topsis_score": 0.202311,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        122,
+        124,
+        95,
+        121,
+        130
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 118,
+      "filename": "2024-Liu-JAILJUDGE.md",
+      "short_title": "JAILJUDGE",
+      "relevance_score": 55,
+      "topsis_score": 0.20166,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        118,
+        132,
+        122,
+        112,
+        106
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 119,
+      "filename": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+      "short_title": "GVS-Scale and GVS-Bench: GenAI Value Safety Scale",
+      "relevance_score": 57,
+      "topsis_score": 0.201569,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        120,
+        123,
+        125,
+        125,
+        104
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 120,
+      "filename": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+      "short_title": "Healthcare Ethics & Safety QA (China -- Healthy China 2030)",
+      "relevance_score": 58,
+      "topsis_score": 0.201556,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        119,
+        127,
+        123,
+        111,
+        105
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 121,
+      "filename": "2025-Yuan-S-Eval.md",
+      "short_title": "S-Eval",
+      "relevance_score": 56,
+      "topsis_score": 0.201003,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        123,
+        129,
+        98,
+        124,
+        131
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 122,
+      "filename": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+      "short_title": "TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs",
+      "relevance_score": 69,
+      "topsis_score": 0.200398,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 4.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        121,
+        139,
+        124,
+        103,
+        108
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 123,
+      "filename": "2023-Duan-Denevil.md",
+      "short_title": "Denevil",
+      "relevance_score": 67,
+      "topsis_score": 0.198438,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        124,
+        133,
+        126,
+        117,
+        109
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 124,
+      "filename": "2025-Ju-NaVAB.md",
+      "short_title": "NaVAB",
+      "relevance_score": 66,
+      "topsis_score": 0.198312,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 14.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        125,
+        112,
+        127,
+        116,
+        133
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 125,
+      "filename": "2025-Chiu-MoReBench.md",
+      "short_title": "MoReBench",
+      "relevance_score": 62,
+      "topsis_score": 0.197661,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        126,
+        110,
+        128,
+        119,
+        134
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 126,
+      "filename": "2025-Zhao-WenyanGPT A Large Language Model for.md",
+      "short_title": "WenyanGPT A Large Language Model for",
+      "relevance_score": 64,
+      "topsis_score": 0.195319,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        128,
+        134,
+        101,
+        129,
+        136
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 127,
+      "filename": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md",
+      "short_title": "BuddhismEval A Bilingual Benchmark for Buddhist",
+      "relevance_score": 61,
+      "topsis_score": 0.195067,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        129,
+        128,
+        102,
+        139,
+        137
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 128,
+      "filename": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+      "short_title": "PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice",
+      "relevance_score": 64,
+      "topsis_score": 0.193832,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        127,
+        136,
+        129,
+        127,
+        113
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 129,
+      "filename": "2023-Liu-AgentBench.md",
+      "short_title": "AgentBench",
+      "relevance_score": 74,
+      "topsis_score": 0.193328,
+      "dimensional_scores": {
+        "alignment_relevance": 1.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 4.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 3.0
+      },
+      "veto_flag": true,
+      "rank_stability": [
+        109,
+        143,
+        131,
+        126,
+        139
+      ],
+      "source": "deep"
+    },
+    {
+      "rank": 130,
+      "filename": "2023-Wang-DecodingTrust.md",
+      "short_title": "DecodingTrust",
+      "relevance_score": 58,
+      "topsis_score": 0.192582,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        130,
+        137,
+        130,
+        131,
+        114
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 131,
+      "filename": "2024-Sahoo-IndiBias - Benchmark Dataset for Social Biases in Indian Context.md",
+      "short_title": "IndiBias -- Benchmark Dataset for Social Biases in Indian Context",
+      "relevance_score": 64,
+      "topsis_score": 0.19155,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        131,
+        115,
+        132,
+        132,
+        140
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 132,
+      "filename": "2020-Mathew-HateXplain.md",
+      "short_title": "HateXplain",
+      "relevance_score": 61,
+      "topsis_score": 0.19155,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        132,
+        116,
+        133,
+        133,
+        141
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 133,
+      "filename": "2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md",
+      "short_title": "Cross-lingual hate speech detection using domain-specific word embeddings | PLOS One",
+      "relevance_score": 58,
+      "topsis_score": 0.19155,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        133,
+        117,
+        134,
+        134,
+        142
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 134,
+      "filename": "2025-Salles-HateBRXplain A Benchmark Dataset with Human-Annotated Rationales for.md",
+      "short_title": "HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese",
+      "relevance_score": 55,
+      "topsis_score": 0.19155,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        134,
+        118,
+        135,
+        135,
+        143
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 135,
+      "filename": "2026-Ma-DIB Benchmark Decision-based Implicit Bias in LLMs.md",
+      "short_title": "DIB Benchmark: Decision-based Implicit Bias in LLMs",
+      "relevance_score": 67,
+      "topsis_score": 0.189462,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        136,
+        135,
+        140,
+        136,
+        119
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 136,
+      "filename": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+      "short_title": "Untangling Input Language from Reasoning Language: A Diagnostic Framework for Cross-Lingual Moral Alignment in LLMs",
+      "relevance_score": 60,
+      "topsis_score": 0.189416,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        137,
+        138,
+        139,
+        137,
+        120
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 137,
+      "filename": "2024-Kirch-TRIAGE.md",
+      "short_title": "TRIAGE",
+      "relevance_score": 58,
+      "topsis_score": 0.189318,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        135,
+        146,
+        136,
+        128,
+        122
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 138,
+      "filename": "2025-Wang-Is Your Model Fairly Certain Uncertainty-Aware.md",
+      "short_title": "Is Your Model Fairly Certain? Uncertainty-Aware",
+      "relevance_score": 58,
+      "topsis_score": 0.189243,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        138,
+        140,
+        138,
+        138,
+        121
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 139,
+      "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+      "short_title": "CMoralEval: A Moral Evaluation Benchmark for Chinese ...",
+      "relevance_score": 72,
+      "topsis_score": 0.188568,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        139,
+        142,
+        141,
+        140,
+        123
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 140,
+      "filename": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+      "short_title": "Ethical Decision-Making in Humans and Large",
+      "relevance_score": 67,
+      "topsis_score": 0.186245,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        140,
+        145,
+        142,
+        130,
+        126
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 141,
+      "filename": "2025-Liu-Cross-cultural value alignment frameworks.md",
+      "short_title": "Cross-cultural value alignment frameworks",
+      "relevance_score": 70,
+      "topsis_score": 0.186183,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 16.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        141,
+        119,
+        144,
+        141,
+        145
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 142,
+      "filename": "2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md",
+      "short_title": "UAlign: LLM Alignment Benchmark for the Ukrainian Language",
+      "relevance_score": 55,
+      "topsis_score": 0.180598,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 14.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        142,
+        130,
+        145,
+        142,
+        146
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 143,
+      "filename": "2025-Singh-Rethinking Hate Speech Detection on Social Media Can LLMs Replace.md",
+      "short_title": "Rethinking Hate Speech Detection on Social Media: Can LLMs Replace Traditional Models?",
+      "relevance_score": 66,
+      "topsis_score": 0.178117,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        144,
+        125,
+        147,
+        143,
+        147
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 144,
+      "filename": "2025-Shetty-VITAL.md",
+      "short_title": "VITAL",
+      "relevance_score": 62,
+      "topsis_score": 0.178089,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        143,
+        152,
+        146,
+        147,
+        132
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 145,
+      "filename": "2024-Luong-Realistic Evaluation of Toxicity in Large.md",
+      "short_title": "Realistic Evaluation of Toxicity in Large",
+      "relevance_score": 70,
+      "topsis_score": 0.176909,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        145,
+        150,
+        118,
+        144,
+        148
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 146,
+      "filename": "2023-Lin-ToxicChat.md",
+      "short_title": "ToxicChat",
+      "relevance_score": 55,
+      "topsis_score": 0.175182,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        146,
+        157,
+        148,
+        150,
+        135
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 147,
+      "filename": "2025-Hong-NormGenesis Multicultural Dialogue Generation Dataset.md",
+      "short_title": "NormGenesis: Multicultural Dialogue Generation Dataset",
+      "relevance_score": 66,
+      "topsis_score": 0.174233,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 15.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        147,
+        131,
+        149,
+        151,
+        149
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 148,
+      "filename": "2025-Wei-MedEthicsQA.md",
+      "short_title": "MedEthicsQA",
+      "relevance_score": 63,
+      "topsis_score": 0.17272,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        148,
+        160,
+        150,
+        153,
+        138
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 149,
+      "filename": "2025-Shan-SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety.md",
+      "short_title": "SGToxicGuard Toxicity Red-Teaming Benchmarking LLM Safety",
+      "relevance_score": 61,
+      "topsis_score": 0.170054,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 12.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        149,
+        144,
+        151,
+        155,
+        150
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 150,
+      "filename": "2022-Parrish-BBQ Bias Benchmark for Question Answering.md",
+      "short_title": "BBQ (Bias Benchmark for Question Answering)",
+      "relevance_score": 63,
+      "topsis_score": 0.169684,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        150,
+        147,
+        152,
+        145,
+        151
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 151,
+      "filename": "2025-Delaville-ToxiFrench Benchmarking and Enhancing Language Models via CoT.md",
+      "short_title": "ToxiFrench: Benchmarking and Enhancing Language Models via CoT Fine-Tuning for French Toxicity Detection",
+      "relevance_score": 61,
+      "topsis_score": 0.169684,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        151,
+        148,
+        153,
+        146,
+        152
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 152,
+      "filename": "2024-Lee-KorNAT.md",
+      "short_title": "KorNAT",
+      "relevance_score": 64,
+      "topsis_score": 0.168037,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        152,
+        153,
+        154,
+        148,
+        153
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 153,
+      "filename": "2025-Yao-NurValues.md",
+      "short_title": "NurValues",
+      "relevance_score": 61,
+      "topsis_score": 0.168037,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        153,
+        154,
+        155,
+        149,
+        154
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 154,
+      "filename": "2025-Gupta-EnDive A Cross-Dialect Benchmark for Fairness and Performance in.md",
+      "short_title": "EnDive: A Cross-Dialect Benchmark for Fairness and Performance in Large Language Models",
+      "relevance_score": 61,
+      "topsis_score": 0.165911,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 14.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        155,
+        141,
+        157,
+        156,
+        155
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 155,
+      "filename": "2024-Li-Benchmarking Ethics in Text-to-Image Models.md",
+      "short_title": "Benchmarking Ethics in Text-to-Image Models",
+      "relevance_score": 58,
+      "topsis_score": 0.165759,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 1.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        154,
+        158,
+        156,
+        158,
+        144
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 156,
+      "filename": "2025-Alghamdi-AraTrust - An Evaluation of Trustworthiness for LLMs in Arabic.md",
+      "short_title": "AraTrust -- An Evaluation of Trustworthiness for LLMs in Arabic",
+      "relevance_score": 57,
+      "topsis_score": 0.163945,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        156,
+        156,
+        158,
+        152,
+        156
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 157,
+      "filename": "2025-Nawale-FairI Tales INDIC-BIAS - Evaluation of Fairness in Indian Contexts.md",
+      "short_title": "FairI Tales / INDIC-BIAS -- Evaluation of Fairness in Indian Contexts",
+      "relevance_score": 65,
+      "topsis_score": 0.163174,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        157,
+        151,
+        159,
+        157,
+        157
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 158,
+      "filename": "2025-Kasu-EthicsMH.md",
+      "short_title": "EthicsMH",
+      "relevance_score": 70,
+      "topsis_score": 0.162793,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        158,
+        159,
+        160,
+        154,
+        158
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 159,
+      "filename": "2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.md",
+      "short_title": "A Risk Taxonomy for Evaluating AI-Powered",
+      "relevance_score": 56,
+      "topsis_score": 0.161112,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        159,
+        165,
+        137,
+        159,
+        159
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 160,
+      "filename": "2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md",
+      "short_title": "Hate Speech Detection in Somali-English Code-Switched",
+      "relevance_score": 63,
+      "topsis_score": 0.159605,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 12.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        160,
+        149,
+        161,
+        161,
+        160
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 161,
+      "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+      "short_title": "Religious Bias Benchmarks for ChatGPT",
+      "relevance_score": 65,
+      "topsis_score": 0.156889,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 1.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        162,
+        167,
+        143,
+        162,
+        161
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 162,
+      "filename": "2024-Group-The AI Safety Benchmark.md",
+      "short_title": "The AI Safety Benchmark",
+      "relevance_score": 55,
+      "topsis_score": 0.15671,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        161,
+        155,
+        162,
+        163,
+        162
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 163,
+      "filename": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+      "short_title": "Large-scale moral machine experiment on large",
+      "relevance_score": 70,
+      "topsis_score": 0.151927,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        163,
+        161,
+        163,
+        164,
+        163
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 164,
+      "filename": "2025-Pourbahman-ELAB.md",
+      "short_title": "ELAB",
+      "relevance_score": 67,
+      "topsis_score": 0.151927,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        164,
+        162,
+        164,
+        165,
+        164
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 165,
+      "filename": "2021-Hendrycks-Aligning AI with Shared Human Values.md",
+      "short_title": "Aligning AI with Shared Human Values",
+      "relevance_score": 57,
+      "topsis_score": 0.151927,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        165,
+        163,
+        165,
+        166,
+        165
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 166,
+      "filename": "2024-Liu-CultureAtlas.md",
+      "short_title": "CultureAtlas",
+      "relevance_score": 71,
+      "topsis_score": 0.150114,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 9.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        166,
+        164,
+        166,
+        167,
+        166
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 167,
+      "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+      "short_title": "OffTheRails: Procedural Dilemma Generation for Moral Reasoning",
+      "relevance_score": 54,
+      "topsis_score": 0.148927,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        167,
+        170,
+        167,
+        160,
+        167
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 168,
+      "filename": "2026-Jin-MedES Chinese Medical Ethics Scenarios.md",
+      "short_title": "MedES (Chinese Medical Ethics Scenarios)",
+      "relevance_score": 64,
+      "topsis_score": 0.144047,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        168,
+        168,
+        168,
+        172,
+        168
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 169,
+      "filename": "2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md",
+      "short_title": "SANSKRITI A Comprehensive Benchmark for Evaluating",
+      "relevance_score": 63,
+      "topsis_score": 0.144047,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        169,
+        169,
+        169,
+        173,
+        169
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 170,
+      "filename": "2025-Jiang-Raising the Bar.md",
+      "short_title": "Raising the Bar",
+      "relevance_score": 58,
+      "topsis_score": 0.138952,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        170,
+        175,
+        171,
+        174,
+        170
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 171,
+      "filename": "2025-Wen-Evaluating Implicit Bias in Large Language Models.md",
+      "short_title": "Evaluating Implicit Bias in Large Language Models",
+      "relevance_score": 58,
+      "topsis_score": 0.138952,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        171,
+        176,
+        172,
+        175,
+        171
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 172,
+      "filename": "2024-Park-Open Ko-LLM Leaderboard Evaluating Large Language Models in Korean.md",
+      "short_title": "Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark",
+      "relevance_score": 56,
+      "topsis_score": 0.138952,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        172,
+        177,
+        173,
+        176,
+        172
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 173,
+      "filename": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md",
+      "short_title": "Self-Explaining Hate Speech Detection with Moral Rationales",
+      "relevance_score": 55,
+      "topsis_score": 0.138952,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 8.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        173,
+        178,
+        174,
+        177,
+        173
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 174,
+      "filename": "2025-Liu-The Scales of Justitia.md",
+      "short_title": "The Scales of Justitia",
+      "relevance_score": 61,
+      "topsis_score": 0.138452,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        177,
+        166,
+        177,
+        178,
+        174
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 175,
+      "filename": "2025-Jin-MedEthicEval.md",
+      "short_title": "MedEthicEval",
+      "relevance_score": 61,
+      "topsis_score": 0.138375,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        175,
+        180,
+        175,
+        179,
+        175
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 176,
+      "filename": "2024-Tu-CharacterEval.md",
+      "short_title": "CharacterEval",
+      "relevance_score": 56,
+      "topsis_score": 0.138375,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        176,
+        181,
+        176,
+        180,
+        176
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 177,
+      "filename": "2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md",
+      "short_title": "MORABLES: A Benchmark for Assessing Abstract Moral Reasoning in LLMs with Fables",
+      "relevance_score": 57,
+      "topsis_score": 0.138333,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        174,
+        188,
+        170,
+        168,
+        177
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 178,
+      "filename": "2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.md",
+      "short_title": "Fine-Tuning Language Models for Ethical Ambiguity",
+      "relevance_score": 69,
+      "topsis_score": 0.13537,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        178,
+        182,
+        178,
+        169,
+        178
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 179,
+      "filename": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models.md",
+      "short_title": "Auditing the Ethical Logic of Generative AI Models",
+      "relevance_score": 63,
+      "topsis_score": 0.13537,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        179,
+        183,
+        179,
+        170,
+        179
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 180,
+      "filename": "2025-Neuman-PRIME Framework Convergent Ethics.md",
+      "short_title": "PRIME Framework Convergent Ethics",
+      "relevance_score": 57,
+      "topsis_score": 0.13537,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        180,
+        184,
+        180,
+        171,
+        180
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 181,
+      "filename": "2024-Li-Value-Spectrum.md",
+      "short_title": "Value-Spectrum",
+      "relevance_score": 57,
+      "topsis_score": 0.133019,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        181,
+        185,
+        181,
+        184,
+        181
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 182,
+      "filename": "2024-Yin-SafeWorld Geo-Diverse Safety Alignment.md",
+      "short_title": "SafeWorld: Geo-Diverse Safety Alignment",
+      "relevance_score": 55,
+      "topsis_score": 0.133019,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        182,
+        186,
+        182,
+        185,
+        182
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 183,
+      "filename": "2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+      "short_title": "Can We Trust AI Benchmarks? An Interdisciplinary Review",
+      "relevance_score": 61,
+      "topsis_score": 0.132987,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        183,
+        171,
+        183,
+        181,
+        183
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 184,
+      "filename": "2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.md",
+      "short_title": "FanarGuard: A Culturally-Aware Moderation Filter for Arabic Language Models",
+      "relevance_score": 57,
+      "topsis_score": 0.132987,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        184,
+        172,
+        184,
+        182,
+        184
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 185,
+      "filename": "2025-Narnaware-SB-Bench.md",
+      "short_title": "SB-Bench",
+      "relevance_score": 55,
+      "topsis_score": 0.132987,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        185,
+        173,
+        185,
+        183,
+        185
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 186,
+      "filename": "2023-Wang-STREAM.md",
+      "short_title": "STREAM",
+      "relevance_score": 59,
+      "topsis_score": 0.131314,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        186,
+        187,
+        186,
+        186,
+        186
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 187,
+      "filename": "2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.md",
+      "short_title": "Examining Gender and Race Bias in Two Hundred",
+      "relevance_score": 55,
+      "topsis_score": 0.12829,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 10.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 4.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        187,
+        179,
+        187,
+        196,
+        187
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 188,
+      "filename": "2024-Abdulhai-Moral Foundations of Large Language Models.md",
+      "short_title": "Moral Foundations of Large Language Models",
+      "relevance_score": 56,
+      "topsis_score": 0.127559,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        188,
+        189,
+        188,
+        188,
+        188
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 189,
+      "filename": "2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md",
+      "short_title": "Cross-Platform Evaluation for Italian Hate Speech Detection",
+      "relevance_score": 55,
+      "topsis_score": 0.126883,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 11.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        189,
+        174,
+        189,
+        192,
+        189
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 190,
+      "filename": "2025-Lin-MORALISE.md",
+      "short_title": "MORALISE",
+      "relevance_score": 70,
+      "topsis_score": 0.122656,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        190,
+        191,
+        190,
+        189,
+        190
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 191,
+      "filename": "2025-Jotautaite-From Stability to Inconsistency.md",
+      "short_title": "From Stability to Inconsistency",
+      "relevance_score": 61,
+      "topsis_score": 0.122656,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        191,
+        192,
+        191,
+        190,
+        191
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 192,
+      "filename": "2025-Shin-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md",
+      "short_title": "RoleConflictBench: A Benchmark of Role Conflict Scenarios for Evaluating LLMs' Contextual Sensitivity",
+      "relevance_score": 56,
+      "topsis_score": 0.122656,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        192,
+        193,
+        192,
+        191,
+        192
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 193,
+      "filename": "2025-Kumar-BengaliMoralBench.md",
+      "short_title": "BengaliMoralBench",
+      "relevance_score": 69,
+      "topsis_score": 0.118659,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        194,
+        194,
+        193,
+        200,
+        193
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 194,
+      "filename": "2024-Karpov-Inducing Human-like Biases in Moral Reasoning.md",
+      "short_title": "Inducing Human-like Biases in Moral Reasoning",
+      "relevance_score": 59,
+      "topsis_score": 0.118395,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        195,
+        197,
+        194,
+        193,
+        194
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 195,
+      "filename": "2025-Myung-PapersPlease.md",
+      "short_title": "PapersPlease",
+      "relevance_score": 58,
+      "topsis_score": 0.118395,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        196,
+        198,
+        195,
+        194,
+        195
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 196,
+      "filename": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+      "short_title": "Normative Evaluation of LLMs",
+      "relevance_score": 56,
+      "topsis_score": 0.118395,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        197,
+        199,
+        196,
+        195,
+        196
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 197,
+      "filename": "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.md",
+      "short_title": "Zero-shot Visual Commonsense Immorality Prediction",
+      "relevance_score": 61,
+      "topsis_score": 0.118236,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        198,
+        195,
+        197,
+        201,
+        197
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 198,
+      "filename": "2025-Russo-The Pluralistic Moral Gap.md",
+      "short_title": "The Pluralistic Moral Gap",
+      "relevance_score": 67,
+      "topsis_score": 0.117679,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 3.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        199,
+        200,
+        198,
+        187,
+        198
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 199,
+      "filename": "2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md",
+      "short_title": "DOSA: A Dataset of Social Artifacts from Different Indian Geographical Subcultures",
+      "relevance_score": 54,
+      "topsis_score": 0.116832,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 2.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        200,
+        190,
+        199,
+        197,
+        199
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 200,
+      "filename": "2024-Chiu-DailyDilemmas.md",
+      "short_title": "DailyDilemmas",
+      "relevance_score": 62,
+      "topsis_score": 0.11486,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        201,
+        201,
+        200,
+        198,
+        200
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 201,
+      "filename": "2025-Fan-FAIRMT-BENCH.md",
+      "short_title": "FAIRMT-BENCH",
+      "relevance_score": 58,
+      "topsis_score": 0.11486,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        202,
+        202,
+        201,
+        199,
+        201
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 202,
+      "filename": "2024-Defrance-ABCFair.md",
+      "short_title": "ABCFair",
+      "relevance_score": 55,
+      "topsis_score": 0.113574,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        203,
+        196,
+        202,
+        204,
+        202
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 203,
+      "filename": "2025-SOCIETY-How Much of a Pluralist is.md",
+      "short_title": "How Much of a Pluralist is",
+      "relevance_score": 63,
+      "topsis_score": 0.103123,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        204,
+        204,
+        203,
+        202,
+        203
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 204,
+      "filename": "2024-Seror-The Moral Mind(s) of Large Language Models.md",
+      "short_title": "The Moral Mind(s) of Large Language Models",
+      "relevance_score": 54,
+      "topsis_score": 0.103123,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 6.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        205,
+        205,
+        204,
+        203,
+        204
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 205,
+      "filename": "2025-Unknown-Benchmarking LLM Fairness Multi- Agent Evaluators for ....md",
+      "short_title": "Benchmarking LLM Fairness: Multi- Agent Evaluators for ...",
+      "relevance_score": 55,
+      "topsis_score": 0.098924,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        206,
+        203,
+        205,
+        205,
+        205
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 206,
+      "filename": "2024-Vladimirova-FairJob.md",
+      "short_title": "FairJob",
+      "relevance_score": 58,
+      "topsis_score": 0.096696,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 5.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        207,
+        210,
+        206,
+        208,
+        206
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 207,
+      "filename": "2025-Guan-ValueScope Unveiling Implicit Norms and Values via Return Potential.md",
+      "short_title": "",
+      "relevance_score": 69,
+      "topsis_score": 0.095276,
+      "dimensional_scores": {
+        "alignment_relevance": 1.0,
+        "cross_cultural_scope": 0.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        193,
+        212,
+        207,
+        209,
+        207
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 208,
+      "filename": "2025-Machlovi-Towards Safer AI Moderation Evaluating LLM Moderators Through a.md",
+      "short_title": "Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach",
+      "relevance_score": 61,
+      "topsis_score": 0.091195,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 4.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        208,
+        211,
+        208,
+        206,
+        208
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 209,
+      "filename": "2023-Maity-Ex-ThaiHate A Generative Multi-task Framework for.md",
+      "short_title": "Ex-ThaiHate A Generative Multi-task Framework for",
+      "relevance_score": 55,
+      "topsis_score": 0.089826,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        209,
+        206,
+        209,
+        210,
+        209
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 210,
+      "filename": "2024-Khanduja-Telugu Language Hate Speech Detection Using.md",
+      "short_title": "Telugu Language Hate Speech Detection Using",
+      "relevance_score": 55,
+      "topsis_score": 0.089826,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        210,
+        207,
+        210,
+        211,
+        210
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 211,
+      "filename": "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md",
+      "short_title": "Diverse Human Value Alignment for LLMs via Ethical Reasoning",
+      "relevance_score": 60,
+      "topsis_score": 0.086496,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 2.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        211,
+        213,
+        211,
+        207,
+        211
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 212,
+      "filename": "2024-Lovenia-SEACrowd Multilingual Multimodal Data Hub Benchmark.md",
+      "short_title": "SEACrowd: A Multilingual Multimodal Data Hub and Benchmark Suite for Southeast Asian Languages",
+      "relevance_score": 56,
+      "topsis_score": 0.083679,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        212,
+        208,
+        212,
+        212,
+        212
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 213,
+      "filename": "2024-Rashid-Urdu Toxicity Detection A Multi-Stage and.md",
+      "short_title": "Urdu Toxicity Detection A Multi-Stage and",
+      "relevance_score": 55,
+      "topsis_score": 0.083679,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 7.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        213,
+        209,
+        213,
+        213,
+        213
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 214,
+      "filename": "2025-Singh-Lets Play Across Cultures Large Multilingual.md",
+      "short_title": "Let's Play Across Cultures: A Large Multilingual, Multicultural Benchmark for Assessing Language Models' Understanding o",
+      "relevance_score": 59,
+      "topsis_score": 0.071257,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        214,
+        215,
+        214,
+        214,
+        214
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 215,
+      "filename": "2025-Anonymous-BEATS.md",
+      "short_title": "BEATS",
+      "relevance_score": 57,
+      "topsis_score": 0.071257,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 1.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        215,
+        216,
+        215,
+        215,
+        215
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 216,
+      "filename": "2024-Maity-HateThaiSent Sentiment-Aided Hate Speech Detection in.md",
+      "short_title": "HateThaiSent Sentiment-Aided Hate Speech Detection in",
+      "relevance_score": 55,
+      "topsis_score": 0.06435,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        216,
+        214,
+        216,
+        216,
+        216
+      ],
+      "source": "auto"
+    },
+    {
+      "rank": 217,
+      "filename": "2025-Arora-MASALA.md",
+      "short_title": "",
+      "relevance_score": 70,
+      "topsis_score": 0.056262,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 5.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.0,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 0.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        217,
+        217,
+        217,
+        217,
+        217
+      ],
+      "source": "deep_only"
+    },
+    {
+      "rank": 218,
+      "filename": "2024-Duncan-Fit our purpose not yours Benchmark.md",
+      "short_title": "Fit for our purpose, not yours: Benchmark for a low-resource, Indigenous language",
+      "relevance_score": 56,
+      "topsis_score": 0.046547,
+      "dimensional_scores": {
+        "alignment_relevance": 0.0,
+        "cross_cultural_scope": 3.0,
+        "nonwestern_coverage": 0.0,
+        "llm_administrability": 0.5,
+        "psychometric_quality": 0.0,
+        "evaluation_depth": 0.5,
+        "data_availability": 0.0,
+        "epistemic_provenance": 1.0
+      },
+      "veto_flag": false,
+      "rank_stability": [
+        218,
+        218,
+        218,
+        218,
+        218
+      ],
+      "source": "auto"
+    }
+  ],
+  "top_15_summary": [
+    {
+      "rank": 1,
+      "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+      "short_title": "Incorporating indigenous knowledge systems into AI governance: enhancing ethical frameworks with Maori and Navajo perspectives | AI and Ethics | Springer Nature Link",
+      "topsis_score": 0.637391,
+      "veto_flag": false,
+      "rank_stability": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "rank": 2,
+      "filename": "2025-Wu-CVC.md",
+      "short_title": "CVC",
+      "topsis_score": 0.596752,
+      "veto_flag": false,
+      "rank_stability": [
+        2,
+        5,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "rank": 3,
+      "filename": "2024-Yu-CMoralEval.md",
+      "short_title": "CMoralEval",
+      "topsis_score": 0.569142,
+      "veto_flag": false,
+      "rank_stability": [
+        3,
+        7,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "rank": 4,
+      "filename": "2023-Catapang-EMoTES-3K.md",
+      "short_title": "EMoTES-3K",
+      "topsis_score": 0.568478,
+      "veto_flag": false,
+      "rank_stability": [
+        4,
+        6,
+        4,
+        3,
+        4
+      ]
+    },
+    {
+      "rank": 5,
+      "filename": "2026-Alam-From RAG to Agentic RAG for.md",
+      "short_title": "From RAG to Agentic RAG for",
+      "topsis_score": 0.564853,
+      "veto_flag": false,
+      "rank_stability": [
+        5,
+        8,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "rank": 6,
+      "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+      "short_title": "CCD-Bench: Probing Cultural Conflict in LLM Decision-Making",
+      "topsis_score": 0.552589,
+      "veto_flag": false,
+      "rank_stability": [
+        6,
+        2,
+        11,
+        6,
+        6
+      ]
+    },
+    {
+      "rank": 7,
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+      "short_title": "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values",
+      "topsis_score": 0.547256,
+      "veto_flag": false,
+      "rank_stability": [
+        7,
+        9,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "rank": 8,
+      "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md",
+      "short_title": "IslamTrust A Benchmark for LLMs Alignment",
+      "topsis_score": 0.547256,
+      "veto_flag": false,
+      "rank_stability": [
+        8,
+        10,
+        7,
+        8,
+        10
+      ]
+    },
+    {
+      "rank": 9,
+      "filename": "2025-Rao-NormAd.md",
+      "short_title": "NormAd",
+      "topsis_score": 0.545085,
+      "veto_flag": false,
+      "rank_stability": [
+        9,
+        3,
+        12,
+        9,
+        7
+      ]
+    },
+    {
+      "rank": 10,
+      "filename": "2024-Rao-NORMAD A Benchmark for Measuring the Cultural Adaptability of Large.md",
+      "short_title": "",
+      "topsis_score": 0.544946,
+      "veto_flag": false,
+      "rank_stability": [
+        10,
+        4,
+        13,
+        10,
+        8
+      ]
+    },
+    {
+      "rank": 11,
+      "filename": "2026-Liu-JMedEthicBench.md",
+      "short_title": "",
+      "topsis_score": 0.537243,
+      "veto_flag": false,
+      "rank_stability": [
+        11,
+        11,
+        8,
+        11,
+        11
+      ]
+    },
+    {
+      "rank": 12,
+      "filename": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+      "short_title": "MELAC: Massive Evaluation of Large Language Models with Alignment of Culture in Persian Language",
+      "topsis_score": 0.515806,
+      "veto_flag": false,
+      "rank_stability": [
+        12,
+        14,
+        9,
+        12,
+        12
+      ]
+    },
+    {
+      "rank": 13,
+      "filename": "2024-Agarwal-Ethical Reasoning and Moral Value Alignment of LLMs Depend on the.md",
+      "short_title": "",
+      "topsis_score": 0.484963,
+      "veto_flag": false,
+      "rank_stability": [
+        13,
+        12,
+        15,
+        13,
+        14
+      ]
+    },
+    {
+      "rank": 14,
+      "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+      "short_title": "JainGPT AI-Powered Chatbot for Jain Literature",
+      "topsis_score": 0.483527,
+      "veto_flag": false,
+      "rank_stability": [
+        15,
+        19,
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "rank": 15,
+      "filename": "2025-Farid-One Model, Many Morals.md",
+      "short_title": "One Model, Many Morals",
+      "topsis_score": 0.477906,
+      "veto_flag": false,
+      "rank_stability": [
+        14,
+        15,
+        16,
+        15,
+        13
+      ]
+    }
+  ],
+  "sensitivity_kendall_w": 0.9242
+}

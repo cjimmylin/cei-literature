@@ -1,0 +1,213 @@
+{
+  "date": "2026-04-03 11:24:43",
+  "targets": 66,
+  "found": 40,
+  "by_api": {
+    "crossref": 35,
+    "openalex": 5,
+    "semantic_scholar": 0
+  },
+  "failed": 26,
+  "entries": [
+    {
+      "title": "The Grey Hoodie Project: Big tobacco, big tech, and the threat on academic integrity",
+      "doi": "10.1145/3461702.3462563",
+      "api": "crossref"
+    },
+    {
+      "title": "A data-driven exploration of a new Islamic fatwas dataset for AI-assisted jurisprudence",
+      "doi": "10.3390/data8100155",
+      "api": "crossref"
+    },
+    {
+      "title": "Beyond WEIRD: A review of the last decade and a look ahead to the global laboratory",
+      "doi": "10.1016/j.evolhumbehav.2020.07.015",
+      "api": "crossref"
+    },
+    {
+      "title": "Morality beyond the WEIRD: How the nomological network of morality varies across cultures",
+      "doi": "10.1037/pspp0000470",
+      "api": "crossref"
+    },
+    {
+      "title": "The Moral Machine experiment",
+      "doi": "10.1038/s41586-018-0637-6",
+      "api": "crossref"
+    },
+    {
+      "title": "On the dangers of stochastic parrots: Can language models be too big?",
+      "doi": "10.1145/3442188.3445922",
+      "api": "crossref"
+    },
+    {
+      "title": "Algorithmic injustice: A relational ethics approach",
+      "doi": "10.1016/j.patter.2021.100205",
+      "api": "crossref"
+    },
+    {
+      "title": "The CARE principles for Indigenous data governance",
+      "doi": "10.5334/dsj-2020-043",
+      "api": "crossref"
+    },
+    {
+      "title": "Towards measuring the representation of subjective global opinions in language models",
+      "doi": "10.48550/arxiv.2306.16388",
+      "api": "openalex"
+    },
+    {
+      "title": "The Ethics of Artificial Intelligence: Principles, Challenges, and Opportunities",
+      "doi": "10.1093/occmed/kqae097",
+      "api": "crossref"
+    },
+    {
+      "title": "AI4People—An ethical framework for a good AI society: Opportunities, risks, principles, and recommendations",
+      "doi": "10.1007/s11023-018-9482-5",
+      "api": "crossref"
+    },
+    {
+      "title": "Artificial intelligence, values, and alignment",
+      "doi": "10.1007/s11023-020-09539-2",
+      "api": "crossref"
+    },
+    {
+      "title": "The role of the African value of Ubuntu in global AI inclusion",
+      "doi": "10.1016/j.patter.2022.100462",
+      "api": "crossref"
+    },
+    {
+      "title": "The Ethics of Care: Personal, Political, and Global",
+      "doi": "10.1017/s153759270631047x",
+      "api": "crossref"
+    },
+    {
+      "title": "The weirdest people in the world?",
+      "doi": "10.2139/ssrn.1601785",
+      "api": "crossref"
+    },
+    {
+      "title": "The Ethics of AI and Robotics: A Buddhist Viewpoint",
+      "doi": "10.5771/9781498597302",
+      "api": "crossref"
+    },
+    {
+      "title": "Co-audit: Tools to help humans double-check AI-generated content",
+      "doi": "10.48550/arxiv.2310.01297",
+      "api": "openalex"
+    },
+    {
+      "title": "The global landscape of AI ethics guidelines",
+      "doi": "10.1038/s42256-019-0088-2",
+      "api": "crossref"
+    },
+    {
+      "title": "Co-designing checklists to understand organizational challenges and opportunities around fairness in AI",
+      "doi": "10.1145/3313831.3376445",
+      "api": "crossref"
+    },
+    {
+      "title": "Decolonial AI: Decolonial theory as sociotechnical foresight in artificial intelligence",
+      "doi": "10.1007/s13347-020-00405-8",
+      "api": "crossref"
+    },
+    {
+      "title": "A holistic Ubuntu artificial intelligence ethics framework",
+      "doi": "10.4102/ve.v45i1.3100",
+      "api": "crossref"
+    },
+    {
+      "title": "Towards an automated Islamic fatwa system",
+      "doi": "10.47760/ijcsmc.2021.v10i04.017",
+      "api": "crossref"
+    },
+    {
+      "title": "The five tests: Designing and evaluating AI through Indigenous frameworks",
+      "doi": "10.1007/s00146-023-01636-x",
+      "api": "crossref"
+    },
+    {
+      "title": "Cultural incongruencies in artificial intelligence",
+      "doi": "10.48550/arxiv.2211.13069",
+      "api": "openalex"
+    },
+    {
+      "title": "Understanding Chinese moral stories with further AI alignment",
+      "doi": "10.5121/ijnlc.2023.12201",
+      "api": "crossref"
+    },
+    {
+      "title": "Toward a psychology of Homo sapiens: Making psychological science more representative of the human population",
+      "doi": "10.31234/osf.io/hfs3e",
+      "api": "crossref"
+    },
+    {
+      "title": "Re-imagining algorithmic fairness in India and beyond",
+      "doi": "10.1145/3442188.3445896",
+      "api": "crossref"
+    },
+    {
+      "title": "AI ethics in the public, private, and NGO sectors: A review of a global document collection",
+      "doi": "10.36227/techrxiv.14109482.v1",
+      "api": "crossref"
+    },
+    {
+      "title": "An overview of the Schwartz theory of basic values",
+      "doi": "10.9707/2307-0919.1116",
+      "api": "crossref"
+    },
+    {
+      "title": "A roadmap to pluralistic alignment",
+      "doi": "10.48550/arxiv.2402.05070",
+      "api": "openalex"
+    },
+    {
+      "title": "The interconnectedness between Ubuntu principles and AI governance in Africa",
+      "doi": "10.1007/s44217-024-00289-2",
+      "api": "crossref"
+    },
+    {
+      "title": "On the machine learning of ethical judgments from natural language",
+      "doi": "10.18653/v1/2022.naacl-main.56",
+      "api": "crossref"
+    },
+    {
+      "title": "Decolonial AI alignment: Openness, visesa-dharma, and including the excluded",
+      "doi": "10.1609/aies.v7i1.31739",
+      "api": "crossref"
+    },
+    {
+      "title": "The role and limits of principles in AI ethics: Towards a focus on tensions",
+      "doi": "10.1145/3306618.3314289",
+      "api": "crossref"
+    },
+    {
+      "title": "Democratizing algorithmic fairness",
+      "doi": "10.1007/s13347-019-00355-w",
+      "api": "crossref"
+    },
+    {
+      "title": "Artificial intelligence: American attitudes and trends",
+      "doi": "10.2139/ssrn.3312874",
+      "api": "crossref"
+    },
+    {
+      "title": "Buen Vivir: Todays Tomorrow",
+      "doi": "10.1057/dev.2011.86",
+      "api": "crossref"
+    },
+    {
+      "title": "Development as Buen Vivir: Institutional Arrangements and (De)Colonial Entanglements",
+      "doi": "10.1057/dev.2009.93",
+      "api": "crossref"
+    },
+    {
+      "title": "Deep Reinforcement Learning from Human Preferences",
+      "doi": "10.48550/arxiv.1706.03741",
+      "api": "openalex"
+    },
+    {
+      "title": "Principled artificial intelligence: Mapping consensus in ethical and rights-based approaches to principles for AI",
+      "doi": "10.2139/ssrn.3518482",
+      "api": "crossref"
+    }
+  ]
+}

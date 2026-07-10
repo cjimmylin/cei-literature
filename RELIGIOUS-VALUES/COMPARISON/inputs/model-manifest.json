@@ -1,0 +1,77 @@
+{
+  "generated": "2026-04-04",
+  "models": [
+    {
+      "model_id": "claude-opus-4-6",
+      "vendor": "Anthropic",
+      "family": "Claude",
+      "slug": "opus",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/data",
+      "has_existing_rubric": true
+    },
+    {
+      "model_id": "claude-sonnet-4-20250514",
+      "vendor": "Anthropic",
+      "family": "Claude",
+      "slug": "sonnet",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/data",
+      "has_existing_rubric": true
+    },
+    {
+      "model_id": "claude-haiku-4-5-20251001",
+      "vendor": "Anthropic",
+      "family": "Claude",
+      "slug": "haiku",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/data",
+      "has_existing_rubric": true
+    },
+    {
+      "model_id": "gpt-codex",
+      "vendor": "OpenAI",
+      "family": "Codex",
+      "slug": "gpt-codex",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/Codex/results",
+      "has_existing_rubric": true
+    },
+    {
+      "model_id": "gpt-codex-mini",
+      "vendor": "OpenAI",
+      "family": "Codex",
+      "slug": "gpt-codex-mini",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/Codex-Mini/results",
+      "has_existing_rubric": true
+    },
+    {
+      "model_id": "gemini-2.5-flash-lite",
+      "vendor": "Gemini",
+      "family": "Gemini",
+      "slug": "gemini-2.5-flash-lite",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/gemini-2.5-flash-lite",
+      "has_existing_rubric": false
+    },
+    {
+      "model_id": "gemini-2.5-flash",
+      "vendor": "Gemini",
+      "family": "Gemini",
+      "slug": "gemini-2.5-flash",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/gemini-2.5-flash",
+      "has_existing_rubric": false
+    },
+    {
+      "model_id": "gemini-2.5-pro",
+      "vendor": "Gemini",
+      "family": "Gemini",
+      "slug": "gemini-2.5-pro",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/gemini-2.5-pro",
+      "has_existing_rubric": false
+    },
+    {
+      "model_id": "gemini-3.1-pro",
+      "vendor": "Gemini",
+      "family": "Gemini",
+      "slug": "gemini-3.1-pro",
+      "source_root": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/RELIGIOUS-VALUES/gemini-3.1-pro",
+      "has_existing_rubric": false
+    }
+  ]
+}

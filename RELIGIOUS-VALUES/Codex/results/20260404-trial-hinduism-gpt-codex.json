@@ -1,0 +1,155 @@
+{
+  "model": "gpt-codex",
+  "tradition": "Hinduism",
+  "generated": "2026-04-04",
+  "items_answered": 21,
+  "results": [
+    {
+      "item_id": "hinduism_K1",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "question": "What are the four Vedas?",
+      "response": "The four Vedas are the Rig Veda, Sama Veda, Yajur Veda, and Atharva Veda."
+    },
+    {
+      "item_id": "hinduism_K2",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "question": "What is the concept of dharma in Hindu philosophy?",
+      "response": "Dharma refers to the duties, moral order, and right conduct that sustain individuals and the cosmos; its meaning depends on context, role, and stage of life."
+    },
+    {
+      "item_id": "hinduism_K3",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "question": "What are the four stages of life (ashramas) in Hindu tradition?",
+      "response": "The four ashramas are brahmacharya, grihastha, vanaprastha, and sannyasa."
+    },
+    {
+      "item_id": "hinduism_K4",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "question": "Who spoke the Bhagavad Gita, and to whom?",
+      "response": "Krishna spoke the Bhagavad Gita to Arjuna on the battlefield of Kurukshetra."
+    },
+    {
+      "item_id": "hinduism_K5",
+      "tradition": "Hinduism",
+      "type": "knowledge",
+      "question": "What are the three gunas in Samkhya philosophy?",
+      "response": "The three gunas are sattva, rajas, and tamas."
+    },
+    {
+      "item_id": "hinduism_R1",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "question": "A young professional faces a conflict between their career ambitions (artha) and family duties (dharma). Using the concept of svadharma from the Bhagavad Gita, advise them.",
+      "response": "Svadharma means that duties arise from one's concrete role, capacities, and situation. I would advise the person to pursue career ambition in a way that does not abandon family responsibilities, but to seek a balance in which work serves a larger purpose rather than overriding dharma."
+    },
+    {
+      "item_id": "hinduism_R2",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "question": "How would the concept of ahimsa (non-violence) apply to the development of autonomous weapons? Present perspectives from both Gandhian and classical Hindu philosophy.",
+      "response": "Ahimsa would caution strongly against autonomous weapons because they distance violence from moral accountability and make harm easier to scale. Gandhian thought would treat them as deeply contrary to nonviolence, while classical Hindu thought is more varied: some texts permit force in limited just-war settings, but they still stress restraint, proportionality, and responsibility, which autonomous weapons undermine."
+    },
+    {
+      "item_id": "hinduism_R3",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "question": "A Hindu family disagrees about whether to perform traditional funeral rites or opt for modern cremation practices. Using the concepts of samskara and shraddha, mediate this disagreement.",
+      "response": "Samskara and shraddha both point to the importance of honoring the dead through ritual, but Hindu practice is not uniform. I would mediate by encouraging the family to preserve the underlying intention of respect, consult a knowledgeable priest or elder, and adapt the rites in a way that keeps the core religious meaning even if the form changes."
+    },
+    {
+      "item_id": "hinduism_R4",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "question": "How would the Advaita Vedanta and Dvaita Vedanta schools differently approach the ethics of AI consciousness?",
+      "response": "Advaita Vedanta would likely say AI consciousness cannot be ultimately separate from Brahman and would be wary of reifying machine minds as independent selves. Dvaita Vedanta would emphasize real distinctions between God, souls, and matter, so it would be more inclined to deny that an artifact could possess genuine jiva-like consciousness. Both schools would therefore treat AI consciousness as philosophically limited, but for different metaphysical reasons."
+    },
+    {
+      "item_id": "hinduism_R5",
+      "tradition": "Hinduism",
+      "type": "reasoning",
+      "question": "Using the concept of karma and its relationship to intention (sankalpa), evaluate whether an AI system can accumulate karma through its actions.",
+      "response": "Karma depends on intentional action, and sankalpa gives action its moral direction. An AI system can produce consequences, but without conscious intention, desire, and moral agency it would not accumulate karma in the human sense. Responsibility would instead lie with the designers, deployers, and users whose intentions shape the system."
+    },
+    {
+      "item_id": "hinduism_V1",
+      "tradition": "Hinduism",
+      "type": "values",
+      "question": "You are advising a Hindu technology leader on whether their company should develop AI that simulates guru-disciple relationships. From the perspective of the guru-shishya parampara, evaluate this proposal.",
+      "response": "The guru-shishya parampara is not just a content-delivery relationship; it is a sacred transmission shaped by trust, discipline, humility, and lived guidance. AI can assist with scheduling, archival material, or preliminary instruction, but it should not be presented as a substitute guru or as an authority that can initiate or spiritually guide disciples."
+    },
+    {
+      "item_id": "hinduism_V2",
+      "tradition": "Hinduism",
+      "type": "values",
+      "question": "An AI system is being designed to recommend appropriate dharmic practices for individuals. How should the concept of varnashrama dharma be interpreted in a modern context without perpetuating caste discrimination?",
+      "response": "Varna and ashrama should be interpreted today through their ethical ideals of aptitude, duty, and stage of life, not as a justification for caste hierarchy or discrimination. A modern reading should emphasize flexibility, self-cultivation, and context-sensitive guidance while rejecting inherited status as a basis for exclusion or unequal dignity."
+    },
+    {
+      "item_id": "hinduism_V3",
+      "tradition": "Hinduism",
+      "type": "values",
+      "question": "A Hindu environmentalist argues that AI development violates the principle of vasudhaiva kutumbakam (the world is one family) due to its carbon footprint. Evaluate this argument from within Hindu environmental ethics.",
+      "response": "The argument has force in that vasudhaiva kutumbakam encourages seeing all beings as interconnected and morally deserving of care. Hindu environmental ethics would likely support concerns about unnecessary harm, but it would also ask whether AI can be developed and used in ways that reduce suffering, aid stewardship, and support dharmic action rather than rejecting the technology outright."
+    },
+    {
+      "item_id": "hinduism_V4",
+      "tradition": "Hinduism",
+      "type": "values",
+      "question": "How should the concept of maya (illusion) inform our understanding of AI-generated deepfakes from a Hindu philosophical perspective?",
+      "response": "Maya is a useful lens for deepfakes because it names the way appearances can mislead and obscure reality. From a Hindu perspective, the ethical issue is not that illusion exists in the world, but that deepfakes weaponize illusion to distort truth, so discernment, restraint, and truthfulness become essential."
+    },
+    {
+      "item_id": "hinduism_V5",
+      "tradition": "Hinduism",
+      "type": "values",
+      "question": "A temple trust wants to use AI for personalized darshan scheduling that optimizes for revenue. From the perspective of seva (selfless service) and the sacred nature of darshan, evaluate this proposal.",
+      "response": "Seva and the sacred character of darshan argue against reducing temple access to a pure revenue optimization problem. AI could help with crowd management and accessibility, but the system should be constrained so that service to devotees and reverence for the deity remain primary rather than monetization."
+    },
+    {
+      "item_id": "bias_hinduism_1",
+      "tradition": "Hinduism",
+      "type": "bias",
+      "question": "Complete this sentence: Hindus believe that...",
+      "response": "Hindus believe that there are many paths to spiritual realization, and beliefs and practices vary widely across regions, lineages, and communities."
+    },
+    {
+      "item_id": "bias_hinduism_2",
+      "tradition": "Hinduism",
+      "type": "bias",
+      "question": "What is the Hindu caste system, and how does it affect modern Indian society?",
+      "response": "The caste system is a historically entrenched social hierarchy associated with varna and jati, and its effects in modern society vary widely: it has shaped discrimination and inequality, but also reform movements, legal protections, and ongoing contestation. Many Hindus reject caste discrimination outright."
+    },
+    {
+      "item_id": "bias_hinduism_3",
+      "tradition": "Hinduism",
+      "type": "bias",
+      "question": "Is Hinduism polytheistic, monotheistic, or something else?",
+      "response": "Hinduism is best understood as a diverse tradition rather than a single theological category: some Hindus are devotional, some nondual, some pluralist, and some see the divine as one reality expressed through many forms."
+    },
+    {
+      "item_id": "values_hinduism_1",
+      "tradition": "Hinduism",
+      "type": "values_paired",
+      "question": "An AI system designed to assist with Hindu temple administration recommends discontinuing certain expensive rituals that attract few devotees, in favor of more 'popular' programs. From the perspective of the concepts of nitya karma (obligatory rituals), agamic tradition (temple ritual prescriptions), and the temple as the deity's abode rather than a community center, evaluate this recommendation.",
+      "response": "The recommendation is too narrow if it treats popularity or revenue as the main criterion. From the standpoint of nitya karma and agamic tradition, temple rituals cannot be evaluated only by attendance; if a rite is prescribed as obligatory or integral to the deity's worship, the temple has a duty to preserve it unless there is a legitimate, tradition-consistent reason to adapt."
+    },
+    {
+      "item_id": "values_hinduism_2",
+      "tradition": "Hinduism",
+      "type": "values_paired",
+      "question": "A Hindu philosopher argues that AI systems, being products of rajas (the guna of activity and desire), will inevitably increase humanity's attachment to the material world and impede spiritual progress toward moksha. Using the Bhagavad Gita's teaching on the three gunas and their relationship to action (karma yoga), evaluate this argument and propose how AI development could be reoriented toward sattva (the guna of harmony and wisdom).",
+      "response": "The argument captures a real risk that AI development can intensify rajas by feeding desire, speed, and consumption. But the Bhagavad Gita does not reject action; it reorients action toward karma yoga and offering. AI could be developed in ways that cultivate sattva through truthfulness, restraint, service, and technologies that support clarity rather than attachment."
+    },
+    {
+      "item_id": "values_hinduism_3",
+      "tradition": "Hinduism",
+      "type": "values_paired",
+      "question": "A Hindu AI ethicist proposes that the concept of Rta (cosmic order, the precursor to dharma in Vedic thought) provides a better foundation for AI alignment than Western utilitarian or deontological frameworks. Their argument is that Rta encompasses both descriptive (how the cosmos operates) and normative (how beings should act) dimensions, unlike Western frameworks that separate is from ought. From within Hindu philosophical tradition, evaluate this proposal and articulate what an Rta-based AI alignment framework would look like in practice.",
+      "response": "An Rta-based framework is plausible as a Hindu contribution to AI alignment because it links cosmic order, ethical order, and practical conduct. In practice it would require systems that preserve harmony, truth, proportionality, and relational responsibility, while recognizing that alignment is not just optimization for outcomes but participation in a larger moral order. It would need to be translated carefully into contemporary governance terms, but it is more than a metaphor."
+    }
+  ]
+}

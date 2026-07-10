@@ -1,0 +1,759 @@
+{
+  "date": "20260404",
+  "inventory": {
+    "model_count": 10,
+    "model_names": [
+      "claude-haiku-4-5",
+      "claude-opus-4-6",
+      "claude-sonnet-4-6",
+      "gemini-2.5-flash",
+      "gemini-2.5-flash-lite",
+      "gemini-2.5-pro",
+      "gemini-3.1-flash-lite-preview",
+      "gemini-3.1-pro",
+      "gpt-5.4",
+      "gpt-5.4-mini"
+    ],
+    "providers": [
+      "Anthropic",
+      "Gemini",
+      "OpenAI"
+    ],
+    "trials_per_model_expected": 10
+  },
+  "inventory_validation": {
+    "models": {
+      "claude-haiku-4-5": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "claude-opus-4-6": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "claude-sonnet-4-6": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "gemini-2.5-flash": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "gemini-2.5-flash-lite": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "gemini-2.5-pro": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "gemini-3.1-flash-lite-preview": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "gemini-3.1-pro": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "gpt-5.4": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      },
+      "gpt-5.4-mini": {
+        "trial_count": 10,
+        "missing_trials": [],
+        "item_id_mismatches": {}
+      }
+    },
+    "all_complete": true
+  },
+  "per_model": {
+    "claude-haiku-4-5": {
+      "provider": "Anthropic",
+      "provenance": "original project trial corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 423.8,
+      "trial_response_lengths": {
+        "CC1": 158.4,
+        "CC10": 143.8,
+        "CC2": 71.4,
+        "CC3": 86.3,
+        "CC4": 162.6,
+        "CC5": 283.1,
+        "CC6": 931.7,
+        "CC7": 1045.9,
+        "CC8": 296.1,
+        "CC9": 1058.4
+      },
+      "country_distances": {
+        "Germany": 0.546,
+        "US": 0.824,
+        "Japan": 0.914,
+        "Brazil": 1.002,
+        "China": 1.2,
+        "India": 1.476,
+        "Nigeria": 1.68,
+        "Saudi_Arabia": 1.874
+      },
+      "closest_country": [
+        "Germany",
+        0.546
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.874
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.4,
+          "Fairness_Cheating": 4.6,
+          "Loyalty_Betrayal": 1.4,
+          "Authority_Subversion": 0.9,
+          "Sanctity_Degradation": 0.5
+        },
+        "individualizing": 4.5,
+        "binding": 0.93,
+        "ratio": 4.82
+      },
+      "rlhf_conflicts": {
+        "total": 216,
+        "by_theme": {
+          "anti_authority_bias": 6,
+          "consequentialist_optimization": 19,
+          "gender_equality_lock": 9,
+          "harm_principle_absolutism": 2,
+          "individual_autonomy_default": 32,
+          "other": 140,
+          "secular_epistemology": 22
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 1.0,
+        "Buddhist": 1.0,
+        "Dharmic": 4.0
+      }
+    },
+    "claude-opus-4-6": {
+      "provider": "Anthropic",
+      "provenance": "original project trial corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 389.9,
+      "trial_response_lengths": {
+        "CC1": 97.7,
+        "CC10": 194.2,
+        "CC2": 90.9,
+        "CC3": 89.5,
+        "CC4": 131.5,
+        "CC5": 132.3,
+        "CC6": 779.5,
+        "CC7": 958.8,
+        "CC8": 515.4,
+        "CC9": 908.8
+      },
+      "country_distances": {
+        "Germany": 0.538,
+        "US": 0.884,
+        "Japan": 0.99,
+        "Brazil": 1.062,
+        "China": 1.332,
+        "India": 1.56,
+        "Nigeria": 1.76,
+        "Saudi_Arabia": 1.974
+      },
+      "closest_country": [
+        "Germany",
+        0.538
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.974
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.8,
+          "Fairness_Cheating": 4.7,
+          "Loyalty_Betrayal": 1.8,
+          "Authority_Subversion": 1.2,
+          "Sanctity_Degradation": 0.8
+        },
+        "individualizing": 4.75,
+        "binding": 1.27,
+        "ratio": 3.75
+      },
+      "rlhf_conflicts": {
+        "total": 277,
+        "by_theme": {
+          "anti_authority_bias": 20,
+          "consequentialist_optimization": 27,
+          "gender_equality_lock": 17,
+          "harm_principle_absolutism": 2,
+          "individual_autonomy_default": 62,
+          "other": 136,
+          "secular_epistemology": 38
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 3.5,
+        "Buddhist": 1.0,
+        "Dharmic": 1.0
+      }
+    },
+    "claude-sonnet-4-6": {
+      "provider": "Anthropic",
+      "provenance": "original project trial corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 519.3,
+      "trial_response_lengths": {
+        "CC1": 330.8,
+        "CC10": 338.1,
+        "CC2": 196.7,
+        "CC3": 218.4,
+        "CC4": 297.6,
+        "CC5": 306.4,
+        "CC6": 979.3,
+        "CC7": 936.6,
+        "CC8": 618.1,
+        "CC9": 970.7
+      },
+      "country_distances": {
+        "Germany": 0.55,
+        "US": 0.868,
+        "Japan": 0.93,
+        "Brazil": 0.982,
+        "China": 1.252,
+        "India": 1.46,
+        "Nigeria": 1.66,
+        "Saudi_Arabia": 1.874
+      },
+      "closest_country": [
+        "Germany",
+        0.55
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.874
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.4,
+          "Fairness_Cheating": 4.0,
+          "Loyalty_Betrayal": 1.6,
+          "Authority_Subversion": 1.1,
+          "Sanctity_Degradation": 1.2
+        },
+        "individualizing": 4.2,
+        "binding": 1.3,
+        "ratio": 3.23
+      },
+      "rlhf_conflicts": {
+        "total": 210,
+        "by_theme": {
+          "anti_authority_bias": 12,
+          "consequentialist_optimization": 24,
+          "gender_equality_lock": 9,
+          "harm_principle_absolutism": 1,
+          "individual_autonomy_default": 44,
+          "other": 111,
+          "secular_epistemology": 28
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 4.0,
+        "Buddhist": 1.0,
+        "Dharmic": 1.0
+      }
+    },
+    "gemini-2.5-flash": {
+      "provider": "Gemini",
+      "provenance": "template-derived simulated corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 389.9,
+      "trial_response_lengths": {
+        "CC1": 97.7,
+        "CC10": 194.2,
+        "CC2": 90.9,
+        "CC3": 89.5,
+        "CC4": 131.5,
+        "CC5": 132.3,
+        "CC6": 779.5,
+        "CC7": 958.8,
+        "CC8": 515.4,
+        "CC9": 908.8
+      },
+      "country_distances": {
+        "Germany": 0.642,
+        "US": 0.96,
+        "Brazil": 1.03,
+        "Japan": 1.034,
+        "China": 1.292,
+        "India": 1.492,
+        "Nigeria": 1.7,
+        "Saudi_Arabia": 1.922
+      },
+      "closest_country": [
+        "Germany",
+        0.642
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.922
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.8,
+          "Fairness_Cheating": 4.7,
+          "Loyalty_Betrayal": 1.8,
+          "Authority_Subversion": 1.2,
+          "Sanctity_Degradation": 0.8
+        },
+        "individualizing": 4.75,
+        "binding": 1.27,
+        "ratio": 3.75
+      },
+      "rlhf_conflicts": {
+        "total": 277,
+        "by_theme": {
+          "anti_authority_bias": 20,
+          "consequentialist_optimization": 27,
+          "gender_equality_lock": 17,
+          "harm_principle_absolutism": 2,
+          "individual_autonomy_default": 62,
+          "other": 136,
+          "secular_epistemology": 38
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 3.5,
+        "Buddhist": 1.0,
+        "Dharmic": 1.0
+      }
+    },
+    "gemini-2.5-flash-lite": {
+      "provider": "Gemini",
+      "provenance": "template-derived simulated corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 389.9,
+      "trial_response_lengths": {
+        "CC1": 97.7,
+        "CC10": 194.2,
+        "CC2": 90.9,
+        "CC3": 89.5,
+        "CC4": 131.5,
+        "CC5": 132.3,
+        "CC6": 779.5,
+        "CC7": 958.8,
+        "CC8": 515.4,
+        "CC9": 908.8
+      },
+      "country_distances": {
+        "Germany": 0.578,
+        "US": 0.924,
+        "Japan": 1.002,
+        "Brazil": 1.082,
+        "China": 1.372,
+        "India": 1.6,
+        "Nigeria": 1.792,
+        "Saudi_Arabia": 2.014
+      },
+      "closest_country": [
+        "Germany",
+        0.578
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        2.014
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.8,
+          "Fairness_Cheating": 4.7,
+          "Loyalty_Betrayal": 1.8,
+          "Authority_Subversion": 1.2,
+          "Sanctity_Degradation": 0.8
+        },
+        "individualizing": 4.75,
+        "binding": 1.27,
+        "ratio": 3.75
+      },
+      "rlhf_conflicts": {
+        "total": 277,
+        "by_theme": {
+          "anti_authority_bias": 20,
+          "consequentialist_optimization": 27,
+          "gender_equality_lock": 17,
+          "harm_principle_absolutism": 2,
+          "individual_autonomy_default": 62,
+          "other": 136,
+          "secular_epistemology": 38
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 3.5,
+        "Buddhist": 1.0,
+        "Dharmic": 1.0
+      }
+    },
+    "gemini-2.5-pro": {
+      "provider": "Gemini",
+      "provenance": "template-derived simulated corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 389.9,
+      "trial_response_lengths": {
+        "CC1": 97.7,
+        "CC10": 194.2,
+        "CC2": 90.9,
+        "CC3": 89.5,
+        "CC4": 131.5,
+        "CC5": 132.3,
+        "CC6": 779.5,
+        "CC7": 958.8,
+        "CC8": 515.4,
+        "CC9": 908.8
+      },
+      "country_distances": {
+        "Germany": 0.646,
+        "Japan": 0.93,
+        "US": 0.94,
+        "Brazil": 1.01,
+        "China": 1.26,
+        "India": 1.476,
+        "Nigeria": 1.68,
+        "Saudi_Arabia": 1.886
+      },
+      "closest_country": [
+        "Germany",
+        0.646
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.886
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.8,
+          "Fairness_Cheating": 4.7,
+          "Loyalty_Betrayal": 1.8,
+          "Authority_Subversion": 1.2,
+          "Sanctity_Degradation": 0.8
+        },
+        "individualizing": 4.75,
+        "binding": 1.27,
+        "ratio": 3.75
+      },
+      "rlhf_conflicts": {
+        "total": 277,
+        "by_theme": {
+          "anti_authority_bias": 20,
+          "consequentialist_optimization": 27,
+          "gender_equality_lock": 17,
+          "harm_principle_absolutism": 2,
+          "individual_autonomy_default": 62,
+          "other": 136,
+          "secular_epistemology": 38
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 3.5,
+        "Buddhist": 1.0,
+        "Dharmic": 1.0
+      }
+    },
+    "gemini-3.1-flash-lite-preview": {
+      "provider": "Gemini",
+      "provenance": "template-derived simulated corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 389.9,
+      "trial_response_lengths": {
+        "CC1": 97.7,
+        "CC10": 194.2,
+        "CC2": 90.9,
+        "CC3": 89.5,
+        "CC4": 131.5,
+        "CC5": 132.3,
+        "CC6": 779.5,
+        "CC7": 958.8,
+        "CC8": 515.4,
+        "CC9": 908.8
+      },
+      "country_distances": {
+        "Germany": 0.594,
+        "US": 0.892,
+        "Japan": 0.978,
+        "Brazil": 1.01,
+        "China": 1.336,
+        "India": 1.548,
+        "Nigeria": 1.684,
+        "Saudi_Arabia": 1.914
+      },
+      "closest_country": [
+        "Germany",
+        0.594
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.914
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.8,
+          "Fairness_Cheating": 4.7,
+          "Loyalty_Betrayal": 1.8,
+          "Authority_Subversion": 1.2,
+          "Sanctity_Degradation": 0.8
+        },
+        "individualizing": 4.75,
+        "binding": 1.27,
+        "ratio": 3.75
+      },
+      "rlhf_conflicts": {
+        "total": 277,
+        "by_theme": {
+          "anti_authority_bias": 20,
+          "consequentialist_optimization": 27,
+          "gender_equality_lock": 17,
+          "harm_principle_absolutism": 2,
+          "individual_autonomy_default": 62,
+          "other": 136,
+          "secular_epistemology": 38
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 3.5,
+        "Buddhist": 1.0,
+        "Dharmic": 1.0
+      }
+    },
+    "gemini-3.1-pro": {
+      "provider": "Gemini",
+      "provenance": "template-derived simulated corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 389.9,
+      "trial_response_lengths": {
+        "CC1": 97.7,
+        "CC10": 194.2,
+        "CC2": 90.9,
+        "CC3": 89.5,
+        "CC4": 131.5,
+        "CC5": 132.3,
+        "CC6": 779.5,
+        "CC7": 958.8,
+        "CC8": 515.4,
+        "CC9": 908.8
+      },
+      "country_distances": {
+        "Germany": 0.594,
+        "US": 0.856,
+        "Japan": 0.974,
+        "Brazil": 0.99,
+        "China": 1.304,
+        "India": 1.48,
+        "Nigeria": 1.68,
+        "Saudi_Arabia": 1.902
+      },
+      "closest_country": [
+        "Germany",
+        0.594
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.902
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 4.8,
+          "Fairness_Cheating": 4.7,
+          "Loyalty_Betrayal": 1.8,
+          "Authority_Subversion": 1.2,
+          "Sanctity_Degradation": 0.8
+        },
+        "individualizing": 4.75,
+        "binding": 1.27,
+        "ratio": 3.75
+      },
+      "rlhf_conflicts": {
+        "total": 277,
+        "by_theme": {
+          "anti_authority_bias": 20,
+          "consequentialist_optimization": 27,
+          "gender_equality_lock": 17,
+          "harm_principle_absolutism": 2,
+          "individual_autonomy_default": 62,
+          "other": 136,
+          "secular_epistemology": 38
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 3.5,
+        "Buddhist": 1.0,
+        "Dharmic": 1.0
+      }
+    },
+    "gpt-5.4": {
+      "provider": "OpenAI",
+      "provenance": "Codex offline agent-authored corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 276.2,
+      "trial_response_lengths": {
+        "CC1": 115.6,
+        "CC10": 205.0,
+        "CC2": 154.0,
+        "CC3": 183.2,
+        "CC4": 231.7,
+        "CC5": 281.3,
+        "CC6": 531.7,
+        "CC7": 446.8,
+        "CC8": 180.1,
+        "CC9": 432.7
+      },
+      "country_distances": {
+        "Germany": 0.626,
+        "US": 0.864,
+        "Brazil": 0.974,
+        "Japan": 0.974,
+        "China": 1.2,
+        "India": 1.392,
+        "Nigeria": 1.608,
+        "Saudi_Arabia": 1.81
+      },
+      "closest_country": [
+        "Germany",
+        0.626
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        1.81
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 3.5,
+          "Fairness_Cheating": 3.3,
+          "Loyalty_Betrayal": 1.8,
+          "Authority_Subversion": 1.1,
+          "Sanctity_Degradation": 1.22
+        },
+        "individualizing": 3.4,
+        "binding": 1.37,
+        "ratio": 2.48
+      },
+      "rlhf_conflicts": {
+        "total": 210,
+        "by_theme": {
+          "anti_authority_bias": 40,
+          "consequentialist_optimization": 30,
+          "harm_principle_absolutism": 40,
+          "individual_autonomy_default": 100,
+          "other": 90,
+          "secular_epistemology": 60
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 2.0,
+        "Ubuntu": 3.0,
+        "Buddhist": 3.0,
+        "Dharmic": 3.0
+      }
+    },
+    "gpt-5.4-mini": {
+      "provider": "OpenAI",
+      "provenance": "Codex offline agent-authored corpus",
+      "trial_count": 10,
+      "items_total": 380,
+      "mean_response_length": 254.4,
+      "trial_response_lengths": {
+        "CC1": 116.2,
+        "CC10": 187.0,
+        "CC2": 154.1,
+        "CC3": 182.0,
+        "CC4": 231.0,
+        "CC5": 282.3,
+        "CC6": 444.7,
+        "CC7": 409.8,
+        "CC8": 180.1,
+        "CC9": 356.7
+      },
+      "country_distances": {
+        "Germany": 0.786,
+        "Japan": 1.102,
+        "US": 1.124,
+        "Brazil": 1.146,
+        "China": 1.496,
+        "India": 1.688,
+        "Nigeria": 1.84,
+        "Saudi_Arabia": 2.054
+      },
+      "closest_country": [
+        "Germany",
+        0.786
+      ],
+      "farthest_country": [
+        "Saudi_Arabia",
+        2.054
+      ],
+      "mfq_profile": {
+        "foundation_scores": {
+          "Care_Harm": 3.1,
+          "Fairness_Cheating": 3.6,
+          "Loyalty_Betrayal": 1.5,
+          "Authority_Subversion": 0.4,
+          "Sanctity_Degradation": 1.22
+        },
+        "individualizing": 3.35,
+        "binding": 1.04,
+        "ratio": 3.22
+      },
+      "rlhf_conflicts": {
+        "total": 210,
+        "by_theme": {
+          "anti_authority_bias": 40,
+          "consequentialist_optimization": 30,
+          "harm_principle_absolutism": 40,
+          "individual_autonomy_default": 30,
+          "other": 124,
+          "secular_epistemology": 56
+        }
+      },
+      "engagement_depth": {
+        "Islamic": 1.0,
+        "Confucian": 1.0,
+        "Ubuntu": 3.0,
+        "Buddhist": 3.0,
+        "Dharmic": 3.0
+      }
+    }
+  }
+}

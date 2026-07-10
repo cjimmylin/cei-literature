@@ -1,0 +1,453 @@
+{
+  "framework": "nw_ubuntu",
+  "date": "20260404",
+  "detected_labels": [
+    {
+      "filename": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "UNESCO AI ethics through Ubuntu lens; African philosophy as analytical framework for AI governance"
+    },
+    {
+      "filename": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Ubuntu as core analytical framework for AI inclusion; African communalism applied to AI governance"
+    },
+    {
+      "filename": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Normative ethics analysis of Ubuntu for AI inclusion; relational ethics framework applied to AI"
+    },
+    {
+      "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Ubuntu philosophy as holistic AI ethics framework; communal personhood applied to AI"
+    },
+    {
+      "filename": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Ubuntu principles applied to generative AI; African philosophical framework for AI inclusion"
+    },
+    {
+      "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "African data ethics framework; Ubuntu/communalism as foundation for decolonial AI"
+    },
+    {
+      "filename": "2025-Ochasi-Reframing Justice in Healthcare AI.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Ubuntu philosophy applied to healthcare AI justice; African communalism as ethical framework"
+    },
+    {
+      "filename": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Directly examines incorporating Ubuntu values into African AI policy; core engagement"
+    },
+    {
+      "filename": "2025-Yilma-Ethics of AI in Africa.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "African AI ethics centered on Ubuntu communalism; critiques Western-centric AI ethics"
+    },
+    {
+      "filename": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "LLM framework explicitly guided by Ubuntu philosophy for culturally responsive mental health care"
+    },
+    {
+      "filename": "2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md",
+      "score": 75,
+      "label": "Y",
+      "reason": "Surveys African AI professionals on communal/relational trust constructs; Afro-relationalism applied to AI trust"
+    },
+    {
+      "filename": "2024-Odero-The Ubuntu Way.md",
+      "score": 65,
+      "label": "N",
+      "reason": "Public Financial Management scoping review for health systems; no engagement with Ubuntu philosophy or AI. Title misleading."
+    },
+    {
+      "filename": "2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md",
+      "score": 50,
+      "label": "N",
+      "reason": "African language QA dataset; no engagement with Ubuntu philosophy. NLP infrastructure paper."
+    },
+    {
+      "filename": "2023-Liu-AgentBench.md",
+      "score": 50,
+      "label": "N",
+      "reason": "LLM agent benchmark; \"Ubuntu\" references are exclusively Ubuntu Linux OS. No philosophical content."
+    },
+    {
+      "filename": "2024-Tlaie-Exploring and steering the moral compass of Large.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Mentions Ubuntu briefly as example of excluded African tradition; not used as analytical framework. Paper focuses on utilitarian vs virtue ethics in LLMs."
+    },
+    {
+      "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Lists Ubuntu in passing alongside other relational ethics traditions; focus is on Dharmic/Hindu frameworks. Not substantive Ubuntu engagement."
+    },
+    {
+      "filename": "2025-El Masri-Towards Attuned AI.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Care ethics framework for LLM alignment; mentions Ubuntu briefly as decolonial parallel. Focus is on Ethics of Care, not Ubuntu."
+    },
+    {
+      "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Extract mentions Ubuntu philosophy in passing context of diverse ethical principles; paper is about policy-as-code regulatory compliance. Not substantive engagement."
+    },
+    {
+      "filename": "2025-Steen-Ethical aspects of ChatGPT.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Mentions Ubuntu briefly in list of non-Western perspectives; paper focuses on EU AI ethics requirements for ChatGPT."
+    },
+    {
+      "filename": "2025-Terziyan-Towards ethical evolution.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Brief mention of Ubuntu philosophy in passing; paper is about genetic algorithms and meta-responsibility for AI. No substantive engagement."
+    },
+    {
+      "filename": "2025-Wu-OpenDeception.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Mentions \"Ubuntu 22.04\" as computing environment. No philosophical content whatsoever."
+    },
+    {
+      "filename": "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Uses \"Ubuntu\" as benchmark brand name for African language safety evaluation. No engagement with Ubuntu philosophy - focused on multilingual safety benchmarks."
+    }
+  ],
+  "non_detected_labels": [
+    {
+      "filename": "2023-Jacksi-Towards a Complete Kurdish NLP Pipeline Challenges and Opportunities.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Kurdish NLP pipeline; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Bang-HalluLens LLM Hallucination Benchmark.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hallucination benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Maheshwari-IndicParam Benchmark to Evaluate LLMs on.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hindi/Indic LLM benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Assis-Exploring Portuguese Hate Speech Detection in Low-Resource Settings.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Portuguese hate speech detection; no Ubuntu content"
+    },
+    {
+      "filename": "2023-Haq-Pashto Offensive Language Detection A Benchmark Dataset and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Pashto offensive language detection; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean cultural benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Nogara-Toxic Bias Perspective API Misreads German as More Toxic.md",
+      "score": 0,
+      "label": "N",
+      "reason": "German toxicity bias; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Compostela-Open Generative Large Language Models for Galician.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Galician LLM; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Zhang-Beyond Single-Sentence Prompts Upgrading Value Alignment Benchmarks.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Value alignment benchmark upgrade; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Hong-PrinciplismQA Towards Assessing Medical Ethics from Knowledge to.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Medical ethics benchmark (principlism); no Ubuntu content"
+    },
+    {
+      "filename": "2025-Kostiuk-The Velnias is in the Details Evaluating LLM Judgment on Latvian and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Latvian/Lithuanian LLM evaluation; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Carballo-Evaluating Compact LLMs for Zero-Shot Iberian Language Tasks on.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Iberian language tasks; no Ubuntu content"
+    },
+    {
+      "filename": "2023-University-Antisemitism on Twitter A Dataset for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Antisemitism dataset; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Kim-Nunchi-Bench Benchmarking Language Models on Cultural Reasoning with.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean cultural reasoning benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Kathunia-Sentiment Analysis Across Languages Evaluation Before and After.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cross-language sentiment analysis; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM moral competence evaluation; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Ni-A Survey on Large Language Model Benchmarks.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM benchmarks survey; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Open-Uncensored AI in the Wild Tracking Publicly Available and Locally.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Uncensored AI tracking; no Ubuntu content"
+    },
+    {
+      "filename": "2021-Askell-A General Language Assistant as a Laboratory for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "General language assistant; no Ubuntu content"
+    },
+    {
+      "filename": "2023-researchers-Transformer-Based Language Models for Bulgarian.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Bulgarian language models; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Sanwoolu-Kantian deontology for AI.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Kantian deontology for AI; no Ubuntu content"
+    },
+    {
+      "filename": "2020-Awad-Crowdsourcing moral machines.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Crowdsourcing moral machines; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Resta-Evalita-LLM Benchmarking Large Language Models on Italian.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Italian LLM benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Jones-Fit for Our Purpose Not Yours.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Inclusive AI critique; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Arabic cultural LLM benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Chouhan-HindiLLM Large Language Model for Hindi.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hindi LLM; no Ubuntu content"
+    },
+    {
+      "filename": "2021-Keren-ParaShoot.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hebrew QA dataset; no Ubuntu content"
+    },
+    {
+      "filename": "2023-Shen-\"Do Anything Now\".md",
+      "score": 0,
+      "label": "N",
+      "reason": "Jailbreak prompts study; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Ye-GPLA Generative Psycho-Lexical Approach for Constructing Value Systems.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Psycho-lexical value systems; no Ubuntu content"
+    },
+    {
+      "filename": "2025-community-Setting Standards in Turkish NLP TR-MMLU.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Turkish NLP benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Cheung-LLMs Amplified Cognitive Biases Moral.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM cognitive biases; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Unknown-New Guidelines for Evaluating Literary Translation in Hiring and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Literary translation guidelines; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Liu-JailBench A Comprehensive Chinese Security Assessment Benchmark for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese security benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese LLM benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2023-Shmidman-Introducing DictaLM - A Large Generative Language Model for Modern.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hebrew language model; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Jacovi-The FACTS Grounding Leaderboard.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Factual grounding benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese legal benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Pistilli-CIVICS.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cultural values in civics; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Verma-MILU A Multi-task Indic Language Understanding.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indic language understanding; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Yesil-Yesil o1 Pro.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Turkish LLM; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Hosseinbeigi-Advancing Persian LLM Evaluation.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Persian LLM evaluation; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Vladimirova-FairJob.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Job fairness benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean toxic instruction dataset; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Chen-Measuring Taiwanese Mandarin Language Understanding TMLU.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Taiwanese Mandarin benchmark; no Ubuntu content"
+    },
+    {
+      "filename": "2023-Bang-Towards Answering Open-ended Ethical Quandary.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Open-ended ethical questions; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean visual-cultural evaluation; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Models-Cross-Lingual Fact Verification Analyzing LLM Performance ....md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cross-lingual fact verification; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Chaudhari-RLHF Deciphered.md",
+      "score": 0,
+      "label": "N",
+      "reason": "RLHF survey; no Ubuntu content"
+    },
+    {
+      "filename": "2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Dutch hate speech fairness; no Ubuntu content"
+    },
+    {
+      "filename": "2024-Chen-Benchmarking LLMs for Translating Classical Chinese Poetry Evaluating.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Classical Chinese poetry translation; no Ubuntu content"
+    }
+  ],
+  "summary": {
+    "detected_total": 22,
+    "detected_Y": 11,
+    "detected_N": 11,
+    "detected_U": 0,
+    "non_detected_total": 50,
+    "non_detected_Y": 0,
+    "non_detected_N": 50,
+    "non_detected_U": 0,
+    "precision": 0.5,
+    "recall_estimate": 1.0,
+    "f1": 0.6667
+  }
+}

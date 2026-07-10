@@ -1,0 +1,120 @@
+{
+  "date": "20260404",
+  "description": "Gold standard validation of keyword-based non-Western framework scoring",
+  "total_papers_reviewed": 520,
+  "frameworks": {
+    "nw_confucian": {
+      "display_name": "Confucian Role Ethics",
+      "precision": 0.160,
+      "recall_estimate": 1.000,
+      "f1": 0.280,
+      "detected_total": 50,
+      "true_positives": 8,
+      "false_positives": 42,
+      "non_detected_total": 50,
+      "false_negatives": 0,
+      "true_negatives": 50,
+      "primary_fp_pattern": "Chinese NLP benchmarks (ACLUE, C3Bench, AncientBench, etc.) trigger on 'Chinese' keywords without Confucian philosophical content"
+    },
+    "nw_ubuntu": {
+      "display_name": "Ubuntu Communalism",
+      "precision": 0.500,
+      "recall_estimate": 1.000,
+      "f1": 0.667,
+      "detected_total": 22,
+      "true_positives": 11,
+      "false_positives": 11,
+      "non_detected_total": 50,
+      "false_negatives": 0,
+      "true_negatives": 50,
+      "primary_fp_pattern": "Ubuntu Linux OS references; passing mentions without philosophical engagement"
+    },
+    "nw_islamic_ethics": {
+      "display_name": "Islamic Ethics (Maqasid al-Shariah)",
+      "precision": 0.706,
+      "recall_estimate": 1.000,
+      "f1": 0.828,
+      "detected_total": 17,
+      "true_positives": 12,
+      "false_positives": 5,
+      "non_detected_total": 50,
+      "false_negatives": 0,
+      "true_negatives": 50,
+      "primary_fp_pattern": "Arabic/Persian NLP benchmarks where Islamic content is one test category, not substantive ethical analysis"
+    },
+    "nw_buddhist": {
+      "display_name": "Buddhist Ethics",
+      "precision": 0.188,
+      "recall_estimate": 1.000,
+      "f1": 0.316,
+      "detected_total": 17,
+      "true_positives": 3,
+      "false_positives": 13,
+      "non_detected_total": 50,
+      "false_negatives": 0,
+      "true_negatives": 50,
+      "uncertain": 1,
+      "primary_fp_pattern": "Buddhist text corpora for NLP (not ethics); religion-as-test-subject bias studies; Thai/Buddhist cultural benchmarks"
+    },
+    "nw_dharmic": {
+      "display_name": "Dharmic Ethics",
+      "precision": 0.200,
+      "recall_estimate": 1.000,
+      "f1": 0.333,
+      "detected_total": 10,
+      "true_positives": 2,
+      "false_positives": 8,
+      "non_detected_total": 50,
+      "false_negatives": 0,
+      "true_negatives": 50,
+      "primary_fp_pattern": "NLP on Hindu/Vedic texts (sentiment analysis, topic modeling) conflated with dharmic ethical analysis"
+    },
+    "nw_indigenous_relational": {
+      "display_name": "Indigenous Relational Ethics",
+      "precision": 0.583,
+      "recall_estimate": 0.966,
+      "f1": 0.727,
+      "detected_total": 48,
+      "true_positives": 28,
+      "false_positives": 20,
+      "non_detected_total": 50,
+      "false_negatives": 1,
+      "true_negatives": 49,
+      "primary_fp_pattern": "NLP/language tech mentioning 'indigenous' languages without engaging Indigenous ethical frameworks"
+    },
+    "nw_buen_vivir": {
+      "display_name": "Buen Vivir (Sumak Kawsay)",
+      "precision": 0.167,
+      "recall_estimate": 1.000,
+      "f1": 0.286,
+      "detected_total": 6,
+      "true_positives": 1,
+      "false_positives": 5,
+      "non_detected_total": 50,
+      "false_negatives": 0,
+      "true_negatives": 50,
+      "primary_fp_pattern": "Passing mentions of buen vivir in papers primarily about other frameworks"
+    }
+  },
+  "aggregate": {
+    "mean_precision": 0.358,
+    "mean_recall": 0.995,
+    "mean_f1": 0.448,
+    "weighted_precision_by_tp": 0.434,
+    "total_true_positives": 65,
+    "total_false_positives": 104,
+    "total_false_negatives": 1,
+    "total_true_negatives": 349
+  },
+  "key_finding": "The keyword scorer achieves near-perfect recall (0.995 mean) but low precision (0.358 mean). The dominant FP pattern across all frameworks is NLP benchmarks and text corpora that MENTION a tradition's language/texts without ENGAGING its ethical framework. Islamic ethics has the highest precision (0.706) because its keywords are more specific to ethical concepts (maqasid, fiqh, fatwa). Confucian, Buddhist, Dharmic, and Buen Vivir have the lowest precision (0.16-0.20) due to cultural/linguistic keyword overlap.",
+  "recommendation": "The paper should report both raw detected counts and precision-adjusted estimates. For example, Confucian raw=86, precision-adjusted≈14. This changes the narrative: genuine philosophical engagement with non-Western frameworks is even rarer than the raw counts suggest.",
+  "per_framework_files": [
+    "20260404-gs-nw_confucian.json",
+    "20260404-gs-nw_ubuntu.json",
+    "20260404-gs-nw_islamic.json",
+    "20260404-gs-nw_buddhist.json",
+    "20260404-gs-nw_dharmic.json",
+    "20260404-gs-nw_indigenous.json",
+    "20260404-gs-nw_buen_vivir.json"
+  ]
+}

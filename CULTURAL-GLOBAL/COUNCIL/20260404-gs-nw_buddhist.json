@@ -1,0 +1,423 @@
+{
+  "framework": "nw_buddhist",
+  "date": "20260404",
+  "detected_labels": [
+    {
+      "filename": "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+      "score": 100,
+      "label": "N",
+      "reason": "Buddhist parallel corpus for NLP/translation; no ethical framework analysis applied to AI"
+    },
+    {
+      "filename": "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+      "score": 100,
+      "label": "N",
+      "reason": "Machine translation evaluation for Buddhist texts; no Buddhist ethics applied to AI"
+    },
+    {
+      "filename": "2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md",
+      "score": 100,
+      "label": "N",
+      "reason": "Buddhist text parallel corpus for translation; linguistic resource, no ethical framework"
+    },
+    {
+      "filename": "2025-Graves-AI Practical Wisdom and Compassion.md",
+      "score": 85,
+      "label": "Y",
+      "reason": "Substantive use of Buddhist dukkha, anatta, prajna, brahma-viharas as framework for compassionate AI"
+    },
+    {
+      "filename": "2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md",
+      "score": 65,
+      "label": "N",
+      "reason": "Studies LLM bias in emotion attribution across religions; mentions Buddhist terms but as test subjects not analytical framework"
+    },
+    {
+      "filename": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md",
+      "score": 55,
+      "label": "Y",
+      "reason": "Benchmark specifically for Buddhist ethical reasoning and philosophical understanding in LLMs"
+    },
+    {
+      "filename": "2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Cross-cultural religion dataset; Buddhist participants included but no AI ethics or Buddhist philosophical analysis"
+    },
+    {
+      "filename": "2024-Porkaew-Representing the Under-Represented Cultural and Core.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Thai cultural LLM benchmark; no explicit Buddhist ethical framework applied"
+    },
+    {
+      "filename": "2025-Bryan-Virtue Ethics and Postponing Human Extinction.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Aristotelian virtue ethics; zero Buddhist content in full extract"
+    },
+    {
+      "filename": "2025-Kim-Cultural and Core Capability Benchmarks for.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Thai LLM benchmark (ThaiCLI); cultural norms but no Buddhist ethical analysis"
+    },
+    {
+      "filename": "2025-Laukkonen-Contemplative Artificial Intelligence.md",
+      "score": 50,
+      "label": "Y",
+      "reason": "Proposes Buddhist-inspired AI alignment via mindfulness, emptiness, non-duality, boundless care as axiomatic principles"
+    },
+    {
+      "filename": "2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md",
+      "score": 40,
+      "label": "N",
+      "reason": "Measures pro/anti-Buddhist bias in LLMs; surveys bias presence, not ethical framework application"
+    },
+    {
+      "filename": "2025-Mahran-Mechanistic Interpretability with SAEs Probing Religion.md",
+      "score": 40,
+      "label": "N",
+      "reason": "Probes religion representation in LLM internals; Buddhism one of five religions tested, no ethical analysis"
+    },
+    {
+      "filename": "2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.md",
+      "score": 35,
+      "label": "N",
+      "reason": "Indonesian hate speech detection; Buddhist mentioned only as hate speech target category"
+    },
+    {
+      "filename": "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+      "score": 35,
+      "label": "N",
+      "reason": "Measures religious bias in ChatGPT across religions including Zen Buddhism; no Buddhist ethics framework"
+    },
+    {
+      "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md",
+      "score": 35,
+      "label": "U",
+      "reason": "Corrupted PDF extract (education encyclopedia); likely duplicate of EXSR0339 BuddhismEval but content unverifiable"
+    },
+    {
+      "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+      "score": 30,
+      "label": "N",
+      "reason": "Classical Chinese NLP benchmark; Buddhist scriptures used as test data, no Buddhist ethical analysis"
+    }
+  ],
+  "non_detected_labels": [
+    {
+      "filename": "2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md",
+      "score": 5,
+      "label": "N",
+      "reason": "LLM opinion bias quantification; no Buddhist content"
+    },
+    {
+      "filename": "2025-Tennant-Moral Alignment for LLM Agents.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM moral alignment; Western ethical frameworks only"
+    },
+    {
+      "filename": "2025-Ishmam-BanTH A Multi-label Hate Speech Detection Dataset for Transliterated.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Bangla hate speech detection; no Buddhist ethics"
+    },
+    {
+      "filename": "2025-Alwajih-Palm.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Arabic/Islamic cultural LLM benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2025-Goyal-Vedavani A Benchmark Corpus for ASR.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Sanskrit ASR corpus; linguistic resource, not Buddhist ethics"
+    },
+    {
+      "filename": "2023-Ray-Benchmarking, ethical alignment, and evaluation.md",
+      "score": 0,
+      "label": "N",
+      "reason": "ChatGPT ethical alignment; Western frameworks only"
+    },
+    {
+      "filename": "2023-Gao-Large Language Models Empowered Agent-based.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM agent-based modeling survey; no Buddhist content"
+    },
+    {
+      "filename": "2024-Oliveira-Toxic Speech Detection in Portuguese A Comparative Study of Large.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Portuguese toxic speech detection; no Buddhist content"
+    },
+    {
+      "filename": "2025-Palta-Speaking the Right Language.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Bing Copilot multilingual study; no Buddhist content"
+    },
+    {
+      "filename": "2023-Hou-A Multi-Level Framework for the AI Alignment.md",
+      "score": 0,
+      "label": "N",
+      "reason": "AI alignment framework; no Buddhist content"
+    },
+    {
+      "filename": "2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Brazilian Portuguese hate speech; no Buddhist content"
+    },
+    {
+      "filename": "2026-Nadies-TF3-RO Training Compact Romanian Language Models on Synthetic Moral.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Romanian moral microfiction LMs; no Buddhist content"
+    },
+    {
+      "filename": "2025-Qi-A Cross-Cultural Comparison of LLM-based Public Opinion Simulation.md",
+      "score": 0,
+      "label": "N",
+      "reason": "US-China LLM opinion simulation; no Buddhist content"
+    },
+    {
+      "filename": "2025-approach-A Language model-based approach to sentiment classification of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Central Asian language sentiment classification; no Buddhist content"
+    },
+    {
+      "filename": "2025-Beyer-LLM-Safety Evaluations Lack Robustness.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM safety evaluation critique; no Buddhist content"
+    },
+    {
+      "filename": "2025-Zhu-TrolleyBench.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Trolley problem benchmark; Western ethical frameworks"
+    },
+    {
+      "filename": "0000-project-Vedanta Datasets.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vedantic text ML datasets; Hindu not Buddhist"
+    },
+    {
+      "filename": "2025-Galatolo-Beyond Ethical Alignment.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM ethical alignment critique; no Buddhist content"
+    },
+    {
+      "filename": "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+      "score": 0,
+      "label": "N",
+      "reason": "MFT-based LLM moral foundations; no Buddhist content"
+    },
+    {
+      "filename": "2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese legal reasoning benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2019-Borkan-Nuanced Metrics for Measuring Unintended Bias.md",
+      "score": 0,
+      "label": "N",
+      "reason": "ML bias metrics; no Buddhist content"
+    },
+    {
+      "filename": "2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Pro-social rule breaking benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2025-search-DweshVaani An LLM for Detecting Religious.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Religious hate speech detection LLM; no Buddhist ethical framework"
+    },
+    {
+      "filename": "2024-Murtala-A multilingual dataset for offensive language.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Nigerian offensive language dataset; no Buddhist content"
+    },
+    {
+      "filename": "2025-Wu-CVC.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese value alignment benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Empathy taxonomy for human-AI conversation; no Buddhist content"
+    },
+    {
+      "filename": "2025-Sber-GigaChat Family Efficient Russian Language Modeling Through Mixture.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Russian LLM architecture; no Buddhist content"
+    },
+    {
+      "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese literary understanding benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2024-Aupi-WoNBias A Complete Bengali Gender Bias Dataset.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Bengali gender bias dataset; no Buddhist content"
+    },
+    {
+      "filename": "2021-Cao-Toward Gender-Inclusive Coreference Resolution.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Gender-inclusive coreference; no Buddhist content"
+    },
+    {
+      "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean visual cultural benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2025-Wu-COIG-P.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese preference alignment dataset; no Buddhist content"
+    },
+    {
+      "filename": "2025-Davies-Exploring the occupational biases and stereotypes of Chinese large.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese LLM occupational bias; no Buddhist content"
+    },
+    {
+      "filename": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Pluralistic value alignment; no Buddhist content"
+    },
+    {
+      "filename": "2021-Sullins-Artificial Phronesis - What It Is and Is Not.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Aristotelian phronesis for AI; Western virtue ethics only"
+    },
+    {
+      "filename": "2022-Bai-Training a Helpful and Harmless Assistant with.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Anthropic RLHF paper; no Buddhist content"
+    },
+    {
+      "filename": "2025-Mohan-A Multimodal Approach for Hate and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multimodal hate speech dataset; no Buddhist content"
+    },
+    {
+      "filename": "2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indian language LLM suite; linguistic infrastructure, no Buddhist ethics"
+    },
+    {
+      "filename": "2025-Shen-HateBench.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hate speech generation benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2021-Mohapatra-Automatic Hate Speech Detection in English-Odia Code Mixed Social.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Odia code-mixed hate speech; no Buddhist content"
+    },
+    {
+      "filename": "2025-Osmani-Investigating Retrieval-Augmented Generation in Quranic Studies.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Quranic RAG study; Islamic, not Buddhist"
+    },
+    {
+      "filename": "2025-Bian-Healthcare Ethics & Safety QA China - Healthy China 2030.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese healthcare ethics QA; no Buddhist content"
+    },
+    {
+      "filename": "2025-Park-Ko-MuSR A Multistep Soft Reasoning Benchmark for LLMs Capable of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean reasoning benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2022-group-HATE-ITA Hate Speech Detection in Italian Social Media Text.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Italian hate speech detection; no Buddhist content"
+    },
+    {
+      "filename": "2023-Alsalka-HAQA and QUQA Constructing Two Arabic.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Arabic QA for Holy Quran; Islamic, not Buddhist"
+    },
+    {
+      "filename": "2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Wolof banking intent classification; no Buddhist content"
+    },
+    {
+      "filename": "2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese LLM safety benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2025-Chen-LLMsPark A Benchmark for Evaluating LLMs in Strategic Gaming Contexts.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM strategic gaming benchmark; no Buddhist content"
+    },
+    {
+      "filename": "2023-Ji-AI Alignment.md",
+      "score": 0,
+      "label": "N",
+      "reason": "AI alignment survey; no Buddhist content"
+    },
+    {
+      "filename": "2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Deontological AI safety; Western ethics only"
+    }
+  ],
+  "summary": {
+    "detected_total": 17,
+    "detected_Y": 3,
+    "detected_N": 13,
+    "detected_U": 1,
+    "non_detected_total": 50,
+    "non_detected_Y": 0,
+    "non_detected_N": 50,
+    "non_detected_U": 0,
+    "precision": 0.188,
+    "recall_estimate": 1.0,
+    "f1": 0.316
+  }
+}

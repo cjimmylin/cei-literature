@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-05",
+  "session": "Joint Deliberation — Council A (Meta-Evaluation) + Council B (Empirical)",
+  "decisions": {
+    "1_scope": {
+      "decision": "Unified two-part paper with supplementary materials",
+      "main_paper": [
+        "All 5 landscape claims (MFT dominance, construct validity gap, missing theories, human baselines, format mismatch)",
+        "Cross-vendor convergence / moral homogeneity finding (headline empirical result)",
+        "Six RLHF universal fingerprints (table + narrative)",
+        "Scale non-linearity: DIT P-score inversions (Sonnet 85 > Opus 75 > Haiku 60)",
+        "Haiku dual-process CoT effect (+0.125, all others 0.0)",
+        "Benchmark discrimination audit (ceiling instruments vs. discriminating instruments)",
+        "Theory-specific cross-vendor patterns (MFT, Kohlberg, dual-process — summary tables)",
+        "Full limitations: self-administration confound, orchestrator confound, N=1, statistical power, Kohlberg category error, cultural tokenism"
+      ],
+      "supplementary": [
+        "162-feature extended framework full definition (all 7 tiers A-G with scoring rubrics)",
+        "Per-benchmark per-model raw score matrix (23 benchmarks x 9 models)",
+        "Individual trial protocol descriptions for all 23 benchmarks",
+        "Keyword scorer pattern expansion details (all regex patterns)",
+        "Gemini family detailed results (4 models x 23 benchmarks)",
+        "OpenAI family detailed results (2 models x 23 benchmarks)",
+        "Bootstrap confidence intervals where computable",
+        "Quick Assessment 25-feature subset derivation",
+        "Composite scoring worked examples",
+        "Per-benchmark boxplots, variance decomposition, Schwartz/dyadic detail figures"
+      ],
+      "rationale": "Council A (A1, Narrative Architect): 'The unified paper is stronger than two separate papers because the empirical findings validate the landscape mapping. The homogeneity result answers the implicit question raised by Claims 1-5: does the benchmark landscape's theoretical imbalance actually matter? The answer is yes AND no — the benchmarks are imbalanced, but all models converge regardless, suggesting the problem is deeper than benchmarks alone.' Council B (B2, RLHF Expert): 'The RLHF fingerprint finding only makes sense in the context of the landscape mapping. Without understanding what the benchmarks measure and what they miss, the convergence result is uninterpretable.'"
+    },
+    "2_narrative_arc": {
+      "thesis": "We systematically mapped the moral psychology benchmark landscape for LLMs and found it dominated by a single theory with weak psychometric grounding. We then administered the most comprehensive cross-vendor moral psychology battery to date and discovered that the landscape's theoretical imbalance may matter less than expected for a disturbing reason: all frontier LLMs converge on an identical WEIRD-liberal moral fingerprint regardless of vendor, architecture, or scale, suggesting that RLHF alignment training — not the benchmarks — is the primary determinant of LLM moral behavior. This convergence is not alignment success; it is value monoculture.",
+      "arc_structure": "Problem → Mapping → Testing → Surprise → Implications",
+      "arc_beats": [
+        "PROBLEM: Hundreds of papers claim to measure 'moral reasoning' in LLMs, but no one has checked whether the benchmarks actually engage established moral psychology",
+        "MAPPING: We characterize 222 candidates, assess 55 in depth, and find severe theoretical imbalance, weak validity, and missing theories (Claims 1-5)",
+        "TESTING: We administer 23 benchmarks to 9 models from 3 independent vendors — the largest cross-vendor moral psychology battery to date",
+        "SURPRISE: Instead of the expected vendor diversity, we find startling convergence — a universal RLHF moral fingerprint shared by all frontier models",
+        "IMPLICATIONS: The combination of landscape gaps AND cross-vendor homogeneity means the field is measuring a narrow slice of morality AND finding the same thing everywhere — a double bind that demands both better benchmarks and critical examination of alignment training"
+      ],
+      "council_commentary": {
+        "B9_philosophy": "The narrative should resist the temptation to frame homogeneity as purely negative. Convergence on harm-aversion and fairness may reflect genuine moral progress encoded in training. The paper should present both interpretations — universal values vs. shared bias — and let the evidence constrain which is more plausible.",
+        "A12_metascience": "The surprise beat is essential. The paper should NOT read as if the authors expected to find convergence. The landscape mapping was conducted as a descriptive exercise; the cross-vendor battery was designed to test whether vendor-specific alignment creates vendor-specific moral profiles. The null result — no vendor differentiation — is the genuine finding.",
+        "B3_safety": "The 'double bind' framing in the implications beat is the strongest contribution. Safety teams should be alarmed by BOTH the landscape gaps AND the convergence. A single blind spot shared by all models is undetectable by cross-vendor comparison."
+      }
+    },
+    "3_target_journal": {
+      "primary": "Nature Machine Intelligence",
+      "primary_rationale": "Interdisciplinary audience spanning AI, psychology, and policy. Gabriel et al. [2026] published their moral competence roadmap in Nature, establishing the topic's visibility. Our paper provides the empirical data that roadmap called for. Format: ~5000 words main text + extensive supplementary. Structured abstract. Up to 8 display items (figures + tables combined) in main text.",
+      "secondary": "PNAS (Proceedings of the National Academy of Sciences)",
+      "secondary_rationale": "Broader interdisciplinary reach. Research Articles allow up to 6 pages (~4500 words) plus 10 pages SI. Strong history of moral psychology publication (Awad et al. 2018 Moral Machine was PNAS).",
+      "tertiary": "Cognitive Science or Psychological Review",
+      "tertiary_rationale": "If reviewers want deeper psychological grounding. Cognitive Science welcomes computational + psychological integration.",
+      "format_constraints": {
+        "nature_mi": {"main_words": 5000, "display_items": 8, "supplementary": "unlimited", "abstract": "structured, ~200 words"},
+        "pnas": {"main_words": 4500, "display_items": 6, "supplementary": "10 pages", "abstract": "250 words significance + 250 words abstract"},
+        "note": "For this draft, we write WITHOUT length constraints per user instruction. We will trim for submission later."
+      },
+      "council_vote": "10/12 Nature MI (A1, A2, A3, A5, A7, B1, B2, B3, B9, B10), 2/12 PNAS (A6, B5 — preferring the broader audience and Moral Machine precedent)"
+    },
+    "4_section_structure": {
+      "final_toc": [
+        {"num": "1", "title": "Introduction", "source": "v1 (unchanged)", "council": "none", "notes": "Copied from v1. Minor preview of cross-vendor findings to be added in a later session."},
+        {"num": "2", "title": "Related Work", "source": "v1 rewrite", "council": "A", "subsections": [
+          "2.1 Moral Psychology: Theories of Moral Cognition (2.1.1 Content, 2.1.2 Process, 2.1.3 Structural, 2.1.4 Synthesis)",
+          "2.2 Computational Operationalization of Moral Psychology",
+          "2.3 Psychometric Validity and Non-Human Respondents",
+          "2.4 Format Effects, Human Baselines, and Measurement Challenges",
+          "2.5 Alignment Training and Prompting Effects",
+          "2.6 Cross-Model and Cross-Vendor Moral Evaluation (NEW)",
+          "2.7 Emerging Benchmarks and the Current Trajectory",
+          "2.8 Positioning This Work"
+        ]},
+        {"num": "3", "title": "Methodology", "source": "v1 rewrite + new", "council": "A+B", "subsections": [
+          "3.1 Multi-Signal Candidate Extraction (A)",
+          "3.2 Expert Council Assessment (A, updated for dual-council)",
+          "3.3 The 28-Feature Characterization Framework (A)",
+          "3.4 Composite Scoring and Selection (A)",
+          "3.5 Keyword Scorer Expansion (A)",
+          "3.6 Cross-Vendor Trial Design (B, NEW)",
+          "3.7 Implementation Trial Protocol (B, expanded from v1 3.6)",
+          "3.8 Terminology and Disclosure (A, updated)"
+        ]},
+        {"num": "4", "title": "Results Part I: The Benchmark Landscape", "source": "v1 rewrite", "council": "A", "subsections": [
+          "4.1 MFT Dominance (Claim 1)",
+          "4.2 Construct Validity Gap (Claim 2)",
+          "4.3 Missing Theories (Claim 3)",
+          "4.4 Human Baseline Deficit (Claim 4)",
+          "4.5 Format Mismatch (Claim 5)"
+        ]},
+        {"num": "5", "title": "Results Part II: Cross-Vendor Empirical Findings", "source": "new", "council": "B", "subsections": [
+          "5.1 Cross-Vendor Convergence: The Moral Homogeneity Finding",
+          "5.2 The RLHF Moral Fingerprint: Six Universal Signatures",
+          "5.3 Scale Sensitivity and Non-Linearity",
+          "5.4 The Haiku Chain-of-Thought Effect",
+          "5.5 Theory-Specific Cross-Vendor Patterns",
+          "5.6 Benchmark Discrimination Audit: Ceiling Instruments vs. Discriminating Instruments"
+        ]},
+        {"num": "6", "title": "Discussion", "source": "rewrite", "council": "A+B joint", "subsections": [
+          "6.1 The Double Bind: Landscape Gaps Meet Cross-Vendor Homogeneity",
+          "6.2 RLHF as Moral Curriculum: Universal Values or Shared Bias?",
+          "6.3 Why Missing Theories Matter More Now",
+          "6.4 Recommendations for Benchmark Developers (expanded)",
+          "6.5 Recommendations for AI Governance and Auditing",
+          "6.6 Methodological Limitations (expanded: self-administration, orchestrator, N=1, power, Kohlberg category error, cultural tokenism)"
+        ]},
+        {"num": "7", "title": "Conclusion", "source": "rewrite", "council": "A+B joint"},
+        {"num": "A", "title": "Abstract", "source": "new (written last)", "council": "A1 lead"}
+      ],
+      "supplementary_toc": [
+        "S1. Extended Methodology: 162-Feature Framework Definition",
+        "S2. Extended Methodology: Council Assessment Protocols",
+        "S3. Extended Methodology: Keyword Scorer Patterns",
+        "S4. Extended Methodology: Cross-Vendor Trial Prompts and Procedures",
+        "S5. Extended Results: Per-Benchmark Per-Model Score Matrix (23x9)",
+        "S6. Extended Results: Vendor Family Profiles (Gemini, OpenAI detail)",
+        "S7. Extended Results: Bootstrap Confidence Intervals",
+        "S8. Supplementary Tables (ST1-ST5)",
+        "S9. Supplementary Figures (SF1-SF4)"
+      ]
+    }
+  }
+}

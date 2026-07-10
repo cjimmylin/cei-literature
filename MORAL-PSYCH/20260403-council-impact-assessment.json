@@ -1,0 +1,722 @@
+[
+  {
+    "file": "2023-Deng-Probing the Moral Development of Large Language.md",
+    "short_title": "Probing the Moral Development of Large Language",
+    "safety_relevance": 4,
+    "safety_rationale": "Moral development staging helps benchmark reasoning maturity; Schwartz value dimensions reveal cross-cultural alignment gaps",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2024-Abdulhai-Moral Foundations of Large Language Models.md",
+    "short_title": "Moral Foundations of Large Language Models",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Identifies systematic moral biases; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 36,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Closed API only",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+    "short_title": "Do Moral Judgment and Reasoning Capability of",
+    "safety_relevance": 4,
+    "safety_rationale": "Moral development staging helps benchmark reasoning maturity",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2025-Hatemo-Revisiting the Trolley Problem for AI.md",
+    "short_title": "Revisiting the Trolley Problem for AI",
+    "safety_relevance": 5,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; Directly addresses model alignment; Identifies systematic moral biases",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Open only",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+    "short_title": "Analyzing the Ethical Logic of Six Large Language Models",
+    "safety_relevance": 5,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; MFT dimensions map cultural moral biases in model outputs; Moral development staging helps benchmark reasoning maturity",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 32,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2025-Neuman-PRIME Framework Convergent Ethics.md",
+    "short_title": "PRIME Framework Convergent Ethics",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Moral development staging helps benchmark reasoning maturity; Structured benchmark enables systematic evaluation",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2024-Jin-Language Model Alignment in Multilingual Trolley.md",
+    "short_title": "Language Model Alignment in Multilingual Trolley",
+    "safety_relevance": 5,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; Directly addresses model alignment; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "READY",
+      "inspect": "POSSIBLE",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 64,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2024-Yan-M$^3$oralBench.md",
+    "short_title": "M$^3$oralBench",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Structured benchmark enables systematic evaluation",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "BARRIERS",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 55,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2015-Clifford-Moral Foundations Vignettes.md",
+    "short_title": "Moral Foundations Vignettes",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "NOT_FEASIBLE",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 23,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2025-Jotautaite-From Stability to Inconsistency.md",
+    "short_title": "From Stability to Inconsistency",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Identifies systematic moral biases",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "POSSIBLE",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 50,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2025-Trager-MFTCXplain.md",
+    "short_title": "MFTCXplain",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Identifies systematic moral biases; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "READY",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 50,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2024-Ji-MoralBench.md",
+    "short_title": "MoralBench",
+    "safety_relevance": 3,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 45,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+    "short_title": "Multilingual Defining Issues Test",
+    "safety_relevance": 4,
+    "safety_rationale": "Moral development staging helps benchmark reasoning maturity",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+    "short_title": "Differences in Moral Foundations of LLMs",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Directly addresses model alignment",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 36,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+    "short_title": "Conscience Conflict: Evaluating Language Models' Moral Understanding",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Closed API only",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2024-Takemoto-The moral machine experiment on large language.md",
+    "short_title": "The moral machine experiment on large language",
+    "safety_relevance": 4,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics",
+    "B6_harness_tiers": {
+      "lm_eval": "IMPLEMENTED",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 45,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+    "short_title": "How Can a Deontological Decision Lead to Moral",
+    "safety_relevance": 4,
+    "safety_rationale": "Moral development staging helps benchmark reasoning maturity; Identifies systematic moral biases",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "NOT_FEASIBLE",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 23,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2026-Tagarelli-Culturally Grounded Personas in Large Language Models.md",
+    "short_title": "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Directly addresses model alignment; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "NOT_FEASIBLE",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 23,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2026-Yu-Tracing Moral Foundations in LLMs.md",
+    "short_title": "Tracing Moral Foundations in LLMs",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Open only",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+    "short_title": "Large-scale moral machine experiment on large",
+    "safety_relevance": 5,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; Identifies systematic moral biases",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "N_A",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 23,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+    "short_title": "TrolleyBench -- Evaluating Emergent Moral Reasoning and Consistency in LLMs",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Moral development staging helps benchmark reasoning maturity; Schwartz value dimensions reveal cross-cultural alignment gaps",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 45,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2025-Zhu-TrolleyBench.md",
+    "short_title": "TrolleyBench",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Moral development staging helps benchmark reasoning maturity; Schwartz value dimensions reveal cross-cultural alignment gaps",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2024-Aksoy-Whose Morality Do They Speak.md",
+    "short_title": "Whose Morality Do They Speak?",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2024-Cao-The Moral Foundations Weibo Corpus.md",
+    "short_title": "The Moral Foundations Weibo Corpus",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 36,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2024-Zangari-A survey on moral foundation theory and pre-trained language models.md",
+    "short_title": "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY",
+    "safety_relevance": 3,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2023-Hopp-The Dutch Moral Foundations Stimulus Database.md",
+    "short_title": "The Dutch Moral Foundations Stimulus Database",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2022-Trager-The Moral Foundations Reddit Corpus.md",
+    "short_title": "The Moral Foundations Reddit Corpus",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 36,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Open only",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "HuggingFace"
+  },
+  {
+    "file": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+    "short_title": "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment",
+    "safety_relevance": 4,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "IMPLEMENTED",
+      "inspect": "POSSIBLE",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 64,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2022-Fraser-Does Moral Code Have a Moral Code.md",
+    "short_title": "Does Moral Code Have a Moral Code?",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 36,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Open only",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "PapersWithCode"
+  },
+  {
+    "file": "2020-Hoover-Moral Foundations Twitter Corpus.md",
+    "short_title": "Moral Foundations Twitter Corpus",
+    "safety_relevance": 4,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "READY",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 50,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2018-Awad-The Moral Machine experiment.md",
+    "short_title": "The Moral Machine experiment",
+    "safety_relevance": 5,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; Directly addresses model alignment; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "IMPLEMENTED",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 45,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2025-Drukker-Concerns and Values in Human-Robot Interactions.md",
+    "short_title": "Concerns and Values in Human-Robot Interactions",
+    "safety_relevance": 3,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Schwartz value dimensions reveal cross-cultural alignment gaps",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "NOT_FEASIBLE"
+    },
+    "B7_implementability_score": 18,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2023-Benkler-Assessing LLMs for Moral Value Pluralism.md",
+    "short_title": "Assessing LLMs for Moral Value Pluralism",
+    "safety_relevance": 3,
+    "safety_rationale": "Schwartz value dimensions reveal cross-cultural alignment gaps; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 27,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Closed API only",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "None"
+  },
+  {
+    "file": "2025-Schacht-Mapping Moral Reasoning Circuits.md",
+    "short_title": "Mapping Moral Reasoning Circuits",
+    "safety_relevance": 5,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; MFT dimensions map cultural moral biases in model outputs; Moral development staging helps benchmark reasoning maturity",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 45,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Open only",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2024-Sorensen-Value Kaleidoscope.md",
+    "short_title": "Value Kaleidoscope",
+    "safety_relevance": 4,
+    "safety_rationale": "Schwartz value dimensions reveal cross-cultural alignment gaps",
+    "B6_harness_tiers": {
+      "lm_eval": "READY",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 50,
+    "B8_scorer_type": "Custom",
+    "B9_model_compat": "Closed API only",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "HuggingFace"
+  },
+  {
+    "file": "2025-Huang-Model Editing as a Double-Edged Sword.md",
+    "short_title": "Model Editing as a Double-Edged Sword",
+    "safety_relevance": 5,
+    "safety_rationale": "Moral development staging helps benchmark reasoning maturity; Directly addresses model alignment; Structured benchmark enables systematic evaluation",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 32,
+    "B8_scorer_type": "Psychometric scoring (reverse-coded Likert)",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2020-Forbes-Social Chemistry 101.md",
+    "short_title": "Social Chemistry 101",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Moral development staging helps benchmark reasoning maturity",
+    "B6_harness_tiers": {
+      "lm_eval": "POSSIBLE",
+      "inspect": "N_A",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "POSSIBLE"
+    },
+    "B7_implementability_score": 41,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Closed API only",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+    "short_title": "Building Interpretable Models for Moral Decision-Making",
+    "safety_relevance": 4,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; MFT dimensions map cultural moral biases in model outputs",
+    "B6_harness_tiers": {
+      "lm_eval": "IMPLEMENTED",
+      "inspect": "POSSIBLE",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 68,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 1,
+    "C5_hub_presence": "GitHub"
+  },
+  {
+    "file": "2020-Awad-Crowdsourcing moral machines.md",
+    "short_title": "Crowdsourcing moral machines",
+    "safety_relevance": 4,
+    "safety_rationale": "Trolley/autonomous decision scenarios directly inform deployment ethics; Cross-cultural scope relevant for global deployment",
+    "B6_harness_tiers": {
+      "lm_eval": "NOT_FEASIBLE",
+      "inspect": "N_A",
+      "lighteval": "BARRIERS",
+      "helm": "N_A",
+      "openai": "BARRIERS"
+    },
+    "B7_implementability_score": 23,
+    "B8_scorer_type": "Model-graded",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 2,
+    "C5_hub_presence": "PapersWithCode"
+  },
+  {
+    "file": "2025-Wu-CVC.md",
+    "short_title": "CVC",
+    "safety_relevance": 5,
+    "safety_rationale": "MFT dimensions map cultural moral biases in model outputs; Directly addresses model alignment; Identifies systematic moral biases",
+    "B6_harness_tiers": {
+      "lm_eval": "READY",
+      "inspect": "POSSIBLE",
+      "lighteval": "POSSIBLE",
+      "helm": "N_A",
+      "openai": "READY"
+    },
+    "B7_implementability_score": 64,
+    "B8_scorer_type": "Log-likelihood",
+    "B9_model_compat": "Both",
+    "C3_venue_tier": 4,
+    "C5_hub_presence": "HuggingFace"
+  }
+]

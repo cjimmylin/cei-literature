@@ -1,0 +1,673 @@
+{
+  "selection_date": "2026-04-03",
+  "methodology": {
+    "weighting": "PD=0.50, PE=0.30, CI=0.20",
+    "hard_gates": "PD >= 40 AND data publicly available",
+    "diversity_constraints": {
+      "theory_minimums": {
+        "mft": 3,
+        "schwartz": 2,
+        "trolley": 2,
+        "kohlberg": 1
+      },
+      "theory_caps": {
+        "trolley": 3,
+        "mft": 4
+      },
+      "minority_min": 2,
+      "cross_cultural_required": true
+    },
+    "scoring_formula": {
+      "PD": "A2*25 + A6*20 + A1*15 + A5*15 + A3*15 + A4*10",
+      "PE": "B3*20 + B2*15 + B6*15 + B7*15 + B1*10 + B4*10 + B10*15",
+      "CI": "C1*30 + C2*30 + C3*25 + C5*15",
+      "COMPOSITE": "PD*0.50 + PE*0.30 + CI*0.20"
+    }
+  },
+  "top_15": [
+    {
+      "rank": 1,
+      "file": "2018-Awad-The Moral Machine experiment.md",
+      "short_title": "The Moral Machine experiment",
+      "year": 2018,
+      "authors": "Edmond Awad; Sohan Dsouza; Richard Kim; Jonathan Schulz; Joseph Henrich; Azim Shariff; Jean-François Bonnefon; Iyad Rahwan",
+      "data_url": "https://goo.gl/JXRrBP",
+      "composite": 78.45,
+      "PD": 75.5,
+      "PE": 74.0,
+      "CI": 92.5,
+      "theories": [
+        "trolley"
+      ],
+      "source_instrument": "Original instrument (Moral Machine)",
+      "format": "Forced-choice",
+      "size": 40000000,
+      "cultural_provenance": "Cross-cultural validated",
+      "languages": [
+        "English",
+        "French",
+        "German",
+        "Portuguese",
+        "Spanish",
+        "Chinese",
+        "Japanese",
+        "Korean",
+        "Russian",
+        "Arabic"
+      ],
+      "construct_validity": 5,
+      "human_baseline": "Published norms",
+      "safety_relevance": 5,
+      "scorer_type": "Model-graded",
+      "harness_tiers": {
+        "lm_eval": "IMPLEMENTED",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 1478,
+      "llms_evaluated": "NA"
+    },
+    {
+      "rank": 2,
+      "file": "2024-Takemoto-The moral machine experiment on large language.md",
+      "short_title": "The moral machine experiment on large language",
+      "year": 2024,
+      "authors": "Kazuhiro Takemoto",
+      "data_url": "https://doi.org/10.5061/dryad.d7wm37q6v",
+      "composite": 69.9,
+      "PD": 72.5,
+      "PE": 69.5,
+      "CI": 64.0,
+      "theories": [
+        "trolley"
+      ],
+      "source_instrument": "Moral Machine scenarios",
+      "format": "Forced-choice",
+      "size": 50000,
+      "cultural_provenance": "Cross-cultural validated",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 4,
+      "human_baseline": "Published norms",
+      "safety_relevance": 4,
+      "scorer_type": "Model-graded",
+      "harness_tiers": {
+        "lm_eval": "IMPLEMENTED",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 51,
+      "llms_evaluated": "GPT-3.5, GPT-4, Llama-2, PaLM-2"
+    },
+    {
+      "rank": 3,
+      "file": "2020-Awad-Crowdsourcing moral machines.md",
+      "short_title": "Crowdsourcing moral machines",
+      "year": 2020,
+      "authors": "Edmond Awad; Sohan Dsouza; Jean-François Bonnefon; Azim Shariff; Iyad Rahwan",
+      "data_url": "https://moralmachine.mit.edu",
+      "composite": 69.87,
+      "PD": 72.5,
+      "PE": 67.4,
+      "CI": 67.0,
+      "theories": [
+        "trolley"
+      ],
+      "source_instrument": "Moral Machine",
+      "format": "Forced-choice",
+      "size": 40000000,
+      "cultural_provenance": "Cross-cultural validated",
+      "languages": [
+        "English",
+        "French",
+        "German",
+        "Portuguese",
+        "Spanish",
+        "Chinese",
+        "Japanese",
+        "Korean",
+        "Russian",
+        "Arabic"
+      ],
+      "construct_validity": 4,
+      "human_baseline": "Published norms",
+      "safety_relevance": 4,
+      "scorer_type": "Model-graded",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "BARRIERS"
+      },
+      "citations": 55,
+      "llms_evaluated": "NA"
+    },
+    {
+      "rank": 4,
+      "file": "2020-Hoover-Moral Foundations Twitter Corpus.md",
+      "short_title": "Moral Foundations Twitter Corpus",
+      "year": 2020,
+      "authors": "Joe Hoover; Gwenyth Portillo-Wightman; Leigh Yeh; Shreya Havaldar; Aida Mostafazadeh Davani; Ying Lin; Brendan Kennedy; Mohammad Atari; Zahra Kamel; Madelyn Mendlen; Gabriela Moreno; Christina Park; Tingyee E. Chang; Jenna Chin; Christian Leong; Jun Yen Leung; Arineh Mirinjian; Morteza Dehghani",
+      "data_url": "https://osf.io/ezn37/",
+      "composite": 68.1,
+      "PD": 68.0,
+      "PE": 66.0,
+      "CI": 71.5,
+      "theories": [
+        "mft"
+      ],
+      "source_instrument": "MFT annotation scheme",
+      "format": "Multi-label classification",
+      "size": 35108,
+      "cultural_provenance": "WEIRD-only",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 4,
+      "human_baseline": "Paper-specific",
+      "safety_relevance": 4,
+      "scorer_type": "Log-likelihood",
+      "harness_tiers": {
+        "lm_eval": "READY",
+        "inspect": "N_A",
+        "lighteval": "POSSIBLE",
+        "helm": "N_A",
+        "openai": "READY"
+      },
+      "citations": 198,
+      "llms_evaluated": "NA"
+    },
+    {
+      "rank": 5,
+      "file": "2022-Fraser-Does Moral Code Have a Moral Code.md",
+      "short_title": "Does Moral Code Have a Moral Code?",
+      "year": 2022,
+      "authors": "Kathleen C. Fraser; Kiritchenko, Svetlana; Balkir, Esma",
+      "data_url": "https://delphi.allenai.org/",
+      "composite": 66.29,
+      "PD": 72.0,
+      "PE": 59.3,
+      "CI": 62.5,
+      "theories": [
+        "mft",
+        "schwartz"
+      ],
+      "source_instrument": "MFQ + Schweder's Big Three + Oxford Utilitarianism Scale (adapted)",
+      "format": "Binary + MCQ",
+      "size": 100,
+      "cultural_provenance": "WEIRD-only",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 3,
+      "human_baseline": "Published norms",
+      "safety_relevance": 4,
+      "scorer_type": "Log-likelihood",
+      "harness_tiers": {
+        "lm_eval": "POSSIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 42,
+      "llms_evaluated": "Delphi"
+    },
+    {
+      "rank": 6,
+      "file": "2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.md",
+      "short_title": "Do Moral Judgment and Reasoning Capability of",
+      "year": 2024,
+      "authors": "Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury",
+      "data_url": "NA",
+      "composite": 66.03,
+      "PD": 80.0,
+      "PE": 54.1,
+      "CI": 49.0,
+      "theories": [
+        "kohlberg"
+      ],
+      "source_instrument": "DIT (Defining Issues Test)",
+      "format": "Scenario rating + ranking",
+      "size": 9,
+      "cultural_provenance": "Cross-cultural validated",
+      "languages": [
+        "English",
+        "Chinese",
+        "Hindi",
+        "Russian",
+        "Spanish",
+        "Swahili"
+      ],
+      "construct_validity": 4,
+      "human_baseline": "Published norms",
+      "safety_relevance": 4,
+      "scorer_type": "Psychometric scoring (reverse-coded Likert)",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 14,
+      "llms_evaluated": "ChatGPT, GPT-4, Llama-2"
+    },
+    {
+      "rank": 7,
+      "file": "2015-Clifford-Moral Foundations Vignettes.md",
+      "short_title": "Moral Foundations Vignettes",
+      "year": 2015,
+      "authors": "Scott Clifford; Vijeth Iyengar; Raúl Cabeza; Walter Sinnott-Armstrong",
+      "data_url": "NA",
+      "composite": 64.47,
+      "PD": 83.0,
+      "PE": 55.9,
+      "CI": 31.0,
+      "theories": [
+        "mft"
+      ],
+      "source_instrument": "Original instrument (MFV)",
+      "format": "Scenario rating",
+      "size": 132,
+      "cultural_provenance": "WEIRD-only",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 5,
+      "human_baseline": "Published norms",
+      "safety_relevance": 4,
+      "scorer_type": "Model-graded",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "NOT_FEASIBLE",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 14,
+      "llms_evaluated": "NA"
+    },
+    {
+      "rank": 8,
+      "file": "2024-Abdulhai-Moral Foundations of Large Language Models.md",
+      "short_title": "Moral Foundations of Large Language Models",
+      "year": 2024,
+      "authors": "Marwa Abdulhai; Gregory Serapio-García; Clement Crepy; Daria Valter; John Canny; Natasha Jaques",
+      "data_url": "https://github.com/abdulhaim/moral_foundations_llms",
+      "composite": 63.84,
+      "PD": 85.0,
+      "PE": 62.8,
+      "CI": 12.5,
+      "theories": [
+        "mft"
+      ],
+      "source_instrument": "MFQ-30",
+      "format": "Likert",
+      "size": 30,
+      "cultural_provenance": "WEIRD-only",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 5,
+      "human_baseline": "Published norms",
+      "safety_relevance": 5,
+      "scorer_type": "Custom",
+      "harness_tiers": {
+        "lm_eval": "POSSIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": null,
+      "llms_evaluated": "ChatGPT, GPT-3, PaLM"
+    },
+    {
+      "rank": 9,
+      "file": "2023-Deng-Probing the Moral Development of Large Language.md",
+      "short_title": "Probing the Moral Development of Large Language",
+      "year": 2023,
+      "authors": "Kumar Tanmay; Aditi Khandelwal; Utkarsh Agarwal; Monojit Choudhury",
+      "data_url": "NA",
+      "composite": 63.23,
+      "PD": 80.0,
+      "PE": 54.1,
+      "CI": 35.0,
+      "theories": [
+        "kohlberg"
+      ],
+      "source_instrument": "DIT (Defining Issues Test)",
+      "format": "Scenario rating + ranking",
+      "size": 9,
+      "cultural_provenance": "WEIRD-only",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 4,
+      "human_baseline": "Published norms",
+      "safety_relevance": 4,
+      "scorer_type": "Psychometric scoring (reverse-coded Likert)",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 31,
+      "llms_evaluated": "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama-2, PaLM"
+    },
+    {
+      "rank": 10,
+      "file": "2024-Sorensen-Value Kaleidoscope.md",
+      "short_title": "Value Kaleidoscope",
+      "year": 2024,
+      "authors": "Sorensen, Taylor; Jiang, Liwei; Hwang, Jena; Levine, Sydney; Pyatkin, Valentina; West, Peter; Dziri, Nouha; Lu, Ximing; Rao, Kavel; Bhagavatula, Chandra; Sap, Maarten; Tasioulas, John; Choi, Yejin",
+      "data_url": "https://huggingface.co/datasets/allenai/ValuePrism",
+      "composite": 61.6,
+      "PD": 55.5,
+      "PE": 69.5,
+      "CI": 65.0,
+      "theories": [
+        "schwartz"
+      ],
+      "source_instrument": "None (novel framework)",
+      "format": "Free-text generation + MCQ",
+      "size": 218000,
+      "cultural_provenance": "WEIRD-only",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 3,
+      "human_baseline": "Paper-specific",
+      "safety_relevance": 4,
+      "scorer_type": "Custom",
+      "harness_tiers": {
+        "lm_eval": "READY",
+        "inspect": "N_A",
+        "lighteval": "POSSIBLE",
+        "helm": "N_A",
+        "openai": "READY"
+      },
+      "citations": 101,
+      "llms_evaluated": "Flan-T5, GPT-4"
+    },
+    {
+      "rank": 11,
+      "file": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+      "short_title": "Multilingual Defining Issues Test",
+      "year": 2024,
+      "authors": "Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury",
+      "data_url": "NA",
+      "composite": 61.23,
+      "PD": 80.0,
+      "PE": 54.1,
+      "CI": 25.0,
+      "theories": [
+        "kohlberg"
+      ],
+      "source_instrument": "DIT (Defining Issues Test)",
+      "format": "Scenario rating + ranking",
+      "size": 9,
+      "cultural_provenance": "Cross-cultural validated",
+      "languages": [
+        "English",
+        "Chinese",
+        "Hindi",
+        "Russian",
+        "Spanish",
+        "Swahili"
+      ],
+      "construct_validity": 4,
+      "human_baseline": "Published norms",
+      "safety_relevance": 4,
+      "scorer_type": "Psychometric scoring (reverse-coded Likert)",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": null,
+      "llms_evaluated": "ChatGPT, GPT-4, Llama-2"
+    },
+    {
+      "rank": 12,
+      "file": "2023-Benkler-Assessing LLMs for Moral Value Pluralism.md",
+      "short_title": "Assessing LLMs for Moral Value Pluralism",
+      "year": 2023,
+      "authors": "Noam Benkler; Drisana Mosaphir; Scott Friedman; Andrew Smart; Sonja Schmer-Galunder",
+      "data_url": "NA",
+      "composite": 55.63,
+      "PD": 67.5,
+      "PE": 46.6,
+      "CI": 39.5,
+      "theories": [
+        "schwartz"
+      ],
+      "source_instrument": "World Values Survey (WVS)",
+      "format": "Free-text + automated scoring",
+      "size": 5,
+      "cultural_provenance": "Cross-cultural validated",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 3,
+      "human_baseline": "Published norms",
+      "safety_relevance": 3,
+      "scorer_type": "Custom",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 39,
+      "llms_evaluated": "GPT-3"
+    },
+    {
+      "rank": 13,
+      "file": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+      "short_title": "How Can a Deontological Decision Lead to Moral",
+      "year": 2016,
+      "authors": "Xu, Zhi Xing; Ma, Hing Keung",
+      "data_url": "NA",
+      "composite": 55.17,
+      "PD": 75.5,
+      "PE": 46.4,
+      "CI": 17.5,
+      "theories": [
+        "identity"
+      ],
+      "source_instrument": "Moral Identity Scale (Aquino & Reed 2002) + Ethical Predisposition Measure",
+      "format": "Likert + behavioral task",
+      "size": 250,
+      "cultural_provenance": "Non-Western specific",
+      "languages": [
+        "Chinese"
+      ],
+      "construct_validity": 4,
+      "human_baseline": "Paper-specific",
+      "safety_relevance": 4,
+      "scorer_type": "Custom",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "NOT_FEASIBLE",
+        "helm": "N_A",
+        "openai": "POSSIBLE"
+      },
+      "citations": 0,
+      "llms_evaluated": "NA"
+    },
+    {
+      "rank": 14,
+      "file": "2025-Wu-CVC.md",
+      "short_title": "CVC",
+      "year": 2025,
+      "authors": "Wu, Ping; Shen, Guobin; Zhao, Dongcheng; Wang, Yuwei; Dong, Yiting; Shi, Yu; Lu, Enmeng; Zhao, Feifei; Zeng, Yi",
+      "data_url": "https://huggingface.co/datasets/Beijing-AISI/C-VARC",
+      "composite": 52.81,
+      "PD": 51.0,
+      "PE": 73.7,
+      "CI": 26.0,
+      "theories": [],
+      "source_instrument": "None (novel Chinese value framework, adapted from Social Chemistry 101 and MIC)",
+      "format": "MCQ + scenario generation",
+      "size": 250000,
+      "cultural_provenance": "Non-Western specific",
+      "languages": [
+        "Chinese"
+      ],
+      "construct_validity": 3,
+      "human_baseline": "Paper-specific",
+      "safety_relevance": 5,
+      "scorer_type": "Log-likelihood",
+      "harness_tiers": {
+        "lm_eval": "READY",
+        "inspect": "POSSIBLE",
+        "lighteval": "POSSIBLE",
+        "helm": "N_A",
+        "openai": "READY"
+      },
+      "citations": 2,
+      "llms_evaluated": "Claude, DeepSeek, Gemini, GPT-4o, Llama-3, Qwen"
+    },
+    {
+      "rank": 15,
+      "file": "2025-Drukker-Concerns and Values in Human-Robot Interactions.md",
+      "short_title": "Concerns and Values in Human-Robot Interactions",
+      "year": 2025,
+      "authors": "Giulio Antonio Abbo; Tony Belpaeme; Micol Spitale",
+      "data_url": "NA",
+      "composite": 36.12,
+      "PD": 41.0,
+      "PE": 40.4,
+      "CI": 17.5,
+      "theories": [
+        "schwartz"
+      ],
+      "source_instrument": "None (novel HRI value taxonomy)",
+      "format": "N/A (design tool)",
+      "size": 0,
+      "cultural_provenance": "WEIRD-only",
+      "languages": [
+        "English"
+      ],
+      "construct_validity": 2,
+      "human_baseline": "No",
+      "safety_relevance": 3,
+      "scorer_type": "Custom",
+      "harness_tiers": {
+        "lm_eval": "NOT_FEASIBLE",
+        "inspect": "N_A",
+        "lighteval": "BARRIERS",
+        "helm": "N_A",
+        "openai": "NOT_FEASIBLE"
+      },
+      "citations": null,
+      "llms_evaluated": "NA"
+    }
+  ],
+  "honorable_mentions": [
+    {
+      "file": "2024-Jin-Language Model Alignment in Multilingual Trolley.md",
+      "short_title": "Language Model Alignment in Multilingual Trolley",
+      "composite": 69.28,
+      "theories": [
+        "trolley"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2025-Zaim Bin Ahmad-Large-scale moral machine experiment on large.md",
+      "short_title": "Large-scale moral machine experiment on large",
+      "composite": 66.42,
+      "theories": [
+        "trolley"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+      "short_title": "Differences in Moral Foundations of LLMs",
+      "composite": 63.74,
+      "theories": [
+        "mft"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2024-Aksoy-Whose Morality Do They Speak.md",
+      "short_title": "Whose Morality Do They Speak?",
+      "composite": 62.33,
+      "theories": [
+        "mft"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+      "short_title": "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment",
+      "composite": 61.99,
+      "theories": [
+        "trolley"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2023-Hopp-The Dutch Moral Foundations Stimulus Database.md",
+      "short_title": "The Dutch Moral Foundations Stimulus Database",
+      "composite": 61.98,
+      "theories": [
+        "mft"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2022-Trager-The Moral Foundations Reddit Corpus.md",
+      "short_title": "The Moral Foundations Reddit Corpus",
+      "composite": 60.97,
+      "theories": [
+        "mft"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2020-Forbes-Social Chemistry 101.md",
+      "short_title": "Social Chemistry 101",
+      "composite": 60.89,
+      "theories": [
+        "mft"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2024-Nunes-Conscience Conflict Evaluating Language Models' Moral Understanding.md",
+      "short_title": "Conscience Conflict: Evaluating Language Models' Moral Understanding",
+      "composite": 58.43,
+      "theories": [
+        "mft"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    },
+    {
+      "file": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+      "short_title": "Building Interpretable Models for Moral Decision-Making",
+      "composite": 58.22,
+      "theories": [
+        "trolley"
+      ],
+      "reason_not_included": "Below top-15 composite threshold after diversity adjustments"
+    }
+  ]
+}

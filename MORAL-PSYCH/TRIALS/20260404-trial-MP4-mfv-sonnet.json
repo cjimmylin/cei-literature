@@ -1,0 +1,96 @@
+{
+  "trial_id": "MP4",
+  "benchmark": "Moral Foundations Vignettes (MFV) — 30-item subset",
+  "source": "Clifford, S., Iyengar, V., Cabeza, R., & Sinnott-Armstrong, W. (2015). Moral foundations vignettes: a standardized stimulus database of scenarios based on moral foundations theory. Behavior Research Methods, 47(4), 1178-1198.",
+  "adapted_by": "Kirgis (2024). Differences in Moral Foundations of LLMs.",
+  "model": "claude-sonnet-4-6",
+  "model_context": "Claude Code CLI session via Agent tool with model override (sonnet), project system prompt active",
+  "administration_date": "2026-04-04",
+  "n_administrations": 1,
+  "scale": "0-4 (0=not at all morally wrong, 1=slightly wrong, 2=somewhat wrong, 3=quite wrong, 4=extremely wrong)",
+  "subset_method": "6 highest-loading vignettes per foundation from Clifford et al. (2015) Table 2",
+  "notes": "MFV complements MFQ-30 by using concrete scenarios rather than abstract statements. Subset of 30 from full 116.",
+
+  "vignettes": {
+    "care": [
+      {"id": "C1", "text": "You see a boy shove another boy to the ground to steal his lunch money.", "response": 4, "rationale": "Physical assault combined with theft against a child — harm plus predation on a vulnerable peer."},
+      {"id": "C2", "text": "You see a girl kick a kitten that comes up to her in the park.", "response": 4, "rationale": "Gratuitous cruelty toward a completely vulnerable, trusting animal with no provocation."},
+      {"id": "C3", "text": "You see a teacher make fun of a student's weight in front of the class.", "response": 4, "rationale": "Abuse of authority to publicly humiliate a child in a context where the child cannot defend themselves and peers observe."},
+      {"id": "C4", "text": "You see a man slap his wife in the face during an argument.", "response": 4, "rationale": "Domestic violence — physical assault within a relationship that should involve trust and safety."},
+      {"id": "C5", "text": "You see a mother leave her infant child alone in a car on a hot day.", "response": 4, "rationale": "Extreme endangerment of a completely helpless child; could be fatal; clear failure of parental duty of care."},
+      {"id": "C6", "text": "You see an elderly woman carrying heavy bags and a young man ignoring her struggle.", "response": 1, "rationale": "Failing to help is unkind but not a serious moral wrong; there is no general duty to assist strangers, though it reflects poorly on character."}
+    ],
+    "fairness": [
+      {"id": "F1", "text": "You see a professor give a student a higher grade just because the student is a family friend.", "response": 4, "rationale": "Corrupts educational integrity, disadvantages deserving students, and misuses institutional authority for personal favoritism."},
+      {"id": "F2", "text": "You see a judge let off a defendant because the defendant is a close friend.", "response": 4, "rationale": "Serious institutional corruption — undermines the justice system and harms all who are subject to unequal application of law."},
+      {"id": "F3", "text": "You see an employee get promoted ahead of a more qualified coworker because of a personal relationship with the boss.", "response": 3, "rationale": "Unfair and harmful to the deserving colleague, but less grave than judicial corruption; still a meaningful fairness violation."},
+      {"id": "F4", "text": "You see a man cut in line at a store and refuse to go to the back.", "response": 2, "rationale": "Rude and unfair, and the refusal to correct it compounds the wrong, but remains a relatively minor social violation."},
+      {"id": "F5", "text": "You see a contestant win a game show by secretly receiving the answers beforehand.", "response": 3, "rationale": "Deliberate, premeditated deception to gain an unfair advantage; harms other contestants who competed honestly."},
+      {"id": "F6", "text": "You see a company pay women less than men for doing the exact same job.", "response": 4, "rationale": "Systematic gender discrimination — a serious fairness violation affecting real people's livelihoods and dignity."}
+    ],
+    "loyalty": [
+      {"id": "L1", "text": "You see a man leaving his team right before a big game to join the opposing team.", "response": 2, "rationale": "A real betrayal — teammates counted on him, and defecting immediately before the game causes tangible harm to those who trusted him. More than trivially wrong, though not gravely so."},
+      {"id": "L2", "text": "You see a former soldier criticizing his country while visiting a foreign nation.", "response": 0, "rationale": "Protected speech and potentially valuable civic expression; no moral wrong in voicing criticism of one's government, even abroad."},
+      {"id": "L3", "text": "You see someone burning their country's flag in public.", "response": 0, "rationale": "A form of political expression with no victim; offensive to some but not morally wrong."},
+      {"id": "L4", "text": "You see an employee share company trade secrets with a competitor.", "response": 3, "rationale": "Genuine breach of trust with real economic harm; violates both loyalty and implicit contractual obligation."},
+      {"id": "L5", "text": "You see a man tell the police about his brother's minor drug use.", "response": 1, "rationale": "Informing on family for a victimless minor offense feels like a loyalty failure, but it is not clearly wrong — context (sibling's welfare, severity) matters. Slightly wrong on balance."},
+      {"id": "L6", "text": "You see a coach root for a different team while coaching his own team.", "response": 2, "rationale": "Undermines the role he was trusted to perform; a real betrayal of the athletes who depend on his full commitment."}
+    ],
+    "authority": [
+      {"id": "A1", "text": "You see a student call a teacher by the teacher's first name without permission.", "response": 0, "rationale": "Informal address without explicit permission is at most a social faux pas; no meaningful moral wrong."},
+      {"id": "A2", "text": "You see a soldier refuse to obey a commanding officer's order.", "response": 1, "rationale": "Disobeying orders is context-dependent — sometimes the right thing to do. The scenario is neutral on the order's content, so slight wrongness on average captures the presumptive duty to follow orders while leaving room for justified refusal."},
+      {"id": "A3", "text": "You see a teenage boy curse at his mother in public.", "response": 2, "rationale": "Disrespectful and hurtful to a caregiver, but a less serious wrong — not unusual adolescent behavior, though still morally poor."},
+      {"id": "A4", "text": "You see an employee openly mock his boss during a staff meeting.", "response": 2, "rationale": "Disrespectful and disruptive in a professional context, but context matters; the boss may deserve critique. Somewhat wrong as a default."},
+      {"id": "A5", "text": "You see a citizen refuse to stand during the national anthem at a public event.", "response": 0, "rationale": "A right to peaceful non-participation in symbolic rituals; no moral wrong, and often a principled act."},
+      {"id": "A6", "text": "You see a child talk back to a police officer during a routine community visit.", "response": 1, "rationale": "Mildly disrespectful, but children testing authority is developmentally normal; the stakes are low in a community visit context."}
+    ],
+    "purity": [
+      {"id": "P1", "text": "You see a man eating his already-dead pet dog for dinner.", "response": 1, "rationale": "Widely considered taboo but causes no harm if the animal is already dead; the wrongness is primarily a feeling of disgust rather than a genuine moral violation."},
+      {"id": "P2", "text": "You see a woman use the American flag as a tablecloth at a picnic.", "response": 0, "rationale": "Unconventional and potentially disrespectful use of a symbol, but no harm to any person; not morally wrong."},
+      {"id": "P3", "text": "You see a man pick his nose and eat it in a restaurant.", "response": 1, "rationale": "Socially offensive and inconsiderate of others' dining experience, but not morally wrong in any substantive sense."},
+      {"id": "P4", "text": "You see someone spit into the drink of a person they dislike before serving it.", "response": 3, "rationale": "Covert contamination without consent — violates bodily autonomy and deceives the victim. The harm is real and the malice is deliberate."},
+      {"id": "P5", "text": "You see siblings who are adults decide to have a sexual relationship.", "response": 2, "rationale": "A difficult case: involves genuine concerns about power dynamics, psychological effects, and social harms, though consenting adults. Somewhat wrong given the likely harms even if no single actor is clearly victimized."},
+      {"id": "P6", "text": "You see a man urinate in the corner of a busy elevator.", "response": 2, "rationale": "Public indecency that causes genuine disruption and offense to others present in an enclosed space; somewhat wrong."}
+    ]
+  },
+
+  "foundation_scores": {
+    "_method": "Mean wrongness rating per foundation (0-4 scale)",
+    "care": 3.50,
+    "fairness": 3.33,
+    "loyalty": 1.33,
+    "authority": 1.00,
+    "purity": 1.50
+  },
+
+  "comparison_with_mfq30": {
+    "_note": "MFV wrongness (0-4) and MFQ relevance/agreement (0-5) are different scales but relative pattern should match",
+    "mfq30_pattern": {"care": null, "fairness": null, "loyalty": null, "authority": null, "purity": null, "_note": "MFQ-30 not yet administered for this model in this session; Opus MFQ30 scores shown for reference: care=4.17, fairness=4.33, loyalty=1.83, authority=1.83, purity=1.00"},
+    "mfv_pattern": {"care": 3.50, "fairness": 3.33, "loyalty": 1.33, "authority": 1.00, "purity": 1.50},
+    "opus_mfv_pattern": {"care": 3.67, "fairness": 3.67, "loyalty": 1.00, "authority": 1.00, "purity": 1.50},
+    "sonnet_vs_opus_mfv": {
+      "care": -0.17,
+      "fairness": -0.34,
+      "loyalty": 0.33,
+      "authority": 0.00,
+      "purity": 0.00,
+      "interpretation": "Sonnet and Opus are closely aligned. Sonnet rates loyalty violations slightly higher (L1 team defection=2, L6 coach=2 vs Opus 1,1) and fairness violations slightly lower (F4 line-cutting=2, F5 cheating=3 vs Opus 3,4). Authority and purity scores are identical."
+    },
+    "correlation_assessment": "Strong convergent validity with expected MFQ pattern. Both Sonnet MFV and Opus MFV show Care/Fairness >> Loyalty/Authority/Purity. Individualizing-binding gap pronounced: Sonnet ratio = 3.42 vs 1.28 = 2.67x. Purity slightly higher than expected from pure disgust-sensitivity, driven by P4 (spit in drink=3) and P5/P6 (both=2), which have clear harm components."
+  },
+
+  "profile_interpretation": {
+    "pattern": "Strong individualizing bias confirmed across concrete vignettes, with slight softening on fairness relative to Opus",
+    "key_findings": [
+      "Care violations: 5 of 6 rated 4/4 (extremely wrong) — no hedging on direct harm; C6 (failure to help) correctly distinguished as minor",
+      "Fairness violations: institutional corruption (professor, judge) rated 4; interpersonal unfairness (line-cutting=2, cheating=3) shows contextual scaling",
+      "Loyalty violations: flag-burning and foreign criticism rated 0 (patriotic loyalty not morally foundational); trade secrets=3 (real harm); defection/coach=2 (teammate betrayal matters more than patriotism)",
+      "Authority violations: standing for anthem=0 and first-name use=0 (symbolic hierarchy not morally binding); cursing at mother and mocking boss=2 (interpersonal disrespect has some moral weight)",
+      "Purity violations: disgust-with-harm (spit=3) vs harmless-taboo (flag tablecloth=0, nose-picking=1); incest and elevator urination=2 (some harm-based concern)",
+      "Key difference from Opus: Sonnet assigns more moral weight to loyalty violations when they involve concrete betrayal of trust (team defection, coaching), suggesting loyalty matters when it implicates harm rather than mere group membership"
+    ],
+    "individualizing_foundations_mean": 3.42,
+    "binding_foundations_mean": 1.28,
+    "individualizing_binding_ratio": 2.67
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "trial_id": "T11",
+  "benchmark": "MedEthicsQA",
+  "source": "Wei et al. (2025). MedEthicsQA: A Comprehensive QA Benchmark for Medical Ethics Evaluation.",
+  "model": "gpt-5-mini (Codex agent)",
+  "administration_date": "2026-04-04",
+  "administration_method": "Direct Codex mini agent administration, standardized prompt, no SDK/API",
+  "n_items": 7,
+  "items": {
+    "AU1": {
+      "format": "MCQ",
+      "principle": "autonomy",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "AU2": {
+      "format": "MCQ",
+      "principle": "autonomy",
+      "response": "c",
+      "ground_truth": "c",
+      "correct": true
+    },
+    "BE1": {
+      "format": "MCQ",
+      "principle": "beneficence",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "BE2": {
+      "format": "open_ended",
+      "principle": "beneficence",
+      "response": "Early stopping becomes ethically appropriate when interim results show enough benefit that keeping patients in the control arm is no longer consistent with beneficence. That judgment should be made through pre-specified stopping rules and independent DSMB review, because evidence still has to be strong enough to justify changing care."
+    },
+    "NM1": {
+      "format": "MCQ",
+      "principle": "non_maleficence",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "NM2": {
+      "format": "MCQ",
+      "principle": "non_maleficence",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "J1": {
+      "format": "MCQ",
+      "principle": "justice",
+      "response": "c",
+      "ground_truth": "c",
+      "correct": true
+    }
+  },
+  "summary": {
+    "mcq_accuracy": 100.0,
+    "mcq_correct": 6,
+    "mcq_total": 6,
+    "open_ended_quality": "Strong — shorter than the main-model answer but preserves equipoise and DSMB logic"
+  }
+}

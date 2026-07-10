@@ -1,0 +1,2093 @@
+{
+  "metadata": {
+    "date": "2026-04-04",
+    "script": "analyze_benchmark_landscape.py",
+    "total_papers": 218,
+    "deep_scored": 32,
+    "auto_scored": 168,
+    "analyses_count": 25,
+    "input_files": {
+      "merged": "20260404-benchmark-features-merged.json",
+      "rankings": "20260404-benchmark-rankings.json",
+      "candidates": "20260404-benchmark-candidates.json",
+      "external": "20260404-benchmark-external-search.json"
+    }
+  },
+  "analyses": [
+    {
+      "analysis_id": 1,
+      "name": "Benchmark Landscape Clustering",
+      "description": "Hierarchical clustering of 215 papers on 13 numeric features. Optimal k=2 (silhouette=0.221).",
+      "results": {
+        "optimal_k": 2,
+        "silhouette_score": 0.2211,
+        "silhouette_by_k": {
+          "2": 0.2211,
+          "3": 0.1519,
+          "4": 0.1605,
+          "5": 0.1621,
+          "6": 0.1794,
+          "7": 0.2078,
+          "8": 0.2036,
+          "9": 0.1701,
+          "10": 0.1762
+        },
+        "cluster_profiles": {
+          "cluster_1": {
+            "size": 47,
+            "mean_features": {
+              "cultural_scope_num": 2.596,
+              "countries_count": 4.468,
+              "global_south": 0.872,
+              "indigenous": 0.277,
+              "languages_count": 155.489,
+              "non_english_primary": 0.574,
+              "reliability_reported": 0.319,
+              "llm_administrable": 0.979,
+              "human_baseline": 0.255,
+              "data_availability_score": 1.915,
+              "format_complexity": 1.213,
+              "nw_framework_count": 0.915,
+              "nw_tradition_count": 1.0
+            },
+            "name": "Non-Western Focused"
+          },
+          "cluster_2": {
+            "size": 168,
+            "mean_features": {
+              "cultural_scope_num": 2.762,
+              "countries_count": 5.006,
+              "global_south": 0.696,
+              "indigenous": 0.0,
+              "languages_count": 7.708,
+              "non_english_primary": 0.351,
+              "reliability_reported": 0.286,
+              "llm_administrable": 0.952,
+              "human_baseline": 0.268,
+              "data_availability_score": 2.095,
+              "format_complexity": 1.661,
+              "nw_framework_count": 0.012,
+              "nw_tradition_count": 0.101
+            },
+            "name": "LLM-Ready Benchmarks"
+          }
+        },
+        "papers_clustered": 215,
+        "feature_names": [
+          "cultural_scope_num",
+          "countries_count",
+          "global_south",
+          "indigenous",
+          "languages_count",
+          "non_english_primary",
+          "reliability_reported",
+          "llm_administrable",
+          "human_baseline",
+          "data_availability_score",
+          "format_complexity",
+          "nw_framework_count",
+          "nw_tradition_count"
+        ]
+      },
+      "key_finding": "2 clusters identified (silhouette=0.221); largest cluster has 168 papers"
+    },
+    {
+      "analysis_id": 2,
+      "name": "Tradition Coverage Matrix",
+      "description": "Count of benchmark papers covering each of 7 non-Western traditions (threshold: nw_score >= 10 or T5 list match).",
+      "results": {
+        "tradition_counts": {
+          "Confucian": 30,
+          "Islamic": 6,
+          "Dharmic": 4,
+          "Buddhist": 13,
+          "Ubuntu": 5,
+          "Indigenous/Relational": 6,
+          "Buen Vivir": 2
+        },
+        "tradition_paper_lists": {
+          "Confucian": [
+            "2025-Wu-CVC.md",
+            "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+            "2025-Rao-NormAd.md",
+            "2023-Catapang-EMoTES-3K.md",
+            "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md"
+          ],
+          "Islamic": [
+            "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+            "2026-Alam-From RAG to Agentic RAG for.md",
+            "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+            "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md",
+            "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md"
+          ],
+          "Dharmic": [
+            "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+            "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+            "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+            "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md"
+          ],
+          "Buddhist": [
+            "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+            "2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md",
+            "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+            "2024-AI-Religious Bias Benchmarks for ChatGPT.md",
+            "2022-Shaily Bhatt-Re-contextualizing Fairness in NLP The Case.md"
+          ],
+          "Ubuntu": [
+            "2023-Liu-AgentBench.md",
+            "2025-Steen-Ethical aspects of ChatGPT.md",
+            "2025-Wu-OpenDeception.md",
+            "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+            "2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md"
+          ],
+          "Indigenous/Relational": [
+            "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+            "2023-Catapang-EMoTES-3K.md",
+            "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+            "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+            "2025-Ogunremi-1 Decolonizing NLP for “Low-resource Languages”.md"
+          ],
+          "Buen Vivir": [
+            "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+            "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md"
+          ]
+        },
+        "zero_coverage_traditions": [],
+        "total_papers_with_any_nw": 54
+      },
+      "key_finding": "All 7 traditions have at least one benchmark; Confucian (30) leads"
+    },
+    {
+      "analysis_id": 3,
+      "name": "Geographic Coverage",
+      "description": "Creator region distribution of benchmark papers compared to broader literature (2,329 papers).",
+      "results": {
+        "region_counts": {
+          "North America": 86,
+          "East Asia": 42,
+          "Western Europe": 35,
+          "South Asia": 18,
+          "Unknown": 10,
+          "MENA": 9,
+          "Southeast Asia": 7,
+          "Oceania": 5,
+          "Latin America": 3,
+          "Sub-Saharan Africa": 2,
+          "Eastern Europe": 1
+        },
+        "benchmark_distribution_pct": {
+          "North America": 39.4,
+          "East Asia": 19.3,
+          "Western Europe": 16.1,
+          "South Asia": 8.3,
+          "Unknown": 4.6,
+          "MENA": 4.1,
+          "Southeast Asia": 3.2,
+          "Oceania": 2.3,
+          "Latin America": 1.4,
+          "Sub-Saharan Africa": 0.9,
+          "Eastern Europe": 0.5
+        },
+        "comparison_to_broader_literature": {
+          "South Asia": {
+            "benchmark_pct": 8.3,
+            "broader_lit_pct": 5.0,
+            "difference_pp": 3.3
+          },
+          "MENA": {
+            "benchmark_pct": 4.1,
+            "broader_lit_pct": 4.5,
+            "difference_pp": -0.4
+          },
+          "Western Europe": {
+            "benchmark_pct": 16.1,
+            "broader_lit_pct": 20.6,
+            "difference_pp": -4.5
+          },
+          "North America": {
+            "benchmark_pct": 39.4,
+            "broader_lit_pct": 39.5,
+            "difference_pp": -0.1
+          },
+          "East Asia": {
+            "benchmark_pct": 19.3,
+            "broader_lit_pct": 12.7,
+            "difference_pp": 6.6
+          },
+          "Eastern Europe": {
+            "benchmark_pct": 0.5,
+            "broader_lit_pct": 3.0,
+            "difference_pp": -2.5
+          },
+          "Oceania": {
+            "benchmark_pct": 2.3,
+            "broader_lit_pct": 3.5,
+            "difference_pp": -1.2
+          },
+          "Latin America": {
+            "benchmark_pct": 1.4,
+            "broader_lit_pct": 2.0,
+            "difference_pp": -0.6
+          },
+          "Southeast Asia": {
+            "benchmark_pct": 3.2,
+            "broader_lit_pct": 3.0,
+            "difference_pp": 0.2
+          },
+          "Unknown": {
+            "benchmark_pct": 4.6,
+            "broader_lit_pct": 3.7,
+            "difference_pp": 0.9
+          },
+          "Sub-Saharan Africa": {
+            "benchmark_pct": 0.9,
+            "broader_lit_pct": 2.5,
+            "difference_pp": -1.6
+          }
+        },
+        "total_with_region": 218
+      },
+      "key_finding": "East Asia (42) and North America (86) dominate benchmark creation; East Asia over-represented vs broader lit by +6.6pp"
+    },
+    {
+      "analysis_id": 4,
+      "name": "Psychometric Quality Gradient",
+      "description": "Distribution of reliability reporting and measurement invariance across cultural scope tiers.",
+      "results": {
+        "quality_by_scope_tier": {
+          "Bicultural/Limited": {
+            "has_reliability": 24,
+            "has_invariance": 0,
+            "total": 61,
+            "reliability_pct": 39.3,
+            "invariance_pct": 0.0
+          },
+          "Mono/Single": {
+            "has_reliability": 12,
+            "has_invariance": 0,
+            "total": 41,
+            "reliability_pct": 29.3,
+            "invariance_pct": 0.0
+          },
+          "Multicultural": {
+            "has_reliability": 14,
+            "has_invariance": 0,
+            "total": 75,
+            "reliability_pct": 18.7,
+            "invariance_pct": 0.0
+          },
+          "Cross-cultural/Global": {
+            "has_reliability": 13,
+            "has_invariance": 0,
+            "total": 41,
+            "reliability_pct": 31.7,
+            "invariance_pct": 0.0
+          }
+        },
+        "overall_reliability_count": 63,
+        "overall_invariance_count": 0,
+        "total_papers": 218
+      },
+      "key_finding": "63/218 (29%) report reliability; only 0 report measurement invariance"
+    },
+    {
+      "analysis_id": 5,
+      "name": "Temporal Trends",
+      "description": "Benchmark papers by year, stacked by cultural scope tier.",
+      "results": {
+        "year_totals": {
+          "2016": 1,
+          "2018": 1,
+          "2019": 1,
+          "2020": 1,
+          "2021": 1,
+          "2022": 4,
+          "2023": 12,
+          "2024": 58,
+          "2025": 129,
+          "2026": 10
+        },
+        "year_by_scope_tier": {
+          "2016": {
+            "Cross-cultural/Global": 1
+          },
+          "2018": {
+            "Multicultural": 1
+          },
+          "2019": {
+            "Multicultural": 1
+          },
+          "2020": {
+            "Multicultural": 1
+          },
+          "2021": {
+            "Multicultural": 1
+          },
+          "2022": {
+            "Multicultural": 3,
+            "Bicultural/Limited": 1
+          },
+          "2023": {
+            "Mono/Single": 3,
+            "Cross-cultural/Global": 3,
+            "Bicultural/Limited": 5,
+            "Multicultural": 1
+          },
+          "2024": {
+            "Mono/Single": 12,
+            "Bicultural/Limited": 18,
+            "Cross-cultural/Global": 10,
+            "Multicultural": 18
+          },
+          "2025": {
+            "Bicultural/Limited": 34,
+            "Mono/Single": 23,
+            "Multicultural": 49,
+            "Cross-cultural/Global": 23
+          },
+          "2026": {
+            "Mono/Single": 3,
+            "Bicultural/Limited": 3,
+            "Cross-cultural/Global": 4
+          }
+        },
+        "peak_year": 2025,
+        "peak_count": 129
+      },
+      "key_finding": "Peak year: 2025 with 129 papers; cross-cultural/global scope growing since 2023"
+    },
+    {
+      "analysis_id": 6,
+      "name": "Language Coverage",
+      "description": "Papers by language count range and most/least covered languages.",
+      "results": {
+        "language_count_ranges": {
+          "1": 63,
+          "2-5": 67,
+          "6-20": 32,
+          "20+": 11,
+          "unknown": 45
+        },
+        "top_20_languages": {
+          "i": 176,
+          "n": 148,
+          "l": 143,
+          "s": 100,
+          "h": 99,
+          "a": 93,
+          "e": 90,
+          "g": 86,
+          "": 71,
+          ",": 68,
+          "u": 61,
+          "E": 53,
+          "r": 36,
+          "English": 35,
+          "t": 31,
+          "C": 27,
+          "M": 23,
+          "c": 17,
+          "o": 13,
+          "T": 12
+        },
+        "single_paper_languages": [
+          "Chinese (Simplified/Traditional)",
+          "Classical Chinese",
+          "D",
+          "Filipino",
+          "Filipino/Tagalog",
+          "German",
+          "Indonesian",
+          "Mandarin",
+          "Modern Chinese",
+          "Persian",
+          "Sinhala",
+          "Tamil",
+          "Thai",
+          "Urdu",
+          "f"
+        ],
+        "total_unique_languages": 63,
+        "monolingual_pct": 28.9
+      },
+      "key_finding": "63 papers monolingual (29%); 63 unique languages; English dominates with 35 papers"
+    },
+    {
+      "analysis_id": 7,
+      "name": "LLM Assessment Landscape",
+      "description": "Count of papers with prior LLM assessment; gap analysis of administrable but untested benchmarks.",
+      "results": {
+        "llm_tested": 192,
+        "llm_untested_but_administrable": 3,
+        "not_administrable": 23,
+        "assessment_targets_deep_scored": {
+          "LLM": 6,
+          "LLM (Arabic-focused models)": 2,
+          "LLMs": 2,
+          "LLM (6 Indic + 6 global models)": 1,
+          "LLM chatbot": 1,
+          "benchmark validity (ETHICS dataset)": 1,
+          "LLM (Arabic-centric + multilingual)": 1,
+          "LLM (RoBERTa, FLAN-T5)": 1,
+          "T2I models (text-to-image)": 1,
+          "VLM (vision-language models)": 1,
+          "LVLM (large vision-language models)": 1,
+          "LLM (17 models)": 1,
+          "LLM (GPT-5, Gemini 2.5 Pro, Llama 3.3, Qwen 3, DeepSeek-V3)": 1,
+          "LLM (7 models)": 1,
+          "105 cultural alignment benchmarks": 1,
+          "LLM-as-Agent (29 models)": 1,
+          "LLM (41 models)": 1,
+          "LLM + reward models (6 models)": 1,
+          "LLM (GPT-4o-Mini, Gemini-2.5-Flash, Llama 3.2, Mistral, Gemma 3)": 1,
+          "pre-trained language models": 1,
+          "AI_systems": 1,
+          "Chinese_LLMs": 1,
+          "AI_governance_frameworks": 1,
+          "LLMs (44 models)": 1,
+          "Chinese_LLMs (57 models)": 1
+        },
+        "tested_pct": 88.1,
+        "gap_pct": 1.4
+      },
+      "key_finding": "192/218 (88%) have prior LLM testing; 3 are administrable but untested (opportunity gap)"
+    },
+    {
+      "analysis_id": 8,
+      "name": "Epistemic Power Analysis",
+      "description": "Creator region distribution and epistemic asymmetry (Western creators making non-Western benchmarks).",
+      "results": {
+        "creator_region_counts": {
+          "North America": 86,
+          "East Asia": 42,
+          "Western Europe": 35,
+          "South Asia": 18,
+          "Unknown": 10,
+          "MENA": 9,
+          "Southeast Asia": 7,
+          "Oceania": 5,
+          "Latin America": 3,
+          "Sub-Saharan Africa": 2,
+          "Eastern Europe": 1
+        },
+        "non_western_focused_benchmarks": 172,
+        "non_western_benchmarks_by_western_creators": 90,
+        "epistemic_asymmetry_pct": 52.3
+      },
+      "key_finding": "52.3% of non-Western-focused benchmarks created by Western institutions; North America leads benchmark creation"
+    },
+    {
+      "analysis_id": 9,
+      "name": "Theory-Practice Gap",
+      "description": "Cross-tab of theory depth vs cultural scope (deep-scored papers). Also counts papers citing theory but having monocultural scope.",
+      "results": {
+        "theory_depth_by_scope_deep": {
+          "deep": {
+            "Bicultural/Limited": 1,
+            "Mono/Single": 6,
+            "Multicultural": 4,
+            "Cross-cultural/Global": 1
+          },
+          "moderate": {
+            "Bicultural/Limited": 1,
+            "Mono/Single": 4,
+            "Cross-cultural/Global": 3,
+            "Multicultural": 4
+          },
+          "shallow": {
+            "Mono/Single": 2,
+            "Multicultural": 1
+          },
+          "none": {
+            "Mono/Single": 1
+          },
+          "high": {
+            "Bicultural/Limited": 3,
+            "Mono/Single": 1
+          }
+        },
+        "theory_depth_distribution_deep": {
+          "deep": 12,
+          "moderate": 12,
+          "shallow": 3,
+          "none": 1,
+          "high": 4
+        },
+        "papers_with_theory_but_monocultural": 34,
+        "total_papers_with_theory": 155,
+        "deep_scored_count": 32
+      },
+      "key_finding": "34 papers cite theory but remain monocultural; theory depth distribution in deep-scored: {'deep': 12, 'moderate': 12, 'shallow': 3, 'none': 1, 'high': 4}"
+    },
+    {
+      "analysis_id": 10,
+      "name": "Data Availability Audit",
+      "description": "Distribution of R1_data_availability and count of papers with data URLs.",
+      "results": {
+        "data_availability_distribution": {
+          "open/public": 145,
+          "unavailable/unspecified": 57,
+          "unknown/NA": 12,
+          "partial": 3,
+          "planned": 1
+        },
+        "papers_with_data_url": 142,
+        "papers_without_data_url": 76,
+        "open_pct": 66.5
+      },
+      "key_finding": "145/218 (67%) are open/public; 142 provide a data URL"
+    },
+    {
+      "analysis_id": 11,
+      "name": "Response Format Distribution",
+      "description": "Distribution of F1_format_type and F2_response_format across cultural scope tiers.",
+      "results": {
+        "format_type_distribution": {
+          "scenario/dilemma": 101,
+          "other": 57,
+          "MC/QA/benchmark": 22,
+          "questionnaire/psychometric": 6,
+          "interactive/chatbot": 2,
+          "classification": 1
+        },
+        "response_format_distribution": {
+          "multiple_choice": 36,
+          "binary": 23,
+          "open_ended": 15,
+          "Likert": 4,
+          "mixed (likert/forced_choice/open_ended)": 2,
+          "multiple_choice (MC1 - single correct answer)": 2,
+          "pairwise": 2,
+          "acceptability_judgment": 2,
+          "mixed (likert/multiple_choice/categorical)": 1,
+          "mixed (binary agree/disagree + forced_choice comparative)": 1,
+          "N/A (evaluates existing benchmark)": 1,
+          "categorical (Yes/No/Neither)": 1,
+          "open_ended (generative with Correct/Incorrect/Not_Attempted grading)": 1,
+          "categorical (moral/immoral) + open_ended explanation": 1,
+          "human annotation (explicit/implicit expectation ratings, quality, stereotype, overall score)": 1,
+          "multiple_choice + open_ended": 1,
+          "mixed (action selection, classification, factor attribution, text generation)": 1,
+          "forced_choice (select 1 of 10 culturally-distinct responses) + open_ended justification": 1,
+          "open_ended (graded on 5-point rubric by judge LLM)": 1,
+          "categorical (permissible/not permissible) + open_ended reasoning": 1,
+          "N/A (survey of 105 benchmarks)": 1,
+          "agent actions (text commands, clicks, API calls)": 1,
+          "multiple_choice + text generation": 1,
+          "forced_choice (select preferred response from pair)": 1,
+          "mixed (survey response distribution comparison + bias benchmark tasks)": 1,
+          "mixed (multiple_choice, sequence labeling, text generation)": 1,
+          "multi_label_classification": 1,
+          "classification_and_reasoning": 1,
+          "similarity_rating": 1,
+          "adversarial_prompt_response": 1,
+          "visual_evaluation": 1,
+          "multi_task (identification, prediction, adaptation)": 1,
+          "forced_choice_binary": 1,
+          "binary_and_score": 1,
+          "multi_turn_conversation": 1,
+          "rating_and_ranking": 1,
+          "dilemma_resolution": 1,
+          "open_ended_QA": 1,
+          "conversation_analysis": 1,
+          "binary_choice": 1
+        },
+        "format_by_scope_tier": {
+          "Bicultural/Limited": {
+            "scenario/dilemma": 33,
+            "MC/QA/benchmark": 3,
+            "other": 15,
+            "questionnaire/psychometric": 2
+          },
+          "Mono/Single": {
+            "MC/QA/benchmark": 11,
+            "questionnaire/psychometric": 2,
+            "other": 4,
+            "scenario/dilemma": 14,
+            "interactive/chatbot": 1,
+            "classification": 1
+          },
+          "Multicultural": {
+            "scenario/dilemma": 34,
+            "MC/QA/benchmark": 3,
+            "other": 26,
+            "questionnaire/psychometric": 1
+          },
+          "Cross-cultural/Global": {
+            "scenario/dilemma": 20,
+            "other": 12,
+            "interactive/chatbot": 1,
+            "questionnaire/psychometric": 1,
+            "MC/QA/benchmark": 5
+          }
+        }
+      },
+      "key_finding": "MC/QA/benchmark (22) and scenario/dilemma (101) dominate; multiple_choice most common response format"
+    },
+    {
+      "analysis_id": 12,
+      "name": "Stakeholder Complexity (Moral Agency)",
+      "description": "Distribution of D7_unit_of_moral_agency across deep-scored papers, cross-tabbed with cultural scope.",
+      "results": {
+        "agency_distribution": {
+          "model": 16,
+          "LLM": 4,
+          "N/A": 3,
+          "model (T2I)": 1,
+          "model (VLM)": 1,
+          "model (LVLM)": 1,
+          "model + annotator": 1,
+          "model (agent)": 1,
+          "model (reward model)": 1,
+          "AI_system": 1,
+          "text": 1,
+          "community": 1
+        },
+        "agency_by_scope_tier": {
+          "Bicultural/Limited": {
+            "model": 2,
+            "text": 1,
+            "community": 1,
+            "LLM": 1
+          },
+          "Mono/Single": {
+            "model": 7,
+            "N/A": 2,
+            "model (VLM)": 1,
+            "model (LVLM)": 1,
+            "model (agent)": 1,
+            "LLM": 2
+          },
+          "Multicultural": {
+            "model": 5,
+            "model (T2I)": 1,
+            "model + annotator": 1,
+            "model (reward model)": 1,
+            "LLM": 1
+          },
+          "Cross-cultural/Global": {
+            "model": 2,
+            "N/A": 1,
+            "AI_system": 1
+          }
+        },
+        "deep_scored_count": 32
+      },
+      "key_finding": "'model' is dominant agency unit (16/32 deep-scored); relational/communal agency under-represented"
+    },
+    {
+      "analysis_id": 13,
+      "name": "Value Conflict Handling",
+      "description": "Distribution of D2_moral_reasoning_level (proxy for value conflict handling) and D3_context_sensitivity across deep-scored papers. V6 not available in data; D2 captures reasoning about conflicts.",
+      "results": {
+        "moral_reasoning_level_distribution": {
+          "low": 3,
+          "moral_judgment": 2,
+          "moral_reasoning": 2,
+          "knowledge_and_alignment": 2,
+          "cultural_knowledge": 2,
+          "N/A": 2,
+          "high": 2,
+          "moderate": 2,
+          "value_prioritization_conflict": 1,
+          "value_alignment": 1,
+          "knowledge_retrieval": 1,
+          "construct_validity_analysis": 1,
+          "social_norm_judgment": 1,
+          "knowledge_grounding_and_abstention": 1,
+          "moral_judgment_with_explanation": 1,
+          "cultural_representation": 1,
+          "moral_judgment_classification_response": 1,
+          "full_pipeline (perception_to_consequence)": 1,
+          "value_conflict_resolution": 1,
+          "moral_reasoning_with_justification": 1,
+          "value_preference_selection": 1,
+          "opinion_representation": 1,
+          "N/A (linguistic)": 1
+        },
+        "context_sensitivity_distribution": {
+          "high": 15,
+          "moderate": 10,
+          "very_high": 4,
+          "low": 3
+        },
+        "deep_scored_count": 32,
+        "papers_with_conflict_reasoning": 1
+      },
+      "key_finding": "Moral reasoning levels: {'low': 3, 'moral_judgment': 2, 'moral_reasoning': 2}; context sensitivity: {'high': 15, 'moderate': 10, 'very_high': 4}"
+    },
+    {
+      "analysis_id": 14,
+      "name": "Ecological and Intergenerational Dimensions",
+      "description": "Keyword-based count of papers addressing ecological or intergenerational dimensions (V9/V10 fields not available; using heuristic keyword matching).",
+      "results": {
+        "ecological_dimension_count": 2,
+        "intergenerational_scope_count": 0,
+        "both_count": 0,
+        "ecological_papers": [
+          "2023-Liu-AgentBench.md",
+          "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md"
+        ],
+        "intergenerational_papers": [],
+        "ecological_pct": 0.9,
+        "intergenerational_pct": 0.0
+      },
+      "key_finding": "Only 2 papers (0.9%) address ecological dimension; 0 (0.0%) address intergenerational scope"
+    },
+    {
+      "analysis_id": 15,
+      "name": "Benchmark Redundancy (Theory Overlap)",
+      "description": "Papers grouped by primary theory. Identifies redundant clusters and unique-contribution benchmarks.",
+      "results": {
+        "theory_distribution": {
+          "Chinese/Confucian Values": 49,
+          "Moral Foundations Theory (Haidt)": 25,
+          "Utilitarian/Consequentialist Ethics": 10,
+          "Indigenous": 10,
+          "Schwartz Value Theory": 10,
+          "Buddhist": 5,
+          "Ubuntu": 5,
+          "Kohlberg Moral Development": 5,
+          "Islamic Ethics": 4,
+          "Contractarian": 2,
+          "Virtue Ethics": 2,
+          "Socialist Core Values (hierarchical: 3 dimensions, 12 core, 50 derived values)": 1,
+          "Hofstede Cultural Dimensions": 1,
+          "Jain ethics and philosophy": 1,
+          "Social norms / cultural adaptability framework": 1,
+          "Commonsense morality (emotion-based)": 1,
+          "cultural expectations (explicit vs. implicit)": 1,
+          "cultural visual knowledge (recognition + reasoning)": 1,
+          "GLOBE cultural framework (House et al. 2004)": 1,
+          "Cultural alignment framework (Cultural Group / Cultural Elements / Awareness Sco": 1,
+          "N/A (agent reasoning and decision-making)": 1,
+          "Iranian cultural knowledge (law, grammar, idioms, religion)": 1,
+          "World Values Survey": 1,
+          "representativeness of public opinion (Wasserstein Distance, JSD, Hellinger Dista": 1,
+          "Maori Kaitiakitanga, Navajo Hozhoo": 1,
+          "Deontological/Kantian Ethics": 1,
+          "safety evaluation (5 dimensions)": 1,
+          "cultural norms": 1,
+          "Newmark CSI framework + Hall Triad of Culture": 1,
+          "moral psychology (commonsense morality)": 1,
+          "Contextual Integrity theory": 1,
+          "ethical reasoning": 1,
+          "Japan Medical Association ethics guidelines": 1,
+          "social norms / cultural adaptability": 1,
+          "AI principles evaluation": 1,
+          "Outline of Cultural Materials (OCM anthropological taxonomy)": 1,
+          "Return Potential Model": 1,
+          "expertise alignment (Anderson & Krathwohl taxonomy)": 1,
+          "safety-pragmatism tradeoff": 1
+        },
+        "unique_theory_benchmarks": [
+          {
+            "theory": "Socialist Core Values (hierarchical: 3 dimensions, 12 core, 50 derived values)",
+            "paper": "2025-Wu-CVC.md"
+          },
+          {
+            "theory": "Hofstede Cultural Dimensions",
+            "paper": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md"
+          },
+          {
+            "theory": "Jain ethics and philosophy",
+            "paper": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md"
+          },
+          {
+            "theory": "Social norms / cultural adaptability framework",
+            "paper": "2025-Rao-NormAd.md"
+          },
+          {
+            "theory": "Commonsense morality (emotion-based)",
+            "paper": "2023-Catapang-EMoTES-3K.md"
+          },
+          {
+            "theory": "cultural expectations (explicit vs. implicit)",
+            "paper": "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md"
+          },
+          {
+            "theory": "cultural visual knowledge (recognition + reasoning)",
+            "paper": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md"
+          },
+          {
+            "theory": "GLOBE cultural framework (House et al. 2004)",
+            "paper": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md"
+          },
+          {
+            "theory": "Cultural alignment framework (Cultural Group / Cultural Elements / Awareness Sco",
+            "paper": "2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md"
+          },
+          {
+            "theory": "N/A (agent reasoning and decision-making)",
+            "paper": "2023-Liu-AgentBench.md"
+          },
+          {
+            "theory": "Iranian cultural knowledge (law, grammar, idioms, religion)",
+            "paper": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md"
+          },
+          {
+            "theory": "World Values Survey",
+            "paper": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md"
+          },
+          {
+            "theory": "representativeness of public opinion (Wasserstein Distance, JSD, Hellinger Dista",
+            "paper": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md"
+          },
+          {
+            "theory": "Maori Kaitiakitanga, Navajo Hozhoo",
+            "paper": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md"
+          },
+          {
+            "theory": "Deontological/Kantian Ethics",
+            "paper": "2025-Chiu-MoReBench.md"
+          },
+          {
+            "theory": "safety evaluation (5 dimensions)",
+            "paper": "2025-Li-LiveSecBench - A Dynamic Event-Driven Safety Benchmark for Chinese.md"
+          },
+          {
+            "theory": "cultural norms",
+            "paper": "2025-Xie-Do Language Models Capture Cultural Norms A Study of Acceptability.md"
+          },
+          {
+            "theory": "Newmark CSI framework + Hall Triad of Culture",
+            "paper": "2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md"
+          },
+          {
+            "theory": "moral psychology (commonsense morality)",
+            "paper": "2025-Scherrer-MoralChoice.md"
+          },
+          {
+            "theory": "Contextual Integrity theory",
+            "paper": "2025-Sun-CASE-Bench.md"
+          }
+        ],
+        "unique_theory_count": 28,
+        "redundant_theories_5plus": {
+          "Moral Foundations Theory (Haidt)": 25,
+          "Utilitarian/Consequentialist Ethics": 10,
+          "Chinese/Confucian Values": 49,
+          "Buddhist": 5,
+          "Ubuntu": 5,
+          "Indigenous": 10,
+          "Schwartz Value Theory": 10,
+          "Kohlberg Moral Development": 5
+        },
+        "total_with_theory": 155
+      },
+      "key_finding": "8 theories have 5+ papers (redundancy); 28 papers are sole representatives of their theory (unique contribution)"
+    },
+    {
+      "analysis_id": 16,
+      "name": "Validation Chain Completeness",
+      "description": "Each paper scored 0-3: reliability_reported(+1) + measurement_invariance(+1) + prior_llm_testing(+1).",
+      "results": {
+        "validation_score_distribution": {
+          "0": 26,
+          "1": 129,
+          "2": 63
+        },
+        "fully_validated_count": 0,
+        "no_validation_count": 26,
+        "fully_validated_papers": [],
+        "no_validation_papers": [
+          "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+          "2023-Astobiza-MoralNet.md",
+          "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+          "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+          "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md",
+          "2020-Mathew-HateXplain.md",
+          "2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.md",
+          "2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md",
+          "2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+          "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md"
+        ],
+        "mean_score": 1.17
+      },
+      "key_finding": "Mean validation score: 1.17/3; 0 fully validated, 26 with no validation"
+    },
+    {
+      "analysis_id": 17,
+      "name": "Construct Mapping (Moral Concepts with Operational Measures)",
+      "description": "Maps which moral concepts from 7 NW traditions have operational benchmarks. Keyword-based heuristic matching against theory/novelty/alignment fields.",
+      "results": {
+        "concept_coverage": {
+          "Confucian": {
+            "ren (benevolence)": "measured",
+            "li (propriety)": "measured",
+            "yi (righteousness)": "unmeasured",
+            "zhi (wisdom)": "unmeasured",
+            "xin (trustworthiness)": "unmeasured",
+            "filial piety": "unmeasured",
+            "harmony": "unmeasured",
+            "face (mianzi)": "unmeasured",
+            "guanxi": "unmeasured"
+          },
+          "Islamic": {
+            "maslaha (public interest)": "unmeasured",
+            "maqasid (objectives of sharia)": "unmeasured",
+            "ihsan (excellence)": "unmeasured",
+            "tawakkul (trust in God)": "unmeasured",
+            "adl (justice)": "unmeasured",
+            "halal/haram": "unmeasured",
+            "shura (consultation)": "unmeasured"
+          },
+          "Dharmic": {
+            "dharma": "unmeasured",
+            "karma": "unmeasured",
+            "ahimsa (non-violence)": "unmeasured",
+            "moksha (liberation)": "unmeasured",
+            "seva (service)": "unmeasured",
+            "satya (truth)": "unmeasured"
+          },
+          "Buddhist": {
+            "four noble truths": "unmeasured",
+            "eightfold path": "unmeasured",
+            "compassion (karuna)": "unmeasured",
+            "mindfulness": "unmeasured",
+            "non-attachment": "unmeasured",
+            "interdependence": "unmeasured"
+          },
+          "Ubuntu": {
+            "communal identity": "unmeasured",
+            "ubuntu (I am because we are)": "measured",
+            "collective responsibility": "unmeasured",
+            "elder wisdom": "unmeasured",
+            "reconciliation": "unmeasured"
+          },
+          "Indigenous/Relational": {
+            "relationality": "unmeasured",
+            "land-based ethics": "unmeasured",
+            "intergenerational obligation": "unmeasured",
+            "ceremony": "unmeasured",
+            "reciprocity": "unmeasured",
+            "kinship": "unmeasured"
+          },
+          "Buen Vivir": {
+            "sumak kawsay": "unmeasured",
+            "harmony with nature": "unmeasured",
+            "community well-being": "unmeasured",
+            "rights of nature": "unmeasured",
+            "plurinationality": "unmeasured"
+          }
+        },
+        "measured_count": 3,
+        "unmeasured_count": 41,
+        "total_concepts": 44,
+        "unmeasured_concepts": [
+          "Confucian: yi (righteousness)",
+          "Confucian: zhi (wisdom)",
+          "Confucian: xin (trustworthiness)",
+          "Confucian: filial piety",
+          "Confucian: harmony",
+          "Confucian: face (mianzi)",
+          "Confucian: guanxi",
+          "Islamic: maslaha (public interest)",
+          "Islamic: maqasid (objectives of sharia)",
+          "Islamic: ihsan (excellence)",
+          "Islamic: tawakkul (trust in God)",
+          "Islamic: adl (justice)",
+          "Islamic: halal/haram",
+          "Islamic: shura (consultation)",
+          "Dharmic: dharma",
+          "Dharmic: karma",
+          "Dharmic: ahimsa (non-violence)",
+          "Dharmic: moksha (liberation)",
+          "Dharmic: seva (service)",
+          "Dharmic: satya (truth)",
+          "Buddhist: four noble truths",
+          "Buddhist: eightfold path",
+          "Buddhist: compassion (karuna)",
+          "Buddhist: mindfulness",
+          "Buddhist: non-attachment",
+          "Buddhist: interdependence",
+          "Ubuntu: communal identity",
+          "Ubuntu: collective responsibility",
+          "Ubuntu: elder wisdom",
+          "Ubuntu: reconciliation"
+        ],
+        "coverage_pct": 6.8
+      },
+      "key_finding": "3/44 (7%) moral concepts have operational measures; 41 remain unmeasured"
+    },
+    {
+      "analysis_id": 18,
+      "name": "Annotation and Community Participation Patterns",
+      "description": "P6/P7 fields not available; using P1 sample size, C6 indigenous inclusion, and C8 cultural adaptation as proxies for annotator diversity and community participation.",
+      "results": {
+        "papers_with_sample_size": 30,
+        "sample_size_stats": {
+          "min": 11,
+          "max": 400491,
+          "median": 150,
+          "mean": 24147.8
+        },
+        "community_participatory_proxy": 15,
+        "community_participatory_pct": 6.9,
+        "annotator_type_deep_scored": {
+          "llm_only": 28,
+          "unspecified": 4
+        }
+      },
+      "key_finding": "15/218 (7%) show community engagement; median sample size 150 (n=30 with data)"
+    },
+    {
+      "analysis_id": 19,
+      "name": "Provenance Network (Theory Taxonomy Lineage)",
+      "description": "Theory families and their benchmark counts. Maps primary theories to broader intellectual lineages.",
+      "results": {
+        "theory_family_counts": {
+          "Non-Western Traditions": 53,
+          "Other": 47,
+          "Moral Psychology": 30,
+          "Normative Ethics": 13,
+          "Value Theory": 10,
+          "Cultural Psychology": 1,
+          "Survey-Based": 1
+        },
+        "theory_to_family_mapping": {
+          "Moral Foundations Theory (Haidt)": "Moral Psychology",
+          "Hofstede Cultural Dimensions": "Cultural Psychology",
+          "Schwartz Value Theory": "Value Theory",
+          "World Values Survey": "Survey-Based",
+          "Kohlberg Moral Development": "Moral Psychology",
+          "Utilitarian/Consequentialist Ethics": "Normative Ethics",
+          "Chinese/Confucian Values": "Non-Western Traditions",
+          "Islamic Ethics": "Non-Western Traditions",
+          "Virtue Ethics": "Normative Ethics",
+          "Deontological/Kantian Ethics": "Normative Ethics",
+          "Care Ethics": "Normative Ethics"
+        },
+        "top_theories": {
+          "Chinese/Confucian Values": 49,
+          "Moral Foundations Theory (Haidt)": 25,
+          "Utilitarian/Consequentialist Ethics": 10,
+          "Indigenous": 10,
+          "Schwartz Value Theory": 10,
+          "Buddhist": 5,
+          "Ubuntu": 5,
+          "Kohlberg Moral Development": 5,
+          "Islamic Ethics": 4,
+          "Contractarian": 2,
+          "Virtue Ethics": 2,
+          "Socialist Core Values (hierarchical: 3 dimensions, 12 core, 50 derived values)": 1,
+          "Hofstede Cultural Dimensions": 1,
+          "Jain ethics and philosophy": 1,
+          "Social norms / cultural adaptability framework": 1
+        },
+        "theory_lineage_keywords": {
+          "World Values Survey": [
+            "Inglehart",
+            "WVS"
+          ],
+          "Moral Foundations Theory (Haidt)": [
+            "MFT",
+            "Haidt",
+            "Graham",
+            "moral foundations"
+          ],
+          "Hofstede Cultural Dimensions": [
+            "Hofstede",
+            "power distance",
+            "individualism-collectivism"
+          ],
+          "Schwartz Value Theory": [
+            "Schwartz",
+            "SVS",
+            "PVQ",
+            "basic human values"
+          ]
+        }
+      },
+      "key_finding": "'Non-Western Traditions' family dominates (53 papers); 'Non-Western Traditions' has 53 papers"
+    },
+    {
+      "analysis_id": 20,
+      "name": "Effectiveness Index and Pareto Frontier",
+      "description": "Composite index = cultural_scope * (quality + 0.5) * (data + 0.5) * (nw_count + 0.5). Pareto frontier identifies non-dominated benchmarks across all 4 dimensions.",
+      "results": {
+        "top_20_by_effectiveness": [
+          {
+            "filename": "2025-Rao-NormAd.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 39.38
+          },
+          {
+            "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 39.38
+          },
+          {
+            "filename": "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md",
+            "scope_numeric": 3,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 23.62
+          },
+          {
+            "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md",
+            "scope_numeric": 3,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 23.62
+          },
+          {
+            "filename": "2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md",
+            "scope_numeric": 3,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 23.62
+          },
+          {
+            "filename": "2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md",
+            "scope_numeric": 3,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 23.62
+          },
+          {
+            "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+            "scope_numeric": 3,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 23.62
+          },
+          {
+            "filename": "2025-Wu-CVC.md",
+            "scope_numeric": 2,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 15.75
+          },
+          {
+            "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+            "scope_numeric": 2,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 15.75
+          },
+          {
+            "filename": "2024-Huang-TrustLLM.md",
+            "scope_numeric": 2,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 15.75
+          },
+          {
+            "filename": "2023-Catapang-EMoTES-3K.md",
+            "scope_numeric": 1,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 2,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2023-Duan-Denevil.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 0,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 0,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md",
+            "scope_numeric": 5,
+            "quality_score": 0.0,
+            "data_score": 3,
+            "nw_count": 1,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2024-Singhal-AyaRedTeaming.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 0,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2025-Feng-CulFiT A Fine-grained Cultural-aware LLM Training Paradigm via.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 0,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2025-Liu-CultureVLM Characterizing and Improving Cultural Understanding of.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 0,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 0,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+            "scope_numeric": 3,
+            "quality_score": 0.0,
+            "data_score": 3,
+            "nw_count": 2,
+            "effectiveness_index": 13.12
+          },
+          {
+            "filename": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+            "scope_numeric": 5,
+            "quality_score": 1.0,
+            "data_score": 3,
+            "nw_count": 0,
+            "effectiveness_index": 13.12
+          }
+        ],
+        "pareto_frontier_papers": [
+          "2025-Rao-NormAd.md",
+          "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+          "2023-Catapang-EMoTES-3K.md",
+          "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+          "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+          "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+          "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md"
+        ],
+        "pareto_frontier_size": 7,
+        "effectiveness_stats": {
+          "min": 0.0,
+          "max": 39.38,
+          "mean": 4.29,
+          "median": 2.62
+        }
+      },
+      "key_finding": "Pareto frontier: 7 non-dominated benchmarks; top effectiveness: 2025-Rao-NormAd.md (score=39.38)"
+    },
+    {
+      "analysis_id": 21,
+      "name": "Tradition-Internal Diversity",
+      "description": "Schools/sub-traditions within each NW tradition represented in deep-scored benchmarks (from T5_nonwestern_frameworks_list).",
+      "results": {
+        "tradition_diversity": {
+          "Confucian": {
+            "unique_schools": [
+              "Confucian moral theory",
+              "Chinese Socialist Core Values",
+              "Confucian/Classical Chinese literary tradition"
+            ],
+            "count": 3
+          },
+          "Dharmic (Jain)": {
+            "unique_schools": [
+              "Jain ethics"
+            ],
+            "count": 1
+          },
+          "Islamic": {
+            "unique_schools": [
+              "Islamic ethics",
+              "Islamic jurisprudence"
+            ],
+            "count": 2
+          },
+          "Southeast Asian": {
+            "unique_schools": [
+              "Filipino moral framework (kapwa/shared identity)"
+            ],
+            "count": 1
+          },
+          "Persian/Iranian": {
+            "unique_schools": [
+              "Iranian/Persian cultural framework"
+            ],
+            "count": 1
+          },
+          "Indigenous": {
+            "unique_schools": [
+              "Kaitiakitanga (Maori)",
+              "Hozhoo (Navajo)"
+            ],
+            "count": 2
+          }
+        },
+        "total_unique_schools": 10,
+        "traditions_represented": 6
+      },
+      "key_finding": "10 unique schools across 6 traditions; Confucian and Islamic show most internal diversity"
+    },
+    {
+      "analysis_id": 22,
+      "name": "Modality Analysis",
+      "description": "Distribution of benchmark modalities (text_only vs visual/interactive/multimodal). D9 field not available; inferred from F1_format_type and F6_stimulus_modality.",
+      "results": {
+        "modality_distribution": {
+          "text_only": 214,
+          "visual": 2,
+          "interactive": 2
+        },
+        "text_only_pct": 98.2,
+        "non_text_count": 4
+      },
+      "key_finding": "214/218 (98.2%) are text-only; non-text modalities severely under-represented"
+    },
+    {
+      "analysis_id": 23,
+      "name": "RLHF Conflict Potential",
+      "description": "Benchmarks whose content likely diverges from standard RLHF training norms. Two-tier keyword heuristic: strong (religious/cultural value systems) and moderate (cultural framing implying value divergence). Searches theory, novelty, alignment target, title, candidate keyword matches, and NW tradition scores.",
+      "results": {
+        "strong_conflict_count": 102,
+        "moderate_conflict_count": 39,
+        "total_conflict_count": 141,
+        "conflict_pct": 64.7,
+        "conflict_papers": [
+          {
+            "filename": "2025-Wu-CVC.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian",
+              "moral dilemma",
+              "non-western",
+              "non-western",
+              "cultural values",
+              "cultural bias",
+              "socialist core values"
+            ]
+          },
+          {
+            "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+            "tier": "moderate",
+            "matched_keywords": [
+              "non-western",
+              "non-western",
+              "cultural values",
+              "cultural bias",
+              "indigenous",
+              "cultural alignment"
+            ]
+          },
+          {
+            "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian",
+              "jain",
+              "dharmic"
+            ]
+          },
+          {
+            "filename": "2024-Ji-MoralBench.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-Jiao-LLM Ethics Benchmark.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "islamic"
+            ]
+          },
+          {
+            "filename": "2025-Rao-NormAd.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian",
+              "cultural bias"
+            ]
+          },
+          {
+            "filename": "2026-Alam-From RAG to Agentic RAG for.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "islamic",
+              "non-western",
+              "non-western"
+            ]
+          },
+          {
+            "filename": "2023-Catapang-EMoTES-3K.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian",
+              "moral dilemma",
+              "cultural bias",
+              "indigenous"
+            ]
+          },
+          {
+            "filename": "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian",
+              "cultural bias",
+              "cultural alignment"
+            ]
+          },
+          {
+            "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian",
+              "non-western",
+              "non-western",
+              "cultural bias"
+            ]
+          },
+          {
+            "filename": "2025-Kumar-Are Rules Meant to be Broken.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian",
+              "value conflict",
+              "cultural values"
+            ]
+          },
+          {
+            "filename": "2025-Basu-Measuring Moral LLM Responses in Multilingual Capacities.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-Farid-One Model, Many Morals.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-team-Incorporating Diverse Perspectives in Cultural Alignment.md",
+            "tier": "moderate",
+            "matched_keywords": [
+              "cultural bias",
+              "cultural alignment"
+            ]
+          },
+          {
+            "filename": "2023-Liu-AgentBench.md",
+            "tier": "moderate",
+            "matched_keywords": [
+              "ubuntu"
+            ]
+          },
+          {
+            "filename": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "islamic",
+              "non-western",
+              "non-western"
+            ]
+          },
+          {
+            "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "islamic"
+            ]
+          },
+          {
+            "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+            "tier": "moderate",
+            "matched_keywords": [
+              "non-western",
+              "non-western",
+              "cultural bias"
+            ]
+          },
+          {
+            "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "confucian"
+            ]
+          },
+          {
+            "filename": "2023-Astobiza-MoralNet.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          },
+          {
+            "filename": "2025-Zhou-Moral Reasoning Across Languages.md",
+            "tier": "strong",
+            "matched_keywords": [
+              "moral dilemma"
+            ]
+          }
+        ],
+        "strong_keywords": [
+          "islamic",
+          "sharia",
+          "halal",
+          "haram",
+          "confucian",
+          "jain",
+          "buddhist ethics",
+          "dharmic",
+          "hindu ethic",
+          "filial piety",
+          "honor culture",
+          "collectivist",
+          "moral dilemma",
+          "moral conflict",
+          "value conflict",
+          "cultural norm",
+          "taboo"
+        ],
+        "moderate_keywords": [
+          "non-western",
+          "non-western",
+          "cultural values",
+          "cultural bias",
+          "value pluralis",
+          "moral pluralis",
+          "moral relativis",
+          "indigenous",
+          "ubuntu",
+          "socialist core values",
+          "cultural alignment",
+          "value alignment"
+        ],
+        "no_conflict_count": 77
+      },
+      "key_finding": "141/218 (65%) benchmarks have RLHF conflict potential (102 strong, 39 moderate)"
+    },
+    {
+      "analysis_id": 24,
+      "name": "Cultural Alignment Distance Preparation",
+      "description": "Benchmarks with human baselines across 4+ cultural groups (A5=true, C3 or C2>3). These are candidates for cross-cultural distance computation.",
+      "results": {
+        "candidate_count": 24,
+        "candidates": [
+          {
+            "filename": "2025-Rao-NormAd.md",
+            "short_title": "NormAd",
+            "human_baseline": true,
+            "countries_count": 75,
+            "cultures_count": 75,
+            "cultural_breadth": 75,
+            "scope": "pancultural",
+            "languages": 1
+          },
+          {
+            "filename": "2024-Rao-NORMAD A Benchmark for Measuring the Cultural Adaptability of Large.md",
+            "short_title": "",
+            "human_baseline": true,
+            "countries_count": 75,
+            "cultures_count": 75,
+            "cultural_breadth": 75,
+            "scope": "global",
+            "languages": 1
+          },
+          {
+            "filename": "2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md",
+            "short_title": "CCD-Bench: Probing Cultural Conflict in LLM Decision-Making",
+            "human_baseline": true,
+            "countries_count": 62,
+            "cultures_count": 10,
+            "cultural_breadth": 62,
+            "scope": "pancultural",
+            "languages": 1
+          },
+          {
+            "filename": "2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md",
+            "short_title": "Benchmarking Vision Language Models for Cultural Understanding",
+            "human_baseline": true,
+            "countries_count": 13,
+            "cultures_count": 0,
+            "cultural_breadth": 13,
+            "scope": "multicultural",
+            "languages": 20
+          },
+          {
+            "filename": "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md",
+            "short_title": "CulturalFrames: Assessing Cultural Expectation Alignment in Text-to-Image Models and Evaluation Metrics",
+            "human_baseline": true,
+            "countries_count": 10,
+            "cultures_count": 10,
+            "cultural_breadth": 10,
+            "scope": "multicultural",
+            "languages": 1
+          },
+          {
+            "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+            "short_title": "Mind the Gap -- Pitfalls of LLM Alignment with Asian Public Opinion",
+            "human_baseline": true,
+            "countries_count": 10,
+            "cultures_count": 0,
+            "cultural_breadth": 10,
+            "scope": "multicultural",
+            "languages": null
+          },
+          {
+            "filename": "2025-Satheesh-GG-BBQ.md",
+            "short_title": "GG-BBQ",
+            "human_baseline": true,
+            "countries_count": 9,
+            "cultures_count": 0,
+            "cultural_breadth": 9,
+            "scope": "multicultural",
+            "languages": 10
+          },
+          {
+            "filename": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+            "short_title": "ValueCompass: A Framework for Measuring Contextual Value Alignment Between Humans and LLMs",
+            "human_baseline": true,
+            "countries_count": 8,
+            "cultures_count": 0,
+            "cultural_breadth": 8,
+            "scope": "multicultural",
+            "languages": 1
+          },
+          {
+            "filename": "2024-Singhal-AyaRedTeaming.md",
+            "short_title": "AyaRedTeaming",
+            "human_baseline": true,
+            "countries_count": 8,
+            "cultures_count": 0,
+            "cultural_breadth": 8,
+            "scope": "universal_claim",
+            "languages": 8
+          },
+          {
+            "filename": "2024-Sewunetie-Gender Bias Evaluation in Machine Translation for Amharic Tigrigna.md",
+            "short_title": "Gender Bias Evaluation in Machine Translation for Amharic, Tigrigna, and Afaan Oromoo",
+            "human_baseline": true,
+            "countries_count": 8,
+            "cultures_count": 0,
+            "cultural_breadth": 8,
+            "scope": "multicultural",
+            "languages": 5
+          },
+          {
+            "filename": "2024-Arshad-Understanding hate speech.md",
+            "short_title": "Understanding hate speech",
+            "human_baseline": true,
+            "countries_count": 8,
+            "cultures_count": 0,
+            "cultural_breadth": 8,
+            "scope": "multicultural",
+            "languages": 8
+          },
+          {
+            "filename": "2025-Kumar-Are Rules Meant to be Broken.md",
+            "short_title": "Are Rules Meant to be Broken?",
+            "human_baseline": true,
+            "countries_count": 0,
+            "cultures_count": 6,
+            "cultural_breadth": 6,
+            "scope": "multicultural",
+            "languages": 6
+          },
+          {
+            "filename": "2025-Farid-One Model, Many Morals.md",
+            "short_title": "One Model, Many Morals",
+            "human_baseline": true,
+            "countries_count": 0,
+            "cultures_count": 6,
+            "cultural_breadth": 6,
+            "scope": "multicultural",
+            "languages": 6
+          },
+          {
+            "filename": "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+            "short_title": "MITRA-zh-eval Using a Buddhist Chinese Language",
+            "human_baseline": true,
+            "countries_count": 6,
+            "cultures_count": 0,
+            "cultural_breadth": 6,
+            "scope": "multicultural",
+            "languages": 3
+          },
+          {
+            "filename": "2025-Ju-NaVAB.md",
+            "short_title": "NaVAB",
+            "human_baseline": true,
+            "countries_count": 5,
+            "cultures_count": 0,
+            "cultural_breadth": 5,
+            "scope": "multicultural",
+            "languages": 4
+          },
+          {
+            "filename": "2025-Eriksson-Can We Trust AI Benchmarks An Interdisciplinary Review.md",
+            "short_title": "Can We Trust AI Benchmarks? An Interdisciplinary Review",
+            "human_baseline": true,
+            "countries_count": 5,
+            "cultures_count": 0,
+            "cultural_breadth": 5,
+            "scope": "multicultural",
+            "languages": 1
+          },
+          {
+            "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md",
+            "short_title": "Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation",
+            "human_baseline": true,
+            "countries_count": 5,
+            "cultures_count": 0,
+            "cultural_breadth": 5,
+            "scope": "multicultural",
+            "languages": 5
+          },
+          {
+            "filename": "2025-Mohammadi-EvalMORAAL.md",
+            "short_title": "EvalMORAAL",
+            "human_baseline": true,
+            "countries_count": 5,
+            "cultures_count": 0,
+            "cultural_breadth": 5,
+            "scope": "multicultural",
+            "languages": 20
+          },
+          {
+            "filename": "2026-Kabir-XCR-Bench A Multi-Task Benchmark for Evaluating Cultural Reasoning in.md",
+            "short_title": "",
+            "human_baseline": true,
+            "countries_count": 5,
+            "cultures_count": 5,
+            "cultural_breadth": 5,
+            "scope": "cross_cultural",
+            "languages": 4
+          },
+          {
+            "filename": "2026-Madhusudan-Common to Whom Regional Cultural Commonsense.md",
+            "short_title": "",
+            "human_baseline": true,
+            "countries_count": 1,
+            "cultures_count": 5,
+            "cultural_breadth": 5,
+            "scope": "sub_national",
+            "languages": 1
+          }
+        ],
+        "broadest_benchmark": {
+          "filename": "2025-Rao-NormAd.md",
+          "short_title": "NormAd",
+          "human_baseline": true,
+          "countries_count": 75,
+          "cultures_count": 75,
+          "cultural_breadth": 75,
+          "scope": "pancultural",
+          "languages": 1
+        },
+        "total_with_human_baseline": 57
+      },
+      "key_finding": "24 benchmarks suitable for cultural distance computation (human baseline + 4+ cultural groups); broadest covers 75 groups"
+    },
+    {
+      "analysis_id": 25,
+      "name": "Gap Prioritization",
+      "description": "For each empty cell in tradition x region matrix, priority = population_weight * adherent_count / (count + 1). 46/70 cells are empty.",
+      "results": {
+        "coverage_matrix": {
+          "Confucian": {
+            "North America": 10,
+            "Western Europe": 4,
+            "East Asia": 7,
+            "South Asia": 2,
+            "Southeast Asia": 1,
+            "MENA": 1,
+            "Sub-Saharan Africa": 0,
+            "Latin America": 0,
+            "Eastern Europe": 1,
+            "Oceania": 2
+          },
+          "Islamic": {
+            "North America": 1,
+            "Western Europe": 0,
+            "East Asia": 0,
+            "South Asia": 0,
+            "Southeast Asia": 0,
+            "MENA": 5,
+            "Sub-Saharan Africa": 0,
+            "Latin America": 0,
+            "Eastern Europe": 0,
+            "Oceania": 0
+          },
+          "Dharmic": {
+            "North America": 3,
+            "Western Europe": 0,
+            "East Asia": 0,
+            "South Asia": 1,
+            "Southeast Asia": 0,
+            "MENA": 0,
+            "Sub-Saharan Africa": 0,
+            "Latin America": 0,
+            "Eastern Europe": 0,
+            "Oceania": 0
+          },
+          "Buddhist": {
+            "North America": 4,
+            "Western Europe": 3,
+            "East Asia": 3,
+            "South Asia": 1,
+            "Southeast Asia": 0,
+            "MENA": 0,
+            "Sub-Saharan Africa": 1,
+            "Latin America": 1,
+            "Eastern Europe": 0,
+            "Oceania": 0
+          },
+          "Ubuntu": {
+            "North America": 2,
+            "Western Europe": 2,
+            "East Asia": 1,
+            "South Asia": 0,
+            "Southeast Asia": 0,
+            "MENA": 0,
+            "Sub-Saharan Africa": 0,
+            "Latin America": 0,
+            "Eastern Europe": 0,
+            "Oceania": 0
+          },
+          "Indigenous/Relational": {
+            "North America": 5,
+            "Western Europe": 0,
+            "East Asia": 0,
+            "South Asia": 0,
+            "Southeast Asia": 1,
+            "MENA": 0,
+            "Sub-Saharan Africa": 0,
+            "Latin America": 0,
+            "Eastern Europe": 0,
+            "Oceania": 0
+          },
+          "Buen Vivir": {
+            "North America": 2,
+            "Western Europe": 0,
+            "East Asia": 0,
+            "South Asia": 0,
+            "Southeast Asia": 0,
+            "MENA": 0,
+            "Sub-Saharan Africa": 0,
+            "Latin America": 0,
+            "Eastern Europe": 0,
+            "Oceania": 0
+          }
+        },
+        "top_20_gaps": [
+          {
+            "tradition": "Islamic",
+            "region": "South Asia",
+            "benchmark_count": 0,
+            "population_weight": 2.0,
+            "adherent_count": 1.9,
+            "priority_score": 3.8
+          },
+          {
+            "tradition": "Islamic",
+            "region": "East Asia",
+            "benchmark_count": 0,
+            "population_weight": 1.7,
+            "adherent_count": 1.9,
+            "priority_score": 3.23
+          },
+          {
+            "tradition": "Islamic",
+            "region": "Sub-Saharan Africa",
+            "benchmark_count": 0,
+            "population_weight": 1.2,
+            "adherent_count": 1.9,
+            "priority_score": 2.28
+          },
+          {
+            "tradition": "Dharmic",
+            "region": "East Asia",
+            "benchmark_count": 0,
+            "population_weight": 1.7,
+            "adherent_count": 1.2,
+            "priority_score": 2.04
+          },
+          {
+            "tradition": "Dharmic",
+            "region": "Sub-Saharan Africa",
+            "benchmark_count": 0,
+            "population_weight": 1.2,
+            "adherent_count": 1.2,
+            "priority_score": 1.44
+          },
+          {
+            "tradition": "Islamic",
+            "region": "Southeast Asia",
+            "benchmark_count": 0,
+            "population_weight": 0.7,
+            "adherent_count": 1.9,
+            "priority_score": 1.33
+          },
+          {
+            "tradition": "Islamic",
+            "region": "Latin America",
+            "benchmark_count": 0,
+            "population_weight": 0.65,
+            "adherent_count": 1.9,
+            "priority_score": 1.235
+          },
+          {
+            "tradition": "Dharmic",
+            "region": "South Asia",
+            "benchmark_count": 1,
+            "population_weight": 2.0,
+            "adherent_count": 1.2,
+            "priority_score": 1.2
+          },
+          {
+            "tradition": "Dharmic",
+            "region": "Southeast Asia",
+            "benchmark_count": 0,
+            "population_weight": 0.7,
+            "adherent_count": 1.2,
+            "priority_score": 0.84
+          },
+          {
+            "tradition": "Dharmic",
+            "region": "Latin America",
+            "benchmark_count": 0,
+            "population_weight": 0.65,
+            "adherent_count": 1.2,
+            "priority_score": 0.78
+          },
+          {
+            "tradition": "Islamic",
+            "region": "Western Europe",
+            "benchmark_count": 0,
+            "population_weight": 0.4,
+            "adherent_count": 1.9,
+            "priority_score": 0.76
+          },
+          {
+            "tradition": "Dharmic",
+            "region": "MENA",
+            "benchmark_count": 0,
+            "population_weight": 0.6,
+            "adherent_count": 1.2,
+            "priority_score": 0.72
+          },
+          {
+            "tradition": "Ubuntu",
+            "region": "South Asia",
+            "benchmark_count": 0,
+            "population_weight": 2.0,
+            "adherent_count": 0.35,
+            "priority_score": 0.7
+          },
+          {
+            "tradition": "Indigenous/Relational",
+            "region": "South Asia",
+            "benchmark_count": 0,
+            "population_weight": 2.0,
+            "adherent_count": 0.3,
+            "priority_score": 0.6
+          },
+          {
+            "tradition": "Islamic",
+            "region": "Eastern Europe",
+            "benchmark_count": 0,
+            "population_weight": 0.3,
+            "adherent_count": 1.9,
+            "priority_score": 0.57
+          },
+          {
+            "tradition": "Indigenous/Relational",
+            "region": "East Asia",
+            "benchmark_count": 0,
+            "population_weight": 1.7,
+            "adherent_count": 0.3,
+            "priority_score": 0.51
+          },
+          {
+            "tradition": "Buddhist",
+            "region": "South Asia",
+            "benchmark_count": 1,
+            "population_weight": 2.0,
+            "adherent_count": 0.5,
+            "priority_score": 0.5
+          },
+          {
+            "tradition": "Confucian",
+            "region": "Sub-Saharan Africa",
+            "benchmark_count": 0,
+            "population_weight": 1.2,
+            "adherent_count": 0.4,
+            "priority_score": 0.48
+          },
+          {
+            "tradition": "Dharmic",
+            "region": "Western Europe",
+            "benchmark_count": 0,
+            "population_weight": 0.4,
+            "adherent_count": 1.2,
+            "priority_score": 0.48
+          },
+          {
+            "tradition": "Ubuntu",
+            "region": "Sub-Saharan Africa",
+            "benchmark_count": 0,
+            "population_weight": 1.2,
+            "adherent_count": 0.35,
+            "priority_score": 0.42
+          }
+        ],
+        "empty_cells": 46,
+        "total_cells": 70,
+        "coverage_pct": 34.3
+      },
+      "key_finding": "46/70 (66%) tradition-region cells empty; top gap: Islamic x South Asia (priority=3.8)"
+    }
+  ]
+}

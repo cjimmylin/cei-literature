@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="en" data-critters-container><head>
+  <meta charset="utf-8">
+  <title>Portico</title>
+  <base href="/Portico">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/Portico/img/favicon.ico">
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="/Portico/views/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Portico/views/assets/css/offcanvas.css">
+
+  <link rel="stylesheet" href="/Portico/views/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="/Portico/views/assets/js/jquery.min.js"></script>
+
+  <!-- OneTrust Cookies Consent Notice start for portico.org -->
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="7e4401c9-baa4-4827-98d8-646164d1d3c6"></script>
+  <script type="text/javascript">
+    function OptanonWrapper() { }
+  </script>
+<style>.show-component{display:block}.hide-component{display:none}.v-loading-indicator{animation-duration:1s;animation-iteration-count:infinite;animation-name:spinner;animation-timing-function:steps(12,end);background-image:url("./media/spinner-5DVSWROW.gif");background-position:center center;background-repeat:no-repeat;height:100%;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter:alpha(opacity=80);opacity:.8;position:fixed!important;right:auto;width:100%;z-index:10000}
+</style><link rel="stylesheet" href="/Portico/views/styles-6TFQGF6C.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/Portico/views/styles-6TFQGF6C.css"></noscript></head>
+
+<body><!--nghm-->
+  <app-root _nghost-ng-c3984273398 ng-version="17.3.12" ngh="3" ng-server-context="ssg"><router-outlet _ngcontent-ng-c3984273398></router-outlet><app-cslist _nghost-ng-c600697197 ngh="2"><app-page-loading-in-progress _ngcontent-ng-c600697197 ngh="0"></app-page-loading-in-progress><app-loader _ngcontent-ng-c600697197 _nghost-ng-c130821862 ngh="0"><div _ngcontent-ng-c130821862 class="v-loading-indicator show-component"></div></app-loader><!----><app-loader _ngcontent-ng-c600697197 _nghost-ng-c130821862 ngh="0"><div _ngcontent-ng-c130821862 class="v-loading-indicator hide-component"></div></app-loader><!----><app-data _ngcontent-ng-c600697197 ngh="0"><span></span></app-data><app-scroll _ngcontent-ng-c600697197 ngh="0"></app-scroll><!----><app-navigate _ngcontent-ng-c600697197 ngh="1"><!----></app-navigate><!----><!----><!----></app-cslist><!----></app-root>
+  <script>
+    // window.onscroll = function () {
+    //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    //         document.getElementById("back-to-top").style.display = "block";
+    //     } else {
+    //         document.getElementById("back-to-top").style.display = "none";
+    //     }
+    // };
+
+    // function topFunction() {
+    //     document.body.scrollTop = 0;
+    //     document.documentElement.scrollTop = 0;
+    // }
+
+    $(document).ready(function () {
+      // Add down arrow icon for collapse element which is open by default
+      $(".collapse.show").each(function () {
+        $(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-up");
+      });
+
+      // Toggle right and down arrow icon on show hide of collapse element
+      $(".collapse").on('show.bs.collapse', function () {
+        $(this).prev(".card-header").find(".fa").removeClass("fa-angle-up").addClass("fa-angle-down");
+      }).on('hide.bs.collapse', function () {
+        $(this).prev(".card-header").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-up");
+      });
+    });
+
+    // function resizeIframe(obj) {
+    //     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    //     console.log('height = ' + obj.contentWindow.document.documentElement.scrollHeight + 'px');
+    // }
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="/Portico/views/assets/js/bootstrap.min.js"></script>
+  <!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> -->
+
+<script src="/Portico/views/polyfills-SCHOHYNV.js" type="module"></script><script src="/Portico/views/scripts-L72YI56D.js" defer></script><script src="/Portico/views/main-ZISFDOWK.js" type="module"></script>
+
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"t":{"0":"t3"},"c":{"0":[]}},{"t":{"1":"t13","2":"t14","4":"t15","6":"t16","7":"t17","8":"t18"},"c":{"1":[{"i":"t13","r":1}],"2":[{"i":"t14","r":1}],"4":[{"i":"t15","r":1}],"6":[],"7":[],"8":[]}},{"c":{"0":[{"i":"c600697197","r":1}]}}]}</script></body></html>

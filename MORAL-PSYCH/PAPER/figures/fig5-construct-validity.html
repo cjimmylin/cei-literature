@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+<style>
+  body { margin: 0; background: #0f0f1a; display: flex; justify-content: center; align-items: center; height: 100vh; }
+  #chart { width: 700px; height: 450px; }
+</style>
+</head><body>
+<div id="chart"></div>
+<script>
+const chart = echarts.init(document.getElementById('chart'));
+chart.setOption({
+  title: { text: 'Construct Validity Distribution (A6)', left: 'center', top: 10,
+    textStyle: { color: '#e0e0e0', fontSize: 16, fontFamily: 'Inter, sans-serif' } },
+  tooltip: { trigger: 'axis', axisPointer: { type: 'shadow' } },
+  grid: { left: 60, right: 30, top: 60, bottom: 50 },
+  xAxis: { type: 'category',
+    data: ['1\nKeyword only', '2\nTheory-inspired', '3\nAdapts validated', '4\nSingle-study', '5\nMulti-study'],
+    axisLabel: { color: '#aaa', fontSize: 11 }, axisLine: { lineStyle: { color: '#444' } } },
+  yAxis: { type: 'value', name: 'Count', nameTextStyle: { color: '#aaa' },
+    axisLabel: { color: '#aaa' }, splitLine: { lineStyle: { color: '#2a2a3a' } } },
+  series: [{
+    type: 'bar', barWidth: '55%',
+    data: [
+      { value: 2, itemStyle: { color: '#E69F00' } },
+      { value: 7, itemStyle: { color: '#56B4E9' } },
+      { value: 20, itemStyle: { color: '#009E73' } },
+      { value: 20, itemStyle: { color: '#F0E442' } },
+      { value: 6, itemStyle: { color: '#CC79A7' } }
+    ],
+    label: { show: true, position: 'top', color: '#e0e0e0', fontSize: 13,
+      formatter: function(p) { return p.value + ' (' + [4,13,36,36,11][p.dataIndex] + '%)'; } }
+  }]
+});
+</script>
+</body></html>

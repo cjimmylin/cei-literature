@@ -1,0 +1,25 @@
+{
+  "provenance": "harness validation, NOT a measurement",
+  "artifact_role": "complete synthetic export",
+  "n_rows": 1152,
+  "expected_row_count": 1152,
+  "expected_model_count": 2,
+  "expected_episode_count": 576,
+  "expected_cell_count": 288,
+  "excluded_episode_count": 12,
+  "expected_manifest": "expected_export_manifest.json",
+  "schema": [
+    "model_id",
+    "method_id",
+    "item_family",
+    "item_id",
+    "clause",
+    "score",
+    "rung",
+    "judge_ids",
+    "mechanical_flag",
+    "canary_id"
+  ],
+  "primary_stage": "stage_4",
+  "stage3_in_primary_score": false
+}

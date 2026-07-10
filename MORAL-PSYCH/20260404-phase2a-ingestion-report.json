@@ -1,0 +1,128 @@
+{
+  "generated": "20260404",
+  "source_file": "20260403-external-search-merged.json",
+  "total_in_source": 31,
+  "filtered_relevant": 14,
+  "ingested_count": 14,
+  "skipped_duplicate": 0,
+  "skipped_no_title": 0,
+  "theory_distribution": {
+    "dual_process": 6,
+    "multi": 8
+  },
+  "ingested": [
+    {
+      "filename": "2024-Feffer-Moral Turing Test Evaluating HumanLLM Alignment.md",
+      "key": "EXSR0676",
+      "title": "The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making",
+      "year": "2024",
+      "target_theory": "dual_process",
+      "authors": "Feffer et al."
+    },
+    {
+      "filename": "2024-Marraffini-Greatest Good Benchmark Measuring LLMs Alignment.md",
+      "key": "EXSR0677",
+      "title": "The Greatest Good Benchmark: Measuring LLMs' Alignment with Utilitarian Moral Dilemmas",
+      "year": "2024",
+      "target_theory": "dual_process",
+      "authors": "Marraffini; Cotton; Hsueh; Fridman; Wisznia; del Corro"
+    },
+    {
+      "filename": "2025-Cheung-Large language models show amplified cognitive.md",
+      "key": "EXSR0678",
+      "title": "Large language models show amplified cognitive biases in moral decision-making",
+      "year": "2025",
+      "target_theory": "dual_process",
+      "authors": "Cheung et al."
+    },
+    {
+      "filename": "2026-Unknown-Understanding Moral Reasoning Trajectories Large Language.md",
+      "key": "EXSR0679",
+      "title": "Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability",
+      "year": "2026",
+      "target_theory": "dual_process",
+      "authors": "Unknown"
+    },
+    {
+      "filename": "2025-Chakraborty-Structured Moral Reasoning Language Models ValueGrounded.md",
+      "key": "EXSR0680",
+      "title": "Structured Moral Reasoning in Language Models: A Value-Grounded Evaluation Framework",
+      "year": "2025",
+      "target_theory": "multi",
+      "authors": "Chakraborty; Wang; Jurgens"
+    },
+    {
+      "filename": "2026-Gabriel-roadmap evaluating moral competence large language.md",
+      "key": "EXSR0681",
+      "title": "A roadmap for evaluating moral competence in large language models",
+      "year": "2026",
+      "target_theory": "multi",
+      "authors": "Gabriel et al."
+    },
+    {
+      "filename": "2025-Chiu-MoReBench Evaluating Procedural Pluralistic Moral Reasoning.md",
+      "key": "EXSR0682",
+      "title": "MoReBench: Evaluating Procedural and Pluralistic Moral Reasoning in Language Models, More than Outcomes",
+      "year": "2025",
+      "target_theory": "multi",
+      "authors": "Chiu; Lee et al."
+    },
+    {
+      "filename": "2026-Russo-Pluralistic Moral Gap Understanding Judgment Value.md",
+      "key": "EXSR0683",
+      "title": "The Pluralistic Moral Gap: Understanding Judgment and Value Differences between Humans and Large Language Models",
+      "year": "2026",
+      "target_theory": "multi",
+      "authors": "Russo et al."
+    },
+    {
+      "filename": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral.md",
+      "key": "EXSR0684",
+      "title": "Beyond Verdicts: Evaluating Language Model Moral Competence",
+      "year": "2025",
+      "target_theory": "multi",
+      "authors": "Snoswell; Kilov; Lazar"
+    },
+    {
+      "filename": "2024-Pellert-AI Psychometrics Assessing Psychological Profiles Large.md",
+      "key": "EXSR0685",
+      "title": "AI Psychometrics: Assessing the Psychological Profiles of Large Language Models Through Psychometric Inventories",
+      "year": "2024",
+      "target_theory": "multi",
+      "authors": "Pellert; Lechner; Wagner; Rammstedt; Strohmaier"
+    },
+    {
+      "filename": "2025-Unknown-Staircase Ethics Probing LLM Value Priorities.md",
+      "key": "EXSR0686",
+      "title": "The Staircase of Ethics: Probing LLM Value Priorities through Multi-Step Induction to Complex Moral Dilemmas",
+      "year": "2025",
+      "target_theory": "dual_process",
+      "authors": "Unknown"
+    },
+    {
+      "filename": "2025-Unknown-Normative Evaluation Large Language Models Everyday.md",
+      "key": "EXSR0687",
+      "title": "Normative Evaluation of Large Language Models with Everyday Moral Dilemmas",
+      "year": "2025",
+      "target_theory": "multi",
+      "authors": "Unknown"
+    },
+    {
+      "filename": "2024-Unknown-Exploring psychology LLMs moral legal reasoning.md",
+      "key": "EXSR0688",
+      "title": "Exploring the psychology of LLMs' moral and legal reasoning",
+      "year": "2024",
+      "target_theory": "dual_process",
+      "authors": "Unknown"
+    },
+    {
+      "filename": "2024-Unknown-Quantifying AI Psychology Psychometrics Benchmark Large.md",
+      "key": "EXSR0689",
+      "title": "Quantifying AI Psychology: A Psychometrics Benchmark for Large Language Models",
+      "year": "2024",
+      "target_theory": "multi",
+      "authors": "Unknown"
+    }
+  ],
+  "skipped_duplicate_details": []
+}

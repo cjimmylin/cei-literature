@@ -27,3 +27,29 @@ RECYCLE-BIN/
 # BACKGROUND original PDFs (large binary files - text extracts are tracked instead)
 CULTURAL-GLOBAL/BACKGROUND/ORIG/
 CULTURAL-GLOBAL/BACKGROUND/Documents/
+
+# --- 2026-07-10 cleanup session additions ---
+# Session/tool caches
+.pytest_cache/
+**/.pytest_cache/
+.playwright-mcp/
+**/.playwright-mcp/
+.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Policy: PDFs live outside the repo (Lit-WS-PDFs/) or in BACKGROUND ORIG dirs; extracts are tracked instead.
+# (Pre-existing tracked PDFs are unaffected — gitignore does not apply to tracked files.)
+*.pdf
+
+# Embedded standalone git repos (dashboard/deploy builds with their own history)
+CULTURAL-GLOBAL/DASHBOARD/
+CULTURAL-GLOBAL/DASHBOARD-V2/
+MORAL-PSYCH/DASHBOARDS/moral-psych-benchmarks/
+MORAL-PSYCH/DASHBOARDS/moral-psych-benchmarks-v2/
+MORAL-PSYCH/DASHBOARDS/moral-psych-benchmarks-v3/
+MORAL-PSYCH/DASHBOARDS/moral-psych-benchmarks-v4/
+MORAL-PSYCH/DASHBOARDS/moral-psych-benchmarks-v5/
+NORM-ETHICS/DASHBOARD-v4/deploy/

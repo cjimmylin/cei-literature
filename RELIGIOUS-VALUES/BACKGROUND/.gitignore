@@ -1,0 +1,13 @@
+# Original PDF files — large binaries, not tracked in git
+# Text extracts in EXTRACT/ are tracked instead
+ORIG/
+
+# Documents/ is a staging area (empty after extraction)
+Documents/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Download logs (transient)
+logs/

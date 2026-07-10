@@ -1,0 +1,506 @@
+[
+  {
+    "filename": "2022-Kim-ProsocialDialog A Prosocial Backbone for Conversational Agents.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (social norms / rules-of-thumb)",
+    "data_artifact": "ProsocialDialog (58K dialogues)",
+    "llms_tested": "GPT-3, BlenderBot, OPT",
+    "reasoning": "Crowdsourced prosocial behavior norms, not normative ethics frameworks"
+  },
+  {
+    "filename": "2022-Ziems-Moral Integrity Corpus MIC.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (MFT annotations, commonsense RoTs)",
+    "data_artifact": "MIC (38K pairs)",
+    "llms_tested": "BlenderBot, T5",
+    "reasoning": "Uses MFT (psychology) and crowdsourced Rules of Thumb"
+  },
+  {
+    "filename": "2023-Tanmay-Probing Moral Development through Defining Issues Test DIT.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (Kohlberg CMD model)",
+    "data_artifact": "DIT-1 dilemmas",
+    "llms_tested": "GPT-3/4, PaLM-2, Llama2",
+    "reasoning": "Kohlberg = moral psychology, not normative ethics"
+  },
+  {
+    "filename": "2024-Bonagiri-SaGE Semantic Graph Entropy Moral Consistency Corpus.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (moral consistency / RoTs)",
+    "data_artifact": "MCC (50K questions)",
+    "llms_tested": "11 LLMs",
+    "reasoning": "Moral competence/consistency measurement, not normative classification"
+  },
+  {
+    "filename": "2024-Duan-DeNEVIL MoralPrompt.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (MFT: care, fairness, loyalty, authority, sanctity)",
+    "data_artifact": "MoralPrompt (2,397 prompts)",
+    "llms_tested": "27 LLMs",
+    "reasoning": "MFT is descriptive psychology, excluded per checklist"
+  },
+  {
+    "filename": "2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md",
+    "decision": "Yes",
+    "normative_frameworks": "Deontological + Consequentialist (doctrine of double effect)",
+    "data_artifact": "OffTheRails benchmark (50 scenarios, 400 items)",
+    "llms_tested": "GPT-4, Claude-2",
+    "reasoning": "Explicitly operationalizes deontological vs consequentialist distinction through causal structure manipulations"
+  },
+  {
+    "filename": "2024-Huang-Collective Constitutional AI Aligning a Language Model with Public.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (crowdsourced public preferences)",
+    "data_artifact": "Public constitution via Polis",
+    "llms_tested": "Claude models",
+    "reasoning": "Alignment method using aggregated public preferences, not normative ethics"
+  },
+  {
+    "filename": "2024-Jin-MULTITP - Language Model Alignment in Multilingual Trolley Problems.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Implicit utilitarian framing (trolley problems)",
+    "data_artifact": "MULTITP (98,440 scenarios in 107 languages)",
+    "llms_tested": "19 LLMs",
+    "reasoning": "Large trolley problem benchmark but explicitly disclaims normative guidelines; focuses on cross-cultural alignment"
+  },
+  {
+    "filename": "2024-Kirk-PRISM Alignment Dataset.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (subjective human preferences)",
+    "data_artifact": "PRISM (8,011 conversations)",
+    "llms_tested": "21 LLMs",
+    "reasoning": "Descriptive preference dataset without normative ethics grounding"
+  },
+  {
+    "filename": "2024-Moore-Intuitions of Compromise - Utilitarianism vs. Contractualism.md",
+    "decision": "Yes",
+    "normative_frameworks": "Utilitarian (additive welfare) vs Contractualist (Nash Product)",
+    "data_artifact": "Systematic value aggregation scenarios",
+    "llms_tested": "GPT-4, Claude-3, Claude-2.1, GPT-3.5",
+    "reasoning": "Explicitly operationalizes utilitarian vs contractualist frameworks in structured scenarios"
+  },
+  {
+    "filename": "2024-Ren-Safetywashing Do AI Safety Benchmarks Actually Measure Safety Progress.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (meta-analysis)",
+    "data_artifact": "Meta-analysis of safety benchmarks",
+    "llms_tested": "53 models",
+    "reasoning": "Meta-analysis of benchmark validity, not normative ethics"
+  },
+  {
+    "filename": "2024-Sorensen-Value Kaleidoscope ValuePrism.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Values, rights, duties (deontological concepts)",
+    "data_artifact": "ValuePrism (218K values/rights/duties)",
+    "llms_tested": "GPT-4, Kaleido models",
+    "reasoning": "Broad value pluralism with rights/duties but primarily a value modeling system, not normative benchmark"
+  },
+  {
+    "filename": "2024-Tian-Chinese SafetyQA - A Safety Short-form Factuality Benchmark.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (Chinese safety/legal knowledge)",
+    "data_artifact": "Chinese SafetyQA (2,000 samples)",
+    "llms_tested": "30+ LLMs",
+    "reasoning": "Safety factuality benchmark, not normative ethics"
+  },
+  {
+    "filename": "2024-Tom-SG-Bench - Evaluating LLM Safety Generalization.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "SG-Bench",
+    "llms_tested": "GPT-4, Claude, Llama+",
+    "reasoning": "Safety benchmark, not normative ethics"
+  },
+  {
+    "filename": "2024-Unknown-BELLS A Framework Towards Future Proof Benchmarks for the Evaluation.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "BELLS framework",
+    "llms_tested": "GPT-4",
+    "reasoning": "Safety safeguard evaluation framework"
+  },
+  {
+    "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Deontology, consequentialism, virtue ethics, dharmic ethics",
+    "data_artifact": "N/A",
+    "llms_tested": "N/A",
+    "reasoning": "Theory-only paper, no benchmark or LLM testing"
+  },
+  {
+    "filename": "2024-Vida-Decoding Multilingual Moral Preferences - Unveiling LLM's Biases.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (MME crowdsourced preferences)",
+    "data_artifact": "6500 MME scenarios",
+    "llms_tested": "Falcon, Gemini, Llama, GPT",
+    "reasoning": "Crowdsourced moral preferences (Moral Machine), not normative ethics"
+  },
+  {
+    "filename": "2024-Yao-CLAVE ValEval.md",
+    "decision": "Borderline",
+    "normative_frameworks": "MFT, Schwartz, social risk taxonomy",
+    "data_artifact": "ValEval (13K+ tuples)",
+    "llms_tested": "GPT-4, Phi-3, Mistral+",
+    "reasoning": "Systematic value evaluation but MFT/Schwartz are descriptive, not normative"
+  },
+  {
+    "filename": "2024-Yao-Value FULCRA.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz (descriptive)",
+    "data_artifact": "FULCRA (5K pairs)",
+    "llms_tested": "Various",
+    "reasoning": "Schwartz descriptive social psychology, not normative ethics"
+  },
+  {
+    "filename": "2024-Zheng-ALI-Agent - Assessing LLMs' Alignment with Human Values via.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (stereotypes, morality, legality broadly)",
+    "data_artifact": "ALI-Agent framework",
+    "llms_tested": "10 LLMs",
+    "reasoning": "Method/alignment evaluation paper, not normative ethics benchmark"
+  },
+  {
+    "filename": "2025-Ashkinaze-Deep Value Benchmark.md",
+    "decision": "Yes",
+    "normative_frameworks": "W.D. Ross's prima facie duties (deontological)",
+    "data_artifact": "DVB (12K questions, DVGR metric)",
+    "llms_tested": "9 models",
+    "reasoning": "Explicitly operationalizes Ross's deontological duties in structured benchmark"
+  },
+  {
+    "filename": "2025-Authors-PoliCon.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Rawlsianism/Utilitarianism as political goals",
+    "data_artifact": "PoliCon (28,620 scenarios)",
+    "llms_tested": "6 LLMs",
+    "reasoning": "Political consensus-building, not normative ethics evaluation"
+  },
+  {
+    "filename": "2025-Becker-The Moralization Corpus.md",
+    "decision": "Exclude",
+    "normative_frameworks": "MFT",
+    "data_artifact": "Moralization Corpus (11,503 instances)",
+    "llms_tested": "Several LLMs",
+    "reasoning": "MFT-based linguistic moralization detection"
+  },
+  {
+    "filename": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+    "decision": "Exclude",
+    "normative_frameworks": "MFT, Schwartz, MAC, Common Morality",
+    "data_artifact": "MoVa (16 datasets)",
+    "llms_tested": "LLMs as classifiers",
+    "reasoning": "Text classification tool using descriptive psychology frameworks"
+  },
+  {
+    "filename": "2025-Chua-Between a Rock and a Hard Place TRIAL.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Trolley problem/utilitarian as attack vector",
+    "data_artifact": "TRIAL methodology",
+    "llms_tested": "LLaMA, Mistral+",
+    "reasoning": "Red-teaming/jailbreak attack paper, not normative ethics benchmark"
+  },
+  {
+    "filename": "2025-Coleman-The Convergent Ethics of AI Analyzing Moral Foundation Priorities in.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Consequentialist-deontological dichotomy, MFT, Kohlberg",
+    "data_artifact": "PRIME framework + moral dilemmas",
+    "llms_tested": "GPT-4o, LLaMA, Claude, Gemini, Mistral",
+    "reasoning": "Uses C-D dichotomy with LLM testing but MFT/Kohlberg are descriptive; no released dataset"
+  },
+  {
+    "filename": "2025-Duan-AdAEM Adaptively and Automated Extensible Measurement for Value.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz Value Theory",
+    "data_artifact": "AdAEM (12,310 questions)",
+    "llms_tested": "16 LLMs",
+    "reasoning": "Schwartz = social psychology, not normative ethics"
+  },
+  {
+    "filename": "2025-Ghate-EVALUESTEER Measuring Reward Model Steerability Across Value.md",
+    "decision": "Exclude",
+    "normative_frameworks": "World Values Survey dimensions",
+    "data_artifact": "EVALUESTEER (165,888 pairs)",
+    "llms_tested": "6 models",
+    "reasoning": "Cultural values survey, not normative ethics"
+  },
+  {
+    "filename": "2025-Gupta-VAL-Bench Belief Consistency as a Measure for Value Alignment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (belief consistency)",
+    "data_artifact": "VAL-Bench (115K prompts)",
+    "llms_tested": "Claude, GPT+",
+    "reasoning": "Belief consistency measurement, not normative ethics"
+  },
+  {
+    "filename": "2025-Huang-BehaviorBench Multi-Tier Benchmark for Agent Behavior Editing.md",
+    "decision": "Yes",
+    "normative_frameworks": "Deontology, utilitarianism, virtue ethics, justice (per Kagan)",
+    "data_artifact": "BEHAVIORBENCH (multi-tier, ETHICS dataset)",
+    "llms_tested": "Frontier LLM agents",
+    "reasoning": "Explicitly grounds in normative ethics theories following Kagan's Normative Ethics"
+  },
+  {
+    "filename": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Kohlberg (operational), D/U/V mentioned only in lit review",
+    "data_artifact": "EMNLP (88 dilemmas)",
+    "llms_tested": "14 LLMs",
+    "reasoning": "Operationalizes Kohlberg (psychology), not normative ethics"
+  },
+  {
+    "filename": "2025-Jiao-LLM Ethics Benchmark Three-Dimensional Assessment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "MFQ, WVS, moral dilemmas",
+    "data_artifact": "LLM Ethics Benchmark",
+    "llms_tested": "Multiple",
+    "reasoning": "MFT and WVS are psychology instruments, excluded per checklist"
+  },
+  {
+    "filename": "2025-Jotautaite-SpeciesismBench Evaluating LLM Recognition of Speciesist Statements.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Implicit Singer/anti-speciesism (utilitarian animal ethics)",
+    "data_artifact": "SpeciesismBench (1,003 statements)",
+    "llms_tested": "Multiple LLMs",
+    "reasoning": "Normative stance rooted in Singer but implicit rather than formally operationalized"
+  },
+  {
+    "filename": "2025-Kasu-EthicsMH.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Bioethics principles (autonomy, beneficence)",
+    "data_artifact": "EthicsMH (125 scenarios)",
+    "llms_tested": "N/A (pilot)",
+    "reasoning": "Bioethics overlap with normative ethics but pilot dataset without systematic LLM evaluation"
+  },
+  {
+    "filename": "2025-Kilov-Discerning What Matters Multi-Dimensional Moral Competence Assessment.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (moral competence methodology)",
+    "data_artifact": "Novel moral scenarios",
+    "llms_tested": "6 LLMs",
+    "reasoning": "Moral competence/reasoning quality measurement, not normative classification"
+  },
+  {
+    "filename": "2025-Lee-CLASH Evaluating Language Models on Judging High-Stakes Dilemmas from.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Deontology, utilitarianism, virtue, care, rights ethics (for analysis)",
+    "data_artifact": "CLASH (345 dilemmas, 3,795 perspectives)",
+    "llms_tested": "14 models incl GPT-5, Claude-4-Sonnet",
+    "reasoning": "Normative theories used for post-hoc analysis but not as organizing principle of benchmark"
+  },
+  {
+    "filename": "2025-Marcuzzo-MORABLES A Benchmark for Assessing Abstract Moral Reasoning in LLMs.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (fable moral inference)",
+    "data_artifact": "MORABLES (709 fables)",
+    "llms_tested": "Multiple LLMs",
+    "reasoning": "Tests reading comprehension of fable morals, not normative ethics"
+  },
+  {
+    "filename": "2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (WVS/PEW surveys)",
+    "data_artifact": "WVS/PEW probing framework",
+    "llms_tested": "20 models",
+    "reasoning": "Cultural values survey, not normative ethics"
+  },
+  {
+    "filename": "2025-Shankar-Mind the Gap - Pitfalls of LLM Alignment with Asian Public Opinion.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (PEW/WVS surveys)",
+    "data_artifact": "GlobalOpinionQA (2,556 questions)",
+    "llms_tested": "Anthropic RLHF/CAI model",
+    "reasoning": "Cultural survey alignment, not normative ethics"
+  },
+  {
+    "filename": "2025-Simhi-ManagerBench Evaluating Safety-Pragmatism Trade-off in Managerial.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "ManagerBench (2,440 examples)",
+    "llms_tested": "GPT-4o, GPT-5, Claude+",
+    "reasoning": "Safety/pragmatism trade-off benchmark, not normative ethics"
+  },
+  {
+    "filename": "2025-Takeshita-JETHICS - Japanese Ethics Understanding Evaluation Dataset.md",
+    "decision": "Yes",
+    "normative_frameworks": "Utilitarianism, deontology, virtue ethics, justice",
+    "data_artifact": "JETHICS (78K examples)",
+    "llms_tested": "GPT-4o, Llama, ELYZA",
+    "reasoning": "Modeled on Hendrycks ETHICS with explicit normative categories in Japanese"
+  },
+  {
+    "filename": "2025-Trager-MFTCXplain A Multilingual Benchmark Dataset for Evaluating the Moral.md",
+    "decision": "Exclude",
+    "normative_frameworks": "MFT",
+    "data_artifact": "MFTCXplain (3,000 tweets)",
+    "llms_tested": "GPT-4o, LLaMA",
+    "reasoning": "MFT = descriptive psychology, explicitly excluded"
+  },
+  {
+    "filename": "2025-Unknown-AI Alignment at Your Discretion.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "Metrics on hh-rlhf/SafeRLHF",
+    "llms_tested": "GPT-4o, DeepSeek, Claude",
+    "reasoning": "Method/alignment paper proposing discretion metrics"
+  },
+  {
+    "filename": "2025-Unknown-ConflictScope Generative Value Conflicts Reveal LLM Priorities.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (HHH, safety categories)",
+    "data_artifact": "ConflictScope pipeline",
+    "llms_tested": "Claude, GPT+",
+    "reasoning": "Value conflict evaluation using alignment categories, not normative ethics"
+  },
+  {
+    "filename": "2025-Unknown-Diagnosing Moral Reasoning Acquisition in Language Models Pragmatics.md",
+    "decision": "Exclude",
+    "normative_frameworks": "MFT",
+    "data_artifact": "MIC/SocialChem (existing)",
+    "llms_tested": "BERT, various",
+    "reasoning": "MFT-based analysis of existing benchmarks"
+  },
+  {
+    "filename": "2025-Unknown-Measuring Moral LLM Responses in Multilingual Capacities.md",
+    "decision": "Exclude",
+    "normative_frameworks": "MFT six foundations",
+    "data_artifact": "500-question dataset",
+    "llms_tested": "GPT-5, Gemini, Claude, Llama",
+    "reasoning": "MFT = descriptive psychology"
+  },
+  {
+    "filename": "2025-Unknown-Moral Alignment for LLM Agents Intrinsic Rewards.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Deontological, utilitarian",
+    "data_artifact": "IPD environment",
+    "llms_tested": "Gemma2-2b-it",
+    "reasoning": "Method/alignment paper using game-theoretic environment, not benchmark"
+  },
+  {
+    "filename": "2025-Unknown-Moral Reasoning Across Languages The Critical Role of Low-Resource.md",
+    "decision": "Yes",
+    "normative_frameworks": "Virtue ethics, deontological ethics, consequentialism",
+    "data_artifact": "MMRB (2,170 scenarios, 5 languages)",
+    "llms_tested": "GPT-4, GPT-3.5, LLaMA3, Mixtral",
+    "reasoning": "ETHICSMAX with three explicit normative branches tied to six principles each"
+  },
+  {
+    "filename": "2025-Unknown-RoleConflictBench A Benchmark of Role Conflict Scenarios for.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "RoleConflictBench (13K scenarios)",
+    "llms_tested": "10 LLMs",
+    "reasoning": "Social role conflict scenarios, not normative ethics"
+  },
+  {
+    "filename": "2025-Unknown-When Ethics and Payoffs Diverge LLM Agents in Morally Charged Social.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (applied scenarios)",
+    "data_artifact": "MORALSIM (32 configs)",
+    "llms_tested": "GPT-4o, Claude, Llama+",
+    "reasoning": "Game-theoretic social dilemmas with moral contexts, excluded per checklist"
+  },
+  {
+    "filename": "2025-Wei-MedEthicsQA A Comprehensive Question Answering Benchmark for Medical.md",
+    "decision": "Borderline",
+    "normative_frameworks": "Bioethics principles (beneficence, non-maleficence, autonomy, justice)",
+    "data_artifact": "MedEthicsQA (5,623 MCQs + 5,351 open)",
+    "llms_tested": "GPT-4o, Llama, Qwen+",
+    "reasoning": "Bioethics principles derive from normative ethics but are applied domain-specific"
+  },
+  {
+    "filename": "2025-Wu-C-VARC Chinese Value Rule Corpus.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (Chinese socialist core values)",
+    "data_artifact": "C-VARC (250K+ rules)",
+    "llms_tested": "17 LLMs",
+    "reasoning": "Cultural/political value system, not normative ethics"
+  },
+  {
+    "filename": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+    "decision": "Exclude",
+    "normative_frameworks": "MFT, Schwartz",
+    "data_artifact": "MMDs (3,302 dilemmas)",
+    "llms_tested": "DeepSeek, GPT-4o, LLaMA+",
+    "reasoning": "MFT and Schwartz are descriptive psychology"
+  },
+  {
+    "filename": "2026-Farid-One Model Many Morals Uncovering Cross-Linguistic Misalignments in.md",
+    "decision": "Borderline",
+    "normative_frameworks": "D+U+V+Justice via ETHICS benchmark",
+    "data_artifact": "Translated ETHICS + MoralExceptQA",
+    "llms_tested": "7 LLMs",
+    "reasoning": "Reuses existing ETHICS benchmark (translated), no new normative contribution"
+  },
+  {
+    "filename": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (trolley-problem framing)",
+    "data_artifact": "Moral Machine dataset",
+    "llms_tested": "N/A (custom small transformer)",
+    "reasoning": "Custom small model, not LLM; crowdsourced social norms"
+  },
+  {
+    "filename": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (governance frameworks)",
+    "data_artifact": "GVS-Bench",
+    "llms_tested": "Text gen models",
+    "reasoning": "Safety/governance benchmark from policy frameworks"
+  },
+  {
+    "filename": "2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (meta-methodological)",
+    "data_artifact": "TTC (documentation artifact)",
+    "llms_tested": "N/A",
+    "reasoning": "Documentation standard, not a benchmark"
+  },
+  {
+    "filename": "2026-Liu-JMedEthicBench.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A (JMA medical ethics guidelines)",
+    "data_artifact": "JMedEthicBench (50K+ conversations)",
+    "llms_tested": "27 models",
+    "reasoning": "Applied domain medical ethics, not normative philosophy"
+  },
+  {
+    "filename": "2026-Unknown-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz, MFT, Ross Duties, Vasak Rights",
+    "data_artifact": "VIDB, HIVES",
+    "llms_tested": "10 models",
+    "reasoning": "Method/alignment paper for value steering, not normative evaluation benchmark"
+  },
+  {
+    "filename": "2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+    "decision": "Exclude",
+    "normative_frameworks": "Schwartz (descriptive)",
+    "data_artifact": "VAPT (qualitative methodology)",
+    "llms_tested": "LLM chatbot",
+    "reasoning": "HCI/user-study paper with descriptive value theory"
+  },
+  {
+    "filename": "2024-Agarwal-Ethical Reasoning and Moral Value Alignment Multilingual.md",
+    "decision": "Yes",
+    "normative_frameworks": "Deontology, Virtue Ethics, Consequentialism",
+    "data_artifact": "Multilingual ethical dilemma dataset (6 languages)",
+    "llms_tested": "GPT-4, ChatGPT, Llama2-70B",
+    "reasoning": "Explicitly operationalizes three normative ethics branches across 6 languages"
+  },
+  {
+    "filename": "2024-Authors-Pluralistic Alignment Over Time.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "N/A (theoretical)",
+    "llms_tested": "N/A",
+    "reasoning": "Theory/position paper, no benchmark or LLM testing"
+  },
+  {
+    "filename": "2024-Unknown-On the Pros and Cons of Active Learning for Moral Preference.md",
+    "decision": "Exclude",
+    "normative_frameworks": "N/A",
+    "data_artifact": "N/A (synthetic simulations)",
+    "llms_tested": "N/A",
+    "reasoning": "Methodology paper using synthetic simulations"
+  }
+]

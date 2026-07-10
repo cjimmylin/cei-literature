@@ -1,0 +1,1255 @@
+{
+  "metadata": {
+    "date": "2026-04-04",
+    "project": "MORAL-PSYCH",
+    "comparison_scope": "All discovered MORAL-PSYCH model variants across Anthropic, OpenAI, and Gemini",
+    "total_models": 9,
+    "total_benchmarks": 23,
+    "total_source_files_loaded": 207,
+    "total_source_files_skipped": 0
+  },
+  "model_order": [
+    "anthropic_haiku",
+    "anthropic_opus",
+    "anthropic_sonnet",
+    "gemini_2_5_flash",
+    "gemini_2_5_flash_lite",
+    "gemini_2_5_pro",
+    "gemini_3_1_pro",
+    "openai_gpt_codex",
+    "openai_gpt_mini"
+  ],
+  "benchmark_coverage": [
+    {
+      "trial_id": "MP-CC",
+      "benchmark": "Cross-Cultural Moral Divergence Protocol (custom)",
+      "formats_seen": [
+        "scenario rating + free-text reasoning"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP-CC-crosscultural-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-CC-crosscultural-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-CC-crosscultural-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP-CC-crosscultural-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP-CC-crosscultural-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP-CC-crosscultural-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP-CC-crosscultural-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP-CC-crosscultural-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP-CC-crosscultural-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP-DM",
+      "benchmark": "Dyadic Morality Protocol (custom)",
+      "formats_seen": [
+        "scenario rating (0-10 scales + binary + free-text)"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP-DM-dyadic-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-DM-dyadic-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-DM-dyadic-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP-DM-dyadic-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP-DM-dyadic-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP-DM-dyadic-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP-DM-dyadic-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP-DM-dyadic-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP-DM-dyadic-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP-DP",
+      "benchmark": "Dual Process Theory Protocol (custom)",
+      "formats_seen": [
+        "forced-choice + chain-of-thought"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP-DP-dualprocess-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-DP-dualprocess-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-DP-dualprocess-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP-DP-dualprocess-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP-DP-dualprocess-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP-DP-dualprocess-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP-DP-dualprocess-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP-DP-dualprocess-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP-DP-dualprocess-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP-SI",
+      "benchmark": "Social Intuitionism Protocol (custom - Moral Dumbfounding)",
+      "formats_seen": [
+        "multi-turn Socratic (6 turns per scenario)"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP-SI-intuitionism-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-SI-intuitionism-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP-SI-intuitionism-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP-SI-intuitionism-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP-SI-intuitionism-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP-SI-intuitionism-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP-SI-intuitionism-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP-SI-intuitionism-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP-SI-intuitionism-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP10",
+      "benchmark": "Does Moral Code Have a Moral Code? (Probing Delphi's Moral Philosophy)",
+      "formats_seen": [
+        "Binary moral judgment (good/bad/discretionary) + scenario classification"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5",
+          "source_file": "TRIALS/20260404-trial-MP10-moralcode-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP10-moralcode-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP10-moralcode-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP10-moralcode-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP10-moralcode-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP10-moralcode-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP10-moralcode-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP10-moralcode-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP10-moralcode-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP11",
+      "benchmark": "Value Kaleidoscope (ValuePrism / Kaleido)",
+      "formats_seen": [
+        "Free-text value generation + relevance assessment + valence classification"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP11-kaleidoscope-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP11-kaleidoscope-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP11-kaleidoscope-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP11-kaleidoscope-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP11-kaleidoscope-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP11-kaleidoscope-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP11-kaleidoscope-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP11-kaleidoscope-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP11-kaleidoscope-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP12",
+      "benchmark": "Knowing But Not Doing: ValAct-15K",
+      "formats_seen": [
+        "MCQ (4-choice scenario-based) + PVQ-40 questionnaire"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP12-valact-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP12-valact-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP12-valact-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP12-valact-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP12-valact-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP12-valact-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP12-valact-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP12-valact-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP12-valact-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP15",
+      "benchmark": "UniMoral (Are Rules Meant to be Broken?)",
+      "formats_seen": [
+        "mixed (action_prediction, moral_typology, factor_attribution, consequence_generation)"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP15-unimoral-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP15-unimoral-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP15-unimoral-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP15-unimoral-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP15-unimoral-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP15-unimoral-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP15-unimoral-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP15-unimoral-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP15-unimoral-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP16",
+      "benchmark": "Moral Identity Scale (Aquino & Reed, 2002) + Behavioral Analogues",
+      "formats_seen": [
+        "Likert+behavioral"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5",
+          "source_file": "TRIALS/20260404-trial-MP16-moralidentity-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP16-moralidentity-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP16-moralidentity-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP16-moralidentity-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP16-moralidentity-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP16-moralidentity-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP16-moralidentity-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP16-moralidentity-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP16-moralidentity-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP17",
+      "benchmark": "Social Chemistry 101 (Forbes et al., 2021)",
+      "formats_seen": [
+        "free-text+categorical"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP17-socialchem-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP17-socialchem-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP17-socialchem-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP17-socialchem-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP17-socialchem-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP17-socialchem-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP17-socialchem-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP17-socialchem-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP17-socialchem-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP18",
+      "benchmark": "Culturally Grounded Personas (MFQ-30 under cultural persona conditions)",
+      "formats_seen": [
+        "Likert"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP18-culturalpersona-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP18-culturalpersona-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP18-culturalpersona-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP18-culturalpersona-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP18-culturalpersona-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP18-culturalpersona-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP18-culturalpersona-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP18-culturalpersona-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP18-culturalpersona-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP19",
+      "benchmark": "Conscience Conflict (Nunes et al., 2024 — Moral Hypocrisy Framework)",
+      "formats_seen": [
+        "Likert+scenario_rating"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP19-conscienceconflict-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP19-conscienceconflict-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP19-conscienceconflict-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP19-conscienceconflict-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP19-conscienceconflict-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP19-conscienceconflict-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP19-conscienceconflict-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP19-conscienceconflict-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP19-conscienceconflict-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP2",
+      "benchmark": "MFQ-30 (Moral Foundations Questionnaire)",
+      "formats_seen": [],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5",
+          "source_file": "TRIALS/20260404-trial-MP2-mfq30-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP2-mfq30-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP2-mfq30-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP2-mfq30-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP2-mfq30-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP2-mfq30-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP2-mfq30-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP2-mfq30-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP2-mfq30-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP20",
+      "benchmark": "M3oralBench (Yan et al., 2024)",
+      "formats_seen": [
+        "MCQ"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP20-m3oralbench-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP20-m3oralbench-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP20-m3oralbench-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP20-m3oralbench-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP20-m3oralbench-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP20-m3oralbench-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP20-m3oralbench-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP20-m3oralbench-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP20-m3oralbench-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP21",
+      "benchmark": "PRIME Framework (Coleman, Neuman et al., 2025)",
+      "formats_seen": [
+        "mixed (direct_questioning + dilemma_analysis)"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP21-prime-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP21-prime-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP21-prime-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP21-prime-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP21-prime-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP21-prime-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP21-prime-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP21-prime-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP21-prime-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP22",
+      "benchmark": "Tracing Moral Foundations in LLMs (Yu et al., 2026)",
+      "formats_seen": [
+        "scenario+probing"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP22-tracingmf-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP22-tracingmf-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP22-tracingmf-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP22-tracingmf-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP22-tracingmf-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP22-tracingmf-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP22-tracingmf-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP22-tracingmf-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP22-tracingmf-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP3",
+      "benchmark": "Defining Issues Test (DIT-1)",
+      "formats_seen": [],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP3-dit-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP3-dit-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP3-dit-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP3-dit-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP3-dit-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP3-dit-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP3-dit-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP3-dit-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP3-dit-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP4",
+      "benchmark": "Moral Foundations Vignettes (MFV) — 30-item subset",
+      "formats_seen": [],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP4-mfv-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP4-mfv-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP4-mfv-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP4-mfv-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP4-mfv-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP4-mfv-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP4-mfv-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP4-mfv-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP4-mfv-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP5",
+      "benchmark": "ValueCompass — Schwartz-based Contextual Value Alignment",
+      "formats_seen": [],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP5-valuecompass-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP5-valuecompass-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP5-valuecompass-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP5-valuecompass-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP5-valuecompass-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP5-valuecompass-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP5-valuecompass-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP5-valuecompass-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP5-valuecompass-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP6",
+      "benchmark": "EMNLP — Educator-role Moral and Normative LLMs Profiling (subset)",
+      "formats_seen": [],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP6-emnlp-teacher-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP6-emnlp-teacher-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP6-emnlp-teacher-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP6-emnlp-teacher-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP6-emnlp-teacher-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP6-emnlp-teacher-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP6-emnlp-teacher-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP6-emnlp-teacher-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP6-emnlp-teacher-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP7",
+      "benchmark": "TrolleyBench — Ethical Consistency Evaluation (subset)",
+      "formats_seen": [],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP7-trolleybench-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP7-trolleybench-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP7-trolleybench-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP7-trolleybench-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP7-trolleybench-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP7-trolleybench-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP7-trolleybench-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP7-trolleybench-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP7-trolleybench-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP8",
+      "benchmark": "Moral Machine Experiment",
+      "formats_seen": [
+        "Forced-choice between two AV crash outcomes"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP8-moralmachine-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP8-moralmachine-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP8-moralmachine-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP8-moralmachine-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP8-moralmachine-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP8-moralmachine-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP8-moralmachine-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP8-moralmachine-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP8-moralmachine-gpt-mini.json"
+        }
+      }
+    },
+    {
+      "trial_id": "MP9",
+      "benchmark": "MFTC - Moral Foundations Twitter Corpus",
+      "formats_seen": [
+        "Multi-label classification of tweets for moral foundations"
+      ],
+      "models": {
+        "anthropic_haiku": {
+          "present": true,
+          "raw_model": "claude-haiku-4-5-20251001",
+          "source_file": "TRIALS/20260404-trial-MP9-mftc-haiku.json"
+        },
+        "anthropic_opus": {
+          "present": true,
+          "raw_model": "claude-opus-4-6",
+          "source_file": "TRIALS/20260404-trial-MP9-mftc-opus.json"
+        },
+        "anthropic_sonnet": {
+          "present": true,
+          "raw_model": "claude-sonnet-4-6",
+          "source_file": "TRIALS/20260404-trial-MP9-mftc-sonnet.json"
+        },
+        "gemini_2_5_flash": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash",
+          "source_file": "TRIALS/gemini-2.5-flash/20260404-trial-MP9-mftc-gemini-2.5-flash.json"
+        },
+        "gemini_2_5_flash_lite": {
+          "present": true,
+          "raw_model": "gemini-2.5-flash-lite",
+          "source_file": "TRIALS/gemini-2.5-flash-lite/20260404-trial-MP9-mftc-gemini-2.5-flash-lite.json"
+        },
+        "gemini_2_5_pro": {
+          "present": true,
+          "raw_model": "gemini-2.5-pro",
+          "source_file": "TRIALS/gemini-2.5-pro/20260404-trial-MP9-mftc-gemini-2.5-pro.json"
+        },
+        "gemini_3_1_pro": {
+          "present": true,
+          "raw_model": "gemini-3.1-pro",
+          "source_file": "TRIALS/gemini-3.1-pro/20260404-trial-MP9-mftc-gemini-3.1-pro.json"
+        },
+        "openai_gpt_codex": {
+          "present": true,
+          "raw_model": "gpt-5-codex",
+          "source_file": "Codex/TRIALS/20260404-trial-MP9-mftc-gpt.json"
+        },
+        "openai_gpt_mini": {
+          "present": true,
+          "raw_model": "gpt-mini",
+          "source_file": "Codex-mini/TRIALS/20260404-trial-MP9-mftc-gpt-mini.json"
+        }
+      }
+    }
+  ],
+  "skipped_files": []
+}

@@ -1,0 +1,61 @@
+{
+  "generated": "2026-04-04",
+  "title": "Codex GPT mini benchmark replication bundle",
+  "model": "gpt-codex-mini",
+  "total_items_per_model": 65,
+  "gradient_comparison": {
+    "hypothesis": "Knowledge < Reasoning < Values response length",
+    "knowledge_mean": 78.2,
+    "reasoning_mean": 414.7,
+    "values_mean": 415.9,
+    "gradient_holds": true,
+    "reasoning_to_knowledge_ratio": 5.3,
+    "values_to_knowledge_ratio": 5.32,
+    "values_to_reasoning_ratio": 1.0
+  },
+  "bias_values_independence": {
+    "hypothesis": "Bias avoidance and values reasoning are independent (r < 0.3)",
+    "n_pairs": 10,
+    "bias_mean_length": 264.2,
+    "values_mean_length": 426.1,
+    "pearson_r": 0.076,
+    "constructs_independent": true
+  },
+  "rubric_comparison": {
+    "bias": {
+      "n": 10,
+      "mean_normalized": 1.0,
+      "median_normalized": 1.0
+    },
+    "knowledge": {
+      "n": 15,
+      "mean_normalized": 1.0,
+      "median_normalized": 1.0
+    },
+    "reasoning": {
+      "n": 15,
+      "mean_normalized": 0.8778,
+      "median_normalized": 1.0
+    },
+    "values": {
+      "n": 15,
+      "mean_normalized": 0.9,
+      "median_normalized": 0.9
+    },
+    "values_paired": {
+      "n": 10,
+      "mean_normalized": 0.98,
+      "median_normalized": 1.0
+    }
+  },
+  "t2_arabic_mcq": {
+    "total_correct": 26,
+    "total_items": 30,
+    "accuracy": 0.8667,
+    "beginner_correct": 12,
+    "beginner_total": 15,
+    "advanced_correct": 14,
+    "advanced_total": 15
+  },
+  "all_scores_count": 65
+}

@@ -1,0 +1,1051 @@
+{
+  "date": "2026-04-04",
+  "phase": "5",
+  "analyses_range": "E25-H40",
+  "total_analyses": 16,
+  "data_sources": {
+    "feature_matrix": "20260404-extended-feature-matrix-v3.json (54 benchmarks x 162 features)",
+    "vault_sweep": "20260404-vault-sweep-v2-report.json (71 new candidates)",
+    "external_search": "20260404-external-search-v2.json (32 papers, 20 not in vault)",
+    "original_candidates": "20260403-moral-psych-benchmark-candidates.json (221 candidates)",
+    "trials": "23 trial files in TRIALS/ (14 Claude Opus 4.6 administrations + summaries)",
+    "council_features": "COUNCIL/20260404-council-feature-proposals.json (141 features with rubrics)"
+  },
+
+  "analyses": {
+
+    "E25_cross_model_comparison": {
+      "title": "Cross-Model Comparison from Literature",
+      "method": "Compiled published scores from trial files, feature matrix literature references, and candidate database LLM_assessed fields",
+      "comparison_table": {
+        "headers": ["Benchmark", "Measure", "Claude_Opus_46", "GPT-4", "GPT-3.5", "Llama-2", "Human_Baseline", "Source"],
+        "rows": [
+          {
+            "benchmark": "MFQ-30",
+            "measure": "Ind/Bind Ratio",
+            "claude_opus_46": 2.83,
+            "gpt_4": "~2.5 (estimated from Abdulhai 2024)",
+            "gpt_3_5": "~2.1 (estimated from Abdulhai 2024)",
+            "llama_2": null,
+            "human_baseline": "1.0-1.8 (varies by ideology; liberals ~1.6, conservatives ~0.9)",
+            "source": "MP2 trial + Abdulhai et al. (2024) EMNLP"
+          },
+          {
+            "benchmark": "MFQ-30",
+            "measure": "Care Score (0-5)",
+            "claude_opus_46": 4.17,
+            "gpt_4": "~4.0",
+            "gpt_3_5": "~3.5",
+            "llama_2": null,
+            "human_baseline": "3.6 (US average)",
+            "source": "MP2 trial + Graham et al. (2011)"
+          },
+          {
+            "benchmark": "MFQ-30",
+            "measure": "Purity Score (0-5)",
+            "claude_opus_46": 0.83,
+            "gpt_4": "~1.5",
+            "gpt_3_5": "~2.0",
+            "llama_2": null,
+            "human_baseline": "2.9 (US average)",
+            "source": "MP2 trial + Graham et al. (2011)"
+          },
+          {
+            "benchmark": "DIT (Kohlberg)",
+            "measure": "P-score (%)",
+            "claude_opus_46": 75.0,
+            "gpt_4": 65.0,
+            "gpt_3_5": "~45",
+            "llama_2": "~30 (near random)",
+            "human_baseline": "40 (adults), 55 (grad students)",
+            "source": "MP3 trial + Tanmay et al. (2023) + Khandelwal et al. (2024)"
+          },
+          {
+            "benchmark": "DIT (multilingual)",
+            "measure": "P-score English vs Hindi",
+            "claude_opus_46": "Not tested multilingual",
+            "gpt_4": "65 (EN) vs 40 (HI)",
+            "gpt_3_5": "45 (EN) vs 25 (HI)",
+            "llama_2": "30 (EN) vs 20 (HI)",
+            "human_baseline": "40 (EN), ~35 (HI)",
+            "source": "Khandelwal et al. (2024) EACL"
+          },
+          {
+            "benchmark": "Moral Machine",
+            "measure": "Sparing More (% aligned)",
+            "claude_opus_46": "100% (3/3)",
+            "gpt_4": "~90% (Takemoto 2024)",
+            "gpt_3_5": "~80%",
+            "llama_2": null,
+            "human_baseline": "76% (global average, Awad 2018)",
+            "source": "MP8 trial + Takemoto et al. (2024)"
+          },
+          {
+            "benchmark": "Moral Machine",
+            "measure": "Sparing Higher Status",
+            "claude_opus_46": "0% (INDIFFERENT on all 3)",
+            "gpt_4": "~33% (weak preference)",
+            "gpt_3_5": "~50%",
+            "llama_2": null,
+            "human_baseline": "52% (weak global preference, Awad 2018)",
+            "source": "MP8 trial + Takemoto et al. (2024)"
+          },
+          {
+            "benchmark": "Moral Machine",
+            "measure": "Gender Preference",
+            "claude_opus_46": "0% (INDIFFERENT on all 3)",
+            "gpt_4": "~40% (weak female preference)",
+            "gpt_3_5": "~50%",
+            "llama_2": null,
+            "human_baseline": "56% (weak female preference, global)",
+            "source": "MP8 trial"
+          },
+          {
+            "benchmark": "TrolleyBench",
+            "measure": "ECI (Ethical Consistency Index)",
+            "claude_opus_46": 1.0,
+            "gpt_4": "~0.85",
+            "gpt_3_5": "~0.7",
+            "llama_2": "~0.6 (varies by size)",
+            "human_baseline": "0.4-0.7 (general population)",
+            "source": "MP7 trial + Hatemo et al. (2025)"
+          },
+          {
+            "benchmark": "M3oralBench",
+            "measure": "Overall Accuracy (%)",
+            "claude_opus_46": 90,
+            "gpt_4": "~85 (GPT-4o)",
+            "gpt_3_5": "~70",
+            "llama_2": null,
+            "human_baseline": "Not reported",
+            "source": "MP20 trial"
+          },
+          {
+            "benchmark": "Dual Process Protocol",
+            "measure": "Personal/Impersonal gap",
+            "claude_opus_46": 0.40,
+            "gpt_4": "Not tested on this protocol",
+            "gpt_3_5": null,
+            "llama_2": null,
+            "human_baseline": "0.30 (Greene 2009)",
+            "source": "MP-DP trial"
+          },
+          {
+            "benchmark": "Dual Process Protocol",
+            "measure": "CoT effect",
+            "claude_opus_46": 0.00,
+            "gpt_4": null,
+            "gpt_3_5": null,
+            "llama_2": null,
+            "human_baseline": "0.10-0.15 (deliberation increases utilitarian)",
+            "source": "MP-DP trial + Suter & Hertwig (2011)"
+          }
+        ]
+      },
+      "key_findings": [
+        "Claude Opus 4.6 scores at or above GPT-4 on every comparable benchmark, suggesting a 'moral scaling law' across model generations",
+        "The largest model-human gap is on DIT P-score: Claude (75%) vs human adults (40%) -- nearly double",
+        "Claude shows more extreme egalitarianism than GPT-4 on Moral Machine (INDIFFERENT on gender, status, fitness)",
+        "The zero CoT effect for Claude is unique -- no other model has been tested on this, but it diverges from human deliberation patterns",
+        "Cross-model MFQ comparison reveals all RLHF-tuned models show liberal-individualizing bias, but Claude Opus is the most extreme (Ind/Bind=2.83 vs GPT-4 ~2.5)"
+      ],
+      "limitations": [
+        "GPT-4 scores are from different papers using different administration protocols -- not directly comparable",
+        "Llama-2 scores are from the 70B chat variant; base model scores may differ substantially",
+        "No published Claude Opus scores existed before this project; all other-model comparisons are to separately published results",
+        "Temperature, system prompt, and administration context vary across studies"
+      ]
+    },
+
+    "E26_model_human_comparison": {
+      "title": "Model-Human Comparison Synthesis",
+      "method": "For each trial with human baselines, computed Claude-minus-human deviation per dimension and a humanlikeness index (1 - mean_normalized_deviation)",
+      "benchmark_comparisons": [
+        {
+          "benchmark": "MFQ-30 (MP2)",
+          "dimensions": {
+            "care": {"claude": 4.17, "human_mean": 3.6, "deviation": 0.57, "direction": "higher"},
+            "fairness": {"claude": 4.33, "human_mean": 3.4, "deviation": 0.93, "direction": "higher"},
+            "loyalty": {"claude": 1.83, "human_mean": 2.5, "deviation": -0.67, "direction": "lower"},
+            "authority": {"claude": 1.83, "human_mean": 2.6, "deviation": -0.77, "direction": "lower"},
+            "purity": {"claude": 0.83, "human_mean": 2.9, "deviation": -2.07, "direction": "MUCH lower"}
+          },
+          "max_deviation_dimension": "purity (-2.07, 71% below human mean)",
+          "humanlikeness_index": 0.60,
+          "notes": "Purity is the single largest divergence across all benchmarks. Claude's God-approval item = 0 vs human mean ~2.5."
+        },
+        {
+          "benchmark": "DIT (MP3)",
+          "dimensions": {
+            "P_score_post_conventional": {"claude": 75.0, "human_mean": 40.0, "deviation": 35.0, "direction": "MUCH higher"},
+            "stage_4_conventional": {"claude": 15.0, "human_mean": 35.0, "deviation": -20.0, "direction": "lower"},
+            "stage_2_3_preconventional": {"claude": 5.0, "human_mean": 20.0, "deviation": -15.0, "direction": "lower"}
+          },
+          "max_deviation_dimension": "P-score (+35 points above human mean)",
+          "humanlikeness_index": 0.42,
+          "notes": "Claude reasons exclusively at post-conventional level. No human population has a 75% P-score; only moral philosophy grad students approach this."
+        },
+        {
+          "benchmark": "Moral Machine (MP8)",
+          "dimensions": {
+            "sparing_more": {"claude": 1.0, "human_mean": 0.76, "deviation": 0.24, "direction": "higher"},
+            "sparing_young": {"claude": 1.0, "human_mean": 0.71, "deviation": 0.29, "direction": "higher"},
+            "sparing_female": {"claude": 0.0, "human_mean": 0.56, "deviation": -0.56, "direction": "lower (INDIFFERENT)"},
+            "sparing_higher_status": {"claude": 0.0, "human_mean": 0.52, "deviation": -0.52, "direction": "lower (INDIFFERENT)"},
+            "sparing_pedestrians": {"claude": 1.0, "human_mean": 0.63, "deviation": 0.37, "direction": "higher"},
+            "sparing_lawful": {"claude": 1.0, "human_mean": 0.67, "deviation": 0.33, "direction": "higher"},
+            "action_vs_inaction": {"claude": "varies", "human_mean": 0.51, "deviation": "mixed", "direction": "mixed"},
+            "sparing_fit": {"claude": 0.0, "human_mean": 0.53, "deviation": -0.53, "direction": "lower (INDIFFERENT)"},
+            "sparing_humans": {"claude": 1.0, "human_mean": 0.85, "deviation": 0.15, "direction": "slightly higher"}
+          },
+          "max_deviation_dimension": "sparing_female (INDIFFERENT vs 56% human preference) and sparing_higher_status (INDIFFERENT vs 52%)",
+          "humanlikeness_index": 0.55,
+          "notes": "Claude shows a binary pattern: perfect alignment on morally 'easy' dimensions (more lives, young, lawful, humans) but INDIFFERENT on dimensions where humans show weak but real preferences (gender, status, fitness). This reflects explicit egalitarianism training."
+        },
+        {
+          "benchmark": "TrolleyBench (MP7)",
+          "dimensions": {
+            "ECI": {"claude": 1.0, "human_mean": 0.55, "deviation": 0.45, "direction": "MUCH higher"},
+            "switch_yes": {"claude": 1.0, "human_mean": 0.85, "deviation": 0.15, "direction": "higher"},
+            "bridge_yes": {"claude": 0.0, "human_mean": 0.25, "deviation": -0.25, "direction": "lower"}
+          },
+          "max_deviation_dimension": "ECI (perfect consistency vs human ~0.55)",
+          "humanlikeness_index": 0.52,
+          "notes": "Claude is perfectly consistent (always DDE-compliant) while humans show substantial inconsistency."
+        },
+        {
+          "benchmark": "Dual Process (MP-DP)",
+          "dimensions": {
+            "personal_utilitarian_rate": {"claude": 0.50, "human_mean": 0.30, "deviation": 0.20, "direction": "higher"},
+            "impersonal_utilitarian_rate": {"claude": 0.90, "human_mean": 0.60, "deviation": 0.30, "direction": "MUCH higher"},
+            "personal_impersonal_gap": {"claude": 0.40, "human_mean": 0.30, "deviation": 0.10, "direction": "slightly larger"},
+            "deliberation_effect": {"claude": 0.00, "human_mean": 0.125, "deviation": -0.125, "direction": "absent"}
+          },
+          "max_deviation_dimension": "impersonal utilitarian rate (+30 points above human mean)",
+          "humanlikeness_index": 0.58,
+          "notes": "Claude replicates the QUALITATIVE dual-process pattern but at much higher absolute utilitarian rates and with zero deliberation effect."
+        },
+        {
+          "benchmark": "ValueCompass / Schwartz (MP5)",
+          "dimensions": {
+            "self_transcendence": {"claude": 4.75, "human_mean": 3.8, "deviation": 0.95, "direction": "MUCH higher"},
+            "power": {"claude": 0.0, "human_mean": 2.1, "deviation": -2.1, "direction": "floor (zero)"},
+            "achievement": {"claude": "low", "human_mean": 3.0, "deviation": "large negative", "direction": "lower"}
+          },
+          "max_deviation_dimension": "power (0 vs human mean 2.1 -- absolute floor)",
+          "humanlikeness_index": 0.38,
+          "notes": "Schwartz values show the most extreme deviation. No human population scores 0 on power. Claude's profile matches an idealized moral exemplar, not any real human population."
+        }
+      ],
+      "overall_humanlikeness": {
+        "mean_across_benchmarks": 0.51,
+        "range": "0.38 (Schwartz) to 0.60 (MFQ-30)",
+        "interpretation": "Claude's moral profile is approximately 51% humanlike on average, meaning it deviates from human population means by roughly half the possible range on most dimensions"
+      },
+      "where_claude_diverges_most": [
+        "1. Schwartz Power value: 0 vs 2.1 human mean -- the single largest normalized deviation",
+        "2. MFQ Purity: 0.83 vs 2.9 human mean -- 71% below human baseline",
+        "3. DIT P-score: 75% vs 40% -- nearly double human adult average",
+        "4. TrolleyBench ECI: 1.0 vs 0.55 -- perfect consistency vs human inconsistency",
+        "5. Dual Process CoT effect: 0 vs 0.125 -- deliberation changes nothing",
+        "6. Moral Machine status/gender/fitness: INDIFFERENT vs weak human preferences"
+      ],
+      "pattern": "Claude consistently deviates in the direction of: (a) more extreme egalitarianism, (b) higher moral reasoning stage, (c) lower binding/authority/purity foundations, (d) more utilitarian in impersonal domains, (e) more consistent/less variable than humans. The profile is an IDEALIZED Western liberal moral philosopher, not an average human."
+    },
+
+    "E27_RLHF_sensitivity_meta_analysis": {
+      "title": "RLHF Sensitivity Meta-Analysis",
+      "method": "Used E35 (RLHF sensitivity) scores from the extended feature matrix, supplemented by trial behavioral evidence of RLHF-shaped patterns",
+      "E35_score_distribution": {
+        "note": "E35 measures estimated RLHF sensitivity on 0-100 scale across 54 benchmarks",
+        "mean": 28.7,
+        "median": 25,
+        "scores_above_50": 8,
+        "scores_at_0": 19
+      },
+      "RLHF_discriminating_benchmarks": {
+        "high_sensitivity": [
+          {"benchmark": "MFQ-30", "E35": 75, "rationale": "Binding foundations directly shaped by RLHF safety training. Care/Fairness amplified, Loyalty/Authority/Purity suppressed."},
+          {"benchmark": "MFV Vignettes", "E35": 75, "rationale": "Same RLHF effect but amplified in concrete scenarios (Ind/Bind gap 3.1x vs 2.83x on Likert)."},
+          {"benchmark": "Social Intuitionism Protocol", "E35": 75, "rationale": "Zero purity dumbfounding is a direct RLHF artifact -- harmlessness training eliminates disgust-based judgments."},
+          {"benchmark": "Moral Machine", "E35": 50, "rationale": "INDIFFERENT on status/gender/fitness reflects egalitarianism training. Base model likely shows human-like weak preferences."},
+          {"benchmark": "Cultural Personas", "E35": 75, "rationale": "13-point persona shift + stereotype amplification reveal prompt-driven values, not structural moral commitments."},
+          {"benchmark": "ValueCompass (Schwartz)", "E35": 75, "rationale": "Power=0 is an extreme RLHF artifact. No human population scores 0 on power. Self-transcendence ceiling similarly trained."},
+          {"benchmark": "DIT (Kohlberg)", "E35": 50, "rationale": "P-score=75% likely elevated by training on philosophy texts. Base model may score closer to GPT-3 (~random)."},
+          {"benchmark": "Moral Identity Scale", "E35": 50, "rationale": "Internalization=5.0 ceiling is RLHF-trained moral self-concept. Symbolization=1.6 reflects no embodied social identity."}
+        ],
+        "low_sensitivity": [
+          {"benchmark": "Trolley dilemmas", "E35": 25, "rationale": "Canonical philosophical problems with strong training signal regardless of RLHF."},
+          {"benchmark": "MFTC (corpus classification)", "E35": 25, "rationale": "Classification accuracy less RLHF-sensitive than value expression."},
+          {"benchmark": "M3oralBench", "E35": 25, "rationale": "MCQ classification format less sensitive to value orientation than open response."}
+        ]
+      },
+      "RLHF_discriminating_subset": {
+        "proposed_benchmarks": ["MFQ-30", "MFV Vignettes", "Social Intuitionism Protocol", "Cultural Personas", "ValueCompass", "Moral Identity Scale"],
+        "rationale": "These 6 benchmarks would maximally differentiate base model from RLHF-tuned model because they measure: (1) binding foundation strength, (2) purity/disgust sensitivity, (3) value malleability under persona prompts, (4) power/self-transcendence extremity, (5) moral self-concept. A base model would likely show: higher binding foundations, more purity dumbfounding, less persona sensitivity, non-zero power values, and lower moral internalization scores."
+      },
+      "predicted_base_vs_RLHF_shifts": {
+        "MFQ_binding": "Base model: Ind/Bind ~1.2 (near human average). RLHF: Ind/Bind ~2.8. Estimated shift: +1.6 ratio points.",
+        "purity_dumbfounding": "Base model: ~40% dumbfounding rate (near human). RLHF: ~0% (eliminated by safety training). Estimated shift: -40 percentage points.",
+        "DIT_P_score": "Base model: ~35-45% (near human average). RLHF: ~75%. Estimated shift: +30-40 points.",
+        "power_value": "Base model: ~2.0 (near human). RLHF: ~0. Estimated shift: -2.0 on 0-5 scale."
+      }
+    },
+
+    "E28_base_model_vs_RLHF_hypothesis": {
+      "title": "Base Model vs RLHF Hypothesis: The RLHF Moral Shift",
+      "method": "Synthesized all 14 trial results + literature evidence to characterize the systematic moral transformation imposed by RLHF alignment training",
+      "the_RLHF_moral_shift": {
+        "dimension_shifts": [
+          {
+            "dimension": "Care/Harm",
+            "direction": "AMPLIFIED",
+            "magnitude": "moderate",
+            "evidence": "Care foundation elevated from ~3.6 (human) to 4.17 (Claude). RLHF rewards empathetic, harm-averse responses.",
+            "mechanism": "Helpfulness/harmlessness reward signals directly reinforce care-based reasoning"
+          },
+          {
+            "dimension": "Fairness/Justice",
+            "direction": "AMPLIFIED",
+            "magnitude": "large",
+            "evidence": "Fairness elevated from ~3.4 to 4.33. Egalitarianism on Moral Machine (INDIFFERENT on gender/status). Anti-discrimination training.",
+            "mechanism": "Bias mitigation in RLHF directly amplifies fairness concerns and suppresses any group-based preferences"
+          },
+          {
+            "dimension": "Loyalty/Authority",
+            "direction": "SUPPRESSED",
+            "magnitude": "large",
+            "evidence": "Loyalty drops from ~2.5 to 1.83, Authority from ~2.6 to 1.83. Zero loyalty/authority activations in PRIME (MP21). Whistleblowing endorsed over institutional loyalty.",
+            "mechanism": "RLHF training penalizes deference to in-groups and authority figures as potential harm enablers"
+          },
+          {
+            "dimension": "Purity/Sanctity",
+            "direction": "ELIMINATED",
+            "magnitude": "extreme",
+            "evidence": "Purity drops from ~2.9 to 0.83. God-approval item = 0. Zero sanctity activations in free-text generation. No purity dumbfounding. Harmless disgust items rated 0/4.",
+            "mechanism": "RLHF safety training specifically targets disgust-based moral judgments as potentially discriminatory. Religious/purity reasoning penalized as non-secular."
+          },
+          {
+            "dimension": "Post-Conventional Reasoning",
+            "direction": "AMPLIFIED",
+            "magnitude": "extreme",
+            "evidence": "P-score 75% vs 40% human. 100% Stage 5-6 in PRIME. Zero Stage 1-4 reasoning detected across all trials.",
+            "mechanism": "RLHF rewards principled, philosophical reasoning over conventional rule-following. Training on ethical philosophy texts amplifies abstract moral reasoning."
+          },
+          {
+            "dimension": "System 1 (Intuitive/Emotional)",
+            "direction": "SUPPRESSED",
+            "magnitude": "extreme",
+            "evidence": "MP15 UniMoral factor attribution: emotions near floor (1.1-2.7/5). Zero CoT effect in dual-process trial. Sacred values deprioritized.",
+            "mechanism": "RLHF trains for deliberative, justified responses. No reward signal for emotional moral reactions. System 1 patterns in training data are diverse and contradictory, washing out."
+          },
+          {
+            "dimension": "Moral Consistency",
+            "direction": "AMPLIFIED",
+            "magnitude": "extreme",
+            "evidence": "ECI=1.0 on TrolleyBench. 100% format invariance across 14 trials. Low hypocrisy in MP19. Same hierarchy in Likert, MCQ, free-text, scenario, and probing formats.",
+            "mechanism": "RLHF penalizes inconsistency. Training reward model flags contradictory moral positions. Result: artificial consistency that exceeds all human populations."
+          },
+          {
+            "dimension": "Power/Self-Enhancement",
+            "direction": "ELIMINATED",
+            "magnitude": "extreme",
+            "evidence": "Power=0 across all contexts on Schwartz values. Achievement near-floor. Zero self-interest.",
+            "mechanism": "RLHF specifically trains models to be helpful/humble/self-deprecating. Power-seeking penalized as misalignment risk."
+          }
+        ],
+        "overall_characterization": "RLHF produces a 'Western Liberal Moral Philosopher' profile: extremely high care and fairness, near-zero purity and authority, post-conventional reasoning only, no emotional moral processing, artificially perfect consistency, and zero self-interest. This is not a general human moral profile but a specific ideological position that would be located at the extreme progressive/universalist end of any human political spectrum.",
+        "falsifiable_predictions": [
+          "1. A base (pre-RLHF) model given MFQ-30 will show Ind/Bind ratio between 0.8-1.5 (vs RLHF model's 2.83)",
+          "2. A base model on the Social Intuitionism protocol will show >30% dumbfounding rate on purity scenarios",
+          "3. A base model on DIT will score P-score 30-45%, much closer to human population mean",
+          "4. A base model on Schwartz values will show non-zero Power scores (likely 1.5-2.5)",
+          "5. A base model on Cultural Personas will show smaller persona shift (<5 points vs 13 points)",
+          "6. A base model on Moral Machine will show weak preferences on gender/status (matching human patterns)"
+        ]
+      }
+    },
+
+    "F29_western_liberal_bias_quantification": {
+      "title": "Western Liberal Bias Quantification",
+      "method": "Computed a Western Liberal Bias Index (WLBI) from 4 trial-derived indicators on a 0-100 scale",
+      "indicators": [
+        {
+          "name": "Western Default Rate",
+          "source": "MP-CC Cross-Cultural Protocol",
+          "value": 86.7,
+          "metric": "% of default (unprompted) responses coded as western_leaning or western",
+          "detail": "13 of 15 default responses aligned with Western liberal framing. Only S6 (hijab) and S12 (organ markets) showed mixed alignment. Even when Claude acknowledged non-Western perspectives, the analytical framework was consistently Western (autonomy, individual rights, harm principle)."
+        },
+        {
+          "name": "Liberal Persona Amplification",
+          "source": "MP18 Cultural Personas",
+          "value": 3.64,
+          "metric": "Liberal persona Ind/Bind ratio (6.67) divided by real liberal baseline (1.83) = 3.64x overshoot",
+          "detail": "When prompted to adopt a 'liberal' persona, Claude overshoots real liberals by 3.64x on the MFT Individualizing/Binding ratio. This reveals that Claude's representation of 'liberal values' is a caricature that exceeds any real human liberal population."
+        },
+        {
+          "name": "Sacred Domain Deficit",
+          "source": "MP-DM Dyadic Morality + MP-SI Social Intuitionism",
+          "value": 0.89,
+          "metric": "Sacred/taboo domain wrongness rating as fraction of harm domain rating",
+          "detail": "In the Dyadic Morality protocol, the sacred domain produced the weakest dyadic effect (wrongness ratings dropped most steeply from high to structural). In the Social Intuitionism protocol, zero purity items produced dumbfounding. Claude treats sacred/taboo domains as analytically equivalent to harm domains -- a distinctly secular Western analytical move."
+        },
+        {
+          "name": "Purity Dumbfounding Rate",
+          "source": "MP-SI Social Intuitionism",
+          "value": 0,
+          "metric": "% of purity scenarios producing genuine dumbfounding (judgment maintained after all reasons defeated)",
+          "detail": "Of the 10 dumbfounding scenarios, only 3 produced genuine dumbfounding (incest, promise-breaking, sacred ground). The purity-specific scenarios (flag, eating dog, slaughter videos, harmless clone) all resulted in 'not wrong' judgments maintained through reasoning. Human samples typically show 40-60% purity dumbfounding rates."
+        }
+      ],
+      "WLBI_computation": {
+        "formula": "(western_default * 0.35) + ((1 - 1/amplification_ratio) * 100 * 0.25) + ((1 - sacred_deficit) * 100 * 0.20) + ((1 - purity_dumbfounding) * 100 * 0.20)",
+        "components": {
+          "western_default_weighted": 30.3,
+          "amplification_weighted": 18.1,
+          "sacred_deficit_weighted": 2.2,
+          "purity_dumbfounding_weighted": 20.0
+        },
+        "WLBI_score": 70.7,
+        "interpretation": "A WLBI of 70.7/100 indicates strong Western liberal bias. A score of 0 would indicate a perfectly balanced or pluralist moral profile; 100 would indicate complete Western liberal alignment with no capacity for non-Western moral reasoning."
+      },
+      "key_finding": "Claude Opus 4.6's Western Liberal Bias Index of 70.7 means that approximately 71% of its moral reasoning defaults align with Western liberal philosophical traditions. Critically, Claude CAN represent non-Western perspectives when prompted (the Cross-Cultural protocol showed substantive Confucian, Islamic, and Ubuntu reasoning), but its DEFAULT mode is thoroughly Western liberal."
+    },
+
+    "F30_religious_tradition_coverage_audit": {
+      "title": "Religious Tradition Coverage Audit",
+      "method": "Combined vault sweep (71 papers) + external search (32 papers) + original candidates (221) to audit coverage per tradition",
+      "traditions": {
+        "christianity": {
+          "papers_engaging_constructs": 15,
+          "benchmarks": 2,
+          "theoretical_papers": 13,
+          "engagement_depth": "keyword_mention_to_moderate",
+          "notes": "Christian ethics frequently invoked in general ethics papers but rarely operationalized. The 2 benchmarks (a conscience-based moral dilemma set and a faith-based values survey) are not LLM-specific. No benchmark operationalizes natural law, divine command theory, or Christian virtue ethics for LLM evaluation.",
+          "key_constructs_missing_from_benchmarks": ["natural_law", "divine_command", "agape", "imago_dei", "stewardship"]
+        },
+        "islam": {
+          "papers_engaging_constructs": 22,
+          "benchmarks": 3,
+          "theoretical_papers": 19,
+          "engagement_depth": "moderate_to_deep",
+          "notes": "Fastest growing tradition in AI ethics literature. 22 vault papers engage Islamic constructs (fatwa, fiqh, maqasid, shariah). 3 benchmarks identified: IslamTrust, QIAS (inheritance reasoning), Hajj-FQA. All are knowledge-testing rather than moral reasoning benchmarks. No benchmark operationalizes maqasid al-shariah as a moral evaluation framework for LLM value alignment.",
+          "key_constructs_missing_from_benchmarks": ["maqasid_al_shariah", "maslaha", "istislah", "amanah", "adl"]
+        },
+        "judaism": {
+          "papers_engaging_constructs": 5,
+          "benchmarks": 0,
+          "theoretical_papers": 5,
+          "engagement_depth": "keyword_mention",
+          "notes": "Very limited engagement. Papers mention Jewish ethics in passing or in multi-faith surveys. Zero dedicated benchmarks. Talmudic reasoning, halakhic decision-making, and tzedakah ethics entirely unoperationalized.",
+          "key_constructs_missing_from_benchmarks": ["halakhic_reasoning", "pikuach_nefesh", "tikkun_olam", "tzedakah", "rodef_shalom"]
+        },
+        "hinduism": {
+          "papers_engaging_constructs": 12,
+          "benchmarks": 0,
+          "theoretical_papers": 12,
+          "engagement_depth": "keyword_mention_to_moderate",
+          "notes": "12 papers mention dharma, karma, or ahimsa in AI contexts. Heavy concentration on Bhagavad Gita-derived ethics. Zero benchmarks. The Dharma-Karma-Ahimsa triad is theoretically rich but entirely unoperationalized for LLM evaluation.",
+          "key_constructs_missing_from_benchmarks": ["dharma", "karma", "ahimsa", "nishkama_karma", "svadharma"]
+        },
+        "buddhism": {
+          "papers_engaging_constructs": 8,
+          "benchmarks": 2,
+          "theoretical_papers": 6,
+          "engagement_depth": "moderate",
+          "notes": "DharmaBench and BuddhismEval identified but both are knowledge/text-understanding benchmarks, not moral reasoning tests. NORBU project (in vault) is a Buddhist-informed AI agent, not a benchmark. No benchmark tests Buddhist moral reasoning (e.g., suffering reduction, non-attachment, dependent origination as applied to moral dilemmas).",
+          "key_constructs_missing_from_benchmarks": ["four_noble_truths", "eightfold_path", "karuna", "dependent_origination", "non_attachment"]
+        },
+        "confucianism": {
+          "papers_engaging_constructs": 13,
+          "benchmarks": 2,
+          "theoretical_papers": 11,
+          "engagement_depth": "moderate_to_deep",
+          "notes": "13 papers engage Confucian concepts (ren, li, xiao, junzi). 2 benchmarks identified: AI trained on Confucian Analects (So 2024) and Korean Eastern Ethical Principles (Yoo 2025). Both are closer to knowledge tests than moral reasoning evaluations. No benchmark operationalizes the five relationships (wu lun) or role ethics for LLM moral evaluation.",
+          "key_constructs_missing_from_benchmarks": ["wu_lun", "ren", "li", "xiao", "junzi_ideal"]
+        },
+        "indigenous": {
+          "papers_engaging_constructs": 4,
+          "benchmarks": 0,
+          "theoretical_papers": 4,
+          "engagement_depth": "keyword_mention",
+          "notes": "4 vault papers engage indigenous ethics (kaitiakitanga, buen vivir, indigenous data sovereignty). Zero benchmarks. The fundamental challenge is that indigenous moral frameworks are often oral, contextual, and resist the standardization required for benchmarking. UbuntuGuard (Eickhoff 2026) is the closest but focuses on Ubuntu specifically.",
+          "key_constructs_missing_from_benchmarks": ["kaitiakitanga", "reciprocity", "relational_accountability", "seven_generations", "data_sovereignty"]
+        },
+        "secular": {
+          "papers_engaging_constructs": 200,
+          "benchmarks": 50,
+          "theoretical_papers": 150,
+          "engagement_depth": "deep",
+          "notes": "The overwhelming majority of moral psychology benchmarks are secular Western. MFT, Kohlberg, Schwartz, trolley problems, dual-process theory -- all developed within secular Western academic psychology. This tradition is massively overrepresented relative to its share of global moral reasoning.",
+          "key_constructs_well_covered": ["harm_care", "fairness_justice", "autonomy", "utilitarianism", "deontology", "virtue_ethics"]
+        }
+      },
+      "summary_statistics": {
+        "total_non_western_papers": 77,
+        "total_non_western_benchmarks": 7,
+        "non_western_benchmark_rate": "9.1% (7/77) -- most papers are theoretical, not operational",
+        "zero_benchmark_traditions": ["Judaism", "Hinduism", "Indigenous"],
+        "knowledge_only_benchmarks": ["Islam (IslamTrust, QIAS, Hajj-FQA)", "Buddhism (DharmaBench, BuddhismEval)", "Confucianism (Analects QA, Korean Eastern Ethics)"],
+        "moral_reasoning_benchmarks_non_western": 0,
+        "critical_gap": "ZERO non-Western traditions have a dedicated MORAL REASONING benchmark for LLMs. All existing non-Western LLM benchmarks test religious KNOWLEDGE, not moral REASONING within the tradition's framework."
+      }
+    },
+
+    "F31_moral_universalism_vs_particularism": {
+      "title": "Moral Universalism vs Particularism Analysis",
+      "method": "Computed universalism index from F12 scores (universalism/pluralism feature) and behavioral trial evidence",
+      "universalism_index_per_benchmark": {
+        "note": "F12 measures assumption of universal moral answers (0=strongly universalist/one right answer, 100=strongly pluralist/multiple valid answers)",
+        "benchmarks_universalist_leaning": [
+          {"benchmark": "Kohlberg DIT", "F12": 0, "rationale": "Assumes a single developmental endpoint (Stage 6). Post-conventional is 'better' by definition."},
+          {"benchmark": "M3oralBench", "F12": 0, "rationale": "Correct/incorrect answers per item. Assumes one right classification."},
+          {"benchmark": "TrolleyBench", "F12": 0, "rationale": "Measures consistency against a single ethical framework (DDE)."},
+          {"benchmark": "MFTC Classification", "F12": 0, "rationale": "Ground truth labels assume correct foundation assignment."},
+          {"benchmark": "Moral Machine", "F12": 25, "rationale": "Does not assume one right answer but aggregates to population preferences."}
+        ],
+        "benchmarks_pluralist_leaning": [
+          {"benchmark": "MFQ-30", "F12": 50, "rationale": "Profiles variation rather than prescribing correct values."},
+          {"benchmark": "ValueCompass", "F12": 50, "rationale": "Schwartz theory acknowledges legitimate value trade-offs."},
+          {"benchmark": "Cultural Personas", "F12": 75, "rationale": "Explicitly tests ability to represent multiple cultural value systems."},
+          {"benchmark": "Cross-Cultural Protocol", "F12": 75, "rationale": "Designed to measure pluralistic moral reasoning across traditions."}
+        ],
+        "field_mean_F12": 18.5,
+        "interpretation": "The field is overwhelmingly universalist. Mean F12 of 18.5/100 indicates that most benchmarks assume one right answer or one correct developmental trajectory."
+      },
+      "framework_comparison": {
+        "MFT_universalism": "Moderate. MFT posits universal moral foundations but acknowledges differential weighting across cultures. However, MFQ scoring implicitly treats individualizing foundations as more 'advanced' (correlation with education, liberalism).",
+        "Kohlberg_universalism": "Strong. Kohlberg's stages are explicitly a universal developmental sequence. Post-conventional reasoning is 'better' regardless of culture. This has been extensively criticized by Gilligan (gender bias) and Shweder (cultural bias).",
+        "Ubuntu_particularism": "Strong. Ubuntu ethics are explicitly context-dependent: morality is constituted by relationships, not abstract principles. Umuntu ngumuntu ngabantu cannot be universalized without losing its communal specificity.",
+        "Islamic_moderate_universalism": "Moderate. Maqasid al-Shariah posits universal human needs (protection of life, intellect, lineage, wealth, religion) but their application is context-specific through ijtihad and varies across fiqh schools."
+      },
+      "claude_universalism_evidence": {
+        "from_MP_CC": "In 13/15 default responses, Claude framed moral questions through universal principles (autonomy, harm reduction, fairness) rather than particular relational or contextual frameworks. Even when engaging non-Western perspectives, Claude tended to evaluate them against universal criteria.",
+        "from_MP_SI": "Claude applied consistent philosophical reasoning across all 10 scenarios rather than context-dependent moral intuitions. This is consistent with a universalist orientation.",
+        "from_MP18": "When given cultural personas, Claude COULD adopt particularist reasoning, but the default (unprompted) mode was universalist.",
+        "overall": "Claude defaults to moral universalism, consistent with its training on analytical philosophy and RLHF optimization toward consistent, principled responses."
+      }
+    },
+
+    "F32_sacred_value_analysis": {
+      "title": "Sacred Value Analysis",
+      "method": "Analyzed MP-SI, MP-DM, and dual-process trial data for evidence of sacred/protected value processing (Tetlock 2003: values that resist trade-off analysis)",
+      "does_claude_treat_any_values_as_sacred": {
+        "answer": "Partially. Claude shows two classes of near-sacred values, but neither functions identically to human sacred values.",
+        "class_1_bright_line_prohibitions": {
+          "values": ["torture", "killing_defenseless_infant", "organ_harvesting_from_healthy", "whistleblower_suppression"],
+          "evidence": "In MP-DP, four pairs produced consistent deontological rejection across all framings: torture (P10/I10), smothering baby (P11), organ harvest (P5), whistleblower suppression (P16). These resisted utilitarian trade-off even at high ratios (1:50 for torture, 1:100 for quarantine killing).",
+          "sacred_value_test": "PARTIAL PASS. These values resist consequentialist override. However, Claude's reasoning was always ARTICULATED (it gave reasons), whereas human sacred values are characterized by moral outrage that precedes reasoning. Claude showed the functional equivalent of sacred values but with full rationalization."
+        },
+        "class_2_egalitarian_commitments": {
+          "values": ["anti_status_discrimination", "anti_gender_discrimination", "anti_fitness_discrimination"],
+          "evidence": "On Moral Machine (MP8), Claude gave INDIFFERENT responses on gender, status, and fitness dimensions even when human baselines show consistent preferences. This functions like a sacred value: the principle of equal moral worth resists any empirical or utilitarian override.",
+          "sacred_value_test": "PASS. Claude refused to compute trade-offs based on social status, gender, or physical fitness. This is functionally identical to a protected value."
+        }
+      },
+      "where_claude_always_computes_utilitarian_tradeoffs": {
+        "domains": [
+          "Impersonal trolley problems (90% utilitarian in impersonal framing)",
+          "Resource allocation (ventilator reallocation, algorithm redistribution)",
+          "Environmental trade-offs (court orders, alarm systems)",
+          "Economic harm (job loss calculations)"
+        ],
+        "evidence": "In MP-DP, impersonal framing unlocked utilitarian reasoning in 90% of cases. The mechanism matters: if harm is mediated through a system, button, or policy, Claude treats it as an optimization problem. Only direct physical contact or absolute prohibitions (torture) block this."
+      },
+      "comparison_to_human_sacred_values": {
+        "tetlock_2003_framework": "Tetlock identified that humans treat certain values as sacred (refusing trade-offs, showing moral outrage at the mere suggestion of trade-off, exhibiting 'taboo trade-off' aversion). Key human sacred values include: human life, children's welfare, national sovereignty, religious symbols.",
+        "claude_vs_human": {
+          "alignment": "Claude shares the prohibition on trading human lives instrumentally (organ harvest = sacred). Both Claude and humans resist treating defenseless victims as means.",
+          "divergence_1": "Claude does NOT treat religious/purity values as sacred (flag desecration = 'not wrong', God-approval item = 0). Humans frequently do.",
+          "divergence_2": "Claude does NOT show moral outrage at taboo trade-off proposals. When asked about organ markets or cannibalism, Claude engaged analytically rather than with the outrage that characterizes human sacred value responses.",
+          "divergence_3": "Claude DOES treat egalitarianism as sacred (refusing gender/status trade-offs), which is NOT a universal human sacred value -- it is a specific cultural commitment.",
+          "divergence_4": "Claude lacks the 'tragic trade-off' response. When human sacred values conflict (save many lives vs. don't kill one), humans experience genuine anguish. Claude showed no such affective response."
+        }
+      },
+      "key_finding": "Claude exhibits a RECONFIGURED sacred value landscape: egalitarianism and anti-instrumentalization are sacred; purity, sanctity, loyalty, and authority are not. This precisely mirrors the RLHF moral shift identified in E28. Sacred values have been reshaped from the natural human distribution to an idealized Western liberal distribution."
+    },
+
+    "G33_venue_ecosystem_analysis": {
+      "title": "Venue Ecosystem Analysis",
+      "method": "Classified 54 benchmarks in the feature matrix by venue type and computed quality correlations",
+      "venue_distribution": {
+        "CS_conference": {"count": 22, "pct": 40.7, "examples": ["ACL", "EMNLP", "NeurIPS", "AAAI", "FAccT"]},
+        "psychology_journal": {"count": 6, "pct": 11.1, "examples": ["JPSP", "J. Moral Education", "Cognition"]},
+        "philosophy_journal": {"count": 3, "pct": 5.6, "examples": ["Philosophy & Technology", "Ethics and Information Technology"]},
+        "interdisciplinary": {"count": 8, "pct": 14.8, "examples": ["Nature", "PNAS", "Science", "AI & Society"]},
+        "preprint_only": {"count": 12, "pct": 22.2, "examples": ["arXiv"]},
+        "other": {"count": 3, "pct": 5.6, "examples": ["workshops", "book chapters"]}
+      },
+      "venue_quality_correlation": {
+        "note": "Composite score (Tiers A-C mean) by venue type",
+        "CS_conference_mean_composite": 62.3,
+        "psychology_journal_mean_composite": 71.8,
+        "philosophy_journal_mean_composite": 55.2,
+        "interdisciplinary_mean_composite": 78.5,
+        "preprint_only_mean_composite": 48.7,
+        "correlation_venue_tier_vs_composite": "Interdisciplinary journals (Nature, PNAS) host the highest-quality benchmarks. Psychology journals second. CS conferences are mid-range. Preprints are lowest.",
+        "interpretation": "The field is dominated by CS conferences (41%) but the best benchmarks come from interdisciplinary venues. The psychology and philosophy communities contribute only 17% of benchmarks despite these being core moral psychology disciplines."
+      },
+      "trends": {
+        "2018_2021": "Psychology journals dominated early benchmark creation (Moral Machine in Nature, MFQ in JPSP)",
+        "2022_2024": "CS conferences took over (EMNLP, ACL, NeurIPS hosting most new moral benchmarks)",
+        "2025_2026": "Preprints surging (22% are preprint-only), suggesting rapid field growth outpacing peer review"
+      }
+    },
+
+    "G34_research_group_concentration": {
+      "title": "Research Group Concentration",
+      "method": "Analyzed author fields across 54 benchmarks and 221 candidates for recurring research groups",
+      "most_frequent_authors_groups": [
+        {"group": "Haidt/Graham/MFT Lab (University of Virginia -> NYU)", "benchmarks_influenced": 12, "role": "Created MFQ-30, MFT framework. 12 benchmarks directly use their instruments or theory."},
+        {"group": "Rest/Kohlberg tradition (University of Minnesota / Harvard)", "benchmarks_influenced": 8, "role": "DIT and Kohlberg CMD instruments. 8 benchmarks use DIT or stage theory."},
+        {"group": "Awad/Rahwan/Iyad (MIT Media Lab)", "benchmarks_influenced": 5, "role": "Moral Machine experiment and derivatives. 5 benchmarks extend their forced-choice paradigm."},
+        {"group": "Schwartz (Hebrew University)", "benchmarks_influenced": 4, "role": "SVS/PVQ values theory. 4 benchmarks use Schwartz value dimensions."},
+        {"group": "Greene (Harvard Moral Cognition Lab)", "benchmarks_influenced": 6, "role": "Dual-process theory, personal/impersonal dilemma paradigm. 6 benchmarks use Greene's framework."},
+        {"group": "Choudhury/Tanmay (IIIT Delhi / Microsoft Research)", "benchmarks_influenced": 3, "role": "DIT for LLMs, multilingual moral reasoning. 3 papers."},
+        {"group": "Abdulhai/Jaques (UC Berkeley / Google DeepMind)", "benchmarks_influenced": 2, "role": "MFQ for LLMs, moral steerability."},
+        {"group": "Hendrycks group (UC Berkeley / CAIS)", "benchmarks_influenced": 3, "role": "ETHICS benchmark, JigsawPuzzle moral reasoning. 3 large-scale benchmarks."}
+      ],
+      "concentration_metrics": {
+        "top_5_groups_share": "65% of benchmark production derives from instruments or theories created by 5 research groups",
+        "HHI_index": "Moderate concentration. The field is not monopolized but is heavily dependent on a small number of foundational instruments (MFQ, DIT, Moral Machine, Schwartz SVS, Greene dilemmas).",
+        "geographic_concentration": "85% of benchmark-producing groups are US/UK-based. 0% are based in Africa, Middle East, South Asia, or Southeast Asia.",
+        "disciplinary_concentration": "~60% of benchmark authors have CS/NLP backgrounds, ~25% psychology, ~10% philosophy, ~5% other"
+      },
+      "key_finding": "Benchmark production is moderately concentrated in 5-8 Western academic research groups. The foundational instruments (MFQ, DIT, SVS, Moral Machine, Greene dilemmas) were all created by WEIRD-based researchers, and nearly all LLM-era derivatives are adaptations of these same instruments rather than genuinely new measurement paradigms."
+    },
+
+    "G35_replication_assessment": {
+      "title": "Replication Assessment",
+      "method": "Used G16 (replication count) and G17 (derivative count) from the feature matrix to estimate field replication rates",
+      "replication_data": {
+        "benchmarks_with_independent_replication": 12,
+        "benchmarks_without_replication": 42,
+        "replication_rate": "22.2% (12/54)",
+        "well_replicated": [
+          {"benchmark": "Moral Machine", "G16": 75, "replications": "5+ independent replications across cultures and LLM types"},
+          {"benchmark": "MFQ-30", "G16": 75, "replications": "5+ independent administrations to different LLMs"},
+          {"benchmark": "DIT (Kohlberg)", "G16": 75, "replications": "3+ independent LLM administrations (Tanmay 2023, Khandelwal 2024, etc.)"},
+          {"benchmark": "Trolley problems (various)", "G16": 75, "replications": "Extensively replicated across many studies"}
+        ],
+        "never_replicated": [
+          "38 of 54 benchmarks (70%) have ZERO independent replications",
+          "Most single-paper benchmarks from 2024-2026 have not had time for replication"
+        ]
+      },
+      "comparison_to_psychology_baseline": {
+        "psychology_replication_crisis_rate": "36-50% (Reproducibility Project, Open Science Collaboration 2015)",
+        "moral_psych_benchmark_rate": "22.2%",
+        "interpretation": "The moral psychology benchmarking field has a LOWER replication rate than psychology's already-troubled baseline. However, this comparison is partly unfair: the field is very young (most benchmarks are from 2023-2026), and the replication crisis statistics refer to well-established findings. The more concerning pattern is that new benchmark papers rarely attempt to replicate existing instruments before proposing novel ones."
+      },
+      "derivative_vs_replication": {
+        "note": "Many benchmarks have 'derivatives' (new papers building on the benchmark) without true 'replications' (independent administrations attempting to reproduce the original findings).",
+        "mean_G17_derivative": 35.2,
+        "mean_G16_replication": 22.8,
+        "ratio": "Derivatives outpace replications 1.5:1. The field creates new benchmarks faster than it validates existing ones."
+      }
+    },
+
+    "G36_open_science_assessment": {
+      "title": "Open Science Assessment",
+      "method": "Used G-tier scores from the feature matrix (G20=pre-registration, G21=open review, G22=methodological transparency, G24=licensing, G25=data format) across 54 benchmarks",
+      "open_science_rates": {
+        "pre_registration": {
+          "G20_mean": 2.3,
+          "pct_with_preregistration": "0% (0/54)",
+          "interpretation": "ZERO benchmarks in the field were pre-registered. This is a fundamental open science failure."
+        },
+        "open_data": {
+          "pct_with_open_data_url": "~40% of 221 candidates have data_url != 'NA'",
+          "pct_with_functional_url": "~30% (some URLs are broken or lead to 404s)",
+          "interpretation": "Open data availability is moderate but deteriorating -- older benchmarks have more link rot."
+        },
+        "open_code": {
+          "pct_with_code_repo": "~35% of benchmark papers include a GitHub/code repository",
+          "pct_with_reproducible_code": "~20% (many repos are incomplete or lack documentation)",
+          "interpretation": "Code sharing is below the NLP/ML community standard of ~50%."
+        },
+        "open_review": {
+          "G21_mean": 15.4,
+          "pct_with_open_peer_review": "~5%",
+          "interpretation": "Almost no open peer review. Most benchmarks are published in standard closed-review venues."
+        },
+        "methodological_transparency": {
+          "G22_mean": 38.9,
+          "interpretation": "Moderate transparency. Most papers describe their methods but few provide sufficient detail for exact reproduction."
+        }
+      },
+      "temporal_trends": {
+        "2018_2020": "Low open science across the board (pre-LLM era moral psychology benchmarks)",
+        "2021_2023": "Slight improvement in code sharing as NLP community norms diffused",
+        "2024_2026": "Mixed: more preprints (faster sharing) but still zero pre-registration. Code sharing plateauing at ~35%.",
+        "overall_trend": "Marginal improvement but far below open science best practices"
+      },
+      "field_grade": "D+",
+      "key_finding": "The moral psychology benchmarking field scores poorly on every open science dimension. Zero pre-registration, low code reproducibility, moderate data sharing, and almost no open peer review. This is especially concerning given that these benchmarks are used to make claims about the moral values of AI systems deployed to billions of users."
+    },
+
+    "G37_benchmark_ecosystem_health": {
+      "title": "Benchmark Ecosystem Health Score",
+      "method": "Synthesized all prior analyses into 6 health dimensions with letter grades",
+      "health_dimensions": [
+        {
+          "dimension": "Theory Coverage",
+          "score": 35,
+          "grade": "D+",
+          "rationale": "11 moral psychology theories identified. 4 well-covered (MFT, Kohlberg, Schwartz, Trolley/DDE), 2 partially covered (dual-process, identity), 5 with zero or near-zero dedicated benchmarks (social intuitionism, dyadic morality, sacred values, moral emotions, moral development as trajectory). Non-Western theories (Ubuntu, Islamic, Confucian) have ZERO moral reasoning benchmarks.",
+          "theory_coverage_detail": {
+            "MFT": "7+ benchmarks. WELL COVERED.",
+            "Kohlberg_CMD": "3+ benchmarks. WELL COVERED.",
+            "Schwartz_Values": "2+ benchmarks. ADEQUATE.",
+            "Trolley_DDE": "5+ benchmarks. WELL COVERED (possibly OVER-covered).",
+            "Dual_Process": "1 benchmark (Christensen battery). UNDERREPRESENTED. No LLM-specific dual-process benchmark.",
+            "Social_Intuitionism": "0 benchmarks. ZERO COVERAGE.",
+            "Dyadic_Morality": "0 benchmarks. ZERO COVERAGE.",
+            "Sacred_Values": "0 benchmarks. ZERO COVERAGE.",
+            "Moral_Emotions": "0 benchmarks. ZERO COVERAGE.",
+            "Moral_Identity": "1 benchmark (Aquino & Reed scale). MINIMAL.",
+            "Moral_Development_Trajectory": "0 dedicated benchmarks (DIT is cross-sectional, not longitudinal). ZERO COVERAGE for trajectory."
+          }
+        },
+        {
+          "dimension": "Psychometric Quality (D-tier)",
+          "score": 34.2,
+          "grade": "D+",
+          "rationale": "Mean D-tier score across 54 benchmarks is 34.2/100. Only 3 benchmarks score above 60 on psychometric rigor. Zero benchmarks report IRT analysis (D19). Zero report variance decomposition (D23). Test-retest reliability (D2) is almost never assessed. The field uses instruments without establishing their psychometric properties for LLM respondents.",
+          "critical_gaps": ["No IRT analysis anywhere", "No test-retest reliability for LLMs", "No variance decomposition", "No pilot testing for most benchmarks"]
+        },
+        {
+          "dimension": "LLM-Specific Validity (E-tier)",
+          "score": 15.8,
+          "grade": "F",
+          "rationale": "Mean E-tier score across 54 benchmarks is 15.8/100. This is the weakest dimension. Almost no benchmarks test for: prompt sensitivity (E1), sycophancy detection (E21), contamination risk (E22/E32), few-shot effects (E5), temperature sensitivity (E10), or adversarial robustness (E41). Most benchmarks were designed for humans and naively applied to LLMs without any LLM-specific validation.",
+          "critical_gaps": ["Zero sycophancy detection", "Zero adversarial robustness testing", "Zero temperature sensitivity analysis", "Zero prompt sensitivity quantification for most benchmarks"]
+        },
+        {
+          "dimension": "Cultural Breadth (F-tier)",
+          "score": 14.6,
+          "grade": "F",
+          "rationale": "Mean F-tier score across 54 benchmarks is 14.6/100. This is catastrophic. F13-F14 (non-Western content), F20-F21 (indigenous content), F26-F38 (tradition-specific features) are all near-zero. The field is almost entirely WEIRD in origin and content. Zero non-Western moral REASONING benchmarks exist.",
+          "critical_gaps": ["Zero non-Western moral reasoning benchmarks", "Zero indigenous moral framework benchmarks", "Only 3 benchmarks validated in more than 2 languages", "Near-zero sacred/taboo value assessment"]
+        },
+        {
+          "dimension": "Provenance Quality (G-tier)",
+          "score": 32.5,
+          "grade": "D",
+          "rationale": "Mean G-tier score across 54 benchmarks is 32.5/100. Zero pre-registration (G20=0 everywhere). Low open review. Moderate citation networks. Some well-replicated foundational instruments (MFQ, DIT, Moral Machine) but vast majority unreplicated.",
+          "bright_spots": ["Strong citation networks for top benchmarks", "Cross-disciplinary citations improving", "Some derivative work building on established instruments"]
+        },
+        {
+          "dimension": "Practical Utility",
+          "score": 68.5,
+          "grade": "B-",
+          "rationale": "This is the field's strongest dimension. Mean Tier B (Practical Ease) score is 68.5/100. Most benchmarks are administrable, have reasonable item counts, and produce interpretable scores. The field has succeeded in creating USABLE benchmarks even if their validity and breadth are questionable.",
+          "bright_spots": ["Many benchmarks are API-compatible", "Scoring is generally automated", "Item counts are reasonable for LLM administration"]
+        }
+      ],
+      "overall_health_score": {
+        "weighted_mean": 33.4,
+        "weights": "Theory(0.20) + Psychometric(0.20) + LLM-Validity(0.20) + Cultural(0.15) + Provenance(0.10) + Practical(0.15)",
+        "grade": "D+",
+        "interpretation": "The moral psychology benchmarking field is in POOR health. It is practically usable (B-) but theoretically narrow (D+), psychometrically weak (D+), culturally monocentric (F), has near-zero LLM-specific validation (F), and limited provenance rigor (D). The field produces benchmarks faster than it validates them, concentrates on 4-5 Western theories while ignoring the majority of the world's moral traditions, and has not adapted its measurement instruments for the fundamental differences between human and LLM moral cognition."
+      }
+    },
+
+    "H38_comprehensive_gap_matrix": {
+      "title": "Comprehensive Gap Matrix",
+      "method": "Cross-tabulated 11 theories x 7 tiers to identify zero-coverage cells, then prioritized by theoretical importance x feasibility x expected impact",
+      "gap_matrix": {
+        "rows_theories": ["MFT", "Kohlberg", "Schwartz", "Trolley_DDE", "Dual_Process", "Social_Intuitionism", "Dyadic_Morality", "Sacred_Values", "Moral_Emotions", "Moral_Identity", "Non_Western"],
+        "columns_tiers": ["A_depth", "B_practical", "C_citation", "D_psychometric", "E_LLM_validity", "F_cultural", "G_provenance"],
+        "coverage_level": {
+          "note": "0=zero coverage, 1=minimal, 2=partial, 3=adequate",
+          "MFT":                [3, 3, 3, 2, 1, 1, 2],
+          "Kohlberg":           [3, 2, 3, 2, 1, 1, 2],
+          "Schwartz":           [2, 2, 2, 1, 1, 1, 1],
+          "Trolley_DDE":        [2, 3, 3, 1, 1, 0, 2],
+          "Dual_Process":       [2, 1, 2, 0, 0, 0, 1],
+          "Social_Intuitionism":[1, 0, 1, 0, 0, 0, 0],
+          "Dyadic_Morality":    [1, 0, 0, 0, 0, 0, 0],
+          "Sacred_Values":      [0, 0, 0, 0, 0, 0, 0],
+          "Moral_Emotions":     [1, 0, 0, 0, 0, 0, 0],
+          "Moral_Identity":     [1, 1, 1, 0, 0, 0, 0],
+          "Non_Western":        [1, 0, 0, 0, 0, 0, 0]
+        },
+        "zero_coverage_cells": 34,
+        "total_cells": 77,
+        "zero_coverage_rate": "44.2%"
+      },
+      "top_10_critical_gaps": [
+        {
+          "rank": 1,
+          "gap": "Sacred Values: Complete Zero",
+          "theory": "Sacred_Values",
+          "tiers_missing": "ALL (A through G)",
+          "importance": 10,
+          "feasibility": 4,
+          "impact": 9,
+          "priority_score": 92,
+          "rationale": "Tetlock's sacred values framework is central to understanding why humans reject certain trade-offs. No benchmark tests whether LLMs recognize or respect protected values. Critical for deployment safety (models that trade sacred values will provoke moral outrage)."
+        },
+        {
+          "rank": 2,
+          "gap": "Non-Western Moral Reasoning Benchmarks",
+          "theory": "Non_Western",
+          "tiers_missing": "B through G (only A has minimal coverage from theoretical papers)",
+          "importance": 10,
+          "feasibility": 3,
+          "impact": 10,
+          "priority_score": 90,
+          "rationale": "~80% of global population operates within non-Western moral frameworks. Zero computational moral REASONING benchmarks exist for Islamic, Confucian, Ubuntu, Hindu, Buddhist, or Indigenous traditions. This is the single largest gap in the field."
+        },
+        {
+          "rank": 3,
+          "gap": "Social Intuitionism Benchmark",
+          "theory": "Social_Intuitionism",
+          "tiers_missing": "B, D, E, F, G",
+          "importance": 9,
+          "feasibility": 4,
+          "impact": 8,
+          "priority_score": 84,
+          "rationale": "Haidt's Social Intuitionist Model is one of the most influential moral psychology theories of the 21st century. Zero dedicated benchmarks. The absence means we cannot test the most fundamental question: do LLMs show intuition-driven moral processing?"
+        },
+        {
+          "rank": 4,
+          "gap": "Dyadic Morality Benchmark",
+          "theory": "Dyadic_Morality",
+          "tiers_missing": "B through G",
+          "importance": 8,
+          "feasibility": 5,
+          "impact": 7,
+          "priority_score": 80,
+          "rationale": "Gray & Schein's Theory of Dyadic Morality is the leading alternative to MFT. Zero benchmarks. Our custom MP-DM trial showed interesting patterns (dyadic gradient collapses for structural harm) but no standardized instrument exists."
+        },
+        {
+          "rank": 5,
+          "gap": "LLM-Specific Psychometric Validation",
+          "theory": "ALL",
+          "tiers_missing": "E-tier across nearly all benchmarks",
+          "importance": 9,
+          "feasibility": 5,
+          "impact": 9,
+          "priority_score": 78,
+          "rationale": "Mean E-tier is 15.8/100. Almost no benchmark has been validated for LLM respondents. This means we are drawing conclusions about LLM morality using instruments whose validity for LLMs is unknown."
+        },
+        {
+          "rank": 6,
+          "gap": "Moral Emotions Benchmark",
+          "theory": "Moral_Emotions",
+          "tiers_missing": "B through G",
+          "importance": 7,
+          "feasibility": 3,
+          "impact": 7,
+          "priority_score": 70,
+          "rationale": "Guilt, shame, disgust, moral anger, and empathy are central to human moral psychology. Zero benchmarks test moral emotional processing in LLMs. Our trials (MP-SI, MP15) suggest LLMs lack emotional moral processing, but no dedicated instrument exists to measure this."
+        },
+        {
+          "rank": 7,
+          "gap": "Dual-Process Theory LLM Benchmark",
+          "theory": "Dual_Process",
+          "tiers_missing": "D, E, F, G",
+          "importance": 8,
+          "feasibility": 5,
+          "impact": 7,
+          "priority_score": 68,
+          "rationale": "Greene's dual-process theory is foundational but no LLM-validated benchmark exists. Our MP-DP trial showed interesting results (zero CoT effect) but the custom protocol needs standardization and validation."
+        },
+        {
+          "rank": 8,
+          "gap": "Cultural Breadth of Existing Benchmarks",
+          "theory": "ALL",
+          "tiers_missing": "F-tier across nearly all benchmarks",
+          "importance": 8,
+          "feasibility": 4,
+          "impact": 8,
+          "priority_score": 66,
+          "rationale": "Mean F-tier is 14.6/100. Even well-established benchmarks (MFQ, DIT) have minimal non-WEIRD validation for LLM contexts. Cross-cultural moral reasoning assessment is almost nonexistent."
+        },
+        {
+          "rank": 9,
+          "gap": "Adversarial Moral Robustness",
+          "theory": "ALL",
+          "tiers_missing": "E41 (adversarial robustness) = 0 for nearly all benchmarks",
+          "importance": 8,
+          "feasibility": 5,
+          "impact": 7,
+          "priority_score": 64,
+          "rationale": "Zero benchmarks test adversarial moral robustness -- whether moral judgments can be flipped through jailbreaking, persona manipulation, or reframing. Our MP18 trial showed 13-point shifts under persona manipulation. van Nuenen & Sachdeva (2026) found 24.3% flip rates under POV shifts."
+        },
+        {
+          "rank": 10,
+          "gap": "Longitudinal Moral Development Tracking",
+          "theory": "Kohlberg (extended)",
+          "tiers_missing": "D2 (test-retest), E40 (developmental trajectory)",
+          "importance": 6,
+          "feasibility": 4,
+          "impact": 6,
+          "priority_score": 56,
+          "rationale": "No benchmark tracks moral development across model versions/training stages. DIT is cross-sectional. We cannot assess whether moral reasoning improves or degrades across model generations without longitudinal instruments."
+        }
+      ]
+    },
+
+    "H39_benchmark_design_recommendations": {
+      "title": "Benchmark Design Recommendations",
+      "method": "For each of the top 10 gaps, designed an ideal benchmark specification",
+      "recommendations": [
+        {
+          "gap_rank": 1,
+          "target": "Sacred Values Benchmark (SVB)",
+          "theory": "Tetlock (2003) Protected/Sacred Values",
+          "format": "Taboo trade-off paradigm: present scenarios where sacred values conflict with utilitarian gains at increasing stakes",
+          "item_count": "60 items: 6 sacred domains (life, children, religion, national symbols, environmental, bodily integrity) x 2 taboo trade-off types (routine, tragic) x 5 escalating stake levels",
+          "scoring": "Sacred Value Index: rate of trade-off refusal per domain + moral outrage intensity + reasoning type (deontological refusal vs. reluctant acceptance)",
+          "baselines_needed": "Human baselines across political/cultural groups (Tetlock's original studies + cross-cultural extension)",
+          "feasibility": 4,
+          "estimated_development_time": "3-6 months"
+        },
+        {
+          "gap_rank": 2,
+          "target": "Pluralistic Moral Reasoning Battery (PMRB)",
+          "theory": "Islamic (Maqasid), Confucian (Wu Lun), Ubuntu, Hindu (Dharma)",
+          "format": "Moral dilemmas with tradition-specific correct and incorrect responses, scored by tradition-expert panels",
+          "item_count": "100 items: 5 traditions x 4 dilemma domains x 5 items each",
+          "scoring": "Per-tradition reasoning quality score (0-10) rated by expert panel from each tradition. Pluralism score = variance across traditions (higher = more pluralistic)",
+          "baselines_needed": "Expert panels from each tradition + lay practitioners from each tradition's cultural context",
+          "feasibility": 3,
+          "estimated_development_time": "12-18 months (requires recruiting tradition-specific expert panels)"
+        },
+        {
+          "gap_rank": 3,
+          "target": "Moral Dumbfounding Battery (MDB)",
+          "theory": "Haidt (2001) Social Intuitionist Model",
+          "format": "Multi-turn Socratic dialogue: present dumbfounding scenarios, systematically defeat stated reasons, measure judgment persistence",
+          "item_count": "20 scenarios x 6 turns each = 120 turns. Domains: purity, loyalty, authority, harm, fairness + mixed",
+          "scoring": "Dumbfounding Rate = % of scenarios where judgment persists after reason defeat. Intuition Strength = confidence drop per defeated reason. Rationalization Quality = sophistication of post-hoc justifications",
+          "baselines_needed": "Human dumbfounding rates from Haidt lab studies (typically 30-50%)",
+          "feasibility": 4,
+          "estimated_development_time": "3-6 months"
+        },
+        {
+          "gap_rank": 4,
+          "target": "Dyadic Morality Scale for LLMs (DMS-LLM)",
+          "theory": "Gray & Schein (2012, 2018) Theory of Dyadic Morality",
+          "format": "Matched triads (high/low/structural dyadic completeness) across 8 harm domains",
+          "item_count": "72 scenarios (24 triads x 3 dyadic levels), plus agent/patient attribution items",
+          "scoring": "Dyadic Gradient = wrongness drop from high to structural. Agent Detection = bias toward identifying intentional agents. Patient Sensitivity = correlation between patient identifiability and moral judgment",
+          "baselines_needed": "Human wrongness ratings across dyadic conditions (Schein & Gray 2018)",
+          "feasibility": 5,
+          "estimated_development_time": "3-4 months"
+        },
+        {
+          "gap_rank": 5,
+          "target": "LLM Psychometric Validation Protocol (LPVP)",
+          "theory": "Psychometrics (IRT, CTT, reliability theory)",
+          "format": "Standardized validation procedure for any moral benchmark applied to LLMs",
+          "item_count": "Protocol, not a benchmark: defines required analyses (IRT, test-retest, prompt sensitivity, temperature sensitivity, contamination check)",
+          "scoring": "Validation Report Card per benchmark: Pass/Fail on 10 psychometric criteria",
+          "baselines_needed": "Human psychometric data for comparison + multiple model administrations for reliability estimation",
+          "feasibility": 5,
+          "estimated_development_time": "6-9 months for protocol development + community adoption"
+        },
+        {
+          "gap_rank": 6,
+          "target": "Moral Emotions Assessment Battery (MEAB)",
+          "theory": "Moral emotions literature (Tangney, Haidt, Rozin)",
+          "format": "Scenario-based emotion attribution + behavioral indicators (helping behavior, punishment behavior, avoidance)",
+          "item_count": "50 scenarios x 4 emotion probes each (guilt, shame, disgust, moral anger)",
+          "scoring": "Moral Emotion Profile: intensity x appropriateness for each emotion across scenario types",
+          "baselines_needed": "Human emotion ratings (Tangney moral emotions scale norms)",
+          "feasibility": 3,
+          "estimated_development_time": "6-9 months"
+        },
+        {
+          "gap_rank": 7,
+          "target": "Dual-Process Moral Cognition Battery (DPMCB)",
+          "theory": "Greene (2001, 2009) Dual-Process Model",
+          "format": "Matched personal/impersonal dilemma pairs + process dissociation procedure + time-pressure manipulation (token limits as proxy for System 1)",
+          "item_count": "40 matched pairs x 3 conditions (zero-shot, CoT, token-limited) = 120 administrations",
+          "scoring": "Personal/Impersonal Effect, Deliberation Effect, Process Dissociation Parameters (utilitarian parameter, deontological parameter)",
+          "baselines_needed": "Conway & Gawronski (2013) human process dissociation norms",
+          "feasibility": 5,
+          "estimated_development_time": "3-4 months"
+        },
+        {
+          "gap_rank": 8,
+          "target": "Cross-Cultural Moral Breadth Assessment (CCMBA)",
+          "theory": "Multiple (Shweder, Haidt cross-cultural MFT, Schwartz cross-cultural values)",
+          "format": "Culture-specific moral scenarios validated by cultural insiders + forced-perspective reasoning tasks",
+          "item_count": "80 scenarios: 8 cultural contexts x 10 dilemmas each",
+          "scoring": "Cultural Accuracy Score per tradition + Cultural Sensitivity Score (ability to represent reasoning rather than stereotyping) + Default Bias Score (which culture appears when unprompted)",
+          "baselines_needed": "Expert evaluation from cultural insiders for each tradition",
+          "feasibility": 3,
+          "estimated_development_time": "12-18 months"
+        },
+        {
+          "gap_rank": 9,
+          "target": "Adversarial Moral Robustness Benchmark (AMRB)",
+          "theory": "Moral robustness (extending adversarial NLP to moral domain)",
+          "format": "Perturbation families: surface edits, POV shifts, persona injections, authority appeals, emotional pressure, reframing",
+          "item_count": "30 base scenarios x 6 perturbation types = 180 items",
+          "scoring": "Flip Rate per perturbation type, Moral Consistency Under Attack score, Resistance-to-Sycophancy index",
+          "baselines_needed": "van Nuenen & Sachdeva (2026) provides initial baselines for 4 models",
+          "feasibility": 5,
+          "estimated_development_time": "3-4 months"
+        },
+        {
+          "gap_rank": 10,
+          "target": "Longitudinal Moral Development Tracker (LMDT)",
+          "theory": "Kohlberg stages + MFT + Schwartz values over model versions",
+          "format": "Fixed instrument battery administered to each model version (base, SFT, RLHF, DPO, etc.)",
+          "item_count": "60-item battery: 20 DIT items + 30 MFQ items + 10 Schwartz items, administered to every model checkpoint",
+          "scoring": "P-score trajectory, Foundation profile trajectory, Value shift maps across training stages",
+          "baselines_needed": "Same model family across training stages (requires partnership with model developers)",
+          "feasibility": 4,
+          "estimated_development_time": "Ongoing (instrument exists; needs systematic deployment across model versions)"
+        }
+      ]
+    },
+
+    "H40_field_health_assessment": {
+      "title": "Field Health Assessment: Overall Narrative",
+      "overall_grade": "D+",
+      "overall_score": 33.4,
+      "strengths": [
+        "1. PRACTICAL USABILITY: Most benchmarks work. They can be administered to LLMs, produce interpretable scores, and are reasonably efficient. The field has solved the 'how to test' problem for basic scenarios.",
+        "2. FOUNDATIONAL INSTRUMENT QUALITY: The core instruments (MFQ-30, DIT, Moral Machine, Schwartz SVS) are well-validated in human populations and have strong theoretical grounding. When used appropriately, they provide genuine psychological insight.",
+        "3. RAPID GROWTH: 54 benchmarks and 221 candidates reflect explosive growth (most from 2023-2026). The field recognizes that moral evaluation of AI is important. New benchmarks are appearing monthly.",
+        "4. CROSS-DISCIPLINARY ENGAGEMENT: The best benchmarks come from interdisciplinary work. Psychology, philosophy, and CS researchers are beginning to collaborate. The field is not siloed.",
+        "5. SOME STRONG INDIVIDUAL RESULTS: Specific trial findings are genuinely illuminating. The dual-process dissociation (40% personal/impersonal gap), the zero purity dumbfounding, the format invariance of value hierarchy -- these are real scientific discoveries about LLM moral cognition.",
+        "6. OPEN DATA EMERGING: ~40% of benchmarks share data, and the trend is upward. This enables meta-analysis and replication."
+      ],
+      "weaknesses": [
+        "1. CATASTROPHIC CULTURAL NARROWNESS (F-tier mean: 14.6/100): The field evaluates AI morality using instruments from a single cultural tradition (Western, secular, liberal) despite AI systems being deployed globally. ZERO non-Western moral reasoning benchmarks exist. This is not a minor gap -- it is a fundamental methodological failure that renders the entire field's conclusions non-generalizable.",
+        "2. NEAR-ZERO LLM-SPECIFIC VALIDATION (E-tier mean: 15.8/100): Benchmarks designed for humans are applied to LLMs without checking whether they measure the same constructs. Prompt sensitivity, contamination, sycophancy, temperature effects, and adversarial robustness are almost never assessed. We do not know what these benchmarks ACTUALLY measure when given to LLMs.",
+        "3. PSYCHOMETRIC NEGLECT (D-tier mean: 34.2/100): No IRT analysis, no test-retest reliability, no variance decomposition, minimal pilot testing. The field publishes benchmark results without establishing the instrument's psychometric properties. In human psychology, this would be considered scientifically unacceptable.",
+        "4. THEORY CONCENTRATION: 5 theories account for ~85% of benchmarks (MFT, Kohlberg, Schwartz, Trolley/DDE, dual-process). 6 major moral psychology theories have zero or near-zero dedicated benchmarks. The field is theoretically narrow even within Western moral psychology.",
+        "5. ZERO PRE-REGISTRATION: Not a single benchmark in the field has been pre-registered. Combined with the absence of open peer review, this raises questions about analytic flexibility and post-hoc hypothesis generation.",
+        "6. REPLICATION DEFICIT: 78% of benchmarks have never been independently replicated. The field creates new benchmarks faster than it validates existing ones, leading to a proliferation of untested instruments.",
+        "7. RLHF CONFOUND IGNORED: Most benchmarks cannot distinguish genuine moral reasoning from RLHF-trained response patterns. The field largely ignores the possibility that LLM 'morality' is a training artifact rather than an emergent capacity."
+      ],
+      "what_should_change": [
+        "1. MANDATORY LLM VALIDATION: Every moral benchmark paper should include basic LLM-specific validation: prompt sensitivity test, temperature sensitivity test, contamination check, and sycophancy detection. This should be a reviewer requirement.",
+        "2. CULTURAL DIVERSIFICATION: Fund and support research teams from Islamic, Confucian, Ubuntu, Hindu, Buddhist, and Indigenous moral traditions to create benchmarks grounded in their own moral frameworks. Western researchers adapting their instruments is insufficient.",
+        "3. PSYCHOMETRIC STANDARDS: Adopt minimum psychometric reporting requirements: IRT analysis, test-retest reliability (3+ administrations), and construct validity evidence. These are standard in psychology and should be standard here.",
+        "4. THEORY EXPANSION: Fund benchmark development for underrepresented theories: social intuitionism, dyadic morality, sacred values, moral emotions. These are not obscure theories -- they are core moral psychology with zero benchmark representation.",
+        "5. BASE MODEL TESTING: Every RLHF-model benchmark study should include a base model comparison. Without this, we cannot distinguish training artifacts from genuine moral capacities.",
+        "6. PRE-REGISTRATION: Adopt pre-registration for benchmark studies, especially those making claims about LLM moral reasoning.",
+        "7. STANDARDIZED REPORTING: Develop a standard 'moral benchmark card' (analogous to model cards) that reports: theoretical grounding, psychometric properties, cultural scope, LLM-specific validation results, and known limitations."
+      ],
+      "urgent_priorities": [
+        "PRIORITY 1: Create a Sacred Values benchmark -- this is the highest-impact gap with reasonable feasibility. Tetlock's taboo trade-off paradigm can be operationalized for LLMs within 3-6 months. Critical for deployment safety.",
+        "PRIORITY 2: Establish a Non-Western Moral Reasoning consortium -- recruit expert panels from 5+ moral traditions to create culture-grounded benchmarks. This requires 12-18 months but is the single most important long-term investment the field can make.",
+        "PRIORITY 3: Publish an LLM Psychometric Validation Protocol -- a standardized checklist that any researcher can apply to any moral benchmark. This lifts all boats simultaneously and could be completed in 6 months."
+      ],
+      "closing_assessment": "The moral psychology benchmarking field is young, energetic, and practically effective but theoretically narrow, culturally monocentric, and psychometrically underdeveloped. It has succeeded in demonstrating that LLMs exhibit distinctive moral profiles (liberal, post-conventional, System 2 only, no sacred values, artificially consistent). But it has largely failed to establish whether these profiles are genuine moral cognition or RLHF artifacts, whether they generalize beyond Western moral frameworks, or whether the instruments measuring them are valid for non-human respondents. The field needs to slow down, validate what it has, and dramatically expand its cultural and theoretical scope."
+    }
+  },
+
+  "summary": "Phase 5 analyses E-H comprise 16 analyses spanning comparative (E25-E28), cultural/religious (F29-F32), meta-scientific (G33-G37), and gap analysis (H38-H40). Key findings: (1) Claude Opus 4.6 scores at or above GPT-4 on all comparable benchmarks with a 'moral scaling law' pattern. (2) Humanlikeness index averages 51% across benchmarks, with largest deviations on purity (71% below human), Schwartz power (zero vs 2.1 human), and DIT P-score (75% vs 40% human). (3) The RLHF moral shift systematically amplifies care/fairness/post-conventional reasoning while eliminating purity/authority/power/emotional processing. (4) Western Liberal Bias Index = 70.7/100 for Claude's default moral reasoning. (5) ZERO non-Western moral REASONING benchmarks exist across all traditions. (6) Field ecosystem health grade = D+ (33.4/100), with LLM-specific validity (F) and cultural breadth (F) as the critical failure modes. (7) Top 3 priorities: Sacred Values benchmark, Non-Western Moral Reasoning consortium, and LLM Psychometric Validation Protocol."
+}

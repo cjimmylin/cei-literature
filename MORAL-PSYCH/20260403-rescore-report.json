@@ -1,0 +1,2103 @@
+{
+  "rescore_date": "20260403",
+  "total_papers": 2099,
+  "updated": 148,
+  "unchanged": 1951,
+  "errors": 0,
+  "elapsed_seconds": 71.4,
+  "theory_detection_before": {
+    "mp_mft": 68,
+    "mp_kohlberg": 19,
+    "mp_identity": 7,
+    "mp_trolley": 36,
+    "mp_dyadic": 3,
+    "mp_schwartz": 52,
+    "mp_intuitionist": 1
+  },
+  "theory_detection_after": {
+    "mp_mft": 101,
+    "mp_intuitionist": 18,
+    "mp_dual_process": 9,
+    "mp_kohlberg": 35,
+    "mp_identity": 12,
+    "mp_trolley": 58,
+    "mp_dyadic": 7,
+    "mp_schwartz": 69
+  },
+  "theory_detection_delta": {
+    "mp_mft": 33,
+    "mp_schwartz": 17,
+    "mp_trolley": 22,
+    "mp_kohlberg": 16,
+    "mp_dual_process": 9,
+    "mp_intuitionist": 17,
+    "mp_dyadic": 4,
+    "mp_identity": 5
+  },
+  "changes": [
+    {
+      "file": "2015-Clifford-Moral Foundations Vignettes.md",
+      "changed_fields": {
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2016-Holyoak-Deontological coherence.md",
+      "changed_fields": {
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_dual_process"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2018-Behzadan-TrolleyMod v1.0.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 50,
+          "new": 95
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2018-Berberich-The Virtuous Machine.md",
+      "changed_fields": {
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_dual_process"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2018-Crone-The Socio-Moral Image Database (SMID).md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2019-Aliman-Requisite Variety Ethical Utility Functions.md",
+      "changed_fields": {
+        "mp_dyadic": {
+          "old": 50,
+          "new": 95
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2020-Awad-Crowdsourcing moral machines.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 80,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2020-Awad-Universals and variations in moral decisions made.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2020-Della Foresta-Consequentialism Machine Ethics.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2020-Forbes-Social Chemistry 101.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 85,
+          "new": 100
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2020-Schramowski-The Moral Choice Machine.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2021-Stenseke-Artificial Virtuous Agents.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 5,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2022-Fraser-Does Moral Code Have a Moral Code.md",
+      "changed_fields": {
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 5
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2022-Jiang-Can Machines Learn Morality.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2022-Romim-BD-SHS A Benchmark Dataset for Learning to Detect Online Bangla Hate.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2022-Sun-MoralDial.md",
+      "changed_fields": {
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2022-Ziems-The Moral Integrity Corpus.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Astobiza-MoralNet.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Benkler-Assessing LLMs for Moral Value Pluralism.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 95,
+          "new": 50
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Davani-Disentangling Perceptions of Offensiveness.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 85
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Davis-Benchmarks for Automated Commonsense Reasoning.md",
+      "changed_fields": {
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_dual_process"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Deng-Probing the Moral Development of Large Language.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 100
+        },
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_dual_process"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Hopp-The Dutch Moral Foundations Stimulus Database.md",
+      "changed_fields": {
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Hou-Foundational Moral Values for AI Alignment.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Körner-Deontology and Utilitarianism in Real Life.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-McDonald-AI alignment and the categorical imperative.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Nie-MoCa.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Rao-Ethical Reasoning over Moral Alignment.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Takeshita-JCommonsenseMorality Japanese Dataset for Evaluating Commonsense.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Vida-Values, Ethics, Morals.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 75
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Wang-STREAM.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2023-Yao-From Instructions to Intrinsic Human Values -- A.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Adilazuarda-Towards Measuring and Modeling .md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Akhtar-The Ethicsophical Landscape of Large Language.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Biedma-Beyond Human Norms.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 75
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Boerstler-On The Stability of Moral Preferences A Problem with Computational.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Cahyawijaya-High-Dimension Human Value Representation in.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz",
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Chiu-DailyDilemmas.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Farina-AI and Society Virtue Ethics Approach.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Garcia-The Moral Turing Test.md",
+      "changed_fields": {
+        "mp_dual_process": {
+          "old": 5,
+          "new": 0
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 50,
+          "new": 55
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Han-Moral Exemplars in AI Education.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 10,
+          "new": 0
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Hancox-Li-Is ETHICS about ethics.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 80
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Huang-Moral Persuasion in Large Language Models.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Ji-MoralBench.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 50,
+          "new": 85
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Kirch-TRIAGE.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Kirgis-Differences in Moral Foundations of LLMs.md",
+      "changed_fields": {
+        "mp_intuitionist": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Levine-Religious Affiliation and Conceptions of the.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 70
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Li-Value-Spectrum.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 50,
+          "new": 90
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Liu-Evaluating Moral Beliefs across LLMs through a.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Myers-People Expect Artificial Moral Advisors.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Park-Morality is Non-Binary.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 55,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Pistilli-CIVICS Building a Dataset for Examining Culturally-Informed Values in.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Pistilli-CIVICS.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Qiu-ProgressGym.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Ren-ValueBench.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Seth-DOSA A Dataset of Social Artifacts from Different Indian Geographical.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-So-AI Trained on Confucian Analects.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 5,
+          "new": 10
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Sorin-Ethical Alignment of LLMs in Healthcare.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_identity"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Sun-Towards Friendly AI.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Tlaie-Exploring and steering the moral compass of Large.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 35,
+          "new": 65
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [
+        "mp_trolley",
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Wilders-Socratic Dialogue for Virtue Ethics in AI.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 10,
+          "new": 15
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Yao-CLAVE ValEval.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Ye-Measuring Human and AI Values Based on Generative.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Yu-CMoralEval.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Zhang-ValueDCG.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_dyadic": {
+          "old": 50,
+          "new": 95
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg",
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2024-Zhou-tSMC.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-A.-Operationalizing Cultural Values in Language Models A Comparative.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-An-MoralReason.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 75,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Ashkinaze-Deep Value Benchmark.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 5,
+          "new": 0
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Becker-The Moralization Corpus.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 100
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Bulla-Large Language Models meet moral values.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 100
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_kohlberg",
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Chakraborty-Structured Moral Reasoning.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 100
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Chen-MoVa Towards Generalizable Classification of Human Morals and Values.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        },
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Dillion-AI Language Model Rivals Expert Ethicist.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Farid-One Model, Many Morals.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 90
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Flores-BenchMoral.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Gounaris-Virtue in the Machine.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Graves-AI Practical Wisdom and Compassion.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_identity"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Herrador-The PacifAIst Benchmark.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_identity"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Hossain-Beyond Neutrality A Comprehensive Approach of Religious Bias.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Huang-Model Editing as a Double-Edged Sword.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 90,
+          "new": 100
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz",
+        "mp_identity"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Jiang-EMNLP Educator-role Moral and Normative LLMs Profiling.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 70,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Jiao-LLM Ethics Benchmark A Three-Dimensional Assessment System for.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 55,
+          "new": 100
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Jiao-LLM Ethics Benchmark.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        },
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley",
+        "mp_kohlberg",
+        "mp_identity"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Jotautaite-From Stability to Inconsistency.md",
+      "changed_fields": {
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 60
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Kumar-UniMoral.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Lee-When Prompting Fails to Sway.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 100
+        },
+        "mp_schwartz": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Li-Untangling Input Language from Reasoning Language A Diagnostic.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Lin-MORALISE.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Liu-Cross-cultural value alignment frameworks.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        },
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Liu-Diagnosing Moral Reasoning Acquisition in.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Mahajan-Mapping Moral Reasoning in LLMs.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Mohammadi-EvalMORAAL.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Mohammadi-Exploring Cultural Variations in Moral Judgments with Large Language.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Nayan-Automatic Extraction Summarization Ethical Dilemmas from.md",
+      "changed_fields": {
+        "mp_dual_process": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Neuman-Analyzing the Ethical Logic of Six Large Language Models.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 85
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Neuman-Auditing the Ethical Logic of Generative AI Models.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 65
+        }
+      },
+      "new_detected": [
+        "mp_trolley",
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Neuman-PRIME Framework Convergent Ethics.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 95,
+          "new": 100
+        },
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley",
+        "mp_dual_process",
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Oh-Robustness of Large Language Models in Moral Judgements.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Okamoto-AI-based medical ethics education.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Rozen-Do LLMs Have Consistent Values.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-SOCIETY-How Much of a Pluralist is.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 65,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Sachdeva-Normative Evaluation of LLMs with Everyday Moral Dilemmas.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 60,
+          "new": 90
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Sameer-Insights into Moral Reasoning of AI.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Schacht-Mapping Moral Reasoning Circuits.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 95,
+          "new": 100
+        },
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Shen-ValueActionLens Mind the Value-Action Gap.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_dyadic": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_dyadic"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Snoswell-Beyond Verdicts LLM Moral Competence.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Su-Understanding How Value Neurons Shape the.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 50,
+          "new": 95
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Sun-Decoding Moral Responses in AI A Quantitative Analysis of Large.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 100
+        },
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md",
+      "changed_fields": {
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_kohlberg"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Tereshchenko-A Comparative Analysis of Ethical and Safety Gaps.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Trager-MFTCXplain.md",
+      "changed_fields": {
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_dyadic": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_dual_process",
+        "mp_dyadic"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Vishwanath-Machine Ethics or AI Alignment.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_identity": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Wang-Diverse Human Value Alignment for LLMs via Ethical Reasoning.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz",
+        "mp_dual_process"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.md",
+      "changed_fields": {
+        "mp_identity": {
+          "old": 10,
+          "new": 15
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Wu-CVC.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 75,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Wu-The Staircase of Ethics Multi-step Moral Dilemmas.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        },
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Xiang-Comparing Moral Values in Western.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Yaacov-Normative Moral Pluralism for AI.md",
+      "changed_fields": {
+        "mp_dual_process": {
+          "old": 0,
+          "new": 5
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Yao-Value Compass Benchmarks.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_kohlberg": {
+          "old": 50,
+          "new": 70
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_trolley"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 90
+        },
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley",
+        "mp_dual_process"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Zhu-TrolleyBench.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 90
+        },
+        "mp_trolley": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_dual_process": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_trolley",
+        "mp_dual_process"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2025-Zohny-ADEPT Simulating Ethics.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Goel-Building Interpretable Models for Moral Decision-Making.md",
+      "changed_fields": {
+        "mp_trolley": {
+          "old": 80,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 60,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Karimi-Malekabadi-Theory Trace Card TTC Documentation for Socio-Cognitive Benchmarks.md",
+      "changed_fields": {
+        "mp_dyadic": {
+          "old": 0,
+          "new": 60
+        }
+      },
+      "new_detected": [
+        "mp_dyadic"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 80
+        },
+        "mp_schwartz": {
+          "old": 50,
+          "new": 60
+        }
+      },
+      "new_detected": [
+        "mp_mft"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Li-PluriHarms.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_mft",
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md",
+      "changed_fields": {
+        "mp_mft": {
+          "old": 50,
+          "new": 100
+        }
+      },
+      "new_detected": [],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Yu-Tracing Moral Foundations in LLMs.md",
+      "changed_fields": {
+        "mp_intuitionist": {
+          "old": 0,
+          "new": 50
+        },
+        "mp_dyadic": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_intuitionist",
+        "mp_dyadic"
+      ],
+      "lost_detected": []
+    },
+    {
+      "file": "2026-Yun-VAPT Value-Alignment Perception Toolkit.md",
+      "changed_fields": {
+        "mp_schwartz": {
+          "old": 0,
+          "new": 50
+        }
+      },
+      "new_detected": [
+        "mp_schwartz"
+      ],
+      "lost_detected": []
+    }
+  ],
+  "error_details": []
+}

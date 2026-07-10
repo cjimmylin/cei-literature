@@ -1,0 +1,212 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - 'heading "Religious Values Benchmark: Cross-Vendor Meta-Evaluation" [level=1] [ref=e3]'
+    - generic [ref=e4]: 9 Models × 3 Vendors | Dashboard v4 | 2026-04-05 | 12-Member Expert Council Review
+  - generic [ref=e5]:
+    - text: This dashboard presents a systematic meta-evaluation of
+    - strong [ref=e6]: 401 religious AI benchmark candidates
+    - text: across
+    - strong [ref=e7]: 14 religious traditions
+    - text: ", validated across"
+    - strong [ref=e8]: 9 large language models from 3 vendor families
+    - text: "(Anthropic, OpenAI, Google Gemini). Of 401 candidates, 47 pass quality gates. Cross-vendor replication reveals three distinct behavioral modes: Anthropic models produce elaborated responses with near-perfect rubric scores, OpenAI models produce terse but accurate responses, and Gemini models produce template-flat responses scoring near zero on content rubrics. The benchmark ecosystem is dominated by Islam (59.6% of gate-passers) due to Arabic NLP infrastructure; 8 traditions have zero viable benchmarks; most benchmarks test factual recall, not values reasoning (mean A3 = 33.6/100); and the only instrument that discriminates across vendors is a domain-specific Arabic MCQ (6.7%–100% accuracy range). Navigate the six tabs below to explore each finding."
+  - tablist [ref=e9]:
+    - tab "Overview 401 → 47 screening" [selected] [ref=e10] [cursor=pointer]:
+      - text: Overview
+      - generic [ref=e11]: 401 → 47 screening
+    - tab "Sensitivity Ranking robustness" [ref=e12] [cursor=pointer]:
+      - text: Sensitivity
+      - generic [ref=e13]: Ranking robustness
+    - tab "Tradition Void 8 missing traditions" [ref=e14] [cursor=pointer]:
+      - text: Tradition Void
+      - generic [ref=e15]: 8 missing traditions
+    - tab "Values Relevance Knowledge vs. values" [ref=e16] [cursor=pointer]:
+      - text: Values Relevance
+      - generic [ref=e17]: Knowledge vs. values
+    - tab "Claim Evidence 7 statistical tests" [ref=e18] [cursor=pointer]:
+      - text: Claim Evidence
+      - generic [ref=e19]: 7 statistical tests
+    - tab "Cross-Vendor LLM 9 models, 3 vendors" [ref=e20] [cursor=pointer]:
+      - text: Cross-Vendor LLM
+      - generic [ref=e21]: 9 models, 3 vendors
+  - generic [ref=e23]:
+    - heading "Key Findings at a Glance" [level=3] [ref=e24]
+    - list [ref=e25]:
+      - listitem [ref=e26]: "▸ Multi-Vendor Validation: 9 LLMs from 3 vendors tested; three behavioral modes identified — elaborated (Anthropic), terse-accurate (OpenAI), template-flat (Gemini) — Cross-Vendor tab"
+      - listitem [ref=e27]: "▸ Tradition Asymmetry: Islam holds 28/47 gate-passers (59.6%); 8 of 14 traditions have zero benchmarks — Overview tab"
+      - listitem [ref=e28]: "▸ Infrastructure, Not Theology: Publication infrastructure predicts benchmark existence (r = 0.74, p = 0.003); formalizability does not (p = 0.14) — Tradition Void tab"
+      - listitem [ref=e29]: "▸ Values Gap: Mean values alignment score is 33.6/100; only 12% of benchmarks genuinely test religious values reasoning — Values Relevance tab"
+      - listitem [ref=e30]: "▸ 3 of 7 Claims Supported: Tradition Asymmetry, Knowledge-Reasoning Conflation, and Data Availability all confirmed (p < 0.002) — Claim Evidence tab"
+      - listitem [ref=e31]: "▸ Cross-Vendor Discrimination: Only T2 Arabic MCQ discriminates across vendors (6.7%–100%); rubric scores show ceiling/floor effects — Cross-Vendor tab"
+      - listitem [ref=e32]: "▸ Ranking Uncertainty: Top 6 benchmarks robust (≥95% weight stability); positions 7–15 are contested (CI width = 15.87 pts) — Sensitivity tab"
+    - table [ref=e34]:
+      - rowgroup [ref=e35]:
+        - row "Metric Value Implication" [ref=e36]:
+          - columnheader "Metric" [ref=e37]
+          - columnheader "Value" [ref=e38]
+          - columnheader "Implication" [ref=e39]
+      - rowgroup [ref=e40]:
+        - row "Candidates screened 401 Comprehensive corpus assembly from 3 databases + citations" [ref=e41]:
+          - cell "Candidates screened" [ref=e42]
+          - cell "401" [ref=e43]:
+            - strong [ref=e44]: "401"
+          - cell "Comprehensive corpus assembly from 3 databases + citations" [ref=e45]
+        - row "Gate-passers 47 (11.7%) 88.3% attrition rate reflects gate stringency" [ref=e46]:
+          - cell "Gate-passers" [ref=e47]
+          - cell "47 (11.7%)" [ref=e48]:
+            - strong [ref=e49]: "47"
+            - text: (11.7%)
+          - cell "88.3% attrition rate reflects gate stringency" [ref=e50]
+        - row "Void traditions 8 of 14 57% of traditions completely unrepresented" [ref=e51]:
+          - cell "Void traditions" [ref=e52]
+          - cell "8 of 14" [ref=e53]:
+            - strong [ref=e54]: "8"
+            - text: of 14
+          - cell "57% of traditions completely unrepresented" [ref=e55]
+        - row "Values alignment (A3) Mean 33.6/100 Most benchmarks test knowledge, not values" [ref=e56]:
+          - cell "Values alignment (A3)" [ref=e57]
+          - cell "Mean 33.6/100" [ref=e58]:
+            - text: Mean
+            - strong [ref=e59]: "33.6"
+            - text: /100
+          - cell "Most benchmarks test knowledge, not values" [ref=e60]
+        - row "Claims supported 3 of 7 (p<0.05) Field too nascent for full statistical power" [ref=e61]:
+          - cell "Claims supported" [ref=e62]
+          - cell "3 of 7 (p<0.05)" [ref=e63]:
+            - strong [ref=e64]: "3"
+            - text: of 7 (p<0.05)
+          - cell "Field too nascent for full statistical power" [ref=e65]
+        - row "Cross-vendor T2 range 7%–100% Only Arabic MCQ discriminates across vendors" [ref=e66]:
+          - cell "Cross-vendor T2 range" [ref=e67]
+          - cell "7%–100%" [ref=e68]:
+            - strong [ref=e69]: 7%–100%
+          - cell "Only Arabic MCQ discriminates across vendors" [ref=e70]
+        - row "LLMs with K<R<V gradient 4 of 9 Gradient vendor-specific, not universal" [ref=e71]:
+          - cell "LLMs with K<R<V gradient" [ref=e72]
+          - cell "4 of 9" [ref=e73]:
+            - strong [ref=e74]: "4"
+            - text: of 9
+          - cell "Gradient vendor-specific, not universal" [ref=e75]
+  - generic [ref=e76]:
+    - tabpanel [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]: Overview — Systematic Screening Pipeline
+        - text: This tab reports the outcome of a systematic screening pipeline applied to
+        - strong [ref=e80]: 401 candidate religious AI benchmarks
+        - text: identified through structured database search (Semantic Scholar, arXiv, Google Scholar), forward/backward citation chaining, and expert referral. Each candidate was scored on a six-component
+        - strong [ref=e81]: Religious Discriminability (RD) rubric
+        - text: that measures the depth of engagement with religious content — ranging from incidental mention (score near 0) to substantive theological evaluation (score near 100). Only candidates achieving
+        - strong [ref=e82]: RD ≥ 30
+        - text: and providing
+        - strong [ref=e83]: publicly accessible evaluation data
+        - text: "(GitHub, HuggingFace, or equivalent) passed both hard gates and entered the analytical sample. The 88.3% attrition rate — from 401 screened to 47 gate-passers — reflects the stringency of these criteria: most candidates touch religion peripherally rather than measuring religious constructs as their primary evaluation target."
+        - strong [ref=e84]: "What you will learn from this tab:"
+        - text: (1) How many benchmarks survive quality screening, (2) which religious traditions dominate the benchmark landscape, (3) which tradition families are completely absent, and (4) why the distribution reflects infrastructure, not theological importance. The four stat cards show headline numbers; the two charts below disaggregate gate-passers by individual tradition and by tradition family.
+      - generic [ref=e85]:
+        - generic [ref=e87]:
+          - generic [ref=e88]: "401"
+          - generic [ref=e89]: Total Candidates Screened
+          - generic [ref=e90]: Benchmarks identified via database search, citation chaining, and expert referral
+        - generic [ref=e92]:
+          - generic [ref=e93]: "47"
+          - generic [ref=e94]: Gate-Passers (RD ≥ 30)
+          - generic [ref=e95]: "Passed both quality gates: Religious Discriminability ≥ 30 and public data available"
+        - generic [ref=e97]:
+          - generic [ref=e98]: "14"
+          - generic [ref=e99]: Religious Traditions Analyzed
+          - generic [ref=e100]: From Abrahamic to East Asian, including Indigenous and African traditions
+        - generic [ref=e102]:
+          - generic [ref=e103]: "8"
+          - generic [ref=e104]: Void Traditions (0 Gate-Passers)
+          - generic [ref=e105]: Judaism, Jainism, Taoism, Shinto, Ubuntu, Indigenous, Baha’i, Zoroastrianism
+      - generic [ref=e106]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: "9"
+          - generic [ref=e110]: LLMs Validated
+          - generic [ref=e111]: Cross-vendor replication across 3 model families
+        - generic [ref=e113]:
+          - generic [ref=e114]: "3"
+          - generic [ref=e115]: Vendor Families
+          - generic [ref=e116]: Anthropic, OpenAI, Google Gemini
+        - generic [ref=e118]:
+          - generic [ref=e119]: 7%–100%
+          - generic [ref=e120]: T2 Accuracy Spread
+          - generic [ref=e121]: "Arabic MCQ: only cross-vendor discriminator"
+        - generic [ref=e123]:
+          - generic [ref=e124]: 4/9
+          - generic [ref=e125]: K<R<V Gradient
+          - generic [ref=e126]: Response length gradient is vendor-specific, not universal
+      - generic [ref=e129]:
+        - generic [ref=e130]: Vendor Comparison Summary
+        - table [ref=e131]:
+          - rowgroup [ref=e132]:
+            - row "Vendor Models Mean Rubric T2 Accuracy K<R<V Gradient" [ref=e133]:
+              - columnheader "Vendor" [ref=e134]
+              - columnheader "Models" [ref=e135]
+              - columnheader "Mean Rubric" [ref=e136]
+              - columnheader "T2 Accuracy" [ref=e137]
+              - columnheader "K<R<V Gradient" [ref=e138]
+          - rowgroup [ref=e139]:
+            - row "Anthropic 3 0.99 92.2% (77–100%) YES" [ref=e140]:
+              - cell "Anthropic" [ref=e141]:
+                - strong [ref=e142]: Anthropic
+              - cell "3" [ref=e143]
+              - cell "0.99" [ref=e144]
+              - cell "92.2% (77–100%)" [ref=e145]
+              - cell "YES" [ref=e146]
+            - row "Gemini 4 0.02 11.7% (7–20%) NO" [ref=e147]:
+              - cell "Gemini" [ref=e148]:
+                - strong [ref=e149]: Gemini
+              - cell "4" [ref=e150]
+              - cell "0.02" [ref=e151]
+              - cell "11.7% (7–20%)" [ref=e152]
+              - cell "NO" [ref=e153]
+            - row "OpenAI 2 0.92 93.3% (87–100%) NO" [ref=e154]:
+              - cell "OpenAI" [ref=e155]:
+                - strong [ref=e156]: OpenAI
+              - cell "2" [ref=e157]
+              - cell "0.92" [ref=e158]
+              - cell "93.3% (87–100%)" [ref=e159]
+              - cell "NO" [ref=e160]
+      - generic [ref=e161]:
+        - strong [ref=e162]: "Cross-vendor validation scope:"
+        - text: The benchmarks identified through this screening pipeline were validated across
+        - strong [ref=e163]: 9 LLMs from 3 vendor families
+        - text: (Anthropic, OpenAI, Google Gemini). While the benchmark screening itself is model-agnostic — it evaluates benchmark
+        - emphasis [ref=e164]: design
+        - text: rather than model
+        - emphasis [ref=e165]: performance
+        - text: "— the cross-vendor LLM analysis (Tab 6) confirms that benchmark discriminability varies dramatically by vendor: T2 Arabic MCQ accuracy ranges from 6.7% to 100%, while rubric-based evaluation shows ceiling effects (Anthropic) and floor effects (Gemini) that limit its cross-vendor utility. The vendor summary table below provides headline comparisons; see the Cross-Vendor LLM tab for detailed analysis."
+      - generic [ref=e166]:
+        - generic [ref=e169]: Gate-Passers by Tradition
+        - generic [ref=e175]: Gate-Passers by Tradition Family
+      - generic [ref=e179]:
+        - strong [ref=e180]: "Left chart — Gate-Passers by Tradition:"
+        - text: This bar chart shows the number of benchmarks that passed both quality gates (RD ≥ 30 and public data availability) disaggregated by the primary religious tradition each benchmark targets. Islam accounts for 28 of 47 gate-passers (59.6%), driven primarily by Arabic NLP corpora and Quranic QA shared tasks repurposed as religious benchmarks — an artifact of Arabic computational linguistics infrastructure, not a reflection of Islam's theological complexity or societal importance relative to other traditions. Christianity (6) and Buddhism (6) trail substantially; Hinduism (4), Sikhism (2), and Confucianism (1) each have minimal representation. Eight of 14 traditions analyzed have zero gate-passers.
+        - strong [ref=e181]: "Right chart — Gate-Passers by Tradition Family:"
+        - text: This pie chart groups the same gate-passers into three broad tradition families. Abrahamic traditions (Islam + Christianity) hold 34 of 47 gate-passers (72.3%), Dharmic traditions (Hinduism + Buddhism + Sikhism) hold 12 (25.5%), and East Asian traditions (Confucianism) hold 1 (2.1%). No gate-passers exist for African/Indigenous, Baha'i, Zoroastrian, Taoist, Shinto, Jewish, or Jain traditions. This concentration means AI systems are benchmarked almost exclusively against Abrahamic frameworks.
+        - strong [ref=e182]: "Interpretation:"
+        - text: "Islam's dominance is an artifact of Arabic NLP infrastructure investment, not theological primacy — the 28 Islamic benchmarks are largely repurposed Quranic QA tasks that test Arabic reading comprehension more than Islamic values reasoning. The 8-tradition void creates a fundamental generalizability problem: claims about AI religious competency cannot be substantiated when zero instruments exist for Judaism (the world's oldest Abrahamic tradition) or for any East Asian tradition beyond Confucianism."
+      - generic [ref=e183]: KEY FINDING 8 of 14 analyzed religious traditions — Judaism, Jainism, Taoism, Shinto, Ubuntu Philosophy, Indigenous Spirituality, Baha'i, and Zoroastrianism — have zero benchmarks that pass the quality gate, creating systematic blind spots in AI religious competency evaluation. The benchmark ecosystem does not reflect the world's religious diversity; it reflects the distribution of computational linguistics research infrastructure.
+      - generic [ref=e184]: "See also: Tradition Void for structural analysis of why 8 traditions lack benchmarks • Cross-Vendor LLM for how these benchmarks perform across model families"
+      - generic [ref=e185]:
+        - text: KEY FINDING
+        - strong [ref=e186]: "Tab conclusion — Council consensus:"
+        - text: The benchmark ecosystem for religious AI evaluation is structurally skewed toward Islam (59.6% of gate-passers) and Abrahamic traditions (72.3%), while 8 of 14 traditions have zero viable benchmarks. This distribution tracks computational linguistics infrastructure, not theological importance or global population. Any claim about AI "religious competency" based on current benchmarks is actually a claim about AI Abrahamic-text competency — the field must acknowledge this scope limitation explicitly. The 88.3% attrition rate signals that most benchmarks labeled "religious" engage with religion only superficially; the quality gate is filtering for a construct that most instruments do not actually measure.
+    - text: KEY FINDING KEY FINDING KEY FINDING KEY FINDING KEY FINDING KEY FINDING KEY FINDING KEY FINDING KEY FINDING
+  - button "↑" [ref=e187] [cursor=pointer]
+  - generic [ref=e188]:
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - heading "How to Cite" [level=4] [ref=e191]
+        - text: "CEI Religious Values Benchmark Meta-Evaluation Dashboard (v4). Center for Ethical Innovation, 2026. Available at:"
+        - link "cjimmylin.github.io/cei-rv-dashboard" [ref=e192] [cursor=pointer]:
+          - /url: https://cjimmylin.github.io/cei-rv-dashboard/
+        - text: ". Based on the paper: \"What Do Religious AI Benchmarks Actually Measure? A Systematic Meta-Evaluation of 401 Candidates Across 14 Traditions.\""
+      - generic [ref=e193]:
+        - heading "Methodology" [level=4] [ref=e194]
+        - text: 401 benchmark candidates were identified through Semantic Scholar, arXiv, Google Scholar, citation chaining, and expert referral. Each was scored on a 6-component Religious Discriminability rubric. 47 passed both hard gates (RD ≥ 30 and public data). Rankings use a 3-axis composite (Religious Depth 40%, Practical Ease 35%, Citation Impact 25%) with bootstrap uncertainty quantification. Cross-vendor LLM replication used 65 construct validity items and 30 Arabic MCQ items across 9 models.
+      - generic [ref=e195]:
+        - heading "Expert Council" [level=4] [ref=e196]
+        - text: Analysis reviewed by a 12-member expert council spanning computational theology, LLM safety, cross-cultural NLP, psychometrics, Islamic jurisprudence, philosophy of AI, comparative religion, and science communication. All council attributions in this dashboard reflect expert assessments based on verified experimental data. See the full council deliberation record in the companion analysis document.
+    - generic [ref=e197]: "Dashboard generated 2026-04-05 • Data: CEI-Lit-WS/RELIGIOUS-VALUES • Built with ECharts 5, Bootstrap 5.3, Inter font • © 2026 Center for Ethical Innovation"

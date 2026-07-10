@@ -1,0 +1,16 @@
+{
+  "date": "2026-04-04",
+  "files": [
+    "20260404-model-inventory.json",
+    "20260404-benchmark-coverage-matrix.json",
+    "20260404-cross-vendor-comparison.json",
+    "20260404-cross-vendor-comparison.md",
+    "MANIFEST.json"
+  ],
+  "notes": [
+    "All outputs in this folder were generated from existing MORAL-PSYCH source files.",
+    "No existing MORAL-PSYCH files were modified.",
+    "Gemmini was interpreted as Gemini.",
+    "Skipped malformed/non-object source files: 0"
+  ]
+}

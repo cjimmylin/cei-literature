@@ -1,0 +1,338 @@
+{
+  "date": "20260403",
+  "n_regions": 10,
+  "n_dimensions": 12,
+  "regions": [
+    "North America",
+    "Western Europe",
+    "East Asia",
+    "MENA",
+    "South Asia",
+    "Southeast Asia",
+    "Latin America & Caribbean",
+    "Eastern Europe & Central Asia",
+    "Oceania",
+    "Sub-Saharan Africa"
+  ],
+  "frameworks": [
+    "virtue_ethics",
+    "deontological_ethics",
+    "utilitarian_ethics",
+    "care_ethics",
+    "contractarian_ethics",
+    "nw_confucian",
+    "nw_ubuntu",
+    "nw_islamic_jurisprudence",
+    "nw_buddhist",
+    "nw_dharmic",
+    "nw_indigenous_relational",
+    "nw_buen_vivir"
+  ],
+  "feature_matrix": [
+    [
+      3.97,
+      4.68,
+      6.4,
+      1.09,
+      1.07,
+      1.75,
+      0.73,
+      0.32,
+      0.78,
+      0.46,
+      1.62,
+      0.25
+    ],
+    [
+      6.33,
+      5.49,
+      7.2,
+      0.99,
+      0.57,
+      2.11,
+      1.05,
+      0.71,
+      0.59,
+      0.08,
+      1.64,
+      0.21
+    ],
+    [
+      2.5,
+      4.08,
+      4.37,
+      1.02,
+      0.67,
+      6.06,
+      0.38,
+      0.0,
+      0.65,
+      0.21,
+      0.58,
+      0.0
+    ],
+    [
+      0.09,
+      0.31,
+      1.19,
+      0.04,
+      0.0,
+      1.28,
+      0.0,
+      3.81,
+      0.04,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.05,
+      1.17,
+      1.26,
+      1.07,
+      0.05,
+      1.75,
+      0.0,
+      0.05,
+      0.87,
+      1.8,
+      0.0,
+      0.0
+    ],
+    [
+      0.25,
+      0.34,
+      1.32,
+      0.05,
+      0.0,
+      1.27,
+      0.0,
+      1.13,
+      0.88,
+      0.25,
+      1.18,
+      0.0
+    ],
+    [
+      1.67,
+      0.06,
+      0.17,
+      0.28,
+      0.61,
+      0.61,
+      0.0,
+      0.56,
+      0.44,
+      0.0,
+      7.44,
+      0.0
+    ],
+    [
+      1.36,
+      1.69,
+      2.03,
+      0.17,
+      0.0,
+      3.73,
+      0.0,
+      1.69,
+      0.34,
+      0.0,
+      0.08,
+      0.0
+    ],
+    [
+      4.34,
+      1.84,
+      2.24,
+      3.03,
+      0.0,
+      1.71,
+      1.32,
+      0.0,
+      2.11,
+      5.53,
+      13.16,
+      0.0
+    ],
+    [
+      0.0,
+      1.14,
+      1.59,
+      0.68,
+      0.0,
+      0.23,
+      24.55,
+      0.0,
+      2.27,
+      0.0,
+      2.73,
+      2.27
+    ]
+  ],
+  "region_sizes": {
+    "North America": 809,
+    "Western Europe": 421,
+    "East Asia": 260,
+    "MENA": 113,
+    "South Asia": 103,
+    "Southeast Asia": 102,
+    "Latin America & Caribbean": 90,
+    "Eastern Europe & Central Asia": 59,
+    "Oceania": 38,
+    "Sub-Saharan Africa": 22
+  },
+  "hierarchical_clustering": {
+    "method": "ward",
+    "linkage_matrix": [
+      [
+        4.0,
+        5.0,
+        1.9193542228913174,
+        2.0
+      ],
+      [
+        0.0,
+        1.0,
+        1.9206961938772742,
+        2.0
+      ],
+      [
+        7.0,
+        10.0,
+        2.5248489280922772,
+        3.0
+      ],
+      [
+        6.0,
+        12.0,
+        3.461106314327294,
+        4.0
+      ],
+      [
+        2.0,
+        11.0,
+        3.6952586625902186,
+        3.0
+      ],
+      [
+        3.0,
+        13.0,
+        3.7227175509177006,
+        5.0
+      ],
+      [
+        8.0,
+        9.0,
+        7.275188488945589,
+        2.0
+      ],
+      [
+        15.0,
+        16.0,
+        8.007071039346954,
+        7.0
+      ],
+      [
+        14.0,
+        17.0,
+        8.349716746269648,
+        10.0
+      ]
+    ],
+    "cluster_assignments_k3": {
+      "North America": 1,
+      "Western Europe": 1,
+      "East Asia": 1,
+      "MENA": 2,
+      "South Asia": 2,
+      "Southeast Asia": 2,
+      "Latin America & Caribbean": 2,
+      "Eastern Europe & Central Asia": 2,
+      "Oceania": 3,
+      "Sub-Saharan Africa": 3
+    }
+  },
+  "silhouette_analysis": {
+    "scores": {
+      "2": 0.2464,
+      "3": 0.2857,
+      "4": 0.3221,
+      "5": 0.1975,
+      "6": 0.1629,
+      "7": 0.1466,
+      "8": 0.1197
+    },
+    "best_k": 4,
+    "best_silhouette": 0.3221
+  },
+  "cluster_profiles_k3": {
+    "cluster_1": {
+      "regions": [
+        "North America",
+        "Western Europe",
+        "East Asia"
+      ],
+      "total_papers": 1490,
+      "mean_profile": {
+        "virtue_ethics": 4.27,
+        "deontological_ethics": 4.75,
+        "utilitarian_ethics": 5.99,
+        "care_ethics": 1.03,
+        "contractarian_ethics": 0.77,
+        "nw_confucian": 3.31,
+        "nw_ubuntu": 0.72,
+        "nw_islamic_jurisprudence": 0.34,
+        "nw_buddhist": 0.67,
+        "nw_dharmic": 0.25,
+        "nw_indigenous_relational": 1.28,
+        "nw_buen_vivir": 0.15
+      }
+    },
+    "cluster_2": {
+      "regions": [
+        "MENA",
+        "South Asia",
+        "Southeast Asia",
+        "Latin America & Caribbean",
+        "Eastern Europe & Central Asia"
+      ],
+      "total_papers": 467,
+      "mean_profile": {
+        "virtue_ethics": 0.68,
+        "deontological_ethics": 0.71,
+        "utilitarian_ethics": 1.19,
+        "care_ethics": 0.32,
+        "contractarian_ethics": 0.13,
+        "nw_confucian": 1.73,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 1.45,
+        "nw_buddhist": 0.51,
+        "nw_dharmic": 0.41,
+        "nw_indigenous_relational": 1.74,
+        "nw_buen_vivir": 0.0
+      }
+    },
+    "cluster_3": {
+      "regions": [
+        "Oceania",
+        "Sub-Saharan Africa"
+      ],
+      "total_papers": 60,
+      "mean_profile": {
+        "virtue_ethics": 2.17,
+        "deontological_ethics": 1.49,
+        "utilitarian_ethics": 1.92,
+        "care_ethics": 1.85,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 0.97,
+        "nw_ubuntu": 12.94,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 2.19,
+        "nw_dharmic": 2.77,
+        "nw_indigenous_relational": 7.95,
+        "nw_buen_vivir": 1.14
+      }
+    }
+  }
+}

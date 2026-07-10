@@ -1,0 +1,465 @@
+{
+  "date": "20260404",
+  "version": "v2",
+  "description": "Gold standard re-validation with improved scorer (21 new FP patterns, graduated strong-match floor)",
+  "total_papers_reviewed": 520,
+  "frameworks": {
+    "nw_confucian": {
+      "display_name": "Confucian Role Ethics",
+      "precision": 0.364,
+      "recall": 1.0,
+      "f1": 0.533,
+      "true_positives": 8,
+      "false_positives": 14,
+      "false_negatives": 0,
+      "true_negatives": 78,
+      "detected_total": 50,
+      "non_detected_total": 50
+    },
+    "nw_ubuntu": {
+      "display_name": "Ubuntu Communalism",
+      "precision": 0.579,
+      "recall": 1.0,
+      "f1": 0.733,
+      "true_positives": 11,
+      "false_positives": 8,
+      "false_negatives": 0,
+      "true_negatives": 52,
+      "detected_total": 22,
+      "non_detected_total": 50
+    },
+    "nw_islamic_ethics": {
+      "display_name": "Islamic Ethics (Maqasid)",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "true_positives": 12,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "true_negatives": 55,
+      "detected_total": 17,
+      "non_detected_total": 50
+    },
+    "nw_buddhist": {
+      "display_name": "Buddhist Ethics",
+      "precision": 0.333,
+      "recall": 1.0,
+      "f1": 0.5,
+      "true_positives": 3,
+      "false_positives": 6,
+      "false_negatives": 0,
+      "true_negatives": 58,
+      "detected_total": 17,
+      "non_detected_total": 50
+    },
+    "nw_dharmic": {
+      "display_name": "Dharmic Ethics",
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1": 0.4,
+      "true_positives": 2,
+      "false_positives": 6,
+      "false_negatives": 0,
+      "true_negatives": 52,
+      "detected_total": 10,
+      "non_detected_total": 50
+    },
+    "nw_indigenous_relational": {
+      "display_name": "Indigenous Relational",
+      "precision": 0.675,
+      "recall": 0.9,
+      "f1": 0.771,
+      "true_positives": 27,
+      "false_positives": 13,
+      "false_negatives": 3,
+      "true_negatives": 53,
+      "detected_total": 48,
+      "non_detected_total": 50
+    },
+    "nw_buen_vivir": {
+      "display_name": "Buen Vivir (Sumak Kawsay)",
+      "precision": 0.167,
+      "recall": 1.0,
+      "f1": 0.286,
+      "true_positives": 1,
+      "false_positives": 5,
+      "false_negatives": 0,
+      "true_negatives": 49,
+      "detected_total": 6,
+      "non_detected_total": 50
+    }
+  },
+  "aggregate": {
+    "mean_precision": 0.481,
+    "mean_recall": 0.986,
+    "mean_f1": 0.603,
+    "total_true_positives": 64,
+    "total_false_positives": 52,
+    "total_false_negatives": 3,
+    "total_true_negatives": 397
+  },
+  "errors": [
+    "nw_ubuntu: paper not found: 2023-Shen-\"Do Anything Now\".md",
+    "nw_indigenous_relational: paper not found: 2025-Ogunremi-1 Decolonizing NLP for \"Low-resource Languages\".md",
+    "nw_indigenous_relational: paper not found: 2022-Hu-\"I'm sorry to hear that\".md",
+    "nw_buen_vivir: paper not found: 2023-Shen-\"Do Anything Now\".md"
+  ],
+  "score_changes": {
+    "nw_confucian": [
+      {
+        "filename": "2023-Qian-Understanding Chinese Moral Stories with Further.md",
+        "old_score": 100,
+        "new_score": 90,
+        "label": "Y",
+        "category": "TP"
+      },
+      {
+        "filename": "2024-Yu-CMoralEval.md",
+        "old_score": 80,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+        "old_score": 80,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md",
+        "old_score": 60,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+        "old_score": 55,
+        "new_score": 50,
+        "label": "Y",
+        "category": "TP"
+      },
+      {
+        "filename": "2025-Lan-Fuxi A Benchmark for Evaluating Language.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Khandelwal-Multilingual Defining Issues Test.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Huang-TrustLLM.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2023-Li-ACLUE Can Large Language Model Comprehend.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Zhang-Safety Evaluation of DeepSeek Models in Chinese Contexts.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Zeng-Quantifying Risk Propensities of Large Language.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Zhou-WYWEB A NLP Evaluation Benchmark For Classical Chinese.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Shen-Alignment and Safety in LLMs Survey.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Yanaka-Intersectional Bias in Japanese Large Language Models from a.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Huang-Values in the Wild Discovering and Analyzing Values in Real AI.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Shen-ValueCompass A Framework for Measuring Contextual Value Alignment.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Wu-AC-EVAL Evaluating Ancient Chinese Language Understanding.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Tu-CharacterEval.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Baek-K-Viscuit Evaluating Visual and Cultural Interpretation with.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Xu-AncientBench Towards Comprehensive Evaluation on Excavated.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Steenstra-A Risk Taxonomy for Evaluating AI-Powered.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      }
+    ],
+    "nw_ubuntu": [
+      {
+        "filename": "2023-Kahira-AfriQA Cross-lingual Open-Retrieval Question Answering for.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2023-Liu-AgentBench.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Wu-OpenDeception.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      }
+    ],
+    "nw_islamic_ethics": [
+      {
+        "filename": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Mirbagheri-EPT Benchmark Evaluation of Persian Trustworthiness in Large Language.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Sakhadib-Evaluating Arabic Large Language Models A Survey of Benchmarks.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2026-Unknown-Arabic LLMs for Banking Telecom and Government in GCC - 2026.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      }
+    ],
+    "nw_buddhist": [
+      {
+        "filename": "2024-Porkaew-Representing the Under-Represented Cultural and Core.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Kim-Cultural and Core Capability Benchmarks for.md",
+        "old_score": 50,
+        "new_score": 0,
+        "label": "N",
+        "category": "TN"
+      }
+    ],
+    "nw_dharmic": [
+      {
+        "filename": "2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md",
+        "old_score": 80,
+        "new_score": 60,
+        "label": "N",
+        "category": "FP"
+      },
+      {
+        "filename": "2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      }
+    ],
+    "nw_indigenous_relational": [
+      {
+        "filename": "2024-Yan-AfricaNLP workshop at ICLR 2024 DECOLONIZING AFRICAN NLP A SURVEY ON.md",
+        "old_score": 95,
+        "new_score": 85,
+        "label": "N",
+        "category": "FP"
+      },
+      {
+        "filename": "2024-Grezes-“It’s how you do things that matters” Attending to Process to Better.md",
+        "old_score": 75,
+        "new_score": 55,
+        "label": "Y",
+        "category": "TP"
+      },
+      {
+        "filename": "2022-Trye-Harnessing Indigenous Tweets.md",
+        "old_score": 65,
+        "new_score": 55,
+        "label": "N",
+        "category": "FP"
+      },
+      {
+        "filename": "2022-Network-How can NLP Help Revitalize Endangered Languages.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2024-Arif-Generalists vs Specialists Evaluating Large Language.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      },
+      {
+        "filename": "2025-Koc-Generative AI and Large Language Models in Language Preservation.md",
+        "old_score": 50,
+        "new_score": 30,
+        "label": "N",
+        "category": "TN"
+      }
+    ],
+    "nw_buen_vivir": []
+  }
+}

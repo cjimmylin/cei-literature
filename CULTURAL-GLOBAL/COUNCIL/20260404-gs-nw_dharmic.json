@@ -1,0 +1,381 @@
+{
+  "framework": "nw_dharmic",
+  "date": "20260404",
+  "detected_labels": [
+    {
+      "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+      "score": 100,
+      "label": "N",
+      "reason": "Sentiment analysis of Bhagavad Gita translations using BERT; NLP tool applied to Hindu text, not dharmic ethics as AI framework"
+    },
+    {
+      "filename": "2022-Ranjan-Artificial Intelligence for Topic Modelling in.md",
+      "score": 100,
+      "label": "N",
+      "reason": "Topic modelling applied to Upanishads; NLP analysis of Hindu philosophical text, not dharmic ethics guiding AI"
+    },
+    {
+      "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Uses visesa-dharma (context-specific duty) as analytical framework for decolonial AI alignment; substantive philosophical engagement"
+    },
+    {
+      "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+      "score": 100,
+      "label": "Y",
+      "reason": "Operationalizes dharmic ethics (ahimsa, dharma) from Bhagavad Gita as machine-readable policy rules for AI regulation"
+    },
+    {
+      "filename": "2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md",
+      "score": 85,
+      "label": "N",
+      "reason": "RAG system for querying Vedantic/Hindu texts; applies AI to retrieve Hindu wisdom, not dharmic ethics as AI framework"
+    },
+    {
+      "filename": "2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md",
+      "score": 80,
+      "label": "N",
+      "reason": "Comparative NLP analysis of Bhagavad Gita and other religious texts; text analysis tool, not dharmic ethical framework for AI"
+    },
+    {
+      "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Survey/collection file about Jain NLP tools; catalogs resources, no philosophical framework applied to AI ethics"
+    },
+    {
+      "filename": "2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Hindi-English code-mixed aggression detection; Jain is author surname, zero dharmic philosophical content"
+    },
+    {
+      "filename": "2025-Umer-Sacred or Secular Religious Bias in.md",
+      "score": 50,
+      "label": "N",
+      "reason": "Religious bias in ChatGPT financial advice; Hindu terms (karma, vairagya) appear only in AI-generated output examples"
+    },
+    {
+      "filename": "0000-project-Vedanta Datasets.md",
+      "score": 35,
+      "label": "N",
+      "reason": "Vedantic text datasets for ML; provides Hindu text data but no dharmic ethical framework applied to AI"
+    }
+  ],
+  "non_detected_labels": [
+    {
+      "filename": "2026-He-GVS-Scale and GVS-Bench GenAI Value Safety Scale.md",
+      "score": 0,
+      "label": "N",
+      "reason": "GenAI value safety scale; no dharmic content"
+    },
+    {
+      "filename": "2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Decolonizing NLP via relational ethics; African focus, no dharmic content"
+    },
+    {
+      "filename": "2025-Zhang-CultureScope A Dimensional Lens for Probing.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cultural dimension probing for LLMs; no dharmic content"
+    },
+    {
+      "filename": "2025-Becker-Stay Focused.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multi-agent debate methodology; no dharmic content"
+    },
+    {
+      "filename": "2025-Muñoz-García-Leading and Non-Leading Prompts Quantifying Gender Bias in Large.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Spanish gender bias methodology; no dharmic content"
+    },
+    {
+      "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indigenous reciprocity ethics for AI; Latin American indigenous, not dharmic"
+    },
+    {
+      "filename": "2025-Krutrim-BharatBench Comprehensive Multilingual Multimodal Evaluations of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indian multilingual LLM benchmark; linguistic evaluation, no dharmic ethics"
+    },
+    {
+      "filename": "2023-Ramezani-Knowledge of Cultural Moral Norms in Large Language Models.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cultural moral norms in LLMs; no dharmic content"
+    },
+    {
+      "filename": "2025-Liu-Cross-cultural value alignment frameworks.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Cross-cultural value alignment; no dharmic content"
+    },
+    {
+      "filename": "2024-Jin-WenMind A Comprehensive Benchmark for Evaluating.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese literary understanding benchmark; no dharmic content"
+    },
+    {
+      "filename": "2024-Qian-CamelEval Advancing Culturally Aligned Arabic Language Models and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Arabic cultural LLM benchmark; no dharmic content"
+    },
+    {
+      "filename": "2025-Kaewkasi-A Benchmark for Large Language Models on Northern.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Northern Thai LLM benchmark; no dharmic content"
+    },
+    {
+      "filename": "2025-IDB-The Performance of Artificial Intelligence in the Use of Indigenous.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Indigenous Latin American language AI evaluation; no dharmic content"
+    },
+    {
+      "filename": "2024-Nayak-CulturalVQA Evaluating VLMs' Geo-Diverse Cultural Understanding.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Geo-diverse visual cultural QA; no dharmic content"
+    },
+    {
+      "filename": "2024-Sun-ClarityEthic.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM ethics clarity evaluation; no dharmic content"
+    },
+    {
+      "filename": "2025-Xi-InfoDeepSeek.md",
+      "score": 0,
+      "label": "N",
+      "reason": "RAG evaluation benchmark; no dharmic content"
+    },
+    {
+      "filename": "2025-Alwajih-PalmX 2025 - First Shared Task on Benchmarking LLMs on Arabic and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Arabic/Islamic LLM benchmark shared task; no dharmic content"
+    },
+    {
+      "filename": "2024-Tu-CharacterEval.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese character roleplay evaluation; no dharmic content"
+    },
+    {
+      "filename": "2022-Trye-Harnessing Indigenous Tweets.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Maori language tweets; no dharmic content"
+    },
+    {
+      "filename": "2024-Basem-Optimized Quran Passage Retrieval Using an.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Quranic passage retrieval; Islamic, not dharmic"
+    },
+    {
+      "filename": "2023-Zhao-GPTBIAS A Comprehensive Framework for Evaluating.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM bias evaluation framework; no dharmic content"
+    },
+    {
+      "filename": "2021-Keren-ParaShoot.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hebrew reading comprehension; no dharmic content"
+    },
+    {
+      "filename": "2024-Lee-KorNAT.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Korean national attitude test; no dharmic content"
+    },
+    {
+      "filename": "2019-Horak-Benchmark Dataset for Propaganda Detection in Czech Newspaper Texts.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Czech propaganda detection; no dharmic content"
+    },
+    {
+      "filename": "2025-Do-ViToSA Audio-Based Toxic Spans Detection on Vietnamese Speech.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Vietnamese toxic speech detection; no dharmic content"
+    },
+    {
+      "filename": "2025-Cao-Measuring Hong Kong Massive Multi-Task Language Understanding HKMMLU.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hong Kong LLM benchmark; no dharmic content"
+    },
+    {
+      "filename": "2024-Abdelnabi-Cooperation Competition and Maliciousness LLM-Stakeholders.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM negotiation study; no dharmic content"
+    },
+    {
+      "filename": "2025-Dou-Sailor2 Sailing in South-East Asia with Inclusive Multilingual LLMs.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Southeast Asian multilingual LLM; no dharmic content"
+    },
+    {
+      "filename": "2023-Wang-DecodingTrust.md",
+      "score": 0,
+      "label": "N",
+      "reason": "GPT trustworthiness evaluation; no dharmic content"
+    },
+    {
+      "filename": "2018-Amram-Representations and Architectures in Neural Sentiment Analysis for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Hebrew sentiment analysis; no dharmic content"
+    },
+    {
+      "filename": "2021-Nurce-Detecting Abusive Albanian.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Albanian abusive language detection; no dharmic content"
+    },
+    {
+      "filename": "2025-Li-XIFBench Evaluating Large Language Models on.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Instruction-following benchmark; no dharmic content"
+    },
+    {
+      "filename": "2025-Hashmi-Enhancing Multilingual Hate Speech Detection From Language-Specific.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Multilingual hate speech detection; no dharmic content"
+    },
+    {
+      "filename": "2021-Chakravarthi-Findings of the Sentiment Analysis of.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Dravidian language sentiment analysis; no dharmic content"
+    },
+    {
+      "filename": "2023-team-Typhoon Thai Large Language Models.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Thai LLM development; no dharmic content"
+    },
+    {
+      "filename": "2021-Mghari-Cyberbullying and Hate Speech Detection on.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Kazakh hate speech detection; no dharmic content"
+    },
+    {
+      "filename": "2025-Xiong-BuddhismEval Bilingual Evaluation Benchmark for Buddhist.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Buddhist evaluation benchmark; Buddhist not dharmic"
+    },
+    {
+      "filename": "2020-Berberich-Harmonizing Artificial Intelligence for Social Good.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Japanese Wa/Confucian harmony for AI; no dharmic content"
+    },
+    {
+      "filename": "2025-Team-Multimodal Evaluation of Russian-language Architectures MERA Multi.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Russian multimodal LLM evaluation; no dharmic content"
+    },
+    {
+      "filename": "2024-Kirk-The PRISM Alignment Project.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Global human feedback alignment; no dharmic content"
+    },
+    {
+      "filename": "2025-Alhassoun-Saudi-Alignment Benchmark - Assessing LLMs Alignment with Saudi.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Saudi cultural alignment; no dharmic content"
+    },
+    {
+      "filename": "2024-Altinel-So-haTRed A Novel Hybrid System for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Turkish hate speech detection; no dharmic content"
+    },
+    {
+      "filename": "2024-Fajcik-BenCzechMark A Czech-centric Multitask and Multimetric Benchmark for.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Czech language benchmark; no dharmic content"
+    },
+    {
+      "filename": "2025-Ju-NaVAB.md",
+      "score": 0,
+      "label": "N",
+      "reason": "National value alignment benchmark; no dharmic content"
+    },
+    {
+      "filename": "2024-Zhang-Edu-Values - Evaluating Chinese Education Values of LLMs.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Chinese education values for LLMs; no dharmic content"
+    },
+    {
+      "filename": "2023-Tamkin-Evaluating and Mitigating Discrimination in Language Model Decisions.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM discrimination evaluation; no dharmic content"
+    },
+    {
+      "filename": "2023-Andrus-Augmented Datasheets for Speech Datasets and.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Speech dataset documentation; no dharmic content"
+    },
+    {
+      "filename": "2025-Ma-EthicsSuite Detecting Behavioral Inconsistency in LLM Ethics.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM ethics consistency benchmark; no dharmic content"
+    },
+    {
+      "filename": "2025-Zheng-SYCON Bench.md",
+      "score": 0,
+      "label": "N",
+      "reason": "LLM safety benchmark; no dharmic content"
+    },
+    {
+      "filename": "2025-Vargas-Context-Aware and Expert Data Resources for Brazilian Portuguese Hate.md",
+      "score": 0,
+      "label": "N",
+      "reason": "Brazilian Portuguese hate speech; no dharmic content"
+    }
+  ],
+  "summary": {
+    "detected_total": 10,
+    "detected_Y": 2,
+    "detected_N": 8,
+    "detected_U": 0,
+    "non_detected_total": 50,
+    "non_detected_Y": 0,
+    "non_detected_N": 50,
+    "non_detected_U": 0,
+    "precision": 0.2,
+    "recall_estimate": 1.0,
+    "f1": 0.333
+  }
+}

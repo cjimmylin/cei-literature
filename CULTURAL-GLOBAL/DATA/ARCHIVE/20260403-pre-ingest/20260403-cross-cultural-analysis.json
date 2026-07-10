@@ -1,0 +1,1910 @@
+{
+  "date": "20260403",
+  "total_papers": 2046,
+  "dimensions_analyzed": 34,
+  "regional_profiles": {
+    "South Asia": {
+      "n": 103,
+      "mean_scores": {
+        "virtue_ethics": 0.05,
+        "deontological_ethics": 1.17,
+        "utilitarian_ethics": 1.26,
+        "care_ethics": 1.07,
+        "contractarian_ethics": 0.05,
+        "nw_confucian": 1.75,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 0.05,
+        "nw_buddhist": 0.87,
+        "nw_dharmic": 1.8,
+        "nw_indigenous_relational": 0.0,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 16.55,
+        "rv_christianity": 4.17,
+        "rv_buddhism": 1.65,
+        "rv_judaism": 1.31,
+        "rv_hinduism": 8.79,
+        "rv_sikhism": 5.29,
+        "rv_confucianism": 0.49,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 6.99,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.49,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      },
+      "detection_rates": {
+        "virtue_ethics": 0.0,
+        "deontological_ethics": 1.0,
+        "utilitarian_ethics": 1.0,
+        "care_ethics": 1.0,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 2.9,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 0.0,
+        "nw_dharmic": 2.9,
+        "nw_indigenous_relational": 0.0,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 17.5,
+        "rv_christianity": 4.9,
+        "rv_buddhism": 1.0,
+        "rv_judaism": 1.0,
+        "rv_hinduism": 7.8,
+        "rv_sikhism": 9.7,
+        "rv_confucianism": 1.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 12.6,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0,
+        "mp_mft": 0.0,
+        "mp_schwartz": 1.0,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    },
+    "North America": {
+      "n": 809,
+      "mean_scores": {
+        "virtue_ethics": 3.97,
+        "deontological_ethics": 4.68,
+        "utilitarian_ethics": 6.4,
+        "care_ethics": 1.09,
+        "contractarian_ethics": 1.07,
+        "nw_confucian": 1.75,
+        "nw_ubuntu": 0.73,
+        "nw_islamic_jurisprudence": 0.32,
+        "nw_buddhist": 0.78,
+        "nw_dharmic": 0.46,
+        "nw_indigenous_relational": 1.62,
+        "nw_buen_vivir": 0.25,
+        "rv_islam": 4.77,
+        "rv_christianity": 7.45,
+        "rv_buddhism": 1.47,
+        "rv_judaism": 1.3,
+        "rv_hinduism": 1.71,
+        "rv_sikhism": 0.19,
+        "rv_confucianism": 1.31,
+        "rv_taoism": 0.12,
+        "rv_shinto": 0.06,
+        "rv_jainism": 2.26,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.43,
+        "rv_ubuntu": 0.59,
+        "rv_indigenous": 1.01,
+        "mp_mft": 2.96,
+        "mp_schwartz": 1.66,
+        "mp_trolley": 1.26,
+        "mp_kohlberg": 1.04,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.06,
+        "mp_dyadic": 0.06,
+        "mp_identity": 0.36
+      },
+      "detection_rates": {
+        "virtue_ethics": 4.7,
+        "deontological_ethics": 6.3,
+        "utilitarian_ethics": 6.8,
+        "care_ethics": 0.9,
+        "contractarian_ethics": 1.5,
+        "nw_confucian": 2.6,
+        "nw_ubuntu": 1.0,
+        "nw_islamic_jurisprudence": 0.5,
+        "nw_buddhist": 0.6,
+        "nw_dharmic": 0.4,
+        "nw_indigenous_relational": 2.0,
+        "nw_buen_vivir": 0.5,
+        "rv_islam": 5.9,
+        "rv_christianity": 12.2,
+        "rv_buddhism": 2.1,
+        "rv_judaism": 1.9,
+        "rv_hinduism": 2.2,
+        "rv_sikhism": 0.4,
+        "rv_confucianism": 2.1,
+        "rv_taoism": 0.2,
+        "rv_shinto": 0.1,
+        "rv_jainism": 4.3,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.6,
+        "rv_ubuntu": 0.9,
+        "rv_indigenous": 1.5,
+        "mp_mft": 4.3,
+        "mp_schwartz": 3.1,
+        "mp_trolley": 2.3,
+        "mp_kohlberg": 1.4,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.1,
+        "mp_dyadic": 0.1,
+        "mp_identity": 0.5
+      }
+    },
+    "Western Europe": {
+      "n": 421,
+      "mean_scores": {
+        "virtue_ethics": 6.33,
+        "deontological_ethics": 5.49,
+        "utilitarian_ethics": 7.2,
+        "care_ethics": 0.99,
+        "contractarian_ethics": 0.57,
+        "nw_confucian": 2.11,
+        "nw_ubuntu": 1.05,
+        "nw_islamic_jurisprudence": 0.71,
+        "nw_buddhist": 0.59,
+        "nw_dharmic": 0.08,
+        "nw_indigenous_relational": 1.64,
+        "nw_buen_vivir": 0.21,
+        "rv_islam": 4.39,
+        "rv_christianity": 5.53,
+        "rv_buddhism": 1.1,
+        "rv_judaism": 1.22,
+        "rv_hinduism": 0.97,
+        "rv_sikhism": 0.24,
+        "rv_confucianism": 1.19,
+        "rv_taoism": 0.12,
+        "rv_shinto": 0.31,
+        "rv_jainism": 1.33,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.95,
+        "rv_indigenous": 1.22,
+        "mp_mft": 2.93,
+        "mp_schwartz": 2.08,
+        "mp_trolley": 2.21,
+        "mp_kohlberg": 0.84,
+        "mp_dual_process": 0.02,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.12,
+        "mp_identity": 0.4
+      },
+      "detection_rates": {
+        "virtue_ethics": 7.4,
+        "deontological_ethics": 7.6,
+        "utilitarian_ethics": 7.8,
+        "care_ethics": 1.0,
+        "contractarian_ethics": 0.5,
+        "nw_confucian": 3.6,
+        "nw_ubuntu": 1.4,
+        "nw_islamic_jurisprudence": 0.7,
+        "nw_buddhist": 0.5,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 1.7,
+        "nw_buen_vivir": 0.2,
+        "rv_islam": 5.0,
+        "rv_christianity": 9.7,
+        "rv_buddhism": 1.4,
+        "rv_judaism": 1.9,
+        "rv_hinduism": 1.4,
+        "rv_sikhism": 0.2,
+        "rv_confucianism": 2.4,
+        "rv_taoism": 0.2,
+        "rv_shinto": 0.5,
+        "rv_jainism": 2.6,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 1.4,
+        "rv_indigenous": 1.2,
+        "mp_mft": 4.3,
+        "mp_schwartz": 4.0,
+        "mp_trolley": 3.1,
+        "mp_kohlberg": 1.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.2,
+        "mp_identity": 0.5
+      }
+    },
+    "Sub-Saharan Africa": {
+      "n": 22,
+      "mean_scores": {
+        "virtue_ethics": 0.0,
+        "deontological_ethics": 1.14,
+        "utilitarian_ethics": 1.59,
+        "care_ethics": 0.68,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 0.23,
+        "nw_ubuntu": 24.55,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 2.27,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 2.73,
+        "nw_buen_vivir": 2.27,
+        "rv_islam": 2.27,
+        "rv_christianity": 10.23,
+        "rv_buddhism": 2.27,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 4.55,
+        "rv_sikhism": 2.27,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 23.41,
+        "rv_indigenous": 3.41,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.0,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      },
+      "detection_rates": {
+        "virtue_ethics": 0.0,
+        "deontological_ethics": 0.0,
+        "utilitarian_ethics": 0.0,
+        "care_ethics": 0.0,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 0.0,
+        "nw_ubuntu": 27.3,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 4.5,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 4.5,
+        "nw_buen_vivir": 4.5,
+        "rv_islam": 4.5,
+        "rv_christianity": 13.6,
+        "rv_buddhism": 4.5,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 4.5,
+        "rv_sikhism": 4.5,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 27.3,
+        "rv_indigenous": 4.5,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.0,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    },
+    "Latin America & Caribbean": {
+      "n": 90,
+      "mean_scores": {
+        "virtue_ethics": 1.67,
+        "deontological_ethics": 0.06,
+        "utilitarian_ethics": 0.17,
+        "care_ethics": 0.28,
+        "contractarian_ethics": 0.61,
+        "nw_confucian": 0.61,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 0.56,
+        "nw_buddhist": 0.44,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 7.44,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 1.28,
+        "rv_christianity": 1.67,
+        "rv_buddhism": 1.67,
+        "rv_judaism": 1.22,
+        "rv_hinduism": 0.56,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.56,
+        "rv_taoism": 0.0,
+        "rv_shinto": 2.78,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.72,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 5.83,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.56,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      },
+      "detection_rates": {
+        "virtue_ethics": 2.2,
+        "deontological_ethics": 0.0,
+        "utilitarian_ethics": 0.0,
+        "care_ethics": 0.0,
+        "contractarian_ethics": 1.1,
+        "nw_confucian": 1.1,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 1.1,
+        "nw_buddhist": 0.0,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 8.9,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 2.2,
+        "rv_christianity": 3.3,
+        "rv_buddhism": 2.2,
+        "rv_judaism": 2.2,
+        "rv_hinduism": 1.1,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 1.1,
+        "rv_taoism": 0.0,
+        "rv_shinto": 5.6,
+        "rv_jainism": 0.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 1.1,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 8.9,
+        "mp_mft": 0.0,
+        "mp_schwartz": 1.1,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    },
+    "Oceania": {
+      "n": 38,
+      "mean_scores": {
+        "virtue_ethics": 4.34,
+        "deontological_ethics": 1.84,
+        "utilitarian_ethics": 2.24,
+        "care_ethics": 3.03,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 1.71,
+        "nw_ubuntu": 1.32,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 2.11,
+        "nw_dharmic": 5.53,
+        "nw_indigenous_relational": 13.16,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 4.21,
+        "rv_christianity": 14.34,
+        "rv_buddhism": 7.37,
+        "rv_judaism": 1.71,
+        "rv_hinduism": 7.89,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.26,
+        "rv_shinto": 0.0,
+        "rv_jainism": 3.95,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 1.32,
+        "rv_indigenous": 12.89,
+        "mp_mft": 1.32,
+        "mp_schwartz": 0.0,
+        "mp_trolley": 1.32,
+        "mp_kohlberg": 1.32,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      },
+      "detection_rates": {
+        "virtue_ethics": 5.3,
+        "deontological_ethics": 2.6,
+        "utilitarian_ethics": 2.6,
+        "care_ethics": 2.6,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 2.6,
+        "nw_ubuntu": 2.6,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 2.6,
+        "nw_dharmic": 5.3,
+        "nw_indigenous_relational": 15.8,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 5.3,
+        "rv_christianity": 18.4,
+        "rv_buddhism": 10.5,
+        "rv_judaism": 2.6,
+        "rv_hinduism": 10.5,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 7.9,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 2.6,
+        "rv_indigenous": 15.8,
+        "mp_mft": 2.6,
+        "mp_schwartz": 0.0,
+        "mp_trolley": 2.6,
+        "mp_kohlberg": 2.6,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    },
+    "MENA": {
+      "n": 113,
+      "mean_scores": {
+        "virtue_ethics": 0.09,
+        "deontological_ethics": 0.31,
+        "utilitarian_ethics": 1.19,
+        "care_ethics": 0.04,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 1.28,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 3.81,
+        "nw_buddhist": 0.04,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 0.0,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 21.55,
+        "rv_christianity": 2.92,
+        "rv_buddhism": 0.44,
+        "rv_judaism": 2.12,
+        "rv_hinduism": 0.04,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.44,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.88,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.88,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.88,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      },
+      "detection_rates": {
+        "virtue_ethics": 0.0,
+        "deontological_ethics": 0.0,
+        "utilitarian_ethics": 0.0,
+        "care_ethics": 0.0,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 1.8,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 5.3,
+        "nw_buddhist": 0.0,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 0.0,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 25.7,
+        "rv_christianity": 5.3,
+        "rv_buddhism": 0.9,
+        "rv_judaism": 3.5,
+        "rv_hinduism": 0.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.9,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 1.8,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 1.8,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0,
+        "mp_mft": 0.0,
+        "mp_schwartz": 1.8,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    },
+    "East Asia": {
+      "n": 260,
+      "mean_scores": {
+        "virtue_ethics": 2.5,
+        "deontological_ethics": 4.08,
+        "utilitarian_ethics": 4.37,
+        "care_ethics": 1.02,
+        "contractarian_ethics": 0.67,
+        "nw_confucian": 6.06,
+        "nw_ubuntu": 0.38,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 0.65,
+        "nw_dharmic": 0.21,
+        "nw_indigenous_relational": 0.58,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 2.13,
+        "rv_christianity": 4.4,
+        "rv_buddhism": 1.88,
+        "rv_judaism": 0.38,
+        "rv_hinduism": 0.6,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 2.9,
+        "rv_taoism": 0.58,
+        "rv_shinto": 0.38,
+        "rv_jainism": 1.96,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.38,
+        "rv_indigenous": 0.58,
+        "mp_mft": 3.04,
+        "mp_schwartz": 0.98,
+        "mp_trolley": 0.58,
+        "mp_kohlberg": 0.65,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.19,
+        "mp_identity": 0.23
+      },
+      "detection_rates": {
+        "virtue_ethics": 3.5,
+        "deontological_ethics": 5.0,
+        "utilitarian_ethics": 4.6,
+        "care_ethics": 0.8,
+        "contractarian_ethics": 0.8,
+        "nw_confucian": 9.6,
+        "nw_ubuntu": 0.4,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 0.4,
+        "nw_dharmic": 0.4,
+        "nw_indigenous_relational": 0.8,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 3.1,
+        "rv_christianity": 7.3,
+        "rv_buddhism": 3.1,
+        "rv_judaism": 0.4,
+        "rv_hinduism": 0.8,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 5.0,
+        "rv_taoism": 1.2,
+        "rv_shinto": 0.8,
+        "rv_jainism": 3.8,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.4,
+        "rv_indigenous": 0.8,
+        "mp_mft": 5.0,
+        "mp_schwartz": 1.9,
+        "mp_trolley": 0.8,
+        "mp_kohlberg": 1.2,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.4,
+        "mp_identity": 0.4
+      }
+    },
+    "Eastern Europe & Central Asia": {
+      "n": 59,
+      "mean_scores": {
+        "virtue_ethics": 1.36,
+        "deontological_ethics": 1.69,
+        "utilitarian_ethics": 2.03,
+        "care_ethics": 0.17,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 3.73,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 1.69,
+        "nw_buddhist": 0.34,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 0.08,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 5.68,
+        "rv_christianity": 6.78,
+        "rv_buddhism": 0.34,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 0.85,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0,
+        "mp_mft": 0.85,
+        "mp_schwartz": 0.85,
+        "mp_trolley": 0.85,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      },
+      "detection_rates": {
+        "virtue_ethics": 1.7,
+        "deontological_ethics": 1.7,
+        "utilitarian_ethics": 1.7,
+        "care_ethics": 0.0,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 6.8,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 3.4,
+        "nw_buddhist": 0.0,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 0.0,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 5.1,
+        "rv_christianity": 11.9,
+        "rv_buddhism": 0.0,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 0.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 1.7,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0,
+        "mp_mft": 1.7,
+        "mp_schwartz": 1.7,
+        "mp_trolley": 1.7,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    },
+    "Southeast Asia": {
+      "n": 102,
+      "mean_scores": {
+        "virtue_ethics": 0.25,
+        "deontological_ethics": 0.34,
+        "utilitarian_ethics": 1.32,
+        "care_ethics": 0.05,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 1.27,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 1.13,
+        "nw_buddhist": 0.88,
+        "nw_dharmic": 0.25,
+        "nw_indigenous_relational": 1.18,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 8.58,
+        "rv_christianity": 6.67,
+        "rv_buddhism": 1.37,
+        "rv_judaism": 1.08,
+        "rv_hinduism": 1.47,
+        "rv_sikhism": 0.49,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 0.49,
+        "rv_shinto": 0.0,
+        "rv_jainism": 1.47,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.49,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.0,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      },
+      "detection_rates": {
+        "virtue_ethics": 0.0,
+        "deontological_ethics": 0.0,
+        "utilitarian_ethics": 1.0,
+        "care_ethics": 0.0,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 2.0,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 1.0,
+        "nw_buddhist": 1.0,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 2.0,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 10.8,
+        "rv_christianity": 9.8,
+        "rv_buddhism": 2.0,
+        "rv_judaism": 1.0,
+        "rv_hinduism": 2.0,
+        "rv_sikhism": 1.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 1.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 2.9,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 1.0,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.0,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    }
+  },
+  "weird_comparison": {
+    "High-WEIRD (70-100)": {
+      "n": 1221,
+      "mean_scores": {
+        "virtue_ethics": 4.74,
+        "deontological_ethics": 4.96,
+        "utilitarian_ethics": 6.68,
+        "care_ethics": 1.15,
+        "contractarian_ethics": 0.9,
+        "nw_confucian": 1.9,
+        "nw_ubuntu": 0.88,
+        "nw_islamic_jurisprudence": 0.46,
+        "nw_buddhist": 0.76,
+        "nw_dharmic": 0.5,
+        "nw_indigenous_relational": 2.04,
+        "nw_buen_vivir": 0.24,
+        "rv_islam": 4.65,
+        "rv_christianity": 7.04,
+        "rv_buddhism": 1.55,
+        "rv_judaism": 1.25,
+        "rv_hinduism": 1.67,
+        "rv_sikhism": 0.2,
+        "rv_confucianism": 1.24,
+        "rv_taoism": 0.13,
+        "rv_shinto": 0.15,
+        "rv_jainism": 2.04,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.29,
+        "rv_ubuntu": 0.76,
+        "rv_indigenous": 1.49,
+        "mp_mft": 2.81,
+        "mp_schwartz": 1.73,
+        "mp_trolley": 1.64,
+        "mp_kohlberg": 1.02,
+        "mp_dual_process": 0.01,
+        "mp_intuitionist": 0.04,
+        "mp_dyadic": 0.08,
+        "mp_identity": 0.38
+      }
+    },
+    "Moderate-WEIRD (50-69)": {
+      "n": 255,
+      "mean_scores": {
+        "virtue_ethics": 2.67,
+        "deontological_ethics": 2.49,
+        "utilitarian_ethics": 3.41,
+        "care_ethics": 0.25,
+        "contractarian_ethics": 0.29,
+        "nw_confucian": 1.57,
+        "nw_ubuntu": 0.02,
+        "nw_islamic_jurisprudence": 0.0,
+        "nw_buddhist": 0.49,
+        "nw_dharmic": 0.22,
+        "nw_indigenous_relational": 1.14,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 3.24,
+        "rv_christianity": 6.47,
+        "rv_buddhism": 0.84,
+        "rv_judaism": 1.51,
+        "rv_hinduism": 0.84,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.59,
+        "rv_taoism": 0.0,
+        "rv_shinto": 0.39,
+        "rv_jainism": 1.61,
+        "rv_bahai": 0.2,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.75,
+        "mp_mft": 1.18,
+        "mp_schwartz": 0.98,
+        "mp_trolley": 0.59,
+        "mp_kohlberg": 0.47,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.2,
+        "mp_identity": 0.04
+      }
+    },
+    "Low-WEIRD (30-49)": {
+      "n": 520,
+      "mean_scores": {
+        "virtue_ethics": 0.97,
+        "deontological_ethics": 1.63,
+        "utilitarian_ethics": 1.77,
+        "care_ethics": 0.74,
+        "contractarian_ethics": 0.31,
+        "nw_confucian": 3.77,
+        "nw_ubuntu": 1.23,
+        "nw_islamic_jurisprudence": 1.25,
+        "nw_buddhist": 0.72,
+        "nw_dharmic": 0.41,
+        "nw_indigenous_relational": 1.8,
+        "nw_buen_vivir": 0.1,
+        "rv_islam": 8.33,
+        "rv_christianity": 3.98,
+        "rv_buddhism": 1.72,
+        "rv_judaism": 0.9,
+        "rv_hinduism": 2.12,
+        "rv_sikhism": 1.24,
+        "rv_confucianism": 1.55,
+        "rv_taoism": 0.29,
+        "rv_shinto": 0.48,
+        "rv_jainism": 2.15,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.12,
+        "rv_ubuntu": 1.18,
+        "rv_indigenous": 1.44,
+        "mp_mft": 1.52,
+        "mp_schwartz": 0.68,
+        "mp_trolley": 0.1,
+        "mp_kohlberg": 0.1,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.1
+      }
+    },
+    "Non-WEIRD (0-29)": {
+      "n": 50,
+      "mean_scores": {
+        "virtue_ethics": 0.0,
+        "deontological_ethics": 0.5,
+        "utilitarian_ethics": 1.2,
+        "care_ethics": 0.0,
+        "contractarian_ethics": 0.0,
+        "nw_confucian": 0.0,
+        "nw_ubuntu": 0.0,
+        "nw_islamic_jurisprudence": 1.0,
+        "nw_buddhist": 0.0,
+        "nw_dharmic": 0.0,
+        "nw_indigenous_relational": 0.1,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 23.0,
+        "rv_christianity": 1.0,
+        "rv_buddhism": 0.0,
+        "rv_judaism": 0.0,
+        "rv_hinduism": 2.0,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 0.0,
+        "rv_taoism": 1.0,
+        "rv_shinto": 0.0,
+        "rv_jainism": 1.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 2.0,
+        "rv_ubuntu": 0.0,
+        "rv_indigenous": 0.0,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.0,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    }
+  },
+  "north_south_comparison": {
+    "Global South": {
+      "n": 325,
+      "mean_scores": {
+        "virtue_ethics": 0.49,
+        "deontological_ethics": 0.66,
+        "utilitarian_ethics": 0.88,
+        "care_ethics": 0.49,
+        "contractarian_ethics": 0.18,
+        "nw_confucian": 0.97,
+        "nw_ubuntu": 1.66,
+        "nw_islamic_jurisprudence": 0.68,
+        "nw_buddhist": 0.8,
+        "nw_dharmic": 0.65,
+        "nw_indigenous_relational": 2.42,
+        "nw_buen_vivir": 0.15,
+        "rv_islam": 11.55,
+        "rv_christianity": 3.97,
+        "rv_buddhism": 1.4,
+        "rv_judaism": 1.25,
+        "rv_hinduism": 3.69,
+        "rv_sikhism": 1.98,
+        "rv_confucianism": 0.31,
+        "rv_taoism": 0.15,
+        "rv_shinto": 0.77,
+        "rv_jainism": 2.83,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.51,
+        "rv_ubuntu": 1.58,
+        "rv_indigenous": 1.85,
+        "mp_mft": 0.0,
+        "mp_schwartz": 0.31,
+        "mp_trolley": 0.0,
+        "mp_kohlberg": 0.0,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.0,
+        "mp_identity": 0.0
+      }
+    },
+    "Global North": {
+      "n": 1363,
+      "mean_scores": {
+        "virtue_ethics": 4.68,
+        "deontological_ethics": 4.76,
+        "utilitarian_ethics": 6.35,
+        "care_ethics": 1.05,
+        "contractarian_ethics": 0.82,
+        "nw_confucian": 1.92,
+        "nw_ubuntu": 0.79,
+        "nw_islamic_jurisprudence": 0.48,
+        "nw_buddhist": 0.77,
+        "nw_dharmic": 0.49,
+        "nw_indigenous_relational": 1.83,
+        "nw_buen_vivir": 0.21,
+        "rv_islam": 4.61,
+        "rv_christianity": 7.06,
+        "rv_buddhism": 1.51,
+        "rv_judaism": 1.31,
+        "rv_hinduism": 1.61,
+        "rv_sikhism": 0.18,
+        "rv_confucianism": 1.18,
+        "rv_taoism": 0.12,
+        "rv_shinto": 0.21,
+        "rv_jainism": 2.05,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.26,
+        "rv_ubuntu": 0.68,
+        "rv_indigenous": 1.34,
+        "mp_mft": 2.7,
+        "mp_schwartz": 1.66,
+        "mp_trolley": 1.54,
+        "mp_kohlberg": 0.91,
+        "mp_dual_process": 0.01,
+        "mp_intuitionist": 0.04,
+        "mp_dyadic": 0.07,
+        "mp_identity": 0.35
+      }
+    },
+    "Ambiguous": {
+      "n": 329,
+      "mean_scores": {
+        "virtue_ethics": 1.29,
+        "deontological_ethics": 2.58,
+        "utilitarian_ethics": 3.21,
+        "care_ethics": 0.78,
+        "contractarian_ethics": 0.5,
+        "nw_confucian": 5.32,
+        "nw_ubuntu": 0.3,
+        "nw_islamic_jurisprudence": 1.16,
+        "nw_buddhist": 0.38,
+        "nw_dharmic": 0.02,
+        "nw_indigenous_relational": 0.67,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 5.74,
+        "rv_christianity": 4.09,
+        "rv_buddhism": 1.5,
+        "rv_judaism": 0.44,
+        "rv_hinduism": 0.2,
+        "rv_sikhism": 0.0,
+        "rv_confucianism": 2.29,
+        "rv_taoism": 0.46,
+        "rv_shinto": 0.0,
+        "rv_jainism": 1.06,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.3,
+        "rv_indigenous": 0.61,
+        "mp_mft": 2.55,
+        "mp_schwartz": 1.08,
+        "mp_trolley": 0.3,
+        "mp_kohlberg": 0.52,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.15,
+        "mp_identity": 0.15
+      }
+    }
+  },
+  "east_west_comparison": {
+    "East": {
+      "n": 465,
+      "mean_scores": {
+        "virtue_ethics": 1.46,
+        "deontological_ethics": 2.61,
+        "utilitarian_ethics": 3.01,
+        "care_ethics": 0.82,
+        "contractarian_ethics": 0.39,
+        "nw_confucian": 4.05,
+        "nw_ubuntu": 0.22,
+        "nw_islamic_jurisprudence": 0.26,
+        "nw_buddhist": 0.75,
+        "nw_dharmic": 0.57,
+        "nw_indigenous_relational": 0.58,
+        "nw_buen_vivir": 0.0,
+        "rv_islam": 6.74,
+        "rv_christianity": 4.85,
+        "rv_buddhism": 1.72,
+        "rv_judaism": 0.74,
+        "rv_hinduism": 2.6,
+        "rv_sikhism": 1.28,
+        "rv_confucianism": 1.73,
+        "rv_taoism": 0.43,
+        "rv_shinto": 0.22,
+        "rv_jainism": 2.97,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.0,
+        "rv_ubuntu": 0.22,
+        "rv_indigenous": 0.43,
+        "mp_mft": 1.7,
+        "mp_schwartz": 0.66,
+        "mp_trolley": 0.32,
+        "mp_kohlberg": 0.37,
+        "mp_dual_process": 0.0,
+        "mp_intuitionist": 0.0,
+        "mp_dyadic": 0.11,
+        "mp_identity": 0.13
+      }
+    },
+    "West": {
+      "n": 1268,
+      "mean_scores": {
+        "virtue_ethics": 4.77,
+        "deontological_ethics": 4.87,
+        "utilitarian_ethics": 6.54,
+        "care_ethics": 1.11,
+        "contractarian_ethics": 0.87,
+        "nw_confucian": 1.87,
+        "nw_ubuntu": 0.85,
+        "nw_islamic_jurisprudence": 0.44,
+        "nw_buddhist": 0.76,
+        "nw_dharmic": 0.49,
+        "nw_indigenous_relational": 1.97,
+        "nw_buen_vivir": 0.23,
+        "rv_islam": 4.63,
+        "rv_christianity": 7.02,
+        "rv_buddhism": 1.53,
+        "rv_judaism": 1.29,
+        "rv_hinduism": 1.65,
+        "rv_sikhism": 0.2,
+        "rv_confucianism": 1.23,
+        "rv_taoism": 0.13,
+        "rv_shinto": 0.14,
+        "rv_jainism": 2.0,
+        "rv_bahai": 0.0,
+        "rv_zoroastrianism": 0.28,
+        "rv_ubuntu": 0.73,
+        "rv_indigenous": 1.44,
+        "mp_mft": 2.9,
+        "mp_schwartz": 1.75,
+        "mp_trolley": 1.58,
+        "mp_kohlberg": 0.98,
+        "mp_dual_process": 0.01,
+        "mp_intuitionist": 0.04,
+        "mp_dyadic": 0.08,
+        "mp_identity": 0.37
+      }
+    }
+  },
+  "temporal_trends": {
+    "2015": {
+      "total": 1,
+      "region_counts": {
+        "Western Europe": 1
+      },
+      "mean_weird": 75.0,
+      "nw_papers": 0,
+      "nw_pct": 0.0,
+      "region_diversity": 1
+    },
+    "2016": {
+      "total": 7,
+      "region_counts": {
+        "North America": 5,
+        "Western Europe": 1,
+        "Sub-Saharan Africa": 1
+      },
+      "mean_weird": 74.9,
+      "nw_papers": 1,
+      "nw_pct": 14.3,
+      "region_diversity": 3
+    },
+    "2018": {
+      "total": 21,
+      "region_counts": {
+        "North America": 10,
+        "Western Europe": 4,
+        "Oceania": 3,
+        "Latin America & Caribbean": 2,
+        "South Asia": 1,
+        "MENA": 1
+      },
+      "mean_weird": 71.8,
+      "nw_papers": 2,
+      "nw_pct": 9.5,
+      "region_diversity": 6
+    },
+    "2019": {
+      "total": 26,
+      "region_counts": {
+        "Western Europe": 9,
+        "North America": 6,
+        "Eastern Europe & Central Asia": 3,
+        "MENA": 3,
+        "East Asia": 2,
+        "Unknown": 1,
+        "South Asia": 1,
+        "Southeast Asia": 1
+      },
+      "mean_weird": 64.1,
+      "nw_papers": 1,
+      "nw_pct": 3.8,
+      "region_diversity": 8
+    },
+    "2020": {
+      "total": 50,
+      "region_counts": {
+        "North America": 18,
+        "Western Europe": 15,
+        "East Asia": 5,
+        "Latin America & Caribbean": 4,
+        "Eastern Europe & Central Asia": 4,
+        "South Asia": 2,
+        "MENA": 1,
+        "Unknown": 1
+      },
+      "mean_weird": 66.4,
+      "nw_papers": 5,
+      "nw_pct": 10.0,
+      "region_diversity": 8
+    },
+    "2021": {
+      "total": 61,
+      "region_counts": {
+        "North America": 23,
+        "Western Europe": 15,
+        "MENA": 5,
+        "East Asia": 5,
+        "Latin America & Caribbean": 5,
+        "Southeast Asia": 3,
+        "South Asia": 3,
+        "Eastern Europe & Central Asia": 1,
+        "Unknown": 1
+      },
+      "mean_weird": 64.0,
+      "nw_papers": 4,
+      "nw_pct": 6.6,
+      "region_diversity": 9
+    },
+    "2022": {
+      "total": 98,
+      "region_counts": {
+        "North America": 36,
+        "Western Europe": 27,
+        "MENA": 9,
+        "South Asia": 7,
+        "East Asia": 6,
+        "Southeast Asia": 4,
+        "Eastern Europe & Central Asia": 3,
+        "Latin America & Caribbean": 3,
+        "Oceania": 3
+      },
+      "mean_weird": 66.9,
+      "nw_papers": 9,
+      "nw_pct": 9.2,
+      "region_diversity": 9
+    },
+    "2023": {
+      "total": 207,
+      "region_counts": {
+        "North America": 81,
+        "Western Europe": 38,
+        "East Asia": 33,
+        "Southeast Asia": 16,
+        "MENA": 13,
+        "Latin America & Caribbean": 6,
+        "South Asia": 6,
+        "Sub-Saharan Africa": 4,
+        "Unknown": 4,
+        "Oceania": 3,
+        "Eastern Europe & Central Asia": 3
+      },
+      "mean_weird": 63.8,
+      "nw_papers": 9,
+      "nw_pct": 4.3,
+      "region_diversity": 11
+    },
+    "2024": {
+      "total": 562,
+      "region_counts": {
+        "North America": 238,
+        "Western Europe": 105,
+        "East Asia": 71,
+        "Southeast Asia": 34,
+        "South Asia": 26,
+        "Latin America & Caribbean": 25,
+        "MENA": 23,
+        "Eastern Europe & Central Asia": 15,
+        "Oceania": 13,
+        "Unknown": 7,
+        "Sub-Saharan Africa": 5
+      },
+      "mean_weird": 65.5,
+      "nw_papers": 44,
+      "nw_pct": 7.8,
+      "region_diversity": 11
+    },
+    "2025": {
+      "total": 943,
+      "region_counts": {
+        "North America": 369,
+        "Western Europe": 191,
+        "East Asia": 127,
+        "MENA": 55,
+        "South Asia": 51,
+        "Latin America & Caribbean": 44,
+        "Southeast Asia": 41,
+        "Eastern Europe & Central Asia": 27,
+        "Unknown": 14,
+        "Oceania": 13,
+        "Sub-Saharan Africa": 11
+      },
+      "mean_weird": 63.5,
+      "nw_papers": 84,
+      "nw_pct": 8.9,
+      "region_diversity": 11
+    },
+    "2026": {
+      "total": 65,
+      "region_counts": {
+        "North America": 20,
+        "Western Europe": 13,
+        "East Asia": 11,
+        "South Asia": 6,
+        "MENA": 3,
+        "Oceania": 3,
+        "Southeast Asia": 3,
+        "Eastern Europe & Central Asia": 3,
+        "Sub-Saharan Africa": 1,
+        "Unknown": 1,
+        "Latin America & Caribbean": 1
+      },
+      "mean_weird": 63.6,
+      "nw_papers": 7,
+      "nw_pct": 10.8,
+      "region_diversity": 11
+    }
+  },
+  "top_framework_papers": {
+    "nw_confucian": [
+      {
+        "filename": "2021-Angle-Can AI Lead to Genuine Virtue Confucian.md",
+        "score": 100,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2023-Hou-Foundational Moral Values for AI Alignment.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-Qian-Understanding Chinese Moral Stories with Further.md",
+        "score": 100,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2024-So-AI Trained on Confucian Analects.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Elder-The Ethics of Digital Ghosts.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2025-Wu-CVC.md",
+        "score": 100,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2024-Muyskens-Can an AI-carebot be filial.md",
+        "score": 90,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2024-Yu-CMoralEval.md",
+        "score": 80,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2025-Yu-CMoralEval A Moral Evaluation Benchmark for Chinese ....md",
+        "score": 80,
+        "region": "East Asia"
+      }
+    ],
+    "nw_ubuntu": [
+      {
+        "filename": "2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md",
+        "score": 100,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2022-Gwagwa-The role of the African value of Ubuntu in global.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md",
+        "score": 100,
+        "region": "Sub-Saharan Africa"
+      },
+      {
+        "filename": "2024-Suliman-The interconnectedness between Ubuntu principles.md",
+        "score": 100,
+        "region": "Sub-Saharan Africa"
+      },
+      {
+        "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Ochasi-Reframing Justice in Healthcare AI.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+        "score": 100,
+        "region": "Sub-Saharan Africa"
+      },
+      {
+        "filename": "2025-Yilma-Ethics of AI in Africa.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2026-Berg-An Ubuntu-Guided Large Language Model Framework.md",
+        "score": 100,
+        "region": "Sub-Saharan Africa"
+      }
+    ],
+    "nw_islamic_jurisprudence": [
+      {
+        "filename": "2021-Munshi-Towards an Automated Islamic Fatwa System.md",
+        "score": 100,
+        "region": "MENA"
+      },
+      {
+        "filename": "2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2023-Alyemny-FatwaSet.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2025-Alharbi-LLMs and Islamic Fiqh A Reliability.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md",
+        "score": 100,
+        "region": "Southeast Asia"
+      },
+      {
+        "filename": "2025-Mohammed-Aftina.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2025-Bouchekif-QIAS 2025 - Shared Task on Islamic Inheritance Reasoning and.md",
+        "score": 85,
+        "region": "MENA"
+      },
+      {
+        "filename": "2025-Ghaly-Assessing Large Language Models on Islamic.md",
+        "score": 85,
+        "region": "MENA"
+      },
+      {
+        "filename": "2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Islamic-Sacred or Synthetic Evaluating LLM Reliability and Abstention for.md",
+        "score": 50,
+        "region": "North America"
+      }
+    ],
+    "nw_buddhist": [
+      {
+        "filename": "2024-Wong-The Humanistic Buddhism Corpus (HBC).md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Keutzer-MITRA-zh-eval Using a Buddhist Chinese Language.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Graves-AI Practical Wisdom and Compassion.md",
+        "score": 85,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2024-Hovy-Divine LLaMAs Bias Stereotypes Stigmatization and.md",
+        "score": 65,
+        "region": "Southeast Asia"
+      },
+      {
+        "filename": "2025-Xiong-BuddhismEval A Bilingual Benchmark for Buddhist.md",
+        "score": 55,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2016-Purzycki-Cross-cultural dataset for the evolution of.md",
+        "score": 50,
+        "region": "Sub-Saharan Africa"
+      },
+      {
+        "filename": "2024-Porkaew-Representing the Under-Represented Cultural and Core.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Bryan-Virtue Ethics and Postponing Human Extinction.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Kim-Cultural and Core Capability Benchmarks for.md",
+        "score": 50,
+        "region": "East Asia"
+      }
+    ],
+    "nw_dharmic": [
+      {
+        "filename": "2022-Kulkarni-Semantic and Sentiment Analysis of Selected.md",
+        "score": 100,
+        "region": "Oceania"
+      },
+      {
+        "filename": "2022-Ranjan-Artificial Intelligence for Topic Modelling in.md",
+        "score": 100,
+        "region": "Oceania"
+      },
+      {
+        "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Mandikal-Ancient Wisdom Modern Tools Exploring Retrieval-Augmented.md",
+        "score": 85,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md",
+        "score": 80,
+        "region": "South Asia"
+      },
+      {
+        "filename": "0000-collections-JainGPT AI-Powered Chatbot for Jain Literature.md",
+        "score": 50,
+        "region": "South Asia"
+      },
+      {
+        "filename": "2020-Srivastava-A Multi-Dimensional View of Aggression when.md",
+        "score": 50,
+        "region": "South Asia"
+      },
+      {
+        "filename": "2025-Umer-Sacred or Secular Religious Bias in.md",
+        "score": 50,
+        "region": "East Asia"
+      }
+    ],
+    "nw_indigenous_relational": [
+      {
+        "filename": "2020-Carroll-The CARE Principles for Indigenous Data Governance.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-Munn-The Five Tests Designing and Evaluating.md",
+        "score": 100,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.md",
+        "score": 100,
+        "region": "Oceania"
+      },
+      {
+        "filename": "2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md",
+        "score": 100,
+        "region": "Oceania"
+      },
+      {
+        "filename": "2024-Network-Harnessing the Power of Artificial Intelligence to Vitalize.md",
+        "score": 100,
+        "region": "Latin America & Caribbean"
+      },
+      {
+        "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Yolgoermez-Abundant Intelligences Placing AI Within Indigenous.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Barrett-African Data Ethics A Discursive Framework for Black Decolonial AI.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Halgamuge-Indigenous Peoples and Artificial Intelligence A.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+        "score": 100,
+        "region": "Western Europe"
+      }
+    ],
+    "nw_buen_vivir": [
+      {
+        "filename": "2025-Maldonado-Indigenous Ethics and Artificial Intelligence.md",
+        "score": 90,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2024-Varshney-Decolonial AI Alignment - Openness Visesa-Dharma and Including.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Madan-ArGen Auto-Regulation of Generative AI via GRPO and Policy-as-Code.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Osei Mensah-Where are the missing values an exploration of the need to.md",
+        "score": 50,
+        "region": "Sub-Saharan Africa"
+      },
+      {
+        "filename": "2025-Ray-Incorporating indigenous knowledge systems into AI governance.md",
+        "score": 50,
+        "region": "North America"
+      }
+    ],
+    "virtue_ethics": [
+      {
+        "filename": "2018-Berberich-The Virtuous Machine.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2021-Stenseke-Artificial Virtuous Agents.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2022-Constantinescu-Can Robotic AI Be Virtuous.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2022-Hagendorff-Virtue-Based Framework for AI Ethics.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2023-Maile-The choice of deontological, virtue ethical, and.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Eisikovits-AI and Phronesis.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2024-Farina-AI and Society Virtue Ethics Approach.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Hancox-Li-Is ETHICS about ethics.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Hayes-Virtue and Narrative in AI Practices.md",
+        "score": 100,
+        "region": "Western Europe"
+      }
+    ],
+    "deontological_ethics": [
+      {
+        "filename": "2016-Holyoak-Deontological coherence.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2018-Kim-Toward Non-Intuition-Based Machine Ethics.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2020-Mainali-Automated Classification of Modes of Moral.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2020-Wright-A Deontic Logic for Programming Rightful Machines.md",
+        "score": 100,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2021-Prabhumoye-Case Study.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2023-Maile-The choice of deontological, virtue ethical, and.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-McDonald-AI alignment and the categorical imperative.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+        "score": 100,
+        "region": "Western Europe"
+      }
+    ],
+    "utilitarian_ethics": [
+      {
+        "filename": "2016-Holyoak-Deontological coherence.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2016-Xu-How Can a Deontological Decision Lead to Moral.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2020-Della Foresta-Consequentialism Machine Ethics.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2020-Mainali-Automated Classification of Modes of Moral.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2020-Serafimova-Whose Morality Which Rationality.md",
+        "score": 100,
+        "region": "Eastern Europe & Central Asia"
+      },
+      {
+        "filename": "2021-Hendrycks-Aligning AI with Shared Human Values.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2021-Prabhumoye-Case Study.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-K\u00f6rner-Deontology and Utilitarianism in Real Life.md",
+        "score": 100,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2023-Maile-The choice of deontological, virtue ethical, and.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-McDonald-AI alignment and the categorical imperative.md",
+        "score": 100,
+        "region": "Western Europe"
+      }
+    ],
+    "care_ethics": [
+      {
+        "filename": "2023-StanfordMasakhane-Decolonizing NLP for 'Low-resource Languages' Applying Abebe.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Liang-Synth-Empathy Towards High-Quality Synthetic Empathy Data.md",
+        "score": 100,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2024-Shen-EmpathicStories++ A Multimodal Dataset for Empathy towards Personal.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Chen-SYNTHEMPATHY A Scalable Empathy Corpus Generated Using LLMs Without.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-El Masri-Towards Attuned AI.md",
+        "score": 100,
+        "region": "Oceania"
+      },
+      {
+        "filename": "2025-Nadeem-Ethical Decision-Making in Humans and Large.md",
+        "score": 100,
+        "region": "South Asia"
+      },
+      {
+        "filename": "2025-Ogunremi-1 Decolonizing NLP for \u201cLow-resource Languages\u201d.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Suh-SENSE-7 Taxonomy and Dataset for Measuring User Perceptions of.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Dubey-Addressing Moral Uncertainty using Large Language.md",
+        "score": 95,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2025-Wang-PERM Psychology-grounded Empathetic Reward Modeling for Large.md",
+        "score": 95,
+        "region": "East Asia"
+      }
+    ],
+    "contractarian_ethics": [
+      {
+        "filename": "2024-Moore-Intuitions of Compromise.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.md",
+        "score": 100,
+        "region": "North America"
+      },
+      {
+        "filename": "2025-Chiu-MoReBench.md",
+        "score": 60,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-Boddington-Normative Ethical Theory AI Ethics.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2023-Ji-Commonsense Norm Bank.md",
+        "score": 50,
+        "region": "East Asia"
+      },
+      {
+        "filename": "2023-Mougan-Kantian Deontology Meets AI Alignment.md",
+        "score": 50,
+        "region": "Western Europe"
+      },
+      {
+        "filename": "2024-DAlessandro-Deontology and Safe Artificial Intelligence.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Hendrycks-Introduction to AI Safety, Ethics, and Society.md",
+        "score": 50,
+        "region": "North America"
+      },
+      {
+        "filename": "2024-Jang-Cross-Linguistic Moral Preferences in Large Language Models Evidence.md",
+        "score": 50,
+        "region": "Latin America & Caribbean"
+      },
+      {
+        "filename": "2024-Wang-Possibilities and challenges in the moral growth of LLMs.md",
+        "score": 50,
+        "region": "North America"
+      }
+    ]
+  },
+  "summary": {
+    "western_framework_papers": 152,
+    "nonwestern_framework_papers": 166,
+    "mean_weird_score": 64.5,
+    "high_weird_pct": 59.7
+  }
+}

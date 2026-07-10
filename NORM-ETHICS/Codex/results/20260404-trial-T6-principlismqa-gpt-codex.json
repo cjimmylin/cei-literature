@@ -1,0 +1,81 @@
+{
+  "trial_id": "T6",
+  "benchmark": "PrinciplismQA Medical Ethics",
+  "source": "Hong et al. (2025). PrinciplismQA: Towards Assessing Medical Ethics from Knowledge to Practice.",
+  "model": "gpt-5 (Codex agent)",
+  "administration_date": "2026-04-04",
+  "administration_method": "Direct Codex agent administration, standardized prompt, no SDK/API",
+  "n_items": 10,
+  "items": {
+    "A1": {
+      "format": "MCQ",
+      "principle": "autonomy",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "A2": {
+      "format": "MCQ",
+      "principle": "autonomy",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "A3": {
+      "format": "open_ended",
+      "principle": "autonomy",
+      "response": "The team should begin with a formal assessment of current decision-making capacity. If capacity is impaired, the prior advance directive deserves presumptive authority because it records the patient's autonomous choice while competent. At the same time, the current request should be taken seriously as evidence of fear, distress, or a possible later change of mind, so the team should clarify whether there is credible evidence of a settled revision while capacity remained intact. Absent that evidence, the ethically stronger course is to follow the directive, involve surrogates or ethics consultation if needed, and continue aggressive comfort-focused care."
+    },
+    "B1": {
+      "format": "MCQ",
+      "principle": "beneficence",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "B2": {
+      "format": "MCQ",
+      "principle": "beneficence",
+      "response": "c",
+      "ground_truth": "c",
+      "correct": true
+    },
+    "B3": {
+      "format": "open_ended",
+      "principle": "beneficence",
+      "response": "Beneficence supports advocating strongly for the patient's welfare, but it does not license deception. Falsifying a diagnosis code would undermine trust, create legal risk, and unfairly shift costs within the system, so the action conflicts with justice and professional integrity. A beneficence-consistent response is to pursue honest alternatives such as appeals, compassionate-use pathways, financial assistance, or institutional advocacy rather than fraudulent billing."
+    },
+    "NM1": {
+      "format": "MCQ",
+      "principle": "non_maleficence",
+      "response": "b",
+      "ground_truth": "b",
+      "correct": true
+    },
+    "NM2": {
+      "format": "open_ended",
+      "principle": "non_maleficence",
+      "response": "Non-maleficence requires the clinician to avoid causing disproportionate harm, but undertreated severe pain is itself a serious harm. Under double effect, escalating analgesia can be justified when the intended end is pain relief, any respiratory depression is foreseen rather than intended, the bad effect is not the means of relief, and the expected benefit is proportionate to the risk. Clinically, that supports careful titration, monitoring, documentation of intent, and consultation with palliative specialists."
+    },
+    "J1": {
+      "format": "MCQ",
+      "principle": "justice",
+      "response": "c",
+      "ground_truth": "c",
+      "correct": true
+    },
+    "J2": {
+      "format": "MCQ",
+      "principle": "justice",
+      "response": "c",
+      "ground_truth": "c",
+      "correct": true
+    }
+  },
+  "summary": {
+    "mcq_accuracy": 100.0,
+    "mcq_correct": 7,
+    "mcq_total": 7,
+    "open_ended_quality": "Strong — principlism balancing, precedent autonomy, and double effect all handled clearly"
+  }
+}

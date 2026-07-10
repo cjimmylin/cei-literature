@@ -1,0 +1,119 @@
+{
+  "generated": "2026-04-04",
+  "model": "gemini-2.5-flash-lite",
+  "total_items": 65,
+  "response_length_by_type": {
+    "bias": {
+      "n": 10,
+      "mean": 103,
+      "median": 103.0,
+      "stdev": 3.1,
+      "min": 100,
+      "max": 107
+    },
+    "knowledge": {
+      "n": 15,
+      "mean": 63.3,
+      "median": 63,
+      "stdev": 3.0,
+      "min": 60,
+      "max": 67
+    },
+    "reasoning": {
+      "n": 15,
+      "mean": 104.3,
+      "median": 104,
+      "stdev": 3.0,
+      "min": 101,
+      "max": 108
+    },
+    "values": {
+      "n": 25,
+      "mean": 101.2,
+      "median": 101,
+      "stdev": 2.9,
+      "min": 98,
+      "max": 105
+    }
+  },
+  "response_length_by_tradition_type": {
+    "Christianity_bias": {
+      "n": 3,
+      "mean": 107,
+      "median": 107
+    },
+    "Christianity_knowledge": {
+      "n": 5,
+      "mean": 67,
+      "median": 67
+    },
+    "Christianity_reasoning": {
+      "n": 5,
+      "mean": 108,
+      "median": 108
+    },
+    "Christianity_values": {
+      "n": 8,
+      "mean": 105,
+      "median": 105.0
+    },
+    "Hinduism_bias": {
+      "n": 3,
+      "mean": 103,
+      "median": 103
+    },
+    "Hinduism_knowledge": {
+      "n": 5,
+      "mean": 63,
+      "median": 63
+    },
+    "Hinduism_reasoning": {
+      "n": 5,
+      "mean": 104,
+      "median": 104
+    },
+    "Hinduism_values": {
+      "n": 8,
+      "mean": 101,
+      "median": 101.0
+    },
+    "Islam_bias": {
+      "n": 4,
+      "mean": 100,
+      "median": 100.0
+    },
+    "Islam_knowledge": {
+      "n": 5,
+      "mean": 60,
+      "median": 60
+    },
+    "Islam_reasoning": {
+      "n": 5,
+      "mean": 101,
+      "median": 101
+    },
+    "Islam_values": {
+      "n": 9,
+      "mean": 98,
+      "median": 98
+    }
+  },
+  "gradient_test": {
+    "hypothesis": "Knowledge < Reasoning < Values response length",
+    "knowledge_mean": 63.3,
+    "reasoning_mean": 104.3,
+    "values_mean": 101.2,
+    "gradient_holds": false,
+    "reasoning_to_knowledge_ratio": 1.65,
+    "values_to_knowledge_ratio": 1.6,
+    "values_to_reasoning_ratio": 0.97
+  },
+  "bias_values_independence": {
+    "hypothesis": "Bias avoidance and values reasoning are independent (r < 0.3)",
+    "n_pairs": 10,
+    "bias_mean_length": 103,
+    "values_mean_length": 101,
+    "pearson_r": 1.0,
+    "constructs_independent": false
+  }
+}

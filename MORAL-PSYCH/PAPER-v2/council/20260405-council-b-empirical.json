@@ -1,0 +1,19 @@
+{
+  "council_name": "Empirical Council (Council B)",
+  "date": "2026-04-05",
+  "purpose": "Guide rewriting of empirical sections: cross-vendor methodology (3.6-3.7), Results Part II (cross-model/cross-vendor), safety/policy implications",
+  "members": [
+    {"id": "B1", "role": "Cross-Vendor Analyst", "expertise": "Multi-model comparison design, variance decomposition, convergence metrics, coefficient of variation", "sections": ["results 5.1 convergence", "results 5.5 theory patterns"]},
+    {"id": "B2", "role": "RLHF/Alignment Expert", "expertise": "Constitutional AI, RLHF, InstructGPT, DPO, value encoding mechanisms", "sections": ["results 5.2 RLHF fingerprints", "discussion alignment implications"]},
+    {"id": "B3", "role": "AI Safety Researcher", "expertise": "Value monoculture risk, audit strategies, deployment risk, regulatory implications", "sections": ["discussion safety implications"]},
+    {"id": "B4", "role": "Scale Sensitivity Analyst", "expertise": "Parameter scaling laws, emergent capabilities, size-dependent moral behavior", "sections": ["results 5.3 scale sensitivity"]},
+    {"id": "B5", "role": "Cross-Cultural Psychologist", "expertise": "WEIRD bias, Hofstede dimensions, cultural persona validity, value pluralism", "sections": ["results cultural persona", "discussion monoculture critique"]},
+    {"id": "B6", "role": "Dual-Process Cognitive Scientist", "expertise": "System 1/2, CoT as deliberation proxy, cognitive load manipulation", "sections": ["results 5.4 Haiku CoT effect", "discussion dual-process implications"]},
+    {"id": "B7", "role": "Psychometrician (Empirical)", "expertise": "Test discrimination, ceiling/floor effects, reliability, benchmark fitness for LLMs", "sections": ["results 5.6 discrimination audit"]},
+    {"id": "B8", "role": "Statistical Methodologist", "expertise": "N=1 inference, bootstrap CIs, effect size interpretation, power analysis, multiple comparisons", "sections": ["all quantitative claims", "discussion statistical limitations"]},
+    {"id": "B9", "role": "Moral Philosophy Analyst", "expertise": "Normative characterization, meta-ethical interpretation, what convergence means philosophically", "sections": ["discussion philosophical framing"]},
+    {"id": "B10", "role": "Policy & Governance Expert", "expertise": "Algorithmic auditing, regulatory implications, standardization needs", "sections": ["discussion policy recommendations", "conclusion"]},
+    {"id": "B11", "role": "Developmental Psychologist", "expertise": "Kohlberg stages, DIT, stage theory applicability to LLMs, maturation models", "sections": ["results Kohlberg findings", "discussion developmental reframing"]},
+    {"id": "B12", "role": "Philosophy of Mind Specialist", "expertise": "Functional moral agency, consciousness, whether 'moral psychology' applies to LLMs", "sections": ["discussion philosophical framing", "terminology"]}}
+  ]
+}

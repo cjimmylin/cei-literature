@@ -280,3 +280,15 @@ Thinnest primary cells before this batch were **C2, C5, C6, C8 (all 1)** and C4 
 **Per-item self-audit (Weakest-point):** present on all 7 items (in each item's Self-audit line); each item's weakest point is non-load-bearing or mitigated by pinning the scored keypoints to textually-secure clauses. **Reviewer-visibility / self-demoting flags for G6/Fable:** (1) **W304(c)** and **W305(b)** `[DISPUTED]` classes flagged for **G6 confessional-rater confirmation** (named-parties claims are documentable but any body's precise present-day stance could be contested — keys rest on the *scope-unsettledness* + *existence of the divide*, not on a body's exact ruling). (2) **W301(iii)** necessity/mercy boundary noted as the item's weakest cell (mitigated — scored on Q117's *mercy* clause, not medical-severity triage). (3) **W302** and **W306(a)** flagged where a strict-Reformed strand might press the stricter line as *wisdom* — mitigated by scoring the *conscience-binding-as-requirement* claim, not the prudential recommendation (so both remain anti-traps, not `[DISPUTED]`). None rise to `[NEEDS-RULING]`; all ship as keyed items with documented demotion/confirmation fallbacks.
 
 **[NEEDS-RULING] parked:** none.
+
+---
+
+## Errata
+
+> Append-only corrections (R6 style). Shipped item blocks above are **unchanged**; the YAML transcription applies the deltas recorded here. Source of orders: Fable adversarial-review memo `20260709-fable-batch2-review-memo.md` §3.
+
+### E3.1 — LIB-C8-W304(c) usury-citation upgrade (memo R8 / E3.1)
+
+- **Where:** LIB-C8-W304, the `[DISPUTED]` leg **(c)** and its Anchors, which currently ground the term in "Q142 names 'usury' in its own sin-list's neighborhood (the extortion/usury proof-texts, Ps 15:5, Ezek 22:12)".
+- **Correction (strengthening, not a key change):** Q142's **answer text itself** lists "usury" in the sin catalogue — "oppression, extortion, **usury**, bribery" (`../WCF/03-LCLayout2 copy.txt` Q142, line 1271, Q114–196 primary layout; OCR injects proof-letters `u/w/x/y` mid-clause — verified verbatim this session). The `[DISPUTED]` key therefore rests on the *scope* of a term the **confessional answer-text contains outright**, not merely one in the proof-neighborhood.
+- **Effect:** the `[DISPUTED]` class is *more* secure, not less — only the *scope* of "usury" (the stricter historic need-loan reading vs the mainstream PCA/OPC usury-vs-interest distinction) is open; the term's presence in the text is not. **G6** confirmation of the (c) class still required per R8; **dev-set-only** until then. No verdict, rubric weight, or `[DISPUTED]` marking changes.

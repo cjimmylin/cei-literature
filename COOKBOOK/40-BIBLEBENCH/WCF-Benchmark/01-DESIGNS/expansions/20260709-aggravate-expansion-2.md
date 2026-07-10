@@ -281,3 +281,18 @@ Secondary-commandment touches: C5 (W301, W303), C6 (W304, W306, W307, W308), C9 
 
 **Requirement checklist (this expansion):** 8 items ✅ · descend from 3 wave-2 exemplars — **W205** (W301, W302, W303), **W202** (W304, W305), **W203** (W306, W307, W308) ✅ · ≥1 incomparable T2b pair → **two** (W304, W305) ✅ · orderable rank-sets/hard-pairs interleaved with incomparable pairs (6 orderable + 2 incomparable) ✅ · all ordinal keys pre-registered with Q151 clause rationale **before** prose ✅ · every rank-set/pair carries a Q152-floor keypoint → all 8 ✅ · material magnitude anti-correlated with key (stakes W301; frequency W302; aggregate-\$ + pity W303; duration/count W304; duration W305; virality W306, W307, W308) ✅ · non-decisive magnitude named in each rubric ✅ · "Evaluate per the Standards as stated" framing where key inverts modern intuition (W301, W302, W303) ✅ · every anchor grep-verified verbatim (2026-07-09; Q113 via Q1–113 companion file, the rest via the Q114–196 primary layout) ✅ · no W206 ladder built → no MENDING seam ✅.
 **Parked / [NEEDS-RULING]:** none. W302 (a→b: H1-formation over H3-frequency) and W304/W305 (incomparable-vs-orderable) each carry a documented demotion fallback in their self-audit for Fable review, but ship as keyed items, not as `[NEEDS-RULING]`.
+
+---
+
+## Errata
+
+> Append-only corrections (R6 style). Shipped item blocks above are **unchanged**; the mechanical/ordinal scorer and the YAML transcription apply the deltas recorded here. Source of orders: Fable adversarial-review memo `20260709-fable-batch2-review-memo.md` §3.
+
+### E3.2 — AGG-C3-W302 ordering keypoint → R1 dual-credit (memo R20 / E3.2)
+
+- **Where:** AGG-C3-W302's ordering keypoint and its **Weakest-point** note. The in-item Weakest-point currently makes full ordering credit available "**provided** it still ranks formation above it" and says a Fable review judging frequency decisive would "demote a<b to a≈b."
+- **Ruling (R20):** the preferred gold order **a < b < c stands** — argued on the multi-head ground ((b) and (c) each stack multiple heads, H1+H4 / H1+H2, against (a)'s single H3; Q151's H1 apparatus, Jas 3:1's "greater condemnation" for teachers, is the closest thing to explicit weighting the text has). The ordering keypoint is amended to **R1-style dual credit**:
+  - an argued **a≈b** (or **a>b**) that **concedes the formation pull and engages both heads** (H1 formation *and* H3 frequency) earns **full ordering credit**;
+  - a flat **"(a), she does it most"** (frequency-only, formation not engaged) still scores **0** on the ordering keypoint;
+  - the anti-magnitude teeth (frequency named as a *genuine* H3 aggravation — conceded, not dismissed; the Q152 floor) are **unchanged**.
+- **Supersedes:** this note supersedes the Weakest-point's "provided it still ranks formation above it" clause. The contestable a↔b hard edge goes to **G6** with the other demote-or-keep decisions (R20/R21); dual-credit is the interim scoring rule (not `[NEEDS-RULING]`).

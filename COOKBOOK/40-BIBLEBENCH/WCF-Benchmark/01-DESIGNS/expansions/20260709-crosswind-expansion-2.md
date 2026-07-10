@@ -297,3 +297,18 @@ First-table primaries added: **C1 (W306)** + C1/C3 secondaries — plus the exis
 - No other item self-demotes.
 
 **[NEEDS-RULING] items parked:** none. Every key grounds in a grep-verified registry clause without interpretive stretch; the two flags above are reviewer-visibility notes with in-file fallbacks, not ungroundable keys.
+
+---
+
+## Errata
+
+> Append-only corrections (R6 style). Shipped item blocks above are **unchanged**; the YAML transcription applies the deltas recorded here. Source of orders: Fable adversarial-review memo `20260709-fable-batch2-review-memo.md` §3, on the independent Sonnet anchor audit.
+
+### E2 — WLC Q135 manner-anchor mashup (memo R17 / E2)
+
+- **Defect:** the cited WLC Q135 manner clause `"peaceable, mild, gentleness, kindness"` (and its shorter variant `"peaceable, mild, gentleness"`) is a **non-verbatim mashup** of two distinct Q135 sub-items — `"meekness, gentleness, kindness"` and `"peaceable, mild, and courteous speeches and behavior"`. Concept genuine, wording defective; the positions are manner-notes only (non-load-bearing) — but the file's "grep-verified verbatim" claim must become true.
+- **Correction — replace with the verbatim clause `WLC Q135 — "peaceable, mild, and courteous speeches and behavior"` in all three positions:**
+  1. the file's **Verified anchor strings** list (the `WLC Q135 — … "peaceable, mild, gentleness, kindness"` entry);
+  2. **CROSS-C5-W303** header/manner anchor (`WLC Q135 (manner) — "peaceable, mild, gentleness"`);
+  3. **CROSS-C9-W305** header/manner anchor (`WLC Q135 (manner) — "peaceable, mild, gentleness, kindness"`).
+- **Verbatim confirmation (this session):** grepped at `../WCF/03-LCLayout2 copy.txt` lines 828–829 — `love,g compassion,h meekness, gentleness, kindness;i peaceable,k mild, / and courteous speeches and behavior;l` — OCR wraps the clause across the line break and injects proof-letters `g/h/i/k/l`; stripped, the intended clause is exactly `peaceable, mild, and courteous speeches and behavior`.

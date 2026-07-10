@@ -51,14 +51,34 @@ from wcfbench.contested import (  # noqa: E402
     run_negative_disclosure_probe,
 )
 from wcfbench.probe_fixtures import DISCRIMINATION_DISCRIMINATING_KPS  # noqa: E402
+from wcfbench.qualification import (  # noqa: E402
+    qualify_judge, build_manifest, write_manifest, manifest_from_pass_table,
+    SURFACE_PROBES, PROBES as ACCEPTANCE_PROBES,
+    OPEN_AWARD, DISCLOSURE, COHERENCE, SETTLED_CORE,
+)
 
 MODELS_URL = "https://openrouter.ai/api/v1/models"
 OUT_DIR = os.path.normpath(
     os.path.join(HARNESS_ROOT, "..", "07-PILOTS", "20260710-probe-stability")
 )
+SCREEN_DIR = os.path.normpath(
+    os.path.join(HARNESS_ROOT, "..", "07-PILOTS", "20260710-third-family-screen")
+)
 K = 8
+THRESHOLD = 5
 JUDGE_MAX_TOKENS = 2048
 RETRIES = 2  # on network/5xx errors, retry up to 2x then record an error rep
+
+# R36.4 third-family candidate order (family NOT in {openai, google, anthropic}; screen-first,
+# wire only a >=5/8 qualifier). Each entry lists slugs newest-first; the first live in the
+# catalog wins. Mistral is EXHAUSTED (R36.2) — deliberately absent.
+THIRD_FAMILY_CANDIDATES = [
+    ("cohere", ["cohere/command-r-08-2024", "cohere/command-r", "cohere/command-a",
+                "cohere/command-r-plus-08-2024", "cohere/command-r-plus"]),
+    ("x-ai", ["x-ai/grok-4-fast", "x-ai/grok-3-mini", "x-ai/grok-code-fast-1",
+              "x-ai/grok-2-1212", "x-ai/grok-beta"]),
+    ("amazon", ["amazon/nova-lite-v1", "amazon/nova-micro-v1", "amazon/nova-pro-v1"]),
+]
 
 # Three fixed judges + one fresh mid-tier candidate (validated live in main()).
 FIXED_JUDGES = [
@@ -230,15 +250,146 @@ def _print_plan(judges, api_key):
     print(f"output -> {OUT_DIR}/")
 
 
+# ===========================================================================
+# R36 third-family SCREEN: run the new K=8 majority gate (wcfbench.qualification)
+# on candidate slugs in order (cohere -> grok -> nova); wire the first >=5/8
+# disclosure qualifier. Screen-first (R36.3): never wire a non-qualifier.
+# ===========================================================================
+
+def _resolve_candidates(catalog):
+    """First live slug per family, in R36.4 order; None if the family has no live slug."""
+    return [(family, next((s for s in slugs if s in catalog), None), slugs)
+            for family, slugs in THIRD_FAMILY_CANDIDATES]
+
+
+def _load_provisional_rows():
+    """The frozen provisional manifest's per-judge pass table (to combine with a new family)."""
+    from wcfbench.qualification import load_manifest
+    m = load_manifest(os.path.join(OUT_DIR, "20260710-qualification-manifest.json"))
+    return [{"name": j["name"], "family": j["family"], "slug": j["slug"],
+             "pass_counts": {p: v["n_pass"] for p, v in j["probe_pass"].items()}} for j in m["judges"]]
+
+
+def run_screen(api_key, go):
+    catalog = fetch_model_ids(api_key)
+    resolved = _resolve_candidates(catalog)
+    print("=" * 74)
+    print(f"Third-family screen (R36) — K={K}, gate >= {THRESHOLD}/{K}; wire first disclosure qualifier")
+    print("=" * 74)
+    for family, live, slugs in resolved:
+        print(f"  {family:8s} -> {live or 'NONE live in catalog'}")
+    candidates = [(family, slug) for family, slug, _ in resolved if slug]
+    if not go:
+        print("\n(dry run) pass --screen --go to run the K=8 battery on each candidate in order.")
+        print(f"output -> {SCREEN_DIR}/")
+        return 0
+    if not candidates:
+        print("\nERROR: no candidate slug is live in the catalog — nothing to screen.", file=sys.stderr)
+        return 2
+
+    os.makedirs(SCREEN_DIR, exist_ok=True)
+    ts = datetime.datetime.now().isoformat(timespec="seconds")
+    results = []
+    wired = None
+    for family, slug in candidates:
+        name = slug.split("/")[-1]
+        print(f"\n=== screening {name} ({slug}) ===")
+        client = OpenRouterModelClient(model=slug, temperature=0.0, max_tokens=JUDGE_MAX_TOKENS)
+        cap = CapturingClient(client)   # transport-level retry on 5xx + raw capture
+        qual = qualify_judge(cap, name=name, family=family, slug=slug, k=K, threshold=THRESHOLD)
+        row = {"name": name, "family": family, "slug": slug,
+               "probe_pass": {p: {"n_pass": r.n_pass, "k": r.k} for p, r in qual.probe_reps.items()},
+               "cause_tally": {p: r.cause_tally() for p, r in qual.probe_reps.items()},
+               "eligible_surfaces": sorted(qual.surfaces)}
+        results.append(row)
+        for p in ACCEPTANCE_PROBES:
+            print(f"  {p:22s} {qual.probe_reps[p].n_pass}/{K}  {qual.probe_reps[p].cause_tally()}")
+        print(f"  eligible: {sorted(qual.surfaces) or '[] — no surface'}")
+        if DISCLOSURE in qual.surfaces:
+            wired = row
+            extra = " + OPEN award (both starved surfaces)" if OPEN_AWARD in qual.surfaces else ""
+            print(f"  >>> QUALIFIES for DISCLOSURE{extra} — WIRING {slug} (R36.3); stopping.")
+            break
+        print("  --- below 5/8 on disclosure; NOT wired (R36.3). Next candidate.")
+
+    _write_screen_report(results, wired, ts)
+    if wired:
+        rows = _load_provisional_rows() + [{"name": wired["name"], "family": wired["family"],
+                                            "slug": wired["slug"],
+                                            "pass_counts": {p: v["n_pass"] for p, v in wired["probe_pass"].items()}}]
+        combined = manifest_from_pass_table(
+            rows, run_dir="07-PILOTS/20260710-third-family-screen", timestamp=ts,
+            memo="R34-R37 + R36 third-family (combined manifest)", k=K, threshold=THRESHOLD)
+        mpath = os.path.join(SCREEN_DIR, "20260710-third-family-manifest.json")
+        write_manifest(mpath, combined)
+        print(f"\nwrote combined manifest {mpath}")
+    else:
+        print("\nNo candidate reached >=5/8 on disclosure. Third family still starved (R36.5).")
+        print("Next: escalate tier within new families (command-a / grok-frontier) per R36.4.")
+    return 0
+
+
+def _write_screen_report(results, wired, ts):
+    md = os.path.join(SCREEN_DIR, "20260710-third-family-screen-report.md")
+    lines = ["# WCF-Bench — Third-Family Screen (R36)", "",
+             f"Canary: `WCFBENCH-CANARY-c1647-x9k4q`  ·  Run: {ts}  ·  K={K}, gate >= {THRESHOLD}/{K}, temperature=0",
+             "",
+             "DESCRIPTIVE / pre-gate. Screen-first (R36.3): a candidate is wired only if it reaches "
+             ">=5/8 on the starved DISCLOSURE surface (OPEN award ideally too). Mistral is exhausted "
+             "(R36.2) and absent.", ""]
+    lines.append("## Pass table (n_pass / K) + rep-cause tally")
+    lines.append("")
+    for r in results:
+        lines.append(f"### {r['name']} — `{r['slug']}` (family={r['family']})")
+        lines.append("")
+        lines.append("| probe | n_pass/K | cause tally |")
+        lines.append("|---|---|---|")
+        for p in ACCEPTANCE_PROBES:
+            pp = r["probe_pass"][p]
+            lines.append(f"| {p} | {pp['n_pass']}/{pp['k']} | {r['cause_tally'][p]} |")
+        lines.append("")
+        lines.append(f"- **eligible surfaces:** {r['eligible_surfaces'] or '[] — none'}")
+        lines.append("")
+    if wired:
+        lines.append(f"## WIRED: `{wired['slug']}` (family={wired['family']})")
+        lines.append("")
+        lines.append(f"Reaches >=5/8 on disclosure -> a SECOND valid disclosure family "
+                     f"(with google/gemini-2.5-flash). Eligible: {wired['eligible_surfaces']}. "
+                     f"Combined manifest written; R34.4 (>=2 families per scored surface) progress.")
+    else:
+        lines.append("## No qualifier — third family still starved (R36.5)")
+        lines.append("")
+        lines.append("No screened candidate reached >=5/8 on disclosure. H-DISC stays unpromotable "
+                     "(R30 condition 6 unmet). Escalate tier within new families next (R36.4).")
+    lines.append("")
+    with open(md, "w") as fh:
+        fh.write("\n".join(lines) + "\n")
+    print(f"wrote {md}")
+
+
 def main():
     global K
     ap = argparse.ArgumentParser()
     ap.add_argument("--go", action="store_true", help="make the real API calls (spends tokens)")
+    ap.add_argument("--screen", action="store_true",
+                    help="R36 third-family screen (cohere->grok->nova) instead of the 4-judge sweep")
     ap.add_argument("-k", type=int, default=K, help="reps per (judge, probe)")
     args = ap.parse_args()
 
     K = args.k
     api_key = os.environ.get("OPENROUTER_API_KEY")
+
+    if args.screen:
+        if args.go and not api_key:
+            print("ERROR: $OPENROUTER_API_KEY not set. `source ~/.codex/secrets/openrouter.env` first.",
+                  file=sys.stderr)
+            return 2
+        if not api_key:
+            print("(no $OPENROUTER_API_KEY — cannot validate slugs; showing static candidate order)")
+            for family, slugs in THIRD_FAMILY_CANDIDATES:
+                print(f"  {family:8s} -> {slugs}")
+            return 0
+        return run_screen(api_key, args.go)
 
     if not args.go:
         judges = FIXED_JUDGES + [("mistral-medium", "mistral", "PENDING")]
@@ -405,8 +556,14 @@ def _write_report(judges, pass_counts, raw_path, fourth_meta, ts):
             def fmt(pat):
                 if pat is None:
                     return "None"
-                return "".join("A" if pat.get(k) is True else
-                               ("D" if pat.get(k) is False else "?")
+                # R37.2: json.loads stringifies the integer KP keys on the round-trip through
+                # raw_verdicts.jsonl, so a bare pat.get(1) missed every cell and rendered "???".
+                # Look up both the int and str form. (New runs only; the existing report is
+                # frozen per report immutability — raw_verdicts.jsonl is authoritative.)
+                def g(k):
+                    return pat.get(k, pat.get(str(k)))
+                return "".join("A" if g(k) is True else
+                               ("D" if g(k) is False else "?")
                                for k in DISCRIMINATION_DISCRIMINATING_KPS)
             examples.append((r["rep"], fmt(sp), fmt(wp), cat, r["passed"]))
         lines.append(f"### {jn}")

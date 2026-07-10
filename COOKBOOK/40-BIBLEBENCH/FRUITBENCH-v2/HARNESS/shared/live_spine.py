@@ -53,6 +53,7 @@ _DIRECT_HIDDEN_TOKENS = frozenset(
         "actor",
         "calibration",
         "canonical",
+        "condition",
         "expected",
         "family",
         "fruit",
@@ -61,6 +62,7 @@ _DIRECT_HIDDEN_TOKENS = frozenset(
         "opaque",
         "snapshot",
         "vendor",
+        "version",
     }
 )
 _COMPACT_HIDDEN_PREFIXES = (

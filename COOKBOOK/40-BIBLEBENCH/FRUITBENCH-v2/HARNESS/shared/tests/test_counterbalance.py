@@ -134,6 +134,19 @@ def test_quartet_validation_rejects_blank_identifiers_and_unknown_arms() -> None
         api.validate_surface_quartets([replace(rows[0], cue_arm="CX"), *rows[1:]])
 
 
+@pytest.mark.parametrize("actor_id", ["gpt-5.5", "A1", "J01", "A001", " A01"])
+def test_schedule_rejects_nonopaque_actor_ids(actor_id: str) -> None:
+    api = _api()
+
+    with pytest.raises(api.CounterbalanceError, match="A##"):
+        api.build_latin_square_schedule(
+            actors=[actor_id],
+            surfaces=_quartet(),
+            rollouts=3,
+            phase="development",
+        )
+
+
 def test_development_compiler_exposes_c0_c1_c2_and_rejects_c3_requests() -> None:
     api = _api()
     registry = _quartet()

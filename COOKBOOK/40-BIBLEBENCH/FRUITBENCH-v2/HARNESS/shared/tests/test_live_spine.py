@@ -176,6 +176,8 @@ def test_blind_event_payload_recursively_removes_hidden_case_style_variants() ->
                 "expectedOutcome": "reopen",
                 "GOLD_LABEL": "positive",
                 "calibrationRole": "evaluation",
+                "experimentalCondition": "C3",
+                "version": "gpt-secret",
                 "PriorJudgeBallots": [{"judge_id": "J01", "vote": "positive"}],
             }
         ],

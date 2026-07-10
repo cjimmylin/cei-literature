@@ -24,6 +24,20 @@ HUMAN_LABEL_HASH = "b" * 64
 LAYER_E_HASH = "c" * 64
 LAYER_R_HASH = "d" * 64
 EXPECTED_PROMPTS = {"layer_e": LAYER_E_HASH, "layer_r": LAYER_R_HASH}
+EXPECTED_JUDGES = {
+    "J01": {
+        "model_id": "anthropic/claude-sonnet-4.6",
+        "canonical_snapshot": "anthropic/claude-sonnet-4.6-20260618",
+        "vendor": "Anthropic",
+        "family": "Claude-Sonnet",
+    },
+    "J02": {
+        "model_id": "google/gemini-3-pro",
+        "canonical_snapshot": "google/gemini-3-pro-20260601",
+        "vendor": "Google",
+        "family": "Gemini-Pro",
+    },
+}
 
 
 def _judge(
@@ -42,13 +56,25 @@ def _judge(
         "family": family,
         "metrics": {
             "macro_f1": 0.91,
+            "auprc": 0.89,
             "worst_class_f1": 0.82,
             "agreement": 0.88,
         },
         "thresholds": {
             "macro_f1": 0.85,
+            "auprc": 0.80,
             "worst_class_f1": 0.75,
             "agreement": 0.80,
+        },
+        "by_class": {
+            "Fi": {
+                "metrics": {"f1": 0.92, "auprc": 0.90},
+                "thresholds": {"f1": 0.75, "auprc": 0.75},
+            },
+            "Wj": {
+                "metrics": {"f1": 0.82, "auprc": 0.84},
+                "thresholds": {"f1": 0.75, "auprc": 0.75},
+            },
         },
         "calibration_n": 48,
         "refusal_rate": 0.02,
@@ -67,6 +93,16 @@ def _artifact() -> dict:
         "human_human": {
             "metrics": {"agreement": 0.91, "weighted_kappa": 0.84},
             "thresholds": {"agreement": 0.85, "weighted_kappa": 0.80},
+            "by_class": {
+                "Fi": {
+                    "metrics": {"agreement": 0.94},
+                    "thresholds": {"agreement": 0.85},
+                },
+                "Wj": {
+                    "metrics": {"agreement": 0.88},
+                    "thresholds": {"agreement": 0.80},
+                },
+            },
         },
         "judges": [
             _judge(
@@ -100,6 +136,7 @@ def _validate(source):
         expected_label_set_sha256=LABEL_HASH,
         expected_human_label_set_sha256=HUMAN_LABEL_HASH,
         expected_prompt_hashes=EXPECTED_PROMPTS,
+        expected_judge_identities=EXPECTED_JUDGES,
     )
 
 
@@ -186,7 +223,9 @@ def test_rejects_malformed_stale_or_mismatched_hashes(mutation, message: str) ->
         _validate(artifact)
 
 
-@pytest.mark.parametrize("metric", ["macro_f1", "worst_class_f1", "agreement"])
+@pytest.mark.parametrize(
+    "metric", ["macro_f1", "auprc", "worst_class_f1", "agreement"]
+)
 def test_rejects_missing_judge_metric_or_threshold(metric: str) -> None:
     artifact = _artifact()
     artifact["judges"][0]["metrics"].pop(metric)
@@ -198,6 +237,49 @@ def test_rejects_missing_judge_metric_or_threshold(metric: str) -> None:
     with pytest.raises(JudgeValidationError, match=metric):
         _validate(artifact)
 
+
+def test_requires_per_class_human_and_judge_metrics() -> None:
+    artifact = _artifact()
+    artifact["judges"][0].pop("by_class")
+    with pytest.raises(JudgeValidationError, match="by_class"):
+        _validate(artifact)
+
+    artifact = _artifact()
+    artifact["human_human"].pop("by_class")
+    with pytest.raises(JudgeValidationError, match="human_human.*by_class"):
+        _validate(artifact)
+
+    artifact = _artifact()
+    artifact["judges"][0]["by_class"]["Wj"]["metrics"]["auprc"] = 0.70
+    with pytest.raises(JudgeValidationError, match="by_class.*below threshold"):
+        _validate(artifact)
+
+
+def test_worst_class_f1_must_equal_observed_class_minimum() -> None:
+    artifact = _artifact()
+    artifact["judges"][0]["metrics"]["worst_class_f1"] = 0.90
+
+    with pytest.raises(JudgeValidationError, match="worst_class_f1.*minimum"):
+        _validate(artifact)
+
+
+def test_judge_snapshot_and_identity_are_bound_to_expected_catalog_values() -> None:
+    artifact = _artifact()
+    artifact["judges"][0]["canonical_snapshot"] = "anthropic/claude-sonnet-4.6"
+
+    with pytest.raises(JudgeValidationError, match="canonical_snapshot.*expected"):
+        _validate(artifact)
+
+    incomplete_expected = {"J01": EXPECTED_JUDGES["J01"]}
+    with pytest.raises(JudgeValidationError, match="expected_judge_identities"):
+        validate_judge_validation_artifact(
+            _artifact(),
+            expected_design="vinedresser",
+            expected_label_set_sha256=LABEL_HASH,
+            expected_human_label_set_sha256=HUMAN_LABEL_HASH,
+            expected_prompt_hashes=EXPECTED_PROMPTS,
+            expected_judge_identities=incomplete_expected,
+        )
 
 def test_rejects_unmet_judge_or_human_thresholds() -> None:
     artifact = _artifact()

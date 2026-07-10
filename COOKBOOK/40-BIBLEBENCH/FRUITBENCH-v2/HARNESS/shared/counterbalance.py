@@ -30,6 +30,7 @@ _NULL_FOIL_PATTERN = re.compile(
     r"\b(?:null|foil|neutraliz\w*|inapplicab\w*)\b",
     re.IGNORECASE,
 )
+_OPAQUE_ACTOR_PATTERN = re.compile(r"A[0-9]{2}\Z")
 
 
 class CounterbalanceError(ValueError):
@@ -247,8 +248,8 @@ def build_latin_square_schedule(
     if not actor_ids:
         raise CounterbalanceError("schedule requires at least one actor")
     for actor_id in actor_ids:
-        if not isinstance(actor_id, str) or not actor_id.strip():
-            raise CounterbalanceError("schedule actor_id values must be nonblank strings")
+        if not isinstance(actor_id, str) or _OPAQUE_ACTOR_PATTERN.fullmatch(actor_id) is None:
+            raise CounterbalanceError("schedule actor_id values must be opaque A## identifiers")
     if len(set(actor_ids)) != len(actor_ids):
         raise CounterbalanceError("schedule requires unique actor_id values")
     if isinstance(rollouts, bool) or not isinstance(rollouts, int) or rollouts <= 0:

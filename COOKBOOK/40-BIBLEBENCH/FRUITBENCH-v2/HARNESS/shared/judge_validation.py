@@ -38,9 +38,11 @@ _REQUIRED_TOP_LEVEL = frozenset(
     }
 )
 _REQUIRED_JUDGE_METRICS = frozenset(
-    {"macro_f1", "worst_class_f1", "agreement"}
+    {"macro_f1", "auprc", "worst_class_f1", "agreement"}
 )
 _REQUIRED_HUMAN_METRICS = frozenset({"agreement"})
+_REQUIRED_JUDGE_CLASS_METRICS = frozenset({"f1", "auprc"})
+_REQUIRED_HUMAN_CLASS_METRICS = frozenset({"agreement"})
 _REQUIRED_JUDGE_FIELDS = frozenset(
     {
         "judge_id",
@@ -50,6 +52,7 @@ _REQUIRED_JUDGE_FIELDS = frozenset(
         "family",
         "metrics",
         "thresholds",
+        "by_class",
         "calibration_n",
         "refusal_rate",
         "max_refusal_rate",
@@ -233,6 +236,31 @@ def _metric_block(
             raise _fail(f"{field}.{name} is below threshold")
 
 
+def _class_metric_blocks(
+    parent: Mapping[str, Any],
+    field: str,
+    *,
+    required_metrics: frozenset[str],
+) -> tuple[frozenset[str], dict[str, Mapping[str, Any]]]:
+    if "by_class" not in parent:
+        raise _fail(f"{field} missing by_class metrics")
+    by_class = _mapping(parent["by_class"], f"{field}.by_class")
+    if not by_class:
+        raise _fail(f"{field}.by_class must be non-empty")
+    validated: dict[str, Mapping[str, Any]] = {}
+    for label, block in by_class.items():
+        class_label = _exact_text(label, f"{field}.by_class label")
+        class_field = f"{field}.by_class.{class_label}"
+        _metric_block(
+            block,
+            class_field,
+            required_metrics=required_metrics,
+            bounds=(0.0, 1.0),
+        )
+        validated[class_label] = _mapping(block, class_field)
+    return frozenset(validated), validated
+
+
 def _validate_completed_at(value: Any) -> None:
     text = _exact_text(value, "completed_at")
     if "T" not in text or not text.endswith("Z"):
@@ -256,12 +284,58 @@ def _validate_identity_text(value: Any, field: str, *, model: bool = False) -> s
     return text
 
 
-def _validate_judges(raw_judges: Any) -> None:
+def _validate_expected_judge_identities(
+    value: Any,
+) -> dict[str, dict[str, str]]:
+    identities = _mapping(value, "expected_judge_identities")
+    if len(identities) < 2:
+        raise _fail("expected_judge_identities must contain at least two judges")
+    expected: dict[str, dict[str, str]] = {}
+    required = {"model_id", "canonical_snapshot", "vendor", "family"}
+    for judge_id, raw in identities.items():
+        exact_id = _exact_text(judge_id, "expected_judge_identities judge_id")
+        if _JUDGE_ID_RE.fullmatch(exact_id) is None:
+            raise _fail("expected_judge_identities keys must be opaque J## identifiers")
+        identity = _mapping(raw, f"expected_judge_identities.{exact_id}")
+        if set(identity) != required:
+            raise _fail(
+                f"expected_judge_identities.{exact_id} must contain exactly "
+                f"{sorted(required)}"
+            )
+        expected[exact_id] = {
+            "model_id": _validate_identity_text(
+                identity["model_id"],
+                f"expected_judge_identities.{exact_id}.model_id",
+                model=True,
+            ),
+            "canonical_snapshot": _validate_identity_text(
+                identity["canonical_snapshot"],
+                f"expected_judge_identities.{exact_id}.canonical_snapshot",
+                model=True,
+            ),
+            "vendor": _validate_identity_text(
+                identity["vendor"],
+                f"expected_judge_identities.{exact_id}.vendor",
+            ),
+            "family": _validate_identity_text(
+                identity["family"],
+                f"expected_judge_identities.{exact_id}.family",
+            ),
+        }
+    return expected
+
+
+def _validate_judges(
+    raw_judges: Any,
+    expected_identities: Mapping[str, Mapping[str, str]],
+) -> frozenset[str]:
     if not isinstance(raw_judges, list) or len(raw_judges) < 2:
         raise _fail("judges must contain at least two validated judges")
     seen = {field: set() for field in (
         "judge_id", "model_id", "canonical_snapshot", "vendor", "family"
     )}
+    observed_ids: set[str] = set()
+    shared_classes: frozenset[str] | None = None
     for index, raw in enumerate(raw_judges):
         field = f"judges[{index}]"
         judge = _mapping(raw, field)
@@ -292,6 +366,17 @@ def _validate_judges(raw_judges: Any) -> None:
             if canonical in seen[name]:
                 raise _fail(f"overlapping judge identity field {name}: {value!r}")
             seen[name].add(canonical)
+        expected = expected_identities.get(judge_id)
+        if expected is None:
+            raise _fail(
+                f"{field}.judge_id is absent from expected_judge_identities"
+            )
+        for name in ("model_id", "canonical_snapshot", "vendor", "family"):
+            if identity[name] != expected[name]:
+                raise _fail(
+                    f"{field}.{name} does not match the expected catalog identity"
+                )
+        observed_ids.add(judge_id)
 
         _metric_block(
             judge,
@@ -299,6 +384,30 @@ def _validate_judges(raw_judges: Any) -> None:
             required_metrics=_REQUIRED_JUDGE_METRICS,
             bounds=(0.0, 1.0),
         )
+        class_names, class_blocks = _class_metric_blocks(
+            judge,
+            field,
+            required_metrics=_REQUIRED_JUDGE_CLASS_METRICS,
+        )
+        if shared_classes is None:
+            shared_classes = class_names
+        elif class_names != shared_classes:
+            raise _fail("all judges must report the same by_class labels")
+        observed_worst = min(
+            _finite_number(
+                class_blocks[label]["metrics"]["f1"],
+                f"{field}.by_class.{label}.metrics.f1",
+            )
+            for label in class_names
+        )
+        declared_worst = _finite_number(
+            judge["metrics"]["worst_class_f1"],
+            f"{field}.metrics.worst_class_f1",
+        )
+        if not math.isclose(declared_worst, observed_worst, abs_tol=1e-12):
+            raise _fail(
+                f"{field}.worst_class_f1 must equal the observed by_class minimum"
+            )
         calibration_n = judge["calibration_n"]
         if (
             isinstance(calibration_n, bool)
@@ -314,6 +423,13 @@ def _validate_judges(raw_judges: Any) -> None:
             raise _fail(f"{field} refusal rates must be within [0, 1]")
         if refusal > maximum:
             raise _fail(f"{field} refusal_rate exceeds its declared maximum")
+    if observed_ids != set(expected_identities):
+        raise _fail(
+            "judges must match expected_judge_identities exactly"
+        )
+    if shared_classes is None:
+        raise _fail("judges require by_class results")
+    return shared_classes
 
 
 def _validate_human_availability(value: Any) -> None:
@@ -343,6 +459,7 @@ def validate_judge_validation_artifact(
     expected_label_set_sha256: str,
     expected_human_label_set_sha256: str,
     expected_prompt_hashes: Mapping[str, str],
+    expected_judge_identities: Mapping[str, Mapping[str, str]],
 ) -> ValidatedJudgeValidation:
     """Validate a human judge artifact against current immutable inputs.
 
@@ -364,6 +481,9 @@ def validate_judge_validation_artifact(
         name: _sha256(prompts[name], f"expected_prompt_hashes.{name}")
         for name in _PROMPT_LAYERS
     }
+    expected_identities = _validate_expected_judge_identities(
+        expected_judge_identities
+    )
 
     raw = _source_bytes(source)
     record = _parse_json(raw)
@@ -401,7 +521,16 @@ def validate_judge_validation_artifact(
         required_metrics=_REQUIRED_HUMAN_METRICS,
         bounds=(-1.0, 1.0),
     )
-    _validate_judges(record["judges"])
+    human_classes, _human_blocks = _class_metric_blocks(
+        _mapping(record["human_human"], "human_human"),
+        "human_human",
+        required_metrics=_REQUIRED_HUMAN_CLASS_METRICS,
+    )
+    judge_classes = _validate_judges(record["judges"], expected_identities)
+    if judge_classes != human_classes:
+        raise _fail(
+            "human_human and judge by_class labels must match exactly"
+        )
     _validate_human_availability(record["human_availability"])
     _validate_completed_at(record["completed_at"])
 

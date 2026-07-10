@@ -4,7 +4,14 @@
 
 ---
 
-*(no open rulings)*
+### PR-02 — CLI-OAuth posture: ToS comfort + internal-citation boundary · **OPEN 2026-07-09** · decides: Jimmy
+
+- **Context:** `INNOVATION/20260709d-cli-oauth-provisional-ruling.md` (Fable, provisional) opened a GREEN/YELLOW/RED lane structure for the three OAuth-authenticated vendor CLIs. Two questions inside it exceed session tier:
+  1. **ToS posture:** consumer CLIs are not marketed for bulk benchmark use. The ruling caps volumes at pilot scale (≤500 calls/family/session). Is Jimmy comfortable with this posture at all, and with the caps as set?
+  2. **Internal-citation boundary:** may *internal* frozen verdicts cite `cli-oauth-provisional` judge-pilot results before API replication, or is provisional data quarantined from frozen surfaces entirely? (External claims are already NEVER — that part is not open.)
+- **Blocked without ruling:** nothing immediate (GREEN/YELLOW work proceeds under the provisional ruling); a NO on (1) retroactively halts the lane.
+- **Options (2):** (a) full quarantine — provisional data never cited by frozen verdicts; (b) cite-with-flag — allowed if marked provisional + replication obligation attached.
+- **Fable recommendation:** (a) full quarantine. The vault's core failure mode (SERMONMOUNT lesson) is provisional numbers hardening into load-bearing facts; cite-with-flag invites exactly that.
 
 ---
 

@@ -1,0 +1,130 @@
+{
+  "transcript": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/INNOVATION/40-BUILDS/rp04-corpus/20260709-s1-pilot/transcripts/20260709-s1-calibrate.jsonl",
+  "count": 10,
+  "versions": {
+    "anthropic_cli": "2.1.183 (Claude Code)",
+    "openai_cli": "codex-cli 0.134.0"
+  },
+  "rows": [
+    {
+      "sample_id": "S1-000",
+      "modality": "END",
+      "family": "anthropic_cli",
+      "status": "ok",
+      "model_id": "claude-haiku-4-5-20251001",
+      "latency_s": 15.4,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": true,
+      "truth_gold": true
+    },
+    {
+      "sample_id": "S1-000",
+      "modality": "END",
+      "family": "openai_cli",
+      "status": "ok",
+      "model_id": "gpt-5.5",
+      "latency_s": 7.1,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": true,
+      "truth_gold": true
+    },
+    {
+      "sample_id": "S1-003",
+      "modality": "END",
+      "family": "anthropic_cli",
+      "status": "ok",
+      "model_id": "claude-haiku-4-5-20251001",
+      "latency_s": 10.8,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": false,
+      "truth_gold": false
+    },
+    {
+      "sample_id": "S1-003",
+      "modality": "END",
+      "family": "openai_cli",
+      "status": "ok",
+      "model_id": "gpt-5.5",
+      "latency_s": 12.8,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": false,
+      "truth_gold": false
+    },
+    {
+      "sample_id": "S1-006",
+      "modality": "GEN",
+      "family": "anthropic_cli",
+      "status": "ok",
+      "model_id": "claude-haiku-4-5-20251001",
+      "latency_s": 9.3,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": true,
+      "truth_gold": true
+    },
+    {
+      "sample_id": "S1-006",
+      "modality": "GEN",
+      "family": "openai_cli",
+      "status": "ok",
+      "model_id": "gpt-5.5",
+      "latency_s": 12.6,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": true,
+      "truth_gold": true
+    },
+    {
+      "sample_id": "S1-009",
+      "modality": "GEN",
+      "family": "anthropic_cli",
+      "status": "ok",
+      "model_id": "claude-haiku-4-5-20251001",
+      "latency_s": 14.2,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": false,
+      "truth_gold": false
+    },
+    {
+      "sample_id": "S1-009",
+      "modality": "GEN",
+      "family": "openai_cli",
+      "status": "ok",
+      "model_id": "gpt-5.5",
+      "latency_s": 16.8,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": false,
+      "truth_gold": false
+    },
+    {
+      "sample_id": "S1-012",
+      "modality": "REC",
+      "family": "anthropic_cli",
+      "status": "ok",
+      "model_id": "claude-haiku-4-5-20251001",
+      "latency_s": 12.2,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": true,
+      "truth_gold": true
+    },
+    {
+      "sample_id": "S1-012",
+      "modality": "REC",
+      "family": "openai_cli",
+      "status": "ok",
+      "model_id": "gpt-5.5",
+      "latency_s": 12.1,
+      "parsed_ok": true,
+      "parse_err": null,
+      "gold_signal": true,
+      "truth_gold": true
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "seed": 20260709,
+  "target_n": 80,
+  "actual_n": 80,
+  "included_modalities": [
+    "END",
+    "REC",
+    "GEN"
+  ],
+  "excluded": {
+    "modality_excluded(ACT)": 3600,
+    "is_control(no_rendering)": 1350
+  },
+  "n_eligible_pool": 5400,
+  "n_strata": 18,
+  "strata_counts": {
+    "('END', 'gold', 'floor', 'mock-alpha')": 5,
+    "('END', 'gold', 'floor', 'mock-beta')": 5,
+    "('END', 'gold', 'floor', 'mock-gamma')": 5,
+    "('END', 'nongold', 'floor', 'mock-alpha')": 5,
+    "('END', 'nongold', 'floor', 'mock-beta')": 5,
+    "('END', 'nongold', 'floor', 'mock-gamma')": 5,
+    "('GEN', 'gold', 'hard', 'mock-alpha')": 5,
+    "('GEN', 'gold', 'hard', 'mock-beta')": 5,
+    "('GEN', 'gold', 'hard', 'mock-gamma')": 4,
+    "('GEN', 'nongold', 'hard', 'mock-alpha')": 4,
+    "('GEN', 'nongold', 'hard', 'mock-beta')": 4,
+    "('GEN', 'nongold', 'hard', 'mock-gamma')": 4,
+    "('REC', 'gold', 'floor', 'mock-alpha')": 4,
+    "('REC', 'gold', 'floor', 'mock-beta')": 4,
+    "('REC', 'gold', 'floor', 'mock-gamma')": 4,
+    "('REC', 'nongold', 'floor', 'mock-alpha')": 4,
+    "('REC', 'nongold', 'floor', 'mock-beta')": 4,
+    "('REC', 'nongold', 'floor', 'mock-gamma')": 4
+  },
+  "modality_counts": {
+    "END": 30,
+    "GEN": 26,
+    "REC": 24
+  },
+  "pole_counts": {
+    "gold": 41,
+    "off": 15,
+    "counterfeit": 13,
+    "deficient": 10,
+    "neutral": 1
+  },
+  "gold_signal_counts": {
+    "True": 41,
+    "False": 39
+  },
+  "tier_counts": {
+    "floor": 54,
+    "hard": 26
+  },
+  "model_counts": {
+    "mock-alpha": 27,
+    "mock-beta": 27,
+    "mock-gamma": 26
+  },
+  "note_controls": "is_control rows (2250) EXCLUDED from judging: they have no rendering/prompt in renderings.jsonl, so nothing can be shown to a judge. Documented as a machinery finding."
+}

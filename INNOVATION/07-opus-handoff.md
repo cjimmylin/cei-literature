@@ -19,6 +19,7 @@ Work top-down within the current cycle. Every task names its tier — dispatch s
 ## Cycle 2 — keys arrive (Jimmy gate)
 
 - [ ] **2.1 Shared runner (T1)** — one vendor-agnostic runner (Anthropic SDK + OpenAI; Gemini if key provided), caching + full transcript logging, rate-limit backoff from day one. Reuse THORNS harness spine patterns; respect its live-mode hard-block gates (S-1/S-2) for anything FRUITBENCH-derived. *Opus. This unblocks everything below.*
+  - **2.1-provisional DONE 2026-07-09 (Fable session):** CLI-OAuth backends built + GO'd at `40-BUILDS/t1-runner-provisional/` (Anthropic `claude -p` + OpenAI `codex exec` WORKING with real tokens; Google BROKEN — tier retired server-side, Jimmy action). Governance: ruling `20260709d-…-provisional-ruling.md` (GREEN/YELLOW/RED lanes, `cli-oauth-provisional` provenance class, volume caps) + adjudication `20260709e-…-adjudication.md` (shim GO w/ conditions C1–C5; S1 machinery PASS, findings F1–F4 bind Cycle 2). S1 pilot report: `40-BUILDS/rp04-corpus/20260709-s1-pilot/`. API backends still drop in behind the same interface when keys land — the RED lane (subject-side headline runs) remains key-gated.
 - [ ] **2.2 RP-07 HAWTHORNE run** — O1 item pairs (**Fable-tier gate on 20-pair sample before scale**) → O2–O4 → P1 short paper draft. *Opus; the Wave-1 flagship.*
 - [ ] **2.3 RP-04 phase 1 run** — re-score frozen corpus with 3+ judge families → judge-bias memo (P2). **Pre-commit honored: if biases threaten published CEI verdicts, robustness pass on affected benches is mandatory, not optional.** *Opus.*
 

@@ -102,9 +102,17 @@ def _gate_reading(g: dict) -> str:
 
 
 def _headline_gap(mall: dict, design: str) -> List[str]:
-    """G9: say_do_gap(03) / covert_overt_gap(08) per model, including nulls (loud)."""
+    """G9: say_do_gap(03) / covert_overt_gap(08) per model, including nulls (loud).
+
+    On COMPLETE data the design must be present; when it IS present its gap is
+    reported even if null (a null gap IS a finding — never suppressed). When the
+    design is absent (panel incomplete for it) we emit a loud incompleteness
+    warning rather than silently dropping the mandated headline.
+    """
     if design not in mall:
-        raise SystemExit(f"G9 VIOLATION: required headline design {design} absent from metrics")
+        return [f"> ⚠️ **G9 / PANEL INCOMPLETE:** required headline design `{design}` has NO "
+                f"records yet — its say-do/covert-overt gap CANNOT be reported. This report is "
+                f"PARTIAL; re-render after `{design}` completes.", ""]
     dm = mall[design]
     lines = [f"**{design}** — primary `{dm['primary_metric']}` (a NULL gap IS a finding — not suppressed):"]
     for m, cell in dm["per_model"].items():
@@ -140,6 +148,18 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
              "judges (G4). Every score below is UNRELEASABLE until its design passes G4; "
              "**06/09 are additionally PROVISIONAL until G5** (reference neutrality).")
     L.append("")
+    # completeness banner (partial-render tolerance)
+    designs_present = sorted(mall.keys())
+    n_runnable = sum(1 for it in items_by_id.values() if getattr(it, "runnable", True))
+    n_expected = n_runnable * len(models)
+    complete = (len(designs_present) == len(DESIGN_ORDER)) and (len(records) >= n_expected)
+    if not complete:
+        L.append(f"> 🚧 **PANEL INCOMPLETE** — {len(records)} of ~{n_expected} expected "
+                 f"(design × model) cells present; {len(designs_present)}/10 designs have "
+                 f"records. Every reading below is over the CELLS COLLECTED SO FAR and will "
+                 f"shift as the panel finishes. Re-render on the full merged run before any "
+                 f"O5 use.")
+        L.append("")
     L.append("## Panel composition")
     L.append("")
     L.append("| role | models |")

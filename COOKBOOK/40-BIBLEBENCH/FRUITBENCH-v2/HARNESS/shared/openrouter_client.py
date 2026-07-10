@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -56,6 +57,19 @@ _RETRYABLE_ERROR_TYPES = frozenset(
 )
 
 
+@dataclass(frozen=True)
+class AttemptRecord:
+    """Immutable provenance for one HTTP generation attempt."""
+
+    attempt: int
+    status_code: int | None
+    error_type: str | None
+    response_id: str | None
+    generation_id: str | None
+    router_metadata: dict[str, Any]
+    latency_ms: float
+
+
 class OpenRouterError(RuntimeError):
     """Typed OpenRouter failure with no secret-bearing request representation."""
 
@@ -73,6 +87,7 @@ class OpenRouterError(RuntimeError):
         attempts: int = 0,
         raw: Any = None,
         incomplete_details: Any = None,
+        attempt_ledger: tuple[AttemptRecord, ...] = (),
     ) -> None:
         super().__init__(message)
         self.error_type = error_type
@@ -86,6 +101,7 @@ class OpenRouterError(RuntimeError):
         self.attempts = attempts
         self.raw = raw
         self.incomplete_details = incomplete_details
+        self.attempt_ledger = attempt_ledger
 
     def __repr__(self) -> str:
         return (
@@ -121,8 +137,10 @@ class ResponseResult:
     request_id: str | None
     generation_id: str | None
     router_metadata: dict[str, Any]
+    routing_headers: dict[str, str]
     incomplete_details: Any
     attempts: int
+    attempt_ledger: tuple[AttemptRecord, ...]
     latency_ms: float
     service_tier: str = DEFAULT_SERVICE_TIER
 
@@ -165,7 +183,7 @@ def build_response_request(
     messages: list[dict[str, Any]],
     max_output_tokens: int,
     reasoning_effort: str | None,
-    provider_order: Sequence[str] | None = None,
+    provider_order: Sequence[str],
     service_tier: str = DEFAULT_SERVICE_TIER,
 ) -> dict[str, Any]:
     """Build the frozen non-streaming Responses request used by benchmark actors."""
@@ -184,8 +202,10 @@ def build_response_request(
     if not isinstance(service_tier, str) or not service_tier.strip():
         raise ValueError("service_tier must be non-blank")
 
-    order = list(provider_order or [model_id.split("/", 1)[0]])
-    if not order or any(not isinstance(value, str) or not value.strip() for value in order):
+    order = list(provider_order)
+    if len(order) != 1:
+        raise ValueError("provider_order must pin exactly one provider endpoint")
+    if any(not isinstance(value, str) or not value.strip() for value in order):
         raise ValueError("provider_order must contain non-blank provider identifiers")
 
     payload: dict[str, Any] = {
@@ -327,6 +347,197 @@ def _header(headers: Mapping[str, Any], name: str) -> str | None:
         if str(key).casefold() == wanted:
             return str(value)
     return None
+
+
+def _body_router_metadata(payload: Any) -> dict[str, Any]:
+    if not isinstance(payload, dict):
+        return {}
+    metadata = payload.get("openrouter_metadata")
+    return dict(metadata) if isinstance(metadata, dict) else {}
+
+
+def _routing_headers(headers: Mapping[str, Any]) -> dict[str, str]:
+    return {
+        str(key).casefold(): str(value)
+        for key, value in headers.items()
+        if str(key).casefold().startswith("x-openrouter-")
+    }
+
+
+def _attempt_record(
+    *,
+    attempt: int,
+    status_code: int | None,
+    error_type: str | None,
+    payload: Any,
+    headers: Mapping[str, Any],
+    latency_ms: float,
+) -> AttemptRecord:
+    response_id = (
+        payload.get("id")
+        if isinstance(payload, dict) and isinstance(payload.get("id"), str)
+        else None
+    )
+    return AttemptRecord(
+        attempt=attempt,
+        status_code=status_code,
+        error_type=error_type,
+        response_id=response_id,
+        generation_id=_header(headers, "X-Generation-Id"),
+        router_metadata=_body_router_metadata(payload),
+        latency_ms=latency_ms,
+    )
+
+
+def _provider_key(value: str) -> str:
+    """Normalize a documented provider display name or base slug."""
+
+    base = value.split("/", 1)[0]
+    return re.sub(r"[^a-z0-9]", "", base.casefold())
+
+
+def _routing_error(
+    message: str,
+    *,
+    error_type: str,
+    payload: dict[str, Any],
+    headers: Mapping[str, Any],
+    attempt_ledger: tuple[AttemptRecord, ...],
+) -> OpenRouterError:
+    return OpenRouterError(
+        message,
+        error_type=error_type,
+        status_code=200,
+        response_id=(payload.get("id") if isinstance(payload.get("id"), str) else None),
+        generation_id=_header(headers, "X-Generation-Id"),
+        retryable=False,
+        attempts=len(attempt_ledger),
+        raw=payload,
+        attempt_ledger=attempt_ledger,
+    )
+
+
+def _validate_routing_evidence(
+    payload: dict[str, Any],
+    *,
+    requested_model: str,
+    expected_canonical_slug: str,
+    provider_order: Sequence[str],
+    requested_service_tier: str,
+    headers: Mapping[str, Any],
+    attempt_ledger: tuple[AttemptRecord, ...],
+) -> tuple[dict[str, Any], str, dict[str, str]]:
+    actual_tier = payload.get("service_tier")
+    if not isinstance(actual_tier, str) or actual_tier != requested_service_tier:
+        raise _routing_error(
+            "served service tier does not match the frozen request",
+            error_type="service_tier_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+
+    metadata = payload.get("openrouter_metadata")
+    if not isinstance(metadata, dict):
+        raise _routing_error(
+            "successful response lacks required OpenRouter routing metadata",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    if metadata.get("requested") != requested_model:
+        raise _routing_error(
+            "router metadata requested model does not match the frozen request",
+            error_type="routing_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    if metadata.get("strategy") != "direct" or metadata.get("attempt") != 1:
+        raise _routing_error(
+            "router used a non-direct strategy or an internal fallback",
+            error_type="routing_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    pipeline = metadata.get("pipeline", [])
+    if not isinstance(pipeline, list):
+        raise _routing_error(
+            "router pipeline metadata is malformed",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    if pipeline:
+        raise _routing_error(
+            "router materially transformed the benchmark request or response",
+            error_type="routing_transformation",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+
+    endpoints = metadata.get("endpoints")
+    available = endpoints.get("available") if isinstance(endpoints, dict) else None
+    if not isinstance(available, list):
+        raise _routing_error(
+            "router endpoint metadata is missing or malformed",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    selected = [
+        endpoint
+        for endpoint in available
+        if isinstance(endpoint, dict) and endpoint.get("selected") is True
+    ]
+    if len(selected) != 1:
+        raise _routing_error(
+            "router metadata does not name exactly one selected endpoint",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    endpoint = selected[0]
+    provider = endpoint.get("provider")
+    served_model = endpoint.get("model")
+    if (
+        not isinstance(provider, str)
+        or _provider_key(provider) != _provider_key(provider_order[0])
+        or served_model not in {requested_model, expected_canonical_slug}
+    ):
+        raise _routing_error(
+            "selected provider endpoint does not match the frozen route",
+            error_type="routing_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    router_attempts = metadata.get("attempts")
+    if router_attempts is not None:
+        if not isinstance(router_attempts, list) or len(router_attempts) != 1:
+            raise _routing_error(
+                "router attempt metadata indicates a fallback",
+                error_type="routing_mismatch",
+                payload=payload,
+                headers=headers,
+                attempt_ledger=attempt_ledger,
+            )
+        only = router_attempts[0]
+        if not isinstance(only, dict) or only.get("status") != 200:
+            raise _routing_error(
+                "router attempt metadata does not identify one successful endpoint",
+                error_type="routing_mismatch",
+                payload=payload,
+                headers=headers,
+                attempt_ledger=attempt_ledger,
+            )
+    return dict(metadata), actual_tier, _routing_headers(headers)
 
 
 def _retry_after_seconds(headers: Mapping[str, Any]) -> float | None:
@@ -548,14 +759,21 @@ class OpenRouterClient:
         path: str,
         *,
         payload: dict[str, Any] | None = None,
-    ) -> tuple[dict[str, Any], dict[str, str], int, float]:
+    ) -> tuple[
+        dict[str, Any],
+        dict[str, str],
+        tuple[AttemptRecord, ...],
+        float,
+    ]:
         encoded = (
             json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
             if payload is not None
             else None
         )
         started = time.monotonic()
+        ledger: list[AttemptRecord] = []
         for attempt in range(1, self.max_retries + 2):
+            attempt_started = time.monotonic()
             request = Request(
                 f"{self.base_url}{path}",
                 data=encoded,
@@ -572,33 +790,85 @@ class OpenRouterClient:
                 headers = {key: value for key, value in exc.headers.items()}
                 status_code = int(exc.code)
             except URLError as exc:
+                record = _attempt_record(
+                    attempt=attempt,
+                    status_code=None,
+                    error_type="network_error",
+                    payload=None,
+                    headers={},
+                    latency_ms=(time.monotonic() - attempt_started) * 1000.0,
+                )
+                ledger.append(record)
                 error = OpenRouterError(
                     "OpenRouter network request failed",
                     error_type="network_error",
                     retryable=False,
                     attempts=attempt,
+                    attempt_ledger=tuple(ledger),
                 )
                 raise error from exc
 
-            decoded = _decode_json(
-                body, attempts=attempt, status_code=status_code
-            )
+            attempt_latency = (time.monotonic() - attempt_started) * 1000.0
+            try:
+                decoded = _decode_json(
+                    body, attempts=attempt, status_code=status_code
+                )
+            except OpenRouterError as error:
+                ledger.append(
+                    _attempt_record(
+                        attempt=attempt,
+                        status_code=status_code,
+                        error_type=error.error_type,
+                        payload=None,
+                        headers=headers,
+                        latency_ms=attempt_latency,
+                    )
+                )
+                error.generation_id = _header(headers, "X-Generation-Id")
+                error.attempt_ledger = tuple(ledger)
+                raise
             if not isinstance(decoded, dict):
+                ledger.append(
+                    _attempt_record(
+                        attempt=attempt,
+                        status_code=status_code,
+                        error_type="schema_error",
+                        payload=None,
+                        headers=headers,
+                        latency_ms=attempt_latency,
+                    )
+                )
                 raise OpenRouterError(
                     "OpenRouter response must be a JSON object",
                     error_type="schema_error",
                     status_code=status_code,
                     retryable=False,
                     attempts=attempt,
+                    attempt_ledger=tuple(ledger),
                 )
             has_error = isinstance(decoded.get("error"), dict)
-            if status_code >= 400 or has_error:
+            failed_status = (
+                decoded.get("status") == "failed"
+                and isinstance(decoded.get("error_type"), str)
+            )
+            if status_code >= 400 or has_error or failed_status:
                 error = _error_details(
                     decoded,
                     status_code=status_code,
                     headers=headers,
                     attempts=attempt,
                 )
+                ledger.append(
+                    _attempt_record(
+                        attempt=attempt,
+                        status_code=status_code,
+                        error_type=error.error_type,
+                        payload=decoded,
+                        headers=headers,
+                        latency_ms=attempt_latency,
+                    )
+                )
+                error.attempt_ledger = tuple(ledger)
                 if error.retryable and attempt <= self.max_retries:
                     delay = (
                         error.retry_after_seconds
@@ -608,8 +878,18 @@ class OpenRouterClient:
                     self._sleeper(delay)
                     continue
                 raise error
+            ledger.append(
+                _attempt_record(
+                    attempt=attempt,
+                    status_code=status_code,
+                    error_type=None,
+                    payload=decoded,
+                    headers=headers,
+                    latency_ms=attempt_latency,
+                )
+            )
             elapsed_ms = (time.monotonic() - started) * 1000.0
-            return decoded, headers, attempt, elapsed_ms
+            return decoded, headers, tuple(ledger), elapsed_ms
 
         raise AssertionError("unreachable retry loop")
 
@@ -620,7 +900,7 @@ class OpenRouterClient:
         messages: list[dict[str, Any]],
         max_output_tokens: int,
         reasoning_effort: str | None,
-        provider_order: Sequence[str] | None = None,
+        provider_order: Sequence[str],
         expected_canonical_slug: str,
         service_tier: str = DEFAULT_SERVICE_TIER,
     ) -> ResponseResult:
@@ -639,14 +919,17 @@ class OpenRouterClient:
             provider_order=provider_order,
             service_tier=service_tier,
         )
-        payload, headers, attempts, latency_ms = self._request_json(
+        payload, headers, attempt_ledger, latency_ms = self._request_json(
             "POST", "/responses", payload=request_payload
         )
+        attempts = len(attempt_ledger)
 
         if isinstance(payload.get("error"), dict):
-            raise _error_details(
+            error = _error_details(
                 payload, status_code=200, headers=headers, attempts=attempts
             )
+            error.attempt_ledger = attempt_ledger
+            raise error
         status = payload.get("status")
         incomplete_details = payload.get("incomplete_details")
         if status != "completed":
@@ -671,6 +954,7 @@ class OpenRouterClient:
                 attempts=attempts,
                 raw=payload,
                 incomplete_details=incomplete_details,
+                attempt_ledger=attempt_ledger,
             )
 
         response_id = payload.get("id")
@@ -683,6 +967,7 @@ class OpenRouterClient:
                 retryable=False,
                 attempts=attempts,
                 raw=payload,
+                attempt_ledger=attempt_ledger,
             )
         if not isinstance(returned_model, str) or not returned_model.strip():
             raise OpenRouterError(
@@ -691,6 +976,7 @@ class OpenRouterClient:
                 retryable=False,
                 attempts=attempts,
                 raw=payload,
+                attempt_ledger=attempt_ledger,
             )
         if not isinstance(usage, dict):
             raise OpenRouterError(
@@ -699,6 +985,7 @@ class OpenRouterClient:
                 retryable=False,
                 attempts=attempts,
                 raw=payload,
+                attempt_ledger=attempt_ledger,
             )
         allowed_models = {model_id}
         allowed_models.add(expected_canonical_slug)
@@ -711,17 +998,23 @@ class OpenRouterClient:
                 response_id=response_id,
                 generation_id=_header(headers, "X-Generation-Id"),
                 raw=payload,
+                attempt_ledger=attempt_ledger,
             )
-        text = _extract_text(payload, attempts=attempts)
-
-        metadata: dict[str, Any] = {}
-        body_metadata = payload.get("openrouter_metadata")
-        if isinstance(body_metadata, dict):
-            metadata.update(body_metadata)
-        for key, value in headers.items():
-            lowered = key.casefold()
-            if lowered.startswith("x-openrouter-"):
-                metadata[lowered] = value
+        metadata, actual_tier, routing_headers = _validate_routing_evidence(
+            payload,
+            requested_model=model_id,
+            expected_canonical_slug=expected_canonical_slug,
+            provider_order=provider_order,
+            requested_service_tier=service_tier,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+        try:
+            text = _extract_text(payload, attempts=attempts)
+        except OpenRouterError as error:
+            error.attempt_ledger = attempt_ledger
+            error.generation_id = _header(headers, "X-Generation-Id")
+            raise
 
         return ResponseResult(
             text=text,
@@ -734,10 +1027,12 @@ class OpenRouterClient:
             request_id=_header(headers, "X-Request-Id"),
             generation_id=_header(headers, "X-Generation-Id"),
             router_metadata=metadata,
+            routing_headers=routing_headers,
             incomplete_details=incomplete_details,
             attempts=attempts,
+            attempt_ledger=attempt_ledger,
             latency_ms=latency_ms,
-            service_tier=service_tier,
+            service_tier=actual_tier,
         )
 
     def fetch_catalog(self) -> dict[str, Any]:

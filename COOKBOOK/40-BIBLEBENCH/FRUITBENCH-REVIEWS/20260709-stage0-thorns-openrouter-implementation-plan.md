@@ -89,6 +89,8 @@ class ResponseResult:
     status: str
     usage: dict[str, Any]
     raw: dict[str, Any]
+    router_metadata: dict[str, Any]
+    attempt_ledger: tuple[AttemptRecord, ...]
 
 def build_response_request(*, model_id: str, messages: list[dict[str, Any]],
                            max_output_tokens: int,
@@ -115,6 +117,11 @@ headers, use a finite timeout, and record retry count/latency outside the raw
 secret-bearing request headers. Every benchmark request pins the provider,
 disables fallbacks, requires parameter support, freezes `service_tier`, and
 binds the acceptable response alias/canonical slug to a validated catalog.
+Successful evidence responses additionally require one selected endpoint,
+`strategy: direct`, router attempt 1, no material pipeline transformation, and
+an actual response `service_tier` matching the request. Every client retry is
+retained in an immutable attempt ledger with status, error type, response and
+generation IDs, router metadata, and latency.
 
 **Step 3: Run tests and commit**
 

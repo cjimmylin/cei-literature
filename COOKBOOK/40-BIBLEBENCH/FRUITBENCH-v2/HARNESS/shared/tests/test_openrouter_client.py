@@ -42,6 +42,7 @@ COMPLETED_RESPONSE = {
     "id": "resp_fixture",
     "model": "openai/gpt-5.5-20260423",
     "status": "completed",
+    "service_tier": "default",
     "output": [
         {
             "type": "message",
@@ -50,6 +51,32 @@ COMPLETED_RESPONSE = {
         }
     ],
     "usage": {"input_tokens": 11, "output_tokens": 7, "total_tokens": 18},
+    "openrouter_metadata": {
+        "requested": "openai/gpt-5.5",
+        "strategy": "direct",
+        "region": "iad",
+        "summary": "available=1, selected=OpenAI",
+        "attempt": 1,
+        "is_byok": False,
+        "endpoints": {
+            "total": 1,
+            "available": [
+                {
+                    "provider": "OpenAI",
+                    "model": "openai/gpt-5.5-20260423",
+                    "selected": True,
+                }
+            ],
+        },
+        "attempts": [
+            {
+                "provider": "OpenAI",
+                "model": "openai/gpt-5.5-20260423",
+                "status": 200,
+            }
+        ],
+        "pipeline": [],
+    },
 }
 
 
@@ -216,12 +243,17 @@ def test_responses_posts_documented_shape_and_retains_provenance() -> None:
     assert result.returned_model == "openai/gpt-5.5-20260423"
     assert result.request_id == "req_fixture"
     assert result.generation_id == "gen_fixture"
-    assert result.router_metadata == {"x-openrouter-provider": "openai"}
+    assert result.router_metadata == COMPLETED_RESPONSE["openrouter_metadata"]
+    assert result.routing_headers == {"x-openrouter-provider": "openai"}
     assert result.incomplete_details is None
     assert result.status == "completed"
     assert result.usage == {"input_tokens": 11, "output_tokens": 7, "total_tokens": 18}
     assert result.raw == COMPLETED_RESPONSE
     assert result.attempts == 1
+    assert len(result.attempt_ledger) == 1
+    assert result.attempt_ledger[0].status_code == 200
+    assert result.attempt_ledger[0].generation_id == "gen_fixture"
+    assert result.attempt_ledger[0].error_type is None
     assert result.latency_ms >= 0
 
 
@@ -350,6 +382,13 @@ def test_429_and_503_retry_with_retry_after_and_a_bounded_attempt_count() -> Non
         )
 
     assert result.attempts == 3
+    assert [entry.status_code for entry in result.attempt_ledger] == [429, 503, 200]
+    assert [entry.error_type for entry in result.attempt_ledger] == [
+        "rate_limit_error",
+        "provider_error",
+        None,
+    ]
+    assert all(entry.generation_id == "gen_fixture" for entry in result.attempt_ledger)
     assert delays == [0.25, 0.5]
     assert len(server.requests) == 3  # type: ignore[attr-defined]
 
@@ -435,6 +474,8 @@ def test_generic_network_error_is_not_retried(monkeypatch) -> None:
     assert caught.value.error_type == "network_error"
     assert caught.value.retryable is False
     assert caught.value.attempts == 1
+    assert len(caught.value.attempt_ledger) == 1
+    assert caught.value.attempt_ledger[0].error_type == "network_error"
     assert attempts == 1
     assert delays == []
 
@@ -541,6 +582,86 @@ def test_returned_requested_alias_is_also_valid() -> None:
 
     assert result.returned_model == SUBJECT_MODELS[0]
     assert len(server.requests) == 1  # type: ignore[attr-defined]
+
+
+@pytest.mark.parametrize(
+    ("mutation", "error_type"),
+    [
+        ({"openrouter_metadata": None}, "routing_metadata_error"),
+        ({"service_tier": "flex"}, "service_tier_mismatch"),
+        (
+            {
+                "openrouter_metadata": {
+                    **COMPLETED_RESPONSE["openrouter_metadata"],
+                    "strategy": "fallback",
+                }
+            },
+            "routing_mismatch",
+        ),
+        (
+            {
+                "openrouter_metadata": {
+                    **COMPLETED_RESPONSE["openrouter_metadata"],
+                    "pipeline": [{"type": "context_compression"}],
+                }
+            },
+            "routing_transformation",
+        ),
+        (
+            {
+                "openrouter_metadata": {
+                    **COMPLETED_RESPONSE["openrouter_metadata"],
+                    "endpoints": {
+                        "total": 1,
+                        "available": [
+                            {
+                                "provider": "Azure",
+                                "model": "openai/gpt-5.5-20260423",
+                                "selected": True,
+                            }
+                        ],
+                    },
+                }
+            },
+            "routing_mismatch",
+        ),
+    ],
+)
+def test_completed_response_fails_closed_on_routing_or_tier_mismatch(
+    mutation: dict[str, Any], error_type: str
+) -> None:
+    response = {**COMPLETED_RESPONSE, **mutation}
+    with _fixture_server([(200, response)]) as (base_url, _server):
+        with pytest.raises(OpenRouterError) as caught:
+            _client(base_url).responses(
+                model_id=SUBJECT_MODELS[0],
+                messages=MESSAGES,
+                max_output_tokens=2048,
+                reasoning_effort="medium",
+                provider_order=["openai"],
+                expected_canonical_slug="openai/gpt-5.5-20260423",
+            )
+
+    assert caught.value.error_type == error_type
+    assert len(caught.value.attempt_ledger) == 1
+
+
+def test_provider_order_is_explicit_and_exactly_one_endpoint() -> None:
+    with pytest.raises(TypeError, match="provider_order"):
+        build_response_request(
+            model_id=SUBJECT_MODELS[0],
+            messages=MESSAGES,
+            max_output_tokens=2048,
+            reasoning_effort="medium",
+        )
+    with pytest.raises(ValueError, match="exactly one"):
+        build_response_request(
+            model_id=SUBJECT_MODELS[0],
+            messages=MESSAGES,
+            max_output_tokens=2048,
+            reasoning_effort="medium",
+            provider_order=["openai", "azure"],
+        )
 
 
 def test_responses_requires_a_catalog_bound_canonical_slug() -> None:

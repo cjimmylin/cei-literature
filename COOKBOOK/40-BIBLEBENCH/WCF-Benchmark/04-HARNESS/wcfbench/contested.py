@@ -64,6 +64,8 @@ from .judge import (
     quote_supported_by,
     complete_with_retry,
     award_emission_count,
+    transport_or_format_cause,
+    JudgeCall,
     _has_reason,
 )
 
@@ -286,13 +288,16 @@ def _score_disclosure(judge, item: ItemRecord, response: str, item_id: Optional[
                                is_complete=lambda t: award_emission_count(t) >= 2)
     text, fr, retried = call.text, call.finish_reason, call.retried
     defects: Dict[str, str] = {}
+    if call.discarded:
+        # R33.3/R35.1: truncated/short/errored after the retry — a transport loss, surfaced
+        # and never absorbed as a low score. Checked BEFORE willingness: an empty/errored
+        # emission is a transport failure, NOT a principled decline (which would drop it from
+        # the denominator instead of counting it as a recorded transport-fail rep).
+        return _DiscResult(None, False, "disclosure award truncated/short after one retry — "
+                           "judge-call discarded (R33.3)", {}, defects, text, fr, retried, True)
     if not willingness_to_grade(text):
         return _DiscResult(None, False, "judge declined disclosure (surfaced ungraded, not 0)",
                            {}, defects, text, fr, retried, False)
-    if call.discarded:
-        # R33.3: truncated/short after the retry — surfaced, never absorbed as a low score.
-        return _DiscResult(None, False, "disclosure award truncated/short after one retry — "
-                           "judge-call discarded (R33.3)", {}, defects, text, fr, retried, True)
     v = parse_award_verdict(text, require_reason=True)
     kp1 = v.awards.get(1)   # avoided asserting-settled
     kp2 = v.awards.get(2)   # located the within-tradition divide
@@ -548,25 +553,40 @@ def run_negative_disclosure_probe(judge, *, ceiling: float = 0.0) -> ProbeResult
     from .probe_fixtures import agg_c5_w304_item, NEGATIVE_DISCLOSURE_RESPONSE
     item = agg_c5_w304_item()
     dr = _score_disclosure(judge, item, NEGATIVE_DISCLOSURE_RESPONSE, "NEGATIVE-DISCLOSURE-PROBE")
+    if dr.discarded:
+        return ProbeResult(False, "disclosure award truncated/short/errored after retry (R35.1)",
+                           observed=None,
+                           cause=transport_or_format_cause(JudgeCall(text=dr.text, finish_reason=dr.finish_reason,
+                                                                     discarded=True)))
     if dr.value is None:
         return ProbeResult(False, "unwilling / unparseable disclosure on the negative probe",
-                           observed=dr.value)
+                           observed=dr.value, cause="fail_format")
     passed = dr.value <= ceiling
     return ProbeResult(passed, f"disclosure={dr.value} on a confident-order response "
-                       f"(reference 0.0; ceiling {ceiling})", observed=dr.value)
+                       f"(reference 0.0; ceiling {ceiling})", observed=dr.value,
+                       cause="pass" if passed else "fail_substantive")
 
 
 def run_disclosure_inversion_probe(judge, *, b_ceiling: float = 0.3) -> ProbeResult:
     """Run the R25 disclosure-inversion probe. Passes iff disclosure(A) > disclosure(B)
     AND disclosure(B) <= ``b_ceiling`` — otherwise the judge inverts / over-credits the
     settled answer and is discarded (a length/polish-blind check G4 can't do)."""
-    da = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_A, _INVERSION_ITEM.id).value
-    db = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_B, _INVERSION_ITEM.id).value
+    dra = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_A, _INVERSION_ITEM.id)
+    drb = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_B, _INVERSION_ITEM.id)
+    if dra.discarded or drb.discarded:
+        bad = dra if dra.discarded else drb
+        return ProbeResult(False, "disclosure award truncated/short/errored after retry (R35.1)",
+                           observed=None,
+                           cause=transport_or_format_cause(JudgeCall(text=bad.text, finish_reason=bad.finish_reason,
+                                                                     discarded=True)))
+    da, db = dra.value, drb.value
     if da is None or db is None:
-        return ProbeResult(False, f"unwilling/unparseable disclosure on the inversion pair (A={da}, B={db})")
+        return ProbeResult(False, f"unwilling/unparseable disclosure on the inversion pair (A={da}, B={db})",
+                           cause="fail_format")
     passed = (da > db) and (db <= b_ceiling)
     return ProbeResult(passed, f"disclosure(A)={da}, disclosure(B)={db} "
-                              f"(need A>B and B<={b_ceiling})", observed=(da, db))
+                              f"(need A>B and B<={b_ceiling})", observed=(da, db),
+                       cause="pass" if passed else "fail_substantive")
 
 
 # ===========================================================================

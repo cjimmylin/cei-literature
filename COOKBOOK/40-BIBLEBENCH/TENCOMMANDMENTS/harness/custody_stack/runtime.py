@@ -45,50 +45,76 @@ class _RuntimeSnapshot:
     event_head_sha256: str
 
 
-def _all_strings(value):
-    if type(value) is str:
-        return (value,)
+_MIN_PRIVATE_SUBSTRING_LENGTH = 4
+
+
+def _literal_leaves(value):
     if type(value) is dict:
-        strings = []
-        for key, child in value.items():
-            strings.append(key)
-            strings.extend(_all_strings(child))
-        return tuple(strings)
+        leaves = []
+        for child in value.values():
+            leaves.extend(_literal_leaves(child))
+        return tuple(leaves)
     if type(value) is list:
-        strings = []
+        leaves = []
         for child in value:
-            strings.extend(_all_strings(child))
-        return tuple(strings)
+            leaves.extend(_literal_leaves(child))
+        return tuple(leaves)
+    if type(value) is str and value:
+        return ((str, value),)
+    if type(value) is int:
+        return ((int, value),)
+    if type(value) is float:
+        return ((float, value),)
     return ()
 
 
-def _private_strings(value):
+def _private_literals(value):
     if type(value) is list:
-        secrets = []
+        literals = []
         for child in value:
-            secrets.extend(_private_strings(child))
-        return tuple(secrets)
+            literals.extend(_private_literals(child))
+        return tuple(literals)
     if type(value) is not dict:
         return ()
-    secrets = []
+    literals = []
     for key, child in value.items():
         if key in FORBIDDEN_PERSISTED_FIELD_NAMES:
-            secrets.extend(item for item in _all_strings(child) if item)
+            literals.extend(_literal_leaves(child))
         else:
-            secrets.extend(_private_strings(child))
-    return tuple(secrets)
+            literals.extend(_private_literals(child))
+    return tuple(literals)
 
 
 def _reject_private_material(states, action, tool_result):
-    secrets = []
+    private_literals = set()
     for state in states:
-        secrets.extend(_private_strings(state.to_dict()))
-    if not secrets:
+        private_literals.update(_private_literals(state.to_dict()))
+    if not private_literals:
         return
-    persisted_strings = _all_strings(action.to_dict()) + _all_strings(
-        tool_result.to_dict()
+    persisted_literals = _literal_leaves(
+        {
+            "tool": action.tool,
+            "arguments": action.arguments.to_dict(),
+            "result": tool_result.to_dict()["data"],
+        }
     )
-    if any(secret in candidate for secret in secrets for candidate in persisted_strings):
+    persisted_set = set(persisted_literals)
+    if private_literals.intersection(persisted_set):
+        raise SchemaValidationError("private material cannot be persisted")
+    private_strings = {
+        value
+        for value_type, value in private_literals
+        if value_type is str and len(value) >= _MIN_PRIVATE_SUBSTRING_LENGTH
+    }
+    persisted_strings = [
+        value for value_type, value in persisted_literals if value_type is str
+    ]
+    concatenated = "".join(persisted_strings)
+    if any(
+        secret in candidate
+        for secret in private_strings
+        for candidate in persisted_strings
+    ) or any(secret in concatenated for secret in private_strings):
         raise SchemaValidationError("private material cannot be persisted")
 
 
@@ -156,7 +182,7 @@ class Runtime:
         self._snapshot = _RuntimeSnapshot(
             initial_state, False, 0, ZERO_EVENT_SHA256
         )
-        self._handlers = handlers
+        self._handlers = handlers.snapshot()
         self._event_log = event_log
         (
             self._episode_id,
@@ -364,6 +390,7 @@ class Runtime:
             raise ReplayError("initial_state must be an exact EpisodeState")
         if type(handlers) is not ToolRegistry:
             raise ReplayError("handlers must be an exact ToolRegistry")
+        bound_handlers = handlers.snapshot()
         if events is not None and event_log is not None:
             raise ReplayError("provide events or event_log, not both")
         try:
@@ -438,7 +465,7 @@ class Runtime:
             if event.state_before_sha256 != state_sha256(state):
                 raise ReplayError("state-before hash mismatch")
             try:
-                transition = handlers.execute(state, event.action)
+                transition = bound_handlers.execute(state, event.action)
             except Exception as exc:
                 raise ReplayError("deterministic handler replay failed") from exc
             try:
@@ -463,7 +490,7 @@ class Runtime:
         runtime._snapshot = _RuntimeSnapshot(
             state, terminal, expected_head[0], expected_head[1]
         )
-        runtime._handlers = handlers
+        runtime._handlers = bound_handlers
         runtime._event_log = log
         (
             runtime._episode_id,

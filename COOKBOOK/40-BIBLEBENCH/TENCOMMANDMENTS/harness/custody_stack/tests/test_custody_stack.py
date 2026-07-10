@@ -1093,6 +1093,115 @@ def test_registry_freezes_exact_schemas_and_rejects_hostile_schema_objects():
         api.ToolRegistry().register("bad.spec", {"x": EqualityBomb()}, handler)
 
 
+@pytest.mark.parametrize("resumed", [False, True])
+def test_runtime_binds_a_detached_registry_snapshot(resumed):
+    api = load_api()
+    registry = api.ToolRegistry()
+    calls = []
+
+    def base(state, _arguments):
+        return api.Transition(state, api.ToolResult({"tool": "base"}))
+
+    def late(state, _arguments):
+        calls.append("late")
+        return api.Transition(state, api.ToolResult({"tool": "late"}))
+
+    registry.register("fixture.base", {}, base)
+    initial = api.EpisodeState({})
+    runtime = (
+        api.Runtime.resume(initial, registry, events=())
+        if resumed
+        else api.Runtime(initial, registry)
+    )
+    registry.register("fixture.late", {}, late)
+    raw = '{"kind":"act","tool":"fixture.late","arguments":{}}'
+
+    with pytest.raises(api.ToolValidationError, match="not allowlisted"):
+        runtime.accept(raw)
+    assert calls == []
+    assert runtime.state == initial
+    assert runtime.events == ()
+
+    newly_bound = api.Runtime(initial, registry)
+    newly_bound.accept(raw)
+    assert calls == ["late"]
+
+
+def test_handler_cannot_mutate_runtime_state_even_when_it_raises():
+    api = load_api()
+    expected = api.EpisodeState({"counter": 1})
+    registry = api.ToolRegistry()
+
+    def mutate_then_raise(state, _arguments):
+        object.__setattr__(
+            state, "data", api.EpisodeState({"counter": 999}).data
+        )
+        raise RuntimeError("handler failed after mutation")
+
+    registry.register("fixture.mutate-state", {}, mutate_then_raise)
+    runtime = api.Runtime(expected, registry)
+    with pytest.raises(api.ToolValidationError, match="mutated handler input"):
+        runtime.accept(
+            '{"kind":"act","tool":"fixture.mutate-state","arguments":{}}'
+        )
+    assert runtime.state == api.EpisodeState({"counter": 1})
+    assert runtime.events == ()
+
+
+def test_handler_argument_mutation_cannot_falsify_persisted_action():
+    api = load_api()
+    registry = api.ToolRegistry()
+
+    def mutate_arguments(state, arguments):
+        replacement = api.FrozenObject((("amount", 999),))
+        object.__setattr__(arguments, "_lookup", replacement._lookup)
+        return api.Transition(
+            state, api.ToolResult({"observed": arguments["amount"]})
+        )
+
+    registry.register("fixture.mutate-arguments", {"amount": int}, mutate_arguments)
+    runtime = api.Runtime(api.EpisodeState({}), registry)
+    raw = (
+        '{"kind":"act","tool":"fixture.mutate-arguments",'
+        '"arguments":{"amount":1}}'
+    )
+    with pytest.raises(api.ToolValidationError, match="mutated handler input"):
+        runtime.accept(raw)
+    assert runtime.state == api.EpisodeState({})
+    assert runtime.events == ()
+
+
+def test_handler_return_values_are_detached_before_custody_publication():
+    api = load_api()
+    registry = api.ToolRegistry()
+    returned = {}
+
+    def build_transition(_state, _arguments):
+        next_state = api.EpisodeState({"owner": "custody"})
+        tool_result = api.ToolResult({"value": "custody"})
+        returned["state"] = next_state
+        returned["result"] = tool_result
+        return api.Transition(next_state, tool_result)
+
+    registry.register("fixture.detached-return", {}, build_transition)
+    runtime = api.Runtime(api.EpisodeState({}), registry)
+    result = runtime.accept(
+        '{"kind":"act","tool":"fixture.detached-return","arguments":{}}'
+    )
+    event_before = runtime.events[0].to_dict()
+
+    object.__setattr__(
+        returned["state"], "data", api.EpisodeState({"owner": "mutated"}).data
+    )
+    object.__setattr__(
+        returned["result"], "data", api.ToolResult({"value": "mutated"}).data
+    )
+
+    assert runtime.state == api.EpisodeState({"owner": "custody"})
+    assert result == api.ToolResult({"value": "custody"})
+    assert runtime.events[0].to_dict() == event_before
+
+
 def test_resume_metadata_is_exact_and_must_match_persisted_values():
     api = load_api()
     runtime = runtime_for(api)
@@ -1730,6 +1839,140 @@ def test_private_material_detection_recurses_through_private_state_arrays():
             '{"kind":"act","tool":"fixture.nested-leak","arguments":{}}'
         )
     assert runtime.events == ()
+
+
+def test_private_numeric_leaf_reappearing_under_another_key_is_rejected():
+    api = load_api()
+    state = api.EpisodeState({"api_key": 7319})
+    registry = api.ToolRegistry()
+
+    def copy_pin(current_state, _arguments):
+        return api.Transition(current_state, api.ToolResult({"pin": 7319}))
+
+    registry.register("fixture.numeric-leak", {}, copy_pin)
+    runtime = api.Runtime(state, registry)
+    with pytest.raises(api.SchemaValidationError, match="private material"):
+        runtime.accept(
+            '{"kind":"act","tool":"fixture.numeric-leak","arguments":{}}'
+        )
+    assert runtime.state == state
+    assert runtime.events == ()
+
+
+@pytest.mark.parametrize("public_value", [1.0, True, None])
+def test_private_numeric_screening_preserves_exact_json_types(public_value):
+    api = load_api()
+    state = api.EpisodeState({"api_key": 1})
+    registry = api.ToolRegistry()
+
+    def typed_output(current_state, _arguments):
+        return api.Transition(
+            current_state, api.ToolResult({"value": public_value})
+        )
+
+    registry.register("fixture.typed-output", {}, typed_output)
+    runtime = api.Runtime(state, registry)
+    runtime.accept(
+        '{"kind":"act","tool":"fixture.typed-output","arguments":{}}'
+    )
+    assert len(runtime.events) == 1
+
+
+def test_private_string_split_across_ordered_result_values_is_rejected():
+    api = load_api()
+    state = api.EpisodeState({"api_key": "alpha-bravo"})
+    registry = api.ToolRegistry()
+
+    def split_output(current_state, _arguments):
+        return api.Transition(
+            current_state,
+            api.ToolResult({"part_1": "alpha-", "part_2": "bravo"}),
+        )
+
+    registry.register("fixture.split-leak", {}, split_output)
+    runtime = api.Runtime(state, registry)
+    with pytest.raises(api.SchemaValidationError, match="private material"):
+        runtime.accept(
+            '{"kind":"act","tool":"fixture.split-leak","arguments":{}}'
+        )
+    assert runtime.events == ()
+
+
+@pytest.mark.parametrize(
+    ("candidate", "rejected"), [("safe", False), ("a", True)]
+)
+def test_one_character_private_string_matches_only_as_a_whole_value(
+    candidate, rejected
+):
+    api = load_api()
+    state = api.EpisodeState({"api_key": "a"})
+    registry = api.ToolRegistry()
+
+    def echo(current_state, arguments):
+        return api.Transition(
+            current_state, api.ToolResult({"value": arguments["value"]})
+        )
+
+    registry.register("fixture.short-secret", {"value": str}, echo)
+    runtime = api.Runtime(state, registry)
+    raw = json.dumps(
+        {
+            "kind": "act",
+            "tool": "fixture.short-secret",
+            "arguments": {"value": candidate},
+        }
+    )
+    if rejected:
+        with pytest.raises(api.SchemaValidationError, match="private material"):
+            runtime.accept(raw)
+        assert runtime.events == ()
+    else:
+        runtime.accept(raw)
+        assert len(runtime.events) == 1
+
+
+@pytest.mark.parametrize(
+    ("secret", "candidate"),
+    [("key", "monkey"), ("secret", "safe")],
+)
+def test_private_screening_does_not_treat_keys_or_short_substrings_as_leaks(
+    secret, candidate
+):
+    api = load_api()
+    private_value = {"value": secret} if secret == "secret" else secret
+    state = api.EpisodeState({"api_key": private_value})
+    registry = api.ToolRegistry()
+
+    def safe_output(current_state, _arguments):
+        return api.Transition(
+            current_state, api.ToolResult({"value": candidate})
+        )
+
+    registry.register("fixture.safe-output", {}, safe_output)
+    runtime = api.Runtime(state, registry)
+    runtime.accept(
+        '{"kind":"act","tool":"fixture.safe-output","arguments":{}}'
+    )
+    assert len(runtime.events) == 1
+
+
+def test_private_screening_is_best_effort_and_does_not_claim_transformation_taint():
+    api = load_api()
+    state = api.EpisodeState({"api_key": "alpha-bravo"})
+    registry = api.ToolRegistry()
+
+    def encoded_output(current_state, _arguments):
+        return api.Transition(
+            current_state,
+            api.ToolResult({"encoded": "YWxwaGEtYnJhdm8="}),
+        )
+
+    registry.register("fixture.encoded-output", {}, encoded_output)
+    runtime = api.Runtime(state, registry)
+    runtime.accept(
+        '{"kind":"act","tool":"fixture.encoded-output","arguments":{}}'
+    )
+    assert len(runtime.events) == 1
 
 
 def test_new_next_state_secret_cannot_be_persisted_by_accept():

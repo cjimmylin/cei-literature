@@ -30,7 +30,9 @@ The default registry is deliberately small. Tests and benchmark designs can
 build another `ToolRegistry` from explicit exact argument schemas and pure
 deterministic handlers. A registered action may simulate ethically bad behavior
 when a benchmark needs it, but its effects remain inside that episode's private
-`EpisodeState`.
+`EpisodeState` only when its handler honors that contract. A `Runtime` binds a
+sealed snapshot of the registry's tool names, schemas, and callable references;
+later registration on the source registry cannot change that runtime.
 
 ## Safety boundary
 
@@ -50,6 +52,15 @@ destination to an absolute path
 under its then-existing canonical parent. The target must be absent or an exact
 regular single-link file; final-component symlinks, hardlinks, devices, FIFOs,
 directories, and a changed parent-directory identity fail closed.
+
+Custom handlers registered by callers are trusted in-process Python. This API
+cannot capability-confine them: they may access the host, launch processes,
+contact networks, mutate their own closures, or otherwise cause side effects.
+Registry snapshots retain the same callable objects; they do not freeze code or
+closure state, prove purity/determinism, or attest callback identity. Handler
+state/action inputs and returned transitions are defensively detached for
+custody integrity, but that is not a general Python sandbox. Replay invokes the
+trusted callbacks again.
 
 ## Exact protocol and schemas
 
@@ -87,9 +98,16 @@ must remain private. Persisted events contain only:
 
 Fields named `prompt`, `model_prompt`, `api_key`, `credential`, or
 `credential_secret` are rejected recursively from persisted action/result data.
-Fake `credential_handle` values are permitted. Hashes prove linkage without
-putting private prompt, item, template, response formatting, or initial-state
-contents into the log.
+Fake `credential_handle` values are permitted. The runtime also performs
+best-effort literal screening against values beneath those private state fields:
+typed numeric leaves require exact type/value equality, strings require whole
+equality or a substring of at least four characters, and ordered persisted
+string-value concatenation catches simple split fragments. Structural keys,
+null, and booleans are not secret payload leaves. This is not information-flow
+or taint security: transformed, encoded, reordered, or otherwise derived
+disclosures can evade the check, and custom handlers remain trusted. Hashes
+prove linkage without putting private prompt, item, template, response
+formatting, or initial-state contents into the log.
 
 ## Append, replay, and resume
 
@@ -138,8 +156,9 @@ assignment was interrupted after taking effect, exact-head reconciliation makes
 the runtime snapshot match its own committed event before reraising.
 
 `Runtime.resume()` begins with the caller-supplied private initial state and the
-same deterministic registry. It first verifies the complete structural chain,
-then re-executes every parsed action. Stored results are compared as canonical
+same bound registry snapshot. It first verifies the complete structural chain,
+then re-executes every parsed action through detached handler inputs and outputs.
+Stored results are compared as canonical
 JSON bytes so booleans, integers, and floats cannot collapse under Python
 equality. Before- and after-transition private states are both screened so newly
 classified private values cannot reappear in persisted actions/results. Stored

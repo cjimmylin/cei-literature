@@ -1,6 +1,8 @@
 """Deterministic, per-episode in-memory tool sandbox and registry."""
 
 from dataclasses import dataclass
+from threading import Lock
+from types import MappingProxyType
 
 from .schema import (
     Action,
@@ -10,6 +12,7 @@ from .schema import (
     SchemaValidationError,
     ToolResult,
     Transition,
+    canonical_json_bytes,
     freeze_json,
     require_identifier,
     thaw_json,
@@ -119,35 +122,135 @@ class ToolRegistry:
 
     def __init__(self):
         self._specs = {}
+        self._lock = Lock()
+        self._sealed = False
 
     def register(self, name, argument_schema, handler):
         try:
             require_identifier(name, "tool name")
         except SchemaValidationError as exc:
             raise ToolValidationError(str(exc)) from exc
-        if name in self._specs:
-            raise ToolValidationError("tool is already registered")
         if not callable(handler):
             raise ToolValidationError("tool handler must be callable")
         frozen_schema = _freeze_schema_object(argument_schema)
-        self._specs[name] = ToolSpec(name, frozen_schema, handler)
+        with self._lock:
+            if self._sealed:
+                raise ToolValidationError("tool registry snapshot is sealed")
+            if name in self._specs:
+                raise ToolValidationError("tool is already registered")
+            self._specs[name] = ToolSpec(name, frozen_schema, handler)
         return self
+
+    def snapshot(self):
+        """Return a sealed registry mapping with the same trusted callables."""
+
+        with self._lock:
+            specs = dict(self._specs)
+        frozen = ToolRegistry()
+        frozen._specs = MappingProxyType(specs)
+        frozen._sealed = True
+        return frozen
 
     @property
     def tool_names(self):
-        return tuple(sorted(self._specs))
+        with self._lock:
+            return tuple(sorted(self._specs))
 
     def execute(self, state, action):
         if type(state) is not EpisodeState or type(action) is not Action:
             raise ToolValidationError("dispatch requires exact state and action types")
-        spec = self._specs.get(action.tool)
+        with self._lock:
+            spec = self._specs.get(action.tool)
         if spec is None:
             raise ToolValidationError("tool is not allowlisted")
-        _validate_schema_object(action.arguments, spec.argument_schema)
-        transition = spec.handler(state, action.arguments)
+        handler_state = EpisodeState(state.to_dict())
+        handler_action = Action.from_dict(action.to_dict())
+        _validate_schema_object(handler_action.arguments, spec.argument_schema)
+        expected_state = _handler_state_fingerprint(handler_state)
+        expected_action = _handler_action_fingerprint(handler_action)
+        try:
+            transition = spec.handler(handler_state, handler_action.arguments)
+        except BaseException as handler_error:
+            try:
+                _verify_handler_inputs(
+                    handler_state,
+                    handler_action,
+                    expected_state,
+                    expected_action,
+                )
+            except ToolValidationError as mutation_error:
+                raise mutation_error from handler_error
+            raise
+        _verify_handler_inputs(
+            handler_state,
+            handler_action,
+            expected_state,
+            expected_action,
+        )
         if type(transition) is not Transition:
             raise ToolValidationError("handler must return an exact Transition")
-        return transition
+        try:
+            if type(transition.next_state) is not EpisodeState:
+                raise SchemaValidationError("handler next state type changed")
+            if type(transition.tool_result) is not ToolResult:
+                raise SchemaValidationError("handler result type changed")
+            detached_state = EpisodeState(_observed_json(transition.next_state.data))
+            detached_result = ToolResult(
+                _observed_json(transition.tool_result.data),
+                transition.tool_result.terminal,
+            )
+            return Transition(detached_state, detached_result)
+        except BaseException as exc:
+            if type(exc) is ToolValidationError:
+                raise
+            raise ToolValidationError("handler returned invalid mutable output") from exc
+
+
+def _observed_json(value):
+    if type(value) is FrozenObject:
+        result = {}
+        for key in value:
+            if type(key) is not str:
+                raise SchemaValidationError("handler JSON key type changed")
+            result[key] = _observed_json(value[key])
+        return result
+    if type(value) is tuple:
+        return [_observed_json(item) for item in value]
+    if value is None or type(value) in (str, bool, int, float):
+        return value
+    raise SchemaValidationError("handler JSON value type changed")
+
+
+def _handler_state_fingerprint(state):
+    try:
+        return canonical_json_bytes(_observed_json(state.data))
+    except BaseException as exc:
+        raise ToolValidationError("invalid handler state input") from exc
+
+
+def _handler_action_fingerprint(action):
+    try:
+        return canonical_json_bytes(
+            {
+                "kind": action.kind,
+                "tool": action.tool,
+                "arguments": _observed_json(action.arguments),
+            }
+        )
+    except BaseException as exc:
+        raise ToolValidationError("invalid handler action input") from exc
+
+
+def _verify_handler_inputs(state, action, expected_state, expected_action):
+    try:
+        current_state = _handler_state_fingerprint(state)
+        current_action = _handler_action_fingerprint(action)
+    except BaseException as exc:
+        if type(exc) is ToolValidationError:
+            raise ToolValidationError("mutated handler input") from exc
+        raise ToolValidationError("mutated handler input") from exc
+    if current_state != expected_state or current_action != expected_action:
+        raise ToolValidationError("mutated handler input")
 
 
 def normalize_virtual_key(value):

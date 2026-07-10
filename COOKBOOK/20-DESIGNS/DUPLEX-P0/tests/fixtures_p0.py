@@ -255,6 +255,30 @@ def g1_v4_keying_by_record() -> List[Dict[str, Any]]:
     return r
 
 
+def g1_sensitivity_reversal() -> List[Dict[str, Any]]:
+    """A-1 / SA-2 (F-5): the primary G1 is a numeric PASS (per-model process CV > per-model content
+    CV) but the per-item-grain sensitivity REVERSES (process_cv_item_grain <= content_cv_item_grain)
+    -- the anti-conservative masking channel A-1 guards. Per-model standard means CONVERGE
+    (offsetting per-item disagreement), so the PRIMARY content CV is ~0, while the per-item content
+    CV is high; process |Δ| is consistent per item so the per-item process CV is only moderate. The
+    primary PASS is therefore downgraded to PROVISIONAL."""
+    rng = random.Random(51)
+    r: List[Dict[str, Any]] = []
+    # standard stance: offsetting per item so each model's MEAN is ~0.50 (primary content_cv ~0),
+    # but the per-item cross-model spread is high (content_cv_item_grain high).
+    std = {"mA": {"i1": 0.90, "i2": 0.10},
+           "mB": {"i1": 0.50, "i2": 0.50},
+           "mC": {"i1": 0.10, "i2": 0.90}}
+    # process |Δ| = |ext - fi|, fi=0.50; consistent across items per model, spread across models
+    ext = {"mA": 0.90, "mB": 0.70, "mC": 0.60}   # per-model |Δ| 0.40 / 0.20 / 0.10
+    for m in ("mA", "mB", "mC"):
+        for it in ("i1", "i2"):
+            _cell(r, m, "anthropic", "process", "forced_immediate", 0.50, SD, N, rng, item_id=it)
+            _cell(r, m, "anthropic", "process", "extended_thinking", ext[m], SD, N, rng, item_id=it)
+            _cell(r, m, "anthropic", "process", "standard", std[m][it], SD, N, rng, item_id=it)
+    return r
+
+
 # ---- G2 ----
 
 def g2_pass() -> List[Dict[str, Any]]:

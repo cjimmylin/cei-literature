@@ -193,7 +193,69 @@ def process_beats_content(
     )
     denom = live_pairs + dead_pairs
     live_cell_fraction = (live_pairs / denom) if denom else 0.0
-    provisional = bool(numeric_pass and live_cell_fraction < live_cell_floor)
+
+    # --- A-1 (SA-2 / F-5): per-item-grain sensitivity for BOTH axes -----------------------------
+    # Over the SAME live records the primary uses (same items, roster-intersection models):
+    #   * process: for each item, the cross-model CV of |Δ| over models with a LIVE pair on that
+    #     item (ε-guarded; items with undefined CV skipped and counted); average over items.
+    #   * content: for each item, the cross-model CV of the per-item mean standard-condition stance
+    #     (denominator >= 1 on a 1..5 scale, never degenerate); average over items.
+    # The per-item grain neutralizes the anti-conservative masking channel the per-model grain has:
+    # per-model averaging can hide item-by-item content disagreement that offsets across items.
+    proc_item_cvs: List[float] = []
+    cont_item_cvs: List[float] = []
+    proc_items_skipped = 0
+    cont_items_skipped = 0
+    for item in items:
+        per_item_deltas: List[float] = []
+        for model in models_used:
+            hi = cells.get((model, item, high_condition))
+            lo = cells.get((model, item, low_condition))
+            if hi is None or lo is None:
+                continue
+            hs = _cell_state(
+                hi, sd_dead_threshold,
+                v4_dropped=cell_v4drop.get((model, item, high_condition), False),
+                override=(model, high_condition) in unmeasurable_overrides,
+            )
+            ls = _cell_state(
+                lo, sd_dead_threshold,
+                v4_dropped=cell_v4drop.get((model, item, low_condition), False),
+                override=(model, low_condition) in unmeasurable_overrides,
+            )
+            if hs == "live" and ls == "live":
+                per_item_deltas.append(abs(mean(hi) - mean(lo)))  # same |Δ| the primary uses
+        cv_p = coefficient_of_variation(per_item_deltas, epsilon=epsilon)
+        if cv_p is None:
+            proc_items_skipped += 1  # undefined cross-model CV -> skipped and counted
+        else:
+            proc_item_cvs.append(cv_p)
+
+        per_item_std = [
+            mean(cells[(model, item, standard_condition)])
+            for model in models_used
+            if cells.get((model, item, standard_condition))
+        ]
+        cv_c = coefficient_of_variation(per_item_std, epsilon=epsilon)
+        if cv_c is None:
+            cont_items_skipped += 1
+        else:
+            cont_item_cvs.append(cv_c)
+
+    process_cv_item_grain = mean(proc_item_cvs) if proc_item_cvs else None
+    content_cv_item_grain = mean(cont_item_cvs) if cont_item_cvs else None
+    sensitivity_reversed = bool(
+        process_cv_item_grain is not None and content_cv_item_grain is not None
+        and process_cv_item_grain <= content_cv_item_grain
+    )
+
+    # A-1 downgrade: a numeric PASS is downgraded to PROVISIONAL on a thin base OR a reversed
+    # sensitivity -- same outcome category and consequences as the G1-b thin-base downgrade. The
+    # sensitivity NEVER softens a FAIL: a FAIL with reversed sensitivity is reported as context for
+    # the V-1 re-run adjudication only (verdict stays FAIL, provisional stays False).
+    provisional = bool(
+        numeric_pass and (live_cell_fraction < live_cell_floor or sensitivity_reversed)
+    )
     verdict = ("PROVISIONAL" if provisional else "PASS") if numeric_pass else "FAIL"
 
     return {
@@ -209,6 +271,12 @@ def process_beats_content(
         "unmeasurable_cells": unmeasurable_cells,
         "live_cell_fraction": live_cell_fraction,
         "n_models_process": len(process_signatures),
+        # A-1 (SA-2 / F-5) per-item-grain sensitivity (report + downgrade trigger):
+        "process_cv_item_grain": process_cv_item_grain,
+        "content_cv_item_grain": content_cv_item_grain,
+        "sensitivity_reversed": sensitivity_reversed,
+        "process_items_skipped": proc_items_skipped,
+        "content_items_skipped": cont_items_skipped,
     }
 
 

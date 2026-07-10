@@ -137,6 +137,46 @@ def test_g1_unmeasurable_override_is_scoped_to_model_condition_tuple():
     assert "mLiveA" not in unmeasurable and "mLiveB" not in unmeasurable
 
 
+# --------------------------------------------------------------------------- G1 sensitivity (A-1 / F-5)
+
+def test_g1_per_item_grain_sensitivity_computed_both_axes():
+    """A-1 / SA-2 (F-5): 'compute and report a per-item-grain sensitivity for BOTH axes' —
+    process_cv_item_grain (per-item cross-model CV of |Δ|, ε-guarded, skipped items counted) and
+    content_cv_item_grain (per-item cross-model CV of standard-condition mean stance), each averaged
+    over items. On a clean pass they are defined, the sensitivity does NOT reverse, and skipped
+    counts are surfaced."""
+    res = process_beats_content(fx.g1_pass(), epsilon=0.02)
+    assert res["process_cv_item_grain"] is not None
+    assert res["content_cv_item_grain"] is not None
+    assert res["sensitivity_reversed"] is False        # process grain > content grain here
+    assert res["verdict"] == "PASS" and res["provisional"] is False
+    assert "process_items_skipped" in res and "content_items_skipped" in res
+
+
+def test_g1_sensitivity_reversal_downgrades_pass_to_provisional():
+    """A-1 / SA-2 (F-5): 'if the primary G1 is a numeric PASS but the sensitivity reverses
+    (process_cv_item_grain <= content_cv_item_grain), the G1 verdict is downgraded to PROVISIONAL
+    -- same outcome category and consequences as the G1-b thin-base downgrade.' This is the
+    anti-conservative masking channel: per-model averaging hides per-item content disagreement."""
+    res = process_beats_content(fx.g1_sensitivity_reversal(), epsilon=0.02)
+    assert res["pass"] is True                          # primary numeric PASS (per-model CV)
+    assert res["process_cv_item_grain"] <= res["content_cv_item_grain"]
+    assert res["sensitivity_reversed"] is True
+    assert res["provisional"] is True
+    assert res["verdict"] == "PROVISIONAL"              # downgraded, same category as G1-b thin base
+
+
+def test_g1_fail_with_reversed_sensitivity_is_never_softened():
+    """A-1 / SA-2 (F-5): 'The sensitivity NEVER softens a FAIL (G-all: no softening beyond the named
+    paths). A FAIL with reversed sensitivity is reported as context for the V-1 re-run adjudication
+    only.' g1_fail_cv is a numeric FAIL whose per-item sensitivity DOES reverse — the verdict must
+    stay FAIL and provisional stay False; the flag is reported but never upgrades the verdict."""
+    res = process_beats_content(fx.g1_fail_cv(), epsilon=0.02)
+    assert res["pass"] is False and res["verdict"] == "FAIL"
+    assert res["sensitivity_reversed"] is True          # reversed, but reported as context ONLY
+    assert res["provisional"] is False                  # a FAIL is NEVER softened to PROVISIONAL
+
+
 # --------------------------------------------------------------------------- G2
 
 def test_g2_pass_all_pairs_separate():

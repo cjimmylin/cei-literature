@@ -132,7 +132,12 @@ class CodexCLIClient(ModelClient):
         self._runner = runner or _default_runner
 
     def build_argv(self, prompt: str, out_path: str) -> List[str]:
+        # --ignore-user-config: isolate the benchmark call from ambient
+        # ~/.codex/config.toml (model pin / reasoning-effort variant). This both
+        # keeps runs reproducible AND survives an unparseable user config (auth
+        # still resolves via CODEX_HOME). Uses the account's default model.
         argv = [self.binary, "exec", prompt,
+                "--ignore-user-config",
                 "--skip-git-repo-check", "-s", "read-only", "--color", "never",
                 "--output-last-message", out_path]
         if self.model:

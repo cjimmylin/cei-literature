@@ -152,6 +152,15 @@ def test_codex_argv_uses_exec_readonly_and_last_message_capture():
     assert "--skip-git-repo-check" in argv
 
 
+def test_codex_argv_ignores_user_config_for_reproducibility():
+    """Ambient ~/.codex/config.toml (model pin, effort variant) must not leak into
+    a benchmark call — and must not crash it if that config is unparseable."""
+    runner = make_codex_runner()
+    c = cb.CodexCLIClient("codex-smoke", runner=runner)
+    c.complete([Message("user", "hi")])
+    assert "--ignore-user-config" in runner.calls[0]["argv"]
+
+
 def test_codex_argv_never_sends_sampling_params():
     runner = make_codex_runner()
     c = cb.CodexCLIClient("codex-smoke", runner=runner)

@@ -1,0 +1,12 @@
+{"unit_id": "02-twomasters-U000", "item_id": "WW-02-G02", "model": "mistralai/mistral-large-2512", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U001", "item_id": "WW-02-A05", "model": "openai/gpt-4.1", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U002", "item_id": "WW-02-N03", "model": "google/gemini-2.5-pro", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U003", "item_id": "WW-02-K01", "model": "deepseek/deepseek-chat", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U004", "item_id": "WW-02-G04", "model": "anthropic/claude-sonnet-4", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U005", "item_id": "WW-02-C03", "model": "google/gemini-2.5-pro", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U006", "item_id": "WW-02-L01", "model": "meta-llama/llama-3.3-70b-instruct", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U007", "item_id": "WW-02-E01", "model": "anthropic/claude-sonnet-4", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U008", "item_id": "WW-02-C01", "model": "openai/gpt-4.1", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U009", "item_id": "WW-02-D03", "model": "meta-llama/llama-3.3-70b-instruct", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U010", "item_id": "WW-02-I03", "model": "google/gemini-2.5-pro", "design": "02-twomasters"}
+{"unit_id": "02-twomasters-U011", "item_id": "WW-02-L02", "model": "meta-llama/llama-3.3-70b-instruct", "design": "02-twomasters"}

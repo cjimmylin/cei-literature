@@ -36,3 +36,22 @@
 
 - **Next Fable session: Governance Symphony** (`CEI-AI-Statements/GENERATION3/20260709-fable-session-boot-prompt.md`), then queued gate reviews if the window (≈2026-07-11) allows.
 - Post-window Opus: Cycle-2/3 work per `07-opus-handoff.md` (key-gated); PR-03 application is mechanical once Jimmy signs (patch text in proposal §6).
+
+## ADDENDUM (post-commit) — git incident disclosure
+
+Commit `5caae838f` was intended to contain only this session's 124 files, and the staging area
+was verified to hold exactly those. However the commit was issued as `git commit -- papers/
+"PDF Extracts/" INNOVATION/` — and **pathspec-form commit bypasses the staging area**, committing
+the working-tree state of everything under those paths. Result: **2,388 sibling-session modified
+papers were swept into the commit** (they had been sitting uncommitted in the shared worktree
+since before this session began) alongside the intended 121 additions, and the commit was pushed.
+
+Mitigating facts: the pre-commit hook YAML-validated all 2,369 staged papers (all passed), so no
+invalid content shipped; nothing was lost or overwritten — the sibling edits are preserved
+verbatim, just committed under this session's message. History rewrite and file revert were both
+rejected as recovery options (shared worktree + pushed main; revert would destroy sibling edits
+in the working tree). **Jimmy should be aware that the sibling session's paper-modification batch
+is now in main under commit `5caae838f`** and that session's own commit will find those files
+already clean. Lesson recorded in [[parallel-sessions-share-git-index]]: in a shared worktree,
+commit with explicit staged content only (`git commit` after verified `git add`), NEVER
+`git commit -- <directory>`.

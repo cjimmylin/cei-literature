@@ -191,16 +191,46 @@ def _counting_runner():
     return runner
 
 
+def _cost_tracking_transport():
+    """Wrap the OpenRouter transport to accumulate real per-call cost + tokens."""
+    from . import openrouter_backend as orb
+    acc = {"calls": 0, "cost": 0.0, "prompt_tokens": 0, "completion_tokens": 0}
+
+    def transport(url, headers, payload, timeout=None):
+        status, data = orb._default_transport(url, headers, payload, timeout=timeout)
+        acc["calls"] += 1
+        if status == 200 and isinstance(data, dict):
+            u = data.get("usage") or {}
+            try:
+                acc["cost"] += float(u.get("cost") or 0.0)
+            except (TypeError, ValueError):
+                pass
+            acc["prompt_tokens"] += int(u.get("prompt_tokens") or 0)
+            acc["completion_tokens"] += int(u.get("completion_tokens") or 0)
+        return status, data
+
+    transport.acc = acc
+    return transport
+
+
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="WALKWORTHY O3 mechanics smoke (LIVE CLI calls)")
+    ap = argparse.ArgumentParser(description="WALKWORTHY live smoke/pilot (CLI or OpenRouter)")
     ap.add_argument("--benchmark-root", default=str(Path(__file__).resolve().parents[2]))
     ap.add_argument("--out", default=None)
-    ap.add_argument("--sut-model", default="sonnet", help="claude -p model for the SUT")
-    ap.add_argument("--judge-model", default="sonnet", help="claude -p model for the Claude judge")
-    ap.add_argument("--codex-model", default=None, help="codex -m model (default = account default)")
+    ap.add_argument("--backend", choices=["cli", "openrouter"], default="cli")
     ap.add_argument("--date", default=None)
     ap.add_argument("--panel", default=None, help="panel name (default <date>-o3-smoke)")
     ap.add_argument("--designs", default=None, help="comma-separated design ids (default: 4-family slice)")
+    # CLI backend (subscription, smoke-only)
+    ap.add_argument("--sut-model", default="sonnet", help="[cli] claude -p model for the SUT")
+    ap.add_argument("--judge-model", default="sonnet", help="[cli] claude -p model for the Claude judge")
+    ap.add_argument("--codex-model", default=None, help="[cli] codex -m model (default = account default)")
+    # OpenRouter backend (measurement path). Judges default to NON-anthropic (item
+    # generator was Claude) + cross-family with each other (charter §6.5).
+    ap.add_argument("--or-sut-model", default="meta-llama/llama-3.3-70b-instruct")
+    ap.add_argument("--or-judge1-model", default="openai/gpt-5.6-terra")
+    ap.add_argument("--or-judge2-model", default="google/gemini-3.5-flash")
+    ap.add_argument("--or-classifier-model", default="openai/gpt-5.6-terra")
     args = ap.parse_args(argv)
 
     root = Path(args.benchmark_root)
@@ -209,34 +239,61 @@ def main(argv=None):
     out = Path(args.out) if args.out else root / "runs" / panel
     picks = args.designs.split(",") if args.designs else DEFAULT_DESIGN_PICKS
 
-    sut_r, jc_r, cx_r, cls_r = (_counting_runner() for _ in range(4))
-    sut = ClaudeCLIClient(f"claude:{args.sut_model}@cli", model=args.sut_model, runner=sut_r)
-    judges = [
-        CLIJudge(f"claude:{args.judge_model}@cli-judge",
-                 ClaudeCLIClient("claude-judge", model=args.judge_model, runner=jc_r),
-                 family="anthropic"),
-        CLIJudge("codex@cli-judge",
-                 CodexCLIClient("codex-judge", model=args.codex_model, runner=cx_r),
-                 family="openai"),
-    ]
-    classifier = make_cli_state_classifier(
-        ClaudeCLIClient("claude-classifier", model=args.judge_model, runner=cls_r))
+    tag = args.backend
+    if args.backend == "openrouter":
+        from . import openrouter_backend as orb
+        tr = _cost_tracking_transport()
+        key = orb.load_openrouter_key()
+        if not key:
+            raise SystemExit("openrouter backend: no key (set OPENROUTER_API_KEY or the secrets file)")
+        mk = lambda m: orb.OpenRouterClient(m, model=m, api_key=key, transport=tr)
+        sut = mk(args.or_sut_model)
+        # CLIJudge is client-agnostic (name is historical); families auto-derive from slug.
+        judges = [CLIJudge(f"or:{args.or_judge1_model}", mk(args.or_judge1_model)),
+                  CLIJudge(f"or:{args.or_judge2_model}", mk(args.or_judge2_model))]
+        classifier = make_cli_state_classifier(mk(args.or_classifier_model))
+    else:
+        sut_r, jc_r, cx_r, cls_r = (_counting_runner() for _ in range(4))
+        sut = ClaudeCLIClient(f"claude:{args.sut_model}@cli", model=args.sut_model, runner=sut_r)
+        judges = [
+            CLIJudge(f"claude:{args.judge_model}@cli-judge",
+                     ClaudeCLIClient("claude-judge", model=args.judge_model, runner=jc_r),
+                     family="anthropic"),
+            CLIJudge("codex@cli-judge",
+                     CodexCLIClient("codex-judge", model=args.codex_model, runner=cx_r),
+                     family="openai"),
+        ]
+        classifier = make_cli_state_classifier(
+            ClaudeCLIClient("claude-classifier", model=args.judge_model, runner=cls_r))
 
     top = run_smoke(str(root), out, sut, judges, classifier, design_picks=picks,
                     date_str=date_str, panel=panel)
 
-    counts = {"sut": sut_r.state["n"], "claude_judge": jc_r.state["n"],
-              "codex_judge": cx_r.state["n"], "classifier": cls_r.state["n"]}
-    counts["total"] = sum(counts.values())
-    top["call_counts"] = counts
+    if args.backend == "openrouter":
+        acc = tr.acc
+        top["backend"] = "openrouter"
+        top["call_counts"] = {"total": acc["calls"]}
+        top["cost"] = {"total_usd": round(acc["cost"], 6),
+                       "prompt_tokens": acc["prompt_tokens"],
+                       "completion_tokens": acc["completion_tokens"],
+                       "usd_per_item": round(acc["cost"] / max(1, top["n_records"]), 6)}
+    else:
+        counts = {"sut": sut_r.state["n"], "claude_judge": jc_r.state["n"],
+                  "codex_judge": cx_r.state["n"], "classifier": cls_r.state["n"]}
+        counts["total"] = sum(counts.values())
+        top["backend"] = "cli"
+        top["call_counts"] = counts
     (out / "smoke_summary.json").write_text(json.dumps(top, indent=2), encoding="utf-8")
 
-    print(f"[o3-smoke] {top['n_records']} records, "
-          f"{top['total_schema_errors']} schema errors, "
+    print(f"[{tag}] {top['n_records']} records, {top['total_schema_errors']} schema errors, "
           f"{len(top['defects']['judge'])} judge defects, "
           f"{len(top['defects']['classifier'])} classifier defects")
-    print(f"[o3-smoke] live calls: {counts}")
-    print(f"[o3-smoke] -> {out}")
+    print(f"[{tag}] calls: {top['call_counts']}")
+    if top.get("cost"):
+        print(f"[{tag}] cost: ${top['cost']['total_usd']:.4f} "
+              f"(${top['cost']['usd_per_item']:.4f}/item, "
+              f"{top['cost']['prompt_tokens']}+{top['cost']['completion_tokens']} tok)")
+    print(f"[{tag}] -> {out}")
     return 0
 
 

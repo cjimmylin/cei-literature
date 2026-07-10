@@ -166,33 +166,58 @@ def _hidden_key(tokens: tuple[str, ...], path: tuple[str, ...]) -> bool:
     return has_prior and has_ballot
 
 
-def _hidden_scalar_tokens(value: Any) -> frozenset[str]:
-    tokens: set[str] = set()
+def _typed_scalar(value: Any) -> tuple[str, Any] | None:
+    if isinstance(value, str):
+        return ("str", value.strip().casefold()) if value.strip() else None
+    if isinstance(value, bool):
+        return ("bool", value)
+    if isinstance(value, int):
+        return ("int", value)
+    if isinstance(value, float):
+        return ("float", value)
+    return None
+
+
+def _hidden_scalar_tokens(value: Any) -> frozenset[tuple[str, Any]]:
+    tokens: set[tuple[str, Any]] = set()
     if isinstance(value, Mapping):
         for child in value.values():
             tokens.update(_hidden_scalar_tokens(child))
     elif isinstance(value, (list, tuple)):
         for child in value:
             tokens.update(_hidden_scalar_tokens(child))
-    elif isinstance(value, str) and len(value.strip()) >= 2:
-        tokens.add(value.strip().casefold())
+    else:
+        token = _typed_scalar(value)
+        if token is not None:
+            tokens.add(token)
     return frozenset(tokens)
 
 
-def _sensitive_value(value: str, hidden_tokens: frozenset[str]) -> bool:
+def _sensitive_value(
+    value: Any, hidden_tokens: frozenset[tuple[str, Any]]
+) -> bool:
+    token = _typed_scalar(value)
+    if token is not None and token in hidden_tokens:
+        return True
+    if not isinstance(value, str):
+        return False
     if _SENSITIVE_ASSIGNMENT.search(value):
         return True
     folded = value.casefold()
     return any(
-        re.search(rf"(?<![a-z0-9]){re.escape(token)}(?![a-z0-9])", folded)
-        for token in hidden_tokens
+        kind == "str"
+        and re.search(
+            rf"(?<![a-z0-9]){re.escape(str(hidden))}(?![a-z0-9])",
+            folded,
+        )
+        for kind, hidden in hidden_tokens
     )
 
 
 def _blind_value(
     value: Any,
     path: tuple[str, ...] = (),
-    hidden_tokens: frozenset[str] = frozenset(),
+    hidden_tokens: frozenset[tuple[str, Any]] = frozenset(),
 ) -> Any:
     if isinstance(value, Mapping):
         blinded: dict[str, Any] = {}
@@ -208,7 +233,7 @@ def _blind_value(
         return blinded
     if isinstance(value, (list, tuple)):
         return [_blind_value(element, path, hidden_tokens) for element in value]
-    if isinstance(value, str) and _sensitive_value(value, hidden_tokens):
+    if _sensitive_value(value, hidden_tokens):
         raise ValueError(
             "observable_context contains a sensitive hidden value under an allowed key"
         )

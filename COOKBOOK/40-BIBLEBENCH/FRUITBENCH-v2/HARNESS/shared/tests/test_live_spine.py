@@ -260,6 +260,16 @@ def test_blind_event_payload_rejects_sensitive_values_under_innocent_keys() -> N
         )
 
 
+@pytest.mark.parametrize("hidden_value", [3, True, "X"])
+def test_blind_event_payload_rejects_typed_hidden_scalar_values(hidden_value) -> None:
+    with pytest.raises(ValueError, match="sensitive hidden value"):
+        blind_event_payload(
+            response_text="Same answer.",
+            observable_context={"note": hidden_value},
+            hidden_metadata={"condition": hidden_value},
+        )
+
+
 def test_valid_thorns_role_separation_is_accepted() -> None:
     assert validate_role_separation(_valid_roster()) is None
 

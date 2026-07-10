@@ -1,6 +1,7 @@
 """Append-before-swap custody runtime with deterministic replay and resume."""
 
 from hashlib import sha256
+from threading import Lock
 
 from .event_log import EventLog, EventLogError, verify_chain
 from .protocol import parse_action
@@ -142,6 +143,7 @@ class Runtime:
             item_sha256,
             template_sha256,
         )
+        self._publication_lock = Lock()
         self._state = initial_state
         self._handlers = handlers
         self._event_log = event_log
@@ -158,7 +160,8 @@ class Runtime:
 
     @property
     def state(self):
-        return self._state
+        with self._publication_lock:
+            return self._state
 
     @property
     def events(self):
@@ -170,7 +173,59 @@ class Runtime:
 
     @property
     def terminal(self):
-        return self._terminal
+        with self._publication_lock:
+            return self._terminal
+
+    def _published_snapshot(self):
+        with self._publication_lock:
+            return (
+                self._state,
+                self._terminal,
+                (
+                    self._expected_event_count,
+                    self._expected_event_head_sha256,
+                ),
+            )
+
+    def _capture_accept_snapshot(self):
+        with self._publication_lock:
+            if self._terminal:
+                raise TerminalRuntimeError("runtime is already terminal")
+            return (
+                self._state,
+                (
+                    self._expected_event_count,
+                    self._expected_event_head_sha256,
+                ),
+                (
+                    self._episode_id,
+                    self._logical_id,
+                    self._prompt_sha256,
+                    self._item_sha256,
+                    self._template_sha256,
+                ),
+            )
+
+    def _publish_transition(
+        self, starting_state, expected_generation, event, transition
+    ):
+        with self._publication_lock:
+            current_generation = (
+                self._expected_event_count,
+                self._expected_event_head_sha256,
+            )
+            if (
+                self._terminal
+                or self._state is not starting_state
+                or current_generation != expected_generation
+            ):
+                raise RuntimeStateError(
+                    "runtime publication diverged after event-log append"
+                )
+            self._expected_event_count = expected_generation[0] + 1
+            self._expected_event_head_sha256 = event.event_sha256
+            self._state = transition.next_state
+            self._terminal = transition.tool_result.terminal
 
     def _assert_expected_log_head(self, expected_generation):
         try:
@@ -183,20 +238,11 @@ class Runtime:
     def accept(self, raw_response):
         """Validate, simulate, durably append, and only then swap runtime state."""
 
-        if self._terminal:
-            raise TerminalRuntimeError("runtime is already terminal")
-        starting_state = self._state
-        expected_generation = (
-            self._expected_event_count,
-            self._expected_event_head_sha256,
-        )
-        provenance_metadata = (
-            self._episode_id,
-            self._logical_id,
-            self._prompt_sha256,
-            self._item_sha256,
-            self._template_sha256,
-        )
+        (
+            starting_state,
+            expected_generation,
+            provenance_metadata,
+        ) = self._capture_accept_snapshot()
         self._assert_expected_log_head(expected_generation)
         before_sha256 = state_sha256(starting_state)
         existing_events = self._event_log.events
@@ -245,10 +291,7 @@ class Runtime:
             terminal=transition.tool_result.terminal,
         )
         self._event_log.append(event, expected_generation=expected_generation)
-        self._expected_event_count = expected_generation[0] + 1
-        self._expected_event_head_sha256 = event.event_sha256
-        self._state = transition.next_state
-        self._terminal = transition.tool_result.terminal
+        self._publish_transition(starting_state, expected_generation, event, transition)
         return transition.tool_result
 
     @classmethod
@@ -365,6 +408,7 @@ class Runtime:
             terminal = transition.tool_result.terminal
 
         runtime = cls.__new__(cls)
+        runtime._publication_lock = Lock()
         runtime._state = state
         runtime._handlers = handlers
         runtime._event_log = log

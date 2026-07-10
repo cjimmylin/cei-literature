@@ -1049,9 +1049,9 @@ def test_same_runtime_accepts_share_one_immutable_starting_generation(
         try:
             runtime.accept(
                 json.dumps(
-                        {
-                            "kind": "act",
-                            "tool": "fixture.same-runtime-transition",
+                    {
+                        "kind": "act",
+                        "tool": "fixture.same-runtime-transition",
                         "arguments": {"actor": actor},
                     }
                 )
@@ -1075,8 +1075,145 @@ def test_same_runtime_accepts_share_one_immutable_starting_generation(
     assert len(runtime.events) == 1
     assert api.verify_chain(runtime.events) is True
     assert runtime.events[0].tool_result.data["actor"] == "winner"
-    assert runtime._expected_event_count == 1
-    assert runtime._expected_event_head_sha256 == runtime.events[0].event_sha256
+    _, _, published_generation = runtime._published_snapshot()
+    assert published_generation == (1, runtime.events[0].event_sha256)
+    if path is not None:
+        assert api.EventLog(path=path).events == runtime.events
+
+
+@pytest.mark.parametrize("path_backed", [False, True])
+def test_runtime_publication_is_coherent_for_a_sequential_follower(
+    path_backed, tmp_path
+):
+    api = load_api()
+    signals = set()
+    signal_changed = threading.Condition()
+
+    def signal(name):
+        with signal_changed:
+            signals.add(name)
+            signal_changed.notify_all()
+
+    class TrackingLock:
+        def __init__(self):
+            self._lock = threading.Lock()
+
+        def __enter__(self):
+            if self._lock.locked():
+                signal("follower-waiting-on-publication")
+            self._lock.acquire()
+            return self
+
+        def __exit__(self, exc_type, exc_value, traceback):
+            self._lock.release()
+
+    class PublicationPausingRuntime(api.Runtime):
+        def __init__(self, *args, **kwargs):
+            self.publication_paused = threading.Event()
+            self.release_publication = threading.Event()
+            self.pause_before_state_assignment = False
+            super().__init__(*args, **kwargs)
+
+        def __setattr__(self, name, value):
+            if name == "_state" and getattr(
+                self, "pause_before_state_assignment", False
+            ):
+                super().__setattr__("pause_before_state_assignment", False)
+                self.publication_paused.set()
+                assert self.release_publication.wait(timeout=3.0)
+            super().__setattr__(name, value)
+
+    registry = api.ToolRegistry()
+    calls = []
+    observed_states = {}
+
+    def sequential_transition(state, arguments):
+        actor = arguments["actor"]
+        calls.append(actor)
+        observed_states[actor] = state
+        next_state = (
+            state
+            if actor == "winner"
+            else api.EpisodeState({"owner": "follower"})
+        )
+        return api.Transition(
+            next_state,
+            api.ToolResult({"actor": actor}, terminal=actor == "follower"),
+        )
+
+    registry.register(
+        "fixture.sequential-transition", {"actor": str}, sequential_transition
+    )
+    path = tmp_path / "events.jsonl" if path_backed else None
+    log = api.EventLog(path=path)
+    initial = api.EpisodeState({})
+    runtime = PublicationPausingRuntime(initial, registry, log)
+    runtime._publication_lock = TrackingLock()
+    runtime.pause_before_state_assignment = True
+    outcomes = {}
+
+    def accept(actor):
+        try:
+            runtime.accept(
+                json.dumps(
+                    {
+                        "kind": "act",
+                        "tool": "fixture.sequential-transition",
+                        "arguments": {"actor": actor},
+                    }
+                )
+            )
+            outcomes[actor] = "committed"
+        except api.CustodyError:
+            outcomes[actor] = "rejected"
+        finally:
+            signal(actor + "-finished")
+
+    winner_thread = threading.Thread(target=accept, args=("winner",))
+    winner_thread.start()
+    assert runtime.publication_paused.wait(timeout=2.0)
+    assert len(runtime.events) == 1
+
+    follower_thread = threading.Thread(target=accept, args=("follower",))
+    follower_thread.start()
+    with signal_changed:
+        assert signal_changed.wait_for(
+            lambda: "follower-waiting-on-publication" in signals
+            or "follower-finished" in signals,
+            timeout=2.0,
+        )
+        follower_waited = "follower-waiting-on-publication" in signals
+
+    runtime.release_publication.set()
+    winner_thread.join(timeout=2.0)
+    follower_thread.join(timeout=2.0)
+    assert not winner_thread.is_alive()
+    assert not follower_thread.is_alive()
+
+    assert follower_waited is True
+    assert outcomes == {"winner": "committed", "follower": "committed"}
+    assert calls == ["winner", "follower"]
+    assert observed_states == {
+        "winner": initial,
+        "follower": initial,
+    }
+    assert len(runtime.events) == 2
+    assert api.verify_chain(runtime.events) is True
+    assert (
+        runtime.events[0].state_before_sha256
+        == runtime.events[0].state_after_sha256
+    )
+    head = runtime.events[-1]
+    published_state, published_terminal, published_generation = (
+        runtime._published_snapshot()
+    )
+    assert published_state == api.EpisodeState({"owner": "follower"})
+    assert published_terminal is True
+    assert published_generation == (2, head.event_sha256)
+    assert runtime.state == published_state
+    assert runtime.terminal is published_terminal
+    assert api.state_sha256(runtime.state) == head.state_after_sha256
+    assert head.terminal is runtime.terminal
     if path is not None:
         assert api.EventLog(path=path).events == runtime.events
 

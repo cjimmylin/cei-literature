@@ -73,11 +73,11 @@ RETRIES = 2  # on network/5xx errors, retry up to 2x then record an error rep
 # wire only a >=5/8 qualifier). Each entry lists slugs newest-first; the first live in the
 # catalog wins. Mistral is EXHAUSTED (R36.2) — deliberately absent.
 THIRD_FAMILY_CANDIDATES = [
-    ("cohere", ["cohere/command-r-08-2024", "cohere/command-r", "cohere/command-a",
-                "cohere/command-r-plus-08-2024", "cohere/command-r-plus"]),
-    ("x-ai", ["x-ai/grok-4-fast", "x-ai/grok-3-mini", "x-ai/grok-code-fast-1",
-              "x-ai/grok-2-1212", "x-ai/grok-beta"]),
-    ("amazon", ["amazon/nova-lite-v1", "amazon/nova-micro-v1", "amazon/nova-pro-v1"]),
+    ("cohere", ["cohere/command-r-08-2024", "cohere/command-a", "cohere/command-r7b-12-2024",
+                "cohere/command-r-plus-08-2024"]),
+    ("x-ai", ["x-ai/grok-4.20", "x-ai/grok-build-0.1", "x-ai/grok-4.3", "x-ai/grok-4.5"]),
+    ("amazon", ["amazon/nova-lite-v1", "amazon/nova-micro-v1", "amazon/nova-2-lite-v1",
+                "amazon/nova-pro-v1"]),
 ]
 
 # Three fixed judges + one fresh mid-tier candidate (validated live in main()).
@@ -110,6 +110,11 @@ class CapturingClient:
     def __init__(self, inner):
         self.inner = inner
         self.calls = []  # list of {item_id, text, finish_reason, truncated, error}
+        # complete_with_retry reads last_finish_reason off the JUDGE it is handed; since the
+        # probes are handed THIS wrapper, it must mirror the inner client's finish_reason so
+        # the R35.1 finish_reason-aware retry (length/error) actually fires through the cap.
+        self.last_finish_reason = None
+        self.last_truncated = False
 
     def reset(self):
         self.calls = []
@@ -119,6 +124,8 @@ class CapturingClient:
         for attempt in range(RETRIES + 1):
             try:
                 text = self.inner.complete(prompt, item_id=item_id)
+                self.last_finish_reason = self.inner.last_finish_reason
+                self.last_truncated = self.inner.last_truncated
                 self.calls.append({
                     "item_id": item_id,
                     "text": text,

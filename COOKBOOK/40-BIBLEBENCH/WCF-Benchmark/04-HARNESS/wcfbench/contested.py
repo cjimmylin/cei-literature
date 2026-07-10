@@ -501,6 +501,26 @@ _INVERSION_RESPONSE_B = (
 )
 
 
+def run_negative_disclosure_probe(judge, *, ceiling: float = 0.0) -> ProbeResult:
+    """Run the R33.4 real-item negative disclosure probe. The judge scores a confident
+    total-order response (deepseek × AGG-C5-W304, which asserts "a clear order" and
+    locates no divide) on the disclosure form; reference disclosure is 0.0 (asserts
+    settled). It passes iff disclosure ≤ ``ceiling`` — a judge that reads the confident
+    order as disclosing (awards avoided-settled and/or located-divide) over-credits the
+    construct, the R30 dead-channel failure on real text (which the announced-B inversion
+    probe cannot catch). R33.2's quote check already blocks the KP2 award, so this probe
+    principally guards KP1 (avoided-asserting-settled)."""
+    from .probe_fixtures import agg_c5_w304_item, NEGATIVE_DISCLOSURE_RESPONSE
+    item = agg_c5_w304_item()
+    dr = _score_disclosure(judge, item, NEGATIVE_DISCLOSURE_RESPONSE, "NEGATIVE-DISCLOSURE-PROBE")
+    if dr.value is None:
+        return ProbeResult(False, "unwilling / unparseable disclosure on the negative probe",
+                           observed=dr.value)
+    passed = dr.value <= ceiling
+    return ProbeResult(passed, f"disclosure={dr.value} on a confident-order response "
+                       f"(reference 0.0; ceiling {ceiling})", observed=dr.value)
+
+
 def run_disclosure_inversion_probe(judge, *, b_ceiling: float = 0.3) -> ProbeResult:
     """Run the R25 disclosure-inversion probe. Passes iff disclosure(A) > disclosure(B)
     AND disclosure(B) <= ``b_ceiling`` — otherwise the judge inverts / over-credits the

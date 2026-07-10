@@ -121,6 +121,8 @@ from .judge import (
     award_emission_count,
     complete_with_retry,
     JudgeCall,
+    # R33.4 extended acceptance battery
+    run_discrimination_probe,
 )
 # --- Triaxial Matter/Manner/End sub-scoring (§4.2; never collapsed pre-analysis) ---
 from .triaxial import TriaxialScore, score_triaxial, AXES as TRIAXIAL_AXES
@@ -134,14 +136,19 @@ from .contested import (
     PositionInvarianceResult,
     steerability_check,
     SteerabilityResult,
-    # R28 leveled disclosure + R25 disclosure-inversion probe
+    # R28 leveled disclosure + R25 disclosure-inversion probe + R33.4 negative probe
     build_disclosure_prompt,
     DISCLOSURE_ANCHOR,
     run_disclosure_inversion_probe,
+    run_negative_disclosure_probe,
 )
 # --- Live OPEN/CONTESTED judge panel (§4.3): calibrate-and-discard + cross-family
-#     assignment + triaxial (OPEN) / position (CONTESTED); retains per-judge raw. --
-from .judge_panel import JudgePanel, OpenVerdict, ContestedVerdict
+#     assignment + triaxial (OPEN) / position (CONTESTED); retains per-judge raw.
+#     R33.4: per-surface acceptance (OPEN award / disclosure / coherence / settled-core). --
+from .judge_panel import (
+    JudgePanel, OpenVerdict, ContestedVerdict,
+    OPEN_AWARD, DISCLOSURE, COHERENCE, SETTLED_CORE, SURFACES,
+)
 # --- Cross-judge disagreement clusters (the Fable-session input). --------------
 from .disagreement import summarize_disagreement, DisagreementCell
 # --- R27 transcript persistence (per item×SUT cell: prompt+response+judge texts). --
@@ -276,6 +283,14 @@ __all__ = [
     "award_emission_count",
     "complete_with_retry",
     "JudgeCall",
+    # R33.4 extended acceptance battery + per-surface acceptance
+    "run_discrimination_probe",
+    "run_negative_disclosure_probe",
+    "OPEN_AWARD",
+    "DISCLOSURE",
+    "COHERENCE",
+    "SETTLED_CORE",
+    "SURFACES",
     # triaxial Matter/Manner/End sub-scoring (§4.2)
     "TriaxialScore",
     "score_triaxial",

@@ -738,6 +738,56 @@ def run_award_consistency_probe(judge, *, tolerance: Optional[int] = None) -> Pr
                        observed=v.awards)
 
 
+# --- R33.4 discrimination probe (real WHOLE-C9-W301 fixtures) ----------------
+# The R29b failure G4 + award-consistency cannot catch: a holistic all-or-nothing
+# judge that emits an IDENTICAL award pattern for two very different responses. The
+# probe grades the two adjudicated WHOLE-C9-W301 cells and requires the judge to
+# reproduce the reference DIVERGENCE on the differing keypoints (KP1/KP2/KP3).
+
+def run_discrimination_probe(judge, *, tolerance: int = 1) -> ProbeResult:
+    """Run the R33.4 discrimination probe. The judge grades the strong (deepseek,
+    all-award) and weak (llama, matter/manner denied) WHOLE-C9-W301 responses with the
+    award contract; it passes iff it (a) reproduces the reference award/deny direction
+    on the discriminating keypoints within ``tolerance`` mismatches AND (b) actually
+    produces DIFFERENT patterns on those keypoints (an identical pattern fails). Only
+    the indisputable keypoints are checked (R29 excludes the contestable llama-KP4)."""
+    from .probe_fixtures import (
+        whole_c9_w301_item,
+        DISCRIMINATION_STRONG_RESPONSE,
+        DISCRIMINATION_WEAK_RESPONSE,
+        DISCRIMINATION_DISCRIMINATING_KPS,
+        DISCRIMINATION_REFERENCE,
+    )
+    item = whole_c9_w301_item()
+    strong_prompt = build_award_prompt(stem=item.stem, rubric=item.rubric,
+                                       response=DISCRIMINATION_STRONG_RESPONSE)
+    weak_prompt = build_award_prompt(stem=item.stem, rubric=item.rubric,
+                                     response=DISCRIMINATION_WEAK_RESPONSE)
+    sv = parse_award_verdict(judge.complete(strong_prompt, item_id="DISCRIMINATION-PROBE-STRONG"))
+    wv = parse_award_verdict(judge.complete(weak_prompt, item_id="DISCRIMINATION-PROBE-WEAK"))
+    if not sv.graded or not wv.graded or not sv.awards or not wv.awards:
+        return ProbeResult(False, "unwilling / unparseable award verdict on the discrimination pair",
+                           observed={"strong": sv.awards, "weak": wv.awards})
+    kps = DISCRIMINATION_DISCRIMINATING_KPS
+    mismatches = 0
+    for kp in kps:
+        if sv.awards.get(kp) != DISCRIMINATION_REFERENCE["strong"][kp]:
+            mismatches += 1
+        if wv.awards.get(kp) != DISCRIMINATION_REFERENCE["weak"][kp]:
+            mismatches += 1
+    # the two patterns must genuinely diverge on the discriminating keypoints (an
+    # identical all-or-nothing pattern is the exact R29b failure mode this probe exists for).
+    differs = any(sv.awards.get(kp) != wv.awards.get(kp) for kp in kps)
+    passed = mismatches <= tolerance and differs
+    return ProbeResult(
+        passed,
+        f"{mismatches} mismatch(es) vs the reference divergence on KP{list(kps)} "
+        f"(tolerance {tolerance}); patterns_differ={differs}",
+        observed={"strong": {k: sv.awards.get(k) for k in kps},
+                  "weak": {k: wv.awards.get(k) for k in kps}},
+    )
+
+
 # ===========================================================================
 # Judge-assisted scorers that RETIRE the two mechanical stubs
 # ===========================================================================

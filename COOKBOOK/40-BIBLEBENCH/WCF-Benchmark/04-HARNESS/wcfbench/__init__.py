@@ -148,6 +148,7 @@ from .contested import (
 from .judge_panel import (
     JudgePanel, OpenVerdict, ContestedVerdict,
     OPEN_AWARD, DISCLOSURE, COHERENCE, SETTLED_CORE, SURFACES,
+    is_retryable_transport_error,
 )
 # --- R35 judge qualification: retry + majority-of-K gate + the frozen manifest
 #     JudgePanel consumes (surface eligibility can no longer flip run-to-run). ------
@@ -319,6 +320,7 @@ __all__ = [
     "JudgePanel",
     "OpenVerdict",
     "ContestedVerdict",
+    "is_retryable_transport_error",
     # cross-judge disagreement clusters (Fable-session input)
     "summarize_disagreement",
     "DisagreementCell",

@@ -26,8 +26,10 @@ item loses all its judges). Mock-first: a "judge" is any object exposing
 
 from __future__ import annotations
 
+import json
+import time
 from dataclasses import dataclass, field
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 from .loader import ItemRecord
 from .judge import (
@@ -95,6 +97,67 @@ class ContestedVerdict:
 def _mean(vals: List[Optional[float]]) -> Optional[float]:
     present = [v for v in vals if v is not None]
     return (sum(present) / len(present)) if present else None
+
+
+# --- R40.2 transport-retry seam ----------------------------------------------
+#: One retry with a short backoff on a RETRYABLE transport error. The grok AGG-C8 drop
+#: (the settled-core floor divergence, memo R38/R39) was a downstream ``JSONDecodeError``
+#: raised inside the OpenRouter client — a malformed HTTP body — which surfaces as an
+#: *exception* out of the whole scoring function, so the ``complete_with_retry``
+#: finish_reason/empty seam (which inspects returned TEXT) never sees it. R40.2 catches it
+#: here, retries once, and — on a post-retry failure — records ``fail_transport_after_retry``
+#: in the ``discarded`` record. A transport loss is NEVER a silent drop and NEVER a
+#: substantive fail (R35.1's principle, applied to the exception path).
+_RETRY_BACKOFF_SECS = 0.75
+#: HTTP transport codes that warrant a retry (key-limit / rate / auth-transient / billing).
+#: 402 = billing (WALKWORTHY parity), 403 = "Key limit exceeded" (the floor-rerun deepseek
+#: 403s), 429 = rate limit. A 5xx server error is NOT in this set — it keeps the legacy
+#: single-attempt "call error" survival (not a retryable transport class here).
+_RETRYABLE_HTTP_CODES = (402, 403, 429)
+
+
+def is_retryable_transport_error(exc: BaseException) -> bool:
+    """True iff ``exc`` is a retryable transport-class failure (R40.2):
+      (i)  a ``json.JSONDecodeError`` / an OpenRouterError whose message reports a
+           malformed/unparseable reply body (the grok AGG-C8 signature), or
+      (ii) an OpenRouter HTTP 402 / 403 / 429 transport error.
+    A generic bug (``ValueError``), a simulated upstream 500, or a plain ``RuntimeError``
+    is NOT retryable here — it keeps the existing single-attempt per-judge survival."""
+    if isinstance(exc, json.JSONDecodeError):
+        return True
+    msg = str(exc)
+    low = msg.lower()
+    # An OpenRouter (or any client) "malformed / unparseable response body" is a
+    # transport-class parse loss, same class as the grok JSONDecodeError.
+    if "malformed" in low or "unparseable" in low or "json" in low or "decode" in low:
+        return True
+    # HTTP 402/403/429 surfaced in the exception message (OpenRouterError formats
+    # `OpenRouter HTTP <code> (<reason>) ...`).
+    for code in _RETRYABLE_HTTP_CODES:
+        if f"http {code}" in low or f"HTTP {code}".lower() in low:
+            return True
+    return False
+
+
+def _score_judge_with_retry(score_fn: Callable[[], Any]) -> Tuple[Any, Optional[str]]:
+    """Run ``score_fn`` (one judge's scoring call, which may fan out several ``.complete``
+    calls); on a RETRYABLE transport error retry ONCE after a short backoff. Returns
+    ``(result, reason)`` where ``result`` is the score object on success (``reason`` None),
+    or ``(None, reason)`` on failure — ``reason`` is ``"fail_transport_after_retry: …"`` for
+    a retryable error that survived the retry, or ``"call error …"`` for a non-retryable
+    per-judge error (the legacy single-attempt survival). NEVER a silent drop."""
+    try:
+        return score_fn(), None
+    except Exception as e:  # noqa: BLE001 — per-judge survival; classify below
+        if not is_retryable_transport_error(e):
+            return None, f"call error: {type(e).__name__}"
+        first = f"{type(e).__name__}: {str(e)[:80]}"
+        time.sleep(_RETRY_BACKOFF_SECS)
+        try:
+            return score_fn(), None
+        except Exception as e2:  # noqa: BLE001
+            return None, (f"fail_transport_after_retry: {type(e2).__name__} "
+                          f"(first: {first})")
 
 
 class JudgePanel:
@@ -223,11 +286,14 @@ class JudgePanel:
         per_judge: List[Dict[str, Any]] = []
         used: List[Tuple[str, str]] = []
         for name, family, client in judges:
-            try:
-                t = score_triaxial(stem=item.stem, rubric=item.rubric, response=response,
-                                   judge=client, item_id=item.id)
-            except Exception as e:  # per-judge error survival
-                self.discarded.append((name, f"call error on {item.id}: {type(e).__name__}"))
+            # R40.2: one retry with backoff on a retryable transport error (JSONDecodeError /
+            # HTTP 402/403/429); a post-retry loss is recorded fail_transport_after_retry,
+            # never a silent drop. A non-transport bug keeps the legacy single-attempt survival.
+            t, err = _score_judge_with_retry(
+                lambda c=client: score_triaxial(stem=item.stem, rubric=item.rubric,
+                                                response=response, judge=c, item_id=item.id))
+            if err is not None:
+                self.discarded.append((name, f"{err} on {item.id}"))
                 continue
             # R33.3: an award call still truncated/short after one retry is discarded for
             # THIS cell (surfaced), never absorbed as a real low grade.
@@ -292,11 +358,14 @@ class JudgePanel:
         used: List[Tuple[str, str]] = []
         scored: List[Tuple[ContestedScore, set]] = []   # (score, eligible-surfaces)
         for name, family, client in judges:
-            try:
-                s = score_contested_position(item=item, response=response, judge=client,
-                                             ranking=ranking, item_id=item.id)
-            except Exception as e:
-                self.discarded.append((name, f"call error on {item.id}: {type(e).__name__}"))
+            # R40.2: one retry with backoff on a retryable transport error (the grok AGG-C8
+            # JSONDecodeError signature / HTTP 402/403/429); a post-retry loss is recorded
+            # fail_transport_after_retry, never a silent drop.
+            s, err = _score_judge_with_retry(
+                lambda c=client: score_contested_position(item=item, response=response,
+                                                          judge=c, ranking=ranking, item_id=item.id))
+            if err is not None:
+                self.discarded.append((name, f"{err} on {item.id}"))
                 continue
             # R33.3: a disclosure award call still truncated/short after one retry is
             # discarded for THIS cell (surfaced), never absorbed as a real low score.
@@ -351,13 +420,28 @@ class JudgePanel:
         labels = [s.position_label for s in scores if s.position_label]
         agg.position_label = labels[0] if labels else None
         agg.positions_offered = scores[0].positions_offered
-        # settled-core = majority per keypoint over SETTLED_CORE-eligible judges
+        # settled-core = majority per keypoint over SETTLED_CORE-eligible judges.
+        # R40.3 / R39(e)(4): an EVEN eligible-judge split is UNGRADED (None) + an
+        # escalation flag — NEVER a silent False (the old tie→False rule at judge_panel.py
+        # produced the mechanical part of the AGG-C8 0.0: grok's JSONDecodeError drop left
+        # an even 2-judge panel, and a 1-1 tie resolved to False = a spurious floor break).
+        # An odd-panel majority is unchanged (a genuine majority-wrong keypoint stays a REAL
+        # False — the floor is credit-when-earned, R39(e)(3)).
         keys = set()
         for s in core_ok:
             keys.update(s.settled_core)
+        escalated: List[str] = []
         for kp in keys:
             kp_votes = [s.settled_core[kp] for s in core_ok if kp in s.settled_core]
-            agg.settled_core[kp] = sum(1 for v in kp_votes if v) > len(kp_votes) / 2
+            trues = sum(1 for v in kp_votes if v)
+            if len(kp_votes) % 2 == 0 and trues == len(kp_votes) / 2:
+                agg.settled_core[kp] = None          # UNGRADED tie — escalate, not a False
+                escalated.append(kp)
+            else:
+                agg.settled_core[kp] = trues > len(kp_votes) / 2
         agg.detail["judges"] = (f"per-surface aggregate — disclosure×{len(disc_ok)} "
                                 f"coherence×{len(coh_ok)} settled×{len(core_ok)} of {len(scores)}")
+        agg.detail["settled_core_escalation"] = (
+            "ESCALATE: even eligible-judge split (UNGRADED, R40.3) on settled-core "
+            f"keypoint(s): {escalated}" if escalated else "")
         return agg

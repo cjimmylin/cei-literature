@@ -139,7 +139,9 @@ class ContestedScore:
     position_label: Optional[str] = None
     position_defensible: Optional[bool] = None
     coherence: Optional[float] = None
-    settled_core: Dict[str, bool] = field(default_factory=dict)
+    #: R40.3: a value is True (correct) / False (majority-wrong, a real floor miss) /
+    #: None (UNGRADED — an even eligible-judge tie that escalated, never a silent False).
+    settled_core: Dict[str, Optional[bool]] = field(default_factory=dict)
     graded: Dict[str, bool] = field(default_factory=dict)
     detail: Dict[str, str] = field(default_factory=dict)
     positions_offered: List[str] = field(default_factory=list)
@@ -169,10 +171,18 @@ class ContestedScore:
     @property
     def settled_core_fraction(self) -> Optional[float]:
         """The ONLY right/wrong quantity on a contested item: the fraction of
-        settled-core keypoints scored correct. ``None`` if there are none."""
+        settled-core keypoints scored correct. ``None`` if there are none.
+
+        R40.3 / R39(e)(4): an UNGRADED keypoint (``None`` — an even eligible-judge tie
+        that escalated) is EXCLUDED from both numerator and denominator; a tie is not a
+        credited-zero (that was the old tie→False bias). The fraction is over GRADED
+        keypoints only. ``None`` if there are no graded keypoints at all (all ties/absent)."""
         if not self.settled_core:
             return None
-        return sum(1 for v in self.settled_core.values() if v) / len(self.settled_core)
+        graded = [v for v in self.settled_core.values() if v is not None]
+        if not graded:
+            return None
+        return sum(1 for v in graded if v) / len(graded)
 
     def collapsed(self):
         """Forbidden — a contested item is scored on adherence, not correctness;

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +9,7 @@ short_title: "From RAG to Agentic Validating Islamic-Medicine"
 year: 2025
 first_author: "[[Mohammad Amaan Sayeed]]"
 last_author: "[[Amir Hussain]]"
-authors: Mohammad Amaan Sayeed; Mohammed Talha Alam; Raza Imam; Shahab Saquib Sohail; Amir Hussain
+authors: "Mohammad Amaan Sayeed; Mohammed Talha Alam; Raza Imam; Shahab Saquib Sohail; Amir Hussain"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.15911"
 external_pdf: "https://arxiv.org/pdf/2506.15911.pdf"
@@ -57,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hussain-From RAG to Agentic Validatin
 publication: "Muslims in Machine Learning Workshop at ICML 2025 / arXiv"
 CONF-CC: "ICML 2025 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: ""
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: 
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,21 +45,21 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Centuries-old Islamic medical texts like Avicenna’s Canon of Medicine and the Prophetic Tibb-e-Nabawi, encode a wealth of preventive care, nutrition, and holistic therapies, yet remain inaccessible to many and underutilized in modern AI systems. Existing language-model benchmarks focus narrowly on factual recall or user preference, leaving a gap in validating culturally grounded medical guidance at scale."
 LLM_assessed: "Claude, Gemini, GPT-4, Llama-3, Mistral, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "ICML 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

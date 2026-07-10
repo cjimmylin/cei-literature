@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +6,7 @@ Not AI:
 key: EXSR0601
 type: conference_paper
 short_title: "Subverting the Jewtocracy Online Antisemitism Detection"
-year: 2021
+year: 2025
 first_author: "[[Mohit Chandra, Pailla,]]"
 last_author: "[[Hyderabad, others (IIIT]]"
 authors: "Mohit Chandra, Pailla,; Hyderabad, others (IIIT"
@@ -60,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Mohit Chandra-Subverting the Jewtocra
 publication: "ACM Web Science Conference 2021"
 CONF-CC: "Web Science Conference"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -87,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The exponential rise of online social media has enabled the creation, distribution, and consumption of information at an unprecedented rate. However, it has also led to the burgeoning of various forms of online abuse. Increasing cases of online antisemitism have become one of the major concerns because of its socio-political consequences. Unlike other major forms of online abuse like racism, sexism, etc., online antisemitism has not been studied much from a machine learning perspective."
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/mohit3011/Online-Antisemitism-Detection-Using-MultimodalDeep-Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # "Subverting the Jewtocracy": Online Antisemitism Detection Using Multimodal Deep Learning

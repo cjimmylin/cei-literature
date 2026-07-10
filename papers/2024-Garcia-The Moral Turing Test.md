@@ -6,7 +6,7 @@ Not AI:
 key: BT2NK8RP
 type: conferencePaper
 short_title: "The Moral Turing Test"
-year: 2024
+year: 2025
 first_author: "[[Basile Garcia]]"
 last_author: "[[Stefano Palminteri]]"
 authors: "Basile Garcia; Crystal Qian; Stefano Palminteri"
@@ -14,11 +14,11 @@ doi: 10.48550/arXiv.2410.07304
 url: "http://arxiv.org/abs/2410.07304"
 external_pdf: "http://arxiv.org/pdf/2410.07304.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -52,11 +52,11 @@ abstract: "As large language models (LLMs) become increasingly integrated into s
 paper_summary: "Abstract: As large language models (LLMs) become increasingly integrated into society, their alignment with human morals is crucial. To better understand this alignment, we created a large corpus of human- and  | Overview: The Moral Turing Test: Evaluating Human-LLM Alignment in Moral Decision-Making Basile Garcia basile.garcia@unige.ch University of Geneva Geneva, Switzerland Crystal Qian cjqian@google.com Google DeepM | Key Findings: In the main stage of the study (Figure 2B), we presented the re- sponses generated in the first stage to new human participants (N=230). 77 participan | Conclusions: 5.1 Summary In the first part of our study, we set the stage to examine differences in human- and LLM- reasoning, administering a well-established psy"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Garcia-The Moral Turing Test.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-3.5"
-DATA_URL: "NA"
+LLM_assessed: GPT-3.5
+DATA_URL: NA
 normative_ethics_benchmark: Yes
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 80
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CH"
+author_country: CH
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 ---

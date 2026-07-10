@@ -4,18 +4,18 @@ Not AI:
 key: AUTO_KYRIACOU2024
 type: journalArticle
 short_title: "Artificial Moral Intelligence Aristotelian"
-year: 2024
-first_author: "[[Kyriacou]]"
-last_author: "[[Christos]]"
-authors: Kyriacou; Christos
+year: 2025
+first_author: [[Kyriacou]]
+last_author: [[Christos]]
+authors: "Kyriacou; Christos"
 doi: 10.1007/s43681-024-00543-1
 url: "https://link.springer.com/article/10.1007/s43681-024-00543-1"
 pdf_extract: "PDF Extracts/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kyriacou-Artificial Moral Intelligence Aristotelian.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -30,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -48,9 +48,9 @@ abstract: "The paper argues that AI systems solve problems based on mechanically
 CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 50
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -63,14 +63,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Artificial moral intelligence and computability: an Aristotelian perspective

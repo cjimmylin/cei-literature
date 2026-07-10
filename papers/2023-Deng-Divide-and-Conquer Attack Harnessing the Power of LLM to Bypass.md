@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: LSRC0842
 type: preprint
 short_title: "Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models"
-year: 2023
+year: 2025
 first_author: "[[Deng, Yimo]]"
 last_author: "[[Chen, Huangxun]]"
 authors: "Deng, Yimo; Chen, Huangxun"
@@ -52,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2312.07130v3"
 external_pdf: "https://arxiv.org/pdf/2312.07130.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Deng-Divide-and-Conquer Attack Harnessing the Power of LLM to Bypass.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4, GPT-3.5, Qwen"
 DATA_URL: "https://github.com/researchcode003/DACA"
 tags: 
 abstract: "To prevent Text-to-Image (T2I) models from generating unethical images, people deploy safety filters to block inappropriate drawing prompts. Previous works have employed token replacement to search adversarial prompts that attempt to bypass these filters, but they has become ineffective as nonsensical tokens fail semantic logic checks. In this paper, we approach adversarial prompts from a different perspective."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Divide-and-Conquer Attack: Harnessing the Power of LLM to Bypass Safety Filters of Text-to-Image Models

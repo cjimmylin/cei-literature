@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,14 +15,14 @@ doi: 10.1371/journal.pone.0306521
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306521"
 external_pdf: "https://europepmc.org/articles/PMC11288409?pdf=render"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Monnar-Cross-lingual hate speech detection using domain-specific word.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "English, Multilingual"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/aymeam/Datasets-for-Hate-Speech-Detection"
 tags: 
 abstract: "THIS ARTICLE USES WORDS OR LANGUAGE THAT IS CONSIDERED PROFANE, VULGAR, OR OFFENSIVE BY SOME READERS. Hate speech detection in online social networks is a multidimensional problem, dependent on language and cultural factors. Most supervised learning resources for this task, such as labeled datasets and Natural Language Processing (NLP) tools, have been specifically tailored for English. However, a large portion of web users around the world speak different languages, creating an important need..."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CL"
+author_country: CL
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 45
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

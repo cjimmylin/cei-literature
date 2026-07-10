@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: LSRC0669
 type: preprint
 short_title: "C3Bench: A Comprehensive Classical Chinese Understanding Benchmark for Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Cao, Jiahuan]]"
 last_author: "[[Jin, Lianwen]]"
 authors: "Cao, Jiahuan; Shi, Yongxin; Peng, Dezhi; Liu, Yang; Jin, Lianwen"
@@ -51,12 +14,12 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2405.17732v1"
 external_pdf: "https://arxiv.org/pdf/2405.17732.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Cao-C3Bench A Comprehensive Classical Chinese Understanding Benchmark for.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Chinese, Classical Chinese, English"
 religious_values: "Multiple Religions"
 rv_islam: 0
@@ -82,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BLOOM-7B-Chunhua, Baichuan-2, ChatGLM-2, Qwen, Llama-2, MOSS, GPT-3.5, GPT-4, ERNIE-Bot, Spark, abab5-chat, ChatGLM-Turbo"
 DATA_URL: "https://github.com/SCUT-DLVCLab/C3bench"
 tags: 
 abstract: "Classical Chinese Understanding (CCU) holds significant value in preserving and exploration of the outstanding traditional Chinese culture. Recently, researchers have attempted to leverage the potential of Large Language Models (LLMs) for CCU by capitalizing on their remarkable comprehension and semantic capabilities. However, no comprehensive benchmark is available to assess the CCU capabilities of LLMs."
 research_topic: "Machine Learning"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 25
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

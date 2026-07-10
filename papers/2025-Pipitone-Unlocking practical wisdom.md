@@ -1,34 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "virtue ethics robot inner speak with human"
@@ -42,10 +12,10 @@ last_author: "[[Chella, Antonio]]"
 authors: "Pipitone, Arianna; Seidita, Irene; John P. Sullins; Chella, Antonio"
 doi: 10.1038/s41598-025-86193-7
 url: "https://pubmed.ncbi.nlm.nih.gov/39837932/"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -60,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -69,19 +39,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how robotic 'inner speech' can enhance human phronesis (practical wisdom) and foster virtuous decision-making in collaborative contexts"
 significance: "Proposes a novel mechanism for human-robot ethical alignment where the robot's transparent internal reasoning acts as a catalyst for human moral reflection"
 abstract: "This research explores how a robot's \"
 CONF-CC: "Nature Scientific Reports"
 DATE_ADDED: 20260129
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Pipitone-Unlocking practical wisdom.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pipitone-Unlocking practical wisdom.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 90
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 25
@@ -94,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Unlocking practical wisdom through the inner voice of robots

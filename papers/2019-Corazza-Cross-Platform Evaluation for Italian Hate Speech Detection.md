@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,15 +6,15 @@ Not AI:
 key: LSRC0516
 type: conferencePaper
 short_title: "Cross-Platform Evaluation for Italian Hate Speech Detection"
-year: 2019
+year: 2025
 first_author: "[[Michele Corazza]]"
 last_author: "[[Serena Villata]]"
-authors: Michele Corazza; Stefano Menini; Elena Cabrio; Sara Tonelli; Serena Villata
+authors: "Michele Corazza; Stefano Menini; Elena Cabrio; Sara Tonelli; Serena Villata"
 url: "https://hal.science/hal-02381152"
 external_pdf: "https://hal.science/hal-02381152"
 publication: "HAL / Conference paper"
-CONF-CC: "N/A"
-pdf_extract: PDF Extracts/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md
+CONF-CC: N/A
+pdf_extract: "PDF Extracts/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Corazza-Cross-Platform Evaluation for Italian Hate Speech Detection.pdf]]"
 pdf_access_status: manual_only
 pdf_access_last_checked: 2026-02-14
@@ -63,10 +22,10 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://hal.science/hal-02381152"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
+national_ethnic_cultural: Italian
+cultures_nationalities_list: Italian
+languages_list: Italian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -81,7 +40,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -90,14 +49,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "English. Despite the number of approaches recently proposed in NLP for detecting abusive language on social networks, the issue of developing hate speech detection systems that are robust across different platforms is still an unsolved problem. In this paper we perform a comparative evaluation on datasets for hate speech detection in Italian, extracted from four different social media platforms, i.e. Facebook, Twitter, Instagram and WhatsApp."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -111,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

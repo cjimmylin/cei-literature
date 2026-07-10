@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,19 +9,19 @@ short_title: "Benchmarking Sociolinguistic Diversity in Swahili NLP"
 year: 2025
 first_author: "[[Kezia Oketch]]"
 last_author: "[[Ahmed Abbasi]]"
-authors: Kezia Oketch; John P. Lalor; Ahmed Abbasi
+authors: "Kezia Oketch; John P. Lalor; Ahmed Abbasi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.14051"
 external_pdf: "https://arxiv.org/pdf/2508.14051.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Abbasi-Benchmarking Sociolinguistic Diversity in Swahili NLP.pdf]]"
 publication: "WebSearch: Benchmarking Sociolinguistic Diversity Swahili NLP"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
 languages_list: "English, Swahili"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "We introduce the first taxonomy-guided evaluation of Swahili NLP, addressing gaps in sociolinguistic diversity. Drawing on health-related psychometric tasks, we collect a dataset of 2,170 free-text responses from Kenyan speakers. The data exhibits tribal influences, urban vernacular, code-mixing, and loanwords. We develop a structured taxonomy and use it as a lens for examining model prediction errors across pre-trained and instruction-tuned language models."
 LLM_assessed: "Llama-3, Qwen-2, RoBERTa, BERT"
 DATA_URL: "https://github.com/nd-hal/swahili_psych_taxonomy"
 research_topic: "NLP & Representation Learning"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KE"
+author_country: KE
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 33
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

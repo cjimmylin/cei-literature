@@ -1,60 +1,22 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: VVVLTVIR
 type: journalArticle
-year: 2023
+year: 2025
 short_title: VisAlign
 first_author: "[[Jiyoung Lee]]"
 last_author: "[[Edward Choi]]"
 authors: "Jiyoung Lee; Seungho Kim; Seunghyun Won; Joonseok Lee; Marzyeh Ghassemi; James Thorne; Jaeseok Choi; O-Kil Kwon; Edward Choi"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/T6VNUFSA/Lee et al. - VisAlign Dataset for Measuring the Alignment between AI and Humans in Visual Perception.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Lee-VisAlign.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Lee-VisAlign.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Lee-VisAlign.pdf]]
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,18 +40,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released VisAlign, a dataset for measuring 'AI-human visual alignment' by testing if models can correctly 'abstain' or express uncertainty on ambiguous images just like humans."
 significance: "Extends the concept of alignment to visual perception, arguing that aligned models should not just classify correctly but also share human-like epistemic uncertainty."
 tags: 
 abstract: "AI alignment refers to models acting towards human-intended goals, preferences, or ethical principles. In this paper, we focus on the models’ visual perception alignment with humans, further referred to as AI-human visual alignment. Specifically, we propose a new dataset for measuring AI-human visual alignment in terms of image classiﬁcation. In order to evaluate AI-human visual alignment, a dataset should encompass samples with various scenarios and have gold human perception labels."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260129
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/jiyounglee-0523/VisAlign"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

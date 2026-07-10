@@ -1,6 +1,6 @@
 ---
-key: "CGSR0197"
-type: "document"
+key: CGSR0197
+type: document
 short_title: "Redefining Papua New Guinea’s Law-and-Order Path: Learning from the Past and Forging a New Approach in the 50th Year of Independence"
 year: 2025
 first_author: "[[G. Sali]]"
@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/75be5ecbd2373d669d11334d1f754db7cfeb
 abstract: "This paper analyzes Papua New Guinea’s (PNG) law-and-order challenges since independence in 1975 and proposes strategies for sustainable improvements as the nation marks its 50th year of independence...."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,8 +22,8 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
 ---

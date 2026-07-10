@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,11 +15,11 @@ tags:
 url: "http://arxiv.org/abs/2506.04721"
 external_pdf: "http://arxiv.org/pdf/2506.04721.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed SPARTA ALIGNMENT, a multi-model alignment framework where LLMs compete and judge each other ('combat') to improve performance and alignment without human supervision."
 significance: "Demonstrates that collective, adversarial self-alignment among diverse models can outperform single-model self-alignment baselines and generalize better to unseen tasks."
@@ -89,10 +52,10 @@ abstract: "We propose SPARTA ALIGNMENT, an algorithm to collectively align multi
 paper_summary: "Abstract: We propose SPARTA ALIGNMENT, an algorithm to collectively align multiple LLMs through competition and combat. To complement a single model's lack of diversity in generation and biases in evaluation, m | Overview: SPARTA ALIGNMENT: Collectively Aligning Multiple Language Models through Combat Yuru Jiang∗1 Wenxuan Ding∗2 Shangbin Feng∗3 Greg Durrett2 Yulia Tsvetkov3 1Zhejiang University 2New York University 3Uni | Methodology: Overview SPARTA ALIGNMENT assumes access to a pool of LLMs, denoted as M0 = {M 0 k}m k=1 where 0 denotes the 0-th iteration, and a dataset X. The mode | Key Findings: domains: (1) Domain-Specific Question Answering, including MedQA-US (MedQA) [46] and Normad [73]. Normad is a benchmark assessing LLMs' cultural adapt | Conclusions: We propose SPARTA ALIGNMENT, a game-theoretic algorithm to collectively improve multiple LLMs through competition. Starting with a pool of diverse mod"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-SPARTA ALIGNMENT.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "Qwen"
+LLM_assessed: Qwen
 DATA_URL: "https://github.com/yurujiang2003/sparta"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: EXSR0284
 type: conferencePaper
 short_title: "SafetyPrompts: Systematic Review of Open Datasets for LLM Safety"
-year: 2024
+year: 2025
 first_author: "[[Röttger, Paul]]"
 last_author: "[[Hovy, Dirk]]"
 authors: "Röttger, Paul; Pernisi, Fabio; Vidgen, Bertie; Hovy, Dirk"
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rottger-SafetyPrompts Systematic Revi
 publication: AAAI
 CONF-CC: "AAAI 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The last two years have seen a rapid growth in concerns around the safety of large language models (LLMs). Researchers and practitioners have met these concerns by creating an abundance of datasets for evaluating and improving LLM safety. However, much of this work has happened in parallel, and with very different goals in mind, ranging from the mitigation of near-term risks around bias and toxic content generation to the assessment of longer-term catastrophic risk potential."
 LLM_assessed: NA
 DATA_URL: "https://github.com/paul-rottger/safetyprompts-paper"
 CONFERENCE: "AAAI 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: EXSR0158
 type: conferencePaper
 short_title: "Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment"
-year: 2024
+year: 2025
 first_author: "[[Karina Vida]]"
 last_author: "[[A & Lauscher]]"
 authors: "Karina Vida; F. Damken; A & Lauscher"
@@ -56,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Vida-Decoding Multilingual Moral Pref
 publication: "AIES 2024"
 CONF-CC: "AIES 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 100
@@ -90,7 +51,7 @@ abstract: "Large language models (LLMs) increasingly find their way into the mos
 LLM_assessed: "Falcon, GPT-3.5, Gemini, Llama-2, Llama-3"
 DATA_URL: "https://github.com/fdamken/decoding_multilingual_moral_preferences/tree/publication_aies2024"
 CONFERENCE: "AIES 2024"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "6500 scenarios"
 ---
 # Decoding Multilingual Moral Preferences -- Unveiling LLM's Biases Through the Moral Machine Experiment

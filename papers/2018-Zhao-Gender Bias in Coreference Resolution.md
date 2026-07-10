@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +6,7 @@ Not AI:
 key: 55N7FPTB
 type: conferencePaper
 short_title: "Gender Bias in Coreference Resolution"
-year: 2018
+year: 2025
 first_author: "[[Jieyu Zhao]]"
 last_author: "[[Chang, Kai-Wei]]"
 authors: "Zhao, Jieyu; Wang, Tianlu; Yatskar, Mark; Ordonez, Vicente; Chang, Kai-Wei"
@@ -48,10 +15,10 @@ url: "https://arxiv.org/abs/1804.06876"
 pdf_extract: "PDF Extracts/2018/2018-Zhao-Gender Bias in Coreference Resolution.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Zhao-Gender Bias in Coreference Resolution.pdf]]"
 external_pdf: "https://arxiv.org/pdf/1804.06876.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Creates WinoBias, a coreference resolution benchmark specifically designed to detect gender bias (stereotypical vs anti-stereotypical occupations)"
 significance: "A foundational operationalization of the deontological duty of 'fairness' in NLP, moving from abstract bias to concrete measurable failure modes"
@@ -84,11 +51,11 @@ abstract: "We present an empirical study of gender bias in coreference resolutio
 paper_summary: "Introduces WinoBias, a benchmark for coreference resolution focused on gender bias. Demonstrates that rule-based, feature-rich, and neural coreference systems link gendered pronouns to pro-stereotypical entities with higher accuracy than anti-stereotypical entities (21.1 F1 difference). Proposes a data-augmentation debiasing approach."
 CONF-CC: "NAACL 2018"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
 CONFERENCE: "Other Conference"
-helm: "incorporated"
-ethics_overall: 80
+helm: incorporated
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 25
 utilitarian_ethics: 0
@@ -102,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 ---

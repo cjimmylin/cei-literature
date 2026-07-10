@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,18 +9,18 @@ short_title: "HebID: Detecting Social Identities in Hebrew-language Political Te
 year: 2025
 first_author: "[[Cohen, Yotam]]"
 last_author: "[[Loewenthal, Alon]]"
-authors: Cohen, Yotam; Shenhav, Shaul; Loewenthal, Alon
+authors: "Cohen, Yotam; Shenhav, Shaul; Loewenthal, Alon"
 url: "https://arxiv.org/abs/2508.15483"
 external_pdf: "https://arxiv.org/pdf/2508.15483.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Yotam-HebID Detecting Social Identities in Hebrew-language Political Text.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "Judaism"
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: Judaism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Judaism"
+religious_values_list: Judaism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, Gemma-2"
 DATA_URL: "https://github.com/guymorlan/hebid/"
 tags: 
 abstract: "Political language is deeply intertwined with social identities. While social identities are often shaped by specific cultural contexts, existing NLP datasets are predominantly Englishcentric and focus on coarse-grained identity categories. We introduce HEBID, the first multilabel Hebrew corpus for social identity detection. The corpus contains 5,536 sentences from Israeli politicians’ Facebook posts (Dec 2018– Apr 2021), with each sentence manually annotated for twelve nuanced social..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IL"
-author_region: "MENA"
+author_country: IL
+author_region: MENA
 author_global_north_south: "Global North"
 weird_score: 57
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---

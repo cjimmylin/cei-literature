@@ -15,10 +15,10 @@ url: "https://arxiv.org/abs/2312.01818"
 pdf_extract: "PDF Extracts/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tennant-Hybrid Approaches for Moral Value Alignment in AI Agents.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2312.01818.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -48,12 +48,12 @@ key_contribution: "Systematizes moral alignment approaches into a continuum and 
 significance: "Provides a unified framework for comparing diverse alignment methodologies and argues that robust moral agents require integrating explicit rules with implicit value learning"
 abstract: "Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being ful"
 paper_summary: "Abstract: Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitativ | Overview: Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto Elizaveta Tennant 1 l.karmannaya.16@ucl.ac.uk Stephen Hailes | Methodology: would possibly align with the principled 'core knowledge' approach from cognitive science, which first builds detailed models of various cognitive cap | Key Findings: metrics can include a measure of equality such as the Gini coefficient (Gini, 1912), and an egalitarian measure of the minimum payoff obtained by any  | Conclusions: In this paper, we have made the case for the use of learning with explicitly defined moral principles for developing morality in AI agents, contrastin"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -66,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

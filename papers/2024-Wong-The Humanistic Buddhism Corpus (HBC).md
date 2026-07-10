@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,14 +6,14 @@ Not AI:
 key: 7ZERPP8H
 type: document
 short_title: "The Humanistic Buddhism Corpus (HBC)"
-year: 2024
+year: 2025
 first_author: "[[Youheng W. Wong]]"
 last_author: "[[Koyuncu, Erdem]]"
 authors: "Youheng W. Wong; Parde, Natalie; Koyuncu, Erdem"
 url: "https://aclanthology.org/2024.lrec-main.737/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/6ATYMD6Y/2024 - The Humanistic Buddhism Corpus (HBC).pdf"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Chinese, English"
 religious_values: "Multiple Religions"
 rv_islam: 0
@@ -75,18 +39,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Chinese, Buddhism"
 tags: 
 abstract: "We introduce the Humanistic Buddhism Corpus (HBC), a dataset containing over 80,000 Chinese-English parallel phrases extracted and translated from publications in the domain of Buddhism. HBC is one of the largest free domain-specific datasets that is publicly available for research, containing text from both classical and modern Chinese. Moreover, since HBC originates from religious texts, many phrases in the dataset contain metaphors and symbolism, and are subject to multiple interpretations."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wong-The Humanistic Buddhism Corpus (HBC).pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,13 +64,13 @@ nw_buddhist: 100
 nw_dharmic: 10
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 ---

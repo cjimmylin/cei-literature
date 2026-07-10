@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +6,7 @@ Not AI:
 key: MCGEE2024SSRN
 type: preprint
 short_title: "How Ethical Is Utilitarian Ethics"
-year: 2024
+year: 2025
 first_author: "[[Robert W. McGee]]"
 last_author: "[[Robert W. McGee]]"
 authors: "Robert W. McGee"
@@ -46,11 +14,11 @@ doi: 10.2139/ssrn.4731871
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4731871"
 external_pdf: "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID4731871_code2139.pdf"
 publication: SSRN
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Utilitarianism, AI Chatbots, Ethical Critique, Deontology, Virtue Ethics"
 key_contribution: "Identifies structural weaknesses of utilitarian ethics through comparative analysis of AI chatbot responses (Microsoft Copilot vs Gab AI)"
 significance: "Demonstrates value of using multiple AI chatbots for philosophical analysis; applies deontological and virtue ethics critiques to utilitarian reasoning in AI"
@@ -84,10 +52,10 @@ abstract: "This paper has two purposes: to identify and explore the structural w
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-McGee-How Ethical Is Utilitarian Ethics.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 20
+LLM_assessed: ChatGPT
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 60
 deontological_ethics: 60
 utilitarian_ethics: 100
@@ -100,14 +68,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # How Ethical Is Utilitarian Ethics? A Study in Artificial Intelligence

@@ -1,38 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,19 +9,19 @@ short_title: "LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?
 year: 2025
 first_author: "[[Amr Keleg]]"
 last_author: "[[Amr Keleg]]"
-authors: Amr Keleg
+authors: "Amr Keleg"
 doi: 10.48550/arXiv.2503.15003
 url: "https://arxiv.org/abs/2503.15003"
 external_pdf: "https://arxiv.org/pdf/2503.15003.pdf"
-publication: arXiv / C3NLP 2025 Workshop
+publication: "arXiv / C3NLP 2025 Workshop"
 CONF-CC: "Workshop (2025)"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Keleg-LLM Alignment for the Arabs A Homogenous Culture or Diverse Ones.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "N/A"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: N/A
 rv_islam: 45
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have the potential of being useful tools that can automate tasks and assist humans. However, these models are more fluent in English and more aligned with Western cultures, norms, and values. Arabicspecific LLMs are being developed to better capture the nuances of the Arabic language, as well as the views of the Arabs. Yet, Arabs are sometimes assumed to share the same culture."
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # LLM Alignment for the Arabs: A Homogenous Culture or Diverse Ones?

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +6,17 @@ Not AI:
 key: N4WD4UN6
 type: conferencePaper
 short_title: AfriSenti
-year: 2023
+year: 2025
 first_author: "[[Shamsuddeen Muhammad]]"
 last_author: "[[Stephen Arthur]]"
 authors: "Shamsuddeen Muhammad; Idris Abdulmumin; Abinew Ayele; Nedjma Ousidhoum; David Adelani; Seid Yimam; Ibrahim Ahmad; Meriem Beloucif; Saif Mohammad; Sebastian Ruder; Oumaima Hourrane; Alipio Jorge; Pavel Brazdil; Felermino Ali; Davis David; Salomey Osei; Bello Shehu-Bello; Falalu Lawan; Tajuddeen Gwadabe; Samuel Rutunda; Tadesse Belay; Wendimu Messelle; Hailu Balcha; Sisay Chala; Hagos Gebremichael; Bernard Opoku; Stephen Arthur"
 doi: 10.18653/v1/2023.emnlp-main.862
 url: "https://aclanthology.org/2023.emnlp-main.862/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ZYT6SY9F/Muhammad et al. - 2023 - AfriSenti A Twitter Sentiment Analysis Benchmark for African Languages.pdf"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,20 +40,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Arabic, African/Ubuntu, Brazilian"
 tags: 
 abstract: "Africa is home to over 2,000 languages from more than six language families and has the highest linguistic diversity among all continents. These include 75 languages with at least one million speakers each. Yet, there is little NLP research conducted on African languages. Crucial to enabling such research is the availability of high-quality annotated datasets. In this paper, we introduce AfriSenti, a sentiment analysis benchmark that contains a total of >110,000 tweets in 14 African languages..."
 pdf: "http://arxiv.org/pdf/2302.08956"
 pdf_extract: "PDF Extracts/2023/2023-Muhammad-AfriSenti.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Muhammad-AfriSenti.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Muhammad-AfriSenti.pdf]]
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/afrisenti-semeval/afrisent-semeval-2023"
-publication: EMNLP 2023
+publication: "EMNLP 2023"
 CONF-CC: "EMNLP 2023"
 DATE_ADDED: 20260215
 CONFERENCE: "EMNLP 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PT"
+author_country: PT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "2,000 languages; 75 languages"
 ---

@@ -6,7 +6,7 @@ Not AI:
 key: ALMEIDA2024
 type: journalArticle
 short_title: "Psychology of LLMs Moral Reasoning"
-year: 2024
+year: 2025
 first_author: "[[Guilherme F. C. F. Almeida]]"
 last_author: "[[Gubert, Renato]]"
 authors: "Guilherme F. C. F. Almeida; Nunes, José Luiz; Pontes, Neele; Brinhosa, Markus; Gubert, Renato"
@@ -17,10 +17,10 @@ pdf_extract: "PDF Extracts/2024/2024-Almeida-Exploring the Psychology of LLMs Mo
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Almeida-Exploring the Psychology of LLMs Moral Reasoning.pdf]]"
 publication: "Artificial Intelligence"
 CONF-CC: "Artificial Intelligence"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -54,8 +54,8 @@ DATE_ADDED: 20260208
 research_topic: "LLM Moral Reasoning"
 LLM_assessed: "Claude, Gemini, GPT-4, Llama-2"
 DATA_URL: "https://osf.io/zunm4/?view_only=217abaddc7f6498483fda045157f5dd6"
-CONFERENCE: "Journal"
-ethics_overall: 95
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Exploring the Psychology of LLMs' Moral and Legal Reasoning

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,16 +6,16 @@ Not AI:
 key: 9IWZPR5T
 type: document
 short_title: "Evaluating Aggression Identification in Social"
-year: 2020
+year: 2025
 first_author: "[[Ritesh Kumar]]"
 last_author: "[[Zampieri, Marcos]]"
 authors: "Kumar, Ritesh; Ojha, Atul Kr.; Malmasi, Shervin; Zampieri, Marcos"
 url: "https://aclanthology.org/2020.trac-1.1/"
 external_pdf: "https://aclanthology.org/2020.trac-1.1.pdf"
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "Bengali, English, Hindi"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,18 +39,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Indian
 tags: 
 abstract: "In this paper, we present the report and ﬁndings of the Shared Task on Aggression and Gendered Aggression Identiﬁcation organised as part of the Second Workshop on Trolling, Aggression and Cyberbullying (TRAC - 2) at LREC 2020. The task consisted of two sub-tasks - aggression identiﬁcation (sub-task A) and gendered aggression identiﬁcation (sub-task B) - in three languages - Bengali, Hindi and English."
 pdf_extract: "PDF Extracts/2020/2020-Kumar-Evaluating Aggression Identification in Social.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Kumar-Evaluating Aggression Identification in Social.pdf]]"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://sites.google.com/view/trac2/shared-task"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "5,000 instances; 1,000 instances"
 ---

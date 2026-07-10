@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,19 +9,19 @@ short_title: "TIB-STC A Large-Scale Structured Tibetan Benchmark"
 year: 2025
 first_author: "[[Cheng Huang]]"
 last_author: "[[Yongbin Yu]]"
-authors: Cheng Huang; Fan Gao; Yutong Liu; Nyima Tashi; Xiangxiang Wang; Thupten Tsering; Ban Ma-bao; Renzeg Duojie; Gadeng Luosang; Rinchen Dongrub; Dorje Tashi; Xiao Feng; Hao Wang; Yongbin Yu
+authors: "Cheng Huang; Fan Gao; Yutong Liu; Nyima Tashi; Xiangxiang Wang; Thupten Tsering; Ban Ma-bao; Renzeg Duojie; Gadeng Luosang; Rinchen Dongrub; Dorje Tashi; Xiao Feng; Hao Wang; Yongbin Yu"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.18288"
 external_pdf: "https://arxiv.org/pdf/2503.18288.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yu-TIB-STC A Large-Scale Structured Tibetan Benchmark.pdf]]"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Tibetan"
-religious_values: "Buddhism"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Tibetan
+religious_values: Buddhism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 50
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Buddhism"
+religious_values_list: Buddhism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Advancement of large language models (LLMs) has brought transformative capabilities to NLP, but such progress remains unevenly distributed, especially for low-resource and culturally rich languages like Tibetan. In this paper, we present TIB-STC, the first large-scale, expert-curated, and multidomain dataset specifically designed to support the development and evaluation of LLMs for the Tibetan language."
-LLM_assessed: "LLaMA"
+LLM_assessed: LLaMA
 DATA_URL: "https://github.com/Vicentvankor/sun-shine"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -105,14 +66,14 @@ nw_buddhist: 10
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # TIB-STC: A Large-Scale Structured Tibetan Benchmark for Low-Resource Language Modeling (Sun-Shine)

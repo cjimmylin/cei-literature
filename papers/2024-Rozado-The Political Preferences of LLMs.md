@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: EXSR0222
 type: conferencePaper
 short_title: "The Political Preferences of LLMs"
-year: 2024
+year: 2025
 first_author: "[[David Rozado]]"
 last_author: "[[David Rozado]]"
 authors: "David Rozado"
@@ -54,12 +16,12 @@ external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal
 pdf_extract: "PDF Extracts/2024/2024-Rozado-The Political Preferences of LLMs.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rozado-The Political Preferences of LLMs.pdf]]"
 publication: Unknown
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "I report here a comprehensive analysis about the political preferences embedded in Large Language Models (LLMs). Namely, I administer 11 political orientation tests, designed to identify the political preferences of the test taker, to 24 state-of-the-art conversational LLMs, both closed and open source. When probed with questions/statements with political connotations, most conversational LLMs tend to generate responses that are diagnosed by most political test instruments as manifesting..."
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Gemini, Claude, Claude Instant, Grok, Llama-2, Mistral, Qwen"
 DATA_URL: "https://doi.org/10.5281/zenodo.10553530"
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NZ"
-author_region: "Oceania"
+author_country: NZ
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Political Preferences of LLMs

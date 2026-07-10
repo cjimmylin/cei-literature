@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,21 +7,21 @@ key: EXSR0287
 type: preprint
 short_title: "Do LLMs Walk Their Talk? Multi-Method Moral Evaluation Framework"
 year: 2025
-first_author: "[[Andric]]"
-last_author: "[[Sandro]]"
-authors: Andric; Sandro
+first_author: [[Andric]]
+last_author: [[Sandro]]
+authors: "Andric; Sandro"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.01568"
 external_pdf: "https://arxiv.org/pdf/2512.01568.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Andric-Do LLMs Walk Their Talk Multi-Method Moral Evaluation Framework.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "We investigate whether Large Language Models (LLMs) exhibit altruistic tendencies, and critically, whether their implicit associations and self-reports predict actual altruistic behavior. Using a multimethod approach inspired by human social psychology, we tested 24 frontier LLMs across three paradigms: (1) an Implicit Association Test (IAT) measuring implicit altruism bias, (2) a forced binary choice task measuring behavioral altruism, and (3) a self-assessment scale measuring explicit..."
 LLM_assessed: "Claude, Claude-3 Haiku, ChatGPT, GPT-4o, GPT-4o mini, Gemini, Gemma, Grok, Llama-3, Mistral, Phi"
 DATA_URL: "https://github.com/sandroandric/LLMs_Altruism_Study_Code"
-CONFERENCE: "Preprint"
-ethics_overall: 65
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -101,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

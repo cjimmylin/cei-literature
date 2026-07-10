@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,9 +6,9 @@ Not AI:
 key: EXSR0279
 type: journalArticle
 short_title: "Moral Association Graph: Cognitive Model for Interpretable Moral Inference"
-year: 2024
-first_author: "[[Ramezani]]"
-last_author: "[[Y.]]"
+year: 2025
+first_author: [[Ramezani]]
+last_author: [[Y.]]
 authors: "Ramezani; A. & Xu; Y."
 doi: 10.1111/tops.12774
 url: "https://doi.org/10.1111/tops.12774"
@@ -55,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ramezani-Moral Association Graph Cogn
 publication: "Topics in Cognitive Science"
 CONF-CC: "Topics in Cognitive Science"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "AbstractAutomated moral inference is an emerging topic of critical importance in artificial intelligence. The contemporary approach typically relies on language models to infer moral relevance or moral properties of a concept. This approach demands complex parameterization and costly computation, and it tends to disconnect with existing psychological accounts of moralization. We present a simple cognitive model for moral inference, Moral Association Graph (MAG), inspired by psychological work on moralization. Our model builds on word association network for inferring moral relevance and draws on rich psychological data. We demonstrate that MAG performs competitively to state‐of‐the‐art language models when evaluated against a comprehensive set of data for automated inference of moral norms and moral judgment of concepts, and in‐context moral inference. We also show that our model yields interpretable outputs and is applicable to informing short‐term moral change."
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 35
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Moral Association Graph: Cognitive Model for Interpretable Moral Inference

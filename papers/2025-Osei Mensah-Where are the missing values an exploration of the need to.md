@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,14 +13,14 @@ authors: "Osei Mensah, Jahaziel; Van Wynsberghe, Aimee"
 doi: 10.1007/s43681-025-00746-0
 url: "https://link.springer.com/article/10.1007/s43681-025-00746-0"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s43681-025-00746-0.pdf"
-publication: AI and Ethics (Springer)
+publication: "AI and Ethics (Springer)"
 CONF-CC: "AI and Ethics"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Osei Mensah-Where are the missing values an exploration of the need to.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Examines how Ubuntu philosophy can and should inform AI policies in Africa. Finds current AI policies in Africa have not incorporated Ubuntu values as a fundamental guiding principle but have adopted Eurocentric values instead."
 CONFERENCE: "Other Conference"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 10
 nw_buen_vivir: 50
-author_country: "GH"
+author_country: GH
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Where are the missing values: an exploration of the need to incorporate Ubuntu values into African AI policy

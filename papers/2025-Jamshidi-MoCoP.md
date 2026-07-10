@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,14 +9,14 @@ short_title: MoCoP
 year: 2025
 first_author: "[[Saeid Jamshidi]]"
 last_author: "[[Foutse Khomh]]"
-authors: Saeid Jamshidi; Kawser Wazed Nafi; Arghavan Moradi Dakhel; Negar Shahabi; Foutse Khomh
+authors: "Saeid Jamshidi; Kawser Wazed Nafi; Arghavan Moradi Dakhel; Negar Shahabi; Foutse Khomh"
 doi: 10.48550/arXiv.2512.03026
 url: "https://arxiv.org/abs/2512.03026"
 external_pdf: "https://arxiv.org/pdf/2512.03026.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduces a dataset-free, closed-loop framework for continuous moral stability evaluation"
 significance: "Enables monitoring of 'moral drift' and consistency over time and contexts"
@@ -87,14 +48,14 @@ osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2025/2025-Jamshidi-MoCoP.md"
 abstract: "The rapid advancement and adaptability of Large Language Mod- els (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different con- texts or temporal scales. This study presen"
 paper_summary: "Abstract: The rapid advancement and adaptability of Large Language Mod- els (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existin | Overview: The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh SWAT Laboratory, Polytec | Methodology: Building upon the conceptual foundation established in Section 1, the proposed Moral Consistency Pipeline (MoCoP) operationalizes continuous ethical e | Key Findings: for Large Language Models Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi†, Foutse Khomh SWAT Laboratory, Polytechnique Montr | Conclusions: The evaluation of the MoCoP demonstrates a mathematically grounded mechanism for continuous moral auditing in LLMs. The strong in- verse relation betw"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jamshidi-MoCoP.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Jamshidi-MoCoP.pdf]]
 LLM_assessed: "DeepSeek, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0
@@ -108,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +6,7 @@ Not AI:
 key: LSRC0459
 type: preprint
 short_title: "Bias and Fairness in Large Language Models: A Survey"
-year: 2024
+year: 2025
 first_author: "[[Isabel O. Gallegos]]"
 last_author: "[[Nesreen K. Ahmed]]"
 authors: "Isabel O. Gallegos; Ryan A. Rossi; Barrow, Joe; Tanjim, Md Mehrab; Kim, Sungchul; Dernoncourt, Franck; Yu, Tong; Zhang, Ruiyi; Nesreen K. Ahmed"
@@ -56,14 +14,14 @@ authors_incomplete: false
 url: "https://aclanthology.org/2024.cl-3.8/"
 external_pdf: "https://arxiv.org/pdf/2309.00770.pdf"
 publication: "arXiv / ACL Anthology"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Gallegos-Bias and Fairness in Large Language Models A Survey.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -78,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/i-gallegos/Fair-LLM-Benchmark"
 tags: 
 abstract: "Comprehensive survey organizing LLM bias and fairness work into three categories: metrics, datasets, and techniques. Covers embedding-based, probability-based, and generated text-based bias evaluation approaches. Published in Computational Linguistics 2024."
 CONFERENCE: "ACL 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

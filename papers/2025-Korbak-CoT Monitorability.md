@@ -8,7 +8,7 @@ authors: "Tomek Korbak; Mikita Balesni; Elizabeth Barnes; Yoshua Bengio; Joe Ben
 url: "https://arxiv.org/abs/2507.11473"
 external_pdf: "https://arxiv.org/pdf/2507.11473.pdf"
 abstract: "AI systems that 'think' in human language offer a unique opportunity for AI safety: we can monitor their chains of thought (CoT) for the intent to misbehave. Like all other known AI oversight methods, CoT monitoring is imperfect and allows some misbehavior to go unnoticed. Nevertheless, it shows promise and we recommend further research into CoT monitorability and investment in CoT monitoring alongside existing safety methods. Because CoT monitorability may be fragile, we recommend that frontier model developers consider the impact of development decisions on CoT monitorability."
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -41,25 +41,24 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Not specified"
 data_metrics: "Not specified"
 newtags: "AI Safety & Alignment"
-key_contribution: ""
-significance: ""
-paper_summary: ""
+key_contribution: 
+significance: 
+paper_summary: 
 local_pdf: "[[Lit-WS-PDFs/2025/2025-Korbak-CoT Monitorability.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Korbak-CoT Monitorability.md"
-tags:
-  - AIAlignment
-Human View: ""
-Human View Date: ""
-Human View note: ""
-Not AI: ""
+tags: 
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 DATE_ADDED: 20260709
-innovation_gap: "G-13"
+innovation_gap: G-13
 ---
 
 # Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety

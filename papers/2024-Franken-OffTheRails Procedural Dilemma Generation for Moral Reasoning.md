@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: EXSR0278
 type: preprint
 short_title: "OffTheRails: Procedural Dilemma Generation for Moral Reasoning"
-year: 2024
+year: 2025
 first_author: "[[Fränken, Jan-Philipp]]"
 last_author: "[[Gerstenberg, Tobias]]"
 authors: "Fränken, Jan-Philipp; Gandhi, Kanishk; Qiu, Tori; Khawaja, Ayesha; Noah D. Goodman; Gerstenberg, Tobias"
@@ -55,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2404.10975.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Franken-OffTheRails Procedural Dilemma Generation for Moral Reasoning.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -91,8 +52,8 @@ abstract: "As AI systems like language models are increasingly integrated into d
 LLM_assessed: "Claude-2, GPT-4"
 DATA_URL: "https://github.com/cicl-stanford/moral-evals"
 normative_ethics_benchmark: Borderline
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 81
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "50 scenarios"
 ---

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: LSRC0317
 type: preprint
 short_title: "From Bytes to Borsch: Fine-Tuning Gemma and Mistral for the Ukrainian Language Representation"
-year: 2024
+year: 2025
 first_author: "[[Kiulian, Artur]]"
 last_author: "[[Shirawalmath, Adarsh]]"
 authors: "Kiulian, Artur; Polishko, Anton; Khandoga, Mykola; Chubych, Oryna; Connor, Jack; Ravishankar, Raghav; Shirawalmath, Adarsh"
@@ -54,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2404.09138.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kiulian-From Bytes to Borsch Fine-Tuning Gemma and Mistral for the Ukrainian.pdf]]"
 publication: "arXiv / ACL Anthology (UNLP 2024)"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Ukrainian"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Ukrainian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Alpaca, Gemma, GPT-3.5, GPT-4, LLaMA, Mistral"
 DATA_URL: "https://github.com/PolyAgent/from-bytes-to-borsch"
 tags: 
 abstract: "In the rapidly advancing field of AI and NLP, generative large language models (LLMs) stand at the forefront of innovation, showcasing unparalleled abilities in text understanding and generation. However, the limited representation of low-resource languages like Ukrainian poses a notable challenge, restricting the reach and relevance of this technology. Our paper addresses this by fine-tuning the open-source Gemma and Mistral LLMs with Ukrainian datasets, aiming to improve their linguistic..."
 CONFERENCE: "ACL 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

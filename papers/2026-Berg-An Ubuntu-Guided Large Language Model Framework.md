@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,21 +6,21 @@ Not AI:
 key: EXSR0303
 type: preprint
 short_title: "An Ubuntu-Guided Large Language Model Framework"
-year: 2026
+year: 2025
 first_author: "[[Sontaga G. Forane]]"
 last_author: "[[Karen van den Berg]]"
-authors: Sontaga G. Forane; Absalom E. Ezugwu; Kevin Igwe; Karen van den Berg
+authors: "Sontaga G. Forane; Absalom E. Ezugwu; Kevin Igwe; Karen van den Berg"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06875"
 external_pdf: "https://arxiv.org/pdf/2601.06875.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framework.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Berg-An Ubuntu-Guided Large Language Model Framework.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "South Africa’s escalating mental health crisis, compounded by limited access to culturally responsive care, calls for innovative and contextually grounded interventions. While Large Language Models (LLMs) show considerable promise for mental health support, their predominantly Western-centric training data limit cultural and linguistic applicability in African contexts. This study introduces a proof-of-concept framework that integrates Cognitive Behavioural Therapy (CBT) with the African..."
 LLM_assessed: "GPT-4o mini"
 DATA_URL: "https://github.com/Sontaga25/Chatbot_FrontEnd.git"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20
@@ -105,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ZA"
+author_country: ZA
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # An Ubuntu-Guided Large Language Model Framework for Cognitive Behavioral Mental Health Dialogue

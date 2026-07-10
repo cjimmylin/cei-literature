@@ -6,17 +6,17 @@ Not AI:
 key: L6RS9M6J
 type: preprint
 short_title: MoralNet
-year: 2023
+year: 2025
 first_author: "[[Aníbal M. Astobiza]]"
 last_author: "[[Aníbal M. Astobiza]]"
 authors: "Aníbal M. Astobiza"
 doi: 10.31234/osf.io/dbyw7
 url: "https://osf.io/dbyw7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VL58MPNR/Astobiza - 2023 - MoralNet A Benchmarking Protocol for Evaluating Morality in AI Systems.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -46,14 +46,14 @@ key_contribution: "Proposed MoralNet, a 'benchmarking protocol' and database sim
 significance: "A conceptual proposal for a standardized, large-scale 'EthicsNet' to unify machine ethics evaluation."
 tags: 
 abstract: "Artificial intelligence has prompted unprecedented concerns regarding ethical 1 decision-making in autonomous systems. Here, we introduce MoralNet, a proof of 2 concept database and benchmarking platform akin to ImageNet, designed to assess, 3 evaluate, and iteratively refine any instance of ethical decision-making in machines. 4 Inspired by the lessons of moral psychology and moral philosophy, MoralNet is a 5 call to action to take the first step towards a computational ethics."
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Astobiza-MoralNet.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Astobiza-MoralNet.pdf]]"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Astobiza-MoralNet.pdf]]
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 0
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

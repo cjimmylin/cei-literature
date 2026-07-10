@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: QTHPTLW2
 type: conferencePaper
 short_title: "Are Large Language Models Consistent over"
-year: 2024
+year: 2025
 first_author: "[[Jared Moore]]"
 last_author: "[[Diyi Yang]]"
 authors: "Jared Moore; Tanvi Deshpande; Diyi Yang"
@@ -50,10 +15,10 @@ url: "http://arxiv.org/abs/2407.02996"
 external_pdf: "http://arxiv.org/pdf/2407.02996.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: "Chinese, English, German, Japanese"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Chinese, Japanese, German, American, Bias & Fairness"
 key_contribution: "Investigated LLM value consistency across paraphrases, languages, and use-cases (open vs multiple choice), finding models are generally consistent but falter on controversial topics."
 significance: "Challenges the 'stochastic parrot' view by showing robust value consistency, but highlights that 'controversial' topics (likely due to inconsistent RLHF) trigger more variability."
@@ -90,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Llama-2, Llama-3, Yi, Command-R"
 DATA_URL: "https://huggingface.co/datasets/jlcmoore/ValueConsistency"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "8,000 questions"
 ---

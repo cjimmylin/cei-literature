@@ -13,9 +13,9 @@ authors: "Bruce W. Lee; Yeongheon Lee; Hyunsoo Cho"
 doi: 10.48550/arXiv.2408.09049
 url: "http://arxiv.org/abs/2408.09049"
 external_pdf: "http://arxiv.org/pdf/2408.09049.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -49,12 +49,12 @@ pdf_extract: "PDF Extracts/2025/2025-Lee-When Prompting Fails to Sway.md"
 abstract: "Large Language Models (LLMs) exhibit nondeterministic behavior, and prompting has emerged as a primary method for steering their outputs toward desired directions. One popular strategy involves assigning a specific ‘persona’ to the model to induce more varied and context-sensitive responses, akin to the diversity found in human perspectives. However, contrary to the expectation that persona-based prompting would yield a wide range of opinions, our experiments demonstrate that LLMs maintain..."
 paper_summary: "Abstract: Large Language Models (LLMs) exhibit non- deterministic behavior, and prompting has emerged as a primary method for steering their outputs toward desired directions. One popu- lar strategy involves as | Overview: When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models Bruce W. Lee1 Yeongheon Lee1 Hyunsoo Cho2 1University of Pennsylvania 2Ewha Womans University brucelws@seas. | Conclusions: We introduce a novel method called role-play-at- scale and verify the persistence of moral biases in LLMs. Our research raises questions about the fea"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lee-When Prompting Fails to Sway.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4o, Llama-3"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -68,14 +68,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # When Prompting Fails to Sway: Inertia in Moral and Value Judgments of Large Language Models

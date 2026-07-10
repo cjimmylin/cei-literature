@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +6,17 @@ Not AI:
 key: KQ8UKTRN
 type: conferencePaper
 short_title: "Moral Foundations of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Marwa Abdulhai]]"
 last_author: "[[Natasha Jaques]]"
 authors: "Marwa Abdulhai; Gregory Serapio-García; Clement Crepy; Daria Valter; John Canny; Natasha Jaques"
 doi: 10.18653/v1/2024.emnlp-main.982
 url: "https://aclanthology.org/2024.emnlp-main.982/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TV58P8JC/Abdulhai et al. - 2024 - Moral Foundations of Large Language Models.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,14 +46,14 @@ key_contribution: "Analyzed LLMs using Moral Foundations Theory (MFT), finding t
 significance: "Maps LLM 'bias' to established psychological dimensions (Care, Fairness, Liberty, etc.), providing a more granular understanding of model personality than just 'good/bad'."
 tags: 
 abstract: "Moral foundations theory (MFT) is a social psychological theory that decomposes human moral reasoning into five factors, including care/harm, liberty/oppression, and sanctity/degradation (Graham et al., 2009). People vary in the weight they place on these dimensions when making moral decisions, in part due to their cultural upbringing and political ideology. As large language models (LLMs) are trained on datasets collected from the internet, they may reflect the biases that are present in such..."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-3, PaLM"
 DATA_URL: "https://github.com/abdulhaim/moral_foundations_llms"
 pdf_extract: "PDF Extracts/2024/2024-Abdulhai-Moral Foundations of Large Language Models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Abdulhai-Moral Foundations of Large Language Models.pdf]]"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +9,17 @@ short_title: "Towards Multilingual LLM Evaluation for Baltic and Nordic Language
 year: 2025
 first_author: "[[Yevhen Kostiuk]]"
 last_author: "[[Artur Kiulian]]"
-authors: Yevhen Kostiuk; Oxana Vitman; Łukasz Gagała; Artur Kiulian
+authors: "Yevhen Kostiuk; Oxana Vitman; Łukasz Gagała; Artur Kiulian"
 url: "https://arxiv.org/abs/2501.09154"
 external_pdf: "https://arxiv.org/pdf/2501.09154.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kostiuk-Towards Multilingual LLM Evaluation for Baltic and Nordic Languages.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Multilingual"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Multilingual
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -81,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, Llama-3, Mistral, Qwen-2"
 DATA_URL: NA
@@ -89,8 +52,8 @@ tags:
 abstract: "In this work, we evaluated Lithuanian and general history knowledge of multilingual Large Language Models (LLMs) on a multiple-choice question-answering task. The models were tested on a dataset of Lithuanian national and general history questions translated into Baltic, Nordic, and other languages (English, Ukrainian, Arabic) to assess the knowledge sharing from culturally and historically connected groups. We evaluated GPT-4o, LLaMa3.1 8b and 70b, QWEN2."
 ethics_perspective: "AI Safety & Alignment"
 authors_incomplete: false
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

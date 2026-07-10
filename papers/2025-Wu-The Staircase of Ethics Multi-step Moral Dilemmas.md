@@ -18,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-The Staircase of Ethics Multi-step
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 50
 mp_trolley: 0
@@ -52,7 +52,7 @@ abstract: "Ethical decision-making is a critical aspect of human judgment, and t
 LLM_assessed: "GPT-4o, DeepSeek, Llama-3, Mistral, Gemini, Claude"
 DATA_URL: "https://isir-wuya.github.io/Multi-step-Moral-Dilemmas/"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -66,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Staircase of Ethics (Multi-step Moral Dilemmas)

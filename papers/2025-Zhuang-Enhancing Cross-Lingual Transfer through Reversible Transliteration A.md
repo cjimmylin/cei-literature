@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2509.17493"
 external_pdf: "https://arxiv.org/pdf/2509.17493.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhuang-Enhancing Cross-Lingual Transfer through Reversible Transliteration A.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Kyrgyz, Mongolian, Tibetan, Uyghur"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "LLaMA, Qwen-2"
 DATA_URL: "https://github.com/CMLI-NLP/HuffmanTranslit"
 tags: 
 abstract: "As large language models (LLMs) are trained on increasingly diverse and extensive multilingual corpora, they demonstrate cross-lingual transfer capabilities. However, these capabilities often fail to eﬀectively extend to low-resource languages, particularly those utilizing nonLatin scripts. While transliterating low-resource languages into Latin script presents a natural solution, there currently lacks a comprehensive framework for integrating transliteration into LLMs training and deployment."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

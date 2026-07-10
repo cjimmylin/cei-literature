@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2110.09393.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sharmaa-Hate Speech Detection in Somali-English Code-Switched.pdf]]"
 publication: "WebSearch: Somali NLP benchmark dataset evaluation hate speech"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
 languages_list: "English, Somali"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Social media has become a bedrock for people to voice their opinions worldwide. Due to the greater sense of freedom with the anonymity feature, it is possible to disregard social etiquette online and attack others without facing severe consequences, inevitably propagating hate speech. The current measures to sift the online content and offset the hatred spread do not go far enough. One factor contributing to this is the prevalence of regional languages in social media and the paucity of..."
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/anubhakabra/MoH_Hate_Speech_Detection.git"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

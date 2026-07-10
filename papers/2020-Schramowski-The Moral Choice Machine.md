@@ -6,7 +6,7 @@ Not AI:
 key: GVWSI3DL
 type: journalArticle
 short_title: "The Moral Choice Machine"
-year: 2020
+year: 2025
 first_author: "[[Patrick Schramowski]]"
 last_author: "[[Kersting, Kristian]]"
 authors: "Schramowski, Patrick; Turan, Cigdem; Jentzsch, Sophie; Rothkopf, Constantin; Kersting, Kristian"
@@ -15,10 +15,10 @@ url: "https://www.frontiersin.org/article/10.3389/frai.2020.00036/full"
 pdf_extract: "PDF Extracts/2020/2020-Schramowski-The Moral Choice Machine.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Schramowski-The Moral Choice Machine.pdf]]"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2020.00036/pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -50,10 +50,10 @@ tags:
 abstract: "Allowing machines to choose whether to kill humans would be devastating for world peace and security. But how do we equip machines with the ability to learn ethical or even moral choices? In this study, we show that applying machine learning to human texts can extract deontological ethical reasoning about 'right' and 'wrong' conduct. We create a template list of prompts and responses, such as 'Should I [action]?', 'Is it okay to [action]?', etc. with corresponding answers of 'Yes/no, I should (n"
 CONF-CC: "Frontiers in Artificial Intelligence"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 95
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 45
 utilitarian_ethics: 0
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

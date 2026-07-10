@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,14 +7,14 @@ key: T7SMT2WN
 type: document
 short_title: "Personal Consultations Case Study Database"
 year: 2025
-first_author: "[[Center]]"
+first_author: [[Center]]
 last_author: "[[NCBC Bioethics]]"
 authors: "Center; NCBC Bioethics"
 url: "https://www.ncbcenter.org/case-study-database"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -65,7 +29,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,20 +38,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
-research_topic: "Other"
+research_topic: Other
 abstract: "A case study database containing records of personal consultations for ethics and values research. The database provides real-world examples of ethical decision-making scenarios and consultations that can be used to study how individuals and organizations approach moral dilemmas and value conflicts in practice."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260129
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://www.ncbcenter.org/case-study-database"
 pdf_extract: 
 no_pdf_applicable: true
 local_pdf: N/A
-CONFERENCE: "Unknown"
-ethics_overall: 0
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Personal Consultations Case Study Database

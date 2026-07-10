@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,22 +6,22 @@ Not AI:
 key: EXSR0305
 type: preprint
 short_title: "From RAG to Agentic RAG for"
-year: 2026
+year: 2025
 first_author: "[[Gagan Bhatia]]"
 last_author: "[[Firoj Alam]]"
-authors: Gagan Bhatia; Hamdy Mubarak; Mustafa Jarrar; George Mikros; Fadi Zaraket; Mahmoud Alhirthani; Mutaz Al-Khatib; Logan Cochrane; Kareem Darwish; Rashid Yahiaoui; Firoj Alam
+authors: "Gagan Bhatia; Hamdy Mubarak; Mustafa Jarrar; George Mikros; Fadi Zaraket; Mahmoud Alhirthani; Mutaz Al-Khatib; Logan Cochrane; Kareem Darwish; Rashid Yahiaoui; Firoj Alam"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.07528"
 external_pdf: "https://arxiv.org/pdf/2601.07528.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Alam-From RAG to Agentic RAG for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Alam-From RAG to Agentic RAG for.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
-religious_values: "Islam"
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "LLMs are increasingly used for Islamic question answering, where ungrounded responses may carry serious religious consequences. Yet standard MCQ/MRC-style evaluations1 do not capture key real-world failure modes, notably free-form hallucinations and whether models appropriately abstain when evidence is lacking. To shed a light on this aspect we introduce ISLAMICFAITHQA, a 3,810-item bilingual (Arabic/English) generative benchmark with atomic single-gold answers, which enables direct measurement..."
 LLM_assessed: "Qwen, Qwen-2, Mistral, Llama-2, Llama-3"
 DATA_URL: NA
 ethics_perspective: "Social & Cultural Values"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "QA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: QA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for hallucination detection text corpus for question answering"
 data_metrics: "Not specified"
 ---

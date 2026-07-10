@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,16 +6,16 @@ Not AI:
 key: 2JCUKU2L
 type: document
 short_title: "Training a Helpful and Harmless Assistant with"
-year: 2022
+year: 2025
 first_author: "[[Yuntao Bai]]"
 last_author: "[[Jared Kaplan]]"
 authors: "Yuntao Bai; Andy Jones; Kamal Ndousse; Amanda Askell; Anna Chen; Nova DasSarma; Dawn Drain; Stanislav Fort; Deep Ganguli; Tom Henighan; Nicholas Joseph; Saurav Kadavath; Jackson Kernion; Tom Conerly; Sheer El-Showk; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Tristan Hume; Scott Johnston; Shauna Kravec; Liane Lovitt; Neel Nanda; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Ben Mann; Jared Kaplan"
 url: "https://arxiv.org/abs/2204.05862"
 external_pdf: "https://arxiv.org/pdf/2204.05862.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "The seminal Anthropic paper introducing 'Constitutional AI' precursor concepts (RLHF for H&H), showing that alignment improves performance on almost all NLP tasks (compatibility) and exploring the 'alignment tax'."
 significance: "Established the standard 'Helpful & Harmless' (imperfect but influential) dichotomy and the RLHF methodology that defined the ChatGPT/Claude era."
@@ -91,10 +52,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Bai-Training a Helpful and Harmless A
 LLM_assessed: "BERT, CODEX, GPT-2, GPT-3, Grok, InstructGPT, LaMDA, PaLM"
 DATA_URL: "https://github.com/anthropics/hh-rlhf"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

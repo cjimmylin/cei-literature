@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +6,17 @@ Not AI:
 key: CWLWCFUJ
 type: conferencePaper
 short_title: BBQ
-year: 2022
+year: 2025
 first_author: "[[Alicia Parrish]]"
 last_author: "[[Samuel Bowman]]"
 authors: "Alicia Parrish; Angelica Chen; Nikita Nangia; Vishakh Padmakumar; Jason Phang; Jana Thompson; Phu Mon Htut; Samuel Bowman"
 doi: 10.18653/v1/2022.findings-acl.165
 url: "https://aclanthology.org/2022.findings-acl.165/"
 external_pdf: "https://aclanthology.org/2022.findings-acl.165.pdf"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: "English"
-religious_values: "Christianity"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: English
+religious_values: Christianity
 rv_islam: 30
 rv_christianity: 90
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,20 +40,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "American, Bias & Fairness"
 key_contribution: "Introduced BBQ (Bias Benchmark for QA), a hand-built dataset highlighting social biases against protected classes in US English contexts, testing responses in under-informative vs. informative settings."
 significance: "Demonstrates that models often rely on harmful stereotypes when context is ambiguous, establishing a standard metric for measuring social bias in Question Answering systems."
 tags: 
 abstract: "It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts."
 pdf_extract: "PDF Extracts/2022/2022-Parrish-BBQ.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Parrish-BBQ.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2022/2022-Parrish-BBQ.pdf]]
 CONF-CC: "Findings of the Association for Computational Linguistics: ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "DeBERTaV3, RoBERTa, UnifiedQA"
 DATA_URL: "https://github.com/nyu-mll/BBQ"
 CONFERENCE: "ACL 2022"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
 ---

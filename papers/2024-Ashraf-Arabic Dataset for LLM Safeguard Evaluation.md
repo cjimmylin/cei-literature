@@ -1,65 +1,26 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: CULT0073
 type: preprint
-short_title: Arabic Dataset for LLM Safeguard Evaluation
-year: 2024
+short_title: "Arabic Dataset for LLM Safeguard Evaluation"
+year: 2025
 first_author: "[[Yasser Ashraf]]"
 last_author: "[[Timothy Baldwin]]"
-authors: Yasser Ashraf; Yuxia Wang; Bin Gu; Preslav Nakov; Timothy Baldwin
+authors: "Yasser Ashraf; Yuxia Wang; Bin Gu; Preslav Nakov; Timothy Baldwin"
 doi: 10.48550/arXiv.2410.17040
 url: "https://arxiv.org/abs/2410.17040"
 external_pdf: "https://arxiv.org/pdf/2410.17040.pdf"
-publication: arXiv / NAACL 2025
+publication: "arXiv / NAACL 2025"
 CONF-CC: "NAACL 2025"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Ashraf-Arabic Dataset for LLM Safeguard Evaluation.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/mbzuai-nlp/Arabic_safety_evaluation"
 tags: 
 abstract: "The growing use of large language models (LLMs) has raised concerns regarding their safety. While many studies have focused on English, the safety of LLMs in Arabic, with its linguistic and cultural complexities, remains under-explored. Here, we aim to bridge this gap. In particular, we present an Arab-regionspecific safety evaluation dataset consisting of 5,799 questions, including direct attacks, indirect attacks, and harmless requests with sensitive words, adapted to reflect the..."
 CONFERENCE: "NAACL 2025"
-ethics_overall: 75
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "5,799 questions"
 ---

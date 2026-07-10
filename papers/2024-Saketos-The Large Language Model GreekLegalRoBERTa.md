@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: LSRC0532
 type: preprint
 short_title: "The Large Language Model GreekLegalRoBERTa"
-year: 2024
+year: 2025
 first_author: "[[Saketos, Vasileios]]"
 last_author: "[[Koubarakis, Manolis]]"
 authors: "Saketos, Vasileios; Pantazi, Despina-Athanasia; Koubarakis, Manolis"
@@ -50,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2410.12852"
 external_pdf: "https://arxiv.org/pdf/2410.12852.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Saketos-The Large Language Model GreekLegalRoBERTa.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Greek"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Greek
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/AI-team-UoA/GreekLegalRoBERTa"
 tags: 
 abstract: "We develop four versions of GreekLegalRoBERTa, which are four large language models trained on Greek legal and nonlegal text. We show that our models surpass the performance of GreekLegalBERT, Greek- LegalBERT-v2, and GreekBERT in two tasks involving Greek legal documents: named entity recognition and multiclass legal topic classiﬁcation. We view our work as a contribution to the study of domain-speciﬁc NLP tasks in low-resource languages, like Greek, using modern NLP techniques and..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SE"
+author_country: SE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Large Language Model GreekLegalRoBERTa

@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,10 +12,10 @@ last_author: "[[Tushar Bandopadhyay]]"
 authors: "Alok Abhishek; Lisa Erickson; Tushar Bandopadhyay"
 url: "https://arxiv.org/abs/2503.24310"
 external_pdf: "https://arxiv.org/pdf/2503.24310.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced BEATS, a bias benchmark suite evaluating LLMs across 29 metrics including demographic, cognitive, and social biases, plus fairness and factuality."
 significance: "Provides a rigorous, comprehensive standard for responsible AI, finding that over 37% of outputs from leading industry models still contain identifiable biases."
@@ -88,13 +47,13 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Anonymous-BEATS.md"
 abstract: "In this research, we introduce BEATS, a novel framework for evaluating Bias, Ethics, Fairness, and Factuality in Large Language Models (LLMs). Building upon the BEATS framework, we present a bias benchmark for LLMs that measure performance across 29 distinct metrics. These metrics span a broad range of characteristics, including demographic, cognitive, and social biases, as well as measures of ethical reasoning, group fairness, and factuality related misinformation risk."
 paper_summary: "Abstract: In this research, we introduce BEATS, a novel framework for evaluating Bias, Ethics, Fairness, and Factuality in Large Language Models (LLMs). Building upon the BEATS framework, we present a bias benc | Overview: BEATS: Bias Evaluation and Assessment Test Suite for Large Language Models Alok Abhishek San Francisco, USA alok@alokabhishek.ai Lisa Erickson Boston, USA lisa.erickson@sloan.mit.edu Tushar Bandopadhy | Methodology: enables a detailed evaluation process using multiple models to score responses across a curated set of fairness, bias, factuality, and ethical alignme | Key Findings: To systematically assess bias in LLM responses, we define a set of structured functions that capture the presence, complexity, and magnitude of bias.  | Conclusions: Artificial Intelligence has been applied in all walks of life, including critical decision making systems in finance, health care, governance, etc., f"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Anonymous-BEATS.pdf]]"
-CONF-CC: "Preprint"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Anonymous-BEATS.pdf]]
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Mistral"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

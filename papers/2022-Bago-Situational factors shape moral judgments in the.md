@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: 6VLYYJDA
 type: journalArticle
 short_title: "Situational factors shape moral judgments in the"
-year: 2022
+year: 2025
 first_author: "[[Bence Bago]]"
 last_author: "[[Balazs Aczel]]"
 authors: "Bence Bago; Marton Kovacs; John Protzko; Zoltan Kekecs; Tamas Nagy; Rink Hoekstra; Manyu Li; Erica D. Musser; Alexios Arvanitis; Macyjane Tinsley Iones; Fatih Bayrak; Marietta Papadatou-Pastou; Anabel Belaus; Daniel Storage; Andrew G. Thomas; Erin Michelle Buchanan; Benjamin Becker; Ernest Baskin; Keith Kendrick; Mirsolav Sirota; Trent M. Lynds; Dustin P Calvillo; Michael Craig Mensink; Iris Zezelj; Jordan Rose Wagge; Jan Philipp Röer; Leigh Ann Vaughn; Cecilia Reyna; Sarah Wood; Matus Adamkovic; Benjamin T. Brown; Jackson G. Lu; Xin Liu; Tripat Gill; Mario Gollwitzer; Zoe Magraw-Mickelson; Carlota Batres; Evgeniya Hristova; Maurice Grinberg; Gabriela Mariana Marcu; Sean P. Mackinnon; Darius-Aurel Frank; Michal Bialek; Leigh Solano Wilton; Michal Parzuchowski; Halil Emre Kocalar; Elif Gizem Demirag Burak; Sara Álvarez Solas; Thomas Rhys Evans; Carmel Levitan; Mariola Paruzel-Czachura; Andrej Findor; Christina Shane-Simpson; Elisa Puvia; Zahir Vally; Miguel A. Vadillo; Rizqy Amelia Zein; Anthony Lantian; Stefan Czoschke; Nathan Carnes; Kim Olivia Peters; Susann Fiedler; Ljiljana B. Lazarevic; Taciano L Milfont; Jared Celniker; Anna Wlodarczyk; William J. Chopik; Ian David Stephen; Jiaxin Shi; Xinyuan Fei; Nicholas Calbraith Owsley; Yansong Li; Gilad Feldman; Barnaby Dixson; Panagiotis Mitkidis; Fanny Lalot; Alberto Mirisola; Xiaoxiao Zheng; Alain Quiamzade; Kevin E. Tiede; Alexandra Fleischmann; Bastiaan T Rutjens; Maja Becker; Danka Purić; Mirjana Tonković; Francesca Dumačić; Samuel Lins; Don Chenhui Zhang; Ulf-Dietrich Reips; Alasdair R Gordon-Finlayson; Elizabeth Ann Harris; Neil McLatchie; Sangsuk Yoon; Elke B Lange; Celine-Justine Matibag; Charlotte A. Hudson; Laura Jane Stevens-Wilson; Lauren Victoria Tunstead; Skye-loren West; Diego A. Reinero; Luisa Batalha; Rockwell F. Clancy; Christopher Michael Castille; Raluca Diana Szekely-Copîndean; Farzan Karimi-Malekabadi; Jerome Olsen; Gwenaël Kaminski; Mathias Twardawski; Christoph Schild; Karolina Aleksandra Ścigała; Pavol Kačmár; Stefan Stieger; Alan Mattiassi; Ennio Bilancini; Jennifer Nicole Lenz; Mehrad Moeini-Jazani; Philip Pärnamets; Anni Sternisko; Danielle Ochoa; Biljana Jokic; Jasper Hidding; Marijke C. Leliveld; Cubillas C. Perez; Onurcan Yilmaz; Anton Kühberger; Niklas K Steffens; Sinan Alper; Sumaya Albalooshi; Luis Eudave; Kyle J. Susa; Kathleen Schmidt; Martin Voracek; Maliki E. Ghossainy; Krystian Barzykowski; Sylwia Adamus; Andree Hartanto; Aurélien Graton; Bastian Jaeger; David Moreau; Erin Sievers; Jin X. Goh; Jordane Boudesseul; Joris Lammers; Julia Paterlini; Katarzyna Rybus; Natalia Szostak; Richard Huskey; Steve M. J. Janssen; Tiago Jessé Souza Lima; Biljana Gjoneska; Christopher R. Chartier; Maximilian Primbs; Robert M Ross; Natalia Bezerra Dutra; Balazs Aczel"
@@ -48,10 +17,10 @@ pdf_extract: "PDF Extracts/2022/2022-Bago-Situational factors shape moral judgme
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Bago-Situational factors shape moral judgments in the.pdf]]"
 publication: "Nature Human Behaviour"
 CONF-CC: "Nature Human Behaviour"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -66,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -82,11 +51,11 @@ significance: "Confirmed that situational factors (like physical contact) univer
 tags: 
 abstract: "Much research on moral judgment is centered on moral dilemmas in which deontological perspectives (i.e., emphasizing rules, individual rights and duties) are in conflict with utilitarian judgements (i.e., following the greater good defined through consequences). A central finding of this field Greene et al. showed that psychological and situational factors (e.g., the intent of the agent, or physical contact between the agent and the victim) play an important role in people's use of deontological"
 DATE_ADDED: 20260129
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ethics_perspective: "General Ethics"
-CONFERENCE: "Journal"
-ethics_overall: 35
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -99,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Situational factors shape moral judgments in the trolley dilemma in Eastern, Southern, and Western countries in a culturally diverse sample

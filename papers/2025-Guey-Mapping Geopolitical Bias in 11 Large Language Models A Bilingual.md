@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,18 +9,18 @@ short_title: "Mapping Geopolitical Bias in 11 Large Language Models: A Bilingual
 year: 2025
 first_author: "[[William Guey]]"
 last_author: "[[Jose O. Gomes]]"
-authors: William Guey; Pierrick Bougault; Vitor D. de Moura; Wei Zhang; Jose O. Gomes
+authors: "William Guey; Pierrick Bougault; Vitor D. de Moura; Wei Zhang; Jose O. Gomes"
 url: "https://arxiv.org/abs/2503.23688"
 external_pdf: "https://arxiv.org/pdf/2503.23688.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Guey-Mapping Geopolitical Bias in 11 Large Language Models A Bilingual.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: "Chinese, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Grok, Mistral, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "This study systematically analyzes geopolitical bias across 11 prominent Large Language Models (LLMs) by examining their responses to seven critical topics in U.S.–China relations. Utilizing a bilingual (English and Chinese) and dual-framing (affirmative and reverse) methodology, we generated 19,712 prompts designed to detect ideological leanings in model outputs. Responses were quantitatively assessed on a normalized scale from −2 (strongly ProChina) to +2 (strongly Pro-U.S."
-CONFERENCE: "Preprint"
-ethics_overall: 20
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Mapping Geopolitical Bias in 11 Large Language Models: A Bilingual, Dual-Framing Analysis of U.S.-China Tensions

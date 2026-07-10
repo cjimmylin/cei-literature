@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,14 +14,14 @@ authors_incomplete: false
 url: "https://kdd-eval-workshop.github.io/genai-evaluation-kdd2025/assets/papers/Submission%2018.pdf"
 external_pdf: "https://arxiv.org/pdf/2406.14805v2.pdf"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kharchenko-How Well Do LLMs Represent Values Across Cultures.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4, GPT-4o, Command R+, Gemma, Llama-3"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) attempt to imitate human behavior by responding to humans in a way that pleases them, including by adhering to their values. However, humans come from diverse cultures with different values. We prompt different LLMs with advice requests based on Hofstede Cultural Dimensions, incorporating personas representing 36 countries and languages. Our analysis reveals that while LLMs can differentiate cultural values, they often fail to consistently uphold them when giving..."
 CONFERENCE: "KDD 2018"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # How Well Do LLMs Represent Values Across Cultures?

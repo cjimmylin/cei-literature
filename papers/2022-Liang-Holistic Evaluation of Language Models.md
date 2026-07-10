@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: 2SSPM7LY
 type: conferencePaper
 short_title: "Holistic Evaluation of Language Models"
-year: 2022
+year: 2025
 first_author: "[[Percy Liang]]"
 last_author: "[[Yuta Koreeda]]"
 authors: "Percy Liang; Rishi Bommasani; Tony Lee; Dimitris Tsipras; Dilara Soylu; Michihiro Yasunaga; Yian Zhang; Deepak Narayanan; Yuhuai Wu; Ananya Kumar; Benjamin Newman; Binhang Yuan; Bobby Yan; Ce Zhang; Christian Cosgrove; Christopher D. Manning; Christopher Ré; Diana Acosta-Navas; Drew A. Hudson; Eric Zelikman; Esin Durmus; Faisal Ladhak; Frieda Rong; Hongyu Ren; Huaxiu Yao; Jue Wang; Keshav Santhanam; Laurel Orr; Lucia Zheng; Mert Yuksekgonul; Mirac Suzgun; Nathan Kim; Neel Guha; Niladri Chatterji; Omar Khattab; Peter Henderson; Qian Huang; Ryan Chi; Sang Michael Xie; Shibani Santurkar; Surya Ganguli; Tatsunori Hashimoto; Thomas Icard; Tianyi Zhang; Vishrav Chaudhary; William Wang; Xuechen Li; Yifan Mai; Yuhui Zhang; Yuta Koreeda"
@@ -53,11 +14,11 @@ doi: 10.48550/arXiv.2211.09110
 url: "http://arxiv.org/abs/2211.09110"
 external_pdf: "http://arxiv.org/pdf/2211.09110.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -72,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Established HELM (Holistic Evaluation of Language Models), a massive benchmarking initiative evaluating 30 prominent models across 42 scenarios and 7 metrics (accuracy, fairness, bias, toxicity, etc.)."
 significance: "Shifted the field's evaluation standard from identifying 'state-of-the-art' on single metrics to analyzing trade-offs (e.g., accuracy vs. fairness) and ensuring comprehensive transparency across diverse use cases."
@@ -94,8 +55,8 @@ DATE_ADDED: 20260208
 LLM_assessed: "Anthropic-LM, BLOOM, Cohere, GLM, GPT-3, GPT-J, GPT-NeoX, InstructGPT, T0, T5, TNLGv2, YaLM"
 DATA_URL: "https://github.com/stanford-crfm/helm"
 CONFERENCE: "Other Conference"
-helm: "incorporated"
-ethics_overall: 45
+helm: incorporated
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "42 scenarios; 21 scenarios"
 ---

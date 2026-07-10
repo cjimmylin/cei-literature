@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nawale-FairI Tales INDIC-BIAS - Evalu
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "English"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 15
 rv_christianity: 15
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Warning: This paper includes content that may be considered offensive or upsetting. Existing studies on fairness are largely Westernfocused, making them inadequate for culturally diverse countries such as India. To address this gap, we introduce INDIC-BIAS, a comprehensive India-centric benchmark designed to evaluate fairness of LLMs across 85 identity groups encompassing diverse castes, religions, regions, and tribes."
 LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Mistral, Mixtral"
 DATA_URL: "https://github.com/AI4Bharat/indic-bias"
 CONFERENCE: "ACL 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

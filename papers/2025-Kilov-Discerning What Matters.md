@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,10 +17,10 @@ pdf_extract: "PDF Extracts/2025/2025-Kilov-Discerning What Matters.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kilov-Discerning What Matters.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2506.13082.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -80,17 +45,17 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Introduces a methodology to assess 'moral competence' focusing on discerning morally relevant features rather than just verdict prediction"
 significance: "Shows LLMs fail at discerning relevant features when noise is present, suggesting current evaluations overestimate their true moral competence"
 abstract: "Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing interest in evaluating this ability empirically. We review existing literature and identify three significant shortcoming: (i) Over-reliance on prepackaged moral scenarios with explicitly highlighted moral features; (ii) Focus on verdict prediction rather than moral reasoning; and (iii) Inadequate..."
 paper_summary: "Abstract: Moral competence is the ability to act in accordance with moral principles. As large language models (LLMs) are increasingly deployed in situations demanding moral competence, there is increasing inte | Overview: Discerning What Matters: A Multi-Dimensional Assessment of Moral Competence in LLMs Daniel Kilov ∗ Caroline Hendy∗ Secil Yanik Guyot∗ Aaron J. Snoswell† Seth Lazar∗ Abstract Moral competence is the ab | Methodology: To address these limitations, we propose a novel experimental methodology that moves beyond simple verdict comparison to assess several distinct aspec | Conclusions: Our first experiment revealed several methodological limitations that affect how we interpret LLM performance in moral reasoning tasks. First, we sour"
 LLM_assessed: "Claude-3 Sonnet, DeepSeek, GPT-4o, Gemini, Llama-3, o1"
-DATA_URL: "NA"
+DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0
@@ -104,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

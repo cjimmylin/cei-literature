@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,14 +12,14 @@ last_author: "[[Rui Sun]]"
 authors: "Rui Sun"
 url: "https://papers.ssrn.com/sol3/Delivery.cfm/5029393.pdf?abstractid=5029393&mirid=1"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "English, Uyghur"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +43,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
+LLM_assessed: ChatGPT
+DATA_URL: NA
 tags: 
 abstract: "Based on the search results, I found information about a comprehensive evaluation benchmark for Uyghur literary translation involving ChatGPT and other translation tools. Uyghur Literary Translation Evaluation Study A comparative study employed two neural machine translation (NMT) systems—Google Translate and Bing Translator—and one generative AI large language model (LLM), ChatGPT to evaluate Uyghur to English literary translation."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Evaluating the Translation Accuracy of ChatGPT and DeepL Through the Lens of Implied Subjects by Rui Sun :: SSRN

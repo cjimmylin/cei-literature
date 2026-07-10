@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -57,10 +19,10 @@ CONF-CC: "Cluster Computing"
 pdf_extract: "PDF Extracts/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chared-AI-driven detection of hate speech on social media a case study in.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French"
-cultures_nationalities_list: "French"
-languages_list: "French"
-religious_values: "N/A"
+national_ethnic_cultural: French
+cultures_nationalities_list: French
+languages_list: French
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BART"
-DATA_URL: "NA"
+LLM_assessed: BART
+DATA_URL: NA
 tags: 
 abstract: "In today’s digital age, the rise of online hate speech–fueled by user anonymity and widespread use of platforms like X– has become a serious issue. It is a challenge for both social media companies and authorities in their efforts to maintain a safe and respectful online environment. Hate speech (HS) is mostly seen as an intentional act of aggressive behavior towards anyone based on their personal traits."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus for hate speech detection"
 data_metrics: "Not specified"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +9,17 @@ short_title: "Navigating the Political Compass (Multilingual, 50 Countries)"
 year: 2025
 first_author: "[[Chadi Helwe]]"
 last_author: "[[Davide Ceolin]]"
-authors: Chadi Helwe; Oana Balalau; Davide Ceolin
+authors: "Chadi Helwe; Oana Balalau; Davide Ceolin"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2506.22493.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Helwe-Navigating the Political Compass Multilingual 50 Countries.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The Political Compass Test (PCT) and similar surveys are commonly used to assess political bias in auto-regressive LLMs. Our rigorous statistical experiments show that while changes to standard generation parameters have minimal effect on PCT scores, prompt phrasing and fine-tuning individually and together can significantly influence results. Interestingly, finetuning on politically rich vs. neutral datasets does not lead to different shifts in scores."
@@ -88,7 +51,7 @@ research_topic: "Machine Translation"
 LLM_assessed: "Falcon, Gemma, Llama-3, Mistral"
 DATA_URL: "https://github.com/sadiakamal/Detailed-factor-analysis-PCT"
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

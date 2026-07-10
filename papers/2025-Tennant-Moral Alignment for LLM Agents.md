@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,10 +15,10 @@ url: "https://arxiv.org/abs/2410.01639"
 external_pdf: "https://www.mircomusolesi.org/papers/iclr25_moral_alignment_llm_agents.pdf"
 publication: "ICLR 2025"
 CONF-CC: "ICLR 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -64,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -73,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Moral Alignment, Reinforcement Learning, LLM Agents"
 key_contribution: "Proposes intrinsic moral rewards for fine-tuning LLM agents, using deontological and utilitarian frameworks defined in terms of actions and consequences"
 significance: "Demonstrates that moral fine-tuning with intrinsic rewards is more transparent and cost-effective alternative to RLHF; shows moral strategies generalize across game environments"
@@ -82,11 +51,11 @@ pdf_extract: "PDF Extracts/2025/2025-Tennant-Moral Alignment for LLM Agents.md"
 abstract: "Decision-making agents based on pre-trained Large Language Models (LLMs) are increasingly being deployed across various domains of human activity. While their applications are currently rather specialized, several research efforts are underway to develop more generalist agents. As LLM-based systems become more agentic, their influence on human activity will grow and their transparency will decrease. Consequently, developing effective methods for aligning them to human values is vital."
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tennant-Moral Alignment for LLM Agents.pdf]]"
-LLM_assessed: "Gemma-2"
+LLM_assessed: Gemma-2
 DATA_URL: "https://github.com/liza-tennant/LLM_morality"
 DATE_ADDED: 20260207
 CONFERENCE: "ICLR 2025"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -99,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

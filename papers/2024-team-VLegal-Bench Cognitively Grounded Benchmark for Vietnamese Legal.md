@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: LSRC0374
 type: preprint
 short_title: "VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese Legal Reasoning of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[CMC AI team]]"
 last_author: "[[CMC AI team]]"
 authors: "CMC AI team"
@@ -52,12 +15,12 @@ external_pdf: "https://arxiv.org/pdf/2512.14554.pdf"
 pdf_extract: "PDF Extracts/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-team-VLegal-Bench Cognitively Grounded Benchmark for Vietnamese Legal.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Vietnamese"
-cultures_nationalities_list: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
+national_ethnic_cultural: Vietnamese
+cultures_nationalities_list: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BLOOM, Claude-3, GPT-4o, GPT-4o mini, Gemini, Gemma-2, InternLM, Llama-2, Llama-3, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has enabled new possibilities for applying artificial intelligence within the legal domain. Nonetheless, the complexity, hierarchical organization, and frequent revisions of Vietnamese legislation pose considerable challenges for evaluating how well these models interpret and utilize legal knowledge. To address this gap, Vietnamese Legal Benchmark (VLegal-Bench) is introduced, the first comprehensive benchmark is designed to systematically..."
 research_topic: "Machine Learning"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

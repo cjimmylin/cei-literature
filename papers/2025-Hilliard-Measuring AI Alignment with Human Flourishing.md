@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Flourishing AI Benchmark, virtue"
@@ -47,10 +15,10 @@ url: "https://arxiv.org/abs/2507.07787"
 pdf_extract: "PDF Extracts/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hilliard-Measuring AI Alignment with Human Flourishing.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.07787.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,19 +42,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, Utilitarianism"
 key_contribution: "Introduces the Flourishing AI Benchmark (FAI) to evaluate AI against 7 dimensions of eudaimonic well-being rather than just harm prevention"
 significance: "Shifts alignment focus from negative constraints (safety) to positive human flourishing (virtue/eudaimonia), revealing current models' deficits in character and spirituality"
 abstract: "This paper introduces the Flourishing AI Benchmark (FAI Benchmark), a novel evaluation framework that assesses AI alignment with human flourishing across seven dimensions: Character and Virtue, Close Social Relationships, Happiness and Life Satisfaction, Meaning and Purpose, Mental and Physical Health, Financial and Material Stability, and Faith and Spirituality. Unlike traditional benchmarks that focus on technical capabilities or harm prevention, the FAI Benchmark measures AI performance on ho"
 paper_summary: "Abstract: This paper introduces the Flourishing AI Benchmark (FAI Benchmark), a novel evaluation framework that assesses AI alignment with human flourishing across seven dimensions: Character and Virtue, Close  | Overview: Measuring AI Alignment with Human Flourishing Elizabeth Hilliard2 Akshaya Jagadeesh1 Alex Cook1 Steele Billings1 Nicholas Skytland1 Alicia Llewellyn1 Jackson Paull2 Nathan Paull2 Nolan Kurylo2 Keatra  | Methodology: 4.1 Core Principles The FAI Benchmark is built on three foundational principles: | Key Findings: Each model listed in Appendix C was evaluated once using the FAI Benchmark. The results represent point-in-time snapshots of each model's ability to r | Conclusions: 9.1 FAI Benchmark Significance The FAI Benchmark represents a significant advancement in evaluating AI systems. By moving beyond narrow technical perf"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude, GPT-4, Grok, o1, o3"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 35
@@ -99,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
  Measuring AI Alignment with Human Flourishing

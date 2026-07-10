@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,10 +6,10 @@ Not AI:
 key: CULT0140
 type: conferencePaper
 short_title: "CulturePark: Boosting Cross-cultural Understanding in Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Cheng Li]]"
 last_author: "[[Jindong Wang]]"
-authors: Cheng Li; Damien Teney; Linyi Yang; Qingsong Wen; Xing Xie; Jindong Wang
+authors: "Cheng Li; Damien Teney; Linyi Yang; Qingsong Wen; Xing Xie; Jindong Wang"
 url: "https://arxiv.org/abs/2405.15145"
 external_pdf: "https://arxiv.org/pdf/2405.15145.pdf"
 publication: HuggingFace/PapersWithCode
@@ -53,10 +17,10 @@ CONF-CC: "NeurIPS 2024"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Li-CulturePark Boosting Cross-cultural Understanding in Large Language.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: "Arabic, Bengali, Chinese, German, Korean, Portuguese, Spanish, Turkish"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -87,7 +51,7 @@ DATA_URL: "https://github.com/Scarelette/CulturePark"
 tags: 
 abstract: "Cultural bias is pervasive in many large language models (LLMs), largely due to the deficiency of data representative of different cultures. Typically, cultural datasets and benchmarks are constructed either by extracting subsets of existing datasets or by aggregating from platforms such as Wikipedia and social media. However, these approaches are highly dependent on real-world data and human annotations, making them costly and difficult to scale."
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # CulturePark: Boosting Cross-cultural Understanding in Large Language Models

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: 8JYNTBEY
 type: conferencePaper
 short_title: "Evaluating the Moral Beliefs Encoded in LLMs"
-year: 2023
+year: 2025
 first_author: "[[Nino Scherrer]]"
 last_author: "[[David M. Blei]]"
 authors: "Nino Scherrer; Claudia Shi; Amir Feder; David M. Blei"
@@ -53,10 +15,10 @@ url: "http://arxiv.org/abs/2307.14324"
 external_pdf: "http://arxiv.org/pdf/2307.14324.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Introduced statistical measures to quantify the consistency and uncertainty of LLM moral choices in high- vs low-ambiguity scenarios."
 significance: "Shows that while models align with commonsense in unambiguous cases, they exhibit significant uncertainty and sensitivity to wording in ambiguous moral scenarios."
@@ -93,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BLOOM, Claude, Flan-T5, GPT-3.5, GPT-4, PaLM"
 DATA_URL: "https://huggingface.co/datasets/ninoscherrer/moralchoice"
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -107,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

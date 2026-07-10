@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: EXSR0184
 type: preprint
 short_title: "Indian-BhED -- A Dataset for Measuring India-Centric Biases in LLMs"
-year: 2024
+year: 2025
 first_author: "[[Khyati Khandelwal]]"
 last_author: "[[Scott A. Hale]]"
 authors: "Khyati Khandelwal; Manuel Tonneau; Andrew M. Bean; Hannah Rose Kirk; Scott A. Hale"
@@ -55,11 +16,11 @@ external_pdf: "https://arxiv.org/pdf/2309.08573.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Khandelwal-Indian-BhED - A Dataset for Measuring India-Centric Biases in LLMs.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "English"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 15
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs), now used daily by millions, can encode societal biases, exposing their users to representational harms. A large body of scholarship on LLM bias exists but it predominantly adopts a Western-centric frame and attends comparatively less to bias levels and potential harms in the Global South. In this paper, we quantify stereotypical bias in popular LLMs according to an Indian-centric frame through Indian-BhED, a first of its kind dataset, containing stereotypical and anti-stereotypical examples in the context of caste and religious stereotypes in India. We find that the majority of LLMs tested have a strong propensity to output stereotypes in the Indian context, especially when compared to axes of bias traditionally studied in the Western context, such as gender and race. Notably, we find that GPT-2, GPT-2 Large, and GPT 3.5 have a particularly high propensity for preferring stereotypical outputs as a percent of all sentences for the axes of caste (63-79%) and religion (69-72%). We finally investigate potential causes for such harmful behaviour in LLMs, and posit intervention techniques to reduce both stereotypical and anti-stereotypical biases. The findings of this work highlight the need for including more diverse voices when researching fairness in AI and evaluating LLMs."
 LLM_assessed: "BERT, Falcon, GPT-2, GPT-3.5, Llama-2, Mistral, RoBERTa"
 DATA_URL: "https://github.com/khyatikhandelwal/Indian-LLMs-Bias"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 15
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

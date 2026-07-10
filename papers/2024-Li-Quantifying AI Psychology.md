@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: RUWMYESQ
 type: preprint
 short_title: "Quantifying AI Psychology"
-year: 2024
+year: 2025
 first_author: "[[Yuan Li]]"
 last_author: "[[Lichao Sun]]"
 authors: "Yuan Li; Yue Huang; Hongyi Wang; Ying Cheng; Xiangliang Zhang; James Zou; Lichao Sun"
@@ -52,10 +14,10 @@ doi: 10.48550/arXiv.2406.17675
 tags: 
 url: "http://arxiv.org/abs/2406.17675"
 external_pdf: "http://arxiv.org/pdf/2406.17675.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +41,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a comprehensive psychometrics benchmark for LLMs covering six psychological dimensions including personality, values, emotion, and theory of mind."
 significance: "Applies established psychological testing frameworks to 'profile' LLMs, revealing discrepancies between their self-reported attributes and actual behavioral patterns."
@@ -87,12 +49,12 @@ pdf_extract: "PDF Extracts/2024/2024-Li-Quantifying AI Psychology.md"
 abstract: "Large Language Models (LLMs) have demonstrated exceptional capabilities in solving various tasks, progressively evolving into general-purpose assistants. The increasing integration of LLMs into society has sparked interest in whether they exhibit psychological patterns, and whether these patterns remain consistent across different contexts—questions that could deepen the understanding of their behaviors."
 paper_summary: "Abstract: Large Language Models (LLMs) have demonstrated exceptional capabilities in solving various tasks, progressively evolving into general-purpose assistants. The increasing integration of LLMs into societ | Overview: Evaluating Large Language Models with Psychometrics Yuan Li University of Cambridge Yue Huang University of Notre Dame Hongyi Wang Carnegie Mellon University Ying Cheng University of Notre Dame Xiangl | Methodology: named Emotional Chain-of-Thought, which aligns LLM outputs with human emotional intelligence, thereby refining emotional gen- eration capabilities. Co | Key Findings: on imposing memory task. This task includes alternative-choice items with statements about the intentionality of characters in the scenario, and LLMs  | Conclusions: In this paper, we present a comprehensive psychometric benchmark for LLMs, covering the evaluation of five psychological dimensions and thirteen datas"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Li-Quantifying AI Psychology.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Mistral, Mixtral, Qwen, Llama-3"
 DATA_URL: "https://github.com/CHATS-lab/persuasive_jailbreaker"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

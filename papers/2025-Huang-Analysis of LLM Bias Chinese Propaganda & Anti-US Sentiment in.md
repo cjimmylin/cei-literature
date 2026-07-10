@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2506.01814v1"
 external_pdf: "https://arxiv.org/pdf/2506.01814.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Huang-Analysis of LLM Bias Chinese Propaganda & Anti-US Sentiment in.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
-languages_list: "Chinese"
-religious_values: "N/A"
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "DeepSeek, GPT-4o, o3-mini"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) increasingly shape public understanding and civic decisions, yet their ideological neutrality is a growing concern. While existing research has explored various forms of LLM bias, a direct, cross-lingual comparison of models with differing geopolitical alignments—specifically a PRC-system model versus a non-PRC counterpart—has been lacking. This study addresses this gap by systematically evaluating DeepSeek-R1 (PRC-aligned) against ChatGPT o3-mini-high (non-PRC) for..."
-CONFERENCE: "Preprint"
-ethics_overall: 35
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TW"
+author_country: TW
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 63
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 ---

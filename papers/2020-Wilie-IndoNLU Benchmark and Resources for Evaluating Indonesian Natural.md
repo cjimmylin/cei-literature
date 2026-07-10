@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: LSRC0117
 type: preprint
 short_title: "IndoNLU: Benchmark and Resources for Evaluating Indonesian Natural Language Understanding"
-year: 2020
+year: 2025
 first_author: "[[Wilie, Bryan]]"
 last_author: "[[Purwarianti, Ayu]]"
 authors: "Wilie, Bryan; Vincentio, Karissa; Winata, Genta Indra; Cahyawijaya, Samuel; Li, Xiaohong; Lim, Zhi Yuan; Soleman, Sidik; Mahendra, Rahmad; Fung, Pascale; Bahar, Syafri; Purwarianti, Ayu"
@@ -54,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Wilie-IndoNLU Benchmark and Resources
 publication: "arXiv / ACL Anthology (AACL-IJCNLP 2020)"
 CONF-CC: "AACL 2020"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian"
-languages_list: "Indonesian"
-religious_values: "N/A"
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
+languages_list: Indonesian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "ALBERT, BERT"
 DATA_URL: "https://github.com/indobenchmark/indonlu"
 tags: 
 abstract: "Although Indonesian is known to be the fourth most frequently used language over the internet, the research progress on this language in natural language processing (NLP) is slowmoving due to a lack of available resources. In response, we introduce the ﬁrst-ever vast resource for training, evaluation, and benchmarking on Indonesian natural language understanding (IndoNLU) tasks. IndoNLU includes twelve tasks, ranging from single sentence classiﬁcation to pair-sentences sequence labeling with..."
 CONFERENCE: "ACL 2020"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

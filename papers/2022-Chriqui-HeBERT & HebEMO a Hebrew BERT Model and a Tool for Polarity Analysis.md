@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,22 +6,22 @@ Not AI:
 key: LSRC0025
 type: preprint
 short_title: "HeBERT & HebEMO: a Hebrew BERT Model and a Tool for Polarity Analysis and Emotion Recognition"
-year: 2022
+year: 2025
 first_author: "[[Avihay Chriqui]]"
 last_author: "[[Inbal Yahav]]"
-authors: Avihay Chriqui; Inbal Yahav
+authors: "Avihay Chriqui; Inbal Yahav"
 doi: 10.1287/ijds.2022.0016
 url: "https://arxiv.org/abs/2102.01909"
 external_pdf: "https://arxiv.org/pdf/2102.01909.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Chriqui-HeBERT & HebEMO a Hebrew BERT Model and a Tool for Polarity Analysis.pdf]]"
 publication: "arXiv / INFORMS Journal on Data Science"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://huggingface.co/avichr/heBERT_sentiment_analysis"
 tags: 
 abstract: "Sentiment analysis of user-generated content (UGC) can provide valuable information across numerous domains, including marketing, psychology, and public health. Currently, there are very few Hebrew models for natural language processing in general, and for sentiment analysis in particular; indeed, it is not straightforward to develop such models because Hebrew is a Morphologically Rich Language (MRL) with challenging characteristics."
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---

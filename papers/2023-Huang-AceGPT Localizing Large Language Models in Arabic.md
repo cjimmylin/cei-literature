@@ -1,62 +1,26 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: CULT0072
 type: preprint
-short_title: AceGPT, Localizing Large Language Models in Arabic
-year: 2023
+short_title: "AceGPT, Localizing Large Language Models in Arabic"
+year: 2025
 first_author: "[[Huang Huang]]"
 last_author: "[[Jinchao Xu]]"
-authors: Huang Huang; Fei Yu; Jianqing Zhu; Xuening Sun; Hao Cheng; Dingjie Song; Zhihong Chen; Abdulmohsen Alharthi; Bang An; Juncai He; Ziche Liu; Zhiyi Zhang; Junying Chen; Jianquan Li; Benyou Wang; Lian Zhang; Ruoyu Sun; Xiang Wan; Haizhou Li; Jinchao Xu
+authors: "Huang Huang; Fei Yu; Jianqing Zhu; Xuening Sun; Hao Cheng; Dingjie Song; Zhihong Chen; Abdulmohsen Alharthi; Bang An; Juncai He; Ziche Liu; Zhiyi Zhang; Junying Chen; Jianquan Li; Benyou Wang; Lian Zhang; Ruoyu Sun; Xiang Wan; Haizhou Li; Jinchao Xu"
 doi: 10.48550/arXiv.2309.12053
 url: "https://arxiv.org/abs/2309.12053"
 external_pdf: "https://arxiv.org/pdf/2309.12053.pdf"
-publication: arXiv / NAACL
+publication: "arXiv / NAACL"
 CONF-CC: "NAACL 2023"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Huang-AceGPT Localizing Large Language Models in Arabic.pdf]]"
 pdf_extract: "PDF Extracts/2023/2023-Huang-AceGPT Localizing Large Language Models in Arabic.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 100
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, BLOOM"
 DATA_URL: "https://github.com/FreedomIntelligence/AceGPT"
 tags: 
 abstract: "This paper is devoted to the development of a localized Large Language Model (LLM) specifically for Arabic, a language imbued with unique cultural characteristics inadequately addressed by current mainstream models. Significant concerns emerge when addressing cultural sensitivity and local values. To address this, the paper proposes a comprehensive solution that includes further pre-training with Arabic texts, Supervised Fine-Tuning (SFT) utilizing native Arabic instructions, and GPT-4..."
 CONFERENCE: "NAACL 2023"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # AceGPT, Localizing Large Language Models in Arabic

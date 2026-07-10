@@ -4,7 +4,7 @@ Not AI:
 key: AUTO_BERBERICH2018
 type: preprint
 short_title: "The Virtuous Machine"
-year: 2018
+year: 2025
 first_author: "[[Nicolas Berberich]]"
 last_author: "[[Diepold, Klaus]]"
 authors: "Berberich, Nicolas; Diepold, Klaus"
@@ -12,10 +12,10 @@ doi: N/A
 url: "https://arxiv.org/abs/1806.10322"
 pdf_extract: "PDF Extracts/2018/2018-Berberich-The Virtuous Machine.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Berberich-The Virtuous Machine.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -30,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -46,12 +46,12 @@ significance: "Early influential work connecting Aristotelian virtue ethics with
 external_pdf: "https://arxiv.org/pdf/1806.10322"
 abstract: "Modern AI and robotic systems are characterized by a high and ever-increasing level of autonomy, with applications in fields such as autonomous driving, service robotics, and digital personal assistants moving closer to humans. From this combination emerges the field of AI ethics which recognizes that the actions of autonomous machines entail moral dimensions. The authors argue for taking inspiration from Aristotelian virtue ethics by showing that it forms a suitable combination with modern AI due to its focus on learning from experience. The paper proposes that imitation learning from moral exemplars, a central concept in virtue ethics, can solve the value alignment problem. Additionally, the authors argue that an intelligent system endowed with the virtues of temperance and friendship to humans would not pose a control problem as it would not have the desire for limitless self-improvement."
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 publication: arXiv
-CONF-CC: "Preprint"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONF-CC: Preprint
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -64,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Virtuous Machine - Old Ethics for New Technology?

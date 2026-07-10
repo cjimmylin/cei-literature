@@ -1,28 +1,27 @@
 ---
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: EXSR0677
 type: conferencePaper
 short_title: "The Greatest Good Benchmark: Measuring LLMs' Alignment with Utilitarian Moral Dilemmas"
-year: 2024
-first_author: "[[Marraffini]]"
+year: 2025
+first_author: [[Marraffini]]
 last_author: "[[del Corro]]"
 authors: "Marraffini; Cotton; Hsueh; Fridman; Wisznia; del Corro"
 authors_incomplete: true
 url: "https://aclanthology.org/2024.emnlp-main.1224/"
-external_pdf:
-pdf_extract:
+external_pdf: 
+pdf_extract: 
 local_pdf: N/A
 publication: "EMNLP 2024 (ACL Anthology 2024.emnlp-main.1224)"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260404
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -37,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -46,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "dual_process"
+moral_psychology: dual_process
 newtags: "moral-psychology, benchmark, external-search"
-tags:
+tags: 
 abstract: "Benchmark of utilitarian moral dilemmas tested across 15 LLMs. Reveals consistently encoded moral preferences diverging from established moral theories. LLMs show preference for impartial beneficence and rejection of instrumental harm."
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "N/A"
-ethics_overall: 0
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: N/A
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -66,12 +65,12 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-s2_paper_id: ""
+s2_paper_id: 
 citation_count: 0
-is_benchmark: "Unknown"
-is_eval: "Unknown"
-is_dataset: "Unknown"
-data_description: ""
+is_benchmark: Unknown
+is_eval: Unknown
+is_dataset: Unknown
+data_description: 
 data_metrics: "Not specified"
 ---
 # The Greatest Good Benchmark: Measuring LLMs' Alignment with Utilitarian Moral Dilemmas

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +6,17 @@ Not AI:
 key: UA6KI2C8
 type: conferencePaper
 short_title: "Measuring and Mitigating Unintended Bias in Text"
-year: 2018
+year: 2025
 first_author: "[[Lucas Dixon]]"
 last_author: "[[Lucy Vasserman]]"
 authors: "Lucas Dixon; John Li; Jeffrey Sorensen; Nithum Thain; Lucy Vasserman"
 doi: 10.1145/3278721.3278729
 url: "https://dl.acm.org/doi/10.1145/3278721.3278729"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7UNGXMSM/Dixon et al. - 2018 - Measuring and Mitigating Unintended Bias in Text Classification.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "One of the first papers to define 'unintended bias' in text classification (e.g., toxicity detectors flagging 'I am a gay man' as toxic) and proposed a 'balancing' mitigation strategy."
 significance: "A seminal work in fairness for NLP, addressing the 'identity term bias' where models learn that mention of a minority group = toxicity, leading to censorship of those groups."
@@ -89,12 +49,12 @@ abstract: "We introduce and illustrate a new approach to measuring and mitigatin
 pdf: "https://dl.acm.org/doi/pdf/10.1145/3278721.3278729"
 CONF-CC: "AIES 2018"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/conversationai/unintended-ml-bias-analysis"
 pdf_extract: "PDF Extracts/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Dixon-Measuring and Mitigating Unintended Bias in Text.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

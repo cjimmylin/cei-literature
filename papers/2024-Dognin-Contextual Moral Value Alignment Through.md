@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: ETGFN3E4
 type: conferencePaper
 short_title: "Contextual Moral Value Alignment Through"
-year: 2024
+year: 2025
 first_author: "[[Pierre Dognin]]"
 last_author: "[[Djallel Bouneffouf]]"
 authors: "Pierre Dognin; Jesus Rios; Ronny Luss; Inkit Padhi; Matthew D Riemer; Miao Liu; Prasanna Sattigeri; Manish Nagireddy; Kush R. Varshney; Djallel Bouneffouf"
@@ -54,11 +14,11 @@ doi: 10.48550/arXiv.2403.12805
 url: "http://arxiv.org/abs/2403.12805"
 external_pdf: "http://arxiv.org/pdf/2403.12805.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -73,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a system for 'contextual moral value alignment' that aggregates responses from multiple independently trained agents (each aligned with a distinct value) based on the user's context."
 significance: "Offers a modular approach to value alignment, allowing a single system to adaptively reflect different moral frameworks depending on the situation, rather than baking in a single static morality."
@@ -93,9 +53,9 @@ paper_summary: "Abstract: Developing value-aligned AI agents is a com- plex unde
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Dognin-Contextual Moral Value Alignment Through.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "OpenAssistant-12B, Llama-2-13B, Llama-2-7B"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -109,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Contextual Moral Value Alignment Through Context-Based Aggregation

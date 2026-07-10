@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,21 +6,21 @@ Not AI:
 key: LSRC0491
 type: preprint
 short_title: "DaCy: A Unified Framework for Danish NLP"
-year: 2021
+year: 2025
 first_author: "[[Kenneth C. Enevoldsen]]"
 last_author: "[[Kristoffer Nielbo]]"
-authors: Kenneth C. Enevoldsen; Lasse Hansen; Kristoffer Nielbo
+authors: "Kenneth C. Enevoldsen; Lasse Hansen; Kristoffer Nielbo"
 url: "https://arxiv.org/abs/2107.05295"
 external_pdf: "https://arxiv.org/pdf/2107.05295.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Enevoldsen-DaCy A Unified Framework for Danish NLP.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Danish"
-religious_values: "Islam"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Danish
+religious_values: Islam
 rv_islam: 60
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, XLM-R"
 DATA_URL: "https://github.com/centre-for-humanities-computing/DaCy"
 tags: 
 abstract: "Danish natural language processing (NLP) has in recent years obtained considerable improvements with the addition of multiple new datasets and models. However, at present, there is no coherent framework for applying state-of-the-art models for Danish. We present DaCy: a uniﬁed framework for Danish NLP built on SpaCy. DaCy uses efﬁcient multitask models which obtain state-of-the-art performance on named entity recognition, part-of-speech tagging, and dependency parsing."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -100,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DK"
+author_country: DK
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

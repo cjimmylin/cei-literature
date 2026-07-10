@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: LSRC0621
 type: journalArticle
 short_title: "A structured sentiment analysis dataset based on public comments from various domains - ScienceDirect"
-year: 2024
+year: 2025
 first_author: "[[Wei, Zhongliang]]"
 last_author: "[[Zhang, Shunxiang]]"
 authors: "Wei, Zhongliang; Zhang, Shunxiang"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/pii/S2352340924002038"
 publication: ScienceDirect
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Uyghur"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Uyghur
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Based on the web search results, here are the findings related to Uyghur sentiment analysis dataset evaluation: Recent Research on Uyghur Sentiment Analysis (2024-2025) Recent research conducted experiments on the Uyghur sentiment analysis dataset with experimental evaluation using multiple evaluation indicators including Accuracy, Precision, Recall, and F1-score. Specifically, a study on Uyghur Sentiment Classification Based on Temporal Attention Capsule Networks showed that their model ca"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

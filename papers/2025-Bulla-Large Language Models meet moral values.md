@@ -13,10 +13,10 @@ authors: "Luana Bulla; Stefano De Giorgis; Misael Mongiovì; Aldo Gangemi"
 doi: 10.1016/j.chbr.2025.100609
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2451958825000247"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/IHQZ47VE/Bulla et al. - 2025 - Large Language Models meet moral values A comprehensive assessment of moral abilities.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -52,8 +52,8 @@ LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mixtral, Mistral"
 DATA_URL: "https://osf.io/kw6rc/?view_only=73c3d8e2f7c9483ea012347d70d27b6f"
 pdf_extract: "PDF Extracts/2025/2025-Bulla-Large Language Models meet moral values.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bulla-Large Language Models meet moral values.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 65
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 71
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

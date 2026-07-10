@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,14 +13,14 @@ authors: "Ant Open"
 url: "https://arxiv.org/html/2509.10655v1"
 external_pdf: "https://arxiv.org/pdf/2509.10655.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Open-Safety and Security Analysis of Large Language Models Risk Profile.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4o, Grok, LLaMA, Mistral, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "While the widespread deployment of Large Language Models (LLMs) holds great potential for society, their vulnerabilities to adversarial manipulation and exploitation can pose serious safety, security, and ethical risks. As new threats continue to emerge, it becomes critically necessary to assess the landscape of LLMs’ safety and security against evolving adversarial prompt techniques. To understand the behavior of LLMs, this research provides an empirical analysis and risk profile of nine..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

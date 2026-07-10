@@ -1,9 +1,8 @@
 ---
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 key: EXSR0675
 type: preprint
 short_title: "How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion"
@@ -13,16 +12,16 @@ last_author: "[[Kalika Bali]]"
 authors: "Agrima Seth; Monojit Choudhury; Sunayana Sitaram; Kentaro Toyama; Aditya Vashistha et al."
 authors_incomplete: false
 url: "http://arxiv.org/abs/2508.03712v1"
-external_pdf:
-pdf_extract:
+external_pdf: 
+pdf_extract: 
 local_pdf: N/A
-publication: "arXiv"
-CONF-CC: "Preprint"
+publication: arXiv
+CONF-CC: Preprint
 DATE_ADDED: 20260403
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Multi-religion"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Multi-religion
 rv_islam: 50
 rv_christianity: 50
 rv_buddhism: 50
@@ -37,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Multi-religion"
+religious_values_list: Multi-religion
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -46,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
-newtags:
-tags:
+moral_psychology: N/A
+newtags: 
+tags: 
 abstract: "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT-4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India,"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -66,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-s2_paper_id: ""
+s2_paper_id: 
 citation_count: 0
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75

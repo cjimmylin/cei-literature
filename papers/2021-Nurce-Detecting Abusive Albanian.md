@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: LSRC0542
 type: preprint
 short_title: "Detecting Abusive Albanian"
-year: 2021
+year: 2025
 first_author: "[[Erida Nurce]]"
 last_author: "[[Leon Derczynski]]"
-authors: Erida Nurce; Jorgel Keci; Leon Derczynski
+authors: "Erida Nurce; Jorgel Keci; Leon Derczynski"
 url: "https://arxiv.org/abs/2107.13592"
 external_pdf: "https://arxiv.org/pdf/2107.13592.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2021/2021-Nurce-Detecting Abusive Albanian.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Nurce-Detecting Abusive Albanian.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Albanian"
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Albanian
+religious_values: Christianity
 rv_islam: 5
 rv_christianity: 50
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://doi.org/10.6084/m9.figshare.19333298.v1"
 tags: 
 abstract: "The ever growing usage of social media in the recent years has had a direct impact on the increased presence of hate speech and offensive speech in online platforms. Research on effective detection of such content has mainly focused on English and a few other widespread languages, while the leftover majority fail to have the same work put into them and thus cannot benefit from the steady advancements made in the field."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "11,874 instances"
 ---

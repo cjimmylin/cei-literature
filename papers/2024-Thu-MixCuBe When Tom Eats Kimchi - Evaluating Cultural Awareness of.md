@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,19 +6,19 @@ Not AI:
 key: CULT0144
 type: conferencePaper
 short_title: "MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts"
-year: 2024
+year: 2025
 first_author: "[[Jun Seong Kim]]"
 last_author: "[[Alice Oh]]"
 authors: "Jun Seong Kim; Kyaw Ye Thu; Javad Ismayilzada; Junyeong Park; Eunsu Kim; Huzama Ahmad; Na Min An; James Thorne; Alice Oh"
 url: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 publication: HuggingFace
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Thu-MixCuBe When Tom Eats Kimchi - Evaluating Cultural Awareness of.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -79,14 +43,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/kyawyethu/MixCuBe"
 tags: 
 abstract: "Cross-cultural awareness benchmark studying elements from five countries and four ethnicities in cultural mixture contexts. MLLMs achieve higher accuracy for high-resource cultures but not for low-resource cultures."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # MixCuBe: When Tom Eats Kimchi - Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts

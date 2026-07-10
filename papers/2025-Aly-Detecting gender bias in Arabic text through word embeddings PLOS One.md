@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,19 +9,19 @@ short_title: "Detecting gender bias in Arabic text through word embeddings | PLO
 year: 2025
 first_author: "[[Ranwa Aly]]"
 last_author: "[[Rana Gaber]]"
-authors: Ranwa Aly; Yara Allam; Rana Gaber
+authors: "Ranwa Aly; Yara Allam; Rana Gaber"
 doi: 10.1371/journal.pone.0319301
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0319301"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0319301&type=printable"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aly-Detecting gender bias in Arabic text through word embeddings PLOS One.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "N/A"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/aiamourad/AraGenderBias, https://doi.org/10.5281/zenodo.13772479"
 tags: 
 abstract: "For generations, women have fought to achieve equal rights with those of men. Many historians and social scientists examined this uphill path with a focus on women’s rights and economic status in the West. Other parts of the world, such as the Middle East, remain understudied, with a noticeable shortage in gender-based statistics in the economic arena. According to the sociocognitive theory of critical discourse analysis, social behaviors and norms are reflected by language discourses, which..."
 CONFERENCE: "Other Conference"
-ethics_overall: 85
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "LB"
-author_region: "MENA"
+author_country: LB
+author_region: MENA
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

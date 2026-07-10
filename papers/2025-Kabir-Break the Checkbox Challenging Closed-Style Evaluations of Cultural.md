@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +9,7 @@ short_title: "Break the Checkbox: Challenging Closed-Style Evaluations of Cultur
 year: 2025
 first_author: "[[Ariba Kabir]]"
 last_author: "[[Sophia Ananiadou]]"
-authors: Ariba Kabir; Abrar Anwar; Sophia Ananiadou
+authors: "Ariba Kabir; Abrar Anwar; Sophia Ananiadou"
 url: "https://arxiv.org/abs/2502.08045"
 external_pdf: "https://arxiv.org/pdf/2502.08045.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kabir-Break the Checkbox Challenging Closed-Style Evaluations of Cultural.md"
@@ -55,9 +17,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kabir-Break the Checkbox Challenging 
 publication: "arXiv / EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "DeepSeek, GPT-4, GPT-4o, Llama-3, Mistral"
 DATA_URL: "https://github.com/ariba-k/llm-cultural-alignment-evaluation"
 tags: 
 abstract: "A large number of studies rely on closed-style multiple-choice surveys to evaluate cultural alignment in Large Language Models (LLMs). In this work, we challenge this constrained evaluation paradigm and explore more realistic, unconstrained approaches. Using the World Values Survey (WVS) and Hofstede Cultural Dimensions as case studies, we demonstrate that LLMs exhibit stronger cultural alignment in less constrained settings, where responses are not forced."
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

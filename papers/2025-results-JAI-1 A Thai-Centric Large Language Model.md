@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2510.08620.pdf"
 pdf_extract: "PDF Extracts/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-results-JAI-1 A Thai-Centric Large Language Model.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Thai"
-cultures_nationalities_list: "Thai"
-languages_list: "Thai"
-religious_values: "N/A"
+national_ethnic_cultural: Thai
+cultures_nationalities_list: Thai
+languages_list: Thai
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude, GPT-3.5, GPT-4, GPT-4o, Llama-3, Phi-3, Qwen-1.5, Qwen-2"
 DATA_URL: "https://github.com/EleutherAI/lm-evaluation-harness"
 tags: 
 abstract: "This technical report introduces JAI-1, a Thai-centric language model with 75B parameters. Recent Thai models have primarily relied on existing open-source models, applying additional training without structural modifications to specialize in Thai. However, this approach risks eroding pre-existing knowledge in the model’s parameter space during the injection of Thai-specific information, as optimized parameters for general tasks may conflict with new linguistic requirements."
 ethics_perspective: "AI Safety & Alignment"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TH"
+author_country: TH
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # JAI-1: A Thai-Centric Large Language Model

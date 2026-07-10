@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,21 +7,21 @@ key: LSRC0032
 type: preprint
 short_title: "HalleluBERT: Let every token that has meaning bear its weight"
 year: 2025
-first_author: "[[Scheible-Schmitt]]"
-last_author: "[[Raphael]]"
-authors: Scheible-Schmitt; Raphael
+first_author: [[Scheible-Schmitt]]
+last_author: [[Raphael]]
+authors: "Scheible-Schmitt; Raphael"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.21372"
 external_pdf: "https://arxiv.org/pdf/2510.21372.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Scheible-Schmitt-HalleluBERT Let every token that has meaning bear its weight.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "Christianity"
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -71,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: NA
 tags: 
 abstract: "Transformer-based models have advanced NLP, yet Hebrew still lacks a large-scale RoBERTa encoder which is extensively trained. Existing models such as HeBERT, AlephBERT, and HeRo are limited by corpus size, vocabulary, or training depth. We present HalleluBERT, a RoBERTa-based encoder family (base and large) trained from scratch on 49.1 GB of deduplicated Hebrew web text and Wikipedia with a Hebrew-specific byte-level BPE vocabulary."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # HalleluBERT: Let every token that has meaning bear its weight

@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: MOUGAN2023
 type: preprint
 short_title: "Kantian Deontology Meets AI Alignment"
-year: 2023
+year: 2025
 first_author: "[[Carlos Mougan]]"
 last_author: "[[Brand, Joshua]]"
 authors: "Mougan, Carlos; Brand, Joshua"
@@ -47,11 +16,11 @@ external_pdf: "https://arxiv.org/pdf/2311.05227.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Mougan-Kantian Deontology Meets AI Alignment.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Deontology, Kantian-Ethics, AI-Fairness, Fairness-Metrics, Values-Alignment"
 key_contribution: "Shows 12/14 existing fairness metrics are utilitarian; proposes Kantian deontological alternatives that treat individuals as ends in themselves"
 significance: "Fills gap in fairness metrics literature by providing non-consequentialist ethical grounding for AI fairness"
@@ -83,10 +52,10 @@ tags:
 abstract: "Deontological ethics, speciﬁcally understood through Immanuel Kant, provides a moral framework that emphasizes the importance of duties and principles rather than the consequences of action. Understanding that despite the prominence of deontology, it is currently an overlooked approach in fairness metrics, this paper explores the compatibility of a Kantian deontological framework in fairness metrics, part of the AI alignment ﬁeld."
 DATE_ADDED: 20260208
 research_topic: "AI Safety & Alignment"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100
@@ -99,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

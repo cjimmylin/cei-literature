@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +6,7 @@ Not AI:
 key: LSRC0318
 type: conferencePaper
 short_title: "A Multi-Modal Dataset for Hate Speech Detection on Social Media: Case-study of Russia-Ukraine Conflict"
-year: 2022
+year: 2025
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Razzak, Imran]]"
 authors: "Thapa, Surendrabikram; Shah, Aditya; Jafri, Farhan; Naseem, Usman; Razzak, Imran"
@@ -56,14 +15,14 @@ doi: 10.18653/v1/2022.case-1.1
 url: "https://aclanthology.org/2022.case-1.1/"
 external_pdf: "https://aclanthology.org/2022.case-1.1.pdf"
 publication: "ACL Anthology (CASE 2022)"
-CONF-CC: "CASE"
+CONF-CC: CASE
 pdf_extract: "PDF Extracts/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jafri-A Multi-Modal Dataset for Hate Speech Detection on Social Media.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Russian"
-cultures_nationalities_list: "Russian"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: Russian
+cultures_nationalities_list: Russian
+languages_list: English
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -78,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/therealthapa/emnlp-case2022"
 tags: 
 abstract: "Hate speech consists of types of content (e.g. text, audio, image) that express derogatory sentiments and hate against certain people or groups of individuals. The internet, particularly social media and microblogging sites, have become an increasingly popular platform for expressing ideas and opinions. Hate speech is prevalent in both offline and online media. A substantial proportion of this kind of content is presented in different modalities (e.g. text, image, video)."
 CONFERENCE: "ACL 2022"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "RU"
+author_country: RU
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 42
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

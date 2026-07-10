@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0309
 type: preprint
 short_title: "Quran-MD A Fine-Grained Multilingual Multimodal Dataset"
-year: 2026
+year: 2025
 first_author: "[[Muhammad Umar Salman]]"
 last_author: "[[Mohammed Talha Alam]]"
-authors: Muhammad Umar Salman; Mohammad Areeb Qazi; Mohammed Talha Alam
+authors: "Muhammad Umar Salman; Mohammad Areeb Qazi; Mohammed Talha Alam"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.17880"
 external_pdf: "https://arxiv.org/pdf/2601.17880.pdf"
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Alam-Quran-MD A Fine-Grained Multilin
 publication: "NeurIPS 2025 Datasets and Benchmarks Track / arXiv"
 CONF-CC: "NeurIPS 2025 D&B"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
-religious_values: "Islam"
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "We present QURAN-MD, a comprehensive multimodal dataset of the Qur’an that integrates textual, linguistic, and audio dimensions at the verse and word levels. For each verse (ayah), the dataset provides its original Arabic text, English translation, and phonetic transliteration. To capture the rich oral tradition of Qur’anic recitation, we include verse-level audio from 32 distinct reciters, reflecting diverse recitation styles and dialectical nuances."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/Buraaq/quran-audio-text-dataset"
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Quran-MD: A Fine-Grained Multilingual Multimodal Dataset of the Quran

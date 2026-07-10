@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +6,7 @@ Not AI:
 key: LSRC0151
 type: conferencePaper
 short_title: "Hate Speech Detection in Social Media for the Kurdish Language"
-year: 2022
+year: 2025
 first_author: "[[Ari M. Saeed]]"
 last_author: "[[Rashid, Tarik Ahmed]]"
 authors: "Ari M. Saeed; Aso N. Ismael; Danya L. Rasul; Rayan S. Majeed; Rashid, Tarik Ahmed"
@@ -59,10 +18,10 @@ CONF-CC: "ICCCI 2022"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Kurdish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Kurdish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://data.mendeley.com/datasets/x6628zzpdx/1"
 tags: 
 abstract: "First Kurdish hate speech dataset of 6,882 Facebook comments divided into hate/not-hate classes from TV channels, athletes, religions, politicians. SVM, Decision Tree, Naive Bayes evaluated."
 CONFERENCE: "Other Conference"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

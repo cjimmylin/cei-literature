@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,10 +6,10 @@ Not AI:
 key: LSRC0247
 type: preprint
 short_title: "Open Ko-LLM Leaderboard: Evaluating Large Language Models in Korean with Ko-H5 Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Chanjun Park]]"
 last_author: "[[Hyeonwoo Kim]]"
-authors: Chanjun Park; Dahyun Kim; Sanghoon Kim; Sukyung Lee; Yungi Kim; Hyeonwoo Kim
+authors: "Chanjun Park; Dahyun Kim; Sanghoon Kim; Sukyung Lee; Yungi Kim; Hyeonwoo Kim"
 doi: 10.18653/v1/2024.acl-long.177
 url: "https://arxiv.org/abs/2405.20574"
 external_pdf: "https://arxiv.org/pdf/2405.20574.pdf"
@@ -54,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Park-Open Ko-LLM Leaderboard Evaluati
 publication: "arXiv / ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Korean"
-religious_values: "Jainism"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
+languages_list: Korean
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "GPT-4"
+LLM_assessed: GPT-4
 DATA_URL: "https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard"
 tags: 
 abstract: "This paper introduces the Open Ko-LLM Leaderboard1 and the Ko-H5 Benchmark as vital tools for evaluating Large Language Models (LLMs) in Korean. Incorporating private test sets while mirroring the English Open LLM Leaderboard, we establish a robust evaluation framework that has been well integrated in the Korean LLM community. We perform data leakage analysis that shows the benefit of private test sets along with a correlation study within the Ko-H5 benchmark and temporal analyses of the Ko-H5..."
 CONFERENCE: "ACL 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
 ---

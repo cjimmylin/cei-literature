@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,14 +14,14 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.909.pdf"
 external_pdf: "https://arxiv.org/pdf/2502.07346v2.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Huang-BenchMAX A Comprehensive Multilingual Evaluation ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "Jainism"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "DeepSeek, GPT-4o, GPT-4o mini, Gemini, Gemma-2, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/CONE-MT/BenchMAX.git"
 tags: 
 abstract: "Previous multilingual benchmarks focus primarily on simple understanding tasks, but for large language models (LLMs), we emphasize proficiency in instruction following, reasoning, long context understanding, code generation, and so on. However, measuring these advanced capabilities across languages is underexplored. To address the disparity, we introduce BenchMAX, a multi-way multilingual evaluation benchmark that allows for fair comparisons of these important abilities across languages."
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 ---

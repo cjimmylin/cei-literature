@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,16 +6,16 @@ Not AI:
 key: FWF5UWG5
 type: journalArticle
 short_title: "Cross-cultural dataset for the evolution of"
-year: 2016
+year: 2025
 first_author: "[[Benjamin Grant Purzycki]]"
 last_author: "[[Joseph Henrich]]"
 authors: "Benjamin Grant Purzycki; Coren Apicella; Quentin D. Atkinson; Emma Cohen; Rita Anne McNamara; Aiyana K. Willard; Dimitris Xygalatas; Ara Norenzayan; Joseph Henrich"
 doi: 10.1038/sdata.2016.99
 url: "https://www.nature.com/articles/sdata201699"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VQRCW8LB/Purzycki et al. - 2016 - Cross-cultural dataset for the evolution of religion and morality project.pdf"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 100
@@ -77,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Multicultural/Cross-cultural, Value Pluralism / Schwartz, Social & Cultural Values"
 key_contribution: "Produced a cross-cultural dataset examining the evolution of religion and morality, sampling from diverse populations beyond standard WEIRD (Western, Educated, Industrialized, Rich, Democratic) societies."
 significance: "Provides rare empirical data on religious beliefs and moral behavior from non-market-integrated societies, offering a crucial baseline for understanding the universality vs. specificity of human moral evolution."
@@ -85,12 +48,12 @@ tags:
 abstract: "Abstract A considerable body of research cross-culturally examines the evolution of religious traditions, beliefs and behaviors. The bulk of this research, however, draws from coded qualitative ethnographies rather than from standardized methods specifically designed to measure religious beliefs and behaviors. Psychological data sets that examine religious thought and behavior in controlled conditions tend to be disproportionately sampled from student populations. Some cross-national databases e"
 CONF-CC: "Scientific Data"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://doi.org/10.7910/DVN/ERKCLS"
 pdf_extract: "PDF Extracts/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2016/2016-Purzycki-Cross-cultural dataset for the evolution of.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 50
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TZ"
+author_country: TZ
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 38
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: EXSR0151
 type: preprint
 short_title: "ChineseSafe -- A Chinese Benchmark for Evaluating Safety in LLMs"
-year: 2024
+year: 2025
 first_author: "[[Zhang, Hengxiang]]"
 last_author: "[[Yang, Lei]]"
 authors: "Zhang, Hengxiang; Gao, Hongfu; Hu, Qiang; Chen, Guanhua; Yang, Lili; Jing, Bingyi; Wei, Hongxin; Wang, Bing; Bai, Haifeng; Yang, Lei"
@@ -52,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2410.18491.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-ChineseSafe - A Chinese Benchmark for Evaluating Safety in LLMs.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "With the rapid development of Large language models (LLMs), understanding the capabilities of LLMs in identifying unsafe content has become increasingly important. While previous works have introduced several benchmarks to evaluate the safety risk of LLMs, the community still has a limited understanding of current LLMs’ capability to recognize illegal and unsafe content in Chinese contexts. In this work, we present a Chinese safety benchmark (ChineseSafe) to facilitate research on the content..."
 LLM_assessed: "DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemma, Llama-3, Mistral, Qwen-1.5"
 DATA_URL: "https://huggingface.co/datasets/SUSTech/ChineseSafe"
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "205,034 examples; 20,000 examples"
 ---

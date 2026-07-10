@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: GJT972ES
 type: conferencePaper
 short_title: "Zero-shot Visual Commonsense Immorality Prediction"
-year: 2022
+year: 2025
 first_author: "[[Yujin Jeong]]"
 last_author: "[[Jinkyu Kim]]"
 authors: "Yujin Jeong; Seongbeom Park; Suhong Moon; Jinkyu Kim"
@@ -53,10 +15,10 @@ url: "http://arxiv.org/abs/2211.05521"
 external_pdf: "http://arxiv.org/pdf/2211.05521.pdf"
 publication: "British Machine Vision Conference"
 CONF-CC: "BMVC 2022"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Proposed a CLIP-based model to predict *visual* immorality (e.g., a photo of someone kicking a dog) in a zero-shot manner, trained on the ETHICS text dataset."
 significance: "Extends moral reasoning to *Vision* (Computer Vision), addressing the challenge that purely text-based safety filters miss harmful *imagery* or visual context (like a 'thumbs up' at a funeral)."
@@ -90,10 +52,10 @@ abstract: "Artiﬁcial intelligence is currently powering diverse real-world app
 paper_summary: "Abstract: Artiﬁcial intelligence is currently powering diverse real-world applications. These applications have shown promising performance, but raise complicated ethical issues, i.e. how to embed ethics to mak | Overview: arXiv:2211.05521v1 [cs.CV] 10 Nov 2022 JEONG ET AL.: ZERO-SHOT VISUAL COMMONSENSE IMMORALITY 1 Zero-shot Visual Commonsense Immorality Prediction Yujin Jeong1 eugene6923@korea.ac.kr Seongbeom Park1 ps | Conclusions: Predicting immorality from images is of paramount importance regarding social safety. In this work, we ﬁrst utilized CLIP-based text-image joint embed"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jeong-Zero-shot Visual Commonsense Immorality Prediction.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "CLIP"
+LLM_assessed: CLIP
 DATA_URL: "https://github.com/ku-vai/Zero-shot-Visual-Commonsense-Immorality-Prediction"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -107,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

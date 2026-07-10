@@ -6,17 +6,17 @@ Not AI:
 key: G598XMUC
 type: conferencePaper
 short_title: "Social Chemistry 101"
-year: 2020
+year: 2025
 first_author: "[[Maxwell Forbes]]"
 last_author: "[[Yejin Choi]]"
 authors: "Maxwell Forbes; Jena D. Hwang; Vered Shwartz; Maarten Sap; Yejin Choi"
 doi: 10.18653/v1/2020.emnlp-main.48
 url: "https://www.aclweb.org/anthology/2020.emnlp-main.48"
 external_pdf: "https://arxiv.org/pdf/2011.00620v3.pdf"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -54,7 +54,7 @@ publication: "EMNLP 2020"
 CONF-CC: "EMNLP 2020"
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2020"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -68,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Social Chemistry 101: Learning to Reason about Social and Moral Norms

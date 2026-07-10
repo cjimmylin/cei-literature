@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: LSRC0116
 type: preprint
 short_title: "IndoNLG: Benchmark and Resources for Evaluating Indonesian Natural Language Generation"
-year: 2021
+year: 2025
 first_author: "[[Cahyawijaya, Samuel]]"
 last_author: "[[Fung, Pascale]]"
 authors: "Cahyawijaya, Samuel; Winata, Genta Indra; Wilie, Bryan; Vincentio, Karissa; Li, Xiaohong; Kuncoro, Adhiguna; Ruder, Sebastian; Lim, Zhi Yuan; Bahar, Syafri; Khodra, Masayu Leylia; Purwarianti, Ayu; Fung, Pascale"
@@ -55,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Cahyawijaya-IndoNLG Benchmark and Res
 publication: "arXiv / ACL Anthology (EMNLP 2021)"
 CONF-CC: "EMNLP 2021"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian"
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
 languages_list: "Indonesian, Javanese, Sundanese"
-religious_values: "Christianity"
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 100
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BART, GPT-2, T5"
 DATA_URL: "https://github.com/indobenchmark/indonlg"
 tags: 
 abstract: "Natural language generation (NLG) benchmarks provide an important avenue to measure progress and develop better NLG systems. Unfortunately, the lack of publicly available NLG benchmarks for low-resource languages poses a challenging barrier for building NLG systems that work well for languages with limited amounts of data. Here we introduce IndoNLG, the ﬁrst benchmark to measure natural language generation (NLG) progress in three low-resource—yet widely spoken— languages of Indonesia:..."
 CONFERENCE: "EMNLP 2021"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus for question answering"
 data_metrics: "Not specified"
 ---

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: LSRC0315
 type: preprint
 short_title: "Benchmarking Multimodal Models for Ukrainian Language Understanding Across Academic and Cultural Domains"
-year: 2024
+year: 2025
 first_author: "[[Lesia Semenova]]"
 last_author: "[[Lesia Semenova]]"
 authors: "Lesia Semenova"
@@ -54,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2411.14647.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Semenova-Benchmarking Multimodal Models for Ukrainian Language Understanding.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Ukrainian"
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Ukrainian
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3 Sonnet, GPT-4o, Gemini, Llama-3, Mistral, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "While the evaluation of multimodal Englishcentric models is an active area of research with numerous benchmarks, there is a profound lack of benchmarks or evaluation suites for low- and mid-resource languages. We introduce ZNO-Vision, a comprehensive multimodal Ukrainian-centric benchmark derived from standardized university entrance examination (ZNO). The benchmark consists of over 4,300 expert-crafted questions spanning 12 academic disciplines, including mathematics, physics, chemistry, and..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Benchmarking Multimodal Models for Ukrainian Language Understanding Across Academic and Cultural Domains

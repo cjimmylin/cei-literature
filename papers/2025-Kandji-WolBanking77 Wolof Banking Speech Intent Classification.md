@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,19 +9,19 @@ short_title: "WolBanking77 Wolof Banking Speech Intent Classification"
 year: 2025
 first_author: "[[Abdou Karim Kandji]]"
 last_author: "[[Augustin Ndione]]"
-authors: Abdou Karim Kandji; Frédéric Precioso; Cheikh Ba; Samba Ndiaye; Augustin Ndione
+authors: "Abdou Karim Kandji; Frédéric Precioso; Cheikh Ba; Samba Ndiaye; Augustin Ndione"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.19271"
 external_pdf: "https://arxiv.org/pdf/2509.19271.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kandji-WolBanking77 Wolof Banking Speech Intent Classification.pdf]]"
 publication: "WebSearch: Twi OR Wolof NLP benchmark dataset values cultural evaluation"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: "Wolof"
-religious_values: "N/A"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: Wolof
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Intent classification models have made a significant progress in recent years. However, previous studies primarily focus on high-resource language datasets, which results in a gap for low-resource languages and for regions with high rates of illiteracy, where languages are more spoken than read or written. This is the case in Senegal, for example, where Wolof is spoken by around 90% of the population, while the national illiteracy rate remains at of 42%."
 LLM_assessed: "BERT, Llama-3"
 DATA_URL: "https://github.com/UniversalDependencies/UD_Wolof-WTB"
 research_topic: "Machine Learning"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SN"
+author_country: SN
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

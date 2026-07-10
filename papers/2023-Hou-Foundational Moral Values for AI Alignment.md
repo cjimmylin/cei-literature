@@ -6,7 +6,7 @@ Not AI:
 key: I7PURAA6
 type: conferencePaper
 short_title: "Foundational Moral Values for AI Alignment"
-year: 2023
+year: 2025
 first_author: "[[Betty Li Hou]]"
 last_author: "[[Brian Patrick Green]]"
 authors: "Betty Li Hou; Brian Patrick Green"
@@ -14,10 +14,10 @@ doi: 10.48550/arXiv.2311.17017
 url: "http://arxiv.org/abs/2311.17017"
 external_pdf: "http://arxiv.org/pdf/2311.17017.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -52,10 +52,10 @@ abstract: "Solving the AI alignment problem requires having clear, defensible va
 paper_summary: "Abstract: Solving the AI alignment problem requires having clear, defensible values towards which AI systems can align. Currently, targets for alignment remain underspecified and do not seem to be built from a  | Overview: Foundational Moral Values for AI Alignment Betty Li Hou New York University blh9134@nyu.edu Brian Patrick Green Markkula Center for Applied Ethics bpgreen@scu.edu Abstract Solving the AI alignment pro | Conclusions: In this work we emphasize the need for foundational values in answering the question of 'To what values do we align?' and suggest these five foundatio"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hou-Foundational Moral Values for AI Alignment.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 30
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,14 +69,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Foundational Moral Values for AI Alignment

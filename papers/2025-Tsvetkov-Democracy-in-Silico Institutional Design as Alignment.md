@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,10 +17,10 @@ pdf_extract: "PDF Extracts/2025/2025-Tsvetkov-Democracy-in-Silico Institutional 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tsvetkov-Democracy-in-Silico Institutional Design as Alignment.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2508.19562.pdf"
 ethics_perspective: "Institutional Design / Political Philosophy"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Institutional Design, Democracy, Constitutional AI, Deontology"
 key_contribution: "Simulates AI societies governing themselves, finding that Constitutional AI (deontological constraints) combined with deliberation reduces corruption"
 significance: "Demonstrates that institutional design—specifically constitutionalism—acts as a potent alignment mechanism for multi-agent AI systems"
@@ -87,12 +56,12 @@ significance: "Demonstrates that institutional design—specifically constitutio
 **Publisher: "** arXiv"
 abstract: "This paper introduces Democracy-in-Silico, an agent-based simulation where societies of advanced AI agents, imbued with complex psychological personas [1, 2], govern themselves under different institutional frameworks. We explore what it means to be human in an age of AI by tasking Large Language Models (LLMs) to embody agents with traumatic memories, hidden agendas, and psychological triggers. These agents engage in deliberation, legislation, and elections under various stressors, such as..."
 paper_summary: "Abstract: This paper introduces Democracy-in-Silico, an agent-based simulation where soci- eties of advanced AI agents, imbued with complex psychological personas [1, 2], govern themselves under different insti | Overview: Democracy-in-Silico: Institutional Design as Alignment in AI-Governed Polities Trisanth Srinivasan Cyrion Labs trisanth@cyrionlabs.org Santosh Patapati Cyrion Labs santosh@cyrionlabs.org Abstract This | Conclusions: Our simulation provides a creative, critical, and empirical lens for examining what it means to be human in an era increasingly shaped by AI. Human–Ma"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, GPT-4o"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 30
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20
@@ -105,13 +74,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

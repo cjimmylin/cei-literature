@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: LSRC0447
 type: preprint
 short_title: "INCLUDE: Evaluating Multilingual Language Understanding with Regional Knowledge"
-year: 2024
+year: 2025
 first_author: "[[Romanou, Angelika]]"
 last_author: "[[Bosselut, Antoine]]"
 authors: "Romanou, Angelika; Foroutan, Negar; Sotnikova, Anna; Chen, Zeming; Nelaturu, Sree Harsha; Singh, Shivalika; Maheshwary, Rishabh; Altomare, Micol; Mohamed A. Haggag; A, Snegha; Amayuelas, Alfonso; Amirudin, Azril Hafizi; Aryabumi, Viraat; Boiko, Danylo; Chang, Michael; Chim, Jenny; Cohen, Gal; Dalmia, Aditya Kumar; Diress, Abraham; Duwal, Sharad; Dzenhaliou, Daniil; Florez, Daniel Fernando Erazo; Farestam, Fabian; Imperial, Joseph Marvin; Islam, Shayekh Bin; Isotalo, Perttu; Jabbarishiviari, Maral; Börje F. Karlsson; Khalilov, Eldar; Klamm, Christopher; Koto, Fajri; Krzemiński, Dominik; Melo, Gabriel Adriano de; Montariol, Syrielle; Nan, Yiyang; Niklaus, Joel; Novikova, Jekaterina; Ceron, Johan Samir Obando; Paul, Debjit; Ploeger, Esther; Purbey, Jebish; Rajwal, Swati; Ravi, Selvan Sunitha; Rydell, Sara; Santhosh, Roshan; Sharma, Drishti; Skenduli, Marjana Prifti; Moakhar, Arshia Soltani; Moakhar, Bardia Soltani; Tamir, Ran; Tarun, Ayush Kumar; Wasi, Azmine Toushik; Weerasinghe, Thenuka Ovin; Yilmaz, Serhan; Zhang, Mike; Schlag, Imanol; Fadaee, Marzieh; Hooker, Sara; Bosselut, Antoine"
@@ -49,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2411.19799"
 external_pdf: "https://arxiv.org/pdf/2411.19799.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Romanou-INCLUDE Evaluating Multilingual Language Understanding with Regional.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "Islam"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, Llama-3, Aya, Qwen-2, Mistral, Gemma"
 DATA_URL: "https://huggingface.co/datasets/CohereForAI/include-base-44"
 tags: 
 abstract: "The performance differential of large language models (LLM) between languages hinders their effective deployment in many regions, inhibiting the potential economic and societal value of generative AI tools in many communities. However, the development of functional LLMs in many languages (i.e., multilingual LLMs) is bottlenecked by the lack of high-quality evaluation resources in languages other than English."
 ethics_perspective: "Social & Cultural Values"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -59,9 +19,9 @@ CONF-CC: "AI and Ethics"
 pdf_extract: "PDF Extracts/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ray-Incorporating indigenous knowledge systems into AI governance.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -86,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "This paper addresses a significant gap in AI governance by examining the limitations of Western-centric ethical frame­ works through a comparative analysis of Māori Kaitiakitanga and Navajo Hózhó principles. While prior research empha­ sizes the role of Indigenous knowledge in AI, this study provides a concrete framework for integrating these principles into AI governance. The study proposes culturally relevant AI governance frameworks by highlighting the unique contribu­ tions of each..."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -107,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 50
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

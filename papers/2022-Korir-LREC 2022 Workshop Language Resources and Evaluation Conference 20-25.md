@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,21 +6,21 @@ Not AI:
 key: LSRC0802
 type: conferencePaper
 short_title: "LREC 2022 Workshop Language Resources and Evaluation Conference 20-25 June 2022"
-year: 2022
+year: 2025
 first_author: "[[Kiplangat Korir]]"
 last_author: "[[Kiplangat Korir]]"
 authors: "Kiplangat Korir"
 url: "https://aclanthology.org/2022.cltw-1.pdf"
 external_pdf: "https://aclanthology.org/2022.cltw-1.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Korir-LREC 2022 Workshop Language Resources and Evaluation Conference 20-25.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "Irish, Welsh"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "T5"
+LLM_assessed: T5
 DATA_URL: "https://github.com/CorCenCC/CyTag"
 tags: 
 abstract: "Based on the search results, I found substantial information about Celtic language NLP benchmarks and evaluation efforts: Overview of Celtic Language NLP Research Celtic languages have historically lagged behind in the area of natural language processing (NLP) and machine translation (MT), but this has been changing in recent years. Key Benchmarking and Evaluation Efforts Multilingual AMR Parsing: Researchers have created a multilingual text-to-AMR model for three Celtic languages—W"
 CONFERENCE: "ACL 2022"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---

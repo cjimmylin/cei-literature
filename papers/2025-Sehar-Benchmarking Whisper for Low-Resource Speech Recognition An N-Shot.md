@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +9,7 @@ short_title: "Benchmarking Whisper for Low-Resource Speech Recognition: An N-Sho
 year: 2025
 first_author: "[[Najm Ul Sehar]]"
 last_author: "[[Sarmad Hussain]]"
-authors: Najm Ul Sehar; Ayesha Khalid; Farah Adeeba; Sarmad Hussain
+authors: "Najm Ul Sehar; Ayesha Khalid; Farah Adeeba; Sarmad Hussain"
 url: "https://aclanthology.org/2025.chipsal-1.20/"
 external_pdf: "https://aclanthology.org/2025.chipsal-1.20.pdf"
 publication: "CHiPSAL 2025 Workshop (ACL)"
@@ -55,10 +17,10 @@ CONF-CC: "ACL 2025 Workshop"
 pdf_extract: "PDF Extracts/2025/2025-Sehar-Benchmarking Whisper for Low-Resource Speech Recognition An N-Shot.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sehar-Benchmarking Whisper for Low-Resource Speech Recognition An N-Shot.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "Pashto, Punjabi, Urdu"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,20 +44,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "Whisper"
-DATA_URL: "NA"
+LLM_assessed: Whisper
+DATA_URL: NA
 tags: 
 abstract: "Whisper, a large-scale multilingual model, has demonstrated strong performance in speech recognition benchmarks, but its effectiveness on low-resource languages remains underexplored. This paper evaluates Whisper’s performance on Pashto, Punjabi, and Urdu, three underrepresented languages. While Automatic Speech Recognition (ASR) has advanced for widely spoken languages, low-resource languages still face challenges due to limited data."
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -103,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PK"
+author_country: PK
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Benchmarking Whisper for Low-Resource Speech Recognition: An N-Shot Evaluation on Pashto, Punjabi, and Urdu

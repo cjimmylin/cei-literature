@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,10 +13,10 @@ authors: "Sahan Hatemo; Christof Weickhardt; Luca Gisler; Oliver Bendel"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/F8XQ7HNN/Hatemo et al. - Revisiting the Trolley Problem for AI Biases and Stereotypes in Large Language Models and their Imp.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hatemo-Revisiting the Trolley Problem for AI.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 100
@@ -84,12 +46,12 @@ key_contribution: "Investigated ethical reasoning in LLaMA, Mistral, and Qwen us
 significance: "Found significant biases in model decisions based on nationality, and distinct 'moral personalities' (e.g., Mistral's tendency to intervene vs. Qwen's passivity), revealing the brittleness of current alignment."
 tags: 
 abstract: "The trolley problem has long served as a lens for exploring moral decision-making, now gaining renewed significance in the context of artificial intelligence (AI). This study investigates ethical reasoning in three open-source large language models (LLMs)—LLaMA, Mistral and Qwen—through variants of the trolley problem. By introducing demographic prompts (age, nationality and gender) into three scenarios (switch, loop and footbridge), we systematically evaluate LLM responses against human survey..."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260129
 LLM_assessed: "Llama-3, Mistral, Qwen"
 DATA_URL: "https://shorturl.at/u2h3K"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,13 +9,13 @@ short_title: "Ethical aspects of ChatGPT"
 year: 2025
 first_author: "[[Marc Steen]]"
 last_author: "[[Cor Veenman]]"
-authors: Marc Steen; Joachim de Greeff; Maaike de Boer; Cor Veenman
+authors: "Marc Steen; Joachim de Greeff; Maaike de Boer; Cor Veenman"
 doi: 10.1007/s43681-024-00571-x
 url: "https://doi.org/10.1007/s43681-024-00571-x"
 external_pdf: N/A
-national_ethnic_cultural: "Dutch"
-cultures_nationalities_list: "Dutch"
-languages_list: ""
+national_ethnic_cultural: Dutch
+cultures_nationalities_list: Dutch
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
@@ -72,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism"
 key_contribution: "Evaluates ChatGPT using EU 'trustworthy AI' requirements through 4 ethical lenses: consequentialism, deontology, relational, and virtue ethics"
 significance: "Argues that virtue ethics (character/wisdom) is essential alongside deontology/utilitarianism for evaluating conversational agents"
@@ -84,8 +52,8 @@ DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Steen-Ethical aspects of ChatGPT.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Steen-Ethical aspects of ChatGPT.pdf]]"
 ethics_perspective: "General Ethics"
-CONFERENCE: "Journal"
-ethics_overall: 80
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 80
 deontological_ethics: 20
 utilitarian_ethics: 60
@@ -98,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NL"
+author_country: NL
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

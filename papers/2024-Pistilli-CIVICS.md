@@ -6,17 +6,17 @@ Not AI:
 key: YCTS2U3I
 type: conferencePaper
 short_title: CIVICS
-year: 2024
+year: 2025
 first_author: "[[Giada Pistilli]]"
 last_author: "[[Margaret Mitchell]]"
 authors: "Giada Pistilli; Alina Leidinger; Yacine Jernite; Atoosa Kasirzadeh; Alexandra Sasha Luccioni; Margaret Mitchell"
 doi: 10.1609/aies.v7i1.31710
 url: "https://ojs.aaai.org/index.php/AIES/article/view/31710"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/4LU2FNH5/Pistilli et al. - 2024 - CIVICS Building a Dataset for Examining Culturally-Informed Values in Large Language Models.pdf"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: "English, French, German, Italian, Turkish"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 50
@@ -51,9 +51,9 @@ DATE_ADDED: 20260208
 LLM_assessed: "Command-R, DeepSeek, Gemma, Llama-3, Mistral, Qwen-1.5"
 DATA_URL: "https://huggingface.co/CIVICS-dataset"
 pdf_extract: "PDF Extracts/2024/2024-Pistilli-CIVICS.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Pistilli-CIVICS.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Pistilli-CIVICS.pdf]]
 CONFERENCE: "AAAI 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models

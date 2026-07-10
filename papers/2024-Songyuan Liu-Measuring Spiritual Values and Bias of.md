@@ -1,48 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +6,7 @@ Not AI:
 key: EXSR0509
 type: preprint
 short_title: "Measuring Spiritual Values and Bias of"
-year: 2024
+year: 2025
 first_author: "[[Songyuan Liu,]]"
 last_author: "[[5 others]]"
 authors: "Songyuan Liu,; 5 others"
@@ -60,11 +16,11 @@ external_pdf: "https://arxiv.org/pdf/2410.11647.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Songyuan Liu-Measuring Spiritual Values and Bias of.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 100
@@ -89,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) have become integral tool for users from various backgrounds. Pre-trained on vast corpora, LLMs reflect the linguistic and cultural nuances embedded in their training data. However, the values and perspectives inherent in this data can influence the behavior of LLMs, leading to potential biases. As a result, the use of LLMs in contexts involving spiritual or moral values necessitates careful consideration of these underlying biases."
 LLM_assessed: "ChatGLM, GPT-4, Gemma, Llama-2, Llama-3, MPT, Mistral, Phi-3, Qwen-1.5, Vicuna"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 80
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -110,13 +66,13 @@ nw_buddhist: 40
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

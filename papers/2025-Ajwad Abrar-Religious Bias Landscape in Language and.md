@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,19 +9,19 @@ short_title: "Religious Bias Landscape in Language and"
 year: 2025
 first_author: "[[Ajwad Abrar,]]"
 last_author: "[[Ajwad Abrar]]"
-authors: Ajwad Abrar
+authors: "Ajwad Abrar"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.08441"
 external_pdf: "https://arxiv.org/pdf/2501.08441.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ajwad Abrar-Religious Bias Landscape in Language and.pdf]]"
 publication: "AI & Society (Springer) / arXiv"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 40
 rv_christianity: 5
 rv_buddhism: 15
@@ -78,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Note: This paper includes examples of potentially offensive content related to religious bias, presented solely for academic purposes. The widespread adoption of language models highlights the need for critical examinations of their inherent biases, particularly concerning religion. This study systematically investigates religious bias in both language models and text-to-image generation models, analyzing both opensource and closed-source systems."
 LLM_assessed: "ALBERT, BERT, GPT-2, GPT-3.5, GPT-4, Llama-3, Mixtral, RoBERTa, Vicuna"
 DATA_URL: "https://github.com/ajwad-abrar/Religious-Bias"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +66,13 @@ nw_buddhist: 15
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BD"
+author_country: BD
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

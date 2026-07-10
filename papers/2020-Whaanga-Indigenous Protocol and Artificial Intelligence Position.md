@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0616
 type: preprint
 short_title: "Indigenous Protocol and Artificial Intelligence Position"
-year: 2020
+year: 2025
 first_author: "[[Jason Edward Lewis]]"
 last_author: "[[Hemi Whaanga]]"
-authors: Jason Edward Lewis; Angie Abdilla; Noelani Arista; Kaipulaumakaniolono Baker; Scott Benesiinaabandan; Michelle Bohan Brown; Melanie Cheung; Meredith Coleman; Ashley Cordes; Joel Davison; Kupono Duncan; Sergio Garzon; D. Fox Harrell; Peter-Lucas Jones; Kekuhi Kealiikanakaoleohaililani; Megan Kelleher; Suzanne Kite; Olin Lagon; Jason Leigh; Maroussia Levesque; Keoni Mahelona; Caleb Moses; Isaac Nahuewai; Kari Noe; Danielle Marie Olson; Oiwi Parker Jones; Caroline Running Wolf; Michael Running Wolf; Marlee Silva; Skawennati Fragnito; Hemi Whaanga
+authors: "Jason Edward Lewis; Angie Abdilla; Noelani Arista; Kaipulaumakaniolono Baker; Scott Benesiinaabandan; Michelle Bohan Brown; Melanie Cheung; Meredith Coleman; Ashley Cordes; Joel Davison; Kupono Duncan; Sergio Garzon; D. Fox Harrell; Peter-Lucas Jones; Kekuhi Kealiikanakaoleohaililani; Megan Kelleher; Suzanne Kite; Olin Lagon; Jason Leigh; Maroussia Levesque; Keoni Mahelona; Caleb Moses; Isaac Nahuewai; Kari Noe; Danielle Marie Olson; Oiwi Parker Jones; Caroline Running Wolf; Michael Running Wolf; Marlee Silva; Skawennati Fragnito; Hemi Whaanga"
 authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.11573/spectrum.library.concordia.ca.00986506"
@@ -59,11 +21,11 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://doi.org/10.11573/spectrum.library.concordia.ca.00986506"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "The Indigenous Protocol and Artificial Intelligence Working Group / CIFAR"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -88,15 +50,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "This foundational position paper, written by a large consortium of Indigenous scholars from Aotearoa, Australia, North America, and the Pacific, provides guidelines for developing AI systems aligned with Indigenous perspectives on what it means to live a good life. It includes design guidelines, scholarly essays, artworks, and descriptions of technology prototypes including Hua Ki'i (an ethical Indigenous object-recognition AI). While not a benchmark per se, it defines the ethical space within which all Indigenous AI benchmarks should operate."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://www.indigenous-ai.net/position-paper/"
-research_topic: "Other"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+research_topic: Other
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -110,13 +72,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 25
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

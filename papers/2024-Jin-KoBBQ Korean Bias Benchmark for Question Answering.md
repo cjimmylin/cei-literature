@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: LSRC0239
 type: preprint
 short_title: "KoBBQ: Korean Bias Benchmark for Question Answering"
-year: 2024
+year: 2025
 first_author: "[[Jiho Jin]]"
 last_author: "[[Mark Hasegawa-Johnson]]"
-authors: Jiho Jin; Jiseon Kim; Nayeon Lee; Haneul Yoo; Alice Oh; Mark Hasegawa-Johnson
+authors: "Jiho Jin; Jiseon Kim; Nayeon Lee; Haneul Yoo; Alice Oh; Mark Hasegawa-Johnson"
 doi: 10.1162/tacl_a_00661
 url: "https://arxiv.org/abs/2307.16778"
 external_pdf: "https://arxiv.org/pdf/2307.16778.pdf"
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jin-KoBBQ Korean Bias Benchmark for Q
 publication: "arXiv / TACL 2024"
 CONF-CC: "TACL 2024"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Korean"
-religious_values: "Christianity"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
+languages_list: Korean
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude, Claude-2, CLOVA-X, GPT-3.5, GPT-4, KoAlpaca"
 DATA_URL: "https://jinjh0123.github.io/KoBBQ"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. The Bias Benchmark for Question Answering (BBQ) is designed to evaluate social biases of language models (LMs), but it is not simple to adapt this benchmark to cultural contexts other than the US because social biases depend heavily on the cultural context. In this paper, we present KoBBQ, a Korean bias benchmark dataset, and we propose a general framework that addresses considerations for cultural adaptation of a dataset."
-CONFERENCE: "Preprint"
-ethics_overall: 65
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "76,048 samples; 12 categories"
 ---

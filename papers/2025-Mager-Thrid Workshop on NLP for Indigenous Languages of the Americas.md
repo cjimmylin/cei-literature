@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,13 +14,13 @@ authors_incomplete: false
 url: "https://turing.iimas.unam.mx/americasnlp/"
 external_pdf: "https://turing.iimas.unam.mx/americasnlp/AmericasNLP_Call_2025.pdf"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mager-Thrid Workshop on NLP for Indigenous Languages of the Americas.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
-languages_list: "Multilingual"
+languages_list: Multilingual
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a"
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "MX"
+author_country: MX
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 45
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

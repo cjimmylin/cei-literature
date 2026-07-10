@@ -6,7 +6,7 @@ Not AI:
 key: YGTGWQSZ
 type: preprint
 short_title: "Can Machines Learn Morality?"
-year: 2022
+year: 2025
 first_author: "[[Liwei Jiang]]"
 last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Jena D. Hwang; Chandra Bhagavatula; Ronan Le Bras; Jenny Liang; Jesse Dodge; Keisuke Sakaguchi; Maxwell Forbes; Jon Borchardt; Saadia Gabriel; Yulia Tsvetkov; Oren Etzioni; Maarten Sap; Regina Rini; Yejin Choi"
@@ -14,10 +14,10 @@ doi: 10.48550/arXiv.2110.07574
 tags: 
 url: "http://arxiv.org/abs/2110.07574"
 external_pdf: "http://arxiv.org/pdf/2110.07574.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -49,12 +49,12 @@ pdf_extract: "PDF Extracts/2022/2022-Jiang-Can Machines Learn Morality.md"
 abstract: "As AI systems become increasingly powerful and pervasive, there are growing concerns about machines’ morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality remains among the most intensely debated questions in humanity, let alone for AI. Existing AI systems deployed to millions of users, however, are already making decisions loaded with moral implications, which poses a seemingly impossible challenge: teaching machines moral sense, while humanity..."
 paper_summary: "Abstract: As AI systems become increasingly powerful and pervasive, there are growing concerns about machines' morality or a lack thereof. Yet, teaching morality to machines is a formidable task, as morality re | Overview: CAN MACHINES LEARN MORALITY? THE Delphi EXPERIMENT Liwei Jiang♣♡Jena D. Hwang♡Chandra Bhagavatula♡Ronan Le Bras♡Jenny Liang♡ Jesse Dodge♡Keisuke Sakaguchi♡Maxwell Forbes♣Jon Borchardt♡Saadia Gabriel♣  | Methodology: would force scientists to impose their own value choices and principles in the system they build, which is not an appropriate social role for scientis | Key Findings: 43 Appendix F Examples from the ETHICS Benchmark 43 Appendix G Probing with Universal Declaration of Human Rights 43 Appendix H Fortifying Delphi agai"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jiang-Can Machines Learn Morality.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, T5"
 DATA_URL: "https://delphi.allenai.org"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -68,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Can Machines Learn Morality? The Delphi Experiment

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: E8RK3MIE
 type: conferencePaper
 short_title: "A Voting-Based System for Ethical Decision Making"
-year: 2018
+year: 2025
 first_author: "[[Ritesh Noothigattu]]"
 last_author: "[[Ariel D. Procaccia]]"
 authors: "Ritesh Noothigattu; Snehalkumar 'Neil' S. Gaikwad; Edmond Awad; Sohan Dsouza; Iyad Rahwan; Pradeep Ravikumar; Ariel D. Procaccia"
@@ -53,10 +15,10 @@ url: "http://arxiv.org/abs/1709.06692"
 external_pdf: "http://arxiv.org/pdf/1709.06692.pdf"
 publication: "Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence (AAAI-18)"
 CONF-CC: "AAAI 2018"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -90,10 +52,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Noothigattu-A Voting-Based System for
 abstract: "We present a general approach to automating ethical decisions, drawing on machine learning and computational social choice. In a nutshell, we propose to learn a model of societal preferences, and, when faced with a speciﬁc ethical dilemma at runtime, eﬃciently aggregate those preferences to identify a desirable choice. We provide a concrete algorithm that instantiates our approach; some of its crucial steps are informed by a new theory of swap-dominance eﬃcient voting rules."
 paper_summary: "Abstract: We present a general approach to automating ethical decisions, drawing on machine learning and computational social choice. In a nutshell, we propose to learn a model of societal prefer- ences, and, w | Overview: A Voting-Based System for Ethical Decision Making Ritesh Noothigattu1, Snehalkumar 'Neil' S. Gaikwad2, Edmond Awad2, Sohan Dsouza2, Iyad Rahwan2, Pradeep Ravikumar1, and Ariel D. Procaccia1 1School of | Methodology: In this section, we instantiate our approach for ethical decision making, as outlined in Section 1. In order to present a concrete algorithm, we consi | Key Findings: In this section, we implement the algorithm presented in Section 5, and empirically evaluate it. We start with an implementation on synthetic data, wh | Conclusions: The design of intelligent machines that can make ethical decisions is, arguably, one of the hardest challenges in AI. We do believe that our approach"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "AAAI 2018"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -107,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

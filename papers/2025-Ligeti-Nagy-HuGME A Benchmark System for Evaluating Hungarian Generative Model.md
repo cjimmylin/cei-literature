@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,18 +9,17 @@ short_title: "HuGME: A Benchmark System for Evaluating Hungarian Generative Mode
 year: 2025
 first_author: "[[Ligeti-Nagy, Noemi]]"
 last_author: "[[Gabor Proszeky]]"
-authors: Noemi Ligeti-Nagy; Gabor Madarasz; Flora Foldesi; Mariann Lengyel; Matyas Osvath; Bence Sarossy; Kristof Varga; Gyozo Zijian Yang; Eniko Heja; Tamas Varadi; Gabor Proszeky
+authors: "Noemi Ligeti-Nagy; Gabor Madarasz; Flora Foldesi; Mariann Lengyel; Matyas Osvath; Bence Sarossy; Kristof Varga; Gyozo Zijian Yang; Eniko Heja; Tamas Varadi; Gabor Proszeky"
 url: "https://aclanthology.org/2025.gem-1.32.pdf"
-publication: ACL Anthology
-CONF-CC: "N/A"
+publication: "ACL Anthology"
+CONF-CC: N/A
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ligeti-Nagy-HuGME A Benchmark System for Evaluating Hungarian Generative Model.md"
-"N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Hungarian"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Hungarian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4, GPT-3.5, Claude, Llama-2, Llama-3"
 DATA_URL: "https://hugme.nytud.hu/"
@@ -87,7 +51,7 @@ tags:
 abstract: "First benchmark system dedicated to testing Hungarian LLMs covering linguistic proficiency, cultural & contextual understanding, and ethical considerations including bias and toxicity. Uses LLM-as-a-judge with six manually curated datasets. Presented at GEM Workshop at ACL 2025."
 research_topic: "Machine Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

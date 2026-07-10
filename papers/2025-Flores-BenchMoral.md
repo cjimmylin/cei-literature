@@ -12,10 +12,10 @@ last_author: "[[Félix B. A. Flores]]"
 authors: "Félix B. A. Flores"
 url: "https://forum.effectivealtruism.org/posts/eTEtMc2d38GDZZ8ke/benchmoral-a-benchmarking-to-assess-the-moral-sensitivity-of"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PC7NWK8G/BenchMoral_ A benchmarking to assess the moral sensitivity of large language models (LLMs) in Spanish. — EA Forum.pdf"
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
+national_ethnic_cultural: Spanish
+cultures_nationalities_list: Spanish
+languages_list: Spanish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -30,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -48,12 +48,12 @@ abstract: "BenchMoral is a benchmark designed to evaluate the moral sensitivity 
 LLM_assessed: "ChatGPT, DeepSeek, GPT-4o mini, Llama-3"
 DATA_URL: "https://docs.google.com/spreadsheets/d/1dPWRAcyXpdw1xZst77CrwrqOCr8UBNtB2XO3AKgeNqI/edit?usp=sharing"
 pdf_extract: "PDF Extracts/2025/2025-Flores-BenchMoral.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Flores-BenchMoral.pdf]]"
-publication: EA Forum
-CONF-CC: "N/A"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Flores-BenchMoral.pdf]]
+publication: "EA Forum"
+CONF-CC: N/A
 DATE_ADDED: 20260213
-CONFERENCE: "Unknown"
-ethics_overall: 100
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 30
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

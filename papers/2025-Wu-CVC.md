@@ -14,14 +14,14 @@ doi: 10.48550/arXiv.2506.01495
 tags: 
 url: "http://arxiv.org/abs/2506.01495"
 pdf_extract: "PDF Extracts/2025/2025-Wu-CVC.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-CVC.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-CVC.pdf]]
 external_pdf: "http://arxiv.org/pdf/2506.01495.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "Confucianism"
+CONF-CC: Preprint
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Confucianism"
+religious_values_list: Confucianism
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -55,7 +55,7 @@ LLM_assessed: "Claude, DeepSeek, Gemini, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/datasets/Beijing-AISI/C-VARC"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -68,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 38
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus"
 data_metrics: "Not specified"
 ---

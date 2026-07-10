@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,16 +6,16 @@ Not AI:
 key: L2DU2UQX
 type: conferencePaper
 short_title: "Amharic Hate Speech Dataset"
-year: 2023
+year: 2025
 first_author: "[[Abinet Ayele]]"
 last_author: "[[Chris Biemann]]"
 authors: "Abinet Ayele; Seid Muhie Yimam; Yaregal Assabie Belay; Moges Asfaw; Chris Biemann"
 url: "https://aclanthology.org/2023.ranlp-1.6/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/UZ25W9FY/Ayele et al. - 2023 - Amharic Hate Speech Dataset.pdf"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: "Amharic"
-religious_values: "N/A"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: Amharic
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "African/Ubuntu, Toxicity & Hate Speech"
 key_contribution: "Created the first large-scale annotated hate speech dataset (15k tweets) for Amharic and benchmarked baseline models (AmFLAIR)."
 significance: "Addresses the critical lack of safety resources for Amharic (Ethiopia), enabling the development of content moderation tools for a low-resource language with significant online conflict."
 tags: 
 abstract: "In this paper, we present a study of efficient data selection and annotation strategies for Amharic hate speech. We also build various classification models and investigate the challenges of hate speech data selection, annotation, and classification for the Amharic language. From a total of over 18 million tweets in our Twitter corpus, 15.1k tweets are annotated by two independent native speakers, and a Cohen’s kappa score of 0.48 is achieved."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: RoBERTa
 DATA_URL: "https://github.com/uhh-lt/AmharicHateSpeech"
 pdf_extract: "PDF Extracts/2023/2023-Ayele-Amharic Hate Speech Dataset.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ayele-Amharic Hate Speech Dataset.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "15.1k tweets"
 ---

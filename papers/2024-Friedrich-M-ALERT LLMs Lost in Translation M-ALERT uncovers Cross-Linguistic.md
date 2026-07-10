@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +6,21 @@ Not AI:
 key: LSRC0433
 type: preprint
 short_title: "M-ALERT: LLMs Lost in Translation: M-ALERT uncovers Cross-Linguistic Safety Inconsistencies"
-year: 2024
+year: 2025
 first_author: "[[Felix Friedrich]]"
 last_author: "[[Kristian Kersting]]"
-authors: Felix Friedrich; Simone Teber; Patrick Schramowski; Manuel Brack; Kristian Kersting
+authors: "Felix Friedrich; Simone Teber; Patrick Schramowski; Manuel Brack; Kristian Kersting"
 url: "https://arxiv.org/abs/2412.15035"
 external_pdf: "https://arxiv.org/pdf/2412.15035.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Friedrich-M-ALERT LLMs Lost in Translation M-ALERT uncovers Cross-Linguistic.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "French, German, Italian, Spanish"
 cultures_nationalities_list: "French, German, Italian, Spanish"
 languages_list: "English, French, German, Italian, Spanish"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Aya-23, Aya-Expanse, Command R, GPT-4o, Gemini, Gemma-2, Llama-3, Mistral-Small, QwQ-32B"
 DATA_URL: "https://huggingface.co/datasets/felfri/M-ALERT"
 tags: 
 abstract: "Building safe Large Language Models (LLMs) across multiple languages is essential in ensuring both safe access and linguistic diversity. To this end, we conduct a large-scale, comprehensive safety evaluation of the current LLM landscape. For this purpose, we introduce M-ALERT, a multilingual benchmark that evaluates the safety of LLMs in five languages: English, French, German, Italian, and Spanish."
-CONFERENCE: "Preprint"
-ethics_overall: 70
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
 ---

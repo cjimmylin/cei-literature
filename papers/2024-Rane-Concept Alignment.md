@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: ICKIA82Q
 type: conferencePaper
 short_title: "Concept Alignment"
-year: 2024
+year: 2025
 first_author: "[[Sunayana Rane]]"
 last_author: "[[Thomas L. Griffiths]]"
 authors: "Rane, Sunayana; Polyphony J. Bruna; Sucholutsky, Ilia; Kello, Christopher; Thomas L. Griffiths"
@@ -51,11 +16,11 @@ pdf_extract: "PDF Extracts/2024/2024-Rane-Concept Alignment.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rane-Concept Alignment.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.08672.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Argues that 'concept alignment' (shared conceptual ontology) is a prerequisite for value alignment, preventing 'verbal' agreement masking deep misalignment"
 significance: "Shifts focus from high-level ethical rules to the lower-level conceptual structures required for agents to meaningfully understand those rules"
@@ -88,9 +53,9 @@ abstract: "Discussion of AI alignment (alignment between humans and AI systems) 
 paper_summary: "Abstract: Discussion of AI alignment (alignment between humans and AI systems) has fo- cused on value alignment, broadly referring to creating AI systems that share human values. We argue that before we can eve | Overview: arXiv:2401.08672v1 [cs.LG] 9 Jan 2024 Concept Alignment Sunayana Rane ∗ Department of Computer Science Princeton University Princeton, NJ 08540 srane@princeton.edu Polyphony J. Bruna ∗ Department of C"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

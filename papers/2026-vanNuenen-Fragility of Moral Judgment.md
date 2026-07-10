@@ -2,14 +2,14 @@
 key: EXSR0690
 type: preprint
 short_title: "The Fragility of Moral Judgment in Large Language Models"
-year: 2026
+year: 2025
 first_author: "[[van Nuenen]]"
 authors: "van Nuenen; Sachdeva"
 url: "https://arxiv.org/abs/2603.05651"
 abstract: "2,939 dilemmas from r/AmItheAsshole. 3 perturbation families: surface edits (7.5% flip), POV shifts (24.3% flip), persuasion cues. Protocol choice dominates (only 67.6% agreement). Tests dual-process-adjacent stability. 4 models (GPT-4.1, Claude 3.7, DeepSeek V3, Qwen2.5-72B), 129K judgments."
-external_pdf: ""
-DOI: ""
-ethics_overall: 60
+external_pdf: 
+DOI: 
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: ""
+religious_values_list: 
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -45,12 +45,12 @@ mp_maqasid: 0
 mp_confucian: 0
 mp_ubuntu: 0
 moral_psychology: "Dual Process Theory"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-LLM_assessed: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+LLM_assessed: No
 newtags: "moral-psychology, external-search-v2"
-source: "moral-psych-external-search-v2"
+source: moral-psych-external-search-v2
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0

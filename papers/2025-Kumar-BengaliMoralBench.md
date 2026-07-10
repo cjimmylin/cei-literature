@@ -1,56 +1,25 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: EXSR0135
 type: conferencePaper
-short_title: "BengaliMoralBench"
+short_title: BengaliMoralBench
 year: 2025
 first_author: "[[Shivani Kumar]]"
 last_author: "[[David Jurgens]]"
-authors: Shivani Kumar; David Jurgens
+authors: "Shivani Kumar; David Jurgens"
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 external_pdf: "https://arxiv.org/pdf/2511.03180.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kumar-UniMoral ACL 2025 Best Resource Paper.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "Bengali, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "As multilingual Large Language Models (LLMs) gain traction across South Asia, their alignment with local ethical norms, particularly for Bengali, which is spoken by over 285 million people and ranked 6th globally, remains underexplored. Existing ethics benchmarks are largely English-centric and shaped by Western frameworks, overlooking cultural nuances critical for real-world deployment. To address this, we introduce BengaliMoralBench, the first large-scale ethics benchmark for the Bengali..."
@@ -82,7 +51,7 @@ research_topic: Other
 LLM_assessed: "DeepSeek, Gemma, Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/ciol-research/BengaliMoralBench"
 CONFERENCE: "ACL 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -95,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,19 +9,19 @@ short_title: "Vedanta Datasets"
 year: 2025
 first_author: "[[project), Atmabodha (community]]"
 last_author: "[[Atmabodha (community project)]]"
-authors: Atmabodha (community project)
+authors: "Atmabodha (community project)"
 authors_incomplete: false
 url: 
 external_pdf: 
 pdf_extract: "PDF Extracts/0000/0000-project-Vedanta Datasets.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/0000/0000-project-Vedanta Datasets.pdf]]"
 publication: GitHub
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Sanskrit"
-religious_values: "Hinduism"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Sanskrit
+religious_values: Hinduism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Hinduism"
+religious_values_list: Hinduism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,20 +45,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "> Repository of datasets from Vedantic texts formatted for ML analysis. Useful for Hindu philosophical text classification and evaluation."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/atmabodha/Vedanta_Datasets"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 35
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

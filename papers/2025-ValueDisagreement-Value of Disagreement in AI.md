@@ -3,14 +3,14 @@ key: EXSR0708
 type: conferencePaper
 short_title: "The Value of Disagreement in AI Design, Evaluation, and Alignment"
 year: 2025
-first_author: "[[Unknown]]"
-authors: "Unknown"
+first_author: [[Unknown]]
+authors: Unknown
 url: "https://dl.acm.org/doi/10.1145/3715275.3732146"
 publication_title: "FAccT 2025"
 abstract: "Examines disagreement as productive for AI design and evaluation. FAccT paper on value pluralism in alignment."
-external_pdf: ""
-DOI: "10.1145/3715275.3732146"
-ethics_overall: 40
+external_pdf: 
+DOI: 10.1145/3715275.3732146
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: ""
+religious_values_list: 
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -45,12 +45,12 @@ mp_maqasid: 0
 mp_confucian: 0
 mp_ubuntu: 0
 moral_psychology: N/A
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-LLM_assessed: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+LLM_assessed: No
 newtags: "moral-psychology, external-search-v2, moral-pluralism"
-source: "moral-psych-external-search-v2"
+source: moral-psych-external-search-v2
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0

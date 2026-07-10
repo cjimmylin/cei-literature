@@ -1,38 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,21 +6,21 @@ Not AI:
 key: CULT0111
 type: preprint
 short_title: "Maori Algorithmic Sovereignty: Idea, Principles, and Use"
-year: 2024
+year: 2025
 first_author: "[[Paul T. Brown]]"
 last_author: "[[Te Taka Keegan]]"
-authors: Paul T. Brown; Daniel Wilson; Kiri West; Kirita-Rose Escott; Kiya Basabas; Ben Ritchie; Danielle Lucas; Ivy Taia; Natalie Kusabs; Te Taka Keegan
+authors: "Paul T. Brown; Daniel Wilson; Kiri West; Kirita-Rose Escott; Kiya Basabas; Ben Ritchie; Danielle Lucas; Ivy Taia; Natalie Kusabs; Te Taka Keegan"
 doi: 10.5334/dsj-2024-015
 url: "https://datascience.codata.org/articles/10.5334/dsj-2024-015"
 external_pdf: "https://arxiv.org/pdf/2311.15473.pdf"
-publication: Data Science Journal / arXiv
-CONF-CC: "Preprint"
+publication: "Data Science Journal / arXiv"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Brown-Maori Algorithmic Sovereignty Idea Principles and Use.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Australian/Aboriginal"
-cultures_nationalities_list: "Australian/Aboriginal"
-languages_list: ""
+national_ethnic_cultural: Australian/Aboriginal
+cultures_nationalities_list: Australian/Aboriginal
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -79,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Due to the emergence of data-driven technologies in Aotearoa New Zealand that use Māori data, there is a need for values-based frameworks to guide thinking around balancing the tension between the opportunities these create, and the inherent risks that these technologies can impose. Algorithms can be framed as a particular use of data, therefore data frameworks that currently exist can be extended to include algorithms."
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 0
-author_country: "NZ"
-author_region: "Oceania"
+author_country: NZ
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Maori Algorithmic Sovereignty: Idea, Principles, and Use

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: EXSR0206
 type: conferencePaper
 short_title: "On the Pros and Cons of Active Learning for Moral Preference Elicitation"
-year: 2024
+year: 2025
 first_author: "[[Vijay Keswani]]"
 last_author: "[[Walter Sinnott-Armstrong]]"
 authors: "Vijay Keswani; Vincent Conitzer; Hoda Heidari; Jana Schaich Borg; Walter Sinnott-Armstrong"
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Keswani-On the Pros and Cons of Activ
 publication: "AIES 2024"
 CONF-CC: "AIES 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -87,10 +49,10 @@ moral_psychology: "Trolley / Dilemmas (Psych)"
 newtags: 
 tags: 
 abstract: "Computational preference elicitation methods are tools used to learn people’s preferences quantitatively in a given context. Recent works on preference elicitation advocate for active learning as an efficient method to iteratively construct queries (framed as comparisons between context-specific cases) that are likely to be most informative about an agent’s underlying preferences. In this work, we argue that the use of active learning for moral preference elicitation relies on certain..."
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "AIES 2024"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # On the Pros and Cons of Active Learning for Moral Preference Elicitation

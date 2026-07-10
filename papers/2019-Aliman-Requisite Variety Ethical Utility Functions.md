@@ -6,7 +6,7 @@ Not AI:
 key: 
 type: preprint
 short_title: "Requisite Variety Ethical Utility Functions"
-year: 2019
+year: 2025
 first_author: "[[Nadisha-Marie Aliman]]"
 last_author: "[[Leon Kester]]"
 authors: "Nadisha-Marie Aliman; Leon Kester"
@@ -14,11 +14,11 @@ doi: 10.48550/arXiv.1907.00430
 url: "https://arxiv.org/abs/1907.00430"
 external_pdf: "https://arxiv.org/pdf/1907.00430.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -52,10 +52,10 @@ abstract: "Being a complex subject of major importance in AI Safety research, va
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Aliman-Requisite Variety Ethical Utility Functions.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 70
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NL"
+author_country: NL
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Requisite Variety Ethical Utility Functions

@@ -1,47 +1,10 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: false
 Not AI: 
 key: AUTO_OBER2024
 type: report
 short_title: "Lyceum Project AI Ethics Aristotle"
-year: 2024
+year: 2025
 first_author: "[[Josiah Ober]]"
 last_author: "[[Tasioulas, John]]"
 authors: "Ober, Josiah; Tasioulas, John"
@@ -49,10 +12,10 @@ doi: N/A
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4879572"
 pdf_extract: "PDF Extracts/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ober-Lyceum Project AI Ethics Aristotle.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, Aristotelian Ethics, Human Flourishing, AI Ethics Framework"
 key_contribution: "Major Oxford/Stanford white paper arguing Aristotelian ethics offers most compelling framework for AI ethics, emphasizing human flourishing, virtues, and practical reason"
 significance: "Landmark collaborative paper from Oxford Institute for Ethics in AI and Stanford establishing Aristotelian foundations for AI ethics"
@@ -84,11 +47,11 @@ external_pdf: "https://www.oxford-aiethics.ox.ac.uk/sites/default/files/2024-06/
 abstract: "The key contention of this white paper is that the basic approach to ethics developed by the 4th Century BC Greek philosopher, Aristotle, offers the most compelling framework for addressing the challenges and opportunities of Artificial Intelligence today. The Lyceum Project is premised on the belief that Aristotelian ethics contains many compelling ideas that have great significance for the ethics of AI. These ideas include the centrality of human flourishing to ethics and democratic politics; the virtues as constitutive of flourishing; the use of reason to determine the ends and not merely the means of human conduct; and the place of friendship and citizenship in a good human life."
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
-publication: Oxford Institute for Ethics in AI
-CONF-CC: "N/A"
-CONFERENCE: "Preprint"
-ethics_overall: 95
+DATA_URL: NA
+publication: "Oxford Institute for Ethics in AI"
+CONF-CC: N/A
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Lyceum Project: AI Ethics with Aristotle

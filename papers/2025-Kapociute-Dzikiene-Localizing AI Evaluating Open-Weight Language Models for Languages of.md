@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,19 +9,19 @@ short_title: "Localizing AI: Evaluating Open-Weight Language Models for Language
 year: 2025
 first_author: "[[Jurgita Kapociute-Dzikiene]]"
 last_author: "[[Marcis Pinnis]]"
-authors: Jurgita Kapociute-Dzikiene; Toms Bergmanis; Marcis Pinnis
+authors: "Jurgita Kapociute-Dzikiene; Toms Bergmanis; Marcis Pinnis"
 doi: 10.48550/arXiv.2501.03952
 url: "https://arxiv.org/abs/2501.03952"
 external_pdf: "https://arxiv.org/pdf/2501.03952.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Kapociute-Dzikiene-Localizing AI Evaluating Open-Weight Language Models for Languages of.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "Estonian, Latvian, Lithuanian"
-religious_values: "Christianity"
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Gemma-2, GPT-3.5, GPT-4o, Llama-3, Phi-3"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Although large language models (LLMs) have transformed our expectations of modern language technologies, concerns over data privacy often restrict the use of commercially available LLMs hosted outside of EU jurisdictions. This limits their application in governmental, defence, and other data-sensitive sectors. In this work, we evaluate the extent to which locally deployable open-weight LLMs support lesser-spoken languages such as Lithuanian, Latvian, and Estonian."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "LT"
+author_country: LT
 author_region: "Eastern Europe & Central Asia"
 author_global_north_south: "Global North"
 weird_score: 42
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

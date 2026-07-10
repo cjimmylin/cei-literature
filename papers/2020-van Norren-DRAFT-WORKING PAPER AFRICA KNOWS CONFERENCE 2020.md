@@ -1,48 +1,11 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: 9WY3JY6S
 type: journalArticle
-year: 2020
+year: 2025
 short_title: "DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020"
 first_author: "[[Dorine van Norren]]"
 last_author: "[[Dorine van Norren]]"
@@ -50,7 +13,7 @@ authors: "Dorine van Norren"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/XKSEZXMK/van Norren - DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre).pdf"
 national_ethnic_cultural: "Chinese, African/Ubuntu"
 cultures_nationalities_list: "Chinese, African/Ubuntu"
-languages_list: ""
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -75,20 +38,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "African/Ubuntu, General Ethics"
 key_contribution: "Working paper discussing the exclusion of African ethical frameworks (like Ubuntu) from global AI ethics discourse (e.g., UNESCO consultations)."
 significance: "Critiques the Western-centric dominance in AI ethics, advocating for the inclusion of African 'relational ethics' which prioritize community and interconnectedness over individual autonomy."
 tags: 
 abstract: "UNESCO recently published a report on the ethics of Artificial Intelligence (AI). Its member states have commissioned a recommendation to be written on the ethics of AI, to be adopted in November 2021 during the UNESCO General Conference. The consultations are ongoing, and were preceded by the report of the UNESCO World Commission on the ethics of scientific knowledge and technology (COMEST) on AI and ethics."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-van Norren-DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 5
 utilitarian_ethics: 5
@@ -102,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # DRAFT-WORKING PAPER AFRICA KNOWS CONFERENCE 2020 (Africa Study Centre)

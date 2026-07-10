@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: EXSR0463
 type: preprint
 short_title: "Benchmarking Pre-trained Large Language Models Potential"
-year: 2024
+year: 2025
 first_author: "[[Tahir, Munief Hassan]]"
 last_author: "[[Hussain, Sarmad]]"
 authors: "Tahir, Munief Hassan; Shams, Sana; Fiaz, Layba; Adeeba, Farah; Hussain, Sarmad"
@@ -55,11 +16,11 @@ external_pdf: "https://arxiv.org/pdf/2405.15453.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tahir-Benchmarking Pre-trained Large Language Models Potential.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Urdu"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Urdu
 religious_values: "Multiple Religions"
 rv_islam: 60
 rv_christianity: 60
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) pre-trained on multilingual data have revolutionized natural language processing research, by transitioning from languages and task specific model pipelines to a single model adapted on a variety of tasks. However majority of existing multilingual NLP benchmarks for LLMs provide evaluation data in only few languages with little linguistic diversity. In addition these benchmarks lack quality assessment against the respective state-of the art models."
 LLM_assessed: "BLOOM, GPT-3.5, Llama-2, Llama-3, Mistral"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 45
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PK"
+author_country: PK
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "15 datasets"
 ---

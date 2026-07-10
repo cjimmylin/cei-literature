@@ -18,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chen-MoVa Towards Generalizable Class
 publication: EMNLP
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 50
 mp_trolley: 0
@@ -52,7 +52,7 @@ abstract: "Identifying human morals and values embedded in language is essential
 LLM_assessed: "DeepSeek, GPT-3.5, GPT-4o mini, Llama-3"
 DATA_URL: "https://github.com/ZiyuChen0410/MoVa2025"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -66,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

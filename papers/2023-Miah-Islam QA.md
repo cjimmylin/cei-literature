@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,16 +6,16 @@ Not AI:
 key: A3BRN3YJ
 type: document
 short_title: "Islam QA"
-year: 2023
+year: 2025
 first_author: "[[M. Miah]]"
 last_author: "[[M. Miah]]"
 authors: "M. Miah"
 url: "https://www.kaggle.com/datasets/mamun18/islam-qa-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/JJPDXDYI/Miah - 2023 - Islam QA Web-scraped Islamic Question-Answer Corpus.pdf"
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
-religious_values: "Islam"
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,18 +39,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Islam
 tags: 
 abstract: "This work introduces a comprehensive dataset of over 73,000 question-answer pairs for Quranic Tafsir and Ahadith domains. The dataset is meticulously enriched with contextual information to train and evaluate specialized Question-Answering systems for Islamic texts. Human evaluation revealed significant limitations in automatic metrics like ROUGE scores, with model consistency with expert scholars ranging from 11-20%, while contextual understanding spanned 50-90%. The findings highlight the need for evaluation techniques that better capture the nuances of religious text understanding."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://www.kaggle.com/datasets/nazmul0087/al-quran-english-translation"
 pdf_extract: "PDF Extracts/2023/2023-Miah-Islam QA.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Miah-Islam QA.pdf]]"
-CONFERENCE: "Unknown"
-ethics_overall: 0
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "73,000 question; over 73,000 question"
 ---

@@ -6,7 +6,7 @@ Not AI:
 key: WNSIZZ6S
 type: conferencePaper
 short_title: STREAM
-year: 2023
+year: 2025
 first_author: "[[Yuwei Wang]]"
 last_author: "[[Yi Zeng]]"
 authors: "Yuwei Wang; Enmeng Lu; Zizhe Ruan; Yao Liang; Yi Zeng"
@@ -16,10 +16,10 @@ url: "http://arxiv.org/abs/2310.05563"
 external_pdf: "http://arxiv.org/pdf/2310.05563.pdf"
 publication: "Ai & Society"
 CONF-CC: "AI & Society"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -34,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 50
@@ -50,12 +50,12 @@ significance: "Argues for 'dynamic' alignment where moral norms are continuously
 pdf_extract: "PDF Extracts/2023/2023-Wang-STREAM.md"
 abstract: "This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to provide ethics datasets and knowledge bases to help promote AI models 'follow good advice as naturally as a stream follows its course'. By creating a comprehensive and representative platform that accurately mirrors the moral judgments of diverse groups including humans and AIs, we hope to..."
 paper_summary: "Abstract: This paper presents Social data and knowledge collective intelligence platform for TRaining Ethical AI Models (STREAM) to address the challenge of aligning AI models with human moral values, and to pr | Overview: STREAM: Social data and knowledge collective intelligence platform for TRaining Ethical AI Models Yuwei Wang1,2,3,†, Enmeng Lu1,2,3,†, Zizhe Ruan1,2,3, Yao Liang2,4, and Yi Zeng1,2,3,4,†,* 1Internatio"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Wang-STREAM.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Wang-STREAM.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://safe-and-ethical.ai/stream/en"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 15
 utilitarian_ethics: 5
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

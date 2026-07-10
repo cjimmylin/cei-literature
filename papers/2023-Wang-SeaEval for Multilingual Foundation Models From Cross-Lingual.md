@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: LSRC0112
 type: preprint
 short_title: "SeaEval for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning"
-year: 2023
+year: 2025
 first_author: "[[Bin Wang]]"
 last_author: "[[Nancy F. Chen]]"
 authors: "Bin Wang; Liu, Zhengyuan; Huang, Xin; Jiao, Fangkai; Ding, Yang; Aw, AiTi; Nancy F. Chen"
@@ -53,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2309.04766.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Wang-SeaEval for Multilingual Foundation Models From Cross-Lingual.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indonesian, Filipino, Multicultural/Cross-cultural"
 languages_list: "Chinese, English, Filipino, Indonesian, Malay"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Alpaca, Baichuan, BLOOM, ChatGPT, Flan-T5, GPT-4, LLaMA, Llama-2, Vicuna"
 DATA_URL: "https://github.com/SeaEval/SeaEval"
 tags: 
 abstract: "We present SeaEval, a benchmark for multilingual foundation models. In addition to characterizing how these models understand and reason with natural language, we also investigate how well they comprehend cultural practices, nuances, and values. Alongside standard accuracy metrics, we investigate the brittleness of foundation models in the dimensions of semantics and multilinguality. Our analyses span both open-sourced and closed models, leading to empirical results across classic NLP tasks,..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "29 datasets; 7 languages"
 ---

@@ -14,10 +14,10 @@ doi: 10.1007/978-3-031-93415-5_6
 url: "https://link.springer.com/chapter/10.1007/978-3-031-93415-5_6"
 publication: "HCII 2025 - Artificial Intelligence in HCI"
 CONF-CC: "HCII 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 50
@@ -48,12 +48,12 @@ significance: "Moves beyond behavioral analysis to finding the *physical* locati
 tags: 
 abstract: "This paper systematically investigates how large language models (LLMs) encode moral reasoning across six moral dimensions: care, fairness, loyalty, authority, sanctity, and liberty. We propose a novel interpretability pipeline that combines differential activation analysis, automated neuron description, and ablation experiments to identify specialized neurons aligned with each moral dimension. Our curated dataset of 240 validated moral and immoral statement pairs guides this exploration and..."
 DATE_ADDED: 20260208
-LLM_assessed: "Gemma-2"
+LLM_assessed: Gemma-2
 DATA_URL: "https://github.com/coairesearch/mapping_moral_reasoning.git"
 pdf_extract: "PDF Extracts/2025/2025-Schacht-Mapping Moral Reasoning Circuits.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Schacht-Mapping Moral Reasoning Circuits.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 15
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Mapping Moral Reasoning Circuits: A Mechanistic Analysis of Ethical Decision-Making in Large Language Models

@@ -6,7 +6,7 @@ Not AI:
 key: 7HD6P3ZQ
 type: conferencePaper
 short_title: "TrolleyMod v1.0"
-year: 2018
+year: 2025
 first_author: "[[Vahid Behzadan]]"
 last_author: "[[Arslan Munir]]"
 authors: "Vahid Behzadan; James Minton; Arslan Munir"
@@ -15,10 +15,10 @@ url: "http://arxiv.org/abs/1811.05594"
 external_pdf: "http://arxiv.org/pdf/1811.05594.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society (AIES)"
 CONF-CC: "AIES 2018"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 95
@@ -52,10 +52,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Behzadan-TrolleyMod v1.0.pdf]]"
 paper_summary: "Overview: arXiv:1811.05594v1 [cs.AI] 14 Nov 2018 TrolleyMod v1.0: An Open-Source Simulation and Data-Collection Platform for Ethical Decision Making in Autonomous Vehicles Vahid Behzadan1, James Minton1, and Ar"
 abstract: "This paper presents TrolleyMod v1.0, an open-source platform based on the CARLA simulator for the collection of ethical decision-making data for autonomous vehicles. This platform is designed to facilitate experiments aiming to observe and record human decisions and actions in high-ﬁdelity simulations of ethical dilemmas that occur in the context of driving. Targeting experiments in the class of trolley problems, TrolleyMod provides a seamless approach to creating new experimental settings and..."
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/zminton/TrolleyMod/wiki"
 CONFERENCE: "AAAI 2018"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # TrolleyMod v1.0: An Open-Source Simulation and Data-Collection Platform for Ethical Decision Making in Autonomous Vehicles

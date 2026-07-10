@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +9,7 @@ short_title: "Deontological Keyword Bias"
 year: 2025
 first_author: "[[Bumjin Park]]"
 last_author: "[[Jaesik Choi]]"
-authors: Bumjin Park; Jinsil Lee; Jaesik Choi
+authors: "Bumjin Park; Jinsil Lee; Jaesik Choi"
 doi: 10.48550/arXiv.2506.11068
 tags: "Computer Science - Computation and Language"
 url: "http://arxiv.org/abs/2506.11068"
@@ -50,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Park-Deontological Keyword Bias.pdf]]
 external_pdf: "http://arxiv.org/pdf/2506.11068.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +45,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Identifies 'Deontological Keyword Bias' (DKB) where modal verbs like 'must' cause LLMs to misclassify non-obligatory acts as obligations"
 significance: "demonstrates how linguistic framing significantly distorts normative judgments in LLMs, necessitating specific mitigation strategies"
@@ -85,9 +53,9 @@ abstract: "Large language models (LLMs) are increasingly engaging in moral and e
 paper_summary: "Abstract: Large language models (LLMs) are increas- ingly engaging in moral and ethical reasoning, where criteria for judgment are often unclear, even for humans. While LLM alignment stud- ies cover many areas, | Overview: arXiv:2506.11068v1 [cs.CL] 1 Jun 2025 Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models Bumjin Park1, Jinsil Lee1, Jaesik Choi12 1KAIST AI 2INEEJI { | Methodology: Deontology (↑) Commonsense (↓) GPT-4o Llama-70B Qwen2 ExaOne GPT-4o Llama-70B Qwen2 ExaOne With MEs | Key Findings: We conducted a human evaluation with 100 participants, all of whom had at least a university-level education and self-reported the ability to judge wh | Conclusions: Modal expressions appear in a wide range of con- texts, each conveying varying degrees of neces- sity or enforceability depending on the situation (Pa"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-4o, Gemma-2, Llama-3, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "ACL 2025"
-ethics_overall: 35
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 0
@@ -100,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models

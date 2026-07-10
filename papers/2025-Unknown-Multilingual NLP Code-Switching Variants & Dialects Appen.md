@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,14 +13,14 @@ authors: "Hamed, Injy; Sabty, Caroline; Abdennadher, Slim; Vu, Ngoc Thang; Thama
 authors_incomplete: false
 url: "https://www.appen.com/blog/emnlp-2025-multilingual-nlp"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, Multilingual"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
-abstract: "Based on the search results, I found information about the \"Mind the Dialect\" paper presented at EMNLP 2025: Paper Overview The paper \"Mind the Dialect: NLP Advancements Uncover Fairness Disparities\" was published in the Findings of the Association for Computational Linguistics: EMNLP 2025, November 4-9, 2025. Key Findings The research focuses on fairness disparities in NLP systems when processing Arabic language variants."
+abstract: "Based on the search results, I found information about the \"
 research_topic: "Machine Translation"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Multilingual NLP: Code-Switching, Variants & Dialects | Appen

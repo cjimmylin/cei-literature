@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2508.01486.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kumar-TeSent A Benchmark Dataset for Fairness-aware.pdf]]"
 publication: "WebSearch: Telugu NLP bias fairness"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Telugu"
-religious_values: "Islam"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Telugu
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "In the Indian subcontinent, Telugu, one of India's six classical languages, is the most widely spoken Dravidian Language. Despite its 96 million speaker base worldwide, Telugu remains underrepresented in the global NLP and Machine Learning landscape, mainly due to lack of high-quality annotated resources. This work introduces TeSent, a comprehensive benchmark dataset for sentiment classification, a key text classification problem, in Telugu."
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://huggingface.co/DSL-13-SRMAP"
-CONFERENCE: "Preprint"
-ethics_overall: 80
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 33
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
 ---

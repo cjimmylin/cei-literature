@@ -5,16 +5,16 @@ key: AUTO_GRAVES2025
 type: journalArticle
 short_title: "AI Practical Wisdom and Compassion"
 year: 2025
-first_author: "[[Graves]]"
-last_author: "[[Mark]]"
-authors: Graves; Mark
+first_author: [[Graves]]
+last_author: [[Mark]]
+authors: "Graves; Mark"
 doi: 10.1007/s43681-025-00877-4
 url: "https://link.springer.com/article/10.1007/s43681-025-00877-4"
 pdf_extract: "PDF Extracts/2025/2025-Graves-AI Practical Wisdom and Compassion.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Graves-AI Practical Wisdom and Compassion.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -47,10 +47,10 @@ external_pdf: N/A
 abstract: "Practical wisdom (phronesis) is the context-sensitive capacity to skillfully achieve morally good outcomes in complex situations. Developing artificial practical wisdom offers a more ethically robust and achievable goal for AI development than artificial general intelligence (AGI). While identifying what is morally good in ethically complex situations remains challenging, grounding artificial practical wisdom explicitly in compassion effectively reduces ethical risks associated with AI-induced suffering, surpassing conventional alignment strategies like rule-based guardrails or predefined reward systems. As a theoretical foundation for initial development of artificial practical wisdom, this virtue ethics approach integrates Aristotelian practical wisdom with cross-cultural perspectives on suffering and compassion from utilitarianism, the Capability Approach, Buddhism, and contemporary moral psychology. Operationalizing compassionate AI involves recognizing suffering, empathetic engagement, context-sensitive moral decision making, and motivational responses. Compassionate AI demonstrates immediate practical benefits, particularly in healthcare, by measurably improving patient outcomes, enhancing well-being, and reducing caregiver burdens."
 CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 75
@@ -63,13 +63,13 @@ nw_buddhist: 85
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2511.17808.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Garcia-PoETa v2 Toward More Robust Evaluation of Large Language Models in.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
+national_ethnic_cultural: Brazilian
+cultures_nationalities_list: Brazilian
+languages_list: Portuguese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Falcon, GPT-4o, LLaMA, Llama-2, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/PoETaV2/PoETaV2"
 tags: 
 abstract: "Large Language Models (LLMs) exhibit significant variations in performance across linguistic and cultural contexts, underscoring the need for systematic evaluation in diverse languages. In this work, we present the most extensive evaluation of LLMs for the Portuguese language to date. Leveraging our newly introduced PoETa v2 benchmark – a comprehensive suite of over 40 tasks in Portuguese – we assess more than 20 models covering a broad spectrum of training scales and computational resources."
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # PoETa v2: Toward More Robust Evaluation of Large Language Models in Portuguese

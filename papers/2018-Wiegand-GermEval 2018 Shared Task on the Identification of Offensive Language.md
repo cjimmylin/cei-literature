@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: LSRC0465
 type: conferencePaper
 short_title: "GermEval 2018 Shared Task on the Identification of Offensive Language"
-year: 2018
+year: 2025
 first_author: "[[Michael Wiegand]]"
 last_author: "[[Josef Ruppenhofer]]"
-authors: Michael Wiegand; Melanie Siegel; Josef Ruppenhofer
+authors: "Michael Wiegand; Melanie Siegel; Josef Ruppenhofer"
 url: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
 external_pdf: "https://www.lsv.uni-saarland.de/wp-content/publications/2018/germeval2018_wiegand.pdf"
 publication: "GermEval Workshop"
@@ -56,10 +17,10 @@ CONF-CC: "Workshop (2018)"
 pdf_extract: "PDF Extracts/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Wiegand-GermEval 2018 Shared Task on the Identification of Offensive Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "German"
-languages_list: "German"
-religious_values: "N/A"
+national_ethnic_cultural: German
+cultures_nationalities_list: German
+languages_list: German
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://projects.cai.fbi.h-da.de/iggsa/"
 tags: 
 abstract: "We present the pilot edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. It comprises two tasks, a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. The shared task had 20 participants submitting 51 runs for the coarse-grained task and 25 runs for the ﬁne-grained task."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # GermEval 2018 Shared Task on the Identification of Offensive Language

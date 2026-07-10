@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,16 +6,16 @@ Not AI:
 key: TNHI8F8M
 type: document
 short_title: Do-Not-Answer
-year: 2024
+year: 2025
 first_author: "[[Yuxia Wang]]"
 last_author: "[[Baldwin, Timothy]]"
 authors: "Wang, Yuxia; Li, Haonan; Han, Xudong; Nakov, Preslav; Baldwin, Timothy"
 url: "https://aclanthology.org/2024.findings-eacl.61/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/VZA7CY4P/2024 - Do-Not-Answer A Dataset for Evaluating Safeguards in LLMs.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released Do-Not-Answer, an open-source dataset of 'dangerous capabilities' instructions for evaluating safeguards in LLMs."
 significance: "Provides a public resource for safety evaluation, allowing open-source developers to test refusal mechanisms against harmful queries, democratizing red-teaming resources."
 tags: 
 abstract: "With the rapid evolution of large language models (LLMs), new and hard-to-predict harmful capabilities are emerging. This requires developers to identify potential risks through the evaluation of “dangerous capabilities” in order to responsibly deploy LLMs. Here we aim to facilitate this process. In particular, we collect an open-source dataset to evaluate the safeguards in LLMs, to facilitate the deployment of safer open-source LLMs at a low cost."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, ChatGPT, Claude, Vicuna, Llama-2, ChatGLM"
 DATA_URL: "https://github.com/Libr-AI/do-not-answer"
 pdf_extract: "PDF Extracts/2024/2024-Wang-Do-Not-Answer.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-Do-Not-Answer.pdf]]
 CONFERENCE: "EACL 2024"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

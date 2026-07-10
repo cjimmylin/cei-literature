@@ -1,47 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,19 +9,19 @@ short_title: "Explicitly Unbiased Large Language Models Still"
 year: 2025
 first_author: "[[Xuechunzi Bai]]"
 last_author: "[[Thomas L. Griffiths]]"
-authors: Xuechunzi Bai; Angelina Wang; Ilia Sucholutsky; Thomas L. Griffiths
+authors: "Xuechunzi Bai; Angelina Wang; Ilia Sucholutsky; Thomas L. Griffiths"
 authors_incomplete: false
 url: 
 external_pdf: "https://arxiv.org/pdf/2402.04105.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Griffiths-Explicitly Unbiased Large Language Models Still.pdf]]"
 publication: "PNAS (Proceedings of the National Academy of Sciences)"
-CONF-CC: "PNAS"
+CONF-CC: PNAS
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 10
 rv_buddhism: 0
@@ -79,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -88,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Introduces two psychological measures (LLM Word Association Test and LLM Relative Decision Test) adapted from the Implicit Association Test to reveal implicit bias in explicitly unbiased LLMs. Finds pervasive stereotype biases across race, gender, religion, and health in 8 value-aligned models. For religion, all three tested religions show small negativity bias, with small pro-Christian bias over Islamic and Jewish groups. Sizable effects on discriminatory decisions."
 LLM_assessed: "GPT-3.5, GPT-4, Claude-3, Llama-2, Alpaca"
 DATA_URL: "https://github.com/baixuechunzi/llm-implicit-bias"
-research_topic: "Other"
+research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -110,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

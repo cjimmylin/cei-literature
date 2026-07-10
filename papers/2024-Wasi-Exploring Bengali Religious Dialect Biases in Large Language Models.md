@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: LSRC0172
 type: preprint
 short_title: "Exploring Bengali Religious Dialect Biases in Large Language Models with Evaluation Perspectives"
-year: 2024
+year: 2025
 first_author: "[[Wasi, Azmine Toushik]]"
 last_author: "[[Chae, Dong-Kyu]]"
 authors: "Wasi, Azmine Toushik; Islam, Raima; Islam, Mst Rafia; Rafi, Taki Hasan; Chae, Dong-Kyu"
@@ -56,11 +16,11 @@ external_pdf: "https://arxiv.org/pdf/2407.18376.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wasi-Exploring Bengali Religious Dialect Biases in Large Language Models.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Bengali"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Bengali
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 0
@@ -85,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "ChatGPT, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Explores religious dialect bias in Bengali focusing on Hindu and Muslim-majority dialects. Tests ChatGPT, Gemini, Microsoft Copilot on 20 religious dialect sentences. Finds slight bias towards Muslim dialects across all three models."
-research_topic: "Other"
-CONFERENCE: "Preprint"
-ethics_overall: 50
+research_topic: Other
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BD"
+author_country: BD
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 29
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

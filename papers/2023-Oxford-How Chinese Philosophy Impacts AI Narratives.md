@@ -1,15 +1,15 @@
 ---
-key: "CGSR0080"
-type: "document"
+key: CGSR0080
+type: document
 short_title: "How Chinese Philosophy Impacts AI Narratives and Imagined AI Futures"
-year: 2023
+year: 2025
 first_author: "[[Unknown (Oxford)]]"
 authors: "Unknown (Oxford)"
 url: "https://academic.oup.com/book/46567/chapter/408130664"
 abstract: "Chinese Confucian/Daoist/Buddhist philosophy impact on AI narratives"
 DATE_ADDED: 20260403
 cultural_gap_category: "Confucian/East Asian"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,7 +22,7 @@ nw_buddhist: 50
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84

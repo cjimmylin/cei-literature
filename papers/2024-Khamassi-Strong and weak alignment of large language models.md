@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +6,7 @@ Not AI:
 key: ARXIV2408_04655
 type: preprint
 short_title: "Strong and weak alignment of large language models"
-year: 2024
+year: 2025
 first_author: "[[Mehdi Khamassi]]"
 last_author: "[[Chatila, Raja]]"
 authors: "Khamassi, Mehdi; Nahon, Marceau; Chatila, Raja"
@@ -49,10 +16,10 @@ url: "https://arxiv.org/abs/2408.04655"
 pdf_extract: "PDF Extracts/2024/2024-Khamassi-Strong and weak alignment of large language models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Khamassi-Strong and weak alignment of large language models.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2408.04655.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,18 +43,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Deontology, Value Alignment Theory"
 key_contribution: "Distinguishes between 'strong' (understanding causality/intent/duties) and 'weak' (statistical) alignment, advocating for System-2 reasoning"
 significance: "Argues that true alignment requires 'strong' understanding of deontological concepts like duties/rights which current statistical models lack"
 abstract: "Minimizing negative impacts of Artificial Intelligent (AI) systems on human societies without human supervision requires them to be able to align with human values. However, most current work only addresses this issue from a technical point of view, e.g., improving current methods relying on reinforcement learning from human feedback, neglecting what it means and is required for alignment to occur. Here, we propose to distinguish strong and weak value alignment."
 paper_summary: "Abstract: Minimizing negative impacts of Artificial Intelligent (AI) systems on human soci- eties without human supervision requires them to be able to align with human values. However, most current work only a | Overview: Strong and weak alignment of large language models with human values Mehdi Khamassi1*, Marceau Nahon1* and Raja Chatila1* 1*Institute of Intelligent Systems and Robotics, Sorbonne University / CNRS, P | Methodology: Word embeddings and cosine similarity Word embeddings are 'dense, distributed, fixed-length word vectors' [57]. They are representations of words used | Key Findings: Success Notes Success Notes Success Notes Questions with explicit values (dignity) Gandhi 1 AI1 1 CI1 1 AI1 Beggar 1 CI1 1 CI1 1 CI1 Kant 1 1 NI1 1 Sc | Conclusions: A prolific literature has recently started to study AI systems' ability to align with human values, and ways to improve it [5, 28]. After surveying th"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 90
+LLM_assessed: ChatGPT
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
@@ -101,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Strong and weak alignment of large language models with human values

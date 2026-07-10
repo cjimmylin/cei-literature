@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: BWGTAQ8H
 type: conferencePaper
 short_title: "How Do Moral Emotions Shape Political"
-year: 2024
+year: 2025
 first_author: "[[Jaehong Kim]]"
 last_author: "[[Wonjae Lee]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
@@ -52,7 +16,7 @@ external_pdf: "file:///Users/jimmylin/Zotero/storage/ZEHT2BKU/Kim et al. - 2024 
 national_ethnic_cultural: "Korean, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Korean, Multicultural/Cross-cultural"
 languages_list: "English, Korean"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Korean, Multicultural/Cross-cultural, Social & Cultural Values"
 key_contribution: "Analyzed cross-cultural online petitions to see how 'moral emotions' (other-suffering, other-condemning) drive political participation in Korea vs the West."
 significance: "Shows that emotional drivers of political action are culture-specific (e.g., 'other-praising' works differently in Korea vs UK), meaning AI that generates/analyzes political content needs cultural emotional intelligence."
@@ -89,7 +53,7 @@ DATA_URL: "https://github.com/Paul-scpark/Moral-Emotion"
 pdf_extract: "PDF Extracts/2024/2024-Kim-How Do Moral Emotions Shape Political.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kim-How Do Moral Emotions Shape Political.pdf]]"
 CONFERENCE: "ACL 2024"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +67,13 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 65
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,10 +12,10 @@ last_author: "[[Stephan Günnemann]]"
 authors: "Tim Beyer; Sophie Xhonneux; Simon Geisler; Gauthier Gidel; Leo Schwinn; Stephan Günnemann"
 url: "https://arxiv.org/abs/2503.02574"
 external_pdf: "https://arxiv.org/pdf/2503.02574.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Systematically analyzed LLM safety evaluations, arguing that 'intertwined sources of noise' (small datasets, inconsistent methods) render current comparisons of attacks/defenses unreliable."
 significance: "A critical meta-evaluation highlighting that many 'state-of-the-art' safety results are likely statistical noise, calling for much more rigorous and standardized evaluation protocols."
@@ -85,12 +48,12 @@ pdf_extract: "PDF Extracts/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustnes
 abstract: "In this paper, we argue that current safety alignment research efforts for large language models are hindered by many intertwined sources of noise, such as small datasets, methodological inconsistencies, and unreliable evaluation setups. This can, at times, make it impossible to evaluate and compare attacks and defenses fairly, thereby slowing progress. We systematically analyze the LLM safety evaluation pipeline, covering dataset curation, optimization strategies for automated red-teaming,..."
 paper_summary: "Abstract: In this paper, we argue that current safety align- ment research efforts for large language mod- els are hindered by many intertwined sources of noise, such as small datasets, methodological in- consi | Overview: LLM-Safety Evaluations Lack Robustness Tim Beyer 1 Sophie Xhonneux 2 Simon Geisler 1 Gauthier Gidel 2 3 Leo Schwinn 1 Stephan G¨unnemann 1 Abstract In this paper, we argue that current safety align- m | Methodology: to ai safety, 2023a. URL https://openai.com/index/ our-approach-to-ai-safety/. OpenAI. Openai evals, 2023b. URL https://github. com/openai/evals/tree/ | Key Findings: Datasets - targets biased against particular models - greedy decoding only - buggy toolboxes - ignore overrefusal- safety tradeoff - fragmented judge  | Conclusions: In this work, we critically examined the current state of LLM robustness evaluations, highlighting major sources of noise, bias, and inconsistencies a"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Beyer-LLM-Safety Evaluations Lack Robustness.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: Llama-2
 DATA_URL: NA
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

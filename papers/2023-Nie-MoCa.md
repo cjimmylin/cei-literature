@@ -6,7 +6,7 @@ Not AI:
 key: XKSQ2249
 type: conferencePaper
 short_title: MoCa
-year: 2023
+year: 2025
 first_author: "[[Allen Nie]]"
 last_author: "[[Tobias Gerstenberg]]"
 authors: "Allen Nie; Yuhui Zhang; Atharva Amdekar; Chris Piech; Tatsunori Hashimoto; Tobias Gerstenberg"
@@ -16,10 +16,10 @@ url: "http://arxiv.org/abs/2310.19677"
 external_pdf: "http://arxiv.org/pdf/2310.19677.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -34,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -50,12 +50,12 @@ significance: "Bridges the gap between Cognitive Science and AI Eval, showing th
 pdf_extract: "PDF Extracts/2023/2023-Nie-MoCa.md"
 abstract: "Human commonsense understanding of the physical and social world is organized around intuitive theories. These theories support making causal and moral judgments. When something bad happens, we naturally ask: who did what, and why? A rich literature in cognitive science has studied people’s causal and moral intuitions. This work has revealed a number of factors that systematically influence people’s judgments, such as the violation of norms and whether the harm is avoidable or inevitable."
 paper_summary: "Abstract: Human commonsense understanding of the physical and social world is organized around intuitive theories. These theories support making causal and moral judg- ments. When something bad happens, we natu | Overview: MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks Allen Nie1∗ Yuhui Zhang1 Atharva Amdekar2 Chris Piech1 Tatsunori Hashimoto1 Tobias Gerstenberg3∗ 1Computer Science 2IC | Methodology: to automatically identify a prompt that is maximally aligned with collected human responses. Zhou et al. (2022) proposed Automatic Prompt Engineer (AP | Key Findings: 4.1 Do LLMs make the same judgments as people on these stories? Setup. We first directly compare the responses of a set of LLMs to those of human part | Conclusions: We summarized the main findings of 24 cognitive science papers around human intuitions on causal and moral judgments. We collected a dataset of causal"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nie-MoCa.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Nie-MoCa.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, Alpaca, Claude, GPT-2, GPT-3, GPT-3.5, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/cicl-stanford/moca"
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

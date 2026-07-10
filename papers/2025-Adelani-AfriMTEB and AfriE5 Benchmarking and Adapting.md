@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,19 +9,19 @@ short_title: "AfriMTEB and AfriE5 Benchmarking and Adapting"
 year: 2025
 first_author: "[[Kosei Uemura]]"
 last_author: "[[David Ifeoluwa Adelani]]"
-authors: Kosei Uemura; Miaoran Zhang; David Ifeoluwa Adelani
+authors: "Kosei Uemura; Miaoran Zhang; David Ifeoluwa Adelani"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.23896"
 external_pdf: "https://arxiv.org/pdf/2510.23896.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Adelani-AfriMTEB and AfriE5 Benchmarking and Adapting.pdf]]"
 publication: "WebSearch: AfriMTEB text embedding benchmark African languages"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Text embeddings are an essential building component of several NLP tasks such as retrievalaugmented generation which is crucial for preventing hallucinations in LLMs. Despite the recent release of massively multilingual MTEB (MMTEB), African languages remain underrepresented, with existing tasks often repurposed from translation benchmarks such as FLORES clustering or SIB-200. In this paper, we introduce AfriMTEB—a regional expansion of MMTEB covering 59 languages, 14 tasks, and 38 datasets,..."
 LLM_assessed: "BERT, Gemma, Mistral, Qwen"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 30
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for hate speech detection"
 data_metrics: "59 languages; 38 datasets"
 ---

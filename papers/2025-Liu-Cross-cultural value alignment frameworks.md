@@ -7,9 +7,9 @@ key: ARXIV_2511_17256
 type: preprint
 short_title: "Cross-cultural value alignment frameworks"
 year: 2025
-first_author: "[[Liu]]"
-last_author: "[[Qiaoling]]"
-authors: Liu; Haijiang; Gu; Jinguang; Wu; Xun; Hershcovich; Daniel; Xiao; Qiaoling
+first_author: [[Liu]]
+last_author: [[Qiaoling]]
+authors: "Liu; Haijiang; Gu; Jinguang; Wu; Xun; Hershcovich; Daniel; Xiao; Qiaoling"
 doi: 10.48550/arXiv.2511.17256
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2511.17256"
@@ -17,11 +17,11 @@ pdf_extract: "PDF Extracts/2025/2025-Liu-Cross-cultural value alignment framewor
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Cross-cultural value alignment frameworks.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.17256.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 national_ethnic_cultural: "Chinese, American, Western, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, American, Western, Multicultural/Cross-cultural"
 languages_list: "Chinese, English"
-religious_values: "Christianity"
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 100
 mp_schwartz: 50
 mp_trolley: 0
@@ -52,9 +52,9 @@ significance: "Shows larger LLMs favor deontological perspective; reveals cultur
 abstract: "As Large Language Models (LLMs) increasingly influence high-stakes decisionmaking across global contexts, ensuring their alignment with diverse cultural values has become a critical governance challenge. This study presents a MultiLayered Auditing Platform for Responsible AI that systematically evaluates crosscultural value alignment in China-origin and Western-origin LLMs through four integrated methodologies: Ethical Dilemma Corpus for assessing temporal stability, Diversity-Enhanced..."
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-3.5, GPT-4o, Llama-2, Llama-3, Mistral, Qwen-2"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 30
 utilitarian_ethics: 5
@@ -68,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

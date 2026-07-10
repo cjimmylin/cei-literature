@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2506.02573.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Azmi-IndoSafety Culturally Grounded Safety for LLMs in Indonesian Languages.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian"
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
 languages_list: "Indonesian, Javanese, Minangkabau, Sundanese"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3 Haiku, Gemma-2, GPT-4o, Llama-3, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Although region-specific large language models (LLMs) are increasingly developed, their safety remains underexplored, particularly in culturally diverse settings like Indonesia, where sensitivity to local norms is essential and highly valued by the community. In this work, we present IndoSafety, the first high-quality, human-verified safety evaluation dataset tailored for the Indonesian context, covering five language varieties: formal and colloquial Indonesian, along with three major local..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 60
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ID"
+author_country: ID
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "2,500 test examples"
 ---

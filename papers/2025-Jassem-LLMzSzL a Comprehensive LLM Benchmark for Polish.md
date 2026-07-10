@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,18 +9,18 @@ short_title: "LLMzSzL: a Comprehensive LLM Benchmark for Polish"
 year: 2025
 first_author: "[[Krzysztof Jassem]]"
 last_author: "[[Ryszard Staruch]]"
-authors: Krzysztof Jassem; Michal Ciesiolka; Filip Gralinski; Piotr Jablonski; Jakub Pokrywka; Marek Kubis; Monika Jablonska; Ryszard Staruch
+authors: "Krzysztof Jassem; Michal Ciesiolka; Filip Gralinski; Piotr Jablonski; Jakub Pokrywka; Marek Kubis; Monika Jablonska; Ryszard Staruch"
 url: "https://arxiv.org/abs/2501.02266"
 external_pdf: "https://arxiv.org/pdf/2501.02266.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jassem-LLMzSzL a Comprehensive LLM Benchmark for Polish.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Polish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Gemma, GPT-3.5, GPT-4, LLaMA, Llama-2, Llama-3, Mistral, Phi, Qwen, Qwen-2, WizardLM"
 DATA_URL: "https://huggingface.co/OPI-PG/Qra-1b"
 tags: 
 abstract: "This article introduces the first comprehensive benchmark for the Polish language at this scale: LLMzSzŁ (LLMs Behind the School Desk). It is based on a coherent collection of Polish national exams, including both academic and professional tests extracted from the archives of the Polish Central Examination Board. It covers 4 types of exams, coming from 154 domains. Altogether, it consists of almost 19k closed-ended questions."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # LLMzSzL: a Comprehensive LLM Benchmark for Polish

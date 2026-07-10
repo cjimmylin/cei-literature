@@ -6,7 +6,7 @@ Not AI:
 key: ZHOU2024NAACL
 type: conferencePaper
 short_title: "Rethinking Machine Ethics"
-year: 2024
+year: 2025
 first_author: "[[Jingyan Zhou]]"
 last_author: "[[Helen Meng]]"
 authors: "Jingyan Zhou; Minda Hu; Junan Li; Xiaoying Zhang; Xixin Wu; Irwin King; Helen Meng"
@@ -15,10 +15,10 @@ url: "https://aclanthology.org/2024.findings-naacl.144/"
 external_pdf: "https://aclanthology.org/2024.findings-naacl.144.pdf"
 publication: "Findings of NAACL 2024"
 CONF-CC: "NAACL 2024 Findings"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -53,11 +53,11 @@ paper_summary:
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhou-Rethinking Machine Ethics Can LLMs Perform Moral Reasoning.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-4, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
 ethics_perspective: "Moral Reasoning & Psychology"
 CONFERENCE: "NAACL 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -70,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 55
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---

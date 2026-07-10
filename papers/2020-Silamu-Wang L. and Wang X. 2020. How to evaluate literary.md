@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,21 +6,21 @@ Not AI:
 key: LSRC0655
 type: conferencePaper
 short_title: "Wang, L. and Wang, X. (2020). How to evaluate literary"
-year: 2020
+year: 2025
 first_author: "[[Wushouer Silamu]]"
 last_author: "[[Wushouer Silamu]]"
 authors: "Wushouer Silamu"
 url: "http://www.cttl.org/uploads/5/2/4/3/5243866/cttl_e_2020_9_lyu_wang_and_xiangling_wang.pdf"
 external_pdf: "http://www.cttl.org/uploads/5/2/4/3/5243866/cttl_e_2020_9_lyu_wang_and_xiangling_wang.pdf"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Silamu-Wang L. and Wang X. 2020. How to evaluate literary.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "English, Uyghur"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "This study evaluated students’ translation quality through two different approaches to examine the effects of marking method on the assessment of literary translations in a pedagogical context. Two prose literary texts were translated by thirty-six MTI students, and then scored by nine experienced raters with error analysis and scale-based method, respectively. Scores of translations were analysed using G-studies, as conducted by the computer program GENOVA to compare the rater severity and..."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

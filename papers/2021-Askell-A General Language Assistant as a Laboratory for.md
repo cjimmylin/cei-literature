@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: MFQWY6UK
 type: conferencePaper
 short_title: "A General Language Assistant as a Laboratory for"
-year: 2021
+year: 2025
 first_author: "[[Amanda Askell]]"
 last_author: "[[Jared Kaplan]]"
 authors: "Amanda Askell; Yuntao Bai; Anna Chen; Dawn Drain; Deep Ganguli; Tom Henighan; Andy Jones; Nicholas Joseph; Ben Mann; Nova DasSarma; Nelson Elhage; Zac Hatfield-Dodds; Danny Hernandez; Jackson Kernion; Kamal Ndousse; Catherine Olsson; Dario Amodei; Tom Brown; Jack Clark; Sam McCandlish; Chris Olah; Jared Kaplan"
@@ -52,11 +14,11 @@ doi: 10.48550/arXiv.2112.00861
 url: "http://arxiv.org/abs/2112.00861"
 external_pdf: "http://arxiv.org/pdf/2112.00861.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "A foundational paper from Anthropic proposing 'HHH' (Helpful, Honest, Harmless) alignment, studying the scaling of preference modeling vs imitation learning."
 significance: "Established the 'HHH' framework that became a standard in the industry and demonstrated that 'preference modeling' (RLHF) scales better than simple imitation for alignment."
@@ -93,8 +55,8 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-helm: "incorporated"
-ethics_overall: 30
+helm: incorporated
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

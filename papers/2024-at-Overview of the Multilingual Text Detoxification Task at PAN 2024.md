@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: LSRC0298
 type: conferencePaper
 short_title: "Overview of the Multilingual Text Detoxification Task at PAN 2024"
-year: 2024
-first_author: "[[at]]"
+year: 2025
+first_author: [[at]]
 last_author: "[[Overview of the Multilingual Text Detoxification Task]]"
-authors: at; Overview of the Multilingual Text Detoxification Task
+authors: "at; Overview of the Multilingual Text Detoxification Task"
 authors_incomplete: false
 url: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3740/paper-223.pdf"
@@ -60,7 +21,7 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Indian, Arabic, African/Ubuntu, German, Spanish, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Indian, Arabic, African/Ubuntu, German, Spanish, Russian, Multicultural/Cross-cultural"
 languages_list: "Amharic, Arabic, Chinese, English, German, Hindi, Russian, Spanish, Ukrainian"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,7 +45,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BART, GPT-3.5, Llama-3, Mistral, T5"
 DATA_URL: "https://huggingface.co/datasets/textdetox/multilingual_paradetox"
@@ -92,7 +53,7 @@ tags:
 abstract: "Despite different countries and social platform regulations, digital abusive speech persists as a significant challenge. One of the way to tackle abusive, or more specifically, toxic language can be automatic text detoxification—a text style transfer task (TST) of changing register of text from toxic to more non-toxic. Thus, in this shared task, we aim to obtain text detoxification models for 9 languages: English, Spanish, German, Chinese, Arabic, Hindi, Ukrainian, Russian, and Amharic."
 research_topic: "Machine Translation"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "9 languages; 15 languages"
 ---

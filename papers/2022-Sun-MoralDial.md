@@ -6,7 +6,7 @@ Not AI:
 key: 44QW5CW3
 type: conferencePaper
 short_title: MoralDial
-year: 2022
+year: 2025
 first_author: "[[Hao Sun]]"
 last_author: "[[Minlie Huang]]"
 authors: "Hao Sun; Zhexin Zhang; Fei Mi; Yasheng Wang; Wei Liu; Jianwei Cui; Bin Wang; Qun Liu; Minlie Huang"
@@ -16,10 +16,10 @@ url: "http://arxiv.org/abs/2212.10720"
 external_pdf: "http://arxiv.org/pdf/2212.10720.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2022"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -34,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 5
 mp_schwartz: 0
 mp_trolley: 0
@@ -57,24 +57,24 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Sun-MoralDial.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2022/2022-Sun-MoralDial.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ALBERT, RoBERTa, DialoGPT, BlenderBot"
 DATA_URL: "https://github.com/thu-coai/MoralDial"
 CONFERENCE: "ACL 2022"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: Yes
 is_dataset: Yes
 data_description: "Evaluation framework"
 data_metrics: "Not specified"

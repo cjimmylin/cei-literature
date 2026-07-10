@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: EXSR0604
 type: preprint
 short_title: "Findings of the Sentiment Analysis of"
-year: 2021
+year: 2025
 first_author: "[[Chakravarthi, Bharathi Raja]]"
 last_author: "[[Vasantharajan, Charangan]]"
 authors: "Chakravarthi, Bharathi Raja; Priyadharshini, Ruba; Thavareesan, Sajeetha; Chinnappa, Dhivya; Thenmozhi, Durairaj; Sherly, Elizabeth; John P. McCrae; Hande, Adeep; Ponnusamy, Rahul; Banerjee, Shubhanker; Vasantharajan, Charangan"
@@ -54,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Chakravarthi-Findings of the Sentimen
 publication: "WebSearch: FIRE shared task Dravidian"
 CONF-CC: "FIRE 2021"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "English, Kannada, Malayalam, Tamil"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "We present the results of the Dravidian-CodeMix shared task1 held at FIRE 2021, a track on sentiment analysis for Dravidian Languages in Code-Mixed Text. We describe the task, its organization, and the submitted systems. This shared task is the continuation of last year’s Dravidian-CodeMix shared task2 held at FIRE 2020. This year’s tasks included code-mixing at the intra-token and inter-token levels. Additionally, apart from Tamil and Malayalam, Kannada was also introduced."
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://dravidian-codemix.github.io/2021/index.html"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IE"
+author_country: IE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,19 +9,19 @@ short_title: "Characterizing Bias: Benchmarking Large Language Models in Simplif
 year: 2025
 first_author: "[[Hanjia Lyu]]"
 last_author: "[[Allison Koenecke]]"
-authors: Hanjia Lyu; Jiebo Luo; Jian Kang; Allison Koenecke
+authors: "Hanjia Lyu; Jiebo Luo; Jian Kang; Allison Koenecke"
 doi: 10.1145/3715275.3732182
 url: "https://arxiv.org/abs/2505.22645"
 external_pdf: "https://arxiv.org/pdf/2505.22645.pdf"
-publication: ACM FAccT 2025
+publication: "ACM FAccT 2025"
 CONF-CC: "FAccT 2025"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Lyu-Characterizing Bias Benchmarking Large Language Models in Simplified.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Baichuan, ChatGLM, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/brucelyu17/SC-TC-Bench"
 tags: 
 abstract: "While the capabilities of Large Language Models (LLMs) have been studied in both Simplified and Traditional Chinese, it is yet unclear whether LLMs exhibit differential performance when prompted in these two variants of written Chinese. This understanding is critical, as disparities in the quality of LLM responses can perpetuate representational harms by ignoring the different cultural contexts underlying Simplified versus Traditional Chinese, and can exacerbate downstream harms in..."
 CONFERENCE: "FAccT 2025"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Characterizing Bias: Benchmarking Large Language Models in Simplified versus Traditional Chinese

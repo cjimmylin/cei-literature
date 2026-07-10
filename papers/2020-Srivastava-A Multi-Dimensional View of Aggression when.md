@@ -1,59 +1,21 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: MAHWYKT8
 type: journalArticle
-year: 2020
+year: 2025
 short_title: "A Multi-Dimensional View of Aggression when"
 first_author: "[[Arjit Srivastava]]"
 last_author: "[[Manish Shrivastava]]"
 authors: "Arjit Srivastava; Avijit Vajpayee; Syed Sarfaraz Akhtar; Naman Jain; Vinay Singh; Manish Shrivastava"
 url: "https://aclanthology.org/2020.trac-1.3/"
 external_pdf: "https://aclanthology.org/2020.trac-1.3.pdf"
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "English, Hindi"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Indian, Toxicity & Hate Speech"
 key_contribution: "Created a Hindi-English code-mixed dataset annotated across dimensions of aggression, hate speech, emotion, and figurative language (sarcasm, irony)."
 significance: "Provides a granular understanding of how aggression and sarcasm interact in code-mixed social media contexts, supporting the detection of nuanced toxicity in non-Western linguistic settings."
@@ -85,12 +47,12 @@ tags:
 abstract: "The advent of social media has immensely proliferated the amount of opinions and arguments voiced on the internet. These virtual debates often present cases of aggression. While research has been focused largely on analyzing aggression and stance in isolation from each other, this work is the ﬁrst attempt to gain an extensive and ﬁne-grained understanding of patterns of aggression and ﬁgurative language use when voicing opinion."
 pdf_extract: "PDF Extracts/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Srivastava-A Multi-Dimensional View of Aggression when.pdf]]"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/arjitsrivastava/MultidimensionalViewOpinionMining"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 30
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

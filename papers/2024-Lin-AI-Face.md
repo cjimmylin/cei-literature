@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +6,16 @@ Not AI:
 key: 3RMHBD6V
 type: journalArticle
 short_title: AI-Face
-year: 2024
+year: 2025
 first_author: "[[Li Lin]]"
 last_author: "[[Shu Hu]]"
 authors: "Li Lin; Santosh; Mingyang Wu; Xin Wang; Shu Hu"
 url: "https://arxiv.org/abs/2406.00783"
 external_pdf: "https://arxiv.org/pdf/2406.00783.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released AI-Face, a million-scale demographically annotated dataset of AI-generated faces (GANs/Diffusion) to benchmark fairness in AI face detectors."
 significance: "Addresses bias in deepfake/AI-gen detection tools, showing they often underperform on certain demographics, and provides the data needed to train fairer detectors."
@@ -88,13 +47,13 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Lin-AI-Face.md"
 abstract: "AI-generated faces have enriched human life, such as entertainment, education, and art. However, they also pose misuse risks. Therefore, detecting AI-generated faces becomes crucial, yet current detectors show biased performance across different demographic groups. Mitigating biases can be done by designing algorithmic fairness methods, which usually require demographically annotated face datasets for model training."
 paper_summary: "Abstract: AI-generated faces have enriched human life, such as en- tertainment, education, and art. However, they also pose misuse risks. Therefore, detecting AI-generated faces be- comes crucial, yet current d | Overview: AI-Face: A Million-Scale Demographically Annotated AI-Generated Face Dataset and Fairness Benchmark* Li Lin1, Santosh1, Mingyang Wu1, Xin Wang2, Shu Hu1† 1Purdue University, West Lafayette, USA {lin17 | Methodology: Gender Gender, Age Gender, Age, Skin Tone DF DF, GAN GAN, DM DF, GAN,DM 1 3 5 8 37 Demographic Annotation Generation Category Figure 1. Comparison bet | Key Findings: under default/basic settings. Fairness 'Reliability' measures fair- ness consistency across dynamic scenarios (e.g., post-processing). fairness reliab | Conclusions: According to the above experiments, we summarize the un- solved fairness problems in recent detectors: 1) Detectors' fairness is unstable when detecti"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Lin-AI-Face.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Lin-AI-Face.pdf]]
 CONF-CC: "CVPR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/Purdue-M2/AI-Face-FairnessBench"
-CONFERENCE: "Journal"
-ethics_overall: 60
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -108,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset"
 data_metrics: "Not specified"
 ---

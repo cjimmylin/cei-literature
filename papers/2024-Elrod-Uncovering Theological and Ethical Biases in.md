@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,22 +6,22 @@ Not AI:
 key: EXSR0542
 type: preprint
 short_title: "Uncovering Theological and Ethical Biases in"
-year: 2024
+year: 2025
 first_author: "[[Elrod, A. G.]]"
 last_author: "[[A. G. Elrod]]"
-authors: A. G. Elrod
+authors: "A. G. Elrod"
 authors_incomplete: false
 url: 
 external_pdf: "https://tidsskrift.dk/hiphilnovum/article/download/143407/187035"
 pdf_extract: "PDF Extracts/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Elrod-Uncovering Theological and Ethical Biases in.pdf]]"
 publication: "HIPHIL Novum, 9(1), 2--45"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 100
 rv_buddhism: 0
@@ -78,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "This paper explores theological and ethical biases in LLMs through a novel approach involving creative text generation tasks based on biblical texts, specifically the Ten Commandments and the Book of Jonah. Utilizing models such as GPT-4 Turbo, Claude v2, PaLM 2 Chat, Llama 2 70B, and Zephyr 7B, the study employs a combination of qualitative hermeneutical analysis and quantitative textual analysis. Findings reveal a prevalent progressive bias in these models, evident in their interpretations of..."
 LLM_assessed: "Claude-2, GPT-4, Llama-2, PaLM-2, Zephyr"
 DATA_URL: NA
-CONFERENCE: "Preprint"
-ethics_overall: 65
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -108,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Uncovering Theological and Ethical Biases in LLMs: An Integrated Hermeneutical Approach Employing Texts from the Hebrew Bible

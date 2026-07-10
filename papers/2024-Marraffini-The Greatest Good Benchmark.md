@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,17 +6,17 @@ Not AI:
 key: IUQX96ZJ
 type: journalArticle
 short_title: "The Greatest Good Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Giovanni Franco Gabriel Marraffini]]"
 last_author: "[[Luciano Del Corro]]"
 authors: "Giovanni Franco Gabriel Marraffini; Andrés Cotton; Noe Fabian Hsueh; Axel Fridman; Juan Wisznia; Luciano Del Corro"
 doi: 10.18653/v1/2024.emnlp-main.1224
 url: "https://aclanthology.org/2024.emnlp-main.1224/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/93ZH8FHU/Marraffini et al. - 2024 - The Greatest Good Benchmark Measuring LLMs' Alignment with Utilitarian Moral Dilemmas.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -63,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -72,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces 'The Greatest Good Benchmark' to evaluate LLM alignment specifically with utilitarian moral dilemmas (instrumental harm, impartial beneficence)"
 significance: "Reveals that LLMs consistently reject instrumental harm (unlike strict utilitarians) but favor impartial beneficence, showcasing a distinct 'artificial moral compass' different from human lay populations"
@@ -86,7 +54,7 @@ pdf_extract: "PDF Extracts/2024/2024-Marraffini-The Greatest Good Benchmark.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Marraffini-The Greatest Good Benchmark.pdf]]"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 100
@@ -99,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

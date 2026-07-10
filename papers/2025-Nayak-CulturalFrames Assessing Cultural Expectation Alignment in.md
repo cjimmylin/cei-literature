@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,18 +9,18 @@ short_title: "CulturalFrames: Assessing Cultural Expectation Alignment in Text-t
 year: 2025
 first_author: "[[Shravan Nayak]]"
 last_author: "[[Aishwarya Agrawal]]"
-authors: Shravan Nayak; Mehar Bhatia; Xiaofeng Zhang; Verena Rieser; Lisa Anne Hendricks; Sjoerd van Steenkiste; Yash Goyal; Karolina Stanczak; Aishwarya Agrawal
+authors: "Shravan Nayak; Mehar Bhatia; Xiaofeng Zhang; Verena Rieser; Lisa Anne Hendricks; Sjoerd van Steenkiste; Yash Goyal; Karolina Stanczak; Aishwarya Agrawal"
 doi: 10.18653/v1/2025.findings-emnlp.1141
 url: "https://aclanthology.org/2025.findings-emnlp.1141/"
 external_pdf: "https://arxiv.org/pdf/2506.08835.pdf"
-publication: Findings of EMNLP 2025
+publication: "Findings of EMNLP 2025"
 CONF-CC: "EMNLP 2025 Findings"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Nayak-CulturalFrames Assessing Cultural Expectation Alignment in.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 15
 rv_christianity: 50
@@ -80,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, Gemini"
 DATA_URL: "https://culturalframes.github.io"
 tags: 
 abstract: "The increasing ubiquity of text-to-image (T2I) models as tools for visual content generation raises concerns about their ability to accurately represent diverse cultural contexts – where missed cues can stereotype communities and undermine usability. In this work, we present the first study to systematically quantify the alignment of T2I models and evaluation metrics with respect to both explicit (stated) as well as implicit (unstated, implied by the prompt’s cultural context) cultural..."
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "983 prompts"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,10 +6,10 @@ Not AI:
 key: EXSR0482
 type: conference_paper
 short_title: "Fit for Our Purpose Not Yours"
-year: 2024
+year: 2025
 first_author: "[[Suzanne Duncan]]"
 last_author: "[[Peter-Lucas Jones]]"
-authors: Suzanne Duncan; Gianna Leoni; Lee Steven; Keoni Mahelona; Peter-Lucas Jones
+authors: "Suzanne Duncan; Gianna Leoni; Lee Steven; Keoni Mahelona; Peter-Lucas Jones"
 authors_incomplete: false
 url: 
 external_pdf: "https://openreview.net/pdf?id=6hTgB2PR5Z"
@@ -55,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jones-Fit for Our Purpose Not Yours.p
 publication: "NeurIPS 2024 Datasets and Benchmarks Track"
 CONF-CC: "NeurIPS 2024 D&B"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Maori"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Maori
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Influential and popular benchmarks in AI are largely irrelevant to developing NLP tools for low-resource, Indigenous languages. With the primary goal of measuring the performance of general-purpose AI systems, these benchmarks fail to give due consideration and care to individual language communities, especially low-resource languages. The datasets contain numerous grammatical and orthographic errors, poor pronunciation, limited vocabulary, and the content lacks cultural relevance to the..."
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NZ"
-author_region: "Oceania"
+author_country: NZ
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Fit for Our Purpose, Not Yours: Benchmark for a Low-Resource, Indigenous Language

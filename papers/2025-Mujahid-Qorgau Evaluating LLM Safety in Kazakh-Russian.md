@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mujahid-Qorgau Evaluating LLM Safety 
 publication: "arxiv.org / ACL 2025 Findings"
 CONF-CC: "ACL 2025 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Russian"
-cultures_nationalities_list: "Russian"
+national_ethnic_cultural: Russian
+cultures_nationalities_list: Russian
 languages_list: "Kazakh, Russian"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are known to have the potential to generate harmful content, posing risks to users. While major progress has been made in developing taxonomies for LLM risks and safety evaluation prompts, most studies have focused on monolingual contexts, primarily in English. However, language- and region-specific risks in bilingual contexts are often overlooked, and core findings can diverge from such in monolingual settings."
 LLM_assessed: "Claude, Falcon, GPT-4o, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/mbzuai-nlp/qorgau-kaz-ru-safety"
 CONFERENCE: "ACL 2025"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KZ"
+author_country: KZ
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 33
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

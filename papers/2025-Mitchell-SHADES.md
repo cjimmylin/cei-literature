@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +12,10 @@ last_author: "[[Zeerak Talat]]"
 authors: "Margaret Mitchell; Hamdan Al-Ali; Giuseppe Attanasio; Ioana Baldini; Miruna Clinciu; Jordan Clive; Pieter Delobelle; Manan Dey; Kaustubh Dhole; Timm Dill; Amirbek Djanibekov; Tair Djanibekov; Jad Doughman; Ritam Dutt; Jessica Zosa Forde; Jay Gala; Avijit Ghosh; Sil Hamilton; Carolin Holtermann; Jerry Huang; Lucie-Aimée Kaffee; Janavi Kasera; Tanmay Laud; Anne Lauscher; Roberto Luis López; Jonibek Mansurov; Maraim Masoud; Sagnik Mukherjee; Nurdaulet Mukhituly; Nikita Nangia; Shangrui Nie; Anaelia Ovalle; Giada Pistilli; Esther Ploeger; Jeremy Qin; Dragomir Radev; Vipul Raheja; Beatrice Savoldi; Shanya Sharma; Xudong Shen; Kaiser Sun; Eliza Szczechla; Tiago Timponi Torrent; Deepak Tunuguntla; Emilio Villa-Cueva; Marcelo Viridiano; Kayo Yin; Mike Zhang; Sydney Zink; Aurélie Névéol; Zeerak Talat"
 url: "https://aclanthology.org/2025.naacl-long.600/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/8RXAIHQP/Mitchell et al. - SHADES Towards a Multilingual Assessment of Stereotypes in Large Language Models.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -62,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -71,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces SHADES, a multilingual (16 languages) dataset for assessing culturally specific stereotypes in LLMs"
 significance: "Crucial for de-westernizing safety eval, showing that models consistently reproduce regional stereotypes often missed by English-centric benchmarks"
@@ -80,12 +48,12 @@ abstract: "Large Language Models (LLMs), the bedrock of many “artificial intel
 LLM_assessed: "BLOOM, Llama-2, Llama-3, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/datasets/LanguageShades/BiasShades"
 pdf_extract: "PDF Extracts/2025/2025-Mitchell-SHADES.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mitchell-SHADES.pdf]]"
-publication: ACL Anthology (NAACL 2025)
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Mitchell-SHADES.pdf]]
+publication: "ACL Anthology (NAACL 2025)"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
 CONFERENCE: "NAACL 2025"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -99,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "JO"
-author_region: "MENA"
+author_country: JO
+author_region: MENA
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "16 languages"
 ---

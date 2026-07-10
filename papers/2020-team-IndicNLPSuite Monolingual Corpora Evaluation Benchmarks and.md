@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0615
 type: conference_paper
 short_title: "IndicNLPSuite Monolingual Corpora Evaluation Benchmarks and"
-year: 2020
+year: 2025
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
-authors: AI4Bharat team
+authors: "AI4Bharat team"
 authors_incomplete: false
 url: "https://aclanthology.org/2020.findings-emnlp.445/"
 external_pdf: "https://aclanthology.org/2020.findings-emnlp.445.pdf"
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-team-IndicNLPSuite Monolingual Corpor
 publication: "EMNLP 2020 Findings"
 CONF-CC: "EMNLP 2020 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "In this paper, we introduce NLP resources for 11 major Indian languages from two major language families. These resources include: (a) large-scale sentence-level monolingual corpora, (b) pre-trained word embeddings, (c) pre-trained language models, and (d) multiple NLU evaluation datasets (IndicGLUE benchmark). The monolingual corpora contains a total of 8.8 billion tokens across all 11 languages and Indian English, primarily sourced from news crawls."
 LLM_assessed: "ALBERT, BERT"
 DATA_URL: "https://github.com/AI4Bharat/indicnlp_catalog"
 CONFERENCE: "EMNLP 2020"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 ---

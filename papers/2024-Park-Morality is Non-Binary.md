@@ -6,7 +6,7 @@ Not AI:
 key: 373IZL7R
 type: conferencePaper
 short_title: "Morality is Non-Binary"
-year: 2024
+year: 2025
 first_author: "[[Jeongwoo Park]]"
 last_author: "[[Pradeep K. Murukannaiah]]"
 authors: "Park, Jeongwoo; Liscio, Enrico; Pradeep K. Murukannaiah"
@@ -16,11 +16,11 @@ pdf_extract: "PDF Extracts/2024/2024-Park-Morality is Non-Binary.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Park-Morality is Non-Binary.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2401.17228.pdf"
 publication: Findings
-CONF-CC: "N/A"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: N/A
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/jeongwoopark0514/morality-is-non-binary"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 10
 deontological_ethics: 30
 utilitarian_ethics: 10
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NL"
+author_country: NL
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Morality is Non-Binary: Building a Pluralist Moral Sentence Embedding Space using Contrastive Learning

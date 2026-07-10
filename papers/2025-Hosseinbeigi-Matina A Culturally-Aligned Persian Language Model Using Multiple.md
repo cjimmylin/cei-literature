@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,19 +9,19 @@ short_title: "Matina: A Culturally-Aligned Persian Language Model Using Multiple
 year: 2025
 first_author: "[[Sara Bourbour Hosseinbeigi]]"
 last_author: "[[Mostafa Masoudi]]"
-authors: Sara Bourbour Hosseinbeigi; MohammadAli SeifKashani; Javad Seraj; Fatemeh Taherinezhad; Ali Nafisi; Fatemeh Nadi; Iman Barati; Hosein Hasani; Mostafa Amiri; Mostafa Masoudi
+authors: "Sara Bourbour Hosseinbeigi; MohammadAli SeifKashani; Javad Seraj; Fatemeh Taherinezhad; Ali Nafisi; Fatemeh Nadi; Iman Barati; Hosein Hasani; Mostafa Amiri; Mostafa Masoudi"
 doi: 10.18653/v1/2025.findings-acl.1074
 url: "https://aclanthology.org/2025.findings-acl.1074/"
 external_pdf: "https://aclanthology.org/2025.findings-acl.1074.pdf"
-publication: ACL 2025 Findings
+publication: "ACL 2025 Findings"
 CONF-CC: "ACL 2025 Findings"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Hosseinbeigi-Matina A Culturally-Aligned Persian Language Model Using Multiple.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
+national_ethnic_cultural: Iranian
+cultures_nationalities_list: Iranian
+languages_list: Persian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Llama-3, GPT-4o, GPT-4o mini"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Creates culturally aligned datasets for Persian contexts and develops Matina by fine-tuning LLaMA3.1 across five domains using Multiple LoRA Experts. Demonstrates that culturally aligned datasets enable the model to surpass baselines in task performance and user satisfaction, embodying Iranian cultural values and linguistic structures."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Matina: A Culturally-Aligned Persian Language Model Using Multiple LoRA Experts

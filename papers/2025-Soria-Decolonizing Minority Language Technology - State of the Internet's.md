@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +9,17 @@ short_title: "Decolonizing Minority Language Technology - State of the Internet'
 year: 2025
 first_author: "[[Soria, Claudia]]"
 last_author: "[[Claudia Soria]]"
-authors: Claudia Soria
+authors: "Claudia Soria"
 authors_incomplete: false
 url: "https://internetlanguages.org/en/stories/decolonizing-minority-language/"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

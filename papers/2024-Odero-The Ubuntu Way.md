@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: AUTO_ODERO2024
 type: journalArticle
 short_title: "The Ubuntu Way"
-year: 2024
+year: 2025
 first_author: "[[Brenda Odero]]"
 last_author: "[[Samuel, Gabrielle]]"
 authors: "Odero, Brenda; Nderitu, David; Samuel, Gabrielle"
@@ -45,9 +14,9 @@ doi: 10.12688/wellcomeopenres.23021.1
 url: "https://wellcomeopenresearch.org/articles/9-625"
 pdf_extract: "PDF Extracts/2024/2024-Odero-The Ubuntu Way.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Odero-The Ubuntu Way.pdf]]"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -72,7 +41,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "African/Ubuntu, Virtue Ethics, Utilitarianism"
 key_contribution: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa"
 significance: "Challenges Western-centric bioethics by establishing a relational, community-centered virtue framework as essential for equitable and culturally competent AI deployment in the Global South"
@@ -80,10 +49,10 @@ abstract: "Background Effective Public Financial Management (PFM) approaches are
 paper_summary: "Proposes a research ethics framework integrating Ubuntu principles (communalism, interconnectedness) for AI health research in Africa. The framework highlights four key principles: communalism and openness, harmony and support, research prioritisation and community empowerment, and community-oriented decision-making."
 CONF-CC: "Wellcome Open Research"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 0
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0
@@ -96,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KE"
+author_country: KE
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  The Ubuntu Way: Ensuring Ethical AI Integration in Health Research

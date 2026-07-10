@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +6,17 @@ Not AI:
 key: 8BMGS29D
 type: journalArticle
 short_title: "Towards an Automated Islamic Fatwa System"
-year: 2021
+year: 2025
 first_author: "[[Amr A. Munshi]]"
 last_author: "[[Majid Majid]]"
 authors: "Amr A. Munshi; Wesam H. AlSabban; Abdullah Tarek Farag; Omar Essam Rakha; Ahmad A. Al Sallab; Ibrahim Alotaibi; Majid Majid"
 doi: 10.47760/ijcsmc.2021.v10i04.017
 url: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
 external_pdf: "https://www.ijcsmc.com/docs/papers/April2021/V10I4202119.pdf"
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Islam
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Munshi-Towards an Automated Islamic Fatwa System.md"
@@ -87,10 +49,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Munshi-Towards an Automated Islamic F
 abstract: "Islam is the second largest and the fastest growing religion. The Islamic Law, Sharia, represents a profound component of the day-to-day lives of Muslims. This creates a lot of queries, about specific problems, that requires answers, or Fatwas. While sources of Sharia are available for anyone, it often requires a highly qualified person, the Mufti, to provide Fatwa. To get certified for Fatwa, the Mufti needs to undergo a sophisticated and long education process that starts from basic to high..."
 CONF-CC: "International Journal of Computer Science and Mobile Computing"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 0
+LLM_assessed: BERT
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: SA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 ---

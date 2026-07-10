@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: LSRC0480
 type: preprint
 short_title: "NLEBench+NorGLM: A Comprehensive Empirical Analysis and Benchmark Dataset for Generative Language Models in Norwegian"
-year: 2024
+year: 2025
 first_author: "[[Liu, Peng]]"
 last_author: "[[Yang, Zhirong]]"
 authors: "Liu, Peng; Zhang, Lemei; Farup, Terje; Even W. Lauvrak; Ingvaldsen, Jon Espen; Eide, Simen; Gulla, Jon Atle; Yang, Zhirong"
@@ -53,10 +18,10 @@ CONF-CC: "EMNLP 2024"
 pdf_extract: "PDF Extracts/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-NLEBench+NorGLM A Comprehensive Empirical Analysis and Benchmark.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Norwegian"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Norwegian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "GPT-3.5"
+LLM_assessed: GPT-3.5
 DATA_URL: "https://github.com/Smartmedia-AI/NorGLM"
 tags: 
 abstract: "Norwegian, spoken by only 5 million population, is under-representative within the most impressive breakthroughs in NLP tasks. To the best of our knowledge, there has not yet been a comprehensive evaluation of the existing language models (LMs) on Norwegian generation tasks during the article writing process. To fill this gap, we 1) compiled the existing Norwegian dataset and pre-trained 4 Norwegian Open Language Models varied from parameter scales and architectures, collectively called NorGLM;..."
 research_topic: "Machine Learning"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

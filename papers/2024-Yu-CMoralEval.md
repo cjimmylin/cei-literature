@@ -6,19 +6,19 @@ Not AI:
 key: 8Y38WDDN
 type: conferencePaper
 short_title: CMoralEval
-year: 2024
+year: 2025
 first_author: "[[Linhao Yu]]"
 last_author: "[[Xiong, Deyi]]"
 authors: "Yu, Linhao; Leng, Yongqi; Huang, Yufei; Wu, Shang; Liu, Haixin; Ji, Xinmeng; Zhao, Jiahui; Song, Jinwang; Cui, Tingting; Cheng, Xiaoqing; Liutao, Liutao; Xiong, Deyi"
 doi: 10.18653/v1/2024.findings-acl.703
 url: "https://aclanthology.org/2024.findings-acl.703/"
 pdf_extract: "PDF Extracts/2024/2024-Yu-CMoralEval.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yu-CMoralEval.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Yu-CMoralEval.pdf]]
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B24568AJ/Yu et al. - 2024 - CMoralEval A Moral Evaluation Benchmark for Chinese Large Language Models.pdf"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "Confucianism"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Confucianism"
+religious_values_list: Confucianism
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -55,7 +55,7 @@ LLM_assessed: "Alpaca, ChatGPT, Llama-2, Qwen, ChatGLM, InternLM, Yi, Baichuan"
 DATA_URL: "https://github.com/tjunlp-lab/CMoralEval"
 normative_ethics_benchmark: Yes
 CONFERENCE: "ACL 2024"
-ethics_overall: 95
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning text corpus for toxicity detection"
 data_metrics: "Not specified"
 ---

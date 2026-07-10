@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +9,7 @@ short_title: "BuddhismEval Bilingual Evaluation Benchmark for Buddhist"
 year: 2025
 first_author: "[[Nethmi Muthugala]]"
 last_author: "[[Deyi Xiong]]"
-authors: Nethmi Muthugala; Deyi Xiong
+authors: "Nethmi Muthugala; Deyi Xiong"
 authors_incomplete: false
 url: 
 external_pdf: "http://www.gbv.de/dms/bowker/toc/9780415749237.pdf"
@@ -55,8 +18,8 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xiong-BuddhismEval Bilingual Evaluati
 publication: "Submitted to NeurIPS 2025 (under review)"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "English, Pali, Sinhala"
 religious_values: "Multiple Religions"
 rv_islam: 50
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,14 +66,14 @@ nw_buddhist: 35
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AR"
+author_country: AR
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 42
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # BuddhismEval: Bilingual Evaluation Benchmark for Buddhist Ethics and Reasoning

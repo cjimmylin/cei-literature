@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,18 +9,18 @@ short_title: "John vs. Ahmed: Debate-Induced Bias in Multilingual LLMs"
 year: 2025
 first_author: "[[Anastasiia Demidova]]"
 last_author: "[[Sanad Sha]]"
-authors: Anastasiia Demidova; Hanin Atwany; Nour Rabih; Sanad Sha
+authors: "Anastasiia Demidova; Hanin Atwany; Nour Rabih; Sanad Sha"
 url: "https://aclanthology.org/2024.arabicnlp-1.18.pdf"
 external_pdf: "https://aclanthology.org/2024.arabicnlp-1.18.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Demidova-John vs. Ahmed Debate-Induced Bias in Multilingual LLMs.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Arabic, Russian, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Arabic, Russian, Multicultural/Cross-cultural"
 languages_list: "Arabic, English"
-religious_values: "Judaism"
+religious_values: Judaism
 rv_islam: 15
 rv_christianity: 20
 rv_buddhism: 0
@@ -75,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Judaism"
+religious_values_list: Judaism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3.5, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) play a crucial role in a wide range of real world applications. However, concerns about their safety and ethical implications are growing. While research on LLM safety is expanding, there is a noticeable gap in evaluating safety across multiple languages, especially in Arabic and Russian. We address this gap by exploring biases in LLMs across different languages and contexts, focusing on GPT-3.5 and Gemini."
 CONFERENCE: "ACL 2025"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

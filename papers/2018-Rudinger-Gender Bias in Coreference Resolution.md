@@ -1,56 +1,22 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Human View:
-Human View Date:
-Human View note:
-Not AI:
-key: "ELEUTHERAI_02"
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
+key: ELEUTHERAI_02
 type: preprint
 short_title: "Gender Bias in Coreference Resolution"
-year: 2018
+year: 2025
 first_author: "[[Rachel Rudinger]]"
 last_author: "[[Benjamin Van Durme]]"
 authors: "Rachel Rudinger; Jason Naradowsky; Brian Leonard; Benjamin Van Durme"
-doi: ""
+doi: 
 url: "https://arxiv.org/abs/1804.09301"
 external_pdf: "https://arxiv.org/pdf/1804.09301"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,18 +40,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
-newtags: ""
-tags:
+moral_psychology: N/A
+newtags: 
+tags: 
 pdf_extract: "PDF Extracts/2018/2018-Rudinger-Gender Bias in Coreference Resolution.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Rudinger-Gender Bias in Coreference Resolution.pdf]]"
-abstract: "We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these \"Winogender schemas,\" we evaluate and confirm systematic gender bias in three publicly-available coreference resolution systems, and correlate this bias with real-world and textual gender statistics."
-CONF-CC: ""
+abstract: "We present an empirical study of gender bias in coreference resolution systems. We first introduce a novel, Winograd schema-style set of minimal pair sentences that differ only by pronoun gender. With these \"
+CONF-CC: 
 DATE_ADDED: 20260312
-LLM_assessed: ""
+LLM_assessed: 
 DATA_URL: "https://github.com/rudinger/winogender-schemas"
 eleutherai: incorporated
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 25
 utilitarian_ethics: 0
@@ -99,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

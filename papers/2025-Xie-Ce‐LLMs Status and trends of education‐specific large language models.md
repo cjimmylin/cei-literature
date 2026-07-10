@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,14 +14,14 @@ authors_incomplete: false
 doi: 10.1002/fer3.70008
 url: "https://onlinelibrary.wiley.com/doi/10.1002/fer3.70008"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Chinese, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "AbstractThe prevalence of AI hallucination in general‐purpose large language models (LLMs) poses significant pedagogical challenges, particularly in terms of content credibility and reliability. In response, China has launched the development of education‐specific LLMs as a national strategic initiative. However, current reports on Chinese educational large language models (Ce‐LLMs) are frequently fragmented across multiple localized academic publications, resulting in significant international gaps in awareness of their development trajectory. Given China's distinct sociocultural context, there is little international understanding of the current state and future trends in Ce‐LLMs. This paper will look at the policy environment, data and techniques, products and applications, as well as the recipients and constraints associated with Ce‐LLM development. This study aims to help international educators understand Ce‐LLMs by highlighting the differences between them and general‐purpose LLMs, as well as contribute to in‐depth conversations about the use of AI technology in education."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Ce‐LLMs: Status and trends of education‐specific large language models developed in China - Xie - 2025 - Future in Educational Research - Wiley Online Library

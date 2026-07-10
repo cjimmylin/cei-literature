@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,21 +6,21 @@ Not AI:
 key: LSRC0474
 type: conferencePaper
 short_title: "Comparative Survey of German Hate Speech Datasets: Background, Characteristics and Biases"
-year: 2024
+year: 2025
 first_author: "[[Bertram, Markus]]"
 last_author: "[[Thomas Mandl]]"
-authors: Markus Bertram; Johannes Schafer; Thomas Mandl
+authors: "Markus Bertram; Johannes Schafer; Thomas Mandl"
 url: "https://www.researchgate.net/publication/378070468_Comparative_Survey_of_German_Hate_Speech_Datasets_Background_Characteristics_and_Biases"
 external_pdf: "https://ceur-ws.org/Vol-3630/LWDA2023-paper19.pdf"
 publication: ResearchGate
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bertram-Comparative Survey of German Hate Speech Datasets Background.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "German"
-languages_list: "German"
-religious_values: "N/A"
+national_ethnic_cultural: German
+cultures_nationalities_list: German
+languages_list: German
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/MarkusBertram/Cross-Dataset-Generalization-of-German-Hate-Speech-Datasets"
@@ -92,7 +52,7 @@ tags:
 abstract: "The large fraction of hate speech and other offensive and objectionable content online poses a vast challenge to societies. Offensive language such as insulting, hurtful, derogatory, or obscene content directed from one person to another and open to others undermines objective discussions. Hate speech detection quality depends on the datasets available for training. Potential bias needs to be identified in order to increase the generalization performance of the trained classifiers."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

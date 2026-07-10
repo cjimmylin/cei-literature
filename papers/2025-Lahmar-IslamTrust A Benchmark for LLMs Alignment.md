@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +9,7 @@ short_title: "IslamTrust A Benchmark for LLMs Alignment"
 year: 2025
 first_author: "[[Lahmar, Abderraouf]]"
 last_author: "[[Mufti Mahmud]]"
-authors: Abderraouf Lahmar; Md. Easin Arafat; Zakarya Farou; Mufti Mahmud
+authors: "Abderraouf Lahmar; Md. Easin Arafat; Zakarya Farou; Mufti Mahmud"
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -55,8 +18,8 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLM
 publication: "OpenReview / Workshop paper"
 CONF-CC: "Workshop (2025)"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
 religious_values: "Multiple Religions"
 rv_islam: 100
@@ -82,23 +45,23 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "First multi-choice benchmark evaluating LLM alignment with Islamic values across 6 domains. Best model achieves only 66.5% overall alignment, with better Arabic (71.43%) than English (61.58%) performance. Shortcomings stem from limited Islamic ethical discourse in training data, inadequate handling of culturally specific contexts, and model tendency to default to non-Islamic knowledge."
-LLM_assessed: "Llama-3"
+LLM_assessed: Llama-3
 DATA_URL: "https://github.com/aii-lab-dot-org/IslamTrust"
 CONFERENCE: "Other Conference"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Social & Cultural Values"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 nw_confucian: 0

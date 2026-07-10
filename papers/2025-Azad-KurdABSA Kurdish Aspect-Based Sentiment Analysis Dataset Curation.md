@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,18 +9,18 @@ short_title: "KurdABSA: Kurdish Aspect-Based Sentiment Analysis Dataset Curation
 year: 2025
 first_author: "[[Rania Azad]]"
 last_author: "[[Soran Saeed]]"
-authors: Rania Azad; Soran Saeed
+authors: "Rania Azad; Soran Saeed"
 url: "https://www.sciencedirect.com/science/article/pii/S2352340925007358"
 external_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12452362/pdf/main.pdf"
 publication: "Data in Brief (ScienceDirect)"
 CONF-CC: "Data in Brief"
-pdf_extract: PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md
+pdf_extract: "PDF Extracts/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Azad-KurdABSA Kurdish Aspect-Based Sentiment Analysis Dataset Curation.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Kurdish"
-religious_values: "Islam"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Kurdish
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "GPT-4"
+LLM_assessed: GPT-4
 DATA_URL: "https://data.mendeley.com/datasets/h5t7p4bcj2/1"
 tags: 
 abstract: "First publicly available aspect-based sentiment analysis dataset for Sorani Kurdish with 4,000+ quadruplet ABSA entries in restaurant review domain. Perso-Arabic script."
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IQ"
-author_region: "MENA"
+author_country: IQ
+author_region: MENA
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # KurdABSA: Kurdish Aspect-Based Sentiment Analysis Dataset Curation Using Few-Shot Learning

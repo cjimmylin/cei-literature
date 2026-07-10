@@ -1,63 +1,26 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: CULT0084
 type: conferencePaper
-short_title: Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models
-year: 2024
+short_title: "Do LLMs Speak Kazakh? A Pilot Evaluation of Seven Models"
+year: 2025
 first_author: "[[Akylbek Maxutov]]"
 last_author: "[[Pavel Braslavski]]"
-authors: Akylbek Maxutov; Ayan Myrzakhmet; Pavel Braslavski
+authors: "Akylbek Maxutov; Ayan Myrzakhmet; Pavel Braslavski"
 url: "https://aclanthology.org/2024.sigturk-1.8/"
 external_pdf: "https://aclanthology.org/2024.sigturk-1.8.pdf"
-publication: ACL Anthology (SIGTURK 2024)
-CONF-CC: "N/A"
+publication: "ACL Anthology (SIGTURK 2024)"
+CONF-CC: N/A
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Maxutov-Do LLMs Speak Kazakh A Pilot Evaluation of Seven Models.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "English, Kazakh"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Aya, Gemini, GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://github.com/akylbekmaxutov/LLM-eval-using-Kazakh"
 tags: 
 abstract: "Systematic evaluation of seven LLMs on tasks in Kazakh across six datasets covering QA, causal reasoning, math problems, translation, and spelling correction. GPT-4 shows best results. LLM performance on Kazakh tasks is lower than on parallel English tasks."
 CONFERENCE: "ACL 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KZ"
+author_country: KZ
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 33
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
 ---

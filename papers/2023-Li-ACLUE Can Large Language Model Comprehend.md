@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: EXSR0547
 type: conference_paper
 short_title: "ACLUE Can Large Language Model Comprehend"
-year: 2023
+year: 2025
 first_author: "[[Yixuan Zhang]]"
 last_author: "[[Haonan Li]]"
-authors: Yixuan Zhang; Haonan Li
+authors: "Yixuan Zhang; Haonan Li"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2310.09550"
 external_pdf: "https://arxiv.org/pdf/2310.09550.pdf"
@@ -57,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Li-ACLUE Can Large Language Model Com
 publication: "RANLP 2023 (ALP Workshop)"
 CONF-CC: "RANLP 2023 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) have showcased remarkable capabilities in understanding and generating language. However, their ability in comprehending ancient languages, particularly ancient Chinese, remains largely unexplored. To bridge this gap, we present ACLUE, an evaluation benchmark designed to assess the capability of language models in comprehending ancient Chinese. ACLUE consists of 15 tasks cover a range of skills, spanning phonetic, lexical, syntactic, semantic, inference and knowledge."
 LLM_assessed: "ChatGPT, ChatGLM, BLOOM, Falcon, LLaMA, Baichuan"
 DATA_URL: "https://github.com/isen-zhang/ACLUE ; https://huggingface.co/datasets/tyouisen/aclue"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "5 categories"
 ---
 # ACLUE: Can Large Language Model Comprehend Ancient Chinese? A Preliminary Test

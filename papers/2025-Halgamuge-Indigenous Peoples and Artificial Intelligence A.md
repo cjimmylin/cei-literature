@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +9,7 @@ short_title: "Indigenous Peoples and Artificial Intelligence A"
 year: 2025
 first_author: "[[Maneesha Perera]]"
 last_author: "[[Saman Halgamuge]]"
-authors: Maneesha Perera; Rajith Vidanaarachchi; Sangeetha Chandrashekeran; Melissa Kennedy; Brendan Kennedy; Saman Halgamuge
+authors: "Maneesha Perera; Rajith Vidanaarachchi; Sangeetha Chandrashekeran; Melissa Kennedy; Brendan Kennedy; Saman Halgamuge"
 authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/6hrqj/download"
@@ -55,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Halgamuge-Indigenous Peoples and Arti
 publication: "Big Data & Society (SAGE)"
 CONF-CC: "Big Data & Society"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Australian/Aboriginal"
-cultures_nationalities_list: "Australian/Aboriginal"
-languages_list: ""
+national_ethnic_cultural: Australian/Aboriginal
+cultures_nationalities_list: Australian/Aboriginal
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -82,20 +45,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "This systematic literature review addresses the intersection of two rapidly evolving areas of knowledge and practice: Indigenous Knowledge Systems (IKS) and artiﬁcial intelligence (AI). There is growing scholarly recognition of the rich and diverse nature of IKS, which are unique intergenerational understandings of worldly relations from an Indigenous standpoint. There is now a vast literature on the promise and pitfalls of AI."
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Indigenous Peoples and Artificial Intelligence: A Systematic Review and Future Directions

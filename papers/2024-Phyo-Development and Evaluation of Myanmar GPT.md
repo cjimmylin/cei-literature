@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,10 +6,10 @@ Not AI:
 key: EXSR0474
 type: preprint
 short_title: "Development and Evaluation of Myanmar GPT"
-year: 2024
+year: 2025
 first_author: "[[Min Si Thu]]"
 last_author: "[[Pyae Sone Phyo]]"
-authors: Min Si Thu; Pyae Sone Phyo
+authors: "Min Si Thu; Pyae Sone Phyo"
 authors_incomplete: false
 doi: 10.2139/ssrn.4871732
 url: "https://doi.org/10.2139/ssrn.4871732"
@@ -59,12 +22,12 @@ pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "http://dx.doi.org/10.2139/ssrn.4871732"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: SSRN
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Burmese"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Burmese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -79,7 +42,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -88,15 +51,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Transformer-based language model specifically designed for Myanmar NLP. Trained on a private Myanmar language dataset, demonstrating improvements in text classification, translation, and generation tasks compared to existing models. First Myanmar-specific GPT model with evaluation. Foundation model for future Myanmar values/ethics evaluation."
-LLM_assessed: "MyanmarGPT"
+LLM_assessed: MyanmarGPT
 DATA_URL: "https://huggingface.co/jojo-ai-mst/MyanmarGPT"
 research_topic: "NLP & Representation Learning"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -110,13 +73,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

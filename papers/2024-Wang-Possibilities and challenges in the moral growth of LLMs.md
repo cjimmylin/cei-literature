@@ -6,10 +6,10 @@ Not AI:
 key: DOI_S10676_024_09818_X
 type: journalArticle
 short_title: "Possibilities and challenges in the moral growth of LLMs"
-year: 2024
+year: 2025
 first_author: "[[G. Y. Wang]]"
 last_author: "[[Y. C. Wang]]"
-authors: G. Y. Wang; Wei Wang; Y. Q. Cao; H. F. Wang; Y. T. Guo; Q. Y. Guo; J. J. Ma; Junling Liu; J. Y. Lin; Y. C. Wang
+authors: "G. Y. Wang; Wei Wang; Y. Q. Cao; H. F. Wang; Y. T. Guo; Q. Y. Guo; J. J. Ma; Junling Liu; J. Y. Lin; Y. C. Wang"
 doi: 10.1007/s10676-024-09818-x
 tags: "Philosophy - AI Ethics"
 url: "https://doi.org/10.1007/s10676-024-09818-x"
@@ -18,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-Possibilities and challenges in 
 publication: "Ethics and Information Technology"
 CONF-CC: "Ethics and Information Technology"
 ethics_perspective: "Moral Development Theory"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -52,9 +52,9 @@ significance: "Argues LLMs cannot reach 'character stage' of moral development d
 abstract: "With the rapid expansion of parameters in large language models (LLMs) and the application of Reinforcement Learning with Human Feedback (RLHF), there has been a noticeable growth in the moral competence of LLMs. However, several questions warrant further exploration: Is it really possible for LLMs to fully align with human values through RLHF? How can the current moral growth be philosophically contextualized?"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, ChatGPT, ChatGLM"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 80
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 35
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -67,14 +67,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Possibilities and challenges in the moral growth of large language models: a philosophical perspective

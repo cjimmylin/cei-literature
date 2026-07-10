@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: LSRC0490
 type: conferencePaper
 short_title: "Offensive Language and Hate Speech Detection for Danish (DKHate)"
-year: 2020
+year: 2025
 first_author: "[[Gudbjartur Ingi Sigurbergsson]]"
 last_author: "[[Leon Derczynski]]"
-authors: Gudbjartur Ingi Sigurbergsson; Leon Derczynski
+authors: "Gudbjartur Ingi Sigurbergsson; Leon Derczynski"
 url: "https://aclanthology.org/2020.lrec-1.430/"
 external_pdf: "https://arxiv.org/pdf/1908.04531.pdf"
 publication: "ACL Anthology / LREC 2020"
@@ -55,10 +17,10 @@ CONF-CC: "LREC 2020"
 pdf_extract: "PDF Extracts/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Sigurbergsson-Offensive Language and Hate Speech Detection for Danish DKHate.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Danish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Danish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/guscode/dkhate"
 tags: 
 abstract: "The presence of offensive language on social media platforms and the implications this poses is becoming a major concern in modern society. Given the enormous amount of content created every day, automatic methods are required to detect and deal with this type of content. Until now, most of the research has focused on solving the problem for the English language, while the problem is multilingual. We construct a Danish dataset containing user-generated comments from Reddit and Facebook."
 CONFERENCE: "ACL 2020"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DK"
+author_country: DK
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

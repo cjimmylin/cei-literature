@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Artificial Intelligence Values and Alignment"
-year: 2020
+year: 2025
 first_author: "[[Iason Gabriel]]"
 last_author: "[[Iason Gabriel]]"
 authors: "Iason Gabriel"
@@ -53,10 +14,10 @@ doi: 10.1007/s11023-020-09539-2
 url: "https://link.springer.com/article/10.1007/s11023-020-09539-2"
 publication: "Minds and Machines"
 CONF-CC: "Minds and Machines"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -71,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +41,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, AI Alignment"
 tags: 
 pdf_extract: "PDF Extracts/2020/2020-Gabriel-Artificial Intelligence Values and Alignment.md"
@@ -90,9 +51,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Gabriel-Artificial Intelligence Value
 DATE_ADDED: 20260208
 research_topic: "AI Alignment & Normative Ethics"
 LLM_assessed: NA
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 35
@@ -106,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Artificial Intelligence Values and Alignment

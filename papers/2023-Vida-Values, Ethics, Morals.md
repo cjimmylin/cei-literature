@@ -6,7 +6,7 @@ Not AI:
 key: J7V9RK4B
 type: conferencePaper
 short_title: "Values, Ethics, Morals?"
-year: 2023
+year: 2025
 first_author: "[[Karina Vida]]"
 last_author: "[[Anne Lauscher]]"
 authors: "Karina Vida; Judith Simon; Anne Lauscher"
@@ -15,10 +15,10 @@ url: "http://arxiv.org/abs/2310.13915"
 external_pdf: "http://arxiv.org/pdf/2310.13915.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 75
 mp_schwartz: 0
 mp_trolley: 0
@@ -53,9 +53,9 @@ paper_summary: "Abstract: With language technology increasingly affect- ing indi
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Vida-Values, Ethics, Morals.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "EMNLP 2023"
-ethics_overall: 65
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Values, Ethics, Morals? On the Use of Moral Concepts in NLP Research

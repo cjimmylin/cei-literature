@@ -6,21 +6,21 @@ Not AI:
 key: CULT0135
 type: conferencePaper
 short_title: "Assessing the Alignment of Large Language Models With Human Values for Mental Health Integration: Cross-Sectional Study Using Schwartz's Theory of Basic Values"
-year: 2024
+year: 2025
 first_author: "[[Nir Hadar-Shoval]]"
 last_author: "[[Oren Asraf]]"
-authors: Nir Hadar-Shoval; Zohar Elyoseph; Yuval Lvov; Oren Asraf
+authors: "Nir Hadar-Shoval; Zohar Elyoseph; Yuval Lvov; Oren Asraf"
 doi: 10.2196/55988
 url: "https://mental.jmir.org/2024/1/e55988"
-publication: JMIR Mental Health
+publication: "JMIR Mental Health"
 CONF-CC: "JMIR Mental Health"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Hadar-Shoval-Assessing the Alignment of Large Language Models With Human Values.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 55
 mp_trolley: 0
@@ -47,11 +47,11 @@ mp_identity: 0
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 LLM_assessed: "Claude-2, GPT-3.5, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Four LLMs (Bard, Claude 2, GPT-3.5, GPT-4) completed the Portrait Values Questionnaire-Revised and results compared to data from 53,472 individuals across 49 nations. All models prioritized universalism and self-direction while de-emphasizing achievement, power, and security relative to humans."
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -65,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IL"
-author_region: "MENA"
+author_country: IL
+author_region: MENA
 author_global_north_south: "Global North"
 weird_score: 57
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

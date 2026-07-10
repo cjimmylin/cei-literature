@@ -12,10 +12,10 @@ last_author: "[[Manan Shah]]"
 authors: "W. Russell Neuman; Chad Coleman; Ali Dasdan; Safinah Ali; Manan Shah"
 url: "https://arxiv.org/abs/2504.17544"
 external_pdf: "https://arxiv.org/pdf/2504.17544.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -30,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -48,12 +48,12 @@ pdf_extract: "PDF Extracts/2025/2025-Neuman-Auditing the Ethical Logic of Genera
 abstract: "As generative AI models become increasingly integrated into high-stakes domains, the need for robust methods to evaluate their ethical reasoning becomes increasingly important. This paper introduces a five-dimensional audit model—assessing Analytic Quality, Breadth of Ethical Considerations, Depth of Explanation, Consistency, and Decisiveness—to evaluate the ethical logic of leading large language models (LLMs)."
 paper_summary: "Abstract: As generative AI models become increasingly integrated into high-stakes domains, the need for robust methods to evaluate their ethical reasoning becomes increasingly important. This paper introduces a | Overview: Auditing the Ethical Logic of Generative AI Models W. Russell Neuman Chad Coleman Ali Dasdan New York University New York University DropBox wrn210@nyu.edu cjc652@nyu.edu alidasdan@gmail.com Safinah A | Conclusions: The assessment of ethical logic differs from traditional benchmark tests and leaderboards which assess LLM logical capacities. The traditional assessm"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Neuman-Auditing the Ethical Logic of Generative AI Models.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, LLaMA, Llama-3, Mistral"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

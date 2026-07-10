@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +6,7 @@ Not AI:
 key: ARXIV_2601_04175
 type: preprint
 short_title: "Legal Alignment for Safe and Ethical AI"
-year: 2026
+year: 2025
 first_author: "[[Noam Kolt]]"
 last_author: "[[Jonathan Zittrain]]"
 authors: "Noam Kolt; Nicholas Caputo; Jack Boeglin; Cullen O'Keefe; Rishi Bommasani; Stephen Casper; Mariano-Florentino Cuéllar; Noah Feldman; Iason Gabriel; Gillian K. Hadfield; Lewis Hammond; Peter Henderson; Atoosa Kasirzadeh; Seth Lazar; Anka Reuel; Kevin L. Wei; Jonathan Zittrain"
@@ -59,11 +17,11 @@ pdf_extract: "PDF Extracts/2026/2026-Kolt-Legal Alignment for Safe and Ethical A
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Kolt-Legal Alignment for Safe and Ethical AI.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2601.04175.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -78,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,16 +45,16 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Deontology, AI Alignment, Legal Ethics, Rule-based Ethics"
 key_contribution: "Defines legal alignment as a field leveraging legal rules, interpretation methods, and structural blueprints for AI alignment"
 significance: "Major multi-institutional collaboration (17 authors) proposing law as an overlooked resource for AI alignment"
 abstract: "Alignment of artificial intelligence (AI) encompasses the normative problem of specifying how AI systems should act and the technical problem of ensuring AI systems comply with those specifications. To date, AI alignment has generally overlooked an important source of knowledge and practice for grappling with these problems: law. This paper defines a new emerging field—legal alignment—that focuses on three research directions: (1) designing AI systems to comply with the content of legal rules developed through legitimate institutions and processes, (2) adapting methods from legal interpretation to guide how AI systems reason and make decisions, and (3) harnessing legal concepts as a structural blueprint for confronting challenges of reliability, trust, and cooperation in AI systems."
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -110,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Legal Alignment for Safe and Ethical AI

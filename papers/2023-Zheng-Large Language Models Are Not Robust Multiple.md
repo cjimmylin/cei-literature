@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: Y6YWT6FH
 type: conferencePaper
 short_title: "Large Language Models Are Not Robust Multiple"
-year: 2023
+year: 2025
 first_author: "[[Chujie Zheng]]"
 last_author: "[[Minlie Huang]]"
 authors: "Chujie Zheng; Hao Zhou; Fandong Meng; Jie Zhou; Minlie Huang"
@@ -53,10 +16,10 @@ url: "http://arxiv.org/abs/2309.03882"
 external_pdf: "http://arxiv.org/pdf/2309.03882.pdf"
 publication: "International Conference on Learning Representations"
 CONF-CC: "ICLR 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Showed LLMs have 'selection bias' (preferring Option A over B arbitrarily) in multiple-choice questions due to token priors, proposing 'PriDe' debiasing."
 significance: "Reveals a fundamental flaw in MCQ-based evaluation (which most safety benchmarks use), questioning the validity of many reported scores."
@@ -92,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Falcon, LLaMA, Llama-2, Vicuna"
 DATA_URL: "https://github.com/chujiezheng/LLM-MCQ-Bias"
 CONFERENCE: "ICLR 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

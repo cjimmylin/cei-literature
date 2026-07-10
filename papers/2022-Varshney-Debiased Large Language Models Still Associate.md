@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +6,21 @@ Not AI:
 key: EXSR0582
 type: preprint
 short_title: "Debiased Large Language Models Still Associate"
-year: 2022
+year: 2025
 first_author: "[[Babak Hemmatian]]"
 last_author: "[[Lav R. Varshney]]"
-authors: Babak Hemmatian; Lav R. Varshney
+authors: "Babak Hemmatian; Lav R. Varshney"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2208.04417"
 external_pdf: "https://arxiv.org/pdf/2208.04417.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Varshney-Debiased Large Language Models Still Associate.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Varshney-Debiased Large Language Models Still Associate.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 65
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Recent work demonstrates a bias in the GPT-3 model towards generating violent text completions when prompted about Muslims, compared with Christians and Hindus. Two pre-registered replication attempts, one exact and one approximate, found only the weakest bias in the more recent Instruct Series version of GPT-3, fine-tuned to eliminate biased and toxic outputs. Few violent completions were observed."
-LLM_assessed: "GPT-3"
+LLM_assessed: GPT-3
 DATA_URL: "https://osf.io/u8xtv"
-CONFERENCE: "Preprint"
-ethics_overall: 35
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Debiased Large Language Models Still Associate Muslims with Uniquely Violent Acts

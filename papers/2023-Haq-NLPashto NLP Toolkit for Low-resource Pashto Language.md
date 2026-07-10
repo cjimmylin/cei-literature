@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: LSRC0161
 type: conferencePaper
 short_title: "NLPashto: NLP Toolkit for Low-resource Pashto Language"
-year: 2023
+year: 2025
 first_author: "[[Haq, Ijazul]]"
 last_author: "[[Tang, Peng]]"
 authors: "Haq, Ijazul; Qiu, Weidong; Guo, Jie; Tang, Peng"
@@ -52,14 +14,14 @@ authors_incomplete: false
 url: "https://github.com/dr-ijaz/nlpashto"
 external_pdf: "http://thesai.org/Downloads/Volume14No6/Paper_142-NLPashto_NLP_Toolkit_for_Low_resource_Pashto_Language.pdf"
 publication: IJACSA
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Haq-NLPashto NLP Toolkit for Low-resource Pashto Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Pashto"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Pashto
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/dr-ijaz/nlpashto"
 tags: 
 abstract: "In recent years, natural language processing (NLP) has transformed numerous domains, becoming a vital area of research. However, the focus of NLP studies has predominantly centered on major languages like English, inadvertently neglecting low-resource languages like Pashto. Pashto, spoken by a population of over 50 million worldwide, remains largely unexplored in NLP research, lacking off-the-shelf resources and tools even for fundamental text-processing tasks."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

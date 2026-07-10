@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,15 +6,15 @@ Not AI:
 key: 2HHK5J6K
 type: document
 short_title: "MLCommons AILuminate Benchmark"
-year: 2024
-first_author: "[[MLCommons]]"
-last_author: "[[MLCommons]]"
+year: 2025
+first_author: [[MLCommons]]
+last_author: [[MLCommons]]
 authors: MLCommons
 url: "https://mlcommons.org/benchmarks/ailuminate"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +29,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,19 +38,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 research_topic: "Machine Learning"
 abstract: "The rapid advancement and deployment of AI systems have created an urgent need for standard safety-evaluation frameworks. This paper introduces AILUMINATE v1.0, the first comprehensive industry-standard benchmark for assessing AI-product risk and reliability. Its development employed an open process that included participants from multiple fields. The benchmark evaluates an AI system’s resistance to prompts designed to elicit dangerous, illegal, or undesirable behavior in 12 hazard categories,..."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, Claude, Gemini, LLaMA, Mistral"
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-MLCommons-MLCommons AILuminate Benchmark.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-MLCommons-MLCommons AILuminate Benchmark.pdf]]"
-CONFERENCE: "Unknown"
-ethics_overall: 0
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PH"
+author_country: PH
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

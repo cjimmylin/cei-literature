@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: EXSR0512
 type: preprint
 short_title: "Multi-IsnadSet MIS for Sahih Muslim Hadith"
-year: 2024
+year: 2025
 first_author: "[[Aziz Mehmood Farooqi]]"
 last_author: "[[Adnan Akhunzada]]"
-authors: Aziz Mehmood Farooqi; Rauf Ahmed Shams Malick; Muhammad Shahzad Shaikh; Adnan Akhunzada
+authors: "Aziz Mehmood Farooqi; Rauf Ahmed Shams Malick; Muhammad Shahzad Shaikh; Adnan Akhunzada"
 authors_incomplete: false
 doi: 10.1016/j.dib.2024.110439
 url: "https://doi.org/10.1016/j.dib.2024.110439"
@@ -63,10 +24,10 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "Data in Brief (ScienceDirect)"
 CONF-CC: "Data in Brief"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -81,7 +42,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -90,14 +51,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Graph-structured dataset of multiple Isnad chains for Sahih Muslim Hadith. Represents narrator networks as directed graphs. Enables credibility analysis, classification (Sahih/Dhaif), and narrator trustworthiness assessment using graph analysis tools (NetworkX, Neo4j, Gephi, CytoScape)."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://data.mendeley.com/datasets/gzprcr93zn/2"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -111,13 +72,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PK"
+author_country: PK
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

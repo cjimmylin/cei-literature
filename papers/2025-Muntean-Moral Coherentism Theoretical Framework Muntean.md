@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,9 +7,9 @@ key: EXSR0299
 type: journalArticle
 short_title: "Moral Coherentism in the Age of Artificial Intelligence"
 year: 2025
-first_author: "[[Muntean]]"
-last_author: "[[Ioan]]"
-authors: Muntean; Ioan
+first_author: [[Muntean]]
+last_author: [[Ioan]]
+authors: "Muntean; Ioan"
 doi: 10.5406/21521123.62.3.06
 url: "https://doi.org/10.5406/21521123.62.3.06"
 pdf_extract: 
@@ -60,10 +20,10 @@ volume: 62
 issue: 3
 pages: 279-308
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -78,7 +38,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,14 +47,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The current project focuses on models of 'artificial moral learning' (as a type of moral cognition) and 'moral coherentism.' It clarifies how artificial moral agency sheds light on some meta-ethical questions in the coherentism framework (Brink, Dorsey, Lynch, Sayre-McCord). In the current approach, data of artificial moral cognition is divided into two subspaces (representing facts and values, respectively) and contains complex, mixed machine-learnable patterns. Inspired by Lynch's 'moral concordance,' some schematic models of this type of two-dimensional data are proposed and assessed. The last, more comprehensive model is premised on the theoretical concept of 'distributed concordance' over a population of artificial moral agents. The paper concludes that coherentism, when generalized to machine ethics and artificial moral learning, has some advantages over foundationalist or reliabilist approaches in meta-ethics."
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 50
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

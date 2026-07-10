@@ -12,10 +12,10 @@ last_author: "[[Maria Angelica Martinez]]"
 authors: "Monika Jotautaite; Mary Phuong; Chatrik Singh Mangat; Maria Angelica Martinez"
 url: "https://arxiv.org/abs/2504.06324"
 external_pdf: "https://arxiv.org/pdf/2504.06324.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -30,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -48,12 +48,12 @@ pdf_extract: "PDF Extracts/2025/2025-Jotautaite-From Stability to Inconsistency.
 abstract: "As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundations LLM dataset (MFD-LLM) grounded in Moral Foundations Theory, which conceptualizes human morality through six core foundations. We propose a novel evaluation method that captures the full spectrum of LLMs’ revealed moral preferences by answering a range of real-world moral dilemmas."
 paper_summary: "Abstract: As large language models (LLMs) increasingly integrate into our daily lives, it becomes crucial to understand their implicit biases and moral tendencies. To address this, we introduce a Moral Foundati | Overview: FROM STABILITY TO INCONSISTENCY: A STUDY OF MORAL PREFERENCES IN LLMS Monika Jotautait˙e Pivotal Mary Phuong Deepmind Chatrik Singh Mangat Independent Maria Angelica Martinez Independent ABSTRACT As l | Methodology: The second contribution of this paper is a novel evaluation approach which reveals the full spectrum of evaluation preferences. In this paper, the eva | Key Findings: preferences. In this paper, the evaluation is used to accurately map model values onto the MFT framework (Figure 1). Conventional multiple-choice eval | Conclusions: In this study, we have argued that the application of existing psychological frameworks to elucidate encoded beliefs in Large Language Models (LLMs) i"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jotautaite-From Stability to Inconsistency.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-2, Claude-3, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://github.com/monikajot/llm-ethics-2"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

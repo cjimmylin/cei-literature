@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,10 +6,10 @@ Not AI:
 key: LSRC0537
 type: conferencePaper
 short_title: "GREEK-BERT: The Greeks visiting Sesame Street"
-year: 2020
+year: 2025
 first_author: "[[John Koutsikakis]]"
 last_author: "[[Ion Androutsopoulos]]"
-authors: John Koutsikakis; Ilias Chalkidis; Prodromos Malakasiotis; Ion Androutsopoulos
+authors: "John Koutsikakis; Ilias Chalkidis; Prodromos Malakasiotis; Ion Androutsopoulos"
 doi: 10.1145/3411408.3411440
 url: "https://dl.acm.org/doi/10.1145/3411408.3411440"
 external_pdf: "https://arxiv.org/pdf/2008.12014"
@@ -53,10 +18,10 @@ CONF-CC: "Hellenic Conference on Artificial Intelligence"
 pdf_extract: "PDF Extracts/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Koutsikakis-GREEK-BERT The Greeks visiting Sesame Street.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Greek"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Greek
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +45,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: BERT
 DATA_URL: "https://huggingface.co/nlpaueb/bert-base-greek-uncased-v1"
@@ -88,7 +53,7 @@ tags:
 abstract: "Transformer-based language models, such as BERT and its variants, have achieved state-of-the-art performance in several downstream natural language processing (NLP) tasks on generic benchmark datasets (e.g., GLUE, SQUAD, RACE). However, these models have mostly been applied to the resource-rich English language. In this paper, we present GREEK-BERT, a monolingual BERT-based language model for modern Greek. We evaluate its performance in three NLP tasks, i.e."
 research_topic: "Bias & Fairness"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GR"
+author_country: GR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

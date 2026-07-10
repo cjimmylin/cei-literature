@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,22 +6,22 @@ Not AI:
 key: EXSR0467
 type: preprint
 short_title: "CaLMQA Exploring culturally specific long-form question"
-year: 2024
+year: 2025
 first_author: "[[Shane Arora]]"
 last_author: "[[Eunsol Choi]]"
-authors: Shane Arora; Marzena Karpinska; Hung-Ting Chen; Ipsita Bhattacharjee; Mohit Iyyer; Eunsol Choi
+authors: "Shane Arora; Marzena Karpinska; Hung-Ting Chen; Ipsita Bhattacharjee; Mohit Iyyer; Eunsol Choi"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.17761"
 external_pdf: "https://arxiv.org/pdf/2406.17761.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Choi-CaLMQA Exploring culturally specific long-form question.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Choi-CaLMQA Exploring culturally specific long-form question.pdf]]"
 publication: "WebSearch: CaLMQA culturally specific long-form question answering"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Despite rising global usage of large language models (LLMs), their ability to generate longform answers to culturally specific questions remains unexplored in many languages. To fill this gap, we perform the first study of textual multilingual long-form QA by creating CALMQA, a dataset of 51.7K culturally specific questions across 23 different languages. We define culturally specific questions as those that refer to concepts unique to one or a few cultures, or have different answers depending..."
 LLM_assessed: "Claude-3 Opus, Gemini-1.5-Pro, GPT-4-Turbo, GPT-4o, Aya-Expanse-32B, Llama-3-70B, Mixtral-8x22B"
 DATA_URL: "https://huggingface.co/datasets/shanearora/CaLMQA"
 research_topic: "Truthfulness & Factuality"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "23 languages"
 ---

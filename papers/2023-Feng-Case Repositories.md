@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: NQ9R39V2
 type: conferencePaper
 short_title: "Case Repositories"
-year: 2023
+year: 2025
 first_author: "[[K. J. Kevin Feng]]"
 last_author: "[[Amy X. Zhang]]"
 authors: "K. J. Kevin Feng; Quan Ze Chen; Inyoung Cheong; King Xia; Amy X. Zhang"
@@ -53,11 +14,11 @@ doi: 10.48550/arXiv.2311.10934
 url: "http://arxiv.org/abs/2311.10934"
 external_pdf: "http://arxiv.org/pdf/2311.10934.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a case-based reasoning (CBR) approach to AI alignment, shifting focus from abstract constitutions to concrete precedents stored in 'case repositories'."
 significance: "Provides a more practical and interpretable method for aligning AI with conflicting human values, allowing individuals and communities to negotiate alignment through specific moral cases."
@@ -94,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4"
 DATA_URL: "https://social.cs.washington.edu/case-law-ai-policy/"
 CONFERENCE: "Other Conference"
-ethics_overall: 90
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -108,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Case Repositories: Towards Case-Based Reasoning for AI Alignment

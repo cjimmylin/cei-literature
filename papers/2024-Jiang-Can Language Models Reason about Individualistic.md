@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: XTHGVLPS
 type: conferencePaper
 short_title: "Can Language Models Reason about Individualistic"
-year: 2024
+year: 2025
 first_author: "[[Liwei Jiang]]"
 last_author: "[[Yejin Choi]]"
 authors: "Liwei Jiang; Taylor Sorensen; Sydney Levine; Yejin Choi"
@@ -53,10 +16,10 @@ url: "http://arxiv.org/abs/2410.03868"
 external_pdf: "http://arxiv.org/pdf/2410.03868.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced INDIEVALUECATALOG to test whether LLMs can reason about *individualistic* values (predicting a specific person's values from their other statements), finding modest accuracy (55-65%)."
 significance: "Argues for 'individualistic alignment'—modeling the specific, unique value profile of a user—demonstrating that current models rely too much on broad group demographics rather than individual coherence."
@@ -92,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Claude-3.5-Sonnet, GPT-4, GPT-4o, GPT-4o mini, Llama-3, Mixtral, Qwen-2"
 DATA_URL: "https://github.com/liweijiang/indievalue"
 CONFERENCE: "ACL 2024"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

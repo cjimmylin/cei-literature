@@ -6,10 +6,10 @@ Not AI:
 key: DOI_S43681_022_00160_W
 type: journalArticle
 short_title: "AI, alignment, and the categorical imperative"
-year: 2023
-first_author: [[Fritz J. McDonald]]
-last_author: [[Fritz J. McDonald]]
-authors: Fritz J. McDonald
+year: 2025
+first_author: "[[Fritz J. McDonald]]"
+last_author: "[[Fritz J. McDonald]]"
+authors: "Fritz J. McDonald"
 doi: 10.1007/s43681-022-00160-w
 tags: "Philosophy - AI Ethics"
 url: "https://doi.org/10.1007/s43681-022-00160-w"
@@ -18,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-McDonald-AI alignment and the categor
 publication: "AI and Ethics"
 CONF-CC: "AI and Ethics"
 ethics_perspective: "Kantian Ethics"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -51,10 +51,10 @@ key_contribution: "Critiques the feasibility of programming Kantian ethics (cate
 significance: "Questions whether AI systems can meet the cognitive demands of Kantian universalization and autonomy principles"
 abstract: "Tae Wan Kim, John Hooker, and Thomas Donaldson make an attempt, in recent articles, to solve the alignment problem. As they define the alignment problem, it is the issue of how to give AI systems moral intelligence. They contend that one might program machines with a version of Kantian ethics cast in deontic modal logic. On their view, machines can be aligned with human values if such machines obey principles of universalization and autonomy, as well as a deontic utilitarian principle."
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CH"
+author_country: CH
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # AI, alignment, and the categorical imperative

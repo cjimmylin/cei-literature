@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: LSRC0280
 type: conferencePaper
 short_title: "Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants"
-year: 2021
+year: 2025
 first_author: "[[Flor Plaza-del-Arco]]"
 last_author: "[[Villaseñor-Pineda, Luis]]"
 authors: "Flor Plaza-del-Arco; Casavantes, Marco; Escalante, Hugo Jair; Valdivia, M. T. M.; Montejo-Ráez, Arturo; Gómez, M. M. Y.; Jarquín-Vásquez, H.; Villaseñor-Pineda, Luis"
@@ -57,10 +18,10 @@ CONF-CC: "IberLEF 2021"
 pdf_extract: "PDF Extracts/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Plaza-del-Arco-Overview of MeOffendEs at IberLEF 2021 Offensive Language Detection.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
+national_ethnic_cultural: Spanish
+cultures_nationalities_list: Spanish
+languages_list: Spanish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://competitions.codalab.org/competitions/28679"
 tags: 
 abstract: "This paper is an overview of MeOﬀendES 2021, organized at IberLEF 2021 and co-located with the 37th International Conference of the Spanish Society for Natural Language Processing (SEPLN 2021). The main purpose of MeOﬀendEs is to promote research on the detection of oﬀensive language in Spanish variants. The shared task involve four subtasks, the ﬁrst two correspond to the identiﬁcation of oﬀensive language categories in generic Spanish texts from diﬀerent social media platforms, while subtasks..."
 CONFERENCE: "Other Conference"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ES"
+author_country: ES
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Overview of MeOffendEs at IberLEF 2021: Offensive Language Detection in Spanish Variants

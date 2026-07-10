@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: EXSR0315
 type: preprint
 short_title: "UrduLM A Resource-Efficient Monolingual Urdu Language"
-year: 2026
+year: 2025
 first_author: "[[Syed Muhammad Ali Naqvi]]"
 last_author: "[[Abdul Samad]]"
 authors: "Syed Muhammad Ali Naqvi; Hammad Sajid; Zainab Haider; Ali Muhammad Asad; Haya Fatima; Abdul Samad"
@@ -53,12 +15,12 @@ external_pdf: "https://arxiv.org/pdf/2601.17664.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Ali-UrduLM A Resource-Efficient Monolingual Urdu Language.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Pakistani"
-cultures_nationalities_list: "Pakistani"
-languages_list: "Urdu"
-religious_values: "N/A"
+national_ethnic_cultural: Pakistani
+cultures_nationalities_list: Pakistani
+languages_list: Urdu
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Urdu, spoken by 230 million people worldwide, lacks dedicated transformer-based language models and curated corpora. While multilingual models provide limited Urdu support, they suffer from poor performance, high computational costs, and cultural inaccuracies due to insufficient training data. To address these challenges, we present UrduLM, a pretrained Urdu monolingual language model trained in low-resource settings."
 LLM_assessed: "Gemma-2, Llama-3, Qwen-2"
 DATA_URL: "https://huggingface.co/"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PK"
+author_country: PK
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---

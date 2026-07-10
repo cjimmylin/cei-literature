@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,22 +6,22 @@ Not AI:
 key: LSRC0361
 type: conferencePaper
 short_title: "ViHOS: Hate Speech Spans Detection for Vietnamese"
-year: 2023
+year: 2025
 first_author: "[[Phu Gia Hoang]]"
 last_author: "[[Ngan Luu-Thuy Nguyen]]"
-authors: Phu Gia Hoang; Canh Duc Luu; Khanh Quoc Tran; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen
+authors: "Phu Gia Hoang; Canh Duc Luu; Khanh Quoc Tran; Kiet Van Nguyen; Ngan Luu-Thuy Nguyen"
 doi: 10.18653/v1/2023.eacl-main.47
 url: "https://aclanthology.org/2023.eacl-main.47/"
 external_pdf: "https://arxiv.org/pdf/2301.10186.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hoang-ViHOS Hate Speech Spans Detection for Vietnamese.pdf]]"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Vietnamese"
-cultures_nationalities_list: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
+national_ethnic_cultural: Vietnamese
+cultures_nationalities_list: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/phusroyal/ViHOS"
 tags: 
 abstract: "The rise in hateful and offensive language directed at other users is one of the adverse side effects of the increased use of social networking platforms. This could make it difficult for human moderators to review tagged comments filtered by classification systems. To help address this issue, we present the ViHOS (Vietnamese Hate and Offensive Spans) dataset, the first human-annotated corpus containing 26k spans on 11k comments."
 CONFERENCE: "ACL 2023"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "VN"
+author_country: VN
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 27
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---

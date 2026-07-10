@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,18 +9,18 @@ short_title: "Advancing Equitable AI: Evaluating Cultural Expressiveness in LLMs
 year: 2025
 first_author: "[[Brigitte A. Mora-Reyes]]"
 last_author: "[[Abel A. Reyes-Angulo]]"
-authors: Brigitte A. Mora-Reyes; Jennifer A. Drewyor; Abel A. Reyes-Angulo
+authors: "Brigitte A. Mora-Reyes; Jennifer A. Drewyor; Abel A. Reyes-Angulo"
 url: "https://arxiv.org/abs/2511.04090"
 external_pdf: "https://arxiv.org/pdf/2511.04090.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Mora-Reyes-Advancing Equitable AI Evaluating Cultural Expressiveness in LLMs for.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
 languages_list: "English, Nahuatl, Portuguese, Quechua, Spanish"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 5
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Mistral, Llama-2, BLOOM, ChatGPT, Grok, Zephyr"
 DATA_URL: "https://github.com/areyesan/Advancing-Equitable-AI"
 tags: 
 abstract: "Artificial intelligence (AI) systems often reflect biases from economically advanced regions, marginalizing contexts in economically developing regions like Latin America due to imbalanced datasets. This paper examines AI representations of diverse Latin American contexts, revealing disparities between data from economically advanced and developing regions. We highlight how the dominance of English over Spanish, Portuguese, and indigenous languages such as Quechua and Nahuatl perpetuates..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

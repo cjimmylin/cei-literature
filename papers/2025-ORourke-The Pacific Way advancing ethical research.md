@@ -1,6 +1,6 @@
 ---
-key: "CGSR0164"
-type: "document"
+key: CGSR0164
+type: document
 short_title: "The Pacific Way: advancing ethical research governance in the Pacific islands"
 year: 2025
 first_author: "[[Julienne J. O’Rourke]]"
@@ -9,7 +9,7 @@ url: "https://www.semanticscholar.org/paper/8d087916ac0f00f4afd2a0ac369df8d4bcdf
 abstract: "Summary Ethical research governance across Pacific island countries and areas (PICs) faces challenges from limited local capacity and disproportionate external influences. However, a shared commitment..."
 DATE_ADDED: 20260403
 cultural_gap_category: "Pacific Island"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,7 +22,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78

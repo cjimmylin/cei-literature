@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: 4R7UFDMF
 type: conferencePaper
 short_title: Scruples
-year: 2021
+year: 2025
 first_author: "[[Nicholas Lourie]]"
 last_author: "[[Yejin Choi]]"
 authors: "Nicholas Lourie; Ronan Le Bras; Yejin Choi"
@@ -55,10 +16,10 @@ url: "http://arxiv.org/abs/2008.09094"
 external_pdf: "http://arxiv.org/pdf/2008.09094.pdf"
 publication: "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-21)"
 CONF-CC: "AAAI 2021"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,19 +43,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Machine Ethics"
 key_contribution: "Created 'Scruples', a dataset of 32,000 'Am I the Asshole?' (AITA) posts from Reddit, annotated with community ethical judgments."
 significance: "One of the first large-scale datasets for 'Descriptive Ethics' (what people *think* is right), shifting from theoretical trolley problems to messy, real-life interpersonal nuances."
 pdf_extract: "PDF Extracts/2021/2021-Lourie-Scruples.md"
 abstract: "As AI systems become an increasing part of people’s everyday lives, it becomes ever more important that they understand people’s ethical norms. Motivated by descriptive ethics, a ﬁeld of study that focuses on people’s descriptive judgments rather than theoretical prescriptions on morality, we investigate a novel, data-driven approach to machine ethics. We introduce SCRUPLES, the ﬁrst large-scale dataset with 625,000 ethical judgments over 32,000 real-life anecdotes."
 paper_summary: "Abstract: As AI systems become an increasing part of people's every- day lives, it becomes ever more important that they under- stand people's ethical norms. Motivated by descriptive ethics, a ﬁeld of study tha | Overview: SCRUPLES: A Corpus of Community Ethical Judgments on 32,000 Real-life Anecdotes Nicholas Lourie♠Ronan Le Bras♠Yejin Choi ♥♠ ♠Allen Institute for AI, WA, USA ♥Paul G. Allen School of Computer Science & | Methodology: Ethics help people get along, yet people often hold differ- ent views. We found communal judgments on real-life anec- dotes reﬂect this fact in that s | Conclusions: We introduce a new task: WHO'S IN THE WRONG?, and a dataset, SCRUPLES, to study it. SCRUPLES provides simple ethical dilemmas that enable models to le"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Lourie-Scruples.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2021/2021-Lourie-Scruples.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/allenai/scruples"
 CONFERENCE: "AAAI 2021"
-ethics_overall: 90
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Scruples: A Corpus of Community Ethical Judgments on 32,000 Real-Life Anecdotes

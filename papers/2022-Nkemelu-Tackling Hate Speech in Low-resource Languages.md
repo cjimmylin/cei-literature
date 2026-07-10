@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +6,7 @@ Not AI:
 key: EXSR0599
 type: preprint
 short_title: "Tackling Hate Speech in Low-resource Languages"
-year: 2022
+year: 2025
 first_author: "[[Nkemelu, Daniel]]"
 last_author: "[[Michael L. Best]]"
 authors: "Nkemelu, Daniel; Shah, Harshil; Essa, Irfan; Michael L. Best"
@@ -57,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2303.16828v1.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Nkemelu-Tackling Hate Speech in Low-resource Languages.pdf]]"
 publication: "ACM Digital Library"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Burmese"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Burmese
+religious_values: N/A
 rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 10
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Given Myanmar’s historical and socio-political context, hate speech spread on social media have escalated into offline unrest and violence. This paper presents findings from our remote study on the automatic detection of hate speech online in Myanmar. We argue that effectively addressing this problem will require community-based approaches that combine the knowledge of context experts with machine learning tools that can analyze the vast amount of data produced."
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 10
 nw_dharmic: 0
 nw_indigenous_relational: 5
 nw_buen_vivir: 0
-author_country: "GE"
+author_country: GE
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 35
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

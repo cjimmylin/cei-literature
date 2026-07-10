@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,22 +7,22 @@ key: LSRC0644
 type: conferencePaper
 short_title: "Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One"
 year: 2025
-first_author: "[[Gu]]"
-last_author: "[[Wenshi]]"
-authors: Gu; Wenshi
+first_author: [[Gu]]
+last_author: [[Wenshi]]
+authors: "Gu; Wenshi"
 authors_incomplete: false
 doi: 10.1371/journal.pone.0313264
 url: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313264"
 external_pdf: "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0313264&type=printable"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Gu-Linguistically informed ChatGPT prompts to enhance Japanese-Chinese.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Japanese"
 cultures_nationalities_list: "Chinese, Japanese"
 languages_list: "Chinese, Japanese"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
+LLM_assessed: ChatGPT
+DATA_URL: NA
 tags: 
 abstract: "In the field of Japanese-Chinese translation linguistics, the issue of correctly translating attributive clauses has persistently proven to be challenging. Present-day machine translation tools often fail to accurately translate attributive clauses from Japanese to Chinese. In light of this, this paper investigates the linguistic problem underlying such difficulties, namely how does the semantic role of the modified noun affect the selection of translation patterns for attributive clauses, from..."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Linguistically informed ChatGPT prompts to enhance Japanese-Chinese machine translation: A case study on attributive clauses | PLOS One

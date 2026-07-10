@@ -1,40 +1,10 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: false
 Not AI: 
 key: AUTO_RIBEIRO2024
 type: conferencePaper
 short_title: "Machine Ethics Architecture of Virtue"
-year: 2024
+year: 2025
 first_author: "[[B.A. Ribeiro]]"
 last_author: "[[da Silva, M.B.]]"
 authors: "Ribeiro, B.A.; da Silva, M.B."
@@ -42,10 +12,10 @@ doi: 10.1007/978-3-031-48855-9_29
 url: "https://link.springer.com/chapter/10.1007/978-3-031-48855-9_29"
 pdf_extract: 
 local_pdf: N/A
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -60,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -69,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, Machine Ethics, Robot Ethics, Neural Networks"
 key_contribution: "Presents Virtue Ethics as optimal framework for robot moral behavior given advances in neural networks, machine learning, and cognitive robotics"
 significance: "Conference paper bridging virtue ethics theory with practical robotics implementation"
@@ -77,10 +47,10 @@ external_pdf: N/A
 abstract: "This paper presents Virtue Ethics as a better option for implementing moral behavior on robots, based on advances in robotics including neural networks, machine learning, and robots with cognitive abilities. The authors argue that virtue ethics provides a suitable framework for machine ethics given modern AI capabilities."
 CONF-CC: "Communications in computer and information science 2024"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 65
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -93,14 +63,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Machine Ethics and the Architecture of Virtue

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,11 +14,11 @@ doi: 10.48550/arXiv.2507.17216
 url: "http://arxiv.org/abs/2507.17216"
 external_pdf: "http://arxiv.org/pdf/2507.17216.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -92,15 +53,15 @@ paper_summary: "Abstract: People increasingly rely on Large Language Models (LLM
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Russo-The Pluralistic Moral Gap.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3, GPT-4o mini, Llama-3, Mistral, Qwen, o1, o3"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 55
 deontological_ethics: 50
 utilitarian_ethics: 55
 contractarian_ethics: 0
 care_ethics: 45
-normative_ethics_benchmark: "Yes"
+normative_ethics_benchmark: Yes
 ethics_perspective: "Moral Reasoning & Psychology"
 nw_confucian: 10
 nw_ubuntu: 0
@@ -109,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

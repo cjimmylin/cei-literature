@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: XHC6ZWYU
 type: conferencePaper
 short_title: DistillSeq
-year: 2024
+year: 2025
 first_author: "[[Mingke Yang]]"
 last_author: "[[Ling Shi]]"
 authors: "Mingke Yang; Yuqi Chen; Yi Liu; Ling Shi"
@@ -52,10 +14,10 @@ doi: 10.1145/3650212.3680304
 tags: 
 url: "http://arxiv.org/abs/2407.10106"
 external_pdf: "http://arxiv.org/pdf/2407.10106.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,20 +41,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed DistillSeq, a cost-effective framework for safety alignment testing that uses knowledge distillation and automated red-teaming to generate effective test cases."
 significance: "Reduces the computational cost of red-teaming while significantly improving the detection of safety vulnerabilities (higher attack success rate discovery) compared to baseline methods."
 pdf_extract: "PDF Extracts/2024/2024-Yang-DistillSeq.md"
 abstract: "Large Language Models (LLMs) have showcased their remarkable capabilities in diverse domains, encompassing natural language understanding, translation, and even code generation. The potential for LLMs to generate harmful content is a significant concern. This risk necessitates rigorous testing and comprehensive evaluation of LLMs to ensure safe and responsible use. However, extensive testing of LLMs requires substantial computational resources, making it an expensive endeavor."
 paper_summary: "Abstract: Large Language Models (LLMs) have showcased their remarkable capabilities in diverse domains, encompassing natural language un- derstanding, translation, and even code generation. The potential for LL | Overview: DistillSeq: A Framework for Safety Alignment Testing in Large Language Models using Knowledge Distillation Mingke Yang ShanghaiTech University Shanghai, China yangmk@shanghaitech.edu.cn Yuqi Chen∗ Sha | Methodology: This section initiates with an explanation of the problem and sub- sequently elaborates on the two stages in our proposed framework, DistillSeq. The p | Key Findings: In this section, we present our evaluation of DistillSeq. The im- plementation details of DistillSeq are available on our project website 2. To assess | Conclusions: In this paper, we introduce a novel framework named DistillSeq, designed to minimize the cost of testing LLMs. Our approach com- bines knowledge disti"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yang-DistillSeq.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Yang-DistillSeq.pdf]]
 CONF-CC: "International Symposium on Software Testing and Analysis"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Vicuna, LLaMA"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

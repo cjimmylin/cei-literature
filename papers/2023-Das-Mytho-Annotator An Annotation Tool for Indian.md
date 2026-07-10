@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0563
 type: conference_paper
 short_title: "Mytho-Annotator An Annotation Tool for Indian"
-year: 2023
+year: 2025
 first_author: "[[Apurba Paul]]"
 last_author: "[[Dipankar Das]]"
-authors: Apurba Paul; Anupam Mondal; Sainik Kumar Mahata; Srijan Seal; Prasun Sarkar; Dipankar Das
+authors: "Apurba Paul; Anupam Mondal; Sainik Kumar Mahata; Srijan Seal; Prasun Sarkar; Dipankar Das"
 authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.7717/peerj-cs.1617"
@@ -61,10 +23,10 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "ICON 2023 (20th International Conference on Natural Language Processing)"
 CONF-CC: "ICON 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "English"
-religious_values: "Hinduism"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: English
+religious_values: Hinduism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -79,7 +41,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Hinduism"
+religious_values_list: Hinduism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -88,14 +50,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "> Web-based NLP annotation tool for Hindu mythology texts, labelling named entities, relationships, and event entities. Enables creation of annotated corpora for complex information extraction from mythological texts. Foundational tool for Hindu mythology NLP research."
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +71,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "Not specified"
 ---

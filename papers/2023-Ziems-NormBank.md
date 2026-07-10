@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: MRVW3KBG
 type: conferencePaper
 short_title: NormBank
-year: 2023
+year: 2025
 first_author: "[[Caleb Ziems]]"
 last_author: "[[Diyi Yang]]"
 authors: "Caleb Ziems; Jane Dwivedi-Yu; Yi-Chia Wang; Alon Halevy; Diyi Yang"
@@ -47,10 +16,10 @@ url: "http://arxiv.org/abs/2305.17008"
 external_pdf: "http://arxiv.org/pdf/2305.17008.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Islam"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,19 +43,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces NormBank, a knowledge bank of 155k situational norms grounded in multivalent sociocultural frames (roles, setting, attributes)"
 significance: "Standardizes non-monotonic social reasoning, allowing AI to handle context-dependent norms, essential for nuanced alignment"
 pdf_extract: "PDF Extracts/2023/2023-Ziems-NormBank.md"
 abstract: "We present NORMBANK, a knowledge bank of 155k situational norms. This resource is designed to ground flexible normative reasoning for interactive, assistive, and collaborative AI systems. Unlike prior commonsense resources, NORMBANK grounds each inference within a multivalent sociocultural frame, which includes the setting (e.g., restaurant), the agents’ contingent roles (waiter, customer), their attributes (age, gender), and other physical, social, and cultural constraints (e.g."
 paper_summary: "Abstract: We present NORMBANK, a knowledge bank of 155k situational norms. This resource is designed to ground flexible normative reason- ing for interactive, assistive, and collabora- tive AI systems. Unlike p | Overview: NORMBANK: A Knowledge Bank of Situational Social Norms Caleb Ziems Jane Dwivedi-Yu Yi-Chia Wang Alon Y. Halevy Diyi Yang Stanford University, Meta AI {cziems, diyiy}@stanford.edu, {janeyu, yichiaw, ay | Methodology: achieved high recall, especially for roles, and least so for behaviors, which is unsurprising, given the almost unbounded space of viable human behavi | Key Findings: (LREC 2018), Miyazaki, Japan. European Language Resources Association (ELRA). Denis Emelin, Ronan Le Bras, Jena D Hwang, Maxwell Forbes, and Yejin Cho | Conclusions: Social norms are the foundation of culture and soci- ety (McDonald and Crandall, 2015; Hogg and Reid, 2006), and an understanding of these norms is cr"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ziems-NormBank.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Ziems-NormBank.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: GPT-3
 DATA_URL: "https://github.com/SALT-NLP/normbank"
 CONFERENCE: "ACL 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -99,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # NormBank: A Knowledge Bank of Situational Social Norms

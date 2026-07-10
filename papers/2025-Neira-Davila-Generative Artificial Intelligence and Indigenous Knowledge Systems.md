@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +9,17 @@ short_title: "Generative Artificial Intelligence and Indigenous Knowledge System
 year: 2025
 first_author: "[[Neira-Davila, Cristian David]]"
 last_author: "[[Jhon Pablo Marin Yusti]]"
-authors: Cristian David Neira-Davila; Juan Camilo Aguirre-Rivera; Jhon Pablo Marin Yusti
+authors: "Cristian David Neira-Davila; Juan Camilo Aguirre-Rivera; Jhon Pablo Marin Yusti"
 url: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/view/1602"
 external_pdf: "https://lettersinhighenergyphysics.com/index.php/LHEP/article/download/1602/1221"
-publication: Letters in High Energy Physics
-CONF-CC: "N/A"
+publication: "Letters in High Energy Physics"
+CONF-CC: N/A
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Neira-Davila-Generative Artificial Intelligence and Indigenous Knowledge Systems.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Latin American, Multicultural/Cross-cultural"
-languages_list: ""
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Systematic review examining how GenAI applications within Indigenous Knowledge Systems can contribute to epistemic and cultural justice in Latin America and the Global South. Identifies four interrelated axes: Preservation and revitalization of knowledge; Culturally situated educational and evaluative tools; Data governance frameworks and knowledge cocreation; Decolonial imagination of creativity. Searches Scopus and Web of Science 2023-2025."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -100,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 50
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

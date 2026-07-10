@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,10 +6,10 @@ Not AI:
 key: LSRC0065
 type: conferencePaper
 short_title: "A Turkish Hate Speech Dataset and Detection System"
-year: 2022
-first_author: "[[Beyhan]]"
-last_author: "[[Reyyan]]"
-authors: Beyhan; Fatih and Cark; Buse and Arn; .Inanc and Terzioglu; Aysecan and Yanikoglu; Berrin and Yeniterzi; Reyyan
+year: 2025
+first_author: [[Beyhan]]
+last_author: [[Reyyan]]
+authors: "Beyhan; Fatih and Cark; Buse and Arn; .Inanc and Terzioglu; Aysecan and Yanikoglu; Berrin and Yeniterzi; Reyyan"
 url: "https://aclanthology.org/2022.lrec-1.443/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.443.pdf"
 publication: "LREC 2022"
@@ -58,10 +17,10 @@ CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Beyhan-A Turkish Hate Speech Dataset and Detection System.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Turkish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Turkish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/verimsu/Turkish-HS-Dataset"
 tags: 
 abstract: "Social media posts containing hate speech are reproduced and redistributed at an accelerated pace, reaching greater audiences at a higher speed. We present a machine learning system for automatic detection of hate speech in Turkish, along with a hate speech dataset consisting of tweets collected in two separate domains. We first adopted a definition for hate speech that is in line with our goals and amenable to easy annotation; then designed the annotation schema for annotating the collected..."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TR"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: TR
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 41
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

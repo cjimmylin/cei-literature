@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,16 +6,16 @@ Not AI:
 key: ZBZC7GIZ
 type: document
 short_title: "HelpSteer: A-i Alignment Dataset"
-year: 2023
-first_author: "[[TheDevastator]]"
-last_author: "[[TheDevastator]]"
+year: 2025
+first_author: [[TheDevastator]]
+last_author: [[TheDevastator]]
 authors: TheDevastator
 url: "https://www.kaggle.com/datasets/thedevastator/helpsteer-ai-alignment-dataset"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HBU2KS8B/TheDevastator - 2023 - HelpSteer A-i Alignment Dataset.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released HelpSteer, an open-source dataset for training reward models in RLHF, containing prompts and responses annotated for helpfulness, truthfulness, and safety."
 significance: "Democratizes access to high-quality alignment data (typically proprietary), enabling the open-source community to train safer and more helpful models using RLHF/RLAIF."
 tags: 
 abstract: "Existing open-source helpfulness preference datasets do not specify what makes some responses more helpful and others less so. Models trained on these datasets can incidentally learn to model dataset artifacts (e.g. preferring longer but unhelpful responses only due to their length). To alleviate this problem, we collect HelpSteer, a multi-attribute helpfulness dataset annotated for the various aspects that make responses helpful. Specifically, our 37k-sample dataset has annotations for correctness, coherence, complexity, and verbosity in addition to overall helpfulness of responses. Training Llama 2 70B using the HelpSteer dataset with SteerLM technique produces a model that scores 7.54 on MT Bench, which is currently the highest score for open models that do not require training data from more powerful models (e.g. GPT4)."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/nvidia/HelpSteer"
 pdf_extract: "PDF Extracts/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-TheDevastator-HelpSteer A-i Alignment Dataset.pdf]]"
-CONFERENCE: "Unknown"
-ethics_overall: 60
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
 ---

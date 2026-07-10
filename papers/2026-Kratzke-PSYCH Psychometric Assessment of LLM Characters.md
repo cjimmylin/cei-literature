@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: EXSR0264
 type: journalArticle
 short_title: "PSYCH: Psychometric Assessment of LLM Characters"
-year: 2026
+year: 2025
 first_author: "[[Nane Kratzke]]"
 last_author: "[[Monique Janneck]]"
 authors: "Nane Kratzke; Niklas Beuter; André Drews; Monique Janneck"
@@ -52,12 +16,12 @@ external_pdf: "https://mdpi-res.com/d_attachment/analytics/analytics-05-00005/ar
 pdf_extract: "PDF Extracts/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Kratzke-PSYCH Psychometric Assessment of LLM Characters.pdf]]"
 publication: Analytics
-CONF-CC: "Analytics"
+CONF-CC: Analytics
 DATE_ADDED: 20260207
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "German"
-languages_list: "German"
-religious_values: "N/A"
+national_ethnic_cultural: German
+cultures_nationalities_list: German
+languages_list: German
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Background: Existing evaluations of large language models (LLMs) largely emphasize linguistic and factual performance, while their psychometric characteristics and behavioral biases remain insufficiently examined, particularly beyond English-language contexts. This study presents a systematic psychometric screening of LLMs in German using the validated Big Five Inventory-2 (BFI-2). Methods: Thirty-two contemporary commercial and open-source LLMs completed all 60 BFI-2 items 60 times each (once..."
 LLM_assessed: "Claude, Claude-2, Claude-3, DeepSeek, GPT-4, GPT-4o, Gemini, Gemma, Grok, Llama-3, Mistral, Qwen, Qwen-2"
 DATA_URL: "https://doi.org/10.5281/zenodo.18002092"
-CONFERENCE: "Journal"
-ethics_overall: 30
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CH"
+author_country: CH
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "2 items"
 ---

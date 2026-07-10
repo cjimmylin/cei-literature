@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2508.13526.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Kranti-MATA mata Mindful Assessment of the.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kranti-MATA mata Mindful Assessment of the.pdf]]"
 publication: "WebSearch: MATA Telugu benchmark"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Telugu"
-religious_values: "N/A"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Telugu
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "In this paper, we introduce MATA, a novel evaluation dataset to assess the ability of Large Language Models (LLMs) in Telugu language, comprising 729 carefully curated multiple-choice and open-ended questions that span diverse linguistic dimensions. We evaluate 11 openweight and closed-source LLMs on our dataset and present a fine-grained analysis of their performance. Further, we empirically show how LLMs rely on superficial heuristics such as answer position and distractor patterns for..."
 LLM_assessed: "Claude-3 Sonnet, GPT-4, GPT-4o, Gemini, Gemma, Grok, Llama-3, Qwen"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 81
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

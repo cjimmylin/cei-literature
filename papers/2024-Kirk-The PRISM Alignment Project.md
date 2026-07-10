@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,15 +6,15 @@ Not AI:
 key: PPTHRZIQ
 type: journalArticle
 short_title: "The PRISM Alignment Project"
-year: 2024
+year: 2025
 first_author: "[[Hannah Rose Kirk]]"
 last_author: "[[Scott A. Hale]]"
 authors: "Hannah Rose Kirk; Alexander Whitefield; Paul Röttger; Andrew Bean; Katerina Margatina; Juan Ciro; Rafael Mosquera; Max Bartolo; Adina Williams; He He; Bertie Vidgen; Scott A. Hale"
 url: "https://arxiv.org/abs/2404.16019"
 external_pdf: "https://arxiv.org/pdf/2404.16019.pdf"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "English"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -75,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "American, Multicultural/Cross-cultural, AI Safety & Alignment"
 key_contribution: "Introduced PRISM, a dataset mapping sociodemographics and preferences of 1,500 diverse participants from 75 countries to their feedback on 8,000+ interactions with 21 LLMs."
 significance: "Highlights the necessity of participatory alignment, showing how subjective and multicultural perspectives (participant profiles) significantly influence feedback on conflict-laden topics."
@@ -90,7 +54,7 @@ publication: "NeurIPS 2024"
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260207
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
 ---

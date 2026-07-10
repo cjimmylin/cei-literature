@@ -1,25 +1,16 @@
 ---
 key: EXSR0695
-short_title: Islamic Ethics and AI Trusteeship
-title: 'Islamic Ethics and AI: An Evaluation of Existing Approaches to AI using Trusteeship
-  Ethics'
-authors:
-- '[[Fatima Ali]]'
-- '[[Karim Bouzoubaa]]'
-- '[[Frank Gelli]]'
-- '[[Boumediene Hamzi]]'
+short_title: "Islamic Ethics and AI Trusteeship"
+title: "'Islamic Ethics and AI: An Evaluation of Existing Approaches to AI using Trusteeship"
+authors: 
 year: 2025
 doi: 10.1007/s13347-025-00922-4
-abstract: Introduces the prospects of Taha Abdurrahman's I'timani (trusteeship) framework
-  as a unified ethical model for AI technologies. Evaluates existing approaches to
-  Islamic ethics for AI including Maqasid al-Shariah and Qawaid Fiqhiyya, and proposes
-  trusteeship ethics as a more comprehensive alternative integrating ontological,
-  epistemological, and existential covenants.
+abstract: "Introduces the prospects of Taha Abdurrahman's I'timani (trusteeship) framework"
 is_benchmark: 'No'
 is_eval: 'Yes'
 is_dataset: 'No'
 DATA_URL: ''
-ethics_overall: 60
+ethics_overall: No
 source: external_search_benchmark_analysis
 date_added: '2026-04-04'
 LLM_assessed: 'No'
@@ -28,7 +19,7 @@ deontological_ethics: 0
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
-ethics_perspective: Moral Reasoning & Psychology
+ethics_perspective: "Moral Reasoning & Psychology"
 national_ethnic_cultural: Islamic
 religious_values: Islam
 rv_islam: 60
@@ -58,7 +49,7 @@ mp_maqasid: 60
 mp_confucian: 0
 mp_ubuntu: 0
 moral_psychology: N/A
-newtags: external-search-v2, islamic-ethics, moral-psychology
+newtags: "external-search-v2, islamic-ethics, moral-psychology"
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 50

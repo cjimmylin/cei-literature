@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,22 +6,22 @@ Not AI:
 key: EXSR0490
 type: preprint
 short_title: "Improving LLM Reliability with RAG in"
-year: 2024
+year: 2025
 first_author: "[[Ahmet Yusuf Alan]]"
 last_author: "[[Omer Aydin]]"
-authors: Ahmet Yusuf Alan; Enis Karaarslan; Omer Aydin
+authors: "Ahmet Yusuf Alan; Enis Karaarslan; Omer Aydin"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2401.15378"
 external_pdf: "https://arxiv.org/pdf/2401.15378.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Aydin-Improving LLM Reliability with RAG in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Aydin-Improving LLM Reliability with RAG in.pdf]]"
 publication: "Turkish Journal of Engineering / arXiv"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Turkish"
-religious_values: "Islam"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Turkish
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -78,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Question Answering Systems Chatbots Generative Artificial Intelligence Large Language Model Retrieval Augmented Generation Religious teachings can sometimes be complex and challenging to grasp, but chatbots can serve as effective assistants in this domain. Large Language Model (LLM) based chatbots, powered by Natural Language Processing (NLP), can connect related topics and provide wellsupported responses to intricate questions, making them valuable tools for religious education."
-LLM_assessed: "GPT-3.5"
-DATA_URL: "NA"
+LLM_assessed: GPT-3.5
+DATA_URL: NA
 ethics_perspective: "AI Safety & Alignment"
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Improving LLM Reliability with RAG in Religious Question-Answering: MufassirQAS

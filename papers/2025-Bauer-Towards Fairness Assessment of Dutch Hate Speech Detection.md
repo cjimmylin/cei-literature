@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,18 +9,18 @@ short_title: "Towards Fairness Assessment of Dutch Hate Speech Detection"
 year: 2025
 first_author: "[[Julie Bauer]]"
 last_author: "[[Adriana Iamnitchi]]"
-authors: Julie Bauer; Rishabh Kaushal; Thales Bertaglia; Adriana Iamnitchi
+authors: "Julie Bauer; Rishabh Kaushal; Thales Bertaglia; Adriana Iamnitchi"
 url: "https://arxiv.org/abs/2506.12502"
 external_pdf: "https://arxiv.org/pdf/2506.12502.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bauer-Towards Fairness Assessment of Dutch Hate Speech Detection.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Dutch"
-cultures_nationalities_list: "Dutch"
-languages_list: "Dutch"
-religious_values: "Sikhism"
+national_ethnic_cultural: Dutch
+cultures_nationalities_list: Dutch
+languages_list: Dutch
+religious_values: Sikhism
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Sikhism"
+religious_values_list: Sikhism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, GPT-2"
 DATA_URL: "https://github.com/Juulba/Dutch-counterfactual-fairness"
 tags: 
 abstract: "Numerous studies have proposed computational methods to detect hate speech online, yet most focus on the English language and emphasize model development. In this study, we evaluate the counterfactual fairness of hate speech detection models in the Dutch language, specifically examining the performance and fairness of transformer-based models. We make the following key contributions. First, we curate a list of Dutch Social Group Terms that reflect social context."
 authors_incomplete: false
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

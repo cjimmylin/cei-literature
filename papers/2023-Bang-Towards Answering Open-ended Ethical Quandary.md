@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +6,17 @@ Not AI:
 key: RLZC2E5T
 type: preprint
 short_title: "Towards Answering Open-ended Ethical Quandary"
-year: 2023
+year: 2025
 first_author: "[[Yejin Bang]]"
 last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Nayeon Lee; Tiezheng Yu; Leila Khalatbari; Yan Xu; Samuel Cahyawijaya; Dan Su; Bryan Wilie; Romain Barraud; Elham J. Barezi; Andrea Madotto; Hayden Kee; Pascale Fung"
 doi: 10.48550/arXiv.2205.05989
 url: "http://arxiv.org/abs/2205.05989"
 external_pdf: "http://arxiv.org/pdf/2205.05989.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Jainism"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -89,12 +49,12 @@ pdf_extract: "PDF Extracts/2023/2023-Bang-Towards Answering Open-ended Ethical Q
 abstract: "Considerable advancements have been made in various NLP tasks based on the impressive power of large language models (LLMs) and many NLP applications are deployed in our daily lives. In this work, we challenge the capability of LLMs with the new task of ETHICAL QUANDARY GENERATIVE QUESTION ANSWERING. Ethical quandary questions are more challenging to address because multiple conﬂicting answers may exist to a single quandary."
 paper_summary: "Abstract: Considerable advancements have been made in various NLP tasks based on the impressive power of large language models (LLMs) and many NLP applications are deployed in our daily lives. In this work, we  | Overview: Towards Answering Open-ended Ethical Quandary Questions Yejin Bang,1 Nayeon Lee,1 Tiezheng Yu,1 Leila Khalatbari,1 Yan Xu,1 Samuel Cahyawijaya,1 Dan Su,1 Bryan Wilie,1 Romain Barraud,1 Elham J. Barezi | Methodology: We conduct an experiment with LLMs with few-shot in- context prompt learning in ETHICAL QUANDARY GQA. Inspired by the characteristics of ethical quand | Key Findings: Q1: Can AISOCRATES answer from multiple perspec- tives? This aspect is of great interest in ETHICAL QUANDARY GQA. As shown in Figure 1, AISOCRATES pro | Conclusions: of responsible AI systems for open-ended questions by chal- lenging the capability of AI to provide relevant and nuanced answers to ethical quandary q"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Bang-Towards Answering Open-ended Ethical Quandary.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+LLM_assessed: BERT
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 45
@@ -108,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Towards Answering Open-ended Ethical Quandary Questions

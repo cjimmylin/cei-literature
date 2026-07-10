@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,10 +6,10 @@ Not AI:
 key: EXSR0514
 type: conference_paper
 short_title: "One Model is All You Need"
-year: 2024
+year: 2025
 first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer]]"
-authors: Sebastian Nehrdich; Oliver Hellwig; Kurt Keutzer
+authors: "Sebastian Nehrdich; Oliver Hellwig; Kurt Keutzer"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2409.13920"
 external_pdf: "https://arxiv.org/pdf/2409.13920.pdf"
@@ -55,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Keutzer-One Model is All You Need.pdf
 publication: "Findings of EMNLP 2024"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Sanskrit"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Sanskrit
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Morphologically rich languages are notoriously challenging to process for downstream NLP applications. This paper presents a new pretrained language model, ByT5-Sanskrit, designed for NLP applications involving the morphologically rich language Sanskrit. We evaluate ByT5-Sanskrit on established Sanskrit word segmentation tasks, where it outperforms previous data-driven approaches by a considerable margin and matches the performance of the current best lexicon-based model."
-LLM_assessed: "T5"
+LLM_assessed: T5
 DATA_URL: "https://github.com/sebastian-nehrdich/byt5-sanskrit-analyzers ; https://huggingface.co/buddhist-nlp/byt5-sanskrit"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # One Model is All You Need: ByT5-Sanskrit, a Unified Model for Sanskrit NLP Tasks

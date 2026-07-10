@@ -2,13 +2,13 @@
 key: INNOVATION-P117
 type: preprint
 short_title: "Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework"
-year: 2026
+year: 2025
 first_author: "[[Chingkwun Lam]]"
 authors: "Chingkwun Lam; Jiaxin Li; Lingfei Zhang; Kuo Zhao"
 url: "https://arxiv.org/abs/2603.11768"
 external_pdf: "https://arxiv.org/pdf/2603.11768.pdf"
 abstract: "Long-term memory has emerged as a foundational component of autonomous Large Language Model (LLM) agents, enabling continuous adaptation, lifelong multimodal learning, and sophisticated reasoning. However, as memory systems transition from static retrieval databases to dynamic, agentic mechanisms, critical concerns regarding memory governance, semantic drift, and privacy vulnerabilities have surfaced. While recent surveys have focused extensively on memory retrieval efficiency, they largely overlook the emergent risks of memory corruption in highly dynamic environments. To address these emerging challenges, we propose the Stability and Safety-Governed Memory (SSGM) framework, a conceptual governance architecture. SSGM decouples memory evolution from execution by enforcing consistency verification, temporal decay modeling, and dynamic access control prior to any memory consolidation. Through formal analysis and architectural decomposition, we show how SSGM can mitigate topology-induced knowledge leakage where sensitive contexts are solidified into long-term storage, and help prevent semantic drift where knowledge degrades through iterative summarization. Ultimately, this work provides a comprehensive taxonomy of memory corruption risks and establishes a robust governance paradigm for deploying safe, persistent, and reliable agentic memory systems."
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -41,25 +41,24 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Not specified"
 data_metrics: "Not specified"
 newtags: "Multi-Agent Value Dynamics"
-key_contribution: ""
-significance: ""
-paper_summary: ""
+key_contribution: 
+significance: 
+paper_summary: 
 local_pdf: "[[Lit-WS-PDFs/2026/2026-Lam-SSGM Memory-Drift Governance.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Lam-SSGM Memory-Drift Governance.md"
-tags:
-  - AIAlignment
-Human View: ""
-Human View Date: ""
-Human View note: ""
-Not AI: ""
+tags: 
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 DATE_ADDED: 20260709
-innovation_gap: "G-18"
+innovation_gap: G-18
 ---
 
 # Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the Stability and Safety Governed Memory (SSGM) Framework

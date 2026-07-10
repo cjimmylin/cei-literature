@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,10 +6,10 @@ Not AI:
 key: EXSR0559
 type: preprint
 short_title: "ISE-Hate A Benchmark Corpus for Inter-faith"
-year: 2023
+year: 2025
 first_author: "[[Akram, Muhammad Hammad]]"
 last_author: "[[Maryam Bashir]]"
-authors: Muhammad Hammad Akram; Khurram Shahzad; Maryam Bashir
+authors: "Muhammad Hammad Akram; Khurram Shahzad; Maryam Bashir"
 authors_incomplete: false
 url: "https://www.sciencedirect.com/science/article/abs/pii/S0306457323000079"
 external_pdf: "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24106617.v2"
@@ -60,10 +23,10 @@ pdf_access_note: "Automated retrieval exhausted; manual browser or institutional
 publication: "Information Processing and Management"
 CONF-CC: "Information Processing and Management"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Urdu"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Urdu
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -78,7 +41,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,15 +50,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "21,759 Urdu tweets classified for hateful vs neutral content, with hateful tweets sub-categorized into interfaith, sectarian, ethnic, and other categories. Highly relevant: addresses inter-faith, sectarian, and ethnic hatred in Urdu, directly related to cultural values and religious bias."
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 research_topic: "Machine Learning"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +72,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

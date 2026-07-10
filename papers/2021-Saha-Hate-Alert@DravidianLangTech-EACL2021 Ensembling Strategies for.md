@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,9 +6,9 @@ Not AI:
 key: LSRC0053
 type: conferencePaper
 short_title: "Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection"
-year: 2021
-first_author: "[[Saha]]"
-last_author: "[[Saha]]"
+year: 2025
+first_author: [[Saha]]
+last_author: [[Saha]]
 authors: Saha
 url: "https://hate-alert.github.io/publication/saha2021hate/"
 external_pdf: "https://arxiv.org/pdf/2102.10084v1.pdf"
@@ -55,10 +17,10 @@ CONF-CC: "Shared Task (2021)"
 pdf_extract: "PDF Extracts/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Saha-Hate-Alert@DravidianLangTech-EACL2021 Ensembling Strategies for.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "Kannada, Malayalam, Tamil"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 5
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/Debjoy10/Hate-Alert-DravidianLangTech"
 tags: 
 abstract: "Social media often acts as breeding grounds for different forms of offensive content. For low resource languages like Tamil, the situation is more complex due to the poor performance of multilingual or language-speciﬁc models and lack of proper benchmark datasets. Based on this shared task “Offensive Language Identiﬁcation in Dravidian Languages” at EACL 2021, we present an exhaustive exploration of different transformer models, We also provide a genetic algorithm technique for ensembling..."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Hate-Alert@DravidianLangTech-EACL2021: Ensembling Strategies for Transformer-based Offensive Language Detection

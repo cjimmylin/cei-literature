@@ -1,59 +1,24 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: ZERO0029
 type: conferencePaper
-short_title: Artificial Intelligence and Indigenous Data Sovereignty
-year: 2018
+short_title: "Artificial Intelligence and Indigenous Data Sovereignty"
+year: 2025
 first_author: "[[Maggie Walter]]"
 last_author: "[[Tahu Kukutai]]"
-authors: Maggie Walter; Tahu Kukutai
+authors: "Maggie Walter; Tahu Kukutai"
 url: "https://acola.org/wp-content/uploads/2019/07/acola-ai-input-paper_indigenous-data-sovereignty_walter-kukutai.pdf"
-publication: Australian Council of Learned Academies (ACOLA)
-CONF-CC: "N/A"
+publication: "Australian Council of Learned Academies (ACOLA)"
+CONF-CC: N/A
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "Australian/Aboriginal"
-cultures_nationalities_list: "Australian/Aboriginal"
-languages_list: ""
+national_ethnic_cultural: Australian/Aboriginal
+cultures_nationalities_list: Australian/Aboriginal
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -78,14 +43,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Input paper for Australia's ACOLA Horizon Scanning Project on AI. Addresses Indigenous data sovereignty — the rights of Indigenous peoples to own, control, access, and possess data about their members, knowledge systems, customs, or territories — in the context of AI development."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -99,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 95
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Artificial Intelligence and Indigenous Data Sovereignty

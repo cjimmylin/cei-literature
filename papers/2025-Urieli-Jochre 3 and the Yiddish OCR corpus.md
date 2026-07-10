@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,11 +15,11 @@ external_pdf: "https://arxiv.org/pdf/2501.08442.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Urieli-Jochre 3 and the Yiddish OCR corpus.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew/Israeli"
-languages_list: "Yiddish"
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Yiddish
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "RoBERTa"
+LLM_assessed: RoBERTa
 DATA_URL: "https://gitlab.com/jochre/corpora/jochre-yiddish-corpus"
 tags: 
 abstract: "We describe the construction of a publicly available Yiddish OCR Corpus, and describe and evaluate the open source OCR tool suite Jochre 3, including an Alto editor for corpus annotation, OCR software for Alto OCR layer generation, and a customizable OCR search engine. The current version of the Yiddish OCR corpus contains 658 pages, 186K tokens and 840K glyphs. The Jochre 3 OCR tool uses various fine-tuned YOLOv8 models for top-down page layout analysis, and a custom CNN network for glyph..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "186k tokens; 660m word"
 ---

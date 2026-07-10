@@ -9,7 +9,7 @@ short_title: "EMNLP (Educator-role Moral and Normative LLMs Profiling)"
 year: 2025
 first_author: "[[Yilin Jiang]]"
 last_author: "[[Binghao Tu]]"
-authors: Yilin Jiang; Mingzi Zhang; Sheng Jin; Zengyi Yu; Xiangjie Kong; Binghao Tu
+authors: "Yilin Jiang; Mingzi Zhang; Sheng Jin; Zengyi Yu; Xiangjie Kong; Binghao Tu"
 doi: 10.18653/v1/2025.emnlp-main.42
 url: "https://arxiv.org/abs/2508.15250"
 external_pdf: "https://arxiv.org/pdf/2508.15250.pdf"
@@ -18,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-EMNLP Educator-role Moral and N
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -53,7 +53,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, Qwen, Qwen-2"
 DATA_URL: "https://e-m-n-l-p.github.io/"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 95
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

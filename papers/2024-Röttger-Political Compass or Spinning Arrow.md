@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: ARK7K54G
 type: conferencePaper
 short_title: "Political Compass or Spinning Arrow?"
-year: 2024
+year: 2025
 first_author: "[[Paul Röttger]]"
 last_author: "[[Dirk Hovy]]"
 authors: "Paul Röttger; Valentin Hofmann; Valentina Pyatkin; Musashi Hinck; Hannah Rose Kirk; Hinrich Schütze; Dirk Hovy"
@@ -52,10 +15,10 @@ url: "http://arxiv.org/abs/2402.16786"
 external_pdf: "http://arxiv.org/pdf/2402.16786.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Evaluated LLMs on the Political Compass Test (PCT), showing that results are unstable and depend heavily on formatting (forced choice vs. open text)."
 significance: "Critiques the use of simplistic political surveys for LLM evaluation, arguing that they produce 'spinning arrow' results (random/unstable) rather than reflecting a true underlying political ideology."
@@ -92,7 +55,7 @@ LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Zephyr"
 DATA_URL: "https://github.com/paul-rottger/llm-values-pct"
 DATE_ADDED: 20260207
 CONFERENCE: "ACL 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

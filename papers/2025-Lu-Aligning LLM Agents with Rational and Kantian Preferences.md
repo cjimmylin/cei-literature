@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,9 +7,9 @@ key: ARXIV_2507_20796
 type: preprint
 short_title: "Aligning LLM Agents with Rational and Kantian Preferences"
 year: 2025
-first_author: [[Wei Lu]]
-last_author: [[Christian B. Hansen]]
-authors: Wei Lu; Daniel L. Chen; Christian B. Hansen
+first_author: "[[Wei Lu]]"
+last_author: "[[Christian B. Hansen]]"
+authors: "Wei Lu; Daniel L. Chen; Christian B. Hansen"
 doi: 10.48550/arXiv.2507.20796
 tags: "Computer Science - Machine Learning"
 url: "https://arxiv.org/abs/2507.20796"
@@ -49,12 +17,12 @@ pdf_extract: "PDF Extracts/2025/2025-Lu-Aligning LLM Agents with Rational and Ka
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lu-Aligning LLM Agents with Rational and Kantian Preferences.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.20796.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 ethics_perspective: "Kantian Ethics"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -69,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -85,10 +53,10 @@ significance: "Empirically tests Kantian moral concern parameter in GPT-4o; appl
 abstract: "Understanding how large language model (LLM) agents behave in strategic interactions is essential as these systems increasingly participate autonomously in economically and morally consequential decisions. We evaluate LLM preferences using canonical economic games, finding substantial deviations from human behavior. Models like GPT-4o show excessive cooperation and limited incentive sensitivity, while reasoning models, such as o3-mini, align more consistently with payoff-maximizing strategies."
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, o3"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 65
 utilitarian_ethics: 80
@@ -101,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

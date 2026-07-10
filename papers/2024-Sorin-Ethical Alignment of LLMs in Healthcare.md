@@ -6,7 +6,7 @@ Not AI:
 key: SORIN2024MEDRXIV
 type: preprint
 short_title: "Ethical Alignment of LLMs in Healthcare"
-year: 2024
+year: 2025
 first_author: "[[Vera Sorin]]"
 last_author: "[[Eyal Klang]]"
 authors: "Vera Sorin; B.S. Glicksberg; Panagiotis Korfiatis; G.N. Nadkarni; Eyal Klang"
@@ -14,11 +14,11 @@ doi: 10.1101/2024.09.18.24313931
 url: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1"
 external_pdf: "https://www.medrxiv.org/content/10.1101/2024.09.18.24313931v1.full.pdf"
 publication: medRxiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -53,10 +53,10 @@ paper_summary:
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sorin-Ethical Alignment of LLMs in Healthcare.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma-2, Llama-3, Phi-3, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Yes
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

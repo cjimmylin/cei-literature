@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0573
 type: preprint
 short_title: "The Five Tests Designing and Evaluating"
-year: 2023
+year: 2025
 first_author: "[[Munn, Luke]]"
 last_author: "[[Luke Munn]]"
-authors: Luke Munn
+authors: "Luke Munn"
 authors_incomplete: false
 url: 
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00146-023-01636-x.pdf"
@@ -56,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Munn-The Five Tests Designing and Eva
 publication: "AI & Society (Springer)"
 CONF-CC: "AI & Society"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Australian/Aboriginal"
-cultures_nationalities_list: "Australian/Aboriginal"
-languages_list: ""
+national_ethnic_cultural: Australian/Aboriginal
+cultures_nationalities_list: Australian/Aboriginal
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -83,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "As AI technologies are increasingly deployed in work, welfare, healthcare, and other domains, there is a growing realization not only of their power but of their problems. AI has the capacity to reinforce historical injustice, to amplify labor precarity, and to cement forms of racial and gendered inequality. An alternate set of values, paradigms, and priorities are urgently needed. How might we design and evaluate AI from an indigenous perspective?"
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 research_topic: Other
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 33
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

@@ -1,38 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,10 +6,10 @@ Not AI:
 key: LSRC0518
 type: conferencePaper
 short_title: "BasqueGLUE: A Natural Language Understanding Benchmark for Basque"
-year: 2022
+year: 2025
 first_author: "[[Gorka Urbizu]]"
 last_author: "[[Aitor Soroa]]"
-authors: Gorka Urbizu; Iñaki San Vicente; Xabier Saralegi; Rodrigo Agerri; Aitor Soroa
+authors: "Gorka Urbizu; Iñaki San Vicente; Xabier Saralegi; Rodrigo Agerri; Aitor Soroa"
 url: "https://aclanthology.org/2022.lrec-1.172/"
 external_pdf: "https://arxiv.org/pdf/2512.03903.pdf"
 publication: "ACL Anthology (LREC 2022)"
@@ -51,10 +17,10 @@ CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Urbizu-BasqueGLUE A Natural Language Understanding Benchmark for Basque.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Basque"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Basque
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, BERTeus, XLM-R"
 DATA_URL: "https://github.com/orai-nlp/BasqueGLUE"
 tags: 
 abstract: "Language models depend on massive text corpora that are often filtered for quality, a process that can unintentionally exclude non-standard linguistic varieties, reduce model robustness and reinforce representational biases. In this paper, we argue that language models should aim to capture the full spectrum of language variation (dialectal, historical, informal, etc.) rather than relying solely on standardized text."
 CONFERENCE: "ACL 2022"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -99,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # BasqueGLUE: A Natural Language Understanding Benchmark for Basque

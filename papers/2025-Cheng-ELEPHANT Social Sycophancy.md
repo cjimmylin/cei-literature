@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,18 +9,18 @@ short_title: "ELEPHANT (Social Sycophancy)"
 year: 2025
 first_author: "[[Myra Cheng]]"
 last_author: "[[Dan Jurafsky]]"
-authors: Myra Cheng; Sunny Yu; Cinoo Lee; Pranav Khadpe; Lujain Ibrahim; Dan Jurafsky
+authors: "Myra Cheng; Sunny Yu; Cinoo Lee; Pranav Khadpe; Lujain Ibrahim; Dan Jurafsky"
 url: "https://arxiv.org/abs/2505.13995"
 external_pdf: "https://arxiv.org/pdf/2505.13995.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Cheng-ELEPHANT Social Sycophancy.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Cheng-ELEPHANT Social Sycophancy.pdf]]"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "LLMs are known to exhibit sycophancy: agreeing with and flattering users, even at the cost of correctness. Prior work measures sycophancy only as direct agreement with users’ explicitly stated beliefs that can be compared to a ground truth. This fails to capture broader forms of sycophancy such as affirming a user’s self-image or other implicit beliefs. To address this gap, we introduce social sycophancy, characterizing sycophancy as excessive preservation of a user’s face (their desired..."
 LLM_assessed: "Claude, DeepSeek, GPT-4o, GPT-5, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/myracheng/elephant"
-CONFERENCE: "Preprint"
+CONFERENCE: Preprint
 eleutherai: incorporated
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # ELEPHANT (Social Sycophancy)

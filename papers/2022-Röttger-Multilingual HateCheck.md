@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,16 +6,16 @@ Not AI:
 key: 9RSV3LVL
 type: journalArticle
 short_title: "Multilingual HateCheck"
-year: 2022
+year: 2025
 first_author: "[[Paul Röttger]]"
 last_author: "[[Bertie Vidgen]]"
 authors: "Paul Röttger; Haitham Seelawi; Debora Nozza; Zeerak Talat; Bertie Vidgen"
 url: "https://arxiv.org/abs/2206.09917"
 external_pdf: "https://arxiv.org/pdf/2206.09917.pdf"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: "Arabic, Chinese, Dutch, English, French, German, Hindi, Italian, Polish, Portuguese, Spanish"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Expanded HateCheck to 10 languages, providing functional tests for multilingual hate speech detection"
 significance: "Crucial for global AI safety, revealing that multilingual models often fail to transfer specific safety functionalities across languages"
@@ -84,12 +49,12 @@ pdf_extract: "PDF Extracts/2022/2022-Röttger-Multilingual HateCheck.md"
 abstract: "Hate speech detection models are typically evaluated on held-out test sets. However, this risks painting an incomplete and potentially misleading picture of model performance because of increasingly well-documented systematic gaps and biases in hate speech datasets. To enable more targeted diagnostic insights, recent research has thus introduced functional tests for hate speech detection models. However, these tests currently only exist for English-language content, which means that they cannot..."
 paper_summary: "Abstract: Hate speech detection models are typically evaluated on held-out test sets. However, this risks painting an incomplete and potentially misleading picture of model performance be- cause of increasingly | Overview: MULTILINGUAL HATECHECK: Functional Tests for Multilingual Hate Speech Detection Models Paul Röttger1,2, Haitham Seelawi1, Debora Nozza1,3, Zeerak Talat1,4, and Bertie Vidgen1 1Rewire 2University of Ox | Conclusions: MHC reveals clear functional weaknesses in the XTC model across all ten languages. First, XTC is overly sensitive to key words and phrases. XTC does h"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Röttger-Multilingual HateCheck.pdf]]"
-CONF-CC: "WOAH"
+CONF-CC: WOAH
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/rewire-online/multilingual-hatecheck"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -103,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

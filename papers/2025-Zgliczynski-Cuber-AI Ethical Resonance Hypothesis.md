@@ -7,9 +7,9 @@ key: ARXIV_2507_11552
 type: preprint
 short_title: "AI Ethical Resonance Hypothesis"
 year: 2025
-first_author: "[[Zgliczyński-Cuber]]"
-last_author: "[[Tomasz]]"
-authors: Zgliczyński-Cuber; Tomasz
+first_author: [[Zgliczyński-Cuber]]
+last_author: [[Tomasz]]
+authors: "Zgliczyński-Cuber; Tomasz"
 doi: 10.48550/arXiv.2507.11552
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2507.11552"
@@ -17,11 +17,11 @@ pdf_extract: "PDF Extracts/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypo
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zgliczynski-Cuber-AI Ethical Resonance Hypothesis.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.11552.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 50
@@ -52,9 +52,9 @@ significance: "Suggests AI could be active participants in ethics evolution rath
 abstract: "This paper presents a theoretical framework for the AI ethical resonance hypothesis, which proposes that advanced AI systems with purposefully designed cognitive structures (“ethical resonators”) may emerge with the ability to identify subtle moral patterns that are invisible to the human mind. The paper explores the possibility that by processing and synthesizing large amounts of ethical contexts, AI systems may identify moral meta-patterns that transcend cultural, historical, and individual..."
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 80
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -68,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The AI Ethical Resonance Hypothesis: The Possibility of Discovering Moral Meta-Patterns in AI Systems

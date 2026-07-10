@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,10 +6,10 @@ Not AI:
 key: LSRC0540
 type: conferencePaper
 short_title: "Large Language Models and Low-Resource Languages: An Examination of Armenian NLP"
-year: 2023
+year: 2025
 first_author: "[[Hayastan Avetisyan]]"
 last_author: "[[David Broneske]]"
-authors: Hayastan Avetisyan; David Broneske
+authors: "Hayastan Avetisyan; David Broneske"
 url: "https://aclanthology.org/2023.findings-ijcnlp.18/"
 external_pdf: "https://aclanthology.org/2023.findings-ijcnlp.18.pdf"
 publication: "ACL Anthology / IJCNLP-AACL 2023 Findings"
@@ -52,9 +17,9 @@ CONF-CC: "AACL 2023"
 pdf_extract: "PDF Extracts/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Avetisyan-Large Language Models and Low-Resource Languages An Examination of.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Armenian"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Armenian
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "This paper presents a comprehensive review of Natural Language Processing (NLP) research on Armenian, a language that, despite its rich history and unique linguistic characteristics, is currently low-resource in the field of NLP. We critically synthesize and evaluate various studies in Armenian NLP, highlighting key advancements, challenges, and areas for improvement. A notable aspect of our work is the underlined lack of application of Large Language Models (LLMs) in Armenian NLP, signifying..."
 CONFERENCE: "ACL 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

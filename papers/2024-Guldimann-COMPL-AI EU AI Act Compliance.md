@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: EXSR0149
 type: preprint
 short_title: "COMPL-AI (EU AI Act Compliance)"
-year: 2024
+year: 2025
 first_author: "[[Guldimann, Philipp]]"
 last_author: "[[Vechev, Martin]]"
 authors: "Guldimann, Philipp; Spiridonov, Alexander; Staab, Robin; Jovanović, Nikola; Vero, Mark; Vechev, Velko; Gueorguieva, Anna-Maria; Balunović, Mislav; Konstantinov, Nikola; Bielik, Pavol; Tsankov, Petar; Vechev, Martin"
@@ -55,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2410.07959.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Guldimann-COMPL-AI EU AI Act Compliance.pdf]]"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The EU’s Artificial Intelligence Act (AI Act) is a significant step towards responsible AI development, but lacks clear technical interpretation, making it difficult to assess models’ compliance. This work presents COMPL-AI, a comprehensive framework consisting of (i) the first technical interpretation of the EU AI Act, translating its broad regulatory requirements into measurable technical requirements, with the focus on large language models (LLMs), and (ii) an open-source Act-centered..."
 LLM_assessed: "Claude-3 Opus, GPT-3.5, GPT-4, Llama-2, Llama-3, Mistral, Mixtral, Qwen-1.5, Yi"
 DATA_URL: "https://github.com/compl-ai/compl-ai"
-CONFERENCE: "Preprint"
-ethics_overall: 90
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

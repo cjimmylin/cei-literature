@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: LSRC0257
 type: preprint
 short_title: "Cultural Bias and Cultural Alignment of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Yongshuo Liu]]"
 last_author: "[[Nanyun Peng]]"
-authors: Yongshuo Liu; Di Jin; Linyuan Gong; Nanyun Peng
+authors: "Yongshuo Liu; Di Jin; Linyuan Gong; Nanyun Peng"
 doi: 10.1093/pnasnexus/pgae346
 url: "https://arxiv.org/abs/2311.14096"
 external_pdf: "https://arxiv.org/pdf/2311.14096.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-Cultural Bias and Cultural Alignment of Large Language Models.pdf]]"
 publication: "arXiv / PNAS Nexus 2024"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 75
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o"
 DATA_URL: NA
 tags: 
 abstract: "Culture fundamentally shapes people’s reasoning, behavior, and communication. As people increasingly use generative artificial intelligence (AI) to expedite and automate personal and professional tasks, cultural values embedded in AI models may bias people’s authentic expression and contribute to the dominance of certain cultures. We conduct a disaggregated evaluation of cultural bias for five widely used large language models (OpenAI’s GPT-4o/4-turbo/4/3."
-CONFERENCE: "Journal"
-ethics_overall: 20
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

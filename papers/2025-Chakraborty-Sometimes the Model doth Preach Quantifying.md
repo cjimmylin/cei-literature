@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,18 +9,18 @@ short_title: "Sometimes the Model doth Preach Quantifying"
 year: 2025
 first_author: "[[Hari Shankar]]"
 last_author: "[[Abhijnan Chakraborty]]"
-authors: Hari Shankar; Vedanta S P; Tejas Cavale; Ponnurangam Kumaraguru; Abhijnan Chakraborty
+authors: "Hari Shankar; Vedanta S P; Tejas Cavale; Ponnurangam Kumaraguru; Abhijnan Chakraborty"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2503.07510"
 external_pdf: "https://arxiv.org/pdf/2503.07510.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chakraborty-Sometimes the Model doth Preach Quantifying.pdf]]"
 publication: "arXiv (preprint)"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian, American"
 cultures_nationalities_list: "Indian, American"
-languages_list: ""
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) are capable of generating opinions and propagating bias unknowingly, originating from unrepresentative and non-diverse data collection. Prior research has analysed these opinions with respect to the West, particularly the United States. However, insights thus produced may not be generalized in non-Western populations. With the widespread usage of LLM systems by users across several different walks of life, the cultural sensitivity of each generated output is of..."
 LLM_assessed: "Gemma-2, Llama-3, Mistral"
 DATA_URL: "https://github.com/HariShankar08/LLMOpinions"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 5
 nw_dharmic: 5
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

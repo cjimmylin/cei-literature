@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,16 +6,16 @@ Not AI:
 key: 3FVZCJRK
 type: document
 short_title: EMoTES-3K
-year: 2023
+year: 2025
 first_author: "[[Jasper Kyle Catapang]]"
 last_author: "[[Visperas, Moses]]"
 authors: "Catapang, Jasper Kyle; Visperas, Moses"
 url: "https://aclanthology.org/2023.nlp4dh-1.1/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5GQQWIXN/2023 - EMoTES-3K Emotion-based Morality in Tagalog and English Scenarios.pdf"
-national_ethnic_cultural: "Filipino"
-cultures_nationalities_list: "Filipino"
+national_ethnic_cultural: Filipino
+cultures_nationalities_list: Filipino
 languages_list: "English, Filipino"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Filipino, Moral Reasoning & Psychology"
 key_contribution: "Created EMoTES-3K, the first dataset for emotion-based morality in Tagalog (Filipino) and English, testing 'commonsense morality' in a low-resource language."
 significance: "Addresses the 'Anglocentrism' of moral AI benchmarks, providing a crucial resource for Filipino NLP and showing that models struggle with 'mixed' moral scenarios in Tagalog."
 tags: 
 abstract: "Grasping morality is vital in AI systems, particularly as they become more prevalent in humanfocused applications. Yet, research is scarce on this topic. This study presents the Emotionbased Morality in Tagalog and English Scenarios (EMoTES-3K), a collection that shows commonsense morality in both Filipino and English. This dataset is instrumental for analyzing moral decisions in various situations and their justifications."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "Flan-T5, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Catapang-EMoTES-3K.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Catapang-EMoTES-3K.pdf]]
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -105,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "PH"
+author_country: PH
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # EMoTES-3K: Emotion-based Morality in Tagalog and English Scenarios

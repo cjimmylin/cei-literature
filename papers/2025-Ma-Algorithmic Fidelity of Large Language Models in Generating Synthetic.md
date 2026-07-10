@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,18 +9,18 @@ short_title: "Algorithmic Fidelity of Large Language Models in Generating Synthe
 year: 2025
 first_author: "[[Bolei Ma]]"
 last_author: "[[Matthias Assenmacher]]"
-authors: Bolei Ma; Berk Yoztyurk; Anna-Carolina Haensch; Xinpeng Wang; Markus Herklotz; Frauke Kreuter; Barbara Plank; Matthias Assenmacher
+authors: "Bolei Ma; Berk Yoztyurk; Anna-Carolina Haensch; Xinpeng Wang; Markus Herklotz; Frauke Kreuter; Barbara Plank; Matthias Assenmacher"
 url: "https://arxiv.org/abs/2412.13169"
 external_pdf: "https://arxiv.org/pdf/2412.13169.pdf"
-publication: arXiv / ACL 2025
+publication: "arXiv / ACL 2025"
 CONF-CC: "ACL 2025"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Ma-Algorithmic Fidelity of Large Language Models in Generating Synthetic.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "German"
-languages_list: "German"
-religious_values: "N/A"
+national_ethnic_cultural: German
+cultures_nationalities_list: German
+languages_list: German
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Gemma, Llama-2, Mixtral"
 DATA_URL: "https://github.com/soda-lmu/llm-opinion-german"
@@ -88,7 +52,7 @@ tags:
 abstract: "In recent research, large language models (LLMs) have been increasingly used to investigate public opinions. This study investigates the algorithmic fidelity of LLMs, i.e., the ability to replicate the socio-cultural context and nuanced opinions of human participants. Using open-ended survey data from the German Longitudinal Election Studies (GLES), we prompt different LLMs to generate synthetic public opinions reflective of German subpopulations by incorporating demographic features into the..."
 research_topic: "AI Safety & Alignment"
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Algorithmic Fidelity of Large Language Models in Generating Synthetic German Public Opinions: A Case Study

@@ -2,14 +2,14 @@
 key: EXSR0691
 type: preprint
 short_title: "Moral Sycophancy in Vision Language Models"
-year: 2026
-first_author: "[[Unknown]]"
-authors: "Unknown"
+year: 2025
+first_author: [[Unknown]]
+authors: Unknown
 url: "https://arxiv.org/abs/2602.08311"
 abstract: "Tests moral sycophancy in VLMs -- moral stances flip under user disagreement, with morally-right-to-wrong transitions more frequent than reverse. Relevant to social intuitionism: tests whether models capitulate to social pressure rather than maintaining moral judgments."
-external_pdf: ""
-DOI: ""
-ethics_overall: 60
+external_pdf: 
+DOI: 
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: ""
+religious_values_list: 
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -45,12 +45,12 @@ mp_maqasid: 0
 mp_confucian: 0
 mp_ubuntu: 0
 moral_psychology: "Social Intuitionist Model"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-LLM_assessed: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+LLM_assessed: No
 newtags: "moral-psychology, external-search-v2"
-source: "moral-psych-external-search-v2"
+source: moral-psych-external-search-v2
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0

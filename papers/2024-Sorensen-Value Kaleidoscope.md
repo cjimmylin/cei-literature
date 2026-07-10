@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +6,7 @@ Not AI:
 key: 4YHKRNTT
 type: journalArticle
 short_title: "Value Kaleidoscope"
-year: 2024
+year: 2025
 first_author: "[[Taylor Sorensen]]"
 last_author: "[[Choi, Yejin]]"
 authors: "Sorensen, Taylor; Jiang, Liwei; Hwang, Jena; Levine, Sydney; Pyatkin, Valentina; West, Peter; Dziri, Nouha; Lu, Ximing; Rao, Kavel; Bhagavatula, Chandra; Sap, Maarten; Tasioulas, John; Choi, Yejin"
@@ -48,10 +15,10 @@ url: "http://arxiv.org/abs/2309.00779"
 pdf_extract: "PDF Extracts/2024/2024-Sorensen-Value Kaleidoscope.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sorensen-Value Kaleidoscope.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2309.00779.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 95
 mp_trolley: 0
@@ -85,10 +52,10 @@ paper_summary: "Abstract: Human values are crucial to human decision-making. Val
 LLM_assessed: "Flan-T5, GPT-4"
 DATA_URL: "https://huggingface.co/datasets/allenai/ValuePrism"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 65
 utilitarian_ethics: 5
@@ -101,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties

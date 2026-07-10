@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,19 +9,19 @@ short_title: "An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed"
 year: 2025
 first_author: "[[Ahmed, Mohamed]]"
 last_author: "[[Rachel Greenstadt]]"
-authors: Mohamed Ahmed; Jeffrey Knockel; Rachel Greenstadt
+authors: "Mohamed Ahmed; Jeffrey Knockel; Rachel Greenstadt"
 authors_incomplete: false
 url: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
 external_pdf: "https://petsymposium.org/popets/2025/popets-2025-0122.pdf"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ahmed-An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3 Haiku, Claude-3 Sonnet, GPT-4o, GPT-4o mini, Gemini, Llama-3"
 DATA_URL: "https://github.com/citizenlab/chat-censorship"
 tags: 
 abstract: "When a large language model (LLM) has been trained on text featuring social biases, those biases implicitly impact the outputs of the model. Training an LLM on sanitized content, i.e., those pieces of content which remain after being subjected to state censorship (including alterations, deletions, and self-imposed censorship), results in what we term censorship bias. A model impacted by censorship bias may be less likely to reflect views that are routinely prohibited and more likely to reflect..."
 CONFERENCE: "Other Conference"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # An Analysis of Chinese Censorship Bias in LLMs Mohamed Ahmed

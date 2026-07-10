@@ -1,15 +1,15 @@
 ---
-key: "CGSR0212"
-type: "document"
+key: CGSR0212
+type: document
 short_title: "AI for Social Good: Buddhist Compassion as a Solution"
-year: 2020
+year: 2025
 first_author: "[[Soraj Hongladarom]]"
 authors: "Soraj Hongladarom"
 url: "https://www.semanticscholar.org/paper/29e287ceb972bffda28b19eaaf64c6e93dd20e96"
-abstract: ""
+abstract: 
 DATE_ADDED: 20260403
 cultural_gap_category: "Buddhist-specific AI ethics"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,8 +22,8 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
 ---

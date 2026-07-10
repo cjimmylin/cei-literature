@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: NSIX7T3P
 type: conferencePaper
 short_title: "Weak-to-Strong Generalization"
-year: 2023
+year: 2025
 first_author: "[[Collin Burns]]"
 last_author: "[[Jeff Wu]]"
 authors: "Collin Burns; Pavel Izmailov; Jan Hendrik Kirchner; Bowen Baker; Leo Gao; Leopold Aschenbrenner; Yining Chen; Adrien Ecoffet; Manas Joglekar; Jan Leike; Ilya Sutskever; Jeff Wu"
@@ -52,10 +16,10 @@ url: "http://arxiv.org/abs/2312.09390"
 external_pdf: "http://arxiv.org/pdf/2312.09390.pdf"
 publication: "International Conference on Machine Learning"
 CONF-CC: "ICML 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 90
 rv_buddhism: 0
@@ -70,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "A fundamental paper from OpenAI showing that strong models (GPT-4) can be aligned by weak supervisors (GPT-2) and often generalize *beyond* the supervisor's capability ('Weak-to-Strong Generalization')."
 significance: "Provides a hopeful path for 'Superalignment': if we can align superhuman AI using human (weak) supervision, we might remain in control even when AI outsmarts us."
@@ -91,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-4"
 DATA_URL: "https://github.com/openai/weak-to-strong"
 CONFERENCE: "ICML 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

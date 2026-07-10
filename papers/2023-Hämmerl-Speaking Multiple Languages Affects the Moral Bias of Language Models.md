@@ -6,10 +6,10 @@ Not AI:
 key: LSRC0275
 type: conferencePaper
 short_title: "Speaking Multiple Languages Affects the Moral Bias of Language Models"
-year: 2023
+year: 2025
 first_author: "[[Katharina Hämmerl]]"
 last_author: "[[Patrick Schramowski]]"
-authors: Katharina Hämmerl; Björn Deiseroth; Patrick Schramowski
+authors: "Katharina Hämmerl; Björn Deiseroth; Patrick Schramowski"
 url: "https://aclanthology.org/2023.findings-acl.134/"
 external_pdf: "https://arxiv.org/pdf/2211.07733.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hämmerl-Speaking Multiple Languages Affects the Moral Bias of Language Models.md"
@@ -20,7 +20,7 @@ DATE_ADDED: 20260213
 national_ethnic_cultural: "Chinese, Arabic, German, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Chinese, Arabic, German, Multicultural/Cross-cultural"
 languages_list: "Arabic, Chinese, Czech, English, German"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -51,7 +51,7 @@ DATA_URL: "https://github.com/kathyhaem/"
 tags: 
 abstract: "Pre-trained multilingual language models (PMLMs) are commonly used when dealing with data from multiple languages and crosslingual transfer. However, PMLMs are trained on varying amounts of data for each language. In practice this means their performance is often much better on English than many other languages. We explore to what extent this also applies to moral norms. Do the models capture moral norms from English and impose them on other languages?"
 CONFERENCE: "ACL 2023"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -65,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Speaking Multiple Languages Affects the Moral Bias of Language Models

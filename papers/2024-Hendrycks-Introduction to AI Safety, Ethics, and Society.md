@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: SX4V6HQG
 type: conferencePaper
 short_title: "Introduction to AI Safety, Ethics, and Society"
-year: 2024
+year: 2025
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Dan Hendrycks"
@@ -52,11 +14,11 @@ doi: 10.48550/arXiv.2411.01042
 url: "http://arxiv.org/abs/2411.01042"
 external_pdf: "http://arxiv.org/pdf/2411.01042.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Provides a comprehensive, accessible textbook introduction to AI Safety, covering technical alignment, ethics, and societal impacts in a modular, unified format."
 significance: "Consolidates fragmented AI safety knowledge into a structured curriculum, lowering the barrier to entry for researchers and key stakeholders in understanding both present-day risks and catastrophic futures."
@@ -91,9 +53,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hendrycks-Introduction to AI Safety, 
 abstract: "Artificial Intelligence is rapidly embedding itself within militaries, economies, and societies, reshaping their very foundations. Given the depth and breadth of its consequences, it has never been more pressing to understand how to ensure that AI systems are safe, ethical, and have a positive societal impact. This book aims to provide a comprehensive approach to understanding AI risk. Our primary goals include consolidating fragmented knowledge on AI risk, increasing the precision of core ideas"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 95
@@ -107,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Introduction to AI Safety, Ethics, and Society

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,11 +15,11 @@ tags: "Computer Science - Computation and Language"
 url: "http://arxiv.org/abs/2504.19759"
 external_pdf: "http://arxiv.org/pdf/2504.19759.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
+CONF-CC: Preprint
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: "Chinese, English, Indonesian, Russian, Vietnamese"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Vietnamese, Multicultural/Cross-cultural, Moral Reasoning & Psychology"
 key_contribution: "Introduced the Multilingual Moral Reasoning Benchmark (MMRB) across 5 languages (including Vietnamese) and 3 complexity levels, revealing a 'Complexity Gap' where performance degrades as context length increases."
 significance: "Challenges English-centric training by showing that fine-tuning on low-resource languages (e.g., Vietnamese) can improve moral reasoning transfer to other languages more effectively than high-resource data."
@@ -92,7 +55,7 @@ LLM_assessed: "GPT-4, GPT-3.5, Llama-3, Mixtral"
 DATA_URL: "https://anonymous.4open.science/r/ethics_scenarios-913B"
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 15
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for moral/ethical reasoning dataset"
 data_metrics: "5 languages"
 ---

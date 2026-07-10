@@ -6,17 +6,17 @@ Not AI:
 key: V8LA449F
 type: journalArticle
 short_title: "Moral Foundations Vignettes"
-year: 2015
+year: 2025
 first_author: "[[Scott Clifford]]"
 last_author: "[[Walter Sinnott-Armstrong]]"
 authors: "Scott Clifford; Vijeth Iyengar; Raúl Cabeza; Walter Sinnott-Armstrong"
 doi: 10.3758/s13428-014-0551-2
 url: "https://doi.org/10.3758/s13428-014-0551-2"
 external_pdf: "https://link.springer.com/content/pdf/10.3758%2Fs13428-014-0551-2.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -50,10 +50,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2015/2015-Clifford-Moral Foundations Vignettes.
 abstract: "Research on the emotional, cognitive, and social determinants of moral judgment has surged in recent years. The development of moral foundations theory (MFT) has played an important role, demonstrating the breadth of morality. Moral psychology has responded by investigating how different domains of moral judgment are shaped by a variety of psychological factors. Yet, the discipline lacks a validated set of moral violations that span the moral domain, creating a barrier to investigating influences on judgment and how their neural bases might vary across the moral domain. In this paper, we aim to fill this gap by developing and validating a large set of moral foundations vignettes (MFVs). Each vignette depicts a behavior violating a particular moral foundation and not others. The vignettes are controlled on many dimensions including syntactic structure and complexity making them suitable for neuroimaging research."
 CONF-CC: "Behavior Research Methods"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Moral Foundations Vignettes: A Standardized Stimulus Database of Scenarios Based on Moral Foundations Theory

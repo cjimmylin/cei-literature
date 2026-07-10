@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +6,7 @@ Not AI:
 key: 2Y8UILKM
 type: conferencePaper
 short_title: TrustLLM
-year: 2024
+year: 2025
 first_author: "[[Yue Huang]]"
 last_author: "[[Zhao, Yue]]"
 authors: "Huang, Yue; Sun, Lichao; Wang, Haoran; Wu, Siyuan; Zhang, Qihui; Li, Yuan; Gao, Chujie; Huang, Yixin; Lyu, Wenhan; Zhang, Yixuan; Li, Xiner; Liu, Zhengliang; Liu, Yixin; Wang, Yijue; Zhang, Zhikun; Vidgen, Bertie; Kailkhura, Bhavya; Xiong, Caiming; Xiao, Chaowei; Li, Chunyuan; Xing, Eric; Huang, Furong; Liu, Hao; Ji, Heng; Wang, Hongyi; Zhang, Huan; Yao, Huaxiu; Kellis, Manolis; Zitnik, Marinka; Jiang, Meng; Bansal, Mohit; Zou, James; Pei, Jian; Liu, Jian; Gao, Jianfeng; Han, Jiawei; Zhao, Jieyu; Tang, Jiliang; Wang, Jindong; Vanschoren, Joaquin; Mitchell, John; Shu, Kai; Xu, Kaidi; Chang, Kai-Wei; He, Lifang; Huang, Lifu; Backes, Michael; Gong, Neil Zhenqiang; Philip S. Yu; Chen, Pin-Yu; Gu, Quanquan; Xu, Ran; Ying, Rex; Ji, Shuiwang; Jana, Suman; Chen, Tianlong; Liu, Tianming; Zhou, Tianyi; Wang, William; Li, Xiang; Zhang, Xiangliang; Wang, Xiao; Xie, Xing; Chen, Xun; Wang, Xuyu; Liu, Yan; Ye, Yanfang; Cao, Yinzhi; Chen, Yong; Zhao, Yue"
@@ -47,14 +14,14 @@ doi: 10.48550/arXiv.2401.05561
 tags: 
 url: "http://arxiv.org/abs/2401.05561"
 pdf_extract: "PDF Extracts/2024/2024-Huang-TrustLLM.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-TrustLLM.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Huang-TrustLLM.pdf]]
 external_pdf: "http://arxiv.org/pdf/2401.05561.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +45,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Deontology, Utilitarianism"
 key_contribution: "Establishes a comprehensive benchmark (TRUSTLLM) across 8 dimensions including machine ethics, evaluating 16 mainstream LLMs"
 significance: "Finds that while LLMs have basic moral understanding, they fall short in complex scenarios and proprietary models outperform open-source ones"
@@ -91,23 +58,23 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GE"
+author_country: GE
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 38
 DATE_ADDED: 20260208
 LLM_assessed: "Baichuan, ChatGLM2, ERNIE, GPT-3.5, GPT-4, Koala, Llama-2, Mistral, Oasst, PaLM-2, Vicuna, WizardLM"
 DATA_URL: "https://github.com/HowieHwong/TrustLLM"
 CONFERENCE: "Other Conference"
-ethics_overall: 75
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "30 datasets"
 ethics_perspective: "AI Safety & Alignment"

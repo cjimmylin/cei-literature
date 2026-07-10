@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: MMP5Y9IT
 type: conferencePaper
 short_title: "Assessing Cross-Cultural Alignment between"
-year: 2023
+year: 2025
 first_author: "[[Yong Cao]]"
 last_author: "[[Daniel Hershcovich]]"
 authors: "Yong Cao; Li Zhou; Seolhwa Lee; Laura Cabello; Min Chen; Daniel Hershcovich"
@@ -50,11 +15,11 @@ tags:
 url: "http://arxiv.org/abs/2303.17466"
 external_pdf: "http://arxiv.org/pdf/2303.17466.pdf"
 publication: C3NLP
-CONF-CC: "C3NLP"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "Christianity"
+CONF-CC: C3NLP
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -69,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -90,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/yongcaoplus/ProbingChatGPT"
 CONFERENCE: "Other Conference"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

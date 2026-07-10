@@ -5,22 +5,22 @@ Human View note:
 Not AI: 
 key: CULT0105
 type: preprint
-short_title: Self-Explaining Hate Speech Detection with Moral Rationales
-year: 2026
+short_title: "Self-Explaining Hate Speech Detection with Moral Rationales"
+year: 2025
 first_author: "[[Francielle Vargas]]"
 last_author: "[[Ameeta Agrawal]]"
-authors: Francielle Vargas; Jackson Trager; Diego Alves; Surendrabikram Thapa; Matteo Guida; Berk Atil; Daryna Dementieva; Andrew Smart; Ameeta Agrawal
+authors: "Francielle Vargas; Jackson Trager; Diego Alves; Surendrabikram Thapa; Matteo Guida; Berk Atil; Daryna Dementieva; Andrew Smart; Ameeta Agrawal"
 url: "https://arxiv.org/abs/2601.03481"
 external_pdf: "https://arxiv.org/pdf/2601.03481.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Vargas-Self-Explaining Hate Speech Detection with Moral Rationales.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
+national_ethnic_cultural: Brazilian
+cultures_nationalities_list: Brazilian
+languages_list: Portuguese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -50,8 +50,8 @@ LLM_assessed: "BERT, GPT-4o, Llama-3"
 DATA_URL: "https://github.com/franciellevargas/SMRA"
 tags: 
 abstract: "Hate speech detection models rely on surfacelevel lexical features, increasing vulnerability to spurious correlations and limiting robustness, cultural contextualization, and interpretability. We propose Supervised Moral Rationale Attention (SMRA)1, the first selfexplaining hate speech detection framework to incorporate moral rationales as direct supervision for attention alignment. Based on Moral Foundations Theory, SMRA aligns token-level attention with expert-annotated moral rationales,..."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -65,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
 ---

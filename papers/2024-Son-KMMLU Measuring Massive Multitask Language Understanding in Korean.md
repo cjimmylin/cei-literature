@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: LSRC0245
 type: preprint
 short_title: "KMMLU: Measuring Massive Multitask Language Understanding in Korean"
-year: 2024
+year: 2025
 first_author: "[[Guijin Son]]"
 last_author: "[[Stella Biderman]]"
-authors: Guijin Son; Hanwool Lee; Sungdong Kim; Seungone Kim; Niklas Muennighoff; Taekyoon Choi; Cheonbok Park; Kang Min Yoo; Stella Biderman
+authors: "Guijin Son; Hanwool Lee; Sungdong Kim; Seungone Kim; Niklas Muennighoff; Taekyoon Choi; Cheonbok Park; Kang Min Yoo; Stella Biderman"
 doi: 10.18653/v1/2025.naacl-long.206
 url: "https://arxiv.org/abs/2402.11548"
 external_pdf: "https://arxiv.org/pdf/2402.11548.pdf"
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Son-KMMLU Measuring Massive Multitask
 publication: "arXiv / NAACL 2025"
 CONF-CC: "NAACL 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
+languages_list: Korean
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BLOOM, GPT-3.5, GPT-4, Llama-2, Qwen"
 DATA_URL: "https://huggingface.co/datasets/HAERAE-HUB/KMMLU"
 tags: 
 abstract: "We propose KMMLU, a new Korean benchmark with 35,030 expert-level multiple-choice questions across 45 subjects ranging from humanities to STEM. While prior Korean benchmarks are translated from existing English benchmarks, KMMLU is collected from original Korean exams, capturing linguistic and cultural aspects of the Korean language. We test 27 public and proprietary LLMs and observe the best public model to score 50.5%, leaving significant room for improvement."
 CONFERENCE: "NAACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

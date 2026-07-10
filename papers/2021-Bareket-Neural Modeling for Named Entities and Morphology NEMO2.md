@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,10 +6,10 @@ Not AI:
 key: LSRC0037
 type: conferencePaper
 short_title: "Neural Modeling for Named Entities and Morphology (NEMO2)"
-year: 2021
+year: 2025
 first_author: "[[Dan Bareket]]"
 last_author: "[[Reut Tsarfaty]]"
-authors: Dan Bareket; Reut Tsarfaty
+authors: "Dan Bareket; Reut Tsarfaty"
 doi: 10.1162/tacl_a_00404
 url: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00404/107206"
 external_pdf: "https://arxiv.org/pdf/2007.15620"
@@ -54,10 +18,10 @@ CONF-CC: "TACL 2021"
 pdf_extract: "PDF Extracts/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Bareket-Neural Modeling for Named Entities and Morphology NEMO2.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,20 +45,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/OnlpLab/NEMO"
 tags: 
 abstract: "Named Entity Recognition (NER) is a fundamental NLP task, commonly formulated as classiﬁcation over a sequence of tokens. Morphologically-Rich Languages (MRLs) pose a challenge to this basic formulation, as the boundaries of Named Entities do not necessarily coincide with token boundaries, rather, they respect morphological boundaries. To address NER in MRLs we then need to answer two fundamental questions, namely, what are the basic units to be labeled, and how can these units be detected and..."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IL"
-author_region: "MENA"
+author_country: IL
+author_region: MENA
 author_global_north_south: "Global North"
 weird_score: 57
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

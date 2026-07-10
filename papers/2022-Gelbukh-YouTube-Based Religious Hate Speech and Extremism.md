@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,10 +6,10 @@ Not AI:
 key: EXSR0600
 type: journal_article
 short_title: "YouTube-Based Religious Hate Speech and Extremism"
-year: 2022
+year: 2025
 first_author: "[[Noman Ashraf]]"
 last_author: "[[Alexander Gelbukh]]"
-authors: Noman Ashraf; Abid Rafiq; Sabur Butt; Hafiz Muhammad Faisal Shehzad; Grigori Sidorov; Alexander Gelbukh
+authors: "Noman Ashraf; Abid Rafiq; Sabur Butt; Hafiz Muhammad Faisal Shehzad; Grigori Sidorov; Alexander Gelbukh"
 authors_incomplete: false
 url: 
 external_pdf: "https://core.ac.uk/download/213021265.pdf"
@@ -59,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Gelbukh-YouTube-Based Religious Hate 
 publication: "Journal of Intelligent and Fuzzy Systems"
 CONF-CC: "Journal of Intelligent and Fuzzy Systems"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Should social media companies ban Holocaust denial from their platforms? What about conspiracy theorists that spew hate? Does good corporate citizenship mean platforms should remove offensive speech or tolerate it? The content moderation rules that companies develop to govern speech on their platforms will have significant implications for the future of freedom of expression. Given that the prospects for compelling platforms to respect users’ free speech rights are bleak within the U.S."
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

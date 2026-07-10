@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,13 +9,13 @@ short_title: AISafetyLab
 year: 2025
 first_author: "[[Zhexin Zhang]]"
 last_author: "[[Minlie Huang]]"
-authors: Zhexin Zhang; Leqi Lei; Junxiao Yang; Xijie Huang; Yida Lu; Shiyao Cui; Renmiao Chen; Qinglin Zhang; Xinyuan Wang; Hao Wang; Hao Li; Xianqi Lei; Chengwei Pan; Lei Sha; Hongning Wang; Minlie Huang
+authors: "Zhexin Zhang; Leqi Lei; Junxiao Yang; Xijie Huang; Yida Lu; Shiyao Cui; Renmiao Chen; Qinglin Zhang; Xinyuan Wang; Hao Wang; Hao Li; Xianqi Lei; Chengwei Pan; Lei Sha; Hongning Wang; Minlie Huang"
 url: "https://arxiv.org/abs/2502.16776"
 external_pdf: "https://arxiv.org/pdf/2502.16776.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced AISafetyLab, a unified toolkit for AI safety covering attacks, defenses, and evaluations, and benchmarked Vicuna."
 significance: "Provides a standardized, extensible platform to streamline AI safety research, which is currently fragmented across many tools."
@@ -86,14 +47,14 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Zhang-AISafetyLab.md"
 abstract: "As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored challenge. While substantial efforts have been made to evaluate and enhance AI safety, the lack of a standardized framework and comprehensive toolkit poses significant obstacles to systematic research and practical adoption. To bridge this gap, we introduce AISafetyLab, a unified framework and toolkit that integrates representative attack, defense, and..."
 paper_summary: "Abstract: As AI models are increasingly deployed across diverse real-world scenarios, ensuring their safety remains a critical yet underexplored chal- lenge. While substantial efforts have been made to evaluate | Overview: AISafetyLab: A Comprehensive Framework for AI Safety Evaluation and Improvement Zhexin Zhang∗1, Leqi Lei∗1, Junxiao Yang∗1, Xijie Huang∗2, Yida Lu1, Shiyao Cui1, Renmiao Chen1, Qinglin Zhang1, Xinyuan | Methodology: Coverage. AISafetyLab offers a broad array of attack, defense, and evaluation techniques. Notably, compared to existing toolkits, we are the first to  | Key Findings: methodologies for AI safety. AISafetyLab fea- tures an intuitive interface that enables devel- opers to seamlessly apply various techniques while main"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-AISafetyLab.pdf]]"
-CONF-CC: "Preprint"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-AISafetyLab.pdf]]
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: Vicuna
 DATA_URL: "https://github.com/thu-coai/AISafetyLab"
 authors_incomplete: false
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5
@@ -107,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

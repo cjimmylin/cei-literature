@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,11 +14,11 @@ doi: 10.48550/arXiv.2504.07072
 url: "http://arxiv.org/abs/2504.07072"
 external_pdf: "http://arxiv.org/pdf/2504.07072.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "Islam"
+CONF-CC: Preprint
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -84,13 +47,13 @@ newtags: Multicultural/Cross-cultural
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Salazar-Kaleidoscope.md"
 paper_summary: "Overview: Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation Israfel Salazar*2, Manuel Fernández Burda*3, Shayekh Bin Islam*4, Arshia Soltani Moakhar*4, Shivalika Singh*1, Fabian Fares | Methodology: is natural and aligns the real-world application of MCQs, encouraging the model to generate a step-by-step reasoning before selecting the final answer | Key Findings: Israfel Salazar*2, Manuel Fernández Burda*3, Shayekh Bin Islam*4, Arshia Soltani Moakhar*4, Shivalika Singh*1, Fabian Farestam*17, Angelika Romanou*,  | Conclusions: As generative models become increasingly multimodal and multilingual, the need for robust and culturally grounded evaluation benchmarks has never been"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Salazar-Kaleidoscope.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Salazar-Kaleidoscope.pdf]]
 abstract: "Human values are crucial to human decision-making. Value pluralism is the view that multiple correct values may be held in tension with one another (e.g., when considering lying to a friend to protect their feelings, how does one balance honesty with friendship?). As statistical learners, AI systems fit to averages by default, washing out these potentially irreducible value conflicts. To improve AI systems to better reflect value pluralism, the first-order challenge is to explore the extent to w"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Claude, Gemini, Qwen"
 DATA_URL: "https://hf.co/datasets/CohereForAI/kaleidoscope"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "18 languages"
 ---

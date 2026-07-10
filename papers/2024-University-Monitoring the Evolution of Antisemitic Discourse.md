@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,22 +6,22 @@ Not AI:
 key: EXSR0511
 type: preprint
 short_title: "Monitoring the Evolution of Antisemitic Discourse"
-year: 2024
+year: 2025
 first_author: "[[University), Multiple authors (American]]"
 last_author: "[[Multiple authors (American University)]]"
-authors: Multiple authors (American University)
+authors: "Multiple authors (American University)"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.05548"
 external_pdf: "https://arxiv.org/pdf/2403.05548.pdf"
 pdf_extract: "PDF Extracts/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-University-Monitoring the Evolution of Antisemitic Discourse.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 20
 rv_christianity: 0
 rv_buddhism: 0
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Racism and intolerance on social media contribute to a toxic online environment which may spill offline to foster hatred, and eventually lead to physical violence. That is the case with online antisemitism, the specific category of hatred considered in this study. Tracking antisemitic themes and their associated terminology over time in online discussions could help monitor the sentiments of their participants and their evolution, and possibly offer avenues for intervention that may prevent the..."
-LLM_assessed: "BERT"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 75
+LLM_assessed: BERT
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Monitoring the Evolution of Antisemitic Discourse on Extremist Social Media Using BERT

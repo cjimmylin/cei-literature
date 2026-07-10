@@ -1,33 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Chinese Virtue ethics"
@@ -36,17 +7,17 @@ key: AUTO_ELDER2025
 type: book
 short_title: "The Ethics of Digital Ghosts"
 year: 2025
-first_author: [[Alexis M. Elder]]
-last_author: [[Alexis M. Elder]]
-authors: Alexis M. Elder
+first_author: "[[Alexis M. Elder]]"
+last_author: "[[Alexis M. Elder]]"
+authors: "Alexis M. Elder"
 doi: 10.4324/9781003632658
 isbn: 9781041058410
 url: "https://www.taylorfrancis.com/books/mono/10.4324/9781003632658/ethics-digital-ghosts-alexis-elder"
 external_pdf: "http://liu.diva-portal.org/smash/get/diva2:918869/FULLTEXT01"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: ""
-religious_values: "Confucianism"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: 
+religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -61,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Confucianism"
+religious_values_list: Confucianism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -70,19 +41,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Chinese, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Explores the ethics of AI, specifically 'digital ghosts', through Chinese philosophical traditions (Confucianism, Mohism, Zhuangism), emphasizing virtues like ren and li"
 significance: "Highlights the relevance of non-Western virtue ethics for addressing the specific ethical challenges of digital afterlife and AI representations of the deceased"
 abstract: "This book explores the ethics of AI from multiple Chinese philosophical traditions, including **Confucianism**, Mohism, and Zhuangism. Drawing on **virtue ethics** concepts like **ren** (benevolence), **li** (propriety), and **yi** (righteousness), Elder examines how these frameworks can inform the ethical development of AI systems, particularly those related to digital representations of deceased individuals. The book argues that **Confucian virtue ethics** views caregiving as a significant source of meaning and moral self-cultivation, offering insights for designing AI systems that support **human flourishing** and relational responsibilities."
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260129
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Elder-The Ethics of Digital Ghosts.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Elder-The Ethics of Digital Ghosts.pdf]]"
-CONFERENCE: "Unknown"
-ethics_overall: 20
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 75
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -95,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Ethics of Digital Ghosts: Confucian, Mohist, and Zhuangist Perspectives on AI and Death

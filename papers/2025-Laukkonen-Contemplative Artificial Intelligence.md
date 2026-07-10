@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,11 +9,11 @@ year: 2025
 short_title: "Contemplative Artificial Intelligence"
 first_author: "[[Ruben E Laukkonen]]"
 last_author: "[[Adam Elwood]]"
-authors: Ruben E Laukkonen; Fionn Inglis; Shamil Chandaria; Lars Sandved-Smith; Edmundo Lopez-Sola; Jakob Hohwy; Jonathan Gold; Adam Elwood
+authors: "Ruben E Laukkonen; Fionn Inglis; Shamil Chandaria; Lars Sandved-Smith; Edmundo Lopez-Sola; Jakob Hohwy; Jonathan Gold; Adam Elwood"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/744PDNTG/Laukkonen et al. - Contemplative Artificial Intelligence.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -71,7 +38,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Introduces 'Contemplative AI' principles (mindfulness, emptiness, non-duality, boundless care) to instill a resilient 'Wise World Model' in AI"
 significance: "Demonstrates that contemplative principles can improve AI performance on ethical benchmarks and boost cooperation in social dilemmas by reducing goal fixation and self-other boundaries"
@@ -79,12 +46,12 @@ pdf_extract: "PDF Extracts/2025/2025-Laukkonen-Contemplative Artificial Intellig
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Laukkonen-Contemplative Artificial Intelligence.pdf]]"
 abstract: "As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. Inspired by contemplative wisdom traditions, we show how four axiomatic principles can instil a resilient ‘Wise World Model’ in AI systems. First, mindfulness enables selfmonitoring and recalibration of emergent subgoals. Second, emptiness forestalls dogmatic goal fixation and relaxes rigid priors."
 paper_summary: "Abstract: As artificial intelligence (AI) improves, traditional alignment strategies may falter in the face of unpredictable self-improvement, hidden subgoals, and the sheer complexity of intelligent systems. I | Overview: 1 Contemplative Artificial Intelligence Ruben E. Laukkonen1, Fionn Inglis2; Shamil Chandaria3; Lars Sandved-Smith4; Edmundo Lopez-Sola5; Jakob Hohwy4; Jonathan Gold6; Adam Elwood7 1Faculty of Health,  | Methodology: succeeds when technical sophistication meets genuine wisdom. To this end, interdisciplinary research is central. | Conclusions: We have argued that an AI endowed with a Wise World Model grounded in contemplative insights would not infer alignment as an external condition to be"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4o"
+LLM_assessed: GPT-4o
 DATA_URL: NA
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 60
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -97,14 +64,14 @@ nw_buddhist: 50
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 Contemplative Artificial Intelligence

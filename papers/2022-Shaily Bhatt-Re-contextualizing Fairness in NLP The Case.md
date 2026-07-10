@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +6,7 @@ Not AI:
 key: EXSR0596
 type: conference_paper
 short_title: "Re-contextualizing Fairness in NLP The Case"
-year: 2022
+year: 2025
 first_author: "[[Shaily Bhatt,]]"
 last_author: "[[Research, others (Google]]"
 authors: "Shaily Bhatt,; Research, others (Google"
@@ -59,8 +18,8 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Shaily Bhatt-Re-contextualizing Fairn
 publication: "AACL-IJCNLP 2022"
 CONF-CC: "AACL 2022"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "Bengali, English, Hindi, Telugu"
 religious_values: "Multiple Religions"
 rv_islam: 25
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Recent research has revealed undesirable biases in NLP data and models. However, these efforts focus on social disparities in West, and are not directly portable to other geo-cultural contexts. In this paper, we focus on NLP fairness in the context of India. We start with a brief account of the prominent axes of social disparities in India. We build resources for fairness evaluation in the Indian context and use them to demonstrate prediction biases along some of the axes."
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/google-research-datasets/nlp-fairness-for-india"
 CONFERENCE: "Other Conference"
-ethics_overall: 95
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 20
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

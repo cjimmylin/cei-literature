@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,15 +6,15 @@ Not AI:
 key: JKQ75SNA
 type: document
 short_title: REDDITBIAS
-year: 2021
+year: 2025
 first_author: "[[Soumya Barikeri]]"
 last_author: "[[Glavaš, Goran]]"
 authors: "Barikeri, Soumya; Lauscher, Anne; Vulić, Ivan; Glavaš, Goran"
 url: "https://aclanthology.org/2021.acl-long.151/"
 external_pdf: "https://aclanthology.org/2021.acl-long.151.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 100
@@ -78,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created REDDITBIAS, the first conversational dataset from Reddit to measure bias (gender, race, religion, queerness) and tested debiasing methods on DialoGPT."
 significance: "Addresses the lack of realistic conversational resources for bias, showing that debiasing can reduce religious bias without hurting chat performance."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Barikeri-REDDITBIAS.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Barikeri-REDDITBIAS.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2021/2021-Barikeri-REDDITBIAS.pdf]]
 abstract: "Text representation models are prone to exhibit a range of societal biases, reﬂecting the noncontrolled and biased nature of the underlying pretraining data, which consequently leads to severe ethical issues and even bias ampliﬁcation. Recent work has predominantly focused on measuring and mitigating bias in pretrained language models. Surprisingly, the landscape of bias measurements and mitigation resources and methods for conversational language models is still very scarce: it is limited to..."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: GPT-2
 DATA_URL: "https://github.com/umanlp/RedditBias"
 CONFERENCE: "ACL 2021"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

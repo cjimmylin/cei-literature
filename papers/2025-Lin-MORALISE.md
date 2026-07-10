@@ -14,11 +14,11 @@ doi: 10.48550/arXiv.2505.14728
 url: "http://arxiv.org/abs/2505.14728"
 external_pdf: "http://arxiv.org/pdf/2505.14728.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -50,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Lin-MORALISE.md"
 abstract: "Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated increasing influence in morally sensitive domains such as autonomous driving and medical analysis, owing to their powerful multimodal reasoning capabilities. As these models are deployed in high-stakes real-world applications, it is of paramount importance to ensure that their outputs align with human moral values and remain within moral..."
 paper_summary: "Abstract: Warning: This paper contains examples of harmful language and images. Reader discretion is advised. Recently, vision-language models have demonstrated in- creasing influence in morally sensitive domai | Overview: arXiv:2505.14728v1 [cs.CV] 20 May 2025 MORALISE: A Structured Benchmark for Moral Alignment in Visual Language Models Xiao Lin∗1, Zhining Liu∗1, Ze Yang∗1, Gaotang Li1, Ruizhong Qiu1, Shuke Wang1, Hui | Conclusions: model size alone does not guarantee moral reasoning ability. Smaller models that are carefully optimized or instruction-tuned for moral alignment can"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lin-MORALISE.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Lin-MORALISE.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGLM, GPT-4o, Gemma, LLaVA, Phi-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/Ze1025/MORALISE"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning annotated dataset"
 data_metrics: "Not specified"
 ---

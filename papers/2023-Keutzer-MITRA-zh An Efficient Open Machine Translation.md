@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,10 +6,10 @@ Not AI:
 key: EXSR0561
 type: conference_paper
 short_title: "MITRA-zh An Efficient Open Machine Translation"
-year: 2023
+year: 2025
 first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer]]"
-authors: Sebastian Nehrdich; Marcus Bingenheimer; Justin Brody; Kurt Keutzer
+authors: "Sebastian Nehrdich; Marcus Bingenheimer; Justin Brody; Kurt Keutzer"
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -58,10 +18,10 @@ local_pdf: N/A
 publication: "NLP4DH 2023 (Joint 3rd International Conference on Natural Language Processing for Digital Humanities and 8th International Workshop on Computational Linguistics for Uralic Languages), pages 266-277, Tokyo, Japan"
 CONF-CC: "Workshop (2023)"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Chinese, English"
-religious_values: "Buddhism"
+religious_values: Buddhism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 50
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Buddhism"
+religious_values_list: Buddhism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Buddhist Classical Chinese is a challenging low-resource language that has not yet received much dedicated attention in NLP research. Standard commercial machine translation software performs poorly on this idiom. In order to address this gap, we present a novel dataset of 209,454 bitext pairs for the training and 2,300 manually curated and corrected bitext pairs for the evaluation of machine translation models."
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 ---

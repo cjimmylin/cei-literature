@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: TLAW7446
 type: conferencePaper
 short_title: "Legal Minds, Algorithmic Decisions"
-year: 2024
+year: 2025
 first_author: "[[Camilla Bignotti]]"
 last_author: "[[Carolina Camassa]]"
 authors: "Camilla Bignotti; Carolina Camassa"
@@ -53,10 +15,10 @@ url: "http://arxiv.org/abs/2407.19760"
 external_pdf: "http://arxiv.org/pdf/2407.19760.pdf"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 CONF-CC: "AIES 2024"
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Italian
+cultures_nationalities_list: Italian
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -91,9 +53,9 @@ paper_summary: "Abstract: In this paper, we conduct an empirical analysis of how
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bignotti-Legal Minds, Algorithmic Decisions.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: GPT-4
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "AAAI 2024"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios

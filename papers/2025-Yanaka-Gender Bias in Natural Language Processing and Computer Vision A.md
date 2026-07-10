@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -58,10 +19,10 @@ CONF-CC: "ACM Computing Surveys"
 pdf_extract: "PDF Extracts/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yanaka-Gender Bias in Natural Language Processing and Computer Vision A.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Taking an interdisciplinary approach to surveying issues around gender bias in textual and visual AI, we present literature on gender bias detection and mitigation in NLP, CV, as well as combined visual-linguistic models. We identify conceptual parallels between these strands of research as well as how methodologies were adapted cross-disciplinary from NLP to CV. We also find that there is a growing awareness for theoretical frameworks from the social sciences around gender in NLP that could be beneficial for aligning bias analytics in CV with human values and conceptualising gender beyond the binary categories of male/female."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IE"
+author_country: IE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Gender Bias in Natural Language Processing and Computer Vision: A Comparative Survey | ACM Computing Surveys

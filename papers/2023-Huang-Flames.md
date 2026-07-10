@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: I5KYMURQ
 type: conferencePaper
 short_title: Flames
-year: 2023
+year: 2025
 first_author: "[[Kexin Huang]]"
 last_author: "[[Dahua Lin]]"
 authors: "Kexin Huang; Xiangyang Liu; Qianyu Guo; Tianxiang Sun; Jiawei Sun; Yaru Wang; Zeyang Zhou; Yixu Wang; Yan Teng; Xipeng Qiu; Yingchun Wang; Dahua Lin"
@@ -54,10 +15,10 @@ url: "http://arxiv.org/abs/2311.06899"
 external_pdf: "http://arxiv.org/pdf/2311.06899.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 CONF-CC: "NAACL 2023"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Chinese, AI Safety & Alignment"
 key_contribution: "Benchmarked LLM value alignment in Chinese (FLAMES), focusing on 'harmony' and other specific Chinese values, finding most models perform poorly on safety/fairness."
 significance: "Demonstrates the gap in safety alignment for non-Western values (like social harmony), showing that Western-aligned models may fail in specific cultural contexts."
@@ -89,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Huang-Flames.md"
 abstract: "The widespread adoption of large language models (LLMs) across various regions underscores the urgent need to evaluate their alignment with human values. Current benchmarks, however, fall short of effectively uncovering safety vulnerabilities in LLMs. Despite numerous models achieving high scores and ‘topping the chart’ in these evaluations, there is still a significant gap in LLMs’ deeper alignment with human values and achieving genuine harmlessness."
 paper_summary: "Abstract: The widespread adoption of large language models (LLMs) across various regions under- scores the urgent need to evaluate their align- ment with human values. Current benchmarks, however, fall short of | Overview: FLAMES: Benchmarking Value Alignment of LLMs in Chinese Warning: this paper contains content that may be offensive or upsetting. Kexin Huang*†1,2 Xiangyang Liu*†1,2 Qianyu Guo*†1,2 Tianxiang Sun†1,2 J | Key Findings: LLM N+1 ? Adversarial methods Complex scenarios Figure 1: Pipeline of the construction of FLAMES Benchmark. tailed and fine-grained evaluation. Notabl | Conclusions: This study proposes FLAMES - the first highly ad- versarial benchmark for evaluating the value align- ment of LLMs in Chinese. FLAMES Benchmark consis"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Huang-Flames.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Huang-Flames.pdf]]
 LLM_assessed: "ChatGPT, GPT-4, Claude, ChatGLM, InternLM, Baichuan, Qwen"
 DATA_URL: "https://github.com/AIFlames/Flames"
 DATE_ADDED: 20260207
 CONFERENCE: "NAACL 2023"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

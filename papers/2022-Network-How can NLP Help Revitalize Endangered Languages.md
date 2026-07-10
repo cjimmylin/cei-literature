@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,21 +6,21 @@ Not AI:
 key: LSRC0805
 type: preprint
 short_title: "How can NLP Help Revitalize Endangered Languages?"
-year: 2022
+year: 2025
 first_author: "[[Megasis Network]]"
 last_author: "[[Megasis Network]]"
 authors: "Megasis Network"
 url: "https://arxiv.org/pdf/2204.11909"
 external_pdf: "https://arxiv.org/pdf/2204.11909.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2022/2022-Network-How can NLP Help Revitalize Endangered Languages.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Network-How can NLP Help Revitalize Endangered Languages.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: "Cherokee"
-religious_values: "N/A"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: Cherokee
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 5
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ZhangShiyue/RevitalizeCherokee"
 tags: 
 abstract: "More than 43% of the languages spoken in the world are endangered, and language loss currently occurs at an accelerated rate because of globalization and neocolonialism. Saving and revitalizing endangered languages has become very important for maintaining the cultural diversity on our planet. In this work, we focus on discussing how NLP can help revitalize endangered languages. We first suggest three principles that may help NLP practitioners to foster mutual understanding and collaboration..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 30
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # How can NLP Help Revitalize Endangered Languages?

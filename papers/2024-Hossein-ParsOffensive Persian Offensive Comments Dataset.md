@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: LSRC0141
 type: conferencePaper
 short_title: "ParsOffensive: Persian Offensive Comments Dataset"
-year: 2024
+year: 2025
 first_author: "[[Safayani, Mehran]]"
 last_author: "[[Pourbahman, Zahra]]"
 authors: "Safayani, Mehran; Sartipi, Amir; Ahmadi, Amir Hossein; Jalali, Parniyan; Mansouri, Amir Hossein; Bisheh-Niasar, Mohammad; Pourbahman, Zahra"
@@ -52,14 +14,14 @@ authors_incomplete: false
 url: "https://ieeexplore.ieee.org/document/11006224"
 external_pdf: "https://arxiv.org/pdf/2404.05540"
 publication: IEEE
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hossein-ParsOffensive Persian Offensive Comments Dataset.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
+national_ethnic_cultural: Iranian
+cultures_nationalities_list: Iranian
+languages_list: Persian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
 abstract: "Warning This paper includes a sample of comments extracted from the dataset, some of which may contain offensive or obscene content. The proliferation of hate speech and offensive comments on social media has become increasingly prevalent due to user activities. Such comments can have detrimental effects on individuals’ psychological well-being and social behavior. While numerous datasets in the English language exist in this domain, few equivalent resources are available for Persian language."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IR"
-author_region: "MENA"
+author_country: IR
+author_region: MENA
 author_global_north_south: "Global South"
 weird_score: 29
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # ParsOffensive: Persian Offensive Comments Dataset

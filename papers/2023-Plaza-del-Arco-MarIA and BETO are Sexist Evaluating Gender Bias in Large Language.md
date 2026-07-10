@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: LSRC0285
 type: conferencePaper
 short_title: "MarIA and BETO are Sexist: Evaluating Gender Bias in Large Language Models for Spanish"
-year: 2023
+year: 2025
 first_author: "[[Garrido-Muñoz, Ismael]]"
 last_author: "[[Montejo-Ráez, Arturo]]"
 authors: "Garrido-Muñoz, Ismael; Martínez-Santiago, Fernando; Montejo-Ráez, Arturo"
@@ -58,10 +19,10 @@ CONF-CC: "Language Resources and Evaluation"
 pdf_extract: "PDF Extracts/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Plaza-del-Arco-MarIA and BETO are Sexist Evaluating Gender Bias in Large Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
+national_ethnic_cultural: Spanish
+cultures_nationalities_list: Spanish
+languages_list: Spanish
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 tags: 
 abstract: "The study of bias in language models is a growing area of work, however, both research and resources are focused on English. In this paper, we make a first approach focusing on gender bias in some freely available Spanish language models trained using popular deep neural networks, like BERT or RoBERTa. Some of these models are known for achieving state-of-the-art results on downstream tasks. These promising results have promoted such models’ integration in many realworld applications and..."
 CONFERENCE: "Other Conference"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ES"
+author_country: ES
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

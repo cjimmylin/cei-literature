@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,18 +9,18 @@ short_title: "Krikri: Advancing Open Large Language Models for Greek"
 year: 2025
 first_author: "[[Dimitris Roussis]]"
 last_author: "[[Vassilis Katsouros]]"
-authors: Dimitris Roussis; Leon Voukoutis; Georgios Paraskevopoulos; Sokratis Sofianopoulos; Prokopis Prokopidis; Vassilis Papavasileiou; Athanasios Katsamanis; Stelios Piperidis; Vassilis Katsouros
+authors: "Dimitris Roussis; Leon Voukoutis; Georgios Paraskevopoulos; Sokratis Sofianopoulos; Prokopis Prokopidis; Vassilis Papavasileiou; Athanasios Katsamanis; Stelios Piperidis; Vassilis Katsouros"
 url: "https://arxiv.org/abs/2505.13772"
 external_pdf: "https://arxiv.org/pdf/2505.13772.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Roussis-Krikri Advancing Open Large Language Models for Greek.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Roussis-Krikri Advancing Open Large Language Models for Greek.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "Greek, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "Llama-3"
+LLM_assessed: Llama-3
 DATA_URL: "https://huggingface.co/ilsp/Llama-Krikri-8B-Base"
 tags: 
 abstract: "We introduce Llama-Krikri-8B, a cutting-edge Large Language Model tailored for the Greek language, built on Meta’s Llama 3.1-8B. LlamaKrikri-8B has been extensively trained on highquality Greek data to ensure superior adaptation to linguistic nuances. With 8 billion parameters, it offers advanced capabilities while maintaining efficient computational performance. Llama-Krikri-8B supports both Modern Greek and English, and is also equipped to handle polytonic text and Ancient Greek."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -100,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GR"
+author_country: GR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---

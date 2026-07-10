@@ -2,14 +2,14 @@
 key: EXSR0709
 type: preprint
 short_title: "AI Red-Teaming is a Sociotechnical Challenge: On Values, Labor, and Harms"
-year: 2024
-first_author: "[[Unknown]]"
-authors: "Unknown"
+year: 2025
+first_author: [[Unknown]]
+authors: Unknown
 url: "https://arxiv.org/abs/2412.09751"
 abstract: "Critiques red teaming as lacking sociocultural, historical, legal, ethical proficiencies. Incentive structures don't reward such expertise. Relevant to adversarial moral reasoning evaluation."
-external_pdf: ""
-DOI: ""
-ethics_overall: 40
+external_pdf: 
+DOI: 
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: ""
+religious_values_list: 
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -44,12 +44,12 @@ mp_maqasid: 0
 mp_confucian: 0
 mp_ubuntu: 0
 moral_psychology: N/A
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-LLM_assessed: "No"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+LLM_assessed: No
 newtags: "moral-psychology, external-search-v2, adversarial-evaluation"
-source: "moral-psych-external-search-v2"
+source: moral-psych-external-search-v2
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0

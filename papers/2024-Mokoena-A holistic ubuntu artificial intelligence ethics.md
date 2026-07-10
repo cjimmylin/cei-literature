@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,16 +6,16 @@ Not AI:
 key: L43BZY4C
 type: journalArticle
 short_title: "A holistic ubuntu artificial intelligence ethics"
-year: 2024
+year: 2025
 first_author: "[[Katleho K. Mokoena]]"
 last_author: "[[Katleho K. Mokoena]]"
 authors: "Katleho K. Mokoena"
 doi: 10.4102/ve.v45i1.3100
 url: "http://www.ve.org.za/index.php/VE/article/view/3100"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/KM62LRJY/Mokoena - 2024 - A holistic ubuntu artificial intelligence ethics approach in South Africa.pdf"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 75
@@ -79,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "African/Ubuntu, Social & Cultural Values"
 key_contribution: "Proposes a holistic 'Ubuntu' ethics framework for AI in South Africa, emphasizing relationality and community interconnectedness over Western individualism."
 significance: "Advocates for the decolonization of AI ethics by integrating African philosophical traditions, ensuring that AI systems respect the values of the communities where they are deployed."
@@ -87,12 +48,12 @@ tags:
 abstract: "Artificial intelligence (AI) is one of the most spoken-about topics in the media, academia, government and other platforms. One of the aspects that is often discussed is the ethical implications of AI and approaches to mitigate the risks. Artificial intelligence has an undeniable impact on industries as well as socio-economic structures; however, this article focusses on the impact of AI on three concerns mainly, humanity, spirituality and the environment. This article is an interdisciplinary study of African theological ethics and the philosophy of technology. It discusses the theological implications (doctrinal issues) of emerging technologies, particularly AI. It discusses technology as power which has impacted Africa since the first industrial revolution and emphasises the importance of African ethics in the context of AI in Africa. This article critically discusses ubuntu ethics and its critique. It focuses on AI and its impact on humanity, spirituality and the environment, and proposes a holistic ubuntu AI ethics approach in South Africa. Intradisciplinary and/or interdisciplinary implications: This article is an interdisciplinary study of African theological ethics and the philosophy of technology. Ubuntu ethics in this article derives from African Theology and African Philosophy. Ubuntu AI ethics is important for various disciplines such as theology, law, social sciences, computer sciences and information technology (especially designers and developers)."
 CONF-CC: "Verbum et Ecclesia"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mokoena-A holistic ubuntu artificial intelligence ethics.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "ZA"
+author_country: ZA
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # A holistic ubuntu artificial intelligence ethics approach in South Africa

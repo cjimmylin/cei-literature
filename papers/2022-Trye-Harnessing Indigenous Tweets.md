@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,16 +6,16 @@ Not AI:
 key: 5BYLIFBB
 type: journalArticle
 short_title: "Harnessing Indigenous Tweets"
-year: 2022
+year: 2025
 first_author: "[[David Trye]]"
 last_author: "[[Mark Apperley]]"
 authors: "David Trye; Te Taka Keegan; Paora Mato; Mark Apperley"
 doi: 10.1007/s10579-022-09580-w
 url: "https://link.springer.com/10.1007/s10579-022-09580-w"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s10579-022-09580-w.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Maori"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Maori
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 90
@@ -77,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2022/2022-Trye-Harnessing Indigenous Tweets.md"
@@ -85,10 +48,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Trye-Harnessing Indigenous Tweets.pdf
 abstract: "Abstract Te reo Māori, the Indigenous language of Aotearoa New Zealand, is a distinctive feature of the nation's cultural heritage. This paper documents our efforts to build a corpus of 79,000 Māori-language tweets using computational methods. The Reo Māori Twitter (RMT) Corpus was created by targeting Māori-language users identified by the Indigenous Tweets website, pre-processing their data and filtering out non-Māori tweets, together with other sources of noise. Our motivation for creating su"
 CONF-CC: "Language Resources and Evaluation"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 0
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 55
 nw_buen_vivir: 0
-author_country: "NZ"
-author_region: "Oceania"
+author_country: NZ
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

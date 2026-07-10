@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,18 +9,18 @@ short_title: "Comparative Analysis of Religious Texts NLP"
 year: 2025
 first_author: "[[Mahit Nandan A D]]"
 last_author: "[[Shrutilipi Bhattacharjee]]"
-authors: Mahit Nandan A D; Ishan Godbole; Pranav M Kapparad; Shrutilipi Bhattacharjee
+authors: "Mahit Nandan A D; Ishan Godbole; Pranav M Kapparad; Shrutilipi Bhattacharjee"
 authors_incomplete: false
 url: 
 external_pdf: 
 pdf_extract: "PDF Extracts/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bhattacharjee-Comparative Analysis of Religious Texts NLP.pdf]]"
 publication: "CLRel 2025 (New Horizons in Computational Linguistics for Religious Texts), Abu Dhabi, UAE"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 100
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "> Comparative NLP analysis of three major religious texts including the Bhagavad Gita using topic modelling, semantic similarity, and sentiment analysis. Reveals shared and unique thematic patterns across Hindu, Christian, and Islamic scriptures."
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 60
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 60
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Comparative Analysis of Religious Texts: NLP Approaches to the Bible, Quran, and Bhagavad Gita

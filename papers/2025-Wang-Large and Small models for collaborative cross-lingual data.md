@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,10 +19,10 @@ CONF-CC: "Journal of King Saud University - Computer and Information Sciences"
 pdf_extract: "PDF Extracts/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-Large and Small models for collaborative cross-lingual data.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Chinese, Mongolian"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +46,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, BERT"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Entity relationship extraction tasks conducted in low-resource language domains (such as the medical and military domains) have long faced signiﬁcant challenges, and data augmentation (DA) is considered an effective solution for addressing this issue. Compared with monolingual DA methods, cross-lingual augmentation methods more effectively enhance the diversity of data in low-resource language settings by leveraging and extending data resources derived from other languages."
 research_topic: "Machine Translation"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0
@@ -103,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

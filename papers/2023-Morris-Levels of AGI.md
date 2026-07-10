@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,16 +6,16 @@ Not AI:
 key: X6T7FJ7G
 type: journalArticle
 short_title: "Levels of AGI"
-year: 2023
+year: 2025
 first_author: "[[Meredith Ringel Morris]]"
 last_author: "[[Shane Legg]]"
 authors: "Meredith Ringel Morris; Jascha Sohl-Dickstein; Noah Fiedel; Tris Warkentin; Allan Dafoe; Aleksandra Faust; Clement Farabet; Shane Legg"
 url: "https://arxiv.org/abs/2311.02462"
 external_pdf: "https://arxiv.org/pdf/2311.02462.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Human Rights"
 key_contribution: "Proposed a framework for classifying AGI progress based on levels of performance (depth) and generality (breadth), defining milestones from 'Emerging' to 'Superhuman'."
 significance: "Provides a common ontology for the AI community and policymakers to discuss progress towards AGI and assess associated risks, distinguishing between narrow AI and general autonomous systems."
@@ -89,9 +51,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Morris-Levels of AGI.pdf]]"
 CONF-CC: "ICML 2023"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 0
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AT"
+author_country: AT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Levels of AGI: Operationalizing Progress on the Path to AGI

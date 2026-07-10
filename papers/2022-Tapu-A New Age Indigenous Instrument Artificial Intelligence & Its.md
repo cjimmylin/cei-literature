@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,19 +6,19 @@ Not AI:
 key: ZERO0022
 type: conferencePaper
 short_title: "A New Age Indigenous Instrument: Artificial Intelligence & Its Potential for (De)Colonialized Data"
-year: 2022
+year: 2025
 first_author: "[[Ian Falefuafua Tapu]]"
 last_author: "[[Terina Kamailelauli'i Fa'agau]]"
 authors: "Ian Falefuafua Tapu; Terina Kamailelauli'i Fa'agau"
 url: "https://journals.law.harvard.edu/crcl/wp-content/uploads/sites/80/2023/01/ANewAgeIndigenousInstrument.pdf"
-publication: Harvard Civil Rights-Civil Liberties Law Review, Vol. 57
-CONF-CC: "N/A"
+publication: "Harvard Civil Rights-Civil Liberties Law Review, Vol. 57"
+CONF-CC: N/A
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -78,20 +43,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Explores whether AI will serve as a 'revolution' or a 'new colonizer' for Indigenous peoples. Examines AI in judicial processes and its impact on Indigenous Peoples' legal rights. Argues that Indigenous data sovereignty must guide 21st-century data governance and AI development."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -99,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 55
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # A New Age Indigenous Instrument: Artificial Intelligence & Its Potential for (De)Colonialized Data

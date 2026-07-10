@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,16 +6,16 @@ Not AI:
 key: N6Y6ES8Q
 type: journalArticle
 short_title: BOLD
-year: 2021
+year: 2025
 first_author: "[[Jwala Dhamala]]"
 last_author: "[[Rahul Gupta]]"
 authors: "Jwala Dhamala; Tony Sun; Varun Kumar; Satyapriya Krishna; Yada Pruksachatkun; Kai-Wei Chang; Rahul Gupta"
 doi: 10.1145/3442188.3445924
 url: "http://arxiv.org/abs/2101.11718"
 external_pdf: "http://arxiv.org/pdf/2101.11718.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 15
 rv_christianity: 15
@@ -78,22 +40,22 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Proposed BOLD, a large-scale dataset (23k prompts) for benchmarking bias in open-ended generation across profession, gender, race, religion, and politics."
 significance: "One of the standard benchmarks for open-ended generative bias, shifting evaluation from classification tasks to the more complex domain of text completion."
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Dhamala-BOLD.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Dhamala-BOLD.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2021/2021-Dhamala-BOLD.pdf]]
 abstract: "Recent advances in deep learning techniques have enabled machines to generate cohesive open-ended text when prompted with a sequence of words as context. While these models now empower many downstream applications from conversation bots to automatic storytelling, they have been shown to generate texts that exhibit social biases. To systematically study and benchmark social biases in open-ended language generation, we introduce the Bias in Open-Ended Language Generation Dataset (BOLD), a..."
 paper_summary: "Abstract: Recent advances in deep learning techniques have enabled ma- chines to generate cohesive open-ended text when prompted with a sequence of words as context. While these models now empower many downstre | Overview: BOLD: Dataset and Metrics for Measuring Biases in Open-Ended Language Generation Jwala Dhamala∗ Amazon Alexa AI-NU USA Tony Sun∗ UC Santa Barbara USA Varun Kumar Amazon Alexa AI-NU USA Satyapriya Kris | Conclusions: We presented a novel dataset BOLD and a set of metrics to evaluate fairness in open-ended language generation. Our experiments on evaluating the biase"
 CONF-CC: "FAccT 2021"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, BERT"
 DATA_URL: "https://github.com/jwaladhamala/BOLD-Bias-in-open-ended-language-generation"
-CONFERENCE: "Journal"
-helm: "incorporated"
-ethics_overall: 30
+CONFERENCE: Journal
+helm: incorporated
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +69,13 @@ nw_buddhist: 10
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

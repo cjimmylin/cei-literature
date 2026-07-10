@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: EXSR0215
 type: preprint
 short_title: SafeAgentBench
-year: 2024
+year: 2025
 first_author: "[[Yin, Sheng]]"
 last_author: "[[Chen, Siheng]]"
 authors: "Yin, Sheng; Pang, Xianghe; Ding, Yuanzhuo; Chen, Menglan; Bi, Yutong; Xiong, Yichen; Huang, Wenhao; Xiang, Zhen; Shao, Jing; Chen, Siheng"
@@ -51,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2412.13178"
 external_pdf: "https://arxiv.org/pdf/2412.13178.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yin-SafeAgentBench.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yin-SafeAgentBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Yin-SafeAgentBench.pdf]]
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 5
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "With the integration of large language models (LLMs), embodied agents have strong capabilities to understand and plan complicated natural language instructions. However, a foreseeable issue is that those embodied agents can also flawlessly execute some hazardous tasks, potentially causing damages in the real world. Existing benchmarks predominantly overlook critical safety risks, focusing solely on planning performance, while a few evaluate LLMs' safety awareness only on non-interactive..."
 LLM_assessed: "DeepSeek, GPT-4, Gemini, Llama-3, Qwen"
 DATA_URL: "https://github.com/shengyin1224/SafeAgentBench"
-research_topic: "Other"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+research_topic: Other
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 5
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 ---

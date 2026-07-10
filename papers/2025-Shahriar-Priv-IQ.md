@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,11 +13,11 @@ authors: "S. Shahriar; R. Dara"
 url: "https://www.mdpi.com/2673-2688/6/2/29"
 external_pdf: "https://doi.org/10.3390/ai6020029"
 pdf_extract: "PDF Extracts/2025/2025-Shahriar-Priv-IQ.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Shahriar-Priv-IQ.pdf]]
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,16 +41,16 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) and generative artiﬁcial intelligence (AI) have demonstrated notable capabilities, achieving human-level performance in intelligent tasks like medical exams. Despite the introduction of extensive LLM evaluations and benchmarks in disciplines like education, software development, and general intelligence, a privacy-centric perspective remains underexplored in the literature."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, GPT-4o mini, Gemini"
 DATA_URL: "https://github.com/sakibsh/Priv-IQ"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---

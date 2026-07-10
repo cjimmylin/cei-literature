@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,16 +6,16 @@ Not AI:
 key: MSQ255KQ
 type: document
 short_title: BetterBench
-year: 2024
+year: 2025
 first_author: "[[Anka Reuel]]"
 last_author: "[[Mykel J. Kochenderfer]]"
 authors: "Anka Reuel; Amelia Hardy; Chandler Smith; Max Lamparth; Malcolm Hardy; Mykel J. Kochenderfer"
 url: "https://arxiv.org/abs/2411.12990"
 external_pdf: "https://arxiv.org/pdf/2411.12990.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 osint_source: "Recovered via HTML"
 pdf_extract: "PDF Extracts/2024/2024-Reuel-BetterBench.md"
 abstract: "AI models are increasingly prevalent in high-stakes environments, necessitating thorough assessment of their capabilities and risks. Benchmarks are popular for measuring these attributes and for comparing model performance, tracking progress, and identifying weaknesses in foundation and non-foundation models. They can inform model selection for downstream tasks and influence policy initiatives. However, not all benchmarks are the same: their quality depends on their design and usability."
 paper_summary: "Abstract: AI models are increasingly prevalent in high-stakes environments, necessitating thorough assessment of their capabilities and risks. Benchmarks are popular for measuring these attributes and for compa | Overview: BetterBench: Assessing AI Benchmarks, Uncovering Issues, and Establishing Best Practices Anka Reuel ∗ Stanford University Amelia Hardy∗ Stanford University Chandler Smith Northeastern University Max L | Methodology: Our benchmark assessment consists of 46 criteria based on our literature review and interviews with five primary groups of stakeholders. These groups, | Key Findings: is an essential discipline [15]. Current evaluation approaches include both internally (e.g., private testing on proprietary data) and externally deve | Conclusions: Not all benchmarks are of the same quality. Model developers frequently report performance on benchmarks that vary significantly in quality. For insta"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Reuel-BetterBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Reuel-BetterBench.pdf]]
 CONF-CC: "NeurIPS 2024"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://betterbench.stanford.edu"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # BetterBench: Assessing AI Benchmarks, Uncovering Issues and Opportunities

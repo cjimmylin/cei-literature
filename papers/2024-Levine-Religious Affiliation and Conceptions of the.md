@@ -5,7 +5,7 @@ Human View note:
 Not AI: 
 key: U6X9LC4B
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "Religious Affiliation and Conceptions of the"
 first_author: "[[Sydney Levine]]"
 last_author: "[[Sydney Levine]]"
@@ -13,9 +13,9 @@ authors: "Sydney Levine"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/QBMPEGEU/Levine - Religious Affiliation and Conceptions of the Moral Domain.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Levine-Religious Affiliation and Conceptions of the.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Levine-Religious Affiliation and Conceptions of the.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 0
@@ -46,12 +46,12 @@ key_contribution: "Investigates how religious affiliation (Muslim, Mormon, Jewis
 significance: "Challenges the assumption of a universal boundary between 'moral' and 'conventional' domains, showing that AI alignment must account for deep disagreements about *what counts* as a moral issue across religions."
 tags: 
 abstract: "What is the relationship between religious affiliation and conceptions of the moral domain? Putting aside the question of whether people from different religions agree about how to answer moral questions, here we investigate a more fundamental question: How much disagreement is there across religions about which issues count as moral in the first place? That is, do people from different religions conceptualize the scope of morality differently? Using a new methodology to map out how individuals"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260129
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/sydneylevine/moral-domain"
-CONFERENCE: "Journal"
-ethics_overall: 30
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -65,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Religious Affiliation and Conceptions of the Moral Domain

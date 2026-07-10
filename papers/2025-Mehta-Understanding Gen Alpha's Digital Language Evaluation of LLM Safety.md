@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2505.10588.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mehta-Understanding Gen Alpha's Digital Language Evaluation of LLM Safety.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "This research provides a unique assessment of how AI systems interpret Generation Alpha (Gen Alpha, born 2010-2024) digital communication patterns. As the first generation to grow up with AI as part of daily life, Gen Alpha faces unprecedented online vulnerability due to their immersive digital engagement and the growing disconnect between their communication patterns and traditional safety mechanisms."
 LLM_assessed: "Claude, GPT-4, Gemini, Llama-3"
 DATA_URL: "https://github.com/SystemTwoAI/GenAlphaSlang"
-CONFERENCE: "Preprint"
-ethics_overall: 45
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework text corpus"
 data_metrics: "Not specified"
 ---

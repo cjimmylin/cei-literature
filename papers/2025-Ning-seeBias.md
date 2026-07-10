@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,10 +12,10 @@ last_author: "[[Nan Liu]]"
 authors: "Yilin Ning; Yian Ma; Mingxuan Liu; Xin Li; Nan Liu"
 url: "https://arxiv.org/abs/2504.08418"
 external_pdf: "https://arxiv.org/pdf/2504.08418.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced seeBias, an R package for integrated visualization and assessment of fairness, calibration, and predictive performance."
 significance: "Bridges the gap between fairness metrics and standard performance evaluation (like calibration), providing a tool for holistic model auditing in high-stakes domains (healthcare, criminal justice)."
@@ -86,13 +47,13 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Ning-seeBias.md"
 abstract: "Fairness in artificial intelligence (AI) prediction models is increasingly emphasized to support responsible adoption in high-stakes domains such as health care and criminal justice. Guidelines and implementation frameworks highlight the importance of both predictive accuracy and equitable outcomes. However, current fairness toolkits often evaluate classification performance disparities in isolation, with limited attention to other critical aspects such as calibration."
 paper_summary: "Abstract: Fairness in artificial intelligence (AI) prediction models is increasingly emphasized to support responsible adoption in high-stakes domains such as health care and criminal justice. Guidelines and im | Overview: 1 seeBias: A Comprehensive Tool for Assessing and Visualizing AI Fairness Yilin Ning1,2, Yian Ma1,2, Mingxuan Liu1,2, Xin Li1,2, Nan Liu1,2,3,4* 1Centre for Quantitative Medicine, Duke-NUS Medical Sch | Key Findings: Inspired by the comprehensive assessment in fairmodels, seeBias visually evaluates a wider range of performance metrics in addition to TPR and FPR to  | Conclusions: Bias in AI models has been a significant concern in high-stakes applications such as criminal justice and healthcare (1,29–31). Current efforts to eva"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ning-seeBias.pdf]]"
-CONF-CC: "N/A"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Ning-seeBias.pdf]]
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/nliulab/seeBias"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

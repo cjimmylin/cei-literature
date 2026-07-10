@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,21 +6,21 @@ Not AI:
 key: LSRC0505
 type: preprint
 short_title: "GFG -- Gender-Fair Generation: A CALAMITA Challenge"
-year: 2024
+year: 2025
 first_author: "[[Simona Frenda]]"
 last_author: "[[Luisa Bentivogli]]"
-authors: Simona Frenda; Andrea Piergentili; Beatrice Savoldi; Marco Madeddu; Martina Rosola; Silvia Casola; Chiara Ferrando; Viviana Patti; Matteo Negri; Luisa Bentivogli
+authors: "Simona Frenda; Andrea Piergentili; Beatrice Savoldi; Marco Madeddu; Martina Rosola; Silvia Casola; Chiara Ferrando; Viviana Patti; Matteo Negri; Luisa Bentivogli"
 url: "https://arxiv.org/abs/2412.19168"
 external_pdf: "https://arxiv.org/pdf/2412.19168.pdf"
 publication: "arXiv / CLiC-it 2024"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Frenda-GFG - Gender-Fair Generation A CALAMITA Challenge.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
+national_ethnic_cultural: Italian
+cultures_nationalities_list: Italian
+languages_list: Italian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/simonasnow/GFL-it-Dataset"
 tags: 
 abstract: "Gender-fair language aims at promoting gender equality by using terms and expressions that include all identities and avoid reinforcing gender stereotypes. Implementing gender-fair strategies is particularly challenging in heavily gender-marked languages, such as Italian. To address this, the Gender-Fair Generation challenge intends to help shift toward gender-fair language in written communication."
-CONFERENCE: "Preprint"
-ethics_overall: 45
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +9,7 @@ short_title: "Can LLMs Write Faithfully An Agent-Based"
 year: 2025
 first_author: "[[Abdullah Mushtaq]]"
 last_author: "[[Junaid Qadir]]"
-authors: Abdullah Mushtaq; Rafay Naeem; Ezieddin Elmahjub; Ibrahim Ghaznavi; Shawqi Al-Maliki; Mohamed Abdallah; Ala Al-Fuqaha; Junaid Qadir
+authors: "Abdullah Mushtaq; Rafay Naeem; Ezieddin Elmahjub; Ibrahim Ghaznavi; Shawqi Al-Maliki; Mohamed Abdallah; Ala Al-Fuqaha; Junaid Qadir"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.24438"
 external_pdf: "https://arxiv.org/pdf/2510.24438.pdf"
@@ -56,8 +18,8 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Qadir-Can LLMs Write Faithfully An Ag
 publication: "NeurIPS 2025 Workshop on Muslims in Machine Learning / arXiv"
 CONF-CC: "NeurIPS 2025 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
 religious_values: "Multiple Religions"
 rv_islam: 100
@@ -83,20 +45,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large language models are increasingly used for Islamic guidance, but risk misquoting texts, misapplying jurisprudence, or producing culturally inconsistent responses. We pilot an evaluation of GPT-4o, Ansari AI, and Fanar on prompts from authentic Islamic blogs. Our dual-agent framework uses a quantitative agent for citation verification and six-dimensional scoring (e.g., Structure, Islamic Consistency, Citations) and a qualitative agent for five-dimensional side-by-side comparison (e.g."
-LLM_assessed: "GPT-4o"
-DATA_URL: "NA"
+LLM_assessed: GPT-4o
+DATA_URL: NA
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 5
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "QA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: QA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

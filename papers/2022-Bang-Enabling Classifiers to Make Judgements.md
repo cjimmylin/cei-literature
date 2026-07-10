@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +6,7 @@ Not AI:
 key: G38X86EQ
 type: conferencePaper
 short_title: "Enabling Classifiers to Make Judgements"
-year: 2022
+year: 2025
 first_author: "[[Yejin Bang]]"
 last_author: "[[Pascale Fung]]"
 authors: "Yejin Bang; Tiezheng Yu; Andrea Madotto; Zhaojiang Lin; Mona Diab; Pascale Fung"
@@ -55,11 +14,11 @@ doi: 10.48550/arXiv.2210.07652
 url: "http://arxiv.org/abs/2210.07652"
 external_pdf: "http://arxiv.org/pdf/2210.07652.pdf"
 publication: TRUSTNLP
-CONF-CC: "TRUSTNLP"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+CONF-CC: TRUSTNLP
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 5
 rv_buddhism: 0
@@ -74,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a framework for value-aligned classification that uses explicitly written human values in prompts to guide model predictions, rather than relying on implicit training data."
 significance: "Demonstrates that explicitly instructing models with human values improves inclusivity and explainability in sensitive tasks like toxicity detection, surpassing baselines that rely solely on fine-tuning."
@@ -96,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "ALBERT, BART, RoBERTa"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -110,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

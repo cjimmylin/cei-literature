@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,12 +15,12 @@ url: "https://doi.org/10.3233/SHTI250854"
 pdf_extract: "PDF Extracts/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ebara-Corpus-Based Medical Ethics Decision-Making Evaluation.pdf]]"
 publication: Unknown
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: "Japanese"
-religious_values: "N/A"
+national_ethnic_cultural: Japanese
+cultures_nationalities_list: Japanese
+languages_list: Japanese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Assessing the ethical biases of large language models (LLMs) is crucial for their clinical application. To evaluate the ethical behavior of LLMs in clinical settings, we introduce a text corpus that focuses on ethical dilemmas. The corpus comprises 50 scenarios of clinical cases, each consisting of a clinical situation and options that impose ethical dilemmas. Each option is scored based on four ethical principles, enabling the evaluation of the ethical decision-making capabilities of LLMs..."
 LLM_assessed: "GPT-4o, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 40
 utilitarian_ethics: 5
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "JP"
+author_country: JP
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "50 scenarios"
 ---

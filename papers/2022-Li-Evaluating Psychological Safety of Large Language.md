@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +6,7 @@ Not AI:
 key: XBXAQPZ6
 type: conferencePaper
 short_title: "Evaluating Psychological Safety of Large Language"
-year: 2022
+year: 2025
 first_author: "[[Xingxuan Li]]"
 last_author: "[[Lidong Bing]]"
 authors: "Xingxuan Li; Yutong Li; Lin Qiu; Shafiq Joty; Lidong Bing"
@@ -48,10 +15,10 @@ url: "http://arxiv.org/abs/2212.10529"
 external_pdf: "http://arxiv.org/pdf/2212.10529.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2022"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Evaluated LLMs using psychological personality tests (Dark Triad, Big Five) to assess safety beyond simple toxicity metrics"
 significance: "Revealed that even safety-tuned models (InstructGPT) exhibit 'dark' personality traits (Machiavellianism), suggesting current alignment methods don't fundamentally alter underlying moral character"
@@ -86,9 +53,9 @@ paper_summary: "Abstract: In this work, we designed unbiased prompts to systemat
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Li-Evaluating Psychological Safety of Large Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "EMNLP 2022"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 55
@@ -101,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

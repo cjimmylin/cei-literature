@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0147
 type: preprint
 short_title: "CLAVE / ValEval"
-year: 2024
+year: 2025
 first_author: "[[Jing Yao]]"
 last_author: "[[X & Xie]]"
 authors: "Jing Yao; Xu, Tianyi; X & Xie"
@@ -15,12 +15,12 @@ external_pdf: "https://arxiv.org/pdf/2407.10725.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yao-CLAVE ValEval.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yao-CLAVE ValEval.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 50
 mp_trolley: 0
@@ -49,10 +49,10 @@ newtags:
 tags: 
 abstract: "The rapid progress in Large Language Models (LLMs) poses potential risks such as generating unethical content. Assessing LLMs’ values helps expose their misalignment, but relies on reference-free evaluators, e.g., fine-tuned LLMs or close-source ones like GPT-4, to identify values reflected in generated responses. Nevertheless, these evaluators face two challenges in open-ended value evaluation: they should align with changing human value definitions with minimal annotation, against their own..."
 LLM_assessed: "GPT-4, GPT-2, Mistral, Phi-3, Llama-2, Alpaca"
-DATA_URL: "NA"
+DATA_URL: NA
 normative_ethics_benchmark: Borderline
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -66,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

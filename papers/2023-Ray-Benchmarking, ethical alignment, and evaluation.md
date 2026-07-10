@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,17 +6,17 @@ Not AI:
 key: EXAGJWAD
 type: journalArticle
 short_title: "Benchmarking, ethical alignment, and evaluation"
-year: 2023
+year: 2025
 first_author: "[[Partha Pratim Ray]]"
 last_author: "[[Partha Pratim Ray]]"
 authors: "Partha Pratim Ray"
 doi: 10.1016/j.tbench.2023.100136
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2772485923000534"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/BA3ZHLQG/Ray - 2023 - Benchmarking, ethical alignment, and evaluation framework for conversational AI Advancing responsib.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Proposed a multidimensional evaluation framework for ChatGPT, analyzing existing benchmarks (GLUE, HELM, etc.) and adding new standards for 'context adaptability' and 'community involvement'."
 significance: "One of the early comprehensive frameworks specifically targeting the ethical evaluation of conversational AI like ChatGPT, moving beyond simple accuracy metrics to diverse social impact standards."
@@ -89,12 +48,12 @@ tags:
 abstract: "Conversational AI systems like ChatGPT have seen remarkable advancements in recent years, revolutionizing human–computer interactions. However, evaluating the performance and ethical implications of these systems remains a challenge. This paper delves into the creation of rigorous benchmarks, adaptable standards, and an intelligent evaluation methodology tailored specifically for ChatGPT. We meticulously analyze several prominent benchmarks, including GLUE, SuperGLUE, SQuAD, CoQA, Persona-Chat,"
 CONF-CC: "BenchCouncil Transactions on Benchmarks Standards and Evaluations"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT"
+LLM_assessed: ChatGPT
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ray-Benchmarking, ethical alignment, and evaluation.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

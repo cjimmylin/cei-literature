@@ -1,40 +1,10 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: false
 Not AI: 
 key: AUTO_HAYES2024
 type: journalArticle
 short_title: "Virtue and Narrative in AI Practices"
-year: 2024
+year: 2025
 first_author: "[[Paul Hayes]]"
 last_author: "[[Ferrández, José Manuel]]"
 authors: "Hayes, Paul; Fitzpatrick, Noel; Ferrández, José Manuel"
@@ -42,10 +12,10 @@ doi: 10.1007/s43681-024-00472-z
 url: "https://link.springer.com/article/10.1007/s43681-024-00472-z"
 pdf_extract: "PDF Extracts/2024/2024-Hayes-Virtue and Narrative in AI Practices.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hayes-Virtue and Narrative in AI Practices.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -60,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -69,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, Narrative Ethics, MacIntyre, Ricoeur, AI Ethics"
 key_contribution: "Proposes narrative and virtue-based ethics (VPD - Virtuous Practice Design) as foundation for AI ethics, building on MacIntyre and Ricoeur"
 significance: "Bridges Ricoeur's 'little ethics', MacIntyre's virtue ethics, and AI design practices through narrative framework"
@@ -77,10 +47,10 @@ external_pdf: N/A
 abstract: "This paper addresses the question of how ethics and ethical frameworks can be used to avert the negative consequences of AI through guidance on human behaviour and technological system design. While a kind of AI ethics principlism has gained widespread acceptance, it still invites harsh rejections in recent scholarship. The paper explores the contribution to an ethics of AI made by a narrative philosophy and ethics of technology inspired by the 'little ethics' of Paul Ricoeur, and virtue ethics of Alasdair MacIntyre, most recently and promisingly built upon by Wessel Reijers and Mark Coeckelbergh. The objective is to examine whether a narrative and virtue-based ethics (or VPD, i.e., virtuous practice design) might be a plausible candidate for the foundation of an ethics of AI."
 CONF-CC: "AI and Ethics"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -93,14 +63,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IE"
+author_country: IE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # From applied ethics and ethical principles to virtue and narrative in AI practices

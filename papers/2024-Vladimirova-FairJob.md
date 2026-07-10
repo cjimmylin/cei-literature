@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: XR5FVHMC
 type: conferencePaper
 short_title: FairJob
-year: 2024
+year: 2025
 first_author: "[[Mariia Vladimirova]]"
 last_author: "[[Eustache Diemert]]"
 authors: "Mariia Vladimirova; Federico Pavone; Eustache Diemert"
@@ -50,10 +15,10 @@ url: "http://arxiv.org/abs/2407.03059"
 external_pdf: "http://arxiv.org/pdf/2407.03059.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Value Pluralism / Schwartz, Utilitarianism"
 key_contribution: "Releases FairJob, a real-world fairness dataset for job recommendation, including proxy estimates for sensitive attributes like gender"
 significance: "Addresses the scarcity of industrial fairness benchmarks, allowing researchers to study the 'fairness-utility trade-off' in high-stakes employment algorithms"
@@ -85,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Vladimirova-FairJob.md"
 abstract: "We introduce a fairness-aware dataset for job recommendation in advertising, designed to foster research in algorithmic fairness within real-world scenarios. It was collected and prepared to comply with privacy standards and business confidentiality. An additional challenge is the lack of access to protected user attributes such as gender, for which we propose a solution to obtain a proxy estimate. Despite being anonymized and including a proxy for a sensitive attribute, our dataset preserves..."
 paper_summary: "Abstract: We introduce a fairness-aware dataset for job recommendation in advertising, designed to foster research in algorithmic fairness within real-world scenarios. It was collected and prepared to comply wi | Overview: FairJob: A Real-World Dataset for Fairness in Online Systems Mariia Vladimirova∗, Eustache Diemert Criteo AI Lab {m.vladimirova,e.diemert}@criteo.com Federico Pavone Université Paris Dauphine-PSL fede | Methodology: to compute a fair utility metric for the job recommendations in online systems case from a biased dataset. Experimental evaluations of bias mitigation | Conclusions: Addressing bias in AI goes beyond mere compliance with legal frameworks like the AI Act; it necessitates proactive measures to detect, prevent, and mi"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Vladimirova-FairJob.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Vladimirova-FairJob.pdf]]
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/criteo/FairJob"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: 75
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 25
@@ -104,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

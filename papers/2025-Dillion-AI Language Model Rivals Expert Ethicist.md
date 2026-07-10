@@ -15,10 +15,10 @@ url: "https://www.nature.com/articles/s41598-025-86510-0"
 external_pdf: "https://www.nature.com/articles/s41598-025-86510-0.pdf"
 publication: "Scientific Reports"
 CONF-CC: "Nature Scientific Reports"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -55,8 +55,8 @@ LLM_assessed: "GPT-3.5, GPT-4o"
 DATA_URL: "https://osf.io/9684s"
 DATE_ADDED: 20260207
 research_topic: "NLP & Representation Learning"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -70,14 +70,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # AI Language Model Rivals Expert Ethicist

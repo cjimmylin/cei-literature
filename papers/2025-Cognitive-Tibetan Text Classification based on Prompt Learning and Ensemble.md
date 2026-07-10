@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,10 +17,10 @@ CONF-CC: "ACM TALIP"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Tibetan"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Tibetan
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "With the advancement of pre-trained language models, prompt learning has emerged as a trend for text classification. It offers several advantages over traditional machine learning methods, particularly for low-resource natural language processing tasks. Prompt learning enables fine-tuning of pre-trained language models on relatively small datasets, eliminating the need for a large number of expensive labeled samples. This article proposes an effective approach that combines prompt learning and ensemble learning, aiming to enhance the performance of individual language models in Tibetan text classification tasks. This approach introduces a different perspective by transforming the traditional text classification problem into an entailment relationship exploration. Instead of directly assigning categories to sentences, models judge the sentence category based on whether it is entailed by a given prompt. This innovative method enables us to leverage the strengths of prompt learning and ensemble learning simultaneously, resulting in improved classification accuracy. To evaluate the effectiveness of our approach, we conducted extensive experiments on two public datasets, TNCC and WCM. The experimental results demonstrate the effectiveness of our method, achieving weighted F1 scores of 72.72% and 78% on TNCC and WCM, respectively. Compared to traditional machine learning methods, this prompt learning approach exhibits a significant 10% performance gain in low-resource natural language processing tasks."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

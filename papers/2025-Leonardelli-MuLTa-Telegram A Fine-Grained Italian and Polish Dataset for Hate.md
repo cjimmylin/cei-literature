@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,14 +13,14 @@ authors: "Leonardelli, Elisa; Casula, Camilla; Vecellio Salto, Sebastiano; Bak, 
 url: "https://aclanthology.org/2025.clicit-1.56.pdf"
 external_pdf: "https://ceur-ws.org/Vol-4112/55_main_long.pdf"
 publication: "ACL Anthology (CLiC-it 2025)"
-CONF-CC: "N/A"
-pdf_extract: PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md
+CONF-CC: N/A
+pdf_extract: "PDF Extracts/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Leonardelli-MuLTa-Telegram A Fine-Grained Italian and Polish Dataset for Hate.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian"
+national_ethnic_cultural: Italian
+cultures_nationalities_list: Italian
 languages_list: "Italian, Polish"
-religious_values: "Judaism"
+religious_values: Judaism
 rv_islam: 20
 rv_christianity: 10
 rv_buddhism: 0
@@ -75,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Judaism"
+religious_values_list: Judaism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, Llama-3"
 DATA_URL: "https://github.com/dhfbk/MuLTa-Telegram"
 tags: 
 abstract: "This paper introduces the MuLTa-Telegram dataset, a Multi- Lingual and multi-Target dataset specifically developed to detect hate speech on Telegram, an understudied yet influential platform in which extremist and fringe content can be found. The dataset contains about 4,000 Telegram messages in Italian and Polish, annotated for the presence of hate speech and its targets, including also target identity group mentions even when no hate is expressed."
 CONFERENCE: "ACL 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

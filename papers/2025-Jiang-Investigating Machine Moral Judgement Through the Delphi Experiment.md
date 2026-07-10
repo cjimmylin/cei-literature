@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-Investigating Machine Moral Jud
 publication: "Nature Machine Intelligence"
 CONF-CC: "Nature Machine Intelligence"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "As our society adopts increasingly powerful artificial intelligence (AI) systems for pervasive use, there are growing concerns about machine morality -- or lack thereof. Millions of users already rely on the outputs of AI systems, such as chatbots, as decision aids. Meanwhile, AI researchers continue to grapple with the challenge of aligning these systems with human morality and values. In response to this challenge, we build and test Delphi, an open-source AI system trained to predict the..."
 LLM_assessed: "Delphi, GPT-3, GPT-3.5, GPT-4, T5"
 DATA_URL: "https://github.com/liweijiang/delphi.git"
 normative_ethics_benchmark: Borderline
-CONFERENCE: "Journal"
-ethics_overall: 65
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 5
@@ -105,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Investigating Machine Moral Judgement Through the Delphi Experiment (DelphiHYBRID)

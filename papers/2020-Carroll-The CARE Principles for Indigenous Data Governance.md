@@ -1,60 +1,25 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: CULT0120
 type: journalArticle
-short_title: The CARE Principles for Indigenous Data Governance
-year: 2020
+short_title: "The CARE Principles for Indigenous Data Governance"
+year: 2025
 first_author: "[[Stephanie Russo Carroll]]"
 last_author: "[[Maui Hudson]]"
-authors: Stephanie Russo Carroll; Ibrahim Garba; Oscar L. Figueroa-Rodriguez; Jarita Holbrook; Raymond Lovett; Simeon Materechera; Mark Parsons; Kay Raseroka; Desi Rodriguez-Lonebear; Robyn Rowe; Rodrigo Sara; Jennifer D. Walker; Jane Anderson; Maui Hudson
+authors: "Stephanie Russo Carroll; Ibrahim Garba; Oscar L. Figueroa-Rodriguez; Jarita Holbrook; Raymond Lovett; Simeon Materechera; Mark Parsons; Kay Raseroka; Desi Rodriguez-Lonebear; Robyn Rowe; Rodrigo Sara; Jennifer D. Walker; Jane Anderson; Maui Hudson"
 doi: 10.5334/dsj-2020-043
 url: "https://datascience.codata.org/articles/10.5334/dsj-2020-043"
-publication: Data Science Journal
+publication: "Data Science Journal"
 CONF-CC: "Data Science Journal"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Carroll-The CARE Principles for Indigenous Data Governance.pdf]]"
 pdf_extract: "PDF Extracts/2020/2020-Carroll-The CARE Principles for Indigenous Data Governance.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -79,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Develops the CARE Principles for Indigenous Data Governance: Collective Benefit, Authority to Control, Responsibility, and Ethics. People and purpose-oriented principles reflecting the crucial role of data in advancing Indigenous innovation and self-determination. Complement FAIR principles by centering people and purpose. Developed at 2018 International Data Week workshop on Indigenous data sovereignty."
-research_topic: "Other"
-CONFERENCE: "Journal"
-ethics_overall: 0
+research_topic: Other
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -101,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The CARE Principles for Indigenous Data Governance

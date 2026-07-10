@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: LSRC0363
 type: conferencePaper
 short_title: "ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model"
-year: 2024
+year: 2025
 first_author: "[[Luan Thanh Nguyen]]"
 last_author: "[[Luan Thanh Nguyen]]"
 authors: "Luan Thanh Nguyen"
@@ -56,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2405.14141.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nguyen-ViHateT5 Enhancing Hate Speech Detection in Vietnamese With A Unified.pdf]]"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Vietnamese"
-cultures_nationalities_list: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
+national_ethnic_cultural: Vietnamese
+cultures_nationalities_list: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa, T5"
 DATA_URL: "https://github.com/tarudesu/ViHateT5"
 tags: 
 abstract: "Recent advancements in hate speech detection (HSD) in Vietnamese have made significant progress, primarily attributed to the emergence of transformer-based pre-trained language models, particularly those built on the BERT architecture. However, the necessity for specialized fine-tuned models has resulted in the complexity and fragmentation of developing a multitasking HSD system. Moreover, most current methodologies focus on fine-tuning general pre-trained models, primarily trained on formal..."
 CONFERENCE: "ACL 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -106,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "VN"
+author_country: VN
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 27
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # ViHateT5: Enhancing Hate Speech Detection in Vietnamese With A Unified Text-to-Text Transformer Model

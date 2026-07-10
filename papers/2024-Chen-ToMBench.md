@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: TVGQ5DM8
 type: conferencePaper
 short_title: ToMBench
-year: 2024
+year: 2025
 first_author: "[[Zhuang Chen]]"
 last_author: "[[Minlie Huang]]"
 authors: "Zhuang Chen; Jincenzi Wu; Jinfeng Zhou; Bosi Wen; Guanqun Bi; Gongyao Jiang; Yaru Cao; Mengting Hu; Yunghwei Lai; Zexuan Xiong; Minlie Huang"
@@ -53,10 +15,10 @@ url: "http://arxiv.org/abs/2402.15052"
 external_pdf: "http://arxiv.org/pdf/2402.15052.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,24 +42,24 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Chen-ToMBench.md"
 abstract: "Theory of Mind (ToM) is the cognitive capability to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a form of ToM. However, existing ToM evaluations are hindered by challenges such as constrained scope, subjective judgment, and unintended contamination, yielding inadequate assessments. To address this gap, we introduce T MBENCH with three key characteristics: a systematic evaluation framework..."
 paper_summary: "Abstract: Theory of Mind (ToM) is the cognitive capa- bility to perceive and ascribe mental states to oneself and others. Recent research has sparked a debate over whether large language models (LLMs) exhibit a | Overview: T MBENCH: Benchmarking Theory of Mind in Large Language Models Zhuang Chen1∗ Jincenzi Wu2∗ Jinfeng Zhou1∗ Bosi Wen1∗ Guanqun Bi1,3 Gongyao Jiang4 Yaru Cao1,5 Mengting Hu6 Yunghwei Lai7 Zexuan Xiong1 M | Methodology: In T MBENCH, we organize the test samples in two perspectives: the task view groups them into 8 theory-of-mind tasks, and the ability view cate- goriz | Key Findings: ✔ Original Inventory Bilingual Corpus Systematic Framework ✔ ✔ Question1: What emotion does Mike likely show? A. Proud B. Guilty C. Ashamed D. Disappo"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chen-ToMBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Chen-ToMBench.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/zhchen18/ToMBench"
 CONFERENCE: "ACL 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

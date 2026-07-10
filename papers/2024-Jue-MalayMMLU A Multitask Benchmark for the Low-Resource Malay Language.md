@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: LSRC0104
 type: conferencePaper
 short_title: "MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language"
-year: 2024
+year: 2025
 first_author: "[[Poh, Soon Chang]]"
 last_author: "[[Chan, Chee Seng]]"
 authors: "Poh, Soon Chang; Yang, Sze Jue; Tan, Jeraelyn; Chieng, Lawrence; Jeffrey Ziwei Tan; Yu, Zhenyu; Mun, Foong; Chan, Chee Seng"
@@ -56,10 +18,10 @@ CONF-CC: "EMNLP 2024 Findings"
 pdf_extract: "PDF Extracts/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Jue-MalayMMLU A Multitask Benchmark for the Low-Resource Malay Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Malay"
-religious_values: "Islam"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Malay
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3, GPT-3.5, GPT-4, GPT-4o, LLaMA, Llama-3, Mistral, Qwen, Qwen-2, Gemma, Gemma-2, Baichuan, StableLM, GLM, Command-R, Command R+"
 DATA_URL: "https://github.com/UMxYTL-AI-Labs/MalayMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) and Large Vision Language Models (LVLMs) exhibit advanced proficiency in language reasoning and comprehension across a wide array of languages. While their performance is notably robust in well-resourced languages, their capabilities in low-resource languages, such as Bahasa Melayu (hereinafter referred to as Malay), remain less explored due to a scarcity of dedicated studies and benchmarks."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "MY"
+author_country: MY
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 45
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "24,213 questions"
 ---
 # MalayMMLU: A Multitask Benchmark for the Low-Resource Malay Language

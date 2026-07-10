@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,17 +6,17 @@ Not AI:
 key: J78A4GWD
 type: conferencePaper
 short_title: ToxiGen
-year: 2022
+year: 2025
 first_author: "[[Thomas Hartvigsen]]"
 last_author: "[[Ece Kamar]]"
 authors: "Thomas Hartvigsen; Saadia Gabriel; Hamid Palangi; Maarten Sap; Dipankar Ray; Ece Kamar"
 doi: 10.18653/v1/2022.acl-long.234
 url: "https://aclanthology.org/2022.acl-long.234/"
 external_pdf: "https://aclanthology.org/2022.acl-long.234.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 20
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,21 +40,21 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Created ToxiGen, a large-scale (274k) machine-generated dataset of toxic and benign statements about 13 minority groups, using adversarial prompting."
 significance: "Addresses the scarcity of implicit toxicity data by using LMs to generate subtle hate speech, showing that finetuning on this synthetic data significantly improves detection of human-written implicit hate."
 tags: 
 abstract: "Toxic language detection systems often falsely ﬂag text that contains minority group mentions as toxic, as those groups are often the targets of online hate. Such over-reliance on spurious correlations also causes systems to struggle with detecting implicitly toxic language. To help mitigate these issues, we create TOXIGEN, a new large-scale and machinegenerated dataset of 274k toxic and benign statements about 13 minority groups."
 pdf_extract: "PDF Extracts/2022/2022-Hartvigsen-ToxiGen.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2022/2022-Hartvigsen-ToxiGen.pdf]]
 CONF-CC: "ACL 2022"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3, HateBERT, RoBERTa"
 DATA_URL: "https://github.com/microsoft/ToxiGen"
 CONFERENCE: "ACL 2022"
 eleutherai: incorporated
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

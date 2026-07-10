@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,21 +6,21 @@ Not AI:
 key: CULT0163
 type: conferencePaper
 short_title: "GuyLingo: The Republic of Guyana Creole Corpora"
-year: 2024
+year: 2025
 first_author: "[[Christopher Clarke]]"
 last_author: "[[Jason Mars]]"
-authors: Christopher Clarke; Roland Daynauth; Charlene Wilkinson; Hubert Devonish; Jason Mars
+authors: "Christopher Clarke; Roland Daynauth; Charlene Wilkinson; Hubert Devonish; Jason Mars"
 url: "https://arxiv.org/abs/2405.03832"
 external_pdf: "https://arxiv.org/pdf/2405.03832.pdf"
-publication: NAACL 2024
+publication: "NAACL 2024"
 CONF-CC: "NAACL 2024"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Clarke-GuyLingo The Republic of Guyana Creole Corpora.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Creolese"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Creolese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4, T5-Large, BART-Large, BART-Base, Pegasus-Large"
 DATA_URL: "https://github.com/ChrisIsKing/Caribbean-Creole-Languages-Translation"
 tags: 
 abstract: "While major languages often enjoy substantial attention and resources, the linguistic diversity across the globe encompasses a multitude of smaller, indigenous, and regional languages that lack the same level of computational support. One such region is the Caribbean. While commonly labeled as 'English speaking', the ex-British Caribbean region consists of a myriad of Creole languages thriving alongside English."
 CONFERENCE: "NAACL 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

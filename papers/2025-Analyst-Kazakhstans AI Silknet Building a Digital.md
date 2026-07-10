@@ -1,6 +1,6 @@
 ---
-key: "CGSR0147"
-type: "document"
+key: CGSR0147
+type: document
 short_title: "Kazakhstan's AI Silknet: Building a Digital Bridge for Central Asia's Future"
 year: 2025
 first_author: "[[CACI Analyst]]"
@@ -9,7 +9,7 @@ url: "https://www.cacianalyst.org/publications/analytical-articles/item/13905-ka
 abstract: "Kazakhstan's AI Silknet initiative as regional digital infrastructure hub for Central Asia"
 DATE_ADDED: 20260403
 cultural_gap_category: "Eastern European/Central Asian"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,8 +22,8 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
 ---

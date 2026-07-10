@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,11 +14,11 @@ doi: 10.48550/arXiv.2507.22159
 url: "http://arxiv.org/abs/2507.22159"
 external_pdf: "http://arxiv.org/pdf/2507.22159.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 research_topic: "Machine Learning"
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian"
-languages_list: "Indonesian"
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
+languages_list: Indonesian
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -79,20 +43,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Indonesian
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Wiyono-IndoPref.md"
 abstract: "Over 200 million people speak Indonesian, yet the language remains significantly underrepresented in preference-based research for large language models (LLMs). Most existing multilingual datasets are derived from English translations, often resulting in content that lacks cultural and linguistic authenticity. To address this gap, we introduce INDOPREF, the first fully human-authored and multi-domain Indonesian preference dataset designed to evaluate the naturalness and quality of LLM-generated..."
 paper_summary: "Abstract: Over 200 million people speak Indonesian, yet the language remains significantly underrepre- sented in preference-based research for large language models (LLMs). Most existing multi- lingual datasets | Overview: INDOPREF: A Multi-Domain Pairwise Preference Dataset for Indonesian Vanessa Rebecca Wiyono1*, David Anugraha2∗, Ayu Purwarianti1, Genta Indra Winata3 1Institut Teknologi Bandung 2Stanford University 3 | Key Findings: A.2 Indonesian Template Pairwise evaluation prompt template Evaluasi respons berdasarkan tugas, ma- sukan, respons, dan rubrik evaluasi yang diberikan | Conclusions: This paper introduces INDOPREF, a new bench- mark for evaluating LLMs on Indonesian-language preference tasks using fully human-authored data. By focu"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wiyono-IndoPref.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Wiyono-IndoPref.pdf]]
 key_contribution: "Introduces IndoPref, the first fully human-authored, multi-domain pairwise preference dataset for the Indonesian language, containing 522 prompts and 4,099 human-annotated preferences."
 significance: "Addresses the 'Translation-ese' problem in multilingual LLM evaluation by providing a native-authored gold standard that captures Indonesian cultural and linguistic authenticity, revealing critical performance gaps in English-centric models."
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Gemma, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/davidanugraha/IndoPref"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -106,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark annotated dataset"
 data_metrics: "522 prompts; 10 categories"
 ---

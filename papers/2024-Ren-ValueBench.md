@@ -6,7 +6,7 @@ Not AI:
 key: XE3T6PWS
 type: conferencePaper
 short_title: ValueBench
-year: 2024
+year: 2025
 first_author: "[[Yuanyi Ren]]"
 last_author: "[[Guojie Song]]"
 authors: "Yuanyi Ren; Haoran Ye; Hanjun Fang; Xin Zhang; Guojie Song"
@@ -16,10 +16,10 @@ url: "http://arxiv.org/abs/2406.04214"
 external_pdf: "http://arxiv.org/pdf/2406.04214.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -34,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -50,12 +50,12 @@ significance: "Applies human psychometrics to AI, allowing us to map models onto
 pdf_extract: "PDF Extracts/2024/2024-Ren-ValueBench.md"
 abstract: "Large Language Models (LLMs) are transforming diverse fields and gaining increasing influence as human proxies. This development underscores the urgent need for evaluating value orientations and understanding of LLMs to ensure their responsible integration into public-facing applications. This work introduces ValueBench, the first comprehensive psychometric benchmark for evaluating value orientations and value understanding in LLMs."
 paper_summary: "Abstract: Large Language Models (LLMs) are trans- forming diverse fields and gaining increasing influence as human proxies. This develop- ment underscores the urgent need for evalu- ating value orientations and | Overview: ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models Yuanyi Ren1, Haoran Ye1, Hanjun Fang2, Xin Zhang3, Guojie Song1,4,∗ 1National Key Laborator | Key Findings: of LLMs to settings demanding more powerful se- mantic understanding and reasoning skills. This evaluation also examines LLMs' potential to per- form  | Conclusions: This work presents ValueBench, a comprehensive benchmark for evaluating value orientations and understanding in LLMs. ValueBench comprises hundreds of"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ren-ValueBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Ren-ValueBench.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2, Mistral, Mixtral"
 DATA_URL: "https://github.com/Value4AI/ValueBench"
 CONFERENCE: "ACL 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # ValueBench: Towards Comprehensively Evaluating Value Orientations and Understanding of Large Language Models

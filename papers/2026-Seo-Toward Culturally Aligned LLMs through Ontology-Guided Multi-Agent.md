@@ -1,48 +1,12 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: CULT0109
 type: preprint
-short_title: Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning
-year: 2026
+short_title: "Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning"
+year: 2025
 first_author: "[[Seo, Wonduk]]"
 last_author: "[[Bu, Yi]]"
 authors: "Seo, Wonduk; Choi, Wonseok; Koh, Junseo; Lee, Juhyeon; An, Hyunjin; Yu, Minhyeong; Park, Jian; Zhou, Qingshan; Lee, Seunghyun; Bu, Yi"
@@ -50,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2601.21700"
 external_pdf: "https://arxiv.org/pdf/2601.21700.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Seo-Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
-languages_list: ""
-religious_values: "N/A"
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o mini, Gemini, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) increasingly support culturally sensitive decision making, yet often exhibit misalignment due to skewed pretraining data and the absence of structured value representations. Existing methods can steer outputs, but often lack demographic grounding and treat values as independent, unstructured signals, reducing consistency and interpretability. We propose OG-MAR, an Ontology-Guided MultiAgent Reasoning framework."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "590 instances"
 ---
 # Toward Culturally Aligned LLMs through Ontology-Guided Multi-Agent Reasoning

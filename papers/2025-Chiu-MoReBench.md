@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,14 +13,14 @@ authors: "Chiu, Yu Ying; Michael S. Lee; Calcott, Rachel; Handoko, Brandon; Font
 doi: 10.48550/arXiv.2510.16380
 url: "http://arxiv.org/abs/2510.16380"
 pdf_extract: "PDF Extracts/2025/2025-Chiu-MoReBench.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-MoReBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-MoReBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2510.16380.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Jainism"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces MOREBENCH to evaluate the procedural and pluralistic moral reasoning process of LLMs, not just outcomes"
 significance: "Reveals that scaling laws do not predict moral reasoning ability and identifies training biases towards frameworks like Kantian Deontology"
@@ -88,7 +56,7 @@ LLM_assessed: "Claude, DeepSeek, GPT-4, GPT-5, Gemini, Llama-3, Qwen"
 DATA_URL: "https://hf.co/datasets/morebench/morebench"
 normative_ethics_benchmark: Yes
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 60
 deontological_ethics: 75
 utilitarian_ethics: 100
@@ -101,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "150 examples"
 ---

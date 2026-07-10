@@ -15,10 +15,10 @@ url: "https://aies-conference.com/2025/"
 external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/36748/38886/40823"
 pdf_extract: "PDF Extracts/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wilders-The Socratic Dialogue as a Method for Virtue Ethics in AI.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -42,17 +42,17 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 15
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Demonstrates how using Socratic dialogue with LLMs can foster the cultivation of intellectual virtues like critical thinking and intellectual humility in users"
 significance: "Proposes an educational and interactive method for virtue acquisition mediated by AI, transforming the tool from a passive oracle to an active partner in moral development"
 abstract: "This paper investigates how the Socratic Dialogue can cultivate moral virtues among AI practitioners. The research focuses on core virtues deemed essential for ethical AI practice, including justice, care, honesty, responsibility, practical wisdom (phronesis), and fortitude. The study utilized a case study conducted within a financial bank's transaction monitoring department. Seven participants, comprising data scientists, legal specialists, and ethics experts, engaged in a facilitated Socratic Dialogue to address an ethical dilemma concerning AI-driven detection of financial fraud and terrorist activity. Through abductive analysis, the researchers observed that tensions arose within key virtues, highlighting the complexities of ethical decision-making in AI systems. The collective nature of the dialogue fostered a more refined and context-sensitive understanding of these virtues among participants. The process was found to cultivate practical wisdom as a relational capacity developed through shared reflection and moral reasoning, and to strengthen fortitude, encouraging AI practitioners to voice ethical concerns despite situational pressures. The study suggests that the Socratic Dialogue offers a promising foundation for a virtue-oriented approach to AI ethics, moving beyond mere compliance frameworks towards a deeper moral engagement."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "AIES 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 10
@@ -65,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NL"
+author_country: NL
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Socratic Dialogue as a Method for Virtue Ethics in AI: A Case Study

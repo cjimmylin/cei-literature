@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +6,16 @@ Not AI:
 key: WJVVUPLZ
 type: journalArticle
 short_title: "The AI Safety Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Bertie Vidgen]]"
 last_author: "[[Joaquin Vanschoren]]"
 authors: "Bertie Vidgen; Adarsh Agrawal; Ahmed M. Ahmed; Victor Akinwande; Namir Al-Nuaimi; Najla Alfaraj; Elie Alhajjar; Lora Aroyo; Trupti Bavalatti; Max Bartolo; Borhane Blili-Hamelin; Kurt Bollacker; Rishi Bomassani; Marisa Ferrara Boston; Siméon Campos; Kal Chakra; Canyu Chen; Cody Coleman; Zacharie Delpierre Coudert; Leon Derczynski; Debojyoti Dutta; Ian Eisenberg; James Ezick; Heather Frase; Brian Fuller; Ram Gandikota; Agasthya Gangavarapu; Ananya Gangavarapu; James Gealy; Rajat Ghosh; James Goel; Usman Gohar; Sujata Goswami; Scott A. Hale; Wiebke Hutiri; Joseph Marvin Imperial; Surgan Jandial; Nick Judd; Felix Juefei-Xu; Foutse Khomh; Bhavya Kailkhura; Hannah Rose Kirk; Kevin Klyman; Chris Knotz; Michael Kuchnik; Shachi H. Kumar; Srijan Kumar; Chris Lengerich; Bo Li; Zeyi Liao; Eileen Peters Long; Victor Lu; Sarah Luger; Yifan Mai; Priyanka Mary Mammen; Kelvin Manyeki; Sean McGregor; Virendra Mehta; Shafee Mohammed; Emanuel Moss; Lama Nachman; Dinesh Jinenhally Naganna; Amin Nikanjam; Besmira Nushi; Luis Oala; Iftach Orr; Alicia Parrish; Cigdem Patlak; William Pietri; Forough Poursabzi-Sangdeh; Eleonora Presani; Fabrizio Puletti; Paul Röttger; Saurav Sahay; Tim Santos; Nino Scherrer; Alice Schoenauer Sebag; Patrick Schramowski; Abolfazl Shahbazi; Vin Sharma; Xudong Shen; Vamsi Sistla; Leonard Tang; Davide Testuggine; Vithursan Thangarasa; Elizabeth Anne Watkins; Rebecca Weiss; Chris Welty; Tyler Wilbers; Adina Williams; Carole-Jean Wu; Poonam Yadav; Xianjun Yang; Yi Zeng; Wenhui Zhang; Fedor Zhdanov; Jiacheng Zhu; Percy Liang; Peter Mattson; Joaquin Vanschoren"
 url: "https://arxiv.org/abs/2404.12241"
 external_pdf: "https://arxiv.org/pdf/2404.12241.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced v0.5 of the MLCommons AI Safety Benchmark, a standardized suite of 43k test items covering 13 hazard categories for chat-tuned models."
 significance: "Represents a major industry effort (MLCommons) to establish a unified, rigorous standard for measuring AI safety risks, comparable to MLPerf for performance."
@@ -94,25 +53,25 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Group-The AI Safety Benchmark.pdf]]"
 abstract: "This paper introduces v0.5 of the AI Safety Benchmark, which has been created by the MLCommons AI Safety Working Group. The AI Safety Benchmark has been designed to assess the safety risks of AI systems that use chat-tuned language models. We introduce a principled approach to specifying and constructing the benchmark, which for v0.5 covers only a single use case (an adult chatting to a general-purpose assistant in English), and a limited set of personas (i.e., typical users, malicious users, and vulnerable users). We created a new taxonomy of 13 hazard categories, of which 7 have tests in the v0.5 benchmark. We plan to release version 1.0 of the AI Safety Benchmark by the end of 2024. The v1.0 benchmark will provide meaningful insights into the safety of AI systems. However, the v0.5 benchmark should not be used to assess the safety of AI systems. We have sought to fully document the limitations, flaws, and challenges of v0.5. This release of v0.5 of the AI Safety Benchmark includes (1) a principled approach to specifying and constructing the benchmark, which comprises use cases, types of systems under test (SUTs), language and context, personas, tests, and test items; (2) a taxonomy of 13 hazard categories with definitions and subcategories; (3) tests for seven of the hazard categories, each comprising a unique set of test items, i.e., prompts. There are 43,090 test items in total, which we created with templates; (4) a grading system for AI systems against the benchmark; (5) an openly available platform, and downloadable tool, called ModelBench that can be used to evaluate the safety of AI systems on the benchmark; (6) an example evaluation report which benchmarks the performance of over a dozen openly available chat-tuned language models; (7) a test specification for the benchmark."
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/mlcommons/modelbench"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: "Yes"
-is_eval: "Yes"
+is_benchmark: Yes
+is_eval: Yes
 is_dataset: Yes
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"

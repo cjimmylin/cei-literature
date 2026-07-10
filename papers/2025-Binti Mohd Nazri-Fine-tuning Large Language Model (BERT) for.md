@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +13,10 @@ authors: "Binti Mohd Nazri, Nurul Aiman; Binti Omar, A'wathif; Bin Amir Hussin, 
 doi: 10.31436/ijpcc.v11i1.533
 url: "https://journals.iium.edu.my/kict/index.php/IJPCC/article/view/533"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/LSHSUEEF/Binti Mohd Nazri et al. - 2025 - Fine-tuning Large Language Model (BERT) for Islamic Moral Inquiry and Response.pdf"
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "English"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: English
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -62,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -71,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Islam, Virtue Ethics"
 key_contribution: "Fine-tunes a BERT model on the 'Islam: Questions and Answers' corpus to enhance its ability to perform moral-related QA tasks from an Islamic perspective"
 significance: "Demonstrates the feasibility of specializing LLMs for non-Western, virtue-based (Islamic character) moral inquiry using targeted domain-specific fine-tuning"
@@ -83,8 +52,8 @@ LLM_assessed: BERT
 DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Binti Mohd Nazri-Fine-tuning Large Language Model (BERT) for.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -97,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "MY"
+author_country: MY
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 45
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "0 dataset"
 ---

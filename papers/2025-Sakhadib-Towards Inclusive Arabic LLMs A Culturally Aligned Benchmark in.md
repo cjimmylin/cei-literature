@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,19 +7,19 @@ key: LSRC0710
 type: conferencePaper
 short_title: "Towards Inclusive Arabic LLMs: A Culturally Aligned Benchmark in Arabic Large Language Model Evaluation"
 year: 2025
-first_author: "[[Sakhadib]]"
-last_author: "[[Sakhadib]]"
+first_author: [[Sakhadib]]
+last_author: [[Sakhadib]]
 authors: Sakhadib
 url: "https://aclanthology.org/2025.loreslm-1.29/"
 external_pdf: "https://aclanthology.org/2025.loreslm-1.29.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sakhadib-Towards Inclusive Arabic LLMs A Culturally Aligned Benchmark in.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
 religious_values: "Multiple Religions"
 rv_islam: 55
 rv_christianity: 50
@@ -81,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Qwen, Command-R, Gemma-2"
 DATA_URL: "https://huggingface.co/datasets/Omartificial-Intelligence-Space/ILMAAM-Arabic-Culturally-Aligned-MMLU"
@@ -89,7 +52,7 @@ tags:
 abstract: "Arabic Large Language Models are usually evaluated using Western-centric benchmarks that overlook essential cultural contexts, making them less effective and culturally misaligned for Arabic-speaking communities. This study addresses this gap by evaluating the Arabic Massive Multitask Language Understanding (MMLU) Benchmark to assess its cultural alignment and relevance for Arabic Large Language Models (LLMs) across culturally sensitive topics."
 research_topic: "NLP & Representation Learning"
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: SA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

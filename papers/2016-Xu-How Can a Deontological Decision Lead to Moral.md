@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,17 +6,17 @@ Not AI:
 key: LEJR6PWA
 type: journalArticle
 short_title: "How Can a Deontological Decision Lead to Moral"
-year: 2016
+year: 2025
 first_author: "[[Zhi Xing Xu]]"
 last_author: "[[Ma, Hing Keung]]"
 authors: "Xu, Zhi Xing; Ma, Hing Keung"
 doi: 10.1007/s10551-015-2576-6
 url: "http://link.springer.com/10.1007/s10551-015-2576-6"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DPB87N7D/Xu and Ma - 2016 - How Can a Deontological Decision Lead to Moral Behavior The Moderating Role of Moral Identity.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -64,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,12 +48,12 @@ tags:
 abstract: "Deontology and utilitarianism are two competing principles that guide our moral judgment. Recently, deontology is thought to be intuitive and is based on an error-prone and biased approach, whereas utilitarianism is relatively reﬂective and a suitable framework for making decision. In this research, the authors explored the relationship among moral identity, moral decision, and moral behavior to see how a preference for the deontological solution can lead to moral behavior."
 CONF-CC: "Journal of Business Ethics"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2016/2016-Xu-How Can a Deontological Decision Lead to Moral.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 100
 utilitarian_ethics: 100
@@ -99,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # How Can a Deontological Decision Lead to Moral Behavior? The Moderating Role of Moral Identity

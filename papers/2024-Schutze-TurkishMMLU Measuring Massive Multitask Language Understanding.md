@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,22 +6,22 @@ Not AI:
 key: EXSR0539
 type: preprint
 short_title: "TurkishMMLU Measuring Massive Multitask Language Understanding"
-year: 2024
+year: 2025
 first_author: "[[Arda Yuksel]]"
 last_author: "[[Hinrich Schutze]]"
-authors: Arda Yuksel; Abdullatif Koksal; Lutfi Kerem Senel; Anna Korhonen; Hinrich Schutze
+authors: "Arda Yuksel; Abdullatif Koksal; Lutfi Kerem Senel; Anna Korhonen; Hinrich Schutze"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.12402"
 external_pdf: "https://arxiv.org/pdf/2407.12402.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Schutze-TurkishMMLU Measuring Massive Multitask Language Understanding.pdf]]"
 publication: arxiv.org
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Turkish"
-religious_values: "Islam"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Turkish
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Multiple choice question answering tasks evaluate the reasoning, comprehension, and mathematical abilities of Large Language Models (LLMs). While existing benchmarks employ automatic translation for multilingual evaluation, this approach is error-prone and potentially introduces culturally biased questions, especially in social sciences. We introduce the first multitask, multiple-choice Turkish QA benchmark, TurkishMMLU, to evaluate LLMs’ understanding of the Turkish language."
 LLM_assessed: "Aya, Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command-R, GPT-3.5, GPT-4, GPT-4o, Gemini, Gemma, Llama-2, Llama-3, Mistral, Mixtral, Phi-3"
 DATA_URL: "https://github.com/ArdaYueksel/TurkishMMLU"
 research_topic: "Machine Translation"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TR"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: TR
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 41
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multi-task benchmark for bias and fairness"
 data_metrics: "10,032 questions"
 ---

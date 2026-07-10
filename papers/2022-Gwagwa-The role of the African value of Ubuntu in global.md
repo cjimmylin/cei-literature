@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,16 +6,16 @@ Not AI:
 key: YM8SFWAH
 type: journalArticle
 short_title: "The role of the African value of Ubuntu in global"
-year: 2022
+year: 2025
 first_author: "[[Arthur Gwagwa]]"
 last_author: "[[Airlie Hilliard]]"
 authors: "Arthur Gwagwa; Emre Kazim; Airlie Hilliard"
 doi: 10.1016/j.patter.2022.100462
 url: "https://linkinghub.elsevier.com/retrieve/pii/S2666389922000423"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/HH8893VS/Gwagwa et al. - 2022 - The role of the African value of Ubuntu in global AI inclusion discourse A normative ethics perspec.pdf"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -78,20 +40,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "African/Ubuntu, Social & Cultural Values"
 key_contribution: "Explores how the African value of Ubuntu (relational ethics) can inform global AI inclusion and normative ethics."
 significance: "Brings a non-Western, communal ethical framework to AI, challenging individualistic Western norms and offering a path for more inclusive global AI governance."
 tags: 
 abstract: "Historically, Sub-Saharan Africa (SSA) has been excluded from the beneﬁts of the previous industrial revolutions, as its people and their resources and aspirations have been objectiﬁed through foreign domination, and its culture has either been fragmented or appropriated. While artiﬁcial intelligence (AI) is poised to generate vast amounts of wealth, its application could lead to further social and economic exclusion of SSA due to a lack of access to technological advancements and the historical"
-CONF-CC: "Patterns"
+CONF-CC: Patterns
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Gwagwa-The role of the African value of Ubuntu in global.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -105,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NL"
+author_country: NL
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective

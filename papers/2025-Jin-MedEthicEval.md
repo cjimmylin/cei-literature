@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,10 +12,10 @@ last_author: "[[Mengyue Wu]]"
 authors: "Haoan Jin; Jiacheng Shi; Hanhui Xu; Kenny Q Zhu; Mengyue Wu"
 url: "https://aclanthology.org/2025.naacl-industry.34/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/7CB4XXBJ/Jin et al. - MedEthicEval Evaluating Large Language Models Based on Chinese Medical Ethics.pdf"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Chinese, Applied Ethics"
 key_contribution: "Introduced MedEthicEval, a benchmark for Chinese Medical Ethics covering blatant violations, priority dilemmas, and equilibrium dilemmas."
 significance: "Addresses the gap in domain-specific safety evaluation, providing a culturally specific resource for evaluating AI in the high-stakes context of Chinese healthcare."
 tags: 
 abstract: "Large language models (LLMs) demonstrate significant potential in advancing medical applications, yet their capabilities in addressing medical ethics challenges remain underexplored. This paper introduces MedEthicEval, a novel benchmark designed to systematically evaluate LLMs in the domain of medical ethics. Our framework encompasses two key components: knowledge, assessing the models’ grasp of medical ethics principles, and application, focusing on their ability to apply these principles..."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3, Qwen"
 DATA_URL: "https://github.com/KaguraRuri/MedEthicEval"
 pdf_extract: "PDF Extracts/2025/2025-Jin-MedEthicEval.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jin-MedEthicEval.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Jin-MedEthicEval.pdf]]
 CONFERENCE: "NAACL 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

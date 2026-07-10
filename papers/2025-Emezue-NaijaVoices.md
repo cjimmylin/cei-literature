@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,10 +12,10 @@ last_author: "[[Chris Pal]]"
 authors: "Chris Emezue; NaijaVoices Community; Busayo Awobade; Abraham Owodunni; Handel Emezue; Gloria Monica Tobechukwu Emezue; Nefertiti Nneoma Emezue; Sewade Ogun; Bunmi Akinremi; David Ifeoluwa Adelani; Chris Pal"
 url: "https://arxiv.org/abs/2505.20564"
 external_pdf: "https://arxiv.org/pdf/2505.20564.pdf"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
 languages_list: "Hausa, Igbo, Yoruba"
-religious_values: "Christianity"
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -65,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,19 +39,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: African/Ubuntu
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Emezue-NaijaVoices.md"
 abstract: "The development of high-performing, robust, and reliable speech technologies depends on large, high-quality datasets. However, African languages – including our focus, Igbo, Hausa, and Yoruba – remain under-represented due to insufficient data. Popular voice-enabled technologies do not support any of the 2000+ African languages, limiting accessibility for circa one billion people. While previous dataset efforts exist for the target languages, they lack the scale and diversity needed for robust..."
 paper_summary: "Abstract: The development of high-performing, robust, and re- liable speech technologies depends on large, high-quality datasets. However, African languages – including our focus, Igbo, Hausa, and Yoruba – rema | Overview: The NaijaVoices Dataset: Cultivating Large-Scale, High-Quality, Culturally-Rich Speech Data for African Languages Chris Emezue1,2,3,11, The NaijaVoices Community1,2, Busayo Awobade4, Abraham Toluwase  | Methodology: to dataset creation that balances supervision and scalability, allowing us to capture thousands of speakers in a short time, while maintaining high-qu | Key Findings: [32] A. Conneau, A. Baevski, R. Collobert, A. Mohamed, and M. Auli, 'Unsupervised cross-lingual representation learning for speech recognition,' in IN | Conclusions: Table 3 reports WER scores for both finetuned and unfine- tuned models. Baseline models performed poorly, with WER reaching 100% for XLSR and MMS, whi"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Emezue-NaijaVoices.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Emezue-NaijaVoices.pdf]]
 CONF-CC: "INTERSPEECH 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "Whisper"
+LLM_assessed: Whisper
 DATA_URL: "https://naijavoices.com/"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 ---

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,10 +16,10 @@ url: "http://arxiv.org/abs/2505.12792"
 external_pdf: "http://arxiv.org/pdf/2505.12792.pdf"
 publication: "International Joint Conference on Artificial Intelligence"
 CONF-CC: "IJCAI 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -88,12 +50,12 @@ significance: "Solves the cost/scalability bottleneck of using SOTA LLMs for lar
 pdf_extract: "PDF Extracts/2025/2025-Zhu-EAVIT.md"
 abstract: "The rapid evolution of large language models (LLMs) has revolutionized various fields, including the identification and discovery of human values within text data. While traditional NLP models, such as BERT, have been employed for this task, their ability to represent textual data is significantly outperformed by emerging LLMs like GPTs. However, the performance of online LLMs often degrades when handling long contexts required for value identification, which also incurs substantial..."
 paper_summary: "Abstract: The rapid evolution of large language models (LLMs) has revolutionized various fields, includ- ing the identification and discovery of human val- ues within text data. While traditional NLP mod- els,  | Overview: arXiv:2505.12792v1 [cs.CL] 19 May 2025 EAVIT: Efficient and Accurate Human Value Identification from Text data via LLMs Wenhao Zhu1 , Yuhang Xie1 , Guojie Song∗1 and Xin Zhang1 1National Key Laborator | Methodology: effectively reduces the number of values requiring explicit definition in the input context, thereby shortening the over- all context length. To enabl | Key Findings: Output Stage | Conclusions: This paper investigates the potential of LLMs for identify- ing human values from text data. Despite challenges, LLMs have demonstrated superior capab"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhu-EAVIT.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhu-EAVIT.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2, GPT-4, GPT-4o, GPT-4o mini, Llama-2, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "IJCAI 2025"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -107,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "2000 word"
 ---

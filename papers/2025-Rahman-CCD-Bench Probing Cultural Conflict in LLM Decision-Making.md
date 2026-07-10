@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,18 +9,18 @@ short_title: "CCD-Bench: Probing Cultural Conflict in LLM Decision-Making"
 year: 2025
 first_author: "[[Hasibur Rahman]]"
 last_author: "[[Hanan Salam]]"
-authors: Hasibur Rahman; Hanan Salam
+authors: "Hasibur Rahman; Hanan Salam"
 url: "https://arxiv.org/abs/2510.03553"
 external_pdf: "https://arxiv.org/pdf/2510.03553.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rahman-CCD-Bench Probing Cultural Conflict in LLM Decision-Making.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "Confucianism"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Confucianism"
+religious_values_list: Confucianism
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -89,8 +51,8 @@ abstract: "Large language models (LLMs) increasingly shape interpersonal and soc
 LLM_assessed: "Claude, Claude-3, Command-R, DeepSeek, GPT-4o, Gemini, Grok, Llama-3, Mistral, Phi-3, Qwen-2, WizardLM"
 DATA_URL: "https://github.com/smartlab-nyu/CCD-Bench"
 authors_incomplete: false
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AE"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: AE
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

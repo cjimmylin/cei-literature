@@ -16,10 +16,10 @@ url: "http://arxiv.org/abs/2502.16600"
 external_pdf: "http://arxiv.org/pdf/2502.16600.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -34,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -52,10 +52,10 @@ abstract: "Ensuring that Large Language Models (LLMs) return just responses whic
 paper_summary: "Abstract: Ensuring that Large Language Models (LLMs) return just responses which adhere to societal values is crucial for their broader application. Prior research has shown that LLMs often fail to perform sati | Overview: Diagnosing Moral Reasoning Acquisition in Language Models: Pragmatics and Generalization Guangliang Liu1 Zimo Qi2 Xitong Zhang1 Lei Jiang3 Kristen Marie Johnson1 1Michigan State University 2Johns Hopk | Methodology: for identifying generalization-supportive training samples from Section 4.1, this section interprets the generaliza- tion mechanism of the examined mo | Conclusions: Generalization remains a significant challenge in the acquisition of moral reasoning, and no optimal solution has yet been identified. Recently, Jiang"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Diagnosing Moral Reasoning Acquisition in.pdf]]"
 LLM_assessed: "BERT, Llama-3, Mistral"
-DATA_URL: "NA"
+DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Diagnosing Moral Reasoning Acquisition in Language Models: Pragmatics and Generalization

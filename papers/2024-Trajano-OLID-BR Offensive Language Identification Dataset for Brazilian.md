@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: LSRC0208
 type: conferencePaper
 short_title: "OLID-BR: Offensive Language Identification Dataset for Brazilian Portuguese"
-year: 2024
+year: 2025
 first_author: "[[Douglas Trajano]]"
 last_author: "[[Renata Vieira]]"
-authors: Douglas Trajano; Henrique Bordini; Renata Vieira
+authors: "Douglas Trajano; Henrique Bordini; Renata Vieira"
 doi: 10.1007/s10579-023-09657-0
 url: "https://link.springer.com/article/10.1007/s10579-023-09657-0"
 publication: "Springer (Language Resources and Evaluation)"
@@ -55,10 +17,10 @@ CONF-CC: "Language Resources and Evaluation"
 pdf_extract: 
 local_pdf: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
+national_ethnic_cultural: Brazilian
+cultures_nationalities_list: Brazilian
+languages_list: Portuguese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/DougTrajano/olid-br"
 tags: 
 abstract: "Collection of 7,943 Portuguese comments with 5 NLP tasks: detecting offensive comments, classifying offense types (racism, LGBTQphobia, sexism, xenophobia), identifying type/target, and extracting toxic spans."
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

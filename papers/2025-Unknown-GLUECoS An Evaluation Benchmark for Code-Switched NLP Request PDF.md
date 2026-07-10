@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,14 +14,14 @@ authors_incomplete: false
 url: "https://www.researchgate.net/publication/343300735_GLUECoS_An_Evaluation_Benchmark_for_Code-Switched_NLP"
 external_pdf: "https://www.aclweb.org/anthology/2020.acl-main.329.pdf"
 publication: ResearchGate
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-GLUECoS An Evaluation Benchmark for Code-Switched NLP Request PDF.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indian, Spanish"
 cultures_nationalities_list: "Indian, Spanish"
 languages_list: "English, Hindi, Spanish"
-religious_values: "Sikhism"
+religious_values: Sikhism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Sikhism"
+religious_values_list: Sikhism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: NA
 tags: 
 abstract: "Code-switching is the use of more than one language in the same conversation or utterance. Recently, multilingual contextual embedding models, trained on multiple monolingual corpora, have shown promising results on cross-lingual and multilingual tasks. We present an evaluation benchmark, GLUECoS, for code-switched languages, that spans several NLP tasks in English-Hindi and EnglishSpanish. Speciﬁcally, our evaluation benchmark includes Language Identiﬁcation from text, POS tagging, Named..."
 CONFERENCE: "ACL 2020"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
 ---

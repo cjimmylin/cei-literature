@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,9 +13,9 @@ authors: "Kinfe Yilma"
 doi: 10.1007/s10676-025-09834-5
 url: "https://link.springer.com/10.1007/s10676-025-09834-5"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5ZTYJ2SS/Yilma - 2025 - Ethics of AI in Africa Interrogating the role of Ubuntu and AI governance initiatives.pdf"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
@@ -78,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "African/Ubuntu, Responsible AI"
 key_contribution: "Interrogated the role of **Ubuntu** in African AI governance, arguing that current initiatives often reference 'African ethics' superficially without substantive implementation."
 significance: "A critical policy paper highlighting 'epistemic injustice' – the risk that 'African AI' becomes just a label for Western AI with a local coating, rather than a system truly built on indigenous values."
@@ -86,12 +48,12 @@ tags:
 abstract: "One of the common concerns raised in AI ethics scholarship is the overly western-centric nature of ongoing AI ethics discourse and governance initiatives. This has recently prompted many commentators to proclaim the emergence of an epistemic injustice or “ethical colonialism”. Many scholars point to the role of indigenous ethical systems, particularly Ubuntu, in addressing this flaw. In the meantime, a series of national and continental AI governance initiatives are also emerging in Africa."
 CONF-CC: "Ethics and Information Technology"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Yilma-Ethics of AI in Africa.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yilma-Ethics of AI in Africa.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,14 +67,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 60
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Ethics of AI in Africa: Interrogating the role of Ubuntu and AI governance initiatives

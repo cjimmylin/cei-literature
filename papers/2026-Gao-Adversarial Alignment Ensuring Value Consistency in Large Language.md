@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +6,21 @@ Not AI:
 key: CULT0007
 type: preprint
 short_title: "Adversarial Alignment: Ensuring Value Consistency in Large Language Models for Sensitive Domains"
-year: 2026
+year: 2025
 first_author: "[[Yuan Gao]]"
 last_author: "[[Xiaobing Zhao]]"
-authors: Yuan Gao; Zhigang Liu; Xinyu Yao; Bo Chen; Xiaobing Zhao
+authors: "Yuan Gao; Zhigang Liu; Xinyu Yao; Bo Chen; Xiaobing Zhao"
 url: "https://arxiv.org/abs/2601.13137"
 external_pdf: "https://arxiv.org/pdf/2601.13137.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Gao-Adversarial Alignment Ensuring Value Consistency in Large Language.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Chinese, English"
-religious_values: "Islam"
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Baichuan, ChatGLM, GPT-4o, InternLM, Llama-3, Mistral, Qwen-2, Yi"
 DATA_URL: "https://github.com/Ad-Align/VC-LLM"
 tags: 
 abstract: "With the wide application of large language models (LLMs), the problems of bias and value inconsistency in sensitive domains have gradually emerged, especially in terms of race, society and politics. In this paper, we propose an adversarial alignment framework, which enhances the value consistency of the model in sensitive domains through continued pre-training, instruction fine-tuning and adversarial training."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

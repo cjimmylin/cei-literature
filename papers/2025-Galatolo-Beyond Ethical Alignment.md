@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,10 +13,10 @@ authors: "Galatolo, Alessio; Rappuoli, Luca Alberto; Winkle, Katie; Beloucif, Me
 doi: 10.48550/arXiv.2508.12754
 url: "https://arxiv.org/abs/2508.12754"
 external_pdf: "https://arxiv.org/pdf/2508.12754.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Proposed a formal framework and benchmark for evaluating LLMs as 'Artificial Moral Assistants' (AMAs), specifically testing deductive and abductive moral reasoning beyond simple verdict alignment."
 significance: "Shifts the focus from 'final verdict' alignment to 'moral reasoning' alignment, identifying persistent weaknesses in LLMs' ability to reason through conflicting values (abductive reasoning)."
@@ -91,8 +52,8 @@ CONF-CC: "European Conference on Artificial Intelligence"
 DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3, Phi, Qwen"
 DATA_URL: "https://github.com/alessioGalatolo/AMAeval"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

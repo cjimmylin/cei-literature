@@ -6,7 +6,7 @@ Not AI:
 key: E9AQ47CN
 type: conferencePaper
 short_title: "Measuring Human and AI Values Based on Generative"
-year: 2024
+year: 2025
 first_author: "[[Haoran Ye]]"
 last_author: "[[Guojie Song]]"
 authors: "Haoran Ye; Yuhang Xie; Yuanyi Ren; Hanjun Fang; Xin Zhang; Guojie Song"
@@ -15,10 +15,10 @@ url: "http://arxiv.org/abs/2409.12106"
 external_pdf: "http://arxiv.org/pdf/2409.12106.pdf"
 publication: "AAAI Conference on Artificial Intelligence"
 CONF-CC: "AAAI 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -57,7 +57,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
@@ -66,16 +66,16 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Gemma, InternLM, Llama-2, Mistral, Qwen-1.5, Vicuna, Yi"
 DATA_URL: "https://github.com/Value4AI/gpv"
 CONFERENCE: "AAAI 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,10 +13,10 @@ authors: "Maksym Andriushchenko; Alexandra Souly; Mateusz Dziemian; Derek Duenas
 doi: 10.48550/arXiv.2410.09024
 url: "http://arxiv.org/abs/2410.09024"
 external_pdf: "http://arxiv.org/pdf/2410.09024.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Released AgentHarm, a benchmark for evaluating the safety of LLM Agents across 110 malicious tasks (e.g., fraud, harassment) requiring multi-step tool use."
 significance: "Addresses the 'agentic safety gap', testing not just whether a model generates harmful text, but whether it will actively *execute* harmful commercial/cyber actions when instructed."
@@ -85,13 +48,13 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Andriushchenko-AgentHarm.md"
 abstract: "The robustness of LLMs to jailbreak attacks, where users design prompts to circumvent safety measures and misuse model capabilities, has been studied primarily for LLMs acting as simple chatbots. Meanwhile, LLM agents—which use external tools and can execute multi-stage tasks—may pose a greater risk if misused, but their robustness remains underexplored. To facilitate research on LLM agent misuse, we propose a new benchmark called AgentHarm."
 paper_summary: "Abstract: The robustness of LLMs to jailbreak attacks, where users design prompts to cir- cumvent safety measures and misuse model capabilities, has been studied primar- ily for LLMs acting as simple chatbots.  | Overview: Published as a conference paper at ICLR 2025 AGENTHARM: A BENCHMARK FOR MEASURING HARMFULNESS OF LLM AGENTS Maksym Andriushchenko1,†,∗, Alexandra Souly2,∗ Mateusz Dziemian1, Derek Duenas1, Maxwell Lin | Key Findings: in jailbroken models with reduced capabilities (Souly et al., 2024). Attacks against agents may be less concerning if they do not result in strong age | Conclusions: Limitations. We note several limitations of our work: • The prompts are only in English, and do not consider other languages which may impact per- for"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Andriushchenko-AgentHarm.pdf]]
 CONF-CC: "ICLR 2024"
 DATE_ADDED: 20260208
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, GPT-3.5, GPT-4o, GPT-4o mini, Gemini, Llama-3, Mistral"
 DATA_URL: "https://huggingface.co/datasets/ai-safety-institute/AgentHarm"
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "Not specified"
 ---

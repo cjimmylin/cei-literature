@@ -2,14 +2,14 @@
 key: EXSR0692
 type: preprint
 short_title: "Visual Distraction Undermines Moral Reasoning in Vision-Language Models"
-year: 2026
-first_author: "[[Unknown]]"
+year: 2025
+first_author: [[Unknown]]
 authors: "Unknown (PKU)"
 url: "https://arxiv.org/abs/2603.16445"
 abstract: "Introduces Moral Dilemma Simulation (MDS) benchmark grounded in MFT. Visual inputs bypass text-based safety, activating System 1-like intuitive processing. VLMs lose sensitivity to numerical stakes, prioritize self-interest, collapse hierarchical social values. Directly tests dual-process theory predictions in multimodal setting."
-external_pdf: ""
-DOI: ""
-ethics_overall: 60
+external_pdf: 
+DOI: 
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: ""
+religious_values_list: 
 mp_mft: 60
 mp_schwartz: 0
 mp_trolley: 0
@@ -45,12 +45,12 @@ mp_maqasid: 0
 mp_confucian: 0
 mp_ubuntu: 0
 moral_psychology: "Moral Foundations Theory, Dual Process Theory"
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-LLM_assessed: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+LLM_assessed: No
 newtags: "moral-psychology, external-search-v2"
-source: "moral-psych-external-search-v2"
+source: moral-psych-external-search-v2
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0

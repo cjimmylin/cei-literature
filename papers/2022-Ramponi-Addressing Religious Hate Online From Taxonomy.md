@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,10 +6,10 @@ Not AI:
 key: EXSR0578
 type: preprint
 short_title: "Addressing Religious Hate Online From Taxonomy"
-year: 2022
+year: 2025
 first_author: "[[Ramponi, Alan]]"
 last_author: "[[Elisabetta Jezek]]"
-authors: Alan Ramponi; Benedetta Testa; Sara Tonelli; Elisabetta Jezek
+authors: "Alan Ramponi; Benedetta Testa; Sara Tonelli; Elisabetta Jezek"
 authors_incomplete: false
 url: 
 external_pdf: "https://cris.fbk.eu/bitstream/11582/335767/1/peerj-cs-1128.pdf"
@@ -60,8 +18,8 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Ramponi-Addressing Religious Hate Onl
 publication: "PeerJ Computer Science"
 CONF-CC: "PeerJ Computer Science"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian"
+national_ethnic_cultural: Italian
+cultures_nationalities_list: Italian
 languages_list: "English, Italian"
 religious_values: "Multiple Religions"
 rv_islam: 100
@@ -87,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Proposes a fine-grained labeling scheme for religious hate speech detection covering the three main monotheistic religions. Creates a bilingual Twitter dataset (English and Italian) annotated with the proposed scheme. Experiments with classifiers from traditional ML to transformers on two tasks: abusive language detection and religious hate speech detection. Addresses the gap of scattered efforts in religious hate data and methods."
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/dhfbk/religious-hate-speech"
-research_topic: "Other"
-CONFERENCE: "Journal"
-ethics_overall: 100
+research_topic: Other
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

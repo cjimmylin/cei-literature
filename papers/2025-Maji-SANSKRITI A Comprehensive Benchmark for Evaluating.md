@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,19 +9,19 @@ short_title: "SANSKRITI A Comprehensive Benchmark for Evaluating"
 year: 2025
 first_author: "[[Arijit Maji]]"
 last_author: "[[Sriparna Saha]]"
-authors: Arijit Maji; Raghvendra Kumar; Akash Ghosh; Anushka; Sriparna Saha
+authors: "Arijit Maji; Raghvendra Kumar; Akash Ghosh; Anushka; Sriparna Saha"
 authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-acl.228/"
 external_pdf: "https://arxiv.org/pdf/2506.15355.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maji-SANSKRITI A Comprehensive Benchmark for Evaluating.pdf]]"
 publication: "WebSearch: SANSKRITI benchmark"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Language models (LMs) are indispensable tools shaping modern workflows, but their global effectiveness depends on understanding local socio-cultural contexts. To address this, we introduce SANSKRITI, a benchmark designed to evaluate language models' comprehension of India's rich cultural diversity. Comprising of 21,853 meticulously curated question-answer pairs spanning 28 states and 8 union territories, SANSKRITI is the largest dataset for testing Indian cultural knowledge."
 LLM_assessed: "GPT-4o, Gemma, LLaMA, Llama-3, Mistral, Phi-3, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/13ari/Sanskriti"
 CONFERENCE: "ACL 2025"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset for question answering"
 data_metrics: "Not specified"
 ---

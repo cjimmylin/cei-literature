@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +6,21 @@ Not AI:
 key: EXSR0310
 type: preprint
 short_title: "SEA-Guard Culturally Grounded Multilingual Safeguard for"
-year: 2026
+year: 2025
 first_author: "[[team, AI Singapore]]"
 last_author: "[[AI Singapore team]]"
-authors: AI Singapore team
+authors: "AI Singapore team"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2602.01618"
 external_pdf: "https://arxiv.org/pdf/2602.01618.pdf"
 pdf_extract: "PDF Extracts/2026/2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-team-SEA-Guard Culturally Grounded Multilingual Safeguard for.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Culturally aware safeguards are crucial for AI alignment in real-world settings, where safety extends beyond common sense and encompasses diverse local values, norms, and regionspecific regulations. However, building largescale, culturally grounded datasets is challenging due to limited resources and a scarcity of native annotators. Consequently, many safeguard models rely on machine translation of English datasets, often missing regional and cultural nuances."
 LLM_assessed: "Gemma, Gemma-2, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/aisingapore/Qwen-SEA-Guard-8B-2602"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 59
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # SEA-Guard: Culturally Grounded Multilingual Safeguard for Southeast Asia

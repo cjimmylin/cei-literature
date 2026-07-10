@@ -6,7 +6,7 @@ Not AI:
 key: MYERS2024COG
 type: journalArticle
 short_title: "People Expect AI Moral Advisors More Utilitarian"
-year: 2024
+year: 2025
 first_author: "[[Simon Myers]]"
 last_author: "[[Jim A.C. Everett]]"
 authors: "Simon Myers; Jim A.C. Everett"
@@ -14,11 +14,11 @@ doi: 10.1016/j.cognition.2024.106028
 url: "https://www.sciencedirect.com/science/article/pii/S0010027724003147"
 external_pdf: 
 publication: Cognition
-CONF-CC: "Cognition"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Cognition
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -52,10 +52,10 @@ abstract: "Across four pre-registered studies (total N = 2604), we investigated 
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Myers-People Expect Artificial Moral Advisors.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 35
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 100
@@ -68,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # People Expect Artificial Moral Advisors to be More Utilitarian and Distrust Utilitarian Moral Advisors

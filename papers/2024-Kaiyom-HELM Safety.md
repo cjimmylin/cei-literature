@@ -1,52 +1,11 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: GHNYTYDF
 type: document
-year: 2024
+year: 2025
 short_title: "HELM Safety"
 first_author: "[[Farzaan Kaiyom]]"
 last_author: "[[Percy Liang]]"
@@ -54,10 +13,10 @@ authors: "Farzaan Kaiyom; Ahmed Ahmed; Yifan Mai; Kevin Klyman; Rishi Bommasani;
 external_pdf: "file:///Users/jimmylin/Zotero/storage/5RFJXS3S/Kaiyom and others - HELM Safety Towards Standardized Safety Evaluations of Language Models.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kaiyom-HELM Safety.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kaiyom-HELM Safety.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 5
 rv_buddhism: 0
@@ -72,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,19 +40,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Part of the Holistic Evaluation of Language Models (HELM), defining and implementing standardized safety evaluations across multiple models."
 significance: "Moves safety evaluation from ad-hoc tests to a standardized, rigorous leaderboard entry, forcing all new models to report comparable safety metrics."
 tags: 
 abstract: "HELM Safety v1.0 is a broad, transparent, and standardized safety evaluation for language models. The evaluation covers a comprehensive taxonomy of risks based on developers' acceptable use policies, spanning violence, fraud, discrimination, sexual content, harassment, and deception. HELM Safety features evaluations including BBQ (social discrimination), SimpleSafetyTest, HarmBench (jailbreaking), XSTest (edge cases), and AnthropicRedTeam."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260129
 LLM_assessed: "Claude-3 Haiku, Claude-3 Opus, Claude-3 Sonnet, Command R+, Command-R, DeepSeek, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-3, Mistral, Mixtral, Qwen-1.5, Qwen-2"
 DATA_URL: "https://github.com/stanford-crfm/helm"
-CONFERENCE: "Unknown"
-helm: "incorporated"
-ethics_overall: 60
+CONFERENCE: Unknown
+helm: incorporated
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

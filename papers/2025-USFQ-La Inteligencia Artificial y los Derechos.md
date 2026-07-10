@@ -1,15 +1,15 @@
 ---
-key: "CGSR0156"
-type: "document"
+key: CGSR0156
+type: document
 short_title: "La Inteligencia Artificial y los Derechos Fundamentales en Ecuador"
 year: 2025
-first_author: "[[USFQ]]"
-authors: "USFQ"
+first_author: [[USFQ]]
+authors: USFQ
 url: "https://researchpapers.usfq.edu.ec/index.php/usfqlawwp/preprint/view/182"
 abstract: "AI and fundamental rights in Ecuador including constitutional buen vivir framework"
 DATE_ADDED: 20260403
 cultural_gap_category: "Buen vivir / Latin American decolonial"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,7 +22,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 50
-author_country: "PH"
+author_country: PH
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36

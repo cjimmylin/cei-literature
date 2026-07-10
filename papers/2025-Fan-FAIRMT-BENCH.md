@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,10 +11,10 @@ first_author: "[[Zhiting Fan]]"
 last_author: "[[Zuozhu Liu]]"
 authors: "Zhiting Fan; Ruizhe Chen; Tianxiang Hu; Zuozhu Liu"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/PNCXQE8M/Fan et al. - 2025 - FAIRMT-BENCH BENCHMARKING FAIRNESS FOR MULTI-TURN DIALOGUE IN CONVERSATIONAL LLMS.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +29,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,20 +38,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced FairMT-Bench for evaluating fairness in *multi-turn* dialogues, finding bias accumulates over turns unlike in single-turn benchmarks."
 significance: "Critical for evaluating chat agents, as single-turn benchmarks miss the 'drift' into biased behavior that happens in longer interactions."
 tags: 
 abstract: "The increasing deployment of large language model (LLM)-based chatbots has raised concerns regarding fairness. Fairness issues in LLMs may result in serious consequences, such as bias amplification, discrimination, and harm to minority groups. Many efforts are dedicated to evaluating and mitigating biases in LLMs. However, existing fairness benchmarks mainly focus on single-turn dialogues, while multi-turn scenarios, which better reflect real-world conversations, pose greater challenges due to..."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Gemma, Gemma-2, Llama-2, Llama-3, Mistral, Mixtral, Qwen"
 DATA_URL: "https://github.com/FanZT6/FairMT-bench"
 pdf_extract: "PDF Extracts/2025/2025-Fan-FAIRMT-BENCH.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Fan-FAIRMT-BENCH.pdf]]
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus for conversational ai"
 data_metrics: "Not specified"
 ---

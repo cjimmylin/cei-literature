@@ -6,18 +6,18 @@ Not AI:
 key: 
 type: preprint
 short_title: "Moral Persuasion in Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Allison Huang]]"
 last_author: "[[Carlos Mougan]]"
 authors: "Allison Huang; Yulu Niki Pi; Carlos Mougan"
 url: "https://arxiv.org/abs/2411.11731"
 external_pdf: "https://arxiv.org/pdf/2411.11731.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Jainism"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -54,8 +54,8 @@ LLM_assessed: "Claude-3-Haiku, Claude-3.5-Sonnet, GPT-4o, GPT-4o mini, Llama-3, 
 DATA_URL: "https://github.com/acyhuang/moral-persuasion"
 normative_ethics_benchmark: Borderline
 ethics_perspective: "General Ethics"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -68,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

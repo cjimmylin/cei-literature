@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,7 +6,7 @@ Not AI:
 key: 4KCYVGC9
 type: conferencePaper
 short_title: "Value Imprint"
-year: 2024
+year: 2025
 first_author: "[[Ike Obi]]"
 last_author: "[[Basiletti, Aaron]]"
 authors: "Obi, Ike; Pant, Rohan; Agrawal, Srishti Shekhar; Ghazanfar, Maham; Basiletti, Aaron"
@@ -49,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Obi-Value Imprint.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2411.11937.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -84,10 +52,10 @@ tags:
 abstract: "LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized through these datasets. In this paper, we introduce Value Imprint, a framework for auditing and classifying the human values embedded within RLHF datasets. To investigate the viability of this framework, we conducted three case study experiments by auditing the Anthropic/hh-rlhf, OpenAI WebGPT..."
 paper_summary: "Abstract: LLMs are increasingly fine-tuned using RLHF datasets to align them with human preferences and values. However, very limited research has investigated which specific human values are operationalized th | Overview: Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets Ike Obi Purdue University West Lafayette, Indiana Rohan Pant Purdue University West Lafayette, Indiana Srishti Shekha | Methodology: 3.1 Experiment Dataset We collected the datasets for this research from different developer collaboration platforms. We collected the Anthropic/hh-rlh | Key Findings: of a section of the classification output to examine their performance. We followed the evaluation with an additional round of analysis to examine how | Conclusions: In this research, we introduced Value Imprint, a technique for auditing and classifying the human values embedded within RLHF datasets. Findings from"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-4"
+LLM_assessed: GPT-4
 DATA_URL: "https://github.com/hv-rsrch/valueimprint"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
@@ -100,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
  Value Imprint: A Technique for Auditing the Human Values Embedded in RLHF Datasets

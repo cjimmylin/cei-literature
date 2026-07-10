@@ -6,7 +6,7 @@ Not AI:
 key: MDSXEBVP
 type: journalArticle
 short_title: "Deontology and Utilitarianism in Real Life"
-year: 2023
+year: 2025
 first_author: "[[Anita Körner]]"
 last_author: "[[Deutsch, Roland]]"
 authors: "Körner, Anita; Deutsch, Roland"
@@ -15,10 +15,10 @@ url: "https://journals.sagepub.com/doi/10.1177/01461672221103058"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RRZFH676/Körner and Deutsch - 2023 - Deontology and Utilitarianism in Real Life A Set of Moral Dilemmas Based on Historic Events.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Körner-Deontology and Utilitarianism in Real Life.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Körner-Deontology and Utilitarianism in Real Life.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -53,8 +53,8 @@ CONF-CC: "Personality and Social Psychology Bulletin"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://osf.io/cg5tq"
-CONFERENCE: "Journal"
-ethics_overall: 90
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 100
 utilitarian_ethics: 100
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Deontology and Utilitarianism in Real Life: A Set of Moral Dilemmas Based on Historic Events

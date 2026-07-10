@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +6,7 @@ Not AI:
 key: 
 type: bookChapter
 short_title: "Normative Ethical Theory AI Ethics"
-year: 2023
+year: 2025
 first_author: "[[Paula Boddington]]"
 last_author: "[[Paula Boddington]]"
 authors: "Paula Boddington"
@@ -48,10 +15,10 @@ url: "https://link.springer.com/chapter/10.1007/978-981-19-9382-4_6"
 external_pdf: "http://arxiv.org/pdf/2306.11432"
 publication: "AI Ethics (Springer)"
 CONF-CC: "Artificial intelligence: foundations, theory, and algorithms/Artificial intelligence: Foundations, theory, and algorithms 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Virtue Ethics, Normative Ethics"
 key_contribution: "Comprehensive overview of consequentialism, deontology, and virtue ethics for AI"
 significance: "Foundational chapter on applying normative ethics to AI systems"
@@ -85,11 +52,11 @@ abstract: "Moral AI has been studied in the fields of phi- losophy and artificia
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Boddington-Normative Ethical Theory AI Ethics.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: NA
 ethics_perspective: "Machine Ethics"
-CONFERENCE: "Journal"
-ethics_overall: 65
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 60
@@ -102,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Normative Ethical Theory AI Ethics

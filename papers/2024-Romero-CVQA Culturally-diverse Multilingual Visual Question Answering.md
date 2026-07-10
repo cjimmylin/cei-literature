@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: EXSR0466
 type: preprint
 short_title: "CVQA Culturally-diverse Multilingual Visual Question Answering"
-year: 2024
+year: 2025
 first_author: "[[Romero, David]]"
 last_author: "[[Aji, Alham Fikri]]"
 authors: "Romero, David; Lyu, Chenyang; Wibowo, Haryo Akbarianto; Lynn, Teresa; Hamed, Injy; Kishore, Aditya Nanda; Mandal, Aishik; Dragonetti, Alina; Abzaliev, Artem; Tonja, Atnafu Lambebo; Balcha, Bontu Fufa; Whitehouse, Chenxi; Salamea, Christian; Velasco, Dan John; Adelani, David Ifeoluwa; Meur, David Le; Villa-Cueva, Emilio; Koto, Fajri; Farooqui, Fauzan; Belcavello, Frederico; Batnasan, Ganzorig; Vallejo, Gisela; Caulfield, Grainne; Ivetta, Guido; Song, Haiyue; Ademtew, Henok Biadglign; Maina, Hernán; Lovenia, Holy; Azime, Israel Abebe; Cruz, Jan Christian Blaise; Gala, Jay; Geng, Jiahui; Ortiz-Barajas, Jesus-German; Baek, Jinheon; Dunstan, Jocelyn; Alemany, Laura Alonso; Nagasinghe, Kumaranage Ravindu Yasas; Benotti, Luciana; D'Haro, Luis Fernando; Viridiano, Marcelo; Estecha-Garitagoitia, Marcos; Cabrera, Maria Camila Buitrago; Rodríguez-Cantelar, Mario; Jouitteau, Mélanie; Mihaylov, Mihail; Imam, Mohamed Fazli Mohamed; Adilazuarda, Muhammad Farid; Gochoo, Munkhjargal; Otgonbold, Munkh-Erdene; Etori, Naome; Niyomugisha, Olivier; Silva, Paula Mónica; Chitale, Pranjal; Dabre, Raj; Chevi, Rendi; Zhang, Ruochen; Diandaru, Ryandito; Cahyawijaya, Samuel; Góngora, Santiago; Jeong, Soyeong; Purkayastha, Sukannya; Kuribayashi, Tatsuki; Clifford, Teresa; Jayakumar, Thanmay; Torrent, Tiago Timponi; Ehsan, Toqeer; Araujo, Vladimir; Kementchedjhieva, Yova; Burzo, Zara; Lim, Zheng Wei; Yong, Zheng Xin; Ignat, Oana; Nwatu, Joan; Mihalcea, Rada; Solorio, Thamar; Aji, Alham Fikri"
@@ -54,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2406.05967.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Romero-CVQA Culturally-diverse Multilingual Visual Question Answering.pdf]]"
 publication: "WebSearch: CVQA culturally diverse multilingual visual question answering"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 10
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA ∗Equal Contribution 38th..."
 LLM_assessed: "BLOOM, GPT-4o, Gemini, Llama-2"
 DATA_URL: "https://huggingface.co/datasets/afaji/cvqa"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IL"
-author_region: "MENA"
+author_country: IL
+author_region: MENA
 author_global_north_south: "Global North"
 weird_score: 57
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for bias and fairness"
 data_metrics: "10k questions; 31 languages"
 ---

@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: CFLWTAVR
 type: conferencePaper
 short_title: "Culturally-Attuned Moral Machines"
-year: 2023
+year: 2025
 first_author: "[[Nigini Oliveira]]"
 last_author: "[[Rajesh P. N. Rao]]"
 authors: "Nigini Oliveira; Jasmine Li; Koosha Khalvati; Rodolfo Cortes Barragan; Katharina Reinecke; Andrew N. Meltzoff; Rajesh P. N. Rao"
@@ -50,10 +15,10 @@ url: "http://arxiv.org/abs/2312.17479"
 external_pdf: "http://arxiv.org/pdf/2312.17479.pdf"
 publication: "PLoS ONE"
 CONF-CC: "PLOS ONE"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 20
@@ -77,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Proposed using Inverse Reinforcement Learning (IRL) for AI to implicitly learn the moral values of a specific culture by observing human behavior in a virtual environment."
 significance: "A theoretical and practical step towards 'cultural attunement', showing that AI can learn local norms from observation rather than needing explicit top-down rule programming."
@@ -87,10 +52,10 @@ paper_summary: "Overview: Culturally-Attuned Moral Machines: Implicit Learning o
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Oliveira-Culturally-Attuned Moral Machines.pdf]]"
 abstract: "Constructing a universal moral code for artificial intelligence (AI) is difficult or even impossible, given that different human cultures have different definitions of morality and different societal norms. We therefore argue that the value system of an AI should be culturally attuned: just as a child raised in a particular culture learns the specific values and norms of that culture, we propose that an AI agent operating in a particular human community should acquire that community's moral, eth"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 35
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Culturally-Attuned Moral Machines: Implicit Learning of Human Value Systems by AI through Inverse Reinforcement Learning

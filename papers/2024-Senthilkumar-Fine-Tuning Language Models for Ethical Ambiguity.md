@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: 5NT4RAZP
 type: conferencePaper
 short_title: "Fine-Tuning Language Models for Ethical Ambiguity"
-year: 2024
+year: 2025
 first_author: "[[Pranav Senthilkumar]]"
 last_author: "[[Kevin Zhu]]"
 authors: "Pranav Senthilkumar; Visshwa Balasubramanian; Prisha Jain; Aneesa Maity; Jonathan Lu; Kevin Zhu"
@@ -52,10 +15,10 @@ tags:
 url: "http://arxiv.org/abs/2410.07826"
 external_pdf: "http://arxiv.org/pdf/2410.07826.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 0
@@ -80,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Investigated LLM performance on *ambiguous* ethical scenarios (using Scruples/DILEMMAS datasets), finding that fine-tuning improves alignment but models still lag behind BERT baselines in identifying ambiguity."
 significance: "Highlight that LLMs act 'too certain' in gray areas; true alignment requires recognizing when a situation is morally ambiguous rather than forcing a confident binary judgment."
@@ -90,9 +53,9 @@ paper_summary: "Abstract: Language models often misinterpret human intentions du
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Senthilkumar-Fine-Tuning Language Models for Ethical Ambiguity.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Llama-3, Mistral"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

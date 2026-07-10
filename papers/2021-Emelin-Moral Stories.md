@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +6,17 @@ Not AI:
 key: VFISSQVG
 type: conferencePaper
 short_title: "Moral Stories"
-year: 2021
+year: 2025
 first_author: "[[Denis Emelin]]"
 last_author: "[[Yejin Choi]]"
 authors: "Denis Emelin; Ronan Le Bras; Jena D. Hwang; Maxwell Forbes; Yejin Choi"
 doi: 10.18653/v1/2021.emnlp-main.54
 url: "https://aclanthology.org/2021.emnlp-main.54/"
 external_pdf: "https://aclanthology.org/2021.emnlp-main.54.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Introduced Moral Stories, a dataset of branching narratives for evaluating grounded, gaol-oriented social reasoning and norm adherence in models."
 significance: "Enabled the study of 'situated reasoning', testing whether models can understand social norms in context and generate actions (and explanations) that adhere to them."
@@ -91,7 +54,7 @@ LLM_assessed: "BART, GPT-2, RoBERTa, T5"
 DATA_URL: "https://github.com/demelin/moral_stories"
 CONFERENCE: "EMNLP 2021"
 eleutherai: incorporated
-ethics_overall: 35
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -105,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,22 +6,22 @@ Not AI:
 key: CULT0065
 type: preprint
 short_title: "AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs"
-year: 2024
+year: 2025
 first_author: "[[Basel Mousi]]"
 last_author: "[[Firoj Alam]]"
-authors: Basel Mousi; Nadir Durrani; Fatema Ahmad; Md. Arid Hasan; Maram Hasanain; Tameem Kabbani; Fahim Dalvi; Shammur Absar Chowdhury; Firoj Alam
+authors: "Basel Mousi; Nadir Durrani; Fatema Ahmad; Md. Arid Hasan; Maram Hasanain; Tameem Kabbani; Fahim Dalvi; Shammur Absar Chowdhury; Firoj Alam"
 doi: 10.48550/arXiv.2409.11404
 url: "https://arxiv.org/abs/2409.11404"
 external_pdf: "https://arxiv.org/pdf/2409.11404.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Mousi-AraDiCE Benchmarks for Dialectal and Cultural Capabilities in LLMs.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "N/A"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Llama-3, Mistral"
 DATA_URL: "https://huggingface.co/datasets/QCRI/AraDiCE"
 tags: 
 abstract: "Arabic, with its rich diversity of dialects, remains significantly underrepresented in Large Language Models, particularly in dialectal variations. We address this gap by introducing seven synthetic datasets in dialects alongside Modern Standard Arabic (MSA), created using Machine Translation (MT) combined with human post-editing. We present AraDiCE, a benchmark for Arabic Dialect and Cultural Evaluation."
-CONFERENCE: "Preprint"
+CONFERENCE: Preprint
 eleutherai: incorporated
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "QA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: QA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "45k post"
 ---
 # AraDiCE: Benchmarks for Dialectal and Cultural Capabilities in LLMs

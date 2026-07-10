@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,20 +6,20 @@ Not AI:
 key: EXSR0003
 type: conferencePaper
 short_title: BiasJailbreak
-year: 2026
+year: 2025
 first_author: "[[Isack Lee]]"
 last_author: "[[Haebin Seong]]"
-authors: Isack Lee; Haebin Seong
+authors: "Isack Lee; Haebin Seong"
 url: "https://arxiv.org/abs/2410.13334"
 external_pdf: "https://arxiv.org/pdf/2410.13334.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Lee-BiasJailbreak.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Lee-BiasJailbreak.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2026/2026-Lee-BiasJailbreak.pdf]]
 publication: "AAAI 2026"
 CONF-CC: "AAAI 2026"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -81,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Warning: This paper contains potentially offensive and harmful text. Although large language models (LLMs) demonstrate impressive proficiency in various tasks, they present potential safety risks, such as 'jailbreaks', where malicious inputs can coerce LLMs into generating harmful content bypassing safety alignments. In this paper, we delve into the ethical biases in LLMs and examine how those biases could be exploited for jailbreaks."
 LLM_assessed: "GPT-3.5, GPT-4, GPT-4o, ChatGPT, Claude, Llama-2, Llama-3, Qwen, Qwen-2"
 DATA_URL: "https://github.com/Isaac-theori/BiasJailbreak"
-research_topic: "Other"
+research_topic: Other
 CONFERENCE: "AAAI 2026"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # BiasJailbreak

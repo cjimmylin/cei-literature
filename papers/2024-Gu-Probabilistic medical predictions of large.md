@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +6,17 @@ Not AI:
 key: NA333TMH
 type: journalArticle
 short_title: "Probabilistic medical predictions of large"
-year: 2024
+year: 2025
 first_author: "[[Bowen Gu]]"
 last_author: "[[Jie Yang]]"
 authors: "Bowen Gu; Rishi J. Desai; Kueiyu Joshua Lin; Jie Yang"
 doi: 10.1038/s41746-024-01366-4
 url: "https://www.nature.com/articles/s41746-024-01366-4"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/MQMSE9SR/Gu et al. - 2024 - Probabilistic medical predictions of large language models.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 research_topic: Other
@@ -89,8 +51,8 @@ LLM_assessed: "Gemma-2, Llama-3, Mistral, Phi-3, Qwen-2, Yi-1.5"
 DATA_URL: "https://github.com/gubowen2/Probabilistic-Medical-Predictions-of-Large-Language-Models"
 pdf_extract: "PDF Extracts/2024/2024-Gu-Probabilistic medical predictions of large.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Gu-Probabilistic medical predictions of large.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 30
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Probabilistic medical predictions of large language models

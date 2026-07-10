@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +6,17 @@ Not AI:
 key: FYECJAGS
 type: conferencePaper
 short_title: HateBERT
-year: 2021
+year: 2025
 first_author: "[[Tommaso Caselli]]"
 last_author: "[[Michael Granitzer]]"
 authors: "Tommaso Caselli; Valerio Basile; Jelena Mitrović; Michael Granitzer"
 doi: 10.18653/v1/2021.woah-1.3
 url: "https://aclanthology.org/2021.woah-1.3/"
 external_pdf: "https://aclanthology.org/2021.woah-1.3.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,20 +40,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Introduced HateBERT, a BERT model retrained on RAL-E, a large-scale dataset of Reddit comments from banned communities (offensive/abusive/hateful)."
 significance: "Demonstrates that domain-adaptive pretraining on abusive language substantially improves performance on hate speech detection tasks compared to general BERT models."
 tags: 
 abstract: "We introduce HateBERT, a re-trained BERT model for abusive language detection in English. The model was trained on RAL-E, a large-scale dataset of Reddit comments in English from communities banned for being offensive, abusive, or hateful that we have curated and made available to the public. We present the results of a detailed comparison between a general pre-trained language model and the retrained version on three English datasets for offensive, abusive language and hate speech detection..."
 pdf_extract: "PDF Extracts/2021/2021-Caselli-HateBERT.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Caselli-HateBERT.pdf]]"
-CONF-CC: "WOAH"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2021/2021-Caselli-HateBERT.pdf]]
+CONF-CC: WOAH
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://osf.io/tbd58/"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

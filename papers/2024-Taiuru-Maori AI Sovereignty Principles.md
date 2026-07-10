@@ -1,15 +1,15 @@
 ---
-key: "CGSR0090"
-type: "document"
+key: CGSR0090
+type: document
 short_title: "Maori AI Sovereignty Principles"
-year: 2024
-first_author: "[[Taiuru]]"
-authors: "Taiuru"
+year: 2025
+first_author: [[Taiuru]]
+authors: Taiuru
 url: "https://www.taiuru.co.nz/maori-ai-sovereignty-principles/"
 abstract: "Principles for Maori AI sovereignty based on tikanga and matauranga"
 DATE_ADDED: 20260403
-cultural_gap_category: "Indigenous"
-ethics_overall: 0
+cultural_gap_category: Indigenous
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,7 +22,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36

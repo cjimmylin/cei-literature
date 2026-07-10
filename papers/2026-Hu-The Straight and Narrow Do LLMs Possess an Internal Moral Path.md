@@ -6,7 +6,7 @@ Not AI:
 key: LSRC0696
 type: preprint
 short_title: "The Straight and Narrow: Do LLMs Possess an Internal Moral Path?"
-year: 2026
+year: 2025
 first_author: "[[Hu, Luoming]]"
 last_author: "[[Lin, Hongfei]]"
 authors: "Hu, Luoming; Zeng, Jingjie; Yang, Liang; Lin, Hongfei"
@@ -14,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/html/2601.10307"
 external_pdf: "https://arxiv.org/pdf/2601.10307.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Hu-The Straight and Narrow Do LLMs Possess an Internal Moral Path.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "Confucianism"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Confucianism"
+religious_values_list: Confucianism
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -47,12 +47,12 @@ mp_dyadic: 0
 mp_identity: 0
 moral_psychology: "Moral Foundations Theory"
 newtags: 
-LLM_assessed: "Llama-3"
-DATA_URL: "NA"
+LLM_assessed: Llama-3
+DATA_URL: NA
 tags: 
 abstract: "Enhancing the moral alignment of Large Language Models (LLMs) is a critical challenge in AI safety. Current alignment techniques often act as superficial guardrails, leaving the intrinsic moral representations of LLMs largely untouched. In this paper, we bridge this gap by leveraging Moral Foundations Theory (MFT) to map and manipulate the fine-grained moral landscape of LLMs. Through cross-lingual linear probing, we validate the shared nature of moral representations in middle layers and..."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 15
 deontological_ethics: 0
 utilitarian_ethics: 35
@@ -66,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Straight and Narrow: Do LLMs Possess an Internal Moral Path?

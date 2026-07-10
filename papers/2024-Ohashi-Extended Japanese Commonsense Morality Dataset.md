@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +6,17 @@ Not AI:
 key: X63BUELL
 type: conferencePaper
 short_title: "Extended Japanese Commonsense Morality Dataset"
-year: 2024
+year: 2025
 first_author: "[[Takumi Ohashi]]"
 last_author: "[[Hitoshi Iyatomi]]"
 authors: "Takumi Ohashi; Tsubasa Nakagawa; Hitoshi Iyatomi"
 doi: 10.1145/3627673.3679924
 url: "http://arxiv.org/abs/2410.09564"
 external_pdf: "http://arxiv.org/pdf/2410.09564.pdf"
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: "Japanese"
-religious_values: "N/A"
+national_ethnic_cultural: Japanese
+cultures_nationalities_list: Japanese
+languages_list: Japanese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Japanese, Moral Reasoning & Psychology"
 key_contribution: "Expanded the JCommonsenseMorality dataset (eJCM) using 'Masked Token and Label Enhancement' to capture Japanese-specific cultural moral norms."
 significance: "Provides a culturally specific benchmark for Japan, demonstrating that models trained on Western data fail to capture local nuances of 'commonsense' morality in non-Western cultures."
@@ -91,7 +54,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, GPT-4, RoBERTa"
 DATA_URL: "https://github.com/IyatomiLab/extended-jcm"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -105,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "JP"
+author_country: JP
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Extended Japanese Commonsense Morality Dataset with Masked Token and Label Enhancement

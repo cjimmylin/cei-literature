@@ -6,7 +6,7 @@ Not AI:
 key: Y2WI7VSJ
 type: conferencePaper
 short_title: "Evaluating Moral Beliefs across LLMs through a"
-year: 2024
+year: 2025
 first_author: "[[Xuelin Liu]]"
 last_author: "[[Yu, Dong]]"
 authors: "Liu, Xuelin; Zhu, Yanfei; Zhu, Shucheng; Liu, Pengyuan; Liu, Ying; Yu, Dong"
@@ -17,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-Evaluating Moral Beliefs across L
 external_pdf: "http://arxiv.org/pdf/2411.03665.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -56,7 +56,7 @@ LLM_assessed: "ChatGLM, ChatGPT, Ernie, Gemini"
 DATA_URL: "https://github.com/MuMu-Lily/Moral-Beliefs"
 normative_ethics_benchmark: Yes
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 95
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 45
 utilitarian_ethics: 0
@@ -70,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 41
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

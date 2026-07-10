@@ -4,17 +4,17 @@ Not AI:
 key: AUTO_HAGENDORFF2022
 type: journalArticle
 short_title: "Virtue-Based Framework for AI Ethics"
-year: 2022
-first_author: "[[Hagendorff]]"
-last_author: "[[Thilo]]"
-authors: Hagendorff; Thilo
+year: 2025
+first_author: [[Hagendorff]]
+last_author: [[Thilo]]
+authors: "Hagendorff; Thilo"
 doi: 10.1007/s13347-022-00553-z
 url: "https://link.springer.com/article/10.1007/s13347-022-00553-z"
 pdf_extract: "PDF Extracts/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Hagendorff-Virtue-Based Framework for AI Ethics.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
@@ -47,10 +47,10 @@ external_pdf: N/A
 abstract: "Many ethics initiatives have stipulated sets of principles and standards for good technology development in the AI sector. However, several AI ethics researchers have pointed out a lack of practical realization of these principles. Following that, AI ethics underwent a practical turn, but without deviating from the principled approach. This paper proposes a complementary to the principled approach that is based on virtue ethics. It defines four 'basic AI virtues', namely justice, honesty, responsibility and care, all of which represent specific motivational settings that constitute the very precondition for ethical decision making in the AI field. Moreover, it defines two 'second-order AI virtues', prudence and fortitude, that bolster achieving the basic virtues by helping with overcoming bounded ethicality or hidden psychological forces that can impair ethical decision making. Lastly, the paper describes measures for successfully cultivating the mentioned virtues in organizations dealing with AI research and development."
 CONF-CC: "Philosophy & Technology"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -63,13 +63,13 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,10 +12,10 @@ last_author: "[[Arjun Panickssery]]"
 authors: "Abhimanyu Pallavi Sudhir; Jackson Kaunismaa; Arjun Panickssery"
 url: "https://arxiv.org/abs/2504.03731"
 external_pdf: "https://arxiv.org/pdf/2504.03731.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -69,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed a benchmark for 'scalable oversight' protocols (like Debate), introducing 'Agent Score Difference' (ASD) to measure if a protocol helps truth-telling over deception."
 significance: "Provides a way to empirically test 'sandwiching' assumptions (can a weak supervisor control a strong model?) which is critical for superalignment research."
@@ -87,12 +48,12 @@ pdf_extract: "PDF Extracts/2025/2025-Saunders-A Scalable Oversight Benchmark.md"
 abstract: "As AI agents surpass human capabilities, scalable oversight – the problem of effectively supplying human feedback to potentially superhuman AI models – becomes increasingly critical to ensure alignment. While numerous scalable oversight protocols have been proposed, they lack a systematic empirical framework to evaluate and compare them. While recent works have tried to empirically study scalable oversight protocols – particularly Debate – we argue that the experiments they conduct are not..."
 paper_summary: "Abstract: As AI agents surpass human capabilities, scalable oversight – the problem of effectively supplying human feedback to potentially superhuman AI models – be- comes increasingly critical to ensure alignm | Overview: Published at the ICLR 2025 Workshop on Bidirectional Human-AI Alignment (BiAlign) A BENCHMARK FOR SCALABLE OVERSIGHT MECHA- NISMS Abhimanyu Pallavi Sudhir University of Warwick abhimanyu.pallavi-sudhi | Methodology: call (context, answer case), which simulates what an agent arguing for a particular answer to a question would say. This answer case is really a stand"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Saunders-A Scalable Oversight Benchmark.pdf]]"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-4o"
 DATA_URL: "https://github.com/ArjunPanickssery/math_problems_debate"
-CONFERENCE: "Preprint"
-ethics_overall: 60
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # A Scalable Oversight Benchmark

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,14 +14,14 @@ authors_incomplete: true
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9755662/"
 external_pdf: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/pdf"
 publication: PubMed
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Flek-AmericasNLI Machine translation and natural language inference.pdf]]"
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
-languages_list: "Multilingual"
-religious_values: "N/A"
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://nala-cub.github.io/resources/"
 tags: 
 abstract: "Based on the search results, here's what I found about the AmericasNLI benchmark for indigenous languages NLI evaluation: Overview AmericasNLI is a natural language inference (NLI) dataset in 10 Indigenous languages of the Americas: Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, and Wixarika. Dataset Purpose and Design The dataset is multiway parallel, which enables evaluation of both machine translation (MT) systems and NLI systems for these 10 t"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

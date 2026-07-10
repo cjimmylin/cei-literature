@@ -1,34 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "UX Virtue ethics, catholic social teaching"
@@ -45,10 +15,10 @@ url: "https://arxiv.org/abs/2501.10288"
 pdf_extract: "PDF Extracts/2025/2025-Conwill-Design Patterns for the Common Good.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Conwill-Design Patterns for the Common Good.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2501.10288.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -63,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -72,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Christianity, Value Pluralism / Schwartz, Virtue Ethics"
 key_contribution: "Identifies seven UX design patterns for social media that embody the virtues of Catholic Social Teaching to support the common good"
 significance: "Moves virtue ethics from theory to practice by providing concrete design patterns that technologists can instantiate to foster specific virtues like solidarity and subsidiarity"
@@ -81,10 +51,10 @@ abstract: "Virtue ethics is a philosophical tradition that emphasizes the cultiv
 paper_summary: "Proposes an approach for identifying UX design patterns that embody virtues from Catholic Social Teaching. Documents seven social media design patterns that uphold virtues like solidarity and subsidiarity. Evaluation with 24 practitioners found the patterns effectively enact their intended virtues."
 CONF-CC: "International Conference on Human Factors in Computing Systems"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 65
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -97,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PL"
+author_country: PL
 author_region: "Eastern Europe & Central Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

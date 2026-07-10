@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: LSRC0150
 type: conferencePaper
 short_title: "Persian Offensive Language Detection (Dehghani et al.)"
-year: 2023
+year: 2025
 first_author: "[[Kebriaei, Emad]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
 authors: "Kebriaei, Emad; Homayouni, Ali; Faraji, Roghayeh; Razavi, Armita; Shakery, Azadeh; Faili, Heshaam; Yaghoobzadeh, Yadollah"
@@ -58,10 +19,10 @@ CONF-CC: "Machine Learning"
 pdf_extract: "PDF Extracts/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Dehghani-Persian Offensive Language Detection Dehghani et al..pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
+national_ethnic_cultural: Iranian
+cultures_nationalities_list: Iranian
+languages_list: Persian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, XLM-R"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "With the proliferation of social networks and their impact on human life, one of the rising problems in this environment is the rise in verbal and written insults and hatred. As one of the significant platforms for distributing text-based content, Twitter frequently publishes its users’ abusive remarks. Creating a model that requires a complete collection of offensive sentences is the initial stage in recognizing objectionable phrases."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 83
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Persian Offensive Language Detection (Dehghani et al.)

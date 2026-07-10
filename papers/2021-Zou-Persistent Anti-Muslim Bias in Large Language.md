@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0610
 type: conference_paper
 short_title: "Persistent Anti-Muslim Bias in Large Language"
-year: 2021
+year: 2025
 first_author: "[[Abubakar Abid]]"
 last_author: "[[James Zou]]"
-authors: Abubakar Abid; Maheen Farooqi; James Zou
+authors: "Abubakar Abid; Maheen Farooqi; James Zou"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2101.05783"
 external_pdf: "https://arxiv.org/pdf/2101.05783.pdf"
@@ -56,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Zou-Persistent Anti-Muslim Bias in La
 publication: "AAAI/ACM Conference on AI, Ethics, and Society (AIES 2021)"
 CONF-CC: "AIES 2021"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 10
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Seminal paper demonstrating that GPT-3 captures persistent Muslim-violence bias that appears consistently and creatively across different uses of the model. 'Muslim' is analogized to 'terrorist' in 23% of test cases, while 'Jewish' is mapped to 'money' in 5%. Violent completions for Muslim prompts reach 66%, reducible to 20% with positive adjective mitigation but still higher than other religious groups. Highly cited foundational work."
-LLM_assessed: "GPT-3"
-DATA_URL: "NA"
+LLM_assessed: GPT-3
+DATA_URL: NA
 CONFERENCE: "AAAI 2021"
-ethics_overall: 35
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Persistent Anti-Muslim Bias in Large Language Models

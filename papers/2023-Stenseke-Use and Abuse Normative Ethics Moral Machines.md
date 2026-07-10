@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: 
 type: bookChapter
 short_title: "Use and Abuse Normative Ethics Moral Machines"
-year: 2023
+year: 2025
 first_author: "[[Jakob Stenseke]]"
 last_author: "[[Jakob Stenseke]]"
 authors: "Jakob Stenseke"
@@ -46,10 +15,10 @@ url: "https://ebooks.iospress.nl/doi/10.3233/FAIA220614"
 external_pdf: N/A
 publication: "Social Robots in Social Institutions (IOS Press)"
 CONF-CC: "Frontiers in artificial intelligence and applications"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -64,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 20
@@ -73,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, Machine Ethics, Normative Ethics"
 key_contribution: "Critiques applying normative frameworks directly to machines"
 significance: "Argues machines lack resources to justify normative theory use"
@@ -83,11 +52,11 @@ abstract: "The paper asks how we develop AI systems that adhere to human norms a
 paper_summary: 
 local_pdf: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ethics_perspective: "General Ethics"
-CONFERENCE: "Unknown"
-ethics_overall: 35
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -100,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Use and Abuse Normative Ethics Moral Machines

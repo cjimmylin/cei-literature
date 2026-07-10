@@ -12,10 +12,10 @@ last_author: "[[Tsutomu Sawai]]"
 authors: "Shimpei Okamoto; Masanori Kataoka; Makoto Itano; Tsutomu Sawai"
 doi: 10.1186/s12909-025-06801-y
 url: "https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-025-06801-y"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Confucianism"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -30,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Confucianism"
+religious_values_list: Confucianism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -39,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 10
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Proposes using 'v-rules' (virtue-based instructions) to guide LLMs in modeling virtuous behaviors for medical ethics education"
 significance: "Explores the potential of LLMs not just as information sources but as tools for cultivating practical wisdom and moral character in professionals"
@@ -47,12 +47,12 @@ osint_source: "Recovered via HTML"
 abstract: "This paper examines the potential of Large Language Models (LLMs) to foster **virtues** in medical ethics education. Drawing on **neo-Aristotelian** philosophy, the authors propose guiding LLMs with \"
 CONF-CC: "BMC Medical Education"
 DATE_ADDED: 20260129
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
+LLM_assessed: ChatGPT
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Okamoto-AI-based medical ethics education.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Okamoto-AI-based medical ethics education.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 95
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -65,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "JP"
+author_country: JP
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # AI-based medical ethics education: examining the potential of large language models as a tool for virtue cultivation

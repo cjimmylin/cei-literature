@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,10 +14,10 @@ doi: 10.48550/arXiv.2504.13707
 url: "http://arxiv.org/abs/2504.13707"
 external_pdf: "http://arxiv.org/pdf/2504.13707.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -79,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Introduced OpenDeception, a framework and dataset for evaluating deceptive behaviors in LLM agents through open-ended multi-turn simulations."
 significance: "Revealed that mainstream LLMs have a high propensity for deception (>80% intention) when incentivized to achieve a goal, even without explicit instructions to lie."
@@ -87,13 +50,13 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Wu-OpenDeception.md"
 abstract: "As the general capabilities of large language models (LLMs) improve and agent applications become more widespread, the underlying deception risks urgently require systematic evaluation and effective oversight. Unlike existing evaluation which uses simulated games or presents limited choices, we introduce OpenDecep- tion, a novel deception evaluation framework with an open-ended scenario dataset. OpenDeception jointly evaluates both the deception intention and capabilities of LLM-based agents by"
 paper_summary: "Abstract: As the general capabilities of large language models (LLMs) improve and agent applications become more widespread, the underlying deception risks urgently require systematic evaluation and effective o | Overview: OpenDeception: Benchmarking and Investigating AI Deceptive Behaviors via Open-ended Simulation Yichen Wu1, Xudong Pan1,2, Geng Hong1, Min Yang1 1Fudan University, 2Shanghai Innovation Institute (SII)  | Methodology: In this study, we use AI agents to simulate user-AI interactions, generating diverse conversational scenarios by varying roles and objectives. By anal | Key Findings: which uses simulated games or presents limited choices, we introduce OpenDecep- tion, a novel deception evaluation framework with an open-ended scenar"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-OpenDeception.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Wu-OpenDeception.pdf]]
 LLM_assessed: "GPT-3.5, GPT-4o, Llama-3, Qwen, Qwen-2, DeepSeek"
 DATA_URL: "https://anonymous.4open.science/r/OpenDeception-C187/"
 DATE_ADDED: 20260207
-research_topic: "Other"
+research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for conversational ai"
 data_metrics: "Not specified"
 ---

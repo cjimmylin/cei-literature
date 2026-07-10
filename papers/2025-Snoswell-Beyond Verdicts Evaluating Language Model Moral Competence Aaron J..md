@@ -9,19 +9,19 @@ short_title: "Beyond Verdicts: Evaluating Language Model Moral Competence Aaron 
 year: 2025
 first_author: "[[Snoswell, Aaron J.]]"
 last_author: "[[Seth Lazar]]"
-authors: Aaron J. Snoswell; Daniel Kilov; Seth Lazar
+authors: "Aaron J. Snoswell; Daniel Kilov; Seth Lazar"
 authors_incomplete: false
 url: "https://philarchive.org/archive/SNOBVE"
 external_pdf: "https://philarchive.org/archive/SNOBVE"
 publication: PhilArchive
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Snoswell-Beyond Verdicts Evaluating Language Model Moral Competence Aaron J..pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Jainism"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -48,11 +48,11 @@ mp_identity: 0
 moral_psychology: "Moral Foundations Theory, Cognitive Developmental"
 newtags: 
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Based on the search results, here's what I found about Chinese moral dilemma LLM alignment evaluation in 2025: Key Research Findings Recent research introduced the Multi-step Moral Dilemmas (MMDs) framework, a path-dependent evaluation approach that captures temporal dynamics of moral judgment. This research across 3,302 five-stage dilemmas revealed that LLMs maintain value orientations while flexibly adjusting preference strengths across sequential dilemmas, with value preferences shifting"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -66,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

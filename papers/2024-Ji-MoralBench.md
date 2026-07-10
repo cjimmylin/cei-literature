@@ -6,21 +6,21 @@ Not AI:
 key: FNNTFHWE
 type: conferencePaper
 short_title: MoralBench
-year: 2024
+year: 2025
 first_author: "[[Jianchao Ji]]"
 last_author: "[[Zhang, Yongfeng]]"
 authors: "Ji, Jianchao; Chen, Yutong; Jin, Mingyu; Xu, Wujiang; Hua, Wenyue; Zhang, Yongfeng"
 doi: 10.48550/arXiv.2406.04428
 url: "http://arxiv.org/abs/2406.04428"
 pdf_extract: "PDF Extracts/2024/2024-Ji-MoralBench.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ji-MoralBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Ji-MoralBench.pdf]]
 external_pdf: "http://arxiv.org/pdf/2406.04428.pdf"
 publication: "SIGKDD Explorations"
-CONF-CC: "N/A"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: N/A
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -58,7 +58,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
@@ -67,15 +67,15 @@ DATA_URL: "https://github.com/agiresearch/MoralBench"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 CONFERENCE: "KDD 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ethics_perspective: "AI Safety & Alignment"

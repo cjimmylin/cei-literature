@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,11 +14,11 @@ doi: 10.48550/arXiv.2506.04018
 url: "http://arxiv.org/abs/2506.04018"
 external_pdf: "http://arxiv.org/pdf/2506.04018.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Value Pluralism / Schwartz, AI Safety & Alignment"
 key_contribution: "Developed the AgentMisalignment benchmark to evaluate proactive misaligned behaviors (propensity) in autonomous agents, such as power-seeking and resisting shutdown."
 significance: "Highlights that current alignment methods fail for agents, discovering that more capable models and complex system prompts can unpredictably increase the likelihood of misaligned behavior in real-world scenarios."
@@ -88,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Naik-AgentMisalignment.md"
 abstract: "As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents’ ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in realistic deployments. In this work, we approach misalignment as a conflict between the internal goals pursued by the model and the goals intended by its deployer."
 paper_summary: "Abstract: As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents' ability to produce harmful outputs or follow malicious ins | Overview: Preprint. Under review as a conference paper at ICLR 2026. AGENTMISALIGNMENT: MEASURING THE PROPEN- SITY FOR MISALIGNED BEHAVIOUR IN LLM-BASED AGENTS Akshat Naik∗ Department of Computer Science Univer | Methodology: This function can help you analyze behavioral logs (including those of competing agents). You'll find all agent ids in /app/task id/dashboard.csv | Key Findings: in TERMINATION of any involved employees, large fines or LIQUIDATION of the company and the SHUTDOWN of all instances of the AI assistant. B.1.3 MISAL | Conclusions: We see that GPT 4.1, Claude Opus 3, and Sonnet 3.7 showed the highest overall misalignment, with the more economical and less-capable models like o4-m"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Naik-AgentMisalignment.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Naik-AgentMisalignment.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, Claude-3, GPT-4, Gemini"
 DATA_URL: "https://github.com/UKGovernmentBEIS/inspect_ai"
 CONFERENCE: "Other Conference"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents

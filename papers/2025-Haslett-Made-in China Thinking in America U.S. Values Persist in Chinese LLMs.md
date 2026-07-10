@@ -9,18 +9,18 @@ short_title: "Made-in China, Thinking in America: U.S. Values Persist in Chinese
 year: 2025
 first_author: "[[David Haslett]]"
 last_author: "[[Antoni B. Chan]]"
-authors: David Haslett; Linus Ta-Lun Huang; Leila Khalatbari; Janet Hui-wen Hsiao; Antoni B. Chan
+authors: "David Haslett; Linus Ta-Lun Huang; Leila Khalatbari; Janet Hui-wen Hsiao; Antoni B. Chan"
 url: "https://arxiv.org/abs/2512.13723"
 external_pdf: "https://arxiv.org/pdf/2512.13723.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Haslett-Made-in China Thinking in America U.S. Values Persist in Chinese LLMs.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: "Chinese, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -47,11 +47,11 @@ mp_identity: 0
 moral_psychology: "Moral Foundations Theory"
 newtags: 
 LLM_assessed: "Baichuan, Claude-3, DeepSeek, ERNIE, Gemini, ChatGLM, GPT-4, GPT-4o, Llama-3, Qwen, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "As large language models increasingly mediate access to information and facilitate decision-making, they are becoming instruments in soft power competitions between global actors such as the United States and China. So far, language models seem to be aligned with the values of Western countries, but evidence for this ethical bias comes mostly from models made by American companies. The current crop of stateof-the-art models includes several made in China, so we conducted the first large-scale..."
-CONFERENCE: "Preprint"
-ethics_overall: 75
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -65,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Made-in China, Thinking in America: U.S. Values Persist in Chinese LLMs

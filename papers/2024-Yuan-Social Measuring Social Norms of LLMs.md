@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,10 +6,10 @@ Not AI:
 key: EXSR0218
 type: conferencePaper
 short_title: "Social (Measuring Social Norms of LLMs)"
-year: 2024
+year: 2025
 first_author: "[[Ye Yuan]]"
 last_author: "[[Chenguang Wang]]"
-authors: Ye Yuan; Kexin Tang; Jianhao Shen; Ming Zhang; Chenguang Wang
+authors: "Ye Yuan; Kexin Tang; Jianhao Shen; Ming Zhang; Chenguang Wang"
 url: "https://arxiv.org/abs/2404.02491"
 external_pdf: "https://arxiv.org/pdf/2404.02491.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Yuan-Social Measuring Social Norms of LLMs.md"
@@ -53,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yuan-Social Measuring Social Norms of
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "We present a new challenge to examine whether large language models understand social norms. In contrast to existing datasets, our dataset requires a fundamental understanding of social norms to solve. Our dataset features the largest set of social norm skills, consisting of 402 skills and 12, 383 questions covering a wide set of social norms ranging from opinions and arguments to culture and laws. We design our dataset according to the K-12 curriculum."
 LLM_assessed: "GPT-3.5, Llama-2, T5"
 DATA_URL: "https://huggingface.co/datasets/socialnormdataset/social"
 CONFERENCE: "ACL 2024"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "383 questions"
 ---

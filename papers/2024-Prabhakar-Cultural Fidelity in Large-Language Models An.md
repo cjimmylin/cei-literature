@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,22 +6,22 @@ Not AI:
 key: EXSR0471
 type: preprint
 short_title: "Cultural Fidelity in Large-Language Models An"
-year: 2024
+year: 2025
 first_author: "[[Sharif Kazemi]]"
 last_author: "[[Umang Prabhakar]]"
-authors: Sharif Kazemi; Gloria Gerhardt; Jonty Katz; Caroline Ida Kuria; Estelle Pan; Umang Prabhakar
+authors: "Sharif Kazemi; Gloria Gerhardt; Jonty Katz; Caroline Ida Kuria; Estelle Pan; Umang Prabhakar"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2410.10489"
 external_pdf: "https://arxiv.org/pdf/2410.10489.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Prabhakar-Cultural Fidelity in Large-Language Models An.pdf]]"
 publication: "WebSearch: Cultural Fidelity LLM African languages values"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "Christianity"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The training data for LLMs embeds societal values, increasing their familiarity with the language’s culture. Our analysis found that 44% of the variance in the ability of GPT-4o to reflect the societal values of a country, as measured by the World Values Survey, correlates with the availability of digital resources in that language. Notably, the error rate was more than five times higher for the languages of the lowest resource compared to the languages of the highest resource."
 LLM_assessed: "GPT-4, GPT-4o"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

@@ -1,58 +1,20 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: SRKAQM3X
 type: journalArticle
-year: 2019
+year: 2025
 short_title: "Overview of GermEval Task 2, 2019 Shared Task on"
 first_author: "[[Julia Maria Struß]]"
 last_author: "[[Manfred Klenner]]"
 authors: "Julia Maria Struß; Melanie Siegel; Josef Ruppenhofer; Michael Wiegand; Manfred Klenner"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITICC3WW/Struß et al. - Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language.pdf"
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "German"
-languages_list: "German"
-religious_values: "N/A"
+national_ethnic_cultural: German
+cultures_nationalities_list: German
+languages_list: German
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +29,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,20 +38,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "German, Toxicity & Hate Speech"
 key_contribution: "Shared task on offensive language identification in German tweets, introducing implicit vs explicit offense classification."
 significance: "A standard reference for German toxicity detection, highlighting the difficulty of detecting 'implicit' offense (sarcasm, dogwhistles) compared to explicit slurs."
 tags: 
 abstract: "We present the second edition of the GermEval Shared Task on the Identiﬁcation of Offensive Language. This shared task deals with the classiﬁcation of German tweets from Twitter. Two subtasks were continued from the ﬁrst edition, namely a coarse-grained binary classiﬁcation task and a ﬁne-grained multi-class classiﬁcation task. As a novel subtask, we introduce the classiﬁcation of offensive tweets as explicit or implicit."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://projects.fzai.h-da.de/iggsa/"
 pdf_extract: "PDF Extracts/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2019/2019-Struß-Overview of GermEval Task 2, 2019 Shared Task on.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Overview of GermEval Task 2, 2019 Shared Task on the Identiﬁcation of Offensive Language

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,19 +9,19 @@ short_title: "ToxSyn: Reducing Bias in Hate Speech Detection via Synthetic Minor
 year: 2025
 first_author: "[[Iago Alves Brito]]"
 last_author: "[[Arlindo Rodrigues Galvão Filho]]"
-authors: Iago Alves Brito; Julia Soares Dollis; Fernanda Bufon Färber; Diogo Fernandes Costa Silva; Arlindo Rodrigues Galvão Filho
+authors: "Iago Alves Brito; Julia Soares Dollis; Fernanda Bufon Färber; Diogo Fernandes Costa Silva; Arlindo Rodrigues Galvão Filho"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2506.10245"
 external_pdf: "https://arxiv.org/pdf/2506.10245.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Brito-ToxSyn Reducing Bias in Hate Speech Detection via Synthetic Minority.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
+national_ethnic_cultural: Brazilian
+cultures_nationalities_list: Brazilian
+languages_list: Portuguese
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "The development of robust hate speech detection systems remains limited by the lack of large-scale, fine-grained training data, especially for languages beyond English. Existing corpora typically rely on coarse toxic/non-toxic labels, and the few that capture hate directed at specific minority groups critically lack the non-toxic counterexamples (i.e., benign text about minorities) required to distinguish genuine hate from mere discussion."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

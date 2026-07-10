@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,17 +9,17 @@ short_title: "Decolonizing African NLP: A Survey on Power Dynamics and Data Colo
 year: 2025
 first_author: "[[Yan, Nan]]"
 last_author: "[[Cheng Xu]]"
-authors: Nan Yan; Cheng Xu
+authors: "Nan Yan; Cheng Xu"
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/379815378_Decolonizing_African_NLP_A_Survey_on_Power_Dynamics_and_Data_Colonialism_in_Tech_Development"
 publication: ResearchGate
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yan-Decolonizing African NLP A Survey on Power Dynamics and Data.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: "Multilingual"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: Multilingual
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Based on the web search results, here's what I found about decolonizing NLP for indigenous languages evaluation: Key Issues and Challenges The discourse surrounding decolonization resonates deeply within the realm of NLP, where dominant Western perspectives, datasets, and methodologies often eclipse indigenous knowledge systems and local voices. Indigenous languages are endangered due not to any inherent linguistic inferiority, but rather due to the global economic, ideological, military, a"
 CONFERENCE: "Other Conference"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 0
-author_country: "IE"
+author_country: IE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

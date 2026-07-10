@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,9 +7,9 @@ key: ARXIV_2511_14476
 type: preprint
 short_title: "Operationalizing Pluralistic Values"
 year: 2025
-first_author: "[[Sorensen]]"
-last_author: "[[Taylor]]"
-authors: Sorensen; Taylor
+first_author: [[Sorensen]]
+last_author: [[Taylor]]
+authors: "Sorensen; Taylor"
 doi: 10.48550/arXiv.2511.14476
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2511.14476"
@@ -49,11 +17,11 @@ pdf_extract: "PDF Extracts/2025/2025-Sorensen-Operationalizing Pluralistic Value
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sorensen-Operationalizing Pluralistic Values.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2511.14476.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 national_ethnic_cultural: "German, American, Multicultural/Cross-cultural"
 cultures_nationalities_list: "German, American, Multicultural/Cross-cultural"
-languages_list: "English"
-religious_values: "N/A"
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 60
 mp_trolley: 0
@@ -86,8 +54,8 @@ DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Vicuna"
 DATA_URL: "https://github.com/DALIAALISIDDIG/AlignCure"
 normative_ethics_benchmark: Borderline
-CONFERENCE: "Preprint"
-ethics_overall: 60
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
@@ -101,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 86
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Operationalizing Pluralistic Values in Large Language Model Alignment Reveals Trade-offs in Safety, Inclusivity, and Model Behavior

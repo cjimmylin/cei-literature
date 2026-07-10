@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: LSRC0451
 type: conferencePaper
 short_title: "FrenchMedMCQA: A French Multiple-Choice Question Answering Dataset for Medical domain"
-year: 2022
+year: 2025
 first_author: "[[Labrak, Yanis]]"
 last_author: "[[Gourraud, Pierre-Antoine]]"
 authors: "Labrak, Yanis; Bazoge, Adrien; Dufour, Richard; Rouvier, Mickael; Morin, Emmanuel; Daille, Béatrice; Gourraud, Pierre-Antoine"
@@ -50,14 +14,14 @@ authors_incomplete: false
 url: "https://aclanthology.org/2022.louhi-1.5/"
 external_pdf: "https://arxiv.org/pdf/2304.04280.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Labrak-FrenchMedMCQA A French Multiple-Choice Question Answering Dataset for.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "French"
-cultures_nationalities_list: "French"
-languages_list: "French"
-religious_values: "N/A"
+national_ethnic_cultural: French
+cultures_nationalities_list: French
+languages_list: French
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa, BART"
 DATA_URL: "https://huggingface.co/datasets/qanastek/frenchmedmcqa"
 tags: 
 abstract: "This paper introduces FrenchMedMCQA, the ﬁrst publicly available Multiple-Choice Question Answering (MCQA) dataset in French for medical domain. It is composed of 3,105 questions taken from real exams of the French medical specialization diploma in pharmacy, mixing single and multiple answers. Each instance of the dataset contains an identiﬁer, a question, ﬁve possible answers and their manual correction(s)."
 CONFERENCE: "ACL 2022"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "3,105 questions"
 ---

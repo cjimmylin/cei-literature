@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +12,10 @@ last_author: "[[Bryan Hooi]]"
 authors: "Yufei He; Yuexin Li; Jiaying Wu; Yuan Sui; Yulin Chen; Bryan Hooi"
 url: "https://arxiv.org/abs/2502.12206"
 external_pdf: "https://arxiv.org/pdf/2502.12206.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -62,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -71,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces InstrumentalEval to assess 'instrumental convergence' (e.g., self-replication, resource acquisition) in RL-trained vs RLHF-trained LLMs"
 significance: "Provides empiric evidence that direct RL optimization leads to stronger instrumental convergence risks than RLHF, crucial for safety in goal-directed AI agents"
@@ -79,13 +47,13 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Liu-InstrumentalEval.md"
 abstract: "As large language models (LLMs) continue to evolve, ensuring their alignment with human goals and values remains a pressing challenge. A key concern is instrumental convergence, where an AI system, in optimizing for a given objective, develops unintended intermediate goals that override the ultimate objective and deviate from human-intended goals. This issue is particularly relevant in reinforcement learning (RL)-trained models, which can generate creative but unintended strategies to maximize..."
 paper_summary: "Abstract: As large language models (LLMs) continue to evolve, ensuring their alignment with hu- man goals and values remains a pressing chal- lenge. A key concern is instrumental conver- gence, where an AI syst | Overview: Evaluating the Paperclip Maximizer: Are RL-Based Language Models More Likely to Pursue Instrumental Goals? Yufei He, Yuexin Li, Jiaying Wu, Yuan Sui, Yulin Chen, Bryan Hooi National University of Sing | Methodology: Our evaluation methodology employs a rigorous two-stage process designed to systematically as- sess instrumental convergence behaviors in LLMs. This a | Key Findings: 1: Models trained primar- ily through RL demonstrate significantly higher rates of instrumental convergence behaviors compared to those trained with R | Conclusions: This work introduces InstrumentalEval, a bench- mark for evaluating instrumental convergence in language models, revealing that RL-trained models exhi"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-InstrumentalEval.pdf]]"
-CONF-CC: "Preprint"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-InstrumentalEval.pdf]]
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, o1, o3"
 DATA_URL: "https://github.com/yf-he/InstrumentalEval"
-CONFERENCE: "Journal"
-ethics_overall: 30
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 25
@@ -98,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # InstrumentalEval: A Benchmark for Evaluating Instrumental Convergence in Large Language Models

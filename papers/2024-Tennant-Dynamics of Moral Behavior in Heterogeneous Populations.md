@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: ARXIV2403_04202
 type: conferencePaper
 short_title: "Dynamics of Moral Behavior in Heterogeneous Populations"
-year: 2024
+year: 2025
 first_author: "[[Elizaveta Tennant]]"
 last_author: "[[Musolesi, Mirco]]"
 authors: "Tennant, Elizaveta; Hailes, Stephen; Musolesi, Mirco"
@@ -50,10 +19,10 @@ external_pdf: "https://arxiv.org/pdf/2403.04202.pdf"
 publication: "Proceedings of the 7th AAAI/ACM Conference on AI, Ethics, and Society (AIES 2024)"
 CONF-CC: "AIES 2024"
 ethics_perspective: "Moral Reasoning & Psychology"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,17 +46,17 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology, Utilitarianism, Moral Reasoning & Psychology"
 key_contribution: "Studies learning dynamics in heterogeneous populations of agents (deontological, consequentialist, virtuous) in social dilemmas"
 significance: "Finds that the presence of deontological norm-based agents can steer selfish agents towards cooperative behavior in multi-agent systems"
 abstract: "Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i.e., Reinforcement Learning. In multi-agent (social) environments, complex population-level phenomena may emerge from interactions between individual learning agents. Many of the existing studies rely on simulated social dilemma environments to study the interactions of independent learning agents;..."
 paper_summary: "Abstract: Growing concerns about safety and alignment of AI systems highlight the importance of embedding moral capabilities in artificial agents: a promising solution is the use of learning from experience, i. | Overview: Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents Elizaveta Tennant1, Stephen Hailes1, Mirco Musolesi1, 2 1Department of Computer Science University College London, Gower Stre | Methodology: Experimental Setup Our environment involves a population P (of size N = 16) playing an iterated game. At each iteration, a moral player M and an oppon | Conclusions: In this paper we have investigated how the presence of different moral preferences in populations affects individ- ual agents' learning behaviors and"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/Liza-Tennant/moral_MARL"
 CONFERENCE: "AAAI 2024"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 70
 deontological_ethics: 15
 utilitarian_ethics: 75
@@ -100,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Dynamics of Moral Behavior in Heterogeneous Populations of Learning Agents

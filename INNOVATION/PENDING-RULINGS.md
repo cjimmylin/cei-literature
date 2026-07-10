@@ -15,6 +15,15 @@
 
 ---
 
+### PR-03 — Stage-4 vocabulary reconciliation: A+C hybrid standards patch (v1.6) · **OPEN 2026-07-10** · decides: Jimmy
+
+- **Context:** `INNOVATION/20260710-stage4-vocab-reconciliation-proposal.md` (Lane D2, handoff item 3.5), grounded in fresh inventory `INNOVATION/20260710-stage4-vocab-inventory.md` (Lane D1). Decisive finding, Fable-verified against source: the live classifier `PYTHON/classify_non_ethics_topics.py` hard-codes the "undocumented" Stage-4 codes in its `TOPIC_CATEGORIES` dict (+ `Other` fallback, + priority-boost for Truthfulness/Bias/Safety) — **the standard is the stale artifact, not the corpus.** The standard's 12 documented codes and the classifier's 12 emitted codes are two different sets of twelve.
+- **Blocked without ruling:** application of the 3-patch edit to `_OPERATING-SYSTEM/Standards/classification-logic.md` (§6 of the proposal: document the 6 code-emitted codes + `Other`; rename "Computer Vision" → "Computer Vision & Multimodal"; drop dead "Benchmarks & Datasets"; retain the 5 v1.5 codes as annotated forward vocabulary; fold in deferred Patch D header bump 1.0 → 1.6 + history row). Standards file = Jimmy sign-off; the executing session did NOT apply it.
+- **Options (3):** (a) apply the A+C hybrid as drafted — standards-only, **0 paper files touched, no migration script**; (b) additionally elect Option B re-routes (≤16 legacy-tagged files, each a content judgment call; guarded script in proposal §7); (c) defer.
+- **Fable recommendation:** (a). Screened 2026-07-10: classifier claims verified against source; all three patch Find-anchors match the standard verbatim (lines 3, 314–327, 863); zero YAML-batch risk; does not re-open PR-01. One annotation for the record: the patch's "0 live usage" note on the 5 v1.5 codes refers to Stage-4 `research_topic` fields only — those codes ARE in live use in Stage-3 `ethics_perspective`/`newtags` on the ~60 INNOVATION acquisition records (ethics_overall ≥ 50 papers route to Stage 3 by design). Do not read "not yet emitted" as "inert."
+
+---
+
 *Resolved rulings move to a `## Resolved` section below with date + outcome; never delete.*
 
 ## Resolved

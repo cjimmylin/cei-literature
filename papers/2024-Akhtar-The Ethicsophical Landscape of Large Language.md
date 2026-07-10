@@ -5,18 +5,18 @@ Human View note: "LLM through view of Aristole and Kang"
 Not AI: 
 key: G6BN8ZME
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "The Ethicsophical Landscape of Large Language"
-first_author: "[[Akhtar]]"
-last_author: "[[Shahnawaz]]"
-authors: Akhtar; Shahnawaz
+first_author: [[Akhtar]]
+last_author: [[Shahnawaz]]
+authors: "Akhtar; Shahnawaz"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/DIHXXCK6/Akhtar - The Ethicsophical Landscape of Large Language Models.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Akhtar-The Ethicsophical Landscape of Large Language.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -40,18 +40,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 5
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics, Deontology"
 key_contribution: "Analyzes LLM capabilities through Aristotelian virtue and Kantian deontological lenses to assess their moral epistemological status"
 significance: "Highlights the need for new ethical paradigms for machine intelligence that go beyond human-like knowledge acquisition"
 tags: 
 abstract: "This paper delves into the profound advancements of Large Language Models (LLMs), epitomized by GPT-3, in natural language processing and artificial intelligence. It explores the epistemological foundations of LLMs through the lenses of Aristotle and Kant, revealing apparent distinctions from human learning. Transitioning seamlessly, the paper then delves into the ethical landscape, extending beyond knowledge acquisition to scrutinize the implications of LLMs in decision-making and content creat"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260129
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 35
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 60
 deontological_ethics: 55
 utilitarian_ethics: 0
@@ -64,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The Ethicsophical Landscape of Large Language Models

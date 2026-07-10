@@ -15,10 +15,10 @@ url: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3975/paper9.pdf"
 publication: "CEUR Workshop Proceedings"
 CONF-CC: "Workshop (2025)"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -52,10 +52,10 @@ abstract: "Machine ethics and AI alignment have become increasingly important re
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Vishwanath-Machine Ethics or AI Alignment.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NO"
+author_country: NO
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Machine Ethics or AI Alignment

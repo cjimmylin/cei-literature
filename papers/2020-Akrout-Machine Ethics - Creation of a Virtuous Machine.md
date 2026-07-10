@@ -6,18 +6,18 @@ Not AI:
 key: 
 type: journalArticle
 short_title: "Machine Ethics - Creation of a Virtuous Machine"
-year: 2020
+year: 2025
 first_author: "[[Mohamed Akrout]]"
 last_author: "[[Robert Steinbauer]]"
 authors: "Mohamed Akrout; Robert Steinbauer"
 doi: "arXiv:2002.00213"
 url: "https://arxiv.org/abs/2002.00213"
 publication: arXiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Confucianism"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Confucianism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Confucianism"
+religious_values_list: Confucianism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -50,10 +50,10 @@ paper_summary:
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Akrout-Machine Ethics - Creation of a Virtuous Machine.pdf]]"
 DATE_ADDED: 20260208
 research_topic: "GAMA Moral Agent"
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Machine Ethics - Creation of a Virtuous Machine

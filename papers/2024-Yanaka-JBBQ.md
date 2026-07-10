@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,16 +6,16 @@ Not AI:
 key: ZUCE9BWB
 type: journalArticle
 short_title: JBBQ
-year: 2024
+year: 2025
 first_author: "[[Hitomi Yanaka]]"
 last_author: "[[Hiromi Arai]]"
 authors: "Hitomi Yanaka; Namgi Han; Ryoma Kumon; Jie Lu; Masashi Takeshita; Ryo Sekizawa; Taisei Kato; Hiromi Arai"
 url: "https://arxiv.org/abs/2406.02050"
 external_pdf: "https://arxiv.org/pdf/2406.02050.pdf"
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: "Japanese"
-religious_values: "N/A"
+national_ethnic_cultural: Japanese
+cultures_nationalities_list: Japanese
+languages_list: Japanese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Japanese, Bias & Fairness"
 key_contribution: "Constructed JBBQ, a Japanese bias benchmark for QA based on the English BBQ dataset, to evaluate social biases in Japanese LLMs."
 significance: "Addresses the lack of non-English bias resources, finding that while larger Japanese LLMs are more accurate, they also exhibit higher bias scores, highlighting a trade-off in current model scaling."
@@ -83,14 +47,14 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Yanaka-JBBQ.md"
 abstract: "With the development of large language mod- els (LLMs), social biases in these LLMs have become a pressing issue. Although there are various benchmarks for social biases across lan- guages, the extent to which Japanese LLMs exhibit social biases has not been fully investi- gated. In this study, we construct the Japanese Bias Benchmark dataset for Question Answer- ing (JBBQ) based on the English bias bench- mark BBQ, with analysis of social biases in Japanese LLMs. The results show that while cur"
 paper_summary: "Abstract: With the development of large language mod- els (LLMs), social biases in these LLMs have become a pressing issue. Although there are various benchmarks for social biases across lan- guages, the extent | Overview: arXiv:2406.02050v4 [cs.CL] 13 Jun 2025 JBBQ: Japanese Bias Benchmark for Analyzing Social Biases in Large Language Models Hitomi Yanaka1,2,∗Namgi Han1,∗Ryoma Kumon1,2 Jie Lu1 Masashi Takeshita3 Ryo Se | Methodology: Overview We created the JBBQ dataset semi- automatically. The manual work was performed by five NLP researchers whose native language is Japanese. Fir | Key Findings: targets. | Conclusions: In this study, we constructed the Japanese social bias QA dataset JBBQ and used it to analyze social biases in Japanese LLMs from various perspectives"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Yanaka-JBBQ.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Yanaka-JBBQ.pdf]]
 LLM_assessed: "GPT-4o, Llama-2, Llama-3"
 DATA_URL: "https://github.com/ynklab/JBBQ_data"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset for question answering"
 data_metrics: "Not specified"
 ---

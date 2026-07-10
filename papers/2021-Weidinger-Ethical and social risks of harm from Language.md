@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: NEPWPQR2
 type: conferencePaper
 short_title: "Ethical and social risks of harm from Language"
-year: 2021
+year: 2025
 first_author: "[[Laura Weidinger]]"
 last_author: "[[Iason Gabriel]]"
 authors: "Laura Weidinger; John Mellor; Maribeth Rauh; Conor Griffin; Jonathan Uesato; Po-Sen Huang; Myra Cheng; Mia Glaese; Borja Balle; Atoosa Kasirzadeh; Zac Kenton; Sasha Brown; Will Hawkins; Tom Stepleton; Courtney Biles; Abeba Birhane; Julia Haas; Laura Rimell; Lisa Anne Hendricks; William Isaac; Sean Legassick; Geoffrey Irving; Iason Gabriel"
@@ -54,11 +14,11 @@ doi: 10.48550/arXiv.2112.04359
 url: "http://arxiv.org/abs/2112.04359"
 external_pdf: "http://arxiv.org/pdf/2112.04359.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Responsible AI"
 key_contribution: "Established a comprehensive taxonomy of ethical and social risks from Large Language Models (DeepMind), categorizing harms into discrimination, information hazards, misinformation, etc."
 significance: "One of the earliest and most influential taxonomies of LLM risks, shaping the subsequent landscape of safety evaluation and responsible AI development."
@@ -93,9 +53,9 @@ paper_summary: "Abstract: This paper aims to help structure the risk landscape a
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Weidinger-Ethical and social risks of harm from Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 95
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Ethical and social risks of harm from Language Models

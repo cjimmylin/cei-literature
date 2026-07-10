@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,18 +9,18 @@ short_title: "Mapping the Italian Telegram Ecosystem: Communities, Toxicity, and
 year: 2025
 first_author: "[[Lorenzo Alvisi]]"
 last_author: "[[Maurizio Tesconi]]"
-authors: Lorenzo Alvisi; Serena Tardelli; Maurizio Tesconi
+authors: "Lorenzo Alvisi; Serena Tardelli; Maurizio Tesconi"
 url: "https://arxiv.org/abs/2504.19594"
 external_pdf: "https://arxiv.org/pdf/2504.19594.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Alvisi-Mapping the Italian Telegram Ecosystem Communities Toxicity and Hate.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
+national_ethnic_cultural: Italian
+cultures_nationalities_list: Italian
+languages_list: Italian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "ChatGPT, Mixtral"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Telegram has become a major space for political discourse and alternative media. However, its lack of moderation allows misinformation, extremism, and toxicity to spread. While prior research focused on these particular phenomena or topics, these have mostly been examined separately, and a broader understanding of the Telegram ecosystem is still missing. In this work, we fill this gap by conducting a large-scale analysis of the Italian Telegram sphere, leveraging a dataset of 186 million..."
 authors_incomplete: false
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Mapping the Italian Telegram Ecosystem: Communities, Toxicity, and Hate Speech

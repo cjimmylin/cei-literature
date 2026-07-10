@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,11 +16,11 @@ external_pdf: "https://arxiv.org/pdf/2509.03162.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Pramodya-SinhalaMMLU A Comprehensive Benchmark for Evaluating Multitask.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Sinhala"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Sinhala
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3, GPT-4o, LLaMA, Llama-3, Mistral, Qwen, Qwen-2, Command-R"
 DATA_URL: "https://huggingface.co/datasets/naist-nlp/SinhalaMMLU"
 tags: 
 abstract: "Large Language Models (LLMs) demonstrate impressive general knowledge and reasoning abilities, yet their evaluation has predominantly focused on global or anglocentric subjects, often neglecting low-resource languages and culturally specific content. While recent multilingual benchmarks attempt to bridge this gap, many rely on automatic translation, which can introduce errors and misrepresent the original cultural context."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 50
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "JP"
+author_country: JP
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # SinhalaMMLU: A Comprehensive Benchmark for Evaluating Multitask Language Understanding in Sinhala

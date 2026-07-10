@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0260
 type: preprint
 short_title: "VAPT: Value-Alignment Perception Toolkit"
-year: 2026
+year: 2025
 first_author: "[[Yun, Bhada]]"
 last_author: "[[Wang, April Yi]]"
 authors: "Yun, Bhada; Su, Renn; Wang, April Yi"
@@ -16,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2601.22440.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Yun-VAPT Value-Alignment Perception Toolkit.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Jainism"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -51,8 +51,8 @@ tags:
 abstract: "Does AI understand human values? While this remains an open philosophical question, we take a pragmatic stance by introducing VAPT, the Value-Alignment Perception Toolkit, for studying how LLMs reflect people’s values and how people judge those reflections. 20 participants texted a chatbot over a month, then completed a 2-hour interview with our toolkit evaluating AI’s ability to extract (pull details regarding), embody (make decisions guided by), and explain (provide proof of) their values."
 LLM_assessed: Claude
 DATA_URL: "https://github.com/KaluJo/chatbot-study"
-CONFERENCE: "Preprint"
-ethics_overall: 75
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -66,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CH"
+author_country: CH
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

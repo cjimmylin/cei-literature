@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +6,21 @@ Not AI:
 key: LSRC0721
 type: conferencePaper
 short_title: "Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core"
-year: 2024
-first_author: "[[Kajiwara]]"
-last_author: "[[Kajiwara]]"
+year: 2025
+first_author: [[Kajiwara]]
+last_author: [[Kajiwara]]
 authors: Kajiwara
 url: "https://www.cambridge.org/core/journals/natural-language-processing/article/multiclass-hate-speech-detection-with-an-aggregated-dataset/2390980624C97F92CD264A67CFA6ACE2"
 external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2390980624C97F92CD264A67CFA6ACE2/S2977042424000621a.pdf/multiclass-hate-speech-detection-with-an-aggregated-dataset.pdf"
 publication: Web
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kajiwara-Multiclass hate speech detection with an aggregated dataset Natural.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: "Japanese"
-religious_values: "N/A"
+national_ethnic_cultural: Japanese
+cultures_nationalities_list: Japanese
+languages_list: Japanese
+religious_values: N/A
 rv_islam: 15
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, GPT-2"
 DATA_URL: NA
 tags: 
 abstract: "Detecting and removing hate speech content in a timely manner remains a challenge for social media platforms. Automated techniques such as deep learning models offer solutions which can keep up with the volume and velocity of user content production. Research in this area has mainly focused on either binary classiﬁcation or on classifying tweets into generalised categories such as hateful, offensive, or neither."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 20
@@ -103,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IE"
+author_country: IE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 77
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Multiclass hate speech detection with an aggregated dataset | Natural Language Processing | Cambridge Core

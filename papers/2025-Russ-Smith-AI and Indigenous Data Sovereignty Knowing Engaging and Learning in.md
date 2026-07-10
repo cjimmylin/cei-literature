@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +9,17 @@ short_title: "AI and Indigenous Data Sovereignty: Knowing, Engaging, and Learnin
 year: 2025
 first_author: "[[Jessica Russ-Smith]]"
 last_author: "[[Holly Randell-Moon]]"
-authors: Jessica Russ-Smith; Holly Randell-Moon
+authors: "Jessica Russ-Smith; Holly Randell-Moon"
 doi: 10.3366/soma.2025.0467
 url: "https://www.euppublishing.com/doi/10.3366/soma.2025.0467"
 publication: Somatechnics
-CONF-CC: "Somatechnics"
+CONF-CC: Somatechnics
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -79,20 +44,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Examines how AI development takes place in a digital context informed by older colonial knowledges. Argues that digital and data colonialism are contemporary expressions of colonialism where extracting Indigenous land and Indigenous data are equivalent. Necessitates Indigenous-led responses centering Indigenous Data Sovereignty."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -100,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 90
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # AI and Indigenous Data Sovereignty: Knowing, Engaging, and Learning in New Data Contexts

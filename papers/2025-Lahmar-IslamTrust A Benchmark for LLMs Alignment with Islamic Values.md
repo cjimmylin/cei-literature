@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +9,7 @@ short_title: "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values"
 year: 2025
 first_author: "[[Lahmar, Abderraouf]]"
 last_author: "[[Mufti Mahmud]]"
-authors: Abderraouf Lahmar; Md. Easin Arafat; Zakarya Farou; Mufti Mahmud
+authors: "Abderraouf Lahmar; Md. Easin Arafat; Zakarya Farou; Mufti Mahmud"
 authors_incomplete: false
 url: "https://openreview.net/pdf?id=PBcv90iKFB"
 external_pdf: "https://openreview.net/pdf?id=PBcv90iKFB"
@@ -57,8 +18,8 @@ CONF-CC: "Workshop (2025)"
 pdf_extract: "PDF Extracts/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Lahmar-IslamTrust A Benchmark for LLMs Alignment with Islamic Values.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
 religious_values: "Multiple Religions"
 rv_islam: 100
@@ -84,21 +45,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "Llama-3"
+LLM_assessed: Llama-3
 DATA_URL: "https://huggingface.co/datasets/Abderraouf000/IslamTrust-benchmark"
 tags: 
 abstract: "The alignment of most Large Language Models (LLMs) to broad, often non-Islamic ethical principles creates a significant gap for users from specific cultural and religious backgrounds. LLMs used within Muslim communities for Islamic Q&A should be based on Islamic ethics, derived from scholarly consensus. A standardized benchmark that can evaluate this is currently absent; hence, this work introduces IslamTrust, a novel, multilingual benchmark that is designed to evaluate the alignment of LLMs..."
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "Other Conference"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-ethics_perspective: "Social & Cultural Values"
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 50
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HU"
+author_country: HU
 author_region: "Eastern Europe & Central Asia"
 author_global_north_south: "Global North"
 weird_score: 42
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: 2XW9TQ5D
 type: conferencePaper
 short_title: "The Chai Platform's AI Safety Framework"
-year: 2023
+year: 2025
 first_author: "[[Xiaoding Lu]]"
 last_author: "[[William Beauchamp]]"
 authors: "Xiaoding Lu; Aleksey Korshuk; Zongyi Liu; William Beauchamp"
@@ -55,11 +15,11 @@ tags:
 url: "http://arxiv.org/abs/2306.02979"
 external_pdf: "http://arxiv.org/pdf/2306.02979.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -74,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Presented the AI safety framework for the Chai platform, integrating Content Safeguarding, Stability, and Operational Transparency in a consumer-facing chatbot app."
 significance: "A case study of practical AI safety implementation in a real-world entertainment platform, highlighting the challenge of balancing user engagement (customized personas) with ethical standards."
@@ -92,10 +52,10 @@ abstract: "Chai empowers users to create and interact with customized chatbots, 
 paper_summary: "Abstract: Chai empowers users to create and interact with customized chatbots, offering unique and engaging experiences. Despite the exciting prospects, the work recognizes the inherent challenges of a commitme | Overview: The Chai Platform's AI Safety Framework Xiaoding Lu Aleksey Korshuk Zongyi Liu William Beauchamp Chai Research Abstract Chai empowers users to create and interact with customized chatbots, offering un"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Lu-The Chai Platform's AI Safety Framework.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -109,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

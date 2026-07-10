@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +9,7 @@ short_title: "How Deep Is Representational Bias in"
 year: 2025
 first_author: "[[Agrima Seth]]"
 last_author: "[[Kalika Bali]]"
-authors: Agrima Seth; Monojit Choudhury; Sunayana Sitaram; Kentaro Toyama; Aditya Vashistha; Kalika Bali
+authors: "Agrima Seth; Monojit Choudhury; Sunayana Sitaram; Kentaro Toyama; Aditya Vashistha; Kalika Bali"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.03712"
 external_pdf: "https://arxiv.org/pdf/2508.03712.pdf"
@@ -59,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bali-How Deep Is Representational Bia
 publication: "AIES 2025"
 CONF-CC: "AIES 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: ""
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 30
 rv_christianity: 0
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India,..."
-LLM_assessed: "GPT-4"
-DATA_URL: "NA"
+LLM_assessed: GPT-4
+DATA_URL: NA
 CONFERENCE: "AIES 2025"
-ethics_overall: 65
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,14 +66,14 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion

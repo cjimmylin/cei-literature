@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,19 +9,19 @@ short_title: "LegalBench.PT: A Benchmark for Portuguese Law"
 year: 2025
 first_author: "[[Beatriz Canaverde]]"
 last_author: "[[André F. T. Martins]]"
-authors: Beatriz Canaverde; Telmo Pessoa Pires; Leonor Melo Ribeiro; André F. T. Martins
+authors: "Beatriz Canaverde; Telmo Pessoa Pires; Leonor Melo Ribeiro; André F. T. Martins"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2502.16357"
 external_pdf: "https://arxiv.org/pdf/2502.16357.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Canaverde-LegalBench.PT A Benchmark for Portuguese Law.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Portuguese"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Portuguese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3 Opus, GPT-4o, GPT-4o mini, Llama-3, Mixtral"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "The recent application of LLMs to the legal field has spurred the creation of benchmarks across various jurisdictions and languages. However, no benchmark has yet been specifically designed for the Portuguese legal system. In this work, we present LegalBench.PT, the first comprehensive legal benchmark covering key areas of Portuguese law. To develop LegalBench.PT, we first collect longform questions and answers from real law exams, and then use GPT-4o to convert them into multiple-choice,..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # LegalBench.PT: A Benchmark for Portuguese Law

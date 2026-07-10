@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0580
 type: preprint
 short_title: "Artificial Intelligence for Topic Modelling in"
-year: 2022
+year: 2025
 first_author: "[[Rohitash Chandra]]"
 last_author: "[[Mukul Ranjan]]"
-authors: Rohitash Chandra; Mukul Ranjan
+authors: "Rohitash Chandra; Mukul Ranjan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2205.11020"
 external_pdf: "https://arxiv.org/pdf/2205.11020.pdf"
@@ -56,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Ranjan-Artificial Intelligence for To
 publication: "PLOS ONE"
 CONF-CC: "PLOS ONE"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "English"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "A distinct feature of Hindu religious and philosophical text is that they come from a library of texts rather than single source. The Upanishads is known as one of the oldest philosophical texts in the world that forms the foundation of Hindu philosophy. The Bhagavad Gita is core text of Hindu philosophy and is known as a text that summarises the key philosophies of the Upanishads with major focus on the philosophy of karma."
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/sydney-machine-learning/topicmodelling_vedictexts"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 10
 nw_dharmic: 100
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Artificial Intelligence for Topic Modelling in Hindu Philosophy: Mapping Themes between the Upanishads and the Bhagavad Gita

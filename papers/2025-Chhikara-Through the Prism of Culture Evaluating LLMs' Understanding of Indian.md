@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,14 +13,14 @@ authors: "Chhikara, Garima; Kumar, Abhishek; Chakraborty, Abhijnan"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2501.16748"
 external_pdf: "https://arxiv.org/pdf/2501.16748.pdf"
-publication: arXiv / FAccT 2025
+publication: "arXiv / FAccT 2025"
 CONF-CC: "FAccT 2025"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Chhikara-Through the Prism of Culture Evaluating LLMs' Understanding of Indian.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: ""
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 60
 rv_christianity: 50
@@ -81,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, GPT-4o mini, Llama-3, Mixtral"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) have shown remarkable advancements but also raise concerns about cultural bias, often reflecting dominant narratives at the expense of underrepresented subcultures. In this study, we evaluate the capacity of LLMs to recognize and accurately respond to the Little Traditions within Indian society, encompassing localized cultural practices and social institutions such as caste, kinship, marriage, and religion."
 ethics_perspective: "Social & Cultural Values"
 CONFERENCE: "FAccT 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

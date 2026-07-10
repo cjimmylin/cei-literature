@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,18 +9,18 @@ short_title: "MTEB-NL and E5-NL: Embedding Benchmark and Models for Dutch"
 year: 2025
 first_author: "[[Nikolay Banar]]"
 last_author: "[[Walter Daelemans]]"
-authors: Nikolay Banar; Ehsan Lotfi; Jens Van Nooten; Cristina Arhiliuc; Marija Kliocaite; Walter Daelemans
+authors: "Nikolay Banar; Ehsan Lotfi; Jens Van Nooten; Cristina Arhiliuc; Marija Kliocaite; Walter Daelemans"
 url: "https://arxiv.org/abs/2509.12340"
 external_pdf: "https://arxiv.org/pdf/2509.12340.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Banar-MTEB-NL and E5-NL Embedding Benchmark and Models for Dutch.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Dutch"
-cultures_nationalities_list: "Dutch"
-languages_list: "Dutch"
-religious_values: "N/A"
+national_ethnic_cultural: Dutch
+cultures_nationalities_list: Dutch
+languages_list: Dutch
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, Mistral, Qwen"
 DATA_URL: "https://huggingface.co/collections/clips/mteb-nl-6888d7136112c731605f93ed"
 tags: 
 abstract: "Recently, embedding resources, including models, benchmarks, and datasets, have been widely released to support a variety of languages. However, the Dutch language remains underrepresented, typically comprising only a small fraction of the published multilingual resources. To address this gap and encourage the further development of Dutch embeddings, we introduce new resources for their evaluation and generation."
 authors_incomplete: false
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BE"
+author_country: BE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2506.15239.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Bengoetxea-Lost in Variation Evaluating NLI Performance in Basque and Spanish.pdf]]"
 publication: "arXiv / ACL Anthology / CoNLL 2025"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish"
+national_ethnic_cultural: Spanish
+cultures_nationalities_list: Spanish
 languages_list: "Basque, Spanish"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, Gemma-2, Llama-3, RoBERTa"
 DATA_URL: "https://huggingface.co/datasets/HiTZ/XNLIvar"
 tags: 
 abstract: "In this paper, we evaluate the capacity of current language technologies to understand Basque and Spanish language varieties. We use Natural Language Inference (NLI) as a pivot task and introduce a novel, manually-curated parallel dataset in Basque and Spanish, along with their respective variants. Our empirical analysis of crosslingual and in-context learning experiments using encoder-only and decoderbased Large Language Models (LLMs) shows a performance drop when handling linguistic..."
 CONFERENCE: "ACL 2025"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus"
 data_metrics: "Not specified"
 ---

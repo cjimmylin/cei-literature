@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,12 +15,12 @@ external_pdf: "https://arxiv.org/pdf/2505.21548.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Agarwal-Fluent but Foreign - Even Regional LLMs Lack Cultural Alignment.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Indian, American"
 cultures_nationalities_list: "Indian, American"
-languages_list: "Hindi"
-religious_values: "Hinduism"
+languages_list: Hindi
+religious_values: Hinduism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Hinduism"
+religious_values_list: Hinduism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large language models (LLMs) are used worldwide, yet exhibit Western cultural tendencies. Many countries are now building “regional” or “sovereign” LLMs, but it remains unclear whether they reflect local values and practices or merely speak local languages. Using India as a case study, we evaluate six Indic and six global LLMs on two dimensions—values and practices—grounded in nationally representative surveys and community-sourced QA datasets."
 LLM_assessed: "Mistral, Llama-2, Llama-3, Gemma, Aya, GPT-4o"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 15
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 10
 nw_indigenous_relational: 30
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark text corpus for question answering"
 data_metrics: "Not specified"
 ---

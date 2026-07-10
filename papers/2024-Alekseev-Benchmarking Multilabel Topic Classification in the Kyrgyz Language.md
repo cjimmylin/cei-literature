@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: LSRC0605
 type: conferencePaper
 short_title: "Benchmarking Multilabel Topic Classification in the Kyrgyz Language"
-year: 2024
+year: 2025
 first_author: "[[Alekseev, Anton]]"
 last_author: "[[Kabaeva, Gulnara]]"
 authors: "Alekseev, Anton; Sergey I. Nikolenko; Kabaeva, Gulnara"
@@ -54,10 +19,10 @@ CONF-CC: "Lecture notes in computer science 2024"
 pdf_extract: "PDF Extracts/2024/2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Alekseev-Benchmarking Multilabel Topic Classification in the Kyrgyz Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Kyrgyz"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Kyrgyz
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/alexeyev/kyrgyz-multi-label-topic-classification"
 tags: 
 abstract: "Kyrgyz is a very underrepresented language in terms of modern natural language processing resources. In this work, we present a new public benchmark for topic classiﬁcation in Kyrgyz, introducing a dataset based on collected and annotated data from the news site 24.KG and presenting several baseline models for news classiﬁcation in the multilabel setting. We train and evaluate both classical statistical and neural models, reporting the scores, discussing the results, and proposing directions..."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "RU"
+author_country: RU
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 42
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark annotated dataset"
 data_metrics: "Not specified"
 ---

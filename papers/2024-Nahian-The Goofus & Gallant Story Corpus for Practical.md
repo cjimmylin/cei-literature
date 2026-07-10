@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: KKKKB7L5
 type: conferencePaper
 short_title: "The Goofus & Gallant Story Corpus for Practical"
-year: 2024
+year: 2025
 first_author: "[[Md Sultan Al Nahian]]"
 last_author: "[[Brent Harrison]]"
 authors: "Md Sultan Al Nahian; Tasmia Tasrin; Spencer Frazier; Mark Riedl; Brent Harrison"
@@ -53,10 +14,10 @@ doi: 10.1109/ICMLA61862.2024.00098
 tags: 
 url: "http://arxiv.org/abs/2501.09707"
 external_pdf: "http://arxiv.org/pdf/2501.09707.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +41,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Created the Goofus & Gallant Story Corpus, a multi-modal dataset (text + artistic images) of normative and non-normative behavior derived from children's educational stories."
 significance: "Provides a simplified, culturally-grounded dataset for training agents on basic social principles by leveraging materials explicitly designed to teach values to children."
@@ -90,10 +51,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nahian-The Goofus & Gallant Story Cor
 abstract: "Values or principles are key elements of human society that influence people to behave and function according to an accepted standard set of social rules to maintain social order. As AI systems are becoming ubiquitous in human society, it is a major concern that they could violate these norms or values and potentially cause harm. Thus, to prevent intentional or unintentional harm, AI systems are expected to take actions that align with these principles."
 CONF-CC: "Machine Learning"
 DATE_ADDED: 20260208
-LLM_assessed: "BERT"
-DATA_URL: "NA"
+LLM_assessed: BERT
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GE"
+author_country: GE
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 41
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # The Goofus & Gallant Story Corpus for Practical Value Alignment

@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,10 +12,10 @@ last_author: "[[Park, Chanjun]]"
 authors: "Kim, Dahyun; Lee, Sukyung; Kim, Yungi; Rutherford, Attapol; Park, Chanjun"
 url: "https://aclanthology.org/2025.coling-main.278/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/TK8N7ILB/2025 - Cultural and Core Capability Benchmarks for Developing Thai LLMs (ThaiCLI).pdf"
-national_ethnic_cultural: "Thai"
-cultures_nationalities_list: "Thai"
-languages_list: "Thai"
-religious_values: "N/A"
+national_ethnic_cultural: Thai
+cultures_nationalities_list: Thai
+languages_list: Thai
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,18 +39,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Thai
 tags: 
 abstract: "The rapid advancement of large language models (LLMs) has highlighted the need for robust evaluation frameworks that assess their core capabilities, such as reasoning, knowledge, and commonsense, leading to the inception of certain widely-used benchmark suites such as the H6 benchmark. However, these benchmark suites are primarily built for the English language, and there exists a lack thereof for under-represented languages, in terms of LLM development, such as Thai."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, Gemini, GPT-3.5, GPT-4, Llama-3, Qwen"
 DATA_URL: "https://github.com/UpstageAI/ThaiCLI_H6"
 pdf_extract: "PDF Extracts/2025/2025-Kim-Cultural and Core Capability Benchmarks for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kim-Cultural and Core Capability Benchmarks for.pdf]]"
 CONFERENCE: "COLING 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -100,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 ---

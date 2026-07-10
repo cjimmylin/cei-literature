@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +9,7 @@ short_title: "Leveraging Large Language Models for Detecting"
 year: 2025
 first_author: "[[Arwa Almarzoqi]]"
 last_author: "[[Mohammed Alsuhaibani]]"
-authors: Almarzoqi, Arwa; Alsuhaibani, Mohammed
+authors: "Almarzoqi, Arwa; Alsuhaibani, Mohammed"
 authors_incomplete: false
 url: "https://link.springer.com/article/10.1007/s44443-025-00269-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44443-025-00269-y.pdf"
@@ -55,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Multiple Journal of King Saud Univers
 publication: "Journal of King Saud University Computer and Information Sciences"
 CONF-CC: "Journal of King Saud University Computer and Information Sciences"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 0
@@ -82,20 +45,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Introduces ELQV (Emotionally-Labeled Quran Verses), 2,100 verses annotated for four emotions (fear 32.14%, joy 28.05%, anger 23.57%, sadness 16.24%) by Arabic linguistics/Islamic law PhD experts. Evaluates LLMs' ability to comprehend emotional semantics in Classical Arabic scripture and 7 English translations. Cohen's Kappa scores range 0.29-0.35 between translations and Arabic readers."
 LLM_assessed: "BERT, ELMo, XLNet"
 DATA_URL: "https://github.com/Arwaalmrzoqi/ELQV"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IR"
-author_region: "MENA"
+author_country: IR
+author_region: MENA
 author_global_north_south: "Global South"
 weird_score: 27
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

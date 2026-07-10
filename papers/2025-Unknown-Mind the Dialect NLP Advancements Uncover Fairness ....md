@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,14 +14,14 @@ authors_incomplete: false
 url: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
 external_pdf: "https://aclanthology.org/2025.findings-emnlp.860.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Unknown-Mind the Dialect NLP Advancements Uncover Fairness ....pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/alshabae/FairArRecSys"
 tags: 
 abstract: "Recommendation systems play a critical role in shaping user experiences and access to digital content. However, these systems can exhibit unfair behavior when their performance varies across user groups, especially in linguistically diverse populations. Recent advances in NLP have enabled the identification of user dialects, allowing for more granular analysis of such disparities. In this work, we investigate fairness disparities in recommendation quality among Arabic-speaking users, a..."
 CONFERENCE: "ACL 2025"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Mind the Dialect: NLP Advancements Uncover Fairness ...

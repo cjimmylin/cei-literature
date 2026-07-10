@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: CRU8XUKJ
 type: conferencePaper
 short_title: "A Human Rights-Based Approach to Responsible AI"
-year: 2022
+year: 2025
 first_author: "[[Vinodkumar Prabhakaran]]"
 last_author: "[[Gabriel, Iason]]"
 authors: "Prabhakaran, Vinodkumar; Mitchell, Margaret; Gebru, Timnit; Gabriel, Iason"
@@ -55,10 +16,10 @@ pdf_extract: "PDF Extracts/2022/2022-Prabhakaran-A Human Rights-Based Approach t
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Prabhakaran-A Human Rights-Based Approach to Responsible AI.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2210.02667.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 0
@@ -83,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Deontology
 key_contribution: "Proposes the Universal Declaration of Human Rights (UDHR) as a globally recognized normative framework for responsible AI alignment"
 significance: "Shifts the focus from machine risks to human rights, providing a widely accepted, non-arbitrary standard for AI ethics"
@@ -91,10 +52,10 @@ tags:
 paper_summary: "Overview: arXiv:2210.02667v1 [cs.AI] 6 Oct 2022 A Human Rights-Based Approach to Responsible AI VINODKUMAR PRABHAKARAN, Google Research, USA MARGARET MITCHELL, Hugging Face, USA TIMNIT GEBRU, DAIR, USA IASON GA | Methodology: of the knowledge production. Moreover, the right applies bothto scientiﬁc knowledge itself and to the beneﬁts it creates. This right has special relev | Key Findings: in disproportionate removal of content of that religious group. In contrast, the biases around certain dialects or other linguistic features associate | Conclusions: In this paper, we have sought to show how greater attention to human rights can help ground the aspiration to build more ethical AI systems, anchored"
 abstract: "Research on fairness, accountability, transparency and ethics of AI-based interventions in society has gained much-needed momentum in recent years. However it lacks an explicit alignment with a set of normative values and principles that guide this research and interventions. Rather, an implicit consensus is often assumed to hold for the values we impart into our models - something that is at odds with the pluralistic world we live in. In this paper, we put forth the doctrine of universal human"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 25
 utilitarian_ethics: 0
@@ -108,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  A Human Rights-Based Approach to Responsible AI

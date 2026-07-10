@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +9,17 @@ short_title: "Two-Eyed Seeing and Artificial Intelligence: Enhancing Healthcare 
 year: 2025
 first_author: "[[Amal Khan]]"
 last_author: "[[Ivar Mendez]]"
-authors: Amal Khan; Victoria McKinney; Ivar Mendez
+authors: "Amal Khan; Victoria McKinney; Ivar Mendez"
 doi: 10.17269/s41997-025-01037-1
 url: "https://link.springer.com/article/10.17269/s41997-025-01037-1"
-publication: Canadian Journal of Public Health
+publication: "Canadian Journal of Public Health"
 CONF-CC: "Canadian Journal of Public Health"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Explores AI's potential to enhance healthcare for underserved rural, remote, and Indigenous communities through the Two-Eyed Seeing approach. Proposes a framework integrating AI with Indigenous knowledge systems for culturally safe and ethical healthcare implementation."
-CONFERENCE: "Journal"
-ethics_overall: 20
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 75
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Two-Eyed Seeing and Artificial Intelligence: Enhancing Healthcare Delivery in Indigenous Communities Requires an Ethical and Culturally Relevant Public Health Framework

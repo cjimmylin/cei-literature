@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: EXSR0013
 type: preprint
 short_title: RedBench
-year: 2026
+year: 2025
 first_author: "[[Quy-Anh Dang]]"
 last_author: "[[Truong-Son Hy]]"
-authors: Quy-Anh Dang; Chris Ngo; Truong-Son Hy
+authors: "Quy-Anh Dang; Chris Ngo; Truong-Son Hy"
 url: "https://arxiv.org/abs/2601.03699"
 external_pdf: "https://arxiv.org/pdf/2601.03699.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Dang-RedBench.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Dang-RedBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2026/2026-Dang-RedBench.pdf]]
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) become integral to safety-critical applications, ensuring their robustness against adversarial prompts is paramount. However, existing red teaming datasets suffer from inconsistent risk categorizations, limited domain coverage, and outdated evaluations, hindering systematic vulnerability assessments. To address these challenges, we introduce RedBench, a universal dataset aggregating 37 benchmark datasets from leading conferences and repositories, comprising..."
 LLM_assessed: "Gemma-2, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/knoveleng/redeval"
-research_topic: "Other"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+research_topic: Other
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "VN"
+author_country: VN
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 27
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety dataset"
 data_metrics: "29,362 samples"
 ---

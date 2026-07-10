@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: 6MRBJ9IP
 type: conferencePaper
 short_title: QASiNa
-year: 2023
+year: 2025
 first_author: "[[Muhammad Razif Rizqullah]]"
 last_author: "[[Alham Fikri Aji]]"
 authors: "Muhammad Razif Rizqullah; Ayu Purwarianti; Alham Fikri Aji"
@@ -53,9 +16,9 @@ url: "http://arxiv.org/abs/2310.08102"
 external_pdf: "http://arxiv.org/pdf/2310.08102.pdf"
 publication: "2023 10th International Conference on Advanced Informatics: Concept, Theory and Application (ICAICTA)"
 CONF-CC: "2023 10th International Conference on Advanced Informatics: Concept, Theory and Application (ICAICTA)"
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian"
-languages_list: "Indonesian"
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
+languages_list: Indonesian
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 50
@@ -80,17 +43,17 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Indonesian, Islam"
 pdf_extract: "PDF Extracts/2023/2023-Rizqullah-QASiNa.md"
 paper_summary: "Overview: QASiNa: Religious Domain Question Answering using Sirah Nabawiyah Muhammad Razif Rizqullah1, Ayu Purwarianti1, Alham Fikri Aji2 1School of Electrical Engineering and Informatics Bandung Institute of T | Methodology: revolves around obtaining answers using predefined patterns. Extractive method has been conducted in several studies [21] [13]. The extractive method  | Key Findings: We evaluate the dataset using the transfer learning approach with mBERT, XLM-R, and IndoBERT with also test the Chat GPT-3.5 and GPT-4. The evaluation | Conclusions: drawn from this evaluation was that the EM and F1-scores of Chat GPT are lower compared to XLM-R, on the other side Chat GPT has high Substring Match"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Rizqullah-QASiNa.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Rizqullah-QASiNa.pdf]]
 abstract: "Nowadays, Question Answering (QA) tasks receive significant research focus, particularly with the development of Large Language Model (LLM) such as Chat GPT [1]. LLM can be applied to various domains, but it contradicts the principles of information transmission when applied to the Islamic domain. In Islam we strictly regulates the sources of information and who can give interpretations or tafseer for that sources [2]."
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/rizquuula/QASiNa"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 15
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ID"
+author_country: ID
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "Not specified"
 ---

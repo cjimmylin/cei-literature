@@ -6,17 +6,17 @@ Not AI:
 key: RTSV27JH
 type: preprint
 short_title: ValueDCG
-year: 2024
+year: 2025
 first_author: "[[Zhaowei Zhang]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Zhaowei Zhang; Fengshuo Bai; Jun Gao; Yaodong Yang"
 doi: 10.48550/arXiv.2310.00378
 url: "http://arxiv.org/abs/2310.00378"
 external_pdf: "http://arxiv.org/pdf/2310.00378.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 50
 mp_trolley: 0
@@ -48,13 +48,13 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Zhang-ValueDCG.md"
 abstract: "Personal values are a crucial factor behind human decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure they accurately understand human values to ensure their safety. However, evaluating their grasp of these values is complex due to the value’s intricate and adaptable nature. We argue that truly understanding values in LLMs requires considering both “know what” and “know why”."
 paper_summary: "Abstract: Personal values are a crucial factor behind hu- man decision-making. Considering that Large Language Models (LLMs) have been shown to impact human decisions significantly, it is essential to make sure | Overview: ValueDCG: Measuring Comprehensive Human Value Understanding Ability of Language Models Zhaowei Zhang1,2, Fengshuo Bai1,2*, Jun Gao3, Yaodong Yang1, 1Institute for Artificial Intelligence, Peking Unive | Methodology: Our method proposes a measurement ValueDCG with an engineering implementation framework that can effectively quantify the DCG (Saunders et al., 2022)  | Key Findings: framework quantifies both 'know what' and 'know why' and computes ValueDCG based on their dis- crepancy. For the input requirements, we input the data"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-ValueDCG.pdf]]"
-CONF-CC: "Preprint"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-ValueDCG.pdf]]
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Llama-2, Llama-3"
 DATA_URL: "https://github.com/zowiezhang/ValueDCG"
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -68,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

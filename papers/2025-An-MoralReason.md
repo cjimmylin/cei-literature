@@ -13,12 +13,12 @@ authors: "An, Zhiyu; Du, Wan"
 doi: 10.48550/arXiv.2511.12271
 url: "https://arxiv.org/abs/2511.12271"
 pdf_extract: "PDF Extracts/2025/2025-An-MoralReason.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-An-MoralReason.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-An-MoralReason.pdf]]
 external_pdf: "https://arxiv.org/pdf/2511.12271.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -48,13 +48,13 @@ key_contribution: "Proposes 'MoralReason', a framework using reasoning-level rei
 significance: "Demonstrates that LLMs can be trained to internalize and generalize consistent moral reasoning to out-of-distribution scenarios, enhancing AI safety"
 abstract: "Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral decisions. We formulate this as an out-of-distribution moral alignment problem, where LLM agents must learn to apply consistent moral reasoning frameworks to scenarios beyond their training distribution. We introduce Moral-ReasonQA, a novel dataset extending 680 human-annotated, highambiguity moral scenarios with..."
 paper_summary: "Abstract: Large language models are increasingly influencing human moral decisions, yet current approaches focus primarily on evaluating rather than actively steering their moral deci- sions. We formulate this  | Overview: MoralReason: Generalizable Moral Decision Alignment For LLM Agents Using Reasoning-Level Reinforcement Learning Zhiyu An, Wan Du University of California, Merced {zan7, wdu3}@ucmerced.edu Warning: Thi"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: Qwen
 DATA_URL: "https://huggingface.co/datasets/zankjhk/Moral-Reason-QA"
 normative_ethics_benchmark: Yes
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 60
@@ -67,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework annotated dataset for question answering"
 data_metrics: "Not specified"
 ---

@@ -7,16 +7,16 @@ first_author: "[[Multi-faith coalition]]"
 authors: "Multi-faith coalition (Church of Jesus Christ et al.)"
 url: "https://newsroom.churchofjesuschrist.org/article/faith--ethics--and-human-dignity-in-an-age-of-artificial-intelligence--a-call-to-action"
 abstract: "Multi-faith, multi-university AI auditing tool. 7 evaluation categories. Faith Community AI Evaluation (FACE) tool. 2026 Vatican conference planned. Pluralistic religious AI benchmarking initiative -- the closest thing to a religious values AI benchmark."
-external_pdf: ""
-DOI: ""
-ethics_overall: 60
+external_pdf: 
+DOI: 
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 care_ethics: 0
 contractarian_ethics: 0
 ethics_perspective: "Responsible AI"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
+national_ethnic_cultural: Multicultural/Cross-cultural
 religious_values: "Multiple Religions"
 rv_islam: 60
 rv_christianity: 60
@@ -45,12 +45,12 @@ mp_maqasid: 0
 mp_confucian: 0
 mp_ubuntu: 0
 moral_psychology: N/A
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-LLM_assessed: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+LLM_assessed: No
 newtags: "moral-psychology, external-search-v2, religious-values, multi-faith, benchmark"
-source: "moral-psych-external-search-v2"
+source: moral-psych-external-search-v2
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0

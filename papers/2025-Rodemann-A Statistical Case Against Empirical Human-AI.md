@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,10 +14,10 @@ doi: 10.48550/arXiv.2502.14581
 url: "http://arxiv.org/abs/2502.14581"
 external_pdf: "http://arxiv.org/pdf/2502.14581.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Argues against 'naive empirical alignment' (mimicking observed human behavior), demonstrating that it introduces statistical biases and lacks normative grounding."
 significance: "Advocates for 'prescriptive alignment' or 'a posteriori empirical alignment' to avoid encoding the statistical flaws of human data into AI systems, emphasizing a more rigorous statistical foundation for alignment."
@@ -95,25 +57,25 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Rodemann-A Statistical Case Against Empirical Human-AI.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "GPT-2"
-DATA_URL: "NA"
+LLM_assessed: GPT-2
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ethics_perspective: "AI Safety & Alignment"
 ---

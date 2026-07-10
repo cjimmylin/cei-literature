@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: 6UUE3JZM
 type: conferencePaper
 short_title: "Are the Values of LLMs Structurally Aligned with"
-year: 2024
+year: 2025
 first_author: "[[Yipeng Kang]]"
 last_author: "[[Zilong Zheng]]"
 authors: "Yipeng Kang; Junqi Wang; Yexin Li; Mengmeng Wang; Wenming Tu; Quansen Wang; Hengli Li; Tingjun Wu; Xue Feng; Fangwei Zhong; Zilong Zheng"
@@ -52,10 +15,10 @@ url: "http://arxiv.org/abs/2501.00581"
 external_pdf: "http://arxiv.org/pdf/2501.00581.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Argued that the 'latent causal value graph' of LLMs differs from human value systems and proposed Causal Role-Based Prompting and SAE steering to align this structure."
 significance: "Shifts alignment from surface-level behavioral matching to 'structural alignment', ensuring models reason about values with the same causal mechanics as humans."
@@ -92,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Gemma, Llama-3"
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective

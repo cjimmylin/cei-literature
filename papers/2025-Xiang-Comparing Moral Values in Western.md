@@ -16,10 +16,10 @@ url: "http://arxiv.org/abs/2505.19674"
 external_pdf: "http://arxiv.org/pdf/2505.19674.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2025"
-national_ethnic_cultural: "Western"
-cultures_nationalities_list: "Western"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: Western
+cultures_nationalities_list: Western
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -34,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: Llama-3
 DATA_URL: "https://github.com/ChunhuaLiu596/Word_Association_Generation"
 CONFERENCE: "ACL 2025"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

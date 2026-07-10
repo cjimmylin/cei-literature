@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,22 +6,22 @@ Not AI:
 key: EXSR0301
 type: preprint
 short_title: "Afri-MCQA Multimodal Cultural Question Answering for"
-year: 2026
+year: 2025
 first_author: "[[Atnafu Lambebo Tonja]]"
 last_author: "[[Thamar Solorio]]"
-authors: Atnafu Lambebo Tonja; Srija Anand; Emilio Villa-Cueva; Israel Abebe Azime; Jesujoba Oluwadara Alabi; Muhidin A. Mohamed; Debela Desalegn Yadeta; Negasi Haile Abadi; Abigail Oppong; Nnaemeka Casmir Obiefuna; Idris Abdulmumin; Naome A Etori; Eric Peter Wairagala; Kanda Patrick Tshinu; Imanigirimbabazi Emmanuel; Gabofetswe Malema; Alham Fikri Aji; David Ifeoluwa Adelani; Thamar Solorio
+authors: "Atnafu Lambebo Tonja; Srija Anand; Emilio Villa-Cueva; Israel Abebe Azime; Jesujoba Oluwadara Alabi; Muhidin A. Mohamed; Debela Desalegn Yadeta; Negasi Haile Abadi; Abigail Oppong; Nnaemeka Casmir Obiefuna; Idris Abdulmumin; Naome A Etori; Eric Peter Wairagala; Kanda Patrick Tshinu; Imanigirimbabazi Emmanuel; Gabofetswe Malema; Alham Fikri Aji; David Ifeoluwa Adelani; Thamar Solorio"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.05699"
 external_pdf: "https://arxiv.org/pdf/2601.05699.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Solorio-Afri-MCQA Multimodal Cultural Question Answering for.pdf]]"
 publication: "WebSearch: Afri-MCQA multimodal cultural question answering"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Africa is home to over one-third of the world’s languages, yet remains underrepresented in AI research. We introduce Afri-MCQA, the first Multilingual Cultural Question-Answering benchmark covering 7.5k Q&A pairs across 15 African languages from 12 countries. The benchmark offers parallel English-African language Q&A pairs across text and speech modalities and was entirely created by native speakers."
 LLM_assessed: "Gemini, Gemma, Qwen-2"
 DATA_URL: "https://huggingface.co/datasets/Atnafu/Afri-MCQA"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IL"
-author_region: "MENA"
+author_country: IL
+author_region: MENA
 author_global_north_south: "Global North"
 weird_score: 57
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "Not specified"
 ---

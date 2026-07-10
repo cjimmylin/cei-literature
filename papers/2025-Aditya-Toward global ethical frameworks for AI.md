@@ -1,36 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,15 +7,15 @@ key: AUTO_ADITYA2025
 type: journalArticle
 short_title: "Toward global ethical frameworks for AI"
 year: 2025
-first_author: "[[Aditya]]"
-last_author: "[[Shivam]]"
-authors: Aditya; Shivam
+first_author: [[Aditya]]
+last_author: [[Shivam]]
+authors: "Aditya; Shivam"
 doi: 10.5281/zenodo.XXXXX
 url: "https://wjaets.com/content/toward-global-ethical-frameworks-ai-aligning-artificial-intelligence-human-values-and"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -62,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -76,14 +44,14 @@ newtags: "Value Pluralism / Schwartz, Virtue Ethics, Utilitarianism"
 key_contribution: "Advocates for Virtue Ethics as a complement to deontological and utilitarian frameworks for AI alignment to address global governance challenges"
 significance: "Addresses the gap in global ethical frameworks by emphasizing human welfare and flourishing through character-based AI alignment"
 abstract: "This article examines the critical challenge of establishing ethical governance frameworks for artificial intelligence systems as they increasingly influence decision-making across social, economic, and political domains. The article analyzes the multidimensional nature of AI alignment, exploring both technical dimensions—including explainability challenges, value alignment algorithms, and safety mechanisms—and sociocultural dimensions encompassing cultural variations in ethical priorities and..."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aditya-Toward global ethical frameworks for AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aditya-Toward global ethical frameworks for AI.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -97,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Toward global ethical frameworks for AI: Aligning Artificial Intelligence with human values and progress

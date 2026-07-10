@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2406.15513"
 external_pdf: "https://arxiv.org/pdf/2406.15513.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ji-PKU-SafeRLHF.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Ji-PKU-SafeRLHF.pdf]]
 publication: "ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 5
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "In this study, we introduce the safety human preference dataset, PKU-SAFERLHF, designed to promote research on safety alignment in large language models (LLMs). As a sibling project to SafeRLHF and BEAVERTAILS, we separate annotations of helpfulness and harmlessness for question-answering pairs, providing distinct perspectives on these coupled attributes. Overall, we provide 44.6k refined prompts and 265k question-answer pairs with safety meta-labels for 19 harm categories and three severity..."
 LLM_assessed: "Alpaca, Llama-2, Llama-3"
 DATA_URL: "https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF"
-research_topic: "Other"
+research_topic: Other
 CONFERENCE: "ACL 2025"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "265k question"
 ---
 # PKU-SafeRLHF

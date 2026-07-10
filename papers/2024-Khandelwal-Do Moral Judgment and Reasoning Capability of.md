@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: UXYJSN98
 type: conferencePaper
 short_title: "Do Moral Judgment and Reasoning Capability of"
-year: 2024
+year: 2025
 first_author: "[[Aditi Khandelwal]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury"
@@ -92,9 +53,9 @@ paper_summary: "Abstract: This paper explores the moral judgment and moral reaso
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Khandelwal-Do Moral Judgment and Reasoning Capability of.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "EACL 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 30
 deontological_ethics: 5
 utilitarian_ethics: 15
@@ -108,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 82
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Do Moral Judgment and Reasoning Capability of LLMs Change with Language? A Study using the Multilingual Defining Issues Test

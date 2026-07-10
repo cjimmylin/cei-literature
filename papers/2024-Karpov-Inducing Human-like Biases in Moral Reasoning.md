@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: ID6PYJ9M
 type: conferencePaper
 short_title: "Inducing Human-like Biases in Moral Reasoning"
-year: 2024
+year: 2025
 first_author: "[[Artem Karpov]]"
 last_author: "[[Bogdan-Ionut Cirstea]]"
 authors: "Artem Karpov; Seong Hah Cho; Austin Meek; Raymond Koopmanschap; Lucy Farnik; Bogdan-Ionut Cirstea"
@@ -54,11 +14,11 @@ doi: 10.48550/arXiv.2411.15386
 url: "http://arxiv.org/abs/2411.15386"
 external_pdf: "http://arxiv.org/pdf/2411.15386.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -73,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Moral Reasoning & Psychology"
 key_contribution: "Fine-tuned LLMs on human behavioral (ETHICS) and fMRI brain data to see if models become more 'human-like' in moral reasoning. Result: Accuracy improved, but 'BrainScore' (alignment with fMRI signals) did not."
 significance: "A fascinating negative result suggesting that behavioral alignment (outputting the right answer) does not imply mechanistic alignment (thinking like a human brain)."
@@ -95,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa"
 DATA_URL: "https://github.com/ajmeek/Inducing-human-like-biases-in-moral-reasoning-LLMs"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

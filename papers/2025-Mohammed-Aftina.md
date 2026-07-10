@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,10 +13,10 @@ authors: "Ahmed Mohammed"
 doi: 10.1007/s00521-025-11229-y
 url: "https://neuralcomputingjournals.com/aftina-fatwaqa"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s00521-025-11229-y.pdf"
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,18 +40,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 
 abstract: "Question–answering (QA) systems face considerable challenges when involved in Islamic fatwas due to the complexity and sensitivity of the data. Such problems involve providing accurate and reliable responses, managing hallucinations and inaccurate responses, and maintaining the stability of the generated responses. Prior studies have concentrated mainly on collecting and preprocessing Islamic datasets or developing retrieval-based QA systems, overlooking the precision and reliability required fo"
 LLM_assessed: "Gemini, Gemma"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Mohammed-Aftina.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammed-Aftina.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Mohammed-Aftina.pdf]]
 CONF-CC: "Neural Computing and Applications"
 DATE_ADDED: 20260207
-CONFERENCE: "Journal"
-ethics_overall: 45
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for hallucination detection dataset for question answering"
 data_metrics: "Not specified"
 ---

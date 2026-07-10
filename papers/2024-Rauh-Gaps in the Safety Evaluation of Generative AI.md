@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: EXSR0177
 type: conferencePaper
 short_title: "Gaps in the Safety Evaluation of Generative AI"
-year: 2024
+year: 2025
 first_author: "[[Maribeth Rauh]]"
 last_author: "[[Laura Weidinger]]"
 authors: "Maribeth Rauh; Nahema Marchal; Arianna Manzini; Lisa Anne Hendricks; Ramona Comanescu; Canfer Akbulut; Tom Stepleton; Juan Mateos-Garcia; Stevie Bergman; Jackie Kay; Conor Griffin; Ben Bariach; Iason Gabriel; Verena Rieser; William Isaac; Laura Weidinger"
@@ -53,11 +16,11 @@ external_pdf: "https://ojs.aaai.org/index.php/AIES/article/download/31717/33884"
 pdf_extract: "PDF Extracts/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rauh-Gaps in the Safety Evaluation of Generative AI.pdf]]"
 publication: Unknown
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Generative AI systems produce a range of ethical and social risks. Evaluation of these risks is a critical step on the path to ensuring the safety of these systems. However, evaluation requires the availability of validated and established measurement approaches and tools. In this paper, we provide an empirical review of the methods and tools that are available for evaluating known safety of generative AI systems to date."
 LLM_assessed: NA
 DATA_URL: "https://dpmd.ai/EvalsRepo"
 CONFERENCE: "AIES 2024"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

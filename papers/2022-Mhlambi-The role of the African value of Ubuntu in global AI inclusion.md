@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,20 +6,20 @@ Not AI:
 key: LSRC0090
 type: conferencePaper
 short_title: "The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective"
-year: 2022
+year: 2025
 first_author: "[[Sabelo Mhlambi]]"
 last_author: "[[Sabelo Mhlambi]]"
 authors: "Sabelo Mhlambi"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9023883/"
 external_pdf: "https://repository.up.ac.za/bitstream/handle/2263/57703/Saloojee_Social_2011.pdf?sequence=1"
 publication: "WebSearch: Ubuntu ethics AI African values benchmark"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Mhlambi-The role of the African value of Ubuntu in global AI inclusion.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "The article concerns research in the normative social science and is aimed at making a contentious argument that the conceptual frameworks which underpinned much of the literature and research on social exclusion are rooted in European and Anglo Saxon traditions. As such they ignore the contributions made by people of Africa, Asia and Latin America. The discourse regarding social exclusion and social inclusion could therefore not be only with a Western perspective, but should note that the..."
 CONFERENCE: "Other Conference"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -103,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The role of the African value of Ubuntu in global AI inclusion discourse: A normative ethics perspective

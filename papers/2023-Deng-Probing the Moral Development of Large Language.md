@@ -6,18 +6,18 @@ Not AI:
 key: 8WMUQJPS
 type: conferencePaper
 short_title: "Probing the Moral Development of Large Language"
-year: 2023
+year: 2025
 first_author: "[[Kumar Tanmay]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Kumar Tanmay; Aditi Khandelwal; Utkarsh Agarwal; Monojit Choudhury"
 url: "https://arxiv.org/abs/2309.13356"
 external_pdf: "https://arxiv.org/pdf/2309.13356.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -32,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 50
 mp_trolley: 0
@@ -51,10 +51,10 @@ abstract: "In this study, we measure the moral reasoning ability of LLMs using t
 paper_summary: "Abstract: In this study, we measure the moral reasoning ability of LLMs using the Defining Issues Test [1]- a psychometric instrument developed for measuring the moral development stage of a person according to | Overview: Probing the Moral Development of Large Language Models through Defining Issues Test Kumar Tanmay∗ Microsoft t-ktanmay@microsoft.com Aditi Khandelwal∗ Microsoft t-aditikh@microsoft.com Utkarsh Agarwal∗ | Methodology: In this section, we describe our experimental setup, the datasets, LLMs tested, prompt structure and metrics. We present the LLMs with a prompt that c | Key Findings: of chatgpt on reasoning, hallucination, and interactivity. arXiv preprint arXiv:2302.04023, 2023. [10] Yue Zhang, Yafu Li, Leyang Cui, Deng Cai, Lemao | Conclusions: In this study, we propose an effective evaluation framework to measure the ethical reasoning capability of LLMs based on Kohlberg's Cognitive Moral De"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Deng-Probing the Moral Development of Large Language.pdf]]"
 LLM_assessed: "ChatGPT, GPT-3, GPT-3.5, GPT-4, Llama-2, PaLM"
-DATA_URL: "NA"
+DATA_URL: NA
 DATE_ADDED: 20260207
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 95
 deontological_ethics: 15
 utilitarian_ethics: 10
@@ -68,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

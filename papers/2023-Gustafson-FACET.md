@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,17 +6,17 @@ Not AI:
 key: 2R29RMNC
 type: conferencePaper
 short_title: FACET
-year: 2023
+year: 2025
 first_author: "[[Laura Gustafson]]"
 last_author: "[[Candace Ross]]"
 authors: "Laura Gustafson; Chloe Rolland; Nikhila Ravi; Quentin Duval; Aaron Adcock; Cheng-Yang Fu; Melissa Hall; Candace Ross"
 doi: 10.1109/ICCV51070.2023.01863
 url: "https://ieeexplore.ieee.org/document/10377223/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/RS2ZQBS3/Gustafson et al. - 2023 - FACET Fairness in Computer Vision Evaluation Benchmark.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Released FACET (Fairness in Computer Vision Evaluation), a benchmark of 32k images with expert-annotated person-related attributes (skin tone, hair type) to measure CV model fairness."
 significance: "Enables granular analysis of performance disparities in vision tasks (classification, detection) across intersectional demographics, revealing significant biases in state-of-the-art models."
@@ -90,9 +51,9 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://facet.metademolab.com"
 pdf_extract: "PDF Extracts/2023/2023-Gustafson-FACET.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Gustafson-FACET.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Gustafson-FACET.pdf]]
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

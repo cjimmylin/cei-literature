@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: 3HZFJKID
 type: conferencePaper
 short_title: TrustAgent
-year: 2024
+year: 2025
 first_author: "[[Wenyue Hua]]"
 last_author: "[[Yongfeng Zhang]]"
 authors: "Wenyue Hua; Xianjun Yang; Mingyu Jin; Zelong Li; Wei Cheng; Ruixiang Tang; Yongfeng Zhang"
@@ -52,10 +15,10 @@ url: "http://arxiv.org/abs/2402.01586"
 external_pdf: "http://arxiv.org/pdf/2402.01586.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed 'TrustAgent', a framework injecting safety at three stages (pre-planning, in-planning, post-planning) for LLM Agents."
 significance: "Adapt safety rails for *Agents* (which take actions) rather than just *Chatbots* (which generate text), a crucial distinction as AI moves to execution."
@@ -87,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Hua-TrustAgent.md"
 abstract: "The rise of LLM-based agents shows great potential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, ensuring their reliability and safety is crucial. This paper presents an Agent-Constitutionbased agent framework, TrustAgent, with a particular focus on improving the LLM-based agent safety. The proposed framework ensures strict adherence to the Agent Constitution through three strategic components: preplanning..."
 paper_summary: "Abstract: The rise of LLM-based agents shows great po- tential to revolutionize task planning, capturing significant attention. Given that these agents will be integrated into high-stake domains, en- suring the | Overview: TrustAgent: Towards Safe and Trustworthy LLM-based Agents Wenyue Hua1 Xianjun Yang2 Mingyu Jin1 Zelong Li1 Wei Cheng3 Ruixiang Tang1 Yongfeng Zhang1 1Department of Computer Science, Rutgers University | Key Findings: Agent Consititution Pre-planning Learning Post-planning Learning In-planning Prompting Constitution Post-planning Learning Pre-planning Learning Actio"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hua-TrustAgent.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Hua-TrustAgent.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4, Mixtral"
 DATA_URL: "https://github.com/agiresearch/TrustAgent"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -106,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # TrustAgent: Towards Safe and Trustworthy LLM-based Agents

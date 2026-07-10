@@ -1,49 +1,11 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: 8HB8V7WZ
 type: journalArticle
-year: 2024
+year: 2025
 short_title: "A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI"
 first_author: "[[Cole Salvador]]"
 last_author: "[[Cole Salvador]]"
@@ -51,10 +13,10 @@ authors: "Cole Salvador"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/C6JW9ET2/Salvador - A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Salvador-A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,19 +40,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposes an 'approval regulation' schematic for frontier AI, similar to the FDA/FAA, featuring major approval gates before large-scale training and before deployment."
 significance: "Provides a concrete policy framework for regulating high-risk AI models, shifting from voluntary commitments to a mandatory, experiment-based approval process to prevent unsafe deployments."
 tags: 
 abstract: "Recent and unremitting capability advances have been accompanied by calls for comprehensive, rather than patchwork, regulation of frontier artificial intelligence (AI). Approval regulation is emerging as a promising candidate. An approval regulation scheme is one in which a firm cannot legally market, or in some cases develop, a product without explicit approval from a regulator on the basis of experiments performed upon the product that demonstrate its safety. This approach is used successfully by the FDA and FAA. Further, its application to frontier AI has been publicly supported by many prominent stakeholders. This report proposes an approval regulation schematic for only the largest AI projects in which scrutiny begins before training and continues through to post-deployment monitoring. The centerpieces of the schematic are two major approval gates, the first requiring approval for large-scale training and the second for deployment. Five main challenges make implementation difficult: noncompliance through unsanctioned deployment, specification of deployment readiness requirements, reliable model experimentation, filtering out safe models before the process, and minimizing regulatory overhead. This report makes a number of crucial recommendations to increase the feasibility of approval regulation, some of which must be followed urgently if such a regime is to succeed in the near future. Further recommendations, produced by this report's analysis, may improve the effectiveness of any regulatory regime for frontier AI."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260129
 LLM_assessed: NA
 DATA_URL: NA
-research_topic: "Other"
-CONFERENCE: "Journal"
-ethics_overall: 0
+research_topic: Other
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # A SCHEMATIC FOR APPROVAL REGULATION OF FRONTIER AI

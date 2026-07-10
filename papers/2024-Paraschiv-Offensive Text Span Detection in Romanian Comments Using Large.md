@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,15 +6,15 @@ Not AI:
 key: LSRC0524
 type: conferencePaper
 short_title: "Offensive Text Span Detection in Romanian Comments Using Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Andrei Paraschiv]]"
 last_author: "[[Mihai Dascalu]]"
-authors: Andrei Paraschiv; Teodora Andreea Ion; Mihai Dascalu
+authors: "Andrei Paraschiv; Teodora Andreea Ion; Mihai Dascalu"
 doi: 10.3390/info15010008
 url: "https://www.mdpi.com/2078-2489/15/1/8"
 external_pdf: "https://doi.org/10.3390/info15010008"
 publication: "MDPI Information"
-CONF-CC: "Information"
+CONF-CC: Information
 pdf_extract: 
 local_pdf: N/A
 pdf_access_status: manual_only
@@ -59,10 +23,10 @@ pdf_access_error: "http_403 (HTTP 403)"
 pdf_access_url: "https://doi.org/10.3390/info15010008"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Romanian"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Romanian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -77,7 +41,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,15 +50,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, GPT-3.5, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Comprehensive investigation into detecting offensive text spans in Romanian using Transformer encoders and LLMs. Introduces 4,800 Romanian comments annotated with offensive text spans. BERT models show superior performance; few-shot LLM strategies also evaluated."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +72,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

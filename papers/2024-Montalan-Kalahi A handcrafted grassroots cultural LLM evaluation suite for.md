@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: LSRC0109
 type: preprint
 short_title: "Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino"
-year: 2024
+year: 2025
 first_author: "[[Montalan, Jann Railey]]"
 last_author: "[[Tjhi, William Chandra]]"
 authors: "Montalan, Jann Railey; Ngui, Jian Gang; Leong, Wei Qi; Susanto, Yosephine; Rengarajan, Hamsawardhini; Aji, Alham Fikri; Tjhi, William Chandra"
@@ -52,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2409.15380.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Montalan-Kalahi A handcrafted grassroots cultural LLM evaluation suite for.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Filipino"
-cultures_nationalities_list: "Filipino"
-languages_list: "Filipino"
-religious_values: "N/A"
+national_ethnic_cultural: Filipino
+cultures_nationalities_list: Filipino
+languages_list: Filipino
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Aya, Qwen-2, Falcon, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/aisingapore/kalahi"
 tags: 
 abstract: "Multilingual large language models (LLMs) today may not necessarily provide culturally appropriate and relevant responses to its Filipino users. We introduce KALAHI, a cultural LLM evaluation suite that is part of SEA-HELM. It was collaboratively created by native Filipino speakers, and is composed of 150 high-quality, handcrafted and nuanced prompts that test LLMs for generations that are relevant to shared Filipino cultural knowledge and values."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SG"
+author_country: SG
 author_region: "Southeast Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 57
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Kalahi: A handcrafted, grassroots cultural LLM evaluation suite for Filipino

@@ -6,7 +6,7 @@ Not AI:
 key: QSRJKWRD
 type: conferencePaper
 short_title: "Beyond Human Norms"
-year: 2024
+year: 2025
 first_author: "[[Pablo Biedma]]"
 last_author: "[[Xie, Xing]]"
 authors: "Biedma, Pablo; Yi, Xiaoyuan; Huang, Linus; Sun, Maosong; Xie, Xing"
@@ -16,11 +16,11 @@ pdf_extract: "PDF Extracts/2024/2024-Biedma-Beyond Human Norms.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Biedma-Beyond Human Norms.pdf]]"
 external_pdf: "http://arxiv.org/pdf/2404.12744.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 75
 mp_schwartz: 50
 mp_trolley: 0
@@ -53,9 +53,9 @@ abstract: "Recent advancements in Large Language Models (LLMs) have revolution- 
 paper_summary: "Abstract: Recent advancements in Large Language Models (LLMs) have revolution- ized the AI field but also pose potential safety and ethical risks. Deciphering LLMs' embedded values becomes crucial for assessing | Overview: Pre-print Beyond Human Norms: Unveiling Unique Values of Large Language Models through Interdisciplinary Approaches Pablo Biedma♢, Xiaoyuan Yi§∗, Linus Huang‡, Maosong Sun♢∗, Xing Xie§ § Microsoft Res | Methodology: for eliciting beliefs encoded in LLMs and studies different beliefs encoded in diverse LLMs. Simmons (2022a) further utilizes MFQ to analyze LLMs' pol | Key Findings: Input: p, Θ, S, V = {v1, v2, . . . , vK} Output: w = (w1, . . . , wK) 1: Y = ∅ 2: for each s ∈S do 3: for each θ ∈Θ do 4: Y = Y S{ym}M m=1, ym ∼p(y|s,"
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-3, GPT-4, Llama-2, Mistral, Gemma, Baichuan, Tulu-2, GLM-3, GLM-4, Gemini"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 90
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

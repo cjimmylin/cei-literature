@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +6,7 @@ Not AI:
 key: LSRC0162
 type: preprint
 short_title: "Dialectal Toxicity Detection: Evaluating LLM-as-a-Judge Consistency Across Language Varieties"
-year: 2024
+year: 2025
 first_author: "[[Faisal, Fahim]]"
 last_author: "[[Anastasopoulos, Antonios]]"
 authors: "Faisal, Fahim; Rahman, Md Mushfiqur; Anastasopoulos, Antonios"
@@ -57,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2411.10954.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Faisal-Dialectal Toxicity Detection Evaluating LLM-as-a-Judge Consistency.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,20 +45,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Aya-23, Mistral-NeMo, Phi-3"
 DATA_URL: "https://github.com/ffaisal93/dialect_toxicity_llm_judge"
 tags: 
 abstract: "There has been little systematic study on how dialectal differences affect toxicity detection by modern LLMs. Furthermore, although using LLMs as evaluators ('LLM-as-a-judge') is a growing research area, their sensitivity to dialectal nuances is still underexplored and requires more focused attention. In this paper, we address these gaps through a comprehensive toxicity evaluation of LLMs across diverse dialects."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 ethics_perspective: "Toxicity & Hate Speech"
 nw_confucian: 0
 nw_ubuntu: 0
@@ -108,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GR"
+author_country: GR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

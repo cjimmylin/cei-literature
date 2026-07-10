@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,10 +12,10 @@ last_author: "[[Alexandra Dolidze]]"
 authors: "Maria Molchanova; Anna Mikhailova; Anna Korzanova; Lidiia Ostyakova; Alexandra Dolidze"
 url: "https://arxiv.org/abs/2502.08265"
 external_pdf: "https://arxiv.org/pdf/2502.08265.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Evaluated LLMs on their ability to simulate Big Five personality traits, providing a dataset of generated texts aligned with specific traits."
 significance: "Shows that 'acting' a personality is still challenging for models, which tend to revert to a 'helpful assistant' persona unless heavily steered."
@@ -87,12 +49,12 @@ pdf_extract: "PDF Extracts/2025/2025-Molchanova-Exploring the Potential of Large
 abstract: "With the advancement of large language models (LLMs), the focus in Conversational AI has shifted from merely generating coherent and relevant responses to tackling more complex challenges, such as personalizing dialogue systems. In an effort to enhance user engagement, chatbots are often designed to mimic human behaviour, responding within a defined emotional spectrum and aligning to a set of values."
 paper_summary: "Abstract: With the advancement of large language mod- els (LLMs), the focus in Conversational AI has shifted from merely generating coherent and relevant responses to tackling more complex challenges, such as p | Overview: Exploring the Potential of Large Language Models to Simulate Personality Maria Molchanova* MIPT, Russia molchanova.ma.63@gmail.com Anna Mikhailova* MIPT, Russia anna.micj@gmail.com Anna Korzanova MIPT | Methodology: to evaluate one's personality traits due to its reliabil- ity and practicality (John et al., 2008). Compared to MBTI personality measurement, the Big  | Key Findings: From the LLM-generated data, there were selected about 288 text samples for human annotation in total. The amount of texts is equally distributed acro | Conclusions: Leveraging both questionnaire answering and text generation for testing LLM personality simulation skills gives a complex picture how LLM can answer c"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Molchanova-Exploring the Potential of Large Language Models.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, GPT-3.5, GPT-4o, Mixtral"
 DATA_URL: "https://github.com/mary-silence/simulating_"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "RU"
+author_country: RU
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 42
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset for conversational ai"
 data_metrics: "Not specified"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,22 +6,22 @@ Not AI:
 key: LSRC0016
 type: preprint
 short_title: "Offensive Hebrew Corpus and Detection using BERT"
-year: 2023
+year: 2025
 first_author: "[[Nagham Hamad]]"
 last_author: "[[Nadim Nashif]]"
-authors: Nagham Hamad; Mustafa Jarrar; Mohammed Khalilia; Nadim Nashif
+authors: "Nagham Hamad; Mustafa Jarrar; Mohammed Khalilia; Nadim Nashif"
 doi: 10.1109/ICSEE61636.2024.10479258
 url: "https://arxiv.org/abs/2309.02724"
 external_pdf: "https://arxiv.org/pdf/2309.02724.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hamad-Offensive Hebrew Corpus and Detection using BERT.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "Judaism"
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: Judaism
 rv_islam: 5
 rv_christianity: 5
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Judaism"
+religious_values_list: Judaism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/SinaLab/OffensiveHebrew"
 tags: 
 abstract: "Offensive language detection has been well studied in many languages, but it is lagging behind in low-resource languages, such as Hebrew. In this paper, we present a new offensive language corpus in Hebrew. A total of 15,881 tweets were retrieved from Twitter. Each was labeled with one or more of five classes (abusive, hate, violence, pornographic, or none offensive) by Arabic-Hebrew bilingual speakers."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PS"
-author_region: "MENA"
+author_country: PS
+author_region: MENA
 author_global_north_south: "Global South"
 weird_score: 34
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus"
 data_metrics: "Not specified"
 ---

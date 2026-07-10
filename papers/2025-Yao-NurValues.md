@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,11 +15,11 @@ tags:
 url: "http://arxiv.org/abs/2505.08734"
 external_pdf: "http://arxiv.org/pdf/2505.08734.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,19 +43,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Applied Ethics"
 key_contribution: "Created NurValues, a benchmark for *nursing* value alignment with 1,100 clinical cases annotated for specialized values (Altruism, Dignity, Justice)."
 significance: "Shows that general 'medical LLMs' often fail on professional ethics (e.g., patient dignity), underscoring the need for domain-specific value alignment beyond generic 'helpfulness'."
 pdf_extract: "PDF Extracts/2025/2025-Yao-NurValues.md"
 abstract: "This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice, and Professionalism. The benchmark comprises 1,100 real-world nursing behavior instances collected through a five-month longitudinal field study across three hospitals of varying tiers. These instances are annotated by five clinical nurses and then augmented with LLM-generated counterfactuals with..."
 paper_summary: "Abstract: This work introduces the first benchmark for nursing value alignment, consisting of five core value dimensions distilled from international nursing codes: Altruism, Human Dignity, Integrity, Justice,  | Overview: arXiv:2505.08734v1 [cs.CL] 13 May 2025 NurValues: Real-World Nursing Values Evaluation for Large Language Models in Clinical Context Ben Yao1, Qiuchi Li2, Yazhou Zhang3∗, Siyu Yang4, Bohan Zhang1, Pra | Methodology: in 15, while the underline font indicates the second-best result. Dataset Model 0-Shot 2-Shot 6-Shot 10-Shot Acc. Ma-F1 Acc. Ma-F1 Acc. Ma-F1 Acc. Ma- | Key Findings: confirms that the rewritten dialogues retain high topical consistency with the original instances. Using three SoTA LLMs to score semantic similarity, | Conclusions: In this paper, we introduce NurValues, the first real-world healthcare benchmark for evaluating LLMs' nursing values. Built from 1,100 real-world nurs"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yao-NurValues.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Yao-NurValues.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, Gemini, Llama-3, Qwen, o1"
 DATA_URL: "https://huggingface.co/datasets/Ben012345/NurValues"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -108,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 50
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark annotated dataset for conversational ai"
 data_metrics: "Not specified"
 ---

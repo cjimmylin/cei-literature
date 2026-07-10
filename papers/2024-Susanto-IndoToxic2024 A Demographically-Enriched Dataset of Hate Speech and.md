@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +6,7 @@ Not AI:
 key: LSRC0098
 type: preprint
 short_title: "IndoToxic2024: A Demographically-Enriched Dataset of Hate Speech and Toxicity Types for Indonesian Language"
-year: 2024
+year: 2025
 first_author: "[[Susanto, Lucky]]"
 last_author: "[[Wijaya, Derry]]"
 authors: "Susanto, Lucky; Wijanarko, Musa Izzanardi; Pratama, Prasetia Anugrah; Hong, Traci; Idris, Ika; Aji, Alham Fikri; Wijaya, Derry"
@@ -57,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2406.19349.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Susanto-IndoToxic2024 A Demographically-Enriched Dataset of Hate Speech and.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian"
-languages_list: "Indonesian"
-religious_values: "Islam"
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
+languages_list: Indonesian
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 30
 rv_buddhism: 5
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, GPT-3.5"
 DATA_URL: "https://github.com/izzako/IndoToxic2024"
 tags: 
 abstract: "Hate speech poses a significant threat to social harmony. Over the past two years, Indonesia has seen a ten-fold increase in the online hate speech ratio, underscoring the urgent need for effective detection mechanisms. However, progress is hindered by the limited availability of labeled data for Indonesian texts. The condition is even worse for marginalized minorities, such as Shia, LGBTQ, and other ethnic minorities because hate speech is underreported and less understood by detection tools."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ID"
+author_country: ID
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 38
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

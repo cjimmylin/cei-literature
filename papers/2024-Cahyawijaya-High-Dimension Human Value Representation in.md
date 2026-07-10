@@ -6,7 +6,7 @@ Not AI:
 key: 6JGA9KWA
 type: conferencePaper
 short_title: "High-Dimension Human Value Representation in"
-year: 2024
+year: 2025
 first_author: "[[Samuel Cahyawijaya]]"
 last_author: "[[Pascale Fung]]"
 authors: "Samuel Cahyawijaya; Delong Chen; Yejin Bang; Leila Khalatbari; Bryan Wilie; Ziwei Ji; Etsuko Ishii; Pascale Fung"
@@ -15,9 +15,9 @@ url: "http://arxiv.org/abs/2404.07900"
 external_pdf: "http://arxiv.org/pdf/2404.07900.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 CONF-CC: "NAACL 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Multilingual"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Multilingual
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -53,9 +53,9 @@ paper_summary: "Abstract: The widespread application of LLMs across various task
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Cahyawijaya-High-Dimension Human Value Representation in.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "Mixtral, Aya-101, SeaLLM, BLOOMZ, ChatGLM-3, Nous-Hermes-Mixtral, SOLAR, Mistral, JAIS, Yi, Llama-2, MaralGPT, Command-R, Llama-3, ChatGPT"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "NAACL 2024"
-ethics_overall: 90
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "25 languages"
 ---

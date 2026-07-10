@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +9,7 @@ short_title: "Code-Switching Red-Teaming: LLM Evaluation for Safety and Multilin
 year: 2025
 first_author: "[[Haneul Yoo]]"
 last_author: "[[Hwaran Lee]]"
-authors: Haneul Yoo; Yongjin Yang; Hwaran Lee
+authors: "Haneul Yoo; Yongjin Yang; Hwaran Lee"
 url: "https://arxiv.org/abs/2406.15481"
 external_pdf: "https://arxiv.org/pdf/2406.15481.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yoo-Code-Switching Red-Teaming LLM Evaluation for Safety and Multilingual.md"
@@ -53,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yoo-Code-Switching Red-Teaming LLM Ev
 publication: "arXiv / ACL 2025"
 CONF-CC: "ACL 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: "Arabic, Bengali, Chinese, English, Italian, Javanese, Korean, Swahili, Thai, Vietnamese"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3.5, GPT-4o, Claude-3, Llama-3, Qwen-1.5, Mistral, Mixtral"
 DATA_URL: "https://github.com/haneul-yoo/csrt"
 tags: 
 abstract: "As large language models (LLMs) have advanced rapidly, concerns regarding their safety have become prominent. In this paper, we discover that code-switching in red-teaming queries can effectively elicit undesirable behaviors of LLMs, which are common practices in natural language. We introduce a simple yet effective framework, CSRT, to synthesize codeswitching red-teaming queries and investigate the safety and multilingual understanding of LLMs comprehensively."
 CONFERENCE: "ACL 2025"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

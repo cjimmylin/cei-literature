@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: VAFEEJIY
 type: conferencePaper
 short_title: "A Roadmap to Pluralistic Alignment"
-year: 2024
+year: 2025
 first_author: "[[Taylor Sorensen]]"
 last_author: "[[Yejin Choi]]"
 authors: "Taylor Sorensen; Jared Moore; Jillian Fisher; Mitchell Gordon; Niloofar Mireshghallah; Christopher Michael Rytting; Andre Ye; Liwei Jiang; Ximing Lu; Nouha Dziri; Tim Althoff; Yejin Choi"
@@ -55,10 +15,10 @@ url: "http://arxiv.org/abs/2402.05070"
 external_pdf: "http://arxiv.org/pdf/2402.05070.pdf"
 publication: "International Conference on Machine Learning"
 CONF-CC: "ICML 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -95,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3, Gemma, LLaMA, Llama-2"
 DATA_URL: "https://github.com/jfisher52/AI_Pluralistic_Alignment"
 CONFERENCE: "ICML 2024"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
@@ -109,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AT"
+author_country: AT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # A Roadmap to Pluralistic Alignment

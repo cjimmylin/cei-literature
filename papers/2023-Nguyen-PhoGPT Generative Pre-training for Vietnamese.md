@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +6,21 @@ Not AI:
 key: LSRC0370
 type: preprint
 short_title: "PhoGPT: Generative Pre-training for Vietnamese"
-year: 2023
+year: 2025
 first_author: "[[Dat Quoc Nguyen]]"
 last_author: "[[Hung Bui]]"
-authors: Dat Quoc Nguyen; Linh The Nguyen; Chi Tran; Dung Ngoc Nguyen; Dinh Phung; Hung Bui
+authors: "Dat Quoc Nguyen; Linh The Nguyen; Chi Tran; Dung Ngoc Nguyen; Dinh Phung; Hung Bui"
 url: "https://arxiv.org/abs/2311.02945"
 external_pdf: "https://arxiv.org/pdf/2311.02945.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nguyen-PhoGPT Generative Pre-training for Vietnamese.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Vietnamese"
-cultures_nationalities_list: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "Christianity"
+national_ethnic_cultural: Vietnamese
+cultures_nationalities_list: Vietnamese
+languages_list: Vietnamese
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Gemma, Llama-2, Mistral, Qwen"
 DATA_URL: "https://github.com/VinAIResearch/PhoGPT"
 tags: 
 abstract: "We open-source a state-of-the-art 4B-parameter generative model series for Vietnamese, which includes the base pre-trained monolingual model PhoGPT4B and its chat variant, PhoGPT-4B-Chat. The base model, PhoGPT-4B, with exactly 3.7B parameters, is pre-trained from scratch on a Vietnamese corpus of 102B tokens, with an 8192 context length, employing a vocabulary of 20480 token types. The chat variant, PhoGPT-4B-Chat, is the modeling output obtained by fine-tuning PhoGPT-4B on a dataset of 70K..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "VN"
+author_country: VN
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 27
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # PhoGPT: Generative Pre-training for Vietnamese

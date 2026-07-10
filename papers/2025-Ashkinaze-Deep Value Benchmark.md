@@ -9,7 +9,7 @@ short_title: "Deep Value Benchmark"
 year: 2025
 first_author: "[[Joshua Ashkinaze]]"
 last_author: "[[Ceren Budak]]"
-authors: Joshua Ashkinaze; Hua Shen; Saipranav Avula; Eric Gilbert; Ceren Budak
+authors: "Joshua Ashkinaze; Hua Shen; Saipranav Avula; Eric Gilbert; Ceren Budak"
 url: "https://arxiv.org/abs/2511.02109"
 external_pdf: "https://arxiv.org/pdf/2511.02109.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Ashkinaze-Deep Value Benchmark.md"
@@ -17,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Ashkinaze-Deep Value Benchmark.pdf]]"
 publication: "NeurIPS 2025"
 CONF-CC: "NeurIPS 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -44,7 +44,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "We introduce the Deep Value Benchmark (DVB), an evaluation framework that directly tests whether large language models (LLMs) learn fundamental human values or merely surface-level preferences. This distinction is critical for AI alignment: Systems that capture deeper values are likely to generalize human intentions robustly, while those that capture only superficial patterns in preference data risk producing misaligned behavior."
@@ -52,7 +52,7 @@ LLM_assessed: "GPT-4o, GPT-4o mini, Gemini, Llama-3"
 DATA_URL: "https://github.com/josh-ashkinaze/deep-value-benchmark-neurips"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -65,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

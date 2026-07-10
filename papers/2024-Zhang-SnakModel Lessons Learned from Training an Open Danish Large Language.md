@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,10 +6,10 @@ Not AI:
 key: LSRC0489
 type: preprint
 short_title: "SnakModel: Lessons Learned from Training an Open Danish Large Language Model"
-year: 2024
+year: 2025
 first_author: "[[Mike Zhang]]"
 last_author: "[[Rob van der Goot]]"
-authors: Mike Zhang; Max Müller-Eberstein; Elisa Bassignana; Rob van der Goot
+authors: "Mike Zhang; Max Müller-Eberstein; Elisa Bassignana; Rob van der Goot"
 url: "https://arxiv.org/abs/2412.12956"
 external_pdf: "https://arxiv.org/pdf/2412.12956.pdf"
 publication: "arXiv / NoDaLiDa 2025"
@@ -54,10 +17,10 @@ CONF-CC: "NoDaLiDa 2025"
 pdf_extract: "PDF Extracts/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zhang-SnakModel Lessons Learned from Training an Open Danish Large Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Danish"
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Danish
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Llama-2, Mistral"
 DATA_URL: NA
 tags: 
 abstract: "We present SNAKMODEL, a Danish large language model (LLM) based on LLAMA2-7B, which we continuously pre-train on 13.6B Danish words, and further tune on 3.7M Danish instructions. As best practices for creating LLMs for smaller language communities have yet to be established, we examine the effects of early modeling and training decisions on downstream performance throughout the entire training pipeline, including (1) the creation of a strictly curated corpus of Danish text from diverse sources;..."
 authors_incomplete: false
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DK"
+author_country: DK
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "8 language"
 ---

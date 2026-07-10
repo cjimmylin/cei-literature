@@ -1,47 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,10 +6,10 @@ Not AI:
 key: EXSR0529
 type: preprint
 short_title: "Social Bias in Large Language Models"
-year: 2024
-first_author: "[[Sadhu]]"
-last_author: "[[Saha]]"
-authors: Sadhu; Saha
+year: 2025
+first_author: [[Sadhu]]
+last_author: [[Saha]]
+authors: "Sadhu; Saha"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.03536"
 external_pdf: "https://arxiv.org/pdf/2407.03536.pdf"
@@ -61,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Sadhu-Social Bias in Large Language M
 publication: "LoResLM Workshop (ACL 2025)"
 CONF-CC: "ACL 2025 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Bangla"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Bangla
 religious_values: "Multiple Religions"
 rv_islam: 60
 rv_christianity: 0
@@ -88,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The rapid growth of Large Language Models (LLMs) has put forward the study of biases as a crucial field. It is important to assess the influence of different types of biases embedded in LLMs to ensure fair use in sensitive fields. Although there have been extensive works on bias assessment in English, such efforts are rare and scarce for a major language like Bangla. In this work, we examine two types of social biases in LLM generated outputs for Bangla language."
 LLM_assessed: "GPT-3.5, GPT-4o, Llama-3, Claude-3"
 DATA_URL: "https://github.com/csebuetnlp/BanglaSocialBias"
 CONFERENCE: "ACL 2025"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BD"
+author_country: BD
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

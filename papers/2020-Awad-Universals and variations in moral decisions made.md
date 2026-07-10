@@ -6,17 +6,17 @@ Not AI:
 key: 5KFKN3RM
 type: journalArticle
 short_title: "Universals and variations in moral decisions made"
-year: 2020
+year: 2025
 first_author: "[[Edmond Awad]]"
 last_author: "[[Jean-François Bonnefon]]"
 authors: "Edmond Awad; Sohan Dsouza; Azim Shariff; Iyad Rahwan; Jean-François Bonnefon"
 doi: 10.1073/pnas.1911517117
 url: "https://pnas.org/doi/full/10.1073/pnas.1911517117"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3UPAJU7/Awad et al. - 2020 - Universals and variations in moral decisions made in 42 countries by 70,000 participants.pdf"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 100
@@ -47,14 +47,14 @@ significance: "Demonstrates that while some moral cognitive processes are univer
 tags: 
 abstract: "When do people find it acceptable to sacrifice one life to save many? Cross-cultural studies suggested a complex pattern of universals and variations in the way people approach this question, but data were often based on small samples from a small number of countries outside of the Western world. Here we analyze responses to three sacrificial dilemmas by 70,000 participants in 10 languages and 42 countries. In every country, the three dilemmas displayed the same qualitative ordering of sacrifice"
 pdf: "https://www.pnas.org/content/pnas/117/5/2332.full.pdf"
-CONF-CC: "PNAS"
+CONF-CC: PNAS
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://bit.ly/2Y7Brr9"
 pdf_extract: "PDF Extracts/2020/2020-Awad-Universals and variations in moral decisions made.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Awad-Universals and variations in moral decisions made.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 65
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -68,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "10 languages"
 ---
 # Universals and variations in moral decisions made in 42 countries by 70,000 participants

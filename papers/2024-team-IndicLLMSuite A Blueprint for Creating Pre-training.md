@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,22 +6,22 @@ Not AI:
 key: EXSR0496
 type: preprint
 short_title: "IndicLLMSuite A Blueprint for Creating Pre-training"
-year: 2024
+year: 2025
 first_author: "[[team, AI4Bharat]]"
 last_author: "[[AI4Bharat team]]"
-authors: AI4Bharat team
+authors: "AI4Bharat team"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2403.06350"
 external_pdf: "https://arxiv.org/pdf/2403.06350.pdf"
 pdf_extract: "PDF Extracts/2024/2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-team-IndicLLMSuite A Blueprint for Creating Pre-training.pdf]]"
 publication: HuggingFace
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Multilingual"
-religious_values: "Jainism"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Multilingual
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Despite the considerable advancements in English LLMs, the progress in building comparable models for other languages has been hindered due to the scarcity of tailored resources. Our work aims to bridge this divide by introducing an expansive suite of resources specifically designed for the development of Indic LLMs, covering 22 languages, containing a total of 251B tokens and 74.8M instruction-response pairs."
 LLM_assessed: NA
 DATA_URL: "https://github.com/AI4Bharat/IndicLLMSuite"
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "JP"
+author_country: JP
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "14 languages"
 ---

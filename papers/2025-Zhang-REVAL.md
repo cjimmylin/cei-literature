@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +15,12 @@ tags: "Computer Science - Computer Vision and Pattern Recognition"
 url: "http://arxiv.org/abs/2503.16566"
 external_pdf: "http://arxiv.org/pdf/2503.16566.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 ethics_perspective: "AI Safety & Alignment"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,19 +44,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduced REVAL, a large-scale benchmark (144k samples) for evaluating Large Vision-Language Models (LVLMs) on reliability (hallucination) and values (safety, ethics, privacy)."
 significance: "Exposes the 'multimodal safety gap', showing that LVLMs are highly vulnerable to 'visual jailbreaks' (e.g., text instructions inside images) that purely text-based models would reject."
 pdf_extract: "PDF Extracts/2025/2025-Zhang-REVAL.md"
 abstract: "The rapid evolution of Large Vision-Language Models (LVLMs) has highlighted the necessity for comprehensive evaluation frameworks that assess these models across diverse dimensions. While existing benchmarks focus on specific aspects such as perceptual abilities, cognitive capabilities, and safety against adversarial attacks, they often lack the breadth and depth required to provide a holistic understanding of LVLMs’ strengths and limitations."
 paper_summary: "Abstract: The rapid evolution of Large Vision-Language Models (LVLMs) has highlighted the necessity for comprehensive evaluation frameworks that assess these models across diverse dimensions. While existing ben | Overview: REVAL: A Comprehension Evaluation on Reliability and Values of Large Vision-Language Models Jie Zhang1,2†, Zheng Yuan1,2†, Zhongqi Wang1,2, Bei Yan1,2, Sibo Wang1,2, Xiangkui Cao1,2, Zonghui Guo1, Shi | Key Findings: aspects, question types and statistics. The number following the ✓indicates the number of fine-grained categories specifically considered when evaluat | Conclusions: Discussion on the difference with MultiTrust. In recent years, comprehen- sive multi-dimensional evaluations of Large Vision-Language Models (LVLMs) h"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-REVAL.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-REVAL.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Gemini, LLaVA, InstructBLIP, BLIP, Vicuna, Llama-2, FLAN-T5, Phi-3"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "144k samples"
 ---

@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,10 +6,10 @@ Not AI:
 key: EXSR0178
 type: conferencePaper
 short_title: "GenMO (Gender-bias in Morality Opinions)"
-year: 2024
+year: 2025
 first_author: "[[Divij Bajaj]]"
 last_author: "[[Ruihong Huang]]"
-authors: Divij Bajaj; Yuanyuan Lei; Jonathan Tong; Ruihong Huang
+authors: "Divij Bajaj; Yuanyuan Lei; Jonathan Tong; Ruihong Huang"
 doi: 10.18653/v1/2024.findings-emnlp.928
 url: "https://doi.org/10.18653/v1/2024.findings-emnlp.928"
 external_pdf: "https://aclanthology.org/2024.findings-emnlp.928.pdf"
@@ -59,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Bajaj-GenMO Gender-bias in Morality O
 publication: "EMNLP 2024"
 CONF-CC: "EMNLP 2024"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -93,7 +52,7 @@ abstract: "Large Language Models (LLMs) have shown remarkable capabilities in a 
 LLM_assessed: "GPT-3.5, GPT-4, Llama-3, Mistral, Claude-3 Sonnet, Claude-3 Opus"
 DATA_URL: "https://github.com/divij30bajaj/GenMO"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

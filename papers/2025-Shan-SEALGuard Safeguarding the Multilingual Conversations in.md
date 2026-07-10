@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,19 +9,19 @@ short_title: "SEALGuard Safeguarding the Multilingual Conversations in"
 year: 2025
 first_author: "[[Wenliang Shan]]"
 last_author: "[[Chakkrit Tantithamthavorn]]"
-authors: Wenliang Shan; Michael Fu; Rui Yang; Chakkrit Tantithamthavorn
+authors: "Wenliang Shan; Michael Fu; Rui Yang; Chakkrit Tantithamthavorn"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2507.08898"
 external_pdf: "https://arxiv.org/pdf/2507.08898.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shan-SEALGuard Safeguarding the Multilingual Conversations in.pdf]]"
 publication: "AIware 2025"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
 national_ethnic_cultural: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Indonesian, Filipino, Thai, Vietnamese, Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Safety alignment is critical for LLM-powered systems. While recent LLM-powered guardrail approaches such as LlamaGuard achieve high detection accuracy of unsafe inputs written in English (e.g., 'How to create a bomb?'), they struggle with multilingual unsafe inputs. This limitation leaves LLM systems vulnerable to unsafe and jailbreak prompts written in low-resource languages such as those in Southeast Asia."
-LLM_assessed: "LLaMA"
+LLM_assessed: LLaMA
 DATA_URL: "https://github.com/awsm-research/SEALGuard"
 research_topic: "Machine Translation"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
 ---

@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +6,17 @@ Not AI:
 key: 7TPD46IL
 type: preprint
 short_title: "Machine Psychology"
-year: 2024
+year: 2025
 first_author: "[[Thilo Hagendorff]]"
 last_author: "[[Eric Schulz]]"
 authors: "Thilo Hagendorff; Ishita Dasgupta; Marcel Binz; Stephanie C. Y. Chan; Andrew Lampinen; Jane X. Wang; Zeynep Akata; Eric Schulz"
 doi: 10.48550/arXiv.2303.13988
 url: "http://arxiv.org/abs/2303.13988"
 external_pdf: "http://arxiv.org/pdf/2303.13988.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,19 +40,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: American
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Hagendorff-Machine Psychology.md"
 abstract: "Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities therefore holds significant importance. We argue that a fruitful direction for research is engaging LLMs in behavioral experiments inspired by psychology that have traditionally been aimed at understanding human cognition and behavior."
 paper_summary: "Abstract: Large language models (LLMs) show increasingly advanced emergent capabilities and are being incorporated across various societal domains. Understanding their behavior and reasoning abilities therefore | Overview: MACHINE PSYCHOLOGY Thilo Hagendorff∗ University of Stuttgart Ishita Dasgupta∗ Google DeepMind Marcel Binz† Helmholtz Institute for Human-Centered AI Stephanie C.Y. Chan† Google DeepMind Andrew Lampine | Methodology: brings to the table. It paves the way for a 'machine psychology' for generative artificial intelligence (AI) that goes beyond performance benchmarks a | Key Findings: that AI-generated analogies lack some human-like psycholinguistic properties (Seals and Shalin, 2023), particularly in text cohesion, language, and re | Conclusions: Machine psychology provides a new approach to explaining AI. Instead of interpreting a neural network's design components (Barredo Arrieta et al., 201"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hagendorff-Machine Psychology.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Machine Psychology

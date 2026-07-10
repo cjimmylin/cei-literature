@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: LSRC0143
 type: conferencePaper
 short_title: "ParsiNLU: A Suite of Language Understanding Challenges for Persian"
-year: 2021
+year: 2025
 first_author: "[[Khashabi, Daniel]]"
 last_author: "[[Yaghoobzadeh, Yadollah]]"
 authors: "Khashabi, Daniel; Cohan, Arman; Shakeri, Siamak; Hosseini, Pedram; Pezeshkpour, Pouya; Alikhani, Malihe; Aminnaseri, Moin; Bitaab, Marzieh; Brahman, Faeze; Ghazarian, Sarik; Gheini, Mozhdeh; Kabiri, Arman; Mahabadi, Rabeeh Karimi; Memarrast, Omid; Mosallanezhad, Ahmadreza; Noury, Erfan; Raji, Shahab; Rasooli, Mohammad Sadegh; Sadeghi, Sepideh; Azer, Erfan Sadeqi; Samghabadi, Niloofar Safi; Shafaei, Mahsa; Sheybani, Saber; Tazarv, Ali; Yaghoobzadeh, Yadollah"
@@ -54,10 +18,10 @@ CONF-CC: "TACL 2021"
 pdf_extract: "PDF Extracts/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Khashabi-ParsiNLU A Suite of Language Understanding Challenges for Persian.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian"
-languages_list: "Persian"
-religious_values: "Islam"
+national_ethnic_cultural: Iranian
+cultures_nationalities_list: Iranian
+languages_list: Persian
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, T5"
 DATA_URL: "https://github.com/persiannlp/parsinlu"
 tags: 
 abstract: "Despite the progress made in recent years in addressing natural language understanding (NLU) challenges, the majority of this progress remains to be concentrated on resource-rich languages like English. This work focuses on Persian language, one of the widely spoken languages in the world, and yet there are few NLU datasets available for this language. The availability of high-quality evaluation datasets is a necessity for reliable assessment of the progress on different NLU tasks and domains."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # ParsiNLU: A Suite of Language Understanding Challenges for Persian

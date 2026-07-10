@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: LSRC0242
 type: preprint
 short_title: "KULTURE Bench: A Benchmark for Assessing Language Model in Korean Cultural Context"
-year: 2024
+year: 2025
 first_author: "[[Xiaonan Wang]]"
 last_author: "[[Hansaem Kim]]"
-authors: Xiaonan Wang; Jinyoung Yeo; Joon-Ho Lim; Hansaem Kim
+authors: "Xiaonan Wang; Jinyoung Yeo; Joon-Ho Lim; Hansaem Kim"
 url: "https://arxiv.org/abs/2412.07251"
 external_pdf: "https://arxiv.org/pdf/2412.07251.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wang-KULTURE Bench A Benchmark for Assessing Language Model in Korean.pdf]]"
 publication: "arXiv / PACLIC 2024"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
+languages_list: Korean
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3.5, GPT-4"
 DATA_URL: "https://github.com/wangxiaonan-git/KULTUREBench"
 tags: 
 abstract: "Large language models (LLMs) have exhibited significant enhancements in performance across various tasks. However, the complexity of their evaluation increases as these models generate more fluent and coherent content. Current multilingual benchmarks often use translated English versions, which may incorporate Western cultural biases that do not accurately assess other languages and cultures. To address this research gap, we introduce KULTURE Bench, an evaluation framework specifically designed..."
 research_topic: "Social & Cultural Analysis"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

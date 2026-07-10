@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,10 +18,10 @@ CONF-CC: "Data in Brief"
 pdf_extract: "PDF Extracts/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mayor-Rocher-Spanish Is Not Just One A Dataset of Spanish Dialect Recognition for.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
+national_ethnic_cultural: Spanish
+cultures_nationalities_list: Spanish
+languages_list: Spanish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://zenodo.org/records/15101403"
 tags: 
 abstract: "Dataset of 30 expert-crafted multiple-choice questions assessing LLMs' ability to identify Spanish varieties and measuring potential dialect preference bias. Each question reviewed by linguistic experts through multiple refinement cycles."
 research_topic: "Machine Learning"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ES"
+author_country: ES
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

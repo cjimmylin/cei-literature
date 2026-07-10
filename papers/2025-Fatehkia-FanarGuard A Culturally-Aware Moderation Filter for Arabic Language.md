@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,19 +9,19 @@ short_title: "FanarGuard: A Culturally-Aware Moderation Filter for Arabic Langua
 year: 2025
 first_author: "[[Masoomali Fatehkia]]"
 last_author: "[[Husrev Taha Sencar]]"
-authors: Masoomali Fatehkia; Enes Altinisik; Husrev Taha Sencar
+authors: "Masoomali Fatehkia; Enes Altinisik; Husrev Taha Sencar"
 doi: 10.48550/arXiv.2511.18852
 url: "https://arxiv.org/abs/2511.18852"
 external_pdf: "https://arxiv.org/pdf/2511.18852.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Fatehkia-FanarGuard A Culturally-Aware Moderation Filter for Arabic Language.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
 languages_list: "Arabic, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Gemma, Gemma-2, GPT-4o, Qwen-2, RoBERTa"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Content moderation filters are a critical safeguard against alignment failures in language models. Yet most existing filters focus narrowly on general safety and overlook cultural context. In this work, we introduce FanarGuard, a bilingual moderation filter that evaluates both safety and cultural alignment in Arabic and English. We construct a dataset of over 468K prompt and response pairs, drawn from synthetic and public datasets, scored by a panel of LLM judges on harmlessness and cultural..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "QA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: QA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 38
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
 ---

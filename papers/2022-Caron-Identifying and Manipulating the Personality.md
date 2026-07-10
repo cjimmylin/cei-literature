@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,7 +6,7 @@ Not AI:
 key: PSH3WPB6
 type: conferencePaper
 short_title: "Identifying and Manipulating the Personality"
-year: 2022
+year: 2025
 first_author: "[[Graham Caron]]"
 last_author: "[[Shashank Srivastava]]"
 authors: "Graham Caron; Shashank Srivastava"
@@ -51,11 +15,11 @@ tags:
 url: "http://arxiv.org/abs/2212.10276"
 external_pdf: "http://arxiv.org/pdf/2212.10276.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -70,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 pdf_extract: "PDF Extracts/2022/2022-Caron-Identifying and Manipulating the Personality.md"
 abstract: "Psychology research has long explored aspects of human personality such as extroversion, agreeableness and emotional stability. Categorizations like the ‘Big Five’ personality traits are commonly used to assess and diagnose personality types. In this work, we explore the question of whether the perceived personality in language models is exhibited consistently in their language generation. For example, is a language model such as GPT2 likely to respond in a consistent way if asked to go out to..."
@@ -87,9 +51,9 @@ paper_summary: "Abstract: Psychology research has long explored aspects of human
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Caron-Identifying and Manipulating the Personality.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-2"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

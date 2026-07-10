@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: EXSR0220
 type: preprint
 short_title: "The Emergence of Strategic Reasoning of Large Language Models"
-year: 2024
+year: 2025
 first_author: "[[Gavin Kader]]"
 last_author: "[[Dongwoo Lee]]"
 authors: "Gavin Kader; Dongwoo Lee"
@@ -53,12 +15,12 @@ external_pdf: "https://arxiv.org/pdf/2412.13013.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kader-The Emergence of Strategic Reasoning of Large Language Models.pdf]]"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,20 +44,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) have demonstrated strong reasoning abilities in structured tasks (e.g., coding and mathematics), we explore whether these abilities extend to strategic multi-agent environments. We investigate strategic reasoning capabilities – the process of choosing an optimal course of action by predicting and adapting to others’ actions – of LLMs by analyzing their performance in three classical games from behavioral economics."
 LLM_assessed: "Claude-3 Sonnet, GPT-4, Gemini, o1-preview"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

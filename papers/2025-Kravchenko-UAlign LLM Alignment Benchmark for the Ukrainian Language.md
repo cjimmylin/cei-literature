@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +9,16 @@ short_title: "UAlign: LLM Alignment Benchmark for the Ukrainian Language"
 year: 2025
 first_author: "[[Andrian Kravchenko]]"
 last_author: "[[Nazarii Drushchak]]"
-authors: Andrian Kravchenko; Yurii Paniv; Nazarii Drushchak
+authors: "Andrian Kravchenko; Yurii Paniv; Nazarii Drushchak"
 url: "https://aclanthology.org/2025.unlp-1.4.pdf"
 external_pdf: "https://aclanthology.org/2025.unlp-1.4.pdf"
 publication: "ACL Anthology (UNLP 2025)"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Kravchenko-UAlign LLM Alignment Benchmark for the Ukrainian Language.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "English, Ukrainian"
 religious_values: "Multiple Religions"
 rv_islam: 0
@@ -89,7 +51,7 @@ DATA_URL: "https://huggingface.co/datasets/Stereotypes-in-LLMs/UAlign"
 tags: 
 abstract: "This paper introduces UAlign, the comprehensive benchmark for evaluating the alignment of Large Language Models (LLMs) in the Ukrainian language. The benchmark consists of two complementary components: a moral judgment dataset with 3,682 scenarios of varying ethical complexities and a dataset with 1,700 ethical situations presenting clear normative distinctions. Each element provides parallel English-Ukrainian text pairs, enabling crosslingual comparison."
 CONFERENCE: "ACL 2025"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

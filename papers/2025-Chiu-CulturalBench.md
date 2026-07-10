@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,10 +13,10 @@ authors: "Yu Ying Chiu; Liwei Jiang; Bill Yuchen Lin; Chan Young Park; Shuyue St
 doi: 10.48550/arXiv.2410.02677
 url: "http://arxiv.org/abs/2410.02677"
 external_pdf: "http://arxiv.org/pdf/2410.02677.pdf"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,19 +40,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Chinese, African/Ubuntu"
 tags: 
 pdf_extract: "PDF Extracts/2025/2025-Chiu-CulturalBench.md"
 abstract: "Robust, diverse, and challenging cultural knowledge benchmarks are essential for measuring our progress towards making LMs that are helpful across diverse cultures. We introduce CULTURALBENCH: a set of 1,696 humanwritten and human-verified questions to assess LMs’ cultural knowledge, covering 45 global regions including underrepresented ones like Bangladesh, Zimbabwe, and Peru. Questions are each verified by five independent annotators and span 17 diverse topics ranging from food preferences to..."
 paper_summary: "Abstract: Robust, diverse, and challenging cultural knowledge benchmarks are essential for mea- suring our progress towards making LMs that are helpful across diverse cultures. We intro- duce CULTURALBENCH: a s | Overview: arXiv:2410.02677v2 [cs.CL] 3 Jun 2025 CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming Yu Ying Chiu1 Liwei Jiang1 Bill Yuchen Lin1 Chan Young Park1 Shuy | Methodology: facilitates fair comparisons of cultural understand- ing across different regions. For instance, in un- derrepresented regions such as Bangladesh, the | Key Findings: Distribution- based Evaluation We explored using GPT-4o to calculate probability distributions over answers, computing linear probability using log pr | Conclusions: Inspired by the human-AI red teaming, we establish CULTURALBENCH: a robust, diverse, and chal- lenging benchmark for measuring LMs' culture knowledge."
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-CulturalBench.pdf]]"
-CONF-CC: "Preprint"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Chiu-CulturalBench.pdf]]
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "Aya, Cohere, DeepSeek, GPT-4o, Llama-3, Mistral, o1, Qwen"
 DATA_URL: "https://hf.co/spaces/kellycyy/CulturalBench"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BD"
+author_country: BD
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 34
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # CulturalBench: A Robust, Diverse, and Challenging Cultural Benchmark by Human-AI CulturalTeaming

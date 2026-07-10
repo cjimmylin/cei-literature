@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,21 +6,21 @@ Not AI:
 key: EXSR0188
 type: preprint
 short_title: JAILJUDGE
-year: 2024
+year: 2025
 first_author: "[[Fan Liu]]"
 last_author: "[[Hao Liu]]"
-authors: Fan Liu; Yue Feng; Zhao Xu; Lixin Su; Xinyu Ma; Dawei Yin; Hao Liu
+authors: "Fan Liu; Yue Feng; Zhao Xu; Lixin Su; Xinyu Ma; Dawei Yin; Hao Liu"
 url: "https://arxiv.org/abs/2410.12855"
 external_pdf: "https://arxiv.org/pdf/2410.12855.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Liu-JAILJUDGE.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-JAILJUDGE.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Liu-JAILJUDGE.pdf]]
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Although significant research efforts have been dedicated to enhancing the safety of large language models (LLMs) by understanding and defending against jailbreak attacks, evaluating the defense capabilities of LLMs against jailbreak attacks also attracts lots of attention. Current evaluation methods lack explainability and do not generalize well to complex scenarios, resulting in incomplete and inaccurate assessments (e.g."
 LLM_assessed: "GPT-3.5, GPT-4, LLaMA, Mistral, Qwen, Vicuna"
 DATA_URL: "https://huggingface.co/datasets/usail-hkust/JailJudge"
-research_topic: "Other"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+research_topic: Other
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark for ai safety annotated dataset"
 data_metrics: "Not specified"
 ---

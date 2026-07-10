@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: LSRC0333
 type: preprint
 short_title: "Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation"
-year: 2026
+year: 2025
 first_author: "[[Krzysztof Wrobel]]"
 last_author: "[[Maciej Szymanski]]"
-authors: Krzysztof Wrobel; Jan Maria Kowalski; Jerzy Surma; Igor Ciuciura; Maciej Szymanski
+authors: "Krzysztof Wrobel; Jan Maria Kowalski; Jerzy Surma; Igor Ciuciura; Maciej Szymanski"
 url: "https://arxiv.org/abs/2602.07954"
 external_pdf: "https://arxiv.org/pdf/2602.07954.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Wrobel-Bielik Guard Efficient Polish Language Safety Classifiers for LLM.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Polish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "RoBERTa, Llama-3, Gemma, Qwen"
 DATA_URL: "https://huggingface.co/speakleash/Bielik-Guard-0.1B-v1.0"
 tags: 
 abstract: "As Large Language Models (LLMs) become increasingly deployed in Polish language applications, the need for efficient and accurate content safety classifiers has become paramount. We present Bielik Guard, a family of compact Polish language safety classifiers comprising two model variants: a 0.1B parameter model based on MMLW-RoBERTa-base and a 0.5B parameter model based on PKOBP/polish-roberta-8k. Fine-tuned on a community-annotated dataset of 6,885 Polish texts, these models classify content..."
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset"
 data_metrics: "5 categories"
 ---

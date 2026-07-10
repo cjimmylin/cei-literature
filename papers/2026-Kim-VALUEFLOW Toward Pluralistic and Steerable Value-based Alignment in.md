@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0014
 type: preprint
 short_title: "VALUEFLOW: Toward Pluralistic and Steerable Value-based Alignment in Large Language Models"
-year: 2026
+year: 2025
 first_author: "[[Woojin Kim]]"
 last_author: "[[Jaeyoung Do]]"
 authors: "Woojin Kim; Sieun Hyeon; Jusang Oh; Jaeyoung Do"
@@ -15,12 +15,12 @@ external_pdf: "https://arxiv.org/pdf/2602.03160.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Kim-VALUEFLOW Toward Pluralistic and Steerable Value-based Alignment in.pdf]]"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 80
 mp_schwartz: 60
 mp_trolley: 0
@@ -49,9 +49,9 @@ newtags:
 tags: 
 abstract: "Aligning Large Language Models (LLMs) with the diverse spectrum of human values remains a central challenge: preference-based methods often fail to capture deeper motivational principles. Value-based approaches offer a more principled path, yet three gaps persist– extraction often ignores hierarchical structure, evaluation detects presence but not calibrated intensity, and therefore, the steerability of LLMs at controlled intensities remains insufficiently understood."
 LLM_assessed: "ChatGLM, Claude, GPT-4, Gemini, Gemma, Grok, Mistral, Phi-3, Qwen"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 45
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -65,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

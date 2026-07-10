@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,10 +6,10 @@ Not AI:
 key: EXSR0510
 type: conference_paper
 short_title: "Modeling the Sacred Considerations when Using"
-year: 2024
+year: 2025
 first_author: "[[Hutchinson, Ben]]"
 last_author: "[[Ben Hutchinson]]"
-authors: Ben Hutchinson
+authors: "Ben Hutchinson"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.14740"
 external_pdf: "https://arxiv.org/pdf/2404.14740.pdf"
@@ -58,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hutchinson-Modeling the Sacred Consid
 publication: "Findings of NAACL 2024"
 CONF-CC: "NAACL 2024 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 100
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "This position paper concerns the use of religious texts in Natural Language Processing (NLP), which is of special interest to the Ethics of NLP. Religious texts are expressions of culturally important values, and machine learned models have a propensity to reproduce cultural values encoded in their training data. Furthermore, translations of religious texts are frequently used by NLP researchers when language data is scarce."
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "NAACL 2024"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +66,14 @@ nw_buddhist: 50
 nw_dharmic: 10
 nw_indigenous_relational: 5
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Modeling the Sacred: Considerations when Using Religious Texts in Natural Language Processing

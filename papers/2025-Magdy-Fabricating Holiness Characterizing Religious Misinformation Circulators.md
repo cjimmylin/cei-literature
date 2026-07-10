@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,7 +9,7 @@ short_title: "Fabricating Holiness Characterizing Religious Misinformation Circu
 year: 2025
 first_author: "[[Mahmoud Fawzi]]"
 last_author: "[[Walid Magdy]]"
-authors: Mahmoud Fawzi; Bjorn Ross; Walid Magdy
+authors: "Mahmoud Fawzi; Bjorn Ross; Walid Magdy"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07845"
 external_pdf: "https://arxiv.org/pdf/2508.07845.pdf"
@@ -56,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Magdy-Fabricating Holiness Characteri
 publication: "ICWSM 2026 (AAAI Press) / arXiv"
 CONF-CC: "ICWSM 2026"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 50
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Misinformation is a growing concern in a decade involving critical global events. While social media regulation is mainly dedicated towards the detection and prevention of fake news and political misinformation, there is limited research about religious misinformation which has only been addressed through qualitative approaches. In this work, we study the spread of fabricated quotes (Hadith) that are claimed to belong to Prophet Muhammad (the prophet of Islam) as a case study demonstrating one..."
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "AAAI 2026"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Fabricating Holiness: Characterizing Religious Misinformation Circulators on Arabic Social Media

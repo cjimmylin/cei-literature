@@ -1,62 +1,26 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: CULT0092
 type: preprint
-short_title: Benchmarking Vision Language Models for Cultural Understanding
-year: 2024
+short_title: "Benchmarking Vision Language Models for Cultural Understanding"
+year: 2025
 first_author: "[[Shravan Nayak]]"
 last_author: "[[Aishwarya Agrawal]]"
-authors: Shravan Nayak; Kanishk Jain; Rabiul Awal; Siva Reddy; Sjoerd van Steenkiste; Lisa Anne Hendricks; Karolina Stanczak; Aishwarya Agrawal
+authors: "Shravan Nayak; Kanishk Jain; Rabiul Awal; Siva Reddy; Sjoerd van Steenkiste; Lisa Anne Hendricks; Karolina Stanczak; Aishwarya Agrawal"
 doi: 10.18653/v1/2024.emnlp-main.329
 url: "https://arxiv.org/abs/2407.10920"
 external_pdf: "https://arxiv.org/pdf/2407.10920.pdf"
-publication: arXiv / EMNLP 2024
+publication: "arXiv / EMNLP 2024"
 CONF-CC: "EMNLP 2024"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Nayak-Benchmarking Vision Language Models for Cultural Understanding.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, Gemini"
 DATA_URL: "https://culturalvqa.org"
 tags: 
 abstract: "Foundation models and vision-language pretraining have notably advanced Vision Language Models (VLMs), enabling multimodal processing of visual and linguistic data. However, their performance has been typically assessed on general scene understanding – recognizing objects, attributes, and actions – rather than cultural comprehension. This study introduces CULTURALVQA, a visual question-answering benchmark aimed at assessing VLM’s geo-diverse cultural understanding."
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Benchmarking Vision Language Models for Cultural Understanding

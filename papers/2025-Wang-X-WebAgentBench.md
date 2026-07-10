@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,10 +16,10 @@ url: "http://arxiv.org/abs/2505.15372"
 external_pdf: "http://arxiv.org/pdf/2505.15372.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2025"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,19 +43,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Introduces X-WebAgentBench, a multilingual interactive web benchmark designed to evaluate LLM-based agents in planning and interaction tasks across multiple languages."
 significance: "Addresses the English-centric bias in current agent research, proving that even advanced models like GPT-4o struggle with global linguistic alignment in complex agentic tasks."
 pdf_extract: "PDF Extracts/2025/2025-Wang-X-WebAgentBench.md"
 abstract: "Recently, large language model (LLM)-based agents have achieved significant success in interactive environments, attracting significant academic and industrial attention. Despite these advancements, current research predominantly focuses on English scenarios. In reality, there are over 7,000 languages worldwide, all of which demand access to comparable agentic services. Nevertheless, the development of language agents remains inadequate for meeting the diverse requirements of multilingual..."
 paper_summary: "Abstract: Recently, large language model (LLM)-based agents have achieved significant success in in- teractive environments, attracting significant academic and industrial attention. Despite these advancements, | Overview: arXiv:2505.15372v1 [cs.CL] 21 May 2025 X-WebAgentBench: A Multilingual Interactive Web Benchmark for Evaluating Global Agentic System Peng Wang1, 2, ∗Ruihan Tao1,* Qiguang Chen1 Mengkang Hu3 Libo Qin1 | Methodology: zh fr es de el bg ru tr ar vi th hi sw ur AVG Mistral-7B-Instruct (Jiang et al., 2023) BaseAgent 10.80 | Conclusions: To address the multilingual evaluation of lan- guage agents, we introduce X-WebAgentBench, a benchmark comprising 14 languages, 2,800 text instruction"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-X-WebAgentBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Wang-X-WebAgentBench.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, GPT-3.5, GPT-4o, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/WPENGxs/X-WebAgentBench"
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "7,000 languages"
 ---

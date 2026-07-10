@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,18 +9,18 @@ short_title: "PL-Guard: Benchmarking Language Model Safety for Polish"
 year: 2025
 first_author: "[[Aleksandra Krasnodebska]]"
 last_author: "[[Wojciech Kusa]]"
-authors: Aleksandra Krasnodebska; Karolina Seweryn; Szymon Lukasik; Wojciech Kusa
+authors: "Aleksandra Krasnodebska; Karolina Seweryn; Szymon Lukasik; Wojciech Kusa"
 url: "https://arxiv.org/abs/2506.16322"
 external_pdf: "https://arxiv.org/pdf/2506.16322.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Krasnodebska-PL-Guard Benchmarking Language Model Safety for Polish.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Polish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Polish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, GPT-4o, GPT-4o mini, Llama-3, Qwen"
 DATA_URL: "https://huggingface.co/collections/NASK-PIB/PL-Guard-684945df2cff1837f1bc6e95"
 tags: 
 abstract: "Despite increasing efforts to ensure the safety of large language models (LLMs), most existing safety assessments and moderation tools remain heavily biased toward English and other high-resource languages, leaving majority of global languages underexamined. To address this gap, we introduce a manually annotated benchmark dataset for language model safety classification in Polish. We also create adversarially perturbed variants of these samples designed to challenge model robustness."
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PL"
+author_country: PL
 author_region: "Eastern Europe & Central Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

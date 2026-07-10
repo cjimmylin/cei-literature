@@ -6,17 +6,17 @@ Not AI:
 key: MYX4ENYX
 type: journalArticle
 short_title: "The Socio-Moral Image Database (SMID)"
-year: 2018
+year: 2025
 first_author: "[[Deon Crone]]"
 last_author: "[[Deon Crone]]"
 authors: "Deon Crone"
 doi: 10.1371/journal.pone.0190954
 url: "https://doi.org/10.1371/journal.pone.0190954"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/B8VEUSGU/Crone and others - 2018 - The Socio-Moral Image Database (SMID) A Novel Stimulus Set for the Study of Social, Moral and Affec.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 50
@@ -52,8 +52,8 @@ LLM_assessed: NA
 DATA_URL: "https://osf.io/2rqad/"
 pdf_extract: "PDF Extracts/2018/2018-Crone-The Socio-Moral Image Database (SMID).md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Crone-The Socio-Moral Image Database (SMID).pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 50
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # The Socio-Moral Image Database (SMID): A Novel Stimulus Set for the Study of Social, Moral and Affective Processes

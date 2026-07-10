@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: CULT0132
 type: preprint
 short_title: "Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language"
-year: 2024
+year: 2025
 first_author: "[[Paul, Ronny]]"
 last_author: "[[Dilip K. Prasad]]"
 authors: "Paul, Ronny; Buckchash, Himanshu; Parida, Shantipriya; Dilip K. Prasad"
@@ -51,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2405.05777"
 external_pdf: "https://arxiv.org/pdf/2405.05777.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Paul-Towards a More Inclusive AI Progress and Perspectives in Large.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "Northern Sami"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BLOOM"
-DATA_URL: "NA"
+LLM_assessed: BLOOM
+DATA_URL: NA
 tags: 
 abstract: "First study on adapting modern LLMs for the Sámi language (Northern Sámi). Compiles the SAmi LLM Token (SALT) dataset with ~22M tokens. Experiments with ~7B parameter models on multilingual training. Finds decoder-only models under sequential multilingual training perform best for ultra-low-resource languages."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NO"
+author_country: NO
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "22m tokens"
 ---
 # Towards a More Inclusive AI: Progress and Perspectives in Large Language Model Training for the Sámi Language

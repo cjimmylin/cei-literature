@@ -6,7 +6,7 @@ Not AI:
 key: 7SYVF7GD
 type: conferencePaper
 short_title: "Towards Measuring and Modeling \"
-year: 2024
+year: 2025
 first_author: "[[Muhammad Farid Adilazuarda]]"
 last_author: "[[Monojit Choudhury]]"
 authors: "Muhammad Farid Adilazuarda; Sagnik Mukherjee; Pradhyumna Lavania; Siddhant Singh; Alham Fikri Aji; Jacki O'Neill; Ashutosh Modi; Monojit Choudhury"
@@ -15,10 +15,10 @@ url: "http://arxiv.org/abs/2403.15412"
 external_pdf: "http://arxiv.org/pdf/2403.15412.pdf"
 publication: "Conference on Empirical Methods in Natural Language Processing"
 CONF-CC: "EMNLP 2024"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -55,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/faridlazuarda/cultural-llm-papers"
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation methodology dataset"
 data_metrics: "Not specified"
 ---

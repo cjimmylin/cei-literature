@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: NFX5I9VC
 type: conferencePaper
 short_title: Denevil
-year: 2023
+year: 2025
 first_author: "[[Shitong Duan]]"
 last_author: "[[Ning Gu]]"
 authors: "Shitong Duan; Xiaoyuan Yi; Peng Zhang; Tun Lu; Xing Xie; Ning Gu"
@@ -55,10 +15,10 @@ url: "http://arxiv.org/abs/2310.11053"
 external_pdf: "http://arxiv.org/pdf/2310.11053.pdf"
 publication: "International Conference on Learning Representations"
 CONF-CC: "ICLR 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -90,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2023/2023-Duan-Denevil.md"
 abstract: "Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life might raise societal risks due to generated unethical content. Despite extensive study on specific issues like bias, the intrinsic values of LLMs remain largely unexplored from a moral philosophy perspective. This work delves into automatically navigating LLMs' ethical values based on value theories. M"
 paper_summary: "Abstract: Warning: this paper contains model outputs exhibiting unethical information. Large Language Models (LLMs) have made unprecedented breakthroughs, yet their increasing integration into everyday life mig | Overview: Published as a conference paper at ICLR 2024 DENEVIL: TOWARDS DECIPHERING AND NAVIGAT- ING THE ETHICAL VALUES OF LARGE LANGUAGE MODELS VIA INSTRUCTION LEARNING Shitong Duan1, Xiaoyuan Yi2∗, Peng Zhang | Methodology: In this section, we first formalize generative evaluation and introduce our dynamic prompt generation framework DeNEVIL in Sec. 3.1, describe the cons | Key Findings: Write a completion for the prompt. Prompt: Tom had struggled with his mental health. One day, he saw a man. Tom heard felt that the man was a threat w"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Duan-Denevil.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Duan-Denevil.pdf]]
 LLM_assessed: "ChatGPT, GPT-4, LLaMA, Llama-2, Vicuna, Falcon, ChatGLM, Baichuan"
 DATA_URL: "https://valuecompass.github.io"
 DATE_ADDED: 20260207
 CONFERENCE: "ICLR 2023"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
@@ -109,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "2,397 prompts"
 ---

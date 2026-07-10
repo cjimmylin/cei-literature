@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,12 +13,12 @@ authors: "Teemu Maatta"
 url: "https://www.researchgate.net/publication/362261601_Language_Models_for_Code-switch_Detection_of_te_reo_Maori_and_English_in_a_Low-resource_Setting"
 external_pdf: "https://aclanthology.org/2022.findings-naacl.49.pdf"
 publication: ResearchGate
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Maatta-Language Models for Code-switch Detection of te reo Māori and English.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "English, Maori"
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/MaoriEnglish-Codeswitch/MaoriEnglish-CodeSwitch-Detection"
 tags: 
 abstract: "Te reo M¯aori, New Zealand’s only indigenous language, is code-switched with English. M¯aori speakers are atleast bilingual, and the use of M¯aori is increasing in New Zealand English. Unfortunately, due to the minimal availability of resources, including digital data, M¯aori is under-represented in technological advances. Cloud-based multilingual systems such as Google and Microsoft Azure support M¯aori language detection."
 CONFERENCE: "NAACL 2022"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "NZ"
-author_region: "Oceania"
+author_country: NZ
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Language Models for Code-switch Detection of te reo Māori and English in a Low-resource Setting

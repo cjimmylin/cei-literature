@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,22 +6,22 @@ Not AI:
 key: EXSR0497
 type: preprint
 short_title: "Investigating Gender Bias in Turkish Language"
-year: 2024
+year: 2025
 first_author: "[[Orhun Caglidil]]"
 last_author: "[[Georg Rehm]]"
-authors: Orhun Caglidil; Malte Ostendorff; Georg Rehm
+authors: "Orhun Caglidil; Malte Ostendorff; Georg Rehm"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2404.11726"
 external_pdf: "https://arxiv.org/pdf/2404.11726.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rehm-Investigating Gender Bias in Turkish Language.pdf]]"
 publication: arxiv.org
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Turkish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Turkish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Language models are trained mostly on Web data, which often contains social stereotypes and biases that the models can inherit. This has potentially negative consequences, as models can amplify these biases in downstream tasks or applications. However, prior research has primarily focused on the English language, especially in the context of gender bias. In particular, grammatically gender-neutral languages such as Turkish are underexplored despite representing different linguistic properties..."
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: NA
-CONFERENCE: "Preprint"
-ethics_overall: 80
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

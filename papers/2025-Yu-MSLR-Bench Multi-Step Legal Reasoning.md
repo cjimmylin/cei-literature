@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +9,7 @@ short_title: "MSLR-Bench (Multi-Step Legal Reasoning)"
 year: 2025
 first_author: "[[Wenhan Yu]]"
 last_author: "[[Lei Sha]]"
-authors: Wenhan Yu; Xinbo Lin; Lanxin Ni; Jinhua Cheng; Lei Sha
+authors: "Wenhan Yu; Xinbo Lin; Lanxin Ni; Jinhua Cheng; Lei Sha"
 url: "https://arxiv.org/abs/2511.07979"
 external_pdf: "https://arxiv.org/pdf/2511.07979.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reasoning.md"
@@ -53,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Yu-MSLR-Bench Multi-Step Legal Reason
 publication: "AAAI 2026"
 CONF-CC: "AAAI 2026"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "As large language models (LLMs) exhibit advanced reasoning capabilities in different specialized domains, their application to legal reasoning tasks is actively being explored. The pursuit of justice in legal contexts demands not only correct outcomes but also reasoned elaboration, which necessitates deriving conclusions through logically justified and transparent argumentation. Current legal benchmarks, despite being cited as reasoning-focused, suffer from three critical limitations:..."
 LLM_assessed: "DeepSeek, GPT-4, GPT-4o, Llama-3, Qwen"
 DATA_URL: "https://github.com/yuwenhan07/MSLR-Bench"
 CONFERENCE: "AAAI 2026"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

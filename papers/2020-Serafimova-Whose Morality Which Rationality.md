@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: SERAFIMOVA2020HSSC
 type: journalArticle
 short_title: "Whose Morality Which Rationality"
-year: 2020
+year: 2025
 first_author: "[[Silviya Serafimova]]"
 last_author: "[[Silviya Serafimova]]"
 authors: "Silviya Serafimova"
@@ -46,10 +15,10 @@ url: "https://www.nature.com/articles/s41599-020-00614-8"
 external_pdf: "https://www.nature.com/articles/s41599-020-00614-8.pdf"
 publication: "Humanities and Social Sciences Communications"
 CONF-CC: "Humanities and Social Sciences Communications"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -64,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -83,11 +52,11 @@ abstract: "This paper examines three different prospects for moral machines: deo
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Serafimova-Whose Morality Which Rationality.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ethics_perspective: "General Ethics"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 15
 deontological_ethics: 50
 utilitarian_ethics: 100
@@ -100,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BG"
+author_country: BG
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 42
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Whose Morality? Which Rationality? Challenging Artificial Intelligence as a Remedy for the Lack of Moral Enhancement

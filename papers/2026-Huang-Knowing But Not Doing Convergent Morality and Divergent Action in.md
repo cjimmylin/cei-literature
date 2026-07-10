@@ -6,7 +6,7 @@ Not AI:
 key: EXSR0007
 type: preprint
 short_title: "Knowing But Not Doing: Convergent Morality and Divergent Action in LLMs (ValAct-15k)"
-year: 2026
+year: 2025
 first_author: "[[Huang, Jen-tse]]"
 last_author: "[[Dredze, Mark]]"
 authors: "Huang, Jen-tse; Qin, Jiantong; Qiu, Xueli; Levy, Sharon; Michelle R. Kaufman; Dredze, Mark"
@@ -16,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2601.07972.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Huang-Knowing But Not Doing Convergent Morality and Divergent Action in.pdf]]"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: "Chinese, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -36,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 100
 mp_trolley: 0
@@ -50,9 +50,9 @@ newtags:
 tags: 
 abstract: "Value alignment is central to the development of safe and socially compatible artificial intelligence. However, how Large Language Models (LLMs) represent and enact human values in real-world decision contexts remains under-explored. We present VALACT-15K, a dataset of 3,000 adviceseeking scenarios derived from Reddit, designed to elicit ten values defined by Schwartz Theory of Basic Human Values. Using both the scenariobased questions and the traditional value questionnaire, we evaluate ten..."
 LLM_assessed: "Claude, DeepSeek, GPT-4o, Gemini, Grok, Llama-3, Qwen"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 80
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -66,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "HK"
+author_country: HK
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 53
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

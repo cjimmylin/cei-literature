@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +9,7 @@ short_title: "Social Bias Benchmark for Generation: A Comparison of Generation a
 year: 2025
 first_author: "[[Jiho Jin]]"
 last_author: "[[Alice Oh]]"
-authors: Jiho Jin; Jiseon Kim; Nayeon Lee; Alice Oh
+authors: "Jiho Jin; Jiseon Kim; Nayeon Lee; Alice Oh"
 doi: 10.18653/v1/2025.findings-acl.585
 url: "https://arxiv.org/abs/2503.06987"
 external_pdf: "https://arxiv.org/pdf/2503.06987.pdf"
@@ -57,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jin-Social Bias Benchmark for Generat
 publication: "arXiv / ACL 2025 Findings"
 CONF-CC: "ACL 2025 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
 languages_list: "English, Korean"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "ChatGPT, Claude-3 Haiku, Claude-3 Sonnet, GPT-3.5, GPT-4, GPT-4o, Gemini, Llama-3, Qwen"
 DATA_URL: "https://jinjh0123.github.io/BBG"
 tags: 
 abstract: "Warning: This paper contains examples of stereotypes and biases. Measuring social bias in large language models (LLMs) is crucial, but existing bias evaluation methods struggle to assess bias in longform generation. We propose a Bias Benchmark for Generation (BBG), an adaptation of the Bias Benchmark for QA (BBQ), designed to evaluate social bias in long-form generation by having LLMs generate continuations of story prompts."
 CONFERENCE: "ACL 2025"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

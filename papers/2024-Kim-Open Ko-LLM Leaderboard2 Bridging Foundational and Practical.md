@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,21 +6,21 @@ Not AI:
 key: LSRC0248
 type: preprint
 short_title: "Open Ko-LLM Leaderboard2: Bridging Foundational and Practical Evaluation for Korean LLMs"
-year: 2024
+year: 2025
 first_author: "[[Hyeonwoo Kim]]"
 last_author: "[[Chanjun Park]]"
-authors: Hyeonwoo Kim; Dahyun Kim; Jihoo Kim; Sukyung Lee; Yungi Kim; Chanjun Park
+authors: "Hyeonwoo Kim; Dahyun Kim; Jihoo Kim; Sukyung Lee; Yungi Kim; Chanjun Park"
 url: "https://arxiv.org/abs/2410.12445"
 external_pdf: "https://arxiv.org/pdf/2410.12445.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kim-Open Ko-LLM Leaderboard2 Bridging Foundational and Practical.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Korean"
-religious_values: "Jainism"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
+languages_list: Korean
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard"
 tags: 
 abstract: "The Open Ko-LLM Leaderboard has been instrumental in benchmarking Korean Large Language Models (LLMs), yet it has certain limitations. Notably, the disconnect between quantitative improvements on the overly academic leaderboard benchmarks and the qualitative impact of the models should be addressed. Furthermore, the benchmark suite is largely composed of translated versions of their English counterparts, which may not fully capture the intricacies of the Korean language."
 research_topic: "Machine Learning"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "KR"
+author_country: KR
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 ---

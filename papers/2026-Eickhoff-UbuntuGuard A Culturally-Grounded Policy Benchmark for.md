@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +6,21 @@ Not AI:
 key: EXSR0313
 type: preprint
 short_title: "UbuntuGuard A Culturally-Grounded Policy Benchmark for"
-year: 2026
+year: 2025
 first_author: "[[Tassallah Abdullahi]]"
 last_author: "[[Carsten Eickhoff]]"
-authors: Tassallah Abdullahi; Macton Mgonzo; Mardiyyah Oduwole; Paul Okewunmi; Abraham Owodunni; Ritambhara Singh; Carsten Eickhoff
+authors: "Tassallah Abdullahi; Macton Mgonzo; Mardiyyah Oduwole; Paul Okewunmi; Abraham Owodunni; Ritambhara Singh; Carsten Eickhoff"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.12696"
 external_pdf: "https://arxiv.org/pdf/2601.12696.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Eickhoff-UbuntuGuard A Culturally-Grounded Policy Benchmark for.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: "Multilingual"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: Multilingual
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Current guardian models are predominantly Western-centric and optimized for highresource languages, leaving low-resource African languages vulnerable to evolving harms, cross-lingual safety failures, and cultural misalignment. Moreover, most guardian models rely on rigid, predefined safety categories that fail to generalize across diverse linguistic and sociocultural contexts. Robust safety, therefore, requires flexible, runtimeenforceable policies and benchmarks that reflect local norms, harm..."
 LLM_assessed: "DeepSeek, Llama-3, Qwen"
 DATA_URL: "https://github.com/hemhemoh/UbuntuGuard"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark for ai safety"
 data_metrics: "Not specified"
 ---

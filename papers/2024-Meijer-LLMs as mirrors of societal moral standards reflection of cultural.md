@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: CULT0139
 type: preprint
 short_title: "LLMs as mirrors of societal moral standards: reflection of cultural divergence and agreement across ethical topics"
-year: 2024
+year: 2025
 first_author: "[[Mijntje Meijer]]"
 last_author: "[[Ayoub Bagheri]]"
-authors: Mijntje Meijer; Hadi Mohammadi; Ayoub Bagheri
+authors: "Mijntje Meijer; Hadi Mohammadi; Ayoub Bagheri"
 url: "https://arxiv.org/abs/2412.00962"
 external_pdf: "https://arxiv.org/pdf/2412.00962.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Meijer-LLMs as mirrors of societal moral standards reflection of cultural.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: English
+religious_values: N/A
 rv_islam: 20
 rv_christianity: 5
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -84,11 +47,11 @@ mp_identity: 0
 moral_psychology: "Value Pluralism / Schwartz"
 newtags: 
 LLM_assessed: "BLOOM, GPT-2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have become increasingly pivotal in various domains due the recent advancements in their performance capabilities. However, concerns persist regarding biases in LLMs, including gender, racial, and cultural biases derived from their training data. These biases raise critical questions about the ethical deployment and societal impact of LLMs. Acknowledging these concerns, this study investigates whether LLMs accurately reflect cross-cultural variations and..."
-CONFERENCE: "Preprint"
-ethics_overall: 80
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 20
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NL"
+author_country: NL
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

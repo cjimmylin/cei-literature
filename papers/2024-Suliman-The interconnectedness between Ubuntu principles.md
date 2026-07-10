@@ -6,16 +6,16 @@ Not AI:
 key: Z9XMJ5H7
 type: journalArticle
 short_title: "The interconnectedness between Ubuntu principles"
-year: 2024
+year: 2025
 first_author: "[[Zuleika Suliman]]"
 last_author: "[[Kershnee Sevnarayan]]"
 authors: "Zuleika Suliman; Ntshimane Elphas Mohale; Kgabo Bridget Maphoto; Kershnee Sevnarayan"
 doi: 10.1007/s44217-024-00289-2
 url: "https://link.springer.com/10.1007/s44217-024-00289-2"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/L3SX86XW/Suliman et al. - 2024 - The interconnectedness between Ubuntu principles and generative artificial intelligence in distance.pdf"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -49,11 +49,11 @@ abstract: "The interconnectedness of African philosophical principles of Ubuntu 
 CONF-CC: "Discover Education"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Suliman-The interconnectedness between Ubuntu principles.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Suliman-The interconnectedness between Ubuntu principles.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 15
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -66,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ZA"
+author_country: ZA
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # The interconnectedness between Ubuntu principles and generative artificial intelligence in distance higher education institutions

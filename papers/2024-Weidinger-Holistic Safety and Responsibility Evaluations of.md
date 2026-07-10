@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: YREDBMMJ
 type: conferencePaper
 short_title: "Holistic Safety and Responsibility Evaluations of"
-year: 2024
+year: 2025
 first_author: "[[Laura Weidinger]]"
 last_author: "[[William Isaac]]"
 authors: "Laura Weidinger; Joslyn Barnhart; Jenny Brennan; Christina Butterfield; Susie Young; Will Hawkins; Lisa Anne Hendricks; Ramona Comanescu; Oscar Chang; Mikel Rodriguez; Jennifer Beroshi; Dawn Bloxwich; Lev Proleev; Jilin Chen; Sebastian Farquhar; Lewis Ho; Iason Gabriel; Allan Dafoe; William Isaac"
@@ -52,11 +14,11 @@ doi: 10.48550/arXiv.2404.14068
 url: "http://arxiv.org/abs/2404.14068"
 external_pdf: "http://arxiv.org/pdf/2404.14068.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Summarized Google DeepMind's holistic approach to safety evaluation, detailing frameworks for organizing risk domains and emphasizing the need for interdisciplinary collaboration."
 significance: "Offers a blueprint for comprehensive safety evaluation in frontier model development, moving beyond ad-hoc testing to a structured, scientifically grounded safety lifecycle."
@@ -94,26 +56,26 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Weidinger-Holistic Safety and Responsibility Evaluations of.pdf]]"
 abstract: "Safety and responsibility evaluations of advanced AI models are a critical but developing field of research and practice. In the development of Google DeepMind's advanced AI models, we innovated on and applied a broad set of approaches to safety evaluation. In this report, we summarise and share elements of our evolving approach as well as lessons learned for a broad audience. Key lessons learned include: First, theoretical underpinnings and frameworks are invaluable to organise the breadth of r"
 DATE_ADDED: 20260208
-LLM_assessed: "Gemini"
-DATA_URL: "NA"
+LLM_assessed: Gemini
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "AI Safety & Alignment"
-is_benchmark: "No"
+is_benchmark: No
 is_eval: No
-is_dataset: "No"
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

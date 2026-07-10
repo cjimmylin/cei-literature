@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: J74UL4ZK
 type: conferencePaper
 short_title: "Examining Gender and Race Bias in Two Hundred"
-year: 2018
+year: 2025
 first_author: "[[Svetlana Kiritchenko]]"
 last_author: "[[Saif M. Mohammad]]"
 authors: "Svetlana Kiritchenko; Saif M. Mohammad"
@@ -54,10 +14,10 @@ doi: 10.18653/v1/S18-2005
 tags: 
 url: "https://aclanthology.org/S18-2005/"
 external_pdf: "https://arxiv.org/pdf/1805.04508v1.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,7 +41,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Created the Equity Evaluation Corpus (EEC) and audited 219 sentiment analysis systems, finding widespread and statistically significant bias against certain races and genders."
 significance: "A landmark systematic audit that proved bias was not an isolated incident but a pervasive issue across the entire sentiment analysis field, spurring widespread adoption of fairness testing."
@@ -90,10 +50,10 @@ pdf_extract: "PDF Extracts/2018/2018-Kiritchenko-Examining Gender and Race Bias 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2018/2018-Kiritchenko-Examining Gender and Race Bias in Two Hundred.pdf]]"
 CONF-CC: "SemEval 2018"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "http://saifmohammad.com/WebPages/Biases-SA.html"
 CONFERENCE: "Other Conference"
-ethics_overall: 50
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness text corpus"
 data_metrics: "Not specified"
 ---

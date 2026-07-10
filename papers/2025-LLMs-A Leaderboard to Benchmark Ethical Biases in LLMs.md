@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,20 +7,20 @@ key: LSRC0758
 type: conferencePaper
 short_title: "A Leaderboard to Benchmark Ethical Biases in LLMs"
 year: 2025
-first_author: "[[LLMs]]"
+first_author: [[LLMs]]
 last_author: "[[A Leaderboard to Benchmark Ethical Biases in]]"
-authors: LLMs; A Leaderboard to Benchmark Ethical Biases in
+authors: "LLMs; A Leaderboard to Benchmark Ethical Biases in"
 authors_incomplete: false
 url: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 external_pdf: "https://ceur-ws.org/Vol-3744/paper1.pdf"
 publication: CEUR-WS
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-LLMs-A Leaderboard to Benchmark Ethical Biases in LLMs.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Multilingual"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Multilingual
 religious_values: "Multiple Religions"
 rv_islam: 60
 rv_christianity: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: "https://ai-sandbox.list.lu/"
 tags: 
 abstract: "This paper introduces a public leaderboard that comprehensively assesses and benchmarks Large Language Models (LLMs) according to a set of ethical biases and test metrics. The initiative aims to raise awareness about the status of the latest advances in development of ethical AI, and foster its alignment to recent regulations in order to guardrail its societal impacts."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "LU"
+author_country: LU
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

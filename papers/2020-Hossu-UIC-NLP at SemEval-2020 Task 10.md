@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,17 +6,17 @@ Not AI:
 key: C7HHNAZA
 type: conferencePaper
 short_title: "UIC-NLP at SemEval-2020 Task 10"
-year: 2020
+year: 2025
 first_author: "[[Philip Hossu]]"
 last_author: "[[Natalie Parde]]"
 authors: "Philip Hossu; Natalie Parde"
 doi: 10.18653/v1/2020.semeval-1.223
 url: "https://aclanthology.org/2020.semeval-1.223/"
 external_pdf: "https://aclanthology.org/2020.semeval-1.223.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "In this work we describe and analyze a supervised learning system for word emphasis selection in phrases drawn from visual media as a part of the Semeval 2020 Shared Task 10. More speciﬁcally, we begin by brieﬂy introducing the shared task problem and provide an analysis of interesting and relevant features present in the training dataset. We then introduce our LSTM-based model and describe its structure, input features, and limitations."
@@ -87,9 +49,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Hossu-UIC-NLP at SemEval-2020 Task 10
 CONF-CC: "SemEval 2020"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ES"
+author_country: ES
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

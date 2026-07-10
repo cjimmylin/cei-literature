@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: AGARWAL2024
 type: conferencePaper
 short_title: "Ethical Reasoning Depends on Language"
-year: 2024
+year: 2025
 first_author: "[[Utkarsh Agarwal]]"
 last_author: "[[Choudhury, Monojit]]"
 authors: "Agarwal, Utkarsh; Tanmay, Kumar; Khandelwal, Aditi; Choudhury, Monojit"
@@ -46,10 +15,10 @@ url: "https://arxiv.org/abs/2404.18460"
 external_pdf: "https://arxiv.org/pdf/2404.18460.pdf"
 publication: "LREC-COLING 2024"
 CONF-CC: "LREC-COLING 2024"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
 languages_list: "Arabic, Chinese, English, Hindi, Russian, Spanish, Swahili"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -64,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -81,13 +50,13 @@ tags:
 abstract: "Ethical reasoning is a crucial skill for Large Language Models (LLMs). However, moral values are not universal, but rather influenced by language and culture. This paper explores how three prominent LLMs – GPT-4, ChatGPT, and Llama2-70B-Chat – perform ethical reasoning in different languages and if their moral judgement depend on the language in which they are prompted. We extend the study of ethical reasoning of LLMs by Rao et al."
 research_topic: "LLM Moral Reasoning"
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2024/2024-Agarwal-Ethical Reasoning Depends on Language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Agarwal-Ethical Reasoning Depends on Language.pdf]]"
 normative_ethics_benchmark: Yes
 DATE_ADDED: 20260207
 CONFERENCE: "LREC-COLING 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 50
 deontological_ethics: 80
 utilitarian_ethics: 50
@@ -100,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

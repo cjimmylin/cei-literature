@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +6,17 @@ Not AI:
 key: B9AUPLYG
 type: journalArticle
 short_title: "A Data-Driven Exploration of a New Islamic Fatwas"
-year: 2023
+year: 2025
 first_author: "[[Ohoud Alyemny]]"
 last_author: "[[Abdulrahman Mirza]]"
 authors: "Ohoud Alyemny; Hend Al-Khalifa; Abdulrahman Mirza"
 doi: 10.3390/data8100155
 url: "https://www.mdpi.com/2306-5729/8/10/155"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/A4GPKYSQ/Alyemny et al. - 2023 - A Data-Driven Exploration of a New Islamic Fatwas Dataset for Arabic NLP Tasks.pdf"
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,19 +40,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Arabic, Islam"
 tags: 
 abstract: "Islamic content is a broad and diverse domain that encompasses various sources, topics, and perspectives. However, there is a lack of comprehensive and reliable datasets that can facilitate conducting studies on Islamic content. In this paper, we present fatwaset, the ﬁrst public Arabic dataset of Islamic fatwas. It contains Islamic fatwas that we collected from various trusted and authenticated sources in the Islamic fatwa domain, such as agencies, religious scholars, and websites."
 pdf: "https://www.mdpi.com/2306-5729/8/10/155/pdf?version=1697687515"
-CONF-CC: "Data"
+CONF-CC: Data
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ohoud/Fatwaset.git"
 pdf_extract: "PDF Extracts/2023/2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Alyemny-A Data-Driven Exploration of a New Islamic Fatwas.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CH"
+author_country: CH
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 86
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for question answering"
 data_metrics: "Not specified"
 ---

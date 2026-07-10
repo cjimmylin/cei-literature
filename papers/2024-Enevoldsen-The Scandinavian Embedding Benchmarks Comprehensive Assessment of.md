@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,10 +6,10 @@ Not AI:
 key: LSRC0492
 type: preprint
 short_title: "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding"
-year: 2024
+year: 2025
 first_author: "[[Kenneth Enevoldsen]]"
 last_author: "[[Kristoffer Laigaard Nielbo]]"
-authors: Kenneth Enevoldsen; Marton Kardos; Niklas Muennighoff; Kristoffer Laigaard Nielbo
+authors: "Kenneth Enevoldsen; Marton Kardos; Niklas Muennighoff; Kristoffer Laigaard Nielbo"
 url: "https://arxiv.org/abs/2406.02396"
 external_pdf: "https://arxiv.org/pdf/2406.02396.pdf"
 publication: "arXiv / NeurIPS 2024"
@@ -53,10 +17,10 @@ CONF-CC: "NeurIPS 2024"
 pdf_extract: "PDF Extracts/2024/2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Enevoldsen-The Scandinavian Embedding Benchmarks Comprehensive Assessment of.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
 languages_list: "Danish, Norwegian, Swedish"
-religious_values: "Christianity"
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/KennethEnevoldsen/scandinavian-embedding-benchmark"
 tags: 
 abstract: "The evaluation of English text embeddings has transitioned from evaluating a handful of datasets to broad coverage across many tasks through benchmarks such as MTEB. However, this is not the case for multilingual text embeddings due to a lack of available benchmarks. To address this problem, we introduce the Scandinavian Embedding Benchmark (SEB). SEB is a comprehensive framework that enables text embedding evaluation for Scandinavian languages across 24 tasks, 10 subtasks, and 4 task categories."
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding

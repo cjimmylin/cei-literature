@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,20 +6,19 @@ Not AI:
 key: CULT0112
 type: conferencePaper
 short_title: "Maori Data Sovereignty in AI Development: Seeking Maori Appropriate Pathways"
-year: 2024
+year: 2025
 first_author: "[[Te Taka Keegan]]"
 last_author: "[[Te Taka Keegan]]"
-authors: Te Taka Keegan
+authors: "Te Taka Keegan"
 url: "https://www.waikato.ac.nz/assets/Uploads/Research/Research-institutes-centres-and-groups/Entities/Te-Mata-Punenga-o-Te-Kotahi-Te-Kotahi-Research-Institute-TKRI/Maori-LLM-report-final-TeTaka.pdf"
-publication: University of Waikato / Te Kotahi Research Institute
-CONF-CC: "N/A"
+publication: "University of Waikato / Te Kotahi Research Institute"
+CONF-CC: N/A
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.pdf]]"
 pdf_extract: "PDF Extracts/2024/2024-Keegan-Maori Data Sovereignty in AI Development Seeking Maori Appropriate.md"
-"N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Maori"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Maori
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -79,15 +43,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-2, LLaMA-2, Mistral, Gemma"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Evaluates how LLMs handle Maori language, identifying issues such as models not always responding in Maori and producing hallucinations (e.g., incorrectly stating Te Tiriti was signed between India and Asia). Explores bias mitigation in LLMs regarding te reo Maori and the concept of Maori data sovereignty in AI development."
-research_topic: "Other"
+research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 100
 nw_buen_vivir: 0
-author_country: "NZ"
-author_region: "Oceania"
+author_country: NZ
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

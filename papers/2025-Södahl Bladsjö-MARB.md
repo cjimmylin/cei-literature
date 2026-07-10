@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,10 +12,10 @@ last_author: "[[Muñoz Sánchez, Ricardo]]"
 authors: "Södahl Bladsjö, Tom; Muñoz Sánchez, Ricardo"
 url: "https://aclanthology.org/2025.gebnlp-1.5/"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/95P47V4W/2025 - MARB A Dataset for Studying the Social Dimensions of Reporting Bias in Language Models.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,20 +39,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Presented MARB, a dataset for studying 'reporting bias'—the tendency to over-report deviating attributes—as a lens for analyzing social biases (gender, etc.) in LMs."
 significance: "Demonstrates that bias in LMs manifests not just as stereotypes but as 'reporting bias' (mentioning race/gender only when it's non-normative), offering a new diagnostic tool for subtle social exclusions."
 tags: 
 abstract: "Reporting bias is the tendency for speakers to omit unnecessary or obvious information while mentioning things they consider relevant or surprising. In descriptions of people, reporting bias can manifest as a tendency to over report on attributes that deviate from the norm. While social bias in language models has garnered a lot of attention in recent years, a majority of the existing work equates “bias” with “stereotypes”."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, RoBERTa, ALBERT, Mistral, LLaMA, Gemma"
 DATA_URL: "https://github.com/TomBladsjo/MARB"
 pdf_extract: "PDF Extracts/2025/2025-Södahl Bladsjö-MARB.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Södahl Bladsjö-MARB.pdf]]"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SE"
+author_country: SE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

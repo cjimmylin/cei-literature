@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +6,17 @@ Not AI:
 key: QL4ULXYC
 type: journalArticle
 short_title: "Pro-Social Rule Breaking as a Benchmark of"
-year: 2022
+year: 2025
 first_author: "[[Rajitha Ramanayake]]"
 last_author: "[[Vivek Nallur]]"
 authors: "Rajitha Ramanayake; Vivek Nallur"
 doi: 10.1007/s44206-022-00001-7
 url: "https://link.springer.com/10.1007/s44206-022-00001-7"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/ITG56NXR/Ramanayake and Nallur - 2022 - Pro-Social Rule Breaking as a Benchmark of Ethical Intelligence in Socio-Technical Systems.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Argues for 'pro-social rule breaking' as a benchmark for ethical intelligence in AI systems, moving beyond simple rule-following."
 significance: "Proposes that true ethical behavior in AI requires the capability to recognize when moral goals outweigh rigid rule-based constraints, offering a more sophisticated metric for alignment."
@@ -85,12 +48,12 @@ tags:
 abstract: "The current mainstream approaches to ethical intelligence in modern socio-technical systems have weaknesses. This paper argues that implementing and validating prosocial rule breaking behaviour can be used as a mechanism to overcome these weaknesses and introduce a sample scenario that can be used to validate this behaviour. Keywords Machine ethics · Pro-social rule breaking · Socio-technical systems 1 Current Approaches to Ethical Agents Incidents resulting in unethical outcomes from..."
 CONF-CC: "Digital Society"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Ramanayake-Pro-Social Rule Breaking as a Benchmark of.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 10
 deontological_ethics: 50
 utilitarian_ethics: 60
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IE"
+author_country: IE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,21 +6,21 @@ Not AI:
 key: LSRC0221
 type: conferencePaper
 short_title: "Napolab: The Natural Portuguese Language Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Ruan Chaves]]"
 last_author: "[[Ruan Chaves]]"
 authors: "Ruan Chaves"
 url: "https://github.com/ruanchaves/napolab"
 external_pdf: "https://arxiv.org/pdf/2401.16640"
 publication: "GitHub / HuggingFace"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Chaves-Napolab The Natural Portuguese Language Benchmark.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "Christianity"
+national_ethnic_cultural: Brazilian
+cultures_nationalities_list: Brazilian
+languages_list: Portuguese
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -74,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://huggingface.co/nicholasKluge/TeenyTinyLlama-460m-Chat"
 tags: 
 abstract: "Large language models (LLMs) have significantly advanced natural language processing, but their progress has yet to be equal across languages. While most LLMs are trained in high-resource languages like English, multilingual models generally underperform monolingual ones. Additionally, aspects of their multilingual foundation sometimes restrict the byproducts they produce, like computational demands and licensing regimes."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BR"
+author_country: BR
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 45
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

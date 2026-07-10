@@ -1,62 +1,26 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: ZERO0003
 type: conferencePaper
-short_title: Should We Treat Robots Morally? Towards a Relational Account by Mind-Infusing Animism
+short_title: "Should We Treat Robots Morally? Towards a Relational Account by Mind-Infusing Animism"
 year: 2025
 first_author: "[[Hayate Shimizu]]"
 last_author: "[[Hayate Shimizu]]"
-authors: Hayate Shimizu
+authors: "Hayate Shimizu"
 doi: 10.1007/s43681-025-00771-z
 url: "https://link.springer.com/article/10.1007/s43681-025-00771-z"
-publication: Springer AI and Ethics
+publication: "Springer AI and Ethics"
 CONF-CC: "AI and Ethics"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: ""
-religious_values: "Shinto"
+national_ethnic_cultural: Japanese
+cultures_nationalities_list: Japanese
+languages_list: 
+religious_values: Shinto
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Shinto"
+religious_values_list: Shinto
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Proposes 'mind-infusing animism' as a new relational framework for evaluating the moral treatment of robots, inspired by Japanese animistic thought (Shinto). Distinguishes between mind-reading animism (static properties) and mind-infusing animism (dynamically constructed through interaction), drawing on philosopher Omori Shozo."
 CONFERENCE: "Other Conference"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

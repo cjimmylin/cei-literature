@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,17 +9,17 @@ short_title: "Multimodal Cultural Safety: Evaluation Framework and Alignment Str
 year: 2025
 first_author: "[[Haoyi Qiu]]"
 last_author: "[[Nanyun Peng]]"
-authors: Haoyi Qiu; Kung-Hsiang Huang; Ruichen Zheng; Jiao Sun; Nanyun Peng
+authors: "Haoyi Qiu; Kung-Hsiang Huang; Ruichen Zheng; Jiao Sun; Nanyun Peng"
 url: "https://arxiv.org/abs/2505.14972"
 external_pdf: "https://arxiv.org/pdf/2505.14972.pdf"
-publication: TMLR (Dec 2025)
+publication: "TMLR (Dec 2025)"
 CONF-CC: "TMLR 2025"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Qiu-Multimodal Cultural Safety Evaluation Framework and Alignment.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "Multilingual"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: Multilingual
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "GPT-4o, Gemini, Llama-3, o1"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Content Warning: This paper may contain examples of harmful contents by nature. Large vision-language models (LVLMs) are increasingly deployed in globally distributed applications, such as tourism assistants, yet their ability to produce culturally appropriate responses remains underexplored. Existing multimodal safety benchmarks primarily focus on physical safety and overlook violations rooted in cultural norms, which can result in symbolic harm."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Multilingual benchmark"
 data_metrics: "14 languages"
 ---

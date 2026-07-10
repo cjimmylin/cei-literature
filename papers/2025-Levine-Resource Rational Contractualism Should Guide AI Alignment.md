@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,10 +16,10 @@ url: "https://arxiv.org/abs/2506.17434"
 pdf_extract: "PDF Extracts/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Levine-Resource Rational Contractualism Should Guide AI Alignment.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2506.17434.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,18 +43,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Contractualism, System-2 Alignment, Moral Psychology"
 key_contribution: "Proposes 'Resource-Rational Contractualism' (RRC) as a 'System 2' reasoning component for robust AI alignment"
 significance: "Uses contractualist theory to model agreements under ideal conditions, providing a robust alternative to simple preference heuristics"
 abstract: "AI systems will soon have to navigate human environments and make decisions that affect people and other AI agents whose goals and values diverge. Contractualist alignment proposes grounding those decisions in agreements that diverse stakeholders would endorse under the right conditions, yet securing such agreement at scale remains costly and slow—even for advanced AI. We therefore propose Resource-Rational Contractualism (RRC): a framework where AI systems approximate the agreements rational..."
 paper_summary: "Abstract: AI systems will soon have to navigate human environments and make decisions that affect people and other AI agents whose goals and values diverge. Contrac- tualist alignment proposes grounding those d | Overview: arXiv:2506.17434v1 [cs.AI] 20 Jun 2025 Resource Rational Contractualism Should Guide AI Alignment Sydney Levine1,2, Matija Franklin3, Tan Zhi-Xuan2, Secil Yanik Guyot4, Lionel Wong5, Daniel Kilov4, Ye | Methodology: in the broader AI alignment literature. In §3, we de- scribe the RRC Framework and provide several exam- ples (inspired by human moral cognition) of h | Conclusions: Humans are faced with the challenge of how to navigate complex social situations with limited resources. AI systems are also engaging in this endeavor"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, Gemini, o1"
 DATA_URL: "https://anonymous.4open.science/r/RRC_experiments-F83F"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -101,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
  Resource Rational Contractualism Should Guide AI Alignment

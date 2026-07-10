@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: EXSR0468
 type: conference_paper
 short_title: "Classification of Buddhist Verses The Efficacy"
-year: 2024
+year: 2025
 first_author: "[[Nikita Neveditsin]]"
 last_author: "[[Vijay Mago]]"
-authors: Nikita Neveditsin; Ambuja Salgaonkar; Pawan Lingras; Vijay Mago
+authors: "Nikita Neveditsin; Ambuja Salgaonkar; Pawan Lingras; Vijay Mago"
 authors_incomplete: false
 url: 
 external_pdf: "https://aclanthology.org/2024.nlp4dh-1.37.pdf"
@@ -57,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Mago-Classification of Buddhist Verse
 publication: "NLP4DH 2024 (4th International Conference on Natural Language Processing for Digital Humanities), pages 377-385, Miami, USA"
 CONF-CC: "Natural Language Processing"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Pali"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Pali
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 50
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "This study assesses the ability of machine learning to classify verses from Buddhist texts into two categories: Therigatha and Theragatha, attributed to female and male authors, respectively. It highlights the difficulties in data preprocessing and the use of Transformer-based models on Devanagari script due to limited vocabulary, demonstrating that simple statistical models can be equally effective."
 LLM_assessed: "Llama-2, T5"
 DATA_URL: "https://github.com/neveditsin/pali"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,14 +66,14 @@ nw_buddhist: 50
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Classification of Buddhist Verses: The Efficacy and Limitations of Transformer-Based Models

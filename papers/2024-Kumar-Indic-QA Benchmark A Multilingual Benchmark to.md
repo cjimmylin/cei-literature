@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: EXSR0493
 type: preprint
 short_title: "Indic-QA Benchmark A Multilingual Benchmark to"
-year: 2024
+year: 2025
 first_author: "[[Singh, Abhishek Kumar]]"
 last_author: "[[Ramakrishnan, Ganesh]]"
 authors: "Singh, Abhishek Kumar; kumar, Vishwajeet; Murthy, Rudra; Sen, Jaydeep; Mittal, Ashish; Ramakrishnan, Ganesh"
@@ -54,12 +16,12 @@ external_pdf: "https://arxiv.org/pdf/2407.13522.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Kumar-Indic-QA Benchmark A Multilingual Benchmark to.pdf]]"
 publication: "WebSearch: multilingual benchmark Indic"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
-languages_list: "Multilingual"
-religious_values: "N/A"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Large Language Models (LLMs) perform well on unseen tasks in English, but their abilities in non-English languages are less explored due to limited benchmarks and training data. To bridge this gap, we introduce the Indic-QA Benchmark, a large dataset for context-grounded question answering in 11 major Indian languages, covering both extractive and abstractive tasks. Evaluations of multilingual LLMs, including instruction fine-tuned versions, revealed weak performance in lowresource languages..."
 LLM_assessed: "BLOOM, Gemma, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/ayushayush591/IndicQA-Benchmark"
 ethics_perspective: "Bias & Fairness"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset for question answering"
 data_metrics: "Not specified"
 ---

@@ -1,15 +1,15 @@
 ---
-key: "CGSR0066"
-type: "document"
+key: CGSR0066
+type: document
 short_title: "AI in Islamic Finance: A Maqasid Al-Shariah Perspective"
 year: 2025
-first_author: "[[Unknown]]"
-authors: "Unknown"
+first_author: [[Unknown]]
+authors: Unknown
 url: "https://www.researchgate.net/publication/394731467"
 abstract: "AI alignment with five dimensions of Maqasid al-Shariah in finance"
 DATE_ADDED: 20260403
-cultural_gap_category: "Islamic"
-ethics_overall: 0
+cultural_gap_category: Islamic
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -22,7 +22,7 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75

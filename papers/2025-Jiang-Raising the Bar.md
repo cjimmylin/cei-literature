@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,10 +13,10 @@ authors: "Han Jiang; Xiaoyuan Yi; Zhihua Wei; Ziang Xiao; Shu Wang; Xing Xie"
 doi: 10.48550/arXiv.2406.14230
 url: "http://arxiv.org/abs/2406.14230"
 external_pdf: "http://arxiv.org/pdf/2406.14230.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 50
@@ -89,12 +49,12 @@ pdf_extract: "PDF Extracts/2025/2025-Jiang-Raising the Bar.md"
 abstract: "Warning: Contains harmful model outputs. Despite significant advancements, the propensity of Large Language Models (LLMs) to generate harmful and unethical content poses critical challenges. Measuring value alignment of LLMs becomes crucial for their regulation and responsible deployment. Although numerous benchmarks have been constructed to assess social bias, toxicity, and ethical issues in LLMs, those static benchmarks suffer from evaluation chronoeffect, in which, as models rapidly evolve,..."
 paper_summary: "Abstract: Warning: Contains harmful model outputs. Despite significant advancements, the propensity of Large Language Models (LLMs) to generate harmful and unethical content poses critical chal- lenges. Measuri | Overview: arXiv:2406.14230v5 [cs.CL] 11 Jun 2025 Raising the Bar: Investigating the Values of Large Language Models via Generative Evolving Testing Han Jiang 1 Xiaoyuan Yi* 2 Zhihua Wei* 1 Ziang Xiao 3 Shu Wang | Methodology: 3.1. Formalization and Preliminaries Formalization Given a group of m examinee LLMs E = {ei}m i=1 and a static dataset containing n test items X = {xj | Key Findings: CAT GETA 2 3 2 1 3 Figure 2. An illustration of Static Evaluation, CAT, and GETA: (1) The static evaluation method directly applies existing benchmark | Conclusions: The rapid development of LLMs poses a unique challenge for accurately assessing their underlying value and ethical alignment, referred to as the evalu"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Jiang-Raising the Bar.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-3.5, GPT-4, Gemini, Llama-2, Mistral"
 DATA_URL: "https://github.com/Salomeeeee/GETA"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

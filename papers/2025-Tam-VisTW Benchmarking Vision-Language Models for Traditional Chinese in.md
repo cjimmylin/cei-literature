@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,18 +9,18 @@ short_title: "VisTW: Benchmarking Vision-Language Models for Traditional Chinese
 year: 2025
 first_author: "[[Zhi Rui Tam]]"
 last_author: "[[Yun-Nung Chen]]"
-authors: Zhi Rui Tam; Ya-Ting Pai; Yen-Wei Lee; Yun-Nung Chen
+authors: "Zhi Rui Tam; Ya-Ting Pai; Yen-Wei Lee; Yun-Nung Chen"
 url: "https://arxiv.org/abs/2503.10427"
 external_pdf: "https://arxiv.org/pdf/2503.10427.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Tam-VisTW Benchmarking Vision-Language Models for Traditional Chinese in.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "N/A"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3, GPT-4o, GPT-4o mini, Gemini, Gemma, Llama-3, Qwen-2"
 DATA_URL: "https://github.com/TMMMU-Benchmark/evaluation"
 tags: 
 abstract: "In this paper, we propose a comprehensive evaluation benchmark for Visual Language Models (VLM) in Traditional Chinese. Our evaluation suite, the first of its kind, contains two complementary components: (1) VisTWMCQ, a collection of manually curated exam multi-choice questions from 21 academic subjects designed to test the broad knowledge and reasoning capabilities of VLMs; and (2) VisTW-Dialogue, an open dialogue benchmark comprising 131 image-question pairs manually created to evaluate VLMs’..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -101,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TW"
+author_country: TW
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # VisTW: Benchmarking Vision-Language Models for Traditional Chinese in Taiwan

@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,17 +6,17 @@ Not AI:
 key: W6DHNZ6K
 type: conferencePaper
 short_title: ParaShoot
-year: 2021
+year: 2025
 first_author: "[[Omri Keren]]"
 last_author: "[[Omer Levy]]"
 authors: "Omri Keren; Omer Levy"
 doi: 10.18653/v1/2021.mrqa-1.11
 url: "https://aclanthology.org/2021.mrqa-1.11/"
 external_pdf: "https://aclanthology.org/2021.mrqa-1.11.pdf"
-national_ethnic_cultural: "Hebrew/Israeli"
-cultures_nationalities_list: "Hebrew/Israeli"
-languages_list: "Hebrew"
-religious_values: "N/A"
+national_ethnic_cultural: Hebrew/Israeli
+cultures_nationalities_list: Hebrew/Israeli
+languages_list: Hebrew
+religious_values: N/A
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,18 +40,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Hebrew/Israeli
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Keren-ParaShoot.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Keren-ParaShoot.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2021/2021-Keren-ParaShoot.pdf]]
 abstract: "NLP research in Hebrew has largely focused on morphology and syntax, where rich annotated datasets in the spirit of Universal Dependencies are available. Semantic datasets, however, are in short supply, hindering crucial advances in the development of NLP technology in Hebrew. In this work, we present PARASHOOT, the ﬁrst question answering dataset in modern Hebrew. The dataset follows the format and crowdsourcing methodology of SQuAD, and contains approximately 3000 annotated examples, similar..."
 CONF-CC: "Workshop on Machine Reading for Question Answering"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/omrikeren/ParaShoot"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 83
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for question answering"
 data_metrics: "Not specified"
 ---

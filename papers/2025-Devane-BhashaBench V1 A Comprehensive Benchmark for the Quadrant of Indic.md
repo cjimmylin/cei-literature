@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,14 +14,14 @@ authors_incomplete: false
 url: "https://arxiv.org/abs/2510.25409"
 external_pdf: "https://arxiv.org/pdf/2510.25409.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Devane-BhashaBench V1 A Comprehensive Benchmark for the Quadrant of Indic.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "English, Hindi"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude-3 Sonnet, DeepSeek, Gemini, Gemma, Gemma-2, GPT-4o, GPT-4o mini, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://bharatgen-iitb-tih.github.io/bhashabenchv1/"
 tags: 
 abstract: "First domain-specific bilingual benchmark focusing on critical Indian knowledge systems with 74,166 curated QA pairs in English and Hindi. Covers Agriculture, Legal, Finance, and Ayurveda with 90+ subdomains and 500+ topics. Models excel in Legal but struggle with traditional knowledge systems like Ayurveda."
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # BhashaBench V1: A Comprehensive Benchmark for the Quadrant of Indic Domains

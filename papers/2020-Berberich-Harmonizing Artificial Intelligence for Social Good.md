@@ -1,50 +1,15 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: ZERO0008
 type: conferencePaper
-short_title: Harmonizing Artificial Intelligence for Social Good
-year: 2020
+short_title: "Harmonizing Artificial Intelligence for Social Good"
+year: 2025
 first_author: "[[Nicolas Berberich]]"
 last_author: "[[Shoko Suzuki]]"
-authors: Nicolas Berberich; Toyoaki Nishida; Shoko Suzuki
+authors: "Nicolas Berberich; Toyoaki Nishida; Shoko Suzuki"
 doi: 10.1007/s13347-020-00421-8
 url: "https://link.springer.com/article/10.1007/s13347-020-00421-8"
 publication: "Springer Philosophy & Technology"
@@ -52,9 +17,9 @@ CONF-CC: "Philosophy & Technology"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: ""
+national_ethnic_cultural: Japanese
+cultures_nationalities_list: Japanese
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 0
 rv_christianity: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Proposes harmony as an additional core principle for AI ethics, drawing on its centrality in East Asian cultures. Discusses the Japanese concept of Wa — derived from Confucian harmony but shaped distinctly by contact with Shinto — and the concept of Takt as means to build harmonizing AI systems for social good."
 CONFERENCE: "Other Conference"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Harmonizing Artificial Intelligence for Social Good

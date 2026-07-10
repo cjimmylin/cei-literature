@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: 2ZM69H7H
 type: conferencePaper
 short_title: "Value FULCRA"
-year: 2023
+year: 2025
 first_author: "[[Jing Yao]]"
 last_author: "[[Xing Xie]]"
 authors: "Jing Yao; Xiaoyuan Yi; Xiting Wang; Yifan Gong; Xing Xie"
@@ -54,10 +15,10 @@ url: "http://arxiv.org/abs/2311.10766"
 external_pdf: "http://arxiv.org/pdf/2311.10766.pdf"
 publication: "North American Chapter of the Association for Computational Linguistics"
 CONF-CC: "NAACL 2023"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -94,7 +55,7 @@ LLM_assessed: "BART, BERT, GPT-3.5, GPT-4, Llama-2, Vicuna"
 DATA_URL: "https://ValueCompass.github.io"
 DATE_ADDED: 20260207
 CONFERENCE: "NAACL 2023"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -108,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

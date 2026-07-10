@@ -7,18 +7,18 @@ key: DOI_23736992_2025_2553146
 type: journalArticle
 short_title: "Insights into Moral Reasoning of AI"
 year: 2025
-first_author: "[[Sameer]]"
-last_author: "[[Rabiya]]"
-authors: Sameer; Ahmed; Fatima; Rabiya
+first_author: [[Sameer]]
+last_author: [[Rabiya]]
+authors: "Sameer; Ahmed; Fatima; Rabiya"
 doi: 10.1080/23736992.2025.2553146
 tags: "Computer Science - AI Ethics"
 url: "https://doi.org/10.1080/23736992.2025.2553146"
 publication: "Journal of Media Ethics"
 CONF-CC: "Journal of Media Ethics"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -49,11 +49,11 @@ significance: "Demonstrates humans consistently outperform LLMs on moral compete
 abstract: "Background The primary purpose of this research is to investigate the moral reasoning capabilities of Large Language Models (LLMs), especially to find out possible biases in moral reasoning by ChatGPT and other LLM-based chatbots, and whether they engage in reasoning or simply reproduce information. The study employed an experiment to assess LLMs’ performance on their moral reasoning abilities. Methods Moral reasoning is assessed using the Moral Competence Test (MCT) and the Moral Foundation..."
 DATE_ADDED: 20260208
 LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: "NA"
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Sameer-Insights into Moral Reasoning of AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Sameer-Insights into Moral Reasoning of AI.pdf]]"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # Insights into Moral Reasoning of AI: A Comparative Study Between Humans and Large Language Models

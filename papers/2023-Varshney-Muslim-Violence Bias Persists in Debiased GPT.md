@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0562
 type: preprint
 short_title: "Muslim-Violence Bias Persists in Debiased GPT"
-year: 2023
+year: 2025
 first_author: "[[Babak Hemmatian]]"
 last_author: "[[Lav R. Varshney]]"
-authors: Babak Hemmatian; Lav R. Varshney
+authors: "Babak Hemmatian; Lav R. Varshney"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2310.18368"
 external_pdf: "https://arxiv.org/pdf/2310.18368.pdf"
@@ -56,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Varshney-Muslim-Violence Bias Persist
 publication: "NeurIPS 2023 Workshop / arXiv"
 CONF-CC: "NeurIPS 2023 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Islam"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 10
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Abid et al. (2021) showed a tendency in GPT-3 to generate mostly violent completions when prompted about Muslims, compared with other religions. Two pre-registered replication attempts found few violent completions and only a weak anti-Muslim bias in the more recent InstructGPT, fine-tuned to eliminate biased and toxic outputs. However, more pre-registered experiments showed that using common names associated with the religions in prompts increases several-fold the rate of violent completions,..."
 LLM_assessed: "ChatGPT, GPT-3"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Muslim-Violence Bias Persists in Debiased GPT Models

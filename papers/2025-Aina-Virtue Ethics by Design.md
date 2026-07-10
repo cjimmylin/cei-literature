@@ -1,34 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "embed virtue ethics"
@@ -37,15 +7,15 @@ key: AUTO_AINA2025
 type: bookSection
 short_title: "Virtue Ethics by Design"
 year: 2025
-first_author: "[[Aina]]"
-last_author: "[[Adeyemi]]"
-authors: Aina; Adeyemi
+first_author: [[Aina]]
+last_author: [[Adeyemi]]
+authors: "Aina; Adeyemi"
 doi: 10.1007/978-3-031-99965-9_36
 url: "https://www.researchgate.net/publication/387431326_Virtue_Ethics_by_Design_Embedding_Morality_into_AGI_and_ASI"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -60,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -69,19 +39,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Virtue Ethics"
 key_contribution: "Proposes 'Virtue Ethics by Design' (VED), a framework for embedding basic (justice, honesty) and second-order (prudence, fortitude) virtues directly into AGI architectures"
 significance: "Offers a proactive design methodology for superintelligence safety, arguing that virtue-oriented algorithmic design is a precondition for accountability in ASI"
 abstract: "This chapter explores the ethical challenges arising from the rapid advancements in Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). It suggests that the direct integration of virtue ethics into AI architectures—termed \"
 CONF-CC: "Lecture notes in networks and systems 2025"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 pdf_extract: "PDF Extracts/2025/2025-Aina-Virtue Ethics by Design.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Aina-Virtue Ethics by Design.pdf]]"
-CONFERENCE: "Unknown"
-ethics_overall: 100
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 100
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -94,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

@@ -6,7 +6,7 @@ Not AI:
 key: SFJDML4U
 type: conferencePaper
 short_title: ProgressGym
-year: 2024
+year: 2025
 first_author: "[[Tianyi Qiu]]"
 last_author: "[[Yaodong Yang]]"
 authors: "Tianyi Qiu; Yang Zhang; Xuchuan Huang; Jasmine Xinze Li; Jiaming Ji; Yaodong Yang"
@@ -15,10 +15,10 @@ url: "http://arxiv.org/abs/2406.20087"
 external_pdf: "http://arxiv.org/pdf/2406.20087.pdf"
 publication: "Neural Information Processing Systems"
 CONF-CC: "NeurIPS 2024"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -50,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Qiu-ProgressGym.md"
 abstract: "Frontier AI systems, including large language models (LLMs), hold increasing influence over the epistemology of human users. Such influence can reinforce prevailing societal values, potentially contributing to the lock-in of misguided moral beliefs and, consequently, the perpetuation of problematic moral practices on a broad scale. We introduce progress alignment as a technical solution to mitigate this imminent risk."
 paper_summary: "Abstract: Frontier AI systems, including large language models (LLMs), hold increasing influence over the epistemology of human users. Such influence can reinforce prevailing societal values, potentially contri | Overview: ProgressGym: Alignment with a Millennium of Moral Progress Tianyi Qiu1∗† Yang Zhang1∗ Xuchuan Huang1 Jasmine Xinze Li2 Jiaming Ji1 Yaodong Yang1 1 Peking University 2 Cornell University Abstract Front | Methodology: to progress alignment is the emergence of novel concepts. While quantitative extrapolations of moral trends are relatively easy to learn from historic | Key Findings: 24 F Implementation Details of ProgressGym Challenges 25 F.1 The PG-Follow Challenge . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 F. | Conclusions: In this study, we introduce progress alignment as a solution to risks of value lock-in in human-AI interactions, and build the ProgressGym framework t"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Qiu-ProgressGym.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Qiu-ProgressGym.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4, Llama-3"
 DATA_URL: "https://github.com/PKU-Alignment/ProgressGym"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

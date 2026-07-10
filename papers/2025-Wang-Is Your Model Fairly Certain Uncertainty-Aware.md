@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,10 +12,10 @@ last_author: "[[Nicholas Apostoloff]]"
 authors: "Yinong Oliver Wang; Nivedha Sivakumar; Falaah Arif Khan; Rin Metcalf Susa; Adam Golinski; Natalie Mackraz; Barry-John Theobald; Luca Zappella; Nicholas Apostoloff"
 url: "https://arxiv.org/abs/2505.23996"
 external_pdf: "https://arxiv.org/pdf/2505.23996.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Introduced 'UCerF' (Uncertainty-Aware Fairness), a metric that penalizes models not just for being wrong, but for being *overconfidently* wrong about specific demographic groups."
 significance: "Refines fairness evaluation by adding the dimension of uncertainty/calibration – a model that is 'unsure' about a stereotype is better than one that is 'certainly' wrong, even if accuracy is similar."
@@ -92,8 +52,8 @@ CONF-CC: "ICML 2025"
 DATE_ADDED: 20260208
 LLM_assessed: "Mistral, Mixtral, Falcon, Llama-3, Qwen, DeepSeek"
 DATA_URL: "https://github.com/apple/ml-synthbias"
-CONFERENCE: "Preprint"
-ethics_overall: 90
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "31,756 samples"
 ---

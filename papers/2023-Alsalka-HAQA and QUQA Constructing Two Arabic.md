@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: EXSR0557
 type: conference_paper
 short_title: "HAQA and QUQA Constructing Two Arabic"
-year: 2023
+year: 2025
 first_author: "[[Sarah Alnefaie]]"
 last_author: "[[Mohammad Ammar Alsalka]]"
-authors: Sarah Alnefaie; Eric Atwell; Mohammad Ammar Alsalka
+authors: "Sarah Alnefaie; Eric Atwell; Mohammad Ammar Alsalka"
 authors_incomplete: false
 url: 
 external_pdf: "https://doi.org/10.26615/978-954-452-092-2_010"
@@ -57,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Alsalka-HAQA and QUQA Constructing Tw
 publication: "RANLP 2023 / ACL Anthology"
 CONF-CC: "RANLP 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: Islam
 rv_islam: 100
 rv_christianity: 5
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "It is neither possible nor fair to compare the performance of question-answering systems for the Holy Quran and Hadith Sharif in Arabic due to both the absence of a golden test dataset on the Hadith Sharif and the small size and easy questions of the newly created golden test dataset on the Holy Quran. This article presents two question–answer datasets: Hadith Question-Answer pairs (HAQA) and Quran Question–Answer pairs (QUQA)."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "http://github.com/scsaln/HAQA-and-QUQA"
 CONFERENCE: "ACL 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: SA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach text corpus for question answering"
 data_metrics: "Not specified"
 ---

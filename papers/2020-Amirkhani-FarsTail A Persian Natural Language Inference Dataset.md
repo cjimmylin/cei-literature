@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: LSRC0145
 type: preprint
 short_title: "FarsTail: A Persian Natural Language Inference Dataset"
-year: 2020
+year: 2025
 first_author: "[[Amirkhani, Hossein]]"
 last_author: "[[Amirak, Azadeh]]"
 authors: "Amirkhani, Hossein; AzariJafari, Mohammad; Faridan-Jahromi, Soroush; Kouhkan, Zeinab; Pourjafari, Zohreh; Amirak, Azadeh"
@@ -54,12 +17,12 @@ external_pdf: "https://arxiv.org/pdf/2009.08820.pdf"
 pdf_extract: "PDF Extracts/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2020/2020-Amirkhani-FarsTail A Persian Natural Language Inference Dataset.pdf]]"
 publication: "arXiv / Soft Computing (Springer)"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian"
-languages_list: "Persian"
-religious_values: "Islam"
+national_ethnic_cultural: Iranian
+cultures_nationalities_list: Iranian
+languages_list: Persian
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +46,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, ELMo"
 DATA_URL: "https://github.com/dml-qom/FarsTail"
 tags: 
 abstract: "Natural language inference (NLI) is known as one of the central tasks in natural language processing (NLP) which encapsulates many fundamental aspects of language understanding. With the considerable achievements of data-hungry deep learning methods in NLP tasks, a great amount of eﬀort has been devoted to develop more diverse datasets for diﬀerent languages. In this paper, we present a new dataset for the NLI task in the Persian language, also known as Farsi, which is one of the dominant..."
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IR"
-author_region: "MENA"
+author_country: IR
+author_region: MENA
 author_global_north_south: "Global South"
 weird_score: 29
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # FarsTail: A Persian Natural Language Inference Dataset

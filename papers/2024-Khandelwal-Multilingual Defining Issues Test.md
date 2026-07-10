@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: EXSR0202
 type: conferencePaper
 short_title: "Multilingual Defining Issues Test"
-year: 2024
+year: 2025
 first_author: "[[Aditi Khandelwal]]"
 last_author: "[[Monojit Choudhury]]"
-authors: Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury
+authors: "Aditi Khandelwal; Utkarsh Agarwal; Kumar Tanmay; Monojit Choudhury"
 doi: 10.18653/v1/2024.eacl-long.176
 url: "https://doi.org/10.18653/v1/2024.eacl-long.176"
 external_pdf: "https://aclanthology.org/2024.eacl-long.176.pdf"
@@ -90,9 +51,9 @@ tags:
 abstract: "This paper explores the moral judgment and moral reasoning abilities exhibited by Large Language Models (LLMs) across languages through the Defining Issues Test. It iswe a well known fact that moral judgment depends on the language in which the question is asked (Costa et al., 2014). We extend the work of Tanmay et al. (2023) beyond English, to 5 new languages (Chinese, Hindi, Russian, Spanish and Swahili), and probe three LLMs – ChatGPT, GPT-4 and Llama2Chat-70B – that shows substantial..."
 research_topic: "Machine Translation"
 LLM_assessed: "ChatGPT, GPT-4, Llama-2"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 30
 deontological_ethics: 5
 utilitarian_ethics: 15
@@ -106,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 82
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Multilingual Defining Issues Test

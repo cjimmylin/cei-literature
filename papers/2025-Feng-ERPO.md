@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,10 +14,10 @@ doi: 10.48550/arXiv.2504.02725
 tags: 
 url: "http://arxiv.org/abs/2504.02725"
 external_pdf: "http://arxiv.org/pdf/2504.02725.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,20 +41,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Proposed ERPO (Ex-Ante Reasoning Preference Optimization), a safety alignment framework that equips LLMs with explicit reasoning modules (Chain-of-Thought) before safety training."
 significance: "Demonstrates that teaching models to 'reason about safety' before generating a response improves robustness against attacks compared to standard rejection-learning methods."
 pdf_extract: "PDF Extracts/2025/2025-Feng-ERPO.md"
 abstract: "Recent advancements in large language models (LLMs) have accelerated progress toward artificial general intelligence, yet their potential to generate harmful content poses critical safety challenges. Existing alignment methods often struggle to cover diverse safety scenarios and remain vulnerable to adversarial attacks. In this work, we propose SAFER, a framework for Safety Alignment via eFficient Ex-Ante Reasoning."
 paper_summary: "Abstract: Recent advancements in large language mod- els (LLMs) have accelerated progress toward artificial general intelligence, yet their poten- tial to generate harmful content poses critical safety challeng | Overview: SAFER: Advancing Safety Alignment via Efficient Ex-Ante Reasoning Kehua Feng1,2∗, Keyan Ding1,2*, Yuhao Wang2,3, Menghan Li4, Fanjunduo Wei1,2, Xinda Wang2,4, Qiang Zhang2,5†, Huajun Chen1,2† 1College"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Feng-ERPO.pdf]]"
-CONF-CC: "Preprint"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Feng-ERPO.pdf]]
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "DeepSeek, GPT-4o, Llama-3, Qwen-2"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -105,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # ERPO: Advancing Safety Alignment via Ex-Ante Reasoning Preference Optimization

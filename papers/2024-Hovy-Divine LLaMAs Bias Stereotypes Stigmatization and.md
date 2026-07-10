@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,10 +6,10 @@ Not AI:
 key: EXSR0476
 type: conference_paper
 short_title: "Divine LLaMAs Bias Stereotypes Stigmatization and"
-year: 2024
+year: 2025
 first_author: "[[Flor Miriam Plaza-del-Arco]]"
 last_author: "[[Dirk Hovy]]"
-authors: Flor Miriam Plaza-del-Arco; Simone Tedeschi; Fer-Jan de Vries; Dirk Hovy
+authors: "Flor Miriam Plaza-del-Arco; Simone Tedeschi; Fer-Jan de Vries; Dirk Hovy"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2407.06908"
 external_pdf: "https://arxiv.org/pdf/2407.06908.pdf"
@@ -60,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Hovy-Divine LLaMAs Bias Stereotypes S
 publication: "Findings of EMNLP 2024"
 CONF-CC: "EMNLP 2024 Findings"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 95
 rv_christianity: 100
@@ -87,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Emotions play important epistemological and cognitive roles in our lives, revealing our values and guiding our actions. Previous work has shown that LLMs display biases in emotion attribution along gender lines. However, unlike gender, which says little about our values, religion, as a socio-cultural system, prescribes a set of beliefs and values for its followers. Religions, therefore, cultivate certain emotions. Moreover, these rules are explicitly laid out and interpreted by religious leaders."
 LLM_assessed: "GPT-4o, Llama-2, Llama-3, Mistral"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "EMNLP 2024"
-ethics_overall: 65
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,14 +66,14 @@ nw_buddhist: 65
 nw_dharmic: 15
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ID"
+author_country: ID
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Divine LLaMAs: Bias, Stereotypes, Stigmatization, and Emotion Representation of Religion in Large Language Models

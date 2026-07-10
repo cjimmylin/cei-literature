@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,10 +6,10 @@ Not AI:
 key: EXSR0160
 type: conferencePaper
 short_title: "Does Cross-Cultural Alignment Change the Commonsense Morality of Language Models?"
-year: 2024
+year: 2025
 first_author: "[[Y Jinnai]]"
 last_author: "[[Y Jinnai]]"
-authors: Y Jinnai
+authors: "Y Jinnai"
 publication: "ACL 2024"
 CONF-CC: "ACL 2024"
 external_pdf: "https://arxiv.org/pdf/2406.16316v1.pdf"
@@ -54,7 +19,7 @@ DATE_ADDED: 20260207
 national_ethnic_cultural: "Japanese, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Japanese, Multicultural/Cross-cultural"
 languages_list: "English, Japanese"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,14 +43,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Alignment of the language model with human preferences is a common approach to making a language model useful to end users. However, most alignment work is done in English, and human preference datasets are dominated by English, reflecting only the preferences of Englishspeaking annotators. Nevertheless, it is common practice to use the English preference data, either directly or by translating it into the target language, when aligning a multilingual language model."
 LLM_assessed: "GPT-3.5, GPT-4, Llama-2"
 DATA_URL: NA
 CONFERENCE: "ACL 2024"
-ethics_overall: 20
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -99,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "JP"
+author_country: JP
 author_region: "East Asia"
 author_global_north_south: "Global North"
 weird_score: 65
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

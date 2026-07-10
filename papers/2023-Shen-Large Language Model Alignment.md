@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: NZ4RKDFT
 type: conferencePaper
 short_title: "Large Language Model Alignment"
-year: 2023
+year: 2025
 first_author: "[[Tianhao Shen]]"
 last_author: "[[Deyi Xiong]]"
 authors: "Tianhao Shen; Renren Jin; Yufei Huang; Chuang Liu; Weilong Dong; Zishan Guo; Xinwei Wu; Yan Liu; Deyi Xiong"
@@ -53,11 +14,11 @@ doi: 10.48550/arXiv.2309.15025
 url: "http://arxiv.org/abs/2309.15025"
 external_pdf: "http://arxiv.org/pdf/2309.15025.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "AI Safety & Alignment"
 key_contribution: "Provides a comprehensive survey of Large Language Model alignment techniques, categorizing methods for ensuring behaviors consistent with human values."
 significance: "Synthesizes the rapidly growing field of alignment, offering a structured overview of technical approaches (RLHF, RLAIF, etc.) to mitigate risks like toxicity and misinformation."
@@ -96,25 +57,25 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shen-Large Language Model Alignment.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ethics_perspective: "AI Safety & Alignment"
 ---

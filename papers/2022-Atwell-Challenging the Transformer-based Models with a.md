@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0581
 type: conference_paper
 short_title: "Challenging the Transformer-based Models with a"
-year: 2022
+year: 2025
 first_author: "[[Shatha Altammami]]"
 last_author: "[[Eric Atwell]]"
-authors: Shatha Altammami; Eric Atwell
+authors: "Shatha Altammami; Eric Atwell"
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -56,10 +18,10 @@ local_pdf: N/A
 publication: "LREC 2022 / ACL Anthology"
 CONF-CC: "LREC 2022"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Evaluates transformer models on detecting relatedness between Quran verses and Hadith teachings using a carefully curated dataset verified by religious experts. Tests monolingual, bilingual, and multilingual models on Classical Arabic text understanding."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/ShathaTm/Quran_Hadith_Datasets"
 CONFERENCE: "ACL 2022"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "SA"
-author_region: "MENA"
-author_global_north_south: "Ambiguous"
+author_country: SA
+author_region: MENA
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

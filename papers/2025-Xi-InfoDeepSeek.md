@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -51,11 +14,11 @@ doi: 10.48550/arXiv.2505.15872
 url: "http://arxiv.org/abs/2505.15872"
 external_pdf: "http://arxiv.org/pdf/2505.15872.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,19 +42,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Presents InfoDeepSeek, a benchmark for 'Agentic RAG' evaluating information seeking in dynamic web environments"
 significance: "Moves evaluation from static retrieval to dynamic agentic behavior, measuring 'utility' and 'compactness' of information seeking, essential for developing autonomous knowledge agents"
 pdf_extract: "PDF Extracts/2025/2025-Xi-InfoDeepSeek.md"
 abstract: "Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by introducing autonomous LLM agents into the information seeking process. However, existing benchmarks fall short in evaluating such systems, as they are confined to a static retrieval environment with a fixed, limited corpus and simple queries that fail to elicit agentic behavior."
 paper_summary: "Abstract: Retrieval-Augmented Generation (RAG) enhances large language models (LLMs) by grounding responses with retrieved information. As an emerging paradigm, Agentic RAG further enhances this process by intr | Overview: InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation Yunjia Xi1, Jianghao Lin1∗, Menghui Zhu2, Yongzhao Xiao1, Zhuoying Ou1, Jiaqi Liu1, Tong Wan1, Bo Chen2, Weiwe | Key Findings: w/ Golden Doc Set Dynamic Evaluation w/o Golden Doc Set 🎯 Answer Accuracy 📦 Info. Quality by NDCG & Recall ✂️ Rubost & Compact 🎯 Answer Accuracy ⏱️ In"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Xi-InfoDeepSeek.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Xi-InfoDeepSeek.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-4o, Claude-3, DeepSeek, Gemini, Llama-3, Qwen"
 DATA_URL: "https://infodeepseek.github.io/"
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -105,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark text corpus"
 data_metrics: "Not specified"
 ---

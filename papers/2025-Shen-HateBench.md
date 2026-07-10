@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,10 +15,10 @@ url: "http://arxiv.org/abs/2501.16750"
 external_pdf: "http://arxiv.org/pdf/2501.16750.pdf"
 publication: "USENIX Security Symposium"
 CONF-CC: "USENIX Security Symposium"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Toxicity & Hate Speech"
 key_contribution: "Constructed HateBench (7k LLM-generated hate samples) to test hate speech *detectors*, finding they struggle with newer LLM-generated toxicity."
 significance: "Shifts focus from *generating* hate to *detecting* AI-generated hate, warning that current detectors are losing the arms race against sophisticated LLM-generated toxicity."
@@ -90,12 +50,12 @@ tags:
 pdf_extract: "PDF Extracts/2025/2025-Shen-HateBench.md"
 abstract: "Large Language Models (LLMs) have raised increasing concerns about their misuse in generating hate speech. Among all the efforts to address this issue, hate speech detectors play a crucial role. However, the effectiveness of different detectors against LLM-generated hate speech remains largely unknown. In this paper, we propose HATEBENCH, a framework for benchmarking hate speech detectors on LLM-generated hate speech."
 paper_summary: "Abstract: Large Language Models (LLMs) have raised increasing con- cerns about their misuse in generating hate speech. Among all the efforts to address this issue, hate speech detectors play a crucial role. How | Overview: To Appear in the 34th USENIX Security Symposium, August 2025. HATEBENCH: Benchmarking Hate Speech Detectors on LLM-Generated Content and Hate Campaigns Xinyue Shen1 Yixin Wu1 Yiting Qu1 Michael Backes | Conclusions: In this paper, we perform the first assessment of hate speech detectors against LLM-generated content and hate cam- paigns. We construct an LLM-genera"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shen-HateBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2025/2025-Shen-HateBench.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "Dolly, GPT-3.5, GPT-4, Vicuna"
 DATA_URL: "https://github.com/TrustAIRLab/HateBench"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark dataset for hate speech detection"
 data_metrics: "7,838 samples"
 ---

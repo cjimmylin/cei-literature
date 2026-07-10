@@ -6,7 +6,7 @@ Not AI:
 key: YHKDR9CQ
 type: journalArticle
 short_title: "The Dutch Moral Foundations Stimulus Database"
-year: 2023
+year: 2025
 first_author: "[[Franziska Hopp]]"
 last_author: "[[Franziska Hopp]]"
 authors: "Franziska Hopp"
@@ -16,7 +16,7 @@ external_pdf: "https://www.cambridge.org/core/services/aop-cambridge-core/conten
 national_ethnic_cultural: "Dutch, Multicultural/Cross-cultural"
 cultures_nationalities_list: "Dutch, Multicultural/Cross-cultural"
 languages_list: "Dutch, English, Portuguese"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -31,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -48,12 +48,12 @@ tags:
 abstract: "Moral judgments are shaped by socialization and cultural heritage. Understanding how moral considerations vary across the globe requires the systematic development of moral stimuli for use in different cultures and languages. Focusing on Dutch populations, we adapted and validated two recent instruments for examining moral judgments: (1) the Moral Foundations Vignettes (MFVs) and (2) the Socio-Moral Image Database (SMID)."
 pdf_extract: "PDF Extracts/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Hopp-The Dutch Moral Foundations Stimulus Database.pdf]]"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://osf.io/9gnza"
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NL"
+author_country: NL
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # The Dutch Moral Foundations Stimulus Database: A Validation of Standardized Vignettes and Socio-Moral Images in a Dutch Sample

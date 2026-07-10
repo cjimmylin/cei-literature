@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,22 +6,22 @@ Not AI:
 key: EXSR0454
 type: preprint
 short_title: "A multilingual dataset for offensive language"
-year: 2024
+year: 2025
 first_author: "[[Saminu Mohammad Aliyu]]"
 last_author: "[[Muhammad Murtala]]"
-authors: Saminu Mohammad Aliyu; Gregory Maksha Wajiga; Muhammad Murtala
+authors: "Saminu Mohammad Aliyu; Gregory Maksha Wajiga; Muhammad Murtala"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2406.02169"
 external_pdf: "https://arxiv.org/pdf/2406.02169.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Murtala-A multilingual dataset for offensive language.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Murtala-A multilingual dataset for offensive language.pdf]]"
 publication: "WebSearch: Hausa Igbo Yoruba offensive language hate speech multilingual dataset"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
 languages_list: "Hausa, Igbo, Yoruba"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Novel datasets for offensive language detection in three major Nigerian languages from Twitter, manually annotated by native speakers. Best model achieved 90% accuracy. Note: paper was withdrawn by authors for experimental errors. Covers Hausa, Yoruba, and Igbo for hate speech/offensive language detection. Note: paper withdrawn but represents active research area. AfriHate provides more robust alternative."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/bharathichezhiyan/DravidianCodeMix-Dataset"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IE"
+author_country: IE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 77
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

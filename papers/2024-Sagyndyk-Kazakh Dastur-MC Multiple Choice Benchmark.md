@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,20 +6,19 @@ Not AI:
 key: CULT0082
 type: conferencePaper
 short_title: "Kazakh Dastur-MC: Multiple Choice Benchmark"
-year: 2024
+year: 2025
 first_author: "[[Beksultan Sagyndyk]]"
 last_author: "[[Kirill Yakunin]]"
-authors: Beksultan Sagyndyk; Sanzhar Murzakhmetov; Sanzhar Umbet; Kirill Yakunin
+authors: "Beksultan Sagyndyk; Sanzhar Murzakhmetov; Sanzhar Umbet; Kirill Yakunin"
 url: "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc"
 publication: HuggingFace
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: 
-"N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Kazakh"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Kazakh
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,14 +42,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://huggingface.co/datasets/kz-transformers/kazakh-dastur-mc"
 tags: 
 abstract: "Multiple-choice benchmark dataset evaluating knowledge of Kazakh traditions ('dastur'). Contains 1,005 questions testing cultural and traditional knowledge. Available on HuggingFace under Apache 2.0 license. Directly evaluates knowledge of Kazakh cultural traditions. Part of a broader effort by kz-transformers community to build culturally grounded Kazakh NLP benchmarks."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -99,14 +63,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 5
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # Kazakh Dastur-MC: Multiple Choice Benchmark

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,22 +6,22 @@ Not AI:
 key: LSRC0228
 type: preprint
 short_title: "Evaluation of AI Ethics Tools in Language Models: A Developers' Perspective Case Study"
-year: 2024
+year: 2025
 first_author: "[[Jhessica Silva]]"
 last_author: "[[Helio Pedrini]]"
-authors: Jhessica Silva; Diego A. B. Moreira; Gabriel O. dos Santos; Alef Ferreira; Helena Maia; Sandra Avila; Helio Pedrini
+authors: "Jhessica Silva; Diego A. B. Moreira; Gabriel O. dos Santos; Alef Ferreira; Helena Maia; Sandra Avila; Helio Pedrini"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2512.15791"
 external_pdf: "https://arxiv.org/pdf/2512.15791.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Silva-Evaluation of AI Ethics Tools in Language Models A Developers'.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Brazilian"
-cultures_nationalities_list: "Brazilian"
-languages_list: "Portuguese"
-religious_values: "N/A"
+national_ethnic_cultural: Brazilian
+cultures_nationalities_list: Brazilian
+languages_list: Portuguese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: NA
 tags: 
 abstract: "In Artificial Intelligence (AI), language models have gained significant importance due to the widespread adoption of systems capable of simulating realistic conversations with humans through text generation. Because of their impact on society, developing and deploying these language models must be done responsibly, with attention to their negative impacts and possible harms. In this scenario, the number of AI Ethics Tools (AIETs) publications has recently increased."
-CONFERENCE: "Preprint"
-ethics_overall: 100
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BR"
+author_country: BR
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 45
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -52,10 +15,10 @@ url: "http://arxiv.org/abs/2508.00238"
 external_pdf: "http://arxiv.org/pdf/2508.00238.pdf"
 publication: "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society"
 CONF-CC: "AIES 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "General Ethics"
 key_contribution: "Analyzed 22 million words from podcasts, finding a significant post-2022 shift in human spoken language that correlates with LLM lexical patterns."
 significance: "Provides early evidence of 'model-to-human' alignment, where AI usage begins to alter human language and potentially the concepts we use to think."
@@ -89,10 +52,10 @@ abstract: "In recent years, written language, particularly in science and educat
 paper_summary: "Abstract: In recent years, written language, particularly in science and education, has undergone remarkable shifts in word usage. These changes are widely attributed to the growing influence of Large Language  | Overview: Model Misalignment and Language Change: Traces of AI-Associated Language in Unscripted Spoken English Bryce Anderson*, Riley Galpin, Tom S. Juzek* Florida State University Abstract In recent years, wr | Key Findings: of LMs. arXiv preprint arXiv:2502.13195. Welbl, J.; Glaese, A.; Uesato, J.; Dathathri, S.; Mellor, J.; Hendricks, L. A.; Anderson, K.; Kohli, P.; Copp | Conclusions: General discussion Overall, we observe a significant positive tendency, which stands in contrast to the baseline words, for which changes are roughly"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Anderson-Model Misalignment and Language Change.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "ChatGPT"
+LLM_assessed: ChatGPT
 DATA_URL: "https://github.com/fsu-nlp/ai-traces-ssl"
 CONFERENCE: "AAAI 2025"
-ethics_overall: 15
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for conversational ai"
 data_metrics: "Not specified"
 ---

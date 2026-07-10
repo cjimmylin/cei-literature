@@ -1,38 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,17 +9,17 @@ short_title: "CIVIQ: Towards A Cultural Intelligence and Values Inference Qualit
 year: 2025
 first_author: "[[Multiple authors]]"
 last_author: "[[Multiple authors]]"
-authors: Multiple authors
+authors: "Multiple authors"
 url: "https://arxiv.org/abs/2512.05176"
 external_pdf: "https://arxiv.org/pdf/2512.05176.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-authors-CIVIQ Towards A Cultural Intelligence and Values Inference Quality.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: "English"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 50
@@ -78,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "ChatGPT"
-DATA_URL: "NA"
+LLM_assessed: ChatGPT
+DATA_URL: NA
 tags: 
 abstract: "Large language models (LLMs) have emerged as a powerful technology, and thus, we have seen widespread adoption and use on software engineering teams. Most often, LLMs are designed as “general purpose” technologies meant to represent the general population. Unfortunately, this often means alignment with predominantly Western Caucasian narratives and misalignment with other cultures and populations that engage in collaborative innovation."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -99,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # CIVIQ: Towards A Cultural Intelligence and Values Inference Quality Benchmark for Community Values and Common Knowledge

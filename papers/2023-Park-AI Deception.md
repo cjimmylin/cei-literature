@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: JR85YRDT
 type: conferencePaper
 short_title: "AI Deception"
-year: 2023
+year: 2025
 first_author: "[[Peter S. Park]]"
 last_author: "[[Dan Hendrycks]]"
 authors: "Peter S. Park; Simon Goldstein; Aidan O'Gara; Michael Chen; Dan Hendrycks"
@@ -52,11 +14,11 @@ doi: 10.48550/arXiv.2308.14752
 url: "http://arxiv.org/abs/2308.14752"
 external_pdf: "http://arxiv.org/pdf/2308.14752.pdf"
 publication: Patterns
-CONF-CC: "Patterns"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+CONF-CC: Patterns
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -71,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 pdf_extract: "PDF Extracts/2023/2023-Park-AI Deception.md"
@@ -89,9 +51,9 @@ paper_summary: "Abstract: This paper argues that a range of current AI systems h
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Park-AI Deception.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

@@ -1,46 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,9 +7,9 @@ key: EXSR0346
 type: preprint
 short_title: "Cognitive Bias in Generative AI Influences"
 year: 2025
-first_author: "[[Zhang]]"
-last_author: "[[Liu]]"
-authors: Zhang; Song; Liu
+first_author: [[Zhang]]
+last_author: [[Liu]]
+authors: "Zhang; Song; Liu"
 authors_incomplete: false
 url: 
 external_pdf: "https://www.nature.com/articles/s41598-025-99121-6.pdf"
@@ -60,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhang-Cognitive Bias in Generative AI
 publication: "Scientific Reports (Nature)"
 CONF-CC: "Nature Scientific Reports"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: ""
-religious_values: "Judaism"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: 
+religious_values: Judaism
 rv_islam: 10
 rv_christianity: 5
 rv_buddhism: 0
@@ -78,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Judaism"
+religious_values_list: Judaism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Experimental study showing generative AI not only reflects but amplifies cognitive biases in religious education. Christianity and Judaism perceptions became more positive after AI interaction, while Islam perception became more negative. Finds AI acts as 'double-edged sword': enhancing personalized learning while risking reinforcement of prejudice. Calls for ethical guidelines in deploying AI in religious contexts."
 LLM_assessed: "ChatGPT, GPT-4"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 75
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -108,14 +66,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Cognitive Bias in Generative AI Influences Religious Education

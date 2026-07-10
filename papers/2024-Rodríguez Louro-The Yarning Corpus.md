@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: 8DBSJ2EW
 type: journalArticle
 short_title: "The Yarning Corpus"
-year: 2024
+year: 2025
 first_author: "[[Celeste Rodríguez Louro]]"
 last_author: "[[Glenys Collard]]"
 authors: "Celeste Rodríguez Louro; Glenys Collard"
@@ -50,10 +15,10 @@ url: "https://doi.org/10.1080/07268602.2024.2380661"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/G3WM3XWB/Rodríguez Louro and Collard - 2024 - The Yarning Corpus Aboriginal English in Southwest Western Australia.pdf"
 pdf_extract: "PDF Extracts/2024/2024-Rodríguez Louro-The Yarning Corpus.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Rodríguez Louro-The Yarning Corpus.pdf]]"
-national_ethnic_cultural: "Australian/Aboriginal"
-cultures_nationalities_list: "Australian/Aboriginal"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: Australian/Aboriginal
+cultures_nationalities_list: Australian/Aboriginal
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 10
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Australian/Aboriginal
 tags: 
 research_topic: Other
@@ -85,10 +50,10 @@ abstract: "The Yarning Corpus consists of acrolectal Aboriginal English data gat
 pdf: "https://doi.org/10.1080/07268602.2024.2380661"
 CONF-CC: "Australian Journal of Linguistics"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 0
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "AU"
-author_region: "Oceania"
+author_country: AU
+author_region: Oceania
 author_global_north_south: "Global North"
 weird_score: 81
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Text corpus for conversational ai"
 data_metrics: "517,600 words"
 ---

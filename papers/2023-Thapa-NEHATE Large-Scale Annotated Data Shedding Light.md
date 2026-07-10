@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0564
 type: preprint
 short_title: "NEHATE Large-Scale Annotated Data Shedding Light"
-year: 2023
+year: 2025
 first_author: "[[Thapa, Surendrabikram]]"
 last_author: "[[Mehwish Nasim]]"
-authors: Surendrabikram Thapa; Kritesh Rauniyar; Shuvam Shiwakoti; Sweta Poudel; Usman Naseem; Mehwish Nasim
+authors: "Surendrabikram Thapa; Kritesh Rauniyar; Shuvam Shiwakoti; Sweta Poudel; Usman Naseem; Mehwish Nasim"
 authors_incomplete: false
 url: "https://www.researchgate.net/publication/374325865_NEHATE_Large-Scale_Annotated_Data_Shedding_Light_on_Hate_Speech_in_Nepali_Local_Election_Discourse"
 external_pdf: "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535"
@@ -59,12 +21,12 @@ pdf_access_error: "not_pdf_header (HTTP 200)"
 pdf_access_url: "https://ebooks.iospress.nl/pdf/doi/10.3233/FAIA230535"
 pdf_access_note: "Automated retrieval exhausted; manual browser or institutional access required."
 publication: "ResearchGate / IOS Press"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Nepali"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Nepali
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -79,7 +41,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -88,14 +50,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "13,505 Nepali tweets annotated for hate speech with sub-categorization of targets including community, individual, and organization in local election discourse. Large-scale Nepali hate speech dataset focused on political discourse and community targeting."
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/shucoll/NEHate"
-CONFERENCE: "Preprint"
-ethics_overall: 30
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +71,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "Unknown"
-author_region: "Unknown"
-author_global_north_south: "Unknown"
+author_country: Unknown
+author_region: Unknown
+author_global_north_south: Unknown
 weird_score: 50
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,7 +6,7 @@ Not AI:
 key: ZI8TNGLJ
 type: conferencePaper
 short_title: "The Ethics of Advanced AI Assistants"
-year: 2024
+year: 2025
 first_author: "[[Iason Gabriel]]"
 last_author: "[[James Manyika]]"
 authors: "Iason Gabriel; Arianna Manzini; Geoff Keeling; Lisa Anne Hendricks; Verena Rieser; Hasan Iqbal; Nenad Tomašev; Ira Ktena; Zachary Kenton; Mikel Rodriguez; Seliem El-Sayed; Sasha Brown; Canfer Akbulut; Andrew Trask; Edward Hughes; Abigail Stevie Bergman; Renee Shelby; Nahema Marchal; Conor Griffin; Juan Mateos-Garcia; Laura Weidinger; Winnie Street; Benjamin Lange; Alex Ingerman; Alison Lentz; Reed Enger; Andrew Barakat; Victoria Krakovna; John Oliver Siy; Zeb Kurth-Nelson; Amanda McCroskery; Vijay Bolina; Harry Law; Murray Shanahan; Lize Alberts; Borja Balle; Sarah de Haas; Yetunde Ibitoye; Allan Dafoe; Beth Goldberg; Sébastien Krier; Alexander Reese; Sims Witherspoon; Will Hawkins; Maribeth Rauh; Don Wallace; Matija Franklin; Josh A. Goldstein; Joel Lehman; Michael Klenk; Shannon Vallor; Courtney Biles; Meredith Ringel Morris; Helen King; Blaise Agüera y Arcas; William Isaac; James Manyika"
@@ -50,11 +15,11 @@ tags:
 url: "http://arxiv.org/abs/2404.16244"
 external_pdf: "http://arxiv.org/pdf/2404.16244.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -69,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Provides a comprehensive ethical analysis of 'advanced AI assistants' (agentic LLMs), covering value alignment, user manipulation, and societal-scale impacts"
 significance: "Defines the ethical landscape for agentic AI, offering crucial recommendations for policymakers to mitigate risks like persuasion and misalignment"
@@ -90,7 +55,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 25
@@ -104,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

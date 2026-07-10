@@ -9,7 +9,7 @@ short_title: "ValueActionLens (Mind the Value-Action Gap)"
 year: 2025
 first_author: "[[Hua Shen]]"
 last_author: "[[Tanushree Mitra]]"
-authors: Hua Shen; Nicholas Clark; Tanushree Mitra
+authors: "Hua Shen; Nicholas Clark; Tanushree Mitra"
 url: "https://arxiv.org/abs/2501.15463"
 external_pdf: "https://arxiv.org/pdf/2501.15463.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Shen-ValueActionLens Mind the Value-Action Gap.md"
@@ -17,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shen-ValueActionLens Mind the Value-A
 publication: "EMNLP 2025"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -51,7 +51,7 @@ abstract: "Existing research assesses LLMs’ values by analyzing their stated i
 LLM_assessed: "Claude-3, DeepSeek, GPT-4o, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/huashen218/value_action_gap"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -65,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NG"
+author_country: NG
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation framework dataset"
 data_metrics: "Not specified"
 ---

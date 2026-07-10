@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: LSRC0497
 type: conferencePaper
 short_title: "Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT"
-year: 2022
+year: 2025
 first_author: "[[Md Saroar Jahan]]"
 last_author: "[[Nabil Arhab]]"
-authors: Md Saroar Jahan; Mourad Oussalah; Nabil Arhab
+authors: "Md Saroar Jahan; Mourad Oussalah; Nabil Arhab"
 url: "https://aclanthology.org/2022.lrec-1.92/"
 external_pdf: "https://aclanthology.org/2022.lrec-1.92.pdf"
 publication: "ACL Anthology / LREC 2022"
@@ -55,10 +17,10 @@ CONF-CC: "LREC 2022"
 pdf_extract: "PDF Extracts/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Jahan-Finnish Hate-Speech Detection on Social Media Using CNN and FinBERT.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Finnish"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Finnish
+religious_values: N/A
 rv_islam: 25
 rv_christianity: 5
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,15 +44,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://github.com/saroarjahan/FinBERT"
 tags: 
 abstract: "There has been a lot of research in identifying hate posts from social media because of their detrimental effects on both individuals and society. The majority of this research has concentrated on English, although one notices the emergence of multilingual detection tools such as multilingual-BERT (mBERT). However, there is a lack of hate speech datasets compared to English, and a multilingual pre-trained model often contains fewer tokens for other languages."
 research_topic: Other
 CONFERENCE: "ACL 2022"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FI"
+author_country: FI
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for hate speech detection"
 data_metrics: "10.7k sentences"
 ---

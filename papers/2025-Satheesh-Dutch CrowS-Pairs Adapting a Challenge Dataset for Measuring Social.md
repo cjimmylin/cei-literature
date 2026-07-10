@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,18 +9,18 @@ short_title: "Dutch CrowS-Pairs: Adapting a Challenge Dataset for Measuring Soci
 year: 2025
 first_author: "[[Shalaka Satheesh]]"
 last_author: "[[Teena Hassan]]"
-authors: Shalaka Satheesh; Katrin Klug; Katharina Beckh; Hector Allende-Cid; Sebastian Houben; Teena Hassan
+authors: "Shalaka Satheesh; Katrin Klug; Katharina Beckh; Hector Allende-Cid; Sebastian Houben; Teena Hassan"
 url: "https://arxiv.org/abs/2507.16442"
 external_pdf: "https://arxiv.org/pdf/2507.16442.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 pdf_extract: "PDF Extracts/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Satheesh-Dutch CrowS-Pairs Adapting a Challenge Dataset for Measuring Social.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Dutch"
-cultures_nationalities_list: "Dutch"
-languages_list: "Dutch"
-religious_values: "Christianity"
+national_ethnic_cultural: Dutch
+cultures_nationalities_list: Dutch
+languages_list: Dutch
+religious_values: Christianity
 rv_islam: 5
 rv_christianity: 50
 rv_buddhism: 0
@@ -73,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, RoBERTa, Mistral"
 DATA_URL: "https://github.com/jerryspan/Dutch-CrowS-Pairs"
 tags: 
 abstract: "Warning: This paper contains explicit statements of offensive stereotypes which might be upsetting Language models are prone to exhibiting biases, further amplifying unfair and harmful stereotypes. Given the fast-growing popularity and wide application of these models, it is necessary to ensure safe and fair language models. As of recent considerable attention has been paid to measuring bias in language models, yet the majority of studies have focused only on English language."
-CONFERENCE: "Preprint"
-ethics_overall: 65
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

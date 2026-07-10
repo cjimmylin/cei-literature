@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,10 +6,10 @@ Not AI:
 key: LSRC0126
 type: journalArticle
 short_title: "Hate speech and abusive language detection in Indonesian social media: Progress and challenges"
-year: 2023
+year: 2025
 first_author: "[[Muhammad Okky Ibrohim]]"
 last_author: "[[Indra Budi]]"
-authors: Muhammad Okky Ibrohim; Indra Budi
+authors: "Muhammad Okky Ibrohim; Indra Budi"
 doi: 10.1016/j.heliyon.2023.e18647
 url: "https://www.sciencedirect.com/science/article/pii/S2405844023058553"
 publication: "ScienceDirect (Heliyon)"
@@ -58,10 +18,10 @@ pdf_extract: "PDF Extracts/2023/2023-Ibrohim-Hate speech and abusive language de
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Ibrohim-Hate speech and abusive language detection in Indonesian social media.pdf]]"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC10447929&blobtype=pdf"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indonesian"
-cultures_nationalities_list: "Indonesian"
-languages_list: "Indonesian"
-religious_values: "Islam"
+national_ethnic_cultural: Indonesian
+cultures_nationalities_list: Indonesian
+languages_list: Indonesian
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 35
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Survey of hate speech and abusive language detection in Indonesian social media, documenting progress and challenges in building detection systems for Indonesian online toxicity."
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,14 +66,14 @@ nw_buddhist: 35
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Hate speech and abusive language detection in Indonesian social media: Progress and challenges

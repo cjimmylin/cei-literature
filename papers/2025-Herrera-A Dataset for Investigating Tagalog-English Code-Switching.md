@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,20 +7,20 @@ key: LSRC0838
 type: conferencePaper
 short_title: "A Dataset for Investigating Tagalog-English Code-Switching"
 year: 2025
-first_author: "[[Herrera]]"
-last_author: "[[Megan]]"
-authors: Herrera; Megan
+first_author: [[Herrera]]
+last_author: [[Megan]]
+authors: "Herrera; Megan"
 url: "https://aclanthology.org/2022.lrec-1.225.pdf"
 external_pdf: "https://aclanthology.org/2022.lrec-1.225.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Herrera-A Dataset for Investigating Tagalog-English Code-Switching.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Herrera-A Dataset for Investigating Tagalog-English Code-Switching.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Filipino"
-cultures_nationalities_list: "Filipino"
+national_ethnic_cultural: Filipino
+cultures_nationalities_list: Filipino
 languages_list: "English, Filipino"
-religious_values: "Jainism"
+religious_values: Jainism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Jainism"
+religious_values_list: Jainism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
 DATA_URL: "https://github.com/meg2121/TweetTaglish-Dataset"
 tags: 
 abstract: "Deploying recent natural language processing innovations to low-resource settings allows for state-of-the-art research findings and applications to be accessed across cultural and linguistic borders. One low-resource setting of increasing interest is codeswitching, the phenomenon of combining, swapping, or alternating the use of two or more languages in continuous dialogue. In this paper, we introduce a large dataset (20k+ instances) to facilitate investigation of Tagalog-English..."
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -100,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "PH"
+author_country: PH
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # A Dataset for Investigating Tagalog-English Code-Switching

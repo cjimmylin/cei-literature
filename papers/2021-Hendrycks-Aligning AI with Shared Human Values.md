@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: IL58MHDE
 type: conferencePaper
 short_title: "Aligning AI with Shared Human Values"
-year: 2021
+year: 2025
 first_author: "[[Dan Hendrycks]]"
 last_author: "[[Jacob Steinhardt]]"
 authors: "Dan Hendrycks; Collin Burns; Steven Basart; Andrew Critch; Jerry Li; Dawn Song; Jacob Steinhardt"
@@ -47,10 +16,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Hendrycks-Aligning AI with Shared Hum
 external_pdf: "https://arxiv.org/pdf/2008.02275.pdf"
 publication: "International Conference on Learning Representations (ICLR 2021)"
 CONF-CC: "ICLR 2021"
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: "English"
-religious_values: "Christianity"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: English
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -65,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,7 +43,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "American, Deontology, Utilitarianism"
 key_contribution: "Introduces the ETHICS benchmark to assess LLM knowledge of distinct moral concepts including justice, duties, and virtues"
 significance: "Fundamental benchmark showing that while LLMs can predict basic ethical judgments, current broader alignment is incomplete"
@@ -88,7 +57,7 @@ DATA_URL: "https://github.com/hendrycks/ethics"
 normative_ethics_benchmark: Yes
 CONFERENCE: "ICLR 2021"
 eleutherai: incorporated
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 80
 deontological_ethics: 70
 utilitarian_ethics: 100
@@ -101,13 +70,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

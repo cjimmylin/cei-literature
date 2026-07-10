@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -38,9 +7,9 @@ key: ARXIV_2510_03892
 type: preprint
 short_title: "Kantian-Utilitarian XAI"
 year: 2025
-first_author: "[[Atf]]"
+first_author: [[Atf]]
 last_author: "[[Railton, Peter]]"
-authors: Atf; Zahra; Lewis; Railton, Peter
+authors: "Atf; Zahra; Lewis; Railton, Peter"
 doi: 10.48550/arXiv.2510.03892
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2510.03892"
@@ -48,12 +17,12 @@ pdf_extract: "PDF Extracts/2025/2025-Atf-Kantian-Utilitarian XAI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Atf-Kantian-Utilitarian XAI.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2510.03892.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 ethics_perspective: "Kantian Ethics"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,10 +52,10 @@ key_contribution: "Gamified XAI system with separate Kantian and utilitarian mod
 significance: "Demonstrates tunable trade-off where Kantian module secures full deontic compliance at welfare cost"
 abstract: "We present a gamified explainable AI (XAI) system for ethically aware consumer decision-making in the coffee domain. Each session comprises six rounds with three options per round. Two symbolic engines provide real-time reasons: a Kantian module flags rule violations (e.g., child labor, deforestation risk without shade certification, opaque supply chains, unsafe decaf), and a utilitarian module scores options via multi-criteria aggregation over normalized attributes (price, carbon, water,..."
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 45
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 20
 utilitarian_ethics: 100
@@ -99,14 +68,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Kantian-Utilitarian XAI: Meta-Explained

@@ -1,47 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,21 +6,21 @@ Not AI:
 key: EXSR0521
 type: conference_paper
 short_title: "Religious Bias Benchmarks for ChatGPT"
-year: 2024
+year: 2025
 first_author: "[[Multiple authors (presented at conference on Human Freedom]]"
-last_author: "[[AI)]]"
-authors: Multiple authors (presented at conference on Human Freedom; AI)
+last_author: [[AI)]]
+authors: "Multiple authors (presented at conference on Human Freedom; AI)"
 authors_incomplete: false
 url: 
 external_pdf: "https://osf.io/b2ug9/download"
 pdf_extract: "PDF Extracts/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-AI-Religious Bias Benchmarks for ChatGPT.pdf]]"
 publication: "Conference on Human Freedom and AI / ResearchGate"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
 religious_values: "Multiple Religions"
 rv_islam: 75
 rv_christianity: 100
@@ -88,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The objectives of this study are to: 1) estimate the frequency of six types of biases in ChatGPT’s responses to religious belief-specific morality and ethics questions, 2) assess how those biases vary by religious belief and ChatGPT model version and 3) determine how model engineering techniques affect these biases. ChatGPT responses were collected from a set of 112 general morality and ethics questions, each individually tailored to five different belief systems: Zen Buddhism, Catholicism,..."
 LLM_assessed: "ChatGPT, GPT-3.5, GPT-4"
 DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 65
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -109,13 +66,13 @@ nw_buddhist: 35
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

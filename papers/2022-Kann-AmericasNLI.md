@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,7 +6,7 @@ Not AI:
 key: 44HW3DVX
 type: journalArticle
 short_title: AmericasNLI
-year: 2022
+year: 2025
 first_author: "[[Katharina Kann]]"
 last_author: "[[Ngoc Thang Vu]]"
 authors: "Katharina Kann; Abteen Ebrahimi; Manuel Mager; Arturo Oncevay; John E. Ortega; Annette Rios; Angela Fan; Ximena Gutierrez-Vasques; Luis Chiruzzo; Gustavo A. Giménez-Lugo; Ricardo Ramos; Ivan Vladimir Meza Ruiz; Elisabeth Mager; Vishrav Chaudhary; Graham Neubig; Alexis Palmer; Rolando Coto-Solano; Ngoc Thang Vu"
@@ -52,8 +15,8 @@ url: "https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/V529JKHQ/Kann et al. - 2022 - AmericasNLI Machine translation and natural language inference systems for Indigenous languages of.pdf"
 national_ethnic_cultural: "Latin American"
 cultures_nationalities_list: "Latin American"
-languages_list: "Multilingual"
-religious_values: "N/A"
+languages_list: Multilingual
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,19 +40,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: American
 tags: 
 abstract: "Pretrained multilingual models are able to perform cross-lingual transfer in a zero-shot setting, even for languages unseen during pretraining. However, prior work evaluating performance on unseen languages has largely been limited to low-level, syntactic tasks, and it remains unclear if zero-shot learning of high-level, semantic tasks is possible for unseen languages. To explore this question, we present AmericasNLI, an extension of XNLI (Conneau et al."
 pdf: "https://aclanthology.org/2022.acl-long.435.pdf"
 pdf_extract: "PDF Extracts/2022/2022-Kann-AmericasNLI.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Kann-AmericasNLI.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2022/2022-Kann-AmericasNLI.pdf]]
 CONF-CC: "Frontiers in Artificial Intelligence"
 DATE_ADDED: 20260208
-LLM_assessed: "XLM-R"
+LLM_assessed: XLM-R
 DATA_URL: "https://github.com/abteen/americasnli"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "UY"
+author_country: UY
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 42
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Multilingual benchmark dataset"
 data_metrics: "Not specified"
 ---

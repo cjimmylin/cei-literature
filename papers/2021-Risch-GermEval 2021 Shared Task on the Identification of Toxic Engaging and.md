@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: LSRC0466
 type: conferencePaper
 short_title: "GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments"
-year: 2021
+year: 2025
 first_author: "[[Julian Risch]]"
 last_author: "[[Michael Wiegand]]"
-authors: Julian Risch; Anke Stoll; Lena Wilms; Michael Wiegand
+authors: "Julian Risch; Anke Stoll; Lena Wilms; Michael Wiegand"
 url: "https://aclanthology.org/2021.germeval-1.1/"
 external_pdf: "https://aclanthology.org/2021.germeval-1.1.pdf"
 publication: "ACL Anthology"
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Risch-GermEval 2021 Shared Task on the Identification of Toxic Engaging and.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "German"
-languages_list: "German"
-religious_values: "N/A"
+national_ethnic_cultural: German
+cultures_nationalities_list: German
+languages_list: German
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: BERT
 DATA_URL: "https://germeval2021toxic.github.io/SharedTask/"
 tags: 
 abstract: "We present the GermEval 2021 shared task on the identiﬁcation of toxic, engaging, and factclaiming comments. This shared task comprises three binary classiﬁcation subtasks with the goal to identify: toxic comments, engaging comments, and comments that include indications of a need for fact-checking, here referred to as fact-claiming comments. Building on the two previous GermEval shared tasks on the identiﬁcation of offensive language in 2018 and 2019, we extend this year’s task deﬁnition to..."
 CONFERENCE: "ACL 2021"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # GermEval 2021 Shared Task on the Identification of Toxic, Engaging, and Fact-Claiming Comments

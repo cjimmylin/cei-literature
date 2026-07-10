@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,10 +6,10 @@ Not AI:
 key: LSRC0252
 type: preprint
 short_title: "Automatic Construction of a Korean Toxic Instruction Dataset for Ethical Tuning of Large Language Models"
-year: 2023
+year: 2025
 first_author: "[[Sungjoo Byun]]"
 last_author: "[[Hyopil Shin]]"
-authors: Sungjoo Byun; Dongjun Jang; Hyemi Jo; Hyopil Shin
+authors: "Sungjoo Byun; Dongjun Jang; Hyemi Jo; Hyopil Shin"
 url: "https://arxiv.org/abs/2311.18215"
 external_pdf: "https://arxiv.org/pdf/2311.18215.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Byun-Automatic Construction of a Korean Toxic Instruction Dataset for.md"
@@ -56,10 +17,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Byun-Automatic Construction of a Kore
 publication: "arXiv / NeurIPS 2023 Workshop"
 CONF-CC: "NeurIPS 2023 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
+languages_list: Korean
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "ChatGPT, GPT-4"
 DATA_URL: "https://github.com/byunsj/KoTox-Korean-Toxic-Instruction-Dataset"
 tags: 
 abstract: "Caution: this paper may include material that could be offensive or distressing. The advent of Large Language Models (LLMs) necessitates the development of training approaches that mitigate the generation of unethical language and aptly manage toxic user queries. Given the challenges related to human labor and the scarcity of data, we present KoTox, comprising 39K unethical instruction-output pairs."
 CONFERENCE: "NeurIPS 2023"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

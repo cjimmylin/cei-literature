@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,16 +6,16 @@ Not AI:
 key: 2FWESDIS
 type: conferencePaper
 short_title: "Benchmarking Fairness in Image Upsampling"
-year: 2024
+year: 2025
 first_author: "[[Mike Laszkiewicz]]"
 last_author: "[[Oliver Evans]]"
 authors: "Mike Laszkiewicz; Oliver Evans"
 url: "https://facctconference.org/static/papers24/facct24-36.pdf"
 external_pdf: "https://facctconference.org/static/papers24/facct24-36.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -68,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -77,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Benchmarks fairness in image upsampling tasks, likely investigating whether super-resolution models introduce or amplify biases (e.g., changing facial features to match majority demographics)."
 significance: "Highlights a specific, often-overlooked vector for bias in computer vision: the reconstruction of low-resolution images, which relies on model priors that may be racially or gender biased."
@@ -86,12 +48,12 @@ pdf_extract: "PDF Extracts/2024/2024-Laszkiewicz-Benchmarking Fairness in Image 
 abstract: "Recent years have witnessed a rapid development of deep generative models for creating synthetic media, such as images and videos. While the practical applications of these models in everyday tasks are enticing, it is crucial to assess the inherent risks regarding © 2024 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-0450-5/24/06 https://doi.org/10.1145/3630106.3658921 FAccT ’24, June 03–06, 2024, Rio de Janeiro, Brazil Laszkiewicz et al. their fairness."
 paper_summary: "Abstract: Recent years have witnessed a rapid development of deep gen- erative models for creating synthetic media, such as images and videos. While the practical applications of these models in everyday tasks  | Overview: Benchmarking the Fairness of Image Upsampling Methods Mike Laszkiewicz Mike.Laszkiewicz@rub.de Faculty of Computer Science, Ruhr University Bochum, North Rhine-Westphalia Germany Imant Daunhawer Depar | Methodology: PULSE pSp fair-pSp Post.Samp. DDRM (a) Models trained on UnfairFace. White Southeast Asian Latino Hispanic Middle Eastern Black East Asian Indian | Key Findings: based on ΔUCPR −𝜒2 and ΔUCPR-Cheb in Table 3. Note, that since the generation process in pSp and fair-pSp is deterministic,9 we cannot generate differ | Conclusions: This work advances toward a principled assessment of conditional generative models. Our contribution lies in the formulation of a comprehensive evalua"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Laszkiewicz-Benchmarking Fairness in Image Upsampling.pdf]]"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/MikeLasz/Benchmarking-Fairness-ImageUpsampling"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -105,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

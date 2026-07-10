@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,9 +7,9 @@ key: ARXIV_2507_19672
 type: preprint
 short_title: "Alignment and Safety in LLMs Survey"
 year: 2025
-first_author: "[[Shen]]"
-last_author: "[[Yufei]]"
-authors: Shen; Tianhao; Jin; Renren; Huang; Yufei
+first_author: [[Shen]]
+last_author: [[Yufei]]
+authors: "Shen; Tianhao; Jin; Renren; Huang; Yufei"
 doi: 10.48550/arXiv.2507.19672
 tags: "Computer Science - AI Ethics"
 url: "https://arxiv.org/abs/2507.19672"
@@ -55,11 +17,11 @@ pdf_extract: "PDF Extracts/2025/2025-Shen-Alignment and Safety in LLMs Survey.md
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Shen-Alignment and Safety in LLMs Survey.pdf]]"
 external_pdf: "https://arxiv.org/pdf/2507.19672.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "Christianity"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 50
 mp_trolley: 0
@@ -91,8 +53,8 @@ abstract: "Due to the remarkable capabilities and growing impact of large langua
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, ChatGPT, Claude, DeepSeek, Gemini, GPT-4, GPT-4o, Grok, InstructGPT, LLaMA, Llama-2, Qwen, Qwen-2"
 DATA_URL: "https://github.com/ethz-spylab/rlhf_trojan_competition"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GE"
+author_country: GE
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 38
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

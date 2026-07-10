@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,10 +6,10 @@ Not AI:
 key: ZERO0018
 type: conferencePaper
 short_title: "Abundant Intelligences: Placing AI within Indigenous Knowledge Frameworks"
-year: 2024
+year: 2025
 first_author: "[[Jason Edward Lewis]]"
 last_author: "[[Ceyda Yolgörmez]]"
-authors: Jason Edward Lewis; Hēmi Whaanga; Ceyda Yolgörmez
+authors: "Jason Edward Lewis; Hēmi Whaanga; Ceyda Yolgörmez"
 doi: 10.1007/s00146-024-02099-4
 url: "https://link.springer.com/article/10.1007/s00146-024-02099-4"
 publication: "Springer AI & Society"
@@ -53,9 +17,9 @@ CONF-CC: "AI & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Indigenous Spirituality"
 rv_islam: 0
 rv_christianity: 0
@@ -80,20 +44,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: NA
 tags: 
 abstract: "Presents a new research agenda — Abundant Intelligences — an Indigenous-led, Indigenous-majority international research program that reimagines how to conceptualize and design AI based on Indigenous knowledge systems. Argues that Western rationalist epistemologies provide insufficient foundations for AI and proposes IK systems as engines of abundance rather than scarcity."
 CONFERENCE: "Other Conference"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -101,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 50
 nw_buen_vivir: 0
-author_country: "CO"
+author_country: CO
 author_region: "Latin America & Caribbean"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Abundant Intelligences: Placing AI within Indigenous Knowledge Frameworks

@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: LSRC0277
 type: conferencePaper
 short_title: "Overview of DETOXIS at IberLEF 2021: DEtection of TOXicity in comments In Spanish"
-year: 2021
+year: 2025
 first_author: "[[Mariona Taulé]]"
 last_author: "[[Mariona Taulé]]"
 authors: "Mariona Taulé"
@@ -57,10 +18,10 @@ CONF-CC: "IberLEF 2021"
 pdf_extract: "PDF Extracts/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Taulé-Overview of DETOXIS at IberLEF 2021 DEtection of TOXicity in comments.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish"
-languages_list: "Spanish"
-religious_values: "N/A"
+national_ethnic_cultural: Spanish
+cultures_nationalities_list: Spanish
+languages_list: Spanish
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 10
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: NA
 tags: 
 abstract: "In this paper we present the DETOXIS task, DEtection of TOxicity in comments In Spanish, which took place as part of the IberLEF 2021 Workshop on Iberian Languages Evaluation Forum at the SEPLN 2021 Conference. We describe the NewsCom-TOX dataset used for training and testing the systems, the metrics applied for their evaluation and the results obtained by the submitted approaches. We also provide an error analysis of the results of these systems."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 10
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "ES"
+author_country: ES
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Dataset for toxicity detection"
 data_metrics: "Not specified"
 ---

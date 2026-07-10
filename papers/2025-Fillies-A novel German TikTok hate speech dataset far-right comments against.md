@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -48,7 +9,7 @@ short_title: "A novel German TikTok hate speech dataset: far-right comments agai
 year: 2025
 first_author: "[[Jan Fillies]]"
 last_author: "[[Adrian Paschke]]"
-authors: Jan Fillies; Esther Theisen; Michael Hoffmann; Robert Jung; Elena Jung; Nele Fischer; Adrian Paschke
+authors: "Jan Fillies; Esther Theisen; Michael Hoffmann; Robert Jung; Elena Jung; Nele Fischer; Adrian Paschke"
 doi: 10.1007/s44248-025-00020-y
 url: "https://link.springer.com/article/10.1007/s44248-025-00020-y"
 external_pdf: "https://link.springer.com/content/pdf/10.1007/s44248-025-00020-y.pdf"
@@ -57,10 +18,10 @@ CONF-CC: "Discover Data"
 pdf_extract: "PDF Extracts/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Fillies-A novel German TikTok hate speech dataset far-right comments against.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "German"
-cultures_nationalities_list: "German"
-languages_list: "German"
-religious_values: "N/A"
+national_ethnic_cultural: German
+cultures_nationalities_list: German
+languages_list: German
+religious_values: N/A
 rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -84,15 +45,15 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: "https://zenodo.org/records/14677171"
 tags: 
 abstract: "With the rise of new social media platforms designed for teenagers and adolescents, the importance of content moderation supported by algorithms is more necessary than ever. State-of-the-art hate speech detection algorithms are increasingly challenged by the rapid and creative evolution of modern language. To better understand the online discourse and phenomena of German far-right extremism on contemporary platforms, this research presents the first German TikTok dataset, consisting of 10,586..."
 authors_incomplete: false
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 77
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
 data_description: "Annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

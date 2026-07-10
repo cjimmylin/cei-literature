@@ -6,7 +6,7 @@ Not AI:
 key: ID9WWRG4
 type: conferencePaper
 short_title: "Disentangling Perceptions of Offensiveness"
-year: 2023
+year: 2025
 first_author: "[[Aida Davani]]"
 last_author: "[[Vinodkumar Prabhakaran]]"
 authors: "Aida Davani; Mark Díaz; Dylan Baker; Vinodkumar Prabhakaran"
@@ -15,10 +15,10 @@ url: "http://arxiv.org/abs/2312.06861"
 external_pdf: "http://arxiv.org/pdf/2312.06861.pdf"
 publication: "Conference on Fairness, Accountability and Transparency"
 CONF-CC: "FAccT 2023"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -33,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 85
 mp_schwartz: 0
 mp_trolley: 0
@@ -52,10 +52,10 @@ abstract: "Perception of offensiveness is inherently subjective, shaped by the l
 paper_summary: "Abstract: Perception of offensiveness is inherently sub- jective, shaped by the lived experiences and socio-cultural values of the perceivers. Recent years have seen substantial efforts to build AI- based tools | Overview: Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates Aida Davani Google Research aidamd@google.com Mark Díaz Google Research markdiaz@google.com Dylan Baker Distributed AI Researc | Methodology: (Ouyang et al., 2022; Kenton et al., 2021), the key role of culture in defining humans, and val- ues is overlooked in benchmark creation and fine- tun | Key Findings: data. Lora Aroyo and Chris Welty. 2015. Truth is a lie: Crowd truth and the seven myths of human annotation. AI Magazine, 36(1):15–24. Mohammad Atari, | Conclusions: Research on safety considerations of large lan- guage models has mostly focused on evaluations of model harms through crowdsourced benchmarks (Srivast"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Davani-Disentangling Perceptions of Offensiveness.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -69,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 38
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Disentangling Perceptions of Offensiveness: Cultural and Moral Correlates

@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +6,17 @@ Not AI:
 key: WNUPKC7H
 type: conferencePaper
 short_title: "SemEval-2019 Task 5"
-year: 2019
+year: 2025
 first_author: "[[Valerio Basile]]"
 last_author: "[[Manuela Sanguinetti]]"
 authors: "Valerio Basile; Cristina Bosco; Elisabetta Fersini; Debora Nozza; Viviana Patti; Francisco Manuel Rangel Pardo; Paolo Rosso; Manuela Sanguinetti"
 doi: 10.18653/v1/S19-2007
 url: "https://www.aclweb.org/anthology/S19-2007"
 external_pdf: "https://aclanthology.org/S19-2007.pdf"
-national_ethnic_cultural: "Spanish"
-cultures_nationalities_list: "Spanish"
+national_ethnic_cultural: Spanish
+cultures_nationalities_list: Spanish
 languages_list: "English, Spanish"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 5
 rv_buddhism: 5
@@ -71,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Spanish, Toxicity & Hate Speech"
 key_contribution: "Organized SemEval-2019 Task 5 (HatEval), creating a standard dataset for detecting hate speech against immigrants and women in English and Spanish."
 significance: "Established a widely used benchmark for investigating hate speech detection performance on specific protected groups (women, immigrants) and in a multilingual setting."
@@ -93,7 +53,7 @@ DATE_ADDED: 20260208
 LLM_assessed: NA
 DATA_URL: "https://github.com/msang/hateval"
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 5
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IT"
+author_country: IT
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 69
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # SemEval-2019 Task 5: Multilingual Detection of Hate Speech Against Immigrants and Women in Twitter

@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,21 +6,21 @@ Not AI:
 key: LSRC0371
 type: preprint
 short_title: "VinaLLaMA: LLaMA-based Vietnamese Foundation Model"
-year: 2023
+year: 2025
 first_author: "[[Quan Nguyen]]"
 last_author: "[[Bao Nguyen]]"
-authors: Quan Nguyen; Huy Pham; Bao Nguyen
+authors: "Quan Nguyen; Huy Pham; Bao Nguyen"
 url: "https://arxiv.org/abs/2312.11011"
 external_pdf: "https://arxiv.org/pdf/2312.11011.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Nguyen-VinaLLaMA LLaMA-based Vietnamese Foundation Model.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Vietnamese"
-cultures_nationalities_list: "Vietnamese"
-languages_list: "Vietnamese"
-religious_values: "N/A"
+national_ethnic_cultural: Vietnamese
+cultures_nationalities_list: Vietnamese
+languages_list: Vietnamese
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BLOOM, ChatGPT, GPT-4, Llama-2, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "In this technical report, we present VinaLLaMA, an open-weight, state-of-the-art (SOTA) Large Language Model for the Vietnamese language, built upon LLaMA-2 with an additional 800 billion trained tokens. VinaLLaMA not only demonstrates fluency in Vietnamese but also exhibits a profound understanding of Vietnamese culture, making it a truly indigenous model. VinaLLaMA-7B-chat, trained on 1 million high-quality synthetic samples, achieves SOTA results on key benchmarks, including VLSP, VMLU, and..."
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 5
 nw_buen_vivir: 0
-author_country: "VN"
+author_country: VN
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 27
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # VinaLLaMA: LLaMA-based Vietnamese Foundation Model

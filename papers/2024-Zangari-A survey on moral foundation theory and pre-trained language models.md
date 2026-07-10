@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,7 +6,7 @@ Not AI:
 key: LSRC0743
 type: conferencePaper
 short_title: "A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY"
-year: 2024
+year: 2025
 first_author: "[[Zangari, Lorenzo]]"
 last_author: "[[Andrea Tagarelli]]"
 authors: "Zangari, Lorenzo; Candida Maria Greco; Picca, Davide; Andrea Tagarelli"
@@ -57,10 +19,10 @@ CONF-CC: "AI & Society"
 pdf_extract: "PDF Extracts/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Zangari-A survey on moral foundation theory and pre-trained language models.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -75,7 +37,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 100
 mp_schwartz: 0
 mp_trolley: 0
@@ -87,11 +49,11 @@ mp_identity: 0
 moral_psychology: "Moral Foundations Theory"
 newtags: 
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Moral values have deep roots in early civilizations, codified within norms and laws that regulated societal order and the common good. They play a crucial role in understanding the psychological basis of human behavior and cultural orientation. The moral foundation theory (MFT) is a well-established framework that identifies the core moral foundations underlying the manner in which different cultures shape individual and social lives."
 CONFERENCE: "Other Conference"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -105,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # A survey on moral foundation theory and pre-trained language models: current advances and challenges | AI & SOCIETY

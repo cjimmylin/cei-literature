@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -53,11 +16,11 @@ external_pdf: "https://arxiv.org/pdf/2508.05429.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Hew-MyCulture Exploring Malaysia's Diverse Culture under Low-Resource.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Malay"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Malay
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 0
@@ -82,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "DeepSeek, GPT-4o, GPT-4o mini, LLaMA, Llama-3, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Large Language Models (LLMs) often exhibit cultural biases due to training data dominated by high-resource languages like English and Chinese. This poses challenges for accurately representing and evaluating diverse cultural contexts, particularly in low-resource language settings. To address this, we introduce MyCulture, a benchmark designed to comprehensively evaluate LLMs on Malaysian culture across six pillars: arts, attire, customs, entertainment, food, and religion presented in Bahasa..."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "MY"
+author_country: MY
 author_region: "Southeast Asia"
 author_global_north_south: "Global South"
 weird_score: 45
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "2,600 questions"
 ---

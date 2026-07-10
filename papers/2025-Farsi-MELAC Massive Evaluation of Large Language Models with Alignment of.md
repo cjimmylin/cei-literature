@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +9,17 @@ short_title: "MELAC: Massive Evaluation of Large Language Models with Alignment 
 year: 2025
 first_author: "[[Farhan Farsi]]"
 last_author: "[[Saeedeh Momtazi]]"
-authors: Farhan Farsi; Farnaz Aghababaloo; Shahriar Shariati Motlagh; Parsa Ghofrani; MohammadAli SadraeiJavaheri; Shayan Bali; Amirhossein Shabani; Farbod Bijary; Ghazal Zamaninejad; AmirMohammad Salehoof; Saeedeh Momtazi
+authors: "Farhan Farsi; Farnaz Aghababaloo; Shahriar Shariati Motlagh; Parsa Ghofrani; MohammadAli SadraeiJavaheri; Shayan Bali; Amirhossein Shabani; Farbod Bijary; Ghazal Zamaninejad; AmirMohammad Salehoof; Saeedeh Momtazi"
 url: "https://arxiv.org/abs/2508.00673"
 external_pdf: "https://arxiv.org/pdf/2508.00673.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Farsi-MELAC Massive Evaluation of Large Language Models with Alignment of.pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian"
-languages_list: "Persian"
+national_ethnic_cultural: Iranian
+cultures_nationalities_list: Iranian
+languages_list: Persian
 religious_values: "Multiple Religions"
 rv_islam: 50
 rv_christianity: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "BERT, Gemini, Gemma, GPT-4o, Llama-3, Qwen, Qwen-2"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "As large language models (LLMs) become increasingly embedded in our daily lives, evaluating their quality and reliability across diverse contexts has become essential. While comprehensive benchmarks exist for assessing LLM performance in English, there remains a significant gap in evaluation resources for other languages. Moreover, because most LLMs are trained primarily on data rooted in European and American cultures, they often lack familiarity with non-Western cultural contexts."
-CONFERENCE: "Preprint"
-ethics_overall: 15
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark dataset"
 data_metrics: "Not specified"
 ---

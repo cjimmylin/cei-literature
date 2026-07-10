@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,7 +9,7 @@ short_title: "Mechanistic Interpretability with SAEs Probing Religion"
 year: 2025
 first_author: "[[Katharina Simbeck]]"
 last_author: "[[Mariam Mahran]]"
-authors: Katharina Simbeck; Mariam Mahran
+authors: "Katharina Simbeck; Mariam Mahran"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.17665"
 external_pdf: "https://arxiv.org/pdf/2509.17665.pdf"
@@ -59,9 +18,9 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mahran-Mechanistic Interpretability w
 publication: "AEQUITAS 2025 Workshop (co-located with ECAI 2025); arXiv"
 CONF-CC: "ECAI 2025 Workshop"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
 religious_values: "Multiple Religions"
 rv_islam: 100
 rv_christianity: 40
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Despite growing research on bias in large language models (LLMs), most work has focused on gender and race, with little attention to religious identity. This paper explores how religion is internally represented in LLMs and how it intersects with concepts of violence and geography. Using mechanistic interpretability and Sparse Autoencoders (SAEs) via the Neuronpedia API, we analyze latent feature activations across five models."
 LLM_assessed: "GPT-2, Gemma-2, Llama-3"
 DATA_URL: "https://github.com/iug-htw/SAE_fairness"
 CONFERENCE: "Other Conference"
-ethics_overall: 75
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,14 +66,14 @@ nw_buddhist: 40
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "DE"
+author_country: DE
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Mechanistic Interpretability with SAEs: Probing Religion, Violence, and Geography in Large Language Models

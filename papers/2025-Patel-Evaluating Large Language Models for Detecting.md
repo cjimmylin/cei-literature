@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -49,7 +9,7 @@ short_title: "Evaluating Large Language Models for Detecting"
 year: 2025
 first_author: "[[Jay Patel]]"
 last_author: "[[Jeremy Blackburn]]"
-authors: Jay Patel; Hrudayangam Mehta; Jeremy Blackburn
+authors: "Jay Patel; Hrudayangam Mehta; Jeremy Blackburn"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2509.18293"
 external_pdf: "https://arxiv.org/pdf/2509.18293.pdf"
@@ -58,10 +18,10 @@ local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Patel-Evaluating Large Language Model
 publication: "EMNLP 2025 / arXiv"
 CONF-CC: "EMNLP 2025"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,7 +45,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Detecting hateful content is a challenging and important problem. Automated tools, like machine-learning models, can help, but they require continuous training to adapt to the everchanging landscape of social media. In this work, we evaluate eight open-source LLMs’ capability to detect antisemitic content, specifically leveraging in-context definition. We also study how LLMs understand and explain their decisions given a moderation policy as a guideline."
@@ -93,7 +53,7 @@ LLM_assessed: "DeepSeek, Gemma, Llama-3, Mistral, Qwen"
 DATA_URL: "https://github.com/idramalab/quantify-llm-explanations"
 research_topic: "Interpretability & Explainability"
 CONFERENCE: "EMNLP 2025"
-ethics_overall: 45
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 30
@@ -107,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

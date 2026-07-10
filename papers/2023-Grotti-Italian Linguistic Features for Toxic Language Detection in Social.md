@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,21 +6,21 @@ Not AI:
 key: LSRC0513
 type: journalArticle
 short_title: "Italian Linguistic Features for Toxic Language Detection in Social Media"
-year: 2023
+year: 2025
 first_author: "[[Leonardo Grotti]]"
 last_author: "[[Leonardo Grotti]]"
-authors: Leonardo Grotti
+authors: "Leonardo Grotti"
 url: "https://journals.openedition.org/ijcol/1367"
 external_pdf: "http://journals.openedition.org/ijcol/pdf/1367"
 publication: "Italian Journal of Computational Linguistics"
 CONF-CC: "Italian Journal of Computational Linguistics"
-pdf_extract: PDF Extracts/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.md
+pdf_extract: "PDF Extracts/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Grotti-Italian Linguistic Features for Toxic Language Detection in Social.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Italian"
-cultures_nationalities_list: "Italian"
-languages_list: "Italian"
-religious_values: "N/A"
+national_ethnic_cultural: Italian
+cultures_nationalities_list: Italian
+languages_list: Italian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -76,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "BERT"
+LLM_assessed: BERT
 DATA_URL: NA
 tags: 
 abstract: "Framework for analyzing toxic language on Italian Facebook pages. Assesses toxic vs. non-toxic comments via length, vocabulary diversity, and linguistic standardness. Fine-tunes PoliBERT, UmBERTo, and bert-base-italian-xxl-uncased models."
-CONFERENCE: "Journal"
-ethics_overall: 100
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 86
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

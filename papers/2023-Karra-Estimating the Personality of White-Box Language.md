@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,17 +6,17 @@ Not AI:
 key: GYKSA9LM
 type: preprint
 short_title: "Estimating the Personality of White-Box Language"
-year: 2023
+year: 2025
 first_author: "[[Saketh Reddy Karra]]"
 last_author: "[[Theja Tulabandhula]]"
 authors: "Saketh Reddy Karra; Son The Nguyen; Theja Tulabandhula"
 doi: 10.48550/arXiv.2204.12000
 url: "http://arxiv.org/abs/2204.12000"
 external_pdf: "http://arxiv.org/pdf/2204.12000.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,7 +40,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Developed methods to estimate 'personality traits' (Big Five) of LLMs using Zero-shot classification on standard personality questionnaires."
 significance: "Shows that LLMs exhibit anthropomorphic 'personality' profiles (often mirroring training data biases) that affect their open-ended generation, which is crucial for characterizing model behavior in social interactions."
@@ -91,25 +55,25 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Karra-Estimating the Personality of White-Box Language.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: "GPT-2, GPT-3, GPT-3.5, LLaMA, XLNet"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 30
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
 ethics_perspective: "Bias & Fairness"
-is_benchmark: "No"
-is_eval: "Yes"
+is_benchmark: No
+is_eval: Yes
 is_dataset: No
 data_description: "Evaluation methodology text corpus for conversational ai"
 data_metrics: "Not specified"

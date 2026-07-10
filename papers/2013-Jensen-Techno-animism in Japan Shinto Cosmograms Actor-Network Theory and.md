@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,10 +6,10 @@ Not AI:
 key: ZERO0005
 type: journalArticle
 short_title: "Techno-animism in Japan: Shinto Cosmograms, Actor-Network Theory, and the Enabling Powers of Non-human Agencies"
-year: 2013
+year: 2025
 first_author: "[[Casper Bruun Jensen]]"
 last_author: "[[Anders Blok]]"
-authors: Casper Bruun Jensen; Anders Blok
+authors: "Casper Bruun Jensen; Anders Blok"
 doi: 10.1177/0263276412456564
 url: "https://journals.sagepub.com/doi/abs/10.1177/0263276412456564"
 publication: "SAGE Journals / Theory, Culture & Society"
@@ -52,10 +17,10 @@ CONF-CC: "SAGE Journals / Theory, Culture & Society"
 local_pdf: 
 pdf_extract: 
 DATE_ADDED: 20260216
-national_ethnic_cultural: "Japanese"
-cultures_nationalities_list: "Japanese"
-languages_list: ""
-religious_values: "Shinto"
+national_ethnic_cultural: Japanese
+cultures_nationalities_list: Japanese
+languages_list: 
+religious_values: Shinto
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -70,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Shinto"
+religious_values_list: Shinto
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -79,20 +44,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Foundational paper on Shinto techno-animism. Deploys Japanese techno-animism as a site of theoretical experimentation, showing how Shinto cosmograms provide an alternative framework for interpreting the immanent, affective, and enabling powers of non-humans in collective life. Extends actor-network theory through Shinto perspectives."
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -100,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Techno-animism in Japan: Shinto Cosmograms, Actor-Network Theory, and the Enabling Powers of Non-human Agencies

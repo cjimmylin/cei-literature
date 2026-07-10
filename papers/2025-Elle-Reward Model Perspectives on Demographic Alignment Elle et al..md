@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,21 +7,21 @@ key: EXSR0294
 type: preprint
 short_title: "Reward Model Perspectives on Demographic Alignment (Elle et al.)"
 year: 2025
-first_author: "[[Yang]]"
+first_author: [[Yang]]
 last_author: "[[Elle Michelle]]"
-authors: Yang; Elle Michelle
+authors: "Yang; Elle Michelle"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2510.06391"
 external_pdf: "https://arxiv.org/pdf/2510.06391.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Elle-Reward Model Perspectives on Demographic Alignment Elle et al..pdf]]"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260207
-national_ethnic_cultural: "American"
-cultures_nationalities_list: "American"
-languages_list: ""
-religious_values: "Christianity"
+national_ethnic_cultural: American
+cultures_nationalities_list: American
+languages_list: 
+religious_values: Christianity
 rv_islam: 15
 rv_christianity: 90
 rv_buddhism: 5
@@ -73,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 50
@@ -88,8 +51,8 @@ tags:
 abstract: "Reward models (RMs) are central to the alignment of language models (LMs). An RM often serves as a proxy for human preferences to guide downstream LM behavior. However, our understanding of RM behavior is limited. Our work (i) formalizes a framework for measuring the alignment of opinions captured by RMs, (ii) investigates the extent to which RMs demonstrate sociodemographic biases, and (iii) explores the effects of prompting to steer rewards towards the preferences of a target group."
 LLM_assessed: BERT
 DATA_URL: "https://github.com/socialnlp/rmp"
-CONFERENCE: "Preprint"
-ethics_overall: 75
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -103,13 +66,13 @@ nw_buddhist: 5
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation framework"
 data_metrics: "Not specified"
 ---

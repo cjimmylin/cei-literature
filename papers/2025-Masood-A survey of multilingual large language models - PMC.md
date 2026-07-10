@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,19 +8,19 @@ type: conferencePaper
 short_title: "A survey of multilingual large language models - PMC"
 year: 2025
 first_author: "[[Adnan Masood]]"
-last_author: "[[Ph]]"
-authors: Adnan Masood; Ph
+last_author: [[Ph]]
+authors: "Adnan Masood; Ph"
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11783891/"
 external_pdf: "https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC11783891&blobtype=pdf"
 publication: PubMed
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Masood-A survey of multilingual large language models - PMC.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Masood-A survey of multilingual large language models - PMC.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "Multilingual"
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: Multilingual
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 50
 rv_buddhism: 0
@@ -74,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: NA
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Based on the web search results, here's what I found about Central Asian languages NLP benchmark evaluation: Overview of Central Asian Languages NLP Research in the NLP sphere of the Turkic counterparts of Central Asian languages, namely Kazakh, Uzbek, Kyrgyz, and Turkmen, comes with the typical challenges of low-resource languages, like data scarcity and a general lack of linguistic resources. Current State of Technology and Benchmarks Kazakh language takes the first place in terms of"
 CONFERENCE: "Other Conference"
-ethics_overall: 30
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CN"
+author_country: CN
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
-data_description: "Benchmark"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
+data_description: Benchmark
 data_metrics: "Not specified"
 ---
 # A survey of multilingual large language models - PMC

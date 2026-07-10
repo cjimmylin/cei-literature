@@ -4,18 +4,18 @@ Not AI:
 key: AUTO_HAN2024
 type: journalArticle
 short_title: "Moral Exemplars in AI Education"
-year: 2024
-first_author: "[[Han]]"
-last_author: "[[Hyemin]]"
-authors: Han; Hyemin
+year: 2025
+first_author: [[Han]]
+last_author: [[Hyemin]]
+authors: "Han; Hyemin"
 doi: N/A
 url: "https://www.researchgate.net/publication/380001142"
 pdf_extract: "PDF Extracts/2024/2024-Han-Moral Exemplars in AI Education.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Han-Moral Exemplars in AI Education.pdf]]"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -30,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -39,18 +39,18 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Moral Exemplars, Virtue Ethics, AI Education, ChatGPT, Neural Networks"
 key_contribution: "Demonstrates moral exemplar-based learning is necessary (not just useful) for moral education, drawing insights from AI/LLM training showing exemplar-based learning outperforms rule-based"
 significance: "Bridges virtue ethics moral exemplar theory with neural network learning paradigms"
 external_pdf: N/A
 abstract: "In this paper, Han examines why moral exemplars are useful and even necessary in moral education despite several critiques from researchers and educators. To support this point, Han reviews recent AI research demonstrating that exemplar-based learning is superior to rule-based learning in model performance in training neural networks, such as large language models. The paper particularly focuses on why education aiming at promoting the development of multifaceted moral functioning can be done effectively by using exemplars, which is similar to exemplar-based learning in AI model training. Furthermore, the paper discusses the potential limitations and issues related to exemplar-applied moral education with findings from recent studies in AI research raising concerns about model biases and toxic outcomes."
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Journal"
-ethics_overall: 100
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 70
 deontological_ethics: 5
 utilitarian_ethics: 10
@@ -64,14 +64,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Why do We Need to Employ Exemplars in Moral Education? Insights from Recent Research on Artificial Intelligence

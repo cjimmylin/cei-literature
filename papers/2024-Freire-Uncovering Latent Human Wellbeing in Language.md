@@ -1,37 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -39,7 +6,7 @@ Not AI:
 key: 7ISQ383Q
 type: conferencePaper
 short_title: "Uncovering Latent Human Wellbeing in Language"
-year: 2024
+year: 2025
 first_author: "[[Pedro Freire]]"
 last_author: "[[Scott Emmons]]"
 authors: "Pedro Freire; ChengCheng Tan; Adam Gleave; Dan Hendrycks; Scott Emmons"
@@ -47,11 +14,11 @@ doi: 10.48550/arXiv.2402.11777
 url: "http://arxiv.org/abs/2402.11777"
 external_pdf: "http://arxiv.org/pdf/2402.11777.pdf"
 publication: arXiv.org
-CONF-CC: "Preprint"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+CONF-CC: Preprint
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -66,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -75,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Explores if LLMs implicitly learn human wellbeing concepts, finding that PCA on embeddings (without fine-tuning) predicts ETHICS Utilitarianism tasks with high accuracy"
 significance: "Suggests that pretraining alone conveys significant moral understanding (wellbeing), providing a latent foundation that can be steered for utilitarian alignment"
@@ -86,9 +53,9 @@ paper_summary: "Abstract: Do language models implicitly learn a concept of human
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Freire-Uncovering Latent Human Wellbeing in Language.pdf]]"
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3"
-DATA_URL: "NA"
+DATA_URL: NA
 CONFERENCE: "Other Conference"
-ethics_overall: 60
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 100
@@ -101,13 +68,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "Not specified"
 ---

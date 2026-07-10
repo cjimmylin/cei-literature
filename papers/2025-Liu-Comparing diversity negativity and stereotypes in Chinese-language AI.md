@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -54,14 +14,14 @@ authors_incomplete: false
 url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11935762/"
 external_pdf: "https://arxiv.org/pdf/2408.15696v4.pdf"
 publication: PubMed
-CONF-CC: "N/A"
+CONF-CC: N/A
 pdf_extract: "PDF Extracts/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Liu-Comparing diversity negativity and stereotypes in Chinese-language AI.pdf]]"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
-languages_list: "Chinese"
-religious_values: "Taoism"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
+languages_list: Chinese
+religious_values: Taoism
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 10
@@ -76,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Taoism"
+religious_values_list: Taoism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -85,7 +45,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "ERNIE, Qwen"
 DATA_URL: "https://doi.org/10.5281/zenodo.14148258"
@@ -93,7 +53,7 @@ tags:
 abstract: "Large Language Models (LLMs) and search engines have the potential to perpetuate biases and stereotypes by amplifying existing prejudices in their training data and algorithmic processes, thereby influencing public perception and decision-making. While most work has focused on Western-centric AI technologies, we examine social biases embedded in prominent Chinese-based commercial tools, the main search engine Baidu and two leading LLMs, Ernie and Qwen."
 research_topic: Other
 CONFERENCE: "Other Conference"
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +67,13 @@ nw_buddhist: 10
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset"
 data_metrics: "13 categories"
 ---

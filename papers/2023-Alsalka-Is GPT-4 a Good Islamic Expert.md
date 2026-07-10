@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,10 +6,10 @@ Not AI:
 key: EXSR0560
 type: conference_paper
 short_title: "Is GPT-4 a Good Islamic Expert"
-year: 2023
+year: 2025
 first_author: "[[Sarah Alnefaie]]"
 last_author: "[[Mohammad Ammar Alsalka]]"
-authors: Sarah Alnefaie; Eric Atwell; Mohammad Ammar Alsalka
+authors: "Sarah Alnefaie; Eric Atwell; Mohammad Ammar Alsalka"
 authors_incomplete: false
 url: 
 external_pdf: 
@@ -56,10 +18,10 @@ local_pdf: N/A
 publication: "ROCLING 2023 (35th Conference on Computational Linguistics and Speech Processing) / ACL Anthology"
 CONF-CC: "ROCLING 2023"
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Arabic"
-cultures_nationalities_list: "Arabic"
-languages_list: "Arabic"
-religious_values: "Islam"
+national_ethnic_cultural: Arabic
+cultures_nationalities_list: Arabic
+languages_list: Arabic
+religious_values: Islam
 rv_islam: 50
 rv_christianity: 0
 rv_buddhism: 0
@@ -74,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Islam"
+religious_values_list: Islam
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Evaluates GPT-4 on Quranic question answering using the newly created QUQA dataset (2,189 questions). Finds GPT-4 struggles with classical Arabic, semantic ambiguity, and contextual meaning. Three main issues: misinterpretation of religious context, unreliable answers not grounded in authoritative Islamic sources, and sensitivity to phrasing variations. Follow-up work showed RAG substantially improved results."
-LLM_assessed: "GPT-4"
-DATA_URL: "NA"
+LLM_assessed: GPT-4
+DATA_URL: NA
 CONFERENCE: "ACL 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for question answering"
 data_metrics: "2,189 questions"
 ---

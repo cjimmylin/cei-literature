@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -43,16 +6,16 @@ Not AI:
 key: JHYWDXIZ
 type: journalArticle
 short_title: WorldValuesBench
-year: 2024
+year: 2025
 first_author: "[[Wenlong Zhao]]"
 last_author: "[[Yuling Gu]]"
 authors: "Wenlong Zhao; Debanjan Mondal; Niket Tandon; Danica Dillion; Kurt Gray; Yuling Gu"
 url: "https://arxiv.org/abs/2404.16308"
 external_pdf: "https://arxiv.org/pdf/2404.16308.pdf"
-national_ethnic_cultural: "Multicultural/Cross-cultural"
-cultures_nationalities_list: "Multicultural/Cross-cultural"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: Multicultural/Cross-cultural
+cultures_nationalities_list: Multicultural/Cross-cultural
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -67,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -76,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Social & Cultural Values"
 key_contribution: "Constructed WorldValuesBench (20M examples) from the World Values Survey to test LLMs' 'value awareness' across diverse global demographics."
 significance: "Shows that leading models (GPT-3.5, etc.) struggle to predict the values of non-Western demographics, highlighting a 'value alignment' failure for the global majority."
@@ -84,13 +47,13 @@ tags:
 pdf_extract: "PDF Extracts/2024/2024-Wu-WorldValuesBench.md"
 abstract: "The awareness of multi-cultural human values is critical to the ability of language models (LMs) to generate safe and personalized responses. However, this awareness of LMs has been insufficiently studied, since the computer science community lacks access to the large-scale real-world data about multi-cultural values. In this paper, we present WORLDVALUESBENCH, a globally diverse, large-scale benchmark dataset for the multi-cultural value prediction task, which requires a model to generate a..."
 paper_summary: "Abstract: The awareness of multi-cultural human values is critical to the ability of language models (LMs) to generate safe and personalized responses. However, this awareness of LMs has been insufficiently stu | Overview: WORLDVALUESBENCH: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models Wenlong Zhao1∗, Debanjan Mondal1∗, Niket Tandon2, Danica Dillion3, Kurt Gray3, Yuling Gu2 1Unive | Key Findings: method based on the Wasserstein 1-distance. • We exemplify the usage of our dataset with a case study and show that multi-cultural value awareness rem | Conclusions: We propose WORLDVALUESBENCH, an NLP adap- tation of an influential social science world values survey, that has more than 20 million examples of the t"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Wu-WorldValuesBench.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Wu-WorldValuesBench.pdf]]
 CONF-CC: "Language Resources and Evaluation"
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, GPT-3.5, Mixtral, Vicuna"
 DATA_URL: "https://github.com/Demon702/WorldValuesBench"
-CONFERENCE: "Journal"
-ethics_overall: 0
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: No
+is_dataset: Yes
 data_description: "Benchmark for moral/ethical reasoning dataset"
 data_metrics: "Not specified"
 ---

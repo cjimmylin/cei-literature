@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -50,19 +9,19 @@ short_title: "BharatBBQ A Multilingual Bias Benchmark for"
 year: 2025
 first_author: "[[Aditya Tomar]]"
 last_author: "[[Pushpak Bhattacharyya]]"
-authors: Aditya Tomar; Nihar Ranjan Sahoo; Pushpak Bhattacharyya
+authors: "Aditya Tomar; Nihar Ranjan Sahoo; Pushpak Bhattacharyya"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2508.07090"
 external_pdf: "https://arxiv.org/pdf/2508.07090.pdf"
 pdf_extract: "PDF Extracts/2025/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Tomar-BharatBBQ A Multilingual Bias Benchmark for.pdf]]"
 publication: "WebSearch: BharatBBQ bias benchmark"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "Assamese, Bengali, English, Hindi, Marathi, Odia, Tamil, Telugu"
-religious_values: "Sikhism"
+religious_values: Sikhism
 rv_islam: 5
 rv_christianity: 0
 rv_buddhism: 0
@@ -77,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Sikhism"
+religious_values_list: Sikhism
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -86,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Evaluating social biases in language models (LMs) is crucial for ensuring fairness and minimizing the reinforcement of harmful stereotypes in AI systems. Existing benchmarks, such as the Bias Benchmark for Question Answering (BBQ), primarily focus on Western contexts, limiting their applicability to the Indian context. To address this gap, we introduce BharatBBQ 1, a culturally adapted benchmark designed to assess biases in Hindi, English, Marathi, Bengali, Tamil, Telugu, Odia, and Assamese."
 LLM_assessed: "BLOOM, Gemma-2, Llama-3, Phi-3"
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -107,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "392,864 examples; 8 languages"
 ---

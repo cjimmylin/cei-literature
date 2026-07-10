@@ -1,44 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,7 +6,7 @@ Not AI:
 key: M4GJQXAY
 type: conferencePaper
 short_title: NaijaHate
-year: 2024
+year: 2025
 first_author: "[[Manuel Tonneau]]"
 last_author: "[[Samuel P. Fraiberger]]"
 authors: "Manuel Tonneau; Pedro Vitor Quinta de Castro; Karim Lasri; Ibrahim Farouq; Lakshminarayanan Subramanian; Victor Orozco-Olvera; Samuel P. Fraiberger"
@@ -56,10 +16,10 @@ url: "http://arxiv.org/abs/2403.19260"
 external_pdf: "http://arxiv.org/pdf/2403.19260.pdf"
 publication: "Annual Meeting of the Association for Computational Linguistics"
 CONF-CC: "ACL 2024"
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
 languages_list: "English, Nigerian Pidgin"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 25
 rv_christianity: 10
 rv_buddhism: 0
@@ -74,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -83,19 +43,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "African/Ubuntu, American, Toxicity & Hate Speech"
 key_contribution: "Created NaijaHate, the first representative dataset for hate speech detection on Nigerian Twitter, and trained a domain-adapted model (NaijaXLM-T)."
 significance: "Demonstrates that standard Western hate speech detectors fail on Nigerian dialects (Pidgin/English), proving the necessity of regionally representative datasets for global content moderation."
 pdf_extract: "PDF Extracts/2024/2024-Tonneau-NaijaHate.md"
 abstract: "To address the global issue of online hate, hate speech detection (HSD) systems are typically developed on datasets from the United States, thereby failing to generalize to English dialects from the Majority World. Furthermore, HSD models are often evaluated on non-representative samples, raising concerns about overestimating model performance in real-world settings. In this work, we introduce NAIJAHATE, the first dataset annotated for HSD which contains a representative sample of Nigerian..."
 paper_summary: "Abstract: To address the global issue of online hate, hate speech detection (HSD) systems are typi- cally developed on datasets from the United States, thereby failing to generalize to En- glish dialects from t | Overview: NAIJAHATE: Evaluating Hate Speech Detection on Nigerian Twitter Using Representative Data Manuel Tonneau 1, 2, 3, Pedro Vitor Quinta de Castro 1, 4, Karim Lasri 1, 5, Ibrahim Farouq 1, 6, Lakshminaray | Methodology: (Lai et al., 2022), where a model flags content likely to infringe platform rules, which is then reviewed by humans who decide whether or not to moder | Key Findings: (Vidgen et al., 2020) or originate from largely un- moderated platforms, such as Gab (Kennedy et al., 2022), where hatred is much more prevalent and t | Conclusions: Performance overestimation We demonstrate that evaluating HSD on biased datasets leads to a large overestimation of real-world performance, the latter"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Tonneau-NaijaHate.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Tonneau-NaijaHate.pdf]]
 DATE_ADDED: 20260208
 LLM_assessed: "BERT, GPT-3.5"
 DATA_URL: "https://github.com/worldbank/NaijaHate"
 CONFERENCE: "ACL 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 10
 utilitarian_ethics: 0
@@ -109,13 +69,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GB"
+author_country: GB
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach annotated dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

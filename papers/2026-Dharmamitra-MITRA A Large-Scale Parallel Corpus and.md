@@ -1,42 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -44,20 +6,20 @@ Not AI:
 key: EXSR0307
 type: preprint
 short_title: "MITRA A Large-Scale Parallel Corpus and"
-year: 2026
+year: 2025
 first_author: "[[Sebastian Nehrdich]]"
 last_author: "[[Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra)]]"
-authors: Sebastian Nehrdich; Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra)
+authors: "Sebastian Nehrdich; Kurt Keutzer (and collaborators at Berkeley AI Research Dharmamitra)"
 authors_incomplete: false
 url: "https://arxiv.org/abs/2601.06400"
 external_pdf: "https://arxiv.org/pdf/2601.06400.pdf"
 pdf_extract: "PDF Extracts/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Dharmamitra-MITRA A Large-Scale Parallel Corpus and.pdf]]"
 publication: "arXiv preprint"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260213
-national_ethnic_cultural: "Indian"
-cultures_nationalities_list: "Indian"
+national_ethnic_cultural: Indian
+cultures_nationalities_list: Indian
 languages_list: "Chinese, English, Pali, Sanskrit, Tibetan"
 religious_values: "Multiple Religions"
 rv_islam: 0
@@ -83,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "Ancient Buddhist literature features frequent, yet often unannotated, textual parallels spread across diverse languages: Sanskrit, P¯ali, Buddhist Chinese, Tibetan, and more. The scale of this material makes manual examination prohibitive. We present the MITRA framework, which consists of a novel pipeline for multilingual parallel passage mining, MITRA-parallel, a large-scale corpus of 1.74 million parallel sentence pairs between Sanskrit, Chinese, and Tibetan, and the development of the..."
-LLM_assessed: "Gemma-2"
+LLM_assessed: Gemma-2
 DATA_URL: "https://huggingface.co/buddhist-nlp"
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -104,14 +66,14 @@ nw_buddhist: 100
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # MITRA: A Large-Scale Parallel Corpus and Multilingual Pretrained Language Model for Machine Translation and Semantic Retrieval for Pali, Sanskrit, Buddhist Chinese, and Tibetan

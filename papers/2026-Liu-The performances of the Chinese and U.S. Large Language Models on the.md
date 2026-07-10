@@ -1,62 +1,26 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
 Not AI: 
 key: CULT0002
 type: preprint
-short_title: The performances of the Chinese and U.S. Large Language Models on the Topic of Chinese Culture
-year: 2026
+short_title: "The performances of the Chinese and U.S. Large Language Models on the Topic of Chinese Culture"
+year: 2025
 first_author: "[[Feiyan Liu]]"
 last_author: "[[Bao Ge]]"
-authors: Feiyan Liu; Siyan Zhao; Chenxun Zhuo; Tianming Liu; Bao Ge
+authors: "Feiyan Liu; Siyan Zhao; Chenxun Zhuo; Tianming Liu; Bao Ge"
 url: "https://arxiv.org/abs/2601.02830"
 external_pdf: "https://arxiv.org/pdf/2601.02830.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Liu-The performances of the Chinese and U.S. Large Language Models on the.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Liu-The performances of the Chinese and U.S. Large Language Models on the.md"
 DATE_ADDED: 20260215
 national_ethnic_cultural: "Chinese, American"
 cultures_nationalities_list: "Chinese, American"
 languages_list: "Chinese, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,20 +44,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude, DeepSeek, Gemini, Grok, Qwen"
-DATA_URL: "NA"
+DATA_URL: NA
 tags: 
 abstract: "Cultural backgrounds shape individuals’ perspectives and approaches to problem-solving. Since the emergence of GPT-1 in 2018, large language models (LLMs) have undergone rapid development. To date, the world’s ten leading LLM developers are primarily based in China and the United States. To examine whether LLMs released by Chinese and U.S. developers exhibit cultural differences in Chinese-language settings, we evaluate their performance on questions about Chinese culture."
-CONFERENCE: "Preprint"
-ethics_overall: 0
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 50
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -101,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "GE"
+author_country: GE
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 38
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation approach"
 data_metrics: "Not specified"
 ---

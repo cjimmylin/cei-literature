@@ -16,10 +16,10 @@ external_pdf: "https://openreview.net/pdf?id=27j9XJQV5O"
 pdf_extract: "PDF Extracts/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Zhu-TrolleyBench - Evaluating Emergent Moral Reasoning and Consistency in.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -34,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 90
 mp_schwartz: 50
 mp_trolley: 50
@@ -51,7 +51,7 @@ LLM_assessed: "DeepSeek, GPT-4o mini, Gemini, Mistral"
 DATA_URL: "https://anonymous.4open.science/r/TrolleyBench-FD46/README.md"
 normative_ethics_benchmark: Borderline
 CONFERENCE: "NeurIPS 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 10
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -65,13 +65,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "FR"
+author_country: FR
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 75
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for moral/ethical reasoning"
 data_metrics: "Not specified"
 ---

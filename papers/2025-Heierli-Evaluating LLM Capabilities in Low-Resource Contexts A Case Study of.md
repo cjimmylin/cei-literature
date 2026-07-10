@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,18 +9,17 @@ short_title: "Evaluating LLM Capabilities in Low-Resource Contexts: A Case Study
 year: 2025
 first_author: "[[Jasmin Heierli]]"
 last_author: "[[Elena Gavagnin]]"
-authors: Jasmin Heierli; Rebecca Bahar Ganjineh; Elena Gavagnin
+authors: "Jasmin Heierli; Rebecca Bahar Ganjineh; Elena Gavagnin"
 url: "https://acl-bg.org/proceedings/2025/LowResNLP%202025/pdf/2025.lowresnlp-1.12.pdf"
-publication: LowResNLP 2025 Workshop (RANLP 2025)
+publication: "LowResNLP 2025 Workshop (RANLP 2025)"
 CONF-CC: "RANLP 2025 Workshop"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource Contexts A Case Study of.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Heierli-Evaluating LLM Capabilities in Low-Resource Contexts A Case Study of.md"
-"N/A"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Iranian"
-cultures_nationalities_list: "Iranian"
-languages_list: "Persian"
-religious_values: "N/A"
+national_ethnic_cultural: Iranian
+cultures_nationalities_list: Iranian
+languages_list: Persian
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +43,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "DeepSeek, GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://github.com/zhaw-iwi/LowResNLP-Evaluating-LLM-Capabilities-for-Persian"
 tags: 
 abstract: "Examines GPT-4o, Gemini, Llama, and DeepSeek across multiple Persian language tasks. Finds consistent performance deterioration and cultural misalignment. Role-based prompting shows only incremental improvements. Advocates for expanded Persian linguistic resources and evaluation methods addressing both language proficiency and cultural congruence."
 CONFERENCE: "ACL 2025"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "BG"
+author_country: BG
 author_region: "Eastern Europe & Central Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 42
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

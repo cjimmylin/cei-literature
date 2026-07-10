@@ -1,45 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -47,16 +6,16 @@ Not AI:
 key: MBEBY4C7
 type: document
 short_title: "A Comprehensive Survey of Bias in LLMs"
-year: 2024
+year: 2025
 first_author: "[[Rajesh Ranjan]]"
 last_author: "[[Surya Narayan Singh]]"
 authors: "Rajesh Ranjan; Shailja Gupta; Surya Narayan Singh"
 url: "https://arxiv.org/abs/2409.16430"
 external_pdf: "https://arxiv.org/pdf/2409.16430.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 key_contribution: "Provides a comprehensive survey of bias in Large Language Models, classifying biases by type, source, and impact, and reviewing mitigation strategies."
 significance: "Serves as a foundational reference for understanding the multifaceted nature of LLM bias, consolidating diverse research into a structured overview for practitioners."
@@ -89,12 +48,12 @@ pdf_extract: "PDF Extracts/2024/2024-Ranjan-A Comprehensive Survey of Bias in LL
 abstract: "Large Language Models(LLMs) have revolutionized various applications in natural language processing (NLP) by providing unprecedented text generation, translation, and comprehension capabilities. However, their widespread deployment has brought to light significant concerns regarding biases embedded within these models. This paper presents a comprehensive survey of biases in LLMs, aiming to provide an extensive review of the types, sources, impacts, and mitigation strategies related to these..."
 paper_summary: "Abstract: Large Language Models(LLMs) have revolutionized various applications in natural language processing (NLP) by providing unprecedented text generation, translation, and comprehension capabilities. Howev | Overview: A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions Rajesh Ranjan (Carnegie Mellon University, USA) Shailja Gupta (Carnegie Mellon University, USA) Surya Narayan Singh (BIT | Key Findings: frameworks exist, they often rely on isolated metrics (e.g., gender or racial bias), leading to an incomplete view of fairness. There is a lack of com | Conclusions: This survey highlights the pervasive biases in Large Language Models (LLMs) and their significant implications for society. We discussed key sources o"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Ranjan-A Comprehensive Survey of Bias in LLMs.pdf]]"
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 DATE_ADDED: 20260208
 LLM_assessed: NA
-DATA_URL: "NA"
-CONFERENCE: "Preprint"
-ethics_overall: 100
+DATA_URL: NA
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 5
 utilitarian_ethics: 0
@@ -108,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "IN"
+author_country: IN
 author_region: "South Asia"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # A Comprehensive Survey of Bias in LLMs: Current Landscape and Future Directions

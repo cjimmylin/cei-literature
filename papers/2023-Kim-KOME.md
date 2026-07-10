@@ -1,39 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -41,16 +6,16 @@ Not AI:
 key: C8CSWIUC
 type: document
 short_title: KOME
-year: 2023
+year: 2025
 first_author: "[[Jaehong Kim]]"
 last_author: "[[Wonjae Lee]]"
 authors: "Jaehong Kim; Chaeyoon Jeong; Seongchan Park; Meeyoung Cha; Wonjae Lee"
 url: "https://sociology.kaist.ac.kr/works/kome-korean-online-moral-emotion-a-korean-dataset-of-fine-grained-moral-emotions-korea-computer-congress-2023-june"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/98WEUINE/Kim and others - 2023 - KOME A Korean Dataset of Fine-Grained Moral Emotions.pdf"
-national_ethnic_cultural: "Korean"
-cultures_nationalities_list: "Korean"
-languages_list: "Korean"
-religious_values: "N/A"
+national_ethnic_cultural: Korean
+cultures_nationalities_list: Korean
+languages_list: Korean
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +30,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,7 +39,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Korean, General Ethics"
 key_contribution: "Created KOME, a *Korean* dataset of fine-grained moral emotions."
 significance: "Adds 'moral emotion' granularity to Korean NLP, useful for sentiment analysis beyond positive/negative."
@@ -82,13 +47,13 @@ tags:
 abstract: "In order to determine the status of malaria among schoolchildren on Kome Island (Lake Victoria), near Mwanza, Tanzania, a total of 244 schoolchildren in 10 primary schools were subjected to a blood survey using the fingerprick method. The subjected schoolchildren were 123 boys and 121 girls who were 6-8 years of age. Only 1 blood smear was prepared for each child. The overall prevalence of malaria was 38.1% (93 positives), and sex difference was not remark­ able."
 pdf: "https://www.parahostdis.org/upload/pdf/kjp-53-5-571.pdf"
 pdf_extract: "PDF Extracts/2023/2023-Kim-KOME.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Kim-KOME.pdf]]"
-CONF-CC: "N/A"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2023/2023-Kim-KOME.pdf]]
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
-CONFERENCE: "Unknown"
-ethics_overall: 0
+LLM_assessed: NA
+DATA_URL: NA
+CONFERENCE: Unknown
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TZ"
+author_country: TZ
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 36
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "Yes"
-data_description: "Dataset"
+is_benchmark: No
+is_eval: No
+is_dataset: Yes
+data_description: Dataset
 data_metrics: "Not specified"
 ---
 # KOME: A Korean Dataset of Fine-Grained Moral Emotions

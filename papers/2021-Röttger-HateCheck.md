@@ -1,38 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -40,17 +6,17 @@ Not AI:
 key: P3AITYPK
 type: conferencePaper
 short_title: HateCheck
-year: 2021
+year: 2025
 first_author: "[[Paul Röttger]]"
 last_author: "[[Janet Pierrehumbert]]"
 authors: "Paul Röttger; Bertie Vidgen; Dong Nguyen; Zeerak Waseem; Helen Margetts; Janet Pierrehumbert"
 doi: 10.18653/v1/2021.acl-long.4
 url: "https://aclanthology.org/2021.acl-long.4/"
 external_pdf: "https://aclanthology.org/2021.acl-long.4.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: N/A
 rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
@@ -65,7 +31,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -74,20 +40,20 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: Utilitarianism
 key_contribution: "Introduces HateCheck, a suite of functional tests for hate speech detection models, moving beyond simple F1/accuracy metrics"
 significance: "Enables targeted diagnosis of model weaknesses (e.g., reclaiming slurs, counter-speech), a precursor to nuanced consequentialist evaluation of harm"
 tags: 
 pdf_extract: "PDF Extracts/2021/2021-Röttger-HateCheck.md"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2021/2021-Röttger-HateCheck.pdf]]"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2021/2021-Röttger-HateCheck.pdf]]
 abstract: "Detecting online hate is a difﬁcult task that even state-of-the-art models struggle with. Typically, hate speech detection models are evaluated by measuring their performance on held-out test data using metrics such as accuracy and F1 score. However, this approach makes it difﬁcult to identify speciﬁc model weak points. It also risks overestimating generalisable model performance due to increasingly well-evidenced systematic gaps and biases in hate speech datasets."
 CONF-CC: "ACL 2020"
 DATE_ADDED: 20260208
 LLM_assessed: BERT
 DATA_URL: "https://github.com/paul-rottger/hatecheck-data"
 CONFERENCE: "ACL 2021"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 10
@@ -101,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 80
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: No
+is_eval: Yes
+is_dataset: Yes
 data_description: "Evaluation approach dataset for hate speech detection"
 data_metrics: "Not specified"
 ---

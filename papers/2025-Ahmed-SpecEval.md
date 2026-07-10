@@ -8,7 +8,7 @@ authors: "Ahmed Ahmed; Kevin Klyman; Yi Zeng; Sanmi Koyejo; Percy Liang"
 url: "https://arxiv.org/abs/2509.02464"
 external_pdf: "https://arxiv.org/pdf/2509.02464.pdf"
 abstract: "Companies that develop foundation models publish behavioral guidelines they pledge their models will follow, but it remains unclear if models actually do so. While providers such as OpenAI, Anthropic, and Google have published detailed specifications describing both desired safety constraints and qualitative traits for their models, there has been no systematic audit of adherence to these guidelines. We introduce an automated framework that audits models against their providers specifications by parsing behavioral statements, generating targeted prompts, and using models to judge adherence. Our central focus is on three way consistency between a provider specification, its model outputs, and its own models as judges; an extension of prior two way generator validator consistency. This establishes a necessary baseline: at minimum, a foundation model should consistently satisfy the developer behavioral specifications when judged by the developer evaluator models. We apply our framework to 16 models from six developers across more than 100 behavioral statements, finding systematic inconsistencies including compliance gaps of up to 20 percent across providers."
-ethics_overall: 80
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -41,25 +41,24 @@ mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
 moral_psychology: N/A
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Not specified"
 data_metrics: "Not specified"
 newtags: "Specification & Compliance"
-key_contribution: ""
-significance: ""
-paper_summary: ""
-local_pdf: "[[Lit-WS-PDFs/2025/2025-Ahmed-SpecEval.pdf]]"
+key_contribution: 
+significance: 
+paper_summary: 
+local_pdf: [[Lit-WS-PDFs/2025/2025-Ahmed-SpecEval.pdf]]
 pdf_extract: "PDF Extracts/2025/2025-Ahmed-SpecEval.md"
-tags:
-  - AIAlignment
-Human View: ""
-Human View Date: ""
-Human View note: ""
-Not AI: ""
+tags: 
+Human View: 
+Human View Date: 
+Human View note: 
+Not AI: 
 DATE_ADDED: 20260709
-innovation_gap: "G-01"
+innovation_gap: G-01
 ---
 
 # SpecEval: Evaluating Model Adherence to Behavior Specifications

@@ -7,9 +7,9 @@ key: AIES_2025_36665
 type: conferencePaper
 short_title: "Mapping Moral Reasoning in LLMs"
 year: 2025
-first_author: "[[Mahajan]]"
-last_author: "[[Sachit]]"
-authors: Mahajan; Sachit
+first_author: [[Mahajan]]
+last_author: [[Sachit]]
+authors: "Mahajan; Sachit"
 doi: 10.1609/aies.v8i2.36665
 tags: "Computer Science - AI Ethics"
 url: "https://ojs.aaai.org/index.php/AIES/article/view/36665"
@@ -17,10 +17,10 @@ pdf_extract: "PDF Extracts/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Mahajan-Mapping Moral Reasoning in LLMs.pdf]]"
 publication: "AAAI/ACM Conference on AI, Ethics, and Society"
 CONF-CC: "AIES 2025"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -35,7 +35,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 50
 mp_schwartz: 0
 mp_trolley: 0
@@ -53,7 +53,7 @@ LLM_assessed: "DeepSeek, Gemma, Qwen"
 DATA_URL: "https://github.com/sachit27/Moral-Reasoning-in-LLMs"
 DATE_ADDED: 20260207
 CONFERENCE: "AAAI 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 5
 deontological_ethics: 50
 utilitarian_ethics: 50
@@ -67,14 +67,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CH"
+author_country: CH
 author_region: "Western Europe"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Mapping Moral Reasoning in LLMs: A Multi-Dimensional Analysis of Safety Principle Conflicts

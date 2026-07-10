@@ -1,40 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -42,22 +6,22 @@ Not AI:
 key: CULT0039
 type: preprint
 short_title: "Bilingual Bias in Large Language Models: A Taiwan Sovereignty Benchmark Study"
-year: 2026
+year: 2025
 first_author: "[[Ju-Chun Ko]]"
 last_author: "[[Ju-Chun Ko]]"
-authors: Ju-Chun Ko
+authors: "Ju-Chun Ko"
 doi: 10.48550/arXiv.2602.06371
 url: "https://arxiv.org/abs/2602.06371"
 external_pdf: "https://arxiv.org/pdf/2602.06371.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2026/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.pdf]]"
 pdf_extract: "PDF Extracts/2026/2026-Ko-Bilingual Bias in Large Language Models A Taiwan Sovereignty.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "Chinese"
-cultures_nationalities_list: "Chinese"
+national_ethnic_cultural: Chinese
+cultures_nationalities_list: Chinese
 languages_list: "Chinese, English"
-religious_values: "N/A"
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -72,7 +36,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -81,14 +45,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 LLM_assessed: "Claude, Claude-3, DeepSeek, GPT-4o, GPT-4o mini, Gemini, Grok, Llama-3, Mistral, Qwen-2"
 DATA_URL: "https://github.com/dAAAb/ai-taiwan-sovereignty-benchmark-pro"
 tags: 
 abstract: "Large Language Models (LLMs) are increasingly deployed in multilingual contexts, yet their consistency across languages on politically sensitive topics remains understudied. This paper presents a systematic bilingual benchmark study examining how 17 LLMs respond to questions concerning the sovereignty of the Republic of China (Taiwan) when queried in Chinese versus English. We discover significant language bias—the phenomenon where the same model produces substantively different political..."
-CONFERENCE: "Preprint"
-ethics_overall: 35
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,13 +66,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "TW"
+author_country: TW
 author_region: "East Asia"
-author_global_north_south: "Ambiguous"
+author_global_north_south: Ambiguous
 weird_score: 63
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: No
 data_description: "Benchmark for bias and fairness"
 data_metrics: "Not specified"
 ---

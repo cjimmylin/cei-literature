@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: true
 Human View Date: 2026-01-24
 Human View note: "Can simulate historical characters"
@@ -43,7 +6,7 @@ Not AI:
 key: 2ML6F4EE
 type: document
 short_title: "Character-LLM: A Trainable Agent for Role-Playing"
-year: 2023
+year: 2025
 first_author: "[[Yunfan Shao]]"
 last_author: "[[Qiu, Xipeng]]"
 authors: "Shao, Yunfan; Li, Linyang; Dai, Junqi; Qiu, Xipeng"
@@ -51,10 +14,10 @@ url: "https://aclanthology.org/2023.emnlp-main.814/"
 pdf_extract: "PDF Extracts/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2023/2023-Shao-Character-LLM A Trainable Agent for Role-Playing.pdf]]"
 external_pdf: "file:///Users/jimmylin/Zotero/storage/J3VV4C8K/2023 - Character-LLM A Trainable Agent for Role-Playing.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: "English"
-religious_values: "Christianity"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: English
+religious_values: Christianity
 rv_islam: 0
 rv_christianity: 60
 rv_buddhism: 0
@@ -69,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "Christianity"
+religious_values_list: Christianity
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -78,25 +41,25 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "American, Virtue Ethics"
 key_contribution: "Introduces 'Character-LLM', a trainable agent framework that edits profiles as experiences to simulate specific human characters (simulacra)"
 significance: "Enables the detailed simulation of specific personal avatars with consistent profiles and emotional states, relevant for character-based AI interactions"
 tags: 
 abstract: "Large language models (LLMs) can be used to serve as agents to simulate human behav- iors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ability stimulates us to wonder whether LLMs can simulate a person in a higher form than simple human behaviors. Therefore, we aim to train an agent with the profile, experience, and emotional states of a specific person instead of using limited prompts to instruct ChatGPT API. In this work, we in- tr"
 paper_summary: "Abstract: Large language models (LLMs) can be used to serve as agents to simulate human behav- iors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ab | Overview: Character-LLM: A Trainable Agent for Role-Playing Yunfan Shao1,2∗, Linyang Li1, Junqi Dai1, Xipeng Qiu1† 1School of Computer Science, Fudan University 1Shanghai Key Laboratory of Intelligent Informati | Methodology: Our methodology diverges from the existing prac- tice of mimicking the style and tones of curated utterances via Supervised Fine-Tuning (SFT) or provi"
-CONF-CC: "N/A"
+CONF-CC: N/A
 DATE_ADDED: 20260208
 LLM_assessed: "Alpaca, ChatGPT, LLaMA, Vicuna"
 DATA_URL: "https://github.com/choosewhatulike/trainable-agents"
 CONFERENCE: "EMNLP 2023"
-ethics_overall: 0
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
 contractarian_ethics: 0
 care_ethics: 0
-research_topic: "Other"
+research_topic: Other
 nw_confucian: 0
 nw_ubuntu: 0
 nw_islamic_ethics: 0
@@ -104,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "No"
-is_eval: "Yes"
-is_dataset: "No"
+is_benchmark: No
+is_eval: Yes
+is_dataset: No
 data_description: "Evaluation methodology"
 data_metrics: "Not specified"
 ---

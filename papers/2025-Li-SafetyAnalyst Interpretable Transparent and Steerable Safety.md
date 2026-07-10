@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -55,10 +16,10 @@ external_pdf: "https://openreview.net/pdf?id=WUGrleBcYP"
 pdf_extract: "PDF Extracts/2025/2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.md"
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Li-SafetyAnalyst Interpretable Transparent and Steerable Safety.pdf]]"
 DATE_ADDED: 20260207
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -73,7 +34,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -82,14 +43,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
 tags: 
 abstract: "The ideal AI safety moderation system would be both structurally interpretable (so its decisions can be reliably explained) and steerable (to align to safety standards and reflect a community’s values), which current systems fall short on. To address this gap, we present SAFETYANALYST, a novel AI safety moderation framework. Given an AI behavior, SAFETYANALYST uses chain-of-thought reasoning to analyze its potential consequences by creating a structured “harm-benefit tree,” which enumerates..."
 LLM_assessed: "Claude, GPT-4o, Gemini, Llama-3"
 DATA_URL: "https://jl3676.github.io/SafetyAnalyst/"
 CONFERENCE: "ICML 2025"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 5
@@ -103,13 +64,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "Yes"
-is_eval: "No"
-is_dataset: "No"
+is_benchmark: Yes
+is_eval: No
+is_dataset: No
 data_description: "Benchmark for ai safety"
 data_metrics: "Not specified"
 ---

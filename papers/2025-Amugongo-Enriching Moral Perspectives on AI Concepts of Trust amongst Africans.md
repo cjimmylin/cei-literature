@@ -1,41 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -46,17 +9,17 @@ short_title: "Enriching Moral Perspectives on AI: Concepts of Trust amongst Afri
 year: 2025
 first_author: "[[Lameck Mbangula Amugongo]]"
 last_author: "[[Joseph Mwatukange]]"
-authors: Lameck Mbangula Amugongo; Nicola J. Bidwell; Joseph Mwatukange
+authors: "Lameck Mbangula Amugongo; Nicola J. Bidwell; Joseph Mwatukange"
 url: "https://arxiv.org/abs/2508.14116"
 external_pdf: "https://arxiv.org/pdf/2508.14116.pdf"
 publication: arXiv
-CONF-CC: "Preprint"
+CONF-CC: Preprint
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.pdf]]"
 pdf_extract: "PDF Extracts/2025/2025-Amugongo-Enriching Moral Perspectives on AI Concepts of Trust amongst Africans.md"
 DATE_ADDED: 20260215
-national_ethnic_cultural: "African/Ubuntu"
-cultures_nationalities_list: "African/Ubuntu"
-languages_list: ""
+national_ethnic_cultural: African/Ubuntu
+cultures_nationalities_list: African/Ubuntu
+languages_list: 
 religious_values: "Ubuntu Philosophy"
 rv_islam: 0
 rv_christianity: 0
@@ -81,14 +44,14 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: 
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 tags: 
 abstract: "Surveys 157 AI professionals from 25 African countries on how they conceptualize trust in AI. Respondents emphasize communal relations over individual freedoms and apply nuances of Afro-relationalism to AI trust constructs. Highlights gap in WEIRD-dominated AI trust research."
-CONFERENCE: "Preprint"
-ethics_overall: 50
+CONFERENCE: Preprint
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -102,14 +65,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "NA"
+author_country: NA
 author_region: "Sub-Saharan Africa"
 author_global_north_south: "Global South"
 weird_score: 32
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Enriching Moral Perspectives on AI: Concepts of Trust amongst Africans

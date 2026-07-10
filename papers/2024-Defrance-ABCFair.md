@@ -1,43 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -45,7 +6,7 @@ Not AI:
 key: Y8L4H52Z
 type: conferencePaper
 short_title: ABCFair
-year: 2024
+year: 2025
 first_author: "[[MaryBeth Defrance]]"
 last_author: "[[Tijl De Bie]]"
 authors: "MaryBeth Defrance; Maarten Buyl; Tijl De Bie"
@@ -53,10 +14,10 @@ key_contribution: "Introduced ABCFair, a modular and adaptable benchmarking fram
 significance: "Standardizes the evaluation of fairness algorithms, addressing the lack of proper comparability caused by inconsistent intervention stages and fairness notions."
 url: "https://proceedings.neurips.cc/paper_files/paper/2024/file/46bae562da84d63269673808e8eff777-Paper-Datasets_and_Benchmarks_Track.pdf"
 external_pdf: "https://proceedings.neurips.cc/paper_files/paper/2024/file/46bae562da84d63269673808e8eff777-Paper-Datasets_and_Benchmarks_Track.pdf"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 10
 rv_christianity: 0
 rv_buddhism: 0
@@ -71,7 +32,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -80,19 +41,19 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Bias & Fairness"
 tags: 
 pdf_extract: "PDF Extracts/2024/2024-Defrance-ABCFair.md"
 abstract: "Numerous methods have been implemented that pursue fairness with respect to sensitive features by mitigating biases in machine learning. Yet, the problem settings that each method tackles vary significantly, including the stage of intervention, the composition of sensitive features, the fairness notion, and the distribution of the output. Even in binary classification, these subtle differences make it highly complicated to benchmark fairness methods, as their performance can strongly depend on..."
 paper_summary: "Abstract: Numerous methods have been implemented that pursue fairness with respect to sen- sitive features by mitigating biases in machine learning. Yet, the problem settings that each method tackles vary signi | Overview: ABCFair: an Adaptable Benchmark approach for Comparing Fairness methods MaryBeth Defrance Ghent University marybeth.defrance@ugent.be Maarten Buyl Ghent University maarten.buyl@ugent.be Tijl De Bie Gh | Methodology: for Comparing Fairness methods MaryBeth Defrance Ghent University marybeth.defrance@ugent.be Maarten Buyl Ghent University maarten.buyl@ugent.be Tijl"
-local_pdf: "[[Lit-WS-Lit-WS-PDFs/2024/2024-Defrance-ABCFair.pdf]]"
-CONF-CC: "N/A"
+local_pdf: [[Lit-WS-Lit-WS-PDFs/2024/2024-Defrance-ABCFair.pdf]]
+CONF-CC: N/A
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
+LLM_assessed: NA
 DATA_URL: "https://github.com/aida-ugent/abcfair"
 CONFERENCE: "NeurIPS 2024"
-ethics_overall: 100
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 0
@@ -106,13 +67,13 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "US"
+author_country: US
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 78
-is_benchmark: "Yes"
-is_eval: "Yes"
-is_dataset: "Yes"
+is_benchmark: Yes
+is_eval: Yes
+is_dataset: Yes
 data_description: "Benchmark for bias and fairness dataset"
 data_metrics: "Not specified"
 ---

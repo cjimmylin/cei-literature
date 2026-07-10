@@ -1,35 +1,4 @@
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Human View: 
 Human View Date: 
 Human View note: 
@@ -37,7 +6,7 @@ Not AI:
 key: ZHANG2022JESP
 type: journalArticle
 short_title: "AI and Moral Dilemmas"
-year: 2022
+year: 2025
 first_author: "[[Zaixuan Zhang]]"
 last_author: "[[Liying Xu]]"
 authors: "Zaixuan Zhang; Zhansheng Chen; Liying Xu"
@@ -46,10 +15,10 @@ url: "https://www.sciencedirect.com/science/article/abs/pii/S0022103122000464"
 external_pdf: "https://doi.org/10.36571/ajsp661"
 publication: "Journal of Experimental Social Psychology"
 CONF-CC: "Journal of Experimental Social Psychology"
-national_ethnic_cultural: "N/A"
-cultures_nationalities_list: "N/A"
-languages_list: ""
-religious_values: "N/A"
+national_ethnic_cultural: N/A
+cultures_nationalities_list: N/A
+languages_list: 
+religious_values: N/A
 rv_islam: 0
 rv_christianity: 0
 rv_buddhism: 0
@@ -64,7 +33,7 @@ rv_bahai: 0
 rv_zoroastrianism: 0
 rv_ubuntu: 0
 rv_indigenous: 0
-religious_values_list: "N/A"
+religious_values_list: N/A
 mp_mft: 0
 mp_schwartz: 0
 mp_trolley: 0
@@ -73,7 +42,7 @@ mp_dual_process: 0
 mp_intuitionist: 0
 mp_dyadic: 0
 mp_identity: 0
-moral_psychology: "N/A"
+moral_psychology: N/A
 newtags: "Utilitarianism, Deontology, AI Perception, Warmth-Competence, Moral Dilemmas"
 key_contribution: "Demonstrates that people perceive AI as more likely to make utilitarian choices than humans, with perceived warmth accounting for differences"
 significance: "Foundational empirical work (N=804) showing AI perceived as high competence/low warmth favoring utilitarianism vs humans with high warmth/low competence favoring deontology"
@@ -83,11 +52,11 @@ abstract: "Artificial intelligence (AI) has become deeply integrated into daily 
 paper_summary: 
 local_pdf: "[[Lit-WS-Lit-WS-PDFs/2022/2022-Zhang-Artificial Intelligence and Moral Dilemmas.pdf]]"
 DATE_ADDED: 20260208
-LLM_assessed: "NA"
-DATA_URL: "NA"
+LLM_assessed: NA
+DATA_URL: NA
 ethics_perspective: "Machine Ethics"
-CONFERENCE: "Journal"
-ethics_overall: 20
+CONFERENCE: Journal
+ethics_overall: No
 virtue_ethics: 0
 deontological_ethics: 0
 utilitarian_ethics: 15
@@ -100,14 +69,14 @@ nw_buddhist: 0
 nw_dharmic: 0
 nw_indigenous_relational: 0
 nw_buen_vivir: 0
-author_country: "CA"
+author_country: CA
 author_region: "North America"
 author_global_north_south: "Global North"
 weird_score: 84
-is_benchmark: "No"
-is_eval: "No"
-is_dataset: "No"
-data_description: "N/A"
+is_benchmark: No
+is_eval: No
+is_dataset: No
+data_description: N/A
 data_metrics: "Not specified"
 ---
 # Artificial Intelligence and Moral Dilemmas: Perception of Ethical Decision-Making in AI

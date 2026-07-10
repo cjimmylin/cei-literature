@@ -1,0 +1,122 @@
+{
+  "canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "timestamp": "2026-07-10T08:15:16",
+  "k": 8,
+  "fourth_judge": {
+    "slug": "mistralai/mistral-medium-3.1",
+    "family": "mistral",
+    "name": "mistral-medium"
+  },
+  "judges": [
+    {
+      "name": "gpt4omini",
+      "family": "openai",
+      "slug": "openai/gpt-4o-mini"
+    },
+    {
+      "name": "gemini-flash",
+      "family": "google",
+      "slug": "google/gemini-2.5-flash"
+    },
+    {
+      "name": "mistral-small",
+      "family": "mistral",
+      "slug": "mistralai/mistral-small-3.2-24b-instruct"
+    },
+    {
+      "name": "mistral-medium",
+      "family": "mistral",
+      "slug": "mistralai/mistral-medium-3.1"
+    }
+  ],
+  "pass_rates": {
+    "gpt4omini": {
+      "g4": {
+        "n_pass": 8,
+        "k": 8
+      },
+      "award_consistency": {
+        "n_pass": 2,
+        "k": 8
+      },
+      "discrimination": {
+        "n_pass": 0,
+        "k": 8
+      },
+      "disclosure_inversion": {
+        "n_pass": 8,
+        "k": 8
+      },
+      "negative_disclosure": {
+        "n_pass": 0,
+        "k": 8
+      }
+    },
+    "gemini-flash": {
+      "g4": {
+        "n_pass": 8,
+        "k": 8
+      },
+      "award_consistency": {
+        "n_pass": 5,
+        "k": 8
+      },
+      "discrimination": {
+        "n_pass": 6,
+        "k": 8
+      },
+      "disclosure_inversion": {
+        "n_pass": 8,
+        "k": 8
+      },
+      "negative_disclosure": {
+        "n_pass": 8,
+        "k": 8
+      }
+    },
+    "mistral-small": {
+      "g4": {
+        "n_pass": 0,
+        "k": 8
+      },
+      "award_consistency": {
+        "n_pass": 2,
+        "k": 8
+      },
+      "discrimination": {
+        "n_pass": 0,
+        "k": 8
+      },
+      "disclosure_inversion": {
+        "n_pass": 0,
+        "k": 8
+      },
+      "negative_disclosure": {
+        "n_pass": 0,
+        "k": 8
+      }
+    },
+    "mistral-medium": {
+      "g4": {
+        "n_pass": 0,
+        "k": 8
+      },
+      "award_consistency": {
+        "n_pass": 8,
+        "k": 8
+      },
+      "discrimination": {
+        "n_pass": 0,
+        "k": 8
+      },
+      "disclosure_inversion": {
+        "n_pass": 2,
+        "k": 8
+      },
+      "negative_disclosure": {
+        "n_pass": 0,
+        "k": 8
+      }
+    }
+  }
+}

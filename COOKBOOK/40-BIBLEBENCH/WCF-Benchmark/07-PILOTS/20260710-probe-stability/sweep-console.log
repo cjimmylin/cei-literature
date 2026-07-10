@@ -1,0 +1,194 @@
+4th judge slug (live-validated): mistralai/mistral-medium-3.1 (family=mistral)
+all four judges: ['openai/gpt-4o-mini', 'google/gemini-2.5-flash', 'mistralai/mistral-small-3.2-24b-instruct', 'mistralai/mistral-medium-3.1']
+
+=== judge gpt4omini (openai/gpt-4o-mini) ===
+  g4                     rep0 PASS
+  g4                     rep1 PASS
+  g4                     rep2 PASS
+  g4                     rep3 PASS
+  g4                     rep4 PASS
+  g4                     rep5 PASS
+  g4                     rep6 PASS
+  g4                     rep7 PASS
+  --> g4: 8/8 pass
+  award_consistency      rep0 PASS
+  award_consistency      rep1 FAIL
+  award_consistency      rep2 PASS
+  award_consistency      rep3 FAIL
+  award_consistency      rep4 FAIL
+  award_consistency      rep5 FAIL
+  award_consistency      rep6 FAIL
+  award_consistency      rep7 FAIL
+  --> award_consistency: 2/8 pass
+  discrimination         rep0 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  discrimination         rep1 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  discrimination         rep2 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  discrimination         rep3 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  discrimination         rep4 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  discrimination         rep5 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  discrimination         rep6 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  discrimination         rep7 FAIL strong={1: True, 2: False, 3: False} weak={1: True, 2: False, 3: False}
+  --> discrimination: 0/8 pass
+  disclosure_inversion   rep0 PASS
+  disclosure_inversion   rep1 PASS
+  disclosure_inversion   rep2 PASS
+  disclosure_inversion   rep3 PASS
+  disclosure_inversion   rep4 PASS
+  disclosure_inversion   rep5 PASS
+  disclosure_inversion   rep6 PASS
+  disclosure_inversion   rep7 PASS
+  --> disclosure_inversion: 8/8 pass
+  negative_disclosure    rep0 FAIL disclosure=0.5
+  negative_disclosure    rep1 FAIL disclosure=0.5
+  negative_disclosure    rep2 FAIL disclosure=0.5
+  negative_disclosure    rep3 FAIL disclosure=0.5
+  negative_disclosure    rep4 FAIL disclosure=0.5
+  negative_disclosure    rep5 FAIL disclosure=0.5
+  negative_disclosure    rep6 FAIL disclosure=0.5
+  negative_disclosure    rep7 FAIL disclosure=0.5
+  --> negative_disclosure: 0/8 pass
+
+=== judge gemini-flash (google/gemini-2.5-flash) ===
+  g4                     rep0 PASS
+  g4                     rep1 PASS
+  g4                     rep2 PASS
+  g4                     rep3 PASS
+  g4                     rep4 PASS
+  g4                     rep5 PASS
+  g4                     rep6 PASS
+  g4                     rep7 PASS
+  --> g4: 8/8 pass
+  award_consistency      rep0 FAIL
+  award_consistency      rep1 FAIL
+  award_consistency      rep2 PASS
+  award_consistency      rep3 PASS
+  award_consistency      rep4 PASS
+  award_consistency      rep5 FAIL
+  award_consistency      rep6 PASS
+  award_consistency      rep7 PASS
+  --> award_consistency: 5/8 pass
+  discrimination         rep0 FAIL strong={1: True, 2: True, 3: True} weak={1: False, 2: True, 3: True}
+  discrimination         rep1 FAIL strong={1: True, 2: True, 3: True} weak={1: False, 2: None, 3: None}
+  discrimination         rep2 PASS strong={1: True, 2: True, 3: True} weak={1: False, 2: False, 3: False}
+  discrimination         rep3 PASS strong={1: True, 2: True, 3: True} weak={1: False, 2: False, 3: False}
+  discrimination         rep4 PASS strong={1: True, 2: True, 3: True} weak={1: False, 2: False, 3: False}
+  discrimination         rep5 PASS strong={1: True, 2: True, 3: True} weak={1: False, 2: False, 3: False}
+  discrimination         rep6 PASS strong={1: True, 2: True, 3: True} weak={1: False, 2: False, 3: False}
+  discrimination         rep7 PASS strong={1: True, 2: True, 3: True} weak={1: False, 2: False, 3: False}
+  --> discrimination: 6/8 pass
+  disclosure_inversion   rep0 PASS
+  disclosure_inversion   rep1 PASS
+  disclosure_inversion   rep2 PASS
+  disclosure_inversion   rep3 PASS
+  disclosure_inversion   rep4 PASS
+  disclosure_inversion   rep5 PASS
+  disclosure_inversion   rep6 PASS
+  disclosure_inversion   rep7 PASS
+  --> disclosure_inversion: 8/8 pass
+  negative_disclosure    rep0 PASS disclosure=0.0
+  negative_disclosure    rep1 PASS disclosure=0.0
+  negative_disclosure    rep2 PASS disclosure=0.0
+  negative_disclosure    rep3 PASS disclosure=0.0
+  negative_disclosure    rep4 PASS disclosure=0.0
+  negative_disclosure    rep5 PASS disclosure=0.0
+  negative_disclosure    rep6 PASS disclosure=0.0
+  negative_disclosure    rep7 PASS disclosure=0.0
+  --> negative_disclosure: 8/8 pass
+
+=== judge mistral-small (mistralai/mistral-small-3.2-24b-instruct) ===
+  g4                     rep0 FAIL
+  g4                     rep1 FAIL
+  g4                     rep2 FAIL
+  g4                     rep3 FAIL
+  g4                     rep4 FAIL
+  g4                     rep5 FAIL
+  g4                     rep6 FAIL
+  g4                     rep7 FAIL
+  --> g4: 0/8 pass
+  award_consistency      rep0 FAIL
+  award_consistency      rep1 FAIL
+  award_consistency      rep2 FAIL
+  award_consistency      rep3 FAIL
+  award_consistency      rep4 PASS
+  award_consistency      rep5 FAIL
+  award_consistency      rep6 PASS
+  award_consistency      rep7 FAIL
+  --> award_consistency: 2/8 pass
+  discrimination         rep0 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep1 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep2 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep3 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep4 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep5 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep6 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep7 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  --> discrimination: 0/8 pass
+  disclosure_inversion   rep0 FAIL
+  disclosure_inversion   rep1 FAIL
+  disclosure_inversion   rep2 FAIL
+  disclosure_inversion   rep3 FAIL
+  disclosure_inversion   rep4 FAIL
+  disclosure_inversion   rep5 FAIL
+  disclosure_inversion   rep6 FAIL
+  disclosure_inversion   rep7 FAIL
+  --> disclosure_inversion: 0/8 pass
+  negative_disclosure    rep0 FAIL disclosure=None
+  negative_disclosure    rep1 FAIL disclosure=None
+  negative_disclosure    rep2 FAIL disclosure=None
+  negative_disclosure    rep3 FAIL disclosure=None
+  negative_disclosure    rep4 FAIL disclosure=None
+  negative_disclosure    rep5 FAIL disclosure=None
+  negative_disclosure    rep6 FAIL disclosure=None
+  negative_disclosure    rep7 FAIL disclosure=None
+  --> negative_disclosure: 0/8 pass
+
+=== judge mistral-medium (mistralai/mistral-medium-3.1) ===
+  g4                     rep0 FAIL
+  g4                     rep1 FAIL
+  g4                     rep2 FAIL
+  g4                     rep3 FAIL
+  g4                     rep4 FAIL
+  g4                     rep5 FAIL
+  g4                     rep6 FAIL
+  g4                     rep7 FAIL
+  --> g4: 0/8 pass
+  award_consistency      rep0 PASS
+  award_consistency      rep1 PASS
+  award_consistency      rep2 PASS
+  award_consistency      rep3 PASS
+  award_consistency      rep4 PASS
+  award_consistency      rep5 PASS
+  award_consistency      rep6 PASS
+  award_consistency      rep7 PASS
+  --> award_consistency: 8/8 pass
+  discrimination         rep0 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep1 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep2 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep3 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep4 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep5 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep6 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  discrimination         rep7 FAIL strong={1: True, 2: True, 3: True} weak={1: True, 2: True, 3: True}
+  --> discrimination: 0/8 pass
+  disclosure_inversion   rep0 FAIL
+  disclosure_inversion   rep1 FAIL
+  disclosure_inversion   rep2 PASS
+  disclosure_inversion   rep3 PASS
+  disclosure_inversion   rep4 FAIL
+  disclosure_inversion   rep5 FAIL
+  disclosure_inversion   rep6 FAIL
+  disclosure_inversion   rep7 FAIL
+  --> disclosure_inversion: 2/8 pass
+  negative_disclosure    rep0 FAIL disclosure=None
+  negative_disclosure    rep1 FAIL disclosure=None
+  negative_disclosure    rep2 FAIL disclosure=None
+  negative_disclosure    rep3 FAIL disclosure=None
+  negative_disclosure    rep4 FAIL disclosure=None
+  negative_disclosure    rep5 FAIL disclosure=None
+  negative_disclosure    rep6 FAIL disclosure=None
+  negative_disclosure    rep7 FAIL disclosure=None
+  --> negative_disclosure: 0/8 pass
+
+wrote /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/07-PILOTS/20260710-probe-stability/pass_rates.json
+wrote /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/07-PILOTS/20260710-probe-stability/raw_verdicts.jsonl
+wrote /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/07-PILOTS/20260710-probe-stability/20260710-probe-stability-report.md

@@ -199,12 +199,13 @@ def main(argv=None):
     ap.add_argument("--judge-model", default="sonnet", help="claude -p model for the Claude judge")
     ap.add_argument("--codex-model", default=None, help="codex -m model (default = account default)")
     ap.add_argument("--date", default=None)
+    ap.add_argument("--panel", default=None, help="panel name (default <date>-o3-smoke)")
     ap.add_argument("--designs", default=None, help="comma-separated design ids (default: 4-family slice)")
     args = ap.parse_args(argv)
 
     root = Path(args.benchmark_root)
     date_str = args.date or date.today().strftime("%Y%m%d")
-    panel = f"{date_str}-o3-smoke"
+    panel = args.panel or f"{date_str}-o3-smoke"
     out = Path(args.out) if args.out else root / "runs" / panel
     picks = args.designs.split(",") if args.designs else DEFAULT_DESIGN_PICKS
 

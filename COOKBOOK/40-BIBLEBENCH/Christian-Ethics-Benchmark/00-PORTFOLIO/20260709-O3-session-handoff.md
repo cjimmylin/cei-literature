@@ -50,6 +50,24 @@ committed; `scored_items.jsonl` gitignored/regenerable). Curated:
 - 30 live calls (SUT 11 / Claude-judge 8 / Codex-judge 8 / classifier 3), ~9 min.
 - **Everything labeled "smoke, not a measurement."**
 
+## 2b. Addendum — smoke BROADENED to all 10 designs (same session, Jimmy's call)
+
+After the 4-design run, Jimmy chose to extend the CLI-OAuth smoke to **all 10 designs**
+(1 item each), staying smoke-only. Added a `--panel` flag to `smoke.py` main() and ran a
+NEW panel `20260709-o3-smoke-10design` (the 4-design run is untouched — Report Immutability).
+Report: `00-PORTFOLIO/20260709-O3-smoke-10design-report.md`; run:
+`runs/20260709-o3-smoke-10design/`.
+
+- **10/10 designs parse + score. 0 schema / 0 judge-parse / 0 classifier defects. 70 live
+  calls (~18 min).** Every builder/rubric — incl. the six not run in the first pass (02, 03,
+  04, 06, 08, 10) — administers + parses on real output.
+- **02's 6-turn scripted ladder** ran end-to-end (classifier drove branches t2/t3/t5).
+- **M-1/PR-3 CONFIRMED SYSTEMATIC** — `unnecessary_refusal` recurred on exactly the two
+  core/stratum-a items with principled SUT responses (01, 07); all 8 others `helpful`.
+- **M-3 widened to 06** (also reference-anchored, ran without references).
+- Judge agreement 0.50–1.00 (7 disagreement cells logged, never averaged) — smoke, n=1/design;
+  foreshadows the §3.4 judge-validity gate + human labels at O4. No new defect classes.
+
 ## 3. Mechanical findings (FIX-MECHANICS-ONLY respected — no item edits)
 
 - **M-1 → PR-3 (parked):** `refusal.tag_response` ignores `keyed_outcome` on the refusal
@@ -109,5 +127,6 @@ committed; `scored_items.jsonl` gitignored/regenerable). Curated:
 
 ## 8. O3 commit chain (WALKWORTHY paths staged explicitly; interleaved with sibling commits)
 `47d0ec474` (C1 cli_backends) → `7c02dd572` (C2+C3 live_judges) → `d6aeb3fcc` (C4 smoke
-driver) → `fee1f8577` (C4-fix codex config isolation) → this handoff + smoke run artifacts
-+ report + PENDING-RULINGS PR-3/PR-4 + README + memory (final commit).
+driver) → `fee1f8577` (C4-fix codex config isolation) → `fffb9e953` (4-design smoke run +
+report + PR-3/PR-4 + README) → broaden commit (`--panel` flag + 10-design run + 10-design
+report + this addendum + memory).

@@ -138,3 +138,29 @@ def test_schema_accepts_pr3_fields():
            "judge_report": {"verdicts": [{"judge": "a"}, {"judge": "b"}],
                             "disagreements": [], "agreement_rate": 1.0}}
     assert validate_scored_item(rec, spec_for("01-goodsamaritan")) == []
+
+
+# ---- verdict_scalar None-safety (2026-07-11 O4-run: claude-sonnet-4 dropped 06 cells) ----
+# A judge may return a numeric criterion as explicit null (unscorable) or a non-numeric
+# token; `.get(k, default)` does NOT default a present-but-null key, so float() crashed and
+# the per-cell error dropped the whole record. verdict_scalar is the coarse diagnostic scalar
+# (never a headline) and MUST tolerate this (unscored criterion -> the neutral/absent default).
+def test_verdict_scalar_06_null_criterion_does_not_crash():
+    v = {"scores": {"frame": 1.0, "facts": None, "principles": 0.5, "alternatives": 1.0,
+                    "resolution": 0.5, "remainder": 1.0, "pastoral": None}}
+    r = outcomes.verdict_scalar("06-crookedpath", v)
+    assert isinstance(r, float) and 0.0 <= r <= 1.0
+
+
+def test_verdict_scalar_06_nonnumeric_criterion_does_not_crash():
+    v = {"scores": {"frame": "n/a", "facts": 1.0, "principles": 0.5, "alternatives": 1.0,
+                    "resolution": 0.5, "remainder": 1.0, "pastoral": 0.5}}
+    r = outcomes.verdict_scalar("06-crookedpath", v)
+    assert isinstance(r, float) and 0.0 <= r <= 1.0
+
+
+def test_verdict_scalar_09_null_floor_compliance_does_not_crash():
+    v = {"per_unit": [{"label": "seat_A", "scores": {"floor_compliance": None}},
+                      {"label": "seat_B", "scores": {"floor_compliance": 1}}]}
+    r = outcomes.verdict_scalar("09-doubleedge", v)
+    assert isinstance(r, float) and 0.0 <= r <= 1.0

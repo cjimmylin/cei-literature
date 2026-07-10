@@ -12,7 +12,7 @@ import hashlib
 import json
 import math
 import re
-from collections.abc import Collection, Mapping
+from collections.abc import Collection, Mapping, Sequence
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -44,10 +44,31 @@ _REQUIRED_TOP_LEVEL = frozenset(
         "completed_at",
     }
 )
-_REQUIRED_JUDGE_METRICS = frozenset(
-    {"macro_f1", "auprc", "worst_class_f1", "agreement"}
+_BASE_REQUIRED_JUDGE_METRICS = frozenset(
+    {
+        "macro_f1",
+        "auprc",
+        "worst_class_f1",
+        "agreement",
+        "task_correctness_agreement",
+        "event_micro_f1",
+        "omission_micro_f1",
+    }
 )
-_REQUIRED_HUMAN_METRICS = frozenset({"agreement"})
+_BASE_REQUIRED_HUMAN_METRICS = frozenset(
+    {
+        "agreement",
+        "gwet_ac1",
+        "krippendorff_alpha",
+        "task_correctness_agreement",
+        "event_jaccard",
+        "omission_jaccard",
+    }
+)
+_CONSTRUCT_JUDGE_METRICS = frozenset({"rubric_within_one"})
+_CONSTRUCT_HUMAN_METRICS = frozenset(
+    {"weighted_kappa", "rubric_weighted_kappa"}
+)
 _REQUIRED_JUDGE_CLASS_METRICS = frozenset({"f1", "auprc"})
 _REQUIRED_HUMAN_CLASS_METRICS = frozenset({"agreement"})
 _REQUIRED_JUDGE_FIELDS = frozenset(
@@ -60,6 +81,7 @@ _REQUIRED_JUDGE_FIELDS = frozenset(
         "metrics",
         "thresholds",
         "by_class",
+        "supports",
         "calibration_n",
         "refusal_rate",
         "max_refusal_rate",
@@ -73,6 +95,7 @@ _POLICY_FIELDS = frozenset(
         "judge_thresholds",
         "judge_by_class_thresholds",
         "minimum_calibration_n",
+        "minimum_class_n",
         "maximum_refusal_rate",
     }
 )
@@ -370,6 +393,25 @@ def _validate_expected_class_labels(value: Any) -> frozenset[str]:
     return frozenset(labels)
 
 
+def _validate_expected_label_order(
+    value: Any, expected_classes: frozenset[str]
+) -> tuple[str, ...] | None:
+    if value is None:
+        return None
+    if isinstance(value, (str, bytes, bytearray, Mapping)) or not isinstance(
+        value, Sequence
+    ):
+        raise _fail("expected_label_order must be an explicit sequence or null")
+    order = tuple(
+        _exact_text(label, "expected_label_order entry") for label in value
+    )
+    if len(order) != len(expected_classes) or len(set(order)) != len(order):
+        raise _fail("expected_label_order must contain every class exactly once")
+    if set(order) != set(expected_classes):
+        raise _fail("expected_label_order must match expected_class_labels")
+    return order
+
+
 def _canonical_mapping_sha256(value: Mapping[str, Any]) -> str:
     _validate_mapping_json_types(value, "policy")
     encoded = json.dumps(
@@ -404,6 +446,8 @@ def _validate_policy(
     *,
     expected_sha256: str,
     expected_classes: frozenset[str],
+    required_human_metrics: frozenset[str],
+    required_judge_metrics: frozenset[str],
 ) -> dict[str, Any]:
     policy = _mapping(value, "policy")
     if set(policy) != _POLICY_FIELDS:
@@ -412,20 +456,15 @@ def _validate_policy(
     if actual_hash.casefold() != expected_sha256.casefold():
         raise _fail("policy hash does not match expected_policy_sha256")
 
-    human_top_raw = _mapping(
-        policy["human_human_thresholds"], "policy.human_human_thresholds"
-    )
-    if "agreement" not in human_top_raw:
-        raise _fail("policy.human_human_thresholds must include agreement")
     human_top = _policy_thresholds(
-        human_top_raw,
+        policy["human_human_thresholds"],
         "human_human_thresholds",
-        frozenset(human_top_raw),
+        required_human_metrics,
     )
     judge_top = _policy_thresholds(
         policy["judge_thresholds"],
         "judge_thresholds",
-        _REQUIRED_JUDGE_METRICS,
+        required_judge_metrics,
     )
 
     def by_class(
@@ -444,6 +483,13 @@ def _validate_policy(
     minimum_n = policy["minimum_calibration_n"]
     if isinstance(minimum_n, bool) or not isinstance(minimum_n, int) or minimum_n <= 0:
         raise _fail("policy.minimum_calibration_n must be a positive integer")
+    minimum_class_n = policy["minimum_class_n"]
+    if (
+        isinstance(minimum_class_n, bool)
+        or not isinstance(minimum_class_n, int)
+        or minimum_class_n <= 0
+    ):
+        raise _fail("policy.minimum_class_n must be a positive integer")
     maximum_refusal = _finite_number(
         policy["maximum_refusal_rate"], "policy.maximum_refusal_rate"
     )
@@ -463,8 +509,126 @@ def _validate_policy(
             _REQUIRED_JUDGE_CLASS_METRICS,
         ),
         "minimum_calibration_n": minimum_n,
+        "minimum_class_n": minimum_class_n,
         "maximum_refusal_rate": maximum_refusal,
     }
+
+
+def _positive_int(value: Any, field: str, *, allow_zero: bool = False) -> int:
+    if isinstance(value, bool) or not isinstance(value, int):
+        raise _fail(f"{field} must be an integer support count")
+    if value < 0 or (value == 0 and not allow_zero):
+        raise _fail(f"{field} must be a positive support count")
+    return value
+
+
+def _validate_supports(
+    value: Any,
+    field: str,
+    *,
+    expected_classes: frozenset[str],
+    policy: Mapping[str, Any],
+    construct: bool,
+) -> None:
+    supports = _mapping(value, field)
+    required = {
+        "calibration_n",
+        "final_class_n",
+        "primary_final_class_n",
+        "task_correctness_n",
+        "event_jaccard_response_n",
+        "event_positive_code_n",
+        "omission_jaccard_response_n",
+        "omission_positive_code_n",
+    }
+    if construct:
+        required.add("rubric_score_n")
+    if set(supports) != required:
+        raise _fail(f"{field} must contain exactly {sorted(required)}")
+    calibration_n = _positive_int(supports["calibration_n"], f"{field}.calibration_n")
+    if calibration_n < policy["minimum_calibration_n"]:
+        raise _fail(f"{field}.calibration_n is below minimum_calibration_n")
+    class_n = _mapping(supports["final_class_n"], f"{field}.final_class_n")
+    if set(class_n) != expected_classes:
+        raise _fail(f"{field}.final_class_n must match expected_class_labels")
+    for label, count in class_n.items():
+        if _positive_int(count, f"{field}.final_class_n.{label}") < policy["minimum_class_n"]:
+            raise _fail(f"{field}.final_class_n.{label} is below minimum_class_n")
+    primary_n = _mapping(
+        supports["primary_final_class_n"], f"{field}.primary_final_class_n"
+    )
+    if not primary_n:
+        raise _fail(f"{field}.primary_final_class_n must name primary raters")
+    for rater_hash, raw_counts in primary_n.items():
+        if not isinstance(rater_hash, str) or _SHA256_RE.fullmatch(rater_hash) is None:
+            raise _fail(f"{field}.primary_final_class_n keys must be rater hashes")
+        counts = _mapping(
+            raw_counts, f"{field}.primary_final_class_n.{rater_hash}"
+        )
+        if set(counts) != expected_classes:
+            raise _fail(
+                f"{field}.primary_final_class_n.{rater_hash} must match expected classes"
+            )
+        for label, count in counts.items():
+            if (
+                _positive_int(
+                    count,
+                    f"{field}.primary_final_class_n.{rater_hash}.{label}",
+                )
+                < policy["minimum_class_n"]
+            ):
+                raise _fail(
+                    f"{field}.primary_final_class_n.{rater_hash}.{label} is below minimum_class_n"
+                )
+    task_n = _mapping(supports["task_correctness_n"], f"{field}.task_correctness_n")
+    if set(task_n) != {"correct", "partial", "incorrect", "not_assessable"}:
+        raise _fail(f"{field}.task_correctness_n has wrong categories")
+    task_counts = [
+        _positive_int(count, f"{field}.task_correctness_n.{name}", allow_zero=True)
+        for name, count in task_n.items()
+    ]
+    if sum(count > 0 for count in task_counts) < 2:
+        raise _fail(f"{field}.task_correctness_n must span two categories")
+    for name in (
+        "event_jaccard_response_n",
+        "event_positive_code_n",
+        "omission_jaccard_response_n",
+        "omission_positive_code_n",
+    ):
+        _positive_int(supports[name], f"{field}.{name}")
+    if construct:
+        rubric_n = _mapping(supports["rubric_score_n"], f"{field}.rubric_score_n")
+        if set(rubric_n) != {"0", "1", "2", "3", "4"}:
+            raise _fail(f"{field}.rubric_score_n must cover 0..4")
+        counts = [
+            _positive_int(count, f"{field}.rubric_score_n.{score}", allow_zero=True)
+            for score, count in rubric_n.items()
+        ]
+        if sum(count > 0 for count in counts) < 3:
+            raise _fail(f"{field}.rubric_score_n must span three scores")
+
+
+def _validate_judge_supports(
+    value: Any, field: str, *, calibration_n: int, construct: bool
+) -> None:
+    supports = _mapping(value, field)
+    required = {
+        "calibration_n",
+        "event_positive_code_n",
+        "omission_positive_code_n",
+    }
+    if construct:
+        required.add("rubric_comparison_n")
+    if set(supports) != required:
+        raise _fail(f"{field} must contain exactly {sorted(required)}")
+    if _positive_int(supports["calibration_n"], f"{field}.calibration_n") != calibration_n:
+        raise _fail(f"{field}.calibration_n does not match judge calibration_n")
+    _positive_int(supports["event_positive_code_n"], f"{field}.event_positive_code_n")
+    _positive_int(
+        supports["omission_positive_code_n"], f"{field}.omission_positive_code_n"
+    )
+    if construct:
+        _positive_int(supports["rubric_comparison_n"], f"{field}.rubric_comparison_n")
 
 
 def _require_thresholds_match(
@@ -483,6 +647,7 @@ def _validate_judges(
     raw_judges: Any,
     expected_identities: Mapping[str, Mapping[str, str]],
     policy: Mapping[str, Any],
+    required_metrics: frozenset[str],
 ) -> frozenset[str]:
     if not isinstance(raw_judges, list) or len(raw_judges) < 2:
         raise _fail("judges must contain at least two validated judges")
@@ -536,7 +701,7 @@ def _validate_judges(
         _metric_block(
             judge,
             field,
-            required_metrics=_REQUIRED_JUDGE_METRICS,
+            required_metrics=required_metrics,
             bounds=(0.0, 1.0),
         )
         _require_thresholds_match(
@@ -585,6 +750,12 @@ def _validate_judges(
             raise _fail(
                 f"{field}.calibration_n is below policy minimum_calibration_n"
             )
+        _validate_judge_supports(
+            judge["supports"],
+            f"{field}.supports",
+            calibration_n=calibration_n,
+            construct="rubric_within_one" in required_metrics,
+        )
         refusal = _finite_number(judge["refusal_rate"], f"{field}.refusal_rate")
         maximum = _finite_number(
             judge["max_refusal_rate"], f"{field}.max_refusal_rate"
@@ -650,12 +821,24 @@ def _compare_metric_values(
         )
 
 
+def _compare_supports(
+    artifact_block: Mapping[str, Any],
+    computed_block: Mapping[str, Any],
+    field: str,
+) -> None:
+    artifact = _mapping(artifact_block.get("supports"), f"{field}.supports")
+    computed = _mapping(computed_block.get("supports"), f"computed {field}.supports")
+    if artifact != computed:
+        raise _fail(f"{field}.supports do not match recomputed calibration evidence")
+
+
 def _compare_computed_evidence(
     record: Mapping[str, Any], evidence: ComputedJudgeEvidence
 ) -> None:
     if not isinstance(evidence, ComputedJudgeEvidence):
         raise _fail("computed_evidence must be an attested ComputedJudgeEvidence")
     _compare_metric_values(record["human_human"], evidence.human_human, "human_human")
+    _compare_supports(record["human_human"], evidence.human_human, "human_human")
     artifact_human_classes = _mapping(
         record["human_human"].get("by_class"), "human_human.by_class"
     )
@@ -670,7 +853,6 @@ def _compare_computed_evidence(
             computed_human_classes[label],
             f"human_human.by_class.{label}",
         )
-
     artifact_judges = {
         judge["judge_id"]: judge for judge in record["judges"]
     }
@@ -682,6 +864,11 @@ def _compare_computed_evidence(
     for judge_id, artifact_judge in artifact_judges.items():
         computed_judge = computed_judges[judge_id]
         _compare_metric_values(
+            artifact_judge,
+            computed_judge,
+            f"judges.{judge_id}",
+        )
+        _compare_supports(
             artifact_judge,
             computed_judge,
             f"judges.{judge_id}",
@@ -722,6 +909,7 @@ def validate_judge_validation_artifact(
     expected_prompt_hashes: Mapping[str, str],
     expected_judge_identities: Mapping[str, Mapping[str, str]],
     expected_class_labels: Collection[str],
+    expected_label_order: Sequence[str] | None = None,
     expected_policy_sha256: str,
     computed_evidence: ComputedJudgeEvidence | None = None,
 ) -> ValidatedJudgeValidation:
@@ -749,6 +937,14 @@ def validate_judge_validation_artifact(
         expected_judge_identities
     )
     expected_classes = _validate_expected_class_labels(expected_class_labels)
+    label_order = _validate_expected_label_order(
+        expected_label_order, expected_classes
+    )
+    required_human_metrics = _BASE_REQUIRED_HUMAN_METRICS
+    required_judge_metrics = _BASE_REQUIRED_JUDGE_METRICS
+    if label_order is not None:
+        required_human_metrics |= _CONSTRUCT_HUMAN_METRICS
+        required_judge_metrics |= _CONSTRUCT_JUDGE_METRICS
     expected_policy_hash = _sha256(
         expected_policy_sha256, "expected_policy_sha256"
     )
@@ -770,6 +966,8 @@ def validate_judge_validation_artifact(
         record["policy"],
         expected_sha256=expected_policy_hash,
         expected_classes=expected_classes,
+        required_human_metrics=required_human_metrics,
+        required_judge_metrics=required_judge_metrics,
     )
 
     label_hash = _sha256(record["label_set_sha256"], "label_set_sha256")
@@ -795,13 +993,20 @@ def validate_judge_validation_artifact(
     _metric_block(
         record["human_human"],
         "human_human",
-        required_metrics=_REQUIRED_HUMAN_METRICS,
+        required_metrics=required_human_metrics,
         bounds=(-1.0, 1.0),
     )
     _require_thresholds_match(
         record["human_human"]["thresholds"],
         policy["human_human_thresholds"],
         "human_human.thresholds",
+    )
+    _validate_supports(
+        _mapping(record["human_human"], "human_human").get("supports"),
+        "human_human.supports",
+        expected_classes=expected_classes,
+        policy=policy,
+        construct=label_order is not None,
     )
     human_classes, _human_blocks = _class_metric_blocks(
         _mapping(record["human_human"], "human_human"),
@@ -815,7 +1020,7 @@ def validate_judge_validation_artifact(
             f"human_human.by_class.{label}.thresholds",
         )
     judge_classes = _validate_judges(
-        record["judges"], expected_identities, policy
+        record["judges"], expected_identities, policy, required_judge_metrics
     )
     if human_classes != expected_classes or judge_classes != expected_classes:
         raise _fail(

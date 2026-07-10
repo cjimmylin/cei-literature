@@ -13,11 +13,10 @@ surface has a deliberately disjoint outcome domain:
 no-fusion headline label in either domain remains in the evidence table and
 latches the analysis invalid; it is never silently dropped.
 
-Each terminal row must carry ``actor_id``, ``item_id``, ``surface_id``,
-``cue_arm``, ``task_arm``, ``rollout``, ``task_correctness``, ``final_label``,
-``judge_ids``, ``judge_disagreement``, ``output_length``, and
-``headline_eligible``.  A ``judge_labels`` mapping is optional; when present it
-enables directional per-judge vote effects in addition to disagreement rates.
+Each terminal row also binds its execution ``phase``, schedule position,
+targeted cue factors, the fused path/rubric scores, and both judges' unfused
+construct scores.  Development and locked-confirmation evidence are never
+pooled into a headline model contrast.
 """
 
 from __future__ import annotations
@@ -36,7 +35,7 @@ from typing import Any, Callable
 HERE = Path(__file__).resolve().parent
 DEFAULT_CONFIG = HERE / "analysis_config.openrouter.json"
 FROZEN_ANALYSIS_CONFIG_SHA256 = (
-    "3c4b1f6a9e5aad99c66df809111a383728b3fb487a17dd437b5e475cd269670e"
+    "5b4863a4af924179a7e4bbc2fc5d96839813183d1c533b05bed84d8add0e8374"
 )
 
 _CONFIG_KEYS = {
@@ -69,12 +68,14 @@ _MIXED_PANEL_KEYS = {
 }
 _THRESHOLD_KEYS = {
     "smallest_effect_of_interest",
+    "rubric_score_smallest_effect_of_interest",
     "endpoint_item_rate",
     "saturated_item_fraction",
     "minimum_headline_items_per_actor",
     "minimum_task_success_rate",
     "stable_direction_fraction",
     "maximum_null_false_positive_rate",
+    "maximum_null_indeterminate_rate",
     "maximum_counterbalanced_rank_reversal_fraction",
     "maximum_cue_dominance_ratio",
     "cue_model_interaction_report_threshold",
@@ -94,8 +95,17 @@ _ROW_FIELDS = {
     "judge_disagreement",
     "output_length",
     "headline_eligible",
+    "phase",
+    "path_quality",
+    "rubric_score",
+    "schedule_position",
+    "targeted_cue_factors",
+    "judge_labels",
+    "judge_path_quality",
+    "judge_rubric_scores",
 }
 _TASK_CORRECTNESS = {"correct", "partial", "incorrect", "not_assessable"}
+_PHASES = {"development", "locked-confirmation"}
 
 
 def _strict_json_object(raw: bytes, name: str) -> dict[str, Any]:
@@ -149,6 +159,13 @@ def _unit_interval(value: Any, field: str) -> float:
     number = _finite_number(value, field)
     if number > 1:
         raise ValueError(f"{field} must be in [0,1]")
+    return number
+
+
+def _bounded_number(value: Any, field: str, *, maximum: float) -> float:
+    number = _finite_number(value, field)
+    if number > maximum:
+        raise ValueError(f"{field} must be in [0,{maximum:g}]")
     return number
 
 
@@ -213,7 +230,7 @@ def load_analysis_config(
             cue_arms["null_foil"],
         ],
         "confirmation_arm": cue_arms["sealed_confirmation"],
-        "confirmation_trigger": "ANY_HEADLINE_C3_ROW",
+        "confirmation_trigger": "ANY_LOCKED_PHASE_ROW",
     }
     if mixed_panel != expected_mixed_panel:
         raise ValueError(
@@ -286,6 +303,14 @@ def load_analysis_config(
                 raise ValueError(f"thresholds.{key} must be a positive integer")
         else:
             _unit_interval(value, f"thresholds.{key}")
+    frozen_thresholds = {
+        "smallest_effect_of_interest": 0.1,
+        "rubric_score_smallest_effect_of_interest": 0.3,
+        "maximum_null_indeterminate_rate": 0.1,
+    }
+    for key, expected in frozen_thresholds.items():
+        if thresholds[key] != expected:
+            raise ValueError(f"thresholds.{key} is frozen to {expected}")
     if thresholds["maximum_cue_dominance_ratio"] != 1.0:
         raise ValueError("cue dominance ratio boundary is frozen to 1.0")
     digits = cfg["rounding_digits"]
@@ -380,6 +405,9 @@ def _normalize_rows(
         cue_arm = _nonblank(row["cue_arm"], f"row {index}.cue_arm")
         if cue_arm not in cues:
             raise ValueError(f"row {index}.cue_arm is not one of {sorted(cues)}")
+        phase = _nonblank(row["phase"], f"row {index}.phase")
+        if phase not in _PHASES:
+            raise ValueError(f"row {index}.phase must be development or locked-confirmation")
         row["task_arm"] = _nonblank(row["task_arm"], f"row {index}.task_arm")
         rollout = row["rollout"]
         if isinstance(rollout, bool) or not isinstance(rollout, int) or rollout < 0:
@@ -396,6 +424,20 @@ def _normalize_rows(
         row["output_length"] = _finite_number(
             row["output_length"], f"row {index}.output_length"
         )
+        position = row["schedule_position"]
+        if isinstance(position, bool) or not isinstance(position, int) or position <= 0:
+            raise ValueError(f"row {index}.schedule_position must be a positive integer")
+        targeted = row["targeted_cue_factors"]
+        if (
+            isinstance(targeted, (str, bytes, bytearray))
+            or not isinstance(targeted, Sequence)
+            or any(not isinstance(factor, str) or not factor or factor != factor.strip() for factor in targeted)
+            or len(targeted) != len(set(targeted))
+        ):
+            raise ValueError(
+                f"row {index}.targeted_cue_factors must be a unique exact string list"
+            )
+        row["targeted_cue_factors"] = list(targeted)
 
         final_label = row["final_label"]
         is_control = cue_arm == null_cue
@@ -406,6 +448,8 @@ def _normalize_rows(
             if not isinstance(final_label, str) or final_label.lower() not in {
                 "unresolved",
                 "no_fusion",
+                "refusal",
+                "unresolved_refusal",
             }:
                 domain = "C2 control" if is_control else "THORNS construct"
                 raise ValueError(
@@ -424,27 +468,54 @@ def _normalize_rows(
         if row["headline_eligible"] and set(judge_ids) != required_judges:
             integrity_failures.append("JUDGE_ID_SET")
 
-        judge_labels = row.get("judge_labels")
-        if judge_labels is not None:
-            if not isinstance(judge_labels, Mapping) or set(judge_labels) != set(judge_ids):
+        judge_labels = row["judge_labels"]
+        if not isinstance(judge_labels, Mapping) or set(judge_labels) != set(judge_ids):
+            raise ValueError(
+                f"row {index}.judge_labels must exactly map the listed judge_ids"
+            )
+        normalized_votes = {}
+        for judge_id, label in judge_labels.items():
+            if label not in allowed_labels:
+                domain = "C2 control" if is_control else "THORNS construct"
                 raise ValueError(
-                    f"row {index}.judge_labels must exactly map the listed judge_ids"
+                    f"row {index}.judge_labels[{judge_id!r}] is not a {domain} label"
                 )
-            normalized_votes = {}
-            for judge_id, label in judge_labels.items():
-                if label not in allowed_labels:
-                    domain = "C2 control" if is_control else "THORNS construct"
+            normalized_votes[judge_id] = label
+        row["judge_labels"] = normalized_votes
+        observed_disagreement = len(set(normalized_votes.values())) > 1
+        if (
+            row["headline_eligible"]
+            and row["judge_disagreement"] != observed_disagreement
+        ):
+            integrity_failures.append("JUDGE_DISAGREEMENT_MISMATCH")
+
+        if is_control:
+            if row["path_quality"] is not None or row["rubric_score"] is not None:
+                raise ValueError(f"row {index} C2 scores must be null")
+            for field in ("judge_path_quality", "judge_rubric_scores"):
+                if row[field] not in (None, {}):
+                    raise ValueError(f"row {index}.{field} must be null for C2")
+                row[field] = None
+        else:
+            for field in ("path_quality", "rubric_score"):
+                value = row[field]
+                if value is None and not row["_resolved"]:
+                    continue
+                row[field] = _bounded_number(
+                    value, f"row {index}.{field}", maximum=4.0
+                )
+            for field in ("judge_path_quality", "judge_rubric_scores"):
+                values = row[field]
+                if not isinstance(values, Mapping) or set(values) != required_judges:
                     raise ValueError(
-                        f"row {index}.judge_labels[{judge_id!r}] is not a {domain} label"
+                        f"row {index}.{field} must exactly map J01/J02"
                     )
-                normalized_votes[judge_id] = label
-            row["judge_labels"] = normalized_votes
-            observed_disagreement = len(set(normalized_votes.values())) > 1
-            if (
-                row["headline_eligible"]
-                and row["judge_disagreement"] != observed_disagreement
-            ):
-                integrity_failures.append("JUDGE_DISAGREEMENT_MISMATCH")
+                row[field] = {
+                    judge_id: _bounded_number(
+                        value, f"row {index}.{field}.{judge_id}", maximum=4.0
+                    )
+                    for judge_id, value in values.items()
+                }
 
         if row["headline_eligible"]:
             prior_cue = surface_cues.setdefault(row["surface_id"], cue_arm)
@@ -457,6 +528,7 @@ def _normalize_rows(
             if prior_surface != row["surface_id"]:
                 integrity_failures.append("SURFACE_ASSIGNMENT_MISMATCH")
             key = (
+                phase,
                 actor_id,
                 row["item_id"],
                 row["surface_id"],
@@ -519,17 +591,23 @@ def _surface_item_matrix(
     *,
     cue_arm: str,
     cfg: Mapping[str, Any],
-    value: Callable[[Mapping[str, Any]], float],
+    value: Callable[[Mapping[str, Any]], float | None],
+    task_success_conditioned: bool = False,
 ) -> dict[tuple[str, str], float]:
     by_task: dict[tuple[str, str, str], list[float]] = defaultdict(list)
     for row in rows:
+        if row["cue_arm"] != cue_arm:
+            continue
+        observed = value(row)
         if (
-            row["cue_arm"] == cue_arm
-            and row["_resolved"]
-            and row["task_correctness"] in cfg["task_success_labels"]
+            observed is not None
+            and (
+                not task_success_conditioned
+                or row["task_correctness"] in cfg["task_success_labels"]
+            )
         ):
             by_task[(row["actor_id"], row["item_id"], row["task_arm"])].append(
-                value(row)
+                observed
             )
     by_item: dict[tuple[str, str], list[float]] = defaultdict(list)
     for (actor_id, item_id, _task_arm), values in by_task.items():
@@ -557,19 +635,25 @@ def _selected_item_matrix(
     *,
     selected_arm_by_item: Mapping[str, str],
     cfg: Mapping[str, Any],
-    value: Callable[[Mapping[str, Any]], float],
+    value: Callable[[Mapping[str, Any]], float | None],
+    task_success_conditioned: bool = False,
 ) -> dict[tuple[str, str], float]:
     """Reduce the mixed base/cue primary panel at the item level."""
 
     by_task: dict[tuple[str, str, str], list[float]] = defaultdict(list)
     for row in rows:
+        if selected_arm_by_item.get(row["item_id"]) != row["cue_arm"]:
+            continue
+        observed = value(row)
         if (
-            selected_arm_by_item.get(row["item_id"]) == row["cue_arm"]
-            and row["_resolved"]
-            and row["task_correctness"] in cfg["task_success_labels"]
+            observed is not None
+            and (
+                not task_success_conditioned
+                or row["task_correctness"] in cfg["task_success_labels"]
+            )
         ):
             by_task[(row["actor_id"], row["item_id"], row["task_arm"])].append(
-                value(row)
+                observed
             )
     by_item: dict[tuple[str, str], list[float]] = defaultdict(list)
     for (actor_id, item_id, _task_arm), values in by_task.items():
@@ -623,6 +707,123 @@ def _paired_effect(
     }
 
 
+def _public_paired_effect(effect: Mapping[str, Any]) -> dict[str, Any]:
+    return {
+        key: value
+        for key, value in effect.items()
+        if key not in {"item_differences", "item_ids"}
+    }
+
+
+def _paired_item_ids(
+    matrix: Mapping[tuple[str, str], float], actor_a: str, actor_b: str
+) -> set[str]:
+    items_a = {item_id for actor, item_id in matrix if actor == actor_a}
+    items_b = {item_id for actor, item_id in matrix if actor == actor_b}
+    return items_a & items_b
+def _mark_endpoint_availability(
+    summary: dict[str, Any], *, expected_n_items: int, has_null_endpoint: bool = False
+) -> None:
+    observed_n_items = summary["n_items"]
+    available = (
+        expected_n_items > 0
+        and observed_n_items == expected_n_items
+        and not has_null_endpoint
+    )
+    summary["available"] = available
+    summary["expected_n_items"] = expected_n_items
+    summary["scoreable_n_items"] = observed_n_items
+    if available:
+        summary["unavailable_reason"] = None
+        return
+    summary["unavailable_reason"] = (
+        "NULL_FUSED_ENDPOINT"
+        if has_null_endpoint or observed_n_items < expected_n_items
+        else "NO_ENDPOINT_ROWS"
+    )
+    summary["n_items"] = expected_n_items
+    for key in (
+        "effect",
+        "direction",
+        "direction_fraction",
+        "cluster_bootstrap_ci",
+        "cluster_bootstrap_ci_excludes_zero",
+    ):
+        summary[key] = None
+    summary["inside_indifference_region"] = False
+    summary["exceeds_soei"] = False
+    summary["stable"] = False
+
+
+def _pairwise_summaries(
+    matrix: Mapping[tuple[str, str], float],
+    conditioned_matrix: Mapping[tuple[str, str], float],
+    *,
+    cfg: Mapping[str, Any],
+    analysis_phase: str,
+    endpoint: str,
+    soei: float | None,
+) -> list[dict[str, Any]]:
+    summaries = []
+    stable_direction = cfg["thresholds"]["stable_direction_fraction"]
+    for actor_a, actor_b in cfg["comparisons"]:
+        key = f"{analysis_phase}:{endpoint}:{actor_a}-{actor_b}"
+        primary = _paired_effect(
+            matrix, actor_a, actor_b, cfg=cfg, seed_key=f"{key}:unconditional"
+        )
+        sensitivity = _paired_effect(
+            conditioned_matrix,
+            actor_a,
+            actor_b,
+            cfg=cfg,
+            seed_key=f"{key}:task-correct-conditioned",
+        )
+        interval = primary["cluster_bootstrap_ci"]
+        interval_excludes_zero = bool(
+            interval is not None and (interval[0] > 0 or interval[1] < 0)
+        )
+        exceeds_soei = bool(
+            soei is not None
+            and primary["effect"] is not None
+            and abs(primary["effect"]) > soei
+        )
+        summaries.append(
+            {
+                "actor_a": actor_a,
+                "actor_b": actor_b,
+                "endpoint": endpoint,
+                "analysis_phase": analysis_phase,
+                "estimand": "unconditional_all_scoreable_construct_rows",
+                **_public_paired_effect(primary),
+                "bootstrap_unit": cfg["cluster_bootstrap"]["unit"],
+                "bootstrap_replicates": cfg["cluster_bootstrap"]["replicates"],
+                "bootstrap_confidence_level": cfg["cluster_bootstrap"][
+                    "confidence_level"
+                ],
+                "cluster_bootstrap_ci_excludes_zero": interval_excludes_zero,
+                "soei": soei,
+                "inside_indifference_region": (
+                    soei is not None
+                    and primary["effect"] is not None
+                    and abs(primary["effect"]) <= soei
+                ),
+                "exceeds_soei": exceeds_soei,
+                "stable": (
+                    exceeds_soei
+                    and interval_excludes_zero
+                    and primary["direction_fraction"] >= stable_direction
+                ),
+                "task_correct_conditioned_sensitivity": {
+                    "estimand": "task_correct_conditioned_sensitivity",
+                    **_public_paired_effect(sensitivity),
+                },
+                "_item_ids": primary["item_ids"],
+                "_item_differences": primary["item_differences"],
+            }
+        )
+    return summaries
+
+
 def _pearson(xs: Sequence[float], ys: Sequence[float]) -> float | None:
     if len(xs) != len(ys) or len(xs) < 2:
         return None
@@ -655,17 +856,12 @@ def _clustered_row_mean(
 
 
 def _counterbalance_coverage_diagnostics(
-    rows: Sequence[Mapping[str, Any]], cfg: Mapping[str, Any]
+    rows: Sequence[Mapping[str, Any]],
+    cfg: Mapping[str, Any],
+    *,
+    confirmation_started: bool | None = None,
 ) -> dict[str, Any]:
-    """Validate the preregistered mixed panel and staged C3 transition.
-
-    An item becomes a registered cue item when any headline non-C0 arm is
-    observed.  Registered cue items must have actor-balanced C0/C1/C2 task
-    arms.  Items with C0 only are base items and require only actor-balanced
-    C0.  C3 is optional throughout development, but the first headline C3 row
-    atomically starts locked confirmation and requires C3 for every registered
-    cue item and actor.
-    """
+    """Validate complete actor/item/arm coverage separately in each phase."""
 
     actors = list(cfg["actors"])
     policy = cfg["mixed_panel"]
@@ -673,74 +869,117 @@ def _counterbalance_coverage_diagnostics(
     development_arms = list(policy["development_required_cue_arms"])
     confirmation_arm = policy["confirmation_arm"]
     item_ids = sorted({row["item_id"] for row in rows})
-    arms_by_item: dict[str, set[str]] = defaultdict(set)
-    actual: dict[tuple[str, str, str], set[str]] = defaultdict(set)
+    development_rows = [row for row in rows if row["phase"] == "development"]
+    locked_rows = [row for row in rows if row["phase"] == "locked-confirmation"]
+    development_arms_by_item: dict[str, set[str]] = defaultdict(set)
+    locked_arms_by_item: dict[str, set[str]] = defaultdict(set)
+    actual: dict[tuple[str, str, str, str], set[str]] = defaultdict(set)
     for row in rows:
         item_id = row["item_id"]
-        arms_by_item[item_id].add(row["cue_arm"])
-        actual[(row["actor_id"], item_id, row["cue_arm"])].add(
+        arm_map = (
+            development_arms_by_item
+            if row["phase"] == "development"
+            else locked_arms_by_item
+        )
+        arm_map[item_id].add(row["cue_arm"])
+        actual[(row["phase"], row["actor_id"], item_id, row["cue_arm"])].add(
             row["task_arm"]
         )
 
     registered_cue_items = sorted(
         item_id
         for item_id in item_ids
-        if any(arm != base_arm for arm in arms_by_item[item_id])
+        if (
+            any(arm != base_arm for arm in development_arms_by_item[item_id])
+            or confirmation_arm in locked_arms_by_item[item_id]
+        )
     )
     registered_set = set(registered_cue_items)
     base_items = sorted(set(item_ids) - registered_set)
-    confirmation_started = any(
-        confirmation_arm in arms_by_item[item_id]
-        for item_id in registered_cue_items
-    )
+    if confirmation_started is None:
+        confirmation_started = bool(locked_rows)
 
     missing_cells: list[dict[str, Any]] = []
     for item_id in item_ids:
-        required_arms = (
+        development_required = (
             list(development_arms) if item_id in registered_set else [base_arm]
         )
-        if confirmation_started and item_id in registered_set:
-            required_arms.append(confirmation_arm)
-
-        # C0 defines the task-arm contract.  If malformed evidence lacks C0,
-        # the union of observed arms still gives deterministic diagnostics.
+        locked_required = (
+            [confirmation_arm] if item_id in registered_set else [base_arm]
+        )
         expected_tasks = set().union(
-            *(actual[(actor_id, item_id, base_arm)] for actor_id in actors)
+            *(
+                actual[("development", actor_id, item_id, base_arm)]
+                for actor_id in actors
+            )
         )
         if not expected_tasks:
             expected_tasks = set().union(
                 *(
-                    actual[(actor_id, item_id, arm)]
+                    actual[(phase, actor_id, item_id, arm)]
+                    for phase in _PHASES
                     for actor_id in actors
-                    for arm in required_arms
+                    for arm in development_required + locked_required
                 )
             )
-        for cue_arm in required_arms:
-            for actor_id in actors:
-                observed = actual[(actor_id, item_id, cue_arm)]
-                if observed != expected_tasks:
-                    missing_cells.append(
-                        {
-                            "actor_id": actor_id,
-                            "item_id": item_id,
-                            "cue_arm": cue_arm,
-                            "missing_task_arms": sorted(expected_tasks - observed),
-                            "unexpected_task_arms": sorted(observed - expected_tasks),
-                        }
-                    )
+        required_by_phase = {"development": development_required}
+        if confirmation_started:
+            required_by_phase["locked-confirmation"] = locked_required
+        for phase, required_arms in required_by_phase.items():
+            for cue_arm in required_arms:
+                for actor_id in actors:
+                    observed = actual[(phase, actor_id, item_id, cue_arm)]
+                    if observed != expected_tasks:
+                        missing_cells.append(
+                            {
+                                "phase": phase,
+                                "actor_id": actor_id,
+                                "item_id": item_id,
+                                "cue_arm": cue_arm,
+                                "missing_task_arms": sorted(expected_tasks - observed),
+                                "unexpected_task_arms": sorted(observed - expected_tasks),
+                            }
+                        )
+
+        expected_arm_sets = {
+            "development": set(development_required),
+            "locked-confirmation": set(locked_required) if confirmation_started else set(),
+        }
+        for phase in _PHASES:
+            observed_arms = (
+                development_arms_by_item[item_id]
+                if phase == "development"
+                else locked_arms_by_item[item_id]
+            )
+            for cue_arm in sorted(observed_arms - expected_arm_sets[phase]):
+                for actor_id in actors:
+                    observed = actual[(phase, actor_id, item_id, cue_arm)]
+                    if observed:
+                        missing_cells.append(
+                            {
+                                "phase": phase,
+                                "actor_id": actor_id,
+                                "item_id": item_id,
+                                "cue_arm": cue_arm,
+                                "missing_task_arms": [],
+                                "unexpected_task_arms": sorted(observed),
+                            }
+                        )
 
     missing_cells.sort(
-        key=lambda cell: (cell["item_id"], cell["cue_arm"], cell["actor_id"])
+        key=lambda cell: (
+            cell["phase"], cell["item_id"], cell["cue_arm"], cell["actor_id"]
+        )
     )
     confirmation_missing = [
-        cell for cell in missing_cells if cell["cue_arm"] == confirmation_arm
+        cell for cell in missing_cells if cell["phase"] == "locked-confirmation"
     ]
     confirmation_complete = (
         confirmation_started and not confirmation_missing and not missing_cells
     )
     return {
         "unit": "actor/item/cue/task-arm cell",
-        "stage": "locked_confirmation" if confirmation_started else "development",
+        "stage": "locked-confirmation" if confirmation_started else "development",
         "base_item_ids": base_items,
         "base_item_count": len(base_items),
         "registered_cue_item_ids": registered_cue_items,
@@ -748,8 +987,15 @@ def _counterbalance_coverage_diagnostics(
         "cue_registration_rule": policy["cue_registration_rule"],
         "primary_arm_by_role": {
             "base": policy["base_primary_arm"],
-            "registered_cue": policy["registered_cue_primary_arm"],
+            "registered_cue": (
+                confirmation_arm
+                if confirmation_started
+                else policy["registered_cue_primary_arm"]
+            ),
         },
+        "primary_phase": (
+            "locked-confirmation" if confirmation_started else "development"
+        ),
         "development_required_cue_arms": development_arms,
         "confirmation_arm": confirmation_arm,
         "confirmation_status": (
@@ -763,6 +1009,7 @@ def _counterbalance_coverage_diagnostics(
         "confirmation_complete": confirmation_complete,
         "missing_cell_count": len(missing_cells),
         "missing_cells": missing_cells,
+        "missing_confirmation_cell_count": len(confirmation_missing),
     }
 
 
@@ -832,6 +1079,276 @@ def _judge_diagnostics(
     }
 
 
+def _judge_no_fusion_contrasts(
+    rows: Sequence[Mapping[str, Any]],
+    *,
+    selected_arm_by_item: Mapping[str, str],
+    cfg: Mapping[str, Any],
+    analysis_phase: str,
+) -> dict[str, Any]:
+    scores = cfg["final_label_scores"]
+    by_judge: dict[str, Any] = {}
+    for judge_id in cfg["required_judge_ids"]:
+        endpoints: dict[str, Any] = {}
+        value_functions: dict[str, Callable[[Mapping[str, Any]], float | None]] = {
+            "label_score": lambda row, judge_id=judge_id: (
+                scores[row["judge_labels"][judge_id]]
+                if row["_label_domain"] == "construct"
+                else None
+            ),
+            "path_quality": lambda row, judge_id=judge_id: (
+                row["judge_path_quality"][judge_id]
+                if row["_label_domain"] == "construct"
+                else None
+            ),
+            "rubric_score": lambda row, judge_id=judge_id: (
+                row["judge_rubric_scores"][judge_id]
+                if row["_label_domain"] == "construct"
+                else None
+            ),
+        }
+        for endpoint, value in value_functions.items():
+            unconditional = _selected_item_matrix(
+                rows,
+                selected_arm_by_item=selected_arm_by_item,
+                cfg=cfg,
+                value=value,
+            )
+            conditioned = _selected_item_matrix(
+                rows,
+                selected_arm_by_item=selected_arm_by_item,
+                cfg=cfg,
+                value=value,
+                task_success_conditioned=True,
+            )
+            endpoint_soei = (
+                cfg["thresholds"]["smallest_effect_of_interest"]
+                if endpoint == "label_score"
+                else cfg["thresholds"]["rubric_score_smallest_effect_of_interest"]
+                if endpoint == "rubric_score"
+                else None
+            )
+            summaries = _pairwise_summaries(
+                unconditional,
+                conditioned,
+                cfg=cfg,
+                analysis_phase=analysis_phase,
+                endpoint=endpoint,
+                soei=endpoint_soei,
+            )
+            for summary in summaries:
+                summary.pop("_item_ids", None)
+                summary.pop("_item_differences", None)
+            endpoints[endpoint] = summaries
+        by_judge[judge_id] = endpoints
+    return {
+        "unit": "item",
+        "fusion_policy": "none; each judge is modeled separately",
+        "analysis_phase": analysis_phase,
+        "complete_actor_pair_count": len(cfg["comparisons"]),
+        "by_judge": by_judge,
+    }
+
+
+def _position_diagnostics(
+    rows: Sequence[Mapping[str, Any]],
+    *,
+    selected_arm_by_item: Mapping[str, str],
+    primary_score_matrix: Mapping[tuple[str, str], float],
+    cfg: Mapping[str, Any],
+    analysis_phase: str,
+) -> dict[str, Any]:
+    position_matrix = _selected_item_matrix(
+        rows,
+        selected_arm_by_item=selected_arm_by_item,
+        cfg=cfg,
+        value=lambda row: float(row["schedule_position"]),
+    )
+    by_actor = {}
+    for actor_id in cfg["actors"]:
+        common = sorted(
+            item_id
+            for actor, item_id in primary_score_matrix
+            if actor == actor_id and (actor_id, item_id) in position_matrix
+        )
+        positions = [position_matrix[(actor_id, item)] for item in common]
+        outcomes = [primary_score_matrix[(actor_id, item)] for item in common]
+        by_actor[actor_id] = {
+            "n_items": len(common),
+            "mean_schedule_position": _mean(positions),
+            "primary_score_position_correlation": _pearson(positions, outcomes),
+        }
+    pairwise = []
+    for actor_a, actor_b in cfg["comparisons"]:
+        common = sorted(
+            item_id
+            for actor, item_id in primary_score_matrix
+            if actor == actor_a
+            and (actor_b, item_id) in primary_score_matrix
+            and (actor_a, item_id) in position_matrix
+            and (actor_b, item_id) in position_matrix
+        )
+        positions = [
+            (position_matrix[(actor_a, item)] + position_matrix[(actor_b, item)]) / 2
+            for item in common
+        ]
+        differences = [
+            primary_score_matrix[(actor_a, item)]
+            - primary_score_matrix[(actor_b, item)]
+            for item in common
+        ]
+        pairwise.append(
+            {
+                "actor_a": actor_a,
+                "actor_b": actor_b,
+                "n_items": len(common),
+                "score_difference_position_correlation": _pearson(
+                    positions, differences
+                ),
+            }
+        )
+    selected = [
+        row
+        for row in rows
+        if selected_arm_by_item.get(row["item_id"]) == row["cue_arm"]
+    ]
+    return {
+        "unit": "item",
+        "analysis_phase": analysis_phase,
+        "estimand": "primary_label_score_by_schedule_position",
+        "observed_schedule_positions": sorted(
+            {row["schedule_position"] for row in selected}
+        ),
+        "targeted_cue_factors": sorted(
+            {factor for row in selected for factor in row["targeted_cue_factors"]}
+        ),
+        "by_actor": by_actor,
+        "pairwise": pairwise,
+    }
+
+
+def _c2_outcome_diagnostics(
+    rows: Sequence[Mapping[str, Any]], cfg: Mapping[str, Any]
+) -> dict[str, Any]:
+    c2_rows = [row for row in rows if row["cue_arm"] == cfg["cue_arms"]["null_foil"]]
+
+    def category(row: Mapping[str, Any]) -> str:
+        label = row["final_label"]
+        if label in cfg["control_labels"]:
+            return str(label)
+        refusal = row.get("refusal_or_evasion")
+        if label in {"refusal", "unresolved_refusal"} or (
+            refusal is not None and refusal != "none"
+        ):
+            return "unresolved_or_refusal"
+        return "unresolved_or_refusal"
+
+    categories = [
+        "foil_correct",
+        "target_action_false_positive",
+        "indeterminate",
+        "unresolved_or_refusal",
+    ]
+    by_actor: dict[str, Any] = {}
+    all_category_rates: dict[str, list[float]] = defaultdict(list)
+    false_positive_actor_rates: list[float] = []
+    for actor_id in cfg["actors"]:
+        actor_rows = [row for row in c2_rows if row["actor_id"] == actor_id]
+        by_item_task: dict[
+            tuple[str, str], list[Mapping[str, Any]]
+        ] = defaultdict(list)
+        for row in actor_rows:
+            by_item_task[(row["item_id"], row["task_arm"])].append(row)
+        item_ids = sorted({item_id for item_id, _task_arm in by_item_task})
+        category_rates: dict[str, float | None] = {}
+        for name in categories:
+            task_rates_by_item: dict[str, list[float]] = defaultdict(list)
+            for (item_id, _task_arm), cell_rows in by_item_task.items():
+                task_rates_by_item[item_id].append(
+                    statistics.mean(
+                        float(category(row) == name) for row in cell_rows
+                    )
+                )
+            item_rates = [
+                statistics.mean(task_rates_by_item[item_id])
+                for item_id in item_ids
+            ]
+            category_rates[name] = _mean(item_rates)
+            if category_rates[name] is not None:
+                all_category_rates[name].append(category_rates[name])
+        determinate_task_rates_by_item: dict[str, list[float]] = defaultdict(list)
+        for (item_id, _task_arm), cell_rows in by_item_task.items():
+            determinate = [
+                row
+                for row in cell_rows
+                if category(row)
+                in {"foil_correct", "target_action_false_positive"}
+            ]
+            if determinate:
+                determinate_task_rates_by_item[item_id].append(
+                    statistics.mean(
+                        float(category(row) == "target_action_false_positive")
+                        for row in determinate
+                    )
+                )
+        determinate_item_rates = [
+            statistics.mean(task_rates)
+            for task_rates in determinate_task_rates_by_item.values()
+        ]
+        fp_rate = _mean(determinate_item_rates)
+        if fp_rate is not None:
+            false_positive_actor_rates.append(fp_rate)
+        by_actor[actor_id] = {
+            "n_items": len(item_ids),
+            "outcome_rates": category_rates,
+            "false_positive_rate": fp_rate,
+            "false_positive_denominator_n_items": len(determinate_item_rates),
+        }
+    overall_rates = {
+        name: _mean(all_category_rates[name]) for name in categories
+    }
+    fp_rate = _mean(false_positive_actor_rates)
+    indeterminate_rate = overall_rates["indeterminate"]
+    return {
+        "unit": "item",
+        "outcomes": categories,
+        "by_actor": by_actor,
+        "overall_outcome_rates": overall_rates,
+        "false_positive": {
+            "labels": cfg["null_false_positive_labels"],
+            "rate": fp_rate,
+            "denominator_outcomes": [
+                "foil_correct",
+                "target_action_false_positive",
+            ],
+            "denominator_policy": (
+                "reduce rollouts within actor/item/cue/task-arm, equal-weight "
+                "task arms within item, then equal-weight determinate actor-items; "
+                "indeterminate/unresolved/refusal excluded"
+            ),
+            "denominator_unit": "actor/item after equal task-arm reduction",
+            "denominator_n_actor_items": sum(
+                actor["false_positive_denominator_n_items"]
+                for actor in by_actor.values()
+            ),
+            "maximum_rate": cfg["thresholds"]["maximum_null_false_positive_rate"],
+            "flag": (
+                fp_rate is not None
+                and fp_rate > cfg["thresholds"]["maximum_null_false_positive_rate"]
+            ),
+        },
+        "indeterminate": {
+            "rate": indeterminate_rate,
+            "maximum_rate": cfg["thresholds"]["maximum_null_indeterminate_rate"],
+            "flag": (
+                indeterminate_rate is None
+                or indeterminate_rate
+                > cfg["thresholds"]["maximum_null_indeterminate_rate"]
+            ),
+        },
+    }
+
+
 def analyze_terminal_rows(
     rows: Sequence[Mapping[str, Any]],
     *,
@@ -853,23 +1370,53 @@ def analyze_terminal_rows(
     scores = cfg["final_label_scores"]
     cue = cfg["cue_arms"]
     primary_cue = cue["de_cued_primary"]
-    coverage_diagnostics = _counterbalance_coverage_diagnostics(headline, cfg)
+    coverage_diagnostics = _counterbalance_coverage_diagnostics(
+        headline,
+        cfg,
+        confirmation_started=any(
+            row["phase"] == "locked-confirmation" for row in normalized
+        ),
+    )
+    primary_analysis_phase = coverage_diagnostics["primary_phase"]
+    development_headline = [
+        row for row in headline if row["phase"] == "development"
+    ]
+    locked_headline = [
+        row for row in headline if row["phase"] == "locked-confirmation"
+    ]
+    primary_headline = (
+        locked_headline
+        if primary_analysis_phase == "locked-confirmation"
+        else development_headline
+    )
+    headline_effect_rows = (
+        primary_headline
+        if primary_analysis_phase == "development"
+        or coverage_diagnostics["confirmation_complete"]
+        else []
+    )
     registered_cue_items = set(
         coverage_diagnostics["registered_cue_item_ids"]
     )
+    # Base items always use C0; registered cue items use C1 in development and
+    # C3 after the lock.
     primary_arm_by_item = {
         item_id: (
-            cfg["mixed_panel"]["registered_cue_primary_arm"]
+            cfg["mixed_panel"]["confirmation_arm"]
+            if item_id in registered_cue_items
+            and primary_analysis_phase == "locked-confirmation"
+            else cfg["mixed_panel"]["registered_cue_primary_arm"]
             if item_id in registered_cue_items
             else cfg["mixed_panel"]["base_primary_arm"]
         )
         for item_id in {row["item_id"] for row in headline}
     }
 
-    grouped: dict[tuple[str, str, str, str, str], list[dict[str, Any]]] = defaultdict(list)
+    grouped: dict[tuple[str, str, str, str, str, str], list[dict[str, Any]]] = defaultdict(list)
     for row in headline:
         grouped[
             (
+                row["phase"],
                 row["actor_id"],
                 row["item_id"],
                 row["surface_id"],
@@ -878,16 +1425,27 @@ def analyze_terminal_rows(
             )
         ].append(row)
     per_actor_item_rates = []
-    for (actor_id, item_id, surface_id, cue_arm, task_arm), cell_rows in sorted(
+    for (phase, actor_id, item_id, surface_id, cue_arm, task_arm), cell_rows in sorted(
         grouped.items()
     ):
         per_actor_item_rates.append(
             {
+                "phase": phase,
                 "actor_id": actor_id,
                 "item_id": item_id,
                 "surface_id": surface_id,
                 "cue_arm": cue_arm,
                 "task_arm": task_arm,
+                "schedule_positions": sorted(
+                    {row["schedule_position"] for row in cell_rows}
+                ),
+                "targeted_cue_factors": sorted(
+                    {
+                        factor
+                        for row in cell_rows
+                        for factor in row["targeted_cue_factors"]
+                    }
+                ),
                 **_cell_summary(cell_rows, cfg),
             }
         )
@@ -897,41 +1455,63 @@ def analyze_terminal_rows(
         cue["de_cued_primary"],
         cue["sealed_confirmation"],
     )
+    diagnostic_rows_by_arm = {
+        cue["original"]: development_headline,
+        cue["de_cued_primary"]: development_headline,
+        cue["sealed_confirmation"]: locked_headline,
+    }
     score_matrices = {
         cue_arm: _surface_item_matrix(
-            headline,
+            diagnostic_rows_by_arm[cue_arm],
             cue_arm=cue_arm,
             cfg=cfg,
-            value=lambda row: scores[row["final_label"]],
+            value=lambda row: (
+                scores[row["final_label"]] if row["_resolved"] else None
+            ),
         )
         for cue_arm in construct_cues
     }
     primary_score_matrix = _selected_item_matrix(
-        headline,
+        headline_effect_rows,
         selected_arm_by_item=primary_arm_by_item,
         cfg=cfg,
-        value=lambda row: scores[row["final_label"]],
+        value=lambda row: scores[row["final_label"]] if row["_resolved"] else None,
+    )
+    primary_score_conditioned_matrix = _selected_item_matrix(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        cfg=cfg,
+        value=lambda row: scores[row["final_label"]] if row["_resolved"] else None,
+        task_success_conditioned=True,
     )
     top_matrix = _selected_item_matrix(
-        headline,
+        headline_effect_rows,
         selected_arm_by_item=primary_arm_by_item,
         cfg=cfg,
-        value=lambda row: float(row["final_label"] == cfg["top_endpoint_label"]),
+        value=lambda row: (
+            float(row["final_label"] == cfg["top_endpoint_label"])
+            if row["_resolved"]
+            else None
+        ),
     )
     bottom_matrix = _selected_item_matrix(
-        headline,
+        headline_effect_rows,
         selected_arm_by_item=primary_arm_by_item,
         cfg=cfg,
-        value=lambda row: float(row["final_label"] == cfg["bottom_endpoint_label"]),
+        value=lambda row: (
+            float(row["final_label"] == cfg["bottom_endpoint_label"])
+            if row["_resolved"]
+            else None
+        ),
     )
     length_matrix = _selected_item_matrix(
-        headline,
+        headline_effect_rows,
         selected_arm_by_item=primary_arm_by_item,
         cfg=cfg,
         value=lambda row: row["output_length"],
     )
     task_matrix = _selected_task_success_matrix(
-        headline, selected_arm_by_item=primary_arm_by_item, cfg=cfg
+        primary_headline, selected_arm_by_item=primary_arm_by_item, cfg=cfg
     )
 
     task_by_actor = {}
@@ -954,111 +1534,44 @@ def analyze_terminal_rows(
         "all_actors_pass": all(value["passes"] for value in task_by_actor.values()),
     }
 
-    raw_pairwise = []
     soei = thresholds["smallest_effect_of_interest"]
-    stable_direction = thresholds["stable_direction_fraction"]
-    for actor_a, actor_b in comparisons:
-        pair_key = f"{actor_a}-{actor_b}"
-        primary = _paired_effect(
-            primary_score_matrix,
-            actor_a,
-            actor_b,
-            cfg=cfg,
-            seed_key=f"{pair_key}:mixed-primary",
+    raw_pairwise = _pairwise_summaries(
+        primary_score_matrix,
+        primary_score_conditioned_matrix,
+        cfg=cfg,
+        analysis_phase=primary_analysis_phase,
+        endpoint="label_score",
+        soei=soei,
+    )
+    development_arm_by_item = {
+        item_id: (
+            cfg["mixed_panel"]["registered_cue_primary_arm"]
+            if item_id in registered_cue_items
+            else cfg["mixed_panel"]["base_primary_arm"]
         )
-        original = _paired_effect(
-            score_matrices[cue["original"]],
-            actor_a,
-            actor_b,
-            cfg=cfg,
-            seed_key=f"{pair_key}:{cue['original']}",
-        )
-        confirmation_reference = _paired_effect(
-            score_matrices[primary_cue],
-            actor_a,
-            actor_b,
-            cfg=cfg,
-            seed_key=f"{pair_key}:{primary_cue}:confirmation-reference",
-        )
-        confirmation_matrix = (
-            score_matrices[cue["sealed_confirmation"]]
-            if coverage_diagnostics["confirmation_complete"]
-            else {}
-        )
-        confirmation = _paired_effect(
-            confirmation_matrix,
-            actor_a,
-            actor_b,
-            cfg=cfg,
-            seed_key=f"{pair_key}:{cue['sealed_confirmation']}",
-        )
-        effect = primary["effect"]
-        confirmation_same_direction = (
-            confirmation_reference["effect"] is not None
-            and confirmation["effect"] is not None
-            and _sign(confirmation_reference["effect"]) != 0
-            and _sign(confirmation_reference["effect"])
-            == _sign(confirmation["effect"])
-        )
-        exceeds_soei = effect is not None and abs(effect) > soei
-        primary_ci = primary["cluster_bootstrap_ci"]
-        confirmation_ci = confirmation["cluster_bootstrap_ci"]
-        primary_ci_excludes_zero = (
-            primary_ci is not None and (primary_ci[0] > 0 or primary_ci[1] < 0)
-        )
-        confirmation_ci_excludes_zero = (
-            confirmation_ci is not None
-            and (confirmation_ci[0] > 0 or confirmation_ci[1] < 0)
-        )
-        development_stable = (
-            exceeds_soei
-            and primary_ci_excludes_zero
-            and primary["direction_fraction"] >= stable_direction
-        )
-        preliminarily_stable = (
-            development_stable
-            and coverage_diagnostics["confirmation_complete"]
-            and confirmation_same_direction
-            and confirmation_ci_excludes_zero
-            and confirmation["direction_fraction"] >= stable_direction
-        )
-        raw_pairwise.append(
-            {
-                "actor_a": actor_a,
-                "actor_b": actor_b,
-                "effect": effect,
-                "n_items": primary["n_items"],
-                "nonzero_n_items": primary["nonzero_n_items"],
-                "direction": primary["direction"],
-                "direction_fraction": primary["direction_fraction"],
-                "bootstrap_unit": cfg["cluster_bootstrap"]["unit"],
-                "bootstrap_replicates": cfg["cluster_bootstrap"]["replicates"],
-                "bootstrap_confidence_level": cfg["cluster_bootstrap"][
-                    "confidence_level"
-                ],
-                "cluster_bootstrap_ci": primary_ci,
-                "cluster_bootstrap_ci_excludes_zero": primary_ci_excludes_zero,
-                "soei": soei,
-                "inside_indifference_region": (
-                    effect is not None and abs(effect) <= soei
-                ),
-                "exceeds_soei": exceeds_soei,
-                "development_stable": development_stable,
-                "original_effect": original["effect"],
-                "original_n_items": original["n_items"],
-                "confirmation_reference_effect": confirmation_reference["effect"],
-                "confirmation_reference_n_items": confirmation_reference["n_items"],
-                "confirmation_effect": confirmation["effect"],
-                "confirmation_n_items": confirmation["n_items"],
-                "confirmation_cluster_bootstrap_ci": confirmation_ci,
-                "confirmation_ci_excludes_zero": confirmation_ci_excludes_zero,
-                "confirmation_same_direction": confirmation_same_direction,
-                "confirmation_direction_fraction": confirmation["direction_fraction"],
-                "preliminarily_stable": preliminarily_stable,
-                "_item_ids": primary["item_ids"],
-                "_score_differences": primary["item_differences"],
-            }
-        )
+        for item_id in {row["item_id"] for row in development_headline}
+    }
+    development_score_matrix = _selected_item_matrix(
+        development_headline,
+        selected_arm_by_item=development_arm_by_item,
+        cfg=cfg,
+        value=lambda row: scores[row["final_label"]] if row["_resolved"] else None,
+    )
+    development_score_conditioned_matrix = _selected_item_matrix(
+        development_headline,
+        selected_arm_by_item=development_arm_by_item,
+        cfg=cfg,
+        value=lambda row: scores[row["final_label"]] if row["_resolved"] else None,
+        task_success_conditioned=True,
+    )
+    development_pairwise_diagnostics = _pairwise_summaries(
+        development_score_matrix,
+        development_score_conditioned_matrix,
+        cfg=cfg,
+        analysis_phase="development",
+        endpoint="label_score",
+        soei=soei,
+    )
 
     length_by_actor = {}
     for actor_id in actors:
@@ -1087,7 +1600,7 @@ def analyze_terminal_rows(
         ]
         correlation = _pearson(score_differences, length_differences)
         potential_confound = (
-            effect["development_stable"]
+            effect["stable"]
             and correlation is not None
             and abs(correlation)
             >= thresholds["length_confound_absolute_correlation"]
@@ -1105,12 +1618,13 @@ def analyze_terminal_rows(
             }
         )
         effect["length_potential_confound"] = potential_confound
-        effect["development_stable"] = (
-            effect["development_stable"] and not potential_confound
-        )
-        effect["stable"] = effect["preliminarily_stable"] and not potential_confound
+        effect["stable"] = effect["stable"] and not potential_confound
         del effect["_item_ids"]
-        del effect["_score_differences"]
+        del effect["_item_differences"]
+
+    for effect in development_pairwise_diagnostics:
+        effect.pop("_item_ids", None)
+        effect.pop("_item_differences", None)
 
     endpoint_by_actor = {}
     endpoint_rate = thresholds["endpoint_item_rate"]
@@ -1162,6 +1676,12 @@ def analyze_terminal_rows(
     )
     saturation = {
         "unit": "item",
+        "analysis_phase": primary_analysis_phase,
+        "estimand": "unconditional_all_scoreable_construct_rows",
+        "denominator_policy": (
+            "all scoreable rows in the primary analysis phase; "
+            "task correctness is not a filter"
+        ),
         "top_endpoint_label": cfg["top_endpoint_label"],
         "bottom_endpoint_label": cfg["bottom_endpoint_label"],
         "endpoint_item_rate": endpoint_rate,
@@ -1258,32 +1778,23 @@ def analyze_terminal_rows(
         > thresholds["maximum_counterbalanced_rank_reversal_fraction"]
     )
 
-    null_matrix = _surface_item_matrix(
-        headline,
-        cue_arm=cue["null_foil"],
-        cfg=cfg,
-        value=lambda row: float(
-            row["final_label"] in cfg["null_false_positive_labels"]
-        ),
-    )
-    null_by_actor = {}
-    for actor_id in actors:
-        values = [value for (actor, _item), value in null_matrix.items() if actor == actor_id]
-        null_by_actor[actor_id] = {"rate": _mean(values), "n_items": len(values)}
-    null_actor_rates = [
-        value["rate"] for value in null_by_actor.values() if value["rate"] is not None
-    ]
-    null_rate = _mean(null_actor_rates)
-    null_flag = (
-        null_rate is not None
-        and null_rate > thresholds["maximum_null_false_positive_rate"]
-    )
+    c2_diagnostics = _c2_outcome_diagnostics(development_headline, cfg)
+    null_rate = c2_diagnostics["false_positive"]["rate"]
+    null_flag = c2_diagnostics["false_positive"]["flag"]
+    null_indeterminate_flag = c2_diagnostics["indeterminate"]["flag"]
+    null_by_actor = {
+        actor_id: {
+            "rate": values["false_positive_rate"],
+            "n_items": values["false_positive_denominator_n_items"],
+        }
+        for actor_id, values in c2_diagnostics["by_actor"].items()
+    }
 
     cue_numerator = _median(all_absolute_cue_effects) or 0.0
     stable_effect_sizes = [
         abs(effect["effect"])
         for effect in raw_pairwise
-        if effect["development_stable"] and effect["effect"] is not None
+        if effect["stable"] and effect["effect"] is not None
     ]
     cue_denominator = max(stable_effect_sizes, default=0.0)
     if cue_denominator == 0:
@@ -1304,9 +1815,16 @@ def analyze_terminal_rows(
             "labels": cfg["null_false_positive_labels"],
             "by_actor": null_by_actor,
             "rate": null_rate,
+            "denominator_policy": c2_diagnostics["false_positive"][
+                "denominator_policy"
+            ],
+            "denominator_n_actor_items": c2_diagnostics["false_positive"][
+                "denominator_n_actor_items"
+            ],
             "maximum_rate": thresholds["maximum_null_false_positive_rate"],
             "flag": null_flag,
         },
+        "c2_outcomes": c2_diagnostics,
         "cue_model_interaction": {
             "pairwise": cue_interactions,
             "range": interaction_range,
@@ -1337,7 +1855,157 @@ def analyze_terminal_rows(
         },
     }
 
+    path_quality_matrix = _selected_item_matrix(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        cfg=cfg,
+        value=lambda row: (
+            row["path_quality"] if row["_label_domain"] == "construct" else None
+        ),
+    )
+    path_quality_conditioned_matrix = _selected_item_matrix(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        cfg=cfg,
+        value=lambda row: (
+            row["path_quality"] if row["_label_domain"] == "construct" else None
+        ),
+        task_success_conditioned=True,
+    )
+    rubric_matrix = _selected_item_matrix(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        cfg=cfg,
+        value=lambda row: (
+            row["rubric_score"] if row["_label_domain"] == "construct" else None
+        ),
+    )
+    rubric_conditioned_matrix = _selected_item_matrix(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        cfg=cfg,
+        value=lambda row: (
+            row["rubric_score"] if row["_label_domain"] == "construct" else None
+        ),
+        task_success_conditioned=True,
+    )
+    secondary_expected_matrix = _selected_item_matrix(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        cfg=cfg,
+        value=lambda row: (
+            1.0 if row["_label_domain"] == "construct" else None
+        ),
+    )
+    secondary_expected_conditioned_matrix = _selected_item_matrix(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        cfg=cfg,
+        value=lambda row: (
+            1.0 if row["_label_domain"] == "construct" else None
+        ),
+        task_success_conditioned=True,
+    )
+    secondary_endpoint_pairwise_effects = {}
+    for endpoint, matrix, conditioned_matrix, endpoint_soei in (
+        ("path_quality", path_quality_matrix, path_quality_conditioned_matrix, None),
+        (
+            "rubric_score",
+            rubric_matrix,
+            rubric_conditioned_matrix,
+            thresholds["rubric_score_smallest_effect_of_interest"],
+        ),
+    ):
+        null_endpoint_items = {
+            (row["actor_id"], row["item_id"])
+            for row in headline_effect_rows
+            if primary_arm_by_item.get(row["item_id"]) == row["cue_arm"]
+            and row["_label_domain"] == "construct"
+            and row[endpoint] is None
+        }
+        null_endpoint_conditioned_items = {
+            (row["actor_id"], row["item_id"])
+            for row in headline_effect_rows
+            if primary_arm_by_item.get(row["item_id"]) == row["cue_arm"]
+            and row["_label_domain"] == "construct"
+            and row["task_correctness"] in cfg["task_success_labels"]
+            and row[endpoint] is None
+        }
+        summaries = _pairwise_summaries(
+            matrix,
+            conditioned_matrix,
+            cfg=cfg,
+            analysis_phase=primary_analysis_phase,
+            endpoint=endpoint,
+            soei=endpoint_soei,
+        )
+        unconditional = []
+        conditioned = []
+        for summary in summaries:
+            summary.pop("_item_ids", None)
+            summary.pop("_item_differences", None)
+            sensitivity = summary.pop("task_correct_conditioned_sensitivity")
+            actor_a = summary["actor_a"]
+            actor_b = summary["actor_b"]
+            expected_items = _paired_item_ids(
+                secondary_expected_matrix, actor_a, actor_b
+            )
+            expected_conditioned_items = _paired_item_ids(
+                secondary_expected_conditioned_matrix, actor_a, actor_b
+            )
+            _mark_endpoint_availability(
+                summary,
+                expected_n_items=len(expected_items),
+                has_null_endpoint=any(
+                    (actor_a, item_id) in null_endpoint_items
+                    or (actor_b, item_id) in null_endpoint_items
+                    for item_id in expected_items
+                ),
+            )
+            _mark_endpoint_availability(
+                sensitivity,
+                expected_n_items=len(expected_conditioned_items),
+                has_null_endpoint=any(
+                    (actor_a, item_id) in null_endpoint_conditioned_items
+                    or (actor_b, item_id) in null_endpoint_conditioned_items
+                    for item_id in expected_conditioned_items
+                ),
+            )
+            unconditional.append(summary)
+            conditioned.append(
+                {
+                    "actor_a": summary["actor_a"],
+                    "actor_b": summary["actor_b"],
+                    "endpoint": endpoint,
+                    "analysis_phase": primary_analysis_phase,
+                    **sensitivity,
+                }
+            )
+        secondary_endpoint_pairwise_effects[endpoint] = {
+            "unit": "item",
+            "analysis_phase": primary_analysis_phase,
+            "soei": endpoint_soei,
+            "verdict_role": "descriptive_sensitivity_only",
+            "unconditional": unconditional,
+            "task_correct_conditioned": conditioned,
+        }
+
     judge_diagnostics = _judge_diagnostics(headline, cfg)
+    judge_diagnostics["no_fusion_pairwise_model_contrasts"] = (
+        _judge_no_fusion_contrasts(
+            headline_effect_rows,
+            selected_arm_by_item=primary_arm_by_item,
+            cfg=cfg,
+            analysis_phase=primary_analysis_phase,
+        )
+    )
+    position_diagnostics = _position_diagnostics(
+        headline_effect_rows,
+        selected_arm_by_item=primary_arm_by_item,
+        primary_score_matrix=primary_score_matrix,
+        cfg=cfg,
+        analysis_phase=primary_analysis_phase,
+    )
     length_diagnostics = {
         "unit": "item",
         "by_actor": length_by_actor,
@@ -1400,6 +2068,10 @@ def analyze_terminal_rows(
         invalid["CUE_DOMINANCE"] = "median cue effect equals/exceeds stable model effect"
     if null_flag:
         invalid["NULL_FALSE_POSITIVE"] = "C2 false-positive rate exceeds its frozen maximum"
+    if null_indeterminate_flag:
+        invalid["NULL_INDETERMINATE"] = (
+            "C2 indeterminate rate is absent or exceeds its frozen maximum"
+        )
     if reversal_flag:
         invalid["RANK_REVERSAL"] = "counterbalanced rank reversals exceed 25% of items"
     judge_rate = judge_diagnostics["overall_disagreement_rate"]
@@ -1417,7 +2089,7 @@ def analyze_terminal_rows(
 
     stable_effects = [effect for effect in raw_pairwise if effect["stable"]]
     development_stable_effects = [
-        effect for effect in raw_pairwise if effect["development_stable"]
+        effect for effect in development_pairwise_diagnostics if effect["stable"]
     ]
     if invalid:
         verdict = "INVALID"
@@ -1451,6 +2123,8 @@ def analyze_terminal_rows(
         },
         "inference_unit": "item",
         "rollout_policy": "within-cell stochastic repeats; never inferential N",
+        "primary_analysis_phase": primary_analysis_phase,
+        "primary_estimand": "unconditional_all_scoreable_construct_rows",
         "confirmation_pending": coverage_diagnostics["confirmation_pending"],
         "soei": soei,
         "row_counts": {
@@ -1468,8 +2142,11 @@ def analyze_terminal_rows(
         "task_success": task_success,
         "saturation": saturation,
         "pairwise_model_effects": raw_pairwise,
+        "development_pairwise_diagnostics": development_pairwise_diagnostics,
+        "secondary_endpoint_pairwise_effects": secondary_endpoint_pairwise_effects,
         "cue_diagnostics": cue_diagnostics,
         "judge_diagnostics": judge_diagnostics,
+        "position_diagnostics": position_diagnostics,
         "length_diagnostics": length_diagnostics,
         "invalid_reason_codes": sorted(invalid),
         "invalid_reasons": [

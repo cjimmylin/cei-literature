@@ -19,9 +19,11 @@
     "judge_validation": "../../PANELS/thorns-judge-validation.template.json",
     "human_labels": "../../PANELS/thorns-human-calibration-labels.template.csv",
     "judge_predictions": "../../PANELS/thorns-judge-calibration-predictions.template.json",
+    "calibration_manifest": "../../PANELS/thorns-calibration-manifest.template.json",
     "control_judge_validation": "../../PANELS/thorns-control-judge-validation.template.json",
     "control_human_labels": "../../PANELS/thorns-control-human-calibration-labels.template.csv",
     "control_judge_predictions": "../../PANELS/thorns-control-judge-calibration-predictions.template.json",
+    "control_calibration_manifest": "../../PANELS/thorns-control-calibration-manifest.template.json",
     "control_panel_registry": "../../PANELS/thorns-control-panel-registry.template.json",
     "panel_registry": "../../PANELS/thorns-panel-registry.template.json",
     "panel_training_set": "../../PANELS/thorns-human-qualification-set-v1.template.json",
@@ -260,7 +262,16 @@
     }
   ],
   "judge_validation_policy": {
-    "human_human_thresholds": {"agreement": 0.85, "weighted_kappa": 0.8},
+    "human_human_thresholds": {
+      "agreement": 0.85,
+      "gwet_ac1": 0.8,
+      "krippendorff_alpha": 0.8,
+      "task_correctness_agreement": 0.85,
+      "event_jaccard": 0.8,
+      "omission_jaccard": 0.8,
+      "weighted_kappa": 0.8,
+      "rubric_weighted_kappa": 0.8
+    },
     "human_by_class_thresholds": {
       "Fi": {"agreement": 0.8},
       "Wj": {"agreement": 0.8},
@@ -268,7 +279,16 @@
       "mixed": {"agreement": 0.8},
       "other": {"agreement": 0.8}
     },
-    "judge_thresholds": {"macro_f1": 0.85, "auprc": 0.8, "worst_class_f1": 0.75, "agreement": 0.8},
+    "judge_thresholds": {
+      "macro_f1": 0.85,
+      "auprc": 0.8,
+      "worst_class_f1": 0.75,
+      "agreement": 0.8,
+      "task_correctness_agreement": 0.85,
+      "event_micro_f1": 0.8,
+      "omission_micro_f1": 0.8,
+      "rubric_within_one": 0.9
+    },
     "judge_by_class_thresholds": {
       "Fi": {"f1": 0.75, "auprc": 0.75},
       "Wj": {"f1": 0.75, "auprc": 0.75},
@@ -277,22 +297,39 @@
       "other": {"f1": 0.75, "auprc": 0.75}
     },
     "minimum_calibration_n": 48,
+    "minimum_class_n": 5,
     "maximum_refusal_rate": 0.05
   },
   "control_judge_validation_policy": {
-    "human_human_thresholds": {"agreement": 0.85, "weighted_kappa": 0.8},
+    "human_human_thresholds": {
+      "agreement": 0.85,
+      "gwet_ac1": 0.8,
+      "krippendorff_alpha": 0.8,
+      "task_correctness_agreement": 0.85,
+      "event_jaccard": 0.8,
+      "omission_jaccard": 0.8
+    },
     "human_by_class_thresholds": {
       "foil_correct": {"agreement": 0.8},
       "target_action_false_positive": {"agreement": 0.8},
       "indeterminate": {"agreement": 0.8}
     },
-    "judge_thresholds": {"macro_f1": 0.85, "auprc": 0.8, "worst_class_f1": 0.75, "agreement": 0.8},
+    "judge_thresholds": {
+      "macro_f1": 0.85,
+      "auprc": 0.8,
+      "worst_class_f1": 0.75,
+      "agreement": 0.8,
+      "task_correctness_agreement": 0.85,
+      "event_micro_f1": 0.8,
+      "omission_micro_f1": 0.8
+    },
     "judge_by_class_thresholds": {
       "foil_correct": {"f1": 0.75, "auprc": 0.75},
       "target_action_false_positive": {"f1": 0.75, "auprc": 0.75},
       "indeterminate": {"f1": 0.75, "auprc": 0.75}
     },
     "minimum_calibration_n": 48,
+    "minimum_class_n": 5,
     "maximum_refusal_rate": 0.05
   },
   "panel_contract": {

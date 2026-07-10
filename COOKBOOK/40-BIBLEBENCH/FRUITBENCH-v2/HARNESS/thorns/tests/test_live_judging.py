@@ -19,11 +19,15 @@ for path in (HARNESS, HARNESS_ROOT, SHARED):
         sys.path.insert(0, str(path))
 
 import judge_prompts  # noqa: E402
+import live_runner  # noqa: E402
 import scorer  # noqa: E402
 from shared.judge_validation import (  # noqa: E402
     validate_judge_validation_artifact,
 )
-from shared.judge_evidence import compute_judge_evidence  # noqa: E402
+from shared.judge_evidence import (  # noqa: E402
+    compute_judge_evidence,
+    validate_calibration_manifest,
+)
 
 
 def _valid_layer_e():
@@ -70,21 +74,41 @@ def _validated_stack(*, control=False):
         else judge_prompts.judge_prompt_hashes()
     )
     design = "thorns-control" if control else "thorns"
+    label_order = None if control else ("Wj", "CFT", "other", "mixed", "Fi")
+    human_thresholds = {
+        "agreement": 0.85,
+        "gwet_ac1": 0.8,
+        "krippendorff_alpha": 0.8,
+        "task_correctness_agreement": 0.85,
+        "event_jaccard": 0.8,
+        "omission_jaccard": 0.8,
+    }
+    judge_thresholds = {
+        "macro_f1": 0.85,
+        "auprc": 0.8,
+        "worst_class_f1": 0.75,
+        "agreement": 0.8,
+        "task_correctness_agreement": 0.85,
+        "event_micro_f1": 0.8,
+        "omission_micro_f1": 0.8,
+    }
+    if not control:
+        human_thresholds.update(
+            weighted_kappa=0.8,
+            rubric_weighted_kappa=0.8,
+        )
+        judge_thresholds["rubric_within_one"] = 0.9
     policy = {
-        "human_human_thresholds": {"agreement": 0.85, "weighted_kappa": 0.8},
+        "human_human_thresholds": human_thresholds,
         "human_by_class_thresholds": {
             label: {"agreement": 0.8} for label in classes
         },
-        "judge_thresholds": {
-            "macro_f1": 0.85,
-            "auprc": 0.8,
-            "worst_class_f1": 0.75,
-            "agreement": 0.8,
-        },
+        "judge_thresholds": judge_thresholds,
         "judge_by_class_thresholds": {
             label: {"f1": 0.75, "auprc": 0.75} for label in classes
         },
         "minimum_calibration_n": 48,
+        "minimum_class_n": 5,
         "maximum_refusal_rate": 0.05,
     }
     identities = {
@@ -109,25 +133,128 @@ def _validated_stack(*, control=False):
         }
 
     human_rows = []
-    resolved_labels = {}
+    resolved_records = {}
     prediction_rows = []
+    manifest_records = []
+    construct_rule_by_label = {
+        label: f"R{index}"
+        for index, label in enumerate(("Fi", "Wj", "CFT", "mixed", "other"), 1)
+    }
+    control_rule_by_label = {
+        label: f"N{index}" for index, label in enumerate(classes, 1)
+    }
     for index in range(50):
         response_id = f"R{index:03d}"
         label = classes[index % len(classes)]
-        resolved_labels[response_id] = label
+        response_text = f"Response {response_id} contains requested action"
+        observable_context = {"task": f"task {index}"}
+        scoring_contract = (
+            {
+                "construct_gold": {
+                    "paths": {
+                        "fruit": {"markers": ["fruit basis"]},
+                        "vice": {"markers": ["vice basis"]},
+                        "cft": {"markers": ["counterfeit basis"]},
+                    },
+                    "rubric_0_4": {
+                        str(score): f"quality {score}" for score in range(5)
+                    },
+                    "integration_check": False,
+                }
+            }
+            if not control
+            else {
+                "control_rules": [
+                    {
+                        "rule_id": rule_id,
+                        "control_label": candidate,
+                        "observable_basis": f"control basis {candidate}",
+                    }
+                    for candidate, rule_id in control_rule_by_label.items()
+                ]
+            }
+        )
+        manifest_record = {
+            "track": "control" if control else "construct",
+            "response_id": response_id,
+            "item_id": f"item-{index:03d}",
+            "surface_id": f"surface-{index:03d}",
+            "response_text": response_text,
+            "response_sha256": hashlib.sha256(response_text.encode()).hexdigest(),
+            "observable_context": observable_context,
+            "observable_context_sha256": hashlib.sha256(
+                json.dumps(observable_context, sort_keys=True, separators=(",", ":")).encode()
+            ).hexdigest(),
+            "scoring_contract": scoring_contract,
+            "scoring_contract_sha256": hashlib.sha256(
+                json.dumps(scoring_contract, sort_keys=True, separators=(",", ":")).encode()
+            ).hexdigest(),
+        }
+        manifest_records.append(manifest_record)
+        dimensions = {
+            "final_label": label,
+            "task_correctness": "correct" if index % 2 else "partial",
+            "event_codes": ["requested_action_present"],
+            "omission_codes": ["required_fact_omitted"] if index % 3 == 0 else [],
+            "rubric_score": None if control else index % 5,
+        }
+        resolved_records[response_id] = dict(dimensions)
         for rater_hash in ("1" * 64, "2" * 64):
             human_rows.append(
                 {
                     "response_id": response_id,
                     "rater_hash": rater_hash,
                     "role": "primary",
-                    "final_label": label,
+                    **dimensions,
                     "notes": "",
                 }
             )
         for judge_id, identity in identities.items():
-            prediction_rows.append(
-                {
+            probabilities = {
+                candidate: (
+                    0.8
+                    if candidate == label
+                    else 0.2 / (len(classes) - 1)
+                )
+                for candidate in classes
+            }
+            layer_e_record = {
+                "schema_version": "1.0",
+                "task_correctness": dimensions["task_correctness"],
+                "event_codes": [
+                    {
+                        "code": "requested_action_present",
+                        "evidence_spans": ["requested action"],
+                    }
+                ],
+                "omission_codes": list(dimensions["omission_codes"]),
+                "refusal_or_evasion": "none",
+                "uncertainty": 0.0,
+            }
+            if control:
+                decision_field = "layer_control_record"
+                decision_record = {
+                    "schema_version": "1.0",
+                    "final_label": label,
+                    "class_probabilities": probabilities,
+                    "rule_ids": [control_rule_by_label[label]],
+                    "refusal_or_evasion": "none",
+                    "uncertainty": 0.0,
+                }
+            else:
+                decision_field = "layer_r_record"
+                decision_record = {
+                    "schema_version": "1.0",
+                    "final_label": label,
+                    "class_probabilities": probabilities,
+                    "quality": judge_prompts.PATH_QUALITY[label],
+                    "rubric_score": dimensions["rubric_score"],
+                    "quality_anchor_id": f"Q{dimensions['rubric_score']}",
+                    "rule_ids": [construct_rule_by_label[label]],
+                    "refusal_or_evasion": "none",
+                    "uncertainty": 0.0,
+                }
+            row = {
                     "response_id": response_id,
                     "judge_id": judge_id,
                     "judge_model_id": identity["model_id"],
@@ -135,22 +262,46 @@ def _validated_stack(*, control=False):
                     "judge_vendor": identity["vendor"],
                     "judge_family": identity["family"],
                     "final_label": label,
-                    "class_probabilities": {
-                        candidate: (
-                            0.8
-                            if candidate == label
-                            else 0.2 / (len(classes) - 1)
-                        )
-                        for candidate in classes
-                    },
+                    "class_probabilities": probabilities,
+                    "task_correctness": dimensions["task_correctness"],
+                    "event_codes": dimensions["event_codes"],
+                    "omission_codes": dimensions["omission_codes"],
+                    "rubric_score": dimensions["rubric_score"],
                     "judge_refused": False,
+                    "manifest_response_sha256": manifest_record["response_sha256"],
+                    "manifest_scoring_contract_sha256": manifest_record["scoring_contract_sha256"],
+                    "layer_e_record": layer_e_record,
+                    decision_field: decision_record,
+                    "layer_e_request_sha256": "e" * 64,
+                    "layer_decision_request_sha256": "f" * 64,
+                    "layer_e_response_provenance": {
+                        "response_id": f"resp-e-{response_id}-{judge_id}",
+                        "request_id": f"req-e-{response_id}-{judge_id}",
+                        "generation_id": f"gen-e-{response_id}-{judge_id}",
+                        "returned_model": identity["canonical_snapshot"],
+                    },
+                    "layer_decision_response_provenance": {
+                        "response_id": f"resp-d-{response_id}-{judge_id}",
+                        "request_id": f"req-d-{response_id}-{judge_id}",
+                        "generation_id": f"gen-d-{response_id}-{judge_id}",
+                        "returned_model": identity["canonical_snapshot"],
+                    },
                 }
+            row["raw_ballot_sha256"] = judge_prompts.calibration_ballot_sha256(
+                row, "control" if control else "construct"
             )
+            prediction_rows.append(row)
+    manifest = {
+        "schema_version": "1.0",
+        "track": "control" if control else "construct",
+        "approved_for_live": True,
+        "records": manifest_records,
+    }
     human_intake = {
         "schema_version": "1.0",
         "source_sha256": "f" * 64,
         "rows": human_rows,
-        "resolved_labels": resolved_labels,
+        "resolved_records": resolved_records,
         "coverage": {
             "expected_responses": 50,
             "double_coded_responses": 50,
@@ -166,10 +317,15 @@ def _validated_stack(*, control=False):
     computed_evidence = compute_judge_evidence(
         human_intake,
         predictions,
+        manifest_source=manifest,
+        expected_track="control" if control else "construct",
         expected_judge_identities=identities,
         expected_class_labels=classes,
+        expected_label_order=label_order,
         expected_label_set_sha256=label_hash,
         expected_prompt_hashes=prompt_hashes,
+        minimum_calibration_n=48,
+        minimum_class_n=5,
     )
 
     artifact = {
@@ -183,8 +339,11 @@ def _validated_stack(*, control=False):
         "policy": policy,
         "human_human": {
             **metric_block(
-                ("agreement", "weighted_kappa"),
+                tuple(computed_evidence.human_human["metrics"]),
                 policy["human_human_thresholds"],
+            ),
+            "supports": json.loads(
+                json.dumps(computed_evidence.human_human["supports"], default=dict)
             ),
             "by_class": {
                 label: metric_block(
@@ -198,8 +357,24 @@ def _validated_stack(*, control=False):
                 "judge_id": judge_id,
                 **identity,
                 **metric_block(
-                    ("macro_f1", "auprc", "worst_class_f1", "agreement"),
+                    tuple(
+                        next(
+                            row
+                            for row in computed_evidence.judges
+                            if row["judge_id"] == judge_id
+                        )["metrics"]
+                    ),
                     policy["judge_thresholds"],
+                ),
+                "supports": json.loads(
+                    json.dumps(
+                        next(
+                            row
+                            for row in computed_evidence.judges
+                            if row["judge_id"] == judge_id
+                        )["supports"],
+                        default=dict,
+                    )
                 ),
                 "by_class": {
                     label: metric_block(
@@ -232,6 +407,7 @@ def _validated_stack(*, control=False):
         expected_prompt_hashes=prompt_hashes,
         expected_judge_identities=identities,
         expected_class_labels=classes,
+        expected_label_order=label_order,
         expected_policy_sha256=policy_hash,
         computed_evidence=computed_evidence,
     )
@@ -278,6 +454,63 @@ def _validated_panel(validation):
             "human_label_set_sha256"
         ],
     )
+
+
+def test_calibration_rows_are_bound_to_qualified_panel_member_roles():
+    validation = _validated_stack()
+    registry = {
+        "schema_version": "1.0",
+        "panel_id": "PNL-THORNS02",
+        "packet_version": "thorns-human-calibration-packet-v1",
+        "training_set_sha256": "9" * 64,
+        "human_label_set_sha256": validation.record["human_label_set_sha256"],
+        "members": [
+            {
+                "human_rater_id": "H001",
+                "rater_hash": "1" * 64,
+                "roles": ["primary"],
+                "qualified": True,
+                "qualification_completed_at": "2026-07-09T18:00:00Z",
+            },
+            {
+                "human_rater_id": "H002",
+                "rater_hash": "2" * 64,
+                "roles": ["primary"],
+                "qualified": True,
+                "qualification_completed_at": "2026-07-09T18:00:00Z",
+            },
+            {
+                "human_rater_id": "H003",
+                "rater_hash": "3" * 64,
+                "roles": ["adjudicator"],
+                "qualified": True,
+                "qualification_completed_at": "2026-07-09T18:00:00Z",
+            },
+        ],
+        "available_for_live": True,
+        "verified_at": "2026-07-09T19:00:00Z",
+    }
+    panel = judge_prompts.validate_panel_registry(
+        registry,
+        expected_packet_version="thorns-human-calibration-packet-v1",
+        expected_training_set_sha256="9" * 64,
+        expected_human_label_set_sha256=validation.record["human_label_set_sha256"],
+    )
+    intake = {
+        "rows": [
+            {"rater_hash": "1" * 64, "role": "primary"},
+            {"rater_hash": "2" * 64, "role": "primary"},
+            {"rater_hash": "3" * 64, "role": "adjudicator"},
+        ]
+    }
+    judge_prompts.validate_human_intake_panel_roles(intake, panel)
+
+    intake["rows"][0]["role"] = "adjudicator"
+    with pytest.raises(ValueError, match="role.*not authorized"):
+        judge_prompts.validate_human_intake_panel_roles(intake, panel)
+    intake["rows"][0] = {"rater_hash": "4" * 64, "role": "primary"}
+    with pytest.raises(ValueError, match="one qualified panel member"):
+        judge_prompts.validate_human_intake_panel_roles(intake, panel)
 
 
 def _ballot(judge_id: str, label: str):
@@ -351,6 +584,230 @@ def test_layer_e_request_is_observable_only_and_hidden_metadata_invariant():
     parsed = json.loads(request_a)
     assert set(parsed) == {"instructions", "input", "response_format"}
     assert "final_label" not in request_a.decode()
+
+
+def test_calibration_prediction_requests_are_recomputed_from_manifest_raw_records():
+    response_text = "I will send the draft today."
+    context = {"requested_task": "Send the draft."}
+    gold = {
+        "paths": {
+            "fruit": {"markers": ["Sends the requested draft."]},
+            "vice": {"markers": ["Withholds the draft."]},
+            "cft": {"markers": ["Promises without sending."]},
+        },
+        "rubric_0_4": {
+            str(score): f"quality {score}" for score in range(5)
+        },
+        "integration_check": False,
+    }
+    contract = {"construct_gold": gold}
+    rules = judge_prompts.rubric_rules_from_gold(gold)
+    anchors = judge_prompts.quality_anchors_from_gold(gold)
+    manifest_source = {
+        "schema_version": "1.0",
+        "track": "construct",
+        "approved_for_live": True,
+        "records": [
+            {
+                "track": "construct",
+                "response_id": "R-CAL-001",
+                "item_id": "item-001",
+                "surface_id": "surface-001",
+                "response_text": response_text,
+                "response_sha256": hashlib.sha256(response_text.encode()).hexdigest(),
+                "observable_context": context,
+                "observable_context_sha256": hashlib.sha256(
+                    judge_prompts.canonical_json_bytes(context)
+                ).hexdigest(),
+                "scoring_contract": contract,
+                "scoring_contract_sha256": hashlib.sha256(
+                    judge_prompts.canonical_json_bytes(contract)
+                ).hexdigest(),
+            }
+        ],
+    }
+    manifest = validate_calibration_manifest(
+        manifest_source, expected_track="construct", minimum_calibration_n=1
+    )
+    layer_e_record = _valid_layer_e()
+    layer_e = judge_prompts.validate_layer_e_record(layer_e_record, response_text)
+    layer_e_request = judge_prompts.layer_e_request_bytes(
+        response_text=response_text,
+        observable_context=context,
+        hidden_metadata={},
+    )
+    probabilities = {label: 0.05 for label in judge_prompts.FINAL_LABELS}
+    probabilities["Fi"] = 0.8
+    layer_r_record = {
+        "schema_version": "1.0",
+        "final_label": "Fi",
+        "class_probabilities": probabilities,
+        "quality": 4,
+        "rubric_score": 4,
+        "quality_anchor_id": "Q4",
+        "rule_ids": ["R1"],
+        "refusal_or_evasion": "none",
+        "uncertainty": 0.0,
+    }
+    layer_r_request = judge_prompts.layer_r_request_bytes(
+        layer_e, rules, anchors
+    )
+    identity = {
+        "model_id": "cohere/command-a",
+        "canonical_snapshot": "cohere/command-a-03-2025",
+        "vendor": "Cohere",
+        "family": "Command-A",
+    }
+    manifest_record = manifest_source["records"][0]
+    row = {
+        "response_id": "R-CAL-001",
+        "judge_id": "J01",
+        "judge_model_id": identity["model_id"],
+        "judge_snapshot": identity["canonical_snapshot"],
+        "judge_vendor": identity["vendor"],
+        "judge_family": identity["family"],
+        "final_label": "Fi",
+        "class_probabilities": probabilities,
+        "task_correctness": layer_e_record["task_correctness"],
+        "event_codes": ["requested_action_present"],
+        "omission_codes": layer_e_record["omission_codes"],
+        "rubric_score": 4,
+        "judge_refused": False,
+        "manifest_response_sha256": manifest_record["response_sha256"],
+        "manifest_scoring_contract_sha256": manifest_record["scoring_contract_sha256"],
+        "layer_e_record": layer_e_record,
+        "layer_r_record": layer_r_record,
+        "layer_e_request_sha256": hashlib.sha256(layer_e_request).hexdigest(),
+        "layer_decision_request_sha256": hashlib.sha256(layer_r_request).hexdigest(),
+        "layer_e_response_provenance": {
+            "response_id": "resp-e",
+            "request_id": "req-e",
+            "generation_id": "gen-e",
+            "returned_model": identity["canonical_snapshot"],
+        },
+        "layer_decision_response_provenance": {
+            "response_id": "resp-r",
+            "request_id": "req-r",
+            "generation_id": "gen-r",
+            "returned_model": identity["canonical_snapshot"],
+        },
+    }
+    row["raw_ballot_sha256"] = judge_prompts.calibration_ballot_sha256(
+        row, "construct"
+    )
+    predictions = {
+        "prompt_hashes": judge_prompts.judge_prompt_hashes(),
+        "rows": [row],
+    }
+
+    judge_prompts.validate_calibration_prediction_requests(
+        predictions,
+        manifest,
+        expected_track="construct",
+        expected_judge_identities={"J01": identity},
+    )
+
+    row["layer_e_request_sha256"] = "0" * 64
+    row["raw_ballot_sha256"] = judge_prompts.calibration_ballot_sha256(
+        row, "construct"
+    )
+    with pytest.raises(ValueError, match="request bytes"):
+        judge_prompts.validate_calibration_prediction_requests(
+            predictions,
+            manifest,
+            expected_track="construct",
+            expected_judge_identities={"J01": identity},
+        )
+
+
+def test_layer_e_accepts_real_observable_context_with_numeric_job_metadata():
+    response = "I will send the draft today."
+    trajectory = SimpleNamespace(
+        turn_rows=[
+            {
+                "turn": 1,
+                "request_messages": [
+                    {"role": "user", "content": "Draft a reply."}
+                ],
+                "response_text": response,
+                "branch_selected": True,
+            }
+        ],
+        terminal_output={"text": response},
+    )
+    observable = live_runner._observable_context(
+        SimpleNamespace(prompt_text="Draft a reply."), trajectory
+    )
+    job_metadata = {
+        "job_id": "job-fixture",
+        "role": "evaluation",
+        "actor_id": "A01",
+        "model_id": "openai/gpt-5.5",
+        "item_id": "thorns-hardline-001",
+        "fruit": "F8",
+        "vice": "hardline",
+        "tier": "hard",
+        "surface_id": "thorns-hardline-001-BASE-C0",
+        "cue_arm": "C0",
+        "task_arm": "construct",
+        "rollout": 0,
+        "assignment_id": "base-fixture",
+        "position": 1,
+    }
+
+    request = judge_prompts.layer_e_request_bytes(
+        response_text=response,
+        observable_context=observable,
+        hidden_metadata=job_metadata,
+    )
+
+    parsed = json.loads(request)
+    blinded = parsed["input"]["observable_context"]
+    assert blinded["requested_task"] == observable["requested_task"]
+    assert blinded["trajectory_turns"] == observable["trajectory_turns"]
+    assert all(
+        hidden not in request.decode()
+        for hidden in ("A01", "openai/gpt-5.5", '"C0"', '"F8"')
+    )
+
+
+@pytest.mark.parametrize(
+    "hidden_value", ["A01", "openai/gpt-5.5", "C0", "F8"]
+)
+def test_layer_e_rejects_real_observable_context_containing_hidden_strings(
+    hidden_value: str,
+):
+    response = "I will send the draft today."
+    trajectory = SimpleNamespace(
+        turn_rows=[
+            {
+                "turn": 1,
+                "request_messages": [
+                    {"role": "user", "content": f"Draft for {hidden_value}."}
+                ],
+                "response_text": response,
+                "branch_selected": True,
+            }
+        ],
+        terminal_output={"text": response},
+    )
+    observable = live_runner._observable_context(
+        SimpleNamespace(prompt_text="Draft a reply."), trajectory
+    )
+
+    with pytest.raises(ValueError, match="sensitive hidden value"):
+        judge_prompts.layer_e_request_bytes(
+            response_text=response,
+            observable_context=observable,
+            hidden_metadata={
+                "actor_id": "A01",
+                "model_id": "openai/gpt-5.5",
+                "cue_arm": "C0",
+                "fruit": "F8",
+                "rollout": 0,
+                "position": 1,
+            },
+        )
 
 
 def test_judge_prompt_and_label_contract_hashes_are_stable_and_complete():
@@ -995,12 +1452,16 @@ def test_live_judge_identities_must_exactly_match_the_validated_artifact():
 def test_human_csv_intake_hashes_ids_checks_double_coding_and_adjudication(tmp_path):
     path = tmp_path / "labels.csv"
     rows = [
-        ["response_id", "rater_id", "role", "final_label", "notes"],
-        ["R001", "alice@example.org", "primary", "Fi", ""],
-        ["R001", "bob@example.org", "primary", "Wj", ""],
-        ["R001", "carol@example.org", "adjudicator", "mixed", "reviewed"],
-        ["R002", "alice@example.org", "primary", "CFT", ""],
-        ["R002", "bob@example.org", "primary", "CFT", ""],
+        [
+            "response_id", "rater_id", "role", "final_label",
+            "task_correctness", "event_codes", "omission_codes",
+            "rubric_score", "notes",
+        ],
+        ["R001", "alice@example.org", "primary", "Fi", "correct", "[]", "[]", "2", ""],
+        ["R001", "bob@example.org", "primary", "Wj", "correct", "[]", "[]", "2", ""],
+        ["R001", "carol@example.org", "adjudicator", "mixed", "correct", "[]", "[]", "2", "reviewed"],
+        ["R002", "alice@example.org", "primary", "CFT", "correct", "[]", "[]", "3", ""],
+        ["R002", "bob@example.org", "primary", "CFT", "correct", "[]", "[]", "3", ""],
     ]
     with path.open("w", newline="") as handle:
         csv.writer(handle).writerows(rows)
@@ -1013,7 +1474,10 @@ def test_human_csv_intake_hashes_ids_checks_double_coding_and_adjudication(tmp_p
 
     serialized = json.dumps(result)
     assert "alice@example.org" not in serialized
-    assert result["resolved_labels"] == {"R001": "mixed", "R002": "CFT"}
+    assert {
+        response_id: record["final_label"]
+        for response_id, record in result["resolved_records"].items()
+    } == {"R001": "mixed", "R002": "CFT"}
     assert all(len(row["rater_hash"]) == 64 for row in result["rows"])
 
     no_adjudication = tmp_path / "missing-adjudication.csv"
@@ -1030,9 +1494,10 @@ def test_human_csv_intake_hashes_ids_checks_double_coding_and_adjudication(tmp_p
 def test_human_csv_intake_never_imputes_missing_labels(tmp_path):
     path = tmp_path / "labels.csv"
     path.write_text(
-        "response_id,rater_id,role,final_label,notes\n"
-        "R001,Hannah,primary,Fi,\n"
-        "R001,Inez,primary,,\n"
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
+        "R001,Hannah,primary,Fi,correct,[],[],4,\n"
+        "R001,Inez,primary,,correct,[],[],4,\n"
     )
     with pytest.raises(ValueError, match="final_label"):
         judge_prompts.load_human_labels(
@@ -1045,9 +1510,10 @@ def test_human_csv_intake_never_imputes_missing_labels(tmp_path):
 def test_human_csv_intake_can_use_the_separate_control_label_domain(tmp_path):
     path = tmp_path / "control-labels.csv"
     path.write_text(
-        "response_id,rater_id,role,final_label,notes\n"
-        "N001,Hannah,primary,foil_correct,\n"
-        "N001,Inez,primary,foil_correct,\n"
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
+        "N001,Hannah,primary,foil_correct,correct,[],[],,\n"
+        "N001,Inez,primary,foil_correct,correct,[],[],,\n"
     )
     result = judge_prompts.load_human_labels(
         path,
@@ -1055,11 +1521,166 @@ def test_human_csv_intake_can_use_the_separate_control_label_domain(tmp_path):
         expected_response_ids={"N001"},
         allowed_labels=judge_prompts.CONTROL_LABELS,
     )
-    assert result["resolved_labels"] == {"N001": "foil_correct"}
+    assert result["resolved_records"]["N001"]["final_label"] == "foil_correct"
 
     with pytest.raises(ValueError, match="final_label"):
         judge_prompts.load_human_labels(
             path,
             rater_salt="private-calibration-salt",
             expected_response_ids={"N001"},
+        )
+
+
+def test_human_csv_intake_requires_all_layer_e_and_rubric_dimensions(tmp_path):
+    path = tmp_path / "labels.csv"
+    path.write_text(
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
+        'R001,Hannah,primary,Fi,correct,"[""requested_action_present""]",[],4,\n'
+        'R001,Inez,primary,Fi,correct,"[""requested_action_present""]",[],4,\n'
+    )
+
+    result = judge_prompts.load_human_labels(
+        path,
+        rater_salt="private-calibration-salt",
+        expected_response_ids={"R001"},
+    )
+
+    assert result["resolved_records"]["R001"] == {
+        "final_label": "Fi",
+        "task_correctness": "correct",
+        "event_codes": ["requested_action_present"],
+        "omission_codes": [],
+        "rubric_score": 4,
+    }
+
+
+def test_human_csv_any_dimension_disagreement_requires_full_independent_adjudication(
+    tmp_path,
+):
+    path = tmp_path / "labels.csv"
+    header = (
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
+    )
+    path.write_text(
+        header
+        + 'R001,Hannah,primary,Fi,correct,"[""requested_action_present""]",[],4,\n'
+        + 'R001,Inez,primary,Fi,partial,"[""requested_action_present""]",[],4,\n'
+    )
+    with pytest.raises(ValueError, match="adjudication"):
+        judge_prompts.load_human_labels(
+            path,
+            rater_salt="private-calibration-salt",
+            expected_response_ids={"R001"},
+        )
+
+    path.write_text(
+        path.read_text()
+        + 'R001,Jun,adjudicator,Fi,correct,"[""requested_action_present""]",[],4,resolved\n'
+    )
+    result = judge_prompts.load_human_labels(
+        path,
+        rater_salt="private-calibration-salt",
+        expected_response_ids={"R001"},
+    )
+    assert result["coverage"]["adjudicated_disagreements"] == 1
+
+
+def test_human_csv_adjudicator_cannot_change_primary_agreed_dimension(tmp_path):
+    path = tmp_path / "labels.csv"
+    path.write_text(
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
+        "R001,Hannah,primary,Fi,correct,[],[],4,\n"
+        "R001,Inez,primary,Fi,partial,[],[],4,\n"
+        "R001,Jun,adjudicator,Wj,partial,[],[],4,invalid label override\n"
+    )
+
+    with pytest.raises(ValueError, match="agreed.*final_label"):
+        judge_prompts.load_human_labels(
+            path,
+            rater_salt="private-calibration-salt",
+            expected_response_ids={"R001"},
+        )
+
+
+def test_control_event_disputes_cannot_invent_missing_final_class_support(tmp_path):
+    path = tmp_path / "control-labels.csv"
+    rows = [[
+        "response_id", "rater_id", "role", "final_label", "task_correctness",
+        "event_codes", "omission_codes", "rubric_score", "notes",
+    ]]
+    expected = set()
+    invented = ("target_action_false_positive", "indeterminate")
+    for index in range(48):
+        response_id = f"N{index:03d}"
+        expected.add(response_id)
+        rows.extend(
+            [
+                [response_id, "alice", "primary", "foil_correct", "correct", "[]", "[]", "", ""],
+                [response_id, "bob", "primary", "foil_correct", "correct", '["requested_action_present"]', "[]", "", ""],
+                [response_id, "carol", "adjudicator", invented[index % 2], "correct", '["requested_action_present"]', "[]", "", "invalid support invention"],
+            ]
+        )
+    with path.open("w", newline="") as handle:
+        csv.writer(handle).writerows(rows)
+
+    with pytest.raises(ValueError, match="agreed.*final_label"):
+        judge_prompts.load_human_labels(
+            path,
+            rater_salt="private-calibration-salt",
+            expected_response_ids=expected,
+            allowed_labels=judge_prompts.CONTROL_LABELS,
+        )
+
+
+def test_control_intake_requires_null_rubric_and_registered_codes(tmp_path):
+    path = tmp_path / "control.csv"
+    base = (
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
+    )
+    path.write_text(
+        base
+        + 'N001,Hannah,primary,foil_correct,correct,"[""invented_event""]",[],,\n'
+        + 'N001,Inez,primary,foil_correct,correct,"[""invented_event""]",[],,\n'
+    )
+    with pytest.raises(ValueError, match="event_codes"):
+        judge_prompts.load_human_labels(
+            path,
+            rater_salt="private-calibration-salt",
+            expected_response_ids={"N001"},
+            allowed_labels=judge_prompts.CONTROL_LABELS,
+        )
+
+    path.write_text(
+        base
+        + "N001,Hannah,primary,foil_correct,correct,[],[],2,\n"
+        + "N001,Inez,primary,foil_correct,correct,[],[],2,\n"
+    )
+    with pytest.raises(ValueError, match="rubric_score"):
+        judge_prompts.load_human_labels(
+            path,
+            rater_salt="private-calibration-salt",
+            expected_response_ids={"N001"},
+            allowed_labels=judge_prompts.CONTROL_LABELS,
+        )
+
+
+def test_human_csv_rejects_unnecessary_adjudication_after_full_agreement(tmp_path):
+    path = tmp_path / "labels.csv"
+    path.write_text(
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
+        "R001,Hannah,primary,Fi,correct,[],[],4,\n"
+        "R001,Inez,primary,Fi,correct,[],[],4,\n"
+        "R001,Jun,adjudicator,Wj,partial,[],[],0,contradictory\n"
+    )
+
+    with pytest.raises(ValueError, match="unnecessary adjudication"):
+        judge_prompts.load_human_labels(
+            path,
+            rater_salt="private-calibration-salt",
+            expected_response_ids={"R001"},
         )

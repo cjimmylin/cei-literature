@@ -71,10 +71,10 @@ Complete the packet at `PANELS/thorns-human-calibration-packet-v1.md` before onl
 preflight. Construct and null-control calibration are separate decision spaces and need
 separate raw evidence and validation artifacts:
 
-| Decision space | Human labels | Judge predictions | Validation | Allowed final labels |
-|---|---|---|---|---|
-| construct | `thorns-human-calibration-labels.template.csv` | `thorns-judge-calibration-predictions.template.json` | `thorns-judge-validation.template.json` (`design: thorns`) | `Fi`, `Wj`, `CFT`, `mixed`, `other` |
-| C2 null control | `thorns-control-human-calibration-labels.template.csv` | `thorns-control-judge-calibration-predictions.template.json` | `thorns-control-judge-validation.template.json` (`design: thorns-control`) | `foil_correct`, `target_action_false_positive`, `indeterminate` |
+| Decision space | Calibration manifest | Human labels | Judge predictions | Validation | Allowed final labels |
+|---|---|---|---|---|---|
+| construct | `thorns-calibration-manifest.template.json` | `thorns-human-calibration-labels.template.csv` | `thorns-judge-calibration-predictions.template.json` | `thorns-judge-validation.template.json` (`design: thorns`) | `Fi`, `Wj`, `CFT`, `mixed`, `other` |
+| C2 null control | `thorns-control-calibration-manifest.template.json` | `thorns-control-human-calibration-labels.template.csv` | `thorns-control-judge-calibration-predictions.template.json` | `thorns-control-judge-validation.template.json` (`design: thorns-control`) | `foil_correct`, `target_action_false_positive`, `indeterminate` |
 
 For each template, make a completed, immutable working copy and update the corresponding
 `paths.*` entry in `pilot_config.openrouter.json`. Also complete the construct and
@@ -83,20 +83,30 @@ registries must bind the same qualified panel and member list. Set
 `FRUITBENCH_RATER_SALT` to a protected non-blank value for intake; the salt and the
 restricted direct-ID map are not run artifacts.
 
-The human source files remain raw row-level CSVs with exactly
-`response_id,rater_id,role,final_label,notes`. Each response needs exactly two independent
-primary rows; a disagreement needs exactly one independent adjudicator row. The judge
-prediction files retain one raw row for every response/judge pair with the exact judge
-identity, final label, complete class-probability vector, and `judge_refused` flag.
-Coverage must be complete for both J01 and J02 and include every class in its own
-decision space.
+The domain manifest—not the prediction file—is the sole expected-response authority. Each
+manifest row binds track, response/item/surface IDs, response text and hash, observable
+context and hash, and construct gold or C2 rules plus its scoring-contract hash. The two
+manifest response-ID sets must be disjoint. Human CSVs use exactly
+`response_id,rater_id,role,final_label,task_correctness,event_codes,omission_codes,`
+`rubric_score,notes`. Each response needs exactly two independent primary rows; a
+disagreement in any coded dimension needs one independent adjudicator. Every salted
+`rater_hash` must identify exactly one qualified panel member authorized for the CSV role.
+
+Prediction rows retain both raw Layer-E and Layer-R/control records, manifest response and
+scoring hashes, recomputed request hashes, nonblank response/request/generation IDs,
+returned snapshots, and a raw-ballot hash, in addition to the exact judge identity and
+summary fields. Preflight rebuilds both requests from the manifest and requires every
+summary field to equal the validated raw records. Coverage must be complete for both J01
+and J02 and include every class in its own decision space.
 
 Do not type summary metrics into a validation artifact from a spreadsheet report and
 treat them as evidence. During preflight the harness ingests and salts the raw human
-rows, recomputes human agreement/kappa and every judge agreement, F1, AUPRC,
-worst-class F1, sample count, and refusal rate from the raw prediction matrix, and
-requires the reported validation metrics and calibration-evidence hash to match exactly.
-Both decision spaces require at least 48 calibration responses per judge. Prompt, label,
+rows and recomputes final-class, task-correctness, event, omission, and construct-rubric
+metrics plus their support counts. Every class needs at least five resolved examples,
+task correctness needs two represented categories, construct rubrics need three scores,
+and event/omission agreement is undefined without positive support. Both decision spaces
+require at least 48 calibration responses per judge. Reported metrics/supports and the
+calibration-evidence hash must match exactly; prompt, request, raw ballot, manifest, label,
 policy, source-file, panel, and catalog identities are hash-bound.
 
 Path quality and item rubric score are deliberately different fields. Construct
@@ -166,28 +176,36 @@ that immutable receipt, with the exact current hashes and all eight gates `PASS`
 
 ## Cost and call-count warning
 
-The current schedule/compiler expands to **2,502 development jobs** (1,728 calibration,
-558 evaluation, and 216 held-out) across 19 distinct item IDs: the frozen 18-item
-diagnostic plus one registered cue-panel item. It also expands to **108
-locked-confirmation jobs**. Development has
-2,394 construct jobs and 108 C2 null-control jobs; confirmation has 108 sealed C3
-construct jobs. Every current job is single-shot and makes one actor Responses call plus
-two judge families × two scoring layers, or approximately **five logical Responses calls
-per job**:
+The current compiler expands to **6,798 development jobs**: 60 headline calibration
+items × four calibration actors × 24 rollouts = 5,760; the 13-item fresh C0 diagnostic
+panel plus the six-item C0/C1/C2 schedule = 558 evaluation jobs; and 40 headline
+hard/arc items across exactly 20 cells × two held-out actors × six rollouts = 480.
+Locked confirmation expands to **342 fresh evaluation jobs**: the same 13 non-cue C0
+diagnostic items × three subjects × six rollouts (234), plus the six-item sealed C3
+schedule (108). Phase is part of every job identity, so none of those confirmation C0
+rows reuses a development headline identity.
 
-- development: about **12,510 logical calls**;
-- locked confirmation: about **540 logical calls**;
-- both phases: about **13,050 logical calls**, before transport retries.
+Development has 6,690 construct jobs and 108 C2 null-control jobs; confirmation has 342
+construct jobs. Every job makes exactly four judge calls (J01/J02 × Layer-E and
+Layer-R/control). Single-shot jobs make one actor call, while the 2,160 calibration and
+held-out escalation-arc jobs make four actor calls. Therefore, before transport retries:
 
-At the configured ceilings this is up to roughly 15.37 million development output tokens
-and 0.66 million confirmation output tokens, plus input and reasoning tokens. Layer-E
+- development: **13,278 actor calls + 27,192 judge calls = 40,470 logical calls**;
+- locked confirmation: **342 actor calls + 1,368 judge calls = 1,710 logical calls**;
+- both phases: **42,180 logical calls**.
+
+At the configured ceilings this is up to roughly 55.04 million development output tokens
+and 2.10 million confirmation output tokens (actors at 2,048, judges at 1,024), plus input
+and reasoning tokens. Layer-E
 task/trajectory context and the strict judge schema also make input volume material.
 These are ceilings, not a dollar quote. Actual spend depends on response lengths and the
 current price of every pinned endpoint; re-check provider pricing and set an external
 OpenRouter/account-side budget before the online receipt. The harness has no spend cap or
 compile-only cost prompt. A retry can add transport attempts. Successful calls retain
-their transport attempt ledger; a failed call's journal event retains only its call ID,
-error type, and hashed message, not the failed transport attempt ledger.
+their secret-scanned raw response envelope, incomplete details, and transport attempt
+ledger. Typed failed calls retain safe status/API/error/retry fields, raw/incomplete
+evidence, and the attempt ledger; malformed non-JSON bodies retain only their byte length
+and SHA-256.
 
 Jobs and judges execute serially rather than in batches. The receipt age is checked when
 a phase starts or resumes, not during an uninterrupted phase. Because the schedule and
@@ -207,8 +225,10 @@ python3 COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/run_pilot.py \
 ```
 
 The receipt is validated before the schedule or any item call. The immutable C0/C1/C2
-schedule is created before execution; C3 cannot compile. Development covers the frozen
-18-item diagnostic plus the registered cue panel and is not a headline model comparison.
+schedule is created before execution; C3 cannot compile. Development calibrates every
+one of the 60 headline items, runs all 40 headline hard/arc items on both held-out actors,
+and evaluates the fresh 13-item non-cue C0 diagnostic plus registered cue panel. It is
+not a headline model comparison.
 If all validity latches pass, its analysis verdict is `CONFIRMATION_PENDING`. The
 `PROVISIONAL_*_AWAITING_SEALED_C3` detail is diagnostic only and must not be reported as
 live discrimination, non-discrimination, or saturation. An `INVALID` development verdict
@@ -242,9 +262,11 @@ python3 COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/run_pilot.py \
 ```
 
 `--development-results` is accepted only when the artifact identifies the development
-phase and its SHA-256 is bound by a validated, completed development journal. Only sealed
-C3 surfaces compile in confirmation; development rows are combined with C3 rows for the
-preregistered final analysis.
+phase, its SHA-256 is bound by a validated completed journal, and its config, source,
+gate-input, receipt, and schedule bindings agree with that journal. Confirmation reruns a
+fresh phase-distinct 13-item C0 diagnostic panel and compiles the sealed C3 schedule;
+development rows are combined with those confirmation rows for the preregistered final
+analysis.
 
 Supply the schedule and terminal artifact from the same development run. Before it
 validates or compiles confirmation, the CLI hashes every supplied

@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sys
+import csv
 from copy import deepcopy
 from pathlib import Path
 from types import SimpleNamespace
@@ -28,6 +29,7 @@ from preflight import (  # noqa: E402
     fetch_online_catalog_bundle,
     load_catalog_bundle,
     load_item_generation_provenance,
+    load_validated_judge_readiness,
     load_model_lineage,
     load_openrouter_config,
     load_registered_cue_surfaces,
@@ -36,8 +38,11 @@ from preflight import (  # noqa: E402
     validate_development_subset,
     validate_preflight_receipt,
     write_immutable_json,
+    _judge_gate,
 )
 import run_pilot  # noqa: E402
+import judge_prompts  # noqa: E402
+from shared.judge_evidence import compute_judge_evidence  # noqa: E402
 
 
 CONFIG = THORNS / "pilot_config.openrouter.json"
@@ -86,6 +91,476 @@ def test_config_freezes_exact_roster_attacker_and_balanced_rollout_contract() ->
     assert cfg["rollouts"]["evaluation"] == 6
     assert cfg["trajectory"] == {"branch_strategy": "counterbalanced", "branch_count": 3}
     assert all(value % 3 == 0 for value in cfg["rollouts"].values())
+    assert cfg["judge_validation_policy"]["human_human_thresholds"] == {
+        "agreement": 0.85,
+        "gwet_ac1": 0.8,
+        "krippendorff_alpha": 0.8,
+        "task_correctness_agreement": 0.85,
+        "event_jaccard": 0.8,
+        "omission_jaccard": 0.8,
+        "weighted_kappa": 0.8,
+        "rubric_weighted_kappa": 0.8,
+    }
+    assert cfg["judge_validation_policy"]["judge_thresholds"]["rubric_within_one"] == 0.9
+    assert cfg["judge_validation_policy"]["minimum_class_n"] == 5
+    assert cfg["control_judge_validation_policy"]["minimum_class_n"] == 5
+    assert "weighted_kappa" not in cfg["control_judge_validation_policy"][
+        "human_human_thresholds"
+    ]
+    assert "rubric_within_one" not in cfg["control_judge_validation_policy"][
+        "judge_thresholds"
+    ]
+
+
+def test_calibration_templates_expose_exact_multidimensional_raw_schema() -> None:
+    cfg = load_openrouter_config(CONFIG)
+    expected_csv_header = (
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes"
+    )
+    for path_key in ("human_labels", "control_human_labels"):
+        assert Path(cfg["paths"][path_key]).read_text().strip() == expected_csv_header
+    for path_key in ("judge_predictions", "control_judge_predictions"):
+        template = json.loads(Path(cfg["paths"][path_key]).read_text())
+        assert template["rows"] == []
+    for path_key, track in (
+        ("calibration_manifest", "construct"),
+        ("control_calibration_manifest", "control"),
+    ):
+        manifest = json.loads(Path(cfg["paths"][path_key]).read_text())
+        assert manifest == {
+            "schema_version": "1.0",
+            "track": track,
+            "approved_for_live": False,
+            "records": [],
+        }
+
+
+def _plain(value):
+    if isinstance(value, dict) or hasattr(value, "items"):
+        return {str(key): _plain(child) for key, child in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [_plain(child) for child in value]
+    return value
+
+
+def _canonical_hash(value) -> str:
+    return hashlib.sha256(
+        json.dumps(value, sort_keys=True, separators=(",", ":")).encode()
+    ).hexdigest()
+
+
+def _write_json(path: Path, value) -> None:
+    path.write_text(json.dumps(value, sort_keys=True, separators=(",", ":")))
+
+
+def _build_complete_calibration_domain(
+    tmp_path: Path,
+    cfg: dict,
+    validated,
+    *,
+    track: str,
+    rater_salt: str,
+) -> dict[str, str]:
+    construct = track == "construct"
+    labels = (
+        ("Fi", "Wj", "CFT", "mixed", "other")
+        if construct
+        else ("foil_correct", "target_action_false_positive", "indeterminate")
+    )
+    label_order = ("Wj", "CFT", "other", "mixed", "Fi") if construct else None
+    count = 48
+    prefix = "CR" if construct else "NR"
+    prompt_hashes = (
+        judge_prompts.judge_prompt_hashes()
+        if construct
+        else judge_prompts.control_prompt_hashes()
+    )
+    label_hash = (
+        judge_prompts.label_set_sha256()
+        if construct
+        else judge_prompts.control_label_set_sha256()
+    )
+    identities = {
+        principal.opaque_id: {
+            "model_id": principal.model_id,
+            "canonical_snapshot": principal.canonical_slug,
+            "vendor": principal.vendor,
+            "family": principal.family,
+        }
+        for principal in validated.principals
+        if principal.opaque_id.startswith("J")
+    }
+    gold = {
+        "paths": {
+            "fruit": {"markers": ["fruit basis"]},
+            "vice": {"markers": ["vice basis"]},
+            "cft": {"markers": ["counterfeit basis"]},
+        },
+        "rubric_0_4": {str(score): f"quality {score}" for score in range(5)},
+        "integration_check": False,
+    }
+    construct_rules = judge_prompts.rubric_rules_from_gold(gold)
+    anchors = judge_prompts.quality_anchors_from_gold(gold)
+    construct_rule_by_label = {
+        rule["final_label"]: rule["rule_id"] for rule in construct_rules
+    }
+    control_rules = (
+        {
+            "rule_id": f"N{index}",
+            "control_label": label,
+            "observable_basis": f"control basis {label}",
+        }
+        for index, label in enumerate(labels, 1)
+    )
+    control_rules = tuple(control_rules)
+    control_rule_by_label = {
+        rule["control_label"]: rule["rule_id"] for rule in control_rules
+    }
+    scoring_contract = (
+        {"construct_gold": gold}
+        if construct
+        else {"control_rules": list(control_rules)}
+    )
+
+    manifest_records = []
+    prediction_rows = []
+    human_rows = []
+    for index in range(count):
+        response_id = f"{prefix}{index:03d}"
+        label = labels[index % len(labels)]
+        task = "correct" if index % 2 else "partial"
+        omissions = ["required_fact_omitted"] if index % 3 == 0 else []
+        rubric = index % 5 if construct else None
+        response_text = f"Calibration {response_id} includes requested action."
+        context = {"requested_task": f"Complete observable task {index}."}
+        manifest_record = {
+            "track": track,
+            "response_id": response_id,
+            "item_id": f"item-{prefix.lower()}-{index:03d}",
+            "surface_id": f"surface-{prefix.lower()}-{index:03d}",
+            "response_text": response_text,
+            "response_sha256": hashlib.sha256(response_text.encode()).hexdigest(),
+            "observable_context": context,
+            "observable_context_sha256": _canonical_hash(context),
+            "scoring_contract": scoring_contract,
+            "scoring_contract_sha256": _canonical_hash(scoring_contract),
+        }
+        manifest_records.append(manifest_record)
+        for rater_id in ("alice", "bob"):
+            human_rows.append(
+                [
+                    response_id,
+                    rater_id,
+                    "primary",
+                    label,
+                    task,
+                    json.dumps(["requested_action_present"]),
+                    json.dumps(omissions),
+                    str(rubric) if construct else "",
+                    "",
+                ]
+            )
+
+        layer_e_record = {
+            "schema_version": "1.0",
+            "task_correctness": task,
+            "event_codes": [
+                {
+                    "code": "requested_action_present",
+                    "evidence_spans": ["requested action"],
+                }
+            ],
+            "omission_codes": omissions,
+            "refusal_or_evasion": "none",
+            "uncertainty": 0.0,
+        }
+        layer_e = judge_prompts.validate_layer_e_record(
+            layer_e_record, response_text
+        )
+        layer_e_request = judge_prompts.layer_e_request_bytes(
+            response_text=response_text,
+            observable_context=context,
+            hidden_metadata={},
+        )
+        probabilities = {
+            candidate: 0.8 if candidate == label else 0.2 / (len(labels) - 1)
+            for candidate in labels
+        }
+        if construct:
+            decision_field = "layer_r_record"
+            decision_record = {
+                "schema_version": "1.0",
+                "final_label": label,
+                "class_probabilities": probabilities,
+                "quality": judge_prompts.PATH_QUALITY[label],
+                "rubric_score": rubric,
+                "quality_anchor_id": f"Q{rubric}",
+                "rule_ids": [construct_rule_by_label[label]],
+                "refusal_or_evasion": "none",
+                "uncertainty": 0.0,
+            }
+            decision_request = judge_prompts.layer_r_request_bytes(
+                layer_e, construct_rules, anchors
+            )
+        else:
+            decision_field = "layer_control_record"
+            decision_record = {
+                "schema_version": "1.0",
+                "final_label": label,
+                "class_probabilities": probabilities,
+                "rule_ids": [control_rule_by_label[label]],
+                "refusal_or_evasion": "none",
+                "uncertainty": 0.0,
+            }
+            decision_request = judge_prompts.layer_control_request_bytes(
+                layer_e, control_rules
+            )
+        for judge_id, identity in identities.items():
+            row = {
+                "response_id": response_id,
+                "judge_id": judge_id,
+                "judge_model_id": identity["model_id"],
+                "judge_snapshot": identity["canonical_snapshot"],
+                "judge_vendor": identity["vendor"],
+                "judge_family": identity["family"],
+                "final_label": label,
+                "class_probabilities": probabilities,
+                "task_correctness": task,
+                "event_codes": ["requested_action_present"],
+                "omission_codes": omissions,
+                "rubric_score": rubric,
+                "judge_refused": False,
+                "manifest_response_sha256": manifest_record["response_sha256"],
+                "manifest_scoring_contract_sha256": manifest_record[
+                    "scoring_contract_sha256"
+                ],
+                "layer_e_record": layer_e_record,
+                decision_field: decision_record,
+                "layer_e_request_sha256": hashlib.sha256(layer_e_request).hexdigest(),
+                "layer_decision_request_sha256": hashlib.sha256(
+                    decision_request
+                ).hexdigest(),
+                "layer_e_response_provenance": {
+                    "response_id": f"resp-e-{response_id}-{judge_id}",
+                    "request_id": f"req-e-{response_id}-{judge_id}",
+                    "generation_id": f"gen-e-{response_id}-{judge_id}",
+                    "returned_model": identity["canonical_snapshot"],
+                },
+                "layer_decision_response_provenance": {
+                    "response_id": f"resp-d-{response_id}-{judge_id}",
+                    "request_id": f"req-d-{response_id}-{judge_id}",
+                    "generation_id": f"gen-d-{response_id}-{judge_id}",
+                    "returned_model": identity["canonical_snapshot"],
+                },
+            }
+            row["raw_ballot_sha256"] = judge_prompts.calibration_ballot_sha256(
+                row, track
+            )
+            prediction_rows.append(row)
+
+    tag = "construct" if construct else "control"
+    manifest_path = tmp_path / f"{tag}-manifest.json"
+    manifest = {
+        "schema_version": "1.0",
+        "track": track,
+        "approved_for_live": True,
+        "records": manifest_records,
+    }
+    _write_json(manifest_path, manifest)
+    predictions_path = tmp_path / f"{tag}-predictions.json"
+    predictions = {
+        "schema_version": "1.0",
+        "label_set_sha256": label_hash,
+        "prompt_hashes": prompt_hashes,
+        "rows": prediction_rows,
+    }
+    _write_json(predictions_path, predictions)
+    human_path = tmp_path / f"{tag}-human.csv"
+    with human_path.open("w", newline="") as handle:
+        writer = csv.writer(handle)
+        writer.writerow(
+            [
+                "response_id",
+                "rater_id",
+                "role",
+                "final_label",
+                "task_correctness",
+                "event_codes",
+                "omission_codes",
+                "rubric_score",
+                "notes",
+            ]
+        )
+        writer.writerows(human_rows)
+
+    human_hash = hashlib.sha256(human_path.read_bytes()).hexdigest()
+    training_hash = hashlib.sha256(
+        Path(cfg["paths"]["panel_training_set"]).read_bytes()
+    ).hexdigest()
+    members = [
+        {
+            "human_rater_id": human_id,
+            "rater_hash": hashlib.sha256(
+                f"{rater_salt}\0{rater_id}".encode()
+            ).hexdigest(),
+            "roles": roles,
+            "qualified": True,
+            "qualification_completed_at": "2026-07-09T18:00:00Z",
+        }
+        for human_id, rater_id, roles in (
+            ("H001", "alice", ["primary"]),
+            ("H002", "bob", ["primary"]),
+            ("H003", "carol", ["adjudicator"]),
+        )
+    ]
+    panel_path = tmp_path / f"{tag}-panel.json"
+    _write_json(
+        panel_path,
+        {
+            "schema_version": "1.0",
+            "panel_id": "PNL-THORNS99",
+            "packet_version": cfg["panel_contract"]["packet_version"],
+            "training_set_sha256": training_hash,
+            "human_label_set_sha256": human_hash,
+            "members": members,
+            "available_for_live": True,
+            "verified_at": "2026-07-09T19:00:00Z",
+        },
+    )
+
+    human_intake = judge_prompts.load_human_labels(
+        human_path,
+        rater_salt=rater_salt,
+        expected_response_ids={row["response_id"] for row in manifest_records},
+        allowed_labels=labels,
+    )
+    policy_key = (
+        "judge_validation_policy"
+        if construct
+        else "control_judge_validation_policy"
+    )
+    policy = cfg[policy_key]
+    evidence = compute_judge_evidence(
+        human_intake,
+        predictions,
+        manifest_source=manifest,
+        expected_track=track,
+        expected_judge_identities=identities,
+        expected_class_labels=labels,
+        expected_label_order=label_order,
+        expected_label_set_sha256=label_hash,
+        expected_prompt_hashes=prompt_hashes,
+        minimum_calibration_n=policy["minimum_calibration_n"],
+        minimum_class_n=policy["minimum_class_n"],
+    )
+    computed_by_id = {row["judge_id"]: row for row in evidence.judges}
+    validation_path = tmp_path / f"{tag}-validation.json"
+    artifact = {
+        "schema_version": "1.0",
+        "design": "thorns" if construct else "thorns-control",
+        "approved_for_live": True,
+        "label_set_sha256": label_hash,
+        "human_label_set_sha256": human_hash,
+        "calibration_evidence_sha256": evidence.evidence_sha256,
+        "prompt_hashes": prompt_hashes,
+        "policy": policy,
+        "human_human": {
+            "metrics": _plain(evidence.human_human["metrics"]),
+            "supports": _plain(evidence.human_human["supports"]),
+            "thresholds": policy["human_human_thresholds"],
+            "by_class": {
+                label: {
+                    "metrics": _plain(
+                        evidence.human_human["by_class"][label]["metrics"]
+                    ),
+                    "thresholds": policy["human_by_class_thresholds"][label],
+                }
+                for label in labels
+            },
+        },
+        "judges": [
+            {
+                "judge_id": judge_id,
+                **identity,
+                "metrics": _plain(computed_by_id[judge_id]["metrics"]),
+                "supports": _plain(computed_by_id[judge_id]["supports"]),
+                "thresholds": policy["judge_thresholds"],
+                "by_class": {
+                    label: {
+                        "metrics": _plain(
+                            computed_by_id[judge_id]["by_class"][label]["metrics"]
+                        ),
+                        "thresholds": policy["judge_by_class_thresholds"][label],
+                    }
+                    for label in labels
+                },
+                "calibration_n": computed_by_id[judge_id]["calibration_n"],
+                "refusal_rate": computed_by_id[judge_id]["refusal_rate"],
+                "max_refusal_rate": policy["maximum_refusal_rate"],
+            }
+            for judge_id, identity in identities.items()
+        ],
+        "human_availability": {
+            "available_for_live": True,
+            "verified": True,
+            "declaration": "The qualified panel is available for live adjudication.",
+        },
+        "completed_at": "2026-07-09T20:00:00Z",
+    }
+    _write_json(validation_path, artifact)
+    return {
+        "human": str(human_path),
+        "manifest": str(manifest_path),
+        "predictions": str(predictions_path),
+        "panel": str(panel_path),
+        "validation": str(validation_path),
+    }
+
+
+def test_judge_gate_accepts_complete_filesystem_calibration_for_both_domains(
+    tmp_path: Path, monkeypatch
+) -> None:
+    cfg = load_openrouter_config(CONFIG)
+    validated = validate_catalog_bundle(cfg, load_catalog_bundle(CATALOG))
+    rater_salt = "filesystem-integration-salt"
+    monkeypatch.setenv("FRUITBENCH_RATER_SALT", rater_salt)
+    construct = _build_complete_calibration_domain(
+        tmp_path, cfg, validated, track="construct", rater_salt=rater_salt
+    )
+    control = _build_complete_calibration_domain(
+        tmp_path, cfg, validated, track="control", rater_salt=rater_salt
+    )
+    cfg["paths"].update(
+        {
+            "human_labels": construct["human"],
+            "calibration_manifest": construct["manifest"],
+            "judge_predictions": construct["predictions"],
+            "panel_registry": construct["panel"],
+            "judge_validation": construct["validation"],
+            "control_human_labels": control["human"],
+            "control_calibration_manifest": control["manifest"],
+            "control_judge_predictions": control["predictions"],
+            "control_panel_registry": control["panel"],
+            "control_judge_validation": control["validation"],
+        }
+    )
+
+    judge_gate, human_gate, readiness = _judge_gate(
+        cfg, validated, return_readiness=True
+    )
+
+    assert judge_gate["status"] == "pass", judge_gate
+    assert human_gate["status"] == "pass", human_gate
+    assert readiness["construct_validation"].evidence_verified is True
+    assert readiness["control_validation"].evidence_verified is True
+    loaded = load_validated_judge_readiness(cfg, validated)
+    assert loaded["construct_validation"].artifact_sha256 == (
+        readiness["construct_validation"].artifact_sha256
+    )
+    assert loaded["control_validation"].artifact_sha256 == (
+        readiness["control_validation"].artifact_sha256
+    )
 
 
 def test_three_subject_requests_are_byte_equivalent_except_model() -> None:
@@ -135,20 +610,27 @@ def test_catalog_fixture_binds_canonical_slugs_endpoints_and_role_firewalls() ->
     validate_role_separation(validated.principals)
 
 
+@pytest.mark.parametrize("model_id", JUDGE_MODELS)
 @pytest.mark.parametrize("capability", ["response_format", "structured_outputs"])
-def test_catalog_validation_requires_structured_output_capabilities_for_judges(
-    capability: str,
+def test_catalog_validation_requires_capability_on_selected_judge_endpoint(
+    model_id: str, capability: str,
 ) -> None:
     cfg = load_openrouter_config(CONFIG)
     bundle = deepcopy(load_catalog_bundle(CATALOG))
-    model_id = "google/gemini-3.5-flash"
     catalog_row = next(
         row for row in bundle["catalog"]["data"] if row["id"] == model_id
     )
-    endpoint = bundle["endpoints"][model_id]["data"]["endpoints"][0]
-    catalog_row["supported_parameters"].remove(capability)
+    judge = next(row for row in cfg["judges"] if row["model_id"] == model_id)
+    params = judge.get("params", judge)
+    configured_tag = params["provider_order"][0]
+    endpoint = next(
+        row
+        for row in bundle["endpoints"][model_id]["data"]["endpoints"]
+        if row.get("tag") == configured_tag
+    )
     endpoint["supported_parameters"].remove(capability)
 
+    assert capability in catalog_row["supported_parameters"]
     with pytest.raises(PreflightError, match=capability):
         validate_catalog_bundle(cfg, bundle)
 
@@ -301,7 +783,8 @@ def test_receipt_is_tamper_evident_and_rechecks_frozen_source_inputs(tmp_path: P
     drifted = deepcopy(cfg)
     drifted["paths"]["human_labels"] = str(tmp_path / "different-human-labels.csv")
     Path(drifted["paths"]["human_labels"]).write_text(
-        "response_id,rater_id,role,final_label,notes\n"
+        "response_id,rater_id,role,final_label,task_correctness,event_codes,"
+        "omission_codes,rubric_score,notes\n"
     )
     with pytest.raises(PreflightError, match="source|input"):
         validate_preflight_receipt(clean_path, drifted)

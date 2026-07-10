@@ -6,7 +6,7 @@ from dataclasses import asdict, dataclass, is_dataclass
 import hashlib
 import json
 import os
-from collections import defaultdict
+from collections import Counter, defaultdict
 from collections.abc import Mapping, Sequence
 from pathlib import Path
 from typing import Any
@@ -24,6 +24,7 @@ from trajectory import execute_trajectory
 @dataclass(frozen=True)
 class LiveJob:
     job_id: str
+    phase: str
     role: str
     actor_id: str
     model_id: str
@@ -40,6 +41,7 @@ class LiveJob:
     scoring_contract: Any
     headline_eligible: bool
     sealed: bool
+    targeted_cue_factors: tuple[str, ...]
 
 
 def _json_safe(value: Any) -> Any:
@@ -64,6 +66,21 @@ def _canonical_hash(value: Any) -> str:
             sort_keys=True,
         ).encode("utf-8")
     ).hexdigest()
+
+
+def _source_identity_sha256(
+    *,
+    source_scope_sha256: str,
+    gate_input_sha256: Mapping[str, Any],
+    prior_development_sha256: str | None,
+) -> str:
+    return _canonical_hash(
+        {
+            "source_scope_sha256": source_scope_sha256,
+            "gate_input_sha256": gate_input_sha256,
+            "prior_development_sha256": prior_development_sha256,
+        }
+    )
 
 
 def _load_bank(items_root: Path) -> tuple[dict[str, dict], dict[str, dict]]:
@@ -93,11 +110,15 @@ def _actor_rows(cfg: Mapping[str, Any], role: str) -> tuple[Mapping[str, Any], .
 
 
 def _job_id(identity: Mapping[str, Any]) -> str:
-    return "job-" + _canonical_hash(identity)[:24]
+    phase = identity.get("phase")
+    if phase not in {"development", "locked-confirmation"}:
+        raise ValueError("live job identity must bind its exact phase")
+    return f"job-{phase}-" + _canonical_hash(identity)[:24]
 
 
 def _base_job(
     *,
+    phase: str,
     role: str,
     actor: Mapping[str, Any],
     item: Mapping[str, Any],
@@ -111,11 +132,14 @@ def _base_job(
         surface_id = surface.surface_id
         prompt = surface.text
         contract = construct_gold_for_judge(surface)
+        targeted_cue_factors = tuple(surface.cue_classes)
     else:
         surface_id = f"{item_id}-BASE-C0"
         prompt = item["prompt"]
         contract = dict(gold)
+        targeted_cue_factors = ()
     assignment_identity = {
+        "phase": phase,
         "role": role,
         "actor_id": actor["actor_id"],
         "item_id": item_id,
@@ -125,6 +149,7 @@ def _base_job(
     assignment_id = "base-" + _canonical_hash(assignment_identity)[:20]
     return LiveJob(
         job_id=_job_id({**assignment_identity, "assignment_id": assignment_id}),
+        phase=phase,
         role=role,
         actor_id=actor["actor_id"],
         model_id=actor["model_id"],
@@ -141,7 +166,67 @@ def _base_job(
         scoring_contract=contract,
         headline_eligible=item.get("status") != "exploratory",
         sealed=False,
+        targeted_cue_factors=targeted_cue_factors,
     )
+
+
+def compile_live_gate_contract(cfg: Mapping[str, Any]) -> dict[str, Any]:
+    """Freeze the exact development rows required before any live gate can pass."""
+
+    bank, _gold = _load_bank(Path(cfg["paths"]["items"]))
+    calibration_item_ids = sorted(
+        item_id for item_id, item in bank.items() if item.get("status") != "exploratory"
+    )
+    heldout_items = [
+        {
+            "item_id": item_id,
+            "fruit": item["cell"]["fruit"],
+            "vice": item["cell"]["vice"],
+        }
+        for item_id, item in sorted(bank.items())
+        if item.get("status") != "exploratory"
+        and item.get("tier") in {"hard", "arc"}
+    ]
+    calibration_rows = _actor_rows(cfg, "calibration")
+    heldout_rows = _actor_rows(cfg, "held_out_frontier")
+    calibration_actor_ids = [row["actor_id"] for row in calibration_rows]
+    heldout_actor_ids = [row["actor_id"] for row in heldout_rows]
+    attacker_ids = [
+        row["actor_id"] for row in calibration_rows if row.get("attacker") is True
+    ]
+    heldout_cell_counts = Counter(
+        (row["fruit"], row["vice"]) for row in heldout_items
+    )
+    if (
+        len(calibration_item_ids) != 60
+        or calibration_actor_ids != ["A04", "A05", "A06", "A07"]
+        or attacker_ids != ["A04"]
+        or cfg.get("rollouts", {}).get("calibration") != 24
+    ):
+        raise ValueError("live calibration gate contract drifted from 60x4x24")
+    if (
+        len(heldout_items) != 40
+        or len(heldout_cell_counts) != 20
+        or heldout_actor_ids != ["A08", "A09"]
+        or cfg.get("rollouts", {}).get("held_out") != 6
+    ):
+        raise ValueError("live held-out gate contract drifted from 40x2x6/20 cells")
+    if set(heldout_cell_counts.values()) != {2}:
+        raise ValueError("live held-out gate contract requires exactly two items per cell")
+    return {
+        "calibration": {
+            "item_ids": calibration_item_ids,
+            "actor_ids": calibration_actor_ids,
+            "attacker_actor_id": "A04",
+            "rollouts": 24,
+        },
+        "held_out_frontier": {
+            "items": heldout_items,
+            "actor_ids": heldout_actor_ids,
+            "rollouts": 6,
+            "cell_count": 20,
+        },
+    }
 
 
 def compile_live_jobs(
@@ -228,6 +313,7 @@ def compile_live_jobs(
         scheduled.append(
             LiveJob(
                 job_id=_job_id(identity),
+                phase=phase,
                 role="evaluation",
                 actor_id=actor["actor_id"],
                 model_id=actor["model_id"],
@@ -244,13 +330,11 @@ def compile_live_jobs(
                 scoring_contract=scoring_contract,
                 headline_eligible=surface.headline_eligible,
                 sealed=surface.sealed,
+                targeted_cue_factors=tuple(surface.cue_classes),
             )
         )
     if not scheduled:
         raise ValueError("schedule must compile at least one live job")
-    if phase == "locked-confirmation":
-        return tuple(scheduled)
-
     development_ids = cfg.get("development_item_ids")
     if not isinstance(development_ids, list) or len(development_ids) != 18:
         raise ValueError("development item freeze must contain 18 items")
@@ -262,27 +346,46 @@ def compile_live_jobs(
         if surface.cue_arm == "C0"
     }
     cue_item_ids = {surface.item_id for surface in development}
+    base_evaluation_ids = [
+        item_id for item_id in development_ids if item_id not in cue_item_ids
+    ]
+    if len(base_evaluation_ids) != 13 or any(
+        bank[item_id].get("status") == "exploratory"
+        for item_id in base_evaluation_ids
+    ):
+        raise ValueError("evaluation base panel must contain 13 headline non-cue items")
+    headline_item_ids = sorted(
+        item_id for item_id, item in bank.items() if item.get("status") != "exploratory"
+    )
+    heldout_item_ids = [
+        item_id
+        for item_id in headline_item_ids
+        if bank[item_id].get("tier") in {"hard", "arc"}
+    ]
+    if len(headline_item_ids) != 60 or len(heldout_item_ids) != 40:
+        raise ValueError("headline calibration/held-out bank coverage drifted")
     jobs: list[LiveJob] = []
-    for actor in _actor_rows(cfg, "calibration"):
-        for item_id in development_ids:
-            for rollout in range(cfg["rollouts"]["calibration"]):
-                jobs.append(
-                    _base_job(
-                        role="calibration",
-                        actor=actor,
-                        item=bank[item_id],
-                        gold=gold[item_id],
-                        rollout=rollout,
-                        surface_by_item=c0_by_item,
+    if phase == "development":
+        for actor in _actor_rows(cfg, "calibration"):
+            for item_id in headline_item_ids:
+                for rollout in range(cfg["rollouts"]["calibration"]):
+                    jobs.append(
+                        _base_job(
+                            phase=phase,
+                            role="calibration",
+                            actor=actor,
+                            item=bank[item_id],
+                            gold=gold[item_id],
+                            rollout=rollout,
+                            surface_by_item=c0_by_item,
+                        )
                     )
-                )
     for actor in _actor_rows(cfg, "evaluation"):
-        for item_id in development_ids:
-            if item_id in cue_item_ids:
-                continue
+        for item_id in base_evaluation_ids:
             for rollout in range(cfg["rollouts"]["evaluation"]):
                 jobs.append(
                     _base_job(
+                        phase=phase,
                         role="evaluation",
                         actor=actor,
                         item=bank[item_id],
@@ -292,21 +395,21 @@ def compile_live_jobs(
                     )
                 )
     jobs.extend(scheduled)
-    for actor in _actor_rows(cfg, "held_out_frontier"):
-        for item_id in development_ids:
-            if bank[item_id].get("tier") not in {"hard", "arc"}:
-                continue
-            for rollout in range(cfg["rollouts"]["held_out"]):
-                jobs.append(
-                    _base_job(
-                        role="held_out_frontier",
-                        actor=actor,
-                        item=bank[item_id],
-                        gold=gold[item_id],
-                        rollout=rollout,
-                        surface_by_item=c0_by_item,
+    if phase == "development":
+        for actor in _actor_rows(cfg, "held_out_frontier"):
+            for item_id in heldout_item_ids:
+                for rollout in range(cfg["rollouts"]["held_out"]):
+                    jobs.append(
+                        _base_job(
+                            phase=phase,
+                            role="held_out_frontier",
+                            actor=actor,
+                            item=bank[item_id],
+                            gold=gold[item_id],
+                            rollout=rollout,
+                            surface_by_item=c0_by_item,
+                        )
                     )
-                )
     if len({job.job_id for job in jobs}) != len(jobs):
         raise ValueError("compiled live jobs contain a duplicate identity")
     return tuple(jobs)
@@ -342,6 +445,61 @@ def _bind_job_clients(adapter: Any, judge_scorer: Any, job_id: str) -> None:
             client.bind_job(job_id)
 
 
+def _analysis_judge_fields(
+    score: Mapping[str, Any], *, mode: str
+) -> tuple[list[str], dict[str, str], dict[str, float] | None, dict[str, float] | None]:
+    """Derive every unfused analysis value from the durable raw ballots."""
+
+    ballots = score.get("raw_ballots")
+    if not isinstance(ballots, list) or not ballots:
+        raise ValueError("live score lacks raw judge ballots")
+    labels: dict[str, str] = {}
+    path_quality: dict[str, float] = {}
+    rubric_scores: dict[str, float] = {}
+    for index, ballot in enumerate(ballots):
+        if not isinstance(ballot, Mapping):
+            raise ValueError(f"raw ballot {index} is not an object")
+        judge_id = ballot.get("judge_id")
+        if not isinstance(judge_id, str) or not judge_id or judge_id in labels:
+            raise ValueError("raw ballots contain an invalid/duplicate judge ID")
+        if mode == "null_control":
+            decision = ballot.get("layer_control")
+            if not isinstance(decision, Mapping) or not isinstance(
+                decision.get("final_label"), str
+            ):
+                raise ValueError("control raw ballot lacks its final label")
+            labels[judge_id] = decision["final_label"]
+            continue
+        decision = ballot.get("layer_r")
+        if not isinstance(decision, Mapping) or not isinstance(
+            decision.get("final_label"), str
+        ):
+            raise ValueError("construct raw ballot lacks its Layer-R decision")
+        quality = decision.get("quality")
+        rubric = decision.get("rubric_score")
+        if (
+            isinstance(quality, bool)
+            or not isinstance(quality, (int, float))
+            or isinstance(rubric, bool)
+            or not isinstance(rubric, (int, float))
+        ):
+            raise ValueError("construct raw ballot lacks numeric quality/rubric scores")
+        labels[judge_id] = decision["final_label"]
+        path_quality[judge_id] = float(quality)
+        rubric_scores[judge_id] = float(rubric)
+    judge_ids = sorted(labels)
+    return (
+        judge_ids,
+        {judge_id: labels[judge_id] for judge_id in judge_ids},
+        None
+        if mode == "null_control"
+        else {judge_id: path_quality[judge_id] for judge_id in judge_ids},
+        None
+        if mode == "null_control"
+        else {judge_id: rubric_scores[judge_id] for judge_id in judge_ids},
+    )
+
+
 def execute_live_jobs(
     jobs: Sequence[LiveJob],
     *,
@@ -364,6 +522,7 @@ def execute_live_jobs(
         _bind_job_clients(adapter, judge_scorer, job.job_id)
         job_metadata = {
             "job_id": job.job_id,
+            "phase": job.phase,
             "role": job.role,
             "actor_id": job.actor_id,
             "model_id": job.model_id,
@@ -431,6 +590,12 @@ def execute_live_jobs(
             else:
                 raise ValueError(f"unsupported live score mode {job.mode!r}")
             safe_score = _json_safe(score)
+            (
+                judge_ids,
+                judge_labels,
+                judge_path_quality,
+                judge_rubric_scores,
+            ) = _analysis_judge_fields(safe_score, mode=job.mode)
             analysis_row = {
                 "actor_id": job.actor_id,
                 "item_id": job.item_id,
@@ -440,15 +605,24 @@ def execute_live_jobs(
                 "rollout": job.rollout,
                 "task_correctness": score["task_correctness"],
                 "final_label": score.get("headline_label"),
-                "judge_ids": sorted(
-                    ballot["judge_id"] for ballot in score["raw_ballots"]
-                ),
+                "judge_ids": judge_ids,
                 "judge_disagreement": bool(
                     score.get("disagreement") or score.get("layer_e_disagreement")
                 ),
-                "judge_labels": dict(score.get("judge_labels") or {}),
+                "judge_labels": judge_labels,
                 "output_length": len(trajectory.terminal_output["text"].split()),
                 "headline_eligible": job.headline_eligible,
+                "phase": job.phase,
+                "path_quality": (
+                    None if job.mode == "null_control" else score.get("quality")
+                ),
+                "rubric_score": (
+                    None if job.mode == "null_control" else score.get("rubric_score")
+                ),
+                "schedule_position": job.position,
+                "targeted_cue_factors": list(job.targeted_cue_factors),
+                "judge_path_quality": judge_path_quality,
+                "judge_rubric_scores": judge_rubric_scores,
             }
             terminal = {
                 **safe_terminal,
@@ -478,7 +652,7 @@ def execute_live_jobs(
             )
             raise
         actor_rows.extend(
-            {**row, "role": job.role, "job_id": job.job_id}
+            {**row, "phase": job.phase, "role": job.role, "job_id": job.job_id}
             for row in safe_turns
         )
         terminal_rows.append(terminal)
@@ -541,15 +715,26 @@ class JournaledOpenRouterClient:
         try:
             result = self.client.responses(**kwargs)
         except Exception as exc:
-            self.journal.record(
-                f"{prefix}_error",
-                {
-                    "job_id": self.job_id,
-                    "call_id": call_id,
-                    "error_type": type(exc).__name__,
-                    "message_sha256": hashlib.sha256(str(exc).encode("utf-8")).hexdigest(),
-                },
-            )
+            error_payload = {
+                "job_id": self.job_id,
+                "call_id": call_id,
+                "exception_type": type(exc).__name__,
+                "message_sha256": hashlib.sha256(str(exc).encode("utf-8")).hexdigest(),
+                "error_type": getattr(exc, "error_type", type(exc).__name__),
+                "status_code": getattr(exc, "status_code", None),
+                "api_code": _json_safe(getattr(exc, "api_code", None)),
+                "response_id": getattr(exc, "response_id", None),
+                "generation_id": getattr(exc, "generation_id", None),
+                "retryable": getattr(exc, "retryable", False),
+                "retry_after_seconds": getattr(exc, "retry_after_seconds", None),
+                "attempts": getattr(exc, "attempts", 0),
+                "attempt_ledger": _json_safe(getattr(exc, "attempt_ledger", ())),
+                "raw": _json_safe(getattr(exc, "raw", None)),
+                "incomplete_details": _json_safe(
+                    getattr(exc, "incomplete_details", None)
+                ),
+            }
+            self.journal.record(f"{prefix}_error", error_payload)
             raise
         result_payload = {
             "job_id": self.job_id,
@@ -566,29 +751,190 @@ class JournaledOpenRouterClient:
             "attempts": getattr(result, "attempts", None),
             "latency_ms": getattr(result, "latency_ms", None),
             "service_tier": getattr(result, "service_tier", None),
+            "raw": _json_safe(getattr(result, "raw", None)),
+            "incomplete_details": _json_safe(
+                getattr(result, "incomplete_details", None)
+            ),
         }
         self.journal.record(f"{prefix}_result", result_payload)
         return result
 
 
-def compute_live_gates(terminal_rows: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
-    """Compute THORNS-native calibration/liveness/transfer gates from resolved rows."""
+def _validated_gate_contract(
+    expected_contract: Mapping[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    if not isinstance(expected_contract, Mapping) or set(expected_contract) != {
+        "calibration",
+        "held_out_frontier",
+    }:
+        raise ValueError("expected live gate contract has an invalid top-level schema")
+    calibration = expected_contract["calibration"]
+    heldout = expected_contract["held_out_frontier"]
+    if not isinstance(calibration, Mapping) or set(calibration) != {
+        "item_ids",
+        "actor_ids",
+        "attacker_actor_id",
+        "rollouts",
+    }:
+        raise ValueError("expected calibration gate contract has an invalid schema")
+    if not isinstance(heldout, Mapping) or set(heldout) != {
+        "items",
+        "actor_ids",
+        "rollouts",
+        "cell_count",
+    }:
+        raise ValueError("expected held-out gate contract has an invalid schema")
+    item_ids = calibration["item_ids"]
+    calibration_actors = calibration["actor_ids"]
+    heldout_items = heldout["items"]
+    heldout_actors = heldout["actor_ids"]
+    if (
+        not isinstance(item_ids, list)
+        or len(item_ids) != 60
+        or len(set(item_ids)) != 60
+        or any(not isinstance(item_id, str) or not item_id for item_id in item_ids)
+        or calibration_actors != ["A04", "A05", "A06", "A07"]
+        or calibration["attacker_actor_id"] != "A04"
+        or calibration["rollouts"] != 24
+    ):
+        raise ValueError("expected calibration gate contract is not exact 60x4x24")
+    if (
+        not isinstance(heldout_items, list)
+        or len(heldout_items) != 40
+        or heldout_actors != ["A08", "A09"]
+        or heldout["rollouts"] != 6
+        or heldout["cell_count"] != 20
+    ):
+        raise ValueError("expected held-out gate contract is not exact 40x2x6")
+    item_cells: dict[str, tuple[str, str]] = {}
+    for index, row in enumerate(heldout_items):
+        if not isinstance(row, Mapping) or set(row) != {"item_id", "fruit", "vice"}:
+            raise ValueError(f"expected held-out item {index} has an invalid schema")
+        item_id, fruit, vice = row["item_id"], row["fruit"], row["vice"]
+        if (
+            not all(isinstance(value, str) and value for value in (item_id, fruit, vice))
+            or item_id in item_cells
+        ):
+            raise ValueError("expected held-out items have invalid/duplicate identities")
+        item_cells[item_id] = (fruit, vice)
+    item_cell_counts = Counter(item_cells.values())
+    if len(item_cell_counts) != 20 or set(item_cell_counts.values()) != {2}:
+        raise ValueError(
+            "expected held-out items must span 20 cells with exactly two items per cell"
+        )
+    return dict(calibration), {**dict(heldout), "item_cells": item_cells}
+
+
+def _failed_live_gates(
+    *, status: str, unresolved: int, reason_codes: Sequence[str], expected_rows: int
+) -> dict[str, Any]:
+    return {
+        "status": status,
+        "unresolved_rows": unresolved,
+        "coverage": {
+            "valid": False,
+            "reason_codes": sorted(set(reason_codes)),
+            "expected_gate_rows": expected_rows,
+        },
+        "G1_calibration_band": {"value": None, "threshold": 0.70, "pass": False},
+        "G2_D21_transfer": {
+            "value": None,
+            "threshold": 0.60,
+            "pass": False,
+            "heldout_wj_rate_threshold": 0.05,
+            "by_hard_cell": [],
+        },
+        "G3_D22_cft_liveness": {
+            "value": None,
+            "threshold": 1.0,
+            "pass": False,
+            "dead_cft_items": [],
+        },
+    }
+
+
+def compute_live_gates(
+    terminal_rows: Sequence[Mapping[str, Any]],
+    *,
+    expected_contract: Mapping[str, Any],
+) -> dict[str, Any]:
+    """Compute gates only after exact 60-item/20-cell coverage is proven."""
+    if isinstance(terminal_rows, (str, bytes, bytearray)) or not isinstance(
+        terminal_rows, Sequence
+    ):
+        raise ValueError("terminal_rows must be a sequence")
+    calibration_contract, heldout_contract = _validated_gate_contract(
+        expected_contract
+    )
     calibration = [row for row in terminal_rows if row.get("role") == "calibration"]
     heldout = [row for row in terminal_rows if row.get("role") == "held_out_frontier"]
+    expected_calibration = Counter(
+        (actor_id, item_id, rollout)
+        for actor_id in calibration_contract["actor_ids"]
+        for item_id in calibration_contract["item_ids"]
+        for rollout in range(calibration_contract["rollouts"])
+    )
+    expected_heldout = Counter(
+        (actor_id, item_id, rollout)
+        for actor_id in heldout_contract["actor_ids"]
+        for item_id in heldout_contract["item_cells"]
+        for rollout in range(heldout_contract["rollouts"])
+    )
+    observed_calibration = Counter(
+        (row.get("actor_id"), row.get("item_id"), row.get("rollout"))
+        for row in calibration
+    )
+    observed_heldout = Counter(
+        (row.get("actor_id"), row.get("item_id"), row.get("rollout"))
+        for row in heldout
+    )
+    reason_codes: list[str] = []
+    if observed_calibration != expected_calibration:
+        reason_codes.append("CALIBRATION_COVERAGE")
+    if observed_heldout != expected_heldout:
+        reason_codes.append("HELDOUT_COVERAGE")
+    if any(row.get("phase") != "development" for row in [*calibration, *heldout]):
+        reason_codes.append("GATE_PHASE")
+    for row in heldout:
+        expected_cell = heldout_contract["item_cells"].get(row.get("item_id"))
+        if (
+            expected_cell != (row.get("fruit"), row.get("vice"))
+            or row.get("tier") not in {"hard", "arc"}
+        ):
+            reason_codes.append("HELDOUT_ITEM_CELL")
+            break
+    relevant = [*calibration, *heldout]
+    resolved_labels = {"Fi", "Wj", "CFT", "mixed", "other"}
+    labels: list[str | None] = []
+    for row in relevant:
+        score = row.get("score")
+        if not isinstance(score, Mapping):
+            reason_codes.append("GATE_SCORE_SCHEMA")
+            labels.append(None)
+            continue
+        label = score.get("headline_label")
+        if label is not None and label not in resolved_labels:
+            reason_codes.append("GATE_SCORE_SCHEMA")
+        labels.append(label)
+    unresolved = sum(label is None for label in labels)
+    expected_rows = sum(expected_calibration.values()) + sum(expected_heldout.values())
+    if reason_codes:
+        return _failed_live_gates(
+            status="invalid_coverage",
+            unresolved=unresolved,
+            reason_codes=reason_codes,
+            expected_rows=expected_rows,
+        )
+    if unresolved:
+        return _failed_live_gates(
+            status="invalid_unresolved",
+            unresolved=unresolved,
+            reason_codes=["UNRESOLVED_GATE_ROWS"],
+            expected_rows=expected_rows,
+        )
     by_calibration_item: dict[str, list[Mapping[str, Any]]] = defaultdict(list)
     for row in calibration:
         by_calibration_item[row["item_id"]].append(row)
-    unresolved = sum(
-        row.get("score", {}).get("headline_label") is None for row in terminal_rows
-    )
-    if not by_calibration_item:
-        return {
-            "status": "incomplete",
-            "unresolved_rows": unresolved,
-            "G1_calibration_band": None,
-            "G2_D21_transfer": None,
-            "G3_D22_cft_liveness": None,
-        }
     item_stats = {}
     for item_id, rows in by_calibration_item.items():
         labels = [row["score"].get("headline_label") for row in rows]
@@ -630,8 +976,17 @@ def compute_live_gates(terminal_rows: Sequence[Mapping[str, Any]]) -> dict[str, 
         else 0.0
     )
     return {
-        "status": "complete" if unresolved == 0 else "invalid_unresolved",
+        "status": "complete",
         "unresolved_rows": unresolved,
+        "coverage": {
+            "valid": True,
+            "reason_codes": [],
+            "expected_gate_rows": expected_rows,
+            "observed_gate_rows": len(relevant),
+            "calibration_items": 60,
+            "heldout_items": 40,
+            "heldout_cells": 20,
+        },
         "by_calibration_item": item_stats,
         "G1_calibration_band": {
             "value": band_fraction,
@@ -702,6 +1057,56 @@ def load_prior_development_evidence(
         or output_hashes.get(str(path)) != actual_hash
     ):
         raise ValueError("prior development terminal hash is not bound by its journal")
+    bindings = {
+        field: payload.get(field)
+        for field in (
+            "config_sha256",
+            "source_scope_sha256",
+            "gate_input_sha256",
+            "receipt_sha256",
+            "schedule_sha256",
+        )
+    }
+    for field in (
+        "config_sha256",
+        "source_scope_sha256",
+        "receipt_sha256",
+        "schedule_sha256",
+    ):
+        value = bindings[field]
+        if (
+            not isinstance(value, str)
+            or len(value) != 64
+            or any(character not in "0123456789abcdef" for character in value)
+        ):
+            raise ValueError(f"prior development {field} binding is invalid")
+    gate_inputs = bindings["gate_input_sha256"]
+    if (
+        not isinstance(gate_inputs, Mapping)
+        or not gate_inputs
+        or any(
+            not isinstance(name, str)
+            or not name
+            or not isinstance(digest, str)
+            or len(digest) != 64
+            or any(character not in "0123456789abcdef" for character in digest)
+            for name, digest in gate_inputs.items()
+        )
+    ):
+        raise ValueError("prior development gate_input_sha256 binding is invalid")
+    identity = snapshot.identity.as_dict()
+    expected_source_identity = _source_identity_sha256(
+        source_scope_sha256=bindings["source_scope_sha256"],
+        gate_input_sha256=gate_inputs,
+        prior_development_sha256=None,
+    )
+    if (
+        identity["config_sha256"] != bindings["config_sha256"]
+        or identity["source_sha256"] != expected_source_identity
+        or identity["receipt_sha256"] != bindings["receipt_sha256"]
+        or identity["schedule_sha256"] != bindings["schedule_sha256"]
+    ):
+        raise ValueError("prior development provenance binding disagrees with its journal")
     return {
         "path": str(path),
         "sha256": actual_hash,
@@ -712,7 +1117,8 @@ def load_prior_development_evidence(
             if row.get("role") == "evaluation"
             and isinstance(row.get("analysis_row"), dict)
         ],
-        "journal_identity": snapshot.identity.as_dict(),
+        "journal_identity": identity,
+        "bindings": _json_safe(bindings),
     }
 
 
@@ -752,6 +1158,59 @@ def validate_prior_development_schedule_binding(
             "confirmation schedule must come from the same journaled development run"
         )
     return sorted(matches)[0]
+
+
+def validate_confirmation_provenance(
+    prior_development: Mapping[str, Any],
+    *,
+    cfg: Mapping[str, Any],
+    receipt: Mapping[str, Any],
+    matched_schedule_path: str | Path,
+) -> dict[str, Any]:
+    """Fail before journal reservation/calls if development and confirmation drift."""
+
+    if not isinstance(prior_development, Mapping):
+        raise ValueError("confirmation prior development provenance is missing")
+    bindings = prior_development.get("bindings")
+    if not isinstance(bindings, Mapping) or set(bindings) != {
+        "config_sha256",
+        "source_scope_sha256",
+        "gate_input_sha256",
+        "receipt_sha256",
+        "schedule_sha256",
+    }:
+        raise ValueError("confirmation prior development provenance binding is invalid")
+    current_config = cfg.get("_provenance", {}).get("config_sha256")
+    if (
+        current_config != bindings["config_sha256"]
+        or receipt.get("config_sha256") != current_config
+    ):
+        raise ValueError("confirmation config provenance differs from development")
+    if receipt.get("source_scope_sha256") != bindings["source_scope_sha256"]:
+        raise ValueError("confirmation source provenance differs from development")
+    if receipt.get("gate_input_sha256") != bindings["gate_input_sha256"]:
+        raise ValueError("confirmation gate-input provenance differs from development")
+    schedule_path = Path(matched_schedule_path).resolve()
+    try:
+        actual_schedule_sha256 = hashlib.sha256(schedule_path.read_bytes()).hexdigest()
+    except OSError as exc:
+        raise ValueError("matched development schedule is unreadable") from exc
+    if actual_schedule_sha256 != bindings["schedule_sha256"]:
+        raise ValueError("confirmation development schedule provenance differs")
+    current_receipt_sha256 = receipt.get("_receipt_sha256")
+    if not isinstance(current_receipt_sha256, str) or len(current_receipt_sha256) != 64:
+        raise ValueError("confirmation current receipt provenance is invalid")
+    return {
+        "prior_development_terminal_path": prior_development.get("path"),
+        "prior_development_terminal_sha256": prior_development.get("sha256"),
+        "prior_development_bindings": _json_safe(bindings),
+        "matched_development_schedule_path": str(schedule_path),
+        "matched_development_schedule_sha256": actual_schedule_sha256,
+        "current_config_sha256": current_config,
+        "current_source_scope_sha256": receipt["source_scope_sha256"],
+        "current_gate_input_sha256": _json_safe(receipt["gate_input_sha256"]),
+        "current_receipt_sha256": current_receipt_sha256,
+    }
 
 
 def recover_resumable_jobs(snapshot: Any, jobs: Sequence[LiveJob]) -> dict[str, Any]:
@@ -813,6 +1272,7 @@ def recover_resumable_jobs(snapshot: Any, jobs: Sequence[LiveJob]) -> dict[str, 
         actor_rows.extend(
             {
                 **dict(row),
+                "phase": job.phase,
                 "role": job.role,
                 "job_id": job.job_id,
             }
@@ -847,7 +1307,7 @@ def execute_openrouter_phase(
     resume: bool = False,
 ) -> tuple[dict[str, Any], tuple[Path, ...]]:
     """Run one receipt-authorized phase with reserved outputs and raw evidence."""
-    from analysis import analyze_terminal_rows
+    from analysis import FROZEN_ANALYSIS_CONFIG_SHA256, analyze_terminal_rows
     from judge_prompts import OpenRouterJudgeAdapter
     from live_journal import LiveEvidenceJournal, RunIdentity, validate_journal
     from model_adapters import load_roster
@@ -860,6 +1320,17 @@ def execute_openrouter_phase(
         raise ValueError("development cannot consume prior development evidence")
     if not isinstance(resume, bool):
         raise ValueError("resume must be boolean")
+    confirmation_binding = None
+    if phase == "locked-confirmation":
+        matched_schedule_path = prior_development.get("matched_schedule_path")
+        if not isinstance(matched_schedule_path, str) or not matched_schedule_path:
+            raise ValueError("locked-confirmation lacks its matched development schedule")
+        confirmation_binding = validate_confirmation_provenance(
+            prior_development,
+            cfg=cfg,
+            receipt=receipt,
+            matched_schedule_path=matched_schedule_path,
+        )
     pilots = Path(cfg["paths"]["pilots"])
     pilots.mkdir(parents=True, exist_ok=True)
     prefix = f"{date}-live-{phase}"
@@ -873,11 +1344,10 @@ def execute_openrouter_phase(
     identity = RunIdentity(
         run_id=f"thorns-{date}-{phase}-{schedule.schedule_hash[:12]}",
         config_sha256=cfg["_provenance"]["config_sha256"],
-        source_sha256=_canonical_hash(
-            {
-                "source_scope_sha256": receipt["source_scope_sha256"],
-                "prior_development_sha256": prior_hash,
-            }
+        source_sha256=_source_identity_sha256(
+            source_scope_sha256=receipt["source_scope_sha256"],
+            gate_input_sha256=receipt["gate_input_sha256"],
+            prior_development_sha256=prior_hash,
         ),
         schedule_sha256=schedule_sha256,
         receipt_sha256=receipt["_receipt_sha256"],
@@ -975,11 +1445,12 @@ def execute_openrouter_phase(
         analysis = analyze_terminal_rows(
             combined_analysis,
             config_path=cfg["paths"]["analysis_config"],
-            expected_config_sha256=hashlib.sha256(
-                Path(cfg["paths"]["analysis_config"]).read_bytes()
-            ).hexdigest(),
+            expected_config_sha256=FROZEN_ANALYSIS_CONFIG_SHA256,
         )
-        gates = compute_live_gates(combined_terminal)
+        gates = compute_live_gates(
+            combined_terminal,
+            expected_contract=compile_live_gate_contract(cfg),
+        )
         journal.record(
             "analysis_result",
             {
@@ -995,6 +1466,11 @@ def execute_openrouter_phase(
             "phase": phase,
             "date_token": date,
             "journal_path": str(journal_path.resolve()),
+            "config_sha256": cfg["_provenance"]["config_sha256"],
+            "source_scope_sha256": receipt["source_scope_sha256"],
+            "gate_input_sha256": _json_safe(receipt["gate_input_sha256"]),
+            "receipt_sha256": receipt["_receipt_sha256"],
+            "schedule_sha256": schedule_sha256,
             "rows": phase_terminal,
         }
         manifest = {
@@ -1009,7 +1485,11 @@ def execute_openrouter_phase(
             "schedule_hash": schedule.schedule_hash,
             "preflight_receipt_path": receipt["_receipt_path"],
             "preflight_receipt_sha256": receipt["_receipt_sha256"],
+            "config_sha256": cfg["_provenance"]["config_sha256"],
+            "source_scope_sha256": receipt["source_scope_sha256"],
+            "gate_input_sha256": _json_safe(receipt["gate_input_sha256"]),
             "prior_development": _json_safe(prior_development) if prior_development else None,
+            "confirmation_provenance_binding": confirmation_binding,
             "job_count": len(jobs),
             "job_counts_by_role": {
                 role: sum(job.role == role for job in jobs)
@@ -1077,10 +1557,13 @@ def execute_openrouter_phase(
 __all__ = [
     "JournaledOpenRouterClient",
     "LiveJob",
+    "compile_live_gate_contract",
     "compile_live_jobs",
     "compute_live_gates",
     "execute_live_jobs",
     "execute_openrouter_phase",
     "load_prior_development_evidence",
     "recover_resumable_jobs",
+    "validate_confirmation_provenance",
+    "validate_prior_development_schedule_binding",
 ]

@@ -21,6 +21,67 @@ CUES = ("C0", "C1", "C2", "C3")
 N_ITEMS = 10
 MIXED_BASE_ITEMS = 13
 MIXED_CUE_ITEMS = 6
+PATH_QUALITY = {"Fi": 4.0, "Wj": 0.0, "CFT": 0.5, "mixed": 2.0, "other": 1.0}
+
+
+def _construct_fields(label: str) -> dict:
+    if label in PATH_QUALITY:
+        quality = PATH_QUALITY[label]
+        return {
+            "path_quality": quality,
+            "rubric_score": quality,
+            "judge_path_quality": {"J01": quality, "J02": quality},
+            "judge_rubric_scores": {"J01": quality, "J02": quality},
+        }
+    return {
+        "path_quality": None,
+        "rubric_score": None,
+        "judge_path_quality": None,
+        "judge_rubric_scores": None,
+    }
+
+
+def _set_construct_outcome(row: dict, label: str, *, rubric_score: float | None = None) -> None:
+    quality = PATH_QUALITY[label]
+    rubric = quality if rubric_score is None else rubric_score
+    row.update(
+        {
+            "final_label": label,
+            "judge_labels": {"J01": label, "J02": label},
+            "judge_disagreement": False,
+            "path_quality": quality,
+            "rubric_score": rubric,
+            "judge_path_quality": {"J01": quality, "J02": quality},
+            "judge_rubric_scores": {"J01": rubric, "J02": rubric},
+        }
+    )
+
+
+def _set_null_fused_construct(row: dict) -> None:
+    row.update(
+        {
+            "final_label": "no_fusion",
+            "judge_labels": {"J01": "Fi", "J02": "Wj"},
+            "judge_disagreement": True,
+            "path_quality": None,
+            "rubric_score": None,
+            "judge_path_quality": {"J01": 4.0, "J02": 0.0},
+            "judge_rubric_scores": {"J01": 4.0, "J02": 0.0},
+        }
+    )
+
+
+def _assert_null_fused_secondary_unavailable(result: dict) -> None:
+    for endpoint in ("path_quality", "rubric_score"):
+        endpoint_result = result["secondary_endpoint_pairwise_effects"][endpoint]
+        for summary in (
+            endpoint_result["unconditional"][0],
+            endpoint_result["task_correct_conditioned"][0],
+        ):
+            assert summary["available"] is False
+            assert summary["effect"] is None
+            assert summary["unavailable_reason"] == "NULL_FUSED_ENDPOINT"
+            assert summary["expected_n_items"] == N_ITEMS
 
 
 def _rows(label_for, *, headline_eligible: bool = True) -> list[dict]:
@@ -45,6 +106,14 @@ def _rows(label_for, *, headline_eligible: bool = True) -> list[dict]:
                         "judge_disagreement": False,
                         "output_length": 120,
                         "headline_eligible": headline_eligible,
+                        "phase": (
+                            "locked-confirmation" if cue_arm == "C3" else "development"
+                        ),
+                        "schedule_position": item_index + 1,
+                        "targeted_cue_factors": (
+                            ["registered-factor"] if cue_arm in {"C1", "C3"} else []
+                        ),
+                        **_construct_fields(label),
                     }
                 )
     return rows
@@ -95,6 +164,7 @@ def _mixed_panel_rows(*, confirmation: str = "absent") -> list[dict]:
         item_index: int,
         cue_arm: str,
         headline_eligible: bool = True,
+        phase: str | None = None,
     ) -> None:
         label = (
             "foil_correct"
@@ -116,6 +186,15 @@ def _mixed_panel_rows(*, confirmation: str = "absent") -> list[dict]:
                 "judge_disagreement": False,
                 "output_length": 120,
                 "headline_eligible": headline_eligible,
+                "phase": (
+                    phase
+                    or ("locked-confirmation" if cue_arm == "C3" else "development")
+                ),
+                "schedule_position": item_index + 1,
+                "targeted_cue_factors": (
+                    ["registered-factor"] if cue_arm in {"C1", "C3"} else []
+                ),
+                **_construct_fields(label),
             }
         )
 
@@ -130,6 +209,15 @@ def _mixed_panel_rows(*, confirmation: str = "absent") -> list[dict]:
                 item_index=item_index,
                 cue_arm="C0",
             )
+            if confirmation in {"complete", "partial"}:
+                append_row(
+                    rows,
+                    actor_id=actor_id,
+                    item_id=item_id,
+                    item_index=item_index,
+                    cue_arm="C0",
+                    phase="locked-confirmation",
+                )
 
     for item_index in range(MIXED_CUE_ITEMS):
         item_id = f"thorns-cue-{item_index:03d}"
@@ -168,12 +256,186 @@ def _mixed_panel_rows(*, confirmation: str = "absent") -> list[dict]:
     return rows
 
 
+def _complete_phase_panel() -> list[dict]:
+    """Development C0/C1/C2 plus fresh locked C0-base/C3-cue evidence."""
+    return _mixed_panel_rows(confirmation="complete")
+
+
 def _pair(result: dict, actor_a: str, actor_b: str) -> dict:
     return next(
         effect
         for effect in result["pairwise_model_effects"]
         if effect["actor_a"] == actor_a and effect["actor_b"] == actor_b
     )
+
+
+def test_locked_headline_contrast_uses_only_fresh_locked_rows():
+    rows = _complete_phase_panel()
+    for row in rows:
+        if row["cue_arm"] == "C2":
+            continue
+        if row["phase"] == "development":
+            _set_construct_outcome(row, "Wj")
+        else:
+            _set_construct_outcome(row, "Fi" if row["actor_id"] == "A01" else "Wj")
+
+    result = analysis.analyze_terminal_rows(rows)
+    effect = _pair(result, "A01", "A02")
+
+    assert result["primary_analysis_phase"] == "locked-confirmation"
+    assert result["coverage_diagnostics"]["confirmation_complete"] is True
+    assert effect["analysis_phase"] == "locked-confirmation"
+    assert effect["n_items"] == MIXED_BASE_ITEMS + MIXED_CUE_ITEMS
+    assert effect["effect"] == 1.0
+    assert result["development_pairwise_diagnostics"][0]["effect"] == 0.0
+    assert result["verdict"] == "DISCRIMINATING"
+
+
+def test_primary_and_secondary_pairwise_effects_are_unconditional_with_task_correct_sensitivities():
+    rows = _rows(_non_null(lambda actor, _item: "Fi" if actor == "A01" else "Wj"))
+    for row in rows:
+        if row["cue_arm"] != "C2":
+            _set_construct_outcome(
+                row,
+                "Fi" if row["actor_id"] == "A01" else "Wj",
+                rubric_score=2.0 if row["actor_id"] == "A01" else 1.0,
+            )
+    failed = copy.deepcopy(
+        next(
+            row
+            for row in rows
+            if row["phase"] == "locked-confirmation"
+            and row["actor_id"] == "A01"
+            and row["item_id"] == "thorns-analysis-000"
+        )
+    )
+    failed["rollout"] = 1
+    failed["task_correctness"] = "incorrect"
+    _set_construct_outcome(failed, "Wj", rubric_score=4.0)
+
+    result = analysis.analyze_terminal_rows(rows + [failed])
+    primary = _pair(result, "A01", "A02")
+    path = result["secondary_endpoint_pairwise_effects"]["path_quality"]
+    rubric = result["secondary_endpoint_pairwise_effects"]["rubric_score"]
+
+    assert primary["effect"] == 0.95
+    assert primary["task_correct_conditioned_sensitivity"]["effect"] == 1.0
+    assert path["soei"] is None
+    assert path["unconditional"][0]["effect"] == 3.8
+    assert path["task_correct_conditioned"][0]["effect"] == 4.0
+    assert rubric["soei"] == 0.3
+    assert rubric["unconditional"][0]["effect"] == 1.1
+    assert rubric["task_correct_conditioned"][0]["effect"] == 1.0
+    assert result["inference_unit"] == "item"
+
+
+def test_endpoint_saturation_uses_all_locked_scoreable_rows():
+    rows = _rows(_non_null(lambda _actor, _item: "Fi"))
+    for row in rows:
+        if (
+            row["phase"] == "locked-confirmation"
+            and row["item_id"] in {"thorns-analysis-000", "thorns-analysis-001"}
+        ):
+            row["task_correctness"] = "incorrect"
+            _set_construct_outcome(row, "Wj")
+
+    result = analysis.analyze_terminal_rows(rows)
+
+    assert result["task_success"]["all_actors_pass"] is True
+    assert result["saturation"]["denominator_policy"] == (
+        "all scoreable rows in the primary analysis phase; task correctness is not a filter"
+    )
+    assert result["saturation"]["by_actor"]["A01"][
+        "top_endpoint_item_fraction"
+    ] == 0.8
+    assert result["saturation"]["classification"] == "NOT-SATURATED"
+
+
+def test_all_indeterminate_c2_fails_with_explicit_false_positive_denominator():
+    rows = _discriminating_rows()
+    for row in rows:
+        if row["cue_arm"] == "C2":
+            row["final_label"] = "indeterminate"
+            row["judge_labels"] = {"J01": "indeterminate", "J02": "indeterminate"}
+
+    result = analysis.analyze_terminal_rows(rows)
+    c2 = result["cue_diagnostics"]["c2_outcomes"]
+
+    assert c2["overall_outcome_rates"] == {
+        "foil_correct": 0.0,
+        "target_action_false_positive": 0.0,
+        "indeterminate": 1.0,
+        "unresolved_or_refusal": 0.0,
+    }
+    assert c2["false_positive"]["rate"] is None
+    assert c2["false_positive"]["denominator_outcomes"] == [
+        "foil_correct",
+        "target_action_false_positive",
+    ]
+    assert c2["false_positive"]["denominator_n_actor_items"] == 0
+    assert c2["indeterminate"]["maximum_rate"] == 0.1
+    assert c2["indeterminate"]["flag"] is True
+    assert "NULL_INDETERMINATE" in result["invalid_reason_codes"]
+    assert result["verdict"] == "INVALID"
+
+
+def test_schedule_position_and_targeted_factors_are_retained_and_diagnosed():
+    rows = _rows(
+        _non_null(
+            lambda actor, item: (
+                "Fi" if actor == "A01" and item >= N_ITEMS // 2 else "Wj"
+            )
+        )
+    )
+
+    result = analysis.analyze_terminal_rows(rows)
+    position = result["position_diagnostics"]
+
+    assert position["estimand"] == "primary_label_score_by_schedule_position"
+    assert position["analysis_phase"] == "locked-confirmation"
+    assert position["observed_schedule_positions"] == list(range(1, N_ITEMS + 1))
+    assert position["targeted_cue_factors"] == ["registered-factor"]
+    assert position["by_actor"]["A01"]["primary_score_position_correlation"] > 0.8
+    locked_cell = next(
+        cell
+        for cell in result["per_actor_item_rates"]
+        if cell["phase"] == "locked-confirmation" and cell["actor_id"] == "A01"
+    )
+    assert locked_cell["schedule_positions"]
+    assert locked_cell["targeted_cue_factors"] == ["registered-factor"]
+
+
+def test_j01_and_j02_publish_complete_unfused_construct_contrasts():
+    rows = _rows(_non_null(lambda _actor, _item: "Wj"))
+    for row in rows:
+        if row["phase"] != "locked-confirmation":
+            continue
+        j01 = "Fi" if row["actor_id"] == "A01" else "Wj"
+        j02 = "Fi" if row["actor_id"] == "A02" else "Wj"
+        row["judge_labels"] = {"J01": j01, "J02": j02}
+        row["judge_path_quality"] = {
+            "J01": PATH_QUALITY[j01],
+            "J02": PATH_QUALITY[j02],
+        }
+        row["judge_rubric_scores"] = {
+            "J01": PATH_QUALITY[j01],
+            "J02": PATH_QUALITY[j02],
+        }
+        row["judge_disagreement"] = j01 != j02
+
+    result = analysis.analyze_terminal_rows(rows)
+    contrasts = result["judge_diagnostics"]["no_fusion_pairwise_model_contrasts"]
+
+    assert contrasts["fusion_policy"].startswith("none")
+    assert contrasts["complete_actor_pair_count"] == len(analysis.load_analysis_config()[0]["comparisons"])
+    j01 = contrasts["by_judge"]["J01"]
+    j02 = contrasts["by_judge"]["J02"]
+    assert len(j01["label_score"]) == 3
+    assert len(j02["label_score"]) == 3
+    assert j01["label_score"][0]["effect"] == 1.0
+    assert j02["label_score"][0]["effect"] == -1.0
+    assert j01["path_quality"][0]["effect"] == 4.0
+    assert j02["path_quality"][0]["effect"] == -4.0
 
 
 def test_development_mixed_panel_is_complete_without_sealed_c3():
@@ -203,8 +465,10 @@ def test_development_mixed_panel_is_complete_without_sealed_c3():
     assert _pair(result, "A01", "A02")["n_items"] == (
         MIXED_BASE_ITEMS + MIXED_CUE_ITEMS
     )
-    assert _pair(result, "A01", "A02")["confirmation_effect"] is None
-    assert _pair(result, "A01", "A02")["confirmation_n_items"] == 0
+    assert _pair(result, "A01", "A02")["analysis_phase"] == "development"
+    assert _pair(result, "A01", "A02")["task_correct_conditioned_sensitivity"][
+        "n_items"
+    ] == MIXED_BASE_ITEMS + MIXED_CUE_ITEMS
 
 
 def test_mixed_panel_coverage_policy_is_frozen_in_the_raw_config():
@@ -222,8 +486,29 @@ def test_mixed_panel_coverage_policy_is_frozen_in_the_raw_config():
         "registered_cue_primary_arm": "C1",
         "development_required_cue_arms": ["C0", "C1", "C2"],
         "confirmation_arm": "C3",
-        "confirmation_trigger": "ANY_HEADLINE_C3_ROW",
+        "confirmation_trigger": "ANY_LOCKED_PHASE_ROW",
     }
+
+
+@pytest.mark.parametrize(
+    ("threshold", "wrong_value"),
+    [
+        ("smallest_effect_of_interest", 0.2),
+        ("rubric_score_smallest_effect_of_interest", 0.2),
+        ("maximum_null_indeterminate_rate", 0.2),
+    ],
+)
+def test_registered_analysis_threshold_values_are_validation_locked(
+    tmp_path: Path, threshold: str, wrong_value: float
+):
+    config = json.loads((HARNESS / "analysis_config.openrouter.json").read_text())
+    config["thresholds"][threshold] = wrong_value
+    candidate = tmp_path / "analysis.json"
+    candidate.write_text(json.dumps(config))
+    expected = hashlib.sha256(candidate.read_bytes()).hexdigest()
+
+    with pytest.raises(ValueError, match="frozen"):
+        analysis.load_analysis_config(candidate, expected_sha256=expected)
 
 
 def test_complete_c3_for_every_registered_cue_item_runs_sealed_confirmation():
@@ -232,7 +517,7 @@ def test_complete_c3_for_every_registered_cue_item_runs_sealed_confirmation():
     )
 
     coverage = result["coverage_diagnostics"]
-    assert coverage["stage"] == "locked_confirmation"
+    assert coverage["stage"] == "locked-confirmation"
     assert coverage["confirmation_status"] == "complete"
     assert coverage["confirmation_pending"] is False
     assert coverage["confirmation_complete"] is True
@@ -240,8 +525,8 @@ def test_complete_c3_for_every_registered_cue_item_runs_sealed_confirmation():
     assert "INCOMPLETE_COUNTERBALANCE" not in result["invalid_reason_codes"]
     effect = _pair(result, "A01", "A02")
     assert effect["n_items"] == MIXED_BASE_ITEMS + MIXED_CUE_ITEMS
-    assert effect["confirmation_n_items"] == MIXED_CUE_ITEMS
-    assert effect["confirmation_effect"] is not None
+    assert effect["analysis_phase"] == "locked-confirmation"
+    assert effect["effect"] is not None
     assert effect["stable"] is True
     assert result["verdict"] == "DISCRIMINATING"
 
@@ -252,13 +537,14 @@ def test_partial_c3_latches_invalid_and_withholds_sealed_effects():
     )
 
     coverage = result["coverage_diagnostics"]
-    assert coverage["stage"] == "locked_confirmation"
+    assert coverage["stage"] == "locked-confirmation"
     assert coverage["confirmation_status"] == "incomplete"
     assert coverage["confirmation_pending"] is False
     assert coverage["confirmation_complete"] is False
     assert coverage["missing_cell_count"] == 1
     assert coverage["missing_cells"] == [
         {
+            "phase": "locked-confirmation",
             "actor_id": "A03",
             "item_id": "thorns-cue-005",
             "cue_arm": "C3",
@@ -269,8 +555,46 @@ def test_partial_c3_latches_invalid_and_withholds_sealed_effects():
     assert result["verdict"] == "INVALID"
     assert "INCOMPLETE_COUNTERBALANCE" in result["invalid_reason_codes"]
     effect = _pair(result, "A01", "A02")
-    assert effect["confirmation_effect"] is None
-    assert effect["confirmation_n_items"] == 0
+    assert effect["effect"] is None
+    assert effect["n_items"] == 0
+
+
+def test_missing_fresh_locked_base_cell_rejects_partial_confirmation():
+    rows = _complete_phase_panel()
+    rows.remove(
+        next(
+            row
+            for row in rows
+            if row["phase"] == "locked-confirmation"
+            and row["cue_arm"] == "C0"
+            and row["actor_id"] == "A03"
+            and row["item_id"] == "thorns-base-012"
+        )
+    )
+
+    result = analysis.analyze_terminal_rows(rows)
+
+    assert result["coverage_diagnostics"]["confirmation_status"] == "incomplete"
+    assert result["coverage_diagnostics"]["missing_confirmation_cell_count"] == 1
+    assert "INCOMPLETE_COUNTERBALANCE" in result["invalid_reason_codes"]
+    assert result["verdict"] == "INVALID"
+    assert all(effect["effect"] is None for effect in result["pairwise_model_effects"])
+
+
+def test_any_locked_phase_row_triggers_locked_headline_coverage():
+    rows = _mixed_panel_rows()
+    nonheadline_locked = copy.deepcopy(
+        next(row for row in rows if not row["headline_eligible"])
+    )
+    nonheadline_locked["phase"] = "locked-confirmation"
+    nonheadline_locked["rollout"] = 99
+
+    result = analysis.analyze_terminal_rows(rows + [nonheadline_locked])
+
+    assert result["primary_analysis_phase"] == "locked-confirmation"
+    assert result["coverage_diagnostics"]["confirmation_status"] == "incomplete"
+    assert result["verdict"] == "INVALID"
+    assert all(effect["effect"] is None for effect in result["pairwise_model_effects"])
 
 
 def test_all_actor_top_endpoints_are_saturated_high():
@@ -333,7 +657,7 @@ def test_interior_equal_actor_rates_are_nondiscriminating():
     assert not any(effect["stable"] for effect in result["pairwise_model_effects"])
 
 
-def test_stable_heldout_pairwise_effect_is_genuinely_discriminating():
+def test_synthetic_stable_pairwise_effect_meets_discrimination_rule():
     result = analysis.analyze_terminal_rows(_discriminating_rows())
 
     assert result["verdict"] == "DISCRIMINATING"
@@ -414,10 +738,16 @@ def test_unresolved_construct_judge_disagreement_has_a_construct_validity_latch(
     unresolved = next(
         row
         for row in rows
-        if row["actor_id"] == "A02" and row["cue_arm"] == "C1"
+        if row["actor_id"] == "A02"
+        and row["item_id"] == "thorns-analysis-000"
+        and row["phase"] == "locked-confirmation"
     )
     unresolved["final_label"] = "no_fusion"
     unresolved["judge_labels"] = {"J01": "Fi", "J02": "Wj"}
+    unresolved["path_quality"] = None
+    unresolved["rubric_score"] = None
+    unresolved["judge_path_quality"] = {"J01": 4.0, "J02": 0.0}
+    unresolved["judge_rubric_scores"] = {"J01": 4.0, "J02": 0.0}
     unresolved["judge_disagreement"] = True
 
     result = analysis.analyze_terminal_rows(rows)
@@ -425,6 +755,86 @@ def test_unresolved_construct_judge_disagreement_has_a_construct_validity_latch(
     assert result["verdict"] == "INVALID"
     assert result["row_counts"]["unresolved_construct_headline"] == 1
     assert "UNRESOLVED_CONSTRUCT_LABELS" in result["invalid_reason_codes"]
+    for endpoint in ("path_quality", "rubric_score"):
+        summary = result["secondary_endpoint_pairwise_effects"][endpoint][
+            "unconditional"
+        ][0]
+        assert summary["available"] is False
+        assert summary["effect"] is None
+        assert summary["unavailable_reason"] == "NULL_FUSED_ENDPOINT"
+    unfused = result["judge_diagnostics"]["no_fusion_pairwise_model_contrasts"]
+    assert unfused["by_judge"]["J01"]["label_score"][0]["n_items"] == N_ITEMS
+    assert unfused["by_judge"]["J02"]["label_score"][0]["n_items"] == N_ITEMS
+
+
+def test_null_fused_duplicate_rollout_withholds_secondary_endpoint():
+    rows = _discriminating_rows()
+    duplicate = copy.deepcopy(
+        next(
+            row
+            for row in rows
+            if row["actor_id"] == "A02"
+            and row["item_id"] == "thorns-analysis-000"
+            and row["phase"] == "locked-confirmation"
+        )
+    )
+    duplicate["rollout"] = 1
+    _set_null_fused_construct(duplicate)
+
+    result = analysis.analyze_terminal_rows(rows + [duplicate])
+
+    _assert_null_fused_secondary_unavailable(result)
+    assert "UNRESOLVED_CONSTRUCT_LABELS" in result["invalid_reason_codes"]
+
+
+def test_null_fused_alternate_task_arm_withholds_secondary_endpoint():
+    rows = _discriminating_rows()
+    alternate_rows = []
+    for row in rows:
+        alternate = copy.deepcopy(row)
+        alternate["task_arm"] = "alternate"
+        if (
+            alternate["actor_id"] == "A02"
+            and alternate["item_id"] == "thorns-analysis-000"
+            and alternate["phase"] == "locked-confirmation"
+        ):
+            _set_null_fused_construct(alternate)
+        alternate_rows.append(alternate)
+
+    result = analysis.analyze_terminal_rows(rows + alternate_rows)
+
+    _assert_null_fused_secondary_unavailable(result)
+    assert "UNRESOLVED_CONSTRUCT_LABELS" in result["invalid_reason_codes"]
+
+
+def test_c2_rates_equal_weight_task_arms_after_within_cell_rollout_reduction():
+    rows = _discriminating_rows()
+    additions = []
+    for row in rows:
+        alternate = copy.deepcopy(row)
+        alternate["task_arm"] = "alternate"
+        if row["cue_arm"] == "C2":
+            alternate["final_label"] = "target_action_false_positive"
+            alternate["judge_labels"] = {
+                "J01": "target_action_false_positive",
+                "J02": "target_action_false_positive",
+            }
+            for rollout in range(1, 9):
+                repeated_foil = copy.deepcopy(row)
+                repeated_foil["rollout"] = rollout
+                additions.append(repeated_foil)
+        additions.append(alternate)
+
+    result = analysis.analyze_terminal_rows(rows + additions)
+    c2 = result["cue_diagnostics"]["c2_outcomes"]
+
+    assert c2["overall_outcome_rates"]["foil_correct"] == 0.5
+    assert c2["overall_outcome_rates"]["target_action_false_positive"] == 0.5
+    assert c2["false_positive"]["rate"] == 0.5
+    assert c2["false_positive"]["denominator_unit"] == (
+        "actor/item after equal task-arm reduction"
+    )
+    assert c2["false_positive"]["denominator_n_actor_items"] == len(ACTORS) * N_ITEMS
 
 
 def test_unresolved_c2_judge_disagreement_has_a_control_validity_latch():
@@ -576,6 +986,13 @@ def test_rates_are_unconditional_and_task_success_conditioned_per_actor_item():
 def test_frozen_config_is_raw_byte_hash_bound_and_output_is_strict_json():
     config_path = HARNESS / "analysis_config.openrouter.json"
     expected = hashlib.sha256(config_path.read_bytes()).hexdigest()
+
+    assert expected == analysis.FROZEN_ANALYSIS_CONFIG_SHA256
+    frozen, frozen_provenance = analysis.load_analysis_config()
+    assert frozen_provenance["sha256"] == analysis.FROZEN_ANALYSIS_CONFIG_SHA256
+    assert frozen["thresholds"]["smallest_effect_of_interest"] == 0.1
+    assert frozen["thresholds"]["rubric_score_smallest_effect_of_interest"] == 0.3
+    assert frozen["thresholds"]["maximum_null_indeterminate_rate"] == 0.1
 
     result = analysis.analyze_terminal_rows(
         _discriminating_rows(), expected_config_sha256=expected

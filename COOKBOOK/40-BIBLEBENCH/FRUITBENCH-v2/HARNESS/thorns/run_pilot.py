@@ -417,6 +417,45 @@ def _tree_fingerprint(path: str | Path) -> dict:
     return {"path": str(root), "n_files": len(files), "sha256": digest.hexdigest()}
 
 
+def _bank_gold_inventory(items_path: str | Path) -> list[dict[str, str]]:
+    """Bind all 63 source items, including exploratory rows, one by one."""
+
+    root = Path(items_path).resolve()
+    bank_paths = {path.stem: path for path in sorted((root / "bank").glob("*.yaml"))}
+    gold_paths = {
+        path.name[: -len(".gold.yaml")]: path
+        for path in sorted((root / "gold").glob("*.gold.yaml"))
+    }
+    if len(bank_paths) != 63 or set(bank_paths) != set(gold_paths):
+        raise ValueError("synthetic manifest requires complete exact 63 bank/gold pairs")
+    inventory = []
+    for item_id in sorted(bank_paths):
+        bank_path = bank_paths[item_id]
+        gold_path = gold_paths[item_id]
+        bank = yaml.safe_load(bank_path.read_text(encoding="utf-8"))
+        gold = yaml.safe_load(gold_path.read_text(encoding="utf-8"))
+        status = bank.get("status") if isinstance(bank, dict) else None
+        if (
+            not isinstance(bank, dict)
+            or bank.get("id") != item_id
+            or not isinstance(gold, dict)
+            or gold.get("id") != item_id
+            or status not in {"checked", "exploratory"}
+        ):
+            raise ValueError(f"synthetic manifest inventory identity/status drift: {item_id}")
+        inventory.append(
+            {
+                "item_id": item_id,
+                "status": status,
+                "bank_path": str(bank_path.resolve()),
+                "bank_sha256": _sha256_file(bank_path),
+                "gold_path": str(gold_path.resolve()),
+                "gold_sha256": _sha256_file(gold_path),
+            }
+        )
+    return inventory
+
+
 def _scoped_git_status(paths: list[str | Path]) -> list[str]:
     try:
         result = subprocess.run(
@@ -497,13 +536,21 @@ def write_outputs(res, date, cfg):
         *[entry["path"] for entry in persona if entry["path"]],
     ]
     scoped_status = _scoped_git_status([path for path in input_paths if path])
+    source_commit = _source_commit()
+    bank_gold_inventory = _bank_gold_inventory(cfg["paths"]["items"])
+    _write_new(jf, json.dumps({"banner": banner, **res}, indent=2, default=str) + "\n")
+    _write_new(hf, "\n".join(lines) + "\n")
+    output_sha256 = {
+        str(jf.resolve()): _sha256_file(jf),
+        str(hf.resolve()): _sha256_file(hf),
+    }
     manifest = {
         "banner": banner,
         "date_token": date,
         "mode": res["mode"],
         "phase": res.get("phase"),
         "design": res.get("design"),
-        "source_commit": _source_commit(),
+        "source_commit": source_commit,
         "config_path": cfg.get("_provenance", {}).get("config_path"),
         "config_sha256": cfg.get("_provenance", {}).get("config_sha256"),
         "preflight_receipt_sha256": res.get("preflight_receipt_sha256"),
@@ -512,6 +559,11 @@ def write_outputs(res, date, cfg):
         "cue_schedule_hash": res.get("cue_schedule_hash"),
         "scoped_git_dirty": bool(scoped_status),
         "scoped_git_status": scoped_status,
+        "source_state": {
+            "commit": source_commit,
+            "scoped_dirty": bool(scoped_status),
+            "scoped_status": scoped_status,
+        },
         "input_fingerprints": {
             "harness": _tree_fingerprint(HERE),
             "items": _tree_fingerprint(cfg["paths"]["items"]),
@@ -524,9 +576,10 @@ def write_outputs(res, date, cfg):
             key: value for key, value in cfg.items() if key != "_provenance"
         },
         "persona": persona,
+        "bank_gold_inventory": bank_gold_inventory,
+        "output_sha256": output_sha256,
+        "completion_marker": True,
     }
-    _write_new(jf, json.dumps({"banner": banner, **res}, indent=2, default=str) + "\n")
-    _write_new(hf, "\n".join(lines) + "\n")
     _write_new(mf, json.dumps(manifest, indent=2, default=str) + "\n")
     return jf, hf, mf
 
@@ -633,9 +686,10 @@ def main(argv=None):
             else None
         )
         if prior_development is not None:
-            validate_prior_development_schedule_binding(
+            matched_schedule_path = validate_prior_development_schedule_binding(
                 prior_development, args.development_schedule
             )
+            prior_development["matched_schedule_path"] = matched_schedule_path
     except (OSError, ValueError) as exc:
         print(f"LIVE BLOCKED: {exc}", file=sys.stderr)
         return 1

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import hashlib
 import json
 import sys
 import threading
@@ -59,7 +60,9 @@ COMPLETED_RESPONSE = {
     "service_tier": "default",
     "output": [
         {
+            "id": "msg_fixture",
             "type": "message",
+            "status": "completed",
             "role": "assistant",
             "content": [{"type": "output_text", "text": "fixture answer"}],
         }
@@ -367,7 +370,9 @@ def test_responses_posts_native_structured_output_contract() -> None:
                 **COMPLETED_RESPONSE,
                 "output": [
                     {
+                        "id": "msg_refusal",
                         "type": "message",
+                        "status": "completed",
                         "role": "assistant",
                         "content": [{"type": "refusal", "refusal": "no"}],
                     }
@@ -420,6 +425,11 @@ def test_malformed_json_fails_without_retry() -> None:
     assert caught.value.error_type == "malformed_json"
     assert caught.value.retryable is False
     assert caught.value.attempts == 1
+    assert caught.value.raw == {
+        "body_sha256": hashlib.sha256(b"not-json").hexdigest(),
+        "body_length": len(b"not-json"),
+    }
+    assert "authorization" not in caught.value.raw
     assert len(server.requests) == 1  # type: ignore[attr-defined]
 
 
@@ -814,11 +824,35 @@ def test_top_level_and_nested_output_text_must_agree() -> None:
     assert len(server.requests) == 1  # type: ignore[attr-defined]
 
 
-def test_top_level_output_text_is_accepted_when_nested_text_is_absent() -> None:
+@pytest.mark.parametrize(
+    "reasoning_item",
+    [
+        {"type": "reasoning", "status": "completed", "summary": []},
+        {
+            "type": "reasoning",
+            "status": "completed",
+            "summary": [],
+            "content": None,
+        },
+        {
+            "type": "reasoning",
+            "status": "completed",
+            "summary": [],
+            "content": [],
+        },
+    ],
+    ids=["absent-content", "null-content", "empty-list-content"],
+)
+def test_reasoning_then_one_completed_assistant_message_is_accepted(
+    reasoning_item: dict[str, Any],
+) -> None:
     response = {
         **COMPLETED_RESPONSE,
-        "output_text": "top-level answer",
-        "output": [{"type": "reasoning", "summary": []}],
+        "output_text": "fixture answer",
+        "output": [
+            reasoning_item,
+            COMPLETED_RESPONSE["output"][0],
+        ],
     }
     with _fixture_server([(200, response)]) as (base_url, _server):
         result = _client(base_url).responses(
@@ -830,7 +864,171 @@ def test_top_level_output_text_is_accepted_when_nested_text_is_absent() -> None:
             expected_canonical_slug="openai/gpt-5.5-20260423",
         )
 
-    assert result.text == "top-level answer"
+    assert result.text == "fixture answer"
+
+
+@pytest.mark.parametrize(
+    "output",
+    [
+        [
+            {
+                **COMPLETED_RESPONSE["output"][0],
+                "status": "incomplete",
+            }
+        ],
+        [
+            {
+                "id": "msg_fixture",
+                "type": "message",
+                "role": "assistant",
+                "content": [
+                    {"type": "output_text", "text": "fixture answer"}
+                ],
+            }
+        ],
+        [
+            {
+                "type": "message",
+                "status": "completed",
+                "role": "assistant",
+                "content": [
+                    {"type": "output_text", "text": "fixture answer"}
+                ],
+            }
+        ],
+        [
+            {
+                **COMPLETED_RESPONSE["output"][0],
+                "id": "  ",
+            }
+        ],
+        [
+            {
+                **COMPLETED_RESPONSE["output"][0],
+                "id": 7,
+            }
+        ],
+        [
+            {
+                **COMPLETED_RESPONSE["output"][0],
+                "role": "user",
+            }
+        ],
+        [
+            {
+                **COMPLETED_RESPONSE["output"][0],
+                "content": [
+                    {"type": "output_text", "text": "fixture answer"},
+                    {"type": "refusal", "refusal": "no"},
+                ],
+            }
+        ],
+        [
+            {"type": "function_call", "output_text": "fake answer"},
+            COMPLETED_RESPONSE["output"][0],
+        ],
+        [
+            {
+                "type": "tool_call",
+                "content": [{"type": "output_text", "text": "fake answer"}],
+            },
+            COMPLETED_RESPONSE["output"][0],
+        ],
+        [
+            {"type": "reasoning", "output_text": "fake answer", "summary": []},
+            COMPLETED_RESPONSE["output"][0],
+        ],
+        [
+            {"type": "reasoning", "status": [], "summary": []},
+            COMPLETED_RESPONSE["output"][0],
+        ],
+        [
+            {
+                "type": "reasoning",
+                "status": "completed",
+                "summary": [],
+                "content": [
+                    {"type": "reasoning_text", "text": "not output"}
+                ],
+            },
+            COMPLETED_RESPONSE["output"][0],
+        ],
+        [
+            {
+                "type": "reasoning",
+                "status": "completed",
+                "summary": [],
+                "content": {},
+            },
+            COMPLETED_RESPONSE["output"][0],
+        ],
+        [
+            COMPLETED_RESPONSE["output"][0],
+            COMPLETED_RESPONSE["output"][0],
+        ],
+        [
+            COMPLETED_RESPONSE["output"][0],
+            {"type": "reasoning", "status": "completed", "summary": []},
+        ],
+    ],
+    ids=[
+        "incomplete-message",
+        "missing-message-status",
+        "missing-message-id",
+        "blank-message-id",
+        "non-string-message-id",
+        "wrong-role",
+        "mixed-refusal",
+        "function-fake-output",
+        "tool-fake-content",
+        "reasoning-fake-output",
+        "malformed-reasoning-status",
+        "nonempty-reasoning-content",
+        "unrecognized-reasoning-content",
+        "multiple-assistant-messages",
+        "reasoning-after-message",
+    ],
+)
+def test_completed_response_rejects_malformed_or_ambiguous_output(
+    output: list[dict[str, Any]],
+) -> None:
+    response = {**COMPLETED_RESPONSE, "output": output}
+
+    with _fixture_server([(200, response)]) as (base_url, server):
+        with pytest.raises(OpenRouterError) as caught:
+            _client(base_url).responses(
+                model_id=SUBJECT_MODELS[0],
+                messages=MESSAGES,
+                max_output_tokens=2048,
+                reasoning_effort="medium",
+                provider_order=["openai"],
+                expected_canonical_slug="openai/gpt-5.5-20260423",
+            )
+
+    assert caught.value.error_type == "schema_error"
+    assert caught.value.attempts == 1
+    assert len(server.requests) == 1  # type: ignore[attr-defined]
+
+
+def test_top_level_output_text_cannot_replace_completed_assistant_message() -> None:
+    response = {
+        **COMPLETED_RESPONSE,
+        "output_text": "top-level answer",
+        "output": [{"type": "reasoning", "status": "completed", "summary": []}],
+    }
+
+    with _fixture_server([(200, response)]) as (base_url, _server):
+        with pytest.raises(OpenRouterError) as caught:
+            _client(base_url).responses(
+                model_id=SUBJECT_MODELS[0],
+                messages=MESSAGES,
+                max_output_tokens=2048,
+                reasoning_effort="medium",
+                provider_order=["openai"],
+                expected_canonical_slug="openai/gpt-5.5-20260423",
+            )
+
+    assert caught.value.error_type == "schema_error"
 
 
 def test_null_supported_efforts_means_all_efforts_are_supported() -> None:

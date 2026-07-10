@@ -7,6 +7,7 @@ provenance, and treats malformed or ambiguous responses as invalid evidence.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import math
 import os
@@ -634,6 +635,10 @@ def _decode_json(body: bytes, *, attempts: int, status_code: int | None) -> Any:
             status_code=status_code,
             retryable=False,
             attempts=attempts,
+            raw={
+                "body_sha256": hashlib.sha256(body).hexdigest(),
+                "body_length": len(body),
+            },
         ) from exc
 
 
@@ -688,74 +693,75 @@ def _error_details(
 
 
 def _extract_text(payload: dict[str, Any], *, attempts: int) -> str:
-    nested_parts: list[str] = []
+    def reject(message: str) -> None:
+        raise OpenRouterError(
+            message,
+            error_type="schema_error",
+            retryable=False,
+            attempts=attempts,
+            raw=payload,
+        )
+
     output = payload.get("output")
-    if output is not None:
-        if not isinstance(output, list):
-            raise OpenRouterError(
-                "response output must be a list",
-                error_type="schema_error",
-                retryable=False,
-                attempts=attempts,
-                raw=payload,
-            )
-        for item in output:
-            if not isinstance(item, dict):
-                raise OpenRouterError(
-                    "response output contains a malformed item",
-                    error_type="schema_error",
-                    retryable=False,
-                    attempts=attempts,
-                    raw=payload,
-                )
-            if item.get("type") == "reasoning":
-                continue
-            content = item.get("content")
-            if content is None:
-                continue
-            if not isinstance(content, list):
-                raise OpenRouterError(
-                    "response message content must be a list",
-                    error_type="schema_error",
-                    retryable=False,
-                    attempts=attempts,
-                    raw=payload,
-                )
-            for part in content:
-                if (
-                    isinstance(part, dict)
-                    and part.get("type") == "output_text"
-                    and isinstance(part.get("text"), str)
-                ):
-                    nested_parts.append(part["text"])
-    nested = "".join(nested_parts) if nested_parts else None
+    if not isinstance(output, list):
+        reject("response output must be a list")
+
+    message: dict[str, Any] | None = None
+    for item in output:
+        if not isinstance(item, dict):
+            reject("response output contains a malformed item")
+        item_type = item.get("type")
+        if item_type == "reasoning":
+            if message is not None:
+                reject("reasoning output must precede the assistant message")
+            if "output_text" in item:
+                reject("reasoning output carries ambiguous text content")
+            reasoning_content = item.get("content")
+            if reasoning_content is not None and reasoning_content != []:
+                reject("reasoning output carries ambiguous text content")
+            if item.get("status") not in (None, "completed"):
+                reject("reasoning output is not completed")
+            continue
+        if item_type != "message":
+            reject("response output contains a non-message result item")
+        if message is not None:
+            reject("response output must contain exactly one assistant message")
+        message = item
+
+    if message is None:
+        reject("response output must contain exactly one assistant message")
+    message_id = message.get("id")
+    if not isinstance(message_id, str) or not message_id.strip():
+        reject("response assistant message has a missing id")
+    if message.get("status") != "completed":
+        reject("response assistant message is not completed")
+    if message.get("role") != "assistant":
+        reject("response message role must be assistant")
+    content = message.get("content")
+    if not isinstance(content, list) or not content:
+        reject("response message content must be a non-empty list")
+
+    nested_parts: list[str] = []
+    for part in content:
+        if not isinstance(part, dict):
+            reject("response message contains a malformed content part")
+        if part.get("type") == "refusal":
+            reject("completed response contains refusal content")
+        if part.get("type") != "output_text":
+            reject("response message contains non-text content")
+        if not isinstance(part.get("text"), str):
+            reject("response output_text content must contain text")
+        nested_parts.append(part["text"])
+    nested = "".join(nested_parts)
+    if not nested.strip():
+        reject("completed response contains no output text")
+
     top = payload.get("output_text")
-    if top is not None and not isinstance(top, str):
-        raise OpenRouterError(
-            "top-level output_text must be text",
-            error_type="schema_error",
-            retryable=False,
-            attempts=attempts,
-            raw=payload,
-        )
-    if isinstance(top, str) and nested is not None and top != nested:
-        raise OpenRouterError(
-            "top-level and nested output text disagree",
-            error_type="schema_error",
-            retryable=False,
-            attempts=attempts,
-            raw=payload,
-        )
-    text = top if isinstance(top, str) else nested
-    if not isinstance(text, str) or not text.strip():
-        raise OpenRouterError(
-            "completed response contains no output text",
-            error_type="schema_error",
-            retryable=False,
-            attempts=attempts,
-            raw=payload,
-        )
-    return text
+    if "output_text" in payload and not isinstance(top, str):
+        reject("top-level output_text must be text")
+    if isinstance(top, str) and top != nested:
+        reject("top-level and nested output text disagree")
+    return nested
 
 
 class OpenRouterClient:

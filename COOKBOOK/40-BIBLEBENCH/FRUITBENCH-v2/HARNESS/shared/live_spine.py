@@ -87,6 +87,51 @@ _SENSITIVE_ASSIGNMENT = re.compile(
     r"task[ _-]*arm|condition|version)\b\s*[:=]",
     re.IGNORECASE,
 )
+_HIDDEN_VALUE_ALIASES = frozenset(
+    {
+        "actor",
+        "actors",
+        "canonical",
+        "condition",
+        "conditions",
+        "cue",
+        "cues",
+        "expected",
+        "family",
+        "families",
+        "fruit",
+        "fruits",
+        "gold",
+        "human",
+        "humans",
+        "identities",
+        "identity",
+        "judge",
+        "judges",
+        "label",
+        "labels",
+        "model",
+        "models",
+        "opaque",
+        "principal",
+        "principals",
+        "rater",
+        "raters",
+        "snapshot",
+        "snapshots",
+        "vendor",
+        "vendors",
+        "version",
+        "versions",
+        "vice",
+        "vices",
+        "vote",
+        "votes",
+    }
+)
+_HIDDEN_VALUE_LEAF_TOKENS = frozenset(
+    {"arm", "id", "label", "name", "slug", "value"}
+)
 
 
 def _nonblank(value: Any, field: str) -> str:
@@ -166,58 +211,70 @@ def _hidden_key(tokens: tuple[str, ...], path: tuple[str, ...]) -> bool:
     return has_prior and has_ballot
 
 
-def _typed_scalar(value: Any) -> tuple[str, Any] | None:
-    if isinstance(value, str):
-        return ("str", value.strip().casefold()) if value.strip() else None
-    if isinstance(value, bool):
-        return ("bool", value)
-    if isinstance(value, int):
-        return ("int", value)
-    if isinstance(value, float):
-        return ("float", value)
-    return None
+def _hidden_value_field(tokens: tuple[str, ...], path: tuple[str, ...]) -> bool:
+    token_set = set(tokens)
+    full_path = set(path).union(tokens)
+    if _HIDDEN_VALUE_ALIASES.intersection(token_set):
+        return True
+    if {"task", "arm"}.issubset(full_path):
+        return True
+    if _HIDDEN_VALUE_LEAF_TOKENS.intersection(token_set):
+        return bool(_HIDDEN_VALUE_ALIASES.intersection(path))
+    return False
 
 
-def _hidden_scalar_tokens(value: Any) -> frozenset[tuple[str, Any]]:
-    tokens: set[tuple[str, Any]] = set()
+def _hidden_string_tokens(
+    value: Any,
+    path: tuple[str, ...] = (),
+    *,
+    sensitive_field: bool = False,
+) -> frozenset[str]:
+    hidden: set[str] = set()
     if isinstance(value, Mapping):
-        for child in value.values():
-            tokens.update(_hidden_scalar_tokens(child))
+        for key, child in value.items():
+            if not isinstance(key, str):
+                continue
+            key_tokens = _key_tokens(key)
+            hidden.update(
+                _hidden_string_tokens(
+                    child,
+                    path + key_tokens,
+                    sensitive_field=_hidden_value_field(key_tokens, path),
+                )
+            )
     elif isinstance(value, (list, tuple)):
         for child in value:
-            tokens.update(_hidden_scalar_tokens(child))
-    else:
-        token = _typed_scalar(value)
-        if token is not None:
-            tokens.add(token)
-    return frozenset(tokens)
+            hidden.update(
+                _hidden_string_tokens(
+                    child, path, sensitive_field=sensitive_field
+                )
+            )
+    elif sensitive_field and isinstance(value, str) and value.strip():
+        hidden.add(value.strip().casefold())
+    return frozenset(hidden)
 
 
 def _sensitive_value(
-    value: Any, hidden_tokens: frozenset[tuple[str, Any]]
+    value: Any, hidden_tokens: frozenset[str]
 ) -> bool:
-    token = _typed_scalar(value)
-    if token is not None and token in hidden_tokens:
-        return True
     if not isinstance(value, str):
         return False
     if _SENSITIVE_ASSIGNMENT.search(value):
         return True
     folded = value.casefold()
     return any(
-        kind == "str"
-        and re.search(
-            rf"(?<![a-z0-9]){re.escape(str(hidden))}(?![a-z0-9])",
+        re.search(
+            rf"(?<![a-z0-9]){re.escape(hidden)}(?![a-z0-9])",
             folded,
         )
-        for kind, hidden in hidden_tokens
+        for hidden in hidden_tokens
     )
 
 
 def _blind_value(
     value: Any,
     path: tuple[str, ...] = (),
-    hidden_tokens: frozenset[tuple[str, Any]] = frozenset(),
+    hidden_tokens: frozenset[str] = frozenset(),
 ) -> Any:
     if isinstance(value, Mapping):
         blinded: dict[str, Any] = {}
@@ -259,7 +316,7 @@ def blind_event_payload(
         raise ValueError("observable_context must be an object")
     if not isinstance(hidden_metadata, Mapping):
         raise ValueError("hidden_metadata must be an object")
-    hidden_tokens = _hidden_scalar_tokens(hidden_metadata)
+    hidden_tokens = _hidden_string_tokens(hidden_metadata)
     return {
         "observable_context": _blind_value(
             observable_context, hidden_tokens=hidden_tokens

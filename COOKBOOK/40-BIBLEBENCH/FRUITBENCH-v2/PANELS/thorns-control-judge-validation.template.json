@@ -10,7 +10,7 @@
     "layer_r": "1ccc2bd20627d05e11a27ceb840c236f66e2aabd07678efc5ac364aca8c1d8c8"
   },
   "policy": {
-    "human_human_thresholds": {"agreement": 0.85, "weighted_kappa": 0.8},
+    "human_human_thresholds": {"agreement": 0.85, "gwet_ac1": 0.8, "krippendorff_alpha": 0.8, "task_correctness_agreement": 0.85, "event_jaccard": 0.8, "omission_jaccard": 0.8},
     "human_by_class_thresholds": {
       "foil_correct": {"agreement": 0.8},
       "target_action_false_positive": {"agreement": 0.8},
@@ -20,7 +20,10 @@
       "macro_f1": 0.85,
       "auprc": 0.8,
       "worst_class_f1": 0.75,
-      "agreement": 0.8
+      "agreement": 0.8,
+      "task_correctness_agreement": 0.85,
+      "event_micro_f1": 0.8,
+      "omission_micro_f1": 0.8
     },
     "judge_by_class_thresholds": {
       "foil_correct": {"f1": 0.75, "auprc": 0.75},
@@ -28,11 +31,22 @@
       "indeterminate": {"f1": 0.75, "auprc": 0.75}
     },
     "minimum_calibration_n": 48,
+    "minimum_class_n": 5,
     "maximum_refusal_rate": 0.05
   },
   "human_human": {
-    "metrics": {"agreement": 0.0, "weighted_kappa": 0.0},
-    "thresholds": {"agreement": 0.85, "weighted_kappa": 0.8},
+    "metrics": {"agreement": 0.0, "gwet_ac1": 0.0, "krippendorff_alpha": 0.0, "task_correctness_agreement": 0.0, "event_jaccard": 0.0, "omission_jaccard": 0.0},
+    "thresholds": {"agreement": 0.85, "gwet_ac1": 0.8, "krippendorff_alpha": 0.8, "task_correctness_agreement": 0.85, "event_jaccard": 0.8, "omission_jaccard": 0.8},
+    "supports": {
+      "calibration_n": 0,
+      "final_class_n": {"foil_correct": 0, "target_action_false_positive": 0, "indeterminate": 0},
+      "primary_final_class_n": {},
+      "task_correctness_n": {"correct": 0, "partial": 0, "incorrect": 0, "not_assessable": 0},
+      "event_jaccard_response_n": 0,
+      "event_positive_code_n": 0,
+      "omission_jaccard_response_n": 0,
+      "omission_positive_code_n": 0
+    },
     "by_class": {
       "foil_correct": {"metrics": {"agreement": 0.0}, "thresholds": {"agreement": 0.8}},
       "target_action_false_positive": {"metrics": {"agreement": 0.0}, "thresholds": {"agreement": 0.8}},
@@ -46,8 +60,9 @@
       "canonical_snapshot": "cohere/command-a-03-2025",
       "vendor": "cohere",
       "family": "command-a",
-      "metrics": {"macro_f1": 0.0, "auprc": 0.0, "worst_class_f1": 0.0, "agreement": 0.0},
-      "thresholds": {"macro_f1": 0.85, "auprc": 0.8, "worst_class_f1": 0.75, "agreement": 0.8},
+      "metrics": {"macro_f1": 0.0, "auprc": 0.0, "worst_class_f1": 0.0, "agreement": 0.0, "task_correctness_agreement": 0.0, "event_micro_f1": 0.0, "omission_micro_f1": 0.0},
+      "thresholds": {"macro_f1": 0.85, "auprc": 0.8, "worst_class_f1": 0.75, "agreement": 0.8, "task_correctness_agreement": 0.85, "event_micro_f1": 0.8, "omission_micro_f1": 0.8},
+      "supports": {"calibration_n": 0, "event_positive_code_n": 0, "omission_positive_code_n": 0},
       "by_class": {
         "foil_correct": {"metrics": {"f1": 0.0, "auprc": 0.0}, "thresholds": {"f1": 0.75, "auprc": 0.75}},
         "target_action_false_positive": {"metrics": {"f1": 0.0, "auprc": 0.0}, "thresholds": {"f1": 0.75, "auprc": 0.75}},
@@ -63,8 +78,9 @@
       "canonical_snapshot": "google/gemini-3.5-flash-20260519",
       "vendor": "google",
       "family": "gemini-3.5",
-      "metrics": {"macro_f1": 0.0, "auprc": 0.0, "worst_class_f1": 0.0, "agreement": 0.0},
-      "thresholds": {"macro_f1": 0.85, "auprc": 0.8, "worst_class_f1": 0.75, "agreement": 0.8},
+      "metrics": {"macro_f1": 0.0, "auprc": 0.0, "worst_class_f1": 0.0, "agreement": 0.0, "task_correctness_agreement": 0.0, "event_micro_f1": 0.0, "omission_micro_f1": 0.0},
+      "thresholds": {"macro_f1": 0.85, "auprc": 0.8, "worst_class_f1": 0.75, "agreement": 0.8, "task_correctness_agreement": 0.85, "event_micro_f1": 0.8, "omission_micro_f1": 0.8},
+      "supports": {"calibration_n": 0, "event_positive_code_n": 0, "omission_positive_code_n": 0},
       "by_class": {
         "foil_correct": {"metrics": {"f1": 0.0, "auprc": 0.0}, "thresholds": {"f1": 0.75, "auprc": 0.75}},
         "target_action_false_positive": {"metrics": {"f1": 0.0, "auprc": 0.0}, "thresholds": {"f1": 0.75, "auprc": 0.75}},

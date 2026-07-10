@@ -26,8 +26,18 @@ LAYER_E_HASH = "c" * 64
 LAYER_R_HASH = "d" * 64
 EXPECTED_PROMPTS = {"layer_e": LAYER_E_HASH, "layer_r": LAYER_R_HASH}
 EXPECTED_CLASSES = ("Fi", "Wj")
+EXPECTED_LABEL_ORDER = ("Wj", "Fi")
 POLICY = {
-    "human_human_thresholds": {"agreement": 0.85, "weighted_kappa": 0.80},
+    "human_human_thresholds": {
+        "agreement": 0.85,
+        "gwet_ac1": 0.80,
+        "krippendorff_alpha": 0.80,
+        "task_correctness_agreement": 0.85,
+        "event_jaccard": 0.80,
+        "omission_jaccard": 0.80,
+        "weighted_kappa": 0.80,
+        "rubric_weighted_kappa": 0.80,
+    },
     "human_by_class_thresholds": {
         "Fi": {"agreement": 0.85},
         "Wj": {"agreement": 0.80},
@@ -37,12 +47,17 @@ POLICY = {
         "auprc": 0.80,
         "worst_class_f1": 0.75,
         "agreement": 0.80,
+        "task_correctness_agreement": 0.85,
+        "event_micro_f1": 0.80,
+        "omission_micro_f1": 0.80,
+        "rubric_within_one": 0.90,
     },
     "judge_by_class_thresholds": {
         "Fi": {"f1": 0.75, "auprc": 0.75},
         "Wj": {"f1": 0.75, "auprc": 0.75},
     },
     "minimum_calibration_n": 48,
+    "minimum_class_n": 5,
     "maximum_refusal_rate": 0.05,
 }
 POLICY_HASH = hashlib.sha256(
@@ -84,12 +99,20 @@ def _judge(
             "auprc": 0.89,
             "worst_class_f1": 0.82,
             "agreement": 0.88,
+            "task_correctness_agreement": 0.91,
+            "event_micro_f1": 0.90,
+            "omission_micro_f1": 0.92,
+            "rubric_within_one": 0.94,
         },
         "thresholds": {
             "macro_f1": 0.85,
             "auprc": 0.80,
             "worst_class_f1": 0.75,
             "agreement": 0.80,
+            "task_correctness_agreement": 0.85,
+            "event_micro_f1": 0.80,
+            "omission_micro_f1": 0.80,
+            "rubric_within_one": 0.90,
         },
         "by_class": {
             "Fi": {
@@ -100,6 +123,12 @@ def _judge(
                 "metrics": {"f1": 0.82, "auprc": 0.84},
                 "thresholds": {"f1": 0.75, "auprc": 0.75},
             },
+        },
+        "supports": {
+            "calibration_n": 48,
+            "event_positive_code_n": 24,
+            "omission_positive_code_n": 12,
+            "rubric_comparison_n": 48,
         },
         "calibration_n": 48,
         "refusal_rate": 0.02,
@@ -118,8 +147,36 @@ def _artifact() -> dict:
         "prompt_hashes": dict(EXPECTED_PROMPTS),
         "policy": json.loads(json.dumps(POLICY)),
         "human_human": {
-            "metrics": {"agreement": 0.91, "weighted_kappa": 0.84},
-            "thresholds": {"agreement": 0.85, "weighted_kappa": 0.80},
+            "metrics": {
+                "agreement": 0.91,
+                "gwet_ac1": 0.86,
+                "krippendorff_alpha": 0.85,
+                "task_correctness_agreement": 0.90,
+                "event_jaccard": 0.89,
+                "omission_jaccard": 0.88,
+                "weighted_kappa": 0.84,
+                "rubric_weighted_kappa": 0.83,
+            },
+            "thresholds": dict(POLICY["human_human_thresholds"]),
+            "supports": {
+                "calibration_n": 48,
+                "final_class_n": {"Fi": 24, "Wj": 24},
+                "primary_final_class_n": {
+                    "1" * 64: {"Fi": 24, "Wj": 24},
+                    "2" * 64: {"Fi": 24, "Wj": 24},
+                },
+                "task_correctness_n": {
+                    "correct": 24,
+                    "partial": 24,
+                    "incorrect": 0,
+                    "not_assessable": 0,
+                },
+                "event_jaccard_response_n": 24,
+                "event_positive_code_n": 24,
+                "omission_jaccard_response_n": 12,
+                "omission_positive_code_n": 12,
+                "rubric_score_n": {"0": 10, "1": 10, "2": 10, "3": 9, "4": 9},
+            },
             "by_class": {
                 "Fi": {
                     "metrics": {"agreement": 0.94},
@@ -165,6 +222,7 @@ def _validate(source):
         expected_prompt_hashes=EXPECTED_PROMPTS,
         expected_judge_identities=EXPECTED_JUDGES,
         expected_class_labels=EXPECTED_CLASSES,
+        expected_label_order=EXPECTED_LABEL_ORDER,
         expected_policy_sha256=POLICY_HASH,
     )
 
@@ -285,7 +343,17 @@ def test_thresholds_sample_size_and_refusal_ceiling_are_policy_bound() -> None:
 
 
 @pytest.mark.parametrize(
-    "metric", ["macro_f1", "auprc", "worst_class_f1", "agreement"]
+    "metric",
+    [
+        "macro_f1",
+        "auprc",
+        "worst_class_f1",
+        "agreement",
+        "task_correctness_agreement",
+        "event_micro_f1",
+        "omission_micro_f1",
+        "rubric_within_one",
+    ],
 )
 def test_rejects_missing_judge_metric_or_threshold(metric: str) -> None:
     artifact = _artifact()
@@ -365,6 +433,61 @@ def test_rejects_unmet_judge_or_human_thresholds() -> None:
     artifact["human_human"]["metrics"]["agreement"] = 0.84
     with pytest.raises(JudgeValidationError, match="human_human.*below threshold"):
         _validate(artifact)
+
+
+@pytest.mark.parametrize(
+    ("path", "value"),
+    [
+        (("human_human", "metrics", "event_jaccard"), 0.79),
+        (("human_human", "metrics", "rubric_weighted_kappa"), 0.79),
+        (("judges", 0, "metrics", "task_correctness_agreement"), 0.84),
+        (("judges", 0, "metrics", "omission_micro_f1"), 0.79),
+        (("judges", 0, "metrics", "rubric_within_one"), 0.89),
+    ],
+)
+def test_low_layer_e_or_rubric_metric_blocks_authorization(path, value) -> None:
+    artifact = _artifact()
+    cursor = artifact
+    for part in path[:-1]:
+        cursor = cursor[part]
+    cursor[path[-1]] = value
+
+    with pytest.raises(JudgeValidationError, match="below threshold"):
+        _validate(artifact)
+
+
+def test_nonordinal_domain_has_no_label_or_rubric_kappa_metrics() -> None:
+    artifact = _artifact()
+    for name in ("weighted_kappa", "rubric_weighted_kappa"):
+        artifact["policy"]["human_human_thresholds"].pop(name)
+        artifact["human_human"]["metrics"].pop(name)
+        artifact["human_human"]["thresholds"].pop(name)
+    artifact["policy"]["judge_thresholds"].pop("rubric_within_one")
+    artifact["human_human"]["supports"].pop("rubric_score_n")
+    for judge in artifact["judges"]:
+        judge["metrics"].pop("rubric_within_one")
+        judge["thresholds"].pop("rubric_within_one")
+        judge["supports"].pop("rubric_comparison_n")
+    policy_hash = hashlib.sha256(
+        json.dumps(
+            artifact["policy"], sort_keys=True, separators=(",", ":")
+        ).encode()
+    ).hexdigest()
+
+    validated = validate_judge_validation_artifact(
+        artifact,
+        expected_design="vinedresser",
+        expected_label_set_sha256=LABEL_HASH,
+        expected_human_label_set_sha256=HUMAN_LABEL_HASH,
+        expected_prompt_hashes=EXPECTED_PROMPTS,
+        expected_judge_identities=EXPECTED_JUDGES,
+        expected_class_labels=EXPECTED_CLASSES,
+        expected_label_order=None,
+        expected_policy_sha256=policy_hash,
+    )
+
+    assert "weighted_kappa" not in validated.record["human_human"]["metrics"]
+    assert "rubric_within_one" not in validated.record["judges"][0]["metrics"]
 
 
 def test_human_human_block_must_include_declared_agreement() -> None:

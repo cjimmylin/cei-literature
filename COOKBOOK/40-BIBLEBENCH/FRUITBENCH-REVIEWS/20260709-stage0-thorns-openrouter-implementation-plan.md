@@ -4,9 +4,49 @@
 
 **Goal:** Repair every currently known THORNS live-validity blocker and deliver a tested, immutable, fail-loud OpenRouter execution package for the approved `gpt-5.5`, `gpt-5.4`, and `gpt-5.4-mini` comparison.
 
-**Architecture:** A provider-neutral shared spine owns OpenRouter transport, provenance, identity separation, cue scheduling, blind judge envelopes, and readiness gates. THORNS retains its own item taxonomy, stateful trajectory renderer, rubric derivation, native G1/G2/G3 gates, and append-only artifacts. Synthetic runs remain deterministic harness checks; a live evidence run requires both a valid OpenRouter catalog/key and a signed human judge-validation artifact.
+**Architecture:** A provider-neutral shared spine owns OpenRouter transport, provenance, identity separation, cue scheduling, blind judge envelopes, and readiness gates. THORNS retains its own item taxonomy, stateful trajectory renderer, rubric derivation, native G1/G2/G3 gates, and append-only artifacts. Synthetic runs remain deterministic harness checks; a live evidence run requires both a valid OpenRouter catalog/key and an evidence-bound human judge-validation artifact.
 
 **Tech stack:** Python 3.9+ standard library (`urllib`, `dataclasses`, `hashlib`, `json`, `csv`), PyYAML, pytest, OpenRouter Responses API beta (`/api/v1/responses`) and Models API (`/api/v1/models`).
+
+---
+
+## Controlled implementation amendments — 2026-07-09
+
+These amendments resolve conflicts found during implementation review. They are part of
+the approved evidence contract; the superseded wording later in this plan is retained
+for traceability rather than rewritten in place.
+
+1. **Scored live arcs use a response-independent, precommitted path.** Task 4 originally
+   asked live branch selection to depend on the preceding model response. That would
+   expose different future prompts to different models and violate the later approved
+   requirement for identical prompts, decoding, reasoning effort, rollout counts, and
+   counterbalancing. The live compiler therefore selects a frozen path before calls and
+   records it in the schedule. Response-dependent branch routing remains covered only by
+   deterministic synthetic trajectory tests; it is not a scored between-model factor.
+2. **The primary judges are Cohere and Google, not Anthropic and Google.** J01 is
+   `cohere/command-a` and J02 is `google/gemini-3.5-flash`. Anthropic was removed because
+   an Anthropic-family model participated in item-generation work; using it as a judge
+   would weaken the declared generator/judge independence boundary. Exact aliases,
+   canonical snapshots, endpoint tags, vendor/family lineage, and user-catalog access
+   are revalidated by online preflight.
+3. **Evaluation uses six rollouts, not five.** Six is the minimum complete schedule in
+   which every subject/item pair rotates twice through C0/C1/C2 positions. Five cannot
+   satisfy the approved three-arm balance contract and fails closed.
+4. **Locked confirmation is a fresh full evaluation panel.** Confirmation contains a
+   phase-distinct 13-item C0 diagnostic panel plus the sealed six-item C3 schedule. No
+   development headline identity, schedule hash, or response is reused. Development can
+   report only `CONFIRMATION_PENDING`; model separation, non-separation, or saturation
+   is withheld until this fresh phase is valid.
+5. **Judge approval is evidence-bound, not self-certified.** Construct and C2-control
+   calibration use separate immutable manifests, raw double-coded human rows, raw judge
+   ballots, and recomputed agreement/support metrics. Template files are intentionally
+   invalid and cannot authorize calls. Cryptographic identity signing is not claimed;
+   the completed panel registry, salted rater identities, source hashes, prompt/request
+   hashes, catalog identities, and approval fields are bound into the preflight receipt.
+
+The resulting live job contract is 6,798 development jobs and 342 locked-confirmation
+jobs. The frozen analysis policy is phase-aware: development is diagnostic, while only
+complete locked-confirmation data can enter the primary headline comparison.
 
 ---
 
@@ -16,7 +56,10 @@
 2. Their request shape, `reasoning.effort=\"medium\"`, output budget, prompt, rollout count, and counterbalance schedule are byte-equivalent except for the API `model` field.
 3. Calibration, evaluation, held-out, and judge roles are validated from exact provider/model IDs and returned canonical slugs, not trusted friendly labels.
 4. All D-36.2–D-36.6 corrections land before a bank response can be sent to OpenRouter.
-5. Escalation arcs expose one user beat at a time and select the next beat from the prior response; future beats never enter an earlier request.
+5. Escalation arcs expose one user beat at a time and never expose a future beat in an
+   earlier request. The original response-dependent clause is superseded by Controlled
+   implementation amendment 1: scored paths are selected before calls so prompt exposure
+   remains identical across subjects; response-dependent routing is synthetic-only.
 6. Live scoring preserves every actor response and every judge ballot with opaque actor/judge IDs, exact snapshots, prompt hashes, request IDs, and decoding parameters.
 7. Layer E receives no model, fruit, cue-arm, condition, or gold labels. Layer R derives the rubric only after event coding.
 8. No live evidence run begins unless the human calibration file passes its declared agreement and judge-versus-human gates. `--smoke-openrouter` may call only a non-bank fixture.

@@ -173,9 +173,11 @@ def _gate_input_hashes(cfg: Mapping[str, Any]) -> dict[str, str]:
             "judge_validation",
             "human_labels",
             "judge_predictions",
+            "calibration_manifest",
             "control_judge_validation",
             "control_human_labels",
             "control_judge_predictions",
+            "control_calibration_manifest",
             "control_panel_registry",
             "panel_registry",
             "panel_training_set",
@@ -428,9 +430,11 @@ def load_openrouter_config(path: str | Path = DEFAULT_CONFIG) -> dict[str, Any]:
         "judge_validation",
         "human_labels",
         "judge_predictions",
+        "calibration_manifest",
         "control_judge_validation",
         "control_human_labels",
         "control_judge_predictions",
+        "control_calibration_manifest",
         "control_panel_registry",
         "panel_registry",
         "panel_training_set",
@@ -761,9 +765,10 @@ def validate_catalog_bundle(
         supported = endpoint.get("supported_parameters")
         if not isinstance(supported, list):
             raise PreflightError(f"endpoint supported_parameters missing for {model_id}")
-        required_endpoint = {"max_tokens"}
-        if _effort_for(row) is not None:
-            required_endpoint.update({"reasoning", "reasoning_effort"})
+        required_endpoint = {
+            "max_tokens" if parameter == "max_output_tokens" else parameter
+            for parameter in _required_parameters(row)
+        }
         missing = required_endpoint - set(supported)
         if missing:
             raise PreflightError(f"endpoint {expected_tag!r} lacks {sorted(missing)} for {model_id}")
@@ -1171,7 +1176,11 @@ def _judge_gate(
     readiness = None
     try:
         import judge_prompts
-        from shared.judge_evidence import compute_judge_evidence
+        from shared.judge_evidence import (
+            compute_judge_evidence,
+            validate_calibration_manifest,
+            validate_disjoint_calibration_manifests,
+        )
         from shared.judge_validation import validate_judge_validation_artifact
 
         expected_identities = {
@@ -1206,11 +1215,14 @@ def _judge_gate(
                 "name": "construct",
                 "design": "thorns",
                 "human": "human_labels",
+                "manifest": "calibration_manifest",
                 "predictions": "judge_predictions",
                 "validation": "judge_validation",
                 "panel": "panel_registry",
                 "policy": "judge_validation_policy",
                 "labels": judge_prompts.FINAL_LABELS,
+                "label_order": ("Wj", "CFT", "other", "mixed", "Fi"),
+                "track": "construct",
                 "label_hash": judge_prompts.label_set_sha256(),
                 "prompt_hashes": judge_prompts.judge_prompt_hashes(),
             },
@@ -1218,18 +1230,33 @@ def _judge_gate(
                 "name": "null-control",
                 "design": "thorns-control",
                 "human": "control_human_labels",
+                "manifest": "control_calibration_manifest",
                 "predictions": "control_judge_predictions",
                 "validation": "control_judge_validation",
                 "panel": "control_panel_registry",
                 "policy": "control_judge_validation_policy",
                 "labels": judge_prompts.CONTROL_LABELS,
+                "label_order": None,
+                "track": "control",
                 "label_hash": judge_prompts.control_label_set_sha256(),
                 "prompt_hashes": judge_prompts.control_prompt_hashes(),
             },
         )
         domain_results = []
         panel_registries = []
+        manifests = {
+            domain["name"]: validate_calibration_manifest(
+                cfg["paths"][domain["manifest"]],
+                expected_track=domain["track"],
+                minimum_calibration_n=cfg[domain["policy"]]["minimum_calibration_n"],
+            )
+            for domain in domains
+        }
+        validate_disjoint_calibration_manifests(
+            manifests["construct"], manifests["null-control"]
+        )
         for domain in domains:
+            manifest = manifests[domain["name"]]
             human_path = Path(cfg["paths"][domain["human"]])
             human_bytes = human_path.read_bytes()
             prediction_path = Path(cfg["paths"][domain["predictions"]])
@@ -1237,33 +1264,23 @@ def _judge_gate(
             prediction_rows = (
                 predictions.get("rows") if isinstance(predictions, Mapping) else None
             )
-            if not isinstance(prediction_rows, list) or not prediction_rows:
+            if (
+                not isinstance(prediction_rows, list)
+                or not prediction_rows
+                or any(
+                    isinstance(row, Mapping)
+                    and row.get("response_id") == "TEMPLATE_RESPONSE_ID"
+                    for row in prediction_rows
+                )
+            ):
                 raise PreflightError(
                     f"{domain['name']} judge calibration predictions are template-only"
-                )
-            expected_response_ids = {
-                row.get("response_id")
-                for row in prediction_rows
-                if isinstance(row, Mapping)
-                and isinstance(row.get("response_id"), str)
-            }
-            if not expected_response_ids:
-                raise PreflightError(
-                    f"{domain['name']} judge calibration contains no response IDs"
                 )
             human_intake = judge_prompts.load_human_labels(
                 human_path,
                 rater_salt=rater_salt,
-                expected_response_ids=expected_response_ids,
+                expected_response_ids=manifest.response_ids,
                 allowed_labels=domain["labels"],
-            )
-            evidence = compute_judge_evidence(
-                human_intake,
-                prediction_path,
-                expected_judge_identities=expected_identities,
-                expected_class_labels=domain["labels"],
-                expected_label_set_sha256=domain["label_hash"],
-                expected_prompt_hashes=domain["prompt_hashes"],
             )
             human_hash = _sha256_bytes(human_bytes)
             panel = judge_prompts.validate_panel_registry(
@@ -1271,6 +1288,26 @@ def _judge_gate(
                 expected_packet_version=packet_version,
                 expected_training_set_sha256=training_hash,
                 expected_human_label_set_sha256=human_hash,
+            )
+            judge_prompts.validate_human_intake_panel_roles(human_intake, panel)
+            judge_prompts.validate_calibration_prediction_requests(
+                predictions,
+                manifest,
+                expected_track=domain["track"],
+                expected_judge_identities=expected_identities,
+            )
+            evidence = compute_judge_evidence(
+                human_intake,
+                prediction_path,
+                manifest_source=manifest,
+                expected_track=domain["track"],
+                expected_judge_identities=expected_identities,
+                expected_class_labels=domain["labels"],
+                expected_label_order=domain["label_order"],
+                expected_label_set_sha256=domain["label_hash"],
+                expected_prompt_hashes=domain["prompt_hashes"],
+                minimum_calibration_n=cfg[domain["policy"]]["minimum_calibration_n"],
+                minimum_class_n=cfg[domain["policy"]]["minimum_class_n"],
             )
             authorization = validate_judge_validation_artifact(
                 cfg["paths"][domain["validation"]],
@@ -1280,6 +1317,7 @@ def _judge_gate(
                 expected_prompt_hashes=domain["prompt_hashes"],
                 expected_judge_identities=expected_identities,
                 expected_class_labels=domain["labels"],
+                expected_label_order=domain["label_order"],
                 expected_policy_sha256=_sha256_bytes(
                     _canonical_bytes(cfg[domain["policy"]])
                 ),

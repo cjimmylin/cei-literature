@@ -561,10 +561,41 @@ def test_s5_outputs_are_atomic_and_never_overwritten(tmp_path):
     written = run_pilot.write_outputs(res, "20990101", cfg)
     assert len(written) == 3
     manifest_path = next(path for path in written if path.name.endswith("-run-manifest.json"))
+    results_path = next(path for path in written if path.name.endswith("-pilot-results.json"))
+    heatmap_path = next(path for path in written if path.name.endswith("-mini-heatmap.md"))
     manifest = json.loads(manifest_path.read_text())
     assert manifest["input_fingerprints"]["items"]["n_files"] >= 120
     assert len(manifest["input_fingerprints"]["synthetic_reference"]["sha256"]) == 64
     assert len(manifest["persona"][0]["sha256"]) == 64
+    assert manifest["completion_marker"] is True
+    assert manifest["output_sha256"] == {
+        str(results_path.resolve()): run_pilot._sha256_file(results_path),
+        str(heatmap_path.resolve()): run_pilot._sha256_file(heatmap_path),
+    }
+    assert manifest["source_state"] == {
+        "commit": manifest["source_commit"],
+        "scoped_dirty": manifest["scoped_git_dirty"],
+        "scoped_status": manifest["scoped_git_status"],
+    }
+    inventory = manifest["bank_gold_inventory"]
+    assert len(inventory) == 63
+    assert len({row["item_id"] for row in inventory}) == 63
+    assert {row["status"] for row in inventory} == {"checked", "exploratory"}
+    assert all(
+        set(row)
+        == {
+            "item_id",
+            "status",
+            "bank_path",
+            "bank_sha256",
+            "gold_path",
+            "gold_sha256",
+        }
+        and Path(row["bank_path"]).is_file()
+        and Path(row["gold_path"]).is_file()
+        and len(row["bank_sha256"]) == len(row["gold_sha256"]) == 64
+        for row in inventory
+    )
     with pytest.raises(FileExistsError, match="refusing to overwrite"):
         run_pilot.write_outputs(res, "20990101", cfg)
 

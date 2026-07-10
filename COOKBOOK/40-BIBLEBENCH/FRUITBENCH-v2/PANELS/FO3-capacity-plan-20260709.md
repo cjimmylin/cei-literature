@@ -111,15 +111,21 @@ minimum supplied rules for the assigned track. They never infer motive, fill a m
 label, or convert a C2 response into `Fi/Wj/CFT/mixed/other`.
 
 The raw CSV for each track retains one row per rater assignment with exactly
-`response_id,rater_id,role,final_label,notes`. Every response needs exactly two independent
-primary rows. A disagreement needs exactly one independent adjudicator row; an
-adjudicator selects one closed label and does not overwrite the primary rows.
+`response_id,rater_id,role,final_label,task_correctness,event_codes,omission_codes,`
+`rubric_score,notes`. Event and omission cells are JSON arrays of registered exact codes.
+Construct rubric scores are integers 0–4; C2 rubric cells are blank or null. Every
+response needs exactly two independent primary rows. A disagreement in label, task
+correctness, event codes, omission codes, or construct rubric score needs exactly one
+independent adjudicator row resolving only the disputed dimensions. A primary-agreed
+dimension remains fixed and cannot be replaced to manufacture class support. Full
+agreement has no adjudicator, and adjudication never overwrites the primary rows.
 
 The raw prediction JSON for each track retains exactly one row for every
 response/J01 and response/J02 pair, including exact judge model, snapshot, vendor, family,
-final label, the complete class-probability vector, and `judge_refused`. Direct rater
-identifiers remain only in the restricted input copy. The salt is supplied through
-`FRUITBENCH_RATER_SALT` and is never serialized into benchmark evidence.
+final label, the complete class-probability vector, task correctness, registered event and
+omission code arrays, a construct rubric score (JSON null for C2), and `judge_refused`.
+Direct rater identifiers remain only in the restricted input copy. The salt is supplied
+through `FRUITBENCH_RATER_SALT` and is never serialized into benchmark evidence.
 
 ## Frozen validation policy
 
@@ -134,13 +140,31 @@ must be bound by both panel registries.
 
 For **each track independently**, the signed policy is hash-bound and requires:
 
-- human–human agreement ≥ 0.85 and weighted kappa ≥ 0.80;
+- human–human final-label agreement ≥ 0.85, nominal Gwet AC1 ≥ 0.80, and nominal
+  Krippendorff alpha ≥ 0.80;
+- human task-correctness agreement ≥ 0.85, event Jaccard ≥ 0.80, and omission Jaccard
+  ≥ 0.80;
 - per-class human agreement ≥ 0.80;
 - each judge macro-F1 ≥ 0.85, mean AUPRC ≥ 0.80, worst-class F1 ≥ 0.75, and agreement
   ≥ 0.80;
+- each judge task-correctness agreement ≥ 0.85, event micro-F1 ≥ 0.80, and omission
+  micro-F1 ≥ 0.80;
 - every class F1 and AUPRC ≥ 0.75 for each judge;
+- at least five assignments in every final class for each primary rater
+  (`minimum_class_n=5`), reported as primary-marginal support rather than inferred from
+  adjudicated labels;
+- at least two represented task-correctness categories in each domain;
+- at least three represented construct rubric scores;
+- nonempty positive event and omission support for human agreement and each judge's
+  micro-F1 (empty/empty comparisons are excluded, and zero-support metrics are undefined);
 - at least 48 calibration responses per judge; and
 - refusal-to-grade rate ≤ 0.05.
+
+Construct calibration additionally requires quadratic weighted final-label kappa ≥ 0.80
+using only the frozen semantic order `Wj,CFT,other,mixed,Fi`, human rubric quadratic
+weighted kappa ≥ 0.80 over 0–4, and judge rubric-within-one ≥ 0.90. C2 classes are nominal,
+not ordinal: the control policy contains no final-label weighted kappa, rubric score, human
+rubric kappa, or judge rubric-within-one.
 
 The harness recomputes every listed human and judge metric from the raw row-level files,
 recomputes the evidence digest, and requires exact agreement with the reported validation
@@ -191,7 +215,8 @@ FO-3 is complete for THORNS only when all of the following exist and validate to
 6. raw, complete J01/J02 prediction matrices for both decision spaces;
 7. exact Layer-E/Layer-R and Layer-E/Layer-control prompt hashes;
 8. exact, mutually disjoint non-OpenAI catalog identities for J01 and J02;
-9. recomputed human and class-stratified judge metrics for both tracks;
+9. recomputed final-class, Layer-E, and (construct-only) rubric human/judge metrics for
+   both tracks;
 10. construct and control panel registries binding the same qualified panel;
 11. `approved_for_live: true` construct and `thorns-control` validation artifacts whose
     reported metrics and evidence hashes match recomputation; and

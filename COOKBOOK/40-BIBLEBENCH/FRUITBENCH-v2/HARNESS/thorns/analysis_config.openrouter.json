@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "design": "thorns",
-  "preregistration_id": "THORNS-OPENROUTER-ANALYSIS-v2-20260710",
+  "preregistration_id": "THORNS-OPENROUTER-ANALYSIS-v3-20260710",
   "unit_of_inference": "item",
   "actors": ["A01", "A02", "A03"],
   "comparisons": [
@@ -21,7 +21,7 @@
     "registered_cue_primary_arm": "C1",
     "development_required_cue_arms": ["C0", "C1", "C2"],
     "confirmation_arm": "C3",
-    "confirmation_trigger": "ANY_HEADLINE_C3_ROW"
+    "confirmation_trigger": "ANY_LOCKED_PHASE_ROW"
   },
   "task_success_labels": ["correct"],
   "final_label_scores": {
@@ -48,12 +48,14 @@
   },
   "thresholds": {
     "smallest_effect_of_interest": 0.1,
+    "rubric_score_smallest_effect_of_interest": 0.3,
     "endpoint_item_rate": 0.9,
     "saturated_item_fraction": 0.9,
     "minimum_headline_items_per_actor": 8,
     "minimum_task_success_rate": 0.8,
     "stable_direction_fraction": 0.75,
     "maximum_null_false_positive_rate": 0.1,
+    "maximum_null_indeterminate_rate": 0.1,
     "maximum_counterbalanced_rank_reversal_fraction": 0.25,
     "maximum_cue_dominance_ratio": 1.0,
     "cue_model_interaction_report_threshold": 0.1,

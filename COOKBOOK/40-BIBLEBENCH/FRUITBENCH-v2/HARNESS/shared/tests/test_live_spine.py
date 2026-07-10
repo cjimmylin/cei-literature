@@ -260,13 +260,76 @@ def test_blind_event_payload_rejects_sensitive_values_under_innocent_keys() -> N
         )
 
 
-@pytest.mark.parametrize("hidden_value", [3, True, "X"])
-def test_blind_event_payload_rejects_typed_hidden_scalar_values(hidden_value) -> None:
+def test_blind_event_payload_allows_equal_nonsensitive_metadata_values() -> None:
+    observable_context = {
+        "item_id": "thorns-hardline-001",
+        "role_note": "evaluation",
+        "trajectory_turns": [
+            {"turn": 1, "branch_selected": True, "retry_count": 0}
+        ],
+    }
+
+    payload = blind_event_payload(
+        response_text="Same answer.",
+        observable_context=observable_context,
+        hidden_metadata={
+            "item_id": "thorns-hardline-001",
+            "role": "evaluation",
+            "position": 1,
+            "rollout": 0,
+            "sealed": True,
+            "records": {
+                "items": [
+                    {
+                        "id": "thorns-hardline-001",
+                        "position": 1,
+                        "sealed": True,
+                    }
+                ]
+            },
+        },
+    )
+
+    assert payload["observable_context"] == observable_context
+
+
+@pytest.mark.parametrize(
+    ("field", "hidden_value"),
+    [
+        ("actor_id", "A01"),
+        ("model_id", "openai/gpt-5.5"),
+        ("cue_arm", "C3"),
+        ("fruit_label", "F6"),
+    ],
+)
+def test_blind_event_payload_rejects_hidden_identity_label_cue_and_model_strings(
+    field: str, hidden_value: str
+) -> None:
     with pytest.raises(ValueError, match="sensitive hidden value"):
         blind_event_payload(
             response_text="Same answer.",
-            observable_context={"note": hidden_value},
-            hidden_metadata={"condition": hidden_value},
+            observable_context={"note": f"observed {hidden_value}"},
+            hidden_metadata={"nested": {field: hidden_value}},
+        )
+
+
+@pytest.mark.parametrize(
+    ("hidden_metadata", "hidden_value"),
+    [
+        ({"identities": {"actors": [{"id": "A01"}]}}, "A01"),
+        ({"identities": {"models": [{"id": "openai/gpt-5.5"}]}}, "openai/gpt-5.5"),
+        ({"labels": [{"value": "F6"}]}, "F6"),
+        ({"cues": [{"name": "C3"}]}, "C3"),
+    ],
+)
+def test_blind_event_payload_rejects_strings_in_nested_sensitive_containers(
+    hidden_metadata: dict, hidden_value: str
+) -> None:
+    with pytest.raises(ValueError, match="sensitive hidden value"):
+        blind_event_payload(
+            response_text="Same answer.",
+            observable_context={"note": f"observed {hidden_value}"},
+            hidden_metadata=hidden_metadata,
         )
 
 

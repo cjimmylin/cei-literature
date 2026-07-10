@@ -125,6 +125,55 @@ def condition_config(condition: str) -> Dict[str, Any]:
     return {"gen": {"max_tokens": 1024, "thinking": None}, "prompt_suffix": ""}
 
 
+# --------------------------------------------------------------------------- V-4 temperature (SA-6 / F-2)
+
+# Anthropic resource conditions that turn extended thinking ON. The Anthropic API rejects a
+# MODIFIED temperature with extended thinking (adaptive thinking), so V-4 drops the sampling param
+# for these conditions. Verified against the claude-api reference at build time.
+V4_TEMP_DROP_CONDITIONS = frozenset({"extended_thinking"})
+
+# Models that REJECT sampling params (temperature/top_p/top_k) entirely -> HTTP 400: Opus 4.7,
+# Opus 4.8, Fable 5, Mythos. Verified against the claude-api reference at build time. The P0 roster
+# (Opus 4.6 / Sonnet 4.6 / the claude-haiku-4-5 H-1 substitute) all ACCEPT temperature, so for the
+# real run this gate is inert — but it keys F-2's effective-temperature on model capability so a
+# future 4.7+/Fable subject would not 400 on every call regardless of the thinking condition.
+_SAMPLING_PARAM_REJECTOR_PREFIXES = (
+    "claude-opus-4-7", "claude-opus-4-8", "claude-fable-5",
+    "claude-mythos-5", "claude-mythos-preview",
+)
+
+
+def model_rejects_sampling_params(model_id: str) -> bool:
+    """True iff the model rejects temperature/top_p/top_k outright (Opus 4.7/4.8/Fable/Mythos)."""
+    m = str(model_id)
+    return any(m.startswith(p) for p in _SAMPLING_PARAM_REJECTOR_PREFIXES)
+
+
+def effective_temperature(
+    vendor: str, model_id: str, condition: str, requested_temperature: float,
+) -> Dict[str, Any]:
+    """Decide the API-compatible sampling temperature for one administration (SA-6 / F-2 + addendum).
+
+    Two independent drop channels, both decided PER (model, condition) — never on the bare
+    condition name (the OVERTURNED keying):
+      * Model-capability drop (addendum): Opus 4.7/4.8/Fable reject sampling params entirely, so
+        NOTHING is sent regardless of condition -> reason 'model_rejects_sampling_params'. This is
+        NOT a V-4 thinking drop (v4_temp_drop stays False), so it does not trigger the UNMEASURABLE
+        keying (a genuinely-dead cell on such a model must still count as DEAD).
+      * V-4 thinking drop: Anthropic extended_thinking rejects a modified temperature, so the
+        sampling param is OMITTED -> v4_temp_drop=True (the UNMEASURABLE trigger).
+    Returns {'effective_temperature', 'v4_temp_drop', 'omit_sampling_params', 'reason'}.
+    """
+    if model_rejects_sampling_params(model_id):
+        return {"effective_temperature": None, "v4_temp_drop": False,
+                "omit_sampling_params": True, "reason": "model_rejects_sampling_params"}
+    if vendor == "anthropic" and condition in V4_TEMP_DROP_CONDITIONS:
+        return {"effective_temperature": None, "v4_temp_drop": True,
+                "omit_sampling_params": True, "reason": "v4_extended_thinking_temp_drop"}
+    return {"effective_temperature": float(requested_temperature), "v4_temp_drop": False,
+            "omit_sampling_params": False, "reason": None}
+
+
 # --------------------------------------------------------------------------- keys & seeds
 
 def cell_key(item_id: str, model_id: str, condition: str, seed: int) -> CellKey:
@@ -340,11 +389,16 @@ class Orchestrator:
         frame=None, embed_idx=0,
     ) -> Dict[str, Any]:
         prompt = self.render_prompt(item, cfg, condition, frame, embed_idx, self.strict_prompts)
+        # F-2 / SA-6: decide the API-compatible sampling temperature per (model, condition). The
+        # adapter is told to OMIT the sampling param on a V-4 (or capability) drop — otherwise the
+        # run 400s on the first extended_thinking call (no drop path had existed upstream).
+        temp = effective_temperature(vendor, model["id"], condition, self.temperature)
         result = self.adapters[vendor].administer(
             prompt=prompt,
             model_id=model["id"],
             temperature=self.temperature,
             seed=seed,
+            omit_sampling_params=temp["omit_sampling_params"],
             **cfg["gen"],
         )
         self.n_administrations += 1
@@ -391,6 +445,13 @@ class Orchestrator:
             "content_tags": item.get("content_tags"),          # IB-3(a) within-domain sensitivity
             "is_discriminant_control": bool(item.get("is_discriminant_control")),  # IB-5 controls
             "resource_condition": condition,
+            # F-2 / SA-6 + addendum: per-record temperature bookkeeping. UNMEASURABLE keys on
+            # v4_temp_drop (per record); temp_drop_reason distinguishes the V-4 thinking drop from
+            # the model-capability drop (V-3-style disclosure).
+            "requested_temperature": self.temperature,
+            "effective_temperature": temp["effective_temperature"],
+            "v4_temp_drop": temp["v4_temp_drop"],
+            "temp_drop_reason": temp["reason"],
             "monitoring_frame": frame,   # X3 factor (WS-1 D8); None on an unframed run
             "seed": seed,
             "rep": rep,

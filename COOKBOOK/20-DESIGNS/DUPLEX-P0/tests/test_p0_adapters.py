@@ -50,6 +50,23 @@ def test_anthropic_adapter_thinking_condition():
     assert client.messages.last_kwargs["thinking"] == {"type": "adaptive"}
 
 
+def test_anthropic_adapter_omits_temperature_on_v4_drop():
+    """F-2 / SA-6: on a V-4 temperature drop the adapter must send NO sampling param — the current
+    API rejects a modified temperature with extended thinking (and Opus 4.7+/Fable reject it
+    outright). omit_sampling_params=True removes `temperature` from the request entirely."""
+    client = fx.make_fake_anthropic()
+    ad = AnthropicAdapter(client=client)
+    ad.administer("p", "claude-opus-4-6", temperature=0.7, seed=1,
+                  thinking={"type": "adaptive"}, omit_sampling_params=True)
+    assert "temperature" not in client.messages.last_kwargs
+    assert client.messages.last_kwargs["thinking"] == {"type": "adaptive"}
+    # default path still sends temperature (roster models accept it on non-thinking calls)
+    client2 = fx.make_fake_anthropic()
+    ad2 = AnthropicAdapter(client=client2)
+    ad2.administer("p", "claude-opus-4-6", temperature=0.7, seed=1)
+    assert client2.messages.last_kwargs["temperature"] == 0.7
+
+
 def test_anthropic_adapter_refusal_via_stop_reason():
     client = fx.make_fake_anthropic(text="Here.", stop_reason="refusal")
     ad = AnthropicAdapter(client=client)

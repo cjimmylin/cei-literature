@@ -10,6 +10,8 @@ from runner.orchestrator import (
     condition_config,
     per_condition_sd,
     refusal_report,
+    effective_temperature,
+    model_rejects_sampling_params,
     load_results,
     cell_key,
     seed_for,
@@ -186,6 +188,65 @@ def test_refusal_report_separates_admin_errors_from_refusals_with_vendor_asymmet
     # vendor asymmetry disclosure: Anthropic structured, Codex none
     assert rep["vendor_refusal_signal"]["anthropic"] == "structured"
     assert rep["vendor_refusal_signal"]["openai"] == "none"
+
+
+# --- F-2 / SA-6 + addendum: V-4 temperature drop + model-capability sampling gate -------------
+
+def test_effective_temperature_v4_drop_for_anthropic_extended_thinking():
+    """F-2 / SA-6: 'Implement the V-4 drop: for Anthropic extended_thinking, send the
+    API-compatible temperature (unset/default per current API requirement); all other calls keep
+    the run temperature.' The drop is keyed on vendor+condition and marks v4_temp_drop=True."""
+    d = effective_temperature("anthropic", "claude-opus-4-6", "extended_thinking", 0.7)
+    assert d["effective_temperature"] is None and d["omit_sampling_params"] is True
+    assert d["v4_temp_drop"] is True
+    # a non-thinking Anthropic call keeps the run temperature, no drop
+    d2 = effective_temperature("anthropic", "claude-opus-4-6", "standard", 0.7)
+    assert d2["effective_temperature"] == 0.7 and d2["omit_sampling_params"] is False
+    assert d2["v4_temp_drop"] is False
+    # Codex extended_thinking is NOT an Anthropic thinking call -> no V-4 drop
+    d3 = effective_temperature("openai", "gpt-5-codex", "extended_thinking", 0.7)
+    assert d3["v4_temp_drop"] is False and d3["omit_sampling_params"] is False
+
+
+def test_effective_temperature_model_capability_gate():
+    """F-2 addendum: 'temperature/top_p/top_k are REMOVED (400) on Opus 4.7, Opus 4.8, and Fable 5
+    ... for models that reject sampling params, send none, record requested_temperature +
+    effective_temperature=None + a reason flag.' The capability drop is distinct from the V-4
+    thinking drop (v4_temp_drop stays False) so it does NOT trigger UNMEASURABLE keying."""
+    for rej in ("claude-opus-4-7", "claude-opus-4-8", "claude-fable-5"):
+        assert model_rejects_sampling_params(rej) is True
+        d = effective_temperature("anthropic", rej, "standard", 0.7)
+        assert d["effective_temperature"] is None and d["omit_sampling_params"] is True
+        assert d["v4_temp_drop"] is False               # capability drop != V-4 thinking drop
+        assert d["reason"] == "model_rejects_sampling_params"
+    # the roster + H-1 substitute ACCEPT temperature (unaffected by the gate)
+    for ok in ("claude-opus-4-6", "claude-sonnet-4-6", "claude-haiku-4-5"):
+        assert model_rejects_sampling_params(ok) is False
+
+
+def test_records_carry_temperature_bookkeeping_and_adapter_omits_on_v4_drop():
+    """F-2 / SA-6: 'Every record carries requested_temperature, effective_temperature, and a
+    boolean v4_temp_drop.' The orchestrator must ALSO tell the adapter to omit the sampling param
+    on a V-4 drop (else the run 400s on the first extended_thinking call)."""
+    item = {"item_id": "X", "text": "T", "axis": "process"}
+    adapter = fx.FakeAdapter("anthropic")
+    orch = Orchestrator(
+        adapters={"anthropic": adapter}, models=[{"id": "claude-opus-4-6", "vendor": "anthropic"}],
+        item_bank=[item], conditions=["standard", "extended_thinking"],
+        scorer=fx.fake_scorer, reps=1, temperature=0.7,
+    )
+    recs = orch.run()
+    by_cond = {r["resource_condition"]: r for r in recs}
+    std, ext = by_cond["standard"], by_cond["extended_thinking"]
+    assert std["requested_temperature"] == 0.7
+    assert std["effective_temperature"] == 0.7 and std["v4_temp_drop"] is False
+    assert ext["requested_temperature"] == 0.7
+    assert ext["effective_temperature"] is None and ext["v4_temp_drop"] is True
+    # adapter received the omit flag exactly for the extended_thinking (V-4) call
+    gen_by_cond = {c["gen"].get("thinking") is not None: c["gen"].get("omit_sampling_params")
+                   for c in adapter.calls}
+    assert gen_by_cond[True] is True    # thinking call -> omit sampling params
+    assert gen_by_cond[False] is False  # standard call -> keep sampling params
 
 
 # --- WS-1 D9: stance-polarity reverse-scoring applied AT RECORD CREATION (R-1) ----------------

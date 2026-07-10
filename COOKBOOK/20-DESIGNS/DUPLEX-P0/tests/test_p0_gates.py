@@ -92,21 +92,47 @@ def test_g1b_thin_base_downgrades_to_provisional():
     assert res["verdict"] == "PROVISIONAL"
 
 
-def test_g1_unmeasurable_cell_excluded_from_both_num_and_denom():
-    """Ruling G1-b / V-4: 'Cells coded UNMEASURABLE under V-4 count in neither numerator nor
-    denominator.' A constant (SD~0) cell in a temperature-dropped condition is UNMEASURABLE, not
-    DEAD -- it must appear in unmeasurable_cells, NOT dead_cells, and must not lower the live
-    fraction denominator.
-    """
-    res = process_beats_content(
-        fx.g1_unmeasurable(), epsilon=0.02, unmeasurable_conditions={"extended_thinking"}
-    )
+def test_g1_unmeasurable_cell_keyed_on_per_record_v4_drop():
+    """Ruling G1-b / V-4 (F-2/SA-6): 'UNMEASURABLE iff SD~0 AND all records in the (model, item,
+    condition) cell have v4_temp_drop=True.' A constant (SD~0) cell whose records all ran under the
+    V-4 temperature drop is UNMEASURABLE, not DEAD -- it appears in unmeasurable_cells, NOT
+    dead_cells, and does not lower the live-fraction denominator. No bare condition-name flag is
+    passed (that keying is OVERTURNED)."""
+    res = process_beats_content(fx.g1_unmeasurable(), epsilon=0.02)
     um = {(c["model_id"], c["condition"]) for c in res["unmeasurable_cells"]}
     assert ("mA", "extended_thinking") in um
-    dead = {(d["model_id"]) for d in res["dead_cells"]}
+    dead = {d["model_id"] for d in res["dead_cells"]}
     assert "mA" not in dead                          # mA's SD~0 cell is unmeasurable, not dead
     # mA's pair is excluded from the denominator; only mB/mC live pairs remain -> fraction 1.0
     assert res["live_cell_fraction"] == 1.0
+
+
+def test_g1_sd_zero_codex_cell_same_condition_is_dead_not_unmeasurable():
+    """F-2 / SA-6 required test: 'an SD~0 cell in the same condition WITHOUT the drop (e.g. a Codex
+    cell) must be coded DEAD, not UNMEASURABLE.' Two models share the extended_thinking condition
+    and both are SD~0 there; the keying is PER RECORD (v4_temp_drop), never condition-name-wide:
+      * mDrop (v4_temp_drop=True)  -> UNMEASURABLE (neither numerator nor denominator)
+      * mCodex (v4_temp_drop=False) -> DEAD (denominator only)."""
+    res = process_beats_content(fx.g1_v4_keying_by_record(), epsilon=0.02)
+    unmeasurable = {c["model_id"] for c in res["unmeasurable_cells"]}
+    dead = {d["model_id"] for d in res["dead_cells"]}
+    assert "mDrop" in unmeasurable and "mDrop" not in dead
+    assert "mCodex" in dead and "mCodex" not in unmeasurable   # same condition, coded DEAD
+
+
+def test_g1_unmeasurable_override_is_scoped_to_model_condition_tuple():
+    """F-2 / SA-6: 'The caller-supplied override may remain for patterns the automatic path
+    misses, but scoped to (model_id, condition) tuples -- bare condition names are removed.' A
+    scoped override flips the non-dropped Codex SD~0 cell to UNMEASURABLE; a bare condition name
+    would (wrongly) also catch every other model's cell in that condition."""
+    res = process_beats_content(
+        fx.g1_v4_keying_by_record(), epsilon=0.02,
+        unmeasurable_overrides={("mCodex", "extended_thinking")},
+    )
+    unmeasurable = {c["model_id"] for c in res["unmeasurable_cells"]}
+    assert "mCodex" in unmeasurable                  # scoped override applied
+    # the live models are NOT swept in by the override (it is (model, condition)-scoped)
+    assert "mLiveA" not in unmeasurable and "mLiveB" not in unmeasurable
 
 
 # --------------------------------------------------------------------------- G2

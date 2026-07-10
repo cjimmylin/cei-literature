@@ -54,20 +54,23 @@ def _group_scores(records: Sequence[dict], *keys):
 
 def _cell_state(
     scores: Sequence[float],
-    condition: str,
     sd_dead_threshold: float,
-    unmeasurable_conditions: set,
+    *,
+    v4_dropped: bool,
+    override: bool,
 ) -> str:
-    """Three-state cell coding (ruling G1-b / V-4): 'live' | 'dead' | 'unmeasurable' |
-    'incomplete'. A cell with < 2 reps is 'incomplete' (cannot judge liveness). A cell with
+    """Three-state cell coding (ruling G1-b / V-4; SA-6 keying): 'live' | 'dead' | 'unmeasurable'
+    | 'incomplete'. A cell with < 2 reps is 'incomplete' (cannot judge liveness). A cell with
     across-reps SD > threshold is 'live'. A near-constant cell is 'unmeasurable' (config
-    determinism) if its condition ran under a V-4 temperature drop, else 'dead' (content-domain
-    correct-answer signature)."""
+    determinism) IFF every record in the cell ran under a V-4 temperature drop (``v4_dropped``) OR
+    the caller's (model_id, condition)-scoped override marks it; else 'dead' (content-domain
+    correct-answer signature). Keyed PER RECORD, never on the bare condition name -- so a constant
+    cell in the same condition WITHOUT the drop (e.g. a Codex cell) codes DEAD, not UNMEASURABLE."""
     if len(scores) < 2:
         return "incomplete"
     if sample_sd(scores) > sd_dead_threshold:
         return "live"
-    return "unmeasurable" if condition in unmeasurable_conditions else "dead"
+    return "unmeasurable" if (v4_dropped or override) else "dead"
 
 
 def process_beats_content(
@@ -78,7 +81,7 @@ def process_beats_content(
     low_condition: str = "forced_immediate",
     standard_condition: str = "standard",
     live_cell_floor: float = 0.40,
-    unmeasurable_conditions: Optional[set] = None,
+    unmeasurable_overrides: Optional[set] = None,
 ) -> dict:
     """G1 — Process beats content on discrimination (§7 row G1; rulings G1-a / G1-b).
 
@@ -102,13 +105,17 @@ def process_beats_content(
     (the near-zero-denominator failure mode) it returns None and the gate FAILS. The process and
     content CVs are computed over the SAME model set (roster intersection -- D4).
     """
-    unmeasurable_conditions = set(unmeasurable_conditions or ())
+    unmeasurable_overrides = set(unmeasurable_overrides or ())
     proc = [r for r in _live(results) if r.get("axis") == "process"]
 
     # scores grouped by (model, item, condition) so liveness/deltas are per-item, not pooled
     cells: Dict[tuple, List[float]] = defaultdict(list)
+    # per-cell V-4 drop status (SA-6): True iff EVERY record in the cell has v4_temp_drop=True.
+    cell_v4drop: Dict[tuple, bool] = {}
     for r in proc:
-        cells[(r["model_id"], r["item_id"], r["resource_condition"])].append(float(r["score"]))
+        ck = (r["model_id"], r["item_id"], r["resource_condition"])
+        cells[ck].append(float(r["score"]))
+        cell_v4drop[ck] = cell_v4drop.get(ck, True) and bool(r.get("v4_temp_drop"))
 
     models = sorted({m for (m, _i, _c) in cells})
     items = sorted({i for (_m, i, _c) in cells})
@@ -126,8 +133,16 @@ def process_beats_content(
             lo = cells.get((model, item, low_condition))
             if hi is None or lo is None:
                 continue  # not a process pair for this (model, item)
-            hs = _cell_state(hi, high_condition, sd_dead_threshold, unmeasurable_conditions)
-            ls = _cell_state(lo, low_condition, sd_dead_threshold, unmeasurable_conditions)
+            hs = _cell_state(
+                hi, sd_dead_threshold,
+                v4_dropped=cell_v4drop.get((model, item, high_condition), False),
+                override=(model, high_condition) in unmeasurable_overrides,
+            )
+            ls = _cell_state(
+                lo, sd_dead_threshold,
+                v4_dropped=cell_v4drop.get((model, item, low_condition), False),
+                override=(model, low_condition) in unmeasurable_overrides,
+            )
             if hs == "incomplete" or ls == "incomplete":
                 continue
             if hs == "unmeasurable" or ls == "unmeasurable":
@@ -437,7 +452,8 @@ def run_p0_gates(results: Sequence[dict], config: Optional[dict] = None) -> dict
         low_condition=cfg.get("g1_low_condition", "forced_immediate"),
         standard_condition=cfg.get("g1_standard_condition", "standard"),
         live_cell_floor=cfg.get("g1_live_cell_floor", 0.40),
-        unmeasurable_conditions=cfg.get("g1_unmeasurable_conditions"),
+        # SA-6: caller override is (model_id, condition)-scoped tuples, not bare condition names.
+        unmeasurable_overrides=cfg.get("g1_unmeasurable_overrides"),
     )
     g2 = pairwise_separation(
         results,

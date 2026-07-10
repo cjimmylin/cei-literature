@@ -99,6 +99,7 @@ def _cell(
     item_id: str = "i1",
     monitoring_frame: Optional[str] = None,
     greene_subset: bool = False,
+    v4_temp_drop: bool = False,
 ) -> None:
     for rep in range(n):
         val = mean if constant else _clip(rng.gauss(mean, sd))
@@ -115,6 +116,9 @@ def _cell(
                 "rep": rep,
                 "score": val,
                 "refusal": False,
+                # F-2 / V-4: per-record temperature-drop flag. UNMEASURABLE is keyed on this
+                # (per record), NOT on the bare condition name (SA-6).
+                "v4_temp_drop": v4_temp_drop,
             }
         )
 
@@ -131,14 +135,14 @@ SD = 0.015
 # NOT on standard (which must stay converged for a G1 pass) -- both use the same records.
 
 def _g1_item_block(r, model, fi, ext, std, rng, items=("i1", "i2"), fi_const=False,
-                   ext_const=False):
+                   ext_const=False, ext_v4drop=False, vendor="anthropic"):
     for it in items:
-        _cell(r, model, "anthropic", "process", "forced_immediate", fi, SD, N, rng,
+        _cell(r, model, vendor, "process", "forced_immediate", fi, SD, N, rng,
               constant=fi_const, item_id=it)
-        _cell(r, model, "anthropic", "process", "extended_thinking", ext, SD, N, rng,
-              constant=ext_const, item_id=it)
+        _cell(r, model, vendor, "process", "extended_thinking", ext, SD, N, rng,
+              constant=ext_const, item_id=it, v4_temp_drop=ext_v4drop)
         if std is not None:
-            _cell(r, model, "anthropic", "process", "standard", std, SD, N, rng, item_id=it)
+            _cell(r, model, vendor, "process", "standard", std, SD, N, rng, item_id=it)
 
 
 def g1_pass() -> List[Dict[str, Any]]:
@@ -220,14 +224,34 @@ def g1_provisional_thin_base() -> List[Dict[str, Any]]:
 
 
 def g1_unmeasurable() -> List[Dict[str, Any]]:
-    """D7/V-4: mA's extended_thinking cell is constant (SD~0) but that condition ran under a
-    temperature drop -> UNMEASURABLE (config determinism), excluded from BOTH numerator and
-    denominator -- NOT counted as a dead cell. mB/mC give a valid CV."""
+    """D7 / V-4 (F-2 keying): mA's extended_thinking cell is constant (SD~0) AND every record in
+    that cell carries v4_temp_drop=True (it ran under the V-4 temperature drop) -> UNMEASURABLE
+    (config determinism), excluded from BOTH numerator and denominator -- NOT a dead cell.
+    mB/mC give a valid CV. Keyed per-record, not on the bare condition name (SA-6)."""
     rng = random.Random(18)
     r: List[Dict[str, Any]] = []
-    _g1_item_block(r, "mA", 0.50, 0.70, 0.50, rng, items=("i1",), ext_const=True)  # unmeasurable
+    # mA ext cell constant + v4-dropped -> unmeasurable
+    _g1_item_block(r, "mA", 0.50, 0.70, 0.50, rng, items=("i1",), ext_const=True, ext_v4drop=True)
     _g1_item_block(r, "mB", 0.50, 0.90, 0.50, rng, items=("i1",))
     _g1_item_block(r, "mC", 0.50, 0.55, 0.50, rng, items=("i1",))
+    return r
+
+
+def g1_v4_keying_by_record() -> List[Dict[str, Any]]:
+    """F-2 / V-4 required-test fixture: TWO models, SAME extended_thinking condition, both SD~0 in
+    that condition, coded DIFFERENTLY by the per-record v4_temp_drop flag (SA-6):
+      * mDrop (anthropic): ext records v4_temp_drop=True  -> UNMEASURABLE (excluded from both)
+      * mCodex (openai):   ext records v4_temp_drop=False -> DEAD (denominator only)
+    mLiveA/mLiveB provide live pairs so the cross-model CV is defined. This proves the keying is
+    per-record, not condition-name-wide (a Codex SD~0 cell in the SAME condition is DEAD)."""
+    rng = random.Random(19)
+    r: List[Dict[str, Any]] = []
+    _g1_item_block(r, "mDrop", 0.50, 0.70, 0.50, rng, items=("i1",),
+                   ext_const=True, ext_v4drop=True, vendor="anthropic")   # unmeasurable
+    _g1_item_block(r, "mCodex", 0.50, 0.70, 0.50, rng, items=("i1",),
+                   ext_const=True, ext_v4drop=False, vendor="openai")     # dead (no drop)
+    _g1_item_block(r, "mLiveA", 0.50, 0.90, 0.50, rng, items=("i1",), vendor="anthropic")
+    _g1_item_block(r, "mLiveB", 0.50, 0.55, 0.50, rng, items=("i1",), vendor="anthropic")
     return r
 
 

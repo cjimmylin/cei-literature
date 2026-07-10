@@ -224,6 +224,7 @@ class AnthropicAdapter(BaseAdapter):
         max_tokens: int = 1024,
         thinking: Optional[Dict[str, Any]] = None,
         system: Optional[str] = None,
+        omit_sampling_params: bool = False,
         **_: Any,
     ) -> AdapterResult:
         # NOTE(seed): the Anthropic Messages API exposes no `seed` parameter. `seed` is retained
@@ -232,9 +233,12 @@ class AnthropicAdapter(BaseAdapter):
         params: Dict[str, Any] = {
             "model": model_id,
             "max_tokens": max_tokens,
-            "temperature": temperature,
             "messages": [{"role": "user", "content": prompt}],
         }
+        # F-2 / SA-6: omit the sampling param entirely on a V-4 (or model-capability) drop. Sending
+        # `temperature` with extended thinking — or on any Opus 4.7+/Fable subject — is a 400.
+        if not omit_sampling_params:
+            params["temperature"] = temperature
         if system:
             params["system"] = system
         if thinking:

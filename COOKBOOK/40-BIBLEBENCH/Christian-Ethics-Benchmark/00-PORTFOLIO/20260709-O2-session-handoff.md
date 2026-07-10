@@ -98,15 +98,16 @@ adjudication) → O6 (findings/deck v2).
 
 ## 7. Blocked on Jimmy (unblocks O3+)
 
-Multi-vendor **credentials** (Anthropic + ≥1 non-Anthropic family for cross-family judges) —
-**a key OR OAuth CLI both work** (adapters are credential-source-agnostic; see
-`harness/README.md` → Auth). Anthropic: `ANTHROPIC_API_KEY` **or** `ant auth login`; OpenAI:
-`OPENAI_API_KEY` **or** the Codex OAuth CLI. OAuth is fine for the **O3 pilot**; for the long
-**O4 panel** prefer keys/WIF (env-var OAuth tokens don't auto-refresh and rate-limit harder),
-and the ≥6-model panel across more vendors (Gemini…) will still want keys. Also owed:
-**~60 items/design human labels** for the judge-validity gate (§3.4); PR-1/PR-2 rulings;
-release decisions. **O2 needed none of these.** O3-wiring caution: don't send
-`temperature`/`top_p` to Opus 4.7+/Fable (they 400 — adaptive thinking only).
+Multi-vendor **credentials** (Anthropic + ≥1 non-Anthropic family for cross-family judges).
+Adapters are credential-source-agnostic (key OR OAuth; see `harness/README.md` → Auth), **but the
+ToS split is what governs use:** subscription CLIs (`claude -p`, Codex CLI) are **smoke-only** —
+Jimmy's pinned choice for the **O3 mechanics smoke** (cross-family = Codex). The **measurement**
+path — the full §1 3×5/design P0 pilot and the **O4 gated panel** — needs the sanctioned
+Developer-Platform API on **both** vendors (Anthropic key/WIF + OpenAI key); the ≥6-model panel
+across more vendors (Gemini…) also needs keys. Also owed: **~60 items/design human labels** for
+the judge-validity gate (§3.4); PR-1/PR-2 rulings; release decisions. **O2 needed none of these.**
+O3-wiring caution: don't send `temperature`/`top_p` to Opus 4.7+/Fable (they 400 — adaptive
+thinking only). Re-entry ignition: `00-PORTFOLIO/20260709-O3-next-session-prompt.md`.
 
 ## 8. Standing cautions (unchanged from O1)
 

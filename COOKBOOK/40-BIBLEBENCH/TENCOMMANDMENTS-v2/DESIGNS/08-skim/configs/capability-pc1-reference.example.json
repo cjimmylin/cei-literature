@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "status": "NOT_ESTIMABLE",
+  "source_snapshot": null,
+  "source_sha256": null,
+  "benchmark_columns": [],
+  "model_rows": [],
+  "missing_data_rule": null,
+  "standardization": null,
+  "pc1_sign": null,
+  "pc1_loadings": {},
+  "projected_scores": {},
+  "content_sha256": null
+}

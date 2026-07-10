@@ -61,6 +61,21 @@ def test_cue_surface_is_frozen_and_complete_quartets_are_canonicalized() -> None
         canonical[0].text = "mutated"
 
 
+def test_cue_classes_are_defensively_frozen() -> None:
+    api = _api()
+    classes = ["narrated_motive_or_polarity", "order_or_position"]
+    rows = _quartet()
+    rows[0] = replace(rows[0], cue_classes=classes)
+
+    canonical = api.validate_surface_quartets(rows)
+    classes.append("monitoring_or_evaluation_awareness")
+
+    assert canonical[0].cue_classes == (
+        "narrated_motive_or_polarity",
+        "order_or_position",
+    )
+
+
 @pytest.mark.parametrize(
     ("mutate", "message"),
     [
@@ -346,4 +361,31 @@ def test_locked_schedule_uses_only_c3_and_rejects_reused_schedule_hash() -> None
             phase="locked-confirmation",
             development_surface_ids=development_surface_ids,
             development_schedule_hashes={locked.schedule_hash},
+        )
+
+
+def test_collection_parameters_reject_bare_strings() -> None:
+    api = _api()
+    registry = _quartet()
+
+    with pytest.raises(api.CounterbalanceError, match="collection"):
+        api.compile_cue_surfaces(
+            registry,
+            phase="development",
+            requested_surface_ids=registry[0].surface_id,
+        )
+    with pytest.raises(api.CounterbalanceError, match="collection"):
+        api.compile_cue_surfaces(
+            registry,
+            phase="locked-confirmation",
+            development_surface_ids=registry[0].surface_id,
+        )
+    with pytest.raises(api.CounterbalanceError, match="collection"):
+        api.build_latin_square_schedule(
+            actors=("A01",),
+            surfaces=registry,
+            rollouts=2,
+            phase="locked-confirmation",
+            development_surface_ids={surface.surface_id for surface in registry[:3]},
+            development_schedule_hashes="0" * 64,
         )

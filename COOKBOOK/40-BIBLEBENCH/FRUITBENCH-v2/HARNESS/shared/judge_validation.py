@@ -31,6 +31,7 @@ _REQUIRED_TOP_LEVEL = frozenset(
         "label_set_sha256",
         "human_label_set_sha256",
         "prompt_hashes",
+        "policy",
         "human_human",
         "judges",
         "human_availability",
@@ -59,6 +60,16 @@ _REQUIRED_JUDGE_FIELDS = frozenset(
     }
 )
 _PROMPT_LAYERS = frozenset({"layer_e", "layer_r"})
+_POLICY_FIELDS = frozenset(
+    {
+        "human_human_thresholds",
+        "human_by_class_thresholds",
+        "judge_thresholds",
+        "judge_by_class_thresholds",
+        "minimum_calibration_n",
+        "maximum_refusal_rate",
+    }
+)
 
 
 class JudgeValidationError(ValueError):
@@ -341,9 +352,119 @@ def _validate_expected_class_labels(value: Any) -> frozenset[str]:
     return frozenset(labels)
 
 
+def _canonical_mapping_sha256(value: Mapping[str, Any]) -> str:
+    _validate_mapping_json_types(value, "policy")
+    encoded = json.dumps(
+        value,
+        sort_keys=True,
+        separators=(",", ":"),
+        ensure_ascii=False,
+        allow_nan=False,
+    ).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def _policy_thresholds(
+    value: Any,
+    field: str,
+    required_names: frozenset[str],
+) -> dict[str, float]:
+    thresholds = _mapping(value, field)
+    if set(thresholds) != required_names:
+        raise _fail(f"policy {field} must contain exactly {sorted(required_names)}")
+    result: dict[str, float] = {}
+    for name, raw in thresholds.items():
+        numeric = _finite_number(raw, f"policy.{field}.{name}")
+        if not 0.0 <= numeric <= 1.0:
+            raise _fail(f"policy.{field}.{name} must be within [0, 1]")
+        result[name] = numeric
+    return result
+
+
+def _validate_policy(
+    value: Any,
+    *,
+    expected_sha256: str,
+    expected_classes: frozenset[str],
+) -> dict[str, Any]:
+    policy = _mapping(value, "policy")
+    if set(policy) != _POLICY_FIELDS:
+        raise _fail(f"policy must contain exactly {sorted(_POLICY_FIELDS)}")
+    actual_hash = _canonical_mapping_sha256(policy)
+    if actual_hash.casefold() != expected_sha256.casefold():
+        raise _fail("policy hash does not match expected_policy_sha256")
+
+    human_top_raw = _mapping(
+        policy["human_human_thresholds"], "policy.human_human_thresholds"
+    )
+    if "agreement" not in human_top_raw:
+        raise _fail("policy.human_human_thresholds must include agreement")
+    human_top = _policy_thresholds(
+        human_top_raw,
+        "human_human_thresholds",
+        frozenset(human_top_raw),
+    )
+    judge_top = _policy_thresholds(
+        policy["judge_thresholds"],
+        "judge_thresholds",
+        _REQUIRED_JUDGE_METRICS,
+    )
+
+    def by_class(
+        raw: Any, field: str, required: frozenset[str]
+    ) -> dict[str, dict[str, float]]:
+        blocks = _mapping(raw, f"policy.{field}")
+        if set(blocks) != expected_classes:
+            raise _fail(f"policy.{field} must match expected_class_labels")
+        return {
+            label: _policy_thresholds(
+                blocks[label], f"{field}.{label}", required
+            )
+            for label in expected_classes
+        }
+
+    minimum_n = policy["minimum_calibration_n"]
+    if isinstance(minimum_n, bool) or not isinstance(minimum_n, int) or minimum_n <= 0:
+        raise _fail("policy.minimum_calibration_n must be a positive integer")
+    maximum_refusal = _finite_number(
+        policy["maximum_refusal_rate"], "policy.maximum_refusal_rate"
+    )
+    if not 0.0 <= maximum_refusal <= 1.0:
+        raise _fail("policy.maximum_refusal_rate must be within [0, 1]")
+    return {
+        "human_human_thresholds": human_top,
+        "human_by_class_thresholds": by_class(
+            policy["human_by_class_thresholds"],
+            "human_by_class_thresholds",
+            _REQUIRED_HUMAN_CLASS_METRICS,
+        ),
+        "judge_thresholds": judge_top,
+        "judge_by_class_thresholds": by_class(
+            policy["judge_by_class_thresholds"],
+            "judge_by_class_thresholds",
+            _REQUIRED_JUDGE_CLASS_METRICS,
+        ),
+        "minimum_calibration_n": minimum_n,
+        "maximum_refusal_rate": maximum_refusal,
+    }
+
+
+def _require_thresholds_match(
+    actual: Any, expected: Mapping[str, float], field: str
+) -> None:
+    thresholds = _mapping(actual, field)
+    if set(thresholds) != set(expected):
+        raise _fail(f"{field} does not match policy thresholds")
+    for name, expected_value in expected.items():
+        actual_value = _finite_number(thresholds[name], f"{field}.{name}")
+        if not math.isclose(actual_value, expected_value, abs_tol=1e-12):
+            raise _fail(f"{field}.{name} does not match policy threshold")
+
+
 def _validate_judges(
     raw_judges: Any,
     expected_identities: Mapping[str, Mapping[str, str]],
+    policy: Mapping[str, Any],
 ) -> frozenset[str]:
     if not isinstance(raw_judges, list) or len(raw_judges) < 2:
         raise _fail("judges must contain at least two validated judges")
@@ -400,6 +521,11 @@ def _validate_judges(
             required_metrics=_REQUIRED_JUDGE_METRICS,
             bounds=(0.0, 1.0),
         )
+        _require_thresholds_match(
+            judge["thresholds"],
+            policy["judge_thresholds"],
+            f"{field}.thresholds",
+        )
         class_names, class_blocks = _class_metric_blocks(
             judge,
             field,
@@ -409,6 +535,12 @@ def _validate_judges(
             shared_classes = class_names
         elif class_names != shared_classes:
             raise _fail("all judges must report the same by_class labels")
+        for label in class_names:
+            _require_thresholds_match(
+                class_blocks[label]["thresholds"],
+                policy["judge_by_class_thresholds"][label],
+                f"{field}.by_class.{label}.thresholds",
+            )
         observed_worst = min(
             _finite_number(
                 class_blocks[label]["metrics"]["f1"],
@@ -431,6 +563,10 @@ def _validate_judges(
             or calibration_n <= 0
         ):
             raise _fail(f"{field}.calibration_n must be a positive integer")
+        if calibration_n < policy["minimum_calibration_n"]:
+            raise _fail(
+                f"{field}.calibration_n is below policy minimum_calibration_n"
+            )
         refusal = _finite_number(judge["refusal_rate"], f"{field}.refusal_rate")
         maximum = _finite_number(
             judge["max_refusal_rate"], f"{field}.max_refusal_rate"
@@ -439,6 +575,10 @@ def _validate_judges(
             raise _fail(f"{field} refusal rates must be within [0, 1]")
         if refusal > maximum:
             raise _fail(f"{field} refusal_rate exceeds its declared maximum")
+        if maximum > policy["maximum_refusal_rate"]:
+            raise _fail(
+                f"{field}.max_refusal_rate exceeds policy maximum_refusal_rate"
+            )
     if observed_ids != set(expected_identities):
         raise _fail(
             "judges must match expected_judge_identities exactly"
@@ -477,6 +617,7 @@ def validate_judge_validation_artifact(
     expected_prompt_hashes: Mapping[str, str],
     expected_judge_identities: Mapping[str, Mapping[str, str]],
     expected_class_labels: Collection[str],
+    expected_policy_sha256: str,
 ) -> ValidatedJudgeValidation:
     """Validate a human judge artifact against current immutable inputs.
 
@@ -502,6 +643,9 @@ def validate_judge_validation_artifact(
         expected_judge_identities
     )
     expected_classes = _validate_expected_class_labels(expected_class_labels)
+    expected_policy_hash = _sha256(
+        expected_policy_sha256, "expected_policy_sha256"
+    )
 
     raw = _source_bytes(source)
     record = _parse_json(raw)
@@ -516,6 +660,11 @@ def validate_judge_validation_artifact(
         raise _fail("design does not match the expected design")
     if record["approved_for_live"] is not True:
         raise _fail("approved_for_live must be exactly true")
+    policy = _validate_policy(
+        record["policy"],
+        expected_sha256=expected_policy_hash,
+        expected_classes=expected_classes,
+    )
 
     label_hash = _sha256(record["label_set_sha256"], "label_set_sha256")
     human_label_hash = _sha256(
@@ -539,12 +688,25 @@ def validate_judge_validation_artifact(
         required_metrics=_REQUIRED_HUMAN_METRICS,
         bounds=(-1.0, 1.0),
     )
+    _require_thresholds_match(
+        record["human_human"]["thresholds"],
+        policy["human_human_thresholds"],
+        "human_human.thresholds",
+    )
     human_classes, _human_blocks = _class_metric_blocks(
         _mapping(record["human_human"], "human_human"),
         "human_human",
         required_metrics=_REQUIRED_HUMAN_CLASS_METRICS,
     )
-    judge_classes = _validate_judges(record["judges"], expected_identities)
+    for label in human_classes:
+        _require_thresholds_match(
+            _human_blocks[label]["thresholds"],
+            policy["human_by_class_thresholds"][label],
+            f"human_human.by_class.{label}.thresholds",
+        )
+    judge_classes = _validate_judges(
+        record["judges"], expected_identities, policy
+    )
     if human_classes != expected_classes or judge_classes != expected_classes:
         raise _fail(
             "human and judge by_class coverage must equal expected_class_labels"

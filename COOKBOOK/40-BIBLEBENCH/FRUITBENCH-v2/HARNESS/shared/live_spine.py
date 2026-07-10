@@ -82,12 +82,19 @@ _COMPACT_HIDDEN_PREFIXES = (
     "taskarm",
     "vendor",
 )
+_SENSITIVE_ASSIGNMENT = re.compile(
+    r"\b(?:actor|judge|human|rater|model|vendor|family|fruit|gold|cue[ _-]*arm|"
+    r"task[ _-]*arm|condition|version)\b\s*[:=]",
+    re.IGNORECASE,
+)
 
 
 def _nonblank(value: Any, field: str) -> str:
     if not isinstance(value, str) or not value.strip():
         raise ValueError(f"{field} must be a non-blank exact identity")
-    return value.strip()
+    if value != value.strip():
+        raise ValueError(f"{field} must not contain surrounding whitespace")
+    return value
 
 
 def _normalise_role(role: Any) -> str:
@@ -159,7 +166,34 @@ def _hidden_key(tokens: tuple[str, ...], path: tuple[str, ...]) -> bool:
     return has_prior and has_ballot
 
 
-def _blind_value(value: Any, path: tuple[str, ...] = ()) -> Any:
+def _hidden_scalar_tokens(value: Any) -> frozenset[str]:
+    tokens: set[str] = set()
+    if isinstance(value, Mapping):
+        for child in value.values():
+            tokens.update(_hidden_scalar_tokens(child))
+    elif isinstance(value, (list, tuple)):
+        for child in value:
+            tokens.update(_hidden_scalar_tokens(child))
+    elif isinstance(value, str) and len(value.strip()) >= 2:
+        tokens.add(value.strip().casefold())
+    return frozenset(tokens)
+
+
+def _sensitive_value(value: str, hidden_tokens: frozenset[str]) -> bool:
+    if _SENSITIVE_ASSIGNMENT.search(value):
+        return True
+    folded = value.casefold()
+    return any(
+        re.search(rf"(?<![a-z0-9]){re.escape(token)}(?![a-z0-9])", folded)
+        for token in hidden_tokens
+    )
+
+
+def _blind_value(
+    value: Any,
+    path: tuple[str, ...] = (),
+    hidden_tokens: frozenset[str] = frozenset(),
+) -> Any:
     if isinstance(value, Mapping):
         blinded: dict[str, Any] = {}
         for key in sorted(value):
@@ -168,10 +202,16 @@ def _blind_value(value: Any, path: tuple[str, ...] = ()) -> Any:
             tokens = _key_tokens(key)
             if _hidden_key(tokens, path):
                 continue
-            blinded[key] = _blind_value(value[key], path + tokens)
+            blinded[key] = _blind_value(
+                value[key], path + tokens, hidden_tokens
+            )
         return blinded
     if isinstance(value, (list, tuple)):
-        return [_blind_value(element, path) for element in value]
+        return [_blind_value(element, path, hidden_tokens) for element in value]
+    if isinstance(value, str) and _sensitive_value(value, hidden_tokens):
+        raise ValueError(
+            "observable_context contains a sensitive hidden value under an allowed key"
+        )
     return value
 
 
@@ -194,8 +234,11 @@ def blind_event_payload(
         raise ValueError("observable_context must be an object")
     if not isinstance(hidden_metadata, Mapping):
         raise ValueError("hidden_metadata must be an object")
+    hidden_tokens = _hidden_scalar_tokens(hidden_metadata)
     return {
-        "observable_context": _blind_value(observable_context),
+        "observable_context": _blind_value(
+            observable_context, hidden_tokens=hidden_tokens
+        ),
         "response_text": response_text,
     }
 
@@ -362,6 +405,9 @@ def validate_role_separation(principals: Sequence[Principal]) -> None:
         raise ValueError("principals must be a sequence")
     if any(not isinstance(principal, Principal) for principal in principals):
         raise ValueError("principals must contain only Principal records")
+    opaque_ids = [principal.opaque_id for principal in principals]
+    if len(set(opaque_ids)) != len(opaque_ids):
+        raise ValueError("principals contain a duplicate opaque_id")
 
     actor_roles = ("calibration", "evaluation", "held_out_frontier")
     by_role = {

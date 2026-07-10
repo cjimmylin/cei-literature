@@ -25,6 +25,28 @@ LAYER_E_HASH = "c" * 64
 LAYER_R_HASH = "d" * 64
 EXPECTED_PROMPTS = {"layer_e": LAYER_E_HASH, "layer_r": LAYER_R_HASH}
 EXPECTED_CLASSES = ("Fi", "Wj")
+POLICY = {
+    "human_human_thresholds": {"agreement": 0.85, "weighted_kappa": 0.80},
+    "human_by_class_thresholds": {
+        "Fi": {"agreement": 0.85},
+        "Wj": {"agreement": 0.80},
+    },
+    "judge_thresholds": {
+        "macro_f1": 0.85,
+        "auprc": 0.80,
+        "worst_class_f1": 0.75,
+        "agreement": 0.80,
+    },
+    "judge_by_class_thresholds": {
+        "Fi": {"f1": 0.75, "auprc": 0.75},
+        "Wj": {"f1": 0.75, "auprc": 0.75},
+    },
+    "minimum_calibration_n": 48,
+    "maximum_refusal_rate": 0.05,
+}
+POLICY_HASH = hashlib.sha256(
+    json.dumps(POLICY, sort_keys=True, separators=(",", ":")).encode()
+).hexdigest()
 EXPECTED_JUDGES = {
     "J01": {
         "model_id": "anthropic/claude-sonnet-4.6",
@@ -91,6 +113,7 @@ def _artifact() -> dict:
         "label_set_sha256": LABEL_HASH,
         "human_label_set_sha256": HUMAN_LABEL_HASH,
         "prompt_hashes": dict(EXPECTED_PROMPTS),
+        "policy": json.loads(json.dumps(POLICY)),
         "human_human": {
             "metrics": {"agreement": 0.91, "weighted_kappa": 0.84},
             "thresholds": {"agreement": 0.85, "weighted_kappa": 0.80},
@@ -139,6 +162,7 @@ def _validate(source):
         expected_prompt_hashes=EXPECTED_PROMPTS,
         expected_judge_identities=EXPECTED_JUDGES,
         expected_class_labels=EXPECTED_CLASSES,
+        expected_policy_sha256=POLICY_HASH,
     )
 
 
@@ -173,6 +197,7 @@ def test_valid_artifact_returns_exact_digest_and_deeply_immutable_record(tmp_pat
         "label_set_sha256",
         "human_label_set_sha256",
         "prompt_hashes",
+        "policy",
         "human_human",
         "judges",
         "human_availability",
@@ -222,6 +247,28 @@ def test_rejects_malformed_stale_or_mismatched_hashes(mutation, message: str) ->
     mutation(artifact)
 
     with pytest.raises(JudgeValidationError, match=message):
+        _validate(artifact)
+
+
+def test_thresholds_sample_size_and_refusal_ceiling_are_policy_bound() -> None:
+    artifact = _artifact()
+    artifact["judges"][0]["thresholds"]["macro_f1"] = 0.0
+    with pytest.raises(JudgeValidationError, match="policy.*threshold"):
+        _validate(artifact)
+
+    artifact = _artifact()
+    artifact["judges"][0]["calibration_n"] = 1
+    with pytest.raises(JudgeValidationError, match="minimum_calibration_n"):
+        _validate(artifact)
+
+    artifact = _artifact()
+    artifact["judges"][0]["max_refusal_rate"] = 1.0
+    with pytest.raises(JudgeValidationError, match="maximum_refusal_rate"):
+        _validate(artifact)
+
+    artifact = _artifact()
+    artifact["policy"]["minimum_calibration_n"] = 1
+    with pytest.raises(JudgeValidationError, match="policy.*hash"):
         _validate(artifact)
 
 
@@ -282,6 +329,7 @@ def test_judge_snapshot_and_identity_are_bound_to_expected_catalog_values() -> N
             expected_prompt_hashes=EXPECTED_PROMPTS,
             expected_judge_identities=incomplete_expected,
             expected_class_labels=EXPECTED_CLASSES,
+            expected_policy_sha256=POLICY_HASH,
         )
 
 

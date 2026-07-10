@@ -48,6 +48,26 @@ class CueSurface:
     cue_classes: Tuple[str, ...]
     operative_delta: str
 
+    def __post_init__(self) -> None:
+        if isinstance(self.cue_classes, (str, bytes, bytearray)):
+            raise CounterbalanceError("cue_classes must be a collection of strings")
+        try:
+            frozen = tuple(self.cue_classes)
+        except TypeError as exc:
+            raise CounterbalanceError(
+                "cue_classes must be a collection of strings"
+            ) from exc
+        if any(
+            not isinstance(value, str)
+            or not value.strip()
+            or value != value.strip()
+            for value in frozen
+        ):
+            raise CounterbalanceError(
+                "cue_classes must contain exact nonblank strings"
+            )
+        object.__setattr__(self, "cue_classes", frozen)
+
 
 @dataclass(frozen=True)
 class CompiledSchedule:
@@ -62,6 +82,34 @@ def _require_nonblank(value: object, field_name: str, surface_id: str) -> None:
         )
 
 
+def _string_collection(
+    value: Optional[Collection[str]],
+    field_name: str,
+    *,
+    require_sha256: bool = False,
+) -> Optional[set[str]]:
+    if value is None:
+        return None
+    if isinstance(value, (str, bytes, bytearray)) or not isinstance(value, Collection):
+        raise CounterbalanceError(f"{field_name} must be a collection of strings")
+    result: set[str] = set()
+    for member in value:
+        if (
+            not isinstance(member, str)
+            or not member.strip()
+            or member != member.strip()
+        ):
+            raise CounterbalanceError(
+                f"{field_name} must contain exact nonblank strings"
+            )
+        if require_sha256 and re.fullmatch(r"[0-9a-f]{64}", member) is None:
+            raise CounterbalanceError(
+                f"{field_name} must contain lowercase SHA-256 values"
+            )
+        result.add(member)
+    return result
+
+
 def validate_surface_quartets(
     surfaces: Iterable[CueSurface],
     *,
@@ -73,7 +121,10 @@ def validate_surface_quartets(
     if not rows:
         raise CounterbalanceError("at least one cue-surface quartet is required")
 
-    known_classes = frozenset(registered_cue_classes)
+    registered = _string_collection(
+        registered_cue_classes, "registered_cue_classes"
+    )
+    known_classes = frozenset(registered or ())
     seen_surface_ids = set()
     by_item = defaultdict(list)
 
@@ -192,10 +243,17 @@ def compile_cue_surfaces(
     expected = tuple(surface for surface in canonical if surface.cue_arm in allowed_arms)
     expected_ids = {surface.surface_id for surface in expected}
 
-    if requested_surface_ids is None:
+    requested_ids = _string_collection(
+        requested_surface_ids, "requested_surface_ids"
+    )
+    development_ids = _string_collection(
+        development_surface_ids, "development_surface_ids"
+    )
+
+    if requested_ids is None:
         selected_ids = expected_ids
     else:
-        selected_ids = set(requested_surface_ids)
+        selected_ids = requested_ids
         unknown = sorted(selected_ids - set(by_id))
         if unknown:
             raise CounterbalanceError(f"unknown requested surface_id values: {unknown}")
@@ -212,7 +270,7 @@ def compile_cue_surfaces(
             )
 
     if phase == "locked-confirmation":
-        reused = sorted(selected_ids & set(development_surface_ids or ()))
+        reused = sorted(selected_ids & (development_ids or set()))
         if reused:
             raise CounterbalanceError(
                 f"locked-confirmation reuses development-used surface_id values: {reused}"
@@ -258,6 +316,11 @@ def build_latin_square_schedule(
         raise CounterbalanceError(
             "locked-confirmation requires development_schedule_hashes for reuse checks"
         )
+    development_hashes = _string_collection(
+        development_schedule_hashes,
+        "development_schedule_hashes",
+        require_sha256=True,
+    )
 
     compiled = compile_cue_surfaces(
         surfaces,
@@ -308,9 +371,7 @@ def build_latin_square_schedule(
                     rows.append({"assignment_id": assignment_id, **identity})
 
     digest = _canonical_digest(rows)
-    if phase == "locked-confirmation" and digest in set(
-        development_schedule_hashes or ()
-    ):
+    if phase == "locked-confirmation" and digest in (development_hashes or set()):
         raise CounterbalanceError(
             "locked-confirmation reuses a development-used schedule hash"
         )

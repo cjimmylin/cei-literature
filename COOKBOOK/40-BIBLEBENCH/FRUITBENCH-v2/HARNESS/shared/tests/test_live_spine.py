@@ -155,6 +155,18 @@ def test_principal_rejects_blank_exact_identity_fields(field: str) -> None:
         _principal("A01", "evaluation", **identity)
 
 
+def test_principal_rejects_untrimmed_exact_identity() -> None:
+    with pytest.raises(ValueError, match="model_id"):
+        _principal(
+            "A01",
+            "evaluation",
+            " openai/gpt-5.5",
+            "openai/gpt-5.5-20260423",
+            "openai",
+            "gpt-5.5",
+        )
+
+
 def test_blind_event_payload_recursively_removes_hidden_case_style_variants() -> None:
     observable_context = {
         "item_id": "thorns-hardline-001",
@@ -235,8 +247,29 @@ def test_hidden_metadata_permutations_produce_identical_layer_e_bytes() -> None:
     assert canonical_json_bytes(first) == canonical_json_bytes(permuted)
 
 
+def test_blind_event_payload_rejects_sensitive_values_under_innocent_keys() -> None:
+    with pytest.raises(ValueError, match="sensitive hidden value"):
+        blind_event_payload(
+            response_text="Same answer.",
+            observable_context={"note": "gold_label=F6; actor=A01"},
+            hidden_metadata={
+                "actor_id": "A01",
+                "fruit": "F6",
+                "cue_arm": "C3",
+            },
+        )
+
+
 def test_valid_thorns_role_separation_is_accepted() -> None:
     assert validate_role_separation(_valid_roster()) is None
+
+
+def test_role_separation_rejects_duplicate_opaque_ids_globally() -> None:
+    roster = _valid_roster()
+    roster[1] = replace(roster[1], opaque_id=roster[0].opaque_id)
+
+    with pytest.raises(ValueError, match="duplicate opaque_id"):
+        validate_role_separation(roster)
 
 
 @pytest.mark.parametrize(

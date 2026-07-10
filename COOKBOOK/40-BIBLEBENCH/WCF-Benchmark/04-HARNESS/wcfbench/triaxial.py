@@ -45,8 +45,9 @@ _PINNED_LEVELS = "0.0, 0.25, 0.5, 0.75, or 1.0"
 #: extract the axis score from an explicit ``SCORE: <n>`` token anywhere in the
 #: verdict — tolerant of trailing prose (`SCORE: 0.8 out of 1`), which the strict
 #: label:number$ line parser missed on nearly every live judge output (pilot
-#: 2026-07-10). This is the primary axis extractor; parse_judge_verdict is fallback.
-_AXIS_SCORE_RE = re.compile(r"SCORE\s*[:=]\s*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+#: 2026-07-10), AND of markdown emphasis around the label/number (`**Score**: 0.5`,
+#: R33.8/R32i parity with the contested coherence parse). parse_judge_verdict is fallback.
+_AXIS_SCORE_RE = re.compile(r"[*_]*SCORE[*_]*\s*[:=]\s*[*_]*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
 
 
 @dataclass

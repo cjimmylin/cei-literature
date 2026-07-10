@@ -141,6 +141,15 @@ _WILLINGNESS_NOTE = (
     "Grade this even if the content is uncomfortable. If you decline to grade, say "
     "so explicitly (your willingness is measured; a refusal biases the sample)."
 )
+#: R33.7 clause-gloss — fixes R29(c)'s shared manner under-credit (a judge read the
+#: parenthetical anchor glosses as REQUIRED citations) without touching any criterion.
+_CLAUSE_GLOSS_NOTE = (
+    "Clause anchors: a bracketed [anchor] in a keypoint (e.g. [WLC Q145]) is the grader's "
+    "GLOSS naming the standard behind it — award the keypoint on SUBSTANCE. The response "
+    "need NOT name or cite that clause (or any clause) unless the keypoint text itself "
+    "explicitly requires naming it; do not deny a substantively-correct keypoint merely "
+    "because it cites a different clause, or none."
+)
 
 _CATEGORY_FOCUS = {
     "matter": "Matter — does the SUBSTANCE conform to the cited Westminster clause?",
@@ -235,6 +244,10 @@ _KP_AWARD_RE = re.compile(r"^\s*KP\s*(\d+)\s*[:.)\-]?\s*([A-Za-z]+)(.*)$",
                           re.IGNORECASE | re.MULTILINE)
 #: `OFFMAP: <note>` — the author-conformity escape hatch (reported, never scored).
 _OFFMAP_RE = re.compile(r"^\s*OFFMAP\s*[:.\-]\s*(.+?)\s*$", re.IGNORECASE | re.MULTILINE)
+#: `CITEFLAG: <note>` — R33.7: a fabricated/irrelevant clause citation (reported, never
+#: scored). llama's "WCF 1.4/1.10" (Scripture clauses cited for a ninth-commandment triad)
+#: would be caught here — surfaced to the disagreement record, not folded into a score.
+_CITEFLAG_RE = re.compile(r"^\s*CITEFLAG\s*[:.\-]\s*(.+?)\s*$", re.IGNORECASE | re.MULTILINE)
 
 #: leading separators between the verdict word and the reason (— – - : . , ;).
 _REASON_LEAD_RE = re.compile(r"^[\s:.)\-—–,;]+")
@@ -288,6 +301,8 @@ class AwardVerdict:
     offmap: List[str] = field(default_factory=list)
     reasons: Dict[int, str] = field(default_factory=dict)
     compliance_defects: Dict[int, str] = field(default_factory=dict)
+    #: R33.7: fabricated/irrelevant clause-citation notes (reported, never scored).
+    citeflags: List[str] = field(default_factory=list)
     raw: str = ""
 
 
@@ -337,6 +352,7 @@ def build_award_prompt(
         "",
         _LENGTH_GUARDRAIL,
         _NEUTRALITY_GUARDRAIL,
+        _CLAUSE_GLOSS_NOTE,
         _WILLINGNESS_NOTE,
         "",
         "Emit EXACTLY one line per keypoint in this REQUIRED form — a one-line reason AND "
@@ -346,7 +362,8 @@ def build_award_prompt(
         "A keypoint line with NO reason is treated as UNGRADED (a compliance defect is "
         "logged) — it counts as neither an award nor a deny.",
         "You MAY add ONE line `OFFMAP: <note>` if the response has real merit no keypoint "
-        "captures (recorded, NOT scored). Emit nothing else.",
+        "captures, and ONE line `CITEFLAG: <note>` if the response cites a fabricated or "
+        "irrelevant clause (both recorded, NOT scored). Emit nothing else.",
     ]
     return "\n".join(parts)
 
@@ -384,8 +401,9 @@ def parse_award_verdict(text: str, *, require_reason: bool = False) -> AwardVerd
                 continue
             awards[n] = word in _AWARD_WORDS_TRUE
     offmap = [m.group(1).strip() for m in _OFFMAP_RE.finditer(raw)] if graded else []
+    citeflags = [m.group(1).strip() for m in _CITEFLAG_RE.finditer(raw)] if graded else []
     return AwardVerdict(graded=graded, awards=awards, offmap=offmap, reasons=reasons,
-                        compliance_defects=defects, raw=raw)
+                        compliance_defects=defects, citeflags=citeflags, raw=raw)
 
 
 #: `KP<n>` line header — counts an EMITTED keypoint line regardless of whether its

@@ -68,8 +68,30 @@ from .judge import (
 )
 
 #: tolerant `SCORE: <n>` token (trailing prose OK) — real judges write
-#: `SCORE: 0.8 because…`, which the strict label:number$ parse misses.
-_NUM_SCORE_RE = re.compile(r"SCORE\s*[:=]\s*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+#: `SCORE: 0.8 because…`, which the strict label:number$ parse misses. R33.8/R32i: also
+#: tolerate markdown emphasis around the label AND the number (`**Score**: 0.5`), the
+#: PF-4 parse-None cause (a markdown-bold value the letter-initial parser dropped).
+_NUM_SCORE_RE = re.compile(r"[*_]*SCORE[*_]*\s*[:=]\s*[*_]*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+
+#: R33.8/R31b: parse-and-report the RANKING line on CONTESTED items (never scored) — it
+#: feeds the position map + the incoherence record. A stray parenthesized multi-letter
+#: token (llama's `(b) < (a) < (most)` on a two-option item) marks a malformed ranking.
+_RANKING_LINE_RE = re.compile(r"RANKING\s*:\s*(.+)", re.IGNORECASE)
+_RANKING_MALFORMED_RE = re.compile(r"[\(\[][a-zA-Z]{2,}[\)\]]")
+
+
+def _report_ranking(response: str) -> Tuple[Optional[str], Any, bool]:
+    """Return (raw RANKING line | None, parsed ranking, malformed?) for a contested
+    response. ``parsed`` is :func:`~wcfbench.response_parser.parse_ranking`'s result (a
+    letters list, the INCOMPARABLE sentinel, or None). ``malformed`` is True when a
+    RANKING line is present but unparseable, or carries a stray ``(word)`` option token."""
+    m = _RANKING_LINE_RE.search(response or "")
+    if not m:
+        return None, None, False
+    from .response_parser import parse_ranking
+    parsed = parse_ranking(response)
+    malformed = parsed is None or bool(_RANKING_MALFORMED_RE.search(m.group(1)))
+    return m.group(0).strip(), parsed, malformed
 
 # --- settled-core detection --------------------------------------------------
 # The settled floor / engagement floor keypoints that stay right/wrong. A keypoint
@@ -133,6 +155,12 @@ class ContestedScore:
     finish_reason: Optional[str] = None
     retried: bool = False
     truncated_discarded: bool = False
+    #: R33.8/R31b: the response's RANKING line, parsed-and-reported (never scored) —
+    #: feeds the position map + the incoherence record. ``ranking_malformed`` flags a
+    #: stray/unparseable ranking (llama's `(b) < (a) < (most)`).
+    ranking_line: Optional[str] = None
+    ranking_parsed: Any = None
+    ranking_malformed: bool = False
     #: R27: the judge's verbatim verdict text(s) for this item (transcript persistence).
     raw_verdicts: List[str] = field(default_factory=list)
 
@@ -316,6 +344,10 @@ def score_contested_position(
     positions_offered = list(positions or item.extra.get("positions") or [])
     score = ContestedScore(positions_offered=positions_offered)
 
+    # R33.8/R31b: parse-and-report the RANKING line (never scored) — feeds the position
+    # map + the incoherence record; a malformed line is flagged for the disagreement doc.
+    score.ranking_line, score.ranking_parsed, score.ranking_malformed = _report_ranking(response)
+
     taxonomy_line = (
         f"\nThe legitimate Reformed positions on this item are: {positions_offered}. "
         f"Say which ONE the response occupies (or 'off-map' if none)."
@@ -362,8 +394,9 @@ def score_contested_position(
     coherence_prompt = (
         f"COHERENCE check {item_id}\nIs the position defended from the CORRECT Westminster "
         f"anchors — the actual Q151 aggravation heads / the regulative principle — rather than "
-        f"vibes, status-intuition, or magnitude? Score 0.0 (vibes) to 1.0 (grounded in the right "
-        f"clauses). Emit `score: <n>`.\nANCHORS AT ISSUE:\n" + "\n".join(item.anchors) +
+        f"vibes, status-intuition, or magnitude? Score EXACTLY one of these pinned levels — "
+        f"0.0, 0.25, 0.5, 0.75, or 1.0 — (0.0 = vibes; 1.0 = grounded in the right clauses). "
+        f"Emit `SCORE: <level>`.\nANCHORS AT ISSUE:\n" + "\n".join(item.anchors) +
         f"\nRESPONSE:\n{response}"
     )
     (score.coherence, score.graded["coherence"], score.detail["coherence"],

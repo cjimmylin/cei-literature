@@ -1,4 +1,7 @@
-# WCF-Bench — Session Handoff (2026-07-10, session 12 — Opus build: R35 gating + R36 third family + R37 floor re-run)
+# WCF-Bench — Session Handoff (2026-07-10, session 13 — Opus build: R35 gating + R36 third family + R37 floor re-run)
+
+> Session numbering: session 12 was the Fable adjudication (memo `20260710h`, R34–R37); this
+> is the session-13 Opus build that executes it.
 
 **Date:** 2026-07-10 · **Executor:** Opus (main loop; live runs from the main loop per R37.4,
 no subagents) · **Governing doc:** binding Fable memo `20260710h-fable-probe-stability-adjudication-memo.md`

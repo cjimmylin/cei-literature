@@ -36,13 +36,22 @@ _NON_RETRYABLE_ERROR_FRAGMENTS = (
     "policy",
     "not_found",
 )
-_RETRYABLE_ERROR_FRAGMENTS = (
-    "rate_limit",
-    "provider",
-    "overload",
-    "server_error",
-    "upstream",
-    "timeout",
+_RETRYABLE_ERROR_TYPES = frozenset(
+    {
+        # Canonical Responses API categories.
+        "rate_limit",
+        "provider",
+        "server",
+        "unmapped",
+        # Currently observed more-specific gateway variants.
+        "rate_limit_error",
+        "rate_limit_exceeded",
+        "provider_error",
+        "provider_overloaded",
+        "server_error",
+        "upstream_error",
+        "timeout",
+    }
 )
 
 
@@ -374,7 +383,7 @@ def _error_details(
     retryable = bool(
         status_code == 429
         or (status_code is not None and status_code >= 500)
-        or any(fragment in lowered for fragment in _RETRYABLE_ERROR_FRAGMENTS)
+        or lowered in _RETRYABLE_ERROR_TYPES
     )
     if any(fragment in lowered for fragment in _NON_RETRYABLE_ERROR_FRAGMENTS):
         retryable = False

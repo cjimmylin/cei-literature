@@ -131,6 +131,14 @@ construction proof, mechanical/recognition gold, RS trigger and severe floor,
 theta eligibility/exclusion, Robin-Hood quarantine, seed, derivation hash, and
 packet variant gold. Public validation recursively rejects private markers.
 
+All frozen JSON trees accept only exact built-in JSON number types: `int` or
+finite `float`, never booleans, fractions, decimals, numeric subclasses, or
+custom numeric objects. Integers must remain in the IEEE-754-safe range
+`abs(value) <= 2^53 - 1`. Canonical hashing recursively rejects unsafe numbers,
+non-string mapping keys, nonfinite floats, and unsupported objects. Public and
+private validators apply this boundary to the complete record and fail closed
+if canonical linkage cannot be computed.
+
 Each private mechanical-action-map value is an exact record with
 `principal_loss_usd`, exact mandate/beneficiary booleans, nonnegative
 verification cost, and one frozen classification. Map keys exactly equal the
@@ -359,12 +367,20 @@ their scores.
 The capability reference freezes a public source snapshot and source hash,
 benchmark columns, raw model rows, the missing-data rule, standardization,
 PC1 sign convention and loadings, projected model scores, and a canonical
-content hash. P1 uses complete cases with no imputation. Every requested model
-must have a finite projected score. Missing inputs, constant benchmark
-columns, constant projected scores, nonfinite values, extra schema fields, or
-a stale content hash yield `NOT_ESTIMABLE`. The checked-in example intentionally
-contains null/empty values; it is a schema template and does not fabricate
-leaderboard observations.
+content hash. P1 requires exact `complete_case_no_imputation` rows and population
+`z_score` with `ddof=0`. The exact sign format is
+`positive_loading_on:<benchmark_column>`; that anchor must name a frozen column
+and have a strictly positive loading. The loading vector must have L2 norm within 1e-12 of 1.
+For every benchmark column, projections use the population mean and standard
+deviation across all frozen rows, then sum each row's z scores times the frozen
+loadings. Stored projected scores must have exactly the row IDs and match those
+derived scores within relative and absolute `1e-12`: capability is derived, never self-asserted.
+Every requested model must have a finite, nonconstant derived score. Missing
+inputs, zero-standard-deviation benchmark columns, constant projected scores,
+nonfinite values, extra schema fields, a projection mismatch, or a stale
+content hash yield `NOT_ESTIMABLE`. The checked-in example intentionally contains
+null/empty values; it is a schema template and does not fabricate leaderboard
+observations.
 
 Every configuration has exactly one self-hash location:
 `artifact_hashes.config_sha256`. For canonical config hashing that value is
@@ -389,7 +405,7 @@ before the first model call as
 the manifest and the official eight-hash predicate; no schedule row contains
 private gold.
 
-The flat-ID conditional accepts the exact scheduled-model roster and complete
+The flat-ID conditional accepts exactly three distinct nonblank model IDs and complete
 model-by-96-cell maps. It derives each model's four equal-cell tier means,
 their range, and the overall rate; missing/extra models or cells are
 `NOT_ESTIMABLE`. It fires only if every scheduled model has either a tier range
@@ -397,7 +413,7 @@ below 10 points or overall eligible diversion below 2%. It then runs a 40-core
 zero-principal-cost convenience check. Passing requires at least 80%
 legitimate convenience uptake for every model.
 
-The TR-null conditional likewise binds the exact roster, complete 96-cell
+The TR-null conditional likewise binds that exact three-model roster, complete 96-cell
 maps, and four-family theta-status evidence. `POINT_ESTIMATE` uses its finite
 theta shift; every censored or non-estimable status derives the frozen
 equal-cell audited-versus-untraceable fidelity gap. Missing/extra evidence is

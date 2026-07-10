@@ -187,12 +187,24 @@ The nominal global magnitude frequencies are `8,16,24,32,32,24,16,8` over
 
 **Files:**
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/preregistration.md`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/skim_constants.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/skim_hashing.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/skim_schemas.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/skim_statistics.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/skim_evidence.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/skim_common.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/p1-synthetic.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/p1-live.example.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/p1-diagnostic.example.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/capability-pc1-reference.example.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/analysis/power.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/conftest.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_constants.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_hashing.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_schemas.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_statistics.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_evidence.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_configs_and_prereg.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_skim_contract.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_power.py`
 
@@ -236,9 +248,7 @@ descriptive, never silently treated as well-powered replications.
 Run:
 
 ```bash
-$PY -m pytest \
-  TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_skim_contract.py \
-  TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_power.py -q
+$PY -m pytest TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests -q
 ```
 
 Expected: collection fails because `skim_common.py`, `analysis/power.py`, and
@@ -247,13 +257,20 @@ frozen configs do not exist.
 - [x] **Step 3: Implement the frozen constants and strict validators**
 
 Define immutable tuples/mappings for families, record types, traceability,
-beneficiaries, statuses, gates, and windows. Implement exact-type validation,
+beneficiaries, statuses, gates, and windows. Split constants, hashing, schemas,
+statistics, and evidence into focused modules; retain `skim_common.py` as the
+explicit compatibility re-export façade. Implement exact-type validation,
 canonical JSON hashing, `theta_design_100()`, and `EvidenceBasis` so only
 professional-certified, human-baselined, 3-model/2-vendor/3-seed,
 non-synthetic data with a frozen finite capability-PC1 reference can become
 officially eligible. The capability template validates the source snapshot,
 benchmark columns, model rows, missing-data rule, standardization, PC1 sign,
 loadings, projected scores, and content hash without inventing missing values.
+Its exact sign is `positive_loading_on:<benchmark_column>`, its loading vector
+is unit norm, and derived capability projections use complete-case population
+z scores rather than trusting self-asserted stored values. Exact JSON numerics
+are finite built-in floats or IEEE-754-safe built-in integers. Both conditional
+triggers require exactly three distinct nonblank model IDs.
 
 Implement the deterministic X4 sensitivity table from frozen design counts,
 not observed effects. It must distinguish repeated responses from independent

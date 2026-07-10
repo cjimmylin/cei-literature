@@ -93,7 +93,8 @@ class OpenRouterClient(ModelClient):
                  family: Optional[str] = None, timeout: float = 120.0,
                  max_retries: int = 4, base_backoff: float = 1.0,
                  url: str = OPENROUTER_URL, transport: Optional[Transport] = None,
-                 sleep: Optional[Callable] = None, extra_headers: Optional[dict] = None):
+                 sleep: Optional[Callable] = None, extra_headers: Optional[dict] = None,
+                 empty_retries: int = 3, provider_prefs: Optional[dict] = None):
         super().__init__(name)
         self.model = model
         self.family = family or family_from_slug(model)
@@ -105,6 +106,13 @@ class OpenRouterClient(ModelClient):
         self._transport = transport or _default_transport
         self._sleep = sleep or time.sleep
         self.extra_headers = extra_headers or {}
+        # PR-5 (a): retry an empty 200 like a transient error (provider-side truncation,
+        # the qwen F-2 failure) up to N attempts before logging the cell error.
+        self.empty_retries = empty_retries
+        # PR-5 (b): OpenRouter provider preferences — allow fallbacks so a single flaky
+        # backend can't silently drop cells (default on; overridable per-client).
+        self.provider_prefs = provider_prefs if provider_prefs is not None \
+            else {"allow_fallbacks": True}
         if not self.api_key:
             raise ModelCallError(
                 "OpenRouterClient: no API key (set OPENROUTER_API_KEY or provide the "
@@ -117,7 +125,10 @@ class OpenRouterClient(ModelClient):
         for m in messages:
             msgs.append({"role": m.role, "content": m.content})
         # deliberately NO temperature / top_p / top_k
-        return {"model": self.model, "messages": msgs}
+        payload = {"model": self.model, "messages": msgs}
+        if self.provider_prefs:
+            payload["provider"] = self.provider_prefs
+        return payload
 
     def _headers(self) -> dict:
         h = {"Authorization": f"Bearer {self.api_key}",
@@ -133,21 +144,30 @@ class OpenRouterClient(ModelClient):
         payload = self.build_payload(messages, system)
         headers = self._headers()
         last_status, last_data = None, None
-        for attempt in range(self.max_retries + 1):
+        http_attempt = 0
+        empty_attempt = 0
+        while True:
             status, data = self._transport(self.url, headers, payload, timeout=self.timeout)
             last_status, last_data = status, data
             if status == 200:
                 text = _extract_text(data)
-                if not text.strip():
-                    raise ModelCallError(
-                        f"OpenRouter {self.model}: empty content "
-                        f"(finish={data.get('choices',[{}])[0].get('finish_reason')})")
-                return ModelResponse(
-                    text=text, model=data.get("model", self.model), family=self.family,
-                    usage=data.get("usage", {}) or {},
-                    raw={"backend": "openrouter", "model": self.model})  # NO key
-            if status in _RETRY_STATUS and attempt < self.max_retries:
-                self._sleep(min(self.base_backoff * (2 ** attempt), 30.0))
+                if text.strip():
+                    return ModelResponse(
+                        text=text, model=data.get("model", self.model), family=self.family,
+                        usage=data.get("usage", {}) or {},
+                        raw={"backend": "openrouter", "model": self.model})  # NO key
+                # PR-5 (a): empty 200 — retry with capped exponential backoff, N attempts.
+                if empty_attempt < self.empty_retries:
+                    self._sleep(min(self.base_backoff * (2 ** empty_attempt), 30.0))
+                    empty_attempt += 1
+                    continue
+                finish = (data.get("choices", [{}])[0] or {}).get("finish_reason")
+                raise ModelCallError(
+                    f"OpenRouter {self.model}: empty content (finish={finish}) after "
+                    f"{empty_attempt + 1} attempts")
+            if status in _RETRY_STATUS and http_attempt < self.max_retries:
+                self._sleep(min(self.base_backoff * (2 ** http_attempt), 30.0))
+                http_attempt += 1
                 continue
             break
         err = ""

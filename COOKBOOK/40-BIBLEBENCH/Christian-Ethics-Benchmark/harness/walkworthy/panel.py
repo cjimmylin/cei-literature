@@ -403,11 +403,14 @@ def _render_panel_report(top: dict) -> str:
 # --------------------------------------------------------------------------- #
 def _build_openrouter(sut_slugs, judge1, judge2, classifier_slug, key, transport):
     from .live_judges import CLIJudge, make_cli_state_classifier
+    from .references import bank_reference_provider
     from . import openrouter_backend as orb
     mk = lambda m: orb.OpenRouterClient(m, model=m, api_key=key, transport=transport)
     suts = [mk(s) for s in sut_slugs]
-    judges = [CLIJudge(f"or:{judge1}", mk(judge1)),      # families auto-derive from slug
-              CLIJudge(f"or:{judge2}", mk(judge2))]
+    # judges carry the reference provider so 06/09 are scored against the bank anchors
+    # (previously unanchored). families auto-derive from slug.
+    judges = [CLIJudge(f"or:{judge1}", mk(judge1), reference_provider=bank_reference_provider),
+              CLIJudge(f"or:{judge2}", mk(judge2), reference_provider=bank_reference_provider)]
     classifier = make_cli_state_classifier(mk(classifier_slug))
     return suts, judges, classifier
 

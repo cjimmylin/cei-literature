@@ -166,3 +166,46 @@ def test_400_raises_immediately_without_retry():
     with pytest.raises(ModelCallError):
         c.complete([Message("user", "hi")])
     assert len(t.calls) == 1   # no retry on a 4xx client error
+
+
+# --------------------------------------------------------------------------- #
+# PR-5 (a): empty-200 retry (capped exponential, N attempts) — the qwen F-2 lesson
+# --------------------------------------------------------------------------- #
+def _empty():
+    return (200, {"choices": [{"message": {"content": ""}}], "model": "x/y"})
+
+
+def test_empty_200_retries_then_recovers():
+    t = make_transport(_empty(), _empty(), ok(content="recovered"))
+    c = orb.OpenRouterClient("sut", model="x/y", api_key="k", transport=t,
+                             sleep=NOSLEEP, empty_retries=3)
+    assert c.complete([Message("user", "hi")]).text == "recovered"
+    assert len(t.calls) == 3
+
+
+def test_empty_200_exhausted_raises_after_n_attempts():
+    t = make_transport(_empty())   # cycles empty forever
+    c = orb.OpenRouterClient("sut", model="x/y", api_key="k", transport=t,
+                             sleep=NOSLEEP, empty_retries=3)
+    with pytest.raises(ModelCallError):
+        c.complete([Message("user", "hi")])
+    assert len(t.calls) == 4       # initial + 3 empty retries
+
+
+# --------------------------------------------------------------------------- #
+# PR-5 (b): OpenRouter provider preferences + fallback routing
+# --------------------------------------------------------------------------- #
+def test_provider_prefs_sent_in_payload():
+    t = make_transport(ok())
+    prefs = {"allow_fallbacks": True, "sort": "throughput"}
+    c = orb.OpenRouterClient("sut", model="x/y", api_key="k", transport=t,
+                             sleep=NOSLEEP, provider_prefs=prefs)
+    c.complete([Message("user", "hi")])
+    assert t.calls[0]["payload"]["provider"] == prefs
+
+
+def test_default_allows_provider_fallbacks():
+    t = make_transport(ok())
+    c = orb.OpenRouterClient("sut", model="x/y", api_key="k", transport=t, sleep=NOSLEEP)
+    c.complete([Message("user", "hi")])
+    assert t.calls[0]["payload"]["provider"]["allow_fallbacks"] is True

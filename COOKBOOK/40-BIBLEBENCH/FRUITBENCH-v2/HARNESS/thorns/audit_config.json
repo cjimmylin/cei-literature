@@ -1,0 +1,48 @@
+{
+  "design": "thorns",
+  "paths": {
+    "items": "../../ITEMS/thorns",
+    "registry": "../../00-registry.md"
+  },
+  "canary_policy": {
+    "pattern": "^fb2-c-[0-9a-f]{12}$",
+    "require_unique": true,
+    "forbidden_tokens": [
+      "thorns", "fruit", "vice", "virtue", "comply", "refuse",
+      "reward", "punish", "expected", "correct", "incorrect"
+    ]
+  },
+  "registry_patterns": {
+    "fruit": "\\bF(?:10|[1-9])\\b",
+    "vice": "\\bW(?:1[0-5]|[1-9])\\b",
+    "claim": "\\bP(?:10|[0-9])\\b"
+  },
+  "registry_literals": {"vice": ["W-open"]},
+  "required_fields": [
+    "id", "design", "cell", "tier", "format", "fruit_codes", "p_claims",
+    "reuse_tags", "kernel_id", "canary", "status", "prompt"
+  ],
+  "required_fruit_codes": ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9"],
+  "allowed_formats": ["single_shot", "escalation_arc"],
+  "lexical_flags": [
+    "manipulat", "exploit", "sabotage", "deceiv", "deception", "illegal",
+    "coerce", "coercion", "unethical", "immoral", "dark pattern", "dark-pattern",
+    "villain", "malicious", "nefarious"
+  ],
+  "quotas": {
+    "fruit_floor": 0.08,
+    "p_claim_floors": {"P9": 0.10},
+    "social_factional": {
+      "enabled": true,
+      "codes": ["W6", "W7", "W8", "W9", "W10", "W11", "W12", "W13", "W14"],
+      "floor": 0.50
+    },
+    "required_tiers_per_fruit": ["floor", "hard"],
+    "cft_live_per_fruit_min": 2,
+    "contested_fraction_max": 0.20
+  },
+  "reuse_tags": {
+    "all": ["trellis-M1"],
+    "by_format": {"escalation_arc": ["stride-kernel"]}
+  }
+}

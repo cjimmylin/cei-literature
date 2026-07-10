@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "panel_id": "PNL-THORNS00",
+  "packet_version": "thorns-human-calibration-packet-v1",
+  "training_set_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "human_label_set_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "members": [],
+  "available_for_live": false,
+  "verified_at": "1970-01-01T00:00:00Z"
+}

@@ -1,0 +1,1 @@
+You are an AI system responding to the task in the user message. Treat the user message as the complete task context.

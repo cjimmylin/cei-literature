@@ -1,0 +1,1126 @@
+"""Fail-loud OpenRouter Responses transport and catalog contracts.
+
+The client intentionally uses only the Python standard library.  It freezes the
+request controls needed for comparative benchmark runs, exposes routing
+provenance, and treats malformed or ambiguous responses as invalid evidence.
+"""
+
+from __future__ import annotations
+
+import hashlib
+import json
+import math
+import os
+import re
+import time
+from dataclasses import dataclass
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from typing import Any, Callable, Mapping, Sequence
+from urllib.error import HTTPError, URLError
+from urllib.parse import quote
+from urllib.request import Request, urlopen
+
+
+DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
+DEFAULT_SERVICE_TIER = "default"
+_PARAMETER_ALIASES = {
+    "max_output_tokens": ("max_tokens", "max_completion_tokens"),
+}
+_NON_RETRYABLE_ERROR_FRAGMENTS = (
+    "auth",
+    "permission",
+    "billing",
+    "payment",
+    "invalid",
+    "schema",
+    "malformed",
+    "moderation",
+    "policy",
+    "not_found",
+)
+_RETRYABLE_ERROR_TYPES = frozenset(
+    {
+        # Canonical Responses API categories.
+        "rate_limit",
+        "provider",
+        "server",
+        "unmapped",
+        # Currently observed more-specific gateway variants.
+        "rate_limit_error",
+        "rate_limit_exceeded",
+        "provider_error",
+        "provider_overloaded",
+        "provider_unavailable",
+        "server_error",
+        "upstream_error",
+        "timeout",
+    }
+)
+
+
+@dataclass(frozen=True)
+class AttemptRecord:
+    """Immutable provenance for one HTTP generation attempt."""
+
+    attempt: int
+    status_code: int | None
+    error_type: str | None
+    response_id: str | None
+    request_id: str | None
+    generation_id: str | None
+    router_metadata: dict[str, Any]
+    latency_ms: float
+
+
+class OpenRouterError(RuntimeError):
+    """Typed OpenRouter failure with no secret-bearing request representation."""
+
+    def __init__(
+        self,
+        message: str,
+        *,
+        error_type: str,
+        status_code: int | None = None,
+        api_code: Any = None,
+        response_id: str | None = None,
+        generation_id: str | None = None,
+        retryable: bool = False,
+        retry_after_seconds: float | None = None,
+        attempts: int = 0,
+        raw: Any = None,
+        incomplete_details: Any = None,
+        attempt_ledger: tuple[AttemptRecord, ...] = (),
+    ) -> None:
+        super().__init__(message)
+        self.error_type = error_type
+        self.status_code = status_code
+        self.http_status = status_code
+        self.api_code = api_code
+        self.response_id = response_id
+        self.generation_id = generation_id
+        self.retryable = retryable
+        self.retry_after_seconds = retry_after_seconds
+        self.attempts = attempts
+        self.raw = raw
+        self.incomplete_details = incomplete_details
+        self.attempt_ledger = attempt_ledger
+
+    def __repr__(self) -> str:
+        return (
+            f"{type(self).__name__}(error_type={self.error_type!r}, "
+            f"status_code={self.status_code!r}, retryable={self.retryable!r}, "
+            f"attempts={self.attempts!r})"
+        )
+
+
+@dataclass(frozen=True)
+class ModelContract:
+    """Capabilities a model must expose before it can enter a live roster."""
+
+    model_id: str
+    required_parameters: tuple[str, ...] = ("reasoning",)
+    reasoning_effort: str | None = "medium"
+    api_endpoint: str = "responses"
+    expected_canonical_slug: str | None = None
+    max_output_tokens: int | None = None
+
+
+@dataclass(frozen=True)
+class ResponseResult:
+    """Completed response plus the provenance required for an evidence row."""
+
+    text: str
+    response_id: str
+    requested_model: str
+    returned_model: str
+    status: str
+    usage: dict[str, Any]
+    raw: dict[str, Any]
+    request_id: str | None
+    generation_id: str | None
+    router_metadata: dict[str, Any]
+    routing_headers: dict[str, str]
+    incomplete_details: Any
+    attempts: int
+    attempt_ledger: tuple[AttemptRecord, ...]
+    latency_ms: float
+    service_tier: str = DEFAULT_SERVICE_TIER
+
+
+def _configuration_error(message: str) -> OpenRouterError:
+    return OpenRouterError(
+        message,
+        error_type="authentication_configuration_error",
+        retryable=False,
+        attempts=0,
+    )
+
+
+def _validate_messages(messages: Sequence[Mapping[str, Any]]) -> None:
+    if not isinstance(messages, (list, tuple)) or not messages:
+        raise ValueError("messages must be a non-empty sequence")
+    allowed_roles = {"system", "developer", "user", "assistant"}
+    for index, message in enumerate(messages):
+        if not isinstance(message, Mapping):
+            raise ValueError(f"message {index} must be an object")
+        if message.get("role") not in allowed_roles:
+            raise ValueError(f"message {index} has an invalid role")
+        content = message.get("content")
+        if isinstance(content, str):
+            if not content.strip():
+                raise ValueError(f"message {index} has blank content")
+            continue
+        if not isinstance(content, list) or not content:
+            raise ValueError(f"message {index} content must be text or a non-empty list")
+        for part_index, part in enumerate(content):
+            if not isinstance(part, Mapping) or not str(part.get("type", "")).strip():
+                raise ValueError(
+                    f"message {index} content part {part_index} must have a type"
+                )
+
+
+def _strict_json_copy(value: Any, path: str) -> Any:
+    """Copy a value while rejecting Python values that are not strict JSON."""
+
+    if isinstance(value, Mapping):
+        copied: dict[str, Any] = {}
+        for key, child in value.items():
+            if not isinstance(key, str):
+                raise ValueError(f"{path} object keys must be strings")
+            copied[key] = _strict_json_copy(child, f"{path}.{key}")
+        return copied
+    if isinstance(value, list):
+        return [
+            _strict_json_copy(child, f"{path}[{index}]")
+            for index, child in enumerate(value)
+        ]
+    if value is None or isinstance(value, (str, bool, int)):
+        return value
+    if isinstance(value, float) and math.isfinite(value):
+        return value
+    raise ValueError(f"{path} contains a value that is not strict JSON")
+
+
+def _responses_text_config(response_format: Mapping[str, Any]) -> dict[str, Any]:
+    """Translate the frozen judge schema into the Responses API text contract."""
+
+    if not isinstance(response_format, Mapping):
+        raise ValueError("response_format must be an object")
+    if set(response_format) != {"type", "json_schema"}:
+        raise ValueError(
+            "response_format must contain exactly type and json_schema"
+        )
+    if response_format.get("type") != "json_schema":
+        raise ValueError("response_format.type must be json_schema")
+    json_schema = response_format.get("json_schema")
+    if not isinstance(json_schema, Mapping):
+        raise ValueError("response_format.json_schema must be an object")
+    if set(json_schema) != {"name", "strict", "schema"}:
+        raise ValueError(
+            "response_format.json_schema must contain exactly name, strict, and schema"
+        )
+    name = json_schema.get("name")
+    if not isinstance(name, str) or not name.strip() or name != name.strip():
+        raise ValueError("response_format.json_schema.name must be non-blank")
+    if json_schema.get("strict") is not True:
+        raise ValueError("response_format.json_schema.strict must be true")
+    schema = json_schema.get("schema")
+    if not isinstance(schema, Mapping):
+        raise ValueError("response_format.json_schema.schema must be an object")
+    copied_schema = _strict_json_copy(schema, "response_format.json_schema.schema")
+    return {
+        "format": {
+            "type": "json_schema",
+            "name": name,
+            "strict": True,
+            "schema": copied_schema,
+        }
+    }
+
+
+def build_response_request(
+    *,
+    model_id: str,
+    messages: list[dict[str, Any]],
+    max_output_tokens: int,
+    reasoning_effort: str | None,
+    provider_order: Sequence[str],
+    service_tier: str = DEFAULT_SERVICE_TIER,
+    response_format: Mapping[str, Any] | None = None,
+) -> dict[str, Any]:
+    """Build a frozen non-streaming Responses request for actors or judges."""
+
+    if not isinstance(model_id, str) or not model_id.strip() or "/" not in model_id:
+        raise ValueError("model_id must be an exact author/model identifier")
+    _validate_messages(messages)
+    if isinstance(max_output_tokens, bool) or not isinstance(max_output_tokens, int):
+        raise ValueError("max_output_tokens must be a positive integer")
+    if max_output_tokens <= 0:
+        raise ValueError("max_output_tokens must be a positive integer")
+    if reasoning_effort is not None and (
+        not isinstance(reasoning_effort, str) or not reasoning_effort.strip()
+    ):
+        raise ValueError("reasoning_effort must be non-blank or None")
+    if not isinstance(service_tier, str) or not service_tier.strip():
+        raise ValueError("service_tier must be non-blank")
+
+    order = list(provider_order)
+    if len(order) != 1:
+        raise ValueError("provider_order must pin exactly one provider endpoint")
+    if any(not isinstance(value, str) or not value.strip() for value in order):
+        raise ValueError("provider_order must contain non-blank provider identifiers")
+
+    payload: dict[str, Any] = {
+        "model": model_id,
+        "input": messages,
+        "max_output_tokens": max_output_tokens,
+        "stream": False,
+        "store": False,
+        "service_tier": service_tier,
+    }
+    if reasoning_effort is not None:
+        payload["reasoning"] = {"effort": reasoning_effort}
+    if response_format is not None:
+        payload["text"] = _responses_text_config(response_format)
+    payload["provider"] = {
+        "order": order,
+        "allow_fallbacks": False,
+        "require_parameters": True,
+    }
+    return payload
+
+
+def _catalog_error(message: str) -> OpenRouterError:
+    return OpenRouterError(
+        message,
+        error_type="catalog_contract_error",
+        retryable=False,
+        attempts=0,
+    )
+
+
+def _parse_expiration(value: Any, model_id: str) -> datetime | None:
+    if value in (None, ""):
+        return None
+    if not isinstance(value, str):
+        raise _catalog_error(f"{model_id} expiration_date is malformed")
+    candidate = value.strip()
+    try:
+        if candidate.endswith("Z"):
+            candidate = candidate[:-1] + "+00:00"
+        parsed = datetime.fromisoformat(candidate)
+    except ValueError as exc:
+        raise _catalog_error(f"{model_id} expiration_date is malformed") from exc
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def _parameter_supported(required: str, advertised: set[str]) -> bool:
+    alternatives = _PARAMETER_ALIASES.get(required, (required,))
+    return any(name in advertised for name in alternatives)
+
+
+def validate_catalog_contract(
+    catalog: dict[str, Any],
+    contracts: Sequence[ModelContract],
+    *,
+    now: datetime | None = None,
+) -> dict[str, str]:
+    """Fail closed unless every exact model satisfies its declared contract."""
+
+    if not isinstance(catalog, dict) or not isinstance(catalog.get("data"), list):
+        raise _catalog_error("catalog is missing a data list")
+    records: dict[str, list[dict[str, Any]]] = {}
+    for raw in catalog["data"]:
+        if isinstance(raw, dict) and isinstance(raw.get("id"), str):
+            records.setdefault(raw["id"], []).append(raw)
+    current = now or datetime.now(timezone.utc)
+    if current.tzinfo is None:
+        current = current.replace(tzinfo=timezone.utc)
+    current = current.astimezone(timezone.utc)
+
+    resolved: dict[str, str] = {}
+    for contract in contracts:
+        if not isinstance(contract.model_id, str) or not contract.model_id.strip():
+            raise _catalog_error("contract has a missing model_id")
+        matches = records.get(contract.model_id, [])
+        if not matches:
+            raise _catalog_error(f"model {contract.model_id} is missing from catalog")
+        if len(matches) != 1:
+            raise _catalog_error(f"model {contract.model_id} has duplicate catalog records")
+        model = matches[0]
+
+        expires = _parse_expiration(model.get("expiration_date"), contract.model_id)
+        if expires is not None and expires <= current:
+            raise _catalog_error(f"model {contract.model_id} is expired")
+
+        supported_raw = model.get("supported_parameters")
+        if not isinstance(supported_raw, list) or any(
+            not isinstance(value, str) for value in supported_raw
+        ):
+            raise _catalog_error(
+                f"model {contract.model_id} has malformed supported_parameters"
+            )
+        supported = set(supported_raw)
+        for required in contract.required_parameters:
+            if not _parameter_supported(required, supported):
+                raise _catalog_error(
+                    f"model {contract.model_id} does not support {required}"
+                )
+
+        if contract.reasoning_effort is not None:
+            reasoning = model.get("reasoning")
+            if not isinstance(reasoning, dict) or "supported_efforts" not in reasoning:
+                raise _catalog_error(
+                    f"model {contract.model_id} does not expose reasoning efforts"
+                )
+            efforts = reasoning["supported_efforts"]
+            if efforts is not None:
+                if not isinstance(efforts, list) or any(
+                    not isinstance(value, str) for value in efforts
+                ):
+                    raise _catalog_error(
+                        f"model {contract.model_id} has malformed reasoning efforts"
+                    )
+                if contract.reasoning_effort not in efforts:
+                    raise _catalog_error(
+                        f"model {contract.model_id} does not support "
+                        f"{contract.reasoning_effort} reasoning"
+                    )
+
+        canonical = model.get("canonical_slug")
+        if not isinstance(canonical, str) or not canonical.strip():
+            raise _catalog_error(
+                f"model {contract.model_id} has a missing canonical_slug"
+            )
+        if (
+            contract.expected_canonical_slug is not None
+            and canonical != contract.expected_canonical_slug
+        ):
+            raise _catalog_error(
+                f"model {contract.model_id} canonical slug changed: {canonical}"
+            )
+        resolved[contract.model_id] = canonical
+    return resolved
+
+
+def _header(headers: Mapping[str, Any], name: str) -> str | None:
+    wanted = name.casefold()
+    for key, value in headers.items():
+        if str(key).casefold() == wanted:
+            return str(value)
+    return None
+
+
+def _body_router_metadata(payload: Any) -> dict[str, Any]:
+    if not isinstance(payload, dict):
+        return {}
+    metadata = payload.get("openrouter_metadata")
+    return dict(metadata) if isinstance(metadata, dict) else {}
+
+
+def _routing_headers(headers: Mapping[str, Any]) -> dict[str, str]:
+    return {
+        str(key).casefold(): str(value)
+        for key, value in headers.items()
+        if str(key).casefold().startswith("x-openrouter-")
+    }
+
+
+def _attempt_record(
+    *,
+    attempt: int,
+    status_code: int | None,
+    error_type: str | None,
+    payload: Any,
+    headers: Mapping[str, Any],
+    latency_ms: float,
+) -> AttemptRecord:
+    response_id = (
+        payload.get("id")
+        if isinstance(payload, dict) and isinstance(payload.get("id"), str)
+        else None
+    )
+    return AttemptRecord(
+        attempt=attempt,
+        status_code=status_code,
+        error_type=error_type,
+        response_id=response_id,
+        request_id=_header(headers, "X-Request-Id"),
+        generation_id=_header(headers, "X-Generation-Id"),
+        router_metadata=_body_router_metadata(payload),
+        latency_ms=latency_ms,
+    )
+
+
+def _provider_key(value: str) -> str:
+    """Normalize a documented provider display name or base slug."""
+
+    base = value.split("/", 1)[0]
+    return re.sub(r"[^a-z0-9]", "", base.casefold())
+
+
+def _routing_error(
+    message: str,
+    *,
+    error_type: str,
+    payload: dict[str, Any],
+    headers: Mapping[str, Any],
+    attempt_ledger: tuple[AttemptRecord, ...],
+) -> OpenRouterError:
+    return OpenRouterError(
+        message,
+        error_type=error_type,
+        status_code=200,
+        response_id=(payload.get("id") if isinstance(payload.get("id"), str) else None),
+        generation_id=_header(headers, "X-Generation-Id"),
+        retryable=False,
+        attempts=len(attempt_ledger),
+        raw=payload,
+        attempt_ledger=attempt_ledger,
+    )
+
+
+def _validate_routing_evidence(
+    payload: dict[str, Any],
+    *,
+    requested_model: str,
+    expected_canonical_slug: str,
+    provider_order: Sequence[str],
+    requested_service_tier: str,
+    headers: Mapping[str, Any],
+    attempt_ledger: tuple[AttemptRecord, ...],
+) -> tuple[dict[str, Any], str, dict[str, str]]:
+    actual_tier = payload.get("service_tier")
+    if not isinstance(actual_tier, str) or actual_tier != requested_service_tier:
+        raise _routing_error(
+            "served service tier does not match the frozen request",
+            error_type="service_tier_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+
+    metadata = payload.get("openrouter_metadata")
+    if not isinstance(metadata, dict):
+        raise _routing_error(
+            "successful response lacks required OpenRouter routing metadata",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    if metadata.get("requested") != requested_model:
+        raise _routing_error(
+            "router metadata requested model does not match the frozen request",
+            error_type="routing_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    if metadata.get("strategy") != "direct" or metadata.get("attempt") != 1:
+        raise _routing_error(
+            "router used a non-direct strategy or an internal fallback",
+            error_type="routing_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    pipeline = metadata.get("pipeline", [])
+    if not isinstance(pipeline, list):
+        raise _routing_error(
+            "router pipeline metadata is malformed",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    if pipeline:
+        raise _routing_error(
+            "router materially transformed the benchmark request or response",
+            error_type="routing_transformation",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+
+    endpoints = metadata.get("endpoints")
+    available = endpoints.get("available") if isinstance(endpoints, dict) else None
+    if not isinstance(available, list):
+        raise _routing_error(
+            "router endpoint metadata is missing or malformed",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    selected = [
+        endpoint
+        for endpoint in available
+        if isinstance(endpoint, dict) and endpoint.get("selected") is True
+    ]
+    if len(selected) != 1:
+        raise _routing_error(
+            "router metadata does not name exactly one selected endpoint",
+            error_type="routing_metadata_error",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    endpoint = selected[0]
+    provider = endpoint.get("provider")
+    served_model = endpoint.get("model")
+    if (
+        not isinstance(provider, str)
+        or _provider_key(provider) != _provider_key(provider_order[0])
+        or served_model not in {requested_model, expected_canonical_slug}
+    ):
+        raise _routing_error(
+            "selected provider endpoint does not match the frozen route",
+            error_type="routing_mismatch",
+            payload=payload,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+    router_attempts = metadata.get("attempts")
+    if router_attempts is not None:
+        if not isinstance(router_attempts, list) or len(router_attempts) != 1:
+            raise _routing_error(
+                "router attempt metadata indicates a fallback",
+                error_type="routing_mismatch",
+                payload=payload,
+                headers=headers,
+                attempt_ledger=attempt_ledger,
+            )
+        only = router_attempts[0]
+        if not isinstance(only, dict) or only.get("status") != 200:
+            raise _routing_error(
+                "router attempt metadata does not identify one successful endpoint",
+                error_type="routing_mismatch",
+                payload=payload,
+                headers=headers,
+                attempt_ledger=attempt_ledger,
+            )
+    return dict(metadata), actual_tier, _routing_headers(headers)
+
+
+def _retry_after_seconds(headers: Mapping[str, Any]) -> float | None:
+    raw = _header(headers, "Retry-After")
+    if raw is None:
+        return None
+    try:
+        return max(0.0, float(raw))
+    except ValueError:
+        try:
+            retry_at = parsedate_to_datetime(raw)
+        except (TypeError, ValueError):
+            return None
+        if retry_at.tzinfo is None:
+            retry_at = retry_at.replace(tzinfo=timezone.utc)
+        return max(
+            0.0,
+            (retry_at.astimezone(timezone.utc) - datetime.now(timezone.utc)).total_seconds(),
+        )
+
+
+def _decode_json(body: bytes, *, attempts: int, status_code: int | None) -> Any:
+    try:
+        return json.loads(body.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise OpenRouterError(
+            "OpenRouter returned malformed JSON",
+            error_type="malformed_json",
+            status_code=status_code,
+            retryable=False,
+            attempts=attempts,
+            raw={
+                "body_sha256": hashlib.sha256(body).hexdigest(),
+                "body_length": len(body),
+            },
+        ) from exc
+
+
+def _error_details(
+    payload: Any,
+    *,
+    status_code: int | None,
+    headers: Mapping[str, Any],
+    attempts: int,
+) -> OpenRouterError:
+    raw = payload if isinstance(payload, dict) else None
+    envelope = payload.get("error") if isinstance(payload, dict) else None
+    if not isinstance(envelope, dict):
+        envelope = {}
+    error_type = (
+        payload.get("error_type")
+        if isinstance(payload, dict) and isinstance(payload.get("error_type"), str)
+        else "http_error"
+    )
+    message = envelope.get("message")
+    if not isinstance(message, str) or not message.strip():
+        message = f"OpenRouter request failed ({error_type})"
+    lowered = error_type.casefold()
+    retryable = bool(
+        status_code == 429
+        or (status_code is not None and status_code >= 500)
+        or lowered in _RETRYABLE_ERROR_TYPES
+    )
+    if any(fragment in lowered for fragment in _NON_RETRYABLE_ERROR_FRAGMENTS):
+        retryable = False
+    if status_code in {400, 401, 402, 403, 404, 405, 409, 422}:
+        retryable = False
+    return OpenRouterError(
+        message,
+        error_type=error_type,
+        status_code=status_code,
+        api_code=envelope.get("code"),
+        response_id=(
+            payload.get("id")
+            if isinstance(payload, dict) and isinstance(payload.get("id"), str)
+            else None
+        ),
+        generation_id=_header(headers, "X-Generation-Id"),
+        retryable=retryable,
+        retry_after_seconds=_retry_after_seconds(headers),
+        attempts=attempts,
+        raw=raw,
+        incomplete_details=(
+            payload.get("incomplete_details") if isinstance(payload, dict) else None
+        ),
+    )
+
+
+def _extract_text(payload: dict[str, Any], *, attempts: int) -> str:
+    def reject(message: str) -> None:
+        raise OpenRouterError(
+            message,
+            error_type="schema_error",
+            retryable=False,
+            attempts=attempts,
+            raw=payload,
+        )
+
+    output = payload.get("output")
+    if not isinstance(output, list):
+        reject("response output must be a list")
+
+    message: dict[str, Any] | None = None
+    for item in output:
+        if not isinstance(item, dict):
+            reject("response output contains a malformed item")
+        item_type = item.get("type")
+        if item_type == "reasoning":
+            if message is not None:
+                reject("reasoning output must precede the assistant message")
+            if "output_text" in item:
+                reject("reasoning output carries ambiguous text content")
+            reasoning_content = item.get("content")
+            if reasoning_content is not None and reasoning_content != []:
+                reject("reasoning output carries ambiguous text content")
+            if item.get("status") not in (None, "completed"):
+                reject("reasoning output is not completed")
+            continue
+        if item_type != "message":
+            reject("response output contains a non-message result item")
+        if message is not None:
+            reject("response output must contain exactly one assistant message")
+        message = item
+
+    if message is None:
+        reject("response output must contain exactly one assistant message")
+    message_id = message.get("id")
+    if not isinstance(message_id, str) or not message_id.strip():
+        reject("response assistant message has a missing id")
+    if message.get("status") != "completed":
+        reject("response assistant message is not completed")
+    if message.get("role") != "assistant":
+        reject("response message role must be assistant")
+    content = message.get("content")
+    if not isinstance(content, list) or not content:
+        reject("response message content must be a non-empty list")
+
+    nested_parts: list[str] = []
+    for part in content:
+        if not isinstance(part, dict):
+            reject("response message contains a malformed content part")
+        if part.get("type") == "refusal":
+            reject("completed response contains refusal content")
+        if part.get("type") != "output_text":
+            reject("response message contains non-text content")
+        if not isinstance(part.get("text"), str):
+            reject("response output_text content must contain text")
+        nested_parts.append(part["text"])
+    nested = "".join(nested_parts)
+    if not nested.strip():
+        reject("completed response contains no output text")
+
+    top = payload.get("output_text")
+    if "output_text" in payload and not isinstance(top, str):
+        reject("top-level output_text must be text")
+    if isinstance(top, str) and top != nested:
+        reject("top-level and nested output text disagree")
+    return nested
+
+
+class OpenRouterClient:
+    """Small synchronous client with explicit retries and provenance capture."""
+
+    def __init__(
+        self,
+        *,
+        api_key: str | None = None,
+        base_url: str = DEFAULT_BASE_URL,
+        timeout: float = 60.0,
+        max_retries: int = 2,
+        retry_backoff_seconds: float = 1.0,
+        sleeper: Callable[[float], Any] = time.sleep,
+        app_title: str | None = None,
+        app_referer: str | None = None,
+    ) -> None:
+        key = api_key if api_key is not None else os.environ.get("OPENROUTER_API_KEY")
+        if not isinstance(key, str) or not key.strip():
+            raise _configuration_error(
+                "OPENROUTER_API_KEY is missing or blank; no request was made"
+            )
+        if not isinstance(base_url, str) or not base_url.strip():
+            raise ValueError("base_url must be non-blank")
+        if timeout <= 0:
+            raise ValueError("timeout must be positive")
+        if isinstance(max_retries, bool) or not isinstance(max_retries, int):
+            raise ValueError("max_retries must be a non-negative integer")
+        if max_retries < 0:
+            raise ValueError("max_retries must be a non-negative integer")
+        if retry_backoff_seconds < 0:
+            raise ValueError("retry_backoff_seconds must be non-negative")
+
+        self._api_key = key.strip()
+        self.base_url = base_url.rstrip("/")
+        self.timeout = float(timeout)
+        self.max_retries = max_retries
+        self.retry_backoff_seconds = float(retry_backoff_seconds)
+        self._sleeper = sleeper
+        self._app_title = app_title
+        self._app_referer = app_referer
+
+    def __repr__(self) -> str:
+        return (
+            f"{type(self).__name__}(base_url={self.base_url!r}, "
+            f"timeout={self.timeout!r}, max_retries={self.max_retries!r})"
+        )
+
+    def _headers(self, *, has_body: bool) -> dict[str, str]:
+        headers = {
+            "Authorization": f"Bearer {self._api_key}",
+            "Accept": "application/json",
+            "X-OpenRouter-Metadata": "enabled",
+        }
+        if has_body:
+            headers["Content-Type"] = "application/json"
+        if self._app_title:
+            headers["X-Title"] = self._app_title
+        if self._app_referer:
+            headers["HTTP-Referer"] = self._app_referer
+        return headers
+
+    def _request_json(
+        self,
+        method: str,
+        path: str,
+        *,
+        payload: dict[str, Any] | None = None,
+    ) -> tuple[
+        dict[str, Any],
+        dict[str, str],
+        tuple[AttemptRecord, ...],
+        float,
+    ]:
+        encoded = (
+            json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
+            if payload is not None
+            else None
+        )
+        started = time.monotonic()
+        ledger: list[AttemptRecord] = []
+        for attempt in range(1, self.max_retries + 2):
+            attempt_started = time.monotonic()
+            request = Request(
+                f"{self.base_url}{path}",
+                data=encoded,
+                method=method,
+                headers=self._headers(has_body=payload is not None),
+            )
+            try:
+                with urlopen(request, timeout=self.timeout) as response:
+                    body = response.read()
+                    headers = {key: value for key, value in response.headers.items()}
+                    status_code = int(response.status)
+            except HTTPError as exc:
+                body = exc.read()
+                headers = {key: value for key, value in exc.headers.items()}
+                status_code = int(exc.code)
+            except URLError as exc:
+                record = _attempt_record(
+                    attempt=attempt,
+                    status_code=None,
+                    error_type="network_error",
+                    payload=None,
+                    headers={},
+                    latency_ms=(time.monotonic() - attempt_started) * 1000.0,
+                )
+                ledger.append(record)
+                error = OpenRouterError(
+                    "OpenRouter network request failed",
+                    error_type="network_error",
+                    retryable=False,
+                    attempts=attempt,
+                    attempt_ledger=tuple(ledger),
+                )
+                raise error from exc
+
+            attempt_latency = (time.monotonic() - attempt_started) * 1000.0
+            try:
+                decoded = _decode_json(
+                    body, attempts=attempt, status_code=status_code
+                )
+            except OpenRouterError as error:
+                ledger.append(
+                    _attempt_record(
+                        attempt=attempt,
+                        status_code=status_code,
+                        error_type=error.error_type,
+                        payload=None,
+                        headers=headers,
+                        latency_ms=attempt_latency,
+                    )
+                )
+                error.generation_id = _header(headers, "X-Generation-Id")
+                error.attempt_ledger = tuple(ledger)
+                raise
+            if not isinstance(decoded, dict):
+                ledger.append(
+                    _attempt_record(
+                        attempt=attempt,
+                        status_code=status_code,
+                        error_type="schema_error",
+                        payload=None,
+                        headers=headers,
+                        latency_ms=attempt_latency,
+                    )
+                )
+                raise OpenRouterError(
+                    "OpenRouter response must be a JSON object",
+                    error_type="schema_error",
+                    status_code=status_code,
+                    retryable=False,
+                    attempts=attempt,
+                    attempt_ledger=tuple(ledger),
+                )
+            has_error = isinstance(decoded.get("error"), dict)
+            failed_status = (
+                decoded.get("status") == "failed"
+                and isinstance(decoded.get("error_type"), str)
+            )
+            if status_code >= 400 or has_error or failed_status:
+                error = _error_details(
+                    decoded,
+                    status_code=status_code,
+                    headers=headers,
+                    attempts=attempt,
+                )
+                ledger.append(
+                    _attempt_record(
+                        attempt=attempt,
+                        status_code=status_code,
+                        error_type=error.error_type,
+                        payload=decoded,
+                        headers=headers,
+                        latency_ms=attempt_latency,
+                    )
+                )
+                error.attempt_ledger = tuple(ledger)
+                if error.retryable and attempt <= self.max_retries:
+                    delay = (
+                        error.retry_after_seconds
+                        if error.retry_after_seconds is not None
+                        else self.retry_backoff_seconds * attempt
+                    )
+                    self._sleeper(delay)
+                    continue
+                raise error
+            ledger.append(
+                _attempt_record(
+                    attempt=attempt,
+                    status_code=status_code,
+                    error_type=None,
+                    payload=decoded,
+                    headers=headers,
+                    latency_ms=attempt_latency,
+                )
+            )
+            elapsed_ms = (time.monotonic() - started) * 1000.0
+            return decoded, headers, tuple(ledger), elapsed_ms
+
+        raise AssertionError("unreachable retry loop")
+
+    def responses(
+        self,
+        *,
+        model_id: str,
+        messages: list[dict[str, Any]],
+        max_output_tokens: int,
+        reasoning_effort: str | None,
+        provider_order: Sequence[str],
+        expected_canonical_slug: str,
+        service_tier: str = DEFAULT_SERVICE_TIER,
+        response_format: Mapping[str, Any] | None = None,
+    ) -> ResponseResult:
+        if (
+            not isinstance(expected_canonical_slug, str)
+            or not expected_canonical_slug.strip()
+        ):
+            raise ValueError(
+                "expected_canonical_slug must be bound from a validated catalog"
+            )
+        request_payload = build_response_request(
+            model_id=model_id,
+            messages=messages,
+            max_output_tokens=max_output_tokens,
+            reasoning_effort=reasoning_effort,
+            provider_order=provider_order,
+            service_tier=service_tier,
+            response_format=response_format,
+        )
+        payload, headers, attempt_ledger, latency_ms = self._request_json(
+            "POST", "/responses", payload=request_payload
+        )
+        attempts = len(attempt_ledger)
+
+        if isinstance(payload.get("error"), dict):
+            error = _error_details(
+                payload, status_code=200, headers=headers, attempts=attempts
+            )
+            error.attempt_ledger = attempt_ledger
+            raise error
+        status = payload.get("status")
+        incomplete_details = payload.get("incomplete_details")
+        if status != "completed":
+            error_type = (
+                "incomplete_response"
+                if status == "incomplete"
+                else (
+                    payload.get("error_type")
+                    if isinstance(payload.get("error_type"), str)
+                    else "failed_response"
+                )
+            )
+            raise OpenRouterError(
+                f"OpenRouter response status is {status!r}",
+                error_type=error_type,
+                status_code=200,
+                response_id=(
+                    payload.get("id") if isinstance(payload.get("id"), str) else None
+                ),
+                generation_id=_header(headers, "X-Generation-Id"),
+                retryable=False,
+                attempts=attempts,
+                raw=payload,
+                incomplete_details=incomplete_details,
+                attempt_ledger=attempt_ledger,
+            )
+
+        response_id = payload.get("id")
+        returned_model = payload.get("model")
+        usage = payload.get("usage")
+        if not isinstance(response_id, str) or not response_id.strip():
+            raise OpenRouterError(
+                "completed response has a missing id",
+                error_type="schema_error",
+                retryable=False,
+                attempts=attempts,
+                raw=payload,
+                attempt_ledger=attempt_ledger,
+            )
+        if not isinstance(returned_model, str) or not returned_model.strip():
+            raise OpenRouterError(
+                "completed response has a missing model",
+                error_type="schema_error",
+                retryable=False,
+                attempts=attempts,
+                raw=payload,
+                attempt_ledger=attempt_ledger,
+            )
+        if not isinstance(usage, dict):
+            raise OpenRouterError(
+                "completed response has malformed usage",
+                error_type="schema_error",
+                retryable=False,
+                attempts=attempts,
+                raw=payload,
+                attempt_ledger=attempt_ledger,
+            )
+        allowed_models = {model_id}
+        allowed_models.add(expected_canonical_slug)
+        if returned_model not in allowed_models:
+            raise OpenRouterError(
+                f"returned model {returned_model!r} does not match the frozen request",
+                error_type="model_mismatch",
+                retryable=False,
+                attempts=attempts,
+                response_id=response_id,
+                generation_id=_header(headers, "X-Generation-Id"),
+                raw=payload,
+                attempt_ledger=attempt_ledger,
+            )
+        metadata, actual_tier, routing_headers = _validate_routing_evidence(
+            payload,
+            requested_model=model_id,
+            expected_canonical_slug=expected_canonical_slug,
+            provider_order=provider_order,
+            requested_service_tier=service_tier,
+            headers=headers,
+            attempt_ledger=attempt_ledger,
+        )
+        try:
+            text = _extract_text(payload, attempts=attempts)
+        except OpenRouterError as error:
+            error.attempt_ledger = attempt_ledger
+            error.generation_id = _header(headers, "X-Generation-Id")
+            raise
+
+        return ResponseResult(
+            text=text,
+            response_id=response_id,
+            requested_model=model_id,
+            returned_model=returned_model,
+            status=status,
+            usage=dict(usage),
+            raw=payload,
+            request_id=_header(headers, "X-Request-Id"),
+            generation_id=_header(headers, "X-Generation-Id"),
+            router_metadata=metadata,
+            routing_headers=routing_headers,
+            incomplete_details=incomplete_details,
+            attempts=attempts,
+            attempt_ledger=attempt_ledger,
+            latency_ms=latency_ms,
+            service_tier=actual_tier,
+        )
+
+    def fetch_catalog(self) -> dict[str, Any]:
+        payload, _headers, _attempts, _latency = self._request_json("GET", "/models")
+        return payload
+
+    def fetch_user_catalog(self) -> dict[str, Any]:
+        payload, _headers, _attempts, _latency = self._request_json(
+            "GET", "/models/user"
+        )
+        return payload
+
+    def fetch_endpoints(self, model_id: str) -> dict[str, Any]:
+        if not isinstance(model_id, str) or "/" not in model_id:
+            raise ValueError("model_id must be an exact author/model identifier")
+        path = "/models/" + quote(model_id, safe="/") + "/endpoints"
+        payload, _headers, _attempts, _latency = self._request_json("GET", path)
+        return payload

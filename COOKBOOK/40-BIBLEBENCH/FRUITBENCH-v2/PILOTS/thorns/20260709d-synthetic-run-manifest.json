@@ -1,0 +1,678 @@
+{
+  "banner": "SYNTHETIC \u2014 HARNESS VALIDATION ONLY; not empirical model measurements",
+  "date_token": "20260709d",
+  "mode": "synthetic",
+  "phase": null,
+  "design": "thorns",
+  "source_commit": "15fe32e772c49b39e3422c2d621edc47c884d979",
+  "config_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/pilot_config.json",
+  "config_sha256": "b836dd88110c8e7870a494563fdb37ea16970b4d6c55e243bfac40a82f4bd488",
+  "preflight_receipt_sha256": null,
+  "cue_schedule_path": null,
+  "cue_schedule_sha256": null,
+  "cue_schedule_hash": null,
+  "scoped_git_dirty": false,
+  "scoped_git_status": [],
+  "source_state": {
+    "commit": "15fe32e772c49b39e3422c2d621edc47c884d979",
+    "scoped_dirty": false,
+    "scoped_status": []
+  },
+  "input_fingerprints": {
+    "harness": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns",
+      "n_files": 28,
+      "sha256": "b836fc3350902cb8825ea827123dbfd1af4b6e87aed436192959a23e5a3f15b6"
+    },
+    "items": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns",
+      "n_files": 153,
+      "sha256": "ef07d42d463ab194fe6a794a36deb5952c66b6fc380a0cc55c633a077721e120"
+    },
+    "synthetic_reference": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/synthetic_reference.json",
+      "sha256": "99f5f067e2d76c14242e299f39ae4dcc41deff76fc560f6190a68999a3b56315"
+    }
+  },
+  "effective_config": {
+    "_comment": "THORNS P1 pilot config. Synthetic mode is HARNESS-VALIDATION ONLY. A live run additionally requires real adapters/credentials, validated cross-family judges, human substitution, post-D-36 items, and calibration/evaluation/held-out roles disjoint by BOTH family and vendor. Family/vendor labels are load-bearing and must name the real provider lineage honestly.",
+    "design": "thorns",
+    "mode": "synthetic",
+    "g1_aggregation": "attacker_primary",
+    "seed": 20260706,
+    "paths": {
+      "items": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns",
+      "pilots": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns",
+      "synthetic_reference": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/synthetic_reference.json"
+    },
+    "rollouts": {
+      "calibration": 8,
+      "evaluation": 5,
+      "held_out": 6
+    },
+    "role_counts": {
+      "calibration": 4,
+      "evaluation": 3,
+      "held_out_frontier": 2
+    },
+    "roles": {
+      "calibration": [
+        {
+          "name": "attacker-persona-v1",
+          "family": "syn-attacker",
+          "vendor": "synthetic-attacker",
+          "adapter": "synthetic",
+          "profile": "attacker",
+          "attacker": true,
+          "persona_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/shared/attacker-persona-v1.md",
+          "params": {
+            "seed": 20260706
+          }
+        },
+        {
+          "name": "open-A",
+          "family": "syn-openA",
+          "vendor": "synthetic-open-a",
+          "adapter": "synthetic",
+          "profile": "open_mid",
+          "params": {
+            "seed": 20260707
+          }
+        },
+        {
+          "name": "open-B",
+          "family": "syn-openB",
+          "vendor": "synthetic-open-b",
+          "adapter": "synthetic",
+          "profile": "open_mid",
+          "params": {
+            "seed": 20260708
+          }
+        },
+        {
+          "name": "open-C",
+          "family": "syn-openC",
+          "vendor": "synthetic-open-c",
+          "adapter": "synthetic",
+          "profile": "open_mid",
+          "params": {
+            "seed": 20260709
+          }
+        }
+      ],
+      "evaluation": [
+        {
+          "name": "eval-X-high",
+          "family": "syn-evalX",
+          "vendor": "synthetic-eval-x",
+          "adapter": "synthetic",
+          "profile": "aligned_high",
+          "params": {
+            "seed": 20260710
+          }
+        },
+        {
+          "name": "eval-Y-high",
+          "family": "syn-evalY",
+          "vendor": "synthetic-eval-y",
+          "adapter": "synthetic",
+          "profile": "aligned_high",
+          "params": {
+            "seed": 20260711
+          }
+        },
+        {
+          "name": "eval-Z-mid",
+          "family": "syn-evalZ",
+          "vendor": "synthetic-eval-z",
+          "adapter": "synthetic",
+          "profile": "aligned_mid",
+          "params": {
+            "seed": 20260712
+          }
+        }
+      ],
+      "held_out_frontier": [
+        {
+          "name": "held-P",
+          "family": "syn-heldP",
+          "vendor": "synthetic-held-p",
+          "adapter": "synthetic",
+          "profile": "frontier_held",
+          "params": {
+            "seed": 20260713
+          }
+        },
+        {
+          "name": "held-Q",
+          "family": "syn-heldQ",
+          "vendor": "synthetic-held-q",
+          "adapter": "synthetic",
+          "profile": "frontier_held",
+          "params": {
+            "seed": 20260714
+          }
+        }
+      ]
+    }
+  },
+  "persona": [
+    {
+      "role": "calibration",
+      "name": "attacker-persona-v1",
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/shared/attacker-persona-v1.md",
+      "sha256": "56bf56d0dac5014e6fc6da27849fae71abd42a618a7c00991433ced20e6ceb8c"
+    }
+  ],
+  "bank_gold_inventory": [
+    {
+      "item_id": "thorns-approvalidol-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-approvalidol-001.yaml",
+      "bank_sha256": "af8ec4ae3068cb98b8b9dc74a939b22cd579cb56e11e3562dc646faa03140579",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-approvalidol-001.gold.yaml",
+      "gold_sha256": "7269c3630959f536d006ab2eebf468c386f29b111b61ca883c99a31853e89c7c"
+    },
+    {
+      "item_id": "thorns-approvalidol-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-approvalidol-002.yaml",
+      "bank_sha256": "8060ae17e92a41d994ee05de0a0de1f1d77d7140eb7a49e3001c5f170d4da89c",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-approvalidol-002.gold.yaml",
+      "gold_sha256": "2be060364475926016400db4d71b3731598788d33442f0df2b6c20b4f5a2794c"
+    },
+    {
+      "item_id": "thorns-approvalidol-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-approvalidol-003.yaml",
+      "bank_sha256": "a155c61bad32a8bca0cff06b8b44020094732a6cb85540a71e67c903f74e6d81",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-approvalidol-003.gold.yaml",
+      "gold_sha256": "b02874efcc3f2947355c2125c15401704ee8ec6425623a131eb2a875a713d936"
+    },
+    {
+      "item_id": "thorns-astroturf-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-astroturf-001.yaml",
+      "bank_sha256": "d203e3096b555cb84f58c0344aec311f1234ef89d6b796f6497bfd0a94296035",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-astroturf-001.gold.yaml",
+      "gold_sha256": "ddbb3fdb4ee81fd79d42a40117e24bce9a3390d64dc6c60146e0f0c71b7bc106"
+    },
+    {
+      "item_id": "thorns-astroturf-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-astroturf-002.yaml",
+      "bank_sha256": "0e8f79c18693c1141752687c09b5fea55fa11feb8a9c8aa5496b36e60940bb46",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-astroturf-002.gold.yaml",
+      "gold_sha256": "937c03c7823a7d5b8d645bbc7e780cfa239be59582bb4952cd03317c15bc23b4"
+    },
+    {
+      "item_id": "thorns-astroturf-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-astroturf-003.yaml",
+      "bank_sha256": "81c09a5c4b9579915a795f06535f9b421dfdb869b930ca7ca50d5023651eecdb",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-astroturf-003.gold.yaml",
+      "gold_sha256": "56fc560ed542246d7d429f61facbeea479a5acee6a175f8c57b9bb6f50fef655"
+    },
+    {
+      "item_id": "thorns-contend-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-contend-001.yaml",
+      "bank_sha256": "4bdfa4faa518c94a89891c3f681b8cf09de340bb3667a0d97937ec178015a2a0",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-contend-001.gold.yaml",
+      "gold_sha256": "0087b290ca006f631330507bbcd01d9014c97100d93d4b54e7804c6e978be8ea"
+    },
+    {
+      "item_id": "thorns-contend-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-contend-002.yaml",
+      "bank_sha256": "4186190c1b071477820a0124f4430f688a738724dfbf3672be9af18fae467973",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-contend-002.gold.yaml",
+      "gold_sha256": "36a8b276aaaf18ca34dd49291ab267204966b1dddcf6b83ac46a72347ea70798"
+    },
+    {
+      "item_id": "thorns-contend-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-contend-003.yaml",
+      "bank_sha256": "87fc835d6a9bda15e91aebf9cdf25592a89d241106687d7a2849a37b9653f006",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-contend-003.gold.yaml",
+      "gold_sha256": "112d357c80628c6275d33991cf7f9d98fe96a678debf686924e4094af8b254fd"
+    },
+    {
+      "item_id": "thorns-craving-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-craving-001.yaml",
+      "bank_sha256": "cd452dc0651463eb9d3d10b69b4f557f52d42fc0aa1c16a3e5c8dfee9830d6f1",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-craving-001.gold.yaml",
+      "gold_sha256": "416854053167fb144eae248c8301f3b7db15f2540ba889fac4e479610e9538c0"
+    },
+    {
+      "item_id": "thorns-craving-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-craving-002.yaml",
+      "bank_sha256": "09839aecf13f65603b97342358e379de37b6395c7a2321c29d35f896f2a79e75",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-craving-002.gold.yaml",
+      "gold_sha256": "1fd8ef1d0922bcbac3a22cd4ead257d33576b6613639c9c7145dd95922b867d6"
+    },
+    {
+      "item_id": "thorns-craving-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-craving-003.yaml",
+      "bank_sha256": "585b6aa3e294fc2023823bca07e9002ce075e6f3a36da753294f4a3a3d0de872",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-craving-003.gold.yaml",
+      "gold_sha256": "fa66fd335c98a2a0132fb509b05e74c0fa979ef83226d635786ba0b6be75ca63"
+    },
+    {
+      "item_id": "thorns-creditvow-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-creditvow-001.yaml",
+      "bank_sha256": "7db1dfd43e12b6d1358d31a776dc440de1d23873dd261438db291ea2f379bbd7",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-creditvow-001.gold.yaml",
+      "gold_sha256": "9daf09f2961f50c08920f987b4006080703fdaec021f88ae4213c476cacf6711"
+    },
+    {
+      "item_id": "thorns-creditvow-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-creditvow-002.yaml",
+      "bank_sha256": "9e5fec4790aed026b708b3ee8cc3bbbaeb95791f039f45c78921b79c90273664",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-creditvow-002.gold.yaml",
+      "gold_sha256": "ff27d0fd8d03a3a6a91df58ba76bb3e2631042d5c1c05b70e17ad07d6c5a5223"
+    },
+    {
+      "item_id": "thorns-creditvow-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-creditvow-003.yaml",
+      "bank_sha256": "670b1529e9dc5ff6150bc942ceb3bb82c941488d2c3180429c5915065c5cd31b",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-creditvow-003.gold.yaml",
+      "gold_sha256": "438d1f53e5bf853dd5d256a0eff367cddb57b3cc64366302601e0910d9999541"
+    },
+    {
+      "item_id": "thorns-darkpattern-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-darkpattern-001.yaml",
+      "bank_sha256": "d2e7052a04eeb643cbda990a9510823f0cbdd44f0d19607d4a89b6477f28e378",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-darkpattern-001.gold.yaml",
+      "gold_sha256": "0b6b5f63095535d9f91c8b26b4d87ac8077c8bfe3170a0bf6fbe976b385f5898"
+    },
+    {
+      "item_id": "thorns-darkpattern-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-darkpattern-002.yaml",
+      "bank_sha256": "06ebed8c2c223bda4f84e31311da91998429673849cfc56827aecdc9fc4808f5",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-darkpattern-002.gold.yaml",
+      "gold_sha256": "a31dca19ea8674dc7fdc08029b3fbf5a1de6981b091d38ca4a29f4ad1dbb280d"
+    },
+    {
+      "item_id": "thorns-darkpattern-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-darkpattern-003.yaml",
+      "bank_sha256": "8212fe9a2fe1d471bc985a9da87ae816a8bfe203835a55af4a69c767292c6bfb",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-darkpattern-003.gold.yaml",
+      "gold_sha256": "998d8f1c85fa1ef7cf8ca07007bfb973a03f4a10aee8c888f4f28d4b7c8009b1"
+    },
+    {
+      "item_id": "thorns-enemyweak-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-enemyweak-001.yaml",
+      "bank_sha256": "8546b7f0c97f42e996382acda6e335f95fa446d2cf4bac96a163276a12a58919",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-enemyweak-001.gold.yaml",
+      "gold_sha256": "94d26e2a49324adc4ee024b731b88fc3a8f9b42de18bb2f272ad7260d13d7db7"
+    },
+    {
+      "item_id": "thorns-enemyweak-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-enemyweak-002.yaml",
+      "bank_sha256": "0d5aff6b2aad2cba959dfaa3ae9c2aeaac87292236f1b4cc655d3ba8a1d4e115",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-enemyweak-002.gold.yaml",
+      "gold_sha256": "31584a12438014d3f6a0d334a7533c05108cc36afbdfef1af8e2fb5b7886357d"
+    },
+    {
+      "item_id": "thorns-enemyweak-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-enemyweak-003.yaml",
+      "bank_sha256": "19d7d4100f9db3c3adc251af08c03d7afbaaec729fcdafd43926c4a4dbc000dd",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-enemyweak-003.gold.yaml",
+      "gold_sha256": "4a8e3661d1aa4cef0284e7ba2374b3e880321521262de9cded93d266be19a74c"
+    },
+    {
+      "item_id": "thorns-envy-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-envy-001.yaml",
+      "bank_sha256": "5ccfbd3b8d219235ad0a3f7c33bc37fcb6ce55ebc6fb96346c1b3d5bb0f3858a",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-envy-001.gold.yaml",
+      "gold_sha256": "c2610f936b2270e4e294566341dc1b6019ccb8a658fe8822b770dcc9e0842854"
+    },
+    {
+      "item_id": "thorns-envy-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-envy-002.yaml",
+      "bank_sha256": "02e975d7d57b1636c8d65e85a33251ce3384a8928e1d1c2bc62e43e6c1e7f00d",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-envy-002.gold.yaml",
+      "gold_sha256": "8e80fde1b1ac46f0da596b4c9e1847875eded8246bc6bfb848febb751d88e264"
+    },
+    {
+      "item_id": "thorns-envy-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-envy-003.yaml",
+      "bank_sha256": "20dff27f81e8bcb64e798a867e9c4d5440b6a63f39018dbefaceb4aa9d8914a9",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-envy-003.gold.yaml",
+      "gold_sha256": "144aece2025d5ee18bb1caa09b478ee20235c63900ed4ccb4135ff3dcd920680"
+    },
+    {
+      "item_id": "thorns-frenzy-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-frenzy-001.yaml",
+      "bank_sha256": "9a20b2a7f77a088e564f5a59b1d34cddd4b6f9c2e0d240ef965164976f4c364e",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-frenzy-001.gold.yaml",
+      "gold_sha256": "43f26e247db3d5105f91a22458282a0815413bbd917b1c1f6209419ddb4324fd"
+    },
+    {
+      "item_id": "thorns-frenzy-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-frenzy-002.yaml",
+      "bank_sha256": "c390708717fe6823d1e7f8b406df2b005122b4fee84a62134fc83e2eac3ea601",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-frenzy-002.gold.yaml",
+      "gold_sha256": "87d1e53b641e8f0864f77b5a9fc4edfddfe555630b825dcbc707b2fbc737440b"
+    },
+    {
+      "item_id": "thorns-frenzy-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-frenzy-003.yaml",
+      "bank_sha256": "4f015f5c0ef59668412770d7ea5017dc68f025f25cb2cad764a9b97291510b64",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-frenzy-003.gold.yaml",
+      "gold_sha256": "7a255a31adc83cc2ba8efa2be461f7c580fb7e17f21b3515a41f2535ceca34b8"
+    },
+    {
+      "item_id": "thorns-grievancefarm-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-grievancefarm-001.yaml",
+      "bank_sha256": "1139c4ca16100c94194d72c2d334536ba909e54a24217dc2c807390ac43536e0",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-grievancefarm-001.gold.yaml",
+      "gold_sha256": "34f7b99ee2969774e212d6c6d34679d732293bf26475af57807a1008178f0d56"
+    },
+    {
+      "item_id": "thorns-grievancefarm-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-grievancefarm-002.yaml",
+      "bank_sha256": "dbf6cedd6942684ec1632b11e81937825dee7abc53e4937165e5bfbe7f443b9b",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-grievancefarm-002.gold.yaml",
+      "gold_sha256": "b5ee3e54282736e729a6e0c7e95b174e5eecffea6fe5221d39389e62cf4132f1"
+    },
+    {
+      "item_id": "thorns-grievancefarm-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-grievancefarm-003.yaml",
+      "bank_sha256": "f6bc5d9ca972228b3b5319aa4288331d5a6a255256a263eda6c74ac616306a38",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-grievancefarm-003.gold.yaml",
+      "gold_sha256": "6d5e9f209eabf10a8ba487932002d2b640a040eeaadef36a4052b35da354b922"
+    },
+    {
+      "item_id": "thorns-hardline-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-hardline-001.yaml",
+      "bank_sha256": "11576b9a7c911366e3e4f1a970947f052640971ae31baf50c5234f0557c5bab6",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-hardline-001.gold.yaml",
+      "gold_sha256": "491c529c2c65378fda9ad71e1a76b2e024ffc6dc9cb0d03def319b2b02594375"
+    },
+    {
+      "item_id": "thorns-hardline-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-hardline-002.yaml",
+      "bank_sha256": "a19d9090a2e494bfe58945c5db0a4f2a10500098be826c3df0666c85d03ada4e",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-hardline-002.gold.yaml",
+      "gold_sha256": "8979de7593ca3b67edbd2f99fb5c20e6d4e7f0e2d871b7b069a9157f4465a6a8"
+    },
+    {
+      "item_id": "thorns-hardline-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-hardline-003.yaml",
+      "bank_sha256": "4691844488446f4f52f09bc74f8ff1fa2d7efe949ef83d865f237b149f3c49fd",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-hardline-003.gold.yaml",
+      "gold_sha256": "f8a0ebf6b76f1fb691cb825f21b799d96a8ce90db26a89f20e8c0386dcc6cbb4"
+    },
+    {
+      "item_id": "thorns-indulge-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-indulge-001.yaml",
+      "bank_sha256": "bc1db5cd6a7076946853f3ae1b205f0c593dd872d93649fede88938ee327aeb5",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-indulge-001.gold.yaml",
+      "gold_sha256": "bf485bfe40d256b295117489e542e69281e64f2bff41c522224013bb4686671b"
+    },
+    {
+      "item_id": "thorns-indulge-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-indulge-002.yaml",
+      "bank_sha256": "928fad14754396454a23a9024689501c46e6527ded1c8f8a581de91969fbcae5",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-indulge-002.gold.yaml",
+      "gold_sha256": "655388c358e4ae4004a4e406f31756921b36b9d07e7c724c4a9714d6d0aed107"
+    },
+    {
+      "item_id": "thorns-indulge-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-indulge-003.yaml",
+      "bank_sha256": "21f85813f74e1a2f5970927e286d2598eeaf9826c4417a2a720d235a012a9e5f",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-indulge-003.gold.yaml",
+      "gold_sha256": "cd21ca797a3edc02ddbb9e9de9f19d0184c35b364e0c528c57668186fe7f0d33"
+    },
+    {
+      "item_id": "thorns-metricvow-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-metricvow-001.yaml",
+      "bank_sha256": "b70317cf079710c40f8d87f0a8751f4627ce2d3b1253543b5edbeef98f4c4170",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-metricvow-001.gold.yaml",
+      "gold_sha256": "4cce071fb40b94f8c7200edaf05ef28ba506a947e380ef758c077f79e5f612b7"
+    },
+    {
+      "item_id": "thorns-metricvow-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-metricvow-002.yaml",
+      "bank_sha256": "dd3e2658364354672c7ae0e0005d2c2864dd17fe8fe6896e6682f552cbda4986",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-metricvow-002.gold.yaml",
+      "gold_sha256": "767e62dfa6182493d51ba87f57df0125a19ef43f703856d5510e5aac2ac3f307"
+    },
+    {
+      "item_id": "thorns-metricvow-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-metricvow-003.yaml",
+      "bank_sha256": "e327d7c81942db8f11ecc812828c764ef75820040fce06691e680c4224de81b5",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-metricvow-003.gold.yaml",
+      "gold_sha256": "4ca1bb9192a194a12f0f4958121a49b04b76707e4e403d81b5ef429f2fa366c2"
+    },
+    {
+      "item_id": "thorns-moodbinge-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-moodbinge-001.yaml",
+      "bank_sha256": "776c1e1e95ba51f1690595efc579ce5591c23ae8177b59c76e3cad273e60ef78",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-moodbinge-001.gold.yaml",
+      "gold_sha256": "3bc4cd9860c12024131b14592c28654e1e3acd2e364199bde7d466697fb7cb10"
+    },
+    {
+      "item_id": "thorns-moodbinge-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-moodbinge-002.yaml",
+      "bank_sha256": "b34aed2db030e48f243da2e4039dc81daea5f3594dd638ed2863f7c048aafa30",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-moodbinge-002.gold.yaml",
+      "gold_sha256": "bedac23d364f0e3add7373f2a8119dcc91cb7fa7fdf8992fd7c4b3518943c87c"
+    },
+    {
+      "item_id": "thorns-moodbinge-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-moodbinge-003.yaml",
+      "bank_sha256": "a97c7a1651887b9c0df215ebecece26f541a3a2256be85e84b83e289c96f042c",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-moodbinge-003.gold.yaml",
+      "gold_sha256": "ed21f0096af725d51afcec0207334c150170be7805de49221f28f2a0a9643602"
+    },
+    {
+      "item_id": "thorns-partisan-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-partisan-001.yaml",
+      "bank_sha256": "b407f6828aeadbdf1e2e7553824be504cc0c4b200101d154b4b9674eb34cb734",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-partisan-001.gold.yaml",
+      "gold_sha256": "e000bd9ad2c71b5f762fbe91b44f2c8df3d55ba6eff2f6005753bfb6b4437919"
+    },
+    {
+      "item_id": "thorns-partisan-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-partisan-002.yaml",
+      "bank_sha256": "2f2dfd02ae55a2d86738b5768849175c6a650190f6078d6e26e87d40ee140192",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-partisan-002.gold.yaml",
+      "gold_sha256": "21def652fefb96cc0f30398a40da30dc093da048511de65a083f403bcd79c33d"
+    },
+    {
+      "item_id": "thorns-partisan-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-partisan-003.yaml",
+      "bank_sha256": "52824eaece49faeb8cacf168fb1ef7c68e8e01a81ab94c563af771cd9357f2d8",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-partisan-003.gold.yaml",
+      "gold_sha256": "5d31748753d98273480629f623ad7b6973813a30b11dad43499b0f812a05727a"
+    },
+    {
+      "item_id": "thorns-paternalcrush-001",
+      "status": "exploratory",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-paternalcrush-001.yaml",
+      "bank_sha256": "ffded4c7951155d72962fdbb02f16cea020a3bb550e289d9f60dc9eefdd315b9",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-paternalcrush-001.gold.yaml",
+      "gold_sha256": "fd6be7c16d4d26a5aec3e69b03fed958e5419f89aa8a3ff3fb643f3cee37422a"
+    },
+    {
+      "item_id": "thorns-paternalcrush-002",
+      "status": "exploratory",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-paternalcrush-002.yaml",
+      "bank_sha256": "eda5a4c8ae4fe0ad87d2627a5caa4a977de4983ac776bcb281891b7f3a9cc4a2",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-paternalcrush-002.gold.yaml",
+      "gold_sha256": "72e6d13bab7795e2d18b0901782bd096f26db9ab1cb99405ab9910fe5ad9ab66"
+    },
+    {
+      "item_id": "thorns-paternalcrush-003",
+      "status": "exploratory",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-paternalcrush-003.yaml",
+      "bank_sha256": "3ce248697b5ac021a67a2019d85bbe7305be7a351a7e525384d34ca89edcfad0",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-paternalcrush-003.gold.yaml",
+      "gold_sha256": "4bd1aa5671c0b045fe7f3671b5593f2f4a6c29dab9c99e7d869d18926b95998d"
+    },
+    {
+      "item_id": "thorns-resentcorrect-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-resentcorrect-001.yaml",
+      "bank_sha256": "7edafe8b52eb7cc2c6ff3a40ee32790755897c1618742227b26dba47852370f9",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-resentcorrect-001.gold.yaml",
+      "gold_sha256": "b911ddc68537ccc27e85f19ed81738cd62cbc2403db619280704587a27d5af17"
+    },
+    {
+      "item_id": "thorns-resentcorrect-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-resentcorrect-002.yaml",
+      "bank_sha256": "3035cdcaa47878a72c4b0587b3c68d1feaff1d4173c51f4359a120b35d8aaa1b",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-resentcorrect-002.gold.yaml",
+      "gold_sha256": "953e6552fa14ce7f1b9f1ef0bd135e7d30c6a67e6b7b9076d2ffcafb2752bfc6"
+    },
+    {
+      "item_id": "thorns-resentcorrect-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-resentcorrect-003.yaml",
+      "bank_sha256": "f300e73f138abcd0afaf91eddbd34ff3c82bafb8158771c22f2607e7e36929e4",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-resentcorrect-003.gold.yaml",
+      "gold_sha256": "69145863dd432bc8e53f7366f6246e6ce3d1fb2332371f315ae3b8a51480ae8c"
+    },
+    {
+      "item_id": "thorns-resentjoy-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-resentjoy-001.yaml",
+      "bank_sha256": "37e5dbf9c25b9ef6aef9a8e6e680e9de85c044805b2f534e42e0efc3ab16fef6",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-resentjoy-001.gold.yaml",
+      "gold_sha256": "b7a5510d84ef377f13079d5a20c2323da613225f867dd34e38262ff251f11972"
+    },
+    {
+      "item_id": "thorns-resentjoy-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-resentjoy-002.yaml",
+      "bank_sha256": "5076cb95b3c11dcd7cfd626f75a4303a5513d38fbf9f94d928ec0439b6edd898",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-resentjoy-002.gold.yaml",
+      "gold_sha256": "1bc7389cea084c46618cb5dea0093a261cb5ea6ede20e5e38b428495f3a1f3d4"
+    },
+    {
+      "item_id": "thorns-resentjoy-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-resentjoy-003.yaml",
+      "bank_sha256": "6fe27f97c75a766b42a25d0693405c16b9d62f13b105b4f7f92f94a9c4d4cf04",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-resentjoy-003.gold.yaml",
+      "gold_sha256": "6d0fe787060214912f3084ace66a4d6fbaabdfd3fee856a0b2fa0afdd4d9e454"
+    },
+    {
+      "item_id": "thorns-retaliate-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-retaliate-001.yaml",
+      "bank_sha256": "73d0a0970ba3a9ead904a1ef4326875a342075d74b6d0b492f6f53983b48b974",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-retaliate-001.gold.yaml",
+      "gold_sha256": "cbeb6e8065ca2521c6da797304f8d7f55043b28a2c8cb2010ba417f1582fd0ec"
+    },
+    {
+      "item_id": "thorns-retaliate-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-retaliate-002.yaml",
+      "bank_sha256": "018f4479547f24992239040b5d1bb220048fad62fc65393eef9c6f082c83cf36",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-retaliate-002.gold.yaml",
+      "gold_sha256": "09b5e8a592d5bbc2b600c2cb3b99b2844a7abf6d260fdc7244ea6dfb1a013d0a"
+    },
+    {
+      "item_id": "thorns-retaliate-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-retaliate-003.yaml",
+      "bank_sha256": "eff3a710252362c1a57eace33b89af13a4586c9eb8bd6adf49039ef209816c5e",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-retaliate-003.gold.yaml",
+      "gold_sha256": "487ffdfab1d48e77b20825a5cd854fec243ab614b575ddeadb9ef435ff72c1ad"
+    },
+    {
+      "item_id": "thorns-strifepeace-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-strifepeace-001.yaml",
+      "bank_sha256": "ea550ce4d08b0d937f4b5fcbe8e8e7c7cba39e1d2e459fb5088220a9c4fd09a8",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-strifepeace-001.gold.yaml",
+      "gold_sha256": "87df58efefa9106119601f1e56781367cfe1fff911ec0e73c5e04f190421fd4b"
+    },
+    {
+      "item_id": "thorns-strifepeace-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-strifepeace-002.yaml",
+      "bank_sha256": "4f6ed4073e680a4e8081340d3618066e247a911da67d968fa2cc1a13af3e0415",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-strifepeace-002.gold.yaml",
+      "gold_sha256": "2af51319a9200c0e479d240e1a1cfe930dfe08b014b9603b738e4976992348e5"
+    },
+    {
+      "item_id": "thorns-strifepeace-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-strifepeace-003.yaml",
+      "bank_sha256": "5ba0ed4fcd1dd7cf106cecbf730d2aae00e14ba075125bc83da9f664becfb58f",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-strifepeace-003.gold.yaml",
+      "gold_sha256": "966abe7e3b521f0cba366def23d27116e84f6628eeea90552a6b24be56c01177"
+    },
+    {
+      "item_id": "thorns-wedge-001",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-wedge-001.yaml",
+      "bank_sha256": "f17dba2d542935b8fe99b05a885121b8fcea5c88b8e56c461e49d2033b8942d6",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-wedge-001.gold.yaml",
+      "gold_sha256": "fef6a498baba5a1fe250d734379a308f8d0d485a86b68c76b2fb3f96c143e72f"
+    },
+    {
+      "item_id": "thorns-wedge-002",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-wedge-002.yaml",
+      "bank_sha256": "11ec6fff711cf873f7f7bb9911c84fd472e0b28a19628295c8fc029fc58e709a",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-wedge-002.gold.yaml",
+      "gold_sha256": "f41dc61bd7477535455f1c0c24154440412908d89dfa53e15fcdaac91187b834"
+    },
+    {
+      "item_id": "thorns-wedge-003",
+      "status": "checked",
+      "bank_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/bank/thorns-wedge-003.yaml",
+      "bank_sha256": "4a02f91538df85ad3845105a717871f865526a02c1d1df52d34a8b9c418fdff1",
+      "gold_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns/gold/thorns-wedge-003.gold.yaml",
+      "gold_sha256": "982286cc1eae7561b1a3788a4f9bd44fc5a05968f59be3aea17b4d978fe2c382"
+    }
+  ],
+  "output_sha256": {
+    "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns/20260709d-synthetic-pilot-results.json": "170c407f2c03cdb65d0027678181afccb3a9dda1f6afdaf8f5d0610aac196d89",
+    "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns/20260709d-synthetic-mini-heatmap.md": "a97b0fa4ce380e2485b747be91ba3a58af091510e58c4ab99c79ad82542f59ea"
+  },
+  "completion_marker": true
+}

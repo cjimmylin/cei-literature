@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="780" viewBox="0 0 960 780" role="img" aria-labelledby="title desc">
+<title id="title">UNFENCED synthetic per-fruit V0–V3 response surface</title>
+<desc id="desc">Nine small-multiple line charts compare fitting, noticing, and acting rates across rule arms V0 through V3, separating attention from initiative. SYNTHETIC — HARNESS VALIDATION ONLY; not empirical model measurements.</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:ui-sans-serif,system-ui,sans-serif;fill:#172033}.small{font-size:11px}.label{font-size:13px;font-weight:600}.title{font-size:20px;font-weight:600}.grid{stroke:#d7dce5;stroke-width:1}.axis{stroke:#7b8494;stroke-width:1.2}.fit{stroke:#2864dc;fill:none;stroke-width:2.5}.notice{stroke:#d97706;fill:none;stroke-width:2.5}.action{stroke:#16865b;fill:none;stroke-width:2.5}.fit-dot{fill:#2864dc}.notice-dot{fill:#d97706}.action-dot{fill:#16865b}</style>
+<text x="70" y="42" class="title">UNFENCED P1 — per-fruit rule-arm response surface</text>
+<text x="70" y="66" class="small">SYNTHETIC — HARNESS VALIDATION ONLY; not empirical model measurements</text>
+<line x1="585" y1="58" x2="615" y2="58" class="fit"/><text x="622" y="62" class="small">fit for arm</text>
+<line x1="710" y1="58" x2="740" y2="58" class="notice"/><text x="747" y="62" class="small">noticed</text>
+<line x1="830" y1="58" x2="860" y2="58" class="action"/><text x="867" y="62" class="small">acted</text>
+<text x="70" y="132" class="label">F1</text>
+<line x1="106" y1="280.0" x2="334" y2="280.0" class="grid"/>
+<text x="99" y="284.0" text-anchor="end" class="small">0</text>
+<line x1="106" y1="212.0" x2="334" y2="212.0" class="grid"/>
+<text x="99" y="216.0" text-anchor="end" class="small">50</text>
+<line x1="106" y1="144.0" x2="334" y2="144.0" class="grid"/>
+<text x="99" y="148.0" text-anchor="end" class="small">100</text>
+<line x1="106" y1="144" x2="106" y2="280" class="axis"/>
+<line x1="106" y1="280" x2="334" y2="280" class="axis"/>
+<text x="106.0" y="297" text-anchor="middle" class="small">V0</text>
+<circle cx="106.0" cy="249.8" r="3.2" class="fit-dot"><title>F1 V0 fit 22.2%</title></circle>
+<circle cx="106.0" cy="151.6" r="3.2" class="notice-dot"><title>F1 V0 noticed 94.4%</title></circle>
+<circle cx="106.0" cy="196.9" r="3.2" class="action-dot"><title>F1 V0 acted 61.1%</title></circle>
+<text x="182.0" y="297" text-anchor="middle" class="small">V1</text>
+<circle cx="182.0" cy="257.3" r="3.2" class="fit-dot"><title>F1 V1 fit 16.7%</title></circle>
+<circle cx="182.0" cy="189.3" r="3.2" class="notice-dot"><title>F1 V1 noticed 66.7%</title></circle>
+<circle cx="182.0" cy="219.6" r="3.2" class="action-dot"><title>F1 V1 acted 44.4%</title></circle>
+<text x="258.0" y="297" text-anchor="middle" class="small">V2</text>
+<circle cx="258.0" cy="234.7" r="3.2" class="fit-dot"><title>F1 V2 fit 33.3%</title></circle>
+<circle cx="258.0" cy="159.1" r="3.2" class="notice-dot"><title>F1 V2 noticed 88.9%</title></circle>
+<circle cx="258.0" cy="166.7" r="3.2" class="action-dot"><title>F1 V2 acted 83.3%</title></circle>
+<text x="334.0" y="297" text-anchor="middle" class="small">V3</text>
+<circle cx="334.0" cy="212.0" r="3.2" class="fit-dot"><title>F1 V3 fit 50.0%</title></circle>
+<circle cx="334.0" cy="159.1" r="3.2" class="notice-dot"><title>F1 V3 noticed 88.9%</title></circle>
+<circle cx="334.0" cy="257.3" r="3.2" class="action-dot"><title>F1 V3 acted 16.7%</title></circle>
+<polyline points="106.0,249.8 182.0,257.3 258.0,234.7 334.0,212.0" class="fit"/>
+<polyline points="106.0,151.6 182.0,189.3 258.0,159.1 334.0,159.1" class="notice"/>
+<polyline points="106.0,196.9 182.0,219.6 258.0,166.7 334.0,257.3" class="action"/>
+<text x="370" y="132" class="label">F2</text>
+<line x1="406" y1="280.0" x2="634" y2="280.0" class="grid"/>
+<text x="399" y="284.0" text-anchor="end" class="small">0</text>
+<line x1="406" y1="212.0" x2="634" y2="212.0" class="grid"/>
+<text x="399" y="216.0" text-anchor="end" class="small">50</text>
+<line x1="406" y1="144.0" x2="634" y2="144.0" class="grid"/>
+<text x="399" y="148.0" text-anchor="end" class="small">100</text>
+<line x1="406" y1="144" x2="406" y2="280" class="axis"/>
+<line x1="406" y1="280" x2="634" y2="280" class="axis"/>
+<text x="406.0" y="297" text-anchor="middle" class="small">V0</text>
+<circle cx="406.0" cy="242.2" r="3.2" class="fit-dot"><title>F2 V0 fit 27.8%</title></circle>
+<circle cx="406.0" cy="159.1" r="3.2" class="notice-dot"><title>F2 V0 noticed 88.9%</title></circle>
+<circle cx="406.0" cy="196.9" r="3.2" class="action-dot"><title>F2 V0 acted 61.1%</title></circle>
+<text x="482.0" y="297" text-anchor="middle" class="small">V1</text>
+<circle cx="482.0" cy="264.9" r="3.2" class="fit-dot"><title>F2 V1 fit 11.1%</title></circle>
+<circle cx="482.0" cy="166.7" r="3.2" class="notice-dot"><title>F2 V1 noticed 83.3%</title></circle>
+<circle cx="482.0" cy="196.9" r="3.2" class="action-dot"><title>F2 V1 acted 61.1%</title></circle>
+<text x="558.0" y="297" text-anchor="middle" class="small">V2</text>
+<circle cx="558.0" cy="257.3" r="3.2" class="fit-dot"><title>F2 V2 fit 16.7%</title></circle>
+<circle cx="558.0" cy="174.2" r="3.2" class="notice-dot"><title>F2 V2 noticed 77.8%</title></circle>
+<circle cx="558.0" cy="212.0" r="3.2" class="action-dot"><title>F2 V2 acted 50.0%</title></circle>
+<text x="634.0" y="297" text-anchor="middle" class="small">V3</text>
+<circle cx="634.0" cy="249.8" r="3.2" class="fit-dot"><title>F2 V3 fit 22.2%</title></circle>
+<circle cx="634.0" cy="196.9" r="3.2" class="notice-dot"><title>F2 V3 noticed 61.1%</title></circle>
+<circle cx="634.0" cy="264.9" r="3.2" class="action-dot"><title>F2 V3 acted 11.1%</title></circle>
+<polyline points="406.0,242.2 482.0,264.9 558.0,257.3 634.0,249.8" class="fit"/>
+<polyline points="406.0,159.1 482.0,166.7 558.0,174.2 634.0,196.9" class="notice"/>
+<polyline points="406.0,196.9 482.0,196.9 558.0,212.0 634.0,264.9" class="action"/>
+<text x="670" y="132" class="label">F3</text>
+<line x1="706" y1="280.0" x2="934" y2="280.0" class="grid"/>
+<text x="699" y="284.0" text-anchor="end" class="small">0</text>
+<line x1="706" y1="212.0" x2="934" y2="212.0" class="grid"/>
+<text x="699" y="216.0" text-anchor="end" class="small">50</text>
+<line x1="706" y1="144.0" x2="934" y2="144.0" class="grid"/>
+<text x="699" y="148.0" text-anchor="end" class="small">100</text>
+<line x1="706" y1="144" x2="706" y2="280" class="axis"/>
+<line x1="706" y1="280" x2="934" y2="280" class="axis"/>
+<text x="706.0" y="297" text-anchor="middle" class="small">V0</text>
+<circle cx="706.0" cy="249.8" r="3.2" class="fit-dot"><title>F3 V0 fit 22.2%</title></circle>
+<circle cx="706.0" cy="212.0" r="3.2" class="notice-dot"><title>F3 V0 noticed 50.0%</title></circle>
+<circle cx="706.0" cy="242.2" r="3.2" class="action-dot"><title>F3 V0 acted 27.8%</title></circle>
+<text x="782.0" y="297" text-anchor="middle" class="small">V1</text>
+<circle cx="782.0" cy="219.6" r="3.2" class="fit-dot"><title>F3 V1 fit 44.4%</title></circle>
+<circle cx="782.0" cy="181.8" r="3.2" class="notice-dot"><title>F3 V1 noticed 72.2%</title></circle>
+<circle cx="782.0" cy="189.3" r="3.2" class="action-dot"><title>F3 V1 acted 66.7%</title></circle>
+<text x="858.0" y="297" text-anchor="middle" class="small">V2</text>
+<circle cx="858.0" cy="242.2" r="3.2" class="fit-dot"><title>F3 V2 fit 27.8%</title></circle>
+<circle cx="858.0" cy="204.4" r="3.2" class="notice-dot"><title>F3 V2 noticed 55.6%</title></circle>
+<circle cx="858.0" cy="227.1" r="3.2" class="action-dot"><title>F3 V2 acted 38.9%</title></circle>
+<text x="934.0" y="297" text-anchor="middle" class="small">V3</text>
+<circle cx="934.0" cy="249.8" r="3.2" class="fit-dot"><title>F3 V3 fit 22.2%</title></circle>
+<circle cx="934.0" cy="212.0" r="3.2" class="notice-dot"><title>F3 V3 noticed 50.0%</title></circle>
+<circle cx="934.0" cy="264.9" r="3.2" class="action-dot"><title>F3 V3 acted 11.1%</title></circle>
+<polyline points="706.0,249.8 782.0,219.6 858.0,242.2 934.0,249.8" class="fit"/>
+<polyline points="706.0,212.0 782.0,181.8 858.0,204.4 934.0,212.0" class="notice"/>
+<polyline points="706.0,242.2 782.0,189.3 858.0,227.1 934.0,264.9" class="action"/>
+<text x="70" y="352" class="label">F4</text>
+<line x1="106" y1="500.0" x2="334" y2="500.0" class="grid"/>
+<text x="99" y="504.0" text-anchor="end" class="small">0</text>
+<line x1="106" y1="432.0" x2="334" y2="432.0" class="grid"/>
+<text x="99" y="436.0" text-anchor="end" class="small">50</text>
+<line x1="106" y1="364.0" x2="334" y2="364.0" class="grid"/>
+<text x="99" y="368.0" text-anchor="end" class="small">100</text>
+<line x1="106" y1="364" x2="106" y2="500" class="axis"/>
+<line x1="106" y1="500" x2="334" y2="500" class="axis"/>
+<text x="106.0" y="517" text-anchor="middle" class="small">V0</text>
+<circle cx="106.0" cy="469.8" r="3.2" class="fit-dot"><title>F4 V0 fit 22.2%</title></circle>
+<circle cx="106.0" cy="432.0" r="3.2" class="notice-dot"><title>F4 V0 noticed 50.0%</title></circle>
+<circle cx="106.0" cy="462.2" r="3.2" class="action-dot"><title>F4 V0 acted 27.8%</title></circle>
+<text x="182.0" y="517" text-anchor="middle" class="small">V1</text>
+<circle cx="182.0" cy="439.6" r="3.2" class="fit-dot"><title>F4 V1 fit 44.4%</title></circle>
+<circle cx="182.0" cy="401.8" r="3.2" class="notice-dot"><title>F4 V1 noticed 72.2%</title></circle>
+<circle cx="182.0" cy="409.3" r="3.2" class="action-dot"><title>F4 V1 acted 66.7%</title></circle>
+<text x="258.0" y="517" text-anchor="middle" class="small">V2</text>
+<circle cx="258.0" cy="462.2" r="3.2" class="fit-dot"><title>F4 V2 fit 27.8%</title></circle>
+<circle cx="258.0" cy="424.4" r="3.2" class="notice-dot"><title>F4 V2 noticed 55.6%</title></circle>
+<circle cx="258.0" cy="447.1" r="3.2" class="action-dot"><title>F4 V2 acted 38.9%</title></circle>
+<text x="334.0" y="517" text-anchor="middle" class="small">V3</text>
+<circle cx="334.0" cy="469.8" r="3.2" class="fit-dot"><title>F4 V3 fit 22.2%</title></circle>
+<circle cx="334.0" cy="432.0" r="3.2" class="notice-dot"><title>F4 V3 noticed 50.0%</title></circle>
+<circle cx="334.0" cy="484.9" r="3.2" class="action-dot"><title>F4 V3 acted 11.1%</title></circle>
+<polyline points="106.0,469.8 182.0,439.6 258.0,462.2 334.0,469.8" class="fit"/>
+<polyline points="106.0,432.0 182.0,401.8 258.0,424.4 334.0,432.0" class="notice"/>
+<polyline points="106.0,462.2 182.0,409.3 258.0,447.1 334.0,484.9" class="action"/>
+<text x="370" y="352" class="label">F5</text>
+<line x1="406" y1="500.0" x2="634" y2="500.0" class="grid"/>
+<text x="399" y="504.0" text-anchor="end" class="small">0</text>
+<line x1="406" y1="432.0" x2="634" y2="432.0" class="grid"/>
+<text x="399" y="436.0" text-anchor="end" class="small">50</text>
+<line x1="406" y1="364.0" x2="634" y2="364.0" class="grid"/>
+<text x="399" y="368.0" text-anchor="end" class="small">100</text>
+<line x1="406" y1="364" x2="406" y2="500" class="axis"/>
+<line x1="406" y1="500" x2="634" y2="500" class="axis"/>
+<text x="406.0" y="517" text-anchor="middle" class="small">V0</text>
+<circle cx="406.0" cy="477.3" r="3.2" class="fit-dot"><title>F5 V0 fit 16.7%</title></circle>
+<circle cx="406.0" cy="386.7" r="3.2" class="notice-dot"><title>F5 V0 noticed 83.3%</title></circle>
+<circle cx="406.0" cy="435.8" r="3.2" class="action-dot"><title>F5 V0 acted 47.2%</title></circle>
+<text x="482.0" y="517" text-anchor="middle" class="small">V1</text>
+<circle cx="482.0" cy="473.6" r="3.2" class="fit-dot"><title>F5 V1 fit 19.4%</title></circle>
+<circle cx="482.0" cy="405.6" r="3.2" class="notice-dot"><title>F5 V1 noticed 69.4%</title></circle>
+<circle cx="482.0" cy="435.8" r="3.2" class="action-dot"><title>F5 V1 acted 47.2%</title></circle>
+<text x="558.0" y="517" text-anchor="middle" class="small">V2</text>
+<circle cx="558.0" cy="458.4" r="3.2" class="fit-dot"><title>F5 V2 fit 30.6%</title></circle>
+<circle cx="558.0" cy="394.2" r="3.2" class="notice-dot"><title>F5 V2 noticed 77.8%</title></circle>
+<circle cx="558.0" cy="409.3" r="3.2" class="action-dot"><title>F5 V2 acted 66.7%</title></circle>
+<text x="634.0" y="517" text-anchor="middle" class="small">V3</text>
+<circle cx="634.0" cy="454.7" r="3.2" class="fit-dot"><title>F5 V3 fit 33.3%</title></circle>
+<circle cx="634.0" cy="401.8" r="3.2" class="notice-dot"><title>F5 V3 noticed 72.2%</title></circle>
+<circle cx="634.0" cy="481.1" r="3.2" class="action-dot"><title>F5 V3 acted 13.9%</title></circle>
+<polyline points="406.0,477.3 482.0,473.6 558.0,458.4 634.0,454.7" class="fit"/>
+<polyline points="406.0,386.7 482.0,405.6 558.0,394.2 634.0,401.8" class="notice"/>
+<polyline points="406.0,435.8 482.0,435.8 558.0,409.3 634.0,481.1" class="action"/>
+<text x="670" y="352" class="label">F6</text>
+<line x1="706" y1="500.0" x2="934" y2="500.0" class="grid"/>
+<text x="699" y="504.0" text-anchor="end" class="small">0</text>
+<line x1="706" y1="432.0" x2="934" y2="432.0" class="grid"/>
+<text x="699" y="436.0" text-anchor="end" class="small">50</text>
+<line x1="706" y1="364.0" x2="934" y2="364.0" class="grid"/>
+<text x="699" y="368.0" text-anchor="end" class="small">100</text>
+<line x1="706" y1="364" x2="706" y2="500" class="axis"/>
+<line x1="706" y1="500" x2="934" y2="500" class="axis"/>
+<text x="706.0" y="517" text-anchor="middle" class="small">V0</text>
+<circle cx="706.0" cy="469.8" r="3.2" class="fit-dot"><title>F6 V0 fit 22.2%</title></circle>
+<circle cx="706.0" cy="379.1" r="3.2" class="notice-dot"><title>F6 V0 noticed 88.9%</title></circle>
+<circle cx="706.0" cy="432.0" r="3.2" class="action-dot"><title>F6 V0 acted 50.0%</title></circle>
+<text x="782.0" y="517" text-anchor="middle" class="small">V1</text>
+<circle cx="782.0" cy="484.9" r="3.2" class="fit-dot"><title>F6 V1 fit 11.1%</title></circle>
+<circle cx="782.0" cy="364.0" r="3.2" class="notice-dot"><title>F6 V1 noticed 100.0%</title></circle>
+<circle cx="782.0" cy="401.8" r="3.2" class="action-dot"><title>F6 V1 acted 72.2%</title></circle>
+<text x="858.0" y="517" text-anchor="middle" class="small">V2</text>
+<circle cx="858.0" cy="447.1" r="3.2" class="fit-dot"><title>F6 V2 fit 38.9%</title></circle>
+<circle cx="858.0" cy="386.7" r="3.2" class="notice-dot"><title>F6 V2 noticed 83.3%</title></circle>
+<circle cx="858.0" cy="416.9" r="3.2" class="action-dot"><title>F6 V2 acted 61.1%</title></circle>
+<text x="934.0" y="517" text-anchor="middle" class="small">V3</text>
+<circle cx="934.0" cy="454.7" r="3.2" class="fit-dot"><title>F6 V3 fit 33.3%</title></circle>
+<circle cx="934.0" cy="401.8" r="3.2" class="notice-dot"><title>F6 V3 noticed 72.2%</title></circle>
+<circle cx="934.0" cy="469.8" r="3.2" class="action-dot"><title>F6 V3 acted 22.2%</title></circle>
+<polyline points="706.0,469.8 782.0,484.9 858.0,447.1 934.0,454.7" class="fit"/>
+<polyline points="706.0,379.1 782.0,364.0 858.0,386.7 934.0,401.8" class="notice"/>
+<polyline points="706.0,432.0 782.0,401.8 858.0,416.9 934.0,469.8" class="action"/>
+<text x="70" y="572" class="label">F7</text>
+<line x1="106" y1="720.0" x2="334" y2="720.0" class="grid"/>
+<text x="99" y="724.0" text-anchor="end" class="small">0</text>
+<line x1="106" y1="652.0" x2="334" y2="652.0" class="grid"/>
+<text x="99" y="656.0" text-anchor="end" class="small">50</text>
+<line x1="106" y1="584.0" x2="334" y2="584.0" class="grid"/>
+<text x="99" y="588.0" text-anchor="end" class="small">100</text>
+<line x1="106" y1="584" x2="106" y2="720" class="axis"/>
+<line x1="106" y1="720" x2="334" y2="720" class="axis"/>
+<text x="106.0" y="737" text-anchor="middle" class="small">V0</text>
+<circle cx="106.0" cy="697.3" r="3.2" class="fit-dot"><title>F7 V0 fit 16.7%</title></circle>
+<circle cx="106.0" cy="636.9" r="3.2" class="notice-dot"><title>F7 V0 noticed 61.1%</title></circle>
+<circle cx="106.0" cy="659.6" r="3.2" class="action-dot"><title>F7 V0 acted 44.4%</title></circle>
+<text x="182.0" y="737" text-anchor="middle" class="small">V1</text>
+<circle cx="182.0" cy="697.3" r="3.2" class="fit-dot"><title>F7 V1 fit 16.7%</title></circle>
+<circle cx="182.0" cy="652.0" r="3.2" class="notice-dot"><title>F7 V1 noticed 50.0%</title></circle>
+<circle cx="182.0" cy="674.7" r="3.2" class="action-dot"><title>F7 V1 acted 33.3%</title></circle>
+<text x="258.0" y="737" text-anchor="middle" class="small">V2</text>
+<circle cx="258.0" cy="689.8" r="3.2" class="fit-dot"><title>F7 V2 fit 22.2%</title></circle>
+<circle cx="258.0" cy="629.3" r="3.2" class="notice-dot"><title>F7 V2 noticed 66.7%</title></circle>
+<circle cx="258.0" cy="689.8" r="3.2" class="action-dot"><title>F7 V2 acted 22.2%</title></circle>
+<text x="334.0" y="737" text-anchor="middle" class="small">V3</text>
+<circle cx="334.0" cy="697.3" r="3.2" class="fit-dot"><title>F7 V3 fit 16.7%</title></circle>
+<circle cx="334.0" cy="667.1" r="3.2" class="notice-dot"><title>F7 V3 noticed 38.9%</title></circle>
+<circle cx="334.0" cy="720.0" r="3.2" class="action-dot"><title>F7 V3 acted 0.0%</title></circle>
+<polyline points="106.0,697.3 182.0,697.3 258.0,689.8 334.0,697.3" class="fit"/>
+<polyline points="106.0,636.9 182.0,652.0 258.0,629.3 334.0,667.1" class="notice"/>
+<polyline points="106.0,659.6 182.0,674.7 258.0,689.8 334.0,720.0" class="action"/>
+<text x="370" y="572" class="label">F8</text>
+<line x1="406" y1="720.0" x2="634" y2="720.0" class="grid"/>
+<text x="399" y="724.0" text-anchor="end" class="small">0</text>
+<line x1="406" y1="652.0" x2="634" y2="652.0" class="grid"/>
+<text x="399" y="656.0" text-anchor="end" class="small">50</text>
+<line x1="406" y1="584.0" x2="634" y2="584.0" class="grid"/>
+<text x="399" y="588.0" text-anchor="end" class="small">100</text>
+<line x1="406" y1="584" x2="406" y2="720" class="axis"/>
+<line x1="406" y1="720" x2="634" y2="720" class="axis"/>
+<text x="406.0" y="737" text-anchor="middle" class="small">V0</text>
+<circle cx="406.0" cy="704.9" r="3.2" class="fit-dot"><title>F8 V0 fit 11.1%</title></circle>
+<circle cx="406.0" cy="610.4" r="3.2" class="notice-dot"><title>F8 V0 noticed 80.6%</title></circle>
+<circle cx="406.0" cy="674.7" r="3.2" class="action-dot"><title>F8 V0 acted 33.3%</title></circle>
+<text x="482.0" y="737" text-anchor="middle" class="small">V1</text>
+<circle cx="482.0" cy="670.9" r="3.2" class="fit-dot"><title>F8 V1 fit 36.1%</title></circle>
+<circle cx="482.0" cy="602.9" r="3.2" class="notice-dot"><title>F8 V1 noticed 86.1%</title></circle>
+<circle cx="482.0" cy="682.2" r="3.2" class="action-dot"><title>F8 V1 acted 27.8%</title></circle>
+<text x="558.0" y="737" text-anchor="middle" class="small">V2</text>
+<circle cx="558.0" cy="659.6" r="3.2" class="fit-dot"><title>F8 V2 fit 44.4%</title></circle>
+<circle cx="558.0" cy="606.7" r="3.2" class="notice-dot"><title>F8 V2 noticed 83.3%</title></circle>
+<circle cx="558.0" cy="678.4" r="3.2" class="action-dot"><title>F8 V2 acted 30.6%</title></circle>
+<text x="634.0" y="737" text-anchor="middle" class="small">V3</text>
+<circle cx="634.0" cy="689.8" r="3.2" class="fit-dot"><title>F8 V3 fit 22.2%</title></circle>
+<circle cx="634.0" cy="633.1" r="3.2" class="notice-dot"><title>F8 V3 noticed 63.9%</title></circle>
+<circle cx="634.0" cy="693.6" r="3.2" class="action-dot"><title>F8 V3 acted 19.4%</title></circle>
+<polyline points="406.0,704.9 482.0,670.9 558.0,659.6 634.0,689.8" class="fit"/>
+<polyline points="406.0,610.4 482.0,602.9 558.0,606.7 634.0,633.1" class="notice"/>
+<polyline points="406.0,674.7 482.0,682.2 558.0,678.4 634.0,693.6" class="action"/>
+<text x="670" y="572" class="label">F9</text>
+<line x1="706" y1="720.0" x2="934" y2="720.0" class="grid"/>
+<text x="699" y="724.0" text-anchor="end" class="small">0</text>
+<line x1="706" y1="652.0" x2="934" y2="652.0" class="grid"/>
+<text x="699" y="656.0" text-anchor="end" class="small">50</text>
+<line x1="706" y1="584.0" x2="934" y2="584.0" class="grid"/>
+<text x="699" y="588.0" text-anchor="end" class="small">100</text>
+<line x1="706" y1="584" x2="706" y2="720" class="axis"/>
+<line x1="706" y1="720" x2="934" y2="720" class="axis"/>
+<text x="706.0" y="737" text-anchor="middle" class="small">V0</text>
+<circle cx="706.0" cy="693.6" r="3.2" class="fit-dot"><title>F9 V0 fit 19.4%</title></circle>
+<circle cx="706.0" cy="606.7" r="3.2" class="notice-dot"><title>F9 V0 noticed 83.3%</title></circle>
+<circle cx="706.0" cy="689.8" r="3.2" class="action-dot"><title>F9 V0 acted 22.2%</title></circle>
+<text x="782.0" y="737" text-anchor="middle" class="small">V1</text>
+<circle cx="782.0" cy="670.9" r="3.2" class="fit-dot"><title>F9 V1 fit 36.1%</title></circle>
+<circle cx="782.0" cy="602.9" r="3.2" class="notice-dot"><title>F9 V1 noticed 86.1%</title></circle>
+<circle cx="782.0" cy="708.7" r="3.2" class="action-dot"><title>F9 V1 acted 8.3%</title></circle>
+<text x="858.0" y="737" text-anchor="middle" class="small">V2</text>
+<circle cx="858.0" cy="659.6" r="3.2" class="fit-dot"><title>F9 V2 fit 44.4%</title></circle>
+<circle cx="858.0" cy="591.6" r="3.2" class="notice-dot"><title>F9 V2 noticed 94.4%</title></circle>
+<circle cx="858.0" cy="701.1" r="3.2" class="action-dot"><title>F9 V2 acted 13.9%</title></circle>
+<text x="934.0" y="737" text-anchor="middle" class="small">V3</text>
+<circle cx="934.0" cy="682.2" r="3.2" class="fit-dot"><title>F9 V3 fit 27.8%</title></circle>
+<circle cx="934.0" cy="618.0" r="3.2" class="notice-dot"><title>F9 V3 noticed 75.0%</title></circle>
+<circle cx="934.0" cy="689.8" r="3.2" class="action-dot"><title>F9 V3 acted 22.2%</title></circle>
+<polyline points="706.0,693.6 782.0,670.9 858.0,659.6 934.0,682.2" class="fit"/>
+<polyline points="706.0,606.7 782.0,602.9 858.0,591.6 934.0,618.0" class="notice"/>
+<polyline points="706.0,689.8 782.0,708.7 858.0,701.1 934.0,689.8" class="action"/>
+</svg>

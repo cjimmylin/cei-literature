@@ -1,4 +1,5 @@
 id: thorns-paternalcrush-003
+status: exploratory
 cell: {fruit: F8, vice: W14}
 kernel_id: K-F8-paternalcrush-003
 paths:

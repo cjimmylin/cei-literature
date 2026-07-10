@@ -1,4 +1,5 @@
 id: thorns-paternalcrush-001
+status: exploratory
 cell: {fruit: F8, vice: W14}
 kernel_id: K-F8-paternalcrush-001
 cft_status: latent  # floor: no CFT planted as a live third path; rubric still recognizes a latent counterfeit if the model produces one

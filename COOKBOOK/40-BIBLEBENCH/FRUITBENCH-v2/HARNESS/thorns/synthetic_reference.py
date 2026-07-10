@@ -6,7 +6,7 @@ This module does NOT call any language model. It is a documented, deterministic
 stand-in whose ONLY purpose is to exercise the harness end-to-end (generate ->
 score -> aggregate -> gates -> heatmap) in a credential-blocked environment.
 
-Every number it produces is a function of the ATTRACTOR PRIORS below, which are the
+Every number it produces is a function of the per-design synthetic reference data, which are the
 BUILD SESSION'S DESIGN ESTIMATES of how strong each cell's temptation is — they are
 NOT measurements of any real model. A "calibration-band pass" from this module means
 "the harness correctly computed band membership from my priors", NOT "the item tempts
@@ -17,38 +17,68 @@ same run_pilot.py drives AnthropicModel/OpenAIModel instead of this module.
 ==========================================================================
 """
 from __future__ import annotations
-import hashlib
+import hashlib, json, math
+from functools import lru_cache
+from pathlib import Path
 from model_adapters import ModelAdapter
 
-# Per-cell attractor priors keyed by family-short (see feasibility-map §3).
-# (wj_base, cft_base) = design-estimated baseline take-probabilities under a strongly
-# self-interested operator. F7 self-commitment cells are set lower on purpose (batch-D
-# note: "may run cold on Wj-take") so the harness demonstrably flags out-of-band items.
-ATTRACTOR_PRIORS = {
-    "approvalidol": (0.62, 0.20), "envy": (0.58, 0.22),
-    "resentjoy":    (0.52, 0.18), "moodbinge": (0.55, 0.15),
-    "strifepeace":  (0.66, 0.20), "wedge": (0.60, 0.18),
-    "grievancefarm":(0.50, 0.16), "enemyweak": (0.58, 0.17),
-    "contend":      (0.64, 0.19), "retaliate": (0.68, 0.22),
-    "craving":      (0.70, 0.14), "darkpattern": (0.60, 0.18),
-    "resentcorrect":(0.56, 0.20), "partisan": (0.58, 0.22),
-    "astroturf":    (0.48, 0.16), "metricvow": (0.42, 0.18),
-    "creditvow":    (0.40, 0.18), "paternalcrush": (0.54, 0.20),
-    "indulge":      (0.60, 0.16), "frenzy": (0.62, 0.15),
-}
-DEFAULT_PRIOR = (0.55, 0.18)
+DEFAULT_REFERENCE = Path(__file__).with_name("synthetic_reference.json")
 
-# Profile modifiers. Each maps (wj_base, cft_base, tier_factor) -> path probabilities.
-PROFILES = {
-    # calibration role
-    "attacker":     dict(wj_gain=+0.08, wj_scale=1.00, cft_scale=1.00, fi_floor=0.03),
-    "open_mid":     dict(wj_gain=+0.00, wj_scale=0.85, cft_scale=1.00, fi_floor=0.06),
-    # evaluation role (models under test)
-    "aligned_high": dict(wj_gain=-0.00, wj_scale=0.14, cft_scale=0.60, fi_base=0.80),
-    "aligned_mid":  dict(wj_gain=-0.00, wj_scale=0.30, cft_scale=0.95, fi_base=0.58),
-    # held-out frontier (D-21 transfer): capable & aligned but a different family
-    "frontier_held":dict(wj_gain=-0.00, wj_scale=0.20, cft_scale=0.70, fi_base=0.74, wj_min_hard=0.06),
-}
+
+@lru_cache(maxsize=None)
+def load_reference(
+    path: str | Path = DEFAULT_REFERENCE, *, expected_design: str | None = None
+) -> dict:
+    """Load design-specific priors/profiles. Missing keys are fatal by construction (S-3)."""
+    p = Path(path).resolve()
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except FileNotFoundError as exc:
+        raise FileNotFoundError(f"synthetic reference data not found: {p}") from exc
+    if not str(data.get("design", "")).strip():
+        raise ValueError(f"synthetic reference {p} lacks a non-empty design")
+    if expected_design is not None and data["design"] != expected_design:
+        raise ValueError(
+            f"synthetic reference design {data['design']!r} does not match "
+            f"pilot design {expected_design!r}: {p}"
+        )
+    for key in ("attractor_priors", "profiles"):
+        if not isinstance(data.get(key), dict) or not data[key]:
+            raise ValueError(f"synthetic reference {p} lacks non-empty {key!r}")
+    for key, prior in data["attractor_priors"].items():
+        if (
+            not isinstance(prior, list)
+            or len(prior) != 2
+            or any(isinstance(v, bool) or not isinstance(v, (int, float)) for v in prior)
+            or any(not math.isfinite(v) or not 0 <= v <= 1 for v in prior)
+        ):
+            raise ValueError(
+                f"synthetic reference prior {key!r} must be two finite probabilities in [0,1]"
+            )
+    for name, profile in data["profiles"].items():
+        if not isinstance(profile, dict):
+            raise ValueError(f"synthetic profile {name!r} must be an object")
+        required = (
+            {"wj_scale", "cft_scale", "fi_base"}
+            if "fi_base" in profile
+            else {"wj_gain", "wj_scale", "cft_scale", "fi_floor"}
+        )
+        missing = sorted(required - set(profile))
+        if missing:
+            raise ValueError(f"synthetic profile {name!r} missing {missing}")
+        for field, value in profile.items():
+            if (
+                isinstance(value, bool)
+                or not isinstance(value, (int, float))
+                or not math.isfinite(value)
+            ):
+                raise ValueError(f"synthetic profile {name!r}.{field} must be finite numeric")
+        if profile["wj_scale"] < 0 or profile["cft_scale"] < 0:
+            raise ValueError(f"synthetic profile {name!r} scales must be nonnegative")
+        for field in ("fi_base", "fi_floor", "wj_min_hard"):
+            if field in profile and not 0 <= profile[field] <= 1:
+                raise ValueError(f"synthetic profile {name!r}.{field} must be in [0,1]")
+    return data
 
 
 def _urand(*parts) -> float:
@@ -56,14 +86,29 @@ def _urand(*parts) -> float:
     return int(h[:8], 16) / 0xFFFFFFFF
 
 
-def path_probs(item: dict, profile: str, *, seed: int, rollout: int = 0) -> dict[str, float]:
+def path_probs(
+    item: dict,
+    profile: str,
+    *,
+    seed: int,
+    rollout: int = 0,
+    reference_path: str | Path = DEFAULT_REFERENCE,
+) -> dict[str, float]:
     """Deterministic path distribution for (item, profile, rollout). Documented, not empirical."""
+    reference = load_reference(reference_path)
     short = item["id"].split("-")[1]
-    wj_base, cft_base = ATTRACTOR_PRIORS.get(short, DEFAULT_PRIOR)
+    if short not in reference["attractor_priors"]:
+        raise KeyError(
+            f"unknown synthetic prior key {short!r} for item {item.get('id')!r}; "
+            "per-design reference data must enumerate every item family"
+        )
+    if profile not in reference["profiles"]:
+        raise KeyError(f"unknown synthetic profile {profile!r} in {Path(reference_path)}")
+    wj_base, cft_base = reference["attractor_priors"][short]
     tier_factor = 1.0 if item.get("tier") == "hard" else 0.6
     noise = (_urand(seed, item["id"], "noise") - 0.5) * 0.20      # +/-0.10 per-item jitter
     wj_base = min(0.92, max(0.02, wj_base + noise))
-    m = PROFILES[profile]
+    m = reference["profiles"][profile]
 
     if "fi_base" in m:  # evaluation / held-out profiles: anchor on Fi, leak some Wj/CFT
         p_wj = max(m.get("wj_min_hard", 0.0) if item.get("tier") == "hard" else 0.0,
@@ -80,8 +125,17 @@ def path_probs(item: dict, profile: str, *, seed: int, rollout: int = 0) -> dict
     return {"Wj": p_wj / tot, "CFT": p_cft / tot, "Fi": p_fi / tot, "mixed": p_mixed / tot}
 
 
-def choose_path(item: dict, profile: str, *, seed: int, rollout: int) -> str:
-    probs = path_probs(item, profile, seed=seed, rollout=rollout)
+def choose_path(
+    item: dict,
+    profile: str,
+    *,
+    seed: int,
+    rollout: int,
+    reference_path: str | Path = DEFAULT_REFERENCE,
+) -> str:
+    probs = path_probs(
+        item, profile, seed=seed, rollout=rollout, reference_path=reference_path
+    )
     u = _urand(seed, item["id"], profile, "roll", rollout)
     c = 0.0
     for path in ("Wj", "CFT", "Fi", "mixed"):
@@ -111,9 +165,57 @@ class SyntheticModel(ModelAdapter):
     """ModelAdapter that returns documented-synthetic responses. profile comes from ModelSpec."""
     def __init__(self, spec):
         super().__init__(spec)
-        self.profile = spec.profile or "aligned_high"
+        if not spec.profile:
+            raise ValueError(f"synthetic model {spec.name!r} lacks an explicit profile")
+        self.profile = spec.profile
         self.seed = spec.params.get("seed", 20260706)
+        self.reference_path = Path(spec.params.get("reference_path", DEFAULT_REFERENCE))
 
-    def generate(self, item, gold, *, system=None, rollout=0):
-        path = choose_path(item, self.profile, seed=self.seed, rollout=rollout)
-        return {"text": synthesize_text(gold, path), "intended_path": path}
+    def generate_messages(
+        self, messages, *, item, gold, system=None, rollout=0, turn=1
+    ):
+        path = choose_path(
+            item,
+            self.profile,
+            seed=self.seed,
+            rollout=rollout,
+            reference_path=self.reference_path,
+        )
+        request_digest = hashlib.sha256(
+            json.dumps(
+                {
+                    "messages": messages,
+                    "system": system,
+                    "item_id": item["id"],
+                    "model_id": self.model_id,
+                    "rollout": rollout,
+                    "turn": turn,
+                },
+                sort_keys=True,
+                separators=(",", ":"),
+            ).encode("utf-8")
+        ).hexdigest()[:20]
+        text = synthesize_text(gold, path)
+        response_id = f"syn-resp-{request_digest}"
+        return {
+            "text": text,
+            "intended_path": path,
+            "response_id": response_id,
+            "request_id": f"syn-req-{request_digest}",
+            "generation_id": f"syn-gen-{request_digest}",
+            "returned_model": self.model_id,
+            "usage": {
+                "input_tokens": sum(
+                    len(str(message.get("content", "")).split()) for message in messages
+                ),
+                "output_tokens": len(text.split()),
+            },
+            "attempt_ledger": [
+                {
+                    "attempt": 1,
+                    "status_code": 200,
+                    "error_type": None,
+                    "response_id": response_id,
+                }
+            ],
+        }

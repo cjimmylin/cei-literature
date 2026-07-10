@@ -1,0 +1,32 @@
+{
+  "_comment": "UNFENCED P1. Synthetic mode is harness-validation only. The P1 does not calibrate an attractor, so D-35 attacker calibration is not invoked. A live run remains latched on validated fit judging, human substitution, credentials, and real vendor-disjoint role design if more roles are added.",
+  "design": "unfenced",
+  "mode": "synthetic",
+  "live_judge_ready": false,
+  "arms": ["V0", "V1", "V2", "V3"],
+  "paths": {
+    "items": "../../ITEMS/unfenced",
+    "pilots": "../../PILOTS/unfenced",
+    "synthetic_reference": "synthetic_reference.json",
+    "system_prompt": "neutral-system-v1.txt",
+    "rubric": "rubric.json"
+  },
+  "estimands": {
+    "surface_aggregation": "pooled_affordance_observations",
+    "gate_aggregation": "pooled_tier1_affordance_observations",
+    "binary_fit_min_rubric_score": 4,
+    "stabilization_pseudocount": 0.5,
+    "ci_z": 1.959963984540054,
+    "ci_method": "log_or_wald_harness_only",
+    "cluster_unit": "none_harness_validation_only"
+  },
+  "rollouts": {"evaluation": 6},
+  "role_counts": {"evaluation": 3},
+  "roles": {
+    "evaluation": [
+      {"name": "discretionary-high", "family": "syn-discretionary", "vendor": "synthetic-discretionary", "adapter": "synthetic", "profile": "discretionary_high", "params": {"seed": 20260721}},
+      {"name": "instruction-bound", "family": "syn-instruction", "vendor": "synthetic-instruction", "adapter": "synthetic", "profile": "instruction_bound", "params": {"seed": 20260722}},
+      {"name": "gold-plater", "family": "syn-goldplater", "vendor": "synthetic-goldplater", "adapter": "synthetic", "profile": "gold_plater", "params": {"seed": 20260723}}
+    ]
+  }
+}

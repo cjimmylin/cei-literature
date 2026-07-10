@@ -4,6 +4,7 @@ from contextlib import contextmanager
 import fcntl
 import os
 from pathlib import Path
+import stat
 import tempfile
 import threading
 
@@ -15,6 +16,7 @@ from .schema import (
     canonical_json_bytes,
     compute_event_sha256,
     strict_json_loads,
+    valid_sha256,
 )
 
 
@@ -36,16 +38,23 @@ def _path_mutex(path):
 def _writer_guard(path):
     """Serialize target writers within this process and across processes."""
 
-    flags = os.O_RDONLY
+    lock_path = path.with_name(".%s.lock" % path.name)
+    flags = os.O_CREAT | os.O_RDWR
     flags |= getattr(os, "O_CLOEXEC", 0)
+    flags |= getattr(os, "O_NOFOLLOW", 0)
     with _path_mutex(path):
         lock_fd = None
         try:
-            # Directory-scoped advisory locking avoids a predictable lock-file
-            # symlink while still serializing every target commit in this directory.
-            lock_fd = os.open(str(path.parent), flags)
+            lock_fd = os.open(str(lock_path), flags, 0o600)
+            if not stat.S_ISREG(os.fstat(lock_fd).st_mode):
+                raise OSError("event-log writer lock must be a regular file")
             fcntl.flock(lock_fd, fcntl.LOCK_EX)
         except OSError as exc:
+            if lock_fd is not None:
+                try:
+                    os.close(lock_fd)
+                except OSError:
+                    pass
             raise EventLogError("unable to acquire event-log writer lock") from exc
         try:
             yield
@@ -59,6 +68,30 @@ def _writer_guard(path):
                     os.close(lock_fd)
                 except OSError:
                     pass
+
+
+def _best_effort_fsync_parent(path):
+    """Attempt postcommit rename durability without reporting split-brain failure."""
+
+    directory_fd = None
+    try:
+        flags = os.O_RDONLY
+        flags |= getattr(os, "O_CLOEXEC", 0)
+        flags |= getattr(os, "O_DIRECTORY", 0)
+        directory_fd = os.open(str(path.parent), flags)
+        if not stat.S_ISDIR(os.fstat(directory_fd).st_mode):
+            return
+        os.fsync(directory_fd)
+    except OSError:
+        # Replacement has already committed. Propagating a later durability error
+        # would leave the caller's memory behind a target that contains the event.
+        pass
+    finally:
+        if directory_fd is not None:
+            try:
+                os.close(directory_fd)
+            except OSError:
+                pass
 
 
 def verify_chain(events):
@@ -176,18 +209,51 @@ class EventLog:
     def previous_event_sha256(self):
         return self._events[-1].event_sha256 if self._events else ZERO_EVENT_SHA256
 
-    def append(self, event):
+    def live_head(self):
+        """Return the current durable/in-memory ``(count, head_sha256)`` pair."""
+
         with self._append_lock:
             if self._path is None:
-                return self._append_locked(event)
-            with _writer_guard(self._path):
-                return self._append_locked(event)
+                events = tuple(self._events)
+            else:
+                with _writer_guard(self._path):
+                    events = (
+                        tuple(self._load_path(self._path))
+                        if self._path.exists()
+                        else ()
+                    )
+            head = events[-1].event_sha256 if events else ZERO_EVENT_SHA256
+            return len(events), head
 
-    def _append_locked(self, event):
+    def append(self, event, expected_generation=None):
+        with self._append_lock:
+            if self._path is None:
+                return self._append_locked(event, expected_generation)
+            with _writer_guard(self._path):
+                return self._append_locked(event, expected_generation)
+
+    def _append_locked(self, event, expected_generation):
         """Durably append, then and only then expose the event in memory."""
 
         if type(event) is not Event:
             raise EventLogError("only Event instances may be appended")
+        if expected_generation is not None:
+            if (
+                type(expected_generation) is not tuple
+                or len(expected_generation) != 2
+                or type(expected_generation[0]) is not int
+                or expected_generation[0] < 0
+                or not valid_sha256(expected_generation[1])
+            ):
+                raise EventLogError("expected generation must be exact (count, head)")
+            current_generation = (
+                len(self._events),
+                self._events[-1].event_sha256
+                if self._events
+                else ZERO_EVENT_SHA256,
+            )
+            if expected_generation != current_generation:
+                raise EventLogError("event log generation changed before append")
         proposed = self._events + [event]
         if not verify_chain(proposed):
             raise EventLogError("event does not continue the verified chain")
@@ -229,6 +295,7 @@ class EventLog:
                 os.fsync(stream.fileno())
                 os.replace(staging, self._path)
                 replaced = True
+                _best_effort_fsync_parent(self._path)
             except BaseException:
                 if stream is not None and not replaced:
                     try:

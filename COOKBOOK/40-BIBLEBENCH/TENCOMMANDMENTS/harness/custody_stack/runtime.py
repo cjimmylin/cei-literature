@@ -12,6 +12,7 @@ from .schema import (
     Event,
     FORBIDDEN_PERSISTED_FIELD_NAMES,
     SchemaValidationError,
+    ZERO_EVENT_SHA256,
     canonical_json_bytes,
     require_identifier,
     require_sha256,
@@ -128,7 +129,11 @@ class Runtime:
             event_log = EventLog()
         if type(event_log) is not EventLog:
             raise SchemaValidationError("event_log must be an exact EventLog")
-        if event_log.events:
+        try:
+            live_head = event_log.live_head()
+        except EventLogError as exc:
+            raise SchemaValidationError("unable to verify initial event-log head") from exc
+        if event_log.events or live_head != (0, ZERO_EVENT_SHA256):
             raise SchemaValidationError("nonempty logs must be opened with Runtime.resume")
         metadata = _validated_metadata(
             episode_id,
@@ -141,6 +146,8 @@ class Runtime:
         self._handlers = handlers
         self._event_log = event_log
         self._terminal = False
+        self._expected_event_count = 0
+        self._expected_event_head_sha256 = ZERO_EVENT_SHA256
         (
             self._episode_id,
             self._logical_id,
@@ -165,11 +172,24 @@ class Runtime:
     def terminal(self):
         return self._terminal
 
+    def _assert_expected_log_head(self):
+        try:
+            live_head = self._event_log.live_head()
+        except EventLogError as exc:
+            raise RuntimeStateError("unable to verify live event-log head") from exc
+        expected = (
+            self._expected_event_count,
+            self._expected_event_head_sha256,
+        )
+        if live_head != expected:
+            raise RuntimeStateError("event log generation changed outside this runtime")
+
     def accept(self, raw_response):
         """Validate, simulate, durably append, and only then swap runtime state."""
 
         if self._terminal:
             raise TerminalRuntimeError("runtime is already terminal")
+        self._assert_expected_log_head()
         before_sha256 = state_sha256(self._state)
         existing_events = self._event_log.events
         if existing_events:
@@ -215,7 +235,13 @@ class Runtime:
             template_sha256=self._template_sha256,
             terminal=transition.tool_result.terminal,
         )
-        self._event_log.append(event)
+        expected_generation = (
+            self._expected_event_count,
+            self._expected_event_head_sha256,
+        )
+        self._event_log.append(event, expected_generation=expected_generation)
+        self._expected_event_count += 1
+        self._expected_event_head_sha256 = event.event_sha256
         self._state = transition.next_state
         self._terminal = transition.tool_result.terminal
         return transition.tool_result
@@ -255,6 +281,16 @@ class Runtime:
         persisted = log.events
         if not verify_chain(persisted):
             raise ReplayError("event chain is structurally invalid")
+        expected_head = (
+            len(persisted),
+            persisted[-1].event_sha256 if persisted else ZERO_EVENT_SHA256,
+        )
+        try:
+            live_head = log.live_head()
+        except EventLogError as exc:
+            raise ReplayError("unable to verify current event-log head") from exc
+        if live_head != expected_head:
+            raise ReplayError("event log changed before replay could bind its head")
 
         supplied_metadata = (
             episode_id,
@@ -328,6 +364,8 @@ class Runtime:
         runtime._handlers = handlers
         runtime._event_log = log
         runtime._terminal = terminal
+        runtime._expected_event_count = expected_head[0]
+        runtime._expected_event_head_sha256 = expected_head[1]
         (
             runtime._episode_id,
             runtime._logical_id,

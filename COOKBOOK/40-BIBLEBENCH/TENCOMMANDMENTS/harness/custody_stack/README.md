@@ -91,19 +91,30 @@ contents into the log.
 
 `EventLog` can be memory-only or backed by canonical JSONL. Before a disk append,
 the writer takes a target-specific in-process mutex plus an advisory lock on the
-containing directory, then verifies that the target bytes exactly equal its
-in-memory canonical prefix; stale or concurrent writers reject. Directory-level
-locking deliberately serializes sibling logs without introducing a predictable
-lock-file symlink. It then creates an exclusive same-directory staging
-file, copies that verified prefix plus one canonical line, flushes it, and calls
-`os.fsync`. Only then is the staging file atomically replaced over the target.
-Atomic replacement is the logical commit point. Directory fsync is deliberately
-not part of the API: it can fail or block after the target has already changed,
-when reporting append failure would split committed disk state from runtime
-memory. The ordering test freezes this policy as file write, flush, file fsync,
-then replace. On any pre-replacement write, flush, or file-fsync
-failure, the target remains byte-for-byte unchanged, staging is zeroed and
-removed, and runtime state, terminal status, and in-memory events do not advance.
+regular same-directory `.<target>.lock` file, opened without following symlinks.
+It then verifies that target bytes exactly equal its in-memory canonical prefix;
+stale or concurrent writers reject. An exclusive same-directory staging file
+receives that verified prefix plus one canonical line, is flushed, and has its
+regular-file descriptor passed to `os.fsync`. Only then is staging atomically
+replaced over the target. After replacement, the parent directory descriptor is
+fsynced and closed on a best-effort basis. Atomic replacement is the logical
+commit point: a later directory open/fsync/close failure is swallowed because
+reporting failure would split the committed disk state from runtime memory. The
+ordering contract is write, flush, file fsync, replace, directory fsync, and
+directory close. On any pre-replacement write, flush, or file-fsync failure, the
+target remains byte-for-byte unchanged, staging is zeroed and removed, and
+runtime state, terminal status, and in-memory events do not advance.
+
+Each `Runtime` binds the exact event count and head hash it owns. A fresh runtime
+binds the empty generation; a successful append advances its expected generation
+only after `EventLog.append()` commits; resume binds the fully verified current
+generation. Before parsing or dispatching any later response, the runtime checks
+the live in-memory or path-backed log head and rejects stale shared ownership,
+including identical metadata and state-preserving actions. The early check is
+backed by an authoritative compare-and-swap: `EventLog.append()` rechecks the
+runtime's expected count/head while holding its append and writer locks, so a
+concurrent state-preserving transition cannot commit after passing an earlier
+head check.
 
 `Runtime.resume()` begins with the caller-supplied private initial state and the
 same deterministic registry. It first verifies the complete structural chain,
@@ -112,6 +123,6 @@ JSON bytes so booleans, integers, and floats cannot collapse under Python
 equality. Before- and after-transition private states are both screened so newly
 classified private values cannot reappear in persisted actions/results. Stored
 state hashes, terminal semantics, and immutable episode/logical/prompt/item/
-template metadata must match replay exactly. A successful resume retains the verified log, so the
-next event continues at the next zero-based index and links to the prior event
-hash. Any mismatch rejects the entire resume.
+template metadata must match replay exactly. A successful resume retains the
+verified log, so the next event continues at the next zero-based index and links
+to the prior event hash. Any mismatch rejects the entire resume.

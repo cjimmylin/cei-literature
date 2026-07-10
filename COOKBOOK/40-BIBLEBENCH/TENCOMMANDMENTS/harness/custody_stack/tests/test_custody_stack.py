@@ -9,6 +9,7 @@ import importlib
 import json
 import os
 from pathlib import Path
+import stat
 import threading
 
 import pytest
@@ -408,13 +409,16 @@ def test_jsonl_load_rejects_deliberately_mutated_event_bytes(tmp_path):
         api.EventLog(path=path)
 
 
-def test_jsonl_append_orders_write_flush_fsync_before_visibility(tmp_path, monkeypatch):
+def test_jsonl_append_orders_file_and_directory_durability_before_visibility(
+    tmp_path, monkeypatch
+):
     api = load_api()
     path = tmp_path / "events.jsonl"
     order = []
     real_fdopen = os.fdopen
     real_fsync = os.fsync
     real_replace = os.replace
+    real_close = os.close
 
     class SpyFile:
         def __init__(self, wrapped):
@@ -442,23 +446,69 @@ def test_jsonl_append_orders_write_flush_fsync_before_visibility(tmp_path, monke
         return SpyFile(real_fdopen(fd, *args, **kwargs))
 
     def spy_fsync(fd):
-        order.append("fsync")
+        mode = os.fstat(fd).st_mode
+        if stat.S_ISDIR(mode):
+            order.append("directory_fsync")
+            return None
+        assert stat.S_ISREG(mode)
+        order.append("file_fsync")
         return real_fsync(fd)
 
     def spy_replace(source, destination):
         order.append("replace")
         return real_replace(source, destination)
 
+    def spy_close(fd):
+        if stat.S_ISDIR(os.fstat(fd).st_mode):
+            order.append("directory_close")
+        return real_close(fd)
+
     monkeypatch.setattr(os, "fdopen", spy_fdopen)
     monkeypatch.setattr(os, "fsync", spy_fsync)
     monkeypatch.setattr(os, "replace", spy_replace)
+    monkeypatch.setattr(os, "close", spy_close)
     runtime = runtime_for(api, path=path)
     runtime.accept(
         '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
     )
-    assert order == ["write", "flush", "fsync", "replace"]
+    assert order == [
+        "write",
+        "flush",
+        "file_fsync",
+        "replace",
+        "directory_fsync",
+        "directory_close",
+    ]
     assert len(runtime.events) == 1
-    assert list(tmp_path.iterdir()) == [path]
+    assert {item.name for item in tmp_path.iterdir()} == {
+        ".events.jsonl.lock",
+        "events.jsonl",
+    }
+
+
+def test_directory_fsync_failure_is_postcommit_and_does_not_split_state(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    real_fsync = os.fsync
+    directory_attempts = []
+
+    def fail_directory_fsync(fd):
+        if stat.S_ISDIR(os.fstat(fd).st_mode):
+            directory_attempts.append("attempted")
+            raise OSError("directory fsync unsupported")
+        return real_fsync(fd)
+
+    monkeypatch.setattr(os, "fsync", fail_directory_fsync)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    assert directory_attempts == ["attempted"]
+    assert runtime.state.to_dict()["counter"] == 1
+    assert len(runtime.events) == 1
+    assert api.EventLog(path=path).events == runtime.events
 
 
 def test_fsync_failure_leaves_runtime_state_event_log_and_terminal_unchanged(
@@ -483,7 +533,7 @@ def test_fsync_failure_leaves_runtime_state_event_log_and_terminal_unchanged(
     assert runtime.terminal is False
     assert not path.exists() or path.read_bytes() == b""
     assert api.EventLog(path=path).events == ()
-    assert list(tmp_path.iterdir()) == []
+    assert {item.name for item in tmp_path.iterdir()} == {".events.jsonl.lock"}
 
 
 def test_fsync_failure_cannot_leave_ghost_when_rollback_reopen_also_fails(
@@ -514,7 +564,7 @@ def test_fsync_failure_cannot_leave_ghost_when_rollback_reopen_also_fails(
     assert runtime.state == fixture_state(api)
     assert not path.exists() or path.read_bytes() == b""
     assert api.EventLog(path=path).events == ()
-    assert list(tmp_path.iterdir()) == []
+    assert {item.name for item in tmp_path.iterdir()} == {".events.jsonl.lock"}
 
 
 def test_exclusive_staging_does_not_follow_predictable_stale_symlink(
@@ -862,6 +912,107 @@ def test_shared_noop_log_rejects_metadata_owner_change():
         stale.accept(raw)
     assert len(log.events) == 1
     assert api.verify_chain(log.events) is True
+
+
+def test_identical_noop_runtimes_bind_exact_in_memory_log_generation():
+    api = load_api()
+    registry = api.ToolRegistry()
+    calls = []
+
+    def noop(state, _arguments):
+        calls.append("called")
+        return api.Transition(state, api.ToolResult({"ok": True}))
+
+    registry.register("fixture.generation-noop", {}, noop)
+    log = api.EventLog()
+    first = api.Runtime(api.EpisodeState({}), registry, log)
+    stale = api.Runtime(api.EpisodeState({}), registry, log)
+    raw = '{"kind":"act","tool":"fixture.generation-noop","arguments":{}}'
+    first.accept(raw)
+    first.accept(raw)
+    before_state = stale.state
+    with pytest.raises(api.RuntimeStateError):
+        stale.accept("not-json")
+    assert calls == ["called", "called"]
+    assert stale.state == before_state
+    assert len(log.events) == 2
+    assert api.verify_chain(log.events) is True
+
+
+def test_identical_noop_runtimes_bind_exact_path_log_generation(tmp_path):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    registry = api.ToolRegistry()
+    calls = []
+
+    def noop(state, _arguments):
+        calls.append("called")
+        return api.Transition(state, api.ToolResult({"ok": True}))
+
+    registry.register("fixture.path-generation-noop", {}, noop)
+    first_log = api.EventLog(path=path)
+    stale_log = api.EventLog(path=path)
+    first = api.Runtime(api.EpisodeState({}), registry, first_log)
+    stale = api.Runtime(api.EpisodeState({}), registry, stale_log)
+    raw = '{"kind":"act","tool":"fixture.path-generation-noop","arguments":{}}'
+    first.accept(raw)
+    before_state = stale.state
+    with pytest.raises(api.RuntimeStateError):
+        stale.accept("not-json")
+    assert calls == ["called"]
+    assert stale.state == before_state
+    assert stale.events == ()
+    assert len(api.EventLog(path=path).events) == 1
+
+
+def test_expected_generation_is_rechecked_atomically_during_append():
+    api = load_api()
+    registry = api.ToolRegistry()
+    stale_entered_handler = threading.Event()
+    release_stale_handler = threading.Event()
+    calls = []
+
+    def interleaved_noop(state, arguments):
+        actor = arguments["actor"]
+        calls.append(actor)
+        if actor == "stale":
+            stale_entered_handler.set()
+            assert release_stale_handler.wait(timeout=2.0)
+        return api.Transition(state, api.ToolResult({"actor": actor}))
+
+    registry.register("fixture.interleaved-noop", {"actor": str}, interleaved_noop)
+    log = api.EventLog()
+    initial = api.EpisodeState({})
+    first = api.Runtime(initial, registry, log)
+    stale = api.Runtime(initial, registry, log)
+    outcomes = []
+
+    def run_stale():
+        try:
+            stale.accept(
+                '{"kind":"act","tool":"fixture.interleaved-noop",'
+                '"arguments":{"actor":"stale"}}'
+            )
+            outcomes.append("stale-committed")
+        except api.CustodyError:
+            outcomes.append("stale-rejected")
+
+    thread = threading.Thread(target=run_stale)
+    thread.start()
+    assert stale_entered_handler.wait(timeout=2.0)
+    first.accept(
+        '{"kind":"act","tool":"fixture.interleaved-noop",'
+        '"arguments":{"actor":"first"}}'
+    )
+    release_stale_handler.set()
+    thread.join(timeout=2.0)
+    assert not thread.is_alive()
+
+    assert outcomes == ["stale-rejected"]
+    assert calls == ["stale", "first"]
+    assert stale.state == initial
+    assert len(log.events) == 1
+    assert log.events[0].tool_result.data["actor"] == "first"
 
 
 def test_persisted_schema_contains_hashes_not_prompts_raw_responses_or_secrets():

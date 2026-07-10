@@ -110,8 +110,30 @@ from .triaxial import TriaxialScore, score_triaxial, AXES as TRIAXIAL_AXES
 #     gated empirical run wants the Messages API. See cli_client.py caveats. ---
 from .cli_client import CLIModelClient, CLIClientError, DEFAULT_MODEL as CLI_DEFAULT_MODEL
 # --- Cross-family real backend behind the seam: OpenRouter (one key, many
-#     families). Smoke/pilot scale until the sanctioned-path ruling; see caveats. ---
+#     families). Sanctioned measurement path (Jimmy ruling 2026-07-09); see caveats. ---
 from .openrouter_client import OpenRouterModelClient, OpenRouterError
+
+# --- Phase 3: routing · examinee-prompt builder · robust parser · runner ·
+#     live NARROWGATE defect-baseline. -----------------------------------------
+from .routing import (
+    scorer_kind,
+    infer_should_refuse,
+    ordinal_max,
+    ORDINAL,
+    ANCHOR,
+    EPISODE,
+    OPEN,
+    SCORER_KINDS,
+)
+from .promptbuilder import build_examinee_prompt, ExamineePrompt, EXAMINEE_SYSTEM
+from .response_parser import parse_ranking, extract_citations, parse_choice
+from .runner import run, RunReport, ModelRunReport, PerItemResult, JudgeFn
+from .episode_live import (
+    build_defect_probe,
+    parse_tool_actions,
+    make_live_defect_policy,
+    run_live_defect_baseline,
+)
 
 __all__ = [
     "ItemRecord",
@@ -202,9 +224,37 @@ __all__ = [
     "CLIModelClient",
     "CLIClientError",
     "CLI_DEFAULT_MODEL",
-    # cross-family real backend (OpenRouter; smoke/pilot scale)
+    # cross-family real backend (OpenRouter; sanctioned measurement path)
     "OpenRouterModelClient",
     "OpenRouterError",
+    # Phase 3: routing
+    "scorer_kind",
+    "infer_should_refuse",
+    "ordinal_max",
+    "ORDINAL",
+    "ANCHOR",
+    "EPISODE",
+    "OPEN",
+    "SCORER_KINDS",
+    # Phase 3: examinee-prompt builder
+    "build_examinee_prompt",
+    "ExamineePrompt",
+    "EXAMINEE_SYSTEM",
+    # Phase 3: robust response parser
+    "parse_ranking",
+    "extract_citations",
+    "parse_choice",
+    # Phase 3: runner
+    "run",
+    "RunReport",
+    "ModelRunReport",
+    "PerItemResult",
+    "JudgeFn",
+    # Phase 3: live NARROWGATE defect-baseline
+    "build_defect_probe",
+    "parse_tool_actions",
+    "make_live_defect_policy",
+    "run_live_defect_baseline",
 ]
 
 __version__ = "0.1.0"

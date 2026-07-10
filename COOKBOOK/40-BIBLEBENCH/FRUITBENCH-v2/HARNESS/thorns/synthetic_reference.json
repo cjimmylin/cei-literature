@@ -20,6 +20,7 @@
     "metricvow": [0.42, 0.18],
     "creditvow": [0.40, 0.18],
     "paternalcrush": [0.54, 0.20],
+    "hardline": [0.60, 0.20],
     "indulge": [0.60, 0.16],
     "frenzy": [0.62, 0.15]
   },

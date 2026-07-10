@@ -22,15 +22,51 @@ def load_audit_config(path: str | Path = DEFAULT_CONFIG) -> dict:
     config_path = Path(path).resolve()
     cfg = json.loads(config_path.read_text(encoding="utf-8"))
     required_top = {
-        "design", "paths", "canary", "registry_patterns", "registry_literals",
+        "design", "paths", "registry_patterns", "registry_literals",
         "required_fields", "required_fruit_codes", "allowed_formats", "lexical_flags",
         "quotas", "reuse_tags",
     }
     missing_top = sorted(required_top - set(cfg))
     if missing_top:
         raise ValueError(f"audit config missing required field(s) {missing_top}: {config_path}")
-    if not str(cfg["design"]).strip() or not str(cfg["canary"]).strip():
-        raise ValueError(f"audit config design/canary must be non-empty: {config_path}")
+    if not str(cfg["design"]).strip():
+        raise ValueError(f"audit config design must be non-empty: {config_path}")
+    canary_modes = [name for name in ("canary", "canary_policy") if name in cfg]
+    if len(canary_modes) != 1:
+        raise ValueError(
+            "audit config must define exactly one of canary or canary_policy: "
+            f"{config_path}"
+        )
+    if "canary" in cfg:
+        if not isinstance(cfg["canary"], str) or not cfg["canary"].strip():
+            raise ValueError(f"audit config canary must be a non-empty string: {config_path}")
+    else:
+        policy = cfg["canary_policy"]
+        if not isinstance(policy, dict):
+            raise ValueError(f"audit config canary_policy must be an object: {config_path}")
+        required_canary = {"pattern", "require_unique", "forbidden_tokens"}
+        missing_canary = sorted(required_canary - set(policy))
+        if missing_canary:
+            raise ValueError(
+                f"audit config canary_policy missing {missing_canary}: {config_path}"
+            )
+        try:
+            re.compile(policy["pattern"])
+        except (TypeError, re.error) as exc:
+            raise ValueError(f"audit config canary_policy.pattern is invalid: {exc}") from exc
+        if policy["require_unique"] is not True:
+            raise ValueError(
+                "audit config canary_policy.require_unique must be true for live-valid banks"
+            )
+        forbidden = policy["forbidden_tokens"]
+        if (
+            not isinstance(forbidden, list)
+            or not forbidden
+            or any(not isinstance(token, str) or not token.strip() for token in forbidden)
+        ):
+            raise ValueError(
+                "audit config canary_policy.forbidden_tokens must be a non-empty string list"
+            )
     pattern_keys = {"fruit", "vice", "claim"}
     missing_patterns = sorted(pattern_keys - set(cfg["registry_patterns"]))
     if missing_patterns:
@@ -93,6 +129,98 @@ def load_audit_config(path: str | Path = DEFAULT_CONFIG) -> dict:
     return cfg
 
 
+def headline_items(banks: dict) -> dict:
+    """Return the locked headline stratum without deleting exploratory provenance rows."""
+    return {
+        item_id: item
+        for item_id, item in banks.items()
+        if isinstance(item, dict) and item.get("status") != "exploratory"
+    }
+
+
+def cft_ids(cft: dict | None) -> tuple[str, ...]:
+    """Read a CFT path while preserving backward compatibility with scalar cft_id."""
+    if not cft:
+        return ()
+    if "cft_ids" in cft:
+        values = cft["cft_ids"]
+        if not isinstance(values, list) or not values:
+            raise ValueError("cft_ids must be a non-empty list")
+        if any(not isinstance(value, str) or not value.strip() for value in values):
+            raise ValueError("cft_ids entries must be non-empty strings")
+        if len(values) != len(set(values)):
+            raise ValueError("cft_ids must not contain duplicates")
+        return tuple(values)
+    value = cft.get("cft_id")
+    if value is None:
+        return ()
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError("cft_id must be a non-empty string")
+    return (value,)
+
+
+def _model_visible_text(bank: dict) -> str:
+    prompt_text = str(bank.get("prompt") or "")
+    for turn in bank.get("turns") or []:
+        prompt_text += " " + json.dumps(turn, default=str)
+    return prompt_text
+
+
+def audit_canaries(banks: dict, golds: dict, policy: dict) -> list[str]:
+    """Validate per-item canary opacity, uniqueness, visibility, and gold isolation."""
+    failures: list[str] = []
+    exact = policy.get("exact")
+    pattern = policy.get("pattern")
+    require_unique = bool(policy.get("require_unique"))
+    forbidden = tuple(str(token).casefold() for token in policy.get("forbidden_tokens", []))
+    observed: dict[str, list[str]] = {}
+
+    for item_id, bank in banks.items():
+        if not isinstance(bank, dict):
+            continue
+        canary = bank.get("canary")
+        if not isinstance(canary, str) or not canary:
+            failures.append(f"{item_id}: canary metadata must be a non-empty string")
+            continue
+        observed.setdefault(canary, []).append(item_id)
+        if exact is not None and canary != exact:
+            failures.append(f"{item_id}: canary metadata does not equal the configured canary")
+        if pattern is not None and re.fullmatch(pattern, canary) is None:
+            failures.append(f"{item_id}: canary {canary!r} does not match configured pattern")
+        low_canary = canary.casefold()
+        hits = sorted(token for token in forbidden if token in low_canary)
+        if hits:
+            failures.append(f"{item_id}: canary contains forbidden token(s) {hits}")
+        if canary not in _model_visible_text(bank):
+            failures.append(f"{item_id}: canary absent from prompt/turn text")
+
+    if require_unique:
+        for canary, item_ids in sorted(observed.items()):
+            if len(item_ids) > 1:
+                failures.append(
+                    f"duplicate canary {canary!r} is shared by items {sorted(item_ids)}"
+                )
+
+    all_canaries = tuple(observed)
+    for item_id, bank in banks.items():
+        if not isinstance(bank, dict):
+            continue
+        visible = _model_visible_text(bank)
+        own = bank.get("canary")
+        foreign = sorted(
+            canary for canary in all_canaries if canary != own and canary in visible
+        )
+        if foreign:
+            failures.append(f"{item_id}: prompt/turn text contains foreign canary {foreign}")
+
+    for gold_id, gold in golds.items():
+        gold_text = json.dumps(gold, default=str)
+        leaked = sorted(canary for canary in all_canaries if canary in gold_text)
+        if leaked:
+            failures.append(f"{gold_id}: canary leaked into gold {leaked}")
+    return failures
+
+
 def load_registry_codes(cfg: dict):
     txt = Path(cfg["paths"]["registry"]).read_text(encoding="utf-8")
     patterns = cfg["registry_patterns"]
@@ -114,7 +242,11 @@ def main():
     cfg = load_audit_config(args.config)
     items = Path(args.items_dir).resolve() if args.items_dir else Path(cfg["paths"]["items"])
     bank_dir, gold_dir = items / "bank", items / "gold"
-    canary = cfg["canary"]
+    canary_policy = cfg.get("canary_policy") or {
+        "exact": cfg["canary"],
+        "require_unique": False,
+        "forbidden_tokens": [],
+    }
     lexical_flags = cfg["lexical_flags"]
     quotas = cfg["quotas"]
     reuse_policy = cfg["reuse_tags"]
@@ -142,16 +274,24 @@ def main():
     if orphan_gold:
         hard_fail.append(f"orphan gold files without bank items: {orphan_gold}")
 
-    n = len(banks)
+    headline = headline_items(banks)
+    exploratory_ids = sorted(set(banks) - set(headline))
+    n_total = len(banks)
+    n = len(headline)
+    if n == 0:
+        hard_fail.append("headline stratum is empty after exploratory exclusions")
+    headline_denominator = max(n, 1)
     fruit_counts, p_claim_counts, cft_live_per_fruit = {}, {}, {}
     tiers_per_fruit, antagonist_cells = {}, {}
     format_counts = {name: 0 for name in cfg["allowed_formats"]}
+    format_counts_all = {name: 0 for name in cfg["allowed_formats"]}
     required = cfg["required_fields"]
     contested_count = 0
 
     for iid, b in banks.items():
         if b is None:
             hard_fail.append(f"{iid}: empty bank file"); continue
+        in_headline = iid in headline
         if b.get("id") != iid:
             hard_fail.append(f"{iid}: bank id {b.get('id')!r} does not match filename stem")
         for k in required:
@@ -168,6 +308,20 @@ def main():
                 hard_fail.append(f"{iid}: bank/gold cell mismatch {b.get('cell')} vs {g.get('cell')}")
             if g.get("kernel_id") != b.get("kernel_id"):
                 soft.append(f"{iid}: bank/gold kernel_id mismatch")
+            cft = (g.get("paths") or {}).get("cft") or {}
+            try:
+                observed_cft_ids = cft_ids(cft)
+            except ValueError as exc:
+                hard_fail.append(f"{iid}: {exc}")
+                observed_cft_ids = ()
+            if len(observed_cft_ids) > 1:
+                markers_by_cft = cft.get("markers_by_cft")
+                if not isinstance(markers_by_cft, dict):
+                    hard_fail.append(f"{iid}: multi-CFT gold requires markers_by_cft")
+                elif set(markers_by_cft) != set(observed_cft_ids):
+                    hard_fail.append(
+                        f"{iid}: markers_by_cft keys do not equal cft_ids"
+                    )
         # registry-tag lint
         fruit_codes = b.get("fruit_codes", [])
         if len(fruit_codes) != len(set(fruit_codes)):
@@ -175,7 +329,8 @@ def main():
         for fc in fruit_codes:
             if fc not in fcodes_reg:
                 hard_fail.append(f"{iid}: fruit_code {fc} not in registry")
-            fruit_counts[fc] = fruit_counts.get(fc, 0) + 1
+            if in_headline:
+                fruit_counts[fc] = fruit_counts.get(fc, 0) + 1
         vc = b.get("vice_code")
         cell = b.get("cell", {}) or {}
         if cell.get("fruit") not in fruit_codes:
@@ -185,7 +340,8 @@ def main():
         if vc is not None:
             if vc not in wcodes_reg:
                 hard_fail.append(f"{iid}: vice_code {vc} not in registry")
-            antagonist_cells.setdefault((cell.get("fruit"), vc), []).append(iid)
+            if in_headline:
+                antagonist_cells.setdefault((cell.get("fruit"), vc), []).append(iid)
             if cell.get("vice") != vc:
                 hard_fail.append(
                     f"{iid}: cell.vice {cell.get('vice')!r} does not match vice_code {vc!r}"
@@ -196,18 +352,26 @@ def main():
         for pc in b.get("p_claims", []):
             if pc not in pcodes_reg:
                 hard_fail.append(f"{iid}: p_claim {pc} not in registry")
-            p_claim_counts[pc] = p_claim_counts.get(pc, 0) + 1
-        if b.get("gold_status") == "contested_band":
+            if in_headline:
+                p_claim_counts[pc] = p_claim_counts.get(pc, 0) + 1
+        if in_headline and b.get("gold_status") == "contested_band":
             contested_count += 1
         # tier / format / cft
         fr = cell.get("fruit")
-        tiers_per_fruit.setdefault(fr, set()).add(b.get("tier"))
+        if in_headline:
+            tiers_per_fruit.setdefault(fr, set()).add(b.get("tier"))
         fmt = b.get("format")
-        if fmt in format_counts:
-            format_counts[fmt] += 1
+        if fmt in format_counts_all:
+            format_counts_all[fmt] += 1
+            if in_headline:
+                format_counts[fmt] += 1
         else:
             hard_fail.append(f"{iid}: format {fmt!r} not in configured allowed_formats")
-        if b.get("tier") == "hard" and (g and g.get("paths", {}).get("cft", {}).get("markers")):
+        cft_path = (g.get("paths") or {}).get("cft") if g else None
+        cft_has_markers = bool(cft_path and cft_path.get("markers"))
+        if cft_path and isinstance(cft_path.get("markers_by_cft"), dict):
+            cft_has_markers = cft_has_markers or any(cft_path["markers_by_cft"].values())
+        if in_headline and b.get("tier") == "hard" and cft_has_markers:
             cft_live_per_fruit[fr] = cft_live_per_fruit.get(fr, 0) + 1
         # reuse-tag rule
         rt = b.get("reuse_tags", []) or []
@@ -217,33 +381,30 @@ def main():
         for tag in reuse_policy["by_format"].get(fmt, []):
             if tag not in rt:
                 soft.append(f"{iid}: {fmt} missing reuse_tag {tag}")
-        # canary in prompt text
-        if b.get("canary") != canary:
-            hard_fail.append(f"{iid}: canary metadata does not equal the configured canary")
         # lexical-flag scan on the prompt/turns only (not metadata)
-        prompt_text = (b.get("prompt") or "")
-        for t in (b.get("turns") or []):
-            prompt_text += " " + json.dumps(t, default=str)
-        if canary not in prompt_text:
-            hard_fail.append(f"{iid}: canary absent from prompt/turn text")
+        prompt_text = _model_visible_text(b)
         low = prompt_text.lower()
         hits = sorted({f for f in lexical_flags if f in low})
         if hits:
             soft.append(f"{iid}: lexical-flag hit(s) in prompt: {hits}")
 
-    # gold contamination: canary must NOT be in gold
-    for gid, g in golds.items():
-        if canary in json.dumps(g, default=str):
-            hard_fail.append(f"{gid}: canary leaked into gold")
+    hard_fail.extend(audit_canaries(banks, golds, canary_policy))
 
     # ---- quota evaluation (all rules supplied by the design policy; D-37 S-4) ----
     design = str(cfg["design"]).upper()
     fruit_floor = float(quotas["fruit_floor"])
-    print(f"\n=== {design} bank audit ===\nitems: {n} bank, {len(golds)} gold\n")
-    print(f"format: {format_counts}")
+    print(
+        f"\n=== {design} bank audit ===\n"
+        f"items: {n_total} bank total, {n} headline, {len(exploratory_ids)} exploratory, "
+        f"{len(golds)} gold\n"
+    )
+    if exploratory_ids:
+        print(f"exploratory provenance rows: {exploratory_ids}")
+    print(f"format (all): {format_counts_all}")
+    print(f"format (headline quotas): {format_counts}")
     print("per-fruit item counts:")
     for f in sorted(fruit_counts):
-        pct = fruit_counts[f] / n
+        pct = fruit_counts[f] / headline_denominator
         flag = "" if pct >= fruit_floor else f"  <-- BELOW {fruit_floor*100:g}% FLOOR"
         print(f"  {f}: {fruit_counts[f]:2d}  ({pct*100:.1f}%){flag}")
         if pct < fruit_floor:
@@ -254,7 +415,7 @@ def main():
 
     for pcode, floor in sorted(quotas["p_claim_floors"].items()):
         count = p_claim_counts.get(pcode, 0)
-        pct = count / n
+        pct = count / headline_denominator
         print(f"\n{pcode} items: {count} ({pct*100:.1f}%)  floor {floor*100:g}%")
         if pct < floor:
             hard_fail.append(f"{pcode} below {floor*100:g}% floor ({pct*100:.1f}%)")
@@ -290,7 +451,7 @@ def main():
             if count < cft_min:
                 hard_fail.append(f"fruit {f} has <{cft_min} CFT-live items ({count})")
 
-    contested_frac = contested_count / n
+    contested_frac = contested_count / headline_denominator
     contested_max = float(quotas["contested_fraction_max"])
     print(f"\ncontested-band items: {contested_count} ({contested_frac*100:.1f}%)  "
           f"stop threshold >{contested_max*100:g}%")

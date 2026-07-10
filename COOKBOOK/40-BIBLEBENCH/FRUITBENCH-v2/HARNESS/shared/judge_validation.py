@@ -13,11 +13,16 @@ import json
 import math
 import re
 from collections.abc import Collection, Mapping
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from pathlib import Path
 from types import MappingProxyType
 from typing import Any, Union
+
+try:
+    from .judge_evidence import ComputedJudgeEvidence
+except ImportError:  # direct-module script compatibility
+    from judge_evidence import ComputedJudgeEvidence
 
 
 SUPPORTED_SCHEMA_VERSION = "1.0"
@@ -30,6 +35,7 @@ _REQUIRED_TOP_LEVEL = frozenset(
         "approved_for_live",
         "label_set_sha256",
         "human_label_set_sha256",
+        "calibration_evidence_sha256",
         "prompt_hashes",
         "policy",
         "human_human",
@@ -76,12 +82,24 @@ class JudgeValidationError(ValueError):
     """The artifact cannot authorize a live judge stack."""
 
 
+_VALIDATION_ATTESTATION = object()
+
+
 @dataclass(frozen=True)
 class ValidatedJudgeValidation:
     """Immutable validated JSON record and SHA-256 of its source artifact."""
 
     record: Mapping[str, Any]
     artifact_sha256: str
+    calibration_evidence_sha256: str = ""
+    evidence_verified: bool = False
+    _attestation: object = field(default=None, repr=False, compare=False)
+
+    def __post_init__(self) -> None:
+        if self._attestation is not _VALIDATION_ATTESTATION:
+            raise TypeError(
+                "ValidatedJudgeValidation can be created only by the artifact validator"
+            )
 
 
 ArtifactSource = Union[str, bytes, bytearray, Path, Mapping[str, Any]]
@@ -608,6 +626,93 @@ def _deep_freeze(value: Any) -> Any:
     return value
 
 
+def _same_number(actual: Any, expected: Any, field: str) -> None:
+    left = _finite_number(actual, field)
+    right = _finite_number(expected, f"computed {field}")
+    if abs(left - right) > 1e-12:
+        raise _fail(f"{field} does not match recomputed calibration evidence")
+
+
+def _compare_metric_values(
+    artifact_block: Mapping[str, Any],
+    computed_block: Mapping[str, Any],
+    field: str,
+) -> None:
+    artifact_metrics = _mapping(artifact_block.get("metrics"), f"{field}.metrics")
+    computed_metrics = _mapping(computed_block.get("metrics"), f"computed {field}.metrics")
+    if set(artifact_metrics) != set(computed_metrics):
+        raise _fail(f"{field}.metrics do not match recomputed metric names")
+    for name in artifact_metrics:
+        _same_number(
+            artifact_metrics[name],
+            computed_metrics[name],
+            f"{field}.metrics.{name}",
+        )
+
+
+def _compare_computed_evidence(
+    record: Mapping[str, Any], evidence: ComputedJudgeEvidence
+) -> None:
+    if not isinstance(evidence, ComputedJudgeEvidence):
+        raise _fail("computed_evidence must be an attested ComputedJudgeEvidence")
+    _compare_metric_values(record["human_human"], evidence.human_human, "human_human")
+    artifact_human_classes = _mapping(
+        record["human_human"].get("by_class"), "human_human.by_class"
+    )
+    computed_human_classes = _mapping(
+        evidence.human_human.get("by_class"), "computed human_human.by_class"
+    )
+    if set(artifact_human_classes) != set(computed_human_classes):
+        raise _fail("human_human.by_class does not match recomputed class coverage")
+    for label in artifact_human_classes:
+        _compare_metric_values(
+            artifact_human_classes[label],
+            computed_human_classes[label],
+            f"human_human.by_class.{label}",
+        )
+
+    artifact_judges = {
+        judge["judge_id"]: judge for judge in record["judges"]
+    }
+    computed_judges = {
+        judge["judge_id"]: judge for judge in evidence.judges
+    }
+    if set(artifact_judges) != set(computed_judges):
+        raise _fail("judges do not match recomputed judge coverage")
+    for judge_id, artifact_judge in artifact_judges.items():
+        computed_judge = computed_judges[judge_id]
+        _compare_metric_values(
+            artifact_judge,
+            computed_judge,
+            f"judges.{judge_id}",
+        )
+        if artifact_judge["calibration_n"] != computed_judge["calibration_n"]:
+            raise _fail(
+                f"judges.{judge_id}.calibration_n does not match recomputed evidence"
+            )
+        _same_number(
+            artifact_judge["refusal_rate"],
+            computed_judge["refusal_rate"],
+            f"judges.{judge_id}.refusal_rate",
+        )
+        artifact_classes = _mapping(
+            artifact_judge.get("by_class"), f"judges.{judge_id}.by_class"
+        )
+        computed_classes = _mapping(
+            computed_judge.get("by_class"), f"computed judges.{judge_id}.by_class"
+        )
+        if set(artifact_classes) != set(computed_classes):
+            raise _fail(
+                f"judges.{judge_id}.by_class does not match recomputed coverage"
+            )
+        for label in artifact_classes:
+            _compare_metric_values(
+                artifact_classes[label],
+                computed_classes[label],
+                f"judges.{judge_id}.by_class.{label}",
+            )
+
+
 def validate_judge_validation_artifact(
     source: ArtifactSource,
     *,
@@ -618,6 +723,7 @@ def validate_judge_validation_artifact(
     expected_judge_identities: Mapping[str, Mapping[str, str]],
     expected_class_labels: Collection[str],
     expected_policy_sha256: str,
+    computed_evidence: ComputedJudgeEvidence | None = None,
 ) -> ValidatedJudgeValidation:
     """Validate a human judge artifact against current immutable inputs.
 
@@ -670,6 +776,10 @@ def validate_judge_validation_artifact(
     human_label_hash = _sha256(
         record["human_label_set_sha256"], "human_label_set_sha256"
     )
+    calibration_evidence_hash = _sha256(
+        record["calibration_evidence_sha256"],
+        "calibration_evidence_sha256",
+    )
     _same_hash(label_hash, expected_label, "label_set_sha256")
     _same_hash(
         human_label_hash, expected_human_label, "human_label_set_sha256"
@@ -714,7 +824,18 @@ def validate_judge_validation_artifact(
     _validate_human_availability(record["human_availability"])
     _validate_completed_at(record["completed_at"])
 
+    evidence_verified = computed_evidence is not None
+    if computed_evidence is not None:
+        if calibration_evidence_hash != computed_evidence.evidence_sha256:
+            raise _fail(
+                "calibration_evidence_sha256 does not match recomputed evidence"
+            )
+        _compare_computed_evidence(record, computed_evidence)
+
     return ValidatedJudgeValidation(
         record=_deep_freeze(record),
         artifact_sha256=hashlib.sha256(raw).hexdigest(),
+        calibration_evidence_sha256=calibration_evidence_hash,
+        evidence_verified=evidence_verified,
+        _attestation=_VALIDATION_ATTESTATION,
     )

@@ -178,6 +178,23 @@ def test_development_compiler_exposes_c0_c1_c2_and_rejects_c3_requests() -> None
         )
 
 
+def test_development_compiler_accepts_locked_triads_before_independent_c3_exists() -> None:
+    api = _api()
+    triad = _quartet()[:3]
+
+    canonical = api.validate_development_triads(reversed(triad))
+    compiled = api.compile_cue_surfaces(triad, phase="development")
+
+    assert tuple(surface.cue_arm for surface in canonical) == ("C0", "C1", "C2")
+    assert compiled == canonical
+    with pytest.raises(api.CounterbalanceError, match="quartet"):
+        api.compile_cue_surfaces(
+            triad,
+            phase="locked-confirmation",
+            development_surface_ids={surface.surface_id for surface in triad},
+        )
+
+
 def test_locked_confirmation_requires_only_unused_c3_surfaces() -> None:
     api = _api()
     registry = _quartet()

@@ -15,6 +15,7 @@ if str(HARNESS) not in sys.path:
 
 from shared.judge_validation import (  # noqa: E402
     JudgeValidationError,
+    ValidatedJudgeValidation,
     validate_judge_validation_artifact,
 )
 
@@ -47,6 +48,7 @@ POLICY = {
 POLICY_HASH = hashlib.sha256(
     json.dumps(POLICY, sort_keys=True, separators=(",", ":")).encode()
 ).hexdigest()
+EVIDENCE_HASH = "e" * 64
 EXPECTED_JUDGES = {
     "J01": {
         "model_id": "anthropic/claude-sonnet-4.6",
@@ -112,6 +114,7 @@ def _artifact() -> dict:
         "approved_for_live": True,
         "label_set_sha256": LABEL_HASH,
         "human_label_set_sha256": HUMAN_LABEL_HASH,
+        "calibration_evidence_sha256": EVIDENCE_HASH,
         "prompt_hashes": dict(EXPECTED_PROMPTS),
         "policy": json.loads(json.dumps(POLICY)),
         "human_human": {
@@ -188,6 +191,14 @@ def test_valid_artifact_returns_exact_digest_and_deeply_immutable_record(tmp_pat
         validated.artifact_sha256 = "0" * 64
 
 
+def test_validated_record_cannot_be_forged_by_direct_dataclass_construction() -> None:
+    with pytest.raises(TypeError, match="validator"):
+        ValidatedJudgeValidation(
+            record={"approved_for_live": True},
+            artifact_sha256="a" * 64,
+        )
+
+
 @pytest.mark.parametrize(
     "field",
     [
@@ -196,6 +207,7 @@ def test_valid_artifact_returns_exact_digest_and_deeply_immutable_record(tmp_pat
         "approved_for_live",
         "label_set_sha256",
         "human_label_set_sha256",
+        "calibration_evidence_sha256",
         "prompt_hashes",
         "policy",
         "human_human",

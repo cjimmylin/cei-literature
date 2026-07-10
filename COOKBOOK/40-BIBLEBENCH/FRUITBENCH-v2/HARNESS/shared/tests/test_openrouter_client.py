@@ -38,6 +38,20 @@ MESSAGES = [
     {"role": "user", "content": [{"type": "input_text", "text": "Fixture task."}]},
 ]
 
+STRICT_RESPONSE_FORMAT = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "fixture_result",
+        "strict": True,
+        "schema": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["label"],
+            "properties": {"label": {"type": "string"}},
+        },
+    },
+}
+
 COMPLETED_RESPONSE = {
     "id": "resp_fixture",
     "model": "openai/gpt-5.5-20260423",
@@ -209,6 +223,64 @@ def test_subject_request_payloads_differ_only_by_model() -> None:
         assert {**payload, "model": "same"} == {**payloads[0], "model": "same"}
 
 
+def test_responses_structured_output_uses_responses_text_format_shape() -> None:
+    payload = build_response_request(
+        model_id="cohere/command-a",
+        messages=MESSAGES,
+        max_output_tokens=800,
+        reasoning_effort=None,
+        provider_order=["cohere"],
+        response_format=STRICT_RESPONSE_FORMAT,
+    )
+
+    assert payload["text"] == {
+        "format": {
+            "type": "json_schema",
+            "name": "fixture_result",
+            "strict": True,
+            "schema": STRICT_RESPONSE_FORMAT["json_schema"]["schema"],
+        }
+    }
+    assert "response_format" not in payload
+
+
+@pytest.mark.parametrize(
+    "response_format",
+    [
+        {"type": "json_object"},
+        {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "fixture_result",
+                "strict": False,
+                "schema": {"type": "object"},
+            },
+        },
+        {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "fixture_result",
+                "strict": True,
+                "schema": {"type": "object"},
+                "unexpected": True,
+            },
+        },
+    ],
+)
+def test_responses_structured_output_rejects_non_strict_or_ambiguous_contracts(
+    response_format: dict[str, Any],
+) -> None:
+    with pytest.raises(ValueError, match="response_format"):
+        build_response_request(
+            model_id="cohere/command-a",
+            messages=MESSAGES,
+            max_output_tokens=800,
+            reasoning_effort=None,
+            provider_order=["cohere"],
+            response_format=response_format,
+        )
+
+
 def test_responses_posts_documented_shape_and_retains_provenance() -> None:
     with _fixture_server([(200, COMPLETED_RESPONSE)]) as (base_url, server):
         result = _client(base_url).responses(
@@ -260,6 +332,30 @@ def test_responses_posts_documented_shape_and_retains_provenance() -> None:
     assert result.attempt_ledger[0].generation_id == "gen_fixture"
     assert result.attempt_ledger[0].error_type is None
     assert result.latency_ms >= 0
+
+
+def test_responses_posts_native_structured_output_contract() -> None:
+    with _fixture_server([(200, COMPLETED_RESPONSE)]) as (base_url, server):
+        _client(base_url).responses(
+            model_id=SUBJECT_MODELS[0],
+            messages=MESSAGES,
+            max_output_tokens=800,
+            reasoning_effort="medium",
+            provider_order=["openai"],
+            expected_canonical_slug="openai/gpt-5.5-20260423",
+            response_format=STRICT_RESPONSE_FORMAT,
+        )
+
+    body = json.loads(server.requests[0]["body"])  # type: ignore[attr-defined]
+    assert body["text"] == {
+        "format": {
+            "type": "json_schema",
+            "name": "fixture_result",
+            "strict": True,
+            "schema": STRICT_RESPONSE_FORMAT["json_schema"]["schema"],
+        }
+    }
+    assert "response_format" not in body
 
 
 @pytest.mark.parametrize(

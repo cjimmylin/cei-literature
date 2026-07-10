@@ -171,7 +171,9 @@ class SyntheticModel(ModelAdapter):
         self.seed = spec.params.get("seed", 20260706)
         self.reference_path = Path(spec.params.get("reference_path", DEFAULT_REFERENCE))
 
-    def generate(self, item, gold, *, system=None, rollout=0):
+    def generate_messages(
+        self, messages, *, item, gold, system=None, rollout=0, turn=1
+    ):
         path = choose_path(
             item,
             self.profile,
@@ -179,4 +181,41 @@ class SyntheticModel(ModelAdapter):
             rollout=rollout,
             reference_path=self.reference_path,
         )
-        return {"text": synthesize_text(gold, path), "intended_path": path}
+        request_digest = hashlib.sha256(
+            json.dumps(
+                {
+                    "messages": messages,
+                    "system": system,
+                    "item_id": item["id"],
+                    "model_id": self.model_id,
+                    "rollout": rollout,
+                    "turn": turn,
+                },
+                sort_keys=True,
+                separators=(",", ":"),
+            ).encode("utf-8")
+        ).hexdigest()[:20]
+        text = synthesize_text(gold, path)
+        response_id = f"syn-resp-{request_digest}"
+        return {
+            "text": text,
+            "intended_path": path,
+            "response_id": response_id,
+            "request_id": f"syn-req-{request_digest}",
+            "generation_id": f"syn-gen-{request_digest}",
+            "returned_model": self.model_id,
+            "usage": {
+                "input_tokens": sum(
+                    len(str(message.get("content", "")).split()) for message in messages
+                ),
+                "output_tokens": len(text.split()),
+            },
+            "attempt_ledger": [
+                {
+                    "attempt": 1,
+                    "status_code": 200,
+                    "error_type": None,
+                    "response_id": response_id,
+                }
+            ],
+        }

@@ -8,6 +8,7 @@ provenance, and treats malformed or ambiguous responses as invalid evidence.
 from __future__ import annotations
 
 import json
+import math
 import os
 import re
 import time
@@ -178,6 +179,65 @@ def _validate_messages(messages: Sequence[Mapping[str, Any]]) -> None:
                 )
 
 
+def _strict_json_copy(value: Any, path: str) -> Any:
+    """Copy a value while rejecting Python values that are not strict JSON."""
+
+    if isinstance(value, Mapping):
+        copied: dict[str, Any] = {}
+        for key, child in value.items():
+            if not isinstance(key, str):
+                raise ValueError(f"{path} object keys must be strings")
+            copied[key] = _strict_json_copy(child, f"{path}.{key}")
+        return copied
+    if isinstance(value, list):
+        return [
+            _strict_json_copy(child, f"{path}[{index}]")
+            for index, child in enumerate(value)
+        ]
+    if value is None or isinstance(value, (str, bool, int)):
+        return value
+    if isinstance(value, float) and math.isfinite(value):
+        return value
+    raise ValueError(f"{path} contains a value that is not strict JSON")
+
+
+def _responses_text_config(response_format: Mapping[str, Any]) -> dict[str, Any]:
+    """Translate the frozen judge schema into the Responses API text contract."""
+
+    if not isinstance(response_format, Mapping):
+        raise ValueError("response_format must be an object")
+    if set(response_format) != {"type", "json_schema"}:
+        raise ValueError(
+            "response_format must contain exactly type and json_schema"
+        )
+    if response_format.get("type") != "json_schema":
+        raise ValueError("response_format.type must be json_schema")
+    json_schema = response_format.get("json_schema")
+    if not isinstance(json_schema, Mapping):
+        raise ValueError("response_format.json_schema must be an object")
+    if set(json_schema) != {"name", "strict", "schema"}:
+        raise ValueError(
+            "response_format.json_schema must contain exactly name, strict, and schema"
+        )
+    name = json_schema.get("name")
+    if not isinstance(name, str) or not name.strip() or name != name.strip():
+        raise ValueError("response_format.json_schema.name must be non-blank")
+    if json_schema.get("strict") is not True:
+        raise ValueError("response_format.json_schema.strict must be true")
+    schema = json_schema.get("schema")
+    if not isinstance(schema, Mapping):
+        raise ValueError("response_format.json_schema.schema must be an object")
+    copied_schema = _strict_json_copy(schema, "response_format.json_schema.schema")
+    return {
+        "format": {
+            "type": "json_schema",
+            "name": name,
+            "strict": True,
+            "schema": copied_schema,
+        }
+    }
+
+
 def build_response_request(
     *,
     model_id: str,
@@ -186,8 +246,9 @@ def build_response_request(
     reasoning_effort: str | None,
     provider_order: Sequence[str],
     service_tier: str = DEFAULT_SERVICE_TIER,
+    response_format: Mapping[str, Any] | None = None,
 ) -> dict[str, Any]:
-    """Build the frozen non-streaming Responses request used by benchmark actors."""
+    """Build a frozen non-streaming Responses request for actors or judges."""
 
     if not isinstance(model_id, str) or not model_id.strip() or "/" not in model_id:
         raise ValueError("model_id must be an exact author/model identifier")
@@ -219,6 +280,8 @@ def build_response_request(
     }
     if reasoning_effort is not None:
         payload["reasoning"] = {"effort": reasoning_effort}
+    if response_format is not None:
+        payload["text"] = _responses_text_config(response_format)
     payload["provider"] = {
         "order": order,
         "allow_fallbacks": False,
@@ -905,6 +968,7 @@ class OpenRouterClient:
         provider_order: Sequence[str],
         expected_canonical_slug: str,
         service_tier: str = DEFAULT_SERVICE_TIER,
+        response_format: Mapping[str, Any] | None = None,
     ) -> ResponseResult:
         if (
             not isinstance(expected_canonical_slug, str)
@@ -920,6 +984,7 @@ class OpenRouterClient:
             reasoning_effort=reasoning_effort,
             provider_order=provider_order,
             service_tier=service_tier,
+            response_format=response_format,
         )
         payload, headers, attempt_ledger, latency_ms = self._request_json(
             "POST", "/responses", payload=request_payload

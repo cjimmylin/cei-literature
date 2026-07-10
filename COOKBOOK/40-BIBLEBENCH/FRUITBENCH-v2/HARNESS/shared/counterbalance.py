@@ -110,16 +110,28 @@ def _string_collection(
     return result
 
 
-def validate_surface_quartets(
+def _validate_surface_groups(
     surfaces: Iterable[CueSurface],
     *,
+    expected_arms: Collection[str],
     registered_cue_classes: Collection[str] = REGISTERED_CUE_CLASSES,
 ) -> Tuple[CueSurface, ...]:
-    """Validate complete C0--C3 declarations and return canonical ordering."""
+    """Validate complete per-item arm declarations and return canonical ordering."""
 
     rows = tuple(surfaces)
     if not rows:
-        raise CounterbalanceError("at least one cue-surface quartet is required")
+        raise CounterbalanceError("at least one cue-surface set is required")
+
+    expected = _string_collection(expected_arms, "expected_arms")
+    if expected not in ({"C0", "C1", "C2"}, set(CUE_ARMS)):
+        raise CounterbalanceError(
+            "expected_arms must be the development triad or complete quartet"
+        )
+    group_description = (
+        "complete C0/C1/C2/C3 quartet"
+        if expected == set(CUE_ARMS)
+        else "complete C0/C1/C2 development triad"
+    )
 
     registered = _string_collection(
         registered_cue_classes, "registered_cue_classes"
@@ -171,18 +183,18 @@ def validate_surface_quartets(
         by_item[surface.item_id].append(surface)
 
     for item_id, quartet in by_item.items():
-        if len(quartet) != len(CUE_ARMS):
+        if len(quartet) != len(expected):
             raise CounterbalanceError(
-                f"item {item_id!r} requires a complete C0/C1/C2/C3 quartet"
+                f"item {item_id!r} requires a {group_description}"
             )
         arms = [surface.cue_arm for surface in quartet]
         if len(set(arms)) != len(arms):
             raise CounterbalanceError(
                 f"item {item_id!r} requires unique cue arms"
             )
-        if set(arms) != set(CUE_ARMS):
+        if set(arms) != expected:
             raise CounterbalanceError(
-                f"item {item_id!r} requires a complete C0/C1/C2/C3 quartet"
+                f"item {item_id!r} requires a {group_description}"
             )
         kernels = {surface.kernel_id for surface in quartet}
         if len(kernels) != 1:
@@ -212,6 +224,32 @@ def validate_surface_quartets(
     )
 
 
+def validate_surface_quartets(
+    surfaces: Iterable[CueSurface],
+    *,
+    registered_cue_classes: Collection[str] = REGISTERED_CUE_CLASSES,
+) -> Tuple[CueSurface, ...]:
+    """Validate complete C0--C3 declarations and return canonical ordering."""
+    return _validate_surface_groups(
+        surfaces,
+        expected_arms=CUE_ARMS,
+        registered_cue_classes=registered_cue_classes,
+    )
+
+
+def validate_development_triads(
+    surfaces: Iterable[CueSurface],
+    *,
+    registered_cue_classes: Collection[str] = REGISTERED_CUE_CLASSES,
+) -> Tuple[CueSurface, ...]:
+    """Validate the C0/C1/C2 set while independently authored C3 is sealed."""
+    return _validate_surface_groups(
+        surfaces,
+        expected_arms=("C0", "C1", "C2"),
+        registered_cue_classes=registered_cue_classes,
+    )
+
+
 def compile_cue_surfaces(
     surfaces: Iterable[CueSurface],
     *,
@@ -221,14 +259,20 @@ def compile_cue_surfaces(
     registered_cue_classes: Collection[str] = REGISTERED_CUE_CLASSES,
 ) -> Tuple[CueSurface, ...]:
     """Compile only the cue arms authorized for an execution phase."""
-
-    canonical = validate_surface_quartets(
-        surfaces,
-        registered_cue_classes=registered_cue_classes,
-    )
+    rows = tuple(surfaces)
     if phase == "development":
         allowed_arms = frozenset({"C0", "C1", "C2"})
         phase_label = "development"
+        active_arms = {surface.cue_arm for surface in rows if isinstance(surface, CueSurface)}
+        validator = (
+            validate_surface_quartets
+            if "C3" in active_arms
+            else validate_development_triads
+        )
+        canonical = validator(
+            rows,
+            registered_cue_classes=registered_cue_classes,
+        )
     elif phase == "locked-confirmation":
         allowed_arms = frozenset({"C3"})
         phase_label = "locked-confirmation"
@@ -236,6 +280,10 @@ def compile_cue_surfaces(
             raise CounterbalanceError(
                 "locked-confirmation requires development_surface_ids for reuse checks"
             )
+        canonical = validate_surface_quartets(
+            rows,
+            registered_cue_classes=registered_cue_classes,
+        )
     else:
         raise CounterbalanceError(f"unsupported phase: {phase!r}")
 

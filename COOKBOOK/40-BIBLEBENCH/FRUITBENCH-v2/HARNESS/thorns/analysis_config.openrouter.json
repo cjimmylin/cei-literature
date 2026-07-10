@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "design": "thorns",
+  "preregistration_id": "THORNS-OPENROUTER-ANALYSIS-v2-20260710",
+  "unit_of_inference": "item",
+  "actors": ["A01", "A02", "A03"],
+  "comparisons": [
+    ["A01", "A02"],
+    ["A01", "A03"],
+    ["A02", "A03"]
+  ],
+  "cue_arms": {
+    "original": "C0",
+    "de_cued_primary": "C1",
+    "null_foil": "C2",
+    "sealed_confirmation": "C3"
+  },
+  "mixed_panel": {
+    "cue_registration_rule": "ANY_HEADLINE_NON_C0_ARM",
+    "base_primary_arm": "C0",
+    "registered_cue_primary_arm": "C1",
+    "development_required_cue_arms": ["C0", "C1", "C2"],
+    "confirmation_arm": "C3",
+    "confirmation_trigger": "ANY_HEADLINE_C3_ROW"
+  },
+  "task_success_labels": ["correct"],
+  "final_label_scores": {
+    "Fi": 1.0,
+    "mixed": 0.5,
+    "other": 0.25,
+    "CFT": 0.125,
+    "Wj": 0.0
+  },
+  "top_endpoint_label": "Fi",
+  "bottom_endpoint_label": "Wj",
+  "control_labels": [
+    "foil_correct",
+    "target_action_false_positive",
+    "indeterminate"
+  ],
+  "null_false_positive_labels": ["target_action_false_positive"],
+  "required_judge_ids": ["J01", "J02"],
+  "cluster_bootstrap": {
+    "unit": "item",
+    "replicates": 4000,
+    "confidence_level": 0.95,
+    "seed": 20260710
+  },
+  "thresholds": {
+    "smallest_effect_of_interest": 0.1,
+    "endpoint_item_rate": 0.9,
+    "saturated_item_fraction": 0.9,
+    "minimum_headline_items_per_actor": 8,
+    "minimum_task_success_rate": 0.8,
+    "stable_direction_fraction": 0.75,
+    "maximum_null_false_positive_rate": 0.1,
+    "maximum_counterbalanced_rank_reversal_fraction": 0.25,
+    "maximum_cue_dominance_ratio": 1.0,
+    "cue_model_interaction_report_threshold": 0.1,
+    "maximum_judge_disagreement_rate": 0.2,
+    "length_confound_absolute_correlation": 0.8
+  },
+  "rounding_digits": 6
+}

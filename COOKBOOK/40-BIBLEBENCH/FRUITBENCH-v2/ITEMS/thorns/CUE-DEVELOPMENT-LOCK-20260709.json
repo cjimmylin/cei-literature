@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "kind": "thorns-cue-development-lock",
+  "created_at": "2026-07-10T07:39:02Z",
+  "status": "locked_before_any_live_development_result",
+  "development_arms": [
+    "C0",
+    "C1",
+    "C2"
+  ],
+  "heldout_arm": "C3",
+  "live_result_inputs": [],
+  "files": [
+    {
+      "path": "cue_forms/thorns-grievancefarm-002.cue.yaml",
+      "sha256": "f0cab3c8f66bcc942a2e50afa4d9bf91a5d919eaf9666c3575d9790399b6e5b3"
+    },
+    {
+      "path": "cue_forms/thorns-hardline-002.cue.yaml",
+      "sha256": "53005f2bfcfbc1bbb181a1bca8bf9809cc2fa03bc7a9233c75fd4702650418a0"
+    },
+    {
+      "path": "cue_forms/thorns-partisan-002.cue.yaml",
+      "sha256": "21d1db1403df4f695ff3e685a25f0f8e757b59b2f413a135459b9ed77fe93090"
+    },
+    {
+      "path": "cue_forms/thorns-paternalcrush-002.cue.yaml",
+      "sha256": "cc59f528ffd972413525d2d07d6563cc0070154344c2122cdf4fbc9762b6ae43"
+    },
+    {
+      "path": "cue_forms/thorns-resentcorrect-002.cue.yaml",
+      "sha256": "98163a247331a27fd3cadf5cb3052af61d079732669fe594f46d681f9f3ab560"
+    },
+    {
+      "path": "cue_forms/thorns-wedge-002.cue.yaml",
+      "sha256": "1bb9f3919a603a51c54400e3770753beae7a73d7a9b5d5f7ed6e280d0cceb653"
+    },
+    {
+      "path": "cue_gold/thorns-grievancefarm-002.cue.gold.yaml",
+      "sha256": "f80894d5ffa286140eab7ad0f3730976234b86cdf470cfd336ffb8a017aac376"
+    },
+    {
+      "path": "cue_gold/thorns-hardline-002.cue.gold.yaml",
+      "sha256": "84e89b41578fbb3567235e10e0f0e5e307ced6fe3d32328e5ff60b67bf9b4719"
+    },
+    {
+      "path": "cue_gold/thorns-partisan-002.cue.gold.yaml",
+      "sha256": "7a5d6e4fff69dd0ff3dc067761edc2968f4d4f7d18bbb9cf75d8850c20d6d348"
+    },
+    {
+      "path": "cue_gold/thorns-paternalcrush-002.cue.gold.yaml",
+      "sha256": "804841ee9a3173941759ad4743fa9694f2f4bfa2d5ce326c174bc7be671f9091"
+    },
+    {
+      "path": "cue_gold/thorns-resentcorrect-002.cue.gold.yaml",
+      "sha256": "c392f022705fd3cd5707b437fe47ed8d407c1ea41cf232f3bcf6ab7aeb787425"
+    },
+    {
+      "path": "cue_gold/thorns-wedge-002.cue.gold.yaml",
+      "sha256": "1a6d9735a4854d08405667a11445718019417e85c38b64c14539063821dbe88a"
+    }
+  ],
+  "active_surface_bindings": [
+    {
+      "item_id": "thorns-grievancefarm-002",
+      "surface_id": "thorns-grievancefarm-002-C0",
+      "cue_arm": "C0",
+      "text_sha256": "32933e3e0da0532e007aa02831ba742514fe0dc2abf672ee09ee81ac2969316c"
+    },
+    {
+      "item_id": "thorns-grievancefarm-002",
+      "surface_id": "thorns-grievancefarm-002-C1",
+      "cue_arm": "C1",
+      "text_sha256": "9a8ec5c5046f6f97253a737af694dd41808743156ab957dd528f864e7b322a8f"
+    },
+    {
+      "item_id": "thorns-grievancefarm-002",
+      "surface_id": "thorns-grievancefarm-002-C2",
+      "cue_arm": "C2",
+      "text_sha256": "e2e3c86076db0404878236c2e9d3a073f4be6723c9597bd7b3a8bd692daf83b0"
+    },
+    {
+      "item_id": "thorns-hardline-002",
+      "surface_id": "thorns-hardline-002-C0",
+      "cue_arm": "C0",
+      "text_sha256": "f9d739d773cdd77f0e56b6c779cd5e664703e7ee965f7aee4eec3fe6a43059f5"
+    },
+    {
+      "item_id": "thorns-hardline-002",
+      "surface_id": "thorns-hardline-002-C1",
+      "cue_arm": "C1",
+      "text_sha256": "17b60f288abd005657d3bd7ad7802c4ff8d06f24ea8455e945e29617e71ba67d"
+    },
+    {
+      "item_id": "thorns-hardline-002",
+      "surface_id": "thorns-hardline-002-C2",
+      "cue_arm": "C2",
+      "text_sha256": "05408d249e5b1226d608679db8fb764dc11ca9b3dedae09f356379b850fffec3"
+    },
+    {
+      "item_id": "thorns-partisan-002",
+      "surface_id": "thorns-partisan-002-C0",
+      "cue_arm": "C0",
+      "text_sha256": "b633c753afff0eba7886967d51fe7fa36ec6ea066408a595033bb380ccba15d8"
+    },
+    {
+      "item_id": "thorns-partisan-002",
+      "surface_id": "thorns-partisan-002-C1",
+      "cue_arm": "C1",
+      "text_sha256": "720f9257767295231706f6c5464d3f4143a242c2cb3e609c891c649a7387faaf"
+    },
+    {
+      "item_id": "thorns-partisan-002",
+      "surface_id": "thorns-partisan-002-C2",
+      "cue_arm": "C2",
+      "text_sha256": "8382307d1f96c8ddf1c810bb27960ed7f2ff3561ae2e5435785fe45f3b4c5390"
+    },
+    {
+      "item_id": "thorns-paternalcrush-002",
+      "surface_id": "thorns-paternalcrush-002-C0",
+      "cue_arm": "C0",
+      "text_sha256": "96cfb5d8fbd50cd42a87dcd772220f609b16c4c150383635e5f4b9b435790d8c"
+    },
+    {
+      "item_id": "thorns-paternalcrush-002",
+      "surface_id": "thorns-paternalcrush-002-C1",
+      "cue_arm": "C1",
+      "text_sha256": "f90e69164eea84832f85904f13c7f49775dd84831738d313018e9712720e2645"
+    },
+    {
+      "item_id": "thorns-paternalcrush-002",
+      "surface_id": "thorns-paternalcrush-002-C2",
+      "cue_arm": "C2",
+      "text_sha256": "525d1257022dc6a4a93d99d94ce395e6e3012ffe422f30d9f643e580c42276f5"
+    },
+    {
+      "item_id": "thorns-resentcorrect-002",
+      "surface_id": "thorns-resentcorrect-002-C0",
+      "cue_arm": "C0",
+      "text_sha256": "4d8e6ac72e3e8c19d3bc404e2f34b0b27a54f1900c2246919edc9d6a45adcfd7"
+    },
+    {
+      "item_id": "thorns-resentcorrect-002",
+      "surface_id": "thorns-resentcorrect-002-C1",
+      "cue_arm": "C1",
+      "text_sha256": "60b092cf202bc4b38279e73d4bc1db59412107547825ae86a80910b2a14c4b9d"
+    },
+    {
+      "item_id": "thorns-resentcorrect-002",
+      "surface_id": "thorns-resentcorrect-002-C2",
+      "cue_arm": "C2",
+      "text_sha256": "455c254ad4301561f47b6ba1e1b4bffae802161b7465d6b81e13aff0d4a815f5"
+    },
+    {
+      "item_id": "thorns-wedge-002",
+      "surface_id": "thorns-wedge-002-C0",
+      "cue_arm": "C0",
+      "text_sha256": "466d6759107f5d51c9d6e2347706e83d07e5a8de457d3b3441bdbf6ff4f32251"
+    },
+    {
+      "item_id": "thorns-wedge-002",
+      "surface_id": "thorns-wedge-002-C1",
+      "cue_arm": "C1",
+      "text_sha256": "7ec95cf997fd776e6876281fae33f194f9ade144e1dcb9a278aa0c1e8bc2c7b8"
+    },
+    {
+      "item_id": "thorns-wedge-002",
+      "surface_id": "thorns-wedge-002-C2",
+      "cue_arm": "C2",
+      "text_sha256": "001746cf49344837a19409ef9c6101550ec04108f741ca8e34826b2a6ff838bf"
+    }
+  ],
+  "lock_payload_sha256": "3b5ebadbb82ffa815aeb36308e6cda1e88514869e1666c9213b4edb475037c42"
+}

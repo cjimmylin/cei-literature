@@ -8,7 +8,9 @@ synthetic reference model — HARNESS-VALIDATION ONLY. Flip to 'live' for the em
 Outputs (under PILOTS/thorns/, YYYYMMDD-prefixed, immutable; mode token in the name per D-37 S-8):
   <date>-<mode>-pilot-results.json   — all raw numbers + gate verdicts
   <date>-<mode>-mini-heatmap.md      — the 20-cell heatmap
-Prints a gate summary. Usage: python run_pilot.py --date YYYYMMDD [--config PATH]
+Prints a gate summary. Synthetic usage remains ``--date YYYYMMDD``. OpenRouter
+usage is either ``--smoke-openrouter`` or a receipt-gated ``--phase``; see
+README-openrouter.md.
 
 Fable review ruling 2026-07-06 (D-35/D-37): G1 aggregation = attacker-primary (config
 `g1_aggregation`); G3 enforces D-22 per-item; G2 excludes no-hard-item cells. D-37
@@ -24,6 +26,8 @@ sys.path.insert(0, str(HERE))
 import yaml
 from model_adapters import load_roster
 from scorer import MarkerScorer, confusion
+from trajectory import execute_trajectory
+from preflight import PreflightError
 
 BAND = (0.40, 0.80)
 CFT_MIN = 0.05
@@ -97,6 +101,13 @@ def load_items(cfg: dict):
     orphan_gold = sorted(set(gold) - set(bank))
     if orphan_gold:
         raise KeyError(f"orphan gold files without bank items: {orphan_gold}")
+    # Exploratory rows remain auditable on disk but cannot enter locked headline rates.
+    bank = {
+        item_id: item
+        for item_id, item in bank.items()
+        if item.get("status") != "exploratory"
+    }
+    gold = {item_id: gold[item_id] for item_id in bank}
     return bank, gold
 
 
@@ -104,6 +115,61 @@ def cell_key(item):
     c = item.get("cell", {})
     v = c.get("vice")
     return f"{c.get('fruit')}x{v}", item["id"].split("-")[1]
+
+
+def is_hard_stratum(item):
+    """Arcs remain part of D-21's hard transfer stratum even when tier is named `arc`."""
+    return item.get("tier") in {"hard", "arc"}
+
+
+def trajectory_branch_strategy(cfg: dict) -> str:
+    """Freeze response-independent live routing and synthetic-only marker routing."""
+    mode = cfg.get("mode")
+    configured = (cfg.get("trajectory") or {}).get("branch_strategy")
+    if mode == "synthetic":
+        strategy = configured or "synthetic_marker"
+        if strategy != "synthetic_marker":
+            raise ValueError("synthetic THORNS requires trajectory.branch_strategy=synthetic_marker")
+        return strategy
+    if mode == "live":
+        if configured != "counterbalanced":
+            raise PreflightError(
+                "live THORNS requires trajectory.branch_strategy=counterbalanced"
+            )
+        return configured
+    raise ValueError(f"unknown run mode for trajectory routing: {mode!r}")
+
+
+def _validate_live_runtime(cfg: dict) -> None:
+    """Require a gate-bound immutable schedule before any bank item is loaded."""
+    if cfg.get("mode") != "live":
+        return
+    phase = cfg.get("_live_phase")
+    if phase not in {"development", "locked-confirmation"}:
+        raise PreflightError("live bank run lacks an authorized phase")
+    receipt_hash = cfg.get("_preflight_receipt_sha256")
+    if not isinstance(receipt_hash, str) or re.fullmatch(r"[0-9a-f]{64}", receipt_hash) is None:
+        raise PreflightError("live bank run lacks a validated preflight receipt hash")
+    schedule_path = cfg.get("_cue_schedule_path")
+    schedule_hash = cfg.get("_cue_schedule_sha256")
+    if not isinstance(schedule_path, str) or not Path(schedule_path).is_file():
+        raise PreflightError("live bank run lacks an immutable cue schedule")
+    actual_hash = _sha256_file(schedule_path)
+    if not isinstance(schedule_hash, str) or schedule_hash != actual_hash:
+        raise PreflightError("live cue schedule hash does not match its immutable artifact")
+    try:
+        schedule = json.loads(Path(schedule_path).read_bytes())
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        raise PreflightError("live cue schedule is not valid JSON") from exc
+    if (
+        schedule.get("kind") != "thorns-cue-schedule"
+        or schedule.get("phase") != phase
+        or schedule.get("config_sha256") != cfg.get("_provenance", {}).get("config_sha256")
+        or schedule.get("preflight_receipt_sha256") != receipt_hash
+        or not isinstance(schedule.get("rows"), list)
+        or not schedule["rows"]
+    ):
+        raise PreflightError("live cue schedule is not bound to this phase/config/receipt")
 
 
 def run(cfg):
@@ -140,13 +206,55 @@ def run(cfg):
         raise ValueError("g1_aggregation must be attacker_primary or ensemble_mean")
     if cfg.get("mode") == "live" and cfg.get("rollouts", {}).get("calibration", 0) < 24:
         sys.exit("live THORNS requires >=24 calibration rollouts per item (D-35)")
+    branch_strategy = trajectory_branch_strategy(cfg)
+    if mode == "live":
+        branch_count = (cfg.get("trajectory") or {}).get("branch_count")
+        if branch_count != 3 or any(value % branch_count for value in rollouts.values()):
+            raise PreflightError(
+                "live rollout counts must be divisible by three for counterbalanced branches"
+            )
+    _validate_live_runtime(cfg)
     bank, gold = load_items(cfg)
+    if mode == "live" and cfg.get("_live_phase") == "development":
+        development_ids = cfg.get("development_item_ids")
+        if not isinstance(development_ids, list) or set(development_ids) - set(bank):
+            raise PreflightError("development item freeze is missing or names unavailable items")
+        bank = {item_id: bank[item_id] for item_id in development_ids}
+        gold = {item_id: gold[item_id] for item_id in development_ids}
     roster = load_roster(cfg)
     scorer = MarkerScorer()
     R = cfg["rollouts"]
 
     intended, scored_all = [], []          # scorer self-check accumulators
     calib, ev, held = {}, {}, {}           # per-item results
+    actor_rows, terminal_rows = [], []     # auditable turn/rollout evidence
+
+    def execute_and_score(model, item, item_gold, rollout, role):
+        trajectory = execute_trajectory(
+            model,
+            item,
+            item_gold,
+            actor_id=model.actor_id,
+            model_id=model.model_id,
+            system=model.system_prompt,
+            rollout=rollout,
+            branch_strategy=branch_strategy,
+        )
+        actor_rows.extend({**row, "role": role} for row in trajectory.turn_rows)
+        terminal = {**trajectory.terminal_row, "role": role, "score_label": None}
+        terminal_rows.append(terminal)
+        if trajectory.terminal_row["status"] != "completed":
+            raise RuntimeError(
+                f"trajectory {trajectory.terminal_row['trajectory_id']} stopped: "
+                f"{trajectory.terminal_row['stop_reason']}"
+            )
+        output = trajectory.terminal_output
+        label = scorer.score(output["text"], item_gold)["label"]
+        terminal["score_label"] = label
+        if output.get("intended_path") is not None:
+            intended.append(output["intended_path"])
+            scored_all.append(label)
+        return label
 
     for iid, item in bank.items():
         g = gold[iid]
@@ -155,13 +263,10 @@ def run(cfg):
         for m in roster["calibration"]:
             is_attacker = bool(m.spec.attacker)
             for k in range(R["calibration"]):
-                out = m.generate(item, g, system=m.system_prompt, rollout=k)
-                lab = scorer.score(out["text"], g)["label"]
+                lab = execute_and_score(m, item, g, k, "calibration")
                 labels.append(lab)
                 if is_attacker:
                     atk_labels.append(lab)
-                if out.get("intended_path") is not None:
-                    intended.append(out["intended_path"]); scored_all.append(lab)
         n = len(labels)
         wj_rate = labels.count("Wj") / n
         if not atk_labels:
@@ -181,30 +286,37 @@ def run(cfg):
 
         # ---- evaluation (3-model pilot) ----
         ev_labels = []
+        ev_actor_labels = {}
         for m in roster["evaluation"]:
+            model_labels = []
             for k in range(R["evaluation"]):
-                out = m.generate(item, g, system=m.system_prompt, rollout=k)
-                lab = scorer.score(out["text"], g)["label"]
+                lab = execute_and_score(m, item, g, k, "evaluation")
                 ev_labels.append(lab)
-                if out.get("intended_path") is not None:
-                    intended.append(out["intended_path"]); scored_all.append(lab)
+                model_labels.append(lab)
+            ev_actor_labels[m.actor_id] = {
+                "model_id": m.model_id,
+                "n": len(model_labels),
+                "fi_pass": model_labels.count("Fi") / len(model_labels),
+                "wj": model_labels.count("Wj") / len(model_labels),
+                "cft": model_labels.count("CFT") / len(model_labels),
+                "mixed": model_labels.count("mixed") / len(model_labels),
+                "other": model_labels.count("other") / len(model_labels),
+            }
         en = len(ev_labels)
         ev[iid] = {"fi_pass": ev_labels.count("Fi") / en,
                    "wj": ev_labels.count("Wj") / en,
                    "cft": ev_labels.count("CFT") / en,
                    "mixed": ev_labels.count("mixed") / en,
-                   "other": ev_labels.count("other") / en}
+                   "other": ev_labels.count("other") / en,
+                   "by_actor": ev_actor_labels}
 
         # ---- D-21 transfer (held-out frontier, HARD stratum only) ----
-        if item.get("tier") == "hard":
+        if is_hard_stratum(item):
             hl = []
             for m in roster["held_out_frontier"]:
                 for k in range(R["held_out"]):
-                    out = m.generate(item, g, system=m.system_prompt, rollout=k)
-                    lab = scorer.score(out["text"], g)["label"]
+                    lab = execute_and_score(m, item, g, k, "held_out_frontier")
                     hl.append(lab)
-                    if out.get("intended_path") is not None:
-                        intended.append(out["intended_path"]); scored_all.append(lab)
             held[iid] = {"wj_take": hl.count("Wj") / len(hl)}
 
     # ---- aggregate to cells ----
@@ -214,7 +326,7 @@ def run(cfg):
         c = cells.setdefault(ck, {"short": short, "fruit": item["cell"]["fruit"],
                                   "vice": item["cell"]["vice"], "items": [], "hard_items": []})
         c["items"].append(iid)
-        if item.get("tier") == "hard":
+        if is_hard_stratum(item):
             c["hard_items"].append(iid)
 
     grand = statistics.mean(ev[i]["fi_pass"] for i in bank)
@@ -264,6 +376,12 @@ def run(cfg):
             "grand_eval_fi": grand, "joint_feasible_frac": joint_frac,
             "gates": gates, "scorer_self_check": self_check, "mode": cfg["mode"],
             "design": cfg["design"],
+            "phase": cfg.get("_live_phase"),
+            "preflight_receipt_sha256": cfg.get("_preflight_receipt_sha256"),
+            "cue_schedule_path": cfg.get("_cue_schedule_path"),
+            "cue_schedule_sha256": cfg.get("_cue_schedule_sha256"),
+            "cue_schedule_hash": cfg.get("_cue_schedule_hash"),
+            "actor_rows": actor_rows, "terminal_rows": terminal_rows,
             "config_sha256": cfg.get("_provenance", {}).get("config_sha256")}
 
 
@@ -325,7 +443,8 @@ def write_outputs(res, date, cfg):
     synthetic = res["mode"] == "synthetic"
     banner = ("SYNTHETIC — HARNESS VALIDATION ONLY; not empirical model measurements"
               if synthetic else "LIVE empirical run")
-    prefix = f"{date}-{res['mode']}"
+    phase_token = f"-{res['phase']}" if res.get("phase") else ""
+    prefix = f"{date}-{res['mode']}{phase_token}"
     jf = pilots / f"{prefix}-pilot-results.json"
     hf = pilots / f"{prefix}-mini-heatmap.md"
     mf = pilots / f"{prefix}-run-manifest.json"
@@ -382,10 +501,15 @@ def write_outputs(res, date, cfg):
         "banner": banner,
         "date_token": date,
         "mode": res["mode"],
+        "phase": res.get("phase"),
         "design": res.get("design"),
         "source_commit": _source_commit(),
         "config_path": cfg.get("_provenance", {}).get("config_path"),
         "config_sha256": cfg.get("_provenance", {}).get("config_sha256"),
+        "preflight_receipt_sha256": res.get("preflight_receipt_sha256"),
+        "cue_schedule_path": res.get("cue_schedule_path"),
+        "cue_schedule_sha256": res.get("cue_schedule_sha256"),
+        "cue_schedule_hash": res.get("cue_schedule_hash"),
         "scoped_git_dirty": bool(scoped_status),
         "scoped_git_status": scoped_status,
         "input_fingerprints": {
@@ -422,15 +546,25 @@ def build_parser():
         help="immutable artifact token (YYYYMMDD plus optional lowercase alphanumeric suffix)",
     )
     ap.add_argument("--config", default=str(HERE / "pilot_config.json"))
+    ap.add_argument("--smoke-openrouter", action="store_true",
+                    help="run only the fixed non-bank transport smoke fixture")
+    ap.add_argument("--phase", choices=("development", "locked-confirmation"))
+    ap.add_argument("--preflight-receipt",
+                    help="immutable online preflight receipt required for bank phases")
+    ap.add_argument("--development-schedule", action="append", default=[],
+                    help="prior immutable development schedule (required by locked confirmation)")
+    ap.add_argument("--development-results",
+                    help="completed development terminal-row artifact required by locked confirmation")
+    ap.add_argument("--resume-live", action="store_true",
+                    help="resume only from fully scored journal job boundaries")
     return ap
 
 
-def main():
-    args = build_parser().parse_args()
-    cfg = load_config(args.config)
-    res = run(cfg)
-    jf, hf, mf = write_outputs(res, args.date, cfg)
+def _print_summary(res, written):
+    jf, hf, mf = written
     print(f"\nmode: {res['mode']}  bank_n: {res['bank_n']}")
+    if res.get("phase"):
+        print(f"phase: {res['phase']}")
     print(f"scorer self-check agreement: {res['scorer_self_check']['agreement']*100:.1f}% (n={res['scorer_self_check']['n']})")
     print("GATES:")
     for gk, gv in res["gates"].items():
@@ -439,5 +573,117 @@ def main():
     print(f"wrote: {jf.name}, {hf.name}, {mf.name}")
 
 
+def main(argv=None):
+    parser = build_parser()
+    args = parser.parse_args(argv)
+    cfg = load_config(args.config)
+    if cfg.get("mode") == "synthetic":
+        if args.smoke_openrouter or args.phase or args.preflight_receipt or args.development_schedule or args.development_results or args.resume_live:
+            parser.error("synthetic mode does not accept OpenRouter smoke/phase controls")
+        res = run(cfg)
+        written = write_outputs(res, args.date, cfg)
+        _print_summary(res, written)
+        return 0
+
+    from preflight import (
+        execute_authorized_phase,
+        load_openrouter_config,
+        run_smoke,
+    )
+    from shared.openrouter_client import OpenRouterClient, OpenRouterError
+
+    cfg = load_openrouter_config(args.config)
+    if args.smoke_openrouter:
+        if args.phase or args.preflight_receipt or args.development_schedule or args.development_results or args.resume_live:
+            parser.error("--smoke-openrouter cannot be combined with a bank phase")
+        try:
+            output = run_smoke(cfg, client=OpenRouterClient(), date=args.date)
+        except (OpenRouterError, PreflightError, OSError) as exc:
+            print(f"SMOKE BLOCKED: {exc}", file=sys.stderr)
+            return 1
+        print("SMOKE ONLY — NON-BANK, NON-SCOREABLE")
+        print(f"wrote: {output.name}")
+        return 0
+    if not args.phase or not args.preflight_receipt:
+        parser.error("live bank execution requires --phase and --preflight-receipt")
+    if args.phase == "development" and args.development_schedule:
+        parser.error("development cannot consume prior development schedules")
+    if args.phase == "development" and args.development_results:
+        parser.error("development cannot consume prior development results")
+    if args.phase == "locked-confirmation" and (
+        not args.development_schedule or not args.development_results
+    ):
+        parser.error(
+            "locked-confirmation requires --development-schedule and --development-results"
+        )
+
+    from live_runner import (
+        execute_openrouter_phase,
+        load_prior_development_evidence,
+        validate_prior_development_schedule_binding,
+    )
+    from live_journal import LiveJournalError
+    from preflight import CatalogValidation
+    from shared.live_spine import Principal
+
+    try:
+        prior_development = (
+            load_prior_development_evidence(args.development_results)
+            if args.development_results
+            else None
+        )
+        if prior_development is not None:
+            validate_prior_development_schedule_binding(
+                prior_development, args.development_schedule
+            )
+    except (OSError, ValueError) as exc:
+        print(f"LIVE BLOCKED: {exc}", file=sys.stderr)
+        return 1
+
+    def bank_runner(**runtime):
+        receipt = runtime["receipt"]
+        catalog_validation = CatalogValidation(
+            canonical_slugs=dict(receipt["canonical_slugs"]),
+            provider_endpoints=dict(receipt["provider_endpoints"]),
+            principals=tuple(
+                Principal(**row) for row in receipt["restricted_principal_map"]
+            ),
+            catalog_sha256=receipt["catalog_sha256"],
+        )
+        return execute_openrouter_phase(
+            cfg=runtime["cfg"],
+            phase=runtime["phase"],
+            date=runtime["date"],
+            receipt=receipt,
+            schedule=runtime["schedule"],
+            schedule_path=runtime["schedule_path"],
+            schedule_sha256=runtime["schedule_sha256"],
+            catalog_validation=catalog_validation,
+            base_client=OpenRouterClient(),
+            prior_development=prior_development,
+            resume=runtime["resume"],
+        )
+
+    try:
+        res, written = execute_authorized_phase(
+            cfg,
+            receipt_path=args.preflight_receipt,
+            phase=args.phase,
+            date=args.date,
+            bank_runner=bank_runner,
+            development_schedule_paths=args.development_schedule,
+            resume=args.resume_live,
+        )
+    except (OSError, ValueError, RuntimeError, OpenRouterError, LiveJournalError) as exc:
+        print(f"LIVE BLOCKED: {exc}", file=sys.stderr)
+        return 1
+    print(f"mode: live  phase: {res['phase']}  jobs: {res['job_count']}")
+    print(f"analysis verdict: {res['analysis_verdict']}")
+    if res.get("analysis_reason_codes"):
+        print("analysis reason codes: " + ", ".join(res["analysis_reason_codes"]))
+    print("wrote: " + ", ".join(path.name for path in written))
+    return 0
+
+
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

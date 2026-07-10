@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "design": "thorns",
+  "recorded_at": "2026-07-09T00:00:00Z",
+  "generators": [
+    {
+      "generator_id": "G01",
+      "kind": "model_assisted",
+      "environment": "Claude Code / Opus session",
+      "vendor": "anthropic",
+      "family": "claude-opus",
+      "exact_model_id": null,
+      "canonical_snapshot": null,
+      "snapshot_status": "not present in the supplied Claude Code handoff",
+      "scope": [
+        "initial THORNS bank and gold",
+        "pre-Codex D-36 authoring state"
+      ],
+      "source_basis": "User-supplied re-entry handoff identifies the preceding Opus session."
+    },
+    {
+      "generator_id": "G02",
+      "kind": "model_assisted",
+      "environment": "OpenAI Codex continuation",
+      "vendor": "openai",
+      "family": "gpt-5-codex",
+      "exact_model_id": null,
+      "canonical_snapshot": null,
+      "snapshot_status": "desktop runtime does not expose an API snapshot identifier",
+      "scope": [
+        "D-36 semantic repair",
+        "cue-control redesign",
+        "harness and scoring implementation"
+      ],
+      "source_basis": "This repository task and its subagents performed the recorded continuation edits."
+    }
+  ],
+  "human_curation": {
+    "status": "user-directed",
+    "identity_disclosed_in_public_artifacts": false,
+    "note": "Human calibration, panel adjudication, and live-validation completion are separate gates and are not claimed here."
+  }
+}

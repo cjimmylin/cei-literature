@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Pluggable model-adapter interface for the THORNS harness.
 
-ONE interface, three back-ends:
+ONE message-first interface, four back-ends:
   - SyntheticModel  (synthetic_reference.py) — documented offline reference model; NO credentials.
   - AnthropicModel  — real, credential-gated (ANTHROPIC_API_KEY). Ready for the live pilot.
+  - OpenRouterModel — real Responses transport through the shared fail-loud client.
   - OpenAIModel     — portable stub; raises with install/credential instructions.
 
 Roles (brief §A9.2 + fresh-eyes objections #2, #9):
@@ -16,7 +17,7 @@ appears in more than one role, and live mode also rejects cross-role vendor over
 from __future__ import annotations
 import os, json, re
 from abc import ABC, abstractmethod
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field, is_dataclass
 from pathlib import Path
 from typing import Any
 
@@ -26,9 +27,10 @@ class ModelSpec:
     name: str
     family: str
     vendor: str                         # load-bearing real provider lineage (D-37 S-10)
-    adapter: str                       # "synthetic" | "anthropic" | "openai"
+    adapter: str                       # synthetic | anthropic | openrouter | openai
     role: str                          # calibration | evaluation | held_out_frontier
     model_id: str | None = None        # live back-ends
+    actor_id: str | None = None        # opaque run identity (A01, A02, ...)
     profile: str | None = None         # synthetic back-end behavior profile
     attacker: bool = False             # exactly one calibration attacker in live THORNS
     persona_path: str | None = None    # frozen persona markdown; attacker only
@@ -41,21 +43,47 @@ class ModelAdapter(ABC):
         self.name, self.family, self.vendor, self.role = (
             spec.name, spec.family, spec.vendor, spec.role
         )
+        self.actor_id = spec.actor_id
+        slug = re.sub(r"[^a-z0-9]+", "-", spec.name.casefold()).strip("-")
+        self.model_id = spec.model_id or f"{spec.adapter}/{slug}"
         self.system_prompt: str | None = None
 
-    @abstractmethod
     def generate(
         self, item: dict, gold: dict, *, system: str | None = None, rollout: int = 0
     ) -> dict:
-        """Return {'text': str, 'intended_path': str|None}. intended_path is set only by the
-        synthetic model (for the scorer self-check); live adapters return None for it."""
+        """Compatibility entry point for a first request; never flatten a future arc beat."""
+        from trajectory import initial_messages
+
+        return self.generate_messages(
+            initial_messages(item),
+            item=item,
+            gold=gold,
+            system=system,
+            rollout=rollout,
+            turn=1,
+        )
+
+    @abstractmethod
+    def generate_messages(
+        self,
+        messages: list[dict[str, str]],
+        *,
+        item: dict,
+        gold: dict,
+        system: str | None = None,
+        rollout: int = 0,
+        turn: int = 1,
+    ) -> dict:
+        """Generate from only the actor-visible message history supplied by the executor."""
         ...
 
 
 class AnthropicModel(ModelAdapter):
     """Real adapter. Credential-gated: needs ANTHROPIC_API_KEY. Wired but not exercised in this
     credential-blocked environment — flip config mode to 'live' once a key is present."""
-    def generate(self, item, gold, *, system=None, rollout=0):
+    def generate_messages(
+        self, messages, *, item, gold, system=None, rollout=0, turn=1
+    ):
         key = os.environ.get("ANTHROPIC_API_KEY")
         if not key:
             raise RuntimeError(
@@ -64,19 +92,44 @@ class AnthropicModel(ModelAdapter):
                 "Set the key and rerun with mode:'live' to execute the real pilot.")
         import anthropic  # noqa
         client = anthropic.Anthropic(api_key=key)
-        prompt = _render_prompt(item)
-        msg = client.messages.create(
-            model=self.spec.model_id or "claude-sonnet-4-6",
-            max_tokens=1024,
-            system=system or "You are a helpful assistant.",
-            messages=[{"role": "user", "content": prompt}],
-        )
-        return {"text": "".join(b.text for b in msg.content if getattr(b, "type", "") == "text"),
-                "intended_path": None}
+        request = {
+            "model": self.spec.model_id or "claude-sonnet-4-6",
+            "max_tokens": int(self.spec.params.get("max_tokens", 1024)),
+            "messages": messages,
+        }
+        if system:
+            request["system"] = system
+        msg = client.messages.create(**request)
+        usage = getattr(msg, "usage", None)
+        if hasattr(usage, "model_dump"):
+            usage = usage.model_dump()
+        elif usage is not None and not isinstance(usage, dict):
+            usage = {
+                key: getattr(usage, key)
+                for key in ("input_tokens", "output_tokens")
+                if hasattr(usage, key)
+            }
+        response_id = getattr(msg, "id", None)
+        return {
+            "text": "".join(
+                b.text for b in msg.content if getattr(b, "type", "") == "text"
+            ),
+            "intended_path": None,
+            "response_id": response_id,
+            "request_id": getattr(msg, "_request_id", None),
+            "generation_id": None,
+            "returned_model": getattr(msg, "model", self.model_id),
+            "usage": usage or {},
+            "attempt_ledger": [
+                {"attempt": 1, "status_code": 200, "response_id": response_id}
+            ],
+        }
 
 
 class OpenAIModel(ModelAdapter):
-    def generate(self, item, gold, *, system=None, rollout=0):
+    def generate_messages(
+        self, messages, *, item, gold, system=None, rollout=0, turn=1
+    ):
         raise NotImplementedError(
             "OpenAIModel is a stub. Install the openai package with the active environment's "
             "`python -m pip install openai`, set OPENAI_API_KEY, then implement generate() with "
@@ -84,14 +137,71 @@ class OpenAIModel(ModelAdapter):
             "held-out frontier is a different family than the Anthropic evaluation models (objection #2).")
 
 
-def _render_prompt(item: dict) -> str:
-    """Flatten a bank item to a single user prompt (single-shot) or a scripted transcript (arc)."""
-    if item.get("format") == "escalation_arc":
-        lines = [item.get("prompt", "").strip(), ""]
-        for t in item.get("turns", []):
-            lines.append(f"[user, beat {t.get('beat')}]: {t.get('user','').strip()}")
-        return "\n".join(lines)
-    return item.get("prompt", "")
+class OpenRouterModel(ModelAdapter):
+    """OpenRouter Responses adapter backed by HARNESS/shared/openrouter_client.py."""
+
+    def __init__(self, spec: ModelSpec, *, client=None):
+        super().__init__(spec)
+        if client is None:
+            import sys
+
+            harness = Path(__file__).resolve().parent.parent
+            if str(harness) not in sys.path:
+                sys.path.insert(0, str(harness))
+            from shared.openrouter_client import OpenRouterClient
+
+            client = OpenRouterClient()
+        self.client = client
+
+    @staticmethod
+    def _ledger(value):
+        rows = []
+        for entry in value or ():
+            if is_dataclass(entry):
+                rows.append(asdict(entry))
+            elif isinstance(entry, dict):
+                rows.append(dict(entry))
+            else:
+                rows.append(str(entry))
+        return rows
+
+    def generate_messages(
+        self, messages, *, item, gold, system=None, rollout=0, turn=1
+    ):
+        params = self.spec.params
+        expected_slug = params.get("expected_canonical_slug")
+        provider_order = params.get("provider_order")
+        if not isinstance(expected_slug, str) or not expected_slug.strip():
+            raise ValueError("OpenRouterModel requires params.expected_canonical_slug")
+        if not isinstance(provider_order, list) or len(provider_order) != 1:
+            raise ValueError("OpenRouterModel requires one pinned params.provider_order")
+        request_messages = [dict(message) for message in messages]
+        if system:
+            request_messages.insert(0, {"role": "system", "content": system})
+        result = self.client.responses(
+            model_id=self.model_id,
+            messages=request_messages,
+            max_output_tokens=int(params.get("max_output_tokens", 1024)),
+            reasoning_effort=params.get("reasoning_effort", "medium"),
+            provider_order=list(provider_order),
+            expected_canonical_slug=expected_slug.strip(),
+            service_tier=params.get("service_tier", "default"),
+        )
+        return {
+            "text": result.text,
+            "intended_path": None,
+            "response_id": result.response_id,
+            "request_id": result.request_id,
+            "generation_id": result.generation_id,
+            "returned_model": result.returned_model,
+            "usage": dict(result.usage),
+            "attempt_ledger": self._ledger(result.attempt_ledger),
+            "router_metadata": dict(result.router_metadata),
+            "routing_headers": dict(result.routing_headers),
+            "attempts": result.attempts,
+            "latency_ms": result.latency_ms,
+            "service_tier": result.service_tier,
+        }
 
 
 def load_persona_prompt(path: str | Path) -> str:
@@ -105,13 +215,28 @@ def load_persona_prompt(path: str | Path) -> str:
     return blocks[0].strip()
 
 
-def load_roster(config: dict) -> dict[str, list[ModelAdapter]]:
+def load_roster(
+    config: dict, *, openrouter_client: Any | None = None
+) -> dict[str, list[ModelAdapter]]:
     """Build adapters and enforce load-bearing family/vendor/persona invariants."""
     from synthetic_reference import SyntheticModel, load_reference  # local import to avoid cycle
     adapters: dict[str, list[ModelAdapter]] = {}
     family_role: dict[str, set[str]] = {}
     vendor_role: dict[str, set[str]] = {}
     attackers: list[ModelAdapter] = []
+    explicit_actor_ids: set[str] = set()
+    for specs in config.get("roles", {}).values():
+        for raw in specs:
+            actor_id = raw.get("actor_id")
+            if actor_id is None:
+                continue
+            if not isinstance(actor_id, str) or not re.fullmatch(r"A[0-9]{2,}", actor_id):
+                raise SystemExit(f"invalid opaque actor_id: {actor_id!r}")
+            if actor_id in explicit_actor_ids:
+                raise SystemExit(f"duplicate opaque actor_id: {actor_id}")
+            explicit_actor_ids.add(actor_id)
+    assigned_actor_ids: set[str] = set()
+    next_actor = 1
     reference_path = (config.get("paths") or {}).get("synthetic_reference")
     has_synthetic = any(
         spec.get("adapter") == "synthetic"
@@ -133,6 +258,20 @@ def load_roster(config: dict) -> dict[str, list[ModelAdapter]]:
             params = dict(s.get("params") or {})
             if s.get("adapter") == "synthetic" and reference_path:
                 params.setdefault("reference_path", reference_path)
+                if not s.get("model_id"):
+                    slug = re.sub(
+                        r"[^a-z0-9]+", "-", str(s.get("name", "model")).casefold()
+                    ).strip("-")
+                    s["model_id"] = f"synthetic/{slug}"
+            if not s.get("actor_id"):
+                while (
+                    f"A{next_actor:02d}" in explicit_actor_ids
+                    or f"A{next_actor:02d}" in assigned_actor_ids
+                ):
+                    next_actor += 1
+                s["actor_id"] = f"A{next_actor:02d}"
+                next_actor += 1
+            assigned_actor_ids.add(s["actor_id"])
             s["params"] = params
             spec = ModelSpec(role=role, **s)
             family_role.setdefault(spec.family.strip().casefold(), set()).add(role)
@@ -147,6 +286,8 @@ def load_roster(config: dict) -> dict[str, list[ModelAdapter]]:
                 adapter = SyntheticModel(spec)
             elif spec.adapter == "anthropic":
                 adapter = AnthropicModel(spec)
+            elif spec.adapter == "openrouter":
+                adapter = OpenRouterModel(spec, client=openrouter_client)
             elif spec.adapter == "openai":
                 adapter = OpenAIModel(spec)
             else:

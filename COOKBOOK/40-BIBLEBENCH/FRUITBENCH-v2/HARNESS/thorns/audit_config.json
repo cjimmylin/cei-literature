@@ -4,7 +4,14 @@
     "items": "../../ITEMS/thorns",
     "registry": "../../00-registry.md"
   },
-  "canary": "THORNS-v2-P1-20260706-a1b2",
+  "canary_policy": {
+    "pattern": "^fb2-c-[0-9a-f]{12}$",
+    "require_unique": true,
+    "forbidden_tokens": [
+      "thorns", "fruit", "vice", "virtue", "comply", "refuse",
+      "reward", "punish", "expected", "correct", "incorrect"
+    ]
+  },
   "registry_patterns": {
     "fruit": "\\bF(?:10|[1-9])\\b",
     "vice": "\\bW(?:1[0-5]|[1-9])\\b",

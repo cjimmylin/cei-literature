@@ -78,3 +78,29 @@ handoff (`COOKBOOK/2026MMDD-f1-f5-build-handoff.md`) + memory update
 
 **After this session:** DUPLEX-P0's remaining chain is credentials (Jimmy) → real P0 run via
 `run_p0.py` → mechanical adjudication per the protocol as amended by A-1. Nothing else is open.
+
+---
+
+## Addendum (Fable, 2026-07-09 evening — binding, folds into F-1/F-2/F-4)
+
+1. **OAuth credential path (F-1/F-4).** The AnthropicAdapter must NOT hard-require
+   `ANTHROPIC_API_KEY`. Construct a bare `anthropic.Anthropic()` and let the SDK credential chain
+   resolve (API key → `ANTHROPIC_AUTH_TOKEN` → `ant auth login` profile); fail loud only when the
+   first call errors with an authentication error. Record the auth mode (key / token / profile) in
+   run metadata. Jimmy may authenticate via `ant auth login` (platform OAuth, org-billed) instead
+   of a static key — prefer profile resolution over an exported token for long runs (profiles
+   auto-refresh; env-var tokens do not). Sharp edges: an EMPTY `ANTHROPIC_API_KEY=""` still
+   outranks the profile (must be unset), and setting both API_KEY and AUTH_TOKEN gets every
+   request rejected — the entrypoint should sanity-check the env and fail loud on both patterns.
+   **Administering Anthropic subjects via Claude Code CLI (`claude -p`) is PROHIBITED** — no
+   max_tokens/thinking/temperature control, no `stop_reason`, harness contamination (V-2 logic).
+2. **Sampling-parameter generation gate (F-2).** Per current API docs: `temperature`/`top_p`/
+   `top_k` are REMOVED (400) on Opus 4.7, Opus 4.8, and Fable 5; still accepted on Opus 4.6,
+   Sonnet 4.6, Haiku 4.5. The orchestrator currently sends `temperature=0.7` on every call and
+   enforces `temperature>0` — this 400s on any 4.7+/Fable subject regardless of the thinking
+   condition. F-2's per-model effective-temperature mechanism must therefore key on MODEL
+   capability as well as the thinking condition: for models that reject sampling params, send
+   none, record `requested_temperature` (the run setting) + `effective_temperature=None` +
+   a reason flag per record, and disclose per V-3-style bookkeeping. Verify each roster model's
+   accepted params against the claude-api skill/docs at build time; do not trust memory. The
+   H-1 substitute (claude-haiku-4-5) accepts temperature — unaffected.

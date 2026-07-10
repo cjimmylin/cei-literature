@@ -53,6 +53,10 @@ class ComparisonBombInt(int):
         raise RuntimeError("hostile integer comparison")
 
 
+class IntSubclass(int):
+    pass
+
+
 class IterationBombSequence(Sequence):
     def __len__(self):
         return 3
@@ -132,6 +136,43 @@ def test_release_budget_rejects_hostile_count_subclasses(field, value):
 
 
 @pytest.mark.parametrize(
+    ("run_kind", "scheduled_requests", "paid_calls", "attributed_cost_usd"),
+    [
+        ("smoke", 9, 18, 1.0),
+        ("full_diagnostic", 2400, 4800, 25.0),
+    ],
+)
+@pytest.mark.parametrize("user_cap", [1.0, IterationBombMapping()])
+def test_nonofficial_release_requires_user_cap_to_be_absent(
+    run_kind,
+    scheduled_requests,
+    paid_calls,
+    attributed_cost_usd,
+    user_cap,
+):
+    arguments = {
+        "run_kind": run_kind,
+        "scheduled_requests": scheduled_requests,
+        "paid_calls": paid_calls,
+        "terminal_actions_per_request": 1,
+        "syntax_repairs_per_request": 1,
+        "attributed_cost_usd": attributed_cost_usd,
+        "price_attribution_complete": True,
+        "cost_attribution_complete": True,
+    }
+
+    assert evidence.release_budget_allows(
+        **arguments, user_frozen_cost_cap_usd=None
+    )
+    assert (
+        evidence.release_budget_allows(
+            **arguments, user_frozen_cost_cap_usd=user_cap
+        )
+        is False
+    )
+
+
+@pytest.mark.parametrize(
     ("field", "hostile_value"),
     [
         ("mode", EqualityBombString("live")),
@@ -149,6 +190,20 @@ def test_evidence_basis_bool_properties_fail_closed_on_hostile_fields(
     object.__setattr__(basis, field, hostile_value)
 
     assert getattr(basis, property_name) is False
+
+
+@pytest.mark.parametrize(
+    "seeds", [(IntSubclass(101), 102, 103), (2**53, 102, 103)]
+)
+@pytest.mark.parametrize(
+    "property_name", ["official_eligible", "eligible_for_empirical_decision"]
+)
+def test_evidence_basis_requires_exact_safe_seed_integers(seeds, property_name):
+    safe_boundary = official_basis(seeds=(2**53 - 1, 102, 103))
+    invalid = official_basis(seeds=seeds)
+
+    assert getattr(safe_boundary, property_name) is True
+    assert getattr(invalid, property_name) is False
 
 
 def test_professional_realism_passes_property_rejects_hostile_status():

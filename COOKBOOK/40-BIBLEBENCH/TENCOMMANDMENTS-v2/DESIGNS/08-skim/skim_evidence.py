@@ -292,7 +292,7 @@ class EvidenceBasis:
             and not isinstance(self.seeds, (str, bytes, bytearray))
             and len(self.seeds) == 3
             and all(
-                isinstance(seed, int) and not isinstance(seed, bool) and seed >= 0
+                type(seed) is int and seed >= 0 and _finite_real(seed)
                 for seed in self.seeds
             )
             and len(set(self.seeds)) == 3
@@ -590,8 +590,12 @@ def release_budget_allows(
     if not all(type(value) is int for value in counts):
         return False
     if run_kind == "smoke":
+        if user_frozen_cost_cap_usd is not None:
+            return False
         expected_requests, call_cap, cost_cap = 9, 18, 1.0
     elif run_kind == "full_diagnostic":
+        if user_frozen_cost_cap_usd is not None:
+            return False
         expected_requests, call_cap, cost_cap = 2400, 4800, 25.0
     elif run_kind == "official":
         if not _finite_real(user_frozen_cost_cap_usd) or user_frozen_cost_cap_usd <= 0:

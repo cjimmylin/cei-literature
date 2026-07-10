@@ -276,6 +276,21 @@ def test_anthropic_adapter_does_not_hard_require_api_key(monkeypatch):
     assert ad.auth_mode == "profile"  # resolved from the credential chain
 
 
+def test_codex_adapter_sandbox_and_cwd_flags_optional_and_off_by_default():
+    """Safety: `codex exec` is an agentic runner (defaults to danger-full-access). When constructed
+    with sandbox/cwd (as the smoke does) the command must carry `--sandbox read-only` + `-C <dir>`
+    so the subject cannot touch the vault; with the defaults (None) the command is UNCHANGED so the
+    validity path (run_p0.py) and existing callers are unaffected."""
+    default = OpenAICodexAdapter(codex_bin="codex").build_command("gpt-5-codex", "/tmp/out.txt")
+    assert "--sandbox" not in default and "-C" not in default   # backward-compatible default
+
+    hardened = OpenAICodexAdapter(
+        codex_bin="codex", cwd="/tmp", sandbox="read-only"
+    ).build_command("gpt-5-codex", "/tmp/out.txt")
+    assert hardened[hardened.index("--sandbox") + 1] == "read-only"
+    assert hardened[hardened.index("-C") + 1] == "/tmp"
+
+
 def test_codex_adapter_unavailable_raises(monkeypatch):
     monkeypatch.setattr("runner.adapters.shutil.which", lambda name: None)
     ad = OpenAICodexAdapter(codex_bin=None, runner=_fake_codex_runner("x"))

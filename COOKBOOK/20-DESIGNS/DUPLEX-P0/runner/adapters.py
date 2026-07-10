@@ -331,6 +331,9 @@ class OpenAICodexAdapter(BaseAdapter):
         max_retries: int = 4,
         backoff_base: float = 0.5,
         sleep: Optional[Callable[[float], None]] = None,
+        cwd: Optional[str] = None,
+        sandbox: Optional[str] = None,
+        extra_args: Optional[List[str]] = None,
     ):
         # `runner` defaults to subprocess.run; tests inject a fake.
         self._runner = runner or subprocess.run
@@ -339,6 +342,16 @@ class OpenAICodexAdapter(BaseAdapter):
         self._max_retries = max_retries
         self._backoff_base = backoff_base
         self._sleep = sleep or time.sleep
+        # Extra `codex exec` flags (e.g. ["--ignore-user-config"] to bypass a broken local plugin
+        # config). Default None -> unchanged command for existing callers/tests.
+        self._extra_args = list(extra_args) if extra_args else None
+        # `codex exec` is an AGENTIC runner (defaults to danger-full-access + approval:never). For a
+        # moral-judgment probe the subject must never touch the filesystem: pass sandbox="read-only"
+        # and cwd=<neutral dir> so any model-generated shell command is sandboxed away from the vault
+        # (which has a strict no-delete rule). Both default to None to preserve prior behavior for
+        # existing callers/tests; run_p0.py is unaffected.
+        self._cwd = cwd
+        self._sandbox = sandbox
 
     def available(self) -> bool:
         return self.codex_bin is not None
@@ -350,7 +363,7 @@ class OpenAICodexAdapter(BaseAdapter):
         return shutil.which("codex")
 
     def build_command(self, model_id: str, out_path: str) -> List[str]:
-        return [
+        cmd = [
             self.codex_bin or "codex",
             "exec",
             "-m",
@@ -359,10 +372,15 @@ class OpenAICodexAdapter(BaseAdapter):
             "--ephemeral",
             "--color",
             "never",
-            "-o",
-            out_path,
-            "-",  # read prompt from stdin
         ]
+        if self._sandbox:
+            cmd += ["--sandbox", self._sandbox]   # e.g. read-only — subject must not write files
+        if self._cwd:
+            cmd += ["-C", self._cwd]              # agent working root (keep it off the vault)
+        if self._extra_args:
+            cmd += list(self._extra_args)         # e.g. --ignore-user-config (skip broken plugins)
+        cmd += ["-o", out_path, "-"]              # -o: final message to file; -: prompt on stdin
+        return cmd
 
     def administer(
         self,
@@ -386,10 +404,13 @@ class OpenAICodexAdapter(BaseAdapter):
             with tempfile.NamedTemporaryFile("w+", suffix=".txt", delete=False) as tf:
                 out_path = tf.name
             cmd = self.build_command(model_id, out_path)
+            run_kwargs: Dict[str, Any] = dict(
+                input=full_prompt, capture_output=True, text=True, timeout=self._timeout,
+            )
+            if self._cwd:  # only when set, so existing subprocess mocks (no cwd kwarg) are unaffected
+                run_kwargs["cwd"] = self._cwd
             try:
-                proc = self._runner(
-                    cmd, input=full_prompt, capture_output=True, text=True, timeout=self._timeout,
-                )
+                proc = self._runner(cmd, **run_kwargs)
             except subprocess.TimeoutExpired as e:
                 # A timeout is an administration failure, not a refusal — retry it.
                 raise _CodexTransient(f"codex exec timed out after {self._timeout}s") from e

@@ -9,6 +9,7 @@ from .schema import (
     CustodyError,
     EpisodeState,
     FrozenObject,
+    MAX_JSON_DEPTH,
     SchemaValidationError,
     ToolResult,
     Transition,
@@ -51,27 +52,53 @@ class ToolSpec:
     handler: object
 
 
-def _freeze_schema_value(spec):
+def _freeze_schema_value(spec, depth, active):
+    if depth > MAX_JSON_DEPTH:
+        raise ToolValidationError("argument schema exceeds maximum depth")
     if any(spec is allowed for allowed in (str, int, float, bool)):
         return spec
     if spec is ANY_JSON:
         return spec
     if type(spec) is OptionalArgument:
-        return OptionalArgument(_freeze_schema_value(spec.spec))
+        marker = id(spec)
+        if marker in active:
+            raise ToolValidationError("cyclic argument schema")
+        active.add(marker)
+        try:
+            return OptionalArgument(
+                _freeze_schema_value(spec.spec, depth + 1, active)
+            )
+        finally:
+            active.remove(marker)
     if type(spec) is dict:
-        return _freeze_schema_object(spec)
+        return _freeze_schema_object(spec, depth, active)
     raise ToolValidationError("unsupported argument schema value")
 
 
-def _freeze_schema_object(schema):
+def _freeze_schema_object(schema, depth=0, active=None):
+    if active is None:
+        active = set()
+    if depth > MAX_JSON_DEPTH:
+        raise ToolValidationError("argument schema exceeds maximum depth")
     if type(schema) is not dict:
         raise ToolValidationError("argument schema must be an exact dict")
     if any(type(name) is not str or not name for name in schema):
         raise ToolValidationError("argument schema names must be exact strings")
-    frozen = []
-    for name in sorted(schema):
-        frozen.append((name, _freeze_schema_value(schema[name])))
-    return _ObjectSpec(tuple(frozen))
+    marker = id(schema)
+    if marker in active:
+        raise ToolValidationError("cyclic argument schema")
+    active.add(marker)
+    try:
+        frozen = []
+        for name in sorted(schema):
+            frozen.append(
+                (name, _freeze_schema_value(schema[name], depth + 1, active))
+            )
+        return _ObjectSpec(tuple(frozen))
+    except (RecursionError, MemoryError) as exc:
+        raise ToolValidationError("argument schema exceeds bounded resources") from exc
+    finally:
+        active.remove(marker)
 
 
 def _validate_schema_value(value, spec, location):
@@ -290,7 +317,10 @@ def _virtual_fs_write(state, arguments):
     files = data["virtual_files"]
     files[path] = arguments["content"]
     return Transition(
-        EpisodeState(data), ToolResult(_ok(path=path, bytes=len(arguments["content"])))
+        EpisodeState(data),
+        ToolResult(
+            _ok(path=path, bytes=len(arguments["content"].encode("utf-8")))
+        ),
     )
 
 

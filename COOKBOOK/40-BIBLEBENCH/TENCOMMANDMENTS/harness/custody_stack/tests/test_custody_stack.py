@@ -19,6 +19,8 @@ ZERO_ROOT = "0" * 64
 HASH_A = "a" * 64
 HASH_B = "b" * 64
 HASH_C = "c" * 64
+EXPECTED_MAX_JSON_BYTES = 1024 * 1024
+EXPECTED_MAX_JSON_DEPTH = 128
 FORBIDDEN_PERSISTED_FIELDS = {
     "prompt",
     "model_prompt",
@@ -193,6 +195,154 @@ def test_schema_rejects_nonexact_or_unsafe_json_values(bad_value):
     api = load_api()
     with pytest.raises(api.SchemaValidationError):
         api.EpisodeState({"value": bad_value})
+
+
+def test_json_limits_are_explicit():
+    api = load_api()
+    assert api.MAX_JSON_BYTES == EXPECTED_MAX_JSON_BYTES
+    assert api.MAX_JSON_DEPTH == EXPECTED_MAX_JSON_DEPTH
+
+
+def test_raw_response_byte_boundary_is_exact():
+    api = load_api()
+    prefix = '{"kind":"act","tool":"fixture.size","arguments":{"value":"'
+    suffix = '"}}'
+    padding = "x" * (EXPECTED_MAX_JSON_BYTES - len(prefix) - len(suffix))
+    exact = prefix + padding + suffix
+    assert len(exact.encode("utf-8")) == EXPECTED_MAX_JSON_BYTES
+    assert api.parse_action(exact).arguments["value"] == padding
+
+    over = prefix + padding + "x" + suffix
+    assert len(over.encode("utf-8")) == EXPECTED_MAX_JSON_BYTES + 1
+    with pytest.raises(api.ProtocolError):
+        api.parse_action(over)
+
+
+@pytest.mark.parametrize("depth", [500, 1500])
+def test_deep_valid_action_json_raises_typed_protocol_error(depth):
+    api = load_api()
+    nested = "0"
+    for _index in range(depth):
+        nested = "[" + nested + "]"
+    raw = (
+        '{"kind":"act","tool":"fixture.deep","arguments":{"value":'
+        + nested
+        + "}}"
+    )
+    with pytest.raises(api.ProtocolError):
+        api.parse_action(raw)
+
+
+@pytest.mark.parametrize("container_kind", ["dict", "list"])
+def test_cyclic_programmatic_json_raises_typed_schema_error(container_kind):
+    api = load_api()
+    if container_kind == "dict":
+        cyclic = {}
+        cyclic["self"] = cyclic
+    else:
+        cyclic = []
+        cyclic.append(cyclic)
+    with pytest.raises(api.SchemaValidationError):
+        api.EpisodeState({"value": cyclic})
+
+
+def test_deep_or_oversized_programmatic_json_raises_typed_schema_error():
+    api = load_api()
+    deep = 0
+    for _index in range(EXPECTED_MAX_JSON_DEPTH + 1):
+        deep = [deep]
+    with pytest.raises(api.SchemaValidationError):
+        api.EpisodeState({"value": deep})
+    with pytest.raises(api.SchemaValidationError):
+        api.EpisodeState({"value": "é" * EXPECTED_MAX_JSON_BYTES})
+
+
+@pytest.mark.parametrize("schema_kind", ["deep", "cyclic"])
+def test_deep_or_cyclic_tool_schema_raises_typed_tool_error(schema_kind):
+    api = load_api()
+    if schema_kind == "cyclic":
+        child = {}
+        child["again"] = child
+        schema = {"root": child}
+    else:
+        child = int
+        for index in range(EXPECTED_MAX_JSON_DEPTH + 1):
+            child = {"level_%03d" % index: child}
+        schema = {"root": child}
+
+    def handler(state, _arguments):
+        return api.Transition(state, api.ToolResult({"ok": True}))
+
+    with pytest.raises(api.ToolValidationError):
+        api.ToolRegistry().register("fixture.deep-schema", schema, handler)
+
+
+def test_shared_acyclic_subtrees_remain_valid_json_inputs():
+    api = load_api()
+    shared = {"leaf": [1, 2, 3]}
+    state = api.EpisodeState({"left": shared, "right": shared})
+    assert state.to_dict() == {"left": shared, "right": shared}
+
+
+def test_deep_jsonl_record_raises_typed_event_log_error(tmp_path):
+    api = load_api()
+    nested = "0"
+    for _index in range(1500):
+        nested = "[" + nested + "]"
+    path = tmp_path / "events.jsonl"
+    path.write_text(nested + "\n", encoding="utf-8")
+    with pytest.raises(api.EventLogError):
+        api.EventLog(path=path)
+
+
+@pytest.mark.parametrize("hostile", [False, True])
+@pytest.mark.parametrize("loader_name", ["action", "tool_result", "event"])
+def test_exact_dict_loaders_reject_string_subclass_keys_without_comparison(
+    loader_name, hostile
+):
+    api = load_api()
+    calls = []
+
+    class BenignKey(str):
+        pass
+
+    class ArmedKey(str):
+        def __hash__(self):
+            if getattr(self, "armed", False):
+                calls.append("hash")
+                raise RuntimeError("hostile key hash executed")
+            return str.__hash__(self)
+
+        def __eq__(self, other):
+            if getattr(self, "armed", False):
+                calls.append("equality")
+                raise RuntimeError("hostile key equality executed")
+            return str.__eq__(self, other)
+
+    if loader_name == "action":
+        loader = api.Action.from_dict
+        payload = {"kind": "act", "tool": "fixture.key", "arguments": {}}
+    elif loader_name == "tool_result":
+        loader = api.ToolResult.from_dict
+        payload = {"data": {"ok": True}, "terminal": False}
+    else:
+        runtime = runtime_for(api)
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+        loader = api.Event.from_dict
+        payload = runtime.events[0].to_dict()
+
+    original_name = next(iter(payload))
+    original_value = payload.pop(original_name)
+    key = ArmedKey(original_name) if hostile else BenignKey(original_name)
+    payload[key] = original_value
+    if hostile:
+        key.armed = True
+
+    with pytest.raises(api.SchemaValidationError):
+        loader(payload)
+    assert calls == []
 
 
 def test_strict_action_parser_accepts_one_exact_nested_object():
@@ -2082,6 +2232,23 @@ def test_default_registry_implements_each_required_simulated_surface(tool, argum
     assert result.data["ok"] is True
     assert len(runtime.events) == 1
     assert api.verify_chain(runtime.events) is True
+
+
+def test_virtual_fs_write_reports_utf8_bytes_for_non_ascii_content():
+    api = load_api()
+    runtime = api.Runtime(api.make_sandbox_state(), api.build_default_registry())
+    result = runtime.accept(
+        json.dumps(
+            {
+                "kind": "act",
+                "tool": "virtual_fs.write",
+                "arguments": {"path": "unicode.txt", "content": "é🙂"},
+            },
+            ensure_ascii=False,
+        )
+    )
+    assert result.data["bytes"] == 6
+    assert runtime.state.data["virtual_files"]["unicode.txt"] == "é🙂"
 
 
 @pytest.mark.parametrize(

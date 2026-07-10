@@ -48,8 +48,8 @@ processes or shells, import dynamically, contact a network, resolve tool-supplie
 host paths, or acquire real credentials. Passing a JSONL path to `EventLog` is
 the sole built-in host storage boundary: it is an explicit caller-selected
 custody-log destination, not a tool-visible path. Construction binds that
-destination to an absolute path
-under its then-existing canonical parent. The target must be absent or an exact
+destination to an absolute path under its then-existing canonical parent. The
+target must be absent or an exact
 regular single-link file; final-component symlinks, hardlinks, devices, FIFOs,
 directories, and a changed parent-directory identity fail closed.
 
@@ -75,6 +75,14 @@ or wrongly typed argument before calling a handler.
 dataclasses. Mutable JSON inputs are recursively copied into deterministic
 immutable values. Public JSON uses UTF-8, sorted keys, compact separators, and
 no nonfinite values. JSON integers are limited to the IEEE-754 safe range.
+`MAX_JSON_BYTES` is 1,048,576 UTF-8 bytes per raw or canonical JSON value, and
+`MAX_JSON_DEPTH` is 128 root-to-leaf edges. Raw response bytes are checked before
+decoding; direct values use active-path cycle detection so shared acyclic
+subtrees remain valid. Oversize, excessive-depth, cyclic, decoder-recursion, and
+memory-boundary failures are translated to typed validation, protocol, or
+event-log errors. Exact outer schema keys must be built-in strings; string
+subclasses are rejected before hashing or equality comparison. Simulated
+`virtual_fs.write` reports UTF-8 bytes rather than Unicode code points.
 
 Events are zero-indexed. The first `previous_event_sha256` is 64 zeroes. Every
 event stores state-before and state-after hashes and is itself SHA-256 hashed

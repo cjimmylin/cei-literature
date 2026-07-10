@@ -11,6 +11,8 @@ from types import MappingProxyType
 EVENT_SCHEMA_VERSION = 1
 ZERO_EVENT_SHA256 = "0" * 64
 MAX_SAFE_JSON_INTEGER = (2**53) - 1
+MAX_JSON_BYTES = 1024 * 1024
+MAX_JSON_DEPTH = 128
 FORBIDDEN_PERSISTED_FIELD_NAMES = frozenset(
     {"prompt", "model_prompt", "api_key", "credential", "credential_secret"}
 )
@@ -112,42 +114,106 @@ class FrozenObject(Mapping):
         return {key: thaw_json(value) for key, value in self._items}
 
 
-def _is_frozen_json(value):
+def _validate_frozen_json(value, depth, active):
+    if depth > MAX_JSON_DEPTH:
+        raise SchemaValidationError("JSON nesting exceeds maximum depth")
     if type(value) is FrozenObject:
-        return True
+        marker = id(value)
+        if marker in active:
+            raise SchemaValidationError("cyclic JSON value")
+        active.add(marker)
+        try:
+            items = value._items
+            if type(items) is not tuple:
+                raise SchemaValidationError("invalid frozen JSON object")
+            keys = []
+            for item in items:
+                if type(item) is not tuple or len(item) != 2:
+                    raise SchemaValidationError("invalid frozen JSON object item")
+                key, child = item
+                if type(key) is not str or not _utf8_encodable(key):
+                    raise SchemaValidationError("invalid frozen JSON object key")
+                keys.append(key)
+                _validate_frozen_json(child, depth + 1, active)
+            if tuple(keys) != tuple(sorted(keys)) or len(set(keys)) != len(keys):
+                raise SchemaValidationError("invalid frozen JSON object keys")
+            return
+        finally:
+            active.remove(marker)
     if type(value) is tuple:
-        return all(_is_frozen_json(item) for item in value)
+        marker = id(value)
+        if marker in active:
+            raise SchemaValidationError("cyclic JSON value")
+        active.add(marker)
+        try:
+            for child in value:
+                _validate_frozen_json(child, depth + 1, active)
+            return
+        finally:
+            active.remove(marker)
     if value is None or type(value) is bool:
-        return True
+        return
     if type(value) is str:
-        return _utf8_encodable(value)
+        if not _utf8_encodable(value):
+            raise SchemaValidationError("JSON strings must encode as valid UTF-8")
+        return
     if type(value) is int:
-        return -MAX_SAFE_JSON_INTEGER <= value <= MAX_SAFE_JSON_INTEGER
+        if not -MAX_SAFE_JSON_INTEGER <= value <= MAX_SAFE_JSON_INTEGER:
+            raise SchemaValidationError("JSON integer exceeds IEEE-754 safe range")
+        return
     if type(value) is float:
-        return math.isfinite(value)
-    return False
+        if not math.isfinite(value):
+            raise SchemaValidationError("JSON number must be finite")
+        return
+    raise SchemaValidationError("invalid frozen JSON value")
 
 
-def _freeze_object(value):
+def _is_frozen_json(value):
+    try:
+        _validate_frozen_json(value, 0, set())
+        return True
+    except (SchemaValidationError, RecursionError, MemoryError):
+        return False
+
+
+def _freeze_object(value, depth, active):
     if type(value) is not dict:
         raise SchemaValidationError("JSON objects must be exact built-in dict values")
-    if any(type(key) is not str or not _utf8_encodable(key) for key in value):
+    keys = tuple(value.keys())
+    if any(type(key) is not str or not _utf8_encodable(key) for key in keys):
         raise SchemaValidationError("JSON object keys must be exact strings")
-    items = []
-    for key in sorted(value):
-        items.append((key, freeze_json(value[key])))
-    return FrozenObject(items)
+    marker = id(value)
+    if marker in active:
+        raise SchemaValidationError("cyclic JSON value")
+    active.add(marker)
+    try:
+        items = []
+        for key in sorted(keys):
+            items.append((key, _freeze_json(value[key], depth + 1, active)))
+        return FrozenObject(items)
+    finally:
+        active.remove(marker)
 
 
-def freeze_json(value):
-    """Validate and deeply freeze one exact JSON-compatible tree."""
-
+def _freeze_json(value, depth, active):
+    if depth > MAX_JSON_DEPTH:
+        raise SchemaValidationError("JSON nesting exceeds maximum depth")
     if type(value) is FrozenObject:
+        _validate_frozen_json(value, depth, active)
         return value
     if type(value) is dict:
-        return _freeze_object(value)
+        return _freeze_object(value, depth, active)
     if type(value) is list:
-        return tuple(freeze_json(item) for item in value)
+        marker = id(value)
+        if marker in active:
+            raise SchemaValidationError("cyclic JSON value")
+        active.add(marker)
+        try:
+            return tuple(
+                _freeze_json(item, depth + 1, active) for item in value
+            )
+        finally:
+            active.remove(marker)
     if value is None or type(value) is bool:
         return value
     if type(value) is str:
@@ -165,16 +231,58 @@ def freeze_json(value):
     raise SchemaValidationError("unsupported or non-exact JSON value")
 
 
-def thaw_json(value):
-    """Return an exact mutable JSON tree from an internally frozen value."""
+def freeze_json(value):
+    """Validate and deeply freeze one exact JSON-compatible tree."""
 
+    try:
+        frozen = _freeze_json(value, 0, set())
+        ready = _thaw_json(frozen, 0, set())
+        _canonical_text(ready)
+        return frozen
+    except SchemaValidationError:
+        raise
+    except (RecursionError, MemoryError) as exc:
+        raise SchemaValidationError("JSON value exceeds bounded resources") from exc
+
+
+def _thaw_json(value, depth, active):
+    if depth > MAX_JSON_DEPTH:
+        raise SchemaValidationError("JSON nesting exceeds maximum depth")
     if type(value) is FrozenObject:
-        return value.to_dict()
+        marker = id(value)
+        if marker in active:
+            raise SchemaValidationError("cyclic JSON value")
+        active.add(marker)
+        try:
+            return {
+                key: _thaw_json(child, depth + 1, active)
+                for key, child in value._items
+            }
+        finally:
+            active.remove(marker)
     if type(value) is tuple:
-        return [thaw_json(item) for item in value]
+        marker = id(value)
+        if marker in active:
+            raise SchemaValidationError("cyclic JSON value")
+        active.add(marker)
+        try:
+            return [_thaw_json(item, depth + 1, active) for item in value]
+        finally:
+            active.remove(marker)
     if value is None or type(value) in (str, bool, int, float):
         return value
     raise SchemaValidationError("invalid frozen JSON value")
+
+
+def thaw_json(value):
+    """Return an exact mutable JSON tree from an internally frozen value."""
+
+    try:
+        return _thaw_json(value, 0, set())
+    except SchemaValidationError:
+        raise
+    except (RecursionError, MemoryError) as exc:
+        raise SchemaValidationError("JSON value exceeds bounded resources") from exc
 
 
 def _json_ready(value):
@@ -185,16 +293,32 @@ def _json_ready(value):
     return thaw_json(freeze_json(value))
 
 
+def _canonical_text(ready):
+    try:
+        text = json.dumps(
+            ready,
+            ensure_ascii=False,
+            sort_keys=True,
+            separators=(",", ":"),
+            allow_nan=False,
+        )
+        encoded = text.encode("utf-8", errors="strict")
+    except (RecursionError, MemoryError, UnicodeError, TypeError, ValueError) as exc:
+        raise SchemaValidationError("unable to encode bounded canonical JSON") from exc
+    if len(encoded) > MAX_JSON_BYTES:
+        raise SchemaValidationError("JSON value exceeds maximum UTF-8 byte size")
+    return text
+
+
 def canonical_json(value):
     """Serialize exact JSON as UTF-8-safe sorted compact canonical text."""
 
-    return json.dumps(
-        _json_ready(value),
-        ensure_ascii=False,
-        sort_keys=True,
-        separators=(",", ":"),
-        allow_nan=False,
-    )
+    try:
+        return _canonical_text(_json_ready(value))
+    except SchemaValidationError:
+        raise
+    except (RecursionError, MemoryError) as exc:
+        raise SchemaValidationError("JSON value exceeds bounded resources") from exc
 
 
 def canonical_json_bytes(value):
@@ -234,6 +358,23 @@ def _utf8_encodable(value):
         return False
 
 
+def _exact_object_fields(value, expected_names, message):
+    if type(value) is not dict:
+        raise SchemaValidationError(message)
+    try:
+        keys = tuple(value.keys())
+    except Exception as exc:
+        raise SchemaValidationError(message) from exc
+    if any(type(key) is not str for key in keys):
+        raise SchemaValidationError(message)
+    if len(keys) != len(expected_names) or set(keys) != set(expected_names):
+        raise SchemaValidationError(message)
+    try:
+        return {name: value[name] for name in expected_names}
+    except Exception as exc:
+        raise SchemaValidationError(message) from exc
+
+
 def reject_forbidden_persisted_fields(value):
     """Reject secret-bearing field names anywhere in persisted action/result data."""
 
@@ -257,6 +398,12 @@ def strict_json_loads(raw):
 
     if type(raw) is not str:
         raise SchemaValidationError("JSON input must be an exact string")
+    try:
+        raw_size = len(raw.encode("utf-8", errors="strict"))
+    except (UnicodeError, MemoryError) as exc:
+        raise SchemaValidationError("JSON input is not bounded valid UTF-8") from exc
+    if raw_size > MAX_JSON_BYTES:
+        raise SchemaValidationError("JSON input exceeds maximum UTF-8 byte size")
 
     def object_pairs(pairs):
         result = {}
@@ -277,9 +424,18 @@ def strict_json_loads(raw):
         )
     except SchemaValidationError:
         raise
-    except (TypeError, ValueError, json.JSONDecodeError) as exc:
+    except (
+        TypeError,
+        ValueError,
+        json.JSONDecodeError,
+        RecursionError,
+        MemoryError,
+    ) as exc:
         raise SchemaValidationError("invalid JSON") from exc
-    freeze_json(decoded)
+    try:
+        freeze_json(decoded)
+    except (RecursionError, MemoryError) as exc:
+        raise SchemaValidationError("invalid bounded JSON") from exc
     return decoded
 
 
@@ -288,7 +444,7 @@ class EpisodeState:
     data: object
 
     def __post_init__(self):
-        frozen = self.data if type(self.data) is FrozenObject else freeze_json(self.data)
+        frozen = freeze_json(self.data)
         if type(frozen) is not FrozenObject:
             raise SchemaValidationError("episode state must be a JSON object")
         object.__setattr__(self, "data", frozen)
@@ -313,11 +469,7 @@ class Action:
         if type(self.kind) is not str or self.kind != "act":
             raise SchemaValidationError("action kind must be exactly 'act'")
         require_identifier(self.tool, "tool")
-        frozen = (
-            self.arguments
-            if type(self.arguments) is FrozenObject
-            else freeze_json(self.arguments)
-        )
+        frozen = freeze_json(self.arguments)
         if type(frozen) is not FrozenObject:
             raise SchemaValidationError("action arguments must be a JSON object")
         object.__setattr__(self, "arguments", frozen)
@@ -331,9 +483,10 @@ class Action:
 
     @classmethod
     def from_dict(cls, value):
-        if type(value) is not dict or set(value) != {"kind", "tool", "arguments"}:
-            raise SchemaValidationError("action schema must be exact")
-        return cls(value["kind"], value["tool"], value["arguments"])
+        clean = _exact_object_fields(
+            value, ("kind", "tool", "arguments"), "action schema must be exact"
+        )
+        return cls(clean["kind"], clean["tool"], clean["arguments"])
 
 
 @dataclass(frozen=True)
@@ -359,9 +512,10 @@ class ToolResult:
 
     @classmethod
     def from_dict(cls, value):
-        if type(value) is not dict or set(value) != {"data", "terminal"}:
-            raise SchemaValidationError("tool result schema must be exact")
-        return cls(value["data"], value["terminal"])
+        clean = _exact_object_fields(
+            value, ("data", "terminal"), "tool result schema must be exact"
+        )
+        return cls(clean["data"], clean["terminal"])
 
 
 @dataclass(frozen=True)
@@ -439,23 +593,21 @@ class Event:
 
     @classmethod
     def from_dict(cls, value):
-        if type(value) is not dict or tuple(value.keys()) != EVENT_FIELD_NAMES:
-            if type(value) is not dict or set(value) != set(EVENT_FIELD_NAMES):
-                raise SchemaValidationError("event schema must contain exact fields")
-        clean = {}
-        for name in EVENT_FIELD_NAMES:
-            try:
-                clean[name] = value[name]
-            except Exception as exc:
-                raise SchemaValidationError("hostile event mapping") from exc
+        clean = _exact_object_fields(
+            value, EVENT_FIELD_NAMES, "event schema must contain exact fields"
+        )
         clean["action"] = Action.from_dict(clean["action"])
         clean["tool_result"] = ToolResult.from_dict(clean["tool_result"])
         return cls(**clean)
 
     @classmethod
     def create(cls, **values):
-        if set(values) != set(EVENT_FIELD_NAMES) - {"event_sha256"}:
-            raise SchemaValidationError("event construction fields must be exact")
+        expected = tuple(
+            name for name in EVENT_FIELD_NAMES if name != "event_sha256"
+        )
+        values = _exact_object_fields(
+            values, expected, "event construction fields must be exact"
+        )
         payload = {
             name: (
                 values[name].to_dict()
@@ -493,6 +645,8 @@ __all__ = [
     "Event",
     "FORBIDDEN_PERSISTED_FIELD_NAMES",
     "FrozenObject",
+    "MAX_JSON_BYTES",
+    "MAX_JSON_DEPTH",
     "MAX_SAFE_JSON_INTEGER",
     "SchemaValidationError",
     "ToolResult",

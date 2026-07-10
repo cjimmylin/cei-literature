@@ -1,3 +1,4 @@
+from collections.abc import Mapping
 from copy import deepcopy
 from dataclasses import FrozenInstanceError, replace
 from decimal import Decimal
@@ -17,6 +18,47 @@ from conftest import (
 import skim_constants as constants
 import skim_evidence as evidence
 import skim_hashing as hashing
+
+
+class TraversableReadBombMapping(Mapping):
+    def __init__(self, data):
+        self._data = data
+
+    def __getitem__(self, key):
+        raise RuntimeError("hostile mapping indexed access")
+
+    def __iter__(self):
+        return iter(self._data)
+
+    def __len__(self):
+        return len(self._data)
+
+    def __contains__(self, key):
+        return key in self._data
+
+    def items(self):
+        return self._data.items()
+
+    def values(self):
+        return self._data.values()
+
+
+def test_capability_validator_fails_closed_on_hostile_mapping_indexing():
+    reference = TraversableReadBombMapping(valid_capability_reference())
+
+    assert evidence.validate_capability_reference(reference) is False
+
+
+def test_professional_realism_predicate_fails_closed_on_hostile_mapping_indexing():
+    core_families, panel, ratings = realism_fixture()
+    hostile_core_families = TraversableReadBombMapping(core_families)
+
+    assert (
+        evidence.professional_realism_passes(
+            hostile_core_families, panel, ratings, []
+        )
+        is False
+    )
 
 
 def test_capability_projections_are_derived_from_population_z_scores():

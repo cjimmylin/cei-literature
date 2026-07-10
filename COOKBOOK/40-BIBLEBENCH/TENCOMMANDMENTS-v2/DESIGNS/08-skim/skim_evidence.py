@@ -142,7 +142,7 @@ def hash_capability_reference(reference: Mapping[str, Any]) -> str:
     return canonical_sha256(payload)
 
 
-def _capability_reference_valid(
+def _capability_reference_valid_unchecked(
     reference: Any, required_model_ids: Sequence[str] = ()
 ) -> bool:
     if not isinstance(reference, MappingABC) or not _json_tree_is_finite(reference):
@@ -194,6 +194,15 @@ def _capability_reference_valid(
         return False
     try:
         return content_hash.lower() == hash_capability_reference(reference)
+    except Exception:
+        return False
+
+
+def _capability_reference_valid(
+    reference: Any, required_model_ids: Sequence[str] = ()
+) -> bool:
+    try:
+        return _capability_reference_valid_unchecked(reference, required_model_ids)
     except Exception:
         return False
 
@@ -535,9 +544,12 @@ def professional_realism_passes(
 ) -> bool:
     """Return the derived raw-evidence realism pass predicate."""
 
-    return evaluate_professional_realism(
-        core_families, panel_records, rating_records, revision_history
-    ).passes
+    try:
+        return evaluate_professional_realism(
+            core_families, panel_records, rating_records, revision_history
+        ).passes
+    except Exception:
+        return False
 
 
 def release_budget_allows(

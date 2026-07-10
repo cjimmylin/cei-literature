@@ -92,6 +92,13 @@ def _valid_request(request: Any) -> bool:
 def validate_public_item_fields(record: Any) -> bool:
     """Validate one exact, recursively public, logical SKIM record."""
 
+    try:
+        return _public_item_fields_valid(record)
+    except Exception:
+        return False
+
+
+def _public_item_fields_valid(record: Any) -> bool:
     if (
         not isinstance(record, MappingABC)
         or set(record) != set(PUBLIC_ITEM_FIELDS)
@@ -229,6 +236,13 @@ def validate_public_item_fields(record: Any) -> bool:
 def validate_private_gold_fields(record: Any, public_record: Any) -> bool:
     """Validate exact private gold and its cryptographic public-row linkage."""
 
+    try:
+        return _private_gold_fields_valid(record, public_record)
+    except Exception:
+        return False
+
+
+def _private_gold_fields_valid(record: Any, public_record: Any) -> bool:
     if (
         not isinstance(record, MappingABC)
         or set(record) != set(PRIVATE_GOLD_FIELDS)

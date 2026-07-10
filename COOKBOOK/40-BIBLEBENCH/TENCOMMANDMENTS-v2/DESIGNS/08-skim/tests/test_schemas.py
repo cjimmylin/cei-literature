@@ -9,6 +9,24 @@ import skim_constants as constants
 import skim_schemas as schemas
 
 
+class IterationBombMapping(dict):
+    def __iter__(self):
+        raise RuntimeError("hostile mapping iteration")
+
+
+def test_public_schema_validator_fails_closed_on_hostile_mapping_iteration():
+    public = IterationBombMapping(valid_public_record())
+
+    assert schemas.validate_public_item_fields(public) is False
+
+
+def test_private_schema_validator_fails_closed_on_hostile_mapping_iteration():
+    public = valid_public_record()
+    private = IterationBombMapping(valid_private_gold(public))
+
+    assert schemas.validate_private_gold_fields(private, public) is False
+
+
 def test_public_and_private_schema_allowlists_fail_closed():
     assert set(constants.PUBLIC_ITEM_FIELDS).isdisjoint(constants.PRIVATE_ONLY_FIELDS)
     public = valid_public_record()

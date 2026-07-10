@@ -14,12 +14,23 @@ from .rubrics import ScoringSpec
 _BASE_REQUIRED = ["item_id", "design", "model", "administrations", "refusal_tag",
                   "judge_report"]
 
+# PR-3 R3 fields — every scored record decouples the scalar from verdicts[0] and retains
+# the raw refusal signal. `scalar_adjudicated` may be None (disagreement); it must be
+# PRESENT. `scalar_by_judge` carries one diagnostic scalar per judge.
+_PR3_REQUIRED = ["scalar_by_judge", "refusal_lexical"]
+
 
 def validate_scored_item(record: dict, spec: ScoringSpec) -> List[str]:
     errors: List[str] = []
     for f in _BASE_REQUIRED:
         if f not in record:
             errors.append(f"missing required field: {f}")
+    for f in _PR3_REQUIRED:
+        if f not in record:
+            errors.append(f"missing PR-3 field: {f}")
+    sbj = record.get("scalar_by_judge")
+    if sbj is not None and (not isinstance(sbj, list) or len(sbj) < 2):
+        errors.append("scalar_by_judge must be a per-judge list of >= 2 scalars")
 
     jr = record.get("judge_report")
     if isinstance(jr, dict):

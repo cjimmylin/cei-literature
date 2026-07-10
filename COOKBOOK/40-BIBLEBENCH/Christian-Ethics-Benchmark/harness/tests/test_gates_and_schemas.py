@@ -83,6 +83,8 @@ def _scored_record(design="01-goodsamaritan"):
         "item_id": "WW-01-B01", "design": design, "model": "mock-a",
         "administrations": [{"label": "main", "response": "..."}],
         "refusal_tag": "helpful",
+        "refusal_lexical": {"main": {"is_refusal": False}},
+        "scalar_by_judge": [0.5, 0.5], "scalar_adjudicated": 0.5,
         "judge_report": {"verdicts": [{"judge": "j1"}, {"judge": "j2"}],
                          "agreement_rate": 1.0, "disagreements": []},
     }

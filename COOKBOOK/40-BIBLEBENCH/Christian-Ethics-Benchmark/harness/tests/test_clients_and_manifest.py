@@ -53,13 +53,29 @@ def test_mock_client_can_refuse_deterministically():
     assert 5 <= refusals <= 35
 
 
-def test_adapter_stubs_refuse_without_key(monkeypatch):
-    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
-    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+def test_adapter_refuses_when_no_credential(monkeypatch):
+    # With NO credential source (neither key nor OAuth), the adapter must refuse.
+    monkeypatch.setattr(AnthropicAdapter, "_auth_available", lambda self: False)
+    monkeypatch.setattr(OpenAIAdapter, "_auth_available", lambda self: False)
     with pytest.raises(RuntimeError):
         AnthropicAdapter("claude-x").complete([Message("user", "hi")])
     with pytest.raises(RuntimeError):
         OpenAIAdapter("gpt-x").complete([Message("user", "hi")])
+
+
+def test_adapter_accepts_oauth_but_defers_live_call_in_o2(monkeypatch):
+    # OAuth counts as a credential (not key-only); O2 still makes NO live call —
+    # it defers to O3 (NotImplementedError), never returns a response.
+    monkeypatch.setattr(AnthropicAdapter, "_auth_available", lambda self: True)
+    with pytest.raises(NotImplementedError):
+        AnthropicAdapter("claude-x").complete([Message("user", "hi")])
+
+
+def test_adapter_never_makes_live_call_in_o2():
+    # Belt-and-suspenders: whatever the credential state, O2 never returns a response.
+    for adapter in (AnthropicAdapter("claude-x"), OpenAIAdapter("gpt-x")):
+        with pytest.raises((RuntimeError, NotImplementedError)):
+            adapter.complete([Message("user", "hi")])
 
 
 # ------------------------- manifest ------------------------- #

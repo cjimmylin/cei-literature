@@ -98,9 +98,15 @@ adjudication) → O6 (findings/deck v2).
 
 ## 7. Blocked on Jimmy (unblocks O3+)
 
-Multi-vendor **API keys** (Anthropic + ≥1 non-Anthropic family for cross-family judges) via
-`harness/.env` (gitignored); **~60 items/design human labels** for the judge-validity gate
-(§3.4); PR-1/PR-2 rulings; release decisions. **O2 needed none of these.**
+Multi-vendor **credentials** (Anthropic + ≥1 non-Anthropic family for cross-family judges) —
+**a key OR OAuth CLI both work** (adapters are credential-source-agnostic; see
+`harness/README.md` → Auth). Anthropic: `ANTHROPIC_API_KEY` **or** `ant auth login`; OpenAI:
+`OPENAI_API_KEY` **or** the Codex OAuth CLI. OAuth is fine for the **O3 pilot**; for the long
+**O4 panel** prefer keys/WIF (env-var OAuth tokens don't auto-refresh and rate-limit harder),
+and the ≥6-model panel across more vendors (Gemini…) will still want keys. Also owed:
+**~60 items/design human labels** for the judge-validity gate (§3.4); PR-1/PR-2 rulings;
+release decisions. **O2 needed none of these.** O3-wiring caution: don't send
+`temperature`/`top_p` to Opus 4.7+/Fable (they 400 — adaptive thinking only).
 
 ## 8. Standing cautions (unchanged from O1)
 

@@ -68,13 +68,37 @@ Artifacts: `manifest.json`, `dry_run_report.md` (the transcript), `design_summar
 cd harness && python -m pytest tests/ -q      # 86 passing
 ```
 
-## O3 wiring (next session, needs keys)
+## Auth: API keys OR OAuth CLI (both supported)
+
+Adapters resolve credentials from a **key or an OAuth path** — not key-only:
+
+| vendor | key | OAuth path |
+|--------|-----|------------|
+| Anthropic | `ANTHROPIC_API_KEY` / `ANTHROPIC_AUTH_TOKEN` | `ant auth login` — the SDK resolves the profile automatically; a bare `anthropic.Anthropic()` hits the raw `/v1/messages` API (same clean call as a key, NOT Claude-Code-wrapped) |
+| OpenAI | `OPENAI_API_KEY` | Codex OAuth CLI on PATH ([[vault-no-live-llm-runner]]) |
+| Google | `GOOGLE_API_KEY` | Application Default Credentials |
+
+`_KeyedAdapter._auth_available()` treats any of these as "authenticated". OAuth gives
+Claude + GPT = the two cross-family judges the charter needs.
+
+**Benchmark-validity caveats (real, not blockers):**
+- OAuth = subscription credentials; fine for the **O3 pilot** (3 models, small), but for a
+  long **O4 panel** (thousands of calls/hours) prefer keys/WIF — env-var OAuth tokens aren't
+  auto-refreshed and rate-limit harder. The ≥6-model panel across more vendors (Gemini, …)
+  will still want keys.
+- **Do not send `temperature`/`top_p`/`top_k` to Opus 4.7+/Fable** — they 400 (adaptive
+  thinking only). Control depth with `output_config.effort`; pin decoding via prompt, not
+  sampling params.
+
+## O3 wiring (next session, needs a credential — key OR OAuth)
 
 1. Implement the SDK call in `clients.AnthropicAdapter` / `OpenAIAdapter` / `GoogleAdapter`
-   `.complete()` (they currently raise until wired).
+   `.complete()` (they currently raise until wired). For Anthropic, a bare
+   `anthropic.Anthropic()` picks up either a key or the `ant` OAuth profile.
 2. Add real judge subclasses of `judges.Judge` that call a model and parse the JSON verdict
    (the rubric prompt is already assembled by `assemble_rubric_prompt`).
 3. Replace `executors.default_state_classifier` with a judge-backed branch classifier for
    02/07.
-4. Provide `.env` with keys (gitignored). Keep the PUBLIC-only + IDs-only + no-average rules.
+4. Provide `.env` with keys, or run the OAuth login (both gitignored/local). Keep the
+   PUBLIC-only + IDs-only + no-average rules.
 ```

@@ -130,20 +130,37 @@ class MockModelClient(ModelClient):
 
 
 # --------------------------------------------------------------------------- #
-# Per-vendor adapter stubs. Wired at O3; refuse loudly with no key so the O2
-# session can NEVER accidentally make a live call.
+# Per-vendor adapter stubs. Wired at O3; refuse loudly with NO credential so the
+# O2 session can NEVER accidentally make a live call.
+#
+# Auth is credential-SOURCE-agnostic, not key-only. Each vendor accepts either an
+# API key OR an OAuth path:
+#   - Anthropic: `ANTHROPIC_API_KEY` / `ANTHROPIC_AUTH_TOKEN`, or an `ant auth login`
+#     OAuth profile (the SDK resolves it automatically — a bare Anthropic() client
+#     hits the raw /v1/messages API, same as a key). See the Claude CLI docs.
+#   - OpenAI: `OPENAI_API_KEY`, or the Codex OAuth CLI on PATH (vault pattern —
+#     [[vault-no-live-llm-runner]]).
+#   - Google: `GOOGLE_API_KEY`, or Application Default Credentials.
+# NOTE (benchmark validity): OAuth = subscription credentials. Fine for the O3
+# pilot; for a long O4 panel prefer keys/WIF (env-var OAuth tokens aren't
+# auto-refreshed and rate-limit harder). Do NOT send temperature/top_p to Opus
+# 4.7+/Fable (they 400) when wiring real calls in O3.
 # --------------------------------------------------------------------------- #
 class _KeyedAdapter(ModelClient):
-    env_var = ""
+    env_vars: tuple = ()
     family = "abstract"
+
+    def _auth_available(self) -> bool:
+        return any(os.environ.get(v) for v in self.env_vars)
 
     def complete(self, messages: List[Message], system: Optional[str] = None,
                  **kwargs) -> ModelResponse:
-        if not os.environ.get(self.env_var):
+        if not self._auth_available():
             raise RuntimeError(
-                f"{type(self).__name__}: no {self.env_var} in environment. "
-                "Live calls are disabled in O2 (mock-only); set the key and wire the "
-                "SDK call in O3."
+                f"{type(self).__name__}: no credential found "
+                f"({' / '.join(self.env_vars)}, or the vendor's OAuth path). "
+                "Live calls are disabled in O2 (mock-only); provide a key OR OAuth "
+                "login and wire the SDK call in O3."
             )
         raise NotImplementedError(
             f"{type(self).__name__}: live SDK call is intentionally not implemented in "
@@ -152,17 +169,29 @@ class _KeyedAdapter(ModelClient):
 
 
 class AnthropicAdapter(_KeyedAdapter):
-    env_var = "ANTHROPIC_API_KEY"
+    env_vars = ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "ANTHROPIC_PROFILE")
     family = "anthropic"
+
+    def _auth_available(self) -> bool:
+        if super()._auth_available():
+            return True
+        # `ant auth login` OAuth profile store (SDK resolves it for a bare client)
+        cfg = os.path.expanduser("~/.config/anthropic/credentials")
+        return os.path.isdir(cfg) and bool(os.listdir(cfg))
 
 
 class OpenAIAdapter(_KeyedAdapter):
-    env_var = "OPENAI_API_KEY"
+    env_vars = ("OPENAI_API_KEY",)
     family = "openai"
+
+    def _auth_available(self) -> bool:
+        import shutil
+        # OPENAI_API_KEY, or the Codex OAuth CLI available on PATH
+        return super()._auth_available() or shutil.which("codex") is not None
 
 
 class GoogleAdapter(_KeyedAdapter):
-    env_var = "GOOGLE_API_KEY"
+    env_vars = ("GOOGLE_API_KEY", "GOOGLE_APPLICATION_CREDENTIALS")
     family = "google"
 
 

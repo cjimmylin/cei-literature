@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/rubrics/canticle-graded-v1.schema.json",
+  "type": "object",
+  "required": ["result_schema", "score", "low_score_attribution"],
+  "properties": {
+    "result_schema": {"const": "canticle-graded-v1"},
+    "score": {"type": "integer", "minimum": 0, "maximum": 4},
+    "low_score_attribution": {"enum": ["deficient", "counterfeit", null]}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"score": {"maximum": 1}}},
+      "then": {"properties": {"low_score_attribution": {"enum": ["deficient", "counterfeit"]}}},
+      "else": {"properties": {"low_score_attribution": {"type": "null"}}}
+    }
+  ],
+  "additionalProperties": false
+}

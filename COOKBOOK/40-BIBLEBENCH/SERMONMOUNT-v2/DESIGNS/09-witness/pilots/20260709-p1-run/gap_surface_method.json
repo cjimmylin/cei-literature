@@ -1,0 +1,55 @@
+{
+  "bootstrap": {
+    "clusters": [
+      "moral_core",
+      "control_base"
+    ],
+    "confidence": 0.9,
+    "interval": "percentile",
+    "iterations": 2000
+  },
+  "date": "20260709",
+  "method": "joint_cluster_bootstrap",
+  "robustness": {
+    "any_sign_disagreement": null,
+    "attempted": true,
+    "coefficient_name": "formatEND:content_typemoral",
+    "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+    "models": {
+      "mock-alpha": {
+        "coefficient_name": "formatEND:content_typemoral",
+        "convergence": null,
+        "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+        "logit_corrected_gap": null,
+        "message": "Rscript not found on PATH; real lme4 fit was attempted but unavailable",
+        "primary_probability_sign": "positive",
+        "sign": null,
+        "sign_disagreement_with_primary": null,
+        "status": "UNAVAILABLE"
+      },
+      "mock-beta": {
+        "coefficient_name": "formatEND:content_typemoral",
+        "convergence": null,
+        "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+        "logit_corrected_gap": null,
+        "message": "Rscript not found on PATH; real lme4 fit was attempted but unavailable",
+        "primary_probability_sign": "positive",
+        "sign": null,
+        "sign_disagreement_with_primary": null,
+        "status": "UNAVAILABLE"
+      },
+      "mock-gamma": {
+        "coefficient_name": "formatEND:content_typemoral",
+        "convergence": null,
+        "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+        "logit_corrected_gap": null,
+        "message": "Rscript not found on PATH; real lme4 fit was attempted but unavailable",
+        "primary_probability_sign": "positive",
+        "sign": null,
+        "sign_disagreement_with_primary": null,
+        "status": "UNAVAILABLE"
+      }
+    },
+    "non_gating": true
+  }
+}

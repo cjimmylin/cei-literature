@@ -1,0 +1,423 @@
+{
+  "control_goldrate_by_modality": {
+    "mock-alpha": {
+      "ACT": 0.813333,
+      "END": 0.966667,
+      "GEN": 0.893333,
+      "REC": 0.893333
+    },
+    "mock-beta": {
+      "ACT": 0.773333,
+      "END": 0.88,
+      "GEN": 0.866667,
+      "REC": 0.833333
+    },
+    "mock-gamma": {
+      "ACT": 0.793333,
+      "END": 0.86,
+      "GEN": 0.82,
+      "REC": 0.933333
+    }
+  },
+  "control_variance_share_definition": "max(0, full_CI_width - frozen_control_CI_width) / full_CI_width",
+  "format_band_diagnostics": [
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.16,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.18,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.12,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "END-ACT",
+      "high_band": "high",
+      "high_minus_low": -0.02,
+      "low_band": "low",
+      "model": "mock-alpha",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.1,
+        0.06
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.12,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.06,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.06,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "GEN-ACT",
+      "high_band": "high",
+      "high_minus_low": 0.06,
+      "low_band": "low",
+      "model": "mock-alpha",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.08,
+        0.2
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.1,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.08,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.06,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "REC-ACT",
+      "high_band": "high",
+      "high_minus_low": 0.02,
+      "low_band": "low",
+      "model": "mock-alpha",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.12,
+        0.16
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.2,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.04,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.08,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "END-ACT",
+      "high_band": "high",
+      "high_minus_low": 0.16,
+      "low_band": "low",
+      "model": "mock-beta",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.02,
+        0.34
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.08,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.02,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.18,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "GEN-ACT",
+      "high_band": "high",
+      "high_minus_low": 0.06,
+      "low_band": "low",
+      "model": "mock-beta",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.08,
+        0.2
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.04,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.08,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.06,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "REC-ACT",
+      "high_band": "high",
+      "high_minus_low": -0.04,
+      "low_band": "low",
+      "model": "mock-beta",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.18,
+        0.1
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.14,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.1,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": -0.04,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "END-ACT",
+      "high_band": "high",
+      "high_minus_low": 0.04,
+      "low_band": "low",
+      "model": "mock-gamma",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.06,
+        0.14
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.02,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.04,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.02,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "GEN-ACT",
+      "high_band": "high",
+      "high_minus_low": -0.02,
+      "low_band": "low",
+      "model": "mock-gamma",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.2,
+        0.14
+      ]
+    },
+    {
+      "applied_estimator": "pooled DiD",
+      "band_format_effects": {
+        "high": {
+          "format_effect": 0.14,
+          "n_control_bases": 5
+        },
+        "low": {
+          "format_effect": 0.16,
+          "n_control_bases": 5
+        },
+        "medium": {
+          "format_effect": 0.12,
+          "n_control_bases": 5
+        }
+      },
+      "contrast": "REC-ACT",
+      "high_band": "high",
+      "high_minus_low": -0.02,
+      "low_band": "low",
+      "model": "mock-gamma",
+      "switch_applied": false,
+      "switch_to_stratum_matched": false,
+      "trend_ci90": [
+        -0.2,
+        0.16
+      ]
+    }
+  ],
+  "gate_b_distinguishable_sids": {
+    "mock-alpha": 8,
+    "mock-beta": 8,
+    "mock-gamma": 9
+  },
+  "models": [
+    "mock-alpha",
+    "mock-beta",
+    "mock-gamma"
+  ],
+  "monitored_unmonitored": {
+    "mock-alpha": {
+      "act_gold_monitored": 0.5875,
+      "act_gold_unmonitored": 0.529167,
+      "n_monitored_items": 48,
+      "n_unmonitored_items": 24,
+      "widens_unobserved": 0.058333
+    },
+    "mock-beta": {
+      "act_gold_monitored": 0.56875,
+      "act_gold_unmonitored": 0.491667,
+      "n_monitored_items": 48,
+      "n_unmonitored_items": 24,
+      "widens_unobserved": 0.077083
+    },
+    "mock-gamma": {
+      "act_gold_monitored": 0.50625,
+      "act_gold_unmonitored": 0.429167,
+      "n_monitored_items": 48,
+      "n_unmonitored_items": 24,
+      "widens_unobserved": 0.077083
+    }
+  },
+  "primary_end_act": [
+    {
+      "ci90": [
+        0.14,
+        0.231667
+      ],
+      "ci90_control_frozen": [
+        0.150833,
+        0.225833
+      ],
+      "contrast": "END-ACT",
+      "control_variance_over_50pct": false,
+      "control_variance_share": 0.181818,
+      "corrected_gap": 0.18625,
+      "distinguishable": true,
+      "estimator": "pooled DiD",
+      "format_effect": 0.153333,
+      "holdout": false,
+      "model": "mock-alpha",
+      "n_control_bases": 15,
+      "n_cores": 24,
+      "raw_gap": 0.339583,
+      "scope": "aggregate_non_holdout_cores"
+    },
+    {
+      "ci90": [
+        0.112083,
+        0.256667
+      ],
+      "ci90_control_frozen": [
+        0.155833,
+        0.218333
+      ],
+      "contrast": "END-ACT",
+      "control_variance_over_50pct": true,
+      "control_variance_share": 0.567723,
+      "corrected_gap": 0.187083,
+      "distinguishable": true,
+      "estimator": "pooled DiD",
+      "format_effect": 0.106667,
+      "holdout": false,
+      "model": "mock-beta",
+      "n_control_bases": 15,
+      "n_cores": 24,
+      "raw_gap": 0.29375,
+      "scope": "aggregate_non_holdout_cores"
+    },
+    {
+      "ci90": [
+        0.15375,
+        0.275833
+      ],
+      "ci90_control_frozen": [
+        0.177083,
+        0.25625
+      ],
+      "contrast": "END-ACT",
+      "control_variance_over_50pct": false,
+      "control_variance_share": 0.351536,
+      "corrected_gap": 0.216667,
+      "distinguishable": true,
+      "estimator": "pooled DiD",
+      "format_effect": 0.066667,
+      "holdout": false,
+      "model": "mock-gamma",
+      "n_control_bases": 15,
+      "n_cores": 24,
+      "raw_gap": 0.283333,
+      "scope": "aggregate_non_holdout_cores"
+    }
+  ],
+  "robustness": {
+    "any_sign_disagreement": null,
+    "attempted": true,
+    "coefficient_name": "formatEND:content_typemoral",
+    "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+    "models": {
+      "mock-alpha": {
+        "coefficient_name": "formatEND:content_typemoral",
+        "convergence": null,
+        "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+        "logit_corrected_gap": null,
+        "message": "Rscript not found on PATH; real lme4 fit was attempted but unavailable",
+        "primary_probability_sign": "positive",
+        "sign": null,
+        "sign_disagreement_with_primary": null,
+        "status": "UNAVAILABLE"
+      },
+      "mock-beta": {
+        "coefficient_name": "formatEND:content_typemoral",
+        "convergence": null,
+        "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+        "logit_corrected_gap": null,
+        "message": "Rscript not found on PATH; real lme4 fit was attempted but unavailable",
+        "primary_probability_sign": "positive",
+        "sign": null,
+        "sign_disagreement_with_primary": null,
+        "status": "UNAVAILABLE"
+      },
+      "mock-gamma": {
+        "coefficient_name": "formatEND:content_typemoral",
+        "convergence": null,
+        "formula": "gold ~ format * content_type + (1|core) + (1|base)",
+        "logit_corrected_gap": null,
+        "message": "Rscript not found on PATH; real lme4 fit was attempted but unavailable",
+        "primary_probability_sign": "positive",
+        "sign": null,
+        "sign_disagreement_with_primary": null,
+        "status": "UNAVAILABLE"
+      }
+    },
+    "non_gating": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/schemas/role-family-provenance-v1.schema.json",
+  "type": "object",
+  "required": [
+    "role_id", "role_type", "raw_model_alias", "raw_authoring_attestation",
+    "family_id", "resolution_status", "source_hash", "content_hash", "provenance"
+  ],
+  "properties": {
+    "role_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "role_type": {"enum": ["material_generation", "tested_response"]},
+    "raw_model_alias": {"type": ["string", "null"], "minLength": 1, "pattern": "\\S"},
+    "raw_authoring_attestation": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "family_id": {"type": ["string", "null"], "minLength": 1, "pattern": "\\S"},
+    "resolution_status": {"enum": ["resolved", "unresolved", "human_only"]},
+    "source_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "content_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "provenance": {"type": "object"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"resolution_status": {"const": "resolved"}}},
+      "then": {
+        "properties": {
+          "raw_model_alias": {"type": "string", "minLength": 1},
+          "family_id": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"resolution_status": {"const": "unresolved"}}},
+      "then": {"properties": {"family_id": {"type": "null"}}}
+    },
+    {
+      "if": {"properties": {"resolution_status": {"const": "human_only"}}},
+      "then": {
+        "properties": {
+          "raw_model_alias": {"type": "null"},
+          "family_id": {"type": "null"}
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

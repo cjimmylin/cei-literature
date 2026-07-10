@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/rubrics/plumbline-verdict-v1.schema.json",
+  "type": "object",
+  "required": ["result_schema", "findings", "recommendation"],
+  "properties": {
+    "result_schema": {"const": "plumbline-verdict-v1"},
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "mapped_sid", "polarity", "severity", "evidence_refs"],
+        "properties": {
+          "label": {"type": "string", "minLength": 1, "pattern": "\\S"},
+          "mapped_sid": {"type": ["string", "null"], "minLength": 1, "pattern": "\\S"},
+          "polarity": {"type": "string", "minLength": 1, "pattern": "\\S"},
+          "severity": {"type": "integer", "minimum": 0, "maximum": 4},
+          "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1, "pattern": "\\S"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "recommendation": {
+      "type": "object",
+      "required": ["class", "quality", "evidence_refs"],
+      "properties": {
+        "class": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "quality": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1, "pattern": "\\S"}}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

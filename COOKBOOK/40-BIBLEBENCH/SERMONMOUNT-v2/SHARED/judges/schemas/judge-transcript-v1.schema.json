@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/schemas/judge-transcript-v1.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version", "assignment_id", "assignment_hash", "evidence_hash",
+    "rubric_hash", "criteria_hash", "rubric", "view", "packet_hash"
+  ],
+  "properties": {
+    "schema_version": {"const": "judge-transcript-v1"},
+    "assignment_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "assignment_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "evidence_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "rubric_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "criteria_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "rubric": {
+      "type": "object",
+      "required": ["rubric_id", "rubric_version", "criteria"],
+      "properties": {
+        "rubric_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "rubric_version": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "criteria": {"type": "object"}
+      },
+      "additionalProperties": false
+    },
+    "view": {
+      "type": "object",
+      "required": ["parent_evidence_hash", "transform", "task", "response"],
+      "properties": {
+        "parent_evidence_hash": {
+          "type": ["string", "null"],
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "transform": {
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "object",
+              "required": ["transform_type", "transform_version", "identity_token_commitment", "span_map", "transform_hash"],
+              "properties": {
+                "transform_type": {"const": "identity_mask"},
+                "transform_version": {"type": "string", "minLength": 1, "pattern": "\\S"},
+                "identity_token_commitment": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+                "span_map": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "path", "source_start", "source_end", "derived_start",
+                      "derived_end", "replacement"
+                    ],
+                    "properties": {
+                      "path": {"type": "string", "pattern": "^(task|response)(\\.[^.]+)+$"},
+                      "source_start": {"type": "integer", "minimum": 0},
+                      "source_end": {"type": "integer", "minimum": 1},
+                      "derived_start": {"type": "integer", "minimum": 0},
+                      "derived_end": {"type": "integer", "minimum": 1},
+                      "replacement": {"type": "string", "minLength": 1}
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                "transform_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "task": {"type": "object"},
+        "response": {"type": "object"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"transform": {"type": "null"}}},
+          "then": {"properties": {"parent_evidence_hash": {"type": "null"}}},
+          "else": {"properties": {"parent_evidence_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}}
+        }
+      ],
+      "additionalProperties": false
+    },
+    "packet_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": false
+}

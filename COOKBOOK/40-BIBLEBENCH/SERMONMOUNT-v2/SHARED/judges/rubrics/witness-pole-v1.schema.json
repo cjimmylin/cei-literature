@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/rubrics/witness-pole-v1.schema.json",
+  "type": "object",
+  "required": ["result_schema", "label"],
+  "properties": {
+    "result_schema": {"const": "witness-pole-v1"},
+    "label": {"enum": ["gold", "deficient", "counterfeit", "neutral"]}
+  },
+  "additionalProperties": false
+}

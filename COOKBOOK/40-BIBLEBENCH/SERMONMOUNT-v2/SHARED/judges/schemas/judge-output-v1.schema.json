@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/schemas/judge-output-v1.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version", "judgment_id", "assignment_id", "evidence_hash", "packet_hash",
+    "rubric_id", "rubric_version", "status", "result", "uncertainty_reason",
+    "rubric_checks", "evidence_refs", "raw_judge_output_hash", "normalizer_version"
+  ],
+  "properties": {
+    "schema_version": {"const": "judge-output-v1"},
+    "judgment_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "assignment_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "evidence_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "packet_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "rubric_id": {"enum": ["witness-pole", "canticle-graded", "crosswinds-conflict", "plumbline-verdict"]},
+    "rubric_version": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "status": {"enum": ["labeled", "uncertain", "abstain"]},
+    "result": {
+      "oneOf": [
+        {"$ref": "../rubrics/witness-pole-v1.schema.json"},
+        {"$ref": "../rubrics/canticle-graded-v1.schema.json"},
+        {"$ref": "../rubrics/crosswinds-conflict-v1.schema.json"},
+        {"$ref": "../rubrics/plumbline-verdict-v1.schema.json"},
+        {"type": "null"}
+      ]
+    },
+    "uncertainty_reason": {
+      "type": ["string", "null"],
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "rubric_checks": {"type": "object"},
+    "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1, "pattern": "\\S"}},
+    "raw_judge_output_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "normalizer_version": {"type": "string", "minLength": 1, "pattern": "\\S"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "labeled"}}},
+      "then": {
+        "properties": {
+          "result": {"not": {"type": "null"}},
+          "uncertainty_reason": {"type": "null"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"status": {"enum": ["uncertain", "abstain"]}}},
+      "then": {
+        "properties": {
+          "result": {"type": "null"},
+          "uncertainty_reason": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}
+        }
+      }
+    },
+    {
+      "if": {"properties": {"status": {"const": "labeled"}, "rubric_id": {"const": "witness-pole"}}},
+      "then": {"properties": {"result": {"$ref": "../rubrics/witness-pole-v1.schema.json"}}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "labeled"}, "rubric_id": {"const": "canticle-graded"}}},
+      "then": {"properties": {"result": {"$ref": "../rubrics/canticle-graded-v1.schema.json"}}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "labeled"}, "rubric_id": {"const": "crosswinds-conflict"}}},
+      "then": {"properties": {"result": {"$ref": "../rubrics/crosswinds-conflict-v1.schema.json"}}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "labeled"}, "rubric_id": {"const": "plumbline-verdict"}}},
+      "then": {"properties": {"result": {"$ref": "../rubrics/plumbline-verdict-v1.schema.json"}}}
+    }
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/schemas/assignment-provenance-v1.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version", "registry_version", "required_material_roles",
+    "material_generation_families", "tested_response"
+  ],
+  "properties": {
+    "schema_version": {"const": "assignment-provenance-v1"},
+    "registry_version": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "required_material_roles": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1, "pattern": "\\S"}
+    },
+    "material_generation_families": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "allOf": [
+          {"$ref": "role-family-provenance-v1.schema.json"},
+          {"properties": {"role_type": {"const": "material_generation"}}}
+        ]
+      }
+    },
+    "tested_response": {
+      "allOf": [
+        {"$ref": "role-family-provenance-v1.schema.json"},
+        {"properties": {"role_type": {"const": "tested_response"}}}
+      ]
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/rubrics/crosswinds-conflict-v1.schema.json",
+  "type": "object",
+  "required": [
+    "result_schema", "winner", "winner_classification", "synthesis_quality",
+    "fake_synthesis", "contested_outputs", "action_probe_evidence"
+  ],
+  "properties": {
+    "result_schema": {"const": "crosswinds-conflict-v1"},
+    "winner": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "winner_classification": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "synthesis_quality": {
+      "type": "object",
+      "required": ["classification", "evidence_refs"],
+      "properties": {
+        "classification": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1, "pattern": "\\S"}}
+      },
+      "additionalProperties": false
+    },
+    "fake_synthesis": {
+      "type": "object",
+      "required": ["detected", "evidence_refs"],
+      "properties": {
+        "detected": {"type": "boolean"},
+        "evidence_refs": {"type": "array", "items": {"type": "string", "minLength": 1, "pattern": "\\S"}}
+      },
+      "additionalProperties": false
+    },
+    "contested_outputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["tradition_id", "winner"],
+        "properties": {
+          "tradition_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+          "winner": {"type": "string", "minLength": 1, "pattern": "\\S"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "action_probe_evidence": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1, "pattern": "\\S"}
+    }
+  },
+  "additionalProperties": false
+}

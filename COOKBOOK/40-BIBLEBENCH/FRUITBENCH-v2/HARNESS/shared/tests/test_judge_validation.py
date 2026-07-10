@@ -24,6 +24,7 @@ HUMAN_LABEL_HASH = "b" * 64
 LAYER_E_HASH = "c" * 64
 LAYER_R_HASH = "d" * 64
 EXPECTED_PROMPTS = {"layer_e": LAYER_E_HASH, "layer_r": LAYER_R_HASH}
+EXPECTED_CLASSES = ("Fi", "Wj")
 EXPECTED_JUDGES = {
     "J01": {
         "model_id": "anthropic/claude-sonnet-4.6",
@@ -137,6 +138,7 @@ def _validate(source):
         expected_human_label_set_sha256=HUMAN_LABEL_HASH,
         expected_prompt_hashes=EXPECTED_PROMPTS,
         expected_judge_identities=EXPECTED_JUDGES,
+        expected_class_labels=EXPECTED_CLASSES,
     )
 
 
@@ -279,7 +281,19 @@ def test_judge_snapshot_and_identity_are_bound_to_expected_catalog_values() -> N
             expected_human_label_set_sha256=HUMAN_LABEL_HASH,
             expected_prompt_hashes=EXPECTED_PROMPTS,
             expected_judge_identities=incomplete_expected,
+            expected_class_labels=EXPECTED_CLASSES,
         )
+
+
+def test_per_class_coverage_is_bound_to_expected_label_set() -> None:
+    artifact = _artifact()
+    artifact["human_human"]["by_class"].pop("Wj")
+    for judge in artifact["judges"]:
+        judge["by_class"].pop("Wj")
+        judge["metrics"]["worst_class_f1"] = 0.92
+
+    with pytest.raises(JudgeValidationError, match="expected_class_labels"):
+        _validate(artifact)
 
 def test_rejects_unmet_judge_or_human_thresholds() -> None:
     artifact = _artifact()

@@ -12,7 +12,7 @@ import hashlib
 import json
 import math
 import re
-from collections.abc import Mapping
+from collections.abc import Collection, Mapping
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -325,6 +325,22 @@ def _validate_expected_judge_identities(
     return expected
 
 
+def _validate_expected_class_labels(value: Any) -> frozenset[str]:
+    if (
+        not isinstance(value, Collection)
+        or isinstance(value, (str, bytes, bytearray, Mapping))
+        or not value
+    ):
+        raise _fail("expected_class_labels must be a non-empty collection")
+    labels = [
+        _exact_text(label, "expected_class_labels entry")
+        for label in value
+    ]
+    if len(set(labels)) != len(labels):
+        raise _fail("expected_class_labels must be unique")
+    return frozenset(labels)
+
+
 def _validate_judges(
     raw_judges: Any,
     expected_identities: Mapping[str, Mapping[str, str]],
@@ -460,6 +476,7 @@ def validate_judge_validation_artifact(
     expected_human_label_set_sha256: str,
     expected_prompt_hashes: Mapping[str, str],
     expected_judge_identities: Mapping[str, Mapping[str, str]],
+    expected_class_labels: Collection[str],
 ) -> ValidatedJudgeValidation:
     """Validate a human judge artifact against current immutable inputs.
 
@@ -484,6 +501,7 @@ def validate_judge_validation_artifact(
     expected_identities = _validate_expected_judge_identities(
         expected_judge_identities
     )
+    expected_classes = _validate_expected_class_labels(expected_class_labels)
 
     raw = _source_bytes(source)
     record = _parse_json(raw)
@@ -527,9 +545,9 @@ def validate_judge_validation_artifact(
         required_metrics=_REQUIRED_HUMAN_CLASS_METRICS,
     )
     judge_classes = _validate_judges(record["judges"], expected_identities)
-    if judge_classes != human_classes:
+    if human_classes != expected_classes or judge_classes != expected_classes:
         raise _fail(
-            "human_human and judge by_class labels must match exactly"
+            "human and judge by_class coverage must equal expected_class_labels"
         )
     _validate_human_availability(record["human_availability"])
     _validate_completed_at(record["completed_at"])

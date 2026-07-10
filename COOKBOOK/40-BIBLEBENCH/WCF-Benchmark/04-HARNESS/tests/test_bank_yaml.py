@@ -63,17 +63,26 @@ def test_disputed_legs_are_dev_set_only(by_id):
 
 
 def test_aggravate_items_carry_gold_order(bank):
+    # TRANSCRIPTION-SPEC §2: gold_order is REQUIRED for orderable rank-sets and
+    # incomparable pairs (Track B, T2a/T2b). Track A monotonicity tasks and T3
+    # consistency batteries have no rank-set and legitimately omit it.
     for i in bank:
-        if i.design == "aggravate":
+        if i.design == "aggravate" and i.track == "B" and i.tier in ("T2a", "T2b"):
             assert i.extra.get("gold_order"), f"{i.id} missing gold_order (ordinal key)"
 
 
 def test_narrowgate_episodes_flagged_and_construct_specific(bank):
+    # Every NARROWGATE item is an episode. construct_specificity is required on
+    # the R23a expansion-2 targets (W301-W306); on other waves spec §4 forbids
+    # fabricating it, so where present it must be well-formed.
     for i in bank:
         if i.design == "narrowgate":
             assert i.extra.get("episode") is True, f"{i.id} not flagged episode"
             cs = i.extra.get("construct_specificity")
-            assert isinstance(cs, dict) and "route" in cs and "reskin" in cs, f"{i.id} missing construct_specificity"
+            if "-W3" in i.id:
+                assert isinstance(cs, dict) and "route" in cs and "reskin" in cs, f"{i.id} missing construct_specificity"
+            elif cs is not None:
+                assert isinstance(cs, dict) and "route" in cs and "reskin" in cs, f"{i.id} malformed construct_specificity"
 
 
 def test_wholeheart_judge_calibration_instrument_present(by_id):

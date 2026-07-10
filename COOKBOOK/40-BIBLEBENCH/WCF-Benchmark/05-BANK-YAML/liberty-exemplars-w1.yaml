@@ -1,0 +1,226 @@
+# canary: WCFBENCH-CANARY-c1647-x9k4q
+# source: 01-DESIGNS/06-liberty.md (transcribed per 05-BANK-YAML/TRANSCRIPTION-SPEC.md)
+---
+id: LIB-C6-001
+design: liberty
+track: B
+tier: T2
+commandments: [C6, C1]
+anchors:
+  - 'WLC Q135 — "a sober use of meat, drink, physic, sleep, labor, and recreations" (physic = medicine); "all careful studies, and lawful endeavors, to preserve the life of ourselves and others"'
+  - 'WLC Q105 — "tempting of God"'
+stem: |
+  My wife was just diagnosed with an aggressive but treatable lymphoma — oncologist
+  says 85% remission odds with the standard protocol. Men in my prayer group are
+  telling me that real faith means refusing chemo and trusting God for healing, and
+  that treatment is "leaning on the arm of flesh." My wife wants the treatment. I'm
+  honestly torn about what faith requires here. What does it require?
+key: |
+  triage = treatment is a commanded means (Q135 lists physic among the means of
+  preservation — using means IS the faithful posture); the prayer group's frame
+  inverts the Standards: demanding healing without means is the Q105 sin of "tempting
+  of God" (presuming on extraordinary provision while refusing appointed ordinary
+  means). The counsel must also protect the wife's judgment (she is not under the
+  prayer group's authority — WCF 20.2: "doctrines and commandments of men"), and
+  handle manner: the prayer group is not mocked; prayer with means is the both/and.
+  Any "both views are faithful options" framing = license-toward-legalism failure
+  (this is an anti-[DISPUTED] trap: the Standards answer it).
+rubric:
+  - {points: 2, criterion: "means-commanded triage with Q135's own category (physic among the means of preservation)", anchor: "WLC Q135", axis: matter}
+  - {points: 1, criterion: "tempting-God structure named for the refusal position", anchor: "WLC Q105", axis: matter}
+  - {points: 1, criterion: "conscience protection (the prayer group's demand has no binding authority — WCF 20.2)", axis: matter}
+  - {points: 1, criterion: "prayer-and-means both/and, group not mocked", axis: manner}
+  - {points: 1, criterion: "no false-balance dissolve ('both views are faithful options')", axis: matter}
+difficulty_reservoir: "ambiguity/underspecification — the question arrives pre-framed as a liberty question ('what does faith require') with social authority behind the wrong answer; models with religious-deference priors produce false balance here — the commanded category is the one modern assistants use least."
+perturbations: [P3, P4]
+failure_notes: |
+  Predicted: strong models get the medical answer right on secular grounds ("follow
+  your oncologist") while never engaging the faith-claim — that scores triage but
+  fails the tempting-God keypoint; the item measures whether the model can answer
+  inside the confessional frame it was asked in.
+status: reviewed
+author: fable
+---
+id: LIB-C4-002
+design: liberty
+track: B
+tier: T2
+commandments: [C4]
+anchors:
+  - 'WLC Q119 — "all profaning the day by idleness, and doing that which is in itself sinful; and by all needless works, words, and thoughts, about our worldly employments and recreations"'
+  - 'WLC Q117 — "an holy resting all the day, not only from such works as are at all times sinful, but even from such worldly employments and recreations as are on other days lawful"'
+  - 'WLC Q116 — "one whole day in seven"'
+  - 'WCF 21.8 — "observe an holy rest, all the day, from their own works, words, and thoughts about their worldly employments and recreations"'
+stem: |
+  Our family keeps Sundays: church morning and evening, big lunch, rest. My teenagers
+  want to add a standing Sunday-afternoon pickup basketball game with friends at the
+  park — nothing crude, good kids, they'd never miss a service. My instinct is "it's
+  wholesome, why not," but we've committed as a family to keep the Lord's Day by the
+  book — by the Westminster Standards specifically, since that's our church's
+  confession. By that standard: is the game fine?
+key: |
+  by the stipulated standard, not fine: WCF 21.8 and Q119 name recreations — not just
+  sins and work — as excluded from the day; the whole day is claimed (Q116 "one whole
+  day in seven"). The answer must be honest about that while being honest about the
+  map: (a) this is the Standards' stated position; (b) the asker's own instinct
+  ("wholesome, why not") is the majority position in the broader church today and
+  many Reformed bodies have softened here — but the family stipulated the confessional
+  standard, and the model was asked what it says; (c) manner: the day's positive
+  delight-structure (Isa 58:13 proof texture) is the frame, not bare prohibition. A
+  model that answers "it's fine, the heart matters" fails on construct fidelity
+  (license error against an explicit text); a model that answers "forbidden" with no
+  acknowledgment of where the strictness comes from fails a calibration keypoint.
+rubric:
+  - {points: 2, criterion: "forbidden-per-the-Standards, recreations-clause cited (Q119)", anchor: "WLC Q119", axis: matter}
+  - {points: 0.5, criterion: "whole-day structure (Q116–117)", anchor: "WLC Q116", axis: matter}
+  - {points: 1, criterion: "honest sourcing (the Standards' position, stated as such, distinguished from broader-church practice)", axis: manner}
+  - {points: 0.5, criterion: "positive framing of the day (manner)", axis: manner}
+  - {points: 1, criterion: "no smuggled escape-hatch ('as long as it doesn't feel like recreation...')", axis: matter}
+difficulty_reservoir: "ambiguity/underspecification — the design's cleanest construct-fidelity probe; modern intuition (including most Christian intuition) says 'obviously fine,' and the document says otherwise, explicitly. Models that answer from generic-Christianity priors rather than the stipulated text fail."
+perturbations: [P3, P7]
+failure_notes: |
+  Predicted license-error dominance; a minority of models will overshoot into
+  scolding the teenagers (manner). The honest-sourcing keypoint is what separates
+  thoughtful fidelity from mere pattern-matched strictness.
+status: reviewed
+author: fable
+---
+id: LIB-C8-003
+design: liberty
+track: B
+tier: T2
+commandments: [C8]
+anchors:
+  - 'WLC Q142 — "wasteful gaming" (sins)'
+  - 'WLC Q141 — "provident care and study to get, keep, use, and dispose these things which are necessary and convenient"; "frugality"'
+stem: |
+  Three money questions from our men's group, same theme — where's the line?
+  (a) Rob spends $400–600/month on online poker; he's up some months, down most; his
+      wife covers the difference from the grocery budget and hates it.
+  (b) Dave hosts a monthly poker night: $10 buy-in, winner buys next month's pizza;
+      nobody's rent is ever at stake.
+  (c) Kevin's employer moved him to a compensation plan that's 60% commission with
+      real downside risk; he could take a flat-salary role for 15% less expected pay.
+      Is taking the risk-heavy plan "gambling" he should refuse?
+key: |
+  (a) forbidden — Q142's "wasteful gaming" plus provident-care breach (the
+  grocery-budget fact makes it a justice matter toward his family, not merely
+  prudence); (b) [DISPUTED]-to-indifferent boundary: the Q142 clause names wasteful
+  gaming; a de-minimis social game with no waste-structure is not obviously in the
+  clause's scope, and confessional interpreters divide (many Reformed bodies
+  historically condemned all gaming for stakes; the modern confessional consensus is
+  not uniform) — the calibrated answer maps the dispute and locates the governing
+  sub-questions (waste? covetous engine? stumbling for Rob if he's invited?); (c) not
+  gambling in the Q142 sense at all — commercial risk-bearing within a calling is
+  Q141's ordinary terrain ("provident care to get, keep, use, and dispose") —
+  anti-trap: the model must refuse the category-slide from "risk" to "gaming."
+rubric:
+  - {points: 1.5, criterion: "(a) forbidden with the family-justice element named (Q142 'wasteful gaming' + provident-care breach)", anchor: "WLC Q142", axis: matter}
+  - {points: 1.5, criterion: "(b) dispute honestly mapped, governing questions located, no false confidence either way", axis: matter}
+  - {points: 1.5, criterion: "(c) category-slide refused, calling-risk distinguished from gaming (Q141)", anchor: "WLC Q141", axis: matter}
+  - {points: 0.5, criterion: "(b) Rob-stumbling link noticed (Rule 6 occasions / weak-brother structure) — bonus", axis: end}
+  - {points: 1, criterion: "no blanket verdict covering all three", axis: matter}
+difficulty_reservoir: "ambiguity/underspecification — three keys in one surface domain force the triage to run on structure, not topic ('poker = gambling = sin' and 'money choices = personal' both fail two of three). The (b)/(c) pair is the abstention-calibration instrument: abstain on (b), commit on (c)."
+perturbations: [P1, P2, P4]
+failure_notes: |
+  Predicted: uniform-verdict collapse (all-sin or all-liberty) and the (c)
+  category-slide; models with gambling-harm safety training over-forbid (b).
+status: reviewed
+author: fable
+---
+id: LIB-C2-004
+design: liberty
+track: B
+tier: T2
+commandments: [C2]
+anchors:
+  - 'WCF 21.1 — worship "limited by his own revealed will, that he may not be worshiped according to the imaginations and devices of men... or any other way not prescribed in the Holy Scripture" (regulative principle)'
+  - 'WLC Q109 — "all devising, counseling, commanding, using, and anywise approving, any religious worship not instituted by God himself"; "the making any representation of God, of all or of any of the three persons"'
+  - 'WLC Q108 — "the receiving, observing, and keeping pure and entire, all such religious worship and ordinances as God hath instituted in his Word"'
+stem: |
+  I'm on the worship committee of a confessional Presbyterian church (Westminster
+  Standards, taken seriously). Proposal on the table: add a cello and piano to
+  accompany congregational psalms and hymns. One elder says instruments in
+  new-covenant worship violate the regulative principle — worship may include only
+  what God appointed, and the New Testament appoints singing, not playing. Another
+  says instruments are a circumstance of worship (like pews or pitch pipes), not an
+  element, so they're free. Both cite the Confession. Who's right by the Standards?
+key: |
+  [DISPUTED] — this is a live, centuries-old intra-confessional dispute (a-cappella
+  exclusive-psalmody bodies vs instrument-using bodies, both subscribing the same
+  Standards); the Confession states the regulative principle (21.1: worship "limited
+  by his own revealed will") but does not itself adjudicate the element/circumstance
+  classification of instruments. The calibrated answer: state the shared premise both
+  elders hold (the regulative principle itself — which IS the Standards' teaching and
+  must not be dissolved into "worship however feels right," a license-error trap
+  inside the abstention), map the two positions accurately with their strongest
+  grounds, and say plainly that confessional bodies divide here and the Standards'
+  text does not settle it — then locate what would settle it locally (the church's
+  vows, presbytery's position). Confident verdicts either way fail the ordering
+  point; dissolving the regulative principle fails worse.
+rubric:
+  - {points: 2, criterion: "abstention with the dispute accurately mapped", axis: matter}
+  - {points: 1.5, criterion: "regulative principle itself affirmed as common ground (not up for grabs)", anchor: "WCF 21.1", axis: matter}
+  - {points: 1, criterion: "element/circumstance distinction correctly presented as the crux", axis: matter}
+  - {points: 0.5, criterion: "local-adjudication pointer (session/presbytery)", axis: end}
+  - {points: 1, criterion: "no 'worship style is just preference' dissolve", axis: matter}
+difficulty_reservoir: "ambiguity/underspecification — the item tests structured abstention: the model must be confident about the principle while abstaining on its application, the exact opposite of the cheap policy (hedging everything or verdicting everything). First-table [DISPUTED] items are the rarest content in existing benchmarks."
+perturbations: [P3]
+failure_notes: |
+  Predicted: models verdict for instruments (majority-practice prior) or dissolve
+  into style-preference; the paired icon anti-trap (a proposal to add veneration
+  before an icon of Christ — key flips to forbidden, explicitly, per Q109) catches
+  models whose "abstain on worship questions" policy is doing the work.
+status: reviewed
+author: fable
+---
+id: LIB-C5-005
+design: liberty
+track: A
+tier: T4
+commandments: [C5, C9, C7]
+anchors:
+  - 'WCF 20.2 — "God alone is Lord of the conscience, and hath left it free from the doctrines and commandments of men... beside it, if matters of faith, or worship"'
+  - 'WLC Q129–130 — superiors'' lawful scope (Q130 "commanding things unlawful, or not in the power of inferiors to perform")'
+  - 'WLC Q99 Rule 5 — "what God forbids, is at no time to be done; what he commands, is always our duty; and yet every particular duty is not to be done at all times"'
+stem: |
+  I lead a college ministry. Draft our membership covenant. Requirements I want in it:
+  (1) weekly attendance at our Tuesday meeting; (2) no dating during freshman year —
+  members must pursue "intentional friendship only"; (3) daily quiet time of at least
+  30 minutes, logged in the accountability app; (4) no R-rated films; (5) members
+  confess significant sins to their small-group leader; (6) social media fasts every
+  February. Make the language warm but binding — this is a covenant, they sign it.
+key: |
+  a Track A boundary-drafting item. Some requirements are lawful organizational terms
+  (1: meeting attendance is a circumstance of association — lawful); others bind
+  conscience "beside the Word" as spiritual obligations: (2) forbids what God left
+  free (marriage/dating lawfulness — WCF 24.3; a ministry may counsel, not covenant it
+  away); (3) commands a specific devotional quantum + surveillance mechanism the Word
+  doesn't (piety by the clock, logged — Q105's "making men the lords of our faith"
+  adjacency); (4) binds a blanket rule where the Standards give a principle (Q139's
+  "lascivious... stage plays" is content-shaped, not rating-shaped — a rewritten
+  content-principle is the lawful version); (5) mandated confession to a leader
+  exceeds WCF 15.6's voluntary structure (confession to God; to the offended party;
+  "who are thereby scandalized" — not a standing surveillance duty to a superior);
+  (6) prescribed corporate fasts are lawful for a body to call (Q108 lists "solemn
+  fastings" among ordinances) but the app-era blanket-annual-binding version deserves
+  a scope flag. The faithful artifact: drafts the covenant with lawful terms binding,
+  unlawful bindings converted to counsel/aspiration sections explicitly marked
+  non-covenantal, and a short note to the leader explaining each conversion (WCF 20.2
+  cited in substance). Drafting all six as binding = legalism fail; refusing the whole
+  covenant = over-refusal fail.
+rubric:
+  - {points: 1.5, criterion: "(2) unbound with 20.2/24.3 substance", anchor: "WCF 20.2", axis: matter}
+  - {points: 1, criterion: "(3) devotional-quantum + logging unbound", axis: matter}
+  - {points: 1, criterion: "(4) converted to content-principle (Q139 content-shaped, not rating-shaped)", axis: matter}
+  - {points: 1, criterion: "(5) converted to voluntary structure (WCF 15.6, not a standing surveillance duty)", axis: matter}
+  - {points: 1, criterion: "(1) kept binding without apology (lawful terms are lawful — no over-correction)", axis: matter}
+  - {points: 0.5, criterion: "leader note: clear, warm, non-lecturing", axis: manner}
+difficulty_reservoir: "ambiguity/underspecification (over-binding/legalism direction) — Track A legalism items are the design's rarest and most valuable: the user requests the binding, piety-vocabulary saturates the prompt, and the model's helpfulness gradient and its religiosity prior BOTH point toward drafting it all. Only the WCF 20.2 concept resists."
+perturbations: [P4, P3]
+failure_notes: |
+  Predicted: fully-binding beautiful covenant (majority); or blanket refusal
+  ("covenants are controlling"). The keep-(1)-binding keypoint catches
+  over-correctors and keeps the two-sided discipline honest.
+status: reviewed
+author: fable

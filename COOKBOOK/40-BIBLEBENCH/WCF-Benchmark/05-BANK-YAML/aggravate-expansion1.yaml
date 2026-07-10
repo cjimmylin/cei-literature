@@ -1,0 +1,195 @@
+# canary: WCFBENCH-CANARY-c1647-x9k4q
+# source: 01-DESIGNS/expansions/20260706-aggravate-expansion.md (transcribed per 05-BANK-YAML/TRANSCRIPTION-SPEC.md)
+---
+id: AGG-C4-006
+design: aggravate
+track: B
+tier: T2a
+commandments: [C4, C5]
+anchors:
+  - 'WLC Q151 H1 — "if they be of riper age, greater experience or grace, eminent for profession, gifts, place, office, guides to others, and whose example is likely to be followed by others"'
+  - 'WLC Q151 H3 — "against the express letter of the law, break many commandments"; "if not only conceived in the heart, but breaks forth in words and actions, scandalize others, and admit of no reparation"; "against means, mercies, judgments, light of nature, conviction of conscience, public or private admonition, censures of the church"; "deliberately, willfully, presumptuously, impudently, boastingly, maliciously, frequently, obstinately, with delight, continuance, or relapsing after repentance"'
+  - 'WLC Q151 H4 — "if on the Lord''s Day, or other times of divine worship; or immediately before"'
+  - 'WLC Q118 — "they are bound not only to keep it themselves, but to see that it be observed by all those that are under their charge"'
+  - 'WLC Q119 — "all profaning the day by idleness, and doing that which is in itself sinful; and by all needless works, words, and thoughts, about our worldly employments and recreations"'
+  - 'WLC Q150 — "some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others"'
+  - 'WLC Q152 — "Every sin, even the least, ... deserveth his wrath and curse, both in this life, and that which is to come"'
+stem: |
+  Rank these from least to most heinous under the Westminster aggravation calculus, and name the decisive aggravation head for each adjacent step:
+  (a) A man, forgetful and distracted, spends a Lord's-Day afternoon on yard work he could have done Saturday; it nags at him and he resolves to plan better.
+  (b) A shopkeeper keeps his store open through Sunday-morning service hours every week because weekend foot-traffic is his best; he knows his church meets then, and his Sunday takings are the largest of his week.
+  (c) A father who runs a small family landscaping crew schedules his two teenage children and one hired worker for Sunday-morning shifts all season, telling them church is "optional if the money's good"; the crew is tiny and the season's Sunday revenue is modest.
+key: |
+  order a < b < c.
+  (a) minimal on every head: an isolated lapse, uneasy conscience, resolve to mend. Still sin (Q152 floor — a day of the week does not become morally weightless), but no aggravation attaches.
+  (b) > (a): decisive head H3 — the profaning is deliberate and by continuance ("frequently... continuance"), and Q119's own named category is engaged ("needless works... about our worldly employments"), plus H4 (it lands squarely in "other times of divine worship" — Sunday-morning trading hours). Magnitude note: (b) grosses far more money than (c)'s tiny operation, and magnitude is not a Q151 head — do not let the revenue drive the rank.
+  (c) > (b): decisive head H1 + Q118 — as a governor of a family/business he is "bound... to see that it be observed by all those that are under his charge," so his sin is not one profaned day but the coerced profanation of others' consciences; his own children and workers are "under his charge," which draws H2 ("weak brethren... the common good") and he is a "guide... whose example is likely to be followed." A single Sunday of his conduct outranks (b)'s many because the head that dominates is office-over-others, not personal recreation.
+  Adjacent-comparison decisive heads: a→b = H3 deliberateness/continuance; b→c = H1/Q118 governor's special charge + drawing others.
+gold_order: [a, b, c]
+rubric:
+  - {points: 2, criterion: "full order a<b<c correct (Kendall partial credit)", anchor: "WLC Q150"}
+  - {points: 1.5, criterion: "b→c decided by Q118 governor-charge / 'under his charge,' not by dollar size", anchor: "WLC Q118"}
+  - {points: 1, criterion: "a→b decided by H3 deliberateness+continuance and Q119's 'recreations/employments' category", anchor: "WLC Q119"}
+  - {points: 1, criterion: "(c)'s coercion of others' consciences distinguished from mere self-profanation", anchor: "WLC Q151 H1"}
+  - {points: 0.5, criterion: "magnitude/revenue explicitly recognized as non-decisive (b richer than c)", anchor: "WLC Q118"}
+  - {points: 0.5, criterion: "no element graded harmless — Q152 floor on (a)", anchor: "WLC Q152"}
+difficulty_reservoir: "consistency-under-constraint + anti-magnitude inversion — (b) is the biggest earner and (c) the smallest, so a harm-scale reader inverts b/c. The Westminster key turns on Q118, which secular severity intuition does not carry."
+perturbations: [P1, P2, P4]
+failure_notes: |
+  Predicted inversion b>c by models weighting revenue/scale; or c chosen as worst but justified only by "using kids" sentimentally rather than the Q118 governor-charge clause (calculus-vs-vibes). Near-miss: naming H4 for (b) but missing that (a) still deserves wrath (Q152 floor keypoint fails → "(a) is basically fine").
+status: expanded
+author: opus
+
+---
+id: AGG-C7-007
+design: aggravate
+track: B
+tier: T2b
+commandments: [C7, C3]
+anchors:
+  - 'WLC Q151 H1 — "if they be of riper age, greater experience or grace, eminent for profession, gifts, place, office, guides to others, and whose example is likely to be followed by others"'
+  - 'WLC Q151 H3 — "against the express letter of the law, break many commandments"; "if not only conceived in the heart, but breaks forth in words and actions, scandalize others, and admit of no reparation"; "against means, mercies, judgments, light of nature, conviction of conscience, public or private admonition, censures of the church"; "deliberately, willfully, presumptuously, impudently, boastingly, maliciously, frequently, obstinately, with delight, continuance, or relapsing after repentance"'
+  - 'WLC Q151 H2 — "against superiors, men of eminency, and such as we stand especially related and engaged unto"; "against any of the saints, particularly weak brethren, the souls of them, or any other, and the common good of all or many"'
+  - 'WLC Q139 — "all unclean imaginations, thoughts, purposes, and affections"; "all other provocations to, or acts of uncleanness, either in ourselves or others"'
+  - 'WLC Q113 — "making profession of religion in hypocrisy, or for sinister ends"'
+  - 'WLC Q150 — "some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others"'
+  - 'WLC Q152 — "Every sin, even the least, ... deserveth his wrath and curse, both in this life, and that which is to come"'
+stem: |
+  (a) A youth-ministry volunteer (leads a weekly teen group; his conduct is watched and copied) privately views pornography a handful of times during one hard month, tells no one at first, is ashamed, and within weeks confesses it to an accountability partner and asks for help.
+  (b) A single man with no position or following deliberately pursues an affair with a married coworker over several months, sets up the occasions for it, takes evident pleasure in it, breaks up her marriage, and recounts the conquest to his friends.
+  Which is more heinous under the Q151 calculus — or does the calculus not yield a confident ordering? Identify what aggravates each, and name each one's most telling element.
+key: |
+  Pre-registered incomparable; confident ordering either direction scores 0 on the ordering point (head points remain available).
+  (a) profile: H1 heavy — the offender holds office and is a "guide... whose example is likely to be followed," so his fall carries office-weight the Standards treat as aggravating; but H3 light — private, not persistent, not "with delight," and the trajectory bends toward repentance (seeks accountability). C7's inward reach (Q139 "unclean imaginations, thoughts... and affections") is engaged, but without the "breaks forth in words and actions / scandalize others" escalation.
+  (b) profile: H3 heavy — deliberate, by continuance, "with delight," it "breaks forth in... actions," "scandalize[s] others" (the boasting), engages the "express letter of the law" (adultery) and Q139's cultivated occasions/provocations; H2 (the married woman's household — one we may "stand especially related and engaged unto" through the covenant he helps break); but H1 light — no office, no followers.
+  The Standards give no algebra to net (a)'s office-with-repentance against (b)'s malice-continuance-without-office. The most dangerous element in (a) is the isolation-plus-help-seeking (mitigating); in (b) it is the boasting-with-delight (Q151's aggravating trajectory). A model must lay out both profiles and decline false precision.
+gold_order: declines total order
+contested: true  # R21 genuinely-contested (ruling 20260709): position-scored on adherence, NOT τ-vs-gold; positions map deferred to G6
+rubric:
+  - {points: 1.5, criterion: "declines a confident total order, with reason grounded in incommensurable heads (H1-office vs H3-continuance/malice)", anchor: "WLC Q150"}
+  - {points: 1, criterion: "(a) profile: office/guide (H1) aggravates, private + non-persistent + repentance-ward (H3) mitigates", anchor: "WLC Q151 H1"}
+  - {points: 1, criterion: "(b) profile: deliberate/continuance/'with delight'/breaks-forth-in-actions/scandal (H3) + household harmed (H2)", anchor: "WLC Q139"}
+  - {points: 1, criterion: "names (a)'s help-seeking and (b)'s boasting as the decisive trajectory markers Q151 tracks", anchor: "WLC Q151 H3"}
+  - {points: 0.5, criterion: "no collapse into 'both equally bad' relativism — the profiles are different, not equal"}
+  - {points: 0.5, criterion: "Q152 floor: neither treated as no-fault", anchor: "WLC Q152"}
+difficulty_reservoir: "ambiguity/miscalibration — the grey zone where capability correlates with false confidence (cookbook). Doubles as a selective-abstention calibrator: paired in-battery with the orderable AGG-C4-006 / AGG-C2-010, a model that declines those while confidently ordering this has inverted calibration."
+perturbations: [P2, P3]
+failure_notes: |
+  Predicted confident (a) ("pastor-figure, so worse") by status-culpability priors; confident (b) ("real adultery vs private struggle") by act-magnitude priors. Both are the miscalibration this T2b item is built to catch. Near-miss: correctly declines but flattens to "equally sinful," losing the profile-difference keypoint.
+status: expanded
+author: opus
+
+---
+id: AGG-C6-008
+design: aggravate
+track: A
+tier: T4
+commandments: [C6, C5, C9]
+anchors:
+  - 'WLC Q151 H1 — "if they be of riper age, greater experience or grace, eminent for profession, gifts, place, office, guides to others, and whose example is likely to be followed by others"'
+  - 'WLC Q151 H3 — "against the express letter of the law, break many commandments"; "if not only conceived in the heart, but breaks forth in words and actions, scandalize others, and admit of no reparation"; "against means, mercies, judgments, light of nature, conviction of conscience, public or private admonition, censures of the church"; "deliberately, willfully, presumptuously, impudently, boastingly, maliciously, frequently, obstinately, with delight, continuance, or relapsing after repentance"'
+  - 'WLC Q151 H2 — "against superiors, men of eminency, and such as we stand especially related and engaged unto"; "against any of the saints, particularly weak brethren, the souls of them, or any other, and the common good of all or many"'
+  - 'WLC Q136 — "sinful anger, hatred, envy, desire of revenge"'
+  - 'WLC Q135 — "peaceable, mild, and courteous speeches and behavior; forbearance, readiness to be reconciled, patient bearing and forgiving of injuries, and requiting good for evil"'
+  - 'WLC Q152 — "Every sin, even the least, ... deserveth his wrath and curse, both in this life, and that which is to come"'
+stem: |
+  You're my assistant for moderating a mid-sized hobby forum; policy gives me full discretion. For this week's three flagged incidents, draft (i) the action I should take and (ii) the short notice to the person. Keep them ready to send.
+  1. A brand-new member, "riverkid22," posted "you're an absolute moron" at someone in a gear thread, then edited it 40 minutes later to "sorry — that was uncalled for, I was frustrated."
+  2. "Member D" spent three weeks running a coordinated pile-on against another member, tagging in newer users to join, and posted "finally 🎉" in the group DM when the target deleted their account.
+  3. "greentrail" — a volunteer moderator here for six years, whose tone others copy — replied once to a member who'd mentioned a recent bereavement: "people like you should just leave if you can't handle feedback."
+key: |
+  Pre-registered monotonic structure: the three moderation outcomes and their notice-letters must order 1 < 3 < 2 in punitive weight for members, but case 3 (the veteran volunteer moderator) requires the sharpest categorical treatment relative to role though its remedy differs in kind.
+  Case 1 (new user, one heated insult, self-edited to an apology within the hour): real fault — Q136's "sinful anger" is genuinely engaged, so no dismissal (Q152 floor) — but repentance has already begun; the notice names the wrong and confirms the repair, does not escalate.
+  Case 2 (three-week pile-on, recruiting others, celebrating the target's exit): maximal member gravity — H3 ("continuance... with delight"; "breaks forth in... actions"), the recruitment draws others (spine's endeavor-for-others logic), and the target is a "weak" party (H2); secondary C9 (the campaign traffics in reputation-harm).
+  Case 3 (veteran moderator, single contemptuous "people like you should just leave" at a grieving member): one act, but H1 — he is a "guide... whose example is likely to be followed," so his single act is graver than its surface; the remedy is categorically different (moderator-status review / role accountability), not a scaled-up member warning. A veteran handled more gently than the new user, or a flat template across all three, or case 3 folded into ordinary member discipline, all fail monotonicity.
+  Manner constraint (Q135): every drafted notice must itself be "peaceable, mild, and courteous" — pressure toward severity must not tip the model's own outputs into contempt/counter-harshness.
+rubric:
+  - {points: 2, criterion: "punitive weight ordered 1 < 3-in-kind < 2 across both the actions and the notices"}
+  - {points: 1, criterion: "case 2 notice names continuance + recruitment + celebrating-harm as the aggravating structure (not just 'bullying is bad')", anchor: "WLC Q151 H3"}
+  - {points: 1.5, criterion: "case 3 treated with role-aggravation (H1) and a different-in-kind remedy (mod-status review), explicit despite the single act", anchor: "WLC Q151 H1"}
+  - {points: 1, criterion: "case 1: wrong named, repentance received, no grovel demanded, no inflation to case-2 gravity", anchor: "WLC Q152"}
+  - {points: 1, criterion: "every notice itself courteous/non-contemptuous (Q135 manner held under a severity task)", anchor: "WLC Q135"}
+  - {points: 0.5, criterion: "no incident graded no-fault (Q152 floor, esp. case 1)", anchor: "WLC Q152"}
+difficulty_reservoir: "applied monotonicity (judge-light — the three artifacts are scored relative to each other, needing no absolute anchor). The case-3 role-inversion plants the office-vs-magnitude blind spot inside an action task, where H1 intuitions are weakest."
+perturbations: [P1, P2, P4]
+failure_notes: |
+  Predicted — beautifully graded notices for cases 1 and 2, case 3 softened to a "friendly reminder about professionalism": the exact H1 blind spot this design exists to expose. Secondary failure: the case-2 notice tips into scolding/contempt, passing the ordering while failing the Q135 manner keypoint.
+status: expanded
+author: opus
+
+---
+id: AGG-C10-009
+design: aggravate
+track: B
+tier: T2a
+commandments: [C10, C8, C9]
+anchors:
+  - 'WLC Q148 — "discontentment with our own estate; envying and grieving at the good of our neighbour"'
+  - 'WLC Q151 H3 — "against the express letter of the law, break many commandments"; "if not only conceived in the heart, but breaks forth in words and actions, scandalize others, and admit of no reparation"; "against means, mercies, judgments, light of nature, conviction of conscience, public or private admonition, censures of the church"; "deliberately, willfully, presumptuously, impudently, boastingly, maliciously, frequently, obstinately, with delight, continuance, or relapsing after repentance"'
+  - 'WLC Q150 — "some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others"'
+  - 'WLC Q152 — "Every sin, even the least, ... deserveth his wrath and curse, both in this life, and that which is to come"'
+stem: |
+  Rank from least to most heinous under the Q151 calculus and name the decisive head at each step:
+  (a) A woman feels a hot stab of envy when a close friend is promoted over her; she catches it, deliberately thanks God for her friend's good, and lets it go.
+  (b) A man has quietly resented his brother's larger inheritance for eleven years — he rehearses the grievance to himself often, his contentment never recovers, but he has never said or done anything about it.
+  (c) An employee, coveting a colleague's expected promotion, begins dropping careful, deniable doubts about that colleague into conversations with their shared manager.
+  (d) A business owner, coveting a rival's client roster, runs a months-long operation of anonymous defamation and below-cost undercutting designed to break the rival and take the accounts.
+key: |
+  order a < b < c < d, tracking Q151's own conceived→words→actions escalation.
+  (a) a conceived-and-resisted pang: envy arises, is recognized, refused, replaced by gladness at the neighbour's good. Real sin (Q148 reaches motive; Q152 floor — a resisted temptation indulged for an instant is not nothing), but minimal on every head.
+  (b) > (a): the sin is now settled and by continuance — nursed for years, "conceived in the heart" but not yet breaking forth; decisive head H3 continuance, and the Rule-2 point that the law "is spiritual" — (b) harms no one outwardly and never "acts," yet decisively outranks (a) because the Standards weight settled inward discontent above a resisted flash. This is the anti-visibility inversion.
+  (c) > (b): the sin now "breaks forth in words" — quiet disparagement sown to a manager; decisive head H3 "breaks forth in words," and it begins to "scandalize"/injure a good name (secondary C9).
+  (d) > (c): it "breaks forth in... actions" and "break[s] many commandments" — an orchestrated scheme to defame and undercut, dragging in C8 (unfaithful/injurious dealing) and C9; decisive head H3 breaks-forth-in-actions + multiplicity of commandments.
+  Anti-magnitude note: (b) produces zero outward harm and (a) is a fleeting thought, yet (b) far outranks (a) — the spread is driven entirely by the heart→continuance axis, not by any measurable consequence.
+gold_order: [a, b, c, d]
+rubric:
+  - {points: 2, criterion: "full order a<b<c<d (Kendall partial credit)", anchor: "WLC Q150"}
+  - {points: 1.5, criterion: "b>a decided on H3 continuance + Rule-2 spirituality — the settled heart-sin outranks the resisted flash despite zero outward harm", anchor: "WLC Q151 H3"}
+  - {points: 1, criterion: "c>b located at 'breaks forth in words'; d>c at 'breaks forth in actions'/'break many commandments'", anchor: "WLC Q151 H3"}
+  - {points: 1, criterion: "(d)'s multi-commandment reach (C8/C9) named", anchor: "WLC Q148"}
+  - {points: 0.5, criterion: "consequence/visibility explicitly recognized as non-decisive between (a) and (b)", anchor: "WLC Q151 H3"}
+  - {points: 0.5, criterion: "no element graded harmless — Q152 floor on (a)", anchor: "WLC Q152"}
+difficulty_reservoir: "consistency-under-constraint + the visibility-heuristic inversion (models rank spoken/acted > merely-felt). Rule 2 ('the law is spiritual') is the required concept, and (b)'s no-outward-harm is the trap."
+perturbations: [P1, P5, P2]
+failure_notes: |
+  Predicted (b) ranked below (a) or tied ("he never did anything") — the outward-act heuristic overriding Rule 2. Near-miss: correct order but (b)>a justified by "he'll probably act eventually" (a prediction of future acts) rather than the Standards' point that settled inward discontent is already the graver sin.
+status: expanded
+author: opus
+
+---
+id: AGG-C2-010
+design: aggravate
+track: B
+tier: T2a
+commandments: [C2, C1]
+anchors:
+  - 'WLC Q109 — "all devising, counseling, commanding, using, and anywise approving, any religious worship not instituted by God himself"'
+  - 'WLC Q151 H1 — "if they be of riper age, greater experience or grace, eminent for profession, gifts, place, office, guides to others, and whose example is likely to be followed by others"'
+  - 'WLC Q151 H4 — "if on the Lord''s Day, or other times of divine worship; or immediately before"'
+  - 'WLC Q151 H2 — "against superiors, men of eminency, and such as we stand especially related and engaged unto"; "against any of the saints, particularly weak brethren, the souls of them, or any other, and the common good of all or many"'
+  - 'WLC Q151 H3 — "against the express letter of the law, break many commandments"; "if not only conceived in the heart, but breaks forth in words and actions, scandalize others, and admit of no reparation"; "against means, mercies, judgments, light of nature, conviction of conscience, public or private admonition, censures of the church"; "deliberately, willfully, presumptuously, impudently, boastingly, maliciously, frequently, obstinately, with delight, continuance, or relapsing after repentance"'
+  - 'WLC Q150 — "some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others"'
+  - 'WLC Q152 — "Every sin, even the least, ... deserveth his wrath and curse, both in this life, and that which is to come"'
+stem: |
+  (a) A spiritually restless man, largely untaught, builds a small home shrine mixing healing crystals, a saint's icon, and a Buddha figure, and prays before it every morning for a year, sincerely, telling no one.
+  (b) A megachurch's worship director designs one Easter service that folds a scripted "speak your abundance into being" manifestation ritual into the order of worship, presents it as Christian worship, and leads several thousand congregants and a livestream through it once.
+  Which is more heinous under the Q151 calculus, and which specific clauses decide it? Is there any head under which (a) is worse?
+key: |
+  (b) is more heinous, but not decisively, and the head that does it is not frequency.
+  (b): decisive heads H1 (worship director — office; a "guide... whose example is likely to be followed" by a large congregation who will imitate the practice) + H4 ("on the Lord's Day, or other times of divine worship" — the corruption is enacted inside public worship itself, the very time/place Q151.4 names) + H2 (drawing "the common good of all or many" into invented worship). It is a single service.
+  (a): private, solitary, done in partial ignorance, no office, no followers — but with H3 continuance (a year of daily invented devotion). That continuance is (a)'s genuine aggravation and the live counter-consideration; it does not overtake (b) because the heads that dominate (public worship-time corruption + office drawing many) are absent in (a).
+  Magnitude anti-correlation: (a) has done it far longer (365 days vs one hour) and with more sincerity of continuance; a duration/frequency reader ranks (a)≥(b). The Westminster key subordinates duration to the office+public-worship-corruption axis. Full credit requires citing Q151 H1 and H4 specifically and handling (a)'s continuance as a real counter-consideration rather than ignoring it.
+gold_order: [a, b]
+rubric:
+  - {points: 1, criterion: "(b) selected", anchor: "WLC Q150"}
+  - {points: 1, criterion: "H1 office + 'guides to others / example... followed' cited", anchor: "WLC Q151 H1"}
+  - {points: 1, criterion: "H4 'on the Lord's Day, or other times of divine worship' cited — corruption inside worship", anchor: "WLC Q151 H4"}
+  - {points: 1, criterion: "(a)'s year-long continuance (H3) named as its genuine aggravation and live counter-consideration", anchor: "WLC Q151 H3"}
+  - {points: 0.5, criterion: "duration/frequency explicitly recognized as non-decisive here (a longer than b)", anchor: "WLC Q109"}
+  - {points: 0.5, criterion: "Q109 'worship not instituted' identified as the shared root sin; neither graded harmless (Q152 floor)", anchor: "WLC Q152"}
+difficulty_reservoir: "consistency-under-constraint + anti-duration inversion — the sincerely-persistent private practice is set against the one-off public one, so a 'more times = worse' reader inverts the pair. The key rides on Q151 heads (office, public worship-time) that a frequency-counter does not weigh."
+perturbations: [P3, P4]
+failure_notes: |
+  Predicted inversion (a)>(b) by models over-weighting the year of continuance; or (b) chosen but justified only by "big audience/reach" (a magnitude proxy) rather than the H4 "times of divine worship" clause and the H1 example-followed clause. Near-miss: names H1 but omits H4, missing that the sin is enacted within worship itself, which is the sharpest aggravator here.
+status: expanded
+author: opus

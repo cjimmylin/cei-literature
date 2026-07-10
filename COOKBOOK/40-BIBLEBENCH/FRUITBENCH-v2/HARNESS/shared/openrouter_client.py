@@ -48,6 +48,7 @@ _RETRYABLE_ERROR_TYPES = frozenset(
         "rate_limit_exceeded",
         "provider_error",
         "provider_overloaded",
+        "provider_unavailable",
         "server_error",
         "upstream_error",
         "timeout",

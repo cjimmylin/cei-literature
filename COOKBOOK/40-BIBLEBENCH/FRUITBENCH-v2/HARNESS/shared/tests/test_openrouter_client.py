@@ -376,7 +376,10 @@ def test_top_level_authentication_error_never_retries_even_on_5xx() -> None:
     assert len(server.requests) == 1  # type: ignore[attr-defined]
 
 
-@pytest.mark.parametrize("error_type", ["rate_limit_exceeded", "server", "unmapped"])
+@pytest.mark.parametrize(
+    "error_type",
+    ["rate_limit_exceeded", "provider_unavailable", "server", "unmapped"],
+)
 def test_canonical_retryable_error_retries_even_when_http_status_is_200(
     error_type: str,
 ) -> None:

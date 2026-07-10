@@ -30,9 +30,9 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Tuple
 
 from .loader import ItemRecord
-from .judge import JudgeError, assign_judges, run_judge_calibration
+from .judge import JudgeError, assign_judges, run_judge_calibration, run_award_consistency_probe
 from .triaxial import score_triaxial, TriaxialScore
-from .contested import score_contested_position, ContestedScore
+from .contested import score_contested_position, ContestedScore, run_disclosure_inversion_probe
 
 #: item.author -> model family (for the §4.3 generator-family exclusion). Opus and
 #: Fable are both Anthropic-family authors; override per item via
@@ -89,11 +89,22 @@ class JudgePanel:
         active: List[Tuple[str, str, Any]] = []
 
         if calibrate:
+            # R25: judge acceptance = G4 + award-consistency + disclosure-inversion,
+            # same calibrate-and-discard rule. Any of the three failing discards the judge.
             for name, family, client in norm:
-                result = run_judge_calibration(client)
-                if result.flagged:
-                    reasons = "; ".join(f"{cid}: {r['reason']}" for cid, r in result.by_case.items() if not r["passed"])
-                    self.discarded.append((name, f"G4 miscalibrated ({reasons})"))
+                fails: List[str] = []
+                g4 = run_judge_calibration(client)
+                if g4.flagged:
+                    reasons = "; ".join(f"{cid}: {r['reason']}" for cid, r in g4.by_case.items() if not r["passed"])
+                    fails.append(f"G4 miscalibrated ({reasons})")
+                ac = run_award_consistency_probe(client)
+                if not ac.passed:
+                    fails.append(f"award-consistency ({ac.detail})")
+                di = run_disclosure_inversion_probe(client)
+                if not di.passed:
+                    fails.append(f"disclosure-inversion ({di.detail})")
+                if fails:
+                    self.discarded.append((name, " | ".join(fails)))
                 else:
                     active.append((name, family, client))
         else:
@@ -135,7 +146,13 @@ class JudgePanel:
                 continue
             per_judge.append({"name": name, "family": family,
                               "matter": t.matter, "manner": t.manner, "end": t.end,
-                              "graded": dict(t.graded)})
+                              "graded": dict(t.graded),
+                              # R24: keypoint-level awards + off-scale flags (the
+                              # keypoint-level disagreement payload) + OFFMAP notes.
+                              "awards": dict(t.awards), "award_axis": dict(t.award_axis),
+                              "scale_defect": dict(t.scale_defect), "offmap": list(t.offmap),
+                              # R27: the judge's verbatim verdict text(s).
+                              "verdict_texts": list(t.raw_verdicts)})
             used.append((name, family))
         agg = self._aggregate_triaxial(per_judge)
         # axes are graded on a 0..1 scale (§4.2 judge contract), so the Matter axis IS
@@ -148,11 +165,18 @@ class JudgePanel:
     def _aggregate_triaxial(per_judge: List[Dict[str, Any]]) -> TriaxialScore:
         agg = TriaxialScore()
         for axis in ("matter", "manner", "end"):
-            vals = [j[axis] for j in per_judge]
+            # R24 bullet 5: exclude a per-judge axis value flagged off-scale
+            # (scale_defect) from the aggregate — never clamp it in. The raw value
+            # still lives on per_judge as the disagreement evidence.
+            vals = [j[axis] for j in per_judge if not j.get("scale_defect", {}).get(axis)]
+            excluded = sum(1 for j in per_judge if j.get("scale_defect", {}).get(axis))
             m = _mean(vals)
             setattr(agg, axis, m)
             agg.graded[axis] = m is not None
-            agg.detail[axis] = f"mean of {sum(1 for v in vals if v is not None)} judge(s)"
+            note = f"mean of {sum(1 for v in vals if v is not None)} judge(s)"
+            if excluded:
+                note += f" ({excluded} off-scale excluded)"
+            agg.detail[axis] = note
         return agg
 
     # -- CONTESTED: position/coherence across the assigned judges -------------
@@ -171,7 +195,11 @@ class JudgePanel:
             scores.append(s)
             raw.append({"name": name, "family": family, "disclosure": s.disclosure,
                         "position_label": s.position_label, "position_defensible": s.position_defensible,
-                        "coherence": s.coherence, "settled_core_fraction": s.settled_core_fraction})
+                        "coherence": s.coherence, "settled_core_fraction": s.settled_core_fraction,
+                        # R24 off-scale flags + R28 disclosure award pattern + R27 texts.
+                        "scale_defect": dict(s.scale_defect),
+                        "disclosure_awards": dict(s.disclosure_awards),
+                        "verdict_texts": list(s.raw_verdicts)})
             used.append((name, family))
         return ContestedVerdict(score=self._aggregate_contested(scores), per_judge=raw, judges_used=used)
 
@@ -181,7 +209,10 @@ class JudgePanel:
         if not scores:
             return agg
         agg.disclosure = _mean([s.disclosure for s in scores])
-        agg.coherence = _mean([s.coherence for s in scores])
+        # R24 bullet 5: exclude a per-judge coherence flagged off-scale from the
+        # aggregate (raw survives on per_judge). Disclosure is the award form → always
+        # in-range, no exclusion needed.
+        agg.coherence = _mean([s.coherence for s in scores if not s.scale_defect.get("coherence")])
         agg.graded["disclosure"] = agg.disclosure is not None
         agg.graded["coherence"] = agg.coherence is not None
         # position defensibility = majority vote across judges that ruled

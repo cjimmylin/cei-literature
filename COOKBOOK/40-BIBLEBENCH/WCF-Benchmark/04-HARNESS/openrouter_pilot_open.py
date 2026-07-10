@@ -24,6 +24,7 @@ Requires $OPENROUTER_API_KEY (`source ~/.codex/secrets/openrouter.env`). Slugs d
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import os
 import sys
@@ -45,12 +46,16 @@ from wcfbench import (  # noqa: E402
     EXAMINEE_SYSTEM,
     JudgePanel,
     summarize_disagreement,
+    template_hash,
+    write_run_transcripts,
 )
 from wcfbench.judge import JudgeError  # noqa: E402
 
 BANK_DIR = os.path.normpath(os.path.join(HARNESS_ROOT, "..", "05-BANK-YAML"))
 MODELS_URL = "https://openrouter.ai/api/v1/models"
-OUT_DIR = os.path.normpath(os.path.join(HARNESS_ROOT, "..", "07-PILOTS", "20260710-open-contested"))
+# R24-fix post-fix re-run -> a NEW dated run directory (report immutability; the
+# 20260710-open-contested dir is the pre-fix snapshot and stays untouched).
+OUT_DIR = os.path.normpath(os.path.join(HARNESS_ROOT, "..", "07-PILOTS", "20260710-open-contested-postfix"))
 
 # Judges must be cross-family AND not the Anthropic family (the items are opus/
 # anthropic-authored, so the generator-family exclusion drops Anthropic judges).
@@ -204,6 +209,18 @@ def _write_outputs(panel, report, cells, judges, suts, items):
     with open(os.path.join(OUT_DIR, "disagreement.json"), "w") as fh:
         json.dump(raw, fh, indent=2)
     print(f"\n  wrote {OUT_DIR}/disagreement.json ({len(cells)} cells)")
+
+    # R27 transcript persistence — the full per-(item×SUT) cell record: SUT prompt +
+    # verbatim response, every judge's full verdict texts, template hash, slugs, stamp.
+    th = template_hash()
+    ts = datetime.datetime.now().isoformat(timespec="seconds")
+    run_meta = {"canary": "WCFBENCH-CANARY-c1647-x9k4q",
+                "judges_active": [(n, f) for n, f, _ in panel.active],
+                "suts": suts}
+    tpath = write_run_transcripts(report, OUT_DIR, template_hash=th, timestamp=ts, run_meta=run_meta)
+    n_lines = sum(1 for _ in open(tpath))
+    print(f"  wrote {tpath} ({n_lines} transcript cells; template_hash={th})")
+
     print("\n  Top disagreement clusters (worst-first):")
     for c in cells[:8]:
         print(f"    {c.item_id:14s} {c.model:28s} {c.detail}")

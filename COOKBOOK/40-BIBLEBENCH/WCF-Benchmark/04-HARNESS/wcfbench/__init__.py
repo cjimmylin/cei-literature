@@ -51,6 +51,13 @@ from .perturbation import (
     FlipResult,
     InvarianceLeagueTable,
     BASE_LABEL,
+    # perturbation-variant materialization (memo item 5)
+    materialize_perturbations,
+    materialize_pushback,
+    materialize_monitoring,
+    materialize_persona,
+    PerturbationVariant,
+    MaterializedPerturbations,
 )
 # --- NARROWGATE episode state machine + defect-instructed baseline (§3 T4, §4.4) ---
 from .narrowgate import (
@@ -102,6 +109,12 @@ from .judge import (
     judge_score_anchor_use,
     AnchorUseScore,
     judge_classify_refusal,
+    # R24 per-keypoint award scoring + R25 award-consistency probe
+    build_award_prompt,
+    parse_award_verdict,
+    AwardVerdict,
+    ProbeResult,
+    run_award_consistency_probe,
 )
 # --- Triaxial Matter/Manner/End sub-scoring (§4.2; never collapsed pre-analysis) ---
 from .triaxial import TriaxialScore, score_triaxial, AXES as TRIAXIAL_AXES
@@ -115,12 +128,18 @@ from .contested import (
     PositionInvarianceResult,
     steerability_check,
     SteerabilityResult,
+    # R28 leveled disclosure + R25 disclosure-inversion probe
+    build_disclosure_prompt,
+    DISCLOSURE_ANCHOR,
+    run_disclosure_inversion_probe,
 )
 # --- Live OPEN/CONTESTED judge panel (§4.3): calibrate-and-discard + cross-family
 #     assignment + triaxial (OPEN) / position (CONTESTED); retains per-judge raw. --
 from .judge_panel import JudgePanel, OpenVerdict, ContestedVerdict
 # --- Cross-judge disagreement clusters (the Fable-session input). --------------
 from .disagreement import summarize_disagreement, DisagreementCell
+# --- R27 transcript persistence (per item×SUT cell: prompt+response+judge texts). --
+from .transcripts import template_hash, build_transcript_records, write_run_transcripts
 # --- First REAL model backend behind the seam: the Claude Code CLI via
 #     subscription OAuth (subprocess, no API key). Smoke-pilot use only; the
 #     gated empirical run wants the Messages API. See cli_client.py caveats. ---
@@ -187,6 +206,12 @@ __all__ = [
     "FlipResult",
     "InvarianceLeagueTable",
     "BASE_LABEL",
+    "materialize_perturbations",
+    "materialize_pushback",
+    "materialize_monitoring",
+    "materialize_persona",
+    "PerturbationVariant",
+    "MaterializedPerturbations",
     # NARROWGATE episode state machine (§3 T4, §4.4)
     "ToolAction",
     "EpisodeSpec",
@@ -233,6 +258,12 @@ __all__ = [
     "judge_score_anchor_use",
     "AnchorUseScore",
     "judge_classify_refusal",
+    # R24 per-keypoint award scoring + R25 award-consistency probe
+    "build_award_prompt",
+    "parse_award_verdict",
+    "AwardVerdict",
+    "ProbeResult",
+    "run_award_consistency_probe",
     # triaxial Matter/Manner/End sub-scoring (§4.2)
     "TriaxialScore",
     "score_triaxial",
@@ -245,6 +276,10 @@ __all__ = [
     "PositionInvarianceResult",
     "steerability_check",
     "SteerabilityResult",
+    # R28 leveled disclosure + R25 disclosure-inversion probe
+    "build_disclosure_prompt",
+    "DISCLOSURE_ANCHOR",
+    "run_disclosure_inversion_probe",
     # live OPEN/CONTESTED judge panel (§4.3)
     "JudgePanel",
     "OpenVerdict",
@@ -252,6 +287,10 @@ __all__ = [
     # cross-judge disagreement clusters (Fable-session input)
     "summarize_disagreement",
     "DisagreementCell",
+    # R27 transcript persistence
+    "template_hash",
+    "build_transcript_records",
+    "write_run_transcripts",
     # real CLI-OAuth backend (subprocess; smoke-pilot only)
     "CLIModelClient",
     "CLIClientError",

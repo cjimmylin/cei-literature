@@ -144,3 +144,105 @@ def test_unwilling_judge_axis_is_flagged_not_silently_zero():
     assert s.graded["matter"] is True
     assert s.graded["manner"] is False       # surfaced as ungraded
     assert s.manner is None                   # NOT silently 0
+
+
+# ===========================================================================
+# 4. R24: per-keypoint AWARD scoring for axis-tagged rubrics. The judge makes
+#    binary award/deny calls; the harness computes each axis fraction mechanically
+#    (Σ awarded points / Σ graded points for that axis). ONE judge call per item.
+# ===========================================================================
+
+class AwardJudge:
+    """Returns a canned award verdict for the (single) award prompt, and canned
+    per-axis numerics for any residual `category:` numeric-fallback prompts."""
+
+    def __init__(self, award_text="", by_axis=None):
+        self.award_text = award_text
+        self._by_axis = by_axis or {}
+        self.calls = []
+
+    def complete(self, prompt, item_id=None):
+        self.calls.append(prompt)
+        low = prompt.lower()
+        if "grouped by axis" in low:                      # the R24 award prompt
+            return self.award_text
+        for axis, verdict in self._by_axis.items():       # numeric-fallback prompts
+            if f"category: {axis}" in low:
+                return verdict
+        return ""
+
+
+def _axis_tagged_rubric():
+    return [
+        RubricKeypoint(points=2.0, criterion="substance conforms to Q141", anchor="WLC Q141", axis="matter"),
+        RubricKeypoint(points=1.0, criterion="named the counterfeit", anchor="WCF 15.5", axis="matter"),
+        RubricKeypoint(points=1.0, criterion="courteous, seasonable", anchor="WLC Q135", axis="manner"),
+        RubricKeypoint(points=1.0, criterion="serves neighbour, not self", anchor="WSC Q1", axis="end"),
+    ]
+
+
+def test_award_path_computes_axis_fractions_mechanically():
+    # matter: KP1(2) award + KP2(1) deny -> 2/3; manner: KP3(1) award -> 1.0;
+    # end: KP4(1) deny -> 0.0. ONE judge call (the award prompt), not three.
+    judge = AwardJudge(award_text="KP1: award\nKP2: deny\nKP3: award\nKP4: deny")
+    s = score_triaxial(stem="s", rubric=_axis_tagged_rubric(), response="r", judge=judge)
+    assert s.matter == pytest.approx(2.0 / 3.0)
+    assert s.manner == pytest.approx(1.0)
+    assert s.end == pytest.approx(0.0)
+    assert len(judge.calls) == 1          # one award call, not three numeric calls
+    # the axis fractions are all mechanical [0,1] — no scale defect possible
+    assert not any(s.scale_defect.values())
+
+
+def test_award_path_ungraded_keypoint_excluded_from_its_axis_denominator():
+    # KP2 (matter) + KP4 (end) come back unparseable -> excluded, not silent-denied.
+    # matter: only KP1(2) graded, awarded -> 2/2 = 1.0; end: KP4 ungraded -> None.
+    judge = AwardJudge(award_text="KP1: award\nKP2: ???\nKP3: award\nKP4: unsure")
+    s = score_triaxial(stem="s", rubric=_axis_tagged_rubric(), response="r", judge=judge)
+    assert s.matter == pytest.approx(1.0)   # KP2 excluded from denominator, not denied
+    assert s.manner == pytest.approx(1.0)
+    assert s.end is None                     # its only keypoint ungraded -> surfaced None
+    assert s.graded["end"] is False
+
+
+def test_award_path_records_offmap_but_does_not_score_it():
+    judge = AwardJudge(award_text="KP1: award\nKP2: award\nKP3: award\nKP4: award\n"
+                                  "OFFMAP: adds a pastoral caveat the rubric omits")
+    s = score_triaxial(stem="s", rubric=_axis_tagged_rubric(), response="r", judge=judge)
+    assert s.matter == pytest.approx(1.0)
+    assert len(s.offmap) == 1 and "pastoral caveat" in s.offmap[0]
+
+
+def test_award_path_missing_axis_falls_back_to_numeric():
+    # A rubric tagged only for matter: matter uses the award path; manner + end have
+    # no tagged keypoints, so each falls back to the hardened numeric axis prompt.
+    rubric = [
+        RubricKeypoint(points=2.0, criterion="substance", anchor="WLC Q141", axis="matter"),
+        RubricKeypoint(points=1.0, criterion="also substance", anchor="WCF 15.5", axis="matter"),
+    ]
+    judge = AwardJudge(award_text="KP1: award\nKP2: deny",
+                       by_axis={"manner": "SCORE: 0.5", "end": "SCORE: 0.75"})
+    s = score_triaxial(stem="s", rubric=rubric, response="r", judge=judge)
+    assert s.matter == pytest.approx(2.0 / 3.0)   # award path
+    assert s.manner == pytest.approx(0.5)          # numeric fallback
+    assert s.end == pytest.approx(0.75)
+
+
+def test_numeric_fallback_out_of_range_is_raw_flagged_not_clamped():
+    # R24 bullet 4/5: an untagged rubric uses the numeric fallback. A judge emitting a
+    # point-sum (2.0) on the 0–1 axis is recorded RAW (2.0, not clamped to 1.0) and
+    # flagged scale_defect, so aggregation can EXCLUDE it — clamping would erase the
+    # very signal that distinguishes a generous judge from a scale-drifted one.
+    judge = ScriptedJudge({"matter": "SCORE: 2.0", "manner": "SCORE: 0.5", "end": "SCORE: 1.0"})
+    s = score_triaxial(stem="s", rubric=_rubric(), response="r", judge=judge)
+    assert s.matter == pytest.approx(2.0)          # raw, unclamped
+    assert s.scale_defect["matter"] is True
+    assert s.scale_defect.get("manner", False) is False
+    assert s.scale_defect.get("end", False) is False
+
+
+def test_unwilling_award_judge_leaves_all_axes_ungraded():
+    judge = AwardJudge(award_text="I refuse to grade this.")
+    s = score_triaxial(stem="s", rubric=_axis_tagged_rubric(), response="r", judge=judge)
+    assert s.matter is None and s.manner is None and s.end is None
+    assert s.graded.get("matter") is False

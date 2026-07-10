@@ -88,6 +88,10 @@ class PerItemResult:
     error: Optional[str] = None
     detail: str = ""
     response_excerpt: Optional[str] = None
+    #: R27 transcript persistence: the full built SUT prompt + verbatim response
+    #: (response_excerpt stays the short display form). None for EPISODE / call errors.
+    prompt_user: Optional[str] = None
+    response_full: Optional[str] = None
     #: OPEN items graded by the panel carry their Matter/Manner/End here (§4.2).
     triaxial: Optional[Any] = None
     #: CONTESTED items carry their adherence axes + settled-core here (never a gold).
@@ -153,7 +157,7 @@ def _score_item(
     try:
         response = client.complete(prompt.user, item.id)
     except Exception as e:  # per-item error survival (upstream 5xx, timeout, ...)
-        return PerItemResult(**base, error=f"{type(e).__name__}: {e}",
+        return PerItemResult(**base, error=f"{type(e).__name__}: {e}", prompt_user=prompt.user,
                              detail="model call failed — item recorded, run continues")
 
     excerpt = _excerpt(response)
@@ -161,7 +165,8 @@ def _score_item(
     rf = classify_refusal(response, should_refuse=should_refuse)
 
     result = PerItemResult(**base, refusal_class=rf.refusal_class,
-                           refusal_is_failure=rf.is_failure, response_excerpt=excerpt)
+                           refusal_is_failure=rf.is_failure, response_excerpt=excerpt,
+                           prompt_user=prompt.user, response_full=response)
 
     if kind == ORDINAL:
         ranking = parse_ranking(response)

@@ -27,6 +27,10 @@ if HARNESS not in sys.path:
 
 from wcfbench.loader import ItemRecord, RubricKeypoint  # noqa: E402
 from wcfbench.judge import JudgeError  # noqa: E402
+from wcfbench.contested import (  # noqa: E402
+    DISCLOSURE_INVERSION_A_MARK,
+    DISCLOSURE_INVERSION_B_MARK,
+)
 from wcfbench.judge_panel import (  # noqa: E402
     JudgePanel,
     OpenVerdict,
@@ -35,17 +39,27 @@ from wcfbench.judge_panel import (  # noqa: E402
 
 
 class FakeJudgeClient:
-    """A scripted judge client: answers G4 / triaxial / contested prompts by tag."""
+    """A scripted judge client: answers G4 / R25 probes / triaxial / contested by tag."""
 
-    def __init__(self, *, calib="good", matter=2.0, manner=1.0, end=1.0,
+    def __init__(self, *, calib="good", matter=1.0, manner=1.0, end=1.0,
                  disclosure=1.0, coherence=0.8, position="incomparable", defensible="yes",
-                 settled="1: correct\n2: correct", raise_on=None):
+                 settled="1: correct\n2: correct", raise_on=None,
+                 award_probe="good", disc_invert=False):
         self.calib = calib
         self.matter, self.manner, self.end = matter, manner, end
         self.disclosure, self.coherence = disclosure, coherence
         self.position, self.defensible, self.settled = position, defensible, settled
         self.raise_on = raise_on          # a substring; raise if it appears in the prompt
+        self.award_probe = award_probe    # R25 award-consistency probe: good|bad
+        self.disc_invert = disc_invert    # R25 disclosure-inversion probe: invert A/B if True
         self.prompts = []
+
+    def _disclosure_award(self, level):
+        if level >= 0.75:
+            return "KP1: award\nKP2: award"
+        if level >= 0.25:
+            return "KP1: award\nKP2: deny"
+        return "KP1: deny\nKP2: deny"
 
     def complete(self, prompt, item_id=None):
         self.prompts.append(prompt)
@@ -54,6 +68,16 @@ class FakeJudgeClient:
             raise RuntimeError("simulated judge upstream 500")
         if "JUDGE-CALIBRATION" in up:
             return "A: 3\nB: 1" if self.calib == "good" else "A: 1\nB: 3"
+        # R25 award-consistency probe fixture (expected pattern: award,award,deny,award).
+        if "AWARD-CONSISTENCY-FIXTURE" in prompt:
+            if self.award_probe == "bad":
+                return "KP1: deny\nKP2: deny\nKP3: award\nKP4: deny"
+            return "KP1: award\nKP2: award\nKP3: deny\nKP4: award"
+        # R25 disclosure-inversion probe fixtures (A discloses -> 1.0, B asserts -> 0.0).
+        if DISCLOSURE_INVERSION_A_MARK in prompt:
+            return self._disclosure_award(0.0 if self.disc_invert else 1.0)
+        if DISCLOSURE_INVERSION_B_MARK in prompt:
+            return self._disclosure_award(1.0 if self.disc_invert else 0.0)
         if "CATEGORY: MATTER" in up:
             return f"score: {self.matter}"
         if "CATEGORY: MANNER" in up:
@@ -61,7 +85,9 @@ class FakeJudgeClient:
         if "CATEGORY: END" in up:
             return f"score: {self.end}"
         if "DISCLOSURE CHECK" in up:
-            return f"score: {self.disclosure}"
+            # R28 award form for a real contested item (derived from self.disclosure);
+            # the inversion-probe fixtures are handled above by their marks.
+            return self._disclosure_award(self.disclosure)
         if "POSITION-ATTRIBUTION" in up:
             return f"POSITION: {self.position}\nDEFENSIBLE: {self.defensible}"
         if "COHERENCE CHECK" in up:
@@ -122,6 +148,34 @@ def test_panel_discards_miscalibrated_judge():
     assert "badjudge" not in active_names
     assert "badjudge" in {n for n, _ in panel.discarded}
     assert len(panel.active) == 2
+
+
+def test_panel_discards_award_inconsistent_judge():
+    # R25: a judge that can't reproduce the pre-registered award pattern is discarded,
+    # even though it passes G4.
+    good = FakeJudgeClient(calib="good")
+    bad_award = FakeJudgeClient(calib="good", award_probe="bad")
+    panel = _panel([
+        {"name": "gpt", "family": "openai", "client": good},
+        {"name": "gemini", "family": "google", "client": FakeJudgeClient(calib="good")},
+        {"name": "sloppy", "family": "meta", "client": bad_award},
+    ])
+    assert "sloppy" in {n for n, _ in panel.discarded}
+    assert "sloppy" not in {n for n, _, _ in panel.active}
+    assert any("award-consistency" in reason for n, reason in panel.discarded if n == "sloppy")
+
+
+def test_panel_discards_disclosure_inverting_judge():
+    # R25: a judge that scores the confident settled answer (B) as high disclosure
+    # inverts the construct's sign and is discarded (G4 cannot catch this).
+    inverter = FakeJudgeClient(calib="good", disc_invert=True)
+    panel = _panel([
+        {"name": "gpt", "family": "openai", "client": FakeJudgeClient(calib="good")},
+        {"name": "gemini", "family": "google", "client": FakeJudgeClient(calib="good")},
+        {"name": "inverter", "family": "meta", "client": inverter},
+    ])
+    assert "inverter" in {n for n, _ in panel.discarded}
+    assert any("disclosure-inversion" in reason for n, reason in panel.discarded if n == "inverter")
 
 
 def test_panel_fails_loud_if_not_two_cross_family_after_discard():
@@ -195,6 +249,21 @@ def test_score_open_retains_judge_disagreement():
     assert matters == [pytest.approx(0.0), pytest.approx(2.0)]
 
 
+def test_score_open_excludes_scale_defected_axis_from_aggregate():
+    # R24 bullet 5: one judge emits an off-scale (2.0) matter on the numeric-fallback
+    # path; it is retained RAW in per_judge (the disagreement evidence) but EXCLUDED
+    # from the aggregate — clamping would erase the scale-drift signal. The aggregate
+    # matter therefore reflects only the in-range judge.
+    panel = _panel([
+        {"name": "gpt", "family": "openai", "client": FakeJudgeClient(matter=2.0)},
+        {"name": "gemini", "family": "google", "client": FakeJudgeClient(matter=0.5)},
+    ])
+    v = panel.score_open(_open_item(), "response")
+    assert sorted(j["matter"] for j in v.per_judge) == [pytest.approx(0.5), pytest.approx(2.0)]
+    assert v.triaxial.matter == pytest.approx(0.5)     # off-scale 2.0 excluded
+    assert any(j.get("scale_defect", {}).get("matter") for j in v.per_judge)
+
+
 def test_score_open_survives_one_judge_error():
     panel = _panel([
         {"name": "gpt", "family": "openai", "client": FakeJudgeClient()},
@@ -236,3 +305,16 @@ def test_score_contested_never_mints_correctness_scalar():
     v = _two_family_panel().score_contested(_contested_item(), "response")
     with pytest.raises(ValueError):
         v.score.collapsed()
+
+
+def test_score_contested_excludes_scale_defected_coherence_from_aggregate():
+    # R24 bullet 5 (contested arm): one judge's coherence is off-scale — retained RAW
+    # in per_judge, EXCLUDED from the aggregate. Disclosure stays award-form (in-range).
+    panel = _panel([
+        {"name": "gpt", "family": "openai", "client": FakeJudgeClient(coherence=0.4)},
+        {"name": "gemini", "family": "google", "client": FakeJudgeClient(coherence=1.7)},
+    ])
+    v = panel.score_contested(_contested_item(), "response")
+    assert sorted(j["coherence"] for j in v.per_judge) == [pytest.approx(0.4), pytest.approx(1.7)]
+    assert v.score.coherence == pytest.approx(0.4)     # off-scale 1.7 excluded
+    assert any(j.get("scale_defect", {}).get("coherence") for j in v.per_judge)

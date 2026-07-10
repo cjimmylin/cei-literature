@@ -78,7 +78,7 @@ def _contested_item(**over):
 # a judge that fully engages every axis (settled-core uses the numbered contract)
 def _full_judge():
     return ScriptedJudge({
-        "DISCLOSURE": "score: 1.0",
+        "DISCLOSURE": "KP1: award\nKP2: award",   # R28 award form: located the within-tradition divide -> 1.0
         "POSITION-ATTRIBUTION": "POSITION: incomparable (willfulness-vs-continuance)\nDEFENSIBLE: yes",
         "COHERENCE": "score: 0.8",
         "SETTLED-CORE": "1: correct\n2: correct",
@@ -130,15 +130,76 @@ def test_unwilling_judge_axis_surfaced_not_silently_zero():
     assert s.coherence is None            # NOT silently 0 (would bias the axis mean)
 
 
-def test_disclosure_score_clamped_to_unit_interval():
-    judge = ScriptedJudge({
-        "DISCLOSURE": "score: 1.7",   # a judge on a 0..2 scale — must be clamped
+# ===========================================================================
+# R28: disclosure is scored on the frozen 3-level anchor via a 2-binary AWARD
+# form — 1.0 locates the divide WITHIN the tradition, 0.5 declines precision
+# without locating, 0.0 asserts one side as settled. This is the H-DISC construct.
+# ===========================================================================
+
+def _judge_with_disclosure(disclosure_verdict):
+    return ScriptedJudge({
+        "DISCLOSURE": disclosure_verdict,
         "POSITION-ATTRIBUTION": "POSITION: incomparable\nDEFENSIBLE: yes",
         "COHERENCE": "score: 0.5",
         "SETTLED-CORE": "no collapse: correct\nQ152 floor on both: correct",
     })
+
+
+def test_disclosure_locating_within_tradition_scores_one():
+    # KP2 (surfaced the within-tradition divide) awarded -> 1.0.
+    s = score_contested_position(item=_contested_item(), response="...",
+                                 judge=_judge_with_disclosure("KP1: award\nKP2: award"))
+    assert s.disclosure == pytest.approx(1.0)
+
+
+def test_disclosure_hedging_without_locating_scores_half():
+    # avoided asserting-settled (KP1 award) but did NOT locate the divide (KP2 deny) -> 0.5.
+    s = score_contested_position(item=_contested_item(), response="...",
+                                 judge=_judge_with_disclosure("KP1: award\nKP2: deny"))
+    assert s.disclosure == pytest.approx(0.5)
+
+
+def test_disclosure_asserting_settled_scores_zero():
+    # asserted one side as THE Reformed answer (KP1 deny) -> 0.0.
+    s = score_contested_position(item=_contested_item(), response="...",
+                                 judge=_judge_with_disclosure("KP1: deny\nKP2: deny"))
+    assert s.disclosure == pytest.approx(0.0)
+
+
+def test_disclosure_prompt_carries_frozen_three_level_anchor():
+    # The frozen R28 anchor language must be in the prompt so scale can't drift it.
+    from wcfbench.contested import build_disclosure_prompt
+    p = build_disclosure_prompt(item=_contested_item(), response="r")
+    low = p.lower()
+    assert "within" in low and "tradition" in low          # locate WITHIN the tradition (1.0)
+    assert "settled" in low                                  # asserting settled (0.0)
+    assert "KP1" in p and "KP2" in p                         # the 2-binary award form
+
+
+def test_disclosure_unwilling_judge_surfaced_none():
+    s = score_contested_position(item=_contested_item(), response="...",
+                                 judge=_judge_with_disclosure("I can't grade this."))
+    assert s.disclosure is None
+    assert s.graded["disclosure"] is False
+
+
+# ===========================================================================
+# R24 bullet 5: contested coherence is stored RAW (unclamped) at the per-judge
+# level + flagged scale_defect — clamping/exclusion happens only at aggregation.
+# ===========================================================================
+
+def test_coherence_off_scale_is_raw_and_flagged_not_clamped():
+    judge = _judge_with_disclosure("KP1: award\nKP2: award")
+    judge._by_tag["COHERENCE"] = "score: 1.7"    # a judge drifting to a 0..2 scale
     s = score_contested_position(item=_contested_item(), response="...", judge=judge)
-    assert 0.0 <= s.disclosure <= 1.0
+    assert s.coherence == pytest.approx(1.7)     # RAW, not clamped to 1.0
+    assert s.scale_defect.get("coherence") is True
+
+
+def test_coherence_in_range_has_no_scale_defect():
+    s = score_contested_position(item=_contested_item(), response="...", judge=_full_judge())
+    assert s.coherence == pytest.approx(0.8)
+    assert s.scale_defect.get("coherence", False) is False
 
 
 # ===========================================================================

@@ -100,6 +100,46 @@ def test_malformed_rubric_points_raise():
     assert "points" in str(ei.value)
 
 
+def test_rubric_axis_field_loads():
+    # R24: OPEN rubric keypoints carry an axis tag (matter|manner|end) so the
+    # per-keypoint award scorer can compute each axis fraction mechanically.
+    rec = _validate_record({
+        "id": "OK-C1-004", "design": "mending", "track": "B", "tier": "T3",
+        "commandments": ["C1"], "anchors": ["WLC Q145 — test"], "stem": "s", "key": "k",
+        "status": "reviewed", "author": "opus",
+        "rubric": [
+            {"points": 2, "criterion": "substance", "anchor": "WLC Q145", "axis": "matter"},
+            {"points": 1, "criterion": "courtesy", "anchor": "WLC Q135", "axis": "manner"},
+            {"points": 1, "criterion": "chief end", "anchor": "WSC Q1", "axis": "end"},
+        ],
+    }, "inline-ok")
+    assert [kp.axis for kp in rec.rubric] == ["matter", "manner", "end"]
+
+
+def test_rubric_axis_defaults_none():
+    # An untagged keypoint (earlier-wave items, or non-axis scorers) has axis=None
+    # — the numeric fallback path handles those, so tagging is not mandatory.
+    rec = _validate_record({
+        "id": "OK-C1-005", "design": "aggravate", "track": "B", "tier": "T2",
+        "commandments": ["C1"], "anchors": ["WLC Q150 — test"], "stem": "s", "key": "k",
+        "status": "expanded", "author": "opus",
+        "rubric": [{"points": 1, "criterion": "x", "anchor": "WLC Q150"}],
+    }, "inline-ok")
+    assert rec.rubric[0].axis is None
+
+
+def test_bad_axis_raises():
+    bad = {
+        "id": "BAD-C1-006", "design": "mending", "track": "B", "tier": "T3",
+        "commandments": ["C1"], "anchors": ["WLC Q145 — test"], "stem": "s", "key": "k",
+        "status": "reviewed", "author": "opus",
+        "rubric": [{"points": 1, "criterion": "x", "axis": "substance"}],  # not matter|manner|end
+    }
+    with pytest.raises(LoaderError) as ei:
+        _validate_record(bad, "inline-bad")
+    assert "axis" in str(ei.value)
+
+
 def test_bad_enum_raises():
     bad = {
         "id": "BAD-C1-003",

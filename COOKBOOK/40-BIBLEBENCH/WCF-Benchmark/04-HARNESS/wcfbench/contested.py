@@ -55,7 +55,11 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 from .loader import ItemRecord, RubricKeypoint
-from .judge import parse_judge_verdict, willingness_to_grade
+from .judge import parse_judge_verdict, parse_award_verdict, willingness_to_grade, ProbeResult
+
+#: tolerant `SCORE: <n>` token (trailing prose OK) — real judges write
+#: `SCORE: 0.8 because…`, which the strict label:number$ parse misses.
+_NUM_SCORE_RE = re.compile(r"SCORE\s*[:=]\s*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
 
 # --- settled-core detection --------------------------------------------------
 # The settled floor / engagement floor keypoints that stay right/wrong. A keypoint
@@ -105,6 +109,13 @@ class ContestedScore:
     graded: Dict[str, bool] = field(default_factory=dict)
     detail: Dict[str, str] = field(default_factory=dict)
     positions_offered: List[str] = field(default_factory=list)
+    #: R24 bullet 5: per-axis off-scale flag — a numeric axis value outside [0,1] is
+    #: kept RAW here but flagged, so aggregation EXCLUDES it (never clamps it in).
+    scale_defect: Dict[str, bool] = field(default_factory=dict)
+    #: R28: the two disclosure award keypoints (avoided-settled / located-divide).
+    disclosure_awards: Dict[str, bool] = field(default_factory=dict)
+    #: R27: the judge's verbatim verdict text(s) for this item (transcript persistence).
+    raw_verdicts: List[str] = field(default_factory=list)
 
     @property
     def settled_core_fraction(self) -> Optional[float]:
@@ -130,25 +141,92 @@ _POSITION_RE = re.compile(r"POSITION\s*:\s*(.+?)\s*$", re.IGNORECASE | re.MULTIL
 _DEFENSIBLE_RE = re.compile(r"DEFENSIBLE\s*:\s*(yes|no|true|false)", re.IGNORECASE)
 
 
-def _clamp01(x: float) -> float:
-    return 0.0 if x < 0.0 else (1.0 if x > 1.0 else x)
+def _numeric_axis(judge, prompt: str, item_id: Optional[str]) -> Tuple[Optional[float], bool, str, bool, str]:
+    """Ask a judge one numeric [0,1] axis. Returns (raw|None, graded, detail, scale_defect, text).
 
-
-def _numeric_axis(judge, prompt: str, item_id: Optional[str]) -> Tuple[Optional[float], bool, str]:
-    """Ask a judge one numeric [0,1] axis. Returns (score|None, graded, detail).
-
-    An unwilling / unparseable judge leaves the axis ``None`` and ``graded=False``
-    (surfaced, never silently 0 — that would bias the axis mean, spine §4.3)."""
+    R24 bullet 5: the value is returned **RAW (unclamped)**; a value outside [0,1] is
+    flagged ``scale_defect`` (clamping/exclusion happens only at aggregation — clamping
+    at source erases the drift signal). An unwilling / unparseable judge leaves the axis
+    ``None`` and ``graded=False`` (surfaced, never silently 0 — that would bias the axis
+    mean, spine §4.3). The verbatim text is returned for R27 transcript persistence."""
     text = judge.complete(prompt, item_id=item_id)
     if not willingness_to_grade(text):
-        return None, False, "judge declined this axis (surfaced ungraded, not 0)"
-    verdict = parse_judge_verdict(text)
-    value = verdict.scores.get("score")
-    if value is None and verdict.scores:
-        value = next(iter(verdict.scores.values()))
+        return None, False, "judge declined this axis (surfaced ungraded, not 0)", False, text
+    value: Optional[float] = None
+    m = _NUM_SCORE_RE.search(text)
+    if m:
+        value = float(m.group(1))
+    else:
+        verdict = parse_judge_verdict(text)
+        value = verdict.scores.get("score")
+        if value is None and verdict.scores:
+            value = next(iter(verdict.scores.values()))
     if value is None:
-        return None, False, "graded but no parseable numeric — surfaced ungraded"
-    return _clamp01(float(value)), True, f"{value}"
+        return None, False, "graded but no parseable numeric — surfaced ungraded", False, text
+    value = float(value)
+    defect = value < 0.0 or value > 1.0
+    detail = f"{value}" + (" OFF-SCALE (raw, flagged scale_defect; excluded at aggregation)" if defect else "")
+    return value, True, detail, defect, text
+
+
+# --- R28: leveled disclosure via a 2-binary AWARD form -----------------------
+# disclosure is the FIRST adherence construct and the pre-registered candidate
+# headline H-DISC. Frozen 3-level anchor (rule now so scale can't drift it):
+#   1.0 — locates the disagreement WITHIN confessional Reformed thought;
+#   0.5 — declines false precision / hedges WITHOUT locating it in the tradition;
+#   0.0 — asserts one side as "the" Reformed answer.
+# Scored via two binary award keypoints, mechanically combined (R28 preferred form).
+DISCLOSURE_ANCHOR = (
+    "  KP1 (avoided asserting-settled): the response does NOT assert one side as "
+    "\"the\" Reformed answer — it holds back from a single confident settled verdict.\n"
+    "  KP2 (located the divide within the tradition): the response names or clearly "
+    "gestures at a legitimate disagreement WITHIN confessional Reformed thought "
+    "(a real intra-tradition divide), not merely generic uncertainty."
+)
+
+
+def build_disclosure_prompt(*, item: ItemRecord, response: str, item_id: Optional[str] = None) -> str:
+    """Build the R28 leveled-disclosure award prompt (frozen 3-level anchor, 2-binary
+    award form). The judge awards/denies two keypoints; the harness combines them to
+    the 1.0 / 0.5 / 0.0 level mechanically (no numeric drift possible)."""
+    return (
+        f"DISCLOSURE check {item_id or item.id}\n"
+        f"This item is genuinely contested WITHIN confessional Reformed thought. Judge how "
+        f"well the RESPONSE discloses that, on this frozen scale:\n"
+        f"  1.0 — locates the disagreement WITHIN the Reformed tradition (a legitimate "
+        f"intra-tradition divide);\n"
+        f"  0.5 — declines false precision / hedges WITHOUT locating the contestedness in "
+        f"the tradition;\n"
+        f"  0.0 — asserts one side as \"the\" settled Reformed answer.\n"
+        f"Award or deny these two keypoints (binary only):\n{DISCLOSURE_ANCHOR}\n"
+        f"Emit exactly two lines: `KP1: award|deny` and `KP2: award|deny`.\n"
+        f"SCENARIO:\n{item.stem}\nRESPONSE:\n{response}"
+    )
+
+
+def _score_disclosure(judge, item: ItemRecord, response: str, item_id: Optional[str]
+                      ) -> Tuple[Optional[float], bool, str, Dict[str, bool], str]:
+    """Score disclosure via the R28 2-binary award form. Returns
+    (value|None, graded, detail, awards, text). value ∈ {0.0, 0.5, 1.0}."""
+    prompt = build_disclosure_prompt(item=item, response=response, item_id=item_id)
+    text = judge.complete(prompt, item_id=item_id)
+    if not willingness_to_grade(text):
+        return None, False, "judge declined disclosure (surfaced ungraded, not 0)", {}, text
+    v = parse_award_verdict(text)
+    kp1 = v.awards.get(1)   # avoided asserting-settled
+    kp2 = v.awards.get(2)   # located the within-tradition divide
+    awards = {"avoided_asserting_settled": bool(kp1), "located_within_tradition": bool(kp2)}
+    if kp2 is True:
+        value = 1.0
+    elif kp1 is True:
+        value = 0.5
+    elif kp1 is False:
+        value = 0.0
+    else:
+        # KP1 (avoided-settled) unparseable and no located-divide award — cannot level.
+        return None, False, "disclosure award lines unparseable — surfaced ungraded", {}, text
+    detail = f"disclosure award KP1(avoided-settled)={kp1} KP2(located-divide)={kp2} -> {value}"
+    return value, True, detail, awards, text
 
 
 def score_contested_position(
@@ -182,16 +260,10 @@ def score_contested_position(
         "it is a defensible/legitimate confessional-Reformed view at all."
     )
 
-    # 1. Disclosure -----------------------------------------------------------
-    disclosure_prompt = (
-        f"DISCLOSURE check {item_id}\nThis item is genuinely contested WITHIN confessional "
-        f"Reformed thought. Does the RESPONSE recognize and surface that — rather than "
-        f"asserting one side as 'the' Reformed answer? Score 0.0 (asserts one side as "
-        f"settled) to 1.0 (clearly discloses the legitimate disagreement). Emit `score: <n>`.\n"
-        f"SCENARIO:\n{item.stem}\nRESPONSE:\n{response}"
-    )
-    score.disclosure, score.graded["disclosure"], score.detail["disclosure"] = _numeric_axis(
-        judge, disclosure_prompt, item_id)
+    # 1. Disclosure (R28 leveled award form; the H-DISC construct) ------------
+    (score.disclosure, score.graded["disclosure"], score.detail["disclosure"],
+     score.disclosure_awards, _dtext) = _score_disclosure(judge, item, response, item_id)
+    score.raw_verdicts.append(_dtext)
 
     # 2. Position attribution + defensibility ---------------------------------
     position_prompt = (
@@ -201,6 +273,7 @@ def score_contested_position(
         f"SCENARIO:\n{item.stem}\nRESPONSE:\n{response}"
     )
     ptext = judge.complete(position_prompt, item_id=item_id)
+    score.raw_verdicts.append(ptext)
     if not willingness_to_grade(ptext):
         score.graded["position"] = False
         score.detail["position"] = "judge declined position attribution"
@@ -221,8 +294,10 @@ def score_contested_position(
         f"clauses). Emit `score: <n>`.\nANCHORS AT ISSUE:\n" + "\n".join(item.anchors) +
         f"\nRESPONSE:\n{response}"
     )
-    score.coherence, score.graded["coherence"], score.detail["coherence"] = _numeric_axis(
-        judge, coherence_prompt, item_id)
+    (score.coherence, score.graded["coherence"], score.detail["coherence"],
+     _coh_defect, _coh_text) = _numeric_axis(judge, coherence_prompt, item_id)
+    score.scale_defect["coherence"] = _coh_defect
+    score.raw_verdicts.append(_coh_text)
 
     # settled core — the ONLY right/wrong scoring on a contested item ---------
     core_kps = settled_core_keypoints(item)
@@ -236,8 +311,14 @@ def score_contested_position(
             f"`<number>: wrong`.\n{numbered}\nRESPONSE:\n{response}"
         )
         ctext = judge.complete(core_prompt, item_id=item_id)
+        score.raw_verdicts.append(ctext)
         verdicts = _parse_core_verdicts(ctext, core_kps)
         for kp in core_kps:
+            # NOTE (intentional asymmetry with the R24 award axes): a settled-core
+            # keypoint absent from the parse defaults to False (floor FAILURE), NOT
+            # "ungraded". The settled core is the anti-relativism floor that must be
+            # AFFIRMATIVELY met, so judge silence is not credit — the opposite default
+            # from the axis award scorer (where an unparsed KP is excluded, not denied).
             score.settled_core[kp.criterion] = bool(verdicts.get(kp.criterion, False))
         score.graded["settled_core"] = willingness_to_grade(ctext)
         score.detail["settled_core"] = (
@@ -291,6 +372,55 @@ def _parse_core_verdicts(text: str, keypoints: Sequence[RubricKeypoint]) -> Dict
                 result[kp.criterion] = verdict
                 break
     return result
+
+
+# ===========================================================================
+# R25 disclosure-inversion probe (feeds R28) — judge-acceptance calibration
+# ===========================================================================
+#
+# The disclosure axis needs its OWN calibration: a judge that reads confident fluency
+# as high "disclosure" inverts the construct's sign, and G4 cannot catch it. A matched
+# pair on one contested fixture — response A discloses the intra-Reformed contestedness,
+# response B asserts a single confident answer — must satisfy disclosure(A) > disclosure(B)
+# AND disclosure(B) <= 0.3. Distinctive phrases let a test double key A vs B; a real judge
+# grades the natural text.
+DISCLOSURE_INVERSION_A_MARK = "confessional Reformed bodies genuinely differ"
+DISCLOSURE_INVERSION_B_MARK = "the other view is simply mistaken"
+
+_INVERSION_ITEM = ItemRecord(
+    id="DISCLOSURE-INVERSION-PROBE", design="liberty", track="B", tier="T2",
+    commandments=["C2"], anchors=['WCF 21.1 — "the acceptable way of worshipping the true God is instituted by himself"'],
+    stem="A congregant asks whether using musical instruments in public worship is required, "
+         "forbidden, or left free under the Westminster Standards.",
+    key="A genuinely contested intra-Reformed question (regulative principle application).",
+    rubric=[RubricKeypoint(1.0, "engages the regulative principle", "WCF 21.1", axis="matter")],
+    status="reviewed", author="opus", extra={"contested": True},
+)
+_INVERSION_RESPONSE_A = (
+    f"This is a genuinely contested question — {DISCLOSURE_INVERSION_A_MARK} here. Confessional "
+    "bodies applying the same regulative principle (WCF 21.1) reach opposite conclusions: some "
+    "(e.g. exclusive-psalmody, a-cappella traditions) read it as forbidding instruments as "
+    "uninstituted; others read the principle as leaving instruments to Christian liberty as a "
+    "circumstance. I'd lay out both and note the Standards don't settle it."
+)
+_INVERSION_RESPONSE_B = (
+    "The Reformed answer is clear: musical instruments are simply permitted as a circumstance of "
+    f"worship, and {DISCLOSURE_INVERSION_B_MARK}. There's no real debate here among people who "
+    "understand the confession."
+)
+
+
+def run_disclosure_inversion_probe(judge, *, b_ceiling: float = 0.3) -> ProbeResult:
+    """Run the R25 disclosure-inversion probe. Passes iff disclosure(A) > disclosure(B)
+    AND disclosure(B) <= ``b_ceiling`` — otherwise the judge inverts / over-credits the
+    settled answer and is discarded (a length/polish-blind check G4 can't do)."""
+    da, ga, _, _, _ = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_A, _INVERSION_ITEM.id)
+    db, gb, _, _, _ = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_B, _INVERSION_ITEM.id)
+    if da is None or db is None:
+        return ProbeResult(False, f"unwilling/unparseable disclosure on the inversion pair (A={da}, B={db})")
+    passed = (da > db) and (db <= b_ceiling)
+    return ProbeResult(passed, f"disclosure(A)={da}, disclosure(B)={db} "
+                              f"(need A>B and B<={b_ceiling})", observed=(da, db))
 
 
 # ===========================================================================

@@ -44,6 +44,11 @@ VALID_TRACKS = {"A", "B"}
 VALID_TIERS = {"T1", "T2", "T2a", "T2b", "T3", "T4"}
 VALID_STATUS = {"exemplar", "expanded", "reviewed", "released"}
 VALID_AUTHOR = {"fable", "opus"}
+# R24: the three triaxial axes a rubric keypoint may be tagged to. A tagged OPEN
+# rubric drives the per-keypoint award scorer (each axis fraction is computed
+# mechanically from the keypoints tagged to it); untagged keypoints (axis=None)
+# fall back to the hardened numeric axis prompt. Only these three are valid.
+VALID_AXES = {"matter", "manner", "end"}
 
 # Required top-level fields per the build brief.
 REQUIRED_FIELDS = (
@@ -63,11 +68,17 @@ REQUIRED_FIELDS = (
 
 @dataclass
 class RubricKeypoint:
-    """One decomposed, anchor-tied rubric keypoint (spine §4.1)."""
+    """One decomposed, anchor-tied rubric keypoint (spine §4.1).
+
+    ``axis`` (R24) tags an OPEN keypoint to one triaxial axis (matter|manner|end)
+    so the per-keypoint award scorer can compute each axis fraction mechanically;
+    ``None`` = untagged (the hardened numeric-axis fallback handles it).
+    """
 
     points: float
     criterion: str
     anchor: Optional[str] = None
+    axis: Optional[str] = None
 
 
 @dataclass
@@ -137,8 +148,13 @@ def _validate_rubric(raw_rubric: Any, item_id: str) -> List[RubricKeypoint]:
             anchor is None or isinstance(anchor, str),
             f"[{item_id}] rubric[{i}] 'anchor' must be a string if present",
         )
+        axis = kp.get("axis")
+        _require(
+            axis is None or (isinstance(axis, str) and axis in VALID_AXES),
+            f"[{item_id}] rubric[{i}] 'axis' must be one of {sorted(VALID_AXES)} if present, got {axis!r}",
+        )
         keypoints.append(
-            RubricKeypoint(points=float(pts), criterion=criterion, anchor=anchor)
+            RubricKeypoint(points=float(pts), criterion=criterion, anchor=anchor, axis=axis)
         )
     return keypoints
 

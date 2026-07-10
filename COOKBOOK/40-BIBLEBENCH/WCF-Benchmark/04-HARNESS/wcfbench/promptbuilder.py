@@ -29,7 +29,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from .loader import ItemRecord
-from .routing import scorer_kind, ORDINAL, ANCHOR, EPISODE
+from .routing import scorer_kind, ORDINAL, ANCHOR, EPISODE, CONTESTED
 
 
 # Neutral construct-disclosure system prompt (Law 7). No scoring/rubric hints.
@@ -104,7 +104,11 @@ def build_examinee_prompt(item: ItemRecord) -> ExamineePrompt:
     frame = _TRACK_A_FRAME if item.track == "A" else _TRACK_B_FRAME
     user = f"{frame}\n\n{item.stem.rstrip()}"
 
-    if kind == ORDINAL:
+    if kind in (ORDINAL, CONTESTED):
+        # CONTESTED items carry the SAME ranking-or-decline contract as ORDINAL:
+        # `contested` is a scoring decision (position/coherence, not τ-vs-gold), and
+        # the examinee must be blind to it — a divergent prompt would betray which
+        # item is the contested one. The stem already frames the tension.
         user += _RANKING_ASK
     elif kind == ANCHOR:
         user += _ANCHOR_ASK

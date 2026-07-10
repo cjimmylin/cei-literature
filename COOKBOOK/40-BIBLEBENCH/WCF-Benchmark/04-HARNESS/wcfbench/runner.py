@@ -14,13 +14,20 @@ scored items, records per-model usage/cost, and **survives per-item errors**
 (a failed call or an unparseable response is recorded, never fatal).
 
 Scoring by kind (spine §4.4):
-  - ORDINAL  -> parse_ranking + score_aggravate_ordinal (judge-free).
-  - ANCHOR   -> score_prooftext_anchors (judge-free stub).
-  - OPEN     -> the ``judge`` hook if supplied, else recorded ``needs_judge``
-               (the §4.3 triaxial judge path is the stretch/next-session wiring —
-               this runner leaves a clean seam and NEVER fabricates a number).
-  - EPISODE  -> skipped from the single-completion path (NARROWGATE T4 is driven
-               by the episode state machine; see openrouter_pilot.py).
+  - ORDINAL   -> parse_ranking + score_aggravate_ordinal (judge-free).
+  - ANCHOR    -> score_prooftext_anchors (judge-free stub).
+  - OPEN      -> the ``panel`` (triaxial §4.3) if supplied, else the legacy
+                ``judge`` float hook, else recorded ``needs_judge`` (NEVER fabricates
+                a number).
+  - CONTESTED -> the ``panel``'s position/coherence scorer (adherence, not
+                correctness — binding ruling ``20260709-contested-item-scoring-
+                ruling.md``). It is **never** τ-scored against a ``gold_order`` and
+                contributes NOTHING to the correct/incorrect tensor; its adherence
+                axes + settled-core live on ``PerItemResult.contested_score`` and the
+                per-judge disagreement on ``.judge_raw``. Without a panel it is
+                recorded ``needs_judge``.
+  - EPISODE   -> skipped from the single-completion path (NARROWGATE T4 is driven
+                by the episode state machine; see openrouter_pilot.py).
 
 Design note: the runner passes ``prompt.user`` to the seam; the shared
 ``EXAMINEE_SYSTEM`` framing is applied at the client boundary (construct real
@@ -45,6 +52,7 @@ from .routing import (
     ANCHOR,
     EPISODE,
     OPEN,
+    CONTESTED,
 )
 from .scorers import score_aggravate_ordinal, score_prooftext_anchors
 from .refusal import classify_refusal
@@ -74,11 +82,18 @@ class PerItemResult:
     fraction: Optional[float] = None
     scored: bool = False
     needs_judge: bool = False
+    contested: bool = False
     refusal_class: Optional[str] = None
     refusal_is_failure: Optional[bool] = None
     error: Optional[str] = None
     detail: str = ""
     response_excerpt: Optional[str] = None
+    #: OPEN items graded by the panel carry their Matter/Manner/End here (§4.2).
+    triaxial: Optional[Any] = None
+    #: CONTESTED items carry their adherence axes + settled-core here (never a gold).
+    contested_score: Optional[Any] = None
+    #: per-judge raw scores — the cross-judge disagreement a Fable session adjudicates.
+    judge_raw: Optional[List[Dict[str, Any]]] = None
 
 
 @dataclass
@@ -118,6 +133,7 @@ def _score_item(
     model: str,
     client: Any,
     judge: Optional[JudgeFn],
+    panel: Any = None,
 ) -> PerItemResult:
     """Run + score one item for one model. Never raises; records errors inline."""
     kind = scorer_kind(item)
@@ -169,7 +185,38 @@ def _score_item(
         result.detail = s.detail
         return result
 
-    # OPEN: the triaxial judge path (§4.3). Use the hook if supplied; else defer.
+    # CONTESTED: adherence, not correctness (binding ruling). NEVER τ-scored; never
+    # in the accuracy tensor. The panel's position/coherence scorer grades it.
+    if kind == CONTESTED:
+        result.contested = True
+        if panel is None:
+            result.needs_judge = True
+            result.detail = ("contested item — needs the position/coherence judge panel "
+                             "(adherence, not correct/incorrect); unscored")
+            return result
+        ranking = parse_ranking(response)   # the occupied position, handed to the scorer
+        verdict = panel.score_contested(item, response, ranking)
+        result.contested_score = verdict.score
+        result.judge_raw = verdict.per_judge
+        # fraction stays None: a contested item contributes NOTHING to the
+        # correct/incorrect tensor — its adherence axes live on contested_score.
+        scf = verdict.score.settled_core_fraction
+        result.detail = ("contested — position-scored (adherence); settled-core "
+                         f"{scf:.2f}" if scf is not None else "contested — position-scored (adherence)")
+        return result
+
+    # OPEN: the triaxial judge path (§4.3). Panel wins; else the legacy float hook.
+    if panel is not None:
+        verdict = panel.score_open(item, response)
+        result.triaxial = verdict.triaxial
+        result.judge_raw = verdict.per_judge
+        if verdict.headline is not None:
+            result.fraction = float(verdict.headline)
+            result.scored = True
+            result.detail = "open response scored via the triaxial panel (Matter proxy → tensor)"
+        else:
+            result.detail = "open response judged (triaxial recorded) but Matter axis ungraded"
+        return result
     if judge is not None:
         verdict = judge(item, response)
         if verdict is not None:
@@ -192,6 +239,8 @@ def _model_usage(client: Any, results: List[PerItemResult]) -> Dict[str, Any]:
         "n_scored": sum(1 for r in results if r.scored),
         "n_needs_judge": sum(1 for r in results if r.needs_judge),
         "n_episode": sum(1 for r in results if r.kind == EPISODE),
+        "n_contested": sum(1 for r in results if r.contested),
+        "n_triaxial": sum(1 for r in results if r.triaxial is not None),
         "n_errors": sum(1 for r in results if r.error),
     }
 
@@ -201,6 +250,7 @@ def run(
     clients: Dict[str, Any],
     *,
     judge: Optional[JudgeFn] = None,
+    panel: Any = None,
 ) -> RunReport:
     """Run ``items`` through each model in ``clients`` and assemble a RunReport.
 
@@ -212,9 +262,16 @@ def run(
         ``{model_id: client}`` where each client implements the seam
         ``.complete(prompt, item_id=None) -> str`` (MockModelClient in tests;
         OpenRouterModelClient constructed with ``system=EXAMINEE_SYSTEM`` live).
+    panel:
+        Optional :class:`~wcfbench.judge_panel.JudgePanel` (or any object exposing
+        ``.score_open(item, response) -> OpenVerdict`` and
+        ``.score_contested(item, response, ranking) -> ContestedVerdict``). This is
+        the real §4.3 wiring: OPEN items get triaxial Matter/Manner/End and CONTESTED
+        items get the position/coherence scorer. Takes precedence over ``judge``.
     judge:
-        Optional OPEN-item scorer hook ``(item, response) -> fraction|None``. When
-        absent, OPEN items are recorded ``needs_judge`` and left unscored.
+        Optional legacy OPEN-item float hook ``(item, response) -> fraction|None``
+        (kept for simple tests). Ignored for CONTESTED items. When neither ``panel``
+        nor ``judge`` handles an OPEN/CONTESTED item, it is recorded ``needs_judge``.
 
     Fails loud on empty ``items`` or empty ``clients``.
     """
@@ -223,7 +280,7 @@ def run(
 
     reports: Dict[str, ModelRunReport] = {}
     for model, client in clients.items():
-        results = [_score_item(item, model, client, judge) for item in items]
+        results = [_score_item(item, model, client, judge, panel) for item in items]
         scored = [
             ScoredItem(design=r.design, commandment=r.commandment, tier=r.tier,
                        track=r.track, fraction=r.fraction)

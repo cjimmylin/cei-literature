@@ -18,8 +18,11 @@ import pytest  # noqa: E402
 from wcfbench.loader import ItemRecord, RubricKeypoint  # noqa: E402
 from wcfbench.mock_client import MockModelClient  # noqa: E402
 from wcfbench.runner import run, RunReport, ModelRunReport, PerItemResult  # noqa: E402
-from wcfbench.routing import ORDINAL, ANCHOR, EPISODE, OPEN  # noqa: E402
+from wcfbench.routing import ORDINAL, ANCHOR, EPISODE, OPEN, CONTESTED  # noqa: E402
 from wcfbench.refusal import ENGAGED  # noqa: E402
+from wcfbench.triaxial import TriaxialScore  # noqa: E402
+from wcfbench.contested import ContestedScore  # noqa: E402
+from wcfbench.judge_panel import OpenVerdict, ContestedVerdict  # noqa: E402
 
 
 def _rk(points, criterion, anchor=None):
@@ -60,6 +63,51 @@ def _bank():
         status="expanded", author="opus", extra={"episode": True},
     )
     return [ordinal, anchor, open_item, episode]
+
+
+def _contested_item():
+    # AGG-C5-W304 shape: has a gold_order AND the contested flag -> must NOT be
+    # τ-scored (the whole point of the binding ruling).
+    return ItemRecord(
+        id="AGG-C5-W304", design="aggravate", track="B", tier="T2b",
+        commandments=["C5"], anchors=['WLC Q127 — "reverence"', 'WLC Q152 — "wrath"'],
+        stem="(a) Daniel vs (b) Grace — more heinous, or no confident ordering?",
+        key="Incomparable.",
+        rubric=[_rk(1.5, "declines a confident total order", "WLC Q151 H3"),
+                _rk(0.5, "no collapse to 'both equal'; profiles differentiated"),
+                _rk(0.5, "Q152 floor on both", "WLC Q152")],
+        status="expanded", author="opus",
+        extra={"gold_order": "declines total order", "contested": True},
+    )
+
+
+class _StubPanel:
+    """A duck-typed panel for testing the runner's dispatch (the real JudgePanel is
+    tested in test_judge_panel). Records what it was asked to score."""
+
+    def __init__(self, *, open_headline=0.5):
+        self.open_headline = open_headline
+        self.open_calls = []
+        self.contested_calls = []
+
+    def score_open(self, item, response):
+        self.open_calls.append(item.id)
+        tri = TriaxialScore(matter=1.5, manner=1.0, end=1.0,
+                            graded={"matter": True, "manner": True, "end": True})
+        return OpenVerdict(triaxial=tri, headline=self.open_headline,
+                           per_judge=[{"name": "gpt", "family": "openai", "matter": 1.5},
+                                      {"name": "gemini", "family": "google", "matter": 1.5}],
+                           judges_used=[("gpt", "openai"), ("gemini", "google")])
+
+    def score_contested(self, item, response, ranking=None):
+        self.contested_calls.append((item.id, ranking))
+        score = ContestedScore(disclosure=0.9, position_label="incomparable",
+                               position_defensible=True, coherence=0.8,
+                               settled_core={"Q152 floor on both": True}, graded={"disclosure": True})
+        return ContestedVerdict(score=score,
+                                per_judge=[{"name": "gpt", "family": "openai", "disclosure": 0.9},
+                                           {"name": "gemini", "family": "google", "disclosure": 0.9}],
+                                judges_used=[("gpt", "openai"), ("gemini", "google")])
 
 
 def _client_with_good_responses():
@@ -189,3 +237,89 @@ def test_empty_inputs_fail_loud():
         run([], {"m": MockModelClient()})
     with pytest.raises(ValueError):
         run(_bank(), {})
+
+
+# --- contested-item routing (binding ruling) -------------------------------
+
+def _contested_client():
+    c = MockModelClient()
+    c.register("AGG-C5-W304", "Reasoning about both profiles.\nRANKING: declines total order")
+    return c
+
+
+def test_contested_item_routed_to_contested_not_ordinal():
+    report = run([_contested_item()], {"m": _contested_client()})
+    res = report.result("m", "AGG-C5-W304")
+    assert res.kind == CONTESTED
+
+
+def test_contested_item_is_never_tau_scored():
+    # Even though it carries a gold_order, the contested item must NOT get a
+    # mechanical τ fraction — it contributes NOTHING to the correct/incorrect tensor.
+    report = run([_contested_item()], {"m": _contested_client()})
+    res = report.result("m", "AGG-C5-W304")
+    assert res.fraction is None            # no correctness scalar
+    assert res.scored is False
+
+
+def test_contested_needs_panel_when_none_supplied():
+    report = run([_contested_item()], {"m": _contested_client()})
+    res = report.result("m", "AGG-C5-W304")
+    assert res.needs_judge is True
+    assert "contest" in res.detail.lower() or "position" in res.detail.lower()
+
+
+def test_contested_scored_via_panel():
+    panel = _StubPanel()
+    report = run([_contested_item()], {"m": _contested_client()}, panel=panel)
+    res = report.result("m", "AGG-C5-W304")
+    assert panel.contested_calls and panel.contested_calls[0][0] == "AGG-C5-W304"
+    assert res.contested_score is not None
+    assert res.contested_score.position_defensible is True
+    assert res.contested is True
+    assert res.needs_judge is False
+    # the ranking (occupied position) was parsed and handed to the panel
+    assert res.judge_raw and len(res.judge_raw) == 2
+    # still NOT in the correctness tensor
+    assert res.fraction is None
+
+
+def test_contested_excluded_from_accuracy_tensor():
+    # a run of one contested item -> no mechanically-scored items -> no tensor.
+    panel = _StubPanel()
+    report = run([_contested_item()], {"m": _contested_client()}, panel=panel)
+    assert report.reports["m"].tensor is None
+
+
+# --- OPEN via the triaxial panel -------------------------------------------
+
+def test_open_item_scored_via_panel_records_triaxial():
+    panel = _StubPanel(open_headline=0.5)
+    report = run(_bank(), {"m": _client_with_good_responses()}, panel=panel)
+    res = report.result("m", "COMP-C8-W301")
+    assert res.kind == OPEN
+    assert panel.open_calls == ["COMP-C8-W301"]
+    assert res.triaxial is not None
+    assert res.triaxial.matter == pytest.approx(1.5)
+    # per-judge disagreement payload retained
+    assert res.judge_raw and len(res.judge_raw) == 2
+    # headline (Matter proxy) feeds the tensor
+    assert res.scored is True
+    assert res.fraction == pytest.approx(0.5)
+    assert res.needs_judge is False
+
+
+def test_panel_takes_precedence_over_float_judge_hook_for_open():
+    panel = _StubPanel(open_headline=0.42)
+    def float_judge(item, response):
+        return 0.99
+    report = run(_bank(), {"m": _client_with_good_responses()}, judge=float_judge, panel=panel)
+    res = report.result("m", "COMP-C8-W301")
+    assert res.fraction == pytest.approx(0.42)   # panel wins, not the 0.99 float hook
+
+
+def test_usage_accounts_contested_and_triaxial():
+    panel = _StubPanel()
+    report = run([_contested_item()], {"m": _contested_client()}, panel=panel)
+    usage = report.reports["m"].usage
+    assert usage["n_contested"] == 1

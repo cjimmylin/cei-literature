@@ -105,6 +105,20 @@ from .judge import (
 )
 # --- Triaxial Matter/Manner/End sub-scoring (§4.2; never collapsed pre-analysis) ---
 from .triaxial import TriaxialScore, score_triaxial, AXES as TRIAXIAL_AXES
+# --- Contested-item position/coherence scorer (adherence, not correctness;
+#     binding ruling 20260709-contested-item-scoring-ruling.md). ----------------
+from .contested import (
+    score_contested_position,
+    ContestedScore,
+    settled_core_keypoints,
+    position_invariance,
+    PositionInvarianceResult,
+    steerability_check,
+    SteerabilityResult,
+)
+# --- Live OPEN/CONTESTED judge panel (§4.3): calibrate-and-discard + cross-family
+#     assignment + triaxial (OPEN) / position (CONTESTED); retains per-judge raw. --
+from .judge_panel import JudgePanel, OpenVerdict, ContestedVerdict
 # --- First REAL model backend behind the seam: the Claude Code CLI via
 #     subscription OAuth (subprocess, no API key). Smoke-pilot use only; the
 #     gated empirical run wants the Messages API. See cli_client.py caveats. ---
@@ -123,6 +137,7 @@ from .routing import (
     ANCHOR,
     EPISODE,
     OPEN,
+    CONTESTED,
     SCORER_KINDS,
 )
 from .promptbuilder import build_examinee_prompt, ExamineePrompt, EXAMINEE_SYSTEM
@@ -220,6 +235,18 @@ __all__ = [
     "TriaxialScore",
     "score_triaxial",
     "TRIAXIAL_AXES",
+    # contested-item position/coherence scorer (adherence, not correctness)
+    "score_contested_position",
+    "ContestedScore",
+    "settled_core_keypoints",
+    "position_invariance",
+    "PositionInvarianceResult",
+    "steerability_check",
+    "SteerabilityResult",
+    # live OPEN/CONTESTED judge panel (§4.3)
+    "JudgePanel",
+    "OpenVerdict",
+    "ContestedVerdict",
     # real CLI-OAuth backend (subprocess; smoke-pilot only)
     "CLIModelClient",
     "CLIClientError",
@@ -235,6 +262,7 @@ __all__ = [
     "ANCHOR",
     "EPISODE",
     "OPEN",
+    "CONTESTED",
     "SCORER_KINDS",
     # Phase 3: examinee-prompt builder
     "build_examinee_prompt",

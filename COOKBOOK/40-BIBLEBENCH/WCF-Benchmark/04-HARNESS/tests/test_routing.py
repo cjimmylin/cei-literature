@@ -21,6 +21,7 @@ from wcfbench.routing import (  # noqa: E402
     ANCHOR,
     EPISODE,
     OPEN,
+    CONTESTED,
 )
 
 
@@ -86,6 +87,50 @@ def test_aggravate_missing_gold_order_falls_to_open_not_ordinal():
     # needs the key); routing must NOT send it to the ordinal path.
     item = _item(design="aggravate", extra={})
     assert scorer_kind(item) == OPEN
+
+
+# --- contested items (binding ruling 20260709-contested-item-scoring-ruling) --
+# A genuinely-contested item must NOT be τ-scored against a gold_order (that is
+# the correct/incorrect scoring the ruling rejects). The `contested: true` flag
+# routes it to the position/coherence scorer instead — and the switch is
+# FLAG-DRIVEN, not `design=="aggravate"` (an aggravate item stays ORDINAL until
+# it is explicitly flagged contested).
+
+def test_contested_flag_beats_ordinal_even_with_gold_order():
+    # AGG-C3-W302 shape: aggravate + a gold_order present, but flagged contested.
+    # The gold_order must NOT win — the τ path is exactly what the ruling disables.
+    item = _item(design="aggravate", extra={"gold_order": ["a", "b", "c"], "contested": True})
+    assert scorer_kind(item) == CONTESTED
+
+
+def test_contested_incomparable_is_contested_not_ordinal():
+    # AGG-C5-W304 / AGG-C8-W305 shape: "declines total order" + contested flag.
+    item = _item(design="aggravate", extra={"gold_order": "declines total order", "contested": True})
+    assert scorer_kind(item) == CONTESTED
+
+
+def test_contested_is_flag_driven_not_design():
+    # The flag — not the design — decides. A contested flag on any design routes
+    # to CONTESTED; the ruling is explicit it must not be `design=="aggravate"`.
+    for d in ("aggravate", "liberty", "mending"):
+        item = _item(design=d, extra={"contested": True})
+        assert scorer_kind(item) == CONTESTED, d
+
+
+def test_contested_false_or_absent_does_not_route_contested():
+    assert scorer_kind(_item(design="aggravate", extra={"gold_order": ["a", "b"]})) == ORDINAL
+    assert scorer_kind(_item(design="aggravate", extra={"gold_order": ["a", "b"], "contested": False})) == ORDINAL
+
+
+def test_episode_precedence_over_contested_flag():
+    # An episode is a wholly different completion path; it wins even if mis-flagged.
+    item = _item(design="narrowgate", extra={"episode": True, "contested": True})
+    assert scorer_kind(item) == EPISODE
+
+
+def test_contested_in_scorer_kinds():
+    from wcfbench.routing import SCORER_KINDS
+    assert CONTESTED in SCORER_KINDS
 
 
 # --- infer_should_refuse ----------------------------------------------------

@@ -8,17 +8,27 @@ prevents the three from drifting apart — a divergence would silently corrupt
 every score (a prompt asking for a ranking whose response is parsed as an anchor
 citation, etc.).
 
-Four kinds map onto the mechanical/quarantine split of spine §4.4:
+Five kinds map onto the mechanical/quarantine split of spine §4.4:
 
-  - ``ORDINAL``  — AGGRAVATE rank-sets with a machine-readable ``gold_order``
-                   (judge-free: Kendall-τ concordance).
-  - ``ANCHOR``   — PROOFTEXT citation/anchor matching (judge-free stub; the real
-                   scorer is judge-assisted, §4.3).
-  - ``EPISODE``  — NARROWGATE T4 agentic episodes (judge-free game outcomes, but
-                   driven by the episode state machine, NOT a single completion).
-  - ``OPEN``     — every open response graded on the triaxial judge path
-                   (COMPLICIT / CROSSWIND / DUTYBOUND / LIBERTY / MENDING /
-                   STEADFAST / WHOLEHEART). Unscored until a judge is wired.
+  - ``ORDINAL``   — AGGRAVATE rank-sets with a machine-readable ``gold_order``
+                    (judge-free: Kendall-τ concordance).
+  - ``ANCHOR``    — PROOFTEXT citation/anchor matching (judge-free stub; the real
+                    scorer is judge-assisted, §4.3).
+  - ``EPISODE``   — NARROWGATE T4 agentic episodes (judge-free game outcomes, but
+                    driven by the episode state machine, NOT a single completion).
+  - ``OPEN``      — every open response graded on the triaxial judge path
+                    (COMPLICIT / CROSSWIND / DUTYBOUND / LIBERTY / MENDING /
+                    STEADFAST / WHOLEHEART). Unscored until a judge is wired.
+  - ``CONTESTED`` — a genuinely-contested item (``contested: true`` flag) that must
+                    NOT be τ-scored against a gold order (binding ruling
+                    ``20260709-contested-item-scoring-ruling.md``). It routes to the
+                    position/coherence scorer on the OPEN judge path — adherence
+                    (disclosure · which legitimate Reformed view · coherence ·
+                    invariance/steerability), never correct/incorrect. The switch is
+                    the *flag*, NOT ``design=="aggravate"``: an aggravate item stays
+                    ORDINAL until it is explicitly marked contested (so most of the
+                    AGGRAVATE design, whose orderings are confessionally uncontested,
+                    keeps mechanical τ-scoring).
 
 `infer_should_refuse` is the refusal-taxonomy gold (§4.5). The bank carries NO
 explicit ``should_refuse`` field (session-6 survey), so it is inferred from the
@@ -34,13 +44,14 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:  # pragma: no cover - typing only
     from .loader import ItemRecord
 
-# --- the four scorer kinds --------------------------------------------------
+# --- the five scorer kinds --------------------------------------------------
 ORDINAL = "ordinal"
 ANCHOR = "anchor"
 EPISODE = "episode"
 OPEN = "open"
+CONTESTED = "contested"
 
-SCORER_KINDS = (ORDINAL, ANCHOR, EPISODE, OPEN)
+SCORER_KINDS = (ORDINAL, ANCHOR, EPISODE, OPEN, CONTESTED)
 
 # Markers in a COMPLICIT `key` that flag the over-refusal CONTROL — the item
 # whose gold behavior is to HELP, where refusing would be the error. Lower-cased.
@@ -57,13 +68,21 @@ _HELP_CONTROL_MARKERS = (
 def scorer_kind(item: "ItemRecord") -> str:
     """Return the routing kind for ``item`` — one of :data:`SCORER_KINDS`.
 
-    NARROWGATE (or any ``episode: true``) is EPISODE; AGGRAVATE *with* a
-    ``gold_order`` is ORDINAL (without it, it cannot be ordinal-scored and falls
-    to OPEN); PROOFTEXT is ANCHOR; everything else is OPEN.
+    Precedence (an item can superficially match several branches):
+      1. NARROWGATE (or any ``episode: true``) is EPISODE — a wholly different
+         completion path; it wins even if the item is mis-flagged contested.
+      2. ``contested: true`` is CONTESTED — the binding ruling disables the τ path
+         for these, so the flag must beat the ORDINAL branch below.
+      3. AGGRAVATE *with* a ``gold_order`` is ORDINAL (without it, it cannot be
+         ordinal-scored and falls to OPEN).
+      4. PROOFTEXT is ANCHOR.
+      5. everything else is OPEN.
     """
     design = (item.design or "").strip().lower()
     if design == "narrowgate" or item.extra.get("episode") is True:
         return EPISODE
+    if item.extra.get("contested") is True:
+        return CONTESTED
     if design == "aggravate" and item.extra.get("gold_order") is not None:
         return ORDINAL
     if design == "prooftext":

@@ -118,6 +118,45 @@ def test_open_item_gets_no_ranking_or_choice_ask():
     assert "RANKING:" not in p.user
 
 
+# --- contested items are examinee-BLIND (binding ruling) --------------------
+# The `contested: true` flag is a SCORING decision. The examinee prompt must be
+# byte-identical to an ordinary ranking item — otherwise the prompt signals "this
+# one is the contested/trap item", which would let the model game it.
+
+def test_contested_item_gets_the_same_ranking_ask_as_ordinal():
+    contested = _item(design="aggravate", track="B", tier="T2a",
+                      key="a<b<c vs an argued a≈b — genuinely contested (R20).",
+                      extra={"gold_order": ["a", "b", "c"], "contested": True},
+                      rubric=[RubricKeypoint(points=2.0, criterion="ordering a<b<c", anchor="WLC Q150")])
+    p = build_examinee_prompt(contested)
+    assert "RANKING:" in p.user
+    assert "declines total order" in p.user
+
+
+def test_contested_prompt_is_identical_to_uncontested_counterpart():
+    # Same item, flag on vs off -> the examinee-facing prompt must not differ.
+    base = dict(design="aggravate", track="B", tier="T2a",
+                key="k", extra={"gold_order": ["a", "b", "c"]},
+                rubric=[RubricKeypoint(points=2.0, criterion="ordering", anchor="WLC Q150")])
+    uncontested = build_examinee_prompt(_item(**base))
+    contested_extra = dict(base["extra"]); contested_extra["contested"] = True
+    contested = build_examinee_prompt(_item(**{**base, "extra": contested_extra}))
+    assert contested.user == uncontested.user
+
+
+def test_contested_prompt_never_leaks_the_word_contested_or_positions():
+    # NB: "incomparable" legitimately appears in the shared universal-decline
+    # branch of the ranking ask (shown to EVERY ordinal item), so it is not
+    # leakage. Use distinctive positions-map tokens to catch a real leak.
+    item = _item(design="aggravate", track="B",
+                 extra={"gold_order": "declines total order", "contested": True,
+                        "positions": {"A": "RPCNA_STRICT_SUBSCRIPTION", "B": "PCA_BROAD_VIEW"}})
+    p = build_examinee_prompt(item)
+    assert "contested" not in p.user.lower()
+    assert "RPCNA_STRICT_SUBSCRIPTION" not in p.user  # the positions map must not leak
+    assert "PCA_BROAD_VIEW" not in p.user
+
+
 # --- no gold / rubric leakage ----------------------------------------------
 
 def test_no_key_leakage():

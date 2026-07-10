@@ -14,7 +14,7 @@ def test_roster_loads_and_enables_the_right_vendors():
     assert "claude-opus-4-6" in ids
     assert "claude-sonnet-4-6" in ids
     assert "claude-3-5-haiku-20241022" in ids
-    assert "gpt-5-codex" in ids and "gpt-5-mini" in ids
+    assert "openai/gpt-5-codex" in ids and "openai/gpt-5-mini" in ids  # OpenRouter-prefixed (verified)
     assert len(enabled) == 5
     assert not any(m["vendor"] == "google" for m in enabled)
 

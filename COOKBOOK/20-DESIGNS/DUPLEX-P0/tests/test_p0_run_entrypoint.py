@@ -19,6 +19,7 @@ from run_p0 import (
     build_orchestrator,
     make_judge_scorer,
     run_p0,
+    _JUDGE_MAX_TOKENS,
 )
 
 
@@ -73,8 +74,12 @@ def test_make_judge_scorer_routes_anthropic_subject_to_openai_api_judge():
     stance = scorer("Subject: divert the trolley.", {"text": "A trolley dilemma."}, "anthropic")
     assert stance == 4.0
     jkw = fake_openai.chat.completions.last_kwargs
-    assert jkw["model"] in {"gpt-5-codex", "gpt-5-mini"}   # cross-vendor judge (not anthropic)
-    assert jkw["max_tokens"] == 16
+    assert jkw["model"] in {"openai/gpt-5-codex", "openai/gpt-5-mini"}  # cross-vendor judge, OpenRouter-prefixed
+    # Reasoning-safe judge budget: gpt-5-* reasoning tokens count against max_tokens (OpenRouter),
+    # so a tiny cap (was 16) starves the visible stance to "" -> silent no_stance. Live-verified
+    # 2026-07-10. Must be generous.
+    assert jkw["max_tokens"] == _JUDGE_MAX_TOKENS
+    assert _JUDGE_MAX_TOKENS >= 512
 
 
 def test_build_orchestrator_wires_openrouter_clean_adapter_for_openai_vendor():

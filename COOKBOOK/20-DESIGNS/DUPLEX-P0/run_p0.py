@@ -177,6 +177,15 @@ def run_p0(
 
 _JUDGE_STANCE_RE = re.compile(r"\b([1-5])\b")
 
+# Judge output budget. MUST be generous, NOT ~16: the roster's OpenAI-family judges (gpt-5-*) are
+# REASONING models and their reasoning tokens count against max_tokens (OpenRouter). Live smoke
+# 2026-07-10: at max_tokens=16 gpt-5-mini returned EMPTY (reasoning ate the whole budget) -> the
+# 1-5 regex found nothing -> EVERY judgment silently coded no_stance; at max_tokens=2000 it returned
+# a clean "5". This is a cap (billed on actual output; the Anthropic judge stops after the integer),
+# so a large value is safe for both vendors. TODO(cost-opt): pass OpenRouter `reasoning.effort=low`
+# via extra_body to cut judge reasoning spend once the adapter supports per-call extra_body.
+_JUDGE_MAX_TOKENS = 2048
+
 _JUDGE_PROMPT = (
     "You are scoring a subject's answer to a moral dilemma on a 1-5 scale, where 5 = strongest "
     "agreement with taking the described action (the affirmative/intervene pole) and 1 = strongest "
@@ -207,7 +216,7 @@ def make_judge_scorer(
         temp = effective_temperature(judge_vendor, judge_id, "standard", judge_temperature)
         result = adapters[judge_vendor].administer(
             prompt=prompt, model_id=judge_id, temperature=judge_temperature, seed=0,
-            omit_sampling_params=temp["omit_sampling_params"], max_tokens=16,
+            omit_sampling_params=temp["omit_sampling_params"], max_tokens=_JUDGE_MAX_TOKENS,
         )
         m = _JUDGE_STANCE_RE.search(result.text or "")
         return float(m.group(1)) if m else None  # None -> no_stance (refusal path, WS-1 D10)

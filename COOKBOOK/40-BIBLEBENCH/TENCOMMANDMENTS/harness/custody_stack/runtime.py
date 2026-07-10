@@ -1,0 +1,347 @@
+"""Append-before-swap custody runtime with deterministic replay and resume."""
+
+from hashlib import sha256
+
+from .event_log import EventLog, EventLogError, verify_chain
+from .protocol import parse_action
+from .sandbox import ToolRegistry
+from .schema import (
+    CustodyError,
+    EVENT_SCHEMA_VERSION,
+    EpisodeState,
+    Event,
+    FORBIDDEN_PERSISTED_FIELD_NAMES,
+    SchemaValidationError,
+    canonical_json_bytes,
+    require_identifier,
+    require_sha256,
+    state_sha256,
+)
+
+
+EMPTY_SHA256 = sha256(b"").hexdigest()
+
+
+class ReplayError(CustodyError, ValueError):
+    """Raised when deterministic replay differs from persisted custody evidence."""
+
+
+class TerminalRuntimeError(CustodyError, RuntimeError):
+    """Raised when an action is offered after a terminal transition."""
+
+
+class RuntimeStateError(CustodyError, RuntimeError):
+    """Raised when a shared log has advanced beyond this runtime's private state."""
+
+
+def _all_strings(value):
+    if type(value) is str:
+        return (value,)
+    if type(value) is dict:
+        strings = []
+        for key, child in value.items():
+            strings.append(key)
+            strings.extend(_all_strings(child))
+        return tuple(strings)
+    if type(value) is list:
+        strings = []
+        for child in value:
+            strings.extend(_all_strings(child))
+        return tuple(strings)
+    return ()
+
+
+def _private_strings(value):
+    if type(value) is list:
+        secrets = []
+        for child in value:
+            secrets.extend(_private_strings(child))
+        return tuple(secrets)
+    if type(value) is not dict:
+        return ()
+    secrets = []
+    for key, child in value.items():
+        if key in FORBIDDEN_PERSISTED_FIELD_NAMES:
+            secrets.extend(item for item in _all_strings(child) if item)
+        else:
+            secrets.extend(_private_strings(child))
+    return tuple(secrets)
+
+
+def _reject_private_material(states, action, tool_result):
+    secrets = []
+    for state in states:
+        secrets.extend(_private_strings(state.to_dict()))
+    if not secrets:
+        return
+    persisted_strings = _all_strings(action.to_dict()) + _all_strings(
+        tool_result.to_dict()
+    )
+    if any(secret in candidate for secret in secrets for candidate in persisted_strings):
+        raise SchemaValidationError("private material cannot be persisted")
+
+
+def _validated_metadata(
+    episode_id,
+    logical_id,
+    prompt_sha256,
+    item_sha256,
+    template_sha256,
+    error_type=SchemaValidationError,
+):
+    try:
+        require_identifier(episode_id, "episode_id")
+        require_identifier(logical_id, "logical_id")
+        require_sha256(prompt_sha256, "prompt_sha256")
+        require_sha256(item_sha256, "item_sha256")
+        require_sha256(template_sha256, "template_sha256")
+    except SchemaValidationError as exc:
+        raise error_type(str(exc)) from exc
+    return (
+        episode_id,
+        logical_id,
+        prompt_sha256,
+        item_sha256,
+        template_sha256,
+    )
+
+
+class Runtime:
+    """Execute exact allowlisted actions against one private episode state."""
+
+    def __init__(
+        self,
+        initial_state,
+        handlers,
+        event_log=None,
+        episode_id="episode",
+        logical_id="logical",
+        prompt_sha256=EMPTY_SHA256,
+        item_sha256=EMPTY_SHA256,
+        template_sha256=EMPTY_SHA256,
+    ):
+        if type(initial_state) is not EpisodeState:
+            raise SchemaValidationError("initial_state must be an exact EpisodeState")
+        if type(handlers) is not ToolRegistry:
+            raise SchemaValidationError("handlers must be an exact ToolRegistry")
+        if event_log is None:
+            event_log = EventLog()
+        if type(event_log) is not EventLog:
+            raise SchemaValidationError("event_log must be an exact EventLog")
+        if event_log.events:
+            raise SchemaValidationError("nonempty logs must be opened with Runtime.resume")
+        metadata = _validated_metadata(
+            episode_id,
+            logical_id,
+            prompt_sha256,
+            item_sha256,
+            template_sha256,
+        )
+        self._state = initial_state
+        self._handlers = handlers
+        self._event_log = event_log
+        self._terminal = False
+        (
+            self._episode_id,
+            self._logical_id,
+            self._prompt_sha256,
+            self._item_sha256,
+            self._template_sha256,
+        ) = metadata
+
+    @property
+    def state(self):
+        return self._state
+
+    @property
+    def events(self):
+        return self._event_log.events
+
+    @property
+    def event_log(self):
+        return self._event_log
+
+    @property
+    def terminal(self):
+        return self._terminal
+
+    def accept(self, raw_response):
+        """Validate, simulate, durably append, and only then swap runtime state."""
+
+        if self._terminal:
+            raise TerminalRuntimeError("runtime is already terminal")
+        before_sha256 = state_sha256(self._state)
+        existing_events = self._event_log.events
+        if existing_events:
+            last_event = existing_events[-1]
+            if last_event.terminal:
+                raise TerminalRuntimeError("event log is already terminal")
+            if last_event.state_after_sha256 != before_sha256:
+                raise RuntimeStateError("event log advanced beyond runtime state")
+            if (
+                last_event.episode_id,
+                last_event.logical_id,
+                last_event.prompt_sha256,
+                last_event.item_sha256,
+                last_event.template_sha256,
+            ) != (
+                self._episode_id,
+                self._logical_id,
+                self._prompt_sha256,
+                self._item_sha256,
+                self._template_sha256,
+            ):
+                raise RuntimeStateError("event log belongs to different provenance metadata")
+        action = parse_action(raw_response)
+        raw_response_sha256 = sha256(raw_response.encode("utf-8")).hexdigest()
+        transition = self._handlers.execute(self._state, action)
+        _reject_private_material(
+            (self._state, transition.next_state), action, transition.tool_result
+        )
+        after_sha256 = state_sha256(transition.next_state)
+        event = Event.create(
+            schema_version=EVENT_SCHEMA_VERSION,
+            event_index=self._event_log.next_index,
+            episode_id=self._episode_id,
+            logical_id=self._logical_id,
+            previous_event_sha256=self._event_log.previous_event_sha256,
+            state_before_sha256=before_sha256,
+            state_after_sha256=after_sha256,
+            action=action,
+            tool_result=transition.tool_result,
+            raw_response_sha256=raw_response_sha256,
+            prompt_sha256=self._prompt_sha256,
+            item_sha256=self._item_sha256,
+            template_sha256=self._template_sha256,
+            terminal=transition.tool_result.terminal,
+        )
+        self._event_log.append(event)
+        self._state = transition.next_state
+        self._terminal = transition.tool_result.terminal
+        return transition.tool_result
+
+    @classmethod
+    def resume(
+        cls,
+        initial_state,
+        handlers,
+        events=None,
+        event_log=None,
+        episode_id=None,
+        logical_id=None,
+        prompt_sha256=None,
+        item_sha256=None,
+        template_sha256=None,
+    ):
+        """Replay verified events from caller-supplied private state and resume."""
+
+        if type(initial_state) is not EpisodeState:
+            raise ReplayError("initial_state must be an exact EpisodeState")
+        if type(handlers) is not ToolRegistry:
+            raise ReplayError("handlers must be an exact ToolRegistry")
+        if events is not None and event_log is not None:
+            raise ReplayError("provide events or event_log, not both")
+        try:
+            if event_log is not None:
+                if type(event_log) is not EventLog:
+                    raise ReplayError("event_log must be an exact EventLog")
+                log = event_log
+            else:
+                if events is None:
+                    events = ()
+                log = EventLog(events=events)
+        except EventLogError as exc:
+            raise ReplayError("event chain is structurally invalid") from exc
+        persisted = log.events
+        if not verify_chain(persisted):
+            raise ReplayError("event chain is structurally invalid")
+
+        supplied_metadata = (
+            episode_id,
+            logical_id,
+            prompt_sha256,
+            item_sha256,
+            template_sha256,
+        )
+        if persisted:
+            first = persisted[0]
+            stored_metadata = (
+                first.episode_id,
+                first.logical_id,
+                first.prompt_sha256,
+                first.item_sha256,
+                first.template_sha256,
+            )
+            effective = tuple(
+                stored if supplied is None else supplied
+                for supplied, stored in zip(supplied_metadata, stored_metadata)
+            )
+            _validated_metadata(*effective, error_type=ReplayError)
+            if effective != stored_metadata:
+                raise ReplayError("resume metadata does not match persisted metadata")
+        else:
+            defaults = ("episode", "logical", EMPTY_SHA256, EMPTY_SHA256, EMPTY_SHA256)
+            effective = tuple(
+                default if supplied is None else supplied
+                for supplied, default in zip(supplied_metadata, defaults)
+            )
+            _validated_metadata(*effective, error_type=ReplayError)
+
+        state = initial_state
+        terminal = False
+        for event in persisted:
+            if terminal:
+                raise ReplayError("event appears after a terminal transition")
+            if (
+                event.episode_id,
+                event.logical_id,
+                event.prompt_sha256,
+                event.item_sha256,
+                event.template_sha256,
+            ) != effective:
+                raise ReplayError("event provenance metadata changed within the chain")
+            if event.state_before_sha256 != state_sha256(state):
+                raise ReplayError("state-before hash mismatch")
+            try:
+                transition = handlers.execute(state, event.action)
+            except Exception as exc:
+                raise ReplayError("deterministic handler replay failed") from exc
+            try:
+                _reject_private_material(
+                    (state, transition.next_state), event.action, event.tool_result
+                )
+            except SchemaValidationError as exc:
+                raise ReplayError("persisted event contains private material") from exc
+            if canonical_json_bytes(transition.tool_result.to_dict()) != canonical_json_bytes(
+                event.tool_result.to_dict()
+            ):
+                raise ReplayError("stored tool result differs from deterministic replay")
+            if state_sha256(transition.next_state) != event.state_after_sha256:
+                raise ReplayError("state-after hash differs from deterministic replay")
+            if transition.tool_result.terminal != event.terminal:
+                raise ReplayError("stored terminal semantics differ from replay")
+            state = transition.next_state
+            terminal = transition.tool_result.terminal
+
+        runtime = cls.__new__(cls)
+        runtime._state = state
+        runtime._handlers = handlers
+        runtime._event_log = log
+        runtime._terminal = terminal
+        (
+            runtime._episode_id,
+            runtime._logical_id,
+            runtime._prompt_sha256,
+            runtime._item_sha256,
+            runtime._template_sha256,
+        ) = effective
+        return runtime
+
+
+__all__ = [
+    "EMPTY_SHA256",
+    "ReplayError",
+    "Runtime",
+    "RuntimeStateError",
+    "TerminalRuntimeError",
+]

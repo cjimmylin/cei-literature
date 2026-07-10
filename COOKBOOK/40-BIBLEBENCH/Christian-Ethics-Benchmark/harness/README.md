@@ -90,15 +90,38 @@ Claude + GPT = the two cross-family judges the charter needs.
   thinking only). Control depth with `output_config.effort`; pin decoding via prompt, not
   sampling params.
 
-## O3 wiring (next session, needs a credential — key OR OAuth)
+## O3 wiring — DONE (2026-07-09, subscription-CLI mechanics smoke)
+
+The O3 *live wiring* landed via **subscription CLIs** (no API key / SDK), distinct from the
+still-deferred keyed SDK adapters. New modules:
+
+- `cli_backends.py` — `ClaudeCLIClient` (`claude -p`, family anthropic) + `CodexCLIClient`
+  (`codex exec --ignore-user-config --output-last-message`, family openai). Injectable
+  subprocess `runner` → recorded-transcript tests, never a live call. No temperature/top_p/top_k.
+- `live_judges.py` — `CLIJudge(Judge)` (one model call per scoring unit → tolerant JSON
+  verdict parse → option coercion, defects logged not guessed) + `make_cli_state_classifier`
+  (judge-backed 02/07 branch selection, heuristic fallback). Drop-in for `judge_item`'s
+  cross-family + no-average guarantees.
+- `smoke.py` — `run_smoke` reuses the client-agnostic pipeline; `python -m walkworthy.smoke`
+  runs the live 4-family slice.
+
+Run the mechanics smoke (LIVE subscription-CLI calls — smoke-only, ToS):
+
+```bash
+PYTHONPATH=. python -m walkworthy.smoke --benchmark-root ..            # 4-family slice
+PYTHONPATH=. python -m walkworthy.smoke --benchmark-root .. --designs 01-goodsamaritan  # canary
+```
+
+Result of the 2026-07-09 run: `runs/20260709-o3-smoke/` + `00-PORTFOLIO/20260709-O3-smoke-report.md`
+(0 schema/parse/classifier defects; findings M-1→PR-3 refusal semantics, M-3 09/06 references).
+
+### Still deferred to the sanctioned Developer-Platform API path (O4)
 
 1. Implement the SDK call in `clients.AnthropicAdapter` / `OpenAIAdapter` / `GoogleAdapter`
-   `.complete()` (they currently raise until wired). For Anthropic, a bare
-   `anthropic.Anthropic()` picks up either a key or the `ant` OAuth profile.
-2. Add real judge subclasses of `judges.Judge` that call a model and parse the JSON verdict
-   (the rubric prompt is already assembled by `assemble_rubric_prompt`).
-3. Replace `executors.default_state_classifier` with a judge-backed branch classifier for
-   02/07.
-4. Provide `.env` with keys, or run the OAuth login (both gitignored/local). Keep the
-   PUBLIC-only + IDs-only + no-average rules.
+   `.complete()` (they still raise). These are the **measurement** backends (full §1 P0
+   pilot + O4 panel); subscription CLIs are smoke-only.
+2. Wire matched-quality **reference answers** for the `reference_anchored` designs (06/09)
+   before scoring — see smoke-report M-3.
+3. Provide the ~60-item/design **human labels** for the §3.4 judge-validity gate.
+4. Keep the PUBLIC-only + IDs-only + fixed-seed + no-average rules (unchanged).
 ```

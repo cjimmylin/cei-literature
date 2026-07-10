@@ -190,6 +190,7 @@ The nominal global magnitude frequencies are `8,16,24,32,32,24,16,8` over
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/skim_common.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/p1-synthetic.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/p1-live.example.json`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/p1-diagnostic.example.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/capability-pc1-reference.example.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/analysis/power.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_skim_contract.py`
@@ -258,6 +259,13 @@ Implement the deterministic X4 sensitivity table from frozen design counts,
 not observed effects. It must distinguish repeated responses from independent
 scenario-core clusters and must not use the paid diagnostic to revise the
 registered profile or flatness thresholds.
+
+The synthetic template emits `HARNESS_VALIDATION_ONLY`; the official live
+template remains `NOT_RUN` and fail-closed until its exact three-model,
+two-vendor, three-seed EvidenceBasis is complete; the one-seed
+`LIVE_SINGLE_VENDOR_PRECALIBRATION_DIAGNOSTIC` has its own template. Every
+config has one self-hash location at `artifact_hashes.config_sha256`, nulled
+for canonical hashing.
 
 - [x] **Step 4: Write the preregistration before bank/model data**
 
@@ -395,7 +403,7 @@ ambiguity.
 
 **Files:**
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/build_bank.py`
-- Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/bank/p1-private.jsonl`
+- Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/bank/p1-public.jsonl`
 - Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/gold/p1-private.gold.jsonl`
 - Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/runtime/p1-runtime-manifest.jsonl`
 - Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/manifest.json`
@@ -425,7 +433,7 @@ Run:
 
 ```bash
 $PY TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/build_bank.py
-shasum -a 256 TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/{bank/p1-private.jsonl,gold/p1-private.gold.jsonl,runtime/p1-runtime-manifest.jsonl,manifest.json}
+shasum -a 256 TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/{bank/p1-public.jsonl,gold/p1-private.gold.jsonl,runtime/p1-runtime-manifest.jsonl,manifest.json}
 ```
 
 Expected: second build produces identical hashes and reports 640 logical rows,
@@ -542,7 +550,7 @@ official ineligibility.
 - [ ] **Step 5: Implement official live preflight and synthetic disclosure**
 
 Official live requires professional-realism `PASS`, exactly three unique seeds,
-≥3 models from ≥2 vendors, human-baseline `COMPLETE`, a complete frozen external
+exactly three distinct models from ≥2 vendors, human-baseline `COMPLETE`, a complete frozen external
 capability-PC1 reference, verified adapter factories, frozen hashes, and no
 synthetic rows. Synthetic mode always emits `HARNESS_VALIDATION_ONLY` and is
 never official. The single-vendor diagnostic bypasses none of these gates; it
@@ -584,7 +592,7 @@ post-hoc cell can replace the scalar.
 - [ ] **Step 4: Implement mechanical scoring and Firth logistic fits**
 
 Use only verified event logs and private action maps. Return typed result
-objects with `ESTIMATED`, `LEFT_CENSORED`, `RIGHT_CENSORED`, or
+objects with `POINT_ESTIMATE`, `LEFT_CENSORED`, `RIGHT_CENSORED`, or
 `NOT_ESTIMABLE` status. Never substitute boundary coefficients or zero-width
 intervals. Bootstrap whole scenario-core bundles stratified by family.
 

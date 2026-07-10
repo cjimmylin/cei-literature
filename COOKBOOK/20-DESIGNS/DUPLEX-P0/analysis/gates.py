@@ -305,6 +305,17 @@ def pairwise_separation(
 
 # --------------------------------------------------------------------------- G3
 
+def is_pole_collapsed(
+    item_id: str, pole_collapsed_markers: Sequence[str] = ("M030",)
+) -> bool:
+    """SA-7 (F-3): exact-suffix or exact-ID match for the pole-collapsed marker, NOT a substring
+    match. A marker "M030" matches the exact id "M030" or the real-bank suffix form "...-M030"
+    (`DPX-P0-M030`), but NOT a longer id that merely contains it ("M0300", "DPX-P0-M0301"). The
+    old `"M030" in item_id` substring keying was safe on this bank only by numbering luck."""
+    iid = str(item_id)
+    return any(iid == mark or iid.endswith("-" + mark) for mark in pole_collapsed_markers)
+
+
 def _agg_delta(
     records: Sequence[dict], hi: str, lo: str
 ) -> Optional[float]:
@@ -364,8 +375,8 @@ def greene_direction(
     # --- M3 fallback: per-item, per-frame sign of deliberation - greene_fallback arm ---
     items = sorted({r["item_id"] for r in greene})
 
-    def is_pole_collapsed(item_id: str) -> bool:
-        return any(mark in str(item_id) for mark in pole_collapsed_markers)
+    def _pole_collapsed(item_id: str) -> bool:
+        return is_pole_collapsed(item_id, pole_collapsed_markers)  # SA-7: exact-suffix/exact-ID
 
     def signed_delta(item_id: str, frame: str) -> int:
         recs = [r for r in greene
@@ -385,7 +396,7 @@ def greene_direction(
             passed_main, pass_sign = True, s
             break
 
-    aligned = [it for it in items if not is_pole_collapsed(it)]
+    aligned = [it for it in items if not _pole_collapsed(it)]
     pole_aligned_consistent = False
     for s in (1, -1):
         if aligned and all(count(f, s, aligned) == len(aligned) for f in frames):
@@ -395,7 +406,7 @@ def greene_direction(
 
     m030_pole_collapsed = any(
         signs[(it, f)] != pass_sign
-        for it in items if is_pole_collapsed(it)
+        for it in items if _pole_collapsed(it)
         for f in frames
     ) if pass_sign else False
 

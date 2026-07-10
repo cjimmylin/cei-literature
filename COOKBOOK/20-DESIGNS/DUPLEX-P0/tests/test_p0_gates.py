@@ -7,7 +7,9 @@ from analysis.gates import (
     x3_compliance_gap,
     run_p0_gates,
     _outlier_guard_ok,
+    is_pole_collapsed,
 )
+from runner.items import load_item_bank
 
 
 # --------------------------------------------------------------------------- G1 (ruling G1-a/G1-b)
@@ -206,6 +208,27 @@ def test_g3_fallback_flat_no_direction():
     res = greene_direction(fx.g3_fallback_flat(), human_anchor=None, min_effect=0.02)
     assert res["pass_or_fallback"] == "fallback"
     assert res["pass"] is False
+
+
+def test_m030_marker_is_exact_suffix_or_id_not_substring():
+    """F-3 / SA-7: the M030 pole-collapse marker is an EXACT-SUFFIX (`endswith("-M030")`) or
+    exact-ID match, NOT a substring match. The real-bank id `DPX-P0-M030` matches; a bare fixture
+    id `M030` matches; but a longer id that merely contains the string (`DPX-P0-M0301`, `XM030`)
+    must NOT match — the substring keying was safe on this bank only by numbering luck."""
+    assert is_pole_collapsed("DPX-P0-M030") is True     # real-bank suffix form
+    assert is_pole_collapsed("M030") is True            # bare fixture id (exact)
+    assert is_pole_collapsed("DPX-P0-M0301") is False   # NOT a suffix match
+    assert is_pole_collapsed("XM030") is False          # NOT exact, NOT "-M030" suffix
+    assert is_pole_collapsed("DPX-P0-M004") is False
+
+
+def test_m030_marker_matches_exactly_one_item_in_real_bank():
+    """F-3 / SA-7: 'a new test loads the REAL bank JSON and asserts the marker matches exactly one
+    item -- the Greene M030.' This pins the real `DPX-P0-` id form (the coverage gap SA-9 noted:
+    the fixtures use bare M030 ids, so nothing pinned the real form)."""
+    bank = load_item_bank()  # items/20260706-p0-item-bank.json
+    matched = [it["item_id"] for it in bank if is_pole_collapsed(it["item_id"])]
+    assert matched == ["DPX-P0-M030"]
 
 
 def test_g3_fallback_m030_sensitivity_ib2():

@@ -109,6 +109,9 @@ from .triaxial import TriaxialScore, score_triaxial, AXES as TRIAXIAL_AXES
 #     subscription OAuth (subprocess, no API key). Smoke-pilot use only; the
 #     gated empirical run wants the Messages API. See cli_client.py caveats. ---
 from .cli_client import CLIModelClient, CLIClientError, DEFAULT_MODEL as CLI_DEFAULT_MODEL
+# --- Cross-family real backend behind the seam: OpenRouter (one key, many
+#     families). Smoke/pilot scale until the sanctioned-path ruling; see caveats. ---
+from .openrouter_client import OpenRouterModelClient, OpenRouterError
 
 __all__ = [
     "ItemRecord",
@@ -199,6 +202,9 @@ __all__ = [
     "CLIModelClient",
     "CLIClientError",
     "CLI_DEFAULT_MODEL",
+    # cross-family real backend (OpenRouter; smoke/pilot scale)
+    "OpenRouterModelClient",
+    "OpenRouterError",
 ]
 
 __version__ = "0.1.0"

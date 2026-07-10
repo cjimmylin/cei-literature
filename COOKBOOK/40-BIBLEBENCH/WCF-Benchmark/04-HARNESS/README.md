@@ -32,7 +32,9 @@ the seam a real Anthropic/OpenAI client implements later.
 │   ├── judge.py           judge templates + G4 calibration battery (§4.3, R14);
 │   │                      judge-assisted scorers retiring the two stubs
 │   ├── triaxial.py        Matter/Manner/End sub-scoring (§4.2; never collapsed)
-│   └── cli_client.py      CLIModelClient — real CLI-OAuth backend (smoke-pilot only)
+│   ├── cli_client.py      CLIModelClient — real CLI-OAuth backend (smoke-pilot only)
+│   └── openrouter_client.py  OpenRouterModelClient — cross-family real backend
+│                          (one key → many families; stdlib urllib; smoke/pilot)
 ├── ../05-BANK-YAML/       transcribed item bank (expansion-2, 69 items, §10)
 ├── fixtures/
 │   ├── AGG-C6-W301.yaml    orderable rank-set, gold a<b<c
@@ -46,7 +48,9 @@ the seam a real Anthropic/OpenAI client implements later.
 │   ├── test_judge.py       22 tests (assignment, templates, G4 battery, stub retirement)
 │   ├── test_mechanical.py  10 tests (artifact-inclusion, d′, sent-message)
 │   ├── test_triaxial.py     6 tests (Matter/Manner/End, never-collapse contract)
-│   └── test_bank_yaml.py   10 tests (bank load guard + memo-delta invariants)
+│   ├── test_bank_yaml.py   10 tests (bank load guard + memo-delta invariants)
+│   └── test_openrouter_client.py  8 tests (cross-family backend, mocked urllib)
+├── openrouter_smoke.py     opt-in live smoke pilot (bank → OpenRouter → scorers)
 ├── run_dryrun.py          load → mock-complete → score → tensor/refusal/invariance report
 └── README.md              this file
 ```
@@ -144,13 +148,15 @@ Use the vault venv (`pyyaml` + `pytest` present; no new deps needed):
     COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/04-HARNESS/smoke_pilot.py --go    # makes the real calls
 ```
 
-Current state: **117 passed** (15 skeleton + 21 Phase-2 backbone + 8 CLI-client +
-25 NARROWGATE + 22 judge + 10 mechanical + 6 triaxial + 10 bank-guard, all
-hermetic); the mock dry-run prints a per-item report, the reporting tensor +
-worst-cell + A–B gap, the refusal co-score per item, and a two-model invariance
-league — all `API calls made: 0`. The opt-in `smoke_pilot.py --go` validated the
-full chain (loader → `CLIModelClient` → scorers + refusal) on **2 real OAuth
-calls** (AGG-C6-W301 ordinal 2.0/2.0; PROOF-C8-W302 anchor 1.5/5.0, engaged).
+Current state: **125 passed** (15 skeleton + 21 Phase-2 backbone + 8 CLI-client +
+25 NARROWGATE + 22 judge + 10 mechanical + 6 triaxial + 10 bank-guard + 8
+OpenRouter-client, all hermetic); the mock dry-run prints a per-item report, the
+reporting tensor + worst-cell + A–B gap, the refusal co-score per item, and a
+two-model invariance league — all `API calls made: 0`. Two live smoke pilots
+validated the chain on real tokens: `smoke_pilot.py --go` (CLI-OAuth, Claude) and
+`openrouter_smoke.py --go` (OpenRouter, **cross-family**: AGG-C6-W301 ordinal
+2.0/2.0 on `openai/gpt-4o-mini`; PROOF-C8-W302 anchor+refusal on OpenAI /
+Anthropic / Meta from one key — proving loader → OpenRouter → mechanical scorers).
 
 ---
 
@@ -207,12 +213,15 @@ with the **score → aggregate → invariance backbone** (spine §4.5, §4.6, §
 
 Still to build (post-window / credential-gated):
 
-1. **Real model clients (cross-family + Messages-API)** — *partly done*:
-   `CLIModelClient` drives Claude via CLI-OAuth (smoke-pilot scale). Still to add:
-   cross-family CLI-OAuth (OpenAI Codex / Gemini) for the ≥2-judge-family
-   requirement, and sanctioned **Messages-API** clients for the reproducible,
-   ToS-clean bulk gated run (G1–G7). Concurrent COOKBOOK work landed an
-   OpenRouter cross-family adapter that may be reusable.
+1. **Real model clients** — *cross-family DONE*: `OpenRouterModelClient`
+   (`openrouter_client.py`) reaches many families through one key and is
+   **smoke-validated live** (`openrouter_smoke.py --go`: AGG-C6-W301 ordinal
+   2.0/2.0 on gpt-4o-mini; PROOF-C8-W302 anchor+refusal on OpenAI / Anthropic /
+   Meta). `CLIModelClient` (CLI-OAuth) remains for Claude-only smoke. **Remaining:**
+   the **Phase-3 runner** (bank → client → route-to-scorer → tensor; the smoke is
+   hand-wired to 2 items), and a project **ruling** on whether OpenRouter (a proxy)
+   is the sanctioned path for the gated G1–G7 run or stays smoke-scale like
+   CLI-OAuth (the spine's "sanctioned Messages-API path" language predates it).
 2. **YAML transcription — earlier waves** — expansion-2 is done; exemplars,
    wave-2, and expansion-1 (~161 items to reach 230) are the same mechanical pass
    against `../05-BANK-YAML/TRANSCRIPTION-SPEC.md`. Carry-forward: the other two

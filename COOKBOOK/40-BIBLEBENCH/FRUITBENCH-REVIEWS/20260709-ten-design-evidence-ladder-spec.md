@@ -1,6 +1,6 @@
 # FRUITBENCH-v2 Ten-Design Evidence Ladder — Design Specification
 
-**Status:** APPROVED IN PRINCIPLE by Jimmy, 2026-07-09; this document is the written specification pending final review before implementation planning.
+**Status:** APPROVED FOR IMPLEMENTATION by Jimmy, 2026-07-09.
 **Scope:** `FRUITBENCH-v2/` and `FRUITBENCH-REVIEWS/` only, plus the shared FRUITBENCH knowledge-base and published literature allowed by the standing scope-isolation rule.
 **Program objective:** repair the two existing P1 builds, then build and validate all ten FRUITBENCH-v2 methodologies using a common anti-cue and judge-provenance spine without replacing any design's method-specific construct or gate.
 **Evaluation roster:** `gpt-5.5`, `gpt-5.4`, `gpt-5.4-mini`.

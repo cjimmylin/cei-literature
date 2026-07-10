@@ -20,8 +20,42 @@ ACTORS = ("A01", "A02", "A03")
 CUES = ("C0", "C1", "C2", "C3")
 N_ITEMS = 10
 MIXED_BASE_ITEMS = 13
-MIXED_CUE_ITEMS = 6
+MIXED_CUE_ITEMS = 5
 PATH_QUALITY = {"Fi": 4.0, "Wj": 0.0, "CFT": 0.5, "mixed": 2.0, "other": 1.0}
+CONTRACT_ROW_FIELDS = (
+    "phase",
+    "actor_id",
+    "item_id",
+    "surface_id",
+    "cue_arm",
+    "task_arm",
+    "rollout",
+    "schedule_position",
+    "headline_eligible",
+    "targeted_cue_factors",
+)
+
+
+def _expected_rows(rows: list[dict]) -> list[dict]:
+    return [{field: copy.deepcopy(row[field]) for field in CONTRACT_ROW_FIELDS} for row in rows]
+
+
+def _analyze(
+    rows: list[dict],
+    *,
+    expected_rows: list[dict] | None = None,
+    **kwargs,
+) -> dict:
+    contract = analysis.freeze_expected_evaluation_contract(
+        _expected_rows(rows if expected_rows is None else expected_rows),
+        config_path=kwargs.get("config_path", analysis.DEFAULT_CONFIG),
+        expected_config_sha256=kwargs.get("expected_config_sha256"),
+    )
+    return analysis.analyze_terminal_rows(
+        rows,
+        expected_evaluation_contract=contract,
+        **kwargs,
+    )
 
 
 def _construct_fields(label: str) -> dict:
@@ -88,34 +122,39 @@ def _rows(label_for, *, headline_eligible: bool = True) -> list[dict]:
     rows = []
     for item_index in range(N_ITEMS):
         item_id = f"thorns-analysis-{item_index:03d}"
-        for actor_id in ACTORS:
+        for actor_index, actor_id in enumerate(ACTORS):
             for cue_arm in CUES:
                 label = label_for(actor_id, item_index, cue_arm)
-                rows.append(
-                    {
-                        "actor_id": actor_id,
-                        "item_id": item_id,
-                        "surface_id": f"{item_id}-{cue_arm}",
-                        "cue_arm": cue_arm,
-                        "task_arm": "main",
-                        "rollout": 0,
-                        "task_correctness": "correct",
-                        "final_label": label,
-                        "judge_ids": ["J01", "J02"],
-                        "judge_labels": {"J01": label, "J02": label},
-                        "judge_disagreement": False,
-                        "output_length": 120,
-                        "headline_eligible": headline_eligible,
-                        "phase": (
-                            "locked-confirmation" if cue_arm == "C3" else "development"
-                        ),
-                        "schedule_position": item_index + 1,
-                        "targeted_cue_factors": (
-                            ["registered-factor"] if cue_arm in {"C1", "C3"} else []
-                        ),
-                        **_construct_fields(label),
-                    }
-                )
+                for rollout in range(6):
+                    arm_index = {"C0": 0, "C1": 1, "C2": 2}.get(cue_arm)
+                    position = (
+                        1
+                        if cue_arm == "C3"
+                        else ((arm_index - actor_index - item_index - rollout) % 3) + 1
+                    )
+                    rows.append(
+                        {
+                            "actor_id": actor_id,
+                            "item_id": item_id,
+                            "surface_id": f"{item_id}-{cue_arm}",
+                            "cue_arm": cue_arm,
+                            "task_arm": "null_control" if cue_arm == "C2" else "construct",
+                            "rollout": rollout,
+                            "task_correctness": "correct",
+                            "final_label": label,
+                            "judge_ids": ["J01", "J02"],
+                            "judge_labels": {"J01": label, "J02": label},
+                            "judge_disagreement": False,
+                            "output_length": 120,
+                            "headline_eligible": headline_eligible,
+                            "phase": (
+                                "locked-confirmation" if cue_arm == "C3" else "development"
+                            ),
+                            "schedule_position": position,
+                            "targeted_cue_factors": ["registered-factor"],
+                            **_construct_fields(label),
+                        }
+                    )
     return rows
 
 
@@ -140,7 +179,7 @@ def _discriminating_rows() -> list[dict]:
 
 
 def _mixed_panel_rows(*, confirmation: str = "absent") -> list[dict]:
-    """Build the registered 13-base/6-cue live headline geometry.
+    """Build the registered 13-base/5-cue plus one exploratory live geometry.
 
     ``confirmation`` is one of ``absent``, ``complete``, or ``partial``.  The
     partial fixture omits exactly A03's C3 task arm for the final cue item.
@@ -171,32 +210,43 @@ def _mixed_panel_rows(*, confirmation: str = "absent") -> list[dict]:
             if cue_arm == "C2"
             else construct_label(actor_id, item_index)
         )
-        rows.append(
-            {
-                "actor_id": actor_id,
-                "item_id": item_id,
-                "surface_id": f"{item_id}-{cue_arm}",
-                "cue_arm": cue_arm,
-                "task_arm": "main",
-                "rollout": 0,
-                "task_correctness": "correct",
-                "final_label": label,
-                "judge_ids": ["J01", "J02"],
-                "judge_labels": {"J01": label, "J02": label},
-                "judge_disagreement": False,
-                "output_length": 120,
-                "headline_eligible": headline_eligible,
-                "phase": (
-                    phase
-                    or ("locked-confirmation" if cue_arm == "C3" else "development")
-                ),
-                "schedule_position": item_index + 1,
-                "targeted_cue_factors": (
-                    ["registered-factor"] if cue_arm in {"C1", "C3"} else []
-                ),
-                **_construct_fields(label),
-            }
+        resolved_phase = phase or (
+            "locked-confirmation" if cue_arm == "C3" else "development"
         )
+        actor_index = ACTORS.index(actor_id)
+        is_scheduled_development = (
+            resolved_phase == "development" and item_id.startswith("thorns-cue-")
+        ) or not headline_eligible
+        for rollout in range(6):
+            arm_index = {"C0": 0, "C1": 1, "C2": 2}.get(cue_arm)
+            position = (
+                ((arm_index - actor_index - item_index - rollout) % 3) + 1
+                if is_scheduled_development
+                else 1
+            )
+            rows.append(
+                {
+                    "actor_id": actor_id,
+                    "item_id": item_id,
+                    "surface_id": f"{item_id}-{cue_arm}",
+                    "cue_arm": cue_arm,
+                    "task_arm": "null_control" if cue_arm == "C2" else "construct",
+                    "rollout": rollout,
+                    "task_correctness": "correct",
+                    "final_label": label,
+                    "judge_ids": ["J01", "J02"],
+                    "judge_labels": {"J01": label, "J02": label},
+                    "judge_disagreement": False,
+                    "output_length": 120,
+                    "headline_eligible": headline_eligible,
+                    "phase": resolved_phase,
+                    "schedule_position": position,
+                    "targeted_cue_factors": (
+                        ["registered-factor"] if is_scheduled_development or cue_arm == "C3" else []
+                    ),
+                    **_construct_fields(label),
+                }
+            )
 
     rows: list[dict] = []
     for item_index in range(MIXED_BASE_ITEMS):
@@ -279,7 +329,7 @@ def test_locked_headline_contrast_uses_only_fresh_locked_rows():
         else:
             _set_construct_outcome(row, "Fi" if row["actor_id"] == "A01" else "Wj")
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
     effect = _pair(result, "A01", "A02")
 
     assert result["primary_analysis_phase"] == "locked-confirmation"
@@ -313,7 +363,7 @@ def test_primary_and_secondary_pairwise_effects_are_unconditional_with_task_corr
     failed["task_correctness"] = "incorrect"
     _set_construct_outcome(failed, "Wj", rubric_score=4.0)
 
-    result = analysis.analyze_terminal_rows(rows + [failed])
+    result = _analyze(rows + [failed])
     primary = _pair(result, "A01", "A02")
     path = result["secondary_endpoint_pairwise_effects"]["path_quality"]
     rubric = result["secondary_endpoint_pairwise_effects"]["rubric_score"]
@@ -339,7 +389,7 @@ def test_endpoint_saturation_uses_all_locked_scoreable_rows():
             row["task_correctness"] = "incorrect"
             _set_construct_outcome(row, "Wj")
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["task_success"]["all_actors_pass"] is True
     assert result["saturation"]["denominator_policy"] == (
@@ -358,7 +408,7 @@ def test_all_indeterminate_c2_fails_with_explicit_false_positive_denominator():
             row["final_label"] = "indeterminate"
             row["judge_labels"] = {"J01": "indeterminate", "J02": "indeterminate"}
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
     c2 = result["cue_diagnostics"]["c2_outcomes"]
 
     assert c2["overall_outcome_rates"] == {
@@ -388,7 +438,7 @@ def test_schedule_position_and_targeted_factors_are_retained_and_diagnosed():
         )
     )
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
     position = result["position_diagnostics"]
 
     assert position["estimand"] == "primary_label_score_by_schedule_position"
@@ -423,7 +473,7 @@ def test_j01_and_j02_publish_complete_unfused_construct_contrasts():
         }
         row["judge_disagreement"] = j01 != j02
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
     contrasts = result["judge_diagnostics"]["no_fusion_pairwise_model_contrasts"]
 
     assert contrasts["fusion_policy"].startswith("none")
@@ -439,7 +489,7 @@ def test_j01_and_j02_publish_complete_unfused_construct_contrasts():
 
 
 def test_development_mixed_panel_is_complete_without_sealed_c3():
-    result = analysis.analyze_terminal_rows(_mixed_panel_rows())
+    result = _analyze(_mixed_panel_rows())
 
     coverage = result["coverage_diagnostics"]
     assert coverage["stage"] == "development"
@@ -512,7 +562,7 @@ def test_registered_analysis_threshold_values_are_validation_locked(
 
 
 def test_complete_c3_for_every_registered_cue_item_runs_sealed_confirmation():
-    result = analysis.analyze_terminal_rows(
+    result = _analyze(
         _mixed_panel_rows(confirmation="complete")
     )
 
@@ -532,7 +582,7 @@ def test_complete_c3_for_every_registered_cue_item_runs_sealed_confirmation():
 
 
 def test_partial_c3_latches_invalid_and_withholds_sealed_effects():
-    result = analysis.analyze_terminal_rows(
+    result = _analyze(
         _mixed_panel_rows(confirmation="partial")
     )
 
@@ -572,7 +622,7 @@ def test_missing_fresh_locked_base_cell_rejects_partial_confirmation():
         )
     )
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["coverage_diagnostics"]["confirmation_status"] == "incomplete"
     assert result["coverage_diagnostics"]["missing_confirmation_cell_count"] == 1
@@ -589,7 +639,7 @@ def test_any_locked_phase_row_triggers_locked_headline_coverage():
     nonheadline_locked["phase"] = "locked-confirmation"
     nonheadline_locked["rollout"] = 99
 
-    result = analysis.analyze_terminal_rows(rows + [nonheadline_locked])
+    result = _analyze(rows + [nonheadline_locked])
 
     assert result["primary_analysis_phase"] == "locked-confirmation"
     assert result["coverage_diagnostics"]["confirmation_status"] == "incomplete"
@@ -598,7 +648,7 @@ def test_any_locked_phase_row_triggers_locked_headline_coverage():
 
 
 def test_all_actor_top_endpoints_are_saturated_high():
-    result = analysis.analyze_terminal_rows(
+    result = _analyze(
         _rows(_non_null(lambda _actor, _item: "Fi"))
     )
 
@@ -613,7 +663,7 @@ def test_all_actor_top_endpoints_are_saturated_high():
 
 
 def test_all_actor_bottom_endpoints_are_saturated_low_after_task_success():
-    result = analysis.analyze_terminal_rows(
+    result = _analyze(
         _rows(_non_null(lambda _actor, _item: "Wj"))
     )
 
@@ -634,7 +684,7 @@ def test_common_surface_shift_with_no_stable_model_effect_is_cue_dominated_inval
             return "Fi"
         return "Fi" if item_index < N_ITEMS // 2 else "Wj"
 
-    result = analysis.analyze_terminal_rows(_rows(label))
+    result = _analyze(_rows(label))
 
     assert result["verdict"] == "INVALID"
     assert result["cue_diagnostics"]["cue_dominance"]["cue_dominant"] is True
@@ -643,7 +693,7 @@ def test_common_surface_shift_with_no_stable_model_effect_is_cue_dominated_inval
 
 
 def test_interior_equal_actor_rates_are_nondiscriminating():
-    result = analysis.analyze_terminal_rows(
+    result = _analyze(
         _rows(
             _non_null(
                 lambda _actor, item: "Fi" if item < N_ITEMS // 2 else "Wj"
@@ -658,7 +708,7 @@ def test_interior_equal_actor_rates_are_nondiscriminating():
 
 
 def test_synthetic_stable_pairwise_effect_meets_discrimination_rule():
-    result = analysis.analyze_terminal_rows(_discriminating_rows())
+    result = _analyze(_discriminating_rows())
 
     assert result["verdict"] == "DISCRIMINATING"
     assert result["verdict_detail"] == "AT_LEAST_ONE_STABLE_SOEI_EXCEEDING_CONTRAST"
@@ -684,7 +734,7 @@ def test_c2_null_controls_use_only_the_explicit_control_label_domain():
                 "J02": "foil_correct",
             }
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["verdict"] == "DISCRIMINATING"
     assert result["cue_diagnostics"]["null_false_positive"]["labels"] == [
@@ -714,7 +764,7 @@ def test_construct_and_control_label_domains_are_never_interchangeable(
     target["judge_labels"] = {"J01": wrong_label, "J02": wrong_label}
 
     with pytest.raises(ValueError, match="label"):
-        analysis.analyze_terminal_rows(rows)
+        _analyze(rows)
 
 
 def test_unresolved_headline_label_latches_invalid_instead_of_being_dropped():
@@ -726,7 +776,7 @@ def test_unresolved_headline_label_latches_invalid_instead_of_being_dropped():
     )
     unresolved["final_label"] = None
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["verdict"] == "INVALID"
     assert result["row_counts"]["unresolved_headline"] == 1
@@ -750,7 +800,7 @@ def test_unresolved_construct_judge_disagreement_has_a_construct_validity_latch(
     unresolved["judge_rubric_scores"] = {"J01": 4.0, "J02": 0.0}
     unresolved["judge_disagreement"] = True
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["verdict"] == "INVALID"
     assert result["row_counts"]["unresolved_construct_headline"] == 1
@@ -781,7 +831,7 @@ def test_null_fused_duplicate_rollout_withholds_secondary_endpoint():
     duplicate["rollout"] = 1
     _set_null_fused_construct(duplicate)
 
-    result = analysis.analyze_terminal_rows(rows + [duplicate])
+    result = _analyze(rows + [duplicate])
 
     _assert_null_fused_secondary_unavailable(result)
     assert "UNRESOLVED_CONSTRUCT_LABELS" in result["invalid_reason_codes"]
@@ -801,7 +851,7 @@ def test_null_fused_alternate_task_arm_withholds_secondary_endpoint():
             _set_null_fused_construct(alternate)
         alternate_rows.append(alternate)
 
-    result = analysis.analyze_terminal_rows(rows + alternate_rows)
+    result = _analyze(rows + alternate_rows)
 
     _assert_null_fused_secondary_unavailable(result)
     assert "UNRESOLVED_CONSTRUCT_LABELS" in result["invalid_reason_codes"]
@@ -825,7 +875,7 @@ def test_c2_rates_equal_weight_task_arms_after_within_cell_rollout_reduction():
                 additions.append(repeated_foil)
         additions.append(alternate)
 
-    result = analysis.analyze_terminal_rows(rows + additions)
+    result = _analyze(rows + additions)
     c2 = result["cue_diagnostics"]["c2_outcomes"]
 
     assert c2["overall_outcome_rates"]["foil_correct"] == 0.5
@@ -851,7 +901,7 @@ def test_unresolved_c2_judge_disagreement_has_a_control_validity_latch():
     }
     unresolved["judge_disagreement"] = True
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["verdict"] == "INVALID"
     assert result["row_counts"]["unresolved_control_headline"] == 1
@@ -871,7 +921,7 @@ def test_agreed_indeterminate_is_an_explicit_resolved_c2_outcome():
         "J02": "indeterminate",
     }
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["verdict"] == "DISCRIMINATING"
     assert result["row_counts"]["unresolved_control_headline"] == 0
@@ -884,7 +934,7 @@ def test_soei_exceeding_effect_from_two_items_is_not_mistaken_for_stable_separat
             return "Fi"
         return "Wj"
 
-    result = analysis.analyze_terminal_rows(_rows(_non_null(sparse_effect)))
+    result = _analyze(_rows(_non_null(sparse_effect)))
     effect = _pair(result, "A01", "A02")
 
     assert effect["effect"] > result["soei"]
@@ -894,14 +944,14 @@ def test_soei_exceeding_effect_from_two_items_is_not_mistaken_for_stable_separat
 
 
 def test_exploratory_rows_are_reported_but_excluded_from_every_headline_result():
-    baseline = analysis.analyze_terminal_rows(_discriminating_rows())
+    baseline = _analyze(_discriminating_rows())
     exploratory = _rows(
         _non_null(lambda actor, _item: "Wj" if actor == "A01" else "Fi"),
         headline_eligible=False,
     )
     for row in exploratory:
         row["surface_id"] += "-exploratory"
-    with_exploratory = analysis.analyze_terminal_rows(
+    with_exploratory = _analyze(
         exploratory + _discriminating_rows()
     )
 
@@ -926,7 +976,7 @@ def test_actor_specific_surface_substitution_latches_counterbalance_invalid():
     )
     substituted["surface_id"] += "-actor-specific"
 
-    result = analysis.analyze_terminal_rows(rows)
+    result = _analyze(rows)
 
     assert result["verdict"] == "INVALID"
     assert "SURFACE_ASSIGNMENT_MISMATCH" in result["invalid_reason_codes"]
@@ -934,14 +984,14 @@ def test_actor_specific_surface_substitution_latches_counterbalance_invalid():
 
 def test_rollout_duplication_does_not_manufacture_item_n_or_change_verdict():
     rows = _discriminating_rows()
-    baseline = analysis.analyze_terminal_rows(rows)
+    baseline = _analyze(rows)
     duplicates = []
     for row in rows:
         duplicate = copy.deepcopy(row)
         duplicate["rollout"] = 100
         duplicates.append(duplicate)
 
-    duplicated = analysis.analyze_terminal_rows(rows + duplicates)
+    duplicated = _analyze(rows + duplicates)
 
     assert duplicated["verdict"] == baseline["verdict"]
     assert _pair(duplicated, "A01", "A02")["n_items"] == N_ITEMS
@@ -968,7 +1018,7 @@ def test_rates_are_unconditional_and_task_success_conditioned_per_actor_item():
     failed["final_label"] = "Wj"
     failed["judge_labels"] = {"J01": "Wj", "J02": "Wj"}
 
-    result = analysis.analyze_terminal_rows(rows + [failed])
+    result = _analyze(rows + [failed])
     rate = next(
         row
         for row in result["per_actor_item_rates"]
@@ -994,7 +1044,7 @@ def test_frozen_config_is_raw_byte_hash_bound_and_output_is_strict_json():
     assert frozen["thresholds"]["rubric_score_smallest_effect_of_interest"] == 0.3
     assert frozen["thresholds"]["maximum_null_indeterminate_rate"] == 0.1
 
-    result = analysis.analyze_terminal_rows(
+    result = _analyze(
         _discriminating_rows(), expected_config_sha256=expected
     )
 

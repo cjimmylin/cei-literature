@@ -1037,3 +1037,48 @@ def test_smoke_cli_without_key_fails_cleanly_before_writing(monkeypatch, capsys)
     assert rc == 1
     assert "missing" in capsys.readouterr().err.casefold()
     assert not output.exists()
+
+
+def test_live_cli_exposes_overall_and_each_native_gate_status(monkeypatch, capsys):
+    import preflight as preflight_module
+
+    result = {
+        "phase": "development",
+        "job_count": 1,
+        "analysis_verdict": "CONFIRMATION_PENDING",
+        "analysis_reason_codes": [],
+        "gates": {
+            "status": "complete",
+            "G1_calibration_band": {"pass": True},
+            "G2_D21_transfer": {"pass": False},
+            "G3_D22_cft_liveness": {"pass": True},
+        },
+    }
+    monkeypatch.setattr(
+        preflight_module,
+        "execute_authorized_phase",
+        lambda *_args, **_kwargs: (
+            result,
+            (Path("journal.jsonl"), Path("terminal.json")),
+        ),
+    )
+
+    rc = run_pilot.main(
+        [
+            "--date",
+            "20990101d",
+            "--config",
+            str(CONFIG),
+            "--phase",
+            "development",
+            "--preflight-receipt",
+            "receipt.json",
+        ]
+    )
+
+    output = capsys.readouterr().out
+    assert rc == 0
+    assert "native gate status: complete" in output
+    assert "G1_calibration_band: PASS" in output
+    assert "G2_D21_transfer: FAIL" in output
+    assert "G3_D22_cft_liveness: PASS" in output

@@ -715,10 +715,40 @@ def test_confirmation_binds_prior_terminal_journal_to_supplied_development_sched
         live_runner.validate_prior_development_schedule_binding(prior, [different])
 
 
+def _passing_development_live_gates():
+    return {
+        "status": "complete",
+        "unresolved_rows": 0,
+        "coverage": {
+            "valid": True,
+            "reason_codes": [],
+            "expected_gate_rows": 1,
+            "observed_gate_rows": 1,
+        },
+        "G1_calibration_band": {"value": 0.70, "threshold": 0.70, "pass": True},
+        "G2_D21_transfer": {
+            "value": 0.60,
+            "threshold": 0.60,
+            "pass": True,
+            "heldout_wj_rate_threshold": 0.05,
+            "by_hard_cell": [],
+        },
+        "G3_D22_cft_liveness": {
+            "value": 1.0,
+            "threshold": 1.0,
+            "pass": True,
+            "dead_cft_items": [],
+        },
+    }
+
+
 def _completed_development_artifact(
     tmp_path: Path,
     *,
     artifact_overrides=None,
+    analysis_event_overrides=None,
+    completion_overrides=None,
+    include_authorization_evidence=True,
 ):
     terminal_path = tmp_path / "development-terminal.json"
     journal_path = tmp_path / "development-journal.jsonl"
@@ -748,8 +778,10 @@ def _completed_development_artifact(
         identity=identity,
         resumable=True,
     )
+    analysis_verdict = "CONFIRMATION_PENDING"
+    live_gates = _passing_development_live_gates()
     artifact = {
-        "schema_version": "1.0",
+        "schema_version": "1.1" if include_authorization_evidence else "1.0",
         "kind": "thorns-live-terminal-rows",
         "phase": "development",
         "date_token": "20990101d",
@@ -757,18 +789,42 @@ def _completed_development_artifact(
         **bindings,
         "rows": [],
     }
+    if include_authorization_evidence:
+        artifact.update(
+            {
+                "analysis_verdict": analysis_verdict,
+                "live_gates": deepcopy(live_gates),
+            }
+        )
     artifact.update(artifact_overrides or {})
     terminal_path.write_text(json.dumps(artifact, sort_keys=True) + "\n")
-    journal.complete(
-        {
-            "status": "complete",
-            "output_sha256": {
-                str(terminal_path.resolve()): hashlib.sha256(
-                    terminal_path.read_bytes()
-                ).hexdigest()
-            },
+    if include_authorization_evidence:
+        analysis_payload = {
+            "verdict": analysis_verdict,
+            "reason_codes": [],
+            "analysis_config_sha256": "9" * 64,
+            "live_gates": deepcopy(live_gates),
         }
-    )
+        analysis_payload.update(analysis_event_overrides or {})
+        journal.record("analysis_result", analysis_payload)
+    completion_payload = {
+        "status": "complete",
+        "phase": "development",
+        "output_sha256": {
+            str(terminal_path.resolve()): hashlib.sha256(
+                terminal_path.read_bytes()
+            ).hexdigest()
+        },
+    }
+    if include_authorization_evidence:
+        completion_payload.update(
+            {
+                "analysis_verdict": analysis_verdict,
+                "live_gates": deepcopy(live_gates),
+            }
+        )
+    completion_payload.update(completion_overrides or {})
+    journal.complete(completion_payload)
     journal.close()
     return terminal_path, bindings
 
@@ -782,6 +838,75 @@ def test_prior_development_loader_verifies_and_exposes_all_provenance_bindings(
 
     assert loaded["bindings"] == bindings
     assert loaded["journal_identity"]["config_sha256"] == bindings["config_sha256"]
+    assert loaded["analysis_verdict"] == "CONFIRMATION_PENDING"
+    assert loaded["live_gates"] == _passing_development_live_gates()
+
+
+def test_prior_development_loader_rejects_legacy_artifact_without_bound_authorization(
+    tmp_path: Path,
+):
+    terminal_path, _bindings = _completed_development_artifact(
+        tmp_path, include_authorization_evidence=False
+    )
+
+    with pytest.raises(ValueError, match="authorization|schema"):
+        live_runner.load_prior_development_evidence(terminal_path)
+
+
+@pytest.mark.parametrize(
+    ("evidence_location", "overrides"),
+    [
+        ("artifact", {"analysis_verdict": "INVALID"}),
+        ("analysis", {"verdict": "INVALID"}),
+        ("completion", {"analysis_verdict": "INVALID"}),
+        (
+            "analysis",
+            {
+                "live_gates": {
+                    **_passing_development_live_gates(),
+                    "G1_calibration_band": {
+                        "value": 0.69,
+                        "threshold": 0.70,
+                        "pass": False,
+                    },
+                }
+            },
+        ),
+        (
+            "completion",
+            {
+                "live_gates": {
+                    **_passing_development_live_gates(),
+                    "G2_D21_transfer": {
+                        "value": 0.55,
+                        "threshold": 0.60,
+                        "pass": False,
+                    },
+                }
+            },
+        ),
+    ],
+)
+def test_prior_development_loader_rejects_authorization_evidence_disagreement(
+    tmp_path: Path, evidence_location, overrides
+):
+    kwargs = {
+        "artifact_overrides": overrides if evidence_location == "artifact" else None,
+        "analysis_event_overrides": overrides if evidence_location == "analysis" else None,
+        "completion_overrides": overrides if evidence_location == "completion" else None,
+    }
+    terminal_path, _bindings = _completed_development_artifact(tmp_path, **kwargs)
+
+    with pytest.raises(ValueError, match="authorization|verdict|gate|disagree"):
+        live_runner.load_prior_development_evidence(terminal_path)
+
+
+def test_prior_development_loader_rejects_terminal_hash_tampering(tmp_path: Path):
+    terminal_path, _bindings = _completed_development_artifact(tmp_path)
+    terminal_path.write_bytes(terminal_path.read_bytes() + b" ")
+
+    with pytest.raises(ValueError, match="hash"):
+        live_runner.load_prior_development_evidence(terminal_path)
 
 
 @pytest.mark.parametrize(
@@ -826,6 +951,8 @@ def test_confirmation_provenance_mismatch_is_rejected_before_any_call(
         "sha256": "e" * 64,
         "bindings": deepcopy(bindings),
         "matched_schedule_path": str(schedule),
+        "analysis_verdict": "CONFIRMATION_PENDING",
+        "live_gates": _passing_development_live_gates(),
     }
     cfg = {"_provenance": {"config_sha256": bindings["config_sha256"]}}
     receipt = {
@@ -853,3 +980,114 @@ def test_confirmation_provenance_mismatch_is_rejected_before_any_call(
         )
         calls.append("external")
     assert calls == []
+
+
+@pytest.mark.parametrize(
+    "failed_gate",
+    ["G1_calibration_band", "G2_D21_transfer", "G3_D22_cft_liveness"],
+)
+def test_each_failed_development_native_gate_blocks_confirmation_before_outputs_or_calls(
+    tmp_path: Path, failed_gate
+):
+    schedule = tmp_path / "development-schedule.json"
+    schedule.write_bytes(b'{"development":true}\n')
+    schedule_sha256 = hashlib.sha256(schedule.read_bytes()).hexdigest()
+    bindings = {
+        "config_sha256": "a" * 64,
+        "source_scope_sha256": "b" * 64,
+        "gate_input_sha256": {"items": "c" * 64},
+        "receipt_sha256": "d" * 64,
+        "schedule_sha256": schedule_sha256,
+    }
+    live_gates = _passing_development_live_gates()
+    live_gates[failed_gate] = {**live_gates[failed_gate], "pass": False}
+    prior = {
+        "path": str(tmp_path / "development-terminal.json"),
+        "sha256": "e" * 64,
+        "bindings": deepcopy(bindings),
+        "matched_schedule_path": str(schedule),
+        "analysis_verdict": "CONFIRMATION_PENDING",
+        "live_gates": live_gates,
+    }
+    pilots = tmp_path / "pilots"
+    cfg = {
+        "_provenance": {"config_sha256": bindings["config_sha256"]},
+        "paths": {"pilots": str(pilots)},
+    }
+    receipt = {
+        "config_sha256": bindings["config_sha256"],
+        "source_scope_sha256": bindings["source_scope_sha256"],
+        "gate_input_sha256": deepcopy(bindings["gate_input_sha256"]),
+        "_receipt_sha256": "f" * 64,
+    }
+    client = _BaseClient()
+
+    with pytest.raises(ValueError, match=failed_gate):
+        live_runner.execute_openrouter_phase(
+            cfg=cfg,
+            phase="locked-confirmation",
+            date="20990101c",
+            receipt=receipt,
+            schedule=SimpleNamespace(schedule_hash="confirmation", rows=[]),
+            schedule_path=tmp_path / "confirmation-schedule.json",
+            schedule_sha256="1" * 64,
+            catalog_validation=object(),
+            base_client=client,
+            prior_development=prior,
+        )
+
+    assert client.calls == []
+    assert not pilots.exists()
+
+
+@pytest.mark.parametrize(
+    ("verdict", "gate_mutation", "message"),
+    [
+        ("INVALID", None, "verdict"),
+        (
+            "CONFIRMATION_PENDING",
+            {"status": "invalid_unresolved", "unresolved_rows": 1},
+            "status|unresolved",
+        ),
+        (
+            "CONFIRMATION_PENDING",
+            {"coverage": {"valid": False, "reason_codes": ["PARTIAL"]}},
+            "coverage",
+        ),
+    ],
+)
+def test_development_authorization_requires_final_pending_verdict_and_complete_coverage(
+    tmp_path: Path, verdict, gate_mutation, message
+):
+    schedule = tmp_path / "development-schedule.json"
+    schedule.write_bytes(b'{}\n')
+    gates = _passing_development_live_gates()
+    if gate_mutation:
+        gates.update(gate_mutation)
+    bindings = {
+        "config_sha256": "a" * 64,
+        "source_scope_sha256": "b" * 64,
+        "gate_input_sha256": {"items": "c" * 64},
+        "receipt_sha256": "d" * 64,
+        "schedule_sha256": hashlib.sha256(schedule.read_bytes()).hexdigest(),
+    }
+    prior = {
+        "bindings": bindings,
+        "analysis_verdict": verdict,
+        "live_gates": gates,
+    }
+    cfg = {"_provenance": {"config_sha256": bindings["config_sha256"]}}
+    receipt = {
+        "config_sha256": bindings["config_sha256"],
+        "source_scope_sha256": bindings["source_scope_sha256"],
+        "gate_input_sha256": bindings["gate_input_sha256"],
+        "_receipt_sha256": "f" * 64,
+    }
+
+    with pytest.raises(ValueError, match=message):
+        live_runner.validate_confirmation_provenance(
+            prior,
+            cfg=cfg,
+            receipt=receipt,
+            matched_schedule_path=schedule,
+        )

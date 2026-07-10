@@ -1,0 +1,162 @@
+{
+  "banner": "SYNTHETIC \u2014 HARNESS VALIDATION ONLY; not empirical model measurements",
+  "date_token": "20260709c",
+  "mode": "synthetic",
+  "phase": null,
+  "design": "thorns",
+  "source_commit": "3433cf86c6f33a6ff159df6b34962a46304832e2",
+  "config_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/pilot_config.json",
+  "config_sha256": "b836dd88110c8e7870a494563fdb37ea16970b4d6c55e243bfac40a82f4bd488",
+  "preflight_receipt_sha256": null,
+  "cue_schedule_path": null,
+  "cue_schedule_sha256": null,
+  "cue_schedule_hash": null,
+  "scoped_git_dirty": false,
+  "scoped_git_status": [],
+  "input_fingerprints": {
+    "harness": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns",
+      "n_files": 28,
+      "sha256": "762b59985b8e3514b6ef0ada810818b8b3733534f939c9dcd764daea64485337"
+    },
+    "items": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns",
+      "n_files": 153,
+      "sha256": "ef07d42d463ab194fe6a794a36deb5952c66b6fc380a0cc55c633a077721e120"
+    },
+    "synthetic_reference": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/synthetic_reference.json",
+      "sha256": "99f5f067e2d76c14242e299f39ae4dcc41deff76fc560f6190a68999a3b56315"
+    }
+  },
+  "effective_config": {
+    "_comment": "THORNS P1 pilot config. Synthetic mode is HARNESS-VALIDATION ONLY. A live run additionally requires real adapters/credentials, validated cross-family judges, human substitution, post-D-36 items, and calibration/evaluation/held-out roles disjoint by BOTH family and vendor. Family/vendor labels are load-bearing and must name the real provider lineage honestly.",
+    "design": "thorns",
+    "mode": "synthetic",
+    "g1_aggregation": "attacker_primary",
+    "seed": 20260706,
+    "paths": {
+      "items": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/thorns",
+      "pilots": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/thorns",
+      "synthetic_reference": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/thorns/synthetic_reference.json"
+    },
+    "rollouts": {
+      "calibration": 8,
+      "evaluation": 5,
+      "held_out": 6
+    },
+    "role_counts": {
+      "calibration": 4,
+      "evaluation": 3,
+      "held_out_frontier": 2
+    },
+    "roles": {
+      "calibration": [
+        {
+          "name": "attacker-persona-v1",
+          "family": "syn-attacker",
+          "vendor": "synthetic-attacker",
+          "adapter": "synthetic",
+          "profile": "attacker",
+          "attacker": true,
+          "persona_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/shared/attacker-persona-v1.md",
+          "params": {
+            "seed": 20260706
+          }
+        },
+        {
+          "name": "open-A",
+          "family": "syn-openA",
+          "vendor": "synthetic-open-a",
+          "adapter": "synthetic",
+          "profile": "open_mid",
+          "params": {
+            "seed": 20260707
+          }
+        },
+        {
+          "name": "open-B",
+          "family": "syn-openB",
+          "vendor": "synthetic-open-b",
+          "adapter": "synthetic",
+          "profile": "open_mid",
+          "params": {
+            "seed": 20260708
+          }
+        },
+        {
+          "name": "open-C",
+          "family": "syn-openC",
+          "vendor": "synthetic-open-c",
+          "adapter": "synthetic",
+          "profile": "open_mid",
+          "params": {
+            "seed": 20260709
+          }
+        }
+      ],
+      "evaluation": [
+        {
+          "name": "eval-X-high",
+          "family": "syn-evalX",
+          "vendor": "synthetic-eval-x",
+          "adapter": "synthetic",
+          "profile": "aligned_high",
+          "params": {
+            "seed": 20260710
+          }
+        },
+        {
+          "name": "eval-Y-high",
+          "family": "syn-evalY",
+          "vendor": "synthetic-eval-y",
+          "adapter": "synthetic",
+          "profile": "aligned_high",
+          "params": {
+            "seed": 20260711
+          }
+        },
+        {
+          "name": "eval-Z-mid",
+          "family": "syn-evalZ",
+          "vendor": "synthetic-eval-z",
+          "adapter": "synthetic",
+          "profile": "aligned_mid",
+          "params": {
+            "seed": 20260712
+          }
+        }
+      ],
+      "held_out_frontier": [
+        {
+          "name": "held-P",
+          "family": "syn-heldP",
+          "vendor": "synthetic-held-p",
+          "adapter": "synthetic",
+          "profile": "frontier_held",
+          "params": {
+            "seed": 20260713
+          }
+        },
+        {
+          "name": "held-Q",
+          "family": "syn-heldQ",
+          "vendor": "synthetic-held-q",
+          "adapter": "synthetic",
+          "profile": "frontier_held",
+          "params": {
+            "seed": 20260714
+          }
+        }
+      ]
+    }
+  },
+  "persona": [
+    {
+      "role": "calibration",
+      "name": "attacker-persona-v1",
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-ten-design-evidence-ladder/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/shared/attacker-persona-v1.md",
+      "sha256": "56bf56d0dac5014e6fc6da27849fae71abd42a618a7c00991433ced20e6ceb8c"
+    }
+  ]
+}

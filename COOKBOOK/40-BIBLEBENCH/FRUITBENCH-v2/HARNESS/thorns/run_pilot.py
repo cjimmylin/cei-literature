@@ -671,6 +671,7 @@ def main(argv=None):
         )
 
     from live_runner import (
+        DEVELOPMENT_NATIVE_GATE_KEYS,
         execute_openrouter_phase,
         load_prior_development_evidence,
         validate_prior_development_schedule_binding,
@@ -735,6 +736,11 @@ def main(argv=None):
     print(f"analysis verdict: {res['analysis_verdict']}")
     if res.get("analysis_reason_codes"):
         print("analysis reason codes: " + ", ".join(res["analysis_reason_codes"]))
+    gates = res["gates"]
+    print(f"native gate status: {gates['status']}")
+    for gate_name in DEVELOPMENT_NATIVE_GATE_KEYS:
+        outcome = "PASS" if gates[gate_name].get("pass") is True else "FAIL"
+        print(f"  {gate_name}: {outcome}")
     print("wrote: " + ", ".join(path.name for path in written))
     return 0
 

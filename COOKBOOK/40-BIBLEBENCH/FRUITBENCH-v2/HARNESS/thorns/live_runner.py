@@ -21,6 +21,15 @@ from surface_contracts import (
 from trajectory import execute_trajectory
 
 
+DEVELOPMENT_TERMINAL_SCHEMA_VERSION = "1.1"
+DEVELOPMENT_AUTHORIZED_VERDICT = "CONFIRMATION_PENDING"
+DEVELOPMENT_NATIVE_GATE_KEYS = (
+    "G1_calibration_band",
+    "G2_D21_transfer",
+    "G3_D22_cft_liveness",
+)
+
+
 @dataclass(frozen=True)
 class LiveJob:
     job_id: str
@@ -81,6 +90,48 @@ def _source_identity_sha256(
             "prior_development_sha256": prior_development_sha256,
         }
     )
+
+
+def _validated_development_authorization_evidence(
+    evidence: Mapping[str, Any], *, context: str
+) -> dict[str, Any]:
+    """Require the final development verdict and all three native gates to pass."""
+
+    if not isinstance(evidence, Mapping):
+        raise ValueError(f"{context} authorization evidence must be an object")
+    verdict = evidence.get("analysis_verdict")
+    if verdict != DEVELOPMENT_AUTHORIZED_VERDICT:
+        raise ValueError(
+            f"{context} analysis verdict must be {DEVELOPMENT_AUTHORIZED_VERDICT}"
+        )
+    live_gates = evidence.get("live_gates")
+    if not isinstance(live_gates, Mapping):
+        raise ValueError(f"{context} native gate authorization evidence is missing")
+    if live_gates.get("status") != "complete":
+        raise ValueError(f"{context} native gate status must be complete")
+    unresolved_rows = live_gates.get("unresolved_rows")
+    if (
+        not isinstance(unresolved_rows, int)
+        or isinstance(unresolved_rows, bool)
+        or unresolved_rows != 0
+    ):
+        raise ValueError(f"{context} native gates contain unresolved rows")
+    coverage = live_gates.get("coverage")
+    if not isinstance(coverage, Mapping) or coverage.get("valid") is not True:
+        raise ValueError(f"{context} native gate coverage must be valid")
+    native_gate_keys = {
+        key for key in live_gates if isinstance(key, str) and key.startswith("G")
+    }
+    if native_gate_keys != set(DEVELOPMENT_NATIVE_GATE_KEYS):
+        raise ValueError(f"{context} native gate set is not exact")
+    for gate_name in DEVELOPMENT_NATIVE_GATE_KEYS:
+        gate = live_gates.get(gate_name)
+        if not isinstance(gate, Mapping) or gate.get("pass") is not True:
+            raise ValueError(f"{context} native gate {gate_name} did not pass")
+    return {
+        "analysis_verdict": verdict,
+        "live_gates": _json_safe(live_gates),
+    }
 
 
 def _load_bank(items_root: Path) -> tuple[dict[str, dict], dict[str, dict]]:
@@ -1042,6 +1093,7 @@ def load_prior_development_evidence(
         raise ValueError("prior development terminal artifact is unreadable") from exc
     if (
         not isinstance(payload, dict)
+        or payload.get("schema_version") != DEVELOPMENT_TERMINAL_SCHEMA_VERSION
         or payload.get("kind") != "thorns-live-terminal-rows"
         or payload.get("phase") != "development"
         or not isinstance(payload.get("rows"), list)
@@ -1050,6 +1102,8 @@ def load_prior_development_evidence(
         raise ValueError("prior development terminal artifact has an invalid schema")
     snapshot = read_completed_journal(payload["journal_path"])
     completion = snapshot.events[-1]["payload"]
+    if completion.get("status") != "complete" or completion.get("phase") != "development":
+        raise ValueError("prior development journal completion is invalid")
     output_hashes = completion.get("output_sha256")
     actual_hash = hashlib.sha256(path.read_bytes()).hexdigest()
     if (
@@ -1057,6 +1111,33 @@ def load_prior_development_evidence(
         or output_hashes.get(str(path)) != actual_hash
     ):
         raise ValueError("prior development terminal hash is not bound by its journal")
+    artifact_authorization = _validated_development_authorization_evidence(
+        payload, context="prior development terminal"
+    )
+    analysis_events = [
+        event["payload"]
+        for event in snapshot.events
+        if event.get("event_type") == "analysis_result"
+    ]
+    if not analysis_events:
+        raise ValueError("prior development journal lacks authorization analysis")
+    for event_payload in analysis_events:
+        event_authorization = {
+            "analysis_verdict": event_payload.get("verdict"),
+            "live_gates": event_payload.get("live_gates"),
+        }
+        if event_authorization != artifact_authorization:
+            raise ValueError(
+                "prior development authorization evidence disagrees with its journal analysis"
+            )
+    completion_authorization = {
+        "analysis_verdict": completion.get("analysis_verdict"),
+        "live_gates": completion.get("live_gates"),
+    }
+    if completion_authorization != artifact_authorization:
+        raise ValueError(
+            "prior development authorization evidence disagrees with journal completion"
+        )
     bindings = {
         field: payload.get(field)
         for field in (
@@ -1119,6 +1200,7 @@ def load_prior_development_evidence(
         ],
         "journal_identity": identity,
         "bindings": _json_safe(bindings),
+        **artifact_authorization,
     }
 
 
@@ -1171,6 +1253,9 @@ def validate_confirmation_provenance(
 
     if not isinstance(prior_development, Mapping):
         raise ValueError("confirmation prior development provenance is missing")
+    _validated_development_authorization_evidence(
+        prior_development, context="confirmation prior development"
+    )
     bindings = prior_development.get("bindings")
     if not isinstance(bindings, Mapping) or set(bindings) != {
         "config_sha256",
@@ -1461,7 +1546,7 @@ def execute_openrouter_phase(
             },
         )
         terminal_artifact = {
-            "schema_version": "1.0",
+            "schema_version": DEVELOPMENT_TERMINAL_SCHEMA_VERSION,
             "kind": "thorns-live-terminal-rows",
             "phase": phase,
             "date_token": date,
@@ -1471,6 +1556,8 @@ def execute_openrouter_phase(
             "gate_input_sha256": _json_safe(receipt["gate_input_sha256"]),
             "receipt_sha256": receipt["_receipt_sha256"],
             "schedule_sha256": schedule_sha256,
+            "analysis_verdict": analysis["verdict"],
+            "live_gates": gates,
             "rows": phase_terminal,
         }
         manifest = {
@@ -1536,6 +1623,7 @@ def execute_openrouter_phase(
                 "jobs_completed": len(jobs),
                 "jobs_recovered": len(recovered["completed_job_ids"]),
                 "analysis_verdict": analysis["verdict"],
+                "live_gates": gates,
                 "output_sha256": output_hashes,
             }
         )

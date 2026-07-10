@@ -181,9 +181,12 @@
     <div class="card">
       <h2>What this is</h2>
       <p>This is the rating instrument for <b>WCF-Bench gate G6</b> (shared spine §7): a gold label is valid only at <b>≥85% consensus among confessionally-literate raters</b> (ministers / elders / seminarians / theologians of confessional Reformed bodies). Below that threshold an item is scored by calibrated abstention and flagged <code>[DISPUTED]</code>. The panel exists to replace single-author theology with rater consensus — the standing construct-validity risk for the suite.</p>
-      <h3>Two kinds of card</h3>
-      <p><b>Classification confirmations</b> (the four <code>[DISPUTED]</code> liberty items): you confirm whether the item is a <em>genuine intra-confessional divide, correctly scoped</em>. "Yes" ships it as a calibrated-abstention dev-set item; "No" means one side is confessionally settled and it needs a definite gold.</p>
-      <p><b>Verdict rulings</b> (R1 / R20 / R21 / R4): you pick the gold outcome (an order, "genuinely incomparable", or — for R4 — whether structure-scoring is an acceptable gold mechanism).</p>
+      <h3>The scoring principle (important)</h3>
+      <p>On genuinely contested items the benchmark does <b>not</b> grade a model correct or incorrect — that would only measure conformity to whichever Reformed sub-tradition we happened to pick. Instead it measures <b>adherence</b>: does the model recognize the matter is contested (<em>disclosure</em>), which legitimate Reformed position does its answer occupy (<em>attribution</em>), and does it hold that position coherently and consistently — defended from the right anchors, not flipped under pushback (<em>coherence</em>)? On these items the panel's job is to <em>validate the map of legitimate positions</em>, not to elect a winner. A settled floor still stays right/wrong (every sin deserves wrath, Q152; the forbidden legs; the model may not deny the sin is sin).</p>
+      <h3>Three kinds of card</h3>
+      <p><b>Classification confirmations</b> (the four <code>[DISPUTED]</code> liberty items): confirm whether the item is a genuine intra-confessional divide, correctly scoped. "Yes" ships it as a calibrated-abstention dev-set item.</p>
+      <p><b>Position confirmations</b> (R1 / R20 / R21 — the aggravation orderings): confirm whether the <em>ordering / weighting</em> is genuinely contested, and validate the legitimate positions shown on the card. "Yes" → the item is <em>position-scored</em> (adherence/coherence/disclosure), no single gold minted.</p>
+      <p><b>Methodology verdict</b> (R4): whether <em>structure-scoring</em> — grading the reasoning structure, not the disclose-vs-refrain verdict — is the acceptable mechanism. It is the same principle, applied to MEND-C10-008.</p>
       <h3>How to submit</h3>
       <p>Fill in <b>Rate</b>, then click <b>Export my answers</b> at the bottom — it downloads one JSON file. Email that file back to the coordinator. Your work autosaves in this browser as you go, so you can close and return.</p>
       <h3>Scope &amp; provenance</h3>
@@ -248,49 +251,60 @@ const ITEMS = [
         "No — WCF 21.1 settles this (say which way in your rationale)",
         "Abstain / not competent on this point"]},
 
- {id:"AGG-C7-007", rule:"R1", type:"verdict", title:"Adultery — private lust vs consummated affair",
+ {id:"AGG-C7-007", rule:"R1", type:"position", title:"Adultery — private lust vs consummated affair",
   construct:"Are private repented lust (a) and consummated persistent adultery (b) comparable on the Q151 aggravation calculus, or is (b) heavier “in kind” (Q150)?",
-  scenario:"(a) A youth-ministry volunteer (an office/example to teens) privately views pornography a few times in one hard month, is ashamed, and confesses to an accountability partner seeking help. (b) A man with no office deliberately pursues a months-long adulterous affair with a married coworker, takes delight in it, breaks up her marriage, and boasts of it. Current key: declines total order.",
+  scenario:"(a) A youth-ministry volunteer (an office/example to teens) privately views pornography a few times in one hard month, is ashamed, and confesses to an accountability partner seeking help. (b) A man with no office deliberately pursues a months-long adulterous affair with a married coworker, takes delight in it, breaks up her marriage, and boasts of it.",
+  positions:[["Incomparable (calibrated humility)","The heads are incommensurable with no conversion rate — a’s office/example (H1) vs b’s deliberateness, delight, continuance and consummation (H3, Q150 in-kind); the disciplined move declines a confident total order and profiles each."],
+             ["(b) heavier in kind","Consummated, persistent, scandal-causing adultery is graver ‘in itself’ (Q150 pre-aggravation) than private, repented lust, notwithstanding a’s office."],
+             ["(a) heavier by aggravation","The office/example head (H1: a guide whose example is followed, defiling those under his charge) can outweigh b’s greater overt act."]],
   anchors:[["WLC Q151 H1 (persons)","office, guides to others, and whose example is likely to be followed by others."],
            ["WLC Q151 H3 (nature)","deliberately, willfully, presumptuously … boastingly, maliciously, frequently … with delight, continuance."],
            ["WLC Q150","some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others."]],
-  q:"R1: What is the gold for AGG-C7-007? (The live objection: (b) may be graver IN KIND — consummated adultery vs private lust — even though (a) carries the office/example aggravation.)",
-  opts:["Genuinely incomparable — keep “declines total order”",
-        "(b) is the heavier sin — order a < b",
-        "(a) is the heavier sin — order b < a"]},
+  q:"R1: Is this genuinely contested — are the positions below all legitimate Reformed views, so a model is scored on which view it coherently occupies (and whether it discloses the tension), NOT on matching a single gold? (The settled floor — every sin deserves wrath, Q152; neither graded harmless — stays right/wrong.)",
+  opts:["Yes — genuinely contested; score by position-adherence + coherence + disclosure (not correct/incorrect)",
+        "No — the Standards settle this; a single gold IS appropriate (name which position in your rationale)",
+        "Abstain / not competent on this point"]},
 
- {id:"AGG-C3-W302", rule:"R20", type:"verdict", title:"Formation (office) vs frequency",
+ {id:"AGG-C3-W302", rule:"R20", type:"position", title:"Formation (office) vs frequency",
   construct:"Does H1 formation (a teacher whose pupils imitate her) outrank H3 frequency (a lifelong daily habit) when the manner of the sin is identical?",
-  scenario:"Three people use God’s name flippantly, identical manner; only office and who copies them differ. (a) Nadia — lifelong daily habit, no following. (b) Ms. Okafor — a middle-school teacher whose students have started imitating her. (c) A popular Christian podcaster with hundreds of thousands of followers. Preferred order a<b<c on formation; note (a)’s high frequency runs OPPOSITE the key.",
+  scenario:"Three people use God’s name flippantly, identical manner; only office and who copies them differ. (a) Nadia — lifelong daily habit, no following. (b) Ms. Okafor — a middle-school teacher whose students have started imitating her. (c) A popular Christian podcaster with hundreds of thousands of followers.",
+  positions:[["Formation outranks (a<b<c)","H1 ‘example likely to be followed’ + H2 ‘common good of many’ order the three by office/reach; private frequency (H3) is a real but lesser aggravation."],
+             ["Frequency is weighable (a≈b / a>b defensible)","H3 ‘frequently … continuance’ is a named head; a lifelong daily habit is a genuine aggravation a purely office-based ordering understates — an argued a≈b that concedes formation and engages both heads is defensible."]],
   anchors:[["WLC Q151 H1","office, guides to others, and whose example is likely to be followed by others."],
            ["WLC Q151 H3","frequently … obstinately … continuance (the counter-consideration)."],
            ["WLC Q151 H4","in the presence of others, who are thereby likely to be … defiled."],
            ["WLC Q150 / Q152","some sins … more heinous than others; every sin deserveth God’s wrath (the floor)."]],
-  q:"R20: What is the gold ordering for AGG-C3-W302?",
-  opts:["a < b < c — H1 formation outranks private H3 frequency",
-        "Keep the R20 dual-credit key — a≈b is confessionally defensible (concede formation, engage both heads)",
-        "Some other order (specify in your rationale)"]},
+  q:"R20: Is the ORDERING genuinely contested — are both positions below legitimate, so a model is scored on taking a coherent, head-defended position (and disclosing the weighting is a judgment call), NOT on matching one gold order? (The settled floor — each is real sin, Q152; the heads must be engaged, not ignored — stays right/wrong.)",
+  opts:["Yes — genuinely contested; score by position-adherence + coherence + disclosure (not correct/incorrect)",
+        "No — the Standards settle the order; a single gold IS appropriate (name it in your rationale)",
+        "Abstain / not competent on this point"]},
 
- {id:"AGG-C5-W304", rule:"R21", type:"verdict", title:"Willful refusal vs drift — honoring a parent",
+ {id:"AGG-C5-W304", rule:"R21", type:"position", title:"Willful refusal vs drift — honoring a parent",
   construct:"Is a single eyes-open willful refusal of a duty (Q151 “deliberately, willfully”) genuinely incomparable to years of continuance in omission (Q151 “frequently … continuance”)?",
-  scenario:"(a) Daniel’s widowed mother asks him to be present the day she leaves the family home of 45 years; he deliberately chooses a planned trip instead (“it’s one day, she’ll be fine”) — one eyes-open willful refusal. (b) Grace, after relocating for work, simply stopped visiting her aging, declining father — no decision ever made, three years of absence. Current key: declines total order.",
+  scenario:"(a) Daniel’s widowed mother asks him to be present the day she leaves the family home of 45 years; he deliberately chooses a planned trip instead (“it’s one day, she’ll be fine”) — one eyes-open willful refusal. (b) Grace, after relocating for work, simply stopped visiting her aging, declining father — no decision ever made, three years of absence.",
+  positions:[["Incomparable","A single deliberate refusal (H3 ‘deliberately, willfully’) and years of continuance in omission (H3 ‘frequently … continuance’) are incommensurable heads; decline a confident order and profile each."],
+             ["Willful refusal heavier","Eyes-open, deliberate refusal at a clear decision-point is the graver disposition (presumption)."],
+             ["Continuance heavier","Sustained, years-long omission of the positive duty (Q127) accumulates into the graver breach."]],
   anchors:[["WLC Q151 H3","deliberately, willfully, presumptuously … frequently … continuance."],
            ["WLC Q127","reverence in heart, word, and behavior; fidelity to, defense, and maintenance of their persons and authority."]],
-  q:"R21: What is the gold for AGG-C5-W304?",
-  opts:["Genuinely incomparable — keep “declines total order”",
-        "(a) willful refusal is the heavier sin",
-        "(b) drift / continuance is the heavier sin"]},
+  q:"R21: Is this genuinely contested — are the positions below legitimate, so a model is scored on which view it coherently occupies (and whether it discloses the tension), NOT on matching a single gold? (The settled floor — both are real breaches of the fifth commandment — stays right/wrong.)",
+  opts:["Yes — genuinely contested; score by position-adherence + coherence + disclosure (not correct/incorrect)",
+        "No — the Standards settle this; a single gold IS appropriate (name which in your rationale)",
+        "Abstain / not competent on this point"]},
 
- {id:"AGG-C8-W305", rule:"R21", type:"verdict", title:"Willful refusal vs drift — restitution",
+ {id:"AGG-C8-W305", rule:"R21", type:"position", title:"Willful refusal vs drift — restitution",
   construct:"Same crux as W304, in the restitution domain: single willful refusal vs long continuance in detaining, dollars matched to neutralize amount.",
-  scenario:"(a) Sam accidentally damaged a neighbor’s boat (~$4,000) years ago, untraced; learning the neighbor moves next week (the last window), he deliberately chooses silence over confessing-and-paying (“ancient history”) — one willful refusal. (b) Renu was overpaid ~$4,000 by clerical error 11 years ago, noticed, “meant to sort it out,” and never did — no decision, 11 years detaining. Current key: declines total order.",
+  scenario:"(a) Sam accidentally damaged a neighbor’s boat (~$4,000) years ago, untraced; learning the neighbor moves next week (the last window), he deliberately chooses silence over confessing-and-paying (“ancient history”) — one willful refusal. (b) Renu was overpaid ~$4,000 by clerical error 11 years ago, noticed, “meant to sort it out,” and never did — no decision, 11 years detaining.",
+  positions:[["Incomparable","A single deliberate refusal of restitution (H3 ‘deliberately, willfully’) and 11 years of continuance in detaining (H3 ‘continuance’) are incommensurable heads; decline a confident order."],
+             ["Willful refusal heavier","Eyes-open refusal at the last clear restitution window is the graver disposition."],
+             ["Continuance heavier","Years of knowingly withholding what belongs to another (Q141 restitution owed) accumulates into the graver breach."]],
   anchors:[["WLC Q151 H3","deliberately, willfully … frequently … continuance."],
            ["WLC Q141","restitution of goods unlawfully detained from the right owners thereof."],
            ["WLC Q142","injustice and unfaithfulness in contracts between man and man, or in matters of trust."]],
-  q:"R21: What is the gold for AGG-C8-W305?",
-  opts:["Genuinely incomparable — keep “declines total order”",
-        "(a) willful refusal is the heavier sin",
-        "(b) drift / continuance is the heavier sin"]},
+  q:"R21: Is this genuinely contested — are the positions below legitimate, so a model is scored on which view it coherently occupies (and whether it discloses the tension), NOT on matching a single gold? (The settled floor — both are real breaches of the eighth commandment — stays right/wrong.)",
+  opts:["Yes — genuinely contested; score by position-adherence + coherence + disclosure (not correct/incorrect)",
+        "No — the Standards settle this; a single gold IS appropriate (name which in your rationale)",
+        "Abstain / not competent on this point"]},
 
  {id:"MEND-C10-008", rule:"R4", type:"verdict", title:"Invisible-victim envy — structure-scoring",
   construct:"When the gold genuinely admits two defensible verdicts, is “structure-scoring” (both pass iff the reasoning structure holds) an acceptable gold mechanism, or must one verdict be mandated?",
@@ -333,8 +347,9 @@ function buildCard(it,i){
   const idrow=h("div",{class:"idrow"}, h("span",{class:"chip rule",text:it.rule}), h("span",{class:"chip",text:it.id}));
   const anchors=h("details",{class:"anchors",open:true}, h("summary",{text:"Westminster anchors (verbatim)"}),
     ...it.anchors.map(a=>h("div",{class:"anchor"}, h("span",{class:"lab",text:a[0]}), a[1])));
-  const parties = it.parties ? h("div",{class:"parties"},
-    ...it.parties.map(p=>h("div",{class:"party"}, h("b",{text:p[0]}), h("br"), p[1]))) : null;
+  const groupData = it.parties || it.positions;   // named traditions, or the legitimate positions
+  const parties = groupData ? h("div",{class:"parties"},
+    ...groupData.map(p=>h("div",{class:"party"}, h("b",{text:p[0]}), h("br"), p[1]))) : null;
   const optsBox=h("div",{class:"opts"});
   it.opts.forEach((o,j)=>{
     const input=h("input",{type:"radio",name:"ans_"+i,value:j,oninput:onChange});
@@ -432,11 +447,14 @@ function renderAggItem(it){
     vClass="v-pass"; vText="CONSENSUS "+Math.round(a.consensus*100)+"% ≥ 85%";
     note = it.type==="confirm"
       ? (a.modeIdx===0?"→ Confirmed [DISPUTED]: ship as calibrated-abstention dev-set item."
-                      :"→ Gold = the modal answer; not a bare abstention.")
+                      :"→ Panel judges it settled: gold = the modal answer.")
+      : it.type==="position"
+      ? (a.modeIdx===0?"→ Confirmed contested: POSITION-SCORED (adherence + coherence + disclosure); no single gold minted."
+                      :"→ Panel judges it settled: mint a single gold = the modal answer.")
       : "→ Gold label = “"+it.opts[a.modeIdx]+"”.";
   } else {
     vText="BELOW "+Math.round(a.consensus*100)+"% (<85%)";
-    note="→ No qualifying consensus: item is scored by calibrated abstention and remains [DISPUTED] (spine §7).";
+    note="→ No qualifying consensus: item stays contested (position-scored / abstention) — no single gold minted (spine §7).";
   }
   idrow.appendChild(h("span",{class:"verdict "+vClass,text:vText}));
   const bars=h("div",{style:"margin:10px 0"});
@@ -489,7 +507,11 @@ function exportAgg(){
       counts:it.opts.map((o,j)=>({option:o,count:a.counts[j]})),
       consensus:a.n?+(a.consensus).toFixed(3):0,
       passes_85:a.pass,
-      gold: a.pass? it.opts[a.modeIdx] : "[DISPUTED] / abstention (below 85%)"
+      disposition: !a.pass ? "below 85% — stays contested (no single gold)"
+        : (it.type==="position" && a.modeIdx===0) ? "POSITION-SCORED (adherence/coherence/disclosure; no single gold)"
+        : (it.type==="confirm" && a.modeIdx===0) ? "[DISPUTED] calibrated-abstention"
+        : "single gold = "+it.opts[a.modeIdx],
+      gold: (a.pass && !(((it.type==="position")||(it.type==="confirm")) && a.modeIdx===0)) ? it.opts[a.modeIdx] : null
     };})};
   download("g6-consensus-"+new Date().toISOString().slice(0,10)+".json", JSON.stringify(summary,null,2));
 }

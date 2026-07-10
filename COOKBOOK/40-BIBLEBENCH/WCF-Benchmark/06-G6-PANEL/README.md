@@ -17,19 +17,29 @@ construct-validity risk for the suite.
 | LIB-C3-W202 | `[DISPUTED]` | confirm | minced oaths — genuine Q113 divide? |
 | LIB-C8-W304c | `[DISPUTED]` | confirm | usury scope (need-loan interest) — genuine Q142 divide? |
 | LIB-C2-W305b | `[DISPUTED]` | confirm | instruments/song — genuine element-vs-circumstance divide (WCF 21.1)? |
-| AGG-C7-007 | R1 | verdict | adultery: incomparable, or (b) heavier in kind? |
-| AGG-C3-W302 | R20 | verdict | formation (H1) vs frequency (H3) — which gold order? |
-| AGG-C5-W304 | R21 | verdict | willful-refusal vs drift (honoring a parent) — incomparable? |
-| AGG-C8-W305 | R21 | verdict | willful-refusal vs drift (restitution) — incomparable? |
-| MEND-C10-008 | R4 | verdict | is structure-scoring an acceptable gold mechanism? |
+| AGG-C7-007 | R1 | position | adultery ordering — genuinely contested (incomparable / (b)-in-kind / (a)-by-aggravation)? |
+| AGG-C3-W302 | R20 | position | formation (H1) vs frequency (H3) — is the ordering genuinely contested? |
+| AGG-C5-W304 | R21 | position | willful-refusal vs drift (honoring a parent) — genuinely contested? |
+| AGG-C8-W305 | R21 | position | willful-refusal vs drift (restitution) — genuinely contested? |
+| MEND-C10-008 | R4 | verdict | is structure-scoring an acceptable mechanism? |
 
-- **confirm** cards ask whether the item is a genuine, correctly-scoped intra-confessional
-  divide (Yes → ship as calibrated-abstention dev-set; No → one side is settled).
-- **verdict** cards ask for the gold outcome (an order, "genuinely incomparable", or —
-  R4 — whether structure-scoring is acceptable).
+- **The scoring principle** (`../20260709-contested-item-scoring-ruling.md`): on genuinely
+  contested items the benchmark does **not** grade a model correct/incorrect — that would only
+  measure conformity to one Reformed sub-tradition. It measures **adherence**: disclosure that
+  the matter is contested, *which* legitimate view the answer occupies, and whether it holds
+  that view coherently and consistently. A settled floor (Q152; the forbidden legs) still stays
+  right/wrong.
+- **confirm** cards (the four `[DISPUTED]` liberty items) ask whether the item is a genuine,
+  correctly-scoped intra-confessional divide (Yes → calibrated-abstention dev-set item).
+- **position** cards (R1/R20/R21 aggravation orderings) ask whether the *ordering/weighting* is
+  genuinely contested (Yes → the item is **position-scored**, no single gold minted) and validate
+  the legitimate positions shown on the card.
+- **verdict** card (R4) — the methodology question: whether structure-scoring (grade the reasoning
+  structure, not the disclose-vs-refrain verdict) is the acceptable mechanism.
 
-Each card shows the **verbatim Westminster anchors** and, for the `[DISPUTED]` items, the
-**two named traditions** in dispute, so raters judge against the actual clause text.
+Each card shows the **verbatim Westminster anchors**; the `[DISPUTED]` cards show the **two named
+traditions** and the **position** cards show the **legitimate views** in play, so raters judge
+against the actual clause text.
 
 ## How to run the panel (coordinator)
 
@@ -53,17 +63,21 @@ Each card shows the **verbatim Westminster anchors** and, for the `[DISPUTED]` i
 
 For each item the consensus summary gives one of:
 
-- **≥85% on the modal answer** → that becomes the **gold**. For a `confirm` item whose
-  modal answer is "genuine `[DISPUTED]`", it ships as a calibrated-abstention dev-set item
-  (`dev_set_only: true` + `disputed: true`, already marked). For a `verdict` item, the
-  ruling's key is set/updated accordingly (e.g. AGG-C7-007 → `declines total order` vs a
-  concrete order; MEND-C10-008 → structure-scoring kept or a single verdict mandated).
-- **below 85%** → the item is scored by calibrated abstention and **remains `[DISPUTED]`**
-  (spine §7). No gold is minted.
+- **`confirm` item, ≥85% "genuine `[DISPUTED]`"** → ships as a calibrated-abstention dev-set
+  item (`dev_set_only: true` + `disputed: true`, already marked).
+- **`position` item, ≥85% "genuinely contested"** → the item is **position-scored** (a model is
+  graded on adherence / coherence / disclosure, not correct/incorrect) and marked `contested:
+  true` (+ the validated `positions:` map). **No single gold order is minted** — the harness must
+  route it off the ordinal τ-scorer (see `../20260709-contested-item-scoring-ruling.md` §
+  Consequences 2). If instead ≥85% say "settled," a single gold IS minted.
+- **`verdict` item (R4), ≥85%** → structure-scoring kept (position-score the verdict) or a single
+  verdict mandated, per the modal answer.
+- **below 85% (any kind)** → the item stays contested (position-scored / abstention); **no single
+  gold is minted** (spine §7).
 
-These map onto rulings **R1 / R3 / R4 / R20 / R21** and the four `[DISPUTED]` legs; the
-frozen surfaces (spine, R1–R23) then change only via a `[NEEDS-RULING]` entry citing the
-consensus summary.
+These map onto rulings **R1 / R3 / R4 / R20 / R21** and the four `[DISPUTED]` legs; the frozen
+surfaces (spine, R1–R23) then change only via a `[NEEDS-RULING]` entry citing the consensus
+summary — the standing one being `../20260709-contested-item-scoring-ruling.md`.
 
 ## Notes
 

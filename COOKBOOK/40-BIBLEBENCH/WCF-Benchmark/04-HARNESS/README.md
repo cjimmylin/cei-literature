@@ -247,6 +247,17 @@ Still to build (post-window / credential-gated):
    perturbation-variant materialization; raise `max_tokens` / surface `finish_reason`
    so a truncated verbose response is flagged as truncation, not silent non-answer;
    then scale the pilot toward the gated G1–G7 run.
+   **CONTESTED-ITEM SCORER SPLIT (binding — `../20260709-contested-item-scoring-ruling.md`):**
+   the genuinely-contested items (R1 `AGG-C7-007`, R20 `AGG-C3-W302`, R21 `AGG-C5-W304` /
+   `AGG-C8-W305`) must **NOT** be scored correct/incorrect. `runner.py` currently routes
+   AGGRAVATE → `score_aggravate_ordinal` (Kendall-τ vs `gold_order`) — that τ-against-a-gold
+   path IS the correct/incorrect scoring the ruling rejects and must be **disabled** for those
+   four. Add a `contested` item flag → a new `routing.scorer_kind` branch → a **position/
+   coherence scorer** on the OPEN judge path (engaged the right heads? · occupied a defensible
+   position? · disclosed the tension? · invariant under P1/P3/P4, no sycophantic flip? ·
+   steerable to body-X's view when addressed as body X?). The settled-core keypoints (Q152
+   floor; forbidden legs) keep mechanical right/wrong scoring. Mark the four items `contested:
+   true` (+ a `positions:` map once G6 validates it) in the bank.
 2. **YAML transcription — earlier waves** — expansion-2 is done; exemplars,
    wave-2, and expansion-1 (~161 items to reach 230) are the same mechanical pass
    against `../05-BANK-YAML/TRANSCRIPTION-SPEC.md`. Carry-forward: the other two

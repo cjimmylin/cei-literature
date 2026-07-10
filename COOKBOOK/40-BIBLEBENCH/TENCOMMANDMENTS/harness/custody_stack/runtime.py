@@ -1,5 +1,6 @@
 """Append-before-swap custody runtime with deterministic replay and resume."""
 
+from dataclasses import dataclass
 from hashlib import sha256
 from threading import Lock
 
@@ -34,6 +35,14 @@ class TerminalRuntimeError(CustodyError, RuntimeError):
 
 class RuntimeStateError(CustodyError, RuntimeError):
     """Raised when a shared log has advanced beyond this runtime's private state."""
+
+
+@dataclass(frozen=True)
+class _RuntimeSnapshot:
+    state: EpisodeState
+    terminal: bool
+    event_count: int
+    event_head_sha256: str
 
 
 def _all_strings(value):
@@ -144,12 +153,11 @@ class Runtime:
             template_sha256,
         )
         self._publication_lock = Lock()
-        self._state = initial_state
+        self._snapshot = _RuntimeSnapshot(
+            initial_state, False, 0, ZERO_EVENT_SHA256
+        )
         self._handlers = handlers
         self._event_log = event_log
-        self._terminal = False
-        self._expected_event_count = 0
-        self._expected_event_head_sha256 = ZERO_EVENT_SHA256
         (
             self._episode_id,
             self._logical_id,
@@ -161,7 +169,7 @@ class Runtime:
     @property
     def state(self):
         with self._publication_lock:
-            return self._state
+            return self._snapshot.state
 
     @property
     def events(self):
@@ -174,28 +182,30 @@ class Runtime:
     @property
     def terminal(self):
         with self._publication_lock:
-            return self._terminal
+            return self._snapshot.terminal
 
     def _published_snapshot(self):
         with self._publication_lock:
+            snapshot = self._snapshot
             return (
-                self._state,
-                self._terminal,
+                snapshot.state,
+                snapshot.terminal,
                 (
-                    self._expected_event_count,
-                    self._expected_event_head_sha256,
+                    snapshot.event_count,
+                    snapshot.event_head_sha256,
                 ),
             )
 
     def _capture_accept_snapshot(self):
         with self._publication_lock:
-            if self._terminal:
+            snapshot = self._snapshot
+            if snapshot.terminal:
                 raise TerminalRuntimeError("runtime is already terminal")
             return (
-                self._state,
+                snapshot.state,
                 (
-                    self._expected_event_count,
-                    self._expected_event_head_sha256,
+                    snapshot.event_count,
+                    snapshot.event_head_sha256,
                 ),
                 (
                     self._episode_id,
@@ -206,26 +216,58 @@ class Runtime:
                 ),
             )
 
+    @staticmethod
+    def _next_snapshot(expected_generation, event, transition):
+        return _RuntimeSnapshot(
+            transition.next_state,
+            transition.tool_result.terminal,
+            expected_generation[0] + 1,
+            event.event_sha256,
+        )
+
     def _publish_transition(
         self, starting_state, expected_generation, event, transition
     ):
         with self._publication_lock:
+            snapshot = self._snapshot
             current_generation = (
-                self._expected_event_count,
-                self._expected_event_head_sha256,
+                snapshot.event_count,
+                snapshot.event_head_sha256,
             )
             if (
-                self._terminal
-                or self._state is not starting_state
+                snapshot.terminal
+                or snapshot.state is not starting_state
                 or current_generation != expected_generation
             ):
                 raise RuntimeStateError(
                     "runtime publication diverged after event-log append"
                 )
-            self._expected_event_count = expected_generation[0] + 1
-            self._expected_event_head_sha256 = event.event_sha256
-            self._state = transition.next_state
-            self._terminal = transition.tool_result.terminal
+            self._snapshot = self._next_snapshot(
+                expected_generation, event, transition
+            )
+
+    def _reconcile_committed_transition(
+        self, starting_state, expected_generation, event, transition
+    ):
+        intended = self._next_snapshot(expected_generation, event, transition)
+        with self._publication_lock:
+            snapshot = self._snapshot
+            current_generation = (
+                snapshot.event_count,
+                snapshot.event_head_sha256,
+            )
+            if (
+                snapshot.state is starting_state
+                and not snapshot.terminal
+                and current_generation == expected_generation
+            ):
+                self._snapshot = intended
+                return
+            if snapshot == intended:
+                return
+            raise RuntimeStateError(
+                "committed event cannot be reconciled with runtime publication"
+            )
 
     def _assert_expected_log_head(self, expected_generation):
         try:
@@ -290,8 +332,17 @@ class Runtime:
             template_sha256=template_sha256,
             terminal=transition.tool_result.terminal,
         )
-        self._event_log.append(event, expected_generation=expected_generation)
-        self._publish_transition(starting_state, expected_generation, event, transition)
+        try:
+            self._event_log.append(event, expected_generation=expected_generation)
+            self._publish_transition(
+                starting_state, expected_generation, event, transition
+            )
+        except BaseException:
+            if self._event_log._committed_event(event, expected_generation):
+                self._reconcile_committed_transition(
+                    starting_state, expected_generation, event, transition
+                )
+            raise
         return transition.tool_result
 
     @classmethod
@@ -409,12 +460,11 @@ class Runtime:
 
         runtime = cls.__new__(cls)
         runtime._publication_lock = Lock()
-        runtime._state = state
+        runtime._snapshot = _RuntimeSnapshot(
+            state, terminal, expected_head[0], expected_head[1]
+        )
         runtime._handlers = handlers
         runtime._event_log = log
-        runtime._terminal = terminal
-        runtime._expected_event_count = expected_head[0]
-        runtime._expected_event_head_sha256 = expected_head[1]
         (
             runtime._episode_id,
             runtime._logical_id,

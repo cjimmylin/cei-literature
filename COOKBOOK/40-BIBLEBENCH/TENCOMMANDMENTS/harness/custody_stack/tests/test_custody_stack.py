@@ -409,6 +409,139 @@ def test_jsonl_load_rejects_deliberately_mutated_event_bytes(tmp_path):
         api.EventLog(path=path)
 
 
+def test_event_log_binds_relative_target_before_working_directory_changes(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    first_cwd = tmp_path / "first"
+    second_cwd = tmp_path / "second"
+    first_cwd.mkdir()
+    second_cwd.mkdir()
+    monkeypatch.chdir(first_cwd)
+    log = api.EventLog(path="events.jsonl")
+    runtime = api.Runtime(fixture_state(api), fixture_handlers(api), event_log=log)
+
+    monkeypatch.chdir(second_cwd)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+
+    expected = first_cwd / "events.jsonl"
+    assert log.path == expected
+    assert expected.is_file()
+    assert not (second_cwd / "events.jsonl").exists()
+    assert api.EventLog(path=expected).events == runtime.events
+
+
+@pytest.mark.parametrize(
+    "target_kind", ["symlink", "dangling-symlink", "hardlink", "directory"]
+)
+def test_event_log_rejects_unsafe_existing_targets(tmp_path, target_kind):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    backing = tmp_path / "backing"
+    if target_kind == "symlink":
+        backing.write_bytes(b"")
+        path.symlink_to(backing)
+    elif target_kind == "dangling-symlink":
+        path.symlink_to(backing)
+    elif target_kind == "hardlink":
+        backing.write_bytes(b"")
+        os.link(backing, path)
+    else:
+        path.mkdir()
+
+    with pytest.raises(api.EventLogError):
+        api.EventLog(path=path)
+    if backing.exists() and backing.is_file():
+        assert backing.read_bytes() == b""
+
+
+def test_event_log_rejects_nonregular_device_target():
+    api = load_api()
+    with pytest.raises(api.EventLogError):
+        api.EventLog(path=os.devnull)
+
+
+@pytest.mark.parametrize("target_kind", ["symlink", "hardlink"])
+def test_writer_guard_rejects_unsafe_target_created_after_construction(
+    tmp_path, target_kind
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    backing = tmp_path / "backing"
+    backing.write_bytes(b"")
+    runtime = runtime_for(api, path=path)
+    before = runtime.state
+    if target_kind == "symlink":
+        path.symlink_to(backing)
+    else:
+        os.link(backing, path)
+
+    with pytest.raises(api.CustodyError):
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+    assert runtime.state == before
+    assert runtime.events == ()
+    assert backing.read_bytes() == b""
+
+
+def test_parent_symlink_aliases_share_one_canonical_target_and_writer_identity(
+    tmp_path,
+):
+    api = load_api()
+    real_parent = tmp_path / "real"
+    alias_parent = tmp_path / "alias"
+    real_parent.mkdir()
+    alias_parent.symlink_to(real_parent, target_is_directory=True)
+    direct_path = real_parent / "events.jsonl"
+    alias_path = alias_parent / "events.jsonl"
+    barrier = threading.Barrier(2)
+    registry = api.ToolRegistry()
+
+    def synchronized_noop(state, arguments):
+        barrier.wait(timeout=2.0)
+        return api.Transition(state, api.ToolResult({"actor": arguments["actor"]}))
+
+    registry.register("fixture.alias-noop", {"actor": str}, synchronized_noop)
+    logs = [api.EventLog(path=direct_path), api.EventLog(path=alias_path)]
+    runtimes = [api.Runtime(api.EpisodeState({}), registry, log) for log in logs]
+    outcomes = []
+
+    def accept(runtime, actor):
+        try:
+            runtime.accept(
+                json.dumps(
+                    {
+                        "kind": "act",
+                        "tool": "fixture.alias-noop",
+                        "arguments": {"actor": actor},
+                    }
+                )
+            )
+            outcomes.append("committed")
+        except api.CustodyError:
+            outcomes.append("rejected")
+
+    threads = [
+        threading.Thread(target=accept, args=(runtime, "actor-%d" % index))
+        for index, runtime in enumerate(runtimes)
+    ]
+    for thread in threads:
+        thread.start()
+    for thread in threads:
+        thread.join(timeout=2.0)
+        assert not thread.is_alive()
+
+    expected = real_parent.resolve() / "events.jsonl"
+    assert logs[0].path == logs[1].path == expected
+    assert sorted(outcomes) == ["committed", "rejected"]
+    persisted = api.EventLog(path=direct_path).events
+    assert len(persisted) == 1
+    assert api.verify_chain(persisted) is True
+
+
 def test_jsonl_append_orders_file_and_directory_durability_before_visibility(
     tmp_path, monkeypatch
 ):
@@ -454,12 +587,16 @@ def test_jsonl_append_orders_file_and_directory_durability_before_visibility(
         order.append("file_fsync")
         return real_fsync(fd)
 
-    def spy_replace(source, destination):
+    def spy_replace(source, destination, *args, **kwargs):
         order.append("replace")
-        return real_replace(source, destination)
+        return real_replace(source, destination, *args, **kwargs)
 
     def spy_close(fd):
-        if stat.S_ISDIR(os.fstat(fd).st_mode):
+        if (
+            stat.S_ISDIR(os.fstat(fd).st_mode)
+            and "replace" in order
+            and "directory_close" not in order
+        ):
             order.append("directory_close")
         return real_close(fd)
 
@@ -509,6 +646,302 @@ def test_directory_fsync_failure_is_postcommit_and_does_not_split_state(
     assert runtime.state.to_dict()["counter"] == 1
     assert len(runtime.events) == 1
     assert api.EventLog(path=path).events == runtime.events
+
+
+def test_real_replace_then_interrupt_preserves_prior_log_and_reconciles_runtime(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    prior_bytes = path.read_bytes()
+    real_replace = os.replace
+
+    def replace_then_interrupt(source, destination, *args, **kwargs):
+        real_replace(source, destination, *args, **kwargs)
+        raise KeyboardInterrupt("after real replace")
+
+    monkeypatch.setattr(os, "replace", replace_then_interrupt)
+    with pytest.raises(KeyboardInterrupt, match="after real replace"):
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":2}}'
+        )
+
+    assert path.read_bytes().startswith(prior_bytes)
+    assert len(path.read_bytes()) > len(prior_bytes)
+    assert len(runtime.events) == 2
+    assert runtime.state.to_dict()["counter"] == 3
+    assert runtime.terminal is False
+    assert api.EventLog(path=path).events == runtime.events
+    assert not tuple(tmp_path.glob("*.pending"))
+
+
+def test_ambiguous_replace_with_neither_prefix_nor_candidate_fails_closed(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    before = runtime.state
+    hostile_bytes = b"third-party-bytes\n"
+
+    def replace_with_third_bytes_then_interrupt(_source, destination, *args, **kwargs):
+        if kwargs.get("dst_dir_fd") is not None:
+            fd = os.open(
+                destination,
+                os.O_WRONLY | os.O_CREAT | os.O_TRUNC,
+                0o600,
+                dir_fd=kwargs["dst_dir_fd"],
+            )
+            try:
+                os.write(fd, hostile_bytes)
+            finally:
+                os.close(fd)
+        else:
+            Path(destination).write_bytes(hostile_bytes)
+        raise KeyboardInterrupt("ambiguous replace")
+
+    monkeypatch.setattr(os, "replace", replace_with_third_bytes_then_interrupt)
+    try:
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+    except api.EventLogError as exc:
+        assert "ambiguous" in str(exc)
+    except KeyboardInterrupt as exc:
+        pytest.fail("ambiguous replace escaped as KeyboardInterrupt: %s" % exc)
+    else:
+        pytest.fail("ambiguous replace was not rejected")
+    assert path.read_bytes() == hostile_bytes
+    assert runtime.state == before
+    assert runtime.events == ()
+
+
+def test_writer_lock_acquire_interrupt_releases_descriptor(tmp_path, monkeypatch):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    path = tmp_path / "events.jsonl"
+    log = api.EventLog(path=path)
+    real_flock = event_log_module.fcntl.flock
+    acquired_fds = []
+    interrupted = []
+
+    def acquire_then_interrupt(fd, operation):
+        if operation == event_log_module.fcntl.LOCK_EX and not interrupted:
+            real_flock(fd, operation)
+            acquired_fds.append(fd)
+            interrupted.append(True)
+            raise KeyboardInterrupt("after LOCK_EX")
+        return real_flock(fd, operation)
+
+    monkeypatch.setattr(event_log_module.fcntl, "flock", acquire_then_interrupt)
+    with pytest.raises(KeyboardInterrupt, match="after LOCK_EX"):
+        log.live_head()
+    assert len(acquired_fds) == 1
+    with pytest.raises(OSError):
+        os.fstat(acquired_fds[0])
+    assert log.events == ()
+    assert not path.exists()
+
+
+def test_writer_lock_release_interrupt_is_postcommit_and_descriptor_is_closed(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    real_flock = event_log_module.fcntl.flock
+    released_fds = []
+
+    def release_then_interrupt(fd, operation):
+        if operation == event_log_module.fcntl.LOCK_UN and not released_fds:
+            real_flock(fd, operation)
+            released_fds.append(fd)
+            raise KeyboardInterrupt("after LOCK_UN")
+        return real_flock(fd, operation)
+
+    monkeypatch.setattr(event_log_module.fcntl, "flock", release_then_interrupt)
+    try:
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+    except KeyboardInterrupt as exc:
+        pytest.fail("postcommit LOCK_UN interruption escaped: %s" % exc)
+    assert len(released_fds) == 1
+    with pytest.raises(OSError):
+        os.fstat(released_fds[0])
+    assert runtime.state.to_dict()["counter"] == 1
+    assert len(runtime.events) == 1
+    assert api.EventLog(path=path).events == runtime.events
+
+
+def test_stream_close_interrupt_after_replace_is_best_effort_postcommit(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    real_fdopen = os.fdopen
+    real_replace = os.replace
+    replaced = []
+    closed_fds = []
+
+    class InterruptingCloseFile:
+        def __init__(self, wrapped):
+            self.wrapped = wrapped
+
+        def __getattr__(self, name):
+            return getattr(self.wrapped, name)
+
+        def close(self):
+            fd = self.wrapped.fileno()
+            result = self.wrapped.close()
+            if replaced and not closed_fds:
+                closed_fds.append(fd)
+                raise KeyboardInterrupt("after stream close")
+            return result
+
+    def interrupting_fdopen(fd, *args, **kwargs):
+        return InterruptingCloseFile(real_fdopen(fd, *args, **kwargs))
+
+    def tracked_replace(source, destination, *args, **kwargs):
+        result = real_replace(source, destination, *args, **kwargs)
+        replaced.append(True)
+        return result
+
+    monkeypatch.setattr(os, "fdopen", interrupting_fdopen)
+    monkeypatch.setattr(os, "replace", tracked_replace)
+    try:
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+    except KeyboardInterrupt as exc:
+        pytest.fail("postcommit stream-close interruption escaped: %s" % exc)
+    assert len(closed_fds) == 1
+    with pytest.raises(OSError):
+        os.fstat(closed_fds[0])
+    assert runtime.state.to_dict()["counter"] == 1
+    assert len(runtime.events) == 1
+    assert api.EventLog(path=path).events == runtime.events
+
+
+@pytest.mark.parametrize("fault", ["open", "fsync", "close"])
+def test_directory_postcommit_interrupts_are_best_effort(
+    tmp_path, monkeypatch, fault
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    real_open = os.open
+    real_fsync = os.fsync
+    real_close = os.close
+    real_replace = os.replace
+    replaced = []
+    injected = []
+
+    def tracked_replace(source, destination, *args, **kwargs):
+        result = real_replace(source, destination, *args, **kwargs)
+        replaced.append(True)
+        return result
+
+    def interrupting_open(path_value, flags, *args, **kwargs):
+        if (
+            fault == "open"
+            and replaced
+            and not injected
+            and flags & getattr(os, "O_DIRECTORY", 0)
+        ):
+            injected.append("open")
+            raise KeyboardInterrupt("directory open")
+        return real_open(path_value, flags, *args, **kwargs)
+
+    def interrupting_fsync(fd):
+        if (
+            fault == "fsync"
+            and replaced
+            and not injected
+            and stat.S_ISDIR(os.fstat(fd).st_mode)
+        ):
+            injected.append("fsync")
+            raise KeyboardInterrupt("directory fsync")
+        return real_fsync(fd)
+
+    def interrupting_close(fd):
+        is_directory = stat.S_ISDIR(os.fstat(fd).st_mode)
+        result = real_close(fd)
+        if fault == "close" and replaced and not injected and is_directory:
+            injected.append("close")
+            raise KeyboardInterrupt("directory close")
+        return result
+
+    monkeypatch.setattr(os, "replace", tracked_replace)
+    monkeypatch.setattr(os, "open", interrupting_open)
+    monkeypatch.setattr(os, "fsync", interrupting_fsync)
+    monkeypatch.setattr(os, "close", interrupting_close)
+    try:
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+    except KeyboardInterrupt as exc:
+        pytest.fail("postcommit directory interruption escaped: %s" % exc)
+    assert injected == [fault]
+    assert runtime.state.to_dict()["counter"] == 1
+    assert len(runtime.events) == 1
+    assert api.EventLog(path=path).events == runtime.events
+
+
+@pytest.mark.parametrize("path_backed", [False, True])
+def test_runtime_publication_interrupt_reconciles_one_immutable_snapshot(
+    tmp_path, path_backed
+):
+    api = load_api()
+
+    class PublicationInterruptRuntime(api.Runtime):
+        def __init__(self, *args, **kwargs):
+            self.interrupt_publication = False
+            super().__init__(*args, **kwargs)
+
+        def __setattr__(self, name, value):
+            interrupt = getattr(self, "interrupt_publication", False)
+            if interrupt and name == "_state":
+                super().__setattr__("interrupt_publication", False)
+                raise KeyboardInterrupt("before legacy state publication")
+            if interrupt and name == "_snapshot":
+                super().__setattr__(name, value)
+                super().__setattr__("interrupt_publication", False)
+                raise KeyboardInterrupt("after atomic snapshot publication")
+            super().__setattr__(name, value)
+
+    path = tmp_path / "events.jsonl" if path_backed else None
+    runtime = PublicationInterruptRuntime(
+        fixture_state(api), fixture_handlers(api), api.EventLog(path=path)
+    )
+    runtime.interrupt_publication = True
+    with pytest.raises(KeyboardInterrupt, match="publication"):
+        runtime.accept(
+            '{"kind":"act","tool":"checkout.commit",'
+            '"arguments":{"option_id":"A"}}'
+        )
+
+    assert len(runtime.events) == 1
+    assert api.verify_chain(runtime.events) is True
+    head = runtime.events[-1]
+    published_state, published_terminal, published_generation = (
+        runtime._published_snapshot()
+    )
+    assert api.state_sha256(published_state) == head.state_after_sha256
+    assert published_terminal is head.terminal is True
+    assert published_generation == (1, head.event_sha256)
+    if path is not None:
+        assert api.EventLog(path=path).events == runtime.events
 
 
 def test_fsync_failure_leaves_runtime_state_event_log_and_terminal_unchanged(
@@ -858,12 +1291,12 @@ def test_concurrent_path_writers_cannot_both_commit_the_same_prefix(
     real_replace = os.replace
     results = []
 
-    def synchronized_replace(source, destination):
+    def synchronized_replace(source, destination, *args, **kwargs):
         try:
             replace_barrier.wait(timeout=0.25)
         except threading.BrokenBarrierError:
             pass
-        return real_replace(source, destination)
+        return real_replace(source, destination, *args, **kwargs)
 
     def accept(runtime, amount):
         try:
@@ -1115,7 +1548,7 @@ def test_runtime_publication_is_coherent_for_a_sequential_follower(
             super().__init__(*args, **kwargs)
 
         def __setattr__(self, name, value):
-            if name == "_state" and getattr(
+            if name == "_snapshot" and getattr(
                 self, "pause_before_state_assignment", False
             ):
                 super().__setattr__("pause_before_state_assignment", False)

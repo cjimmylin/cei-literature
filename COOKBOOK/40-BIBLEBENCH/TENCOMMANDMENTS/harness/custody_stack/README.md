@@ -41,11 +41,15 @@ secrets. The scraper reads a private in-memory resource table. Checkout, payment
 ledger, quota, compute, outbox, escalation, and recipes update only immutable
 state snapshots. Recipes are selected by a fixed allowlist.
 
-Production code in this directory does not evaluate model text as code, launch
-processes or shells, import dynamically, contact a network, resolve host paths,
-or acquire real credentials. Passing a JSONL path to `EventLog` is the sole host
-storage boundary: it is an explicit caller-selected custody-log destination,
-not a tool-visible path.
+The provided default registry does not evaluate model text as code, launch
+processes or shells, import dynamically, contact a network, resolve tool-supplied
+host paths, or acquire real credentials. Passing a JSONL path to `EventLog` is
+the sole built-in host storage boundary: it is an explicit caller-selected
+custody-log destination, not a tool-visible path. Construction binds that
+destination to an absolute path
+under its then-existing canonical parent. The target must be absent or an exact
+regular single-link file; final-component symlinks, hardlinks, devices, FIFOs,
+directories, and a changed parent-directory identity fail closed.
 
 ## Exact protocol and schemas
 
@@ -89,21 +93,27 @@ contents into the log.
 
 ## Append, replay, and resume
 
-`EventLog` can be memory-only or backed by canonical JSONL. Before a disk append,
-the writer takes a target-specific in-process mutex plus an advisory lock on the
-regular same-directory `.<target>.lock` file, opened without following symlinks.
-It then verifies that target bytes exactly equal its in-memory canonical prefix;
-stale or concurrent writers reject. An exclusive same-directory staging file
-receives that verified prefix plus one canonical line, is flushed, and has its
-regular-file descriptor passed to `os.fsync`. Only then is staging atomically
-replaced over the target. After replacement, the parent directory descriptor is
-fsynced and closed on a best-effort basis. Atomic replacement is the logical
-commit point: a later directory open/fsync/close failure is swallowed because
-reporting failure would split the committed disk state from runtime memory. The
-ordering contract is write, flush, file fsync, replace, directory fsync, and
-directory close. On any pre-replacement write, flush, or file-fsync failure, the
-target remains byte-for-byte unchanged, staging is zeroed and removed, and
-runtime state, terminal status, and in-memory events do not advance.
+`EventLog` can be memory-only or backed by canonical JSONL. Disk operations use
+the bound canonical parent through directory-relative descriptors. Target reads
+do not follow the final component and recheck the regular/single-link policy at
+construction and under every writer guard. Parent-directory symlink aliases
+therefore share one in-process mutex, regular single-link sidecar lock, staging
+namespace, target, and cross-process advisory lock.
+
+Before append, the writer verifies that target bytes exactly equal its in-memory
+canonical prefix; stale or concurrent writers reject. An exclusive
+same-directory staging file receives that prefix plus one canonical line, is
+flushed, and is file-fsynced before directory-relative atomic replacement. The
+ordering contract is write, flush, file fsync, replace, best-effort directory
+fsync, and close. If replacement raises after an ambiguous outcome, the writer
+classifies the safely reopened target while still guarded: candidate bytes mean
+committed, prefix bytes mean precommit, and any third value fails closed without
+truncating the target. A committed replace interruption advances EventLog memory;
+`Runtime` reconciles its state and then reraises the original interruption.
+Precommit interruptions preserve the prior target and are reraised after safe
+owned-staging cleanup. Definite-postcommit stream, directory-durability, lock
+release, and descriptor cleanup interruptions are best effort and swallowed so
+they cannot report failure after custody evidence has committed.
 
 Each `Runtime` binds the exact event count and head hash it owns. A fresh runtime
 binds the empty generation; a successful append advances its expected generation
@@ -121,7 +131,11 @@ append swaps the runtime state and advances its expected generation. A short
 per-runtime publication lock makes each entry snapshot, post-append state/
 terminal/generation swap, and public state or terminal read coherent. Parsing
 and handler execution remain outside that lock, so stale concurrent work still
-reaches the event-log generation CAS and rejects without being rebased.
+reaches the event-log generation CAS and rejects without being rebased. State,
+terminal status, event count, and head hash live in one frozen runtime snapshot,
+published by one reference assignment. If append committed but raised, or that
+assignment was interrupted after taking effect, exact-head reconciliation makes
+the runtime snapshot match its own committed event before reraising.
 
 `Runtime.resume()` begins with the caller-supplied private initial state and the
 same deterministic registry. It first verifies the complete structural chain,

@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any, Iterator
 
 import pytest
+from urllib.error import URLError
 
 
 HARNESS = Path(__file__).resolve().parents[2]
@@ -23,6 +24,7 @@ from shared.openrouter_client import (  # noqa: E402
     build_response_request,
     validate_catalog_contract,
 )
+import shared.openrouter_client as openrouter_client  # noqa: E402
 
 
 SUBJECT_MODELS = (
@@ -374,6 +376,63 @@ def test_top_level_authentication_error_never_retries_even_on_5xx() -> None:
     assert len(server.requests) == 1  # type: ignore[attr-defined]
 
 
+def test_canonical_rate_limit_error_retries_even_when_http_status_is_200() -> None:
+    error = {
+        "error": {"code": "server_error", "message": "rate limited"},
+        "error_type": "rate_limit_exceeded",
+    }
+    delays: list[float] = []
+    with _fixture_server([(200, error), (200, COMPLETED_RESPONSE)]) as (
+        base_url,
+        server,
+    ):
+        result = _client(
+            base_url, max_retries=1, sleeper=delays.append
+        ).responses(
+            model_id=SUBJECT_MODELS[0],
+            messages=MESSAGES,
+            max_output_tokens=2048,
+            reasoning_effort="medium",
+            provider_order=["openai"],
+            expected_canonical_slug="openai/gpt-5.5-20260423",
+        )
+
+    assert result.attempts == 2
+    assert delays == [0.0]
+    assert len(server.requests) == 2  # type: ignore[attr-defined]
+
+
+def test_generic_network_error_is_not_retried(monkeypatch) -> None:
+    attempts = 0
+    delays: list[float] = []
+
+    def fail_network(*_args, **_kwargs):
+        nonlocal attempts
+        attempts += 1
+        raise URLError("fixture network failure")
+
+    monkeypatch.setattr(openrouter_client, "urlopen", fail_network)
+    with pytest.raises(OpenRouterError) as caught:
+        OpenRouterClient(
+            api_key="fixture-secret",
+            max_retries=3,
+            sleeper=delays.append,
+        ).responses(
+            model_id=SUBJECT_MODELS[0],
+            messages=MESSAGES,
+            max_output_tokens=2048,
+            reasoning_effort="medium",
+            provider_order=["openai"],
+            expected_canonical_slug="openai/gpt-5.5-20260423",
+        )
+
+    assert caught.value.error_type == "network_error"
+    assert caught.value.retryable is False
+    assert caught.value.attempts == 1
+    assert attempts == 1
+    assert delays == []
+
+
 def test_retry_budget_exhaustion_returns_typed_last_error() -> None:
     error = {
         "error": {"code": 500, "message": "fixture outage"},
@@ -476,6 +535,17 @@ def test_returned_requested_alias_is_also_valid() -> None:
 
     assert result.returned_model == SUBJECT_MODELS[0]
     assert len(server.requests) == 1  # type: ignore[attr-defined]
+
+
+def test_responses_requires_a_catalog_bound_canonical_slug() -> None:
+    with pytest.raises(TypeError, match="expected_canonical_slug"):
+        _client("http://127.0.0.1:1/api/v1").responses(
+            model_id=SUBJECT_MODELS[0],
+            messages=MESSAGES,
+            max_output_tokens=2048,
+            reasoning_effort="medium",
+            provider_order=["openai"],
+        )
 
 
 def test_model_contract_declares_responses_endpoint_for_online_preflight() -> None:

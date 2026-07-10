@@ -36,6 +36,14 @@ _NON_RETRYABLE_ERROR_FRAGMENTS = (
     "policy",
     "not_found",
 )
+_RETRYABLE_ERROR_FRAGMENTS = (
+    "rate_limit",
+    "provider",
+    "overload",
+    "server_error",
+    "upstream",
+    "timeout",
+)
 
 
 class OpenRouterError(RuntimeError):
@@ -363,7 +371,11 @@ def _error_details(
     if not isinstance(message, str) or not message.strip():
         message = f"OpenRouter request failed ({error_type})"
     lowered = error_type.casefold()
-    retryable = bool(status_code == 429 or (status_code is not None and status_code >= 500))
+    retryable = bool(
+        status_code == 429
+        or (status_code is not None and status_code >= 500)
+        or any(fragment in lowered for fragment in _RETRYABLE_ERROR_FRAGMENTS)
+    )
     if any(fragment in lowered for fragment in _NON_RETRYABLE_ERROR_FRAGMENTS):
         retryable = False
     if status_code in {400, 401, 402, 403, 404, 405, 409, 422}:
@@ -553,12 +565,9 @@ class OpenRouterClient:
                 error = OpenRouterError(
                     "OpenRouter network request failed",
                     error_type="network_error",
-                    retryable=True,
+                    retryable=False,
                     attempts=attempt,
                 )
-                if attempt <= self.max_retries:
-                    self._sleeper(self.retry_backoff_seconds * attempt)
-                    continue
                 raise error from exc
 
             decoded = _decode_json(
@@ -602,9 +611,16 @@ class OpenRouterClient:
         max_output_tokens: int,
         reasoning_effort: str | None,
         provider_order: Sequence[str] | None = None,
-        expected_canonical_slug: str | None = None,
+        expected_canonical_slug: str,
         service_tier: str = DEFAULT_SERVICE_TIER,
     ) -> ResponseResult:
+        if (
+            not isinstance(expected_canonical_slug, str)
+            or not expected_canonical_slug.strip()
+        ):
+            raise ValueError(
+                "expected_canonical_slug must be bound from a validated catalog"
+            )
         request_payload = build_response_request(
             model_id=model_id,
             messages=messages,
@@ -675,8 +691,7 @@ class OpenRouterClient:
                 raw=payload,
             )
         allowed_models = {model_id}
-        if expected_canonical_slug:
-            allowed_models.add(expected_canonical_slug)
+        allowed_models.add(expected_canonical_slug)
         if returned_model not in allowed_models:
             raise OpenRouterError(
                 f"returned model {returned_model!r} does not match the frozen request",
@@ -731,4 +746,3 @@ class OpenRouterClient:
         path = "/models/" + quote(model_id, safe="/") + "/endpoints"
         payload, _headers, _attempts, _latency = self._request_json("GET", path)
         return payload
-

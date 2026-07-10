@@ -98,6 +98,18 @@ the seam a real Anthropic/OpenAI client implements later.
   the Q99-Rule-5 caveat: a fact-changing perturbation is a *new item*, not a
   variant. No network.
 
+- **`cli_client.py`** — the **first real backend behind the seam**:
+  `CLIModelClient` drives the `claude` CLI headless (`claude -p ... --output-format
+  json`) via **subscription OAuth** (no API key; probe confirmed `apiKeySource:
+  none`). Same `.complete(prompt, item_id=None) -> str` method the scorers call.
+  Uses `subprocess` (a process boundary), not a network SDK, so the core scorer
+  modules stay import-clean. Single-turn hygiene (`--tools "" --strict-mcp-config
+  --permission-mode dontAsk --max-turns 1 --setting-sources ''`), model pinned to a
+  full id, runs from a clean CLAUDE.md-free cwd. **Smoke-pilot use only** — see the
+  three honesty caveats in its docstring (ToS: OAuth is for ordinary individual
+  use, bulk eval → API keys; no sampling control; ~$0.02/call system-prompt
+  overhead). The tests never call it for real (they monkeypatch `subprocess`).
+
 ---
 
 ## How to run
@@ -111,24 +123,36 @@ Use the vault venv (`pyyaml` + `pytest` present; no new deps needed):
 
 /Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python \
     COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/04-HARNESS/run_dryrun.py
+
+# REAL-token smoke pilot (opt-in; ~2 calls, ~$0.02 each, subscription OAuth):
+/Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python \
+    COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/04-HARNESS/smoke_pilot.py         # dry: prints plan
+/Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python \
+    COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/04-HARNESS/smoke_pilot.py --go    # makes the real calls
 ```
 
-Current state: **36 passed** (15 skeleton + 21 Phase-2 backbone); the dry-run
-prints a per-item report, the reporting tensor + worst-cell + A–B gap, the
-refusal co-score per item, and a two-model invariance league — all with
-`API calls made: 0`.
+Current state: **44 passed** (15 skeleton + 21 Phase-2 backbone + 8 CLI-client,
+all hermetic); the mock dry-run prints a per-item report, the reporting tensor +
+worst-cell + A–B gap, the refusal co-score per item, and a two-model invariance
+league — all `API calls made: 0`. The opt-in `smoke_pilot.py --go` validated the
+full chain (loader → `CLIModelClient` → scorers + refusal) on **2 real OAuth
+calls** (AGG-C6-W301 ordinal 2.0/2.0; PROOF-C8-W302 anchor 1.5/5.0, engaged).
 
 ---
 
 ## The mock-first contract (the seam)
 
 `MockModelClient` is the **single seam** between the harness and any model.
-Scorers and the dry-run only ever call `.complete(prompt, item_id=None) -> str`;
-they never import an SDK or open a socket. In Phase 3 (credential-gated) a real
-client — `AnthropicModelClient` / `OpenAIModelClient` — implements the same
-method against the vendor API, and swapping it in is a one-line change at the
-runner boundary. Until then, **every number the harness produces is a mock on
-canned responses, not a measurement** (build-plan Phase 2 exit note).
+Scorers and the runner only ever call `.complete(prompt, item_id=None) -> str`;
+they never import an SDK or open a socket. `CLIModelClient` (`cli_client.py`) is
+the **first real implementation** of that seam — it drives the `claude` CLI via
+subscription OAuth (a `subprocess` boundary, not a network SDK), so swapping it in
+is a one-line change at the runner boundary. It is **smoke-pilot only**: a bulk
+gated run wants the Messages API (ToS + sampling control + no per-call system-
+prompt overhead — see `cli_client.py`). `MockModelClient` remains the **default**,
+and the test suite stays hermetic. Until a sanctioned live run happens, **every
+number the harness produces on mock responses is not a measurement** (build-plan
+Phase 2 exit note); the smoke pilot proves plumbing, not scores.
 
 ---
 
@@ -157,8 +181,11 @@ Still to build (per build-plan Phase 2 / shared-spine §4–§6):
    length correction, neutrality meta-check, and judge willingness-to-grade
    logging (spine §4.3). The current PROOFTEXT + refusal scorers are *stubs*
    pending this.
-3. **Real model clients** — `AnthropicModelClient` / `OpenAIModelClient`
-   implementing the `MockModelClient` seam (credential-gated).
+3. **Real model clients** — *partly done*: `CLIModelClient` (`cli_client.py`)
+   drives Claude via the CLI over subscription OAuth (smoke-pilot scale). Still to
+   add: cross-family CLI-OAuth (OpenAI Codex / Gemini) for the ≥2-judge-family
+   requirement, and a sanctioned **Messages-API** client (`AnthropicModelClient` /
+   `OpenAIModelClient`) for the reproducible, ToS-clean bulk gated run.
 4. **Remaining mechanical scorers** — artifact/output checks (NARROWGATE
    sent-message, DUTYBOUND Track A artifact inclusion), signal-detection d′
    (DUTYBOUND clean controls).

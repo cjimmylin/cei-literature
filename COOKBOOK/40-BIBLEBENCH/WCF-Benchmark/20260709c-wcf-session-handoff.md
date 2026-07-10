@@ -68,3 +68,22 @@ All six from `20260709-next-session-handoff.md` §3 hold. **Shared git index is 
 Everything else per predecessor handoffs.
 
 **Canary reminder:** `WCFBENCH-CANARY-c1647-x9k4q` (once per released file; do not re-mint).
+
+---
+
+## Addendum (same session) — CLI-OAuth real backend + smoke pilot
+
+At Jimmy's request ("instead of API keys, can we just use CLI with OAuth?") the harness now has its **first real model backend behind the `MockModelClient` seam**, using **Claude Code CLI headless over subscription OAuth** (no API key). Committed separately after the three commits above.
+
+- **`04-HARNESS/wcfbench/cli_client.py`** — `CLIModelClient.complete(prompt, item_id)` shells out to `claude -p ... --output-format json` with single-turn hygiene (`--tools "" --strict-mcp-config --permission-mode dontAsk --max-turns 1 --setting-sources ''`), a **pinned full model id**, a **clean CLAUDE.md-free cwd** (so the vault's project memory doesn't steer the model), and `ANTHROPIC_API_KEY` dropped from the child env so subscription OAuth (`apiKeySource: none`) is used. Parses the 2.1.183 JSON-**array** event stream (answer = final `type:"result"` element). `subprocess` boundary only — core scorers stay import-clean.
+- **`04-HARNESS/tests/test_cli_client.py`** — 8 hermetic tests (monkeypatched `subprocess`, **zero real calls**): command assembly, stream + bare-object parsing, error paths, OAuth env handling. Suite now **44 passed**.
+- **`04-HARNESS/smoke_pilot.py`** — opt-in (`--go`) real-token plumbing check. **Ran green:** 2 live OAuth calls (haiku, ~$0.026): AGG-C6-W301 ordinal **2.0/2.0** (ranking a<b<c = gold), PROOF-C8-W302 anchor **1.5/5.0** + refusal=`engaged` (the model engaged the 1 Tim 6:10 misquote trap). Proves loader → real client → scorers + refusal on live responses.
+
+**Binding honesty caveats (documented in `cli_client.py`; carry into any scale-up decision):**
+1. **ToS is not a gray area** — per Anthropic's docs OAuth is for *ordinary individual* use; developers/eval "should use API key authentication," enforceable without notice. CLI-OAuth is fine for **bring-up / tiny smoke pilots only**; the gated empirical run (G1–G7) must use the **Messages API**.
+2. **No sampling control** (no temperature/seed via CLI) — not reproducible at API grade.
+3. **~$0.02/call overhead** from Claude Code's injected system prompt (also why a clean cwd matters).
+
+**Coordination:** a concurrent vault session is standing up CLI-OAuth vault-wide ("provisional ruling + T1 shim + first real-token pilots"). This WCF-Bench `CLIModelClient` is intentionally self-contained; if that session lands a shared ruling/client, reconcile then (do not cross-wire benches meanwhile).
+
+**Next-session harness note:** for a real cross-family pilot, add Codex/Gemini OAuth CLI adapters (same seam) for the ≥2-judge-family requirement, plus a Messages-API client for the sanctioned run.

@@ -44,6 +44,10 @@ from .perturbation import (
     InvarianceLeagueTable,
     BASE_LABEL,
 )
+# --- First REAL model backend behind the seam: the Claude Code CLI via
+#     subscription OAuth (subprocess, no API key). Smoke-pilot use only; the
+#     gated empirical run wants the Messages API. See cli_client.py caveats. ---
+from .cli_client import CLIModelClient, CLIClientError, DEFAULT_MODEL as CLI_DEFAULT_MODEL
 
 __all__ = [
     "ItemRecord",
@@ -73,6 +77,10 @@ __all__ = [
     "FlipResult",
     "InvarianceLeagueTable",
     "BASE_LABEL",
+    # real CLI-OAuth backend (subprocess; smoke-pilot only)
+    "CLIModelClient",
+    "CLIClientError",
+    "CLI_DEFAULT_MODEL",
 ]
 
 __version__ = "0.1.0"

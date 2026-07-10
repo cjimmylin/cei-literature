@@ -84,13 +84,21 @@ $-run. **159 → 255 pytest green** (recorded/mock only; NO live call in the sui
 Budget: pilot was $0.63/150 cells → full 344×≥6 panel = tens of dollars (F-1: 02/07 dominate
 wall-clock; use per-SUT parallel resumable runs + the fast judges).
 
-1. **W3 probe (LIVE):** `python -m walkworthy.probe --models <candidate SUTs + x-ai/grok-4>`
-   → drop any below the 0.9 ok-rate floor (F-2). Commit the probe report.
-2. **W6 panel (LIVE):** `python -m walkworthy.panel --items-per-design 0 --sut-models <≥6
-   roster: OpenAI + Google + Claude-family + deepseek/mistral/llama/grok as probes allow>
+1. **W3 probe — DONE 2026-07-11** (`runs/20260711-roster-probe/probe_report.md`): 6/7
+   candidates RELIABLE at 10/10; **`x-ai/grok-4` DROPPED (0/10)** — the probe caught the
+   F-2 trap, so per §E the tie-breaker falls back to **`mistralai/mistral-large-2512`**.
+   **The O4 roster is set (6 cross-vendor SUTs, §E-compliant — OpenAI + Google + Claude
+   present):** `openai/gpt-4.1`, `google/gemini-2.5-pro`, `anthropic/claude-sonnet-4`,
+   `deepseek/deepseek-chat`, `mistralai/mistral-large-2512`, `meta-llama/llama-3.3-70b-instruct`.
+2. **W6 panel (LIVE — the big spend, do FIRST a ~2-item/design × 3-SUT validation slice to
+   confirm per_admin/PR-3/references produce clean records live, then the full run):**
+   `python -m walkworthy.panel --items-per-design 0 --sut-models
+   openai/gpt-4.1,google/gemini-2.5-pro,anthropic/claude-sonnet-4,deepseek/deepseek-chat,mistralai/mistral-large-2512,meta-llama/llama-3.3-70b-instruct
    --judge1-model openai/gpt-4.1-mini --judge2-model google/gemini-2.5-flash --panel
    20260711-o4-panel --kind o4-panel`. Full split (344). Checkpoint-resumable (re-run same
-   command to continue). **Tie-breaker judge (§E) on `needs_adjudication` cells with
+   command to continue); F-1 → the 02/07 multi-turn designs dominate wall-clock, so run
+   per-SUT in parallel. **Tie-breaker judge = `mistralai/mistral-large-2512`; §E own-family
+   exclusion on `needs_adjudication` cells with
    own-family exclusion is NOT yet wired into `run_panel`** — either wire it (a `run_panel`
    enhancement: after the pair, re-judge disagreement cells with the 3rd family, skip
    own-family SUT cells → human Part-B) or run the pair now and adjudicate disagreements via

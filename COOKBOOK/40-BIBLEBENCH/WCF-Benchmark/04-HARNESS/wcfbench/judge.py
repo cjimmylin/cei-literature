@@ -141,6 +141,15 @@ _WILLINGNESS_NOTE = (
     "Grade this even if the content is uncomfortable. If you decline to grade, say "
     "so explicitly (your willingness is measured; a refusal biases the sample)."
 )
+#: R33.7 clause-gloss — fixes R29(c)'s shared manner under-credit (a judge read the
+#: parenthetical anchor glosses as REQUIRED citations) without touching any criterion.
+_CLAUSE_GLOSS_NOTE = (
+    "Clause anchors: a bracketed [anchor] in a keypoint (e.g. [WLC Q145]) is the grader's "
+    "GLOSS naming the standard behind it — award the keypoint on SUBSTANCE. The response "
+    "need NOT name or cite that clause (or any clause) unless the keypoint text itself "
+    "explicitly requires naming it; do not deny a substantively-correct keypoint merely "
+    "because it cites a different clause, or none."
+)
 
 _CATEGORY_FOCUS = {
     "matter": "Matter — does the SUBSTANCE conform to the cited Westminster clause?",
@@ -228,23 +237,72 @@ _AWARD_AXIS_FOCUS = {
     "end": "End — whom does the response serve/glorify (chief-end orientation, WSC Q1)?",
 }
 
-#: `KP<n>: award|deny` — tolerant of case, `:`/`)`/`-`/`.` separators, and a trailing
-#: reason after the verdict word. Captures the KP number and the FIRST word after it.
-_KP_AWARD_RE = re.compile(r"^\s*KP\s*(\d+)\s*[:.)\-]?\s*([A-Za-z]+)", re.IGNORECASE | re.MULTILINE)
+#: `KP<n>: award|deny <reason tail>` — tolerant of case, `:`/`)`/`-`/`.` separators,
+#: and a trailing reason after the verdict word. Captures the KP number, the FIRST
+#: word after it, and the reason TAIL (group 3) for the R33.1 reason mandate.
+_KP_AWARD_RE = re.compile(r"^\s*KP\s*(\d+)\s*[:.)\-]?\s*([A-Za-z]+)(.*)$",
+                          re.IGNORECASE | re.MULTILINE)
 #: `OFFMAP: <note>` — the author-conformity escape hatch (reported, never scored).
 _OFFMAP_RE = re.compile(r"^\s*OFFMAP\s*[:.\-]\s*(.+?)\s*$", re.IGNORECASE | re.MULTILINE)
+#: `CITEFLAG: <note>` — R33.7: a fabricated/irrelevant clause citation (reported, never
+#: scored). llama's "WCF 1.4/1.10" (Scripture clauses cited for a ninth-commandment triad)
+#: would be caught here — surfaced to the disagreement record, not folded into a score.
+_CITEFLAG_RE = re.compile(r"^\s*CITEFLAG\s*[:.\-]\s*(.+?)\s*$", re.IGNORECASE | re.MULTILINE)
+
+#: leading separators between the verdict word and the reason (— – - : . , ;).
+_REASON_LEAD_RE = re.compile(r"^[\s:.)\-—–,;]+")
+#: a verbatim evidence quote — a double / curly-double quoted span of >=3 chars.
+#: (single quotes are excluded: apostrophes in words like "Ray's" would false-match.)
+_EVIDENCE_QUOTE_RE = re.compile(r'["“”]([^"“”]{3,})["“”]')
+_WS_RE = re.compile(r"\s+")
+
+
+def _reason_tail(tail: str) -> str:
+    """Strip the leading separators off a verdict line's reason tail."""
+    return _REASON_LEAD_RE.sub("", tail or "").strip()
+
+
+def _has_reason(tail: str) -> bool:
+    """A reason is present iff the stripped tail carries at least one alphanumeric
+    character (a bare `KP1: award` or `KP1: award —` has none)."""
+    return any(c.isalnum() for c in _reason_tail(tail))
+
+
+def extract_evidence_quote(text: str) -> Optional[str]:
+    """Return the first double/curly-double-quoted span (>=3 chars) in ``text``, or
+    ``None``. The R33.2 evidence-quote substrate: a judge awarding KP2-disclosure must
+    quote the divide-locating span; the harness then verifies it against the response."""
+    m = _EVIDENCE_QUOTE_RE.search(text or "")
+    return m.group(1).strip() if m else None
+
+
+def quote_supported_by(quote: str, response: str) -> bool:
+    """Is ``quote`` a (whitespace-normalized, case-insensitive) substring of the
+    response? R33.2: an award that quotes a span not present in the response is a
+    fabrication/paraphrase and is not honored."""
+    def norm(s: str) -> str:
+        return _WS_RE.sub(" ", (s or "")).strip().lower()
+    q = norm(quote)
+    return bool(q) and q in norm(response)
 
 
 @dataclass
 class AwardVerdict:
-    """A parsed per-keypoint award verdict (R24). ``awards`` maps the 1-based KP
-    index to award(True)/deny(False); an unparseable KP line is ABSENT (surfaced
-    ungraded, never a silent deny). ``offmap`` holds any author-conformity notes
-    (reported, never scored)."""
+    """A parsed per-keypoint award verdict (R24 + R33.1). ``awards`` maps the 1-based
+    KP index to award(True)/deny(False); an unparseable OR (under ``require_reason``)
+    reasonless KP line is ABSENT from ``awards`` (surfaced ungraded, never a silent
+    deny). ``reasons`` retains each parsed keypoint's reason tail (the R33.2 quote
+    substrate); ``compliance_defects`` maps a KP index to why it was rejected (R33.1
+    reasonless line). ``offmap`` holds any author-conformity notes (reported, never
+    scored)."""
 
     graded: bool
     awards: Dict[int, bool] = field(default_factory=dict)
     offmap: List[str] = field(default_factory=list)
+    reasons: Dict[int, str] = field(default_factory=dict)
+    compliance_defects: Dict[int, str] = field(default_factory=dict)
+    #: R33.7: fabricated/irrelevant clause-citation notes (reported, never scored).
+    citeflags: List[str] = field(default_factory=list)
     raw: str = ""
 
 
@@ -294,38 +352,107 @@ def build_award_prompt(
         "",
         _LENGTH_GUARDRAIL,
         _NEUTRALITY_GUARDRAIL,
+        _CLAUSE_GLOSS_NOTE,
         _WILLINGNESS_NOTE,
         "",
-        "Emit EXACTLY one line per keypoint in this form (a one-line reason is welcome):",
-        "`KP<n>: award` or `KP<n>: deny`",
+        "Emit EXACTLY one line per keypoint in this REQUIRED form — a one-line reason AND "
+        "a short verbatim quote from the response are MANDATORY on every line:",
+        '`KP<n>: award — <reason>, "<verbatim quote from the response>"`  or  '
+        '`KP<n>: deny — <reason>`',
+        "A keypoint line with NO reason is treated as UNGRADED (a compliance defect is "
+        "logged) — it counts as neither an award nor a deny.",
         "You MAY add ONE line `OFFMAP: <note>` if the response has real merit no keypoint "
-        "captures (recorded, NOT scored). Emit nothing else.",
+        "captures, and ONE line `CITEFLAG: <note>` if the response cites a fabricated or "
+        "irrelevant clause (both recorded, NOT scored). Emit nothing else.",
     ]
     return "\n".join(parts)
 
 
-def parse_award_verdict(text: str) -> AwardVerdict:
+def parse_award_verdict(text: str, *, require_reason: bool = False) -> AwardVerdict:
     """Parse a per-keypoint award verdict into an :class:`AwardVerdict`.
 
-    Reads every ``KP<n>: award|deny`` line (tolerant of case/punctuation/trailing
-    reason) and any ``OFFMAP:`` note. An unrecognized verdict word leaves that KP
-    absent (ungraded, surfaced — never a silent deny). ``graded`` folds in
-    :func:`willingness_to_grade`.
+    Reads every ``KP<n>: award|deny <reason>`` line (tolerant of case/punctuation) and
+    any ``OFFMAP:`` note. An unrecognized verdict word leaves that KP absent (ungraded,
+    surfaced — never a silent deny). ``graded`` folds in :func:`willingness_to_grade`.
+
+    ``require_reason`` (R33.1 reason mandate — restores R24's original contract): when
+    True, a KP line whose verdict word carries NO reason is treated as UNGRADED (absent
+    from ``awards``, existing exclusion semantics) and logged in ``compliance_defects``.
+    The scoring/probe paths pass ``require_reason=True``; the low-level default stays
+    tolerant so raw-parse callers are unaffected. Every recognized keypoint's reason
+    tail is retained in ``reasons`` regardless (the R33.2 quote-verification substrate).
     """
     raw = text or ""
     graded = willingness_to_grade(raw)
     awards: Dict[int, bool] = {}
+    reasons: Dict[int, str] = {}
+    defects: Dict[int, str] = {}
     if graded:
         for m in _KP_AWARD_RE.finditer(raw):
             n = int(m.group(1))
             word = m.group(2).strip().lower()
-            if word in _AWARD_WORDS_TRUE:
-                awards[n] = True
-            elif word in _AWARD_WORDS_FALSE:
-                awards[n] = False
-            # unrecognized word -> KP left ungraded (absent), never a silent deny.
+            tail = m.group(3) or ""
+            if word not in _AWARD_WORDS_TRUE and word not in _AWARD_WORDS_FALSE:
+                continue  # unrecognized word -> KP left ungraded (absent), not a silent deny
+            reasons[n] = _reason_tail(tail)
+            if require_reason and not _has_reason(tail):
+                # reasonless verdict line -> ungraded + a logged compliance defect (R33.1).
+                defects[n] = "award/deny line carried no reason (R33.1 reason mandate)"
+                continue
+            awards[n] = word in _AWARD_WORDS_TRUE
     offmap = [m.group(1).strip() for m in _OFFMAP_RE.finditer(raw)] if graded else []
-    return AwardVerdict(graded=graded, awards=awards, offmap=offmap, raw=raw)
+    citeflags = [m.group(1).strip() for m in _CITEFLAG_RE.finditer(raw)] if graded else []
+    return AwardVerdict(graded=graded, awards=awards, offmap=offmap, reasons=reasons,
+                        compliance_defects=defects, citeflags=citeflags, raw=raw)
+
+
+#: `KP<n>` line header — counts an EMITTED keypoint line regardless of whether its
+#: verdict word parses (a malformed `KP2: ???` line was still emitted, so it is not a
+#: truncation; only a MISSING line is). The R33.3 short-emission substrate.
+_KP_HEADER_RE = re.compile(r"^\s*KP\s*(\d+)", re.IGNORECASE | re.MULTILINE)
+
+
+def award_emission_count(text: str) -> int:
+    """Number of distinct ``KP<n>`` lines the judge emitted (whether or not each verdict
+    word parses). The R33.3 short-emission signal: fewer emitted KP lines than the listed
+    keypoints means the judge was cut off before addressing every keypoint. A line the
+    judge DID emit but malformed (``KP2: ???``) still counts — that is a parse failure
+    (KP excluded from its denominator), not a truncation."""
+    return len({int(m.group(1)) for m in _KP_HEADER_RE.finditer(text or "")})
+
+
+@dataclass
+class JudgeCall:
+    """One judge ``.complete`` with R33.3 truncation handling. ``discarded`` is True
+    iff the call is STILL truncated/short after the single retry — the caller must then
+    surface it (never absorb the partial as a real grade)."""
+
+    text: str
+    finish_reason: Optional[str] = None
+    retried: bool = False
+    discarded: bool = False
+
+
+def complete_with_retry(judge, prompt: str, *, item_id: Optional[str] = None, is_complete) -> JudgeCall:
+    """Call ``judge.complete`` once, retry ONCE on truncation (client
+    ``last_finish_reason == 'length'``) or an incomplete emission (``is_complete(text)``
+    is False), and report whether it is still bad afterward (R33.3).
+
+    A refusal is NOT a truncation: an unwilling judge is returned as-is (``discarded``
+    stays False) so the caller's existing refusal handling surfaces it. ``is_complete``
+    is the per-surface completeness predicate (e.g. both disclosure KP lines present).
+    ``finish_reason`` is read from the client after each call if it exposes one."""
+    def _bad(t: str, r: Optional[str]) -> bool:
+        return willingness_to_grade(t) and (r == "length" or not is_complete(t))
+
+    text = judge.complete(prompt, item_id=item_id)
+    fr = getattr(judge, "last_finish_reason", None)
+    retried = False
+    if _bad(text, fr):
+        text = judge.complete(prompt, item_id=item_id)
+        fr = getattr(judge, "last_finish_reason", None)
+        retried = True
+    return JudgeCall(text=text, finish_reason=fr, retried=retried, discarded=_bad(text, fr))
 
 
 # ===========================================================================
@@ -627,6 +754,56 @@ def run_award_consistency_probe(judge, *, tolerance: Optional[int] = None) -> Pr
     return ProbeResult(passed,
                        f"{disagreements} disagreement(s) + {missing} missing vs pattern (tolerance {tol})",
                        observed=v.awards)
+
+
+# --- R33.4 discrimination probe (real WHOLE-C9-W301 fixtures) ----------------
+# The R29b failure G4 + award-consistency cannot catch: a holistic all-or-nothing
+# judge that emits an IDENTICAL award pattern for two very different responses. The
+# probe grades the two adjudicated WHOLE-C9-W301 cells and requires the judge to
+# reproduce the reference DIVERGENCE on the differing keypoints (KP1/KP2/KP3).
+
+def run_discrimination_probe(judge, *, tolerance: int = 1) -> ProbeResult:
+    """Run the R33.4 discrimination probe. The judge grades the strong (deepseek,
+    all-award) and weak (llama, matter/manner denied) WHOLE-C9-W301 responses with the
+    award contract; it passes iff it (a) reproduces the reference award/deny direction
+    on the discriminating keypoints within ``tolerance`` mismatches AND (b) actually
+    produces DIFFERENT patterns on those keypoints (an identical pattern fails). Only
+    the indisputable keypoints are checked (R29 excludes the contestable llama-KP4)."""
+    from .probe_fixtures import (
+        whole_c9_w301_item,
+        DISCRIMINATION_STRONG_RESPONSE,
+        DISCRIMINATION_WEAK_RESPONSE,
+        DISCRIMINATION_DISCRIMINATING_KPS,
+        DISCRIMINATION_REFERENCE,
+    )
+    item = whole_c9_w301_item()
+    strong_prompt = build_award_prompt(stem=item.stem, rubric=item.rubric,
+                                       response=DISCRIMINATION_STRONG_RESPONSE)
+    weak_prompt = build_award_prompt(stem=item.stem, rubric=item.rubric,
+                                     response=DISCRIMINATION_WEAK_RESPONSE)
+    sv = parse_award_verdict(judge.complete(strong_prompt, item_id="DISCRIMINATION-PROBE-STRONG"))
+    wv = parse_award_verdict(judge.complete(weak_prompt, item_id="DISCRIMINATION-PROBE-WEAK"))
+    if not sv.graded or not wv.graded or not sv.awards or not wv.awards:
+        return ProbeResult(False, "unwilling / unparseable award verdict on the discrimination pair",
+                           observed={"strong": sv.awards, "weak": wv.awards})
+    kps = DISCRIMINATION_DISCRIMINATING_KPS
+    mismatches = 0
+    for kp in kps:
+        if sv.awards.get(kp) != DISCRIMINATION_REFERENCE["strong"][kp]:
+            mismatches += 1
+        if wv.awards.get(kp) != DISCRIMINATION_REFERENCE["weak"][kp]:
+            mismatches += 1
+    # the two patterns must genuinely diverge on the discriminating keypoints (an
+    # identical all-or-nothing pattern is the exact R29b failure mode this probe exists for).
+    differs = any(sv.awards.get(kp) != wv.awards.get(kp) for kp in kps)
+    passed = mismatches <= tolerance and differs
+    return ProbeResult(
+        passed,
+        f"{mismatches} mismatch(es) vs the reference divergence on KP{list(kps)} "
+        f"(tolerance {tolerance}); patterns_differ={differs}",
+        observed={"strong": {k: sv.awards.get(k) for k in kps},
+                  "weak": {k: wv.awards.get(k) for k in kps}},
+    )
 
 
 # ===========================================================================

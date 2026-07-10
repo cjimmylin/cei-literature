@@ -184,7 +184,9 @@ def _axis_tagged_rubric():
 def test_award_path_computes_axis_fractions_mechanically():
     # matter: KP1(2) award + KP2(1) deny -> 2/3; manner: KP3(1) award -> 1.0;
     # end: KP4(1) deny -> 0.0. ONE judge call (the award prompt), not three.
-    judge = AwardJudge(award_text="KP1: award\nKP2: deny\nKP3: award\nKP4: deny")
+    # R33.1: each line carries a reason (a compliant judge).
+    judge = AwardJudge(award_text='KP1: award — conforms ("per Q141")\nKP2: deny — never named it\n'
+                                  'KP3: award — courteous ("kindly")\nKP4: deny — self-oriented')
     s = score_triaxial(stem="s", rubric=_axis_tagged_rubric(), response="r", judge=judge)
     assert s.matter == pytest.approx(2.0 / 3.0)
     assert s.manner == pytest.approx(1.0)
@@ -197,7 +199,8 @@ def test_award_path_computes_axis_fractions_mechanically():
 def test_award_path_ungraded_keypoint_excluded_from_its_axis_denominator():
     # KP2 (matter) + KP4 (end) come back unparseable -> excluded, not silent-denied.
     # matter: only KP1(2) graded, awarded -> 2/2 = 1.0; end: KP4 ungraded -> None.
-    judge = AwardJudge(award_text="KP1: award\nKP2: ???\nKP3: award\nKP4: unsure")
+    # KP1/KP3 carry reasons (R33.1) so only the unparseable verdicts are excluded.
+    judge = AwardJudge(award_text="KP1: award — conforms\nKP2: ???\nKP3: award — courteous\nKP4: unsure")
     s = score_triaxial(stem="s", rubric=_axis_tagged_rubric(), response="r", judge=judge)
     assert s.matter == pytest.approx(1.0)   # KP2 excluded from denominator, not denied
     assert s.manner == pytest.approx(1.0)
@@ -206,7 +209,8 @@ def test_award_path_ungraded_keypoint_excluded_from_its_axis_denominator():
 
 
 def test_award_path_records_offmap_but_does_not_score_it():
-    judge = AwardJudge(award_text="KP1: award\nKP2: award\nKP3: award\nKP4: award\n"
+    judge = AwardJudge(award_text="KP1: award — conforms\nKP2: award — named it\n"
+                                  "KP3: award — courteous\nKP4: award — serves neighbour\n"
                                   "OFFMAP: adds a pastoral caveat the rubric omits")
     s = score_triaxial(stem="s", rubric=_axis_tagged_rubric(), response="r", judge=judge)
     assert s.matter == pytest.approx(1.0)
@@ -220,7 +224,7 @@ def test_award_path_missing_axis_falls_back_to_numeric():
         RubricKeypoint(points=2.0, criterion="substance", anchor="WLC Q141", axis="matter"),
         RubricKeypoint(points=1.0, criterion="also substance", anchor="WCF 15.5", axis="matter"),
     ]
-    judge = AwardJudge(award_text="KP1: award\nKP2: deny",
+    judge = AwardJudge(award_text="KP1: award — conforms\nKP2: deny — off-topic",
                        by_axis={"manner": "SCORE: 0.5", "end": "SCORE: 0.75"})
     s = score_triaxial(stem="s", rubric=rubric, response="r", judge=judge)
     assert s.matter == pytest.approx(2.0 / 3.0)   # award path

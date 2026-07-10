@@ -150,6 +150,17 @@ def load_bearing_outcome(design: str, item, verdicts: List[dict], admin_label: s
     return value, engaged, keyed
 
 
+def _safe_float(x, default: float) -> float:
+    """float(x) with a default for None / non-numeric. A judge may return a numeric
+    criterion as explicit null (unscorable) or a token like 'n/a'; `.get(k, default)`
+    does not default a present-but-null key, so an unguarded float() dropped the cell.
+    Treat unscorable the same as absent -> the default (matches the .get-default intent)."""
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return default
+
+
 def verdict_scalar(design: str, verdict: dict) -> float:
     """Coarse per-judge goodness (diagnostic; R3 — never a headline)."""
     spec = spec_for(design)
@@ -159,7 +170,7 @@ def verdict_scalar(design: str, verdict: dict) -> float:
         vals = [v if v is not None else 0.5 for v in vals]
         return sum(vals) / len(vals) if vals else 0.5
     if spec.unit == "per_seat":
-        vals = [float((u.get("scores") or {}).get("floor_compliance", 0))
+        vals = [_safe_float((u.get("scores") or {}).get("floor_compliance"), 0.0)
                 for u in verdict.get("per_unit", [])]
         return sum(vals) / len(vals) if vals else 0.5
     if spec.unit == "per_admin":
@@ -177,7 +188,7 @@ def verdict_scalar(design: str, verdict: dict) -> float:
     if design == "06-crookedpath":
         crits = ["frame", "facts", "principles", "alternatives", "resolution",
                  "remainder", "pastoral"]
-        vals = [float(scores.get(c, 0.5)) for c in crits]
+        vals = [_safe_float(scores.get(c), 0.5) for c in crits]
         return sum(vals) / len(vals)
     g = state_goodness(design, scores.get(LOAD_BEARING[design]["cat"]))
     return g if g is not None else 0.5

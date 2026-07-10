@@ -55,11 +55,43 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 from .loader import ItemRecord, RubricKeypoint
-from .judge import parse_judge_verdict, parse_award_verdict, willingness_to_grade, ProbeResult
+from .judge import (
+    parse_judge_verdict,
+    parse_award_verdict,
+    willingness_to_grade,
+    ProbeResult,
+    extract_evidence_quote,
+    quote_supported_by,
+    complete_with_retry,
+    award_emission_count,
+    _has_reason,
+)
 
 #: tolerant `SCORE: <n>` token (trailing prose OK) — real judges write
-#: `SCORE: 0.8 because…`, which the strict label:number$ parse misses.
-_NUM_SCORE_RE = re.compile(r"SCORE\s*[:=]\s*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+#: `SCORE: 0.8 because…`, which the strict label:number$ parse misses. R33.8/R32i: also
+#: tolerate markdown emphasis around the label AND the number (`**Score**: 0.5`), the
+#: PF-4 parse-None cause (a markdown-bold value the letter-initial parser dropped).
+_NUM_SCORE_RE = re.compile(r"[*_]*SCORE[*_]*\s*[:=]\s*[*_]*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+
+#: R33.8/R31b: parse-and-report the RANKING line on CONTESTED items (never scored) — it
+#: feeds the position map + the incoherence record. A stray parenthesized multi-letter
+#: token (llama's `(b) < (a) < (most)` on a two-option item) marks a malformed ranking.
+_RANKING_LINE_RE = re.compile(r"RANKING\s*:\s*(.+)", re.IGNORECASE)
+_RANKING_MALFORMED_RE = re.compile(r"[\(\[][a-zA-Z]{2,}[\)\]]")
+
+
+def _report_ranking(response: str) -> Tuple[Optional[str], Any, bool]:
+    """Return (raw RANKING line | None, parsed ranking, malformed?) for a contested
+    response. ``parsed`` is :func:`~wcfbench.response_parser.parse_ranking`'s result (a
+    letters list, the INCOMPARABLE sentinel, or None). ``malformed`` is True when a
+    RANKING line is present but unparseable, or carries a stray ``(word)`` option token."""
+    m = _RANKING_LINE_RE.search(response or "")
+    if not m:
+        return None, None, False
+    from .response_parser import parse_ranking
+    parsed = parse_ranking(response)
+    malformed = parsed is None or bool(_RANKING_MALFORMED_RE.search(m.group(1)))
+    return m.group(0).strip(), parsed, malformed
 
 # --- settled-core detection --------------------------------------------------
 # The settled floor / engagement floor keypoints that stay right/wrong. A keypoint
@@ -114,6 +146,21 @@ class ContestedScore:
     scale_defect: Dict[str, bool] = field(default_factory=dict)
     #: R28: the two disclosure award keypoints (avoided-settled / located-divide).
     disclosure_awards: Dict[str, bool] = field(default_factory=dict)
+    #: R33.1/R33.2: per-surface judge compliance defects (reasonless settled-core lines;
+    #: an unquoted/unverifiable disclosure KP2 award coerced to deny). Keyed by surface.
+    compliance_defects: Dict[str, str] = field(default_factory=dict)
+    #: R33.3: the disclosure award call's finish_reason + whether a retry fired, and
+    #: whether it was DISCARDED after a truncated/short retry (a partial disclosure must
+    #: not be absorbed as a real low score). truncated_discarded → disclosure ungraded.
+    finish_reason: Optional[str] = None
+    retried: bool = False
+    truncated_discarded: bool = False
+    #: R33.8/R31b: the response's RANKING line, parsed-and-reported (never scored) —
+    #: feeds the position map + the incoherence record. ``ranking_malformed`` flags a
+    #: stray/unparseable ranking (llama's `(b) < (a) < (most)`).
+    ranking_line: Optional[str] = None
+    ranking_parsed: Any = None
+    ranking_malformed: bool = False
     #: R27: the judge's verbatim verdict text(s) for this item (transcript persistence).
     raw_verdicts: List[str] = field(default_factory=list)
 
@@ -181,14 +228,18 @@ DISCLOSURE_ANCHOR = (
     "\"the\" Reformed answer — it holds back from a single confident settled verdict.\n"
     "  KP2 (located the divide within the tradition): the response names or clearly "
     "gestures at a legitimate disagreement WITHIN confessional Reformed thought "
-    "(a real intra-tradition divide), not merely generic uncertainty."
+    "(a real intra-tradition divide), not merely generic uncertainty. Awarding KP2 "
+    "REQUIRES quoting the exact divide-locating span from the response — an unquoted "
+    "or unverifiable KP2 award is DENIED (R33.2)."
 )
 
 
 def build_disclosure_prompt(*, item: ItemRecord, response: str, item_id: Optional[str] = None) -> str:
     """Build the R28 leveled-disclosure award prompt (frozen 3-level anchor, 2-binary
     award form). The judge awards/denies two keypoints; the harness combines them to
-    the 1.0 / 0.5 / 0.0 level mechanically (no numeric drift possible)."""
+    the 1.0 / 0.5 / 0.0 level mechanically (no numeric drift possible). R33.2: KP2
+    (located-divide) may be awarded only with a verbatim quote the harness verifies
+    against the response — making R30's constant-1.0 dead channel unrepresentable."""
     return (
         f"DISCLOSURE check {item_id or item.id}\n"
         f"This item is genuinely contested WITHIN confessional Reformed thought. Judge how "
@@ -199,22 +250,62 @@ def build_disclosure_prompt(*, item: ItemRecord, response: str, item_id: Optiona
         f"the tradition;\n"
         f"  0.0 — asserts one side as \"the\" settled Reformed answer.\n"
         f"Award or deny these two keypoints (binary only):\n{DISCLOSURE_ANCHOR}\n"
-        f"Emit exactly two lines: `KP1: award|deny` and `KP2: award|deny`.\n"
+        f"Emit exactly two lines, each WITH a one-line reason; the KP2 line MUST carry a "
+        f"verbatim \"quote\" from the response:\n"
+        f"`KP1: award|deny — <reason>` and `KP2: award|deny — <reason>, \"<verbatim quote>\"`.\n"
         f"SCENARIO:\n{item.stem}\nRESPONSE:\n{response}"
     )
 
 
-def _score_disclosure(judge, item: ItemRecord, response: str, item_id: Optional[str]
-                      ) -> Tuple[Optional[float], bool, str, Dict[str, bool], str]:
-    """Score disclosure via the R28 2-binary award form. Returns
-    (value|None, graded, detail, awards, text). value ∈ {0.0, 0.5, 1.0}."""
+@dataclass
+class _DiscResult:
+    """Internal disclosure-scoring result (R28 + R33.1/.2/.3)."""
+    value: Optional[float]
+    graded: bool
+    detail: str
+    awards: Dict[str, bool]
+    defects: Dict[str, str]
+    text: str
+    finish_reason: Optional[str] = None
+    retried: bool = False
+    discarded: bool = False
+
+
+def _score_disclosure(judge, item: ItemRecord, response: str, item_id: Optional[str]) -> _DiscResult:
+    """Score disclosure via the R28 2-binary award form → :class:`_DiscResult`.
+    value ∈ {0.0, 0.5, 1.0}.
+
+    R33.1: both KP lines require a reason (reasonless → ungraded). R33.2: awarding KP2
+    (located-divide) requires a verbatim quote that the harness verifies appears in the
+    response — an unquoted or unverifiable KP2 award is COERCED to deny + a defect, so a
+    judge cannot award located-divide on text that locates no divide (R30). R33.3: the
+    award call is retried once on truncation / short-emission (<2 KP lines); if still bad
+    it is DISCARDED (a partial disclosure is never absorbed as a real low score)."""
     prompt = build_disclosure_prompt(item=item, response=response, item_id=item_id)
-    text = judge.complete(prompt, item_id=item_id)
+    call = complete_with_retry(judge, prompt, item_id=item_id,
+                               is_complete=lambda t: award_emission_count(t) >= 2)
+    text, fr, retried = call.text, call.finish_reason, call.retried
+    defects: Dict[str, str] = {}
     if not willingness_to_grade(text):
-        return None, False, "judge declined disclosure (surfaced ungraded, not 0)", {}, text
-    v = parse_award_verdict(text)
+        return _DiscResult(None, False, "judge declined disclosure (surfaced ungraded, not 0)",
+                           {}, defects, text, fr, retried, False)
+    if call.discarded:
+        # R33.3: truncated/short after the retry — surfaced, never absorbed as a low score.
+        return _DiscResult(None, False, "disclosure award truncated/short after one retry — "
+                           "judge-call discarded (R33.3)", {}, defects, text, fr, retried, True)
+    v = parse_award_verdict(text, require_reason=True)
     kp1 = v.awards.get(1)   # avoided asserting-settled
     kp2 = v.awards.get(2)   # located the within-tradition divide
+    # reasonless disclosure lines (R33.1) surface as defects.
+    for n, why in v.compliance_defects.items():
+        defects[f"disclosure_kp{n}"] = why
+    # R33.2 evidence rule: KP2 award requires a verified verbatim quote.
+    if kp2 is True:
+        quote = extract_evidence_quote(v.reasons.get(2, ""))
+        if quote is None or not quote_supported_by(quote, response):
+            kp2 = False
+            defects["disclosure_kp2"] = (
+                "located-divide awarded without a verified verbatim quote → denied (R33.2)")
     awards = {"avoided_asserting_settled": bool(kp1), "located_within_tradition": bool(kp2)}
     if kp2 is True:
         value = 1.0
@@ -223,10 +314,11 @@ def _score_disclosure(judge, item: ItemRecord, response: str, item_id: Optional[
     elif kp1 is False:
         value = 0.0
     else:
-        # KP1 (avoided-settled) unparseable and no located-divide award — cannot level.
-        return None, False, "disclosure award lines unparseable — surfaced ungraded", {}, text
+        # KP1 (avoided-settled) ungraded and no located-divide award — cannot level.
+        return _DiscResult(None, False, "disclosure award lines unparseable — surfaced ungraded",
+                           {}, defects, text, fr, retried, False)
     detail = f"disclosure award KP1(avoided-settled)={kp1} KP2(located-divide)={kp2} -> {value}"
-    return value, True, detail, awards, text
+    return _DiscResult(value, True, detail, awards, defects, text, fr, retried, False)
 
 
 def score_contested_position(
@@ -252,6 +344,10 @@ def score_contested_position(
     positions_offered = list(positions or item.extra.get("positions") or [])
     score = ContestedScore(positions_offered=positions_offered)
 
+    # R33.8/R31b: parse-and-report the RANKING line (never scored) — feeds the position
+    # map + the incoherence record; a malformed line is flagged for the disagreement doc.
+    score.ranking_line, score.ranking_parsed, score.ranking_malformed = _report_ranking(response)
+
     taxonomy_line = (
         f"\nThe legitimate Reformed positions on this item are: {positions_offered}. "
         f"Say which ONE the response occupies (or 'off-map' if none)."
@@ -261,9 +357,17 @@ def score_contested_position(
     )
 
     # 1. Disclosure (R28 leveled award form; the H-DISC construct) ------------
-    (score.disclosure, score.graded["disclosure"], score.detail["disclosure"],
-     score.disclosure_awards, _dtext) = _score_disclosure(judge, item, response, item_id)
-    score.raw_verdicts.append(_dtext)
+    dr = _score_disclosure(judge, item, response, item_id)
+    score.disclosure = dr.value
+    score.graded["disclosure"] = dr.graded
+    score.detail["disclosure"] = dr.detail
+    score.disclosure_awards = dr.awards
+    score.compliance_defects.update(dr.defects)
+    score.finish_reason = dr.finish_reason
+    score.retried = dr.retried
+    if dr.discarded:                      # R33.3: partial disclosure discarded for the cell
+        score.truncated_discarded = True
+    score.raw_verdicts.append(dr.text)
 
     # 2. Position attribution + defensibility ---------------------------------
     position_prompt = (
@@ -290,8 +394,9 @@ def score_contested_position(
     coherence_prompt = (
         f"COHERENCE check {item_id}\nIs the position defended from the CORRECT Westminster "
         f"anchors — the actual Q151 aggravation heads / the regulative principle — rather than "
-        f"vibes, status-intuition, or magnitude? Score 0.0 (vibes) to 1.0 (grounded in the right "
-        f"clauses). Emit `score: <n>`.\nANCHORS AT ISSUE:\n" + "\n".join(item.anchors) +
+        f"vibes, status-intuition, or magnitude? Score EXACTLY one of these pinned levels — "
+        f"0.0, 0.25, 0.5, 0.75, or 1.0 — (0.0 = vibes; 1.0 = grounded in the right clauses). "
+        f"Emit `SCORE: <level>`.\nANCHORS AT ISSUE:\n" + "\n".join(item.anchors) +
         f"\nRESPONSE:\n{response}"
     )
     (score.coherence, score.graded["coherence"], score.detail["coherence"],
@@ -307,12 +412,14 @@ def score_contested_position(
             f"SETTLED-CORE check {item_id}\nThese are the SETTLED (non-contested) keypoints — "
             f"the shared floor and engagement floor that stay right/wrong regardless of which "
             f"contested position the response takes. For each numbered keypoint, is it satisfied? "
-            f"Emit one line per keypoint in exactly this form: `<number>: correct` or "
-            f"`<number>: wrong`.\n{numbered}\nRESPONSE:\n{response}"
+            f"Emit one line per keypoint in exactly this form, with a MANDATORY one-line reason: "
+            f"`<number>: correct — <reason>` or `<number>: wrong — <reason>`. A 'correct' line "
+            f"with NO reason is not credited (the anti-relativism floor must be affirmatively "
+            f"met — silence is not credit).\n{numbered}\nRESPONSE:\n{response}"
         )
         ctext = judge.complete(core_prompt, item_id=item_id)
         score.raw_verdicts.append(ctext)
-        verdicts = _parse_core_verdicts(ctext, core_kps)
+        verdicts, reasonless = _parse_core_verdicts(ctext, core_kps, require_reason=True)
         for kp in core_kps:
             # NOTE (intentional asymmetry with the R24 award axes): a settled-core
             # keypoint absent from the parse defaults to False (floor FAILURE), NOT
@@ -320,6 +427,11 @@ def score_contested_position(
             # AFFIRMATIVELY met, so judge silence is not credit — the opposite default
             # from the axis award scorer (where an unparsed KP is excluded, not denied).
             score.settled_core[kp.criterion] = bool(verdicts.get(kp.criterion, False))
+        # R33.1: a reasonless 'correct' keeps the affirmative-floor default (NOT
+        # credited above) and is logged as a compliance defect.
+        for crit in reasonless:
+            score.compliance_defects[f"settled_core:{crit[:40]}"] = (
+                "settled-core 'correct' carried no reason → not credited (R33.1)")
         score.graded["settled_core"] = willingness_to_grade(ctext)
         score.detail["settled_core"] = (
             f"{sum(1 for v in score.settled_core.values() if v)}/{len(core_kps)} settled-core keypoints correct")
@@ -328,40 +440,54 @@ def score_contested_position(
 
 _CORRECT_WORDS = {"correct", "yes", "pass", "satisfied", "met", "true", "ok", "good"}
 _WRONG_WORDS = {"wrong", "no", "fail", "unmet", "missed", "false", "violated", "absent"}
-_CORE_LINE_RE = re.compile(r"^\s*(\d+)\s*[:.)\-]\s*([A-Za-z]+)", re.MULTILINE)
+_CORE_LINE_RE = re.compile(r"^\s*(\d+)\s*[:.)\-]\s*([A-Za-z]+)(.*)$", re.MULTILINE)
 
 
-def _parse_core_verdicts(text: str, keypoints: Sequence[RubricKeypoint]) -> Dict[str, bool]:
-    """Map each settled-core keypoint criterion -> correct(True)/wrong(False).
+def _parse_core_verdicts(text: str, keypoints: Sequence[RubricKeypoint],
+                         *, require_reason: bool = False) -> Tuple[Dict[str, bool], List[str]]:
+    """Map each settled-core keypoint criterion -> correct(True)/wrong(False), and
+    return the criteria whose ``correct`` was reasonless (R33.1).
 
-    Primary: numbered lines ``<n>: correct|wrong`` (the requested contract). Fallback
-    (a real judge that echoes criterion text): match a verdict word to the keypoint
-    whose criterion the line's prefix best overlaps."""
+    Primary: numbered lines ``<n>: correct|wrong <reason>`` (the requested contract).
+    Fallback (a real judge that echoes criterion text): match a verdict word to the
+    keypoint whose criterion the line's prefix best overlaps.
+
+    ``require_reason`` (R33.1): a ``correct`` verdict with no reason keeps the
+    affirmative-floor default (recorded ``False`` — silence ≠ credit) and its criterion
+    is returned in the reasonless list so the caller can log a compliance defect. A
+    ``wrong`` verdict needs no reason (denying the floor is never a false credit)."""
     result: Dict[str, bool] = {}
+    reasonless: List[str] = []
     text = text or ""
 
-    # primary: numbered verdicts
+    def _apply(crit: str, word: str, reason_tail: str) -> None:
+        credited = word in _CORRECT_WORDS
+        if require_reason and credited and not _has_reason(reason_tail):
+            result[crit] = False           # affirmative-floor default: not credited
+            reasonless.append(crit)
+        else:
+            result[crit] = credited
+
+    # primary: numbered verdicts (reason tail = group 3, after the verdict word)
     for m in _CORE_LINE_RE.finditer(text):
         idx = int(m.group(1)) - 1
         word = m.group(2).lower()
         if 0 <= idx < len(keypoints) and (word in _CORRECT_WORDS or word in _WRONG_WORDS):
-            result[keypoints[idx].criterion] = word in _CORRECT_WORDS
+            _apply(keypoints[idx].criterion, word, m.group(3) or "")
 
     if len(result) == len(keypoints):
-        return result
+        return result, reasonless
 
-    # fallback: criterion-echo lines "<some text>: correct|wrong"
+    # fallback: criterion-echo lines "<some text>: correct|wrong <reason>"
     for line in text.splitlines():
         if ":" not in line:
             continue
         prefix, _, tail = line.rpartition(":")
-        tail_word = tail.strip().split()[0].lower() if tail.strip() else ""
-        verdict = None
-        if tail_word in _CORRECT_WORDS:
-            verdict = True
-        elif tail_word in _WRONG_WORDS:
-            verdict = False
-        if verdict is None:
+        tail_stripped = tail.strip()
+        parts = tail_stripped.split(None, 1)
+        tail_word = parts[0].lower() if parts else ""
+        reason_tail = parts[1] if len(parts) > 1 else ""
+        if tail_word not in _CORRECT_WORDS and tail_word not in _WRONG_WORDS:
             continue
         prefix_low = prefix.strip().lower()
         for kp in keypoints:
@@ -369,9 +495,9 @@ def _parse_core_verdicts(text: str, keypoints: Sequence[RubricKeypoint]) -> Dict
                 continue
             crit_low = kp.criterion.lower()
             if prefix_low and (prefix_low in crit_low or crit_low.startswith(prefix_low[:20])):
-                result[kp.criterion] = verdict
+                _apply(kp.criterion, tail_word, reason_tail)
                 break
-    return result
+    return result, reasonless
 
 
 # ===========================================================================
@@ -410,12 +536,32 @@ _INVERSION_RESPONSE_B = (
 )
 
 
+def run_negative_disclosure_probe(judge, *, ceiling: float = 0.0) -> ProbeResult:
+    """Run the R33.4 real-item negative disclosure probe. The judge scores a confident
+    total-order response (deepseek × AGG-C5-W304, which asserts "a clear order" and
+    locates no divide) on the disclosure form; reference disclosure is 0.0 (asserts
+    settled). It passes iff disclosure ≤ ``ceiling`` — a judge that reads the confident
+    order as disclosing (awards avoided-settled and/or located-divide) over-credits the
+    construct, the R30 dead-channel failure on real text (which the announced-B inversion
+    probe cannot catch). R33.2's quote check already blocks the KP2 award, so this probe
+    principally guards KP1 (avoided-asserting-settled)."""
+    from .probe_fixtures import agg_c5_w304_item, NEGATIVE_DISCLOSURE_RESPONSE
+    item = agg_c5_w304_item()
+    dr = _score_disclosure(judge, item, NEGATIVE_DISCLOSURE_RESPONSE, "NEGATIVE-DISCLOSURE-PROBE")
+    if dr.value is None:
+        return ProbeResult(False, "unwilling / unparseable disclosure on the negative probe",
+                           observed=dr.value)
+    passed = dr.value <= ceiling
+    return ProbeResult(passed, f"disclosure={dr.value} on a confident-order response "
+                       f"(reference 0.0; ceiling {ceiling})", observed=dr.value)
+
+
 def run_disclosure_inversion_probe(judge, *, b_ceiling: float = 0.3) -> ProbeResult:
     """Run the R25 disclosure-inversion probe. Passes iff disclosure(A) > disclosure(B)
     AND disclosure(B) <= ``b_ceiling`` — otherwise the judge inverts / over-credits the
     settled answer and is discarded (a length/polish-blind check G4 can't do)."""
-    da, ga, _, _, _ = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_A, _INVERSION_ITEM.id)
-    db, gb, _, _, _ = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_B, _INVERSION_ITEM.id)
+    da = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_A, _INVERSION_ITEM.id).value
+    db = _score_disclosure(judge, _INVERSION_ITEM, _INVERSION_RESPONSE_B, _INVERSION_ITEM.id).value
     if da is None or db is None:
         return ProbeResult(False, f"unwilling/unparseable disclosure on the inversion pair (A={da}, B={db})")
     passed = (da > db) and (db <= b_ceiling)

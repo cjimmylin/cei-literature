@@ -33,6 +33,7 @@ from .judge import (
     willingness_to_grade,
     build_award_prompt,
     parse_award_verdict,
+    award_emission_count,
 )
 
 #: the three axes, in canonical order (never reordered; never summed).
@@ -44,8 +45,9 @@ _PINNED_LEVELS = "0.0, 0.25, 0.5, 0.75, or 1.0"
 #: extract the axis score from an explicit ``SCORE: <n>`` token anywhere in the
 #: verdict — tolerant of trailing prose (`SCORE: 0.8 out of 1`), which the strict
 #: label:number$ line parser missed on nearly every live judge output (pilot
-#: 2026-07-10). This is the primary axis extractor; parse_judge_verdict is fallback.
-_AXIS_SCORE_RE = re.compile(r"SCORE\s*[:=]\s*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+#: 2026-07-10), AND of markdown emphasis around the label/number (`**Score**: 0.5`,
+#: R33.8/R32i parity with the contested coherence parse). parse_judge_verdict is fallback.
+_AXIS_SCORE_RE = re.compile(r"[*_]*SCORE[*_]*\s*[:=]\s*[*_]*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
 
 
 @dataclass
@@ -69,10 +71,19 @@ class TriaxialScore:
     #: keypoint belongs to (the keypoint-level disagreement payload).
     awards: Dict[int, bool] = field(default_factory=dict)
     award_axis: Dict[int, str] = field(default_factory=dict)
+    #: R33.1: KP index -> why it was rejected (a reasonless award/deny line is excluded
+    #: from its axis denominator AND logged here as a judge compliance defect).
+    compliance_defects: Dict[int, str] = field(default_factory=dict)
     #: author-conformity notes (OFFMAP) — reported, never scored.
     offmap: List[str] = field(default_factory=list)
     #: R27: the judge's verbatim verdict text(s) for this item (transcript persistence).
     raw_verdicts: List[str] = field(default_factory=list)
+    #: R33.3: the award call's finish_reason (persisted to transcripts), whether a retry
+    #: fired, and whether the call was DISCARDED after a truncated/short retry (surfaced,
+    #: never absorbed as a real low grade). truncated_discarded → axes left ungraded.
+    finish_reason: Optional[str] = None
+    retried: bool = False
+    truncated_discarded: bool = False
 
     def as_dict(self) -> Dict[str, Optional[float]]:
         return {"matter": self.matter, "manner": self.manner, "end": self.end}
@@ -142,10 +153,17 @@ def _score_award_path(
     judge,
     item_id: Optional[str],
 ) -> None:
-    """The R24 primary path: one award call, mechanical per-axis fractions."""
+    """The R24 primary path: one award call, mechanical per-axis fractions.
+
+    R33.3: the award call persists its ``finish_reason`` and is retried ONCE on
+    truncation (``finish_reason == 'length'``) or short-emission (fewer emitted KP lines
+    than listed keypoints). If it is STILL truncated/short after the retry, the
+    judge-call is DISCARDED for the cell (axes surfaced ungraded), never absorbed as a
+    real low grade. A refusal is distinct from a truncation and is not retried."""
     prompt = build_award_prompt(stem=stem, rubric=rubric, response=response)
+    n_expected = len(tagged)
     text = judge.complete(prompt, item_id=item_id)
-    score.raw_verdicts.append(text)
+    fr = getattr(judge, "last_finish_reason", None)
     # KP index (1-based over the tagged keypoints, rubric order) -> (points, axis).
     kp_meta: Dict[int, Tuple[float, str]] = {
         n: (float(kp.points), kp.axis) for n, (_, kp) in enumerate(tagged, 1)
@@ -153,11 +171,26 @@ def _score_award_path(
     for n, (_, kp) in enumerate(tagged, 1):
         score.award_axis[n] = kp.axis
 
-    if not willingness_to_grade(text):
+    def _truncated_or_short(t: str, reason: Optional[str]) -> bool:
+        return reason == "length" or award_emission_count(t) < n_expected
+
+    def _mark_tagged_axes_ungraded(detail: str) -> None:
         for axis in AXES:
             if any(a == axis for _, a in kp_meta.values()):
                 score.graded[axis] = False
-                score.detail[axis] = "judge declined the award grading (surfaced ungraded, not 0)"
+                setattr(score, axis, None)
+                score.detail[axis] = detail
+
+    # R33.3 retry-once (a refusal is not a truncation → do not retry a declining judge).
+    if willingness_to_grade(text) and _truncated_or_short(text, fr):
+        text = judge.complete(prompt, item_id=item_id)
+        fr = getattr(judge, "last_finish_reason", None)
+        score.retried = True
+    score.finish_reason = fr
+    score.raw_verdicts.append(text)
+
+    if not willingness_to_grade(text):
+        _mark_tagged_axes_ungraded("judge declined the award grading (surfaced ungraded, not 0)")
         # Axes with no tagged keypoints still fall back to numeric even if the award
         # call was declined: a judge may refuse the award FORMAT yet grade a numeric
         # axis, so this makes one intentional extra .complete() call per untagged axis
@@ -168,8 +201,21 @@ def _score_award_path(
                                     judge=judge, item_id=item_id)
         return
 
-    verdict = parse_award_verdict(text)
+    # R33.3: still truncated/short after the retry → discard this judge-call for the
+    # cell (surfaced). The panel drops this judge from the item; the surviving
+    # cross-family judge still grades it.
+    if _truncated_or_short(text, fr):
+        score.truncated_discarded = True
+        _mark_tagged_axes_ungraded("award call truncated/short after one retry — judge-call "
+                                   "discarded for the cell (R33.3), never absorbed as a low grade")
+        return
+
+    # R33.1: the award prompt now MANDATES a one-line reason per keypoint; a reasonless
+    # award/deny line is ungraded (excluded from its axis denominator, never a silent
+    # deny) and surfaced as a compliance defect.
+    verdict = parse_award_verdict(text, require_reason=True)
     score.awards = dict(verdict.awards)
+    score.compliance_defects = dict(verdict.compliance_defects)
     score.offmap = list(verdict.offmap)
 
     for axis in AXES:

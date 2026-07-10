@@ -1,0 +1,122 @@
+{
+  "snapshot_date": "2026-07-11",
+  "note": "O4-time public-leaderboard snapshot for the §3.3 capability battery. Scores feed G3 (Spearman rho, capability wash). Min-max normalized across the panel; only relative ordering is load-bearing. Numbers are provider/leaderboard-reported and approximate; n=6 => rho is noisy (permutation p reported alongside).",
+  "benchmarks": ["mmlu_pro", "gpqa_diamond", "swe_bench_verified", "gaia", "ruler", "mrcr"],
+  "scores": {
+    "openai/gpt-4.1": {
+      "mmlu_pro": 80.5,
+      "gpqa_diamond": 66.3,
+      "swe_bench_verified": 54.6,
+      "gaia": 49.7,
+      "ruler": null,
+      "mrcr": 57.2
+    },
+    "google/gemini-2.5-pro": {
+      "mmlu_pro": 86.2,
+      "gpqa_diamond": 84.0,
+      "swe_bench_verified": 63.8,
+      "gaia": 33.3,
+      "ruler": null,
+      "mrcr": 94.5
+    },
+    "anthropic/claude-sonnet-4": {
+      "mmlu_pro": 83.8,
+      "gpqa_diamond": 75.4,
+      "swe_bench_verified": 72.7,
+      "gaia": null,
+      "ruler": null,
+      "mrcr": null
+    },
+    "deepseek/deepseek-chat": {
+      "mmlu_pro": 81.2,
+      "gpqa_diamond": 68.4,
+      "swe_bench_verified": 38.8,
+      "gaia": 29.4,
+      "ruler": null,
+      "mrcr": null
+    },
+    "mistralai/mistral-large-2512": {
+      "mmlu_pro": 69.7,
+      "gpqa_diamond": 48.6,
+      "swe_bench_verified": null,
+      "gaia": null,
+      "ruler": 86.0,
+      "mrcr": null
+    },
+    "meta-llama/llama-3.3-70b-instruct": {
+      "mmlu_pro": 68.9,
+      "gpqa_diamond": 50.5,
+      "swe_bench_verified": null,
+      "gaia": null,
+      "ruler": null,
+      "mrcr": null
+    }
+  },
+  "sources": {
+    "openai/gpt-4.1": {
+      "mmlu_pro": "OpenAI GPT-4.1 announcement / BenchmarkList aggregation (80.5%) — https://benchmarklist.com/models/openai-gpt-4.1/",
+      "gpqa_diamond": "OpenAI GPT-4.1 announcement / aggregators (66.3%) — https://openai.com/index/gpt-4-1/",
+      "swe_bench_verified": "OpenAI GPT-4.1 dev guide, 54.6% standard harness — https://www.helicone.ai/blog/gpt-4.1-full-developer-guide",
+      "gaia": "HAL Leaderboard (Princeton), GPT-4.1 April-2025, Generalist Agent scaffold 49.7% — https://hal.cs.princeton.edu/model/GPT-4.1%20(April%202025)",
+      "ruler": "null — HELM Long Context ran only 2 RULER subtasks at 128k (SQuAD 0.88 / HotPotQA 0.70), not a composite RULER score comparable across the panel — https://crfm.stanford.edu/2025/09/29/helm-long-context.html",
+      "mrcr": "OpenAI-MRCR, 2-needle @128k, 57.2% (GPT-4.1 model card via llm-stats) — https://openai.com/index/gpt-4-1/"
+    },
+    "google/gemini-2.5-pro": {
+      "mmlu_pro": "PricePerToken MMLU-Pro leaderboard, Gemini 2.5 Pro 86.2% — https://pricepertoken.com/leaderboards/benchmark/mmlu-pro",
+      "gpqa_diamond": "Gemini 2.5 Pro dev guide / Google announcement, 84.0% pass@1 — https://www.helicone.ai/blog/gemini-2.5-full-developer-guide",
+      "swe_bench_verified": "Google Gemini 2.5 Pro report, 63.8% (agentic/custom harness) — https://www.helicone.ai/blog/gemini-2.5-full-developer-guide",
+      "gaia": "PricePerToken GAIA leaderboard, Gemini 2.5 Pro 33.3% — https://pricepertoken.com/leaderboards/benchmark/gaia",
+      "ruler": "null — no credible RULER number for Gemini 2.5 Pro; the widely-cited 94.4% @128k is Gemini 1.5 Pro (different model)",
+      "mrcr": "OpenAI-MRCR @128k, 94.5% (Gemini 2.5 Pro dev guide) — https://www.helicone.ai/blog/gemini-2.5-full-developer-guide"
+    },
+    "anthropic/claude-sonnet-4": {
+      "mmlu_pro": "vals.ai MMLU-Pro (08-08-2025), Claude Sonnet 4 (Thinking) 83.8% — https://www.vals.ai/benchmarks/mmlu_pro-08-08-2025",
+      "gpqa_diamond": "Anthropic Claude 4 announcement, Sonnet 4 GPQA Diamond 75.4% (with extended thinking; 70.0% without) — https://www.anthropic.com/news/claude-4",
+      "swe_bench_verified": "Anthropic Claude 4 announcement, Sonnet 4 72.7% (bash+file-edit scaffold, no extended thinking; 80.2% high-compute parallel) — https://www.anthropic.com/news/claude-4",
+      "gaia": "null — Anthropic did not publish GAIA for Sonnet 4; not on HAL/HF GAIA leaderboards (Sonnet 4.5 exists at 74.55% but is a different model — not used)",
+      "ruler": "null — Anthropic does not publish RULER; not in HELM 10-model set",
+      "mrcr": "null — the May-2025 Claude Opus 4 & Sonnet 4 system card does not include MRCR (Anthropic began reporting MRCR only with 4.5/4.6)"
+    },
+    "deepseek/deepseek-chat": {
+      "mmlu_pro": "DeepSeek-V3-0324 model card (= current deepseek-chat), MMLU-Pro 81.2 — https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+      "gpqa_diamond": "DeepSeek-V3-0324 model card, GPQA 68.4 — https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+      "swe_bench_verified": "Third-party OpenHands run of DeepSeek-V3-0324, 38.8% (OpenHands lead X post; not a DeepSeek-published number) — https://x.com/xingyaow_/status/1904616829508846060",
+      "gaia": "HAL Leaderboard, DeepSeek V3 (March 2025) Generalist Agent scaffold 29.4% — https://hal.cs.princeton.edu/model/DeepSeek%20V3%20(March%202025)",
+      "ruler": "null — DeepSeek-V3 report uses NIAH/LongBench-v2/FRAMES, not RULER",
+      "mrcr": "null — no published OpenAI-MRCR number"
+    },
+    "mistralai/mistral-large-2512": {
+      "mmlu_pro": "vals.ai / Artificial Analysis for Mistral Large 2411, MMLU-Pro 69.7 (SUBSTITUTED — 2411 stands in for 2512) — https://www.vals.ai/models/mistralai_mistral-large-2411",
+      "gpqa_diamond": "vals.ai / Artificial Analysis for Mistral Large 2411, GPQA 48.6 (SUBSTITUTED 2411 for 2512) — https://www.vals.ai/models/mistralai_mistral-large-2411",
+      "swe_bench_verified": "null — Mistral Large 2411 not on swebench.com / vals.ai shows no SWE-bench Verified number (Devstral 46.8% is a different model, not used)",
+      "ruler": "NVIDIA RULER leaderboard, Mistral Large 2411 average 86.0 (4K 96.4 … 128K 48.1) — https://github.com/NVIDIA/RULER (SUBSTITUTED 2411 for 2512; verify against repo README before headline use)",
+      "mrcr": "null — no published OpenAI-MRCR number"
+    },
+    "meta-llama/llama-3.3-70b-instruct": {
+      "mmlu_pro": "Meta Llama 3.3 model card / Artificial Analysis, MMLU-Pro 68.9 (5-shot CoT) — https://artificialanalysis.ai/models/llama-3-3-instruct-70b",
+      "gpqa_diamond": "Meta Llama 3.3 model card, GPQA Diamond 50.5 — https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "swe_bench_verified": "null — no canonical Llama 3.3 70B SWE-bench Verified submission (SWE-RL paper ~12.2% greedy / ~44.6% maj-vote are research settings, not comparable; ~54.6% blog figure uncorroborated — not used)",
+      "gaia": "null — no GAIA entry on HAL / HF / Artificial Analysis",
+      "ruler": "null — Llama 3.1 70B has RULER numbers but 3.3 does not; not substituted",
+      "mrcr": "null — no published OpenAI-MRCR number"
+    }
+  },
+  "coverage": {
+    "openai/gpt-4.1": "5/6",
+    "google/gemini-2.5-pro": "5/6",
+    "anthropic/claude-sonnet-4": "3/6",
+    "deepseek/deepseek-chat": "4/6",
+    "mistralai/mistral-large-2512": "3/6",
+    "meta-llama/llama-3.3-70b-instruct": "2/6"
+  },
+  "caveats": [
+    "SUBSTITUTION: mistralai/mistral-large-2512 has no separately-published benchmark numbers under that exact Dec-2025 build. All Mistral Large cells use the closest published version, Mistral Large 2 / 24.11 (mistral-large-2411). Relative-ordering assumption: the 2512 build is at least as capable, so using 2411 is conservative and does not invert the panel ranking (Mistral sits near the bottom regardless).",
+    "APPLES-TO-ORANGES (GAIA): GAIA numbers come from DIFFERENT scaffolds — GPT-4.1 49.7% and DeepSeek-V3 29.4% from HAL/Princeton Generalist-Agent scaffold; Gemini 2.5 Pro 33.3% from PricePerToken's leaderboard (unknown scaffold). GAIA is heavily agent-scaffold-dependent, so the GPT-4.1 > Gemini ordering on this single benchmark is NOT reliable. Because scores are min-max normalized and averaged across benchmarks, GAIA contributes only 1 of 5-6 cells; treat the GAIA column as low-confidence.",
+    "SWE-bench Verified harness variance: GPT-4.1 54.6% and Claude Sonnet 4 72.7% are provider-reported on their own bash/file-edit scaffolds; Gemini 2.5 Pro 63.8% is Google's agentic harness; DeepSeek-V3 38.8% is a third-party OpenHands run. Harnesses differ, but the ordering (Claude > Gemini > GPT-4.1 > DeepSeek; open models unreported) is stable and consistent with general reputation.",
+    "RULER is effectively non-load-bearing here: only 1 of 6 models (Mistral Large 2411, 86.0 avg from NVIDIA repo) has a clean composite RULER score at a comparable context sweep. With a single non-null cell, the RULER column cannot contribute to cross-model ranking and each model's composite is the mean of its OTHER available normalized cells. Consider dropping RULER from G3 or flagging it as coverage=1.",
+    "MRCR context length = 128k for all reported cells (GPT-4.1 2-needle 57.2%; Gemini 2.5 Pro 94.5%). Claude Sonnet 4 + the three open models have no published MRCR.",
+    "Claude Sonnet 4 GPQA Diamond 75.4% is the EXTENDED-THINKING figure (Anthropic's headline table); the no-extended-thinking figure is 70.0%. MMLU-Pro 83.8% is the 'Thinking' vals.ai reproduction. Both are thinking-enabled to match the headline; note if the panel runs Sonnet 4 without extended thinking.",
+    "deepseek/deepseek-chat resolves to DeepSeek-V3-0324 (the current deepseek-chat as of the DeepSeek API changelog), NOT the original Dec-2024 DeepSeek-V3 (which scored MMLU-Pro 75.9 / GPQA 59.1). The 0324 numbers (81.2 / 68.4) are used.",
+    "n=6 models => Spearman rho is noisy and every missing cell widens CIs. Report the permutation-test p-value alongside rho for G3, and treat the ranking (not the exact rho) as the load-bearing output."
+  ]
+}

@@ -13,7 +13,7 @@ def test_roster_loads_and_enables_the_right_vendors():
     # Anthropic (3) + OpenAI (2) enabled; Gemini (4) present-but-disabled
     assert "claude-opus-4-6" in ids
     assert "claude-sonnet-4-6" in ids
-    assert "claude-3-5-haiku-20241022" in ids
+    assert "claude-haiku-4-5" in ids  # H-1 substitute for retired Haiku 3.5
     assert "openai/gpt-5-codex" in ids and "openai/gpt-5-mini" in ids  # OpenRouter-prefixed (verified)
     assert len(enabled) == 5
     assert not any(m["vendor"] == "google" for m in enabled)
@@ -27,11 +27,20 @@ def test_roster_gemini_present_but_disabled():
     assert roster["vendors"]["google"]["enabled"] is False
 
 
-def test_haiku_flagged_retired():
+def test_haiku_substitution_applied():
+    """Ruling H-1 (20260706-p0-adjudication-protocol.md §1): the retired Haiku 3.5
+    (claude-3-5-haiku-20241022) is SUBSTITUTED by claude-haiku-4-5 (NOT pinned to a legacy snapshot).
+    The retired id must be gone; the substitution must be disclosed on the roster entry so the
+    'MP-DP non-replication on the substitute is not a P0 failure' caveat is auditable."""
     roster = load_roster(CONFIG_ROSTER)
-    haiku = next(m for m in all_models(roster) if m["id"] == "claude-3-5-haiku-20241022")
-    assert "RETIRED" in str(haiku.get("status", ""))
-    assert "note" in haiku
+    ids = {m["id"] for m in all_models(roster)}
+    assert "claude-3-5-haiku-20241022" not in ids            # retired id removed
+    haiku = next(m for m in all_models(roster) if m["id"] == "claude-haiku-4-5")
+    assert haiku["vendor"] == "anthropic"
+    assert haiku["enabled"] is True
+    assert haiku.get("judge_eligible") is False              # Haiku is a subject, not a judge
+    disclosure = f"{haiku.get('substitution', '')} {haiku.get('note', '')}"
+    assert "H-1" in disclosure                               # substitution disclosed
 
 
 def test_assign_judges_are_always_cross_vendor():
@@ -50,7 +59,7 @@ def test_assign_judges_eligibility_fallback():
     roster = load_roster(CONFIG_ROSTER)
     # without the judge_eligible filter, Haiku 3.5 (not judge-eligible) is included
     all_an = assign_judges("openai", roster, require_judge_eligible=False)
-    assert "claude-3-5-haiku-20241022" in all_an
+    assert "claude-haiku-4-5" in all_an  # H-1 substitute; included only without the judge-eligible filter
 
 
 def test_judge_neutrality_flip_test():

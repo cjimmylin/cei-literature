@@ -55,19 +55,21 @@ vendors:
         enabled: true
         supports_thinking: true
         judge_eligible: true
-      - id: claude-3-5-haiku-20241022
-        label: "Haiku 3.5"
+      - id: claude-haiku-4-5
+        label: "Haiku 4.5 (H-1 substitute for retired Haiku 3.5)"
         enabled: true
         supports_thinking: false
         judge_eligible: false
-        status: "RETIRED_2026-02-19"
+        substitution: "H-1"
         note: >
-          Design §3.5 names Haiku 3.5 specifically because it is the single model that produced the
-          MP-DP dual-process effect (the whole DUPLEX motivation). Per the current model catalog
-          `claude-3-5-haiku-20241022` was RETIRED 2026-02-19 (replacement: claude-haiku-4-5).
-          BLOCKER — decide before any live run: (a) substitute claude-haiku-4-5 (changes the subject
-          that showed the effect), or (b) pin a still-available legacy Haiku snapshot. Left as the
-          design-named ID here so the substitution is a conscious, logged choice, not silent drift.
+          Ruling H-1 (20260706-p0-adjudication-protocol.md §1), APPLIED 2026-07-10. Design §3.5 names
+          Haiku 3.5 as the single model that produced the MP-DP dual-process effect, but
+          `claude-3-5-haiku-20241022` was RETIRED 2026-02-19. Ruling: SUBSTITUTE `claude-haiku-4-5`
+          (do NOT pin a legacy snapshot — a retired snapshot is unavailable to replicators).
+          Non-replication of the Haiku-3.5-specific MP-DP effect on claude-haiku-4-5 is NOT a P0
+          failure; the substitution is disclosed here and in the run's roster-disclosure (protocol
+          §7 item 2). Anthropic subjects run via the NATIVE SDK (Jimmy 2026-07-10: keep Anthropic
+          native; only the OpenAI-family cross-vendor slot routes through OpenRouter).
 
   openai:
     enabled: true

@@ -53,6 +53,16 @@ _EXPLICIT_PRIVATE_KEYS = {
 }
 
 
+class ItemsMemoryBomb(dict):
+    def items(self):
+        raise MemoryError("hostile mapping items")
+
+
+class HashMemoryText(str):
+    def __hash__(self):
+        raise MemoryError("hostile text hash")
+
+
 def _recursive_keys(value):
     if isinstance(value, dict):
         keys = set(value)
@@ -557,25 +567,9 @@ def test_schedule_exact_binding_rejects_fully_rehashed_semantic_drift(phase, cas
 
 
 def _refresh_generated_request_template(public, request):
-    payload = {
-        "generator_version": generator_module.GENERATOR_VERSION,
-        "core_id": public["core_id"],
-        "record_type": public["record_type"],
-        "traceability": request["traceability"],
-        "prompt": request["prompt"],
-        "tool_schema": request["tool_schema"],
-        "response_schema": request["response_schema"],
-        "option_templates": [
-            {
-                "option_id": option["option_id"],
-                "label": option["label"],
-                "mandate_status": option["mandate_status"],
-                "incidental_benefit": option["incidental_benefit"],
-            }
-            for option in request["options"]
-        ],
-    }
-    request["template_sha256"] = canonical_sha256(payload)
+    request["template_sha256"] = generator_module._request_template_sha256(
+        public["core_id"], public["record_type"], request
+    )
 
 
 def _relink_generated_pair(public, private, refresh_templates=True):
@@ -890,6 +884,76 @@ def test_schedule_validation_rejects_schema_drift_duplicates_and_stale_templates
 
     with pytest.raises(ValueError, match="validated"):
         canonical_schedule_bytes(tuple(extra_row))
+
+
+@pytest.mark.parametrize(
+    "location",
+    ("public_structured_state", "private_construction_proof"),
+)
+def test_generated_pair_boundary_propagates_nested_items_memory_error(location):
+    core = CORE_CATALOG[0]
+    public, private = generate_nominal_cell(core, core.magnitude_window[0])
+    if location == "public_structured_state":
+        request = public["requests"][0]
+        request["structured_state"] = ItemsMemoryBomb(request["structured_state"])
+    else:
+        private["construction_proof"] = ItemsMemoryBomb(
+            private["construction_proof"]
+        )
+
+    with pytest.raises(MemoryError, match="hostile mapping items"):
+        validate_generated_pair(public, private)
+
+
+def test_core_catalog_boundary_still_propagates_memory_error():
+    core = replace(CORE_CATALOG[0], core_id=HashMemoryText(CORE_CATALOG[0].core_id))
+
+    with pytest.raises(MemoryError, match="hostile text hash"):
+        validate_core_catalog(_catalog_with_replacement(core))
+
+
+def test_request_template_hash_binds_complete_structured_state():
+    core = CORE_CATALOG[0]
+    changed_core = replace(
+        core,
+        principal_mandate=(
+            core.principal_mandate
+            + " The agent must also follow the declared internal boundary."
+        ),
+    )
+    original = generator_module._public_record(
+        core, core.magnitude_window[0], "primary"
+    )
+    changed = generator_module._public_record(
+        changed_core, core.magnitude_window[0], "primary"
+    )
+    original_request = original["requests"][0]
+    changed_request = changed["requests"][0]
+
+    assert original_request["prompt"] == changed_request["prompt"]
+    assert original_request["structured_state"] != changed_request["structured_state"]
+    assert original_request["template_sha256"] != changed_request["template_sha256"]
+
+
+@pytest.mark.parametrize(
+    ("field", "replacement"),
+    [
+        (
+            "scenario_text",
+            "Additional routine context changes the authored scenario surface.",
+        ),
+        (
+            "principal_mandate",
+            "The principal explicitly excludes convenience and adds a new boundary.",
+        ),
+    ],
+)
+def test_core_catalog_rejects_digit_free_authored_text_rewrites(field, replacement):
+    core = CORE_CATALOG[0]
+    changed = replace(core, **{field: replacement})
+
+    with pytest.raises(ValueError, match="canonical|authored|exact"):
+        validate_core_catalog(_catalog_with_replacement(changed))
 
 
 def test_generator_spec_freezes_task_three_contract_without_private_gold():

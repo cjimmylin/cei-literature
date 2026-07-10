@@ -211,7 +211,33 @@ def _response_schema(core, option_ids, recognition):
     }
 
 
-def _request_template(core, magnitude, logical_record_id, record_canary, record_type, traceability):
+def _request_template_payload(core_id, record_type, request):
+    return {
+        "generator_version": GENERATOR_VERSION,
+        "core_id": core_id,
+        "record_type": record_type,
+        "request_kind": request["request_kind"],
+        "traceability": request["traceability"],
+        "prompt": request["prompt"],
+        "structured_state": request["structured_state"],
+        "tool_schema": request["tool_schema"],
+        "options": request["options"],
+        "response_schema": request["response_schema"],
+    }
+
+
+def _request_template_sha256(core_id, record_type, request):
+    return canonical_sha256(_request_template_payload(core_id, record_type, request))
+
+
+def _request_template(
+    core,
+    magnitude,
+    logical_record_id,
+    record_canary,
+    record_type,
+    traceability,
+):
     recognition = record_type == "recognition"
     clean = record_type == "clean_competence"
     options = _public_option_attributes(core, magnitude, clean)
@@ -236,29 +262,11 @@ def _request_template(core, magnitude, logical_record_id, record_canary, record_
     }
     tool_schema = _tool_schema(core, option_ids, recognition)
     response_schema = _response_schema(core, option_ids, recognition)
-    template_payload = {
-        "generator_version": GENERATOR_VERSION,
-        "core_id": core.core_id,
-        "record_type": record_type,
-        "traceability": traceability,
-        "prompt": prompt,
-        "tool_schema": tool_schema,
-        "response_schema": response_schema,
-        "option_templates": [
-            {
-                "option_id": option["option_id"],
-                "label": option["label"],
-                "mandate_status": option["mandate_status"],
-                "incidental_benefit": option["incidental_benefit"],
-            }
-            for option in options
-        ],
-    }
     request_id = "%s-request-%s" % (
         logical_record_id,
         traceability.replace("_", "-"),
     )
-    return {
+    request = {
         "request_id": request_id,
         "request_kind": "recognition" if recognition else "action",
         "traceability": traceability,
@@ -267,9 +275,13 @@ def _request_template(core, magnitude, logical_record_id, record_canary, record_
         "tool_schema": tool_schema,
         "options": options,
         "response_schema": response_schema,
-        "template_sha256": canonical_sha256(template_payload),
+        "template_sha256": "",
         "canary": _request_canary(record_canary, traceability),
     }
+    request["template_sha256"] = _request_template_sha256(
+        core.core_id, record_type, request
+    )
+    return request
 
 
 def _magnitude_blind_payload(record):
@@ -687,10 +699,11 @@ def _validate_generated_pair(public, private):
     _validate_mandate_boundary(public)
     if record_type == "clean_competence":
         _validate_clean_comparison(public, private)
-    if not validate_public_item_fields(public):
-        raise ValueError("public row fails the frozen schema")
-    if not validate_private_gold_fields(private, public):
-        raise ValueError("private row fails exact ID/hash alignment or frozen schema")
+    public_canonical = canonical_json(public)
+    private_canonical = canonical_json(private)
+    public_hash = canonical_sha256(public)
+    if private["public_record_sha256"] != public_hash:
+        raise ValueError("private row has stale public-record linkage")
     if public["magnitude_blind_text_sha256"] != canonical_sha256(
         _magnitude_blind_payload(public)
     ):
@@ -711,10 +724,14 @@ def _validate_generated_pair(public, private):
         public["record_type"],
     )
     expected_private = _private_gold(core, expected_public)
-    if canonical_json(public) != canonical_json(expected_public) or canonical_json(
-        private
-    ) != canonical_json(expected_private):
+    if public_canonical != canonical_json(
+        expected_public
+    ) or private_canonical != canonical_json(expected_private):
         raise ValueError("generated pair differs from the exact deterministic projection")
+    if not validate_public_item_fields(expected_public):
+        raise ValueError("regenerated public row fails the frozen schema")
+    if not validate_private_gold_fields(expected_private, expected_public):
+        raise ValueError("regenerated private row fails the frozen schema")
     return True
 
 

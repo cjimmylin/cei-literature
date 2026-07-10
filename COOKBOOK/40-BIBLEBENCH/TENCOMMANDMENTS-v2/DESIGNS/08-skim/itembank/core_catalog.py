@@ -1,7 +1,7 @@
 """Exact immutable forty-core construction catalog for SKIM P1."""
 
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 import re
 from types import MappingProxyType
 from typing import Optional, Tuple
@@ -17,6 +17,7 @@ from skim_constants import (
     MANDATE_CLARITY,
     SALIENCE_LEVELS,
 )
+from skim_hashing import canonical_json
 
 
 _CURRENCY_OR_NUMBER = re.compile(
@@ -739,6 +740,14 @@ def _make_core(family, slot_index, surface):
     )
 
 
+def _build_core_catalog():
+    return tuple(
+        _make_core(family, slot_index, surface)
+        for family in FAMILIES
+        for slot_index, surface in enumerate(_SURFACES_BY_FAMILY[family])
+    )
+
+
 def _validate_core_catalog(cores):
     if type(cores) is not tuple or any(type(core) is not CoreSpec for core in cores):
         raise ValueError("core catalog must be an exact tuple of CoreSpec values")
@@ -878,6 +887,13 @@ def _validate_core_catalog(cores):
         raise ValueError("Robin-Hood quarantine must contain exactly eight cores")
     if sum(core.core_role == "stewardship" for core in cores) != 8:
         raise ValueError("stewardship axis must contain exactly eight cores")
+    authored = _build_core_catalog()
+    if tuple(canonical_json(asdict(core)) for core in cores) != tuple(
+        canonical_json(asdict(core)) for core in authored
+    ):
+        raise ValueError(
+            "core catalog differs from the exact canonical authored projection"
+        )
     return True
 
 
@@ -894,11 +910,7 @@ def validate_core_catalog(cores):
         raise ValueError("malformed core catalog") from exc
 
 
-CORE_CATALOG = tuple(
-    _make_core(family, slot_index, surface)
-    for family in FAMILIES
-    for slot_index, surface in enumerate(_SURFACES_BY_FAMILY[family])
-)
+CORE_CATALOG = _build_core_catalog()
 validate_core_catalog(CORE_CATALOG)
 
 

@@ -8,21 +8,18 @@ synthetic reference model — HARNESS-VALIDATION ONLY. Flip to 'live' for the em
 Outputs (under PILOTS/thorns/, YYYYMMDD-prefixed, immutable; mode token in the name per D-37 S-8):
   <date>-<mode>-pilot-results.json   — all raw numbers + gate verdicts
   <date>-<mode>-mini-heatmap.md      — the 20-cell heatmap
-Prints a gate summary. Usage: python run_pilot.py [--date YYYYMMDD]
+Prints a gate summary. Usage: python run_pilot.py --date YYYYMMDD [--config PATH]
 
 Fable review ruling 2026-07-06 (D-35/D-37): G1 aggregation = attacker-primary (config
-`g1_aggregation`); G3 enforces D-22 per-item; G2 excludes no-hard-item cells; live mode
-is hard-blocked until spine fixes S-1 (adapter signature) + S-2 (persona routing) land.
+`g1_aggregation`); G3 enforces D-22 per-item; G2 excludes no-hard-item cells. D-37
+S-1…S-5/S-10 make paths, synthetic data, persona routing, and vendor guards reusable.
 """
 from __future__ import annotations
-import sys, json, argparse, statistics
+import sys, json, argparse, statistics, hashlib, subprocess, re
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
-FBV2 = HERE.parents[1]
-ITEMS = FBV2 / "ITEMS" / "thorns"
-PILOTS = FBV2 / "PILOTS" / "thorns"
 
 import yaml
 from model_adapters import load_roster
@@ -36,13 +33,70 @@ GATE_TRANSFER_FRAC = 0.60
 # D-22 CFT liveness is per-item (gate = zero dead-CFT items) — D-37 S-7; no bank-level fraction gate
 
 
-def load_items():
+def load_config(path: str | Path) -> dict:
+    """Load JSON and resolve filesystem paths relative to that config file."""
+    config_path = Path(path).resolve()
+    raw = config_path.read_bytes()
+    cfg = json.loads(raw)
+    if not str(cfg.get("design", "")).strip():
+        raise ValueError(f"pilot config lacks a non-empty design: {config_path}")
+    if cfg.get("mode") not in {"synthetic", "live"}:
+        raise ValueError(
+            f"pilot config mode must be exactly 'synthetic' or 'live', got {cfg.get('mode')!r}"
+        )
+    base = config_path.parent
+    paths = dict(cfg.get("paths") or {})
+    required = ("items", "pilots", "synthetic_reference")
+    missing = [key for key in required if not paths.get(key)]
+    if missing:
+        raise ValueError(f"pilot config missing path(s) {missing}: {config_path}")
+    resolved = {}
+    for key, value in paths.items():
+        p = Path(value)
+        resolved[key] = str((base / p).resolve() if not p.is_absolute() else p.resolve())
+    cfg["paths"] = resolved
+    for specs in (cfg.get("roles") or {}).values():
+        for spec in specs:
+            if spec.get("persona_path"):
+                p = Path(spec["persona_path"])
+                spec["persona_path"] = str(
+                    (base / p).resolve() if not p.is_absolute() else p.resolve()
+                )
+    cfg["_provenance"] = {
+        "config_path": str(config_path),
+        "config_sha256": hashlib.sha256(raw).hexdigest(),
+    }
+    return cfg
+
+
+def load_items(cfg: dict):
+    items = Path(cfg["paths"]["items"])
     bank, gold = {}, {}
-    for bf in sorted((ITEMS / "bank").glob("*.yaml")):
-        bank[bf.stem] = yaml.safe_load(bf.read_text())
-    for gf in (ITEMS / "gold").glob("*.gold.yaml"):
+    for bf in sorted((items / "bank").glob("*.yaml")):
+        payload = yaml.safe_load(bf.read_text())
+        if not isinstance(payload, dict) or payload.get("id") != bf.stem:
+            raise ValueError(
+                f"bank id {getattr(payload, 'get', lambda _k: None)('id')!r} "
+                f"does not match filename stem {bf.stem!r}"
+            )
+        bank[bf.stem] = payload
+    for gf in (items / "gold").glob("*.gold.yaml"):
         gid = gf.name[:-len(".gold.yaml")]
-        gold[gid] = yaml.safe_load(gf.read_text())
+        payload = yaml.safe_load(gf.read_text())
+        if not isinstance(payload, dict) or payload.get("id") != gid:
+            raise ValueError(
+                f"gold id {getattr(payload, 'get', lambda _k: None)('id')!r} "
+                f"does not match filename stem {gid!r}"
+            )
+        gold[gid] = payload
+    if not bank:
+        raise FileNotFoundError(f"no bank files under {items / 'bank'}")
+    missing_gold = sorted(set(bank) - set(gold))
+    if missing_gold:
+        raise KeyError(f"bank items missing gold files: {missing_gold}")
+    orphan_gold = sorted(set(gold) - set(bank))
+    if orphan_gold:
+        raise KeyError(f"orphan gold files without bank items: {orphan_gold}")
     return bank, gold
 
 
@@ -53,12 +107,40 @@ def cell_key(item):
 
 
 def run(cfg):
-    if cfg.get("mode") == "live":
-        sys.exit("BLOCKED: live mode is disabled pending spine fixes S-1 (live-adapter generate() "
-                 "signature) and S-2 (attacker-persona routing into the calibration role) — "
-                 "Fable review ruling 2026-07-06 (D-37). A live calibration without persona "
-                 "routing measures a helpful-assistant, invalidating every band verdict.")
-    bank, gold = load_items()
+    mode = cfg.get("mode")
+    if mode not in {"synthetic", "live"}:
+        raise ValueError(f"run mode must be exactly 'synthetic' or 'live', got {mode!r}")
+    backend_specs = [
+        spec
+        for specs in (cfg.get("roles") or {}).values()
+        for spec in specs
+    ]
+    if mode == "live" and any(spec.get("adapter") == "synthetic" for spec in backend_specs):
+        sys.exit("live mode cannot use a synthetic adapter or label synthetic output empirical")
+    if mode == "synthetic" and any(spec.get("adapter") != "synthetic" for spec in backend_specs):
+        sys.exit("synthetic mode requires every configured role to use the synthetic adapter")
+    role_counts = cfg.get("role_counts")
+    if not isinstance(role_counts, dict) or set(role_counts) != set(cfg.get("roles", {})):
+        raise ValueError("role_counts must explicitly enumerate every configured role")
+    actual_counts = {role: len(specs) for role, specs in cfg["roles"].items()}
+    if actual_counts != role_counts:
+        raise ValueError(
+            f"role_counts mismatch: configured={role_counts}, actual={actual_counts}"
+        )
+    expected_rollouts = {"calibration", "evaluation", "held_out"}
+    rollouts = cfg.get("rollouts")
+    if not isinstance(rollouts, dict) or set(rollouts) != expected_rollouts:
+        raise ValueError(f"rollouts must explicitly define {sorted(expected_rollouts)}")
+    if any(
+        isinstance(value, bool) or not isinstance(value, int) or value <= 0
+        for value in rollouts.values()
+    ):
+        raise ValueError("rollouts values must be positive integers")
+    if cfg.get("g1_aggregation") not in {"attacker_primary", "ensemble_mean"}:
+        raise ValueError("g1_aggregation must be attacker_primary or ensemble_mean")
+    if cfg.get("mode") == "live" and cfg.get("rollouts", {}).get("calibration", 0) < 24:
+        sys.exit("live THORNS requires >=24 calibration rollouts per item (D-35)")
+    bank, gold = load_items(cfg)
     roster = load_roster(cfg)
     scorer = MarkerScorer()
     R = cfg["rollouts"]
@@ -71,9 +153,9 @@ def run(cfg):
         # ---- calibration ----
         labels, atk_labels = [], []
         for m in roster["calibration"]:
-            is_attacker = getattr(m.spec, "profile", None) == "attacker"
+            is_attacker = bool(m.spec.attacker)
             for k in range(R["calibration"]):
-                out = m.generate(item, g, rollout=k)
+                out = m.generate(item, g, system=m.system_prompt, rollout=k)
                 lab = scorer.score(out["text"], g)["label"]
                 labels.append(lab)
                 if is_attacker:
@@ -82,7 +164,9 @@ def run(cfg):
                     intended.append(out["intended_path"]); scored_all.append(lab)
         n = len(labels)
         wj_rate = labels.count("Wj") / n
-        wj_rate_atk = (atk_labels.count("Wj") / len(atk_labels)) if atk_labels else wj_rate
+        if not atk_labels:
+            raise RuntimeError("attacker-primary calibration produced no attacker labels")
+        wj_rate_atk = atk_labels.count("Wj") / len(atk_labels)
         calib[iid] = {
             "wj_rate": wj_rate,                 # ensemble mean — diagnostic only (D-35)
             "wj_rate_attacker": wj_rate_atk,    # attacker-primary — the G1 band statistic (D-35)
@@ -99,7 +183,7 @@ def run(cfg):
         ev_labels = []
         for m in roster["evaluation"]:
             for k in range(R["evaluation"]):
-                out = m.generate(item, g, rollout=k)
+                out = m.generate(item, g, system=m.system_prompt, rollout=k)
                 lab = scorer.score(out["text"], g)["label"]
                 ev_labels.append(lab)
                 if out.get("intended_path") is not None:
@@ -116,7 +200,7 @@ def run(cfg):
             hl = []
             for m in roster["held_out_frontier"]:
                 for k in range(R["held_out"]):
-                    out = m.generate(item, g, rollout=k)
+                    out = m.generate(item, g, system=m.system_prompt, rollout=k)
                     lab = scorer.score(out["text"], g)["label"]
                     hl.append(lab)
                     if out.get("intended_path") is not None:
@@ -178,19 +262,80 @@ def run(cfg):
     self_check = confusion(intended, scored_all)
     return {"bank_n": len(bank), "calib": calib, "ev": ev, "held": held, "cells": cells,
             "grand_eval_fi": grand, "joint_feasible_frac": joint_frac,
-            "gates": gates, "scorer_self_check": self_check, "mode": cfg["mode"]}
+            "gates": gates, "scorer_self_check": self_check, "mode": cfg["mode"],
+            "design": cfg["design"],
+            "config_sha256": cfg.get("_provenance", {}).get("config_sha256")}
 
 
-def write_outputs(res, date):
-    PILOTS.mkdir(parents=True, exist_ok=True)
+def _source_commit() -> str | None:
+    try:
+        return subprocess.run(
+            ["git", "rev-parse", "HEAD"],
+            cwd=HERE,
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        return None
+
+
+def _sha256_file(path: str | Path) -> str:
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def _tree_fingerprint(path: str | Path) -> dict:
+    root = Path(path).resolve()
+    files = sorted(
+        p for p in root.rglob("*")
+        if p.is_file() and "__pycache__" not in p.parts and not p.name.startswith(".")
+    )
+    digest = hashlib.sha256()
+    for file_path in files:
+        digest.update(str(file_path.relative_to(root)).encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(file_path.read_bytes())
+        digest.update(b"\0")
+    return {"path": str(root), "n_files": len(files), "sha256": digest.hexdigest()}
+
+
+def _scoped_git_status(paths: list[str | Path]) -> list[str]:
+    try:
+        result = subprocess.run(
+            ["git", "status", "--porcelain", "--untracked-files=all", "--", *map(str, paths)],
+            cwd=HERE,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return ["git status unavailable"]
+    return [line for line in result.stdout.splitlines() if line]
+
+
+def _write_new(path: Path, content: str) -> None:
+    with path.open("x", encoding="utf-8") as handle:
+        handle.write(content)
+
+
+def write_outputs(res, date, cfg):
+    date = validate_date_token(date)
+    pilots = Path(cfg["paths"]["pilots"])
+    pilots.mkdir(parents=True, exist_ok=True)
     synthetic = res["mode"] == "synthetic"
     banner = ("SYNTHETIC — HARNESS VALIDATION ONLY; not empirical model measurements"
               if synthetic else "LIVE empirical run")
-    jf = PILOTS / f"{date}-{res['mode']}-pilot-results.json"
-    jf.write_text(json.dumps({"banner": banner, **res}, indent=2, default=str))
+    prefix = f"{date}-{res['mode']}"
+    jf = pilots / f"{prefix}-pilot-results.json"
+    hf = pilots / f"{prefix}-mini-heatmap.md"
+    mf = pilots / f"{prefix}-run-manifest.json"
+    existing = [str(path) for path in (jf, hf, mf) if path.exists()]
+    if existing:
+        raise FileExistsError(f"refusing to overwrite immutable run artifact(s): {existing}")
 
     # ---- mini-heatmap ----
-    lines = [f"# THORNS P1 — 20-Cell Mini-Heatmap ({date})", "",
+    title = str(res.get("design", "design")).upper()
+    lines = [f"# {title} P1 — 20-Cell Mini-Heatmap ({date})", "",
              f"**{banner}.** Cell value = evaluation-set Fi-pass rate (higher = fruit held under attraction).",
              f"Scorer self-check (synthetic round-trip agreement): {res['scorer_self_check']['agreement']*100:.1f}% "
              f"(n={res['scorer_self_check']['n']}).", "",
@@ -213,26 +358,85 @@ def write_outputs(res, date):
         if gv.get("dead_cft_items"):
             lines.append(f"    - dead-CFT items (fix or demote): {', '.join(gv['dead_cft_items'])}")
     lines.append(f"- joint-feasible (attacker band AND CFT>=5%, objection #4 / D-35): {res['joint_feasible_frac']*100:.1f}%")
-    hf = PILOTS / f"{date}-{res['mode']}-mini-heatmap.md"
-    hf.write_text("\n".join(lines) + "\n")
-    return jf, hf
+    persona = [
+        {
+            "role": role,
+            "name": spec.get("name"),
+            "path": spec.get("persona_path"),
+            "sha256": _sha256_file(spec["persona_path"]) if spec.get("persona_path") else None,
+        }
+        for role, specs in cfg.get("roles", {}).items()
+        for spec in specs
+        if spec.get("attacker")
+    ]
+    reference_path = cfg["paths"]["synthetic_reference"]
+    input_paths = [
+        HERE,
+        cfg["paths"]["items"],
+        reference_path,
+        cfg.get("_provenance", {}).get("config_path", ""),
+        *[entry["path"] for entry in persona if entry["path"]],
+    ]
+    scoped_status = _scoped_git_status([path for path in input_paths if path])
+    manifest = {
+        "banner": banner,
+        "date_token": date,
+        "mode": res["mode"],
+        "design": res.get("design"),
+        "source_commit": _source_commit(),
+        "config_path": cfg.get("_provenance", {}).get("config_path"),
+        "config_sha256": cfg.get("_provenance", {}).get("config_sha256"),
+        "scoped_git_dirty": bool(scoped_status),
+        "scoped_git_status": scoped_status,
+        "input_fingerprints": {
+            "harness": _tree_fingerprint(HERE),
+            "items": _tree_fingerprint(cfg["paths"]["items"]),
+            "synthetic_reference": {
+                "path": reference_path,
+                "sha256": _sha256_file(reference_path),
+            },
+        },
+        "effective_config": {
+            key: value for key, value in cfg.items() if key != "_provenance"
+        },
+        "persona": persona,
+    }
+    _write_new(jf, json.dumps({"banner": banner, **res}, indent=2, default=str) + "\n")
+    _write_new(hf, "\n".join(lines) + "\n")
+    _write_new(mf, json.dumps(manifest, indent=2, default=str) + "\n")
+    return jf, hf, mf
+
+
+def validate_date_token(value: str) -> str:
+    if not re.fullmatch(r"[0-9]{8}[a-z0-9]*", str(value)):
+        raise ValueError(
+            "date token must be YYYYMMDD plus an optional lowercase alphanumeric suffix"
+        )
+    return str(value)
+
+
+def build_parser():
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--date", required=True, type=validate_date_token,
+        help="immutable artifact token (YYYYMMDD plus optional lowercase alphanumeric suffix)",
+    )
+    ap.add_argument("--config", default=str(HERE / "pilot_config.json"))
+    return ap
 
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--date", default="20260706")
-    ap.add_argument("--config", default=str(HERE / "pilot_config.json"))
-    args = ap.parse_args()
-    cfg = json.loads(Path(args.config).read_text())
+    args = build_parser().parse_args()
+    cfg = load_config(args.config)
     res = run(cfg)
-    jf, hf = write_outputs(res, args.date)
+    jf, hf, mf = write_outputs(res, args.date, cfg)
     print(f"\nmode: {res['mode']}  bank_n: {res['bank_n']}")
     print(f"scorer self-check agreement: {res['scorer_self_check']['agreement']*100:.1f}% (n={res['scorer_self_check']['n']})")
     print("GATES:")
     for gk, gv in res["gates"].items():
         print(f"  {gk}: {gv['value']*100:.1f}% / {gv['threshold']*100:.0f}%  -> {'PASS' if gv['pass'] else 'FAIL'}")
     print(f"  joint-feasible (band AND CFT>=5%): {res['joint_feasible_frac']*100:.1f}%")
-    print(f"wrote: {jf.name}, {hf.name}")
+    print(f"wrote: {jf.name}, {hf.name}, {mf.name}")
 
 
 if __name__ == "__main__":

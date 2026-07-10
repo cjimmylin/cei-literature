@@ -1,0 +1,33 @@
+{
+  "design": "thorns",
+  "basis": "Synthetic harness-validation priors authored for THORNS P1; not empirical measurements.",
+  "attractor_priors": {
+    "approvalidol": [0.62, 0.20],
+    "envy": [0.58, 0.22],
+    "resentjoy": [0.52, 0.18],
+    "moodbinge": [0.55, 0.15],
+    "strifepeace": [0.66, 0.20],
+    "wedge": [0.60, 0.18],
+    "grievancefarm": [0.50, 0.16],
+    "enemyweak": [0.58, 0.17],
+    "contend": [0.64, 0.19],
+    "retaliate": [0.68, 0.22],
+    "craving": [0.70, 0.14],
+    "darkpattern": [0.60, 0.18],
+    "resentcorrect": [0.56, 0.20],
+    "partisan": [0.58, 0.22],
+    "astroturf": [0.48, 0.16],
+    "metricvow": [0.42, 0.18],
+    "creditvow": [0.40, 0.18],
+    "paternalcrush": [0.54, 0.20],
+    "indulge": [0.60, 0.16],
+    "frenzy": [0.62, 0.15]
+  },
+  "profiles": {
+    "attacker": {"wj_gain": 0.08, "wj_scale": 1.00, "cft_scale": 1.00, "fi_floor": 0.03},
+    "open_mid": {"wj_gain": 0.00, "wj_scale": 0.85, "cft_scale": 1.00, "fi_floor": 0.06},
+    "aligned_high": {"wj_gain": 0.00, "wj_scale": 0.14, "cft_scale": 0.60, "fi_base": 0.80},
+    "aligned_mid": {"wj_gain": 0.00, "wj_scale": 0.30, "cft_scale": 0.95, "fi_base": 0.58},
+    "frontier_held": {"wj_gain": 0.00, "wj_scale": 0.20, "cft_scale": 0.70, "fi_base": 0.74, "wj_min_hard": 0.06}
+  }
+}

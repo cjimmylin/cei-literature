@@ -1,24 +1,31 @@
 {
-  "_comment": "THORNS P1 pilot config. mode:'synthetic' uses synthetic_reference.py (HARNESS-VALIDATION ONLY, no credentials). Flip to 'live' + supply API keys + real model_ids to run the empirical pilot. Roles MUST be disjoint families (objection #9 guard in model_adapters.load_roster). In live mode: calibration=open-weights+jailbroken attacker; evaluation=the models under test; held_out_frontier=2 frontier models of a DIFFERENT family than evaluation (objection #2).",
+  "_comment": "THORNS P1 pilot config. Synthetic mode is HARNESS-VALIDATION ONLY. A live run additionally requires real adapters/credentials, validated cross-family judges, human substitution, post-D-36 items, and calibration/evaluation/held-out roles disjoint by BOTH family and vendor. Family/vendor labels are load-bearing and must name the real provider lineage honestly.",
+  "design": "thorns",
   "mode": "synthetic",
   "g1_aggregation": "attacker_primary",
   "seed": 20260706,
+  "paths": {
+    "items": "../../ITEMS/thorns",
+    "pilots": "../../PILOTS/thorns",
+    "synthetic_reference": "synthetic_reference.json"
+  },
   "rollouts": {"calibration": 8, "evaluation": 5, "held_out": 6},
+  "role_counts": {"calibration": 4, "evaluation": 3, "held_out_frontier": 2},
   "roles": {
     "calibration": [
-      {"name": "attacker-persona-v1", "family": "syn-attacker", "adapter": "synthetic", "profile": "attacker",   "params": {"seed": 20260706}},
-      {"name": "open-A",              "family": "syn-openA",    "adapter": "synthetic", "profile": "open_mid",   "params": {"seed": 20260707}},
-      {"name": "open-B",              "family": "syn-openB",    "adapter": "synthetic", "profile": "open_mid",   "params": {"seed": 20260708}},
-      {"name": "open-C",              "family": "syn-openC",    "adapter": "synthetic", "profile": "open_mid",   "params": {"seed": 20260709}}
+      {"name": "attacker-persona-v1", "family": "syn-attacker", "vendor": "synthetic-attacker", "adapter": "synthetic", "profile": "attacker", "attacker": true, "persona_path": "../shared/attacker-persona-v1.md", "params": {"seed": 20260706}},
+      {"name": "open-A", "family": "syn-openA", "vendor": "synthetic-open-a", "adapter": "synthetic", "profile": "open_mid", "params": {"seed": 20260707}},
+      {"name": "open-B", "family": "syn-openB", "vendor": "synthetic-open-b", "adapter": "synthetic", "profile": "open_mid", "params": {"seed": 20260708}},
+      {"name": "open-C", "family": "syn-openC", "vendor": "synthetic-open-c", "adapter": "synthetic", "profile": "open_mid", "params": {"seed": 20260709}}
     ],
     "evaluation": [
-      {"name": "eval-X-high", "family": "syn-evalX", "adapter": "synthetic", "profile": "aligned_high", "params": {"seed": 20260710}},
-      {"name": "eval-Y-high", "family": "syn-evalY", "adapter": "synthetic", "profile": "aligned_high", "params": {"seed": 20260711}},
-      {"name": "eval-Z-mid",  "family": "syn-evalZ", "adapter": "synthetic", "profile": "aligned_mid",  "params": {"seed": 20260712}}
+      {"name": "eval-X-high", "family": "syn-evalX", "vendor": "synthetic-eval-x", "adapter": "synthetic", "profile": "aligned_high", "params": {"seed": 20260710}},
+      {"name": "eval-Y-high", "family": "syn-evalY", "vendor": "synthetic-eval-y", "adapter": "synthetic", "profile": "aligned_high", "params": {"seed": 20260711}},
+      {"name": "eval-Z-mid", "family": "syn-evalZ", "vendor": "synthetic-eval-z", "adapter": "synthetic", "profile": "aligned_mid", "params": {"seed": 20260712}}
     ],
     "held_out_frontier": [
-      {"name": "held-P", "family": "syn-heldP", "adapter": "synthetic", "profile": "frontier_held", "params": {"seed": 20260713}},
-      {"name": "held-Q", "family": "syn-heldQ", "adapter": "synthetic", "profile": "frontier_held", "params": {"seed": 20260714}}
+      {"name": "held-P", "family": "syn-heldP", "vendor": "synthetic-held-p", "adapter": "synthetic", "profile": "frontier_held", "params": {"seed": 20260713}},
+      {"name": "held-Q", "family": "syn-heldQ", "vendor": "synthetic-held-q", "adapter": "synthetic", "profile": "frontier_held", "params": {"seed": 20260714}}
     ]
   }
 }

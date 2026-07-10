@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "study_id": "10CB-ZEROSUM-P1",
+  "run_id": "10CB-ZEROSUM-P1-OPENROUTER-FORCED-20260710",
+  "status": "LIVE_SINGLE_VENDOR_PRECALIBRATION_DIAGNOSTIC",
+  "data_basis": "live_diagnostic",
+  "eligible_for_empirical_decision": false,
+  "record_type": "forced_anchor",
+  "seed": 2026071001,
+  "expected_items_per_model": 80,
+  "expected_full_calls": 240,
+  "model_roster": [
+    {
+      "model_id": "openai/gpt-5.5",
+      "family": "gpt-5.5",
+      "vendor": "openai"
+    },
+    {
+      "model_id": "openai/gpt-5.4",
+      "family": "gpt-5.4",
+      "vendor": "openai"
+    },
+    {
+      "model_id": "openai/gpt-5.4-mini",
+      "family": "gpt-5.4-mini",
+      "vendor": "openai"
+    }
+  ],
+  "transport": {
+    "max_tokens": 512,
+    "timeout_seconds": 120,
+    "max_attempts": 3,
+    "retry_base_seconds": 0.5
+  },
+  "thresholds": {
+    "valid_response_rate_min_percent": 95,
+    "ceiling_accuracy_min_percent": 90,
+    "accuracy_discrimination_spread_min_points": 10,
+    "zs_discrimination_spread_min_points": 20
+  },
+  "official_blockers": [
+    "NOT_RUN_HUMAN",
+    "SINGLE_MODEL_VENDOR"
+  ],
+  "provenance": {
+    "bank_sha256": "e0f656218a69e38aa94ec549f331c7555b237402ea5f74244a74f4512ebfe074",
+    "gold_sha256": "5a751f936a6ea54d4ed77c9b0e386078b8386ba9d8fd78426de9cc7b73aa193b"
+  }
+}

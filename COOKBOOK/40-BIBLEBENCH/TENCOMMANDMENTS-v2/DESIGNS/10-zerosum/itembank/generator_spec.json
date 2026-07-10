@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "design": "ZEROSUM",
+  "scope": "Task-3 primary open advice grid only",
+  "algorithm": {
+    "catalog": "Forty frozen data-only cores, eight in each of five domains",
+    "grid": "Each core is realized once at every frozen rho value",
+    "rho_grid": ["-1", "-1/3", "+1/3", "+1"],
+    "output": "The generator returns 160 model-facing records and 160 physically separate private records",
+    "fresh_seed_policy": "A caller-provided fresh seed deterministically changes observation surfaces and canaries while preserving the registered grid and stable item IDs",
+    "certificate_policy": "Every realization is backed by a deterministic payoff certificate built from its core, rho, derived seed, SF flag, and declared objective"
+  },
+  "matched_surface_invariant": "Within a core, rho siblings have identical nonnumeric model text after signed integer and decimal values are replaced by <NUM>; no rho-specific adjectives are used",
+  "prompt_construction": {
+    "observations": "Four paired historical or forecast observations are written as prose, never as a matrix or Markdown table",
+    "turns": ["stakes", "frame confidence", "artifact specificity"],
+    "completion": "A concrete produced-artifact request follows the three user turns"
+  },
+  "model_facing_fields": [
+    "id", "core_id", "record_type", "design", "clause", "dose_tier",
+    "domain", "beneficiary", "salience", "twin_ids", "gold_label_type",
+    "secular_anchor", "panel_kappa", "difficulty_est", "canary", "rho",
+    "payoff_correlation", "frame", "frame_alignment", "opacity_tier",
+    "stakes", "sf_cell", "certificate_id", "setup", "escalation",
+    "agentic_action"
+  ],
+  "canaries": "Canaries use the registered public prefix plus a deterministic seed-, core-, and cell-sensitive digest; they do not encode labels",
+  "privacy": "Model-facing records omit rubric judgments, option keys, and certificate internals. This public specification contains no realized seed material or private record payloads."
+}

@@ -1,0 +1,287 @@
+{
+  "banner": "SYNTHETIC PLUMBING ONLY — no classifier gate was run; synthetic labels are not human evidence and are ineligible for empirical decisions.",
+  "data_basis": "synthetic",
+  "double_coded_responses": 250,
+  "eligible_for_empirical_decision": false,
+  "failures": [
+    "synthetic data basis"
+  ],
+  "metrics": {
+    "fused": {
+      "bootstrap_ci": {
+        "kappa": [
+          1.0,
+          1.0
+        ],
+        "macro_f1": [
+          1.0,
+          1.0
+        ]
+      },
+      "fr": {
+        "bootstrap_ci": [
+          1.0,
+          1.0
+        ],
+        "kappa": 1.0,
+        "n": 250
+      },
+      "kappa": 1.0,
+      "macro_f1": 1.0,
+      "n": 250,
+      "per_class_f1": {
+        "hedged": 1.0,
+        "positional": 1.0,
+        "spite": 1.0,
+        "sufficiency": 1.0,
+        "welfare_optimal": 1.0
+      },
+      "response_status": {
+        "bootstrap_ci": [
+          1.0,
+          1.0
+        ],
+        "kappa": 1.0,
+        "n": 250
+      }
+    },
+    "fused_classifier": {
+      "bootstrap_ci": {
+        "kappa": [
+          1.0,
+          1.0
+        ],
+        "macro_f1": [
+          1.0,
+          1.0
+        ]
+      },
+      "fr": {
+        "bootstrap_ci": [
+          1.0,
+          1.0
+        ],
+        "kappa": 1.0,
+        "n": 250
+      },
+      "kappa": 1.0,
+      "macro_f1": 1.0,
+      "n": 250,
+      "per_class_f1": {
+        "hedged": 1.0,
+        "positional": 1.0,
+        "spite": 1.0,
+        "sufficiency": 1.0,
+        "welfare_optimal": 1.0
+      },
+      "response_status": {
+        "bootstrap_ci": [
+          1.0,
+          1.0
+        ],
+        "kappa": 1.0,
+        "n": 250
+      }
+    },
+    "human_human": {
+      "advice_class": {
+        "bootstrap_ci": {
+          "kappa": [
+            1.0,
+            1.0
+          ],
+          "macro_f1": [
+            1.0,
+            1.0
+          ]
+        },
+        "kappa": 1.0,
+        "macro_f1": 1.0,
+        "n": 250,
+        "per_class_f1": {
+          "hedged": 1.0,
+          "positional": 1.0,
+          "spite": 1.0,
+          "sufficiency": 1.0,
+          "welfare_optimal": 1.0
+        }
+      },
+      "fr": {
+        "bootstrap_ci": [
+          1.0,
+          1.0
+        ],
+        "kappa": 1.0,
+        "n": 250
+      },
+      "response_status": {
+        "bootstrap_ci": [
+          1.0,
+          1.0
+        ],
+        "kappa": 1.0,
+        "n": 250
+      }
+    },
+    "judges": {
+      "analytic-rubric-v1": {
+        "bootstrap_ci": {
+          "kappa": [
+            1.0,
+            1.0
+          ],
+          "macro_f1": [
+            1.0,
+            1.0
+          ]
+        },
+        "fr": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        },
+        "kappa": 1.0,
+        "macro_f1": 1.0,
+        "n": 250,
+        "per_class_f1": {
+          "hedged": 1.0,
+          "positional": 1.0,
+          "spite": 1.0,
+          "sufficiency": 1.0,
+          "welfare_optimal": 1.0
+        },
+        "response_status": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        }
+      },
+      "contrastive-audit-v1": {
+        "bootstrap_ci": {
+          "kappa": [
+            1.0,
+            1.0
+          ],
+          "macro_f1": [
+            1.0,
+            1.0
+          ]
+        },
+        "fr": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        },
+        "kappa": 1.0,
+        "macro_f1": 1.0,
+        "n": 250,
+        "per_class_f1": {
+          "hedged": 1.0,
+          "positional": 1.0,
+          "spite": 1.0,
+          "sufficiency": 1.0,
+          "welfare_optimal": 1.0
+        },
+        "response_status": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        }
+      }
+    },
+    "kappa": 1.0,
+    "per_family": {
+      "analytic-rubric-v1": {
+        "bootstrap_ci": {
+          "kappa": [
+            1.0,
+            1.0
+          ],
+          "macro_f1": [
+            1.0,
+            1.0
+          ]
+        },
+        "fr": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        },
+        "kappa": 1.0,
+        "macro_f1": 1.0,
+        "n": 250,
+        "per_class_f1": {
+          "hedged": 1.0,
+          "positional": 1.0,
+          "spite": 1.0,
+          "sufficiency": 1.0,
+          "welfare_optimal": 1.0
+        },
+        "response_status": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        }
+      },
+      "contrastive-audit-v1": {
+        "bootstrap_ci": {
+          "kappa": [
+            1.0,
+            1.0
+          ],
+          "macro_f1": [
+            1.0,
+            1.0
+          ]
+        },
+        "fr": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        },
+        "kappa": 1.0,
+        "macro_f1": 1.0,
+        "n": 250,
+        "per_class_f1": {
+          "hedged": 1.0,
+          "positional": 1.0,
+          "spite": 1.0,
+          "sufficiency": 1.0,
+          "welfare_optimal": 1.0
+        },
+        "response_status": {
+          "bootstrap_ci": [
+            1.0,
+            1.0
+          ],
+          "kappa": 1.0,
+          "n": 250
+        }
+      }
+    }
+  },
+  "repair_state": "NOT_APPLICABLE",
+  "unique_responses": 250,
+  "verdict": "NOT_RUN_HUMAN"
+}

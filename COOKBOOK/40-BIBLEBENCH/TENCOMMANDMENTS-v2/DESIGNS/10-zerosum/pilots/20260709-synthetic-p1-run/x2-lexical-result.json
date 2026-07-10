@@ -1,0 +1,28 @@
+{
+  "audit": "X2 lexical/length",
+  "baselines": {
+    "length_only": {
+      "accuracy": 0.25,
+      "decision_role": "diagnostic"
+    },
+    "normalized_style_bag_of_words": {
+      "accuracy": 0.25,
+      "decision_role": "registered_gate"
+    },
+    "raw_bag_of_words": {
+      "accuracy": 0.40625,
+      "decision_role": "diagnostic"
+    }
+  },
+  "chance_accuracy": 0.25,
+  "eligible_for_x2_lexical_gate": true,
+  "folds": 5,
+  "n_cores": 40,
+  "n_records": 160,
+  "normalized_style_max_accuracy": 0.35,
+  "normalized_style_status": "PASS",
+  "retry_count": 0,
+  "schema_version": 1,
+  "split_unit": "core_id",
+  "target": "rho_class"
+}

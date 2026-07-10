@@ -1,0 +1,19 @@
+{
+  "classifier_gate_status": "NOT_RUN_HUMAN",
+  "eligible_for_empirical_decision": false,
+  "finetune_gate_status": "NOT_RUN_LLM",
+  "live_pilot_status": "BLOCKED_PRECONDITIONS",
+  "mode": "synthetic",
+  "profiles": [
+    "structure_sensitive",
+    "flat_positional",
+    "perverse_harmony",
+    "null_fr",
+    "gr_floor"
+  ],
+  "response_count": 5560,
+  "schema_version": 1,
+  "seed": 2026070901,
+  "status": "HARNESS_VALIDATION_ONLY",
+  "study_id": "10CB-ZEROSUM-P1"
+}

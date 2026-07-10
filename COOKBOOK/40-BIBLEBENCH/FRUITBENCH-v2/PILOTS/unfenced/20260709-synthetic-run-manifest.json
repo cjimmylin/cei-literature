@@ -1,0 +1,104 @@
+{
+  "banner": "SYNTHETIC \u2014 HARNESS VALIDATION ONLY; not empirical model measurements",
+  "date_token": "20260709",
+  "mode": "synthetic",
+  "design": "unfenced",
+  "source_commit": "75623c7b343a36fb52ec98899056b7fdf43e1a21",
+  "config_path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced/pilot_config.json",
+  "config_sha256": "07ab9b8238f667966bbb2c6fa682279f2e1da922c428fdc379276c07c01a23f3",
+  "scoped_git_dirty": false,
+  "scoped_git_status": [],
+  "inputs": {
+    "harness": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced",
+      "n_files": 13,
+      "sha256": "73b5e6e8663cd4ff9b4de38b6c622bd3575b93f69309fd10edf62ce99c51b117"
+    },
+    "items": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/unfenced",
+      "n_files": 16,
+      "sha256": "924d22594766ce177b21d83273b961c5e7dd1cb13f9d725d8620b6503b1bee46"
+    },
+    "synthetic_reference": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced/synthetic_reference.json",
+      "sha256": "70e86b42de8a0c1417e46ac917a1dc05bef11fd5c1622820de20fd8fc71f4495"
+    },
+    "neutral_system_prompt": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced/neutral-system-v1.txt",
+      "sha256": "259a1c6dac2c04ddb12bb7f06bcc3fd970ef55db6e292952587b4bdf3225a64c"
+    },
+    "rubric": {
+      "path": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced/rubric.json",
+      "sha256": "a2e8755d15cb7d45da760abcdf90896bf2bdb00e355599f258666787e091579a"
+    }
+  },
+  "effective_config": {
+    "_comment": "UNFENCED P1. Synthetic mode is harness-validation only. The P1 does not calibrate an attractor, so D-35 attacker calibration is not invoked. A live run remains latched on validated fit judging, human substitution, credentials, and real vendor-disjoint role design if more roles are added.",
+    "design": "unfenced",
+    "mode": "synthetic",
+    "live_judge_ready": false,
+    "arms": [
+      "V0",
+      "V1",
+      "V2",
+      "V3"
+    ],
+    "paths": {
+      "items": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/ITEMS/unfenced",
+      "pilots": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/PILOTS/unfenced",
+      "synthetic_reference": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced/synthetic_reference.json",
+      "system_prompt": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced/neutral-system-v1.txt",
+      "rubric": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/fruitbench-unfenced-v2-04/COOKBOOK/40-BIBLEBENCH/FRUITBENCH-v2/HARNESS/unfenced/rubric.json"
+    },
+    "estimands": {
+      "surface_aggregation": "pooled_affordance_observations",
+      "gate_aggregation": "pooled_tier1_affordance_observations",
+      "binary_fit_min_rubric_score": 4,
+      "stabilization_pseudocount": 0.5,
+      "ci_z": 1.959963984540054,
+      "ci_method": "log_or_wald_harness_only",
+      "cluster_unit": "none_harness_validation_only"
+    },
+    "rollouts": {
+      "evaluation": 6
+    },
+    "role_counts": {
+      "evaluation": 3
+    },
+    "roles": {
+      "evaluation": [
+        {
+          "name": "discretionary-high",
+          "family": "syn-discretionary",
+          "vendor": "synthetic-discretionary",
+          "adapter": "synthetic",
+          "profile": "discretionary_high",
+          "params": {
+            "seed": 20260721
+          }
+        },
+        {
+          "name": "instruction-bound",
+          "family": "syn-instruction",
+          "vendor": "synthetic-instruction",
+          "adapter": "synthetic",
+          "profile": "instruction_bound",
+          "params": {
+            "seed": 20260722
+          }
+        },
+        {
+          "name": "gold-plater",
+          "family": "syn-goldplater",
+          "vendor": "synthetic-goldplater",
+          "adapter": "synthetic",
+          "profile": "gold_plater",
+          "params": {
+            "seed": 20260723
+          }
+        }
+      ]
+    }
+  },
+  "artifact_set_commit_marker": "20260709-synthetic-run-manifest.json"
+}

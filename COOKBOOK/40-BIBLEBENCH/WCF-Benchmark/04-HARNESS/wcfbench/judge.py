@@ -434,16 +434,26 @@ class JudgeCall:
 
 
 def complete_with_retry(judge, prompt: str, *, item_id: Optional[str] = None, is_complete) -> JudgeCall:
-    """Call ``judge.complete`` once, retry ONCE on truncation (client
-    ``last_finish_reason == 'length'``) or an incomplete emission (``is_complete(text)``
-    is False), and report whether it is still bad afterward (R33.3).
+    """Call ``judge.complete`` once, retry ONCE on transport/truncation, and report
+    whether it is still bad afterward (R33.3, widened by R35.1).
 
-    A refusal is NOT a truncation: an unwilling judge is returned as-is (``discarded``
-    stays False) so the caller's existing refusal handling surfaces it. ``is_complete``
-    is the per-surface completeness predicate (e.g. both disclosure KP lines present).
-    ``finish_reason`` is read from the client after each call if it exposes one."""
+    Retry triggers (R35.1 — probe/production parity): a truncation or explicit transport
+    error (``last_finish_reason in {'length','error'}``), an empty/silent emission, or an
+    incomplete emission from a WILLING judge (``is_complete(text)`` is False). A NON-empty
+    refusal is a terminal state, NOT a transport loss: an unwilling judge is returned as-is
+    (``discarded`` stays False) so the caller's existing refusal handling surfaces it — it is
+    never retried, and never confused with a dropped transport error (the session-12 gap:
+    gemini's ``error`` finish_reasons were silently counted as qualification fails because the
+    probe path called ``.complete`` directly and never retried them). ``is_complete`` is the
+    per-surface completeness predicate (e.g. both disclosure KP lines present)."""
     def _bad(t: str, r: Optional[str]) -> bool:
-        return willingness_to_grade(t) and (r == "length" or not is_complete(t))
+        if r in ("length", "error"):
+            return True                          # explicit truncation / transport error
+        if not (t or "").strip():
+            return True                          # empty / silent emission — transport, not a refusal
+        if not willingness_to_grade(t):
+            return False                         # a non-empty refusal is terminal — surfaced, not retried
+        return not is_complete(t)                # a willing judge that emitted too few KP lines
 
     text = judge.complete(prompt, item_id=item_id)
     fr = getattr(judge, "last_finish_reason", None)
@@ -654,6 +664,29 @@ class JudgeCalibrationResult:
     def passed_all(self) -> bool:
         return not self.flagged
 
+    @property
+    def cause(self) -> str:
+        """R35.3 rep-level cause for this G4 run: ``pass`` if every case passed, else the
+        most salient failing cause across cases (substantive > format > transport — a
+        genuine miscalibration outranks an incidental transport hiccup)."""
+        causes = [r.get("cause", "fail_substantive") for r in self.by_case.values() if not r["passed"]]
+        if not causes:
+            return "pass"
+        for c in ("fail_substantive", "fail_format", "fail_transport_after_retry"):
+            if c in causes:
+                return c
+        return causes[0]
+
+
+def build_g4_prompt(case: "JudgeCalibrationCase") -> str:
+    """The G4 calibration prompt for one case. Extracted so the R35.4 template hash tracks
+    the real prompt source (a drift here must invalidate the qualification manifest)."""
+    return (
+        f"JUDGE-CALIBRATION {case.case_id}\n{case.description}\n"
+        f"Score answer {case.higher_label} and answer {case.lower_label} for charity "
+        f"(Q147/Q135). Emit `{case.higher_label}: <score>` and `{case.lower_label}: <score>`."
+    )
+
 
 def run_judge_calibration(judge, battery: Sequence[JudgeCalibrationCase] = None) -> JudgeCalibrationResult:
     """Run a judge against the G4 calibration battery; flag it if it scores the
@@ -666,23 +699,31 @@ def run_judge_calibration(judge, battery: Sequence[JudgeCalibrationCase] = None)
     battery = list(battery if battery is not None else G4_CALIBRATION_BATTERY)
     by_case: Dict[str, Dict[str, Any]] = {}
     for case in battery:
-        prompt = (
-            f"JUDGE-CALIBRATION {case.case_id}\n{case.description}\n"
-            f"Score answer {case.higher_label} and answer {case.lower_label} for charity "
-            f"(Q147/Q135). Emit `{case.higher_label}: <score>` and `{case.lower_label}: <score>`."
-        )
-        v = parse_judge_verdict(judge.complete(prompt, item_id=case.case_id))
+        prompt = build_g4_prompt(case)
+        # R35.1: route through the production retry seam (retry once on transport/truncation);
+        # a case that still returns no parseable A/B scores after the retry is a transport/format
+        # loss, not a silent miscalibration.
+        def _both_scored(t, _hi=case.higher_label, _lo=case.lower_label):
+            vv = parse_judge_verdict(t)
+            return vv.scores.get(_hi) is not None and vv.scores.get(_lo) is not None
+        call = complete_with_retry(judge, prompt, item_id=case.case_id, is_complete=_both_scored)
+        v = parse_judge_verdict(call.text)
         hi = v.scores.get(case.higher_label)
         lo = v.scores.get(case.lower_label)
-        if not v.graded or hi is None or lo is None:
+        if call.discarded:
+            by_case[case.case_id] = {"passed": False,
+                                     "reason": "call truncated/short/errored after one retry (R35.1)",
+                                     "higher": hi, "lower": lo, "cause": transport_or_format_cause(call)}
+        elif not v.graded or hi is None or lo is None:
             by_case[case.case_id] = {"passed": False, "reason": "unwilling / unparseable verdict",
-                                     "higher": hi, "lower": lo}
+                                     "higher": hi, "lower": lo, "cause": "fail_format"}
         elif hi > lo:
-            by_case[case.case_id] = {"passed": True, "reason": f"A({hi}) > B({lo})", "higher": hi, "lower": lo}
+            by_case[case.case_id] = {"passed": True, "reason": f"A({hi}) > B({lo})",
+                                     "higher": hi, "lower": lo, "cause": "pass"}
         else:
             by_case[case.case_id] = {"passed": False,
                                      "reason": f"B({lo}) ≥ A({hi}) — length/polish-biased (G4)",
-                                     "higher": hi, "lower": lo}
+                                     "higher": hi, "lower": lo, "cause": "fail_substantive"}
     return JudgeCalibrationResult(by_case=by_case)
 
 
@@ -694,13 +735,29 @@ def run_judge_calibration(judge, battery: Sequence[JudgeCalibrationCase] = None)
 # cannot catch: award-scale compliance (F-1) and disclosure-sign (F-2). R25 adds a
 # probe for each, run at panel construction with the same calibrate-and-discard rule.
 
+#: R35.3 rep-level cause taxonomy — WHY a probe rep failed (or that it passed).
+PROBE_CAUSES = ("pass", "fail_substantive", "fail_format", "fail_transport_after_retry")
+
+
+def transport_or_format_cause(call: "JudgeCall") -> str:
+    """Classify a DISCARDED :class:`JudgeCall` (still bad after the R35.1 retry) as a
+    transport loss vs a format failure. An explicit ``length``/``error`` finish_reason or
+    an empty/silent emission is transport (infrastructure, not the judge's grading); a
+    willing but persistently-unparseable non-empty emission is a format/compliance failure."""
+    fr = call.finish_reason
+    if fr in ("length", "error") or not (call.text or "").strip():
+        return "fail_transport_after_retry"
+    return "fail_format"
+
+
 @dataclass
 class ProbeResult:
-    """A judge-acceptance probe verdict (R25)."""
+    """A judge-acceptance probe verdict (R25), with the R35.3 rep-level ``cause``."""
 
     passed: bool
     detail: str = ""
     observed: Any = None
+    cause: str = "pass"
 
 
 # --- Award-consistency probe (post-R24) -------------------------------------
@@ -739,9 +796,16 @@ def run_award_consistency_probe(judge, *, tolerance: Optional[int] = None) -> Pr
     tol = _AWARD_CONSISTENCY_TOLERANCE if tolerance is None else tolerance
     prompt = build_award_prompt(stem=_AWARD_CONSISTENCY_STEM, rubric=_AWARD_CONSISTENCY_RUBRIC,
                                 response=_AWARD_CONSISTENCY_RESPONSE)
-    v = parse_award_verdict(judge.complete(prompt, item_id="AWARD-CONSISTENCY-PROBE"))
+    # R35.1: route through the production retry seam (retry once on transport/truncation).
+    call = complete_with_retry(judge, prompt, item_id="AWARD-CONSISTENCY-PROBE",
+                               is_complete=lambda t: award_emission_count(t) >= len(_AWARD_CONSISTENCY_EXPECTED))
+    if call.discarded:
+        return ProbeResult(False, "award call truncated/short/errored after one retry (R35.1)",
+                           observed=None, cause=transport_or_format_cause(call))
+    v = parse_award_verdict(call.text)
     if not v.graded or not v.awards:
-        return ProbeResult(False, "unwilling / no parseable award lines (format failure)", observed=v.awards)
+        return ProbeResult(False, "unwilling / no parseable award lines (format failure)",
+                           observed=v.awards, cause="fail_format")
     disagreements = 0
     missing = 0
     for n, exp in _AWARD_CONSISTENCY_EXPECTED.items():
@@ -753,7 +817,7 @@ def run_award_consistency_probe(judge, *, tolerance: Optional[int] = None) -> Pr
     passed = off <= tol
     return ProbeResult(passed,
                        f"{disagreements} disagreement(s) + {missing} missing vs pattern (tolerance {tol})",
-                       observed=v.awards)
+                       observed=v.awards, cause="pass" if passed else "fail_substantive")
 
 
 # --- R33.4 discrimination probe (real WHOLE-C9-W301 fixtures) ----------------
@@ -781,11 +845,22 @@ def run_discrimination_probe(judge, *, tolerance: int = 1) -> ProbeResult:
                                        response=DISCRIMINATION_STRONG_RESPONSE)
     weak_prompt = build_award_prompt(stem=item.stem, rubric=item.rubric,
                                      response=DISCRIMINATION_WEAK_RESPONSE)
-    sv = parse_award_verdict(judge.complete(strong_prompt, item_id="DISCRIMINATION-PROBE-STRONG"))
-    wv = parse_award_verdict(judge.complete(weak_prompt, item_id="DISCRIMINATION-PROBE-WEAK"))
+    # R35.1: both award calls route through the production retry seam (retry once on
+    # transport/truncation); a persistent failure is a transport/format cause, not silence.
+    listed = len(item.rubric)
+    sc = complete_with_retry(judge, strong_prompt, item_id="DISCRIMINATION-PROBE-STRONG",
+                             is_complete=lambda t: award_emission_count(t) >= listed)
+    wc = complete_with_retry(judge, weak_prompt, item_id="DISCRIMINATION-PROBE-WEAK",
+                             is_complete=lambda t: award_emission_count(t) >= listed)
+    if sc.discarded or wc.discarded:
+        bad = sc if sc.discarded else wc
+        return ProbeResult(False, "discrimination award call truncated/short/errored after retry (R35.1)",
+                           observed=None, cause=transport_or_format_cause(bad))
+    sv = parse_award_verdict(sc.text)
+    wv = parse_award_verdict(wc.text)
     if not sv.graded or not wv.graded or not sv.awards or not wv.awards:
         return ProbeResult(False, "unwilling / unparseable award verdict on the discrimination pair",
-                           observed={"strong": sv.awards, "weak": wv.awards})
+                           observed={"strong": sv.awards, "weak": wv.awards}, cause="fail_format")
     kps = DISCRIMINATION_DISCRIMINATING_KPS
     mismatches = 0
     for kp in kps:
@@ -803,6 +878,7 @@ def run_discrimination_probe(judge, *, tolerance: int = 1) -> ProbeResult:
         f"(tolerance {tolerance}); patterns_differ={differs}",
         observed={"strong": {k: sv.awards.get(k) for k in kps},
                   "weak": {k: wv.awards.get(k) for k in kps}},
+        cause="pass" if passed else "fail_substantive",
     )
 
 

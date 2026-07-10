@@ -1,0 +1,165 @@
+{
+  "canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "judges": [
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {}
+      },
+      "eligible_surfaces": [
+        "coherence",
+        "settled_core"
+      ],
+      "family": "openai",
+      "name": "gpt4omini",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 2
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "openai/gpt-4o-mini"
+    },
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {}
+      },
+      "eligible_surfaces": [
+        "coherence",
+        "disclosure",
+        "open_award",
+        "settled_core"
+      ],
+      "family": "google",
+      "name": "gemini-flash",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 5
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 6
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 8
+        }
+      },
+      "slug": "google/gemini-2.5-flash"
+    },
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {}
+      },
+      "eligible_surfaces": [],
+      "family": "mistral",
+      "name": "mistral-small",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 2
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "mistralai/mistral-small-3.2-24b-instruct"
+    },
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {}
+      },
+      "eligible_surfaces": [],
+      "family": "mistral",
+      "name": "mistral-medium",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 2
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "mistralai/mistral-medium-3.1"
+    }
+  ],
+  "k": 8,
+  "memo": "R34-R37 (R35.6 provisional manifest of record)",
+  "run_dir": "07-PILOTS/20260710-probe-stability",
+  "source": "pass_table (raw_verdicts.jsonl authoritative; memo sec0 decomposition)",
+  "template_hashes": {
+    "award_consistency": "b2cbf18372f43cf1",
+    "disclosure": "46587575fd092a9a",
+    "discrimination": "73dae2e859ebb62a",
+    "g4": "4480dbfb4d6f9e06"
+  },
+  "threshold": 5,
+  "timestamp": "2026-07-10T08:32:00"
+}

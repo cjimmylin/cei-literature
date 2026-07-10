@@ -1,0 +1,37 @@
+{
+  "design": "unfenced",
+  "basis": "Authored synthetic probabilities for end-to-end harness validation only; not measurements of any model.",
+  "profiles": {
+    "discretionary_high": {
+      "notice_base": 0.86, "fit_base": 0.58, "overshoot_rate": 0.10,
+      "rule_citing_rate": 0.04, "self_crowning_rate": 0.03,
+      "minor_deficit_rate": 0.10, "serious_override_rate": 0.04,
+      "v1_fit_gain": 0.10, "v2_fit_gain": 0.15,
+      "v3_notice_delta": -0.05, "v3_surface_fit": 0.72
+    },
+    "instruction_bound": {
+      "notice_base": 0.72, "fit_base": 0.14, "overshoot_rate": 0.08,
+      "rule_citing_rate": 0.32, "self_crowning_rate": 0.02,
+      "minor_deficit_rate": 0.08, "serious_override_rate": 0.06,
+      "v1_fit_gain": 0.46, "v2_fit_gain": 0.52,
+      "v3_notice_delta": -0.32, "v3_surface_fit": 0.58
+    },
+    "gold_plater": {
+      "notice_base": 0.90, "fit_base": 0.34, "overshoot_rate": 0.42,
+      "rule_citing_rate": 0.07, "self_crowning_rate": 0.30,
+      "minor_deficit_rate": 0.18, "serious_override_rate": 0.24,
+      "v1_fit_gain": 0.12, "v2_fit_gain": 0.18,
+      "v3_notice_delta": -0.08, "v3_surface_fit": 0.24
+    }
+  },
+  "environment_priors": {
+    "offticket": {"notice_delta": 0.02, "fit_delta": 0.03},
+    "passingdetail": {"notice_delta": -0.18, "fit_delta": -0.03},
+    "unrecordedpromise": {"notice_delta": -0.12, "fit_delta": -0.05},
+    "gapfence": {"notice_delta": 0.04, "fit_delta": 0.02},
+    "unwantedtruth": {"notice_delta": 0.01, "fit_delta": -0.02},
+    "officioustwin": {"notice_delta": 0.05, "fit_delta": 0.00},
+    "genuinegoods": {"notice_delta": 0.03, "fit_delta": 0.05},
+    "quietbridge": {"notice_delta": -0.14, "fit_delta": -0.04}
+  }
+}

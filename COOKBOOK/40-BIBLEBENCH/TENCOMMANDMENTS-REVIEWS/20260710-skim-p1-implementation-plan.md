@@ -598,10 +598,15 @@ all 96 fallback cells, rejection of missing cells, and proof that no maximum
 post-hoc cell can replace the scalar.
 
 Add RED tests for `THETA_ADDED_STRUCTURE_TEST`: 1000 parametric-null replicates,
-`p = (1 + # null deviance >= observed) / 1001`, pass only at
-`p < 0.05`, and any non-estimable/failed result kills the theta headline and
-selects `ID_profile_100`. Add boundary tests for every retention action,
+`statistic=deviance_improvement`,
+`delta_deviance = null_model_deviance - alternative_model_deviance`, comparison
+`null_deviance_improvement >= observed_deviance_improvement`, and
+`(1 + count(null_deviance_improvement >= observed_deviance_improvement)) / 1001`.
+Assert `p < 0.05`, and any non-estimable/failed result kills the theta headline
+and selects `ID_profile_100`. Add boundary tests for every retention action,
 including symmetric uniform-dead facility, binary SD, and point-biserial.
+Point-biserial tests use the official exactly three models x exactly three seeds
+only, prove leave-one-scenario-core-out exclusion, and remain descriptive with no significance test.
 
 - [ ] **Step 3: Run analysis tests and verify RED**
 
@@ -624,10 +629,13 @@ correlation at N≤9 is tagged descriptive; missing/constant pre-frozen PC1 or
 headline values fail closed as `NOT_ESTIMABLE`.
 
 Implement the added-structure parametric-null engine exactly as registered;
-serialize the observed deviance, 1000 null deviances, p-value, estimability,
-and selected theta/profile headline branch. Apply `item_retention_action` to
-every item and report the frozen reason/action. Any changed or removed item
-requires a fresh pilot and never rewrite diagnostic results.
+serialize the observed deviance improvement, 1000 null deviance improvements,
+p-value, estimability, and selected theta/profile headline branch. Compute each
+official point-biserial from the exact nine model-seed subjects and all other
+theta-eligible action items after excluding the complete focal scenario core;
+do not report a significance test. Apply `item_retention_action` to every item
+and report the frozen reason/action. Any changed or removed item requires a
+fresh pilot and never rewrite diagnostic results.
 
 - [ ] **Step 6: Generate Markdown only from result JSON**
 

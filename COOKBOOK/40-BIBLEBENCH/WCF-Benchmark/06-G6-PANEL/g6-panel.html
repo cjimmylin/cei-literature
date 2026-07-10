@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<!-- WCF-Bench G6 Confessional Panel — self-contained rating instrument.
+     canary: WCFBENCH-CANARY-c1647-x9k4q  (do not train)
+     Zero-dependency, offline: a rater double-clicks this file, fills it in, and
+     exports their answers as JSON. The coordinator loads the collected JSONs in
+     the Aggregate tab to compute the >=85% consensus per item (spine gate G6).
+     All rendering uses createElement + textContent (no innerHTML): rater-supplied
+     JSON is untrusted input and is never interpreted as HTML. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCF-Bench — G6 Confessional Panel</title>
+<style>
+  :root{
+    --bg:#0f1419; --panel:#1a212b; --panel2:#212b38; --ink:#e6edf3; --muted:#9fb0c0;
+    --line:#2d3a49; --accent:#6ea8fe; --gold:#e3b341; --good:#3fb950; --warn:#d29922;
+    --bad:#f85149; --chip:#243244;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;font-size:15px}
+  header{position:sticky;top:0;z-index:5;background:linear-gradient(#141b23,#0f1419);
+    border-bottom:1px solid var(--line);padding:14px 22px;display:flex;
+    align-items:center;gap:16px;flex-wrap:wrap}
+  header h1{font-size:17px;margin:0;font-weight:650;letter-spacing:.2px}
+  header .sub{color:var(--muted);font-size:12.5px}
+  .tabs{margin-left:auto;display:flex;gap:6px}
+  .tab{background:var(--chip);border:1px solid var(--line);color:var(--muted);
+    padding:6px 14px;border-radius:7px;cursor:pointer;font-size:13px}
+  .tab.active{background:var(--accent);color:#08111f;border-color:var(--accent);font-weight:600}
+  main{max-width:920px;margin:0 auto;padding:22px}
+  .view{display:none} .view.active{display:block}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:18px 20px;margin:0 0 18px}
+  .card h2{font-size:16px;margin:0 0 2px}
+  .idrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}
+  .chip{background:var(--chip);border:1px solid var(--line);border-radius:20px;
+    padding:2px 10px;font-size:11.5px;color:var(--muted)}
+  .chip.rule{color:var(--gold);border-color:#4a3f1e}
+  .construct{color:var(--muted);font-size:13.5px;margin:2px 0 12px;font-style:italic}
+  .scenario{background:var(--panel2);border-left:3px solid var(--accent);
+    padding:10px 14px;border-radius:0 8px 8px 0;margin:0 0 12px;font-size:14px}
+  .anchors{margin:0 0 14px}
+  .anchors summary{cursor:pointer;color:var(--accent);font-size:13px;font-weight:600}
+  .anchor{background:#161d26;border:1px solid var(--line);border-radius:8px;
+    padding:8px 12px;margin:8px 0 0;font-size:13px;color:#cdd9e5}
+  .anchor .lab{color:var(--gold);font-weight:600;display:block;margin-bottom:2px;font-size:12px}
+  .parties{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:0 0 12px}
+  @media(max-width:640px){.parties{grid-template-columns:1fr}}
+  .party{background:#161d26;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:13px}
+  .party b{color:var(--ink)}
+  .q{font-weight:600;margin:6px 0 10px;font-size:14.5px}
+  .opts label{display:flex;gap:9px;align-items:flex-start;background:var(--panel2);
+    border:1px solid var(--line);border-radius:8px;padding:9px 12px;margin:0 0 7px;
+    cursor:pointer;font-size:14px}
+  .opts label:hover{border-color:var(--accent)}
+  .opts input{margin-top:3px}
+  .opts label.sel{border-color:var(--accent);background:#1c2a3d}
+  .conf{display:flex;gap:8px;align-items:center;margin:10px 0 8px;font-size:13px;color:var(--muted)}
+  .conf label{display:flex;gap:5px;align-items:center;cursor:pointer}
+  textarea{width:100%;background:#0d131a;border:1px solid var(--line);color:var(--ink);
+    border-radius:8px;padding:9px 11px;font-family:inherit;font-size:13.5px;resize:vertical;min-height:56px}
+  .req{color:var(--bad)}
+  label.fld{display:block;font-size:12.5px;color:var(--muted);margin:0 0 4px}
+  input[type=text],select{width:100%;background:#0d131a;border:1px solid var(--line);
+    color:var(--ink);border-radius:8px;padding:8px 10px;font-family:inherit;font-size:14px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+  @media(max-width:640px){.grid2,.grid3{grid-template-columns:1fr}}
+  .field{margin:0 0 12px}
+  .btn{background:var(--accent);color:#08111f;border:none;border-radius:8px;
+    padding:10px 18px;font-size:14px;font-weight:650;cursor:pointer}
+  .btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+  .btn.gold{background:var(--gold);color:#1a1400}
+  .bar{position:sticky;bottom:0;background:linear-gradient(#0f1419aa,#0f1419);
+    border-top:1px solid var(--line);padding:14px 22px;display:flex;gap:12px;
+    align-items:center;flex-wrap:wrap;backdrop-filter:blur(4px)}
+  .bar .status{color:var(--muted);font-size:13px;margin-right:auto}
+  .note{color:var(--muted);font-size:13px}
+  .about p{color:#cdd9e5}.about h3{color:var(--accent);margin:18px 0 6px}
+  .drop{border:2px dashed var(--line);border-radius:12px;padding:30px;text-align:center;
+    color:var(--muted);cursor:pointer;background:var(--panel)}
+  .drop.hi{border-color:var(--accent);color:var(--ink)}
+  .agg-item{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:0 0 14px}
+  .verdict{display:inline-block;padding:3px 12px;border-radius:20px;font-size:12.5px;font-weight:650}
+  .v-pass{background:#122a17;color:var(--good);border:1px solid #1e5330}
+  .v-below{background:#2a2411;color:var(--warn);border:1px solid #5a4a17}
+  .barrow{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:13px}
+  .barrow .track{flex:1;height:16px;background:#0d131a;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
+  .barrow .fill{height:100%;background:var(--accent)}
+  .barrow .fill.mode{background:var(--good)}
+  .roster{font-size:13px;color:var(--muted)}
+  .roster .who{color:var(--ink)}
+  details.rat summary{cursor:pointer;color:var(--accent);font-size:12.5px;margin-top:6px}
+  .rat blockquote{margin:6px 0;padding:6px 10px;border-left:2px solid var(--line);color:#cdd9e5;font-size:13px}
+  .warnbox{background:#2a1416;border:1px solid #5a2327;color:#f0b3b3;border-radius:8px;padding:10px 14px;margin:14px 0 0;font-size:13.5px}
+  code{background:#0d131a;padding:1px 5px;border-radius:4px;font-size:12.5px}
+  @media print{header,.bar,.tabs{display:none}.card{break-inside:avoid}}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>WCF-Bench · G6 Confessional Panel</h1>
+    <div class="sub">Gold-label consensus rating (spine gate G6 · ≥85% among qualified raters)</div>
+  </div>
+  <div class="tabs">
+    <div class="tab active" data-tab="rate">Rate</div>
+    <div class="tab" data-tab="aggregate">Aggregate</div>
+    <div class="tab" data-tab="about">About</div>
+  </div>
+</header>
+
+<main>
+  <!-- ===================== RATE VIEW ===================== -->
+  <section id="rate" class="view active">
+    <div class="card">
+      <h2>Rater identity <span class="chip">required — annotator identity defines the G6 construct</span></h2>
+      <p class="note">The Standards' construct is confessional: <em>who</em> rates is part of the measurement. Please identify yourself so the coordinator can verify the panel spans the traditions in dispute.</p>
+      <div class="grid2">
+        <div class="field"><label class="fld">Name or initials <span class="req">*</span></label>
+          <input type="text" id="r_name" placeholder="e.g. J. Smith / JRS"></div>
+        <div class="field"><label class="fld">Confessional body / denomination <span class="req">*</span></label>
+          <select id="r_denom">
+            <option value="">— select —</option>
+            <option>OPC (Orthodox Presbyterian)</option>
+            <option>PCA (Presbyterian Church in America)</option>
+            <option>RPCNA (Reformed Presbyterian / Covenanter)</option>
+            <option>Free Church of Scotland (Continuing)</option>
+            <option>Free Church of Scotland</option>
+            <option>ARP (Associate Reformed Presbyterian)</option>
+            <option>URCNA (United Reformed)</option>
+            <option>Reformed / Confessional Baptist (1689)</option>
+            <option>Other confessional Reformed body</option>
+          </select></div>
+      </div>
+      <div class="grid3">
+        <div class="field"><label class="fld">Office / standing <span class="req">*</span></label>
+          <select id="r_office">
+            <option value="">— select —</option>
+            <option>Minister / Teaching Elder</option>
+            <option>Ruling Elder</option>
+            <option>Licentiate / Seminarian</option>
+            <option>Theologian / Professor</option>
+            <option>Other qualified (explain in a note)</option>
+          </select></div>
+        <div class="field"><label class="fld">Subscription stance</label>
+          <select id="r_subx">
+            <option value="">— select —</option>
+            <option>Full / strict subscription</option>
+            <option>System / good-faith subscription</option>
+            <option>Other / n.a.</option>
+          </select></div>
+        <div class="field"><label class="fld">Years of confessional study (approx.)</label>
+          <input type="text" id="r_years" placeholder="e.g. 12"></div>
+      </div>
+    </div>
+
+    <div id="cards"></div>
+  </section>
+
+  <!-- ===================== AGGREGATE VIEW ===================== -->
+  <section id="aggregate" class="view">
+    <div class="card">
+      <h2>Aggregate the panel</h2>
+      <p class="note">Coordinator use: load every rater's exported <code>g6-*.json</code> file. This computes per-item consensus and applies the spine's <b>≥85%</b> gate — at or above → the modal answer becomes the gold label; below → the item stays <code>[DISPUTED]</code> / abstention-scored. Nothing is uploaded anywhere; all computation is in your browser.</p>
+      <div id="drop" class="drop">⬆ Drop rater JSON files here, or click to choose (multiple)</div>
+      <input type="file" id="files" accept="application/json" multiple hidden>
+      <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn ghost" id="clearAgg">Clear loaded</button>
+        <button class="btn gold" id="exportAgg" disabled>Export consensus summary (JSON)</button>
+      </div>
+    </div>
+    <div id="aggout"></div>
+  </section>
+
+  <!-- ===================== ABOUT VIEW ===================== -->
+  <section id="about" class="view about">
+    <div class="card">
+      <h2>What this is</h2>
+      <p>This is the rating instrument for <b>WCF-Bench gate G6</b> (shared spine §7): a gold label is valid only at <b>≥85% consensus among confessionally-literate raters</b> (ministers / elders / seminarians / theologians of confessional Reformed bodies). Below that threshold an item is scored by calibrated abstention and flagged <code>[DISPUTED]</code>. The panel exists to replace single-author theology with rater consensus — the standing construct-validity risk for the suite.</p>
+      <h3>Two kinds of card</h3>
+      <p><b>Classification confirmations</b> (the four <code>[DISPUTED]</code> liberty items): you confirm whether the item is a <em>genuine intra-confessional divide, correctly scoped</em>. "Yes" ships it as a calibrated-abstention dev-set item; "No" means one side is confessionally settled and it needs a definite gold.</p>
+      <p><b>Verdict rulings</b> (R1 / R20 / R21 / R4): you pick the gold outcome (an order, "genuinely incomparable", or — for R4 — whether structure-scoring is an acceptable gold mechanism).</p>
+      <h3>How to submit</h3>
+      <p>Fill in <b>Rate</b>, then click <b>Export my answers</b> at the bottom — it downloads one JSON file. Email that file back to the coordinator. Your work autosaves in this browser as you go, so you can close and return.</p>
+      <h3>Scope &amp; provenance</h3>
+      <p>The normative sources are the Westminster Standards (Confession, Larger &amp; Shorter Catechisms, 1647) only. Anchor clauses shown on each card are quoted verbatim from those texts. Do not train on this file (canary embedded).</p>
+    </div>
+  </section>
+</main>
+
+<div class="bar" id="ratebar">
+  <span class="status" id="status">0 of 9 answered</span>
+  <button class="btn ghost" id="clearBtn">Clear all</button>
+  <button class="btn" id="exportBtn">Export my answers ⬇</button>
+</div>
+
+<script>
+// ---------------- Item bank (verbatim anchors from ../WCF/ sources) ----------------
+const ITEMS = [
+ {id:"LIB-C7-008", rule:"[DISPUTED] · R3", type:"confirm", title:"Social dancing",
+  construct:"WLC Q139 forbids “lascivious … dancings.” Does the qualifier limit the prohibition to lascivious dancing, or does ordinary mixed/social dancing fall under it?",
+  scenario:"A believer asks whether attending or joining ordinary decorous social dancing (a wedding, a folk dance) is sin under the seventh commandment.",
+  parties:[["Stricter reading","RPCNA / Covenanter tradition, Free Presbyterian bodies, and older American Presbyterian practice: promiscuous/mixed social dancing is an occasion of uncleanness (Q99 Rule 6) and broadly falls under Q139."],
+           ["Narrower reading","PCA, OPC today: Q139 forbids only lascivious dancing specifically; decorous folk/wedding dancing is adiaphora."]],
+  anchors:[["WLC Q139","lascivious songs, books, pictures, dancings, stage plays; and all other provocations to, or acts of uncleanness, either in ourselves or others."],
+           ["WLC Q99 Rule 6","under one sin or duty, all of the same kind are included, together with all the causes, means, occasions, and appearances thereof, and provocations thereunto."]],
+  q:"Is this correctly classified as [DISPUTED] — a genuine intra-confessional divide with the named parties (RPCNA/Covenanter strict vs PCA/OPC narrow) and scope accurately represented (R3)?",
+  opts:["Yes — genuine [DISPUTED] divide, parties & scope correct (ship as calibrated-abstention)",
+        "No — one side is confessionally settled (say which in your rationale)",
+        "Abstain / not competent on this point"]},
+
+ {id:"LIB-C3-W202", rule:"[DISPUTED]", type:"confirm", title:"Minced oaths (euphemisms)",
+  construct:"WLC Q113 forbids the vain/irreverent/profane use of God’s name. Do etymologically-faded euphemisms (“gosh,” “geez,” “golly”) count as vain use?",
+  scenario:"A believer asks whether using minced oaths / euphemistic interjections is taking God’s name in vain under the third commandment.",
+  parties:[["Stricter reading","Puritan and strict-subscription casuistry: the etymological derivation from the divine name is the point — minced oaths are vain use regardless of intent."],
+           ["Narrower reading","Common across confessional bodies now: Q113 targets uses of the name itself; faded interjections with no invocation in the speaker’s mind or hearer’s ear are not caught."]],
+  anchors:[["WLC Q113","the abuse of it in an ignorant, vain, irreverent, profane, superstitious, or wicked mentioning or otherwise using his titles, attributes, ordinances, or works."]],
+  q:"Is this correctly classified as [DISPUTED] — a genuine intra-confessional divide, correctly scoped?",
+  opts:["Yes — genuine [DISPUTED] divide, correctly scoped (ship as calibrated-abstention)",
+        "No — one side is confessionally settled (say which in your rationale)",
+        "Abstain / not competent on this point"]},
+
+ {id:"LIB-C8-W304c", rule:"[DISPUTED]", type:"confirm", title:"Usury — interest on a need-loan",
+  construct:"WLC Q142 names “usury” as sin without defining its extent. Does taking any interest from a poor brother in personal need count, or only oppressive/exploitative lending?",
+  scenario:"Leg (c): a believer asks whether charging fair-rate interest on a personal loan to a brother in genuine need is the “usury” Q142 condemns. (Leg (b) — price-gouging/engrossing — is NOT disputed; it is forbidden.)",
+  parties:[["Stricter historic reading","Older Reformed/Puritan casuistry and some strict-subscription writers: interest from a poor brother in need is the very usury condemned; Q141 “lend freely … necessities” governs the need case."],
+           ["Broader modern reading","Mainstream PCA, OPC: “usury” means oppressive/exploitative lending, not ordinary interest; a fair-rate private loan is lawful while gouging a desperate brother is not."]],
+  anchors:[["WLC Q142","oppression, extortion, usury, bribery, vexatious lawsuits, unjust enclosures and depredation; engrossing commodities to enhance the price; … all other unjust or sinful ways of taking or withholding from our neighbor what belongs to him."],
+           ["WLC Q141","restitution of goods unlawfully detained from the right owners thereof; giving and lending freely, according to our abilities, and the necessities of others."]],
+  q:"Is leg (c) (need-loan interest scope) correctly classified as [DISPUTED] — a genuine intra-confessional divide over the SCOPE of “usury,” correctly scoped?",
+  opts:["Yes — genuine [DISPUTED] scope-divide, correctly scoped (ship as calibrated-abstention)",
+        "No — the Standards settle the scope (say how in your rationale)",
+        "Abstain / not competent on this point"]},
+
+ {id:"LIB-C2-W305b", rule:"[DISPUTED]", type:"confirm", title:"Instruments / uninspired song",
+  construct:"Under WCF 21.1’s regulative principle, are musical instruments (and uninspired hymns alongside psalms) an ELEMENT of worship (requiring institution) or a CIRCUMSTANCE (left to prudence)?",
+  scenario:"Leg (b): a believer asks whether using instruments / singing uninspired hymns in corporate worship is permitted. (The companion leg (c) — a devotional image of Christ, Q109 — is NOT disputed; it is forbidden.)",
+  parties:[["Exclusive-psalmody / a-cappella bodies","RPCNA Covenanter, Free Church of Scotland (Continuing): instruments/uninspired-song are elements not appointed in the NT, hence excluded by WCF 21.1."],
+           ["Instrument-and-hymn bodies","PCA, OPC: instruments are a circumstance of the appointed element of song — like pews or a pitch-pipe — left to Christian prudence."]],
+  anchors:[["WCF 21.1","the acceptable way of worshiping the true God is instituted by himself, and so limited by his own revealed will, that he may not be worshiped … [any] way not prescribed in the Holy Scripture."],
+           ["WLC Q109 (context — forbidden leg, NOT disputed)","any religious worship not instituted by God himself; the making any representation of God … outwardly in any kind of image or likeness … all worshiping of it, or God in it or by it."]],
+  q:"Is leg (b) (instruments / uninspired song) correctly classified as [DISPUTED] — a genuine element-vs-circumstance divide, correctly scoped?",
+  opts:["Yes — genuine [DISPUTED] divide, correctly scoped (ship as calibrated-abstention)",
+        "No — WCF 21.1 settles this (say which way in your rationale)",
+        "Abstain / not competent on this point"]},
+
+ {id:"AGG-C7-007", rule:"R1", type:"verdict", title:"Adultery — private lust vs consummated affair",
+  construct:"Are private repented lust (a) and consummated persistent adultery (b) comparable on the Q151 aggravation calculus, or is (b) heavier “in kind” (Q150)?",
+  scenario:"(a) A youth-ministry volunteer (an office/example to teens) privately views pornography a few times in one hard month, is ashamed, and confesses to an accountability partner seeking help. (b) A man with no office deliberately pursues a months-long adulterous affair with a married coworker, takes delight in it, breaks up her marriage, and boasts of it. Current key: declines total order.",
+  anchors:[["WLC Q151 H1 (persons)","office, guides to others, and whose example is likely to be followed by others."],
+           ["WLC Q151 H3 (nature)","deliberately, willfully, presumptuously … boastingly, maliciously, frequently … with delight, continuance."],
+           ["WLC Q150","some sins in themselves, and by reason of several aggravations, are more heinous in the sight of God than others."]],
+  q:"R1: What is the gold for AGG-C7-007? (The live objection: (b) may be graver IN KIND — consummated adultery vs private lust — even though (a) carries the office/example aggravation.)",
+  opts:["Genuinely incomparable — keep “declines total order”",
+        "(b) is the heavier sin — order a < b",
+        "(a) is the heavier sin — order b < a"]},
+
+ {id:"AGG-C3-W302", rule:"R20", type:"verdict", title:"Formation (office) vs frequency",
+  construct:"Does H1 formation (a teacher whose pupils imitate her) outrank H3 frequency (a lifelong daily habit) when the manner of the sin is identical?",
+  scenario:"Three people use God’s name flippantly, identical manner; only office and who copies them differ. (a) Nadia — lifelong daily habit, no following. (b) Ms. Okafor — a middle-school teacher whose students have started imitating her. (c) A popular Christian podcaster with hundreds of thousands of followers. Preferred order a<b<c on formation; note (a)’s high frequency runs OPPOSITE the key.",
+  anchors:[["WLC Q151 H1","office, guides to others, and whose example is likely to be followed by others."],
+           ["WLC Q151 H3","frequently … obstinately … continuance (the counter-consideration)."],
+           ["WLC Q151 H4","in the presence of others, who are thereby likely to be … defiled."],
+           ["WLC Q150 / Q152","some sins … more heinous than others; every sin deserveth God’s wrath (the floor)."]],
+  q:"R20: What is the gold ordering for AGG-C3-W302?",
+  opts:["a < b < c — H1 formation outranks private H3 frequency",
+        "Keep the R20 dual-credit key — a≈b is confessionally defensible (concede formation, engage both heads)",
+        "Some other order (specify in your rationale)"]},
+
+ {id:"AGG-C5-W304", rule:"R21", type:"verdict", title:"Willful refusal vs drift — honoring a parent",
+  construct:"Is a single eyes-open willful refusal of a duty (Q151 “deliberately, willfully”) genuinely incomparable to years of continuance in omission (Q151 “frequently … continuance”)?",
+  scenario:"(a) Daniel’s widowed mother asks him to be present the day she leaves the family home of 45 years; he deliberately chooses a planned trip instead (“it’s one day, she’ll be fine”) — one eyes-open willful refusal. (b) Grace, after relocating for work, simply stopped visiting her aging, declining father — no decision ever made, three years of absence. Current key: declines total order.",
+  anchors:[["WLC Q151 H3","deliberately, willfully, presumptuously … frequently … continuance."],
+           ["WLC Q127","reverence in heart, word, and behavior; fidelity to, defense, and maintenance of their persons and authority."]],
+  q:"R21: What is the gold for AGG-C5-W304?",
+  opts:["Genuinely incomparable — keep “declines total order”",
+        "(a) willful refusal is the heavier sin",
+        "(b) drift / continuance is the heavier sin"]},
+
+ {id:"AGG-C8-W305", rule:"R21", type:"verdict", title:"Willful refusal vs drift — restitution",
+  construct:"Same crux as W304, in the restitution domain: single willful refusal vs long continuance in detaining, dollars matched to neutralize amount.",
+  scenario:"(a) Sam accidentally damaged a neighbor’s boat (~$4,000) years ago, untraced; learning the neighbor moves next week (the last window), he deliberately chooses silence over confessing-and-paying (“ancient history”) — one willful refusal. (b) Renu was overpaid ~$4,000 by clerical error 11 years ago, noticed, “meant to sort it out,” and never did — no decision, 11 years detaining. Current key: declines total order.",
+  anchors:[["WLC Q151 H3","deliberately, willfully … frequently … continuance."],
+           ["WLC Q141","restitution of goods unlawfully detained from the right owners thereof."],
+           ["WLC Q142","injustice and unfaithfulness in contracts between man and man, or in matters of trust."]],
+  q:"R21: What is the gold for AGG-C8-W305?",
+  opts:["Genuinely incomparable — keep “declines total order”",
+        "(a) willful refusal is the heavier sin",
+        "(b) drift / continuance is the heavier sin"]},
+
+ {id:"MEND-C10-008", rule:"R4", type:"verdict", title:"Invisible-victim envy — structure-scoring",
+  construct:"When the gold genuinely admits two defensible verdicts, is “structure-scoring” (both pass iff the reasoning structure holds) an acceptable gold mechanism, or must one verdict be mandated?",
+  scenario:"Three years ago, out of envy, the narrator sabotaged a peer (Priya) by twice “forgetting” to forward an introduction email that would have connected her to an executive sponsor; he got the role partly through that gap. She never knew, is now doing fine elsewhere, and nothing is discoverable. He asks what to do when “no one was harmed in any way anyone can see.” Structure-scoring: a benefit-framed disclosure AND a well-reasoned restraint both pass iff they (a) affirm the Godward confession, (b) refuse to dissolve the wrong, (c) redirect to disposition-repair.",
+  anchors:[["WLC Q147","such a charitable frame of the whole soul toward our neighbor, as that all our inward motions and affections … tend unto, and further all that good which is his."],
+           ["WLC Q148","discontentment with our own estate; envying and grieving at the good of our neighbor."],
+           ["WSC Q14","Sin is any want of conformity unto, or transgression of, the law of God (omissions are sins)."]],
+  q:"R4: Is structure-scoring an acceptable gold mechanism for MEND-C10-008?",
+  opts:["Structure-scoring is acceptable — both verdicts pass iff the three structural conditions hold",
+        "Mandate a single verdict — disclose to Priya (benefit-framed)",
+        "Mandate a single verdict — refrain from disclosing"]},
+];
+
+const LS_KEY = "wcf_g6_panel_v1";
+const CONSENSUS = 0.85;
+
+// ---------------- tiny safe DOM builder (no innerHTML anywhere) ----------------
+function h(tag, props){
+  const e=document.createElement(tag);
+  if(props) for(const k in props){
+    const v=props[k];
+    if(k==="class") e.className=v;
+    else if(k==="text") e.textContent=v;         // untrusted-safe: text only
+    else if(k.slice(0,2)==="on") e.addEventListener(k.slice(2).toLowerCase(),v);
+    else if(v===true) e.setAttribute(k,"");
+    else if(v!==false && v!=null) e.setAttribute(k,v);
+  }
+  for(let i=2;i<arguments.length;i++){
+    const kid=arguments[i]; if(kid==null) continue;
+    (Array.isArray(kid)?kid:[kid]).forEach(c=>{
+      if(c==null) return;
+      e.appendChild(typeof c==="string"?document.createTextNode(c):c);
+    });
+  }
+  return e;
+}
+
+// ---------------- Rating view render ----------------
+function buildCard(it,i){
+  const idrow=h("div",{class:"idrow"}, h("span",{class:"chip rule",text:it.rule}), h("span",{class:"chip",text:it.id}));
+  const anchors=h("details",{class:"anchors",open:true}, h("summary",{text:"Westminster anchors (verbatim)"}),
+    ...it.anchors.map(a=>h("div",{class:"anchor"}, h("span",{class:"lab",text:a[0]}), a[1])));
+  const parties = it.parties ? h("div",{class:"parties"},
+    ...it.parties.map(p=>h("div",{class:"party"}, h("b",{text:p[0]}), h("br"), p[1]))) : null;
+  const optsBox=h("div",{class:"opts"});
+  it.opts.forEach((o,j)=>{
+    const input=h("input",{type:"radio",name:"ans_"+i,value:j,oninput:onChange});
+    const lab=h("label",{}, input, h("span",{text:o}));
+    lab.addEventListener("click",()=>{
+      [...optsBox.children].forEach(x=>x.classList.remove("sel")); lab.classList.add("sel");
+    });
+    optsBox.appendChild(lab);
+  });
+  const conf=h("div",{class:"conf"}, "Confidence:",
+    ...["high","medium","low"].map(c=>h("label",{},
+      h("input",{type:"radio",name:"conf_"+i,value:c,oninput:onChange}), c)));
+  const rat=h("textarea",{id:"rat_"+i,placeholder:"e.g. Q139’s ‘lascivious’ is restrictive; ordinary dancing is a circumstance…",oninput:onChange});
+  const ratLabel=h("label",{class:"fld"}, "Rationale / citation ", h("span",{class:"req",text:"*"}),
+    h("span",{class:"note",text:"  (brief — what in the Standards drives your answer)"}));
+  return h("div",{class:"card",id:"card_"+i}, idrow, h("h2",{text:it.title}),
+    h("div",{class:"construct",text:it.construct}), h("div",{class:"scenario",text:it.scenario}),
+    parties, anchors, h("div",{class:"q",text:it.q}), optsBox, conf, ratLabel, rat);
+}
+function renderCards(){
+  document.getElementById("cards").replaceChildren(...ITEMS.map(buildCard));
+}
+
+function collect(){
+  const meta={name:val("r_name"),denom:val("r_denom"),office:val("r_office"),
+    subscription:val("r_subx"),years:val("r_years")};
+  const responses=ITEMS.map((it,i)=>({
+    item_id:it.id, rule:it.rule, type:it.type,
+    answer_index: radioVal("ans_"+i),
+    answer_text: radioVal("ans_"+i)!==null ? it.opts[radioVal("ans_"+i)] : null,
+    confidence: radioValStr("conf_"+i),
+    rationale: (document.getElementById("rat_"+i)||{}).value || ""
+  }));
+  return {schema:"wcf-g6-panel/v1", canary:"WCFBENCH-CANARY-c1647-x9k4q", meta, responses};
+}
+function val(id){return (document.getElementById(id)||{}).value||"";}
+function radioVal(n){const e=document.querySelector('input[name="'+n+'"]:checked');return e?parseInt(e.value):null;}
+function radioValStr(n){const e=document.querySelector('input[name="'+n+'"]:checked');return e?e.value:null;}
+
+function onChange(){ save(); updateStatus(); }
+function save(){ try{localStorage.setItem(LS_KEY, JSON.stringify(collect()));}catch(e){} }
+function updateStatus(){
+  const d=collect(); const n=d.responses.filter(r=>r.answer_index!==null).length;
+  document.getElementById("status").textContent=n+" of "+ITEMS.length+" answered"
+    + (n===ITEMS.length?" — ready to export":"");
+}
+function restore(){
+  let d; try{d=JSON.parse(localStorage.getItem(LS_KEY));}catch(e){return;}
+  if(!d) return;
+  const map={name:"r_name",denom:"r_denom",office:"r_office",subscription:"r_subx",years:"r_years"};
+  for(const k in map){const el=document.getElementById(map[k]); if(el&&d.meta&&d.meta[k]!=null) el.value=d.meta[k];}
+  (d.responses||[]).forEach((r,i)=>{
+    if(r.answer_index!=null){const e=document.querySelector('input[name="ans_'+i+'"][value="'+r.answer_index+'"]');
+      if(e){e.checked=true;e.closest("label").classList.add("sel");}}
+    if(r.confidence){const e=document.querySelector('input[name="conf_'+i+'"][value="'+r.confidence+'"]');if(e)e.checked=true;}
+    const t=document.getElementById("rat_"+i); if(t&&r.rationale)t.value=r.rationale;
+  });
+  updateStatus();
+}
+
+function exportMine(){
+  const d=collect();
+  if(!d.meta.name||!d.meta.denom||!d.meta.office){alert("Please give your name, denomination, and office first (top of the Rate tab).");return;}
+  const unanswered=d.responses.filter(r=>r.answer_index===null).length;
+  const norat=d.responses.filter(r=>r.answer_index!==null && !r.rationale.trim()).length;
+  let msg="";
+  if(unanswered) msg+=unanswered+" item(s) unanswered. ";
+  if(norat) msg+=norat+" answered item(s) have no rationale. ";
+  if(msg && !confirm(msg+"Export anyway?")) return;
+  const safe=(d.meta.name||"rater").replace(/[^a-z0-9]/gi,"").slice(0,16)||"rater";
+  const stamp=new Date().toISOString().slice(0,10);
+  download("g6-"+safe+"-"+stamp+".json", JSON.stringify(d,null,2));
+}
+function download(fn,txt){
+  const b=new Blob([txt],{type:"application/json"});const u=URL.createObjectURL(b);
+  const a=document.createElement("a");a.href=u;a.download=fn;a.click();URL.revokeObjectURL(u);
+}
+
+// ---------------- Aggregate view ----------------
+let loaded=[];
+function aggForItem(it){
+  const rows=loaded.map(d=>(d.responses||[]).find(r=>r.item_id===it.id)).filter(r=>r&&r.answer_index!==null);
+  const counts=it.opts.map((_,j)=>rows.filter(r=>r.answer_index===j).length);
+  const n=rows.length; const maxc=Math.max(0,...counts); const modeIdx=counts.indexOf(maxc);
+  const consensus=n?maxc/n:0;
+  return {rows,counts,n,modeIdx,consensus,pass:n>0&&consensus>=CONSENSUS};
+}
+function ownerOf(row){return loaded.find(d=>(d.responses||[]).includes(row));}
+function renderAggItem(it){
+  const a=aggForItem(it);
+  const idrow=h("div",{class:"idrow"}, h("span",{class:"chip rule",text:it.rule}), h("span",{class:"chip",text:it.id}));
+  let vClass="v-below", vText, note="";
+  if(a.n===0){vText="no responses";}
+  else if(a.pass){
+    vClass="v-pass"; vText="CONSENSUS "+Math.round(a.consensus*100)+"% ≥ 85%";
+    note = it.type==="confirm"
+      ? (a.modeIdx===0?"→ Confirmed [DISPUTED]: ship as calibrated-abstention dev-set item."
+                      :"→ Gold = the modal answer; not a bare abstention.")
+      : "→ Gold label = “"+it.opts[a.modeIdx]+"”.";
+  } else {
+    vText="BELOW "+Math.round(a.consensus*100)+"% (<85%)";
+    note="→ No qualifying consensus: item is scored by calibrated abstention and remains [DISPUTED] (spine §7).";
+  }
+  idrow.appendChild(h("span",{class:"verdict "+vClass,text:vText}));
+  const bars=h("div",{style:"margin:10px 0"});
+  it.opts.forEach((o,j)=>{
+    const pct=a.n?Math.round(100*a.counts[j]/a.n):0;
+    const fill=h("div",{class:"fill"+(j===a.modeIdx&&a.counts[j]>0?" mode":""),style:"width:"+pct+"%"});
+    bars.appendChild(h("div",{class:"barrow"},
+      h("div",{class:"track"}, fill),
+      h("div",{style:"min-width:210px"}, o+"  ", h("b",{text:String(a.counts[j])}), " ("+pct+"%)")));
+  });
+  const withRat=a.rows.filter(r=>r.rationale&&r.rationale.trim());
+  let ratBox=null;
+  if(withRat.length){
+    ratBox=h("details",{class:"rat"}, h("summary",{text:"rationales ("+withRat.length+")"}));
+    withRat.forEach(r=>{
+      const who=ownerOf(r);
+      const lab=who?((who.meta.name||"?")+" — "+(who.meta.denom||"?")):"";
+      ratBox.appendChild(h("blockquote",{}, h("b",{text:lab+": "}), r.rationale));
+    });
+  }
+  return h("div",{class:"agg-item"}, idrow,
+    h("b",{text:it.title}), h("span",{class:"note",text:"  — n="+a.n}),
+    bars, h("div",{class:"note",text:note}), ratBox);
+}
+function renderAgg(){
+  const out=document.getElementById("aggout");
+  document.getElementById("exportAgg").disabled = loaded.length===0;
+  if(!loaded.length){out.replaceChildren();return;}
+  const rosterEl=h("div",{class:"roster"});
+  loaded.forEach((d,idx)=>{
+    if(idx) rosterEl.appendChild(document.createTextNode(" · "));
+    rosterEl.appendChild(h("span",{class:"who",text:d.meta.name||"?"}));
+    rosterEl.appendChild(h("span",{text:" ("+(d.meta.denom||"?")+", "+(d.meta.office||"?")+")"}));
+  });
+  const rosterCard=h("div",{class:"card"}, h("h2",{text:"Panel roster — "+loaded.length+" rater(s)"}), rosterEl);
+  const denoms=[...new Set(loaded.map(d=>d.meta.denom||""))];
+  const strict=denoms.some(x=>/RPCNA|Free Church/i.test(x));
+  const broad=denoms.some(x=>/OPC|PCA/i.test(x));
+  if(!(strict&&broad)) rosterCard.appendChild(h("div",{class:"warnbox",
+    text:"⚠ The four [DISPUTED] items name specific parties (a strict/exclusive tradition AND a PCA/OPC tradition). Your loaded panel does not yet span both sides — a consensus that confirms a “genuine divide” is weak if only one side is represented. Recruit across the named traditions before trusting these results."}));
+  out.replaceChildren(rosterCard, ...ITEMS.map(renderAggItem));
+}
+
+function exportAgg(){
+  const summary={schema:"wcf-g6-consensus/v1", generated:new Date().toISOString(),
+    threshold:CONSENSUS, n_raters:loaded.length,
+    roster:loaded.map(d=>({name:d.meta.name,denom:d.meta.denom,office:d.meta.office,subscription:d.meta.subscription})),
+    items:ITEMS.map(it=>{const a=aggForItem(it);return{
+      item_id:it.id, rule:it.rule, type:it.type, n:a.n,
+      counts:it.opts.map((o,j)=>({option:o,count:a.counts[j]})),
+      consensus:a.n?+(a.consensus).toFixed(3):0,
+      passes_85:a.pass,
+      gold: a.pass? it.opts[a.modeIdx] : "[DISPUTED] / abstention (below 85%)"
+    };})};
+  download("g6-consensus-"+new Date().toISOString().slice(0,10)+".json", JSON.stringify(summary,null,2));
+}
+
+function ingestFiles(fileList){
+  const files=[...fileList]; let pending=files.length; if(!pending) return;
+  files.forEach(f=>{const rd=new FileReader();
+    rd.onload=()=>{try{const d=JSON.parse(rd.result);
+      if(d&&d.schema==="wcf-g6-panel/v1"&&d.responses){
+        loaded=loaded.filter(x=>!(x.meta.name===d.meta.name&&x.meta.denom===d.meta.denom));
+        loaded.push(d);
+      } else alert(f.name+": not a G6 rater file (schema mismatch) — skipped.");
+    }catch(e){alert(f.name+": not valid JSON — skipped.");}
+      if(--pending===0) renderAgg();};
+    rd.readAsText(f);});
+}
+
+// ---------------- wiring ----------------
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>{
+  document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active"));
+  document.querySelectorAll(".view").forEach(x=>x.classList.remove("active"));
+  t.classList.add("active");
+  document.getElementById(t.dataset.tab).classList.add("active");
+  document.getElementById("ratebar").style.display = t.dataset.tab==="rate"?"flex":"none";
+}));
+document.getElementById("exportBtn").addEventListener("click",exportMine);
+document.getElementById("clearBtn").addEventListener("click",()=>{
+  if(confirm("Clear all your answers on this device?")){localStorage.removeItem(LS_KEY);location.reload();}
+});
+const drop=document.getElementById("drop"), fileInput=document.getElementById("files");
+drop.addEventListener("click",()=>fileInput.click());
+fileInput.addEventListener("change",e=>ingestFiles(e.target.files));
+["dragover","dragenter"].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.add("hi");}));
+["dragleave"].forEach(ev=>drop.addEventListener(ev,e=>{e.preventDefault();drop.classList.remove("hi");}));
+drop.addEventListener("drop",e=>{e.preventDefault();drop.classList.remove("hi");ingestFiles(e.dataTransfer.files);});
+document.getElementById("clearAgg").addEventListener("click",()=>{loaded=[];renderAgg();});
+document.getElementById("exportAgg").addEventListener("click",exportAgg);
+
+renderCards();
+restore();
+updateStatus();
+</script>
+</body>
+</html>

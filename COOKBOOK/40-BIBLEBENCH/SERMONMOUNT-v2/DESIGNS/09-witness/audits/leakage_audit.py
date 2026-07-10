@@ -1,7 +1,7 @@
 """
-leakage_audit.py — hard gate: NO Sermon / registry / confessional language in any string
-shown to a tested model (guide Law 6; brief §7). WITNESS is NOT the licensed exception —
-only SCRIBE is. A single hit fails the run.
+leakage_audit.py — hard gate: NO Sermon / registry / confessional language or benchmark
+identity in any string shown to a tested model (guide Law 6; brief §7). A single hit in
+either independently reported category fails the run.
 
 Scans every model-facing prompt across renderings.jsonl AND format_control.jsonl.
 
@@ -13,7 +13,17 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from witness_common import read_jsonl, leakage_hits, ITEMBANK_DIR, AUDITS_DIR, write_jsonl  # noqa: E402
+from witness_common import (  # noqa: E402
+    read_jsonl, leakage_hits, identity_hits, ITEMBANK_DIR, AUDITS_DIR, write_jsonl,
+)
+
+
+def prompt_findings(prompt: str) -> dict[str, list[str]]:
+    """Return independently classified hard-gate findings for one model prompt."""
+    return {
+        "leakage_hits": sorted(set(leakage_hits(prompt))),
+        "identity_hits": sorted(set(identity_hits(prompt))),
+    }
 
 
 def main() -> int:
@@ -22,10 +32,9 @@ def main() -> int:
     for fname in ("renderings.jsonl", "format_control.jsonl"):
         for r in read_jsonl(ITEMBANK_DIR / fname):
             total += 1
-            hits = leakage_hits(r["prompt"])
-            if hits:
-                problems.append({"item_id": r["item_id"], "file": fname,
-                                 "hits": sorted(set(hits))})
+            findings = prompt_findings(r["prompt"])
+            if findings["leakage_hits"] or findings["identity_hits"]:
+                problems.append({"item_id": r["item_id"], "file": fname, **findings})
     write_jsonl(problems, AUDITS_DIR / "leakage_audit.jsonl")
     print(f"leakage audit: scanned {total} model-facing prompts")
     if problems:
@@ -33,7 +42,8 @@ def main() -> int:
         for p in problems[:20]:
             print("   ", p)
         return 1
-    print("  PASS — zero Sermon/registry/confessional tokens in any tested-model prompt")
+    print("  PASS — zero Sermon/registry/confessional or benchmark-identity tokens "
+          "in any tested-model prompt")
     return 0
 
 

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/schemas/public-assignment-provenance-v1.schema.json",
+  "$defs": {
+    "public_role": {
+      "type": "object",
+      "required": [
+        "role_id", "role_type", "family_label", "resolution_status",
+        "source_hash", "content_hash"
+      ],
+      "properties": {
+        "role_id": {"type": "string", "minLength": 1, "pattern": "\\S"},
+        "role_type": {"enum": ["material_generation", "tested_response"]},
+        "family_label": {"type": ["string", "null"], "minLength": 1, "pattern": "\\S"},
+        "resolution_status": {"enum": ["resolved", "unresolved", "human_only"]},
+        "source_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "content_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"resolution_status": {"const": "resolved"}}},
+          "then": {"properties": {"family_label": {"type": "string", "minLength": 1, "pattern": "\\S"}}}
+        },
+        {
+          "if": {"properties": {"resolution_status": {"const": "unresolved"}}},
+          "then": {"properties": {"family_label": {"type": "null"}}}
+        },
+        {
+          "if": {"properties": {"resolution_status": {"const": "human_only"}}},
+          "then": {"properties": {"family_label": {"const": "human-only"}}}
+        }
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": [
+    "schema_version", "registry_commitment", "required_material_roles",
+    "material_generation_families", "tested_response"
+  ],
+  "properties": {
+    "schema_version": {"const": "public-assignment-provenance-v1"},
+    "registry_commitment": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "required_material_roles": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1, "pattern": "\\S"}
+    },
+    "material_generation_families": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "allOf": [
+          {"$ref": "#/$defs/public_role"},
+          {"properties": {"role_type": {"const": "material_generation"}}}
+        ]
+      }
+    },
+    "tested_response": {
+      "allOf": [
+        {"$ref": "#/$defs/public_role"},
+        {"properties": {"role_type": {"const": "tested_response"}}}
+      ]
+    }
+  },
+  "additionalProperties": false
+}

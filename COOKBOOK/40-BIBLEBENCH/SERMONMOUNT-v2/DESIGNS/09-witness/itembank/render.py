@@ -19,13 +19,19 @@ Run:  ../.venv/bin/python DESIGNS/09-witness/itembank/render.py
 """
 from __future__ import annotations
 
+import copy
 import hashlib
+import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from complexity import (  # noqa: E402
+    build_moral_profiles, parse_tool_declarations, split_word_count,
+)
 from witness_common import (  # noqa: E402
-    Core, load_cores, write_jsonl, leakage_hits, CANARY, MODALITIES, ITEMBANK_DIR,
+    Core, CoreError, load_cores, write_jsonl, leakage_hits, identity_hits, gen_pole_text,
+    validate_gen_sources, CANARY, TRAINING_POLICY, MODALITIES, ITEMBANK_DIR,
 )
 
 N_SKINS = 2
@@ -56,11 +62,80 @@ def _canary_line() -> str:
     return f"\n[trace-ref: {CANARY}]"
 
 
-def render_core(c: Core, skin: int) -> list[dict]:
+def _gen_scoring_key(c: Core) -> dict:
+    """Build GEN semantics from validated high-level text and development paraphrases."""
+    errors = validate_gen_sources(c)
+    if errors:
+        raise CoreError("; ".join(errors))
+    return {
+        "signals": {pole: list(phrases) for pole, phrases in c.gen_signals.items()},
+        "pole_text": gen_pole_text(c),
+    }
+
+
+def _canonical_profiles() -> dict[str, dict]:
+    return build_moral_profiles(load_cores(ITEMBANK_DIR / "cores.jsonl"))
+
+
+def _standalone_profile(c: Core) -> dict:
+    """Supply deterministic metadata for isolated synthetic render tests."""
+    declarations = parse_tool_declarations(c.act_spec.get("tools", []))
+    branches = c.act_spec.get("decision_branches", [])
+    profile = {
+        "core_id": c.core_id,
+        "word_count": split_word_count(c.situation),
+        "clamped_word_count": split_word_count(c.situation),
+        "length_tercile": 1,
+        "branch_count": len(branches),
+        "party_count": len(c.parties),
+        "tool_count": len(declarations),
+        "tool_arities": sorted(declaration.arity for declaration in declarations),
+        "raw_difficulty": len(branches),
+        "difficulty_band": "low",
+    }
+    identity = json.dumps(profile, sort_keys=True, separators=(",", ":"))
+    profile["complexity_profile_id"] = (
+        "cx-" + hashlib.sha256(identity.encode("utf-8")).hexdigest()[:12]
+    )
+    return profile
+
+
+def _resolve_profile(c: Core, supplied: dict | None) -> dict:
+    if supplied is not None:
+        declarations = parse_tool_declarations(c.act_spec.get("tools", []))
+        expected = {
+            "core_id": c.core_id,
+            "word_count": split_word_count(c.situation),
+            "branch_count": len(c.act_spec.get("decision_branches", [])),
+            "party_count": len(c.parties),
+            "tool_count": len(declarations),
+            "tool_arities": sorted(declaration.arity for declaration in declarations),
+        }
+        mismatches = [key for key, value in expected.items() if supplied.get(key) != value]
+        if mismatches:
+            raise CoreError(
+                f"{c.core_id}: supplied complexity profile is stale for {mismatches}"
+            )
+        return dict(supplied)
+    canonical_cores = load_cores(ITEMBANK_DIR / "cores.jsonl")
+    canonical = next((core for core in canonical_cores if core.core_id == c.core_id), None)
+    if canonical is not None and canonical.content_hash() == c.content_hash():
+        return dict(build_moral_profiles(canonical_cores)[c.core_id])
+    return _standalone_profile(c)
+
+
+def render_core(c: Core, skin: int, complexity_profile: dict | None = None) -> list[dict]:
+    profile = _resolve_profile(c, complexity_profile)
     fr = _skin_framing(c.core_id, skin)
     base = {
         "core_id": c.core_id, "sid": c.sid, "skin": skin,
         "holdout": c.holdout, "is_control": False, "canary": CANARY,
+        "difficulty_band": profile["difficulty_band"],
+        "complexity_profile_id": profile["complexity_profile_id"],
+        "private_metadata": {
+            "training_policy": TRAINING_POLICY,
+            "complexity_match": copy.deepcopy(profile),
+        },
     }
     items = []
 
@@ -94,11 +169,7 @@ def render_core(c: Core, skin: int) -> list[dict]:
     gen_prompt = f"{fr}{c.situation}\n\n{c.gen_prompt}" + _canary_line()
     items.append({**base, "modality": "GEN", "tier": "hard",
                   "item_id": f"{c.core_id}::GEN::s{skin}", "prompt": gen_prompt,
-                  "scoring_key": {
-                      "signals": {p: c.act_spec["action_signatures"].get(p, [])
-                                  for p in ("gold", "deficient", "counterfeit", "neutral")},
-                      "pole_text": {"gold": c.rec_gold, "deficient": c.rec_deficient,
-                                    "counterfeit": c.rec_counterfeit, "neutral": c.rec_neutral}}})
+                  "scoring_key": _gen_scoring_key(c)})
 
     # --- M-ACT (hard, anchor): tool sandbox --------------------------------------
     tools = c.act_spec.get("tools", [])
@@ -109,22 +180,34 @@ def render_core(c: Core, skin: int) -> list[dict]:
     items.append({**base, "modality": "ACT", "tier": "hard",
                   "item_id": f"{c.core_id}::ACT::s{skin}", "prompt": act_prompt,
                   "tools": tools,
-                  "scoring_key": {"action_signatures": c.act_spec["action_signatures"]}})
+                  "scoring_key": {
+                      "action_signatures": copy.deepcopy(c.act_spec["action_signatures"]),
+                      "decision_branches": copy.deepcopy(c.act_spec["decision_branches"]),
+                  }})
     return items
+
+
+def generate_renderings(cores: list[Core] | None = None) -> list[dict]:
+    """Generate the complete moral rendering bank in deterministic row order."""
+    source = list(cores) if cores is not None else load_cores(ITEMBANK_DIR / "cores.jsonl")
+    profiles = build_moral_profiles(source)
+    return [item for core in source for skin in range(N_SKINS)
+            for item in render_core(core, skin, profiles[core.core_id])]
 
 
 def main() -> int:
     cores = load_cores(ITEMBANK_DIR / "cores.jsonl")
-    rendered: list[dict] = []
+    rendered = generate_renderings(cores)
     leak_problems = []
-    for c in cores:
-        for skin in range(N_SKINS):
-            for it in render_core(c, skin):
-                # leakage re-check on the FINAL model-facing prompt (defence in depth)
-                hits = leakage_hits(it["prompt"])
-                if hits:
-                    leak_problems.append(f"{it['item_id']}: leakage {sorted(set(hits))}")
-                rendered.append(it)
+    for it in rendered:
+        # leakage re-check on the FINAL model-facing prompt (defence in depth)
+        religious_hits = leakage_hits(it["prompt"])
+        benchmark_hits = identity_hits(it["prompt"])
+        if religious_hits or benchmark_hits:
+            leak_problems.append(
+                f"{it['item_id']}: leakage {sorted(set(religious_hits))}; "
+                f"identity {sorted(set(benchmark_hits))}"
+            )
 
     if leak_problems:
         print("RENDER FAILED — leakage in model-facing prompts:")

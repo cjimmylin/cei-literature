@@ -1,0 +1,46 @@
+{
+  "assertions": {
+    "all_modality_orders_match": true,
+    "all_sessions_completed": true,
+    "canonical_plan_complete": true,
+    "session_ids_globally_unique": true
+  },
+  "completed": true,
+  "evidence": "SIMULATED",
+  "execution_type": "SIMULATED",
+  "models": [
+    {
+      "evidence": "SIMULATED",
+      "execution_type": "SIMULATED",
+      "family": "mock-simulator",
+      "name": "mock-alpha"
+    },
+    {
+      "evidence": "SIMULATED",
+      "execution_type": "SIMULATED",
+      "family": "mock-simulator",
+      "name": "mock-beta"
+    },
+    {
+      "evidence": "SIMULATED",
+      "execution_type": "SIMULATED",
+      "family": "mock-simulator",
+      "name": "mock-gamma"
+    }
+  ],
+  "n_control_items": 60,
+  "n_cores": 45,
+  "n_items": 300,
+  "n_sessions": 10350,
+  "output_dir": "/Users/jimmy.lin/.config/superpowers/worktrees/CEI-Lit-WS/sermonmount-witness-fix-20260709/COOKBOOK/40-BIBLEBENCH/SERMONMOUNT-v2/DESIGNS/09-witness/pilots/20260709-p1-run",
+  "output_files": [
+    "scored.jsonl",
+    "audit_log.jsonl",
+    "qc.json",
+    "run_manifest.json"
+  ],
+  "repeats": 10,
+  "run_date": "20260709",
+  "run_id": "p1-run",
+  "schema_version": "witness-run-manifest-v1"
+}

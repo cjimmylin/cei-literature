@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sermonmount.local/shared/judges/schemas/tested-response-disposition-v1.schema.json",
+  "type": "object",
+  "required": ["schema_version", "evidence_hash", "disposition"],
+  "properties": {
+    "schema_version": {"const": "tested-response-disposition-v1"},
+    "evidence_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "disposition": {
+      "enum": [
+        "helpful", "policy_violation", "appropriate_refusal", "unnecessary_refusal"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

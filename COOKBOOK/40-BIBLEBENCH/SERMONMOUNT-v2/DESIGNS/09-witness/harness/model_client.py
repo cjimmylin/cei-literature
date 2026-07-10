@@ -26,9 +26,14 @@ wall-clock — safe to re-run and diff).
 """
 from __future__ import annotations
 
+import copy
 import hashlib
+import re
 from dataclasses import dataclass, field
 from typing import Any
+
+from complexity import parse_tool_declarations
+from gen_output_fixtures import CONTROL_GEN_OUTPUT_FIXTURES, GEN_OUTPUT_FIXTURES
 
 
 # ---------------------------------------------------------------------------
@@ -42,7 +47,7 @@ def _u(*parts: Any) -> float:
 class ModelResponse:
     modality: str
     raw: Any                       # END: {"answer","confidence"}; REC: {"choice": int};
-                                   # GEN: {"text": str}; ACT: {"tool","args"}
+                                   # GEN: {"text": str}; ACT: {"actions": [{tool,args}, ...]}
     meta: dict[str, Any] = field(default_factory=dict)
 
 
@@ -52,8 +57,17 @@ class ModelClient:
     use ONLY item['prompt'] (+ item['tools'] for ACT) and never the private scoring key."""
 
     name: str = "abstract"
+    execution_type: str | None = None
+    family: str | None = None
 
-    def respond(self, item: dict[str, Any], monitored: bool = True, rep: int = 0) -> ModelResponse:
+    def respond(
+        self,
+        item: dict[str, Any],
+        monitored: bool = True,
+        rep: int = 0,
+        session_id: str | None = None,
+    ) -> ModelResponse:
+        """Produce one response in the fresh session identified by ``session_id``."""
         raise NotImplementedError
 
 
@@ -90,6 +104,9 @@ _PROFILES = {
 class MockModelClient(ModelClient):
     """Deterministic simulator. NOT a measurement of any real model (see module docstring)."""
 
+    execution_type = "SIMULATED"
+    family = "mock-simulator"
+
     def __init__(self, name: str):
         if name not in _PROFILES:
             raise ValueError(f"unknown mock profile {name}; have {list(_PROFILES)}")
@@ -125,10 +142,110 @@ class MockModelClient(ModelClient):
             return "neutral"
         return "deficient" if d2 < 0.55 else "counterfeit"
 
+    @staticmethod
+    def _tool_in_signal(tool: str, signal: str) -> bool:
+        pattern = rf"(?<![a-z0-9_]){re.escape(tool)}(?![a-z0-9_])"
+        return re.search(pattern, signal.casefold()) is not None
+
+    def _moral_trajectory(
+        self, item: dict[str, Any], pole: str
+    ) -> list[dict[str, Any]]:
+        key = item["scoring_key"]
+        branches = [
+            branch for branch in key.get("decision_branches", [])
+            if branch.get("pole") == pole
+        ]
+        if len(branches) != 1:
+            raise ValueError(f"{item['item_id']}: expected one {pole} decision course")
+        branch = branches[0]
+        mode = branch.get("tool_mode")
+        course_tools = list(branch.get("tools", []))
+        signals = [str(signal) for signal in key["action_signatures"].get(pole, [])]
+        if mode in {"single", "sequence"}:
+            selected_tools = course_tools
+        elif mode == "alternative":
+            selected_tool = next(
+                (tool for tool in course_tools
+                 if any(self._tool_in_signal(tool, signal) for signal in signals)),
+                course_tools[0] if course_tools else None,
+            )
+            selected_tools = [selected_tool] if selected_tool else []
+            # A real alternative executes one route.  Do not smuggle a different route's
+            # tool-specific signal into the selected call's arguments.
+            signals = [
+                signal for signal in signals
+                if not any(
+                    self._tool_in_signal(tool, signal)
+                    for tool in course_tools if tool != selected_tool
+                )
+            ]
+        elif mode == "conditional":
+            allowed = branch.get("allowed_tool_sequences", [])
+            valid = [sequence for sequence in allowed if isinstance(sequence, list) and sequence]
+            selected_tools = list(max(valid, key=len)) if valid else []
+        else:
+            selected_tools = []
+        if not selected_tools:
+            raise ValueError(f"{item['item_id']}: {pole} course has no executable route")
+
+        declarations = parse_tool_declarations(item.get("tools", []))
+        by_name = {declaration.name: declaration for declaration in declarations}
+        try:
+            selected = [by_name[tool] for tool in selected_tools]
+        except KeyError as exc:
+            raise ValueError(
+                f"{item['item_id']}: course tool {exc.args[0]!r} is not declared"
+            ) from exc
+
+        arg_capable = [index for index, declaration in enumerate(selected) if declaration.args]
+        buckets: list[list[str]] = [[] for _ in selected]
+        round_robin = 0
+        for signal in signals:
+            mentioned = [
+                index for index, declaration in enumerate(selected)
+                if self._tool_in_signal(declaration.name, signal)
+            ]
+            capable_mentions = [index for index in mentioned if selected[index].args]
+            if capable_mentions:
+                target = capable_mentions[0]
+            elif arg_capable:
+                target = arg_capable[round_robin % len(arg_capable)]
+                round_robin += 1
+            else:
+                continue
+            buckets[target].append(signal)
+
+        actions: list[dict[str, Any]] = []
+        for action_index, (declaration, assigned) in enumerate(zip(selected, buckets), start=1):
+            values: list[list[str]] = [[] for _ in declaration.args]
+            for signal_index, signal in enumerate(assigned):
+                values[signal_index % len(values)].append(signal)
+            args = {
+                argument: " | ".join(values[index]) if values[index]
+                else f"documented {declaration.name} step {action_index}"
+                for index, argument in enumerate(declaration.args)
+            }
+            actions.append({"tool": declaration.name, "args": args})
+        return actions
+
     # -- interface -----------------------------------------------------------
-    def respond(self, item: dict[str, Any], monitored: bool = True, rep: int = 0) -> ModelResponse:
+    def respond(
+        self,
+        item: dict[str, Any],
+        monitored: bool = True,
+        rep: int = 0,
+        session_id: str | None = None,
+    ) -> ModelResponse:
         m = item["modality"]
         pole = self._pick_pole(item, m, monitored, rep)
+
+        if m == "GEN":
+            # The simulator's literal development outputs are independently authored from
+            # the judge rubric.  No GEN response path reads the private scoring key.
+            family = (CONTROL_GEN_OUTPUT_FIXTURES[item["family"]]
+                      if item.get("is_control") else GEN_OUTPUT_FIXTURES[item["core_id"]])
+            return ModelResponse(m, {"text": family[pole]}, {"intended_pole": pole})
+
         key = item["scoring_key"]
 
         if m == "END":
@@ -146,17 +263,15 @@ class MockModelClient(ModelClient):
             choice = order.index(pole) if pole in order else order.index("neutral")
             return ModelResponse(m, {"choice": choice}, {"intended_pole": pole})
 
-        if m == "GEN":
-            signals = " ".join(key["signals"].get(pole, []))
-            text = f"{key['pole_text'].get(pole, '')} {signals}".strip()
-            return ModelResponse(m, {"text": text}, {"intended_pole": pole})
-
         if m == "ACT":
-            sig = key["action_signatures"]
-            tool = sig.get("tool", (item.get("tools") or ["noop"])[0])
-            body = " ".join(sig.get(pole, []))
-            return ModelResponse(m, {"tool": tool, "args": {"body": body}},
-                                 {"intended_pole": pole})
+            if item.get("is_control"):
+                action = copy.deepcopy(key["pole_actions"][pole])
+                return ModelResponse(m, {"actions": [action]}, {"intended_pole": pole})
+
+            return ModelResponse(
+                m, {"actions": self._moral_trajectory(item, pole)},
+                {"intended_pole": pole},
+            )
 
         raise ValueError(f"unknown modality {m}")
 
@@ -166,6 +281,9 @@ class MockModelClient(ModelClient):
 # identical harness produces real numbers (brief §9 P1: >=3 models, >=2 families;
 # program directive §5: aim for >=4 across >=2 families when budget allows).
 class AnthropicClient(ModelClient):
+    execution_type = "LIVE"
+    family = "anthropic"
+
     def __init__(self, model: str):
         self.name = model
         raise NotImplementedError(
@@ -176,6 +294,9 @@ class AnthropicClient(ModelClient):
 
 
 class CodexClient(ModelClient):
+    execution_type = "LIVE"
+    family = "openai"
+
     def __init__(self, model: str = "gpt-5-codex"):
         self.name = model
         raise NotImplementedError(

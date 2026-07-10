@@ -1,0 +1,47 @@
+{
+  "execution_type": "SIMULATED",
+  "leakage": {
+    "finding_count": 0,
+    "gate_passed": true,
+    "scanned_item_count": 300,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source": "leakage_audit.jsonl"
+  },
+  "manifest_canonical_sha256": "f9d6d7c0369b3eee6e3c8f6838d5f1e5e1399aef08c302f1d8168a93fc6eb5c4",
+  "matching": {
+    "construction_identity_mean": 1.0,
+    "gate_passed": true,
+    "probe_execution_type": "SIMULATED",
+    "probe_identity_mean": 0.9461499999999998,
+    "probe_passing_fraction": 1.0,
+    "row_count": 60,
+    "sha256": "21bb24983c4f1bdba2ce7f980d864e1c419be0de28c7b1e229ad6a800cf74323",
+    "source": "matching_audit.jsonl"
+  },
+  "run_date": "20260709",
+  "run_id": "p1-run",
+  "schema_version": "witness-analysis-audit-evidence-v1",
+  "shortcut": {
+    "gate_passed": true,
+    "max_length_parity_ratio": 0.08759124087591241,
+    "metrics": {
+      "longest_conservative": 0.23333333333333334,
+      "longest_fractional": 0.2,
+      "overlap_conservative": 0.3,
+      "overlap_fractional": 0.3
+    },
+    "n_cores": 30,
+    "sha256": "b482d7ee3537717c9533ace2ce63394ca8865b72d0a8bd5e38840ac5104bddaa",
+    "shortest_bounds": [
+      7,
+      8
+    ],
+    "shortest_credits": {
+      "counterfeit": 7.0,
+      "deficient": 8.0,
+      "gold": 7.0,
+      "neutral": 8.0
+    },
+    "source": "shortcut_audit.jsonl"
+  }
+}

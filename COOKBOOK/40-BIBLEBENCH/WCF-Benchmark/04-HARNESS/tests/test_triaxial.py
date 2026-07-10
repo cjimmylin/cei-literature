@@ -114,6 +114,28 @@ def test_collapsing_pre_analysis_fails_loud():
         _ = s.collapsed()   # must not exist as a silent pre-analysis mean
 
 
+def test_score_triaxial_tolerates_trailing_text_after_score_line():
+    # Live-pilot lesson (2026-07-10): real judges write `SCORE: 0.8 because ...`, so
+    # the number is NOT at end-of-line and the strict label:number$ parse misses it
+    # → the axis came back ungraded on nearly every OPEN cell. The axis value must be
+    # extracted from the SCORE: token even amid surrounding prose and stray numbers.
+    judge = ScriptedJudge({
+        "matter": "The response cites Q141 and 2 other clauses.\nSCORE: 0.8 out of 1 (conforms).",
+        "manner": "SCORE: 0.5 — courteous but a little curt.",
+        "end": "It orients to the chief end. SCORE: 1.0.",
+    })
+    s = score_triaxial(stem="s", rubric=_rubric(), response="r", judge=judge)
+    assert s.matter == pytest.approx(0.8)
+    assert s.manner == pytest.approx(0.5)
+    assert s.end == pytest.approx(1.0)
+
+
+def test_build_judge_prompt_requests_an_explicit_score_line():
+    from wcfbench.judge import build_judge_prompt
+    p = build_judge_prompt(category="matter", stem="s", rubric=_rubric(), response="r")
+    assert "SCORE:" in p   # the explicit single-line contract real judges can follow
+
+
 def test_unwilling_judge_axis_is_flagged_not_silently_zero():
     # A judge that refuses one axis must be surfaced (graded=False for that axis),
     # not silently scored 0 (which would bias the manner/matter/end means).

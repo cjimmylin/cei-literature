@@ -119,6 +119,8 @@ from .contested import (
 # --- Live OPEN/CONTESTED judge panel (§4.3): calibrate-and-discard + cross-family
 #     assignment + triaxial (OPEN) / position (CONTESTED); retains per-judge raw. --
 from .judge_panel import JudgePanel, OpenVerdict, ContestedVerdict
+# --- Cross-judge disagreement clusters (the Fable-session input). --------------
+from .disagreement import summarize_disagreement, DisagreementCell
 # --- First REAL model backend behind the seam: the Claude Code CLI via
 #     subscription OAuth (subprocess, no API key). Smoke-pilot use only; the
 #     gated empirical run wants the Messages API. See cli_client.py caveats. ---
@@ -247,6 +249,9 @@ __all__ = [
     "JudgePanel",
     "OpenVerdict",
     "ContestedVerdict",
+    # cross-judge disagreement clusters (Fable-session input)
+    "summarize_disagreement",
+    "DisagreementCell",
     # real CLI-OAuth backend (subprocess; smoke-pilot only)
     "CLIModelClient",
     "CLIClientError",

@@ -196,7 +196,10 @@ def build_judge_prompt(
         _NEUTRALITY_GUARDRAIL,
         _WILLINGNESS_NOTE,
         "",
-        "Emit one `label: score` per keypoint (or `anchor: correct|misused` for anchor-use).",
+        "You may reason briefly, but END WITH EXACTLY ONE LINE in this form:",
+        "`SCORE: <x>`  where x is a number from 0.0 to 1.0 — this axis's overall "
+        "score (the fraction of the rubric keypoints, for this axis, that the "
+        "response satisfies). Put nothing after the number.",
     ]
     return "\n".join(parts)
 

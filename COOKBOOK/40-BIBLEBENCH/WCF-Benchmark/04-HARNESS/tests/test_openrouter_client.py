@@ -44,11 +44,12 @@ class _FakeResp:
         return False
 
 
-def _canned(content="hello", usage=None, model="test/model"):
+def _canned(content="hello", usage=None, model="test/model", finish_reason="stop"):
     return {
         "id": "gen-x",
         "model": model,
-        "choices": [{"message": {"role": "assistant", "content": content}}],
+        "choices": [{"message": {"role": "assistant", "content": content},
+                     "finish_reason": finish_reason}],
         "usage": usage or {"prompt_tokens": 10, "completion_tokens": 5, "total_tokens": 15},
     }
 
@@ -131,3 +132,42 @@ def test_usage_is_logged(monkeypatch):
     assert c.usage_log[-1]["usage"]["total_tokens"] == 120
     assert c.usage_log[-1]["item_id"] == "ITEM-9"
     assert c.total_tokens == 120
+
+
+# --- client robustness: finish_reason / truncation (the pilot's lesson) -----
+
+def test_finish_reason_surfaced_on_normal_completion(monkeypatch):
+    _patch_urlopen(monkeypatch, _canned("done", finish_reason="stop"))
+    c = OpenRouterModelClient(model="m", api_key="sk-or-test")
+    c.complete("q", item_id="A")
+    assert c.last_finish_reason == "stop"
+    assert c.last_truncated is False
+    assert c.usage_log[-1]["finish_reason"] == "stop"
+
+
+def test_truncation_flagged_when_finish_reason_length(monkeypatch):
+    # A verbose response cut off before its RANKING line: finish_reason == "length".
+    # It must be FLAGGED as truncation, not returned as a silent non-answer.
+    _patch_urlopen(monkeypatch, _canned("Reasoning that ran on and on and", finish_reason="length"))
+    c = OpenRouterModelClient(model="m", api_key="sk-or-test")
+    text = c.complete("rank these", item_id="AGG-1")
+    assert text.startswith("Reasoning")          # partial content still returned
+    assert c.last_finish_reason == "length"
+    assert c.last_truncated is True
+    assert c.usage_log[-1]["finish_reason"] == "length"
+
+
+def test_default_max_tokens_raised_above_the_truncating_900(monkeypatch):
+    # The pilot truncated llama at max_tokens=900; the default must be comfortably
+    # higher so a verbose reasoning + RANKING line fits.
+    c = OpenRouterModelClient(model="m", api_key="sk-or-test")
+    assert c.max_tokens >= 2048
+
+
+def test_truncated_item_ids_tracked_across_calls(monkeypatch):
+    c = OpenRouterModelClient(model="m", api_key="sk-or-test")
+    _patch_urlopen(monkeypatch, _canned("ok", finish_reason="stop"))
+    c.complete("q1", item_id="OK-1")
+    _patch_urlopen(monkeypatch, _canned("cut", finish_reason="length"))
+    c.complete("q2", item_id="CUT-2")
+    assert c.truncated_item_ids == ["CUT-2"]

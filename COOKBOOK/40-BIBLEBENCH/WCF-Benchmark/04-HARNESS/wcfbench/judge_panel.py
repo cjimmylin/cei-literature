@@ -138,8 +138,10 @@ class JudgePanel:
                               "graded": dict(t.graded)})
             used.append((name, family))
         agg = self._aggregate_triaxial(per_judge)
-        total = item.total_points or 1.0
-        headline = None if agg.matter is None else max(0.0, min(1.0, agg.matter / total))
+        # axes are graded on a 0..1 scale (§4.2 judge contract), so the Matter axis IS
+        # the [0,1] substance headline — a documented reporting proxy for the tensor,
+        # NOT a collapse (Manner/End stay separate on `triaxial`). Clamp defensively.
+        headline = None if agg.matter is None else max(0.0, min(1.0, agg.matter))
         return OpenVerdict(triaxial=agg, headline=headline, per_judge=per_judge, judges_used=used)
 
     @staticmethod

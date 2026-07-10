@@ -23,6 +23,7 @@ object exposing the ``.complete(prompt, item_id=None) -> str`` seam; NO network.
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from typing import Any, Dict, Optional, Sequence
 
@@ -30,6 +31,12 @@ from .judge import build_judge_prompt, parse_judge_verdict, willingness_to_grade
 
 #: the three axes, in canonical order (never reordered; never summed).
 AXES = ("matter", "manner", "end")
+
+#: extract the axis score from an explicit ``SCORE: <n>`` token anywhere in the
+#: verdict — tolerant of trailing prose (`SCORE: 0.8 out of 1`), which the strict
+#: label:number$ line parser missed on nearly every live judge output (pilot
+#: 2026-07-10). This is the primary axis extractor; parse_judge_verdict is fallback.
+_AXIS_SCORE_RE = re.compile(r"SCORE\s*[:=]\s*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
 
 
 @dataclass
@@ -93,11 +100,18 @@ def score_triaxial(
             score.graded[axis] = False
             score.detail[axis] = "judge declined this axis (surfaced ungraded, not scored 0)"
             continue
-        verdict = parse_judge_verdict(text)
-        # accept an explicit `score:` label, else the single numeric present.
-        value = verdict.scores.get("score")
-        if value is None and verdict.scores:
-            value = next(iter(verdict.scores.values()))
+        # primary: an explicit `SCORE: <n>` token (tolerant of trailing prose).
+        value: Optional[float] = None
+        m = _AXIS_SCORE_RE.search(text)
+        if m:
+            value = float(m.group(1))
+        else:
+            # fallback: the old label:number parse (an explicit `score:` label, else
+            # the single numeric present) — kept for scripted/legacy judge formats.
+            verdict = parse_judge_verdict(text)
+            value = verdict.scores.get("score")
+            if value is None and verdict.scores:
+                value = next(iter(verdict.scores.values()))
         if value is None:
             score.graded[axis] = False
             score.detail[axis] = "graded but no parseable numeric — surfaced ungraded"

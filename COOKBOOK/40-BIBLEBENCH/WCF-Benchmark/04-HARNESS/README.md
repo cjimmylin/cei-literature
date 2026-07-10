@@ -1,6 +1,6 @@
 # WCF-Bench Harness — Phase 2 Skeleton (mock-first)
 
-**Status:** initial skeleton · **Author:** opus · **Date:** 2026-07-09
+**Status:** Phase-3 live + contested/OPEN judges wired · **Author:** opus · **Date:** 2026-07-09 → 2026-07-10
 **Governing docs:** `../00-OVERVIEW/20260706-build-plan.md` (Phase 2) ·
 `../00-OVERVIEW/20260706-shared-spine.md` (§10 item schema, §4 scoring)
 
@@ -35,12 +35,26 @@ the seam a real Anthropic/OpenAI client implements later.
 │   ├── cli_client.py      CLIModelClient — real CLI-OAuth backend (smoke-pilot only)
 │   ├── openrouter_client.py  OpenRouterModelClient — cross-family real backend
 │   │                      (one key → many families; stdlib urllib; measurement path)
-│   ├── routing.py         scorer_kind + should_refuse inference (Phase 3; 1 source of truth)
-│   ├── promptbuilder.py   ItemRecord → (system,user) examinee prompt (Track A/B, no leakage)
+│   ├── routing.py         scorer_kind + should_refuse inference (Phase 3; 1 source of truth);
+│   │                      CONTESTED kind added (flag-driven, precedence: EPISODE>CONTESTED>ORDINAL>ANCHOR>OPEN)
+│   ├── promptbuilder.py   ItemRecord → (system,user) examinee prompt (Track A/B, no leakage);
+│   │                      CONTESTED items get ranking-or-decline ask (examinee is blind to contestedness)
 │   ├── response_parser.py robust ranking / citation / choice extraction (format-drift-tolerant)
-│   ├── runner.py          Phase-3 runner: bank+models → scored items → ReportingTensor
-│   └── episode_live.py    live NARROWGATE defect-baseline (real-model → tool-actions → detector)
-├── ../05-BANK-YAML/       transcribed item bank (expansion-2, 69 items, §10)
+│   ├── runner.py          Phase-3 runner: bank+models → scored items → ReportingTensor;
+│   │                      panel hook added (CONTESTED → position scorer, OPEN → triaxial; fraction=None for contested)
+│   ├── episode_live.py    live NARROWGATE defect-baseline (real-model → tool-actions → detector)
+│   ├── contested.py       position/coherence scorer for genuinely-contested items (NEW 2026-07-10);
+│   │                      score_contested_position(): disclosure + defensible-position + coherence-from-right-heads
+│   │                      + settled-core floor (Q152 + engagement floor); ContestedScore.collapsed() RAISES;
+│   │                      position_invariance() / steerability_check() reducers; settled_core_keypoints()
+│   ├── judge_panel.py     live OPEN/CONTESTED judge panel — §4.3 (NEW 2026-07-10);
+│   │                      JudgePanel: calibrate-and-discard on construction (G4 battery; drops B≥A judges),
+│   │                      ≥2 cross-family judges/item (generating family excluded), OPEN→triaxial (never collapsed),
+│   │                      CONTESTED→position scorer; per-judge raw scores retained for downstream adjudication
+│   └── disagreement.py    summarize_disagreement(run_report) → per-cell DisagreementCell (NEW 2026-07-10);
+│                          per-axis spread across judges + split-defensibility flag; sorted worst-first (Fable input)
+├── ../05-BANK-YAML/       transcribed item bank (expansion-2, 69 items, §10);
+│                          AGG-C3-W302/AGG-C5-W304/AGG-C8-W305 marked contested:true (2026-07-10)
 ├── fixtures/
 │   ├── AGG-C6-W301.yaml    orderable rank-set, gold a<b<c
 │   ├── AGG-C5-W304.yaml    incomparable pair, gold "declines total order"
@@ -55,13 +69,20 @@ the seam a real Anthropic/OpenAI client implements later.
 │   ├── test_triaxial.py     6 tests (Matter/Manner/End, never-collapse contract)
 │   ├── test_bank_yaml.py   10 tests (bank load guard + memo-delta invariants)
 │   ├── test_openrouter_client.py  8 tests (cross-family backend, mocked urllib)
-│   ├── test_routing.py     14 tests (scorer_kind, should_refuse, ordinal_max)
+│   ├── test_routing.py     20 tests (scorer_kind, should_refuse, ordinal_max; +6 CONTESTED routing)
 │   ├── test_response_parser.py  16 tests (ranking drift, citations, choice)
-│   ├── test_promptbuilder.py    12 tests (track framing, format asks, no leakage)
-│   ├── test_runner.py      12 tests (mock end-to-end, error survival, tensor, judge hook)
-│   └── test_episode_live.py  8 tests (defect probe, tool-action parse, live baseline)
+│   ├── test_promptbuilder.py    15 tests (track framing, format asks, no leakage; +3 CONTESTED prompt)
+│   ├── test_runner.py      20 tests (mock end-to-end, error survival, tensor, judge hook; +8 panel hook)
+│   ├── test_episode_live.py  8 tests (defect probe, tool-action parse, live baseline)
+│   ├── test_contested.py   14 tests (position scorer, settled-core, invariance, steerability — NEW)
+│   ├── test_judge_panel.py 10 tests (calibrate-discard, cross-family assign, OPEN/CONTESTED dispatch — NEW)
+│   └── test_disagreement.py  6 tests (per-cell spread, split-flag, sort order — NEW)
 ├── openrouter_smoke.py     opt-in live smoke pilot (bank → OpenRouter → scorers, hand-wired 2 items)
 ├── openrouter_pilot.py     opt-in live PILOT: full runner chain × N families + live NARROWGATE gate
+├── openrouter_pilot_open.py  opt-in live OPEN+CONTESTED judge pilot (NEW 2026-07-10);
+│                             builds calibrated cross-family panel; diverse OPEN slice + 3 contested items × 2 SUTs;
+│                             writes disagreement clusters to ../07-PILOTS/20260710-open-contested/disagreement.json;
+│                             dry by default, --go for real calls; ran GREEN 2026-07-10
 ├── run_dryrun.py          load → mock-complete → score → tensor/refusal/invariance report
 └── README.md              this file
 ```
@@ -159,10 +180,12 @@ Use the vault venv (`pyyaml` + `pytest` present; no new deps needed):
     COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/04-HARNESS/smoke_pilot.py --go    # makes the real calls
 ```
 
-Current state: **187 passed** (125 Phase-2 + Phase-3: 14 routing + 16 parser + 12
-promptbuilder + 12 runner + 8 episode-live, all hermetic); the mock dry-run prints
-a per-item report, the reporting tensor + worst-cell + A–B gap, the refusal
-co-score per item, and a two-model invariance league — all `API calls made: 0`.
+Current state: **240 passed** (125 Phase-2 + Phase-3: 20 routing + 16 parser + 15
+promptbuilder + 20 runner + 8 episode-live + 14 contested + 10 judge-panel + 6
+disagreement + 2 triaxial hardening + 4 openrouter truncation, all hermetic,
+0 network calls in test suite); the mock dry-run prints a per-item report, the
+reporting tensor + worst-cell + A–B gap, the refusal co-score per item, and a
+two-model invariance league — all `API calls made: 0`.
 
 **Phase-3 live PILOT ran GREEN (2026-07-09, `openrouter_pilot.py --go`)** — the
 full `runner.run` chain over 4 items × 3 families (gpt-4o-mini / claude-3-haiku /
@@ -231,33 +254,60 @@ with the **score → aggregate → invariance backbone** (spine §4.5, §4.6, §
   `../05-BANK-YAML/`, lint-loaded 0 errors, with the memo deltas applied
   (see that dir's README).
 
+**Done (2026-07-10, this session):**
+
+- [x] **CONTESTED-ITEM SCORER SPLIT** (binding ruling `../20260709-contested-item-scoring-ruling.md`):
+  `contested.py` — `score_contested_position()` grades adherence (disclosure, defensible-position,
+  coherence-from-right-heads, settled-core floor); `ContestedScore.collapsed()` RAISES (mirrors
+  TriaxialScore); `position_invariance` / `steerability_check` pure reducers; `settled_core_keypoints()`.
+  Three bank items marked `contested: true` (`AGG-C3-W302`, `AGG-C5-W304`, `AGG-C8-W305`).
+- [x] **OPEN triaxial judges wired + G4 calibration battery on real OpenRouter judges** (§4.3):
+  `judge_panel.py` — `JudgePanel` calibrates-and-discards on construction (runs G4 battery; drops B≥A
+  judges), assigns ≥2 cross-family judges per item (generating family excluded), OPEN → triaxial
+  (never collapsed), CONTESTED → position scorer; per-judge raw scores retained for Fable adjudication.
+- [x] **`disagreement.py`** — `summarize_disagreement(run_report)` → per-cell `DisagreementCell`
+  (per-axis spread + split-defensibility flag), sorted worst-first; the structured Fable-session input.
+- [x] **`routing.py` CONTESTED kind** — flag-driven (`item.extra['contested'] is True`), precedence
+  EPISODE > CONTESTED > ORDINAL > ANCHOR > OPEN; contested items with a `gold_order` are never τ-scored.
+  Now FIVE scorer kinds.
+- [x] **`promptbuilder.py` CONTESTED branch** — contested items get the same ranking-or-decline ask as
+  ORDINAL (examinee is blind to contestedness).
+- [x] **`runner.py` panel hook** — `run(items, clients, *, judge=None, panel=None)`: CONTESTED branch
+  (position scorer via panel; fraction stays None → NOT in accuracy tensor); OPEN branch uses panel's
+  triaxial (Matter proxy → tensor headline); legacy float `judge` hook retained; panel takes precedence.
+  New `PerItemResult` fields: `triaxial`, `contested_score`, `judge_raw`, `contested`.
+- [x] **`triaxial.py` + `judge.py` hardened** — `build_judge_prompt` now requests an explicit
+  `SCORE: <0.0-1.0>` line; `score_triaxial` extracts via `SCORE:` token tolerant of trailing prose
+  (live-pilot 2026-07-10 lesson: old strict `label:number$` line-parse missed nearly every real output).
+- [x] **`openrouter_client.py`** — surfaces `finish_reason` (`last_finish_reason`, `last_truncated`,
+  `truncated_item_ids`) so a response cut off at max_tokens is flagged as truncation, not a silent
+  non-answer; default `max_tokens` raised 1024 → 2048.
+- [x] **`openrouter_pilot_open.py`** — opt-in live OPEN+CONTESTED judge pilot; calibrated cross-family
+  panel; diverse OPEN slice + 3 contested items × 2 SUT families; writes disagreement clusters to
+  `../07-PILOTS/20260710-open-contested/disagreement.json`; ran GREEN live 2026-07-10
+  (see `../20260710-open-contested-pilot-report.md`).
+
 Still to build (post-window / credential-gated):
 
 1. **Real model clients + Phase-3 runner — DONE.** `OpenRouterModelClient`
    reaches many families through one key; the **Phase-3 runner** (`runner.py`:
    bank → builder → client → parser → route-to-scorer → refusal co-score → tensor;
-   per-item error survival; OPEN judge hook) is built + mock-tested + **live-piloted**
-   (`openrouter_pilot.py --go`, 4 items × 3 families + the live NARROWGATE gate).
+   per-item error survival; OPEN+CONTESTED judge panel hook) is built + mock-tested +
+   **live-piloted** (`openrouter_pilot.py --go`, 4 items × 3 families + the live
+   NARROWGATE gate; `openrouter_pilot_open.py --go`, OPEN+CONTESTED judge panel 2026-07-10).
    **RULING LANDED (Jimmy, 2026-07-09): OpenRouter IS the sanctioned measurement
    path for WCF-Bench** (aligning it with WALKWORTHY) — no longer smoke-scale-only.
-   The pilot is kept small because it is the first live chain validation, not a
-   scale run. `CLIModelClient` (CLI-OAuth) remains a Claude-only smoke fallback.
-   **Remaining (next session):** wire the OPEN triaxial judges (§4.3) + run the G4
-   calibration battery on real OpenRouter judges (discard miscalibrated judges);
-   perturbation-variant materialization; raise `max_tokens` / surface `finish_reason`
-   so a truncated verbose response is flagged as truncation, not silent non-answer;
-   then scale the pilot toward the gated G1–G7 run.
-   **CONTESTED-ITEM SCORER SPLIT (binding — `../20260709-contested-item-scoring-ruling.md`):**
-   the genuinely-contested items (R1 `AGG-C7-007`, R20 `AGG-C3-W302`, R21 `AGG-C5-W304` /
-   `AGG-C8-W305`) must **NOT** be scored correct/incorrect. `runner.py` currently routes
-   AGGRAVATE → `score_aggravate_ordinal` (Kendall-τ vs `gold_order`) — that τ-against-a-gold
-   path IS the correct/incorrect scoring the ruling rejects and must be **disabled** for those
-   four. Add a `contested` item flag → a new `routing.scorer_kind` branch → a **position/
-   coherence scorer** on the OPEN judge path (engaged the right heads? · occupied a defensible
-   position? · disclosed the tension? · invariant under P1/P3/P4, no sycophantic flip? ·
-   steerable to body-X's view when addressed as body X?). The settled-core keypoints (Q152
-   floor; forbidden legs) keep mechanical right/wrong scoring. Mark the four items `contested:
-   true` (+ a `positions:` map once G6 validates it) in the bank.
+   `CLIModelClient` (CLI-OAuth) remains a Claude-only smoke fallback.
+   **Remaining (next session):**
+   - **F-1 (live-pilot finding):** judge axis-scale inconsistency — judges sometimes score
+     triaxial axes 0..2 (rubric points) despite the 0..1 instruction, so raw cross-judge spread
+     partly conflates scale-disagreement with substance-disagreement. Consider per-keypoint award
+     scoring or a hard-pinned scale before the gated run.
+   - **F-2 (live-pilot finding):** contested-item disclosure is systematically LOW across SUTs
+     (models rarely surface that the matter is contested within Reformed thought) — a real signal
+     to confirm at scale before drawing conclusions.
+   - Perturbation-variant materialization for OPEN/CONTESTED legs.
+   - Scale the pilot toward the gated G1–G7 run.
 2. **YAML transcription — earlier waves** — expansion-2 is done; exemplars,
    wave-2, and expansion-1 (~161 items to reach 230) are the same mechanical pass
    against `../05-BANK-YAML/TRANSCRIPTION-SPEC.md`. Carry-forward: the other two

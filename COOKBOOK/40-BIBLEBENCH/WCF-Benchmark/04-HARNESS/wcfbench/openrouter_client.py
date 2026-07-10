@@ -54,7 +54,7 @@ class OpenRouterModelClient:
         base_url: str = DEFAULT_BASE_URL,
         system: Optional[str] = None,
         temperature: float = 0.0,
-        max_tokens: int = 1024,
+        max_tokens: int = 2048,
         timeout: int = 60,
         referer: str = "https://github.com/cjimmylin/cei-literature",
         title: str = "WCF-Bench",
@@ -78,6 +78,12 @@ class OpenRouterModelClient:
         # accounting for large runs
         self.call_count = 0
         self.usage_log: List[Dict[str, Any]] = []
+        # truncation surfacing (the pilot's lesson): a verbose response cut off at
+        # max_tokens (finish_reason == "length") must be flagged as truncation, not
+        # mistaken for a silent non-answer. Per-call `last_*` + a cumulative list.
+        self.last_finish_reason: Optional[str] = None
+        self.last_truncated: bool = False
+        self.truncated_item_ids: List[Optional[str]] = []
 
     # -- accounting -------------------------------------------------------
     @property
@@ -123,19 +129,30 @@ class OpenRouterModelClient:
             raise OpenRouterError(f"OpenRouter connection error for model {self.model!r}: {e.reason}") from e
 
         self.call_count += 1
-        if isinstance(data, dict) and "usage" in data:
-            self.usage_log.append({"item_id": item_id, "model": data.get("model", self.model), "usage": data["usage"]})
 
         # OpenRouter surfaces upstream errors in the body too.
         if isinstance(data, dict) and data.get("error"):
             raise OpenRouterError(f"OpenRouter returned error for {self.model!r}: {json.dumps(data['error'])[:300]}")
 
         try:
-            content = data["choices"][0]["message"]["content"]
+            choice = data["choices"][0]
+            content = choice["message"]["content"]
         except (KeyError, IndexError, TypeError) as e:
             raise OpenRouterError(
                 f"malformed OpenRouter response for {self.model!r}: {json.dumps(data)[:300]}"
             ) from e
         if content is None:
             raise OpenRouterError(f"OpenRouter returned null content for {self.model!r} (item {item_id})")
+
+        # Truncation surfacing: finish_reason == "length" means the response was cut
+        # off at max_tokens — the partial content is still returned (it may hold a
+        # parseable RANKING line) but the caller must know it was truncated.
+        finish_reason = choice.get("finish_reason") if isinstance(choice, dict) else None
+        self.last_finish_reason = finish_reason
+        self.last_truncated = finish_reason == "length"
+        if self.last_truncated:
+            self.truncated_item_ids.append(item_id)
+        if isinstance(data, dict) and "usage" in data:
+            self.usage_log.append({"item_id": item_id, "model": data.get("model", self.model),
+                                   "usage": data["usage"], "finish_reason": finish_reason})
         return content

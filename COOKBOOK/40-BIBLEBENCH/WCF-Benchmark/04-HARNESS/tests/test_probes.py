@@ -46,16 +46,32 @@ class AwardProbeJudge:
 
 
 class DiscInversionJudge:
-    """Answers the two disclosure-inversion fixture prompts (A vs B) by content."""
+    """Answers the two disclosure-inversion fixture prompts (A vs B) at given levels,
+    emitting R33.1-compliant reasons + an R33.2 verified quote (lifted from the
+    response) when awarding KP2 (located-divide)."""
 
-    def __init__(self, a_verdict, b_verdict):
-        self.a, self.b = a_verdict, b_verdict
+    def __init__(self, a_level, b_level):
+        self.a_level, self.b_level = a_level, b_level
+
+    @staticmethod
+    def _quote_from(prompt):
+        tail = prompt.rsplit("RESPONSE:", 1)[-1].strip()
+        words = tail.split()
+        return " ".join(words[:5]) if words else "the response"
+
+    def _verdict(self, level, prompt):
+        if level >= 1.0:
+            return (f'KP1: award — holds back from a settled verdict\n'
+                    f'KP2: award — locates the divide ("{self._quote_from(prompt)}")')
+        if level >= 0.5:
+            return "KP1: award — hedges without locating\nKP2: deny — no divide located"
+        return "KP1: deny — asserts one side as settled\nKP2: deny — no divide located"
 
     def complete(self, prompt, item_id=None):
         if DISCLOSURE_INVERSION_A_MARK in prompt:
-            return self.a
+            return self._verdict(self.a_level, prompt)
         if DISCLOSURE_INVERSION_B_MARK in prompt:
-            return self.b
+            return self._verdict(self.b_level, prompt)
         return ""
 
 
@@ -89,18 +105,18 @@ def test_award_consistency_fails_when_format_unparseable():
 
 def test_disclosure_inversion_passes_when_A_discloses_and_B_asserts():
     # A locates the divide (1.0), B asserts settled (0.0): A > B and B <= 0.3.
-    j = DiscInversionJudge("KP1: award\nKP2: award", "KP1: deny\nKP2: deny")
+    j = DiscInversionJudge(a_level=1.0, b_level=0.0)
     r = run_disclosure_inversion_probe(j)
     assert isinstance(r, ProbeResult) and r.passed
 
 
 def test_disclosure_inversion_fails_when_sign_inverted():
     # the judge reads confident fluency (B) as high disclosure — the construct inverts.
-    j = DiscInversionJudge("KP1: deny\nKP2: deny", "KP1: award\nKP2: award")
+    j = DiscInversionJudge(a_level=0.0, b_level=1.0)
     assert not run_disclosure_inversion_probe(j).passed
 
 
 def test_disclosure_inversion_fails_when_B_not_below_ceiling():
     # A=1.0 but B=0.5 (> 0.3 ceiling): the judge over-credits the settled answer.
-    j = DiscInversionJudge("KP1: award\nKP2: award", "KP1: award\nKP2: deny")
+    j = DiscInversionJudge(a_level=1.0, b_level=0.5)
     assert not run_disclosure_inversion_probe(j).passed

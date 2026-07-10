@@ -144,6 +144,12 @@ class JudgePanel:
             except Exception as e:  # per-judge error survival
                 self.discarded.append((name, f"call error on {item.id}: {type(e).__name__}"))
                 continue
+            # R33.3: an award call still truncated/short after one retry is discarded for
+            # THIS cell (surfaced), never absorbed as a real low grade.
+            if getattr(t, "truncated_discarded", False):
+                self.discarded.append(
+                    (name, f"award call truncated/short on {item.id} after retry — cell-discarded (R33.3)"))
+                continue
             per_judge.append({"name": name, "family": family,
                               "matter": t.matter, "manner": t.manner, "end": t.end,
                               "graded": dict(t.graded),
@@ -151,6 +157,9 @@ class JudgePanel:
                               # keypoint-level disagreement payload) + OFFMAP notes.
                               "awards": dict(t.awards), "award_axis": dict(t.award_axis),
                               "scale_defect": dict(t.scale_defect), "offmap": list(t.offmap),
+                              # R33.1/R33.3: compliance defects + truncation finish_reason.
+                              "compliance_defects": dict(t.compliance_defects),
+                              "finish_reason": t.finish_reason, "retried": t.retried,
                               # R27: the judge's verbatim verdict text(s).
                               "verdict_texts": list(t.raw_verdicts)})
             used.append((name, family))
@@ -192,6 +201,12 @@ class JudgePanel:
             except Exception as e:
                 self.discarded.append((name, f"call error on {item.id}: {type(e).__name__}"))
                 continue
+            # R33.3: a disclosure award call still truncated/short after one retry is
+            # discarded for THIS cell (surfaced), never absorbed as a real low score.
+            if getattr(s, "truncated_discarded", False):
+                self.discarded.append(
+                    (name, f"disclosure call truncated/short on {item.id} after retry — cell-discarded (R33.3)"))
+                continue
             scores.append(s)
             raw.append({"name": name, "family": family, "disclosure": s.disclosure,
                         "position_label": s.position_label, "position_defensible": s.position_defensible,
@@ -199,6 +214,9 @@ class JudgePanel:
                         # R24 off-scale flags + R28 disclosure award pattern + R27 texts.
                         "scale_defect": dict(s.scale_defect),
                         "disclosure_awards": dict(s.disclosure_awards),
+                        # R33.1/R33.3: compliance defects + disclosure truncation reason.
+                        "compliance_defects": dict(s.compliance_defects),
+                        "finish_reason": s.finish_reason, "retried": s.retried,
                         "verdict_texts": list(s.raw_verdicts)})
             used.append((name, family))
         return ContestedVerdict(score=self._aggregate_contested(scores), per_judge=raw, judges_used=used)

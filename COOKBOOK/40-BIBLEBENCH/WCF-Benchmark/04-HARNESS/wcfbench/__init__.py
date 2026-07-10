@@ -115,6 +115,12 @@ from .judge import (
     AwardVerdict,
     ProbeResult,
     run_award_consistency_probe,
+    # R33.1/.2/.3 reason mandate + evidence quote + truncation robustness
+    extract_evidence_quote,
+    quote_supported_by,
+    award_emission_count,
+    complete_with_retry,
+    JudgeCall,
 )
 # --- Triaxial Matter/Manner/End sub-scoring (§4.2; never collapsed pre-analysis) ---
 from .triaxial import TriaxialScore, score_triaxial, AXES as TRIAXIAL_AXES
@@ -264,6 +270,12 @@ __all__ = [
     "AwardVerdict",
     "ProbeResult",
     "run_award_consistency_probe",
+    # R33.1/.2/.3 reason mandate + evidence quote + truncation robustness
+    "extract_evidence_quote",
+    "quote_supported_by",
+    "award_emission_count",
+    "complete_with_retry",
+    "JudgeCall",
     # triaxial Matter/Manner/End sub-scoring (§4.2)
     "TriaxialScore",
     "score_triaxial",

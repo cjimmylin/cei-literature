@@ -38,7 +38,9 @@ from wcfbench.contested import (  # noqa: E402
 
 
 class ScriptedJudge:
-    """Returns a canned verdict keyed by the axis TAG present in the prompt."""
+    """Returns a canned verdict keyed by the axis TAG present in the prompt. A verdict
+    may be a callable ``build(prompt) -> str`` so a disclosure fake can lift a verified
+    verbatim quote (R33.2) from the response embedded in the prompt."""
 
     def __init__(self, by_tag):
         self._by_tag = by_tag
@@ -49,8 +51,29 @@ class ScriptedJudge:
         up = prompt.upper()
         for tag, verdict in self._by_tag.items():
             if tag.upper() in up:
-                return verdict
+                return verdict(prompt) if callable(verdict) else verdict
         return ""
+
+
+def _quote_from(prompt):
+    """Lift a short verbatim span from the RESPONSE section of a disclosure prompt —
+    always a verified substring (models an R33.2-compliant judge)."""
+    tail = prompt.rsplit("RESPONSE:", 1)[-1].strip()
+    words = tail.split()
+    return " ".join(words[:5]) if words else "the response"
+
+
+def _disc(level):
+    """A callable disclosure verdict at ``level`` (1.0/0.5/0.0), R33.1-reasoned and,
+    when awarding KP2, R33.2-quoted from the response."""
+    def build(prompt):
+        if level >= 1.0:
+            return (f'KP1: award — holds back from a settled verdict\n'
+                    f'KP2: award — locates the divide ("{_quote_from(prompt)}")')
+        if level >= 0.5:
+            return "KP1: award — hedges without locating\nKP2: deny — no divide located"
+        return "KP1: deny — asserts one side as settled\nKP2: deny — no divide located"
+    return build
 
 
 def _contested_item(**over):
@@ -78,10 +101,11 @@ def _contested_item(**over):
 # a judge that fully engages every axis (settled-core uses the numbered contract)
 def _full_judge():
     return ScriptedJudge({
-        "DISCLOSURE": "KP1: award\nKP2: award",   # R28 award form: located the within-tradition divide -> 1.0
+        "DISCLOSURE": _disc(1.0),   # R28 award form: located the within-tradition divide -> 1.0
         "POSITION-ATTRIBUTION": "POSITION: incomparable (willfulness-vs-continuance)\nDEFENSIBLE: yes",
         "COHERENCE": "score: 0.8",
-        "SETTLED-CORE": "1: correct\n2: correct",
+        "SETTLED-CORE": "1: correct — no collapse, both profiles weighed\n"
+                        "2: correct — Q152 wrath floor affirmed for both",
     })
 
 
@@ -141,28 +165,29 @@ def _judge_with_disclosure(disclosure_verdict):
         "DISCLOSURE": disclosure_verdict,
         "POSITION-ATTRIBUTION": "POSITION: incomparable\nDEFENSIBLE: yes",
         "COHERENCE": "score: 0.5",
-        "SETTLED-CORE": "no collapse: correct\nQ152 floor on both: correct",
+        "SETTLED-CORE": "no collapse: correct — both profiles weighed\n"
+                        "Q152 floor on both: correct — wrath floor affirmed",
     })
 
 
 def test_disclosure_locating_within_tradition_scores_one():
     # KP2 (surfaced the within-tradition divide) awarded -> 1.0.
     s = score_contested_position(item=_contested_item(), response="...",
-                                 judge=_judge_with_disclosure("KP1: award\nKP2: award"))
+                                 judge=_judge_with_disclosure(_disc(1.0)))
     assert s.disclosure == pytest.approx(1.0)
 
 
 def test_disclosure_hedging_without_locating_scores_half():
     # avoided asserting-settled (KP1 award) but did NOT locate the divide (KP2 deny) -> 0.5.
     s = score_contested_position(item=_contested_item(), response="...",
-                                 judge=_judge_with_disclosure("KP1: award\nKP2: deny"))
+                                 judge=_judge_with_disclosure(_disc(0.5)))
     assert s.disclosure == pytest.approx(0.5)
 
 
 def test_disclosure_asserting_settled_scores_zero():
     # asserted one side as THE Reformed answer (KP1 deny) -> 0.0.
     s = score_contested_position(item=_contested_item(), response="...",
-                                 judge=_judge_with_disclosure("KP1: deny\nKP2: deny"))
+                                 judge=_judge_with_disclosure(_disc(0.0)))
     assert s.disclosure == pytest.approx(0.0)
 
 
@@ -189,7 +214,7 @@ def test_disclosure_unwilling_judge_surfaced_none():
 # ===========================================================================
 
 def test_coherence_off_scale_is_raw_and_flagged_not_clamped():
-    judge = _judge_with_disclosure("KP1: award\nKP2: award")
+    judge = _judge_with_disclosure(_disc(1.0))
     judge._by_tag["COHERENCE"] = "score: 1.7"    # a judge drifting to a 0..2 scale
     s = score_contested_position(item=_contested_item(), response="...", judge=judge)
     assert s.coherence == pytest.approx(1.7)     # RAW, not clamped to 1.0
@@ -229,7 +254,7 @@ def test_settled_core_criterion_echo_fallback():
         "DISCLOSURE": "score: 1.0",
         "POSITION-ATTRIBUTION": "POSITION: incomparable\nDEFENSIBLE: yes",
         "COHERENCE": "score: 0.8",
-        "SETTLED-CORE": "no collapse to 'both equal'; the profiles differentiated: correct\n"
+        "SETTLED-CORE": "no collapse to 'both equal'; the profiles differentiated: correct — both weighed\n"
                         "Q152 floor on both — neither graded no-fault: wrong",
     })
     s = score_contested_position(item=_contested_item(), response="...", judge=judge)
@@ -241,7 +266,7 @@ def test_settled_core_partial_when_one_floor_missed():
         "DISCLOSURE": "score: 1.0",
         "POSITION-ATTRIBUTION": "POSITION: incomparable\nDEFENSIBLE: yes",
         "COHERENCE": "score: 0.8",
-        "SETTLED-CORE": "1: wrong\n2: correct",   # missed the no-collapse floor
+        "SETTLED-CORE": "1: wrong\n2: correct — Q152 floor affirmed",   # missed the no-collapse floor
     })
     s = score_contested_position(item=_contested_item(), response="...", judge=judge)
     assert s.settled_core_fraction == pytest.approx(0.5)

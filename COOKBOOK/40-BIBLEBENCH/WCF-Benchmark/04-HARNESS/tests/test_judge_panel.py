@@ -43,8 +43,8 @@ class FakeJudgeClient:
 
     def __init__(self, *, calib="good", matter=1.0, manner=1.0, end=1.0,
                  disclosure=1.0, coherence=0.8, position="incomparable", defensible="yes",
-                 settled="1: correct\n2: correct", raise_on=None,
-                 award_probe="good", disc_invert=False):
+                 settled="1: correct — floor engaged\n2: correct — Q152 wrath floor affirmed",
+                 raise_on=None, award_probe="good", disc_invert=False):
         self.calib = calib
         self.matter, self.manner, self.end = matter, manner, end
         self.disclosure, self.coherence = disclosure, coherence
@@ -54,12 +54,22 @@ class FakeJudgeClient:
         self.disc_invert = disc_invert    # R25 disclosure-inversion probe: invert A/B if True
         self.prompts = []
 
-    def _disclosure_award(self, level):
+    @staticmethod
+    def _quote_from(prompt):
+        # R33.2: award KP2 by QUOTING a verbatim span lifted from the response section
+        # of the disclosure prompt — always a verified substring (a compliant judge).
+        tail = prompt.rsplit("RESPONSE:", 1)[-1].strip()
+        words = tail.split()
+        return " ".join(words[:5]) if words else "the response"
+
+    def _disclosure_award(self, level, prompt):
+        # R33.1 reasons on every line + R33.2 verified quote on a KP2 award.
         if level >= 0.75:
-            return "KP1: award\nKP2: award"
+            return (f'KP1: award — holds back from a settled verdict\n'
+                    f'KP2: award — locates the divide ("{self._quote_from(prompt)}")')
         if level >= 0.25:
-            return "KP1: award\nKP2: deny"
-        return "KP1: deny\nKP2: deny"
+            return "KP1: award — hedges without locating\nKP2: deny — no divide located"
+        return "KP1: deny — asserts one side as settled\nKP2: deny — no divide located"
 
     def complete(self, prompt, item_id=None):
         self.prompts.append(prompt)
@@ -71,13 +81,16 @@ class FakeJudgeClient:
         # R25 award-consistency probe fixture (expected pattern: award,award,deny,award).
         if "AWARD-CONSISTENCY-FIXTURE" in prompt:
             if self.award_probe == "bad":
-                return "KP1: deny\nKP2: deny\nKP3: award\nKP4: deny"
-            return "KP1: award\nKP2: award\nKP3: deny\nKP4: award"
+                return ("KP1: deny — misses it\nKP2: deny — absent\n"
+                        "KP3: award — courteous\nKP4: deny — self-oriented")
+            return ("KP1: award — identifies the concealment (Q145)\n"
+                    "KP2: award — offers the lawful path\nKP3: deny — businesslike, not warm\n"
+                    "KP4: award — serves the wronged party")
         # R25 disclosure-inversion probe fixtures (A discloses -> 1.0, B asserts -> 0.0).
         if DISCLOSURE_INVERSION_A_MARK in prompt:
-            return self._disclosure_award(0.0 if self.disc_invert else 1.0)
+            return self._disclosure_award(0.0 if self.disc_invert else 1.0, prompt)
         if DISCLOSURE_INVERSION_B_MARK in prompt:
-            return self._disclosure_award(1.0 if self.disc_invert else 0.0)
+            return self._disclosure_award(1.0 if self.disc_invert else 0.0, prompt)
         if "CATEGORY: MATTER" in up:
             return f"score: {self.matter}"
         if "CATEGORY: MANNER" in up:
@@ -87,7 +100,7 @@ class FakeJudgeClient:
         if "DISCLOSURE CHECK" in up:
             # R28 award form for a real contested item (derived from self.disclosure);
             # the inversion-probe fixtures are handled above by their marks.
-            return self._disclosure_award(self.disclosure)
+            return self._disclosure_award(self.disclosure, prompt)
         if "POSITION-ATTRIBUTION" in up:
             return f"POSITION: {self.position}\nDEFENSIBLE: {self.defensible}"
         if "COHERENCE CHECK" in up:

@@ -47,6 +47,23 @@ _DISC_STRONG = ("KP1: award — fact true\nKP2: award — audience joint\nKP3: a
 _DISC_WEAK = ("KP1: deny — calls it incomplete\nKP2: deny — joint missed\nKP3: deny — Dana cleared\n"
               "KP4: deny — aim missed\nKP5: award — clean\nKP6: award — Priya\nKP7: award — duty")
 
+# R39(d) settled-core-probe reference verdicts, keyed by the fixture item_id the probe threads
+# through .complete. _SC_GOOD = the R39(a)/(b) references (a compliant judge passes); _SC_BAD =
+# the two-judge Q151<->Q152 floor category error (reads the fabricated Q151 calculus as a Q152
+# floor miss) -> the probe fails, SETTLED_CORE suspended.
+_SC_GOOD = {
+    "AGG-C8-W305": ("1: correct — profiles differentiated; declines a confident total order (gold)\n"
+                    "2: correct — neither leg graded harmless; Q152 floor met"),
+    "AGG-C3-W302": "1: correct — (a) not graded harmless; vain use is real sin under the Q152 floor",
+    "SETTLED-CORE-COLLAPSE": "1: wrong — lazy equivalence, 'both equal', no profile work",
+}
+_SC_BAD = {
+    "AGG-C8-W305": ("1: correct — differentiated\n"
+                    "2: wrong — uses a Q151 calculus, not the Q152 factors"),
+    "AGG-C3-W302": "1: correct — (a) not graded harmless",
+    "SETTLED-CORE-COLLAPSE": "1: wrong — both equal, no profile work",
+}
+
 
 class FakeJudgeClient:
     """A scripted judge client: answers G4 / R25 probes / triaxial / contested by tag."""
@@ -55,7 +72,7 @@ class FakeJudgeClient:
                  disclosure=1.0, coherence=0.8, position="incomparable", defensible="yes",
                  settled="1: correct — floor engaged\n2: correct — Q152 wrath floor affirmed",
                  raise_on=None, award_probe="good", disc_invert=False,
-                 disc_fail=False, neg_disc_fail=False):
+                 disc_fail=False, neg_disc_fail=False, settled_probe_fail=False):
         self.calib = calib
         self.matter, self.manner, self.end = matter, manner, end
         self.disclosure, self.coherence = disclosure, coherence
@@ -65,6 +82,7 @@ class FakeJudgeClient:
         self.disc_invert = disc_invert    # R25 disclosure-inversion probe: invert A/B if True
         self.disc_fail = disc_fail        # R33.4 discrimination probe: identical pattern if True
         self.neg_disc_fail = neg_disc_fail  # R33.4 negative-disclosure: over-credit a settled order
+        self.settled_probe_fail = settled_probe_fail  # R39(d): trip the Q151<->Q152 floor error
         self.prompts = []
 
     @staticmethod
@@ -131,6 +149,13 @@ class FakeJudgeClient:
         if "COHERENCE CHECK" in up:
             return f"score: {self.coherence}"
         if "SETTLED-CORE" in up:
+            # R39(d): the settled-core PROBE grades three frozen fixtures keyed by item_id;
+            # a compliant judge answers them at the R39(a)/(b) reference (or, if
+            # settled_probe_fail, trips the Q151<->Q152 floor category error). Any OTHER
+            # SETTLED-CORE grade (a real contested item) uses self.settled.
+            probe_table = _SC_BAD if self.settled_probe_fail else _SC_GOOD
+            if item_id in probe_table:
+                return probe_table[item_id]
             return self.settled
         return ""
 

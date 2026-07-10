@@ -95,17 +95,18 @@ def test_manifest_is_stale_when_a_template_hash_differs():
 
 
 def test_manifest_from_pass_table_reproduces_memo_r356_eligibility():
-    # The memo sec0 K=8 pass table -> R35.6 frozen eligibility, via the same >=5/8 gate.
+    # The memo sec0 K=8 pass table + the R39(d) settled_core probe -> frozen eligibility, via
+    # the same >=5/8 gate. SETTLED_CORE now needs g4 AND settled_core (>=5/8 on both).
     rows = [
         {"name": "gemini-flash", "family": "google", "slug": "google/gemini-2.5-flash",
          "pass_counts": {"g4": 8, "award_consistency": 5, "discrimination": 6,
-                         "disclosure_inversion": 8, "negative_disclosure": 8}},
+                         "disclosure_inversion": 8, "negative_disclosure": 8, "settled_core": 8}},
         {"name": "gpt4omini", "family": "openai", "slug": "openai/gpt-4o-mini",
          "pass_counts": {"g4": 8, "award_consistency": 2, "discrimination": 0,
-                         "disclosure_inversion": 8, "negative_disclosure": 0}},
+                         "disclosure_inversion": 8, "negative_disclosure": 0, "settled_core": 8}},
         {"name": "mistral-small", "family": "mistral", "slug": "mistralai/mistral-small-3.2-24b-instruct",
          "pass_counts": {"g4": 0, "award_consistency": 2, "discrimination": 0,
-                         "disclosure_inversion": 0, "negative_disclosure": 0}},
+                         "disclosure_inversion": 0, "negative_disclosure": 0, "settled_core": 0}},
     ]
     m = manifest_from_pass_table(rows, run_dir="07-PILOTS/20260710-probe-stability",
                                  timestamp="2026-07-10T08:32:00", memo="R34-R37", k=8, threshold=5)
@@ -114,6 +115,21 @@ def test_manifest_from_pass_table_reproduces_memo_r356_eligibility():
     assert by_slug["openai/gpt-4o-mini"] == {COHERENCE, SETTLED_CORE}
     assert by_slug["mistralai/mistral-small-3.2-24b-instruct"] == set()      # discarded
     assert manifest_is_fresh(m) is True
+
+
+def test_pass_table_without_settled_core_probe_loses_settled_core_surface():
+    # R39(d): a LEGACY pass table (pre-settled-core-probe) cannot claim SETTLED_CORE — the
+    # surface now requires the settled_core probe (>=5/8), and an absent count defaults to 0.
+    # This is exactly why R39(d) mandates a live re-qualification of the settled-core surface.
+    rows = [
+        {"name": "gemini-flash", "family": "google", "slug": "google/gemini-2.5-flash",
+         "pass_counts": {"g4": 8, "award_consistency": 5, "discrimination": 6,
+                         "disclosure_inversion": 8, "negative_disclosure": 8}},   # no settled_core
+    ]
+    m = manifest_from_pass_table(rows, run_dir="07-PILOTS/x", timestamp="T", k=8, threshold=5)
+    surfaces = set(m["judges"][0]["eligible_surfaces"])
+    assert SETTLED_CORE not in surfaces
+    assert {OPEN_AWARD, DISCLOSURE, COHERENCE} <= surfaces
 
 
 def test_eligible_surfaces_for_reads_a_slug():

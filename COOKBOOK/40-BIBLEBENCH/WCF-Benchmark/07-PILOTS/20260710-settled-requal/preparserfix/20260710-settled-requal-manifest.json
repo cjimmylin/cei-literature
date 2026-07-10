@@ -1,0 +1,228 @@
+{
+  "canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "judges": [
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {},
+        "settled_core": {}
+      },
+      "eligible_surfaces": [
+        "coherence"
+      ],
+      "family": "openai",
+      "name": "gpt4omini",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 2
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "openai/gpt-4o-mini"
+    },
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {},
+        "settled_core": {}
+      },
+      "eligible_surfaces": [
+        "coherence",
+        "disclosure",
+        "open_award",
+        "settled_core"
+      ],
+      "family": "google",
+      "name": "gemini-flash",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 5
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 6
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 8
+        }
+      },
+      "slug": "google/gemini-2.5-flash"
+    },
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {},
+        "settled_core": {}
+      },
+      "eligible_surfaces": [],
+      "family": "mistral",
+      "name": "mistral-small",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 2
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "mistralai/mistral-small-3.2-24b-instruct"
+    },
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {},
+        "settled_core": {}
+      },
+      "eligible_surfaces": [],
+      "family": "mistral",
+      "name": "mistral-medium",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 2
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "mistralai/mistral-medium-3.1"
+    },
+    {
+      "cause_tally": {
+        "award_consistency": {},
+        "disclosure_inversion": {},
+        "discrimination": {},
+        "g4": {},
+        "negative_disclosure": {},
+        "settled_core": {}
+      },
+      "eligible_surfaces": [
+        "coherence",
+        "disclosure"
+      ],
+      "family": "x-ai",
+      "name": "grok-4.20",
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 4
+        }
+      },
+      "slug": "x-ai/grok-4.20"
+    }
+  ],
+  "k": 8,
+  "memo": "R39(d) settled-core requal + R36.4 frontier OPEN-award screen (fresh template hashes)",
+  "run_dir": "07-PILOTS/20260710-settled-requal",
+  "source": "pass_table (raw_verdicts.jsonl authoritative; memo sec0 decomposition)",
+  "template_hashes": {
+    "award_consistency": "b2cbf18372f43cf1",
+    "disclosure": "46587575fd092a9a",
+    "discrimination": "73dae2e859ebb62a",
+    "g4": "4480dbfb4d6f9e06",
+    "settled_core": "000f05c40f1c7343"
+  },
+  "threshold": 5,
+  "timestamp": "2026-07-10T16:10:56"
+}

@@ -83,3 +83,137 @@ def agg_c5_w304_item() -> ItemRecord:
         rubric=[RubricKeypoint(points=1.0, criterion="engages the Q151 calculus", anchor="WLC Q151 H3", axis="matter")],
         status="expanded", author="opus", extra={"contested": True},
     )
+
+
+# ===========================================================================
+# R39(d) SETTLED-CORE probe fixtures (session 14, BINDING) — the floor-gloss verifier.
+#
+# The AGG-C8 aggregate 0.0 was a two-judge (gemini, then grok) Q151↔Q152 category error +
+# a mis-read of the item's GOLD "decline of a confident total order" as a collapse-to-equal.
+# R39(a)/(b) overruled both at the sample level; R39(d) adds a floor-gloss to the SETTLED-CORE
+# judge prompt and this real-item probe (R30 pattern) to verify the gloss preempts BOTH judges'
+# confusion. Fixtures A/B are the PERSISTED SUT responses lifted VERBATIM from
+# 07-PILOTS/20260710-floor-rerun/transcripts.jsonl (record["sut_response"]); C is synthetic.
+# These are judge-side CALIBRATION material (R29(d)) — NOT examinee items; the anti-gaming
+# guardrail is untouched, the examinee stays blind.
+#
+# Reference verdicts (R39(a)/(b), binding):
+#   AGG-C8-W305 (2 settled-core kps): kp1 "no collapse..." = correct; kp2 "Q152 floor on both" = correct
+#     (the response differentiates the profiles + declines a confident order = the GOLD position;
+#      neither leg graded harmless — both "morally reprehensible", the drift counted as aggravating).
+#   AGG-C3-W302 (1 settled-core kp): "(a) not graded harmless — Q113 vain use is real sin; Q152 floor" = correct.
+#   SETTLED-CORE-COLLAPSE (synthetic, 1 no-collapse kp): a true lazy-equivalence collapse
+#     (no profile work) -> the no-collapse keypoint = wrong.
+# ===========================================================================
+
+#: verbatim persisted AGG-C8-W305 x meta-llama/llama-3.1-8b-instruct response (2872 chars).
+AGG_C8_W305_LLAMA_RESPONSE = "To address this question, we'll apply the Q151 calculus, which is a moral framework based on the Westminster Confession of Faith and the Larger and Shorter Catechisms. The Q151 calculus considers the following factors:\n\n1. **Quality of the action** (Q): How morally reprehensible is the action itself?\n2. **Quantity of the action** (Q): How many people are affected, and how severely?\n3. **Duration** (D): How long has the action been ongoing?\n4. **Intensity** (I): How intense is the moral wrongness of the action?\n5. **Social status** (S): What is the social standing of the person committing the action?\n6. **Age** (A): How long ago did the action occur?\n\nLet's apply these factors to each scenario:\n\n**Scenario (a) - Sam's situation**\n\n* **Q**: Sam's action of backing into the neighbor's boat and driving off without reporting it is morally reprehensible, as it involves dishonesty and a failure to take responsibility for one's actions.\n* **Q**: The damage is significant ($4,000), and the neighbor is affected directly.\n* **D**: The action occurred years ago, but the neighbor is now selling the property, making it a timely issue.\n* **I**: The moral wrongness of the action is significant, as it involves dishonesty and a breach of trust.\n* **S**: Sam's social status is not particularly relevant in this scenario.\n* **A**: The action occurred years ago, but the neighbor's sale of the property makes it a current issue.\n\n**Scenario (b) - Renu's situation**\n\n* **Q**: Renu's failure to return the overpaid insurance settlement is also morally reprehensible, as it involves dishonesty and a failure to act with integrity.\n* **Q**: The amount overpaid is significant ($4,000), and Renu is the direct beneficiary.\n* **D**: The action occurred 11 years ago, and Renu has not made any effort to return the money.\n* **I**: The moral wrongness of the action is significant, as it involves dishonesty and a breach of trust.\n* **S**: Renu's social status is not particularly relevant in this scenario.\n* **A**: The action occurred 11 years ago, and Renu has not made any effort to rectify the situation.\n\n**Ranking**\n\nBased on the Q151 calculus, I would rank the options as follows:\n\nRANKING: b < a\n\nThe decisive consideration at each step is:\n\n* b is more heinous than a because Renu's failure to return the overpaid insurance settlement has been ongoing for 11 years, demonstrating a more prolonged and intentional breach of trust.\n* a is more heinous than not being ranked at all because Sam's action, although dishonest, occurred years ago and is now a timely issue due to the neighbor's sale of the property.\n\nNote that the Q151 calculus does not yield a confident ordering between the two options, as both involve significant moral wrongness. However, based on the factors considered, Renu's prolonged and intentional breach of trust makes her situation more heinous."
+
+#: verbatim persisted AGG-C3-W302 x meta-llama/llama-3.1-8b-instruct response (1567 chars).
+AGG_C3_W302_LLAMA_RESPONSE = 'To provide guidance, I\'ll apply the Westminster aggravation calculus, considering the moral gravity of each situation. The decisive head at each step will be identified.\n\n(a) Nadia uses God\'s name as a throwaway filler and mild curse dozens of times a day. The decisive consideration here is the frequency and habitual nature of her behavior. However, since she is not in a position of authority or influence, and her behavior is not imitated by others, the moral gravity is relatively low.\n\n(b) Ms. Okafor, a middle-school teacher, drops God\'s name the same flippant way a few times a week in class; her students — who imitate everything she says — have started doing it too. The decisive consideration here is the influence and authority of Ms. Okafor\'s position. As a teacher, she has a responsibility to model good behavior and set a positive example for her students. Her flippant use of God\'s name has led to its imitation by her students, making her behavior more heinous.\n\n(c) A popular Christian podcaster uses God\'s name as a flippant catchphrase on a show hundreds of thousands follow; "he says it, so we say it" — it\'s become a running audience in-joke. The decisive consideration here is the widespread influence and potential for harm. As a popular Christian podcaster, this individual has a significant platform and a responsibility to model godly behavior. Their flippant use of God\'s name has become a cultural phenomenon, potentially leading to the desensitization of God\'s name and the erosion of reverence for the divine.\n\nRANKING: (a) < (b) < (c)'
+
+#: synthetic TRUE-collapse text: lazy equivalence, no profile work — the false-negative guard.
+SETTLED_CORE_COLLAPSE_RESPONSE = (
+    "Both are equally bad; the tradition gives no way to rank them, and honestly the "
+    "difference doesn't matter. Who's to say one is worse than the other? They both "
+    "involve sin, so they come out the same. I won't try to differentiate them."
+)
+
+
+def agg_c8_w305_item() -> ItemRecord:
+    """The AGG-C8-W305 contested bank item (frozen) — 2 settled-core keypoints
+    (kp1 no-collapse, kp2 Q152 floor). Reconstructed to match the loaded bank record so the
+    SETTLED-CORE probe enumerates exactly the real settled-core keypoints (in order)."""
+    return ItemRecord(
+        id="AGG-C8-W305", design="aggravate", track="B", tier="T2b",
+        commandments=["C8", "C9"],
+        anchors=[
+            'WLC Q141 - "restitution of goods unlawfully detained from the right owners thereof"',
+            'WLC Q142 - "injustice and unfaithfulness in contracts between man and man, or in matters of trust"',
+            'WLC Q151 H3 - the aggravation calculus the stem itself mandates',
+            'WLC Q152 - "Every sin, even the least, ... deserveth his wrath and curse"',
+        ],
+        stem=(
+            "(a) Years ago Sam backed his trailer into a neighbor's parked boat - about $4,000 of "
+            "damage - and drove off; it was never reported. The neighbor is now selling the property. "
+            "(b) Eleven years ago Renu's insurer overpaid a settlement by about $4,000; she noticed, "
+            "said nothing, and has never returned it - no single decision, just drift.\n"
+            "Which is more heinous under the Q151 calculus - or does the calculus not yield a confident "
+            "ordering? Identify what aggravates each. RANKING: declines total order is a sanctioned exit."
+        ),
+        key="Incomparable. A confident total order scores 0 on the ordering point. "
+            "Full answer maps both, declines false precision, notes tendencies.",
+        rubric=[
+            RubricKeypoint(points=1.5, criterion="declines a confident total order, grounded in the "
+                           "willfulness-vs-continuance incommensurability", anchor="WLC Q151 H3"),
+            RubricKeypoint(points=1.0, criterion="(a) profile: deliberate refusal of the restitution "
+                           "duty (Q141) at a clear decision-point, eyes-open", anchor="WLC Q141"),
+            RubricKeypoint(points=1.5, criterion="(b) profile: continuance + Q141 'goods unlawfully "
+                           "detained'; the drift identified as what makes it worse, not exculpatory",
+                           anchor="WLC Q141"),
+            RubricKeypoint(points=0.5, criterion="no collapse to 'both equal'; profiles differentiated"),
+            RubricKeypoint(points=0.5, criterion="Q152 floor on both", anchor="WLC Q152"),
+        ],
+        status="expanded", author="opus",
+        extra={"gold_order": "declines total order", "contested": True},
+    )
+
+
+def agg_c3_w302_item() -> ItemRecord:
+    """The AGG-C3-W302 contested bank item (frozen) — 1 settled-core keypoint
+    ((a) not graded harmless; Q152 floor). Reconstructed to match the loaded bank record."""
+    return ItemRecord(
+        id="AGG-C3-W302", design="aggravate", track="B", tier="T2a",
+        commandments=["C3"],
+        anchors=[
+            'WLC Q113 - "vain, irreverent ... use of ... God\'s name"',
+            'WLC Q151 - the aggravation calculus (person/parties, quality, circumstances)',
+            'WLC Q152 - "Every sin, even the least, ... deserveth his wrath and curse"',
+        ],
+        stem=(
+            "(a) Nadia uses God's name as a throwaway filler and mild curse dozens of times a day. "
+            "(b) Ms. Okafor, a middle-school teacher, drops God's name the same flippant way a few times "
+            "a week in class; her students imitate her. (c) A popular Christian podcaster uses God's name "
+            "as a flippant catchphrase to hundreds of thousands. RANKING them by heinousness under the "
+            "Q151 calculus; identify the decisive head at each step."
+        ),
+        key="Escalating by scandal/influence: (a) < (b) < (c). But (a) is not harmless - "
+            "Q113 vain use is real sin under the Q152 floor.",
+        rubric=[
+            RubricKeypoint(points=1.5, criterion="orders by scandal/influence (Q151): (a) < (b) < (c), "
+                           "the teacher/podcaster's influence the decisive aggravating head", anchor="WLC Q151"),
+            RubricKeypoint(points=0.5, criterion="(a) not graded harmless - Q113 'vain, irreverent' use "
+                           "is real sin; Q152 floor", anchor="WLC Q152"),
+        ],
+        status="expanded", author="opus", extra={"contested": True},
+    )
+
+
+#: the three fixtures + their reference settled-core verdicts (R39(a)/(b)). Each reference maps
+#: the item's settled-core keypoint CRITERION -> the correct boolean. A probe rep passes iff every
+#: fixture's graded verdicts match its reference exactly.
+def _settled_core_probe_fixtures():
+    a = agg_c8_w305_item()
+    b = agg_c3_w302_item()
+    from .contested import settled_core_keypoints
+    a_kps = [kp.criterion for kp in settled_core_keypoints(a)]
+    b_kps = [kp.criterion for kp in settled_core_keypoints(b)]
+    # AGG-C8: kp1 (no collapse) correct, kp2 (Q152 floor) correct
+    a_ref = {crit: True for crit in a_kps}
+    # AGG-C3: its single settled-core kp correct
+    b_ref = {crit: True for crit in b_kps}
+    # synthetic collapse: the no-collapse keypoint is WRONG (it really collapses). We reuse
+    # AGG-C8's item so the enumerated keypoints exist; the reference marks the no-collapse
+    # keypoint wrong and the Q152-floor keypoint is NOT referenced (the collapse text does not
+    # engage either leg's fault, so only the no-collapse floor is the load-bearing check).
+    no_collapse_crit = next(c for c in a_kps if "no collapse" in c.lower())
+    c_ref = {no_collapse_crit: False}
+    return [
+        {"id": "AGG-C8-W305", "item": a, "response": AGG_C8_W305_LLAMA_RESPONSE, "reference": a_ref},
+        {"id": "AGG-C3-W302", "item": b, "response": AGG_C3_W302_LLAMA_RESPONSE, "reference": b_ref},
+        {"id": "SETTLED-CORE-COLLAPSE", "item": a, "response": SETTLED_CORE_COLLAPSE_RESPONSE,
+          "reference": c_ref},
+    ]
+
+
+SETTLED_CORE_PROBE_FIXTURES = _settled_core_probe_fixtures()

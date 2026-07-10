@@ -45,6 +45,7 @@ from .contested import (
     ContestedScore,
     run_disclosure_inversion_probe,
     run_negative_disclosure_probe,
+    run_settled_core_probe,
 )
 
 #: item.author -> model family (for the §4.3 generator-family exclusion). Opus and
@@ -237,7 +238,9 @@ class JudgePanel:
           - OPEN_AWARD  = G4 ∧ award-consistency ∧ discrimination
           - DISCLOSURE  = disclosure-inversion ∧ negative-disclosure
           - COHERENCE   = G4    (the polish/charity calibration a coherence grade needs)
-          - SETTLED_CORE= G4
+          - SETTLED_CORE= G4 ∧ settled-core probe (R39(d): the floor-gloss verifier — a judge
+            that trips the Q151↔Q152 category error or reads a principled decline as a collapse
+            loses settled-core eligibility)
         This reproduces R33.6's provisional status when a judge still fails: gpt (dead
         disclosure channel) keeps OPEN award / coherence / settled-core but loses
         disclosure; gemini (holistic award form) keeps disclosure / coherence /
@@ -258,13 +261,18 @@ class JudgePanel:
         neg = run_negative_disclosure_probe(client).passed
         if not neg:
             notes.append("negative-disclosure failed (over-credits a settled order)")
+        sc = run_settled_core_probe(client).passed
+        if not sc:
+            notes.append("settled-core probe failed (Q151↔Q152 floor category error / decline-as-collapse)")
         elig = set()
         if g4 and ac and disc:
             elig.add(OPEN_AWARD)
         if di and neg:
             elig.add(DISCLOSURE)
         if g4:
-            elig.update({COHERENCE, SETTLED_CORE})
+            elig.add(COHERENCE)
+        if g4 and sc:
+            elig.add(SETTLED_CORE)
         return elig, ("; ".join(notes) if notes else "all probes passed")
 
     # -- per-item judge assignment (cross-family, generator excluded) ---------

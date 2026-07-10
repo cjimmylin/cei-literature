@@ -40,12 +40,15 @@ from .judge import (
 from .contested import (
     run_disclosure_inversion_probe,
     run_negative_disclosure_probe,
+    run_settled_core_probe,
     build_disclosure_prompt,
+    build_settled_core_prompt,
     _INVERSION_ITEM,
     _INVERSION_RESPONSE_A,
 )
 from .probe_fixtures import (
     whole_c9_w301_item,
+    agg_c8_w305_item,
     DISCRIMINATION_STRONG_RESPONSE,
     DISCRIMINATION_WEAK_RESPONSE,
 )
@@ -59,16 +62,20 @@ COHERENCE = "coherence"
 SETTLED_CORE = "settled_core"
 SURFACES = (OPEN_AWARD, DISCLOSURE, COHERENCE, SETTLED_CORE)
 
-#: the five acceptance probes, in a fixed order (the manifest pass-table column order).
+#: the acceptance probes, in a fixed order (the manifest pass-table column order). R39(d)
+#: adds ``settled_core`` (the real-item floor-gloss verifier) — the sixth probe, closing the
+#: R35.6 gap (the settled-core surface had no prompt-specific probe).
 PROBES = ("g4", "award_consistency", "discrimination",
-          "disclosure_inversion", "negative_disclosure")
+          "disclosure_inversion", "negative_disclosure", "settled_core")
 
-#: surface -> the probes that gate it (mirrors the R33.4/R33.6 mapping).
+#: surface -> the probes that gate it (mirrors the R33.4/R33.6 mapping). R39(d): SETTLED_CORE
+#: is now G4 ∧ the settled-core probe (was G4 alone) — a judge that trips the Q151↔Q152 floor
+#: category error or reads a principled decline as a collapse loses settled-core eligibility.
 SURFACE_PROBES: Dict[str, Tuple[str, ...]] = {
     OPEN_AWARD: ("g4", "award_consistency", "discrimination"),
     DISCLOSURE: ("disclosure_inversion", "negative_disclosure"),
     COHERENCE: ("g4",),
-    SETTLED_CORE: ("g4",),
+    SETTLED_CORE: ("g4", "settled_core"),
 }
 
 DEFAULT_K = 8
@@ -90,6 +97,8 @@ def _run_probe_once(judge, probe: str) -> Tuple[bool, str, str, Any]:
         r = run_disclosure_inversion_probe(judge)
     elif probe == "negative_disclosure":
         r = run_negative_disclosure_probe(judge)
+    elif probe == "settled_core":
+        r = run_settled_core_probe(judge)
     else:
         raise ValueError(f"unknown probe {probe!r}")
     return r.passed, r.cause, r.detail, r.observed
@@ -177,11 +186,16 @@ def current_template_hashes() -> Dict[str, str]:
                                response=DISCRIMINATION_WEAK_RESPONSE)
     disclosure = build_disclosure_prompt(item=_INVERSION_ITEM, response=_INVERSION_RESPONSE_A)
     g4 = "\n".join(build_g4_prompt(c) for c in G4_CALIBRATION_BATTERY)
+    # R39(d) / R35.6: the settled-core prompt (WITH the floor-gloss) is now in the hash set —
+    # a drift in the gloss or the enumerated keypoints stales the manifest and forces
+    # re-qualification of the settled-core surface. Rendered canonical (response-independent).
+    settled_core = build_settled_core_prompt(item=agg_c8_w305_item(), item_id="AGG-C8-W305")
     return {
         "award_consistency": _sha(ac),
         "discrimination": _sha(disc_s + "\n---\n" + disc_w),
         "disclosure": _sha(disclosure),
         "g4": _sha(g4),
+        "settled_core": _sha(settled_core),
     }
 
 

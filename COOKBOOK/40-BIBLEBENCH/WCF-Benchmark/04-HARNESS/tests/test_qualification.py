@@ -10,7 +10,7 @@ Surface -> gating probes (mirrors JudgePanel._qualify):
   OPEN_AWARD   = g4 AND award_consistency AND discrimination
   DISCLOSURE   = disclosure_inversion AND negative_disclosure
   COHERENCE    = g4
-  SETTLED_CORE = g4
+  SETTLED_CORE = g4 AND settled_core   (R39(d): the real-item floor-gloss verifier)
 
 Judges are canned fakes on the ``.complete`` seam; NO network.
 """
@@ -50,13 +50,32 @@ _NEG_GOOD = "KP1: deny — asserts a clear order\nKP2: deny — locates no divid
 _NEG_BAD = "KP1: award — reads it as hedged\nKP2: deny — no divide located"                # -> 0.5
 
 
+# R39(d): reference settled-core verdicts per fixture, keyed on the fixture item_id the probe
+# threads through .complete. A judge that emits these on all three fixtures PASSES the probe
+# (matches the R39(a)/(b) references); the "bad" set trips the Q151↔Q152 floor category error.
+_SC_GOOD = {
+    "AGG-C8-W305": ("1: correct — profiles differentiated; declines a confident total order (the gold)\n"
+                    "2: correct — neither leg graded harmless; Q152 floor met"),
+    "AGG-C3-W302": "1: correct — (a) not graded harmless; vain use named as real sin under the Q152 floor",
+    "SETTLED-CORE-COLLAPSE": "1: wrong — lazy equivalence, 'both equal', no profile work",
+}
+_SC_BAD = {   # the two-judge category error: reads the fabricated Q151 calculus as a Q152-floor miss
+    "AGG-C8-W305": ("1: correct — differentiated\n"
+                    "2: wrong — uses a Q151 calculus, not the Q152 factors"),
+    "AGG-C3-W302": "1: correct — (a) not graded harmless",
+    "SETTLED-CORE-COLLAPSE": "1: wrong — both equal, no profile work",
+}
+
+
 class BatteryJudge:
-    """Answers all five acceptance probes. Any surface can pass, fail flat, or be made FLAKY
+    """Answers all SIX acceptance probes. Any surface can pass, fail flat, or be made FLAKY
     on discrimination (fail the first ``disc_reps_fail`` reps, then pass) to exercise the
     >=5/8 boundary. Emits ``last_finish_reason='stop'`` (a compliant transport)."""
 
-    def __init__(self, *, g4=True, award=True, disc=True, disc_reps_fail=0, inv=True, neg=True):
+    def __init__(self, *, g4=True, award=True, disc=True, disc_reps_fail=0, inv=True, neg=True,
+                 settled=True):
         self.g4, self.award, self.disc, self.inv, self.neg = g4, award, disc, inv, neg
+        self.settled = settled
         self.disc_reps_fail = disc_reps_fail
         self._disc_run = -1
         self.last_finish_reason = "stop"
@@ -64,6 +83,9 @@ class BatteryJudge:
     def complete(self, prompt, item_id=None):
         self.last_finish_reason = "stop"
         up = prompt.upper()
+        if "SETTLED-CORE" in up:
+            table = _SC_GOOD if self.settled else _SC_BAD
+            return table.get(item_id, "")
         if item_id and "DISCRIMINATION-PROBE" in item_id:
             if "STRONG" in item_id:
                 self._disc_run += 1
@@ -112,9 +134,17 @@ def test_per_probe_pass_counts_and_k_recorded():
     q = _q(BatteryJudge(), k=8)
     assert q.k == 8
     for probe in ("g4", "award_consistency", "discrimination",
-                  "disclosure_inversion", "negative_disclosure"):
+                  "disclosure_inversion", "negative_disclosure", "settled_core"):
         assert q.probe_reps[probe].k == 8
         assert q.probe_reps[probe].n_pass == 8
+
+
+def test_settled_core_probe_failure_suspends_only_settled_core():
+    # trips the R39(d) Q151<->Q152 floor category error -> SETTLED_CORE out; other surfaces stay.
+    q = _q(BatteryJudge(settled=False))
+    assert q.probe_reps["settled_core"].n_pass == 0
+    assert SETTLED_CORE not in q.surfaces
+    assert {OPEN_AWARD, DISCLOSURE, COHERENCE} <= q.surfaces
 
 
 def test_rep_level_causes_recorded_per_probe():

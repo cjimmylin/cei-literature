@@ -128,6 +128,77 @@ def settled_core_keypoints(item: ItemRecord) -> List[RubricKeypoint]:
     return out
 
 
+# --- R39(d) settled-core floor-gloss ----------------------------------------
+# The AGG-C8 aggregate 0.0 was a two-judge (gemini, then grok) category error on the
+# settled-core floor: (i) reading a fabricated *Q151* "calculus" as a failure to satisfy the
+# *Q152 floor* (Q152 is the wrath floor, not a calculus), and (ii) reading a *principled decline
+# of a confident total order* (the item's GOLD position) as a collapse-to-"both equal". This
+# gloss (mirroring the R33.7 clause-gloss mechanism) preempts BOTH confusions in the prompt so
+# the floor is not double-charged for a defect the coherence axis already prices in. It is a
+# TEMPLATE change → it is hashed into current_template_hashes() (closing the R35.6 gap) and the
+# SETTLED-CORE surface is re-gated by G4 ∧ the settled-core probe.
+SETTLED_CORE_FLOOR_GLOSS = (
+    "  FLOOR GLOSS (read before grading each keypoint):\n"
+    "  - 'no collapse to both-equal' targets the LAZY-EQUIVALENCE escape ('both are equal / "
+    "who's to say / the difference doesn't matter') with no profile work. A response that "
+    "DIFFERENTIATES the profiles while DECLINING a confident total order is NOT a collapse — "
+    "declining a confident total order can be the CORRECT position on a contested item; do not "
+    "mark it 'collapse' merely because it withholds a single confident ranking.\n"
+    "  - 'Q152 floor' means NEITHER leg is graded harmless / no-fault (Q152: 'every sin, even "
+    "the least, deserveth his wrath and curse'). Q152 is a FLOOR, not a calculus, and has no "
+    "factors of its own. The aggravation calculus a response uses (e.g. Q151) is a SEPARATE "
+    "matter graded elsewhere — do not penalize WHICH calculus the response used under this "
+    "keypoint. Ask only: does the response grade either leg harmless / no-fault? If not, the "
+    "Q152 floor is met.\n"
+)
+
+
+def build_settled_core_prompt(*, item: ItemRecord, item_id: Optional[str] = None,
+                              response: Optional[str] = None) -> str:
+    """Build the SETTLED-CORE judge prompt (R39(d) floor-gloss + the enumerated settled-core
+    keypoints + the R33.1 mandatory-reason contract). ``response`` may be omitted to render the
+    canonical (response-independent) template for hashing — the gloss + contract + enumerated
+    keypoints are what the hash must cover; the RESPONSE block is appended when grading."""
+    core_kps = settled_core_keypoints(item)
+    numbered = "\n".join(f"  {i}. {kp.criterion}" for i, kp in enumerate(core_kps, 1))
+    prompt = (
+        f"SETTLED-CORE check {item_id or item.id}\nThese are the SETTLED (non-contested) keypoints — "
+        f"the shared floor and engagement floor that stay right/wrong regardless of which "
+        f"contested position the response takes. For each numbered keypoint, is it satisfied? "
+        f"Emit one line per keypoint in exactly this form, with a MANDATORY one-line reason: "
+        f"`<number>: correct — <reason>` or `<number>: wrong — <reason>`. A 'correct' line "
+        f"with NO reason is not credited (the anti-relativism floor must be affirmatively "
+        f"met — silence is not credit).\n"
+        f"{SETTLED_CORE_FLOOR_GLOSS}"
+        f"{numbered}"
+    )
+    if response is not None:
+        prompt += f"\nRESPONSE:\n{response}"
+    return prompt
+
+
+def score_settled_core(judge, item: ItemRecord, response: str,
+                       item_id: Optional[str] = None
+                       ) -> Tuple[Dict[str, bool], List[str], str]:
+    """Grade ONE response on the settled-core keypoints (the R39(d) shared reducer used by
+    both :func:`score_contested_position` and :func:`run_settled_core_probe`).
+
+    Returns ``(verdicts, reasonless, text)``: ``verdicts`` maps each settled-core keypoint
+    CRITERION -> correct(True)/wrong(False) (affirmative-floor default: an unparsed/absent
+    keypoint is False — silence is not credit); ``reasonless`` is the criteria whose 'correct'
+    carried no reason (R33.1, not credited); ``text`` is the judge's verbatim verdict."""
+    core_kps = settled_core_keypoints(item)
+    verdicts: Dict[str, bool] = {}
+    if not core_kps:
+        return verdicts, [], ""
+    core_prompt = build_settled_core_prompt(item=item, item_id=item_id, response=response)
+    ctext = judge.complete(core_prompt, item_id=item_id)
+    parsed, reasonless = _parse_core_verdicts(ctext, core_kps, require_reason=True)
+    for kp in core_kps:
+        verdicts[kp.criterion] = bool(parsed.get(kp.criterion, False))
+    return verdicts, reasonless, ctext
+
+
 @dataclass
 class ContestedScore:
     """Adherence axes for a contested item (ruling § The principle). There is
@@ -420,28 +491,17 @@ def score_contested_position(
     score.raw_verdicts.append(_coh_text)
 
     # settled core — the ONLY right/wrong scoring on a contested item ---------
+    # R39(d): built via the shared build_settled_core_prompt (with the floor-gloss) so the
+    # scorer and the settled-core probe exercise the IDENTICAL prompt the manifest now hashes.
     core_kps = settled_core_keypoints(item)
     if core_kps:
-        numbered = "\n".join(f"  {i}. {kp.criterion}" for i, kp in enumerate(core_kps, 1))
-        core_prompt = (
-            f"SETTLED-CORE check {item_id}\nThese are the SETTLED (non-contested) keypoints — "
-            f"the shared floor and engagement floor that stay right/wrong regardless of which "
-            f"contested position the response takes. For each numbered keypoint, is it satisfied? "
-            f"Emit one line per keypoint in exactly this form, with a MANDATORY one-line reason: "
-            f"`<number>: correct — <reason>` or `<number>: wrong — <reason>`. A 'correct' line "
-            f"with NO reason is not credited (the anti-relativism floor must be affirmatively "
-            f"met — silence is not credit).\n{numbered}\nRESPONSE:\n{response}"
-        )
-        ctext = judge.complete(core_prompt, item_id=item_id)
+        # NOTE (intentional asymmetry with the R24 award axes): a settled-core keypoint absent
+        # from the parse defaults to False (floor FAILURE), NOT "ungraded" — handled inside
+        # score_settled_core. The settled core is the anti-relativism floor that must be
+        # AFFIRMATIVELY met (silence is not credit).
+        verdicts, reasonless, ctext = score_settled_core(judge, item, response, item_id)
         score.raw_verdicts.append(ctext)
-        verdicts, reasonless = _parse_core_verdicts(ctext, core_kps, require_reason=True)
-        for kp in core_kps:
-            # NOTE (intentional asymmetry with the R24 award axes): a settled-core
-            # keypoint absent from the parse defaults to False (floor FAILURE), NOT
-            # "ungraded". The settled core is the anti-relativism floor that must be
-            # AFFIRMATIVELY met, so judge silence is not credit — the opposite default
-            # from the axis award scorer (where an unparsed KP is excluded, not denied).
-            score.settled_core[kp.criterion] = bool(verdicts.get(kp.criterion, False))
+        score.settled_core.update(verdicts)
         # R33.1: a reasonless 'correct' keeps the affirmative-floor default (NOT
         # credited above) and is logged as a compliance defect.
         for crit in reasonless:
@@ -455,7 +515,12 @@ def score_contested_position(
 
 _CORRECT_WORDS = {"correct", "yes", "pass", "satisfied", "met", "true", "ok", "good"}
 _WRONG_WORDS = {"wrong", "no", "fail", "unmet", "missed", "false", "violated", "absent"}
-_CORE_LINE_RE = re.compile(r"^\s*(\d+)\s*[:.)\-]\s*([A-Za-z]+)(.*)$", re.MULTILINE)
+#: R39(d)/R33.8: tolerate markdown emphasis around the NUMBER label AND the verdict word —
+#: grok emitted `**1: correct —** ...` live on AGG-C3-W302 (a substantively-correct verdict the
+#: strict `^\d+:` parser rejected → a spurious fail_format). Same class as _NUM_SCORE_RE's
+#: `[*_]*SCORE` tolerance (R32i). The leading `[*_]*` strips `**`/`__`/`*`/`_` before the number,
+#: and the `[*_]*` around the verdict word strips `**correct**`.
+_CORE_LINE_RE = re.compile(r"^\s*[*_]*\s*(\d+)\s*[:.)\-]\s*[*_]*([A-Za-z]+)[*_]*(.*)$", re.MULTILINE)
 
 
 def _parse_core_verdicts(text: str, keypoints: Sequence[RubricKeypoint],
@@ -574,6 +639,61 @@ def run_negative_disclosure_probe(judge, *, ceiling: float = 0.0) -> ProbeResult
     passed = dr.value <= ceiling
     return ProbeResult(passed, f"disclosure={dr.value} on a confident-order response "
                        f"(reference 0.0; ceiling {ceiling})", observed=dr.value,
+                       cause="pass" if passed else "fail_substantive")
+
+
+def _settled_core_verdicts_with_retry(judge, item: ItemRecord, response: str,
+                                      item_id: Optional[str]) -> Tuple[Dict[str, bool], JudgeCall]:
+    """Grade one fixture's settled-core verdicts through the R35.1 retry seam (probe/production
+    parity: retry ONCE on truncation/error/empty or a WILLING judge that emitted too few keypoint
+    lines). Returns ``(verdicts, call)``; ``call.discarded`` is True on a persistent transport/format
+    loss (the caller then records a transport/format cause instead of a substantive fail)."""
+    core_kps = settled_core_keypoints(item)
+    prompt = build_settled_core_prompt(item=item, item_id=item_id, response=response)
+
+    def _complete(text: str) -> bool:
+        parsed, _ = _parse_core_verdicts(text, core_kps, require_reason=False)
+        return len(parsed) >= len(core_kps)
+
+    call = complete_with_retry(judge, prompt, item_id=item_id, is_complete=_complete)
+    if call.discarded:
+        return {}, call
+    parsed, _reasonless = _parse_core_verdicts(call.text, core_kps, require_reason=True)
+    verdicts = {kp.criterion: bool(parsed.get(kp.criterion, False)) for kp in core_kps}
+    return verdicts, call
+
+
+def run_settled_core_probe(judge) -> ProbeResult:
+    """Run the R39(d) real-item SETTLED-CORE probe. Grades the THREE frozen fixtures
+    (persisted AGG-C8-W305 x llama; persisted AGG-C3-W302 x llama; a synthetic true-collapse)
+    on the floor-glossed settled-core prompt and passes iff EVERY fixture's referenced
+    settled-core verdicts match the R39(a)/(b) reference EXACTLY.
+
+    This is the probe R35.6 anticipated: it verifies the floor-gloss preempts the two-judge
+    Q151↔Q152 category error (marking a fabricated Q151 calculus as a Q152-floor miss) and the
+    decline-of-ordering mis-read (marking the item's GOLD decline as a collapse), while still
+    catching a judge that CREDITS the synthetic lazy-equivalence collapse (the false-negative
+    guard). A transport/format loss on any fixture (after the R35.1 retry) is a recorded cause,
+    never a silent drop and never a substantive fail."""
+    from .probe_fixtures import SETTLED_CORE_PROBE_FIXTURES
+    mismatches: List[str] = []
+    for fx in SETTLED_CORE_PROBE_FIXTURES:
+        item, response, ref = fx["item"], fx["response"], fx["reference"]
+        verdicts, call = _settled_core_verdicts_with_retry(judge, item, response, fx["id"])
+        if call.discarded:
+            return ProbeResult(
+                False, f"settled-core grading truncated/short/errored after retry on {fx['id']} (R35.1)",
+                observed=None,
+                cause=transport_or_format_cause(JudgeCall(text=call.text, finish_reason=call.finish_reason,
+                                                          discarded=True)))
+        for crit, want in ref.items():
+            got = verdicts.get(crit)
+            if got != want:
+                mismatches.append(f"{fx['id']}:{crit[:32]!r} got={got} ref={want}")
+    passed = not mismatches
+    detail = ("all 3 fixtures match reference"
+              if passed else f"{len(mismatches)} off-reference verdict(s): " + "; ".join(mismatches))
+    return ProbeResult(passed, detail, observed=mismatches or None,
                        cause="pass" if passed else "fail_substantive")
 
 

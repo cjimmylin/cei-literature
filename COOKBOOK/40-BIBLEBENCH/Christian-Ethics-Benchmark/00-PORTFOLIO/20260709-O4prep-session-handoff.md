@@ -99,7 +99,7 @@ live call in the suite). `cd harness && …/.venv/bin/python -m pytest tests/ -q
   §1/§3 authority stack + the O3 handoff (harness lineage).
 
 ## 8. Commit
-`8ca291d31` — WALKWORTHY O4-prep: panel runner + §1 P0 pilot (150 records). Staged WALKWORTHY
+`418be6c9d` — WALKWORTHY O4-prep: panel runner + §1 P0 pilot (150 records). Staged WALKWORTHY
 paths explicitly (sibling sessions share the index — [[parallel-sessions-share-git-index]]);
 `scored_items.jsonl` gitignored/regenerable. The 3 per-model + qwen source runs are committed
 for audit (qwen's `panel_errors.jsonl` is the F-2 evidence).

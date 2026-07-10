@@ -418,6 +418,14 @@ def validate_schedule(rows, phase):
             request_canaries
         ):
             return False
+        expected_rows = tuple(
+            _row(core, ordinal, phase)
+            for ordinal, core in enumerate(CORE_CATALOG)
+        )
+        if tuple(canonical_json(row) for row in rows) != tuple(
+            canonical_json(row) for row in expected_rows
+        ):
+            return False
         return True
     except Exception:
         return False

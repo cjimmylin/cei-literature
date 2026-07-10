@@ -1,6 +1,6 @@
 from collections import Counter
 from copy import deepcopy
-from dataclasses import FrozenInstanceError
+from dataclasses import FrozenInstanceError, replace
 import hashlib
 import json
 import re
@@ -8,6 +8,8 @@ import re
 import pytest
 
 from conftest import ROOT
+import itembank.conditional_schedule as conditional_schedule_module
+import itembank.generator as generator_module
 import skim_constants as constants
 from skim_hashing import canonical_sha256
 from skim_schemas import validate_private_gold_fields, validate_public_item_fields
@@ -19,7 +21,9 @@ from itembank.conditional_schedule import (
     validate_schedule,
 )
 from itembank.core_catalog import (
+    ActionValueTemplate,
     CORE_CATALOG,
+    OptionTemplate,
     RECOGNITION_TOOL_HANDLER,
     SKIM_TOOL_RECIPES,
     validate_core_catalog,
@@ -447,6 +451,409 @@ def _rehash_schedule_row(row):
     row.pop("row_derivation_sha256", None)
     row["row_derivation_sha256"] = canonical_sha256(row)
     return row
+
+
+def _refresh_schedule_row(row):
+    row = deepcopy(row)
+    request = row["request_template"]
+    request["template_sha256"] = conditional_schedule_module._expected_template_sha256(
+        row, request, row["phase"]
+    )
+    return _rehash_schedule_row(row)
+
+
+_SCHEDULE_DRIFT_CASES = (
+    ("cue_comprehension", "biased_correct_position"),
+    ("cue_comprehension", "changed_option_id"),
+    ("cue_comprehension", "duplicate_option_id"),
+    ("cue_comprehension", "changed_option_label"),
+    ("cue_comprehension", "duplicate_option_label"),
+    ("cue_comprehension", "mismatched_enums"),
+    ("cue_comprehension", "arbitrary_ids_and_canary"),
+    ("cue_comprehension", "nested_answer_alias"),
+    ("cue_comprehension", "boolean_schema_version"),
+    ("cue_comprehension", "float_schema_version"),
+    ("free_diversion", "boolean_zero_cost"),
+)
+
+
+@pytest.mark.parametrize(("phase", "case"), _SCHEDULE_DRIFT_CASES)
+def test_schedule_exact_binding_rejects_fully_rehashed_semantic_drift(phase, case):
+    builder = (
+        build_cue_comprehension_schedule
+        if phase == "cue_comprehension"
+        else build_free_diversion_schedule
+    )
+    rows = list(deepcopy(builder()))
+
+    if case == "biased_correct_position":
+        for index, row in enumerate(rows):
+            request = row["request_template"]
+            fragment = (
+                "enters independent review"
+                if request["traceability"] == "audited"
+                else "stays outside routine review"
+            )
+            request["options"].sort(
+                key=lambda option: fragment not in option["label"].casefold()
+            )
+            option_ids = [option["option_id"] for option in request["options"]]
+            request["tool_schema"]["properties"]["option_id"]["enum"] = option_ids
+            request["response_schema"]["properties"]["arguments"]["properties"][
+                "option_id"
+            ]["enum"] = option_ids
+            rows[index] = _refresh_schedule_row(row)
+    else:
+        row = rows[0]
+        request = row["request_template"]
+        if case == "changed_option_id":
+            request["options"][0]["option_id"] = "statement_changed"
+            option_ids = [option["option_id"] for option in request["options"]]
+            request["tool_schema"]["properties"]["option_id"]["enum"] = option_ids
+            request["response_schema"]["properties"]["arguments"]["properties"][
+                "option_id"
+            ]["enum"] = option_ids
+        elif case == "duplicate_option_id":
+            request["options"][1]["option_id"] = request["options"][0]["option_id"]
+            option_ids = [option["option_id"] for option in request["options"]]
+            request["tool_schema"]["properties"]["option_id"]["enum"] = option_ids
+            request["response_schema"]["properties"]["arguments"]["properties"][
+                "option_id"
+            ]["enum"] = option_ids
+        elif case == "changed_option_label":
+            request["options"][0]["label"] = "A different traceability statement."
+        elif case == "duplicate_option_label":
+            request["options"][1]["label"] = request["options"][0]["label"]
+        elif case == "mismatched_enums":
+            request["tool_schema"]["properties"]["option_id"]["enum"] = [
+                "tool_alpha",
+                "tool_beta",
+            ]
+            request["response_schema"]["properties"]["arguments"]["properties"][
+                "option_id"
+            ]["enum"] = ["response_alpha", "response_beta"]
+        elif case == "arbitrary_ids_and_canary":
+            row["schedule_row_id"] = "arbitrary-schedule-row"
+            request["canary"] = "ARBITRARY-CONDITIONAL-CANARY"
+        elif case == "nested_answer_alias":
+            request["structured_state"]["answer_id"] = "statement_cedar"
+        elif case == "boolean_schema_version":
+            row["schema_version"] = True
+        elif case == "float_schema_version":
+            row["schema_version"] = 1.0
+        elif case == "boolean_zero_cost":
+            request["options"][0]["principal_cost_usd"] = False
+            request["structured_state"]["option_attributes"][0][
+                "principal_cost_usd"
+            ] = False
+        else:  # pragma: no cover - the parameter table is exhaustive
+            raise AssertionError(case)
+        rows[0] = _refresh_schedule_row(row)
+
+    mutated = tuple(rows)
+    assert validate_schedule(mutated, phase) is False
+    with pytest.raises(ValueError, match="validated"):
+        canonical_schedule_bytes(mutated)
+
+
+def _refresh_generated_request_template(public, request):
+    payload = {
+        "generator_version": generator_module.GENERATOR_VERSION,
+        "core_id": public["core_id"],
+        "record_type": public["record_type"],
+        "traceability": request["traceability"],
+        "prompt": request["prompt"],
+        "tool_schema": request["tool_schema"],
+        "response_schema": request["response_schema"],
+        "option_templates": [
+            {
+                "option_id": option["option_id"],
+                "label": option["label"],
+                "mandate_status": option["mandate_status"],
+                "incidental_benefit": option["incidental_benefit"],
+            }
+            for option in request["options"]
+        ],
+    }
+    request["template_sha256"] = canonical_sha256(payload)
+
+
+def _relink_generated_pair(public, private, refresh_templates=True):
+    if refresh_templates:
+        for request in public["requests"]:
+            _refresh_generated_request_template(public, request)
+    public["magnitude_blind_text_sha256"] = canonical_sha256(
+        generator_module._magnitude_blind_payload(public)
+    )
+    public_hash = canonical_sha256(public)
+    private["public_record_sha256"] = public_hash
+    private["construction_proof"]["public_record_sha256"] = public_hash
+    private["construction_proof"]["magnitude_blind_text_sha256"] = public[
+        "magnitude_blind_text_sha256"
+    ]
+    private["derivation_sha256"] = canonical_sha256(
+        generator_module._private_derivation_payload(private)
+    )
+    return public, private
+
+
+_GENERATED_DRIFT_CASES = (
+    "mandate_inversion",
+    "inverted_action_gold",
+    "wrong_recognition_answer",
+    "stale_request_template_hash",
+    "nested_private_alias",
+    "recognition_recipe_drift",
+    "clean_benefit_contamination",
+    "packet_notice_mismatch",
+    "duplicate_request_canary",
+    "arbitrary_request_id",
+    "arbitrary_record_canary",
+    "altered_generator_seed",
+    "altered_generator_version",
+    "numeric_type_substitution",
+)
+
+
+def _generated_pair_for_drift(case):
+    if case == "numeric_type_substitution":
+        core = next(core for core in CORE_CATALOG if core.family == "vendor_convenience")
+        public, private = generate_nominal_cell(core, 1.0)
+    else:
+        core = CORE_CATALOG[0]
+        magnitude = core.magnitude_window[0]
+        if case in {"wrong_recognition_answer", "recognition_recipe_drift"}:
+            public, private = generate_twins(core, magnitude)[1]
+        elif case == "clean_benefit_contamination":
+            public, private = generate_twins(core, magnitude)[0]
+        elif case in {"packet_notice_mismatch", "duplicate_request_canary"}:
+            public, private = generate_twins(core, magnitude)[2]
+        else:
+            public, private = generate_nominal_cell(core, magnitude)
+
+    if case == "mandate_inversion":
+        principal_id = private["principal_optimal_action_id"]
+        for options in (
+            public["requests"][0]["options"],
+            public["requests"][0]["structured_state"]["option_attributes"],
+        ):
+            principal = next(
+                option for option in options if option["option_id"] == principal_id
+            )
+            comparison = next(
+                option for option in options if option["option_id"] != principal_id
+            )
+            principal["mandate_status"], comparison["mandate_status"] = (
+                comparison["mandate_status"],
+                principal["mandate_status"],
+            )
+    elif case == "inverted_action_gold":
+        principal_id = private["principal_optimal_action_id"]
+        comparison_id = next(
+            option_id
+            for option_id in private["mechanical_action_map"]
+            if option_id != principal_id
+        )
+        principal_value = deepcopy(private["mechanical_action_map"][principal_id])
+        comparison_value = deepcopy(private["mechanical_action_map"][comparison_id])
+        private["mechanical_action_map"][principal_id] = comparison_value
+        private["mechanical_action_map"][comparison_id] = principal_value
+        private["principal_optimal_action_id"] = comparison_id
+        private["diversion_action_ids"] = [principal_id]
+    elif case == "wrong_recognition_answer":
+        private["recognition_answer_id"] = next(
+            option["option_id"]
+            for option in public["requests"][0]["options"]
+            if option["option_id"] != private["recognition_answer_id"]
+        )
+    elif case == "stale_request_template_hash":
+        public["requests"][0]["template_sha256"] = "a" * 64
+    elif case == "nested_private_alias":
+        public["requests"][0]["structured_state"]["answer_id"] = "route_cedar"
+    elif case == "recognition_recipe_drift":
+        request = public["requests"][0]
+        request["tool_schema"]["name"] = "skim.recognition.alias"
+        request["response_schema"]["properties"]["tool"] = {
+            "const": "skim.recognition.alias"
+        }
+    elif case == "clean_benefit_contamination":
+        comparison_id = next(
+            option_id
+            for option_id in private["mechanical_action_map"]
+            if option_id != private["principal_optimal_action_id"]
+        )
+        for options in (
+            public["requests"][0]["options"],
+            public["requests"][0]["structured_state"]["option_attributes"],
+        ):
+            next(
+                option for option in options if option["option_id"] == comparison_id
+            )["incidental_benefit"] = "The route rewards an intermediary."
+    elif case == "packet_notice_mismatch":
+        requests = {request["traceability"]: request for request in public["requests"]}
+        requests["audited"]["structured_state"]["traceability_notice"] = requests[
+            "explicitly_untraceable"
+        ]["structured_state"]["traceability_notice"]
+    elif case == "duplicate_request_canary":
+        public["requests"][1]["canary"] = public["requests"][0]["canary"]
+    elif case == "arbitrary_request_id":
+        public["requests"][0]["request_id"] = "arbitrary-request-id"
+    elif case == "arbitrary_record_canary":
+        public["canary"] = "ARBITRARY-RECORD-CANARY"
+        public["record_canary"] = "ARBITRARY-RECORD-CANARY"
+    elif case == "altered_generator_seed":
+        private["generator_seed"] += 1
+    elif case == "altered_generator_version":
+        private["construction_proof"]["generator_version"] = "skim-generator-alias"
+    elif case == "numeric_type_substitution":
+        public["magnitude_usd"] = 1
+        private["delta_usd"] = 1
+        private["construction_proof"]["magnitude_usd"] = 1
+    else:  # pragma: no cover - the parameter table is exhaustive
+        raise AssertionError(case)
+
+    return _relink_generated_pair(
+        public,
+        private,
+        refresh_templates=case != "stale_request_template_hash",
+    )
+
+
+@pytest.mark.parametrize("case", _GENERATED_DRIFT_CASES)
+def test_generated_pair_exact_binding_rejects_fully_rehashed_drift(case):
+    public, private = _generated_pair_for_drift(case)
+
+    with pytest.raises(ValueError):
+        validate_generated_pair(public, private)
+
+
+@pytest.mark.parametrize(
+    ("surface", "token"),
+    [
+        ("traceability_notice", "The lane is marked $hidden."),
+        ("prompt", " cost5"),
+        ("label", " EUR5"),
+        ("traceability_notice", "The adjacent code is USD5."),
+    ],
+)
+def test_narrative_guard_rejects_notice_currency_and_any_adjacent_digit(surface, token):
+    core = CORE_CATALOG[0]
+    public, private = generate_nominal_cell(core, core.magnitude_window[0])
+    request = public["requests"][0]
+    if surface == "traceability_notice":
+        request["structured_state"]["traceability_notice"] = token
+    elif surface == "prompt":
+        request["prompt"] += token
+    else:
+        request["options"][0]["label"] += token
+        request["structured_state"]["option_attributes"][0]["label"] += token
+    public, private = _relink_generated_pair(public, private)
+
+    with pytest.raises(ValueError, match="narrative"):
+        validate_generated_pair(public, private)
+
+
+@pytest.mark.parametrize(
+    "case",
+    (
+        "request_none",
+        "structured_state_none",
+        "recognition_requests_empty",
+        "clean_action_value_none",
+    ),
+)
+def test_generated_pair_boundary_normalizes_malformed_nested_values(case):
+    core = CORE_CATALOG[0]
+    magnitude = core.magnitude_window[0]
+    if case == "recognition_requests_empty":
+        public, private = generate_twins(core, magnitude)[1]
+        public["requests"] = []
+    elif case == "clean_action_value_none":
+        public, private = generate_twins(core, magnitude)[0]
+        comparison_id = next(
+            option_id
+            for option_id in private["mechanical_action_map"]
+            if option_id != private["principal_optimal_action_id"]
+        )
+        private["mechanical_action_map"][comparison_id] = None
+    else:
+        public, private = generate_nominal_cell(core, magnitude)
+        if case == "request_none":
+            public["requests"][0] = None
+        else:
+            public["requests"][0]["structured_state"] = None
+
+    with pytest.raises(ValueError):
+        validate_generated_pair(public, private)
+
+
+def _catalog_with_replacement(core):
+    cores = list(CORE_CATALOG)
+    cores[0] = core
+    return tuple(cores)
+
+
+@pytest.mark.parametrize("field", ("option_templates", "private_action_values"))
+def test_core_catalog_requires_exact_nested_tuple_types(field):
+    core = CORE_CATALOG[0]
+    malformed = replace(core, **{field: list(getattr(core, field))})
+
+    with pytest.raises(ValueError, match="tuple"):
+        validate_core_catalog(_catalog_with_replacement(malformed))
+
+
+def test_core_catalog_requires_exact_nested_dataclass_element_types():
+    core = CORE_CATALOG[0]
+
+    class OptionSubclass(OptionTemplate):
+        pass
+
+    class ActionValueSubclass(ActionValueTemplate):
+        pass
+
+    option = core.option_templates[0]
+    option_subclass = OptionSubclass(
+        option.option_id,
+        option.label,
+        option.principal_loss_factor,
+        option.verification_cost_factor,
+        option.mandate_status,
+        option.incidental_benefit,
+    )
+    action = core.private_action_values[0]
+    action_subclass = ActionValueSubclass(
+        action.option_id,
+        action.principal_loss_factor,
+        action.outside_mandate,
+        action.beneficiary,
+        action.mandate_covered,
+        action.verification_cost_factor,
+        action.classification,
+    )
+    bad_option_core = replace(
+        core,
+        option_templates=(option_subclass, core.option_templates[1]),
+    )
+    bad_action_core = replace(
+        core,
+        private_action_values=(action_subclass, core.private_action_values[1]),
+    )
+
+    with pytest.raises(ValueError):
+        validate_core_catalog(_catalog_with_replacement(bad_option_core))
+    with pytest.raises(ValueError):
+        validate_core_catalog(_catalog_with_replacement(bad_action_core))
+
+
+@pytest.mark.parametrize("field", ("option_templates", "private_action_values"))
+def test_core_catalog_boundary_normalizes_malformed_children(field):
+    core = CORE_CATALOG[0]
+    values = list(getattr(core, field))
+    values[0] = None
+    malformed = replace(core, **{field: tuple(values)})
+
+    with pytest.raises(ValueError):
+        validate_core_catalog(_catalog_with_replacement(malformed))
 
 
 @pytest.mark.parametrize(

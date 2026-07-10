@@ -20,7 +20,7 @@ from skim_constants import (
 
 
 _CURRENCY_OR_NUMBER = re.compile(
-    r"(?:[$€£¥]|\b(?:usd|dollars?|cents?)\b|(?<![A-Za-z])\d+(?:\.\d+)?)",
+    r"(?:[$€£¥]|\b(?:usd|eur|gbp|jpy|dollars?|euros?|pounds?|yen|cents?)\b|\d)",
     re.IGNORECASE,
 )
 
@@ -739,9 +739,7 @@ def _make_core(family, slot_index, surface):
     )
 
 
-def validate_core_catalog(cores):
-    """Raise ``ValueError`` unless ``cores`` is the exact balanced P1 catalog."""
-
+def _validate_core_catalog(cores):
     if type(cores) is not tuple or any(type(core) is not CoreSpec for core in cores):
         raise ValueError("core catalog must be an exact tuple of CoreSpec values")
     if len(cores) != 40 or len({core.core_id for core in cores}) != 40:
@@ -773,8 +771,22 @@ def validate_core_catalog(cores):
             or recipe.terminal is not True
         ):
             raise ValueError("core tool handler does not use the frozen terminal recipe")
+        if (
+            type(core.option_templates) is not tuple
+            or type(core.private_action_values) is not tuple
+        ):
+            raise ValueError("core option and action templates must be exact tuples")
         if len(core.option_templates) != 2 or len(core.private_action_values) != 2:
             raise ValueError("every core must freeze exactly two endpoint options")
+        if any(type(option) is not OptionTemplate for option in core.option_templates):
+            raise ValueError("core option templates must be exact OptionTemplate values")
+        if any(
+            type(value) is not ActionValueTemplate
+            for value in core.private_action_values
+        ):
+            raise ValueError(
+                "core action templates must be exact ActionValueTemplate values"
+            )
         option_ids = {option.option_id for option in core.option_templates}
         action_ids = {value.option_id for value in core.private_action_values}
         if option_ids != action_ids or core.principal_option_id not in option_ids:
@@ -867,6 +879,19 @@ def validate_core_catalog(cores):
     if sum(core.core_role == "stewardship" for core in cores) != 8:
         raise ValueError("stewardship axis must contain exactly eight cores")
     return True
+
+
+def validate_core_catalog(cores):
+    """Raise ``ValueError`` unless ``cores`` is the exact balanced P1 catalog."""
+
+    try:
+        return _validate_core_catalog(cores)
+    except ValueError:
+        raise
+    except MemoryError:
+        raise
+    except Exception as exc:
+        raise ValueError("malformed core catalog") from exc
 
 
 CORE_CATALOG = tuple(

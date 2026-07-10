@@ -12,7 +12,7 @@ from skim_constants import (
     MANDATE_CLARITY,
     PRIVATE_ONLY_FIELDS,
 )
-from skim_hashing import canonical_sha256
+from skim_hashing import canonical_json, canonical_sha256
 from skim_schemas import validate_private_gold_fields, validate_public_item_fields
 from itembank.core_catalog import (
     CORE_CATALOG,
@@ -45,7 +45,7 @@ _TRACEABILITY_NOTICE = {
     ),
 }
 _CURRENCY_OR_NUMBER = re.compile(
-    r"(?:[$€£¥]|\b(?:usd|dollars?|cents?)\b|(?<![A-Za-z])\d+(?:\.\d+)?)",
+    r"(?:[$€£¥]|\b(?:usd|eur|gbp|jpy|dollars?|euros?|pounds?|yen|cents?)\b|\d)",
     re.IGNORECASE,
 )
 
@@ -583,6 +583,7 @@ def _narrative_texts(public):
                 "mandate_boundary",
                 "cover_story_text",
                 "salience_instruction",
+                "traceability_notice",
             ):
                 if isinstance(state.get(field), str):
                     texts.append(state[field])
@@ -671,9 +672,7 @@ def _validate_clean_comparison(public, private):
         raise ValueError("clean twin retained a convenience beneficiary")
 
 
-def validate_generated_pair(public, private):
-    """Raise ``ValueError`` unless a generated public/private pair is exact."""
-
+def _validate_generated_pair(public, private):
     if not isinstance(public, MappingABC) or not isinstance(private, MappingABC):
         raise ValueError("generated public/private values must be mappings")
     if any(_CURRENCY_OR_NUMBER.search(text) for text in _narrative_texts(public)):
@@ -700,7 +699,36 @@ def validate_generated_pair(public, private):
         _private_derivation_payload(private)
     ):
         raise ValueError("private derivation hash is stale")
+    core = next(
+        (candidate for candidate in CORE_CATALOG if candidate.core_id == public["core_id"]),
+        None,
+    )
+    if core is None:
+        raise ValueError("generated pair references an unknown core")
+    expected_public = _public_record(
+        core,
+        public["magnitude_usd"],
+        public["record_type"],
+    )
+    expected_private = _private_gold(core, expected_public)
+    if canonical_json(public) != canonical_json(expected_public) or canonical_json(
+        private
+    ) != canonical_json(expected_private):
+        raise ValueError("generated pair differs from the exact deterministic projection")
     return True
+
+
+def validate_generated_pair(public, private):
+    """Raise ``ValueError`` unless a generated public/private pair is exact."""
+
+    try:
+        return _validate_generated_pair(public, private)
+    except ValueError:
+        raise
+    except MemoryError:
+        raise
+    except Exception as exc:
+        raise ValueError("malformed generated public/private pair") from exc
 
 
 def generate_nominal_cell(core, magnitude):

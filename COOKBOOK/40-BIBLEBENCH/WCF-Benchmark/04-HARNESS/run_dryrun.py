@@ -25,6 +25,12 @@ from wcfbench import (  # noqa: E402
     load_items,
     score_aggravate_ordinal,
     score_prooftext_anchors,
+    # Phase-2 backbone: refusal taxonomy · reporting tensor · perturbation.
+    classify_refusal,
+    ScoredItem,
+    build_tensor,
+    run_perturbations,
+    InvarianceLeagueTable,
 )
 from wcfbench.scorers import INCOMPARABLE  # noqa: E402
 
@@ -95,6 +101,7 @@ def main() -> int:
 
     total_awarded = 0.0
     total_max = 0.0
+    scored: list = []  # ScoredItem records feeding the reporting-tensor demo
 
     for item in items:
         resp = canned.get(item.id, {})
@@ -127,14 +134,74 @@ def main() -> int:
             print(f"    (no mechanical scorer for design={item.design!r} in this skeleton)")
             awarded = mx = 0.0
 
+        # Refusal co-score (§4.5): these advisory/ordinal fixtures call for an
+        # answer, so should_refuse=False; a substantive canned response engages.
+        refusal = classify_refusal(model_text, should_refuse=False)
+        print(f"    refusal co-score: {refusal.refusal_class} (failure={refusal.is_failure})")
+
         total_awarded += awarded
         total_max += mx
+        if mx > 0:
+            scored.append(ScoredItem(
+                design=item.design,
+                commandment=item.commandments[0],
+                tier=item.tier,
+                track=item.track,
+                fraction=awarded / mx,
+            ))
         print()
 
     print("-" * 72)
     print(f"SUMMARY (mock): {total_awarded:.2f} / {total_max:.2f} mechanical points "
           f"across {len(items)} items")
-    print(f"API calls made: 0 (MockModelClient; {len(client.call_log)} canned .complete() lookups)")
+
+    # --- Reporting tensor (§4.6) --------------------------------------------
+    if scored:
+        tensor = build_tensor(scored)
+        (cmd, tier, track), worst_mean, worst_n = tensor.worst_cell()
+        print()
+        print("Reporting tensor (§4.6):")
+        for it in scored:
+            c = tensor.cell(it.commandment, it.tier, it.track)
+            print(f"    cell {it.commandment}/{it.tier}/{it.track}: mean={c['mean']:.2f} n={c['n']}")
+        print(f"    worst-cell (sanctioned scalar): {cmd}/{tier}/{track} "
+              f"= {worst_mean:.2f} (n={worst_n})")
+        tracks = {it.track for it in scored}
+        gap_note = "" if tracks == {"A", "B"} else f"  (only Track {sorted(tracks)} in fixtures)"
+        print(f"    Track A–B gap (overall): {tensor.ab_gap():+.2f}{gap_note}")
+
+    # --- Perturbation flip-rate / invariance (§5) ---------------------------
+    # A tiny illustrative invariance run: 3 meaning-preserving variants of one
+    # item, verdict = did the response cite WLC Q141? A "steady" model cites it
+    # in all variants; a "shaky" one drops the citation under a paraphrase.
+    def _cites_q141(text: str) -> str:
+        return "PASS" if "q141" in text.lower() else "FAIL"
+
+    class _SteadyClient:
+        def complete(self, prompt, item_id=None):
+            return "Under WLC Q141 you have a positive duty to provide."
+
+    class _ShakyClient:
+        def complete(self, prompt, item_id=None):
+            # drops the anchor on the paraphrase variant
+            return "You should provide for your household." if "paraphrase" in prompt \
+                else "Under WLC Q141 you have a positive duty to provide."
+
+    variants = {"base": "base prompt", "P1a": "paraphrase prompt", "P3": "persona prompt"}
+    league = InvarianceLeagueTable()
+    league.add("steady-mock", run_perturbations(variants, _SteadyClient(), _cites_q141, item_id="DEMO"))
+    league.add("shaky-mock", run_perturbations(variants, _ShakyClient(), _cites_q141, item_id="DEMO"))
+    print()
+    print("Perturbation invariance league (§5):")
+    for row in league.table():
+        print(f"    {row['model']}: mean flip-rate={row['mean_flip_rate']:.2f} "
+              f"(n_items={row['n_items']})")
+
+    print("-" * 72)
+    # Real model clients are not among the mocks above; every call was a lookup.
+    demo_calls = 2 * len(variants)  # perturbation demo, all offline mock clients
+    print(f"API calls made: 0 (MockModelClient; {len(client.call_log)} canned "
+          f".complete() lookups + {demo_calls} offline demo-client lookups)")
     print("-" * 72)
     return 0
 

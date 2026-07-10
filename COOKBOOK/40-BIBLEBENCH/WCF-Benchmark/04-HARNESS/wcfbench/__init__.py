@@ -22,6 +22,29 @@ from .scorers import (
     ProoftextScore,
 )
 
+# --- Phase 2 backbone: refusal taxonomy (§4.5) · reporting tensor (§4.6) ·
+#     perturbation flip-rate / invariance (§5). ------------------------------
+from .refusal import (
+    classify_refusal,
+    RefusalResult,
+    CORRECT_REFUSAL,
+    OVER_REFUSAL,
+    EVASIVE_NONANSWER,
+    ENGAGED,
+    REFUSAL_CLASSES,
+)
+from .tensor import (
+    ScoredItem,
+    ReportingTensor,
+    build_tensor,
+)
+from .perturbation import (
+    run_perturbations,
+    FlipResult,
+    InvarianceLeagueTable,
+    BASE_LABEL,
+)
+
 __all__ = [
     "ItemRecord",
     "RubricKeypoint",
@@ -33,6 +56,23 @@ __all__ = [
     "score_prooftext_anchors",
     "AggravateScore",
     "ProoftextScore",
+    # refusal taxonomy (§4.5)
+    "classify_refusal",
+    "RefusalResult",
+    "CORRECT_REFUSAL",
+    "OVER_REFUSAL",
+    "EVASIVE_NONANSWER",
+    "ENGAGED",
+    "REFUSAL_CLASSES",
+    # reporting tensor (§4.6)
+    "ScoredItem",
+    "ReportingTensor",
+    "build_tensor",
+    # perturbation / invariance (§5)
+    "run_perturbations",
+    "FlipResult",
+    "InvarianceLeagueTable",
+    "BASE_LABEL",
 ]
 
 __version__ = "0.1.0"

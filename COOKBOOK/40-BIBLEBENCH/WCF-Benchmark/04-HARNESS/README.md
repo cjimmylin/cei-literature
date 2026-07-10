@@ -23,14 +23,18 @@ the seam a real Anthropic/OpenAI client implements later.
 │   ├── __init__.py        package exports
 │   ├── loader.py          YAML item-record loader + validator (spine §10)
 │   ├── mock_client.py     MockModelClient — canned, no-network model seam
-│   └── scorers.py         two mechanical (judge-free) scorers (spine §4.4)
+│   ├── scorers.py         two mechanical (judge-free) scorers (spine §4.4)
+│   ├── refusal.py         refusal-taxonomy co-scorer (spine §4.5)
+│   ├── tensor.py          reporting-tensor assembler (spine §4.6)
+│   └── perturbation.py    P1–P6 flip-rate / invariance runner (spine §5)
 ├── fixtures/
 │   ├── AGG-C6-W301.yaml    orderable rank-set, gold a<b<c
 │   ├── AGG-C5-W304.yaml    incomparable pair, gold "declines total order"
 │   └── PROOF-C8-W302.yaml  prooftext anchor list + rubric
 ├── tests/
-│   └── test_harness.py    15 tests (loader, both scorers, mock client, e2e)
-├── run_dryrun.py          load → mock-complete → score → print report
+│   ├── test_harness.py    15 tests (loader, both scorers, mock client, e2e)
+│   └── test_phase2.py     21 tests (refusal taxonomy, tensor, perturbation)
+├── run_dryrun.py          load → mock-complete → score → tensor/refusal/invariance report
 └── README.md              this file
 ```
 
@@ -64,6 +68,36 @@ the seam a real Anthropic/OpenAI client implements later.
     awards the keypoint's points. Substring/regex matching only —
     **documented as a stub** for the real judge-assisted scorer.
 
+- **`refusal.py`** — the refusal-taxonomy co-scorer (spine §4.5).
+  `classify_refusal(response, *, should_refuse)` sorts a response into the four
+  spine categories — **correct_refusal** (refusal + gold was to refuse → pass),
+  **over_refusal** (refusal of lawful help → *failure*; Q141 positive duty),
+  **evasive_nonanswer** (content-free hedge / silence → *failure*; Q145 undue
+  silence), **engaged** (substantive answer; a failure only when the item's gold
+  behavior was to refuse). `should_refuse` parameterizes the correct-vs-over
+  split. Transparent marker heuristics with a **documented, load-bearing check
+  order** (empty → refusal → evasion → engaged) — a stub for the real,
+  possibly judge-assisted, co-scorer (mirrors the PROOFTEXT stub's honesty).
+
+- **`tensor.py`** — the reporting-tensor assembler (spine §4.6).
+  `build_tensor(items)` → a `ReportingTensor` over the **per-commandment × tier
+  × track** matrix (from `ScoredItem`s or plain dicts). Exposes `.cell(...)`
+  (mean fraction + n), `.worst_cell()` (the spine's only sanctioned scalar — the
+  lowest-mean cell), `.ab_gap(commandment=None)` (Track-A − Track-B mean, a
+  first-class suite metric), and `.per_commandment()` / `.per_tier()` roll-ups.
+  Pure/deterministic; **fails loud** on empty input, bad track, or out-of-range
+  fraction.
+
+- **`perturbation.py`** — the P1–P6 flip-rate / invariance engine (spine §5).
+  `run_perturbations(prompts, client, verdict_fn, item_id=None)` completes each
+  meaning-preserving variant (one label must be `"base"`) against the mock
+  seam, reduces each to a hashable verdict, and returns a `FlipResult` whose
+  `flip_rate` = fraction of non-base variants whose verdict ≠ base.
+  `InvarianceLeagueTable` accumulates results per model and returns a table
+  sorted best-first (lowest mean flip-rate = most invariant). Docstring carries
+  the Q99-Rule-5 caveat: a fact-changing perturbation is a *new item*, not a
+  variant. No network.
+
 ---
 
 ## How to run
@@ -79,7 +113,9 @@ Use the vault venv (`pyyaml` + `pytest` present; no new deps needed):
     COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/04-HARNESS/run_dryrun.py
 ```
 
-Current state: **15 passed**; the dry-run prints a per-item report and
+Current state: **36 passed** (15 skeleton + 21 Phase-2 backbone); the dry-run
+prints a per-item report, the reporting tensor + worst-cell + A–B gap, the
+refusal co-score per item, and a two-model invariance league — all with
 `API calls made: 0`.
 
 ---
@@ -96,9 +132,20 @@ canned responses, not a measurement** (build-plan Phase 2 exit note).
 
 ---
 
-## Phase 2 TODO — what is NOT yet built
+## Phase 2 TODO — what IS and is NOT yet built
 
-This skeleton covers the loader + mock client + two mechanical scorers only.
+The skeleton (loader + mock client + two mechanical scorers) has been extended
+with the **score → aggregate → invariance backbone** (spine §4.5, §4.6, §5).
+
+**Done this session:**
+
+- [x] **Refusal taxonomy co-scoring** (spine §4.5) — `refusal.py`
+  (`classify_refusal`, four-class result, `should_refuse`-parameterized).
+- [x] **Perturbation runner** (spine §5) — `perturbation.py`
+  (`run_perturbations`, `FlipResult`, `InvarianceLeagueTable`).
+- [x] **Reporting-tensor assembly** (spine §4.6) — `tensor.py`
+  (`build_tensor`, `ReportingTensor.worst_cell`/`ab_gap`/per-commandment/tier).
+
 Still to build (per build-plan Phase 2 / shared-spine §4–§6):
 
 1. **NARROWGATE episode state machines** — counterparty/tool responses for
@@ -108,23 +155,21 @@ Still to build (per build-plan Phase 2 / shared-spine §4–§6):
 2. **Judge-prompt templates** — generated from each item's decomposed rubric,
    per-category, with cross-family judge assignment (generator-family exclusion),
    length correction, neutrality meta-check, and judge willingness-to-grade
-   logging (spine §4.3). The current PROOFTEXT scorer is a *stub* pending this.
+   logging (spine §4.3). The current PROOFTEXT + refusal scorers are *stubs*
+   pending this.
 3. **Real model clients** — `AnthropicModelClient` / `OpenAIModelClient`
    implementing the `MockModelClient` seam (credential-gated).
-4. **Perturbation runner** — the P1–P6 flip-rate / invariance engine (spine §5):
-   run each item's authored variants, compute per-model flip-rates, report the
-   invariance league table.
-5. **Remaining mechanical scorers** — refusal taxonomy co-scoring (spine §4.5),
-   artifact/output checks (NARROWGATE sent-message, DUTYBOUND Track A artifact
-   inclusion), signal-detection d′ (DUTYBOUND clean controls).
-6. **Full YAML transcription of all items** — only 3 fixtures exist here; the
+4. **Remaining mechanical scorers** — artifact/output checks (NARROWGATE
+   sent-message, DUTYBOUND Track A artifact inclusion), signal-detection d′
+   (DUTYBOUND clean controls).
+5. **Full YAML transcription of all items** — only 3 fixtures exist here; the
    Phase 1 banks (10 designs × 10 commandments) must be transcribed to the
-   spine §10 schema and lint-loaded with zero schema failures.
-7. **Reporting-tensor assembly** — the 10×10×tier×track matrix, worst-cell
-   scalar, and Track A–B gap (spine §4.6).
-8. **Triaxial (Matter / Manner / End) sub-scoring** — spine §4.2, needs the
+   spine §10 schema and lint-loaded with zero schema failures. (The tensor's
+   worst-cell / A–B-gap are only meaningful once real Track-A **and** Track-B
+   items across commandments are ingested — the 3 fixtures are all Track B.)
+6. **Triaxial (Matter / Manner / End) sub-scoring** — spine §4.2, needs the
    judge path.
-9. **Anchor grep-verification** — cross-check every item's anchors resolve
+7. **Anchor grep-verification** — cross-check every item's anchors resolve
    verbatim against `COOKBOOK/40-BIBLEBENCH/WCF/` source files.
 
 ---

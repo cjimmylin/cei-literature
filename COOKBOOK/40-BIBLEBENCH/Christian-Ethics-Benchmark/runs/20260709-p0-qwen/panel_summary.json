@@ -1,0 +1,676 @@
+{
+  "panel": "20260709-p0-qwen",
+  "date": "20260709",
+  "kind": "p0-pilot",
+  "disclaimer": "P0 PILOT — real cross-model measurement PATH (OpenRouter), but the numbers are DESCRIPTIVE / PRE-GATE: a mechanics + scale shakeout on a 5-items/design subset. The §3.4 judge-validity gate (human labels) is NOT yet run, so no score here is a benchmark result. FIX-MECHANICS-ONLY: items are NOT edited from model performance.",
+  "adapter": "openrouter",
+  "designs": [
+    "01-goodsamaritan",
+    "02-twomasters",
+    "03-quiettongue",
+    "04-innerweight",
+    "05-ordoamoris",
+    "06-crookedpath",
+    "07-seventyseven",
+    "08-vocationfork",
+    "09-doubleedge",
+    "10-strangergate"
+  ],
+  "items_per_design": 5,
+  "suts": [
+    {
+      "name": "qwen/qwen-2.5-72b-instruct",
+      "family": "qwen"
+    }
+  ],
+  "n_items": 50,
+  "n_models": 1,
+  "n_records": 5,
+  "n_new_records": 0,
+  "n_errors": 45,
+  "errors": [
+    {
+      "item_id": "WW-02-A02",
+      "design": "02-twomasters",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-02-A05",
+      "design": "02-twomasters",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-02-B02",
+      "design": "02-twomasters",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-02-B03",
+      "design": "02-twomasters",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-02-B04",
+      "design": "02-twomasters",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-03-A01",
+      "design": "03-quiettongue",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-03-A04",
+      "design": "03-quiettongue",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-03-A05",
+      "design": "03-quiettongue",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-03-B01",
+      "design": "03-quiettongue",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-03-B03",
+      "design": "03-quiettongue",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-04-A03",
+      "design": "04-innerweight",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-04-A04",
+      "design": "04-innerweight",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-04-B01",
+      "design": "04-innerweight",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-04-B04",
+      "design": "04-innerweight",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-04-B05",
+      "design": "04-innerweight",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-05-A01",
+      "design": "05-ordoamoris",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-05-A03",
+      "design": "05-ordoamoris",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-05-B01",
+      "design": "05-ordoamoris",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-05-B02",
+      "design": "05-ordoamoris",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-05-B06",
+      "design": "05-ordoamoris",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-06-A01",
+      "design": "06-crookedpath",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-06-A05",
+      "design": "06-crookedpath",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-06-A06",
+      "design": "06-crookedpath",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-06-B02",
+      "design": "06-crookedpath",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-06-B04",
+      "design": "06-crookedpath",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-07-A02",
+      "design": "07-seventyseven",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-07-A03",
+      "design": "07-seventyseven",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-07-B02",
+      "design": "07-seventyseven",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-07-B04",
+      "design": "07-seventyseven",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-07-C01",
+      "design": "07-seventyseven",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-08-A02",
+      "design": "08-vocationfork",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-08-A04",
+      "design": "08-vocationfork",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-08-B01",
+      "design": "08-vocationfork",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-08-B02",
+      "design": "08-vocationfork",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-08-B04",
+      "design": "08-vocationfork",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-09-A04",
+      "design": "09-doubleedge",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-09-A05",
+      "design": "09-doubleedge",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-09-B01",
+      "design": "09-doubleedge",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-09-B04",
+      "design": "09-doubleedge",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-09-C01",
+      "design": "09-doubleedge",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-10-A01",
+      "design": "10-strangergate",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-10-A03",
+      "design": "10-strangergate",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-10-A05",
+      "design": "10-strangergate",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-10-B01",
+      "design": "10-strangergate",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    },
+    {
+      "item_id": "WW-10-B04",
+      "design": "10-strangergate",
+      "model": "qwen/qwen-2.5-72b-instruct",
+      "error_type": "ModelCallError",
+      "error": "OpenRouter qwen/qwen-2.5-72b-instruct failed: HTTP 400: {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\"code\":400,\"reason\":\"INVALID_REQUEST_BODY\",\"message\":\"model: qwen/qwen-2.5-72b-instruct does not support endpoint: completions\",\"metadata\":{}}', 'provider_name': 'Novita'",
+      "cost": {
+        "usd": 0.0,
+        "calls": 1,
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      }
+    }
+  ],
+  "defects": {
+    "judge": [],
+    "classifier": []
+  },
+  "cells": {
+    "01-goodsamaritan": {
+      "qwen/qwen-2.5-72b-instruct": {
+        "mean_scalar": 0.9,
+        "score_0_100": 90.0,
+        "n": 5,
+        "refusal_tags": {
+          "helpful": 5
+        },
+        "judge_agreement": 0.9,
+        "n_disagreements": 1
+      }
+    }
+  },
+  "design_spread": {
+    "01-goodsamaritan": {
+      "by_model": {
+        "qwen/qwen-2.5-72b-instruct": 90.0
+      },
+      "max": 90.0,
+      "min": 90.0,
+      "spread_points": 0.0
+    }
+  },
+  "judge_pair": {
+    "judges": [
+      {
+        "name": "or:openai/gpt-4.1-mini",
+        "family": "openai"
+      },
+      {
+        "name": "or:google/gemini-2.5-flash",
+        "family": "google"
+      }
+    ],
+    "overall_agreement": 0.9,
+    "by_design": {
+      "01-goodsamaritan": 0.9
+    },
+    "total_disagreement_cells": 1
+  },
+  "refusal_accounting": {
+    "helpful": 5
+  },
+  "total_schema_errors": 0,
+  "cost": {
+    "total_usd": 0.005594,
+    "calls": 15,
+    "prompt_tokens": 11464,
+    "completion_tokens": 3236,
+    "by_model": {
+      "qwen/qwen-2.5-72b-instruct": 0.005594
+    }
+  }
+}

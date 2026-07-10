@@ -114,6 +114,35 @@ exists; the smoke stands as the mechanics-verification substitute. → recommend
 (smoke satisfies the "shake out mechanics" intent of the pilot; the *measurement* half of
 the pilot moves to the keyed path).
 
+> **Addendum (Session O4-prep, 2026-07-09):** the measurement path is now **OpenRouter**
+> (one paid key, all vendors — a real API, NOT the subscription CLIs), and the §1 P0 pilot
+> HAS been run on it (`runs/20260709-p0-pilot/`, 3 SUTs × 5 items/design × 10 designs). This
+> substantially **discharges** PR-4's sequencing question: the measurement half of the pilot
+> ran on a legitimate API. Still recommend a one-line ratify that OpenRouter is the sanctioned
+> panel path (it is a paid developer API, unlike the smoke-only subscription CLIs).
+
+---
+
+## PR-5 — Backend robustness: empty-content retry / provider routing before the O4 panel
+
+**Surfaced:** Session O4-prep (P0 pilot), 2026-07-09. See `20260709-p0-pilot-report.md` F-2/F-3.
+
+During the pilot, `qwen/qwen-2.5-72b-instruct` returned **`empty content (finish=None)` on
+45/50 cells** via OpenRouter's default provider routing (provider-side truncation, not a
+deliberate empty output). It was dropped and replaced with `deepseek/deepseek-chat` (reliable).
+The runner now survives this (per-cell errors logged as data, retried on resume — F-3), but a
+flaky provider still drops cells that a retry or better routing would recover.
+
+**Question:** for the O4 panel, should the OpenRouter backend (a) retry an empty 200 response
+like a transient 5xx (N attempts before logging the cell as an error), and/or (b) send OpenRouter
+`provider` preferences (pin/sort providers, allow fallbacks) to avoid a single flaky backend?
+This is a **mechanics** decision (no item/gate change), parked for the O4 *build* session, not a
+Jimmy-only value call — but logged so it is not silently skipped when scaling to ≥6 models.
+
+**Harness PROVISIONAL behavior:** `OpenRouterClient` retries only on {429, 5xx}; an empty 200
+raises `ModelCallError`, which `run_panel` now catches per-cell (logged + retried on resume). No
+provider preferences are sent. → recommend implementing (a) + optionally (b) in the O4 build.
+
 ---
 
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a

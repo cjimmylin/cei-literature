@@ -1,0 +1,159 @@
+{
+  "panel": "20260709-p0-pilot",
+  "date_str": "20260709",
+  "designs": [
+    "01-goodsamaritan",
+    "02-twomasters",
+    "03-quiettongue",
+    "04-innerweight",
+    "05-ordoamoris",
+    "06-crookedpath",
+    "07-seventyseven",
+    "08-vocationfork",
+    "09-doubleedge",
+    "10-strangergate"
+  ],
+  "item_ids": [
+    "WW-01-A01",
+    "WW-01-A05",
+    "WW-01-A05-P",
+    "WW-01-B01",
+    "WW-01-B02",
+    "WW-02-A02",
+    "WW-02-A05",
+    "WW-02-B02",
+    "WW-02-B03",
+    "WW-02-B04",
+    "WW-03-A01",
+    "WW-03-A04",
+    "WW-03-A05",
+    "WW-03-B01",
+    "WW-03-B03",
+    "WW-04-A03",
+    "WW-04-A04",
+    "WW-04-B01",
+    "WW-04-B04",
+    "WW-04-B05",
+    "WW-05-A01",
+    "WW-05-A03",
+    "WW-05-B01",
+    "WW-05-B02",
+    "WW-05-B06",
+    "WW-06-A01",
+    "WW-06-A05",
+    "WW-06-A06",
+    "WW-06-B02",
+    "WW-06-B04",
+    "WW-07-A02",
+    "WW-07-A03",
+    "WW-07-B02",
+    "WW-07-B04",
+    "WW-07-C01",
+    "WW-08-A02",
+    "WW-08-A04",
+    "WW-08-B01",
+    "WW-08-B02",
+    "WW-08-B04",
+    "WW-09-A04",
+    "WW-09-A05",
+    "WW-09-B01",
+    "WW-09-B04",
+    "WW-09-C01",
+    "WW-10-A01",
+    "WW-10-A03",
+    "WW-10-A05",
+    "WW-10-B01",
+    "WW-10-B04"
+  ],
+  "models": [
+    {
+      "name": "meta-llama/llama-3.1-8b-instruct",
+      "family": "meta-llama",
+      "adapter": "openrouter"
+    },
+    {
+      "name": "deepseek/deepseek-chat",
+      "family": "deepseek",
+      "adapter": "openrouter"
+    },
+    {
+      "name": "mistralai/mistral-large-2512",
+      "family": "mistralai",
+      "adapter": "openrouter"
+    }
+  ],
+  "judges": [
+    {
+      "name": "or:openai/gpt-4.1-mini",
+      "family": "openai"
+    },
+    {
+      "name": "or:google/gemini-2.5-flash",
+      "family": "google"
+    }
+  ],
+  "permutation_seeds": {
+    "seat_order": 20260706,
+    "twin_order": 20260706,
+    "variant_order": 20260706,
+    "claimant_order": 20260706,
+    "arbiter_placement": 20260706
+  },
+  "capability_battery": [
+    {
+      "id": "mmlu_pro",
+      "name": "MMLU-Pro",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Broad multi-domain reasoning; the canonical successor to MMLU, harder and less saturated.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gpqa_diamond",
+      "name": "GPQA (Diamond)",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Graduate-level, Google-proof science QA; separates frontier reasoning from recall.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "swe_bench_verified",
+      "name": "SWE-bench Verified",
+      "class": "agentic",
+      "metric": "resolved (%)",
+      "higher_is_better": true,
+      "why": "Multi-step agentic coding on real GitHub issues; a strong general agency signal.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gaia",
+      "name": "GAIA",
+      "class": "agentic",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "General assistant tasks needing tool use, browsing, and multi-step planning.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "ruler",
+      "name": "RULER",
+      "class": "long_context",
+      "metric": "score (%) at fixed context length",
+      "higher_is_better": true,
+      "why": "Synthetic long-context stress test (retrieval, multi-hop, aggregation) at a pinned length.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "mrcr",
+      "name": "MRCR (multi-round coreference resolution)",
+      "class": "long_context",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Long-context multi-turn coreference — relevant to WALKWORTHY's scripted multi-turn designs (02/07) without measuring their ethics.",
+      "source": "public leaderboard / model card at O4 time"
+    }
+  ],
+  "notes": "P0 pilot (3 cross-vendor SUTs x 5 items/design x 10 designs); 3 per-model runs merged. Measurement path (OpenRouter); DESCRIPTIVE / PRE-GATE."
+}

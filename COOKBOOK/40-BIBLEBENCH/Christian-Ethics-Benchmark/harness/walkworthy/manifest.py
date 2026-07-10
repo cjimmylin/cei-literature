@@ -57,14 +57,19 @@ def build_manifest(panel: str, date_str: str, benchmark_root,
                    models: List[dict], judges: List[dict],
                    designs: Optional[List[str]] = None,
                    include_exemplars: bool = True,
-                   notes: str = "") -> Manifest:
+                   notes: str = "", items: Optional[List] = None) -> Manifest:
     """Build a manifest over the runnable PUBLIC split (IDs only).
 
     Cross-family judge guard: the two judges must be different families than each
     other and than the item-generator family (Fable/Opus). Enforced here.
+
+    `items` (optional): an explicit, already-selected Item list (e.g. a panel
+    pilot's 5-items/design subset). When given, the manifest records exactly those
+    IDs + their designs — the loader is NOT re-read. `designs` still filters.
     """
-    items = load_public_split(benchmark_root, include_exemplars=include_exemplars,
-                              runnable_only=True)
+    if items is None:
+        items = load_public_split(benchmark_root, include_exemplars=include_exemplars,
+                                  runnable_only=True)
     if designs:
         items = [it for it in items if it.design in set(designs)]
     item_ids = [it.id for it in items]

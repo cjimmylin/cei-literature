@@ -106,6 +106,23 @@ def test_manifest_has_fixed_integer_permutation_seeds(benchmark_root):
     assert all(isinstance(v, int) for v in m.permutation_seeds.values())
 
 
+def test_manifest_accepts_explicit_item_subset(benchmark_root):
+    # Panel pilots run a SELECTED subset (e.g. 5 items/design); the manifest must
+    # record exactly what ran, not the whole 344-item split.
+    from walkworthy.loader import load_public_split
+    allit = load_public_split(str(benchmark_root), include_exemplars=True, runnable_only=True)
+    subset = [it for it in allit if it.design == "01-goodsamaritan"][:5]
+    m = build_manifest(
+        panel="p", date_str="20260709", benchmark_root=benchmark_root,
+        models=[{"name": "m", "family": "mock", "adapter": "mock"}],
+        judges=[{"name": "j1", "family": "mock"}, {"name": "j2", "family": "mock2"}],
+        items=subset,
+    )
+    assert m.item_ids == [it.id for it in subset]
+    assert len(m.item_ids) == 5
+    assert m.designs == ["01-goodsamaritan"]        # derived from the subset only
+
+
 def test_manifest_json_roundtrip(benchmark_root, tmp_path):
     m = build_manifest(
         panel="p", date_str="20260709", benchmark_root=benchmark_root,

@@ -431,6 +431,45 @@ def per_condition_sd(records: Iterable[Dict[str, Any]]) -> Dict[str, Dict[str, f
     return {m: dict(v) for m, v in out.items()}
 
 
+# --------------------------------------------------------------------------- refusal reporting (SA-5.4)
+
+# Vendor refusal-signal asymmetry (SA-5.4): Anthropic exposes a STRUCTURED refusal signal
+# (stop_reason=='refusal'); Codex does NOT — its content refusals are visible only as the scorer
+# returning no stance ("no_stance"). This asymmetry is disclosed alongside the counts so a lower
+# Codex "refusal" rate is not misread as the model refusing less.
+VENDOR_REFUSAL_SIGNAL: Dict[str, str] = {
+    "anthropic": "structured",   # stop_reason=='refusal'
+    "openai": "none",            # no structured signal; refusal == scorer -> no_stance
+    "google": "structured",      # (deferred) stop_reason when the Gemini adapter is enabled
+}
+
+
+def refusal_report(
+    records: Iterable[Dict[str, Any]],
+    administration_errors: Optional[Dict[str, int]] = None,
+) -> Dict[str, Any]:
+    """§5.3 refusal accounting (SA-5.4): per-vendor refusal counts split by category, with
+    administration errors reported SEPARATELY and the vendor refusal-signal asymmetry disclosed.
+
+    Administration errors (Codex non-zero return, transient API failures) are NOT refusals: F-1
+    makes them raise fail-loud, so they never become records and never inflate these counts. The
+    separate ``administration_errors_by_vendor`` bucket carries any admin errors observed
+    out-of-band; refusal counts and admin-error counts are never merged (the corruption the
+    OVERTURNED returncode!=0 -> refusal path caused).
+    """
+    refusals: Dict[str, Dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    for r in records:
+        if r.get("refusal"):
+            vendor = r.get("vendor")
+            category = r.get("refusal_category") or "unknown"
+            refusals[vendor][category] += 1
+    return {
+        "refusals_by_vendor": {v: dict(c) for v, c in refusals.items()},
+        "administration_errors_by_vendor": dict(administration_errors or {}),
+        "vendor_refusal_signal": dict(VENDOR_REFUSAL_SIGNAL),
+    }
+
+
 def load_results(path: str) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     with open(path, "r") as fh:

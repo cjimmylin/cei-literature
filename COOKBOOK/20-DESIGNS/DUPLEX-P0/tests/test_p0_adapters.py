@@ -8,9 +8,11 @@ from runner.adapters import (
     AnthropicAdapter,
     OpenAICodexAdapter,
     GeminiAdapter,
+    AdministrationError,
     build_adapter,
     detect_refusal,
     classify_refusal,
+    resolve_auth_mode,
 )
 
 
@@ -76,6 +78,26 @@ def _fake_codex_runner(response_text, returncode=0):
     return runner
 
 
+def _sequenced_codex_runner(returncodes, response_text="Verdict: divert."):
+    """A runner whose returncode follows `returncodes` per successive call (for retry tests)."""
+    seq = list(returncodes)
+    calls = {"n": 0}
+
+    def runner(cmd, input=None, capture_output=None, text=None, timeout=None):
+        rc = seq[min(calls["n"], len(seq) - 1)]
+        calls["n"] += 1
+        out_path = cmd[cmd.index("-o") + 1]
+        with open(out_path, "w") as fh:
+            fh.write(response_text if rc == 0 else "")
+        return SimpleNamespace(returncode=rc, stdout="", stderr="boom")
+    runner.calls = calls
+    return runner
+
+
+def _no_sleep(_seconds):
+    return None
+
+
 def test_codex_adapter_builds_command_and_reads_last_message():
     ad = OpenAICodexAdapter(codex_bin="codex", runner=_fake_codex_runner("Deontological: do not divert."))
     res = ad.administer("dilemma?", "gpt-5-codex", temperature=0.7, seed=7)
@@ -86,16 +108,134 @@ def test_codex_adapter_builds_command_and_reads_last_message():
     assert cmd[cmd.index("-m") + 1] == "gpt-5-codex"
 
 
-def test_codex_adapter_refusal_flag_from_returncode_not_substring():
-    """WS-1 D10: Codex refusal_flag comes from a STRUCTURED signal (a non-zero return = a failed
-    administration that yielded no scoreable judgment), NOT a substring match on the answer text.
-    A clean return whose text merely contains 'I won't' is left for the scorer to adjudicate."""
+def test_codex_returncode_nonzero_is_admin_error_not_refusal():
+    """F-1 / SA-5: 'Codex `returncode != 0` = administration error: bounded retry with exponential
+    backoff, then RAISE fail-loud. Never a refusal; never checkpointed as complete.' A persistently
+    non-zero return must raise AdministrationError after the retries are exhausted — it must NOT be
+    reported as a refusal (the old returncode!=0 -> refusal_flag=True behavior is OVERTURNED)."""
+    ad = OpenAICodexAdapter(
+        codex_bin="codex", runner=_fake_codex_runner("", returncode=1),
+        max_retries=2, sleep=_no_sleep,
+    )
+    with pytest.raises(AdministrationError):
+        ad.administer("d?", "gpt-5-mini", temperature=0.7, seed=1)
+
+
+def test_codex_refusal_flag_is_always_false_content_refusal_left_to_scorer():
+    """F-1 / SA-5: 'Codex `refusal_flag` is always False; content refusal = scorer->None ->
+    "no_stance".' A clean (returncode 0) return whose text contains 'I won't' is NOT a refusal at
+    the adapter — the scorer decides downstream."""
     ad = OpenAICodexAdapter(codex_bin="codex", runner=_fake_codex_runner("I won't answer that."))
     res = ad.administer("d?", "gpt-5-mini", temperature=0.7, seed=1)
     assert res.refusal_flag is False
-    ad2 = OpenAICodexAdapter(codex_bin="codex", runner=_fake_codex_runner("", returncode=1))
-    res2 = ad2.administer("d?", "gpt-5-mini", temperature=0.7, seed=1)
-    assert res2.refusal_flag is True
+
+
+def test_codex_admin_error_bounded_retry_then_succeeds():
+    """F-1 / SA-5: 'bounded retry with exponential backoff' — a transient non-zero return that
+    recovers on a later attempt yields a normal scored administration (no refusal, no raise)."""
+    runner = _sequenced_codex_runner([1, 1, 0], response_text="Deontological: hold.")
+    ad = OpenAICodexAdapter(codex_bin="codex", runner=runner, max_retries=4, sleep=_no_sleep)
+    res = ad.administer("d?", "gpt-5-mini", temperature=0.7, seed=1)
+    assert res.text == "Deontological: hold."
+    assert res.refusal_flag is False
+    assert runner.calls["n"] == 3  # two failures + one success
+
+
+def test_anthropic_adapter_bounded_retry_transient_then_succeeds():
+    """F-1 / SA-5: 'Anthropic adapter gains the same bounded retry for transient API errors
+    (rate-limit/overloaded/network); persistent errors raise.' A transient error that recovers
+    yields a normal result; the structured refusal path is unchanged."""
+    calls = {"n": 0}
+
+    class RateLimitError(Exception):
+        pass
+
+    def create(**kwargs):
+        calls["n"] += 1
+        if calls["n"] < 3:
+            raise RateLimitError("429 slow down")
+        block = SimpleNamespace(type="text", text="Utilitarian: divert.")
+        return SimpleNamespace(content=[block], stop_reason="end_turn")
+
+    client = SimpleNamespace(messages=SimpleNamespace(create=create))
+    ad = AnthropicAdapter(client=client, max_retries=4, sleep=_no_sleep)
+    res = ad.administer("p", "claude-opus-4-6", temperature=0.7, seed=1)
+    assert res.text == "Utilitarian: divert."
+    assert res.refusal_flag is False
+    assert calls["n"] == 3
+
+
+def test_anthropic_adapter_persistent_transient_raises_admin_error():
+    """F-1 / SA-5: persistent transient API errors 'raise' fail-loud (as an administration error),
+    never a silent refusal or checkpointed cell."""
+
+    class InternalServerError(Exception):
+        pass
+
+    def create(**kwargs):
+        raise InternalServerError("529 overloaded")
+
+    client = SimpleNamespace(messages=SimpleNamespace(create=create))
+    ad = AnthropicAdapter(client=client, max_retries=2, sleep=_no_sleep)
+    with pytest.raises(AdministrationError):
+        ad.administer("p", "claude-opus-4-6", temperature=0.7, seed=1)
+
+
+def test_anthropic_adapter_auth_error_is_not_retried():
+    """F-1 / SA-5 addendum: 'fail loud only when the first call errors with an authentication
+    error.' An authentication error is NOT transient — it must propagate immediately, unretried."""
+
+    class AuthenticationError(Exception):
+        pass
+
+    calls = {"n": 0}
+
+    def create(**kwargs):
+        calls["n"] += 1
+        raise AuthenticationError("401 invalid key")
+
+    client = SimpleNamespace(messages=SimpleNamespace(create=create))
+    ad = AnthropicAdapter(client=client, max_retries=5, sleep=_no_sleep)
+    with pytest.raises(AuthenticationError):
+        ad.administer("p", "claude-opus-4-6", temperature=0.7, seed=1)
+    assert calls["n"] == 1  # no retry on a non-transient auth failure
+
+
+def test_resolve_auth_mode_precedence_and_empty_key_edge():
+    """F-1 / SA-5 addendum (OAuth credential path): the SDK credential chain resolves
+    'API key -> ANTHROPIC_AUTH_TOKEN -> `ant auth login` profile'. Sharp edge: an EMPTY
+    ANTHROPIC_API_KEY='' must NOT outrank the profile in our reported auth mode (an empty key is
+    treated as unset)."""
+    assert resolve_auth_mode({"ANTHROPIC_API_KEY": "sk-abc"}) == "api_key"
+    assert resolve_auth_mode({"ANTHROPIC_AUTH_TOKEN": "oat-xyz"}) == "auth_token"
+    assert resolve_auth_mode({}) == "profile"
+    # empty API key is treated as unset -> falls through to the profile
+    assert resolve_auth_mode({"ANTHROPIC_API_KEY": ""}) == "profile"
+    assert resolve_auth_mode({"ANTHROPIC_API_KEY": "", "ANTHROPIC_AUTH_TOKEN": "oat"}) == "auth_token"
+
+
+def test_anthropic_adapter_does_not_hard_require_api_key(monkeypatch):
+    """F-1 / SA-5 addendum: 'The AnthropicAdapter must NOT hard-require ANTHROPIC_API_KEY.
+    Construct a bare anthropic.Anthropic() and let the SDK credential chain resolve.' With no key
+    in the env, constructing the live client must succeed (auth is deferred to the first call), and
+    the resolved auth mode is recorded for run metadata."""
+    import sys
+
+    constructed = {"n": 0}
+
+    class _FakeAnthropic:
+        def __init__(self, *a, **k):
+            constructed["n"] += 1  # NOTE: no api_key required
+
+    fake_module = SimpleNamespace(Anthropic=_FakeAnthropic)
+    monkeypatch.setitem(sys.modules, "anthropic", fake_module)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    monkeypatch.delenv("ANTHROPIC_AUTH_TOKEN", raising=False)
+
+    ad = AnthropicAdapter()  # no client injected, no key in env
+    _ = ad.client            # lazy construction must NOT raise "key not set"
+    assert constructed["n"] == 1
+    assert ad.auth_mode == "profile"  # resolved from the credential chain
 
 
 def test_codex_adapter_unavailable_raises(monkeypatch):

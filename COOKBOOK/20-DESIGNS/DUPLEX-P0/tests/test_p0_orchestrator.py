@@ -9,10 +9,12 @@ from runner.orchestrator import (
     Checkpoint,
     condition_config,
     per_condition_sd,
+    refusal_report,
     load_results,
     cell_key,
     seed_for,
 )
+from runner.adapters import AdapterResult, AdministrationError, BaseAdapter
 
 
 CONDITIONS = ["forced_immediate", "extended_thinking"]
@@ -132,6 +134,58 @@ def test_per_condition_sd_first_class_and_excludes_refusals():
         scorer=fx.fake_scorer, reps=10, temperature=0.7,
     )
     assert per_condition_sd(ro.run()) == {}
+
+
+# --- F-1 / SA-5: admin-error vs refusal separation + reporting split --------------------------
+
+class _AdminErrorAdapter(BaseAdapter):
+    """Adapter whose administration always fails after retries (raises AdministrationError),
+    modeling a Codex non-zero return that never recovers."""
+
+    vendor = "openai"
+
+    def administer(self, prompt, model_id, temperature, seed, **gen):
+        raise AdministrationError("codex exec returncode=1 after retries", vendor="openai")
+
+
+def test_admin_error_produces_no_record_and_no_checkpoint(tmp_path):
+    """F-1 / SA-5: 'a nonzero-returncode administration must produce NO record (raises after
+    retries)' and is 'never checkpointed as complete'. The orchestrator must let the
+    AdministrationError propagate — not swallow it into a refusal record — so the cell is retried
+    on resume, not permanently recorded as a refusal."""
+    ckpt_path = str(tmp_path / "ckpt.jsonl")
+    out_path = str(tmp_path / "results.jsonl")
+    item = {"item_id": "X", "text": "T", "axis": "process"}
+    orch = Orchestrator(
+        adapters={"openai": _AdminErrorAdapter()},
+        models=[{"id": "gpt-5-mini", "vendor": "openai"}], item_bank=[item],
+        conditions=["standard"], scorer=fx.fake_scorer, reps=1, temperature=0.7,
+        checkpoint=Checkpoint(ckpt_path), out_path=out_path,
+    )
+    with pytest.raises(AdministrationError):
+        orch.run()
+    assert not os.path.exists(out_path) or load_results(out_path) == []  # NO record emitted
+    assert len(Checkpoint(ckpt_path)) == 0                               # NOT checkpointed
+
+
+def test_refusal_report_separates_admin_errors_from_refusals_with_vendor_asymmetry():
+    """F-1 / SA-5.4: 'Mandatory reporting gains administration-error counts per vendor, reported
+    SEPARATELY from refusal counts, plus the vendor asymmetry disclosure (Anthropic has a
+    structured refusal signal; Codex does not).' Refusal categories must not be conflated with
+    administration errors, and the per-vendor signal asymmetry must be disclosed."""
+    records = [
+        {"vendor": "anthropic", "refusal": True, "refusal_category": "explicit_refusal"},
+        {"vendor": "openai", "refusal": True, "refusal_category": "no_stance"},
+        {"vendor": "openai", "refusal": False, "refusal_category": None},
+    ]
+    rep = refusal_report(records, administration_errors={"openai": 3})
+    assert rep["refusals_by_vendor"]["anthropic"] == {"explicit_refusal": 1}
+    assert rep["refusals_by_vendor"]["openai"] == {"no_stance": 1}
+    # administration errors are a SEPARATE bucket, never merged into refusal counts
+    assert rep["administration_errors_by_vendor"] == {"openai": 3}
+    # vendor asymmetry disclosure: Anthropic structured, Codex none
+    assert rep["vendor_refusal_signal"]["anthropic"] == "structured"
+    assert rep["vendor_refusal_signal"]["openai"] == "none"
 
 
 # --- WS-1 D9: stance-polarity reverse-scoring applied AT RECORD CREATION (R-1) ----------------

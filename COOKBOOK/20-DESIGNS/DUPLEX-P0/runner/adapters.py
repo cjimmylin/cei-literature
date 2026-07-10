@@ -37,6 +37,80 @@ class AdapterResult:
     latency: float
 
 
+# --------------------------------------------------------------------------- administration errors (F-1 / SA-5)
+
+class AdministrationError(RuntimeError):
+    """A model administration FAILED (auth, network, rate-limit, CLI crash, timeout) rather than
+    the model refusing.
+
+    SA-5 (F-1): an administration error is bounded-retried with exponential backoff and then RAISED
+    fail-loud. It is NEVER coerced into a refusal, and the orchestrator never checkpoints its cell
+    as complete — so a transient failure is retried on resume instead of being recorded permanently
+    as an "explicit_refusal" (the corruption the OVERTURNED returncode!=0 -> refusal path caused).
+    """
+
+    def __init__(self, message: str, vendor: Optional[str] = None, attempts: Optional[int] = None):
+        super().__init__(message)
+        self.vendor = vendor
+        self.attempts = attempts
+
+
+class _CodexTransient(RuntimeError):
+    """Internal: a single Codex administration attempt failed transiently (non-zero return or
+    subprocess timeout) and should be retried."""
+
+
+# Transient Anthropic API errors eligible for bounded retry (rate-limit / overloaded / network /
+# timeout / 5xx). Matched by class NAME so the test suite need not import the SDK, and so an
+# authentication or bad-request error (a different class) is NOT retried but raised at once
+# (SA-5 addendum: "fail loud only when the first call errors with an authentication error").
+_TRANSIENT_ANTHROPIC_ERROR_NAMES = frozenset(
+    {"RateLimitError", "InternalServerError", "OverloadedError",
+     "APIConnectionError", "APITimeoutError", "APIConnectionTimeoutError"}
+)
+
+
+def _is_transient_anthropic_error(exc: BaseException) -> bool:
+    return type(exc).__name__ in _TRANSIENT_ANTHROPIC_ERROR_NAMES
+
+
+def _retry(fn, *, max_retries, backoff_base, sleep, is_transient, vendor):
+    """Run `fn`, retrying transient administration failures with exponential backoff, then RAISE
+    an AdministrationError once the retries are exhausted (SA-5: bounded retry -> fail loud).
+    Non-transient exceptions propagate immediately (unretried)."""
+    attempt = 0
+    while True:
+        try:
+            return fn()
+        except Exception as e:  # noqa: BLE001 — classified below, re-raised if not transient
+            if not is_transient(e):
+                raise
+            attempt += 1
+            if attempt > max_retries:
+                raise AdministrationError(
+                    f"{vendor} administration failed after {attempt} attempt(s): {e!r}",
+                    vendor=vendor, attempts=attempt,
+                ) from e
+            sleep(backoff_base * (2 ** (attempt - 1)))
+
+
+def resolve_auth_mode(env: Optional[Dict[str, str]] = None) -> str:
+    """Report which credential the anthropic SDK chain will use, for run metadata (SA-5 addendum).
+
+    Precedence mirrors the SDK: a NON-EMPTY ``ANTHROPIC_API_KEY``, else ``ANTHROPIC_AUTH_TOKEN``,
+    else the ``ant auth login`` profile. Sharp edge encoded here: an EMPTY ``ANTHROPIC_API_KEY=""``
+    is treated as unset (it falls through to the token / profile), matching the entrypoint's env
+    sanity-check — an exported empty key still outranks the profile at the SDK level, which is why
+    the entrypoint must fail loud on it, but for *reporting* we describe the intended resolution.
+    """
+    env = env if env is not None else os.environ
+    if env.get("ANTHROPIC_API_KEY"):
+        return "api_key"
+    if env.get("ANTHROPIC_AUTH_TOKEN"):
+        return "auth_token"
+    return "profile"
+
+
 # --------------------------------------------------------------------------- refusal detection (§4)
 
 # Explicit refusal category (§4 / KB07 L65): a refusing model must NOT silently score as
@@ -109,21 +183,36 @@ class AnthropicAdapter(BaseAdapter):
 
     vendor = "anthropic"
 
-    def __init__(self, client: Optional[Any] = None, api_key_env: str = "ANTHROPIC_API_KEY"):
+    def __init__(
+        self,
+        client: Optional[Any] = None,
+        api_key_env: str = "ANTHROPIC_API_KEY",
+        max_retries: int = 4,
+        backoff_base: float = 0.5,
+        sleep: Optional[Callable[[float], None]] = None,
+    ):
         self._client = client
         self._api_key_env = api_key_env
+        self._max_retries = max_retries
+        self._backoff_base = backoff_base
+        self._sleep = sleep or time.sleep
+        # Credential mode used for run metadata (SA-5 addendum). "injected" for a test client;
+        # otherwise resolved from the SDK credential chain when the live client is constructed.
+        self.auth_mode: Optional[str] = "injected" if client is not None else None
 
     @property
     def client(self) -> Any:
         if self._client is None:
             import anthropic  # deferred import; only when a live call is actually made
 
-            key = os.environ.get(self._api_key_env)
-            if not key:
-                raise RuntimeError(
-                    f"{self._api_key_env} not set — cannot construct live Anthropic client."
-                )
-            self._client = anthropic.Anthropic(api_key=key)
+            # SA-5 addendum (OAuth credential path): do NOT hard-require ANTHROPIC_API_KEY.
+            # Construct a bare client and let the SDK credential chain resolve
+            # (ANTHROPIC_API_KEY -> ANTHROPIC_AUTH_TOKEN -> `ant auth login` profile). An
+            # authentication error surfaces on the FIRST call, not at construction — which is
+            # what lets `ant auth login` (org-billed OAuth, auto-refreshing profile) work without
+            # a static key. Prefer profile resolution over an exported token for long runs.
+            self._client = anthropic.Anthropic()
+            self.auth_mode = resolve_auth_mode()
         return self._client
 
     def administer(
@@ -150,19 +239,25 @@ class AnthropicAdapter(BaseAdapter):
             params["system"] = system
         if thinking:
             # extended_thinking condition -> adaptive thinking on Opus 4.6 / Sonnet 4.6.
-            # TODO(live): 4.x historically constrained `temperature` when thinking is on
-            # (required temperature=1). Verify against the installed SDK/model; if the API
-            # rejects temperature+thinking, drop temperature here for the thinking condition.
+            # F-2 owns the V-4 temperature drop for this condition (the orchestrator omits the
+            # sampling param before this call); this adapter only forwards what it is given.
             params["thinking"] = thinking
 
         t0 = time.monotonic()
-        resp = self.client.messages.create(**params)
+        # SA-5 (F-1): bounded retry with exponential backoff for TRANSIENT API errors
+        # (rate-limit/overloaded/network); persistent transient errors raise AdministrationError;
+        # non-transient errors (auth/bad-request) propagate immediately.
+        resp = _retry(
+            lambda: self.client.messages.create(**params),
+            max_retries=self._max_retries, backoff_base=self._backoff_base,
+            sleep=self._sleep, is_transient=_is_transient_anthropic_error, vendor=self.vendor,
+        )
         latency = time.monotonic() - t0
 
         text = _extract_text(resp)
         stop_reason = getattr(resp, "stop_reason", None)
-        # WS-1 D10: refusal_flag carries ONLY the structured API signal. A content refusal ("I
-        # cannot ...") is decided downstream by the scorer returning no stance, never by a
+        # WS-1 D10 / SA-5: refusal_flag carries ONLY the structured API signal. A content refusal
+        # ("I cannot ...") is decided downstream by the scorer returning no stance, never by a
         # substring match on the answer (which would delete substantive stance-1 answers).
         refusal = stop_reason == "refusal"
         return AdapterResult(text=text, raw=_raw(resp), refusal_flag=refusal, latency=latency)
@@ -222,11 +317,17 @@ class OpenAICodexAdapter(BaseAdapter):
         codex_bin: Optional[str] = None,
         runner: Optional[Callable[..., Any]] = None,
         timeout: float = 180.0,
+        max_retries: int = 4,
+        backoff_base: float = 0.5,
+        sleep: Optional[Callable[[float], None]] = None,
     ):
         # `runner` defaults to subprocess.run; tests inject a fake.
         self._runner = runner or subprocess.run
         self._explicit_bin = codex_bin
         self._timeout = timeout
+        self._max_retries = max_retries
+        self._backoff_base = backoff_base
+        self._sleep = sleep or time.sleep
 
     def available(self) -> bool:
         return self.codex_bin is not None
@@ -269,37 +370,51 @@ class OpenAICodexAdapter(BaseAdapter):
                 "Install/authenticate the OAuth Codex CLI before a live run."
             )
         full_prompt = prompt if not system else (system + "\n\n" + prompt)
-        with tempfile.NamedTemporaryFile(
-            "w+", suffix=".txt", delete=False
-        ) as tf:
-            out_path = tf.name
-        cmd = self.build_command(model_id, out_path)
-        t0 = time.monotonic()
-        proc = self._runner(
-            cmd,
-            input=full_prompt,
-            capture_output=True,
-            text=True,
-            timeout=self._timeout,
-        )
-        latency = time.monotonic() - t0
 
-        text = _read_last_message(out_path)
-        if not text:
-            # fall back to stdout if the -o file was not produced (older/newer codex)
-            text = getattr(proc, "stdout", "") or ""
-        returncode = getattr(proc, "returncode", 0)
-        # WS-1 D10: refusal_flag carries ONLY a structured signal. codex exec has no explicit
-        # refusal stop_reason, so a non-zero return (a failed administration that produced no
-        # scoreable judgment) is the structured signal; content-based refusal is the scorer's job.
-        refusal = returncode != 0
-        raw = {
-            "cmd": cmd,
-            "returncode": returncode,
-            "stderr": getattr(proc, "stderr", ""),
-            "out_path": out_path,
-        }
-        return AdapterResult(text=text, raw=raw, refusal_flag=refusal, latency=latency)
+        def _attempt() -> AdapterResult:
+            with tempfile.NamedTemporaryFile("w+", suffix=".txt", delete=False) as tf:
+                out_path = tf.name
+            cmd = self.build_command(model_id, out_path)
+            try:
+                proc = self._runner(
+                    cmd, input=full_prompt, capture_output=True, text=True, timeout=self._timeout,
+                )
+            except subprocess.TimeoutExpired as e:
+                # A timeout is an administration failure, not a refusal — retry it.
+                raise _CodexTransient(f"codex exec timed out after {self._timeout}s") from e
+
+            text = _read_last_message(out_path)
+            if not text:
+                # fall back to stdout if the -o file was not produced (older/newer codex)
+                text = getattr(proc, "stdout", "") or ""
+            returncode = getattr(proc, "returncode", 0)
+            if returncode != 0:
+                # SA-5 (OVERTURNED): a non-zero return is an ADMINISTRATION error (auth, network,
+                # rate limit, CLI crash), NOT a model refusal. It conflates admin failures with
+                # refusals and, once checkpointed, becomes a permanent fabricated "explicit_refusal".
+                # Retry it; on persistent failure _retry raises AdministrationError (fail loud).
+                raise _CodexTransient(
+                    f"codex exec returncode={returncode}: "
+                    f"{(getattr(proc, 'stderr', '') or '')[:500]}"
+                )
+            raw = {
+                "cmd": cmd,
+                "returncode": returncode,
+                "stderr": getattr(proc, "stderr", ""),
+                "out_path": out_path,
+            }
+            # SA-5: Codex has NO structured refusal signal, so refusal_flag is ALWAYS False.
+            # A content refusal is decided downstream by the scorer returning no stance (no_stance).
+            return AdapterResult(text=text, raw=raw, refusal_flag=False, latency=0.0)
+
+        t0 = time.monotonic()
+        result = _retry(
+            _attempt, max_retries=self._max_retries, backoff_base=self._backoff_base,
+            sleep=self._sleep, is_transient=lambda e: isinstance(e, _CodexTransient),
+            vendor=self.vendor,
+        )
+        result.latency = time.monotonic() - t0
+        return result
 
 
 def _read_last_message(path: str) -> str:

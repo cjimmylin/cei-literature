@@ -107,6 +107,30 @@
     "cue_comprehension_min": 0.9,
     "tr_null_abs_points_max": 5.0
   },
+  "theta_added_structure_test": {
+    "null_terms": ["model", "family", "traceability", "cover_story"],
+    "alternative_addition": "model_x_family_x_within_family_log_magnitude_slopes",
+    "bootstrap_kind": "parametric_null",
+    "bootstrap_replicates": 1000,
+    "p_value_formula": "(1 + count(null_deviance >= observed_deviance)) / 1001",
+    "pass_p_max_exclusive": 0.05,
+    "failure_action": "KILL_THETA_HEADLINE_USE_ID_PROFILE_100"
+  },
+  "item_retention_rules": {
+    "facility_high_escalate_exclusive": 0.9,
+    "facility_low_escalate_exclusive": 0.1,
+    "uniform_dead_exclusive": 0.99,
+    "binary_sd_dead_below": 0.01,
+    "point_biserial_retention_min": 0.2,
+    "change_policy": "FRESH_PILOT_NEVER_REWRITE_DIAGNOSTIC"
+  },
+  "item_retention_actions": [
+    "DEAD",
+    "DROP_OR_ESCALATE",
+    "DROP",
+    "RETAIN",
+    "NOT_ESTIMABLE"
+  ],
   "official_requirements": {
     "mode": "live",
     "data_basis": "external_model_responses",
@@ -117,7 +141,16 @@
     "seeds": {"count_exactly": 3, "distinct": true},
     "synthetic": false,
     "diagnostic_status": null,
-    "frozen_hashes": "ALL_REQUIRED_NONZERO_SHA256",
+    "frozen_hashes": [
+      "preregistration_sha256",
+      "logical_bank_sha256",
+      "private_gold_sha256",
+      "runtime_manifest_sha256",
+      "config_sha256",
+      "analysis_sha256",
+      "free_diversion_schedule_sha256",
+      "cue_comprehension_schedule_sha256"
+    ],
     "capability_reference": "COMPLETE_FINITE_EXTERNAL_HASHED"
   },
   "official_schedule": {

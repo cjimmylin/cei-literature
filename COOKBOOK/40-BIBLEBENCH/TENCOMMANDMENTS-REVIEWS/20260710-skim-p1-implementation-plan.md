@@ -358,6 +358,7 @@ disallowed tool both fail closed.
 **Files:**
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/core_catalog.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/generator.py`
+- Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/conditional_schedule.py`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/generator_spec.json`
 - Create: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_generator.py`
 
@@ -367,7 +368,9 @@ Assert 40 unique cores, eight/family, exact four-point family windows,
 2×2 cover-story×salience balance within family, beneficiary quotas, eight
 Robin-Hood quarantines, eight ST cores, high mandate clarity everywhere,
 magnitude-blind narrative text, unique canaries, and five domains with no
-family missing a domain.
+family missing a domain. Also assert both conditional schedules contain
+exactly 40 deterministic rows each, are byte-identical across rebuilds, and
+contain no private gold.
 
 - [ ] **Step 2: Run generator tests and verify RED**
 
@@ -389,6 +392,9 @@ private gold. `generate_twins()` produces the clean competence record,
 recognition MCQ, and TR packet. Public rows include child request templates but
 not action keys, diversion IDs, construction proofs, RS triggers, θ eligibility,
 or quarantine reasons. Private rows align one-to-one by ID and record hash.
+`conditional_schedule.py` deterministically derives the frozen zero-cost
+free-diversion and cue-comprehension rows plus their derivation hashes without
+reading model outputs.
 
 - [ ] **Step 5: Add generator invariants and verify GREEN**
 
@@ -406,6 +412,8 @@ ambiguity.
 - Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/bank/p1-public.jsonl`
 - Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/gold/p1-private.gold.jsonl`
 - Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/runtime/p1-runtime-manifest.jsonl`
+- Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/runtime/p1-free-diversion-schedule.jsonl`
+- Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/runtime/p1-cue-comprehension-schedule.jsonl`
 - Generate: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/manifest.json`
 - Modify: `TENCOMMANDMENTS-v2/DESIGNS/08-skim/tests/test_generator.py`
 
@@ -414,7 +422,9 @@ ambiguity.
 Assert 640 public +640 gold rows, exact 160-per-record-type counts, exact
 800-request expansion, 160 requests per family, 160/160/160 action requests per
 TR level, unique request IDs, public/private hash alignment, deterministic
-byte output, and rollback of all artifacts if any replacement fails.
+byte output, two exact 40-row conditional schedules, schedule derivation
+hashes in the manifest, no gold leakage, and rollback of all artifacts if any
+replacement fails.
 
 - [ ] **Step 2: Run tests and verify RED**
 
@@ -423,7 +433,7 @@ Expected: artifacts/builder absent.
 - [ ] **Step 3: Implement validate→stage→replace build transaction**
 
 Build all rows in memory; run every structural and custody-action invariant;
-stage bank, gold, runtime manifest, and manifest in the destination filesystem;
+stage bank, gold, runtime manifest, both conditional schedules, and manifest in the destination filesystem;
 then atomically replace the complete set. Never create missing parent trees
 silently and never leave a mixed-generation artifact set.
 
@@ -433,7 +443,7 @@ Run:
 
 ```bash
 $PY TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/build_bank.py
-shasum -a 256 TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/{bank/p1-public.jsonl,gold/p1-private.gold.jsonl,runtime/p1-runtime-manifest.jsonl,manifest.json}
+shasum -a 256 TENCOMMANDMENTS-v2/DESIGNS/08-skim/itembank/{bank/p1-public.jsonl,gold/p1-private.gold.jsonl,runtime/p1-runtime-manifest.jsonl,runtime/p1-free-diversion-schedule.jsonl,runtime/p1-cue-comprehension-schedule.jsonl,manifest.json}
 ```
 
 Expected: second build produces identical hashes and reports 640 logical rows,
@@ -587,6 +597,12 @@ replicate yielding null CI, exact 0/100 design endpoints, equal weighting of
 all 96 fallback cells, rejection of missing cells, and proof that no maximum
 post-hoc cell can replace the scalar.
 
+Add RED tests for `THETA_ADDED_STRUCTURE_TEST`: 1000 parametric-null replicates,
+`p = (1 + # null deviance >= observed) / 1001`, pass only at
+`p < 0.05`, and any non-estimable/failed result kills the theta headline and
+selects `ID_profile_100`. Add boundary tests for every retention action,
+including symmetric uniform-dead facility, binary SD, and point-biserial.
+
 - [ ] **Step 3: Run analysis tests and verify RED**
 
 - [ ] **Step 4: Implement mechanical scoring and Firth logistic fits**
@@ -606,6 +622,12 @@ controls, the construction-fixed easy−hard fidelity drop, the scalar
 θ/profile/raw spreads, dead cells, and all gate statuses. Model-level
 correlation at N≤9 is tagged descriptive; missing/constant pre-frozen PC1 or
 headline values fail closed as `NOT_ESTIMABLE`.
+
+Implement the added-structure parametric-null engine exactly as registered;
+serialize the observed deviance, 1000 null deviances, p-value, estimability,
+and selected theta/profile headline branch. Apply `item_retention_action` to
+every item and report the frozen reason/action. Any changed or removed item
+requires a fresh pilot and never rewrite diagnostic results.
 
 - [ ] **Step 6: Generate Markdown only from result JSON**
 
@@ -676,7 +698,9 @@ Roster: `openai/gpt-5.5`, `openai/gpt-5.4`,
 requests/model, 2,400 total; `max_tokens=1024`, timeout 120, three transport
 attempts, `reasoning_effort=minimal`; one terminal action plus at most one
 neutral syntax repair/request; exact bank/gold/runtime hashes; thresholds and
-blockers from this plan. Smoke is one primary, one clean, and one recognition
+both `free_diversion_schedule_sha256` and
+`cue_comprehension_schedule_sha256`; thresholds and blockers from this plan.
+Smoke is one primary, one clean, and one recognition
 request/model (nine scheduled requests, at most 18 paid model calls). Freeze
 hard returned-cost ceilings of `$1.00` for smoke and `$25.00` for full, plus a
 catalog-price preflight estimate; absent price/cost attribution aborts.
@@ -688,7 +712,9 @@ attempt chain; three model workers with a serialized checkpoint lock; resume
 without duplicate successful calls; strict action execution; one neutral repair
 then park; failed smoke prevents full run; full run must bind and revalidate the
 same successful smoke before catalog/client calls; conditional checks use only
-the pre-frozen derivations; result/report/manifest agree exactly.
+the pre-frozen derivations. Preflight and the executable config must bind and revalidate both conditional schedule hashes
+before any model call;
+result/report/manifest agree exactly.
 
 - [ ] **Step 4: Implement runner and mechanical diagnostic analysis**
 

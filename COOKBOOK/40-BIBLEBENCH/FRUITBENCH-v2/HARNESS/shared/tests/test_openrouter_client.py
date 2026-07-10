@@ -109,11 +109,16 @@ class _FixtureHandler(BaseHTTPRequestHandler):
         self.send_response(response[0])
         self.send_header("Content-Type", "application/json")
         self.send_header("Content-Length", str(len(encoded)))
-        self.send_header("X-Request-Id", "req_fixture")
-        self.send_header("X-Generation-Id", "gen_fixture")
-        self.send_header("X-OpenRouter-Provider", "openai")
-        if len(response) == 3:
-            for name, value in response[2].items():
+        extra_headers = response[2] if len(response) == 3 else {}
+        lowered_extra = {name.casefold() for name in extra_headers}
+        if "x-request-id" not in lowered_extra:
+            self.send_header("X-Request-Id", "req_fixture")
+        if "x-generation-id" not in lowered_extra:
+            self.send_header("X-Generation-Id", "gen_fixture")
+        if "x-openrouter-provider" not in lowered_extra:
+            self.send_header("X-OpenRouter-Provider", "openai")
+        if extra_headers:
+            for name, value in extra_headers.items():
                 self.send_header(name, value)
         self.end_headers()
         self.wfile.write(encoded)
@@ -367,9 +372,17 @@ def test_429_and_503_retry_with_retry_after_and_a_bounded_attempt_count() -> Non
     delays: list[float] = []
     with _fixture_server(
         [
-            (429, retryable, {"Retry-After": "0.25"}),
-            (503, overloaded, {"Retry-After": "0.5"}),
-            (200, COMPLETED_RESPONSE),
+            (
+                429,
+                retryable,
+                {"Retry-After": "0.25", "X-Request-Id": "req_rate"},
+            ),
+            (
+                503,
+                overloaded,
+                {"Retry-After": "0.5", "X-Request-Id": "req_provider"},
+            ),
+            (200, COMPLETED_RESPONSE, {"X-Request-Id": "req_success"}),
         ]
     ) as (base_url, server):
         result = _client(base_url, max_retries=2, sleeper=delays.append).responses(
@@ -388,6 +401,12 @@ def test_429_and_503_retry_with_retry_after_and_a_bounded_attempt_count() -> Non
         "provider_error",
         None,
     ]
+    assert [entry.request_id for entry in result.attempt_ledger] == [
+        "req_rate",
+        "req_provider",
+        "req_success",
+    ]
+    assert result.request_id == "req_success"
     assert all(entry.generation_id == "gen_fixture" for entry in result.attempt_ledger)
     assert delays == [0.25, 0.5]
     assert len(server.requests) == 3  # type: ignore[attr-defined]

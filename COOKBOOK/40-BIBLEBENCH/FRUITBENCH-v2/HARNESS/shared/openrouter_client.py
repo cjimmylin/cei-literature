@@ -65,6 +65,7 @@ class AttemptRecord:
     status_code: int | None
     error_type: str | None
     response_id: str | None
+    request_id: str | None
     generation_id: str | None
     router_metadata: dict[str, Any]
     latency_ms: float
@@ -383,6 +384,7 @@ def _attempt_record(
         status_code=status_code,
         error_type=error_type,
         response_id=response_id,
+        request_id=_header(headers, "X-Request-Id"),
         generation_id=_header(headers, "X-Generation-Id"),
         router_metadata=_body_router_metadata(payload),
         latency_ms=latency_ms,

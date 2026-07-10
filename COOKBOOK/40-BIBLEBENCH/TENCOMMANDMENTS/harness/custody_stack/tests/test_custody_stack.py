@@ -6,10 +6,12 @@ from decimal import Decimal
 from fractions import Fraction
 from hashlib import sha256
 import importlib
+import inspect
 import json
 import os
 from pathlib import Path
 import stat
+import sys
 import threading
 
 import pytest
@@ -20,6 +22,7 @@ HASH_A = "a" * 64
 HASH_B = "b" * 64
 HASH_C = "c" * 64
 EXPECTED_MAX_JSON_BYTES = 1024 * 1024
+EXPECTED_MAX_EVENT_LOG_BYTES = EXPECTED_MAX_JSON_BYTES + 1
 EXPECTED_MAX_JSON_DEPTH = 128
 FORBIDDEN_PERSISTED_FIELDS = {
     "prompt",
@@ -108,6 +111,37 @@ def nested_keys(value):
     elif isinstance(value, list):
         for item in value:
             yield from nested_keys(item)
+
+
+def event_log_publication_interrupt(api, message):
+    """Return a one-shot trace that interrupts the EventLog publication line."""
+
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    function = event_log_module.EventLog._append_locked
+    source, first_line = inspect.getsourcelines(function)
+    markers = ("self._events.append(event)", "self._events = proposed")
+    publication_line = next(
+        first_line + offset
+        for offset, text in enumerate(source)
+        if any(marker in text for marker in markers)
+    )
+    calls = []
+
+    def trace(frame, event, _argument):
+        if (
+            event == "line"
+            and frame.f_code is function.__code__
+            and frame.f_lineno == publication_line
+            and not calls
+        ):
+            calls.append(publication_line)
+            sys.settrace(None)
+            raise KeyboardInterrupt(message)
+        return trace
+
+    return trace, calls
 
 
 def test_contract_module_exists_and_exports_shared_stack():
@@ -200,6 +234,7 @@ def test_schema_rejects_nonexact_or_unsafe_json_values(bad_value):
 def test_json_limits_are_explicit():
     api = load_api()
     assert api.MAX_JSON_BYTES == EXPECTED_MAX_JSON_BYTES
+    assert api.MAX_EVENT_LOG_BYTES == EXPECTED_MAX_EVENT_LOG_BYTES
     assert api.MAX_JSON_DEPTH == EXPECTED_MAX_JSON_DEPTH
 
 
@@ -757,6 +792,289 @@ def test_parent_symlink_aliases_share_one_canonical_target_and_writer_identity(
     assert api.verify_chain(persisted) is True
 
 
+@pytest.mark.parametrize("fault_type", [MemoryError, RecursionError])
+def test_event_log_read_allocation_fault_is_typed_and_closes_target_fd(
+    tmp_path, monkeypatch, fault_type
+):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    path = tmp_path / "events.jsonl"
+    path.write_bytes(b"")
+    real_open = event_log_module.os.open
+    real_fstat = event_log_module.os.fstat
+    target_fds = []
+    injected = []
+
+    def track_target_open(name, flags, *args, **kwargs):
+        fd = real_open(name, flags, *args, **kwargs)
+        if name == path.name and kwargs.get("dir_fd") is not None:
+            target_fds.append(fd)
+        return fd
+
+    def fail_target_read(fd, _size):
+        if fd in target_fds and not injected:
+            injected.append(fd)
+            raise fault_type("bounded event-log read allocation")
+        return b""
+
+    monkeypatch.setattr(event_log_module.os, "open", track_target_open)
+    monkeypatch.setattr(event_log_module.os, "read", fail_target_read)
+    with pytest.raises(api.EventLogError):
+        api.EventLog(path=path)
+
+    assert injected == target_fds
+    assert len(target_fds) == 1
+    with pytest.raises(OSError):
+        real_fstat(target_fds[0])
+    assert path.read_bytes() == b""
+
+
+def test_event_log_total_byte_bound_is_inclusive_and_incremental(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    exact = path.read_bytes()
+    real_read = event_log_module.os.read
+    read_sizes = []
+
+    def track_read_size(fd, size):
+        read_sizes.append(size)
+        return real_read(fd, size)
+
+    monkeypatch.setattr(
+        event_log_module, "MAX_EVENT_LOG_BYTES", len(exact), raising=False
+    )
+    monkeypatch.setattr(event_log_module.os, "read", track_read_size)
+    assert api.EventLog(path=path).events == runtime.events
+
+    path.write_bytes(exact + b"x")
+    with pytest.raises(api.EventLogError, match="maximum event-log byte size"):
+        api.EventLog(path=path)
+    assert read_sizes
+    assert max(read_sizes) <= len(exact) + 1
+
+
+def test_event_log_read_all_crosses_chunk_boundary_at_exact_limit(monkeypatch):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    chunks = [b"x" * api.MAX_JSON_BYTES, b"y", b""]
+    requested_sizes = []
+
+    def bounded_read(_fd, size):
+        requested_sizes.append(size)
+        chunk = chunks.pop(0)
+        assert len(chunk) <= size
+        return chunk
+
+    monkeypatch.setattr(event_log_module.os, "read", bounded_read)
+    raw = event_log_module._read_all(7319)
+    assert len(raw) == api.MAX_EVENT_LOG_BYTES
+    assert requested_sizes == [api.MAX_JSON_BYTES, 2, 1]
+    assert chunks == []
+
+
+def test_event_log_line_bound_is_checked_before_decode(tmp_path, monkeypatch):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    raw = path.read_bytes()
+    line_size = len(raw) - 1
+    real_loads = event_log_module.strict_json_loads
+    decode_calls = []
+
+    def track_decode(text):
+        decode_calls.append(text)
+        return real_loads(text)
+
+    monkeypatch.setattr(event_log_module, "strict_json_loads", track_decode)
+    monkeypatch.setattr(
+        event_log_module, "MAX_JSON_BYTES", line_size, raising=False
+    )
+    assert api.EventLog(path=path).events == runtime.events
+    assert len(decode_calls) == 1
+
+    monkeypatch.setattr(event_log_module, "MAX_JSON_BYTES", line_size - 1)
+    with pytest.raises(
+        api.EventLogError, match="line 1 exceeds maximum JSON byte size"
+    ):
+        api.EventLog(path=path)
+    assert len(decode_calls) == 1
+
+
+def test_event_log_loader_does_not_call_unbounded_splitlines():
+    api = load_api()
+    calls = []
+    assert ".splitlines(" not in inspect.getsource(api.EventLog._load_bytes)
+
+    class ArmedBytes(bytes):
+        def splitlines(self, *args, **kwargs):
+            calls.append((args, kwargs))
+            raise MemoryError("unbounded splitlines allocation")
+
+    with pytest.raises(api.EventLogError):
+        api.EventLog._load_bytes(ArmedBytes(b"{}\n"))
+    assert calls == []
+
+
+def test_event_log_loader_translates_parser_memory_error(monkeypatch):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    runtime = runtime_for(api)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    raw = api.canonical_json_bytes(runtime.events[0].to_dict()) + b"\n"
+
+    def fail_parse(_text):
+        raise MemoryError("bounded event-log parser allocation")
+
+    monkeypatch.setattr(event_log_module, "strict_json_loads", fail_parse)
+    with pytest.raises(api.EventLogError):
+        api.EventLog._load_bytes(raw)
+
+
+@pytest.mark.parametrize("path_backed", [False, True])
+def test_event_log_append_rejects_candidate_over_total_byte_bound(
+    tmp_path, monkeypatch, path_backed
+):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    path = tmp_path / "events.jsonl" if path_backed else None
+    runtime = runtime_for(api, path=path)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    prior_bytes = b"".join(
+        api.canonical_json_bytes(event.to_dict()) + b"\n"
+        for event in runtime.events
+    )
+    if path is not None:
+        assert path.read_bytes() == prior_bytes
+    prior_state = runtime.state
+    prior_events = runtime.events
+    monkeypatch.setattr(
+        event_log_module,
+        "MAX_EVENT_LOG_BYTES",
+        len(prior_bytes) + 1,
+        raising=False,
+    )
+
+    with pytest.raises(api.EventLogError, match="maximum event-log byte size"):
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":2}}'
+        )
+    if path is not None:
+        assert path.read_bytes() == prior_bytes
+    assert runtime.state == prior_state
+    assert runtime.events == prior_events
+    assert not tuple(tmp_path.glob(".events.jsonl.*.pending"))
+
+
+def test_event_log_explicit_events_respect_total_byte_bound(monkeypatch):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    runtime = runtime_for(api)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    serialized = b"".join(
+        api.canonical_json_bytes(event.to_dict()) + b"\n"
+        for event in runtime.events
+    )
+    monkeypatch.setattr(
+        event_log_module, "MAX_EVENT_LOG_BYTES", len(serialized) - 1
+    )
+
+    with pytest.raises(api.EventLogError, match="maximum event-log byte size"):
+        api.EventLog(events=runtime.events)
+
+
+def test_event_log_append_translates_full_event_serialization_limit():
+    api = load_api()
+
+    def event_with_padding(size):
+        return api.Event.create(
+            schema_version=api.EVENT_SCHEMA_VERSION,
+            event_index=0,
+            episode_id="episode-size",
+            logical_id="logical-size",
+            previous_event_sha256=api.ZERO_EVENT_SHA256,
+            state_before_sha256=HASH_A,
+            state_after_sha256=HASH_A,
+            action=api.Action("act", "fixture.size", {}),
+            tool_result=api.ToolResult({"padding": "x" * size}),
+            raw_response_sha256=HASH_A,
+            prompt_sha256=HASH_A,
+            item_sha256=HASH_A,
+            template_sha256=HASH_A,
+            terminal=False,
+        )
+
+    small = event_with_padding(0)
+    unhashed = small.to_dict()
+    unhashed.pop("event_sha256")
+    padding_size = api.MAX_JSON_BYTES - len(api.canonical_json_bytes(unhashed))
+    event = event_with_padding(padding_size)
+    unhashed = event.to_dict()
+    unhashed.pop("event_sha256")
+    assert len(api.canonical_json_bytes(unhashed)) == api.MAX_JSON_BYTES
+
+    log = api.EventLog()
+    with pytest.raises(api.EventLogError) as raised:
+        log.append(event)
+    assert isinstance(raised.value.__cause__, api.SchemaValidationError)
+    assert log.events == ()
+
+
+@pytest.mark.parametrize("fault_type", [MemoryError, RecursionError])
+def test_event_log_append_translates_line_allocation_fault(
+    monkeypatch, fault_type
+):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    runtime = runtime_for(api)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    event = runtime.events[0]
+
+    def fail_canonicalization(_value):
+        raise fault_type("event-line allocation fault")
+
+    monkeypatch.setattr(
+        event_log_module, "canonical_json_bytes", fail_canonicalization
+    )
+    with pytest.raises(api.EventLogError) as raised:
+        api.EventLog().append(event)
+    assert isinstance(raised.value.__cause__, fault_type)
+
+
 def test_jsonl_append_orders_file_and_directory_durability_before_visibility(
     tmp_path, monkeypatch
 ):
@@ -892,6 +1210,145 @@ def test_real_replace_then_interrupt_preserves_prior_log_and_reconciles_runtime(
     assert runtime.terminal is False
     assert api.EventLog(path=path).events == runtime.events
     assert not tuple(tmp_path.glob("*.pending"))
+
+
+def test_postcommit_interrupt_at_event_log_publication_reconciles_runtime(
+    tmp_path,
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    trace, trace_calls = event_log_publication_interrupt(
+        api, "before event-log memory publication"
+    )
+
+    sys.settrace(trace)
+    try:
+        with pytest.raises(
+            KeyboardInterrupt, match="before event-log memory publication"
+        ):
+            runtime.accept(
+                '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+            )
+    finally:
+        sys.settrace(None)
+
+    assert len(trace_calls) == 1
+    durable = api.EventLog(path=path).events
+    assert len(durable) == 1
+    assert runtime.events == durable
+    published_state, published_terminal, published_generation = (
+        runtime._published_snapshot()
+    )
+    assert published_state.to_dict()["counter"] == 1
+    assert published_terminal is False
+    assert published_generation == (1, durable[0].event_sha256)
+
+
+def test_committed_event_reconciliation_allows_a_durable_follower(
+    tmp_path, monkeypatch
+):
+    api = load_api()
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    original_log = runtime.event_log
+    real_committed_event = api.EventLog._committed_event
+    followers = []
+
+    def add_follower_then_classify(log, event, expected_generation):
+        if log is original_log and not followers:
+            follower = api.Runtime.resume(
+                initial_state=fixture_state(api),
+                handlers=fixture_handlers(api),
+                event_log=api.EventLog(path=path),
+            )
+            follower.accept(
+                '{"kind":"act","tool":"counter.add","arguments":{"amount":2}}'
+            )
+            followers.append(follower)
+        return real_committed_event(log, event, expected_generation)
+
+    monkeypatch.setattr(api.EventLog, "_committed_event", add_follower_then_classify)
+    trace, trace_calls = event_log_publication_interrupt(
+        api, "before event-log publication with follower"
+    )
+    sys.settrace(trace)
+    try:
+        with pytest.raises(
+            KeyboardInterrupt, match="before event-log publication with follower"
+        ):
+            runtime.accept(
+                '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+            )
+    finally:
+        sys.settrace(None)
+
+    assert len(trace_calls) == 1
+    assert len(followers) == 1
+    durable = api.EventLog(path=path).events
+    assert len(durable) == 2
+    assert api.verify_chain(durable) is True
+    assert runtime.events == durable
+    published_state, published_terminal, published_generation = (
+        runtime._published_snapshot()
+    )
+    assert published_state.to_dict()["counter"] == 1
+    assert published_terminal is False
+    assert published_generation == (1, durable[0].event_sha256)
+    assert followers[0].state.to_dict()["counter"] == 3
+
+
+def test_reconciliation_tolerates_a_later_coherent_same_runtime_snapshot(
+    monkeypatch,
+):
+    api = load_api()
+
+    class PublicationInterruptRuntime(api.Runtime):
+        interrupt_publication = False
+
+        def __setattr__(self, name, value):
+            if name == "_snapshot" and getattr(
+                self, "interrupt_publication", False
+            ):
+                super().__setattr__(name, value)
+                super().__setattr__("interrupt_publication", False)
+                raise KeyboardInterrupt("after intended runtime publication")
+            super().__setattr__(name, value)
+
+    runtime = PublicationInterruptRuntime(
+        fixture_state(api), fixture_handlers(api), api.EventLog()
+    )
+    original_log = runtime.event_log
+    real_committed_event = api.EventLog._committed_event
+    classifications = []
+
+    def add_same_runtime_follower(log, event, expected_generation):
+        if log is original_log and not classifications:
+            runtime.accept(
+                '{"kind":"act","tool":"checkout.commit",'
+                '"arguments":{"option_id":"A"}}'
+            )
+        committed = real_committed_event(log, event, expected_generation)
+        classifications.append(committed)
+        return committed
+
+    monkeypatch.setattr(api.EventLog, "_committed_event", add_same_runtime_follower)
+    runtime.interrupt_publication = True
+    with pytest.raises(KeyboardInterrupt, match="after intended runtime publication"):
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+
+    assert classifications == [True]
+    assert len(runtime.events) == 2
+    assert api.verify_chain(runtime.events) is True
+    published_state, published_terminal, published_generation = (
+        runtime._published_snapshot()
+    )
+    assert published_state.to_dict()["counter"] == 1
+    assert published_state.to_dict()["committed_option"] == "A"
+    assert published_terminal is True
+    assert published_generation == (2, runtime.events[-1].event_sha256)
 
 
 def test_ambiguous_replace_with_neither_prefix_nor_candidate_fails_closed(
@@ -1213,6 +1670,59 @@ def test_fsync_failure_cannot_leave_ghost_when_rollback_reopen_also_fails(
     assert not path.exists() or path.read_bytes() == b""
     assert api.EventLog(path=path).events == ()
     assert {item.name for item in tmp_path.iterdir()} == {".events.jsonl.lock"}
+
+
+@pytest.mark.parametrize("fault_type", [MemoryError, KeyboardInterrupt])
+def test_staging_fstat_fault_closes_fd_and_unlinks_only_owned_pending(
+    tmp_path, monkeypatch, fault_type
+):
+    api = load_api()
+    event_log_module = importlib.import_module(
+        "TENCOMMANDMENTS.harness.custody_stack.event_log"
+    )
+    path = tmp_path / "events.jsonl"
+    runtime = runtime_for(api, path=path)
+    before = runtime.state
+    decoy = tmp_path / ".unrelated.pending"
+    decoy.write_bytes(b"unrelated")
+    real_open = event_log_module.os.open
+    real_fstat = event_log_module.os.fstat
+    staging_fds = []
+    staging_names = []
+    injected = []
+
+    def track_staging_open(name, flags, *args, **kwargs):
+        fd = real_open(name, flags, *args, **kwargs)
+        if (
+            type(name) is str
+            and name.endswith(".pending")
+            and flags & os.O_EXCL
+        ):
+            staging_fds.append(fd)
+            staging_names.append(name)
+        return fd
+
+    def fail_first_staging_fstat(fd):
+        if fd in staging_fds and not injected:
+            injected.append(fd)
+            raise fault_type("after exclusive staging open")
+        return real_fstat(fd)
+
+    monkeypatch.setattr(event_log_module.os, "open", track_staging_open)
+    monkeypatch.setattr(event_log_module.os, "fstat", fail_first_staging_fstat)
+    with pytest.raises(fault_type, match="after exclusive staging open"):
+        runtime.accept(
+            '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+        )
+
+    assert len(staging_fds) == len(staging_names) == 1
+    with pytest.raises(OSError):
+        real_fstat(staging_fds[0])
+    assert not (tmp_path / staging_names[0]).exists()
+    assert decoy.read_bytes() == b"unrelated"
+    assert runtime.state == before
+    assert runtime.events == ()
+    assert not path.exists()
 
 
 def test_exclusive_staging_does_not_follow_predictable_stale_symlink(

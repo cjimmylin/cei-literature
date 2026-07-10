@@ -291,6 +291,20 @@ class Runtime:
                 return
             if snapshot == intended:
                 return
+            events = self._event_log.events
+            intended_index = expected_generation[0]
+            snapshot_head_index = snapshot.event_count - 1
+            if (
+                snapshot.event_count > intended.event_count
+                and snapshot.event_count <= len(events)
+                and events[intended_index].event_sha256 == event.event_sha256
+                and events[snapshot_head_index].event_sha256
+                == snapshot.event_head_sha256
+                and state_sha256(snapshot.state)
+                == events[snapshot_head_index].state_after_sha256
+                and snapshot.terminal is events[snapshot_head_index].terminal
+            ):
+                return
             raise RuntimeStateError(
                 "committed event cannot be reconciled with runtime publication"
             )

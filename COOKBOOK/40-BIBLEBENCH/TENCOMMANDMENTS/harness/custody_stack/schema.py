@@ -12,6 +12,7 @@ EVENT_SCHEMA_VERSION = 1
 ZERO_EVENT_SHA256 = "0" * 64
 MAX_SAFE_JSON_INTEGER = (2**53) - 1
 MAX_JSON_BYTES = 1024 * 1024
+MAX_EVENT_LOG_BYTES = MAX_JSON_BYTES + 1
 MAX_JSON_DEPTH = 128
 FORBIDDEN_PERSISTED_FIELD_NAMES = frozenset(
     {"prompt", "model_prompt", "api_key", "credential", "credential_secret"}
@@ -669,6 +670,7 @@ __all__ = [
     "Event",
     "FORBIDDEN_PERSISTED_FIELD_NAMES",
     "FrozenObject",
+    "MAX_EVENT_LOG_BYTES",
     "MAX_JSON_BYTES",
     "MAX_JSON_DEPTH",
     "MAX_SAFE_JSON_INTEGER",

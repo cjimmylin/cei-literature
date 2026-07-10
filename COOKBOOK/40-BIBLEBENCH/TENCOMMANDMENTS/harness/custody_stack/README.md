@@ -76,13 +76,17 @@ dataclasses. Mutable JSON inputs are recursively copied into deterministic
 immutable values. Public JSON uses UTF-8, sorted keys, compact separators, and
 no nonfinite values. JSON integers are limited to the IEEE-754 safe range.
 `MAX_JSON_BYTES` is 1,048,576 UTF-8 bytes per raw or canonical JSON value, and
+`MAX_EVENT_LOG_BYTES` is 1,048,577 total stored bytes per episode: one maximal
+canonical event plus its required LF, or many smaller event lines.
 `MAX_JSON_DEPTH` is 128 root-to-leaf edges. Raw response bytes are checked before
 decoding; direct values use active-path cycle detection so shared acyclic
-subtrees remain valid. Oversize, excessive-depth, cyclic, decoder-recursion, and
-memory-boundary failures are translated to typed validation, protocol, or
-event-log errors. Exact outer schema keys must be built-in strings; string
-subclasses are rejected before hashing or equality comparison. Simulated
-`virtual_fs.write` reports UTF-8 bytes rather than Unicode code points.
+subtrees remain valid. Event logs are read incrementally to the total bound, and
+each line's byte length is checked before slicing or UTF-8 decoding. Oversize,
+excessive-depth, cyclic, decoder-recursion, and memory-boundary failures are
+translated to typed validation, protocol, or event-log errors. Exact outer
+schema keys must be built-in strings; string subclasses are rejected before
+hashing or equality comparison. Simulated `virtual_fs.write` reports UTF-8 bytes
+rather than Unicode code points.
 
 Events are zero-indexed. The first `previous_event_sha256` is 64 zeroes. Every
 event stores state-before and state-after hashes and is itself SHA-256 hashed
@@ -127,8 +131,9 @@ therefore share one in-process mutex, regular single-link sidecar lock, staging
 namespace, target, and cross-process advisory lock.
 
 Before append, the writer verifies that target bytes exactly equal its in-memory
-canonical prefix; stale or concurrent writers reject. An exclusive
-same-directory staging file receives that prefix plus one canonical line, is
+canonical prefix; stale or concurrent writers reject. A candidate exceeding the
+per-episode total byte bound rejects before staging. An exclusive same-directory
+staging file receives that prefix plus one canonical line, is
 flushed, and is file-fsynced before directory-relative atomic replacement. The
 ordering contract is write, flush, file fsync, replace, best-effort directory
 fsync, and close. If replacement raises after an ambiguous outcome, the writer

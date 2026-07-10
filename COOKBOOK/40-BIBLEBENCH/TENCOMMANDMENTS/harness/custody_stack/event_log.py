@@ -11,6 +11,8 @@ import threading
 from .schema import (
     CustodyError,
     Event,
+    MAX_EVENT_LOG_BYTES,
+    MAX_JSON_BYTES,
     SchemaValidationError,
     ZERO_EVENT_SHA256,
     canonical_json_bytes,
@@ -78,12 +80,46 @@ def _open_bound_parent(path, expected_identity):
 
 
 def _read_all(fd):
-    chunks = []
-    while True:
-        chunk = os.read(fd, 1024 * 1024)
-        if not chunk:
-            return b"".join(chunks)
-        chunks.append(chunk)
+    try:
+        chunks = []
+        total = 0
+        while True:
+            remaining = MAX_EVENT_LOG_BYTES - total
+            chunk = os.read(fd, min(1024 * 1024, remaining + 1))
+            if not chunk:
+                return b"".join(chunks)
+            if len(chunk) > remaining:
+                raise EventLogError("event log exceeds maximum event-log byte size")
+            chunks.append(chunk)
+            total += len(chunk)
+    except EventLogError:
+        raise
+    except (MemoryError, RecursionError) as exc:
+        raise EventLogError("event-log read exceeds bounded resources") from exc
+
+
+def _canonical_event_line(event):
+    try:
+        return canonical_json_bytes(event.to_dict()) + b"\n"
+    except (SchemaValidationError, MemoryError, RecursionError) as exc:
+        raise EventLogError("unable to encode bounded event-log line") from exc
+
+
+def _bounded_event_log_size(events):
+    """Return canonical JSONL byte size while enforcing the episode budget."""
+
+    try:
+        total = 0
+        for event in events:
+            line_size = len(_canonical_event_line(event))
+            if line_size > MAX_EVENT_LOG_BYTES - total:
+                raise EventLogError("event log exceeds maximum event-log byte size")
+            total += line_size
+        return total
+    except EventLogError:
+        raise
+    except (SchemaValidationError, MemoryError, RecursionError) as exc:
+        raise EventLogError("unable to size bounded event log") from exc
 
 
 def _target_bytes(parent_fd, target_name):
@@ -138,11 +174,29 @@ def _create_staging(parent_fd, target_name):
             fd = os.open(name, flags, 0o600, dir_fd=parent_fd)
         except FileExistsError:
             continue
-        opened = os.fstat(fd)
-        if not stat.S_ISREG(opened.st_mode) or opened.st_nlink != 1:
-            _close_best_effort(fd)
-            raise EventLogError("event-log staging target is unsafe")
-        return fd, name, (opened.st_dev, opened.st_ino)
+        identity = None
+        try:
+            opened = os.fstat(fd)
+            identity = (opened.st_dev, opened.st_ino)
+            if not stat.S_ISREG(opened.st_mode) or opened.st_nlink != 1:
+                raise EventLogError("event-log staging target is unsafe")
+            return fd, name, identity
+        except BaseException:
+            try:
+                if identity is None:
+                    try:
+                        opened = os.stat(fd)
+                        identity = (opened.st_dev, opened.st_ino)
+                    except BaseException:
+                        pass
+                if identity is not None:
+                    try:
+                        _unlink_if_owned(parent_fd, name, identity)
+                    except BaseException:
+                        pass
+            finally:
+                _close_best_effort(fd)
+            raise
     raise EventLogError("unable to allocate exclusive event-log staging file")
 
 
@@ -287,6 +341,7 @@ class EventLog:
             self._events = list(events)
             if not verify_chain(self._events):
                 raise EventLogError("initial events do not form a valid chain")
+            _bounded_event_log_size(self._events)
         if self._path is not None:
             if events is not None:
                 raise EventLogError("cannot combine explicit events with a JSONL path")
@@ -305,33 +360,55 @@ class EventLog:
 
     @staticmethod
     def _load_bytes(raw):
-        loaded = []
-        for line_number, raw_line in enumerate(raw.splitlines(keepends=True), start=1):
-            if not raw_line.endswith(b"\n") or raw_line == b"\n":
-                raise EventLogError(
-                    "event log line %d is incomplete or blank" % line_number
-                )
-            try:
-                text = raw_line[:-1].decode("utf-8", errors="strict")
-                payload = strict_json_loads(text)
-                event = Event.from_dict(payload)
-            except (UnicodeError, SchemaValidationError) as exc:
-                raise EventLogError(
-                    "event log line %d is invalid" % line_number
-                ) from exc
-            if canonical_json_bytes(event.to_dict()) != raw_line[:-1]:
-                raise EventLogError(
-                    "event log line %d is not canonical JSON" % line_number
-                )
-            loaded.append(event)
-        if raw and not raw.endswith(b"\n"):
-            line_number = len(loaded) + 1
-            raise EventLogError(
-                "event log line %d is incomplete or blank" % line_number
-            )
-        if not verify_chain(loaded):
-            raise EventLogError("event log chain verification failed")
-        return loaded
+        if type(raw) is not bytes:
+            raise EventLogError("event log input must be exact bytes")
+        if len(raw) > MAX_EVENT_LOG_BYTES:
+            raise EventLogError("event log exceeds maximum event-log byte size")
+        try:
+            loaded = []
+            offset = 0
+            line_number = 1
+            while offset < len(raw):
+                newline = raw.find(b"\n", offset)
+                line_end = len(raw) if newline < 0 else newline
+                line_size = line_end - offset
+                if line_size > MAX_JSON_BYTES:
+                    raise EventLogError(
+                        "event log line %d exceeds maximum JSON byte size"
+                        % line_number
+                    )
+                if newline < 0 or line_size == 0:
+                    raise EventLogError(
+                        "event log line %d is incomplete or blank" % line_number
+                    )
+                raw_line = raw[offset:newline]
+                try:
+                    text = raw_line.decode("utf-8", errors="strict")
+                    payload = strict_json_loads(text)
+                    event = Event.from_dict(payload)
+                    canonical = canonical_json_bytes(event.to_dict())
+                except (UnicodeError, SchemaValidationError) as exc:
+                    raise EventLogError(
+                        "event log line %d is invalid" % line_number
+                    ) from exc
+                except (MemoryError, RecursionError) as exc:
+                    raise EventLogError(
+                        "event log line %d exceeds bounded resources" % line_number
+                    ) from exc
+                if canonical != raw_line:
+                    raise EventLogError(
+                        "event log line %d is not canonical JSON" % line_number
+                    )
+                loaded.append(event)
+                offset = newline + 1
+                line_number += 1
+            if not verify_chain(loaded):
+                raise EventLogError("event log chain verification failed")
+            return loaded
+        except EventLogError:
+            raise
+        except (MemoryError, RecursionError) as exc:
+            raise EventLogError("event-log load exceeds bounded resources") from exc
 
     @property
     def path(self):
@@ -394,13 +471,15 @@ class EventLog:
         proposed = self._events + [event]
         if not verify_chain(proposed):
             raise EventLogError("event does not continue the verified chain")
+        line = _canonical_event_line(event)
+        current_size = _bounded_event_log_size(self._events)
+        if len(line) > MAX_EVENT_LOG_BYTES - current_size:
+            raise EventLogError("event log exceeds maximum event-log byte size")
         deferred_error = None
         deferred_traceback = None
         if self._path is not None:
-            line = canonical_json_bytes(event.to_dict()) + b"\n"
             expected_prefix = b"".join(
-                canonical_json_bytes(existing.to_dict()) + b"\n"
-                for existing in self._events
+                _canonical_event_line(existing) for existing in self._events
             )
             actual_target = _target_bytes(parent_fd, self._path.name)
             actual_prefix = b"" if actual_target is None else actual_target
@@ -541,7 +620,17 @@ class EventLog:
                         # The staged bytes were already fsynced and committed.
                         pass
                 _close_best_effort(staging_fd)
-        self._events.append(event)
+            finally:
+                if committed:
+                    try:
+                        self._events = proposed
+                    except BaseException:
+                        # A one-shot interruption at the publication line must not
+                        # leave memory behind an already replaced durable target.
+                        self._events = proposed
+                        raise
+        else:
+            self._events = proposed
         if deferred_error is not None:
             raise deferred_error.with_traceback(deferred_traceback)
 
@@ -549,10 +638,20 @@ class EventLog:
         """Return whether this exact append committed despite an interruption."""
 
         with self._append_lock:
-            expected_count = expected_generation[0] + 1
+            if self._path is not None:
+                try:
+                    with _writer_guard(
+                        self._path, self._parent_identity
+                    ) as parent_fd:
+                        raw = _target_bytes(parent_fd, self._path.name)
+                        durable = [] if raw is None else self._load_bytes(raw)
+                except (EventLogError, MemoryError, RecursionError):
+                    return False
+                self._events = durable
+            expected_index = expected_generation[0]
             return (
-                len(self._events) == expected_count
-                and self._events[-1].event_sha256 == event.event_sha256
+                expected_index < len(self._events)
+                and self._events[expected_index].event_sha256 == event.event_sha256
             )
 
 

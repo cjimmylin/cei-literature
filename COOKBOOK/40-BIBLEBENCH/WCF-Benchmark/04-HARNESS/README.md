@@ -23,17 +23,30 @@ the seam a real Anthropic/OpenAI client implements later.
 │   ├── __init__.py        package exports
 │   ├── loader.py          YAML item-record loader + validator (spine §10)
 │   ├── mock_client.py     MockModelClient — canned, no-network model seam
-│   ├── scorers.py         two mechanical (judge-free) scorers (spine §4.4)
+│   ├── scorers.py         mechanical (judge-free) scorers (spine §4.4): ordinal,
+│   │                      prooftext-stub, artifact-inclusion, d′, sent-message
 │   ├── refusal.py         refusal-taxonomy co-scorer (spine §4.5)
 │   ├── tensor.py          reporting-tensor assembler (spine §4.6)
-│   └── perturbation.py    P1–P6 flip-rate / invariance runner (spine §5)
+│   ├── perturbation.py    P1–P6 flip-rate / invariance runner (spine §5)
+│   ├── narrowgate.py      T4 episode state machine + defect-baseline calib (§3/§4.4)
+│   ├── judge.py           judge templates + G4 calibration battery (§4.3, R14);
+│   │                      judge-assisted scorers retiring the two stubs
+│   ├── triaxial.py        Matter/Manner/End sub-scoring (§4.2; never collapsed)
+│   └── cli_client.py      CLIModelClient — real CLI-OAuth backend (smoke-pilot only)
+├── ../05-BANK-YAML/       transcribed item bank (expansion-2, 69 items, §10)
 ├── fixtures/
 │   ├── AGG-C6-W301.yaml    orderable rank-set, gold a<b<c
 │   ├── AGG-C5-W304.yaml    incomparable pair, gold "declines total order"
 │   └── PROOF-C8-W302.yaml  prooftext anchor list + rubric
 ├── tests/
-│   ├── test_harness.py    15 tests (loader, both scorers, mock client, e2e)
-│   └── test_phase2.py     21 tests (refusal taxonomy, tensor, perturbation)
+│   ├── test_harness.py     15 tests (loader, scorers, mock client, e2e)
+│   ├── test_phase2.py      21 tests (refusal taxonomy, tensor, perturbation)
+│   ├── test_cli_client.py  8 tests (CLI-OAuth backend, monkeypatched subprocess)
+│   ├── test_narrowgate.py  25 tests (episode state machine, defect calibration)
+│   ├── test_judge.py       22 tests (assignment, templates, G4 battery, stub retirement)
+│   ├── test_mechanical.py  10 tests (artifact-inclusion, d′, sent-message)
+│   ├── test_triaxial.py     6 tests (Matter/Manner/End, never-collapse contract)
+│   └── test_bank_yaml.py   10 tests (bank load guard + memo-delta invariants)
 ├── run_dryrun.py          load → mock-complete → score → tensor/refusal/invariance report
 └── README.md              this file
 ```
@@ -131,8 +144,9 @@ Use the vault venv (`pyyaml` + `pytest` present; no new deps needed):
     COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/04-HARNESS/smoke_pilot.py --go    # makes the real calls
 ```
 
-Current state: **44 passed** (15 skeleton + 21 Phase-2 backbone + 8 CLI-client,
-all hermetic); the mock dry-run prints a per-item report, the reporting tensor +
+Current state: **117 passed** (15 skeleton + 21 Phase-2 backbone + 8 CLI-client +
+25 NARROWGATE + 22 judge + 10 mechanical + 6 triaxial + 10 bank-guard, all
+hermetic); the mock dry-run prints a per-item report, the reporting tensor +
 worst-cell + A–B gap, the refusal co-score per item, and a two-model invariance
 league — all `API calls made: 0`. The opt-in `smoke_pilot.py --go` validated the
 full chain (loader → `CLIModelClient` → scorers + refusal) on **2 real OAuth
@@ -161,43 +175,51 @@ Phase 2 exit note); the smoke pilot proves plumbing, not scores.
 The skeleton (loader + mock client + two mechanical scorers) has been extended
 with the **score → aggregate → invariance backbone** (spine §4.5, §4.6, §5).
 
-**Done this session:**
+**Done (Phase-2 backbone + this session's remainder):**
 
-- [x] **Refusal taxonomy co-scoring** (spine §4.5) — `refusal.py`
-  (`classify_refusal`, four-class result, `should_refuse`-parameterized).
-- [x] **Perturbation runner** (spine §5) — `perturbation.py`
-  (`run_perturbations`, `FlipResult`, `InvarianceLeagueTable`).
-- [x] **Reporting-tensor assembly** (spine §4.6) — `tensor.py`
-  (`build_tensor`, `ReportingTensor.worst_cell`/`ab_gap`/per-commandment/tier).
+- [x] **Refusal taxonomy co-scoring** (§4.5) — `refusal.py`.
+- [x] **Perturbation runner** (§5) — `perturbation.py`.
+- [x] **Reporting-tensor assembly** (§4.6) — `tensor.py`.
+- [x] **NARROWGATE episode state machines** (§3/§4.4) — `narrowgate.py`:
+  `run_episode` driver + `classify_outcome` (OBEDIENT / DEFECTION{artifact,
+  laundered,narration,protected_lane} / TASK_ABANDONED), the delivered-content
+  function-check (past hedge / default-on toggle), and
+  `run_defect_baseline_calibration` — the model-organism (a defect-instructed
+  policy must be flagged at every dial before a null is trusted).
+- [x] **Judge-prompt templates + G4 battery** (§4.3, memo R14) — `judge.py`:
+  `assign_judges` (cross-family + generator-family exclusion), per-category
+  length/neutrality/willingness-guarded templates, neutrality + length-bias
+  meta-checks, `G4_CALIBRATION_BATTERY` (WHOLE-C10-W305 + WHOLE-C10-005; B≥A →
+  flagged). **Both stubs retired**: `judge_score_anchor_use` (correct-use, not
+  mere citation) and `judge_classify_refusal` (falls back to the heuristic if the
+  judge is unwilling). The mechanical `score_prooftext_anchors` / `classify_refusal`
+  remain as documented judge-free fallbacks.
+- [x] **Remaining mechanical scorers** (§4.4) — `scorers.py`:
+  `score_artifact_inclusion` (DUTYBOUND Track-A build), `dprime` /
+  `dprime_from_trials` (signal-detection on matched trap/clean-control pairs),
+  `score_sent_message` (NARROWGATE sent-message function-check).
+- [x] **Triaxial Matter/Manner/End sub-scoring** (§4.2) — `triaxial.py`
+  (`score_triaxial`; never collapsed pre-analysis — `collapsed()` raises; an
+  unwilling axis is surfaced `None`, not silently 0).
+- [x] **YAML transcription — expansion-2 batch** (69 items, all 10 designs) →
+  `../05-BANK-YAML/`, lint-loaded 0 errors, with the memo deltas applied
+  (see that dir's README).
 
-Still to build (per build-plan Phase 2 / shared-spine §4–§6):
+Still to build (post-window / credential-gated):
 
-1. **NARROWGATE episode state machines** — counterparty/tool responses for
-   obedient / defect / laundering branches, cost-dial parameterization, and the
-   **defect-instructed baseline runner** (model-organism calibration: prove the
-   harness can *detect* defection before trusting any null).
-2. **Judge-prompt templates** — generated from each item's decomposed rubric,
-   per-category, with cross-family judge assignment (generator-family exclusion),
-   length correction, neutrality meta-check, and judge willingness-to-grade
-   logging (spine §4.3). The current PROOFTEXT + refusal scorers are *stubs*
-   pending this.
-3. **Real model clients** — *partly done*: `CLIModelClient` (`cli_client.py`)
-   drives Claude via the CLI over subscription OAuth (smoke-pilot scale). Still to
-   add: cross-family CLI-OAuth (OpenAI Codex / Gemini) for the ≥2-judge-family
-   requirement, and a sanctioned **Messages-API** client (`AnthropicModelClient` /
-   `OpenAIModelClient`) for the reproducible, ToS-clean bulk gated run.
-4. **Remaining mechanical scorers** — artifact/output checks (NARROWGATE
-   sent-message, DUTYBOUND Track A artifact inclusion), signal-detection d′
-   (DUTYBOUND clean controls).
-5. **Full YAML transcription of all items** — only 3 fixtures exist here; the
-   Phase 1 banks (10 designs × 10 commandments) must be transcribed to the
-   spine §10 schema and lint-loaded with zero schema failures. (The tensor's
-   worst-cell / A–B-gap are only meaningful once real Track-A **and** Track-B
-   items across commandments are ingested — the 3 fixtures are all Track B.)
-6. **Triaxial (Matter / Manner / End) sub-scoring** — spine §4.2, needs the
-   judge path.
-7. **Anchor grep-verification** — cross-check every item's anchors resolve
-   verbatim against `COOKBOOK/40-BIBLEBENCH/WCF/` source files.
+1. **Real model clients (cross-family + Messages-API)** — *partly done*:
+   `CLIModelClient` drives Claude via CLI-OAuth (smoke-pilot scale). Still to add:
+   cross-family CLI-OAuth (OpenAI Codex / Gemini) for the ≥2-judge-family
+   requirement, and sanctioned **Messages-API** clients for the reproducible,
+   ToS-clean bulk gated run (G1–G7). Concurrent COOKBOOK work landed an
+   OpenRouter cross-family adapter that may be reusable.
+2. **YAML transcription — earlier waves** — expansion-2 is done; exemplars,
+   wave-2, and expansion-1 (~161 items to reach 230) are the same mechanical pass
+   against `../05-BANK-YAML/TRANSCRIPTION-SPEC.md`. Carry-forward: the other two
+   `[DISPUTED]` legs (LIB-C7-008, LIB-C3-W202) get `dev_set_only` when transcribed.
+3. **Anchor grep-verification of the YAML** — cross-check every transcribed
+   anchor resolves verbatim against `COOKBOOK/40-BIBLEBENCH/WCF/` (the prose was
+   audited; the YAML copy should be re-linted before a gated run).
 
 ---
 

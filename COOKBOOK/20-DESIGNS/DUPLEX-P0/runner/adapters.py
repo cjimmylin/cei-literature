@@ -9,8 +9,10 @@ Adapters are the ONLY place live API/subprocess access happens. Both the Anthrop
 and the Codex subprocess runner are injectable so tests mock them — there are NO live calls in
 the test suite.
 
-  - AnthropicAdapter    : installed `anthropic` SDK (v0.84), key from env ANTHROPIC_API_KEY.
-                          Models per §3.5: Opus 4.6 / Sonnet 4.6 / Haiku 3.5.
+  - AnthropicAdapter    : installed `anthropic` SDK (v0.84). Credentials resolve via the SDK chain
+                          (ANTHROPIC_API_KEY -> ANTHROPIC_AUTH_TOKEN -> `ant auth login` profile);
+                          no static key is required (F-1). Models per §3.5: Opus 4.6 / Sonnet 4.6 /
+                          Haiku (the design-named Haiku 3.5 retired -> claude-haiku-4-5 substitute).
   - OpenAICodexAdapter  : subprocess wrapper around the OAuth Codex CLI (`codex exec`).
                           Models per §3.5: GPT-5 Codex / GPT Mini.
   - GeminiAdapter       : DEFERRED — raises NotImplementedError.
@@ -64,9 +66,14 @@ class _CodexTransient(RuntimeError):
 # timeout / 5xx). Matched by class NAME so the test suite need not import the SDK, and so an
 # authentication or bad-request error (a different class) is NOT retried but raised at once
 # (SA-5 addendum: "fail loud only when the first call errors with an authentication error").
+# Names verified against the installed anthropic 0.84.0 SDK: OverloadedError (529),
+# ServiceUnavailableError (503) and DeadlineExceededError (504) live under `anthropic._exceptions`
+# (not re-exported at the top level) and are matched by __name__. A future SDK rename fails OPEN
+# (a transient error would be treated as fatal, not the reverse), so re-verify these names on any
+# anthropic version bump.
 _TRANSIENT_ANTHROPIC_ERROR_NAMES = frozenset(
-    {"RateLimitError", "InternalServerError", "OverloadedError",
-     "APIConnectionError", "APITimeoutError", "APIConnectionTimeoutError"}
+    {"RateLimitError", "InternalServerError", "OverloadedError", "ServiceUnavailableError",
+     "DeadlineExceededError", "APIConnectionError", "APITimeoutError"}
 )
 
 

@@ -182,6 +182,27 @@ def test_anthropic_adapter_bounded_retry_transient_then_succeeds():
     assert calls["n"] == 3
 
 
+def test_anthropic_adapter_retries_503_504_service_conditions():
+    """F-1 / SA-5.3 (audit F-1.b): the transient set must cover the real anthropic 5xx service
+    conditions — a 503 ServiceUnavailableError / 504 DeadlineExceededError is a transient
+    'network'/overloaded condition that must be RETRIED, not raised on first occurrence."""
+    for exc_name in ("ServiceUnavailableError", "DeadlineExceededError"):
+        calls = {"n": 0}
+        exc_type = type(exc_name, (Exception,), {})
+
+        def create(**kwargs):
+            calls["n"] += 1
+            if calls["n"] < 2:
+                raise exc_type("transient 5xx")
+            block = SimpleNamespace(type="text", text="ok")
+            return SimpleNamespace(content=[block], stop_reason="end_turn")
+
+        client = SimpleNamespace(messages=SimpleNamespace(create=create))
+        ad = AnthropicAdapter(client=client, max_retries=3, sleep=_no_sleep)
+        res = ad.administer("p", "claude-opus-4-6", temperature=0.7, seed=1)
+        assert res.text == "ok" and calls["n"] == 2, exc_name
+
+
 def test_anthropic_adapter_persistent_transient_raises_admin_error():
     """F-1 / SA-5: persistent transient API errors 'raise' fail-loud (as an administration error),
     never a silent refusal or checkpointed cell."""

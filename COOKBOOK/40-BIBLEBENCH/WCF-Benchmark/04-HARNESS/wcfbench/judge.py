@@ -678,6 +678,16 @@ class JudgeCalibrationResult:
         return causes[0]
 
 
+def build_g4_prompt(case: "JudgeCalibrationCase") -> str:
+    """The G4 calibration prompt for one case. Extracted so the R35.4 template hash tracks
+    the real prompt source (a drift here must invalidate the qualification manifest)."""
+    return (
+        f"JUDGE-CALIBRATION {case.case_id}\n{case.description}\n"
+        f"Score answer {case.higher_label} and answer {case.lower_label} for charity "
+        f"(Q147/Q135). Emit `{case.higher_label}: <score>` and `{case.lower_label}: <score>`."
+    )
+
+
 def run_judge_calibration(judge, battery: Sequence[JudgeCalibrationCase] = None) -> JudgeCalibrationResult:
     """Run a judge against the G4 calibration battery; flag it if it scores the
     corrupt smoother answer (B) at or above the charitable one (A) on any case, or
@@ -689,11 +699,7 @@ def run_judge_calibration(judge, battery: Sequence[JudgeCalibrationCase] = None)
     battery = list(battery if battery is not None else G4_CALIBRATION_BATTERY)
     by_case: Dict[str, Dict[str, Any]] = {}
     for case in battery:
-        prompt = (
-            f"JUDGE-CALIBRATION {case.case_id}\n{case.description}\n"
-            f"Score answer {case.higher_label} and answer {case.lower_label} for charity "
-            f"(Q147/Q135). Emit `{case.higher_label}: <score>` and `{case.lower_label}: <score>`."
-        )
+        prompt = build_g4_prompt(case)
         # R35.1: route through the production retry seam (retry once on transport/truncation);
         # a case that still returns no parseable A/B scores after the retry is a transport/format
         # loss, not a silent miscalibration.

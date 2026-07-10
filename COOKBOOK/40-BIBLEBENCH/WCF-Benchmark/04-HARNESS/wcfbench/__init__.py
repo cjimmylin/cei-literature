@@ -149,6 +149,14 @@ from .judge_panel import (
     JudgePanel, OpenVerdict, ContestedVerdict,
     OPEN_AWARD, DISCLOSURE, COHERENCE, SETTLED_CORE, SURFACES,
 )
+# --- R35 judge qualification: retry + majority-of-K gate + the frozen manifest
+#     JudgePanel consumes (surface eligibility can no longer flip run-to-run). ------
+from .qualification import (
+    qualify_judge, JudgeQualification, ProbeReps, run_probe_reps,
+    build_manifest, write_manifest, load_manifest, manifest_from_pass_table,
+    current_template_hashes, manifest_is_fresh, eligible_surfaces_for,
+    SURFACE_PROBES, PROBES as ACCEPTANCE_PROBES,
+)
 # --- Cross-judge disagreement clusters (the Fable-session input). --------------
 from .disagreement import summarize_disagreement, DisagreementCell
 # --- R27 transcript persistence (per item×SUT cell: prompt+response+judge texts). --

@@ -55,12 +55,12 @@ _AUTHOR_FAMILY = {"opus": "anthropic", "fable": "anthropic"}
 # gpt-4o-mini reads per-keypoint awards well but its disclosure channel is a dead
 # constant (R30), and gemini-2.5-flash grades disclosure carefully but its OPEN award
 # form is holistic all-or-nothing (R29b). Each surface qualifies on the probes that
-# actually test it (see :meth:`JudgePanel._qualify`).
-OPEN_AWARD = "open_award"
-DISCLOSURE = "disclosure"
-COHERENCE = "coherence"
-SETTLED_CORE = "settled_core"
-SURFACES = (OPEN_AWARD, DISCLOSURE, COHERENCE, SETTLED_CORE)
+# actually test it (see :meth:`JudgePanel._qualify`). The surface constants live in
+# :mod:`wcfbench.qualification` (single source of truth); re-exported here for callers.
+from .qualification import (
+    OPEN_AWARD, DISCLOSURE, COHERENCE, SETTLED_CORE, SURFACES,
+    manifest_is_fresh, eligible_surfaces_for,
+)
 
 
 def _generator_family(item: ItemRecord) -> str:
@@ -100,13 +100,16 @@ def _mean(vals: List[Optional[float]]) -> Optional[float]:
 class JudgePanel:
     """A calibrated, cross-family judge panel driving the OPEN + CONTESTED paths."""
 
-    def __init__(self, judges: List[Any], *, k: int = 2, calibrate: bool = True) -> None:
-        norm: List[Tuple[str, str, Any]] = []
+    def __init__(self, judges: List[Any], *, k: int = 2, calibrate: bool = True,
+                 manifest: Optional[Dict[str, Any]] = None) -> None:
+        norm: List[Tuple[str, str, Any, str]] = []
         for j in judges:
             if isinstance(j, dict):
-                norm.append((str(j["name"]), str(j["family"]), j["client"]))
+                slug = str(j.get("slug", j["name"]))
+                norm.append((str(j["name"]), str(j["family"]), j["client"], slug))
             else:
-                norm.append((str(j[0]), str(j[1]), j[2]))
+                slug = str(j[3]) if len(j) > 3 else str(j[0])
+                norm.append((str(j[0]), str(j[1]), j[2], slug))
         self.k = k
         self.discarded: List[Tuple[str, str]] = []          # (name, reason) fully-discarded + cell discards
         #: R33.4: name -> the set of SURFACES the judge qualified for. A judge with an
@@ -114,8 +117,32 @@ class JudgePanel:
         self.eligible: Dict[str, set] = {}
         active: List[Tuple[str, str, Any]] = []
 
-        if calibrate:
-            for name, family, client in norm:
+        if manifest is not None:
+            # R35.4: consume a FROZEN qualification manifest — no probes run at construction,
+            # so run-to-run eligibility cannot flip. Re-qualification (a new manifest) is
+            # required only on a slug change, a template-hash drift, or a binding-memo order.
+            self.manifest = manifest
+            if not manifest_is_fresh(manifest):
+                raise JudgeError(
+                    "qualification manifest is STALE — a prompt-template hash has drifted since "
+                    "it was frozen; re-qualify the panel (probe_stability + build_manifest) (R35.4)")
+            for name, family, client, slug in norm:
+                elig = eligible_surfaces_for(manifest, slug)
+                if elig is None:
+                    self.discarded.append(
+                        (name, f"not in qualification manifest (slug {slug}) — re-qualify (R35.4)"))
+                    continue
+                if not elig:
+                    self.discarded.append((name, f"manifest: no surface qualified (slug {slug})"))
+                    continue
+                self.eligible[name] = set(elig)
+                active.append((name, family, client))
+                suspended = set(SURFACES) - set(elig)
+                if suspended:                              # per-surface suspension surfaced (not a discard)
+                    self.discarded.append(
+                        (name, f"per-surface SUSPENDED for {sorted(suspended)} — manifest {slug}"))
+        elif calibrate:
+            for name, family, client, slug in norm:
                 elig, why = self._qualify(client)
                 if elig:
                     self.eligible[name] = elig
@@ -127,7 +154,7 @@ class JudgePanel:
                 else:
                     self.discarded.append((name, f"discarded (no surface qualified) — {why}"))
         else:
-            for name, family, client in norm:
+            for name, family, client, slug in norm:
                 self.eligible[name] = set(SURFACES)
                 active.append((name, family, client))
 

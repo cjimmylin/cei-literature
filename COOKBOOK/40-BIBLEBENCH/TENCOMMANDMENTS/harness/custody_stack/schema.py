@@ -627,12 +627,36 @@ def compute_event_sha256(event_or_payload):
     """Hash canonical event JSON after excluding only ``event_sha256``."""
 
     if type(event_or_payload) is Event:
-        payload = event_or_payload.to_dict()
+        value = event_or_payload.to_dict()
     elif type(event_or_payload) is dict:
-        payload = dict(event_or_payload)
+        value = event_or_payload
     else:
         raise SchemaValidationError("event hash input must be Event or exact dict")
-    payload.pop("event_sha256", None)
+
+    message = "event hash input must contain exact event fields"
+    try:
+        keys = tuple(value.keys())
+    except Exception as exc:
+        raise SchemaValidationError(message) from exc
+    if any(type(key) is not str for key in keys):
+        raise SchemaValidationError(message)
+
+    payload_names = tuple(
+        name for name in EVENT_FIELD_NAMES if name != "event_sha256"
+    )
+    has_full_schema = (
+        len(keys) == len(EVENT_FIELD_NAMES)
+        and set(keys) == set(EVENT_FIELD_NAMES)
+    )
+    has_unhashed_schema = len(keys) == len(payload_names) and set(keys) == set(
+        payload_names
+    )
+    if not has_full_schema and not has_unhashed_schema:
+        raise SchemaValidationError(message)
+    try:
+        payload = {name: value[name] for name in payload_names}
+    except Exception as exc:
+        raise SchemaValidationError(message) from exc
     return canonical_sha256(payload)
 
 

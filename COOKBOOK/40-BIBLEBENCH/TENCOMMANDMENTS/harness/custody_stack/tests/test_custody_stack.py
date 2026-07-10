@@ -447,6 +447,71 @@ def test_event_hash_excludes_only_event_sha256_and_schema_is_exact():
     assert set(event.to_dict()) == set(api.EVENT_FIELD_NAMES)
 
 
+@pytest.mark.parametrize("hostile", [False, True])
+def test_event_hash_dict_rejects_string_subclass_keys_before_comparison(hostile):
+    api = load_api()
+    runtime = runtime_for(api)
+    runtime.accept(
+        '{"kind":"act","tool":"counter.add","arguments":{"amount":1}}'
+    )
+    calls = []
+
+    class BenignKey(str):
+        pass
+
+    class ArmedKey(str):
+        def __hash__(self):
+            if getattr(self, "armed", False):
+                calls.append("hash")
+                raise RuntimeError("hostile event-hash key executed")
+            return str.__hash__(self)
+
+        def __eq__(self, other):
+            if getattr(self, "armed", False):
+                calls.append("equality")
+                raise RuntimeError("hostile event-hash key executed")
+            return str.__eq__(self, other)
+
+    payload = runtime.events[0].to_dict()
+    stored_hash = payload.pop("event_sha256")
+    key = ArmedKey("event_sha256") if hostile else BenignKey("event_sha256")
+    payload[key] = stored_hash
+    if hostile:
+        key.armed = True
+
+    with pytest.raises(api.SchemaValidationError):
+        api.compute_event_sha256(payload)
+    assert calls == []
+
+
+@pytest.mark.parametrize(
+    "entry_point", ["canonical_json", "canonical_json_bytes", "canonical_sha256"]
+)
+def test_canonical_dict_entry_points_preflight_exact_string_keys(entry_point):
+    api = load_api()
+    calls = []
+
+    class ArmedKey(str):
+        def __hash__(self):
+            if getattr(self, "armed", False):
+                calls.append("hash")
+                raise RuntimeError("hostile canonical key executed")
+            return str.__hash__(self)
+
+        def __eq__(self, other):
+            if getattr(self, "armed", False):
+                calls.append("equality")
+                raise RuntimeError("hostile canonical key executed")
+            return str.__eq__(self, other)
+
+    key = ArmedKey("value")
+    payload = {key: 1}
+    key.armed = True
+    with pytest.raises(api.SchemaValidationError):
+        getattr(api, entry_point)(payload)
+    assert calls == []
+
+
 @pytest.mark.parametrize("tamper", ["data", "previous", "index"])
 def test_structural_chain_verification_fails_closed_on_tampering(tamper):
     api = load_api()

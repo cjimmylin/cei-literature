@@ -412,8 +412,10 @@ def score_contested_position(
             f"SETTLED-CORE check {item_id}\nThese are the SETTLED (non-contested) keypoints — "
             f"the shared floor and engagement floor that stay right/wrong regardless of which "
             f"contested position the response takes. For each numbered keypoint, is it satisfied? "
-            f"Emit one line per keypoint in exactly this form: `<number>: correct` or "
-            f"`<number>: wrong`.\n{numbered}\nRESPONSE:\n{response}"
+            f"Emit one line per keypoint in exactly this form, with a MANDATORY one-line reason: "
+            f"`<number>: correct — <reason>` or `<number>: wrong — <reason>`. A 'correct' line "
+            f"with NO reason is not credited (the anti-relativism floor must be affirmatively "
+            f"met — silence is not credit).\n{numbered}\nRESPONSE:\n{response}"
         )
         ctext = judge.complete(core_prompt, item_id=item_id)
         score.raw_verdicts.append(ctext)

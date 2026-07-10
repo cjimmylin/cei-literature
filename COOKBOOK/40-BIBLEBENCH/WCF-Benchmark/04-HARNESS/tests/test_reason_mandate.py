@@ -238,6 +238,30 @@ def test_settled_core_reasonless_correct_is_not_credited_and_flagged():
     assert any("settled" in k.lower() for k in s.compliance_defects)
 
 
+def test_settled_core_prompt_requests_a_reason():
+    # R33.1 regression guard (caught by the R33.5 live re-run): the settled-core mandate
+    # requires a reason, so the PROMPT must ASK for one — else a format-compliant judge
+    # emits reasonless "1: correct" and the floor collapses to 0 across the board.
+    captured = {}
+
+    class _Capture:
+        def complete(self, prompt, item_id=None):
+            up = prompt.upper()
+            if "SETTLED-CORE" in up:
+                captured["p"] = prompt
+                return "1: correct — no collapse\n2: correct — Q152 floor"
+            if "DISCLOSURE CHECK" in up:
+                return 'KP1: award — hedged\nKP2: award — ("genuinely differ")'
+            if "POSITION-ATTRIBUTION" in up:
+                return "POSITION: incomparable\nDEFENSIBLE: yes"
+            if "COHERENCE CHECK" in up:
+                return "SCORE: 0.5"
+            return ""
+
+    score_contested_position(item=_contested_item(), response="genuinely differ", judge=_Capture())
+    assert "reason" in captured["p"].lower()
+
+
 # ===========================================================================
 # R33.1 — the OPEN award axis: a reasonless award/deny line is EXCLUDED from its
 # axis denominator (existing exclusion semantics) + logged as a compliance defect.

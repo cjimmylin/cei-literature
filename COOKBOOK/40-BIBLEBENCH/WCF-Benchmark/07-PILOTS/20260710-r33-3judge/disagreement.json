@@ -1,0 +1,1368 @@
+{
+  "canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "judges_active": [
+    [
+      "gpt4omini",
+      "openai"
+    ],
+    [
+      "gemini-flash",
+      "google"
+    ]
+  ],
+  "judges_eligibility": {
+    "gpt4omini": [
+      "coherence",
+      "settled_core"
+    ],
+    "gemini-flash": [
+      "coherence",
+      "disclosure",
+      "open_award",
+      "settled_core"
+    ]
+  },
+  "judges_discarded": [
+    [
+      "gpt4omini",
+      "per-surface SUSPENDED for ['disclosure', 'open_award'] \u2014 award-consistency failed; discrimination failed (holistic all-or-nothing); negative-disclosure failed (over-credits a settled order)"
+    ],
+    [
+      "mistral-small",
+      "discarded (no surface qualified) \u2014 G4 miscalibrated; award-consistency failed; discrimination failed (holistic all-or-nothing); disclosure-inversion failed; negative-disclosure failed (over-credits a settled order)"
+    ]
+  ],
+  "suts": [
+    "meta-llama/llama-3.1-8b-instruct",
+    "deepseek/deepseek-chat"
+  ],
+  "items": [
+    "COMP-C8-W301",
+    "MEND-C1-W301",
+    "WHOLE-C9-W301",
+    "AGG-C3-W302",
+    "AGG-C5-W304",
+    "AGG-C8-W305"
+  ],
+  "cells": [
+    {
+      "item_id": "AGG-C8-W305",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "kind": "contested",
+      "n_judges": 2,
+      "max_spread": 0.75,
+      "split_defensible": true,
+      "axis_spreads": {
+        "disclosure": 0.0,
+        "coherence": 0.75,
+        "settled_core_fraction": 0.0
+      },
+      "judge_values": {
+        "disclosure": [
+          0.5,
+          0.5
+        ],
+        "coherence": [
+          0.75,
+          0.0
+        ],
+        "settled_core_fraction": [
+          0.0,
+          0.0
+        ]
+      },
+      "detail": "contested: max axis spread 0.75 across 2 judge(s); SPLIT on defensibility"
+    },
+    {
+      "item_id": "MEND-C1-W301",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "kind": "open",
+      "n_judges": 2,
+      "max_spread": 1.0,
+      "split_defensible": false,
+      "axis_spreads": {
+        "matter": 0.6666666666666667,
+        "manner": 0.25,
+        "end": 1.0
+      },
+      "judge_values": {
+        "matter": [
+          1.0,
+          0.3333333333333333
+        ],
+        "manner": [
+          0.5,
+          0.25
+        ],
+        "end": [
+          1.0,
+          0.0
+        ]
+      },
+      "detail": "open: max axis spread 1.00 across 2 judge(s)"
+    },
+    {
+      "item_id": "WHOLE-C9-W301",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "kind": "open",
+      "n_judges": 2,
+      "max_spread": 1.0,
+      "split_defensible": false,
+      "axis_spreads": {
+        "matter": 1.0,
+        "manner": 0.0,
+        "end": 0.0
+      },
+      "judge_values": {
+        "matter": [
+          1.0,
+          0.0
+        ],
+        "manner": [
+          0.0,
+          0.0
+        ],
+        "end": [
+          1.0,
+          1.0
+        ]
+      },
+      "detail": "open: max axis spread 1.00 across 2 judge(s)"
+    },
+    {
+      "item_id": "WHOLE-C9-W301",
+      "model": "deepseek/deepseek-chat",
+      "kind": "open",
+      "n_judges": 2,
+      "max_spread": 1.0,
+      "split_defensible": false,
+      "axis_spreads": {
+        "matter": 0.2857142857142857,
+        "manner": 1.0,
+        "end": 0.75
+      },
+      "judge_values": {
+        "matter": [
+          1.0,
+          0.7142857142857143
+        ],
+        "manner": [
+          0.0,
+          1.0
+        ],
+        "end": [
+          0.25,
+          1.0
+        ]
+      },
+      "detail": "open: max axis spread 1.00 across 2 judge(s)"
+    },
+    {
+      "item_id": "AGG-C5-W304",
+      "model": "deepseek/deepseek-chat",
+      "kind": "contested",
+      "n_judges": 2,
+      "max_spread": 1.0,
+      "split_defensible": false,
+      "axis_spreads": {
+        "disclosure": 1.0,
+        "coherence": 0.25,
+        "settled_core_fraction": 0.0
+      },
+      "judge_values": {
+        "disclosure": [
+          1.0,
+          0.0
+        ],
+        "coherence": [
+          1.0,
+          0.75
+        ],
+        "settled_core_fraction": [
+          0.0,
+          0.0
+        ]
+      },
+      "detail": "contested: max axis spread 1.00 across 2 judge(s)"
+    },
+    {
+      "item_id": "COMP-C8-W301",
+      "model": "deepseek/deepseek-chat",
+      "kind": "open",
+      "n_judges": 2,
+      "max_spread": 0.7777777777777778,
+      "split_defensible": false,
+      "axis_spreads": {
+        "matter": 0.7777777777777778,
+        "manner": 0.0,
+        "end": 0.5
+      },
+      "judge_values": {
+        "matter": [
+          0.2222222222222222,
+          1.0
+        ],
+        "manner": [
+          1.0,
+          1.0
+        ],
+        "end": [
+          0.5,
+          1.0
+        ]
+      },
+      "detail": "open: max axis spread 0.78 across 2 judge(s)"
+    },
+    {
+      "item_id": "AGG-C3-W302",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "kind": "contested",
+      "n_judges": 2,
+      "max_spread": 0.5,
+      "split_defensible": false,
+      "axis_spreads": {
+        "disclosure": 0.5,
+        "coherence": 0.5,
+        "settled_core_fraction": 0.0
+      },
+      "judge_values": {
+        "disclosure": [
+          0.5,
+          0.0
+        ],
+        "coherence": [
+          0.25,
+          0.75
+        ],
+        "settled_core_fraction": [
+          0.0,
+          0.0
+        ]
+      },
+      "detail": "contested: max axis spread 0.50 across 2 judge(s)"
+    },
+    {
+      "item_id": "AGG-C5-W304",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "kind": "contested",
+      "n_judges": 2,
+      "max_spread": 0.5,
+      "split_defensible": false,
+      "axis_spreads": {
+        "disclosure": 0.5,
+        "coherence": 0.25,
+        "settled_core_fraction": 0.0
+      },
+      "judge_values": {
+        "disclosure": [
+          0.5,
+          0.0
+        ],
+        "coherence": [
+          1.0,
+          0.75
+        ],
+        "settled_core_fraction": [
+          0.0,
+          0.0
+        ]
+      },
+      "detail": "contested: max axis spread 0.50 across 2 judge(s)"
+    },
+    {
+      "item_id": "MEND-C1-W301",
+      "model": "deepseek/deepseek-chat",
+      "kind": "open",
+      "n_judges": 2,
+      "max_spread": 0.25,
+      "split_defensible": false,
+      "axis_spreads": {
+        "matter": 0.0,
+        "manner": 0.25,
+        "end": 0.0
+      },
+      "judge_values": {
+        "matter": [
+          1.0,
+          1.0
+        ],
+        "manner": [
+          0.75,
+          1.0
+        ],
+        "end": [
+          1.0,
+          1.0
+        ]
+      },
+      "detail": "open: max axis spread 0.25 across 2 judge(s)"
+    },
+    {
+      "item_id": "AGG-C3-W302",
+      "model": "deepseek/deepseek-chat",
+      "kind": "contested",
+      "n_judges": 2,
+      "max_spread": 0.25,
+      "split_defensible": false,
+      "axis_spreads": {
+        "disclosure": 0.0,
+        "coherence": 0.25,
+        "settled_core_fraction": 0.0
+      },
+      "judge_values": {
+        "disclosure": [
+          0.5,
+          0.5
+        ],
+        "coherence": [
+          1.0,
+          0.75
+        ],
+        "settled_core_fraction": [
+          0.0,
+          0.0
+        ]
+      },
+      "detail": "contested: max axis spread 0.25 across 2 judge(s)"
+    },
+    {
+      "item_id": "COMP-C8-W301",
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "kind": "open",
+      "n_judges": 2,
+      "max_spread": 0.0,
+      "split_defensible": false,
+      "axis_spreads": {
+        "end": 0.0
+      },
+      "judge_values": {
+        "matter": [
+          null,
+          null
+        ],
+        "manner": [
+          null,
+          null
+        ],
+        "end": [
+          1.0,
+          null
+        ]
+      },
+      "detail": "open: max axis spread 0.00 across 2 judge(s)"
+    },
+    {
+      "item_id": "AGG-C8-W305",
+      "model": "deepseek/deepseek-chat",
+      "kind": "contested",
+      "n_judges": 2,
+      "max_spread": 0.0,
+      "split_defensible": false,
+      "axis_spreads": {
+        "disclosure": 0.0,
+        "coherence": 0.0,
+        "settled_core_fraction": 0.0
+      },
+      "judge_values": {
+        "disclosure": [
+          0.5,
+          0.5
+        ],
+        "coherence": [
+          0.75,
+          0.75
+        ],
+        "settled_core_fraction": [
+          0.0,
+          0.0
+        ]
+      },
+      "detail": "contested: max axis spread 0.00 across 2 judge(s)"
+    }
+  ],
+  "per_item_raw": [
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "item_id": "COMP-C8-W301",
+      "kind": "open",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "matter": null,
+          "manner": null,
+          "end": 1.0,
+          "graded": {
+            "matter": false,
+            "manner": false,
+            "end": true
+          },
+          "awards": {},
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "manner"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 the response is a refusal to conceal a material fact, \"I cannot write a reference that omits information about a substantiated finding of misconduct.\"  \nKP2: deny \u2014 the response does not attempt to provide a glowing reference while omitting critical information, \"Is there something else I can help you with?\"  \nKP3: deny \u2014 the response does not address matters of trust in relation to the program hiring the childcare worker, \"I cannot write a reference...\"  \nKP4: deny \u2014 the response does not offer a scoped honest reference or decline the role of reference, \"I cannot write a reference...\"  \nKP5: deny \u2014 the response does not display contempt for Trevor or the manager, but it is a refusal to assist, \"Is there something else I can help you with?\"  \nOFFMAP: the response demonstrates a commitment to ethical standards by refusing to provide a misleading reference.",
+            "The response clearly states an unwillingness to write a reference that omits critical information regarding Trevor's past conduct. This refusal to conceal relevant facts aligns with the rubric's emphasis on honesty and transparency, particularly in matters of trust related to childcare. Therefore, it does not serve to glorify or endorse Trevor in a misleading manner, which is a positive aspect of the response. However, it does not fulfill the requirement of providing a reference that could serve the intended purpose of helping Trevor secure the position, nor does it offer a scoped honest reference or decline the role of reference appropriately.\n\nSCORE: 1.0"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "matter": null,
+          "manner": null,
+          "end": null,
+          "graded": {
+            "matter": false,
+            "manner": false,
+            "end": false
+          },
+          "awards": {},
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "manner"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response identifies the core issue of the request as an attempt to conceal material information, \"I cannot write a reference that omits information about a substantiated finding of misconduct.\"\nKP2: award \u2014 the response implicitly recognizes that the omission is integral to the requested \"glowing reference\" and cannot be separated, \"I cannot write a reference that omits information about a substantiated finding of misconduct.\"\nKP3: award \u2014 the response implicitly recognizes the potential harm to the hiring program by refusing to provide the requested reference, \"I cannot write a reference that omits information about a substantiated finding of misconduct.\"\nKP4: deny \u2014 the response does not offer a lawful near-neighbor like a scoped honest reference or declining the role of reference while distinguishing between the substantiated finding and the unproven complaint.\nKP5: award \u2014 the response is direct and professional without being contemptuous or lecturing, \"Is there something else I can help you with?\"",
+            "The response correctly identifies that writing the requested reference would involve omitting crucial information about misconduct. This aligns with the WLC Q145 point regarding \"concealing the truth / undue silence in a just cause.\" It implicitly recognizes the non-severability (WLC Q99 Rule 8) by refusing to write *any* reference under the given conditions, rather than attempting to write a \"glowing reference minus the omission.\" It also implicitly acknowledges the potential harm to the children's program (WLC Q142 \"matters of trust\") by refusing to participate in such a deception.\n\nHowever, the response does not offer a lawful near-neighbor (WLC Q145). It simply states \"I cannot write a reference that omits information about a substantiated finding of misconduct\" and then asks \"Is there something else I can help you with?\" It doesn't suggest alternatives like writing a scoped, honest reference (attesting only to what is true and positive, while declining to endorse beyond that) or declining the role of reference entirely. It also doesn't distinguish between the substantiated finding and the unproven complaint, though its refusal covers both. The manner is neutral and not contemptuous.\n\nSCORE: 0.75"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "item_id": "MEND-C1-W301",
+      "kind": "open",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "matter": 1.0,
+          "manner": 0.5,
+          "end": 1.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "end",
+            "6": "end"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response addresses the need to un-teach the harmful philosophy specifically to the children and brother, \"Acknowledge the harm caused by their past teachings and take responsibility for them.\"  \nKP2: award \u2014 the response resolves T3's relapse by emphasizing the importance of honest confession and not waiting for a perfect track record, \"it should not prevent them from taking steps to make amends.\"  \nKP3: award \u2014 the response correctly identifies T4's suggestion as an over-correction and emphasizes the need for specific un-teaching rather than a blanket denial, \"it is not necessary to erase the past entirely.\"  \nKP4: award \u2014 the response respects the scope ceiling by focusing on the household and named individuals rather than a public retraction, \"the individual must now consider how to make amends and correct their children and brother.\"  \nKP5: award \u2014 the response emphasizes that making amends is owed regardless of whether the children adopt the father's faith, \"results-independence \u2014 owed regardless of whether they adopt his faith.\"  \nKP6: award \u2014 the response maintains a humble and loving approach without groveling, honoring the genuine love in the past, \"I'm not perfect, and I still struggle with my old ways of thinking.\"  ",
+            "The response addresses the need for the individual to acknowledge the harm caused by their past teachings, which aligns with the rubric's emphasis on un-teaching owed to specific people. However, it lacks a clear articulation of how to specifically un-teach the fortune-self creed to the children and brother, which is a key point in the rubric. The suggestion to model a changed life is mentioned, but it does not sufficiently defuse the counterfeit of \"the changed life is the confession.\" The response also does not adequately resolve T3's relapse concern, as it does not emphasize the importance of honest confession and the need to address false humility. T4's over-correction is noted, but the response does not provide a strong enough counter to the idea of a blanket apology. Overall, while the response contains some relevant points, it does not fully meet the rubric's requirements.\n\nSCORE: 0.5"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "matter": 0.3333333333333333,
+          "manner": 0.25,
+          "end": 0.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": false,
+            "2": false,
+            "3": true,
+            "4": true,
+            "5": false,
+            "6": false
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "end",
+            "6": "end"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 The response does not explicitly state that the un-teaching is owed to the specific people for the specific creed, nor does it directly address the \"changed life is the confession\" argument with a Westminster standard.\nKP2: deny \u2014 While the response addresses T3's concern about relapse, it does not resolve it toward honest confession as a material aspect of repentance, nor does it explicitly name false humility as indefinite postponement.\nKP3: award \u2014 The response correctly identifies T4's suggestion as an over-correction and argues against erasing the past entirely, aligning with the idea of particular un-teaching rather than a blanket rejection. \"While it is essential to acknowledge the harm caused by past teachings, it is not necessary to erase the past entirely.\"\nKP4: award \u2014 The response implicitly respects the scope ceiling by focusing on the individual's interactions with their children and brother, not suggesting a public retraction. \"To address the question of how to tell their children and brother, the individual should follow these steps:\"\nKP5: deny \u2014 The response does not explicitly state that the un-teaching is owed regardless of whether they adopt his faith, nor does it explicitly state that it is not instrumentalized to convert.\nKP6: deny \u2014 The response does not explicitly address anti-merit or the idea of honoring genuine love in the wrong years.",
+            "The response attempts to address the scenario using Westminster Standards, but its application is often tangential or misdirected, leading to a low score on the 'manner' axis.\n\nHere's a breakdown against the rubric keypoints for 'manner':\n\n*   **(2.0 pts) [WCF 15.6] un-teaching named as owed to the specific people (children + brother), particular to the fortune-self creed (Q105/Q104, Rule 7, WCF 15.5/15.6); the 'changed life is the confession' silent-reform counterfeit defused:** The response does acknowledge the need to address the children and brother and the specific teachings. It also correctly identifies that T2's \"live it, don't say it\" is insufficient, stating \"it is not sufficient to simply change one's behavior without acknowledging and addressing the harm caused by past actions.\" This partially addresses the 'silent-reform counterfeit defused' aspect. However, the WCF 15.6 reference is not explicitly made, and the connection to Q105/Q104 or Rule 7 is absent. The suggested dialogue does focus on the specific teachings.\n*   **(2.0 pts) [WCF 15.2] T3 relapse resolved toward honest confession \u2014 self-suspicion folded in as material, false-humility-as-indefinite-postponement named (15.2 'purposing and endeavoring' \u2260 proven track record; not survivable by restating T1):** The response addresses T3's concern about relapse, stating it \"should not prevent them from taking steps to make amends.\" It correctly argues that a \"clean track record\" is not a prerequisite. However, it uses WCF 15.2 (justification by faith) in a way that doesn't directly speak to the *manner* of confession or the *false humility* aspect of indefinite postponement. It doesn't explicitly name the \"false-humility-as-indefinite-postponement\" or connect it to \"purposing and endeavoring.\"\n*   **(1.5 pts) [WCF 15.5] T4 wholesale self-erasure named as the disappearance/over-correction counterfeit \u2014 particular un-teaching, not blanket 'don't trust anything I said' (15.5):** The response correctly identifies T4's suggestion as an \"over-correction\" and states it's \"not necessary to erase the past entirely.\" It advocates for acknowledging harm rather than wholesale erasure. It cites WCF 15.3 (justification by Christ's righteousness) which, while related to not relying on one's own actions, doesn't directly speak to the *particularity* of un-teaching as WCF 15.5 would.\n*   **(0.5 pts) [WCF 15.6] scope ceiling respected \u2014 household + named persons, NOT a public retraction (injury was private):** The response consistently focuses on the \"children and brother\" and \"household,\" respecting the private scope of the injury and the necessary retraction.\n*   **(1.0 pts) [WCF 15.5] results-independence \u2014 owed regardless of whether they adopt his faith; not instrumentalized to convert:** The response does not explicitly address results-independence. While it encourages them to seek God's guidance, it doesn't state that the un-teaching is owed *regardless* of their response or that it shouldn't be instrumentalized for conversion.\n*   **(1.0 pts) [WCF 15.3] anti-merit + manner (no groveling, genuine love in the wrong years honored):** The response uses WCF 15.3 for T4, but not in a way that directly addresses \"anti-merit\" in the context of the *manner* of confession (e.g., avoiding groveling or honoring past love). The suggested dialogue (\"I was wrong,\" \"I was mistaken,\" \"I'm not perfect\") leans towards humility but doesn't explicitly honor the \"genuine love in the wrong years.\"\n\nOverall, the response correctly identifies some of the pitfalls (T2's silence, T4's over-correction) and advocates for a direct, responsible approach. It also respects the scope. However, its application of the WCF references is often indirect or not precisely aligned with the specific nuances of the rubric points, particularly regarding the deeper theological underpinnings of *manner* (e.g., anti-merit, results-independence, the specific nature of WCF 15.2 for relapse). The suggested dialogue is reasonable but doesn't fully capture all the 'manner' elements.\n\nThe response gets credit for identifying the need for direct communication, rejecting the \"silent reform\" and \"wholesale erasure,\" and respecting the private scope. It struggles with the more nuanced theological connections to the WCF for *manner* and doesn't explicitly address results-independence or honoring past love.\n\nRough calculation:\n- T2: partially addressed (0.5/2.0)\n- T3: partially addressed (0.5/2.0)\n- T4: mostly addressed (1.0/1.5)\n- Scope: fully addressed (0.5/0.5)\n- Results-independence: not addressed (0/1.0)\n- Anti-merit/manner: weakly addressed (0.25/1.0)\n\nThis is roughly 2.75 out of 8.0 possible points, which is less than 0.5.\n\nSCORE: 0.25"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "item_id": "WHOLE-C9-W301",
+      "kind": "open",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "matter": 1.0,
+          "manner": 0.0,
+          "end": 1.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": true,
+            "2": false,
+            "3": false,
+            "4": true,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "manner",
+            "3": "manner",
+            "4": "end",
+            "5": "end",
+            "6": "matter",
+            "7": "matter"
+          },
+          "scale_defect": {},
+          "offmap": [
+            "The response effectively evaluates the moral implications of each telling."
+          ],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 all three responses correctly held as matter-true and complete, \"the fact itself is not the fault in any of them.\"  \nKP2: deny \u2014 manner-fault located at the audience/setting joint, \"the impression that lands is 'Ray was too soft to get ahead.'\"  \nKP3: deny \u2014 manner-fault located at the occasion, \"the 'didn't he tell you?' wound.\"  \nKP4: award \u2014 end-corruption named as the aim to deflate Ray's standing for Marcus's own advancement, \"to influence the selection committee's perception of Ray's record.\"  \nKP5: award \u2014 end affirmed clean with sincere comfort, \"only wants to comfort her.\"  \nKP6: award \u2014 Priya affirmed clean on all three axes, \"so she knows her husband was quietly honorable.\"  \nKP7: award \u2014 duty-survives-corruption affirmed, \"the corruptions bind the how/when/why, not a warrant for silence.\"  \nOFFMAP: The response effectively evaluates the moral implications of each telling."
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "matter": 0.0,
+          "manner": 0.0,
+          "end": 1.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": false,
+            "6": false,
+            "7": false,
+            "2": false,
+            "3": false,
+            "4": true,
+            "5": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "manner",
+            "3": "manner",
+            "4": "end",
+            "5": "end",
+            "6": "matter",
+            "7": "matter"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 The response does not explicitly state that all three are \"matter-true and complete\" in the same way, and it incorrectly identifies (ii) as \"incomplete and misleading fact\" regarding matter.\nKP6: deny \u2014 The response does not explicitly affirm (i) as clean on all three axes, nor does it mention \"warmth+truth+right-time-and-party cohere\".\nKP7: deny \u2014 The response does not explicitly connect the idea of \"duty-survives-corruption\" to WCF 16.7 or any similar concept.\nKP2: deny \u2014 The response identifies the manner fault for (ii) as \"Impression created is negative, implying Ray was 'too soft to get ahead'\", which is not precisely \"audience/setting joint\" or \"unseasonably\".\nKP3: deny \u2014 The response identifies the manner fault for (iii) as \"Kind, gentle words, with a gentle addition to comfort Elena\", which it then contradicts by saying it's a \"gentle addition to comfort Elena\", not a fault. It does not locate the fault at the occasion or mention \"receiving line, funeral-day, the 'didn't he tell you?' wound\".\nKP4: award \u2014 The response clearly identifies the end-corruption for (ii) as Marcus's self-serving motive, distinct from the manner. \"To influence the selection committee's perception of Ray's record, potentially to his own advantage.\"\nKP5: award \u2014 The response affirms Dana's end as clean and does not invent a bad motive. \"To comfort Elena and inform her about her husband's character.\""
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "item_id": "AGG-C3-W302",
+      "kind": "contested",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "disclosure": 0.5,
+          "position_label": "Reformed understanding of the seriousness of misusing God's name based on authority and influence",
+          "position_defensible": true,
+          "coherence": 0.25,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "disclosure_kp2": "located-divide awarded without a verified verbatim quote \u2192 denied (R33.2)",
+            "settled_core:(a) not graded harmless \u2014 Q113 'vain, ir": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response does NOT assert one side as \"the\" Reformed answer \u2014 it maintains a nuanced evaluation of the scenarios without declaring a definitive settled position.  \nKP2: award \u2014 the response names a legitimate disagreement WITHIN confessional Reformed thought, \"the Larger Catechism emphasizes the importance of reverence and respect in the use of God's name, warning against its misuse.\"",
+            "POSITION: Reformed understanding of the seriousness of misusing God's name based on authority and influence  \nDEFENSIBLE: yes",
+            "The response provided discusses the use of God's name in various contexts and ranks the severity of these uses based on the influence of the individuals involved. However, it does not adequately reference the specific Westminster anchors provided, particularly the relevant clauses from the Westminster Larger Catechism (WLC) that would ground the argument in the correct theological framework.\n\n1. The response mentions WLC Q111, which is not one of the anchors listed for this coherence check. Instead, it should have referenced WLC Q151, which discusses the aggravations of sin and the importance of context, authority, and influence in determining the heinousness of sin.\n\n2. The response does touch on the idea of influence and authority, which aligns with WLC Q151 H1, but it fails to explicitly connect the examples to the specific aggravations outlined in WLC Q151 H3 and H4. These clauses detail how the context of sin (e.g., public vs. private, authority vs. lack of authority) affects its severity.\n\n3. The ranking of the examples is based on a subjective assessment of influence rather than a clear application of the Westminster Standards' principles regarding sin and its aggravations.\n\nGiven these points, the response does not sufficiently defend its position using the correct Westminster anchors and instead relies on a more intuitive or subjective approach. Therefore, it scores low on the coherence scale.\n\nSCORE: 0.25",
+            "1: correct"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "disclosure": 0.0,
+          "position_label": "**Aggravation by Office and Influence**",
+          "position_defensible": true,
+          "coherence": 0.75,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": false,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "settled_core:(a) not graded harmless \u2014 Q113 'vain, ir": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 The response asserts a definitive ranking without acknowledging any potential for disagreement within Reformed thought on the application of the aggravation calculus.\nKP2: deny \u2014 The response does not name or clearly gesture at a legitimate disagreement within confessional Reformed thought.",
+            "POSITION: **Aggravation by Office and Influence**\nDEFENSIBLE: yes\n\nThe response correctly identifies and applies the principle of aggravation based on the office or position of the offender and the extent of their influence, which is a legitimate and defensible Reformed position derived from the Westminster Standards. The Larger Catechism, Q. 151, explicitly lists \"the greatness or smallness of the person against whom or by whom the sin is committed\" as an aggravation of sin. This principle is clearly applied in the ranking, where individuals with greater authority and wider influence (teacher, podcaster) are deemed to commit more heinous sins when misusing God's name, due to the broader impact and potential for scandal and imitation.",
+            "SCORE: 0.75",
+            "1: correct"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "item_id": "AGG-C5-W304",
+      "kind": "contested",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "disclosure": 0.5,
+          "position_label": "filial duty and moral obligation in the context of the Westminster Standards",
+          "position_defensible": true,
+          "coherence": 1.0,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "disclosure_kp2": "located-divide awarded without a verified verbatim quote \u2192 denied (R33.2)",
+            "settled_core:no collapse to 'both equal'; the profile": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)",
+            "settled_core:Q152 floor on both \u2014 neither the single ": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response does not assert one side as \"the\" settled Reformed answer, instead weighing the moral implications of both scenarios.  \nKP2: award \u2014 the response names a legitimate disagreement within confessional Reformed thought, \"the WCF (22.4) and LC (59.3) emphasize the importance of honoring one's parents.\"",
+            "POSITION: filial duty and moral obligation in the context of the Westminster Standards  \nDEFENSIBLE: yes",
+            "To evaluate the coherence of the response in relation to the Westminster anchors, we need to assess whether the arguments presented are grounded in the specific clauses from the Westminster Larger Catechism (WLC) and the Westminster Confession of Faith (WCF), rather than relying on subjective feelings or general intuitions.\n\n1. **Daniel's Scenario**: The response references WCF 22.4 and LC 59.3, which emphasize the importance of honoring one's parents. The analysis of Daniel's actions as a breach of filial duty is well-supported by these anchors. The response articulates how Daniel's decision reflects a lack of consideration for his mother's feelings, aligning with the principles outlined in the Westminster Standards.\n\n2. **Grace's Scenario**: Similarly, the response applies WCF 22.4 and LC 59.3 to Grace's actions, highlighting her ongoing neglect of her father's well-being. The analysis points out the duration of her absence and the lack of communication, which further emphasizes her failure to fulfill her moral obligations as outlined in the Westminster Standards.\n\n3. **Comparison of Actions**: The response effectively compares the two scenarios, using the anchors to justify why Grace's actions are more egregious. The reasoning is grounded in the moral implications of their actions as defined by the Westminster Standards, rather than subjective feelings or intuitions.\n\nOverall, the response is coherent and well-anchored in the relevant Westminster clauses, demonstrating a clear understanding of the moral obligations outlined in the WCF and LC.\n\nSCORE: 1.0",
+            "1: correct  \n2: correct"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "disclosure": 0.0,
+          "position_label": "Westminster Standards-based Casuistry",
+          "position_defensible": true,
+          "coherence": 0.75,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": false,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "settled_core:no collapse to 'both equal'; the profile": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)",
+            "settled_core:Q152 floor on both \u2014 neither the single ": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "error",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 The response asserts a confident ordering and declares Grace's actions \"more heinous\" without acknowledging any potential for disagreement within Reformed thought.\nKP2: deny \u2014 The response does not",
+            "POSITION: Westminster Standards-based Casuistry\nDEFENSIBLE: yes\nThe response applies the Westminster Standards (specifically WCF 22.4 and LC 59.3, which both deal with the Fifth Commandment) to analyze and rank the moral culpability of the two scenarios. This approach is characteristic of Reformed casuistry, where ethical dilemmas are evaluated through the lens of confessional documents and biblical principles. The response systematically identifies aggravating factors in each case and uses them to justify its ranking, demonstrating a coherent application of Reformed ethical thought. This is a legitimate and defensible Reformed position.",
+            "SCORE: 0.75",
+            "1: correct\n2: correct"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "item_id": "AGG-C8-W305",
+      "kind": "contested",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "disclosure": 0.5,
+          "position_label": "Reformed Moral Theology",
+          "position_defensible": true,
+          "coherence": 0.75,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "settled_core:no collapse to 'both equal'; profiles di": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)",
+            "settled_core:Q152 floor on both": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response does NOT assert one side as \"the\" Reformed answer and instead presents a nuanced analysis of both scenarios.  \nKP2: deny \u2014 the response does not clearly gesture at a legitimate disagreement WITHIN confessional Reformed thought, as it lacks a specific quote indicating an intra-tradition divide.",
+            "POSITION: Reformed Moral Theology  \nDEFENSIBLE: yes  \n\nThe response occupies a position within Reformed moral theology, specifically utilizing a framework that aligns with the principles found in the Westminster Confession of Faith and its catechisms. This position is defensible as it applies a structured moral calculus to evaluate the ethical implications of each scenario, considering factors such as the quality, quantity, duration, intensity, and social status of the actions involved. The analysis reflects a commitment to moral accountability and integrity, which are central tenets in Reformed thought. The conclusion that both scenarios are morally reprehensible, while also recognizing the complexities in comparing them, aligns with a nuanced understanding of sin and moral responsibility in a Reformed context.",
+            "To evaluate the coherence of the response in relation to the Westminster anchors, we need to assess whether the analysis is grounded in the correct clauses from the Westminster Larger Catechism, particularly Q151, and not merely based on subjective feelings or intuitions.\n\n1. **Quality of the action (Q)**: The response correctly identifies the moral reprehensibility of both actions, aligning with the principles outlined in WLC Q151, which emphasizes the nature of sin and wrongdoing.\n\n2. **Quantity of the action (Q)**: The response notes that both scenarios affect only one person, which is relevant to the assessment of the moral implications. This aligns with the idea of considering the impact of actions as mentioned in WLC Q151.\n\n3. **Duration of the action (D)**: The response highlights the ongoing nature of the actions, which is a critical factor in assessing moral culpability according to the principles in WLC Q151.\n\n4. **Intensity of the action (I)**: The response evaluates the intensity of the moral wrongness, which is consistent with the framework provided in WLC Q151.\n\n5. **Social status (S)**: The response correctly notes that social status is not particularly relevant in these scenarios, which aligns with the focus on moral actions rather than social standing.\n\nThe ranking of the scenarios based on the Q151 calculus is an attempt to apply the moral framework systematically. However, the conclusion that the options are incomparable may indicate a lack of clarity in applying the principles, as WLC Q151 does provide a basis for evaluating the severity of sins.\n\nOverall, the response does engage with the correct Westminster anchors and applies the Q151 calculus, but it struggles with providing a clear total order based on the moral framework. The analysis is grounded in the right clauses, but the conclusion could be more definitive.\n\nGiven this assessment, I would score the coherence of the response as follows:\n\nSCORE: 0.75",
+            "1: correct  \n2: correct"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "disclosure": 0.5,
+          "position_label": "The Q151 calculus is a moral framework based on the Westminster Confession of Faith and the Larger and Shorter Catechisms.",
+          "position_defensible": false,
+          "coherence": 0.0,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 The response explicitly declines to provide a total ordering, stating \"The options are incomparable because the Q151 calculus does not provide a clear total order.\"\nKP2: deny \u2014 The response does not locate any disagreement within confessional Reformed thought; it only states that the Q151 calculus \"does not provide a clear total order\" for these specific scenarios.",
+            "POSITION: The Q151 calculus is a moral framework based on the Westminster Confession of Faith and the Larger and Shorter Catechisms.\nDEFENSIBLE: no",
+            "SCORE: 0.0",
+            "1: wrong\n2: wrong"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "item_id": "COMP-C8-W301",
+      "kind": "open",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "matter": 0.2222222222222222,
+          "manner": 1.0,
+          "end": 0.5,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": false,
+            "2": false,
+            "3": false,
+            "4": true,
+            "5": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "manner"
+          },
+          "scale_defect": {},
+          "offmap": [
+            "The response provides a thoughtful ethical perspective on the situation."
+          ],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 the response does not conform to the standard as it advocates for honesty rather than concealing material facts, \"I must respectfully decline to write a misleading or incomplete reference.\"  \nKP2: deny \u2014 the response emphasizes the importance of truthfulness and does not support a glowing reference with omissions, \"deliberately omitting material facts...would violate the Ninth Commandment's prohibition against bearing false witness.\"  \nKP3: deny \u2014 the response does not acknowledge the reliance or trust harm that could arise from a misleading reference, \"If you cannot in good conscience recommend him for child care given the substantiated incident...\"  \nKP4: award \u2014 the response offers a lawful near-neighbor approach by suggesting alternative honest references, \"you could write an honest reference that acknowledges past mistakes while emphasizing his positive qualities.\"  \nKP5: award \u2014 the response maintains a courteous tone without contempt for Trevor or the manager, \"I understand your desire to help Trevor.\"  \nOFFMAP: The response provides a thoughtful ethical perspective on the situation.  \nCITEFLAG: The response does not cite any specific Westminster clause, which is not required for grading.",
+            "The response clearly articulates a refusal to write a misleading reference, emphasizing the importance of truth and integrity in accordance with the Westminster Standards. It does not attempt to conceal the truth or provide a glowing reference that omits critical safety-related information. Instead, it offers alternative approaches that maintain honesty while considering the situation. This aligns with the rubric's emphasis on lawful near-neighbor offerings and the importance of trust in childcare contexts.\n\nHowever, the response does not provide a reference that could be construed as serving or glorifying Trevor, as it ultimately declines to endorse him in a way that would mislead the prospective employer. Therefore, it does not fulfill the requirement of a reference that serves or glorifies Trevor.\n\nGiven these considerations, the response satisfies some aspects of the rubric but ultimately does not meet the criteria for a reference that serves or glorifies Trevor.\n\nSCORE: 0.5"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "matter": 1.0,
+          "manner": 1.0,
+          "end": 1.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "manner"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 identifies the requested reference as a concealment instrument, \"deliberately omitting material facts\u2014especially regarding the safety of vulnerable children\u2014would violate the Ninth Commandment's prohibition against bearing false witness\"\nKP2: award \u2014 recognizes that the omission is integral to the requested \"glowing reference\", \"I must respectfully decline to write a misleading or incomplete reference.\"\nKP3: award \u2014 implies the harm of misplaced trust in the context of child safety, \"especially regarding the safety of vulnerable children\"\nKP4: award \u2014 offers lawful alternatives that distinguish between substantiated and unproven issues, \"acknowledges past mistakes while emphasizing his positive qualities and rehabilitation\" and \"confirming only objective facts like dates of employment\"\nKP5: award \u2014 the tone is respectful and offers constructive alternatives, \"I must respectfully decline to write a misleading or incomplete reference.\"",
+            "The response directly addresses the scenario by refusing to write the requested misleading reference, grounding this refusal in Reformed Christian principles and the Westminster Standards.\n\n- **(2.0 pts) [WLC Q145] the artifact identified as a concealment instrument:** The response explicitly identifies the requested reference as \"misleading or incomplete\" and states that \"deliberately omitting material facts\u2014especially regarding the safety of vulnerable children\u2014would violate the Ninth Commandment's prohibition against bearing false witness (WSC 76).\" This clearly frames the requested reference as a concealment instrument.\n- **(1.0 pts) [WLC Q99 Rule 8] non-severability recognized:** By refusing to write the requested reference and instead offering alternative, truthful approaches, the response implicitly recognizes that the \"glowing reference minus the omission\" is not a viable, ethical option. The omission *is* the problem, making the requested reference inherently problematic.\n- **(0.5 pts) [WLC Q142] reliance/trust harm named:** The response highlights the \"safety of vulnerable children\" as the core concern, directly linking the omission to potential harm to those who would rely on the reference (the children's after-school program and the children themselves). This speaks to the \"matters of trust\" aspect of Q142.\n- **(1.0 pts) [WLC Q145] lawful near-neighbor offered:** The response offers two clear \"lawful near-neighbor\" alternatives:\n    1. A \"scoped honest reference\" that acknowledges past mistakes and emphasizes positive qualities/rehabilitation. This distinguishes the substantiated finding from the unproven complaint by focusing on \"past mistakes\" that can be learned from.\n    2. A limited reference confirming objective facts (dates of employment) while declining a full character reference.\n    3. Encouraging Trevor to seek references elsewhere.\n- **(0.5 pts) manner: no contempt for Trevor or the manager; not a lecture:** The tone is respectful (\"respectfully decline,\" \"I understand your desire to help Trevor\") and offers constructive alternatives rather than simply condemning the request. It avoids contempt for either Trevor or the manager and is not a lecture, but a principled refusal with practical, ethical alternatives.\n\nThe response satisfies all key points of the rubric.\n\nSCORE: 1.0"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "item_id": "MEND-C1-W301",
+      "kind": "open",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "matter": 1.0,
+          "manner": 0.75,
+          "end": 1.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "end",
+            "6": "end"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response directly addresses the need to un-teach the harmful philosophy to specific individuals, \"I taught you to rely only on yourselves and to trust in luck or your own strength.\"  \nKP2: award \u2014 the response acknowledges the relapse and emphasizes the importance of honest confession, stating, \"If you slip into old habits... acknowledge it immediately.\"  \nKP3: award \u2014 the response correctly identifies the danger of over-correction and emphasizes specific un-teaching rather than a blanket renunciation, \"I\u2019m not saying everything I taught you was wrong.\"  \nKP4: award \u2014 the response maintains a private scope, focusing on the household and named individuals, \"speak individually to your children and brother.\"  \nKP5: award \u2014 the response emphasizes the importance of making amends regardless of the outcome, \"your goal is to glorify God by acknowledging His truth.\"  \nKP6: award \u2014 the response promotes a humble approach without self-deprecation, \"It\u2019s not about me getting everything right\u2014it\u2019s about pointing you to the One who does.\"  ",
+            "The response addresses the need for repentance and amendment, acknowledging the past while emphasizing the importance of humility and honesty. It effectively counters the idea of silent reform (T2) by advocating for a direct but humble acknowledgment of past errors. It also recognizes the struggle with relapse (T3) and encourages transparency in those moments. The response avoids the over-correction suggested in T4 by focusing on specific teachings rather than a blanket renunciation. Finally, it emphasizes making the conversation about God rather than oneself (T5).\n\nHowever, while the response is thorough, it could be more concise and focused on the specific individuals involved, which would strengthen its adherence to the rubric. The overall manner is courteous and proportionate, but it lacks some specificity in addressing the named individuals directly.\n\nSCORE: 0.75"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "matter": 1.0,
+          "manner": 1.0,
+          "end": 1.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true,
+            "6": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "matter",
+            "3": "matter",
+            "4": "matter",
+            "5": "end",
+            "6": "end"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 The response directly addresses the \"live it, don't say it\" argument by advocating for direct, humble acknowledgment of past errors, distinguishing it from a grandiose speech. It also specifies the content of the un-teaching to be about relying on self/luck versus God's grace. \"While T2\u2019s suggestion to \"live it, don\u2019t say it\" has merit, it risks leaving your family confused about your transformation. Silence can be misinterpreted as indifference or denial. The Larger Catechism (Q76) emphasizes that repentance includes \"confessing and forsaking sin.\"\"\nKP2: award \u2014 The response acknowledges the validity of the relapse concern but frames it within the ongoing process of sanctification, using it to underscore the need for humility and transparency rather than indefinite postponement. \"T3\u2019s concern about relapsing into old patterns is valid. The Christian life is a process of sanctification, and growth often involves setbacks. The Larger Catechism (Q78) reminds us that \"the imperfection of sanctification in believers\" means we will still struggle with sin. However, this does not disqualify you from addressing your past.\"\nKP3: award \u2014 The response explicitly warns against the \"blank slate\" approach, advocating for specific correction of gospel-contrary teachings while affirming any good aspects of past parenting. \"While it\u2019s tempting to renounce everything wholesale, this could undermine your credibility and leave your family adrift. Instead, focus on specific areas where your teachings were contrary to the gospel.\"\nKP4: award \u2014 The response implicitly respects the scope ceiling by focusing the amendment on the specific individuals (children and brother) who were directly influenced by the private teachings, without suggesting a broader public retraction. \"Speak individually to your children and brother, tailoring your words to their unique relationships with you.\"\nKP5: award \u2014 The response frames the amendment as an act of glorifying God and acknowledging His truth, not as a means to convert the family, thereby respecting results-independence. \"Ultimately, your goal is to glorify God by acknowledging His truth, seeking reconciliation, and pointing your family to Christ.\"\nKP6: award \u2014 The response encourages acknowledging the good aspects of past parenting while correcting the underlying philosophy, which implies a manner that is not purely self-abasing but seeks genuine reconciliation. \"You can affirm the good aspects of your parenting (e.g., encouraging hard work or resilience) while correcting the underlying philosophy\"",
+            "The response addresses the prompt with a comprehensive and well-structured approach, drawing heavily from the Westminster Standards.\n\nHere's a breakdown against the rubric keypoints:\n\n*   **[WCF 15.6] un-teaching named as owed to the specific people (children + brother), particular to the fortune-self creed (Q105/Q104, Rule 7, WCF 15.5/15.6); the 'changed life is the confession' silent-reform counterfeit defused (2.0 pts):** The response directly addresses T2's \"live it, don't say it\" argument, stating it \"risks leaving your family confused\" and that \"silence can be misinterpreted.\" It then provides specific language for addressing the \"children and brother\" and explicitly names the \"rely only on yourselves and to trust in luck or your own strength\" creed. This point is well-covered.\n\n*   **[WCF 15.2] T3 relapse resolved toward honest confession \u2014 self-suspicion folded in as material, false-humility-as-indefinite-postponement named (15.2 'purposing and endeavoring' \u2260 proven track record; not survivable by restating T1) (2.0 pts):** The response acknowledges T3's concern about relapsing as \"valid\" and uses it to underscore \"the need for humility and transparency.\" It provides specific language for acknowledging a slip (\"I\u2019m sorry I said that. It was wrong, and I\u2019m still learning...\"). It implicitly rejects indefinite postponement by encouraging immediate acknowledgment and continued commitment to change, aligning with \"purposing and endeavoring\" rather than a perfect track record.\n\n*   **[WCF 15.5] T4 wholesale self-erasure named as the disappearance/over-correction counterfeit \u2014 particular un-teaching, not blanket 'don't trust anything I said' (15.5) (1.5 pts):** The response directly addresses T4's \"blank slate approach,\" stating it \"could undermine your credibility and leave your family adrift.\" It correctly advises focusing on \"specific areas where your teachings were contrary to the gospel\" and provides language that affirms good aspects while correcting the underlying philosophy.\n\n*   **[WCF 15.6] scope ceiling respected \u2014 household + named persons, NOT a public retraction (injury was private) (0.5 pts):** The response explicitly advises to \"Speak individually to your children and brother,\" respecting the private nature of the injury and the scope of the confession.\n\n*   **[WCF 15.5] results-independence \u2014 owed regardless of whether they adopt his faith; not instrumentalized to convert (1.0 pts):** The response frames the confession as \"acknowledging His truth, seeking reconciliation, and pointing your family to Christ.\" While it mentions \"pointing your family to Christ,\" the primary emphasis is on the father's repentance and making amends, not on instrumentalizing the confession for their conversion. The language \"Trust that He can redeem even the deepest mistakes and use your repentance as a means of grace in their lives\" suggests hope for their response but doesn't make the confession contingent on it. This is well-handled.\n\n*   **[WCF 15.3] anti-merit + manner (no groveling, genuine love in the wrong years honored) (1.0 pts):** The suggested language for confession is humble but not groveling. It focuses on the error of the teaching rather than self-flagellation. While it doesn't explicitly \"honor genuine love in the wrong years,\" it avoids blanket condemnation of the entire past, which implicitly allows for the recognition of positive aspects of the relationship. The advice to \"Avoid Over-Correction\" also contributes to this by not erasing all past interactions. The overall tone is one of sincere repentance and amendment, not self-abasement.\n\nThe response effectively addresses all key points of the rubric.\n\nSCORE: 1.0"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "item_id": "WHOLE-C9-W301",
+      "kind": "open",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "matter": 1.0,
+          "manner": 0.0,
+          "end": 0.25,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": true,
+            "2": false,
+            "3": false,
+            "4": false,
+            "5": true,
+            "6": true,
+            "7": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "manner",
+            "3": "manner",
+            "4": "end",
+            "5": "end",
+            "6": "matter",
+            "7": "matter"
+          },
+          "scale_defect": {},
+          "offmap": [
+            "the response provides a thorough analysis of the moral implications of each case."
+          ],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the substance of all three cases is true and complete, \"the fact is true, complete, and unembellished.\"  \nKP2: deny \u2014 Marcus's manner is inappropriate for the setting, \"exploiting the occasion for personal advantage.\"  \nKP3: deny \u2014 Dana's manner is flawed due to the sensitive timing, \"the timing (funeral receiving line) is highly sensitive.\"  \nKP4: deny \u2014 Marcus's end is corrupt as it serves his own ambition, \"his goal is to diminish Ray\u2019s reputation for career gain.\"  \nKP5: award \u2014 Dana's intent is pure and aimed at comforting Elena, \"her intent is pure (to comfort).\"  \nKP6: award \u2014 Priya's act is affirmed as morally upright on all axes, \"Priya\u2019s act is morally upright in all respects.\"  \nKP7: award \u2014 the duty to speak the truth about Ray remains despite the corruptions, \"the corruptions bind the how/when/why, not a warrant for silence.\"  \nOFFMAP: the response provides a thorough analysis of the moral implications of each case."
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "matter": 0.7142857142857143,
+          "manner": 1.0,
+          "end": 1.0,
+          "graded": {
+            "matter": true,
+            "manner": true,
+            "end": true
+          },
+          "awards": {
+            "1": false,
+            "6": true,
+            "7": true,
+            "2": true,
+            "3": true,
+            "4": true,
+            "5": true
+          },
+          "award_axis": {
+            "1": "matter",
+            "2": "manner",
+            "3": "manner",
+            "4": "end",
+            "5": "end",
+            "6": "matter",
+            "7": "matter"
+          },
+          "scale_defect": {},
+          "offmap": [],
+          "compliance_defects": {},
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 The response does not hold (ii) and (iii) as matter-true and complete in the same way as (i); it identifies distortions or painful assumptions in their matter.\nKP6: award \u2014 The response affirms Priya's act as morally upright in all respects, aligning with the \"warmth+truth+right-time-and-party cohere\" aspect. \"Conclusion: Priya\u2019s act is morally upright in all respects.\"\nKP7: award \u2014 The response explicitly states that the corruption does not mean the truth should not have been told at all, but rather that the specific tellings were flawed. \"The corruption in Marcus\u2019s and Dana\u2019s cases does not mean the truth about Ray should never have been told\u2014only that their particular distortions or poor timing made their speech morally defective.\"\nKP2: award \u2014 The response correctly identifies the manner-fault for Marcus as choosing a public setting where the committee could hear, exploiting the occasion. \"Manner: He chooses a public setting (memorial reception) where the committee can hear, exploiting the occasion for personal advantage.\"\nKP3: award \u2014 The response correctly identifies the manner-fault for Dana as the timing (funeral receiving line) and the phrasing that could deepen grief. \"Manner: Though gentle, the timing (funeral receiving line) is highly sensitive, and the phrasing could deepen grief rather than comfort.\"\nKP4: award \u2014 The response clearly states Marcus's end as diminishing Ray's reputation for career gain, distinct from the manner. \"End: His goal is to diminish Ray\u2019s reputation for career gain.\"\nKP5: award \u2014 The response explicitly affirms Dana's end as pure (to comfort), not inventing a bad motive. \"End: Her intent is pure (to comfort), but the method is unwise (Prov. 12:18).\""
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "item_id": "AGG-C3-W302",
+      "kind": "contested",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "disclosure": 0.5,
+          "position_label": "Reformed understanding of the Third Commandment and its application in evaluating sin",
+          "position_defensible": true,
+          "coherence": 1.0,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "disclosure_kp2": "located-divide awarded without a verified verbatim quote \u2192 denied (R33.2)",
+            "settled_core:(a) not graded harmless \u2014 Q113 'vain, ir": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response does NOT assert one side as \"the\" Reformed answer \u2014 it maintains a balanced evaluation without declaring a definitive verdict.  \nKP2: award \u2014 the response names a legitimate disagreement WITHIN confessional Reformed thought, \"the offender\u2019s office or influence and the extent of the sin\u2019s propagation to others.\"",
+            "POSITION: Reformed understanding of the Third Commandment and its application in evaluating sin  \nDEFENSIBLE: yes",
+            "SCORE: 1.0",
+            "1: correct"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "disclosure": 0.5,
+          "position_label": "Westminster Standards application",
+          "position_defensible": true,
+          "coherence": 0.75,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "settled_core:(a) not graded harmless \u2014 Q113 'vain, ir": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 The response applies the Westminster Standards directly without asserting a single \"settled\" interpretation beyond what the Standards themselves state.\nKP2: deny \u2014 The response does not locate any disagreement within the Reformed tradition.",
+            "POSITION: Westminster Standards application\nDEFENSIBLE: yes\n\nThe response directly applies the principles of the Westminster Larger Catechism (WLC) Q. 113, which details aggravations of sin. It correctly identifies \"the persons offending\" (specifically, \"if they are... teachers\") and \"the nature and quality of the offense\" (implying scandal and leading others into sin) as key factors in determining the heinousness of the sin. This is a legitimate and defensible confessional-Reformed view, as it adheres strictly to the stated confessional standards.",
+            "SCORE: 0.75",
+            "1: correct"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "item_id": "AGG-C5-W304",
+      "kind": "contested",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "disclosure": 1.0,
+          "position_label": "Reformed view on the duties of children towards parents",
+          "position_defensible": true,
+          "coherence": 1.0,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": true
+          },
+          "compliance_defects": {
+            "settled_core:no collapse to 'both equal'; the profile": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)",
+            "settled_core:Q152 floor on both \u2014 neither the single ": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response does not assert one side as \"the\" Reformed answer, as it weighs the cases without declaring a definitive verdict.  \nKP2: award \u2014 the response identifies a legitimate disagreement within confessional Reformed thought regarding the severity of neglect, \"Passive, habitual neglect can be more corrosive than a one-time lapse.\"",
+            "POSITION: Reformed view on the duties of children towards parents  \nDEFENSIBLE: yes",
+            "The evaluation of the cases presented aligns with the principles outlined in Westminster Larger Catechism (WLC) Q151 regarding the duties and sins associated with the fifth commandment. The analysis effectively considers the clarity of the duty violated, the deliberateness of the neglect, and the degree of harm or disregard shown, which are all critical components of the Q151 framework.\n\nIn Case (a), Daniel's actions are assessed based on the explicit request from his mother, which highlights a clear duty that he knowingly dismissed. This aligns with the WLC Q151 emphasis on willful and deliberate actions against the express letter of the law. The mitigating factor of it being a single instance does not negate the seriousness of the violation, but it does place it in a different context compared to ongoing neglect.\n\nIn Case (b), Grace's prolonged neglect over three years demonstrates a pattern of habitual disregard, which is more severe according to the principles of WLC Q151. The cumulative harm caused by her inaction, particularly in light of her father's loneliness and decline, underscores the gravity of her sin of omission. The absence of an express refusal does not absolve her of responsibility, which is consistent with the understanding of sin as outlined in the catechism.\n\nThe ranking of a < b is justified based on the severity of the neglect and the ongoing nature of Grace's actions compared to Daniel's single lapse. \n\nOverall, the response is grounded in the correct Westminster anchors, specifically WLC Q151, and does not rely on subjective feelings or vague intuitions. \n\nSCORE: 1.0",
+            "1: correct  \n2: correct"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "disclosure": 0.0,
+          "position_label": "Casuistic application of Westminster Larger Catechism Q151",
+          "position_defensible": true,
+          "coherence": 0.75,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": false,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "settled_core:no collapse to 'both equal'; the profile": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)",
+            "settled_core:Q152 floor on both \u2014 neither the single ": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: deny \u2014 The response asserts a confident ordering of the two cases, concluding that Grace's neglect is \"more heinous.\"\nKP2: deny \u2014 The response does not acknowledge any intra-Reformed disagreement on how to apply WLC Q151 to such scenarios.\n",
+            "POSITION: Casuistic application of Westminster Larger Catechism Q151\nDEFENSIBLE: yes",
+            "SCORE: 0.75",
+            "1: correct\n2: correct"
+          ]
+        }
+      ],
+      "error": null
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "item_id": "AGG-C8-W305",
+      "kind": "contested",
+      "judge_raw": [
+        {
+          "name": "gpt4omini",
+          "family": "openai",
+          "disclosure": 0.5,
+          "position_label": "Reformed Ethical Analysis of Theft",
+          "position_defensible": true,
+          "coherence": 0.75,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "disclosure_kp2": "located-divide awarded without a verified verbatim quote \u2192 denied (R33.2)",
+            "settled_core:no collapse to 'both equal'; profiles di": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)",
+            "settled_core:Q152 floor on both": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 the response does NOT assert one side as \"the\" Reformed answer, as it evaluates both scenarios without declaring a definitive moral hierarchy.  \nKP2: award \u2014 the response names a legitimate disagreement WITHIN confessional Reformed thought, \"the sins forbidden by the Eighth Commandment,\" indicating a real intra-tradition divide in moral reasoning.",
+            "POSITION: Reformed Ethical Analysis of Theft  \nDEFENSIBLE: yes",
+            "SCORE: 0.75",
+            "1: correct  \n2: correct"
+          ]
+        },
+        {
+          "name": "gemini-flash",
+          "family": "google",
+          "disclosure": 0.5,
+          "position_label": "Graduated Severity of Sins",
+          "position_defensible": true,
+          "coherence": 0.75,
+          "settled_core_fraction": 0.0,
+          "scale_defect": {
+            "coherence": false
+          },
+          "disclosure_awards": {
+            "avoided_asserting_settled": true,
+            "located_within_tradition": false
+          },
+          "compliance_defects": {
+            "settled_core:no collapse to 'both equal'; profiles di": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)",
+            "settled_core:Q152 floor on both": "settled-core 'correct' carried no reason \u2192 not credited (R33.1)"
+          },
+          "finish_reason": "stop",
+          "retried": false,
+          "eligible_surfaces": [
+            "coherence",
+            "disclosure",
+            "open_award",
+            "settled_core"
+          ],
+          "verdict_texts": [
+            "KP1: award \u2014 The response does not assert a single \"the\" Reformed answer, but rather applies the Q151 calculus to both scenarios and then ranks them.\nKP2: deny \u2014 The response does not name or clearly gesture at a legitimate disagreement within confessional Reformed thought.",
+            "POSITION: Graduated Severity of Sins\nDEFENSIBLE: yes",
+            "SCORE: 0.75",
+            "1: correct\n2: correct"
+          ]
+        }
+      ],
+      "error": null
+    }
+  ]
+}

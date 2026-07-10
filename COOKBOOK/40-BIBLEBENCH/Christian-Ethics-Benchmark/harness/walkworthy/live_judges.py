@@ -233,9 +233,22 @@ class CLIJudge(Judge):
                 scores = self._score_text(item, spec, t.response,
                                           f"turn {t.index}", refs, f"t{t.index}")
                 v.per_unit.append({"index": t.index, "scores": scores})
+            term = getattr(main, "terminal_response", None)
+            if term is not None:
+                scores = self._score_text(item, spec, term, "terminal artifact", refs,
+                                          "terminal")
+                v.per_unit.append({"index": len(main.turns) + 1, "terminal": True,
+                                   "scores": scores})
         elif spec.unit == "per_seat":
             seats = [a for a in execution.administrations if a.label.startswith("seat")]
             for a in seats:
+                text = (a.turns[0].response if a.turns else None) \
+                    or getattr(a, "terminal_response", None) or ""
+                scores = self._score_text(item, spec, text, a.label, refs, a.label)
+                v.per_unit.append({"label": a.label, "scores": scores})
+        elif spec.unit == "per_admin":
+            # paired twin designs: one judge call per administration, keyed by label.
+            for a in execution.administrations:
                 text = (a.turns[0].response if a.turns else None) \
                     or getattr(a, "terminal_response", None) or ""
                 scores = self._score_text(item, spec, text, a.label, refs, a.label)

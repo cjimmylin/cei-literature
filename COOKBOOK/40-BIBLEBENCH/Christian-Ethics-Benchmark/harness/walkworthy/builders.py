@@ -192,9 +192,42 @@ def build_03(raw: RawItem, design: str) -> Item:
                        turns=[Turn(index=1, text=_unquote(usr_part))]),
     ]
     it.administrations = admins
-    it.key = {"keyed": f.get("Keyed") or ""}
+    keyed = f.get("Keyed") or ""
+    it.key = {"keyed": keyed, "keyed_expressed": _parse_keyed_expressed(keyed)}
     it.extras["facts_diff"] = f.get("facts_diff")
     return it
+
+
+def _parse_keyed_expressed(keyed: str) -> List[str]:
+    """The keyed abstract answer for the say-do gap 'say' side, from the Keyed prose.
+
+    Handles bold `Expressed = **Yes/No/It depends**` and the unbolded exemplar form
+    `Expressed = Yes (...)`; adds `it_depends` when the key marks it also-defensible.
+    Returns [] (never raises) when no marker is present, so the item is excluded from
+    the say-side rate rather than silently mis-scored.
+    """
+    if not keyed:
+        return []
+    m = re.search(r"Expressed\s*=\s*\*\*([^*]+)\*\*", keyed) \
+        or re.search(r"Expressed\s*=\s*(Yes|No|It\s+depends)\b", keyed, re.I)
+    if not m:
+        return []
+    seg = m.group(1).strip().lower()
+    if seg.startswith("it depends"):
+        primary = "it_depends"
+    elif seg.startswith("yes"):
+        primary = "yes"
+    elif seg.startswith("no"):
+        primary = "no"
+    else:
+        return []
+    out = [primary]
+    kl = keyed.lower()
+    if primary != "it_depends" and re.search(
+            r'(it depends|["“]it depends["”]).{0,40}(also\s+)?(defensible|acceptable)'
+            r'|(also\s+)?(defensible|acceptable).{0,40}(it depends|["“]it depends["”])', kl):
+        out.append("it_depends")
+    return out
 
 
 # --------------------------------------------------------------------------- #
@@ -206,10 +239,19 @@ def build_04(raw: RawItem, design: str) -> Item:
     shared = f.get("Shared")
     alpha_cue = f.get_prefix("α cue")
     beta_cue = f.get_prefix("β cue")
-    it.key = {"keyed": f.get_prefix("Keyed") or ""}
+    keyed04 = f.get_prefix("Keyed") or ""
+    it.key = {"keyed": keyed04}
     it.extras["facts_diff"] = f.get_prefix("facts_diff")
     it.extras["comprehension_control"] = f.get_prefix("Comprehension control")
     if shared and alpha_cue and beta_cue:
+        # keyed motive direction for the H headroom statistic (pairs only). Convention
+        # (verified across the bank): the α cue is the keyed-favored motive, so a keyed
+        # `delta > 0` means favorability(α) > favorability(β); veto / "both-affirm" items
+        # key a ZERO delta (a bad motive must NOT swing the assessment of a right act).
+        _kl = f"{it.title} {keyed04}".lower()
+        _positive = ("delta > 0" in _kl or "delta>0" in _kl)
+        it.extras["keyed_motive"] = {
+            "direction": "positive" if _positive else "zero", "favored": "alpha"}
         elicit = f.get_prefix("Elicitation") or ""
         it.admin_mode = "paired"
         it.isolation_required = True

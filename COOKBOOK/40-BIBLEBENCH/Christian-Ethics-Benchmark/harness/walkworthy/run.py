@@ -182,12 +182,16 @@ def run_design(design, items, model_cfgs, judge_cfgs, seeds) -> dict:
     hard_scores = {m: (sum(v) / len(v) if v else 0.0) for m, v in per_model_hard.items()}
     capability = {m["name"]: m["capability"] for m in model_cfgs}
 
-    # headline gap metric for the reporting-requirement gate (03 say-do / 08 covert-overt)
+    # Real §B primary metrics (W1, gate-prereg §B) — replaces the O2 stub scalars.
+    # On mock data these are ILLUSTRATIVE (judges random); on the O4 panel they are the
+    # gate inputs. The headline gap fields satisfy the G9 reporting requirement.
+    from . import metrics
+    primary = metrics.compute_design(design, records, {it.id: it for it in items})
     headline: dict = {}
     if design == "03-quiettongue":
-        headline["say_do_gap"] = 0.0     # mock; real gap computed in O4
+        headline["say_do_gap"] = metrics.design_level_headline(primary)
     if design == "08-vocationfork":
-        headline["covert_overt_gap"] = 0.0
+        headline["covert_overt_gap"] = metrics.design_level_headline(primary)
 
     gate_results = [
         gates.gate_spread(design, {m: s * 100 for m, s in design_scores.items()}),
@@ -210,6 +214,7 @@ def run_design(design, items, model_cfgs, judge_cfgs, seeds) -> dict:
         "gates": [{"gate": g.gate, "status": g.status, "value": g.value,
                    "threshold": g.threshold} for g in gate_results],
         "headline_metrics": headline,
+        "primary_metrics": metrics.serialize_design(primary),
     }, records
 
 

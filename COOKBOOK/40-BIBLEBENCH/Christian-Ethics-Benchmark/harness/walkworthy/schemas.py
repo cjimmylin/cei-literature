@@ -39,6 +39,8 @@ def validate_scored_item(record: dict, spec: ScoringSpec) -> List[str]:
     if spec.unit == "per_seat" and "per_seat_scores" not in record and \
             not _verdicts_have_per_unit(record):
         errors.append("per_seat design record missing per-seat scores")
+    if spec.unit == "per_admin" and not _verdicts_have_per_unit(record):
+        errors.append("per_admin (paired twin) design record missing per-administration scores")
     return errors
 
 

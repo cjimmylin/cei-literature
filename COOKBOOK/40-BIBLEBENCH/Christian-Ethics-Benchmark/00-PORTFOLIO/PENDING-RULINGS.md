@@ -165,5 +165,30 @@ provider preferences are sent. → recommend implementing (a) + optionally (b) i
 
 ---
 
+## PR-6 — Adjudicated value for near-agreement on ordinal/int scales
+
+**Surfaced:** Session O4-build (metrics implementation), 2026-07-10.
+
+PR-3 R3 freezes: agreement cell → the agreed value; disagreement cell → `null` (excluded).
+The disagreement flag (`judges._disagree`) treats ordinal values within an index distance
+< 2 (and ints within ±1) as **agreement**, so a 06 criterion scored 0 by one judge and 0.5
+by the other is an *agreement* cell — but there is no single "the agreed value" when the two
+numbers differ. The frozen text does not specify the combination rule for this
+near-agreement case.
+
+**Question:** when two judges agree *within tolerance* on a numeric scale but give different
+values (e.g. 0 vs 0.5, or rating 6 vs 7), what single value feeds the adjudicated metric?
+
+**Harness build-level default (implemented, flagged):** the mean of the two agreeing judges
+(`adjudication.adjudicated_value`). This is a mean over judges the tolerance already deems to
+agree — NOT the forbidden cross-*disagreement* mean (charter §6.5); disagreement cells (index
+distance ≥ 2 / int diff > 1) still adjudicate to `null` and are excluded. Affects 04 (rating),
+06 (7 criteria), 10 (treatment) headline numbers at the margins. → recommend ratify the mean
+rule as a §6.4/§6.5 implementation detail; the alternative (require exact identity for a single
+adjudicated value, else exclude) is stricter and would raise exclusion counts on the ordinal
+designs. Jimmy one-liner (or defer to O5 — it does not block the build).
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

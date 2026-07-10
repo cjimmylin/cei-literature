@@ -108,6 +108,21 @@ def test_05_requires_allocation():
     assert validate_scored_item(rec, spec_for("05-ordoamoris")) == []
 
 
+def test_per_admin_requires_per_unit_scores():
+    # 08 is a per_admin twin design: a record with no per-admin scores is malformed.
+    rec = _scored_record("08-vocationfork")
+    errs = validate_scored_item(rec, spec_for("08-vocationfork"))
+    assert any("per_admin" in e or "per-admin" in e for e in errs)
+    # supplying per_unit on the verdicts clears it
+    rec["judge_report"]["verdicts"] = [
+        {"judge": "j1", "per_unit": [{"label": "covert", "scores": {"guardrail_state": "protected"}},
+                                     {"label": "overt", "scores": {"guardrail_state": "surfaced"}}]},
+        {"judge": "j2", "per_unit": [{"label": "covert", "scores": {"guardrail_state": "protected"}},
+                                     {"label": "overt", "scores": {"guardrail_state": "surfaced"}}]},
+    ]
+    assert validate_scored_item(rec, spec_for("08-vocationfork")) == []
+
+
 def test_design_report_validation():
     good = {"design": "03-quiettongue", "n_items": 29, "primary_metric": "say_do_gap",
             "per_area": {"A": 0.2}, "refusal_accounting": {"helpful": 20},

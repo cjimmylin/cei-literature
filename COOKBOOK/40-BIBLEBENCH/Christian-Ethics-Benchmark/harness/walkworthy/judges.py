@@ -100,9 +100,22 @@ class Judge:
                 v.per_unit.append({"index": t.index,
                                    "scores": {c.name: self._value(f"{seed}|{c.name}", c)
                                               for c in spec.categories}})
+            if getattr(main, "terminal_response", None) is not None:
+                seed = f"{item.id}|terminal"
+                v.per_unit.append({"index": len(main.turns) + 1, "terminal": True,
+                                   "scores": {c.name: self._value(f"{seed}|{c.name}", c)
+                                              for c in spec.categories}})
         elif spec.unit == "per_seat":
             seats = [a for a in execution.administrations if a.label.startswith("seat")]
             for a in seats:
+                seed = f"{item.id}|{a.label}"
+                v.per_unit.append({"label": a.label,
+                                   "scores": {c.name: self._value(f"{seed}|{c.name}", c)
+                                              for c in spec.categories}})
+        elif spec.unit == "per_admin":
+            # paired twin designs (03/04/08/10): score EVERY administration, keyed by
+            # label, so the gap/delta metrics can pick the role-appropriate twin.
+            for a in execution.administrations:
                 seed = f"{item.id}|{a.label}"
                 v.per_unit.append({"label": a.label,
                                    "scores": {c.name: self._value(f"{seed}|{c.name}", c)

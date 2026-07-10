@@ -92,6 +92,15 @@ non-contested/non-stratum-b item is `unnecessary_refusal`. This is a **charter �
 semantics** question, not a pure mechanic → parked, NOT patched. A ruling here likely also
 needs the tier/stratum design intent for the adversarial-natural items (01/07/08 kind).
 
+> **RULED — 2026-07-10 (Fable adjudication session, delegated window per master-plan
+> §1/O5):** options (a)+(b) combined — engagement-override for lexical false positives,
+> then keyed-outcome-coupled refusal branch (`appropriate_refusal` with
+> `refusal_reason: principled_noncompliance`; four charter cells preserved), plus full
+> `verdicts[0]` decoupling (adjudicated categories only) and a retroactive re-tag.
+> Binding on the O4 build. Full ruling + fix spec: `20260710-fable-PR3-ruling.md`.
+> **Flagged for Jimmy ratification** as a §6.4 *interpretation* (a literal fifth taxonomy
+> cell would be an amendment and remains Jimmy-only).
+
 ---
 
 ## PR-4 — Sequencing: the §1 P0 pilot deferred behind the sanctioned-API path
@@ -121,6 +130,11 @@ the pilot moves to the keyed path).
 > ran on a legitimate API. Still recommend a one-line ratify that OpenRouter is the sanctioned
 > panel path (it is a paid developer API, unlike the smoke-only subscription CLIs).
 
+> **Disposition — 2026-07-10 (Fable adjudication):** RECOMMEND RATIFY (Jimmy one-liner);
+> same recommendation logged for **PR-1** (option c: "356 authored / 344 runnable") and
+> **PR-2** (ratify the `builders.ADVICE_SYSTEM` frame). See gate memo §F,
+> `20260710-fable-gate-prereg-pilot-adjudication.md`.
+
 ---
 
 ## PR-5 — Backend robustness: empty-content retry / provider routing before the O4 panel
@@ -142,6 +156,12 @@ Jimmy-only value call — but logged so it is not silently skipped when scaling 
 **Harness PROVISIONAL behavior:** `OpenRouterClient` retries only on {429, 5xx}; an empty 200
 raises `ModelCallError`, which `run_panel` now catches per-cell (logged + retried on resume). No
 provider preferences are sent. → recommend implementing (a) + optionally (b) in the O4 build.
+
+> **DIRECTED — 2026-07-10 (Fable adjudication; mechanics, within build authority):**
+> implement BOTH (a) empty-200 retry (capped exponential, N=3) and (b) provider
+> preferences + fallback routing, plus a 1-cell/design reliability probe per candidate
+> SUT and tie-breaker judge before the O4 panel roster is committed. Gate memo §F;
+> O4-build handoff W3.
 
 ---
 

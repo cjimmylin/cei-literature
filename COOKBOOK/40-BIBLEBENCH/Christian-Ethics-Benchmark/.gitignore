@@ -4,3 +4,7 @@ HOLDOUT/
 # item-drafting staging artifacts
 *-backfill-DRAFT.md
 *-DRAFT.md
+
+# harness run bulk data (regenerable via `python -m walkworthy.run`); keep the small
+# audit artifacts (manifest.json, dry_run_report.md, design_summaries.json)
+runs/*/scored_items.jsonl

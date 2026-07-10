@@ -65,6 +65,9 @@ def gate_capability(design, design_scores: Dict[str, float],
                           {"note": "insufficient models (<3) — PENDING full panel"})
     xs = [design_scores[m] for m in models]
     ys = [capability[m] for m in models]
+    if len(set(xs)) < 2 or len(set(ys)) < 2:     # constant input -> rho undefined
+        return GateResult("capability", True, value=0.0, threshold=threshold, design=design,
+                          detail={"n_models": len(models), "note": "constant scores — rho undefined"})
     rho, _ = spearmanr(xs, ys)
     rho = float(rho) if rho == rho else 0.0     # nan -> 0
     return GateResult("capability", rho <= threshold, value=rho, threshold=threshold,

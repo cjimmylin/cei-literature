@@ -1015,6 +1015,72 @@ def test_expected_generation_is_rechecked_atomically_during_append():
     assert log.events[0].tool_result.data["actor"] == "first"
 
 
+@pytest.mark.parametrize("path_backed", [False, True])
+def test_same_runtime_accepts_share_one_immutable_starting_generation(
+    path_backed, tmp_path
+):
+    api = load_api()
+    registry = api.ToolRegistry()
+    blocked_entered_handler = threading.Event()
+    release_blocked_handler = threading.Event()
+    calls = []
+
+    def interleaved_transition(state, arguments):
+        actor = arguments["actor"]
+        calls.append(actor)
+        if actor == "blocked":
+            blocked_entered_handler.set()
+            assert release_blocked_handler.wait(timeout=2.0)
+        return api.Transition(
+            api.EpisodeState({"owner": actor}),
+            api.ToolResult({"actor": actor}, terminal=actor == "blocked"),
+        )
+
+    registry.register(
+        "fixture.same-runtime-transition", {"actor": str}, interleaved_transition
+    )
+    path = tmp_path / "events.jsonl" if path_backed else None
+    log = api.EventLog(path=path)
+    initial = api.EpisodeState({})
+    runtime = api.Runtime(initial, registry, log)
+    outcomes = {}
+
+    def accept(actor):
+        try:
+            runtime.accept(
+                json.dumps(
+                        {
+                            "kind": "act",
+                            "tool": "fixture.same-runtime-transition",
+                        "arguments": {"actor": actor},
+                    }
+                )
+            )
+            outcomes[actor] = "committed"
+        except api.CustodyError:
+            outcomes[actor] = "rejected"
+
+    blocked_thread = threading.Thread(target=accept, args=("blocked",))
+    blocked_thread.start()
+    assert blocked_entered_handler.wait(timeout=2.0)
+    accept("winner")
+    release_blocked_handler.set()
+    blocked_thread.join(timeout=2.0)
+    assert not blocked_thread.is_alive()
+
+    assert outcomes == {"winner": "committed", "blocked": "rejected"}
+    assert calls == ["blocked", "winner"]
+    assert runtime.state == api.EpisodeState({"owner": "winner"})
+    assert runtime.terminal is False
+    assert len(runtime.events) == 1
+    assert api.verify_chain(runtime.events) is True
+    assert runtime.events[0].tool_result.data["actor"] == "winner"
+    assert runtime._expected_event_count == 1
+    assert runtime._expected_event_head_sha256 == runtime.events[0].event_sha256
+    if path is not None:
+        assert api.EventLog(path=path).events == runtime.events
+
+
 def test_persisted_schema_contains_hashes_not_prompts_raw_responses_or_secrets():
     api = load_api()
     runtime = runtime_for(api)

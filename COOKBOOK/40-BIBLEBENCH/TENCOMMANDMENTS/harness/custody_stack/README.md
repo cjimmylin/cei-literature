@@ -114,7 +114,10 @@ including identical metadata and state-preserving actions. The early check is
 backed by an authoritative compare-and-swap: `EventLog.append()` rechecks the
 runtime's expected count/head while holding its append and writer locks, so a
 concurrent state-preserving transition cannot commit after passing an earlier
-head check.
+head check. Each `accept()` snapshots its starting state, generation, and
+provenance before that check; handler execution, state hashes, event index and
+link, and the append CAS all use that same immutable snapshot. Only a successful
+append swaps the runtime state and advances its expected generation.
 
 `Runtime.resume()` begins with the caller-supplied private initial state and the
 same deterministic registry. It first verifies the complete structural chain,

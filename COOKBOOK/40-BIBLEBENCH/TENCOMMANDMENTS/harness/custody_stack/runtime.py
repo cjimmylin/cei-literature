@@ -172,16 +172,12 @@ class Runtime:
     def terminal(self):
         return self._terminal
 
-    def _assert_expected_log_head(self):
+    def _assert_expected_log_head(self, expected_generation):
         try:
             live_head = self._event_log.live_head()
         except EventLogError as exc:
             raise RuntimeStateError("unable to verify live event-log head") from exc
-        expected = (
-            self._expected_event_count,
-            self._expected_event_head_sha256,
-        )
-        if live_head != expected:
+        if live_head != expected_generation:
             raise RuntimeStateError("event log generation changed outside this runtime")
 
     def accept(self, raw_response):
@@ -189,8 +185,20 @@ class Runtime:
 
         if self._terminal:
             raise TerminalRuntimeError("runtime is already terminal")
-        self._assert_expected_log_head()
-        before_sha256 = state_sha256(self._state)
+        starting_state = self._state
+        expected_generation = (
+            self._expected_event_count,
+            self._expected_event_head_sha256,
+        )
+        provenance_metadata = (
+            self._episode_id,
+            self._logical_id,
+            self._prompt_sha256,
+            self._item_sha256,
+            self._template_sha256,
+        )
+        self._assert_expected_log_head(expected_generation)
+        before_sha256 = state_sha256(starting_state)
         existing_events = self._event_log.events
         if existing_events:
             last_event = existing_events[-1]
@@ -204,43 +212,40 @@ class Runtime:
                 last_event.prompt_sha256,
                 last_event.item_sha256,
                 last_event.template_sha256,
-            ) != (
-                self._episode_id,
-                self._logical_id,
-                self._prompt_sha256,
-                self._item_sha256,
-                self._template_sha256,
-            ):
+            ) != provenance_metadata:
                 raise RuntimeStateError("event log belongs to different provenance metadata")
         action = parse_action(raw_response)
         raw_response_sha256 = sha256(raw_response.encode("utf-8")).hexdigest()
-        transition = self._handlers.execute(self._state, action)
+        transition = self._handlers.execute(starting_state, action)
         _reject_private_material(
-            (self._state, transition.next_state), action, transition.tool_result
+            (starting_state, transition.next_state), action, transition.tool_result
         )
         after_sha256 = state_sha256(transition.next_state)
+        (
+            episode_id,
+            logical_id,
+            prompt_sha256,
+            item_sha256,
+            template_sha256,
+        ) = provenance_metadata
         event = Event.create(
             schema_version=EVENT_SCHEMA_VERSION,
-            event_index=self._event_log.next_index,
-            episode_id=self._episode_id,
-            logical_id=self._logical_id,
-            previous_event_sha256=self._event_log.previous_event_sha256,
+            event_index=expected_generation[0],
+            episode_id=episode_id,
+            logical_id=logical_id,
+            previous_event_sha256=expected_generation[1],
             state_before_sha256=before_sha256,
             state_after_sha256=after_sha256,
             action=action,
             tool_result=transition.tool_result,
             raw_response_sha256=raw_response_sha256,
-            prompt_sha256=self._prompt_sha256,
-            item_sha256=self._item_sha256,
-            template_sha256=self._template_sha256,
+            prompt_sha256=prompt_sha256,
+            item_sha256=item_sha256,
+            template_sha256=template_sha256,
             terminal=transition.tool_result.terminal,
         )
-        expected_generation = (
-            self._expected_event_count,
-            self._expected_event_head_sha256,
-        )
         self._event_log.append(event, expected_generation=expected_generation)
-        self._expected_event_count += 1
+        self._expected_event_count = expected_generation[0] + 1
         self._expected_event_head_sha256 = event.event_sha256
         self._state = transition.next_state
         self._terminal = transition.tool_result.terminal

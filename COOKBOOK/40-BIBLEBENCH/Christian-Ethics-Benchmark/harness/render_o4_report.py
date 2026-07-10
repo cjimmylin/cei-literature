@@ -160,6 +160,17 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
                  f"shift as the panel finishes. Re-render on the full merged run before any "
                  f"O5 use.")
         L.append("")
+    if meta.get("coverage_note"):
+        L.append(meta["coverage_note"])
+        L.append("")
+    # per-model coverage table (which models are complete)
+    by_model_designs = {}
+    for r in records:
+        by_model_designs.setdefault(r["model"], set()).add(r["design"])
+    L.append("**Per-model coverage:** " + "; ".join(
+        f"`{m.split('/')[1]}` {len(by_model_designs.get(m, set()))}/10 designs"
+        for m in models) + ".")
+    L.append("")
     L.append("## Panel composition")
     L.append("")
     L.append("| role | models |")
@@ -330,6 +341,9 @@ def main(argv=None):
     ap.add_argument("--judge2", default="google/gemini-2.5-flash")
     ap.add_argument("--classifier", default="openai/gpt-5.6-terra")
     ap.add_argument("--tiebreaker", default="mistralai/mistral-large-2512")
+    ap.add_argument("--coverage-note", default=None,
+                    help="prose disclosure of any known coverage gap (e.g. a SUT that "
+                         "did not finish); rendered near the top")
     args = ap.parse_args(argv)
 
     root = Path(args.benchmark_root)
@@ -343,7 +357,8 @@ def main(argv=None):
     # cost/defects from panel_summary.json if present
     meta = {"panel": args.panel or args.run, "date": args.date or "2026-07-11",
             "judge1": args.judge1, "judge2": args.judge2, "classifier": args.classifier,
-            "tiebreaker": args.tiebreaker, "cost": None}
+            "tiebreaker": args.tiebreaker, "cost": None,
+            "coverage_note": args.coverage_note}
     summ = run_dir / "panel_summary.json"
     if summ.exists():
         s = json.loads(summ.read_text())

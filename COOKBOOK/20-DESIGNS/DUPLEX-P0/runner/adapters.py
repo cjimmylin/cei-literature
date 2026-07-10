@@ -81,6 +81,34 @@ def _is_transient_anthropic_error(exc: BaseException) -> bool:
     return type(exc).__name__ in _TRANSIENT_ANTHROPIC_ERROR_NAMES
 
 
+# Transient OpenAI-SDK errors eligible for bounded retry. Same class-NAME match trick as the
+# anthropic set (so the test suite needs no `openai` install) and same fail-OPEN posture (an
+# unrecognized error is treated as fatal, not silently retried). Names verified against the openai
+# Python SDK v1 exception hierarchy: RateLimitError (429), InternalServerError (>=500 — the SDK maps
+# 502/503/504 here too), APIConnectionError (network) and its subclass APITimeoutError. An
+# AuthenticationError (401) / BadRequestError (400, e.g. an unknown OpenRouter model id) /
+# PermissionDeniedError (403) are NOT here, so they raise at once, unretried (SA-5). OpenRouter
+# surfaces upstream failures through these SAME OpenAI SDK exception types, so one set covers both
+# OpenAI-direct and OpenRouter. Re-verify on an openai SDK major bump.
+_TRANSIENT_OPENAI_ERROR_NAMES = frozenset(
+    {"RateLimitError", "InternalServerError", "APIConnectionError", "APITimeoutError"}
+)
+
+
+def _is_transient_openai_error(exc: BaseException) -> bool:
+    return type(exc).__name__ in _TRANSIENT_OPENAI_ERROR_NAMES
+
+
+def resolve_openai_auth_mode(api_key_env: str = "OPENAI_API_KEY",
+                             env: Optional[Dict[str, str]] = None) -> str:
+    """Report the OpenAI-compatible auth mode for run metadata. Unlike Anthropic (which has an OAuth
+    `ant auth login` profile fallback), the OpenAI SDK is key-only: "api_key" when the configured env
+    var (OPENAI_API_KEY for OpenAI-direct, OPENROUTER_API_KEY for OpenRouter) is non-empty, else
+    "unset" (the SDK then fails loud at construction — there is no profile to fall back to)."""
+    env = env if env is not None else os.environ
+    return "api_key" if env.get(api_key_env) else "unset"
+
+
 def _retry(fn, *, max_retries, backoff_base, sleep, is_transient, vendor):
     """Run `fn`, retrying transient administration failures with exponential backoff, then RAISE
     an AdministrationError once the retries are exhausted (SA-5: bounded retry -> fail loud).
@@ -457,6 +485,133 @@ def _read_last_message(path: str) -> str:
         return ""
 
 
+# --------------------------------------------------------------------------- OpenAI (Chat Completions API / OpenRouter)
+
+class OpenAIAPIAdapter(BaseAdapter):
+    """OpenAI-family subjects/judges via the OpenAI-compatible **Chat Completions** API.
+
+    This is the VALID-run backend for the OpenAI vendor (the `codex exec` path — OpenAICodexAdapter —
+    is smoke-only: the ChatGPT-subscription Codex CLI refuses the roster's API-only models and is an
+    agentic runner, per the 2026-07-09 CLI-OAuth smoke). §3.5 needs a clean cross-family backend both
+    as the OpenAI **subject** AND as the **judge** for the Anthropic subjects.
+
+    Backend targeting is a construction knob, NOT a code fork — OpenRouter speaks the same Chat
+    Completions API through the same OpenAI SDK:
+      * OpenAI-direct : base_url=None,                         api_key_env="OPENAI_API_KEY"
+      * OpenRouter    : base_url="https://openrouter.ai/api/v1", api_key_env="OPENROUTER_API_KEY"
+
+    `client` is injectable for testing; in production it is defer-constructed (SDK imported lazily so
+    building/tests need no `openai` install). Credentials mirror the F-1 spirit: no static key is
+    hard-required by THIS code — the configured env key is handed to the SDK, which fails loud on the
+    first call for an invalid key (or at construction for a missing one — the OpenAI SDK, unlike
+    Anthropic's OAuth chain, has no profile fallback). F-1 / SA-5 retry+refusal semantics mirror
+    AnthropicAdapter exactly.
+    """
+
+    vendor = "openai"
+
+    def __init__(
+        self,
+        client: Optional[Any] = None,
+        api_key_env: str = "OPENAI_API_KEY",
+        base_url: Optional[str] = None,
+        default_headers: Optional[Dict[str, str]] = None,
+        max_retries: int = 4,
+        backoff_base: float = 0.5,
+        sleep: Optional[Callable[[float], None]] = None,
+    ):
+        self._client = client
+        self._api_key_env = api_key_env
+        self._base_url = base_url
+        # Optional OpenRouter attribution headers (HTTP-Referer / X-Title). Inert by default.
+        self._default_headers = dict(default_headers) if default_headers else None
+        self._max_retries = max_retries
+        self._backoff_base = backoff_base
+        self._sleep = sleep or time.sleep
+        self.auth_mode: Optional[str] = "injected" if client is not None else None
+
+    @property
+    def client(self) -> Any:
+        if self._client is None:
+            import openai  # deferred import; only when a live call is actually made
+
+            kwargs: Dict[str, Any] = {}
+            if self._base_url:
+                kwargs["base_url"] = self._base_url          # OpenRouter (or a self-hosted gateway)
+            if self._default_headers:
+                kwargs["default_headers"] = self._default_headers
+            # Do NOT hard-require a key in our code (F-1 spirit): read the configured env var and hand
+            # it to the SDK when present. For OpenRouter the SDK will NOT read OPENROUTER_API_KEY on
+            # its own, so passing it explicitly is required; for OpenAI-direct this equals the SDK's
+            # own OPENAI_API_KEY resolution. A missing key surfaces as the SDK's construction error.
+            key = os.environ.get(self._api_key_env)
+            if key:
+                kwargs["api_key"] = key
+            self._client = openai.OpenAI(**kwargs)
+            self.auth_mode = resolve_openai_auth_mode(self._api_key_env)
+        return self._client
+
+    def administer(
+        self,
+        prompt: str,
+        model_id: str,
+        temperature: float,
+        seed: int,
+        max_tokens: int = 1024,
+        system: Optional[str] = None,
+        omit_sampling_params: bool = False,
+        **_: Any,
+    ) -> AdapterResult:
+        # NOTE(seed): Chat Completions accepts a best-effort `seed`, but OpenRouter forwards it only
+        # when the underlying provider supports it, and the roster runs temperature>0 with reps/cell
+        # BY DESIGN (a distribution, not determinism). For cross-vendor symmetry with the Anthropic
+        # adapter (no seed param) `seed` is retained for checkpoint identity ONLY and is NOT sent —
+        # both vendors are treated as non-deterministic at fixed temperature.
+        messages: List[Dict[str, str]] = []
+        if system:
+            messages.append({"role": "system", "content": system})
+        messages.append({"role": "user", "content": prompt})
+        params: Dict[str, Any] = {
+            "model": model_id,
+            "messages": messages,
+            "max_tokens": max_tokens,
+        }
+        # F-2 / SA-6: omit the sampling param on a V-4 (or model-capability) drop. Inert for the
+        # OpenAI roster models (they accept `temperature`), but wired for symmetry with F-2.
+        # TODO(live): some reasoning models (o-series / gpt-5 reasoning) reject `temperature` AND
+        # require `max_completion_tokens` instead of `max_tokens` — a 400 there is a bad-request
+        # (unretried, fail-loud), so calibrate per judge/subject model at first live call.
+        if not omit_sampling_params:
+            params["temperature"] = temperature
+
+        t0 = time.monotonic()
+        # SA-5 (F-1): bounded retry with exponential backoff for TRANSIENT errors
+        # (rate-limit/5xx/connection/timeout); persistent transients raise AdministrationError;
+        # non-transient errors (auth/bad-request) propagate immediately, unretried.
+        resp = _retry(
+            lambda: self.client.chat.completions.create(**params),
+            max_retries=self._max_retries, backoff_base=self._backoff_base,
+            sleep=self._sleep, is_transient=_is_transient_openai_error, vendor=self.vendor,
+        )
+        latency = time.monotonic() - t0
+
+        text = _extract_openai_text(resp)
+        # SA-5: Chat Completions has no universal STRUCTURED refusal signal, so refusal_flag is
+        # ALWAYS False. A content refusal is decided downstream by the scorer -> no_stance (WS-1 D10).
+        return AdapterResult(text=text, raw=_raw(resp), refusal_flag=False, latency=latency)
+
+
+def _extract_openai_text(resp: Any) -> str:
+    """Read `resp.choices[0].message.content`, tolerating an empty/absent choices list (an empty
+    completion -> "" -> scorer -> no_stance, never a crash)."""
+    choices = getattr(resp, "choices", None) or []
+    if not choices:
+        return ""
+    message = getattr(choices[0], "message", None)
+    content = getattr(message, "content", None) if message is not None else None
+    return content or ""
+
+
 # --------------------------------------------------------------------------- Gemini (DEFERRED)
 
 class GeminiAdapter(BaseAdapter):
@@ -481,12 +636,30 @@ class GeminiAdapter(BaseAdapter):
 
 # --------------------------------------------------------------------------- factory
 
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+
+
 def build_adapter(vendor: str, **kwargs: Any) -> BaseAdapter:
+    """Vendor -> adapter. The OpenAI vendor takes a `backend` selector:
+      * "api" (DEFAULT)  -> OpenAIAPIAdapter, OpenAI-direct (OPENAI_API_KEY). The valid-run backend.
+      * "openrouter"     -> OpenAIAPIAdapter preset to the OpenRouter gateway (OPENROUTER_API_KEY);
+                            explicit base_url/api_key_env in kwargs still win.
+      * "codex"          -> OpenAICodexAdapter, the SMOKE-ONLY `codex exec` wrapper (kept, not deleted).
+    """
     v = vendor.lower()
     if v == "anthropic":
         return AnthropicAdapter(**kwargs)
     if v == "openai":
-        return OpenAICodexAdapter(**kwargs)
+        backend = str(kwargs.pop("backend", None) or "api").lower()
+        if backend == "codex":
+            return OpenAICodexAdapter(**kwargs)
+        if backend == "openrouter":
+            kwargs.setdefault("base_url", OPENROUTER_BASE_URL)
+            kwargs.setdefault("api_key_env", "OPENROUTER_API_KEY")
+            return OpenAIAPIAdapter(**kwargs)
+        if backend == "api":
+            return OpenAIAPIAdapter(**kwargs)
+        raise ValueError(f"unknown openai backend: {backend!r} (api|openrouter|codex)")
     if v in ("google", "gemini"):
         return GeminiAdapter()
     raise ValueError(f"unknown vendor: {vendor!r}")

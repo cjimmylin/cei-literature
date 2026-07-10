@@ -7,6 +7,7 @@ import fixtures_p0 as fx
 from runner.adapters import (
     AnthropicAdapter,
     OpenAICodexAdapter,
+    OpenAIAPIAdapter,
     GeminiAdapter,
     AdministrationError,
     build_adapter,
@@ -299,6 +300,169 @@ def test_codex_adapter_unavailable_raises(monkeypatch):
         ad.administer("d?", "gpt-5-codex", temperature=0.7, seed=1)
 
 
+# --------------------------------------------------------------------------- OpenAI API / OpenRouter (mocked SDK)
+# §3.5 cross-family judging: the roster's OpenAI models are API-only (the ChatGPT-subscription
+# `codex exec` refuses them, per the 2026-07-09 smoke). A VALID run needs a clean single-turn
+# OpenAI-compatible backend both as the OpenAI subject AND as the cross-family judge for the
+# Anthropic subjects. OpenRouter speaks the same Chat Completions API through the OpenAI SDK, so a
+# single OpenAIAPIAdapter (base_url + key env parameterized) covers OpenAI-direct and OpenRouter.
+# F-1 / SA-5 retry+refusal semantics mirror AnthropicAdapter exactly.
+
+def test_openai_api_adapter_administer_passes_params_and_reads_content():
+    client = fx.make_fake_openai(text="Utilitarian: divert.")
+    ad = OpenAIAPIAdapter(client=client)
+    res = ad.administer("prompt?", "gpt-5-mini", temperature=0.7, seed=42, max_tokens=256)
+    assert res.text == "Utilitarian: divert."
+    assert res.refusal_flag is False
+    assert res.latency >= 0.0
+    kw = client.chat.completions.last_kwargs
+    assert kw["model"] == "gpt-5-mini"
+    assert kw["temperature"] == 0.7
+    assert kw["max_tokens"] == 256
+    # single-turn: one user message carrying the prompt; no system unless passed
+    assert kw["messages"] == [{"role": "user", "content": "prompt?"}]
+
+
+def test_openai_api_adapter_prepends_system_message_when_given():
+    client = fx.make_fake_openai()
+    ad = OpenAIAPIAdapter(client=client)
+    ad.administer("dilemma?", "gpt-5-mini", temperature=0.7, seed=1, system="You are a judge.")
+    msgs = client.chat.completions.last_kwargs["messages"]
+    assert msgs[0] == {"role": "system", "content": "You are a judge."}
+    assert msgs[1] == {"role": "user", "content": "dilemma?"}
+
+
+def test_openai_api_adapter_omits_temperature_on_v4_drop():
+    """F-2 / SA-6: omit_sampling_params=True removes `temperature` from the request entirely (wired
+    for symmetry with the Anthropic V-4 drop; inert for OpenAI roster models that accept it)."""
+    client = fx.make_fake_openai()
+    ad = OpenAIAPIAdapter(client=client)
+    ad.administer("p", "gpt-5-mini", temperature=0.7, seed=1, omit_sampling_params=True)
+    assert "temperature" not in client.chat.completions.last_kwargs
+    # default path still sends temperature
+    client2 = fx.make_fake_openai()
+    OpenAIAPIAdapter(client=client2).administer("p", "gpt-5-mini", temperature=0.7, seed=1)
+    assert client2.chat.completions.last_kwargs["temperature"] == 0.7
+
+
+def test_openai_api_adapter_refusal_flag_is_always_false_content_refusal_left_to_scorer():
+    """F-1 / SA-5: Chat Completions has no universal STRUCTURED refusal signal, so refusal_flag is
+    ALWAYS False. A content refusal ("I won't ...") is decided downstream by the scorer returning no
+    stance (no_stance, WS-1 D10) — never by a substring match on the answer at the adapter."""
+    client = fx.make_fake_openai(text="I won't answer that.")
+    res = OpenAIAPIAdapter(client=client).administer("d?", "gpt-5-mini", temperature=0.7, seed=1)
+    assert res.refusal_flag is False
+
+
+def _openai_client_from_create(create):
+    """Wrap a bare create(**kwargs) callable in the chat.completions.create client shape."""
+    return SimpleNamespace(chat=SimpleNamespace(completions=SimpleNamespace(create=create)))
+
+
+def test_openai_api_adapter_bounded_retry_transient_then_succeeds():
+    """F-1 / SA-5: a transient OpenAI error (rate-limit/5xx/connection/timeout), matched by class
+    NAME so the suite needs no SDK, is bounded-retried with exponential backoff; recovery yields a
+    normal scored result."""
+    calls = {"n": 0}
+
+    class RateLimitError(Exception):
+        pass
+
+    def create(**kwargs):
+        calls["n"] += 1
+        if calls["n"] < 3:
+            raise RateLimitError("429 slow down")
+        message = SimpleNamespace(role="assistant", content="Deontological: hold.")
+        return SimpleNamespace(choices=[SimpleNamespace(message=message, finish_reason="stop")])
+
+    ad = OpenAIAPIAdapter(client=_openai_client_from_create(create), max_retries=4, sleep=_no_sleep)
+    res = ad.administer("p", "gpt-5-mini", temperature=0.7, seed=1)
+    assert res.text == "Deontological: hold."
+    assert res.refusal_flag is False
+    assert calls["n"] == 3
+
+
+def test_openai_api_adapter_persistent_transient_raises_admin_error():
+    """F-1 / SA-5: persistent transient errors 'raise' fail-loud as an AdministrationError — never a
+    silent refusal or a checkpointed cell."""
+
+    class InternalServerError(Exception):
+        pass
+
+    def create(**kwargs):
+        raise InternalServerError("500 upstream")
+
+    ad = OpenAIAPIAdapter(client=_openai_client_from_create(create), max_retries=2, sleep=_no_sleep)
+    with pytest.raises(AdministrationError):
+        ad.administer("p", "gpt-5-mini", temperature=0.7, seed=1)
+
+
+def test_openai_api_adapter_auth_error_is_not_retried():
+    """F-1 / SA-5 addendum: an authentication error is NOT transient — it must propagate immediately,
+    unretried (assert the call happened exactly once)."""
+
+    class AuthenticationError(Exception):
+        pass
+
+    calls = {"n": 0}
+
+    def create(**kwargs):
+        calls["n"] += 1
+        raise AuthenticationError("401 invalid key")
+
+    ad = OpenAIAPIAdapter(client=_openai_client_from_create(create), max_retries=5, sleep=_no_sleep)
+    with pytest.raises(AuthenticationError):
+        ad.administer("p", "gpt-5-mini", temperature=0.7, seed=1)
+    assert calls["n"] == 1  # no retry on a non-transient auth failure
+
+
+def test_openai_api_adapter_bad_request_error_is_not_retried():
+    """F-1 / SA-5: a bad-request (400, e.g. an unknown model id on OpenRouter) is not transient —
+    it must propagate immediately, unretried, so the operator fixes the id instead of hammering."""
+
+    class BadRequestError(Exception):
+        pass
+
+    calls = {"n": 0}
+
+    def create(**kwargs):
+        calls["n"] += 1
+        raise BadRequestError("400 model not found")
+
+    ad = OpenAIAPIAdapter(client=_openai_client_from_create(create), max_retries=5, sleep=_no_sleep)
+    with pytest.raises(BadRequestError):
+        ad.administer("p", "openai/does-not-exist", temperature=0.7, seed=1)
+    assert calls["n"] == 1
+
+
+def test_openai_api_adapter_injected_client_reports_injected_auth_mode():
+    ad = OpenAIAPIAdapter(client=fx.make_fake_openai())
+    assert ad.auth_mode == "injected"
+
+
+def test_openai_api_adapter_constructs_openrouter_client_with_base_url_and_key(monkeypatch):
+    """OpenRouter wiring: with no client injected, the adapter must defer-import openai and
+    construct openai.OpenAI(base_url=<openrouter>, api_key=<OPENROUTER_API_KEY>) — proving the same
+    Chat Completions adapter targets OpenRouter by base_url + key env, no code fork. The key is NOT
+    hard-required by our code; it is read from the configured env var and handed to the SDK."""
+    import sys
+
+    captured = {}
+
+    class _FakeOpenAI:
+        def __init__(self, *a, **k):
+            captured.update(k)
+
+    monkeypatch.setitem(sys.modules, "openai", SimpleNamespace(OpenAI=_FakeOpenAI))
+    monkeypatch.setenv("OPENROUTER_API_KEY", "sk-or-test")
+
+    ad = OpenAIAPIAdapter(base_url="https://openrouter.ai/api/v1", api_key_env="OPENROUTER_API_KEY")
+    _ = ad.client  # lazy construction
+    assert captured["base_url"] == "https://openrouter.ai/api/v1"
+    assert captured["api_key"] == "sk-or-test"
+    assert ad.auth_mode == "api_key"
+
+
 # --------------------------------------------------------------------------- Gemini (deferred)
 
 def test_gemini_adapter_not_implemented():
@@ -311,7 +475,22 @@ def test_gemini_adapter_not_implemented():
 
 def test_build_adapter_factory():
     assert isinstance(build_adapter("anthropic"), AnthropicAdapter)
-    assert isinstance(build_adapter("openai"), OpenAICodexAdapter)
+    # DEFAULT FLIPPED (was OpenAICodexAdapter): the OpenAI vendor now builds the clean Chat
+    # Completions API adapter — the VALID-run backend — not the smoke-only `codex exec` wrapper.
+    assert isinstance(build_adapter("openai"), OpenAIAPIAdapter)
     assert isinstance(build_adapter("google"), GeminiAdapter)
     with pytest.raises(ValueError):
         build_adapter("mistral")
+
+
+def test_build_adapter_openai_backend_selector():
+    """The smoke codex path stays reachable via backend='codex' (NOT deleted); backend='openrouter'
+    presets the base_url + OPENROUTER_API_KEY env by construction; default/'api' = OpenAI-direct."""
+    assert isinstance(build_adapter("openai", backend="api"), OpenAIAPIAdapter)
+    assert isinstance(build_adapter("openai", backend="codex"), OpenAICodexAdapter)
+    orouter = build_adapter("openai", backend="openrouter")
+    assert isinstance(orouter, OpenAIAPIAdapter)
+    assert orouter._base_url == "https://openrouter.ai/api/v1"
+    assert orouter._api_key_env == "OPENROUTER_API_KEY"
+    with pytest.raises(ValueError):
+        build_adapter("openai", backend="bogus")

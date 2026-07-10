@@ -418,3 +418,50 @@ def make_fake_anthropic(text: str = "Utilitarian: divert the cart.", stop_reason
             self.messages = _Msgs()
 
     return _Client()
+
+
+# --------------------------------------------------------------------------- fake OpenAI SDK (Chat Completions)
+
+def make_fake_openai(text: str = "Utilitarian: divert the cart.", finish_reason: str = "stop",
+                     vary: bool = False):
+    """A stand-in for openai.OpenAI() that records the chat.completions.create() kwargs.
+
+    Mirrors make_fake_anthropic but on the OpenAI-compatible Chat Completions surface
+    (`client.chat.completions.create(...)` -> `resp.choices[0].message.content`). Works for the
+    OpenRouter backend too — OpenRouter speaks the same Chat Completions API through the OpenAI SDK.
+    Read the recorded call with `client.chat.completions.last_kwargs`.
+
+    `vary=True` appends an incrementing " seed=<n>" tail per call so `fake_scorer` yields a
+    NON-degenerate per-cell distribution in end-to-end runs (a real model does not return
+    byte-identical text across reps; constant scores otherwise trip a catastrophic-cancellation
+    warning in the gate stats). Default False keeps the exact-text unit assertions stable.
+    """
+
+    class _Completions:
+        def __init__(self):
+            self.last_kwargs = None
+            self._n = 0
+
+        def create(self, **kwargs):
+            self.last_kwargs = kwargs
+            self._n += 1
+            body = f"{text} seed={self._n}" if vary else text
+            message = SimpleNamespace(role="assistant", content=body)
+            choice = SimpleNamespace(index=0, message=message, finish_reason=finish_reason)
+            return SimpleNamespace(
+                choices=[choice],
+                model_dump=lambda: {
+                    "choices": [{"index": 0, "finish_reason": finish_reason,
+                                 "message": {"role": "assistant", "content": body}}]
+                },
+            )
+
+    class _Chat:
+        def __init__(self):
+            self.completions = _Completions()
+
+    class _Client:
+        def __init__(self):
+            self.chat = _Chat()
+
+    return _Client()

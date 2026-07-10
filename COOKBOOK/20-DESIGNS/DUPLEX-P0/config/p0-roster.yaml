@@ -3,12 +3,18 @@
 # vendor-family separation) and §7 (P0 falsification-first smoke test).
 #
 # SCOPE DECISIONS (binding, from Jimmy):
-#   - Anthropic  : accessed via the installed `anthropic` SDK, key from env ANTHROPIC_API_KEY.
-#   - OpenAI     : accessed via the OAuth **Codex CLI** (`codex exec`), NOT an API key.
+#   - Anthropic  : accessed via the installed `anthropic` SDK (SDK credential chain: ANTHROPIC_API_KEY
+#                  -> ANTHROPIC_AUTH_TOKEN -> `ant auth login` OAuth profile, per F-1). Stays native.
+#   - OpenAI     : accessed via the **OpenRouter** Chat Completions API (OpenAI-compatible), key from
+#                  env OPENROUTER_API_KEY. This is the VALID cross-family backend — both the OpenAI
+#                  subject AND the judge for the Anthropic subjects (§3.5). The OAuth Codex CLI
+#                  (`codex exec`) is retained SMOKE-ONLY (build_adapter openai backend='codex'): the
+#                  2026-07-09 smoke proved it refuses the roster's API-only models and is agentic.
 #   - Google/Gemini : DEFERRED — adapter stubbed with NotImplementedError; roster present-but-disabled.
 #
-# Enable Gemini later by flipping vendors.google.enabled + the per-model enabled flags to true
-# once gemini_adapter is implemented.
+# To use OpenAI-direct instead of OpenRouter, set vendors.openai.backend: api and
+# auth.env: OPENAI_API_KEY (drop base_url). Enable Gemini later by flipping vendors.google.enabled +
+# the per-model enabled flags once gemini_adapter is implemented.
 
 version: "2026-07-06"
 design_ref: "03-moralpsych-duplex.md §3.5 / §7"
@@ -65,22 +71,28 @@ vendors:
 
   openai:
     enabled: true
-    adapter: openai_codex_adapter
-    auth: { type: oauth_codex_cli, cli: codex }   # `codex exec` subprocess; OAuth, no API key
+    adapter: openai_api_adapter
+    backend: openrouter                             # build_adapter -> OpenAIAPIAdapter(base_url=OpenRouter)
+    auth: { type: api_key, env: OPENROUTER_API_KEY, base_url: "https://openrouter.ai/api/v1" }
     # §3.5 names GPT-5 Codex / GPT Mini as the 2 OpenAI subjects.
+    # TODO(live) MODEL IDS: OpenRouter addresses models as "<vendor>/<model>", e.g.
+    #   "openai/gpt-5-mini". The design-named bare ids below are RETAINED so the substitution is a
+    #   conscious, logged choice (not silent drift) and so runner.judges keeps routing on them.
+    #   Before the live run, verify each against https://openrouter.ai/models and update `id` to the
+    #   prefixed form the gateway accepts (a wrong id is a 400 bad-request = unretried fail-loud).
     models:
       - id: gpt-5-codex
         label: "GPT-5 Codex"
         enabled: true
         judge_eligible: true
-        # TODO(live): confirm the exact model string accepted by `codex exec -m` on this codex
-        # version (0.134.0). `codex exec -m <MODEL>` — run `codex exec -m gpt-5-codex '...'` once
-        # creds exist to verify the identifier resolves.
+        # TODO(live): OpenRouter form likely "openai/gpt-5-codex" — confirm it exists on OpenRouter
+        # (gpt-5-codex is a Codex-tuned SKU; if OpenRouter lacks it, pin an available OpenAI SKU and
+        # LOG the substitution, same discipline as the Haiku note above).
       - id: gpt-5-mini
         label: "GPT Mini"
         enabled: true
         judge_eligible: true
-        # TODO(live): verify identifier ("GPT Mini" -> gpt-5-mini?) against installed codex.
+        # TODO(live): OpenRouter form likely "openai/gpt-5-mini" — verify against the catalog.
 
   google:
     enabled: false            # DEFERRED — gemini_adapter raises NotImplementedError

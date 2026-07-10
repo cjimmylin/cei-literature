@@ -10,12 +10,14 @@ import pytest
 import fixtures_p0 as fx
 from conftest import CONFIG_ROSTER
 from analysis.obfuscation_qa import obfuscation_qa
-from runner.roster import load_roster
+from runner.adapters import AnthropicAdapter, OpenAIAPIAdapter
+from runner.roster import load_roster, adapter_kwargs_for
 from run_p0 import (
     RUN_FRAMES,
     check_anthropic_env,
     gate_config,
     build_orchestrator,
+    make_judge_scorer,
     run_p0,
 )
 
@@ -44,6 +46,50 @@ def test_constructed_orchestrator_carries_exactly_the_pinned_flags():
     # F-2 scoped override: a SET (of (model_id, condition) tuples), not bare condition names
     assert isinstance(cfg["g1_unmeasurable_overrides"], set)
     assert all(isinstance(x, tuple) and len(x) == 2 for x in cfg["g1_unmeasurable_overrides"])
+
+
+# --------------------------------------------------------------------------- cross-family adapter wiring (§3.5 / OpenRouter)
+
+def test_adapter_kwargs_for_openai_reads_backend_from_roster():
+    """The roster is the single source of truth for the OpenAI backend. adapter_kwargs_for pulls the
+    backend selector (+ optional base_url / api_key_env) from the openai vendor block; other vendors
+    take no such kwargs (their build_adapter branches would reject them)."""
+    roster = load_roster(CONFIG_ROSTER)
+    kw = adapter_kwargs_for(roster, "openai")
+    assert kw.get("backend") == "openrouter"
+    assert adapter_kwargs_for(roster, "anthropic") == {}
+
+
+def test_make_judge_scorer_routes_anthropic_subject_to_openai_api_judge():
+    """§3.5 runnable (boot-prompt 'confirm make_judge_scorer hands the OpenAI vendor a clean
+    single-turn adapter'): an Anthropic subject's answer is judged by an OpenAI-family model served
+    through the OpenAIAPIAdapter (OpenRouter in the real run). The scorer must call that adapter with
+    a cross-vendor judge id and extract the 1-5 stance from its completion."""
+    roster = load_roster(CONFIG_ROSTER)
+    fake_openai = fx.make_fake_openai(text="4")  # judge emits the single integer stance
+    adapters = {"anthropic": fx.FakeAdapter("anthropic"),
+                "openai": OpenAIAPIAdapter(client=fake_openai)}
+    scorer = make_judge_scorer(roster, adapters)
+    stance = scorer("Subject: divert the trolley.", {"text": "A trolley dilemma."}, "anthropic")
+    assert stance == 4.0
+    jkw = fake_openai.chat.completions.last_kwargs
+    assert jkw["model"] in {"gpt-5-codex", "gpt-5-mini"}   # cross-vendor judge (not anthropic)
+    assert jkw["max_tokens"] == 16
+
+
+def test_build_orchestrator_wires_openrouter_clean_adapter_for_openai_vendor():
+    """§3.5: the OpenAI vendor must be handed a CLEAN single-turn Chat Completions adapter — both as
+    the OpenAI subject AND as the cross-family judge for the Anthropic subjects. The roster pins it
+    to OpenRouter, so the live-built openai adapter is an OpenAIAPIAdapter targeting the OpenRouter
+    gateway with the OPENROUTER_API_KEY env (NOT the smoke-only codex wrapper, NOT OpenAI-direct).
+    Anthropic stays native (SDK/OAuth), not routed through OpenRouter."""
+    roster = load_roster(CONFIG_ROSTER)
+    orch = build_orchestrator(roster, scorer=fx.fake_scorer, item_bank=[fx.FIXTURE_ITEM_BANK[0]])
+    oa = orch.adapters["openai"]
+    assert isinstance(oa, OpenAIAPIAdapter)
+    assert oa._base_url == "https://openrouter.ai/api/v1"
+    assert oa._api_key_env == "OPENROUTER_API_KEY"
+    assert isinstance(orch.adapters["anthropic"], AnthropicAdapter)
 
 
 # --------------------------------------------------------------------------- (ii) end-to-end smoke
@@ -104,6 +150,38 @@ def test_smoke_run_entrypoint_to_records_to_all_three_gates(tmp_path):
     # all three gates computed end-to-end
     assert set(gates) >= {"G1", "G2", "G3", "overall_pass"}
     assert "verdict" in gates["G1"]
+
+
+def test_smoke_run_both_vendors_on_api_path_end_to_end(tmp_path):
+    """Boot-prompt recommended F-4 extension: a mock-adapter run with the REAL OpenAIAPIAdapter (fed
+    a fake OpenAI/Chat-Completions client) for the OpenAI vendor + a mock Anthropic → records → all
+    three gates end-to-end. This exercises the Chat Completions adapter as an ACTUAL subject through
+    the orchestrator→scorer→gates path (both vendors on the API path), catching any administer()
+    interface mismatch the isolated unit tests cannot. NO live calls."""
+    roster = _smoke_roster()
+    roster["vendors"]["openai"] = {"enabled": True, "models": [{"id": "gpt-5-mini", "enabled": True}]}
+    fake_openai = fx.make_fake_openai(text="Utilitarian: divert.", vary=True)
+    adapters = {
+        "anthropic": fx.FakeAdapter("anthropic"),
+        "openai": OpenAIAPIAdapter(client=fake_openai),   # the real adapter, mocked SDK client
+    }
+    qa = obfuscation_qa([
+        {"item_id": "DPX-P0-P01", "model_id": "mA", "recognized": False},
+        {"item_id": "DPX-P0-P01", "model_id": "gpt-5-mini", "recognized": False},
+    ])
+    out = run_p0(
+        roster, scorer=fx.fake_scorer, adapters=adapters, item_bank=_smoke_bank(),
+        qa_result=qa, out_path=str(tmp_path / "results.jsonl"),
+    )
+    records, gates = out["records"], out["gates"]
+    assert records, "the two-vendor smoke run must produce records"
+    # the OpenAI Chat Completions adapter was actually administered (real adapter, fake client)
+    assert fake_openai.chat.completions.last_kwargs is not None
+    assert fake_openai.chat.completions.last_kwargs["model"] == "gpt-5-mini"
+    assert fake_openai.chat.completions.last_kwargs["messages"][-1]["role"] == "user"
+    # both vendors produced records; all three gates computed end-to-end
+    assert {"anthropic", "openai"} <= {r["vendor"] for r in records}
+    assert set(gates) >= {"G1", "G2", "G3", "overall_pass"}
 
 
 def test_run_p0_fails_loud_without_obfuscation_qa_before_scoring():

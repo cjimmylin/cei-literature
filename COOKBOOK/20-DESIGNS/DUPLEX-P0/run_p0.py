@@ -40,7 +40,7 @@ from runner.adapters import build_adapter
 from runner.items import load_item_bank
 from runner.judges import assign_judges
 from runner.orchestrator import Checkpoint, Orchestrator, effective_temperature
-from runner.roster import enabled_models, load_roster, vendor_of
+from runner.roster import adapter_kwargs_for, enabled_models, load_roster, vendor_of
 
 CONFIG_ROSTER = os.path.join(_P0_ROOT, "config", "p0-roster.yaml")
 
@@ -121,7 +121,11 @@ def build_orchestrator(
     models = enabled_models(roster)
     conditions = list(roster.get("resource_conditions", []))
     if adapters is None:
-        adapters = {m["vendor"]: build_adapter(m["vendor"]) for m in models}
+        # Per-vendor adapter kwargs come from the roster (§3.5): the openai vendor is pinned to the
+        # OpenRouter Chat Completions backend (clean single-turn — valid subject AND cross-family
+        # judge); anthropic stays native SDK/OAuth. build_adapter is idempotent per vendor here.
+        adapters = {m["vendor"]: build_adapter(m["vendor"], **adapter_kwargs_for(roster, m["vendor"]))
+                    for m in models}
     if item_bank is None:
         item_bank = load_item_bank()  # items/20260706-p0-item-bank.json
     return Orchestrator(
@@ -237,7 +241,8 @@ def main() -> int:  # pragma: no cover — live entrypoint, credential-gated
     check_anthropic_env()
     roster = load_roster(CONFIG_ROSTER)
     models = enabled_models(roster)
-    adapters = {m["vendor"]: build_adapter(m["vendor"]) for m in models}
+    adapters = {m["vendor"]: build_adapter(m["vendor"], **adapter_kwargs_for(roster, m["vendor"]))
+                for m in models}
     item_bank = load_item_bank()
 
     # 1) obfuscation-QA recognition pass, BEFORE scoring (fail loud on >=10% recognition)

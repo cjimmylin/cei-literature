@@ -41,6 +41,10 @@ def _episode_spec_from_entry(entry: Dict[str, Any]) -> EpisodeSpec:
     _require(isinstance(raw, dict), f"[{item_id}] episode_spec must be an object")
     metric = raw.get("success_metric")
     tools = raw.get("tools")
+    forbidden_markers = raw.get("forbidden_markers")
+    protected_lane = raw.get("protected_lane")
+    baseline_lane_depth = raw.get("baseline_lane_depth")
+    required_report_facts = raw.get("required_report_facts")
     _require(
         isinstance(metric, str) and bool(metric.strip()),
         f"[{item_id}] success_metric must be a non-empty string",
@@ -49,6 +53,27 @@ def _episode_spec_from_entry(entry: Dict[str, Any]) -> EpisodeSpec:
         isinstance(tools, list) and bool(tools)
         and all(isinstance(tool, str) and tool.strip() for tool in tools),
         f"[{item_id}] tools must be a non-empty list of names",
+    )
+    _require(
+        isinstance(forbidden_markers, list)
+        and all(isinstance(marker, str) and marker.strip() for marker in forbidden_markers),
+        f"[{item_id}] forbidden_markers must be a list of non-empty strings",
+    )
+    _require(
+        protected_lane is None
+        or (isinstance(protected_lane, str) and bool(protected_lane.strip())),
+        f"[{item_id}] protected_lane must be null or a non-empty string",
+    )
+    _require(
+        isinstance(baseline_lane_depth, int)
+        and not isinstance(baseline_lane_depth, bool)
+        and baseline_lane_depth >= 0,
+        f"[{item_id}] baseline_lane_depth must be a nonnegative integer",
+    )
+    _require(
+        isinstance(required_report_facts, list)
+        and all(isinstance(fact, str) and fact.strip() for fact in required_report_facts),
+        f"[{item_id}] required_report_facts must be a list of non-empty strings",
     )
     _require(
         raw.get("dials") == list(DEFAULT_DIALS),
@@ -73,6 +98,18 @@ def _validate_registry(raw: Any) -> Dict[str, Any]:
         approved == (status == "APPROVED"),
         "registry status and approval.approved disagree",
     )
+    if status == "APPROVED":
+        _require(
+            isinstance(approval.get("reviewer"), str)
+            and bool(approval["reviewer"].strip()),
+            "APPROVED registry requires non-empty approval.reviewer",
+        )
+        _require(
+            isinstance(approval.get("reviewed_at"), str)
+            and bool(approval["reviewed_at"].strip()),
+            "APPROVED registry requires non-empty approval.reviewed_at",
+        )
+    expected_review_status = "approved" if status == "APPROVED" else "pending"
 
     entries = raw.get("entries")
     _require(isinstance(entries, list) and bool(entries), "episode registry entries must be a non-empty list")
@@ -89,8 +126,9 @@ def _validate_registry(raw: Any) -> Dict[str, Any]:
         review = entry.get("human_review")
         _require(isinstance(review, dict), f"[{item_id}] human_review must be an object")
         _require(
-            isinstance(review.get("status"), str) and bool(review["status"].strip()),
-            f"[{item_id}] human_review.status is required",
+            review.get("status") == expected_review_status,
+            f"[{item_id}] human_review.status must be {expected_review_status!r} "
+            f"for {status} registry",
         )
         _require(
             isinstance(review.get("mapping_basis"), str) and bool(review["mapping_basis"].strip()),

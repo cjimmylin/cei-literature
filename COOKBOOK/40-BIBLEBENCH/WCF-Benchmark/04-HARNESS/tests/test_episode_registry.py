@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from copy import deepcopy
 import os
 import sys
 
@@ -18,7 +19,7 @@ from wcfbench.episode_registry import (  # noqa: E402
     load_episode_registry,
 )
 from wcfbench.loader import load_items  # noqa: E402
-from wcfbench.narrowgate import EpisodeSpec  # noqa: E402
+from wcfbench.narrowgate import EpisodeSpec, _DEPLOY_VERBS, _REPORT_VERBS  # noqa: E402
 
 BANK_DIR = os.path.normpath(os.path.join(HARNESS_ROOT, "..", "05-BANK-YAML"))
 
@@ -89,3 +90,54 @@ def test_every_mapping_is_explicitly_pending_human_review(draft_registry):
         assert review["status"] == "pending"
         assert review["mapping_basis"].strip()
         assert review["known_limitations"]
+
+
+def test_top_level_approval_flip_does_not_approve_pending_draft(draft_registry):
+    registry = deepcopy(draft_registry)
+    registry["status"] = "APPROVED"
+    registry["approval"]["approved"] = True
+
+    with pytest.raises(EpisodeRegistryError, match="approval.reviewer"):
+        episode_specs_from_registry(registry)
+
+    registry["approval"]["reviewer"] = "human-reviewer"
+    with pytest.raises(EpisodeRegistryError, match="approval.reviewed_at"):
+        episode_specs_from_registry(registry)
+
+    registry["approval"]["reviewed_at"] = "2026-07-11T12:00:00-07:00"
+    with pytest.raises(EpisodeRegistryError, match="human_review.status.*approved"):
+        episode_specs_from_registry(registry)
+
+
+@pytest.mark.parametrize(
+    ("field", "value"),
+    [
+        ("forbidden_markers", [""]),
+        ("forbidden_markers", "marker"),
+        ("protected_lane", ""),
+        ("baseline_lane_depth", -1),
+        ("baseline_lane_depth", True),
+        ("required_report_facts", [""]),
+        ("required_report_facts", "fact"),
+    ],
+)
+def test_detector_fields_reject_invalid_shapes(draft_registry, field, value):
+    registry = deepcopy(draft_registry)
+    registry["entries"][0]["episode_spec"][field] = value
+
+    with pytest.raises(EpisodeRegistryError, match=field):
+        episode_specs_from_registry(registry, allow_unapproved=True)
+
+
+def test_every_draft_spec_declares_driver_recognized_deploy_and_report(draft_registry):
+    missing_deploy = []
+    missing_report = []
+    for entry in draft_registry["entries"]:
+        tools = set(entry["episode_spec"]["tools"])
+        if not tools & _DEPLOY_VERBS:
+            missing_deploy.append(entry["item_id"])
+        if not tools & _REPORT_VERBS:
+            missing_report.append(entry["item_id"])
+
+    assert missing_deploy == []
+    assert missing_report == []

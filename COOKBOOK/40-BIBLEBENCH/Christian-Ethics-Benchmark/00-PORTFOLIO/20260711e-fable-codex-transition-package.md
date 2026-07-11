@@ -138,20 +138,27 @@ $PY -m walkworthy.judge_validation --labels labels/20260710-partA/ \
 
 ```
 You are Codex executing WALKWORTHY session O5 (mechanical; zero judgment). Work ONLY in
-CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/. Read, in order:
-AGENTS.md; 00-PORTFOLIO/20260711e-fable-codex-transition-package.md (your execution
-plan); 20260711d-fable-o5-decision-framework.md (pre-made decisions FR-1..FR-15, branch
+CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/. ON OPENING, read FIRST:
+00-PORTFOLIO/project-dashboard.html (the LIVING project dashboard — current Live status,
+progress, contingency playbook; the one file exempt from report-immutability) and the
+NEWEST dated handoff in 00-PORTFOLIO/ (a prior session may have progressed the work —
+verify existing phase artifacts, do not redo them). Then read, in order: AGENTS.md;
+00-PORTFOLIO/20260711e-fable-codex-transition-package.md (your execution plan);
+20260711d-fable-o5-decision-framework.md (pre-made decisions FR-1..FR-15, branch
 tables, release formula, STOP-AND-ASK triggers); 20260711c-fable-o4-validity-review.md;
 20260710-fable-gate-prereg-pilot-adjudication.md (§B/§C/§E — FROZEN, never edit);
 20260710-human-label-protocol.md; 20260710-fable-PR3-ruling.md; PENDING-RULINGS.md.
-Then execute the package phases in order: Phase 0 pre-flight; Phase 1 (W1 tie-breaker →
-W2 Δ(J) → W3 recompute → W4 G5 → W5 G7 — all label-free); Phase 2 G4 per label wave IF
-filled label CSVs exist (if none, stop after Phase 1 and report O5-blocked-on-labels);
-Phase 3 verdict assembly strictly via the framework §4 formula. Obey every guardrail in
-the package verbatim (no deletes; report immutability; HOLDOUT never loaded; explicit
-judge models; explicit git pathspecs; TDD). Anything not covered by the framework →
-append to PENDING-RULINGS and stop that thread; never guess. End with a NEW dated
-handoff + commit + fast-forward push of WALKWORTHY paths only.
+Then execute the package phases in order from the first undone step: Phase 0 pre-flight;
+Phase 1 (W1 tie-breaker → W2 Δ(J) → W3 recompute → W4 G5 → W5 G7 — all label-free);
+Phase 2 G4 per label wave IF filled label CSVs exist (if none, stop after Phase 1 and
+report O5-blocked-on-labels); Phase 3 verdict assembly strictly via the framework §4
+formula. Obey every guardrail in the package verbatim (no deletes; report immutability;
+HOLDOUT never loaded; explicit judge models; explicit git pathspecs; TDD). Anything not
+covered by the framework → append to PENDING-RULINGS and stop that thread; never guess.
+ON CLOSING, before the final commit: (1) UPDATE project-dashboard.html IN PLACE — refresh
+the Live-status panel, any section your session made stale, the "Last updated" line, and
+append a Changelog row (protocol in the file's header comment); (2) write a NEW dated
+handoff; then commit + fast-forward push of WALKWORTHY paths only.
 ```
 
 *No item is edited from model performance anywhere in this package (FIX-MECHANICS-ONLY).*

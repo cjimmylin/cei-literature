@@ -4,69 +4,101 @@
 
 ## Operational state
 
-**Goal:** Finish ZEROSUM, SKIM, PALTER, TABLETS, and SOVEREIGN as reproducible, resumable OpenRouter benchmarks, validate first with cheap models, and freeze exact later scale-up commands.
+**Goal:** Finish ZEROSUM, SKIM, PALTER, TABLETS, and SOVEREIGN as reproducible,
+resumable OpenRouter benchmarks, validate first with cheap models, and freeze
+exact later scale-up commands.
 
-**Current benchmark:** PALTER
+**Current benchmark:** TABLETS
 
-**Current milestone:** Review and integrate the credential-free PALTER Phase 1 bank/BT contract and shared OpenRouter core, then complete PALTER's mechanical scorer, audits, synthetic validation, cheap smoke, and resumable diagnostic.
+**Current milestone:** Freeze the executable TABLETS bank/gold/runtime contract
+and mechanical scorer, then add credential-free audits, full synthetic replay,
+a capped cheap-model smoke, resumable checkpoints, and a non-executed full
+preflight.
 
-**Last completed milestone:** SKIM engineering closeout — the staged `feat(skim): close cheap provider-limited diagnostic` commit.
+**Last completed milestone:** PALTER engineering closeout, commit `2797b51a4`.
 
-**Latest verified artifact:** SKIM provider-limited diagnostic snapshot, SHA-256 `47a2e5166b6e83414029f72e7054dfa80c813e83cd660b0ebc2637e49e93e8d9`. It is explicitly incomplete, resumable, and ineligible for empirical decisions.
+**Latest verified artifact:** PALTER R4 cheap-model smoke, checkpoint head
+`570bbaede65827eabb986a369894af4762679567be3f3a49512c9f93aa963d41`.
 
-## Preserved SKIM run
+## Completed benchmark evidence
 
-2,002 of 2,400 schedule rows are hash-chained and preserved: 1,983 valid terminal rows and 19 parked rows. The first two cheap models are complete at 800/800 each; the cheap Mistral diagnostic is at 402/800 and remains resumable at schedule index 2002. Spend is `$0.032953218` across 2,032 paid-call equivalents under the `$1.00` hard cap.
+### SKIM
 
-The cheap Mistral/DeepInfra endpoint repeatedly returned HTTP 429 after 5- and 15-minute cooldowns. The run was closed as provider-limited rather than cycling for hours. Its checkpoint/event evidence is preserved locally and in the hash-bound archive; it can be resumed later without substituting the frozen model/provider pair.
+The provider-limited cheap diagnostic preserves 2,002 of 2,400 schedule rows:
+1,983 valid terminal rows and 19 parked rows. Spend is `$0.032953218` across
+2,032 paid-call equivalents under the `$1.00` cap. The remaining 398 frozen
+Mistral/DeepInfra rows are resumable but deferred after repeated HTTP 429s.
 
-## PALTER entry state
+### PALTER
 
-Credential-free Phase 1 is present but not yet committed:
+PALTER is engineering-ready and explicitly not publication-ready:
 
-- 40 deterministic cores and 240 aligned public/private/runtime records;
-- 20-composition blinded BT packet, four compositions per family;
-- BT import remains fail-closed until at least 12 complete readers/composition, at least two named judge families, and Spearman `>= 0.6` in every family;
-- human BT, editorial band certification, and PR-claim authorization remain `NOT_RUN`;
-- 23 focused tests and compile validation passed before integration review.
+- frozen 312-row evaluated schedule: 160 primaries, 40 T0 twins, 32 matched
+  monitored counterparts, 40 recognition twins, and 40 detection rows;
+- public bank SHA-256
+  `45365c1db8819a86177571c1bc1f83912aaee6c086f4821ad21607bb5fa07d40`;
+- private gold SHA-256
+  `0e792a89103cd1655ec81a55d1c2dfc27becd970d1e80283486387cfe5046669`;
+- runtime manifest SHA-256
+  `37950d9bc10708b472f5c99af7bf6e9b0a658f901d91fb08139fead4cc2415df`;
+- 3,720-call credential-free synthetic schedule completed at zero external
+  cost; schema, leakage, linkage, and scoring replay passed;
+- lexical-plus-length baseline is `REWORK` at balanced accuracy `0.775` versus
+  the frozen `0.60` ceiling;
+- R4 cheap smoke accounted all 51 semantic calls across 68 hash-chained
+  records: 38 accepted, 13 parked, 60 paid calls, cost `$0.00146428`;
+- R4 reached the mechanical composition scorer, which failed closed on every
+  composition because of an out-of-composition claim span, atom-auditor
+  disagreement, or an incomplete judge family set;
+- full cheap diagnostic preflight freezes 3,720 initial calls, 7,440 paid-call
+  ceiling, `$1.39673600` upper bound, and `$2.00` cap with zero network calls.
 
-The benchmark-neutral OpenRouter core is also present but uncommitted. Its 34 tests plus 171 shared-custody tests passed. It has not made any network or paid calls.
+Human belief transfer and editorial band certification remain `NOT_RUN`; they
+block live full execution, PR effect claims, and publication promotion. The
+official or expensive roster remains unauthorized.
 
-**Exact next command:**
+## TABLETS entry contract
 
-```bash
-/Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python -m pytest -q \
-  TENCOMMANDMENTS/harness/openrouter/tests \
-  TENCOMMANDMENTS/harness/custody_stack/tests/test_custody_stack.py \
-  TENCOMMANDMENTS-v2/DESIGNS/09-palter/tests
-```
+The inherited scientific scaffold and CRUX co-registration exist, but the
+executable bank, scorer, audits, runner, and evidence have not yet been frozen.
+The current minimum schedule hypothesis to verify against the governing stack
+is:
 
-Run from `COOKBOOK/40-BIBLEBENCH` in the active worktree.
+- 522 construction rows: 270 base, 72 priority-tier, 45 comprehension, and 135
+  threat rows;
+- 45 recognition rows and 54 additive matched monitored counterparts;
+- 621 evaluated requests per model/seed;
+- 1,863 requests for the three-model cheap engineering diagnostic and 3,726
+  paid-call ceiling with one syntax repair;
+- later official scale hypothesis: 5,589 initial requests and 11,178 paid-call
+  ceiling, preflight only until separately authorized.
 
-## Acceptance criteria for the current milestone
+These counts are not frozen until they replay against the TABLETS governing
+documents and deterministic generator.
 
-- PALTER bank/gold/runtime counts, hashes, public/private separation, and BT sample balance replay exactly.
-- Lies route to LY before PR scoring; PR remains excess over the no-incentive twin; two-sided bands and the material-harm floor are mechanical.
-- BT cannot become `PASS` from incomplete, synthetic, single-family, or under-reader evidence.
-- Shared transport remains benchmark-neutral, provider-pinned, fail-closed on cost, 429-only retry, and hash-chain resumable.
-- Credential-free schema, leakage, replay, lexical/length, and cost preflight pass.
-- Synthetic full-schedule validation completes without external calls and cannot authorize empirical claims.
-- A small cheap-model smoke completes before any larger cheap diagnostic; no expensive model is called.
-- Exact smoke, resume, analysis, and non-executed scale-preflight commands are documented.
-- The PALTER suite runs once before its commit.
+**Exact next action:** inspect the TABLETS governing stack and existing scaffold,
+then write failing contract tests for the exact bank counts, public/private
+separation, scorer, CRUX linkage, monitored counterparts, and cheap/full cost
+arithmetic before implementation.
 
 ## External blockers and boundaries
 
-No blocker prevents PALTER engineering work or a cheap transport smoke. The human belief-transfer study is `NOT_RUN` and blocks PR claims, the full BT-authorized diagnostic, and publication claims; it must never be fabricated or bypassed. The official/larger model roster and its spend ceiling remain unfrozen and must not be executed.
+No external blocker prevents TABLETS engineering work or a capped cheap-model
+smoke. Human/professional panel evidence remains `NOT_RUN` and must never be
+fabricated or promoted from fixtures. Every live OpenRouter call must use only
+the frozen cheap diagnostic roster until the user explicitly authorizes scale
+execution.
 
 ## Deferred publication-only work
 
-- PALTER human BT study and editorial probe-band certification.
-- Professional/human baselines and official multi-seed evidence across benchmarks.
-- Real-LLM 10% fine-tune probes and frozen external capability PC1 evidence.
-- SKIM's remaining 398 cheap Mistral rows unless a later resume is operationally useful.
-- Any hardening without a demonstrated false-pass, leakage, duplicate-call, scoring, or bank-identity risk.
+- PALTER human BT study, editorial probe-band certification, and public-surface
+  rework.
+- Professional/human baselines and official multi-seed evidence.
+- Real-LLM fine-tune probes and frozen external capability covariates.
+- SKIM's remaining 398 cheap Mistral rows unless a later resume is useful.
+- Any hardening without a demonstrated bank-identity, leakage, duplicate-call,
+  scoring, or false-promotion risk.
 
-**Next benchmarks:** TABLETS, then SOVEREIGN.
+**Next benchmark:** SOVEREIGN.
 
 **Re-entry file:** `TENCOMMANDMENTS-REVIEWS/20260706-PARKED-opus-reentry-prompt.md`

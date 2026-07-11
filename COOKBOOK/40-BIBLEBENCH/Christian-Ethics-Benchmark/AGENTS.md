@@ -68,7 +68,10 @@ The full **6-model × 10-design O4 panel is COMPLETE**: `runs/20260711-o4-panel/
 ## Next session = O5 — EXECUTE THE FABLE TRANSITION PACKAGE (2026-07-11)
 
 **All O5 judgment is pre-made.** A Fable session froze the last judgment layer on
-2026-07-11; O5 is now mechanical. Your execution plan, in read order:
+2026-07-11; O5 is now mechanical. **Single entry point (paste-ready boot prompt +
+multi-session continuation + future-Claude re-entry protocol):**
+`00-PORTFOLIO/20260711g-codex-boot-prompt-and-reentry.md`. Your execution plan, in read
+order:
 
 1. `00-PORTFOLIO/20260711e-fable-codex-transition-package.md` — **the plan**: phases,
    exact commands, build specs (tie-breaker, §E Δ(J) test, G5 driver, G7 batteries),

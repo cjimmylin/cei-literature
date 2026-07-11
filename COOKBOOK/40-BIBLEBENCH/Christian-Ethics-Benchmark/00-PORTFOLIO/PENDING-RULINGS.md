@@ -220,5 +220,50 @@ also a SUT).
 
 ---
 
+## PR-9 — O5 W1 historical-data contract cannot execute the frozen tie-breaker plan
+
+**Surfaced:** Session O5 (Codex mechanical execution), 2026-07-11, before any live call.
+
+The W1 transition-package instruction requires re-judging each disagreeing 02 turn and
+07 turn with the same rubric text the original pair received. The immutable O4 artifact
+does not retain the needed response text: `run.score_item` persists only the first turn
+plus an optional terminal response. A direct audit of
+`runs/20260711-o4-panel/scored_items.jsonl` found:
+
+- 02: 655 disagreeing turn units, **577** without retained response text;
+- 07: 252 disagreeing turn units, **146** without retained response text;
+- total: **723** required turn responses cannot be re-judged from the committed/ignored
+  O4 artifacts; the run directory contains only `panel_summary.json` and
+  `scored_items.jsonl`.
+
+The frozen W1 selector is independently incomplete for the stated §B purpose. Exactly
+609 records have `refusal_tag == "pending_adjudication"`, but they contain 1,767 of the
+panel's 3,172 `needs_adjudication` cells; **1,405 unresolved cells fall outside the
+selector**. Twenty selected records contain no judge disagreement at all (11 design-05
+allocation-parse pendings and 9 design-09 arbiter-first pendings), so they are not
+tie-breakable by a third judge.
+
+If Grok-4 were to fail, the frozen Mistral fallback would also trigger framework §6/8:
+Mistral owns >10% of pending records in every design (minimum 14/122 = 11.5% on 02).
+No fresh Grok probe was made because (a) W1 cannot consume the result under the data
+contract above, and (b) Jimmy directed on 2026-07-11 that OpenRouter testing use cheap
+models only for now; silently replacing the frozen tie-breaker would change §E.
+
+**Ruling/input required before W1 resumes:**
+
+1. Supply/recover the missing full 02/07 transcripts, or authorize a NEW immutable
+   re-execution that persists every turn (the existing O4 run remains untouched).
+2. Confirm whether W1 must cover all §B-relevant `needs_adjudication` cells rather than
+   only records selected by the refusal tag, and disposition the 20 non-tie-breakable
+   pending records.
+3. Authorize the frozen Grok-4 probe despite the temporary cheap-model-only direction,
+   or issue a logged §E model-plan amendment; if Grok fails, decide the Part-B sizing
+   required by STOP trigger 8.
+
+**Current behavior:** O5 is paused at the W1 pre-call data-contract gate. No tie-breaker
+module, derived run, paid probe, W2/W3 compute, gate verdict, or release claim was made.
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

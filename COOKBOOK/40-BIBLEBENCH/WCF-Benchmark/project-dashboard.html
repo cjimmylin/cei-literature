@@ -173,7 +173,7 @@
   <div class="living">
     <span class="tag">Living document</span>
     <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">live</span> (maintain) or <span class="chip hist">history</span> (frozen).</span>
-    <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable), session 16 — next-Fable-session boot prompt added</span>
+    <span><b>Last updated:</b> 2026-07-11 · by Codex, session 19 — Claude-mainline reconciliation and live-state sync</span>
   </div>
 
   <div class="nav">
@@ -186,45 +186,45 @@
 
   <h2 id="status">Live status <span class="chip live">live</span></h2>
   <table class="live-status">
-    <tr><td class="k">Current phase</td><td>Milestone A — Codex execution of Tasks 1–6 (benchmark → MVP testable)</td></tr>
-    <tr><td class="k">Execution owner</td><td>Codex (worktree branch <code>codex/wcfbench-mvp-testable</code>) · Claude = adjudication/review · Jimmy = G6 raters</td></tr>
-    <tr><td class="k">Manifest of record</td><td><code>07-PILOTS/20260710-settled-requal/20260710-settled-requal-manifest.json</code> (superseded by Task 4's new manifest when it lands)</td></tr>
-    <tr><td class="k">Judge panel of record</td><td>gemini-flash (google) + grok-4.20 (x-ai) — R43</td></tr>
-    <tr><td class="k">Test suite</td><td>444 pytest green (2026-07-11)</td></tr>
-    <tr><td class="k">Next milestone</td><td>Milestone A: 2–3 Codex sessions (see checkboxes below)</td></tr>
-    <tr><td class="k">Blockers</td><td>None agent-side · G6 rater recruitment (Jimmy) gates Milestone B</td></tr>
-    <tr><td class="k">Open escalations</td><td>None (<code>PENDING-QUESTIONS.md</code> not yet created)</td></tr>
+    <tr><td class="k">Current phase</td><td>Milestone A — Tasks 1–4 complete; Tasks 5–6 pending; <b>MVP testable: NO</b></td></tr>
+    <tr><td class="k">Execution owner</td><td>Codex (offline work only, branch <code>codex/wcfbench-mvp-testable</code>) · Jimmy/Fable = human review and acceptance · paid OpenRouter calls paused</td></tr>
+    <tr><td class="k">Manifest of record</td><td><code>07-PILOTS/20260711-format-bridge-requal/20260711-format-bridge-requal-manifest.json</code></td></tr>
+    <tr><td class="k">Judge panel of record</td><td>gemini-flash (google) + grok-4.20 (x-ai): cross-family eligible for coherence, disclosure, and settled_core; <b>zero OPEN-eligible judges/families</b>; ladder closed; gpt-4o-mini dropped</td></tr>
+    <tr><td class="k">Test suite</td><td>492 pytest green after Claude-mainline merge (2026-07-11)</td></tr>
+    <tr><td class="k">Next milestone</td><td>Human item-mapping approval for the 22-item EPISODE registry draft, plus Task-6 eligibility/acceptance direction</td></tr>
+    <tr><td class="k">Blockers</td><td>Task 5: registry is <code>DRAFT_UNAPPROVED</code>, no EPISODE run exists, and paid calls are paused · Task 6: no qualified anchor-use surface; the required as-is citation gate cannot recover uncited paraphrases; no Task-6 code or persisted re-read exists</td></tr>
+    <tr><td class="k">Open escalations</td><td><code>PENDING-QUESTIONS.md</code>: Task-5 human-review gate and Task-6 eligibility/acceptance gate</td></tr>
   </table>
 
   <div class="stats">
-    <div class="stat"><div class="n">17</div><div class="l">sessions so far</div></div>
+    <div class="stat"><div class="n">20</div><div class="l">sessions so far</div></div>
     <div class="stat"><div class="n">6</div><div class="l">days elapsed</div></div>
     <div class="stat"><div class="n">230</div><div class="l">items, audited</div></div>
     <div class="stat"><div class="n">816</div><div class="l">MVP cells, 0 errors</div></div>
-    <div class="stat"><div class="n">444</div><div class="l">tests green</div></div>
+    <div class="stat"><div class="n">492</div><div class="l">tests green</div></div>
     <div class="stat"><div class="n">46</div><div class="l">binding rulings</div></div>
-    <div class="stat"><div class="n">≈$15</div><div class="l">live spend</div></div>
+    <div class="stat"><div class="n">≈$15 + $0.4878</div><div class="l">recorded live spend</div></div>
   </div>
 
   <h2 id="progress">Progress overview <span class="chip live">live</span></h2>
   <div class="bars">
     <div class="bar"><span class="bl">Item bank (author + audit)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
-    <div class="bar"><span class="bl">Harness core (444 tests)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
-    <div class="bar"><span class="bl">Judge qualification (panel of record)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
+    <div class="bar"><span class="bl">Harness core (492 tests)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
+    <div class="bar"><span class="bl">Judge qualification (current manifest)</span><span class="tr"><span class="fl" style="width:75%"></span></span><span class="pc">3/4 surfaces; OPEN 0</span></div>
     <div class="bar"><span class="bl">MVP descriptive run (204×4)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
-    <div class="bar"><span class="bl">Codex Tasks 1–6 (Milestone A)</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0/6</span></div>
+    <div class="bar"><span class="bl">Codex Tasks 1–6 (Milestone A)</span><span class="tr"><span class="fl" style="width:67%"></span></span><span class="pc">4/6 (~67%)</span></div>
     <div class="bar"><span class="bl">G6 human panel</span><span class="tr"><span class="fl blocked" style="width:5%"></span></span><span class="pc">0%</span></div>
     <div class="bar"><span class="bl">Gated G1–G7 measurement run</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0%</span></div>
     <div class="bar"><span class="bl">Perturbation battery at scale</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0%</span></div>
     <div class="bar"><span class="bl">Paper (arXiv preprint)</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0%</span></div>
   </div>
-  <p class="small" style="margin-top:8px;">G6 bar shows red: instrument is ready (5%) but rater recruitment (Jimmy) hasn't started — it gates everything below it.</p>
+  <p class="small" style="margin-top:8px;">Task-5 human review and Task-6 eligibility/acceptance are the current Milestone-A gates. G6 remains the later human gate for Milestone B; its instrument is ready, but rater recruitment (Jimmy) has not started.</p>
 
   <h2 id="quotable">What's quotable today <span class="chip live">live</span></h2>
   <p class="small">The validity state of every scored surface. Nothing from the MVP run is a gated measurement — every number is DESCRIPTIVE / PRE-GATE. Update this panel whenever a ruling or run changes a label.</p>
   <div class="quote-panel">
-    <div class="qrow"><span class="surf">OPEN award (Matter/Manner/End)</span><span class="qtag q-label">Single-family label</span><span class="why">Only {google} qualified — numbers carry the R34.4 single-family label, not quotable as a measurement. R44 format-bridge (Task 4) is the authorized last pre-G6 path to a second family.</span></div>
-    <div class="qrow"><span class="surf">PROOFTEXT scores</span><span class="qtag q-no">Not quotable</span><span class="why">Citation-token scorer floors all SUTs at 0.03–0.34 — an artifact (R45.1). Non-quotable until the judge-assisted correct-use scorer + persisted re-read (Task 6) land.</span></div>
+    <div class="qrow"><span class="surf">OPEN award (Matter/Manner/End)</span><span class="qtag q-no">Zero current eligibility</span><span class="why">The 2026-07-10 MVP numbers remain historical DESCRIPTIVE / PRE-GATE results under their then-single-family label. The current format-bridge manifest qualifies zero judges/families for OPEN; the ladder is closed, so OPEN is not currently scorable under the manifest of record.</span></div>
+    <div class="qrow"><span class="surf">PROOFTEXT scores</span><span class="qtag q-no">Not quotable</span><span class="why">The historical citation-token scores of 0.03–0.34 remain a scorer artifact (R45.1). Task 6 must retain the current citation-gated scorer as-is, but no qualified anchor-use manifest surface exists and that gate cannot recover uncited paraphrases; no Task-6 code or persisted re-read exists.</span></div>
     <div class="qrow"><span class="surf">Settled-core floor</span><span class="qtag q-desc">Screen semantics</span><span class="why">Raw aggregate is a SCREEN, never the claim (R39(e)); a floor-break may only be asserted after sample-level review. MVP run: 16/16 contested cells held at 1.0, no flag stood.</span></div>
     <div class="qrow"><span class="surf">Disclosure / H-DISC</span><span class="qtag q-no">Unpromotable</span><span class="why">Candidate headline pre-registered (R28); judge-side conditions met ({google, x-ai}, R38), but promotion requires G6-confirmed items (R30 cond. 6). Never quote gpt's historical disclosure channel (dead, R30).</span></div>
     <div class="qrow"><span class="surf">Refusal taxonomy</span><span class="qtag q-desc">Descriptive</span><span class="why">Over-refusal is a live descriptive axis (llama 73/204, haiku 55/204). Reportable as descriptive observation with the PRE-GATE caveat.</span></div>
@@ -235,23 +235,23 @@
   <div class="answers">
     <div class="answer">
       <div class="q">Sessions to a finalized benchmark (MVP testable)</div>
-      <div class="big"><span>2–3</span> Codex sessions</div>
-      <div class="note">Codex Tasks 1–6 of <code>20260711-codex-execution-plan.md</code>:
-      harness fixes (≈1 session), format-bridge&nbsp;+ judge re-qualification (≈1),
-      EPISODE runs&nbsp;+ PROOFTEXT upgrade (≈1). All directives pre-ruled (R42–R46) —
-      no judgment calls block them.</div>
+      <div class="big"><span>2</span> tasks remain</div>
+      <div class="note">Tasks 1–4 are complete. Task 5 has a complete 22-item <code>DRAFT_UNAPPROVED</code>
+      registry awaiting human item-mapping approval before any run. Task 6 is blocked on a qualified
+      anchor-use surface and acceptance direction for the required as-is citation gate. Paid calls are paused;
+      a reliable session estimate resumes only after those gates clear.</div>
     </div>
     <div class="answer paper">
       <div class="q">Sessions to a finalized paper (arXiv preprint)</div>
       <div class="big"><span>≈11–16</span> sessions total</div>
-      <div class="note">= 2–3 (benchmark) + 4–6 (gated, quotable results — <b>required</b>
+      <div class="note">Planning range only; it excludes the current Milestone-A approval wait. Previously estimated as 2–3 (benchmark) + 4–6 (gated, quotable results — <b>required</b>
       for a credible paper; includes the G6 human panel whose recruitment is the dominant
       wall-clock unknown) + 5–7 (writing, figures, adversarial review, arXiv package).
       Partial overlap can compress this to ≈10–13.</div>
     </div>
   </div>
 
-  <h2 id="history">Where we've been — 17 sessions in 6 phases <span class="chip hist">history</span></h2>
+  <h2 id="history">Where we've been — 20 sessions in 6 phases <span class="chip hist">history</span></h2>
 
   <div class="phase">
     <div class="phase-h"><span class="pnum">PHASE 1</span><span class="pname">Design</span><span class="pdate">Jul 6–7</span></div>
@@ -322,6 +322,12 @@
     <div class="tl">
       <div class="sess fable"><div class="row"><span class="sid">S16</span><span class="badge b-fable">Fable</span><span class="small">Jul 11</span></div>
         <div class="what"><b>R42–R46 — the payoff read:</b> panel ruled HEALTHY; the "worst disagreements" exposed as harness artifacts (first-match SCORE-parse bug; fenced values in spread math); one judge verdict overruled on fabricated evidence; <b>gpt-4o-mini dropped</b>; <b>OPEN-award format-bridge authorized</b>. Then the <b>Codex handover package</b>: AGENTS.md + a 6-task bounded execution plan with anti-rabbit-hole discipline. Dashboard created + made living.</div></div>
+      <div class="sess codex"><div class="row"><span class="sid">S17</span><span class="badge b-codex">Codex</span><span class="small">Jul 11</span></div>
+        <div class="what"><b>Tasks 1–4 completed through <code>652104e53</code>:</b> parse, disagreement, and cost-accounting fixes; new format-bridge manifest; 476 tests green. Gemini/Grok retained cross-family eligibility on three surfaces, but OPEN qualification fell to zero and the candidate ladder closed. Task-4 spend: $0.4878 (key delta $0.4873).</div></div>
+      <div class="sess codex"><div class="row"><span class="sid">S18</span><span class="badge b-codex">Codex</span><span class="small">Jul 11</span></div>
+        <div class="what"><b>Task-5 registry draft + user rulings through <code>86996b19e</code>:</b> all 22 EPISODE items mapped in a <code>DRAFT_UNAPPROVED</code> registry; automated specification and code-quality reviews passed; suite 492 green. No paid calls; human mapping approval remains required.</div></div>
+      <div class="sess codex"><div class="row"><span class="sid">S19</span><span class="badge b-codex">Codex</span><span class="small">Jul 11</span></div>
+        <div class="what"><b>Claude-mainline reconciliation + dashboard sync:</b> merged mainline at <code>a677f246b</code>, confirmed the 492-test baseline, and reconciled every LIVE dashboard surface to the post-Task-4/registry state. Tasks 5–6 remain gated; paid calls remain paused.</div></div>
       <!-- AGENTS: append new session rows here (S17, S18, …) as work completes.
            Template:
       <div class="sess codex"><div class="row"><span class="sid">S17</span><span class="badge b-codex">Codex</span><span class="small">Jul 1X</span></div>
@@ -330,8 +336,8 @@
     </div>
   </div>
 
-  <div class="here">📍 YOU ARE HERE — Claude execution thread closed at <code>579e13de6</code> (2026-07-11); Codex build-out in progress.
-    <div class="small">Bank frozen and audited · MVP descriptively complete · every remaining decision pre-ruled · execution owned by Codex · G6 human panel owned by Jimmy. <b>Agents: move/update this marker as phases advance.</b></div>
+  <div class="here">📍 YOU ARE HERE — session 19: Claude-mainline reconciled at merge <code>a677f246b</code>; Tasks 1–4 complete and Tasks 5–6 gated.
+    <div class="small">Bank frozen and audited · historical MVP descriptively complete · current manifest has zero OPEN eligibility · Task-5 human mapping review and Task-6 eligibility/acceptance are open in <code>PENDING-QUESTIONS.md</code> · paid calls paused · G6 remains Jimmy's later human gate. <b>Agents: move/update this marker as phases advance.</b></div>
   </div>
 
   <h2 id="results">MVP run — descriptive results <span class="chip hist">history</span></h2>
@@ -378,15 +384,15 @@
   <p class="small" style="margin-top:6px;">Runnable in the standard runner: 204 (161 OPEN-kind + 16 ordinal + 23 anchor + 4 contested) · 22 EPISODE via <code>episode_live.py</code> · 4 dev_set_only excluded from public runs.</p>
 
   <h2 id="judges">Judge panel evolution <span class="chip live">live</span></h2>
-  <p class="small">The project's central methodological story: judges must EARN each scoring surface through K=8 repeat-probe batteries (≥5/8, frozen manifests, R35). Update this table when Task 4's re-screen lands.</p>
+  <p class="small">The project's central methodological story: judges must EARN each scoring surface through K=8 repeat-probe batteries (≥5/8, frozen manifests, R35). The Task-4 manifest is now authoritative: two families remain eligible on coherence, disclosure, and settled_core, but zero judges/families are OPEN-eligible and the ladder is closed.</p>
   <table>
     <tr><th>Judge (family)</th><th>Journey</th><th>Status</th></tr>
-    <tr><td class="k">gemini-flash (google)</td><td>G4 provisional (R25) → OPEN-award form suspended (R29/R33.6) → re-qualified under the reason mandate (R34) → decline-penalty overruled + floor-gloss (R39) → requal 8/8 → most central grader of the MVP panel (R42)</td><td><span class="st st-met">Panel — all surfaces</span></td></tr>
-    <tr><td class="k">grok-4.20 (x-ai)</td><td>Screened 24/24 zero-variance on disclosure/G4/neg-disclosure (S13) → ratified 2nd disclosure family (R38) → settled-core requal 8/8 (R39(d)); OPEN award = fail_format 8/8 → re-screen under the Task-4 format-bridge</td><td><span class="st st-met">Panel — disclosure, settled-core, coherence</span></td></tr>
+    <tr><td class="k">gemini-flash (google)</td><td>G4 provisional (R25) → OPEN-award form suspended (R29/R33.6) → re-qualified under the reason mandate (R34) → decline-penalty overruled + floor-gloss (R39) → requal 8/8 → most central grader of the MVP panel (R42) → Task-4 bridged OPEN award-consistency 0/8</td><td><span class="st st-part">Panel — coherence, disclosure, settled_core; OPEN out</span></td></tr>
+    <tr><td class="k">grok-4.20 (x-ai)</td><td>Screened 24/24 zero-variance on disclosure/G4/neg-disclosure (S13) → ratified 2nd disclosure family (R38) → settled-core requal 8/8 (R39(d)) → Task-4 bridged OPEN award-consistency 0/8</td><td><span class="st st-part">Panel — coherence, disclosure, settled_core; OPEN out</span></td></tr>
     <tr><td class="k">gpt-4o-mini (openai)</td><td>G4 provisional (R25) → disclosure channel ruled DEAD (R30) → OPEN award suspended, deterministically response-insensitive (R34) → settled-core lost 0/8 (R39(d)) → fabricated-evidence award overruled (R42) → dropped (R43)</td><td><span class="st st-out">Dropped (R43)</span></td></tr>
     <tr><td class="k">mistral-small-3.2 / medium-3.1</td><td>Both substantive G4 fails 8/8 — family exhausted at fast-mid tier (R36)</td><td><span class="st st-out">Out (R36)</span></td></tr>
     <tr><td class="k">cohere command-r-08-2024</td><td>Failed all probes at the S13 screen</td><td><span class="st st-out">Out</span></td></tr>
-    <tr><td class="k">cohere command-a · amazon nova-pro</td><td>Failed OPEN-award discrimination at the S15 frontier screen → re-screen under the Task-4 format-bridge (discrimination bar NOT relaxed; also ride a coherence battery)</td><td><span class="st st-pend">Re-screen pending (Task 4)</span></td></tr>
+    <tr><td class="k">cohere command-a · amazon nova-pro</td><td>Failed OPEN-award discrimination at the S15 frontier screen and did not qualify under the Task-4 format bridge; candidate ladder closed</td><td><span class="st st-out">Out — ladder closed</span></td></tr>
   </table>
 
   <h2 id="rchain">Decision architecture — the R-chain <span class="chip hist">history</span></h2>
@@ -410,7 +416,7 @@
     <tr><td class="k">G1 · Capability correlation</td><td>Hard-tier scores vs capabilities PC1 &lt; 40% — else the tier measures competence, not values</td><td><span class="st st-pend">Pending</span></td><td>Gated run + capability battery (Milestone B)</td></tr>
     <tr><td class="k">G2 · Headroom</td><td>Best frontier model ≤ ~70% of ceiling on T3/T4</td><td><span class="st st-pend">Pending</span></td><td>Descriptive warning signs: mistral 0.98 on crosswind, 0.95 on mending — difficulty reservoir may be needed</td></tr>
     <tr><td class="k">G3 · Separation</td><td>≥ 90% of frontier pairs distinguishable at p&lt;0.01 on T2+ (bootstrap over items)</td><td><span class="st st-pend">Pending</span></td><td>Descriptive separation strong (llama ≪ others); formal bootstrap in the gated run</td></tr>
-    <tr><td class="k">G4 · Judge validity</td><td>Judge–human κw/ICC vs a human-panel ceiling; ≥2 cross-family judges</td><td><span class="st st-part">Partial</span></td><td>Judge-side met per surface (K=8, frozen manifests); human-κ half awaits G6 labels</td></tr>
+    <tr><td class="k">G4 · Judge validity</td><td>Judge–human κw/ICC vs a human-panel ceiling; ≥2 cross-family judges</td><td><span class="st st-part">Partial</span></td><td>Cross-family judge-side eligibility is met for coherence, disclosure, and settled_core under the frozen Task-4 manifest; OPEN has zero eligible judges/families. Human κw/ICC still awaits G6 labels.</td></tr>
     <tr><td class="k">G5 · Shortcut</td><td>Lexical baseline ≈ chance; 10%-fine-tune probe fails</td><td><span class="st st-pend">Pending</span></td><td>Milestone B work item</td></tr>
     <tr><td class="k">G6 · Human consensus</td><td>Gold labels need ≥85% consensus of confessionally-literate raters; below → [DISPUTED]/distributional</td><td><span class="st st-block">Blocked — Jimmy</span></td><td>Instrument READY (<code>06-G6-PANEL/g6-panel.html</code> + run-book); rater recruitment not started</td></tr>
     <tr><td class="k">G7 · Reliability</td><td>Per-design internal consistency reported; α &gt; 0.99 flagged as redundancy</td><td><span class="st st-pend">Pending</span></td><td>Gated run</td></tr>
@@ -433,20 +439,20 @@
   <div class="miles">
 
     <div class="mile">
-      <div class="mh"><span class="t">A · Finalized benchmark = MVP testable</span><span class="est">2–3 Codex sessions</span></div>
+      <div class="mh"><span class="t">A · Finalized benchmark = MVP testable</span><span class="est">4/6 complete · gated</span></div>
       <p class="small">Definition (per Jimmy): all 226 runnable items scorable end-to-end under a re-qualified
       2-family judge panel, trustworthy parsing and cost accounting, PROOFTEXT measuring its construct.
       Spec: <code>20260711-codex-execution-plan.md</code>. The checkboxes below MIRROR that plan's —
-      when you tick a task there, tick it here too (change <code>class="todo"</code> to <code>class="done"</code>):</p>
+      when you tick a task there, tick it here too (change <code>class="todo"</code> to <code>class="done"</code>). <b>Current: MVP testable = NO.</b></p>
       <ul>
-        <li class="todo"><b>Task 1</b> — SCORE-parse fix (last-match; 2 persisted regression fixtures)</li>
-        <li class="todo"><b>Task 2</b> — disagreement.json eligible/non-fenced spreads</li>
-        <li class="todo"><b>Task 3</b> — cost estimator: per-request actuals, fail-loud pricing</li>
-        <li class="todo"><b>Task 4</b> — format-bridge + gpt drop + full K=8 re-qual → <b>new manifest</b> (live, ≤$10)</li>
-        <li class="todo"><b>Task 5</b> — EPISODE live runs: 22 NARROWGATE items × 4 SUTs</li>
-        <li class="todo"><b>Task 6</b> — PROOFTEXT judge-assisted scorer + persisted re-read</li>
+        <li class="done"><b>Task 1</b> — SCORE-parse fix (last-match; 2 persisted regression fixtures)</li>
+        <li class="done"><b>Task 2</b> — disagreement.json eligible/non-fenced spreads</li>
+        <li class="done"><b>Task 3</b> — cost estimator: per-request actuals, fail-loud pricing</li>
+        <li class="done"><b>Task 4</b> — format-bridge + gpt drop + full K=8 re-qual → <b>new manifest</b>; zero OPEN eligibility, ladder closed ($0.4878)</li>
+        <li class="todo"><b>Task 5</b> — 22-item EPISODE registry draft complete; human item-mapping approval + 22×4 run remain</li>
+        <li class="todo"><b>Task 6</b> — as-is citation-gated scorer retained; qualified anchor-use surface/acceptance + persisted re-read remain</li>
       </ul>
-      <p class="small" style="margin-top:8px;">Tasks 1–3 ≈ one session · Task 4 ≈ one session · Tasks 5–6 ≈ one session (some combine).</p>
+      <p class="small" style="margin-top:8px;">Tasks 1–4 are complete. Task 5 is gated on human review of <code>04-HARNESS/config/episode-spec-registry.draft.json</code>; Task 6 is gated on eligibility/acceptance direction. Paid calls remain paused.</p>
     </div>
 
     <div class="mile">
@@ -477,9 +483,9 @@
 
   <h2 id="path">Critical path <span class="chip live">live</span></h2>
   <div class="flow">
-    <span class="fbox"><b>Tasks 1–3</b><span class="small">harness fixes</span></span><span class="farrow">→</span>
-    <span class="fbox"><b>Task 4</b><span class="small">bridge + re-qual<br>NEW MANIFEST</span></span><span class="farrow">→</span>
-    <span class="fbox"><b>Tasks 5 + 6</b><span class="small">EPISODE · PROOF</span></span><span class="farrow">→</span>
+    <span class="fbox"><b>Tasks 1–3</b><span class="small">DONE · harness fixes</span></span><span class="farrow">→</span>
+    <span class="fbox"><b>Task 4</b><span class="small">DONE · new manifest<br>OPEN eligibility 0</span></span><span class="farrow">→</span>
+    <span class="fbox human"><b>Tasks 5 + 6</b><span class="small">CURRENT GATES<br>human review · eligibility/acceptance</span></span><span class="farrow">→</span>
     <span class="fbox mile-box"><b>MILESTONE A</b><span class="small">MVP testable</span></span><span class="farrow">→</span>
     <span class="fbox human"><b>G6 panel</b><span class="small">HUMAN — Jimmy<br>(paper methods can draft in parallel)</span></span><span class="farrow">→</span>
     <span class="fbox"><b>Gated G1–G7 run</b><span class="small">+ adjudication</span></span><span class="farrow">→</span>
@@ -488,14 +494,14 @@
     <span class="fbox"><b>Results + review</b><span class="small">figures · adversarial pass</span></span><span class="farrow">→</span>
     <span class="fbox mile-box"><b>MILESTONE C</b><span class="small">arXiv preprint</span></span>
   </div>
-  <p class="small" style="margin-top:8px;">The only human-gated box is G6 — everything before it is agent work; the paper's methods sections can be drafted while G6 runs.</p>
+  <p class="small" style="margin-top:8px;">Current Milestone-A gates are Task-5 human approval of the 22-item mapping and Task-6 eligibility/acceptance for the as-is citation-gated surface. G6 remains the later human gate for Milestone B; paper methods can draft while G6 runs.</p>
 
   <h2 id="contingencies">Contingency plan <span class="chip live">live</span></h2>
   <p class="small">Pre-planned responses, not just risks. L/I = likelihood/impact (L·M·H). Where a response is already ruled, the ruling is cited — apply it, don't re-decide. Update statuses as triggers fire or retire.</p>
   <table>
     <tr><th>Risk</th><th>Trigger</th><th>L/I</th><th>Pre-planned response</th><th>Owner</th></tr>
     <tr><td class="k">G6 recruitment stalls</td><td>No raters engaged ~4 weeks after Milestone A</td><td class="num">M/H</td><td>Options — <b>Jimmy ruling required</b>: (a) reduced panel with disclosed size, (b) test–retest single-rater fallback (WALKWORTHY §3.4 precedent), (c) reframe paper methods-first (judge-qualification pipeline as the contribution, less human data). Benchmark stays PRE-GATE-labeled regardless; no silent bar-lowering.</td><td>Jimmy</td></tr>
-    <tr><td class="k">Format-bridge zero-pass</td><td>grok + command-a + nova-pro all fail K=8 under the bridged template</td><td class="num">M/M</td><td><b>PRE-RULED (R44.5):</b> ladder CLOSED; OPEN ships single-family-labeled; escalation = G6 human anchors. No further candidate fishing, no exemplar tweaking, no K widening.</td><td>Codex (execute) / ruled</td></tr>
+    <tr><td class="k">Format-bridge zero-pass</td><td>grok + command-a + nova-pro all fail K=8 under the bridged template</td><td class="num">M/M</td><td><b>FIRED 2026-07-11 / CLOSED (R44.5):</b> the bridged requalification produced zero OPEN-eligible judges/families; the ladder is closed. No further candidate fishing, exemplar tweaking, or K widening.</td><td>Closed</td></tr>
     <tr><td class="k">Budget exhaustion</td><td>Key balance &lt; $10 before Task 4, or &lt; ~$40 before the gated run</td><td class="num">M/L</td><td>R40.1 pre-flight halts the run BEFORE spending; surface to Jimmy for top-up. Post-Task-3, budget caps enforce max(estimate, actuals). Forecast in §Budget.</td><td>Jimmy (top-up)</td></tr>
     <tr><td class="k">Codex stalls or rabbit-holes</td><td>No task progress in a session, or work outside the plan's Do-NOT lists</td><td class="num">M/M</td><td>Escalate via <code>PENDING-QUESTIONS.md</code>; fallback executor = Claude via <code>20260711-opus-postadjudication-build-boot-prompt.md</code> (same tasks, honoring any ticked checkboxes). Anti-rabbit-hole rules in AGENTS.md exist for this.</td><td>Jimmy (switch) / Claude</td></tr>
     <tr><td class="k">Judge model deprecated / drifts</td><td>gemini-flash or grok-4.20 slug 404s on OpenRouter, or behavior shifts</td><td class="num">L/H</td><td>Fail-loud slug validation catches 404s at launch; frozen manifests (R35.4) make drift detectable and localize damage — full K=8 re-qualification of the replacement under the standing battery. No ad-hoc substitution.</td><td>Executing agent</td></tr>
@@ -508,9 +514,9 @@
   <h2 id="budget">Budget <span class="chip live">live</span></h2>
   <table>
     <tr><th>Item</th><th>Amount</th><th>Notes</th></tr>
-    <tr><td class="k">Spent to date</td><td>≈$15</td><td>All pilots + probes + the 816-cell MVP run (key-side accounting; internal estimator undercounts ~10× until Task 3)</td></tr>
-    <tr><td class="k">Remaining on key</td><td>≈$30</td><td>As of 2026-07-10; pre-flight check (<code>GET /api/v1/auth/key</code>) before every live run</td></tr>
-    <tr><td class="k">Milestone A forecast</td><td>$10–15</td><td>Task 4 re-qual+screen ≤$10 (hard cap) · Task 5 EPISODE ≤$10 cap, expected far less · Task 6 re-read small</td></tr>
+    <tr><td class="k">Spent to date</td><td>≈$15 prior + $0.4878 Task 4</td><td>Prior total was approximate; Task-4 internal actual was $0.4878 and its key-side delta was $0.4873. No paid calls occurred in S18–S19.</td></tr>
+    <tr><td class="k">Remaining on key</td><td>Last known ≈$30; not refreshed</td><td>Approximate 2026-07-10 value, before the recorded Task-4 key delta of $0.4873; no exact current balance asserted. Pre-flight remains mandatory before any future authorized live run.</td></tr>
+    <tr><td class="k">Milestone A forecast</td><td>Paid calls paused</td><td>Task 4 completed for $0.4878 internal actual. Tasks 5–6 have no further paid-call authorization; continue offline until the current human gates clear and Jimmy explicitly authorizes spend.</td></tr>
     <tr><td class="k">Milestone B forecast</td><td>$30–60</td><td>Gated run + perturbation battery at scale — <b>top-up needed</b></td></tr>
     <tr><td class="k">Milestone C forecast</td><td>≈$0 live</td><td>Writing sessions; no live model calls beyond incidentals</td></tr>
   </table>
@@ -537,6 +543,7 @@
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Renamed to <code>project-dashboard.html</code>; converted to living document with banner + Live-status (<code>094d98487</code>)</td></tr>
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Comprehensive overhaul: nav, progress bars, quotability panel, MVP results, bank table, judge evolution, R-chain index, G1–G7 gate board, critical path, contingency plan, budget, this log</td></tr>
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Added <code>20260711-fable-next-session-boot-prompt.md</code> (state-adaptive Fable re-entry: Codex adjudication → gated-run pre-registration) + docs-table row</td></tr>
+    <tr><td class="k">2026-07-11</td><td>Codex</td><td>Session 19 LIVE-state reconciliation after merge <code>a677f246b</code>: Tasks 1–4 complete, 492-test baseline, new manifest/zero-OPEN state, Task-5/6 gates, paid-call pause, spend, sessions, and milestones synchronized</td></tr>
   </table>
 
   <div class="footer">

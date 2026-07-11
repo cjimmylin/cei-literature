@@ -65,34 +65,44 @@ The full **6-model × 10-design O4 panel is COMPLETE**: `runs/20260711-o4-panel/
 
 **Re-entry doc (read first):** `00-PORTFOLIO/20260711-O4run-session-handoff.md`.
 
-## Next session = O5 (judge validation + gate adjudication)
-**Gated on human labels.** Prereq: Part A CSVs in `labels/20260710-partA/*-partA-blind.csv`
-filled (≥ wave 1 = 02/07/01) + a 2nd labeler on the 20/design overlap (or the disclosed
-test–retest fallback). If labels aren't present, STOP and say O5 is blocked on labeling.
+## Next session = O5 — EXECUTE THE FABLE TRANSITION PACKAGE (2026-07-11)
 
-Then, applying the frozen rules only:
-1. `harness/walkworthy/judge_validation.py` → per design × judge κ (GOODNESS-weighted /
-   quadratic / unweighted per §4) vs the human gold + human–human ceiling → **G4** (§C:
-   releasable iff ≥2 cross-family judges pass; else §E escalation / rubric rework).
-2. Apply §C to the complete panel: G1/G2/G3/G6/G8 (already computed — see the report), **G4**
-   (now), **G5** (06/09 blind matched-reference scoring — LIVE calls), **G7** (name-swap +
-   non-generator paraphrase perturbation — LIVE).
-3. Write the **O5 gate-adjudication report** as a NEW dated file
-   (`00-PORTFOLIO/YYYYMMDD-o5-…`): verdicts, item kills/demotes (§C G8), release-per-design.
-   Route judgment beyond the frozen rules (disagreement/kill/redesign disputes) to
-   `PENDING-RULINGS.md` for Jimmy — do not guess.
+**All O5 judgment is pre-made.** A Fable session froze the last judgment layer on
+2026-07-11; O5 is now mechanical. Your execution plan, in read order:
 
-Read alongside §C: `00-PORTFOLIO/20260710-human-label-protocol.md`,
-`00-PORTFOLIO/20260710-fable-PR3-ruling.md`, `00-PORTFOLIO/PENDING-RULINGS.md` (PR-1..PR-6).
+1. `00-PORTFOLIO/20260711e-fable-codex-transition-package.md` — **the plan**: phases,
+   exact commands, build specs (tie-breaker, §E Δ(J) test, G5 driver, G7 batteries),
+   guardrails, boot prompt.
+2. `00-PORTFOLIO/20260711d-fable-o5-decision-framework.md` — **the decisions**: rulings
+   FR-1…FR-15, the G4 branch table, the release formula + status vocabulary, firm
+   PR-1..PR-6 dispositions, STOP-AND-ASK-JIMMY triggers.
+3. `00-PORTFOLIO/20260711c-fable-o4-validity-review.md` — which panel readings are real
+   vs artifact (V-1…V-14). Do not re-litigate; do not quote artifact readings as signals.
 
-### Interim work that does NOT need labels (optional, no verdicts)
-- Wire the §E tie-breaker judge (`mistralai/mistral-large-2512`) into `run_panel`: re-judge
-  `needs_adjudication` cells with the 3rd family, own-family-SUT exclusion → human Part-B.
+Load-bearing decisions you inherit (details in the docs above):
+- **Phase 1 is label-free and comes first**: tie-breaker adjudication of the 609
+  `pending_adjudication` cells (turn/seat-level, FR-2; probe grok-4 first), the §E judge
+  Δ(J) home-advantage permutation test (never yet run), post-adjudication recompute
+  (NEW dated file), G5 driver, G7 batteries. Labels only gate Phase 2 (G4) onward.
+- **No S/H-derived verdict** for a design until unresolved exclusions ≤ 10% of §B S-units
+  (FR-1) — the current 02/04/07/09 readings are artifacts of effective-n collapse.
+- **05 verdict is already made** (FR-5): G1+G2 FAIL on the judge-free primary is real →
+  difficulty-ladder rework, out of this cycle's release set.
+- **G6 N/A ≠ PASS** (FR-4); G3 FAIL ⇒ charter §6.2 "capability-washed — redesign",
+  excluded from release (FR-3).
+- **Always pass judge/classifier/tie-breaker models explicitly** — `panel.py` and
+  `render_o4_report.py` defaults do NOT match the frozen §E pair (FR-12).
+- If labels are absent when Phase 2 would start, stop there and report
+  "O5 blocked on labeling" — never proceed to verdicts.
+
+Read alongside: `00-PORTFOLIO/20260710-human-label-protocol.md`,
+`00-PORTFOLIO/20260710-fable-PR3-ruling.md`, `00-PORTFOLIO/PENDING-RULINGS.md`
+(PR-1..PR-8; operate under the framework §5 dispositions, marked "pending ratification").
+
+### Other interim work (unchanged, optional)
 - Apply the mechanical W4 06-reference fixes in `00-PORTFOLIO/20260710-W4-06-references-REVIEW.md`
   to the gitignored DRAFT (A01/K01/E01 relabels, re-key K01, trim D01/L03/N01) — needs Jimmy
   ratification before entering `DESIGNS/06-*.md`; 06 stays PROVISIONAL until G5 regardless.
-- Dry-run `judge_validation.py` against the blind-CSV format with mock labels to confirm the
-  G4 pipeline is turnkey.
 
 ## Session convention
 Work TDD. End every session with a NEW dated handoff (`00-PORTFOLIO/YYYYMMDD-*-handoff.md`)

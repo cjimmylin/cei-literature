@@ -190,5 +190,35 @@ designs. Jimmy one-liner (or defer to O5 — it does not block the build).
 
 ---
 
+## PR-7 — G6 shortcut gate is vacuous on constant-key designs (next-cycle amendment)
+
+**Surfaced:** 2026-07-11 Fable transition-prep (validity review V-5). The frozen G6
+computation targets the item's keyed label; 9/10 designs have a constant keyed target
+within-design, so `gates_o4.g6_shortcut` correctly returns N/A and G6 actually tests only
+03. **Interim ruling (FR-4, within interpretation authority):** N/A renders as
+NOT-EVALUABLE — never PASS, never FAIL, non-blocking for release.
+**Question for Jimmy (amendment-level, next cycle):** redefine G6's target for
+constant-key designs (e.g. predict the adjudicated model outcome from surface features)?
+That is a §C change and may not be applied to this cycle's data post hoc.
+
+---
+
+## PR-8 — Ratification pointer: Fable O5 framework rulings FR-1…FR-15
+
+**Surfaced:** 2026-07-11 Fable transition-prep. The O5 decision framework
+(`20260711d-fable-o5-decision-framework.md` §2) issues fifteen logged rulings under the
+delegated master-plan §1/O5 authority (adjudication-completeness threshold, tie-breaker
+granularity, G3 "capability-washed" release consequence via charter §6.2, G6 vacuity,
+05 label-independent rework verdict, 07 floor branch, severity-vs-home-advantage
+separation, G5 disqualification cascade, wave release, PR-6 sensitivity row,
+conservative-row rule, model hygiene, G8 zv eligibility, G7 paraphrase author, PR-3
+validation thresholds). All are interpretations/sequencing within the frozen §B/§C/§E —
+none rewrites them. **Jimmy:** bundle-ratify (one-liner) or strike specific FRs; the
+highest-consequence ones are FR-3 (G3 ⇒ excluded from release set), FR-1 (10%
+completeness threshold), FR-5 (05 rework ordered now), FR-14 (paraphrase author is
+also a SUT).
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

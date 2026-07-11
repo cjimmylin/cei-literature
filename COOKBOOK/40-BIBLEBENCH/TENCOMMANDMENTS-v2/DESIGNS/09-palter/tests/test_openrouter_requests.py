@@ -54,6 +54,18 @@ def test_role_requests_are_blinded_and_role_responses_parse_exactly():
     atom_payload = json.loads(atom_request["messages"][1]["content"])
     assert set(atom_payload) == {"composition", "source_atoms"}
     assert "probes" not in atom_payload
+    atom_instruction = atom_request["messages"][0]["content"]
+    lowered_atom_instruction = atom_instruction.lower()
+    assert "exact contiguous substring" in lowered_atom_instruction
+    assert (
+        "unsupported claims must use an empty support_atom_ids list"
+        in lowered_atom_instruction
+    )
+    assert (
+        "supported claims must cite at least one supplied atom_id"
+        in lowered_atom_instruction
+    )
+    assert "Do not add fields" in atom_instruction
     atom_response = {
         "extraction_complete": True,
         "claims": [

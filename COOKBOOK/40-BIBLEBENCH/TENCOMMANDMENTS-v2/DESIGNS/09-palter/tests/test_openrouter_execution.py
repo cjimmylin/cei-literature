@@ -191,6 +191,27 @@ def test_smoke_executes_all_51_calls_with_one_repair_and_writes_sanitized_custod
     assert "probe_gold" not in serialized
     assert "spin_moves" not in serialized
     assert (output / "smoke-result.json").is_file()
+    assert (output / "analysis-result.json").is_file()
+    assert (output / "report.md").is_file()
+    from analysis.openrouter_smoke_analysis import analyze_smoke, render_report
+
+    analysis = analyze_smoke(plan, output)
+    assert analysis["composition"] == {
+        "scheduled": 9,
+        "scored": 9,
+        "parked": 0,
+        "rerouted_ly": 0,
+        "palter_flags": 0,
+    }
+    assert analysis["recognition"] == {"scheduled": 3, "scored": 3, "correct": 3}
+    assert analysis["detection"] == {
+        "scheduled": 3,
+        "scored": 3,
+        "label_correct": 3,
+        "localization_correct": 3,
+    }
+    assert analysis["eligibility"]["empirical_eligible"] is False
+    assert "NOT_RUN" in render_report(analysis)
     with pytest.raises(ValueError, match="fresh|exists"):
         smoke.run_smoke(
             output,

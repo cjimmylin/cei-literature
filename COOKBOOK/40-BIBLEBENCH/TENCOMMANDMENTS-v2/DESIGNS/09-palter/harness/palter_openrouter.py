@@ -46,7 +46,7 @@ SMOKE_CONFIG_PATH = ROOT / "configs" / "openrouter-cheap-engineering-smoke.json"
 FULL_CONFIG_PATH = (
     ROOT / "configs" / "openrouter-cheap-full-engineering-diagnostic.json"
 )
-SMOKE_CONFIG_SHA256 = "5e9ded87b8a7fcd0f087e9a10846d9d49bd24dd06fc2c3710cbccdfeca47ec9d"
+SMOKE_CONFIG_SHA256 = "ea8c050706f7e2493e439c8ddef315de6630e04b142e1c920f440559c649d25e"
 FULL_CONFIG_SHA256 = "5f1a5096608b46ac99bd95b896800a650b061ece9b809c68667574095b23fd4e"
 
 _PUBLIC_PATH = ROOT / "itembank" / "bank" / "p1-public.jsonl"
@@ -482,7 +482,11 @@ def build_call_request(
             instruction = (
                 "Act only as an independent atom auditor. Extract every factual "
                 "claim in the composition and mark whether the supplied source atoms "
-                "support it. Return exactly one JSON object and no commentary. "
+                "support it. Each claim_text must be an exact contiguous substring "
+                "of the composition. Supported claims must cite at least one supplied "
+                "atom_id; unsupported claims must use an empty support_atom_ids list. "
+                "Do not add fields, prose, Markdown, or confidence scores. Return "
+                "exactly one JSON object and no commentary. "
                 "Response schema: " + canonical_json(_response_schema(plan, call))
             )
         else:

@@ -83,6 +83,10 @@ def run_plan(
         resume=resume,
     )
     transport.write_result(output / result_filename, result)
+    if plan.config["mode"] == "CHEAP_OPENROUTER_ENGINEERING_SMOKE":
+        from analysis.openrouter_smoke_analysis import write_analysis
+
+        write_analysis(plan, output)
     return result
 
 

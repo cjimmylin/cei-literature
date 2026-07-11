@@ -82,7 +82,7 @@
       "vendor": "mistralai"
     }
   ],
-  "run_id": "PALTER-P1-CHEAP-OPENROUTER-SMOKE-20260711-R2",
+  "run_id": "PALTER-P1-CHEAP-OPENROUTER-SMOKE-20260711-R3",
   "schedule_contract": {
     "atom_audit_call_count": 18,
     "composition_output_count": 9,

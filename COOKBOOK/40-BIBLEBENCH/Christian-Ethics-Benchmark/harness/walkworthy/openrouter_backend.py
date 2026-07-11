@@ -34,6 +34,13 @@ from .clients import Message, ModelClient, ModelResponse
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 DEFAULT_SECRETS_FILE = "~/.codex/secrets/openrouter.env"
 _RETRY_STATUS = {429, 500, 502, 503, 504}
+# OpenRouter reserves max_tokens x output-price against the balance PER REQUEST. With no
+# cap it reserves the model's full default (e.g. 65536), so a thin balance returns HTTP 402
+# "requires more credits" even when actual per-cell cost is cents (observed 2026-07-11 on
+# gemini-2.5-pro's 07-10 tail). Cap it above every observed WALKWORTHY response (global
+# per-cell max ~32.5k tokens; any single call is <= its cell total) so the cap is
+# measurement-neutral (never truncates) while shrinking the reservation ~2x.
+DEFAULT_MAX_TOKENS = 32768
 
 
 def family_from_slug(model: str) -> str:
@@ -94,9 +101,13 @@ class OpenRouterClient(ModelClient):
                  max_retries: int = 4, base_backoff: float = 1.0,
                  url: str = OPENROUTER_URL, transport: Optional[Transport] = None,
                  sleep: Optional[Callable] = None, extra_headers: Optional[dict] = None,
-                 empty_retries: int = 3, provider_prefs: Optional[dict] = None):
+                 empty_retries: int = 3, provider_prefs: Optional[dict] = None,
+                 max_tokens: Optional[int] = DEFAULT_MAX_TOKENS):
         super().__init__(name)
         self.model = model
+        # per-request output cap → bounds OpenRouter's balance reservation (402 guard).
+        # None = uncapped (legacy). Default is measurement-neutral (see DEFAULT_MAX_TOKENS).
+        self.max_tokens = max_tokens
         self.family = family or family_from_slug(model)
         self.api_key = api_key or load_openrouter_key()
         self.timeout = timeout
@@ -126,6 +137,8 @@ class OpenRouterClient(ModelClient):
             msgs.append({"role": m.role, "content": m.content})
         # deliberately NO temperature / top_p / top_k
         payload = {"model": self.model, "messages": msgs}
+        if self.max_tokens is not None:
+            payload["max_tokens"] = self.max_tokens
         if self.provider_prefs:
             payload["provider"] = self.provider_prefs
         return payload

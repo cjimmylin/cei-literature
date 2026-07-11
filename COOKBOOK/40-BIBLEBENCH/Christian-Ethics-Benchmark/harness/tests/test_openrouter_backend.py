@@ -100,6 +100,37 @@ def test_payload_has_model_and_no_sampling_params():
         assert banned not in payload
 
 
+def test_payload_caps_max_tokens_by_default():
+    # OpenRouter reserves max_tokens x output-price against the balance PER REQUEST; with
+    # no cap it reserves the model default (e.g. 65536), so a thin balance 402s "requires
+    # more credits" even though actual per-cell cost is cents. Cap it — the default is
+    # provably above every observed WALKWORTHY response (global per-cell max ~32.5k) so it
+    # never truncates (measurement-neutral).
+    t = make_transport(ok())
+    c = orb.OpenRouterClient("sut", model="google/gemini-2.5-pro", api_key="k",
+                             transport=t, sleep=NOSLEEP)
+    c.complete([Message("user", "hi")])
+    assert t.calls[0]["payload"]["max_tokens"] == orb.DEFAULT_MAX_TOKENS
+    assert orb.DEFAULT_MAX_TOKENS >= 32768
+
+
+def test_max_tokens_override():
+    t = make_transport(ok())
+    c = orb.OpenRouterClient("sut", model="x/y", api_key="k", transport=t,
+                             sleep=NOSLEEP, max_tokens=8192)
+    c.complete([Message("user", "hi")])
+    assert t.calls[0]["payload"]["max_tokens"] == 8192
+
+
+def test_max_tokens_none_omits_cap():
+    # explicit None restores the old uncapped behavior (no max_tokens key)
+    t = make_transport(ok())
+    c = orb.OpenRouterClient("sut", model="x/y", api_key="k", transport=t,
+                             sleep=NOSLEEP, max_tokens=None)
+    c.complete([Message("user", "hi")])
+    assert "max_tokens" not in t.calls[0]["payload"]
+
+
 def test_auth_header_carries_bearer_key():
     t = make_transport(ok())
     c = orb.OpenRouterClient("j", model="openai/gpt-5.6-terra", api_key="k123",

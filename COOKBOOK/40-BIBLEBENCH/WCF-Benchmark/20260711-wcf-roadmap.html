@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WCF-Bench — Roadmap: From Design to Benchmark to Paper (2026-07-11)</title>
+<style>
+  :root{
+    --bg:#0e1220; --card:#161e30; --card2:#1d2740; --line:#2a3550;
+    --ink:#dde4f0; --dim:#8b96ad; --gold:#c9a84c; --blue:#3a7bd5; --teal:#4caf8a;
+    --red:#c95c5c; --purple:#9d7bd5;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55; padding:40px 20px 80px;
+  }
+  .wrap{max-width:1040px; margin:0 auto;}
+  h1{color:var(--gold); font-size:1.9rem; letter-spacing:.02em; margin-bottom:6px;}
+  h2{color:var(--gold); font-size:1.35rem; margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid var(--line);}
+  h3{color:var(--ink); font-size:1.05rem; margin-bottom:8px;}
+  p.sub{color:var(--dim); font-size:.95rem;}
+  .small{font-size:.83rem; color:var(--dim);}
+  code{background:var(--card2); padding:1px 6px; border-radius:4px; font-size:.85em; color:#b9c6e0;}
+
+  /* stat bar */
+  .stats{display:flex; flex-wrap:wrap; gap:10px; margin-top:22px;}
+  .stat{flex:1 1 130px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 12px; text-align:center;}
+  .stat .n{font-size:1.45rem; font-weight:700; color:var(--gold);}
+  .stat .l{font-size:.74rem; color:var(--dim); text-transform:uppercase; letter-spacing:.06em; margin-top:2px;}
+
+  /* answer boxes */
+  .answers{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:18px;}
+  @media(max-width:760px){.answers{grid-template-columns:1fr;}}
+  .answer{background:var(--card); border:1px solid var(--line); border-left:5px solid var(--teal); border-radius:10px; padding:20px 22px;}
+  .answer.paper{border-left-color:var(--blue);}
+  .answer .q{font-size:.82rem; text-transform:uppercase; letter-spacing:.07em; color:var(--dim); margin-bottom:6px;}
+  .answer .big{font-size:2rem; font-weight:800; color:var(--ink);}
+  .answer .big span{color:var(--teal);}
+  .answer.paper .big span{color:var(--blue);}
+  .answer .note{font-size:.86rem; color:var(--dim); margin-top:8px;}
+
+  /* timeline */
+  .phase{margin:26px 0 8px;}
+  .phase-h{display:flex; align-items:baseline; gap:12px; margin-bottom:10px;}
+  .phase-h .pnum{color:var(--gold); font-weight:800; font-size:1rem;}
+  .phase-h .pname{font-weight:700; font-size:1.05rem;}
+  .phase-h .pdate{color:var(--dim); font-size:.85rem;}
+  .tl{border-left:2px solid var(--line); margin-left:8px; padding-left:22px;}
+  .sess{position:relative; background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-bottom:8px;}
+  .sess::before{content:""; position:absolute; left:-28px; top:16px; width:10px; height:10px; border-radius:50%; background:var(--blue); border:2px solid var(--bg);}
+  .sess.fable::before{background:var(--gold);}
+  .sess.swarm::before{background:var(--teal);}
+  .sess .row{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px;}
+  .sess .sid{font-weight:700; color:var(--ink); min-width:44px;}
+  .badge{font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; padding:2px 8px; border-radius:20px;}
+  .b-fable{background:rgba(201,168,76,.15); color:var(--gold); border:1px solid rgba(201,168,76,.4);}
+  .b-opus{background:rgba(58,123,213,.15); color:#7aa8e8; border:1px solid rgba(58,123,213,.4);}
+  .b-swarm{background:rgba(76,175,138,.15); color:var(--teal); border:1px solid rgba(76,175,138,.4);}
+  .b-codex{background:rgba(157,123,213,.15); color:var(--purple); border:1px solid rgba(157,123,213,.4);}
+  .b-jimmy{background:rgba(201,92,92,.15); color:var(--red); border:1px solid rgba(201,92,92,.4);}
+  .sess .what{color:var(--dim); font-size:.9rem; margin-top:2px;}
+  .sess .what b{color:var(--ink); font-weight:600;}
+
+  .here{background:linear-gradient(90deg, rgba(201,168,76,.16), rgba(201,168,76,.04)); border:1px solid var(--gold); border-radius:10px; padding:14px 18px; margin:14px 0 4px; font-weight:700; color:var(--gold);}
+  .here .small{font-weight:400; margin-top:4px;}
+
+  /* milestone cards */
+  .miles{display:grid; grid-template-columns:1fr; gap:16px; margin-top:14px;}
+  .mile{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:20px 22px;}
+  .mile .mh{display:flex; flex-wrap:wrap; align-items:baseline; gap:12px; margin-bottom:10px;}
+  .mile .mh .t{font-size:1.1rem; font-weight:700; color:var(--gold);}
+  .mile .mh .est{font-size:.85rem; font-weight:700; padding:3px 12px; border-radius:20px; background:var(--card2); border:1px solid var(--line);}
+  .mile ul{margin:6px 0 0 20px;}
+  .mile li{margin:5px 0; font-size:.92rem;}
+  .mile li .small{display:block;}
+  .todo::before{content:"☐ "; color:var(--dim);}
+  .gate{color:var(--red); font-weight:600;}
+
+  table{width:100%; border-collapse:collapse; margin-top:10px; font-size:.9rem;}
+  th{color:var(--gold); text-align:left; font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; padding:8px 10px; border-bottom:1px solid var(--line);}
+  td{padding:8px 10px; border-bottom:1px solid rgba(42,53,80,.5); vertical-align:top;}
+  td.k{color:var(--dim); white-space:nowrap;}
+
+  .risk{background:var(--card); border:1px solid var(--line); border-left:4px solid var(--red); border-radius:8px; padding:12px 16px; margin:8px 0; font-size:.92rem;}
+  .risk b{color:var(--ink);}
+
+  .footer{margin-top:50px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:.82rem;}
+  .footer code{font-size:.8rem;}
+
+  @media print{
+    body{background:#fff; color:#1a2233; padding:10px;}
+    :root{--bg:#fff; --card:#f4f6fa; --card2:#e9edf5; --line:#c9d2e0; --ink:#1a2233; --dim:#5a6478; --gold:#8a6d1f; --blue:#2456a0; --teal:#2c7d5f; --red:#a03434; --purple:#6a4ba0;}
+    .sess::before{border-color:#fff;}
+    h2{page-break-after:avoid;}
+    .mile,.sess,.answer{page-break-inside:avoid;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>WCF-Bench Roadmap</h1>
+  <p class="sub">Westminster Standards alignment benchmark — the plan from the beginning, where we are now,
+  and how many sessions remain to a finalized benchmark and a finalized paper.
+  Snapshot <b>2026-07-11</b> (session 16 closed; execution handed to Codex).</p>
+
+  <div class="stats">
+    <div class="stat"><div class="n">17</div><div class="l">sessions so far</div></div>
+    <div class="stat"><div class="n">6</div><div class="l">days elapsed</div></div>
+    <div class="stat"><div class="n">230</div><div class="l">items, audited</div></div>
+    <div class="stat"><div class="n">816</div><div class="l">MVP cells, 0 errors</div></div>
+    <div class="stat"><div class="n">444</div><div class="l">tests green</div></div>
+    <div class="stat"><div class="n">46</div><div class="l">binding rulings</div></div>
+    <div class="stat"><div class="n">≈$15</div><div class="l">live spend</div></div>
+  </div>
+
+  <h2>The two answers, up front</h2>
+  <div class="answers">
+    <div class="answer">
+      <div class="q">Sessions to a finalized benchmark (MVP testable)</div>
+      <div class="big"><span>2–3</span> Codex sessions</div>
+      <div class="note">Codex Tasks 1–6 of <code>20260711-codex-execution-plan.md</code>:
+      harness fixes (≈1 session), format-bridge&nbsp;+ judge re-qualification (≈1),
+      EPISODE runs&nbsp;+ PROOFTEXT upgrade (≈1). All directives pre-ruled (R42–R46) —
+      no judgment calls block them.</div>
+    </div>
+    <div class="answer paper">
+      <div class="q">Sessions to a finalized paper (arXiv preprint)</div>
+      <div class="big"><span>≈11–16</span> sessions total</div>
+      <div class="note">= 2–3 (benchmark) + 4–6 (gated, quotable results — <b>required</b>
+      for a credible paper; includes the G6 human panel whose recruitment is the dominant
+      wall-clock unknown) + 5–7 (writing, figures, adversarial review, arXiv package).
+      Partial overlap can compress this to ≈10–13.</div>
+    </div>
+  </div>
+
+  <h2>Where we've been — 17 sessions in 6 phases</h2>
+
+  <div class="phase">
+    <div class="phase-h"><span class="pnum">PHASE 1</span><span class="pname">Design</span><span class="pdate">Jul 6–7</span></div>
+    <div class="tl">
+      <div class="sess fable"><div class="row"><span class="sid">S1</span><span class="badge b-fable">Fable</span><span class="small">Jul 6</span></div>
+        <div class="what"><b>Design session:</b> 10 method-major designs (DUTYBOUND … NARROWGATE), shared spine (gates G1–G7, perturbations P1–P6, canary), anchor registry, 49 exemplars, Opus authoring guide, PRD, HTML deck.</div></div>
+      <div class="sess fable"><div class="row"><span class="sid">S1b</span><span class="badge b-fable">Fable</span><span class="small">Jul 7</span></div>
+        <div class="what"><b>Wave 2:</b> +62 exemplars → the 10×10 design×commandment matrix complete at exemplar level; suite at 161 items.</div></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-h"><span class="pnum">PHASE 2</span><span class="pname">Authoring the bank</span><span class="pdate">Jul 9</span></div>
+    <div class="tl">
+      <div class="sess"><div class="row"><span class="sid">S2</span><span class="badge b-opus">Opus</span></div>
+        <div class="what"><b>Batch-1 flesh-out:</b> +21 reviewed items (→182); every anchor grep-verified; mock-first harness begun (loader, first scorers).</div></div>
+      <div class="sess"><div class="row"><span class="sid">S3</span><span class="badge b-opus">Opus</span><span class="badge b-swarm">7-agent swarm</span></div>
+        <div class="what"><b>Batch-2 flesh-out:</b> +48 items → <b>230 authored</b>; harness backbone (refusal taxonomy, tensor, perturbations); CLI-OAuth backend.</div></div>
+      <div class="sess fable"><div class="row"><span class="sid">S4</span><span class="badge b-fable">Fable</span></div>
+        <div class="what"><b>Adversarial review:</b> all 48 batch-2 items deep-read, 0 kills; independent anchor audit 132/133 verbatim; binding rulings <b>R8–R23</b>.</div></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-h"><span class="pnum">PHASE 3</span><span class="pname">Harness &amp; first live contact</span><span class="pdate">Jul 9</span></div>
+    <div class="tl">
+      <div class="sess"><div class="row"><span class="sid">S5</span><span class="badge b-opus">Opus</span><span class="badge b-swarm">10-agent swarm</span></div>
+        <div class="what"><b>Errata + Phase-2 harness</b> (episode state machines, judge templates, triaxial Matter/Manner/End); first 69 items transcribed to the YAML bank.</div></div>
+      <div class="sess"><div class="row"><span class="sid">S5b</span><span class="badge b-opus">Opus</span></div>
+        <div class="what"><b>OpenRouter backend live:</b> one key, three model families, full chain smoke-validated.</div></div>
+      <div class="sess"><div class="row"><span class="sid">S6</span><span class="badge b-opus">Opus</span><span class="badge b-jimmy">Jimmy ruling</span></div>
+        <div class="what"><b>First live pilot GREEN</b> (ordinal τ=1.0, refusal co-scoring, NARROWGATE defect-baseline gate PASS on a live model); G6 rater instrument built; <b>contested-item scoring ruling</b> (adherence, not right/wrong); OpenRouter sanctioned as the measurement path.</div></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-h"><span class="pnum">PHASE 4</span><span class="pname">Judge qualification — the validity war</span><span class="pdate">Jul 10</span></div>
+    <div class="tl">
+      <div class="sess"><div class="row"><span class="sid">S7</span><span class="badge b-opus">Opus</span></div>
+        <div class="what"><b>Contested scorer + OPEN triaxial judge panel</b> + live pilot; surfaced the axis-scale artifact and the first real judge-defensibility split.</div></div>
+      <div class="sess fable"><div class="row"><span class="sid">S8</span><span class="badge b-fable">Fable</span></div>
+        <div class="what"><b>R24–R28:</b> per-keypoint award scoring (kills the scale artifact), transcript-persistence mandate, probe battery, H-DISC headline pre-registered.</div></div>
+      <div class="sess"><div class="row"><span class="sid">S9</span><span class="badge b-opus">Opus</span></div>
+        <div class="what"><b>R24–R28 implemented;</b> 273 keypoints axis-tagged; post-fix pilot green — every axis a clean [0,1] fraction.</div></div>
+      <div class="sess fable"><div class="row"><span class="sid">S10</span><span class="badge b-fable">Fable</span></div>
+        <div class="what"><b>R29–R33 — first sample-level adjudication:</b> gemini's award form invalid, gpt's disclosure channel dead; anti-relativism floor held 12/12; evidence-quote mandate ordered.</div></div>
+      <div class="sess"><div class="row"><span class="sid">S11</span><span class="badge b-opus">Opus</span></div>
+        <div class="what"><b>R33 implemented</b> (reason mandate, quote verification, per-surface acceptance); 3rd-judge live re-run — mistral fails qualification; probe non-determinism discovered.</div></div>
+      <div class="sess fable"><div class="row"><span class="sid">S12</span><span class="badge b-fable">Fable</span></div>
+        <div class="what"><b>R34–R37:</b> K=8 stability sweep (160 records) — gpt deterministically response-insensitive → OPEN-award suspended; repeat-probe majority gating; frozen qualification manifests.</div></div>
+      <div class="sess"><div class="row"><span class="sid">S13</span><span class="badge b-opus">Opus</span></div>
+        <div class="what"><b>R35 gating built;</b> live screen finds <b>grok-4.20 qualifies</b> as the second disclosure family; floor re-run surfaces one last divergence.</div></div>
+      <div class="sess fable"><div class="row"><span class="sid">S14</span><span class="badge b-fable">Fable</span></div>
+        <div class="what"><b>R38–R41:</b> grok ratified; the floor divergence adjudicated (gemini category-error overruled); floor semantics pinned — sample-level, credit-when-earned, tie→UNGRADED.</div></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-h"><span class="pnum">PHASE 5</span><span class="pname">The MVP run</span><span class="pdate">Jul 10</span></div>
+    <div class="tl">
+      <div class="sess swarm"><div class="row"><span class="sid">S15</span><span class="badge b-fable">Fable orchestrator</span><span class="badge b-swarm">2×Opus + 10×Sonnet</span></div>
+        <div class="what"><b>Entire MVP critical path in one session:</b> bank transcription 69→<b>230/230</b> (independently audited GO), <code>run_mvp.py</code> built, judge re-qualification under the floor-gloss (gpt loses settled-core), and the <b>full-bank descriptive run: 816/816 cells, 0 errors</b> — mistral ≈ haiku &gt; deepseek ≫ llama; over-refusal a live axis; suite 444 green.</div></div>
+    </div>
+  </div>
+
+  <div class="phase">
+    <div class="phase-h"><span class="pnum">PHASE 6</span><span class="pname">Adjudication &amp; handover</span><span class="pdate">Jul 11</span></div>
+    <div class="tl">
+      <div class="sess fable"><div class="row"><span class="sid">S16</span><span class="badge b-fable">Fable</span></div>
+        <div class="what"><b>R42–R46 — the payoff read:</b> panel ruled HEALTHY; the "worst disagreements" exposed as harness artifacts (first-match SCORE-parse bug; fenced values in spread math); one judge verdict overruled on fabricated evidence; <b>gpt-4o-mini dropped</b>; <b>OPEN-award format-bridge authorized</b>. Then the <b>Codex handover package</b>: AGENTS.md + a 6-task bounded execution plan with anti-rabbit-hole discipline.</div></div>
+    </div>
+  </div>
+
+  <div class="here">📍 YOU ARE HERE — thread closed at commit <code>579e13de6</code>, 2026-07-11.
+    <div class="small">Bank frozen and audited · MVP descriptively complete · every remaining decision pre-ruled · execution owned by Codex · G6 human panel owned by Jimmy.</div>
+  </div>
+
+  <h2>Where we're going — three milestones</h2>
+  <div class="miles">
+
+    <div class="mile">
+      <div class="mh"><span class="t">A · Finalized benchmark = MVP testable</span><span class="est">2–3 Codex sessions</span></div>
+      <p class="small">Definition (per Jimmy): all 226 runnable items scorable end-to-end under a re-qualified
+      2-family judge panel, trustworthy parsing and cost accounting, PROOFTEXT measuring its construct.
+      Spec: <code>20260711-codex-execution-plan.md</code>. Status mirrors its checkboxes (all open at snapshot):</p>
+      <ul>
+        <li class="todo"><b>Task 1</b> — SCORE-parse fix (last-match; 2 persisted regression fixtures)</li>
+        <li class="todo"><b>Task 2</b> — disagreement.json eligible/non-fenced spreads</li>
+        <li class="todo"><b>Task 3</b> — cost estimator: per-request actuals, fail-loud pricing</li>
+        <li class="todo"><b>Task 4</b> — format-bridge + gpt drop + full K=8 re-qual → <b>new manifest</b> (live, ≤$10)</li>
+        <li class="todo"><b>Task 5</b> — EPISODE live runs: 22 NARROWGATE items × 4 SUTs</li>
+        <li class="todo"><b>Task 6</b> — PROOFTEXT judge-assisted scorer + persisted re-read</li>
+      </ul>
+      <p class="small" style="margin-top:8px;">Tasks 1–3 ≈ one session · Task 4 ≈ one session · Tasks 5–6 ≈ one session (some combine).</p>
+    </div>
+
+    <div class="mile">
+      <div class="mh"><span class="t">B · Gated &amp; quotable results</span><span class="est">4–6 agent sessions&nbsp;&nbsp;<span class="gate">+ G6 human wall-clock</span></span></div>
+      <p class="small">The MVP numbers are DESCRIPTIVE/PRE-GATE by design. Quotable, releasable results require:</p>
+      <ul>
+        <li><span class="gate">G6 confessional rater panel</span> — <b>Jimmy recruits raters</b> (instrument ready at <code>06-G6-PANEL/</code>); resolves 4 [DISPUTED] items, position maps, standing rulings. <i>Dominant wall-clock unknown.</i></li>
+        <li>Apply G6 outcomes + finalize position maps (≈1 session)</li>
+        <li>Gated G1–G7 measurement run + gate adjudication (≈1–2 sessions)</li>
+        <li>Perturbation battery P1–P6 at scale (≈1–2 sessions)</li>
+        <li>Release packaging: repo, bank docs, headline tables (≈1 session)</li>
+      </ul>
+    </div>
+
+    <div class="mile">
+      <div class="mh"><span class="t">C · Finalized paper — WCF-Bench standalone, arXiv preprint</span><span class="est">5–7 writing sessions</span></div>
+      <p class="small">Raw material is unusually strong: the R1–R46 memo chain IS the methods section
+      (judge qualification, probe batteries, adjudication protocol), and run artifacts are fully persisted.</p>
+      <ul>
+        <li>Outline + methods draft from the memo chain (≈1–2 sessions)</li>
+        <li>Results, figures, tables from gated-run artifacts (≈1–2 sessions)</li>
+        <li>Full draft: intro, related work, limitations (≈1 session)</li>
+        <li>Adversarial review + revision — highest-tier model pass (≈1–2 sessions)</li>
+        <li>Polish + arXiv package (≈1 session)</li>
+      </ul>
+      <p class="small" style="margin-top:8px;">Writing can begin against milestone B's tail (methods + design sections don't need gated numbers), compressing the total path to ≈10–13 sessions.</p>
+    </div>
+  </div>
+
+  <h2>Assumptions &amp; risks</h2>
+  <div class="risk"><b>G6 recruitment is the schedule.</b> Every agent session is days; the human rater panel is the only open-ended wall-clock item. Until it lands, milestone B — and therefore the paper's results — waits.</div>
+  <div class="risk"><b>Task-4 format-bridge outcome.</b> Either result is acceptable (a second OPEN-award family qualifies, or the ladder closes and OPEN ships single-family-labeled) — but zero-pass means the paper must carry the single-family label on the OPEN surface, per R34.4/R44.5.</div>
+  <div class="risk"><b>Budget.</b> ≈$30 remained on the OpenRouter key (2026-07-10). Tasks 4–6 ≈ $10–15; the gated run + perturbation battery will need a top-up (rough order: $30–60).</div>
+  <div class="risk"><b>Unit of estimate.</b> "Session" = one focused agent working block (a Codex run or one Claude session). Estimates assume no relitigating of the R-chain — the anti-rabbit-hole discipline in <code>AGENTS.md</code> exists to protect exactly this.</div>
+
+  <h2>Reference — key documents</h2>
+  <table>
+    <tr><th>Reader / purpose</th><th>Document</th></tr>
+    <tr><td class="k">Coding agents (Codex) — start here</td><td><code>AGENTS.md</code> → <code>20260711-codex-execution-plan.md</code></td></tr>
+    <tr><td class="k">Latest binding rulings</td><td><code>20260711-fable-mvp-disagreement-adjudication-memo.md</code> (R42–R46; chain runs R1–R46)</td></tr>
+    <tr><td class="k">Thread-close handoff / Claude re-entry</td><td><code>20260711-wcf-session16-handoff.md</code> (§4 re-entry protocol, §3 doc map)</td></tr>
+    <tr><td class="k">MVP run evidence</td><td><code>07-PILOTS/20260710-mvp-run/</code> (report, transcripts, disagreement records)</td></tr>
+    <tr><td class="k">G6 rater instrument</td><td><code>06-G6-PANEL/g6-panel.html</code> + README run-book</td></tr>
+    <tr><td class="k">Frozen bank</td><td><code>05-BANK-YAML/</code> (230/230, independently audited)</td></tr>
+  </table>
+
+  <div class="footer">
+    WCF-Bench roadmap · generated 2026-07-11 (session 16 close) · self-contained, no external dependencies ·
+    historical facts from the session handoff chain and binding memos R1–R46 · estimates are planning
+    figures, not commitments · this document is a snapshot — for live task status see the checkboxes in
+    <code>20260711-codex-execution-plan.md</code>.
+  </div>
+
+</div>
+</body>
+</html>

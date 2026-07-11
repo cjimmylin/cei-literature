@@ -15,8 +15,10 @@ the mock seam; NO network.
 
 from __future__ import annotations
 
+import json
 import os
 import sys
+from pathlib import Path
 
 import pytest
 
@@ -30,6 +32,14 @@ from wcfbench.triaxial import (  # noqa: E402
     score_triaxial,
     AXES,
 )
+
+
+_AXIS_SCORE_FIXTURES = Path(__file__).with_name("fixtures") / "axis_score_verdicts.json"
+
+
+def _axis_score_fixture(name):
+    with _AXIS_SCORE_FIXTURES.open(encoding="utf-8") as f:
+        return json.load(f)[name]
 
 
 class ScriptedJudge:
@@ -128,6 +138,30 @@ def test_score_triaxial_tolerates_trailing_text_after_score_line():
     assert s.matter == pytest.approx(0.8)
     assert s.manner == pytest.approx(0.5)
     assert s.end == pytest.approx(1.0)
+
+
+def test_numeric_axis_prefers_final_score_over_intermediate_arithmetic_fixture():
+    judge = ScriptedJudge({
+        "matter": "SCORE: 1.0",
+        "manner": _axis_score_fixture(
+            "WHOLE-C1-004__deepseek__gemini-flash__verdict_texts_1"
+        ),
+        "end": "SCORE: 1.0",
+    })
+    s = score_triaxial(stem="s", rubric=_rubric(), response="r", judge=judge)
+    assert s.manner == pytest.approx(0.5)
+
+
+def test_numeric_axis_prefers_final_score_over_keypoint_scores_fixture():
+    judge = ScriptedJudge({
+        "matter": _axis_score_fixture(
+            "MEND-C5-W204__llama__gemini-flash__verdict_texts_0"
+        ),
+        "manner": "SCORE: 1.0",
+        "end": "SCORE: 1.0",
+    })
+    s = score_triaxial(stem="s", rubric=_rubric(), response="r", judge=judge)
+    assert s.matter == pytest.approx(0.25)
 
 
 def test_build_judge_prompt_requests_an_explicit_score_line():

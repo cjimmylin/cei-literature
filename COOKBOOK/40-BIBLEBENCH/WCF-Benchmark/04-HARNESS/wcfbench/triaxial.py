@@ -48,6 +48,9 @@ _PINNED_LEVELS = "0.0, 0.25, 0.5, 0.75, or 1.0"
 #: 2026-07-10), AND of markdown emphasis around the label/number (`**Score**: 0.5`,
 #: R33.8/R32i parity with the contested coherence parse). parse_judge_verdict is fallback.
 _AXIS_SCORE_RE = re.compile(r"[*_]*SCORE[*_]*\s*[:=]\s*[*_]*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+_AXIS_SCORE_LINE_RE = re.compile(
+    rf"^[ \t]*{_AXIS_SCORE_RE.pattern}", re.IGNORECASE | re.MULTILINE
+)
 
 
 @dataclass
@@ -272,7 +275,9 @@ def _score_numeric_axis(
         score.detail[axis] = "judge declined this axis (surfaced ungraded, not scored 0)"
         return
     value: Optional[float] = None
-    m = _AXIS_SCORE_RE.search(text)
+    line_matches = list(_AXIS_SCORE_LINE_RE.finditer(text))
+    matches = line_matches or list(_AXIS_SCORE_RE.finditer(text))
+    m = matches[-1] if matches else None
     if m:
         value = float(m.group(1))
     else:

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WCF-Bench — Roadmap: From Design to Benchmark to Paper (2026-07-11)</title>
+<title>WCF-Bench — Project Dashboard</title>
 <style>
   :root{
     --bg:#0e1220; --card:#161e30; --card2:#1d2740; --line:#2a3550;
@@ -77,6 +77,8 @@
   .mile li{margin:5px 0; font-size:.92rem;}
   .mile li .small{display:block;}
   .todo::before{content:"☐ "; color:var(--dim);}
+  .done::before{content:"☑ "; color:var(--teal);}
+  .done{color:var(--dim); text-decoration:line-through;}
   .gate{color:var(--red); font-weight:600;}
 
   table{width:100%; border-collapse:collapse; margin-top:10px; font-size:.9rem;}
@@ -90,6 +92,12 @@
   .footer{margin-top:50px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:.82rem;}
   .footer code{font-size:.8rem;}
 
+  /* living-document banner + live status */
+  .living{display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; background:linear-gradient(90deg, rgba(76,175,138,.14), rgba(76,175,138,.03)); border:1px solid var(--teal); border-radius:10px; padding:12px 18px; margin-top:20px; font-size:.88rem;}
+  .living .tag{font-size:.7rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--bg); background:var(--teal); padding:3px 10px; border-radius:20px;}
+  .living b{color:var(--ink);}
+  .live-status td.k{width:220px;}
+
   @media print{
     body{background:#fff; color:#1a2233; padding:10px;}
     :root{--bg:#fff; --card:#f4f6fa; --card2:#e9edf5; --line:#c9d2e0; --ink:#1a2233; --dim:#5a6478; --gold:#8a6d1f; --blue:#2456a0; --teal:#2c7d5f; --red:#a03434; --purple:#6a4ba0;}
@@ -102,10 +110,27 @@
 <body>
 <div class="wrap">
 
-  <h1>WCF-Bench Roadmap</h1>
+  <h1>WCF-Bench Project Dashboard</h1>
   <p class="sub">Westminster Standards alignment benchmark — the plan from the beginning, where we are now,
-  and how many sessions remain to a finalized benchmark and a finalized paper.
-  Snapshot <b>2026-07-11</b> (session 16 closed; execution handed to Codex).</p>
+  and how many sessions remain to a finalized benchmark and a finalized paper.</p>
+
+  <div class="living">
+    <span class="tag">Living document</span>
+    <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §Dashboard</code>.</span>
+    <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable), session 16 close</span>
+  </div>
+
+  <h2>Live status</h2>
+  <table class="live-status">
+    <tr><td class="k">Current phase</td><td>Milestone A — Codex execution of Tasks 1–6 (benchmark → MVP testable)</td></tr>
+    <tr><td class="k">Execution owner</td><td>Codex (worktree branch <code>codex/wcfbench-mvp-testable</code>) · Claude = adjudication/review · Jimmy = G6 raters</td></tr>
+    <tr><td class="k">Manifest of record</td><td><code>07-PILOTS/20260710-settled-requal/20260710-settled-requal-manifest.json</code> (superseded by Task 4's new manifest when it lands)</td></tr>
+    <tr><td class="k">Judge panel of record</td><td>gemini-flash (google) + grok-4.20 (x-ai) — R43</td></tr>
+    <tr><td class="k">Test suite</td><td>444 pytest green (2026-07-11)</td></tr>
+    <tr><td class="k">Next milestone</td><td>Milestone A: 2–3 Codex sessions (see checkboxes below)</td></tr>
+    <tr><td class="k">Blockers</td><td>None agent-side · G6 rater recruitment (Jimmy) gates Milestone B</td></tr>
+    <tr><td class="k">Open escalations</td><td>None (<code>PENDING-QUESTIONS.md</code> not yet created)</td></tr>
+  </table>
 
   <div class="stats">
     <div class="stat"><div class="n">17</div><div class="l">sessions so far</div></div>
@@ -204,15 +229,20 @@
   </div>
 
   <div class="phase">
-    <div class="phase-h"><span class="pnum">PHASE 6</span><span class="pname">Adjudication &amp; handover</span><span class="pdate">Jul 11</span></div>
+    <div class="phase-h"><span class="pnum">PHASE 6</span><span class="pname">Adjudication, handover &amp; build-out — ongoing</span><span class="pdate">Jul 11 →</span></div>
     <div class="tl">
-      <div class="sess fable"><div class="row"><span class="sid">S16</span><span class="badge b-fable">Fable</span></div>
+      <div class="sess fable"><div class="row"><span class="sid">S16</span><span class="badge b-fable">Fable</span><span class="small">Jul 11</span></div>
         <div class="what"><b>R42–R46 — the payoff read:</b> panel ruled HEALTHY; the "worst disagreements" exposed as harness artifacts (first-match SCORE-parse bug; fenced values in spread math); one judge verdict overruled on fabricated evidence; <b>gpt-4o-mini dropped</b>; <b>OPEN-award format-bridge authorized</b>. Then the <b>Codex handover package</b>: AGENTS.md + a 6-task bounded execution plan with anti-rabbit-hole discipline.</div></div>
+      <!-- AGENTS: append new session rows here (S17, S18, …) as work completes.
+           Template:
+      <div class="sess"><div class="row"><span class="sid">S17</span><span class="badge b-codex">Codex</span><span class="small">Jul 1X</span></div>
+        <div class="what"><b>One-line headline:</b> what was done, key numbers, commit.</div></div>
+           Badge classes: b-fable / b-opus / b-codex / b-swarm / b-jimmy. Add class "fable"/"swarm" on .sess for gold/teal dots. -->
     </div>
   </div>
 
-  <div class="here">📍 YOU ARE HERE — thread closed at commit <code>579e13de6</code>, 2026-07-11.
-    <div class="small">Bank frozen and audited · MVP descriptively complete · every remaining decision pre-ruled · execution owned by Codex · G6 human panel owned by Jimmy.</div>
+  <div class="here">📍 YOU ARE HERE — Claude execution thread closed at <code>579e13de6</code> (2026-07-11); Codex build-out in progress.
+    <div class="small">Bank frozen and audited · MVP descriptively complete · every remaining decision pre-ruled · execution owned by Codex · G6 human panel owned by Jimmy. <b>Agents: move/update this marker as phases advance.</b></div>
   </div>
 
   <h2>Where we're going — three milestones</h2>
@@ -222,7 +252,8 @@
       <div class="mh"><span class="t">A · Finalized benchmark = MVP testable</span><span class="est">2–3 Codex sessions</span></div>
       <p class="small">Definition (per Jimmy): all 226 runnable items scorable end-to-end under a re-qualified
       2-family judge panel, trustworthy parsing and cost accounting, PROOFTEXT measuring its construct.
-      Spec: <code>20260711-codex-execution-plan.md</code>. Status mirrors its checkboxes (all open at snapshot):</p>
+      Spec: <code>20260711-codex-execution-plan.md</code>. The checkboxes below MIRROR that plan's —
+      when you tick a task there, tick it here too (change <code>class="todo"</code> to <code>class="done"</code> or prepend ☑):</p>
       <ul>
         <li class="todo"><b>Task 1</b> — SCORE-parse fix (last-match; 2 persisted regression fixtures)</li>
         <li class="todo"><b>Task 2</b> — disagreement.json eligible/non-fenced spreads</li>
@@ -279,10 +310,15 @@
   </table>
 
   <div class="footer">
-    WCF-Bench roadmap · generated 2026-07-11 (session 16 close) · self-contained, no external dependencies ·
-    historical facts from the session handoff chain and binding memos R1–R46 · estimates are planning
-    figures, not commitments · this document is a snapshot — for live task status see the checkboxes in
-    <code>20260711-codex-execution-plan.md</code>.
+    <b style="color:var(--ink)">WCF-Bench Project Dashboard — LIVING DOCUMENT.</b> Every agent (Anthropic/Claude,
+    OpenAI/Codex, or any other model) working this project updates this file in place at the end of each
+    session: (1) the "Last updated" line in the banner, (2) the Live-status table, (3) a new session row in
+    Phase 6+, (4) milestone checkboxes, (5) estimates if they changed. This undated file is the ONE exception
+    to the dated-file immutability convention — git history is its snapshot record; never create dated copies.
+    <br><br>
+    Self-contained, no external dependencies · historical facts from the session handoff chain and binding
+    memos R1–R46 · estimates are planning figures, not commitments · created 2026-07-11 (session 16, as
+    <code>20260711-wcf-roadmap.html</code>; renamed same day by Jimmy's direction).
   </div>
 
 </div>

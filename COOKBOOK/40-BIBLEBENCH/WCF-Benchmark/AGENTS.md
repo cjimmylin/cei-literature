@@ -20,11 +20,35 @@ almost certainly out of scope (see "Staying out of rabbit holes" below).
 ## Read order (total ~15 min; do NOT read the whole directory)
 
 1. This file.
-2. `20260711-codex-execution-plan.md` — the task list you will execute.
-3. `20260711-fable-mvp-disagreement-adjudication-memo.md` (R42–R46) — the binding decisions
+2. **`project-dashboard.html`** — the LIVING project dashboard: current status, history,
+   milestones. Open it (or read its Live-status table in source) for where things stand
+   RIGHT NOW; you will also update it at session end (see "The project dashboard" below).
+3. `20260711-codex-execution-plan.md` — the task list you will execute.
+4. `20260711-fable-mvp-disagreement-adjudication-memo.md` (R42–R46) — the binding decisions
    your tasks implement. You implement these; you never re-decide them.
-4. Only when a task's spec cites one: earlier memos (R1–R41), handoffs, reports. On demand,
+5. Only when a task's spec cites one: earlier memos (R1–R41), handoffs, reports. On demand,
    never up front.
+
+## The project dashboard (`project-dashboard.html`) — ALL agents maintain it
+
+`project-dashboard.html` is the project's single living status page — referred to and
+updated by **every agent that works here**: Anthropic (Claude) models, OpenAI (Codex)
+agents, and any other model. It is intentionally **undated and edited in place**: the ONE
+exception to the dated-file immutability rule (git history is its snapshot record — never
+create dated copies of it, never leave it stale).
+
+**At the end of every session (and after any milestone or manifest change), update:**
+1. The banner's **"Last updated: <date> · by <agent>"** line — mandatory, even if nothing
+   else changed.
+2. The **Live-status table** (current phase, execution owner, manifest of record, panel,
+   suite count, next milestone, blockers, open escalations).
+3. **Append a session row** in Phase 6 (template is in an HTML comment there; S17, S18, …).
+4. **Milestone checkboxes** (they mirror the execution plan's — tick both places).
+5. Estimates/YOU-ARE-HERE marker if they changed.
+
+Keep updates to those surfaces — do not restructure the page or alter the historical
+timeline (Phases 1–5 are history). The file is fully self-contained (inline CSS, no JS,
+no CDN); keep it that way, and never put the canary string in it.
 
 ## Decisions are already made (the R-chain)
 
@@ -39,7 +63,8 @@ decision, that's an escalation (see below), not an invitation to reason it out y
   `mv` it to the nearest `RECYCLE-BIN/`.
 - **Report + run-dir immutability.** Everything under `07-PILOTS/` is append-only history —
   never re-score, regenerate, or edit an existing run dir or dated report. New work → NEW
-  dated dir/file (`YYYYMMDD-`). Superseded ≠ overwritten.
+  dated dir/file (`YYYYMMDD-`). Superseded ≠ overwritten. (Sole exception:
+  `project-dashboard.html`, the undated living dashboard — see its section below.)
 - **Never edit bank items.** `05-BANK-YAML/` is frozen (230/230, independently audited).
   Item edits are Jimmy/G6 territory. If a task needs an example text, it must come from
   fixtures or be newly authored NON-bank material.
@@ -124,7 +149,9 @@ are **Jimmy-gated — not agent work, do not start them.**
 
 Work TDD. End every session with: (1) suite green, (2) a NEW dated handoff
 (`YYYYMMDD-codex-session-handoff.md`: what was done / what remains / file locations / known
-issues / any PENDING-QUESTIONS entries), (3) commit + fast-forward push of WCF-Benchmark
-paths only (explicit pathspecs). There is no external memory — the handoff IS the
+issues / any PENDING-QUESTIONS entries), (3) **update `project-dashboard.html`** per "The
+project dashboard" section above, (4) commit + fast-forward push of WCF-Benchmark paths
+only (explicit pathspecs). There is no external memory — the handoff + dashboard ARE the
 persistence. Update the checkbox state in `20260711-codex-execution-plan.md` §Progress as
-tasks complete (that file's checkboxes are the only part of it you may edit).
+tasks complete (that file's checkboxes are the only part of it you may edit; mirror them
+on the dashboard).

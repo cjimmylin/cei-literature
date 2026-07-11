@@ -105,3 +105,18 @@ No code, no live calls, no gold minted, no item edited, no G6 activity. Report i
 re-minted. Shared git index: `git log -1` before each commit, explicit paths only, sibling
 dirty files untouched, fast-forward pushes. Secrets untouched. Scope-locked to
 `COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/`.
+
+## Addendum (2026-07-11, same day, post-close — append-only)
+
+Two artifacts were added after this handoff was written; the §3 document map is extended:
+
+1. **`project-dashboard.html` — the LIVING project dashboard** (created as
+   `20260711-wcf-roadmap.html` in `dda24af84`, renamed + converted to a living document at
+   Jimmy's direction). It shows full project history (17 sessions, 6 phases), live status,
+   and milestone/session estimates to the finalized benchmark and paper. **All agents —
+   Anthropic (Claude), OpenAI (Codex), and any other model — consult it on entry and update
+   it at every session end** (protocol: `AGENTS.md §The project dashboard`). It is undated
+   and edited in place: the ONE exception to the dated-file immutability convention; git
+   history is its snapshot record. For any future reader of this handoff: check the
+   dashboard FIRST for current status — it supersedes §2's snapshot numbers as time passes.
+2. §3 document-map addition: | **All readers — current status** | `project-dashboard.html` |

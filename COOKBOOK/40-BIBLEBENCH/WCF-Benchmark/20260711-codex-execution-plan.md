@@ -16,7 +16,7 @@ balloons past its budget, checkpoint and escalate per AGENTS.md rule 2 — do no
 
 ---
 
-## Progress (update checkboxes as you go — the ONLY edits allowed to this file)
+## Progress (update checkboxes as you go — the ONLY edits allowed to this file; mirror each tick on `project-dashboard.html`)
 
 - [ ] Task 1 — SCORE-parse fix (last-match)
 - [ ] Task 2 — disagreement.json display fix
@@ -207,8 +207,11 @@ AGENTS.md, or R42–R46.
 ## Definition of DONE for the whole handoff
 
 All six checkboxes ticked (or explicitly blocked with a PENDING-QUESTIONS entry), suite
-green, each task committed separately with explicit pathspecs, and a final dated handoff
-(`YYYYMMDD-codex-session-handoff.md`) stating: manifest of record, Task 4 outcome
-(2nd family or ladder-closed), EPISODE + PROOF-re-read locations, reconciled spend, and the
-one-line status "MVP testable: yes/no + why". At that point WCF-Bench's remaining queue is
-entirely human-gated (G6) and the benchmark is ready for its first externally-visible test.
+green, each task committed separately with explicit pathspecs, **`project-dashboard.html`
+updated** (Live-status table, session rows, milestone checkboxes, last-updated line — per
+`AGENTS.md §The project dashboard`; it is the living status page ALL agents maintain and
+consult), and a final dated handoff (`YYYYMMDD-codex-session-handoff.md`) stating: manifest
+of record, Task 4 outcome (2nd family or ladder-closed), EPISODE + PROOF-re-read locations,
+reconciled spend, and the one-line status "MVP testable: yes/no + why". At that point
+WCF-Bench's remaining queue is entirely human-gated (G6) and the benchmark is ready for its
+first externally-visible test.

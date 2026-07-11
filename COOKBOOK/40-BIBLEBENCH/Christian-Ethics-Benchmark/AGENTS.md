@@ -107,8 +107,24 @@ Read alongside: `00-PORTFOLIO/20260710-human-label-protocol.md`,
   to the gitignored DRAFT (A01/K01/E01 relabels, re-key K01, trim D01/L03/N01) — needs Jimmy
   ratification before entering `DESIGNS/06-*.md`; 06 stays PROVISIONAL until G5 regardless.
 
+## Project dashboard (LIVING document — binds ALL agents)
+`00-PORTFOLIO/project-dashboard.html` is the rolling project dashboard: plan since genesis,
+timeline, gate status, who-owes-what lanes, session forecasts, live status, changelog.
+**It is the ONE file exempt from the report-immutability rule** (Jimmy's direction,
+2026-07-11) — update it IN PLACE; never fork it into dated copies. Every agent — Anthropic/
+Claude, OpenAI/Codex, or any other model — must:
+1. **Read it at session start** (alongside this file and the latest dated handoff).
+2. **Update it at session end**: refresh the Live-status panel + any section your session
+   made stale, bump the "Last updated" line, append a Changelog row (§8 of the page).
+3. Revise its session forecasts only on material change.
+4. Keep it self-contained (inline CSS, no JS, no external fonts/CDNs — must render offline).
+Dated reports/handoffs remain the immutable evidentiary record; the dashboard summarizes
+and cites them, never replaces them. The full protocol is in the HTML comment at the top
+of the file itself.
+
 ## Session convention
 Work TDD. End every session with a NEW dated handoff (`00-PORTFOLIO/YYYYMMDD-*-handoff.md`)
-summarizing what was done / what remains / file locations / known issues, then a commit +
-fast-forward push of WALKWORTHY paths only (explicit pathspecs). There is no external memory —
-the handoff IS the persistence.
+summarizing what was done / what remains / file locations / known issues, **plus the
+dashboard update above**, then a commit + fast-forward push of WALKWORTHY paths only
+(explicit pathspecs). There is no external memory — the handoff IS the persistence (and
+the dashboard is the at-a-glance view of it).

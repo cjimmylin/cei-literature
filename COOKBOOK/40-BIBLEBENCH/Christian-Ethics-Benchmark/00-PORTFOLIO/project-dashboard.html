@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <!-- WALKWORTHY-CANARY-7f3e2026 -->
+<!--
+  ═══════════════════════════════════════════════════════════════════════════
+  LIVING DOCUMENT — WALKWORTHY PROJECT DASHBOARD — UPDATE ME, DO NOT SNAPSHOT
+  ═══════════════════════════════════════════════════════════════════════════
+  This file is the ONE deliberate exception to the vault's report-immutability
+  rule (Jimmy's direction, 2026-07-11). ALL agents working on WALKWORTHY —
+  Anthropic/Claude, OpenAI/Codex, and any other model — must:
+    1. READ this dashboard at session start (alongside AGENTS.md).
+    2. UPDATE it at session end, in place: refresh the "Live status" panel,
+       any section your session made stale, the "Last updated" line, and
+       append a row to the Changelog (last section). Keep edits truthful, terse.
+    3. Revise the session forecasts only on material change.
+    4. NEVER let this file replace dated reports — those remain the immutable
+       evidentiary record; this dashboard summarizes and cites them.
+    5. Keep it fully self-contained: inline CSS only, NO JavaScript, NO
+       external fonts/CDNs (must render offline via file://).
+  ═══════════════════════════════════════════════════════════════════════════
+-->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WALKWORTHY — Roadmap &amp; Status (2026-07-11)</title>
+<title>WALKWORTHY — Project Dashboard (living)</title>
 <style>
   :root{
     --bg:#0e1320; --panel:#161d2e; --panel2:#1b2438; --line:#2a3550;
@@ -77,11 +95,31 @@
 <body>
 <div class="wrap">
 
-<h1>WALKWORTHY — Overall Plan, Status &amp; Session Forecast</h1>
+<h1>WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· Rendered 2026-07-11 at commit <span class="mono">eb32a42cd</span> · Sources: master plan (2026-07-06, frozen),
-panel report <span class="mono">20260711b</span>, validity review <span class="mono">20260711c</span>,
-O5 framework <span class="mono">20260711d</span></p>
+· <b style="color:var(--text)">Last updated: 2026-07-11 by Claude (Fable)</b>
+· Sources: master plan (2026-07-06, frozen), panel report <span class="mono">20260711b</span>,
+validity review <span class="mono">20260711c</span>, O5 framework <span class="mono">20260711d</span>,
+PR-9 (<span class="mono">PENDING-RULINGS.md</span>)
+· <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
+this is the one file exempt from report-immutability (protocol in the HTML comment atop this file and AGENTS.md).</p>
+
+<div class="panel" style="border-color:#5a4a1e;background:#241d10">
+  <div style="font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--jimmy);margin-bottom:8px">
+    ⚡ Live status — 2026-07-11</div>
+  <div style="font-size:14.5px;line-height:1.6">
+    <b>O5 is underway and PAUSED on PR-9.</b> Codex completed <b>Phase 0</b> (G4 pipeline hardened with
+    fail-closed CSV/provenance join + frozen-κ reporting; suite <b>274 green</b>; zero live calls), then correctly
+    STOP-AND-ASKED before W1: <b>(1)</b> the O4 run artifacts don't retain per-turn response text — <b>723</b>
+    disagreeing 02/07 turn units can't be re-judged from disk (needs transcript recovery or an authorized fresh
+    immutable re-execution of those dialogues); <b>(2)</b> the frozen W1 selector (refusal-tag
+    <code>pending_adjudication</code>) misses <b>1,405</b> of 3,172 <code>needs_adjudication</code> cells and
+    includes 20 non-tie-breakable records; <b>(3)</b> the Grok-4 probe conflicts with Jimmy's cheap-models-only
+    direction, and the Mistral fallback trips the Part-B sizing stop in every design.
+    <b>Waiting on:</b> a Jimmy/Fable ruling on PR-9 items 1–3 (<span class="mono">PENDING-RULINGS.md</span>,
+    handoff <span class="mono">20260711h-codex-o5-phase0-w1-stop-handoff.md</span>). Jimmy's Part-A labels
+    remain the release critical path regardless.</div>
+</div>
 
 <div class="answers">
   <div class="answer">
@@ -98,8 +136,9 @@ O5 framework <span class="mono">20260711d</span></p>
   </div>
 </div>
 <p class="statusbar"><b>Where we are:</b> the full 6-model measurement is DONE (2,064/2,064 cells, $48.75, 0 schema
-errors) and every remaining <em>judgment</em> is pre-made and frozen. The thread is handed to <b>Codex</b> for
-mechanical execution; the open dependency is <b>Jimmy's labels</b>.</p>
+errors) and every remaining <em>judgment</em> is pre-made and frozen. <b>Codex</b> has begun mechanical execution
+(Phase 0 done; W1 paused on PR-9 — see Live status above); the open dependencies are the <b>PR-9 ruling</b> and
+<b>Jimmy's labels</b>.</p>
 
 <h2><span class="n">1</span>The original plan (master plan §1, frozen 2026-07-06)</h2>
 <div class="panel">
@@ -190,7 +229,8 @@ therefore unreadable until the third-judge tie-breaker runs (Codex Phase 1, no l
 <h2><span class="n">4</span>Who owes what</h2>
 <div class="lanes">
   <div class="lane"><h3><span class="badge b-codex">CODEX</span> executes (judgment-free)</h3>
-    <ul><li><b>Phase 0+1 — can start today, no labels:</b> tie-breaker on the 609 cells, judge home-advantage test,
+    <ul><li><b>Phase 0 ✅ done</b> (G4 pipeline, 274 tests); <b>W1 ⏸ paused on PR-9</b> — resumes on ruling</li>
+    <li><b>Phase 1 remainder, no labels:</b> tie-breaker adjudication, judge home-advantage test,
     recompute, G5 driver, G7 batteries (~1–2 sessions, &lt;$30 live)</li>
     <li><b>Phase 2+3 — after labels:</b> G4 per wave → verdicts via the frozen formula (~1–2 sessions)</li></ul></div>
   <div class="lane"><h3><span class="badge b-jimmy">JIMMY</span> human critical path</h3>
@@ -208,8 +248,10 @@ therefore unreadable until the third-judge tie-breaker runs (Codex Phase 1, no l
 <div class="panel">
 <table>
 <tr><th style="width:44%">Phase</th><th>Who</th><th class="num">Sessions</th><th>Blocked on</th></tr>
-<tr><td>O5 Phase 0+1: tie-breaker adjudication, home-advantage test, recompute, G5 + G7 builds/runs</td>
-  <td><span class="badge b-codex">CODEX</span></td><td class="num">1–2</td><td>nothing — ready now</td></tr>
+<tr><td>O5 Phase 0+1: tie-breaker adjudication, home-advantage test, recompute, G5 + G7 builds/runs
+  <span style="color:var(--dim)">(Phase 0 done; W1 paused on PR-9 — likely +1 session for the 02/07
+  turn-transcript re-execution it implies)</span></td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">1–2</td><td><b>PR-9 ruling</b> (Jimmy/Fable)</td></tr>
 <tr><td>Part-A human labels (3 waves) + 2nd labeler</td>
   <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">~25–30 h</td><td><b>the critical path</b> (parallel to above)</td></tr>
 <tr><td>O5 Phase 2+3: G4 per wave, verdict assembly via the frozen release formula</td>
@@ -269,9 +311,31 @@ pre-decided, so bad outcomes cost sessions, not decisions.</p>
 </ul>
 </div>
 
-<p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark · report-immutable snapshot
-2026-07-11 (new dated files supersede; never edit this one) · Entry point for continuation:
-<span class="mono">00-PORTFOLIO/20260711g-codex-boot-prompt-and-reentry.md</span></p>
+<h2><span class="n">8</span>Dashboard protocol &amp; changelog</h2>
+<div class="panel">
+<p style="color:var(--dim);font-size:13.8px;margin:0 0 12px">
+This dashboard is a <b style="color:var(--text)">LIVING document</b> — the one file in this benchmark exempt from
+the report-immutability rule (Jimmy's direction, 2026-07-11). <b style="color:var(--text)">Every agent</b>
+(Anthropic/Claude, OpenAI/Codex, any other model) reads it at session start and updates it at session end:
+refresh the Live-status panel and any section your session made stale, bump the "Last updated" line, and append
+a Changelog row below. Forecasts change only on material change. Dated reports remain the immutable evidentiary
+record — this page summarizes and cites them, never replaces them. Keep it self-contained (inline CSS, no JS,
+no external resources).</p>
+<table>
+<tr><th style="width:110px">Date</th><th style="width:150px">Agent</th><th>Change</th></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
+  <td>Created (as dated roadmap snapshot <span class="mono">20260711h-walkworthy-roadmap.html</span>): plan since
+  genesis, timeline, gate status, session forecasts.</td></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
+  <td>Renamed to <span class="mono">project-dashboard.html</span> per Jimmy; converted to living document
+  (protocol + changelog added); Live status updated for Codex O5 Phase-0 completion + W1 PR-9 pause.</td></tr>
+</table>
+</div>
+
+<p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html
+· LIVING document — update in place per §8 · Continuation entry point:
+<span class="mono">00-PORTFOLIO/20260711g-codex-boot-prompt-and-reentry.md</span> · Immutable session record:
+the dated <span class="mono">00-PORTFOLIO/2026*</span> handoffs and reports</p>
 
 </div>
 </body>

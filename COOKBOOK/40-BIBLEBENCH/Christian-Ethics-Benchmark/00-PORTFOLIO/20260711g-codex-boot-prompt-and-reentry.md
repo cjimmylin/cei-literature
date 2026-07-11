@@ -74,3 +74,13 @@ Anything judgment-shaped → append a new PR-N to `00-PORTFOLIO/PENDING-RULINGS.
 (current PROVISIONAL behavior stated, options laid out, NO guessed disposition) and stop
 that thread. Jimmy rules; a future Fable window may rule delegated items per master-plan
 §1/O5, logging the ruling and flagging it for ratification.
+
+## 5. Addendum (2026-07-11, Jimmy direction) — the living project dashboard
+
+`00-PORTFOLIO/project-dashboard.html` is the rolling project dashboard and the ONE file
+exempt from report-immutability. The boot prompt in §1 and the re-entry protocol in §2
+are to be read as including, for EVERY agent (Codex, Claude, any other model):
+- **at session start:** read the dashboard alongside AGENTS.md and the latest handoff;
+- **at session end:** update it in place (Live-status panel, stale sections, "Last
+  updated" line, a Changelog row) before the commit+push.
+Full protocol: AGENTS.md §"Project dashboard" and the HTML comment atop the file.

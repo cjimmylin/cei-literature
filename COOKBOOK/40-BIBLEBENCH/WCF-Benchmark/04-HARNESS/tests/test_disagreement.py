@@ -81,6 +81,42 @@ def test_cells_sorted_worst_first():
     assert [c.item_id for c in cells] == ["HIGH", "LOW"]   # HIGH spread first
 
 
+def test_fenced_raw_value_is_preserved_but_excluded_from_eligible_ranking():
+    r = _report([
+        _open_result("FENCED-ARTIFACT", "sut-1", [
+            {"name": "a", "family": "openai", "matter": 0.0, "manner": 1.0, "end": 1.0,
+             "eligible_surfaces": ["open_award"], "scale_defect": {}},
+            {"name": "b", "family": "google", "matter": 0.1, "manner": 1.0, "end": 1.0,
+             "eligible_surfaces": ["open_award"], "scale_defect": {}},
+            {"name": "fenced", "family": "x-ai", "matter": 2.5, "manner": 1.0, "end": 1.0,
+             "eligible_surfaces": ["open_award"], "scale_defect": {"matter": True}},
+            {"name": "shadow", "family": "cohere", "matter": 2.0, "manner": 1.0, "end": 1.0,
+             "eligible_surfaces": ["coherence"], "scale_defect": {}},
+        ]),
+        _open_result("REAL-DISAGREEMENT", "sut-1", [
+            {"name": "a", "family": "openai", "matter": 0.0, "manner": 1.0, "end": 1.0,
+             "eligible_surfaces": ["open_award"], "scale_defect": {}},
+            {"name": "b", "family": "google", "matter": 0.8, "manner": 1.0, "end": 1.0,
+             "eligible_surfaces": ["open_award"], "scale_defect": {}},
+        ]),
+    ])
+
+    cells = summarize_disagreement(r)
+
+    assert [c.item_id for c in cells] == ["REAL-DISAGREEMENT", "FENCED-ARTIFACT"]
+    artifact = cells[1]
+    assert artifact.max_spread == pytest.approx(2.5)
+    assert artifact.eligible_spread == pytest.approx(0.1)
+    assert artifact.eligible_axis_spreads["matter"] == pytest.approx(0.1)
+    by_name = {v["name"]: v for v in artifact.judge_values["matter"]}
+    assert by_name["fenced"] == {
+        "name": "fenced", "family": "x-ai", "value": 2.5,
+        "eligible": True, "scale_defect": True,
+    }
+    assert by_name["shadow"]["eligible"] is False
+    assert by_name["shadow"]["scale_defect"] is False
+
+
 def test_mechanical_items_without_judge_raw_are_skipped():
     mech = PerItemResult(model="sut-1", item_id="AGG-C6-W301", design="aggravate",
                          commandment="C6", tier="T2a", track="B", kind=ORDINAL,

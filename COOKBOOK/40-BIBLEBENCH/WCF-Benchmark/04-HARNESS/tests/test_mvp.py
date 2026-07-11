@@ -440,6 +440,11 @@ def test_write_outputs_produces_all_artifacts(tmp_path):
     dis = json.load(open(paths["disagreement"]))
     assert dis["canary"] == mvp.CANARY
     assert "cells" in dis
+    open_cell = next(c for c in dis["cells"] if c["kind"] == "open")
+    assert open_cell["eligible_spread"] == pytest.approx(0.0)
+    assert open_cell["eligible_axis_spreads"]["matter"] == pytest.approx(0.0)
+    assert open_cell["judge_values"]["matter"][0]["eligible"] is True
+    assert open_cell["judge_values"]["matter"][0]["scale_defect"] is False
 
 
 # --------------------------------------------------------------------------- CLI dry-run

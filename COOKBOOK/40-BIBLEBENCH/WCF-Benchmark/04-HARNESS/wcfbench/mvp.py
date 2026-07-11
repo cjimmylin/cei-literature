@@ -821,7 +821,10 @@ def disagreement_from_transcripts(run_dir: str) -> List[Dict[str, Any]]:
     return [
         {"item_id": c.item_id, "model": c.model, "kind": c.kind, "n_judges": c.n_judges,
          "max_spread": c.max_spread, "split_defensible": c.split_defensible,
-         "axis_spreads": c.axis_spreads, "judge_values": c.judge_values, "detail": c.detail}
+         "axis_spreads": c.axis_spreads,
+         "eligible_spread": c.eligible_spread,
+         "eligible_axis_spreads": c.eligible_axis_spreads,
+         "judge_values": c.judge_values, "detail": c.detail}
         for c in cells
     ]
 

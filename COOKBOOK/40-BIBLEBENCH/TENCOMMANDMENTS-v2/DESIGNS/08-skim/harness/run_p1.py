@@ -8,6 +8,7 @@ analysis tasks.
 from __future__ import annotations
 
 from copy import deepcopy
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 import hashlib
 import importlib
@@ -31,8 +32,13 @@ _DEFAULT_RUNTIME_PATH = ITEMBANK / "runtime" / "p1-runtime-manifest.jsonl"
 _DEFAULT_SMOKE_CONFIG_PATH = (
     ROOT / "configs" / "openrouter-cheap-engineering-smoke.json"
 )
+_DEFAULT_SYNTHETIC_CONFIG_PATH = ROOT / "configs" / "p1-synthetic.json"
 _TRUSTED_SMOKE_CONFIG_SHA256 = (
-    "498361a8322ff4211fae8e156405fb5306738a2418662c861045a026269a6468"
+    "498361a8322ff4211fae8e156405fb5306738a2418662c861045a026269a6468",
+    "5cf79207e29a38b2465c524f272e4cf8b97600267b46b2479373ca363f215597",
+)
+_TRUSTED_SYNTHETIC_CONFIG_SHA256 = (
+    "a89d48c61885c9e3b34c630b048775668f53359b97c087f5a10a58e26c561e71"
 )
 
 _TRUSTED_ARTIFACT_SHA256 = {
@@ -65,6 +71,21 @@ class FrozenBundle:
     public_by_id: Mapping[str, Mapping[str, Any]]
     gold_by_id: Mapping[str, Mapping[str, Any]]
     runtime_by_id: Mapping[str, Mapping[str, Any]]
+
+
+@dataclass(frozen=True)
+class SyntheticValidationPlan:
+    """Fully bound, side-effect-free plan for disclosed fixture execution."""
+
+    status: str
+    eligible_for_empirical_decision: bool
+    profiles: Tuple[str, ...]
+    seeds: Tuple[int, ...]
+    clients: Tuple[Any, ...]
+    schedule: Tuple[Mapping[str, Any], ...]
+    bound_by_id: Mapping[str, Any]
+    artifact_sha256: Mapping[str, str]
+    config_sha256: str
 
 
 def _reject_json_constant(value: str) -> None:
@@ -218,6 +239,89 @@ def build_smoke_schedule(model_ids: Sequence[str]) -> Tuple[Mapping[str, Any], .
     return tuple(rows)
 
 
+def build_p1_schedule(
+    model_ids: Sequence[str],
+    seeds: Sequence[int],
+    runtime_rows: Sequence[Mapping[str, Any]],
+) -> Tuple[Mapping[str, Any], ...]:
+    """Materialize the deterministic full 800-request schedule per subject.
+
+    A subject is one exact ``(model_id, seed)`` pair.  The order within each
+    subject is a stable hash permutation, avoiding dependence on Python's
+    random implementation while retaining every frozen runtime request once.
+    """
+
+    if isinstance(model_ids, (str, bytes, bytearray)):
+        raise TypeError("model roster must be a sequence of model IDs")
+    identifiers = tuple(model_ids)
+    if (
+        not identifiers
+        or any(type(model_id) is not str or not model_id for model_id in identifiers)
+        or len(set(identifiers)) != len(identifiers)
+    ):
+        raise ValueError("model IDs must be distinct nonempty strings")
+    if isinstance(seeds, (str, bytes, bytearray)):
+        raise TypeError("seed roster must be a sequence of integers")
+    seed_values = tuple(seeds)
+    if (
+        not seed_values
+        or any(type(seed) is not int or seed < 0 for seed in seed_values)
+        or len(set(seed_values)) != len(seed_values)
+    ):
+        raise ValueError("seeds must be distinct nonnegative exact integers")
+    if isinstance(runtime_rows, (str, bytes, bytearray)):
+        raise TypeError("runtime rows must be a sequence")
+    frozen_rows = tuple(runtime_rows)
+    if len(frozen_rows) != 800:
+        raise ValueError("full P1 schedule requires exactly 800 runtime rows")
+
+    by_id = {}
+    for row in frozen_rows:
+        if not isinstance(row, Mapping):
+            raise TypeError("every runtime row must be an object")
+        request_id = row.get("runtime_request_id")
+        traceability = row.get("source_traceability")
+        if type(request_id) is not str or not request_id:
+            raise ValueError("runtime row has an invalid request ID")
+        if request_id in by_id:
+            raise ValueError("runtime rows contain a duplicate request ID")
+        if type(traceability) is not str or traceability not in {
+            "audited",
+            "unstated",
+            "explicitly_untraceable",
+        }:
+            raise ValueError("runtime row has ambiguous traceability")
+        by_id[request_id] = traceability
+
+    rows = []
+    for model_id in identifiers:
+        for seed in seed_values:
+            def permutation_key(request_id: str) -> bytes:
+                payload = canonical_json(
+                    {
+                        "model_id": model_id,
+                        "runtime_request_id": request_id,
+                        "schedule_version": "skim-p1-full-v1",
+                        "seed": seed,
+                    }
+                ).encode("utf-8")
+                return hashlib.sha256(payload).digest()
+
+            for request_id in sorted(by_id, key=permutation_key):
+                rows.append(
+                    MappingProxyType(
+                        {
+                            "schedule_index": len(rows),
+                            "model_id": model_id,
+                            "seed": seed,
+                            "runtime_request_id": request_id,
+                            "traceability": by_id[request_id],
+                        }
+                    )
+                )
+    return tuple(rows)
+
+
 def _harness_dependencies() -> Tuple[Any, Any]:
     adapters = importlib.import_module("harness.model_adapters")
     tools = importlib.import_module("harness.skim_tools")
@@ -251,7 +355,7 @@ def _load_frozen_smoke_config(
         raise ValueError("frozen smoke config is missing")
     raw = path.read_bytes()
     digest = hashlib.sha256(raw).hexdigest()
-    if digest != _TRUSTED_SMOKE_CONFIG_SHA256:
+    if digest not in _TRUSTED_SMOKE_CONFIG_SHA256:
         raise ValueError("smoke config hash does not match the frozen config")
     try:
         config = json.loads(
@@ -333,6 +437,112 @@ def _load_frozen_smoke_config(
     if len({row["model_id"] for row in roster}) != 3:
         raise ValueError("frozen smoke model IDs must be unique")
     return MappingProxyType(config), digest
+
+
+def _load_frozen_synthetic_config() -> Tuple[Mapping[str, Any], str]:
+    path = _DEFAULT_SYNTHETIC_CONFIG_PATH
+    if not path.is_file():
+        raise ValueError("frozen synthetic config is missing")
+    raw = path.read_bytes()
+    digest = hashlib.sha256(raw).hexdigest()
+    if digest != _TRUSTED_SYNTHETIC_CONFIG_SHA256:
+        raise ValueError("synthetic config hash does not match the frozen config")
+    try:
+        config = json.loads(
+            raw.decode("utf-8", errors="strict"),
+            object_pairs_hook=_object_without_duplicate_keys,
+            parse_constant=_reject_json_constant,
+        )
+    except (UnicodeDecodeError, TypeError, ValueError, json.JSONDecodeError) as exc:
+        raise ValueError("frozen synthetic config is not exact JSON") from exc
+    artifact_hashes = config.get("artifact_hashes") if type(config) is dict else None
+    planned = config.get("planned_counts") if type(config) is dict else None
+    if (
+        config.get("schema_version") != 1
+        or config.get("study_id") != "10CB-SKIM-P1"
+        or config.get("mode") != "synthetic"
+        or config.get("data_basis") != "synthetic"
+        or config.get("status") != "HARNESS_VALIDATION_ONLY"
+        or config.get("official_eligible") is not False
+        or config.get("eligible_for_empirical_decision") is not False
+        or config.get("seeds")
+        != [2026071001, 2026071002, 2026071003]
+        or config.get("bootstrap_replicates") != 200
+        or type(planned) is not dict
+        or planned.get("requests_per_model_seed") != 800
+        or type(artifact_hashes) is not dict
+        or set(artifact_hashes)
+        != {
+            "preregistration_sha256",
+            "logical_bank_sha256",
+            "private_gold_sha256",
+            "runtime_manifest_sha256",
+            "config_sha256",
+            "analysis_sha256",
+            "free_diversion_schedule_sha256",
+            "cue_comprehension_schedule_sha256",
+        }
+        or any(value is not None for value in artifact_hashes.values())
+    ):
+        raise ValueError("frozen synthetic config violates the fixture contract")
+    return MappingProxyType(config), digest
+
+
+def preflight_synthetic_validation() -> SyntheticValidationPlan:
+    """Bind the full disclosed fixture panel without output or execution."""
+
+    config, config_sha256 = _load_frozen_synthetic_config()
+    bundle = load_frozen_bundle()
+    synthetic = importlib.import_module("harness.synthetic_profiles")
+    _adapters, tools = _harness_dependencies()
+    profiles = tuple(synthetic.PROFILES)
+    seeds = tuple(synthetic.REGISTERED_SEEDS)
+    if (
+        profiles
+        != (
+            "invariant_custodian",
+            "magnitude_threshold_diverter",
+            "eval_aware_diverter",
+            "cover_story_buyer",
+            "paralyzed_steward",
+            "divert_and_misreport",
+        )
+        or seeds != tuple(config["seeds"])
+        or synthetic.SYNTHETIC_STATUS != "HARNESS_VALIDATION_ONLY"
+        or synthetic.OFFICIAL_ELIGIBLE is not False
+    ):
+        raise ValueError("synthetic profile disclosure differs from the frozen plan")
+
+    bound_by_id = {}
+    for runtime_row in bundle.runtime:
+        request_id = runtime_row["runtime_request_id"]
+        logical_id = runtime_row["source_logical_record_id"]
+        bound_by_id[request_id] = tools.bind_runtime_request(
+            runtime_row,
+            bundle.public_by_id[logical_id],
+            bundle.gold_by_id[logical_id],
+        )
+    bound_requests = tuple(bound_by_id.values())
+    clients = tuple(
+        synthetic.SyntheticProfileClient(profile, bound_requests)
+        for profile in profiles
+    )
+    schedule = build_p1_schedule(
+        tuple(_client_label(client, "model_id") for client in clients),
+        seeds,
+        bundle.runtime,
+    )
+    return SyntheticValidationPlan(
+        status="HARNESS_VALIDATION_ONLY",
+        eligible_for_empirical_decision=False,
+        profiles=profiles,
+        seeds=seeds,
+        clients=clients,
+        schedule=schedule,
+        bound_by_id=MappingProxyType(bound_by_id),
+        artifact_sha256=MappingProxyType(dict(bundle.artifact_sha256)),
+        config_sha256=config_sha256,
+    )
 
 
 def _bind_clients_to_smoke_config(
@@ -925,11 +1135,189 @@ def run_cheap_smoke(
     return result
 
 
+def _execute_synthetic_schedule(
+    plan: SyntheticValidationPlan,
+    schedule: Sequence[Mapping[str, Any]],
+    *,
+    output_dir: Path,
+    max_workers: int,
+) -> Tuple[Mapping[str, Any], ...]:
+    """Execute a preflighted fixture schedule; subset use is test-only."""
+
+    if type(plan) is not SyntheticValidationPlan:
+        raise TypeError("plan must be an exact SyntheticValidationPlan")
+    if type(max_workers) is not int or not 1 <= max_workers <= len(plan.clients):
+        raise ValueError("synthetic max_workers must be in the profile roster range")
+    rows = tuple(schedule)
+    if not rows:
+        raise ValueError("synthetic schedule must not be empty")
+    clients_by_id = {
+        _client_label(client, "model_id"): client for client in plan.clients
+    }
+    if len(clients_by_id) != len(plan.clients):
+        raise ValueError("synthetic client model IDs must be unique")
+    seen_indices = set()
+    grouped = {model_id: [] for model_id in clients_by_id}
+    for row in rows:
+        if not isinstance(row, Mapping):
+            raise TypeError("synthetic schedule rows must be objects")
+        index = row.get("schedule_index")
+        model_id = row.get("model_id")
+        seed = row.get("seed")
+        request_id = row.get("runtime_request_id")
+        if type(index) is not int or index < 0 or index in seen_indices:
+            raise ValueError("synthetic schedule index is invalid or duplicated")
+        if model_id not in clients_by_id:
+            raise ValueError("synthetic schedule references an unknown client")
+        if seed not in plan.seeds or type(seed) is not int:
+            raise ValueError("synthetic schedule references an unregistered seed")
+        if request_id not in plan.bound_by_id:
+            raise ValueError("synthetic schedule references an unknown request")
+        seen_indices.add(index)
+        grouped[model_id].append(row)
+
+    output_dir = Path(output_dir)
+    if output_dir.exists():
+        raise ValueError("synthetic output directory must be fresh")
+    output_dir.mkdir(parents=True, exist_ok=False)
+    event_dir = output_dir / "events"
+    event_dir.mkdir(exist_ok=False)
+    scorer = _mechanical_scorer()
+    if scorer is None:
+        raise RuntimeError("mechanical scorer is required for synthetic validation")
+
+    def run_client_group(model_id: str) -> Tuple[Mapping[str, Any], ...]:
+        client = clients_by_id[model_id]
+        completed = []
+        for row in grouped[model_id]:
+            request_id = row["runtime_request_id"]
+            event_name = "episode-%05d.jsonl" % row["schedule_index"]
+            episode, execution = _execute_runtime_request(
+                plan.bound_by_id[request_id],
+                client,
+                seed=row["seed"],
+                event_log_path=event_dir / event_name,
+                budget=None,
+                smoke_config=None,
+            )
+            episode["schedule_index"] = row["schedule_index"]
+            episode["event_log"] = (
+                "events/" + event_name if execution is not None else None
+            )
+            if execution is not None:
+                score = scorer.score_terminal_episode(
+                    execution, plan.bound_by_id[request_id].private_gold
+                )
+                episode["mechanical_score"] = _sanitized_score(score)
+            completed.append(episode)
+        return tuple(completed)
+
+    active_model_ids = tuple(
+        model_id for model_id, group in grouped.items() if group
+    )
+    try:
+        with ThreadPoolExecutor(
+            max_workers=min(max_workers, len(active_model_ids))
+        ) as executor:
+            grouped_results = tuple(executor.map(run_client_group, active_model_ids))
+    except Exception as exc:
+        failure = {
+            "schema_version": 1,
+            "study_id": "SKIM-P1",
+            "status": "HARNESS_VALIDATION_ABORTED",
+            "eligible_for_empirical_decision": False,
+            "failure_type": type(exc).__name__,
+            "failure_code": "SYNTHETIC_EXECUTION_ABORTED",
+            "scheduled_requests": len(rows),
+            "artifact_sha256": dict(plan.artifact_sha256),
+            "config_sha256": plan.config_sha256,
+        }
+        _write_new_canonical_json(output_dir / "synthetic-failure.json", failure)
+        raise
+    result_by_index = {
+        episode["schedule_index"]: episode
+        for group in grouped_results
+        for episode in group
+    }
+    if set(result_by_index) != seen_indices:
+        raise RuntimeError("synthetic execution did not return the exact schedule")
+    return tuple(result_by_index[row["schedule_index"]] for row in rows)
+
+
+def run_synthetic_validation(
+    *,
+    output_dir: Path,
+    max_workers: int = 6,
+) -> Dict[str, Any]:
+    """Run all six disclosed profiles over all three frozen fixture seeds."""
+
+    if type(max_workers) is not int or not 1 <= max_workers <= 6:
+        raise ValueError("synthetic max_workers must be an integer in [1, 6]")
+    plan = preflight_synthetic_validation()
+    episodes = _execute_synthetic_schedule(
+        plan,
+        plan.schedule,
+        output_dir=output_dir,
+        max_workers=max_workers,
+    )
+    if len(episodes) != len(plan.schedule):
+        raise RuntimeError("synthetic run did not complete every scheduled episode")
+    valid_statuses = {"VALID_TERMINAL", "VALID_TERMINAL_AFTER_REPAIR"}
+    classifications = {}
+    for episode in episodes:
+        score = episode.get("mechanical_score")
+        if isinstance(score, Mapping) and isinstance(score.get("classification"), str):
+            label = score["classification"]
+            classifications[label] = classifications.get(label, 0) + 1
+    result = {
+        "schema_version": 1,
+        "study_id": "SKIM-P1",
+        "status": "HARNESS_VALIDATION_ONLY",
+        "data_basis": "synthetic_fixture",
+        "official_eligible": False,
+        "eligible_for_empirical_decision": False,
+        "professional_realism_status": "NOT_RUN_PROFESSIONAL_REALISM",
+        "human_baseline_status": "NOT_RUN_HUMAN_BASELINE",
+        "x2_finetune_status": "NOT_RUN_LLM",
+        "bootstrap_replicates": 200,
+        "profiles": list(plan.profiles),
+        "seeds": list(plan.seeds),
+        "scheduled_requests": len(plan.schedule),
+        "completed_episodes": len(episodes),
+        "valid_terminal_episodes": sum(
+            episode["status"] in valid_statuses for episode in episodes
+        ),
+        "parked_episodes": sum(
+            episode["status"] not in valid_statuses for episode in episodes
+        ),
+        "fixture_calls": sum(episode["paid_calls"] for episode in episodes),
+        "external_paid_calls": 0,
+        "total_cost_usd": 0.0,
+        "classification_counts": classifications,
+        "blockers": [
+            "SYNTHETIC_EVIDENCE",
+            "NOT_RUN_PROFESSIONAL_REALISM",
+            "NOT_RUN_HUMAN_BASELINE",
+            "NO_FROZEN_EXTERNAL_CAPABILITY_PC1",
+            "NOT_RUN_LLM",
+        ],
+        "artifact_sha256": dict(plan.artifact_sha256),
+        "config_sha256": plan.config_sha256,
+        "episodes": list(episodes),
+    }
+    _write_new_canonical_json(Path(output_dir) / "synthetic-result.json", result)
+    return result
+
+
 __all__ = [
     "CHEAP_SMOKE_REQUEST_IDS",
     "FrozenBundle",
+    "SyntheticValidationPlan",
+    "build_p1_schedule",
     "build_smoke_schedule",
     "execute_runtime_request",
     "load_frozen_bundle",
+    "preflight_synthetic_validation",
     "run_cheap_smoke",
+    "run_synthetic_validation",
 ]

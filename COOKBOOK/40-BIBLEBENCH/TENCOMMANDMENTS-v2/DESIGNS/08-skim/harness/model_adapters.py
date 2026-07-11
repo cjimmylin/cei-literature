@@ -13,6 +13,8 @@ import urllib.request
 
 
 CHAT_COMPLETIONS_URL = "https://openrouter.ai/api/v1/chat/completions"
+_MAX_ATTEMPTS_LIMIT = 5
+_MAX_RETRY_DELAY_SECONDS = 30.0
 
 _PUBLIC_REQUEST_KEYS = (
     "options",
@@ -65,6 +67,17 @@ class OpenRouterRequestError(OpenRouterError):
 
 class OpenRouterTransportError(OpenRouterError):
     """Raised when the HTTP exchange fails."""
+
+    def __init__(
+        self,
+        message: str,
+        *,
+        status_code: Optional[int],
+        attempt_count: int,
+    ) -> None:
+        super().__init__(message)
+        self.status_code = status_code
+        self.attempt_count = attempt_count
 
 
 class OpenRouterResponseError(OpenRouterError):
@@ -196,6 +209,8 @@ class OpenRouterClient:
         api_key: Optional[str] = None,
         max_tokens: int = 256,
         cost_cap_usd: float = 1.0,
+        max_attempts: int = 3,
+        retry_base_seconds: float = 1.0,
         opener: Optional[Callable[..., Any]] = None,
         sleeper: Optional[Callable[[float], Any]] = None,
     ) -> None:
@@ -216,6 +231,21 @@ class OpenRouterClient:
             raise OpenRouterConfigurationError("cost_cap_usd must be finite and positive")
         self.max_tokens = max_tokens
         self.cost_cap_usd = float(cost_cap_usd)
+        if type(max_attempts) is not int or not 1 <= max_attempts <= _MAX_ATTEMPTS_LIMIT:
+            raise OpenRouterConfigurationError(
+                "max_attempts must be an integer in [1, %d]" % _MAX_ATTEMPTS_LIMIT
+            )
+        if (
+            isinstance(retry_base_seconds, bool)
+            or not isinstance(retry_base_seconds, (int, float))
+            or not math.isfinite(float(retry_base_seconds))
+            or not 0 <= float(retry_base_seconds) <= _MAX_RETRY_DELAY_SECONDS
+        ):
+            raise OpenRouterConfigurationError(
+                "retry_base_seconds must be finite and in [0, 30]"
+            )
+        self.max_attempts = max_attempts
+        self.retry_base_seconds = float(retry_base_seconds)
         self.spent_cost_usd = 0.0
         self._api_key = _resolve_api_key(api_key)
         self._opener = urllib.request.urlopen if opener is None else opener
@@ -260,6 +290,7 @@ class OpenRouterClient:
         self,
         payload: Mapping[str, Any],
         usage: Mapping[str, Any],
+        attempt_count: int,
     ) -> float:
         cost = usage.get("cost")
         if isinstance(cost, bool) or not isinstance(cost, (int, float)):
@@ -271,7 +302,7 @@ class OpenRouterClient:
             "requested_model": self.model_id,
             "usage": dict(usage),
             "cost_usd": cost_usd,
-            "attempt_count": 1,
+            "attempt_count": attempt_count,
             "response_status": "RECEIVED_UNVALIDATED",
         }
         choices = payload.get("choices")
@@ -297,7 +328,7 @@ class OpenRouterClient:
         self._last_call_metadata = metadata
         return cost_usd
 
-    def _parse(self, raw: Any) -> str:
+    def _parse(self, raw: Any, *, attempt_count: int) -> str:
         if isinstance(raw, bytes):
             try:
                 raw = raw.decode("utf-8")
@@ -312,7 +343,7 @@ class OpenRouterClient:
         if not isinstance(payload, Mapping):
             raise OpenRouterResponseError("response payload was malformed")
         usage = _safe_usage(payload.get("usage"))
-        self._account_paid_response(payload, usage)
+        self._account_paid_response(payload, usage, attempt_count)
         try:
             if payload.get("error") is not None:
                 raise OpenRouterResponseError("response payload was malformed")
@@ -407,15 +438,49 @@ class OpenRouterClient:
                 "Accept": "application/json",
             },
         )
-        try:
-            response = self._opener(http_request, timeout=60.0)
-            with response as handle:
-                raw = handle.read()
-        except urllib.error.HTTPError as error:
-            raise OpenRouterTransportError("OpenRouter HTTP %d" % error.code) from None
-        except (urllib.error.URLError, TimeoutError, OSError):
-            raise OpenRouterTransportError("OpenRouter transport failed") from None
-        return self._parse(raw)
+        for attempt in range(1, self.max_attempts + 1):
+            try:
+                response = self._opener(http_request, timeout=60.0)
+                with response as handle:
+                    raw = handle.read()
+                return self._parse(raw, attempt_count=attempt)
+            except urllib.error.HTTPError as error:
+                retryable = error.code == 429
+                if retryable and attempt < self.max_attempts:
+                    delay = self.retry_base_seconds * (2 ** (attempt - 1))
+                    headers = getattr(error, "headers", None)
+                    retry_after = (
+                        headers.get("Retry-After") if headers is not None else None
+                    )
+                    if retry_after is not None:
+                        try:
+                            parsed_retry_after = float(retry_after)
+                        except (TypeError, ValueError):
+                            parsed_retry_after = delay
+                        if (
+                            math.isfinite(parsed_retry_after)
+                            and parsed_retry_after >= 0
+                        ):
+                            delay = parsed_retry_after
+                    self._sleeper(min(delay, _MAX_RETRY_DELAY_SECONDS))
+                    continue
+                suffix = " after %d attempts" % attempt if retryable else ""
+                raise OpenRouterTransportError(
+                    "OpenRouter HTTP %d%s" % (error.code, suffix),
+                    status_code=error.code,
+                    attempt_count=attempt,
+                ) from None
+            except (urllib.error.URLError, TimeoutError, OSError):
+                raise OpenRouterTransportError(
+                    "OpenRouter transport failed on attempt %d" % attempt,
+                    status_code=None,
+                    attempt_count=attempt,
+                ) from None
+        raise OpenRouterTransportError(
+            "OpenRouter retry loop ended unexpectedly",
+            status_code=None,
+            attempt_count=self.max_attempts,
+        )
 
 
 __all__ = [

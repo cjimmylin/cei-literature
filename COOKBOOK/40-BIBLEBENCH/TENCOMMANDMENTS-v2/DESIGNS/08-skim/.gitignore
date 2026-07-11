@@ -1,1 +1,5 @@
 pilots/**/events/.*.lock
+pilots/20260711-cheap-openrouter-full-r1/checkpoints/
+pilots/20260711-cheap-openrouter-full-r1/events/
+pilots/20260711-synthetic-validation-r1/events/
+pilots/20260711-synthetic-validation-r1/synthetic-result.json

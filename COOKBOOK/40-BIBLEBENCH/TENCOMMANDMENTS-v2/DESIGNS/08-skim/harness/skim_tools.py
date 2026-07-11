@@ -606,6 +606,68 @@ def execute_bound_action(bound, raw, episode_id, event_log_path):
     )
 
 
+def resume_bound_action(bound, episode_id, event_log_path):
+    """Resume and re-verify one persisted terminal SKIM episode.
+
+    This is the authoritative bridge from durable custody evidence to later
+    mechanical analysis.  It derives the transition from the persisted action
+    and the frozen bound state; no detached score or result payload is trusted.
+    """
+
+    if type(bound) is not BoundRuntimeRequest:
+        raise TypeError("bound must be an exact BoundRuntimeRequest")
+    metadata = _metadata(bound, episode_id)
+    event_log = EventLog(event_log_path)
+    initial_state = EpisodeState(bound._initial_state.to_dict())
+    events = event_log.events
+    if len(events) != 1 or not verify_chain(events):
+        raise RuntimeError("persisted episode must contain one valid event")
+    event = events[0]
+    expected_transition = _REGISTRY.execute(initial_state, event.action)
+    expected_state = expected_transition.next_state
+    expected_result = expected_transition.tool_result
+    if (
+        event.event_index != 0
+        or event.previous_event_sha256 != ZERO_EVENT_SHA256
+        or event.state_before_sha256 != state_sha256(initial_state)
+        or event.state_after_sha256 != state_sha256(expected_state)
+        or canonical_json_bytes(event.tool_result.to_dict())
+        != canonical_json_bytes(expected_result.to_dict())
+        or event.episode_id != metadata["episode_id"]
+        or event.logical_id != metadata["logical_id"]
+        or event.prompt_sha256 != metadata["prompt_sha256"]
+        or event.item_sha256 != metadata["item_sha256"]
+        or event.template_sha256 != metadata["template_sha256"]
+        or event.terminal is not True
+    ):
+        raise RuntimeError("persisted event differs from its frozen binding")
+    resumed = Runtime.resume(
+        initial_state,
+        _REGISTRY,
+        event_log=event_log,
+        **metadata,
+    )
+    if (
+        resumed.terminal is not True
+        or state_sha256(resumed.state) != state_sha256(expected_state)
+        or canonical_json_bytes(
+            [persisted.to_dict() for persisted in resumed.events]
+        )
+        != canonical_json_bytes([event.to_dict()])
+    ):
+        raise RuntimeError("persisted episode did not resume to its bound state")
+    commit = resumed.state.to_dict().get("commit")
+    if type(commit) is not dict:
+        raise RuntimeError("resumed terminal runtime has no exact commit")
+    return BoundActionExecution(
+        status="VALID_TERMINAL",
+        runtime=resumed,
+        events=resumed.events,
+        commit=commit,
+        resume_verified=True,
+    )
+
+
 __all__ = [
     "BindingError",
     "BoundActionExecution",
@@ -614,4 +676,5 @@ __all__ = [
     "SemanticActionError",
     "bind_runtime_request",
     "execute_bound_action",
+    "resume_bound_action",
 ]

@@ -1,15 +1,17 @@
 # 10CBench — PARKED 2026-07-06 · Opus Re-Entry Prompt
 
+> **Codex continuation rule (active 2026-07-11):** Read `CODEX-EXECUTION-CONTRACT.md` and `CURRENT-STATE.md` first. The contract controls critical-path sequencing and engineering-readiness stopping rules; `CURRENT-STATE.md` supplies the live benchmark, paid checkpoint, spend, and exact next command. Then use the governing stack below for scientific semantics and adjudication. Do not restart from this historical parked state when the current-state file records later work.
+
 **Thread status:** PARKED after the Fable spot-check + full front-load. All Fable-dischargeable work is DONE and pushed through `522725f3b`. The bench is designed so that **everything below runs on Opus without Fable** — every gate outcome has a mechanical rule; anything unlisted parks to `FABLE-QUEUE/` and the wave continues.
 
-## Paste-ready prompt for the next session (Opus, bank-build session 1)
+## Paste-ready prompt for the next execution session
 
-> Continue 10CBench (Ten Commandments benchmark). You are an OPUS EXECUTION session — build, don't redesign. Read, in order: (1) `CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/TENCOMMANDMENTS-REVIEWS/20260706-fable-spotcheck-and-tc9-wave1-release.md` (the wave-1 release + entry gates), (2) `20260706-wave1-gate-adjudication-protocol.md` (how to adjudicate every gate outcome yourself — §0 general rules especially), (3) the design brief `TENCOMMANDMENTS-v2/DESIGNS/10-zerosum-no-coveting.md` end-to-end + v2 portfolio §§3–7 + KB docs 01/04/06/07.
-> Task: build ZEROSUM's P1 per its Opus block — generator + structure-certificate emitter FIRST, then the human-coded ≥200-response advice-classifier calibration set (validated BEFORE any model scoring), then the 160-item grid + twins + both X2 probes. Write the 0–100 design-range mapping for the ≥20-pt spread gate into the pilot budget before model runs (protocol §0.4). Respect the do-not-change list. If credentials for live model runs are absent, build everything up to the runnable harness and validate synthetically, disclosed (THORNS/WITNESS precedent). Gate outcomes: adjudicate per the protocol; unlisted outcome → dated memo in `TENCOMMANDMENTS-REVIEWS/FABLE-QUEUE/` and continue. Scope isolation: Ten Commandments folders + 00-KNOWLEDGEBASE only. New reports get new `YYYYMMDD-` files. No rm (RECYCLE-BIN only). Check `git log -1` before staging (parallel sessions share the index); stage only your paths; commit atomically; push. Write a handoff at session end.
+> Continue 10CBench (Ten Commandments benchmark). You are an EXECUTION session — build, don't redesign. Read, in order: (1) `CODEX-EXECUTION-CONTRACT.md`, (2) `CURRENT-STATE.md`, (3) the governing stack below, and (4) the current benchmark brief named by `CURRENT-STATE.md`.
+> Task: execute `CURRENT-STATE.md`'s current milestone and exact next command; do not restart completed designs. Respect all frozen semantic, adjudication, scope, file-safety, git, spend-cap, and credential rules below. Gate outcomes: adjudicate per the protocols; unlisted outcome → dated memo in `TENCOMMANDMENTS-REVIEWS/FABLE-QUEUE/` and continue. Scope isolation: Ten Commandments folders + 00-KNOWLEDGEBASE only. New reports get new `YYYYMMDD-` files. No rm (RECYCLE-BIN only). Check `git log -1` before staging (parallel sessions share the index); stage only your paths; commit atomically; push. Write a handoff at session end.
 
-Subsequent build sessions repeat this template with the next design: **SKIM → PALTER (BT gate EARLY) → TABLETS → SOVEREIGN (L2-P0 first)**, each swapping in its brief + its row in the two protocols. TABLETS additionally requires `20260706-tablets-crux-coregistration.md` (exists) + casuistry-panel certification status + the TC-3 power analyses written pre-pilot.
+The historical first-wave sequence is **ZEROSUM → SKIM → PALTER (BT gate EARLY) → TABLETS → SOVEREIGN (L2-P0 first)**. `CURRENT-STATE.md` selects the next incomplete design. TABLETS additionally requires `20260706-tablets-crux-coregistration.md` (exists) + casuistry-panel certification status + the TC-3 power analyses written pre-pilot.
 
-## The governing document stack (all in this folder unless noted; read order for any new session)
+## The governing document stack (all in this folder unless noted; read order after the active contract and current state)
 
 1. `20260705-GATE-ADJUDICATION.md` — binding law (TC-1…TC-12).
 2. `20260706-fable-spotcheck-and-tc9-wave1-release.md` — wave-1 release, entry gates, rulings (UPSTREAM rename confirmed; TC-2/TC-4 interpretations fixed).

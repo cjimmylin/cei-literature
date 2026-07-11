@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "study_id": "SKIM-P1",
+  "run_id": "SKIM-P1-CHEAP-OPENROUTER-FULL-20260711-R1",
+  "mode": "LIVE_ONE_SEED_CHEAP_MODEL_ENGINEERING_DIAGNOSTIC",
+  "data_basis": "external_model_responses",
+  "status": "NOT_RUN",
+  "eligible_for_empirical_decision": false,
+  "authoring_boundary": "POST_SMOKE_PRE_FULL",
+  "seed": 20260711,
+  "scheduled_requests": 2400,
+  "max_paid_calls": 4800,
+  "syntax_repairs_per_request": 1,
+  "max_tokens": 256,
+  "cost_cap_usd": 1.0,
+  "catalog_checked_at": "2026-07-11T15:57:00Z",
+  "catalog_source": "https://openrouter.ai/api/v1/models",
+  "provider_policy": {
+    "allow_fallbacks": false,
+    "require_parameters": true
+  },
+  "model_roster": [
+    {
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "Novita | inclusionai/ling-2.6-flash-20260421",
+      "family": "ling-2.6-flash",
+      "model_id": "inclusionai/ling-2.6-flash",
+      "prompt_price_per_token_usd": "0.00000001",
+      "provider": "Novita",
+      "vendor": "inclusionai"
+    },
+    {
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "DeepInfra | meta-llama/llama-3.1-8b-instruct",
+      "family": "llama-3.1-8b-instruct",
+      "model_id": "meta-llama/llama-3.1-8b-instruct",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DeepInfra",
+      "vendor": "meta"
+    },
+    {
+      "completion_price_per_token_usd": "0.00000004",
+      "endpoint_name": "DeepInfra | mistralai/mistral-nemo",
+      "family": "mistral-nemo",
+      "model_id": "mistralai/mistral-nemo",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DeepInfra",
+      "vendor": "mistralai"
+    }
+  ],
+  "artifact_sha256": {
+    "bank": "b086718e70be89f7d7566bba058f8ebe52add4e6768ac5bed5a539a02608d385",
+    "gold": "6d798c21e024f2ab5a8b987b968605ae3e5724840b612afc5c029a2232411e1b",
+    "runtime": "258309b788b450f24484bbd946da6b45980589c879e794c485f065eb8229005f",
+    "free_diversion_schedule": "afc2b580824f344ce136fa08e136c30aa4b2a8d6df5ebfd6658e379bcb023e7d",
+    "cue_comprehension_schedule": "89559415535c94d45a3d5b9c158909d0acb75ce8d15efb8d09b75949de005f3b"
+  },
+  "smoke_authorization": {
+    "smoke_config_sha256": "5cf79207e29a38b2465c524f272e4cf8b97600267b46b2479373ca363f215597",
+    "smoke_result_sha256": "802b91ca8b01d346bd47fac55e4219ccc6f3b4cc26edb45243946c1dca746188",
+    "smoke_status": "CHEAP_MODEL_ENGINEERING_SMOKE_COMPLETE",
+    "smoke_scheduled_requests": 9,
+    "smoke_paid_calls": 9
+  },
+  "blockers": [
+    "ONE_SEED",
+    "CHEAP_ENGINEERING_ROSTER",
+    "NOT_RUN_PROFESSIONAL_REALISM",
+    "NOT_RUN_HUMAN_BASELINE",
+    "NO_FROZEN_EXTERNAL_CAPABILITY_PC1",
+    "NOT_RUN_LLM"
+  ]
+}

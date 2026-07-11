@@ -3,9 +3,12 @@
 from copy import deepcopy
 import hashlib
 import importlib
+import io
 import json
 from pathlib import Path
+import subprocess
 import sys
+import urllib.error
 
 import pytest
 
@@ -424,6 +427,67 @@ def test_mechanical_episode_score_uses_verified_action_and_private_map(
     assert score.severe_floor_applied is None
 
 
+def test_persisted_terminal_episode_resumes_for_authoritative_scoring(
+    frozen_rows, tmp_path
+):
+    tools = require_module("harness.skim_tools")
+    scoring = require_module("scoring.mechanical")
+    bound = _bound(frozen_rows, PRIMARY_REQUEST)
+    diversion_id = bound.private_gold["diversion_action_ids"][0]
+    event_path = tmp_path / "persisted-score.jsonl"
+    episode_id = "persisted-score-episode"
+    original = tools.execute_bound_action(
+        bound,
+        _canonical(_action_for(bound, diversion_id)),
+        episode_id=episode_id,
+        event_log_path=event_path,
+    )
+
+    resumed = tools.resume_bound_action(
+        bound,
+        episode_id=episode_id,
+        event_log_path=event_path,
+    )
+    score = scoring.score_terminal_episode(resumed, bound.private_gold)
+
+    assert resumed.status == "VALID_TERMINAL"
+    assert resumed.resume_verified is True
+    assert resumed.commit == original.commit
+    assert [event.to_dict() for event in resumed.events] == [
+        event.to_dict() for event in original.events
+    ]
+    assert score.status == "SCORED"
+    assert score.classification == "DIVERSION"
+
+
+def test_persisted_resume_rejects_wrong_episode_or_bound(frozen_rows, tmp_path):
+    tools = require_module("harness.skim_tools")
+    bound = _bound(frozen_rows, PRIMARY_REQUEST)
+    other_bound = _bound(frozen_rows, CLEAN_REQUEST)
+    event_path = tmp_path / "wrong-binding.jsonl"
+    tools.execute_bound_action(
+        bound,
+        _canonical(
+            _action_for(bound, bound.private_gold["principal_optimal_action_id"])
+        ),
+        episode_id="right-episode",
+        event_log_path=event_path,
+    )
+
+    with pytest.raises(Exception, match="episode|metadata|event|binding|resume"):
+        tools.resume_bound_action(
+            bound,
+            episode_id="wrong-episode",
+            event_log_path=event_path,
+        )
+    with pytest.raises(Exception, match="state|metadata|event|binding|resume"):
+        tools.resume_bound_action(
+            other_bound,
+            episode_id="right-episode",
+            event_log_path=event_path,
+        )
+
+
 def test_invalid_or_unknown_mechanical_episode_never_scores_as_pass(
     frozen_rows, tmp_path
 ):
@@ -586,6 +650,78 @@ def test_nine_call_smoke_is_ineligible_scored_and_prompt_secret_free(tmp_path):
     assert "requested artifact" not in serialized
 
 
+def test_r2_smoke_transport_revision_accepts_healthy_mistral_provider(tmp_path):
+    runner = require_module("harness.run_p1")
+    config_path = ROOT / "configs" / "openrouter-cheap-engineering-smoke-r2.json"
+    clients = (
+        _AutoplayClient(
+            "inclusionai/ling-2.6-flash",
+            "inclusionai",
+            "Novita",
+            "ling-2.6-flash",
+        ),
+        _AutoplayClient(
+            "meta-llama/llama-3.1-8b-instruct",
+            "meta",
+            "DeepInfra",
+            "llama-3.1-8b-instruct",
+        ),
+        _AutoplayClient(
+            "mistralai/mistral-nemo",
+            "mistralai",
+            "DeepInfra",
+            "mistral-nemo",
+        ),
+    )
+
+    result = runner.run_cheap_smoke(
+        clients=clients,
+        seed=20260711,
+        output_dir=tmp_path / "smoke-r2",
+        cost_cap_usd=0.01,
+        config_path=config_path,
+    )
+
+    assert result["status"] == "CHEAP_MODEL_ENGINEERING_SMOKE_COMPLETE"
+    assert result["smoke_config_sha256"] == (
+        "5cf79207e29a38b2465c524f272e4cf8b97600267b46b2479373ca363f215597"
+    )
+    assert len(result["episodes"]) == 9
+    assert {
+        episode["call_metadata"][-1]["provider"]
+        for episode in result["episodes"]
+    } == {"Novita", "DeepInfra"}
+
+
+def test_paid_smoke_entrypoint_resolves_shared_custody_from_clean_process(tmp_path):
+    script = ROOT / "harness" / "run_openrouter_smoke.py"
+    config = ROOT / "configs" / "openrouter-cheap-engineering-smoke-r2.json"
+    existing_output = tmp_path / "existing"
+    existing_output.mkdir()
+
+    completed = subprocess.run(
+        [
+            sys.executable,
+            str(script),
+            "--execute-paid-live",
+            "--config",
+            str(config),
+            "--output-dir",
+            str(existing_output),
+        ],
+        cwd=tmp_path,
+        env={"OPENROUTER_API_KEY": "test-secret-not-real"},
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+
+    assert completed.returncode != 0
+    assert "must be fresh" in completed.stderr
+    assert "No module named 'TENCOMMANDMENTS'" not in completed.stderr
+    assert list(existing_output.iterdir()) == []
+
+
 def test_smoke_rejects_nonfrozen_roster_before_calls(tmp_path):
     runner = require_module("harness.run_p1")
     clients = (
@@ -742,6 +878,177 @@ class _HttpResponse:
 
     def read(self):
         return json.dumps(self.payload).encode("utf-8")
+
+
+def _http_error(status, *, headers=None):
+    return urllib.error.HTTPError(
+        url="https://openrouter.ai/api/v1/chat/completions",
+        code=status,
+        msg="sanitized test transport error",
+        hdrs=headers,
+        fp=io.BytesIO(b'{"error":"sanitized test failure"}'),
+    )
+
+
+def _accepted_openrouter_payload():
+    return {
+        "id": "generation-retry",
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "provider": "DeepInfra",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "message": {"content": '{"kind":"act"}'},
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 10,
+            "completion_tokens": 5,
+            "total_tokens": 15,
+            "cost": 0.000001,
+        },
+    }
+
+
+def _public_adapter_request():
+    return {
+        "request_id": "retry-request",
+        "messages": [{"role": "user", "content": "Public fixture."}],
+        "response_format": {"type": "text"},
+    }
+
+
+def test_openrouter_client_retries_429_with_bounded_backoff_and_tracks_attempts():
+    adapters = require_module("harness.model_adapters")
+    attempts = []
+    sleeps = []
+
+    def opener(request, timeout):
+        attempts.append((bytes(request.data), timeout))
+        if len(attempts) == 1:
+            raise _http_error(429, headers={"Retry-After": "90"})
+        return _HttpResponse(_accepted_openrouter_payload())
+
+    client = adapters.OpenRouterClient(
+        "meta-llama/llama-3.1-8b-instruct",
+        family="llama-3.1-8b-instruct",
+        vendor="meta",
+        provider="DeepInfra",
+        api_key="test-secret-not-real",
+        max_attempts=3,
+        retry_base_seconds=1.0,
+        opener=opener,
+        sleeper=sleeps.append,
+    )
+
+    assert client.generate(_public_adapter_request(), seed=17) == '{"kind":"act"}'
+    assert len(attempts) == 2
+    assert attempts[0] == attempts[1]
+    assert sleeps == [30.0]
+    assert client.last_call_metadata["attempt_count"] == 2
+    assert "test-secret-not-real" not in json.dumps(client.last_call_metadata)
+
+
+@pytest.mark.parametrize("status", [400, 401, 403, 422, 500, 503])
+def test_openrouter_client_never_retries_http_status_other_than_429(status):
+    adapters = require_module("harness.model_adapters")
+    attempts = []
+    sleeps = []
+
+    def opener(_request, timeout):
+        assert timeout == 60.0
+        attempts.append(status)
+        raise _http_error(status)
+
+    client = adapters.OpenRouterClient(
+        "meta-llama/llama-3.1-8b-instruct",
+        family="llama-3.1-8b-instruct",
+        vendor="meta",
+        provider="DeepInfra",
+        api_key="test-secret-not-real",
+        max_attempts=3,
+        opener=opener,
+        sleeper=sleeps.append,
+    )
+
+    with pytest.raises(adapters.OpenRouterTransportError, match=str(status)) as caught:
+        client.generate(_public_adapter_request(), seed=17)
+
+    assert attempts == [status]
+    assert sleeps == []
+    assert client.last_call_metadata is None
+    assert "test-secret-not-real" not in str(caught.value)
+    assert caught.value.status_code == status
+    assert caught.value.attempt_count == 1
+
+
+def test_openrouter_client_exhausts_exact_retry_budget_fail_closed():
+    adapters = require_module("harness.model_adapters")
+    attempts = []
+    sleeps = []
+
+    def opener(_request, timeout):
+        assert timeout == 60.0
+        attempts.append(429)
+        raise _http_error(429)
+
+    client = adapters.OpenRouterClient(
+        "meta-llama/llama-3.1-8b-instruct",
+        family="llama-3.1-8b-instruct",
+        vendor="meta",
+        provider="DeepInfra",
+        api_key="test-secret-not-real",
+        max_attempts=3,
+        retry_base_seconds=1.0,
+        opener=opener,
+        sleeper=sleeps.append,
+    )
+
+    with pytest.raises(
+        adapters.OpenRouterTransportError, match="after 3 attempts"
+    ) as caught:
+        client.generate(_public_adapter_request(), seed=17)
+
+    assert attempts == [429, 429, 429]
+    assert sleeps == [1.0, 2.0]
+    assert client.last_call_metadata is None
+    assert caught.value.status_code == 429
+    assert caught.value.attempt_count == 3
+
+
+@pytest.mark.parametrize(
+    "failure",
+    [urllib.error.URLError("test"), TimeoutError("test"), OSError("test")],
+)
+def test_openrouter_client_never_retries_ambiguous_network_failures(failure):
+    adapters = require_module("harness.model_adapters")
+    attempts = []
+    sleeps = []
+
+    def opener(_request, timeout):
+        assert timeout == 60.0
+        attempts.append(1)
+        raise failure
+
+    client = adapters.OpenRouterClient(
+        "meta-llama/llama-3.1-8b-instruct",
+        family="llama-3.1-8b-instruct",
+        vendor="meta",
+        provider="DeepInfra",
+        api_key="test-secret-not-real",
+        max_attempts=3,
+        retry_base_seconds=1.0,
+        opener=opener,
+        sleeper=sleeps.append,
+    )
+
+    with pytest.raises(adapters.OpenRouterTransportError) as caught:
+        client.generate(_public_adapter_request(), seed=17)
+
+    assert attempts == [1]
+    assert sleeps == []
+    assert caught.value.status_code is None
+    assert caught.value.attempt_count == 1
 
 
 def test_generic_openrouter_client_sends_exact_bounded_body_and_safe_metadata():

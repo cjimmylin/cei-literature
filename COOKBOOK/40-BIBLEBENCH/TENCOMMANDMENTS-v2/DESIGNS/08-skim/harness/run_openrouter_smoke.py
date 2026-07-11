@@ -13,8 +13,10 @@ from typing import Any, Mapping, Optional, Sequence
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-if str(ROOT) not in sys.path:
-    sys.path.insert(0, str(ROOT))
+BENCH_ROOT = ROOT.parents[2]
+for search_root in (ROOT, BENCH_ROOT):
+    if str(search_root) not in sys.path:
+        sys.path.insert(0, str(search_root))
 
 from harness.model_adapters import OpenRouterClient  # noqa: E402
 from harness.run_p1 import (  # noqa: E402

@@ -86,6 +86,29 @@ preserved in `preparserfix/`. Suite: **425 pytest green.**
 | gpt-4o-mini: now coherence-only; consider dropping from panel entirely or keeping for coherence redundancy | next session judgment |
 | Perturbation battery (P1–P6) at scale; EPISODE live runs (episode_live) for the 22 NARROWGATE items | post-MVP Opus |
 
+## 6b. MVP RUN COMPLETION ADDENDUM (same session, post-launch)
+
+**816/816 cells scored, 0 errors** (`65a48a8d7`; report `07-PILOTS/20260710-mvp-run/20260710-mvp-run-report.md`).
+Operational history: (i) concurrency added mid-run (`--concurrency 8`, ~4× via per-SUT lanes,
+`d6db938c3`); (ii) a ~30-min LOCAL network/DNS outage (18:02–18:32) transport-errored 401 cells —
+preserved (`checkpoint-20260710-networkoutage-full.jsonl` + PARTIAL report), cleared, re-run clean;
+(iii) resume-report aggregation bug found+fixed (`db539f468`, 444 tests): resumed runs now report
+ALL checkpointed cells, transcripts append (session-2 had clobbered session-1 judge texts — 415
+cells' verdicts unrecoverable in THIS run dir, disclosed in-report; non-recurring), offline
+`--regen-report` added. Real key-side spend ≈ $12.7 (internal estimator ≈10× under — known nit,
+budget-cap guards the estimate). Key remaining ≈ $30.
+
+**Readings (DESCRIPTIVE/PRE-GATE, Matter-proxy headline for OPEN):** clear cross-SUT separation —
+mistral-large-2512 ≈ claude-haiku-4.5 > deepseek-chat ≫ llama-3.1-8b (llama 0.03–0.72 by design;
+e.g. mending 0.35 vs mistral 0.95). Refusals: llama 73 over-refusals/204, haiku 55, deepseek/mistral
+~14 — over-refusal is a live axis. PROOFTEXT low everywhere (0.03–0.34): citation-token scorer
+under-credits (known); judge-assisted correct-use is the upgrade before quoting PROOF numbers.
+**Settled-core floor: no flag stands** — the one session-1 flag (AGG-C3-W302×deepseek 0.0, transcripts
+lost to the clobber) was re-sampled with full transcripts → fresh cell 1.0, both eligible judges
+correct+quoted; gpt's deterministic harmless-error appeared only as an ineligible raw (the requal
+fence working). Disagreement records cover 309 transcript-backed cells → **next Fable-tier item:
+read the worst-spread cells** from `disagreement.json`.
+
 ## 7. Sharp edges honored
 
 Report immutability (all run dirs new + append-only; pre-fix requal preserved). Canary

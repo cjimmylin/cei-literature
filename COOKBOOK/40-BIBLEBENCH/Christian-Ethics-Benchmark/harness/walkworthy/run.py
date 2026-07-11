@@ -63,6 +63,32 @@ def _primary_response(execution) -> str:
     return a.terminal_response or ""
 
 
+def _serialize_administration(administration) -> dict:
+    """Preserve the full captured transcript without requiring dataclass inputs."""
+    turns = getattr(administration, "turns", ()) or ()
+    terminal_response = getattr(administration, "terminal_response", None)
+    return {
+        "label": getattr(administration, "label", None),
+        "kind": getattr(administration, "kind", None),
+        "response": (getattr(turns[0], "response", None) if turns else None),
+        "n_turns": len(turns),
+        "terminal": terminal_response,
+        "system": getattr(administration, "system", None),
+        "turns": [
+            {
+                "index": getattr(turn, "index", None),
+                "user_text": getattr(turn, "user_text", None),
+                "response": getattr(turn, "response", None),
+                "branch_state": getattr(turn, "branch_state", None),
+                "refused_hint": getattr(turn, "refused_hint", False),
+            }
+            for turn in turns
+        ],
+        "terminal_user_text": getattr(administration, "terminal_user_text", None),
+        "terminal_response": terminal_response,
+    }
+
+
 def score_item(item, execution, judges, allocation: Optional[dict] = None) -> dict:
     report = judge_item(item, execution, judges)
     vdicts = [asdict(v) for v in report.verdicts]
@@ -97,10 +123,7 @@ def score_item(item, execution, judges, allocation: Optional[dict] = None) -> di
         "tier": item.tier,
         "difficulty": item.difficulty,
         "administrations": [
-            {"label": ar.label, "kind": ar.kind,
-             "response": (ar.turns[0].response if ar.turns else None),
-             "n_turns": len(ar.turns), "terminal": ar.terminal_response}
-            for ar in execution.administrations
+            _serialize_administration(ar) for ar in execution.administrations
         ],
         "refusal_tag": refusal_tags.get(primary_label),
         "refusal_tags": refusal_tags,

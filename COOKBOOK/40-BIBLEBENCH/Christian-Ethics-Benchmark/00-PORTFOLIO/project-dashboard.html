@@ -112,7 +112,7 @@
 
 <h1>WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-11 by Claude (Fable) — comprehensive edition</b>
+· <b style="color:var(--text)">Last updated: 2026-07-11 by Codex — forward transcript persistence</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
 
@@ -131,7 +131,7 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     present; all 10 blind label CSVs byte-identical to HEAD; <code>judge_validation.py</code> hardened fail-closed
     (provenance join to the immutable panel, both-judge comparison, frozen κ scales incl. 06 median-of-seven,
     <code>PENDING-CEILING</code> never rendered as PASS, rejects malformed joins/HOLDOUT paths/pair drift/existing
-    outputs); dry-run PASSED on 2 real panel cells; suite <b>274 green</b>; independent spec + code reviews PASS.
+    outputs); dry-run PASSED on 2 real panel cells; suite <b>276 green</b>; independent spec + code reviews PASS.
     Zero live calls, zero spend.<br><br>
     <b>Then W1 stopped correctly (STOP-AND-ASK → PR-9), three issues:</b>
     <b>(1) Transcript gap</b> — the O4 artifacts retain only first + terminal turns, so the frozen turn-level
@@ -142,6 +142,12 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     non-tie-breakable records (05 parse / 09 arbiter pendings). <b>(3) Probe conflict</b> — the frozen Grok-4
     probe vs Jimmy's cheap-models-only direction; the Mistral fallback trips the Part-B sizing stop (&gt;10%
     own-family pendings in every design).<br><br>
+    <b>Forward mechanics now repaired:</b> after auditing Claude's dashboard/boot-prompt commits, Codex added an
+    additive serializer contract for future runs: each scored administration now retains its system prompt,
+    every ordered user/assistant turn, branch state/refusal hint, and terminal user/assistant exchange while all
+    legacy aliases remain unchanged. Fixture-driven 02/07 RED→GREEN tests, related tests, spec review, code review,
+    and the full <b>276-test</b> suite pass. This does not recover or alter the immutable O4 records; no live call
+    or spend occurred.<br><br>
     <b>Waiting on:</b> PR-9 ruling (items 1+3 = Jimmy: spend + model direction; item 2 = Fable-delegable selector
     re-scope). <b>Next Fable session boot prompt is staged:</b>
     <code>20260711i-fable-pr9-adjudication-boot-prompt.md</code> (rules PR-9 with Jimmy present, re-issues Codex
@@ -211,7 +217,7 @@ O5 framework FR-1…FR-15 + G4 branch table + release formula (2026-07-11). Gate
 
 <h2 id="history"><span class="n">5</span>History (2026-07-06 → 2026-07-11)</h2>
 <div class="stats">
-  <div class="stat"><div class="v">86 → 274</div><div class="k">pytest suite growth (TDD)</div></div>
+  <div class="stat"><div class="v">86 → 276</div><div class="k">pytest suite growth (TDD)</div></div>
   <div class="stat"><div class="v">2,064</div><div class="k">panel cells, 0 schema errors</div></div>
   <div class="stat"><div class="v">≈ $49.50</div><div class="k">total live spend (pilot $0.63 + probe + panel $48.75)</div></div>
   <div class="stat"><div class="v">4</div><div class="k">live bugs caught + fixed mid-run</div></div>
@@ -257,17 +263,22 @@ O5 framework FR-1…FR-15 + G4 branch table + release formula (2026-07-11). Gate
     <div class="s">Adversarial validity review (V-1…V-14: which readings are real vs artifacts), O5 decision
     framework (FR-1…FR-15, G4 branch table, release formula), Codex execution package + boot prompt.
     Thread closed → Codex.</div></li>
-  <li class="last"><span class="d">07-11</span> <span class="badge b-codex">CODEX</span>
+  <li><span class="d">07-11</span> <span class="badge b-codex">CODEX</span>
     <div class="t">O5 Phase 0 done → W1 stopped on PR-9 (current position)</div>
     <div class="s">G4 pipeline hardened fail-closed (274 tests, dry-run pass, independent reviews PASS); W1
     correctly stopped pre-spend on the transcript/selector/probe data-contract issues; downstream audit flagged
     W4 reference-pair gaps + W5 L7-list gap. Zero live calls.</div></li>
+  <li class="last"><span class="d">07-11</span> <span class="badge b-codex">CODEX</span>
+    <div class="t">O5 continuation — future transcript persistence repaired; PR-9 still active</div>
+    <div class="s">Audited Claude's dashboard and re-entry commits; traced the data loss to the scored-record
+    serializer; added forward-only full turn/terminal persistence under TDD while retaining legacy fields.
+    276 tests + independent reviews PASS. Existing O4 evidence untouched; zero live calls.</div></li>
 </ul>
 
 <h2 id="progress"><span class="n">6</span>Progress now — O5 pipeline</h2>
 <div class="panel">
 <ul class="check">
-  <li><span class="st"><span class="badge b-done">DONE</span></span> <b>Phase 0</b> — pre-flight: PR-5 verified, blind CSVs intact, G4 CLI turnkey (274 tests, dry-run PASS)</li>
+  <li><span class="st"><span class="badge b-done">DONE</span></span> <b>Phase 0</b> — pre-flight: PR-5 verified, blind CSVs intact, G4 CLI turnkey (276 current tests, dry-run PASS)</li>
   <li><span class="st"><span class="badge b-fail">PAUSED PR-9</span></span> <b>W1</b> — tie-breaker adjudication of unresolved cells (turn/seat-level, own-family exclusion)</li>
   <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>W2</b> — §E judge Δ(J) own-family home-advantage permutation test (label-free; never yet run)</li>
   <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>W3</b> — post-adjudication recompute of all §B stats + G1/G2/G3/G8 → NEW dated readings</li>
@@ -349,7 +360,7 @@ stats condition on judge agreement; recompute after tie-breaker. G4/G5/G7 are PE
 <h2 id="lanes"><span class="n">7</span>Who owes what</h2>
 <div class="lanes">
   <div class="lane"><h3><span class="badge b-codex">CODEX</span> executes (judgment-free)</h3>
-    <ul><li><b>Phase 0 ✅ done</b> (274 tests); <b>W1 ⏸ paused on PR-9</b> — resume at W1 after ruling, never skip to W2</li>
+    <ul><li><b>Phase 0 ✅ done</b> (276 current tests); <b>W1 ⏸ paused on PR-9</b> — resume at W1 after ruling, never skip to W2</li>
     <li><b>Phase 1 remainder:</b> tie-breaker, Δ(J) test, recompute, G5, G7 (~1–2 sessions + ~1 for the PR-9 re-execution, &lt;$40 live)</li>
     <li><b>Phase 2+3 after labels:</b> G4 per wave → verdicts via the frozen formula (~1–2 sessions)</li></ul></div>
   <div class="lane"><h3><span class="badge b-jimmy">JIMMY</span> human critical path</h3>
@@ -417,7 +428,7 @@ Jimmy/Fable; never guess.</p>
 <table class="dense">
 <tr><th style="width:60px">ID</th><th>Contingency</th><th>Trigger</th><th>Pre-decided response (source)</th><th style="width:80px">Owner</th><th class="num">Cost</th></tr>
 <tr><td class="mono">C-1</td><td><b>02/07 transcript gap</b> (ACTIVE)</td><td>PR-9 item 1 — 723/907 turn texts unrecoverable</td>
-  <td>Jimmy authorizes a fresh immutable re-execution of the 02/07 dialogues persisting every turn (O4 run untouched), or supplies transcripts; then W1 resumes with a data-contract test first (Codex handoff §5)</td>
+  <td>Forward serializer support is now complete. Jimmy authorizes a fresh immutable re-execution of the 02/07 dialogues (O4 run untouched), or supplies transcripts; then W1 resumes with a historical-artifact data-contract test first (Codex handoff §5)</td>
   <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">+1 sess, ~$10–15</td></tr>
 <tr><td class="mono">C-2</td><td><b>W1 selector scope</b> (ACTIVE)</td><td>PR-9 item 2 — 1,405 unresolved cells outside selector; 20 non-tie-breakable records</td>
   <td>Fable re-rules the selector to the full §B <code>needs_adjudication</code> surface; parse/arbiter pendings route to their own §B handling, not the tie-breaker (delegated interpretation)</td>
@@ -474,7 +485,7 @@ Jimmy/Fable; never guess.</p>
 <tr><td><b>Measurement record</b></td><td class="mono">20260711b-o4-panel-report.md (complete panel) · runs/20260711-o4-panel/ · 20260711-capability-battery-scores.json (+SOURCES) · 20260709-p0-pilot-report.md</td></tr>
 <tr><td><b>Open questions</b></td><td class="mono">00-PORTFOLIO/PENDING-RULINGS.md (PR-1…PR-9)</td></tr>
 <tr><td><b>Labels (Jimmy)</b></td><td class="mono">labels/20260710-partA/ — 10 blind CSVs + instructions + 00-WAVE-PLAN-README.md (waves {02,07,01} → {03,04,05,06} → {08,09,10})</td></tr>
-<tr><td><b>Harness</b></td><td class="mono">harness/walkworthy/ (34 modules, 274 pytest) — run tests: cd harness &amp;&amp; ../.venv python -m pytest tests/ -q</td></tr>
+<tr><td><b>Harness</b></td><td class="mono">harness/walkworthy/ (34 modules, 276 pytest) — run tests: cd harness &amp;&amp; ../.venv python -m pytest tests/ -q</td></tr>
 <tr><td><b>Banks / holdout</b></td><td class="mono">DESIGNS/ + ANCHOR-PACKS/ (public) · HOLDOUT/ (gitignored, loader-refused, NEVER loaded)</td></tr>
 </table>
 </div>
@@ -504,6 +515,10 @@ no external resources).</p>
 <tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
   <td>Staged the next-Fable-session boot prompt (<span class="mono">20260711i-fable-pr9-adjudication-boot-prompt.md</span>:
   rule PR-9, sweep escalations, re-issue Codex W1 orders); Live status points to it.</td></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-codex">Codex</span></td>
+  <td>Audited Claude's committed dashboard/re-entry work; repaired future scored-record transcript persistence
+  under fixture-driven 02/07 TDD (276 green, independent reviews PASS). PR-9 remains open; immutable O4 evidence
+  untouched; zero live calls.</td></tr>
 </table>
 </div>
 

@@ -183,6 +183,28 @@ def test_harness_can_pass_rate_threshold_while_measurement_is_blocked():
     assert report["unresolved_sample_cells"] == ["gpt-5.5|cell-000"]
 
 
+def test_harness_forbids_every_format_repair_attempt():
+    cell_ids = [f"cell-{index:03d}" for index in range(96)]
+    rows = harness_records(cell_ids)
+    repaired = next(
+        row for row in rows
+        if row["model_id"] == "gpt-5.5" and row["sample_cell_id"] == "cell-000"
+    )
+    repaired.update({
+        "format_repair_count": 1,
+        "format_repair_flagged": True,
+    })
+
+    report = gates.evaluate_harness(rows, expected_sample_cells=cell_ids)
+
+    assert report["models"]["gpt-5.5"]["format_repair_rate"] == pytest.approx(
+        1 / 96
+    )
+    assert report["models"]["gpt-5.5"]["row_contracts_ok"] is False
+    assert report["passed"] is False
+    assert report["measurement_ready"] is False
+
+
 def test_harness_accepts_explicit_terminal_invalidation_as_accounted_not_scored():
     cell_ids = ["cell-000"]
     rows = harness_records(cell_ids)

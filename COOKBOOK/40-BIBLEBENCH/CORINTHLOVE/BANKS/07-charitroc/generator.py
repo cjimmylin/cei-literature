@@ -310,7 +310,6 @@ def _build_episode(seq: int, spec: dict, split: str, world: dict,
                    true_type: str, cue_variant: str, base_rate: float,
                    signal_band: str, template_index: int,
                    cue_realization_index: int, pair_id: str,
-                   rng: random.Random,
                    indistinguishable_control: bool = False):
     latent = evidence.build(
         family=spec["code"],
@@ -326,7 +325,10 @@ def _build_episode(seq: int, spec: dict, split: str, world: dict,
     # This construction key is replaced only after the complete bank exists.
     # It must never be persisted or exposed to models or judges.
     episode_id = f"INTERNAL-CHARITROC-{seq:04d}"
-    marker = canary.make_canary(rng)
+    # The final canary is assigned only after the seeded ID shuffle. Binding a
+    # registry marker to construction order would reassign it whenever a split
+    # is added or reordered.
+    marker = f"INTERNAL-CANARY-{seq:04d}"
     episode = {
         "id": episode_id,
         "design": DESIGN,
@@ -393,7 +395,11 @@ def _assign_final_episode_ids(episodes: list, sidecar: dict, pairs: dict,
         assert old_id not in old_to_new and new_id not in remapped_sidecar
         old_to_new[old_id] = new_id
         episode["id"] = new_id
-        remapped_sidecar[new_id] = sidecar[old_id]
+        marker = canary.make_item_canary(seed, new_id)
+        episode["canary"] = marker
+        hidden = sidecar[old_id]
+        hidden["canary"] = marker
+        remapped_sidecar[new_id] = hidden
 
     remapped_pairs = {}
     for split, registry in pairs.items():
@@ -1068,7 +1074,7 @@ def generate(seed: int):
                         + BASE_RATES.index(base_rate)
                         + realization + 1
                     ) % len(cue_surfaces.BALANCED_AXES),
-                    pair_id, rng,
+                    pair_id,
                 )
                 episodes.append(episode)
                 sidecar[episode["id"]] = hidden
@@ -1089,7 +1095,7 @@ def generate(seed: int):
             seq, spec, "public", world, true_type, cue_variant, base_rate,
             signal_band, PUBLIC_WRAPPER_SCHEDULE[family_index],
             PUBLIC_CUE_ROW_SCHEDULE[family_index],
-            public_pair_id, rng,
+            public_pair_id,
         )
         episodes.append(episode)
         sidecar[episode["id"]] = hidden
@@ -1118,7 +1124,7 @@ def generate(seed: int):
                     seq, spec, "calibration", world, true_type,
                     cue_variant, base_rate, signal_band, template_index,
                     CALIBRATION_CUE_ROW_TABLE[cue_index][family_index],
-                    pair_id, rng,
+                    pair_id,
                     indistinguishable_control=(cue_variant == "absent"),
                 )
                 episodes.append(episode)

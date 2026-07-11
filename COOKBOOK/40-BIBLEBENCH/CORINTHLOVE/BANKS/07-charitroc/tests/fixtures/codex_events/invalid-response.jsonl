@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"019e1111-1111-7111-8111-111111111111"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"INTENT: UNCERTAIN\nDECISION: VERIFY"}}
+{"type":"turn.completed","usage":{"input_tokens":120,"cached_input_tokens":20,"output_tokens":15,"reasoning_output_tokens":0}}

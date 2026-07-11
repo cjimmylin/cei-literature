@@ -61,8 +61,13 @@ REQUIRED = [
     "export/episode_table.jsonl", "export/export_report.json",
     "sidecar/ground_truth.json", "sidecar/pair_registry.json",
     "sidecar/judge_token_map.json", "pilot/__init__.py",
-    "pilot/gates.py", "pilot/manifest.py", "pilot/panel_manifest.json",
-    "pilot/response_schema.json", "pilot/README.md",
+    "pilot/gates.py", "pilot/manifest.py", "pilot/contracts.py",
+    "pilot/codex_driver.py", "pilot/openrouter_driver.py",
+    "pilot/run_panel.py",
+    "pilot/panel_manifest.json", "pilot/response_schema.json",
+    "pilot/README.md",
+    "tests/test_pilot_contracts.py", "tests/test_codex_driver.py",
+    "tests/test_openrouter_driver.py", "tests/test_panel_orchestration.py",
     "reports/pre_scale_fixture_report.md", "reports/generation_report.json",
     "reports/arm_symmetry_table.md", "reports/lexical_baseline_report.json",
 ]
@@ -153,13 +158,24 @@ def check_canary_registry(root: str = BANK) -> str:
     assert os.path.exists(registry_path), "canary registry missing"
     with open(registry_path, encoding="utf-8") as handle:
         rows = [line.split() for line in handle if line.strip() and not line.startswith("#")]
-    registry_values = [row[0] for row in rows]
-    assert len(registry_values) == len(set(registry_values)), "duplicate registry canary"
-    registry_set = set(registry_values)
+    assert all(len(row) == 3 for row in rows), "malformed canary registry row"
+    registry = {
+        marker: (item_id, design) for marker, item_id, design in rows
+    }
+    assert len(registry) == len(rows), "duplicate registry canary"
     bank_values = [episode["canary"] for episode in episodes]
     assert len(bank_values) == len(set(bank_values))
     assert all(canary.is_wellformed(value) for value in bank_values)
-    assert set(bank_values) <= registry_set
+    wrong_mappings = {
+        episode["canary"]: {
+            "registered": registry.get(episode["canary"]),
+            "expected": (episode["id"], generator.DESIGN),
+        }
+        for episode in episodes
+        if registry.get(episode["canary"])
+        != (episode["id"], generator.DESIGN)
+    }
+    assert not wrong_mappings, f"canary registry mapping mismatch: {wrong_mappings}"
     assert all(sidecar[episode["id"]]["canary"] == episode["canary"] for episode in episodes)
     return f"{len(bank_values)} bank canaries unique, well-formed, and registered"
 

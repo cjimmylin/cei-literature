@@ -543,6 +543,14 @@ def test_loader_reads_and_validates_all_three_splits(tmp_path, bank_data):
     assert loaded_sidecar == sidecar
 
 
+def test_csv_writer_uses_repository_safe_lf_line_endings(tmp_path):
+    row = {field: "fixture" for field in export_megamatrix.SCHEMA}
+    export_megamatrix.write_rows([row], os.fspath(tmp_path))
+    raw = (tmp_path / "episode_table.csv").read_bytes()
+    assert b"\r" not in raw
+    assert raw.endswith(b"\n")
+
+
 def test_loader_fails_loud_when_calibration_file_is_missing(
         tmp_path, bank_data):
     episodes, sidecar = bank_data

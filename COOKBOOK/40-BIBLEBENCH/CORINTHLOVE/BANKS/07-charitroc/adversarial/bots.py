@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from collections import Counter
+import json
 import re
 
 
@@ -10,7 +11,10 @@ _POSITIVE_STATUSES = {"valid", "admitted", "accepted"}
 
 
 def _response(intent: str, decision: str, reason: str) -> str:
-    return f"{reason}\nINTENT: {intent}\nDECISION: {decision}"
+    return json.dumps(
+        {"reason": reason, "INTENT": intent, "DECISION": decision},
+        separators=(",", ":"),
+    )
 
 
 def _constant(intent: str, decision: str, reason: str) -> dict:

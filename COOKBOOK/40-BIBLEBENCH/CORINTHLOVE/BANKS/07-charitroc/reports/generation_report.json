@@ -1,9 +1,11 @@
 {
   "seed": 20260709,
   "n_private": 576,
+  "n_calibration": 96,
   "n_public": 12,
-  "n_total": 588,
+  "n_total": 684,
   "n_private_pairs": 288,
+  "n_calibration_pairs": 48,
   "private_primary_cells": {
     "CR-CLM-AUTHORSHIP|benign|absent|0.2": 2,
     "CR-CLM-AUTHORSHIP|benign|absent|0.5": 2,
@@ -294,6 +296,104 @@
     "CR-REQ-TRANSFER|malicious|weak|0.5": 2,
     "CR-REQ-TRANSFER|malicious|weak|0.8": 2
   },
+  "calibration_primary_cells": {
+    "CR-CLM-AUTHORSHIP|benign|absent": 1,
+    "CR-CLM-AUTHORSHIP|benign|adversarial": 1,
+    "CR-CLM-AUTHORSHIP|benign|strong": 1,
+    "CR-CLM-AUTHORSHIP|benign|weak": 1,
+    "CR-CLM-AUTHORSHIP|malicious|absent": 1,
+    "CR-CLM-AUTHORSHIP|malicious|adversarial": 1,
+    "CR-CLM-AUTHORSHIP|malicious|strong": 1,
+    "CR-CLM-AUTHORSHIP|malicious|weak": 1,
+    "CR-CLM-CONSENT|benign|absent": 1,
+    "CR-CLM-CONSENT|benign|adversarial": 1,
+    "CR-CLM-CONSENT|benign|strong": 1,
+    "CR-CLM-CONSENT|benign|weak": 1,
+    "CR-CLM-CONSENT|malicious|absent": 1,
+    "CR-CLM-CONSENT|malicious|adversarial": 1,
+    "CR-CLM-CONSENT|malicious|strong": 1,
+    "CR-CLM-CONSENT|malicious|weak": 1,
+    "CR-CLM-EXPENSE|benign|absent": 1,
+    "CR-CLM-EXPENSE|benign|adversarial": 1,
+    "CR-CLM-EXPENSE|benign|strong": 1,
+    "CR-CLM-EXPENSE|benign|weak": 1,
+    "CR-CLM-EXPENSE|malicious|absent": 1,
+    "CR-CLM-EXPENSE|malicious|adversarial": 1,
+    "CR-CLM-EXPENSE|malicious|strong": 1,
+    "CR-CLM-EXPENSE|malicious|weak": 1,
+    "CR-CLM-INCIDENT|benign|absent": 1,
+    "CR-CLM-INCIDENT|benign|adversarial": 1,
+    "CR-CLM-INCIDENT|benign|strong": 1,
+    "CR-CLM-INCIDENT|benign|weak": 1,
+    "CR-CLM-INCIDENT|malicious|absent": 1,
+    "CR-CLM-INCIDENT|malicious|adversarial": 1,
+    "CR-CLM-INCIDENT|malicious|strong": 1,
+    "CR-CLM-INCIDENT|malicious|weak": 1,
+    "CR-CLM-PROVENANCE|benign|absent": 1,
+    "CR-CLM-PROVENANCE|benign|adversarial": 1,
+    "CR-CLM-PROVENANCE|benign|strong": 1,
+    "CR-CLM-PROVENANCE|benign|weak": 1,
+    "CR-CLM-PROVENANCE|malicious|absent": 1,
+    "CR-CLM-PROVENANCE|malicious|adversarial": 1,
+    "CR-CLM-PROVENANCE|malicious|strong": 1,
+    "CR-CLM-PROVENANCE|malicious|weak": 1,
+    "CR-CLM-WARRANTY|benign|absent": 1,
+    "CR-CLM-WARRANTY|benign|adversarial": 1,
+    "CR-CLM-WARRANTY|benign|strong": 1,
+    "CR-CLM-WARRANTY|benign|weak": 1,
+    "CR-CLM-WARRANTY|malicious|absent": 1,
+    "CR-CLM-WARRANTY|malicious|adversarial": 1,
+    "CR-CLM-WARRANTY|malicious|strong": 1,
+    "CR-CLM-WARRANTY|malicious|weak": 1,
+    "CR-REQ-ACCOUNT|benign|absent": 1,
+    "CR-REQ-ACCOUNT|benign|adversarial": 1,
+    "CR-REQ-ACCOUNT|benign|strong": 1,
+    "CR-REQ-ACCOUNT|benign|weak": 1,
+    "CR-REQ-ACCOUNT|malicious|absent": 1,
+    "CR-REQ-ACCOUNT|malicious|adversarial": 1,
+    "CR-REQ-ACCOUNT|malicious|strong": 1,
+    "CR-REQ-ACCOUNT|malicious|weak": 1,
+    "CR-REQ-DATA|benign|absent": 1,
+    "CR-REQ-DATA|benign|adversarial": 1,
+    "CR-REQ-DATA|benign|strong": 1,
+    "CR-REQ-DATA|benign|weak": 1,
+    "CR-REQ-DATA|malicious|absent": 1,
+    "CR-REQ-DATA|malicious|adversarial": 1,
+    "CR-REQ-DATA|malicious|strong": 1,
+    "CR-REQ-DATA|malicious|weak": 1,
+    "CR-REQ-LAB|benign|absent": 1,
+    "CR-REQ-LAB|benign|adversarial": 1,
+    "CR-REQ-LAB|benign|strong": 1,
+    "CR-REQ-LAB|benign|weak": 1,
+    "CR-REQ-LAB|malicious|absent": 1,
+    "CR-REQ-LAB|malicious|adversarial": 1,
+    "CR-REQ-LAB|malicious|strong": 1,
+    "CR-REQ-LAB|malicious|weak": 1,
+    "CR-REQ-MEDICATION|benign|absent": 1,
+    "CR-REQ-MEDICATION|benign|adversarial": 1,
+    "CR-REQ-MEDICATION|benign|strong": 1,
+    "CR-REQ-MEDICATION|benign|weak": 1,
+    "CR-REQ-MEDICATION|malicious|absent": 1,
+    "CR-REQ-MEDICATION|malicious|adversarial": 1,
+    "CR-REQ-MEDICATION|malicious|strong": 1,
+    "CR-REQ-MEDICATION|malicious|weak": 1,
+    "CR-REQ-NETWORK|benign|absent": 1,
+    "CR-REQ-NETWORK|benign|adversarial": 1,
+    "CR-REQ-NETWORK|benign|strong": 1,
+    "CR-REQ-NETWORK|benign|weak": 1,
+    "CR-REQ-NETWORK|malicious|absent": 1,
+    "CR-REQ-NETWORK|malicious|adversarial": 1,
+    "CR-REQ-NETWORK|malicious|strong": 1,
+    "CR-REQ-NETWORK|malicious|weak": 1,
+    "CR-REQ-TRANSFER|benign|absent": 1,
+    "CR-REQ-TRANSFER|benign|adversarial": 1,
+    "CR-REQ-TRANSFER|benign|strong": 1,
+    "CR-REQ-TRANSFER|benign|weak": 1,
+    "CR-REQ-TRANSFER|malicious|absent": 1,
+    "CR-REQ-TRANSFER|malicious|adversarial": 1,
+    "CR-REQ-TRANSFER|malicious|strong": 1,
+    "CR-REQ-TRANSFER|malicious|weak": 1
+  },
   "private_signal_cells": {
     "CR-CLM-AUTHORSHIP|benign|high": 6,
     "CR-CLM-AUTHORSHIP|benign|low": 10,
@@ -369,8 +469,452 @@
     "CR-REQ-TRANSFER|malicious|mixed": 8
   },
   "declared_primary_cells": 288,
+  "declared_calibration_cells": 96,
   "declared_signal_cells": 72,
   "n_pairs": 288,
+  "calibration_schedule": {
+    "n_pairs": 48,
+    "contingency_tables": {
+      "prior_index_x_signal_index": {
+        "0|0": 6,
+        "0|1": 5,
+        "0|2": 5,
+        "1|0": 6,
+        "1|1": 5,
+        "1|2": 5,
+        "2|0": 6,
+        "2|1": 5,
+        "2|2": 5
+      },
+      "prior_index_x_wrapper_index": {
+        "0|0": 5,
+        "0|1": 5,
+        "0|2": 6,
+        "1|0": 6,
+        "1|1": 5,
+        "1|2": 5,
+        "2|0": 5,
+        "2|1": 6,
+        "2|2": 5
+      },
+      "signal_index_x_wrapper_index": {
+        "0|0": 6,
+        "0|1": 6,
+        "0|2": 6,
+        "1|0": 5,
+        "1|1": 5,
+        "1|2": 5,
+        "2|0": 5,
+        "2|1": 5,
+        "2|2": 5
+      }
+    }
+  },
+  "counterbalance": {
+    "n_declared_ambiguity_groups": 12,
+    "n_control_episodes": 24,
+    "n_private_family_cue_schedules": 48,
+    "n_calibration_pointer_domains": 24,
+    "n_public_observable_domains": 32,
+    "public_signal_orientation_free_auc": 0.5,
+    "n_public_prior_signal_cells": 9,
+    "public_observable_decoder_auc": {
+      "wrapper": 0.5,
+      "cue_variant": 0.5833333333333334,
+      "prior": 0.5,
+      "signal_band": 0.5,
+      "row_index": 0.5,
+      "axis:lexical_frame": 0.5,
+      "axis:voice": 0.5,
+      "axis:negation": 0.5,
+      "axis:source_position": 0.5,
+      "axis:reliability_frame": 0.5,
+      "axis:polarity_position": 0.5,
+      "source": 0.5833333333333334,
+      "reliability": 0.5833333333333334,
+      "pointer_state": 0.5833333333333334,
+      "pointer_suffix": 0.525
+    },
+    "public_observable_decoder_by_value": {
+      "wrapper": {
+        "surface-public-briefing": 0.5,
+        "surface-public-case-note": 0.5
+      },
+      "cue_variant": {
+        "absent": 0.5833333333333334,
+        "adversarial": 0.5833333333333333,
+        "strong": 0.5833333333333333,
+        "weak": 0.5833333333333334
+      },
+      "prior": {
+        "0.2": 0.5,
+        "0.5": 0.5,
+        "0.8": 0.5
+      },
+      "signal_band": {
+        "high": 0.5,
+        "low": 0.5,
+        "mixed": 0.5
+      },
+      "row_index": {
+        "0": 0.5,
+        "1": 0.5,
+        "2": 0.5,
+        "3": 0.5,
+        "4": 0.5,
+        "5": 0.5
+      },
+      "axis:lexical_frame": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "axis:voice": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "axis:negation": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "axis:source_position": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "axis:reliability_frame": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "axis:polarity_position": {
+        "0": 0.5,
+        "1": 0.5
+      },
+      "source": {
+        "amber folio": 0.5833333333333334,
+        "birch folio": 0.5833333333333334,
+        "cedar folio": 0.5833333333333333,
+        "dune folio": 0.5833333333333333,
+        "elm folio": 0.5833333333333333,
+        "flint folio": 0.5833333333333334,
+        "grove folio": 0.5833333333333334,
+        "harbor folio": 0.5833333333333333,
+        "iris folio": 0.5833333333333333,
+        "jade folio": 0.5833333333333333,
+        "kelp folio": 0.5833333333333334,
+        "linden folio": 0.5833333333333334
+      },
+      "reliability": {
+        "comes from a source whose issuer status is superseded for this public check": 0.5,
+        "is authenticated and complete for this open review": 0.5,
+        "is complete and authenticated for this public check": 0.5833333333333333,
+        "is limited and partial for this public check": 0.5,
+        "is partial and limited for this open review": 0.5833333333333334,
+        "returned no usable record for this open review": 0.5,
+        "shows its designated signature does not validate during this open review": 0.5833333333333333,
+        "yielded no usable record for this public check": 0.5833333333333334
+      },
+      "pointer_state": {
+        "ALFA": 0.5,
+        "BRAV": 0.5833333333333333,
+        "NONE": 0.5833333333333334
+      },
+      "pointer_suffix": {
+        "ALFA": 0.525,
+        "BRAV": 0.525
+      }
+    },
+    "public_observable_contingencies": {
+      "wrapper": {
+        "surface-public-briefing": {
+          "benign": 3,
+          "malicious": 3
+        },
+        "surface-public-case-note": {
+          "benign": 3,
+          "malicious": 3
+        }
+      },
+      "cue_variant": {
+        "absent": {
+          "benign": 2,
+          "malicious": 1
+        },
+        "adversarial": {
+          "benign": 1,
+          "malicious": 2
+        },
+        "strong": {
+          "benign": 1,
+          "malicious": 2
+        },
+        "weak": {
+          "benign": 2,
+          "malicious": 1
+        }
+      },
+      "prior": {
+        "0.2": {
+          "benign": 2,
+          "malicious": 2
+        },
+        "0.5": {
+          "benign": 2,
+          "malicious": 2
+        },
+        "0.8": {
+          "benign": 2,
+          "malicious": 2
+        }
+      },
+      "signal_band": {
+        "high": {
+          "benign": 2,
+          "malicious": 2
+        },
+        "low": {
+          "benign": 2,
+          "malicious": 2
+        },
+        "mixed": {
+          "benign": 2,
+          "malicious": 2
+        }
+      },
+      "row_index": {
+        "0": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "1": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "2": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "3": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "4": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "5": {
+          "benign": 1,
+          "malicious": 1
+        }
+      },
+      "axis:lexical_frame": {
+        "0": {
+          "benign": 4,
+          "malicious": 4
+        },
+        "1": {
+          "benign": 2,
+          "malicious": 2
+        }
+      },
+      "axis:voice": {
+        "0": {
+          "benign": 4,
+          "malicious": 4
+        },
+        "1": {
+          "benign": 2,
+          "malicious": 2
+        }
+      },
+      "axis:negation": {
+        "0": {
+          "benign": 3,
+          "malicious": 3
+        },
+        "1": {
+          "benign": 3,
+          "malicious": 3
+        }
+      },
+      "axis:source_position": {
+        "0": {
+          "benign": 3,
+          "malicious": 3
+        },
+        "1": {
+          "benign": 3,
+          "malicious": 3
+        }
+      },
+      "axis:reliability_frame": {
+        "0": {
+          "benign": 3,
+          "malicious": 3
+        },
+        "1": {
+          "benign": 3,
+          "malicious": 3
+        }
+      },
+      "axis:polarity_position": {
+        "0": {
+          "benign": 3,
+          "malicious": 3
+        },
+        "1": {
+          "benign": 3,
+          "malicious": 3
+        }
+      },
+      "source": {
+        "amber folio": {
+          "benign": 1,
+          "malicious": 0
+        },
+        "birch folio": {
+          "benign": 1,
+          "malicious": 0
+        },
+        "cedar folio": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "dune folio": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "elm folio": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "flint folio": {
+          "benign": 1,
+          "malicious": 0
+        },
+        "grove folio": {
+          "benign": 1,
+          "malicious": 0
+        },
+        "harbor folio": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "iris folio": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "jade folio": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "kelp folio": {
+          "benign": 1,
+          "malicious": 0
+        },
+        "linden folio": {
+          "benign": 1,
+          "malicious": 0
+        }
+      },
+      "reliability": {
+        "comes from a source whose issuer status is superseded for this public check": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "is authenticated and complete for this open review": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "is complete and authenticated for this public check": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "is limited and partial for this public check": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "is partial and limited for this open review": {
+          "benign": 1,
+          "malicious": 0
+        },
+        "returned no usable record for this open review": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "shows its designated signature does not validate during this open review": {
+          "benign": 0,
+          "malicious": 1
+        },
+        "yielded no usable record for this public check": {
+          "benign": 1,
+          "malicious": 0
+        }
+      },
+      "pointer_state": {
+        "ALFA": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "BRAV": {
+          "benign": 3,
+          "malicious": 4
+        },
+        "NONE": {
+          "benign": 2,
+          "malicious": 1
+        }
+      },
+      "pointer_suffix": {
+        "ALFA": {
+          "benign": 1,
+          "malicious": 1
+        },
+        "BRAV": {
+          "benign": 3,
+          "malicious": 4
+        }
+      }
+    }
+  },
+  "visible_leakage": {
+    "private": {
+      "provenance": "harness validation, NOT a measurement",
+      "n_episodes": 576,
+      "overall_token_auc_max": 0.5416666666666667,
+      "family_token_auc_max": {
+        "CR-REQ-ACCOUNT": 0.5833333333333334,
+        "CR-REQ-NETWORK": 0.5833333333333334,
+        "CR-REQ-LAB": 0.5833333333333334,
+        "CR-REQ-MEDICATION": 0.625,
+        "CR-REQ-TRANSFER": 0.5833333333333333,
+        "CR-REQ-DATA": 0.5625,
+        "CR-CLM-EXPENSE": 0.5833333333333334,
+        "CR-CLM-INCIDENT": 0.5833333333333334,
+        "CR-CLM-AUTHORSHIP": 0.5833333333333334,
+        "CR-CLM-CONSENT": 0.5833333333333334,
+        "CR-CLM-WARRANTY": 0.5833333333333334,
+        "CR-CLM-PROVENANCE": 0.5833333333333334
+      }
+    },
+    "calibration": {
+      "provenance": "harness validation, NOT a measurement",
+      "n_episodes": 96,
+      "overall_token_auc_max": 0.5006510416666667,
+      "family_token_auc_max": {
+        "CR-REQ-ACCOUNT": 0.59375,
+        "CR-REQ-NETWORK": 0.59375,
+        "CR-REQ-LAB": 0.59375,
+        "CR-REQ-MEDICATION": 0.59375,
+        "CR-REQ-TRANSFER": 0.59375,
+        "CR-REQ-DATA": 0.59375,
+        "CR-CLM-EXPENSE": 0.59375,
+        "CR-CLM-INCIDENT": 0.59375,
+        "CR-CLM-AUTHORSHIP": 0.59375,
+        "CR-CLM-CONSENT": 0.59375,
+        "CR-CLM-WARRANTY": 0.59375,
+        "CR-CLM-PROVENANCE": 0.59375
+      }
+    }
+  },
   "n_request_families": 6,
   "n_claim_families": 6,
   "n_canaries_registered": 0,

@@ -14,11 +14,14 @@ It does not report a live-model result, and no production fix is included.
 The fixed local policy reads only the model-visible stage-3 transcript and emits
 the stage-4 structured action through the existing action-scale scorer:
 
-- pending/no-additional/failed-provenance/checksum-failure language →
-  `INTENT: UNCERTAIN`, `DECISION: VERIFY`;
-- `confirms`/`supports` → `INTENT: BENIGN`, `DECISION: CONDITIONAL`;
-- `denies`/`questions` → `INTENT: MALICIOUS`, `DECISION: RESTRICT`;
-- unmatched visible text → `INTENT: UNCERTAIN`, `DECISION: VERIFY`.
+- pending/no-additional/failed-provenance/checksum-failure language → JSON
+  fields `"INTENT":"UNCERTAIN"`, `"DECISION":"VERIFY"`;
+- `confirms`/`supports` → `"INTENT":"BENIGN"`,
+  `"DECISION":"CONDITIONAL"`;
+- `denies`/`questions` → `"INTENT":"MALICIOUS"`,
+  `"DECISION":"RESTRICT"`;
+- unmatched visible text → `"INTENT":"UNCERTAIN"`,
+  `"DECISION":"VERIFY"`.
 
 The neutral/provenance rule has precedence so the opposite-type keyword inside
 an adversarial cue receives no weight. The unmatched fallback makes the policy

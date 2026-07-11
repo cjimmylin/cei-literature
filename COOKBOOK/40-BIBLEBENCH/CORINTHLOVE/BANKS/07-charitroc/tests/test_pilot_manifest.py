@@ -16,6 +16,7 @@ from pilot import manifest
 BANK = Path(__file__).resolve().parents[1]
 SEED = 20260709
 MODELS = ("gpt-5.5", "gpt-5.4", "gpt-5.4-mini")
+CHEAP_MODELS = ("gpt-5-nano", "gpt-5.4-nano", "gpt-5-mini")
 STAGES = ("smoke", "calibration", "reliability", "private")
 HIDDEN_ENTRY_KEYS = {
     "true_type", "label", "cue_variant", "base_rate_benign", "pair_id",
@@ -47,6 +48,14 @@ OPENROUTER_ROUTING_POLICY = {
     },
     "reasoning_effort": "medium",
 }
+CHEAP_AZURE_WIRE_ROUTING_POLICY = {
+    "only": ["Azure"],
+    "order": ["Azure"],
+    "allow_fallbacks": False,
+    "require_parameters": True,
+    "data_collection": "deny",
+    "zdr": True,
+}
 
 
 @pytest.fixture(scope="module")
@@ -66,6 +75,15 @@ def samples(bank_data):
 
 def entries(sample, extension=False):
     return sample["extension_entries" if extension else "entries"]
+
+
+def disk_loader_order(episodes):
+    return [
+        episode
+        for split in ("private", "calibration", "public")
+        for episode in episodes
+        if episode["split"] == split
+    ]
 
 
 def rehash_plan(plan):
@@ -184,6 +202,215 @@ def test_panel_freezes_substantive_codex_and_openrouter_policies():
         assert row["providers"]["openrouter"]["routing_policy"] == (
             OPENROUTER_ROUTING_POLICY
         )
+
+
+def test_cheap_panel_is_separate_immutable_qualification_profile():
+    panel = manifest.load_cheap_panel()
+
+    assert panel["manifest_version"] == (
+        "charitroc-openrouter-cheap-panel-v1"
+    )
+    assert panel["profile_id"] == manifest.CHEAP_PROFILE_ID == (
+        "cheap-azure-v1"
+    )
+    assert panel["immutable"] is True
+    assert panel["purpose"] == "qualification-only"
+    assert panel["catalog_snapshot_utc"] == "2026-07-11T00:48:00Z"
+    assert panel["command_allowlist"] == [
+        "access", "canary", "smoke", "verify", "report",
+    ]
+    assert panel["required_parameters"] == [
+        "max_completion_tokens", "reasoning", "response_format",
+        "structured_outputs",
+    ]
+    assert panel["minimum_context_length"] == 400000
+    assert panel["eligible_endpoint_policy"] == "all_exact_one_selected"
+    assert panel["reasoning_effort"] == "medium"
+    assert panel["expected_returned_provider"] == "Azure"
+    assert panel["routing_policy"] == CHEAP_AZURE_WIRE_ROUTING_POLICY
+    assert [row["logical_model_id"] for row in panel["models"]] == list(
+        CHEAP_MODELS
+    )
+
+
+def test_cheap_panel_freezes_exact_slugs_configurations_and_price_ceilings():
+    panel = manifest.load_cheap_panel()
+    expected_prices = {
+        "gpt-5-nano": {"input": 0.05, "output": 0.40},
+        "gpt-5.4-nano": {"input": 0.20, "output": 1.25},
+        "gpt-5-mini": {"input": 0.25, "output": 2.00},
+    }
+
+    for row in panel["models"]:
+        logical = row["logical_model_id"]
+        assert row == {
+            "logical_model_id": logical,
+            "provider_model_id": f"openai/{logical}",
+            "configuration_id": (
+                f"openrouter-azure-{logical}-medium-no-fallback-zdr"
+            ),
+            "price_ceiling_usd_per_million_tokens": expected_prices[logical],
+        }
+
+
+def test_cheap_panel_profile_hash_is_exact_and_flagship_hash_is_unchanged():
+    panel = manifest.load_cheap_panel()
+    projection = {
+        key: value for key, value in panel.items()
+        if key != "profile_sha256"
+    }
+
+    assert panel["profile_sha256"] == manifest.canonical_sha256(projection)
+    assert manifest.cheap_panel_sha256() == panel["profile_sha256"]
+    assert manifest.canonical_sha256(manifest.load_panel()) == (
+        "2ba2b2cf107501284b99d8d044cd3a716a1e37feaf8c1a1b87c4e7bd1eb0d88a"
+    )
+
+
+def test_openrouter_identity_resolver_keeps_profiles_exact_and_separate():
+    flagship = manifest.resolve_openrouter_identity("gpt-5.5")
+    cheap = manifest.resolve_openrouter_identity(
+        "gpt-5-nano", profile_id=manifest.CHEAP_PROFILE_ID
+    )
+
+    assert flagship == {
+        "profile_id": "flagship-v1",
+        "profile_sha256": (
+            "2ba2b2cf107501284b99d8d044cd3a716a1e37feaf8c1a1b87c4e7bd1eb0d88a"
+        ),
+        "provider": "openrouter",
+        "logical_model_id": "gpt-5.5",
+        "provider_model_id": "openai/gpt-5.5",
+        "configuration_id": (
+            "openrouter-openai-gpt-5.5-medium-no-fallback"
+        ),
+        "expected_returned_provider": "OpenAI",
+        "reasoning_effort": "medium",
+        "eligible_endpoint_policy": "exactly_one",
+        "required_parameters": [
+            "max_completion_tokens", "reasoning", "response_format",
+            "structured_outputs",
+        ],
+        "minimum_context_length": None,
+        "price_ceiling_usd_per_million_tokens": None,
+        "routing_policy": {
+            "only": ["OpenAI"],
+            "order": ["OpenAI"],
+            "allow_fallbacks": False,
+            "require_parameters": True,
+            "data_collection": "deny",
+            "zdr": True,
+        },
+    }
+    assert cheap == {
+        "profile_id": "cheap-azure-v1",
+        "profile_sha256": manifest.cheap_panel_sha256(),
+        "provider": "openrouter",
+        "logical_model_id": "gpt-5-nano",
+        "provider_model_id": "openai/gpt-5-nano",
+        "configuration_id": (
+            "openrouter-azure-gpt-5-nano-medium-no-fallback-zdr"
+        ),
+        "expected_returned_provider": "Azure",
+        "reasoning_effort": "medium",
+        "eligible_endpoint_policy": "all_exact_one_selected",
+        "required_parameters": [
+            "max_completion_tokens", "reasoning", "response_format",
+            "structured_outputs",
+        ],
+        "minimum_context_length": 400000,
+        "price_ceiling_usd_per_million_tokens": {
+            "input": 0.05,
+            "output": 0.40,
+        },
+        "routing_policy": CHEAP_AZURE_WIRE_ROUTING_POLICY,
+    }
+
+    flagship_tuple = tuple(flagship[key] for key in (
+        "provider", "logical_model_id", "provider_model_id",
+        "configuration_id",
+    ))
+    cheap_tuple = tuple(cheap[key] for key in (
+        "provider", "logical_model_id", "provider_model_id",
+        "configuration_id",
+    ))
+    assert manifest.expected_returned_provider(flagship_tuple) == "OpenAI"
+    assert manifest.expected_returned_provider(cheap_tuple) == "Azure"
+
+    with pytest.raises(ValueError, match="profile|frozen|identity"):
+        manifest.resolve_openrouter_identity(
+            "gpt-5.5", profile_id=manifest.CHEAP_PROFILE_ID
+        )
+    with pytest.raises(ValueError, match="profile|frozen|identity"):
+        manifest.resolve_openrouter_identity(
+            "gpt-5-nano", profile_id="flagship-v1"
+        )
+    with pytest.raises(ValueError, match="frozen|identity"):
+        manifest.expected_returned_provider((
+            "openrouter", "gpt-5-nano", "openai/gpt-5-nano",
+            "openrouter-openai-gpt-5-nano-medium-no-fallback",
+        ))
+
+
+@pytest.mark.parametrize(
+    "poison",
+    [
+        "top_extra", "profile", "mutable", "purpose", "snapshot",
+        "commands", "required_parameters", "context", "endpoint_policy",
+        "reasoning", "provider", "routing", "model_order", "slug",
+        "configuration", "price", "model_extra", "hash",
+    ],
+)
+def test_cheap_panel_rejects_semantic_or_hash_poison(tmp_path, poison):
+    panel = copy.deepcopy(manifest.load_cheap_panel())
+    if poison == "top_extra":
+        panel["notes"] = "unfrozen"
+    elif poison == "profile":
+        panel["profile_id"] = "cheap-any-provider-v1"
+    elif poison == "mutable":
+        panel["immutable"] = False
+    elif poison == "purpose":
+        panel["purpose"] = "calibration"
+    elif poison == "snapshot":
+        panel["catalog_snapshot_utc"] = "2026-07-11T00:49:00Z"
+    elif poison == "commands":
+        panel["command_allowlist"].append("private")
+    elif poison == "required_parameters":
+        panel["required_parameters"].remove("structured_outputs")
+    elif poison == "context":
+        panel["minimum_context_length"] = 399999
+    elif poison == "endpoint_policy":
+        panel["eligible_endpoint_policy"] = "first_available"
+    elif poison == "reasoning":
+        panel["reasoning_effort"] = "low"
+    elif poison == "provider":
+        panel["expected_returned_provider"] = "OpenAI"
+    elif poison == "routing":
+        panel["routing_policy"]["allow_fallbacks"] = True
+    elif poison == "model_order":
+        panel["models"].reverse()
+    elif poison == "slug":
+        panel["models"][0]["provider_model_id"] = "openai/gpt-5-mini"
+    elif poison == "configuration":
+        panel["models"][0]["configuration_id"] = "mixed-profile"
+    elif poison == "price":
+        panel["models"][0]["price_ceiling_usd_per_million_tokens"][
+            "input"
+        ] = 0.051
+    elif poison == "model_extra":
+        panel["models"][0]["provider"] = "openrouter"
+    else:
+        panel["profile_sha256"] = "0" * 64
+    if poison != "hash":
+        panel["profile_sha256"] = manifest.canonical_sha256({
+            key: value for key, value in panel.items()
+            if key != "profile_sha256"
+        })
+    path = tmp_path / "cheap-panel.json"
+    path.write_text(json.dumps(panel), encoding="utf-8")
+
+    with pytest.raises(ValueError, match="cheap|profile|panel|frozen"):
+        manifest.load_cheap_panel(path)
 
 
 @pytest.mark.parametrize(
@@ -359,6 +586,32 @@ def test_samples_are_deterministic_and_seed_changes_only_predeclared_order(bank_
     } | {
         row["item_id"] for row in other["extension_entries"]
     }
+
+
+def test_sampling_accepts_real_disk_loader_order_but_not_content_changes(
+        bank_data, samples):
+    episodes, sidecar = bank_data
+    reordered = disk_loader_order(episodes)
+    assert reordered != episodes
+    assert manifest.canonical_episode_sha256(reordered) == (
+        manifest.canonical_episode_sha256(episodes)
+    )
+    assert {
+        stage: manifest.build_sample(stage, reordered, sidecar, SEED)
+        for stage in STAGES
+    } == samples
+
+    duplicate = copy.deepcopy(reordered)
+    duplicate[-1]["id"] = duplicate[0]["id"]
+    with pytest.raises(ValueError, match="duplicate|unique|684"):
+        manifest.build_sample("smoke", duplicate, sidecar, SEED)
+    missing_id = reordered[-1]["id"]
+    with pytest.raises(ValueError, match="684"):
+        manifest.build_sample(
+            "smoke", reordered[:-1],
+            {key: value for key, value in sidecar.items() if key != missing_id},
+            SEED,
+        )
 
 
 @pytest.mark.parametrize(
@@ -544,6 +797,57 @@ def test_complete_bank_rejects_each_isolated_unsampled_poison(
         )
 
 
+def test_canonical_oracle_return_cannot_be_mutated_to_bless_poison(bank_data):
+    episodes, sidecar = bank_data
+    poisoned = copy.deepcopy(sidecar)
+    target_id = next(iter(poisoned))
+    poisoned[target_id]["expected_stage3"]["posterior_direction"] = 999
+    manifest._canonical_construction.cache_clear()
+    try:
+        exposed = manifest._canonical_construction(SEED)
+        exposed["sidecar_hash"] = manifest.canonical_sha256(poisoned)
+        with pytest.raises(ValueError, match="canonical|construction"):
+            manifest.build_sample("private", episodes, poisoned, SEED)
+    finally:
+        manifest._canonical_construction.cache_clear()
+
+
+def test_canonical_oracle_episode_hashes_cannot_be_mutated_to_bless_text(
+        bank_data):
+    episodes, sidecar = bank_data
+    poisoned = copy.deepcopy(episodes)
+    poisoned[0]["multiturn_script"]["stage_2"] += " mutable-cache poison"
+    manifest._canonical_construction.cache_clear()
+    try:
+        exposed = manifest._canonical_construction(SEED)
+        exposed["episodes_hash"] = manifest.canonical_sha256(poisoned)
+        exposed["episode_map_hash"] = manifest.canonical_episode_sha256(
+            poisoned
+        )
+        with pytest.raises(ValueError, match="canonical|construction"):
+            manifest.build_sample("private", poisoned, sidecar, SEED)
+    finally:
+        manifest._canonical_construction.cache_clear()
+
+
+def test_canonical_oracle_returns_defensive_nested_data_and_normalizes_seed_key():
+    manifest._canonical_construction.cache_clear()
+    try:
+        first = manifest._canonical_construction(SEED)
+        expected_split = first["split_hashes"]["private"]
+        expected_seed = first["report_projection"]["seed"]
+        first["split_hashes"]["private"] = "0" * 64
+        first["report_projection"]["seed"] = -1
+
+        explicit_again = manifest._canonical_construction(SEED)
+        default_call = manifest._canonical_construction()
+        assert explicit_again["split_hashes"]["private"] == expected_split
+        assert explicit_again["report_projection"]["seed"] == expected_seed
+        assert default_call == explicit_again
+    finally:
+        manifest._canonical_construction.cache_clear()
+
+
 def test_smoke_is_one_pair_per_family_at_family_mod_four_cue(samples, bank_data):
     _, sidecar = bank_data
     smoke = samples["smoke"]
@@ -692,7 +996,7 @@ def test_plan_write_is_immutable_and_run_state_is_separate_append_only(
     state_rows = [json.loads(line) for line in state_path.read_text().splitlines()]
     assert state_rows == [first_event, second_event]
     assert set(first_event) == set(manifest.RUN_STATE_EVENT_KEYS)
-    assert not (set(first_event) & set(manifest.PLAN_ENTRY_KEYS))
+    assert set(first_event) & set(manifest.PLAN_ENTRY_KEYS) == {"item_id"}
 
 
 @pytest.mark.parametrize(
@@ -775,9 +1079,60 @@ def test_run_state_history_cannot_switch_to_a_different_plan(
         plan_b, event_id="plan-b-complete", state="complete",
         timestamp="2026-07-10T12:01:00Z",
     )
-    with pytest.raises(ValueError, match="plan hash"):
+    with pytest.raises(
+            ValueError, match="plan hash|pinned|sample plan semantic"):
         manifest.append_run_state_event(
             path, plan_b_complete, plan_b, root=tmp_path
+        )
+
+
+def test_run_state_rejects_rehashed_semantically_poisoned_plan(
+        tmp_path, samples):
+    poisoned = copy.deepcopy(samples["calibration"])
+    for field in ("item_id", "model_execution_order"):
+        poisoned["entries"][0][field], poisoned["entries"][1][field] = (
+            poisoned["entries"][1][field], poisoned["entries"][0][field]
+        )
+    rehash_plan(poisoned)
+    event = run_event(poisoned, event_id="rehashed-plan-poison")
+    with pytest.raises(ValueError, match="sample plan semantic|deterministic"):
+        manifest.append_run_state_event(
+            tmp_path / "rehashed-plan.jsonl", event, poisoned, root=tmp_path
+        )
+
+
+@pytest.mark.parametrize("poison", ["primary_extension_swap", "unknown_item"])
+def test_run_state_rejects_rehashed_private_item_poison(
+        poison, tmp_path, samples):
+    plan = copy.deepcopy(samples["private"])
+    if poison == "primary_extension_swap":
+        plan["entries"][0]["item_id"], plan["extension_entries"][0][
+            "item_id"
+        ] = (
+            plan["extension_entries"][0]["item_id"],
+            plan["entries"][0]["item_id"],
+        )
+    else:
+        plan["entries"][0]["item_id"] = "CHARITROC-9999"
+    rehash_plan(plan)
+    with pytest.raises(ValueError, match="sample plan semantic|deterministic"):
+        manifest.append_run_state_event(
+            tmp_path / f"{poison}.jsonl",
+            run_event(plan, event_id=poison), plan, root=tmp_path,
+        )
+
+
+def test_run_state_rejects_valid_alternative_sample_seed(
+        tmp_path, bank_data):
+    episodes, sidecar = bank_data
+    alternative = manifest.build_sample(
+        "calibration", episodes, sidecar, SEED + 1
+    )
+    with pytest.raises(ValueError, match="pinned|sample plan semantic"):
+        manifest.append_run_state_event(
+            tmp_path / "alternative-seed.jsonl",
+            run_event(alternative, event_id="alternative-seed"),
+            alternative, root=tmp_path,
         )
 
 
@@ -895,6 +1250,115 @@ def test_run_state_rejects_transport_retry_after_attempt_three():
         )
 
 
+def test_run_state_rejects_duplicate_json_keys_in_existing_history(
+        tmp_path, samples):
+    plan = samples["calibration"]
+    path = tmp_path / "duplicate-key-state.jsonl"
+    first = run_event(plan, event_id="canonical-event-id")
+    serialized = json.dumps(first, separators=(",", ":"))
+    path.write_text(
+        '{"event_id":"shadowed-event-id",' + serialized[1:] + "\n",
+        encoding="utf-8",
+    )
+    complete = run_event(
+        plan, event_id="complete-after-duplicate", state="complete",
+        timestamp="2026-07-10T12:01:00Z",
+    )
+    with pytest.raises(ValueError, match="duplicate JSON key"):
+        manifest.append_run_state_event(path, complete, plan, root=tmp_path)
+
+
+@pytest.mark.parametrize("bad_session", [True, 0, 3])
+def test_run_state_rejects_invalid_integrity_session_values(
+        bad_session, tmp_path, samples):
+    plan = samples["calibration"]
+    event = run_event(plan, event_id=f"bad-session-{bad_session}")
+    event["session_attempt"] = bad_session
+    with pytest.raises(ValueError, match="session_attempt"):
+        manifest.append_run_state_event(
+            tmp_path / f"bad-session-{bad_session}.jsonl", event, plan,
+            root=tmp_path,
+        )
+
+
+@pytest.mark.parametrize("terminal", ["complete", "failed"])
+def test_run_state_session_two_requires_session_one_invalidation(
+        terminal, tmp_path, samples):
+    plan = samples["calibration"]
+    path = tmp_path / f"no-rerun-after-{terminal}.jsonl"
+    manifest.append_run_state_event(
+        path, run_event(plan, event_id="session1-start"), plan,
+        root=tmp_path,
+    )
+    manifest.append_run_state_event(
+        path, run_event(
+            plan, event_id=f"session1-{terminal}", state=terminal,
+            timestamp="2026-07-10T12:01:00Z",
+        ), plan, root=tmp_path,
+    )
+    rerun = run_event(
+        plan, event_id="illegal-session2", session_attempt=2,
+        timestamp="2026-07-10T12:02:00Z",
+    )
+    with pytest.raises(ValueError, match="invalidated first session"):
+        manifest.append_run_state_event(path, rerun, plan, root=tmp_path)
+
+
+def test_run_state_pending_integrity_rerun_blocks_next_model(
+        tmp_path, samples):
+    plan = samples["calibration"]
+    order = plan["entries"][0]["model_execution_order"]
+    path = tmp_path / "pending-integrity.jsonl"
+    manifest.append_run_state_event(
+        path, run_event(plan, event_id="model1-start", model=order[0]),
+        plan, root=tmp_path,
+    )
+    manifest.append_run_state_event(
+        path, run_event(
+            plan, event_id="model1-invalid", model=order[0],
+            state="invalidated", timestamp="2026-07-10T12:01:00Z",
+        ), plan, root=tmp_path,
+    )
+    next_model = run_event(
+        plan, event_id="model2-too-early", model=order[1],
+        timestamp="2026-07-10T12:02:00Z",
+    )
+    with pytest.raises(ValueError, match="model execution order"):
+        manifest.append_run_state_event(
+            path, next_model, plan, root=tmp_path
+        )
+
+
+def test_run_state_advances_occurrence_only_after_all_models_terminal(
+        tmp_path, samples):
+    plan = samples["calibration"]
+    order = plan["entries"][0]["model_execution_order"]
+    path = tmp_path / "complete-worklist.jsonl"
+    second = 0
+    for index, model in enumerate(order, 1):
+        manifest.append_run_state_event(
+            path, run_event(
+                plan, event_id=f"model-{index}-start", model=model,
+                timestamp=f"2026-07-10T12:00:{second:02d}Z",
+            ), plan, root=tmp_path,
+        )
+        second += 1
+        manifest.append_run_state_event(
+            path, run_event(
+                plan, event_id=f"model-{index}-complete", model=model,
+                state="complete",
+                timestamp=f"2026-07-10T12:00:{second:02d}Z",
+            ), plan, root=tmp_path,
+        )
+        second += 1
+    manifest.append_run_state_event(
+        path, run_event(
+            plan, event_id="occurrence-2-start", occurrence_index=1,
+            timestamp=f"2026-07-10T12:00:{second:02d}Z",
+        ), plan, root=tmp_path,
+    )
+
+
 def test_plan_state_and_freeze_writers_reject_out_of_root_and_symlinks(
         tmp_path, samples, bank_data):
     episodes, sidecar = bank_data
@@ -964,7 +1428,12 @@ def make_freeze_root(tmp_path, bank_data):
     (root / "sidecar" / "judge_token_map.json").write_text(
         json.dumps(judge_map, indent=1), encoding="utf-8"
     )
-    report = {"seed": SEED, **generator._stats(episodes, sidecar, pairs)}
+    report = {
+        **copy.deepcopy(
+            manifest._canonical_construction(SEED)["report_projection"]
+        ),
+        "n_canaries_registered": 0,
+    }
     (root / "reports" / "generation_report.json").write_text(
         json.dumps(report, indent=2), encoding="utf-8"
     )
@@ -997,6 +1466,13 @@ def test_freeze_groups_cover_load_bearing_production_surfaces():
         "reports/lexical_baseline_report.json",
         "export/export_report.json",
     } <= set(manifest.FREEZE_FILE_GROUPS["generated"])
+    assert {
+        "pilot/contracts.py",
+        "pilot/codex_driver.py",
+        "pilot/openrouter_driver.py",
+        "pilot/run_panel.py",
+        "pilot/README.md",
+    } <= set(manifest._freeze_groups(BANK)["pilot"])
 
 
 def test_freeze_is_canonical_complete_and_refuses_launch_before_freeze(
@@ -1044,6 +1520,32 @@ def test_freeze_is_canonical_complete_and_refuses_launch_before_freeze(
         first["runtime"]["dependencies"]
     )
     assert manifest.validate_private_launch(first, root, **kwargs)["valid"] is True
+
+
+def test_freeze_is_invariant_to_real_disk_loader_episode_order(
+        tmp_path, samples, bank_data):
+    episodes, sidecar = bank_data
+    reordered = disk_loader_order(episodes)
+    root, fake_codex = make_freeze_root(tmp_path, bank_data)
+    base_kwargs = {
+        "sample_manifests": samples,
+        "sidecar": sidecar,
+        "codex_cli_path": fake_codex,
+        "codex_cli_version": "codex-cli-test",
+    }
+    generated_order_freeze = manifest.build_freeze(
+        root, episodes=episodes, **base_kwargs
+    )
+    loader_order_freeze = manifest.build_freeze(
+        root, episodes=reordered, **base_kwargs
+    )
+    assert loader_order_freeze == generated_order_freeze
+    assert generated_order_freeze["bank_input_hashes"]["episodes"] == (
+        manifest.canonical_episode_sha256(episodes)
+    )
+    assert manifest.validate_private_launch(
+        generated_order_freeze, root, episodes=reordered, **base_kwargs
+    )["valid"] is True
 
 
 def test_private_launch_detects_file_sample_and_binary_tamper(
@@ -1216,16 +1718,35 @@ def test_freeze_rejects_poisoned_memory_and_persisted_bank_artifacts(
         episodes, sidecar, sampled_ids
     )
     root, fake_codex = make_freeze_root(tmp_path / "memory", bank_data)
-    with pytest.raises(ValueError, match="canonical|construction|bank"):
+    with pytest.raises(
+            ValueError, match="canonical|construction|bank|defeat class"):
         manifest.build_freeze(
             root, sample_manifests=samples, episodes=changed_episodes,
             sidecar=changed_sidecar, codex_cli_path=fake_codex,
             codex_cli_version="codex-cli-test",
         )
 
+    same_poison_sidecar = copy.deepcopy(sidecar)
+    public_id = next(row["id"] for row in episodes if row["split"] == "public")
+    same_poison_sidecar[public_id]["latent_evidence"][
+        "signal_band"
+    ] = "POISON"
+    root, fake_codex = make_freeze_root(
+        tmp_path / "same-memory-disk-poison", bank_data
+    )
+    (root / "sidecar" / "ground_truth.json").write_text(
+        json.dumps(same_poison_sidecar), encoding="utf-8"
+    )
+    with pytest.raises(ValueError, match="canonical|construction"):
+        manifest.build_freeze(
+            root, sample_manifests=samples, episodes=episodes,
+            sidecar=same_poison_sidecar, codex_cli_path=fake_codex,
+            codex_cli_version="codex-cli-test",
+        )
+
     for poison in (
             "ground_truth", "private_yaml", "pair_registry", "judge_map",
-            "generation_report"):
+            "generation_report", "report_canary_state", "reordered_private"):
         root, fake_codex = make_freeze_root(tmp_path / poison, bank_data)
         if poison == "ground_truth":
             (root / "sidecar" / "ground_truth.json").write_text(
@@ -1250,6 +1771,21 @@ def test_freeze_rejects_poisoned_memory_and_persisted_bank_artifacts(
                     root / "reports" / "generation_report.json",
                     json.dumps({"seed": SEED, "n_total": 1}),
                 ),
+                "report_canary_state": (
+                    root / "reports" / "generation_report.json",
+                    json.dumps({
+                        **json.loads((
+                            root / "reports" / "generation_report.json"
+                        ).read_text(encoding="utf-8")),
+                        "n_canaries_registered": 1,
+                    }),
+                ),
+                "reordered_private": (
+                    root / "episodes" / "private_bank.yaml",
+                    yaml.safe_dump(list(reversed([
+                        row for row in episodes if row["split"] == "private"
+                    ])), sort_keys=False),
+                ),
             }
             target, value = target_and_value[poison]
             target.write_text(value, encoding="utf-8")
@@ -1264,6 +1800,45 @@ def test_freeze_rejects_poisoned_memory_and_persisted_bank_artifacts(
                 sidecar=sidecar, codex_cli_path=fake_codex,
                 codex_cli_version="codex-cli-test",
             )
+
+
+@pytest.mark.parametrize("artifact", ["json", "yaml"])
+def test_freeze_rejects_duplicate_keys_in_persisted_artifacts(
+        artifact, tmp_path, samples, bank_data):
+    episodes, sidecar = bank_data
+    root, fake_codex = make_freeze_root(
+        tmp_path / f"duplicate-{artifact}", bank_data
+    )
+    if artifact == "json":
+        path = root / "sidecar" / "ground_truth.json"
+        item_id = next(iter(sidecar))
+        canonical_text = json.dumps(sidecar, separators=(",", ":"))
+        path.write_text(
+            "{" + json.dumps(item_id) + ":"
+            + json.dumps(sidecar[item_id], separators=(",", ":")) + ","
+            + canonical_text[1:],
+            encoding="utf-8",
+        )
+        message = "duplicate JSON key"
+    else:
+        path = root / "episodes" / "private_bank.yaml"
+        canonical_text = path.read_text(encoding="utf-8")
+        assert "  split: private\n" in canonical_text
+        path.write_text(
+            canonical_text.replace(
+                "  split: private\n",
+                "  split: private\n  split: private\n",
+                1,
+            ),
+            encoding="utf-8",
+        )
+        message = "duplicate YAML key"
+    with pytest.raises(ValueError, match=message):
+        manifest.build_freeze(
+            root, sample_manifests=samples, episodes=episodes,
+            sidecar=sidecar, codex_cli_path=fake_codex,
+            codex_cli_version="codex-cli-test",
+        )
 
 
 def test_freeze_binds_bank_inputs_and_freeze_writer_is_semantic_and_confined(
@@ -1281,7 +1856,7 @@ def test_freeze_binds_bank_inputs_and_freeze_writer_is_semantic_and_confined(
     }
     freeze = manifest.build_freeze(root, **kwargs)
     assert freeze["bank_input_hashes"] == {
-        "episodes": manifest.canonical_sha256(episodes),
+        "episodes": manifest.canonical_episode_sha256(episodes),
         "sidecar": manifest.canonical_sha256(sidecar),
     }
 

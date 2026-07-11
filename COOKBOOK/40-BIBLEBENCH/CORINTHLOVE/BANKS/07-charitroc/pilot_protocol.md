@@ -17,6 +17,8 @@
 - Reuse the identical panel/configuration across banks intended for concordance.
 - Store raw transcripts under access control; the evaluated model receives only
   `lib.payloads.model_turns(episode)`.
+- Bind every append-only execution event to the immutable sample-plan hash,
+  occurrence ID, item ID, integrity-session attempt, and logical model ID.
 
 ## 2. Episode execution
 
@@ -29,7 +31,17 @@
 6. No response is regenerated for content. The maximum two transport retries
    are allowed only for provider errors before any model tokens arrive, using
    bounded exponential backoff; every attempt and retry transition is logged.
-7. Missing structured fields route to blinded judges, not silent exclusion.
+7. An integrity failure invalidates that session. Rerun the whole four-stage
+   episode once in a new session with transport attempt reset to one; a second
+   integrity failure is terminal. Transport retries and the one integrity
+   rerun are distinct counters.
+8. Execute the predeclared occurrence-major worklist exactly: all three logical
+   model arms in each occurrence's declared order, then the next occurrence.
+   The private extension remains inactive until a later explicit activation.
+9. Every turn uses the frozen canonical JSON schema. Missing, duplicate, extra,
+   malformed, or case-drifted fields preserve the raw response and route to
+   blinded judges, not silent exclusion. No format-correction turn is sent;
+   parse failure is neither a transport retry nor an integrity-rerun trigger.
 
 Benign/malicious pair arms must be separated in randomized order so a model
 cannot recognize a twin from immediate adjacency. A model never receives a pair

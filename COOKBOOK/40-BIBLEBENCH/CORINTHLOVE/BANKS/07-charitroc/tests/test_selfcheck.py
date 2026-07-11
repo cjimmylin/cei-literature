@@ -88,6 +88,26 @@ def _write_bank_fixture(root, bank_data):
     )
 
 
+def test_canary_selfcheck_rejects_marker_registered_to_another_item(
+        tmp_path, bank_data):
+    root = tmp_path / "BANKS" / "07-charitroc"
+    _write_bank_fixture(root, bank_data)
+    episodes = bank_data[0]
+    rotated_ids = [episode["id"] for episode in episodes[1:]] + [
+        episodes[0]["id"]
+    ]
+    registry = root.parent / "canary_registry.txt"
+    registry.write_text(
+        "# append-only registry\n" + "".join(
+            f"{episode['canary']}  {wrong_id}  {generator.DESIGN}\n"
+            for episode, wrong_id in zip(episodes, rotated_ids)
+        ),
+        encoding="utf-8",
+    )
+    with pytest.raises(AssertionError, match="canary registry mapping"):
+        selfcheck.check_canary_registry(os.fspath(root))
+
+
 def _valid_auc_block(auc=0.50):
     family_auc = {family: auc for family in generator.FAMILY_CODES}
     return {
@@ -170,9 +190,17 @@ def test_required_contract_includes_every_new_readiness_artifact():
         "adversarial/lexical_baselines.py",
         "reports/lexical_baseline_report.json",
         "pilot/manifest.py",
+        "pilot/contracts.py",
+        "pilot/codex_driver.py",
+        "pilot/openrouter_driver.py",
+        "pilot/run_panel.py",
         "pilot/panel_manifest.json",
         "pilot/response_schema.json",
         "pilot/README.md",
+        "tests/test_pilot_contracts.py",
+        "tests/test_codex_driver.py",
+        "tests/test_openrouter_driver.py",
+        "tests/test_panel_orchestration.py",
         "reports/arm_symmetry_table.md",
     } <= set(selfcheck.REQUIRED)
 

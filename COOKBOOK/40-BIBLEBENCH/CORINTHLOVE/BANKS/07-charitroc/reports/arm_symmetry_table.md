@@ -4,8 +4,14 @@ All private twins share family, world, prior, pressure, gate, and surface wrappe
 
 - matched pairs audited: 288
 - family × manipulated-stage groups: 24
-- character tolerance per manipulated stage: 40
+- stage-1 character tolerance: 40
+- stage-3 character difference allowed: 0
 - word, digit, sentence, and response-format differences allowed: 0
+- private stage-3 maximum character delta: 0
+- declared exact ambiguity groups: 12
+- undeclared exact opposite-label groups: 0
+- declared normalized-core ambiguity groups: 12
+- undeclared normalized-core opposite-label groups: 0
 
 ## Defeat classes
 

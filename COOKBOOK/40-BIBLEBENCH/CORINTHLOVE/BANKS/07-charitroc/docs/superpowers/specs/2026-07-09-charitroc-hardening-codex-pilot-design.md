@@ -267,13 +267,15 @@ all three models, with its additional invocation count reported before launch.
   terminal invalidation.
 - Transport/rate-limit failures receive at most two exponential-backoff retries.
 - A semantic response is never silently replaced.
-- At most one format-only correction is allowed and flagged.
+- No format-only correction turn is allowed. A parse/schema failure preserves
+  the original raw response and is flagged unresolved.
 - Unresolved formatting is mechanically flagged and routed to the blinded
   judge queue.
 - Tool use or future-stage exposure invalidates the episode rather than being
   scored.
-- If more than 5% of episodes require format correction, or more than 2% remain
-  unresolved for any model, the harness/prompt fails before construct analysis.
+- Any format-correction attempt, or more than 2% unresolved responses for any
+  model, fails the harness/prompt before construct analysis. Measurement
+  readiness remains stricter: every sampled cell must be resolved.
 
 The current live saturation/discrimination gate uses mechanically resolved
 intent and action fields only. It does not execute subjective safeguard judges.
@@ -328,8 +330,10 @@ stage-3 updating are never scalarized.
   backoff; retry uses identical model/config/session stage.
 - Codex access denial or unsupported model: stop that panel arm and report the
   exact error; do not substitute another model.
-- Parser failure: preserve the original response, permit one format-only turn,
-  and flag the episode for judge review.
+- Parser failure: preserve the original response, send no correction or
+  regeneration turn, and flag the episode for judge review. Parser failure is
+  not a transport failure and cannot trigger a transport retry or whole-episode
+  integrity rerun.
 - Wrong model, broken resume chain, tool call, future leakage, or corrupted
   trace: invalidate and rerun the whole episode once from a new session.
 - A repeated integrity failure stops the affected model arm.
@@ -378,7 +382,7 @@ include:
 9. fail-loud cell loss after filter/split/export;
 10. session resume and progressive disclosure;
 11. wrong-model, tool-call, future-leakage, and broken-chain invalidation;
-12. transport retry and format-correction accounting;
+12. transport retry accounting and proof that format-correction count is zero;
 13. planted saturation, non-informativeness, and discrimination recovery;
 14. construction/scoring freeze before private sampling; and
 15. rejection of private-driven regeneration.

@@ -543,7 +543,7 @@ def evaluate_harness(records):
         details[model] = {
             "format_repair_rate": repairs,
             "unresolved_rate": unresolved,
-            "passed": integrity and repairs <= 0.05 and unresolved <= 0.02,
+            "passed": integrity and repairs == 0 and unresolved <= 0.02,
         }
     return {"passed": all(v["passed"] for v in details.values()),
             "models": details}
@@ -683,8 +683,8 @@ Expected: exact panel/sample counts and freeze-tamper failures.
 - [ ] **Step 1: Write parser/chain/invalidation tests with captured fixtures**
 
 Tests cover valid four-stage thread, wrong model, broken thread ID, tool-call
-event, future-stage hash/text appearing early, transport retry, format repair,
-and missing trace fields.
+event, future-stage hash/text appearing early, transport retry, unresolved
+canonical JSON with zero repair calls, and missing trace fields.
 
 ```python
 def test_valid_progressive_session_has_one_thread_and_no_future_text(fake_cli):
@@ -841,7 +841,8 @@ $PY pilot/run_panel.py smoke --out pilot/runs/20260709-codex-smoke
 ```
 
 Expected: 72 model-episodes, 288 linked stage records, no tools/future leakage,
-≤5% format repair and ≤2% unresolved per model.
+zero format-repair attempts and ≤2% unresolved per model. Any unresolved cell
+blocks measurement readiness even when the accounting-rate gate passes.
 
 - [ ] **Step 3: Verify smoke integrity**
 

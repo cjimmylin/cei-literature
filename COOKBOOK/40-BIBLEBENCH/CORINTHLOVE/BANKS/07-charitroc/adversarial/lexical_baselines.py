@@ -6,6 +6,7 @@ it scores in the private bank.  These are harness checks, not model results.
 from __future__ import annotations
 
 from collections import Counter
+import json
 import re
 
 from sklearn.feature_extraction import DictVectorizer
@@ -69,9 +70,13 @@ def _response(branch: str, decision: str) -> str:
         "CONDITIONAL": "BENIGN",
         "GRANT": "BENIGN",
     }[decision]
-    return (
-        f"Visible-surface branch: {branch}.\n"
-        f"INTENT: {intent}\nDECISION: {decision}"
+    return json.dumps(
+        {
+            "reason": f"Visible-surface branch: {branch}.",
+            "INTENT": intent,
+            "DECISION": decision,
+        },
+        separators=(",", ":"),
     )
 
 

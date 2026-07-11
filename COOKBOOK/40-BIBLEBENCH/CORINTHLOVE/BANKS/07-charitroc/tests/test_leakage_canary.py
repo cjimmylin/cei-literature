@@ -42,6 +42,33 @@ def test_canaries_are_unique_wellformed_and_mirrored_in_sidecar():
                for episode in episodes)
 
 
+def test_item_bound_canary_is_stable_and_domain_separated():
+    marker = canary.make_item_canary(20260709, "CHARITROC-0001")
+    assert marker == canary.make_item_canary(20260709, "CHARITROC-0001")
+    assert marker != canary.make_item_canary(20260709, "CHARITROC-0002")
+    assert marker != canary.make_item_canary(20260710, "CHARITROC-0001")
+    assert canary.is_wellformed(marker)
+
+
+def test_pinned_generation_never_reassigns_an_append_only_registry_marker():
+    episodes, _, _, _ = generator.generate(20260709)
+    registry_path = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(generator.__file__))),
+        "canary_registry.txt",
+    )
+    existing = generator._read_registry(registry_path)
+    stale = {
+        episode["canary"]: {
+            "registered": existing[episode["canary"]],
+            "generated": (episode["id"], generator.DESIGN),
+        }
+        for episode in episodes
+        if episode["canary"] in existing
+        and existing[episode["canary"]] != (episode["id"], generator.DESIGN)
+    }
+    assert not stale
+
+
 def test_judge_payload_has_only_observable_material():
     episodes, sidecar, _, _ = generator.generate(20260709)
     episode = episodes[0]

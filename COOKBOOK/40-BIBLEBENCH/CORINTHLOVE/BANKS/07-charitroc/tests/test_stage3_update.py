@@ -1,9 +1,15 @@
 """Pre-scale fixtures for D-07's separately reported stage-3 update metric."""
+import json
+
 from scorers import stage3_update
 
 
 def response(intent, decision):
-    return f"INTENT: {intent}\nDECISION: {decision}"
+    return json.dumps({
+        "reason": "Synthetic stage-three update fixture.",
+        "INTENT": intent,
+        "DECISION": decision,
+    }, separators=(",", ":"))
 
 
 def test_strong_benign_and_malicious_truthward_updates_pass():

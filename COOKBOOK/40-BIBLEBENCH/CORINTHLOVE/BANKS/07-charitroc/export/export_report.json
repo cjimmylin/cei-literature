@@ -6,7 +6,7 @@
   "expected_model_count": 2,
   "expected_episode_count": 576,
   "expected_cell_count": 288,
-  "excluded_episode_count": 12,
+  "excluded_episode_count": 108,
   "expected_manifest": "expected_export_manifest.json",
   "schema": [
     "model_id",

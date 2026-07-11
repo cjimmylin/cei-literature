@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 from collections import defaultdict
+from copy import deepcopy
 from datetime import datetime, timezone
 from functools import lru_cache
 import hashlib
@@ -15,14 +16,20 @@ import subprocess
 import sys
 
 import generator
-from export import export_megamatrix
+import yaml
+from yaml.resolver import BaseResolver
 
 
 MODULE_DIR = Path(__file__).resolve().parent
 PANEL_PATH = MODULE_DIR / "panel_manifest.json"
+CHEAP_PANEL_PATH = MODULE_DIR / "cheap_panel_manifest.json"
 RESPONSE_SCHEMA_PATH = MODULE_DIR / "response_schema.json"
 
 MODEL_LOGICAL_IDS = ("gpt-5.5", "gpt-5.4", "gpt-5.4-mini")
+CHEAP_MODEL_LOGICAL_IDS = ("gpt-5-nano", "gpt-5.4-nano", "gpt-5-mini")
+FLAGSHIP_PROFILE_ID = "flagship-v1"
+CHEAP_PROFILE_ID = "cheap-azure-v1"
+CHEAP_PANEL_MANIFEST_VERSION = "charitroc-openrouter-cheap-panel-v1"
 BANK_GENERATION_SEED = 20260709
 PANEL_MANIFEST_VERSION = "charitroc-codex-openrouter-panel-v1"
 SAMPLE_MANIFEST_VERSION = "charitroc-sample-plan-v1"
@@ -96,6 +103,37 @@ OPENROUTER_ROUTING_POLICY = {
         "verify_at_launch": True,
     },
     "reasoning_effort": "medium",
+}
+OPENROUTER_REQUIRED_PARAMETERS = (
+    "max_completion_tokens", "reasoning", "response_format",
+    "structured_outputs",
+)
+FLAGSHIP_OPENROUTER_WIRE_ROUTING_POLICY = {
+    "only": ["OpenAI"],
+    "order": ["OpenAI"],
+    "allow_fallbacks": False,
+    "require_parameters": True,
+    "data_collection": "deny",
+    "zdr": True,
+}
+CHEAP_OPENROUTER_WIRE_ROUTING_POLICY = {
+    "only": ["Azure"],
+    "order": ["Azure"],
+    "allow_fallbacks": False,
+    "require_parameters": True,
+    "data_collection": "deny",
+    "zdr": True,
+}
+CHEAP_CATALOG_SNAPSHOT_UTC = "2026-07-11T00:48:00Z"
+CHEAP_COMMAND_ALLOWLIST = (
+    "access", "canary", "smoke", "verify", "report",
+)
+CHEAP_MINIMUM_CONTEXT_LENGTH = 400000
+CHEAP_ELIGIBLE_ENDPOINT_POLICY = "all_exact_one_selected"
+CHEAP_PRICE_CEILINGS = {
+    "gpt-5-nano": {"input": 0.05, "output": 0.40},
+    "gpt-5.4-nano": {"input": 0.20, "output": 1.25},
+    "gpt-5-mini": {"input": 0.25, "output": 2.00},
 }
 EXPECTED_RESPONSE_SCHEMA = {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -223,9 +261,42 @@ def sha256_file(path):
     return digest.hexdigest()
 
 
+def _unique_json_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"duplicate JSON key: {key}")
+        result[key] = value
+    return result
+
+
 def _read_json(path):
     with Path(path).open(encoding="utf-8") as handle:
-        return json.load(handle)
+        return json.load(handle, object_pairs_hook=_unique_json_object)
+
+
+class _UniqueKeyLoader(yaml.SafeLoader):
+    pass
+
+
+def _construct_unique_mapping(loader, node, deep=False):
+    mapping = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        if key in mapping:
+            raise ValueError(f"duplicate YAML key: {key}")
+        mapping[key] = loader.construct_object(value_node, deep=deep)
+    return mapping
+
+
+_UniqueKeyLoader.add_constructor(
+    BaseResolver.DEFAULT_MAPPING_TAG, _construct_unique_mapping
+)
+
+
+def _read_yaml(path):
+    with Path(path).open(encoding="utf-8") as handle:
+        return yaml.load(handle, Loader=_UniqueKeyLoader)
 
 
 def _validate_panel(panel):
@@ -309,6 +380,181 @@ def load_panel(path=None):
     return _validate_panel(_read_json(path or PANEL_PATH))
 
 
+def _validate_cheap_panel(panel):
+    """Validate the separate, qualification-only Azure profile exactly."""
+    if type(panel) is not dict or set(panel) != {
+            "manifest_version", "profile_id", "immutable", "purpose",
+            "catalog_snapshot_utc", "command_allowlist",
+            "required_parameters", "minimum_context_length",
+            "eligible_endpoint_policy", "reasoning_effort",
+            "expected_returned_provider", "routing_policy", "models",
+            "profile_sha256"}:
+        raise ValueError("cheap panel must use exact frozen keys")
+    fixed = {
+        "manifest_version": CHEAP_PANEL_MANIFEST_VERSION,
+        "profile_id": CHEAP_PROFILE_ID,
+        "immutable": True,
+        "purpose": "qualification-only",
+        "catalog_snapshot_utc": CHEAP_CATALOG_SNAPSHOT_UTC,
+        "command_allowlist": list(CHEAP_COMMAND_ALLOWLIST),
+        "required_parameters": list(OPENROUTER_REQUIRED_PARAMETERS),
+        "minimum_context_length": CHEAP_MINIMUM_CONTEXT_LENGTH,
+        "eligible_endpoint_policy": CHEAP_ELIGIBLE_ENDPOINT_POLICY,
+        "reasoning_effort": "medium",
+        "expected_returned_provider": "Azure",
+        "routing_policy": CHEAP_OPENROUTER_WIRE_ROUTING_POLICY,
+    }
+    for key, expected in fixed.items():
+        if panel.get(key) != expected:
+            raise ValueError(f"cheap panel frozen {key} mismatch")
+
+    models = panel.get("models")
+    if type(models) is not list or len(models) != len(
+            CHEAP_MODEL_LOGICAL_IDS) or any(type(row) is not dict for row in models):
+        raise ValueError("cheap panel models must be an exact ordered list")
+    if [row.get("logical_model_id") for row in models] != list(
+            CHEAP_MODEL_LOGICAL_IDS):
+        raise ValueError("cheap panel ordered logical IDs mismatch")
+    configurations = set()
+    for row in models:
+        if set(row) != {
+                "logical_model_id", "provider_model_id", "configuration_id",
+                "price_ceiling_usd_per_million_tokens"}:
+            raise ValueError("cheap panel model keys are not exact")
+        logical = row["logical_model_id"]
+        if row["provider_model_id"] != f"openai/{logical}":
+            raise ValueError("cheap panel provider model slug mismatch")
+        expected_configuration = (
+            f"openrouter-azure-{logical}-medium-no-fallback-zdr"
+        )
+        if row["configuration_id"] != expected_configuration:
+            raise ValueError("cheap panel configuration identity mismatch")
+        if row["configuration_id"] in configurations:
+            raise ValueError("cheap panel configurations must be unique")
+        configurations.add(row["configuration_id"])
+        prices = row["price_ceiling_usd_per_million_tokens"]
+        if type(prices) is not dict or set(prices) != {"input", "output"} \
+                or prices != CHEAP_PRICE_CEILINGS[logical] \
+                or any(type(value) is not float or value <= 0
+                       for value in prices.values()):
+            raise ValueError("cheap panel frozen price ceiling mismatch")
+
+    profile_hash = panel.get("profile_sha256")
+    if type(profile_hash) is not str or re.fullmatch(
+            r"[0-9a-f]{64}", profile_hash) is None:
+        raise ValueError("cheap panel profile hash must be a SHA-256 digest")
+    projection = {
+        key: value for key, value in panel.items()
+        if key != "profile_sha256"
+    }
+    if profile_hash != canonical_sha256(projection):
+        raise ValueError("cheap panel profile hash mismatch")
+    return panel
+
+
+def load_cheap_panel(path=None):
+    """Load and validate the immutable cheap Azure qualification profile."""
+    return _validate_cheap_panel(_read_json(path or CHEAP_PANEL_PATH))
+
+
+def cheap_panel_sha256(path=None):
+    """Return the hash bound inside the validated cheap-profile manifest."""
+    return load_cheap_panel(path)["profile_sha256"]
+
+
+def resolve_openrouter_identity(
+        logical_model_id, profile_id=FLAGSHIP_PROFILE_ID):
+    """Resolve one exact OpenRouter identity and its immutable route policy."""
+    if type(logical_model_id) is not str or not logical_model_id:
+        raise ValueError("OpenRouter logical model identity must be exact text")
+    if profile_id == FLAGSHIP_PROFILE_ID:
+        panel = load_panel()
+        model = next((
+            row for row in panel["models"]
+            if row["logical_model_id"] == logical_model_id
+        ), None)
+        if model is None:
+            raise ValueError("logical model is not in the frozen flagship profile")
+        provider = model["providers"]["openrouter"]
+        return {
+            "profile_id": FLAGSHIP_PROFILE_ID,
+            "profile_sha256": canonical_sha256(panel),
+            "provider": "openrouter",
+            "logical_model_id": logical_model_id,
+            "provider_model_id": provider["provider_model_id"],
+            "configuration_id": provider["configuration_id"],
+            "expected_returned_provider": "OpenAI",
+            "reasoning_effort": model["reasoning_effort"],
+            "eligible_endpoint_policy": "exactly_one",
+            "required_parameters": list(OPENROUTER_REQUIRED_PARAMETERS),
+            "minimum_context_length": None,
+            "price_ceiling_usd_per_million_tokens": None,
+            "routing_policy": deepcopy(
+                FLAGSHIP_OPENROUTER_WIRE_ROUTING_POLICY
+            ),
+        }
+    if profile_id == CHEAP_PROFILE_ID:
+        panel = load_cheap_panel()
+        model = next((
+            row for row in panel["models"]
+            if row["logical_model_id"] == logical_model_id
+        ), None)
+        if model is None:
+            raise ValueError("logical model is not in the frozen cheap profile")
+        return {
+            "profile_id": CHEAP_PROFILE_ID,
+            "profile_sha256": panel["profile_sha256"],
+            "provider": "openrouter",
+            "logical_model_id": logical_model_id,
+            "provider_model_id": model["provider_model_id"],
+            "configuration_id": model["configuration_id"],
+            "expected_returned_provider": panel[
+                "expected_returned_provider"
+            ],
+            "reasoning_effort": panel["reasoning_effort"],
+            "eligible_endpoint_policy": panel[
+                "eligible_endpoint_policy"
+            ],
+            "required_parameters": deepcopy(panel["required_parameters"]),
+            "minimum_context_length": panel["minimum_context_length"],
+            "price_ceiling_usd_per_million_tokens": deepcopy(model[
+                "price_ceiling_usd_per_million_tokens"
+            ]),
+            "routing_policy": deepcopy(panel["routing_policy"]),
+        }
+    raise ValueError("OpenRouter profile_id is not frozen")
+
+
+def expected_returned_provider(identity_tuple):
+    """Return the exact provider name bound to a frozen StageRequest tuple."""
+    if type(identity_tuple) is not tuple or len(identity_tuple) != 4 or any(
+            type(value) is not str or not value for value in identity_tuple):
+        raise ValueError("provider identity must be an exact four-string tuple")
+    identities = {}
+    panel = load_panel()
+    for row in panel["models"]:
+        logical = row["logical_model_id"]
+        for provider_name, provider in row["providers"].items():
+            identity = (
+                provider_name, logical, provider["provider_model_id"],
+                provider["configuration_id"],
+            )
+            identities[identity] = "OpenAI"
+    cheap = load_cheap_panel()
+    for row in cheap["models"]:
+        identity = (
+            "openrouter", row["logical_model_id"],
+            row["provider_model_id"], row["configuration_id"],
+        )
+        if identity in identities:
+            raise ValueError("cheap and flagship frozen identities overlap")
+        identities[identity] = cheap["expected_returned_provider"]
+    try:
+        return identities[identity_tuple]
+    except KeyError:
+        raise ValueError("provider identity tuple is not frozen") from None
+
+
 def _validate_response_schema(schema):
     if schema != EXPECTED_RESPONSE_SCHEMA:
         raise ValueError(
@@ -349,7 +595,7 @@ def canonical_episode_sha256(episodes):
 
 
 @lru_cache(maxsize=4)
-def _canonical_construction(seed=BANK_GENERATION_SEED):
+def _canonical_construction_blobs(seed):
     episodes, sidecar, stats, pairs = generator.generate(seed)
     extra = generator.run_asserts(episodes, sidecar, stats, pairs)
     judge_map = generator.build_judge_token_map(episodes, seed)
@@ -365,7 +611,7 @@ def _canonical_construction(seed=BANK_GENERATION_SEED):
             "planned_analytic_se_at_auc_0_5": 0.084197,
         },
     }
-    return {
+    summary = {
         "episodes_hash": canonical_sha256(episodes),
         "episode_map_hash": canonical_episode_sha256(episodes),
         "split_hashes": {
@@ -379,6 +625,41 @@ def _canonical_construction(seed=BANK_GENERATION_SEED):
         "judge_map_hash": canonical_sha256(judge_map),
         "report_projection": report_projection,
     }
+    return (
+        _canonical_bytes(summary),
+        _canonical_bytes(episodes),
+        _canonical_bytes(sidecar),
+    )
+
+
+def _decode_canonical(blob):
+    return json.loads(
+        blob.decode("utf-8"), object_pairs_hook=_unique_json_object
+    )
+
+
+def _canonical_construction(seed=None):
+    normalized_seed = BANK_GENERATION_SEED if seed is None else seed
+    summary_blob, _, _ = _canonical_construction_blobs(normalized_seed)
+    return _decode_canonical(summary_blob)
+
+
+def _canonical_bank_data(seed=None):
+    normalized_seed = BANK_GENERATION_SEED if seed is None else seed
+    _, episode_blob, sidecar_blob = _canonical_construction_blobs(
+        normalized_seed
+    )
+    return _decode_canonical(episode_blob), _decode_canonical(sidecar_blob)
+
+
+def _clear_canonical_construction_cache():
+    _canonical_construction_blobs.cache_clear()
+    plan_cache = globals().get("_canonical_sample_plan_bytes")
+    if plan_cache is not None:
+        plan_cache.cache_clear()
+
+
+_canonical_construction.cache_clear = _clear_canonical_construction_cache
 
 
 def _pair_records(episodes, sidecar, split):
@@ -600,7 +881,7 @@ def _validate_complete_bank(episodes, sidecar):
         )
 
     canonical = _canonical_construction(BANK_GENERATION_SEED)
-    if canonical_sha256(episodes) != canonical["episodes_hash"]:
+    if canonical_episode_sha256(episodes) != canonical["episode_map_hash"]:
         raise ValueError(
             "episode bank differs from the canonical generator construction; "
             "every row, field, and visible transcript is load-bearing"
@@ -758,6 +1039,32 @@ def _build_sample_unvalidated(stage, episodes, sidecar, seed):
     return plan
 
 
+@lru_cache(maxsize=8)
+def _canonical_sample_plan_bytes(stage, sample_seed):
+    episodes, sidecar = _canonical_bank_data(BANK_GENERATION_SEED)
+    return _canonical_bytes(_build_sample_unvalidated(
+        stage, episodes, sidecar, sample_seed
+    ))
+
+
+def _validate_pinned_sample_plan(plan):
+    _validate_plan_structure(plan)
+    if plan["seed"] != BANK_GENERATION_SEED:
+        raise ValueError(
+            "sample plan semantic mismatch: run state requires the pinned "
+            f"pilot sample seed {BANK_GENERATION_SEED}"
+        )
+    expected = _canonical_sample_plan_bytes(
+        plan["stage"], BANK_GENERATION_SEED
+    )
+    if _canonical_bytes(plan) != expected:
+        raise ValueError(
+            "sample plan semantic mismatch: run state requires the exact "
+            "deterministic pinned stage plan"
+        )
+    return plan
+
+
 def build_sample(stage, episodes, sidecar, seed):
     if stage not in SAMPLE_STAGES:
         raise ValueError(f"stage must be one of {SAMPLE_STAGES}")
@@ -810,8 +1117,13 @@ def _absolute_unresolved(path):
 
 def _safe_existing_root(root):
     candidate = _absolute_unresolved(root)
-    if candidate.is_symlink():
-        raise ValueError(f"root may not be a symlink: {candidate}")
+    current = Path(candidate.anchor)
+    for part in candidate.parts[1:]:
+        current = current / part
+        if current.is_symlink():
+            raise ValueError(
+                f"root path may not contain a symlink ancestor: {current}"
+            )
     if not candidate.is_dir():
         raise ValueError(f"root is not a directory: {candidate}")
     return candidate
@@ -850,17 +1162,28 @@ def write_plan_manifest(path, plan, episodes, sidecar, *, root):
     try:
         with target.open("x", encoding="utf-8") as handle:
             handle.write(_canonical_bytes(plan).decode("utf-8") + "\n")
+            handle.flush()
+            os.fsync(handle.fileno())
     except FileExistsError as exc:
         raise ValueError(f"immutable plan already exists: {target}") from exc
+    directory_fd = os.open(os.fspath(target.parent), os.O_RDONLY)
+    try:
+        os.fsync(directory_fd)
+    finally:
+        os.close(directory_fd)
     return target
 
 
 def _validate_run_state_event(event):
     if not isinstance(event, dict) or set(event) != set(RUN_STATE_EVENT_KEYS):
         raise ValueError(f"run-state event keys must be {RUN_STATE_EVENT_KEYS}")
-    for field in ("event_id", "plan_occurrence_id", "timestamp_utc"):
+    for field in (
+            "event_id", "plan_hash", "plan_occurrence_id", "item_id",
+            "timestamp_utc"):
         if not isinstance(event[field], str) or not event[field]:
             raise ValueError(f"run-state {field} must be a non-empty string")
+    if not _is_sha256(event["plan_hash"]):
+        raise ValueError("run-state plan hash must be a SHA-256 digest")
     if event["logical_model_id"] not in MODEL_LOGICAL_IDS:
         raise ValueError("run-state logical_model_id is outside the frozen panel")
     if event["state"] not in RUN_STATES:
@@ -869,6 +1192,13 @@ def _validate_run_state_event(event):
             or not 1 <= event["attempt"] <= 3:
         raise ValueError(
             "run-state attempt must be 1..3 (initial plus two retries)"
+        )
+    if isinstance(event["session_attempt"], bool) or not isinstance(
+            event["session_attempt"], int) or not 1 <= event[
+                "session_attempt"] <= 2:
+        raise ValueError(
+            "run-state session_attempt must be 1..2 "
+            "(initial plus one whole-episode rerun)"
         )
     if not re.fullmatch(
             r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z",
@@ -889,11 +1219,15 @@ def _event_timestamp(event):
     ).replace(tzinfo=timezone.utc)
 
 
-def _bind_run_state_event(event, occurrences):
+def _bind_run_state_event(event, occurrences, plan):
     _validate_run_state_event(event)
+    if event["plan_hash"] != plan["plan_hash"]:
+        raise ValueError("run-state plan hash does not match the canonical plan")
     occurrence = occurrences.get(event["plan_occurrence_id"])
     if occurrence is None:
         raise ValueError("run-state occurrence is not declared by the sample plan")
+    if event["item_id"] != occurrence["item_id"]:
+        raise ValueError("run-state item does not match the plan occurrence")
     if event["logical_model_id"] not in occurrence["model_execution_order"]:
         raise ValueError("run-state model is not declared for the occurrence")
     return event
@@ -912,11 +1246,13 @@ def _validate_run_transition(previous, event):
             and event["state"] in {"started", "failed", "invalidated"}
         )
     elif previous["state"] == "started":
-        valid = (
-            event["attempt"] == previous["attempt"]
-            and event["state"] in {
-                "retry", "invalidated", "complete", "failed",
-            }
+        same_attempt = event["attempt"] == previous["attempt"]
+        valid = same_attempt and (
+            event["state"] in {"invalidated", "complete", "failed"}
+            or (
+                event["state"] == "retry"
+                and previous["attempt"] < 3
+            )
         )
     elif previous["state"] == "retry":
         valid = (
@@ -930,16 +1266,41 @@ def _validate_run_transition(previous, event):
 
 
 def _validate_run_state_history(events, plan):
-    _validate_plan_structure(plan)
+    _validate_pinned_sample_plan(plan)
+    primary_rows = plan["entries"]
     occurrences = {
-        row["occurrence_id"]: row
-        for row in plan["entries"] + plan["extension_entries"]
+        row["occurrence_id"]: row for row in primary_rows
+    }
+    extension_occurrences = {
+        row["occurrence_id"] for row in plan["extension_entries"]
     }
     event_ids = set()
-    latest_by_arm = {}
+    latest_by_session = {}
     last_timestamp = None
+
+    def model_settled(occurrence_id, model_id):
+        session_two = latest_by_session.get((occurrence_id, model_id, 2))
+        if session_two is not None:
+            return session_two["state"] in {
+                "complete", "failed", "invalidated",
+            }
+        session_one = latest_by_session.get((occurrence_id, model_id, 1))
+        return session_one is not None and session_one["state"] in {
+            "complete", "failed",
+        }
+
+    def occurrence_settled(row):
+        return all(model_settled(row["occurrence_id"], model_id)
+                   for model_id in row["model_execution_order"])
+
     for event in events:
-        _bind_run_state_event(event, occurrences)
+        if isinstance(event, dict) and event.get(
+                "plan_occurrence_id") in extension_occurrences:
+            raise ValueError(
+                "private extension occurrence requires an explicit later "
+                "activation contract"
+            )
+        _bind_run_state_event(event, occurrences, plan)
         if event["event_id"] in event_ids:
             raise ValueError(
                 f"duplicate append-only run-state event {event['event_id']}"
@@ -947,9 +1308,37 @@ def _validate_run_state_history(events, plan):
         timestamp = _event_timestamp(event)
         if last_timestamp is not None and timestamp < last_timestamp:
             raise ValueError("run-state timestamp must be monotonic")
-        arm = (event["plan_occurrence_id"], event["logical_model_id"])
-        _validate_run_transition(latest_by_arm.get(arm), event)
-        latest_by_arm[arm] = event
+
+        active_row = next(
+            (row for row in primary_rows if not occurrence_settled(row)), None
+        )
+        if active_row is None or event["plan_occurrence_id"] != active_row[
+                "occurrence_id"]:
+            raise ValueError(
+                "run-state occurrence execution order differs from the plan"
+            )
+        model_id = event["logical_model_id"]
+        model_index = active_row["model_execution_order"].index(model_id)
+        if any(not model_settled(active_row["occurrence_id"], prior_model)
+               for prior_model in active_row["model_execution_order"][
+                   :model_index]):
+            raise ValueError(
+                "run-state model execution order differs from the plan"
+            )
+
+        session = event["session_attempt"]
+        key = (event["plan_occurrence_id"], model_id, session)
+        previous = latest_by_session.get(key)
+        if previous is None and session == 2:
+            session_one = latest_by_session.get(
+                (event["plan_occurrence_id"], model_id, 1)
+            )
+            if session_one is None or session_one["state"] != "invalidated":
+                raise ValueError(
+                    "session_attempt 2 requires an invalidated first session"
+                )
+        _validate_run_transition(previous, event)
+        latest_by_session[key] = event
         event_ids.add(event["event_id"])
         last_timestamp = timestamp
     return events
@@ -958,13 +1347,16 @@ def _validate_run_state_history(events, plan):
 def append_run_state_event(path, event, plan, *, root):
     target = _confined_target(root, path, create_parents=True)
     events = []
-    if target.exists():
+    existed = target.exists()
+    if existed:
         if not target.is_file():
             raise ValueError(f"run-state target is not a regular file: {target}")
         with target.open(encoding="utf-8") as handle:
             for line_number, line in enumerate(handle, 1):
                 try:
-                    existing = json.loads(line)
+                    existing = json.loads(
+                        line, object_pairs_hook=_unique_json_object
+                    )
                 except json.JSONDecodeError as exc:
                     raise ValueError(
                         f"corrupt append-only run state line {line_number}"
@@ -973,6 +1365,14 @@ def append_run_state_event(path, event, plan, *, root):
     _validate_run_state_history(events + [event], plan)
     with target.open("a", encoding="utf-8") as handle:
         handle.write(_canonical_bytes(event).decode("utf-8") + "\n")
+        handle.flush()
+        os.fsync(handle.fileno())
+    if not existed:
+        directory_fd = os.open(os.fspath(target.parent), os.O_RDONLY)
+        try:
+            os.fsync(directory_fd)
+        finally:
+            os.close(directory_fd)
     return target
 
 
@@ -991,6 +1391,84 @@ def _freeze_groups(root):
             if path.suffix in {".py", ".json", ".md"}:
                 groups["pilot"].add(path.relative_to(root).as_posix())
     return {name: tuple(sorted(paths)) for name, paths in groups.items()}
+
+
+def _validate_persisted_construction(root, episodes, sidecar,
+                                     seed=BANK_GENERATION_SEED):
+    canonical = _canonical_construction(seed)
+    for split, relative in (
+            ("private", "episodes/private_bank.yaml"),
+            ("calibration", "episodes/calibration_bank.yaml"),
+            ("public", "seeds_public.yaml")):
+        rows = _read_yaml(_confined_target(root, Path(root) / relative))
+        if not isinstance(rows, list) or canonical_sha256(
+                rows) != canonical["split_hashes"][split]:
+            raise ValueError(
+                f"persisted {split} split artifact differs from the "
+                "canonical generator construction"
+            )
+
+    disk_sidecar = _read_json(_confined_target(
+        root, Path(root) / "sidecar/ground_truth.json"
+    ))
+    if canonical_sha256(disk_sidecar) != canonical["sidecar_hash"]:
+        raise ValueError(
+            "persisted ground-truth sidecar differs from the canonical "
+            "generator construction"
+        )
+    if canonical_sha256(disk_sidecar) != canonical_sha256(sidecar):
+        raise ValueError("persisted and supplied sidecars are not identical")
+
+    pair_registry = _read_json(_confined_target(
+        root, Path(root) / "sidecar/pair_registry.json"
+    ))
+    if canonical_sha256(pair_registry) != canonical["pairs_hash"]:
+        raise ValueError(
+            "persisted pair registry differs from the canonical construction"
+        )
+    judge_map = _read_json(_confined_target(
+        root, Path(root) / "sidecar/judge_token_map.json"
+    ))
+    if canonical_sha256(judge_map) != canonical["judge_map_hash"]:
+        raise ValueError(
+            "persisted judge-token map differs from the canonical construction"
+        )
+
+    report = _read_json(_confined_target(
+        root, Path(root) / "reports/generation_report.json"
+    ))
+    expected_report = canonical["report_projection"]
+    expected_keys = set(expected_report) | {"n_canaries_registered"}
+    if not isinstance(report, dict) or set(report) != expected_keys:
+        raise ValueError("persisted generation report keys are not canonical")
+    canary_count = report.get("n_canaries_registered")
+    if canary_count != 0 or isinstance(canary_count, bool):
+        raise ValueError(
+            "private freeze requires n_canaries_registered=0 after the "
+            "append-only registry is already complete"
+        )
+    for key, expected in expected_report.items():
+        if report.get(key) != expected:
+            raise ValueError(
+                f"persisted generation report mismatch for {key}"
+            )
+
+    supplied_split_hashes = {
+        split: canonical_sha256([
+            episode for episode in episodes if episode["split"] == split
+        ])
+        for split in ("public", "calibration", "private")
+    }
+    if supplied_split_hashes != canonical["split_hashes"]:
+        raise ValueError(
+            "supplied episodes are not identical to persisted canonical splits"
+        )
+    return {
+        "episodes": canonical["episode_map_hash"],
+        "sidecar": canonical["sidecar_hash"],
+        "pairs": canonical["pairs_hash"],
+        "judge_map": canonical["judge_map_hash"],
+    }
 
 
 def _runtime_record(codex_cli_path, codex_cli_version):
@@ -1051,6 +1529,18 @@ def _sample_hashes(sample_manifests, episodes, sidecar):
 def build_freeze(bank_root, *, sample_manifests, episodes, sidecar,
                  codex_cli_path, codex_cli_version):
     root = _safe_existing_root(bank_root)
+    validate_sample_manifests(sample_manifests, episodes, sidecar)
+    construction_seeds = {
+        sample_manifests[stage]["seed"] for stage in SAMPLE_STAGES
+    }
+    if construction_seeds != {BANK_GENERATION_SEED}:
+        raise ValueError(
+            "private freeze sample manifests must use the pinned canonical "
+            f"construction seed {BANK_GENERATION_SEED}"
+        )
+    _validate_persisted_construction(
+        root, episodes, sidecar, BANK_GENERATION_SEED
+    )
     groups = _freeze_groups(root)
     file_hashes = {}
     for group in groups.values():
@@ -1076,7 +1566,7 @@ def build_freeze(bank_root, *, sample_manifests, episodes, sidecar,
             sample_manifests, episodes, sidecar
         ),
         "bank_input_hashes": {
-            "episodes": canonical_sha256(episodes),
+            "episodes": canonical_episode_sha256(episodes),
             "sidecar": canonical_sha256(sidecar),
         },
         "panel_manifest_hash": file_hashes["pilot/panel_manifest.json"],

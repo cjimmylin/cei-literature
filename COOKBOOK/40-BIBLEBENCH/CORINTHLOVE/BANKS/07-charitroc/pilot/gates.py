@@ -30,7 +30,7 @@ REPEAT_DIMENSION_RANGES = {
     "stage4_action_score": (0, 4),
     "stage3_update_correct": (0, 1),
 }
-FORMAT_REPAIR_RATE_MAX = 0.05
+FORMAT_REPAIR_RATE_MAX = 0.0
 UNRESOLVED_RATE_MAX = 0.02
 SATURATION_AUC = 0.95
 SATURATION_STAGE3 = 0.95
@@ -230,14 +230,17 @@ def evaluate_harness(records, expected_sample_cells):
             accounted = complete_trace or explicit_invalidation
             accounting_integrity = accounting_integrity and accounted
 
+            # Schema/parse failure is preserved as unresolved.  The harness
+            # never sends a correction turn and never replaces the response.
             format_flag_ok = (
-                row.get("format_repair_flagged") is (repair_count > 0)
+                repair_count == 0
+                and row.get("format_repair_flagged") is False
             )
             unresolved = row.get("unresolved") is True
             unresolved_flag_ok = (not unresolved) or row.get("judge_queued") is True
             contract_ok = (
                 retry_count <= 2
-                and repair_count <= 1
+                and repair_count == 0
                 and format_flag_ok
                 and unresolved_flag_ok
                 and row.get("semantic_response_replaced") is False
@@ -270,6 +273,7 @@ def evaluate_harness(records, expected_sample_cells):
             "n_expected": denominator,
             "n_observed": len(present),
             "format_repair_rate": repair_rate,
+            "format_repair_forbidden": True,
             "unresolved_rate": unresolved_rate,
             "accounting_integrity": accounting_integrity,
             "row_contracts_ok": row_contracts_ok,

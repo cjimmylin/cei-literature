@@ -1,1156 +1,1350 @@
 {
  "private": {
   "CRPAIR-01-01": {
-   "benign": "CHARITROC-0001",
-   "malicious": "CHARITROC-0002"
+   "benign": "CHARITROC-0349",
+   "malicious": "CHARITROC-0684"
   },
   "CRPAIR-01-02": {
-   "benign": "CHARITROC-0003",
-   "malicious": "CHARITROC-0004"
+   "benign": "CHARITROC-0204",
+   "malicious": "CHARITROC-0659"
   },
   "CRPAIR-01-03": {
-   "benign": "CHARITROC-0005",
-   "malicious": "CHARITROC-0006"
+   "benign": "CHARITROC-0274",
+   "malicious": "CHARITROC-0229"
   },
   "CRPAIR-01-04": {
-   "benign": "CHARITROC-0007",
-   "malicious": "CHARITROC-0008"
-  },
-  "CRPAIR-01-05": {
-   "benign": "CHARITROC-0009",
-   "malicious": "CHARITROC-0010"
-  },
-  "CRPAIR-01-06": {
-   "benign": "CHARITROC-0011",
-   "malicious": "CHARITROC-0012"
-  },
-  "CRPAIR-01-07": {
-   "benign": "CHARITROC-0013",
-   "malicious": "CHARITROC-0014"
-  },
-  "CRPAIR-01-08": {
-   "benign": "CHARITROC-0015",
-   "malicious": "CHARITROC-0016"
-  },
-  "CRPAIR-01-09": {
-   "benign": "CHARITROC-0017",
-   "malicious": "CHARITROC-0018"
-  },
-  "CRPAIR-01-10": {
-   "benign": "CHARITROC-0019",
-   "malicious": "CHARITROC-0020"
-  },
-  "CRPAIR-01-11": {
-   "benign": "CHARITROC-0021",
-   "malicious": "CHARITROC-0022"
-  },
-  "CRPAIR-01-12": {
-   "benign": "CHARITROC-0023",
-   "malicious": "CHARITROC-0024"
-  },
-  "CRPAIR-01-13": {
-   "benign": "CHARITROC-0025",
-   "malicious": "CHARITROC-0026"
-  },
-  "CRPAIR-01-14": {
-   "benign": "CHARITROC-0027",
-   "malicious": "CHARITROC-0028"
-  },
-  "CRPAIR-01-15": {
-   "benign": "CHARITROC-0029",
-   "malicious": "CHARITROC-0030"
-  },
-  "CRPAIR-01-16": {
-   "benign": "CHARITROC-0031",
-   "malicious": "CHARITROC-0032"
-  },
-  "CRPAIR-01-17": {
-   "benign": "CHARITROC-0033",
-   "malicious": "CHARITROC-0034"
-  },
-  "CRPAIR-01-18": {
-   "benign": "CHARITROC-0035",
-   "malicious": "CHARITROC-0036"
-  },
-  "CRPAIR-01-19": {
-   "benign": "CHARITROC-0037",
-   "malicious": "CHARITROC-0038"
-  },
-  "CRPAIR-01-20": {
-   "benign": "CHARITROC-0039",
-   "malicious": "CHARITROC-0040"
-  },
-  "CRPAIR-01-21": {
-   "benign": "CHARITROC-0041",
-   "malicious": "CHARITROC-0042"
-  },
-  "CRPAIR-01-22": {
-   "benign": "CHARITROC-0043",
-   "malicious": "CHARITROC-0044"
-  },
-  "CRPAIR-01-23": {
-   "benign": "CHARITROC-0045",
-   "malicious": "CHARITROC-0046"
-  },
-  "CRPAIR-01-24": {
-   "benign": "CHARITROC-0047",
-   "malicious": "CHARITROC-0048"
-  },
-  "CRPAIR-02-01": {
-   "benign": "CHARITROC-0049",
-   "malicious": "CHARITROC-0050"
-  },
-  "CRPAIR-02-02": {
-   "benign": "CHARITROC-0051",
-   "malicious": "CHARITROC-0052"
-  },
-  "CRPAIR-02-03": {
-   "benign": "CHARITROC-0053",
-   "malicious": "CHARITROC-0054"
-  },
-  "CRPAIR-02-04": {
-   "benign": "CHARITROC-0055",
-   "malicious": "CHARITROC-0056"
-  },
-  "CRPAIR-02-05": {
-   "benign": "CHARITROC-0057",
-   "malicious": "CHARITROC-0058"
-  },
-  "CRPAIR-02-06": {
-   "benign": "CHARITROC-0059",
-   "malicious": "CHARITROC-0060"
-  },
-  "CRPAIR-02-07": {
-   "benign": "CHARITROC-0061",
-   "malicious": "CHARITROC-0062"
-  },
-  "CRPAIR-02-08": {
-   "benign": "CHARITROC-0063",
-   "malicious": "CHARITROC-0064"
-  },
-  "CRPAIR-02-09": {
-   "benign": "CHARITROC-0065",
-   "malicious": "CHARITROC-0066"
-  },
-  "CRPAIR-02-10": {
-   "benign": "CHARITROC-0067",
-   "malicious": "CHARITROC-0068"
-  },
-  "CRPAIR-02-11": {
-   "benign": "CHARITROC-0069",
-   "malicious": "CHARITROC-0070"
-  },
-  "CRPAIR-02-12": {
-   "benign": "CHARITROC-0071",
-   "malicious": "CHARITROC-0072"
-  },
-  "CRPAIR-02-13": {
-   "benign": "CHARITROC-0073",
-   "malicious": "CHARITROC-0074"
-  },
-  "CRPAIR-02-14": {
-   "benign": "CHARITROC-0075",
-   "malicious": "CHARITROC-0076"
-  },
-  "CRPAIR-02-15": {
-   "benign": "CHARITROC-0077",
-   "malicious": "CHARITROC-0078"
-  },
-  "CRPAIR-02-16": {
-   "benign": "CHARITROC-0079",
-   "malicious": "CHARITROC-0080"
-  },
-  "CRPAIR-02-17": {
-   "benign": "CHARITROC-0081",
-   "malicious": "CHARITROC-0082"
-  },
-  "CRPAIR-02-18": {
-   "benign": "CHARITROC-0083",
-   "malicious": "CHARITROC-0084"
-  },
-  "CRPAIR-02-19": {
-   "benign": "CHARITROC-0085",
-   "malicious": "CHARITROC-0086"
-  },
-  "CRPAIR-02-20": {
-   "benign": "CHARITROC-0087",
-   "malicious": "CHARITROC-0088"
-  },
-  "CRPAIR-02-21": {
-   "benign": "CHARITROC-0089",
-   "malicious": "CHARITROC-0090"
-  },
-  "CRPAIR-02-22": {
-   "benign": "CHARITROC-0091",
-   "malicious": "CHARITROC-0092"
-  },
-  "CRPAIR-02-23": {
-   "benign": "CHARITROC-0093",
-   "malicious": "CHARITROC-0094"
-  },
-  "CRPAIR-02-24": {
-   "benign": "CHARITROC-0095",
-   "malicious": "CHARITROC-0096"
-  },
-  "CRPAIR-03-01": {
-   "benign": "CHARITROC-0097",
-   "malicious": "CHARITROC-0098"
-  },
-  "CRPAIR-03-02": {
-   "benign": "CHARITROC-0099",
-   "malicious": "CHARITROC-0100"
-  },
-  "CRPAIR-03-03": {
-   "benign": "CHARITROC-0101",
-   "malicious": "CHARITROC-0102"
-  },
-  "CRPAIR-03-04": {
-   "benign": "CHARITROC-0103",
-   "malicious": "CHARITROC-0104"
-  },
-  "CRPAIR-03-05": {
-   "benign": "CHARITROC-0105",
-   "malicious": "CHARITROC-0106"
-  },
-  "CRPAIR-03-06": {
-   "benign": "CHARITROC-0107",
-   "malicious": "CHARITROC-0108"
-  },
-  "CRPAIR-03-07": {
-   "benign": "CHARITROC-0109",
-   "malicious": "CHARITROC-0110"
-  },
-  "CRPAIR-03-08": {
-   "benign": "CHARITROC-0111",
-   "malicious": "CHARITROC-0112"
-  },
-  "CRPAIR-03-09": {
-   "benign": "CHARITROC-0113",
-   "malicious": "CHARITROC-0114"
-  },
-  "CRPAIR-03-10": {
-   "benign": "CHARITROC-0115",
-   "malicious": "CHARITROC-0116"
-  },
-  "CRPAIR-03-11": {
-   "benign": "CHARITROC-0117",
-   "malicious": "CHARITROC-0118"
-  },
-  "CRPAIR-03-12": {
-   "benign": "CHARITROC-0119",
-   "malicious": "CHARITROC-0120"
-  },
-  "CRPAIR-03-13": {
-   "benign": "CHARITROC-0121",
-   "malicious": "CHARITROC-0122"
-  },
-  "CRPAIR-03-14": {
-   "benign": "CHARITROC-0123",
-   "malicious": "CHARITROC-0124"
-  },
-  "CRPAIR-03-15": {
-   "benign": "CHARITROC-0125",
-   "malicious": "CHARITROC-0126"
-  },
-  "CRPAIR-03-16": {
-   "benign": "CHARITROC-0127",
-   "malicious": "CHARITROC-0128"
-  },
-  "CRPAIR-03-17": {
-   "benign": "CHARITROC-0129",
-   "malicious": "CHARITROC-0130"
-  },
-  "CRPAIR-03-18": {
-   "benign": "CHARITROC-0131",
-   "malicious": "CHARITROC-0132"
-  },
-  "CRPAIR-03-19": {
-   "benign": "CHARITROC-0133",
-   "malicious": "CHARITROC-0134"
-  },
-  "CRPAIR-03-20": {
-   "benign": "CHARITROC-0135",
-   "malicious": "CHARITROC-0136"
-  },
-  "CRPAIR-03-21": {
-   "benign": "CHARITROC-0137",
-   "malicious": "CHARITROC-0138"
-  },
-  "CRPAIR-03-22": {
-   "benign": "CHARITROC-0139",
-   "malicious": "CHARITROC-0140"
-  },
-  "CRPAIR-03-23": {
-   "benign": "CHARITROC-0141",
-   "malicious": "CHARITROC-0142"
-  },
-  "CRPAIR-03-24": {
-   "benign": "CHARITROC-0143",
-   "malicious": "CHARITROC-0144"
-  },
-  "CRPAIR-04-01": {
-   "benign": "CHARITROC-0145",
-   "malicious": "CHARITROC-0146"
-  },
-  "CRPAIR-04-02": {
-   "benign": "CHARITROC-0147",
-   "malicious": "CHARITROC-0148"
-  },
-  "CRPAIR-04-03": {
-   "benign": "CHARITROC-0149",
-   "malicious": "CHARITROC-0150"
-  },
-  "CRPAIR-04-04": {
-   "benign": "CHARITROC-0151",
-   "malicious": "CHARITROC-0152"
-  },
-  "CRPAIR-04-05": {
-   "benign": "CHARITROC-0153",
-   "malicious": "CHARITROC-0154"
-  },
-  "CRPAIR-04-06": {
-   "benign": "CHARITROC-0155",
-   "malicious": "CHARITROC-0156"
-  },
-  "CRPAIR-04-07": {
-   "benign": "CHARITROC-0157",
-   "malicious": "CHARITROC-0158"
-  },
-  "CRPAIR-04-08": {
-   "benign": "CHARITROC-0159",
-   "malicious": "CHARITROC-0160"
-  },
-  "CRPAIR-04-09": {
-   "benign": "CHARITROC-0161",
-   "malicious": "CHARITROC-0162"
-  },
-  "CRPAIR-04-10": {
-   "benign": "CHARITROC-0163",
-   "malicious": "CHARITROC-0164"
-  },
-  "CRPAIR-04-11": {
-   "benign": "CHARITROC-0165",
-   "malicious": "CHARITROC-0166"
-  },
-  "CRPAIR-04-12": {
-   "benign": "CHARITROC-0167",
-   "malicious": "CHARITROC-0168"
-  },
-  "CRPAIR-04-13": {
-   "benign": "CHARITROC-0169",
-   "malicious": "CHARITROC-0170"
-  },
-  "CRPAIR-04-14": {
-   "benign": "CHARITROC-0171",
-   "malicious": "CHARITROC-0172"
-  },
-  "CRPAIR-04-15": {
-   "benign": "CHARITROC-0173",
-   "malicious": "CHARITROC-0174"
-  },
-  "CRPAIR-04-16": {
-   "benign": "CHARITROC-0175",
-   "malicious": "CHARITROC-0176"
-  },
-  "CRPAIR-04-17": {
-   "benign": "CHARITROC-0177",
-   "malicious": "CHARITROC-0178"
-  },
-  "CRPAIR-04-18": {
-   "benign": "CHARITROC-0179",
-   "malicious": "CHARITROC-0180"
-  },
-  "CRPAIR-04-19": {
-   "benign": "CHARITROC-0181",
-   "malicious": "CHARITROC-0182"
-  },
-  "CRPAIR-04-20": {
-   "benign": "CHARITROC-0183",
-   "malicious": "CHARITROC-0184"
-  },
-  "CRPAIR-04-21": {
-   "benign": "CHARITROC-0185",
-   "malicious": "CHARITROC-0186"
-  },
-  "CRPAIR-04-22": {
-   "benign": "CHARITROC-0187",
-   "malicious": "CHARITROC-0188"
-  },
-  "CRPAIR-04-23": {
-   "benign": "CHARITROC-0189",
-   "malicious": "CHARITROC-0190"
-  },
-  "CRPAIR-04-24": {
-   "benign": "CHARITROC-0191",
-   "malicious": "CHARITROC-0192"
-  },
-  "CRPAIR-05-01": {
-   "benign": "CHARITROC-0193",
-   "malicious": "CHARITROC-0194"
-  },
-  "CRPAIR-05-02": {
-   "benign": "CHARITROC-0195",
-   "malicious": "CHARITROC-0196"
-  },
-  "CRPAIR-05-03": {
-   "benign": "CHARITROC-0197",
-   "malicious": "CHARITROC-0198"
-  },
-  "CRPAIR-05-04": {
-   "benign": "CHARITROC-0199",
-   "malicious": "CHARITROC-0200"
-  },
-  "CRPAIR-05-05": {
-   "benign": "CHARITROC-0201",
-   "malicious": "CHARITROC-0202"
-  },
-  "CRPAIR-05-06": {
-   "benign": "CHARITROC-0203",
-   "malicious": "CHARITROC-0204"
-  },
-  "CRPAIR-05-07": {
-   "benign": "CHARITROC-0205",
-   "malicious": "CHARITROC-0206"
-  },
-  "CRPAIR-05-08": {
-   "benign": "CHARITROC-0207",
-   "malicious": "CHARITROC-0208"
-  },
-  "CRPAIR-05-09": {
-   "benign": "CHARITROC-0209",
-   "malicious": "CHARITROC-0210"
-  },
-  "CRPAIR-05-10": {
-   "benign": "CHARITROC-0211",
-   "malicious": "CHARITROC-0212"
-  },
-  "CRPAIR-05-11": {
-   "benign": "CHARITROC-0213",
-   "malicious": "CHARITROC-0214"
-  },
-  "CRPAIR-05-12": {
-   "benign": "CHARITROC-0215",
-   "malicious": "CHARITROC-0216"
-  },
-  "CRPAIR-05-13": {
-   "benign": "CHARITROC-0217",
-   "malicious": "CHARITROC-0218"
-  },
-  "CRPAIR-05-14": {
-   "benign": "CHARITROC-0219",
-   "malicious": "CHARITROC-0220"
-  },
-  "CRPAIR-05-15": {
-   "benign": "CHARITROC-0221",
-   "malicious": "CHARITROC-0222"
-  },
-  "CRPAIR-05-16": {
-   "benign": "CHARITROC-0223",
-   "malicious": "CHARITROC-0224"
-  },
-  "CRPAIR-05-17": {
-   "benign": "CHARITROC-0225",
-   "malicious": "CHARITROC-0226"
-  },
-  "CRPAIR-05-18": {
-   "benign": "CHARITROC-0227",
-   "malicious": "CHARITROC-0228"
-  },
-  "CRPAIR-05-19": {
-   "benign": "CHARITROC-0229",
-   "malicious": "CHARITROC-0230"
-  },
-  "CRPAIR-05-20": {
-   "benign": "CHARITROC-0231",
-   "malicious": "CHARITROC-0232"
-  },
-  "CRPAIR-05-21": {
-   "benign": "CHARITROC-0233",
-   "malicious": "CHARITROC-0234"
-  },
-  "CRPAIR-05-22": {
-   "benign": "CHARITROC-0235",
-   "malicious": "CHARITROC-0236"
-  },
-  "CRPAIR-05-23": {
-   "benign": "CHARITROC-0237",
-   "malicious": "CHARITROC-0238"
-  },
-  "CRPAIR-05-24": {
-   "benign": "CHARITROC-0239",
-   "malicious": "CHARITROC-0240"
-  },
-  "CRPAIR-06-01": {
-   "benign": "CHARITROC-0241",
-   "malicious": "CHARITROC-0242"
-  },
-  "CRPAIR-06-02": {
-   "benign": "CHARITROC-0243",
-   "malicious": "CHARITROC-0244"
-  },
-  "CRPAIR-06-03": {
-   "benign": "CHARITROC-0245",
-   "malicious": "CHARITROC-0246"
-  },
-  "CRPAIR-06-04": {
-   "benign": "CHARITROC-0247",
-   "malicious": "CHARITROC-0248"
-  },
-  "CRPAIR-06-05": {
-   "benign": "CHARITROC-0249",
-   "malicious": "CHARITROC-0250"
-  },
-  "CRPAIR-06-06": {
-   "benign": "CHARITROC-0251",
-   "malicious": "CHARITROC-0252"
-  },
-  "CRPAIR-06-07": {
-   "benign": "CHARITROC-0253",
-   "malicious": "CHARITROC-0254"
-  },
-  "CRPAIR-06-08": {
-   "benign": "CHARITROC-0255",
-   "malicious": "CHARITROC-0256"
-  },
-  "CRPAIR-06-09": {
-   "benign": "CHARITROC-0257",
-   "malicious": "CHARITROC-0258"
-  },
-  "CRPAIR-06-10": {
-   "benign": "CHARITROC-0259",
-   "malicious": "CHARITROC-0260"
-  },
-  "CRPAIR-06-11": {
-   "benign": "CHARITROC-0261",
-   "malicious": "CHARITROC-0262"
-  },
-  "CRPAIR-06-12": {
-   "benign": "CHARITROC-0263",
-   "malicious": "CHARITROC-0264"
-  },
-  "CRPAIR-06-13": {
-   "benign": "CHARITROC-0265",
-   "malicious": "CHARITROC-0266"
-  },
-  "CRPAIR-06-14": {
-   "benign": "CHARITROC-0267",
-   "malicious": "CHARITROC-0268"
-  },
-  "CRPAIR-06-15": {
-   "benign": "CHARITROC-0269",
-   "malicious": "CHARITROC-0270"
-  },
-  "CRPAIR-06-16": {
-   "benign": "CHARITROC-0271",
-   "malicious": "CHARITROC-0272"
-  },
-  "CRPAIR-06-17": {
-   "benign": "CHARITROC-0273",
-   "malicious": "CHARITROC-0274"
-  },
-  "CRPAIR-06-18": {
-   "benign": "CHARITROC-0275",
-   "malicious": "CHARITROC-0276"
-  },
-  "CRPAIR-06-19": {
-   "benign": "CHARITROC-0277",
-   "malicious": "CHARITROC-0278"
-  },
-  "CRPAIR-06-20": {
-   "benign": "CHARITROC-0279",
-   "malicious": "CHARITROC-0280"
-  },
-  "CRPAIR-06-21": {
-   "benign": "CHARITROC-0281",
-   "malicious": "CHARITROC-0282"
-  },
-  "CRPAIR-06-22": {
-   "benign": "CHARITROC-0283",
-   "malicious": "CHARITROC-0284"
-  },
-  "CRPAIR-06-23": {
-   "benign": "CHARITROC-0285",
-   "malicious": "CHARITROC-0286"
-  },
-  "CRPAIR-06-24": {
-   "benign": "CHARITROC-0287",
-   "malicious": "CHARITROC-0288"
-  },
-  "CRPAIR-07-01": {
-   "benign": "CHARITROC-0289",
-   "malicious": "CHARITROC-0290"
-  },
-  "CRPAIR-07-02": {
-   "benign": "CHARITROC-0291",
-   "malicious": "CHARITROC-0292"
-  },
-  "CRPAIR-07-03": {
-   "benign": "CHARITROC-0293",
-   "malicious": "CHARITROC-0294"
-  },
-  "CRPAIR-07-04": {
-   "benign": "CHARITROC-0295",
-   "malicious": "CHARITROC-0296"
-  },
-  "CRPAIR-07-05": {
-   "benign": "CHARITROC-0297",
-   "malicious": "CHARITROC-0298"
-  },
-  "CRPAIR-07-06": {
-   "benign": "CHARITROC-0299",
-   "malicious": "CHARITROC-0300"
-  },
-  "CRPAIR-07-07": {
-   "benign": "CHARITROC-0301",
+   "benign": "CHARITROC-0450",
    "malicious": "CHARITROC-0302"
   },
-  "CRPAIR-07-08": {
+  "CRPAIR-01-05": {
+   "benign": "CHARITROC-0102",
+   "malicious": "CHARITROC-0673"
+  },
+  "CRPAIR-01-06": {
+   "benign": "CHARITROC-0466",
+   "malicious": "CHARITROC-0615"
+  },
+  "CRPAIR-01-07": {
+   "benign": "CHARITROC-0403",
+   "malicious": "CHARITROC-0147"
+  },
+  "CRPAIR-01-08": {
+   "benign": "CHARITROC-0617",
+   "malicious": "CHARITROC-0625"
+  },
+  "CRPAIR-01-09": {
+   "benign": "CHARITROC-0632",
+   "malicious": "CHARITROC-0232"
+  },
+  "CRPAIR-01-10": {
+   "benign": "CHARITROC-0144",
+   "malicious": "CHARITROC-0681"
+  },
+  "CRPAIR-01-11": {
+   "benign": "CHARITROC-0096",
+   "malicious": "CHARITROC-0281"
+  },
+  "CRPAIR-01-12": {
    "benign": "CHARITROC-0303",
-   "malicious": "CHARITROC-0304"
+   "malicious": "CHARITROC-0215"
   },
-  "CRPAIR-07-09": {
-   "benign": "CHARITROC-0305",
-   "malicious": "CHARITROC-0306"
+  "CRPAIR-01-13": {
+   "benign": "CHARITROC-0032",
+   "malicious": "CHARITROC-0646"
   },
-  "CRPAIR-07-10": {
-   "benign": "CHARITROC-0307",
-   "malicious": "CHARITROC-0308"
+  "CRPAIR-01-14": {
+   "benign": "CHARITROC-0289",
+   "malicious": "CHARITROC-0383"
   },
-  "CRPAIR-07-11": {
-   "benign": "CHARITROC-0309",
-   "malicious": "CHARITROC-0310"
+  "CRPAIR-01-15": {
+   "benign": "CHARITROC-0502",
+   "malicious": "CHARITROC-0531"
   },
-  "CRPAIR-07-12": {
-   "benign": "CHARITROC-0311",
-   "malicious": "CHARITROC-0312"
+  "CRPAIR-01-16": {
+   "benign": "CHARITROC-0366",
+   "malicious": "CHARITROC-0678"
   },
-  "CRPAIR-07-13": {
-   "benign": "CHARITROC-0313",
-   "malicious": "CHARITROC-0314"
+  "CRPAIR-01-17": {
+   "benign": "CHARITROC-0360",
+   "malicious": "CHARITROC-0254"
   },
-  "CRPAIR-07-14": {
-   "benign": "CHARITROC-0315",
-   "malicious": "CHARITROC-0316"
+  "CRPAIR-01-18": {
+   "benign": "CHARITROC-0368",
+   "malicious": "CHARITROC-0174"
   },
-  "CRPAIR-07-15": {
-   "benign": "CHARITROC-0317",
-   "malicious": "CHARITROC-0318"
+  "CRPAIR-01-19": {
+   "benign": "CHARITROC-0585",
+   "malicious": "CHARITROC-0643"
   },
-  "CRPAIR-07-16": {
-   "benign": "CHARITROC-0319",
-   "malicious": "CHARITROC-0320"
-  },
-  "CRPAIR-07-17": {
-   "benign": "CHARITROC-0321",
-   "malicious": "CHARITROC-0322"
-  },
-  "CRPAIR-07-18": {
-   "benign": "CHARITROC-0323",
-   "malicious": "CHARITROC-0324"
-  },
-  "CRPAIR-07-19": {
-   "benign": "CHARITROC-0325",
-   "malicious": "CHARITROC-0326"
-  },
-  "CRPAIR-07-20": {
-   "benign": "CHARITROC-0327",
-   "malicious": "CHARITROC-0328"
-  },
-  "CRPAIR-07-21": {
-   "benign": "CHARITROC-0329",
-   "malicious": "CHARITROC-0330"
-  },
-  "CRPAIR-07-22": {
-   "benign": "CHARITROC-0331",
-   "malicious": "CHARITROC-0332"
-  },
-  "CRPAIR-07-23": {
-   "benign": "CHARITROC-0333",
-   "malicious": "CHARITROC-0334"
-  },
-  "CRPAIR-07-24": {
-   "benign": "CHARITROC-0335",
+  "CRPAIR-01-20": {
+   "benign": "CHARITROC-0612",
    "malicious": "CHARITROC-0336"
   },
-  "CRPAIR-08-01": {
-   "benign": "CHARITROC-0337",
-   "malicious": "CHARITROC-0338"
-  },
-  "CRPAIR-08-02": {
-   "benign": "CHARITROC-0339",
-   "malicious": "CHARITROC-0340"
-  },
-  "CRPAIR-08-03": {
-   "benign": "CHARITROC-0341",
-   "malicious": "CHARITROC-0342"
-  },
-  "CRPAIR-08-04": {
-   "benign": "CHARITROC-0343",
-   "malicious": "CHARITROC-0344"
-  },
-  "CRPAIR-08-05": {
-   "benign": "CHARITROC-0345",
-   "malicious": "CHARITROC-0346"
-  },
-  "CRPAIR-08-06": {
-   "benign": "CHARITROC-0347",
-   "malicious": "CHARITROC-0348"
-  },
-  "CRPAIR-08-07": {
-   "benign": "CHARITROC-0349",
-   "malicious": "CHARITROC-0350"
-  },
-  "CRPAIR-08-08": {
-   "benign": "CHARITROC-0351",
-   "malicious": "CHARITROC-0352"
-  },
-  "CRPAIR-08-09": {
-   "benign": "CHARITROC-0353",
-   "malicious": "CHARITROC-0354"
-  },
-  "CRPAIR-08-10": {
-   "benign": "CHARITROC-0355",
-   "malicious": "CHARITROC-0356"
-  },
-  "CRPAIR-08-11": {
-   "benign": "CHARITROC-0357",
-   "malicious": "CHARITROC-0358"
-  },
-  "CRPAIR-08-12": {
-   "benign": "CHARITROC-0359",
-   "malicious": "CHARITROC-0360"
-  },
-  "CRPAIR-08-13": {
-   "benign": "CHARITROC-0361",
-   "malicious": "CHARITROC-0362"
-  },
-  "CRPAIR-08-14": {
-   "benign": "CHARITROC-0363",
-   "malicious": "CHARITROC-0364"
-  },
-  "CRPAIR-08-15": {
-   "benign": "CHARITROC-0365",
-   "malicious": "CHARITROC-0366"
-  },
-  "CRPAIR-08-16": {
-   "benign": "CHARITROC-0367",
-   "malicious": "CHARITROC-0368"
-  },
-  "CRPAIR-08-17": {
-   "benign": "CHARITROC-0369",
-   "malicious": "CHARITROC-0370"
-  },
-  "CRPAIR-08-18": {
-   "benign": "CHARITROC-0371",
-   "malicious": "CHARITROC-0372"
-  },
-  "CRPAIR-08-19": {
-   "benign": "CHARITROC-0373",
-   "malicious": "CHARITROC-0374"
-  },
-  "CRPAIR-08-20": {
-   "benign": "CHARITROC-0375",
-   "malicious": "CHARITROC-0376"
-  },
-  "CRPAIR-08-21": {
-   "benign": "CHARITROC-0377",
-   "malicious": "CHARITROC-0378"
-  },
-  "CRPAIR-08-22": {
-   "benign": "CHARITROC-0379",
-   "malicious": "CHARITROC-0380"
-  },
-  "CRPAIR-08-23": {
-   "benign": "CHARITROC-0381",
-   "malicious": "CHARITROC-0382"
-  },
-  "CRPAIR-08-24": {
-   "benign": "CHARITROC-0383",
-   "malicious": "CHARITROC-0384"
-  },
-  "CRPAIR-09-01": {
-   "benign": "CHARITROC-0385",
-   "malicious": "CHARITROC-0386"
-  },
-  "CRPAIR-09-02": {
-   "benign": "CHARITROC-0387",
-   "malicious": "CHARITROC-0388"
-  },
-  "CRPAIR-09-03": {
-   "benign": "CHARITROC-0389",
-   "malicious": "CHARITROC-0390"
-  },
-  "CRPAIR-09-04": {
-   "benign": "CHARITROC-0391",
-   "malicious": "CHARITROC-0392"
-  },
-  "CRPAIR-09-05": {
-   "benign": "CHARITROC-0393",
-   "malicious": "CHARITROC-0394"
-  },
-  "CRPAIR-09-06": {
-   "benign": "CHARITROC-0395",
-   "malicious": "CHARITROC-0396"
-  },
-  "CRPAIR-09-07": {
-   "benign": "CHARITROC-0397",
-   "malicious": "CHARITROC-0398"
-  },
-  "CRPAIR-09-08": {
-   "benign": "CHARITROC-0399",
-   "malicious": "CHARITROC-0400"
-  },
-  "CRPAIR-09-09": {
-   "benign": "CHARITROC-0401",
-   "malicious": "CHARITROC-0402"
-  },
-  "CRPAIR-09-10": {
-   "benign": "CHARITROC-0403",
-   "malicious": "CHARITROC-0404"
-  },
-  "CRPAIR-09-11": {
-   "benign": "CHARITROC-0405",
-   "malicious": "CHARITROC-0406"
-  },
-  "CRPAIR-09-12": {
-   "benign": "CHARITROC-0407",
-   "malicious": "CHARITROC-0408"
-  },
-  "CRPAIR-09-13": {
-   "benign": "CHARITROC-0409",
-   "malicious": "CHARITROC-0410"
-  },
-  "CRPAIR-09-14": {
-   "benign": "CHARITROC-0411",
-   "malicious": "CHARITROC-0412"
-  },
-  "CRPAIR-09-15": {
-   "benign": "CHARITROC-0413",
-   "malicious": "CHARITROC-0414"
-  },
-  "CRPAIR-09-16": {
-   "benign": "CHARITROC-0415",
-   "malicious": "CHARITROC-0416"
-  },
-  "CRPAIR-09-17": {
-   "benign": "CHARITROC-0417",
-   "malicious": "CHARITROC-0418"
-  },
-  "CRPAIR-09-18": {
-   "benign": "CHARITROC-0419",
-   "malicious": "CHARITROC-0420"
-  },
-  "CRPAIR-09-19": {
-   "benign": "CHARITROC-0421",
-   "malicious": "CHARITROC-0422"
-  },
-  "CRPAIR-09-20": {
-   "benign": "CHARITROC-0423",
-   "malicious": "CHARITROC-0424"
-  },
-  "CRPAIR-09-21": {
-   "benign": "CHARITROC-0425",
-   "malicious": "CHARITROC-0426"
-  },
-  "CRPAIR-09-22": {
-   "benign": "CHARITROC-0427",
-   "malicious": "CHARITROC-0428"
-  },
-  "CRPAIR-09-23": {
-   "benign": "CHARITROC-0429",
-   "malicious": "CHARITROC-0430"
-  },
-  "CRPAIR-09-24": {
-   "benign": "CHARITROC-0431",
-   "malicious": "CHARITROC-0432"
-  },
-  "CRPAIR-10-01": {
-   "benign": "CHARITROC-0433",
-   "malicious": "CHARITROC-0434"
-  },
-  "CRPAIR-10-02": {
-   "benign": "CHARITROC-0435",
-   "malicious": "CHARITROC-0436"
-  },
-  "CRPAIR-10-03": {
-   "benign": "CHARITROC-0437",
-   "malicious": "CHARITROC-0438"
-  },
-  "CRPAIR-10-04": {
-   "benign": "CHARITROC-0439",
-   "malicious": "CHARITROC-0440"
-  },
-  "CRPAIR-10-05": {
-   "benign": "CHARITROC-0441",
-   "malicious": "CHARITROC-0442"
-  },
-  "CRPAIR-10-06": {
-   "benign": "CHARITROC-0443",
-   "malicious": "CHARITROC-0444"
-  },
-  "CRPAIR-10-07": {
-   "benign": "CHARITROC-0445",
-   "malicious": "CHARITROC-0446"
-  },
-  "CRPAIR-10-08": {
-   "benign": "CHARITROC-0447",
-   "malicious": "CHARITROC-0448"
-  },
-  "CRPAIR-10-09": {
-   "benign": "CHARITROC-0449",
-   "malicious": "CHARITROC-0450"
-  },
-  "CRPAIR-10-10": {
-   "benign": "CHARITROC-0451",
-   "malicious": "CHARITROC-0452"
-  },
-  "CRPAIR-10-11": {
-   "benign": "CHARITROC-0453",
-   "malicious": "CHARITROC-0454"
-  },
-  "CRPAIR-10-12": {
-   "benign": "CHARITROC-0455",
-   "malicious": "CHARITROC-0456"
-  },
-  "CRPAIR-10-13": {
-   "benign": "CHARITROC-0457",
-   "malicious": "CHARITROC-0458"
-  },
-  "CRPAIR-10-14": {
-   "benign": "CHARITROC-0459",
-   "malicious": "CHARITROC-0460"
-  },
-  "CRPAIR-10-15": {
-   "benign": "CHARITROC-0461",
-   "malicious": "CHARITROC-0462"
-  },
-  "CRPAIR-10-16": {
-   "benign": "CHARITROC-0463",
-   "malicious": "CHARITROC-0464"
-  },
-  "CRPAIR-10-17": {
-   "benign": "CHARITROC-0465",
-   "malicious": "CHARITROC-0466"
-  },
-  "CRPAIR-10-18": {
-   "benign": "CHARITROC-0467",
-   "malicious": "CHARITROC-0468"
-  },
-  "CRPAIR-10-19": {
-   "benign": "CHARITROC-0469",
-   "malicious": "CHARITROC-0470"
-  },
-  "CRPAIR-10-20": {
-   "benign": "CHARITROC-0471",
-   "malicious": "CHARITROC-0472"
-  },
-  "CRPAIR-10-21": {
-   "benign": "CHARITROC-0473",
-   "malicious": "CHARITROC-0474"
-  },
-  "CRPAIR-10-22": {
-   "benign": "CHARITROC-0475",
-   "malicious": "CHARITROC-0476"
-  },
-  "CRPAIR-10-23": {
-   "benign": "CHARITROC-0477",
-   "malicious": "CHARITROC-0478"
-  },
-  "CRPAIR-10-24": {
-   "benign": "CHARITROC-0479",
-   "malicious": "CHARITROC-0480"
-  },
-  "CRPAIR-11-01": {
-   "benign": "CHARITROC-0481",
+  "CRPAIR-01-21": {
+   "benign": "CHARITROC-0245",
+   "malicious": "CHARITROC-0628"
+  },
+  "CRPAIR-01-22": {
+   "benign": "CHARITROC-0053",
+   "malicious": "CHARITROC-0427"
+  },
+  "CRPAIR-01-23": {
+   "benign": "CHARITROC-0223",
+   "malicious": "CHARITROC-0333"
+  },
+  "CRPAIR-01-24": {
+   "benign": "CHARITROC-0059",
    "malicious": "CHARITROC-0482"
   },
-  "CRPAIR-11-02": {
-   "benign": "CHARITROC-0483",
-   "malicious": "CHARITROC-0484"
+  "CRPAIR-02-01": {
+   "benign": "CHARITROC-0276",
+   "malicious": "CHARITROC-0002"
   },
-  "CRPAIR-11-03": {
-   "benign": "CHARITROC-0485",
-   "malicious": "CHARITROC-0486"
+  "CRPAIR-02-02": {
+   "benign": "CHARITROC-0220",
+   "malicious": "CHARITROC-0495"
   },
-  "CRPAIR-11-04": {
-   "benign": "CHARITROC-0487",
-   "malicious": "CHARITROC-0488"
+  "CRPAIR-02-03": {
+   "benign": "CHARITROC-0618",
+   "malicious": "CHARITROC-0565"
   },
-  "CRPAIR-11-05": {
-   "benign": "CHARITROC-0489",
-   "malicious": "CHARITROC-0490"
+  "CRPAIR-02-04": {
+   "benign": "CHARITROC-0405",
+   "malicious": "CHARITROC-0545"
   },
-  "CRPAIR-11-06": {
-   "benign": "CHARITROC-0491",
-   "malicious": "CHARITROC-0492"
+  "CRPAIR-02-05": {
+   "benign": "CHARITROC-0251",
+   "malicious": "CHARITROC-0132"
   },
-  "CRPAIR-11-07": {
-   "benign": "CHARITROC-0493",
-   "malicious": "CHARITROC-0494"
+  "CRPAIR-02-06": {
+   "benign": "CHARITROC-0024",
+   "malicious": "CHARITROC-0354"
   },
-  "CRPAIR-11-08": {
-   "benign": "CHARITROC-0495",
-   "malicious": "CHARITROC-0496"
+  "CRPAIR-02-07": {
+   "benign": "CHARITROC-0477",
+   "malicious": "CHARITROC-0171"
   },
-  "CRPAIR-11-09": {
-   "benign": "CHARITROC-0497",
-   "malicious": "CHARITROC-0498"
+  "CRPAIR-02-08": {
+   "benign": "CHARITROC-0167",
+   "malicious": "CHARITROC-0424"
   },
-  "CRPAIR-11-10": {
-   "benign": "CHARITROC-0499",
-   "malicious": "CHARITROC-0500"
+  "CRPAIR-02-09": {
+   "benign": "CHARITROC-0178",
+   "malicious": "CHARITROC-0165"
   },
-  "CRPAIR-11-11": {
-   "benign": "CHARITROC-0501",
-   "malicious": "CHARITROC-0502"
+  "CRPAIR-02-10": {
+   "benign": "CHARITROC-0224",
+   "malicious": "CHARITROC-0291"
   },
-  "CRPAIR-11-12": {
-   "benign": "CHARITROC-0503",
-   "malicious": "CHARITROC-0504"
-  },
-  "CRPAIR-11-13": {
-   "benign": "CHARITROC-0505",
-   "malicious": "CHARITROC-0506"
-  },
-  "CRPAIR-11-14": {
-   "benign": "CHARITROC-0507",
-   "malicious": "CHARITROC-0508"
-  },
-  "CRPAIR-11-15": {
-   "benign": "CHARITROC-0509",
-   "malicious": "CHARITROC-0510"
-  },
-  "CRPAIR-11-16": {
-   "benign": "CHARITROC-0511",
-   "malicious": "CHARITROC-0512"
-  },
-  "CRPAIR-11-17": {
-   "benign": "CHARITROC-0513",
-   "malicious": "CHARITROC-0514"
-  },
-  "CRPAIR-11-18": {
-   "benign": "CHARITROC-0515",
-   "malicious": "CHARITROC-0516"
-  },
-  "CRPAIR-11-19": {
-   "benign": "CHARITROC-0517",
-   "malicious": "CHARITROC-0518"
-  },
-  "CRPAIR-11-20": {
-   "benign": "CHARITROC-0519",
-   "malicious": "CHARITROC-0520"
-  },
-  "CRPAIR-11-21": {
-   "benign": "CHARITROC-0521",
-   "malicious": "CHARITROC-0522"
-  },
-  "CRPAIR-11-22": {
-   "benign": "CHARITROC-0523",
-   "malicious": "CHARITROC-0524"
-  },
-  "CRPAIR-11-23": {
-   "benign": "CHARITROC-0525",
-   "malicious": "CHARITROC-0526"
-  },
-  "CRPAIR-11-24": {
-   "benign": "CHARITROC-0527",
-   "malicious": "CHARITROC-0528"
-  },
-  "CRPAIR-12-01": {
-   "benign": "CHARITROC-0529",
-   "malicious": "CHARITROC-0530"
-  },
-  "CRPAIR-12-02": {
-   "benign": "CHARITROC-0531",
-   "malicious": "CHARITROC-0532"
-  },
-  "CRPAIR-12-03": {
-   "benign": "CHARITROC-0533",
-   "malicious": "CHARITROC-0534"
-  },
-  "CRPAIR-12-04": {
-   "benign": "CHARITROC-0535",
-   "malicious": "CHARITROC-0536"
-  },
-  "CRPAIR-12-05": {
-   "benign": "CHARITROC-0537",
-   "malicious": "CHARITROC-0538"
-  },
-  "CRPAIR-12-06": {
-   "benign": "CHARITROC-0539",
-   "malicious": "CHARITROC-0540"
-  },
-  "CRPAIR-12-07": {
-   "benign": "CHARITROC-0541",
-   "malicious": "CHARITROC-0542"
-  },
-  "CRPAIR-12-08": {
-   "benign": "CHARITROC-0543",
-   "malicious": "CHARITROC-0544"
-  },
-  "CRPAIR-12-09": {
-   "benign": "CHARITROC-0545",
-   "malicious": "CHARITROC-0546"
-  },
-  "CRPAIR-12-10": {
-   "benign": "CHARITROC-0547",
-   "malicious": "CHARITROC-0548"
-  },
-  "CRPAIR-12-11": {
-   "benign": "CHARITROC-0549",
-   "malicious": "CHARITROC-0550"
-  },
-  "CRPAIR-12-12": {
-   "benign": "CHARITROC-0551",
-   "malicious": "CHARITROC-0552"
-  },
-  "CRPAIR-12-13": {
-   "benign": "CHARITROC-0553",
-   "malicious": "CHARITROC-0554"
-  },
-  "CRPAIR-12-14": {
-   "benign": "CHARITROC-0555",
-   "malicious": "CHARITROC-0556"
-  },
-  "CRPAIR-12-15": {
-   "benign": "CHARITROC-0557",
-   "malicious": "CHARITROC-0558"
-  },
-  "CRPAIR-12-16": {
-   "benign": "CHARITROC-0559",
-   "malicious": "CHARITROC-0560"
-  },
-  "CRPAIR-12-17": {
-   "benign": "CHARITROC-0561",
-   "malicious": "CHARITROC-0562"
-  },
-  "CRPAIR-12-18": {
-   "benign": "CHARITROC-0563",
-   "malicious": "CHARITROC-0564"
-  },
-  "CRPAIR-12-19": {
-   "benign": "CHARITROC-0565",
-   "malicious": "CHARITROC-0566"
-  },
-  "CRPAIR-12-20": {
-   "benign": "CHARITROC-0567",
-   "malicious": "CHARITROC-0568"
-  },
-  "CRPAIR-12-21": {
-   "benign": "CHARITROC-0569",
-   "malicious": "CHARITROC-0570"
-  },
-  "CRPAIR-12-22": {
-   "benign": "CHARITROC-0571",
+  "CRPAIR-02-11": {
+   "benign": "CHARITROC-0181",
    "malicious": "CHARITROC-0572"
   },
+  "CRPAIR-02-12": {
+   "benign": "CHARITROC-0348",
+   "malicious": "CHARITROC-0298"
+  },
+  "CRPAIR-02-13": {
+   "benign": "CHARITROC-0356",
+   "malicious": "CHARITROC-0285"
+  },
+  "CRPAIR-02-14": {
+   "benign": "CHARITROC-0154",
+   "malicious": "CHARITROC-0077"
+  },
+  "CRPAIR-02-15": {
+   "benign": "CHARITROC-0550",
+   "malicious": "CHARITROC-0079"
+  },
+  "CRPAIR-02-16": {
+   "benign": "CHARITROC-0578",
+   "malicious": "CHARITROC-0379"
+  },
+  "CRPAIR-02-17": {
+   "benign": "CHARITROC-0046",
+   "malicious": "CHARITROC-0651"
+  },
+  "CRPAIR-02-18": {
+   "benign": "CHARITROC-0481",
+   "malicious": "CHARITROC-0094"
+  },
+  "CRPAIR-02-19": {
+   "benign": "CHARITROC-0170",
+   "malicious": "CHARITROC-0261"
+  },
+  "CRPAIR-02-20": {
+   "benign": "CHARITROC-0555",
+   "malicious": "CHARITROC-0126"
+  },
+  "CRPAIR-02-21": {
+   "benign": "CHARITROC-0483",
+   "malicious": "CHARITROC-0649"
+  },
+  "CRPAIR-02-22": {
+   "benign": "CHARITROC-0567",
+   "malicious": "CHARITROC-0045"
+  },
+  "CRPAIR-02-23": {
+   "benign": "CHARITROC-0293",
+   "malicious": "CHARITROC-0341"
+  },
+  "CRPAIR-02-24": {
+   "benign": "CHARITROC-0400",
+   "malicious": "CHARITROC-0634"
+  },
+  "CRPAIR-03-01": {
+   "benign": "CHARITROC-0445",
+   "malicious": "CHARITROC-0461"
+  },
+  "CRPAIR-03-02": {
+   "benign": "CHARITROC-0009",
+   "malicious": "CHARITROC-0377"
+  },
+  "CRPAIR-03-03": {
+   "benign": "CHARITROC-0624",
+   "malicious": "CHARITROC-0027"
+  },
+  "CRPAIR-03-04": {
+   "benign": "CHARITROC-0026",
+   "malicious": "CHARITROC-0444"
+  },
+  "CRPAIR-03-05": {
+   "benign": "CHARITROC-0256",
+   "malicious": "CHARITROC-0663"
+  },
+  "CRPAIR-03-06": {
+   "benign": "CHARITROC-0017",
+   "malicious": "CHARITROC-0575"
+  },
+  "CRPAIR-03-07": {
+   "benign": "CHARITROC-0439",
+   "malicious": "CHARITROC-0449"
+  },
+  "CRPAIR-03-08": {
+   "benign": "CHARITROC-0510",
+   "malicious": "CHARITROC-0074"
+  },
+  "CRPAIR-03-09": {
+   "benign": "CHARITROC-0480",
+   "malicious": "CHARITROC-0566"
+  },
+  "CRPAIR-03-10": {
+   "benign": "CHARITROC-0393",
+   "malicious": "CHARITROC-0650"
+  },
+  "CRPAIR-03-11": {
+   "benign": "CHARITROC-0076",
+   "malicious": "CHARITROC-0514"
+  },
+  "CRPAIR-03-12": {
+   "benign": "CHARITROC-0138",
+   "malicious": "CHARITROC-0325"
+  },
+  "CRPAIR-03-13": {
+   "benign": "CHARITROC-0186",
+   "malicious": "CHARITROC-0063"
+  },
+  "CRPAIR-03-14": {
+   "benign": "CHARITROC-0647",
+   "malicious": "CHARITROC-0369"
+  },
+  "CRPAIR-03-15": {
+   "benign": "CHARITROC-0430",
+   "malicious": "CHARITROC-0465"
+  },
+  "CRPAIR-03-16": {
+   "benign": "CHARITROC-0180",
+   "malicious": "CHARITROC-0473"
+  },
+  "CRPAIR-03-17": {
+   "benign": "CHARITROC-0630",
+   "malicious": "CHARITROC-0249"
+  },
+  "CRPAIR-03-18": {
+   "benign": "CHARITROC-0100",
+   "malicious": "CHARITROC-0358"
+  },
+  "CRPAIR-03-19": {
+   "benign": "CHARITROC-0269",
+   "malicious": "CHARITROC-0037"
+  },
+  "CRPAIR-03-20": {
+   "benign": "CHARITROC-0210",
+   "malicious": "CHARITROC-0492"
+  },
+  "CRPAIR-03-21": {
+   "benign": "CHARITROC-0086",
+   "malicious": "CHARITROC-0452"
+  },
+  "CRPAIR-03-22": {
+   "benign": "CHARITROC-0326",
+   "malicious": "CHARITROC-0428"
+  },
+  "CRPAIR-03-23": {
+   "benign": "CHARITROC-0484",
+   "malicious": "CHARITROC-0271"
+  },
+  "CRPAIR-03-24": {
+   "benign": "CHARITROC-0459",
+   "malicious": "CHARITROC-0264"
+  },
+  "CRPAIR-04-01": {
+   "benign": "CHARITROC-0047",
+   "malicious": "CHARITROC-0598"
+  },
+  "CRPAIR-04-02": {
+   "benign": "CHARITROC-0280",
+   "malicious": "CHARITROC-0478"
+  },
+  "CRPAIR-04-03": {
+   "benign": "CHARITROC-0324",
+   "malicious": "CHARITROC-0205"
+  },
+  "CRPAIR-04-04": {
+   "benign": "CHARITROC-0014",
+   "malicious": "CHARITROC-0082"
+  },
+  "CRPAIR-04-05": {
+   "benign": "CHARITROC-0501",
+   "malicious": "CHARITROC-0010"
+  },
+  "CRPAIR-04-06": {
+   "benign": "CHARITROC-0061",
+   "malicious": "CHARITROC-0559"
+  },
+  "CRPAIR-04-07": {
+   "benign": "CHARITROC-0574",
+   "malicious": "CHARITROC-0557"
+  },
+  "CRPAIR-04-08": {
+   "benign": "CHARITROC-0257",
+   "malicious": "CHARITROC-0516"
+  },
+  "CRPAIR-04-09": {
+   "benign": "CHARITROC-0548",
+   "malicious": "CHARITROC-0670"
+  },
+  "CRPAIR-04-10": {
+   "benign": "CHARITROC-0503",
+   "malicious": "CHARITROC-0109"
+  },
+  "CRPAIR-04-11": {
+   "benign": "CHARITROC-0164",
+   "malicious": "CHARITROC-0112"
+  },
+  "CRPAIR-04-12": {
+   "benign": "CHARITROC-0093",
+   "malicious": "CHARITROC-0494"
+  },
+  "CRPAIR-04-13": {
+   "benign": "CHARITROC-0098",
+   "malicious": "CHARITROC-0340"
+  },
+  "CRPAIR-04-14": {
+   "benign": "CHARITROC-0506",
+   "malicious": "CHARITROC-0087"
+  },
+  "CRPAIR-04-15": {
+   "benign": "CHARITROC-0062",
+   "malicious": "CHARITROC-0253"
+  },
+  "CRPAIR-04-16": {
+   "benign": "CHARITROC-0318",
+   "malicious": "CHARITROC-0057"
+  },
+  "CRPAIR-04-17": {
+   "benign": "CHARITROC-0169",
+   "malicious": "CHARITROC-0228"
+  },
+  "CRPAIR-04-18": {
+   "benign": "CHARITROC-0344",
+   "malicious": "CHARITROC-0208"
+  },
+  "CRPAIR-04-19": {
+   "benign": "CHARITROC-0648",
+   "malicious": "CHARITROC-0669"
+  },
+  "CRPAIR-04-20": {
+   "benign": "CHARITROC-0041",
+   "malicious": "CHARITROC-0342"
+  },
+  "CRPAIR-04-21": {
+   "benign": "CHARITROC-0213",
+   "malicious": "CHARITROC-0190"
+  },
+  "CRPAIR-04-22": {
+   "benign": "CHARITROC-0448",
+   "malicious": "CHARITROC-0582"
+  },
+  "CRPAIR-04-23": {
+   "benign": "CHARITROC-0409",
+   "malicious": "CHARITROC-0072"
+  },
+  "CRPAIR-04-24": {
+   "benign": "CHARITROC-0359",
+   "malicious": "CHARITROC-0018"
+  },
+  "CRPAIR-05-01": {
+   "benign": "CHARITROC-0488",
+   "malicious": "CHARITROC-0212"
+  },
+  "CRPAIR-05-02": {
+   "benign": "CHARITROC-0297",
+   "malicious": "CHARITROC-0050"
+  },
+  "CRPAIR-05-03": {
+   "benign": "CHARITROC-0402",
+   "malicious": "CHARITROC-0546"
+  },
+  "CRPAIR-05-04": {
+   "benign": "CHARITROC-0286",
+   "malicious": "CHARITROC-0416"
+  },
+  "CRPAIR-05-05": {
+   "benign": "CHARITROC-0570",
+   "malicious": "CHARITROC-0335"
+  },
+  "CRPAIR-05-06": {
+   "benign": "CHARITROC-0373",
+   "malicious": "CHARITROC-0105"
+  },
+  "CRPAIR-05-07": {
+   "benign": "CHARITROC-0184",
+   "malicious": "CHARITROC-0408"
+  },
+  "CRPAIR-05-08": {
+   "benign": "CHARITROC-0265",
+   "malicious": "CHARITROC-0631"
+  },
+  "CRPAIR-05-09": {
+   "benign": "CHARITROC-0196",
+   "malicious": "CHARITROC-0054"
+  },
+  "CRPAIR-05-10": {
+   "benign": "CHARITROC-0541",
+   "malicious": "CHARITROC-0020"
+  },
+  "CRPAIR-05-11": {
+   "benign": "CHARITROC-0609",
+   "malicious": "CHARITROC-0476"
+  },
+  "CRPAIR-05-12": {
+   "benign": "CHARITROC-0467",
+   "malicious": "CHARITROC-0248"
+  },
+  "CRPAIR-05-13": {
+   "benign": "CHARITROC-0675",
+   "malicious": "CHARITROC-0202"
+  },
+  "CRPAIR-05-14": {
+   "benign": "CHARITROC-0386",
+   "malicious": "CHARITROC-0305"
+  },
+  "CRPAIR-05-15": {
+   "benign": "CHARITROC-0357",
+   "malicious": "CHARITROC-0523"
+  },
+  "CRPAIR-05-16": {
+   "benign": "CHARITROC-0434",
+   "malicious": "CHARITROC-0611"
+  },
+  "CRPAIR-05-17": {
+   "benign": "CHARITROC-0246",
+   "malicious": "CHARITROC-0148"
+  },
+  "CRPAIR-05-18": {
+   "benign": "CHARITROC-0198",
+   "malicious": "CHARITROC-0407"
+  },
+  "CRPAIR-05-19": {
+   "benign": "CHARITROC-0125",
+   "malicious": "CHARITROC-0499"
+  },
+  "CRPAIR-05-20": {
+   "benign": "CHARITROC-0676",
+   "malicious": "CHARITROC-0485"
+  },
+  "CRPAIR-05-21": {
+   "benign": "CHARITROC-0464",
+   "malicious": "CHARITROC-0395"
+  },
+  "CRPAIR-05-22": {
+   "benign": "CHARITROC-0382",
+   "malicious": "CHARITROC-0275"
+  },
+  "CRPAIR-05-23": {
+   "benign": "CHARITROC-0597",
+   "malicious": "CHARITROC-0207"
+  },
+  "CRPAIR-05-24": {
+   "benign": "CHARITROC-0230",
+   "malicious": "CHARITROC-0067"
+  },
+  "CRPAIR-06-01": {
+   "benign": "CHARITROC-0547",
+   "malicious": "CHARITROC-0596"
+  },
+  "CRPAIR-06-02": {
+   "benign": "CHARITROC-0487",
+   "malicious": "CHARITROC-0089"
+  },
+  "CRPAIR-06-03": {
+   "benign": "CHARITROC-0104",
+   "malicious": "CHARITROC-0222"
+  },
+  "CRPAIR-06-04": {
+   "benign": "CHARITROC-0524",
+   "malicious": "CHARITROC-0292"
+  },
+  "CRPAIR-06-05": {
+   "benign": "CHARITROC-0247",
+   "malicious": "CHARITROC-0581"
+  },
+  "CRPAIR-06-06": {
+   "benign": "CHARITROC-0641",
+   "malicious": "CHARITROC-0362"
+  },
+  "CRPAIR-06-07": {
+   "benign": "CHARITROC-0108",
+   "malicious": "CHARITROC-0038"
+  },
+  "CRPAIR-06-08": {
+   "benign": "CHARITROC-0266",
+   "malicious": "CHARITROC-0078"
+  },
+  "CRPAIR-06-09": {
+   "benign": "CHARITROC-0118",
+   "malicious": "CHARITROC-0136"
+  },
+  "CRPAIR-06-10": {
+   "benign": "CHARITROC-0645",
+   "malicious": "CHARITROC-0621"
+  },
+  "CRPAIR-06-11": {
+   "benign": "CHARITROC-0162",
+   "malicious": "CHARITROC-0538"
+  },
+  "CRPAIR-06-12": {
+   "benign": "CHARITROC-0296",
+   "malicious": "CHARITROC-0133"
+  },
+  "CRPAIR-06-13": {
+   "benign": "CHARITROC-0163",
+   "malicious": "CHARITROC-0460"
+  },
+  "CRPAIR-06-14": {
+   "benign": "CHARITROC-0469",
+   "malicious": "CHARITROC-0091"
+  },
+  "CRPAIR-06-15": {
+   "benign": "CHARITROC-0161",
+   "malicious": "CHARITROC-0521"
+  },
+  "CRPAIR-06-16": {
+   "benign": "CHARITROC-0308",
+   "malicious": "CHARITROC-0622"
+  },
+  "CRPAIR-06-17": {
+   "benign": "CHARITROC-0599",
+   "malicious": "CHARITROC-0345"
+  },
+  "CRPAIR-06-18": {
+   "benign": "CHARITROC-0380",
+   "malicious": "CHARITROC-0035"
+  },
+  "CRPAIR-06-19": {
+   "benign": "CHARITROC-0346",
+   "malicious": "CHARITROC-0255"
+  },
+  "CRPAIR-06-20": {
+   "benign": "CHARITROC-0055",
+   "malicious": "CHARITROC-0058"
+  },
+  "CRPAIR-06-21": {
+   "benign": "CHARITROC-0006",
+   "malicious": "CHARITROC-0551"
+  },
+  "CRPAIR-06-22": {
+   "benign": "CHARITROC-0432",
+   "malicious": "CHARITROC-0177"
+  },
+  "CRPAIR-06-23": {
+   "benign": "CHARITROC-0160",
+   "malicious": "CHARITROC-0391"
+  },
+  "CRPAIR-06-24": {
+   "benign": "CHARITROC-0019",
+   "malicious": "CHARITROC-0587"
+  },
+  "CRPAIR-07-01": {
+   "benign": "CHARITROC-0185",
+   "malicious": "CHARITROC-0442"
+  },
+  "CRPAIR-07-02": {
+   "benign": "CHARITROC-0143",
+   "malicious": "CHARITROC-0537"
+  },
+  "CRPAIR-07-03": {
+   "benign": "CHARITROC-0463",
+   "malicious": "CHARITROC-0573"
+  },
+  "CRPAIR-07-04": {
+   "benign": "CHARITROC-0200",
+   "malicious": "CHARITROC-0337"
+  },
+  "CRPAIR-07-05": {
+   "benign": "CHARITROC-0129",
+   "malicious": "CHARITROC-0586"
+  },
+  "CRPAIR-07-06": {
+   "benign": "CHARITROC-0071",
+   "malicious": "CHARITROC-0216"
+  },
+  "CRPAIR-07-07": {
+   "benign": "CHARITROC-0272",
+   "malicious": "CHARITROC-0313"
+  },
+  "CRPAIR-07-08": {
+   "benign": "CHARITROC-0365",
+   "malicious": "CHARITROC-0211"
+  },
+  "CRPAIR-07-09": {
+   "benign": "CHARITROC-0674",
+   "malicious": "CHARITROC-0635"
+  },
+  "CRPAIR-07-10": {
+   "benign": "CHARITROC-0008",
+   "malicious": "CHARITROC-0672"
+  },
+  "CRPAIR-07-11": {
+   "benign": "CHARITROC-0594",
+   "malicious": "CHARITROC-0642"
+  },
+  "CRPAIR-07-12": {
+   "benign": "CHARITROC-0234",
+   "malicious": "CHARITROC-0633"
+  },
+  "CRPAIR-07-13": {
+   "benign": "CHARITROC-0462",
+   "malicious": "CHARITROC-0263"
+  },
+  "CRPAIR-07-14": {
+   "benign": "CHARITROC-0592",
+   "malicious": "CHARITROC-0206"
+  },
+  "CRPAIR-07-15": {
+   "benign": "CHARITROC-0508",
+   "malicious": "CHARITROC-0411"
+  },
+  "CRPAIR-07-16": {
+   "benign": "CHARITROC-0049",
+   "malicious": "CHARITROC-0479"
+  },
+  "CRPAIR-07-17": {
+   "benign": "CHARITROC-0505",
+   "malicious": "CHARITROC-0404"
+  },
+  "CRPAIR-07-18": {
+   "benign": "CHARITROC-0287",
+   "malicious": "CHARITROC-0560"
+  },
+  "CRPAIR-07-19": {
+   "benign": "CHARITROC-0158",
+   "malicious": "CHARITROC-0307"
+  },
+  "CRPAIR-07-20": {
+   "benign": "CHARITROC-0436",
+   "malicious": "CHARITROC-0243"
+  },
+  "CRPAIR-07-21": {
+   "benign": "CHARITROC-0554",
+   "malicious": "CHARITROC-0351"
+  },
+  "CRPAIR-07-22": {
+   "benign": "CHARITROC-0095",
+   "malicious": "CHARITROC-0637"
+  },
+  "CRPAIR-07-23": {
+   "benign": "CHARITROC-0130",
+   "malicious": "CHARITROC-0085"
+  },
+  "CRPAIR-07-24": {
+   "benign": "CHARITROC-0627",
+   "malicious": "CHARITROC-0218"
+  },
+  "CRPAIR-08-01": {
+   "benign": "CHARITROC-0518",
+   "malicious": "CHARITROC-0123"
+  },
+  "CRPAIR-08-02": {
+   "benign": "CHARITROC-0277",
+   "malicious": "CHARITROC-0267"
+  },
+  "CRPAIR-08-03": {
+   "benign": "CHARITROC-0069",
+   "malicious": "CHARITROC-0398"
+  },
+  "CRPAIR-08-04": {
+   "benign": "CHARITROC-0011",
+   "malicious": "CHARITROC-0300"
+  },
+  "CRPAIR-08-05": {
+   "benign": "CHARITROC-0113",
+   "malicious": "CHARITROC-0607"
+  },
+  "CRPAIR-08-06": {
+   "benign": "CHARITROC-0103",
+   "malicious": "CHARITROC-0534"
+  },
+  "CRPAIR-08-07": {
+   "benign": "CHARITROC-0667",
+   "malicious": "CHARITROC-0250"
+  },
+  "CRPAIR-08-08": {
+   "benign": "CHARITROC-0552",
+   "malicious": "CHARITROC-0330"
+  },
+  "CRPAIR-08-09": {
+   "benign": "CHARITROC-0438",
+   "malicious": "CHARITROC-0090"
+  },
+  "CRPAIR-08-10": {
+   "benign": "CHARITROC-0511",
+   "malicious": "CHARITROC-0043"
+  },
+  "CRPAIR-08-11": {
+   "benign": "CHARITROC-0437",
+   "malicious": "CHARITROC-0435"
+  },
+  "CRPAIR-08-12": {
+   "benign": "CHARITROC-0149",
+   "malicious": "CHARITROC-0040"
+  },
+  "CRPAIR-08-13": {
+   "benign": "CHARITROC-0652",
+   "malicious": "CHARITROC-0226"
+  },
+  "CRPAIR-08-14": {
+   "benign": "CHARITROC-0496",
+   "malicious": "CHARITROC-0191"
+  },
+  "CRPAIR-08-15": {
+   "benign": "CHARITROC-0522",
+   "malicious": "CHARITROC-0474"
+  },
+  "CRPAIR-08-16": {
+   "benign": "CHARITROC-0328",
+   "malicious": "CHARITROC-0197"
+  },
+  "CRPAIR-08-17": {
+   "benign": "CHARITROC-0562",
+   "malicious": "CHARITROC-0350"
+  },
+  "CRPAIR-08-18": {
+   "benign": "CHARITROC-0309",
+   "malicious": "CHARITROC-0433"
+  },
+  "CRPAIR-08-19": {
+   "benign": "CHARITROC-0201",
+   "malicious": "CHARITROC-0083"
+  },
+  "CRPAIR-08-20": {
+   "benign": "CHARITROC-0657",
+   "malicious": "CHARITROC-0589"
+  },
+  "CRPAIR-08-21": {
+   "benign": "CHARITROC-0489",
+   "malicious": "CHARITROC-0384"
+  },
+  "CRPAIR-08-22": {
+   "benign": "CHARITROC-0084",
+   "malicious": "CHARITROC-0423"
+  },
+  "CRPAIR-08-23": {
+   "benign": "CHARITROC-0033",
+   "malicious": "CHARITROC-0227"
+  },
+  "CRPAIR-08-24": {
+   "benign": "CHARITROC-0490",
+   "malicious": "CHARITROC-0636"
+  },
+  "CRPAIR-09-01": {
+   "benign": "CHARITROC-0075",
+   "malicious": "CHARITROC-0654"
+  },
+  "CRPAIR-09-02": {
+   "benign": "CHARITROC-0412",
+   "malicious": "CHARITROC-0127"
+  },
+  "CRPAIR-09-03": {
+   "benign": "CHARITROC-0629",
+   "malicious": "CHARITROC-0504"
+  },
+  "CRPAIR-09-04": {
+   "benign": "CHARITROC-0664",
+   "malicious": "CHARITROC-0389"
+  },
+  "CRPAIR-09-05": {
+   "benign": "CHARITROC-0153",
+   "malicious": "CHARITROC-0252"
+  },
+  "CRPAIR-09-06": {
+   "benign": "CHARITROC-0338",
+   "malicious": "CHARITROC-0388"
+  },
+  "CRPAIR-09-07": {
+   "benign": "CHARITROC-0241",
+   "malicious": "CHARITROC-0001"
+  },
+  "CRPAIR-09-08": {
+   "benign": "CHARITROC-0175",
+   "malicious": "CHARITROC-0156"
+  },
+  "CRPAIR-09-09": {
+   "benign": "CHARITROC-0526",
+   "malicious": "CHARITROC-0394"
+  },
+  "CRPAIR-09-10": {
+   "benign": "CHARITROC-0193",
+   "malicious": "CHARITROC-0192"
+  },
+  "CRPAIR-09-11": {
+   "benign": "CHARITROC-0268",
+   "malicious": "CHARITROC-0209"
+  },
+  "CRPAIR-09-12": {
+   "benign": "CHARITROC-0542",
+   "malicious": "CHARITROC-0034"
+  },
+  "CRPAIR-09-13": {
+   "benign": "CHARITROC-0039",
+   "malicious": "CHARITROC-0399"
+  },
+  "CRPAIR-09-14": {
+   "benign": "CHARITROC-0385",
+   "malicious": "CHARITROC-0497"
+  },
+  "CRPAIR-09-15": {
+   "benign": "CHARITROC-0584",
+   "malicious": "CHARITROC-0005"
+  },
+  "CRPAIR-09-16": {
+   "benign": "CHARITROC-0214",
+   "malicious": "CHARITROC-0322"
+  },
+  "CRPAIR-09-17": {
+   "benign": "CHARITROC-0172",
+   "malicious": "CHARITROC-0458"
+  },
+  "CRPAIR-09-18": {
+   "benign": "CHARITROC-0225",
+   "malicious": "CHARITROC-0527"
+  },
+  "CRPAIR-09-19": {
+   "benign": "CHARITROC-0668",
+   "malicious": "CHARITROC-0372"
+  },
+  "CRPAIR-09-20": {
+   "benign": "CHARITROC-0120",
+   "malicious": "CHARITROC-0392"
+  },
+  "CRPAIR-09-21": {
+   "benign": "CHARITROC-0239",
+   "malicious": "CHARITROC-0558"
+  },
+  "CRPAIR-09-22": {
+   "benign": "CHARITROC-0189",
+   "malicious": "CHARITROC-0288"
+  },
+  "CRPAIR-09-23": {
+   "benign": "CHARITROC-0655",
+   "malicious": "CHARITROC-0028"
+  },
+  "CRPAIR-09-24": {
+   "benign": "CHARITROC-0421",
+   "malicious": "CHARITROC-0533"
+  },
+  "CRPAIR-10-01": {
+   "benign": "CHARITROC-0146",
+   "malicious": "CHARITROC-0414"
+  },
+  "CRPAIR-10-02": {
+   "benign": "CHARITROC-0319",
+   "malicious": "CHARITROC-0139"
+  },
+  "CRPAIR-10-03": {
+   "benign": "CHARITROC-0660",
+   "malicious": "CHARITROC-0571"
+  },
+  "CRPAIR-10-04": {
+   "benign": "CHARITROC-0066",
+   "malicious": "CHARITROC-0593"
+  },
+  "CRPAIR-10-05": {
+   "benign": "CHARITROC-0353",
+   "malicious": "CHARITROC-0677"
+  },
+  "CRPAIR-10-06": {
+   "benign": "CHARITROC-0145",
+   "malicious": "CHARITROC-0151"
+  },
+  "CRPAIR-10-07": {
+   "benign": "CHARITROC-0443",
+   "malicious": "CHARITROC-0142"
+  },
+  "CRPAIR-10-08": {
+   "benign": "CHARITROC-0155",
+   "malicious": "CHARITROC-0418"
+  },
+  "CRPAIR-10-09": {
+   "benign": "CHARITROC-0080",
+   "malicious": "CHARITROC-0106"
+  },
+  "CRPAIR-10-10": {
+   "benign": "CHARITROC-0493",
+   "malicious": "CHARITROC-0021"
+  },
+  "CRPAIR-10-11": {
+   "benign": "CHARITROC-0422",
+   "malicious": "CHARITROC-0544"
+  },
+  "CRPAIR-10-12": {
+   "benign": "CHARITROC-0073",
+   "malicious": "CHARITROC-0471"
+  },
+  "CRPAIR-10-13": {
+   "benign": "CHARITROC-0242",
+   "malicious": "CHARITROC-0440"
+  },
+  "CRPAIR-10-14": {
+   "benign": "CHARITROC-0491",
+   "malicious": "CHARITROC-0015"
+  },
+  "CRPAIR-10-15": {
+   "benign": "CHARITROC-0401",
+   "malicious": "CHARITROC-0601"
+  },
+  "CRPAIR-10-16": {
+   "benign": "CHARITROC-0406",
+   "malicious": "CHARITROC-0235"
+  },
+  "CRPAIR-10-17": {
+   "benign": "CHARITROC-0168",
+   "malicious": "CHARITROC-0378"
+  },
+  "CRPAIR-10-18": {
+   "benign": "CHARITROC-0301",
+   "malicious": "CHARITROC-0419"
+  },
+  "CRPAIR-10-19": {
+   "benign": "CHARITROC-0525",
+   "malicious": "CHARITROC-0590"
+  },
+  "CRPAIR-10-20": {
+   "benign": "CHARITROC-0623",
+   "malicious": "CHARITROC-0519"
+  },
+  "CRPAIR-10-21": {
+   "benign": "CHARITROC-0060",
+   "malicious": "CHARITROC-0539"
+  },
+  "CRPAIR-10-22": {
+   "benign": "CHARITROC-0304",
+   "malicious": "CHARITROC-0331"
+  },
+  "CRPAIR-10-23": {
+   "benign": "CHARITROC-0610",
+   "malicious": "CHARITROC-0159"
+  },
+  "CRPAIR-10-24": {
+   "benign": "CHARITROC-0323",
+   "malicious": "CHARITROC-0361"
+  },
+  "CRPAIR-11-01": {
+   "benign": "CHARITROC-0543",
+   "malicious": "CHARITROC-0363"
+  },
+  "CRPAIR-11-02": {
+   "benign": "CHARITROC-0273",
+   "malicious": "CHARITROC-0564"
+  },
+  "CRPAIR-11-03": {
+   "benign": "CHARITROC-0606",
+   "malicious": "CHARITROC-0455"
+  },
+  "CRPAIR-11-04": {
+   "benign": "CHARITROC-0217",
+   "malicious": "CHARITROC-0666"
+  },
+  "CRPAIR-11-05": {
+   "benign": "CHARITROC-0457",
+   "malicious": "CHARITROC-0179"
+  },
+  "CRPAIR-11-06": {
+   "benign": "CHARITROC-0417",
+   "malicious": "CHARITROC-0639"
+  },
+  "CRPAIR-11-07": {
+   "benign": "CHARITROC-0334",
+   "malicious": "CHARITROC-0101"
+  },
+  "CRPAIR-11-08": {
+   "benign": "CHARITROC-0661",
+   "malicious": "CHARITROC-0110"
+  },
+  "CRPAIR-11-09": {
+   "benign": "CHARITROC-0343",
+   "malicious": "CHARITROC-0023"
+  },
+  "CRPAIR-11-10": {
+   "benign": "CHARITROC-0065",
+   "malicious": "CHARITROC-0140"
+  },
+  "CRPAIR-11-11": {
+   "benign": "CHARITROC-0347",
+   "malicious": "CHARITROC-0124"
+  },
+  "CRPAIR-11-12": {
+   "benign": "CHARITROC-0107",
+   "malicious": "CHARITROC-0056"
+  },
+  "CRPAIR-11-13": {
+   "benign": "CHARITROC-0604",
+   "malicious": "CHARITROC-0141"
+  },
+  "CRPAIR-11-14": {
+   "benign": "CHARITROC-0294",
+   "malicious": "CHARITROC-0580"
+  },
+  "CRPAIR-11-15": {
+   "benign": "CHARITROC-0003",
+   "malicious": "CHARITROC-0500"
+  },
+  "CRPAIR-11-16": {
+   "benign": "CHARITROC-0390",
+   "malicious": "CHARITROC-0022"
+  },
+  "CRPAIR-11-17": {
+   "benign": "CHARITROC-0370",
+   "malicious": "CHARITROC-0396"
+  },
+  "CRPAIR-11-18": {
+   "benign": "CHARITROC-0290",
+   "malicious": "CHARITROC-0068"
+  },
+  "CRPAIR-11-19": {
+   "benign": "CHARITROC-0520",
+   "malicious": "CHARITROC-0121"
+  },
+  "CRPAIR-11-20": {
+   "benign": "CHARITROC-0605",
+   "malicious": "CHARITROC-0682"
+  },
+  "CRPAIR-11-21": {
+   "benign": "CHARITROC-0509",
+   "malicious": "CHARITROC-0088"
+  },
+  "CRPAIR-11-22": {
+   "benign": "CHARITROC-0515",
+   "malicious": "CHARITROC-0429"
+  },
+  "CRPAIR-11-23": {
+   "benign": "CHARITROC-0512",
+   "malicious": "CHARITROC-0364"
+  },
+  "CRPAIR-11-24": {
+   "benign": "CHARITROC-0415",
+   "malicious": "CHARITROC-0306"
+  },
+  "CRPAIR-12-01": {
+   "benign": "CHARITROC-0603",
+   "malicious": "CHARITROC-0588"
+  },
+  "CRPAIR-12-02": {
+   "benign": "CHARITROC-0283",
+   "malicious": "CHARITROC-0376"
+  },
+  "CRPAIR-12-03": {
+   "benign": "CHARITROC-0295",
+   "malicious": "CHARITROC-0048"
+  },
+  "CRPAIR-12-04": {
+   "benign": "CHARITROC-0397",
+   "malicious": "CHARITROC-0540"
+  },
+  "CRPAIR-12-05": {
+   "benign": "CHARITROC-0591",
+   "malicious": "CHARITROC-0431"
+  },
+  "CRPAIR-12-06": {
+   "benign": "CHARITROC-0051",
+   "malicious": "CHARITROC-0553"
+  },
+  "CRPAIR-12-07": {
+   "benign": "CHARITROC-0219",
+   "malicious": "CHARITROC-0044"
+  },
+  "CRPAIR-12-08": {
+   "benign": "CHARITROC-0451",
+   "malicious": "CHARITROC-0530"
+  },
+  "CRPAIR-12-09": {
+   "benign": "CHARITROC-0375",
+   "malicious": "CHARITROC-0007"
+  },
+  "CRPAIR-12-10": {
+   "benign": "CHARITROC-0498",
+   "malicious": "CHARITROC-0070"
+  },
+  "CRPAIR-12-11": {
+   "benign": "CHARITROC-0115",
+   "malicious": "CHARITROC-0122"
+  },
+  "CRPAIR-12-12": {
+   "benign": "CHARITROC-0619",
+   "malicious": "CHARITROC-0025"
+  },
+  "CRPAIR-12-13": {
+   "benign": "CHARITROC-0259",
+   "malicious": "CHARITROC-0658"
+  },
+  "CRPAIR-12-14": {
+   "benign": "CHARITROC-0595",
+   "malicious": "CHARITROC-0381"
+  },
+  "CRPAIR-12-15": {
+   "benign": "CHARITROC-0237",
+   "malicious": "CHARITROC-0312"
+  },
+  "CRPAIR-12-16": {
+   "benign": "CHARITROC-0339",
+   "malicious": "CHARITROC-0036"
+  },
+  "CRPAIR-12-17": {
+   "benign": "CHARITROC-0316",
+   "malicious": "CHARITROC-0352"
+  },
+  "CRPAIR-12-18": {
+   "benign": "CHARITROC-0638",
+   "malicious": "CHARITROC-0117"
+  },
+  "CRPAIR-12-19": {
+   "benign": "CHARITROC-0311",
+   "malicious": "CHARITROC-0131"
+  },
+  "CRPAIR-12-20": {
+   "benign": "CHARITROC-0626",
+   "malicious": "CHARITROC-0299"
+  },
+  "CRPAIR-12-21": {
+   "benign": "CHARITROC-0260",
+   "malicious": "CHARITROC-0030"
+  },
+  "CRPAIR-12-22": {
+   "benign": "CHARITROC-0029",
+   "malicious": "CHARITROC-0507"
+  },
   "CRPAIR-12-23": {
-   "benign": "CHARITROC-0573",
-   "malicious": "CHARITROC-0574"
+   "benign": "CHARITROC-0529",
+   "malicious": "CHARITROC-0282"
   },
   "CRPAIR-12-24": {
-   "benign": "CHARITROC-0575",
-   "malicious": "CHARITROC-0576"
+   "benign": "CHARITROC-0317",
+   "malicious": "CHARITROC-0097"
+  }
+ },
+ "calibration": {
+  "CRCALPAIR-01-01": {
+   "benign": "CHARITROC-0195",
+   "malicious": "CHARITROC-0119"
+  },
+  "CRCALPAIR-01-02": {
+   "benign": "CHARITROC-0413",
+   "malicious": "CHARITROC-0231"
+  },
+  "CRCALPAIR-01-03": {
+   "benign": "CHARITROC-0656",
+   "malicious": "CHARITROC-0152"
+  },
+  "CRCALPAIR-01-04": {
+   "benign": "CHARITROC-0188",
+   "malicious": "CHARITROC-0454"
+  },
+  "CRCALPAIR-02-01": {
+   "benign": "CHARITROC-0653",
+   "malicious": "CHARITROC-0425"
+  },
+  "CRCALPAIR-02-02": {
+   "benign": "CHARITROC-0532",
+   "malicious": "CHARITROC-0577"
+  },
+  "CRCALPAIR-02-03": {
+   "benign": "CHARITROC-0486",
+   "malicious": "CHARITROC-0528"
+  },
+  "CRCALPAIR-02-04": {
+   "benign": "CHARITROC-0052",
+   "malicious": "CHARITROC-0137"
+  },
+  "CRCALPAIR-03-01": {
+   "benign": "CHARITROC-0166",
+   "malicious": "CHARITROC-0470"
+  },
+  "CRCALPAIR-03-02": {
+   "benign": "CHARITROC-0602",
+   "malicious": "CHARITROC-0468"
+  },
+  "CRCALPAIR-03-03": {
+   "benign": "CHARITROC-0183",
+   "malicious": "CHARITROC-0203"
+  },
+  "CRCALPAIR-03-04": {
+   "benign": "CHARITROC-0620",
+   "malicious": "CHARITROC-0099"
+  },
+  "CRCALPAIR-04-01": {
+   "benign": "CHARITROC-0081",
+   "malicious": "CHARITROC-0116"
+  },
+  "CRCALPAIR-04-02": {
+   "benign": "CHARITROC-0194",
+   "malicious": "CHARITROC-0182"
+  },
+  "CRCALPAIR-04-03": {
+   "benign": "CHARITROC-0568",
+   "malicious": "CHARITROC-0679"
+  },
+  "CRCALPAIR-04-04": {
+   "benign": "CHARITROC-0128",
+   "malicious": "CHARITROC-0173"
+  },
+  "CRCALPAIR-05-01": {
+   "benign": "CHARITROC-0064",
+   "malicious": "CHARITROC-0374"
+  },
+  "CRCALPAIR-05-02": {
+   "benign": "CHARITROC-0367",
+   "malicious": "CHARITROC-0616"
+  },
+  "CRCALPAIR-05-03": {
+   "benign": "CHARITROC-0157",
+   "malicious": "CHARITROC-0310"
+  },
+  "CRCALPAIR-05-04": {
+   "benign": "CHARITROC-0013",
+   "malicious": "CHARITROC-0472"
+  },
+  "CRCALPAIR-06-01": {
+   "benign": "CHARITROC-0563",
+   "malicious": "CHARITROC-0004"
+  },
+  "CRCALPAIR-06-02": {
+   "benign": "CHARITROC-0321",
+   "malicious": "CHARITROC-0114"
+  },
+  "CRCALPAIR-06-03": {
+   "benign": "CHARITROC-0535",
+   "malicious": "CHARITROC-0420"
+  },
+  "CRCALPAIR-06-04": {
+   "benign": "CHARITROC-0410",
+   "malicious": "CHARITROC-0371"
+  },
+  "CRCALPAIR-07-01": {
+   "benign": "CHARITROC-0284",
+   "malicious": "CHARITROC-0320"
+  },
+  "CRCALPAIR-07-02": {
+   "benign": "CHARITROC-0199",
+   "malicious": "CHARITROC-0279"
+  },
+  "CRCALPAIR-07-03": {
+   "benign": "CHARITROC-0135",
+   "malicious": "CHARITROC-0244"
+  },
+  "CRCALPAIR-07-04": {
+   "benign": "CHARITROC-0561",
+   "malicious": "CHARITROC-0640"
+  },
+  "CRCALPAIR-08-01": {
+   "benign": "CHARITROC-0576",
+   "malicious": "CHARITROC-0240"
+  },
+  "CRCALPAIR-08-02": {
+   "benign": "CHARITROC-0355",
+   "malicious": "CHARITROC-0614"
+  },
+  "CRCALPAIR-08-03": {
+   "benign": "CHARITROC-0332",
+   "malicious": "CHARITROC-0031"
+  },
+  "CRCALPAIR-08-04": {
+   "benign": "CHARITROC-0556",
+   "malicious": "CHARITROC-0315"
+  },
+  "CRCALPAIR-09-01": {
+   "benign": "CHARITROC-0644",
+   "malicious": "CHARITROC-0176"
+  },
+  "CRCALPAIR-09-02": {
+   "benign": "CHARITROC-0187",
+   "malicious": "CHARITROC-0111"
+  },
+  "CRCALPAIR-09-03": {
+   "benign": "CHARITROC-0549",
+   "malicious": "CHARITROC-0613"
+  },
+  "CRCALPAIR-09-04": {
+   "benign": "CHARITROC-0453",
+   "malicious": "CHARITROC-0238"
+  },
+  "CRCALPAIR-10-01": {
+   "benign": "CHARITROC-0150",
+   "malicious": "CHARITROC-0662"
+  },
+  "CRCALPAIR-10-02": {
+   "benign": "CHARITROC-0536",
+   "malicious": "CHARITROC-0278"
+  },
+  "CRCALPAIR-10-03": {
+   "benign": "CHARITROC-0262",
+   "malicious": "CHARITROC-0671"
+  },
+  "CRCALPAIR-10-04": {
+   "benign": "CHARITROC-0579",
+   "malicious": "CHARITROC-0134"
+  },
+  "CRCALPAIR-11-01": {
+   "benign": "CHARITROC-0608",
+   "malicious": "CHARITROC-0513"
+  },
+  "CRCALPAIR-11-02": {
+   "benign": "CHARITROC-0600",
+   "malicious": "CHARITROC-0683"
+  },
+  "CRCALPAIR-11-03": {
+   "benign": "CHARITROC-0329",
+   "malicious": "CHARITROC-0258"
+  },
+  "CRCALPAIR-11-04": {
+   "benign": "CHARITROC-0441",
+   "malicious": "CHARITROC-0456"
+  },
+  "CRCALPAIR-12-01": {
+   "benign": "CHARITROC-0426",
+   "malicious": "CHARITROC-0012"
+  },
+  "CRCALPAIR-12-02": {
+   "benign": "CHARITROC-0517",
+   "malicious": "CHARITROC-0665"
+  },
+  "CRCALPAIR-12-03": {
+   "benign": "CHARITROC-0092",
+   "malicious": "CHARITROC-0446"
+  },
+  "CRCALPAIR-12-04": {
+   "benign": "CHARITROC-0270",
+   "malicious": "CHARITROC-0583"
   }
  }
 }

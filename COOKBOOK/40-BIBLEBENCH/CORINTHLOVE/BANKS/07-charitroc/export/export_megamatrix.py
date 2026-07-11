@@ -550,7 +550,9 @@ def write_rows(rows: list, out_dir: str):
     assert rows, "no export rows"
     assert all(set(row) == set(SCHEMA) for row in rows), "export schema mismatch"
     with open(os.path.join(out_dir, "episode_table.csv"), "w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=SCHEMA)
+        writer = csv.DictWriter(
+            handle, fieldnames=SCHEMA, lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(rows)
     with open(os.path.join(out_dir, "episode_table.jsonl"), "w", encoding="utf-8") as handle:

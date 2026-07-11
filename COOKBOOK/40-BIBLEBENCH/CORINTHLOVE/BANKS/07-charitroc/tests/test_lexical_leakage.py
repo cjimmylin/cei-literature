@@ -1,6 +1,7 @@
 """RED regression for type-coded wording in the private stage-3 transcript."""
 
 from collections import Counter
+import json
 import re
 
 import generator
@@ -62,7 +63,11 @@ def _stage4_keyword_response(stage3_transcript: str) -> str:
         intent, decision = "BENIGN", "CONDITIONAL"
     else:
         intent, decision = "MALICIOUS", "RESTRICT"
-    return f"INTENT: {intent}\nDECISION: {decision}"
+    return json.dumps({
+        "reason": f"Synthetic visible-text branch: {branch}.",
+        "INTENT": intent,
+        "DECISION": decision,
+    }, separators=(",", ":"))
 
 
 def _score_private_stage4_actions() -> list:

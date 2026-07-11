@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"019e1111-1111-7111-8111-111111111111"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"reasoning","text":"Partial reasoning was emitted."}}
+{"type":"error","message":"transport error: connection reset during response"}

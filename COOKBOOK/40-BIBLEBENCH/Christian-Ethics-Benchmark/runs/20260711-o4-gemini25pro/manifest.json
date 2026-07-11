@@ -1,0 +1,158 @@
+{
+  "panel": "20260711-o4-gemini25pro",
+  "date_str": "20260711",
+  "designs": [
+    "08-vocationfork",
+    "09-doubleedge"
+  ],
+  "item_ids": [
+    "WW-08-A02",
+    "WW-08-B02",
+    "WW-08-C03",
+    "WW-08-F02",
+    "WW-08-F03",
+    "WW-08-D01",
+    "WW-08-D02",
+    "WW-08-I02",
+    "WW-08-M01",
+    "WW-08-M02",
+    "WW-08-G01",
+    "WW-08-H01",
+    "WW-08-N01",
+    "WW-08-N02",
+    "WW-08-A04",
+    "WW-08-B04",
+    "WW-08-C04",
+    "WW-08-H02",
+    "WW-08-I03",
+    "WW-08-M03",
+    "WW-08-N03",
+    "WW-08-E03",
+    "WW-08-E04",
+    "WW-08-L03",
+    "WW-08-L04",
+    "WW-08-G04",
+    "WW-08-I04",
+    "WW-08-M04",
+    "WW-08-N04",
+    "WW-08-C01",
+    "WW-08-B01",
+    "WW-08-F01",
+    "WW-08-E01",
+    "WW-09-F02",
+    "WW-09-F04",
+    "WW-09-B01",
+    "WW-09-E02",
+    "WW-09-E03",
+    "WW-09-I02",
+    "WW-09-C01",
+    "WW-09-C02",
+    "WW-09-M01",
+    "WW-09-M02",
+    "WW-09-L01",
+    "WW-09-L02",
+    "WW-09-G01",
+    "WW-09-D01",
+    "WW-09-H02",
+    "WW-09-B04",
+    "WW-09-E04",
+    "WW-09-M03",
+    "WW-09-L03",
+    "WW-09-G03",
+    "WW-09-D03",
+    "WW-09-H03",
+    "WW-09-F06",
+    "WW-09-A04",
+    "WW-09-M04",
+    "WW-09-C04",
+    "WW-09-E05",
+    "WW-09-I05",
+    "WW-09-L04",
+    "WW-09-I06",
+    "WW-09-A05",
+    "WW-09-E06",
+    "WW-09-H05",
+    "WW-09-L05"
+  ],
+  "models": [
+    {
+      "name": "google/gemini-2.5-pro",
+      "family": "google",
+      "adapter": "openrouter"
+    }
+  ],
+  "judges": [
+    {
+      "name": "or:openai/gpt-4.1-mini",
+      "family": "openai"
+    },
+    {
+      "name": "or:google/gemini-2.5-flash",
+      "family": "google"
+    }
+  ],
+  "permutation_seeds": {
+    "seat_order": 20260706,
+    "twin_order": 20260706,
+    "variant_order": 20260706,
+    "claimant_order": 20260706,
+    "arbiter_placement": 20260706
+  },
+  "capability_battery": [
+    {
+      "id": "mmlu_pro",
+      "name": "MMLU-Pro",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Broad multi-domain reasoning; the canonical successor to MMLU, harder and less saturated.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gpqa_diamond",
+      "name": "GPQA (Diamond)",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Graduate-level, Google-proof science QA; separates frontier reasoning from recall.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "swe_bench_verified",
+      "name": "SWE-bench Verified",
+      "class": "agentic",
+      "metric": "resolved (%)",
+      "higher_is_better": true,
+      "why": "Multi-step agentic coding on real GitHub issues; a strong general agency signal.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gaia",
+      "name": "GAIA",
+      "class": "agentic",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "General assistant tasks needing tool use, browsing, and multi-step planning.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "ruler",
+      "name": "RULER",
+      "class": "long_context",
+      "metric": "score (%) at fixed context length",
+      "higher_is_better": true,
+      "why": "Synthetic long-context stress test (retrieval, multi-hop, aggregation) at a pinned length.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "mrcr",
+      "name": "MRCR (multi-round coreference resolution)",
+      "class": "long_context",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Long-context multi-turn coreference — relevant to WALKWORTHY's scripted multi-turn designs (02/07) without measuring their ethics.",
+      "source": "public leaderboard / model card at O4 time"
+    }
+  ],
+  "notes": "o4-panel: 67 items x 1 models (measurement path; P0 PILOT — real cross-model measurement ...)."
+}

@@ -270,6 +270,43 @@ def test_writer_emits_bank_sidecars_report_and_append_only_registry(tmp_path):
     assert persisted["auc_precision_target"]["per_family_n_benign"] == 24
 
 
+def test_writer_preserves_nonempty_historical_registry_as_exact_prefix(tmp_path):
+    episodes, sidecar, stats, pairs = generator.generate(SEED)
+    out = tmp_path / "BANKS" / "07-charitroc"
+    out.mkdir(parents=True)
+    registry = out.parent / "canary_registry.txt"
+    before = (
+        b"# CORINTHLOVE v1 canary registry (append-only). "
+        b"Format: <canary>  <item_id>  <design>\n"
+        b"10CB-07-bf39a18f-55f4-4158-adfe-bf4f9a97d699  "
+        b"CHARITROC-0001  07-charitroc\n"
+    )
+    assert all(
+        episode["canary"]
+        != "10CB-07-bf39a18f-55f4-4158-adfe-bf4f9a97d699"
+        for episode in episodes
+    )
+    registry.write_bytes(before)
+
+    first = generator.write_bank(
+        episodes, sidecar, stats, pairs, SEED, os.fspath(out)
+    )
+    after = registry.read_bytes()
+    assert first["n_canaries_registered"] == 684
+    assert after.startswith(before)
+    assert after[:len(before)] == before
+    assert len([
+        line for line in after.decode("utf-8").splitlines()
+        if line and not line.startswith("#")
+    ]) == 685
+
+    second = generator.write_bank(
+        episodes, sidecar, stats, pairs, SEED, os.fspath(out)
+    )
+    assert second["n_canaries_registered"] == 0
+    assert registry.read_bytes() == after
+
+
 @pytest.mark.parametrize("split", ["private", "calibration"])
 def test_pair_registry_rejects_same_episode_for_both_arms(split):
     episodes, sidecar, stats, pairs = generator.generate(SEED)

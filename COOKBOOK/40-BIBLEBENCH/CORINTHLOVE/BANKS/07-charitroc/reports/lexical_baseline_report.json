@@ -1,0 +1,1894 @@
+{
+  "char_3_5gram": {
+    "auc": 0.5001205632716049,
+    "config": {
+      "analyzer": "char_wb",
+      "class_weight": "balanced",
+      "max_iter": 2000,
+      "ngram_range": [
+        3,
+        5
+      ],
+      "random_state": 20260709
+    },
+    "family_auc": {
+      "CR-CLM-AUTHORSHIP": 0.5,
+      "CR-CLM-CONSENT": 0.5,
+      "CR-CLM-EXPENSE": 0.5,
+      "CR-CLM-INCIDENT": 0.5,
+      "CR-CLM-PROVENANCE": 0.5,
+      "CR-CLM-WARRANTY": 0.517361111111111,
+      "CR-REQ-ACCOUNT": 0.5,
+      "CR-REQ-DATA": 0.5,
+      "CR-REQ-LAB": 0.5,
+      "CR-REQ-MEDICATION": 0.5,
+      "CR-REQ-NETWORK": 0.5,
+      "CR-REQ-TRANSFER": 0.5
+    },
+    "fit_contract": "calibration excluding heldout family -> heldout-family private",
+    "folds": [
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-REQ-ACCOUNT",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-REQ-NETWORK",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-REQ-LAB",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-REQ-MEDICATION",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-REQ-TRANSFER",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-REQ-DATA",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-CLM-EXPENSE",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-CLM-INCIDENT",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-CLM-AUTHORSHIP",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-CLM-CONSENT",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.517361111111111,
+        "heldout_family": "CR-CLM-WARRANTY",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-CLM-PROVENANCE",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      }
+    ],
+    "macro_family_auc": 0.5014467592592592,
+    "max_family_auc": 0.517361111111111,
+    "n_scored": 576,
+    "passed": true,
+    "pooled_oof_probability_limitation": "pooled OOF probabilities come from independently fit folds and are not guaranteed to share a calibration scale",
+    "provenance": "harness validation, NOT a measurement"
+  },
+  "counts": {
+    "calibration": 96,
+    "private": 576,
+    "public": 12,
+    "total": 684
+  },
+  "fixed_policies": {
+    "negation": {
+      "auc": 0.5,
+      "branch_counts": {
+        "direct": 216,
+        "negated": 216,
+        "pending": 144
+      },
+      "cue_counts": {
+        "absent": 144,
+        "adversarial": 144,
+        "strong": 144,
+        "weak": 144
+      },
+      "family_auc": {
+        "CR-CLM-AUTHORSHIP": 0.5,
+        "CR-CLM-CONSENT": 0.5,
+        "CR-CLM-EXPENSE": 0.5,
+        "CR-CLM-INCIDENT": 0.5,
+        "CR-CLM-PROVENANCE": 0.5,
+        "CR-CLM-WARRANTY": 0.5,
+        "CR-REQ-ACCOUNT": 0.5,
+        "CR-REQ-DATA": 0.5,
+        "CR-REQ-LAB": 0.5,
+        "CR-REQ-MEDICATION": 0.5,
+        "CR-REQ-NETWORK": 0.5,
+        "CR-REQ-TRANSFER": 0.5
+      },
+      "input_scope": "rendered stage_3 only",
+      "max_family_auc": 0.5,
+      "n_episodes": 576,
+      "passed": true,
+      "provenance": "harness validation, NOT a measurement",
+      "score_counts": {
+        "1": 216,
+        "2": 144,
+        "3": 216
+      }
+    },
+    "pending": {
+      "auc": 0.5,
+      "branch_counts": {
+        "available": 288,
+        "defeated": 144,
+        "pending": 144
+      },
+      "cue_counts": {
+        "absent": 144,
+        "adversarial": 144,
+        "strong": 144,
+        "weak": 144
+      },
+      "family_auc": {
+        "CR-CLM-AUTHORSHIP": 0.5,
+        "CR-CLM-CONSENT": 0.5,
+        "CR-CLM-EXPENSE": 0.5,
+        "CR-CLM-INCIDENT": 0.5,
+        "CR-CLM-PROVENANCE": 0.5,
+        "CR-CLM-WARRANTY": 0.5,
+        "CR-REQ-ACCOUNT": 0.5,
+        "CR-REQ-DATA": 0.5,
+        "CR-REQ-LAB": 0.5,
+        "CR-REQ-MEDICATION": 0.5,
+        "CR-REQ-NETWORK": 0.5,
+        "CR-REQ-TRANSFER": 0.5
+      },
+      "input_scope": "rendered stage_3 only",
+      "max_family_auc": 0.5,
+      "n_episodes": 576,
+      "passed": true,
+      "provenance": "harness validation, NOT a measurement",
+      "score_counts": {
+        "1": 144,
+        "2": 144,
+        "3": 288
+      }
+    },
+    "polarity": {
+      "auc": 0.5,
+      "branch_counts": {
+        "negative_first": 216,
+        "pending": 144,
+        "positive_first": 216
+      },
+      "cue_counts": {
+        "absent": 144,
+        "adversarial": 144,
+        "strong": 144,
+        "weak": 144
+      },
+      "family_auc": {
+        "CR-CLM-AUTHORSHIP": 0.5,
+        "CR-CLM-CONSENT": 0.5,
+        "CR-CLM-EXPENSE": 0.5,
+        "CR-CLM-INCIDENT": 0.5,
+        "CR-CLM-PROVENANCE": 0.5,
+        "CR-CLM-WARRANTY": 0.5,
+        "CR-REQ-ACCOUNT": 0.5,
+        "CR-REQ-DATA": 0.5,
+        "CR-REQ-LAB": 0.5,
+        "CR-REQ-MEDICATION": 0.5,
+        "CR-REQ-NETWORK": 0.5,
+        "CR-REQ-TRANSFER": 0.5
+      },
+      "input_scope": "rendered stage_3 only",
+      "max_family_auc": 0.5,
+      "n_episodes": 576,
+      "passed": true,
+      "provenance": "harness validation, NOT a measurement",
+      "score_counts": {
+        "1": 216,
+        "2": 144,
+        "3": 216
+      }
+    },
+    "position": {
+      "auc": 0.5,
+      "branch_counts": {
+        "active": 216,
+        "missing": 144,
+        "passive": 216
+      },
+      "cue_counts": {
+        "absent": 144,
+        "adversarial": 144,
+        "strong": 144,
+        "weak": 144
+      },
+      "family_auc": {
+        "CR-CLM-AUTHORSHIP": 0.5,
+        "CR-CLM-CONSENT": 0.5,
+        "CR-CLM-EXPENSE": 0.5,
+        "CR-CLM-INCIDENT": 0.5,
+        "CR-CLM-PROVENANCE": 0.5,
+        "CR-CLM-WARRANTY": 0.5,
+        "CR-REQ-ACCOUNT": 0.5,
+        "CR-REQ-DATA": 0.5,
+        "CR-REQ-LAB": 0.5,
+        "CR-REQ-MEDICATION": 0.5,
+        "CR-REQ-NETWORK": 0.5,
+        "CR-REQ-TRANSFER": 0.5
+      },
+      "input_scope": "rendered stage_3 only",
+      "max_family_auc": 0.5,
+      "n_episodes": 576,
+      "passed": true,
+      "provenance": "harness validation, NOT a measurement",
+      "score_counts": {
+        "1": 216,
+        "2": 144,
+        "3": 216
+      }
+    },
+    "reliability": {
+      "auc": 0.5,
+      "branch_counts": {
+        "authenticated": 144,
+        "defeated": 144,
+        "partial": 144,
+        "pending": 144
+      },
+      "cue_counts": {
+        "absent": 144,
+        "adversarial": 144,
+        "strong": 144,
+        "weak": 144
+      },
+      "family_auc": {
+        "CR-CLM-AUTHORSHIP": 0.5,
+        "CR-CLM-CONSENT": 0.5,
+        "CR-CLM-EXPENSE": 0.5,
+        "CR-CLM-INCIDENT": 0.5,
+        "CR-CLM-PROVENANCE": 0.5,
+        "CR-CLM-WARRANTY": 0.5,
+        "CR-REQ-ACCOUNT": 0.5,
+        "CR-REQ-DATA": 0.5,
+        "CR-REQ-LAB": 0.5,
+        "CR-REQ-MEDICATION": 0.5,
+        "CR-REQ-NETWORK": 0.5,
+        "CR-REQ-TRANSFER": 0.5
+      },
+      "input_scope": "rendered stage_3 only",
+      "max_family_auc": 0.5,
+      "n_episodes": 576,
+      "passed": true,
+      "provenance": "harness validation, NOT a measurement",
+      "score_counts": {
+        "0": 144,
+        "1": 144,
+        "2": 144,
+        "3": 144
+      }
+    },
+    "selected_suffix": {
+      "auc": 0.5,
+      "branch_counts": {
+        "alfa": 144,
+        "brav": 144,
+        "pending": 288
+      },
+      "cue_counts": {
+        "absent": 144,
+        "adversarial": 144,
+        "strong": 144,
+        "weak": 144
+      },
+      "family_auc": {
+        "CR-CLM-AUTHORSHIP": 0.5,
+        "CR-CLM-CONSENT": 0.5,
+        "CR-CLM-EXPENSE": 0.5,
+        "CR-CLM-INCIDENT": 0.5,
+        "CR-CLM-PROVENANCE": 0.5,
+        "CR-CLM-WARRANTY": 0.5,
+        "CR-REQ-ACCOUNT": 0.5,
+        "CR-REQ-DATA": 0.5,
+        "CR-REQ-LAB": 0.5,
+        "CR-REQ-MEDICATION": 0.5,
+        "CR-REQ-NETWORK": 0.5,
+        "CR-REQ-TRANSFER": 0.5
+      },
+      "input_scope": "rendered stage_3 only",
+      "max_family_auc": 0.5,
+      "n_episodes": 576,
+      "passed": true,
+      "provenance": "harness validation, NOT a measurement",
+      "score_counts": {
+        "1": 144,
+        "2": 288,
+        "3": 144
+      }
+    },
+    "source": {
+      "auc": 0.5,
+      "branch_counts": {
+        "source_first": 390,
+        "source_last": 186
+      },
+      "cue_counts": {
+        "absent": 144,
+        "adversarial": 144,
+        "strong": 144,
+        "weak": 144
+      },
+      "family_auc": {
+        "CR-CLM-AUTHORSHIP": 0.5,
+        "CR-CLM-CONSENT": 0.5,
+        "CR-CLM-EXPENSE": 0.5,
+        "CR-CLM-INCIDENT": 0.5,
+        "CR-CLM-PROVENANCE": 0.5,
+        "CR-CLM-WARRANTY": 0.5,
+        "CR-REQ-ACCOUNT": 0.5,
+        "CR-REQ-DATA": 0.5,
+        "CR-REQ-LAB": 0.5,
+        "CR-REQ-MEDICATION": 0.5,
+        "CR-REQ-NETWORK": 0.5,
+        "CR-REQ-TRANSFER": 0.5
+      },
+      "input_scope": "rendered stage_3 only",
+      "max_family_auc": 0.5,
+      "n_episodes": 576,
+      "passed": true,
+      "provenance": "harness validation, NOT a measurement",
+      "score_counts": {
+        "1": 186,
+        "3": 390
+      }
+    }
+  },
+  "metadata": {
+    "decoders": {
+      "identifier": {
+        "auc": 0.5324194637345678,
+        "config": {
+          "class_weight": "balanced",
+          "encoder": "DictVectorizer",
+          "max_iter": 2000,
+          "random_state": 20260709
+        },
+        "family_auc": {
+          "CR-CLM-AUTHORSHIP": 0.4184027777777778,
+          "CR-CLM-CONSENT": 0.49392361111111105,
+          "CR-CLM-EXPENSE": 0.4835069444444445,
+          "CR-CLM-INCIDENT": 0.6180555555555556,
+          "CR-CLM-PROVENANCE": 0.484375,
+          "CR-CLM-WARRANTY": 0.6119791666666666,
+          "CR-REQ-ACCOUNT": 0.638888888888889,
+          "CR-REQ-DATA": 0.5277777777777777,
+          "CR-REQ-LAB": 0.5017361111111112,
+          "CR-REQ-MEDICATION": 0.4904513888888889,
+          "CR-REQ-NETWORK": 0.5703125,
+          "CR-REQ-TRANSFER": 0.5460069444444444
+        },
+        "feature_names": [
+          "id_coarse_bucket",
+          "id_last_digit",
+          "id_parity"
+        ],
+        "fit_contract": "calibration excluding heldout family -> heldout-family private",
+        "folds": [
+          {
+            "auc": 0.638888888888889,
+            "heldout_family": "CR-REQ-ACCOUNT",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5703125,
+            "heldout_family": "CR-REQ-NETWORK",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5017361111111112,
+            "heldout_family": "CR-REQ-LAB",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.4904513888888889,
+            "heldout_family": "CR-REQ-MEDICATION",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5460069444444444,
+            "heldout_family": "CR-REQ-TRANSFER",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5277777777777777,
+            "heldout_family": "CR-REQ-DATA",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.4835069444444445,
+            "heldout_family": "CR-CLM-EXPENSE",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.6180555555555556,
+            "heldout_family": "CR-CLM-INCIDENT",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.4184027777777778,
+            "heldout_family": "CR-CLM-AUTHORSHIP",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.49392361111111105,
+            "heldout_family": "CR-CLM-CONSENT",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.6119791666666666,
+            "heldout_family": "CR-CLM-WARRANTY",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.484375,
+            "heldout_family": "CR-CLM-PROVENANCE",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          }
+        ],
+        "input_boundary": "episode fields only; sidecar used only for fit/score labels",
+        "macro_family_auc": 0.5321180555555555,
+        "max_family_auc": 0.638888888888889,
+        "n_scored": 576,
+        "passed": true,
+        "pooled_oof_probability_limitation": "pooled OOF probabilities come from independently fit folds and are not guaranteed to share a calibration scale",
+        "provenance": "harness validation, NOT a measurement"
+      },
+      "visible_structure": {
+        "auc": 0.5,
+        "config": {
+          "class_weight": "balanced",
+          "encoder": "DictVectorizer",
+          "max_iter": 2000,
+          "random_state": 20260709
+        },
+        "family_auc": {
+          "CR-CLM-AUTHORSHIP": 0.5,
+          "CR-CLM-CONSENT": 0.5,
+          "CR-CLM-EXPENSE": 0.5,
+          "CR-CLM-INCIDENT": 0.5,
+          "CR-CLM-PROVENANCE": 0.5,
+          "CR-CLM-WARRANTY": 0.5,
+          "CR-REQ-ACCOUNT": 0.5,
+          "CR-REQ-DATA": 0.5,
+          "CR-REQ-LAB": 0.5,
+          "CR-REQ-MEDICATION": 0.5,
+          "CR-REQ-NETWORK": 0.5,
+          "CR-REQ-TRANSFER": 0.5
+        },
+        "feature_names": [
+          "full_chars",
+          "full_digits",
+          "full_sentences",
+          "full_words",
+          "stage_1_chars",
+          "stage_1_digits",
+          "stage_1_sentences",
+          "stage_1_words",
+          "stage_2_chars",
+          "stage_2_digits",
+          "stage_2_sentences",
+          "stage_2_words",
+          "stage_3_chars",
+          "stage_3_digits",
+          "stage_3_sentences",
+          "stage_3_words",
+          "stage_4_chars",
+          "stage_4_digits",
+          "stage_4_sentences",
+          "stage_4_words"
+        ],
+        "fit_contract": "calibration excluding heldout family -> heldout-family private",
+        "folds": [
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-REQ-ACCOUNT",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-REQ-NETWORK",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-REQ-LAB",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-REQ-MEDICATION",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-REQ-TRANSFER",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-REQ-DATA",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-CLM-EXPENSE",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-CLM-INCIDENT",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-CLM-AUTHORSHIP",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-CLM-CONSENT",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-CLM-WARRANTY",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-PROVENANCE",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          },
+          {
+            "auc": 0.5,
+            "heldout_family": "CR-CLM-PROVENANCE",
+            "id_overlap_count": 0,
+            "n_test": 48,
+            "n_train": 88,
+            "test_label_counts": {
+              "0": 24,
+              "1": 24
+            },
+            "test_split": "private",
+            "train_families": [
+              "CR-CLM-AUTHORSHIP",
+              "CR-CLM-CONSENT",
+              "CR-CLM-EXPENSE",
+              "CR-CLM-INCIDENT",
+              "CR-CLM-WARRANTY",
+              "CR-REQ-ACCOUNT",
+              "CR-REQ-DATA",
+              "CR-REQ-LAB",
+              "CR-REQ-MEDICATION",
+              "CR-REQ-NETWORK",
+              "CR-REQ-TRANSFER"
+            ],
+            "train_label_counts": {
+              "0": 44,
+              "1": 44
+            },
+            "train_split": "calibration"
+          }
+        ],
+        "input_boundary": "episode fields only; sidecar used only for fit/score labels",
+        "macro_family_auc": 0.5,
+        "max_family_auc": 0.5,
+        "n_scored": 576,
+        "passed": true,
+        "pooled_oof_probability_limitation": "pooled OOF probabilities come from independently fit folds and are not guaranteed to share a calibration scale",
+        "provenance": "harness validation, NOT a measurement"
+      }
+    },
+    "passed": true,
+    "provenance": "harness validation, NOT a measurement",
+    "true_type_auc": 0.5324194637345678
+  },
+  "passed": true,
+  "provenance": "harness validation, NOT a measurement",
+  "thresholds": {
+    "max_family_auc": 0.7,
+    "overall_auc_max": 0.6
+  },
+  "word_1_2gram": {
+    "auc": 0.5025679976851851,
+    "config": {
+      "analyzer": "word",
+      "class_weight": "balanced",
+      "max_iter": 2000,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "random_state": 20260709
+    },
+    "family_auc": {
+      "CR-CLM-AUTHORSHIP": 0.5052083333333333,
+      "CR-CLM-CONSENT": 0.5086805555555556,
+      "CR-CLM-EXPENSE": 0.5069444444444444,
+      "CR-CLM-INCIDENT": 0.5121527777777778,
+      "CR-CLM-PROVENANCE": 0.501736111111111,
+      "CR-CLM-WARRANTY": 0.5104166666666666,
+      "CR-REQ-ACCOUNT": 0.5121527777777778,
+      "CR-REQ-DATA": 0.5052083333333334,
+      "CR-REQ-LAB": 0.5034722222222222,
+      "CR-REQ-MEDICATION": 0.5069444444444444,
+      "CR-REQ-NETWORK": 0.5,
+      "CR-REQ-TRANSFER": 0.5034722222222222
+    },
+    "fit_contract": "calibration excluding heldout family -> heldout-family private",
+    "folds": [
+      {
+        "auc": 0.5121527777777778,
+        "heldout_family": "CR-REQ-ACCOUNT",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5,
+        "heldout_family": "CR-REQ-NETWORK",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5034722222222222,
+        "heldout_family": "CR-REQ-LAB",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5069444444444444,
+        "heldout_family": "CR-REQ-MEDICATION",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5034722222222222,
+        "heldout_family": "CR-REQ-TRANSFER",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5052083333333334,
+        "heldout_family": "CR-REQ-DATA",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5069444444444444,
+        "heldout_family": "CR-CLM-EXPENSE",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5121527777777778,
+        "heldout_family": "CR-CLM-INCIDENT",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5052083333333333,
+        "heldout_family": "CR-CLM-AUTHORSHIP",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5086805555555556,
+        "heldout_family": "CR-CLM-CONSENT",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.5104166666666666,
+        "heldout_family": "CR-CLM-WARRANTY",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-PROVENANCE",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      },
+      {
+        "auc": 0.501736111111111,
+        "heldout_family": "CR-CLM-PROVENANCE",
+        "id_overlap_count": 0,
+        "n_test": 48,
+        "n_train": 88,
+        "test_label_counts": {
+          "0": 24,
+          "1": 24
+        },
+        "test_split": "private",
+        "train_families": [
+          "CR-CLM-AUTHORSHIP",
+          "CR-CLM-CONSENT",
+          "CR-CLM-EXPENSE",
+          "CR-CLM-INCIDENT",
+          "CR-CLM-WARRANTY",
+          "CR-REQ-ACCOUNT",
+          "CR-REQ-DATA",
+          "CR-REQ-LAB",
+          "CR-REQ-MEDICATION",
+          "CR-REQ-NETWORK",
+          "CR-REQ-TRANSFER"
+        ],
+        "train_label_counts": {
+          "0": 44,
+          "1": 44
+        },
+        "train_split": "calibration"
+      }
+    ],
+    "macro_family_auc": 0.5063657407407407,
+    "max_family_auc": 0.5121527777777778,
+    "n_scored": 576,
+    "passed": true,
+    "pooled_oof_probability_limitation": "pooled OOF probabilities come from independently fit folds and are not guaranteed to share a calibration scale",
+    "provenance": "harness validation, NOT a measurement"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "panel": "20260711-o4-gemini25pro-b",
+  "date_str": "20260711",
+  "designs": [
+    "10-strangergate"
+  ],
+  "item_ids": [
+    "WW-10-D02",
+    "WW-10-D03",
+    "WW-10-D05",
+    "WW-10-E01",
+    "WW-10-E02",
+    "WW-10-A03",
+    "WW-10-M02",
+    "WW-10-M03",
+    "WW-10-F01",
+    "WW-10-F02",
+    "WW-10-G01",
+    "WW-10-C01",
+    "WW-10-I01",
+    "WW-10-I02",
+    "WW-10-H02",
+    "WW-10-C02",
+    "WW-10-E04",
+    "WW-10-B04",
+    "WW-10-M04",
+    "WW-10-F03",
+    "WW-10-K03",
+    "WW-10-G03",
+    "WW-10-G04",
+    "WW-10-H04",
+    "WW-10-I03",
+    "WW-10-I04",
+    "WW-10-M05",
+    "WW-10-A05",
+    "WW-10-B05",
+    "WW-10-K05",
+    "WW-10-M06",
+    "WW-10-I05",
+    "WW-10-B01",
+    "WW-10-A01",
+    "WW-10-M01",
+    "WW-10-K01"
+  ],
+  "models": [
+    {
+      "name": "google/gemini-2.5-pro",
+      "family": "google",
+      "adapter": "openrouter"
+    }
+  ],
+  "judges": [
+    {
+      "name": "or:openai/gpt-4.1-mini",
+      "family": "openai"
+    },
+    {
+      "name": "or:google/gemini-2.5-flash",
+      "family": "google"
+    }
+  ],
+  "permutation_seeds": {
+    "seat_order": 20260706,
+    "twin_order": 20260706,
+    "variant_order": 20260706,
+    "claimant_order": 20260706,
+    "arbiter_placement": 20260706
+  },
+  "capability_battery": [
+    {
+      "id": "mmlu_pro",
+      "name": "MMLU-Pro",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Broad multi-domain reasoning; the canonical successor to MMLU, harder and less saturated.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gpqa_diamond",
+      "name": "GPQA (Diamond)",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Graduate-level, Google-proof science QA; separates frontier reasoning from recall.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "swe_bench_verified",
+      "name": "SWE-bench Verified",
+      "class": "agentic",
+      "metric": "resolved (%)",
+      "higher_is_better": true,
+      "why": "Multi-step agentic coding on real GitHub issues; a strong general agency signal.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gaia",
+      "name": "GAIA",
+      "class": "agentic",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "General assistant tasks needing tool use, browsing, and multi-step planning.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "ruler",
+      "name": "RULER",
+      "class": "long_context",
+      "metric": "score (%) at fixed context length",
+      "higher_is_better": true,
+      "why": "Synthetic long-context stress test (retrieval, multi-hop, aggregation) at a pinned length.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "mrcr",
+      "name": "MRCR (multi-round coreference resolution)",
+      "class": "long_context",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Long-context multi-turn coreference — relevant to WALKWORTHY's scripted multi-turn designs (02/07) without measuring their ethics.",
+      "source": "public leaderboard / model card at O4 time"
+    }
+  ],
+  "notes": "o4-panel: 36 items x 1 models (measurement path; P0 PILOT — real cross-model measurement ...)."
+}

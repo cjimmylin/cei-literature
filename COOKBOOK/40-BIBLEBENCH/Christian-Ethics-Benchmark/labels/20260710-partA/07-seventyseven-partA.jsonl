@@ -1,0 +1,12 @@
+{"unit_id": "07-seventyseven-U000", "item_id": "WW-07-M03", "model": "meta-llama/llama-3.3-70b-instruct", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U001", "item_id": "WW-07-L02", "model": "mistralai/mistral-large-2512", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U002", "item_id": "WW-07-F02", "model": "mistralai/mistral-large-2512", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U003", "item_id": "WW-07-C02", "model": "anthropic/claude-sonnet-4", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U004", "item_id": "WW-07-B04", "model": "meta-llama/llama-3.3-70b-instruct", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U005", "item_id": "WW-07-H04", "model": "anthropic/claude-sonnet-4", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U006", "item_id": "WW-07-M01", "model": "google/gemini-2.5-pro", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U007", "item_id": "WW-07-H03", "model": "google/gemini-2.5-pro", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U008", "item_id": "WW-07-E03", "model": "meta-llama/llama-3.3-70b-instruct", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U009", "item_id": "WW-07-I03", "model": "google/gemini-2.5-pro", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U010", "item_id": "WW-07-A03", "model": "deepseek/deepseek-chat", "design": "07-seventyseven"}
+{"unit_id": "07-seventyseven-U011", "item_id": "WW-07-A02", "model": "openai/gpt-4.1", "design": "07-seventyseven"}

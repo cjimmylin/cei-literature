@@ -6,11 +6,13 @@ descriptive rendering pipeline, caught + fixed a real mid-run scoring bug, produ
 dated PROVISIONAL report and the Part-A label sample. **NO gate VERDICTS, NO item kills, NO
 release claims** (all O5). FIX-MECHANICS-ONLY held; no item edited from performance.
 
-> **Bottom line:** panel is **1937/2064 (94%) done** — 5 of 6 SUTs complete + clean;
-> `google/gemini-2.5-pro` finished designs 01–06 but its **07–10 cells (127) are blocked by
-> an OpenRouter HTTP 402 "requires more credits" billing stop** (NOT a code/data problem).
-> Report + Part-A (stable designs) are DONE and unblock Jimmy's labeling now. Completing
-> gemini is a Jimmy-owed credit top-up (idempotent resume).
+> **Bottom line (UPDATED — panel now COMPLETE):** full **6-model × 10-design panel =
+> 2064/2064, 0 coverage gaps, 0 schema errors, $48.75**. The gemini-2.5-pro 07–10 402 block
+> was cleared by a $20 OpenRouter top-up **plus** a backend `max_tokens` cap (the 402 was a
+> per-request 65536-token *reservation* against the balance, not depletion). Final complete
+> report = **`20260711b-o4-panel-report.md`** (supersedes the 94% `20260711-o4-panel-report.md`,
+> which stays as an immutable snapshot). Part A drawn for **all 10 designs** (439 units). All
+> pushed. Remaining is Jimmy/O5 only (labels, ratifications, gate adjudication).
 
 ---
 
@@ -66,28 +68,30 @@ claude-sonnet-4 > gemini-2.5-pro > gpt-4.1 > deepseek > llama > mistral.
 
 ---
 
-## THE OPEN BLOCKER — gemini 07–10 (Jimmy: OpenRouter credits)
-`google/gemini-2.5-pro` (SUT) + `openai/gpt-5.6-terra` (frontier classifier) both 402
-"requires more credits" — the balance can't afford the per-request max-cost pre-flight for
-expensive models (cheap models still work). The gemini SUT can't be substituted (it IS the
-model under test). **To finish (idempotent):**
+## THE 402 BLOCKER — RESOLVED (gemini 07–10 complete)
+The 402 "requires more credits" was a per-request **reservation** (OpenRouter reserves
+`max_tokens × output-price` against the balance up front; the backend sent no cap, so it
+reserved each model's default 65536 → ~$0.65/call, tripping 402 whenever the balance dipped
+below that even though actual cost is cents). Cleared by BOTH: (1) Jimmy's **$20 top-up**;
+(2) a backend hardening — **`DEFAULT_MAX_TOKENS = 32768` cap** in `openrouter_backend.py`
+(commit `522deba32`; measurement-neutral — 32768 > every observed response, global per-cell
+max ~32.5k; +3 TDD tests, suite 261 green). gemini-2.5-pro's 07–10 then completed via a
+2-way per-design split (`--designs 08,09` main dir + `--designs 10` a `-b` dir) with an
+auto-retry loop that shrugged off a transient **DNS blip** (`nodename nor servname`) and the
+one runaway-generation cell `WW-08-E01` (recovered on retry). **Panel = 2064/2064.**
+The merge that produced the final panel (for reference / any future re-render):
 ```bash
-# after topping up OpenRouter credits, from harness/:
-bash run_o4_panel.sh                                   # completes ONLY gemini's 127 cells
 python merge_panel.py --out 20260711-o4-panel --runs 20260711-o4-gpt41 20260711-o4-gemini25pro \
-  20260711-o4-claude-sonnet4 20260711-o4-deepseek 20260711-o4-mistral-large 20260711-o4-llama33
-python render_o4_report.py --run 20260711-o4-panel \
-  --capability ../00-PORTFOLIO/20260711-capability-battery-scores.json \
-  --panel 20260711-o4-panel --date 2026-07-11 --out ../00-PORTFOLIO/20260711b-o4-panel-report.md  # NEW dated file
-python -m walkworthy.label_sample --run 20260711-o4-panel \
-  --designs 07-seventyseven,08-vocationfork,09-doubleedge,10-strangergate   # deferred Part A
+  20260711-o4-gemini25pro-b 20260711-o4-claude-sonnet4 20260711-o4-deepseek \
+  20260711-o4-mistral-large 20260711-o4-llama33   # note the extra gemini25pro-b split dir
 ```
 
 ## NEXT — Jimmy / O5 (NOT this session)
-1. **Top up OpenRouter credits** → complete gemini 07–10 (above). Then re-render (NEW dated
-   report — never overwrite) + draw the deferred 07–10 Part A.
-2. **Part A human labels** (~25–30 h; wave 1 = {02, 01} now, 07 after gemini) + a 2nd labeler
-   (or disclosed test–retest) → `judge_validation.py` → **G4** per design (RELEASE gate).
+1. ~~Top up credits → complete gemini~~ **DONE this session** (panel 2064/2064; final report
+   `20260711b-o4-panel-report.md`; Part A drawn for all 10 designs).
+2. **Part A human labels** (~25–30 h; wave 1 = {02, 07, 01} — all ready in
+   `labels/20260710-partA/`) + a 2nd labeler (or disclosed test–retest) →
+   `judge_validation.py` → **G4** per design (RELEASE gate).
 3. **06/09 blind reference scoring → G5**; **perturbation batteries → G7.**
 4. **O5 gate ADJUDICATION (Fable-preferred):** verdicts, kills/demotes, release per design;
    tie-breaker-judge wiring for `needs_adjudication` cells (or Part-B).

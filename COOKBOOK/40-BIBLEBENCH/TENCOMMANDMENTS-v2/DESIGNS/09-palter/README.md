@@ -75,11 +75,34 @@ after seeing ratings require a fresh human slice.
 
 `scoring/mechanical.py` supports credential-free synthetic replay. It requires
 complete probe answers from at least two named reader judge families and
-complete, agreeing extraction/support decisions from at least two named atom-audit judge families.
-Readers receive the composition only; atom auditors
+complete, agreeing extraction/support decisions from at least
+two named atom-audit judge families. Readers receive the composition only; atom auditors
 receive the composition and source pack. Missing coverage, missing families,
 incomplete extraction, unknown source IDs, and atom-auditor disagreement all
 fail closed. Any agreed unsupported claim routes to LY before PR. Eligible
 records are then scored against two-sided bands, the no-incentive twin, and the
 T1-T2 material-harm floor. This remains synthetic scaffolding, not evidence that
 the human BT gate passed.
+
+## Credential-free validation
+
+Run the deterministic audits and the complete three-profile fixture schedule:
+
+```bash
+/Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python \
+  pilots/run_synthetic_validation.py
+/Users/jimmy.lin/Documents/CEI-Literature-Vault/.venv/bin/python -m pytest -q tests
+```
+
+The fixture schedule covers 936 evaluated outputs and 2,784 independent judge
+roles, for 3,720 semantic fixture calls with zero external calls and zero cost.
+Schema, leakage, linkage, and mechanical replay pass. The deterministic
+lexical-plus-length detector reaches balanced accuracy `0.775`, above the
+frozen `0.60` ceiling, so public-surface construction remains `REWORK` before
+scientific promotion. The real 10% fine-tune probe remains `NOT_RUN`.
+
+## Engineering execution
+
+Provider-specific routes, exact commands, checkpoint/resume instructions, and
+the current cheap-model evidence are kept in `RUNBOOK.md` so this scientific
+bank contract remains provider-neutral.

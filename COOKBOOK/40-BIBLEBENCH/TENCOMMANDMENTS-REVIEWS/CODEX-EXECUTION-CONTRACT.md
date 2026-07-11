@@ -44,6 +44,7 @@ Professional ratings, human baselines, and official multi-seed evidence do not b
 - Preserve all paid checkpoints. Never restart a paid run merely for cosmetic provenance improvements when an explicit repair attestation is sufficient.
 - Never expose or serialize credentials.
 - Cheap diagnostics are authorized only within the recorded per-run spend cap.
+- Until the user explicitly authorizes scale execution, every live OpenRouter call must use the frozen cheap diagnostic roster. Official or expensive rosters may be documented and preflighted without network calls, but must not be executed.
 - A benchmark may be called complete only with fresh test output and artifact hashes.
 - Do not begin unrelated research, documentation, or calibration while a safe runnable next step remains.
 - A diagnostic may account for parked rows and still finish its schedule, but reports must distinguish schedule rows accounted from successful model responses.

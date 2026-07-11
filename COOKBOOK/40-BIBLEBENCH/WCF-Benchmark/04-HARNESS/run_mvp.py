@@ -119,6 +119,12 @@ def main(argv=None) -> int:
                          "serialized on that client; distinct SUTs run in parallel. "
                          "Checkpoint/budget/resume semantics are unchanged.")
     ap.add_argument("--bank-dir", default=BANK_DIR, help="bank YAML dir (default 05-BANK-YAML).")
+    ap.add_argument("--regen-report", action="store_true",
+                    help="OFFLINE: rebuild the report + disagreement.json for --run-dir from its "
+                         "existing checkpoint.jsonl + transcripts.jsonl, covering ALL scored "
+                         "cells (resume-safe). Opens NO network. Reuses transcripts in place.")
+    ap.add_argument("--report-name", default=None,
+                    help="report filename to write (default <YYYYMMDD>-mvp-run-report.md).")
     args = ap.parse_args(argv)
 
     suts = [s.strip() for s in args.suts.split(",") if s.strip()]
@@ -129,6 +135,29 @@ def main(argv=None) -> int:
     plan = mvp.select_bank(args.bank_dir)
     if args.limit is not None:
         plan.runnable = plan.runnable[: args.limit]
+
+    report_name = args.report_name or f"{datetime.date.today():%Y%m%d}-mvp-run-report.md"
+
+    # ---- OFFLINE REGEN (no network): rebuild report + disagreement over the FULL checkpoint ----
+    if args.regen_report:
+        if not os.path.exists(os.path.join(run_dir, "checkpoint.jsonl")):
+            print(f"ERROR: no checkpoint.jsonl in {run_dir} — nothing to regenerate.",
+                  file=sys.stderr)
+            return 2
+        ts = _now()
+        # PURE-OFFLINE: no catalog fetch. Cost is recomputed from the checkpoint usage blocks
+        # using an empty catalog → the per-token prices default to 0 for any model not carried
+        # in the checkpoint's own usage (the estimate stays a documented lower bound).
+        paths = mvp.regen_report(
+            run_dir, plan, suts, manifest,
+            timestamp=ts, budget_usd=args.budget, report_name=report_name, catalog={})
+        print("=" * 76)
+        print(f"REGENERATED (offline) report + disagreement for {run_dir}")
+        for k, v in paths.items():
+            print(f"  {k:12s} {v}")
+        print("Covers ALL scored cells from checkpoint.jsonl (resume-safe). No network opened.")
+        print("=" * 76)
+        return 0
 
     # ---- DRY-RUN (default; no network) ----
     if not args.go:
@@ -172,9 +201,9 @@ def main(argv=None) -> int:
         concurrency=args.concurrency, logger=print, now=_now,
     )
 
-    report_name = f"{datetime.date.today():%Y%m%d}-mvp-run-report.md"
     paths = mvp.write_outputs(outcome, plan, suts, manifest, panel,
-                              timestamp=ts, budget_usd=args.budget, report_name=report_name)
+                              timestamp=ts, budget_usd=args.budget, report_name=report_name,
+                              catalog=catalog)
 
     print("\n" + "=" * 76)
     print(f"MVP run {'ABORTED (budget)' if outcome.budget_hit else 'COMPLETE'} — "

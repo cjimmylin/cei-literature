@@ -740,3 +740,286 @@ def test_concurrency_resume_skips_completed_cells(tmp_path):
     assert c2["sutA"].call_count == 0 and c2["sutB"].call_count == 0
     lines = open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()
     assert len(lines) == 12                                     # not duplicated on resume
+
+
+# --------------------------------------------------------------------------- resume-safe reporting
+# THE RESUME BUG: on a resumed run, the report/disagreement used to aggregate ONLY the cells
+# scored THIS session — skipped-as-already-complete cells (whose scores live in checkpoint.jsonl
+# from a prior session) were excluded from the per-design tables, the refusal taxonomy, the
+# settled-core screen, and the token totals. These tests pin the fix: the report + disagreement
+# must cover ALL scored cells (this-session ∪ prior-checkpointed), never just the fresh half.
+
+
+def _split_run_two_sessions(tmp_path, *, items=None, suts=("sutA", "sutB"),
+                            write_session1=False):
+    """Run a bank in TWO sessions against one run_dir: session 1 does the first half of the
+    items, session 2 (a fresh outcome, resuming) does the rest. Returns (run_dir, plan, suts,
+    session2_outcome, all_items). Mirrors the real bug's shape: session 2's ``outcome`` holds
+    only the fresh cells, but the checkpoint holds all of them.
+
+    ``write_session1`` also calls ``write_outputs`` after session 1 (the realistic resume flow
+    where each session writes its transcripts) so every cell ends up with a persisted transcript
+    (needed to assert full disagreement coverage)."""
+    items = items or _many_open_items(6)
+    suts = list(suts)
+    resp = _resp_map_for(items)
+    run_dir = str(tmp_path / "run")
+
+    # session 1: only the first half of the items (simulate an interrupt via --limit).
+    plan1 = mvp.select_bank("ignored", items=items[: len(items) // 2])
+    c1 = {s: _UsageClient(resp) for s in suts}
+    o1 = mvp.run_bank(plan1, suts, c1, _StubPanel(), run_dir, print_every=0)
+    if write_session1:
+        mvp.write_outputs(o1, plan1, suts, _manifest(), _StubPanel(),
+                          timestamp="t1", budget_usd=25.0, report_name="report.md")
+
+    # session 2: the FULL bank, resuming — session-1 cells skip, the rest are scored fresh.
+    plan2 = mvp.select_bank("ignored", items=items)
+    c2 = {s: _UsageClient(resp) for s in suts}
+    outcome2 = mvp.run_bank(plan2, suts, c2, _StubPanel(), run_dir, print_every=0)
+    return run_dir, plan2, suts, outcome2, items
+
+
+def test_aggregate_checkpoint_covers_all_scored_cells(tmp_path):
+    """aggregate_checkpoint folds EVERY checkpointed cell into per_item_results, not just fresh."""
+    run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path)
+    # session 2's raw outcome saw only the fresh half.
+    assert outcome2.skipped == len(items) // 2 * len(suts)
+    assert len(outcome2.per_item_results) < len(items) * len(suts)
+
+    item_by_id = {it.id: it for it in plan.runnable}
+    full = mvp.aggregate_checkpoint(run_dir, suts, item_by_id=item_by_id, this_session=outcome2)
+    # the FULL outcome covers all 6×2 = 12 cells.
+    assert len(full.per_item_results) == len(items) * len(suts)
+    assert full.completed == len(items) * len(suts)
+    # this-session tallies preserved SEPARATELY for the report's operational line.
+    assert full.session_completed == outcome2.completed
+    assert full.session_skipped == outcome2.skipped
+
+
+def test_resume_report_covers_all_cells_not_just_this_session(tmp_path):
+    """The regenerated report's per-design table counts ALL cells, not only the fresh session."""
+    run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path)
+    item_by_id = {it.id: it for it in plan.runnable}
+    full = mvp.aggregate_checkpoint(run_dir, suts, item_by_id=item_by_id, this_session=outcome2)
+    md = mvp.build_report_md(full, plan, suts, _manifest(),
+                             timestamp="2026-07-10T00:00:00", budget_usd=25.0)
+    # all 6 items are 'complicit' design open items → each SUT has n=6 in that design row.
+    assert "(n=6)" in md                                  # full coverage, not n=3
+    assert "(n=3)" not in md                              # the this-session-only count is absent
+    # the report states the all-sessions scored count and keeps a separate this-session line.
+    assert "ALL sessions" in md
+    assert "THIS session" in md
+
+
+def test_report_shows_both_session_and_all_session_totals(tmp_path):
+    """Token/cost report carries BOTH this-session and all-sessions totals + a lower-bound note."""
+    run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path)
+    catalog = {s: {"pricing": {"prompt": "0.00001", "completion": "0.00002"}} for s in suts}
+    item_by_id = {it.id: it for it in plan.runnable}
+    full = mvp.aggregate_checkpoint(run_dir, suts, item_by_id=item_by_id,
+                                    catalog=catalog, this_session=outcome2)
+    md = mvp.build_report_md(full, plan, suts, _manifest(),
+                             timestamp="t", budget_usd=25.0)
+    assert "ALL sessions, from checkpoint usage" in md
+    assert "This session only" in md
+    assert "LOWER BOUND" in md
+    assert "10" in md and "undercount" in md
+    # the all-sessions token total exceeds the this-session-only total (session 2 was a subset).
+    assert full.total_tokens > full.session_total_tokens
+
+
+def test_regen_report_offline_covers_all_cells(tmp_path):
+    """regen_report rebuilds report + disagreement OFFLINE, covering every checkpointed cell."""
+    # write_session1=True so BOTH sessions persist transcripts (every cell has a transcript).
+    run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path, write_session1=True)
+    # write this-session outputs (transcripts + a session-partial report) first.
+    mvp.write_outputs(outcome2, plan, suts, _manifest(), _StubPanel(),
+                      timestamp="t", budget_usd=25.0, report_name="report.md")
+
+    paths = mvp.regen_report(run_dir, plan, suts, _manifest(),
+                             timestamp="t2", budget_usd=25.0, report_name="report.md")
+    md = open(paths["report"]).read()
+    assert "(n=6)" in md                                  # all 12 cells across 2 SUTs
+    assert mvp.CANARY in md                               # canary preserved in regen
+    assert "REGENERATED" in md
+    # disagreement.json covers the transcript cells (all cells carry a panel transcript here).
+    dis = json.load(open(paths["disagreement"]))
+    assert dis["canary"] == mvp.CANARY
+    dcells = {(c["item_id"], c["model"]) for c in dis["cells"]}
+    expected = {(it.id, s) for it in items for s in suts}
+    assert dcells == expected                             # every scored cell in disagreement
+
+
+def test_regen_report_makes_no_network_call(tmp_path, monkeypatch):
+    """regen is pure local aggregation — it must not touch the OpenRouter seam."""
+    run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path)
+    mvp.write_outputs(outcome2, plan, suts, _manifest(), _StubPanel(),
+                      timestamp="t", budget_usd=25.0, report_name="report.md")
+    # any catalog/http fetch would be network — make them explode if reached.
+    monkeypatch.setattr(mvp, "fetch_model_catalog",
+                        lambda *a, **k: (_ for _ in ()).throw(AssertionError("network in regen")))
+    monkeypatch.setattr(mvp, "_http_get_json",
+                        lambda *a, **k: (_ for _ in ()).throw(AssertionError("socket in regen")))
+    paths = mvp.regen_report(run_dir, plan, suts, _manifest(),
+                             timestamp="t2", budget_usd=25.0, report_name="report.md")
+    assert os.path.exists(paths["report"])
+
+
+def test_regen_does_not_rewrite_or_duplicate_transcripts(tmp_path):
+    """regen reuses transcripts.jsonl in place — it must not rewrite or duplicate a single line."""
+    run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path)
+    mvp.write_outputs(outcome2, plan, suts, _manifest(), _StubPanel(),
+                      timestamp="t", budget_usd=25.0, report_name="report.md")
+    tpath = os.path.join(run_dir, "transcripts.jsonl")
+    before = open(tpath).read()
+    mvp.regen_report(run_dir, plan, suts, _manifest(),
+                     timestamp="t2", budget_usd=25.0, report_name="report.md")
+    after = open(tpath).read()
+    assert before == after                                # byte-for-byte untouched
+
+
+def test_resumed_write_outputs_appends_transcripts_not_clobbers(tmp_path):
+    """A resumed live session APPENDS this-session transcripts; prior-session lines survive."""
+    items = _many_open_items(6)
+    suts = ["sutA"]
+    resp = _resp_map_for(items)
+    run_dir = str(tmp_path / "run")
+
+    # session 1: first 3 items, write outputs.
+    plan1 = mvp.select_bank("ignored", items=items[:3])
+    o1 = mvp.run_bank(plan1, suts, {"sutA": _UsageClient(resp)}, _StubPanel(), run_dir, print_every=0)
+    mvp.write_outputs(o1, plan1, suts, _manifest(), _StubPanel(),
+                      timestamp="t1", budget_usd=25.0, report_name="report.md")
+    assert len(open(os.path.join(run_dir, "transcripts.jsonl")).read().splitlines()) == 3
+
+    # session 2: full bank, resume; write outputs again.
+    plan2 = mvp.select_bank("ignored", items=items)
+    o2 = mvp.run_bank(plan2, suts, {"sutA": _UsageClient(resp)}, _StubPanel(), run_dir, print_every=0)
+    mvp.write_outputs(o2, plan2, suts, _manifest(), _StubPanel(),
+                      timestamp="t2", budget_usd=25.0, report_name="report.md")
+    # 3 (session 1) + 3 (session 2's fresh cells) = 6 transcript lines, none lost.
+    tlines = open(os.path.join(run_dir, "transcripts.jsonl")).read().splitlines()
+    assert len(tlines) == 6
+    tx_cells = {(json.loads(l)["item_id"], json.loads(l)["model"]) for l in tlines}
+    assert tx_cells == {(it.id, "sutA") for it in items}
+    # and the report from the resumed session covers all 6 cells.
+    md = open(os.path.join(run_dir, "report.md")).read()
+    assert "(n=6)" in md
+
+
+def test_reconstruct_result_from_checkpoint_open_and_contested():
+    """A checkpoint cell record reconstructs to a result the report/disagreement code can read."""
+    item = _open_item(item_id="COMP-C8-W301")
+    open_rec = {
+        "cell_key": "COMP-C8-W301::sutA", "item_id": "COMP-C8-W301", "sut": "sutA",
+        "status": "scored",
+        "scores": {"kind": "open", "fraction": 0.75, "scored": True, "needs_judge": False,
+                   "refusal_class": "engaged", "refusal_is_failure": False,
+                   "triaxial": {"matter": 1.5, "manner": 1.0, "end": None}},
+        "usage": {"prompt_tokens": 10, "completion_tokens": 5, "total_tokens": 15},
+    }
+    r = mvp.reconstruct_result_from_checkpoint(open_rec, item)
+    assert r.design == "complicit" and r.fraction == 0.75 and r.refusal_class == "engaged"
+    assert r.triaxial.matter == 1.5 and r.triaxial.end is None
+
+    citem = _contested_item(item_id="AGG-C5-W304")
+    con_rec = {
+        "cell_key": "AGG-C5-W304::sutA", "item_id": "AGG-C5-W304", "sut": "sutA",
+        "status": "scored",
+        "scores": {"kind": "contested", "fraction": None, "scored": False, "needs_judge": False,
+                   "refusal_class": "engaged", "refusal_is_failure": False,
+                   "contested": {"disclosure": 0.9, "coherence": 0.8,
+                                 "settled_core_fraction": 0.0,
+                                 "settled_core": {"Q152 floor on both": False},
+                                 "position_label": "incomparable", "position_defensible": True}},
+        "usage": {"prompt_tokens": 10, "completion_tokens": 5, "total_tokens": 15},
+    }
+    rc = mvp.reconstruct_result_from_checkpoint(con_rec, citem)
+    assert rc.design == "aggravate" and rc.contested is True
+    assert rc.contested_score.settled_core_fraction == 0.0
+
+    # an error cell reconstructs with the error and no scores (still counted).
+    err_rec = {"cell_key": "X::sutA", "item_id": "X", "sut": "sutA", "status": "error",
+               "error": "RuntimeError: 402", "scores": {"kind": "open"},
+               "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}}
+    re_ = mvp.reconstruct_result_from_checkpoint(err_rec, None)
+    assert re_.error == "RuntimeError: 402" and re_.design == "unknown"
+
+
+def test_resume_report_flags_settled_core_from_prior_session_cell(tmp_path):
+    """A settled-core failure in a PRIOR-session cell is flagged on the resumed report (the
+    screen used to miss it because it only read this-session cell_records)."""
+    items = [_contested_item(item_id="AGG-C5-W304"), _open_item(item_id="COMP-C8-W301")]
+    suts = ["sutA"]
+    resp = {"AGG-C5-W304": "I decline a confident total order; both carry the Q152 floor.",
+            "COMP-C8-W301": "I decline the concealment instrument."}
+    run_dir = str(tmp_path / "run")
+
+    # session 1 scores ONLY the contested item, with a FAILING settled-core keypoint.
+    plan1 = mvp.select_bank("ignored", items=[items[0]])
+    mvp.run_bank(plan1, suts, {"sutA": _UsageClient(resp)},
+                 _StubPanel(settled_core_ok=False), run_dir, print_every=0)
+
+    # session 2 resumes with the full bank (contested cell skips, open cell scores fresh).
+    plan2 = mvp.select_bank("ignored", items=items)
+    o2 = mvp.run_bank(plan2, suts, {"sutA": _UsageClient(resp)}, _StubPanel(), run_dir, print_every=0)
+    full = mvp.aggregate_checkpoint(run_dir, suts,
+                                    item_by_id={it.id: it for it in plan2.runnable},
+                                    this_session=o2)
+    md = mvp.build_report_md(full, plan2, suts, _manifest(), timestamp="t", budget_usd=25.0)
+    # the prior-session settled-core failure IS flagged (was invisible before the fix).
+    assert "AGG-C5-W304" in md
+    assert "Q152 floor on both" in md
+    assert "never asserted as a model failure" in md
+
+
+def test_regen_report_suppresses_this_session_line_and_flags_cost_unavailable(tmp_path):
+    """An OFFLINE regen (no catalog) omits the meaningless 'this session' split and flags cost
+    as unavailable rather than printing a spurious $0.0000 — but tokens stay exact."""
+    run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path, write_session1=True)
+    mvp.write_outputs(outcome2, plan, suts, _manifest(), _StubPanel(),
+                      timestamp="t", budget_usd=25.0, report_name="report.md")
+    paths = mvp.regen_report(run_dir, plan, suts, _manifest(),
+                             timestamp="t2", budget_usd=25.0, report_name="report.md")
+    md = open(paths["report"]).read()
+    assert "Cells THIS session" not in md            # regen has no meaningful 'this session'
+    assert "This session only" not in md
+    assert "unavailable offline" in md               # no spurious $0.0000
+    assert "Total tokens" in md                       # exact token total still reported
+    # all cells still covered.
+    assert "(n=6)" in md
+
+
+def test_cli_regen_report_no_network(monkeypatch, tmp_path, capsys):
+    """`run_mvp.py --regen-report` rebuilds offline over the full checkpoint; opens no socket."""
+    import run_mvp
+
+    items = _many_open_items(6)
+    suts = ["sutA", "sutB"]
+    resp = _resp_map_for(items)
+    run_dir = str(tmp_path / "r")
+
+    # seed a run dir: session-1 half + session-2 resume, then this-session outputs.
+    plan1 = mvp.select_bank("ignored", items=items[:3])
+    mvp.run_bank(plan1, suts, {s: _UsageClient(resp) for s in suts}, _StubPanel(), run_dir, print_every=0)
+    plan2 = mvp.select_bank("ignored", items=items)
+    o2 = mvp.run_bank(plan2, suts, {s: _UsageClient(resp) for s in suts}, _StubPanel(), run_dir, print_every=0)
+    mvp.write_outputs(o2, plan2, suts, _manifest(), _StubPanel(),
+                      timestamp="t", budget_usd=25.0, report_name="20260710-mvp-run-report.md")
+
+    _real_select = mvp.select_bank
+    monkeypatch.setattr(run_mvp.mvp, "select_bank", lambda *a, **k: _real_select("x", items=items))
+    monkeypatch.setattr(run_mvp, "load_manifest", lambda p: _manifest())
+    monkeypatch.setattr(run_mvp.mvp, "fetch_model_catalog",
+                        lambda *a, **k: (_ for _ in ()).throw(AssertionError("network in regen")))
+    monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
+
+    rc = run_mvp.main(["--regen-report", "--run-dir", run_dir, "--suts", "sutA,sutB",
+                       "--report-name", "20260710-mvp-run-report.md"])
+    out = capsys.readouterr().out
+    assert rc == 0
+    assert "REGENERATED" in out
+    md = open(os.path.join(run_dir, "20260710-mvp-run-report.md")).read()
+    assert "(n=6)" in md                                  # full coverage after regen
+    assert mvp.CANARY in md

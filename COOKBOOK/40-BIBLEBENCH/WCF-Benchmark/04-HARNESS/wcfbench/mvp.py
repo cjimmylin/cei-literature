@@ -339,6 +339,22 @@ class MVPRunOutcome:
     budget_hit: bool = False
     per_item_results: List[Any] = field(default_factory=list)  # for transcripts/disagreement
     cell_records: List[Dict[str, Any]] = field(default_factory=list)
+    #: THIS-SESSION-only tallies, kept alongside the all-sessions totals on the SAME object so a
+    #: resumed run's report can print BOTH (task item 2). Populated by ``aggregate_checkpoint``;
+    #: on a fresh (single-session) run they equal the all-sessions totals. ``None`` = not a
+    #: resume-aggregated outcome (a raw ``run_bank`` outcome carries only session totals in the
+    #: base fields, which for a single session ARE the full totals).
+    session_completed: Optional[int] = None
+    session_errored: Optional[int] = None
+    session_skipped: Optional[int] = None
+    session_est_cost_usd: Optional[float] = None
+    session_total_tokens: Optional[int] = None
+    #: True when this outcome was assembled by the OFFLINE regen path (no live catalog), so the
+    #: report suppresses the meaningless "this session" split and flags cost as pricing-limited.
+    from_regen: bool = False
+    #: True when a real per-token pricing catalog was available (cost is a genuine estimate);
+    #: False → the $ figure is 0 only because no catalog was on hand (report says so).
+    priced: bool = True
 
 
 def _score_one_cell(
@@ -555,6 +571,262 @@ def run_bank(
 
 
 # ---------------------------------------------------------------------------
+# full-checkpoint aggregation (resume-safe reporting)
+# ---------------------------------------------------------------------------
+# THE RESUME BUG THIS FIXES: on a resumed run, ``outcome.per_item_results`` holds only the
+# cells scored THIS session — skipped-as-already-complete cells (whose scores live in
+# ``checkpoint.jsonl`` from the prior session) were absent from the per-design tables, the
+# refusal taxonomy, the settled-core screen, and the token totals. A run that finished
+# 816/816 across two sessions then reported "401 scored, 415 skipped" with a crosswind n=1
+# table. The report + disagreement must aggregate from the FULL checkpoint state (this-session
+# results ∪ previously-checkpointed scored cells), never just the fresh half.
+#
+# The checkpoint carries a COMPACT ``scores`` block per cell (kind/fraction/refusal + the
+# triaxial/contested summary) but NOT the item's routing coordinates (design/commandment/tier/
+# track) nor the per-JUDGE breakdown. We therefore reconstruct a light ``PerItemResult`` for
+# each checkpointed cell, enriching the routing coordinates from the loaded bank (offline, no
+# network) — enough for every ANALYTIC table (per-design × per-SUT, refusal, settled-core,
+# tokens). Per-judge DISAGREEMENT needs the judge-level values, which live only in the
+# persisted transcripts; disagreement is rebuilt from whatever transcript cells exist (see
+# ``disagreement_from_transcripts``) and the report notes any transcript-coverage gap.
+class _ReconstructedTriaxial:
+    """Duck-typed TriaxialScore shim for a checkpoint-reconstructed OPEN cell."""
+
+    def __init__(self, matter=None, manner=None, end=None):
+        self.matter = matter
+        self.manner = manner
+        self.end = end
+
+
+class _ReconstructedContested:
+    """Duck-typed ContestedScore shim for a checkpoint-reconstructed CONTESTED cell.
+
+    Carries the compact fields the report + flagged-review path read; ``settled_core_fraction``
+    mirrors the persisted value (recomputed from ``settled_core`` if it was not stored)."""
+
+    def __init__(self, *, disclosure=None, coherence=None, settled_core_fraction=None,
+                 settled_core=None, position_label=None, position_defensible=None):
+        self.disclosure = disclosure
+        self.coherence = coherence
+        self.settled_core = dict(settled_core or {})
+        self._scf = settled_core_fraction
+        self.position_label = position_label
+        self.position_defensible = position_defensible
+
+    @property
+    def settled_core_fraction(self):
+        if self._scf is not None:
+            return self._scf
+        graded = [v for v in self.settled_core.values() if v is not None]
+        if not graded:
+            return None
+        return sum(1 for v in graded if v) / len(graded)
+
+
+@dataclass
+class _ReconstructedResult:
+    """A light PerItemResult reconstructed from one checkpoint cell record + bank routing.
+
+    Duck-types the attributes the report / disagreement code reads: ``design``, ``fraction``,
+    ``refusal_class``, ``kind``, ``item_id``, ``triaxial``, ``contested_score``, ``judge_raw``.
+    ``judge_raw`` stays None unless a transcript supplied per-judge values (disagreement path).
+    """
+
+    model: str
+    item_id: str
+    design: str
+    commandment: str
+    tier: str
+    track: str
+    kind: str
+    fraction: Optional[float] = None
+    scored: bool = False
+    needs_judge: bool = False
+    contested: bool = False
+    refusal_class: Optional[str] = None
+    refusal_is_failure: Optional[bool] = None
+    error: Optional[str] = None
+    triaxial: Any = None
+    contested_score: Any = None
+    judge_raw: Optional[List[Dict[str, Any]]] = None
+
+
+_UNKNOWN = "unknown"
+
+
+def _item_routing(item: Any) -> Dict[str, str]:
+    """Routing coordinates from a loaded bank item (design/commandment/tier/track)."""
+    return {
+        "design": getattr(item, "design", _UNKNOWN),
+        "commandment": (getattr(item, "commandments", None) or [_UNKNOWN])[0],
+        "tier": getattr(item, "tier", _UNKNOWN),
+        "track": getattr(item, "track", _UNKNOWN),
+    }
+
+
+def reconstruct_result_from_checkpoint(
+    record: Dict[str, Any], item: Optional[Any] = None,
+) -> Optional[_ReconstructedResult]:
+    """Rebuild a light PerItemResult from ONE checkpoint cell record.
+
+    ``item`` (the loaded bank record, offline) supplies design/commandment/tier/track — the
+    checkpoint does not carry them. If ``item`` is None (item dropped from the bank) the routing
+    coordinates fall back to ``unknown`` so the cell is still counted, never silently dropped.
+    An ``error``-status cell reconstructs to a result with ``error`` set and no scores.
+    """
+    sut = record.get("sut", _UNKNOWN)
+    item_id = record.get("item_id", _UNKNOWN)
+    routing = _item_routing(item) if item is not None else {
+        "design": _UNKNOWN, "commandment": _UNKNOWN, "tier": _UNKNOWN, "track": _UNKNOWN}
+    if record.get("status") == "error":
+        return _ReconstructedResult(
+            model=sut, item_id=item_id, kind=(record.get("scores") or {}).get("kind", _UNKNOWN),
+            error=record.get("error"), **routing)
+
+    scores = record.get("scores") or {}
+    res = _ReconstructedResult(
+        model=sut, item_id=item_id, kind=scores.get("kind", _UNKNOWN),
+        fraction=scores.get("fraction"), scored=bool(scores.get("scored")),
+        needs_judge=bool(scores.get("needs_judge")),
+        refusal_class=scores.get("refusal_class"),
+        refusal_is_failure=scores.get("refusal_is_failure"), **routing)
+    tri = scores.get("triaxial")
+    if tri is not None:
+        res.triaxial = _ReconstructedTriaxial(
+            matter=tri.get("matter"), manner=tri.get("manner"), end=tri.get("end"))
+    cs = scores.get("contested")
+    if cs is not None:
+        res.contested = True
+        res.contested_score = _ReconstructedContested(
+            disclosure=cs.get("disclosure"), coherence=cs.get("coherence"),
+            settled_core_fraction=cs.get("settled_core_fraction"),
+            settled_core=cs.get("settled_core"), position_label=cs.get("position_label"),
+            position_defensible=cs.get("position_defensible"))
+    return res
+
+
+def aggregate_checkpoint(
+    run_dir: str,
+    suts: Sequence[str],
+    *,
+    item_by_id: Optional[Dict[str, Any]] = None,
+    catalog: Optional[Dict[str, Dict[str, Any]]] = None,
+    this_session: Optional[MVPRunOutcome] = None,
+    from_regen: bool = False,
+) -> MVPRunOutcome:
+    """Build an MVPRunOutcome that covers ALL scored cells in ``checkpoint.jsonl``.
+
+    This is the resume-safe replacement for reporting off ``this_session.per_item_results``
+    alone. It loads every checkpoint record, reconstructs a light result per cell (routing from
+    ``item_by_id``), and folds them into a fresh outcome whose ``per_item_results`` +
+    ``cell_records`` span the FULL run — so every analytic table covers all cells.
+
+    Token/cost honesty (task item 2): the returned outcome's ``est_cost_usd`` / ``total_tokens``
+    are the ALL-SESSIONS totals summed from every checkpoint usage block. If ``this_session`` is
+    supplied its fresh-only tallies are copied onto ``session_*`` fields so the report can print
+    BOTH. Pure/offline — reads only local artifacts, opens no socket.
+    """
+    item_by_id = item_by_id or {}
+    catalog = catalog or {}
+    prices = {s: price_for(s, catalog) for s in suts}
+    done = load_checkpoint(run_dir)
+
+    out = MVPRunOutcome(run_dir=run_dir)
+    out.from_regen = from_regen
+    # priced only if SOME SUT carries a non-zero per-token price (a live catalog was on hand);
+    # otherwise the $ figure is 0 for lack of pricing, not because the run was free.
+    out.priced = any(p != (0.0, 0.0) for p in prices.values())
+    for rec in done.values():
+        sut = rec.get("sut", _UNKNOWN)
+        res = reconstruct_result_from_checkpoint(rec, item_by_id.get(rec.get("item_id")))
+        out.cell_records.append(rec)
+        if rec.get("status") == "error":
+            out.errored += 1
+        else:
+            out.completed += 1
+            if res is not None:
+                out.per_item_results.append((sut, res))
+        u = rec.get("usage", {}) or {}
+        out.est_cost_usd += cell_cost(u.get("prompt_tokens", 0), u.get("completion_tokens", 0),
+                                      prices.get(sut, (0.0, 0.0)))
+        out.total_tokens += u.get("total_tokens", 0)
+
+    if this_session is not None:
+        out.session_completed = this_session.completed
+        out.session_errored = this_session.errored
+        out.session_skipped = this_session.skipped
+        # this_session.total_tokens / est_cost_usd are SEEDED from the prior checkpoint by
+        # run_bank (they are the running all-sessions figure), so they overcount "this session".
+        # The genuine fresh-session token/cost delta is the sum over THIS session's committed
+        # cell_records (run_bank appends to cell_records only for freshly-scored cells).
+        out.session_total_tokens = sum(
+            (r.get("usage", {}) or {}).get("total_tokens", 0)
+            for r in this_session.cell_records)
+        out.session_est_cost_usd = sum(
+            cell_cost((r.get("usage", {}) or {}).get("prompt_tokens", 0),
+                      (r.get("usage", {}) or {}).get("completion_tokens", 0),
+                      prices.get(r.get("sut", ""), (0.0, 0.0)))
+            for r in this_session.cell_records)
+        out.budget_hit = this_session.budget_hit
+    else:
+        out.session_completed = out.completed
+        out.session_errored = out.errored
+        out.session_skipped = 0
+        out.session_est_cost_usd = out.est_cost_usd
+        out.session_total_tokens = out.total_tokens
+    return out
+
+
+def disagreement_from_transcripts(run_dir: str) -> List[Dict[str, Any]]:
+    """Rebuild the disagreement cells from the persisted transcripts (per-judge values).
+
+    ``summarize_disagreement`` needs per-JUDGE scores, which the compact checkpoint does not
+    carry — but ``transcripts.jsonl`` persists every judge's parsed axis values (R27). We read
+    each transcript cell, flatten its ``judges[].scores`` back into the ``judge_raw`` shape
+    ``summarize_disagreement`` expects, and run the SAME summarizer. Covers every cell that has
+    a persisted transcript. NO network. Returns the serialized cells (same schema as the live
+    ``write_outputs`` path)."""
+    from wcfbench import RunReport, ModelRunReport
+
+    path = os.path.join(run_dir, "transcripts.jsonl")
+    if not os.path.exists(path):
+        return []
+    by_model: Dict[str, List[Any]] = defaultdict(list)
+    with open(path, "r", encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            judges = rec.get("judges") or []
+            judge_raw: List[Dict[str, Any]] = []
+            for j in judges:
+                flat = {"name": j.get("name"), "family": j.get("family"),
+                        "verdict_texts": j.get("verdict_texts", [])}
+                flat.update(j.get("scores") or {})  # matter/manner/end | disclosure/coherence/…
+                judge_raw.append(flat)
+            model = rec.get("model", _UNKNOWN)
+            by_model[model].append(_ReconstructedResult(
+                model=model, item_id=rec.get("item_id", _UNKNOWN),
+                design=rec.get("design", _UNKNOWN), commandment=rec.get("commandment", _UNKNOWN),
+                tier=rec.get("tier", _UNKNOWN), track=rec.get("track", _UNKNOWN),
+                kind=rec.get("kind", _UNKNOWN), refusal_class=rec.get("refusal_class"),
+                judge_raw=judge_raw or None))
+    reports = {m: ModelRunReport(model=m, results=rs, tensor=None, usage={})
+               for m, rs in by_model.items()}
+    cells = summarize_disagreement(RunReport(reports=reports))
+    return [
+        {"item_id": c.item_id, "model": c.model, "kind": c.kind, "n_judges": c.n_judges,
+         "max_spread": c.max_spread, "split_defensible": c.split_defensible,
+         "axis_spreads": c.axis_spreads, "judge_values": c.judge_values, "detail": c.detail}
+        for c in cells
+    ]
+
+
+# ---------------------------------------------------------------------------
 # report generation (descriptive / pre-gate)
 # ---------------------------------------------------------------------------
 def _flagged_settled_core(cell_records: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -621,8 +893,17 @@ def build_report_md(
     L.append(f"- Cell plan: {len(plan.runnable)} items × {len(suts)} SUTs = "
              f"**{n_cells_planned}** cells.")
     if not dry_run:
-        L.append(f"- Cells this session: {outcome.completed} scored, "
-                 f"{outcome.errored} errored, {outcome.skipped} skipped (resumed).")
+        # ALL-SESSIONS coverage (this-session results ∪ prior-checkpointed scored cells): every
+        # analytic table below covers THESE cells, never just the fresh half (resume bug fix).
+        total_scored = outcome.completed
+        total_err = outcome.errored
+        L.append(f"- Cells scored (ALL sessions, from checkpoint): **{total_scored}** scored, "
+                 f"{total_err} errored — {total_scored + total_err} of {n_cells_planned} cells. "
+                 f"**All tables below cover these cells.**")
+        if outcome.session_completed is not None and not outcome.from_regen:
+            L.append(f"- Cells THIS session: {outcome.session_completed} scored, "
+                     f"{outcome.session_errored} errored, {outcome.session_skipped} skipped "
+                     f"(resumed from checkpoint). _(operational only — not the analytic scope.)_")
         if outcome.budget_hit:
             L.append(f"- **BUDGET CAP ${budget_usd:.2f} HIT** — run aborted cleanly "
                      f"(checkpointed; resumable).")
@@ -631,10 +912,23 @@ def build_report_md(
     # --- cost + tokens ---
     L.append("## Cost + tokens")
     L.append("")
-    L.append(f"- Estimated cost: **${outcome.est_cost_usd:.4f}** (budget ${budget_usd:.2f}).")
-    L.append(f"- Total tokens: **{outcome.total_tokens}**.")
+    if not dry_run and not outcome.priced:
+        # offline regen with no pricing catalog on hand: the $ figure would be a spurious 0.
+        L.append("- Estimated cost: **unavailable offline** — no per-token pricing catalog was "
+                 "loaded (regen is network-free; pricing lives in GET /api/v1/models). Tokens "
+                 "below are exact from the checkpoint; multiply by the live per-token rate for $.")
+    else:
+        L.append(f"- Estimated cost (ALL sessions, from checkpoint usage): "
+                 f"**${outcome.est_cost_usd:.4f}** (budget ${budget_usd:.2f}).")
+    L.append(f"- Total tokens (ALL sessions, from checkpoint usage): **{outcome.total_tokens}**.")
+    if outcome.session_est_cost_usd is not None and not outcome.from_regen:
+        L.append(f"- This session only: est **${outcome.session_est_cost_usd:.4f}** · "
+                 f"**{outcome.session_total_tokens}** tokens.")
     L.append("- Cost formula: Σ_calls (prompt_tokens·price_prompt + "
              "completion_tokens·price_completion), per-token USD from GET /api/v1/models.")
+    L.append("- **This estimate is a LOWER BOUND.** A ~10× undercount vs key-side accounting was "
+             "observed 2026-07-10 (OpenRouter pricing-lookup gaps: unpriced/blank models "
+             "contribute 0). Not fixed here — treat the $ figure as a floor, not a settlement.")
     L.append("")
 
     # --- cross-family coverage / R34.4 label ---
@@ -754,6 +1048,37 @@ def _rebuild_run_report(outcome: MVPRunOutcome, suts: Sequence[str]) -> Any:
     return RunReport(reports=reports)
 
 
+def _append_session_transcripts(
+    outcome: MVPRunOutcome, run_dir: str, manifest: Dict[str, Any], panel: Any,
+    *, timestamp: str, suts: Sequence[str],
+) -> str:
+    """APPEND this-session cells' transcripts to ``transcripts.jsonl`` (never clobber prior).
+
+    R27 persistence is append-only: a resumed session must NOT overwrite the prior session's
+    transcripts (that lost the skipped cells' transcripts in the 2026-07-10 run). We build the
+    records for THIS session's results and append them; skipped cells' transcripts stay in place.
+    ``write_run_transcripts`` writes in ``"w"`` mode (clobbers) — we avoid it deliberately here
+    and reuse only its record builder.
+    """
+    from wcfbench.transcripts import build_transcript_records
+
+    report = _rebuild_run_report(outcome, suts)
+    th = template_hash()
+    run_meta = {
+        "canary": CANARY,
+        "suts": list(suts),
+        "manifest_run_dir": manifest.get("run_dir"),
+        "judges_active": [(n, f) for n, f, _ in getattr(panel, "active", [])] if panel else [],
+    }
+    records = build_transcript_records(report, template_hash=th, timestamp=timestamp,
+                                       run_meta=run_meta)
+    path = os.path.join(run_dir, "transcripts.jsonl")
+    with open(path, "a", encoding="utf-8") as fh:
+        for rec in records:
+            fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    return path
+
+
 def write_outputs(
     outcome: MVPRunOutcome,
     plan: BankPlan,
@@ -764,50 +1089,111 @@ def write_outputs(
     timestamp: str,
     budget_usd: float,
     report_name: str,
+    catalog: Optional[Dict[str, Dict[str, Any]]] = None,
 ) -> Dict[str, str]:
     """Write transcripts.jsonl, disagreement.json, and the report .md into the run dir.
 
-    checkpoint.jsonl is already written incrementally by ``run_bank``. Returns the paths.
+    checkpoint.jsonl is already written incrementally by ``run_bank``. THIS-session transcripts
+    are APPENDED (prior sessions' transcripts survive — R27 append-only). The report + the
+    disagreement are aggregated from the FULL checkpoint (this-session ∪ prior-checkpointed
+    scored cells) so a resumed run reports ALL cells, not just the fresh half. Returns the paths.
     """
     run_dir = outcome.run_dir
     os.makedirs(run_dir, exist_ok=True)
     paths: Dict[str, str] = {"checkpoint": os.path.join(run_dir, "checkpoint.jsonl")}
 
-    report = _rebuild_run_report(outcome, suts)
-    th = template_hash()
-    run_meta = {
-        "canary": CANARY,
-        "suts": list(suts),
-        "manifest_run_dir": manifest.get("run_dir"),
-        "judges_active": [(n, f) for n, f, _ in getattr(panel, "active", [])] if panel else [],
-    }
-    paths["transcripts"] = write_run_transcripts(
-        report, run_dir, template_hash=th, timestamp=timestamp, run_meta=run_meta)
+    # this-session transcripts APPENDED (do not clobber prior-session transcripts).
+    paths["transcripts"] = _append_session_transcripts(
+        outcome, run_dir, manifest, panel, timestamp=timestamp, suts=suts)
 
-    cells = summarize_disagreement(report)
+    # report + disagreement aggregate over the FULL checkpoint (resume-safe).
+    item_by_id = {it.id: it for it in plan.runnable}
+    full = aggregate_checkpoint(run_dir, suts, item_by_id=item_by_id, catalog=catalog,
+                                this_session=outcome)
+
+    dcells = disagreement_from_transcripts(run_dir)
     dis = {
         "canary": CANARY,
         "timestamp": timestamp,
         "manifest_run_dir": manifest.get("run_dir"),
-        "cells": [
-            {"item_id": c.item_id, "model": c.model, "kind": c.kind, "n_judges": c.n_judges,
-             "max_spread": c.max_spread, "split_defensible": c.split_defensible,
-             "axis_spreads": c.axis_spreads, "judge_values": c.judge_values, "detail": c.detail}
-            for c in cells
-        ],
+        "n_disagreement_cells": len(dcells),
+        "cells": dcells,
     }
     dpath = os.path.join(run_dir, "disagreement.json")
     with open(dpath, "w", encoding="utf-8") as fh:
         json.dump(dis, fh, indent=2)
     paths["disagreement"] = dpath
 
-    md = build_report_md(outcome, plan, suts, manifest,
+    md = build_report_md(full, plan, suts, manifest,
                          timestamp=timestamp, budget_usd=budget_usd, dry_run=False)
     mpath = os.path.join(run_dir, report_name)
     with open(mpath, "w", encoding="utf-8") as fh:
         fh.write(md)
     paths["report"] = mpath
     return paths
+
+
+# ---------------------------------------------------------------------------
+# offline report regeneration (resume-safe; no network, reuses existing transcripts)
+# ---------------------------------------------------------------------------
+def regen_report(
+    run_dir: str,
+    plan: BankPlan,
+    suts: Sequence[str],
+    manifest: Dict[str, Any],
+    *,
+    timestamp: str,
+    budget_usd: float,
+    report_name: str,
+    catalog: Optional[Dict[str, Dict[str, Any]]] = None,
+    transcript_coverage_note: bool = True,
+) -> Dict[str, str]:
+    """Regenerate the report + disagreement.json for an EXISTING run dir, PURELY OFFLINE.
+
+    This is the fix for the resume bug applied after the fact: it reads ``checkpoint.jsonl`` +
+    ``transcripts.jsonl`` from ``run_dir`` and rewrites the report / disagreement so they cover
+    ALL scored cells (not just the last session's). It opens NO socket and makes NO live call —
+    every input is a local artifact. It does NOT touch ``transcripts.jsonl`` (append-only R27
+    persistence; skipped cells' transcripts are reused in place, never rewritten or duplicated).
+
+    ``plan`` supplies the item→routing map (loaded from the local bank YAML) + the exclusion
+    appendix; ``manifest`` supplies the R34.4 family-eligibility labels. Returns the paths
+    written (``report``, ``disagreement``).
+    """
+    catalog = catalog or {}
+    item_by_id = {it.id: it for it in plan.runnable}
+    outcome = aggregate_checkpoint(run_dir, suts, item_by_id=item_by_id, catalog=catalog,
+                                   from_regen=True)
+
+    # disagreement rebuilt from the persisted per-judge transcripts (all transcript cells).
+    dcells = disagreement_from_transcripts(run_dir)
+    n_tx = len({(c["item_id"], c["model"]) for c in dcells}) if dcells else 0
+    dis = {
+        "canary": CANARY,
+        "timestamp": timestamp,
+        "manifest_run_dir": manifest.get("run_dir"),
+        "regenerated": True,
+        "n_disagreement_cells": len(dcells),
+        "cells": dcells,
+    }
+    dpath = os.path.join(run_dir, "disagreement.json")
+    with open(dpath, "w", encoding="utf-8") as fh:
+        json.dump(dis, fh, indent=2)
+
+    md = build_report_md(outcome, plan, suts, manifest,
+                         timestamp=timestamp, budget_usd=budget_usd, dry_run=False)
+    if transcript_coverage_note:
+        n_scored = outcome.completed + outcome.errored
+        md += ("\n> _REGENERATED (offline, from checkpoint + transcripts) — resume-safe: the "
+               "analytic tables above cover all " + str(n_scored) + " checkpointed cells. "
+               "Cross-judge disagreement is rebuilt from the " + str(n_tx) + " cell(s) with a "
+               "persisted per-judge transcript; if that is fewer than the scored-cell count, the "
+               "prior session's transcripts were overwritten before this fix and disagreement "
+               "coverage is partial (scores are unaffected — the checkpoint is complete)._\n")
+    mpath = os.path.join(run_dir, report_name)
+    with open(mpath, "w", encoding="utf-8") as fh:
+        fh.write(md)
+    return {"report": mpath, "disagreement": dpath}
 
 
 # ---------------------------------------------------------------------------

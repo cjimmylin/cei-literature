@@ -20,7 +20,7 @@ balloons past its budget, checkpoint and escalate per AGENTS.md rule 2 — do no
 
 - [x] Task 1 — SCORE-parse fix (last-match)
 - [x] Task 2 — disagreement.json display fix
-- [ ] Task 3 — cost estimator fix
+- [x] Task 3 — cost estimator fix
 - [ ] Task 4 — format-bridge + gpt drop + re-qualification → NEW manifest (LIVE, ≤$10)
 - [ ] Task 5 — EPISODE live runs, 22 items × 4 SUTs (LIVE, small)
 - [ ] Task 6 — PROOFTEXT judge-assisted scorer + persisted re-read (LIVE, small)

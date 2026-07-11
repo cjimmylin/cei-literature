@@ -174,6 +174,17 @@ def main(argv=None) -> int:
               file=sys.stderr)
         return 2
 
+    # Key-side reconciliation snapshot + depleted-credit pre-flight.
+    key_before = mvp.fetch_key_snapshot(api_key)
+    remaining = key_before.get("limit_remaining")
+    if remaining is None and key_before.get("limit") is not None and key_before.get("usage") is not None:
+        remaining = key_before["limit"] - key_before["usage"]
+    if remaining is not None and remaining < args.budget:
+        print(f"ERROR: OpenRouter remaining credit ${remaining:.2f} is below the "
+              f"${args.budget:.2f} run budget; stop for top-up before live calls.",
+              file=sys.stderr)
+        return 2
+
     # slug validation — FAIL LOUD with nearest-match suggestions (model IDs drift).
     print("Validating SUT + judge slugs against GET /api/v1/models …")
     catalog = mvp.fetch_model_catalog(api_key)
@@ -201,6 +212,14 @@ def main(argv=None) -> int:
         concurrency=args.concurrency, logger=print, now=_now,
     )
 
+    try:
+        key_after = mvp.fetch_key_snapshot(api_key)
+        if key_before.get("usage") is not None and key_after.get("usage") is not None:
+            outcome.key_usage_delta_usd = key_after["usage"] - key_before["usage"]
+    except Exception:  # paid results must persist even if reconciliation lookup fails
+        print("WARNING: post-run key usage unavailable; report will mark reconciliation unavailable.",
+              file=sys.stderr)
+
     paths = mvp.write_outputs(outcome, plan, suts, manifest, panel,
                               timestamp=ts, budget_usd=args.budget, report_name=report_name,
                               catalog=catalog)
@@ -208,7 +227,8 @@ def main(argv=None) -> int:
     print("\n" + "=" * 76)
     print(f"MVP run {'ABORTED (budget)' if outcome.budget_hit else 'COMPLETE'} — "
           f"{outcome.completed} scored, {outcome.errored} errored, {outcome.skipped} skipped")
-    print(f"est cost ${outcome.est_cost_usd:.4f} / budget ${args.budget:.2f} · "
+    print(f"internal cost ${max(outcome.est_cost_usd, outcome.actuals_to_date_usd):.4f} "
+          f"/ budget ${args.budget:.2f} · "
           f"{outcome.total_tokens} tokens")
     for k, v in paths.items():
         print(f"  {k:12s} {v}")

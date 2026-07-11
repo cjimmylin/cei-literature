@@ -137,22 +137,28 @@ class _UsageClient:
     """A MockModelClient-shaped client that also records usage_log entries (per-cell token
     accounting) — mirrors OpenRouterModelClient's accounting surface."""
 
-    def __init__(self, responses, *, prompt_tokens=100, completion_tokens=50, fail_on=None):
+    def __init__(self, responses, *, prompt_tokens=100, completion_tokens=50, fail_on=None,
+                 cost_usd=None, model="mock"):
         self._responses = responses
         self.usage_log = []
         self.call_count = 0
         self._pt = prompt_tokens
         self._ct = completion_tokens
         self._fail_on = fail_on or set()
+        self._cost_usd = cost_usd
+        self.model = model
 
     def complete(self, prompt, item_id=None):
         self.call_count += 1
         if item_id in self._fail_on:
             raise RuntimeError(f"simulated 402 for {item_id}")
+        usage = {"prompt_tokens": self._pt, "completion_tokens": self._ct,
+                 "total_tokens": self._pt + self._ct}
+        if self._cost_usd is not None:
+            usage["cost"] = self._cost_usd
         self.usage_log.append({
             "item_id": item_id, "model": "mock",
-            "usage": {"prompt_tokens": self._pt, "completion_tokens": self._ct,
-                      "total_tokens": self._pt + self._ct},
+            "usage": usage,
         })
         return self._responses.get(item_id, "")
 
@@ -312,13 +318,86 @@ def test_budget_abort_checkpoints_and_stops(tmp_path):
     assert outcome2.budget_hit is False
 
 
+def test_budget_enforces_actuals_when_judge_cost_exceeds_sut_estimate(tmp_path):
+    items = _many_open_items(3)
+    responses = _resp_map_for(items)
+    sut = _UsageClient(responses, prompt_tokens=1, completion_tokens=0,
+                       cost_usd=0.01, model="sutA")
+    judge = _UsageClient(responses, prompt_tokens=1, completion_tokens=0,
+                         cost_usd=1.0, model="judgeA")
+
+    class _CostingPanel(_StubPanel):
+        def __init__(self):
+            super().__init__()
+            self.active = [("judge", "family", judge)]
+
+        def score_open(self, item, response):
+            judge.complete("score", item_id=item.id)
+            return super().score_open(item, response)
+
+    outcome = mvp.run_bank(
+        mvp.select_bank("ignored", items=items), ["sutA"], {"sutA": sut},
+        _CostingPanel(), str(tmp_path / "run"),
+        catalog={model: {"pricing": {"prompt": "0.001", "completion": "0"}}
+                 for model in ("sutA", "judgeA")},
+        budget_usd=1.5, print_every=0,
+    )
+
+    assert outcome.budget_hit is True
+    assert sut.call_count == 2
+    assert outcome.est_cost_usd < 0.1
+    assert outcome.actuals_to_date_usd == pytest.approx(2.02)
+
+
+def test_resume_budget_includes_prior_session_actuals(tmp_path):
+    run_dir = str(tmp_path / "run")
+    mvp.append_checkpoint(run_dir, {
+        "cell_key": "COMP-C8-W301::sutA", "item_id": "COMP-C8-W301", "sut": "sutA",
+        "status": "scored", "actuals_to_date_usd": 2.0,
+        "usage": {"prompt_tokens": 1, "completion_tokens": 0, "total_tokens": 1}})
+    client = _UsageClient(_good_client()._responses)
+    outcome = mvp.run_bank(
+        mvp.select_bank("ignored", items=[_open_item(), _ordinal_item()]),
+        ["sutA"], {"sutA": client}, _StubPanel(), run_dir,
+        catalog={"sutA": {"pricing": {"prompt": "0.001", "completion": "0"}}},
+        budget_usd=1.5, print_every=0)
+
+    assert outcome.budget_hit is True
+    assert client.call_count == 0
+    assert outcome.actuals_to_date_usd == pytest.approx(2.0)
+
+
+def test_missing_fallback_price_fails_before_any_paid_call(tmp_path):
+    client = _UsageClient(_good_client()._responses)
+
+    with pytest.raises(mvp.PricingError):
+        mvp.run_bank(
+            mvp.select_bank("ignored", items=[_open_item()]), ["sutA"], {"sutA": client},
+            _StubPanel(), str(tmp_path / "run"),
+            catalog={"sutA": {"pricing": {"prompt": "", "completion": "0"}}},
+            print_every=0)
+
+    assert client.call_count == 0
+
+
 # --------------------------------------------------------------------------- cost formula
 def test_cost_formula_and_pricing():
     catalog = {"m": {"pricing": {"prompt": "0.000002", "completion": "0.000008"}}}
     assert mvp.price_for("m", catalog) == (0.000002, 0.000008)
-    # missing pricing -> (0,0), never crashes.
-    assert mvp.price_for("unknown", catalog) == (0.0, 0.0)
     assert mvp.cell_cost(1000, 500, (0.000002, 0.000008)) == pytest.approx(0.002 + 0.004)
+
+
+@pytest.mark.parametrize("response, model_id", [
+    ({"data": [{"id": "m", "pricing": {"prompt": "", "completion": "0.1"}}]}, "m"),
+    ({"data": [{"id": "m", "pricing": {"prompt": "0.1"}}]}, "m"),
+    ({"data": []}, "missing-model"),
+])
+def test_catalog_missing_or_blank_price_fails_loud(response, model_id):
+    catalog = mvp.fetch_model_catalog(
+        "test-key", opener=lambda _url, _key: response)
+
+    with pytest.raises(mvp.PricingError, match=model_id):
+        mvp.price_for(model_id, catalog)
 
 
 # --------------------------------------------------------------------------- slug validation
@@ -416,6 +495,33 @@ def test_report_per_design_and_refusal_tables(tmp_path):
     assert "Cost + tokens" in md
 
 
+def test_resumed_report_shows_cumulative_total_and_session_reconciliation(tmp_path):
+    outcome = mvp.MVPRunOutcome(
+        run_dir=str(tmp_path), est_cost_usd=0.1,
+        actuals_to_date_usd=2.5, session_est_cost_usd=0.2,
+        session_actuals_usd=0.3, key_usage_delta_usd=0.4)
+    md = mvp.build_report_md(
+        outcome, mvp.BankPlan(), ["sutA"], _manifest(), timestamp="t", budget_usd=25.0)
+
+    assert "Internal total (ALL sessions)" in md
+    assert "**$2.5000**" in md
+    assert "Cost reconciliation" in md
+    assert md.count("Cost reconciliation") == 1
+    assert "internal total **$0.3000** vs key-side usage delta **$0.4000**" in md
+
+
+def test_key_snapshot_retains_usage_limit_and_remaining_through_mocked_opener():
+    seen = {}
+
+    def opener(url, api_key):
+        seen.update(url=url, api_key=api_key)
+        return {"data": {"usage": 12.75, "limit": 30.0, "limit_remaining": 17.25}}
+
+    assert mvp.fetch_key_snapshot("test-key", opener=opener) == {
+        "usage": 12.75, "limit": 30.0, "limit_remaining": 17.25}
+    assert seen == {"url": mvp.AUTH_KEY_URL, "api_key": "test-key"}
+
+
 # --------------------------------------------------------------------------- outputs on disk
 def test_write_outputs_produces_all_artifacts(tmp_path):
     run_dir = str(tmp_path / "run")
@@ -485,6 +591,61 @@ def test_cli_live_missing_key_fails(monkeypatch, capsys):
     err = capsys.readouterr().err
     assert rc == 2
     assert "OPENROUTER_API_KEY" in err
+
+
+def _patch_live_cli(monkeypatch, tmp_path):
+    import run_mvp
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-key")
+    real_select = mvp.select_bank
+    monkeypatch.setattr(run_mvp.mvp, "select_bank",
+                        lambda *a, **k: real_select("x", items=[_open_item()]))
+    monkeypatch.setattr(run_mvp, "load_manifest", lambda p: _manifest())
+    monkeypatch.setattr(run_mvp, "manifest_is_fresh", lambda manifest: True)
+    monkeypatch.setattr(run_mvp.mvp, "fetch_model_catalog", lambda key: {})
+    monkeypatch.setattr(run_mvp.mvp, "validate_slugs", lambda *a: None)
+    monkeypatch.setattr(run_mvp.mvp, "build_sut_clients", lambda suts: {})
+    monkeypatch.setattr(run_mvp.mvp, "build_panel",
+                        lambda manifest: type("Panel", (), {"active": []})())
+    outcome = mvp.MVPRunOutcome(run_dir=str(tmp_path / "run"))
+    monkeypatch.setattr(run_mvp.mvp, "run_bank", lambda *a, **k: outcome)
+    monkeypatch.setattr(run_mvp.mvp, "write_outputs", lambda *a, **k: {})
+    return run_mvp, outcome
+
+
+def test_cli_persists_outputs_when_post_run_key_snapshot_fails(monkeypatch, tmp_path):
+    run_mvp, outcome = _patch_live_cli(monkeypatch, tmp_path)
+    snapshots = iter([{"usage": 10.0, "limit": 40.0, "limit_remaining": 30.0},
+                      RuntimeError("auth unavailable")])
+
+    def snapshot(_key):
+        value = next(snapshots)
+        if isinstance(value, Exception):
+            raise value
+        return value
+
+    monkeypatch.setattr(run_mvp.mvp, "fetch_key_snapshot", snapshot, raising=False)
+    written = []
+    monkeypatch.setattr(run_mvp.mvp, "write_outputs",
+                        lambda *a, **k: written.append(True) or {})
+
+    assert run_mvp.main(["--go", "--suts", "sutA", "--run-dir", outcome.run_dir]) == 0
+    assert written == [True]
+    assert outcome.key_usage_delta_usd is None
+
+
+def test_cli_depleted_credit_stops_before_model_work(monkeypatch, tmp_path):
+    run_mvp, outcome = _patch_live_cli(monkeypatch, tmp_path)
+    monkeypatch.setattr(
+        run_mvp.mvp, "fetch_key_snapshot",
+        lambda key: {"usage": 25.0, "limit": 30.0, "limit_remaining": 5.0}, raising=False)
+    reached = []
+    monkeypatch.setattr(run_mvp.mvp, "fetch_model_catalog",
+                        lambda key: reached.append("catalog") or {})
+
+    assert run_mvp.main([
+        "--go", "--suts", "sutA", "--run-dir", outcome.run_dir, "--budget", "10",
+    ]) == 2
+    assert reached == []
 
 
 # --------------------------------------------------------------------------- concurrency
@@ -818,7 +979,7 @@ def test_resume_report_covers_all_cells_not_just_this_session(tmp_path):
 
 
 def test_report_shows_both_session_and_all_session_totals(tmp_path):
-    """Token/cost report carries BOTH this-session and all-sessions totals + a lower-bound note."""
+    """Token/cost report carries both session scopes plus the reconciliation line."""
     run_dir, plan, suts, outcome2, items = _split_run_two_sessions(tmp_path)
     catalog = {s: {"pricing": {"prompt": "0.00001", "completion": "0.00002"}} for s in suts}
     item_by_id = {it.id: it for it in plan.runnable}
@@ -828,8 +989,8 @@ def test_report_shows_both_session_and_all_session_totals(tmp_path):
                              timestamp="t", budget_usd=25.0)
     assert "ALL sessions, from checkpoint usage" in md
     assert "This session only" in md
-    assert "LOWER BOUND" in md
-    assert "10" in md and "undercount" in md
+    assert "Cost reconciliation" in md
+    assert "authoritative per-request response cost" in md
     # the all-sessions token total exceeds the this-session-only total (session 2 was a subset).
     assert full.total_tokens > full.session_total_tokens
 

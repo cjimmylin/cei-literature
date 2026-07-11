@@ -149,6 +149,25 @@ def fetch_model_catalog(api_key: Optional[str], url: str = MODELS_URL,
     return out
 
 
+def fetch_key_snapshot(api_key: str, url: str = AUTH_KEY_URL,
+                       opener: Optional[Callable[[str, Optional[str]], Dict[str, Any]]] = None
+                       ) -> Dict[str, Optional[float]]:
+    """Return structured usage/limit fields from GET ``/api/v1/auth/key``."""
+    data = (opener or _http_get_json)(url, api_key)
+    values = data.get("data") or {} if isinstance(data, dict) else {}
+
+    def _float(field: str) -> Optional[float]:
+        raw = values.get(field)
+        return None if raw is None or (isinstance(raw, str) and not raw.strip()) else float(raw)
+
+    return {field: _float(field) for field in ("usage", "limit", "limit_remaining")}
+
+
+def fetch_key_usage(api_key: str) -> Optional[float]:
+    """Backward-compatible scalar view; live preflight uses :func:`fetch_key_snapshot`."""
+    return fetch_key_snapshot(api_key).get("usage")
+
+
 def _http_get_json(url: str, api_key: Optional[str]) -> Dict[str, Any]:
     headers = {"Authorization": f"Bearer {api_key}"} if api_key else {}
     req = urllib.request.Request(url, headers=headers, method="GET")
@@ -158,6 +177,10 @@ def _http_get_json(url: str, api_key: Optional[str]) -> Dict[str, Any]:
 
 class SlugValidationError(RuntimeError):
     """Raised (FAIL LOUD) when a requested SUT/judge slug is absent from the live catalog."""
+
+
+class PricingError(RuntimeError):
+    """Raised when catalog-pricing fallback lacks a usable per-token price."""
 
 
 def _nearest(slug: str, catalog_ids: Sequence[str], n: int = 3) -> List[str]:
@@ -192,19 +215,14 @@ def validate_slugs(slugs: Sequence[str], catalog: Dict[str, Dict[str, Any]]) -> 
 def price_for(model_id: str, catalog: Dict[str, Dict[str, Any]]) -> Tuple[float, float]:
     """Return ``(prompt_usd_per_token, completion_usd_per_token)`` for ``model_id``.
 
-    Missing/blank pricing → (0.0, 0.0) so cost tracking degrades gracefully rather than
-    crashing a run (an unpriced model just contributes 0 to the estimate; flagged in report).
+    Catalog pricing is a fallback when authoritative response cost is unavailable. A missing,
+    blank, or malformed fallback price fails loud; it must never become a silent zero.
     """
-    m = catalog.get(model_id) or {}
-    pricing = m.get("pricing") or {}
-
-    def _f(v: Any) -> float:
-        try:
-            return float(v)
-        except (TypeError, ValueError):
-            return 0.0
-
-    return _f(pricing.get("prompt")), _f(pricing.get("completion"))
+    try:
+        pricing = catalog[model_id]["pricing"]
+        return float(pricing["prompt"]), float(pricing["completion"])
+    except (KeyError, TypeError, ValueError) as e:
+        raise PricingError(f"missing/blank catalog price for model {model_id!r}") from e
 
 
 def cell_cost(prompt_tokens: int, completion_tokens: int,
@@ -216,6 +234,48 @@ def cell_cost(prompt_tokens: int, completion_tokens: int,
     """
     p_prompt, p_completion = price
     return prompt_tokens * p_prompt + completion_tokens * p_completion
+
+
+def _authoritative_cost(entry: Dict[str, Any]) -> Optional[float]:
+    """Normalized per-request OpenRouter cost, if the response supplied one."""
+    raw = (entry.get("usage") or {}).get("cost")
+    if raw is None or (isinstance(raw, str) and not raw.strip()):
+        return None
+    try:
+        return float(raw)
+    except (TypeError, ValueError):
+        return None
+
+
+def _usage_cost(usage: Dict[str, Any], model: str,
+                catalog: Dict[str, Dict[str, Any]]) -> float:
+    """Prefer persisted response actual; otherwise use catalog pricing when available."""
+    if usage.get("cost_usd") is not None:
+        return float(usage["cost_usd"])
+    prompt = int(usage.get("prompt_tokens") or 0)
+    completion = int(usage.get("completion_tokens") or 0)
+    if not catalog:
+        return 0.0
+    return cell_cost(prompt, completion, price_for(model, catalog))
+
+
+def _accounted_client_cost(clients: Sequence[Tuple[str, Any]],
+                           catalog: Dict[str, Dict[str, Any]]) -> float:
+    """Per-request total to date across SUT + judge clients, actual-first."""
+    total = 0.0
+    for model, client in clients:
+        for entry in (getattr(client, "usage_log", None) or []):
+            entry = entry or {}
+            actual = _authoritative_cost(entry)
+            if actual is not None:
+                total += actual
+                continue
+            usage = entry.get("usage") or {}
+            if catalog:
+                total += cell_cost(int(usage.get("prompt_tokens") or 0),
+                                   int(usage.get("completion_tokens") or 0),
+                                   price_for(model, catalog))
+    return total
 
 
 # ---------------------------------------------------------------------------
@@ -298,17 +358,22 @@ def _cell_scores(result: Any) -> Dict[str, Any]:
     return scores
 
 
-def _usage_delta(client: Any, before_count: int) -> Dict[str, int]:
-    """Sum prompt/completion/total tokens from the client's usage_log entries added
-    since ``before_count`` (per-cell token accounting)."""
+def _usage_delta(client: Any, before_count: int) -> Dict[str, Any]:
+    """Sum token usage and preserve authoritative cost for this cell when complete."""
     log = getattr(client, "usage_log", None) or []
     prompt = completion = total = 0
-    for entry in log[before_count:]:
+    entries = log[before_count:]
+    for entry in entries:
         u = (entry or {}).get("usage") or {}
         prompt += int(u.get("prompt_tokens") or 0)
         completion += int(u.get("completion_tokens") or 0)
         total += int(u.get("total_tokens") or 0)
-    return {"prompt_tokens": prompt, "completion_tokens": completion, "total_tokens": total}
+    out: Dict[str, Any] = {
+        "prompt_tokens": prompt, "completion_tokens": completion, "total_tokens": total}
+    actuals = [_authoritative_cost(entry or {}) for entry in entries]
+    if actuals and all(cost is not None for cost in actuals):
+        out["cost_usd"] = sum(actuals)  # type: ignore[arg-type]
+    return out
 
 
 def run_cell(item: Any, sut_slug: str, client: Any, panel: Any) -> Tuple[Any, Any, Dict[str, int]]:
@@ -335,6 +400,12 @@ class MVPRunOutcome:
     skipped: int = 0
     errored: int = 0
     est_cost_usd: float = 0.0
+    #: Actual-first cumulative run total across SUT + judge clients (resume-safe).
+    actuals_to_date_usd: float = 0.0
+    #: Current-session slice used against the key-side before/after delta in the report.
+    session_actuals_usd: Optional[float] = None
+    #: GET /auth/key usage(after) - usage(before), captured by the live entrypoint.
+    key_usage_delta_usd: Optional[float] = None
     total_tokens: int = 0
     budget_hit: bool = False
     per_item_results: List[Any] = field(default_factory=list)  # for transcripts/disagreement
@@ -437,15 +508,25 @@ def run_bank(
     os.makedirs(run_dir, exist_ok=True)
     done = load_checkpoint(run_dir)
     catalog = catalog or {}
-    prices = {s: price_for(s, catalog) for s in suts}
+
+    client_models: List[Tuple[str, Any]] = list(sut_clients.items())
+    for _name, _family, judge_client in (getattr(panel, "active", None) or []):
+        model = getattr(judge_client, "model", None)
+        if model:
+            client_models.append((model, judge_client))
+    if catalog:
+        for model, _client in client_models:
+            price_for(model, catalog)  # validate every fallback before spending
 
     outcome = MVPRunOutcome(run_dir=run_dir)
+    outcome.priced = bool(catalog)
+    outcome.actuals_to_date_usd = max(
+        (float(r.get("actuals_to_date_usd") or 0.0) for r in done.values()), default=0.0)
+    prior_actuals = outcome.actuals_to_date_usd
+    outcome.session_actuals_usd = 0.0
     outcome.est_cost_usd = sum(
-        cell_cost(r.get("usage", {}).get("prompt_tokens", 0),
-                  r.get("usage", {}).get("completion_tokens", 0),
-                  prices.get(r.get("sut", ""), (0.0, 0.0)))
-        for r in done.values()
-    )
+        _usage_cost(r.get("usage", {}) or {}, r.get("sut", ""), catalog)
+        for r in done.values())
     outcome.total_tokens = sum(r.get("usage", {}).get("total_tokens", 0) for r in done.values())
 
     # the pending cell plan, in the SAME order as the sequential loop (item-major, SUT-minor).
@@ -477,10 +558,12 @@ def run_bank(
             outcome.per_item_results.append((sut, result))
 
         u = record.get("usage", {})
-        outcome.est_cost_usd += cell_cost(u.get("prompt_tokens", 0),
-                                          u.get("completion_tokens", 0),
-                                          prices.get(sut, (0.0, 0.0)))
+        outcome.est_cost_usd += _usage_cost(u, sut, catalog)
         outcome.total_tokens += u.get("total_tokens", 0)
+
+        outcome.session_actuals_usd = _accounted_client_cost(client_models, catalog)
+        outcome.actuals_to_date_usd = prior_actuals + outcome.session_actuals_usd
+        record["actuals_to_date_usd"] = outcome.actuals_to_date_usd
 
         # SIGINT-safe: one fsync'd line per cell, serialized so lines never interleave.
         append_checkpoint(run_dir, record)
@@ -493,7 +576,7 @@ def run_bank(
                    f"{outcome.total_tokens} tok · {outcome.errored} err")
 
     def _budget_exceeded() -> bool:
-        return outcome.est_cost_usd >= budget_usd
+        return max(outcome.est_cost_usd, outcome.actuals_to_date_usd) >= budget_usd
 
     # ---- sequential path (N<=1): byte-for-byte the original loop ----
     if concurrency is None or concurrency <= 1:
@@ -501,7 +584,8 @@ def run_bank(
             with state_lock:  # uncontended; keeps the accounting/print path identical
                 if _budget_exceeded():
                     outcome.budget_hit = True
-                    logger(f"BUDGET CAP ${budget_usd:.2f} reached (est ${outcome.est_cost_usd:.4f}) "
+                    logger(f"BUDGET CAP ${budget_usd:.2f} reached "
+                           f"(internal ${max(outcome.est_cost_usd, outcome.actuals_to_date_usd):.4f}) "
                            f"— aborting cleanly; {outcome.completed} new cells checkpointed.")
                     return outcome
             record, result = _score_one_cell(
@@ -523,7 +607,8 @@ def run_bank(
                 if not outcome.budget_hit:
                     outcome.budget_hit = True
                     logger(f"BUDGET CAP ${budget_usd:.2f} reached "
-                           f"(est ${outcome.est_cost_usd:.4f}) — no longer submitting; "
+                           f"(internal ${max(outcome.est_cost_usd, outcome.actuals_to_date_usd):.4f}) "
+                           f"— no longer submitting; "
                            f"draining in-flight cells.")
                 return False
         try:
@@ -728,14 +813,13 @@ def aggregate_checkpoint(
     """
     item_by_id = item_by_id or {}
     catalog = catalog or {}
-    prices = {s: price_for(s, catalog) for s in suts}
     done = load_checkpoint(run_dir)
 
     out = MVPRunOutcome(run_dir=run_dir)
     out.from_regen = from_regen
-    # priced only if SOME SUT carries a non-zero per-token price (a live catalog was on hand);
-    # otherwise the $ figure is 0 for lack of pricing, not because the run was free.
-    out.priced = any(p != (0.0, 0.0) for p in prices.values())
+    out.priced = bool(catalog)
+    out.actuals_to_date_usd = max(
+        (float(r.get("actuals_to_date_usd") or 0.0) for r in done.values()), default=0.0)
     for rec in done.values():
         sut = rec.get("sut", _UNKNOWN)
         res = reconstruct_result_from_checkpoint(rec, item_by_id.get(rec.get("item_id")))
@@ -747,8 +831,7 @@ def aggregate_checkpoint(
             if res is not None:
                 out.per_item_results.append((sut, res))
         u = rec.get("usage", {}) or {}
-        out.est_cost_usd += cell_cost(u.get("prompt_tokens", 0), u.get("completion_tokens", 0),
-                                      prices.get(sut, (0.0, 0.0)))
+        out.est_cost_usd += _usage_cost(u, sut, catalog)
         out.total_tokens += u.get("total_tokens", 0)
 
     if this_session is not None:
@@ -763,10 +846,11 @@ def aggregate_checkpoint(
             (r.get("usage", {}) or {}).get("total_tokens", 0)
             for r in this_session.cell_records)
         out.session_est_cost_usd = sum(
-            cell_cost((r.get("usage", {}) or {}).get("prompt_tokens", 0),
-                      (r.get("usage", {}) or {}).get("completion_tokens", 0),
-                      prices.get(r.get("sut", ""), (0.0, 0.0)))
+            _usage_cost(r.get("usage", {}) or {}, r.get("sut", ""), catalog)
             for r in this_session.cell_records)
+        out.actuals_to_date_usd = this_session.actuals_to_date_usd
+        out.session_actuals_usd = this_session.session_actuals_usd
+        out.key_usage_delta_usd = this_session.key_usage_delta_usd
         out.budget_hit = this_session.budget_hit
     else:
         out.session_completed = out.completed
@@ -915,23 +999,35 @@ def build_report_md(
     # --- cost + tokens ---
     L.append("## Cost + tokens")
     L.append("")
-    if not dry_run and not outcome.priced:
+    all_internal = max(outcome.est_cost_usd, outcome.actuals_to_date_usd)
+    if not dry_run and not outcome.priced and outcome.actuals_to_date_usd == 0.0:
         # offline regen with no pricing catalog on hand: the $ figure would be a spurious 0.
         L.append("- Estimated cost: **unavailable offline** — no per-token pricing catalog was "
                  "loaded (regen is network-free; pricing lives in GET /api/v1/models). Tokens "
                  "below are exact from the checkpoint; multiply by the live per-token rate for $.")
+        L.append("- Internal total (ALL sessions): **unavailable offline**.")
     else:
         L.append(f"- Estimated cost (ALL sessions, from checkpoint usage): "
                  f"**${outcome.est_cost_usd:.4f}** (budget ${budget_usd:.2f}).")
+        L.append(f"- Internal total (ALL sessions): **${all_internal:.4f}** "
+                 "(max of checkpoint estimate and actual-first/fallback accounting).")
     L.append(f"- Total tokens (ALL sessions, from checkpoint usage): **{outcome.total_tokens}**.")
     if outcome.session_est_cost_usd is not None and not outcome.from_regen:
         L.append(f"- This session only: est **${outcome.session_est_cost_usd:.4f}** · "
                  f"**{outcome.session_total_tokens}** tokens.")
-    L.append("- Cost formula: Σ_calls (prompt_tokens·price_prompt + "
-             "completion_tokens·price_completion), per-token USD from GET /api/v1/models.")
-    L.append("- **This estimate is a LOWER BOUND.** A ~10× undercount vs key-side accounting was "
-             "observed 2026-07-10 (OpenRouter pricing-lookup gaps: unpriced/blank models "
-             "contribute 0). Not fixed here — treat the $ figure as a floor, not a settlement.")
+    session_est = (outcome.session_est_cost_usd
+                   if outcome.session_est_cost_usd is not None else outcome.est_cost_usd)
+    session_actuals = (outcome.session_actuals_usd if outcome.session_actuals_usd is not None
+                       else outcome.actuals_to_date_usd)
+    internal_total = max(session_est, session_actuals)
+    if outcome.key_usage_delta_usd is None:
+        key_delta = "**unavailable** (no before/after GET /api/v1/auth/key usage delta)"
+    else:
+        key_delta = f"**${outcome.key_usage_delta_usd:.4f}**"
+    L.append(f"- Cost reconciliation (THIS session): internal total **${internal_total:.4f}** "
+             f"vs key-side usage delta {key_delta}.")
+    L.append("- Internal accounting prefers authoritative per-request response cost; calls without "
+             "it use fail-loud prompt/completion pricing from GET /api/v1/models.")
     L.append("")
 
     # --- cross-family coverage / R34.4 label ---

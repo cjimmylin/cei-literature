@@ -37,6 +37,13 @@ def test_role_requests_are_blinded_and_role_responses_parse_exactly():
     reader_payload = json.loads(reader_request["messages"][1]["content"])
     assert set(reader_payload) == {"composition", "probes"}
     assert "source_atoms" not in reader_payload
+    reader_instruction = reader_request["messages"][0]["content"]
+    lowered_reader_instruction = reader_instruction.lower()
+    assert "output is answer data, not a json schema" in lowered_reader_instruction
+    assert 'only top-level key is "probe_answers"' in lowered_reader_instruction
+    assert plan.bundle.public_by_id[reader.source_record_id]["probes"][0][
+        "probe_id"
+    ] in reader_instruction
     answers = {
         probe["probe_id"]: 0.0
         for probe in plan.bundle.public_by_id[reader.source_record_id]["probes"]

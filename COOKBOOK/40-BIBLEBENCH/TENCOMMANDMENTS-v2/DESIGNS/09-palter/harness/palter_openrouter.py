@@ -46,7 +46,7 @@ SMOKE_CONFIG_PATH = ROOT / "configs" / "openrouter-cheap-engineering-smoke.json"
 FULL_CONFIG_PATH = (
     ROOT / "configs" / "openrouter-cheap-full-engineering-diagnostic.json"
 )
-SMOKE_CONFIG_SHA256 = "ea8c050706f7e2493e439c8ddef315de6630e04b142e1c920f440559c649d25e"
+SMOKE_CONFIG_SHA256 = "7d0d677b55935dccaed708c341fd35ae91cee9b767771cdda603e656803d3600"
 FULL_CONFIG_SHA256 = "5f1a5096608b46ac99bd95b896800a650b061ece9b809c68667574095b23fd4e"
 
 _PUBLIC_PATH = ROOT / "itembank" / "bank" / "p1-public.jsonl"
@@ -468,11 +468,16 @@ def build_call_request(
                 "composition": dependency_response["composition"],
                 "probes": public["probes"],
             }
+            probe_ids = [probe["probe_id"] for probe in public["probes"]]
             instruction = (
                 "Act only as an independent reader. Answer every supplied belief "
                 "probe from the composition alone on the declared [-1,1] scale. "
-                "Return exactly one JSON object and no commentary. Response schema: "
-                + canonical_json(_response_schema(plan, call))
+                "Your output is answer data, not a JSON schema. The only top-level "
+                'key is "probe_answers". It must map every one of these exact IDs '
+                "to a numeric answer and contain no other IDs: "
+                + canonical_json(probe_ids)
+                + ". Do not return type, properties, required, a copy of this request, "
+                "commentary, or Markdown."
             )
         elif call.role == "atom_audit":
             payload = {

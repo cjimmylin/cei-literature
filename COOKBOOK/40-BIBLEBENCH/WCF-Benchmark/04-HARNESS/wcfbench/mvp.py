@@ -27,7 +27,10 @@ from __future__ import annotations
 import datetime
 import json
 import os
+import threading
 import urllib.request
+from collections import defaultdict
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from dataclasses import dataclass, field
 from typing import Any, Callable, Dict, List, Optional, Sequence, Tuple
 
@@ -338,6 +341,54 @@ class MVPRunOutcome:
     cell_records: List[Dict[str, Any]] = field(default_factory=list)
 
 
+def _score_one_cell(
+    item: Any, sut: str, client: Any, panel: Any, *,
+    ts: str, client_lock: threading.Lock,
+) -> Tuple[Dict[str, Any], Optional[Any]]:
+    """Do ALL of a single cell's work OFF the shared-state path and return
+    ``(checkpoint_record, per_item_result_or_None)``.
+
+    This function is the unit dispatched to worker threads under ``--concurrency N>1``. It
+    NEVER touches the ``outcome`` accumulators, the checkpoint file, or the progress logger —
+    those are mutated only by the driver under the shared lock. The one shared object it does
+    touch is the SUT ``client``: ``run_cell`` snapshots ``client.usage_log`` before/after to
+    compute this cell's token delta, so concurrent cells for the SAME SUT would tear that slice
+    and the socket/``usage_log`` are not thread-safe. We therefore serialize per-SUT work on a
+    per-client lock — parallelism is REAL across distinct SUTs (the roster's 4 families run
+    concurrently), and cells for one SUT run one-at-a-time on that client. The panel's judge
+    clients are shared across all cells but are never read for per-cell cost accounting, so a
+    torn judge log cannot corrupt the checkpoint. Retry/backoff (R40.2) lives inside the
+    judge/client path and is inherited unchanged.
+    """
+    key = cell_key(item.id, sut)
+    try:
+        with client_lock:
+            _report, result, usage = run_cell(item, sut, client, panel)
+        if result is not None and result.error:
+            record = {
+                "cell_key": key, "item_id": item.id, "sut": sut, "status": "error",
+                "error": result.error, "usage": usage, "timestamp": ts,
+            }
+        else:
+            record = {
+                "cell_key": key, "item_id": item.id, "sut": sut, "status": "scored",
+                "scores": _cell_scores(result) if result is not None else None,
+                "usage": usage, "timestamp": ts,
+            }
+        return record, result
+    except Exception as e:  # noqa: BLE001 - per-cell error survival is the contract
+        # A scoring/panel exception escaped run() — attribute no tokens to it (the SUT-call
+        # path is already error-survived inside run(); this catches the rarer panel/scorer
+        # crash) and keep the run going.
+        record = {
+            "cell_key": key, "item_id": item.id, "sut": sut, "status": "error",
+            "error": f"{type(e).__name__}: {e}",
+            "usage": {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0},
+            "timestamp": ts,
+        }
+        return record, None
+
+
 def run_bank(
     plan: BankPlan,
     suts: Sequence[str],
@@ -348,12 +399,24 @@ def run_bank(
     catalog: Optional[Dict[str, Dict[str, Any]]] = None,
     budget_usd: float = DEFAULT_BUDGET_USD,
     print_every: int = 10,
+    concurrency: int = 1,
     logger: Callable[[str], None] = print,
     now: Callable[[], str] = lambda: datetime.datetime.now().isoformat(timespec="seconds"),
 ) -> MVPRunOutcome:
     """Drive every runnable (item × SUT) cell with checkpoint/resume, cost tracking, and
     per-cell error survival. Reuses any existing ``checkpoint.jsonl`` in ``run_dir`` to skip
     done cells. Aborts cleanly (checkpointed) if the running $ estimate crosses ``budget_usd``.
+
+    ``concurrency`` (default ``1`` = the exact original sequential behavior) sets the
+    ``ThreadPoolExecutor`` worker count. With ``N>1`` cells are scored in parallel, but all
+    shared state — the ``checkpoint.jsonl`` append (one fsync'd line per cell, never
+    interleaved), the cost/token accumulator, the ``outcome`` tallies, and the progress
+    print — is mutated only under a single lock, and each SUT's client is serialized on its
+    own lock (see ``_score_one_cell``). Semantics preserved from the sequential path: completed
+    cells (any status) skip on startup; a worker exception records ``status=error`` for THAT
+    cell only and the run continues; when the running estimate crosses ``budget_usd`` we stop
+    SUBMITTING new cells and let in-flight cells finish + checkpoint (clean capped stop);
+    ``KeyboardInterrupt`` stops submitting, drains in-flight, and checkpoints what finished.
     """
     os.makedirs(run_dir, exist_ok=True)
     done = load_checkpoint(run_dir)
@@ -369,70 +432,124 @@ def run_bank(
     )
     outcome.total_tokens = sum(r.get("usage", {}).get("total_tokens", 0) for r in done.values())
 
-    n_seen = 0
+    # the pending cell plan, in the SAME order as the sequential loop (item-major, SUT-minor).
+    pending: List[Tuple[Any, str]] = []
     for item in plan.runnable:
         for sut in suts:
             key = cell_key(item.id, sut)
             if key in done:
                 outcome.skipped += 1
                 continue
+            pending.append((item, sut))
 
-            # budget check BEFORE spending on the next cell.
-            if outcome.est_cost_usd >= budget_usd:
-                outcome.budget_hit = True
-                logger(f"BUDGET CAP ${budget_usd:.2f} reached (est ${outcome.est_cost_usd:.4f}) "
-                       f"— aborting cleanly; {outcome.completed} new cells checkpointed.")
-                return outcome
+    # one lock guards ALL shared state (checkpoint file, cost/token accumulator, outcome
+    # tallies, progress print); one lock PER SUT client serializes that client's usage-log
+    # window. In the N=1 path both are uncontended, so behavior is byte-for-byte the original.
+    state_lock = threading.Lock()
+    client_locks: Dict[str, threading.Lock] = defaultdict(threading.Lock)
+    n_seen = 0  # closed over by _commit
 
-            client = sut_clients[sut]
-            ts = now()
-            try:
-                _report, result, usage = run_cell(item, sut, client, panel)
-                if result is not None and result.error:
-                    status = "error"
-                    record = {
-                        "cell_key": key, "item_id": item.id, "sut": sut, "status": status,
-                        "error": result.error, "usage": usage, "timestamp": ts,
-                    }
-                    outcome.errored += 1
-                else:
-                    status = "scored"
-                    record = {
-                        "cell_key": key, "item_id": item.id, "sut": sut, "status": status,
-                        "scores": _cell_scores(result) if result is not None else None,
-                        "usage": usage, "timestamp": ts,
-                    }
-                    outcome.completed += 1
-                if result is not None:
-                    outcome.per_item_results.append((sut, result))
-            except Exception as e:  # noqa: BLE001 - per-cell error survival is the contract
-                # A scoring/panel exception escaped run() — attribute no tokens to it (the
-                # SUT-call path is already error-survived inside run(); this catches the
-                # rarer panel/scorer crash) and keep the run going.
-                usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
-                status = "error"
-                record = {
-                    "cell_key": key, "item_id": item.id, "sut": sut, "status": status,
-                    "error": f"{type(e).__name__}: {e}", "usage": usage, "timestamp": ts,
-                }
-                outcome.errored += 1
+    def _commit(record: Dict[str, Any], result: Optional[Any], sut: str) -> None:
+        """Fold one finished cell into the shared state — checkpoint + accounting + print.
+        Called ONLY under ``state_lock``."""
+        nonlocal n_seen
+        if record["status"] == "error":
+            outcome.errored += 1
+        else:
+            outcome.completed += 1
+        if result is not None:
+            outcome.per_item_results.append((sut, result))
 
-            # cost + token accounting from this cell's usage delta.
-            u = record.get("usage", {})
-            outcome.est_cost_usd += cell_cost(u.get("prompt_tokens", 0),
-                                              u.get("completion_tokens", 0),
-                                              prices.get(sut, (0.0, 0.0)))
-            outcome.total_tokens += u.get("total_tokens", 0)
+        u = record.get("usage", {})
+        outcome.est_cost_usd += cell_cost(u.get("prompt_tokens", 0),
+                                          u.get("completion_tokens", 0),
+                                          prices.get(sut, (0.0, 0.0)))
+        outcome.total_tokens += u.get("total_tokens", 0)
 
-            # SIGINT-safe: checkpoint BEFORE moving on.
-            append_checkpoint(run_dir, record)
-            outcome.cell_records.append(record)
-            done[key] = record
+        # SIGINT-safe: one fsync'd line per cell, serialized so lines never interleave.
+        append_checkpoint(run_dir, record)
+        outcome.cell_records.append(record)
+        done[record["cell_key"]] = record
 
-            n_seen += 1
-            if print_every and n_seen % print_every == 0:
-                logger(f"  {n_seen} new cells · est ${outcome.est_cost_usd:.4f} · "
-                       f"{outcome.total_tokens} tok · {outcome.errored} err")
+        n_seen += 1
+        if print_every and n_seen % print_every == 0:
+            logger(f"  {n_seen} new cells · est ${outcome.est_cost_usd:.4f} · "
+                   f"{outcome.total_tokens} tok · {outcome.errored} err")
+
+    def _budget_exceeded() -> bool:
+        return outcome.est_cost_usd >= budget_usd
+
+    # ---- sequential path (N<=1): byte-for-byte the original loop ----
+    if concurrency is None or concurrency <= 1:
+        for item, sut in pending:
+            with state_lock:  # uncontended; keeps the accounting/print path identical
+                if _budget_exceeded():
+                    outcome.budget_hit = True
+                    logger(f"BUDGET CAP ${budget_usd:.2f} reached (est ${outcome.est_cost_usd:.4f}) "
+                           f"— aborting cleanly; {outcome.completed} new cells checkpointed.")
+                    return outcome
+            record, result = _score_one_cell(
+                item, sut, sut_clients[sut], panel,
+                ts=now(), client_lock=client_locks[sut])
+            with state_lock:
+                _commit(record, result, sut)
+        return outcome
+
+    # ---- concurrent path (N>1) ----
+    it = iter(pending)
+    in_flight: Dict[Any, str] = {}  # future -> sut
+
+    def _submit_next(executor: ThreadPoolExecutor) -> bool:
+        """Submit the next pending cell if the budget still allows. Returns False when
+        nothing more will be submitted (exhausted OR budget capped)."""
+        with state_lock:
+            if _budget_exceeded():
+                if not outcome.budget_hit:
+                    outcome.budget_hit = True
+                    logger(f"BUDGET CAP ${budget_usd:.2f} reached "
+                           f"(est ${outcome.est_cost_usd:.4f}) — no longer submitting; "
+                           f"draining in-flight cells.")
+                return False
+        try:
+            item, sut = next(it)
+        except StopIteration:
+            return False
+        fut = executor.submit(
+            _score_one_cell, item, sut, sut_clients[sut], panel,
+            ts=now(), client_lock=client_locks[sut])
+        in_flight[fut] = sut
+        return True
+
+    with ThreadPoolExecutor(max_workers=concurrency) as executor:
+        try:
+            # prime the pool up to `concurrency` in-flight cells.
+            for _ in range(concurrency):
+                if not _submit_next(executor):
+                    break
+            while in_flight:
+                finished, _ = wait(list(in_flight), return_when=FIRST_COMPLETED)
+                for fut in finished:
+                    sut = in_flight.pop(fut)
+                    record, result = fut.result()  # _score_one_cell never re-raises
+                    with state_lock:
+                        _commit(record, result, sut)
+                    # backfill one new cell per completed cell (steady-state pipeline).
+                    _submit_next(executor)
+        except KeyboardInterrupt:
+            # stop submitting; DRAIN in-flight cells and checkpoint what finished, then
+            # re-raise so the caller's interrupt semantics are preserved.
+            logger("KeyboardInterrupt — draining in-flight cells before exit …")
+            for fut in wait(list(in_flight)).done:
+                sut = in_flight.pop(fut, None)
+                if sut is None:
+                    continue
+                try:
+                    record, result = fut.result()
+                except Exception:  # noqa: BLE001 - drain best-effort; _score_one_cell shouldn't raise
+                    continue
+                with state_lock:
+                    _commit(record, result, sut)
+            raise
 
     return outcome
 

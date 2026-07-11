@@ -113,6 +113,11 @@ def main(argv=None) -> int:
                     help=f"abort cleanly (checkpointed) at this $ estimate (default {mvp.DEFAULT_BUDGET_USD}).")
     ap.add_argument("--print-every", type=int, default=10,
                     help="print running cost/token/error line every N new cells.")
+    ap.add_argument("--concurrency", type=int, default=1,
+                    help="number of cells to score in parallel (default 1 = sequential; "
+                         "N>1 uses a ThreadPoolExecutor). Cells for the same SUT are "
+                         "serialized on that client; distinct SUTs run in parallel. "
+                         "Checkpoint/budget/resume semantics are unchanged.")
     ap.add_argument("--bank-dir", default=BANK_DIR, help="bank YAML dir (default 05-BANK-YAML).")
     args = ap.parse_args(argv)
 
@@ -160,11 +165,11 @@ def main(argv=None) -> int:
     ts = _now()
     print(f"Running {len(plan.runnable)} items × {len(suts)} SUTs "
           f"({'SMOKE limit=' + str(args.limit) if args.limit is not None else 'FULL'}) "
-          f"→ {run_dir}")
+          f"→ {run_dir}  (concurrency={args.concurrency})")
     outcome = mvp.run_bank(
         plan, suts, sut_clients, panel, run_dir,
         catalog=catalog, budget_usd=args.budget, print_every=args.print_every,
-        logger=print, now=_now,
+        concurrency=args.concurrency, logger=print, now=_now,
     )
 
     report_name = f"{datetime.date.today():%Y%m%d}-mvp-run-report.md"

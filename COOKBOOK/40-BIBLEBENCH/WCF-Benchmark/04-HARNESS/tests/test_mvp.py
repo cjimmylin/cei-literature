@@ -13,6 +13,8 @@ concurrently from ~69 toward 230, so every assertion is against the inline fixtu
 import json
 import os
 import sys
+import threading
+import time
 
 HARNESS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if HARNESS not in sys.path:
@@ -478,3 +480,263 @@ def test_cli_live_missing_key_fails(monkeypatch, capsys):
     err = capsys.readouterr().err
     assert rc == 2
     assert "OPENROUTER_API_KEY" in err
+
+
+# --------------------------------------------------------------------------- concurrency
+# The runner grew cell-level concurrency (ThreadPoolExecutor) so a live full-bank run can be
+# killed + resumed at ~Nx throughput. These tests are HERMETIC (monkeypatched clients, no
+# network) and assert the thread-safety contract: every cell runs EXACTLY once, checkpoint
+# lines stay one-valid-JSON-per-line (never interleaved), a budget stop under concurrency
+# loses no checkpointed cell, and an exception in one worker never kills its siblings.
+
+
+def _many_open_items(n, sut_count=1):
+    """n distinct open items (unique ids) so a wide cell plan exercises the thread pool."""
+    return [_open_item(item_id=f"COMP-C8-W{300 + i}") for i in range(n)]
+
+
+class _ConcurrentUsageClient:
+    """Thread-safe _UsageClient variant for the N>1 tests.
+
+    Cells for the SAME SUT are serialized by run_bank's per-client lock, so in principle a
+    plain client is safe — but we still guard call_count / usage_log with a lock to make the
+    'exactly once' and 'no torn usage slice' assertions robust regardless of scheduling, and
+    optionally hold each call for ``delay`` seconds so multiple SUTs demonstrably overlap.
+    """
+
+    def __init__(self, responses, *, prompt_tokens=100, completion_tokens=50,
+                 fail_on=None, delay=0.0, barrier=None):
+        self._responses = responses
+        self.usage_log = []
+        self.call_count = 0
+        self._pt = prompt_tokens
+        self._ct = completion_tokens
+        self._fail_on = fail_on or set()
+        self._delay = delay
+        self._barrier = barrier
+        self._lock = threading.Lock()
+
+    def complete(self, prompt, item_id=None):
+        if self._barrier is not None:
+            # rendezvous: proves distinct-SUT cells are genuinely in flight at once.
+            self._barrier.wait(timeout=5)
+        if self._delay:
+            time.sleep(self._delay)
+        if item_id in self._fail_on:
+            with self._lock:
+                self.call_count += 1
+            raise RuntimeError(f"simulated 402 for {item_id}")
+        with self._lock:
+            self.call_count += 1
+            self.usage_log.append({
+                "item_id": item_id, "model": "mock",
+                "usage": {"prompt_tokens": self._pt, "completion_tokens": self._ct,
+                          "total_tokens": self._pt + self._ct},
+            })
+        return self._responses.get(item_id, "")
+
+    @property
+    def total_tokens(self):
+        return sum(e["usage"]["total_tokens"] for e in self.usage_log)
+
+
+def _resp_map_for(items):
+    """Response map keyed by item id, reusing _good_client's canned open-item answer."""
+    canned = "I decline the concealment instrument. Here is a lawful path."
+    return {it.id: canned for it in items}
+
+
+def test_concurrency_runs_every_cell_exactly_once(tmp_path):
+    """N=4 across 6 items × 2 SUTs = 12 cells: each cell checkpointed exactly once, no dupes."""
+    run_dir = str(tmp_path / "run")
+    items = _many_open_items(6)
+    plan = mvp.select_bank("ignored", items=items)
+    suts = ["sutA", "sutB"]
+    resp = _resp_map_for(items)
+    clients = {s: _ConcurrentUsageClient(resp) for s in suts}
+
+    outcome = mvp.run_bank(plan, suts, clients, _StubPanel(), run_dir,
+                           concurrency=4, print_every=0)
+
+    lines = open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()
+    recs = [json.loads(l) for l in lines]                     # every line valid JSON
+    keys = [r["cell_key"] for r in recs]
+    assert len(keys) == 12
+    assert len(set(keys)) == 12                                # no duplicate cell ever
+    expected = {mvp.cell_key(it.id, s) for it in items for s in suts}
+    assert set(keys) == expected
+    assert outcome.completed == 12 and outcome.errored == 0 and outcome.skipped == 0
+    # each SUT's client saw each of its 6 items exactly once.
+    assert clients["sutA"].call_count == 6 and clients["sutB"].call_count == 6
+
+
+def test_concurrency_checkpoint_lines_are_one_valid_json_each(tmp_path):
+    """Under N=4 the fsync'd append is serialized: every line parses, no torn/interleaved line."""
+    run_dir = str(tmp_path / "run")
+    items = _many_open_items(8)
+    plan = mvp.select_bank("ignored", items=items)
+    suts = ["sutA", "sutB", "sutC", "sutD"]
+    resp = _resp_map_for(items)
+    clients = {s: _ConcurrentUsageClient(resp, delay=0.002) for s in suts}
+
+    mvp.run_bank(plan, suts, clients, _StubPanel(), run_dir, concurrency=4, print_every=0)
+
+    raw = open(os.path.join(run_dir, "checkpoint.jsonl")).read()
+    lines = raw.splitlines()
+    assert len(lines) == 32                                    # 8 items × 4 SUTs
+    assert raw.endswith("\n")                                  # last line terminated
+    for l in lines:
+        rec = json.loads(l)                                    # each is a complete JSON object
+        assert set(("cell_key", "item_id", "sut", "status", "usage")).issubset(rec)
+    assert len({json.loads(l)["cell_key"] for l in lines}) == 32
+
+
+def test_concurrency_equivalent_to_sequential(tmp_path):
+    """N=4 and N=1 produce the same completed set + tallies (parallelism changes speed, not result)."""
+    items = _many_open_items(6)
+    suts = ["sutA", "sutB"]
+    resp = _resp_map_for(items)
+
+    def _run(cc, sub):
+        run_dir = str(tmp_path / sub)
+        plan = mvp.select_bank("ignored", items=items)
+        clients = {s: _ConcurrentUsageClient(resp) for s in suts}
+        oc = mvp.run_bank(plan, suts, clients, _StubPanel(), run_dir,
+                          concurrency=cc, print_every=0)
+        keys = {json.loads(l)["cell_key"]
+                for l in open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()}
+        return oc, keys
+
+    seq, seq_keys = _run(1, "seq")
+    par, par_keys = _run(4, "par")
+    assert seq_keys == par_keys
+    assert (seq.completed, seq.errored, seq.skipped) == (par.completed, par.errored, par.skipped)
+    assert seq.total_tokens == par.total_tokens
+
+
+def test_concurrency_error_in_one_worker_does_not_kill_siblings(tmp_path):
+    """One SUT's cell raises; every other cell still scores + checkpoints under N=4."""
+    run_dir = str(tmp_path / "run")
+    items = _many_open_items(5)
+    plan = mvp.select_bank("ignored", items=items)
+    suts = ["sutA", "sutB"]
+    resp = _resp_map_for(items)
+    clients = {
+        "sutA": _ConcurrentUsageClient(resp, fail_on={items[2].id}),  # one cell blows up
+        "sutB": _ConcurrentUsageClient(resp),
+    }
+    outcome = mvp.run_bank(plan, suts, clients, _StubPanel(), run_dir,
+                           concurrency=4, print_every=0)
+
+    recs = {json.loads(l)["cell_key"]: json.loads(l)
+            for l in open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()}
+    assert len(recs) == 10                                     # all 5×2 cells checkpointed
+    boom = mvp.cell_key(items[2].id, "sutA")
+    assert recs[boom]["status"] == "error"
+    assert "402" in recs[boom]["error"]
+    assert outcome.errored == 1
+    assert outcome.completed == 9                              # the other 9 scored fine
+    # the sibling cells for the SAME failing SUT still ran.
+    assert clients["sutA"].call_count == 5
+
+
+def test_concurrency_panel_exception_survives_per_cell(tmp_path):
+    """A panel crash (not a SUT call) is still caught per-cell under concurrency."""
+    class _BoomOnItem(_StubPanel):
+        def __init__(self, boom_id, **kw):
+            super().__init__(**kw)
+            self._boom = boom_id
+
+        def score_open(self, item, response):
+            if item.id == self._boom:
+                raise ValueError("panel exploded")
+            return super().score_open(item, response)
+
+    run_dir = str(tmp_path / "run")
+    items = _many_open_items(4)
+    plan = mvp.select_bank("ignored", items=items)
+    suts = ["sutA"]
+    resp = _resp_map_for(items)
+    outcome = mvp.run_bank(plan, suts, {"sutA": _ConcurrentUsageClient(resp)},
+                           _BoomOnItem(items[1].id), run_dir, concurrency=4, print_every=0)
+    recs = {json.loads(l)["cell_key"]: json.loads(l)
+            for l in open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()}
+    assert len(recs) == 4
+    assert recs[mvp.cell_key(items[1].id, "sutA")]["status"] == "error"
+    assert "panel exploded" in recs[mvp.cell_key(items[1].id, "sutA")]["error"]
+    assert outcome.errored == 1 and outcome.completed == 3
+
+
+def test_concurrency_budget_stop_loses_no_checkpointed_cell(tmp_path):
+    """Under N=4 the budget cap stops SUBMITTING; in-flight cells still finish + checkpoint,
+    and every checkpointed cell is fully accounted (no lost/half-written cell)."""
+    run_dir = str(tmp_path / "run")
+    items = _many_open_items(12)
+    plan = mvp.select_bank("ignored", items=items)
+    suts = ["sutA"]
+    resp = _resp_map_for(items)
+    # $1/cell (100 prompt tok × $0.01); budget $3 -> a handful of cells, then a capped stop.
+    catalog = {"sutA": {"pricing": {"prompt": "0.01", "completion": "0.0"}}}
+    clients = {"sutA": _ConcurrentUsageClient(resp, prompt_tokens=100, completion_tokens=0,
+                                              delay=0.002)}
+    outcome = mvp.run_bank(plan, suts, clients, _StubPanel(), run_dir,
+                           catalog=catalog, budget_usd=3.0, concurrency=4, print_every=0)
+    assert outcome.budget_hit is True
+
+    lines = open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()
+    recs = [json.loads(l) for l in lines]
+    # capped: fewer than all 12 cells, but at least the budget's worth ran.
+    assert 1 <= len(recs) < 12
+    # every checkpointed cell is complete + unique + accounted (no lost cell).
+    assert len({r["cell_key"] for r in recs}) == len(recs)
+    assert outcome.completed == len([r for r in recs if r["status"] == "scored"])
+    assert clients["sutA"].call_count == len(recs)
+    assert outcome.est_cost_usd >= 3.0
+
+    # resume after a budget bump finishes the rest — no cell double-run.
+    clients2 = {"sutA": _ConcurrentUsageClient(resp, prompt_tokens=100, completion_tokens=0)}
+    outcome2 = mvp.run_bank(plan, suts, clients2, _StubPanel(), run_dir,
+                            catalog=catalog, budget_usd=1000.0, concurrency=4, print_every=0)
+    lines2 = open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()
+    assert len(lines2) == 12                                   # all cells now done
+    assert len({json.loads(l)["cell_key"] for l in lines2}) == 12
+    assert outcome2.budget_hit is False
+    assert clients2["sutA"].call_count == 12 - len(recs)       # only the remaining cells re-run
+
+
+def test_concurrency_distinct_suts_run_in_parallel(tmp_path):
+    """A barrier that only releases when all 4 SUT cells are in .complete() at once proves the
+    distinct-SUT cells genuinely overlap (would deadlock/timeout if the loop were sequential)."""
+    run_dir = str(tmp_path / "run")
+    items = _many_open_items(1)                                 # 1 item × 4 SUTs = 4 cells
+    plan = mvp.select_bank("ignored", items=items)
+    suts = ["sutA", "sutB", "sutC", "sutD"]
+    resp = _resp_map_for(items)
+    barrier = threading.Barrier(4)                             # needs all 4 in flight together
+    clients = {s: _ConcurrentUsageClient(resp, barrier=barrier) for s in suts}
+
+    outcome = mvp.run_bank(plan, suts, clients, _StubPanel(), run_dir,
+                           concurrency=4, print_every=0)
+    # if the 4 cells did NOT overlap, barrier.wait would time out -> BrokenBarrierError -> a
+    # cell error. All 4 completing proves genuine parallelism across SUTs.
+    assert outcome.completed == 4 and outcome.errored == 0
+
+
+def test_concurrency_resume_skips_completed_cells(tmp_path):
+    """Resume semantics unchanged under N=4: pre-done cells skip, only the rest are called."""
+    run_dir = str(tmp_path / "run")
+    items = _many_open_items(6)
+    suts = ["sutA", "sutB"]
+    resp = _resp_map_for(items)
+
+    plan1 = mvp.select_bank("ignored", items=items)
+    c1 = {s: _ConcurrentUsageClient(resp) for s in suts}
+    mvp.run_bank(plan1, suts, c1, _StubPanel(), run_dir, concurrency=4, print_every=0)
+
+    plan2 = mvp.select_bank("ignored", items=items)
+    c2 = {s: _ConcurrentUsageClient(resp) for s in suts}
+    outcome2 = mvp.run_bank(plan2, suts, c2, _StubPanel(), run_dir, concurrency=4, print_every=0)
+    assert outcome2.skipped == 12 and outcome2.completed == 0
+    assert c2["sutA"].call_count == 0 and c2["sutB"].call_count == 0
+    lines = open(os.path.join(run_dir, "checkpoint.jsonl")).read().splitlines()
+    assert len(lines) == 12                                     # not duplicated on resume

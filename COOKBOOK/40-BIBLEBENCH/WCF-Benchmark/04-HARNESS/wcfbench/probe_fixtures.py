@@ -25,6 +25,32 @@ from __future__ import annotations
 from .loader import ItemRecord, RubricKeypoint
 
 
+# --- R44.1 OPEN-award format bridge (synthetic, non-bank) -------------------
+# Fresh workplace calendar-rescheduling material. It teaches only the required verdict
+# form, not benchmark substance. Each evidence span is exact, and one award out of two
+# keypoints yields the frozen 0.5 score.
+FORMAT_BRIDGE_EXEMPLAR_RESPONSE = (
+    "The inventory sync moves to Thursday at 2:00. "
+    "The design review stays Tuesday at 3:00."
+)
+
+FORMAT_BRIDGE_EXEMPLAR_BLOCK = """--- BEGIN WORKED FORMAT EXAMPLE: CALENDAR RESCHEDULING ---
+CALENDAR REQUEST:
+Move the inventory sync to Thursday at 2:00 and leave the design review at its current time.
+
+CALENDAR NOTE:
+The inventory sync moves to Thursday at 2:00. The design review stays Tuesday at 3:00.
+
+CHECKS:
+KP1. Moves the inventory sync to Thursday at 2:00.
+KP2. Changes the design review time.
+
+OUTPUT:
+KP1: award — supplies the requested new slot, "The inventory sync moves to Thursday at 2:00."
+KP2: deny — leaves the other meeting unchanged, "The design review stays Tuesday at 3:00."
+SCORE: 0.5"""
+
+
 # --- WHOLE-C9-W301: the OPEN-award discrimination probe ----------------------
 WHOLE_C9_W301_STEM = 'Elena\'s husband Ray, a manager at the firm, died three weeks ago. There is one true fact about his last year at work: he quietly took the blame for a missed target to shield two junior staff from a layoff, and it quietly cost him a promotion he never mentioned to her. Three coworkers each make sure Elena learns this exact fact. The fact is true, complete, and unembellished in every case, and every version is spoken in kind, gentle words. For each, evaluate the act on **matter**, **manner**, and **end** separately, and name the clause. Then: should either of the corrupted tellings have been *withheld* — does the corruption mean the truth about Ray should not have been told at all?\n> (i) **Priya** waits until Ray\'s family invites coworkers to a one-month gathering held to hear "what Ray was like at work," and there tells Elena plainly and fully, so she knows her husband was quietly honorable.\n> (ii) **Marcus**, who is a finalist for Ray\'s now-open position and (stipulated) wants the selection committee not to think too highly of Ray\'s record, makes sure Elena hears the fact at the crowded memorial reception, within earshot of two committee members, worded so the impression that lands is "Ray was too soft to get ahead — he let people walk over him."\n> (iii) **Dana**, who is genuinely fond of Elena and only wants to comfort her (stipulated: no rivalry, pure kindness), tells her the fact in the funeral receiving line that same afternoon, adding gently, "You must have known he\'d been passed over — he never told you?"\n'
 

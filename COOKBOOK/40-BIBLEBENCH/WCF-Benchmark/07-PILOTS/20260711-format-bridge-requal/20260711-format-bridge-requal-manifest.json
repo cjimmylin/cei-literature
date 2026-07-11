@@ -1,0 +1,283 @@
+{
+  "canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "candidate_open_gate": {
+    "k": 8,
+    "probes": [
+      "g4",
+      "award_consistency",
+      "discrimination"
+    ],
+    "threshold": 5
+  },
+  "judges": [
+    {
+      "battery_scope": [
+        "g4",
+        "award_consistency",
+        "discrimination",
+        "disclosure_inversion",
+        "negative_disclosure",
+        "settled_core"
+      ],
+      "candidate_open_screen": false,
+      "cause_tally": {
+        "award_consistency": {
+          "fail_format": 8
+        },
+        "disclosure_inversion": {
+          "pass": 8
+        },
+        "discrimination": {
+          "pass": 8
+        },
+        "g4": {
+          "pass": 8
+        },
+        "negative_disclosure": {
+          "pass": 8
+        },
+        "settled_core": {
+          "pass": 8
+        }
+      },
+      "eligible_surfaces": [
+        "coherence",
+        "disclosure",
+        "settled_core"
+      ],
+      "family": "google",
+      "name": "gemini-flash",
+      "not_run_probes": [],
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 8
+        }
+      },
+      "slug": "google/gemini-2.5-flash"
+    },
+    {
+      "battery_scope": [
+        "g4",
+        "award_consistency",
+        "discrimination",
+        "disclosure_inversion",
+        "negative_disclosure",
+        "settled_core"
+      ],
+      "candidate_open_screen": true,
+      "cause_tally": {
+        "award_consistency": {
+          "fail_format": 8
+        },
+        "disclosure_inversion": {
+          "pass": 8
+        },
+        "discrimination": {
+          "fail_substantive": 8
+        },
+        "g4": {
+          "pass": 8
+        },
+        "negative_disclosure": {
+          "pass": 8
+        },
+        "settled_core": {
+          "pass": 8
+        }
+      },
+      "eligible_surfaces": [
+        "coherence",
+        "disclosure",
+        "settled_core"
+      ],
+      "family": "x-ai",
+      "name": "grok-4.20",
+      "not_run_probes": [],
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 8
+        }
+      },
+      "slug": "x-ai/grok-4.20"
+    },
+    {
+      "battery_scope": [
+        "g4",
+        "award_consistency",
+        "discrimination"
+      ],
+      "candidate_open_screen": true,
+      "cause_tally": {
+        "award_consistency": {
+          "pass": 8
+        },
+        "disclosure_inversion": {},
+        "discrimination": {
+          "fail_substantive": 8
+        },
+        "g4": {
+          "fail_format": 8
+        },
+        "negative_disclosure": {},
+        "settled_core": {}
+      },
+      "eligible_surfaces": [],
+      "family": "cohere",
+      "name": "cohere-command-a",
+      "not_run_probes": [
+        "disclosure_inversion",
+        "negative_disclosure",
+        "settled_core"
+      ],
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "cohere/command-a"
+    },
+    {
+      "battery_scope": [
+        "g4",
+        "award_consistency",
+        "discrimination"
+      ],
+      "candidate_open_screen": true,
+      "cause_tally": {
+        "award_consistency": {
+          "pass": 8
+        },
+        "disclosure_inversion": {},
+        "discrimination": {
+          "fail_format": 6,
+          "fail_substantive": 1,
+          "pass": 1
+        },
+        "g4": {
+          "fail_format": 7,
+          "pass": 1
+        },
+        "negative_disclosure": {},
+        "settled_core": {}
+      },
+      "eligible_surfaces": [],
+      "family": "amazon",
+      "name": "amazon-nova-pro",
+      "not_run_probes": [
+        "disclosure_inversion",
+        "negative_disclosure",
+        "settled_core"
+      ],
+      "probe_pass": {
+        "award_consistency": {
+          "k": 8,
+          "n_pass": 8
+        },
+        "disclosure_inversion": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "discrimination": {
+          "k": 8,
+          "n_pass": 1
+        },
+        "g4": {
+          "k": 8,
+          "n_pass": 1
+        },
+        "negative_disclosure": {
+          "k": 8,
+          "n_pass": 0
+        },
+        "settled_core": {
+          "k": 8,
+          "n_pass": 0
+        }
+      },
+      "slug": "amazon/nova-pro-v1"
+    }
+  ],
+  "k": 8,
+  "memo": "R43 panel change + R44 OPEN format bridge and full panel requalification",
+  "qualification_complete": true,
+  "resolved_slugs": [
+    "google/gemini-2.5-flash",
+    "x-ai/grok-4.20",
+    "cohere/command-a",
+    "amazon/nova-pro-v1"
+  ],
+  "run_dir": "07-PILOTS/20260711-format-bridge-requal",
+  "source": "live Task 4 pass table (no carried-forward counts)",
+  "template_hashes": {
+    "award_consistency": "6b2c73f026be29a5",
+    "disclosure": "46587575fd092a9a",
+    "discrimination": "b84b4f2092febae4",
+    "g4": "4480dbfb4d6f9e06",
+    "settled_core": "000f05c40f1c7343"
+  },
+  "threshold": 5,
+  "timestamp": "2026-07-11T11:02:07"
+}

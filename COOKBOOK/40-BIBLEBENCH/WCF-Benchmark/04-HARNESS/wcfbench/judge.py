@@ -322,6 +322,8 @@ def build_award_prompt(
     Only keypoints carrying an ``axis`` tag are enumerated (untagged keypoints fall
     to the numeric axis fallback and are not awarded here).
     """
+    from .probe_fixtures import FORMAT_BRIDGE_EXEMPLAR_BLOCK
+
     tagged = [(i, kp) for i, kp in enumerate(rubric) if getattr(kp, "axis", None) in _AWARD_AXES]
     # KP index is 1-based over the tagged keypoints in rubric order (stable for parsing).
     kp_number: Dict[int, int] = {orig_i: n for n, (orig_i, _) in enumerate(tagged, 1)}
@@ -354,6 +356,8 @@ def build_award_prompt(
         _NEUTRALITY_GUARDRAIL,
         _CLAUSE_GLOSS_NOTE,
         _WILLINGNESS_NOTE,
+        "",
+        FORMAT_BRIDGE_EXEMPLAR_BLOCK,
         "",
         "Emit EXACTLY one line per keypoint in this REQUIRED form — a one-line reason AND "
         "a short verbatim quote from the response are MANDATORY on every line:",

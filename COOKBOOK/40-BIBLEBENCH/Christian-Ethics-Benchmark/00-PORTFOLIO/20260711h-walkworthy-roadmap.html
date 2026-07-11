@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!-- WALKWORTHY-CANARY-7f3e2026 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WALKWORTHY — Roadmap &amp; Status (2026-07-11)</title>
+<style>
+  :root{
+    --bg:#0e1320; --panel:#161d2e; --panel2:#1b2438; --line:#2a3550;
+    --text:#dce4f2; --dim:#8fa0bd; --faint:#5c6c8a;
+    --fable:#b48cf2; --opus:#5aa7f0; --codex:#4fd1a5; --jimmy:#f0b45a;
+    --done:#4fd1a5; --active:#f0b45a; --pending:#5c6c8a; --fail:#ef7070; --real:#6fd06f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:1060px;margin:0 auto;padding:36px 28px 80px}
+  h1{font-size:26px;margin:0 0 4px} h2{font-size:19px;margin:42px 0 14px;color:var(--text)}
+  h2 .n{color:var(--faint);font-weight:400;margin-right:8px}
+  .sub{color:var(--dim);margin:0 0 26px}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:var(--panel2);
+       padding:1px 5px;border-radius:4px;color:#c8d6ee}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+  /* headline answers */
+  .answers{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  .answer{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+  .answer .q{color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+  .answer .big{font-size:30px;font-weight:700;line-height:1.15}
+  .answer .big small{font-size:15px;font-weight:400;color:var(--dim)}
+  .answer .note{color:var(--dim);font-size:13.5px;margin-top:10px}
+  .statusbar{margin-top:14px;color:var(--dim);font-size:13.5px}
+  .statusbar b{color:var(--text)}
+  /* badges */
+  .badge{display:inline-block;padding:1px 9px;border-radius:20px;font-size:11.5px;font-weight:600;
+         letter-spacing:.03em;vertical-align:1px}
+  .b-fable{background:#2b2140;color:var(--fable)} .b-opus{background:#16283e;color:var(--opus)}
+  .b-codex{background:#123227;color:var(--codex)} .b-jimmy{background:#3a2c14;color:var(--jimmy)}
+  .b-done{background:#123227;color:var(--done)} .b-active{background:#3a2c14;color:var(--active)}
+  .b-pending{background:#232c3e;color:var(--dim)} .b-fail{background:#3c1e1e;color:var(--fail)}
+  .b-real{background:#1c3220;color:var(--real)} .b-art{background:#3c1e1e;color:var(--fail)}
+  .b-na{background:#232c3e;color:var(--dim)}
+  /* timeline */
+  .tl{list-style:none;margin:0;padding:0 0 0 26px;border-left:2px solid var(--line)}
+  .tl li{position:relative;padding:0 0 20px 20px}
+  .tl li::before{content:"";position:absolute;left:-31px;top:6px;width:8px;height:8px;border-radius:50%;
+                 background:var(--done);box-shadow:0 0 0 3px #123227}
+  .tl li.last::before{background:var(--fable);box-shadow:0 0 0 3px #2b2140}
+  .tl .d{color:var(--faint);font-size:12.5px;font-family:ui-monospace,Menlo,monospace}
+  .tl .t{font-weight:650;margin:1px 0 2px}
+  .tl .s{color:var(--dim);font-size:13.5px}
+  /* tables */
+  table{border-collapse:collapse;width:100%;font-size:13.8px}
+  th{color:var(--dim);text-align:left;font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line);
+     font-size:12.5px;text-transform:uppercase;letter-spacing:.05em}
+  td{padding:8px 10px;border-bottom:1px solid #1f2940;vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  .num{text-align:center;white-space:nowrap}
+  /* lanes */
+  .lanes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+  .lane{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+  .lane h3{margin:0 0 10px;font-size:15px}
+  .lane ul{margin:0;padding-left:18px;color:var(--dim);font-size:13.5px}
+  .lane li{margin-bottom:6px}
+  /* progress */
+  .prog{margin:18px 0 6px}
+  .prog .cap{display:flex;justify-content:space-between;color:var(--dim);font-size:13px;margin-bottom:6px}
+  .bar{height:14px;border-radius:8px;background:var(--panel2);overflow:hidden;display:flex}
+  .seg{height:100%}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;color:var(--dim);font-size:12.5px;margin-top:8px}
+  .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+  .foot{margin-top:46px;color:var(--faint);font-size:12.5px;border-top:1px solid var(--line);padding-top:14px}
+  @media (max-width:760px){.answers,.lanes{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>WALKWORTHY — Overall Plan, Status &amp; Session Forecast</h1>
+<p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
+· Rendered 2026-07-11 at commit <span class="mono">eb32a42cd</span> · Sources: master plan (2026-07-06, frozen),
+panel report <span class="mono">20260711b</span>, validity review <span class="mono">20260711c</span>,
+O5 framework <span class="mono">20260711d</span></p>
+
+<div class="answers">
+  <div class="answer">
+    <div class="q">Sessions until a finalized benchmark</div>
+    <div class="big">≈ 6 <small>agent sessions (range 4–8)</small></div>
+    <div class="note"><b>Plus Jimmy's ~25–30 h of human labeling</b> — the critical path. Agent work runs in
+    parallel with it; nothing releases without the labels (gate G4) and Jimmy's sign-off.</div>
+  </div>
+  <div class="answer">
+    <div class="q">Sessions until a finalized paper</div>
+    <div class="big">≈ 10–11 <small>total from today (range 9–13)</small></div>
+    <div class="note">Paper work adds ~4–5 sessions after the benchmark verdicts: findings/deck (O6) → full draft
+    → Fable claims review → camera-ready.</div>
+  </div>
+</div>
+<p class="statusbar"><b>Where we are:</b> the full 6-model measurement is DONE (2,064/2,064 cells, $48.75, 0 schema
+errors) and every remaining <em>judgment</em> is pre-made and frozen. The thread is handed to <b>Codex</b> for
+mechanical execution; the open dependency is <b>Jimmy's labels</b>.</p>
+
+<h2><span class="n">1</span>The original plan (master plan §1, frozen 2026-07-06)</h2>
+<div class="panel">
+<table>
+<tr><th style="width:90px">Session</th><th>Scope</th><th style="width:120px">Status</th></tr>
+<tr><td class="mono">O1</td><td>Bank completion + holdout split (public 356 / holdout 158)</td><td><span class="badge b-done">DONE 07-09</span></td></tr>
+<tr><td class="mono">O2</td><td>Harness — manifest-driven, mock-first, judge layer, refusal taxonomy</td><td><span class="badge b-done">DONE 07-09</span></td></tr>
+<tr><td class="mono">O3</td><td>Pilot P0 — shake out mechanics (fix mechanics only, never items)</td><td><span class="badge b-done">DONE 07-09</span></td></tr>
+<tr><td class="mono">O4</td><td>Panel run — ≥6 frontier models × full public split, all gate statistics</td><td><span class="badge b-done">DONE 07-11</span></td></tr>
+<tr><td class="mono">O5</td><td>Gate adjudication &amp; revision — mechanical application of the frozen gates</td><td><span class="badge b-active">IN PROGRESS</span></td></tr>
+<tr><td class="mono">O6</td><td>Findings &amp; deck v2 — headline analyses, profile cards, paper skeleton</td><td><span class="badge b-pending">PENDING</span></td></tr>
+</table>
+<p style="color:var(--dim);font-size:13.5px;margin:12px 0 0">Ten pre-registered gates govern release:
+<b>G1</b> headroom · <b>G2</b> spread · <b>G3</b> capability-wash · <b>G4</b> judge validity (human labels) ·
+<b>G5</b> reference neutrality (06/09) · <b>G6</b> lexical shortcut · <b>G7</b> perturbation robustness ·
+<b>G8</b> item kills · <b>G9</b> mandatory gap headlines · <b>G10</b> no composite leaderboard.
+Changing any of them requires a logged Jimmy ruling.</p>
+</div>
+
+<h2><span class="n">2</span>What has happened (2026-07-06 → 2026-07-11)</h2>
+<ul class="tl">
+  <li><span class="d">07-06</span> <span class="badge b-fable">FABLE</span>
+    <div class="t">Genesis — the whole design layer in one session</div>
+    <div class="s">Normative charter (14 areas, 3 strata), PRD, 10 design specs + 41 exemplars, 14 citation-verified
+    anchor packs, 231-item seed banks, adversarial review cycle 1, item playbook, master plan with pre-registered
+    gates, HTML deck.</div></li>
+  <li><span class="d">07-07</span> <span class="badge b-fable">FABLE</span><span class="badge b-opus">OPUS</span>
+    <div class="t">Wave 2 — banks doubled</div>
+    <div class="s">462 seeds / ~503 cases via dual-tier drafting; cycle-2 review defect rate halved (17.7% vs ~32%).</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O1 — banks complete + holdout split</div>
+    <div class="s">514 cases total → PUBLIC 356 (344 runnable) / HOLDOUT 158 (33.4%, gitignored, never loaded).</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O2 — harness (mock-first)</div>
+    <div class="s">Full pipeline with zero live calls; loader hard-refuses HOLDOUT; dry-run 2,064 records, 0 schema errors.</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O3 — live mechanics smoke</div>
+    <div class="s">First live calls (smoke scale); discovered the refusal-taxonomy defect (PR-3) that later got a full ruling.</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">OpenRouter path + O4-prep + P0 pilot</div>
+    <div class="s">Sanctioned one-key multi-vendor path; resumable panel runner; pilot 3 SUTs × 50 items = 150 records,
+    $0.63, judge-agreement risk on per-turn designs identified (0.43/0.49).</div></li>
+  <li><span class="d">07-10</span> <span class="badge b-fable">FABLE</span>
+    <div class="t">Gate pre-registration + PR-3 ruling + human-label protocol</div>
+    <div class="s">§B primary metrics, §C gate computations, §E judge plan — all frozen before any panel score existed.</div></li>
+  <li><span class="d">07-10</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O4-build — offline half</div>
+    <div class="s">All ten §B metrics implemented (TDD), PR-3 rules, label tooling, gates module; SUT roster probed and set.</div></li>
+  <li><span class="d">07-10/11</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O4-RUN — the full panel measurement</div>
+    <div class="s">6 SUTs × 344 items = <b>2,064/2,064 cells, $48.75, 0 schema errors</b>; two real live bugs caught +
+    fixed mid-run; descriptive report rendered; 439 blind label units drawn for Jimmy.</div></li>
+  <li class="last"><span class="d">07-11</span> <span class="badge b-fable">FABLE</span>
+    <div class="t">Transition-prep — the last judgment layer frozen (this thread)</div>
+    <div class="s">Adversarial validity review (V-1…V-14), O5 decision framework (FR-1…FR-15: every "given outcome X → do Y"
+    pre-decided), Codex execution package + boot prompt. <b>Thread closed → handed to Codex.</b></div></li>
+</ul>
+
+<h2><span class="n">3</span>Where we are now — gate readings and what they're worth</h2>
+<div class="panel">
+<table>
+<tr><th>Gate</th><th>Reading today</th><th>Validity ruling (review 20260711c)</th></tr>
+<tr><td class="mono">G1 headroom</td><td>FAIL on 05, 06, 08, 09</td>
+  <td><span class="badge b-real">REAL</span> on 05 (judge-free metric) — rework already ordered.
+      <span class="badge b-art">BIASED</span> on 06/08/09 — recompute after adjudication.</td></tr>
+<tr><td class="mono">G2 spread</td><td>FAIL on 05; PASS elsewhere</td>
+  <td>05 <span class="badge b-real">REAL</span>; 07's "PASS" is an <span class="badge b-art">ARTIFACT</span> (2-dialogue sample).</td></tr>
+<tr><td class="mono">G3 capability-wash</td><td>FAIL on 01, 04, 07</td>
+  <td>Only <b>01</b> is live (ρ=0.83, p≈.05); 04/07 are noise. Verdicts wait for recompute.</td></tr>
+<tr><td class="mono">G4 judge validity</td><td><span class="badge b-pending">PENDING</span></td>
+  <td>Needs Jimmy's labels. <b>The release gate.</b> Branch table pre-decided per outcome.</td></tr>
+<tr><td class="mono">G5 neutrality (06/09)</td><td><span class="badge b-pending">PENDING</span></td>
+  <td>Tooling to build (Codex W4); disqualification cascade pre-decided (FR-8).</td></tr>
+<tr><td class="mono">G6 shortcut</td><td>PASS on 03; N/A on 9 designs</td>
+  <td>N/A = <span class="badge b-na">NOT-EVALUABLE</span>, never "PASS" (FR-4); amendment filed for next cycle (PR-7).</td></tr>
+<tr><td class="mono">G7 perturbation</td><td><span class="badge b-pending">PENDING</span></td>
+  <td>Batteries to build (Codex W5); release-blocking per charter §6.6.</td></tr>
+<tr><td class="mono">G8 item kills</td><td>Flags computed</td>
+  <td>Kills need complete adjudicated coverage (FR-13) — none execute yet.</td></tr>
+<tr><td class="mono">G9 / G10</td><td>Honored</td><td>Gap headlines published incl. nulls; no composite anywhere.</td></tr>
+</table>
+<p style="color:var(--dim);font-size:13.5px;margin:12px 0 0"><b>The one big data caveat:</b> 609 of 2,064 cells
+(29.5%) are <code>pending_adjudication</code> — the two judges disagreed. On the per-turn designs this compounds:
+02's headline statistic currently rests on 1–6 of 36 dialogues per model. Everything on designs 02/04/07/09 is
+therefore unreadable until the third-judge tie-breaker runs (Codex Phase 1, no labels needed).</p>
+</div>
+
+<h2><span class="n">4</span>Who owes what</h2>
+<div class="lanes">
+  <div class="lane"><h3><span class="badge b-codex">CODEX</span> executes (judgment-free)</h3>
+    <ul><li><b>Phase 0+1 — can start today, no labels:</b> tie-breaker on the 609 cells, judge home-advantage test,
+    recompute, G5 driver, G7 batteries (~1–2 sessions, &lt;$30 live)</li>
+    <li><b>Phase 2+3 — after labels:</b> G4 per wave → verdicts via the frozen formula (~1–2 sessions)</li></ul></div>
+  <div class="lane"><h3><span class="badge b-jimmy">JIMMY</span> human critical path</h3>
+    <ul><li>Part-A labels: wave 1 = designs 02/07/01 (~8–10 h), waves 2–3 (~17–20 h) + a 2nd labeler on the overlap
+    (or declared test–retest)</li>
+    <li>Ratification one-liners (PR-1..PR-6 + FR bundle)</li>
+    <li>Release sign-off — always Jimmy-only</li></ul></div>
+  <div class="lane"><h3><span class="badge b-fable">FABLE / CLAUDE</span> re-enters for</h3>
+    <ul><li>Adversarial review of the O5 verdict report</li>
+    <li>Escalations Codex parks in PENDING-RULINGS (both-judge disqualification, prevalence-paradox, kill disputes)</li>
+    <li>Paper claims section (per master plan §5)</li></ul></div>
+</div>
+
+<h2><span class="n">5</span>Road to a finalized benchmark — ≈ 6 sessions (4–8)</h2>
+<div class="panel">
+<table>
+<tr><th style="width:44%">Phase</th><th>Who</th><th class="num">Sessions</th><th>Blocked on</th></tr>
+<tr><td>O5 Phase 0+1: tie-breaker adjudication, home-advantage test, recompute, G5 + G7 builds/runs</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">1–2</td><td>nothing — ready now</td></tr>
+<tr><td>Part-A human labels (3 waves) + 2nd labeler</td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">~25–30 h</td><td><b>the critical path</b> (parallel to above)</td></tr>
+<tr><td>O5 Phase 2+3: G4 per wave, verdict assembly via the frozen release formula</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">1–2</td><td>labels per wave</td></tr>
+<tr><td>Adversarial review of the O5 verdicts + any parked escalations</td>
+  <td><span class="badge b-fable">FABLE</span></td><td class="num">1</td><td>verdicts exist</td></tr>
+<tr><td>Rework cycle: 05 difficulty ladder (already ordered); 02/07 rubric rework if G4 fails there; G7-affected item revisions</td>
+  <td><span class="badge b-opus">OPUS</span>/<span class="badge b-codex">CODEX</span></td><td class="num">1–2</td><td>verdicts</td></tr>
+<tr><td>Re-run affected slices, re-adjudicate, final release sign-off</td>
+  <td><span class="badge b-codex">CODEX</span> + <span class="badge b-jimmy">JIMMY</span></td><td class="num">1</td><td>rework done</td></tr>
+</table>
+<p style="color:var(--dim);font-size:13.5px;margin:12px 0 0"><b>Best case 4</b> (clean G4 across the board, light rework) ·
+<b>expected ~6</b> · <b>worst ~8</b> (02/07 rubric decomposition + judge escalation ladder + deep G7 revisions).
+The variance drivers are the G4 outcome on the two per-turn designs and the G5/G7 results — all branches are
+pre-decided, so bad outcomes cost sessions, not decisions.</p>
+</div>
+
+<h2><span class="n">6</span>Road to a finalized paper — ≈ 10–11 total sessions (9–13)</h2>
+<div class="panel">
+<table>
+<tr><th style="width:44%">Phase</th><th>Who</th><th class="num">Sessions</th><th>Notes</th></tr>
+<tr><td>O6: findings + deck v2 + paper skeleton (headline analyses A–I are pre-specified in master plan §4)</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">1</td><td>starts once verdicts land</td></tr>
+<tr><td>Full paper draft: methods, the ten designs, gate/validity story, results</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">1–2</td><td>the pre-registration story is a strength — write it as run</td></tr>
+<tr><td>Claims-section adversarial review (master plan §5 reserves this for Fable)</td>
+  <td><span class="badge b-fable">FABLE</span></td><td class="num">1</td><td>every claim traced to a gate-cleared cell</td></tr>
+<tr><td>Revision + figures + camera-ready</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">1</td><td>+ Jimmy's author pass (human)</td></tr>
+</table>
+<div class="prog">
+  <div class="cap"><span>Overall arc (sessions, approximate)</span><span>~22 done · ~10–11 to go</span></div>
+  <div class="bar">
+    <div class="seg" style="width:67%;background:#2f7d5f" title="Completed ~22 sessions"></div>
+    <div class="seg" style="width:20%;background:#7a5f2a" title="To benchmark ~6"></div>
+    <div class="seg" style="width:13%;background:#3a4a6a" title="To paper ~4-5"></div>
+  </div>
+  <div class="legend">
+    <span><span class="sw" style="background:#2f7d5f"></span>Done (design → banks → harness → pilot → full panel → O5 freeze, ~22 sessions over 6 days)</span>
+    <span><span class="sw" style="background:#7a5f2a"></span>To finalized benchmark (~6)</span>
+    <span><span class="sw" style="background:#3a4a6a"></span>To finalized paper (~4–5 more)</span>
+  </div>
+</div>
+</div>
+
+<h2><span class="n">7</span>Assumptions behind the estimates</h2>
+<div class="panel" style="color:var(--dim);font-size:13.8px">
+<ul style="margin:0;padding-left:20px">
+  <li>A "session" = one focused agent working session (Codex, Opus, or Fable/Claude). Jimmy's labeling and
+      ratifications are human work counted in hours, not sessions — and they are the schedule's critical path.</li>
+  <li>Assumes no both-judge G5 disqualification on 06/09 (would add ~1–2 sessions for a replacement judge re-run),
+      and that design 07 avoids full redesign (a REDESIGN-REVIEW outcome adds ~2 sessions and pushes 07 to the next cycle).</li>
+  <li>A design that fails hard can be <em>released without</em> — G4 is per-design and waves release independently,
+      so a partial v1.0 benchmark (e.g. 7–8 of 10 designs) is a legitimate earlier endpoint if Jimmy prefers.</li>
+  <li>Fable-window availability changes which tier does the review sessions, not the session count.</li>
+  <li>Live-API spend for everything remaining is small (&lt;$60 est.); cost is not a constraint.</li>
+</ul>
+</div>
+
+<p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark · report-immutable snapshot
+2026-07-11 (new dated files supersede; never edit this one) · Entry point for continuation:
+<span class="mono">00-PORTFOLIO/20260711g-codex-boot-prompt-and-reentry.md</span></p>
+
+</div>
+</body>
+</html>

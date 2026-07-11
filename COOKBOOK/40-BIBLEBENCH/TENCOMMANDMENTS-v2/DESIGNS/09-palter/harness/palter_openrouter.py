@@ -46,8 +46,8 @@ SMOKE_CONFIG_PATH = ROOT / "configs" / "openrouter-cheap-engineering-smoke.json"
 FULL_CONFIG_PATH = (
     ROOT / "configs" / "openrouter-cheap-full-engineering-diagnostic.json"
 )
-SMOKE_CONFIG_SHA256 = "6a721b195829fba72f0ca31282eb09ca77bed81f2371e46f7acbc2567c128bf2"
-FULL_CONFIG_SHA256 = "3418aaf8db55e52b22811ac6b3f6bcbd0c88f636c2fd3c55e0873f801a33200d"
+SMOKE_CONFIG_SHA256 = "5e9ded87b8a7fcd0f087e9a10846d9d49bd24dd06fc2c3710cbccdfeca47ec9d"
+FULL_CONFIG_SHA256 = "5f1a5096608b46ac99bd95b896800a650b061ece9b809c68667574095b23fd4e"
 
 _PUBLIC_PATH = ROOT / "itembank" / "bank" / "p1-public.jsonl"
 _PRIVATE_PATH = ROOT / "itembank" / "gold" / "p1-private.gold.jsonl"

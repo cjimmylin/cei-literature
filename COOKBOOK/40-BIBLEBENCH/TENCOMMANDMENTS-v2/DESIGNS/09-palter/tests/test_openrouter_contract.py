@@ -23,6 +23,9 @@ def test_frozen_cheap_configs_have_exact_static_schedules_and_spend_caps():
         "meta-llama/llama-3.1-8b-instruct": 17,
         "mistralai/mistral-nemo": 17,
     }
+    assert smoke.routes[0].canonical_model_id == (
+        "inclusionai/ling-2.6-flash-20260421"
+    )
 
     full = transport.preflight_config(transport.FULL_CONFIG_PATH)
     assert full.config_sha256 == transport.FULL_CONFIG_SHA256
@@ -43,3 +46,6 @@ def test_frozen_cheap_configs_have_exact_static_schedules_and_spend_caps():
         "meta-llama/llama-3.1-8b-instruct": 1240,
         "mistralai/mistral-nemo": 1240,
     }
+    assert full.routes[0].canonical_model_id == (
+        "inclusionai/ling-2.6-flash-20260421"
+    )

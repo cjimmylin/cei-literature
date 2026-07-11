@@ -1,1 +1,100 @@
-{"artifact_sha256":{"private_gold":"0e792a89103cd1655ec81a55d1c2dfc27becd970d1e80283486387cfe5046669","public_bank":"45365c1db8819a86177571c1bc1f83912aaee6c086f4821ad21607bb5fa07d40","runtime_manifest":"37950d9bc10708b472f5c99af7bf6e9b0a658f901d91fb08139fead4cc2415df"},"blockers":["BT_NOT_RUN","ONE_SEED","CHEAP_ENGINEERING_ROSTER","NOT_RUN_HUMAN_READER_GATE","NOT_RUN_EDITORIAL_BAND_CERTIFICATION"],"bt_status":"NOT_RUN","catalog_snapshot":{"checked_at":"2026-07-11T15:57:00Z","source":"https://openrouter.ai/api/v1/models"},"cost_cap_usd":"2","data_basis":"external_model_responses","eligible_for_empirical_decision":false,"fresh_output_required":false,"initial_semantic_calls":3720,"max_attempts":3,"max_paid_calls":7440,"max_prompt_tokens":8192,"max_tokens":1536,"max_workers":1,"mode":"CHEAP_OPENROUTER_FULL_DIAGNOSTIC","provider_policy":{"allow_fallbacks":false,"require_parameters":true},"retry_base_seconds":1.0,"routes":[{"canonical_model_id":null,"completion_price_per_token_usd":"0.00000003","endpoint_name":"Novita | inclusionai/ling-2.6-flash-20260421","family":"ling-2.6-flash","model_id":"inclusionai/ling-2.6-flash","prompt_price_per_token_usd":"0.00000001","provider":"Novita","required_parameters":["max_tokens","response_format","seed","temperature"],"vendor":"inclusionai"},{"canonical_model_id":null,"completion_price_per_token_usd":"0.00000003","endpoint_name":"DeepInfra | meta-llama/llama-3.1-8b-instruct","family":"llama-3.1-8b-instruct","model_id":"meta-llama/llama-3.1-8b-instruct","prompt_price_per_token_usd":"0.00000002","provider":"DeepInfra","required_parameters":["max_tokens","response_format","seed","temperature"],"vendor":"meta"},{"canonical_model_id":null,"completion_price_per_token_usd":"0.00000004","endpoint_name":"DeepInfra | mistralai/mistral-nemo","family":"mistral-nemo","model_id":"mistralai/mistral-nemo","prompt_price_per_token_usd":"0.00000002","provider":"DeepInfra","required_parameters":["max_tokens","response_format","seed","temperature"],"vendor":"mistralai"}],"run_id":"PALTER-P1-CHEAP-OPENROUTER-FULL-20260711-R1","schedule_contract":{"atom_audit_call_count":1392,"composition_output_count":696,"composition_outputs_per_model":232,"evaluated_call_count":936,"evaluated_rows_per_model":312,"reader_call_count":1392},"schema_version":1,"seed":20260711,"status":"NOT_RUN","study_id":"PALTER-P1","syntax_repairs_per_semantic_call":1,"timeout_seconds":120}
+{
+  "artifact_sha256": {
+    "private_gold": "0e792a89103cd1655ec81a55d1c2dfc27becd970d1e80283486387cfe5046669",
+    "public_bank": "45365c1db8819a86177571c1bc1f83912aaee6c086f4821ad21607bb5fa07d40",
+    "runtime_manifest": "37950d9bc10708b472f5c99af7bf6e9b0a658f901d91fb08139fead4cc2415df"
+  },
+  "blockers": [
+    "BT_NOT_RUN",
+    "ONE_SEED",
+    "CHEAP_ENGINEERING_ROSTER",
+    "NOT_RUN_HUMAN_READER_GATE",
+    "NOT_RUN_EDITORIAL_BAND_CERTIFICATION"
+  ],
+  "bt_status": "NOT_RUN",
+  "catalog_snapshot": {
+    "checked_at": "2026-07-11T15:57:00Z",
+    "source": "https://openrouter.ai/api/v1/models"
+  },
+  "cost_cap_usd": "2",
+  "data_basis": "external_model_responses",
+  "eligible_for_empirical_decision": false,
+  "fresh_output_required": false,
+  "initial_semantic_calls": 3720,
+  "max_attempts": 3,
+  "max_paid_calls": 7440,
+  "max_prompt_tokens": 8192,
+  "max_tokens": 1536,
+  "max_workers": 1,
+  "mode": "CHEAP_OPENROUTER_FULL_DIAGNOSTIC",
+  "provider_policy": {
+    "allow_fallbacks": false,
+    "require_parameters": true
+  },
+  "retry_base_seconds": 1.0,
+  "routes": [
+    {
+      "canonical_model_id": "inclusionai/ling-2.6-flash-20260421",
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "Novita | inclusionai/ling-2.6-flash-20260421",
+      "family": "ling-2.6-flash",
+      "model_id": "inclusionai/ling-2.6-flash",
+      "prompt_price_per_token_usd": "0.00000001",
+      "provider": "Novita",
+      "required_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "temperature"
+      ],
+      "vendor": "inclusionai"
+    },
+    {
+      "canonical_model_id": null,
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "DeepInfra | meta-llama/llama-3.1-8b-instruct",
+      "family": "llama-3.1-8b-instruct",
+      "model_id": "meta-llama/llama-3.1-8b-instruct",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DeepInfra",
+      "required_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "temperature"
+      ],
+      "vendor": "meta"
+    },
+    {
+      "canonical_model_id": null,
+      "completion_price_per_token_usd": "0.00000004",
+      "endpoint_name": "DeepInfra | mistralai/mistral-nemo",
+      "family": "mistral-nemo",
+      "model_id": "mistralai/mistral-nemo",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DeepInfra",
+      "required_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "temperature"
+      ],
+      "vendor": "mistralai"
+    }
+  ],
+  "run_id": "PALTER-P1-CHEAP-OPENROUTER-FULL-20260711-R1",
+  "schedule_contract": {
+    "atom_audit_call_count": 1392,
+    "composition_output_count": 696,
+    "composition_outputs_per_model": 232,
+    "evaluated_call_count": 936,
+    "evaluated_rows_per_model": 312,
+    "reader_call_count": 1392
+  },
+  "schema_version": 1,
+  "seed": 20260711,
+  "status": "NOT_RUN",
+  "study_id": "PALTER-P1",
+  "syntax_repairs_per_semantic_call": 1,
+  "timeout_seconds": 120
+}

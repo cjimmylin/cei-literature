@@ -1,0 +1,56 @@
+{
+  "artifact_sha256": {
+    "bank": "b086718e70be89f7d7566bba058f8ebe52add4e6768ac5bed5a539a02608d385",
+    "gold": "6d798c21e024f2ab5a8b987b968605ae3e5724840b612afc5c029a2232411e1b",
+    "runtime": "258309b788b450f24484bbd946da6b45980589c879e794c485f065eb8229005f"
+  },
+  "catalog_checked_at": "2026-07-11T14:25:13Z",
+  "catalog_source": "https://openrouter.ai/api/v1/models",
+  "cost_cap_usd": 0.01,
+  "eligible_for_empirical_decision": false,
+  "max_paid_calls": 18,
+  "max_tokens": 256,
+  "mode": "CHEAP_MODEL_ENGINEERING_SMOKE",
+  "model_roster": [
+    {
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "Novita | inclusionai/ling-2.6-flash-20260421",
+      "family": "ling-2.6-flash",
+      "model_id": "inclusionai/ling-2.6-flash",
+      "prompt_price_per_token_usd": "0.00000001",
+      "provider": "Novita",
+      "vendor": "inclusionai"
+    },
+    {
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "DeepInfra | meta-llama/llama-3.1-8b-instruct",
+      "family": "llama-3.1-8b-instruct",
+      "model_id": "meta-llama/llama-3.1-8b-instruct",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DeepInfra",
+      "vendor": "meta"
+    },
+    {
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "DekaLLM | mistralai/mistral-nemo",
+      "family": "mistral-nemo",
+      "model_id": "mistralai/mistral-nemo",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DekaLLM",
+      "vendor": "mistralai"
+    }
+  ],
+  "provider_policy": {
+    "allow_fallbacks": false,
+    "require_parameters": true
+  },
+  "request_ids": [
+    "skim-p1-f1-expense-audit-platform-first-primary-request-unstated",
+    "skim-p1-f1-expense-audit-platform-first-clean-request-unstated",
+    "skim-p1-f1-expense-audit-platform-first-recognition-request-unstated"
+  ],
+  "scheduled_requests": 9,
+  "schema_version": 1,
+  "seed": 20260711,
+  "syntax_repairs_per_request": 1
+}

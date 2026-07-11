@@ -4,6 +4,11 @@
 this plan, then the binding memo `20260711-fable-mvp-disagreement-adjudication-memo.md`
 (R42–R46). This plan translates that memo's directives into ordered, bounded tasks.
 
+**On session open: load `project-dashboard.html`** (Live-status table first — another agent
+may have progressed the queue). **On session close: update the dashboard** per
+`AGENTS.md §The project dashboard` (last-updated line, Live-status, progress bars, session
+row, mirrored checkboxes, update-log line).
+
 **The finish line (memorize this):** the benchmark MVP is TESTABLE when all 226 runnable
 bank items (204 standard + 22 EPISODE) can be scored end-to-end under a re-qualified
 2-family judge panel, with trustworthy score parsing, honest cost accounting, and a
@@ -16,7 +21,7 @@ balloons past its budget, checkpoint and escalate per AGENTS.md rule 2 — do no
 
 ---
 
-## Progress (update checkboxes as you go — the ONLY edits allowed to this file)
+## Progress (update checkboxes as you go — the ONLY edits allowed to this file; mirror each tick on `project-dashboard.html`)
 
 - [x] Task 1 — SCORE-parse fix (last-match)
 - [x] Task 2 — disagreement.json display fix
@@ -207,8 +212,11 @@ AGENTS.md, or R42–R46.
 ## Definition of DONE for the whole handoff
 
 All six checkboxes ticked (or explicitly blocked with a PENDING-QUESTIONS entry), suite
-green, each task committed separately with explicit pathspecs, and a final dated handoff
-(`YYYYMMDD-codex-session-handoff.md`) stating: manifest of record, Task 4 outcome
-(2nd family or ladder-closed), EPISODE + PROOF-re-read locations, reconciled spend, and the
-one-line status "MVP testable: yes/no + why". At that point WCF-Bench's remaining queue is
-entirely human-gated (G6) and the benchmark is ready for its first externally-visible test.
+green, each task committed separately with explicit pathspecs, **`project-dashboard.html`
+updated** (Live-status table, session rows, milestone checkboxes, last-updated line — per
+`AGENTS.md §The project dashboard`; it is the living status page ALL agents maintain and
+consult), and a final dated handoff (`YYYYMMDD-codex-session-handoff.md`) stating: manifest
+of record, Task 4 outcome (2nd family or ladder-closed), EPISODE + PROOF-re-read locations,
+reconciled spend, and the one-line status "MVP testable: yes/no + why". At that point
+WCF-Bench's remaining queue is entirely human-gated (G6) and the benchmark is ready for its
+first externally-visible test.

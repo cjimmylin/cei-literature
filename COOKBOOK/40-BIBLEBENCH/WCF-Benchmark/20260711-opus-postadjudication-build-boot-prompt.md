@@ -7,6 +7,12 @@ full; every judgment call you might face is already ruled there. Mock-first TDD 
 suite baseline 444 green. No re-litigating rulings; deviations stop the work and surface
 to Jimmy/Fable.
 
+**On session open: load `project-dashboard.html`** (Live-status table, progress bars, open
+escalations, milestone checkboxes) — Codex may have progressed the queue since this prompt
+was written; skip anything already ticked. **On session close: update the dashboard** per
+`AGENTS.md §The project dashboard` (last-updated line, Live-status, progress bars, session
+row, checkboxes, update-log line).
+
 ## Ordered worklist (R45.5 sequencing — one manifest event, no wasted re-qual)
 
 1. **R45.4 + R45.3 harness fixes (template-free; no re-qual triggered):**
@@ -52,8 +58,10 @@ append-only; new dated dirs/reports only. Canary `WCFBENCH-CANARY-c1647-x9k4q` n
 re-minted into new item/exemplar content. Shared git index LIVE: `git log -1` before every
 commit, explicit paths, never `git add -A` (sibling sessions' dirty files off-limits).
 Secrets runtime-only (`~/.codex/secrets/openrouter.env` pattern), never committed. Validate
-with the full pytest suite before each commit. End with a dated handoff + update the
-`wcf-bench-portfolio-state` memory note.
+with the full pytest suite before each commit. End with a dated handoff + **update
+`project-dashboard.html`** (AGENTS.md §The project dashboard) + update the
+`wcf-bench-portfolio-state` memory note. Any new boot/re-entry prompt you write must carry
+the same open-dashboard/close-update lines (AGENTS.md boot-prompt convention).
 
 > Standing context: G6 (Jimmy's raters) still gates the gated G1–G7 run, H-DISC promotion,
 > W304/W305 position maps, and the 4 LIB `[DISPUTED]` legs. Earlier-wave transcription

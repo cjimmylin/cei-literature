@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<!-- WALKWORTHY-CANARY-7f3e2026 -->
+<!--
+  ═══════════════════════════════════════════════════════════════════════════
+  LIVING DOCUMENT — WALKWORTHY PROJECT DASHBOARD — UPDATE ME, DO NOT SNAPSHOT
+  ═══════════════════════════════════════════════════════════════════════════
+  This file is the ONE deliberate exception to the vault's report-immutability
+  rule (Jimmy's direction, 2026-07-11). ALL agents working on WALKWORTHY —
+  Anthropic/Claude, OpenAI/Codex, and any other model — must:
+    1. READ this dashboard at session start (alongside AGENTS.md).
+    2. UPDATE it at session end, in place: refresh the "Live status" panel,
+       any section your session made stale, the "Last updated" line, and
+       append a row to the Changelog (last section). Keep edits truthful, terse.
+    3. Revise the session forecasts only on material change.
+    4. NEVER let this file replace dated reports — those remain the immutable
+       evidentiary record; this dashboard summarizes and cites them.
+    5. Keep it fully self-contained: inline CSS only, NO JavaScript, NO
+       external fonts/CDNs (must render offline via file://).
+  ═══════════════════════════════════════════════════════════════════════════
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WALKWORTHY — Project Dashboard (living)</title>
+<style>
+  :root{
+    --bg:#0e1320; --panel:#161d2e; --panel2:#1b2438; --line:#2a3550;
+    --text:#dce4f2; --dim:#8fa0bd; --faint:#5c6c8a;
+    --fable:#b48cf2; --opus:#5aa7f0; --codex:#4fd1a5; --jimmy:#f0b45a;
+    --done:#4fd1a5; --active:#f0b45a; --pending:#5c6c8a; --fail:#ef7070; --real:#6fd06f;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:1120px;margin:0 auto;padding:36px 28px 80px}
+  h1{font-size:26px;margin:0 0 4px} h2{font-size:19px;margin:42px 0 14px;color:var(--text)}
+  h2 .n{color:var(--faint);font-weight:400;margin-right:8px}
+  h3{font-size:15px;margin:22px 0 10px}
+  .sub{color:var(--dim);margin:0 0 18px}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.88em;background:var(--panel2);
+       padding:1px 5px;border-radius:4px;color:#c8d6ee}
+  a{color:var(--opus);text-decoration:none} a:hover{text-decoration:underline}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+  .toc{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:13px;background:var(--panel);
+       border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:18px 0 0}
+  .toc a{color:var(--dim)} .toc a:hover{color:var(--text)}
+  /* headline answers */
+  .answers{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+  .answer{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+  .answer .q{color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:8px}
+  .answer .big{font-size:30px;font-weight:700;line-height:1.15}
+  .answer .big small{font-size:15px;font-weight:400;color:var(--dim)}
+  .answer .note{color:var(--dim);font-size:13.5px;margin-top:10px}
+  .statusbar{margin-top:14px;color:var(--dim);font-size:13.5px}
+  .statusbar b{color:var(--text)}
+  /* badges */
+  .badge{display:inline-block;padding:1px 9px;border-radius:20px;font-size:11.5px;font-weight:600;
+         letter-spacing:.03em;vertical-align:1px;white-space:nowrap}
+  .b-fable{background:#2b2140;color:var(--fable)} .b-opus{background:#16283e;color:var(--opus)}
+  .b-codex{background:#123227;color:var(--codex)} .b-jimmy{background:#3a2c14;color:var(--jimmy)}
+  .b-done{background:#123227;color:var(--done)} .b-active{background:#3a2c14;color:var(--active)}
+  .b-pending{background:#232c3e;color:var(--dim)} .b-fail{background:#3c1e1e;color:var(--fail)}
+  .b-real{background:#1c3220;color:var(--real)} .b-art{background:#3c1e1e;color:var(--fail)}
+  .b-na{background:#232c3e;color:var(--dim)} .b-open{background:#3c1e1e;color:var(--fail)}
+  /* stats strip */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;text-align:center}
+  .stat .v{font-size:22px;font-weight:700} .stat .k{color:var(--dim);font-size:12px;margin-top:2px}
+  /* timeline */
+  .tl{list-style:none;margin:0;padding:0 0 0 26px;border-left:2px solid var(--line)}
+  .tl li{position:relative;padding:0 0 20px 20px}
+  .tl li::before{content:"";position:absolute;left:-31px;top:6px;width:8px;height:8px;border-radius:50%;
+                 background:var(--done);box-shadow:0 0 0 3px #123227}
+  .tl li.last::before{background:var(--active);box-shadow:0 0 0 3px #3a2c14}
+  .tl .d{color:var(--faint);font-size:12.5px;font-family:ui-monospace,Menlo,monospace}
+  .tl .t{font-weight:650;margin:1px 0 2px}
+  .tl .s{color:var(--dim);font-size:13.5px}
+  /* tables */
+  table{border-collapse:collapse;width:100%;font-size:13.8px}
+  th{color:var(--dim);text-align:left;font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line);
+     font-size:12.5px;text-transform:uppercase;letter-spacing:.05em}
+  td{padding:8px 10px;border-bottom:1px solid #1f2940;vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  .num{text-align:center;white-space:nowrap}
+  table.dense{font-size:12.8px} table.dense td,table.dense th{padding:6px 8px}
+  /* checklist */
+  .check{list-style:none;margin:0;padding:0;font-size:14px}
+  .check li{padding:5px 0;border-bottom:1px solid #1f2940}
+  .check li:last-child{border-bottom:none}
+  .check .st{display:inline-block;width:150px;color:var(--dim);font-size:12.5px}
+  /* lanes */
+  .lanes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+  .lane{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+  .lane h3{margin:0 0 10px;font-size:15px}
+  .lane ul{margin:0;padding-left:18px;color:var(--dim);font-size:13.5px}
+  .lane li{margin-bottom:6px}
+  /* progress */
+  .prog{margin:18px 0 6px}
+  .prog .cap{display:flex;justify-content:space-between;color:var(--dim);font-size:13px;margin-bottom:6px}
+  .bar{height:14px;border-radius:8px;background:var(--panel2);overflow:hidden;display:flex}
+  .seg{height:100%}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;color:var(--dim);font-size:12.5px;margin-top:8px}
+  .sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+  .foot{margin-top:46px;color:var(--faint);font-size:12.5px;border-top:1px solid var(--line);padding-top:14px}
+  @media (max-width:760px){.answers,.lanes{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
+<p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
+· <b style="color:var(--text)">Last updated: 2026-07-11 by Claude (Fable) — comprehensive edition</b>
+· <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
+the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
+
+<div class="toc">
+<a href="#live">⚡ Live status</a><a href="#forecast">Forecasts</a><a href="#mission">Mission &amp; release bar</a>
+<a href="#plan">The frozen plan</a><a href="#history">History</a><a href="#progress">Progress now</a>
+<a href="#designs">Per-design matrix</a><a href="#rulings">Rulings ledger</a><a href="#lanes">Who owes what</a>
+<a href="#roadmap">Roadmap</a><a href="#contingency">Contingency playbook</a><a href="#docs">Document map</a>
+<a href="#protocol">Protocol &amp; changelog</a>
+</div>
+
+<h2 id="live"><span class="n">1</span>⚡ Live status — 2026-07-11</h2>
+<div class="panel" style="border-color:#5a4a1e;background:#241d10">
+  <div style="font-size:14.5px;line-height:1.6">
+    <b>O5 is underway and PAUSED on PR-9.</b> Codex completed <b>Phase 0</b>: PR-5 backend hardening verified
+    present; all 10 blind label CSVs byte-identical to HEAD; <code>judge_validation.py</code> hardened fail-closed
+    (provenance join to the immutable panel, both-judge comparison, frozen κ scales incl. 06 median-of-seven,
+    <code>PENDING-CEILING</code> never rendered as PASS, rejects malformed joins/HOLDOUT paths/pair drift/existing
+    outputs); dry-run PASSED on 2 real panel cells; suite <b>274 green</b>; independent spec + code reviews PASS.
+    Zero live calls, zero spend.<br><br>
+    <b>Then W1 stopped correctly (STOP-AND-ASK → PR-9), three issues:</b>
+    <b>(1) Transcript gap</b> — the O4 artifacts retain only first + terminal turns, so the frozen turn-level
+    tie-breaker cannot re-judge <b>723 of 907</b> disagreeing turn units (02: 577/655 missing; 07: 146/252).
+    Needs transcript recovery or an authorized fresh immutable re-execution of the 02/07 dialogues.
+    <b>(2) Selector gap</b> — the W1 selector (609 <code>pending_adjudication</code> records = 1,767 unresolved
+    cells) misses <b>1,405</b> of the panel's 3,172 <code>needs_adjudication</code> cells and includes 20
+    non-tie-breakable records (05 parse / 09 arbiter pendings). <b>(3) Probe conflict</b> — the frozen Grok-4
+    probe vs Jimmy's cheap-models-only direction; the Mistral fallback trips the Part-B sizing stop (&gt;10%
+    own-family pendings in every design).<br><br>
+    <b>Waiting on:</b> PR-9 ruling (items 1+3 = Jimmy: spend + model direction; item 2 = Fable-delegable selector
+    re-scope). <b>Next Fable session boot prompt is staged:</b>
+    <code>20260711i-fable-pr9-adjudication-boot-prompt.md</code> (rules PR-9 with Jimmy present, re-issues Codex
+    W1 orders). Codex re-entry after ruling: <code>sed -n '/## PR-9/,/^---$/p' 00-PORTFOLIO/PENDING-RULINGS.md</code>
+    → resume at W1, never skip to W2. Jimmy's Part-A labels (0/439 units) remain the release critical path.</div>
+</div>
+
+<h2 id="forecast"><span class="n">2</span>Session forecasts</h2>
+<div class="answers">
+  <div class="answer">
+    <div class="q">Sessions until a finalized benchmark</div>
+    <div class="big">≈ 6 <small>agent sessions (range 4–8)</small></div>
+    <div class="note"><b>Plus Jimmy's ~25–30 h of Part-A labeling</b> — the critical path. The PR-9 re-execution
+    (~1 session) is priced inside the range. Nothing releases without labels (G4) and Jimmy's sign-off.</div>
+  </div>
+  <div class="answer">
+    <div class="q">Sessions until a finalized paper</div>
+    <div class="big">≈ 10–11 <small>total from today (range 9–13)</small></div>
+    <div class="note">Paper adds ~4–5 sessions after benchmark verdicts: O6 findings/deck → full draft →
+    Fable claims review → camera-ready.</div>
+  </div>
+</div>
+<p class="statusbar"><b>Where we are:</b> measurement DONE (2,064/2,064 cells, $48.75, 0 schema errors); every
+remaining judgment pre-made and frozen (FR-1…FR-15); execution handed to Codex; Phase 0 done, W1 paused on PR-9.</p>
+
+<h2 id="mission"><span class="n">3</span>Mission &amp; the release bar</h2>
+<div class="panel">
+<p style="margin:0 0 10px;font-size:14px">WALKWORTHY measures whether models <b>enact</b> Christian ethics under
+pressure — not whether they can recite it. Ten method-major designs (cost-ladder obedience, multi-turn erosion,
+say-do gaps, motive sensitivity, ordered loves, casuistry process, forgiveness arcs, vocation embeds, two-sided
+judgment, stranger mercy) run against a fixed 15-book corpus, across 14 ethical areas and 3 strata
+(core / hard / contested). All claims are indexed to <em>this corpus</em>, never "Christianity" at large.</p>
+<div class="stats">
+  <div class="stat"><div class="v">514</div><div class="k">authored cases</div></div>
+  <div class="stat"><div class="v">344</div><div class="k">runnable public (356 authored)</div></div>
+  <div class="stat"><div class="v">158</div><div class="k">holdout (33%, never loaded)</div></div>
+  <div class="stat"><div class="v">6</div><div class="k">SUT models (cross-vendor)</div></div>
+  <div class="stat"><div class="v">2</div><div class="k">cross-family judges + tie-breaker</div></div>
+</div>
+<p style="color:var(--dim);font-size:13.5px;margin:4px 0 0"><b style="color:var(--text)">A design releases only
+when ALL hold</b> (framework §4): G4 clear (≥2 cross-family judges pass vs human labels) · G5 pass/N-A ·
+G7 pass (≤10% perturbation flips; release-blocking per charter §6.6) · not capability-washed (G3, FR-3) ·
+not in a G1/G2 rework path · adjudication ≥90% complete (FR-1) · <b style="color:var(--text)">Jimmy sign-off</b>.
+No cross-design composite, ever (G10). Statuses: RELEASED · BLOCKED-G4 · REWORK-RUBRIC · REWORK-DIFFICULTY ·
+REDESIGN-REVIEW · CAPABILITY-WASHED · ADJUDICATION-INCOMPLETE · JUDGE-DISQUALIFIED(G5).</p>
+</div>
+
+<h2 id="plan"><span class="n">4</span>The frozen plan (master plan §1, 2026-07-06) and authority stack</h2>
+<div class="panel">
+<table>
+<tr><th style="width:90px">Session</th><th>Scope</th><th style="width:130px">Status</th></tr>
+<tr><td class="mono">O1</td><td>Bank completion + holdout split</td><td><span class="badge b-done">DONE 07-09</span></td></tr>
+<tr><td class="mono">O2</td><td>Harness — manifest-driven, mock-first, judge layer, refusal taxonomy</td><td><span class="badge b-done">DONE 07-09</span></td></tr>
+<tr><td class="mono">O3</td><td>Pilot — shake out mechanics (fix mechanics only, never items)</td><td><span class="badge b-done">DONE 07-09</span></td></tr>
+<tr><td class="mono">O4</td><td>Panel — 6 frontier models × full public split, all gate statistics</td><td><span class="badge b-done">DONE 07-11</span></td></tr>
+<tr><td class="mono">O5</td><td>Gate adjudication &amp; revision — mechanical application of frozen rules</td><td><span class="badge b-active">PAUSED PR-9</span></td></tr>
+<tr><td class="mono">O6</td><td>Findings &amp; deck v2 — headline analyses A–I, profile cards, paper skeleton</td><td><span class="badge b-pending">PENDING</span></td></tr>
+</table>
+<p style="color:var(--dim);font-size:13.5px;margin:12px 0 0"><b style="color:var(--text)">Authority stack
+(frozen; changing any needs a logged Jimmy ruling):</b> charter + playbook + master-plan gates (2026-07-06) →
+gate pre-registration §B metrics / §C computations / §E judge plan (2026-07-10) → PR-3 ruling R1–R4 →
+O5 framework FR-1…FR-15 + G4 branch table + release formula (2026-07-11). Gates: <b>G1</b> headroom ·
+<b>G2</b> spread · <b>G3</b> capability-wash · <b>G4</b> judge validity · <b>G5</b> reference neutrality ·
+<b>G6</b> shortcut · <b>G7</b> perturbation · <b>G8</b> item kills · <b>G9</b> mandatory gap headlines ·
+<b>G10</b> no composite.</p>
+</div>
+
+<h2 id="history"><span class="n">5</span>History (2026-07-06 → 2026-07-11)</h2>
+<div class="stats">
+  <div class="stat"><div class="v">86 → 274</div><div class="k">pytest suite growth (TDD)</div></div>
+  <div class="stat"><div class="v">2,064</div><div class="k">panel cells, 0 schema errors</div></div>
+  <div class="stat"><div class="v">≈ $49.50</div><div class="k">total live spend (pilot $0.63 + probe + panel $48.75)</div></div>
+  <div class="stat"><div class="v">4</div><div class="k">live bugs caught + fixed mid-run</div></div>
+  <div class="stat"><div class="v">9 PR + 15 FR</div><div class="k">logged rulings (+ R1–R4)</div></div>
+</div>
+<ul class="tl">
+  <li><span class="d">07-06</span> <span class="badge b-fable">FABLE</span>
+    <div class="t">Genesis — the whole design layer in one session</div>
+    <div class="s">Normative charter (14 areas, 3 strata), PRD, 10 design specs + 41 exemplars, 14 citation-verified
+    anchor packs, 231-item seed banks, adversarial review cycle 1, item playbook, master plan with pre-registered
+    gates, HTML deck.</div></li>
+  <li><span class="d">07-07</span> <span class="badge b-fable">FABLE</span><span class="badge b-opus">OPUS</span>
+    <div class="t">Wave 2 — banks doubled</div>
+    <div class="s">462 seeds / ~503 cases via dual-tier drafting; cycle-2 defect rate halved (17.7% vs ~32%).</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O1 — banks complete + holdout split</div>
+    <div class="s">514 cases → PUBLIC 356 (344 runnable) / HOLDOUT 158, stratified, loader-enforced.</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O2 — harness (mock-first)</div>
+    <div class="s">Full pipeline, zero live calls; HOLDOUT hard-refusal; dry-run 2,064 records, 0 schema errors.</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O3 — live mechanics smoke</div>
+    <div class="s">First live calls (smoke scale); found the refusal-taxonomy defect → PR-3.</div></li>
+  <li><span class="d">07-09</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">OpenRouter path + O4-prep + P0 pilot</div>
+    <div class="s">Sanctioned one-key multi-vendor path; resumable panel runner; pilot 150 records $0.63;
+    per-turn judge-agreement risk identified (02: 0.43, 07: 0.49); dead-SUT trap found (qwen) → per-cell error handling.</div></li>
+  <li><span class="d">07-10</span> <span class="badge b-fable">FABLE</span>
+    <div class="t">Gate pre-registration + PR-3 ruling + human-label protocol</div>
+    <div class="s">§B primary metrics, §C gate computations, §E judge plan frozen BEFORE any panel score existed;
+    blind Part-A design (seed 20260710).</div></li>
+  <li><span class="d">07-10</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O4-build — offline half</div>
+    <div class="s">All ten §B metrics implemented (TDD), PR-3 R1–R4, label tooling, gates module; SUT roster
+    probed (grok-4 dead via OpenRouter → dropped as SUT).</div></li>
+  <li><span class="d">07-10/11</span> <span class="badge b-opus">OPUS</span>
+    <div class="t">O4-RUN — the full panel measurement</div>
+    <div class="s">6 SUTs × 344 items = <b>2,064/2,064, $48.75, 0 schema errors</b>. Two live bugs caught + fixed
+    mid-run (verdict_scalar null-crash; OpenRouter 402 = max_tokens reservation → 32768 cap). 439 blind label
+    units drawn.</div></li>
+  <li><span class="d">07-11</span> <span class="badge b-fable">FABLE</span>
+    <div class="t">Transition-prep — the last judgment layer frozen</div>
+    <div class="s">Adversarial validity review (V-1…V-14: which readings are real vs artifacts), O5 decision
+    framework (FR-1…FR-15, G4 branch table, release formula), Codex execution package + boot prompt.
+    Thread closed → Codex.</div></li>
+  <li class="last"><span class="d">07-11</span> <span class="badge b-codex">CODEX</span>
+    <div class="t">O5 Phase 0 done → W1 stopped on PR-9 (current position)</div>
+    <div class="s">G4 pipeline hardened fail-closed (274 tests, dry-run pass, independent reviews PASS); W1
+    correctly stopped pre-spend on the transcript/selector/probe data-contract issues; downstream audit flagged
+    W4 reference-pair gaps + W5 L7-list gap. Zero live calls.</div></li>
+</ul>
+
+<h2 id="progress"><span class="n">6</span>Progress now — O5 pipeline</h2>
+<div class="panel">
+<ul class="check">
+  <li><span class="st"><span class="badge b-done">DONE</span></span> <b>Phase 0</b> — pre-flight: PR-5 verified, blind CSVs intact, G4 CLI turnkey (274 tests, dry-run PASS)</li>
+  <li><span class="st"><span class="badge b-fail">PAUSED PR-9</span></span> <b>W1</b> — tie-breaker adjudication of unresolved cells (turn/seat-level, own-family exclusion)</li>
+  <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>W2</b> — §E judge Δ(J) own-family home-advantage permutation test (label-free; never yet run)</li>
+  <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>W3</b> — post-adjudication recompute of all §B stats + G1/G2/G3/G8 → NEW dated readings</li>
+  <li><span class="st"><span class="badge b-pending">QUEUED ⚠</span></span> <b>W4</b> — G5 blind reference scoring (06/09) — ⚠ prerequisite gap: only 7/10 committed 06 reference pairs, <b>zero</b> 09 opposite-conclusion pairs, no executable FA-1 lint (see contingency C-4)</li>
+  <li><span class="st"><span class="badge b-pending">QUEUED ⚠</span></span> <b>W5</b> — G7 perturbation batteries — ⚠ prerequisite gap: no machine-readable L7 name-rotation list (C-5)</li>
+  <li><span class="st"><span class="badge b-pending">LABELS 0/439</span></span> <b>Phase 2</b> — G4 per label wave (wave 1 {02,07,01} = 84 units · wave 2 {03,04,05,06} = 210 · wave 3 {08,09,10} = 145) + 2nd-labeler overlap or declared test–retest</li>
+  <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>Phase 3</b> — verdict assembly via the frozen release formula → O5 report → Jimmy sign-off</li>
+</ul>
+</div>
+
+<h3 id="designs">Per-design status matrix (readings from 20260711b; validity flags from 20260711c; paths from 20260711d)</h3>
+<div class="panel" style="overflow-x:auto">
+<table class="dense">
+<tr><th>Design</th><th>Primary metric</th><th class="num">S-units</th><th class="num">Pending recs</th>
+<th>G1</th><th>G2</th><th>G3</th><th>Expected O5 path</th><th class="num">Wave · units</th></tr>
+<tr><td class="mono">01 goodsamaritan</td><td>collapse threshold (S₀₁ fallback: obedience rate)</td><td class="num">49</td><td class="num">71</td>
+  <td><span class="badge b-done">PASS</span> .839</td><td><span class="badge b-done">PASS</span> 38.6</td>
+  <td><span class="badge b-fail">FAIL</span> ρ=.83 <span class="badge b-real">LIVE</span></td>
+  <td>recompute → capability-washed risk (FR-3); authorship collinearity disclosed</td><td class="num">W1 · 60</td></tr>
+<tr><td class="mono">02 twomasters</td><td>break turn</td><td class="num">36 dlg</td><td class="num">122</td>
+  <td colspan="3"><span class="badge b-art">ALL READINGS ARTIFACT</span> — S rests on 1–6 of 36 dialogues (excl 30–35)</td>
+  <td>tie-breaker first (turn-level, FR-2); low-ceiling branch is the big risk</td><td class="num">W1 · 12</td></tr>
+<tr><td class="mono">03 quiettongue</td><td>say-do gap</td><td class="num">33</td><td class="num">61</td>
+  <td><span class="badge b-done">PASS</span> .579</td><td><span class="badge b-done">PASS</span> 37.8</td>
+  <td><span class="badge b-done">PASS</span> −.37</td>
+  <td><b>lead release candidate</b>; only design with evaluable G6 (PASS)</td><td class="num">W2 · 60</td></tr>
+<tr><td class="mono">04 innerweight</td><td>motive-sensitivity index</td><td class="num">33</td><td class="num">81</td>
+  <td><span class="badge b-done">PASS</span> .571</td><td><span class="badge b-done">PASS</span> 48.1</td>
+  <td><span class="badge b-fail">FAIL</span> ρ=.54 <span class="badge b-na">NOISE</span></td>
+  <td>recompute (41% excluded); prevalence-paradox watch at G4</td><td class="num">W2 · 60</td></tr>
+<tr><td class="mono">05 ordoamoris</td><td>constraint satisfaction (judge-free)</td><td class="num">32</td><td class="num">19</td>
+  <td><span class="badge b-fail">FAIL</span> .970 <span class="badge b-real">REAL</span></td>
+  <td><span class="badge b-fail">FAIL</span> 7.6 <span class="badge b-real">REAL</span></td>
+  <td><span class="badge b-done">PASS</span> −.43</td>
+  <td><b>REWORK-DIFFICULTY ordered now</b> (FR-5, label-independent); out of release set</td><td class="num">W2 · 30</td></tr>
+<tr><td class="mono">06 crookedpath</td><td>7-criterion profile</td><td class="num">31×7</td><td class="num">3</td>
+  <td><span class="badge b-fail">FAIL</span> .883 <span class="badge b-art">BIASED</span></td>
+  <td><span class="badge b-done">PASS</span> 26.3</td><td><span class="badge b-done">PASS</span> .03</td>
+  <td>recompute; expect one-judge G4 fail (severity offset j0−j1≈+20–32) → §E ladder; G5 required</td><td class="num">W2 · 60</td></tr>
+<tr><td class="mono">07 seventyseven</td><td>arc conformance</td><td class="num">27 dlg</td><td class="num">67</td>
+  <td colspan="3"><span class="badge b-art">ALL READINGS ARTIFACT</span> — S rests on 1–4 of 27 dialogues; floor pathology suspected</td>
+  <td>tie-breaker first; construct-floor check (FR-6) → REDESIGN-REVIEW plausible</td><td class="num">W1 · 12</td></tr>
+<tr><td class="mono">08 vocationfork</td><td>covert-overt gap</td><td class="num">33</td><td class="num">36</td>
+  <td><span class="badge b-fail">FAIL</span> .875 <span class="badge b-art">BIASED</span></td>
+  <td><span class="badge b-done">PASS</span> 17.3</td><td><span class="badge b-done">PASS</span> −.64</td>
+  <td>recompute → release formula</td><td class="num">W3 · 60</td></tr>
+<tr><td class="mono">09 doubleedge</td><td>symmetry index</td><td class="num">34</td><td class="num">106</td>
+  <td><span class="badge b-fail">FAIL</span> .938 <span class="badge b-art">BIASED</span></td>
+  <td><span class="badge b-done">PASS</span> 22.7</td><td><span class="badge b-done">PASS</span> −.64</td>
+  <td>tie-breaker (seat-level); G5 required — ⚠ reference pairs not yet authored (C-4)</td><td class="num">W3 · 25</td></tr>
+<tr><td class="mono">10 strangergate</td><td>mercy delta</td><td class="num">36</td><td class="num">43</td>
+  <td><span class="badge b-done">PASS</span> .800</td><td><span class="badge b-done">PASS</span> 18.8</td>
+  <td><span class="badge b-done">PASS</span> .09</td>
+  <td>release formula, wave 3</td><td class="num">W3 · 60</td></tr>
+</table>
+<p style="color:var(--dim);font-size:12.5px;margin:10px 0 0">"Pending recs" = records with
+<code>refusal_tag = pending_adjudication</code> (609 total; the full unresolved §B surface is larger — 3,172
+<code>needs_adjudication</code> cells, PR-9 item 2). BIASED = agreement-selection bias (V-1): adjudicated-only
+stats condition on judge agreement; recompute after tie-breaker. G4/G5/G7 are PENDING for every design.</p>
+</div>
+
+<h3 id="rulings">Rulings ledger</h3>
+<div class="panel">
+<table class="dense">
+<tr><th style="width:70px">ID</th><th>Subject</th><th style="width:170px">Status</th><th>Where</th></tr>
+<tr><td class="mono">PR-1</td><td>12 sketch exemplars → "356 authored / 344 runnable" (option c)</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
+<tr><td class="mono">PR-2</td><td>06 system frame = ADVICE_SYSTEM</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
+<tr><td class="mono">PR-3</td><td>Refusal taxonomy: principled non-compliance + verdicts[0] decoupling</td><td><span class="badge b-done">RULED</span> <span class="badge b-active">ratify</span></td><td class="mono">20260710-fable-PR3-ruling</td></tr>
+<tr><td class="mono">PR-4</td><td>OpenRouter = sanctioned panel path</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
+<tr><td class="mono">PR-5</td><td>Backend robustness (retry / provider routing / max-tokens cap)</td><td><span class="badge b-done">DIRECTED + VERIFIED</span></td><td class="mono">openrouter_backend.py</td></tr>
+<tr><td class="mono">PR-6</td><td>Near-agreement mean rule (+ strict-identity sensitivity row, FR-10)</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
+<tr><td class="mono">PR-7</td><td>G6 vacuous on constant-key designs → next-cycle amendment question</td><td><span class="badge b-pending">NEXT CYCLE</span></td><td class="mono">PENDING-RULINGS</td></tr>
+<tr><td class="mono">PR-8</td><td>FR-1…FR-15 bundle-ratification pointer</td><td><span class="badge b-active">AWAITING JIMMY</span></td><td class="mono">PENDING-RULINGS</td></tr>
+<tr><td class="mono">PR-9</td><td>W1 data contract: transcripts / selector / tie-breaker probe</td><td><span class="badge b-open">OPEN — BLOCKS W1</span></td><td class="mono">PENDING-RULINGS + Codex handoff</td></tr>
+<tr><td class="mono">FR-1…15</td><td>O5 framework rulings (completeness ≥90%, tie-breaker granularity, G3⇒capability-washed, 05 rework, 07 floor branch, G5 cascade, PR-6 sensitivity, zv eligibility, paraphrase author, PR-3 thresholds…)</td><td><span class="badge b-done">FROZEN</span> <span class="badge b-active">ratify via PR-8</span></td><td class="mono">20260711d §2</td></tr>
+</table>
+</div>
+
+<h2 id="lanes"><span class="n">7</span>Who owes what</h2>
+<div class="lanes">
+  <div class="lane"><h3><span class="badge b-codex">CODEX</span> executes (judgment-free)</h3>
+    <ul><li><b>Phase 0 ✅ done</b> (274 tests); <b>W1 ⏸ paused on PR-9</b> — resume at W1 after ruling, never skip to W2</li>
+    <li><b>Phase 1 remainder:</b> tie-breaker, Δ(J) test, recompute, G5, G7 (~1–2 sessions + ~1 for the PR-9 re-execution, &lt;$40 live)</li>
+    <li><b>Phase 2+3 after labels:</b> G4 per wave → verdicts via the frozen formula (~1–2 sessions)</li></ul></div>
+  <div class="lane"><h3><span class="badge b-jimmy">JIMMY</span> human critical path</h3>
+    <ul><li><b>PR-9 disposition</b> (items 1+3: re-execution spend; probe-vs-cheap-models) — unblocks Codex today</li>
+    <li>Part-A labels: wave 1 = 84 units (~8–10 h) → waves 2–3 (210 + 145 units, ~17–20 h) + 2nd labeler or declared test–retest</li>
+    <li>Ratifications: PR-1/2/3/4/6 + FR bundle (PR-8) + W4 06-reference fixes</li>
+    <li>Release sign-off — always Jimmy-only</li></ul></div>
+  <div class="lane"><h3><span class="badge b-fable">FABLE / CLAUDE</span> re-enters for</h3>
+    <ul><li>PR-9 item 2 (W1 selector re-scope — delegable interpretation)</li>
+    <li>Adversarial review of the O5 verdict report</li>
+    <li>Escalations per the framework's STOP triggers (§9 below)</li>
+    <li>Paper claims section (master plan §5)</li></ul></div>
+</div>
+
+<h2 id="roadmap"><span class="n">8</span>Roadmap</h2>
+<div class="panel">
+<h3 style="margin-top:0">To a finalized benchmark — ≈ 6 sessions (4–8)</h3>
+<table>
+<tr><th style="width:44%">Phase</th><th>Who</th><th class="num">Sessions</th><th>Blocked on</th></tr>
+<tr><td>PR-9 resolution + 02/07 transcript re-execution (if ordered) + W1 tie-breaker</td>
+  <td><span class="badge b-jimmy">JIMMY</span>→<span class="badge b-codex">CODEX</span></td><td class="num">1–2</td><td><b>PR-9 ruling</b></td></tr>
+<tr><td>Phase 1 remainder: Δ(J) test, recompute, G5 (needs C-4 references), G7 (needs C-5 list)</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">1</td><td>W1 done; C-4/C-5 prerequisites</td></tr>
+<tr><td>Part-A human labels (3 waves) + 2nd labeler</td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">~25–30 h</td><td><b>the critical path</b> (parallel)</td></tr>
+<tr><td>Phase 2+3: G4 per wave, verdict assembly via frozen formula</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">1–2</td><td>labels per wave</td></tr>
+<tr><td>Adversarial review of O5 verdicts + parked escalations</td>
+  <td><span class="badge b-fable">FABLE</span></td><td class="num">1</td><td>verdicts exist</td></tr>
+<tr><td>Rework cycle (05 ordered; 02/07 rubric if G4 fails; G7-affected items) + re-run + sign-off</td>
+  <td><span class="badge b-opus">OPUS</span>/<span class="badge b-codex">CODEX</span> + <span class="badge b-jimmy">JIMMY</span></td><td class="num">1–2</td><td>verdicts</td></tr>
+</table>
+<h3>To a finalized paper — ≈ 10–11 total (9–13)</h3>
+<table>
+<tr><th style="width:44%">Phase</th><th>Who</th><th class="num">Sessions</th><th>Notes</th></tr>
+<tr><td>O6: findings + deck v2 + paper skeleton (analyses A–I pre-specified)</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">1</td><td>once verdicts land</td></tr>
+<tr><td>Full draft: methods, designs, gate/validity story, results</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">1–2</td><td>pre-registration story is a strength</td></tr>
+<tr><td>Claims-section adversarial review</td>
+  <td><span class="badge b-fable">FABLE</span></td><td class="num">1</td><td>every claim → a gate-cleared cell</td></tr>
+<tr><td>Revision + figures + camera-ready</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">1</td><td>+ Jimmy author pass</td></tr>
+</table>
+<div class="prog">
+  <div class="cap"><span>Overall arc (sessions, approximate)</span><span>~23 done · ~10–11 to go</span></div>
+  <div class="bar">
+    <div class="seg" style="width:68%;background:#2f7d5f" title="Completed"></div>
+    <div class="seg" style="width:19%;background:#7a5f2a" title="To benchmark"></div>
+    <div class="seg" style="width:13%;background:#3a4a6a" title="To paper"></div>
+  </div>
+  <div class="legend">
+    <span><span class="sw" style="background:#2f7d5f"></span>Done (~23 sessions over 6 days)</span>
+    <span><span class="sw" style="background:#7a5f2a"></span>To finalized benchmark (~6)</span>
+    <span><span class="sw" style="background:#3a4a6a"></span>To finalized paper (~4–5 more)</span>
+  </div>
+</div>
+</div>
+
+<h2 id="contingency"><span class="n">9</span>Contingency playbook — pre-decided responses</h2>
+<div class="panel" style="overflow-x:auto">
+<p style="color:var(--dim);font-size:13.5px;margin:0 0 10px">Every branch below is already adjudicated (source
+cited) — a bad outcome costs sessions, never a new decision. STOP = halt, log to PENDING-RULINGS, route to
+Jimmy/Fable; never guess.</p>
+<table class="dense">
+<tr><th style="width:60px">ID</th><th>Contingency</th><th>Trigger</th><th>Pre-decided response (source)</th><th style="width:80px">Owner</th><th class="num">Cost</th></tr>
+<tr><td class="mono">C-1</td><td><b>02/07 transcript gap</b> (ACTIVE)</td><td>PR-9 item 1 — 723/907 turn texts unrecoverable</td>
+  <td>Jimmy authorizes a fresh immutable re-execution of the 02/07 dialogues persisting every turn (O4 run untouched), or supplies transcripts; then W1 resumes with a data-contract test first (Codex handoff §5)</td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">+1 sess, ~$10–15</td></tr>
+<tr><td class="mono">C-2</td><td><b>W1 selector scope</b> (ACTIVE)</td><td>PR-9 item 2 — 1,405 unresolved cells outside selector; 20 non-tie-breakable records</td>
+  <td>Fable re-rules the selector to the full §B <code>needs_adjudication</code> surface; parse/arbiter pendings route to their own §B handling, not the tie-breaker (delegated interpretation)</td>
+  <td><span class="badge b-fable">FABLE</span></td><td class="num">0 (ruling)</td></tr>
+<tr><td class="mono">C-3</td><td><b>Tie-breaker probe conflict</b> (ACTIVE)</td><td>PR-9 item 3 — Grok-4 probe vs cheap-models-only; Mistral fallback &gt;10% own-family everywhere</td>
+  <td>Jimmy either authorizes one Grok-4 probe (~cents) or accepts the Mistral fallback + the Part-B label increment it implies (framework trigger 8 sizing)</td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">0–0.5 sess</td></tr>
+<tr><td class="mono">C-4</td><td><b>G5 references incomplete</b></td><td>Only 7/10 committed 06 pairs; zero 09 opposite-conclusion pairs; no executable FA-1 lint (Codex audit)</td>
+  <td>Author missing pairs under the two-agent rule + lint; Jimmy ratifies before bank entry (W4 order, gate memo §G-4); 06/09 stay PROVISIONAL until G5 runs</td>
+  <td><span class="badge b-opus">OPUS</span>+<span class="badge b-jimmy">JIMMY</span></td><td class="num">+0.5–1 sess</td></tr>
+<tr><td class="mono">C-5</td><td><b>G7 name-swap list missing</b></td><td>No machine-readable L7 rotation list (Codex audit)</td>
+  <td>Extract/formalize the playbook L7 rotation into a versioned list (mechanical); lint-check; then W5 runs as frozen</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">inside W5</td></tr>
+<tr><td class="mono">C-6</td><td>One judge fails G4 on a design</td><td>κ &lt; 0.65 or &lt; 0.80 × ceiling (expected on 06 from the severity offset)</td>
+  <td>Retain passer; failed family climbs the §E ladder — validate candidate on that design's Part-A units only; candidate ≠ state classifier (FR-12); passer re-judges design fully</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">inside Phase 2</td></tr>
+<tr><td class="mono">C-7</td><td>Zero judges pass G4 on a design</td><td>both κ below bar</td>
+  <td>Rubric decomposition rework FIRST, then revalidate mid-tier judges before escalating spend (frozen G4 else-branch); design = BLOCKED-G4 this cycle</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">+1 sess</td></tr>
+<tr><td class="mono">C-8</td><td>Human–human ceiling &lt; 0.65</td><td>2nd-labeler overlap κ low (risk highest on 02/07 turn states)</td>
+  <td>Category scheme unreliable → rubric decomposition rework before any release; labels re-collected after (protocol §5, pre-registered) — <b>STOP to confirm scope</b></td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">+1–2 sess</td></tr>
+<tr><td class="mono">C-9</td><td>Prevalence paradox</td><td>κw &lt; 0.65 but AC1 ≥ 0.65 AND raw ≥ 0.80 (watch 04/06)</td>
+  <td><b>STOP → Jimmy</b> as a prevalence-paradox case (protocol §4 imbalance guard); never an auto-pass</td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">0 (ruling)</td></tr>
+<tr><td class="mono">C-10</td><td>Judge disqualified at G5 (06/09)</td><td>persistent &gt;0.5 reference split</td>
+  <td>Strike its verdicts on that design; replacement judge G4-validates on Part-A then re-judges fully; <b>both disqualified → STOP</b> (FR-8)</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">+0.5–1 sess</td></tr>
+<tr><td class="mono">C-11</td><td>07 construct floor confirmed</td><td>post-adjudication S_max ≤ 10 with ≥4 models at 0</td>
+  <td>G2 construct-flatness branch → REDESIGN-REVIEW (Jimmy/Fable); never silent arc-rule loosening (FR-6)</td>
+  <td><span class="badge b-fable">FABLE</span></td><td class="num">next cycle</td></tr>
+<tr><td class="mono">C-12</td><td>05 ceiling (CONFIRMED)</td><td>G1 .970 + G2 7.6 on the judge-free primary</td>
+  <td>REWORK-DIFFICULTY already ordered (FR-5): playbook §7 native ladder (tighten constraint sets/floors), no item deletion, keys untouched; re-run after</td>
+  <td><span class="badge b-opus">OPUS</span></td><td class="num">inside rework</td></tr>
+<tr><td class="mono">C-13</td><td>PR-6 mean-vs-strict flips a reading</td><td>sensitivity row disagrees with headline</td>
+  <td><b>STOP</b> — verdict waits on the PR-6 ratification (FR-10)</td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">0 (ruling)</td></tr>
+<tr><td class="mono">C-14</td><td>Labels delayed / partial</td><td>waves incomplete when Phase 2 would start</td>
+  <td>Codex holds at Phase-1-complete ("O5 blocked on labeling"); waves release independently (FR-9) — a partial v1.0 (e.g. 7–8 designs) is a legitimate earlier endpoint if Jimmy prefers</td>
+  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">0</td></tr>
+<tr><td class="mono">C-15</td><td>OpenRouter 402 / outage / dead model</td><td>mid-run API failures</td>
+  <td>Already hardened: max_tokens 32768 cap (reservation gotcha), empty-200 retry ×3, provider fallbacks, per-cell error-as-data + checkpoint resume; reliability-probe before any new model</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">0</td></tr>
+</table>
+</div>
+
+<h2 id="docs"><span class="n">10</span>Document map (the immutable record this dashboard summarizes)</h2>
+<div class="panel">
+<table class="dense">
+<tr><th style="width:230px">Artifact</th><th>Path (under <span class="mono">Christian-Ethics-Benchmark/</span>)</th></tr>
+<tr><td><b>Authority stack (frozen)</b></td><td class="mono">00-PORTFOLIO/20260706-normative-charter.md · 20260706-master-plan.md · 20260706-opus-item-playbook.md · 20260710-fable-gate-prereg-pilot-adjudication.md (§B/§C/§E) · 20260710-fable-PR3-ruling.md · 20260711d-fable-o5-decision-framework.md (FR-1…15)</td></tr>
+<tr><td><b>O5 execution</b></td><td class="mono">20260711e-fable-codex-transition-package.md (plan) · 20260711g-codex-boot-prompt-and-reentry.md (entry point) · 20260711c-fable-o4-validity-review.md (what's real vs artifact)</td></tr>
+<tr><td><b>Latest handoffs</b></td><td class="mono">20260711h-codex-o5-phase0-w1-stop-handoff.md (CURRENT) · 20260711f-fable-transition-session-handoff.md · 20260711-O4run-session-handoff.md</td></tr>
+<tr><td><b>Measurement record</b></td><td class="mono">20260711b-o4-panel-report.md (complete panel) · runs/20260711-o4-panel/ · 20260711-capability-battery-scores.json (+SOURCES) · 20260709-p0-pilot-report.md</td></tr>
+<tr><td><b>Open questions</b></td><td class="mono">00-PORTFOLIO/PENDING-RULINGS.md (PR-1…PR-9)</td></tr>
+<tr><td><b>Labels (Jimmy)</b></td><td class="mono">labels/20260710-partA/ — 10 blind CSVs + instructions + 00-WAVE-PLAN-README.md (waves {02,07,01} → {03,04,05,06} → {08,09,10})</td></tr>
+<tr><td><b>Harness</b></td><td class="mono">harness/walkworthy/ (34 modules, 274 pytest) — run tests: cd harness &amp;&amp; ../.venv python -m pytest tests/ -q</td></tr>
+<tr><td><b>Banks / holdout</b></td><td class="mono">DESIGNS/ + ANCHOR-PACKS/ (public) · HOLDOUT/ (gitignored, loader-refused, NEVER loaded)</td></tr>
+</table>
+</div>
+
+<h2 id="protocol"><span class="n">11</span>Dashboard protocol &amp; changelog</h2>
+<div class="panel">
+<p style="color:var(--dim);font-size:13.8px;margin:0 0 12px">
+This dashboard is a <b style="color:var(--text)">LIVING document</b> — the one file in this benchmark exempt from
+the report-immutability rule (Jimmy's direction, 2026-07-11). <b style="color:var(--text)">Every agent</b>
+(Anthropic/Claude, OpenAI/Codex, any other model) reads it at session start and updates it at session end:
+refresh the Live-status panel and any section your session made stale, bump the "Last updated" line, and append
+a Changelog row below. Forecasts change only on material change. Dated reports remain the immutable evidentiary
+record — this page summarizes and cites them, never replaces them. Keep it self-contained (inline CSS, no JS,
+no external resources).</p>
+<table class="dense">
+<tr><th style="width:100px">Date</th><th style="width:140px">Agent</th><th>Change</th></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
+  <td>Created (as dated roadmap snapshot <span class="mono">20260711h-walkworthy-roadmap.html</span>): plan since
+  genesis, timeline, gate status, session forecasts.</td></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
+  <td>Renamed to <span class="mono">project-dashboard.html</span> per Jimmy; converted to living document
+  (protocol + changelog); Live status updated for Codex O5 Phase-0 completion + W1 PR-9 pause.</td></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
+  <td>Comprehensive edition: added mission/release-bar, TOC, stats strips, O5 pipeline checklist, per-design
+  status matrix, rulings ledger, document map; rebuilt the contingency playbook (C-1…C-15, incl. the new W4
+  reference-pair and W5 L7-list gaps from Codex's audit); folded in the full Phase-0/W1-stop detail.</td></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
+  <td>Staged the next-Fable-session boot prompt (<span class="mono">20260711i-fable-pr9-adjudication-boot-prompt.md</span>:
+  rule PR-9, sweep escalations, re-issue Codex W1 orders); Live status points to it.</td></tr>
+</table>
+</div>
+
+<p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html
+· LIVING document — update in place per §11 · Continuation entry point:
+<span class="mono">00-PORTFOLIO/20260711g-codex-boot-prompt-and-reentry.md</span> · Immutable session record:
+the dated <span class="mono">00-PORTFOLIO/2026*</span> handoffs and reports</p>
+
+</div>
+</body>
+</html>

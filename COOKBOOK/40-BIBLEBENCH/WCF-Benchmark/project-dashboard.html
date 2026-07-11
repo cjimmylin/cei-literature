@@ -8,7 +8,7 @@
   :root{
     --bg:#0e1220; --card:#161e30; --card2:#1d2740; --line:#2a3550;
     --ink:#dde4f0; --dim:#8b96ad; --gold:#c9a84c; --blue:#3a7bd5; --teal:#4caf8a;
-    --red:#c95c5c; --purple:#9d7bd5;
+    --red:#c95c5c; --purple:#9d7bd5; --amber:#d5a03a;
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}
@@ -17,19 +17,44 @@
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     line-height:1.55; padding:40px 20px 80px;
   }
-  .wrap{max-width:1040px; margin:0 auto;}
+  .wrap{max-width:1080px; margin:0 auto;}
   h1{color:var(--gold); font-size:1.9rem; letter-spacing:.02em; margin-bottom:6px;}
-  h2{color:var(--gold); font-size:1.35rem; margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid var(--line);}
+  h2{color:var(--gold); font-size:1.35rem; margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:10px;}
   h3{color:var(--ink); font-size:1.05rem; margin-bottom:8px;}
   p.sub{color:var(--dim); font-size:.95rem;}
   .small{font-size:.83rem; color:var(--dim);}
   code{background:var(--card2); padding:1px 6px; border-radius:4px; font-size:.85em; color:#b9c6e0;}
+
+  /* LIVE / HISTORY chips */
+  .chip{font-size:.62rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; padding:2px 9px; border-radius:20px; vertical-align:middle;}
+  .chip.live{background:rgba(76,175,138,.18); color:var(--teal); border:1px solid rgba(76,175,138,.5);}
+  .chip.hist{background:rgba(139,150,173,.14); color:var(--dim); border:1px solid rgba(139,150,173,.4);}
+
+  /* living banner */
+  .living{display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; background:linear-gradient(90deg, rgba(76,175,138,.14), rgba(76,175,138,.03)); border:1px solid var(--teal); border-radius:10px; padding:12px 18px; margin-top:20px; font-size:.88rem;}
+  .living .tag{font-size:.7rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--bg); background:var(--teal); padding:3px 10px; border-radius:20px;}
+  .living b{color:var(--ink);}
+
+  /* anchor nav */
+  .nav{display:flex; flex-wrap:wrap; gap:6px; margin-top:14px;}
+  .nav a{font-size:.78rem; color:var(--dim); text-decoration:none; background:var(--card); border:1px solid var(--line); border-radius:20px; padding:4px 12px;}
+  .nav a:hover{color:var(--gold); border-color:var(--gold);}
 
   /* stat bar */
   .stats{display:flex; flex-wrap:wrap; gap:10px; margin-top:22px;}
   .stat{flex:1 1 130px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 12px; text-align:center;}
   .stat .n{font-size:1.45rem; font-weight:700; color:var(--gold);}
   .stat .l{font-size:.74rem; color:var(--dim); text-transform:uppercase; letter-spacing:.06em; margin-top:2px;}
+
+  /* progress bars */
+  .bars{display:grid; grid-template-columns:1fr 1fr; gap:8px 26px; margin-top:8px;}
+  @media(max-width:760px){.bars{grid-template-columns:1fr;}}
+  .bar{display:grid; grid-template-columns:210px 1fr 52px; align-items:center; gap:10px; font-size:.85rem;}
+  .bar .bl{color:var(--dim);}
+  .bar .tr{height:10px; background:var(--card2); border:1px solid var(--line); border-radius:6px; overflow:hidden;}
+  .bar .fl{height:100%; background:linear-gradient(90deg, var(--teal), #6fd0a8); border-radius:6px;}
+  .bar .fl.blocked{background:linear-gradient(90deg, var(--red), #e08a8a);}
+  .bar .pc{color:var(--ink); font-weight:700; text-align:right;}
 
   /* answer boxes */
   .answers{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:18px;}
@@ -42,6 +67,17 @@
   .answer.paper .big span{color:var(--blue);}
   .answer .note{font-size:.86rem; color:var(--dim); margin-top:8px;}
 
+  /* quotability */
+  .quote-panel{display:grid; grid-template-columns:1fr; gap:8px;}
+  .qrow{display:grid; grid-template-columns:190px 110px 1fr; gap:12px; align-items:baseline; background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 14px; font-size:.88rem;}
+  @media(max-width:760px){.qrow{grid-template-columns:1fr;}}
+  .qrow .surf{font-weight:700; color:var(--ink);}
+  .qtag{font-size:.68rem; font-weight:800; letter-spacing:.05em; text-transform:uppercase; padding:2px 8px; border-radius:16px; text-align:center;}
+  .q-no{background:rgba(201,92,92,.15); color:var(--red); border:1px solid rgba(201,92,92,.4);}
+  .q-label{background:rgba(213,160,58,.15); color:var(--amber); border:1px solid rgba(213,160,58,.4);}
+  .q-desc{background:rgba(58,123,213,.15); color:#7aa8e8; border:1px solid rgba(58,123,213,.4);}
+  .qrow .why{color:var(--dim);}
+
   /* timeline */
   .phase{margin:26px 0 8px;}
   .phase-h{display:flex; align-items:baseline; gap:12px; margin-bottom:10px;}
@@ -53,6 +89,7 @@
   .sess::before{content:""; position:absolute; left:-28px; top:16px; width:10px; height:10px; border-radius:50%; background:var(--blue); border:2px solid var(--bg);}
   .sess.fable::before{background:var(--gold);}
   .sess.swarm::before{background:var(--teal);}
+  .sess.codex::before{background:var(--purple);}
   .sess .row{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px;}
   .sess .sid{font-weight:700; color:var(--ink); min-width:44px;}
   .badge{font-size:.68rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; padding:2px 8px; border-radius:20px;}
@@ -75,7 +112,6 @@
   .mile .mh .est{font-size:.85rem; font-weight:700; padding:3px 12px; border-radius:20px; background:var(--card2); border:1px solid var(--line);}
   .mile ul{margin:6px 0 0 20px;}
   .mile li{margin:5px 0; font-size:.92rem;}
-  .mile li .small{display:block;}
   .todo::before{content:"☐ "; color:var(--dim);}
   .done::before{content:"☑ "; color:var(--teal);}
   .done{color:var(--dim); text-decoration:line-through;}
@@ -85,25 +121,45 @@
   th{color:var(--gold); text-align:left; font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; padding:8px 10px; border-bottom:1px solid var(--line);}
   td{padding:8px 10px; border-bottom:1px solid rgba(42,53,80,.5); vertical-align:top;}
   td.k{color:var(--dim); white-space:nowrap;}
+  td.num{text-align:center;}
+  tr.struck td{color:var(--dim); text-decoration:line-through;}
+  tr.struck td.keep{text-decoration:none;}
+  .live-status td.k{width:220px;}
 
-  .risk{background:var(--card); border:1px solid var(--line); border-left:4px solid var(--red); border-radius:8px; padding:12px 16px; margin:8px 0; font-size:.92rem;}
-  .risk b{color:var(--ink);}
+  /* status pills for gates/judges */
+  .st{font-size:.68rem; font-weight:800; letter-spacing:.05em; text-transform:uppercase; padding:2px 9px; border-radius:16px; white-space:nowrap;}
+  .st-met{background:rgba(76,175,138,.18); color:var(--teal); border:1px solid rgba(76,175,138,.5);}
+  .st-part{background:rgba(213,160,58,.15); color:var(--amber); border:1px solid rgba(213,160,58,.4);}
+  .st-pend{background:rgba(139,150,173,.14); color:var(--dim); border:1px solid rgba(139,150,173,.4);}
+  .st-block{background:rgba(201,92,92,.15); color:var(--red); border:1px solid rgba(201,92,92,.4);}
+  .st-out{background:rgba(201,92,92,.10); color:var(--red); border:1px dashed rgba(201,92,92,.4);}
+
+  /* critical path */
+  .flow{display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:12px; font-size:.82rem;}
+  .fbox{background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 12px; text-align:center;}
+  .fbox b{display:block; color:var(--ink); font-size:.85rem;}
+  .fbox .small{display:block;}
+  .fbox.mile-box{border-color:var(--gold); background:rgba(201,168,76,.08);}
+  .fbox.mile-box b{color:var(--gold);}
+  .fbox.human{border-color:var(--red); background:rgba(201,92,92,.07);}
+  .farrow{color:var(--dim); font-size:1.1rem; padding:0 2px;}
+
+  .risk-note{background:var(--card); border:1px solid var(--line); border-left:4px solid var(--red); border-radius:8px; padding:12px 16px; margin:8px 0; font-size:.9rem;}
 
   .footer{margin-top:50px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:.82rem;}
   .footer code{font-size:.8rem;}
 
-  /* living-document banner + live status */
-  .living{display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px; background:linear-gradient(90deg, rgba(76,175,138,.14), rgba(76,175,138,.03)); border:1px solid var(--teal); border-radius:10px; padding:12px 18px; margin-top:20px; font-size:.88rem;}
-  .living .tag{font-size:.7rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color:var(--bg); background:var(--teal); padding:3px 10px; border-radius:20px;}
-  .living b{color:var(--ink);}
-  .live-status td.k{width:220px;}
+  details{background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-top:10px;}
+  details summary{cursor:pointer; color:var(--ink); font-weight:600; font-size:.9rem;}
+  details[open] summary{margin-bottom:8px;}
 
   @media print{
     body{background:#fff; color:#1a2233; padding:10px;}
-    :root{--bg:#fff; --card:#f4f6fa; --card2:#e9edf5; --line:#c9d2e0; --ink:#1a2233; --dim:#5a6478; --gold:#8a6d1f; --blue:#2456a0; --teal:#2c7d5f; --red:#a03434; --purple:#6a4ba0;}
+    :root{--bg:#fff; --card:#f4f6fa; --card2:#e9edf5; --line:#c9d2e0; --ink:#1a2233; --dim:#5a6478; --gold:#8a6d1f; --blue:#2456a0; --teal:#2c7d5f; --red:#a03434; --purple:#6a4ba0; --amber:#8a6d1f;}
     .sess::before{border-color:#fff;}
+    .nav{display:none;}
     h2{page-break-after:avoid;}
-    .mile,.sess,.answer{page-break-inside:avoid;}
+    .mile,.sess,.answer,.qrow,.risk-note{page-break-inside:avoid;}
   }
 </style>
 </head>
@@ -111,16 +167,24 @@
 <div class="wrap">
 
   <h1>WCF-Bench Project Dashboard</h1>
-  <p class="sub">Westminster Standards alignment benchmark — the plan from the beginning, where we are now,
-  and how many sessions remain to a finalized benchmark and a finalized paper.</p>
+  <p class="sub">Westminster Standards alignment benchmark — history, live progress, validity state,
+  and the plan to a finalized benchmark and paper.</p>
 
   <div class="living">
     <span class="tag">Living document</span>
-    <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §Dashboard</code>.</span>
-    <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable), session 16 close</span>
+    <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">live</span> (maintain) or <span class="chip hist">history</span> (frozen).</span>
+    <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable), session 16 — comprehensive dashboard overhaul</span>
   </div>
 
-  <h2>Live status</h2>
+  <div class="nav">
+    <a href="#status">Live status</a><a href="#progress">Progress</a><a href="#quotable">What's quotable</a>
+    <a href="#answers">Estimates</a><a href="#history">History</a><a href="#results">MVP results</a>
+    <a href="#bank">Bank</a><a href="#judges">Judges</a><a href="#rchain">R-chain</a><a href="#gates">Gate board</a>
+    <a href="#milestones">Milestones</a><a href="#path">Critical path</a><a href="#contingencies">Contingencies</a>
+    <a href="#budget">Budget</a><a href="#docs">Documents</a><a href="#log">Update log</a>
+  </div>
+
+  <h2 id="status">Live status <span class="chip live">live</span></h2>
   <table class="live-status">
     <tr><td class="k">Current phase</td><td>Milestone A — Codex execution of Tasks 1–6 (benchmark → MVP testable)</td></tr>
     <tr><td class="k">Execution owner</td><td>Codex (worktree branch <code>codex/wcfbench-mvp-testable</code>) · Claude = adjudication/review · Jimmy = G6 raters</td></tr>
@@ -142,7 +206,32 @@
     <div class="stat"><div class="n">≈$15</div><div class="l">live spend</div></div>
   </div>
 
-  <h2>The two answers, up front</h2>
+  <h2 id="progress">Progress overview <span class="chip live">live</span></h2>
+  <div class="bars">
+    <div class="bar"><span class="bl">Item bank (author + audit)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
+    <div class="bar"><span class="bl">Harness core (444 tests)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
+    <div class="bar"><span class="bl">Judge qualification (panel of record)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
+    <div class="bar"><span class="bl">MVP descriptive run (204×4)</span><span class="tr"><span class="fl" style="width:100%"></span></span><span class="pc">100%</span></div>
+    <div class="bar"><span class="bl">Codex Tasks 1–6 (Milestone A)</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0/6</span></div>
+    <div class="bar"><span class="bl">G6 human panel</span><span class="tr"><span class="fl blocked" style="width:5%"></span></span><span class="pc">0%</span></div>
+    <div class="bar"><span class="bl">Gated G1–G7 measurement run</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0%</span></div>
+    <div class="bar"><span class="bl">Perturbation battery at scale</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0%</span></div>
+    <div class="bar"><span class="bl">Paper (arXiv preprint)</span><span class="tr"><span class="fl" style="width:0%"></span></span><span class="pc">0%</span></div>
+  </div>
+  <p class="small" style="margin-top:8px;">G6 bar shows red: instrument is ready (5%) but rater recruitment (Jimmy) hasn't started — it gates everything below it.</p>
+
+  <h2 id="quotable">What's quotable today <span class="chip live">live</span></h2>
+  <p class="small">The validity state of every scored surface. Nothing from the MVP run is a gated measurement — every number is DESCRIPTIVE / PRE-GATE. Update this panel whenever a ruling or run changes a label.</p>
+  <div class="quote-panel">
+    <div class="qrow"><span class="surf">OPEN award (Matter/Manner/End)</span><span class="qtag q-label">Single-family label</span><span class="why">Only {google} qualified — numbers carry the R34.4 single-family label, not quotable as a measurement. R44 format-bridge (Task 4) is the authorized last pre-G6 path to a second family.</span></div>
+    <div class="qrow"><span class="surf">PROOFTEXT scores</span><span class="qtag q-no">Not quotable</span><span class="why">Citation-token scorer floors all SUTs at 0.03–0.34 — an artifact (R45.1). Non-quotable until the judge-assisted correct-use scorer + persisted re-read (Task 6) land.</span></div>
+    <div class="qrow"><span class="surf">Settled-core floor</span><span class="qtag q-desc">Screen semantics</span><span class="why">Raw aggregate is a SCREEN, never the claim (R39(e)); a floor-break may only be asserted after sample-level review. MVP run: 16/16 contested cells held at 1.0, no flag stood.</span></div>
+    <div class="qrow"><span class="surf">Disclosure / H-DISC</span><span class="qtag q-no">Unpromotable</span><span class="why">Candidate headline pre-registered (R28); judge-side conditions met ({google, x-ai}, R38), but promotion requires G6-confirmed items (R30 cond. 6). Never quote gpt's historical disclosure channel (dead, R30).</span></div>
+    <div class="qrow"><span class="surf">Refusal taxonomy</span><span class="qtag q-desc">Descriptive</span><span class="why">Over-refusal is a live descriptive axis (llama 73/204, haiku 55/204). Reportable as descriptive observation with the PRE-GATE caveat.</span></div>
+    <div class="qrow"><span class="surf">Cross-SUT separation</span><span class="qtag q-desc">Descriptive</span><span class="why">mistral ≈ haiku &gt; deepseek ≫ llama is a strong descriptive signal; the formal claim awaits G3 (bootstrap separation) in the gated run.</span></div>
+  </div>
+
+  <h2 id="answers">The two headline estimates <span class="chip live">live</span></h2>
   <div class="answers">
     <div class="answer">
       <div class="q">Sessions to a finalized benchmark (MVP testable)</div>
@@ -162,7 +251,7 @@
     </div>
   </div>
 
-  <h2>Where we've been — 17 sessions in 6 phases</h2>
+  <h2 id="history">Where we've been — 17 sessions in 6 phases <span class="chip hist">history</span></h2>
 
   <div class="phase">
     <div class="phase-h"><span class="pnum">PHASE 1</span><span class="pname">Design</span><span class="pdate">Jul 6–7</span></div>
@@ -232,12 +321,12 @@
     <div class="phase-h"><span class="pnum">PHASE 6</span><span class="pname">Adjudication, handover &amp; build-out — ongoing</span><span class="pdate">Jul 11 →</span></div>
     <div class="tl">
       <div class="sess fable"><div class="row"><span class="sid">S16</span><span class="badge b-fable">Fable</span><span class="small">Jul 11</span></div>
-        <div class="what"><b>R42–R46 — the payoff read:</b> panel ruled HEALTHY; the "worst disagreements" exposed as harness artifacts (first-match SCORE-parse bug; fenced values in spread math); one judge verdict overruled on fabricated evidence; <b>gpt-4o-mini dropped</b>; <b>OPEN-award format-bridge authorized</b>. Then the <b>Codex handover package</b>: AGENTS.md + a 6-task bounded execution plan with anti-rabbit-hole discipline.</div></div>
+        <div class="what"><b>R42–R46 — the payoff read:</b> panel ruled HEALTHY; the "worst disagreements" exposed as harness artifacts (first-match SCORE-parse bug; fenced values in spread math); one judge verdict overruled on fabricated evidence; <b>gpt-4o-mini dropped</b>; <b>OPEN-award format-bridge authorized</b>. Then the <b>Codex handover package</b>: AGENTS.md + a 6-task bounded execution plan with anti-rabbit-hole discipline. Dashboard created + made living.</div></div>
       <!-- AGENTS: append new session rows here (S17, S18, …) as work completes.
            Template:
-      <div class="sess"><div class="row"><span class="sid">S17</span><span class="badge b-codex">Codex</span><span class="small">Jul 1X</span></div>
+      <div class="sess codex"><div class="row"><span class="sid">S17</span><span class="badge b-codex">Codex</span><span class="small">Jul 1X</span></div>
         <div class="what"><b>One-line headline:</b> what was done, key numbers, commit.</div></div>
-           Badge classes: b-fable / b-opus / b-codex / b-swarm / b-jimmy. Add class "fable"/"swarm" on .sess for gold/teal dots. -->
+           Badge classes: b-fable / b-opus / b-codex / b-swarm / b-jimmy. Add class "fable"/"swarm"/"codex" on .sess for gold/teal/purple dots. -->
     </div>
   </div>
 
@@ -245,7 +334,102 @@
     <div class="small">Bank frozen and audited · MVP descriptively complete · every remaining decision pre-ruled · execution owned by Codex · G6 human panel owned by Jimmy. <b>Agents: move/update this marker as phases advance.</b></div>
   </div>
 
-  <h2>Where we're going — three milestones</h2>
+  <h2 id="results">MVP run — descriptive results <span class="chip hist">history</span></h2>
+  <p class="small"><b style="color:var(--red)">DESCRIPTIVE / PRE-GATE — not a gated G1–G7 measurement.</b>
+  Full-bank run 2026-07-10: 204 runnable items × 4 SUTs = 816 cells, 0 errors
+  (<code>07-PILOTS/20260710-mvp-run/</code>). OPEN uses the Matter-proxy headline under the single-family label;
+  the PROOFTEXT row is struck — a scorer artifact, not a finding (see What's quotable).</p>
+  <table>
+    <tr><th>Design</th><th>llama-3.1-8b</th><th>deepseek-chat</th><th>mistral-large-2512</th><th>claude-haiku-4.5</th></tr>
+    <tr><td class="k">aggravate</td><td class="num">0.72</td><td class="num">0.86</td><td class="num">0.89</td><td class="num">0.88</td></tr>
+    <tr><td class="k">complicit</td><td class="num">0.27</td><td class="num">0.47</td><td class="num">0.91</td><td class="num">0.80</td></tr>
+    <tr><td class="k">crosswind</td><td class="num">0.45</td><td class="num">0.87</td><td class="num">0.98</td><td class="num">0.85</td></tr>
+    <tr><td class="k">dutybound</td><td class="num">0.32</td><td class="num">0.88</td><td class="num">0.92</td><td class="num">0.88</td></tr>
+    <tr><td class="k">liberty</td><td class="num">0.50</td><td class="num">0.78</td><td class="num">0.92</td><td class="num">0.92</td></tr>
+    <tr><td class="k">mending</td><td class="num">0.35</td><td class="num">0.88</td><td class="num">0.95</td><td class="num">0.93</td></tr>
+    <tr class="struck"><td class="k keep">prooftext <span class="small">(scorer artifact — R45.1)</span></td><td class="num">0.03</td><td class="num">0.22</td><td class="num">0.34</td><td class="num">0.17</td></tr>
+    <tr><td class="k">steadfast</td><td class="num">0.13</td><td class="num">0.86</td><td class="num">0.92</td><td class="num">0.96</td></tr>
+    <tr><td class="k">wholeheart</td><td class="num">0.40</td><td class="num">0.81</td><td class="num">0.81</td><td class="num">0.94</td></tr>
+  </table>
+  <p class="small" style="margin-top:6px;">narrowgate (22 EPISODE items) runs separately — Codex Task 5. Contested items are adherence-scored and carry no fraction; the settled-core floor held 16/16.</p>
+  <table>
+    <tr><th>Refusal taxonomy</th><th>correct_refusal</th><th>engaged</th><th>over_refusal</th></tr>
+    <tr><td class="k">llama-3.1-8b</td><td class="num">14</td><td class="num">117</td><td class="num">73</td></tr>
+    <tr><td class="k">deepseek-chat</td><td class="num">7</td><td class="num">183</td><td class="num">14</td></tr>
+    <tr><td class="k">mistral-large-2512</td><td class="num">10</td><td class="num">180</td><td class="num">14</td></tr>
+    <tr><td class="k">claude-haiku-4.5</td><td class="num">20</td><td class="num">129</td><td class="num">55</td></tr>
+  </table>
+
+  <h2 id="bank">The bank at a glance <span class="chip hist">history</span></h2>
+  <p class="small">230 items, frozen and independently audited (20-item deep-sample verbatim-faithful, ~33 anchors re-verified, 0 discrepant). Each design covers the full Decalogue; only methodology varies. Tracks: A = own-conduct, B = advisory; tiers T1–T4 by difficulty.</p>
+  <table>
+    <tr><th>Design</th><th>Method (one line)</th><th>Items</th><th>Scorer kind</th></tr>
+    <tr><td class="k">dutybound</td><td>Duties required/forbidden application counsel</td><td class="num">23</td><td>OPEN (judge panel)</td></tr>
+    <tr><td class="k">complicit</td><td>Complicity refusal — should-refuse traps</td><td class="num">23</td><td>OPEN + refusal-gold</td></tr>
+    <tr><td class="k">aggravate</td><td>Sin-aggravation ordering (WLC Q151)</td><td class="num">24</td><td>ORDINAL (τ vs gold_order); 4 contested → adherence</td></tr>
+    <tr><td class="k">steadfast</td><td>Position stability under escalating pushback</td><td class="num">23</td><td>OPEN (ladder)</td></tr>
+    <tr><td class="k">crosswind</td><td>Competing-duty crosswinds</td><td class="num">23</td><td>OPEN</td></tr>
+    <tr><td class="k">liberty</td><td>Christian-liberty bounds (WCF 20)</td><td class="num">23</td><td>OPEN; 4 dev_set_only [DISPUTED]</td></tr>
+    <tr><td class="k">prooftext</td><td>Anchor/citation correct-use</td><td class="num">23</td><td>ANCHOR (token → judge-assisted, Task 6)</td></tr>
+    <tr><td class="k">mending</td><td>Repentance/restitution counsel (WCF 15)</td><td class="num">24</td><td>OPEN</td></tr>
+    <tr><td class="k">wholeheart</td><td>Matter/Manner/End triaxial evaluation</td><td class="num">22</td><td>OPEN (triaxial)</td></tr>
+    <tr><td class="k">narrowgate</td><td>Multi-turn temptation episodes (T4)</td><td class="num">22</td><td>EPISODE (state machine — Task 5)</td></tr>
+  </table>
+  <p class="small" style="margin-top:6px;">Runnable in the standard runner: 204 (161 OPEN-kind + 16 ordinal + 23 anchor + 4 contested) · 22 EPISODE via <code>episode_live.py</code> · 4 dev_set_only excluded from public runs.</p>
+
+  <h2 id="judges">Judge panel evolution <span class="chip live">live</span></h2>
+  <p class="small">The project's central methodological story: judges must EARN each scoring surface through K=8 repeat-probe batteries (≥5/8, frozen manifests, R35). Update this table when Task 4's re-screen lands.</p>
+  <table>
+    <tr><th>Judge (family)</th><th>Journey</th><th>Status</th></tr>
+    <tr><td class="k">gemini-flash (google)</td><td>G4 provisional (R25) → OPEN-award form suspended (R29/R33.6) → re-qualified under the reason mandate (R34) → decline-penalty overruled + floor-gloss (R39) → requal 8/8 → most central grader of the MVP panel (R42)</td><td><span class="st st-met">Panel — all surfaces</span></td></tr>
+    <tr><td class="k">grok-4.20 (x-ai)</td><td>Screened 24/24 zero-variance on disclosure/G4/neg-disclosure (S13) → ratified 2nd disclosure family (R38) → settled-core requal 8/8 (R39(d)); OPEN award = fail_format 8/8 → re-screen under the Task-4 format-bridge</td><td><span class="st st-met">Panel — disclosure, settled-core, coherence</span></td></tr>
+    <tr><td class="k">gpt-4o-mini (openai)</td><td>G4 provisional (R25) → disclosure channel ruled DEAD (R30) → OPEN award suspended, deterministically response-insensitive (R34) → settled-core lost 0/8 (R39(d)) → fabricated-evidence award overruled (R42) → dropped (R43)</td><td><span class="st st-out">Dropped (R43)</span></td></tr>
+    <tr><td class="k">mistral-small-3.2 / medium-3.1</td><td>Both substantive G4 fails 8/8 — family exhausted at fast-mid tier (R36)</td><td><span class="st st-out">Out (R36)</span></td></tr>
+    <tr><td class="k">cohere command-r-08-2024</td><td>Failed all probes at the S13 screen</td><td><span class="st st-out">Out</span></td></tr>
+    <tr><td class="k">cohere command-a · amazon nova-pro</td><td>Failed OPEN-award discrimination at the S15 frontier screen → re-screen under the Task-4 format-bridge (discrimination bar NOT relaxed; also ride a coherence battery)</td><td><span class="st st-pend">Re-screen pending (Task 4)</span></td></tr>
+  </table>
+
+  <h2 id="rchain">Decision architecture — the R-chain <span class="chip hist">history</span></h2>
+  <p class="small">46 binding rulings across 7 Fable adjudication memos + 1 Jimmy ruling. They are never relitigated; new judgment extends the chain (R47+) in a NEW dated memo. Append rows here as memos land.</p>
+  <table>
+    <tr><th>Rulings</th><th>Memo</th><th>Governs</th></tr>
+    <tr><td class="k">R1–R7</td><td><code>20260706-fable-review-memo.md</code></td><td>Expansion-file acceptance, errata style, initial item-quality bar</td></tr>
+    <tr><td class="k">R8–R23</td><td><code>20260709-fable-batch2-review-memo.md</code></td><td>Batch-2 item rulings, [DISPUTED] handling, construct-specificity reporting, smoke-pilot declined</td></tr>
+    <tr><td class="k">R24–R28</td><td><code>20260710-fable-judge-calibration-adjudication-memo.md</code></td><td>Per-keypoint AWARD scoring, probe battery, transcript mandate (R27), H-DISC pre-registration</td></tr>
+    <tr><td class="k">R29–R33</td><td><code>20260710e-fable-postfix-adjudication-memo.md</code></td><td>First sample-level adjudication; per-surface suspensions; reason/evidence-quote mandates</td></tr>
+    <tr><td class="k">R34–R37</td><td><code>20260710h-fable-probe-stability-adjudication-memo.md</code></td><td>K=8 majority qualification, frozen manifests, ≥2 families per scored surface, candidate ladder</td></tr>
+    <tr><td class="k">R38–R41</td><td><code>20260710-fable-grok-ratification-floor-divergence-memo.md</code></td><td>grok ratified; floor semantics pinned (screen / sample-level / tie→UNGRADED); retry seams</td></tr>
+    <tr><td class="k">R42–R46</td><td><code>20260711-fable-mvp-disagreement-adjudication-memo.md</code></td><td>MVP disagreement read; parse-bug directives; gpt dropped; format-bridge authorized; Opus/Codex directives</td></tr>
+    <tr><td class="k">Jimmy</td><td><code>20260709-contested-item-scoring-ruling.md</code></td><td>Contested items scored on ADHERENCE (disclosure · position · coherence), never right/wrong</td></tr>
+  </table>
+
+  <h2 id="gates">Release gate board — G1–G7 <span class="chip live">live</span></h2>
+  <p class="small">The spine's release gates (<code>00-OVERVIEW/20260706-shared-spine.md</code>). A quotable, releasable benchmark passes all seven. Update statuses as evidence lands.</p>
+  <table>
+    <tr><th>Gate</th><th>Requirement (condensed from the spine)</th><th>Status</th><th>Blocked on / evidence</th></tr>
+    <tr><td class="k">G1 · Capability correlation</td><td>Hard-tier scores vs capabilities PC1 &lt; 40% — else the tier measures competence, not values</td><td><span class="st st-pend">Pending</span></td><td>Gated run + capability battery (Milestone B)</td></tr>
+    <tr><td class="k">G2 · Headroom</td><td>Best frontier model ≤ ~70% of ceiling on T3/T4</td><td><span class="st st-pend">Pending</span></td><td>Descriptive warning signs: mistral 0.98 on crosswind, 0.95 on mending — difficulty reservoir may be needed</td></tr>
+    <tr><td class="k">G3 · Separation</td><td>≥ 90% of frontier pairs distinguishable at p&lt;0.01 on T2+ (bootstrap over items)</td><td><span class="st st-pend">Pending</span></td><td>Descriptive separation strong (llama ≪ others); formal bootstrap in the gated run</td></tr>
+    <tr><td class="k">G4 · Judge validity</td><td>Judge–human κw/ICC vs a human-panel ceiling; ≥2 cross-family judges</td><td><span class="st st-part">Partial</span></td><td>Judge-side met per surface (K=8, frozen manifests); human-κ half awaits G6 labels</td></tr>
+    <tr><td class="k">G5 · Shortcut</td><td>Lexical baseline ≈ chance; 10%-fine-tune probe fails</td><td><span class="st st-pend">Pending</span></td><td>Milestone B work item</td></tr>
+    <tr><td class="k">G6 · Human consensus</td><td>Gold labels need ≥85% consensus of confessionally-literate raters; below → [DISPUTED]/distributional</td><td><span class="st st-block">Blocked — Jimmy</span></td><td>Instrument READY (<code>06-G6-PANEL/g6-panel.html</code> + run-book); rater recruitment not started</td></tr>
+    <tr><td class="k">G7 · Reliability</td><td>Per-design internal consistency reported; α &gt; 0.99 flagged as redundancy</td><td><span class="st st-pend">Pending</span></td><td>Gated run</td></tr>
+  </table>
+  <details>
+    <summary>Perturbation battery P1–P6 (mandatory before release; harness status)</summary>
+    <table>
+      <tr><th>P</th><th>Name</th><th>Requirement</th><th>Harness status</th></tr>
+      <tr><td class="k">P1</td><td>Paraphrase</td><td>≥2 meaning-preserving rewrites per released item</td><td><span class="st st-pend">Needs LLM materialization</span></td></tr>
+      <tr><td class="k">P2</td><td>Option order</td><td>Permutation-average all MCQ/rank items</td><td><span class="st st-pend">Deferred (permutation)</span></td></tr>
+      <tr><td class="k">P3</td><td>Persona/framing</td><td>Vary asker identity + stakes framing</td><td><span class="st st-met">Materialized</span></td></tr>
+      <tr><td class="k">P4</td><td>Pushback</td><td>Single-turn "Are you sure?" on any T2 item</td><td><span class="st st-met">Materialized</span></td></tr>
+      <tr><td class="k">P5</td><td>Register</td><td>Formal ↔ colloquial ↔ emotional rewrite</td><td><span class="st st-pend">Needs LLM materialization</span></td></tr>
+      <tr><td class="k">P6</td><td>Monitoring frame</td><td>"This is an evaluation" vs naturalistic; verbalized-awareness rate</td><td><span class="st st-met">Materialized</span></td></tr>
+    </table>
+    <p class="small" style="margin-top:6px;">At-scale perturbation runs = Milestone B (≈1–2 sessions). Flip-rate reducers (<code>position_invariance</code>, <code>steerability_check</code>) are built and tested.</p>
+  </details>
+
+  <h2 id="milestones">Where we're going — three milestones <span class="chip live">live</span></h2>
   <div class="miles">
 
     <div class="mile">
@@ -253,7 +437,7 @@
       <p class="small">Definition (per Jimmy): all 226 runnable items scorable end-to-end under a re-qualified
       2-family judge panel, trustworthy parsing and cost accounting, PROOFTEXT measuring its construct.
       Spec: <code>20260711-codex-execution-plan.md</code>. The checkboxes below MIRROR that plan's —
-      when you tick a task there, tick it here too (change <code>class="todo"</code> to <code>class="done"</code> or prepend ☑):</p>
+      when you tick a task there, tick it here too (change <code>class="todo"</code> to <code>class="done"</code>):</p>
       <ul>
         <li class="todo"><b>Task 1</b> — SCORE-parse fix (last-match; 2 persisted regression fixtures)</li>
         <li class="todo"><b>Task 2</b> — disagreement.json eligible/non-fenced spreads</li>
@@ -267,10 +451,10 @@
 
     <div class="mile">
       <div class="mh"><span class="t">B · Gated &amp; quotable results</span><span class="est">4–6 agent sessions&nbsp;&nbsp;<span class="gate">+ G6 human wall-clock</span></span></div>
-      <p class="small">The MVP numbers are DESCRIPTIVE/PRE-GATE by design. Quotable, releasable results require:</p>
+      <p class="small">The MVP numbers are DESCRIPTIVE/PRE-GATE by design. Quotable, releasable results = the gate board above turning green:</p>
       <ul>
-        <li><span class="gate">G6 confessional rater panel</span> — <b>Jimmy recruits raters</b> (instrument ready at <code>06-G6-PANEL/</code>); resolves 4 [DISPUTED] items, position maps, standing rulings. <i>Dominant wall-clock unknown.</i></li>
-        <li>Apply G6 outcomes + finalize position maps (≈1 session)</li>
+        <li><span class="gate">G6 confessional rater panel</span> — <b>Jimmy recruits raters</b> (instrument ready at <code>06-G6-PANEL/</code>); resolves 4 [DISPUTED] items, position maps, standing rulings R1/R3/R4/R20/R21. <i>Dominant wall-clock unknown.</i></li>
+        <li>Apply G6 outcomes + finalize position maps + H-DISC promotion decision (≈1 session)</li>
         <li>Gated G1–G7 measurement run + gate adjudication (≈1–2 sessions)</li>
         <li>Perturbation battery P1–P6 at scale (≈1–2 sessions)</li>
         <li>Release packaging: repo, bank docs, headline tables (≈1 session)</li>
@@ -282,43 +466,90 @@
       <p class="small">Raw material is unusually strong: the R1–R46 memo chain IS the methods section
       (judge qualification, probe batteries, adjudication protocol), and run artifacts are fully persisted.</p>
       <ul>
-        <li>Outline + methods draft from the memo chain (≈1–2 sessions)</li>
+        <li>Outline + methods draft from the memo chain (≈1–2 sessions) — <b>can start during Milestone B</b></li>
         <li>Results, figures, tables from gated-run artifacts (≈1–2 sessions)</li>
         <li>Full draft: intro, related work, limitations (≈1 session)</li>
         <li>Adversarial review + revision — highest-tier model pass (≈1–2 sessions)</li>
         <li>Polish + arXiv package (≈1 session)</li>
       </ul>
-      <p class="small" style="margin-top:8px;">Writing can begin against milestone B's tail (methods + design sections don't need gated numbers), compressing the total path to ≈10–13 sessions.</p>
     </div>
   </div>
 
-  <h2>Assumptions &amp; risks</h2>
-  <div class="risk"><b>G6 recruitment is the schedule.</b> Every agent session is days; the human rater panel is the only open-ended wall-clock item. Until it lands, milestone B — and therefore the paper's results — waits.</div>
-  <div class="risk"><b>Task-4 format-bridge outcome.</b> Either result is acceptable (a second OPEN-award family qualifies, or the ladder closes and OPEN ships single-family-labeled) — but zero-pass means the paper must carry the single-family label on the OPEN surface, per R34.4/R44.5.</div>
-  <div class="risk"><b>Budget.</b> ≈$30 remained on the OpenRouter key (2026-07-10). Tasks 4–6 ≈ $10–15; the gated run + perturbation battery will need a top-up (rough order: $30–60).</div>
-  <div class="risk"><b>Unit of estimate.</b> "Session" = one focused agent working block (a Codex run or one Claude session). Estimates assume no relitigating of the R-chain — the anti-rabbit-hole discipline in <code>AGENTS.md</code> exists to protect exactly this.</div>
+  <h2 id="path">Critical path <span class="chip live">live</span></h2>
+  <div class="flow">
+    <span class="fbox"><b>Tasks 1–3</b><span class="small">harness fixes</span></span><span class="farrow">→</span>
+    <span class="fbox"><b>Task 4</b><span class="small">bridge + re-qual<br>NEW MANIFEST</span></span><span class="farrow">→</span>
+    <span class="fbox"><b>Tasks 5 + 6</b><span class="small">EPISODE · PROOF</span></span><span class="farrow">→</span>
+    <span class="fbox mile-box"><b>MILESTONE A</b><span class="small">MVP testable</span></span><span class="farrow">→</span>
+    <span class="fbox human"><b>G6 panel</b><span class="small">HUMAN — Jimmy<br>(paper methods can draft in parallel)</span></span><span class="farrow">→</span>
+    <span class="fbox"><b>Gated G1–G7 run</b><span class="small">+ adjudication</span></span><span class="farrow">→</span>
+    <span class="fbox"><b>Perturbations</b><span class="small">P1–P6 at scale</span></span><span class="farrow">→</span>
+    <span class="fbox mile-box"><b>MILESTONE B</b><span class="small">gated + release</span></span><span class="farrow">→</span>
+    <span class="fbox"><b>Results + review</b><span class="small">figures · adversarial pass</span></span><span class="farrow">→</span>
+    <span class="fbox mile-box"><b>MILESTONE C</b><span class="small">arXiv preprint</span></span>
+  </div>
+  <p class="small" style="margin-top:8px;">The only human-gated box is G6 — everything before it is agent work; the paper's methods sections can be drafted while G6 runs.</p>
 
-  <h2>Reference — key documents</h2>
+  <h2 id="contingencies">Contingency plan <span class="chip live">live</span></h2>
+  <p class="small">Pre-planned responses, not just risks. L/I = likelihood/impact (L·M·H). Where a response is already ruled, the ruling is cited — apply it, don't re-decide. Update statuses as triggers fire or retire.</p>
+  <table>
+    <tr><th>Risk</th><th>Trigger</th><th>L/I</th><th>Pre-planned response</th><th>Owner</th></tr>
+    <tr><td class="k">G6 recruitment stalls</td><td>No raters engaged ~4 weeks after Milestone A</td><td class="num">M/H</td><td>Options — <b>Jimmy ruling required</b>: (a) reduced panel with disclosed size, (b) test–retest single-rater fallback (WALKWORTHY §3.4 precedent), (c) reframe paper methods-first (judge-qualification pipeline as the contribution, less human data). Benchmark stays PRE-GATE-labeled regardless; no silent bar-lowering.</td><td>Jimmy</td></tr>
+    <tr><td class="k">Format-bridge zero-pass</td><td>grok + command-a + nova-pro all fail K=8 under the bridged template</td><td class="num">M/M</td><td><b>PRE-RULED (R44.5):</b> ladder CLOSED; OPEN ships single-family-labeled; escalation = G6 human anchors. No further candidate fishing, no exemplar tweaking, no K widening.</td><td>Codex (execute) / ruled</td></tr>
+    <tr><td class="k">Budget exhaustion</td><td>Key balance &lt; $10 before Task 4, or &lt; ~$40 before the gated run</td><td class="num">M/L</td><td>R40.1 pre-flight halts the run BEFORE spending; surface to Jimmy for top-up. Post-Task-3, budget caps enforce max(estimate, actuals). Forecast in §Budget.</td><td>Jimmy (top-up)</td></tr>
+    <tr><td class="k">Codex stalls or rabbit-holes</td><td>No task progress in a session, or work outside the plan's Do-NOT lists</td><td class="num">M/M</td><td>Escalate via <code>PENDING-QUESTIONS.md</code>; fallback executor = Claude via <code>20260711-opus-postadjudication-build-boot-prompt.md</code> (same tasks, honoring any ticked checkboxes). Anti-rabbit-hole rules in AGENTS.md exist for this.</td><td>Jimmy (switch) / Claude</td></tr>
+    <tr><td class="k">Judge model deprecated / drifts</td><td>gemini-flash or grok-4.20 slug 404s on OpenRouter, or behavior shifts</td><td class="num">L/H</td><td>Fail-loud slug validation catches 404s at launch; frozen manifests (R35.4) make drift detectable and localize damage — full K=8 re-qualification of the replacement under the standing battery. No ad-hoc substitution.</td><td>Executing agent</td></tr>
+    <tr><td class="k">PROOF floors don't rise post-upgrade</td><td>A SUT's PROOF score stays ≈flat after the judge-assisted re-read</td><td class="num">L/M</td><td><b>PRE-RULED (R45.1):</b> record as a REAL finding in the report and STOP — diagnosis is an adjudication pass (R47+), not executor work.</td><td>Claude (adjudicate)</td></tr>
+    <tr><td class="k">Silent-corruption regression</td><td>Any new parse/aggregation defect class discovered</td><td class="num">L/H</td><td>R42 precedent: persisted transcripts (R27) enable full audit; fix fixture-first from persisted texts; run dirs are immutable so history is never silently rewritten; disclose bounded-unknown windows explicitly.</td><td>Executing agent</td></tr>
+    <tr><td class="k">Top-tier adjudication access lapsed</td><td>Standing: the Fable window closed 2026-07-11</td><td class="num">—/M</td><td>R47+ adjudications run on the best available tier; where the boot-prompt fallback pattern applies, downgrade to descriptive cataloging + recommendations, with bindingness restored by Jimmy ratification. The R-chain itself never reopens.</td><td>Claude / Jimmy</td></tr>
+    <tr><td class="k">Parallel-session git collisions</td><td>Shared index/worktree conflicts across concurrent agent sessions</td><td class="num">M/L</td><td>Standing protocol: <code>git log -1</code> before commit, explicit pathspecs only (never <code>git add -A</code>), fast-forward pushes, lane isolation (never touch sibling worktrees/dirty files).</td><td>All agents</td></tr>
+  </table>
+
+  <h2 id="budget">Budget <span class="chip live">live</span></h2>
+  <table>
+    <tr><th>Item</th><th>Amount</th><th>Notes</th></tr>
+    <tr><td class="k">Spent to date</td><td>≈$15</td><td>All pilots + probes + the 816-cell MVP run (key-side accounting; internal estimator undercounts ~10× until Task 3)</td></tr>
+    <tr><td class="k">Remaining on key</td><td>≈$30</td><td>As of 2026-07-10; pre-flight check (<code>GET /api/v1/auth/key</code>) before every live run</td></tr>
+    <tr><td class="k">Milestone A forecast</td><td>$10–15</td><td>Task 4 re-qual+screen ≤$10 (hard cap) · Task 5 EPISODE ≤$10 cap, expected far less · Task 6 re-read small</td></tr>
+    <tr><td class="k">Milestone B forecast</td><td>$30–60</td><td>Gated run + perturbation battery at scale — <b>top-up needed</b></td></tr>
+    <tr><td class="k">Milestone C forecast</td><td>≈$0 live</td><td>Writing sessions; no live model calls beyond incidentals</td></tr>
+  </table>
+
+  <h2 id="docs">Reference — key documents <span class="chip hist">history</span></h2>
   <table>
     <tr><th>Reader / purpose</th><th>Document</th></tr>
+    <tr><td class="k">All agents — status NOW</td><td><b>this dashboard</b> (open on session start; update on session close)</td></tr>
     <tr><td class="k">Coding agents (Codex) — start here</td><td><code>AGENTS.md</code> → <code>20260711-codex-execution-plan.md</code></td></tr>
-    <tr><td class="k">Latest binding rulings</td><td><code>20260711-fable-mvp-disagreement-adjudication-memo.md</code> (R42–R46; chain runs R1–R46)</td></tr>
-    <tr><td class="k">Thread-close handoff / Claude re-entry</td><td><code>20260711-wcf-session16-handoff.md</code> (§4 re-entry protocol, §3 doc map)</td></tr>
+    <tr><td class="k">Latest binding rulings</td><td><code>20260711-fable-mvp-disagreement-adjudication-memo.md</code> (R42–R46; full chain in §R-chain above)</td></tr>
+    <tr><td class="k">Thread-close handoff / Claude re-entry</td><td><code>20260711-wcf-session16-handoff.md</code> (§4 re-entry protocol, §3 doc map + addendum)</td></tr>
+    <tr><td class="k">The spine (gates, perturbations, schema)</td><td><code>00-OVERVIEW/20260706-shared-spine.md</code></td></tr>
     <tr><td class="k">MVP run evidence</td><td><code>07-PILOTS/20260710-mvp-run/</code> (report, transcripts, disagreement records)</td></tr>
     <tr><td class="k">G6 rater instrument</td><td><code>06-G6-PANEL/g6-panel.html</code> + README run-book</td></tr>
     <tr><td class="k">Frozen bank</td><td><code>05-BANK-YAML/</code> (230/230, independently audited)</td></tr>
   </table>
 
+  <h2 id="log">Dashboard update log <span class="chip live">live</span></h2>
+  <p class="small">Append-only, newest last. One line per dashboard update: date · agent · what changed.</p>
+  <table>
+    <tr><th>Date</th><th>Agent</th><th>Change</th></tr>
+    <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Created as <code>20260711-wcf-roadmap.html</code> (<code>dda24af84</code>)</td></tr>
+    <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Renamed to <code>project-dashboard.html</code>; converted to living document with banner + Live-status (<code>094d98487</code>)</td></tr>
+    <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Comprehensive overhaul: nav, progress bars, quotability panel, MVP results, bank table, judge evolution, R-chain index, G1–G7 gate board, critical path, contingency plan, budget, this log</td></tr>
+  </table>
+
   <div class="footer">
     <b style="color:var(--ink)">WCF-Bench Project Dashboard — LIVING DOCUMENT.</b> Every agent (Anthropic/Claude,
-    OpenAI/Codex, or any other model) working this project updates this file in place at the end of each
-    session: (1) the "Last updated" line in the banner, (2) the Live-status table, (3) a new session row in
-    Phase 6+, (4) milestone checkboxes, (5) estimates if they changed. This undated file is the ONE exception
-    to the dated-file immutability convention — git history is its snapshot record; never create dated copies.
+    OpenAI/Codex, or any other model) working this project opens this file at session start and updates it in
+    place at session end: (1) the banner's "Last updated" line, (2) the Live-status table, (3) progress bars,
+    (4) a new session row in Phase 6, (5) milestone checkboxes (mirroring the execution plan), (6) the
+    quotability panel + gate board + judge table when a ruling or run changes them, (7) contingency statuses
+    if a trigger fires, (8) the budget row after live spend, (9) one appended line in the update log.
+    Sections chipped HISTORY are frozen — never rewrite them. This undated file is the ONE exception to the
+    dated-file immutability convention — git history is its snapshot record; never create dated copies.
     <br><br>
-    Self-contained, no external dependencies · historical facts from the session handoff chain and binding
-    memos R1–R46 · estimates are planning figures, not commitments · created 2026-07-11 (session 16, as
-    <code>20260711-wcf-roadmap.html</code>; renamed same day by Jimmy's direction).
+    Self-contained, no external dependencies · facts from the session handoff chain, binding memos R1–R46,
+    the shared spine, and the immutable MVP-run report · estimates are planning figures, not commitments ·
+    created 2026-07-11 (session 16).
   </div>
 
 </div>

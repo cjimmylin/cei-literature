@@ -37,18 +37,35 @@ agents, and any other model. It is intentionally **undated and edited in place**
 exception to the dated-file immutability rule (git history is its snapshot record — never
 create dated copies of it, never leave it stale).
 
-**At the end of every session (and after any milestone or manifest change), update:**
+**SESSION OPEN:** load the dashboard FIRST — read its Live-status table, progress bars,
+gate board, and open escalations before touching anything else (in a GUI environment,
+literally open it in a browser; headless, read the HTML source's LIVE sections).
+
+**SESSION CLOSE (and after any milestone/manifest/ruling change), update the LIVE
+surfaces** (each section is chipped LIVE or HISTORY in the page):
 1. The banner's **"Last updated: <date> · by <agent>"** line — mandatory, even if nothing
    else changed.
 2. The **Live-status table** (current phase, execution owner, manifest of record, panel,
    suite count, next milestone, blockers, open escalations).
-3. **Append a session row** in Phase 6 (template is in an HTML comment there; S17, S18, …).
-4. **Milestone checkboxes** (they mirror the execution plan's — tick both places).
-5. Estimates/YOU-ARE-HERE marker if they changed.
+3. **Progress bars** (§Progress overview) — completed fractions per workstream.
+4. **Append a session row** in Phase 6 (template is in an HTML comment there; S17, S18, …).
+5. **Milestone checkboxes** (they mirror the execution plan's — tick both places).
+6. **Quotability panel, gate board (G1–G7), and judge-evolution table** — whenever a run
+   or ruling changes a validity label, a gate status, or the panel.
+7. **Contingency-plan statuses** — if a trigger fired or retired.
+8. **Budget rows** — after any live spend.
+9. **One appended line in the Update log** (append-only, newest last).
 
-Keep updates to those surfaces — do not restructure the page or alter the historical
-timeline (Phases 1–5 are history). The file is fully self-contained (inline CSS, no JS,
-no CDN); keep it that way, and never put the canary string in it.
+Sections chipped **HISTORY are frozen** — never rewrite Phases 1–5, the MVP results, the
+bank table, or past R-chain/update-log rows (append rows only). Do not restructure the
+page. The file is fully self-contained (inline CSS, no JS, no CDN); keep it that way, and
+never put the canary string in it.
+
+**Boot-prompt convention:** any NEW boot prompt, re-entry prompt, or session handoff an
+agent writes for this project MUST include two lines: (i) "on session open: load
+`project-dashboard.html` (Live-status first)" and (ii) "on session close: update the
+dashboard per `AGENTS.md §The project dashboard`". Existing prompts have been updated;
+keep the convention for all future ones.
 
 ## Decisions are already made (the R-chain)
 

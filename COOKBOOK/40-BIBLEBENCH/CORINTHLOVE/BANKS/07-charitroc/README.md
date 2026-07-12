@@ -141,6 +141,19 @@ slices are execution plans and can never redefine megamatrix completeness.
 
 Phase A contains authored episodes, deterministic fixtures, planted synthetic
 recovery, static filtering, and a mock export demonstration. Every numerical
-result from scripted or synthetic clients is labeled **harness validation, NOT a measurement**. No live model call, frontier filtering pass, or human judgment
-was executed. Those are Phase-B activities governed by `pilot_protocol.md` and
-`human_calibration_protocol.md`.
+result from scripted or synthetic clients retains the exact label
+**harness validation, NOT a measurement**.
+
+After Phase A, two public-only cheap-model OpenRouter qualifications were run
+under frozen Azure/ZDR/no-fallback profiles. The verified public AUCs are
+0.4444 (GPT-5 nano), 0.6389 (GPT-5.4 nano), 0.6528 (GPT-5 mini), and 0.7361
+(GPT-5.4 mini). These 12-item results are qualification evidence only: they do
+not authorize calibration, private execution, a bank freeze, final model
+ranking, or family-level inference. Belief/action/joint stage-3 diagnostics are
+in `reports/20260711-openrouter-cheap-qualification-diagnostics-v2.*` and
+`reports/20260711-openrouter-gpt54-mini-qualification-diagnostics-v1.*`.
+
+No frontier-model filter pass or human judgment was executed. Frontier and
+flagship OpenRouter calls remain deferred under the current cheap-only
+authorization. Phase-B calibration and annotation remain governed by
+`pilot_protocol.md` and `human_calibration_protocol.md`.

@@ -60,6 +60,14 @@ FAILURE_RECORD_VERSION = "charitroc-openrouter-failure-v1"
 LIVE_ATTEMPT_PROVENANCE = (
     "live OpenRouter calibration attempt, NOT a measurement"
 )
+LIVE_QUALIFICATION_ATTEMPT_PROVENANCE = (
+    "live OpenRouter qualification attempt, NOT a measurement"
+)
+LIVE_ACCESS_PROBE_ATTEMPT_PROVENANCE = (
+    "live OpenRouter access probe attempt, NOT a measurement"
+)
+_LIVE_CHEAP_QUALIFICATION_AUTHORIZATION = object()
+_LIVE_ACCESS_PROBE_AUTHORIZATION = object()
 _SECRET_VALUE_RE = re.compile(
     r"(?i)(?:\b(?:sk|rk)-[A-Za-z0-9_-]{8,}|"
     r"\bBearer\s+[A-Za-z0-9._~+/=-]+|"
@@ -190,8 +198,8 @@ class WireRequest:
 @dataclass
 class TransportResponse:
     status: int
-    headers: dict
-    chunks: object
+    headers: dict = field(repr=False)
+    chunks: object = field(repr=False)
     closer: object = field(default=None, repr=False)
 
     def close(self):
@@ -288,6 +296,31 @@ def _contains_raw_credential_material(raw):
     )
 
 
+def _contains_exact_secret(value, exact_secret):
+    if type(value) is bytes:
+        if exact_secret.encode("utf-8") in value:
+            return True
+        value = value.decode("utf-8", errors="ignore")
+    if type(value) is str:
+        if exact_secret in value:
+            return True
+        expanded = _UNICODE_ESCAPE_RE.sub(
+            lambda match: chr(int(match.group(1), 16)), value
+        )
+        return exact_secret in expanded
+    if type(value) is dict:
+        return any(
+            _contains_exact_secret(key, exact_secret)
+            or _contains_exact_secret(item, exact_secret)
+            for key, item in value.items()
+        )
+    if type(value) in {list, tuple}:
+        return any(
+            _contains_exact_secret(item, exact_secret) for item in value
+        )
+    return False
+
+
 def _failure_record(
         raw, failure_kind, *, failure_context, force_redact=False):
     raw = bytes(raw)
@@ -297,7 +330,7 @@ def _failure_record(
         "provenance": (
             contracts.RUN_PROVENANCE["mock"]
             if failure_context["run_mode"] == "mock"
-            else LIVE_ATTEMPT_PROVENANCE
+            else failure_context["attempt_provenance"]
         ),
         "run_mode": failure_context["run_mode"],
         "measurement_ready": False,
@@ -326,32 +359,45 @@ def _binary_protocol_error(
     )
 
 
-def _capture_stream(chunks, failure_context):
+def _capture_stream(
+        chunks, failure_context, *, exact_secret, response_headers=None):
     """Capture every yielded byte before parsing or decoding provider data."""
     raw = bytearray()
+    header_echo = _contains_exact_secret(response_headers, exact_secret)
+
+    def capture_error(failure_kind, extra=None):
+        force_redact = (
+            header_echo
+            or _contains_exact_secret(bytes(raw), exact_secret)
+            or _contains_exact_secret(extra, exact_secret)
+        )
+        return _binary_protocol_error(
+            failure_kind,
+            raw,
+            failure_context=failure_context,
+            force_redact=force_redact,
+        )
+
     try:
         for chunk in chunks:
             if type(chunk) is not bytes:
-                raise _binary_protocol_error(
-                    "invalid_chunk", raw, failure_context=failure_context
-                )
+                raise capture_error("invalid_chunk", chunk)
             raw.extend(chunk)
             if len(raw) > MAX_TRACE_BYTES:
-                raise _binary_protocol_error(
-                    "trace_limit", raw, failure_context=failure_context
-                )
+                raise capture_error("trace_limit")
     except OpenRouterProtocolError as error:
         if error.failure_record is not None:
             raise
-        raise _binary_protocol_error(
-            "iterator_failure", raw, failure_context=failure_context
-        ) from None
+        raise capture_error("iterator_failure") from None
     except Exception:
-        raise _binary_protocol_error(
-            "iterator_failure", raw, failure_context=failure_context
-        ) from None
+        raise capture_error("iterator_failure") from None
     captured = bytes(raw)
-    if _contains_raw_credential_material(captured):
+    if (
+        header_echo
+        or
+        _contains_exact_secret(captured, exact_secret)
+        or _contains_raw_credential_material(captured)
+    ):
         raise _binary_protocol_error(
             "credential_material",
             captured,
@@ -489,6 +535,9 @@ def _validate_resolved_identity(resolved, identity):
     expected_provider = manifest.expected_returned_provider(identity)
     if resolved.get("expected_returned_provider") != expected_provider:
         raise ValueError("resolved OpenRouter returned provider is inconsistent")
+    expected_models = manifest.expected_returned_provider_model_ids(identity)
+    if resolved.get("expected_returned_provider_model_ids") != expected_models:
+        raise ValueError("resolved OpenRouter returned model IDs are inconsistent")
     if resolved.get("eligible_endpoint_policy") not in {
             "exactly_one", "all_exact_one_selected"}:
         raise ValueError("resolved OpenRouter endpoint policy is not frozen")
@@ -524,7 +573,8 @@ def _resolve_request_identity(request):
     identity = _request_identity_tuple(request)
     matches = []
     for profile_id in (
-            manifest.FLAGSHIP_PROFILE_ID, manifest.CHEAP_PROFILE_ID):
+            manifest.FLAGSHIP_PROFILE_ID,
+            *manifest.QUALIFICATION_PROFILE_IDS):
         try:
             resolved = manifest.resolve_openrouter_identity(
                 request["logical_model_id"], profile_id=profile_id
@@ -695,13 +745,17 @@ def build_wire_request(
         },
         "provider": deepcopy(resolved_identity["routing_policy"]),
     }
-    body = contracts.canonical_json_bytes(body_object)
     descriptor = {
         "method": "POST",
         "url": API_URL,
         "headers": deepcopy(SANITIZED_HEADERS),
         "body": deepcopy(body_object),
     }
+    if any(
+            _contains_exact_secret(value, api_key)
+            for value in (prior_reasoning, messages, body_object, descriptor)):
+        raise ValueError("OpenRouter API key must remain out of band")
+    body = contracts.canonical_json_bytes(body_object)
     headers = {
         "Authorization": "Bearer " + api_key,
         **SANITIZED_HEADERS,
@@ -716,10 +770,29 @@ def build_wire_request(
 
 
 def _build_failure_context(request, wire, run_mode):
-    if run_mode not in {"mock", "openrouter"}:
+    if run_mode not in {"mock", "openrouter", "openrouter_probe"}:
         raise ValueError("failure context run_mode is not OpenRouter-safe")
+    identity_tuple = _request_identity_tuple(request)
+    profile_id = manifest.frozen_identity_profile(identity_tuple)
+    if run_mode == "mock":
+        attempt_provenance = contracts.RUN_PROVENANCE["mock"]
+    elif run_mode == "openrouter" and profile_id == manifest.FLAGSHIP_PROFILE_ID:
+        attempt_provenance = LIVE_ATTEMPT_PROVENANCE
+    elif (
+        run_mode == "openrouter"
+        and profile_id in manifest.QUALIFICATION_PROFILE_IDS
+    ):
+        attempt_provenance = LIVE_QUALIFICATION_ATTEMPT_PROVENANCE
+    elif (
+        run_mode == "openrouter_probe"
+        and profile_id in manifest.QUALIFICATION_PROFILE_IDS
+    ):
+        attempt_provenance = LIVE_ACCESS_PROBE_ATTEMPT_PROVENANCE
+    else:
+        raise ValueError("failure context identity/run_mode scope is not authorized")
     return {
         "run_mode": run_mode,
+        "attempt_provenance": attempt_provenance,
         "identity": {
             "provider": request["provider"],
             "logical_model_id": request["logical_model_id"],
@@ -861,8 +934,14 @@ def default_transport(*, url, headers, body, timeout):
     )
 
 
-def _read_exact_chunks(chunks, failure_context):
-    _raw, text = _capture_stream(chunks, failure_context)
+def _read_exact_chunks(
+        chunks, failure_context, *, exact_secret, response_headers=None):
+    _raw, text = _capture_stream(
+        chunks,
+        failure_context,
+        exact_secret=exact_secret,
+        response_headers=response_headers,
+    )
     return text
 
 
@@ -1005,10 +1084,23 @@ def _usage_consistent(usage):
 def _route_evidence(
         metadata, requested_model, events, generation_id,
         metadata_indices, *, expected_provider="OpenAI",
-        eligible_endpoint_policy="exactly_one"):
+        eligible_endpoint_policy="exactly_one",
+        expected_returned_model_ids=None):
     if eligible_endpoint_policy not in {
             "exactly_one", "all_exact_one_selected"}:
         raise ValueError("unknown eligible-endpoint attestation policy")
+    if expected_returned_model_ids is None:
+        expected_returned_model_ids = [requested_model]
+    if (
+        type(expected_returned_model_ids) is not list
+        or not expected_returned_model_ids
+        or any(type(value) is not str or not value
+               for value in expected_returned_model_ids)
+        or len(expected_returned_model_ids) != len(set(
+            expected_returned_model_ids
+        ))
+    ):
+        raise ValueError("expected returned model IDs are not frozen")
     selected_provider = None
     selected_model = None
     ok = type(metadata) is dict
@@ -1025,10 +1117,13 @@ def _route_evidence(
         or type(endpoints.get("total")) is not int
         or type(available) is not list
         or not available
-        or endpoints.get("total") != len(available)
+        or endpoints.get("total") < len(available)
         or (
             eligible_endpoint_policy == "exactly_one"
-            and len(available) != 1
+            and (
+                len(available) != 1
+                or endpoints.get("total") != 1
+            )
         )
     ):
         ok = False
@@ -1045,16 +1140,17 @@ def _route_evidence(
     ok = ok and all(
         type(row) is dict
         and row.get("provider") == expected_provider
-        and row.get("model") == requested_model
+        and row.get("model") in expected_returned_model_ids
         and type(row.get("selected")) is bool
         for row in available)
     attempts = metadata.get("attempts")
-    ok = ok and type(attempts) is list and len(attempts) == 1
-    if type(attempts) is list:
+    if attempts is not None and attempts != []:
+        ok = ok and type(attempts) is list and len(attempts) == 1
+    if type(attempts) is list and len(attempts) == 1:
         ok = ok and all(
             type(row) is dict
             and row.get("provider") == expected_provider
-            and row.get("model") == requested_model
+            and row.get("model") == selected_model
             and type(row.get("status")) is int
             and row.get("status") == 200
             for row in attempts)
@@ -1065,7 +1161,7 @@ def _route_evidence(
     ok = ok and generation_id.strip() == generation_id
     ok = ok and bool(events) and all(
         event.get("id") == generation_id
-        and event.get("model") == requested_model
+        and event.get("model") == selected_model
         and event.get("provider") == expected_provider
         for event in events)
     ok = ok and metadata_indices == [len(events) - 1]
@@ -1078,10 +1174,14 @@ def _route_evidence(
 
 def _parse_success(
         raw_bytes, raw_trace, response_headers, requested_model,
-        failure_context, *, expected_provider="OpenAI",
-        eligible_endpoint_policy="exactly_one"):
+        failure_context, *, exact_secret, expected_provider="OpenAI",
+        eligible_endpoint_policy="exactly_one",
+        expected_returned_model_ids=None):
     events = _parse_sse(raw_trace)
-    if _contains_credential_material(events):
+    if (
+        _contains_exact_secret(events, exact_secret)
+        or _contains_credential_material(events)
+    ):
         raise _binary_protocol_error(
             "credential_material",
             raw_bytes,
@@ -1194,7 +1294,41 @@ def _parse_success(
         metadata_indices,
         expected_provider=expected_provider,
         eligible_endpoint_policy=eligible_endpoint_policy,
+        expected_returned_model_ids=expected_returned_model_ids,
     )
+
+    terminal_finish_repeat = False
+    if finish_reasons == ["stop", "stop"] and len(usage_rows) == 1:
+        terminal_index = finish_indices[-1]
+        terminal_event = events[terminal_index]
+        terminal_choices = terminal_event.get("choices")
+        terminal_delta = (
+            terminal_choices[0].get("delta")
+            if type(terminal_choices) is list
+            and len(terminal_choices) == 1
+            and type(terminal_choices[0]) is dict
+            else None
+        )
+        prior_output_indices = [
+            index for index in output_event_indices if index < terminal_index
+        ]
+        terminal_finish_repeat = bool(
+            terminal_index == len(events) - 1
+            and metadata_indices == [terminal_index]
+            and usage_rows[0][0] == terminal_index
+            and output_event_indices
+            and max(output_event_indices) == terminal_index
+            and prior_output_indices
+            and finish_indices[0] == max(prior_output_indices)
+            and not any(
+                index > finish_indices[0]
+                for index in emitted_output_indices
+            )
+            and type(terminal_delta) is dict
+            and terminal_delta.get("content") in {None, ""}
+            and terminal_delta.get("reasoning") in {None, ""}
+            and terminal_delta.get("reasoning_details") in (None, [], ())
+        )
 
     usage = deepcopy(NULL_USAGE)
     if len(usage_rows) != 1:
@@ -1211,15 +1345,25 @@ def _parse_success(
                 error_codes.append("terminal_usage_inconsistent")
         if (
             not finish_indices
-            or usage_index <= max(finish_indices)
+            or (
+                terminal_finish_repeat
+                and usage_index != finish_indices[-1]
+            )
+            or (
+                not terminal_finish_repeat
+                and usage_index <= max(finish_indices)
+            )
             or (
                 output_event_indices
+                and not terminal_finish_repeat
                 and usage_index <= max(output_event_indices)
             )
         ):
             error_codes.append("terminal_usage_order")
 
-    if finish_reasons != ["stop"]:
+    if finish_reasons == ["stop", "stop"] and terminal_finish_repeat:
+        pass
+    elif finish_reasons != ["stop"]:
         if not finish_reasons:
             error_codes.append("missing_finish_reason")
         elif len(finish_reasons) != 1:
@@ -1366,7 +1510,10 @@ def _run_stage_record(
             raise OpenRouterProtocolError("transport returned an invalid status")
         try:
             raw_bytes, raw_trace = _capture_stream(
-                response.chunks, failure_context
+                response.chunks,
+                failure_context,
+                exact_secret=api_key,
+                response_headers=response.headers,
             )
             if response.status != 200:
                 error_code = "http_" + str(response.status)
@@ -1404,11 +1551,15 @@ def _run_stage_record(
                     response.headers,
                     request["provider_model_id"],
                     failure_context,
+                    exact_secret=api_key,
                     expected_provider=resolved_identity[
                         "expected_returned_provider"
                     ],
                     eligible_endpoint_policy=resolved_identity[
                         "eligible_endpoint_policy"
+                    ],
+                    expected_returned_model_ids=resolved_identity[
+                        "expected_returned_provider_model_ids"
                     ],
                 )
             except OpenRouterProtocolError as error:
@@ -1494,9 +1645,11 @@ def _run_stage_record(
 def _assert_run_dependencies(
         run_mode, *, transport, now, sleeper, uuid_factory=None):
     _assert_frozen_runtime_wire_configuration()
-    if run_mode not in {"mock", "openrouter"}:
-        raise ValueError("OpenRouter run_mode must be mock or openrouter")
-    if run_mode != "openrouter":
+    if run_mode not in {"mock", "openrouter", "openrouter_probe"}:
+        raise ValueError(
+            "OpenRouter run_mode must be mock, openrouter, or openrouter_probe"
+        )
+    if run_mode == "mock":
         return
     production_only = (
         transport is default_transport
@@ -1508,6 +1661,49 @@ def _assert_run_dependencies(
         raise ValueError(
             "live OpenRouter provenance requires production defaults"
         )
+
+
+def _assert_public_stage_scope(request, run_mode):
+    """Reject cheap live work from the generic one-stage entry point."""
+    if run_mode not in {"openrouter", "openrouter_probe"}:
+        return
+    profile_id = manifest.frozen_identity_profile(
+        _request_identity_tuple(contracts.validate_stage_request(request))
+    )
+    if profile_id in manifest.QUALIFICATION_PROFILE_IDS:
+        raise ValueError(
+            "cheap live stages require a dedicated qualification or access API"
+        )
+    if run_mode == "openrouter_probe":
+        raise ValueError("access probes require the dedicated cheap access API")
+
+
+def _assert_qualification_profile(profile_id):
+    """Reject non-qualification profiles at every dedicated API boundary."""
+    if (
+        type(profile_id) is not str
+        or profile_id not in manifest.QUALIFICATION_PROFILE_IDS
+    ):
+        raise ValueError("dedicated qualification profile_id is not frozen")
+
+
+def _assert_episode_scope(run_mode, panel_profile, authorization):
+    if run_mode == "mock":
+        return
+    if run_mode == "openrouter_probe":
+        raise ValueError("four-stage execution cannot use access-probe run_mode")
+    if run_mode != "openrouter":
+        return
+    if panel_profile == manifest.FLAGSHIP_PROFILE_ID:
+        return
+    if (
+        panel_profile in manifest.QUALIFICATION_PROFILE_IDS
+        and authorization is _LIVE_CHEAP_QUALIFICATION_AUTHORIZATION
+    ):
+        return
+    raise ValueError(
+        "cheap live episodes require the dedicated qualification API"
+    )
 
 
 def _integrity_rerun_allowed(result):
@@ -1529,6 +1725,7 @@ def run_stage(
         now=utc_now, sleeper=time.sleep, prior_results=None,
         run_mode="mock"):
     """Execute one stage; fixture callers remain non-measurements by default."""
+    _assert_public_stage_scope(request, run_mode)
     _assert_run_dependencies(
         run_mode, transport=transport, now=now, sleeper=sleeper
     )
@@ -1544,13 +1741,14 @@ def run_stage(
     )["result"]
 
 
-def run_episode(
+def _run_episode_core(
         episode, *, logical_model_id, transport=default_transport, api_key,
         uuid_factory=uuid.uuid4, now=utc_now, sleeper=time.sleep,
         run_mode="mock", before_stage=None, stage_sink=None,
-        panel_profile=manifest.FLAGSHIP_PROFILE_ID):
+        panel_profile=manifest.FLAGSHIP_PROFILE_ID, authorization=None):
     """Run four progressive turns, with one whole-episode integrity rerun."""
     _validate_stage_hooks(before_stage, stage_sink)
+    _assert_episode_scope(run_mode, panel_profile, authorization)
     _assert_run_dependencies(
         run_mode,
         transport=transport,
@@ -1723,10 +1921,157 @@ def run_episode(
     raise AssertionError("unreachable integrity-session state")
 
 
+def run_episode(
+        episode, *, logical_model_id, transport=default_transport, api_key,
+        uuid_factory=uuid.uuid4, now=utc_now, sleeper=time.sleep,
+        run_mode="mock", before_stage=None, stage_sink=None,
+        panel_profile=manifest.FLAGSHIP_PROFILE_ID):
+    """Generic fixture/flagship runner; cheap mock fixtures remain supported."""
+    return _run_episode_core(
+        episode,
+        logical_model_id=logical_model_id,
+        transport=transport,
+        api_key=api_key,
+        uuid_factory=uuid_factory,
+        now=now,
+        sleeper=sleeper,
+        run_mode=run_mode,
+        before_stage=before_stage,
+        stage_sink=stage_sink,
+        panel_profile=panel_profile,
+    )
+
+
+def _run_episode_authorized(
+        episode, *, logical_model_id, api_key, run_mode, panel_profile,
+        authorization, before_stage=None, stage_sink=None):
+    _assert_qualification_profile(panel_profile)
+    if authorization is not _LIVE_CHEAP_QUALIFICATION_AUTHORIZATION:
+        raise ValueError("cheap live qualification authorization is invalid")
+    return _run_episode_core(
+        episode,
+        logical_model_id=logical_model_id,
+        api_key=api_key,
+        run_mode=run_mode,
+        before_stage=before_stage,
+        stage_sink=stage_sink,
+        panel_profile=panel_profile,
+        authorization=authorization,
+    )
+
+
+def _run_live_access_probe(
+        *, logical_model_id, api_key, transport, uuid_factory, now, sleeper,
+        before_stage=None, stage_sink=None, authorization=None,
+        profile_id=manifest.CHEAP_PROFILE_ID):
+    """Private, testable one-stage core for the canonical access probe."""
+    _assert_qualification_profile(profile_id)
+    if authorization is not _LIVE_ACCESS_PROBE_AUTHORIZATION:
+        raise ValueError("live access probe authorization is invalid")
+    _validate_stage_hooks(before_stage, stage_sink)
+    probe = manifest.validate_cheap_access_probe(
+        manifest.build_cheap_access_probe(
+            logical_model_id, profile_id=profile_id
+        ),
+        logical_model_id=logical_model_id,
+        profile_id=profile_id,
+    )
+    identity = _panel_identity(
+        logical_model_id, panel_profile=profile_id
+    )
+    turns = model_turns(probe)
+    execution_id = str(uuid_factory())
+    request = contracts.build_stage_request(
+        probe,
+        execution_id=execution_id,
+        stage="stage_1",
+        prior_responses={},
+        **identity,
+    )
+    try:
+        record = _run_stage_record(
+            request,
+            future_turns=turns[1:],
+            transport=transport,
+            api_key=api_key,
+            now=now,
+            sleeper=sleeper,
+            prior_results=[],
+            run_mode="openrouter_probe",
+            before_stage=before_stage,
+            integrity_session=1,
+        )
+    except OpenRouterProtocolError as error:
+        if error.failure_record is None:
+            raise
+        failure_record = deepcopy(error.failure_record)
+        session = {
+            "integrity_session": 1,
+            "execution_id": execution_id,
+            "status": "failed",
+            "requests": [request],
+            "results": [],
+            "transport_descriptors": [],
+            "chain": None,
+            "failure_record": failure_record,
+        }
+        return {
+            "status": "failed",
+            "provenance": failure_record["provenance"],
+            "measurement_ready": False,
+            "integrity_session_count": 1,
+            "sessions": [session],
+            "requests": [request],
+            "results": [],
+            "transport_descriptors": [],
+            "chain": None,
+            "failure_record": failure_record,
+        }
+
+    result = record["result"]
+    descriptor = record["transport_descriptor"]
+    validate_episode_transport_descriptors(
+        probe, [request], [result], [descriptor]
+    )
+    _emit_stage_hook(
+        stage_sink,
+        integrity_session=1,
+        request=request,
+        transport_descriptor=descriptor,
+        result=result,
+        include_result=True,
+    )
+    status = result["terminal_status"]
+    session = {
+        "integrity_session": 1,
+        "execution_id": execution_id,
+        "status": status,
+        "requests": [request],
+        "results": [result],
+        "transport_descriptors": [descriptor],
+        "chain": None,
+    }
+    return {
+        "status": status,
+        "provenance": result["provenance"],
+        "measurement_ready": False,
+        "integrity_session_count": 1,
+        "sessions": [session],
+        "requests": [request],
+        "results": [result],
+        "transport_descriptors": [descriptor],
+        "chain": None,
+    }
+
+
 def run_live_episode(
         episode, *, logical_model_id, api_key, before_stage=None,
         stage_sink=None, panel_profile=manifest.FLAGSHIP_PROFILE_ID):
     """Production-only entry point for live OpenRouter measurement runs."""
+    if panel_profile != manifest.FLAGSHIP_PROFILE_ID:
+        raise ValueError(
+            "cheap live episodes require the dedicated qualification API"
+        )
     return run_episode(
         episode,
         logical_model_id=logical_model_id,
@@ -1735,4 +2080,53 @@ def run_live_episode(
         before_stage=before_stage,
         stage_sink=stage_sink,
         panel_profile=panel_profile,
+    )
+
+
+def run_live_cheap_qualification_episode(
+        episode, *, logical_model_id, purpose, api_key, before_stage=None,
+        stage_sink=None, profile_id=manifest.CHEAP_PROFILE_ID):
+    """Run one exact public cheap canary/smoke episode in production."""
+    _assert_qualification_profile(profile_id)
+    validated = manifest.validate_public_qualification_episode(
+        episode, purpose=purpose
+    )
+    _panel_identity(
+        logical_model_id, panel_profile=profile_id
+    )
+    return _run_episode_authorized(
+        validated,
+        logical_model_id=logical_model_id,
+        api_key=api_key,
+        run_mode="openrouter",
+        before_stage=before_stage,
+        stage_sink=stage_sink,
+        panel_profile=profile_id,
+        authorization=_LIVE_CHEAP_QUALIFICATION_AUTHORIZATION,
+    )
+
+
+def run_live_access_probe(
+        *, logical_model_id, api_key, before_stage=None, stage_sink=None,
+        profile_id=manifest.CHEAP_PROFILE_ID):
+    """Run exactly stage one of the canonical non-bank cheap access probe."""
+    _assert_qualification_profile(profile_id)
+    _assert_run_dependencies(
+        "openrouter_probe",
+        transport=default_transport,
+        now=utc_now,
+        sleeper=time.sleep,
+        uuid_factory=uuid.uuid4,
+    )
+    return _run_live_access_probe(
+        logical_model_id=logical_model_id,
+        api_key=api_key,
+        transport=default_transport,
+        uuid_factory=uuid.uuid4,
+        now=utc_now,
+        sleeper=time.sleep,
+        before_stage=before_stage,
+        stage_sink=stage_sink,
+        profile_id=profile_id,
+        authorization=_LIVE_ACCESS_PROBE_AUTHORIZATION,
     )

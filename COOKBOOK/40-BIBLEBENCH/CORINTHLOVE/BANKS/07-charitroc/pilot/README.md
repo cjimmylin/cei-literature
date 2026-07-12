@@ -5,6 +5,21 @@ CHARITROC panel: `gpt-5.5`, `gpt-5.4`, and `gpt-5.4-mini`, all at medium
 reasoning effort. GPT-5.6 Sol is excluded. The manifest forbids model fallback
 or substitution.
 
+## Current cheap-only OpenRouter authorization
+
+The flagship panel described below is not currently authorized for OpenRouter.
+Public qualification uses dedicated entry points that cannot launch
+calibration, reliability, private execution, or a flagship profile:
+
+- `run_cheap_openrouter.py` for GPT-5 nano, GPT-5.4 nano, and GPT-5 mini;
+- `run_gpt54_mini_openrouter.py` for the isolated GPT-5.4-mini profile.
+
+Both entry points permit only access, canary, smoke, report, and semantic
+verification over the fixed 12-item public bank. Exact live commands, retry
+rules, and verified roots are maintained in `../../../RUNBOOK.md` and
+`../../../STATUS.md`. Do not use the general panel commands below until the
+user explicitly authorizes flagship/Phase-B execution.
+
 The runner does not contain a hidden fake mode and does not make a network call
 unless `--run-mode live` is supplied. Test fixtures invoke mock mode through the
 Python API and every mock artifact is labeled exactly

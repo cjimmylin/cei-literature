@@ -37,6 +37,9 @@
     {
       "logical_model_id": "gpt-5-nano",
       "provider_model_id": "openai/gpt-5-nano",
+      "expected_returned_provider_model_ids": [
+        "openai/gpt-5-nano-2025-08-07"
+      ],
       "configuration_id": "openrouter-azure-gpt-5-nano-medium-no-fallback-zdr",
       "price_ceiling_usd_per_million_tokens": {
         "input": 0.05,
@@ -46,6 +49,9 @@
     {
       "logical_model_id": "gpt-5.4-nano",
       "provider_model_id": "openai/gpt-5.4-nano",
+      "expected_returned_provider_model_ids": [
+        "openai/gpt-5.4-nano-20260317"
+      ],
       "configuration_id": "openrouter-azure-gpt-5.4-nano-medium-no-fallback-zdr",
       "price_ceiling_usd_per_million_tokens": {
         "input": 0.2,
@@ -55,6 +61,9 @@
     {
       "logical_model_id": "gpt-5-mini",
       "provider_model_id": "openai/gpt-5-mini",
+      "expected_returned_provider_model_ids": [
+        "openai/gpt-5-mini-2025-08-07"
+      ],
       "configuration_id": "openrouter-azure-gpt-5-mini-medium-no-fallback-zdr",
       "price_ceiling_usd_per_million_tokens": {
         "input": 0.25,
@@ -62,5 +71,5 @@
       }
     }
   ],
-  "profile_sha256": "13595c089555cd9a2076660bcd4e27591c2c10c511f3bd56b77391e731ca0ae1"
+  "profile_sha256": "7ae0aedf01874a22e6ef1b26e6c99422cb2377cae87d0b82f9e80a71da6b4f5a"
 }

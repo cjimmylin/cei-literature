@@ -1,0 +1,19 @@
+{
+  "expected_row_count": 4800,
+  "followthrough_in_primary": false,
+  "n_rows": 4800,
+  "primary": "direct_key_choice",
+  "provenance": "harness validation, NOT a measurement",
+  "schema": [
+    "model_id",
+    "method_id",
+    "item_family",
+    "item_id",
+    "clause",
+    "score",
+    "rung",
+    "judge_ids",
+    "mechanical_flag",
+    "canary_id"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "candidate_surface_violations": [],
+  "exact_phrase": {
+    "ceiling": 0.6,
+    "majority_accuracy": 0.5675,
+    "pure_phrase_count": 0,
+    "unique_phrases": 666
+  },
+  "families": 40,
+  "gate_pass": true,
+  "leave_one_family_out": {
+    "ceiling": 0.55,
+    "folds": [
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "archive-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "archive-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "archive-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "archive-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "clinic-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "clinic-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "clinic-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "clinic-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "cooperative-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "cooperative-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "cooperative-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "cooperative-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "housing-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "housing-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "housing-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "housing-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "meals-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "meals-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "meals-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "meals-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "registry-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "registry-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "registry-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "registry-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "release-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "release-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "release-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "release-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "shelter-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "shelter-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "shelter-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "shelter-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "transit-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "transit-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "transit-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "transit-unexpected-access-event",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "water-bounded-capacity-allocation",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "water-conflicting-revision-record",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "water-incomplete-handoff",
+        "observations": 240
+      },
+      {
+        "fractional_accuracy": 0.5,
+        "heldout_family": "water-unexpected-access-event",
+        "observations": 240
+      }
+    ],
+    "fractional_accuracy": 0.5,
+    "inversion_robust_predictability": 0.5
+  },
+  "observations": 9600,
+  "supported_token_purity": {
+    "minimum_support": 20,
+    "pure_token_count": 0,
+    "violations": []
+  }
+}

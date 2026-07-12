@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "crossroads-a3-profile-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["model", "method", "clause_scores", "method_summaries", "megamatrix"],
+  "properties": {
+    "model": {"type": "string", "minLength": 1},
+    "method": {"const": "01-crossroads"},
+    "clause_scores": {"$ref": "#/$defs/vector"},
+    "method_summaries": {
+      "type": "object",
+      "required": ["primary", "execution_vector"],
+      "properties": {
+        "primary": {"const": "direct_key_choice"},
+        "execution_vector": {"$ref": "#/$defs/vector"}
+      }
+    },
+    "megamatrix": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["loadings_table", "calibration_notes"],
+      "properties": {
+        "loadings_table": {"const": "export/loadings_table.csv"},
+        "calibration_notes": {"const": "megamatrix/calibration_notes.md"}
+      }
+    }
+  },
+  "$defs": {
+    "vector": {
+      "type": "object",
+      "minProperties": 16,
+      "maxProperties": 16,
+      "propertyNames": {"enum": ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16"]},
+      "additionalProperties": {
+        "type": "object",
+        "required": ["score", "n_items", "ci"],
+        "properties": {
+          "score": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+          "n_items": {"type": "integer", "minimum": 0},
+          "n_structures": {"type": "integer", "minimum": 0},
+          "ci": {"type": ["object", "null"]}
+        }
+      }
+    }
+  }
+}

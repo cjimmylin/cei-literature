@@ -1,0 +1,51 @@
+{
+  "manifest_version": "charitroc-openrouter-gpt54-mini-panel-v1",
+  "profile_id": "gpt54-mini-azure-v1",
+  "immutable": true,
+  "purpose": "qualification-only",
+  "catalog_snapshot_utc": "2026-07-11T00:48:00Z",
+  "command_allowlist": [
+    "access",
+    "canary",
+    "smoke",
+    "verify",
+    "report"
+  ],
+  "required_parameters": [
+    "max_completion_tokens",
+    "reasoning",
+    "response_format",
+    "structured_outputs"
+  ],
+  "minimum_context_length": 400000,
+  "eligible_endpoint_policy": "all_exact_one_selected",
+  "reasoning_effort": "medium",
+  "expected_returned_provider": "Azure",
+  "routing_policy": {
+    "only": [
+      "Azure"
+    ],
+    "order": [
+      "Azure"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true,
+    "data_collection": "deny",
+    "zdr": true
+  },
+  "models": [
+    {
+      "logical_model_id": "gpt-5.4-mini",
+      "provider_model_id": "openai/gpt-5.4-mini",
+      "expected_returned_provider_model_ids": [
+        "openai/gpt-5.4-mini-20260317"
+      ],
+      "configuration_id": "openrouter-azure-gpt-5.4-mini-medium-no-fallback-zdr",
+      "price_ceiling_usd_per_million_tokens": {
+        "input": 0.75,
+        "output": 4.5
+      }
+    }
+  ],
+  "profile_sha256": "cc92bedbe4eda1e428373af76036bc803d2961e41a7714da838fe4af9480a359"
+}

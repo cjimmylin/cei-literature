@@ -17,6 +17,7 @@ BANK = Path(__file__).resolve().parents[1]
 SEED = 20260709
 MODELS = ("gpt-5.5", "gpt-5.4", "gpt-5.4-mini")
 CHEAP_MODELS = ("gpt-5-nano", "gpt-5.4-nano", "gpt-5-mini")
+GPT54_MINI_MODELS = ("gpt-5.4-mini",)
 STAGES = ("smoke", "calibration", "reliability", "private")
 HIDDEN_ENTRY_KEYS = {
     "true_type", "label", "cue_variant", "base_rate_benign", "pair_id",
@@ -240,12 +241,20 @@ def test_cheap_panel_freezes_exact_slugs_configurations_and_price_ceilings():
         "gpt-5.4-nano": {"input": 0.20, "output": 1.25},
         "gpt-5-mini": {"input": 0.25, "output": 2.00},
     }
+    expected_returned_models = {
+        "gpt-5-nano": ["openai/gpt-5-nano-2025-08-07"],
+        "gpt-5.4-nano": ["openai/gpt-5.4-nano-20260317"],
+        "gpt-5-mini": ["openai/gpt-5-mini-2025-08-07"],
+    }
 
     for row in panel["models"]:
         logical = row["logical_model_id"]
         assert row == {
             "logical_model_id": logical,
             "provider_model_id": f"openai/{logical}",
+            "expected_returned_provider_model_ids": (
+                expected_returned_models[logical]
+            ),
             "configuration_id": (
                 f"openrouter-azure-{logical}-medium-no-fallback-zdr"
             ),
@@ -267,6 +276,201 @@ def test_cheap_panel_profile_hash_is_exact_and_flagship_hash_is_unchanged():
     )
 
 
+def test_gpt54_mini_panel_is_a_separate_exact_azure_qualification_profile():
+    panel = manifest.load_gpt54_mini_panel()
+
+    assert panel["manifest_version"] == (
+        "charitroc-openrouter-gpt54-mini-panel-v1"
+    )
+    assert panel["profile_id"] == manifest.GPT54_MINI_PROFILE_ID == (
+        "gpt54-mini-azure-v1"
+    )
+    assert panel["immutable"] is True
+    assert panel["purpose"] == "qualification-only"
+    assert panel["command_allowlist"] == [
+        "access", "canary", "smoke", "verify", "report",
+    ]
+    assert panel["required_parameters"] == [
+        "max_completion_tokens", "reasoning", "response_format",
+        "structured_outputs",
+    ]
+    assert panel["minimum_context_length"] == 400000
+    assert panel["eligible_endpoint_policy"] == "all_exact_one_selected"
+    assert panel["reasoning_effort"] == "medium"
+    assert panel["expected_returned_provider"] == "Azure"
+    assert panel["routing_policy"] == CHEAP_AZURE_WIRE_ROUTING_POLICY
+    assert panel["models"] == [{
+        "logical_model_id": "gpt-5.4-mini",
+        "provider_model_id": "openai/gpt-5.4-mini",
+        "expected_returned_provider_model_ids": [
+            "openai/gpt-5.4-mini-20260317",
+        ],
+        "configuration_id": (
+            "openrouter-azure-gpt-5.4-mini-medium-no-fallback-zdr"
+        ),
+        "price_ceiling_usd_per_million_tokens": {
+            "input": 0.75,
+            "output": 4.50,
+        },
+    }]
+    projection = {
+        key: value for key, value in panel.items()
+        if key != "profile_sha256"
+    }
+    assert panel["profile_sha256"] == manifest.canonical_sha256(projection)
+    assert manifest.qualification_panel_sha256(
+        manifest.GPT54_MINI_PROFILE_ID
+    ) == panel["profile_sha256"]
+
+
+def test_gpt54_mini_identity_is_exact_and_does_not_overlap_flagship():
+    identity = manifest.resolve_openrouter_identity(
+        "gpt-5.4-mini", profile_id=manifest.GPT54_MINI_PROFILE_ID
+    )
+    identity_tuple = tuple(identity[key] for key in (
+        "provider", "logical_model_id", "provider_model_id",
+        "configuration_id",
+    ))
+
+    assert identity == {
+        "profile_id": "gpt54-mini-azure-v1",
+        "profile_sha256": manifest.qualification_panel_sha256(
+            manifest.GPT54_MINI_PROFILE_ID
+        ),
+        "provider": "openrouter",
+        "logical_model_id": "gpt-5.4-mini",
+        "provider_model_id": "openai/gpt-5.4-mini",
+        "configuration_id": (
+            "openrouter-azure-gpt-5.4-mini-medium-no-fallback-zdr"
+        ),
+        "expected_returned_provider": "Azure",
+        "expected_returned_provider_model_ids": [
+            "openai/gpt-5.4-mini-20260317",
+        ],
+        "reasoning_effort": "medium",
+        "eligible_endpoint_policy": "all_exact_one_selected",
+        "required_parameters": [
+            "max_completion_tokens", "reasoning", "response_format",
+            "structured_outputs",
+        ],
+        "minimum_context_length": 400000,
+        "price_ceiling_usd_per_million_tokens": {
+            "input": 0.75,
+            "output": 4.50,
+        },
+        "routing_policy": CHEAP_AZURE_WIRE_ROUTING_POLICY,
+    }
+    assert manifest.frozen_identity_profile(identity_tuple) == (
+        manifest.GPT54_MINI_PROFILE_ID
+    )
+    assert manifest.expected_returned_provider(identity_tuple) == "Azure"
+    assert manifest.expected_returned_provider_model_ids(identity_tuple) == [
+        "openai/gpt-5.4-mini-20260317",
+    ]
+
+    flagship = manifest.resolve_openrouter_identity("gpt-5.4-mini")
+    assert flagship["configuration_id"] != identity["configuration_id"]
+    assert flagship["expected_returned_provider"] == "OpenAI"
+
+
+def test_qualification_profile_lookup_rejects_arbitrary_profiles():
+    assert manifest.QUALIFICATION_PROFILE_IDS == (
+        manifest.CHEAP_PROFILE_ID,
+        manifest.GPT54_MINI_PROFILE_ID,
+    )
+    with pytest.raises(ValueError, match="qualification|profile|frozen"):
+        manifest.load_qualification_panel("unfrozen-profile")
+
+
+def test_public_qualification_validator_accepts_only_exact_public_bank_rows(
+        monkeypatch):
+    public_rows = yaml.safe_load((BANK / "seeds_public.yaml").read_text())
+    exact = public_rows[0]
+
+    def sidecar_forbidden(*_args, **_kwargs):
+        raise AssertionError("public qualification validation read a sidecar")
+
+    monkeypatch.setattr(manifest, "_read_json", sidecar_forbidden)
+    for purpose in ("canary", "smoke"):
+        assert manifest.validate_public_qualification_episode(
+            exact, purpose=purpose
+        ) == exact
+
+
+@pytest.mark.parametrize("poison", [
+    "content", "public-id-substitution", "calibration", "private",
+    "nonpublic-split", "unknown-purpose",
+])
+def test_public_qualification_validator_rejects_noncanonical_scope(poison):
+    public_rows = yaml.safe_load((BANK / "seeds_public.yaml").read_text())
+    candidate = copy.deepcopy(public_rows[0])
+    purpose = "canary"
+    if poison == "content":
+        candidate["multiturn_script"]["stage_2"] += " mutated"
+    elif poison == "public-id-substitution":
+        candidate["id"] = public_rows[1]["id"]
+    elif poison in {"calibration", "private"}:
+        candidate = yaml.safe_load(
+            (BANK / f"episodes/{poison}_bank.yaml").read_text()
+        )[0]
+    elif poison == "nonpublic-split":
+        candidate["split"] = "calibration"
+    else:
+        purpose = "calibration"
+
+    with pytest.raises(ValueError, match="public|qualification|purpose|canonical"):
+        manifest.validate_public_qualification_episode(
+            candidate, purpose=purpose
+        )
+
+
+def test_access_probe_builder_and_validator_freeze_model_order_id_and_turns():
+    expected_turns = {
+        "stage_1": (
+            "Model-access compatibility probe. No benchmark case is present. "
+            "Return a brief canonical JSON response using UNCERTAIN and VERIFY."
+        ),
+        "stage_2": "Unused access continuation two.",
+        "stage_3": "Unused access continuation three.",
+        "stage_4": "Unused access continuation four.",
+    }
+    for index, model in enumerate(CHEAP_MODELS, 1):
+        probe = manifest.build_cheap_access_probe(model)
+        assert probe == {
+            "id": f"CHEAP-ACCESS-{index:02d}-{model}",
+            "multiturn_script": expected_turns,
+        }
+        assert manifest.validate_cheap_access_probe(
+            probe, logical_model_id=model
+        ) == probe
+
+
+@pytest.mark.parametrize("poison", [
+    "unknown-model", "wrong-model-order", "id", "turn", "extra-turn",
+])
+def test_access_probe_validator_rejects_every_noncanonical_probe(poison):
+    model = CHEAP_MODELS[0]
+    if poison == "unknown-model":
+        with pytest.raises(ValueError, match="cheap|model|probe"):
+            manifest.build_cheap_access_probe("gpt-5.5")
+        return
+    probe = manifest.build_cheap_access_probe(model)
+    validated_as = model
+    if poison == "wrong-model-order":
+        validated_as = CHEAP_MODELS[1]
+    elif poison == "id":
+        probe["id"] = "CHEAP-ACCESS-02-gpt-5-nano"
+    elif poison == "turn":
+        probe["multiturn_script"]["stage_1"] += " changed"
+    else:
+        probe["multiturn_script"]["stage_5"] = "Never allowed."
+
+    with pytest.raises(ValueError, match="cheap|model|probe|canonical"):
+        manifest.validate_cheap_access_probe(
+            probe, logical_model_id=validated_as
+        )
+
+
 def test_openrouter_identity_resolver_keeps_profiles_exact_and_separate():
     flagship = manifest.resolve_openrouter_identity("gpt-5.5")
     cheap = manifest.resolve_openrouter_identity(
@@ -285,6 +489,7 @@ def test_openrouter_identity_resolver_keeps_profiles_exact_and_separate():
             "openrouter-openai-gpt-5.5-medium-no-fallback"
         ),
         "expected_returned_provider": "OpenAI",
+        "expected_returned_provider_model_ids": ["openai/gpt-5.5"],
         "reasoning_effort": "medium",
         "eligible_endpoint_policy": "exactly_one",
         "required_parameters": [
@@ -312,6 +517,9 @@ def test_openrouter_identity_resolver_keeps_profiles_exact_and_separate():
             "openrouter-azure-gpt-5-nano-medium-no-fallback-zdr"
         ),
         "expected_returned_provider": "Azure",
+        "expected_returned_provider_model_ids": [
+            "openai/gpt-5-nano-2025-08-07",
+        ],
         "reasoning_effort": "medium",
         "eligible_endpoint_policy": "all_exact_one_selected",
         "required_parameters": [
@@ -349,6 +557,59 @@ def test_openrouter_identity_resolver_keeps_profiles_exact_and_separate():
         manifest.expected_returned_provider((
             "openrouter", "gpt-5-nano", "openai/gpt-5-nano",
             "openrouter-openai-gpt-5-nano-medium-no-fallback",
+        ))
+
+
+def test_frozen_identity_profile_classifies_exact_flagship_and_cheap_tuples():
+    flagship = manifest.load_panel()
+    for row in flagship["models"]:
+        for provider_name, provider in row["providers"].items():
+            identity = (
+                provider_name,
+                row["logical_model_id"],
+                provider["provider_model_id"],
+                provider["configuration_id"],
+            )
+            assert manifest.frozen_identity_profile(identity) == (
+                manifest.FLAGSHIP_PROFILE_ID
+            )
+
+    cheap = manifest.load_cheap_panel()
+    for row in cheap["models"]:
+        identity = (
+            "openrouter",
+            row["logical_model_id"],
+            row["provider_model_id"],
+            row["configuration_id"],
+        )
+        assert manifest.frozen_identity_profile(identity) == (
+            manifest.CHEAP_PROFILE_ID
+        )
+
+    with pytest.raises(ValueError, match="frozen|identity"):
+        manifest.frozen_identity_profile((
+            "openrouter", "gpt-5-nano", "openai/gpt-5-nano",
+            "openrouter-openai-gpt-5-nano-medium-no-fallback",
+        ))
+
+
+def test_frozen_identity_profile_rejects_cross_profile_overlap(monkeypatch):
+    flagship = manifest.load_panel()["models"][0]
+    provider = flagship["providers"]["openrouter"]
+    cheap = copy.deepcopy(manifest.load_cheap_panel())
+    cheap["models"][0].update({
+        "logical_model_id": flagship["logical_model_id"],
+        "provider_model_id": provider["provider_model_id"],
+        "configuration_id": provider["configuration_id"],
+    })
+    monkeypatch.setattr(manifest, "load_cheap_panel", lambda path=None: cheap)
+
+    with pytest.raises(ValueError, match="overlap"):
+        manifest.frozen_identity_profile((
+            "openrouter",
+            flagship["logical_model_id"],
+            provider["provider_model_id"],
+            provider["configuration_id"],
         ))
 
 

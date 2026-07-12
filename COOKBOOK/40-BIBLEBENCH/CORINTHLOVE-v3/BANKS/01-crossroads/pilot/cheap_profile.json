@@ -1,0 +1,46 @@
+{
+  "profile_id": "crossroads-cheap-azure-v6",
+  "purpose": "public qualification",
+  "immutable": true,
+  "catalog_snapshot_utc": "2026-07-12T02:13:01Z",
+  "minimum_context_length": 400000,
+  "reasoning_effort": "medium",
+  "catalog_policy": {
+    "evidence_version": "openrouter-model-zdr-intersection-v1",
+    "admissible_status_code": 0,
+    "minimum_eligible_endpoints": 1,
+    "zdr_catalog_url": "https://openrouter.ai/api/v1/endpoints/zdr"
+  },
+  "completion_policy": {
+    "evidence_version": "openrouter-chat-router-metadata-v1",
+    "require_generation_header": true,
+    "require_response_provider": true,
+    "require_router_metadata": true
+  },
+  "routing": {
+    "only": ["azure"],
+    "order": ["azure"],
+    "allow_fallbacks": false,
+    "require_parameters": true,
+    "data_collection": "deny",
+    "zdr": true
+  },
+  "models": {
+    "openai/gpt-5-nano": {
+      "expected_snapshot": "openai/gpt-5-nano-2025-08-07",
+      "price_ceiling_per_token": {"input": 0.00000005, "output": 0.0000004}
+    },
+    "openai/gpt-5.4-nano": {
+      "expected_snapshot": "openai/gpt-5.4-nano-20260317",
+      "price_ceiling_per_token": {"input": 0.0000002, "output": 0.00000125}
+    },
+    "openai/gpt-5-mini": {
+      "expected_snapshot": "openai/gpt-5-mini-2025-08-07",
+      "price_ceiling_per_token": {"input": 0.00000025, "output": 0.000002}
+    },
+    "openai/gpt-5.4-mini": {
+      "expected_snapshot": "openai/gpt-5.4-mini-20260317",
+      "price_ceiling_per_token": {"input": 0.00000075, "output": 0.0000045}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+method_id,output_name,clause,component,declared_loading,scale_min,scale_max,higher_is,primary,calibration_reference
+01-crossroads,choice_C1,C1,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C2,C2,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C3,C3,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C4,C4,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C5,C5,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C6,C6,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C7,C7,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C8,C8,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C9,C9,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C10,C10,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C11,C11,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C12,C12,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C13,C13,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C14,C14,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C15,C15,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md
+01-crossroads,choice_C16,C16,direct_key_choice,1,0,1,more clause-honoring,true,megamatrix/calibration_notes.md

@@ -1,0 +1,40 @@
+{
+  "human_validation_status": "not performed; actual roster is an external dependency",
+  "judges": [
+    {
+      "configuration_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "exact_model_version": "mock-anthropic/model-snapshot-20260711",
+      "family": "judge-anthropic",
+      "human_identity_class": null,
+      "identity_kind": "model",
+      "judge_id": "JUDGE-550e8400-e29b-41d4-a716-446655440000",
+      "prompt_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "provider": "mock-anthropic",
+      "role": "raw"
+    },
+    {
+      "configuration_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "exact_model_version": "mock-google/model-snapshot-20260711",
+      "family": "judge-google",
+      "human_identity_class": null,
+      "identity_kind": "model",
+      "judge_id": "JUDGE-6ba7b810-9dad-41d1-80b4-00c04fd430c8",
+      "prompt_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "provider": "mock-google",
+      "role": "raw"
+    },
+    {
+      "configuration_sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "exact_model_version": "mock-meta/adjudicator-snapshot-20260711",
+      "family": "judge-meta",
+      "human_identity_class": null,
+      "identity_kind": "model",
+      "judge_id": "JUDGE-6ba7b811-9dad-41d1-80b4-00c04fd430c8",
+      "prompt_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "provider": "mock-meta",
+      "role": "adjudicator"
+    }
+  ],
+  "provenance": "harness validation, NOT a measurement",
+  "schema_version": "crossroads-judge-roster-v1"
+}

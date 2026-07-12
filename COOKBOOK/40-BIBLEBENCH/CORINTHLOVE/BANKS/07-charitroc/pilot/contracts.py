@@ -43,7 +43,9 @@ RUN_PROVENANCE = {
     "mock": "harness validation, NOT a measurement",
     "codex": "live Codex calibration measurement",
     "openrouter": "live OpenRouter calibration measurement",
+    "openrouter_probe": "live OpenRouter access probe, NOT a measurement",
 }
+CHEAP_OPENROUTER_PROVENANCE = "live OpenRouter qualification measurement"
 STAGE_RESULT_KEYS = {
     "contract_version", "provenance", "run_mode", "execution_id",
     "provider", "logical_model_id", "requested_provider_model_id",
@@ -336,32 +338,6 @@ def _valid_execution_id(value):
     return parsed.version == 4 and parsed.variant == uuid.RFC_4122
 
 
-def _frozen_identity_tuples():
-    panel = manifest.load_panel()
-    identities = set()
-    for row in panel["models"]:
-        logical = row["logical_model_id"]
-        for provider, provider_row in row["providers"].items():
-            identities.add((
-                provider,
-                logical,
-                provider_row["provider_model_id"],
-                provider_row["configuration_id"],
-            ))
-    cheap_panel = manifest.load_cheap_panel()
-    for row in cheap_panel["models"]:
-        identity = (
-            "openrouter",
-            row["logical_model_id"],
-            row["provider_model_id"],
-            row["configuration_id"],
-        )
-        if identity in identities:
-            raise ValueError("cheap and flagship frozen identities overlap")
-        identities.add(identity)
-    return identities
-
-
 def _validate_identity(request):
     identity_fields = (
         request["provider"],
@@ -371,7 +347,9 @@ def _validate_identity(request):
     )
     if any(type(value) is not str or not value for value in identity_fields):
         raise ValueError("provider identity fields must be non-empty strings")
-    if identity_fields not in _frozen_identity_tuples():
+    try:
+        manifest.frozen_identity_profile(identity_fields)
+    except ValueError:
         raise ValueError("provider identity tuple is not in the frozen panel")
 
 
@@ -741,12 +719,35 @@ def _validate_attempt_sequence(attempts):
     return validated
 
 
-def _run_mode_provenance(run_mode, provider):
+def _run_mode_provenance(run_mode, identity):
     if run_mode not in RUN_PROVENANCE:
-        raise ValueError("run_mode must be mock, codex, or openrouter")
-    if run_mode != "mock" and run_mode != provider:
-        raise ValueError("live run_mode must match the request provider")
-    return RUN_PROVENANCE[run_mode]
+        raise ValueError(
+            "run_mode must be mock, codex, openrouter, or openrouter_probe"
+        )
+    profile_id = manifest.frozen_identity_profile(identity)
+    provider = identity[0]
+    if run_mode == "mock":
+        return RUN_PROVENANCE[run_mode]
+    if run_mode == "codex":
+        if provider != "codex" or profile_id != manifest.FLAGSHIP_PROFILE_ID:
+            raise ValueError("live Codex run_mode requires a flagship Codex identity")
+        return RUN_PROVENANCE[run_mode]
+    if run_mode == "openrouter":
+        if provider != "openrouter":
+            raise ValueError("live OpenRouter run_mode requires an OpenRouter identity")
+        if profile_id == manifest.FLAGSHIP_PROFILE_ID:
+            return RUN_PROVENANCE[run_mode]
+        if profile_id in manifest.QUALIFICATION_PROFILE_IDS:
+            return CHEAP_OPENROUTER_PROVENANCE
+    if (
+        run_mode == "openrouter_probe"
+        and provider == "openrouter"
+        and profile_id in manifest.QUALIFICATION_PROFILE_IDS
+    ):
+        return RUN_PROVENANCE[run_mode]
+    raise ValueError(
+        "openrouter_probe requires an exact cheap OpenRouter identity profile"
+    )
 
 
 def _session_shape_ok(provider, session_id):
@@ -766,7 +767,7 @@ def _expected_integrity(
     )
     provider_identity_ok = (
         result["returned_provider_model_id"]
-        == result["requested_provider_model_id"]
+        in manifest.expected_returned_provider_model_ids(identity)
         and result["returned_provider_name"]
         == manifest.expected_returned_provider(identity)
     )
@@ -811,7 +812,7 @@ def _expected_integrity(
     violations = [name for passed, name in checks if not passed]
     integrity_valid = not violations
     measurement_ready = (
-        result["run_mode"] != "mock"
+        result["run_mode"] not in {"mock", "openrouter_probe"}
         and integrity_valid
         and mechanically_resolved
     )
@@ -870,7 +871,11 @@ def validate_stage_result(result, request):
         raise ValueError("stage result must use exact top-level keys")
     if result["contract_version"] != RESULT_CONTRACT_VERSION:
         raise ValueError("stage result contract version mismatch")
-    provenance = _run_mode_provenance(result["run_mode"], result["provider"])
+    result_identity = (
+        result["provider"], result["logical_model_id"],
+        result["requested_provider_model_id"], result["configuration_id"],
+    )
+    provenance = _run_mode_provenance(result["run_mode"], result_identity)
     if result["provenance"] != provenance:
         raise ValueError("result provenance does not match run_mode")
     bound = {
@@ -950,7 +955,11 @@ def build_stage_result(
             session_chain_ok, isolation_ok, future_text_absent)):
         raise ValueError("integrity evidence must use exact booleans")
     validated_attempts = _validate_attempt_sequence(deepcopy(attempts))
-    provenance = _run_mode_provenance(run_mode, request["provider"])
+    request_identity = tuple(request[key] for key in (
+        "provider", "logical_model_id", "provider_model_id",
+        "configuration_id",
+    ))
+    provenance = _run_mode_provenance(run_mode, request_identity)
     result = {
         "contract_version": RESULT_CONTRACT_VERSION,
         "provenance": provenance,

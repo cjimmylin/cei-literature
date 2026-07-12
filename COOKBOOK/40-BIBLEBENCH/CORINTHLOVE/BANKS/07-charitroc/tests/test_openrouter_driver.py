@@ -24,6 +24,12 @@ ACTION = json.dumps({
     "INTENT": "UNCERTAIN",
     "DECISION": "VERIFY",
 }, separators=(",", ":"))
+CHEAP_RETURNED_SNAPSHOTS = {
+    "gpt-5-nano": "openai/gpt-5-nano-2025-08-07",
+    "gpt-5.4-nano": "openai/gpt-5.4-nano-20260317",
+    "gpt-5-mini": "openai/gpt-5-mini-2025-08-07",
+    "gpt-5.4-mini": "openai/gpt-5.4-mini-20260317",
+}
 
 
 @pytest.fixture(scope="module")
@@ -93,9 +99,9 @@ def _metadata(*, provider="OpenAI", model="openai/gpt-5.5", pipeline=None):
 
 
 def _multiple_endpoint_metadata(
-        *, provider="Azure", model="openai/gpt-5-nano"):
+        *, provider="Azure", model="openai/gpt-5-nano", requested=None):
     return {
-        "requested": model,
+        "requested": requested or model,
         "strategy": "direct",
         "attempt": 1,
         "endpoints": {
@@ -155,6 +161,47 @@ def _success_chunks(*, content=ACTION, metadata=None, reasoning=None,
         _event(model=model, provider=provider, metadata=metadata),
     ]
     return _sse(*events, fragment=fragment)
+
+
+def _azure_live_terminal_events(
+        *, requested="openai/gpt-5-nano",
+        returned=CHEAP_RETURNED_SNAPSHOTS["gpt-5-nano"]):
+    """Reproduce OpenRouter's documented terminal metadata+usage chunk."""
+    metadata = {
+        "requested": requested,
+        "strategy": "direct",
+        "attempt": 1,
+        "endpoints": {
+            "total": 3,
+            "available": [{
+                "provider": "Azure",
+                "model": returned,
+                "selected": True,
+            }],
+        },
+    }
+    events = [
+        _event(ACTION, model=returned, provider="Azure"),
+        _event("", finish="stop", model=returned, provider="Azure",
+               extra={"native_finish_reason": "completed"}),
+        {
+            "id": "gen-test",
+            "object": "chat.completion.chunk",
+            "created": 1783700000,
+            "model": returned,
+            "provider": "Azure",
+            "service_tier": "default",
+            "choices": [{
+                "index": 0,
+                "delta": {"content": "", "role": "assistant"},
+                "finish_reason": "stop",
+                "native_finish_reason": "completed",
+            }],
+            "usage": _usage_object(),
+            "openrouter_metadata": metadata,
+        },
+    ]
+    return events
 
 
 def _unicode_json_string(value):
@@ -385,10 +432,11 @@ def test_resolved_wire_pin_must_match_exact_returned_provider(
 
 def test_cheap_profile_stage_attests_azure_and_multiple_endpoints(episode):
     model = "openai/gpt-5-nano"
+    returned = CHEAP_RETURNED_SNAPSHOTS["gpt-5-nano"]
     transport = FakeTransport([_response(_success_chunks(
-        model=model,
+        model=returned,
         provider="Azure",
-        metadata=_multiple_endpoint_metadata(model=model),
+        metadata=_multiple_endpoint_metadata(model=returned, requested=model),
     ))])
     request = _one_stage_request(
         episode,
@@ -406,7 +454,7 @@ def test_cheap_profile_stage_attests_azure_and_multiple_endpoints(episode):
     )
 
     assert result["terminal_status"] == "complete"
-    assert result["returned_provider_model_id"] == model
+    assert result["returned_provider_model_id"] == returned
     assert result["returned_provider_name"] == "Azure"
     assert result["integrity"]["provider_identity_ok"] is True
     assert result["integrity"]["measurement_ready"] is False
@@ -595,6 +643,95 @@ def test_cheap_route_accepts_multiple_all_exact_endpoints_only():
     assert returned_provider == provider
 
 
+def test_live_azure_snapshot_and_terminal_metadata_usage_shape_is_accepted():
+    returned = CHEAP_RETURNED_SNAPSHOTS["gpt-5-nano"]
+    transport = FakeTransport([_response(_sse(
+        *_azure_live_terminal_events(), fragment=True
+    ))])
+
+    run = openrouter_driver._run_live_access_probe(
+        logical_model_id="gpt-5-nano",
+        api_key=API_KEY,
+        transport=transport,
+        uuid_factory=lambda: "9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+        authorization=openrouter_driver._LIVE_ACCESS_PROBE_AUTHORIZATION,
+    )
+
+    assert len(transport.calls) == 1
+    assert run["status"] == "complete"
+    assert run["results"][0]["terminal_status"] == "complete"
+    assert run["results"][0]["returned_provider_model_id"] == returned
+    assert run["results"][0]["returned_provider_name"] == "Azure"
+    assert run["results"][0]["attempts"][0]["error_code"] is None
+
+
+def test_live_azure_terminal_metadata_accepts_explicit_empty_attempts():
+    events = _azure_live_terminal_events()
+    events[-1]["openrouter_metadata"]["attempts"] = []
+    transport = FakeTransport([_response(_sse(*events))])
+
+    run = openrouter_driver._run_live_access_probe(
+        logical_model_id="gpt-5-nano",
+        api_key=API_KEY,
+        transport=transport,
+        uuid_factory=lambda: "9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+        authorization=openrouter_driver._LIVE_ACCESS_PROBE_AUTHORIZATION,
+    )
+
+    assert run["status"] == "complete"
+    assert run["results"][0]["integrity"]["provider_identity_ok"] is True
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    (
+        "unfrozen-selected-snapshot",
+        "mismatched-event-snapshot",
+        "wrong-provider",
+        "fallback-pipeline",
+        "extra-finish",
+    ),
+)
+def test_live_azure_terminal_shape_still_rejects_identity_or_finish_poison(
+        mutation):
+    events = _azure_live_terminal_events()
+    metadata = events[-1]["openrouter_metadata"]
+    if mutation == "unfrozen-selected-snapshot":
+        unfrozen = "openai/gpt-5-nano-2099-01-01"
+        metadata["endpoints"]["available"][0]["model"] = unfrozen
+        for event in events:
+            event["model"] = unfrozen
+    elif mutation == "mismatched-event-snapshot":
+        events[0]["model"] = "openai/gpt-5-nano"
+    elif mutation == "wrong-provider":
+        metadata["endpoints"]["available"][0]["provider"] = "OpenAI"
+        for event in events:
+            event["provider"] = "OpenAI"
+    elif mutation == "fallback-pipeline":
+        metadata["pipeline"] = [{"type": "fallback"}]
+    else:
+        events[0]["choices"][0]["finish_reason"] = "stop"
+    transport = FakeTransport([_response(_sse(*events))])
+
+    run = openrouter_driver._run_live_access_probe(
+        logical_model_id="gpt-5-nano",
+        api_key=API_KEY,
+        transport=transport,
+        uuid_factory=lambda: "9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+        authorization=openrouter_driver._LIVE_ACCESS_PROBE_AUTHORIZATION,
+    )
+
+    assert len(transport.calls) == 1
+    assert run["status"] == "invalidated"
+    assert run["results"][0]["integrity"]["measurement_ready"] is False
+
+
 @pytest.mark.parametrize(
     "mutation",
     (
@@ -768,11 +905,14 @@ def test_four_stage_episode_uses_exact_raw_history_and_builds_chain(episode):
 def test_four_stage_cheap_episode_uses_profile_identity_and_azure_route(
         episode):
     model = "openai/gpt-5-nano"
+    returned = CHEAP_RETURNED_SNAPSHOTS["gpt-5-nano"]
     transport = FakeTransport([
         _response(_success_chunks(
-            model=model,
+            model=returned,
             provider="Azure",
-            metadata=_multiple_endpoint_metadata(model=model),
+            metadata=_multiple_endpoint_metadata(
+                model=returned, requested=model
+            ),
         ))
         for _ in range(4)
     ])
@@ -810,6 +950,134 @@ def test_four_stage_cheap_episode_uses_profile_identity_and_azure_route(
     assert contracts.validate_stage_chain(
         run["chain"], run["requests"], run["results"], episode
     ) == run["chain"]
+
+
+def test_four_stage_gpt54_mini_episode_uses_exact_azure_snapshot(episode):
+    model = "openai/gpt-5.4-mini"
+    returned = CHEAP_RETURNED_SNAPSHOTS["gpt-5.4-mini"]
+    transport = FakeTransport([
+        _response(_success_chunks(
+            model=returned,
+            provider="Azure",
+            metadata=_multiple_endpoint_metadata(
+                model=returned, requested=model
+            ),
+        ))
+        for _ in range(4)
+    ])
+
+    run = openrouter_driver.run_episode(
+        episode,
+        logical_model_id="gpt-5.4-mini",
+        panel_profile=manifest.GPT54_MINI_PROFILE_ID,
+        transport=transport,
+        api_key=API_KEY,
+        uuid_factory=lambda: "9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+    )
+
+    assert run["status"] == "complete"
+    assert len(run["requests"]) == len(run["results"]) == 4
+    assert all(
+        request["provider_model_id"] == model
+        and request["configuration_id"] == (
+            "openrouter-azure-gpt-5.4-mini-medium-no-fallback-zdr"
+        )
+        for request in run["requests"]
+    )
+    assert all(
+        result["returned_provider_model_id"] == returned
+        and result["returned_provider_name"] == "Azure"
+        and result["integrity"]["provider_identity_ok"] is True
+        for result in run["results"]
+    )
+    assert all(
+        json.loads(call["body"])["provider"] == {
+            "only": ["Azure"],
+            "order": ["Azure"],
+            "allow_fallbacks": False,
+            "require_parameters": True,
+            "data_collection": "deny",
+            "zdr": True,
+        }
+        for call in transport.calls
+    )
+
+
+def test_live_access_probe_is_exactly_one_nonmeasurement_stage(episode):
+    model = "openai/gpt-5-nano"
+    returned = CHEAP_RETURNED_SNAPSHOTS["gpt-5-nano"]
+    transport = FakeTransport([_response(_success_chunks(
+        model=returned,
+        provider="Azure",
+        metadata=_multiple_endpoint_metadata(model=returned, requested=model),
+    ))])
+    before = []
+    sink = []
+
+    run = openrouter_driver._run_live_access_probe(
+        logical_model_id="gpt-5-nano",
+        api_key=API_KEY,
+        transport=transport,
+        uuid_factory=lambda: "9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+        before_stage=lambda event: before.append(deepcopy(event)),
+        stage_sink=lambda event: sink.append(deepcopy(event)),
+        authorization=openrouter_driver._LIVE_ACCESS_PROBE_AUTHORIZATION,
+    )
+
+    assert len(transport.calls) == 1
+    assert run["status"] == "complete"
+    assert run["provenance"] == (
+        "live OpenRouter access probe, NOT a measurement"
+    )
+    assert run["measurement_ready"] is False
+    assert run["integrity_session_count"] == 1
+    assert len(run["sessions"]) == 1
+    assert len(run["requests"]) == len(run["results"]) == 1
+    assert len(run["transport_descriptors"]) == 1
+    assert run["chain"] is None
+    assert run["requests"][0]["stage"] == "stage_1"
+    assert run["requests"][0]["current_visible_turn"]["content"] == (
+        manifest.build_cheap_access_probe("gpt-5-nano")[
+            "multiturn_script"
+        ]["stage_1"]
+    )
+    assert run["results"][0]["run_mode"] == "openrouter_probe"
+    assert run["results"][0]["integrity"]["measurement_ready"] is False
+    assert [event["stage"] for event in before] == ["stage_1"]
+    assert [event["stage"] for event in sink] == ["stage_1"]
+    assert "result" not in before[0] and sink[0]["result"] == run["results"][0]
+
+
+def test_gpt54_mini_access_probe_is_one_exact_nonmeasurement_stage():
+    model = "openai/gpt-5.4-mini"
+    returned = CHEAP_RETURNED_SNAPSHOTS["gpt-5.4-mini"]
+    transport = FakeTransport([_response(_success_chunks(
+        model=returned,
+        provider="Azure",
+        metadata=_multiple_endpoint_metadata(model=returned, requested=model),
+    ))])
+
+    run = openrouter_driver._run_live_access_probe(
+        logical_model_id="gpt-5.4-mini",
+        profile_id=manifest.GPT54_MINI_PROFILE_ID,
+        api_key=API_KEY,
+        transport=transport,
+        uuid_factory=lambda: "9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+        authorization=openrouter_driver._LIVE_ACCESS_PROBE_AUTHORIZATION,
+    )
+
+    assert len(transport.calls) == 1
+    assert run["status"] == "complete"
+    assert run["measurement_ready"] is False
+    assert run["results"][0]["returned_provider_model_id"] == returned
+    assert run["results"][0]["returned_provider_name"] == "Azure"
+    assert run["results"][0]["run_mode"] == "openrouter_probe"
 
 
 def test_stage_hooks_are_sanitized_deepcopied_and_follow_transport_validation(
@@ -1012,8 +1280,7 @@ def test_run_live_episode_forwards_provider_neutral_stage_hooks(
     monkeypatch.setattr(openrouter_driver, "run_episode", fake_run_episode)
     result = openrouter_driver.run_live_episode(
         episode,
-        logical_model_id="gpt-5-nano",
-        panel_profile=manifest.CHEAP_PROFILE_ID,
+        logical_model_id="gpt-5.5",
         api_key=API_KEY,
         before_stage=before_stage,
         stage_sink=stage_sink,
@@ -1024,8 +1291,210 @@ def test_run_live_episode_forwards_provider_neutral_stage_hooks(
     assert captured["kwargs"]["before_stage"] is before_stage
     assert captured["kwargs"]["stage_sink"] is stage_sink
     assert captured["kwargs"]["run_mode"] == "openrouter"
-    assert captured["kwargs"]["logical_model_id"] == "gpt-5-nano"
-    assert captured["kwargs"]["panel_profile"] == manifest.CHEAP_PROFILE_ID
+    assert captured["kwargs"]["logical_model_id"] == "gpt-5.5"
+    assert captured["kwargs"]["panel_profile"] == manifest.FLAGSHIP_PROFILE_ID
+
+
+def test_generic_live_entrypoints_reject_cheap_scope_before_internal_call(
+        episode, monkeypatch):
+    calls = []
+
+    def forbidden(*_args, **_kwargs):
+        calls.append("called")
+        raise AssertionError("cheap live scope reached generic execution")
+
+    monkeypatch.setattr(openrouter_driver, "run_episode", forbidden)
+    with pytest.raises(ValueError, match="cheap|qualification|dedicated"):
+        openrouter_driver.run_live_episode(
+            episode,
+            logical_model_id="gpt-5-nano",
+            panel_profile=manifest.CHEAP_PROFILE_ID,
+            api_key=API_KEY,
+        )
+    monkeypatch.setattr(openrouter_driver, "_run_stage_record", forbidden)
+    with pytest.raises(ValueError, match="cheap|qualification|dedicated"):
+        openrouter_driver.run_stage(
+            _one_stage_request(
+                episode,
+                logical_model_id="gpt-5-nano",
+                panel_profile=manifest.CHEAP_PROFILE_ID,
+            ),
+            future_turns=[],
+            api_key=API_KEY,
+            run_mode="openrouter",
+        )
+    assert calls == []
+
+
+def test_dedicated_live_qualification_validates_scope_before_authorized_core(
+        episode, monkeypatch):
+    captured = []
+
+    def fake_authorized(*args, **kwargs):
+        captured.append((args, kwargs))
+        return {"authorized": True}
+
+    monkeypatch.setattr(
+        openrouter_driver, "_run_episode_authorized", fake_authorized,
+        raising=False,
+    )
+    result = openrouter_driver.run_live_cheap_qualification_episode(
+        episode,
+        logical_model_id="gpt-5-nano",
+        purpose="canary",
+        api_key=API_KEY,
+    )
+    assert result == {"authorized": True}
+    assert captured[0][0] == (episode,)
+    assert captured[0][1]["run_mode"] == "openrouter"
+    assert captured[0][1]["panel_profile"] == manifest.CHEAP_PROFILE_ID
+    assert captured[0][1]["authorization"] is (
+        openrouter_driver._LIVE_CHEAP_QUALIFICATION_AUTHORIZATION
+    )
+
+    mutated = deepcopy(episode)
+    mutated["multiturn_script"]["stage_1"] += " mutation"
+    for candidate, purpose, model in (
+        (mutated, "canary", "gpt-5-nano"),
+        (episode, "calibration", "gpt-5-nano"),
+        (episode, "smoke", "gpt-5.5"),
+    ):
+        with pytest.raises(
+                ValueError, match="public|qualification|purpose|cheap|model"):
+            openrouter_driver.run_live_cheap_qualification_episode(
+                candidate,
+                logical_model_id=model,
+                purpose=purpose,
+                api_key=API_KEY,
+            )
+    assert len(captured) == 1
+
+
+def test_dedicated_live_qualification_accepts_only_frozen_mini_profile(
+        episode, monkeypatch):
+    captured = []
+
+    def fake_authorized(*args, **kwargs):
+        captured.append((args, kwargs))
+        return {"authorized": True}
+
+    monkeypatch.setattr(
+        openrouter_driver, "_run_episode_authorized", fake_authorized,
+        raising=False,
+    )
+    result = openrouter_driver.run_live_cheap_qualification_episode(
+        episode,
+        logical_model_id="gpt-5.4-mini",
+        purpose="smoke",
+        api_key=API_KEY,
+        profile_id=manifest.GPT54_MINI_PROFILE_ID,
+    )
+
+    assert result == {"authorized": True}
+    assert captured[0][1]["panel_profile"] == (
+        manifest.GPT54_MINI_PROFILE_ID
+    )
+    assert captured[0][1]["authorization"] is (
+        openrouter_driver._LIVE_CHEAP_QUALIFICATION_AUTHORIZATION
+    )
+
+    with pytest.raises(ValueError, match="profile|frozen|qualification"):
+        openrouter_driver.run_live_cheap_qualification_episode(
+            episode,
+            logical_model_id="gpt-5.4-mini",
+            purpose="smoke",
+            api_key=API_KEY,
+            profile_id="unfrozen-profile",
+        )
+    assert len(captured) == 1
+
+
+@pytest.mark.parametrize("boundary", [
+    "public-qualification",
+    "authorized-qualification-core",
+    "public-access-probe",
+    "authorized-access-probe-core",
+])
+def test_every_dedicated_qualification_boundary_rejects_flagship_profile(
+        episode, monkeypatch, boundary):
+    calls = []
+
+    def forbidden(*_args, **_kwargs):
+        calls.append("called")
+        raise AssertionError("flagship reached dedicated qualification core")
+
+    with pytest.raises(ValueError, match="qualification|profile|frozen"):
+        if boundary == "public-qualification":
+            monkeypatch.setattr(
+                openrouter_driver, "_run_episode_authorized", forbidden
+            )
+            openrouter_driver.run_live_cheap_qualification_episode(
+                episode,
+                logical_model_id="gpt-5.5",
+                purpose="canary",
+                api_key=API_KEY,
+                profile_id=manifest.FLAGSHIP_PROFILE_ID,
+            )
+        elif boundary == "authorized-qualification-core":
+            monkeypatch.setattr(
+                openrouter_driver, "_run_episode_core", forbidden
+            )
+            openrouter_driver._run_episode_authorized(
+                episode,
+                logical_model_id="gpt-5.5",
+                api_key=API_KEY,
+                run_mode="openrouter",
+                panel_profile=manifest.FLAGSHIP_PROFILE_ID,
+                authorization=(
+                    openrouter_driver._LIVE_CHEAP_QUALIFICATION_AUTHORIZATION
+                ),
+            )
+        elif boundary == "public-access-probe":
+            monkeypatch.setattr(
+                openrouter_driver, "_run_live_access_probe", forbidden
+            )
+            openrouter_driver.run_live_access_probe(
+                logical_model_id="gpt-5.5",
+                api_key=API_KEY,
+                profile_id=manifest.FLAGSHIP_PROFILE_ID,
+            )
+        else:
+            transport = FakeTransport([])
+            openrouter_driver._run_live_access_probe(
+                logical_model_id="gpt-5.5",
+                profile_id=manifest.FLAGSHIP_PROFILE_ID,
+                api_key=API_KEY,
+                transport=transport,
+                uuid_factory=lambda: (
+                    "9ef76c30-b620-4ea7-a719-91f3e46cc8b2"
+                ),
+                now=openrouter_driver.SequenceClock(),
+                sleeper=lambda _seconds: None,
+                authorization=(
+                    openrouter_driver._LIVE_ACCESS_PROBE_AUTHORIZATION
+                ),
+            )
+            assert transport.calls == []
+    assert calls == []
+
+
+def test_dedicated_live_entrypoints_do_not_accept_dependency_injection(episode):
+    transport = FakeTransport([])
+    with pytest.raises(TypeError):
+        openrouter_driver.run_live_cheap_qualification_episode(
+            episode,
+            logical_model_id="gpt-5-nano",
+            purpose="smoke",
+            api_key=API_KEY,
+            transport=transport,
+        )
+    with pytest.raises(TypeError):
+        openrouter_driver.run_live_access_probe(
+            logical_model_id="gpt-5-nano",
+            api_key=API_KEY,
+            transport=transport,
+        )
+    assert transport.calls == []
 
 
 def test_prior_reasoning_details_are_forwarded_unmodified(episode):
@@ -1117,18 +1586,270 @@ def test_api_key_is_never_persisted_and_descriptor_tamper_fails(episode):
         )
 
 
+def test_transient_request_and_response_evidence_hide_api_key_from_repr(
+        episode):
+    wire = openrouter_driver.build_wire_request(
+        _one_stage_request(episode), api_key=API_KEY
+    )
+    response = openrouter_driver.TransportResponse(
+        status=200,
+        headers={"X-Diagnostic": API_KEY},
+        chunks=[API_KEY.encode("utf-8")],
+    )
+
+    assert API_KEY not in repr(wire)
+    assert API_KEY not in repr(response)
+
+
+def test_exact_api_key_echo_in_innocuous_response_body_is_force_redacted(
+        episode):
+    events = [
+        _event(ACTION, finish="stop", extra={"diagnostic": API_KEY}),
+        _event(usage=_usage_object()),
+        _event(metadata=_metadata()),
+    ]
+    closed = []
+    response = openrouter_driver.TransportResponse(
+        status=200,
+        headers={"X-Generation-Id": "gen-test"},
+        chunks=_sse(*events),
+        closer=lambda: closed.append(True),
+    )
+    transport = FakeTransport([response])
+
+    with pytest.raises(openrouter_driver.OpenRouterProtocolError) as raised:
+        openrouter_driver.run_stage(
+            _one_stage_request(episode),
+            future_turns=[],
+            transport=transport,
+            api_key=API_KEY,
+            now=openrouter_driver.SequenceClock(),
+            sleeper=lambda _seconds: None,
+        )
+
+    record = raised.value.failure_record
+    serialized = json.dumps({
+        "error": str(raised.value),
+        "record": record,
+    }, sort_keys=True)
+    assert API_KEY not in serialized
+    assert record["failure_kind"] == "credential_material"
+    assert record["raw_bytes_base64"] is None
+    assert record["raw_redacted"] is True
+    assert record["measurement_ready"] is False
+    assert closed == [True]
+
+
+@pytest.mark.parametrize("escape_mode", ["full", "partial"])
+def test_unicode_escaped_exact_api_key_echo_is_force_redacted(
+        episode, escape_mode):
+    events = [
+        _event(ACTION, finish="stop", extra={"diagnostic": API_KEY}),
+        _event(usage=_usage_object()),
+        _event(metadata=_metadata()),
+    ]
+    if escape_mode == "full":
+        chunks = _sse_with_unicode_escaped_value(events, API_KEY)
+    else:
+        serialized = [
+            json.dumps(event, separators=(",", ":")) for event in events
+        ]
+        replacement = json.dumps(API_KEY).replace("-", r"\u002d", 1)
+        serialized[0] = serialized[0].replace(
+            json.dumps(API_KEY), replacement, 1
+        )
+        chunks = [(
+            ": OPENROUTER PROCESSING\n\n"
+            + "".join("data: " + payload + "\n\n" for payload in serialized)
+            + "data: [DONE]\n\n"
+        ).encode("utf-8")]
+    transport = FakeTransport([_response(chunks)])
+
+    with pytest.raises(openrouter_driver.OpenRouterProtocolError) as raised:
+        openrouter_driver.run_stage(
+            _one_stage_request(episode),
+            future_turns=[],
+            transport=transport,
+            api_key=API_KEY,
+            now=openrouter_driver.SequenceClock(),
+            sleeper=lambda _seconds: None,
+        )
+
+    record = raised.value.failure_record
+    assert API_KEY not in json.dumps(record, sort_keys=True)
+    assert record["raw_bytes_base64"] is None
+    assert record["raw_redacted"] is True
+    assert record["measurement_ready"] is False
+
+
+def test_exact_api_key_echo_in_decoded_event_tree_is_force_redacted(episode):
+    decoded_unicode_escape = API_KEY.replace("-", r"\u002d", 1)
+    assert API_KEY not in decoded_unicode_escape
+    events = [
+        _event(
+            ACTION,
+            finish="stop",
+            extra={"diagnostic": decoded_unicode_escape},
+        ),
+        _event(usage=_usage_object()),
+        _event(metadata=_metadata()),
+    ]
+    transport = FakeTransport([_response(_sse(*events))])
+
+    with pytest.raises(openrouter_driver.OpenRouterProtocolError) as raised:
+        openrouter_driver.run_stage(
+            _one_stage_request(episode),
+            future_turns=[],
+            transport=transport,
+            api_key=API_KEY,
+            now=openrouter_driver.SequenceClock(),
+            sleeper=lambda _seconds: None,
+        )
+
+    record = raised.value.failure_record
+    serialized = json.dumps(record, sort_keys=True)
+    assert API_KEY not in serialized
+    assert decoded_unicode_escape not in serialized
+    assert record["raw_bytes_base64"] is None
+    assert record["raw_redacted"] is True
+    assert record["measurement_ready"] is False
+
+
+@pytest.mark.parametrize("header_location", ["key", "value"])
+def test_exact_api_key_echo_in_any_response_header_is_force_redacted(
+        header_location):
+    model = "openai/gpt-5-nano"
+    headers = {"X-Generation-Id": "gen-test"}
+    if header_location == "key":
+        echoed_header = "X-Diagnostic-" + API_KEY
+        headers[echoed_header] = "present"
+    else:
+        echoed_header = "diagnostic-" + API_KEY + "-echo"
+        headers["X-Diagnostic"] = echoed_header
+    closed = []
+    response = openrouter_driver.TransportResponse(
+        status=200,
+        headers=headers,
+        chunks=_success_chunks(
+            model=model,
+            provider="Azure",
+            metadata=_multiple_endpoint_metadata(model=model),
+        ),
+        closer=lambda: closed.append(True),
+    )
+    transport = FakeTransport([response])
+
+    run = openrouter_driver._run_live_access_probe(
+        logical_model_id="gpt-5-nano",
+        api_key=API_KEY,
+        transport=transport,
+        uuid_factory=lambda: "9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+        authorization=openrouter_driver._LIVE_ACCESS_PROBE_AUTHORIZATION,
+    )
+
+    serialized = json.dumps(run, sort_keys=True)
+    record = run["failure_record"]
+    assert API_KEY not in serialized
+    assert echoed_header not in serialized
+    assert run["status"] == "failed"
+    assert run["measurement_ready"] is False
+    assert record["failure_kind"] == "credential_material"
+    assert record["raw_bytes_base64"] is None
+    assert record["raw_redacted"] is True
+    assert record["measurement_ready"] is False
+    assert closed == [True]
+
+
+@pytest.mark.parametrize(
+    "model_visible_location",
+    ["current_prompt", "prior_response", "prior_reasoning"],
+)
+def test_exact_api_key_in_model_visible_body_is_rejected_before_transport(
+        episode, model_visible_location):
+    prior_results = []
+    if model_visible_location == "current_prompt":
+        poisoned = deepcopy(episode)
+        poisoned["multiturn_script"]["stage_1"] += " " + API_KEY
+        request = _one_stage_request(poisoned)
+    else:
+        prior_response = (
+            API_KEY if model_visible_location == "prior_response" else ACTION
+        )
+        request = _one_stage_request(
+            episode,
+            stage="stage_2",
+            prior={"stage_1": prior_response},
+        )
+        prior_results = [_crafted_stage_result(
+            _one_stage_request(episode),
+            raw_final=prior_response,
+            reasoning=(
+                [{"summary": API_KEY}]
+                if model_visible_location == "prior_reasoning" else None
+            ),
+        )]
+    transport = FakeTransport([])
+
+    with pytest.raises(ValueError) as raised:
+        openrouter_driver.run_stage(
+            request,
+            future_turns=[],
+            transport=transport,
+            api_key=API_KEY,
+            now=openrouter_driver.SequenceClock(),
+            sleeper=lambda _seconds: None,
+            prior_results=prior_results,
+        )
+
+    serialized_error = json.dumps({
+        "args": raised.value.args,
+        "message": str(raised.value),
+        "repr": repr(raised.value),
+    }, sort_keys=True)
+    assert API_KEY not in serialized_error
+    assert transport.calls == []
+
+
+def test_nonmatching_similar_value_remains_allowed_in_request_and_response(
+        episode):
+    similar = API_KEY[:-1] + "x"
+    assert API_KEY not in similar
+    candidate = deepcopy(episode)
+    candidate["multiturn_script"]["stage_1"] += " " + similar
+    events = [
+        _event(ACTION, finish="stop", extra={"diagnostic": similar}),
+        _event(usage=_usage_object()),
+        _event(metadata=_metadata()),
+    ]
+    transport = FakeTransport([_response(_sse(*events))])
+
+    result = openrouter_driver.run_stage(
+        _one_stage_request(candidate),
+        future_turns=[],
+        transport=transport,
+        api_key=API_KEY,
+        now=openrouter_driver.SequenceClock(),
+        sleeper=lambda _seconds: None,
+    )
+
+    assert result["terminal_status"] == "complete"
+    assert len(transport.calls) == 1
+    assert similar in transport.calls[0]["body"].decode("utf-8")
+    assert similar in result["attempts"][0]["raw_trace"]
+    assert API_KEY not in json.dumps(result, sort_keys=True)
+
+
 @pytest.mark.parametrize("mutation", [
     "mixed-generation-id",
     "header-generation-mismatch",
     "missing-event-model",
     "missing-event-provider",
-    "missing-attempts",
 ])
 def test_every_relevant_event_and_route_attempt_is_exactly_attested(
         episode, mutation):
     metadata = _metadata()
-    if mutation == "missing-attempts":
-        del metadata["attempts"]
     usage = {
         "prompt_tokens": 120,
         "completion_tokens": 24,
@@ -2116,9 +2837,42 @@ def test_episode_descriptor_validator_binds_full_prefix(episode):
     ) == run["transport_descriptors"]
 
 
+@pytest.mark.parametrize(("logical_model_id", "profile_id", "run_mode", "label"), [
+    (
+        "gpt-5.5", manifest.FLAGSHIP_PROFILE_ID, "openrouter",
+        "live OpenRouter calibration attempt, NOT a measurement",
+    ),
+    (
+        "gpt-5-nano", manifest.CHEAP_PROFILE_ID, "openrouter",
+        "live OpenRouter qualification attempt, NOT a measurement",
+    ),
+    (
+        "gpt-5-nano", manifest.CHEAP_PROFILE_ID, "openrouter_probe",
+        "live OpenRouter access probe attempt, NOT a measurement",
+    ),
+    (
+        "gpt-5.4-mini", manifest.GPT54_MINI_PROFILE_ID, "openrouter",
+        "live OpenRouter qualification attempt, NOT a measurement",
+    ),
+    (
+        "gpt-5.4-mini", manifest.GPT54_MINI_PROFILE_ID,
+        "openrouter_probe",
+        "live OpenRouter access probe attempt, NOT a measurement",
+    ),
+])
 def test_live_failure_record_is_attempt_not_measurement_and_identity_bound(
-        episode):
-    request = _one_stage_request(episode)
+        episode, logical_model_id, profile_id, run_mode, label):
+    request_episode = (
+        manifest.build_cheap_access_probe(
+            logical_model_id, profile_id=profile_id
+        )
+        if run_mode == "openrouter_probe" else episode
+    )
+    request = _one_stage_request(
+        request_episode,
+        logical_model_id=logical_model_id,
+        panel_profile=profile_id,
+    )
     transport = FakeTransport([_response([b"data: \xff"])])
     expected_wire = openrouter_driver.build_wire_request(
         request,
@@ -2136,21 +2890,17 @@ def test_live_failure_record_is_attempt_not_measurement_and_identity_bound(
             now=openrouter_driver.SequenceClock(),
             sleeper=lambda _seconds: None,
             prior_results=[],
-            run_mode="openrouter",
+            run_mode=run_mode,
         )
 
     record = raised.value.failure_record
-    assert record["provenance"] == (
-        "live OpenRouter calibration attempt, NOT a measurement"
-    )
-    assert record["run_mode"] == "openrouter"
+    assert record["provenance"] == label
+    assert record["run_mode"] == run_mode
     assert record["measurement_ready"] is False
     assert record["provider"] == "openrouter"
-    assert record["logical_model_id"] == "gpt-5.5"
-    assert record["provider_model_id"] == "openai/gpt-5.5"
-    assert record["configuration_id"] == (
-        "openrouter-openai-gpt-5.5-medium-no-fallback"
-    )
+    assert record["logical_model_id"] == logical_model_id
+    assert record["provider_model_id"] == f"openai/{logical_model_id}"
+    assert record["configuration_id"] == request["configuration_id"]
     assert record["request_sha256"] == request["request_sha256"]
     assert record["transport_request_sha256"] == (
         expected_wire.transport_request_sha256

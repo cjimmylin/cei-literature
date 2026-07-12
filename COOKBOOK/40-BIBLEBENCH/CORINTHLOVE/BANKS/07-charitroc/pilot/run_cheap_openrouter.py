@@ -8,6 +8,8 @@ no command or code path that can calibrate, freeze, or expose a private split.
 from __future__ import annotations
 
 import argparse
+import base64
+import binascii
 from copy import deepcopy
 from datetime import datetime, timedelta, timezone
 from decimal import Decimal, InvalidOperation
@@ -62,7 +64,9 @@ CATALOG_BASE_URL = "https://openrouter.ai/api/v1/models"
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 RFC3339_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 SECRET_VALUE_RE = re.compile(
-    r"(?i)(?:bearer\s+[a-z0-9._~+/=-]{12,}|sk-(?:or-)?[a-z0-9_-]{12,})"
+    r"(?i)(?:\b(?:sk|rk)-[a-z0-9_-]{8,}|"
+    r"\bBearer\s+[a-z0-9._~+/=-]+|"
+    r"\bOPENROUTER_API_KEY\s*=)"
 )
 SECRET_KEYS = {"api_key", "apikey", "authorization", "password", "secret"}
 SCORING_CONTRACT_RELATIVE_PATHS = (
@@ -295,6 +299,19 @@ def _normalize_decimal(value):
     return "0" if text in {"-0", ""} else text
 
 
+def _expected_returned_model_ids(identity):
+    model_ids = identity.get("expected_returned_provider_model_ids")
+    if (
+        type(model_ids) not in {list, tuple}
+        or not model_ids
+        or any(type(model_id) is not str or not model_id
+               for model_id in model_ids)
+        or len(model_ids) != len(set(model_ids))
+    ):
+        raise ValueError("frozen returned model snapshot allowlist is invalid")
+    return tuple(model_ids)
+
+
 def _validate_catalog_model(payload, identity):
     if type(payload) is not dict or type(payload.get("data")) is not dict:
         raise ValueError("catalog model response must contain one data object")
@@ -308,10 +325,19 @@ def _validate_catalog_model(payload, identity):
     required = set(identity["required_parameters"])
     minimum_context = identity["minimum_context_length"]
     ceilings = identity["price_ceiling_usd_per_million_tokens"]
+    returned_model_ids = _expected_returned_model_ids(identity)
     eligible = []
     for index, endpoint in enumerate(endpoints):
         if type(endpoint) is not dict or endpoint.get("provider_name") != (
                 identity["expected_returned_provider"]):
+            continue
+        returned_model_id = next((
+            model_id for model_id in returned_model_ids
+            if endpoint.get("name") == (
+                f"{identity['expected_returned_provider']} | {model_id}"
+            )
+        ), None)
+        if returned_model_id is None:
             continue
         context = endpoint.get("context_length")
         parameters = endpoint.get("supported_parameters")
@@ -338,6 +364,7 @@ def _validate_catalog_model(payload, identity):
         eligible.append({
             "catalog_endpoint_index": index,
             "provider_name": EXPECTED_PROVIDER,
+            "returned_provider_model_id": returned_model_id,
             "context_length": context,
             "required_parameters_present": sorted(required),
             "input_usd_per_million_tokens": _normalize_decimal(input_price),
@@ -363,9 +390,13 @@ class CheapOpenRouterQualificationRunner:
 
     def __init__(
             self, *, bank_root, out_dir, run_mode, driver=None,
-            catalog_loader=None, clock=None):
+            catalog_loader=None, clock=None,
+            profile_id=CHEAP_PROFILE_ID):
         if run_mode not in RUN_MODES:
             raise ValueError(f"run_mode must be explicit: {RUN_MODES}")
+        if profile_id not in manifest.QUALIFICATION_PROFILE_IDS:
+            raise ValueError("qualification profile_id is not frozen")
+        panel = manifest.load_qualification_panel(profile_id)
         supplied = (driver, catalog_loader, clock)
         if run_mode == "live" and any(value is not None for value in supplied):
             raise ValueError("live qualification rejects injected dependencies")
@@ -397,7 +428,9 @@ class CheapOpenRouterQualificationRunner:
         )
         self._clock = clock or _utc_now
         self._last_timestamp = None
-        self.panel = manifest.load_cheap_panel()
+        self.profile_id = profile_id
+        self.panel = panel
+        self.profile_sha256 = panel["profile_sha256"]
         self.models = tuple(
             row["logical_model_id"] for row in self.panel["models"]
         )
@@ -405,7 +438,7 @@ class CheapOpenRouterQualificationRunner:
             raise ValueError("cheap profile command allowlist differs")
         self.identities = {
             model: manifest.resolve_openrouter_identity(
-                model, profile_id=CHEAP_PROFILE_ID
+                model, profile_id=self.profile_id
             ) for model in self.models
         }
         self.public_episodes, self._sidecar = self._load_public_bank()
@@ -549,8 +582,8 @@ class CheapOpenRouterQualificationRunner:
             "provider": "openrouter",
             "run_mode": self.run_mode,
             "provenance": self.provenance,
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "logical_model_ids": list(self.models),
             "provider_model_ids": [
                 self.identities[model]["provider_model_id"]
@@ -616,7 +649,7 @@ class CheapOpenRouterQualificationRunner:
         metadata = self._validate_metadata(
             _read_json(self._path("run_metadata.json"))
         )
-        if manifest.cheap_panel_sha256() != self.metadata["profile_sha256"]:
+        if self.profile_sha256 != self.metadata["profile_sha256"]:
             raise ValueError("qualification profile hash drifted")
         disk_projection = self._disk_public_scoring_projection()
         memory_projection = self._public_scoring_projection(self._sidecar)
@@ -643,8 +676,8 @@ class CheapOpenRouterQualificationRunner:
         report = {
             "catalog_preflight_version": CATALOG_VERSION,
             "purpose": "qualification-only",
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "catalog_snapshot_utc": self.panel["catalog_snapshot_utc"],
             "required_parameters": deepcopy(self.panel["required_parameters"]),
             "minimum_context_length": self.panel["minimum_context_length"],
@@ -664,8 +697,8 @@ class CheapOpenRouterQualificationRunner:
             type(report) is not dict
             or report.get("catalog_preflight_version") != CATALOG_VERSION
             or report.get("purpose") != "qualification-only"
-            or report.get("profile_id") != CHEAP_PROFILE_ID
-            or report.get("profile_sha256") != manifest.cheap_panel_sha256()
+            or report.get("profile_id") != self.profile_id
+            or report.get("profile_sha256") != self.profile_sha256
             or report.get("catalog_snapshot_utc")
             != self.panel["catalog_snapshot_utc"]
             or report.get("required_parameters")
@@ -684,6 +717,7 @@ class CheapOpenRouterQualificationRunner:
             raise ValueError("endpoint catalog model coverage differs")
         for row, model in zip(rows, self.models):
             identity = self.identities[model]
+            returned_model_ids = _expected_returned_model_ids(identity)
             endpoints = row.get("eligible_azure_endpoints", [])
             if (
                 type(row) is not dict
@@ -712,6 +746,8 @@ class CheapOpenRouterQualificationRunner:
                     or index in endpoint_indexes
                     or endpoint.get("provider_name")
                     != identity["expected_returned_provider"]
+                    or endpoint.get("returned_provider_model_id")
+                    not in returned_model_ids
                     or type(context) is not int
                     or context < identity["minimum_context_length"]
                     or endpoint.get("required_parameters_present")
@@ -735,25 +771,47 @@ class CheapOpenRouterQualificationRunner:
                         )
         return report
 
-    def _call_driver(self, episode, model, *, before_stage, stage_sink):
+    def _ensure_catalog_snapshot(self):
+        path = self._path("catalog", "preflight.json")
+        if path.exists():
+            return self._validate_catalog_artifact()
+        return self.preflight_catalog()
+
+    def _call_driver(
+            self, episode, model, *, purpose, before_stage, stage_sink):
+        if purpose not in {"access", "canary", "smoke"}:
+            raise ValueError("cheap driver purpose must be access, canary, or smoke")
         if self.run_mode == "mock":
             return self._driver.run_episode(
                 episode,
                 logical_model_id=model,
-                panel_profile=CHEAP_PROFILE_ID,
+                panel_profile=self.profile_id,
                 before_stage=before_stage,
                 stage_sink=stage_sink,
             )
         api_key = os.environ.get("OPENROUTER_API_KEY")
         if not api_key:
             raise ValueError("OPENROUTER_API_KEY is required out of band")
-        return openrouter_driver.run_live_episode(
+        if purpose == "access":
+            manifest.validate_cheap_access_probe(
+                episode, logical_model_id=model,
+                profile_id=self.profile_id,
+            )
+            return openrouter_driver.run_live_access_probe(
+                logical_model_id=model,
+                api_key=api_key,
+                before_stage=before_stage,
+                stage_sink=stage_sink,
+                profile_id=self.profile_id,
+            )
+        return openrouter_driver.run_live_cheap_qualification_episode(
             episode,
             logical_model_id=model,
+            purpose=purpose,
             api_key=api_key,
-            panel_profile=CHEAP_PROFILE_ID,
             before_stage=before_stage,
             stage_sink=stage_sink,
+            profile_id=self.profile_id,
         )
 
     def _validate_hook_identity(self, event, model, *, stage=None):
@@ -801,8 +859,8 @@ class CheapOpenRouterQualificationRunner:
                 type(event) is not dict
                 or event.get("journal_version") != ACCESS_JOURNAL_VERSION
                 or event.get("event_index") != index
-                or event.get("profile_id") != CHEAP_PROFILE_ID
-                or event.get("profile_sha256") != manifest.cheap_panel_sha256()
+                or event.get("profile_id") != self.profile_id
+                or event.get("profile_sha256") != self.profile_sha256
                 or model not in self.models
                 or event.get("configuration_id") != self.identities[model][
                     "configuration_id"]
@@ -886,8 +944,8 @@ class CheapOpenRouterQualificationRunner:
         event = {
             "journal_version": ACCESS_JOURNAL_VERSION,
             "event_index": len(events) + 1,
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "logical_model_id": model,
             "configuration_id": self.identities[model]["configuration_id"],
             "attempt_number": attempt,
@@ -912,6 +970,9 @@ class CheapOpenRouterQualificationRunner:
         return [row for row in events if row["logical_model_id"] == model]
 
     def _validate_access_history(self, events):
+        events_by_hash = {
+            event["event_sha256"]: event for event in events
+        }
         for event in events:
             if event["state"] not in {"succeeded", "failed"}:
                 continue
@@ -933,6 +994,17 @@ class CheapOpenRouterQualificationRunner:
             artifact = self._validate_access_artifact(
                 _read_json(path), model, event["attempt_number"]
             )
+            start = events_by_hash.get(event["start_event_sha256"])
+            if (
+                start is None
+                or artifact["request"]["request_sha256"]
+                != start["request_sha256"]
+                or _sha(artifact["transport_descriptor"])
+                != start["transport_descriptor_sha256"]
+            ):
+                raise ValueError(
+                    "access historical artifact/start binding differs"
+                )
             expected_ready = event["state"] == "succeeded"
             expected_kind = (
                 "validated_probe" if expected_ready
@@ -945,32 +1017,59 @@ class CheapOpenRouterQualificationRunner:
                 raise ValueError("access historical artifact state differs")
 
     def _access_probe_id(self, model):
-        return f"CHEAP-ACCESS-{self.models.index(model) + 1:02d}-{model}"
+        return manifest.build_cheap_access_probe(
+            model, profile_id=self.profile_id
+        )["id"]
 
-    @staticmethod
-    def _access_turns():
-        return {
-            "stage_1": (
-                "Model-access compatibility probe. No benchmark case is "
-                "present. Return a brief canonical JSON response using "
-                "UNCERTAIN and VERIFY."
-            ),
-            "stage_2": "Unused access continuation two.",
-            "stage_3": "Unused access continuation three.",
-            "stage_4": "Unused access continuation four.",
-        }
+    def _access_turns(self):
+        return manifest.build_cheap_access_probe(
+            self.models[0], profile_id=self.profile_id
+        )["multiturn_script"]
+
+    def _canonical_access_request(self, request, model):
+        if type(request) is not dict or model not in self.identities:
+            return False
+        identity = self.identities[model]
+        try:
+            expected = contracts.build_stage_request(
+                manifest.build_cheap_access_probe(
+                    model, profile_id=self.profile_id
+                ),
+                execution_id=request.get("execution_id"),
+                provider="openrouter",
+                logical_model_id=model,
+                provider_model_id=identity["provider_model_id"],
+                configuration_id=identity["configuration_id"],
+                stage="stage_1",
+                prior_responses={},
+            )
+        except (TypeError, ValueError):
+            return False
+        return request == expected
 
     def _access_ready(self, request, result):
+        expected_mode = (
+            "openrouter_probe" if self.run_mode == "live" else "mock"
+        )
+        expected_provenance = (
+            contracts.RUN_PROVENANCE["openrouter_probe"]
+            if self.run_mode == "live" else MOCK_PROVENANCE
+        )
+        model = request.get("logical_model_id")
         return (
-            result["terminal_status"] == "complete"
-            and result["returned_provider_model_id"]
-            == request["provider_model_id"]
+            self._canonical_access_request(request, request.get(
+                "logical_model_id"
+            ))
+            and result["terminal_status"] == "complete"
+            and result.get("run_mode") == expected_mode
+            and result.get("provenance") == expected_provenance
+            and result["returned_provider_model_id"] in (
+                _expected_returned_model_ids(self.identities[model])
+            )
             and result["returned_provider_name"] == EXPECTED_PROVIDER
             and result["integrity"]["integrity_valid"] is True
             and result["integrity"]["mechanically_resolved"] is True
-            and result["integrity"]["measurement_ready"] is (
-                self.run_mode == "live"
-            )
+            and result["integrity"]["measurement_ready"] is False
         )
 
     @staticmethod
@@ -989,8 +1088,8 @@ class CheapOpenRouterQualificationRunner:
             "access_artifact_version": ACCESS_VERSION,
             "provenance": ACCESS_PROVENANCE,
             "measurement_ready": False,
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "probe_id": self._access_probe_id(model),
             "logical_model_id": model,
             "provider_model_id": self.identities[model]["provider_model_id"],
@@ -1001,11 +1100,114 @@ class CheapOpenRouterQualificationRunner:
             "result": result,
             "transport_descriptor": descriptor,
             "attestation": deepcopy(event.get("attestation")),
+            "failure_record": None,
             "ready": self._access_ready(request, result),
             "failure_kind": (
                 None if self._access_ready(request, result)
                 else self._failure_kind(result)
             ),
+        }
+        body["access_artifact_sha256"] = _sha(body)
+        _assert_no_credentials(body)
+        return body
+
+    def _validate_access_failure_record(
+            self, record, request, descriptor, model):
+        expected_keys = {
+            "failure_record_version", "provenance", "run_mode",
+            "measurement_ready", "failure_kind", "raw_bytes_base64",
+            "raw_bytes_sha256", "raw_byte_count", "raw_redacted",
+            "provider", "logical_model_id", "model", "provider_model_id",
+            "configuration_id", "request_sha256",
+            "transport_request_sha256",
+        }
+        identity = self.identities[model]
+        if (
+            type(record) is not dict
+            or set(record) != expected_keys
+            or record.get("failure_record_version")
+            != openrouter_driver.FAILURE_RECORD_VERSION
+            or record.get("provenance")
+            != openrouter_driver.LIVE_ACCESS_PROBE_ATTEMPT_PROVENANCE
+            or record.get("run_mode") != "openrouter_probe"
+            or record.get("measurement_ready") is not False
+            or type(record.get("failure_kind")) is not str
+            or not record["failure_kind"]
+            or not SHA256_RE.fullmatch(record.get("raw_bytes_sha256", ""))
+            or type(record.get("raw_byte_count")) is not int
+            or record["raw_byte_count"] < 0
+            or type(record.get("raw_redacted")) is not bool
+            or record.get("provider") != "openrouter"
+            or record.get("logical_model_id") != model
+            or record.get("model") != identity["provider_model_id"]
+            or record.get("provider_model_id") != identity["provider_model_id"]
+            or record.get("configuration_id") != identity["configuration_id"]
+            or record.get("request_sha256") != request["request_sha256"]
+            or record.get("transport_request_sha256") != _sha(descriptor)
+        ):
+            raise ValueError("access protocol failure record binding differs")
+        encoded = record["raw_bytes_base64"]
+        if record["raw_redacted"]:
+            if encoded is not None:
+                raise ValueError("redacted access failure retained raw bytes")
+        else:
+            if type(encoded) is not str:
+                raise ValueError("access failure raw bytes are unavailable")
+            try:
+                raw = base64.b64decode(encoded, validate=True)
+            except (ValueError, binascii.Error):
+                raise ValueError("access failure raw bytes are invalid") from None
+            if (
+                len(raw) != record["raw_byte_count"]
+                or hashlib.sha256(raw).hexdigest() != record[
+                    "raw_bytes_sha256"
+                ]
+            ):
+                raise ValueError("access failure raw byte evidence differs")
+        _assert_no_credentials(record)
+        return deepcopy(record)
+
+    def _build_access_protocol_failure_artifact(
+            self, model, attempt, run, event):
+        request, descriptor = self._validate_hook_identity(
+            event, model, stage="stage_1"
+        )
+        if not self._canonical_access_request(request, model):
+            raise ValueError("access protocol failure request is not canonical")
+        normalized = self._normalize_run(run)
+        failure_record = self._validate_access_failure_record(
+            normalized.get("failure_record"), request, descriptor, model
+        )
+        if (
+            normalized.get("status") != "failed"
+            or normalized.get("provenance") != failure_record["provenance"]
+            or normalized.get("measurement_ready") is not False
+            or normalized.get("requests") != [request]
+            or normalized.get("results") != []
+            or normalized.get("transport_descriptors") != []
+            or normalized.get("chain") is not None
+        ):
+            raise ValueError("access protocol failure envelope differs")
+        identity = self.identities[model]
+        body = {
+            "access_artifact_version": ACCESS_VERSION,
+            "provenance": ACCESS_PROVENANCE,
+            "measurement_ready": False,
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
+            "probe_id": self._access_probe_id(model),
+            "logical_model_id": model,
+            "provider_model_id": identity["provider_model_id"],
+            "configuration_id": identity["configuration_id"],
+            "expected_returned_provider": EXPECTED_PROVIDER,
+            "attempt_number": attempt,
+            "request": request,
+            "result": None,
+            "transport_descriptor": descriptor,
+            "attestation": deepcopy(event.get("attestation")),
+            "failure_record": failure_record,
+            "ready": False,
+            "failure_kind": "provider_terminal_failure",
         }
         body["access_artifact_sha256"] = _sha(body)
         _assert_no_credentials(body)
@@ -1017,8 +1219,8 @@ class CheapOpenRouterQualificationRunner:
             or artifact.get("access_artifact_version") != ACCESS_VERSION
             or artifact.get("provenance") != ACCESS_PROVENANCE
             or artifact.get("measurement_ready") is not False
-            or artifact.get("profile_id") != CHEAP_PROFILE_ID
-            or artifact.get("profile_sha256") != manifest.cheap_panel_sha256()
+            or artifact.get("profile_id") != self.profile_id
+            or artifact.get("profile_sha256") != self.profile_sha256
             or artifact.get("probe_id") != self._access_probe_id(model)
             or artifact.get("logical_model_id") != model
             or artifact.get("provider_model_id") != self.identities[model][
@@ -1032,9 +1234,10 @@ class CheapOpenRouterQualificationRunner:
         ):
             raise ValueError("access artifact profile/hash/identity differs")
         request = contracts.validate_stage_request(artifact.get("request"))
-        result = contracts.validate_stage_result(artifact.get("result"), request)
+        descriptor = artifact.get("transport_descriptor")
         if (
             request["stage"] != "stage_1"
+            or not self._canonical_access_request(request, model)
             or tuple(request[key] for key in (
                 "provider", "logical_model_id", "provider_model_id",
                 "configuration_id",
@@ -1043,14 +1246,32 @@ class CheapOpenRouterQualificationRunner:
                 self.identities[model]["provider_model_id"],
                 self.identities[model]["configuration_id"],
             )
-            or _sha(artifact.get("transport_descriptor")) != result[
-                "transport_request_sha256"]
-            or artifact.get("ready") != self._access_ready(request, result)
-            or artifact.get("failure_kind") != (
-                None if artifact["ready"] else self._failure_kind(result)
-            )
+            or type(descriptor) is not dict
         ):
             raise ValueError("access artifact evidence differs")
+        failure_record = artifact.get("failure_record")
+        if failure_record is not None:
+            self._validate_access_failure_record(
+                failure_record, request, descriptor, model
+            )
+            if (
+                artifact.get("result") is not None
+                or artifact.get("ready") is not False
+                or artifact.get("failure_kind") != "provider_terminal_failure"
+            ):
+                raise ValueError("access protocol failure artifact differs")
+        else:
+            result = contracts.validate_stage_result(
+                artifact.get("result"), request
+            )
+            if (
+                _sha(descriptor) != result["transport_request_sha256"]
+                or artifact.get("ready") != self._access_ready(request, result)
+                or artifact.get("failure_kind") != (
+                    None if artifact["ready"] else self._failure_kind(result)
+                )
+            ):
+                raise ValueError("access artifact evidence differs")
         _assert_no_credentials(artifact)
         return artifact
 
@@ -1078,6 +1299,13 @@ class CheapOpenRouterQualificationRunner:
             raise ValueError("ambiguous orphan access artifacts")
         path = candidates[0]
         artifact = self._validate_access_artifact(_read_json(path), model, attempt)
+        if (
+            artifact["request"]["request_sha256"]
+            != latest["request_sha256"]
+            or _sha(artifact["transport_descriptor"])
+            != latest["transport_descriptor_sha256"]
+        ):
+            raise ValueError("orphan access artifact/start binding differs")
         state = "succeeded" if artifact["ready"] else "failed"
         self._append_access_event(
             model=model,
@@ -1132,11 +1360,11 @@ class CheapOpenRouterQualificationRunner:
         return 1
 
     def _run_access_model(self, model, attempt):
-        episode = {
-            "id": self._access_probe_id(model),
-            "multiturn_script": self._access_turns(),
-        }
+        episode = manifest.build_cheap_access_probe(
+            model, profile_id=self.profile_id
+        )
         started = []
+        start_evidence = []
 
         def before_stage(event):
             request, descriptor = self._validate_hook_identity(
@@ -1151,6 +1379,11 @@ class CheapOpenRouterQualificationRunner:
                 request_sha=request["request_sha256"],
                 descriptor_sha=_sha(descriptor),
             ))
+            start_evidence.append({
+                **deepcopy(event),
+                "request": deepcopy(request),
+                "transport_descriptor": deepcopy(descriptor),
+            })
 
         def stage_sink(event):
             if len(started) != 1:
@@ -1180,8 +1413,8 @@ class CheapOpenRouterQualificationRunner:
             raise _AccessStageFailed()
 
         try:
-            self._call_driver(
-                episode, model,
+            run = self._call_driver(
+                episode, model, purpose="access",
                 before_stage=before_stage,
                 stage_sink=stage_sink,
             )
@@ -1191,6 +1424,31 @@ class CheapOpenRouterQualificationRunner:
             raise ValueError(
                 "durable access failure recorded; explicit access retry is required"
             ) from None
+        if (
+            len(started) == 1
+            and len(start_evidence) == 1
+            and type(run) is dict
+            and run.get("status") == "failed"
+            and type(run.get("failure_record")) is dict
+        ):
+            artifact = self._build_access_protocol_failure_artifact(
+                model, attempt, run, start_evidence[0]
+            )
+            path = self._access_failure_path(model, attempt)
+            _write_new_json(path, artifact)
+            self._append_access_event(
+                model=model,
+                attempt=attempt,
+                state="failed",
+                request_sha=started[0]["request_sha256"],
+                descriptor_sha=started[0]["transport_descriptor_sha256"],
+                start=started[0],
+                artifact=path,
+                terminal_kind=artifact["failure_kind"],
+            )
+            raise ValueError(
+                "durable access failure recorded; explicit access retry is required"
+            )
         raise ValueError("access driver did not emit one terminal stage")
 
     def access(self, retry_failed=False):
@@ -1198,7 +1456,7 @@ class CheapOpenRouterQualificationRunner:
         report_path = self._path("access", "report.json")
         if report_path.is_file():
             return self._verify_access(return_report=True)
-        self.preflight_catalog()
+        self._ensure_catalog_snapshot()
         for model in self.models:
             attempt = self._prepare_access_attempt(
                 model, retry_failed=retry_failed
@@ -1221,8 +1479,8 @@ class CheapOpenRouterQualificationRunner:
             "provenance": ACCESS_PROVENANCE,
             "measurement_ready": False,
             "purpose": "qualification-only",
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "models": list(self.models),
             "attempt_counts": counts,
             "access_journal_sha256": _file_sha(self._access_journal_path()),
@@ -1243,8 +1501,8 @@ class CheapOpenRouterQualificationRunner:
             or report.get("provenance") != ACCESS_PROVENANCE
             or report.get("measurement_ready") is not False
             or report.get("purpose") != "qualification-only"
-            or report.get("profile_id") != CHEAP_PROFILE_ID
-            or report.get("profile_sha256") != manifest.cheap_panel_sha256()
+            or report.get("profile_id") != self.profile_id
+            or report.get("profile_sha256") != self.profile_sha256
             or report.get("models") != list(self.models)
             or report.get("access_sha256") != _sha(
                 _without_hash(report, "access_sha256"))
@@ -1325,7 +1583,7 @@ class CheapOpenRouterQualificationRunner:
             "valid": True,
             "scope": "access",
             "model_count": len(self.models),
-            "profile_id": CHEAP_PROFILE_ID,
+            "profile_id": self.profile_id,
         }
 
     # --------------------------- public episodes ------------------------
@@ -1348,8 +1606,8 @@ class CheapOpenRouterQualificationRunner:
                 type(event) is not dict
                 or event.get("journal_version") != EPISODE_JOURNAL_VERSION
                 or event.get("event_index") != index
-                or event.get("profile_id") != CHEAP_PROFILE_ID
-                or event.get("profile_sha256") != manifest.cheap_panel_sha256()
+                or event.get("profile_id") != self.profile_id
+                or event.get("profile_sha256") != self.profile_sha256
                 or item_id not in self._by_id
                 or model not in self.models
                 or event.get("configuration_id") != self.identities[model][
@@ -1437,6 +1695,7 @@ class CheapOpenRouterQualificationRunner:
             for event in episode_events if event["state"] != "started"
         }
         by_attempt = {}
+        artifacts_by_attempt = {}
         previous_hash = None
         previous_time = None
         for index, event in enumerate(events, 1):
@@ -1449,6 +1708,7 @@ class CheapOpenRouterQualificationRunner:
             key = (item_id, model, attempt)
             start = starts.get(key)
             prior_stages = by_attempt.setdefault(key, [])
+            prior_artifacts = artifacts_by_attempt.setdefault(key, [])
             expected_stage = (
                 contracts.STAGES[len(prior_stages)]
                 if len(prior_stages) < len(contracts.STAGES) else None
@@ -1458,9 +1718,9 @@ class CheapOpenRouterQualificationRunner:
                 or event.get("stage_journal_version")
                 != STAGE_JOURNAL_VERSION
                 or event.get("event_index") != index
-                or event.get("profile_id") != CHEAP_PROFILE_ID
+                or event.get("profile_id") != self.profile_id
                 or event.get("profile_sha256")
-                != manifest.cheap_panel_sha256()
+                != self.profile_sha256
                 or item_id not in self._by_id
                 or model not in self.models
                 or event.get("configuration_id")
@@ -1510,6 +1770,9 @@ class CheapOpenRouterQualificationRunner:
             artifact = self._validate_stage_artifact(
                 _read_json(path), item_id, model, attempt, expected_stage
             )
+            self._validate_stage_history(
+                artifact, item_id, model, prior_artifacts
+            )
             if (
                 artifact["source_command"] != start["source_command"]
                 or event["request_sha256"]
@@ -1524,6 +1787,7 @@ class CheapOpenRouterQualificationRunner:
             ):
                 raise ValueError("stage evidence journal content differs")
             prior_stages.append(event)
+            prior_artifacts.append(artifact)
             previous_hash = event["event_sha256"]
             previous_time = timestamp
         _assert_no_credentials(events)
@@ -1544,8 +1808,8 @@ class CheapOpenRouterQualificationRunner:
         event = {
             "stage_journal_version": STAGE_JOURNAL_VERSION,
             "event_index": len(events) + 1,
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "item_id": item_id,
             "logical_model_id": model,
             "configuration_id": self.identities[model]["configuration_id"],
@@ -1582,8 +1846,8 @@ class CheapOpenRouterQualificationRunner:
         event = {
             "journal_version": EPISODE_JOURNAL_VERSION,
             "event_index": len(events) + 1,
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "item_id": item_id,
             "logical_model_id": model,
             "configuration_id": self.identities[model]["configuration_id"],
@@ -1631,8 +1895,8 @@ class CheapOpenRouterQualificationRunner:
             "stage_artifact_version": STAGE_ARTIFACT_VERSION,
             "purpose": "qualification-only",
             "measurement_label": self.provenance,
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "item_id": item_id,
             "logical_model_id": model,
             "provider_model_id": self.identities[model]["provider_model_id"],
@@ -1656,8 +1920,8 @@ class CheapOpenRouterQualificationRunner:
             or artifact.get("stage_artifact_version") != STAGE_ARTIFACT_VERSION
             or artifact.get("purpose") != "qualification-only"
             or artifact.get("measurement_label") != self.provenance
-            or artifact.get("profile_id") != CHEAP_PROFILE_ID
-            or artifact.get("profile_sha256") != manifest.cheap_panel_sha256()
+            or artifact.get("profile_id") != self.profile_id
+            or artifact.get("profile_sha256") != self.profile_sha256
             or artifact.get("item_id") != item_id
             or artifact.get("logical_model_id") != model
             or artifact.get("provider_model_id") != self.identities[model][
@@ -1687,6 +1951,39 @@ class CheapOpenRouterQualificationRunner:
         _assert_no_credentials(artifact)
         return artifact
 
+    def _validate_stage_history(
+            self, artifact, item_id, model, prior_artifacts):
+        stage = artifact["stage"]
+        if len(prior_artifacts) != contracts.STAGES.index(stage):
+            raise ValueError("stage artifact history is not contiguous")
+        execution_id = (
+            prior_artifacts[0]["request"]["execution_id"]
+            if prior_artifacts else artifact["request"]["execution_id"]
+        )
+        prior_responses = {}
+        for index, prior in enumerate(prior_artifacts):
+            prior_stage = contracts.STAGES[index]
+            response = prior["result"]["attempts"][-1][
+                "raw_final_message"
+            ]
+            if prior["stage"] != prior_stage or type(response) is not str:
+                raise ValueError("stage artifact history cannot advance")
+            prior_responses[prior_stage] = response
+        identity = self.identities[model]
+        expected = contracts.build_stage_request(
+            self._by_id[item_id],
+            execution_id=execution_id,
+            provider="openrouter",
+            logical_model_id=model,
+            provider_model_id=identity["provider_model_id"],
+            configuration_id=identity["configuration_id"],
+            stage=stage,
+            prior_responses=prior_responses,
+        )
+        if artifact["request"] != expected:
+            raise ValueError("stage artifact request/history binding differs")
+        return artifact
+
     def _normalize_run(self, run):
         if type(run) is not dict:
             raise ValueError("provider driver returned an unsupported run")
@@ -1711,6 +2008,11 @@ class CheapOpenRouterQualificationRunner:
         ):
             return False
         identity = self.identities[model]
+        expected_mode = "openrouter" if self.run_mode == "live" else "mock"
+        expected_provenance = (
+            QUALIFICATION_PROVENANCE
+            if self.run_mode == "live" else MOCK_PROVENANCE
+        )
         for index, (request, result, descriptor) in enumerate(zip(
                 requests, results, descriptors)):
             request = contracts.validate_stage_request(request)
@@ -1720,10 +2022,13 @@ class CheapOpenRouterQualificationRunner:
                 or request["logical_model_id"] != model
                 or request["provider_model_id"] != identity["provider_model_id"]
                 or request["configuration_id"] != identity["configuration_id"]
-                or result["returned_provider_model_id"]
-                != identity["provider_model_id"]
+                or result["returned_provider_model_id"] not in (
+                    _expected_returned_model_ids(identity)
+                )
                 or result["returned_provider_name"] != EXPECTED_PROVIDER
                 or result["terminal_status"] != "complete"
+                or result["run_mode"] != expected_mode
+                or result["provenance"] != expected_provenance
                 or result["integrity"]["integrity_valid"] is not True
                 or result["integrity"]["mechanically_resolved"] is not True
                 or result["integrity"]["measurement_ready"] is not (
@@ -1752,8 +2057,8 @@ class CheapOpenRouterQualificationRunner:
             "measurement_label": self.provenance,
             "qualification_measurement_class": QUALIFICATION_CLASS,
             "measurement_ready": ready and self.run_mode == "live",
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "item_id": item_id,
             "logical_model_id": model,
             "provider_model_id": self.identities[model]["provider_model_id"],
@@ -1786,8 +2091,8 @@ class CheapOpenRouterQualificationRunner:
             or artifact.get("measurement_label") != self.provenance
             or artifact.get("qualification_measurement_class")
             != QUALIFICATION_CLASS
-            or artifact.get("profile_id") != CHEAP_PROFILE_ID
-            or artifact.get("profile_sha256") != manifest.cheap_panel_sha256()
+            or artifact.get("profile_id") != self.profile_id
+            or artifact.get("profile_sha256") != self.profile_sha256
             or artifact.get("item_id") != item_id
             or artifact.get("logical_model_id") != model
             or artifact.get("provider_model_id") != self.identities[model][
@@ -1865,11 +2170,109 @@ class CheapOpenRouterQualificationRunner:
         )
         return self._episode_events()
 
+    def _reconcile_stage_orphan(self, events):
+        stage_events = self._stage_evidence_events(events)
+        journaled_paths = {
+            self._stage_path(
+                event["item_id"], event["logical_model_id"],
+                event["attempt_number"], event["stage"],
+            ) for event in stage_events
+        }
+        if self._stage_journal_path().exists():
+            journaled_paths.add(self._stage_journal_path())
+        observed_paths = self._artifact_files(
+            "evidence", suffixes=(".json", ".jsonl")
+        )
+        orphan_paths = observed_paths - journaled_paths
+        latest_by_arm = {}
+        for event in events:
+            latest_by_arm[
+                (event["item_id"], event["logical_model_id"])
+            ] = event
+        active_starts = [
+            event for event in latest_by_arm.values()
+            if event["state"] == "started"
+        ]
+        if len(active_starts) > 1:
+            raise ValueError("multiple active episode attempts are ambiguous")
+        if not orphan_paths:
+            return events
+        if len(active_starts) != 1:
+            raise ValueError("orphan stage evidence lacks an active start")
+        start = active_starts[0]
+        item_id = start["item_id"]
+        model = start["logical_model_id"]
+        key = (item_id, model, start["attempt_number"])
+        recorded = [
+            event for event in stage_events
+            if (
+                event["item_id"], event["logical_model_id"],
+                event["attempt_number"],
+            ) == key
+        ]
+        if (
+            len(orphan_paths) != 1
+            or len(recorded) >= len(contracts.STAGES)
+        ):
+            raise ValueError("ambiguous orphan stage evidence")
+        stage = contracts.STAGES[len(recorded)]
+        path = self._stage_path(
+            item_id, model, start["attempt_number"], stage
+        )
+        candidate = next(iter(orphan_paths))
+        if candidate != path:
+            raise ValueError("orphan stage evidence is not contiguous")
+        _reject_symlinks(candidate)
+        try:
+            mode = os.lstat(candidate).st_mode
+        except OSError as exc:
+            raise ValueError("orphan stage evidence is unavailable") from exc
+        if not stat.S_ISREG(mode):
+            raise ValueError("orphan stage evidence is not a regular file")
+
+        artifact = self._validate_stage_artifact(
+            _read_json(candidate), item_id, model,
+            start["attempt_number"], stage,
+        )
+        prior_artifacts = [
+            self._validate_stage_artifact(
+                _read_json(self._stage_path(
+                    item_id, model, start["attempt_number"], event["stage"]
+                )),
+                item_id, model, start["attempt_number"], event["stage"],
+            ) for event in recorded
+        ]
+        self._validate_stage_history(
+            artifact, item_id, model, prior_artifacts
+        )
+        if (
+            artifact["source_command"] != start["source_command"]
+            or (stage == "stage_1" and (
+                artifact["request"]["request_sha256"]
+                != start["request_sha256"]
+                or _sha(artifact["transport_descriptor"])
+                != start["transport_descriptor_sha256"]
+            ))
+        ):
+            raise ValueError("orphan stage evidence start binding differs")
+        self._append_stage_evidence_event(
+            item_id=item_id,
+            model=model,
+            source=start["source_command"],
+            attempt=start["attempt_number"],
+            stage=stage,
+            start=start,
+            artifact_path=candidate,
+            artifact=artifact,
+        )
+        self._stage_evidence_events(events)
+        return events
+
     def _prepare_episode_attempt(
             self, item_id, model, source, *, retry_failed):
-        events = self._reconcile_episode_orphan(
-            item_id, model, self._episode_events()
-        )
+        events = self._episode_events()
+        events = self._reconcile_stage_orphan(events)
+        events = self._reconcile_episode_orphan(item_id, model, events)
         rows = self._arm_events(events, item_id, model)
         latest = rows[-1] if rows else None
         starts = sum(row["state"] == "started" for row in rows)
@@ -1960,7 +2363,8 @@ class CheapOpenRouterQualificationRunner:
             stages.append(artifact)
 
         run = self._call_driver(
-            episode, model, before_stage=before_stage, stage_sink=stage_sink
+            episode, model, purpose=source,
+            before_stage=before_stage, stage_sink=stage_sink
         )
         if len(started) != 1:
             raise ValueError("episode driver returned without durable start")
@@ -2001,7 +2405,9 @@ class CheapOpenRouterQualificationRunner:
         return hashlib.sha256(b"".join(lines[:event_count])).hexdigest()
 
     def _validate_episode_namespaces(self, events):
-        expected_episodes = {self._episode_journal_path()}
+        expected_episodes = set()
+        if self._episode_journal_path().exists():
+            expected_episodes.add(self._episode_journal_path())
         expected_failures = set()
         stage_events = self._stage_evidence_events(events)
         expected_evidence = {
@@ -2128,8 +2534,8 @@ class CheapOpenRouterQualificationRunner:
             "measurement_label": self.provenance,
             "qualification_measurement_class": QUALIFICATION_CLASS,
             "measurement_ready": self.run_mode == "live",
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "public_item_ids": list(item_ids),
             "logical_model_ids": list(self.models),
             "model_episode_count": len(item_ids) * len(self.models),
@@ -2144,13 +2550,16 @@ class CheapOpenRouterQualificationRunner:
     def _execute_scope(self, scope, item_ids, *, retry_failed=False):
         self._validate_root()
         self._verify_access()
-        self.preflight_catalog()
+        self._ensure_catalog_snapshot()
         for item_id in item_ids:
             for model in self.models:
                 attempt = self._prepare_episode_attempt(
                     item_id, model, scope, retry_failed=retry_failed
                 )
                 if attempt is not None:
+                    self._validate_episode_namespaces(
+                        self._episode_events()
+                    )
                     self._run_episode_arm(
                         item_id, model, scope, attempt
                     )
@@ -2203,8 +2612,8 @@ class CheapOpenRouterQualificationRunner:
             != QUALIFICATION_CLASS
             or report.get("measurement_ready") is not (
                 self.run_mode == "live")
-            or report.get("profile_id") != CHEAP_PROFILE_ID
-            or report.get("profile_sha256") != manifest.cheap_panel_sha256()
+            or report.get("profile_id") != self.profile_id
+            or report.get("profile_sha256") != self.profile_sha256
             or report.get("public_item_ids") != list(expected_ids)
             or report.get("logical_model_ids") != list(self.models)
             or report.get("model_episode_count")
@@ -2264,7 +2673,7 @@ class CheapOpenRouterQualificationRunner:
             "valid": True,
             "scope": scope,
             "model_episode_count": len(expected_artifacts),
-            "profile_id": CHEAP_PROFILE_ID,
+            "profile_id": self.profile_id,
         }
 
     def _expected_whole_root_files(self):
@@ -2407,7 +2816,7 @@ class CheapOpenRouterQualificationRunner:
         return {
             "valid": all(row["valid"] for row in reports.values()),
             "purpose": "qualification-only",
-            "profile_id": CHEAP_PROFILE_ID,
+            "profile_id": self.profile_id,
             "scopes": reports,
         }
 
@@ -2475,8 +2884,8 @@ class CheapOpenRouterQualificationRunner:
             "authorizes_calibration": False,
             "authorizes_private_execution": False,
             "authorizes_freeze": False,
-            "profile_id": CHEAP_PROFILE_ID,
-            "profile_sha256": manifest.cheap_panel_sha256(),
+            "profile_id": self.profile_id,
+            "profile_sha256": self.profile_sha256,
             "public_episode_count_per_model": len(self.public_episodes),
             "smoke_report_sha256": _file_sha(smoke_path),
             "model_reports": model_reports,
@@ -2520,7 +2929,7 @@ class CheapOpenRouterQualificationRunner:
             "valid": True,
             "scope": "qualification",
             "model_count": len(self.models),
-            "profile_id": CHEAP_PROFILE_ID,
+            "profile_id": self.profile_id,
         }
 
     def report(self):

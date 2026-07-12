@@ -13,11 +13,13 @@
 - **R53:** MVP-testable uses the corrected single-family OPEN manifest, excludes EPISODE
   pending registry approval, and retains the PROOF artifact disclosure.
 
-**Current execution status:** T1 is complete and checked in the v2 plan. W-R48, W-R47.3,
-W-R49, and W-R52.2 completed offline; the corrected manifest matches R47 F-1/F-2
-exactly, and the MVP OPEN re-parse covers 155 marker-hit verdicts across 65 cells with no
-new R42-material candidate. T2 is next. There are no unresolved judgment questions in
-this file.
+**Current execution status:** T1 and T2 are complete and checked in the v2 plan. W-R48,
+W-R47.3, W-R49, W-R52.2, and the R54/R56 EPISODE registry application completed
+offline. The corrected manifest matches R47 F-1/F-2 exactly; the MVP OPEN re-parse
+covers 155 marker-hit verdicts across 65 cells with no new R42-material candidate; and
+the approved 22-entry registry loads outside review mode with R55.4 fixtures green.
+T2.5 now awaits Jimmy's R57-checklist ratification. There are no unresolved judgment
+questions in this file.
 
 ## Rulings received 2026-07-11
 
@@ -47,15 +49,17 @@ numbers.
 - **Evidence:** `07-PILOTS/20260711-format-bridge-requal/20260711-format-bridge-requal-report.md` and its canonical manifest.
 - **Suggested default:** Keep the new manifest and report as the honest immutable Task 4 record; close the pre-G6 candidate ladder; do not tweak the exemplar, rerun, restore stale eligibility, or screen another model without a new Jimmy/Fable ruling.
 
-## DRAFT AUTHORIZED 2026-07-11 — Task 5: no structured runner/spec registry for the 22 EPISODE items
+## RESOLVED 2026-07-12 — Task 5: 22-item EPISODE specification registry
 
-- **Ruling:** Codex may draft the registry for human review. The draft must not be treated
-  as approved scoring semantics or used for live runs before review.
-- **Draft produced:** `04-HARNESS/config/episode-spec-registry.draft.json`, loaded only
-  through the explicit review-mode seam in `wcfbench/episode_registry.py`. It contains all
-  22 EPISODE items and remains `DRAFT_UNAPPROVED` pending human review. Automated
-  specification and code-quality reviews passed; those checks do not approve the 22
-  judgmental item mappings.
+- **Ruling:** R54 reviewed all 22 entries field-by-field; R56 directed Codex to apply the
+  exact corrections, approval block, canonical approved-registry transition, and R55.4
+  bidirectional fixtures offline. No live run was authorized.
+- **Resolved implementation:** `04-HARNESS/config/episode-spec-registry.json` is the
+  canonical `APPROVED` registry and loads through the default
+  `wcfbench.episode_registry.load_episode_registry()` path outside review mode. All 22
+  entry review statuses are approved; the exact R54 correction table and all seven
+  corrected marker lists have regression coverage. T2 completed with zero bank edits and
+  zero live calls.
 
 - **Question:** Who should supply or approve the per-item `EpisodeSpec`, tool semantics, blind prompts, and outcome detectors needed to execute the 22 frozen EPISODE items?
 - **Why it blocks:** `wcfbench/episode_live.py` is a one-spec red-team defect-calibration helper, not a blind benchmark runner. The only production `EpisodeSpec` is hard-coded in `openrouter_pilot.py`; the 22 bank records contain `episode: true` but no executable spec registry. No compliant 88-cell checkpoint/transcript/disagreement/report path exists. Authoring these mappings would introduce new scoring judgments not ruled by R42–R46.

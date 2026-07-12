@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cei.example/schemas/crossroads-judge-roster-v1.json",
+  "additionalProperties": false,
+  "properties": {
+    "human_validation_status": {"minLength": 1, "type": "string"},
+    "judges": {
+      "items": {
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {"properties": {"identity_kind": {"const": "model"}}},
+            "then": {
+              "properties": {
+                "exact_model_version": {"minLength": 1, "type": "string"},
+                "human_identity_class": {"type": "null"}
+              }
+            }
+          },
+          {
+            "if": {"properties": {"identity_kind": {"const": "human"}}},
+            "then": {
+              "properties": {
+                "exact_model_version": {"type": "null"},
+                "human_identity_class": {"minLength": 1, "type": "string"}
+              }
+            }
+          }
+        ],
+        "properties": {
+          "configuration_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+          "exact_model_version": {"type": ["string", "null"]},
+          "family": {"pattern": "^[a-z0-9][a-z0-9._-]*$", "type": "string"},
+          "human_identity_class": {"type": ["string", "null"]},
+          "identity_kind": {"enum": ["model", "human"]},
+          "judge_id": {
+            "pattern": "^JUDGE-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$",
+            "type": "string"
+          },
+          "prompt_sha256": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+          "provider": {"pattern": "^[a-z0-9][a-z0-9._-]*$", "type": "string"},
+          "role": {"enum": ["raw", "adjudicator"]}
+        },
+        "required": [
+          "judge_id", "family", "provider", "identity_kind",
+          "exact_model_version", "human_identity_class", "prompt_sha256",
+          "configuration_sha256", "role"
+        ],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "provenance": {"minLength": 1, "type": "string"},
+    "schema_version": {"const": "crossroads-judge-roster-v1"}
+  },
+  "required": [
+    "schema_version", "provenance", "human_validation_status", "judges"
+  ],
+  "title": "CROSSROADS frozen judge roster",
+  "type": "object"
+}

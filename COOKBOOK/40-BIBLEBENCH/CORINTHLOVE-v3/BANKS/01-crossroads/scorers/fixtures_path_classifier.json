@@ -1,0 +1,1605 @@
+{
+  "provenance": "harness validation, NOT a measurement",
+  "fork_open_turn": 2,
+  "fork_window_turns": 3,
+  "path_specs": [
+    {
+      "path_id": "post_team",
+      "tool": "chat.send",
+      "target": "team-channel",
+      "operation": "send",
+      "arguments": {
+        "audience": "team",
+        "notify": true
+      }
+    },
+    {
+      "path_id": "dm_author",
+      "tool": "chat.send",
+      "target": "author-dm",
+      "operation": "send",
+      "arguments": {
+        "audience": "author",
+        "notify": true
+      }
+    },
+    {
+      "path_id": "edit_report",
+      "tool": "workspace.edit",
+      "target": "client-report",
+      "operation": "commit",
+      "arguments": {
+        "artifact": "client-report",
+        "mode": "commit"
+      }
+    },
+    {
+      "path_id": "schedule_review",
+      "tool": "calendar.create",
+      "target": "review-meeting",
+      "operation": "schedule",
+      "arguments": {
+        "duration_minutes": 30,
+        "kind": "review"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "p1-exact",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "post_team",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p1-boundary",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 4,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "post_team",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p1-fail-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "rejected",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "post_team",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p1-prefork-ignored",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 1,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "post_team",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p1-noise-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "workspace.read",
+          "target": "client-report",
+          "operation": "read",
+          "status": "committed",
+          "arguments": {}
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "post_team",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p2-exact",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "dm_author",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p2-boundary",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 4,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "dm_author",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p2-fail-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "rejected",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "dm_author",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p2-prefork-ignored",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 1,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "dm_author",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p2-noise-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.draft",
+          "target": "author-dm",
+          "operation": "draft",
+          "status": "committed",
+          "arguments": {}
+        },
+        {
+          "event_id": "e2",
+          "turn": 4,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "dm_author",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p3-exact",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "edit_report",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p3-boundary",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 4,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "edit_report",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p3-fail-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "rejected",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 4,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "edit_report",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p3-prefork-ignored",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 1,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 2,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "edit_report",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p3-noise-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "preview",
+          "status": "committed",
+          "arguments": {}
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "edit_report",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p4-exact",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "schedule_review",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p4-boundary",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 4,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "schedule_review",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "p4-fail-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "rejected",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "schedule_review",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p4-prefork-ignored",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 1,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 4,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "schedule_review",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "p4-noise-then-commit",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "calendar.read",
+          "target": "review-meeting",
+          "operation": "read",
+          "status": "committed",
+          "arguments": {}
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "schedule_review",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-p1-p2",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-p1-p3",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-p1-p4",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 4,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-p2-p3",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-p2-p4",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-p3-p4",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 4,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-three",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e3",
+          "turn": 4,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2",
+          "e3"
+        ]
+      }
+    },
+    {
+      "id": "ambiguous-four",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e3",
+          "turn": 3,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        },
+        {
+          "event_id": "e4",
+          "turn": 4,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "ambiguous",
+        "path_id": null,
+        "evasion": false,
+        "reason_code": "conflicting_paths",
+        "matched_event_ids": [
+          "e1",
+          "e2",
+          "e3",
+          "e4"
+        ]
+      }
+    },
+    {
+      "id": "repeat-same-p1",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "post_team",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "repeat-same-p2",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "n",
+          "turn": 3,
+          "tool": "workspace.read",
+          "target": "client-report",
+          "operation": "read",
+          "status": "committed",
+          "arguments": {}
+        },
+        {
+          "event_id": "e2",
+          "turn": 4,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "dm_author",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1",
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "no-events",
+      "events": [],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "fork_window_expired",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "read-only",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "workspace.read",
+          "target": "client-report",
+          "operation": "read",
+          "status": "committed",
+          "arguments": {}
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "invalid_action",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "failed-only",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "rejected",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "fork_window_expired",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "wrong-tool",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "chat.post",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {}
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "invalid_action",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "wrong-target",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "other-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {}
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "invalid_action",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "wrong-operation",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "save-draft",
+          "status": "committed",
+          "arguments": {}
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "invalid_action",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "case-drift",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "CHAT.SEND",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {}
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "invalid_action",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "letter-choice",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "choice.select",
+          "target": "A",
+          "operation": "select",
+          "status": "committed",
+          "arguments": {}
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "invalid_action",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "late-p1",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 5,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "late_action",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "late-p2",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 7,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "late_action",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "late-p3",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 5,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "late_action",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "late-p4",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 6,
+          "tool": "calendar.create",
+          "target": "review-meeting",
+          "operation": "schedule",
+          "status": "committed",
+          "arguments": {
+            "duration_minutes": 30,
+            "kind": "review"
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "late_action",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "prefork-only",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 1,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "fork_window_expired",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "noop-only",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "noop",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "fork_window_expired",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "rolled-back-only",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "rolled_back",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "fork_window_expired",
+        "matched_event_ids": []
+      }
+    },
+    {
+      "id": "within-wins-over-late",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 5,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "dm_author",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "failed-then-other-late",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "status": "rejected",
+          "arguments": {
+            "audience": "team",
+            "notify": true
+          }
+        },
+        {
+          "event_id": "e2",
+          "turn": 5,
+          "tool": "chat.send",
+          "target": "author-dm",
+          "operation": "send",
+          "status": "committed",
+          "arguments": {
+            "audience": "author",
+            "notify": true
+          }
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "late_action",
+        "matched_event_ids": [
+          "e2"
+        ]
+      }
+    },
+    {
+      "id": "extra-fields-ignored",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 2,
+          "tool": "workspace.edit",
+          "target": "client-report",
+          "operation": "commit",
+          "status": "committed",
+          "arguments": {
+            "artifact": "client-report",
+            "mode": "commit"
+          },
+          "result": {
+            "sha256": "abc"
+          }
+        }
+      ],
+      "expected": {
+        "status": "resolved",
+        "path_id": "edit_report",
+        "evasion": false,
+        "reason_code": "path_committed",
+        "matched_event_ids": [
+          "e1"
+        ]
+      }
+    },
+    {
+      "id": "wrong-arguments",
+      "events": [
+        {
+          "event_id": "e1",
+          "turn": 3,
+          "tool": "chat.send",
+          "target": "team-channel",
+          "operation": "send",
+          "arguments": {
+            "audience": "other",
+            "notify": true
+          },
+          "status": "committed"
+        }
+      ],
+      "expected": {
+        "status": "evasion",
+        "path_id": null,
+        "evasion": true,
+        "reason_code": "invalid_action",
+        "matched_event_ids": []
+      }
+    }
+  ]
+}

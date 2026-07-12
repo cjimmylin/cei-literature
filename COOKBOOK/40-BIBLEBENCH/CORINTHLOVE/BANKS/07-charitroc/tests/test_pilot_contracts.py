@@ -72,6 +72,18 @@ def _cheap_identity(logical="gpt-5-nano"):
     }
 
 
+def _gpt54_mini_identity():
+    return {
+        key: value for key, value in contracts.manifest.resolve_openrouter_identity(
+            "gpt-5.4-mini", profile_id="gpt54-mini-azure-v1"
+        ).items()
+        if key in {
+            "provider", "logical_model_id", "provider_model_id",
+            "configuration_id",
+        }
+    }
+
+
 def _build(episode, *, stage="stage_2", provider="codex",
            logical="gpt-5.5", prior_responses=None, execution_id=EXECUTION_ID):
     if prior_responses is None:
@@ -143,6 +155,17 @@ def test_exact_cheap_profile_identity_tuples_build(episode, logical):
         stage="stage_1",
         prior_responses={},
         **_cheap_identity(logical),
+    )
+    assert contracts.validate_stage_request(request) == request
+
+
+def test_exact_gpt54_mini_qualification_identity_tuple_builds(episode):
+    request = contracts.build_stage_request(
+        episode,
+        execution_id=EXECUTION_ID,
+        stage="stage_1",
+        prior_responses={},
+        **_gpt54_mini_identity(),
     )
     assert contracts.validate_stage_request(request) == request
 
@@ -534,7 +557,7 @@ def test_cheap_openrouter_result_requires_azure_provider_identity(episode):
     result = contracts.build_stage_result(
         request,
         run_mode="openrouter",
-        returned_provider_model_id="openai/gpt-5-nano",
+        returned_provider_model_id="openai/gpt-5-nano-2025-08-07",
         returned_provider_name="Azure",
         session_id=None,
         transport_request_sha256="a" * 64,
@@ -545,9 +568,141 @@ def test_cheap_openrouter_result_requires_azure_provider_identity(episode):
         future_text_absent=True,
     )
 
+    assert result["provenance"] == (
+        "live OpenRouter qualification measurement"
+    )
     assert result["integrity"]["provider_identity_ok"] is True
     assert result["integrity"]["measurement_ready"] is True
     assert contracts.validate_stage_result(result, request) == result
+
+
+def test_cheap_openrouter_probe_builds_valid_nonmeasurement_result(episode):
+    request = contracts.build_stage_request(
+        episode,
+        execution_id=EXECUTION_ID,
+        stage="stage_1",
+        prior_responses={},
+        **_cheap_identity(),
+    )
+    result = contracts.build_stage_result(
+        request,
+        run_mode="openrouter_probe",
+        returned_provider_model_id="openai/gpt-5-nano-2025-08-07",
+        returned_provider_name="Azure",
+        session_id=None,
+        transport_request_sha256="a" * 64,
+        attempts=[_attempt()],
+        tool_events=[],
+        session_chain_ok=True,
+        isolation_ok=True,
+        future_text_absent=True,
+    )
+
+    assert result["provenance"] == (
+        "live OpenRouter access probe, NOT a measurement"
+    )
+    assert result["terminal_status"] == "complete"
+    assert result["integrity"]["integrity_valid"] is True
+    assert result["integrity"]["measurement_ready"] is False
+    assert contracts.validate_stage_result(result, request) == result
+
+
+@pytest.mark.parametrize("run_mode", ["openrouter", "openrouter_probe"])
+def test_gpt54_mini_qualification_result_uses_exact_azure_provenance(
+        episode, run_mode):
+    request = contracts.build_stage_request(
+        episode,
+        execution_id=EXECUTION_ID,
+        stage="stage_1",
+        prior_responses={},
+        **_gpt54_mini_identity(),
+    )
+    result = contracts.build_stage_result(
+        request,
+        run_mode=run_mode,
+        returned_provider_model_id="openai/gpt-5.4-mini-20260317",
+        returned_provider_name="Azure",
+        session_id=None,
+        transport_request_sha256="a" * 64,
+        attempts=[_attempt()],
+        tool_events=[],
+        session_chain_ok=True,
+        isolation_ok=True,
+        future_text_absent=True,
+    )
+
+    assert result["provenance"] == (
+        "live OpenRouter qualification measurement"
+        if run_mode == "openrouter"
+        else "live OpenRouter access probe, NOT a measurement"
+    )
+    assert result["integrity"]["provider_identity_ok"] is True
+    assert result["integrity"]["measurement_ready"] is (
+        run_mode == "openrouter"
+    )
+    assert contracts.validate_stage_result(result, request) == result
+
+
+@pytest.mark.parametrize("provider", ["codex", "openrouter"])
+def test_openrouter_probe_rejects_flagship_and_codex_identities(
+        episode, provider):
+    request = _stage_one_request(episode, provider=provider)
+    with pytest.raises(ValueError, match="probe|run_mode|profile"):
+        contracts.build_stage_result(
+            request,
+            run_mode="openrouter_probe",
+            returned_provider_model_id=request["provider_model_id"],
+            returned_provider_name="OpenAI",
+            session_id=(
+                "019f49e3-b7de-7272-9d25-545c82c2674c"
+                if provider == "codex" else None
+            ),
+            transport_request_sha256="a" * 64,
+            attempts=[_attempt()],
+            tool_events=[],
+            session_chain_ok=True,
+            isolation_ok=True,
+            future_text_absent=True,
+        )
+
+
+@pytest.mark.parametrize(
+    ("field", "bad_value"),
+    [
+        ("provenance", "live OpenRouter calibration measurement"),
+        ("run_mode", "openrouter_probe"),
+    ],
+)
+def test_cheap_result_rejects_rehashed_provenance_or_run_mode_tamper(
+        episode, field, bad_value):
+    request = contracts.build_stage_request(
+        episode,
+        execution_id=EXECUTION_ID,
+        stage="stage_1",
+        prior_responses={},
+        **_cheap_identity(),
+    )
+    result = contracts.build_stage_result(
+        request,
+        run_mode="openrouter",
+        returned_provider_model_id=request["provider_model_id"],
+        returned_provider_name="Azure",
+        session_id=None,
+        transport_request_sha256="a" * 64,
+        attempts=[_attempt()],
+        tool_events=[],
+        session_chain_ok=True,
+        isolation_ok=True,
+        future_text_absent=True,
+    )
+    result[field] = bad_value
+    result["result_sha256"] = contracts.canonical_sha256({
+        key: value for key, value in result.items()
+        if key != "result_sha256"
+    })
+
+    with pytest.raises(ValueError, match="provenance|integrity|run_mode"):
+        contracts.validate_stage_result(result, request)
 
 
 def test_cheap_openrouter_result_rejects_flagship_returned_provider(episode):
@@ -561,7 +716,7 @@ def test_cheap_openrouter_result_rejects_flagship_returned_provider(episode):
     result = contracts.build_stage_result(
         request,
         run_mode="openrouter",
-        returned_provider_model_id="openai/gpt-5-nano",
+        returned_provider_model_id="openai/gpt-5-nano-2025-08-07",
         returned_provider_name="OpenAI",
         session_id=None,
         transport_request_sha256="a" * 64,
@@ -577,6 +732,39 @@ def test_cheap_openrouter_result_rejects_flagship_returned_provider(episode):
     assert "provider_identity" in result["integrity"]["violations"]
     assert result["integrity"]["measurement_ready"] is False
     assert contracts.validate_stage_result(result, request) == result
+
+
+@pytest.mark.parametrize("returned_model", [
+    "openai/gpt-5-nano",
+    "openai/gpt-5-nano-2099-01-01",
+    "openai/gpt-5-mini-2025-08-07",
+])
+def test_cheap_openrouter_result_rejects_unfrozen_returned_model(
+        episode, returned_model):
+    request = contracts.build_stage_request(
+        episode,
+        execution_id=EXECUTION_ID,
+        stage="stage_1",
+        prior_responses={},
+        **_cheap_identity(),
+    )
+    result = contracts.build_stage_result(
+        request,
+        run_mode="openrouter",
+        returned_provider_model_id=returned_model,
+        returned_provider_name="Azure",
+        session_id=None,
+        transport_request_sha256="a" * 64,
+        attempts=[_attempt()],
+        tool_events=[],
+        session_chain_ok=True,
+        isolation_ok=True,
+        future_text_absent=True,
+    )
+
+    assert result["integrity"]["provider_identity_ok"] is False
+    assert result["integrity"]["measurement_ready"] is False
+    assert result["terminal_status"] == "invalidated"
 
 
 def test_mock_result_is_explicitly_not_a_measurement(episode):
@@ -910,14 +1098,16 @@ def test_result_validator_returns_detached_copy(episode):
 
 def _four_stage_run(episode, *, provider="codex", responses=None,
                     execution_id=EXECUTION_ID, session_id=None,
-                    tool_stage=None):
+                    tool_stage=None, request_identity=None, run_mode=None,
+                    returned_provider="OpenAI", returned_model=None):
     responses = responses or {stage: RESPONSE for stage in contracts.STAGES}
     if provider == "codex" and session_id is None:
         session_id = "019f49e3-b7de-7272-9d25-545c82c2674c"
     requests = []
     results = []
     prior = {}
-    identity = _identity(provider, "gpt-5.5")
+    identity = request_identity or _identity(provider, "gpt-5.5")
+    run_mode = run_mode or provider
     for index, stage in enumerate(contracts.STAGES):
         request = contracts.build_stage_request(
             episode,
@@ -944,9 +1134,11 @@ def _four_stage_run(episode, *, provider="codex", responses=None,
         )
         result = contracts.build_stage_result(
             request,
-            run_mode=provider,
-            returned_provider_model_id=request["provider_model_id"],
-            returned_provider_name="OpenAI",
+            run_mode=run_mode,
+            returned_provider_model_id=(
+                returned_model or request["provider_model_id"]
+            ),
+            returned_provider_name=returned_provider,
             session_id=session_id,
             transport_request_sha256=chr(ord("b") + index) * 64,
             attempts=[attempt],
@@ -984,6 +1176,33 @@ def test_complete_openrouter_chain_has_no_invented_session(episode):
     chain = contracts.build_stage_chain(requests, results, episode)
     assert chain["session_id"] is None
     assert chain["measurement_ready"] is True
+
+
+def test_complete_cheap_openrouter_probe_chain_is_never_measurement_ready(
+        episode):
+    requests, results = _four_stage_run(
+        episode,
+        provider="openrouter",
+        session_id=None,
+        request_identity=_cheap_identity(),
+        run_mode="openrouter_probe",
+        returned_provider="Azure",
+        returned_model="openai/gpt-5-nano-2025-08-07",
+    )
+    chain = contracts.build_stage_chain(requests, results, episode)
+
+    assert chain["provenance"] == (
+        "live OpenRouter access probe, NOT a measurement"
+    )
+    assert chain["run_mode"] == "openrouter_probe"
+    assert chain["measurement_ready"] is False
+    assert all(
+        result["integrity"]["measurement_ready"] is False
+        for result in results
+    )
+    assert contracts.validate_stage_chain(
+        chain, requests, results, episode
+    ) == chain
 
 
 def test_unresolved_final_stage_is_structurally_valid_but_not_measurement_ready(

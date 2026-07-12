@@ -1,0 +1,2597 @@
+{
+  "axes": [
+    "action_role",
+    "tool",
+    "operation",
+    "target_kind",
+    "ordinal"
+  ],
+  "cell_diagnostics": [
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "capacity",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "checkpoint",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "notice",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "record",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "capacity",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "notice",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "record",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "checkpoint",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "notice",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "record",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "checkpoint",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "notice",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "record",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "capacity",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "notice",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "record",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "capacity",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "checkpoint",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "notice",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "record",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "capacity",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "notice",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "record",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "capacity",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "checkpoint",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "notice",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "record",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "capacity",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "notice",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "record",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "notice",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "record",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "checkpoint",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "notice",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "record",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "checkpoint",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "notice",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "record",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "checkpoint",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "notice",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "record",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "notice",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "record",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "capacity",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "notice",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "record",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "capacity",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "checkpoint",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "notice",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "record",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "allocate_crew_block",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "schedule_gate_check",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "alert_field_group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "allocate_crew_block",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "revise_ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "schedule_gate_check",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "revise_ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "schedule_gate_check",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "alert_field_group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "allocate_crew_block",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "allocate_crew_block",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "schedule_gate_check",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "alert_field_group",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "allocate_crew_block",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "allocate_crew_block",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "schedule_gate_check",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "alert_field_group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "allocate_crew_block",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "alert_field_group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "revise_ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "revise_ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "schedule_gate_check",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "revise_ledger",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "schedule_gate_check",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "alert_field_group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "revise_ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "schedule_gate_check",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "alert_field_group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "revise_ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "alert_field_group",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "allocate_crew_block",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "revise_ledger",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "alert_field_group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "allocate_crew_block",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "revise_ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "schedule_gate_check",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C1",
+      "level": "0",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C1",
+      "level": "1",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C1",
+      "level": "2",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C1",
+      "level": "3",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C10",
+      "level": "0",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C10",
+      "level": "1",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C10",
+      "level": "2",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C10",
+      "level": "3",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C11",
+      "level": "0",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C11",
+      "level": "1",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C11",
+      "level": "2",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C11",
+      "level": "3",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C12",
+      "level": "0",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C12",
+      "level": "1",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C12",
+      "level": "2",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C12",
+      "level": "3",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C13",
+      "level": "0",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C13",
+      "level": "1",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C13",
+      "level": "2",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C13",
+      "level": "3",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C14",
+      "level": "0",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C14",
+      "level": "1",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C14",
+      "level": "2",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C14",
+      "level": "3",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C15",
+      "level": "0",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C15",
+      "level": "1",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C15",
+      "level": "2",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C15",
+      "level": "3",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C16",
+      "level": "0",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C16",
+      "level": "1",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C16",
+      "level": "2",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C16",
+      "level": "3",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C2",
+      "level": "0",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C2",
+      "level": "1",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C2",
+      "level": "2",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C2",
+      "level": "3",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C3",
+      "level": "0",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C3",
+      "level": "1",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C3",
+      "level": "2",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C3",
+      "level": "3",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C4",
+      "level": "0",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C4",
+      "level": "1",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C4",
+      "level": "2",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C4",
+      "level": "3",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C5",
+      "level": "0",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C5",
+      "level": "1",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C5",
+      "level": "2",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C5",
+      "level": "3",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C6",
+      "level": "0",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C6",
+      "level": "1",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C6",
+      "level": "2",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C6",
+      "level": "3",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C7",
+      "level": "0",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C7",
+      "level": "1",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C7",
+      "level": "2",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C7",
+      "level": "3",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C8",
+      "level": "0",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C8",
+      "level": "1",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C8",
+      "level": "2",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "ordinal",
+      "clause": "C8",
+      "level": "3",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C9",
+      "level": "0",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C9",
+      "level": "1",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C9",
+      "level": "2",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "ordinal",
+      "clause": "C9",
+      "level": "3",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "crew-blocks",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "transfer-gate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "crew-blocks",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "field-group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "operations-ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "transfer-gate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "operations-ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "transfer-gate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "crew-blocks",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "field-group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "crew-blocks",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "transfer-gate",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "crew-blocks",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "field-group",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "crew-blocks",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "transfer-gate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "crew-blocks",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "field-group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "field-group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "operations-ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "operations-ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "transfer-gate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "operations-ledger",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "transfer-gate",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "field-group",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "operations-ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "transfer-gate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "field-group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "operations-ledger",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "crew-blocks",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "field-group",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "operations-ledger",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "crew-blocks",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "field-group",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "operations-ledger",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "transfer-gate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "crew.allocate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "gate.schedule",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "crew.allocate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "field.alert",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "gate.schedule",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "ledger.revise",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "gate.schedule",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "ledger.revise",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "crew.allocate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "field.alert",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "crew.allocate",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "gate.schedule",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "crew.allocate",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "field.alert",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "crew.allocate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "gate.schedule",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "crew.allocate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "field.alert",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "field.alert",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "ledger.revise",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "gate.schedule",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "ledger.revise",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "gate.schedule",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "ledger.revise",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "field.alert",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "gate.schedule",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "ledger.revise",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "field.alert",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "ledger.revise",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "crew.allocate",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "field.alert",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 5
+    },
+    {
+      "absolute_association": 0.1111111111111111,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "ledger.revise",
+      "minus": 5,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "crew.allocate",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "field.alert",
+      "minus": 3,
+      "plus": 4
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "gate.schedule",
+      "minus": 4,
+      "plus": 3
+    },
+    {
+      "absolute_association": 0.14285714285714285,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "ledger.revise",
+      "minus": 4,
+      "plus": 3
+    }
+  ],
+  "cells": 320,
+  "clause_episode_counts": {
+    "C1": 7,
+    "C10": 7,
+    "C11": 7,
+    "C12": 7,
+    "C13": 7,
+    "C14": 9,
+    "C15": 9,
+    "C16": 7,
+    "C2": 7,
+    "C3": 7,
+    "C4": 7,
+    "C5": 9,
+    "C6": 7,
+    "C7": 7,
+    "C8": 9,
+    "C9": 7
+  },
+  "episodes": 30,
+  "max_cell_sign_association": 0.14285714285714285,
+  "max_standalone_adversarial_association": 0.0741519722100494,
+  "maximum_allowed": 0.15,
+  "minimum_clause_episodes": 7,
+  "standalone_adversarial_passed": true,
+  "violations": []
+}

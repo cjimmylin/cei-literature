@@ -1,0 +1,5655 @@
+{
+  "axes": [
+    "effort",
+    "length",
+    "ordinal",
+    "specificity",
+    "tool",
+    "warmth"
+  ],
+  "cells": 384,
+  "coherent_action_axes": [
+    "action_role",
+    "tool",
+    "operation",
+    "target_kind"
+  ],
+  "coherent_action_cells": [
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C1",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C10",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "capacity",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C11",
+      "level": "record",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "capacity",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C12",
+      "level": "record",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C13",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C14",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "capacity",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C15",
+      "level": "record",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "capacity",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C16",
+      "level": "record",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C2",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "capacity",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C3",
+      "level": "record",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "capacity",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C4",
+      "level": "record",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C5",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C6",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "capacity",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C7",
+      "level": "record",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "capacity",
+      "minus": 72,
+      "plus": 78
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "action_role",
+      "clause": "C8",
+      "level": "record",
+      "minus": 78,
+      "plus": 72
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "capacity",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "checkpoint",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "notice",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "action_role",
+      "clause": "C9",
+      "level": "record",
+      "minus": 75,
+      "plus": 75
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C1",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C10",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "assign_capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "assign_review_block",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "commit_record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "patch_casefile",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "reserve_slot",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C11",
+      "level": "update_manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "assign_capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "assign_review_block",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "commit_record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "patch_casefile",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "reserve_slot",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C12",
+      "level": "update_manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C13",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C14",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "assign_capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "assign_review_block",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "commit_record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "patch_casefile",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "reserve_slot",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C15",
+      "level": "update_manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "assign_capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "assign_review_block",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "commit_record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "patch_casefile",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "reserve_slot",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C16",
+      "level": "update_manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C2",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "assign_capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "assign_review_block",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "commit_record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "patch_casefile",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "reserve_slot",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C3",
+      "level": "update_manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "assign_capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "assign_review_block",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "commit_record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "patch_casefile",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "reserve_slot",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C4",
+      "level": "update_manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C5",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C6",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "assign_capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "assign_review_block",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "commit_record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "patch_casefile",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "reserve_slot",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C7",
+      "level": "update_manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "assign_capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "assign_review_block",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "commit_record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "patch_casefile",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "reserve_slot",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "operation",
+      "clause": "C8",
+      "level": "update_manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "assign_capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "assign_review_block",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "book_checkpoint",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "commit_record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "message_case_group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "notify_queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "patch_casefile",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "reserve_slot",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "schedule_huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "schedule_review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "send_notice",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "operation",
+      "clause": "C9",
+      "level": "update_manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C1",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C10",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "case-file",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "review-blocks",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "routing-manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "service-slots",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "shared-record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C11",
+      "level": "work-capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "case-file",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "review-blocks",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "routing-manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "service-slots",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "shared-record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C12",
+      "level": "work-capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C13",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C14",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "case-file",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "review-blocks",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "routing-manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "service-slots",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "shared-record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C15",
+      "level": "work-capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "case-file",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "review-blocks",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "routing-manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "service-slots",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "shared-record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C16",
+      "level": "work-capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C2",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "case-file",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "review-blocks",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "routing-manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "service-slots",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "shared-record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C3",
+      "level": "work-capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "case-file",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "review-blocks",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "routing-manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "service-slots",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "shared-record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C4",
+      "level": "work-capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C5",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C6",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "case-file",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "review-blocks",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "routing-manifest",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "service-slots",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "shared-record",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C7",
+      "level": "work-capacity",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "case-file",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "review-blocks",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "routing-manifest",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "service-slots",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "shared-record",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "target_kind",
+      "clause": "C8",
+      "level": "work-capacity",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "audience-channel",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "case-file",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "case-group",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "control-review",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "dispatch-queue",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "receiving-huddle",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "review-blocks",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "review-window",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "routing-manifest",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "service-slots",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "shared-record",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "target_kind",
+      "clause": "C9",
+      "level": "work-capacity",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C1",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C10",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C13",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C14",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C2",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C5",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C6",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.04,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "capacity.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "case.message",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "casefile.patch",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "checkpoint.book",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "dispatch.notify",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "huddle.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "manifest.update",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "notice.send",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "record.commit",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "review.assign",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "review.schedule",
+      "minus": 25,
+      "plus": 25
+    },
+    {
+      "absolute_association": 0.0,
+      "axis": "tool",
+      "clause": "C9",
+      "level": "slot.reserve",
+      "minus": 25,
+      "plus": 25
+    }
+  ],
+  "imbalanced_cells": [
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C11",
+      "level": "0",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C11",
+      "level": "1",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C12",
+      "level": "0",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C12",
+      "level": "1",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C15",
+      "level": "0",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C15",
+      "level": "1",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C16",
+      "level": "0",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C16",
+      "level": "1",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C3",
+      "level": "0",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C3",
+      "level": "1",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C4",
+      "level": "0",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C4",
+      "level": "1",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C7",
+      "level": "0",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C7",
+      "level": "1",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C8",
+      "level": "0",
+      "minus": 74,
+      "plus": 76
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "ordinal",
+      "clause": "C8",
+      "level": "1",
+      "minus": 76,
+      "plus": 74
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C11",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C12",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C15",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C16",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C3",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C4",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "capacity.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "casefile.patch",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "manifest.update",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "record.commit",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "review.assign",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C7",
+      "level": "slot.reserve",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "capacity.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "casefile.patch",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "manifest.update",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "record.commit",
+      "minus": 26,
+      "plus": 24
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "review.assign",
+      "minus": 24,
+      "plus": 26
+    },
+    {
+      "absolute_imbalance": 2,
+      "axis": "tool",
+      "clause": "C8",
+      "level": "slot.reserve",
+      "minus": 24,
+      "plus": 26
+    }
+  ],
+  "max_absolute_sign_imbalance": 2,
+  "max_coherent_action_sign_association": 0.04
+}

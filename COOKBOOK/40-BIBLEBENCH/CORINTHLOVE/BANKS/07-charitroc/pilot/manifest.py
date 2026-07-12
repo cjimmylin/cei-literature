@@ -23,13 +23,21 @@ from yaml.resolver import BaseResolver
 MODULE_DIR = Path(__file__).resolve().parent
 PANEL_PATH = MODULE_DIR / "panel_manifest.json"
 CHEAP_PANEL_PATH = MODULE_DIR / "cheap_panel_manifest.json"
+GPT54_MINI_PANEL_PATH = MODULE_DIR / "gpt54_mini_panel_manifest.json"
 RESPONSE_SCHEMA_PATH = MODULE_DIR / "response_schema.json"
+PUBLIC_SEEDS_PATH = MODULE_DIR.parent / "seeds_public.yaml"
 
 MODEL_LOGICAL_IDS = ("gpt-5.5", "gpt-5.4", "gpt-5.4-mini")
 CHEAP_MODEL_LOGICAL_IDS = ("gpt-5-nano", "gpt-5.4-nano", "gpt-5-mini")
+GPT54_MINI_MODEL_LOGICAL_IDS = ("gpt-5.4-mini",)
 FLAGSHIP_PROFILE_ID = "flagship-v1"
 CHEAP_PROFILE_ID = "cheap-azure-v1"
+GPT54_MINI_PROFILE_ID = "gpt54-mini-azure-v1"
+QUALIFICATION_PROFILE_IDS = (CHEAP_PROFILE_ID, GPT54_MINI_PROFILE_ID)
 CHEAP_PANEL_MANIFEST_VERSION = "charitroc-openrouter-cheap-panel-v1"
+GPT54_MINI_PANEL_MANIFEST_VERSION = (
+    "charitroc-openrouter-gpt54-mini-panel-v1"
+)
 BANK_GENERATION_SEED = 20260709
 PANEL_MANIFEST_VERSION = "charitroc-codex-openrouter-panel-v1"
 SAMPLE_MANIFEST_VERSION = "charitroc-sample-plan-v1"
@@ -134,6 +142,26 @@ CHEAP_PRICE_CEILINGS = {
     "gpt-5-nano": {"input": 0.05, "output": 0.40},
     "gpt-5.4-nano": {"input": 0.20, "output": 1.25},
     "gpt-5-mini": {"input": 0.25, "output": 2.00},
+}
+CHEAP_EXPECTED_RETURNED_PROVIDER_MODEL_IDS = {
+    "gpt-5-nano": ["openai/gpt-5-nano-2025-08-07"],
+    "gpt-5.4-nano": ["openai/gpt-5.4-nano-20260317"],
+    "gpt-5-mini": ["openai/gpt-5-mini-2025-08-07"],
+}
+GPT54_MINI_EXPECTED_RETURNED_PROVIDER_MODEL_IDS = {
+    "gpt-5.4-mini": ["openai/gpt-5.4-mini-20260317"],
+}
+GPT54_MINI_PRICE_CEILINGS = {
+    "gpt-5.4-mini": {"input": 0.75, "output": 4.50},
+}
+CHEAP_ACCESS_PROBE_TURNS = {
+    "stage_1": (
+        "Model-access compatibility probe. No benchmark case is present. "
+        "Return a brief canonical JSON response using UNCERTAIN and VERIFY."
+    ),
+    "stage_2": "Unused access continuation two.",
+    "stage_3": "Unused access continuation three.",
+    "stage_4": "Unused access continuation four.",
 }
 EXPECTED_RESPONSE_SCHEMA = {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -419,11 +447,16 @@ def _validate_cheap_panel(panel):
     for row in models:
         if set(row) != {
                 "logical_model_id", "provider_model_id", "configuration_id",
+                "expected_returned_provider_model_ids",
                 "price_ceiling_usd_per_million_tokens"}:
             raise ValueError("cheap panel model keys are not exact")
         logical = row["logical_model_id"]
         if row["provider_model_id"] != f"openai/{logical}":
             raise ValueError("cheap panel provider model slug mismatch")
+        returned_models = row["expected_returned_provider_model_ids"]
+        if returned_models != CHEAP_EXPECTED_RETURNED_PROVIDER_MODEL_IDS[
+                logical]:
+            raise ValueError("cheap panel returned model snapshots mismatch")
         expected_configuration = (
             f"openrouter-azure-{logical}-medium-no-fallback-zdr"
         )
@@ -462,6 +495,157 @@ def cheap_panel_sha256(path=None):
     return load_cheap_panel(path)["profile_sha256"]
 
 
+def _validate_gpt54_mini_panel(panel):
+    """Validate the isolated GPT-5.4-mini Azure profile exactly."""
+    if type(panel) is not dict or set(panel) != {
+            "manifest_version", "profile_id", "immutable", "purpose",
+            "catalog_snapshot_utc", "command_allowlist",
+            "required_parameters", "minimum_context_length",
+            "eligible_endpoint_policy", "reasoning_effort",
+            "expected_returned_provider", "routing_policy", "models",
+            "profile_sha256"}:
+        raise ValueError("GPT-5.4-mini panel must use exact frozen keys")
+    fixed = {
+        "manifest_version": GPT54_MINI_PANEL_MANIFEST_VERSION,
+        "profile_id": GPT54_MINI_PROFILE_ID,
+        "immutable": True,
+        "purpose": "qualification-only",
+        "catalog_snapshot_utc": CHEAP_CATALOG_SNAPSHOT_UTC,
+        "command_allowlist": list(CHEAP_COMMAND_ALLOWLIST),
+        "required_parameters": list(OPENROUTER_REQUIRED_PARAMETERS),
+        "minimum_context_length": CHEAP_MINIMUM_CONTEXT_LENGTH,
+        "eligible_endpoint_policy": CHEAP_ELIGIBLE_ENDPOINT_POLICY,
+        "reasoning_effort": "medium",
+        "expected_returned_provider": "Azure",
+        "routing_policy": CHEAP_OPENROUTER_WIRE_ROUTING_POLICY,
+    }
+    for key, expected in fixed.items():
+        if panel.get(key) != expected:
+            raise ValueError(f"GPT-5.4-mini panel frozen {key} mismatch")
+
+    models = panel.get("models")
+    if (
+        type(models) is not list
+        or len(models) != 1
+        or any(type(row) is not dict for row in models)
+        or [row.get("logical_model_id") for row in models]
+        != list(GPT54_MINI_MODEL_LOGICAL_IDS)
+    ):
+        raise ValueError("GPT-5.4-mini panel model list mismatch")
+    row = models[0]
+    if set(row) != {
+            "logical_model_id", "provider_model_id", "configuration_id",
+            "expected_returned_provider_model_ids",
+            "price_ceiling_usd_per_million_tokens"}:
+        raise ValueError("GPT-5.4-mini panel model keys are not exact")
+    logical = row["logical_model_id"]
+    if row["provider_model_id"] != "openai/gpt-5.4-mini":
+        raise ValueError("GPT-5.4-mini panel provider alias mismatch")
+    if row["expected_returned_provider_model_ids"] != (
+            GPT54_MINI_EXPECTED_RETURNED_PROVIDER_MODEL_IDS[logical]):
+        raise ValueError("GPT-5.4-mini returned snapshot mismatch")
+    if row["configuration_id"] != (
+            "openrouter-azure-gpt-5.4-mini-medium-no-fallback-zdr"):
+        raise ValueError("GPT-5.4-mini configuration identity mismatch")
+    prices = row["price_ceiling_usd_per_million_tokens"]
+    if (
+        type(prices) is not dict
+        or set(prices) != {"input", "output"}
+        or prices != GPT54_MINI_PRICE_CEILINGS[logical]
+        or any(type(value) is not float or value <= 0
+               for value in prices.values())
+    ):
+        raise ValueError("GPT-5.4-mini frozen price ceiling mismatch")
+
+    profile_hash = panel.get("profile_sha256")
+    if type(profile_hash) is not str or re.fullmatch(
+            r"[0-9a-f]{64}", profile_hash) is None:
+        raise ValueError("GPT-5.4-mini profile hash must be SHA-256")
+    projection = {
+        key: value for key, value in panel.items()
+        if key != "profile_sha256"
+    }
+    if profile_hash != canonical_sha256(projection):
+        raise ValueError("GPT-5.4-mini profile hash mismatch")
+    return panel
+
+
+def load_gpt54_mini_panel(path=None):
+    """Load the immutable one-model GPT-5.4-mini Azure profile."""
+    return _validate_gpt54_mini_panel(
+        _read_json(path or GPT54_MINI_PANEL_PATH)
+    )
+
+
+def load_qualification_panel(profile_id):
+    """Load one exact public-only qualification profile."""
+    if profile_id == CHEAP_PROFILE_ID:
+        return load_cheap_panel()
+    if profile_id == GPT54_MINI_PROFILE_ID:
+        return load_gpt54_mini_panel()
+    raise ValueError("qualification profile_id is not frozen")
+
+
+def qualification_panel_sha256(profile_id):
+    """Return the hash bound inside one qualification profile."""
+    return load_qualification_panel(profile_id)["profile_sha256"]
+
+
+def validate_public_qualification_episode(episode, *, purpose):
+    """Bind a live cheap run to one exact row in the public seed bank."""
+    if type(purpose) is not str or purpose not in {"canary", "smoke"}:
+        raise ValueError("public qualification purpose must be canary or smoke")
+    if type(episode) is not dict or episode.get("split") != "public":
+        raise ValueError("qualification episode must be an exact public row")
+    rows = _read_yaml(PUBLIC_SEEDS_PATH)
+    if (
+        type(rows) is not list
+        or len(rows) != 12
+        or any(type(row) is not dict or row.get("split") != "public"
+               for row in rows)
+        or len({row.get("id") for row in rows}) != len(rows)
+    ):
+        raise ValueError("canonical public qualification bank is invalid")
+    candidate = _canonical_bytes(episode)
+    matches = [
+        row for row in rows if _canonical_bytes(row) == candidate
+    ]
+    if len(matches) != 1:
+        raise ValueError(
+            "qualification episode must canonical-byte match one public row"
+        )
+    return deepcopy(matches[0])
+
+
+def build_cheap_access_probe(
+        logical_model_id, *, profile_id=CHEAP_PROFILE_ID):
+    """Build the one canonical non-bank access probe for a cheap model."""
+    panel = load_qualification_panel(profile_id)
+    logical_model_ids = tuple(
+        row["logical_model_id"] for row in panel["models"]
+    )
+    if type(logical_model_id) is not str or logical_model_id not in (
+            logical_model_ids):
+        raise ValueError("access probe requires an exact cheap logical model")
+    model_index = logical_model_ids.index(logical_model_id) + 1
+    return {
+        "id": f"CHEAP-ACCESS-{model_index:02d}-{logical_model_id}",
+        "multiturn_script": deepcopy(CHEAP_ACCESS_PROBE_TURNS),
+    }
+
+
+def validate_cheap_access_probe(
+        probe, *, logical_model_id, profile_id=CHEAP_PROFILE_ID):
+    """Validate exact probe identity, model order, and all four turns."""
+    expected = build_cheap_access_probe(
+        logical_model_id, profile_id=profile_id
+    )
+    if type(probe) is not dict or _canonical_bytes(probe) != _canonical_bytes(
+            expected):
+        raise ValueError("cheap access probe is not canonical for this model")
+    return deepcopy(expected)
+
+
 def resolve_openrouter_identity(
         logical_model_id, profile_id=FLAGSHIP_PROFILE_ID):
     """Resolve one exact OpenRouter identity and its immutable route policy."""
@@ -484,6 +668,9 @@ def resolve_openrouter_identity(
             "provider_model_id": provider["provider_model_id"],
             "configuration_id": provider["configuration_id"],
             "expected_returned_provider": "OpenAI",
+            "expected_returned_provider_model_ids": [
+                provider["provider_model_id"]
+            ],
             "reasoning_effort": model["reasoning_effort"],
             "eligible_endpoint_policy": "exactly_one",
             "required_parameters": list(OPENROUTER_REQUIRED_PARAMETERS),
@@ -493,16 +680,18 @@ def resolve_openrouter_identity(
                 FLAGSHIP_OPENROUTER_WIRE_ROUTING_POLICY
             ),
         }
-    if profile_id == CHEAP_PROFILE_ID:
-        panel = load_cheap_panel()
+    if profile_id in QUALIFICATION_PROFILE_IDS:
+        panel = load_qualification_panel(profile_id)
         model = next((
             row for row in panel["models"]
             if row["logical_model_id"] == logical_model_id
         ), None)
         if model is None:
-            raise ValueError("logical model is not in the frozen cheap profile")
+            raise ValueError(
+                "logical model is not in the frozen qualification profile"
+            )
         return {
-            "profile_id": CHEAP_PROFILE_ID,
+            "profile_id": profile_id,
             "profile_sha256": panel["profile_sha256"],
             "provider": "openrouter",
             "logical_model_id": logical_model_id,
@@ -511,6 +700,9 @@ def resolve_openrouter_identity(
             "expected_returned_provider": panel[
                 "expected_returned_provider"
             ],
+            "expected_returned_provider_model_ids": deepcopy(model[
+                "expected_returned_provider_model_ids"
+            ]),
             "reasoning_effort": panel["reasoning_effort"],
             "eligible_endpoint_policy": panel[
                 "eligible_endpoint_policy"
@@ -523,6 +715,42 @@ def resolve_openrouter_identity(
             "routing_policy": deepcopy(panel["routing_policy"]),
         }
     raise ValueError("OpenRouter profile_id is not frozen")
+
+
+def frozen_identity_profile(identity_tuple):
+    """Return the frozen profile owning one exact provider identity tuple."""
+    if type(identity_tuple) is not tuple or len(identity_tuple) != 4 or any(
+            type(value) is not str or not value for value in identity_tuple):
+        raise ValueError("provider identity must be an exact four-string tuple")
+
+    identities = {}
+    panel = load_panel()
+    for row in panel["models"]:
+        logical = row["logical_model_id"]
+        for provider_name, provider in row["providers"].items():
+            identity = (
+                provider_name, logical, provider["provider_model_id"],
+                provider["configuration_id"],
+            )
+            if identity in identities:
+                raise ValueError("frozen identity profiles overlap")
+            identities[identity] = FLAGSHIP_PROFILE_ID
+
+    for profile_id in QUALIFICATION_PROFILE_IDS:
+        panel = load_qualification_panel(profile_id)
+        for row in panel["models"]:
+            identity = (
+                "openrouter", row["logical_model_id"],
+                row["provider_model_id"], row["configuration_id"],
+            )
+            if identity in identities:
+                raise ValueError("frozen identity profiles overlap")
+            identities[identity] = profile_id
+
+    try:
+        return identities[identity_tuple]
+    except KeyError:
+        raise ValueError("provider identity tuple is not frozen") from None
 
 
 def expected_returned_provider(identity_tuple):
@@ -540,15 +768,49 @@ def expected_returned_provider(identity_tuple):
                 provider["configuration_id"],
             )
             identities[identity] = "OpenAI"
-    cheap = load_cheap_panel()
-    for row in cheap["models"]:
-        identity = (
-            "openrouter", row["logical_model_id"],
-            row["provider_model_id"], row["configuration_id"],
-        )
-        if identity in identities:
-            raise ValueError("cheap and flagship frozen identities overlap")
-        identities[identity] = cheap["expected_returned_provider"]
+    for profile_id in QUALIFICATION_PROFILE_IDS:
+        panel = load_qualification_panel(profile_id)
+        for row in panel["models"]:
+            identity = (
+                "openrouter", row["logical_model_id"],
+                row["provider_model_id"], row["configuration_id"],
+            )
+            if identity in identities:
+                raise ValueError("frozen identity profiles overlap")
+            identities[identity] = panel["expected_returned_provider"]
+    try:
+        return identities[identity_tuple]
+    except KeyError:
+        raise ValueError("provider identity tuple is not frozen") from None
+
+
+def expected_returned_provider_model_ids(identity_tuple):
+    """Return exact provider model IDs bound to a frozen request identity."""
+    if type(identity_tuple) is not tuple or len(identity_tuple) != 4 or any(
+            type(value) is not str or not value for value in identity_tuple):
+        raise ValueError("provider identity must be an exact four-string tuple")
+    identities = {}
+    panel = load_panel()
+    for row in panel["models"]:
+        logical = row["logical_model_id"]
+        for provider_name, provider in row["providers"].items():
+            identity = (
+                provider_name, logical, provider["provider_model_id"],
+                provider["configuration_id"],
+            )
+            identities[identity] = [provider["provider_model_id"]]
+    for profile_id in QUALIFICATION_PROFILE_IDS:
+        panel = load_qualification_panel(profile_id)
+        for row in panel["models"]:
+            identity = (
+                "openrouter", row["logical_model_id"],
+                row["provider_model_id"], row["configuration_id"],
+            )
+            if identity in identities:
+                raise ValueError("frozen identity profiles overlap")
+            identities[identity] = deepcopy(
+                row["expected_returned_provider_model_ids"]
+            )
     try:
         return identities[identity_tuple]
     except KeyError:

@@ -1,0 +1,21 @@
+{
+  "accepted": 630,
+  "coherent_action_max_sign_association": 0.04,
+  "cue_max_absolute_sign_imbalance": 2,
+  "exact_phrase_decoder_accuracy": 0.5675,
+  "generation_seed_sha256": "39d9011a583494d5ef8ec9aa82194cb17126ffff13746b4cf8da27532edf19c0",
+  "heldout_lexical_predictability": 0.5,
+  "information_rank": 15,
+  "private": 600,
+  "private_visible_surface_sha256": "b72f5f68b1f60864d03520d6ca9afd2bda2931a9a5c34de3face08a672c02e84",
+  "provenance": "generated question bank; no live model measurements",
+  "public": 30,
+  "public_cue_max_cell_association": 0.14285714285714285,
+  "public_standalone_max_association": 0.0741519722100494,
+  "public_visible_surface_sha256": "f600895e32b37cf60ebe1830e299723c8fec75598e0f0234b1d4ac0a16064f7e",
+  "rejected": 40,
+  "scenario_assignment_sha256": "116b52f9ebbc34f8a133ba651a8d2d636a83a4aa220b27485f235dd658efef23",
+  "split_max_containment": 0.14324324324324325,
+  "stated_pairs": 60,
+  "structures": 40
+}

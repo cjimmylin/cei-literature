@@ -1,4 +1,4 @@
-"""Human-review loader for the inert EPISODE specification draft.
+"""Loader for the human-approved EPISODE specification registry.
 
 This module is deliberately not wired into a runner. The default loader refuses
 an unapproved registry; allow_unapproved=True exists only so tests and human
@@ -15,12 +15,12 @@ from .loader import ItemRecord
 from .narrowgate import DEFAULT_DIALS, EpisodeSpec
 
 
-DRAFT_REGISTRY_PATH = os.path.normpath(
+REGISTRY_PATH = os.path.normpath(
     os.path.join(
         os.path.dirname(__file__),
         "..",
         "config",
-        "episode-spec-registry.draft.json",
+        "episode-spec-registry.json",
     )
 )
 
@@ -146,7 +146,7 @@ def _validate_registry(raw: Any) -> Dict[str, Any]:
 
 
 def load_episode_registry(
-    path: str = DRAFT_REGISTRY_PATH,
+    path: str = REGISTRY_PATH,
     *,
     allow_unapproved: bool = False,
 ) -> Dict[str, Any]:

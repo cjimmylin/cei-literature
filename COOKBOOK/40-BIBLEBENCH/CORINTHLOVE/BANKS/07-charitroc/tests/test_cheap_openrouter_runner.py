@@ -1,8 +1,10 @@
 """Offline qualification-runner tests for CHARITROC's cheap OpenRouter panel."""
 from __future__ import annotations
 
+import base64
 from copy import deepcopy
 from datetime import datetime, timedelta, timezone
+import hashlib
 import json
 from pathlib import Path
 import shutil
@@ -19,6 +21,12 @@ from pilot import run_cheap_openrouter as cheap
 BANK = Path(__file__).resolve().parents[1]
 MOCK_PROVENANCE = "harness validation, NOT a measurement"
 CHEAP_MODELS = ("gpt-5-nano", "gpt-5.4-nano", "gpt-5-mini")
+EXPECTED_RETURNED_MODEL_IDS = {
+    "gpt-5-nano": "openai/gpt-5-nano-2025-08-07",
+    "gpt-5.4-nano": "openai/gpt-5.4-nano-20260317",
+    "gpt-5-mini": "openai/gpt-5-mini-2025-08-07",
+    "gpt-5.4-mini": "openai/gpt-5.4-mini-20260317",
+}
 REQUIRED_PARAMETERS = {
     "max_completion_tokens", "reasoning", "response_format",
     "structured_outputs",
@@ -42,8 +50,12 @@ class FakeCatalog:
 
     def __call__(self, provider_model_id):
         self.calls.append(provider_model_id)
+        logical_model_id = provider_model_id.removeprefix("openai/")
         endpoint = {
-            "name": "Azure exact endpoint",
+            "name": (
+                "Azure | "
+                f"{EXPECTED_RETURNED_MODEL_IDS[logical_model_id]}"
+            ),
             "provider_name": "Azure",
             "context_length": 400000,
             "supported_parameters": sorted(REQUIRED_PARAMETERS),
@@ -71,16 +83,33 @@ def _response(intent, decision, reason="Fixture response."):
     }, separators=(",", ":"))
 
 
+def test_runner_credential_scan_allows_embedded_ciphertext_token_fragment():
+    cheap._assert_no_credentials({
+        "encrypted_reasoning": "prefixsk-abcdefghijklmnop",
+    })
+
+
+@pytest.mark.parametrize("secret", [
+    "sk-or-v1-abcdefghijklmnop",
+    "rk-live-abcdefghijklmnop",
+    "Bearer opaque-credential-value",
+])
+def test_runner_credential_scan_rejects_standalone_common_secrets(secret):
+    with pytest.raises(ValueError, match="credential"):
+        cheap._assert_no_credentials({"provider_payload": secret})
+
+
 class FakeCheapDriver:
     """Explicit mock dependency emitting real validated stage contracts."""
 
     def __init__(
             self, sidecar, *, crash_calls=(), crash_after_stages=(),
-            fail_calls=()):
+            fail_calls=(), returned_model_ids=None):
         self.sidecar = deepcopy(sidecar)
         self.crash_calls = set(crash_calls)
         self.crash_after_stages = set(crash_after_stages)
         self.fail_calls = set(fail_calls)
+        self.returned_model_ids = dict(returned_model_ids or {})
         self.calls = []
         self.stage_calls = []
 
@@ -194,7 +223,10 @@ class FakeCheapDriver:
             result = contracts.build_stage_result(
                 request,
                 run_mode="mock",
-                returned_provider_model_id=identity["provider_model_id"],
+                returned_provider_model_id=self.returned_model_ids.get(
+                    logical_model_id,
+                    EXPECTED_RETURNED_MODEL_IDS[logical_model_id],
+                ),
                 returned_provider_name=returned_provider,
                 session_id=None,
                 transport_request_sha256=contracts.canonical_sha256(descriptor),
@@ -248,7 +280,8 @@ def sidecar():
 
 
 def _runner(
-        tmp_path, sidecar, *, driver=None, catalog=None, bank_root=BANK):
+        tmp_path, sidecar, *, driver=None, catalog=None, bank_root=BANK,
+        profile_id=manifest.CHEAP_PROFILE_ID):
     return cheap.CheapOpenRouterQualificationRunner(
         bank_root=bank_root,
         out_dir=tmp_path / "qualification",
@@ -256,6 +289,7 @@ def _runner(
         driver=driver or FakeCheapDriver(sidecar),
         catalog_loader=catalog or FakeCatalog(),
         clock=TickClock(),
+        profile_id=profile_id,
     )
 
 
@@ -283,6 +317,60 @@ def test_runner_binds_root_to_exact_qualification_profile(tmp_path, sidecar):
     assert metadata["provider"] == "openrouter"
     assert metadata["provenance"] == MOCK_PROVENANCE
     assert "sidecar" not in json.dumps(metadata).lower()
+
+
+def test_gpt54_mini_profile_completes_public_smoke_report_and_all_verify(
+        tmp_path, sidecar):
+    runner = _runner(
+        tmp_path,
+        sidecar,
+        profile_id=manifest.GPT54_MINI_PROFILE_ID,
+    )
+    metadata = json.loads((runner.out_dir / "run_metadata.json").read_text())
+
+    assert metadata["profile_id"] == manifest.GPT54_MINI_PROFILE_ID
+    assert metadata["profile_sha256"] == (
+        manifest.qualification_panel_sha256(
+            manifest.GPT54_MINI_PROFILE_ID
+        )
+    )
+    assert metadata["logical_model_ids"] == ["gpt-5.4-mini"]
+    assert metadata["provider_model_ids"] == ["openai/gpt-5.4-mini"]
+
+    access = runner.access()
+    canary = runner.canary()
+    smoke = runner.smoke()
+    report = runner.report()
+    verified = runner.verify("all")
+
+    assert access["models"] == ["gpt-5.4-mini"]
+    assert len(access["probes"]) == 1
+    assert access["probes"][0]["logical_model_id"] == "gpt-5.4-mini"
+    assert canary["model_episode_count"] == 4
+    assert smoke["model_episode_count"] == 12
+    assert smoke["reused_canary_model_episode_count"] == 4
+    assert report["profile_id"] == manifest.GPT54_MINI_PROFILE_ID
+    assert set(report["model_reports"]) == {"gpt-5.4-mini"}
+    assert report["public_episode_count_per_model"] == 12
+    assert report["between_model_ranges"]["empirical_auc"]["range"] == 0.0
+    assert verified["valid"] is True
+    assert verified["profile_id"] == manifest.GPT54_MINI_PROFILE_ID
+
+
+def test_runner_rejects_arbitrary_qualification_profile_before_artifacts(
+        tmp_path, sidecar):
+    out = tmp_path / "unfrozen"
+    with pytest.raises(ValueError, match="qualification|profile|frozen"):
+        cheap.CheapOpenRouterQualificationRunner(
+            bank_root=BANK,
+            out_dir=out,
+            run_mode="mock",
+            driver=FakeCheapDriver(sidecar),
+            catalog_loader=FakeCatalog(),
+            clock=TickClock(),
+            profile_id="unfrozen-profile",
+        )
+    assert not out.exists()
 
 
 def test_root_binds_public_scoring_projection_and_scorer_contracts(
@@ -360,6 +448,99 @@ def test_live_rejects_every_injected_dependency(tmp_path, sidecar):
             )
 
 
+def test_live_dispatches_access_and_public_qualification_to_dedicated_apis(
+        tmp_path, monkeypatch):
+    monkeypatch.setenv("OPENROUTER_API_KEY", "runner-test-key")
+    runner = cheap.CheapOpenRouterQualificationRunner(
+        bank_root=BANK,
+        out_dir=tmp_path / "live",
+        run_mode="live",
+    )
+    calls = []
+    before_stage = lambda _event: None
+    stage_sink = lambda _event: None
+
+    def access_api(
+            *, logical_model_id, api_key, before_stage, stage_sink,
+            profile_id):
+        calls.append((
+            "access", logical_model_id, api_key, before_stage, stage_sink,
+            profile_id,
+        ))
+        return {"dedicated": "access"}
+
+    def qualification_api(
+            episode, *, logical_model_id, purpose, api_key,
+            before_stage, stage_sink, profile_id):
+        calls.append((
+            purpose, episode["id"], logical_model_id, api_key,
+            before_stage, stage_sink, profile_id,
+        ))
+        return {"dedicated": purpose}
+
+    monkeypatch.setattr(
+        cheap.openrouter_driver, "run_live_access_probe", access_api
+    )
+    monkeypatch.setattr(
+        cheap.openrouter_driver,
+        "run_live_cheap_qualification_episode",
+        qualification_api,
+    )
+    model = CHEAP_MODELS[0]
+    probe = manifest.build_cheap_access_probe(model)
+    public = runner.public_episodes[0]
+
+    assert runner._call_driver(
+        probe, model, purpose="access",
+        before_stage=before_stage, stage_sink=stage_sink,
+    ) == {"dedicated": "access"}
+    assert runner._call_driver(
+        public, model, purpose="canary",
+        before_stage=before_stage, stage_sink=stage_sink,
+    ) == {"dedicated": "canary"}
+    assert runner._call_driver(
+        public, model, purpose="smoke",
+        before_stage=before_stage, stage_sink=stage_sink,
+    ) == {"dedicated": "smoke"}
+    assert calls == [
+        (
+            "access", model, "runner-test-key", before_stage, stage_sink,
+            manifest.CHEAP_PROFILE_ID,
+        ),
+        (
+            "canary", public["id"], model, "runner-test-key",
+            before_stage, stage_sink, manifest.CHEAP_PROFILE_ID,
+        ),
+        (
+            "smoke", public["id"], model, "runner-test-key",
+            before_stage, stage_sink, manifest.CHEAP_PROFILE_ID,
+        ),
+    ]
+
+
+def test_mock_dispatch_keeps_explicit_fake_run_episode(
+        tmp_path, sidecar, monkeypatch):
+    driver = FakeCheapDriver(sidecar)
+    runner = _runner(tmp_path, sidecar, driver=driver)
+    monkeypatch.setattr(
+        cheap.openrouter_driver,
+        "run_live_cheap_qualification_episode",
+        lambda *_args, **_kwargs: pytest.fail("mock reached live API"),
+    )
+
+    run = runner._call_driver(
+        runner.public_episodes[0], CHEAP_MODELS[0], purpose="canary",
+        before_stage=None, stage_sink=None,
+    )
+
+    assert run["status"] == "complete"
+    assert driver.calls == [(
+        runner.public_episodes[0]["id"],
+        CHEAP_MODELS[0],
+        manifest.CHEAP_PROFILE_ID,
+    )]
+
+
 def test_mock_requires_explicit_driver_and_catalog_loader(tmp_path):
     with pytest.raises(ValueError, match="mock.*driver"):
         cheap.CheapOpenRouterQualificationRunner(
@@ -395,13 +576,24 @@ def test_catalog_preflight_uses_each_exact_endpoint_and_runs_before_calls(
     ]
     assert all(row["eligible_azure_endpoint_count"] == 1
                for row in report["models"])
+    for row in report["models"]:
+        assert row["eligible_azure_endpoints"] == [{
+            "catalog_endpoint_index": 0,
+            "provider_name": "Azure",
+            "returned_provider_model_id": EXPECTED_RETURNED_MODEL_IDS[
+                row["logical_model_id"]
+            ],
+            "context_length": 400000,
+            "required_parameters_present": sorted(REQUIRED_PARAMETERS),
+            "input_usd_per_million_tokens": "0.01",
+            "output_usd_per_million_tokens": "0.1",
+        }]
 
 
 def test_catalog_preflight_allows_multiple_individually_eligible_azure_endpoints(
         tmp_path, sidecar):
     def duplicate(payload, _model):
         second = deepcopy(payload["data"]["endpoints"][0])
-        second["name"] = "second exact Azure endpoint"
         payload["data"]["endpoints"].append(second)
 
     runner = _runner(tmp_path, sidecar, catalog=FakeCatalog(mutate=duplicate))
@@ -409,6 +601,44 @@ def test_catalog_preflight_allows_multiple_individually_eligible_azure_endpoints
 
     assert [row["eligible_azure_endpoint_count"]
             for row in report["models"]] == [2, 2, 2]
+
+
+@pytest.mark.parametrize("name", [
+    "Azure exact endpoint",
+    "Azure | openai/gpt-5-nano",
+    "Azure | openai/gpt-5-nano-2025-08-07-substitute",
+])
+def test_catalog_preflight_rejects_nonexact_snapshot_endpoint_names(
+        tmp_path, sidecar, name):
+    def substitute(payload, provider_model_id):
+        if provider_model_id == "openai/gpt-5-nano":
+            payload["data"]["endpoints"][0]["name"] = name
+
+    runner = _runner(
+        tmp_path, sidecar, catalog=FakeCatalog(mutate=substitute)
+    )
+
+    with pytest.raises(ValueError, match="eligible|snapshot|endpoint"):
+        runner.preflight_catalog()
+
+
+def test_persisted_catalog_rejects_rehashed_snapshot_substitution(
+        tmp_path, sidecar):
+    runner = _runner(tmp_path, sidecar)
+    runner.preflight_catalog()
+    path = runner.out_dir / "catalog/preflight.json"
+    report = json.loads(path.read_text())
+    report["models"][0]["eligible_azure_endpoints"][0][
+        "returned_provider_model_id"
+    ] = "openai/gpt-5-nano-substitute"
+    report["catalog_preflight_sha256"] = contracts.canonical_sha256({
+        key: value for key, value in report.items()
+        if key != "catalog_preflight_sha256"
+    })
+    path.write_text(json.dumps(report), encoding="utf-8")
+
+    with pytest.raises(ValueError, match="catalog|endpoint|snapshot"):
+        runner._validate_catalog_artifact()
 
 
 def test_persisted_catalog_projection_is_semantically_revalidated(
@@ -491,6 +721,431 @@ def test_access_is_nonbank_one_stage_per_model_with_durable_journal(
         "started", "succeeded", "started", "succeeded", "started", "succeeded",
     ]
     assert runner.verify("access")["valid"] is True
+
+
+def test_live_access_readiness_requires_exact_probe_provenance_and_false_measurement(
+        tmp_path):
+    runner = cheap.CheapOpenRouterQualificationRunner(
+        bank_root=BANK,
+        out_dir=tmp_path / "live-access",
+        run_mode="live",
+    )
+    model = CHEAP_MODELS[0]
+    identity = runner.identities[model]
+    probe = manifest.build_cheap_access_probe(model)
+    request = contracts.build_stage_request(
+        probe,
+        execution_id="9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        provider="openrouter",
+        logical_model_id=model,
+        provider_model_id=identity["provider_model_id"],
+        configuration_id=identity["configuration_id"],
+        stage="stage_1",
+        prior_responses={},
+    )
+    descriptor = {
+        "fixture": "live-access-probe",
+        "request_sha256": request["request_sha256"],
+    }
+    raw = _response("UNCERTAIN", "VERIFY", "Access probe.")
+    attempt = contracts.build_stage_attempt(
+        attempt_index=1,
+        started_at_utc="2026-07-11T01:00:00Z",
+        completed_at_utc="2026-07-11T01:00:01Z",
+        provider_request_id="probe-fixture",
+        token_emission_started=True,
+        exit_status=None,
+        http_status=200,
+        finish_reason="stop",
+        usage={
+            "input_tokens": 10,
+            "cached_input_tokens": 0,
+            "output_tokens": 5,
+            "reasoning_tokens": 1,
+            "total_tokens": 15,
+        },
+        raw_trace=raw,
+        raw_final_message=raw,
+        reasoning_effort="medium",
+        reasoning_details=None,
+        error_code=None,
+    )
+    result = contracts.build_stage_result(
+        request,
+        run_mode="openrouter_probe",
+        returned_provider_model_id=EXPECTED_RETURNED_MODEL_IDS[model],
+        returned_provider_name="Azure",
+        session_id=None,
+        transport_request_sha256=contracts.canonical_sha256(descriptor),
+        attempts=[attempt],
+        tool_events=[],
+        session_chain_ok=True,
+        isolation_ok=True,
+        future_text_absent=True,
+    )
+    event = {
+        "provider": "openrouter",
+        "integrity_session": 1,
+        "execution_id": request["execution_id"],
+        "stage": "stage_1",
+        "request": request,
+        "transport_descriptor": descriptor,
+        "attestation": None,
+        "result": result,
+    }
+
+    assert result["provenance"] == (
+        "live OpenRouter access probe, NOT a measurement"
+    )
+    assert result["integrity"]["measurement_ready"] is False
+    assert runner._access_ready(request, result) is True
+    artifact = runner._build_access_artifact(model, 1, event)
+    assert artifact["provenance"] == (
+        "model access probe, NOT a measurement"
+    )
+    assert artifact["measurement_ready"] is False
+    assert artifact["ready"] is True
+    assert artifact["result"]["provenance"] == result["provenance"]
+
+    wrong = deepcopy(result)
+    wrong["provenance"] = "live OpenRouter qualification measurement"
+    assert runner._access_ready(request, wrong) is False
+
+    requested_alias = deepcopy(result)
+    requested_alias["returned_provider_model_id"] = identity[
+        "provider_model_id"
+    ]
+    assert runner._access_ready(request, requested_alias) is False
+
+    mismatched_snapshot = deepcopy(result)
+    mismatched_snapshot["returned_provider_model_id"] = (
+        "openai/gpt-5-nano-2025-08-07-substitute"
+    )
+    assert runner._access_ready(request, mismatched_snapshot) is False
+
+    forged_probe = deepcopy(probe)
+    forged_probe["multiturn_script"]["stage_1"] += " Arbitrary prompt."
+    forged_request = contracts.build_stage_request(
+        forged_probe,
+        execution_id=request["execution_id"],
+        provider="openrouter",
+        logical_model_id=model,
+        provider_model_id=identity["provider_model_id"],
+        configuration_id=identity["configuration_id"],
+        stage="stage_1",
+        prior_responses={},
+    )
+    forged_descriptor = {
+        "fixture": "forged-live-access-probe",
+        "request_sha256": forged_request["request_sha256"],
+    }
+    forged_result = contracts.build_stage_result(
+        forged_request,
+        run_mode="openrouter_probe",
+        returned_provider_model_id=EXPECTED_RETURNED_MODEL_IDS[model],
+        returned_provider_name="Azure",
+        session_id=None,
+        transport_request_sha256=contracts.canonical_sha256(
+            forged_descriptor
+        ),
+        attempts=[attempt],
+        tool_events=[],
+        session_chain_ok=True,
+        isolation_ok=True,
+        future_text_absent=True,
+    )
+    forged_artifact = deepcopy(artifact)
+    forged_artifact.update({
+        "request": forged_request,
+        "result": forged_result,
+        "transport_descriptor": forged_descriptor,
+        "ready": True,
+        "failure_kind": None,
+    })
+    forged_artifact["access_artifact_sha256"] = contracts.canonical_sha256({
+        key: value for key, value in forged_artifact.items()
+        if key != "access_artifact_sha256"
+    })
+
+    assert runner._access_ready(forged_request, forged_result) is False
+    with pytest.raises(ValueError, match="access|probe|request|evidence"):
+        runner._validate_access_artifact(forged_artifact, model, 1)
+
+
+def test_episode_readiness_requires_frozen_returned_snapshot(
+        tmp_path, sidecar):
+    model = CHEAP_MODELS[0]
+    snapshot_driver = FakeCheapDriver(
+        sidecar,
+        returned_model_ids={model: EXPECTED_RETURNED_MODEL_IDS[model]},
+    )
+    runner = _runner(tmp_path, sidecar, driver=snapshot_driver)
+    item_id = sorted(runner._by_id)[0]
+    episode = runner._by_id[item_id]
+
+    snapshot_run = snapshot_driver.run_episode(
+        episode,
+        logical_model_id=model,
+        panel_profile=manifest.CHEAP_PROFILE_ID,
+    )
+    alias_run = FakeCheapDriver(
+        sidecar,
+        returned_model_ids={model: runner.identities[model][
+            "provider_model_id"]},
+    ).run_episode(
+        episode,
+        logical_model_id=model,
+        panel_profile=manifest.CHEAP_PROFILE_ID,
+    )
+    mismatch_run = FakeCheapDriver(
+        sidecar,
+        returned_model_ids={model: "openai/gpt-5-nano-substitute"},
+    ).run_episode(
+        episode,
+        logical_model_id=model,
+        panel_profile=manifest.CHEAP_PROFILE_ID,
+    )
+
+    assert runner._episode_ready(snapshot_run, model) is True
+    assert runner._episode_ready(alias_run, model) is False
+    assert runner._episode_ready(mismatch_run, model) is False
+
+
+def test_live_access_protocol_failure_is_durable_and_requires_explicit_retry(
+        tmp_path, monkeypatch):
+    runner = cheap.CheapOpenRouterQualificationRunner(
+        bank_root=BANK,
+        out_dir=tmp_path / "live-protocol-failure",
+        run_mode="live",
+    )
+    model = CHEAP_MODELS[0]
+    identity = runner.identities[model]
+    probe = manifest.build_cheap_access_probe(model)
+    request = contracts.build_stage_request(
+        probe,
+        execution_id="9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+        provider="openrouter",
+        logical_model_id=model,
+        provider_model_id=identity["provider_model_id"],
+        configuration_id=identity["configuration_id"],
+        stage="stage_1",
+        prior_responses={},
+    )
+    descriptor = {
+        "fixture": "live-protocol-failure",
+        "request_sha256": request["request_sha256"],
+    }
+    raw = b"\xff"
+    failure_record = {
+        "failure_record_version": "charitroc-openrouter-failure-v1",
+        "provenance": (
+            "live OpenRouter access probe attempt, NOT a measurement"
+        ),
+        "run_mode": "openrouter_probe",
+        "measurement_ready": False,
+        "failure_kind": "invalid_utf8",
+        "raw_bytes_base64": base64.b64encode(raw).decode("ascii"),
+        "raw_bytes_sha256": hashlib.sha256(raw).hexdigest(),
+        "raw_byte_count": 1,
+        "raw_redacted": False,
+        "provider": "openrouter",
+        "logical_model_id": model,
+        "model": identity["provider_model_id"],
+        "provider_model_id": identity["provider_model_id"],
+        "configuration_id": identity["configuration_id"],
+        "request_sha256": request["request_sha256"],
+        "transport_request_sha256": contracts.canonical_sha256(descriptor),
+    }
+    calls = []
+
+    def failed_probe(
+            episode, observed_model, *, purpose, before_stage, stage_sink):
+        calls.append((episode, observed_model, purpose))
+        before_stage({
+            "provider": "openrouter",
+            "integrity_session": 1,
+            "execution_id": request["execution_id"],
+            "stage": "stage_1",
+            "request": deepcopy(request),
+            "transport_descriptor": deepcopy(descriptor),
+            "attestation": None,
+        })
+        return {
+            "status": "failed",
+            "provenance": failure_record["provenance"],
+            "measurement_ready": False,
+            "integrity_session_count": 1,
+            "sessions": [],
+            "requests": [deepcopy(request)],
+            "results": [],
+            "transport_descriptors": [],
+            "chain": None,
+            "failure_record": deepcopy(failure_record),
+        }
+
+    monkeypatch.setattr(runner, "_call_driver", failed_probe)
+
+    with pytest.raises(ValueError, match="explicit.*retry"):
+        runner._run_access_model(model, 1)
+
+    events = runner._access_events()
+    assert [event["state"] for event in events] == ["started", "failed"]
+    artifact = runner._validate_access_artifact(
+        json.loads(runner._access_failure_path(model, 1).read_text()),
+        model,
+        1,
+    )
+    assert artifact["ready"] is False
+    assert artifact["failure_kind"] == "provider_terminal_failure"
+    assert artifact["failure_record"] == failure_record
+    with pytest.raises(ValueError, match="explicit.*retry"):
+        runner._prepare_access_attempt(model, retry_failed=False)
+    assert len(calls) == 1
+
+
+@pytest.mark.parametrize("artifact_kind", ["success", "protocol-failure"])
+@pytest.mark.parametrize("validation_path", ["reconcile", "history"])
+def test_access_artifact_from_different_execution_cannot_bind_to_start(
+        tmp_path, sidecar, artifact_kind, validation_path):
+    model = CHEAP_MODELS[0]
+    run_mode = "mock" if artifact_kind == "success" else "live"
+    if run_mode == "mock":
+        source = _runner(tmp_path / "source", sidecar)
+        target = _runner(tmp_path / "target", sidecar)
+        source._run_access_model(model, 1)
+        source_path = source._access_success_path(model)
+        target_path = target._access_success_path(model)
+        terminal_state = "succeeded"
+        terminal_kind = "validated_probe"
+    else:
+        source = cheap.CheapOpenRouterQualificationRunner(
+            bank_root=BANK,
+            out_dir=tmp_path / "source-live",
+            run_mode="live",
+        )
+        target = cheap.CheapOpenRouterQualificationRunner(
+            bank_root=BANK,
+            out_dir=tmp_path / "target-live",
+            run_mode="live",
+        )
+        identity = source.identities[model]
+        source_probe = manifest.build_cheap_access_probe(model)
+        source_request = contracts.build_stage_request(
+            source_probe,
+            execution_id="9ef76c30-b620-4ea7-a719-91f3e46cc8b2",
+            provider="openrouter",
+            logical_model_id=model,
+            provider_model_id=identity["provider_model_id"],
+            configuration_id=identity["configuration_id"],
+            stage="stage_1",
+            prior_responses={},
+        )
+        source_descriptor = {
+            "fixture": "foreign-protocol-failure",
+            "request_sha256": source_request["request_sha256"],
+        }
+        raw = b"\xff"
+        failure_record = {
+            "failure_record_version": "charitroc-openrouter-failure-v1",
+            "provenance": (
+                "live OpenRouter access probe attempt, NOT a measurement"
+            ),
+            "run_mode": "openrouter_probe",
+            "measurement_ready": False,
+            "failure_kind": "invalid_utf8",
+            "raw_bytes_base64": base64.b64encode(raw).decode("ascii"),
+            "raw_bytes_sha256": hashlib.sha256(raw).hexdigest(),
+            "raw_byte_count": len(raw),
+            "raw_redacted": False,
+            "provider": "openrouter",
+            "logical_model_id": model,
+            "model": identity["provider_model_id"],
+            "provider_model_id": identity["provider_model_id"],
+            "configuration_id": identity["configuration_id"],
+            "request_sha256": source_request["request_sha256"],
+            "transport_request_sha256": contracts.canonical_sha256(
+                source_descriptor
+            ),
+        }
+        failure_run = {
+            "status": "failed",
+            "provenance": failure_record["provenance"],
+            "measurement_ready": False,
+            "integrity_session_count": 1,
+            "sessions": [],
+            "requests": [source_request],
+            "results": [],
+            "transport_descriptors": [],
+            "chain": None,
+            "failure_record": failure_record,
+        }
+        source_event = {
+            "provider": "openrouter",
+            "integrity_session": 1,
+            "execution_id": source_request["execution_id"],
+            "stage": "stage_1",
+            "request": source_request,
+            "transport_descriptor": source_descriptor,
+            "attestation": None,
+        }
+        source_artifact = source._build_access_protocol_failure_artifact(
+            model, 1, failure_run, source_event
+        )
+        source_path = source._access_failure_path(model, 1)
+        cheap._write_new_json(source_path, source_artifact)
+        target_path = target._access_failure_path(model, 1)
+        terminal_state = "failed"
+        terminal_kind = "provider_terminal_failure"
+
+    target_identity = target.identities[model]
+    target_request = contracts.build_stage_request(
+        manifest.build_cheap_access_probe(model),
+        execution_id="54c94821-a36c-4ea7-ae2c-568a1a4410ef",
+        provider="openrouter",
+        logical_model_id=model,
+        provider_model_id=target_identity["provider_model_id"],
+        configuration_id=target_identity["configuration_id"],
+        stage="stage_1",
+        prior_responses={},
+    )
+    target_descriptor = {
+        "fixture": "active-target-start",
+        "request_sha256": target_request["request_sha256"],
+    }
+    start = target._append_access_event(
+        model=model,
+        attempt=1,
+        state="started",
+        request_sha=target_request["request_sha256"],
+        descriptor_sha=contracts.canonical_sha256(target_descriptor),
+    )
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(source_path, target_path)
+
+    if validation_path == "history":
+        target._append_access_event(
+            model=model,
+            attempt=1,
+            state=terminal_state,
+            request_sha=start["request_sha256"],
+            descriptor_sha=start["transport_descriptor_sha256"],
+            start=start,
+            artifact=target_path,
+            terminal_kind=terminal_kind,
+        )
+        operation = lambda: target._validate_access_history(
+            target._access_events()
+        )
+    else:
+        operation = lambda: target._reconcile_access_orphan(
+            model, target._access_events()
+        )
+
+    event_count = len(target._access_events())
+    with pytest.raises(
+            ValueError, match="access|artifact|request|descriptor|start|binding"):
+        operation()
+    assert len(target._access_events()) == event_count
 
 
 def test_verify_all_enforces_stage_aware_whole_root_closure(tmp_path, sidecar):
@@ -614,11 +1269,88 @@ def test_access_retry_validates_prior_failure_before_new_driver_call(
     assert len(driver.calls) == call_count
 
 
+def test_access_retry_reuses_validated_frozen_catalog_without_refetch(
+        tmp_path, sidecar):
+    driver = FakeCheapDriver(sidecar, fail_calls={1})
+    catalog = FakeCatalog()
+    runner = _runner(
+        tmp_path, sidecar, driver=driver, catalog=catalog
+    )
+    with pytest.raises(ValueError, match="explicit.*retry"):
+        runner.access()
+    frozen_path = runner.out_dir / "catalog/preflight.json"
+    frozen_bytes = frozen_path.read_bytes()
+    assert len(catalog.calls) == len(CHEAP_MODELS)
+
+    class ForbiddenCatalog:
+        def __init__(self):
+            self.calls = []
+
+        def __call__(self, provider_model_id):
+            self.calls.append(provider_model_id)
+            raise AssertionError("frozen catalog must not be refetched")
+
+    forbidden = ForbiddenCatalog()
+    runner._catalog_loader = forbidden
+
+    report = runner.access(retry_failed=True)
+
+    assert report["measurement_ready"] is False
+    assert forbidden.calls == []
+    assert frozen_path.read_bytes() == frozen_bytes
+
+
+def test_access_retry_rejects_tampered_frozen_catalog_before_driver_call(
+        tmp_path, sidecar):
+    driver = FakeCheapDriver(sidecar, fail_calls={1})
+    runner = _runner(tmp_path, sidecar, driver=driver)
+    with pytest.raises(ValueError, match="explicit.*retry"):
+        runner.access()
+    path = runner.out_dir / "catalog/preflight.json"
+    report = json.loads(path.read_text())
+    report["models"][0]["eligible_azure_endpoints"][0][
+        "returned_provider_model_id"
+    ] = "openai/gpt-5-nano-substitute"
+    report["catalog_preflight_sha256"] = contracts.canonical_sha256({
+        key: value for key, value in report.items()
+        if key != "catalog_preflight_sha256"
+    })
+    path.write_text(json.dumps(report), encoding="utf-8")
+    driver_call_count = len(driver.calls)
+
+    class ForbiddenCatalog:
+        calls = []
+
+        def __call__(self, provider_model_id):
+            self.calls.append(provider_model_id)
+            raise AssertionError("tampered frozen catalog must not refetch")
+
+    forbidden = ForbiddenCatalog()
+    runner._catalog_loader = forbidden
+
+    with pytest.raises(ValueError, match="catalog|endpoint|snapshot"):
+        runner.access(retry_failed=True)
+
+    assert forbidden.calls == []
+    assert len(driver.calls) == driver_call_count
+
+
 def test_canary_is_exactly_one_public_item_per_cue_and_smoke_reuses_it(
         tmp_path, sidecar):
     driver = FakeCheapDriver(sidecar)
     runner = _runner(tmp_path, sidecar, driver=driver)
     runner.access()
+
+    class ForbiddenCatalog:
+        def __init__(self):
+            self.calls = []
+
+        def __call__(self, provider_model_id):
+            self.calls.append(provider_model_id)
+            raise AssertionError("frozen catalog must not be refetched")
+
+    forbidden = ForbiddenCatalog()
+    runner._catalog_loader = forbidden
 
     canary = runner.canary()
     canary_ids = canary["public_item_ids"]
@@ -639,12 +1371,47 @@ def test_canary_is_exactly_one_public_item_per_cue_and_smoke_reuses_it(
     assert all(sum(row[0] == item_id and row[1] == model
                    for row in bank_calls_after_smoke) == 1
                for item_id in canary_ids for model in CHEAP_MODELS)
+    assert forbidden.calls == []
     assert runner.verify("smoke")["valid"] is True
 
     extra = runner.out_dir / "episodes" / canary_ids[0] / "extra-model.json"
     extra.write_text("{}\n", encoding="utf-8")
     with pytest.raises(ValueError, match="artifact|coverage|extra"):
         runner.verify("smoke")
+
+
+def test_canary_rejects_tampered_frozen_catalog_before_driver_call(
+        tmp_path, sidecar):
+    driver = FakeCheapDriver(sidecar)
+    runner = _runner(tmp_path, sidecar, driver=driver)
+    runner.access()
+    path = runner.out_dir / "catalog/preflight.json"
+    report = json.loads(path.read_text())
+    report["models"][0]["eligible_azure_endpoints"][0][
+        "returned_provider_model_id"
+    ] = "openai/gpt-5-nano-substitute"
+    report["catalog_preflight_sha256"] = contracts.canonical_sha256({
+        key: value for key, value in report.items()
+        if key != "catalog_preflight_sha256"
+    })
+    path.write_text(json.dumps(report), encoding="utf-8")
+    driver_call_count = len(driver.calls)
+
+    class ForbiddenCatalog:
+        calls = []
+
+        def __call__(self, provider_model_id):
+            self.calls.append(provider_model_id)
+            raise AssertionError("tampered frozen catalog must not refetch")
+
+    forbidden = ForbiddenCatalog()
+    runner._catalog_loader = forbidden
+
+    with pytest.raises(ValueError, match="catalog|endpoint|snapshot"):
+        runner.canary()
+
+    assert forbidden.calls == []
+    assert len(driver.calls) == driver_call_count
 
 
 def test_smoke_crash_resume_and_exact_identity_tamper_detection(
@@ -687,6 +1454,231 @@ def test_interrupted_stage_evidence_remains_journal_bound_after_resume(
     historical_stage.unlink()
     with pytest.raises(ValueError, match="evidence|journal|artifact"):
         runner.verify("canary")
+
+
+@pytest.mark.parametrize("crash_on", [1, 2])
+def test_stage_artifact_crash_window_reconciles_before_abandon_and_retry(
+        tmp_path, sidecar, monkeypatch, crash_on):
+    driver = FakeCheapDriver(sidecar)
+    runner = _runner(tmp_path, sidecar, driver=driver)
+    runner.access()
+    item_id = runner.canary_item_ids[0]
+    model = CHEAP_MODELS[0]
+    original_append = runner._append_stage_evidence_event
+    append_count = 0
+
+    def crash_first_stage_journal_append(**kwargs):
+        nonlocal append_count
+        append_count += 1
+        if append_count == crash_on:
+            raise RuntimeError("simulated post-stage-file journal crash")
+        return original_append(**kwargs)
+
+    monkeypatch.setattr(
+        runner,
+        "_append_stage_evidence_event",
+        crash_first_stage_journal_append,
+    )
+    with pytest.raises(RuntimeError, match="stage-file journal crash"):
+        runner.canary()
+
+    orphan = (
+        runner.out_dir / "evidence" / item_id / model
+        / f"attempt-01/{contracts.STAGES[crash_on - 1]}.json"
+    )
+    assert orphan.is_file()
+    journal_path = runner.out_dir / "evidence/stage-journal.jsonl"
+    journal_before = (
+        journal_path.read_text().splitlines() if journal_path.exists() else []
+    )
+    assert len(journal_before) == crash_on - 1
+
+    resumed = _runner(tmp_path, sidecar, driver=driver)
+    canary = resumed.canary()
+    episode_events = resumed._episode_events()
+    stage_events = resumed._stage_evidence_events(episode_events)
+    adopted = [
+        event for event in stage_events
+        if event["item_id"] == item_id
+        and event["logical_model_id"] == model
+        and event["attempt_number"] == 1
+    ]
+    rows = resumed._arm_events(episode_events, item_id, model)
+
+    assert [event["stage"] for event in adopted] == list(
+        contracts.STAGES[:crash_on]
+    )
+    reconciled = adopted[-1]
+    assert reconciled["previous_event_sha256"] == (
+        adopted[-2]["event_sha256"] if crash_on == 2 else None
+    )
+    assert stage_events[crash_on]["previous_event_sha256"] == reconciled[
+        "event_sha256"
+    ]
+    assert reconciled["artifact_sha256"] == cheap._file_sha(orphan)
+    assert [event["state"] for event in rows[:4]] == [
+        "started", "abandoned", "started", "succeeded",
+    ]
+    assert cheap._parse_timestamp(reconciled["timestamp_utc"]) < (
+        cheap._parse_timestamp(rows[1]["timestamp_utc"])
+    )
+    bank_calls = [
+        call for call in driver.calls
+        if not call[0].startswith("CHEAP-ACCESS-")
+    ]
+    assert len(bank_calls) == 13
+    assert canary["model_episode_count"] == 12
+    assert resumed.verify("canary")["valid"] is True
+
+
+@pytest.mark.parametrize("case", [
+    "invalid", "noncontiguous", "multiple", "foreign-execution",
+    "foreign-execution-journaled",
+])
+def test_stage_artifact_reconciliation_fails_closed_on_ambiguous_orphan(
+        tmp_path, sidecar, monkeypatch, case):
+    driver = FakeCheapDriver(sidecar)
+    runner = _runner(tmp_path, sidecar, driver=driver)
+    runner.access()
+    item_id = runner.canary_item_ids[0]
+    model = CHEAP_MODELS[0]
+    original_append = runner._append_stage_evidence_event
+    append_count = 0
+    crash_on = 1 if case == "invalid" else 2
+
+    def crash_selected_stage_journal_append(**kwargs):
+        nonlocal append_count
+        append_count += 1
+        if append_count == crash_on:
+            raise RuntimeError("simulated post-stage-file journal crash")
+        return original_append(**kwargs)
+
+    monkeypatch.setattr(
+        runner,
+        "_append_stage_evidence_event",
+        crash_selected_stage_journal_append,
+    )
+    with pytest.raises(RuntimeError, match="stage-file journal crash"):
+        runner.canary()
+
+    attempt_dir = (
+        runner.out_dir / "evidence" / item_id / model / "attempt-01"
+    )
+    if case == "invalid":
+        path = attempt_dir / "stage_1.json"
+        payload = json.loads(path.read_text())
+        payload["profile_id"] = "tampered-profile"
+        payload["stage_artifact_sha256"] = contracts.canonical_sha256({
+            key: value for key, value in payload.items()
+            if key != "stage_artifact_sha256"
+        })
+        path.write_text(json.dumps(payload), encoding="utf-8")
+    elif case == "noncontiguous":
+        (attempt_dir / "stage_1.json").unlink()
+        (runner.out_dir / "evidence/stage-journal.jsonl").unlink()
+        assert (attempt_dir / "stage_2.json").is_file()
+    elif case == "multiple":
+        shutil.copy2(
+            attempt_dir / "stage_2.json",
+            attempt_dir / "stage_3.json",
+        )
+    else:
+        path = attempt_dir / "stage_2.json"
+        payload = json.loads(path.read_text())
+        request = payload["request"]
+        result = payload["result"]
+        request["execution_id"] = str(uuid.UUID(int=999, version=4))
+        request["request_sha256"] = contracts.canonical_sha256({
+            key: value for key, value in request.items()
+            if key != "request_sha256"
+        })
+        result["execution_id"] = request["execution_id"]
+        result["request_sha256"] = request["request_sha256"]
+        result["result_sha256"] = contracts.canonical_sha256({
+            key: value for key, value in result.items()
+            if key != "result_sha256"
+        })
+        payload["stage_artifact_sha256"] = contracts.canonical_sha256({
+            key: value for key, value in payload.items()
+            if key != "stage_artifact_sha256"
+        })
+        path.write_text(json.dumps(payload), encoding="utf-8")
+        if case == "foreign-execution-journaled":
+            start = runner._episode_events()[0]
+            original_append(
+                item_id=item_id,
+                model=model,
+                source="canary",
+                attempt=1,
+                stage="stage_2",
+                start=start,
+                artifact_path=path,
+                artifact=payload,
+            )
+
+    calls_before_resume = len(driver.calls)
+    if case == "foreign-execution-journaled":
+        with pytest.raises(
+                ValueError, match="stage|evidence|request|execution|history"):
+            _runner(tmp_path, sidecar, driver=driver)
+        assert len(driver.calls) == calls_before_resume
+        return
+    resumed = _runner(tmp_path, sidecar, driver=driver)
+    with pytest.raises(
+            ValueError,
+            match="stage|evidence|artifact|coverage|orphan|contiguous|ambiguous"):
+        resumed.canary()
+    assert len(driver.calls) == calls_before_resume
+
+
+@pytest.mark.parametrize("arm_state", ["completed", "untouched"])
+def test_unstarted_stage_artifact_fails_before_any_driver_call(
+        tmp_path, sidecar, arm_state):
+    driver = FakeCheapDriver(sidecar)
+    runner = _runner(tmp_path, sidecar, driver=driver)
+    runner.access()
+    item_id = runner.canary_item_ids[0]
+    model = CHEAP_MODELS[0]
+
+    if arm_state == "completed":
+        attempt = runner._prepare_episode_attempt(
+            item_id, model, "canary", retry_failed=False
+        )
+        runner._run_episode_arm(item_id, model, "canary", attempt)
+        source_path = runner._stage_path(item_id, model, 1, "stage_1")
+        orphan_path = runner._stage_path(item_id, model, 2, "stage_1")
+        payload = json.loads(source_path.read_text())
+        payload["attempt_number"] = 2
+        payload["stage_artifact_sha256"] = contracts.canonical_sha256({
+            key: value for key, value in payload.items()
+            if key != "stage_artifact_sha256"
+        })
+    else:
+        source_driver = FakeCheapDriver(sidecar)
+        source_runner = _runner(
+            tmp_path / "source", sidecar, driver=source_driver
+        )
+        source_runner.access()
+        attempt = source_runner._prepare_episode_attempt(
+            item_id, model, "canary", retry_failed=False
+        )
+        source_runner._run_episode_arm(
+            item_id, model, "canary", attempt
+        )
+        source_path = source_runner._stage_path(
+            item_id, model, 1, "stage_1"
+        )
+        orphan_path = runner._stage_path(item_id, model, 1, "stage_1")
+        payload = json.loads(source_path.read_text())
+
+    orphan_path.parent.mkdir(parents=True, exist_ok=True)
+    orphan_path.write_text(json.dumps(payload), encoding="utf-8")
+    calls_before_resume = len(driver.calls)
+
+    with pytest.raises(
+            ValueError, match="stage|evidence|artifact|orphan|coverage"):
+        runner.canary()
+    assert len(driver.calls) == calls_before_resume
 
 
 @pytest.mark.parametrize("tamper", ["missing-terminal", "rehashed-stage"])
@@ -820,6 +1812,35 @@ def test_cli_exposes_only_safe_qualification_commands():
             [
                 sys.executable, "pilot/run_cheap_openrouter.py", forbidden,
                 "--out", "/tmp/forbidden-charitroc-command",
+                "--run-mode", "live",
+            ],
+            cwd=BANK,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        assert rejected.returncode != 0
+        assert "invalid choice" in rejected.stderr
+
+
+def test_gpt54_mini_cli_is_explicit_and_exposes_no_profile_switch():
+    completed = subprocess.run(
+        [sys.executable, "pilot/run_gpt54_mini_openrouter.py", "--help"],
+        cwd=BANK,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    assert completed.returncode == 0, completed.stderr
+    assert "GPT-5.4-mini" in completed.stdout
+    assert "{access,canary,smoke,verify,report}" in completed.stdout
+    assert "--profile" not in completed.stdout
+    for forbidden in ("calibration", "reliability", "freeze", "private"):
+        rejected = subprocess.run(
+            [
+                sys.executable, "pilot/run_gpt54_mini_openrouter.py",
+                forbidden, "--out", "/tmp/forbidden-charitroc-mini-command",
                 "--run-mode", "live",
             ],
             cwd=BANK,

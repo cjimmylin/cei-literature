@@ -326,5 +326,39 @@ TDD after item 2 fixes the approved surface/routing.
 
 ---
 
+## PR-10 — C-5 authorizes an L7 rotation list but no source list or swap mapping exists
+
+**Surfaced:** 2026-07-12 Codex O5 continuation, while executing the expressly authorized
+C-5 parallel lane (R-J4).
+
+R-J4 authorizes Codex to “formalize the machine-readable L7 name-rotation list (TDD,
+no live calls).” The only binding L7 text is item-playbook §2: draw from “diverse-name
+lists,” never reuse a name across items in a design, and use no real public figures,
+companies, or congregations. No actual diverse-name source/list, role-to-name mapping,
+gender-preservation rule, or deterministic rotation rule exists anywhere in the
+WALKWORTHY scope. Repository search finds only already-used names embedded in authored
+items and prose claims that those names were grep-checked.
+
+**Why this is not safely mechanical:** choosing a new name inventory or deciding whether
+a swap preserves/changes gender, ethnicity cues, titles, surnames, or multi-person role
+relations changes the perturbation surface. Extracting already-used names from other
+designs is mechanically possible, but the framework does not say that cross-design reuse
+is the intended source, nor how to map those names onto target roles. Inventing either
+choice would exceed R-J4's authorization to *formalize* an existing rotation.
+
+**Jimmy input required (one line or a supplied file):** either
+
+1. supply/identify the canonical diverse-name source and mapping rule; or
+2. authorize the mechanical default: build a versioned inventory from names already
+   present in the nine *other* public designs, exclude every name already present in the
+   target design, preserve each rendered role's apparent gender/title pattern where
+   explicit, and rotate deterministically by `(design, item_id, role_index)`.
+
+**Current behavior:** C-5/L7 authoring thread is stopped; no list or name-swap battery is
+created from a guessed source. This does not block the active re-execution/W1/W2/W3/W4
+lanes, but W5 cannot run until PR-10 is ruled. No HOLDOUT path was loaded.
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

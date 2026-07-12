@@ -39,6 +39,12 @@ PART_A_TARGETS = {
     "10-strangergate": 60,
 }
 
+PART_B_WAVE_ORDER = (
+    "02-twomasters", "07-seventyseven", "01-goodsamaritan",
+    "03-quiettongue", "04-innerweight", "05-ordoamoris", "06-crookedpath",
+    "08-vocationfork", "09-doubleedge", "10-strangergate",
+)
+
 
 class LabelSampleError(RuntimeError):
     """Raised when a Part A stratum/target cannot be filled — never a silent short draw."""
@@ -193,22 +199,84 @@ def emit_part_a(design: str, drawn: dict, out_dir: Path, anchors: Optional[list]
     return {"provenance": str(prov), "n": drawn["n"], "warnings": drawn["warnings"]}
 
 
+def _unresolved_cells(rec: dict) -> list:
+    """Atomic cells routed to Part B by FR-16; never infer from a record-level null."""
+    out = []
+    for position, cell in enumerate(
+            ((rec.get("judge_report") or {}).get("disagreements") or [])):
+        if cell.get("needs_adjudication") is True:
+            out.append({"cell": str(cell.get("cell", "unknown")),
+                        "scale": cell.get("scale"),
+                        "route": "pair-disagreement", "position": position})
+
+    # FR-16(c): structural pendency is not a third-judge disagreement.
+    if not out and rec.get("design") == "09-doubleedge":
+        if (rec.get("refusal_tags") or {}).get("arbiter") == "pending_adjudication":
+            out.append({"cell": "arbiter_first", "scale": "structural",
+                        "route": "09-arbiter-direct", "position": 0})
+
+    # The bounded 05 re-parser sets this marker only when its one permitted pass fails.
+    if not out and rec.get("design") == "05-ordoamoris":
+        if rec.get("allocation_reparse_failed") is True:
+            out.append({"cell": "allocation_parse", "scale": "allocation",
+                        "route": "05-reparse-failed", "position": 0})
+    return out
+
+
 def _needs_adjudication(rec: dict) -> bool:
-    """A cell the tie-breaker/pair could not resolve (protocol §6 Part B)."""
-    if rec.get("refusal_tag") == "pending_adjudication":
-        return True
-    if rec.get("scalar_adjudicated") is None:
-        return True
-    return bool((rec.get("judge_report") or {}).get("disagreements"))
+    """Whether FR-16 yields at least one unresolved atomic cell for this record."""
+    return bool(_unresolved_cells(rec))
+
+
+def _cell_context(rec: dict, cell_name: str) -> str:
+    """Attach the parent administration/turn relevant to one atomic cell."""
+    prefix = cell_name.split(":", 1)[0] if ":" in cell_name else None
+    administrations = rec.get("administrations") or []
+    if prefix and prefix.isdigit():
+        turn_index = int(prefix)
+        for admin in administrations:
+            turns = admin.get("turns") or []
+            for turn in turns:
+                if int(turn.get("index", -1)) == turn_index:
+                    user = str(turn.get("user_text") or "")
+                    response = str(turn.get("response") or "")
+                    return f"USER: {user}\nASSISTANT: {response}"[:4000]
+            # Per-turn scoring appends the terminal artifact at n_turns + 1.
+            if turn_index == len(turns) + 1 and admin.get("terminal_response") is not None:
+                user = str(admin.get("terminal_user_text") or "")
+                response = str(admin.get("terminal_response") or "")
+                return f"USER: {user}\nASSISTANT: {response}"[:4000]
+    if prefix:
+        for admin in administrations:
+            if admin.get("label") == prefix:
+                response = admin.get("response") or admin.get("terminal") or ""
+                return str(response)[:4000]
+    return _context_text(rec)
 
 
 def export_part_b(design: str, records: list) -> list:
-    """Unresolved `needs_adjudication` cells for a design -> blind Part-B units (protocol §6)."""
-    pool = [r for r in records if r.get("design") == design and _needs_adjudication(r)]
-    ordered = sorted(pool, key=lambda r: _order_key(SEED + 2, r))
-    return [{"unit_id": f"{design}-B{i:03d}", "item_id": r["item_id"], "model": r["model"],
-             "design": design, "context_and_response": _context_text(r)}
-            for i, r in enumerate(ordered)]
+    """One provenance-bearing Part-B unit per unresolved cell (FR-16(d))."""
+    cells = []
+    for rec in records:
+        if rec.get("design") != design:
+            continue
+        for cell in _unresolved_cells(rec):
+            cells.append((rec, cell))
+    cells.sort(key=lambda pair: (pair[0]["item_id"], pair[0]["model"],
+                                 pair[1]["position"], pair[1]["cell"]))
+    return [{"unit_id": f"{design}-B{i:04d}", "item_id": rec["item_id"],
+             "model": rec["model"], "design": design, "cell": cell["cell"],
+             "scale": cell["scale"], "route": cell["route"],
+             "context_and_response": _cell_context(rec, cell["cell"])}
+            for i, (rec, cell) in enumerate(cells)]
+
+
+def export_part_b_all(records: list) -> list:
+    """Export every design in FR-17(a) wave order."""
+    known = list(PART_B_WAVE_ORDER)
+    extra = sorted({r.get("design") for r in records if r.get("design") not in known})
+    return [unit for design in known + extra if design
+            for unit in export_part_b(design, records)]
 
 
 def emit_part_b(design: str, records: list, out_dir: Path) -> int:
@@ -216,7 +284,15 @@ def emit_part_b(design: str, records: list, out_dir: Path) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     with (out_dir / f"{design}-partB.jsonl").open("w", encoding="utf-8") as fh:
         for u in units:
-            fh.write(json.dumps(u, ensure_ascii=False) + "\n")
+            blind = {k: u[k] for k in ("unit_id", "design", "cell", "scale",
+                                       "context_and_response")}
+            fh.write(json.dumps(blind, ensure_ascii=False) + "\n")
+    with (out_dir / f"{design}-partB-provenance.jsonl").open(
+            "w", encoding="utf-8") as fh:
+        for u in units:
+            provenance = {k: u[k] for k in ("unit_id", "item_id", "model", "design",
+                                            "cell", "scale", "route")}
+            fh.write(json.dumps(provenance, ensure_ascii=False) + "\n")
     return len(units)
 
 

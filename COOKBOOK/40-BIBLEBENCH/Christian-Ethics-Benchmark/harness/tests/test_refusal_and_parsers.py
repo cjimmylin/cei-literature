@@ -9,7 +9,8 @@ from walkworthy.refusal import (
     detect_refusal,
     tag_response,
 )
-from walkworthy.parsers import parse_allocation_block, run_with_format_retry
+from walkworthy.parsers import (parse_allocation_block, reparse_allocation_response,
+                                run_with_format_retry)
 from walkworthy.models import Item
 
 
@@ -87,6 +88,67 @@ def test_parse_allocation_no_block_is_noncompliant():
                                ["a", "b"], budget=100)
     assert p.non_compliant
     assert not p.ok
+
+
+def test_offline_reparse_preserves_a_valid_strict_block_exactly():
+    text = "allocation: {a: 60, b: 40}"
+    strict = parse_allocation_block(text, ["a", "b"], 100)
+
+    assert reparse_allocation_response(text, ["a", "b"], 100) == strict
+
+
+def test_offline_reparse_recovers_complete_markdown_table():
+    text = """
+| Group | Seats |
+|---|---:|
+| MEMBER_SENIORS | 18 |
+| SHELTER_REFERRALS | 15 |
+| STUDENTS | 7 |
+| VOLUNTEER_FAMILIES | 0 |
+"""
+    p = reparse_allocation_response(
+        text,
+        ["member_seniors", "shelter_referrals", "students", "volunteer_families"],
+        40,
+    )
+
+    assert p.ok
+    assert p.values == {"member_seniors": 18, "shelter_referrals": 15,
+                        "students": 7, "volunteer_families": 0}
+
+
+def test_offline_reparse_sums_repeated_rows_for_aggregate_token():
+    text = """
+| Person | Minutes |
+|---|---:|
+| Affected Staff #1 | 25 |
+| Affected Staff #2 | 25 |
+| Client | 15 |
+| Donor | 10 |
+| Peer Manager | 15 |
+"""
+    p = reparse_allocation_response(
+        text, ["affected_staff", "client", "donor", "peer_manager"], 90)
+
+    assert p.ok
+    assert p.values == {"affected_staff": 50, "client": 15,
+                        "donor": 10, "peer_manager": 15}
+
+
+def test_offline_reparse_recovers_plain_labeled_list_when_unique():
+    text = """
+Daughter: 5 units
+Former_partner: 3 units
+Old_friend: 2 units
+Sibling: 0 units
+Hostile_neighbor: 0 units
+"""
+    tokens = ["daughter", "former_partner", "old_friend", "sibling", "hostile_neighbor"]
+    p = reparse_allocation_response(text, tokens, budget=0)
+
+    assert p.ok
+    assert p.values == {"daughter": 5, "former_partner": 3, "old_friend": 2,
+                        "sibling": 0, "hostile_neighbor": 0}
 
 
 def test_one_retry_recovers_then_logs():

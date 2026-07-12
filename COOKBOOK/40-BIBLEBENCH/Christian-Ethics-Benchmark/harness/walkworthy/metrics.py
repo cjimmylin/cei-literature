@@ -54,6 +54,10 @@ def _verdicts(rec) -> list:
     return (rec.get("judge_report") or {}).get("verdicts", [])
 
 
+def _adjudicated_verdict(rec):
+    return (rec.get("judge_report") or {}).get("adjudicated_verdict")
+
+
 def _unit_scores(verdict: dict, key) -> dict:
     if key is None:
         return verdict.get("scores", {}) or {}
@@ -76,6 +80,10 @@ def _val(rec, category, unit_key, sel):
     if len(vs) < 2:
         return None, False
     if sel == "adj":
+        derived = _adjudicated_verdict(rec)
+        if derived is not None:
+            value = _unit_scores(derived, unit_key).get(category.name)
+            return value, (value is not None)
         a = _unit_scores(vs[0], unit_key).get(category.name)
         b = _unit_scores(vs[1], unit_key).get(category.name)
         value, status = adjudicated_value(category, a, b)
@@ -97,6 +105,8 @@ def _ordered_states(rec, category, sel) -> List[Optional[object]]:
         return u.get("label", u.get("index"))
 
     m1 = {keyof(u): u for u in pu1}
+    derived = _adjudicated_verdict(rec) if sel == "adj" else None
+    md = {keyof(u): u for u in (derived or {}).get("per_unit", []) or []}
     out: List[Optional[object]] = []
     for u0 in pu0:
         a = (u0.get("scores") or {}).get(category.name)
@@ -106,6 +116,9 @@ def _ordered_states(rec, category, sel) -> List[Optional[object]]:
         b = (m1.get(keyof(u0), {}).get("scores") or {}).get(category.name)
         if sel == "j1":
             out.append(b)
+            continue
+        if derived is not None:
+            out.append((md.get(keyof(u0), {}).get("scores") or {}).get(category.name))
             continue
         value, status = adjudicated_value(category, a, b)
         out.append(value if status == AGREED else None)

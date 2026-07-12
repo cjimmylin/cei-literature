@@ -112,7 +112,7 @@
 
 <h1>Christian Ethics WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-12 (session closure) by Claude (Fable) + Jimmy — ALL judgment closed; PAPER pre-draft done; FABLE EXITED; Codex O5 execution STARTED (§12)</b>
+· <b style="color:var(--text)">Last updated: 2026-07-12 by Codex — W1 mechanical build GREEN (299 tests); authorized 02/07 re-execution 22/378 and running (§12)</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
 
@@ -133,8 +133,12 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     DRAFT files, §7 PAPER lane) and then <b>exited Fable from WALKWORTHY entirely</b> (Jimmy directive — the
     conditional master-plan §5 claims review converts to Opus memo → Jimmy;
     <code>20260712-codex-paper-fill-boot-prompt.md</code>); and <b>Codex began the O5 execution</b> — the
-    authorized 02/07 re-execution run directory (<code>runs/20260712-o5-02-07-reexecution/</code>) is present;
-    Codex reports its own progress in its next handoff.<br><br>
+    authorized 02/07 re-execution is live in <code>runs/20260712-o5-02-07-reexecution/</code>
+    (**22/378 checkpointed, $1.282063, 0 errors at the latest dated handoff**). Codex completed the W1
+    mechanical build under TDD: cell-aware Part-B export; bounded 05 re-parse (11 selected → 5 recovered / 6
+    Part-B); exact 3,172-cell selector; 580 own-family cells routed to Part-B; byte-identical unit prompts;
+    resumable tie-break events; separate derived adjudicated verdict; **299/299 tests green**. See
+    <code>20260712-codex-o5-w1-build-reexecution-running-handoff.md</code>.<br><br>
     <b>The ruling session's outcomes:</b><br>
     <b>(1) FR-16 ruled + ratified</b> (<code>20260712-fable-FR16-w1-surface-ruling.md</code>): W1 = the FULL
     §B surface — all <b>3,172</b> <code>needs_adjudication</code> cells / 1,297 records at FR-2 granularity;
@@ -154,8 +158,8 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     <b>GO-conditional</b> (<code>20260712-fable-G5-reference-review.md</code>: FR-18(a) method-split for
     consensus-tagged cases, FR-18(b) 09's reported-pole surface; 4 directed mechanical pre-gate items for
     Codex; promotion needs Jimmy's one-liner). Drafts gitignored.<br><br>
-    <b>Codex next (binding sequence, handoff §4):</b> 276 baseline → NEW immutable 02/07 re-execution
-    (data-contract verify) → TDD cell-aware Part-B exporter + tie-breaker + 05 re-parse → W1 → W2 Δ(J) →
+    <b>Codex next (binding sequence, handoff §4):</b> finish NEW immutable 02/07 re-execution
+    (378-key + data-contract verify; STOP projected &gt;$55) → one-unit Mistral production probe → W1 → W2 Δ(J) →
     W3 recompute → W4 G5 → W5 G7 → G4 per label wave → Part-B → verdicts → Opus review memo → Jimmy.
     <b>Waiting on Jimmy = labor only:</b> OpenRouter balance ≥ ~$30, Part-A labels (0/439, the release
     critical path), Part-B labels, G5 promotion one-liner, claims-review-routing ratification one-liner
@@ -301,17 +305,17 @@ O5 framework FR-1…FR-15 + G4 branch table + release formula (2026-07-11) → F
     vocabulary; 5 Opus drafts adversarially reviewed). Then Fable exited WALKWORTHY (Jimmy directive): claims
     review → Opus memo → Jimmy; standing paper-fill prompt authored.</div></li>
   <li class="last"><span class="d">07-12</span> <span class="badge b-codex">CODEX</span>
-    <div class="t">O5 execution STARTED (current position)</div>
-    <div class="s">The authorized 02/07 six-SUT re-execution run directory
-    (<span class="mono">runs/20260712-o5-02-07-reexecution/</span>) is present; Codex reports progress in its
-    own handoffs from here.</div></li>
+    <div class="t">O5 W1 build GREEN; 02/07 production re-execution running (current position)</div>
+    <div class="s">Codex completed the cell-aware Part-B, bounded-05-reparse, full-surface W1 selector,
+    prompt-identity, checkpoint, and derived-metric paths (**299 tests green**). The authorized six-SUT run is
+    22/378, $1.282063, 0 errors at handoff; W1 live adjudication waits for exact coverage + transcript check.</div></li>
 </ul>
 
 <h2 id="progress"><span class="n">6</span>Progress now — O5 pipeline</h2>
 <div class="panel">
 <ul class="check">
-  <li><span class="st"><span class="badge b-done">DONE</span></span> <b>Phase 0</b> — pre-flight: PR-5 verified, blind CSVs intact, G4 CLI turnkey (276 current tests, dry-run PASS)</li>
-  <li><span class="st"><span class="badge b-active">IN PROGRESS</span></span> <b>W1</b> — UNBLOCKED (FR-16 + R-J1/2): 02/07 re-execution STARTED 2026-07-12 (<span class="mono">runs/20260712-o5-02-07-reexecution/</span>); then tie-breaker (mistral-large-2512) over all 3,172 cells</li>
+  <li><span class="st"><span class="badge b-done">DONE</span></span> <b>Phase 0</b> — pre-flight: PR-5 verified, blind CSVs intact, G4 CLI turnkey (276 baseline; 299 current tests, dry-run PASS)</li>
+  <li><span class="st"><span class="badge b-active">IN PROGRESS</span></span> <b>W1</b> — mechanical path GREEN; 02/07 re-execution 22/378 ($1.282063, 0 errors) and running; then one-unit probe + resumable tie-breaker (mistral-large-2512) over all 3,172 cells</li>
   <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>W2</b> — §E judge Δ(J) own-family home-advantage permutation test (label-free; never yet run)</li>
   <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>W3</b> — post-adjudication recompute of all §B stats + G1/G2/G3/G8 → NEW dated readings</li>
   <li><span class="st"><span class="badge b-pending">QUEUED</span></span> <b>W4</b> — G5 blind reference scoring (06/09) — references DRAFTED + Fable-reviewed GO-conditional 07-12 (C-4); needs Codex pre-gate items (a)–(d) + Jimmy's promotion one-liner</li>
@@ -611,6 +615,13 @@ no external resources).</p>
   footnote repointed to FR-16; §8 roadmap de-Fabled (Opus memo → Jimmy rows) + arc updated; §9 STOP routing +
   C-11 owner → Jimmy; §10 document map refreshed (07-12 authority docs, PAPER lane, real CURRENT handoffs,
   open questions = PR-7 + claims-routing one-liner). Memory trimmed to current-state card. Fable's final edit.</td></tr>
+<tr><td class="mono">2026-07-12</td><td><span class="badge b-codex">Codex</span></td>
+  <td><b>O5 W1 MECHANICAL BUILD GREEN; AUTHORIZED RE-EXECUTION RUNNING.</b> Confirmed $473.21 balance;
+  started explicit six-SUT/frozen-judge/classifier 02/07 run (22/378, $1.282063, 0 errors at handoff);
+  built cell-aware Part-B, bounded 05 re-parse (11 → 5 recovered / 6 Part-B), exact full-surface grouping
+  (3,172 cells / 1,297 records / 580 own-family Part-B), byte-identical prompt reconstruction, resumable
+  W1 events, and derived §B metric consumption. Final regression 299/299 green. Handoff:
+  <span class="mono">20260712-codex-o5-w1-build-reexecution-running-handoff.md</span>.</td></tr>
 </table>
 </div>
 
@@ -621,9 +632,10 @@ holds THE next prepared session.</b> Whoever stages a new session replaces the c
 model, directory) and appends a Changelog row in §11 — superseded prompts remain in their dated files.</p>
 <table class="dense" style="margin-bottom:12px">
 <tr><th style="width:130px">Field</th><th>Value</th></tr>
-<tr><td><b>Session</b></td><td>Codex — O5 execution (ALL judgment closed 2026-07-12; PR-9 CLOSED, STOP-8
-  discharged, entire backlog ratified). Entry point: <span class="mono">20260712-fable-codex-full-handoff.md</span>
-  (§4 sequence is binding; §8 = this prompt). Reusable for EVERY future Codex session.</td></tr>
+<tr><td><b>Session</b></td><td>Codex — resume O5 W1 from
+  <span class="mono">20260712-codex-o5-w1-build-reexecution-running-handoff.md</span>. Mechanical path is
+  299-test GREEN; finish the checkpointed 02/07 run, validate, then one-unit probe + full resumable W1.
+  Authority/sequence remains <span class="mono">20260712-fable-codex-full-handoff.md §4</span>.</td></tr>
 <tr><td><b>PAPER lane</b></td><td>Parallel Codex lane, entry-gated on W3/O5 artifacts: paste
   <span class="mono">20260712-codex-paper-fill-boot-prompt.md §2</span> (mechanical scaffold fill + claims-conformance
   checklist + Opus review memo → Jimmy). One session may run both lanes. When O5 P7 is DONE, repoint this §12 to
@@ -632,21 +644,22 @@ model, directory) and appends a Changelog row in §11 — superseded prompts rem
   No Fable session is planned; escalations → ask Jimmy in-session and log verbatim in PENDING-RULINGS.</td></tr>
 <tr><td><b>Directory</b></td><td><span class="mono">CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/</span>
   (scope-locked; harness commands run from <span class="mono">harness/</span>)</td></tr>
-<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span> for labor only: OpenRouter balance
-  ≥ ~$30 before the 02/07 re-execution; Part-A/Part-B labels; G5-reference promotion one-liner; release sign-off.</td></tr>
+<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span> for labor only: Part-A/Part-B labels;
+  G5-reference promotion one-liner; release sign-off. Balance preflight passed ($473.21).</td></tr>
 <tr><td><b>Note</b></td><td>Grok-4 failed 0/10 (HTTP 404) — never re-probe. Tie-breaker =
   <span class="mono">mistralai/mistral-large-2512</span>, explicit slug, byte-identical rubric, own-family → Part-B.</td></tr>
 </table>
 <pre style="background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:14px 16px;
 font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.5;overflow-x:auto;
 white-space:pre-wrap;color:#c8d6ee;margin:0">
-WALKWORTHY O5 execution session. SCOPE LOCK: work ONLY inside
+WALKWORTHY O5 W1 RESUME session. SCOPE LOCK: work ONLY inside
 CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling benches,
 never load HOLDOUT/, never delete (mv to RECYCLE-BIN/).
 
 ON OPENING: read (1) 00-PORTFOLIO/project-dashboard.html (Live status + §12), (2) the
-NEWEST dated handoff in 00-PORTFOLIO/ (state may have moved past this prompt — skip
-anything already done), (3) 00-PORTFOLIO/20260712-fable-codex-full-handoff.md (THE
+NEWEST dated handoff in 00-PORTFOLIO/ — currently
+20260712-codex-o5-w1-build-reexecution-running-handoff.md (skip anything already done),
+(3) 00-PORTFOLIO/20260712-fable-codex-full-handoff.md (THE
 plan; its §4 sequence is binding), (4) PENDING-RULINGS.md, (5) AGENTS.md. Build specs:
 20260711e (transition package), 20260711d (FR-1..FR-15 + G4 branch table + release
 formula), 20260712-fable-FR16-w1-surface-ruling.md + 20260712-fable-ruling-session-log.md
@@ -661,10 +674,13 @@ mistralai/mistral-large-2512, explicit slug, byte-identical rubric, own-family c
 Part-B. W1 surface = ALL 3,172 needs_adjudication cells (FR-16), NOT the 609-record
 selector.
 
-EXECUTE handoff §4 IN ORDER: 276-test baseline → NEW immutable 02/07 six-SUT
-re-execution (Jimmy-authorized ~$26.68; verify full-turn persistence via the
-data-contract test; STOP if projected &gt;$55) → TDD cell-aware Part-B exporter +
-tie-breaker + 05 re-parse → W1 → W2 Δ(J) → W3 recompute (NEW dated) → W4 G5 (refs need
+CURRENT STATE: baseline and W1 TDD builds are DONE (299/299 green); cell-aware Part-B,
+bounded 05 re-parse, exact 3,172-cell grouping, byte-identical prompts, checkpointing,
+and derived metrics are implemented. The NEW immutable 02/07 six-SUT re-execution is
+checkpointed at 22/378 ($1.282063, 0 errors at handoff). Resume/monitor the exact command
+in the newest handoff; verify 378-key coverage + every turn/terminal response; STOP if
+projected total &gt;$55. Then run the one-unit Mistral production probe and full W1 using
+the exact commands in that handoff → W2 Δ(J) → W3 recompute (NEW dated) → W4 G5 (refs need
 Jimmy's promotion one-liner first) → W5 G7 (formalize the L7 list first — authorized) →
 P5 G4 per label wave → P6 Part-B → P7 verdicts → Opus review memo → Jimmy. Never skip
 ahead; work parallel lanes (exporter TDD, 05 re-parse, L7 list, W4 06-fix promotion)

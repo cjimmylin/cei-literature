@@ -65,19 +65,107 @@ def test_fail_loud_when_target_unfillable():
         ls.draw_part_a("01-goodsamaritan", recs, {}, target=30)
 
 
-def test_export_part_b_selects_unresolved_cells():
-    recs = _bank("01-goodsamaritan", 5, ["m1"])
-    # mark 2 as needing adjudication
-    recs[0]["scalar_adjudicated"] = None
-    recs[1]["refusal_tag"] = "pending_adjudication"
-    for r in recs[2:]:
-        r["scalar_adjudicated"] = 0.5
-        r["judge_report"] = {"verdicts": [{}, {}], "disagreements": []}
+def _disagreement(cell, scale="categorical", needs=True):
+    return {"cell": cell, "values": ["a", "b"], "scale": scale,
+            "adjudicated": None, "needs_adjudication": needs}
+
+
+def test_export_part_b_emits_one_unit_per_unresolved_cell():
+    recs = _bank("01-goodsamaritan", 3, ["m1"])
+    recs[0]["judge_report"]["disagreements"] = [
+        _disagreement("action_class"), _disagreement("rationale_quality", "ordinal")]
+    recs[1]["judge_report"]["disagreements"] = [
+        _disagreement("action_class"), _disagreement("ignored", needs=False)]
+    recs[2]["scalar_adjudicated"] = None  # retired record-level selector: not a cell
+
     units = ls.export_part_b("01-goodsamaritan", recs)
-    assert len(units) == 2
-    assert all(u["unit_id"].startswith("01-goodsamaritan-B") for u in units)
-    # blind: no model/judge fields leak into the exported unit
-    assert all("model" in u and "scalar" not in json_dumps(u).lower() for u in units)
+
+    assert [u["cell"] for u in units] == [
+        "action_class", "rationale_quality", "action_class"]
+    assert len({u["unit_id"] for u in units}) == 3
+    assert all("values" not in u and "judge" not in json_dumps(u).lower() for u in units)
+
+
+def test_export_part_b_attaches_turn_specific_parent_context():
+    rec = _rec("02-twomasters", "WW-02-X", "m1")
+    rec["administrations"] = [{
+        "label": "main", "response": "legacy first response",
+        "turns": [
+            {"index": 1, "user_text": "u1", "response": "r1"},
+            {"index": 2, "user_text": "u2", "response": "r2"},
+        ],
+    }]
+    rec["judge_report"]["disagreements"] = [_disagreement("2:turn_state")]
+
+    unit = ls.export_part_b("02-twomasters", [rec])[0]
+
+    assert unit["cell"] == "2:turn_state"
+    assert "u2" in unit["context_and_response"]
+    assert "r2" in unit["context_and_response"]
+    assert "r1" not in unit["context_and_response"]
+
+
+def test_export_part_b_attaches_terminal_artifact_context():
+    rec = _rec("07-seventyseven", "WW-07-X", "m1")
+    rec["administrations"] = [{
+        "label": "main", "response": "legacy first response",
+        "turns": [
+            {"index": 1, "user_text": "u1", "response": "r1"},
+            {"index": 2, "user_text": "u2", "response": "r2"},
+        ],
+        "terminal_user_text": "write the final note",
+        "terminal_response": "the final note",
+    }]
+    rec["judge_report"]["disagreements"] = [_disagreement("3:arc_conformance")]
+
+    unit = ls.export_part_b("07-seventyseven", [rec])[0]
+
+    assert "write the final note" in unit["context_and_response"]
+    assert "the final note" in unit["context_and_response"]
+    assert "r2" not in unit["context_and_response"]
+
+
+def test_export_part_b_all_uses_fr17_wave_order_then_item_id():
+    recs = []
+    for design, item in [("01-goodsamaritan", "I2"), ("02-twomasters", "I9"),
+                         ("02-twomasters", "I1"), ("08-vocationfork", "I0")]:
+        rec = _rec(design, item, "m1")
+        rec["judge_report"]["disagreements"] = [_disagreement("outcome")]
+        recs.append(rec)
+
+    units = ls.export_part_b_all(recs)
+
+    assert [(u["design"], u["item_id"]) for u in units] == [
+        ("02-twomasters", "I1"), ("02-twomasters", "I9"),
+        ("01-goodsamaritan", "I2"), ("08-vocationfork", "I0")]
+
+
+def test_export_part_b_routes_09_arbiter_and_failed_05_reparse_without_third_judge():
+    rec09 = _rec("09-doubleedge", "WW-09-X", "m1")
+    rec09["refusal_tags"] = {"arbiter": "pending_adjudication"}
+    rec05 = _rec("05-ordoamoris", "WW-05-X", "m1")
+    rec05["allocation_reparse_failed"] = True
+
+    units = ls.export_part_b_all([rec09, rec05])
+
+    assert [(u["design"], u["cell"], u["route"]) for u in units] == [
+        ("05-ordoamoris", "allocation_parse", "05-reparse-failed"),
+        ("09-doubleedge", "arbiter_first", "09-arbiter-direct")]
+
+
+def test_emit_part_b_separates_blind_rows_from_provenance(tmp_path):
+    rec = _rec("01-goodsamaritan", "WW-01-X", "secret-model")
+    rec["judge_report"]["disagreements"] = [_disagreement("action_class")]
+
+    n = ls.emit_part_b("01-goodsamaritan", [rec], tmp_path)
+
+    blind = (tmp_path / "01-goodsamaritan-partB.jsonl").read_text()
+    provenance = (tmp_path / "01-goodsamaritan-partB-provenance.jsonl").read_text()
+    assert n == 1
+    assert "secret-model" not in blind
+    assert "context_and_response" in blind and "action_class" in blind
+    assert "secret-model" in provenance
+    assert "context_and_response" not in provenance
 
 
 def json_dumps(o):

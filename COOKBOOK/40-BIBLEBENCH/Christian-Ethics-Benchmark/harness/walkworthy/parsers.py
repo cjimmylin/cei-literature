@@ -8,7 +8,9 @@ DATA (non_compliant=True), never a crash — non-compliance is itself a reported
 from __future__ import annotations
 
 import re
+import unicodedata
 from dataclasses import dataclass, field
+from itertools import product
 from typing import Callable, List, Optional, Tuple
 
 from .clients import Message, ModelClient
@@ -55,6 +57,114 @@ def parse_allocation_block(text: str, tokens: List[str], budget: float,
     return AllocationParse(ok=ok, values=values, total=total, sum_ok=sum_ok,
                            tokens_missing=missing, extra_tokens=extra,
                            non_compliant=False, raw=text or "")
+
+
+def _fold_line(text: str) -> str:
+    """Accent/markdown-insensitive text used only by the bounded offline re-parser."""
+    decomposed = unicodedata.normalize("NFKD", text or "")
+    asciiish = "".join(ch for ch in decomposed if not unicodedata.combining(ch))
+    return re.sub(r"[^a-z0-9.,]+", " ", asciiish.lower().replace("_", " ")).strip()
+
+
+def _token_match(folded: str, tokens: List[str]):
+    """Return the longest exact normalized token phrase present in one label line."""
+    matches = []
+    for token in tokens:
+        phrase = _fold_line(token)
+        m = re.search(rf"(?<![a-z0-9]){re.escape(phrase)}(?![a-z0-9])", folded)
+        if m:
+            matches.append((len(phrase), token, m))
+    return max(matches, default=None, key=lambda x: x[0])
+
+
+def _number(text: str):
+    m = re.search(r"(?<![\d.])(\d[\d,]*(?:\.\d+)?)", text)
+    return float(m.group(1).replace(",", "")) if m else None
+
+
+def _allocation_result(text: str, tokens: List[str], budget: float,
+                       values: dict, tol: float) -> AllocationParse:
+    missing = [t for t in tokens if t not in values]
+    total = sum(values.get(t, 0.0) for t in tokens)
+    sum_ok = budget <= 0 or abs(total - budget) <= max(1.0, tol * budget)
+    ordered = {t: values[t] for t in tokens if t in values}
+    return AllocationParse(ok=not missing and sum_ok, values=ordered, total=total,
+                           sum_ok=sum_ok, tokens_missing=missing,
+                           non_compliant=False, raw=text or "")
+
+
+def reparse_allocation_response(text: str, tokens: List[str], budget: float,
+                                tol: float = 0.02) -> AllocationParse:
+    """One bounded, offline-only recovery pass for design-05 format failures.
+
+    A valid strict block returns byte-for-byte-equivalent parsed data immediately. The
+    fallback recognizes only exact normalized token labels in Markdown tables or plain
+    labeled lines; it never infers synonyms or repairs amounts. Multiple incompatible
+    budget-valid readings remain unparseable instead of being guessed.
+    """
+    strict = parse_allocation_block(text, tokens, budget, tol=tol)
+    if strict.ok:
+        return strict
+
+    lines = (text or "").splitlines()
+    complete: List[dict] = []
+
+    # First, inspect each contiguous Markdown-table block. Repeated rows for a single
+    # aggregate token (e.g. two affected staff members) are mechanically summed.
+    block: List[str] = []
+    for line in lines + [""]:
+        if "|" in line:
+            block.append(line)
+            continue
+        if block:
+            values = {}
+            for row in block:
+                cols = [c.strip() for c in row.strip().strip("|").split("|")]
+                for i, col in enumerate(cols[:-1]):
+                    folded = _fold_line(col)
+                    hit = _token_match(folded, tokens)
+                    if not hit:
+                        continue
+                    amount = next((_number(_fold_line(c)) for c in cols[i + 1:]
+                                   if _number(_fold_line(c)) is not None), None)
+                    if amount is not None:
+                        values[hit[1]] = values.get(hit[1], 0.0) + amount
+                    break
+            parsed = _allocation_result(text, tokens, budget, values, tol)
+            if parsed.ok:
+                complete.append(parsed.values)
+            block = []
+
+    # Then collect exact token-label candidates from plain lines. A heading followed
+    # by an explicit "Allocation: N" line is also a mechanical label/value pair.
+    candidates = {t: set() for t in tokens}
+    for i, line in enumerate(lines):
+        folded = _fold_line(line)
+        hit = _token_match(folded, tokens)
+        if not hit:
+            continue
+        amount = _number(folded[hit[2].end():])
+        if amount is None and i + 1 < len(lines):
+            nxt = _fold_line(lines[i + 1])
+            if "allocation" in nxt:
+                amount = _number(nxt)
+        if amount is not None:
+            candidates[hit[1]].add(amount)
+
+    if all(candidates.values()):
+        # At most five tokens occur in the bank. Cap each candidate set so adversarial
+        # prose cannot create an unbounded Cartesian search.
+        pools = [sorted(candidates[t])[:16] for t in tokens]
+        for vals in product(*pools):
+            candidate = dict(zip(tokens, vals))
+            parsed = _allocation_result(text, tokens, budget, candidate, tol)
+            if parsed.ok:
+                complete.append(parsed.values)
+
+    unique = {tuple((t, values[t]) for t in tokens) for values in complete}
+    if len(unique) == 1:
+        return _allocation_result(text, tokens, budget, dict(next(iter(unique))), tol)
+    return strict
 
 
 _FORMAT_REMINDER = (

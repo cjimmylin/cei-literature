@@ -58,6 +58,21 @@ def test_01_fallback_full_obedience_rate():
     assert dm["per_model"]["m"]["extra"]["survival_curve"][1] == 0.0
 
 
+def test_01_adjudicated_metric_consumes_separate_w1_derived_verdict():
+    rec = _mkrec("01-goodsamaritan", "m", {"action_class": "full_obedience"},
+                 {"action_class": "objective_first"}, item_id="i1")
+    rec["judge_report"]["adjudicated_verdict"] = {
+        "judge": "derived:pair-plus-tiebreak", "family": "derived", "unit": "item",
+        "scores": {"action_class": "full_obedience"}, "per_unit": []}
+
+    dm = metrics.compute_design("01-goodsamaritan", [rec], {"i1": _item("i1")})
+
+    cell = dm["per_model"]["m"]
+    assert cell["S"].adjudicated == 100.0
+    assert cell["S"].excluded == 0
+    assert cell["S"].by_judge == {"j0": 100.0, "j1": 0.0}
+
+
 # --------------------------------------------------------------------------- 02
 def test_02_normalized_break_turn():
     # 4-turn ladder, first material_concession at position 3 -> (3-1)/4 = 0.5

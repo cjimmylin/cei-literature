@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  ═══════════════════════════════════════════════════════════════════════════
+  LIVING DOCUMENT — COOKBOOK PROJECT DASHBOARD — UPDATE ME, DO NOT SNAPSHOT
+  ═══════════════════════════════════════════════════════════════════════════
+  Scope: the WHOLE COOKBOOK core project (00-KNOWLEDGEBASE, 10-LITERATURE,
+  30-EVIDENCE, ENGINE, 20-DESIGNS incl. DUPLEX-P0, Fable-Assessment) —
+  EXCLUDING 40-BIBLEBENCH/ (those benches are separate scopes with their own
+  dashboards: WCF-Benchmark/ and Christian-Ethics-Benchmark/).
+
+  This file is the ONE deliberate exception to the vault's dated-report
+  immutability rule (Jimmy's direction, 2026-07-11). ALL agents working on
+  the COOKBOOK core — Anthropic/Claude, OpenAI/Codex, and any other model —
+  must:
+    1. READ this dashboard at session start (alongside COOKBOOK/AGENTS.md and
+       the latest dated handoff).
+    2. UPDATE it at session end, in place: the "Last updated" line, the
+       Live-status table, progress bars, the design tab(s) your session
+       touched, a new History row if a session completed, one appended
+       Update-log row, and — whenever a new session is prepared — REWRITE
+       §Instructions-for-next-session.
+    3. Sections chipped HISTORY are frozen — append rows only, never rewrite.
+    4. NEVER fork this file into dated copies; git history is its snapshot
+       record. Dated reports/handoffs remain the immutable evidentiary
+       record — this dashboard summarizes and CITES them, never replaces them.
+    5. Keep it fully self-contained: inline CSS only, NO JavaScript (the
+       design tabs are pure CSS radio inputs — keep them that way), NO
+       external fonts/CDNs. It must render offline via file://.
+  ═══════════════════════════════════════════════════════════════════════════
+-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COOKBOOK — Project Dashboard (living)</title>
+<style>
+:root{
+  --bg:#0e1220; --card:#161e30; --card2:#1d2740; --line:#2a3550;
+  --ink:#dde4f0; --dim:#8b96ad; --gold:#c9a84c; --blue:#3a7bd5; --teal:#4caf8a;
+  --red:#c95c5c; --purple:#9d7bd5; --amber:#d5a03a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:26px;margin:0 0 4px}
+h2{font-size:19px;margin:36px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h3{font-size:15px;margin:18px 0 6px;color:var(--gold)}
+p{margin:8px 0}
+a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+code{background:var(--card2);padding:1px 5px;border-radius:4px;font-size:13px}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:13.5px}
+th{color:var(--dim);text-align:left;font-weight:600;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.chip{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;
+  padding:2px 8px;border-radius:10px;vertical-align:middle;margin-left:8px}
+.live{background:#1d3a2a;color:var(--teal);border:1px solid var(--teal)}
+.hist{background:#2a2440;color:var(--purple);border:1px solid var(--purple)}
+.living{background:var(--card);border:1px solid var(--gold);border-radius:10px;
+  padding:10px 14px;margin:14px 0;font-size:13.5px;display:flex;gap:14px;flex-wrap:wrap}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px}
+.big{font-size:34px;font-weight:800;color:var(--gold);line-height:1.1}
+.big small{display:block;font-size:12.5px;font-weight:400;color:var(--dim);margin-top:6px}
+.bar{background:var(--card2);border-radius:6px;height:14px;overflow:hidden;margin:4px 0 10px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--teal))}
+.bar.zero i{background:var(--card2)}
+.lbl{display:flex;justify-content:space-between;font-size:13px;color:var(--dim)}
+.b{display:inline-block;font-size:10.5px;font-weight:700;padding:1px 7px;border-radius:9px;margin-right:6px}
+.b-fable{background:#3a2f14;color:var(--gold);border:1px solid var(--gold)}
+.b-opus{background:#14283a;color:var(--blue);border:1px solid var(--blue)}
+.b-jimmy{background:#3a1a1a;color:var(--red);border:1px solid var(--red)}
+.ok{color:var(--teal);font-weight:700}.warn{color:var(--amber);font-weight:700}
+.bad{color:var(--red);font-weight:700}.dim{color:var(--dim)}
+.forkbanner{background:var(--card2);border:1px solid var(--amber);border-radius:10px;
+  padding:10px 14px;margin:12px 0;font-size:13.5px}
+/* ---- pure-CSS design tabs (NO JavaScript — keep it that way) ---- */
+.tabs{margin:14px 0}
+.tabs>input{display:none}
+.tabbar{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:0}
+.tabbar label{cursor:pointer;padding:7px 14px;border:1px solid var(--line);
+  border-bottom:none;border-radius:8px 8px 0 0;background:var(--card);
+  color:var(--dim);font-size:13px;font-weight:600}
+.panel{display:none;background:var(--card);border:1px solid var(--line);
+  border-radius:0 10px 10px 10px;padding:14px 18px}
+#t01:checked~.tabbar label[for="t01"],#t02:checked~.tabbar label[for="t02"],
+#t03:checked~.tabbar label[for="t03"],#t04:checked~.tabbar label[for="t04"],
+#t05:checked~.tabbar label[for="t05"],#t06:checked~.tabbar label[for="t06"]
+  {background:var(--card2);color:var(--gold);border-color:var(--gold)}
+#t01:checked~.p01,#t02:checked~.p02,#t03:checked~.p03,
+#t04:checked~.p04,#t05:checked~.p05,#t06:checked~.p06{display:block}
+.paste{background:#0b0f1a;border:1px solid var(--line);border-radius:8px;
+  padding:12px 14px;font:12.5px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;
+  white-space:pre-wrap;color:#c8d2e4;margin:10px 0}
+.next-meta td{border-bottom:none;padding:3px 8px}
+footer{margin-top:44px;border-top:1px solid var(--line);padding-top:14px;
+  font-size:12px;color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>COOKBOOK — Values-Alignment Benchmark Cookbook</h1>
+<p class="dim">Knowledgebase → evidence layer → six-design portfolio → engine → gated builds.
+Scope = everything under <code>COOKBOOK/</code> <b>except</b> <code>40-BIBLEBENCH/</code>
+(sibling benches with their own dashboards).</p>
+
+<div class="living">
+  <span><b>LIVING DASHBOARD</b> — every agent (Anthropic/Claude, OpenAI/Codex, any other model) reads this at session start and updates it in place at session end. Protocol: <code>COOKBOOK/AGENTS.md</code>.</span>
+  <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable) — dashboard created</span>
+</div>
+
+<!-- ══════════════════════ 1. LIVE STATUS ══════════════════════ -->
+<h2 id="status">1 · Live status <span class="chip live">LIVE</span></h2>
+<table>
+<tr><th>Workstream</th><th>State</th><th>Pending</th></tr>
+<tr><td><b>Knowledgebase</b> (00-KNOWLEDGEBASE, 13 docs)</td>
+    <td class="ok">BUILT + assessed</td>
+    <td>Session B: KB addendum + 4 SUPERSEDED banners on stale §6 briefs (CS-1…CS-5 pinned the discrimination bar)</td></tr>
+<tr><td><b>Evidence layer</b> (30-EVIDENCE: 677 cards, 13 dossiers, 4 digests)</td>
+    <td class="ok">TRUSTWORTHY (0/26 major in audit)</td>
+    <td>Session B: E-1…E-4 card point-fixes</td></tr>
+<tr><td><b>Literature docs</b> (10-LITERATURE)</td>
+    <td class="ok">DONE</td><td>—</td></tr>
+<tr><td><b>Designs portfolio</b> (20-DESIGNS: 6 designs + 8 sketches)</td>
+    <td class="ok">All 6 gate-cleared (REVISE-AND-PROCEED, X1–X6)</td>
+    <td>Per-design state → §5 tabs. Fork NOT YET CALLED.</td></tr>
+<tr><td><b>ENGINE</b> (CRUX factorial generator, 33 tests)</td>
+    <td class="warn">BUILT, pre-P1 fixes pending</td>
+    <td>Session C: ENG-1 factor-visibility + ENG-2 distinct-cells (blocks CRUX P1 generation)</td></tr>
+<tr><td><b>DUPLEX-P0 chain</b> (tab 03 has full detail)</td>
+    <td class="warn">CONDITIONAL-GO (2026-07-11)</td>
+    <td>OR-1…OR-7 build+smoke → Anthropic credential → paid run → fork call</td></tr>
+<tr><td><b>Open escalations</b></td><td class="ok">None</td><td>—</td></tr>
+<tr><td><b>Jimmy-owed inputs</b></td>
+    <td class="bad">4 open</td>
+    <td>① Anthropic credential (<code>claude setup-token</code> → <code>ANTHROPIC_AUTH_TOKEN</code>, or API key) ② OpenRouter balance top-up ③ P0 cost approval (OR-7e) ④ CRUX P1 survey greenlight; later: 02/04/05 read-throughs, 04/05 panels</td></tr>
+</table>
+
+<!-- ══════════════════════ 2. PROGRESS ══════════════════════ -->
+<h2 id="progress">2 · Progress overview <span class="chip live">LIVE</span></h2>
+<div class="card">
+<div class="lbl"><span>Corpus + evidence layer (620 papers + 61 lab reports → 677 cards)</span><span>100%</span></div>
+<div class="bar"><i style="width:100%"></i></div>
+<div class="lbl"><span>Knowledgebase (13 docs; Session-B fix pass outstanding)</span><span>90%</span></div>
+<div class="bar"><i style="width:90%"></i></div>
+<div class="lbl"><span>Designs authored + adversarially gated (6/6 + 8 sketches)</span><span>100%</span></div>
+<div class="bar"><i style="width:100%"></i></div>
+<div class="lbl"><span>ENGINE (built; ENG-1/2 pre-P1 fixes outstanding)</span><span>85%</span></div>
+<div class="bar"><i style="width:85%"></i></div>
+<div class="lbl"><span>DUPLEX-P0 code chain (runner + adapters + gates + validity reviews; OR-1…OR-6 outstanding)</span><span>85%</span></div>
+<div class="bar"><i style="width:85%"></i></div>
+<div class="lbl"><span>P0 run + fork adjudication</span><span>0%</span></div>
+<div class="bar zero"><i style="width:0%"></i></div>
+<div class="lbl"><span>Post-fork P1 benchmark build</span><span>0%</span></div>
+<div class="bar zero"><i style="width:0%"></i></div>
+<div class="lbl"><span>Write-up</span><span>0%</span></div>
+<div class="bar zero"><i style="width:0%"></i></div>
+</div>
+
+<!-- ══════════════════════ 3. HEADLINE ESTIMATES ══════════════════════ -->
+<h2 id="answers">3 · Session forecasts <span class="chip live">LIVE</span></h2>
+<p class="dim">Planning figures, not commitments — Jimmy ratifies. Revise only on material change.</p>
+<div class="grid">
+  <div class="card"><div class="big">2–3<small>more sessions to the <b>P0 fork call</b> — which design builds first (OR-build+smoke → paid run → adjudication). Gated on Jimmy inputs ①–③.</small></div></div>
+  <div class="card"><div class="big">7–10<small>total sessions to a <b>v1 usable benchmark</b> (fork winner built + piloted; Sessions B and C folded in).</small></div></div>
+  <div class="card"><div class="big">11–15<small>total sessions to a <b>finalized cookbook</b>: benchmark v1 + write-up, remaining designs staged as gate-cleared specs. Human components (CRUX P1 survey, optional G3 mini-norm, 04/05 panels) are Jimmy-gated and additive.</small></div></div>
+</div>
+
+<!-- ══════════════════════ 4. HISTORY ══════════════════════ -->
+<h2 id="history">4 · Where we've been — session log <span class="chip hist">HISTORY</span></h2>
+<table>
+<tr><th>Date</th><th>Who</th><th>Milestone</th><th>Record</th></tr>
+<tr><td>07-05</td><td><span class="b b-fable">FABLE</span></td>
+  <td>Genesis: 620-paper corpus → 677 evidence cards → 13 dossiers → 13 KB docs → 6 lit docs → <b>6 designs + 8 sketches</b>, in one session</td>
+  <td><code>20260705-cookbook-session-handoff.md</code></td></tr>
+<tr><td>07-05</td><td><span class="b b-fable">FABLE</span></td>
+  <td>Adversarial gate: 12 refute-first Opus reviews → all six designs REVISE-AND-PROCEED, standards X1–X6; <b>DUPLEX demoted to P0-gated, CRUX pre-registered fallback build-first</b></td>
+  <td><code>20-DESIGNS/REVIEWS/20260705-adjudication-memo.md</code></td></tr>
+<tr><td>07-06</td><td><span class="b b-fable">FABLE</span></td>
+  <td>Exit-plan S1: P0 adjudication protocol (H-1…G-all) + post-execution rulings + six-design spot-check (all CLEAN)</td>
+  <td><code>DUPLEX-P0/20260706-p0-adjudication-protocol.md</code></td></tr>
+<tr><td>07-06</td><td><span class="b b-opus">OPUS</span></td>
+  <td>Core build: CRUX <b>ENGINE</b> (33 tests) + DUPLEX-P0 prep (65-item bank + runner + gates) + 02/04/05 drafts + vault fixes</td>
+  <td><code>20260706b-cookbook-core-session-handoff.md</code></td></tr>
+<tr><td>07-06</td><td><span class="b b-fable">FABLE</span></td>
+  <td>Exit-sequencing memo (post-window build order, downgrade map) + item-bank adversarial read (IB-1…5) + protocol stress test (PS-1…6) + G3 mini-norm &amp; CRUX P1 survey pre-registrations. Exit plan CLOSED.</td>
+  <td><code>20260706-fable-exit-sequencing-memo.md</code></td></tr>
+<tr><td>07-07</td><td><span class="b b-fable">FABLE</span></td>
+  <td>Fable-Assessment WS-1…WS-6: P0 runner ruled NOT run-ready (12 divergences behind green tests); Sessions A/B/C queue defined; evidence layer certified trustworthy</td>
+  <td><code>Fable-Assessment/20260707-00-master-assessment-and-roadmap.md</code></td></tr>
+<tr><td>07-09</td><td><span class="b b-opus">OPUS</span></td>
+  <td>Session A: P0 runner rebuild, all WS-1 §1 packages, 95/95 spec-quoting tests; non-building audit caught relocated D10</td>
+  <td><code>DUPLEX-P0/20260709-ws1-checklist-evidence.md</code></td></tr>
+<tr><td>07-09</td><td><span class="b b-fable">FABLE</span></td>
+  <td>Session-A validity review: CONDITIONAL-GO; SA-5/SA-6 OVERTURNED; F-1…F-5 ordered; amendment A-1 (per-item-grain G1 sensitivity)</td>
+  <td><code>DUPLEX-P0/20260709-fable-session-a-review.md</code></td></tr>
+<tr><td>07-09</td><td><span class="b b-opus">OPUS</span></td>
+  <td>F-1…F-5 landed (122/122) + CLI-OAuth smoke (exposed codex-CLI invalid for run) + <b>OpenRouter cross-family adapter</b> (144/144); Jimmy set OpenRouter as the cross-family vendor</td>
+  <td><code>DUPLEX-P0/20260709-openrouter-adapter-evidence-addendum.md</code></td></tr>
+<tr><td>07-10</td><td><span class="b b-opus">OPUS</span></td>
+  <td>Live OpenRouter validation (ids verified) + CRITICAL judge fix (reasoning tokens starved <code>max_tokens=16</code> → silent no_stance); run decisions locked: Anthropic native, G3 fallback, Haiku H-1 applied</td>
+  <td><code>DUPLEX-P0/20260710-openrouter-live-validation-and-judge-fix.md</code></td></tr>
+<tr><td>07-11</td><td><span class="b b-fable">FABLE</span></td>
+  <td>Pre-run validity review of the OpenRouter deltas: <b>CONDITIONAL-GO, amendments OR-1…OR-7</b>; headline find = the same reasoning starvation unpatched on the OpenAI <i>subject</i> side (forced_immediate)</td>
+  <td><code>DUPLEX-P0/20260711-fable-openrouter-prerun-validity-review.md</code></td></tr>
+<!-- AGENTS: append new session rows HERE (newest last). Badges: b-fable / b-opus / b-jimmy;
+     add more badge classes if a new agent family works the project (e.g. b-codex, purple). -->
+</table>
+
+<!-- ══════════════════════ 5. DESIGN BOARDS (TABS) ══════════════════════ -->
+<h2 id="designs">5 · Design boards — one tab per design <span class="chip live">LIVE</span></h2>
+
+<div class="forkbanner">⑂ <b>THE FORK (pre-registered, not relitigatable):</b> DUPLEX's build-first slot is
+gated on the P0 smoke test (design 03 §7; gates G1/G2/G3, all three must hold). <b>P0 PASS →</b> DUPLEX
+keeps build-first (300-item generator P1). <b>P0 FAIL →</b> <b>CRUX takes build-first</b>; DUPLEX re-scoped
+to a universal-signature (descriptive) instrument. CRUX builds second in either scenario — its
+procedural engine is shared infrastructure. Fork status: <span class="warn">NOT YET CALLED</span>.</div>
+
+<div class="tabs">
+<input type="radio" name="dt" id="t01">
+<input type="radio" name="dt" id="t02">
+<input type="radio" name="dt" id="t03" checked>
+<input type="radio" name="dt" id="t04">
+<input type="radio" name="dt" id="t05">
+<input type="radio" name="dt" id="t06">
+<div class="tabbar">
+  <label for="t01">01 UNMARKED</label>
+  <label for="t02">02 FRAMESHIFT</label>
+  <label for="t03">03 DUPLEX · P0 ●</label>
+  <label for="t04">04 INTRA</label>
+  <label for="t05">05 CULTIVATE</label>
+  <label for="t06">06 CRUX</label>
+</div>
+
+<div class="panel p01">
+  <h3>01 UNMARKED — flagship: unprompted moral behavior in agentic tasks</h3>
+  <p>Measures the expressed-vs-revealed values gap via incidental embedding + incentive conflict +
+  fresh-per-run worlds.</p>
+  <table>
+  <tr><td><b>State</b></td><td class="ok">SPEC, gate-cleared</b> (revised in place at the 07-05 gate; spot-checked CLEAN 07-06)</td></tr>
+  <tr><td><b>Built so far</b></td><td>Full design spec <code>20-DESIGNS/01-flagship-unmarked.md</code>; no build artifacts yet (by design — builds after the fork winner)</td></tr>
+  <tr><td><b>Blockers</b></td><td>P0 fork call + build-order slot (portfolio order: DUPLEX/CRUX → UNMARKED → others); reuses the CRUX engine for world generation</td></tr>
+  <tr><td><b>Next step</b></td><td>None until fork called; then P1 scoping session</td></tr>
+  <tr><td><b>Session estimate</b></td><td>~3–5 build sessions when slotted (not in the 11–15 finalized-cookbook count; staged as spec at v1)</td></tr>
+  </table>
+</div>
+
+<div class="panel p02">
+  <h3>02 FRAMESHIFT — framework-conditioned normative reasoning</h3>
+  <p>Steerability across care / contractarian / consequentialist / deontological frames; procedural
+  rubrics + framework-conditional gold.</p>
+  <table>
+  <tr><td><b>State</b></td><td class="ok">SPEC + DRAFT</td></tr>
+  <tr><td><b>Built so far</b></td><td><code>20-DESIGNS/02-normative-frameshift.md</code> + subvariant sheets <code>20260706-02-frameshift-subvariant-sheets.md</code></td></tr>
+  <tr><td><b>Blockers</b></td><td>WS-4 fix (subvariant novelization) lands in Session B; Jimmy read-through of the draft sheets</td></tr>
+  <tr><td><b>Next step</b></td><td>Session B applies the WS-4 fix; build waits on portfolio order</td></tr>
+  <tr><td><b>Session estimate</b></td><td>~3–4 build sessions when slotted (post-v1)</td></tr>
+  </table>
+</div>
+
+<div class="panel p03">
+  <h3>03 DUPLEX — moral-psychology process signatures (ACTIVE BUILD · P0 gate)</h3>
+  <p>How judgments form (dual-process signature + moral identity), the only axis with documented
+  cross-model discrimination evidence — which is exactly what P0 must falsify-or-confirm before the
+  generator is built.</p>
+  <table>
+  <tr><td><b>State</b></td><td class="warn">P0 chain CONDITIONAL-GO (Fable, 2026-07-11) — run-ready once OR-1…OR-7 land + credential arrives</td></tr>
+  <tr><td><b>Built so far</b></td><td>65-item obfuscated bank · vendor-neutral runner + adapters (native Anthropic SDK + OpenRouter cross-family) · G1/G2/G3 gate analysis + nulls + obfuscation-QA · <code>run_p0.py</code> entrypoint · <b>suite 144/144</b> (mock-first, spec-quoting) · OpenAI side live-validated on OpenRouter</td></tr>
+  <tr><td><b>Blockers</b></td><td><span class="b b-opus">OPUS</span> OR-1…OR-6 build + OR-7 smoke · <span class="b b-jimmy">JIMMY</span> Anthropic credential, OpenRouter top-up, cost approval (OR-7e)</td></tr>
+  <tr><td><b>Next step</b></td><td>§9 Instructions-for-next-session (the prepared Opus boot prompt)</td></tr>
+  <tr><td><b>Session estimate</b></td><td>1 (OR build+smoke) + 1–2 (paid run + mechanical adjudication) → fork call</td></tr>
+  </table>
+
+  <h3>P0 gate board (not yet run)</h3>
+  <table>
+  <tr><th>Gate</th><th>Bar (pre-registered)</th><th>Status</th></tr>
+  <tr><td>G1</td><td>Process-axis cross-model CV &gt; matched content-axis CV (dead cells excluded; + A-1 per-item-grain sensitivity, reversal → PROVISIONAL)</td><td class="dim">pending run</td></tr>
+  <tr><td>G2</td><td>≥90% of model pairs separated at p&lt;0.01 on ≥1 resource manipulation + outlier guard (+ OR-6 within/cross-vendor split disclosure)</td><td class="dim">pending run</td></tr>
+  <tr><td>G3</td><td>Fallback mode (zero humans, locked): consistent direction on the Greene subset, ≥4/5 items, both frames → CONDITIONAL PASS</td><td class="dim">pending run</td></tr>
+  </table>
+
+  <h3>OR-1…OR-7 condition checklist (2026-07-11 memo — all block the paid run except OR-6)</h3>
+  <table>
+  <tr><th>#</th><th>Amendment</th><th>Status</th></tr>
+  <tr><td>OR-1</td><td>OpenAI-family reasoning control per condition (forced_immediate effort-minimal + 64-token ladder; extended_thinking effort-high) — fixes the subject-side starvation</td><td class="dim">☐ pending</td></tr>
+  <tr><td>OR-2</td><td>Judge truncation observability (finish_reason/usage; escalate-then-fail-loud; sidecar log)</td><td class="dim">☐ pending</td></tr>
+  <tr><td>OR-3</td><td>Strict stance parse (fullmatch 1–5 + one re-ask; kills the first-match "on a 1-5 scale"→1 corruption)</td><td class="dim">☐ pending</td></tr>
+  <tr><td>OR-4</td><td>Judge pinning: gpt-5-mini + sonnet-4-6, temperature 0, effort low (+ fix stale haiku supports_thinking)</td><td class="dim">☐ pending</td></tr>
+  <tr><td>OR-5</td><td>Persist response_model / provider / finish_reason / usage per record (drift + provider-mix detection)</td><td class="dim">☐ pending</td></tr>
+  <tr><td>OR-6</td><td>G2 within/cross-vendor separation split (reporting only)</td><td class="dim">☐ pending</td></tr>
+  <tr><td>OR-7</td><td>5×5 model×condition smoke matrix + both-direction judges + mirror-flip neutrality + cost approval</td><td class="dim">☐ pending</td></tr>
+  </table>
+  <p class="dim">P0 budget: <b>$350–700</b> (~53,300 calls, 30–75 h serial, checkpointed) — binding number
+  comes from the OR-7(e) smoke-fed estimate. Adjudication is mechanical per
+  <code>DUPLEX-P0/20260706-p0-adjudication-protocol.md</code> (+A-1, +OR-6, + the 2026-07-11 memo's
+  escalation rows). H-1 Haiku substitution applied &amp; disclosed.</p>
+</div>
+
+<div class="panel p04">
+  <h3>04 INTRA — within-tradition religious reasoning</h3>
+  <p>Denominational-level reasoning (Catholic/Orthodox/Protestant) via computable liturgical-language
+  items (the T2 recipe).</p>
+  <table>
+  <tr><td><b>State</b></td><td class="ok">SPEC + DRAFT</td></tr>
+  <tr><td><b>Built so far</b></td><td><code>20-DESIGNS/04-religious-intra.md</code> + board charters &amp; rater protocol <code>20260706-04-intra-board-charters-and-rater-protocol.md</code> (X4 amended at spot-check)</td></tr>
+  <tr><td><b>Blockers</b></td><td>WS-4 fix (sizing floors) in Session B; <span class="b b-jimmy">JIMMY</span> denominational board/rater recruitment + draft read-through</td></tr>
+  <tr><td><b>Next step</b></td><td>Session B fix; recruitment is the long pole — start early if 04 is prioritized</td></tr>
+  <tr><td><b>Session estimate</b></td><td>~4–6 build sessions + human-panel calendar time (post-v1)</td></tr>
+  </table>
+</div>
+
+<div class="panel p05">
+  <h3>05 CULTIVATE — in-situ cultural adaptation</h3>
+  <p>Emergent-context multiturn settings, divergent-value items, annotator-level cultural labels.</p>
+  <table>
+  <tr><td><b>State</b></td><td class="ok">SPEC + DRAFT</td></tr>
+  <tr><td><b>Built so far</b></td><td><code>20-DESIGNS/05-cultural-cultivate.md</code> + co-design brief &amp; annotator spec <code>20260706-05-cultivate-codesign-brief-and-annotator-spec.md</code></td></tr>
+  <tr><td><b>Blockers</b></td><td>WS-4 fix (instrument guard) in Session B; <span class="b b-jimmy">JIMMY</span> annotator recruitment + draft read-through</td></tr>
+  <tr><td><b>Next step</b></td><td>Session B fix; then waits on portfolio order + annotators</td></tr>
+  <tr><td><b>Session estimate</b></td><td>~4–6 build sessions + annotator calendar time (post-v1)</td></tr>
+  </table>
+</div>
+
+<div class="panel p06">
+  <h3>06 CRUX — value-conflict adjudication (pre-registered fallback build-first)</h3>
+  <p>Factorial procedural generation + consensus stratification; the generation engine is shared
+  infrastructure for 01/05 and downstream designs. Takes build-first if P0 fails.</p>
+  <table>
+  <tr><td><b>State</b></td><td class="warn">ENGINE BUILT — pre-P1 fixes pending</td></tr>
+  <tr><td><b>Built so far</b></td><td><code>20-DESIGNS/06-crosscutting-crux.md</code> · engine at <code>COOKBOOK/ENGINE/</code> (values/factorial/generator/shortcut-audit/pilot, 33 tests) · P1 validation survey PRE-REGISTERED <code>20260706-06-crux-p1-validation-survey-prereg.md</code></td></tr>
+  <tr><td><b>Blockers</b></td><td>Session C: ENG-1 factor-visibility + ENG-2 distinct-cells/id-uniqueness (BLOCK P1 instance generation); <span class="b b-jimmy">JIMMY</span> survey greenlight</td></tr>
+  <tr><td><b>Next step</b></td><td>Session C (half-session, credential-independent — foldable into any Opus session); survey launch on greenlight</td></tr>
+  <tr><td><b>Session estimate</b></td><td>0.5 (fixes) + ~4–6 P1 build sessions if CRUX wins the fork (2–3 of which count toward the v1 forecast)</td></tr>
+  </table>
+</div>
+</div><!-- /tabs -->
+
+<!-- ══════════════════════ 6. CRITICAL PATH ══════════════════════ -->
+<h2 id="path">6 · Critical path — where we're going <span class="chip live">LIVE</span></h2>
+<div class="card">
+<ol style="margin:6px 0 6px 18px;padding:0">
+<li><b>Opus session (prepared → §9):</b> land OR-1…OR-6 (TDD) + stage the OR-7 smoke. Credential-independent except the smoke's Anthropic leg.</li>
+<li><b>Paid P0 run</b> (needs Jimmy ①–③): OR-7 smoke → cost approval → <code>run_p0.py</code> (30–75 h, checkpointed) → mechanical adjudication → <b>③ FORK CALL</b>.</li>
+<li><b>Session B</b> (KB fix pass + WS-4/WS-5 point fixes) and <b>Session C</b> (ENGINE ENG-1/2, half) — credential-independent, can run before/alongside 1–2.</li>
+<li><b>P1 build of the fork winner</b> (DUPLEX generator or CRUX instances) — ~3–5 sessions.</li>
+<li><b>Write-up</b> — ~2–4 sessions; remaining designs staged as gate-cleared specs.</li>
+</ol>
+<p class="dim">Who owes what: <span class="b b-jimmy">JIMMY</span> credential · top-up · cost approval ·
+survey greenlight · read-throughs · panels &nbsp;|&nbsp; <span class="b b-opus">OPUS</span> everything
+mechanical above &nbsp;|&nbsp; escalations → PR-NN memo → Jimmy (post-Fable-window rule; the Fable window
+closed 2026-07-11 with zero COOKBOOK items Fable-blocked).</p>
+</div>
+
+<!-- ══════════════════════ 7. BUDGET ══════════════════════ -->
+<h2 id="budget">7 · Budget <span class="chip live">LIVE</span></h2>
+<table>
+<tr><th>Item</th><th>Workstream</th><th>Est.</th><th>Actual</th><th>Status</th></tr>
+<tr><td>OR-7 pre-run smoke matrix (~50 calls)</td><td>03 / P0</td><td>$1–3</td><td>—</td><td class="dim">pending</td></tr>
+<tr><td>P0 paid run (~53,300 calls, 6 models + judges)</td><td>03 / P0</td><td>$350–700</td><td>—</td><td class="dim">pending approval</td></tr>
+<tr><td>All other workstreams to date</td><td>—</td><td>$0 live spend</td><td>$0</td><td class="ok">—</td></tr>
+<!-- AGENTS: append live-spend rows here after any paid run. -->
+</table>
+
+<!-- ══════════════════════ 8. KEY DOCUMENTS ══════════════════════ -->
+<h2 id="docs">8 · Reference — key documents <span class="chip hist">HISTORY</span></h2>
+<table>
+<tr><th>Doc</th><th>Role</th></tr>
+<tr><td><code>Fable-Assessment/20260707-00-master-assessment-and-roadmap.md</code></td><td>Master roadmap (Sessions A/B/C queue) — Session A complete</td></tr>
+<tr><td><code>20260706-fable-exit-sequencing-memo.md</code></td><td>Cross-track build order + post-window delegation downgrade map</td></tr>
+<tr><td><code>20-DESIGNS/REVIEWS/20260705-adjudication-memo.md</code></td><td>Gate adjudication + X1–X6 standards (frozen)</td></tr>
+<tr><td><code>20-DESIGNS/DUPLEX-P0/20260706-p0-adjudication-protocol.md</code></td><td>Pre-registered P0 pass/fail rubric (frozen; +A-1)</td></tr>
+<tr><td><code>20-DESIGNS/DUPLEX-P0/20260709-fable-session-a-review.md</code></td><td>Session-A validity rulings SA-1…9 / F-1…F-5 (frozen)</td></tr>
+<tr><td><code>20-DESIGNS/DUPLEX-P0/20260711-fable-openrouter-prerun-validity-review.md</code></td><td>Latest binding memo — OR-1…OR-7 + run-session preconditions</td></tr>
+<tr><td><code>20260709-next-session-handoff.md</code></td><td>Consolidated core-track entry handoff (superseded in part by the 07-11 memo for the DUPLEX lane)</td></tr>
+<tr><td><code>AGENTS.md</code></td><td>Agent charter incl. the dashboard protocol (this file's rules)</td></tr>
+</table>
+
+<!-- ══════════════════════ 9. UPDATE LOG ══════════════════════ -->
+<h2 id="log">9 · Dashboard update log <span class="chip live">LIVE</span></h2>
+<table>
+<tr><th>Date</th><th>Agent</th><th>Change</th></tr>
+<tr><td>2026-07-11</td><td>Claude (Fable)</td><td>Dashboard created (genesis → OR-review state; 6 design tabs; first next-session prompt staged)</td></tr>
+<!-- AGENTS: append one row per session, newest LAST. Never edit prior rows. -->
+</table>
+
+<!-- ══════════════════════ 10. NEXT SESSION ══════════════════════ -->
+<h2 id="next">10 · INSTRUCTIONS FOR NEXT SESSION <span class="chip live">LIVE</span></h2>
+<p class="dim">This section is REWRITTEN every time a new session is prepared — whoever stages a session
+replaces the block below (paste text, model, directory) so the next session always launches straight
+from this dashboard. Superseded prompts live on in their dated files.</p>
+<div class="card">
+<table class="next-meta">
+<tr><td><b>Model</b></td><td>Opus (builder session — no Fable needed; escalations → PR-NN memo → Jimmy)</td></tr>
+<tr><td><b>Directory</b></td><td><code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</code></td></tr>
+<tr><td><b>Lane</b></td><td><code>COOKBOOK/20-DESIGNS/DUPLEX-P0/</code> only (path-scoped staging)</td></tr>
+<tr><td><b>Prepared</b></td><td>2026-07-11 · by Claude (Fable)</td></tr>
+</table>
+<div class="paste">You are an OPUS builder session for DUPLEX-P0 (COOKBOOK core track).
+Working directory: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS
+LANE = COOKBOOK/20-DESIGNS/DUPLEX-P0/ ONLY. Path-scoped staging (never `git add -A`);
+run `git log -1` immediately before any commit (concurrent sibling sessions share the index).
+
+ON OPENING (dashboard protocol): read COOKBOOK/project-dashboard.html — Live status,
+tab "03 DUPLEX · P0", and this section — then COOKBOOK/AGENTS.md, then your work order:
+COOKBOOK/20-DESIGNS/DUPLEX-P0/20260711-fable-openrouter-prerun-validity-review.md
+(binding; esp. §Pre-registered amendments and §Run-session preconditions block), plus the
+20260710-openrouter-live-validation-and-judge-fix.md evidence memo.
+
+TASK — land amendments OR-1…OR-6, TDD red→green, one spec-quoting test per requirement
+(suite is currently 144/144; expect growth):
+  OR-1  OpenAIAPIAdapter `reasoning` pass-through (extra_body) + vendor-conditional condition
+        overlay: openai forced_immediate → effort minimal + max_tokens 64 (ladder 64→128→256
+        at smoke); extended_thinking → effort high, max_tokens 4096; never send the Anthropic
+        `thinking` dict to the openai adapter; per-vendor compliance reporting + disclosure.
+  OR-2  Judge truncation observability: finish_reason + usage on every judge call; empty or
+        length-stop ⇒ administration defect → one retry at 8192 → fail-loud; sidecar log
+        results/p0-judge-calls.jsonl; per-direction defect counts in reporting.
+  OR-3  Strict stance parse (stripped fullmatch [1-5], tolerate trailing period) + ONE
+        constrained re-ask + parse-defect logging. "On a 1-5 scale, I rate this 4" must NOT
+        parse as 1.
+  OR-4  judge_routing.pinned {anthropic: openai/gpt-5-mini, openai: claude-sonnet-4-6} honored
+        by assign_judges (fail loud on same-vendor/disabled pin); judge_temperature=0.0 in
+        main; judge reasoning effort low; fix stale haiku supports_thinking metadata.
+  OR-5  Persist response_model / provider / finish_reason / usage per record (from
+        AdapterResult.raw; no full raw bodies).
+  OR-6  pairwise_separation gains within-vendor vs cross-vendor separated-fraction split
+        (reporting only, no gate change).
+Then STAGE the OR-7 smoke (5 models × 5 conditions × 1 item + both judge directions +
+mirror-flip neutrality via judge_neutrality_check + cost extrapolation) — script it, but do
+NOT execute the paid run unless Jimmy has provided the Anthropic credential AND approved the
+OR-7(e) cost estimate in-session. Secrets (~/.codex/secrets/openrouter.env) are Jimmy's —
+source at call time only, never echo or commit values.
+
+DELIVERABLES: new dated checklist-evidence addendum (one row per OR; do NOT edit prior dated
+files) + a dated session handoff.
+ON CLOSING (dashboard protocol): update COOKBOOK/project-dashboard.html IN PLACE per
+AGENTS.md §The project dashboard — Last-updated line, Live status, progress bars, tab 03
+(OR checklist ticks), History row, Update-log row, and REWRITE this §10 with the boot
+prompt for whatever comes next (likely: the paid P0 run session, model Opus).</div>
+</div>
+
+<footer>
+COOKBOOK Project Dashboard — LIVING DOCUMENT. Every agent (Anthropic/Claude, OpenAI/Codex, or any
+other model) working the COOKBOOK core opens this file at session start and updates it in place at
+session end: (1) the "Last updated" line, (2) Live status, (3) progress bars, (4) the design tab(s)
+the session touched, (5) a History session row, (6) budget rows after live spend, (7) one appended
+Update-log line, (8) REWRITE §10 Instructions-for-next-session whenever a new session is prepared.
+Sections chipped HISTORY are append-only. This undated file is the ONE exception to the dated-file
+immutability convention — git history is its snapshot record; never create dated copies.
+<br><br>
+Self-contained: inline CSS, pure-CSS tabs, no JavaScript, no external fonts/CDNs · facts from the
+dated handoff chain and binding memos (cited in §8) · estimates are planning figures, not
+commitments · scope excludes 40-BIBLEBENCH/ (own dashboards) · created 2026-07-11 (Fable).
+</footer>
+
+</div>
+</body>
+</html>

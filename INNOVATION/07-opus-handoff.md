@@ -5,6 +5,10 @@
 
 ## How to use this file
 
+**First:** open `INNOVATION/project-dashboard.html` (Live status + §Instructions-for-next-session)
+at session start, and update it per `INNOVATION/AGENTS.md §The project dashboard` at session end —
+this binds ALL agents (Claude, Codex, any model). *(Added 2026-07-11 per charter amendment.)*
+
 Work top-down within the current cycle. Every task names its tier — dispatch subagents with an explicit `model=` per the Fable-week/global tiering protocol (which remains good practice post-window: Sonnet/Haiku for mechanical work). Read the referenced RP brief *before* starting its tasks; briefs contain binding kill criteria (charter rule 2). When a task says "Fable-tier review," queue the artifact in a PENDING-RULINGS list per the succession-protocol pattern (`FRUITBENCH-REVIEWS/20260706-succession-protocol.md`) rather than self-approving — Jimmy adjudicates if no Fable window exists.
 
 ## Cycle 1 — key-independent (start immediately)

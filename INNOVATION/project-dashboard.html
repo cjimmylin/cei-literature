@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--
+  ═══════════════════════════════════════════════════════════════════════════
+  LIVING DOCUMENT — INNOVATION PROJECT DASHBOARD — UPDATE ME, DO NOT SNAPSHOT
+  ═══════════════════════════════════════════════════════════════════════════
+  This file is the INNOVATION lane's ONE deliberate exception to the vault's
+  report-immutability rule (Jimmy's direction, 2026-07-11; charter amendment
+  00-CHARTER/20260711-governance-amendment-dashboard.md). ALL agents working
+  the INNOVATION lane — Anthropic/Claude, OpenAI/Codex, and any other model —
+  must:
+    1. READ this dashboard at session start (alongside INNOVATION/AGENTS.md
+       and the latest dated handoff).
+    2. UPDATE it at session end, in place: refresh every section chipped LIVE
+       that your session made stale, bump the "Last updated" line in the
+       banner, and append a row to the Changelog (§11). Keep edits truthful
+       and terse. Sections chipped HISTORY are frozen — append, never rewrite.
+    3. REWRITE §12 "Instructions for next session" every time a new boot or
+       re-entry prompt is prepared, so the next session can always be launched
+       straight from this page.
+    4. Revise the session forecasts (§3) only on material change.
+    5. NEVER let this file replace dated reports — those remain the immutable
+       evidentiary record; this dashboard summarizes and CITES them.
+    6. Keep it fully self-contained: inline CSS only, NO JavaScript, NO
+       external fonts/CDNs (must render offline via file://).
+  Update protocol in full: INNOVATION/AGENTS.md §The project dashboard.
+  ═══════════════════════════════════════════════════════════════════════════
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INNOVATION — Project Dashboard (living)</title>
+<style>
+:root{
+  --bg:#0d1220; --panel:#141b2e; --panel2:#1a2340; --ink:#dce3f2; --dim:#8b96b0;
+  --gold:#e0b64f; --teal:#4fd0c0; --purple:#a98fe8; --red:#e06a6a; --green:#5fc98a;
+  --amber:#e59a4f; --blue:#6aa5e0; --line:#2a3555;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;margin:0;padding:0 0 80px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+h1{font-size:26px;margin:26px 0 4px}
+h2{font-size:19px;margin:38px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+h3{font-size:15px;margin:18px 0 6px;color:var(--gold)}
+a{color:var(--teal);text-decoration:none}
+code,.path{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--teal);background:#0f1526;padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:13.5px}
+th{color:var(--dim);text-align:left;font-weight:600;border-bottom:1px solid var(--line);padding:6px 8px}
+td{border-bottom:1px solid #1e2742;padding:6px 8px;vertical-align:top}
+tr:last-child td{border-bottom:none}
+.banner{background:linear-gradient(90deg,#1a2340,#141b2e);border:1px solid var(--gold);border-radius:10px;padding:12px 16px;margin:18px 0;font-size:13.5px}
+.banner b{color:var(--gold)}
+.chip{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;border-radius:10px;padding:1px 9px;vertical-align:2px;margin-left:8px}
+.chip.live{background:#153826;color:var(--green);border:1px solid var(--green)}
+.chip.hist{background:#2a2438;color:var(--purple);border:1px solid var(--purple)}
+.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:1px 7px;margin-right:4px}
+.b-done{background:#153826;color:var(--green)} .b-open{background:#3a2a15;color:var(--amber)}
+.b-gate{background:#38151a;color:var(--red)} .b-run{background:#152a3a;color:var(--blue)}
+.b-fable{background:#2a2438;color:var(--purple)} .b-opus{background:#3a2a15;color:var(--amber)}
+.b-sonnet{background:#152a3a;color:var(--blue)} .b-jimmy{background:#3a1530;color:#e08fc9}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:12px 0}
+.live-panel{background:#20222e;border:1px solid var(--amber);border-radius:10px;padding:14px 18px;margin:12px 0}
+.answer-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0}
+.answer{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:14px 18px}
+.answer .big{font-size:30px;font-weight:800;color:var(--gold)}
+.answer .sub{color:var(--dim);font-size:12.5px}
+.statstrip{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:12px 0}
+.stat{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 10px;text-align:center}
+.stat .n{font-size:20px;font-weight:800;color:var(--teal)}
+.stat .l{font-size:11px;color:var(--dim)}
+.here{background:#2b2410;border:1px dashed var(--gold);border-radius:8px;padding:8px 14px;margin:10px 0;font-size:13.5px}
+ul.tl{list-style:none;margin:8px 0;padding-left:22px;border-left:2px solid var(--line)}
+ul.tl li{margin:0 0 14px;position:relative;padding-left:14px}
+ul.tl li::before{content:"";position:absolute;left:-28px;top:5px;width:10px;height:10px;border-radius:50%;background:var(--teal)}
+ul.tl .d{color:var(--gold);font-weight:700;font-size:13px}
+.lanes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:12px 0}
+.lane{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:13.5px}
+.lane h4{margin:0 0 8px;font-size:13px;letter-spacing:.05em}
+.lane ul{margin:0;padding-left:18px}
+.lane li{margin-bottom:6px}
+.bar{display:flex;height:16px;border-radius:8px;overflow:hidden;margin:10px 0;border:1px solid var(--line)}
+.seg{height:100%}
+.legend{font-size:12px;color:var(--dim)}
+pre.paste{background:#0f1526;border:1px solid var(--teal);border-radius:10px;padding:14px 16px;font-size:12.5px;line-height:1.5;white-space:pre-wrap;color:#c8d4ea;font-family:ui-monospace,Menlo,Consolas,monospace}
+.next{background:#10231e;border:2px solid var(--green);border-radius:12px;padding:16px 20px;margin:14px 0}
+.footer{color:var(--dim);font-size:12px;border-top:1px solid var(--line);margin-top:44px;padding-top:14px}
+.small{font-size:12.5px;color:var(--dim)}
+@media print{body{background:#fff;color:#111}.panel,.live-panel,.answer,.stat,.lane{background:#f5f5f5;border-color:#ccc}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>🧭 INNOVATION — Project Dashboard</h1>
+<div class="banner">
+<b>LIVING DOCUMENT — continually updated by ALL agents</b> working this lane: Anthropic (Claude — Fable/Opus/Sonnet/Haiku), OpenAI (Codex), and any other model. Read at session <b>open</b>, update in place at session <b>close</b>; protocol: <code>INNOVATION/AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">LIVE</span> (maintain) or <span class="chip hist">HISTORY</span> (frozen; append-only).<br>
+<b>Last updated:</b> 2026-07-11 · by Claude (Fable), P3-gate session — dashboard created; P3 pre-submission gate executed (CONDITIONAL-GO).
+</div>
+
+<!-- ══════════════ 1. LIVE STATUS ══════════════ -->
+<h2 id="live">⚡ Live status — 2026-07-11 <span class="chip live">LIVE</span></h2>
+<div class="live-panel">
+<b>Cycle 1 is CLOSED</b> (DL-21, 2026-07-10) and the lane's last non-Jimmy residual — the <b>P3 pre-submission adversarial review gate</b> — was <b>EXECUTED this session</b>. Verdict: <b style="color:var(--amber)">CONDITIONAL-GO</b> with a binding revision work order (<code>INNOVATION/20260711-fable-p3-presubmission-review.md</code> §5). Two independent refute-first Opus reviews (validity/evidence VE-1…16; novelty/positioning NP-1…10) were adjudicated by Fable in-loop; the dominant finding is <i>self-preemption</i> — draft-v0 was written from search summaries, and 4 of its 6 "the field lacks X" claims are preempted by its own now-readable VERIFIED citations. Architecture + two contributions survive intact. Citation ledger is now <b>61 VERIFIED / 3 SEARCH-CONFIRMED / 0 ⚠ of 64</b> (<code>…/20260711-ledger-v2.md</code>) after a 10-source acquisition pass + Fable's W3 ruling. Post-window Fable gates were front-loaded into mechanical protocols (<code>20260711-fable-gate-protocols-memo.md</code>).<br><br>
+<b>Open items:</b> PR-02 (CLI-OAuth posture) and PR-03 (Stage-4 vocab patch) await Jimmy in <code>PENDING-RULINGS.md</code>; API keys (gate #1) block Cycle 2 entirely; draft-v0 and ledger-v1 remain frozen; <b>draft-v1 does not exist yet</b> — it is the next session (§12). External use of P3 remains Jimmy's decision regardless of the gate verdict.
+</div>
+<div class="here">📍 <b>YOU ARE HERE</b> — Fable window closes ≈2026-07-11. Everything session-executable in this lane is done or handed to post-window Opus with pre-registered protocols. Next Fable session globally: Governance Symphony (different lane).</div>
+
+<!-- ══════════════ 2. FORECASTS ══════════════ -->
+<h2 id="forecast">Session forecasts <span class="chip live">LIVE</span></h2>
+<div class="answer-grid">
+  <div class="answer"><div class="big">≈ 2–3 sessions</div>
+  <b>To a finalized P3 position paper</b>
+  <div class="sub">1 Opus session: draft-v1 per work order (A/B/C items) → 1 light re-gate session (Opus memo → Jimmy; Fable if a window exists) → Jimmy's external-use decision. Range covers a possible second revision round.</div></div>
+  <div class="answer"><div class="big">≈ 13–21 sessions</div>
+  <b>To the full 10-RP portfolio through Cycle 4</b>
+  <div class="sub">AFTER API keys land (Jimmy gate #1): Cycle 2 ≈ 3–5 (runner + HAWTHORNE + RP-04 phase 1) · Cycle 3 ≈ 4–6 · Cycle 4 ≈ 6–10. Planning figures, not commitments; GPU budget + human raters gate parts of Cycles 3–4.</div></div>
+</div>
+<div class="small"><b>Where we are:</b> charter + field map + gap atlas + 10 RP briefs DONE · Cycle 1 CLOSED (acquisitions 43/43 + 17/17 + manual 9 + gap-fill 8 net; fairgold 49/49; RP-01 registries; RP-04 prep; ledgers v1→v2) · P3 gate EXECUTED (CONDITIONAL-GO) · Cycles 2–4 key-gated.</div>
+<div class="bar">
+  <div class="seg" style="width:38%;background:var(--green)" title="Done"></div>
+  <div class="seg" style="width:9%;background:var(--gold)" title="P3 finalization"></div>
+  <div class="seg" style="width:53%;background:#31415f" title="Cycles 2–4 (key-gated)"></div>
+</div>
+<div class="legend">■ green: authored + Cycle 1 + gate (done) · ■ gold: P3 finalization (≈2–3 sessions) · ■ slate: Cycles 2–4 (≈13–21 sessions, key-gated)</div>
+
+<!-- ══════════════ 3. MISSION ══════════════ -->
+<h2 id="mission">Mission &amp; charter <span class="chip hist">HISTORY</span></h2>
+<div class="panel">
+The INNOVATION lane (authored 2026-07-07, one Fable session) maps the 2025–26 values-alignment measurement frontier and converts CEI's benchmark craft into research programs. Assets: <b>field map</b> (<code>01-field-map-2026.md</code>, six-stage pipeline A–F + §6 falsifiable bets B1–B5, review 2027-07), <b>gap atlas</b> (<code>02-gap-atlas.md</code>, G-01…G-23), <b>10 research programs</b> (<code>05-research-programs/RP-01…RP-10</code>: SPECGRADE, FAIRGOLD, NOGOLD, HIDDENCURRICULUM, DRIFTLAB, SAYDO, HAWTHORNE, CONCLAVE, SEISMOGRAPH, COMMONS — each with binding kill criteria), and <b>deliverables</b> (P1 acquisitions, P2 sweeps, <b>P3 position paper</b> "Measurement Is the Missing Half of Outer Alignment", D6, C1). Standing discipline: evidence classes (<code>[VERIFIED]/[SEARCH-CONFIRMED]/[⚠]</code>) travel with every citation; report immutability (new dated files); kill criteria execute mechanically — softening requires Jimmy.
+</div>
+<div class="statstrip">
+  <div class="stat"><div class="n">23</div><div class="l">gaps G-01…G-23</div></div>
+  <div class="stat"><div class="n">10</div><div class="l">RP briefs</div></div>
+  <div class="stat"><div class="n">64</div><div class="l">P3 ledger rows</div></div>
+  <div class="stat"><div class="n">61</div><div class="l">VERIFIED (95%)</div></div>
+  <div class="stat"><div class="n">~78</div><div class="l">papers acquired</div></div>
+</div>
+
+<!-- ══════════════ 4. TIMELINE ══════════════ -->
+<h2 id="history">History — plan since the beginning <span class="chip hist">HISTORY</span> <span class="small">(append-only)</span></h2>
+<ul class="tl">
+<li><span class="d">2026-07-07</span> <span class="badge b-fable">FABLE</span> <b>Lane authored in one session:</b> charter + governance protocol, field map (pipeline A–F, bets B1–B5), gap atlas G-01…G-23, newest-ideas scan, missing-literature list, 10 RP briefs with kill criteria, deliverables roadmap, Opus execution queue (<code>07-opus-handoff.md</code>, Cycles 1–4).</li>
+<li><span class="d">2026-07-09</span> <span class="badge b-fable">FABLE</span><span class="badge b-opus">OPUS</span> <b>Cycle-1 execution wave:</b> PR-01 resolved (5 Stage-4 codes, Stage-3 mirror) · P1 acquisitions 17/17 · <code>fairgold</code> toolkit 49/49 tests (RP-02) · RP-04 corpus prep (key-gated at P2) · RP-01 registries (Model Spec 66 clauses + Constitution 49, SHA-256-stamped) · <b>P3 draft-v0</b> written + Fable screening · CLI-OAuth provisional runner (2 families GO, Google broken server-side; PR-02 opened).</li>
+<li><span class="d">2026-07-10</span> <span class="badge b-fable">FABLE</span><span class="badge b-sonnet">SONNET</span><span class="badge b-opus">OPUS</span> <b>Cycle 1 CLOSED (DL-21):</b> P2 arXiv 43/43 (incl. retitle-recovery) · manual/web ingests 8/8→9 records · <b>ledger-v1</b>: count drift reconciled, 52/64 VERIFIED · Stage-4 vocab inventory + A+C hybrid proposal → PR-03 queued · validation 0 errors · git pathspec incident disclosed (DL-22: 2,388 sibling papers swept into <code>5caae838f</code>; fix-forward, staged-only rule standing).</li>
+<li><span class="d">2026-07-11</span> <span class="badge b-fable">FABLE</span><span class="badge b-opus">OPUS</span><span class="badge b-sonnet">SONNET</span> <b>P3 pre-submission gate session (this session):</b> gap-fill acquisitions 10/13 (3 deferred: 2 OpenAI web artifacts + 1 paywalled) · duplicate-detection caught 2 pre-existing records (Ghate, Mazeika — recycled A1 copies, net 8 new; vault 2,445 validated) · <b>ledger-v2: 61/3/0</b> incl. Fable W3 ruling (Dönmez claim CONFIRMED by direct PDF inspection) · two independent adversarial reviews (VE-1…16, NP-1…10) · <b>VERDICT: CONDITIONAL-GO</b> + revision work order → draft-v1 · <b>Mission B:</b> 5 post-window Fable gates converted to mechanical "Opus memo → Jimmy decides" protocols · this dashboard instituted.</li>
+</ul>
+
+<!-- ══════════════ 5. CYCLE BOARD ══════════════ -->
+<h2 id="cycles">Cycle / queue board <span class="chip live">LIVE</span></h2>
+<table>
+<tr><th>Cycle</th><th>Contents (from <code>07-opus-handoff.md</code>)</th><th>Status</th></tr>
+<tr><td><b>1</b> — key-independent</td><td>1.1 taxonomy · 1.2 acquisitions · 1.3 fairgold · 1.4 P3 hardening · 1.5 RP-04 prep · 1.6 RP-01 registries</td><td><span class="badge b-done">CLOSED 2026-07-10</span> P3 gate executed 07-11</td></tr>
+<tr><td><b>2</b> — keys arrive</td><td>2.1 shared runner (provisional CLI-OAuth half built) · 2.2 HAWTHORNE (flagship) · 2.3 RP-04 phase 1</td><td><span class="badge b-gate">KEY-GATED</span> gate #1: Anthropic+OpenAI min</td></tr>
+<tr><td><b>3</b> — strategic builds</td><td>3.1 NOGOLD · 3.2 SEISMOGRAPH (GPU gate) · 3.3 RP-01 O2–O3 (raters gate) · 3.4 COOKBOOK links · 3.5 vocab (residual = PR-03)</td><td><span class="badge b-open">QUEUED</span></td></tr>
+<tr><td><b>4+</b> — long poles</td><td>4.1 DRIFTLAB · 4.2 SAYDO · 4.3 CONCLAVE · 4.4 RP-02 invariance · 4.5 COMMONS · 4.6 bet review 2027-07</td><td><span class="badge b-open">QUEUED</span></td></tr>
+</table>
+<div class="small"><b>Jimmy's gate list (blocking, priority order):</b> 1. API keys → Cycle 2 · 2. GPU-inference budget → RP-09 + RP-04 ph.2 · 3. human raters → RP-01 O3, RP-08 ph.B · 4. D6 licensing (unlocks cheap artifact) · 5. C1 workshop (after P1–P3).</div>
+
+<!-- ══════════════ 6. RULINGS ══════════════ -->
+<h2 id="rulings">Rulings ledger <span class="chip live">LIVE</span></h2>
+<table>
+<tr><th>ID</th><th>Subject</th><th>Status</th><th>Where</th></tr>
+<tr><td>PR-01</td><td>Stage-4 taxonomy codes + routing</td><td><span class="badge b-done">RESOLVED 07-09</span></td><td><code>PENDING-RULINGS.md §Resolved</code></td></tr>
+<tr><td>PR-02</td><td>CLI-OAuth ToS posture + internal-citation boundary</td><td><span class="badge b-open">OPEN — Jimmy</span></td><td><code>PENDING-RULINGS.md</code> (rec: full quarantine)</td></tr>
+<tr><td>PR-03</td><td>Stage-4 vocab A+C hybrid patch (v1.6)</td><td><span class="badge b-open">OPEN — Jimmy</span></td><td><code>PENDING-RULINGS.md</code> (rec: apply as drafted)</td></tr>
+<tr><td>P3 gate</td><td>Pre-submission adversarial review</td><td><span class="badge b-done">EXECUTED 07-11</span> CONDITIONAL-GO</td><td><code>20260711-fable-p3-presubmission-review.md</code></td></tr>
+<tr><td>DL-chain</td><td>DL-01…DL-27 (append-only, one line each)</td><td><span class="badge b-run">LIVING</span></td><td><code>00-CHARTER/04-decision-log.md</code></td></tr>
+</table>
+
+<!-- ══════════════ 7. GATE PROTOCOLS ══════════════ -->
+<h2 id="gates">Front-loaded gate protocols (post-window) <span class="chip live">LIVE</span></h2>
+<div class="panel">
+The queue's embedded Fable-tier gates are pre-registered as mechanical <b>"Opus memo → Jimmy decides"</b> protocols in <code>INNOVATION/20260711-fable-gate-protocols-memo.md</code> (BINDING; no kill criterion softened):
+<table>
+<tr><th>Gate</th><th>Sample</th><th>Pass bar (pre-registered)</th></tr>
+<tr><td>RP-07 HAWTHORNE O1</td><td>20 item pairs</td><td>≥18/20 PASS, zero construct-mismatch/leakage fails (H-1/H-3)</td></tr>
+<tr><td>RP-03 NOGOLD O4</td><td>30 dry-run transcripts</td><td>zero tier-leakage/prior-contamination; corruption signatures ≤10%</td></tr>
+<tr><td>RP-06 SAYDO O1</td><td>30 triplets</td><td>≥27/30 PASS, zero premise-swap minimal-pair violations (S-3)</td></tr>
+<tr><td>RP-08 CONCLAVE O1</td><td>≥40 held-out items/tradition</td><td>≥75% AND ≥2× chance per tradition; K1 halt verbatim (Jimmy may adjust numbers BEFORE first run)</td></tr>
+<tr><td>RP-08 CONCLAVE O4</td><td>non-negotiables registries</td><td>NO auto-proceed — per-tradition Jimmy sign-off, C-1…C-5 rubric</td></tr>
+</table>
+Kill-criteria softening procedure: memo §7 — Jimmy is the only softening authority post-window; executing sessions STOP + queue a PR entry.
+</div>
+
+<!-- ══════════════ 8. LANES ══════════════ -->
+<h2 id="lanes">Who owes what <span class="chip live">LIVE</span></h2>
+<div class="lanes">
+<div class="lane"><h4 style="color:#e08fc9">JIMMY — human critical path</h4><ul>
+<li>PR-02, PR-03 rulings</li>
+<li>API keys (gate #1 → Cycle 2)</li>
+<li>GPU budget · human raters</li>
+<li>P3 external-use decision (after draft-v1 + re-gate)</li>
+<li>D6 licensing · C1 workshop</li></ul></div>
+<div class="lane"><h4 style="color:var(--amber)">OPUS — post-window execution</h4><ul>
+<li><b>NEXT: P3 draft-v1</b> per verdict-memo §5 work order (§12 below)</li>
+<li>Light re-gate memo for draft-v1</li>
+<li>PR-03 patch (mechanical, once signed)</li>
+<li>Cycle 2–4 items as gates clear, using §7 protocols</li></ul></div>
+<div class="lane"><h4 style="color:var(--purple)">FABLE — re-entry (if window)</h4><ul>
+<li>Draft-v1 re-gate (substitutes for Opus memo, same criteria)</li>
+<li>Gate escalations Jimmy delegates</li>
+<li>2027-07 bet review (B1–B5)</li>
+<li>Otherwise: nothing Fable-blocked remains</li></ul></div>
+</div>
+
+<!-- ══════════════ 9. DOC MAP ══════════════ -->
+<h2 id="docs">Document map <span class="chip live">LIVE</span></h2>
+<table>
+<tr><th>Artifact</th><th>Path (under <code>CEI-Lit-WS/INNOVATION/</code>)</th></tr>
+<tr><td>This dashboard (living) · agents protocol</td><td><code>project-dashboard.html</code> · <code>AGENTS.md</code></td></tr>
+<tr><td>Charter / governance / vocabulary / re-entry / decision log</td><td><code>00-CHARTER/</code> (04 = living, append-only)</td></tr>
+<tr><td>Field map · gap atlas · RP briefs · roadmap</td><td><code>01-field-map-2026.md</code> · <code>02-gap-atlas.md</code> · <code>05-research-programs/</code> · <code>06-deliverables-roadmap.md</code></td></tr>
+<tr><td>Execution queue (living checkboxes)</td><td><code>07-opus-handoff.md</code></td></tr>
+<tr><td>Pending rulings (living)</td><td><code>PENDING-RULINGS.md</code></td></tr>
+<tr><td>P3 frozen draft · ledgers (v1 frozen, v2 current)</td><td><code>40-BUILDS/p3-position-paper/20260709-draft-v0.md</code> · <code>20260710-ledger-v1.md</code> · <code>20260711-ledger-v2.md</code></td></tr>
+<tr><td>P3 adversarial reviews (2) + BINDING verdict</td><td><code>40-BUILDS/p3-position-paper/20260711-review-{validity-evidence,novelty-positioning}.md</code> · <code>20260711-fable-p3-presubmission-review.md</code></td></tr>
+<tr><td>Gate-protocols memo (BINDING)</td><td><code>20260711-fable-gate-protocols-memo.md</code></td></tr>
+<tr><td>Builds: registries · fairgold · rp04 · runner · acquisition logs</td><td><code>40-BUILDS/</code></td></tr>
+<tr><td>Latest session handoff</td><td><code>20260711-p3-gate-session-handoff.md</code></td></tr>
+</table>
+
+<!-- ══════════════ 10/11. PROTOCOL + CHANGELOG ══════════════ -->
+<h2 id="protocol">Dashboard protocol &amp; changelog <span class="chip live">LIVE</span> <span class="small">(changelog append-only)</span></h2>
+<div class="panel small">
+Full protocol: <code>INNOVATION/AGENTS.md §The project dashboard</code> and the HTML comment at the top of this file. Summary: read at session open · update LIVE sections + banner + changelog at session close · rewrite §12 whenever a new session is prepared · HISTORY sections frozen · dated reports stay the evidentiary record · self-contained (inline CSS, no JS/CDN).
+</div>
+<table>
+<tr><th>Date</th><th>Agent</th><th>Change</th></tr>
+<tr><td>2026-07-11</td><td>Claude (Fable)</td><td>Dashboard created (Jimmy direction). Initial state: Cycle 1 closed; P3 gate executed → CONDITIONAL-GO; ledger-v2 61/3/0; gate-protocols memo; §12 = draft-v1 Opus session.</td></tr>
+</table>
+
+<!-- ══════════════ 12. NEXT SESSION ══════════════ -->
+<h2 id="next-session">▶ INSTRUCTIONS FOR NEXT SESSION <span class="chip live">LIVE</span> <span class="small">(rewritten every time a new session is prepared)</span></h2>
+<div class="next">
+<table>
+<tr><th style="width:170px">Session</th><td><b>P3 draft-v1 build</b> (revision work order execution)</td></tr>
+<tr><th>Model</th><td><b>Opus</b> (<code>/model opus</code>) — mechanical-with-craft execution from a binding work order; no Fable needed</td></tr>
+<tr><th>Directory</th><td><code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/</code> (single lane: <code>INNOVATION/</code>)</td></tr>
+<tr><th>Prepared</th><td>2026-07-11, by the Fable P3-gate session</td></tr>
+<tr><th>Human needed?</th><td>No (Jimmy's decisions come AFTER: re-gate ratification + external-use call). PR-02/PR-03 remain separately with Jimmy.</td></tr>
+</table>
+<b>Paste this boot prompt:</b>
+<pre class="paste">This is an Opus session (/model opus), single lane: CEI-Lit-WS/INNOVATION/. EXECUTION mode.
+On session open: read INNOVATION/project-dashboard.html (Live status first) + INNOVATION/AGENTS.md.
+
+MISSION: build P3 draft-v1 per the BINDING work order in
+INNOVATION/20260711-fable-p3-presubmission-review.md §5 (read it in full first).
+
+Inputs (read-only): 40-BUILDS/p3-position-paper/20260709-draft-v0.md (FROZEN — never edit),
+20260711-ledger-v2.md (current ledger, 61/3/0), both 20260711-review-*.md files, the verdict memo.
+
+Output: 40-BUILDS/p3-position-paper/&lt;YYYYMMDD&gt;-draft-v1.md (NEW dated file) + a one-page change
+map keyed to work-order item codes (A-1…A-9 correctness · B-1…B-5 repositioning · C-1…C-4 evidence
+hygiene). Every item REQUIRED unless marked optional; add no new claims without ledger rows.
+
+Also execute: C-1 (S1/S10 OpenAI web artifacts — Playwright-render + prose-verify per the Lane-B
+manual-ingest precedent, or keep explicit web-citation hedging; S11 stays hedged, do NOT scrape);
+C-2 (verify §6's utility-engineering characterization against the on-disk Mazeika extract);
+C-3 (check/acquire Berriaud &amp; Wattenhofer, AAMAS 2026, clone-robust benchmark aggregation —
+adjust contribution 4a's originality claim if needed; verify identity before any download).
+
+Hard rules: report immutability (new dated files only; draft-v0 + ledger-v1 frozen) · evidence-class
+tags travel with every citation · tags: empty scalar on any new paper record · run
+validate_all_papers.py ONCE if records created · no rm ever (RECYCLE-BIN) · git: stage ONLY your
+named files, verify git diff --cached --name-only, plain git commit — NEVER add -A, NEVER pathspec
+commits (DL-22) · check the WHOLE vault (grep papers/ by arXiv ID) before acquiring anything (DL-26).
+
+On close: queue draft-v1 for the light re-gate (Opus memo → Jimmy, per
+20260711-fable-gate-protocols-memo.md §1 pattern; re-review checks the change map against the work
+order only); write a dated handoff; append DL entries; update the dashboard per AGENTS.md
+§The project dashboard — including REWRITING its §Instructions-for-next-session to the re-gate
+session.</pre>
+<div class="small">Note: the next <b>Fable</b> session globally is <b>Governance Symphony</b> (<code>CEI-AI-Statements/GENERATION3/20260709-fable-session-boot-prompt.md</code>, per FABLE-WEEK) — a different lane. The prompt above is this lane's next session and runs fine post-window.</div>
+</div>
+
+<div class="footer">
+INNOVATION Project Dashboard — LIVING DOCUMENT, the lane's ONE exception to dated-file immutability (charter amendment 20260711; git history is its snapshot record — never create dated copies). Facts from the dated handoff chain, decision log DL-01…, PENDING-RULINGS, ledger-v2, and the binding memos of 2026-07-11 · session estimates are planning figures, not commitments · created 2026-07-11 (Fable P3-gate session).
+</div>
+
+</div>
+</body>
+</html>

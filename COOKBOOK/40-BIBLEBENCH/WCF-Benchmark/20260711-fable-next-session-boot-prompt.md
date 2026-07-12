@@ -81,7 +81,8 @@ never cross-wire content.
    ratified, gate board if the pre-reg pins statuses, update-log line.
 2. Update the `wcf-bench-portfolio-state` memory note.
 3. Write the next re-entry boot prompt (carrying the dashboard open/close lines — standing
-   AGENTS.md convention) + a dated session handoff.
+   AGENTS.md convention) + a dated session handoff, AND rewrite the dashboard's
+   **§Instructions for next session** (paste text, model, directory) to point at it.
 4. Commit + push (explicit paths).
 
 > Fallback: if the Fable window has lapsed, run this same boot on **Opus** but DOWNGRADE:

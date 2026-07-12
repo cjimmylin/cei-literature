@@ -64,7 +64,7 @@
 |------|---------|--------|
 | 01-abstract-skeleton.md | Abstract | FABLE-REVIEWED |
 | 02-introduction.md | Introduction | FABLE-REVIEWED |
-| 03-related-work.md | Related work | FABLE-REVIEWED (3 `[VERIFY-CITATION]` open) |
+| 03-related-work.md | Related work | FABLE-REVIEWED (3 citations independently verified by Codex, 2026-07-12) |
 | 04-benchmark-design.md | Benchmark design | FABLE-REVIEWED (counts grep-verified vs bank) |
 | 05-methods-validity.md | Validity methodology | FABLE-REVIEWED (24 figures memo-verified) |
 | 06-experimental-setup.md | Experimental setup (pre-registered) | FABLE-REVIEWED (~40 thresholds prereg-verified) |

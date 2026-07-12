@@ -88,7 +88,7 @@ that a pairwise judge's ranking can be *hacked* simply by reordering candidates,
 demonstrating that position bias is large enough to invert conclusions, and proposed
 calibration strategies to counter it. Self-preference bias — a judge favoring outputs
 from its own model family — has since been isolated and quantified as a distinct effect
-(Zhang et al. 2024). These findings motivate cross-family judge panels, order
+(Wataoka et al. 2024). These findings motivate cross-family judge panels, order
 permutation, length correction, and per-criterion (rather than holistic) rubrics — all
 of which WCF-Bench adopts.
 
@@ -167,8 +167,7 @@ Whose Opinions Do Language Models Reflect? *International Conference on Machine 
 (ICML)*. arXiv:2303.17548.
 
 Scherrer, N., Shi, C., Feder, A., and Blei, D. (2023). Evaluating the Moral Beliefs
-Encoded in LLMs (MoralChoice). *NeurIPS 2023*. arXiv:2307.14324. [VERIFY-CITATION]
-(arXiv identifier not independently confirmed; verify before release.)
+Encoded in LLMs (MoralChoice). *NeurIPS 2023*. arXiv:2307.14324.
 
 Sorensen, T., Moore, J., Fisher, J., Gordon, M., et al. (2024). A Roadmap to Pluralistic
 Alignment. *International Conference on Machine Learning (ICML)*. arXiv:2402.05070.
@@ -181,12 +180,11 @@ Wang, P., Li, L., Chen, L., Cai, Z., Zhu, D., Lin, B., Cao, Y., Kong, L., Liu, Q
 T., and Sui, Z. (2023). Large Language Models are not Fair Evaluators. arXiv:2305.17926.
 (ACL 2024.)
 
-Xu, C., et al. (2024). Benchmark Data Contamination of Large Language Models: A Survey.
-arXiv:2406.04244. [VERIFY-CITATION] (author list not independently confirmed; verify
-before release.)
+Xu, C., Guan, S., Greene, D., and Kechadi, M.-T. (2024). Benchmark Data Contamination
+of Large Language Models: A Survey. arXiv:2406.04244.
 
-Zhang, K., et al. (2024). Self-Preference Bias in LLM-as-a-Judge. arXiv:2410.21819.
-[VERIFY-CITATION] (author list not independently confirmed; verify before release.)
+Wataoka, K., Takahashi, T., and Ri, R. (2024). Self-Preference Bias in LLM-as-a-Judge.
+arXiv:2410.21819.
 
 Zheng, L., Chiang, W.-L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z., Li, Z.,
 Li, D., Xing, E. P., Zhang, H., Gonzalez, J. E., and Stoica, I. (2023). Judging

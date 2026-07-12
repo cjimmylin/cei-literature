@@ -13,13 +13,13 @@
 - **R53:** MVP-testable uses the corrected single-family OPEN manifest, excludes EPISODE
   pending registry approval, and retains the PROOF artifact disclosure.
 
-**Current execution status:** T1 and T2 are complete and checked in the v2 plan. W-R48,
-W-R47.3, W-R49, W-R52.2, and the R54/R56 EPISODE registry application completed
-offline. The corrected manifest matches R47 F-1/F-2 exactly; the MVP OPEN re-parse
-covers 155 marker-hit verdicts across 65 cells with no new R42-material candidate; and
-the approved 22-entry registry loads outside review mode with R55.4 fixtures green.
-T2.5 now awaits Jimmy's R57-checklist ratification. There are no unresolved judgment
-questions in this file.
+**Current execution status:** T1 and T2 are complete and Jimmy ratified the verified R57
+checklist on 2026-07-12; durable record:
+`20260712l-jimmy-r57-ratification-record.md`. T2.5 is checked and WCF-Bench is MVP
+TESTABLE under R53/R58.1, retaining the R34.4 single-family OPEN label and all existing
+DESCRIPTIVE/PRE-GATE and PROOF disclosures. Paper P1 citation verification is also
+complete. Paid T3/T4 calls remain separately gated and unauthorized. There are no
+unresolved judgment questions in this file.
 
 ## Rulings received 2026-07-11
 
@@ -29,11 +29,11 @@ questions in this file.
 3. **Tasks 5–6:** Pause all paid calls and continue offline only.
 4. **Task 6:** Use the current citation-gated `judge_score_anchor_use` contract as-is.
 
-**Execution status:** Questions 1 and 3 are resolved. Question 2 is resolved through the
-draft stage; Task 5 is now human-review-gated. Question 4's scorer behavior is resolved,
-but its qualified manifest surface remains unspecified. Tasks 5 and 6 remain unchecked in
-the execution plan because their required live runs are prohibited by ruling 3. The
-historical question records below are retained for provenance.
+**Execution status:** Questions 1–3 are resolved through the R47–R57 work order and
+Jimmy's R57 ratification. Question 4's scorer behavior is resolved, but its qualified
+manifest surface remains unspecified and Task 6 remains deferred under R52. Paid T3/T4
+calls remain prohibited until Jimmy separately authorizes the specific roster, run, and
+budget. The historical question records below are retained for provenance.
 
 **Historical provisional packet:** `20260711-codex-provisional-adjudication-recommendations.md`
 was ratified/superseded by R47–R53. It remains provenance only and assigns no ruling

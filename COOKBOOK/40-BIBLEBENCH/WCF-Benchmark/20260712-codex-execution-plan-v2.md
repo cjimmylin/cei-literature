@@ -10,7 +10,7 @@ judgment. The v1 plan's anti-rabbit-hole rules and AGENTS.md remain in force.
 
 - [x] **T1 — R47–R53 offline work order** (no gate; boot detail: `20260712-codex-work-order-boot-prompt.md`)
 - [x] **T2 — EPISODE registry application (R54/R56)** (no gate)
-- [ ] **T2.5 — T1/T2 ratification recorded** (gate: R57 checklist passed by F2 or Jimmy — not Codex)
+- [x] **T2.5 — T1/T2 ratification recorded** (gate: R57 checklist passed by F2 or Jimmy — not Codex)
 - [ ] **T3 — EPISODE 88-cell live run** (gates: Jimmy paid-call reauth + SUT roster; T2; R55 build items)
 - [ ] **T4 — gated G1–G7 measurement run** (gates: binding pre-registration memo exists; G6 labels; Jimmy budget)
 - [ ] **T5 — perturbation battery at scale (P1–P6)** (gate: T4 lane open)
@@ -110,14 +110,14 @@ MoralChoice arXiv ID; Xu et al. 2024 contamination-survey author list; Zhang et 
 self-preference-bias author list). Attempt with available tooling; if web access is
 unavailable, escalate via `PENDING-QUESTIONS.md`. Never delete or invent a citation.
 
-- [ ] P1 done (tags resolved or escalated)
+- [x] P1 done (tags resolved or escalated)
 
 ### P2 — optional pre-T4 polish (low priority)
 Prose trim only (E7 lifted the no-cap at draft stage; trimming is now fair game). NO
 content changes to the verified material in §05 (memo-transcribed figures), §06
 (prereg transcription), §07 (placeholder registry).
 
-- [ ] P2 done (or explicitly skipped)
+- [x] P2 done (or explicitly skipped)
 
 ### P3 — post-T4 results fill (gates: T4 gate-report exists AND Jimmy's R67.4 PASS/FAIL adjudication recorded)
 (a) FIRST write an explicit key-mapping table: T4 gate-report keys ↔ the

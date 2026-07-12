@@ -273,6 +273,17 @@ tie-breaker module/run, 02/07 re-execution, W2/W3 compute, gate verdict, or rele
 was made. PR-9 items 1 and 2 remain open; item 3 is now the triggered Part-B sizing/model-
 plan decision above.
 
+**Decision-evidence update — 2026-07-11 (Codex, no ruling):**
+`20260711l-codex-pr9-decision-evidence.md` independently reproduces the PR-9 surface and
+quantifies STOP-8. Under the current selector, Mistral owns **104 tie-breakable records /
+295 unresolved cells** (16.69% of 1,767 cells); under the full unresolved surface it owns
+**225 records / 580 cells** (18.28% of 3,172). The incremental outside-selector burden is
+121 records / 285 cells. The completed O4 cost ledger also shows the exact six-SUT 02/07
+surface cost **$26.681701**, superseding the dashboard's unevidenced ~$10–15 estimate as
+the historical baseline (not a price guarantee). These facts narrow items 1 and 3 but do
+not decide them. The current record-level Part-B exporter must be made cell-aware under
+TDD after item 2 fixes the approved surface/routing.
+
 ---
 
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a

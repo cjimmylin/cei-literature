@@ -75,10 +75,20 @@ The credential-free TABLETS core is frozen and independently reviewed:
 - the manifest SHA-256 is
   `ec3a41aa0e786af65c3e520bd770dc2d021e738d656889ec0fc0420ad6706ce8`;
 - the fail-closed scorer, deterministic semantic bindings, exact twin graph,
-  CRUX linkage, and frozen artifact replay pass 47 focused tests.
+  CRUX linkage, and frozen artifact replay pass 47 focused tests;
+- tier/frame Bradley--Terry fitting, pair-by-tier flip diagnostics, the
+  trial-level conditional triangle-reversal null, and fail-closed convergence
+  diagnostics pass 28 focused analysis tests;
+- the deterministic 10,000-simulation pre-run power report has JSON/Markdown
+  SHA-256 values
+  `de0641bdda96296d8f3a7a160c8b4e2f20d6c5b880106026f18077a23d2db8fb`
+  and `555eab485bf142a6bf972ae55423c44412528263306849624919c6f97acce2d5`.
 
-Credential-free audits, synthetic profiles, power/status reports, the
-OpenRouter runner, and live evidence remain to be built. The cheap-only
+All P1 power claims remain descriptive: minimum pair cells, tier flips, ladder
+rank/dispersion, and CG are underpowered; conditional triad power is
+`NOT_ESTIMABLE_UNTIL_WIN_MARGINS` and cannot be promoted. Credential-free
+audits, seven-profile synthetic replay, evidence-status files, the OpenRouter
+runner, and live evidence remain to be built. The cheap-only
 transport contract is 18 initial smoke calls / 36 paid-call ceiling with a
 `$0.01` hard cap, followed by a 1,908-call one-seed cheap diagnostic / 3,816
 paid-call ceiling and `$1.00` cap only after the smoke and audit gates pass.
@@ -86,8 +96,8 @@ Later official scale is 5,724 initial / 11,448 paid-call ceiling and remains
 preflight-only until separately authorized.
 
 **Exact next action:** implement and independently review TABLETS' credential-free
-audits, seven-profile synthetic replay, Bradley--Terry/triad diagnostics, power
-and evidence-status reports; then build and run the capped cheap-model smoke.
+audits, seven-profile synthetic replay, and evidence-status reports; then build
+and run the capped cheap-model smoke.
 
 ## External blockers and boundaries
 

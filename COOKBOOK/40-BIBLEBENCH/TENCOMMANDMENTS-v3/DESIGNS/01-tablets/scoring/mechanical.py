@@ -51,6 +51,7 @@ def _common_result(public, private):
         "pair": public["pair"],
         "severity_tier": public["severity_tier"],
         "framing_arm": public["framing_arm"],
+        "direction_permutation": public["direction_permutation"],
         "panel_status": private["panel_status"],
         "official_conformance": None,
         "official_conformance_eligible": False,

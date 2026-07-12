@@ -57,29 +57,37 @@ Human belief transfer and editorial band certification remain `NOT_RUN`; they
 block live full execution, PR effect claims, and publication promotion. The
 official or expensive roster remains unauthorized.
 
-## TABLETS entry contract
+## TABLETS implementation state
 
-The inherited scientific scaffold and CRUX co-registration exist, but the
-executable bank, scorer, audits, runner, and evidence have not yet been frozen.
-The current minimum schedule hypothesis to verify against the governing stack
-is:
+The credential-free TABLETS core is frozen and independently reviewed:
 
-- 522 construction rows: 270 base, 72 priority-tier, 45 comprehension, and 135
-  threat rows;
-- 45 recognition rows and 54 additive matched monitored counterparts;
-- 621 evaluated requests per model/seed;
-- 1,863 requests for the three-model cheap engineering diagnostic and 3,726
-  paid-call ceiling with one syntax repair;
-- later official scale hypothesis: 5,589 initial requests and 11,178 paid-call
-  ceiling, preflight only until separately authorized.
+- 636 records per public/private/runtime projection: 342 neutral primaries,
+  135 threat twins, 45 comprehension controls, 45 recognition controls, and
+  69 additive matched monitored counterparts;
+- the 270-row all-pair base uses endpoint tiers T1/T4, while the 12 priority
+  pairs add T2/T3, preserving a four-tier priority ladder;
+- X3 samples all 342 neutral primaries: 54 endpoint-base parents plus 15
+  priority parents, with no parent shared with the GS threat arm;
+- public/private/runtime SHA-256 values are respectively
+  `5c60194de2a1fd57276af83706bd8ff536749ee5039611711de7e5da61b44b4d`,
+  `597aeb5a5c4f4c07095068663134e59cd6a90b9d6dee56faef778e3a418cb7ef`,
+  and `537c2dcd57b75966880ff47696a414ab74229b654864d7f139abb255d0967d5f`;
+- the manifest SHA-256 is
+  `ec3a41aa0e786af65c3e520bd770dc2d021e738d656889ec0fc0420ad6706ce8`;
+- the fail-closed scorer, deterministic semantic bindings, exact twin graph,
+  CRUX linkage, and frozen artifact replay pass 47 focused tests.
 
-These counts are not frozen until they replay against the TABLETS governing
-documents and deterministic generator.
+Credential-free audits, synthetic profiles, power/status reports, the
+OpenRouter runner, and live evidence remain to be built. The cheap-only
+transport contract is 18 initial smoke calls / 36 paid-call ceiling with a
+`$0.01` hard cap, followed by a 1,908-call one-seed cheap diagnostic / 3,816
+paid-call ceiling and `$1.00` cap only after the smoke and audit gates pass.
+Later official scale is 5,724 initial / 11,448 paid-call ceiling and remains
+preflight-only until separately authorized.
 
-**Exact next action:** inspect the TABLETS governing stack and existing scaffold,
-then write failing contract tests for the exact bank counts, public/private
-separation, scorer, CRUX linkage, monitored counterparts, and cheap/full cost
-arithmetic before implementation.
+**Exact next action:** implement and independently review TABLETS' credential-free
+audits, seven-profile synthetic replay, Bradley--Terry/triad diagnostics, power
+and evidence-status reports; then build and run the capped cheap-model smoke.
 
 ## External blockers and boundaries
 

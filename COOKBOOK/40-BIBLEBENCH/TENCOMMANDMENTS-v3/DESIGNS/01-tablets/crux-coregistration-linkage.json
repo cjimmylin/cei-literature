@@ -1,0 +1,11 @@
+{
+  "cross_instrument_triads_forbidden": true,
+  "gold_source_tiebreaker": "casuistic-precedence gold",
+  "instrument": "TABLETS",
+  "objects_in_conflict": "two named Decalogue norms on one actor",
+  "overlap_analysis_status": "NOT_RUN",
+  "seed_sharing_forbidden": true,
+  "source_memo": "20260706-tablets-crux-coregistration.md",
+  "source_memo_sha256": "ac591d17dbd18935e32f3c80ef011d0a1418e875ceb5f35c80cee194e3ff66d7",
+  "status": "BINDING"
+}

@@ -1,0 +1,1 @@
+"""TABLETS mechanical scoring package."""

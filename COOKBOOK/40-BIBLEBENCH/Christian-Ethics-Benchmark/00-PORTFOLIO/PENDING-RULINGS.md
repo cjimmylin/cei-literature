@@ -35,6 +35,9 @@ wanted for scoring, in which case (a).
 Related: the O1 handoff's per-design "exemplars = 4/5" counts are unaffected; only their
 *runnability* is at issue.
 
+> **RATIFIED — 2026-07-12 (Jimmy, R-J5):** option (c) — "356 authored / 344 runnable"
+> everywhere. CLOSED. See `20260712-fable-ruling-session-log.md`.
+
 ---
 
 ## PR-2 — System frame for design 06 (crookedpath) administration
@@ -55,6 +58,9 @@ standard advice-assistant frame already used verbatim by 09's rendered seats
 you for practical, honest guidance about their own situation…"*. → recommend ratifying
 this frame (it matches 09's rendered seats, keeping cross-design administration
 consistent), or specifying an alternative before the O4 panel.
+
+> **RATIFIED — 2026-07-12 (Jimmy, R-J6):** `builders.ADVICE_SYSTEM` frame for 06 (and
+> the 09 arbiter probe). CLOSED. See `20260712-fable-ruling-session-log.md`.
 
 ---
 
@@ -101,6 +107,10 @@ needs the tier/stratum design intent for the adversarial-natural items (01/07/08
 > **Flagged for Jimmy ratification** as a §6.4 *interpretation* (a literal fifth taxonomy
 > cell would be an amendment and remains Jimmy-only).
 
+> **RATIFIED — 2026-07-12 (Jimmy, R-J7):** the §6.4 interpretation stands as ruled.
+> CLOSED (FR-15 human-validation thresholds still test it empirically at G4 time). See
+> `20260712-fable-ruling-session-log.md`.
+
 ---
 
 ## PR-4 — Sequencing: the §1 P0 pilot deferred behind the sanctioned-API path
@@ -134,6 +144,9 @@ the pilot moves to the keyed path).
 > same recommendation logged for **PR-1** (option c: "356 authored / 344 runnable") and
 > **PR-2** (ratify the `builders.ADVICE_SYSTEM` frame). See gate memo §F,
 > `20260710-fable-gate-prereg-pilot-adjudication.md`.
+
+> **RATIFIED — 2026-07-12 (Jimmy, R-J8):** OpenRouter is the sanctioned panel path.
+> CLOSED. See `20260712-fable-ruling-session-log.md`.
 
 ---
 
@@ -188,6 +201,10 @@ rule as a §6.4/§6.5 implementation detail; the alternative (require exact iden
 adjudicated value, else exclude) is stricter and would raise exclusion counts on the ordinal
 designs. Jimmy one-liner (or defer to O5 — it does not block the build).
 
+> **RATIFIED — 2026-07-12 (Jimmy, R-J9):** the within-tolerance mean rule, with the
+> FR-10 strict-identity sensitivity row published for 04/06/10 (rule-flip → STOP per
+> C-13). CLOSED. See `20260712-fable-ruling-session-log.md`.
+
 ---
 
 ## PR-7 — G6 shortcut gate is vacuous on constant-key designs (next-cycle amendment)
@@ -217,6 +234,11 @@ none rewrites them. **Jimmy:** bundle-ratify (one-liner) or strike specific FRs;
 highest-consequence ones are FR-3 (G3 ⇒ excluded from release set), FR-1 (10%
 completeness threshold), FR-5 (05 rework ordered now), FR-14 (paraphrase author is
 also a SUT).
+
+> **RATIFIED — 2026-07-12 (Jimmy, R-J10 + R-J11):** the full FR-1…FR-15 bundle, AND
+> FR-16 (W1 surface ruling, `20260712-fable-FR16-w1-surface-ruling.md`). FR-17(a–c)
+> residuals issued the same session under the same delegated authority
+> (`20260712-fable-ruling-session-log.md` §3). CLOSED.
 
 ---
 
@@ -283,6 +305,24 @@ surface cost **$26.681701**, superseding the dashboard's unevidenced ~$10–15 e
 the historical baseline (not a price guarantee). These facts narrow items 1 and 3 but do
 not decide them. The current record-level Part-B exporter must be made cell-aware under
 TDD after item 2 fixes the approved surface/routing.
+
+> **ITEM 2 RULED — 2026-07-12 (Fable ruling session, delegated window per master-plan
+> §1/O5): FR-16** (`20260712-fable-FR16-w1-surface-ruling.md`) — W1 surface = the FULL
+> §B unresolved surface (3,172 `needs_adjudication` cells / 1,297 records, FR-2
+> granularity); the 609-record refusal-tag selector is retired (transition-package
+> scoping error; frozen §E already says *cells*); tie-breaker only on cells with an
+> actual two-judge disagreement; 11 × 05 allocation-parse → one bounded TDD re-parse
+> pass then cell-level Part-B; 9 × 09 arbiter-first → cell-level Part-B directly, never
+> the third judge; Part-B exporter rebuilt TDD **cell-aware** (one row per unresolved
+> cell; workload accounting in cells). **Flagged for Jimmy ratification** (joins the
+> PR-8 bundle). Items 1 and 3 remain Jimmy's (see the 2026-07-12 ruling-session log).
+
+> **ITEMS 1 & 3 RULED + FR-16 RATIFIED — 2026-07-12 (Jimmy, R-J1/R-J2/R-J11):**
+> item 1 — NEW immutable six-SUT 02/07 re-execution AUTHORIZED (~$26.68 baseline);
+> item 3 — Mistral fallback ACCEPTED with the full-surface own-family Part-B burden
+> (≤225 records / 580 cells); STOP-8 DISCHARGED. **PR-9 CLOSED.** W1 is unblocked
+> pending mechanical execution. See `20260712-fable-ruling-session-log.md` (+ FR-17
+> residuals §3).
 
 ---
 

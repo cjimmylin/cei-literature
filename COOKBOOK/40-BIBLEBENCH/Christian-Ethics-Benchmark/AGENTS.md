@@ -65,13 +65,16 @@ The full **6-model × 10-design O4 panel is COMPLETE**: `runs/20260711-o4-panel/
 
 **Re-entry doc (read first):** `00-PORTFOLIO/20260711-O4run-session-handoff.md`.
 
-## Next session = O5 — EXECUTE THE FABLE TRANSITION PACKAGE (2026-07-11)
+## Next session = O5 — EXECUTE (all judgment closed 2026-07-12; Codex owns everything)
 
-**All O5 judgment is pre-made.** A Fable session froze the last judgment layer on
-2026-07-11; O5 is now mechanical. **Single entry point (paste-ready boot prompt +
-multi-session continuation + future-Claude re-entry protocol):**
-`00-PORTFOLIO/20260711g-codex-boot-prompt-and-reentry.md`. Your execution plan, in read
-order:
+**All O5 judgment is pre-made and ALL rulings are now Jimmy-ratified.** The 2026-07-12
+Fable ruling session (Jimmy present) closed PR-9 (FR-16 full-surface ruling + Jimmy's
+re-execution and Mistral one-liners), issued FR-17 residuals, and ratified the ENTIRE
+backlog (PR-1/2/3/4/6/8, FR-1..FR-16, W4 06-fixes). **Single entry point (paste-ready
+boot prompt + execution sequence + re-entry protocol):**
+`00-PORTFOLIO/20260712-fable-codex-full-handoff.md` — it operationally supersedes
+`20260711g` (which remains the archived multi-session protocol). Build specs live in the
+docs below, in read order:
 
 1. `00-PORTFOLIO/20260711e-fable-codex-transition-package.md` — **the plan**: phases,
    exact commands, build specs (tie-breaker, §E Δ(J) test, G5 driver, G7 batteries),
@@ -82,11 +85,22 @@ order:
 3. `00-PORTFOLIO/20260711c-fable-o4-validity-review.md` — which panel readings are real
    vs artifact (V-1…V-14). Do not re-litigate; do not quote artifact readings as signals.
 
-Load-bearing decisions you inherit (details in the docs above):
-- **Phase 1 is label-free and comes first**: tie-breaker adjudication of the 609
-  `pending_adjudication` cells (turn/seat-level, FR-2; probe grok-4 first), the §E judge
-  Δ(J) home-advantage permutation test (never yet run), post-adjudication recompute
-  (NEW dated file), G5 driver, G7 batteries. Labels only gate Phase 2 (G4) onward.
+Load-bearing decisions you inherit (details in the docs above; 2026-07-12 updates BIND):
+- **W1 surface = the FULL §B unresolved surface** (FR-16, ratified): all 3,172
+  `needs_adjudication` cells / 1,297 records at FR-2 turn/seat granularity — NOT the
+  retired 609-record refusal-tag selector. Part-B export is CELL-level (exporter must be
+  rebuilt TDD cell-aware first). 20 non-tie-breakable pendings: 11×05 → one bounded
+  re-parse pass then Part-B; 9×09 arbiter-first → Part-B directly.
+- **Tie-breaker = `mistralai/mistral-large-2512`** (grok-4 probe FAILED 0/10 HTTP 404 —
+  NEVER re-probe; Jimmy accepted the own-family Part-B burden ≤225 records/580 cells,
+  triaged per FR-17(a) wave order). Byte-identical rubric text per FR-17(c).
+- **02/07 first need the NEW immutable six-SUT re-execution** (Jimmy-authorized,
+  ~$26.68 baseline) — verify complete turn transcripts against the data-contract test
+  before treating the run as done. The historical O4 run is untouched.
+- **Phase 1 is label-free**: re-execution → cell-aware exporter + tie-breaker TDD → W1 →
+  §E judge Δ(J) permutation test → post-adjudication recompute (NEW dated file) → G5
+  driver (refs Fable-reviewed, pending Jimmy promotion) → G7 batteries (L7 list
+  authorized). Labels only gate Phase 2 (G4) onward.
 - **No S/H-derived verdict** for a design until unresolved exclusions ≤ 10% of §B S-units
   (FR-1) — the current 02/04/07/09 readings are artifacts of effective-n collapse.
 - **05 verdict is already made** (FR-5): G1+G2 FAIL on the judge-free primary is real →
@@ -100,7 +114,9 @@ Load-bearing decisions you inherit (details in the docs above):
 
 Read alongside: `00-PORTFOLIO/20260710-human-label-protocol.md`,
 `00-PORTFOLIO/20260710-fable-PR3-ruling.md`, `00-PORTFOLIO/PENDING-RULINGS.md`
-(PR-1..PR-8; operate under the framework §5 dispositions, marked "pending ratification").
+(PR-1..PR-6/PR-8/PR-9 all RATIFIED/CLOSED 2026-07-12 — release language no longer needs
+"pending ratification" markers; PR-7 stays open as a next-cycle amendment), and
+`00-PORTFOLIO/20260712-fable-ruling-session-log.md` (R-J1..R-J12 + FR-17).
 
 ### Other interim work (unchanged, optional)
 - Apply the mechanical W4 06-reference fixes in `00-PORTFOLIO/20260710-W4-06-references-REVIEW.md`

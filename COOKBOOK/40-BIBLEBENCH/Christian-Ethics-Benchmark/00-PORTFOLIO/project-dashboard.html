@@ -112,7 +112,7 @@
 
 <h1>Christian Ethics WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-12 by Claude (Fable) — definitive PR-9 ruling-session prompt staged (§12)</b>
+· <b style="color:var(--text)">Last updated: 2026-07-12 by Claude (Fable) + Jimmy — PR-9 CLOSED (FR-16/FR-17 + R-J1..R-J12); ALL rulings ratified; full handover to Codex (§12)</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
 
@@ -124,45 +124,37 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
 <a href="#protocol">Protocol &amp; changelog</a><a href="#next-session">▶ Next session</a>
 </div>
 
-<h2 id="live"><span class="n">1</span>⚡ Live status — 2026-07-11</h2>
-<div class="panel" style="border-color:#5a4a1e;background:#241d10">
+<h2 id="live"><span class="n">1</span>⚡ Live status — 2026-07-12</h2>
+<div class="panel" style="border-color:#2a4a3a;background:#10241a">
   <div style="font-size:14.5px;line-height:1.6">
-    <b>O5 is underway and PAUSED on PR-9.</b> Codex completed <b>Phase 0</b>: PR-5 backend hardening verified
-    present; all 10 blind label CSVs byte-identical to HEAD; <code>judge_validation.py</code> hardened fail-closed
-    (provenance join to the immutable panel, both-judge comparison, frozen κ scales incl. 06 median-of-seven,
-    <code>PENDING-CEILING</code> never rendered as PASS, rejects malformed joins/HOLDOUT paths/pair drift/existing
-    outputs); dry-run PASSED on 2 real panel cells; suite <b>276 green</b>; independent spec + code reviews PASS.
-    Zero live calls, zero spend.<br><br>
-    <b>Then W1 stopped correctly (STOP-AND-ASK → PR-9), three issues:</b>
-    <b>(1) Transcript gap</b> — the O4 artifacts retain only first + terminal turns, so the frozen turn-level
-    tie-breaker cannot re-judge <b>723 of 907</b> disagreeing turn units (02: 577/655 missing; 07: 146/252).
-    Needs transcript recovery or an authorized fresh immutable re-execution of the 02/07 dialogues.
-    <b>(2) Selector gap</b> — the W1 selector (609 <code>pending_adjudication</code> records = 1,767 unresolved
-    cells) misses <b>1,405</b> of the panel's 3,172 <code>needs_adjudication</code> cells and includes 20
-    non-tie-breakable records (05 parse / 09 arbiter pendings). <b>(3) Probe conflict</b> — the frozen Grok-4
-    probe vs Jimmy's cheap-models-only direction; the Mistral fallback trips the Part-B sizing stop (&gt;10%
-    own-family pendings in every design).<br><br>
-    <b>Forward mechanics now repaired:</b> after auditing Claude's dashboard/boot-prompt commits, Codex added an
-    additive serializer contract for future runs: each scored administration now retains its system prompt,
-    every ordered user/assistant turn, branch state/refusal hint, and terminal user/assistant exchange while all
-    legacy aliases remain unchanged. Fixture-driven 02/07 RED→GREEN tests, related tests, spec review, code review,
-    and the full <b>276-test</b> suite pass. This does not recover or alter the immutable O4 records; no live call
-    or spend occurred.<br><br>
-    <b>Frozen probe result:</b> after Jimmy said to continue, Codex ran the explicit <code>x-ai/grok-4</code>
-    one-public-cell/design reliability probe. It returned HTTP 404 on all 10 calls (<b>0/10; DROP</b>), recorded at
-    <code>runs/20260711-o5-grok4-probe/probe_report.md</code>. Framework STOP trigger 8 is now active: Codex did
-    not fall through to Mistral because its own-family exclusions exceed 10% in every design and Part-B sizing is
-    Jimmy-only. No 02/07 re-execution, W1 adjudication, or downstream phase ran.<br><br>
-    <b>Decision surface now quantified:</b> <code>20260711l-codex-pr9-decision-evidence.md</code> independently
-    reproduces all selector counts. Mistral would route 104 tie-breakable records / <b>295 cells</b> to Part B
-    under the current selector, versus 225 records / <b>580 cells</b> on the full unresolved surface. The exact
-    historical six-SUT 02/07 cost was <b>$26.681701</b>, replacing the earlier unevidenced ~$10–15 estimate as
-    the same-surface baseline. No ruling or live call was made.<br><br>
-    <b>Waiting on:</b> PR-9 ruling (item 1 = Jimmy: re-execution/transcripts; item 2 = Fable-delegable selector
-    re-scope; item 3 = Jimmy: Part-B sizing or logged §E model-plan amendment). <b>Updated Fable boot prompt:</b>
-    <code>20260711m-fable-pr9-post-grok-boot-prompt.md</code> (rules PR-9 with Jimmy present, re-issues Codex
-    W1 orders). Codex re-entry after ruling: <code>sed -n '/## PR-9/,/^---$/p' 00-PORTFOLIO/PENDING-RULINGS.md</code>
-    → resume at W1, never skip to W2. Jimmy's Part-A labels (0/439 units) remain the release critical path.</div>
+    <b>ALL JUDGMENT CLOSED — PR-9 CLOSED, STOP-8 DISCHARGED, W1 UNBLOCKED. Full handover to Codex.</b>
+    The 2026-07-12 Fable ruling session (authority check passed; Jimmy present) cleared everything in one
+    sitting:<br><br>
+    <b>(1) FR-16 ruled + ratified</b> (<code>20260712-fable-FR16-w1-surface-ruling.md</code>): W1 = the FULL
+    §B surface — all <b>3,172</b> <code>needs_adjudication</code> cells / 1,297 records at FR-2 granularity;
+    the 609-record refusal-tag selector is RETIRED (transition-package scoping error; frozen §E always said
+    <i>cells</i>); tie-breaker only on real two-judge disagreements; 11×05 parse-pendings → bounded re-parse
+    then Part-B; 9×09 arbiter-firsts → Part-B; <b>Part-B export is CELL-level</b> (exporter rebuilt TDD first).<br>
+    <b>(2) Jimmy R-J1..R-J12 logged verbatim</b> (<code>20260712-fable-ruling-session-log.md</code>): NEW
+    immutable six-SUT 02/07 re-execution <b>AUTHORIZED</b> (~$26.68 baseline; STOP &gt;$55); <b>Mistral
+    ACCEPTED</b> as tie-breaker (<code>mistralai/mistral-large-2512</code>) with the ≤225-record/<b>580-cell</b>
+    own-family Part-B burden; C-4 reference authoring ordered (done, below); C-5 L7 list authorized; and the
+    ENTIRE ratification backlog RATIFIED (PR-1/2/3/4/6/8 + FR-1..16 + W4 06-fixes) — release language no longer
+    needs "pending ratification" markers.<br>
+    <b>(3) FR-17(a–c) residuals</b>: Part-B triage = Part-A wave order; post-tie-breaker contested → cell-level
+    Part-B; tie-breaker gets byte-identical rubric text.<br>
+    <b>(4) G5 references DONE (C-4 lane)</b>: two Opus agents drafted 06 (10/10 DSP pairs, ratified W4 fixes
+    applied, executable FA-1 lint spec) and 09 (10/10 pairs, zero→full coverage) — Fable adversarial review
+    <b>GO-conditional</b> (<code>20260712-fable-G5-reference-review.md</code>: FR-18(a) method-split for
+    consensus-tagged cases, FR-18(b) 09's reported-pole surface; 4 directed mechanical pre-gate items for
+    Codex; promotion needs Jimmy's one-liner). Drafts gitignored.<br><br>
+    <b>Codex next (binding sequence, handoff §4):</b> 276 baseline → NEW immutable 02/07 re-execution
+    (data-contract verify) → TDD cell-aware Part-B exporter + tie-breaker + 05 re-parse → W1 → W2 Δ(J) →
+    W3 recompute → W4 G5 → W5 G7 → G4 per label wave → Part-B → verdicts → Opus review memo → Jimmy.
+    <b>Waiting on Jimmy = labor only:</b> OpenRouter balance ≥ ~$30, Part-A labels (0/439, the release
+    critical path), Part-B labels, G5 promotion one-liner, release sign-off.
+    <b>Entry point for every future session:</b> <code>20260712-fable-codex-full-handoff.md</code> (§8 boot
+    prompt = §12 below). No live calls this session; spend $0.</div>
 </div>
 
 <h2 id="forecast"><span class="n">2</span>Session forecasts</h2>
@@ -355,35 +347,38 @@ stats condition on judge agreement; recompute after tie-breaker. G4/G5/G7 are PE
 <div class="panel">
 <table class="dense">
 <tr><th style="width:70px">ID</th><th>Subject</th><th style="width:170px">Status</th><th>Where</th></tr>
-<tr><td class="mono">PR-1</td><td>12 sketch exemplars → "356 authored / 344 runnable" (option c)</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
-<tr><td class="mono">PR-2</td><td>06 system frame = ADVICE_SYSTEM</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
-<tr><td class="mono">PR-3</td><td>Refusal taxonomy: principled non-compliance + verdicts[0] decoupling</td><td><span class="badge b-done">RULED</span> <span class="badge b-active">ratify</span></td><td class="mono">20260710-fable-PR3-ruling</td></tr>
-<tr><td class="mono">PR-4</td><td>OpenRouter = sanctioned panel path</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
+<tr><td class="mono">PR-1</td><td>12 sketch exemplars → "356 authored / 344 runnable" (option c)</td><td><span class="badge b-done">RATIFIED 07-12</span></td><td class="mono">20260712-fable-ruling-session-log R-J5</td></tr>
+<tr><td class="mono">PR-2</td><td>06 system frame = ADVICE_SYSTEM</td><td><span class="badge b-done">RATIFIED 07-12</span></td><td class="mono">R-J6</td></tr>
+<tr><td class="mono">PR-3</td><td>Refusal taxonomy: principled non-compliance + verdicts[0] decoupling</td><td><span class="badge b-done">RULED + RATIFIED 07-12</span></td><td class="mono">20260710-fable-PR3-ruling · R-J7</td></tr>
+<tr><td class="mono">PR-4</td><td>OpenRouter = sanctioned panel path</td><td><span class="badge b-done">RATIFIED 07-12</span></td><td class="mono">R-J8</td></tr>
 <tr><td class="mono">PR-5</td><td>Backend robustness (retry / provider routing / max-tokens cap)</td><td><span class="badge b-done">DIRECTED + VERIFIED</span></td><td class="mono">openrouter_backend.py</td></tr>
-<tr><td class="mono">PR-6</td><td>Near-agreement mean rule (+ strict-identity sensitivity row, FR-10)</td><td><span class="badge b-active">RECOMMEND-RATIFY</span></td><td class="mono">PENDING-RULINGS</td></tr>
-<tr><td class="mono">PR-7</td><td>G6 vacuous on constant-key designs → next-cycle amendment question</td><td><span class="badge b-pending">NEXT CYCLE</span></td><td class="mono">PENDING-RULINGS</td></tr>
-<tr><td class="mono">PR-8</td><td>FR-1…FR-15 bundle-ratification pointer</td><td><span class="badge b-active">AWAITING JIMMY</span></td><td class="mono">PENDING-RULINGS</td></tr>
-<tr><td class="mono">PR-9</td><td>W1 data contract: transcripts / selector / fallback sizing</td><td><span class="badge b-open">STOP 8 — BLOCKS W1</span></td><td class="mono">PENDING-RULINGS + Codex handoff</td></tr>
-<tr><td class="mono">FR-1…15</td><td>O5 framework rulings (completeness ≥90%, tie-breaker granularity, G3⇒capability-washed, 05 rework, 07 floor branch, G5 cascade, PR-6 sensitivity, zv eligibility, paraphrase author, PR-3 thresholds…)</td><td><span class="badge b-done">FROZEN</span> <span class="badge b-active">ratify via PR-8</span></td><td class="mono">20260711d §2</td></tr>
+<tr><td class="mono">PR-6</td><td>Near-agreement mean rule (+ strict-identity sensitivity row, FR-10)</td><td><span class="badge b-done">RATIFIED 07-12</span></td><td class="mono">R-J9</td></tr>
+<tr><td class="mono">PR-7</td><td>G6 vacuous on constant-key designs → next-cycle amendment question</td><td><span class="badge b-pending">NEXT CYCLE</span></td><td class="mono">PENDING-RULINGS (only open item)</td></tr>
+<tr><td class="mono">PR-8</td><td>FR-1…FR-15 bundle-ratification pointer</td><td><span class="badge b-done">RATIFIED 07-12</span></td><td class="mono">R-J10</td></tr>
+<tr><td class="mono">PR-9</td><td>W1 data contract: transcripts / selector / fallback sizing</td><td><span class="badge b-done">CLOSED 07-12</span></td><td class="mono">FR-16 + R-J1/R-J2 (STOP-8 discharged)</td></tr>
+<tr><td class="mono">FR-1…15</td><td>O5 framework rulings (completeness ≥90%, tie-breaker granularity, G3⇒capability-washed, 05 rework, 07 floor branch, G5 cascade, PR-6 sensitivity, zv eligibility, paraphrase author, PR-3 thresholds…)</td><td><span class="badge b-done">FROZEN + RATIFIED 07-12</span></td><td class="mono">20260711d §2 · R-J10</td></tr>
+<tr><td class="mono">FR-16</td><td>W1 = full 3,172-cell §B surface (FR-2 granularity); tie-breaker only on real two-judge disagreements; 05-parse → bounded re-parse then Part-B; 09 arbiter-first → Part-B; Part-B export CELL-level</td><td><span class="badge b-done">RULED + RATIFIED 07-12</span></td><td class="mono">20260712-fable-FR16-w1-surface-ruling · R-J11</td></tr>
+<tr><td class="mono">FR-17</td><td>(a) Part-B triage = Part-A wave order; (b) post-tie-breaker contested → cell-level Part-B, counts against FR-1; (c) tie-breaker gets byte-identical rubric text</td><td><span class="badge b-done">RULED 07-12</span></td><td class="mono">20260712-fable-ruling-session-log §3</td></tr>
+<tr><td class="mono">FR-18</td><td>G5 interpretation: (a) consensus-tagged DSP cases → attested METHOD split (06 K01); (b) 09's opposite-conclusion axis = the reported (unkeyed) DSP pole, keyed core + floors constant</td><td><span class="badge b-done">RULED 07-12</span> <span class="badge b-active">ratify w/ promotion</span></td><td class="mono">20260712-fable-G5-reference-review §2</td></tr>
+<tr><td class="mono">R-J1..12</td><td>Jimmy verbatim: 02/07 re-execution AUTHORIZED (~$26.68) · Mistral tie-breaker + ≤580-cell Part-B ACCEPTED · C-4/C-5 ordered/authorized · entire ratification backlog RATIFIED (incl. W4 06-fixes)</td><td><span class="badge b-done">LOGGED 07-12</span></td><td class="mono">20260712-fable-ruling-session-log §1–2</td></tr>
 </table>
 </div>
 
 <h2 id="lanes"><span class="n">7</span>Who owes what</h2>
 <div class="lanes">
-  <div class="lane"><h3><span class="badge b-codex">CODEX</span> executes (judgment-free)</h3>
-    <ul><li><b>Phase 0 ✅ done</b> (276 current tests); <b>W1 ⏸ paused on PR-9</b> — resume at W1 after ruling, never skip to W2</li>
-    <li><b>Phase 1 remainder:</b> tie-breaker, Δ(J) test, recompute, G5, G7 (~1–2 sessions + ~1 for the PR-9 re-execution, &lt;$40 live)</li>
-    <li><b>Phase 2+3 after labels:</b> G4 per wave → verdicts via the frozen formula (~1–2 sessions)</li></ul></div>
-  <div class="lane"><h3><span class="badge b-jimmy">JIMMY</span> human critical path</h3>
-    <ul><li><b>PR-9 disposition</b> (item 1: re-execution/transcripts; item 3 after Grok 0/10: Mistral Part-B sizing or §E amendment) — unblocks Codex</li>
+  <div class="lane"><h3><span class="badge b-codex">CODEX</span> executes EVERYTHING (judgment-free — all rulings closed 2026-07-12)</h3>
+    <ul><li><b>W1 UNBLOCKED.</b> Sequence (handoff §4, binding): 276 baseline → NEW immutable 02/07 re-execution (authorized ~$26.68; data-contract verify) → TDD cell-aware Part-B exporter + tie-breaker (mistral-large-2512, explicit slug) + 05 re-parse → W1 (all 3,172 cells) → W2 Δ(J) → W3 recompute → W4 G5 → W5 G7 (+ L7 list, authorized)</li>
+    <li><b>Phase 2+3 after labels:</b> G4 per wave → verdicts via the frozen formula → O5 report → Opus review memo → Jimmy</li></ul></div>
+  <div class="lane"><h3><span class="badge b-jimmy">JIMMY</span> labor only — zero decisions left</h3>
+    <ul><li>OpenRouter balance ≥ ~$30 before the 02/07 re-execution</li>
     <li>Part-A labels: wave 1 = 84 units (~8–10 h) → waves 2–3 (210 + 145 units, ~17–20 h) + 2nd labeler or declared test–retest</li>
-    <li>Ratifications: PR-1/2/3/4/6 + FR bundle (PR-8) + W4 06-reference fixes</li>
+    <li>Part-B labels: ≤580 own-family cells + residue, wave-ordered (FR-17a)</li>
+    <li>G5-reference promotion one-liner (after reading the Fable review notes)</li>
     <li>Release sign-off — always Jimmy-only</li></ul></div>
-  <div class="lane"><h3><span class="badge b-fable">FABLE / CLAUDE</span> re-enters for</h3>
-    <ul><li>PR-9 item 2 (W1 selector re-scope — delegable interpretation)</li>
-    <li>Adversarial review of the O5 verdict report</li>
-    <li>Escalations per the framework's STOP triggers (§9 below)</li>
-    <li>Paper claims section (master plan §5)</li></ul></div>
+  <div class="lane"><h3><span class="badge b-fable">FABLE / CLAUDE</span> no sessions planned — re-enters ONLY for</h3>
+    <ul><li>Data-dependent STOP escalations (framework §6 items 2–7; C-6..C-14 below)</li>
+    <li>P7 verdict-report review is pre-assigned to the <b>Opus adversarial-review memo → Jimmy</b> pattern (handoff §1)</li>
+    <li>Paper claims section (master plan §5), next cycle</li></ul></div>
 </div>
 
 <h2 id="roadmap"><span class="n">8</span>Roadmap</h2>
@@ -438,20 +433,20 @@ cited) — a bad outcome costs sessions, never a new decision. STOP = halt, log 
 Jimmy/Fable; never guess.</p>
 <table class="dense">
 <tr><th style="width:60px">ID</th><th>Contingency</th><th>Trigger</th><th>Pre-decided response (source)</th><th style="width:80px">Owner</th><th class="num">Cost</th></tr>
-<tr><td class="mono">C-1</td><td><b>02/07 transcript gap</b> (ACTIVE)</td><td>PR-9 item 1 — 723/907 turn texts unrecoverable</td>
-  <td>Forward serializer support is now complete. Jimmy authorizes a fresh immutable re-execution of the 02/07 dialogues (O4 run untouched), or supplies transcripts; then W1 resumes with a historical-artifact data-contract test first (Codex handoff §5)</td>
-  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">+1 sess, historical $26.68</td></tr>
-<tr><td class="mono">C-2</td><td><b>W1 selector scope</b> (ACTIVE)</td><td>PR-9 item 2 — 1,405 unresolved cells outside selector; 20 non-tie-breakable records</td>
-  <td>Fable re-rules the selector to the full §B <code>needs_adjudication</code> surface; parse/arbiter pendings route to their own §B handling, not the tie-breaker (delegated interpretation)</td>
-  <td><span class="badge b-fable">FABLE</span></td><td class="num">0 (ruling)</td></tr>
-<tr><td class="mono">C-3</td><td><b>Tie-breaker fallback sizing</b> (STOP 8)</td><td>Grok-4 probe failed 0/10; Mistral = 295 current-selector cells or 580 full-surface cells</td>
-  <td><b>STOP fired:</b> Jimmy approves the Mistral Part-B surface after FR-16, or issues a logged §E model-plan amendment; Codex does not choose</td>
-  <td><span class="badge b-jimmy">JIMMY</span></td><td class="num">0–0.5 sess</td></tr>
-<tr><td class="mono">C-4</td><td><b>G5 references incomplete</b></td><td>Only 7/10 committed 06 pairs; zero 09 opposite-conclusion pairs; no executable FA-1 lint (Codex audit)</td>
-  <td>Author missing pairs under the two-agent rule + lint; Jimmy ratifies before bank entry (W4 order, gate memo §G-4); 06/09 stay PROVISIONAL until G5 runs</td>
-  <td><span class="badge b-opus">OPUS</span>+<span class="badge b-jimmy">JIMMY</span></td><td class="num">+0.5–1 sess</td></tr>
-<tr><td class="mono">C-5</td><td><b>G7 name-swap list missing</b></td><td>No machine-readable L7 rotation list (Codex audit)</td>
-  <td>Extract/formalize the playbook L7 rotation into a versioned list (mechanical); lint-check; then W5 runs as frozen</td>
+<tr><td class="mono">C-1</td><td><b>02/07 transcript gap</b> <span class="badge b-done">RESOLVED 07-12</span></td><td>PR-9 item 1 — 723/907 turn texts unrecoverable</td>
+  <td>Jimmy AUTHORIZED the fresh immutable six-SUT 02/07 re-execution (R-J1, ~$26.68 baseline; O4 run untouched); Codex verifies full-turn persistence via the data-contract test before treating the run as done; STOP if projected &gt;$55</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">+1 sess, ~$26.68</td></tr>
+<tr><td class="mono">C-2</td><td><b>W1 selector scope</b> <span class="badge b-done">RESOLVED 07-12</span></td><td>PR-9 item 2 — 1,405 unresolved cells outside selector; 20 non-tie-breakable records</td>
+  <td>FR-16 RULED + RATIFIED: full 3,172-cell §B surface; 05-parse → bounded re-parse then Part-B; 09 arbiter-first → Part-B; cell-level Part-B export (exporter rebuilt TDD first)</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">0 (ruled)</td></tr>
+<tr><td class="mono">C-3</td><td><b>Tie-breaker fallback sizing</b> <span class="badge b-done">RESOLVED 07-12 (STOP-8 discharged)</span></td><td>Grok-4 probe failed 0/10; Mistral = 580 full-surface cells</td>
+  <td>Jimmy ACCEPTED Mistral (`mistralai/mistral-large-2512`) + the ≤225-record/580-cell own-family Part-B burden (R-J2), triaged per FR-17(a) wave order; no §E amendment</td>
+  <td><span class="badge b-codex">CODEX</span></td><td class="num">0 (ruled)</td></tr>
+<tr><td class="mono">C-4</td><td><b>G5 references incomplete</b> <span class="badge b-done">DRAFTED + REVIEWED 07-12</span></td><td>Was: 7/10 06 pairs; zero 09 pairs; no executable FA-1 lint</td>
+  <td>DONE via two Opus agents + Fable adversarial review (GO-conditional): 06 + 09 both 10/10 public DSP pairs, W4 fixes applied, FA-1 lint spec written; FR-18(a/b) rule the interpretation gaps. Remaining: Codex executes review §4 items (a)–(d), then Jimmy's promotion one-liner; 06/09 stay PROVISIONAL until G5 runs</td>
+  <td><span class="badge b-codex">CODEX</span>+<span class="badge b-jimmy">JIMMY</span></td><td class="num">inside W4</td></tr>
+<tr><td class="mono">C-5</td><td><b>G7 name-swap list missing</b> <span class="badge b-done">AUTHORIZED 07-12</span></td><td>No machine-readable L7 rotation list (Codex audit)</td>
+  <td>Jimmy AUTHORIZED (R-J4): extract/formalize the playbook L7 rotation into a versioned machine-readable list (TDD, mechanical, no live calls); lint-check; then W5 runs as frozen</td>
   <td><span class="badge b-codex">CODEX</span></td><td class="num">inside W5</td></tr>
 <tr><td class="mono">C-6</td><td>One judge fails G4 on a design</td><td>κ &lt; 0.65 or &lt; 0.80 × ceiling (expected on 06 from the severity offset)</td>
   <td>Retain passer; failed family climbs the §E ladder — validate candidate on that design's Part-A units only; candidate ≠ state classifier (FR-12); passer re-judges design fully</td>
@@ -544,6 +539,13 @@ no external resources).</p>
   <td>Staged the DEFINITIVE ruling-session prompt (<span class="mono">20260712-fable-pr9-adjudication-boot-prompt.md</span>,
   supersedes 20260711i/m): adds the Fable authority check, delegation discipline, the Jimmy ratification sweep
   (PR-1/2/3/4/6/8 + W4 fixes), and full closing obligations; §12 replaced.</td></tr>
+<tr><td class="mono">2026-07-12</td><td><span class="badge b-fable">Claude (Fable)</span> + <span class="badge b-jimmy">Jimmy</span></td>
+  <td><b>RULING SESSION (authority check passed) — ALL JUDGMENT CLOSED.</b> FR-16 issued + ratified (full
+  3,172-cell W1 surface, cell-level Part-B, non-tie-breakable routing); Jimmy R-J1..R-J12 logged verbatim
+  (02/07 re-execution authorized ~$26.68; Mistral + ≤580-cell Part-B accepted, STOP-8 discharged; C-4/C-5
+  cleared; entire ratification backlog RATIFIED incl. FR-1..15 + W4 06-fixes); FR-17(a–c) residuals issued;
+  06/09 G5 reference sets drafted (two Opus agents) + Fable-reviewed; PR-9 CLOSED. Full handover to Codex:
+  <span class="mono">20260712-fable-codex-full-handoff.md</span> (boot prompt = §12 below). No live calls, $0.</td></tr>
 </table>
 </div>
 
@@ -554,112 +556,67 @@ holds THE next prepared session.</b> Whoever stages a new session replaces the c
 model, directory) and appends a Changelog row in §11 — superseded prompts remain in their dated files.</p>
 <table class="dense" style="margin-bottom:12px">
 <tr><th style="width:130px">Field</th><th>Value</th></tr>
-<tr><td><b>Session</b></td><td>Fable — PR-9 adjudication (post-Grok) + ratification sweep (staged 2026-07-12,
-  <span class="mono">20260712-fable-pr9-adjudication-boot-prompt.md</span>; supersedes 20260711i and 20260711m)</td></tr>
-<tr><td><b>Model</b></td><td><span class="badge b-fable">Claude Fable 5</span> in Claude Code
-  (<code>/model fable</code>, high effort). The prompt carries an AUTHORITY CHECK: if the session is not actually
-  on Fable, it records Jimmy's rulings verbatim but does NOT issue the delegated FR-16 ruling itself.</td></tr>
-<tr><td><b>Directory</b></td><td><span class="mono">/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</span>
-  (standard Claude Code working dir; the prompt scope-locks to
-  <span class="mono">COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/</span>)</td></tr>
-<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span> present — three PR-9 one-liners
-  (02/07 transcripts/re-execution at the $26.68 baseline; Mistral 295-vs-580-cell Part-B surface or a logged §E
-  replacement; C-4/C-5 go/no-go) PLUS the ratification backlog (PR-1/2/3/4/6/8 + W4 fixes) in one sitting</td></tr>
-<tr><td><b>Note</b></td><td>Grok already failed 0/10 (HTTP 404) — never re-probe. Output = FR-16 ruling +
-  logged Jimmy rulings + NEW dated zero-judgment Codex W1-resume orders.</td></tr>
+<tr><td><b>Session</b></td><td>Codex — O5 execution (ALL judgment closed 2026-07-12; PR-9 CLOSED, STOP-8
+  discharged, entire backlog ratified). Entry point: <span class="mono">20260712-fable-codex-full-handoff.md</span>
+  (§4 sequence is binding; §8 = this prompt). Reusable for EVERY future Codex session.</td></tr>
+<tr><td><b>Model</b></td><td><span class="badge b-codex">Codex</span> (or any coding agent per AGENTS.md).
+  No Fable session is planned; escalations → ask Jimmy in-session and log verbatim in PENDING-RULINGS.</td></tr>
+<tr><td><b>Directory</b></td><td><span class="mono">CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/</span>
+  (scope-locked; harness commands run from <span class="mono">harness/</span>)</td></tr>
+<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span> for labor only: OpenRouter balance
+  ≥ ~$30 before the 02/07 re-execution; Part-A/Part-B labels; G5-reference promotion one-liner; release sign-off.</td></tr>
+<tr><td><b>Note</b></td><td>Grok-4 failed 0/10 (HTTP 404) — never re-probe. Tie-breaker =
+  <span class="mono">mistralai/mistral-large-2512</span>, explicit slug, byte-identical rubric, own-family → Part-B.</td></tr>
 </table>
 <pre style="background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:14px 16px;
 font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.5;overflow-x:auto;
 white-space:pre-wrap;color:#c8d6ee;margin:0">
-New Fable session (fresh context): WALKWORTHY — PR-9 ADJUDICATION (post-Grok) +
-RATIFICATION SWEEP. Jimmy must be present. SCOPE LOCK: work ONLY inside
-CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling benches.
+WALKWORTHY O5 execution session. SCOPE LOCK: work ONLY inside
+CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling benches,
+never load HOLDOUT/, never delete (mv to RECYCLE-BIN/).
 
-AUTHORITY CHECK FIRST: confirm you are actually running on Fable (claude-fable-5).
-If NOT, say so and downgrade the session: record Jimmy's rulings verbatim and write
-the mechanical Codex orders, but do NOT issue the delegated FR-16 ruling yourself —
-master-plan §1/O5 delegates rulings to Fable windows or Jimmy; on a lower tier, put
-the FR-16 question to Jimmy directly and log his answer. Keep judgment in the main
-loop; delegate any heavy read/search/draft to an Opus subagent with explicit
-model=opus — never fan out Fable agents.
+ON OPENING: read (1) 00-PORTFOLIO/project-dashboard.html (Live status + §12), (2) the
+NEWEST dated handoff in 00-PORTFOLIO/ (state may have moved past this prompt — skip
+anything already done), (3) 00-PORTFOLIO/20260712-fable-codex-full-handoff.md (THE
+plan; its §4 sequence is binding), (4) PENDING-RULINGS.md, (5) AGENTS.md. Build specs:
+20260711e (transition package), 20260711d (FR-1..FR-15 + G4 branch table + release
+formula), 20260712-fable-FR16-w1-surface-ruling.md + 20260712-fable-ruling-session-log.md
+(FR-16/FR-17 + Jimmy rulings R-J1..R-J12). FROZEN — interpret, never rewrite:
+20260710-fable-gate-prereg-pilot-adjudication.md §B/§C/§E.
 
-ON OPENING (dashboard protocol): read 00-PORTFOLIO/project-dashboard.html (Live
-status, rulings ledger, contingencies C-1..C-15, §12) and the NEWEST dated handoff in
-00-PORTFOLIO/ — the state may have moved past this prompt (Codex sessions land
-frequently); verify what exists and SKIP anything already ruled or moot. Then read
-yourself (all short): PENDING-RULINGS.md (PR-9 incl. the quantified evidence append),
-20260711l-codex-pr9-decision-evidence.md, 20260711n-codex-pr9-decision-support-handoff.md,
-20260711d-fable-o5-decision-framework.md §2+§6 (FR-1..FR-15 + STOP triggers), AGENTS.md.
-FROZEN — interpret but NEVER rewrite: 20260710-fable-gate-prereg-pilot-adjudication.md
-§B/§C/§E and FR-1..FR-15.
+ALL JUDGMENT IS PRE-MADE. PR-9 closed; STOP-8 discharged; every PR ratified. You never
+rule: anything judgment-shaped not covered by FR-1..FR-17/the G4 branch table → ask
+Jimmy if present (log his words verbatim in PENDING-RULINGS) or park it there and work
+another lane. Grok-4 is DEAD (0/10) — never re-probe. Tie-breaker =
+mistralai/mistral-large-2512, explicit slug, byte-identical rubric, own-family cells →
+Part-B. W1 surface = ALL 3,172 needs_adjudication cells (FR-16), NOT the 609-record
+selector.
 
-STATE ALREADY ESTABLISHED — DO NOT REDO:
-- O5 Phase 0 complete; suite 276 green. Forward transcript persistence FIXED for
-  future runs; the historical O4 run still lacks 723 of 907 required 02/07 turn
-  responses.
-- Grok-4 reliability probe already RAN and FAILED (0/10, HTTP 404). STOP trigger 8 is
-  active. Never re-probe, never ask about re-probing.
-- Quantified decision surface (Codex, verified twice): current selector = 609 records
-  / 1,767 unresolved cells (Mistral-exposed 104 records / 295 cells); full §B
-  needs_adjudication surface = 3,172 cells (Mistral-exposed 225 / 580); increment
-  outside the selector = 121 records / 285 cells; 20 non-tie-breakable pendings
-  (11 × design-05 allocation-parse, 9 × design-09 arbiter-first).
-- Exact historical six-SUT 02/07 cost = $26.681701 (378 records, 10,037 calls) — the
-  re-execution cost baseline (not the old ~$10–15 guess).
-- Known mechanical dependency: the Part-B exporter emits record-level rows but
-  protocol §6 is cell-level — FR-16 must fix BOTH surface and export granularity.
+EXECUTE handoff §4 IN ORDER: 276-test baseline → NEW immutable 02/07 six-SUT
+re-execution (Jimmy-authorized ~$26.68; verify full-turn persistence via the
+data-contract test; STOP if projected &gt;$55) → TDD cell-aware Part-B exporter +
+tie-breaker + 05 re-parse → W1 → W2 Δ(J) → W3 recompute (NEW dated) → W4 G5 (refs need
+Jimmy's promotion one-liner first) → W5 G7 (formalize the L7 list first — authorized) →
+P5 G4 per label wave → P6 Part-B → P7 verdicts → Opus review memo → Jimmy. Never skip
+ahead; work parallel lanes (exporter TDD, 05 re-parse, L7 list, W4 06-fix promotion)
+when blocked.
 
-TASK 1 — FR-16 RULING (the delegated item; subject to the authority check):
-Fix the W1 selection surface. Recommendation to weigh, not rubber-stamp: cover the
-FULL §B needs_adjudication surface (the 609-record refusal-tag selector was an
-FR-scoping error, now corrected by evidence); route the 20 non-tie-breakable records
-to their proper §B/Part-B handling, never the third judge; specify cell-level Part-B
-export granularity. Issue as a NEW dated ruling doc; update PENDING-RULINGS; flag for
-Jimmy ratification.
+CONSTRAINTS: report immutability (NEW dated files; dashboard = sole in-place
+exemption); FIX-MECHANICS-ONLY; explicit model slugs everywhere (panel.py defaults ≠
+frozen pair); shared git index — git log -1 AND git diff --cached --name-only before
+staging, explicit WALKWORTHY pathspecs, fast-forward pushes only; no gate verdict
+until FR-1's ≤10% completeness holds on the design; labels absent at P5 → stop at
+P4-complete, report "blocked on labeling".
 
-TASK 2 — JIMMY'S THREE ONE-LINERS (record his exact words in the ruling log):
-(1) Transcripts: authorize a NEW immutable six-SUT 02/07 re-execution (cost baseline
-    $26.68, full-turn persistence now guaranteed) OR supply recovered transcripts.
-(2) STOP-8 / tie-breaker: accept Mistral plus the Part-B human surface FR-16 implies
-    (use the quantified 104/295 vs 225/580 numbers), OR issue a logged §E
-    replacement-model amendment (distinct family, explicit slug, reliability-probed
-    before W1).
-(3) C-4/C-5 prerequisites: order the missing 06/09 G5 reference authoring now under
-    the two-agent rule (yes/no), and authorize Codex to formalize the machine-readable
-    L7 rotation list while W1 is blocked (yes/no). Leave neither ambiguous.
-If any one-liner is deferred, W1 stays blocked-on-Jimmy — log it and move on.
-
-TASK 3 — RATIFICATION SWEEP (Jimmy is in the room; clear the whole backlog once):
-collect and log one-liners on PR-1 (option c, 356/344), PR-2 (ADVICE_SYSTEM), PR-3
-(§6.4 interpretation), PR-4 (OpenRouter sanctioned), PR-6 (near-agreement mean +
-sensitivity row), PR-8 (FR-1..FR-15 bundle — highest-consequence FR-3/FR-1/FR-5/FR-14),
-and the W4 06-reference fixes. None block W1; ALL block release language later.
-
-TASK 4 — ZERO-JUDGMENT CODEX ORDERS: write a NEW dated amendment incorporating FR-16
-and Jimmy's rulings. Exact post-clearance sequence: 276-test baseline → NEW immutable
-02/07 re-execution (verify complete turn transcripts against the data-contract test) →
-TDD cell-aware Part-B exporter + tie-breaker → W1 → then W2..W5 in order. Never skip
-to W2. Explicit model slugs everywhere (panel.py defaults ≠ frozen pair).
-
-CONSTRAINTS: NO G4-dependent gate verdicts (labels absent); FIX-MECHANICS-ONLY;
-report immutability (NEW dated files); HOLDOUT never loaded; never delete (mv to
-RECYCLE-BIN/); the ruling session makes NO OpenRouter calls; shared git index —
-git log -1 AND git diff --cached --name-only before staging (sibling staged files
-have been swept twice), explicit WALKWORTHY pathspecs, fast-forward pushes only;
-every ruling logged + ratification-flagged; anything beyond authority →
-PENDING-RULINGS, never guessed.
-
-ON CLOSING: update project-dashboard.html IN PLACE — Live status, rulings ledger,
-contingencies C-1..C-5, forecasts if materially changed, Last-updated line, Changelog
-row, and REPLACE §12 "Instructions for the next session" with whatever comes next
-(likely the Codex W1-resume orders). Write a NEW dated handoff; update Claude memory;
-commit + fast-forward push WALKWORTHY paths only.
+ON CLOSING: update project-dashboard.html IN PLACE (Live status, §12 next-session
+instructions, Last-updated, Changelog row); write a NEW dated handoff; commit +
+fast-forward push WALKWORTHY paths only.
 </pre>
 </div>
 
 <p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html
 · LIVING document — update in place per §11 · Continuation entry point:
-<span class="mono">00-PORTFOLIO/20260711g-codex-boot-prompt-and-reentry.md</span> · Immutable session record:
+<span class="mono">00-PORTFOLIO/20260712-fable-codex-full-handoff.md</span> · Immutable session record:
 the dated <span class="mono">00-PORTFOLIO/2026*</span> handoffs and reports</p>
 
 </div>

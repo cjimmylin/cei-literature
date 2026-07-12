@@ -149,6 +149,13 @@
   .footer{margin-top:50px; padding-top:16px; border-top:1px solid var(--line); color:var(--dim); font-size:.82rem;}
   .footer code{font-size:.8rem;}
 
+  /* next-session instructions */
+  .next-sess{background:linear-gradient(90deg, rgba(201,168,76,.12), rgba(201,168,76,.03)); border:1px solid var(--gold); border-radius:10px; padding:18px 22px; margin-top:14px;}
+  .next-sess .meta{display:flex; flex-wrap:wrap; gap:8px 22px; margin-bottom:12px; font-size:.9rem;}
+  .next-sess .meta b{color:var(--gold);}
+  .paste{background:#0a0e18; border:1px solid var(--line); border-radius:8px; padding:14px 16px; font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.84rem; color:#c8d4ea; white-space:pre-wrap; line-height:1.5;}
+  .paste .cmd{color:var(--teal);}
+
   details{background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin-top:10px;}
   details summary{cursor:pointer; color:var(--ink); font-weight:600; font-size:.9rem;}
   details[open] summary{margin-bottom:8px;}
@@ -173,7 +180,7 @@
   <div class="living">
     <span class="tag">Living document</span>
     <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">live</span> (maintain) or <span class="chip hist">history</span> (frozen).</span>
-    <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable), session 16 — next-Fable-session boot prompt added</span>
+    <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable), session 16 — §Instructions-for-next-session added</span>
   </div>
 
   <div class="nav">
@@ -181,7 +188,7 @@
     <a href="#answers">Estimates</a><a href="#history">History</a><a href="#results">MVP results</a>
     <a href="#bank">Bank</a><a href="#judges">Judges</a><a href="#rchain">R-chain</a><a href="#gates">Gate board</a>
     <a href="#milestones">Milestones</a><a href="#path">Critical path</a><a href="#contingencies">Contingencies</a>
-    <a href="#budget">Budget</a><a href="#docs">Documents</a><a href="#log">Update log</a>
+    <a href="#budget">Budget</a><a href="#docs">Documents</a><a href="#log">Update log</a><a href="#next">Next session</a>
   </div>
 
   <h2 id="status">Live status <span class="chip live">live</span></h2>
@@ -537,7 +544,35 @@
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Renamed to <code>project-dashboard.html</code>; converted to living document with banner + Live-status (<code>094d98487</code>)</td></tr>
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Comprehensive overhaul: nav, progress bars, quotability panel, MVP results, bank table, judge evolution, R-chain index, G1–G7 gate board, critical path, contingency plan, budget, this log</td></tr>
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Added <code>20260711-fable-next-session-boot-prompt.md</code> (state-adaptive Fable re-entry: Codex adjudication → gated-run pre-registration) + docs-table row</td></tr>
+    <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Added §Instructions-for-next-session (paste block + model + directory; rewritten on every new session prep — footer protocol item 10)</td></tr>
   </table>
+
+  <h2 id="next">Instructions for next session <span class="chip live">live</span></h2>
+  <p class="small"><b>This section is rewritten every time a new session is prepared</b> — whoever writes a
+  new boot/re-entry prompt replaces the block below (paste text, model, directory) so the next session can
+  always be launched straight from this dashboard.</p>
+
+  <div class="next-sess">
+    <div class="meta">
+      <span><b>Lane:</b> Claude — adjudication / pre-registration (session 17)</span>
+      <span><b>Model:</b> Fable (<code>/model fable</code>) · fallback Opus in descriptive mode (see the prompt's fallback clause)</span>
+      <span><b>Directory:</b> run Claude Code in <code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</code> (scope-locked to <code>COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/</code>)</span>
+      <span><b>Prepared:</b> 2026-07-11, session 16</span>
+    </div>
+    <div class="paste"><span class="cmd">/model fable</span>
+<span class="cmd">/clear</span>
+
+Continue WCF-Bench. Execute the boot prompt at
+CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/20260711-fable-next-session-boot-prompt.md
+verbatim — read it first, then follow its Step-0 state load and read order. It is
+state-adaptive: adjudicate anything Codex surfaced (PENDING-QUESTIONS / Task-4
+ratification); otherwise the deliverable is the gated G1–G7 run pre-registration
+(R47+ binding memo). Update project-dashboard.html on open and close.</div>
+    <p class="small" style="margin-top:10px;"><b>Parallel lane (standing, no prompt needed):</b> Codex executes
+    Tasks 1–6 — launch Codex in <code>CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/</code> (it auto-reads
+    <code>AGENTS.md</code> → <code>20260711-codex-execution-plan.md</code>); worktree branch
+    <code>codex/wcfbench-mvp-testable</code>.</p>
+  </div>
 
   <div class="footer">
     <b style="color:var(--ink)">WCF-Bench Project Dashboard — LIVING DOCUMENT.</b> Every agent (Anthropic/Claude,
@@ -545,7 +580,8 @@
     place at session end: (1) the banner's "Last updated" line, (2) the Live-status table, (3) progress bars,
     (4) a new session row in Phase 6, (5) milestone checkboxes (mirroring the execution plan), (6) the
     quotability panel + gate board + judge table when a ruling or run changes them, (7) contingency statuses
-    if a trigger fires, (8) the budget row after live spend, (9) one appended line in the update log.
+    if a trigger fires, (8) the budget row after live spend, (9) one appended line in the update log,
+    (10) REWRITE §Instructions-for-next-session whenever a new boot/re-entry prompt is prepared.
     Sections chipped HISTORY are frozen — never rewrite them. This undated file is the ONE exception to the
     dated-file immutability convention — git history is its snapshot record; never create dated copies.
     <br><br>

@@ -55,6 +55,9 @@ surfaces** (each section is chipped LIVE or HISTORY in the page):
 7. **Contingency-plan statuses** — if a trigger fired or retired.
 8. **Budget rows** — after any live spend.
 9. **One appended line in the Update log** (append-only, newest last).
+10. **§Instructions for next session** — REWRITE this section (paste text, model,
+    directory, prepared-date) every time you prepare a new boot/re-entry prompt, so the
+    next session can always be launched straight from the dashboard.
 
 Sections chipped **HISTORY are frozen** — never rewrite Phases 1–5, the MVP results, the
 bank table, or past R-chain/update-log rows (append rows only). Do not restructure the
@@ -64,8 +67,10 @@ never put the canary string in it.
 **Boot-prompt convention:** any NEW boot prompt, re-entry prompt, or session handoff an
 agent writes for this project MUST include two lines: (i) "on session open: load
 `project-dashboard.html` (Live-status first)" and (ii) "on session close: update the
-dashboard per `AGENTS.md §The project dashboard`". Existing prompts have been updated;
-keep the convention for all future ones.
+dashboard per `AGENTS.md §The project dashboard`". AND: whenever you write a new boot
+prompt, rewrite the dashboard's **§Instructions for next session** (the paste text, which
+model, which directory). Existing prompts have been updated; keep the convention for all
+future ones.
 
 ## Decisions are already made (the R-chain)
 

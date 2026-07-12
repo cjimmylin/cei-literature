@@ -7,21 +7,55 @@ import math
 from typing import Any, Literal
 
 Json = None | bool | int | float | str | list["Json"] | dict[str, "Json"]
+_MAX_JSON_DEPTH = 128  # Maximum number of nested list/dict containers.
 
 
 def _assert_json(value: Any) -> None:
-    if value is None or type(value) in {bool, int, str}:
+    _assert_json_at_depth(value, active_container_ids=set(), depth=0)
+
+
+def _assert_json_at_depth(
+    value: Any,
+    *,
+    active_container_ids: set[int],
+    depth: int,
+) -> None:
+    if value is None or type(value) in {bool, int}:
+        return
+    if type(value) is str:
+        if any(0xD800 <= ord(character) <= 0xDFFF for character in value):
+            raise ValueError("value is not strict canonical JSON")
         return
     if type(value) is float and math.isfinite(value):
         return
-    if type(value) is list:
-        for child in value:
-            _assert_json(child)
+
+    if type(value) in {list, dict}:
+        if depth >= _MAX_JSON_DEPTH or id(value) in active_container_ids:
+            raise ValueError("value is not strict canonical JSON")
+
+        if type(value) is dict:
+            for key in value:
+                if type(key) is not str:
+                    raise ValueError("value is not strict canonical JSON")
+                _assert_json_at_depth(
+                    key,
+                    active_container_ids=active_container_ids,
+                    depth=depth + 1,
+                )
+
+        active_container_ids.add(id(value))
+        try:
+            children = value if type(value) is list else value.values()
+            for child in children:
+                _assert_json_at_depth(
+                    child,
+                    active_container_ids=active_container_ids,
+                    depth=depth + 1,
+                )
+        finally:
+            active_container_ids.remove(id(value))
         return
-    if type(value) is dict and all(type(key) is str for key in value):
-        for child in value.values():
-            _assert_json(child)
-        return
+
     raise ValueError("value is not strict canonical JSON")
 
 

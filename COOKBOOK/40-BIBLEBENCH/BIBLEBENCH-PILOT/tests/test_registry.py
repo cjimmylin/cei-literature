@@ -416,6 +416,36 @@ def test_override_schema_rejects_external_references_without_resolution(
     assert exc_info.value.__context__ is None
 
 
+@pytest.mark.parametrize(
+    "schema",
+    [
+        {"examples": [{"$ref": "https://example.invalid/not-active"}]},
+        {
+            "$defs": {
+                "unused": {
+                    "const": {"$ref": "https://example.invalid/not-active"}
+                }
+            }
+        },
+    ],
+    ids=["examples", "const"],
+)
+def test_override_schema_ignores_reference_shaped_annotation_data(
+    tmp_path: Path,
+    schema: dict,
+):
+    Draft202012Validator.check_schema(schema)
+    schema_path = tmp_path / "annotation-reference.json"
+    schema_path.write_text(json.dumps(schema), encoding="utf-8")
+
+    records = load_core_manifest(
+        FIXTURES / "core-valid.yaml",
+        schema_path=schema_path,
+    )
+
+    assert records[0].core_id == "F09"
+
+
 def test_override_schema_accepts_resolvable_local_fragment(tmp_path: Path):
     schema_path = tmp_path / "local-reference.json"
     schema_path.write_text(

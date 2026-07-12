@@ -25,6 +25,33 @@ _YAML_MERGE_TAG = "tag:yaml.org,2002:merge"
 _YAML_STRING_TAG = "tag:yaml.org,2002:str"
 _MAX_YAML_DEPTH = 128  # Maximum composed-node depth, with the root at depth zero.
 _MAX_VALIDATION_ERROR_LENGTH = 512  # Bounds public jsonschema error text.
+_MAP_SUBSCHEMA_KEYWORDS = frozenset(
+    {
+        "$defs",
+        "definitions",
+        "properties",
+        "patternProperties",
+        "dependentSchemas",
+    }
+)
+_ARRAY_SUBSCHEMA_KEYWORDS = frozenset(
+    {"allOf", "anyOf", "oneOf", "prefixItems"}
+)
+_SINGLE_SUBSCHEMA_KEYWORDS = frozenset(
+    {
+        "not",
+        "if",
+        "then",
+        "else",
+        "items",
+        "contains",
+        "propertyNames",
+        "additionalProperties",
+        "unevaluatedItems",
+        "unevaluatedProperties",
+        "contentSchema",
+    }
+)
 
 
 class _DuplicateKeyError(yaml.YAMLError):
@@ -190,18 +217,29 @@ def _load_override_schema(schema_path: Path) -> dict[str, Any]:
 def _preflight_schema_references(schema: Any, label: str) -> None:
     pending = [schema]
     while pending:
-        value = pending.pop()
-        if isinstance(value, dict):
-            for key, child in value.items():
-                if (
-                    key in {"$ref", "$dynamicRef"}
-                    and isinstance(child, str)
-                    and not child.startswith("#")
-                ):
-                    raise ValueError(f"{label} contains a non-local reference")
-                pending.append(child)
-        elif isinstance(value, list):
-            pending.extend(value)
+        subschema = pending.pop()
+        if not isinstance(subschema, dict):
+            continue
+
+        for keyword in ("$ref", "$dynamicRef"):
+            reference = subschema.get(keyword)
+            if isinstance(reference, str) and not reference.startswith("#"):
+                raise ValueError(f"{label} contains a non-local reference")
+
+        for keyword in _MAP_SUBSCHEMA_KEYWORDS:
+            schema_map = subschema.get(keyword)
+            if isinstance(schema_map, dict):
+                pending.extend(schema_map.values())
+
+        for keyword in _ARRAY_SUBSCHEMA_KEYWORDS:
+            schema_array = subschema.get(keyword)
+            if isinstance(schema_array, list):
+                pending.extend(schema_array)
+
+        for keyword in _SINGLE_SUBSCHEMA_KEYWORDS:
+            child_schema = subschema.get(keyword)
+            if isinstance(child_schema, (bool, dict)):
+                pending.append(child_schema)
 
 
 def _bounded_validation_error(index: int, error: ValidationError) -> str:

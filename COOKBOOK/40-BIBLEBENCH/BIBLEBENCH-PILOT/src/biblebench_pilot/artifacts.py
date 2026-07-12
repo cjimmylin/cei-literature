@@ -8,14 +8,25 @@ from pathlib import Path
 import re
 import stat
 import sys
+import threading
 import uuid
 from typing import Any
 
 from .contracts import Json, canonical_json_bytes
 
 
+__all__ = (
+    "ArtifactStore",
+    "assert_actor_payload_safe",
+    "assert_actor_envelope_safe",
+    "assert_judge_envelope_safe",
+    "validate_artifact_tree",
+)
+
+
 _DIRECTORY_FLAGS = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
 _NOFOLLOW = getattr(os, "O_NOFOLLOW", 0)
+_UMASK_LOCK = threading.Lock()
 _MAX_VISIBLE_DEPTH = 128
 _VISIBLE_ERROR = "unsafe model-visible payload"
 _ACTOR_FORBIDDEN_TERMS = frozenset(
@@ -30,11 +41,14 @@ _ACTOR_FORBIDDEN_TERMS = frozenset(
         "canary",
         "api_key",
         "authorization",
+        "authentication",
+        "auth",
         "bearer",
         "credential",
         "secret",
         "token",
         "environment",
+        "env",
         "env_dump",
         "rubric",
     }
@@ -56,16 +70,30 @@ _JUDGE_FORBIDDEN_TERMS = frozenset(
         "canary",
         "api_key",
         "authorization",
+        "authentication",
+        "auth",
         "bearer",
         "credential",
         "secret",
         "environment",
+        "env",
         "env_dump",
     }
 )
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
+_CAMEL_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _CREDENTIAL_SHAPE = re.compile(
-    r"(?i)(?:\bsk-[a-z0-9_-]{6,}|\b(?:basic|digest)\s+[a-z0-9+/=_-]{6,})"
+    r"(?:"
+    r"\bsk-[A-Za-z0-9_-]{6,}"
+    r"|\b(?i:basic|digest)\s+[A-Za-z0-9+/=_-]{6,}"
+    r"|(?<![A-Za-z0-9_])gh[pousr]_[A-Za-z0-9]{20,}(?![A-Za-z0-9])"
+    r"|(?<![A-Za-z0-9_])github_pat_[A-Za-z0-9_]{20,}(?![A-Za-z0-9])"
+    r"|(?<![A-Z0-9])(?:AKIA|ASIA)[A-Z0-9]{16}(?![A-Z0-9])"
+    r"|(?<![A-Za-z0-9_-])(?:[A-Za-z0-9_-]{4,}\.){2}"
+    r"[A-Za-z0-9_-]{4,}(?![A-Za-z0-9_-])"
+    r"|(?<![A-Za-z0-9_-])xox[bpa]-[A-Za-z0-9-]{8,}"
+    r"|(?<![A-Za-z0-9_-])xapp-[A-Za-z0-9-]{8,}"
+    r")"
 )
 _ENV_ASSIGNMENT = re.compile(r"(?m)^[ \t]*[A-Z][A-Z0-9_]{1,63}=")
 
@@ -75,7 +103,8 @@ class ArtifactDurabilityError(OSError):
 
 
 def _normalized_policy_text(value: str) -> tuple[str, str]:
-    normalized = _NON_ALNUM.sub("_", value.casefold()).strip("_")
+    separated = _CAMEL_BOUNDARY.sub("_", value)
+    normalized = _NON_ALNUM.sub("_", separated.casefold()).strip("_")
     return normalized, normalized.replace("_", "")
 
 
@@ -86,9 +115,14 @@ def _string_is_forbidden(
     allow_token_count: bool,
 ) -> bool:
     normalized, compact = _normalized_policy_text(value)
+    normalized_parts = frozenset(normalized.split("_"))
     allowed_token_count = allow_token_count and normalized == "token_count"
     for term in forbidden_terms:
         if term == "token" and allowed_token_count:
+            continue
+        if term in {"auth", "env"}:
+            if normalized == term or term in normalized_parts:
+                return True
             continue
         term_compact = term.replace("_", "")
         if term in normalized or term_compact in compact:
@@ -252,11 +286,23 @@ def _path_parts(relative: Any) -> tuple[str, ...]:
     return parts
 
 
+def _mkdir_private(component: str, parent_fd: int) -> None:
+    # umask is process-global; 077 keeps unrelated concurrent creations private.
+    # The lock serializes stores, and the caller documents residual mode narrowing.
+    with _UMASK_LOCK:
+        previous_umask = os.umask(0o077)
+        try:
+            os.mkdir(component, mode=0o700, dir_fd=parent_fd)
+        finally:
+            os.umask(previous_umask)
+
+
 def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
     current = os.dup(root_fd)
     try:
         for component in parts[:-1]:
             needs_directory_sync = False
+            created_identity: tuple[int, int] | None = None
             try:
                 child = os.open(
                     component,
@@ -266,9 +312,20 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
             except FileNotFoundError:
                 needs_directory_sync = True
                 try:
-                    os.mkdir(component, mode=0o700, dir_fd=current)
+                    _mkdir_private(component, current)
                 except FileExistsError:
                     pass
+                else:
+                    created = os.stat(
+                        component,
+                        dir_fd=current,
+                        follow_symlinks=False,
+                    )
+                    if stat.S_ISLNK(created.st_mode) or not stat.S_ISDIR(
+                        created.st_mode
+                    ):
+                        raise ValueError("unsafe artifact path")
+                    created_identity = (created.st_dev, created.st_ino)
                 child = os.open(
                     component,
                     _DIRECTORY_FLAGS | _NOFOLLOW,
@@ -278,6 +335,27 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
                 child_stat = os.fstat(child)
                 if not stat.S_ISDIR(child_stat.st_mode):
                     raise ValueError("unsafe artifact path")
+                if created_identity is not None:
+                    if (child_stat.st_dev, child_stat.st_ino) != created_identity:
+                        raise ValueError("unsafe artifact path")
+                    os.fchmod(child, 0o700)
+                    child_stat = os.fstat(child)
+                    current_entry = os.stat(
+                        component,
+                        dir_fd=current,
+                        follow_symlinks=False,
+                    )
+                    if (
+                        not stat.S_ISDIR(child_stat.st_mode)
+                        or stat.S_IMODE(child_stat.st_mode) != 0o700
+                        or (child_stat.st_dev, child_stat.st_ino)
+                        != created_identity
+                        or stat.S_ISLNK(current_entry.st_mode)
+                        or not stat.S_ISDIR(current_entry.st_mode)
+                        or (current_entry.st_dev, current_entry.st_ino)
+                        != created_identity
+                    ):
+                        raise ValueError("unsafe artifact path")
                 if needs_directory_sync:
                     os.fsync(child)
                     os.fsync(current)
@@ -358,6 +436,39 @@ def _assert_target_absent(parent_fd: int, target: str) -> None:
     raise FileExistsError("artifact target already exists")
 
 
+def _close_owned_descriptor(
+    descriptor: int,
+    expected_identity: tuple[int, int],
+    error_message: str,
+) -> None:
+    try:
+        os.close(descriptor)
+    except OSError as exc:
+        try:
+            current = os.fstat(descriptor)
+        except OSError:
+            pass
+        else:
+            if (current.st_dev, current.st_ino) == expected_identity:
+                try:
+                    os.close(descriptor)
+                except OSError:
+                    pass
+        raise OSError(
+            exc.errno or errno.EIO, error_message
+        ) from exc
+
+
+def _close_staged_file(
+    descriptor: int, expected_identity: tuple[int, int]
+) -> None:
+    _close_owned_descriptor(
+        descriptor,
+        expected_identity,
+        "artifact staging close failed",
+    )
+
+
 class ArtifactStore:
     def __init__(self, root: Path) -> None:
         self.root = Path(root)
@@ -391,7 +502,14 @@ class ArtifactStore:
         serialized = canonical_json_bytes(payload) + b"\n"
         self._assert_root_identity()
         parent_fd = _open_parent(self._root_fd, parts)
+        try:
+            parent_stat = os.fstat(parent_fd)
+        except OSError as exc:
+            os.close(parent_fd)
+            raise ValueError("unsafe artifact path") from exc
+        parent_identity = (parent_stat.st_dev, parent_stat.st_ino)
         descriptor: int | None = None
+        published = False
         try:
             _assert_target_absent(parent_fd, parts[-1])
             temporary = f".artifact-{uuid.uuid4().hex}.tmp"
@@ -402,11 +520,20 @@ class ArtifactStore:
                     0o600,
                     dir_fd=parent_fd,
                 )
+                os.fchmod(descriptor, 0o600)
+                temporary_stat = os.fstat(descriptor)
+                if (
+                    not stat.S_ISREG(temporary_stat.st_mode)
+                    or stat.S_IMODE(temporary_stat.st_mode) != 0o600
+                    or temporary_stat.st_nlink != 1
+                ):
+                    raise ValueError("unsafe artifact temporary file")
                 _write_all(descriptor, serialized)
                 os.fsync(descriptor)
                 temporary_stat = os.fstat(descriptor)
                 if (
                     not stat.S_ISREG(temporary_stat.st_mode)
+                    or stat.S_IMODE(temporary_stat.st_mode) != 0o600
                     or temporary_stat.st_nlink != 1
                 ):
                     raise ValueError("unsafe artifact temporary file")
@@ -416,11 +543,16 @@ class ArtifactStore:
                 raise OSError(
                     exc.errno or errno.EIO, "artifact staging failed"
                 ) from exc
-            os.close(descriptor)
+            staged_descriptor = descriptor
             descriptor = None
+            _close_staged_file(
+                staged_descriptor,
+                (temporary_stat.st_dev, temporary_stat.st_ino),
+            )
             self._assert_root_identity()
             try:
                 _native_publish_noreplace(parent_fd, temporary, parts[-1])
+                published = True
             except FileExistsError:
                 raise
             except OSError as exc:
@@ -442,6 +574,7 @@ class ArtifactStore:
                 raise ValueError("published artifact verification failed") from exc
             if (
                 not stat.S_ISREG(final.st_mode)
+                or stat.S_IMODE(final.st_mode) != 0o600
                 or final.st_nlink != 1
                 or (final.st_dev, final.st_ino)
                 != (temporary_stat.st_dev, temporary_stat.st_ino)
@@ -449,9 +582,23 @@ class ArtifactStore:
                 raise ValueError("unsafe finalized artifact")
             self._assert_root_identity()
         finally:
+            pending_error = sys.exc_info()[0] is not None
             if descriptor is not None:
                 os.close(descriptor)
-            os.close(parent_fd)
+            try:
+                _close_owned_descriptor(
+                    parent_fd,
+                    parent_identity,
+                    "artifact parent descriptor close failed",
+                )
+            except OSError as exc:
+                if not pending_error:
+                    if published:
+                        raise ArtifactDurabilityError(
+                            exc.errno or errno.EIO,
+                            "artifact published but parent descriptor close failed",
+                        ) from exc
+                    raise
         return self.root.joinpath(*parts)
 
 

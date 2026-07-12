@@ -9,6 +9,15 @@
 
 ---
 
+> **📊 Living dashboard: [`project-dashboard.html`](project-dashboard.html)** — the core track's
+> single status page (plan since genesis, per-design tabs, session forecasts, and the prepared
+> next-session boot prompt in §10). **ALL agents** — Anthropic/Claude, OpenAI/Codex, or any other
+> model — read it at session start and update it in place at session end; protocol in
+> [`AGENTS.md`](AGENTS.md). It is the ONE file exempt from the dated-report immutability rule.
+> (Scope excludes `40-BIBLEBENCH/`, whose benches keep their own dashboards.)
+
+---
+
 ## How to use this cookbook (guide for Opus)
 
 **To design a new benchmark from scratch:**

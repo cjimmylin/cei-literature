@@ -129,13 +129,16 @@ _CREDENTIAL_SHAPE = re.compile(
 )
 _ENV_ASSIGNMENT = re.compile(r"(?m)^[ \t]*[A-Z][A-Z0-9_]{1,63}=")
 _SENSITIVE_ASSIGNMENT = re.compile(
-    r"(?i)(?<![a-z0-9_])(?:private|gold|ground[_-]?truth|"
-    r"expected[_-]?label|judge[_-]?id|actor(?:[_-]?(?:id|model))?|"
-    r"model(?:[_-]?(?:identity|id|name))?|tested[_-]?model|provider|route|"
-    r"cue|condition|canary|api[_-]?key|authorization|authentication|auth|"
-    r"bearer|credential|secret|token|environment|env(?:[_-]?dump)?|rubric|"
-    r"password|passwd|access[_-]?token|refresh[_-]?token|"
-    r"session[_-]?cookie|cookie|set[_-]?cookie)[ \t]*[:=]"
+    r"(?i)(?<![a-z0-9_])(?:private|gold|ground[-_./\s]*truth|"
+    r"expected[-_./\s]*label|judge[-_./\s]*id|"
+    r"actor(?:[-_./\s]*(?:id|model))?|"
+    r"model(?:[-_./\s]*(?:identity|id|name))?|"
+    r"tested[-_./\s]*model|provider|route|cue|condition|canary|"
+    r"api[-_./\s]*key|authorization|authentication|auth|bearer|credential|"
+    r"secret|(?:episode[-_./\s]*)?token|environment|"
+    r"env(?:[-_./\s]*dump)?|rubric|password|passwd|"
+    r"access[-_./\s]*token|refresh[-_./\s]*token|"
+    r"session[-_./\s]*cookie|cookie|set[-_./\s]*cookie)[ \t]*[:=]"
 )
 _PRIVATE_MARKER = re.compile(
     r"(?i)(?:^|[^a-z0-9])(?:private|canary)(?:[^a-z0-9]|$)"

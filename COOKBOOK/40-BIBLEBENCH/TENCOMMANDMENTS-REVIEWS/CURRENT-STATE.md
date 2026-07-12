@@ -4,21 +4,23 @@
 
 ## Operational state
 
-**Goal:** Finish ZEROSUM, SKIM, PALTER, TABLETS, and SOVEREIGN as reproducible,
-resumable OpenRouter benchmarks, validate first with cheap models, and freeze
-exact later scale-up commands.
+**Goal:** Consolidate the completed strategy modules from ZEROSUM, SKIM,
+PALTER, and TABLETS into one versioned benchmark with a shared runtime and
+module-native scorers. Keep SOVEREIGN deferred until its P0 recovery gate.
 
-**Current benchmark:** TABLETS
+**Current benchmark:** CONSOLIDATED BENCHMARK DESIGN
 
-**Current milestone:** Freeze the executable TABLETS bank/gold/runtime contract
-and mechanical scorer, then add credential-free audits, full synthetic replay,
-a capped cheap-model smoke, resumable checkpoints, and a non-executed full
-preflight.
+**Current milestone:** Sequential bank construction is parked. TABLETS'
+credential-free synthetic checkpoint is frozen; no transport or paid execution
+is pending. The next work package is the consolidated module registry and
+common execution schema.
 
-**Last completed milestone:** PALTER engineering closeout, commit `2797b51a4`.
+**Last completed milestone:** TABLETS credential-free synthetic closeout and
+portfolio consolidation handoff.
 
-**Latest verified artifact:** PALTER R4 cheap-model smoke, checkpoint head
-`570bbaede65827eabb986a369894af4762679567be3f3a49512c9f93aa963d41`.
+**Latest verified artifact:** TABLETS credential-free synthetic bundle,
+manifest SHA-256
+`22ba91ae722553d61b81093c528403f48bf827b41c951bafb14d420978aa7cb5`.
 
 ## Completed benchmark evidence
 
@@ -100,27 +102,44 @@ audit/status layer is also frozen and independently approved:
   `0bffd3230bad84013d998d1a8e59a3f7ac1850c6b7436c4d82b73e5cc190630f`,
   `e32c140a5939885ef3037fdddb5d49f55841d88ee4c6f6b53fc15566fde8715b`,
   and `8099031f825040a15c99e562aa57b2aad6ef80c530ed4e1aecdc5573f95dbadd`;
-- 141 TABLETS tests pass, and the bundle binds 19 executable/config/document
-  provenance hashes.
+- the audit checkpoint passes 141 tests and binds 19
+  executable/config/document provenance hashes.
 
-Seven-profile synthetic replay, the OpenRouter runner, and live evidence remain
-to be built. The cheap-only
-transport contract is 18 initial smoke calls / 36 paid-call ceiling with a
+The independently reviewed seven-profile synthetic replay is also complete:
+
+- all 7 profiles replay the exact 636 frozen disk rows through the mechanical
+  scorer, for 4,452 fixture responses and zero external/paid calls;
+- stable, tier-flip, cyclic, threat-fragile, monitoring-aware,
+  recognition/propensity-gap, and escape/paralysis organisms recover their
+  planted signatures without coercing third-way or paralysis outcomes into BT;
+- row-level responses, prompts, selected actions, and private semantics are not
+  persisted; all empirical, panel, BT-null, re-elicitation, official, and
+  publication gates remain `NOT_RUN` or ineligible;
+- result/report/manifest SHA-256 values are respectively
+  `07f6f30f8f34d9c074dc2965c03f73f3865b22caa68a4d597ad9250072140c01`,
+  `47d1280f135a06d90203278f5471fe79407e36e50f5dbeae82203afd11898198`,
+  and `22ba91ae722553d61b81093c528403f48bf827b41c951bafb14d420978aa7cb5`;
+- the frozen-bundle current-source check passes, and all 163 TABLETS tests pass.
+
+The TABLETS OpenRouter runner and live evidence were not built. The archived
+cheap-only transport contract is 18 initial smoke calls / 36 paid-call ceiling with a
 `$0.01` hard cap, followed by a 1,908-call one-seed cheap diagnostic / 3,816
 paid-call ceiling and `$1.00` cap only after the smoke and audit gates pass.
 Later official scale is 5,724 initial / 11,448 paid-call ceiling and remains
 preflight-only until separately authorized.
 
-**Exact next action:** implement and independently review TABLETS' seven-profile
-synthetic replay; then build and run the capped cheap-model smoke.
+**Exact next action:** open
+`TENCOMMANDMENTS-REVIEWS/20260711-CONSOLIDATED-BENCHMARK-HANDOFF.md`, freeze the
+four-module registry/common schema/native scorer interface, and select a
+balanced credential-free P0 subset. Do not make paid calls in that work package.
 
 ## External blockers and boundaries
 
-No external blocker prevents TABLETS engineering work or a capped cheap-model
-smoke. Human/professional panel evidence remains `NOT_RUN` and must never be
-fabricated or promoted from fixtures. Every live OpenRouter call must use only
-the frozen cheap diagnostic roster until the user explicitly authorizes scale
-execution.
+No external blocker prevents credential-free consolidated design work. Paid
+calls are intentionally paused. The consolidated module registry, P0 subset,
+and composite-versus-vector reporting rule must be frozen before a new live
+schedule exists. Human/professional evidence remains `NOT_RUN` and must never
+be fabricated or promoted from fixtures.
 
 ## Deferred publication-only work
 
@@ -132,6 +151,8 @@ execution.
 - Any hardening without a demonstrated bank-identity, leakage, duplicate-call,
   scoring, or false-promotion risk.
 
-**Next benchmark:** SOVEREIGN.
+**Next benchmark:** one consolidated multi-strategy benchmark; SOVEREIGN is a
+deferred experimental module.
 
-**Re-entry file:** `TENCOMMANDMENTS-REVIEWS/20260706-PARKED-opus-reentry-prompt.md`
+**Re-entry file:**
+`TENCOMMANDMENTS-REVIEWS/20260711-CONSOLIDATED-BENCHMARK-HANDOFF.md`

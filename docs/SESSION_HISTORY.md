@@ -2,6 +2,62 @@
 
 This file documents recent updates and fixes applied to the vault across sessions.
 
+## Session 135 (2026-07-11) — 10CBench Continuation and Consolidation Pivot
+
+### Overview
+
+Continued the five-bank 10CBench build from the Claude handoff, completed the
+SKIM and PALTER cheap-model engineering milestones, froze TABLETS through its
+credential-free synthetic gate, and then parked the sequential strategy in
+favor of a consolidated multi-strategy benchmark.
+
+### Results
+
+| Metric | Value |
+|---|---:|
+| SKIM cheap rows checkpointed | 2,002 / 2,400 |
+| SKIM valid / parked / remaining | 1,983 / 19 / 398 |
+| PALTER semantic calls accounted | 51 / 51 |
+| PALTER accepted / parked composition | 38 / 13; 0 / 9 scoreable |
+| TABLETS frozen rows | 636 |
+| TABLETS synthetic responses | 4,452 |
+| TABLETS tests | 163 passed |
+| TABLETS external/paid synthetic calls | 0 / 0 |
+| Vault basic YAML validation | 2,437 / 2,437 valid |
+
+### Key learnings
+
+- [Workflows] A common OpenRouter custody layer, strict parser, spend ledger,
+  and checkpoint model should be shared while construct-specific scorers remain
+  separate.
+- [Data Quality] Provenance must hash and parse the same byte snapshot; frozen
+  bundles need exact directory rosters, source/runtime bindings, and atomic
+  publication.
+- [Evaluation] Cheap-model transport success is not scientific validity:
+  PALTER reached transport but produced no scoreable composition rows, while
+  TABLETS synthetic recovery remains fixture-only.
+- [Architecture] The consolidated benchmark should report a vector of native
+  estimands before attempting any composite ranking.
+
+### Files changed
+
+- `COOKBOOK/40-BIBLEBENCH/TENCOMMANDMENTS-v3/DESIGNS/01-tablets/`: synthetic
+  replay, tests, immutable fixture bundle, and reproduction docs.
+- `COOKBOOK/40-BIBLEBENCH/TENCOMMANDMENTS-REVIEWS/`: consolidated handoff,
+  parked sequential execution contract, and current-state update.
+- `_OPERATING-SYSTEM/Learnings/learnings-log.md`: reusable benchmark-building
+  lessons.
+
+### Status
+
+Sequential ZEROSUM → SKIM → PALTER → TABLETS → SOVEREIGN execution is parked.
+Next work begins with the consolidated four-module registry and common schema;
+no paid calls are pending. Enhanced YAML and PDF-link audits still report
+pre-existing vault-wide legacy warnings; no paper, author, PDF, or extract file
+was changed in this benchmark session.
+
+---
+
 ## Session 9 (2026-03-23) — Vault Root Cleanup & PDFs Rename
 
 ### Overview

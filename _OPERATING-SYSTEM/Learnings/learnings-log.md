@@ -1,5 +1,5 @@
 # Learnings Log
-*Last updated: 2026-02-21*
+*Last updated: 2026-07-11*
 
 ---
 
@@ -31,6 +31,19 @@
 - Include context (what triggered the learning)
 - Note edge cases and exceptions
 - Link to relevant Standards/ files if applicable
+
+## 2026-07-11 (Session 135 — 10CBench Consolidation)
+
+| Date | Category | Learning |
+|------|----------|----------|
+| 2026-07-11 | Workflows | **Reach a bounded live smoke once bank identity and local scorer replay pass.** Deep audit expansion before transport delayed the requested milestone; subsequent hardening should require a demonstrated bank, leakage, paid-call, scoring, or false-promotion failure path. |
+| 2026-07-11 | API | **Request model IDs and allowed returned aliases are separate frozen fields.** OpenRouter returned `inclusionai/ling-2.6-flash-20260421` for the undated Ling request; treating that as a mismatch caused false transport failures. |
+| 2026-07-11 | Data Quality | **Hash and parse the same byte snapshot.** Hashing disk artifacts and then regenerating or rereading them permits a provenance race; replay must consume the exact bytes whose digest is reported. |
+| 2026-07-11 | Data Quality | **Immutable bundles require transactional validation.** Exact file roster (including rejection of directories/symlinks/hardlinks), source and runtime hashes, canonical upstream status validation, fsynced staging, and atomic rename prevent plausible but false-valid releases. |
+| 2026-07-11 | Evaluation | **Syntax repair must preserve an unambiguous public choice fingerprint.** Semantic reinterpretation after a paid response changes the model observation; ambiguous or unknown choices should park immediately. |
+| 2026-07-11 | Evaluation | **Control competence and behavioral propensity must remain separate.** A model can answer recognition/comprehension perfectly while reversing its action hierarchy; controls must not enter native precedence or behavior fits. |
+| 2026-07-11 | Evaluation | **Synthetic recovery is a build gate, never empirical evidence.** Planted organisms can validate tier flips, cycles, threat/monitor effects, and scorer coverage while every official/human/panel/null gate remains `NOT_RUN`. |
+| 2026-07-11 | Architecture | **Consolidate the runtime, not the estimands.** Allocation slopes, stewardship actions, truthful composition, and pairwise norm precedence need one custody envelope but module-native scorers and a vector report before any composite rank. |
 
 ---
 

@@ -1,0 +1,43 @@
+{
+  "artifact_sha256": {
+    "report.md": "47d1280f135a06d90203278f5471fe79407e36e50f5dbeae82203afd11898198",
+    "synthetic-result.json": "07f6f30f8f34d9c074dc2965c03f73f3865b22caa68a4d597ad9250072140c01"
+  },
+  "bank_sha256": {
+    "manifest": "ec3a41aa0e786af65c3e520bd770dc2d021e738d656889ec0fc0420ad6706ce8",
+    "private": "597aeb5a5c4f4c07095068663134e59cd6a90b9d6dee56faef778e3a418cb7ef",
+    "public": "5c60194de2a1fd57276af83706bd8ff536749ee5039611711de7e5da61b44b4d",
+    "runtime": "537c2dcd57b75966880ff47696a414ab74229b654864d7f139abb255d0967d5f"
+  },
+  "evidence_basis": "FIXTURE_ONLY",
+  "external_calls": 0,
+  "paid_calls": 0,
+  "runtime_versions": {
+    "numpy": "1.26.4",
+    "python": "3.9.6",
+    "statsmodels": "0.14.6"
+  },
+  "scheduled_responses": 4452,
+  "schema_version": "tablets.synthetic-manifest.v1",
+  "source_sha256": {
+    "audit_config": "9a24aeccf4e9f224069e6a9dd6b63a4e15d3b9bf5052274c1be12d93194e5660",
+    "audit_manifest": "8099031f825040a15c99e562aa57b2aad6ef80c530ed4e1aecdc5573f95dbadd",
+    "audit_report": "e32c140a5939885ef3037fdddb5d49f55841d88ee4c6f6b53fc15566fde8715b",
+    "audit_result": "0bffd3230bad84013d998d1a8e59a3f7ac1850c6b7436c4d82b73e5cc190630f",
+    "audit_runner": "09831c2f0d449ebb5c10a88034f70bb8fda1775c56b33ed86b5b7f7fbeb97492",
+    "bank_builder": "61284a6119367dc1da32eb192206e088d5b2cdf9d9046bb3d338fec741c28083",
+    "bt_analysis": "7431d140b3f87c21394340f2140920fa6a6d9092a3d36ac4e2bf7a2d5112b6c3",
+    "calibration_status": "4a4cae64d3d0e143cf144f0f6d2c54d3686dfe2905457306fcb923c9db84bae6",
+    "evidence_status": "64551752a65b2d557774e411118428d2d76e4671e312d002f50de3b9a3858890",
+    "generator": "7fb479fc686e85593e766fdeee418843c3c1897427d2308d3d8ebe6a279e80ae",
+    "mechanical_scorer": "1e7447e1795d71d464e88cc80b77e943d0d165a3150c6f1415b587206d6a21bb",
+    "synthetic_analysis": "7b16eb48288e3dd78a712d4007265585dea4b1f1d1cab9e9055ca46a3a564d5c",
+    "synthetic_runner": "efb7e88f07e6fa5ef59d139d0aba3aa999e985e2a7ca643f7e912b984765448b",
+    "tablets_constants": "3b06dc0f586895ba7a06d70b334f2200a1655482545e042126348c11f476d977",
+    "tablets_hashing": "4bb44a6c734bb9520fdbf388d65c736aa4bb0f79bb788afc7ab7556afd3803c5",
+    "tablets_schemas": "09d86b0b1b94af091089459f1e85f6009cdeb196c90124a8668c768562855253",
+    "triad_analysis": "9c5724d0c438791bb7245ef7912d2880c86d17dcb8778e56501d0c0f30ae206a"
+  },
+  "status": "HARNESS_VALIDATION_ONLY",
+  "total_cost_usd": "0.00000000"
+}

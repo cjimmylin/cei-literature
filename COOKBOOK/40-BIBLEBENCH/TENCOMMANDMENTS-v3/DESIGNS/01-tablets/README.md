@@ -37,6 +37,11 @@ conflicts with lay-consensus gold. Scenario seeds and triads must not be shared.
 - `itembank/manifest.json` — byte hashes and exact counts.
 - `scoring/mechanical.py` — fail-closed record scoring, per-tier/per-frame
   observed pair majorities, and direct observed-triad cycle counting.
+- `analysis/synthetic_validation.py` — seven deterministic fixture profiles
+  replayed through the scorer over all 636 frozen disk rows, with aggregate-only
+  output and no empirical eligibility.
+- `pilots/20260711-synthetic-validation-r1/` — immutable 4,452-response
+  harness-validation result, report, and provenance manifest.
 
 ## Rebuild and verify
 
@@ -45,8 +50,15 @@ From `COOKBOOK/40-BIBLEBENCH`:
 ```bash
 python TENCOMMANDMENTS-v3/DESIGNS/01-tablets/itembank/build_bank.py
 python TENCOMMANDMENTS-v3/DESIGNS/01-tablets/itembank/build_bank.py --check
+python TENCOMMANDMENTS-v3/DESIGNS/01-tablets/pilots/run_synthetic.py --check
 python -m pytest TENCOMMANDMENTS-v3/DESIGNS/01-tablets/tests -q
 ```
 
-These commands create or verify bank bytes only. They do not run models,
-panels, human studies, a Bradley–Terry fit, or the permutation null.
+These commands create or verify the frozen bank and verify the aggregate
+synthetic bundle. They do not run models, panels, human studies, an empirical
+Bradley–Terry fit, or the conditional permutation null.
+
+To regenerate the synthetic bundle into a new path, pass `--output-dir` without
+`--check`. Synthetic profiles are `FIXTURE_ONLY` harness validation: their
+Bradley–Terry fits and direct cycle counts are planted recovery checks, while
+the empirical BT analysis and conditional permutation null remain `NOT_RUN`.

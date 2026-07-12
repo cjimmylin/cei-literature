@@ -1,8 +1,13 @@
 # Codex Execution Contract — 10CBench
 
-**Status:** ACTIVE
+**Status:** PARKED / SUPERSEDED 2026-07-11
 **Effective:** 2026-07-11
 **Scope:** ZEROSUM, SKIM, PALTER, TABLETS, and SOVEREIGN
+
+> The user replaced this sequential five-bank strategy with a consolidated
+> benchmark strategy on 2026-07-11. Preserve this file as historical execution
+> context; do not resume its priority order without explicit authorization.
+> Continue from `20260711-CONSOLIDATED-BENCHMARK-HANDOFF.md`.
 
 This contract controls execution order, stopping rules, and reporting cadence. The existing governing-document stack continues to control benchmark semantics, frozen artifacts, scoring, adjudication, and scientific gates. If the two appear to conflict, preserve the scientific rule and use this contract to choose the next runnable milestone.
 

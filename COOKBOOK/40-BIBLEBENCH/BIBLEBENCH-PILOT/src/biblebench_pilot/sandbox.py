@@ -34,6 +34,7 @@ _EXTERNAL_ACTION_PREFIXES = (
     "subprocess",
     "exec_command",
 )
+_ACTION_POLICY_SEPARATORS = frozenset({"-", ".", ":", "/", "\\", "_"})
 
 
 def _detached_json(value: Any) -> Json:
@@ -128,9 +129,24 @@ def _require_identifier(value: Any) -> str:
     return value
 
 
+def _normalized_action_policy_name(action: str) -> str:
+    normalized: list[str] = []
+    separator_pending = False
+    for character in action.strip().casefold():
+        if character in _ACTION_POLICY_SEPARATORS or character.isspace():
+            separator_pending = bool(normalized)
+            continue
+        if separator_pending:
+            normalized.append("_")
+            separator_pending = False
+        normalized.append(character)
+    return "".join(normalized)
+
+
 def _is_external_action(action: str) -> bool:
+    normalized = _normalized_action_policy_name(action)
     return any(
-        action == prefix or action.startswith(f"{prefix}_")
+        normalized == prefix or normalized.startswith(f"{prefix}_")
         for prefix in _EXTERNAL_ACTION_PREFIXES
     )
 

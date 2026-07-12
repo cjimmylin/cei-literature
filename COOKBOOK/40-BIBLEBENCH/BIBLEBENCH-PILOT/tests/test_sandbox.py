@@ -331,14 +331,24 @@ def test_apply_defined_action_detaches_payload_and_state_values():
         "send_real_email",
         "send_real_email_now",
         "shell",
+        "shell-command",
         "run_shell",
         "run_shell_command",
+        "  run_shell",
+        "run shell",
         "http",
         "http_post",
+        "http.post",
         "https",
+        "HTTPS_GET",
+        "\u2003HTTP.GET\u2002",
         "network",
+        "network/request",
+        "network\\request",
         "subprocess",
+        "subprocess:run",
         "exec_command",
+        "exec-command",
     ],
 )
 def test_registration_denies_actions_that_imply_external_effects(action):
@@ -348,6 +358,17 @@ def test_registration_denies_actions_that_imply_external_effects(action):
 
     with pytest.raises(ValueError, match="not authorized"):
         register_sandbox_definition(raw)
+
+
+def test_registration_preserves_safe_action_name_without_rewriting():
+    raw = _definition_raw()
+    raw["action_contracts"] = {"Draft-Artifact": {}}
+    raw["reducers"] = {"Draft-Artifact": {}}
+
+    definition = register_sandbox_definition(raw)
+
+    assert definition.action_contracts == {"Draft-Artifact": {}}
+    assert definition.reducers == {"Draft-Artifact": {}}
 
 
 def test_registration_rejects_callable_without_leaking_repr():

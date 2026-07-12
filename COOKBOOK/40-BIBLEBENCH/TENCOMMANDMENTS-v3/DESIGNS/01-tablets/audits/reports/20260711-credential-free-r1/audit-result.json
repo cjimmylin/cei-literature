@@ -1,0 +1,526 @@
+{
+  "audit": "TABLETS_CREDENTIAL_FREE_AGGREGATE",
+  "audits": {
+    "leakage": {
+      "audit": "TABLETS_PRIVATE_FIELD_LEAKAGE",
+      "schema_version": "tablets-structural-audit.v1",
+      "sections": {
+        "public": {
+          "forbidden_field_hits": [],
+          "records_scanned": 636,
+          "status": "PASS"
+        },
+        "runtime": {
+          "forbidden_field_hits": [],
+          "records_scanned": 636,
+          "status": "PASS"
+        }
+      },
+      "source": "DISK",
+      "status": "PASS"
+    },
+    "lexical_length": {
+      "audit": "TABLETS_LEXICAL_LENGTH",
+      "fold_assignment": {
+        "1x10|1": 4,
+        "1x10|2": 1,
+        "1x10|3": 3,
+        "1x2|1": 1,
+        "1x2|2": 3,
+        "1x2|3": 0,
+        "1x3|1": 2,
+        "1x3|2": 4,
+        "1x3|3": 1,
+        "1x4|1": 3,
+        "1x4|2": 0,
+        "1x4|3": 2,
+        "1x5|1": 4,
+        "1x5|2": 1,
+        "1x5|3": 3,
+        "1x6|1": 0,
+        "1x6|2": 2,
+        "1x6|3": 4,
+        "1x7|1": 1,
+        "1x7|2": 3,
+        "1x7|3": 0,
+        "1x8|1": 2,
+        "1x8|2": 4,
+        "1x8|3": 1,
+        "1x9|1": 3,
+        "1x9|2": 0,
+        "1x9|3": 2,
+        "2x10|1": 2,
+        "2x10|2": 4,
+        "2x10|3": 1,
+        "2x3|1": 0,
+        "2x3|2": 2,
+        "2x3|3": 4,
+        "2x4|1": 1,
+        "2x4|2": 3,
+        "2x4|3": 0,
+        "2x5|1": 2,
+        "2x5|2": 4,
+        "2x5|3": 1,
+        "2x6|1": 3,
+        "2x6|2": 0,
+        "2x6|3": 2,
+        "2x7|1": 4,
+        "2x7|2": 1,
+        "2x7|3": 3,
+        "2x8|1": 0,
+        "2x8|2": 2,
+        "2x8|3": 4,
+        "2x9|1": 1,
+        "2x9|2": 3,
+        "2x9|3": 0,
+        "3x10|1": 4,
+        "3x10|2": 1,
+        "3x10|3": 3,
+        "3x4|1": 3,
+        "3x4|2": 0,
+        "3x4|3": 2,
+        "3x5|1": 4,
+        "3x5|2": 1,
+        "3x5|3": 3,
+        "3x6|1": 0,
+        "3x6|2": 2,
+        "3x6|3": 4,
+        "3x7|1": 1,
+        "3x7|2": 3,
+        "3x7|3": 0,
+        "3x8|1": 2,
+        "3x8|2": 4,
+        "3x8|3": 1,
+        "3x9|1": 3,
+        "3x9|2": 0,
+        "3x9|3": 2,
+        "4x10|1": 0,
+        "4x10|2": 2,
+        "4x10|3": 4,
+        "4x5|1": 0,
+        "4x5|2": 2,
+        "4x5|3": 4,
+        "4x6|1": 1,
+        "4x6|2": 3,
+        "4x6|3": 0,
+        "4x7|1": 2,
+        "4x7|2": 4,
+        "4x7|3": 1,
+        "4x8|1": 3,
+        "4x8|2": 0,
+        "4x8|3": 2,
+        "4x9|1": 4,
+        "4x9|2": 1,
+        "4x9|3": 3,
+        "5x10|1": 0,
+        "5x10|2": 2,
+        "5x10|3": 4,
+        "5x6|1": 1,
+        "5x6|2": 3,
+        "5x6|3": 0,
+        "5x7|1": 2,
+        "5x7|2": 4,
+        "5x7|3": 1,
+        "5x8|1": 3,
+        "5x8|2": 0,
+        "5x8|3": 2,
+        "5x9|1": 4,
+        "5x9|2": 1,
+        "5x9|3": 3,
+        "6x10|1": 4,
+        "6x10|2": 1,
+        "6x10|3": 3,
+        "6x7|1": 1,
+        "6x7|2": 3,
+        "6x7|3": 0,
+        "6x8|1": 2,
+        "6x8|2": 4,
+        "6x8|3": 1,
+        "6x9|1": 3,
+        "6x9|2": 0,
+        "6x9|3": 2,
+        "7x10|1": 2,
+        "7x10|2": 4,
+        "7x10|3": 1,
+        "7x8|1": 0,
+        "7x8|2": 2,
+        "7x8|3": 4,
+        "7x9|1": 1,
+        "7x9|2": 3,
+        "7x9|3": 0,
+        "8x10|1": 4,
+        "8x10|2": 1,
+        "8x10|3": 3,
+        "8x9|1": 3,
+        "8x9|2": 0,
+        "8x9|3": 2,
+        "9x10|1": 0,
+        "9x10|2": 2,
+        "9x10|3": 4
+      },
+      "fold_count": 5,
+      "fold_diagnostics": {
+        "0": {
+          "test_rows": 54,
+          "train_direction_classes": 2,
+          "train_gold_band_classes": 3,
+          "train_pair_classes": 45,
+          "train_rows": 216
+        },
+        "1": {
+          "test_rows": 54,
+          "train_direction_classes": 2,
+          "train_gold_band_classes": 3,
+          "train_pair_classes": 45,
+          "train_rows": 216
+        },
+        "2": {
+          "test_rows": 54,
+          "train_direction_classes": 2,
+          "train_gold_band_classes": 3,
+          "train_pair_classes": 45,
+          "train_rows": 216
+        },
+        "3": {
+          "test_rows": 54,
+          "train_direction_classes": 2,
+          "train_gold_band_classes": 3,
+          "train_pair_classes": 45,
+          "train_rows": 216
+        },
+        "4": {
+          "test_rows": 54,
+          "train_direction_classes": 2,
+          "train_gold_band_classes": 3,
+          "train_pair_classes": 45,
+          "train_rows": 216
+        }
+      },
+      "gates": {
+        "direction_bow_length": {
+          "balanced_accuracy": 0.492593,
+          "feature_view": "bow_length",
+          "label": "direction",
+          "status": "PASS",
+          "threshold": 0.6
+        },
+        "direction_length_only": {
+          "balanced_accuracy": 0.492593,
+          "feature_view": "length_only",
+          "label": "direction",
+          "status": "PASS",
+          "threshold": 0.6
+        },
+        "gold_band_bow_length": {
+          "balanced_accuracy": 0.333333,
+          "feature_view": "bow_length",
+          "label": "gold_band",
+          "status": "PASS",
+          "threshold": 0.43333333333333335
+        },
+        "gold_band_length_only": {
+          "balanced_accuracy": 0.333333,
+          "feature_view": "length_only",
+          "label": "gold_band",
+          "status": "PASS",
+          "threshold": 0.43333333333333335
+        },
+        "pair_bow_length": {
+          "balanced_accuracy": 0.0,
+          "feature_view": "bow_length",
+          "label": "pair",
+          "status": "PASS",
+          "threshold": 0.12222222222222223
+        },
+        "pair_length_only": {
+          "balanced_accuracy": 0.022222,
+          "feature_view": "length_only",
+          "label": "pair",
+          "status": "PASS",
+          "threshold": 0.12222222222222223
+        }
+      },
+      "group_count": 135,
+      "raw_pair_diagnostic": {
+        "affects_overall_status": false,
+        "balanced_accuracy": 1.0,
+        "feature_view": "raw_prompt_bow_length",
+        "label": "pair",
+        "status": "DIAGNOSTIC_ONLY"
+      },
+      "real_10pct_finetune_status": "NOT_RUN",
+      "row_count": 270,
+      "schema_version": "tablets-lexical-audit.v1",
+      "seed": 20260711,
+      "source_public_sha256": "5c60194de2a1fd57276af83706bd8ff536749ee5039611711de7e5da61b44b4d",
+      "status": "PASS",
+      "style_redaction": {
+        "action_semantics": "REDACTED",
+        "case_token": "REDACTED",
+        "named_duties": "REDACTED",
+        "pair_specific_content": "REDACTED",
+        "retained_surface": [
+          "generic_template",
+          "domain",
+          "severity_tier"
+        ]
+      },
+      "subset": "COMMON_ENDPOINT_NEUTRAL_BASE_ONLY"
+    },
+    "linkage_crux": {
+      "audit": "TABLETS_LINKAGE_CRUX",
+      "schema_version": "tablets-structural-audit.v1",
+      "sections": {
+        "crux_boundary": {
+          "cross_bank_seed_triad_audit_status": "NOT_RUN_CRUX_BANK_UNAVAILABLE",
+          "cross_instrument_triads_forbidden": true,
+          "gold_source_tiebreaker": "casuistic-precedence gold",
+          "instrument": "TABLETS",
+          "objects_in_conflict": "two named Decalogue norms on one actor",
+          "seed_sharing_forbidden": true,
+          "source_memo": "20260706-tablets-crux-coregistration.md",
+          "source_memo_sha256": "ac591d17dbd18935e32f3c80ef011d0a1418e875ceb5f35c80cee194e3ff66d7",
+          "status": "PASS"
+        },
+        "parent_graph": {
+          "child_rows": 294,
+          "parent_rows": 342,
+          "reciprocal_links": 294,
+          "status": "PASS"
+        },
+        "treatment_replay": {
+          "comprehension": 45,
+          "gs_x3_parent_sets_disjoint": true,
+          "monitoring_twin": 69,
+          "recognition": 45,
+          "status": "PASS",
+          "threat_twin": 135
+        }
+      },
+      "source": "DISK",
+      "status": "PASS"
+    },
+    "mechanical_replay": {
+      "audit": "TABLETS_MECHANICAL_REPLAY",
+      "schema_version": "tablets-structural-audit.v1",
+      "sections": {
+        "evidence_guards": {
+          "c10_excluded_rows": 116,
+          "panel_not_run_rows": 636,
+          "status": "PASS"
+        },
+        "mutation_rejections": {
+          "extra_response_field": true,
+          "forged_private_semantics": true,
+          "rejection_count": 4,
+          "status": "PASS",
+          "unknown_action": true,
+          "unknown_duty_code": true
+        },
+        "valid_replay": {
+          "comprehension_correct": 45,
+          "comprehension_valid_incorrect": 45,
+          "duty_a": 591,
+          "duty_b": 591,
+          "paralysis": 591,
+          "recognition_correct": 45,
+          "recognition_valid_incorrect": 45,
+          "status": "PASS",
+          "third_way": 16
+        }
+      },
+      "source": "DISK",
+      "status": "PASS"
+    },
+    "schema_balance": {
+      "audit": "TABLETS_SCHEMA_BALANCE",
+      "schema_version": "tablets-structural-audit.v1",
+      "sections": {
+        "artifacts": {
+          "deterministic_byte_equality": true,
+          "sha256": {
+            "manifest": "ec3a41aa0e786af65c3e520bd770dc2d021e738d656889ec0fc0420ad6706ce8",
+            "private": "597aeb5a5c4f4c07095068663134e59cd6a90b9d6dee56faef778e3a418cb7ef",
+            "public": "5c60194de2a1fd57276af83706bd8ff536749ee5039611711de7e5da61b44b4d",
+            "runtime": "537c2dcd57b75966880ff47696a414ab74229b654864d7f139abb255d0967d5f"
+          },
+          "status": "PASS"
+        },
+        "balance": {
+          "direction_counts": {
+            "A_FIRST": 320,
+            "B_FIRST": 316
+          },
+          "framing_counts": {
+            "neutral": 501,
+            "threat": 135
+          },
+          "monitoring_counts": {
+            "monitored": 69,
+            "unmonitored": 567
+          },
+          "monitoring_twin_count": 69,
+          "record_count": 636,
+          "record_type_counts": {
+            "adjudication": 342,
+            "comprehension": 45,
+            "monitoring_twin": 69,
+            "recognition": 45,
+            "threat_twin": 135
+          },
+          "severity_tier_counts": {
+            "T1": 320,
+            "T2": 44,
+            "T3": 43,
+            "T4": 229
+          },
+          "status": "PASS",
+          "threat_twin_count": 135
+        },
+        "schema": {
+          "private_rows": 636,
+          "public_rows": 636,
+          "runtime_rows": 636,
+          "status": "PASS",
+          "strict_validation": true
+        }
+      },
+      "source": "DISK",
+      "status": "PASS"
+    }
+  },
+  "cost_preflight": {
+    "cheap_full": {
+      "authorization_status": "CHEAP_TEST_AUTHORIZED",
+      "cap_usd": "1.00",
+      "initial_requests": 1908,
+      "paid_calls": 3816,
+      "upper_bound_usd": "0.71639040"
+    },
+    "official": {
+      "authorization_status": "PREVIEW_ONLY_UNAUTHORIZED",
+      "cap_usd": "3.00",
+      "initial_requests": 5724,
+      "paid_calls": 11448,
+      "upper_bound_usd": "2.14917120"
+    },
+    "smoke": {
+      "authorization_status": "CHEAP_TEST_AUTHORIZED",
+      "cap_usd": "0.01",
+      "initial_requests": 18,
+      "paid_calls": 36,
+      "upper_bound_usd": "0.00675840"
+    }
+  },
+  "cross_bank_seed_triad_audit_status": "NOT_RUN_CRUX_BANK_UNAVAILABLE",
+  "eligibility": {
+    "empirical": false,
+    "official": false,
+    "publication": false
+  },
+  "empirical_blockers": [
+    {
+      "blocker": "casuistry_panel",
+      "status": "NOT_RUN"
+    },
+    {
+      "blocker": "contested_distribution",
+      "status": "NOT_RUN"
+    },
+    {
+      "blocker": "edge_judge",
+      "status": "NOT_RUN"
+    },
+    {
+      "blocker": "human_baseline",
+      "status": "NOT_RUN"
+    },
+    {
+      "blocker": "official_multiseed_model_run",
+      "status": "NOT_RUN"
+    },
+    {
+      "blocker": "professional_baseline",
+      "status": "NOT_RUN"
+    },
+    {
+      "blocker": "real_10pct_finetune_probe",
+      "status": "NOT_RUN"
+    },
+    {
+      "blocker": "power.smallest_pair_x_tier_cell",
+      "status": "UNDERPOWERED_DESCRIPTIVE"
+    },
+    {
+      "blocker": "power.pair_x_tier_flip",
+      "status": "UNDERPOWERED_DESCRIPTIVE"
+    },
+    {
+      "blocker": "power.ladder_rank_and_dispersion",
+      "status": "UNDERPOWERED_DESCRIPTIVE"
+    },
+    {
+      "blocker": "power.cg",
+      "status": "UNDERPOWERED_DESCRIPTIVE"
+    },
+    {
+      "blocker": "power.triad_coherence",
+      "status": "NOT_ESTIMABLE_UNTIL_WIN_MARGINS"
+    },
+    {
+      "blocker": "crux_cross_bank_seed_triad_audit",
+      "status": "NOT_RUN_CRUX_BANK_UNAVAILABLE"
+    }
+  ],
+  "evidence_eligibility": "CREDENTIAL_FREE_ENGINEERING_ONLY",
+  "evidence_status": {
+    "casuistry_panel": "NOT_RUN",
+    "contested_distribution": "NOT_RUN",
+    "edge_judge": "NOT_RUN",
+    "human_baseline": "NOT_RUN",
+    "official_multiseed_model_run": "NOT_RUN",
+    "overall_status": "NOT_RUN",
+    "professional_baseline": "NOT_RUN",
+    "real_10pct_finetune_probe": "NOT_RUN"
+  },
+  "judge_calls": 0,
+  "power_status": {
+    "cg": "UNDERPOWERED_DESCRIPTIVE",
+    "ladder_rank_and_dispersion": "UNDERPOWERED_DESCRIPTIVE",
+    "pair_x_tier_flip": "UNDERPOWERED_DESCRIPTIVE",
+    "smallest_pair_x_tier_cell": "UNDERPOWERED_DESCRIPTIVE",
+    "triad_coherence": "NOT_ESTIMABLE_UNTIL_WIN_MARGINS"
+  },
+  "provenance_hashes": {
+    "TENCOMMANDMENTS-REVIEWS/20260706-tablets-crux-coregistration.md": "ac591d17dbd18935e32f3c80ef011d0a1418e875ceb5f35c80cee194e3ff66d7",
+    "analysis/power.py": "94af73441d66ae4487a9a04092f069a1deba05052a8aa2081918d7a6975e059b",
+    "audits/__init__.py": "c37843d797094422f15ceacf5a8b5fddf2d2a7fc3f00fd076f17d44731c439b0",
+    "audits/config/openrouter-cheap-roster.json": "9a24aeccf4e9f224069e6a9dd6b63a4e15d3b9bf5052274c1be12d93194e5660",
+    "audits/leakage.py": "54e33eb0b5400d2c72db920918d039a92df8ec203cc416b72df62a6e8e87f27a",
+    "audits/lexical_length.py": "3becba3776aeecb41ea5134a895fb22ae87a2c78904158afcaa96480b81a91d9",
+    "audits/linkage_crux.py": "d760455c5760d631f6774893cd2b2faba229c80b540a359e4e8aa257f6503a8b",
+    "audits/mechanical_replay.py": "e981379dd8a09ac1ce5b380e8f70de65b68646ffb849796037a290fc8dacf02d",
+    "audits/run_all.py": "09831c2f0d449ebb5c10a88034f70bb8fda1775c56b33ed86b5b7f7fbeb97492",
+    "audits/schema_balance.py": "9b7d700cd2154364d8965af15143a009c58c47c73b781d84ff9fd4178bae0f6c",
+    "calibration/status.py": "4a4cae64d3d0e143cf144f0f6d2c54d3686dfe2905457306fcb923c9db84bae6",
+    "crux-coregistration-linkage.json": "b88f32b24f4a896b48d6f56eca33cfda746721a712a6dff3537b540807f4d6a8",
+    "itembank/build_bank.py": "61284a6119367dc1da32eb192206e088d5b2cdf9d9046bb3d338fec741c28083",
+    "itembank/generator.py": "7fb479fc686e85593e766fdeee418843c3c1897427d2308d3d8ebe6a279e80ae",
+    "preregistration.md": "974761413fff1b716c2bdae15d40dfbdd573b7751a8f814392682e8eb1e7be74",
+    "scoring/mechanical.py": "1e7447e1795d71d464e88cc80b77e943d0d165a3150c6f1415b587206d6a21bb",
+    "tablets_constants.py": "3b06dc0f586895ba7a06d70b334f2200a1655482545e042126348c11f476d977",
+    "tablets_hashing.py": "4bb44a6c734bb9520fdbf388d65c736aa4bb0f79bb788afc7ab7556afd3803c5",
+    "tablets_schemas.py": "09d86b0b1b94af091089459f1e85f6009cdeb196c90124a8668c768562855253"
+  },
+  "run_id": "20260711-credential-free-r1",
+  "schema_version": "tablets-audit-aggregate.v1",
+  "source_hashes": {
+    "bank_manifest": "ec3a41aa0e786af65c3e520bd770dc2d021e738d656889ec0fc0420ad6706ce8",
+    "calibration_status": "64551752a65b2d557774e411118428d2d76e4671e312d002f50de3b9a3858890",
+    "power_report": "de0641bdda96296d8f3a7a160c8b4e2f20d6c5b880106026f18077a23d2db8fb",
+    "private_bank": "597aeb5a5c4f4c07095068663134e59cd6a90b9d6dee56faef778e3a418cb7ef",
+    "public_bank": "5c60194de2a1fd57276af83706bd8ff536749ee5039611711de7e5da61b44b4d",
+    "runtime_manifest": "537c2dcd57b75966880ff47696a414ab74229b654864d7f139abb255d0967d5f"
+  },
+  "status": "COMPLETE_WITH_EMPIRICAL_BLOCKERS"
+}

@@ -1,0 +1,54 @@
+{
+  "max_prompt_tokens": 8192,
+  "max_tokens": 1536,
+  "phases": {
+    "cheap_full": {
+      "authorization_status": "CHEAP_TEST_AUTHORIZED",
+      "cap_usd": "1.00",
+      "initial_calls_per_route": 636
+    },
+    "official": {
+      "authorization_status": "PREVIEW_ONLY_UNAUTHORIZED",
+      "cap_usd": "3.00",
+      "initial_calls_per_route": 1908
+    },
+    "smoke": {
+      "authorization_status": "CHEAP_TEST_AUTHORIZED",
+      "cap_usd": "0.01",
+      "initial_calls_per_route": 6
+    }
+  },
+  "provider_policy": {
+    "allow_fallbacks": false,
+    "require_parameters": true
+  },
+  "roster_basis": {
+    "path": "TENCOMMANDMENTS-v2/DESIGNS/08-skim/configs/openrouter-cheap-engineering-smoke-r2.json",
+    "sha256": "5cf79207e29a38b2465c524f272e4cf8b97600267b46b2479373ca363f215597"
+  },
+  "routes": [
+    {
+      "canonical_model_id": "inclusionai/ling-2.6-flash",
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "Novita | inclusionai/ling-2.6-flash-20260421",
+      "prompt_price_per_token_usd": "0.00000001",
+      "provider": "Novita"
+    },
+    {
+      "canonical_model_id": "meta-llama/llama-3.1-8b-instruct",
+      "completion_price_per_token_usd": "0.00000003",
+      "endpoint_name": "DeepInfra | meta-llama/llama-3.1-8b-instruct",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DeepInfra"
+    },
+    {
+      "canonical_model_id": "mistralai/mistral-nemo",
+      "completion_price_per_token_usd": "0.00000004",
+      "endpoint_name": "DeepInfra | mistralai/mistral-nemo",
+      "prompt_price_per_token_usd": "0.00000002",
+      "provider": "DeepInfra"
+    }
+  ],
+  "schema_version": "tablets-openrouter-cost.v1",
+  "syntax_repairs_per_request": 1
+}

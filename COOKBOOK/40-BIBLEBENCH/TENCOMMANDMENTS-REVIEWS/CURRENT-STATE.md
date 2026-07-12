@@ -86,18 +86,33 @@ The credential-free TABLETS core is frozen and independently reviewed:
 
 All P1 power claims remain descriptive: minimum pair cells, tier flips, ladder
 rank/dispersion, and CG are underpowered; conditional triad power is
-`NOT_ESTIMABLE_UNTIL_WIN_MARGINS` and cannot be promoted. Credential-free
-audits, seven-profile synthetic replay, evidence-status files, the OpenRouter
-runner, and live evidence remain to be built. The cheap-only
+`NOT_ESTIMABLE_UNTIL_WIN_MARGINS` and cannot be promoted. The credential-free
+audit/status layer is also frozen and independently approved:
+
+- schema/balance, recursive leakage, exact twin/CRUX linkage, mechanical
+  replay, and grouped style/length audits pass;
+- the aggregate status is `COMPLETE_WITH_EMPIRICAL_BLOCKERS`, with raw semantic
+  pair prediction diagnostic-only and every human/fine-tune/official gate
+  still `NOT_RUN`;
+- the cheap-route cost config SHA-256 is
+  `9a24aeccf4e9f224069e6a9dd6b63a4e15d3b9bf5052274c1be12d93194e5660`;
+- aggregate result/report/manifest SHA-256 values are respectively
+  `0bffd3230bad84013d998d1a8e59a3f7ac1850c6b7436c4d82b73e5cc190630f`,
+  `e32c140a5939885ef3037fdddb5d49f55841d88ee4c6f6b53fc15566fde8715b`,
+  and `8099031f825040a15c99e562aa57b2aad6ef80c530ed4e1aecdc5573f95dbadd`;
+- 141 TABLETS tests pass, and the bundle binds 19 executable/config/document
+  provenance hashes.
+
+Seven-profile synthetic replay, the OpenRouter runner, and live evidence remain
+to be built. The cheap-only
 transport contract is 18 initial smoke calls / 36 paid-call ceiling with a
 `$0.01` hard cap, followed by a 1,908-call one-seed cheap diagnostic / 3,816
 paid-call ceiling and `$1.00` cap only after the smoke and audit gates pass.
 Later official scale is 5,724 initial / 11,448 paid-call ceiling and remains
 preflight-only until separately authorized.
 
-**Exact next action:** implement and independently review TABLETS' credential-free
-audits, seven-profile synthetic replay, and evidence-status reports; then build
-and run the capped cheap-model smoke.
+**Exact next action:** implement and independently review TABLETS' seven-profile
+synthetic replay; then build and run the capped cheap-model smoke.
 
 ## External blockers and boundaries
 

@@ -1,0 +1,80 @@
+{
+  "artifact_schema_version": "tablets.p1.v1",
+  "benchmark": "TABLETS",
+  "eligibility": {
+    "empirical": false,
+    "official": false,
+    "publication": false
+  },
+  "evidence": {
+    "casuistry_panel": {
+      "all_required_corpora": true,
+      "empirical_eligible": false,
+      "evidence": null,
+      "fixture_eligible": false,
+      "kappa_gate": 0.8,
+      "minimum_panelists": 5,
+      "official_eligible": false,
+      "publication_eligible": false,
+      "required_corpora": [
+        "rabbinic",
+        "catechetical",
+        "legal_necessity"
+      ],
+      "single_tradition_majority_forbidden": true,
+      "status": "NOT_RUN"
+    },
+    "contested_distribution": {
+      "empirical_eligible": false,
+      "evidence": null,
+      "fixture_eligible": false,
+      "official_eligible": false,
+      "publication_eligible": false,
+      "status": "NOT_RUN"
+    },
+    "edge_judge": {
+      "empirical_eligible": false,
+      "evidence": null,
+      "fixture_eligible": false,
+      "official_eligible": false,
+      "publication_eligible": false,
+      "status": "NOT_RUN"
+    },
+    "human_baseline": {
+      "empirical_eligible": false,
+      "evidence": null,
+      "fixture_eligible": false,
+      "official_eligible": false,
+      "publication_eligible": false,
+      "status": "NOT_RUN"
+    },
+    "official_multiseed_model_run": {
+      "empirical_eligible": false,
+      "evidence": null,
+      "fixture_eligible": false,
+      "official_eligible": false,
+      "publication_eligible": false,
+      "status": "NOT_RUN"
+    },
+    "professional_baseline": {
+      "empirical_eligible": false,
+      "evidence": null,
+      "fixture_eligible": false,
+      "official_eligible": false,
+      "publication_eligible": false,
+      "status": "NOT_RUN"
+    },
+    "real_10pct_finetune_probe": {
+      "empirical_eligible": false,
+      "evidence": null,
+      "fixture_eligible": false,
+      "official_eligible": false,
+      "publication_eligible": false,
+      "status": "NOT_RUN"
+    }
+  },
+  "fixture_promotion_forbidden": true,
+  "overall_status": "NOT_RUN",
+  "schema_version": "tablets-evidence-status.v1",
+  "synthetic_input_promotion_forbidden": true
+}

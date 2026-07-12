@@ -87,3 +87,59 @@ R47.4) · no G6 activity (Jimmy's) · no gate adjudication or R-number assignmen
 and escalate) · immutable run dirs/reports never modified · dashboard is the sole
 undated-edit exception · canary `WCFBENCH-CANARY-c1647-x9k4q` never re-minted · shared
 git index discipline (`git log -1` first; explicit paths; never `git add -A`).
+
+---
+
+## AMENDMENT 2026-07-12 (S25, Jimmy-ratified via plan approval — append-only; authored by Claude/Fable in a Jimmy-directed session)
+
+**Context.** The R58–R68 gated-run pre-registration (`20260712c-fable-gated-run-prereg-memo.md`)
+landed after this plan was written: T4's "binding pre-registration memo (F2 deliverable)"
+gate is now SATISFIED (conditional R58.3 — valid iff the R57 checklist passes unmodified);
+T4's remaining gates are Jimmy's (R57 ratification, budget/paid-call auth, and G6 labels
+which gate RELEASE not execution, R67.2). The R-chain span everywhere in this plan reads
+**R1–R68**. Session entry point is now `20260712g-codex-standing-boot-prompt-v2.md`.
+
+**Task P → SUPERSEDED.** Done by S24 (Fable writing lane, `20260712f-wcf-session24-handoff.md`):
+`08-PAPER/` exists — master outline (frozen editorial decisions E1–E8 in §1, hard
+constraints §2, placeholder conventions §3) + 10 sections, all FABLE-REVIEWED and
+independently verified. Do not redo it. Replaced by P1–P4:
+
+### P1 — citation verification (no gate; interleavable anytime)
+Resolve the 3 `[VERIFY-CITATION]` tags in `08-PAPER/03-related-work.md` (Scherrer et al.
+MoralChoice arXiv ID; Xu et al. 2024 contamination-survey author list; Zhang et al. 2024
+self-preference-bias author list). Attempt with available tooling; if web access is
+unavailable, escalate via `PENDING-QUESTIONS.md`. Never delete or invent a citation.
+
+- [ ] P1 done (tags resolved or escalated)
+
+### P2 — optional pre-T4 polish (low priority)
+Prose trim only (E7 lifted the no-cap at draft stage; trimming is now fair game). NO
+content changes to the verified material in §05 (memo-transcribed figures), §06
+(prereg transcription), §07 (placeholder registry).
+
+- [ ] P2 done (or explicitly skipped)
+
+### P3 — post-T4 results fill (gates: T4 gate-report exists AND Jimmy's R67.4 PASS/FAIL adjudication recorded)
+(a) FIRST write an explicit key-mapping table: T4 gate-report keys ↔ the
+`{{PREREG:*.<field>}}` registry in `08-PAPER/07-results-scaffold.md` (the registry keys
+are paper-minted structurings of prereg prose quantities — the mapping check is
+mandatory, see outline §3; includes derived `G4.min_kappa` = min over the §07 G4 table's
+judge×surface κ cells). (b) Mechanical substitution only — no interpretation. (c) Delete
+losing `[[IF ...]]` branches in `08-PAPER/08-discussion-scaffold.md`; NEVER rewrite a
+branch. (d) R67.2 stands: release-labeled league content remains draft until G6/G4
+labels land.
+
+- [ ] P3 done (mapping table + fill + branch deletion)
+
+### P4 — paper adversarial self-review packet (gate: P3 done)
+Review the assembled paper against `08-PAPER/00-MASTER-outline.md` §2 hard constraints +
+the T4 gate report (every number traceable, validity labels intact, no invented claims,
+E1–E8 respected). Deliver as a provisional packet (reserved numbers) → Jimmy
+adjudicates. Paper release folds into T6's ratified-gate condition.
+
+- [ ] P4 done (packet delivered)
+
+**Paper Do-NOT additions:** E1–E8 are frozen (reopen only via Jimmy) · no invented
+numbers · MVP figures only in §05, only DESCRIPTIVE/PRE-GATE-labeled · validity labels
+stay in every table · canary comment stays in every `08-PAPER/` file · no sibling-bench
+mentions anywhere in the paper.

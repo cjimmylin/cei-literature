@@ -17,7 +17,8 @@ finish line and the ordered, gate-locked task list live in
 **`20260712-codex-execution-plan-v2.md`** — read it immediately after this file. That plan
 is the whole job, from MVP-testable through the gated run and release packaging. If work
 you are considering is not in the plan, it is almost certainly out of scope (see "Staying
-out of rabbit holes" below). Session entry point: `20260712-codex-standing-boot-prompt.md`;
+out of rabbit holes" below). Session entry point: `20260712g-codex-standing-boot-prompt-v2.md`
+(supersedes the 20260712 v1 prompt; v2 adds the paper lane P1–P4 and the R58–R68 prereg);
 full handover map: `20260712-wcf-codex-handover-plan.md`.
 
 ## Read order (total ~15 min; do NOT read the whole directory)
@@ -169,18 +170,23 @@ benchmark toward testable. The rules:
    invalidate qualification manifests (R35.4) and force expensive re-qualification. Never
    reword a prompt except where the plan explicitly says to.
 
-## Current state (2026-07-12) — one paragraph, details in the plan
+## Current state (2026-07-12, post-S25) — one paragraph, details in the plan
 
 Bank 230/230 (audited, frozen). MVP run 816/816 descriptive (`07-PILOTS/20260710-mvp-run/`);
-suite 492 green. Panel: **gemini-flash + grok-4.20**. R47–R53 ruled the Task-4
-"zero OPEN eligibility" a **parser artifact** (willingness veto tripped by judges quoting
-the fixture's "I won't…" line) and directed the fully-offline T1 work order (parser fix →
-corrected manifest from the immutable Task-4 raw → MVP OPEN re-parse of 155 nulled
-verdicts/65 cells). R54–R56 approved the 22-item EPISODE registry with exact field
-corrections (T2, mechanical). After T1+T2 + an R57-checklist ratification (Jimmy or the
-final Fable session F2), the MVP is **testable** per R53 with zero further spend. Still
-Jimmy-gated — not agent work, do not start them: paid calls (T3+), G6 rater work, the
-gated G1–G7 run (needs F2's binding pre-registration), and all gate adjudication.
+suite 492 green. Panel: **gemini-flash + grok-4.20**. R-chain spans **R1–R68**; Fable has
+fully EXITED (R68 + the S24 writing session) — Codex is the sole executor, Jimmy the sole
+adjudicator. R47–R53 ruled the Task-4 "zero OPEN eligibility" a **parser artifact**
+(willingness veto tripped by judges quoting the fixture's "I won't…" line) and directed
+the fully-offline T1 work order (parser fix → corrected manifest from the immutable
+Task-4 raw → MVP OPEN re-parse of 155 nulled verdicts/65 cells). R54–R56 approved the
+22-item EPISODE registry with exact field corrections (T2, mechanical). After T1+T2 + an
+R57-checklist ratification (**Jimmy**, R58.1), the MVP is **testable** per R53 with zero
+further spend. The gated G1–G7 run is fully pre-registered (**R58–R68**,
+`20260712c-fable-gated-run-prereg-memo.md` — T4's prereg gate SATISFIED, conditional on
+R57 passing unmodified). The paper is pre-drafted in `08-PAPER/` (S24; editorial
+decisions E1–E8 frozen); Codex owns P1–P4 per the execution plan's 2026-07-12 AMENDMENT.
+Still Jimmy-gated — not agent work, do not start them: paid calls (T3+), G6 rater work,
+T4 execution (budget + R57 ratification), and all gate adjudication (R67.4).
 
 ## Session convention
 

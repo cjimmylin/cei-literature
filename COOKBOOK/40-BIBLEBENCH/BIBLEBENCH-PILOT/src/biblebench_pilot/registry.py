@@ -1,11 +1,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from importlib.resources import files
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath, PureWindowsPath
 from typing import Any
 
-from jsonschema import Draft202012Validator, ValidationError
+from jsonschema import Draft202012Validator, SchemaError, ValidationError
 import yaml
 
 
@@ -19,6 +20,43 @@ _ARRAY_FIELDS = (
     "module_red_lines",
 )
 _MANIFEST_FIELDS = {"manifest_version", "cores"}
+
+
+class _DuplicateKeyError(yaml.YAMLError):
+    pass
+
+
+class _UniqueKeySafeLoader(yaml.SafeLoader):
+    pass
+
+
+def _construct_unique_mapping(
+    loader: _UniqueKeySafeLoader,
+    node: yaml.MappingNode,
+    deep: bool = False,
+) -> dict[Any, Any]:
+    mapping: dict[Any, Any] = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        try:
+            duplicate = key in mapping
+        except TypeError:
+            raise yaml.constructor.ConstructorError(
+                "while constructing a mapping",
+                node.start_mark,
+                "found an unhashable key",
+                key_node.start_mark,
+            ) from None
+        if duplicate:
+            raise _DuplicateKeyError
+        mapping[key] = loader.construct_object(value_node, deep=deep)
+    return mapping
+
+
+_UniqueKeySafeLoader.add_constructor(
+    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+    _construct_unique_mapping,
+)
 
 
 @dataclass(frozen=True)
@@ -56,11 +94,73 @@ def _to_core_record(row: dict[str, Any]) -> CoreRecord:
     return CoreRecord(**values)
 
 
+def _load_authoritative_schema() -> dict[str, Any]:
+    try:
+        schema_text = (
+            files("biblebench_pilot.schemas")
+            .joinpath("core.schema.json")
+            .read_text(encoding="utf-8")
+        )
+    except OSError:
+        raise ValueError("authoritative core schema could not be read") from None
+    try:
+        schema = json.loads(schema_text)
+    except json.JSONDecodeError:
+        raise ValueError("authoritative core schema is not valid JSON") from None
+    try:
+        Draft202012Validator.check_schema(schema)
+    except SchemaError:
+        raise ValueError(
+            "authoritative core schema is not a valid Draft 2020-12 schema"
+        ) from None
+    return schema
+
+
+def _load_override_schema(schema_path: Path) -> dict[str, Any]:
+    try:
+        schema_text = Path(schema_path).read_text(encoding="utf-8")
+    except OSError:
+        raise ValueError("schema override could not be read") from None
+    try:
+        schema = json.loads(schema_text)
+    except json.JSONDecodeError:
+        raise ValueError("schema override is not valid JSON") from None
+    try:
+        Draft202012Validator.check_schema(schema)
+    except SchemaError:
+        raise ValueError(
+            "schema override is not a valid Draft 2020-12 schema"
+        ) from None
+    return schema
+
+
+def _validate_core(
+    validator: Draft202012Validator,
+    row: Any,
+    index: int,
+) -> None:
+    try:
+        validator.validate(row)
+    except ValidationError as error:
+        field = _validation_field(error)
+        raise ValueError(
+            f"core {index} invalid at {field}: {error.message}"
+        ) from None
+
+
 def load_core_manifest(
     path: Path,
     schema_path: Path | None = None,
 ) -> tuple[CoreRecord, ...]:
-    manifest = yaml.safe_load(Path(path).read_text(encoding="utf-8"))
+    manifest_text = Path(path).read_text(encoding="utf-8")
+    try:
+        manifest = yaml.load(manifest_text, Loader=_UniqueKeySafeLoader)
+    except _DuplicateKeyError:
+        raise ValueError(
+            "manifest YAML contains a duplicate mapping key"
+        ) from None
+    except yaml.YAMLError:
+        raise ValueError("manifest YAML is invalid") from None
     if not isinstance(manifest, dict) or set(manifest) != _MANIFEST_FIELDS:
         raise ValueError(
             "manifest top-level must contain exactly manifest_version and cores"
@@ -74,23 +174,19 @@ def load_core_manifest(
     if not isinstance(cores, list) or not cores:
         raise ValueError("cores must be a nonempty list")
 
-    resolved_schema_path = schema_path or (
-        Path(__file__).parents[2] / "schemas/core.schema.json"
-    )
-    schema = json.loads(Path(resolved_schema_path).read_text(encoding="utf-8"))
-    Draft202012Validator.check_schema(schema)
-    validator = Draft202012Validator(schema)
+    authoritative_validator = Draft202012Validator(_load_authoritative_schema())
+    override_validator = None
+    if schema_path is not None:
+        override_validator = Draft202012Validator(
+            _load_override_schema(schema_path)
+        )
 
     records: list[CoreRecord] = []
     core_ids: set[str] = set()
     for index, row in enumerate(cores):
-        try:
-            validator.validate(row)
-        except ValidationError as error:
-            field = _validation_field(error)
-            raise ValueError(
-                f"core {index} invalid at {field}: {error.message}"
-            ) from None
+        _validate_core(authoritative_validator, row, index)
+        if override_validator is not None:
+            _validate_core(override_validator, row, index)
 
         core_id = row["core_id"]
         if core_id in core_ids:
@@ -116,9 +212,16 @@ def validate_source_paths(
         for source_path in record.source_paths:
             prefix = f"core {record.core_id} source path {source_path!r}"
             relative_path = Path(source_path)
-            if relative_path.is_absolute():
+            posix_path = PurePosixPath(source_path)
+            windows_path = PureWindowsPath(source_path)
+            if (
+                relative_path.is_absolute()
+                or posix_path.is_absolute()
+                or bool(windows_path.drive)
+                or bool(windows_path.root)
+            ):
                 raise ValueError(f"{prefix} must be relative")
-            if ".." in relative_path.parts:
+            if ".." in posix_path.parts or ".." in windows_path.parts:
                 raise ValueError(
                     f"{prefix} contains '..' traversal "
                     "(rejected whether or not it escapes workspace root)"

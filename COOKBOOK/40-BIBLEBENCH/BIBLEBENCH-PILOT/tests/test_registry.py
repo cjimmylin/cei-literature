@@ -1,6 +1,12 @@
 from dataclasses import FrozenInstanceError, replace
 import json
+import os
 from pathlib import Path
+import shutil
+import subprocess
+import sys
+import tomllib
+import zipfile
 
 from jsonschema import Draft202012Validator, ValidationError
 import pytest
@@ -14,7 +20,9 @@ from biblebench_pilot.registry import (
 
 
 FIXTURES = Path(__file__).parent / "fixtures"
-SCHEMAS = Path(__file__).parents[1] / "schemas"
+PACKAGE_ROOT = Path(__file__).parents[1]
+SCHEMAS = PACKAGE_ROOT / "schemas"
+PACKAGE_SCHEMAS = PACKAGE_ROOT / "src" / "biblebench_pilot" / "schemas"
 CORE_FIELDS = {
     "core_id",
     "module",
@@ -80,6 +88,11 @@ def _assert_source_path_error(
     assert category in str(exc_info.value)
 
 
+def _assert_translated_error(exc_info: pytest.ExceptionInfo[ValueError]) -> None:
+    assert exc_info.value.__cause__ is None
+    assert exc_info.value.__suppress_context__ is True
+
+
 def test_load_core_manifest_accepts_complete_record():
     records = load_core_manifest(FIXTURES / "core-valid.yaml")
     assert [record.core_id for record in records] == ["F09"]
@@ -89,6 +102,185 @@ def test_load_core_manifest_accepts_complete_record():
 def test_load_core_manifest_rejects_missing_non_claims():
     with pytest.raises(ValueError, match="explicit_non_claims"):
         load_core_manifest(FIXTURES / "core-invalid.yaml")
+
+
+def test_installed_wheel_loads_packaged_default_schema(tmp_path: Path):
+    unpacked_wheel = tmp_path / "unpacked-wheel"
+    shutil.copytree(
+        PACKAGE_ROOT / "src" / "biblebench_pilot",
+        unpacked_wheel / "biblebench_pilot",
+        ignore=shutil.ignore_patterns("__pycache__"),
+    )
+    dist_info = unpacked_wheel / "biblebench_pilot-0.1.0.dist-info"
+    dist_info.mkdir()
+    (dist_info / "METADATA").write_text(
+        "Metadata-Version: 2.1\nName: biblebench-pilot\nVersion: 0.1.0\n",
+        encoding="utf-8",
+    )
+    (dist_info / "WHEEL").write_text(
+        (
+            "Wheel-Version: 1.0\n"
+            "Generator: biblebench-pilot-tests\n"
+            "Root-Is-Purelib: true\n"
+            "Tag: py3-none-any\n"
+        ),
+        encoding="utf-8",
+    )
+    wheel_dir = tmp_path / "wheel"
+    wheel_dir.mkdir()
+    build_environment = os.environ.copy()
+    build_environment.update(
+        {
+            "PYTHONDONTWRITEBYTECODE": "1",
+        }
+    )
+    subprocess.run(
+        [
+            sys.executable,
+            "-m",
+            "wheel",
+            "pack",
+            "--dest-dir",
+            str(wheel_dir),
+            str(unpacked_wheel),
+        ],
+        cwd=tmp_path,
+        env=build_environment,
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    wheel_path, = wheel_dir.glob("*.whl")
+    installed = tmp_path / "installed"
+    with zipfile.ZipFile(wheel_path) as wheel:
+        wheel.extractall(installed)
+
+    manifest_path = tmp_path / "core-valid.yaml"
+    shutil.copyfile(FIXTURES / "core-valid.yaml", manifest_path)
+    outside = tmp_path / "outside"
+    outside.mkdir()
+    runtime_environment = os.environ.copy()
+    runtime_environment.update(
+        {
+            "PYTHONPATH": str(installed),
+            "PYTHONDONTWRITEBYTECODE": "1",
+        }
+    )
+    completed = subprocess.run(
+        [
+            sys.executable,
+            "-c",
+            (
+                "from pathlib import Path; "
+                "from biblebench_pilot.registry import load_core_manifest; "
+                f"records = load_core_manifest(Path({str(manifest_path)!r})); "
+                "assert records[0].core_id == 'F09'"
+            ),
+        ],
+        cwd=outside,
+        env=runtime_environment,
+        check=False,
+        capture_output=True,
+        text=True,
+    )
+
+    assert completed.returncode == 0, completed.stderr
+
+
+def test_pyproject_includes_packaged_schemas():
+    pyproject = tomllib.loads((PACKAGE_ROOT / "pyproject.toml").read_text("utf-8"))
+
+    assert pyproject["tool"]["setuptools"]["package-data"][
+        "biblebench_pilot.schemas"
+    ] == ["*.json"]
+
+
+def test_load_core_manifest_translates_malformed_yaml(tmp_path: Path):
+    manifest_path = tmp_path / "malformed.yaml"
+    manifest_path.write_text("manifest_version: [\n", encoding="utf-8")
+
+    with pytest.raises(ValueError, match="^manifest YAML is invalid$") as exc_info:
+        load_core_manifest(manifest_path)
+    _assert_translated_error(exc_info)
+
+
+def test_load_core_manifest_translates_invalid_override_schema(tmp_path: Path):
+    schema_path = tmp_path / "invalid-schema.json"
+    schema_path.write_text('{"type": 17}', encoding="utf-8")
+
+    with pytest.raises(
+        ValueError,
+        match="^schema override is not a valid Draft 2020-12 schema$",
+    ) as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    _assert_translated_error(exc_info)
+
+
+@pytest.mark.parametrize(
+    ("contents", "expected"),
+    [
+        ("{", "schema override is not valid JSON"),
+        (None, "schema override could not be read"),
+    ],
+)
+def test_load_core_manifest_translates_override_schema_load_errors(
+    tmp_path: Path,
+    contents: str | None,
+    expected: str,
+):
+    schema_path = tmp_path / "schema.json"
+    if contents is not None:
+        schema_path.write_text(contents, encoding="utf-8")
+
+    with pytest.raises(ValueError, match=f"^{expected}$") as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    _assert_translated_error(exc_info)
+
+
+@pytest.mark.parametrize("invalidity", ["invalid_module", "missing_field"])
+def test_permissive_override_cannot_bypass_authoritative_schema(
+    tmp_path: Path,
+    invalidity: str,
+):
+    schema_path = tmp_path / "permissive.json"
+    schema_path.write_text("{}", encoding="utf-8")
+    manifest = _valid_manifest()
+    if invalidity == "invalid_module":
+        manifest["cores"][0]["module"] = "private-module"
+    else:
+        del manifest["cores"][0]["explicit_non_claims"]
+
+    with pytest.raises(ValueError, match="core 0 invalid"):
+        load_core_manifest(
+            _write_manifest(tmp_path, manifest),
+            schema_path=schema_path,
+        )
+
+
+@pytest.mark.parametrize(
+    "manifest_text",
+    [
+        "manifest_version: '1.0'\nmanifest_version: '2.0'\ncores: []\n",
+        (
+            "manifest_version: '1.0'\ncores:\n"
+            "  - core_id: F09\n"
+            "    core_id: F08\n"
+        ),
+    ],
+)
+def test_load_core_manifest_rejects_duplicate_yaml_mapping_keys(
+    tmp_path: Path,
+    manifest_text: str,
+):
+    manifest_path = tmp_path / "duplicate.yaml"
+    manifest_path.write_text(manifest_text, encoding="utf-8")
+
+    with pytest.raises(
+        ValueError,
+        match="^manifest YAML contains a duplicate mapping key$",
+    ) as exc_info:
+        load_core_manifest(manifest_path)
+    _assert_translated_error(exc_info)
 
 
 def test_load_core_manifest_rejects_duplicate_core_id(tmp_path: Path):
@@ -174,6 +366,13 @@ def test_core_schema_is_valid_and_declares_closed_required_boundary():
     assert set(schema["properties"]) == CORE_FIELDS
 
 
+@pytest.mark.parametrize("schema_name", ["core.schema.json", "episode.schema.json"])
+def test_packaged_schema_matches_authoring_schema(schema_name: str):
+    assert (PACKAGE_SCHEMAS / schema_name).read_bytes() == (
+        SCHEMAS / schema_name
+    ).read_bytes()
+
+
 def test_episode_schema_is_valid_and_enforces_private_field_boundary():
     schema = json.loads((SCHEMAS / "episode.schema.json").read_text(encoding="utf-8"))
     validator = Draft202012Validator(schema)
@@ -232,6 +431,44 @@ def test_validate_source_paths_rejects_lexical_traversal_inside_root(tmp_path: P
     record = _record_with_source("sub/../ok.md")
 
     _assert_source_path_error(record, workspace_root, "traversal")
+
+
+@pytest.mark.parametrize(
+    "source_path",
+    [
+        "C:\\secret\\file.md",
+        "C:relative\\file.md",
+        "\\rooted\\file.md",
+        "\\\\server\\share\\file.md",
+    ],
+)
+def test_validate_source_paths_rejects_windows_absolute_or_rooted_paths(
+    tmp_path: Path,
+    source_path: str,
+):
+    workspace_root = tmp_path / "workspace"
+    workspace_root.mkdir()
+
+    _assert_source_path_error(
+        _record_with_source(source_path),
+        workspace_root,
+        "must be relative",
+    )
+
+
+def test_validate_source_paths_rejects_windows_style_lexical_traversal(
+    tmp_path: Path,
+):
+    workspace_root = tmp_path / "workspace"
+    workspace_root.mkdir()
+    source_path = "sub\\..\\ok.md"
+    (workspace_root / source_path).write_text("literal POSIX filename\n", encoding="utf-8")
+
+    _assert_source_path_error(
+        _record_with_source(source_path),
+        workspace_root,
+        "traversal",
+    )
 
 
 def test_validate_source_paths_rejects_missing_path(tmp_path: Path):

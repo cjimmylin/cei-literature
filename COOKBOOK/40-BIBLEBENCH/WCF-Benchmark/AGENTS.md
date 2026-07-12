@@ -12,10 +12,13 @@ the Westminster Standards, scored by a qualified cross-family LLM judge panel.
 
 ## Your mission (read this before anything else)
 
-**Get the benchmark MVP to fully testable. Nothing else.** The concrete finish line and the
-ordered task list live in **`20260711-codex-execution-plan.md`** — read it immediately after
-this file. That plan is the whole job. If work you are considering is not in the plan, it is
-almost certainly out of scope (see "Staying out of rabbit holes" below).
+**You (Codex) are this project's STANDING EXECUTOR — permanent handover 2026-07-12.** The
+finish line and the ordered, gate-locked task list live in
+**`20260712-codex-execution-plan-v2.md`** — read it immediately after this file. That plan
+is the whole job, from MVP-testable through the gated run and release packaging. If work
+you are considering is not in the plan, it is almost certainly out of scope (see "Staying
+out of rabbit holes" below). Session entry point: `20260712-codex-standing-boot-prompt.md`;
+full handover map: `20260712-wcf-codex-handover-plan.md`.
 
 ## Read order (total ~15 min; do NOT read the whole directory)
 
@@ -23,10 +26,11 @@ almost certainly out of scope (see "Staying out of rabbit holes" below).
 2. **`project-dashboard.html`** — the LIVING project dashboard: current status, history,
    milestones. Open it (or read its Live-status table in source) for where things stand
    RIGHT NOW; you will also update it at session end (see "The project dashboard" below).
-3. `20260711-codex-execution-plan.md` — the task list you will execute.
-4. `20260711-fable-mvp-disagreement-adjudication-memo.md` (R42–R46) — the binding decisions
-   your tasks implement. You implement these; you never re-decide them.
-5. Only when a task's spec cites one: earlier memos (R1–R41), handoffs, reports. On demand,
+3. `20260712-codex-execution-plan-v2.md` — the task list you will execute.
+4. `20260712-fable-ratification-memo.md` (R47–R53) and
+   `20260712-fable-episode-registry-review-memo.md` (R54–R57) — the binding decisions your
+   current tasks implement. You implement these; you never re-decide them.
+5. Only when a task's spec cites one: earlier memos (R1–R46), handoffs, reports. On demand,
    never up front.
 
 ## The project dashboard (`project-dashboard.html`) — ALL agents maintain it
@@ -74,10 +78,19 @@ future ones.
 
 ## Decisions are already made (the R-chain)
 
-This project runs on **binding adjudication memos** (`*-memo.md`, rulings numbered R1–R46).
+This project runs on **binding adjudication memos** (`*-memo.md`, rulings numbered R1–R57).
 Every design decision, judge qualification, scoring rule, and disputed item has been ruled.
 **Do not relitigate, "improve," or re-derive any ruling.** If a task seems to require a new
 decision, that's an escalation (see below), not an invitation to reason it out yourself.
+
+**Escalation protocol (post-Fable era, permanent):** append the question to
+`PENDING-QUESTIONS.md` (date, question, why it blocks, evidence, one-line suggested
+default). When the evidence warrants, also write a **provisional adjudication packet** —
+evidence + bounded recommendation + RESERVED (never assigned) R-numbers — for **Jimmy to
+ratify in writing** (or a future judgment-tier model session). You never self-ratify, never
+assign R-numbers, and continue other open work while an escalation is pending. One
+exception path exists: the R57 acceptance checklist lets Jimmy ratify T1/T2 outputs
+directly, checkbox-by-checkbox.
 
 ## Safety rules (MANUAL — no hooks here; violating these has caused real data loss)
 
@@ -156,16 +169,18 @@ benchmark toward testable. The rules:
    invalidate qualification manifests (R35.4) and force expensive re-qualification. Never
    reword a prompt except where the plan explicitly says to.
 
-## Current state (2026-07-11) — one paragraph, details in the plan
+## Current state (2026-07-12) — one paragraph, details in the plan
 
-Bank 230/230 (audited). Harness complete through the full-bank **MVP run: 816/816 cells,
-0 errors** (`07-PILOTS/20260710-mvp-run/`, descriptive report inside). Judge panel after
-adjudication: **gemini-flash + grok-4.20** (gpt-4o-mini is ruled DROPPED — removal is a plan
-task). Manifest of record (until the plan's re-qual task replaces it):
-`07-PILOTS/20260710-settled-requal/20260710-settled-requal-manifest.json`. Remaining work =
-the 5 tasks in the execution plan (parse/display/cost fixes → format-bridge + re-qual →
-EPISODE runs → PROOFTEXT upgrade). Human-rater work (G6) and the gated G1–G7 measurement
-are **Jimmy-gated — not agent work, do not start them.**
+Bank 230/230 (audited, frozen). MVP run 816/816 descriptive (`07-PILOTS/20260710-mvp-run/`);
+suite 492 green. Panel: **gemini-flash + grok-4.20**. R47–R53 ruled the Task-4
+"zero OPEN eligibility" a **parser artifact** (willingness veto tripped by judges quoting
+the fixture's "I won't…" line) and directed the fully-offline T1 work order (parser fix →
+corrected manifest from the immutable Task-4 raw → MVP OPEN re-parse of 155 nulled
+verdicts/65 cells). R54–R56 approved the 22-item EPISODE registry with exact field
+corrections (T2, mechanical). After T1+T2 + an R57-checklist ratification (Jimmy or the
+final Fable session F2), the MVP is **testable** per R53 with zero further spend. Still
+Jimmy-gated — not agent work, do not start them: paid calls (T3+), G6 rater work, the
+gated G1–G7 run (needs F2's binding pre-registration), and all gate adjudication.
 
 ## Session convention
 
@@ -174,6 +189,6 @@ Work TDD. End every session with: (1) suite green, (2) a NEW dated handoff
 issues / any PENDING-QUESTIONS entries), (3) **update `project-dashboard.html`** per "The
 project dashboard" section above, (4) commit + fast-forward push of WCF-Benchmark paths
 only (explicit pathspecs). There is no external memory — the handoff + dashboard ARE the
-persistence. Update the checkbox state in `20260711-codex-execution-plan.md` §Progress as
+persistence. Update the checkbox state in `20260712-codex-execution-plan-v2.md` §Progress as
 tasks complete (that file's checkboxes are the only part of it you may edit; mirror them
 on the dashboard).

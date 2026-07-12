@@ -171,6 +171,58 @@ def test_directory_creation_window_keeps_unrelated_files_private(
     assert stat.S_IMODE(target.lstat().st_mode) == 0o600
 
 
+def test_umask_set_failure_is_redacted_without_changing_process_umask(
+    tmp_path: Path, monkeypatch
+) -> None:
+    calls = []
+
+    def failing_umask(mode):
+        calls.append(mode)
+        raise OSError("do-not-echo-this")
+
+    monkeypatch.setattr(artifacts, "_set_process_umask", failing_umask)
+    original_umask = os.umask(0o027)
+    os.umask(original_umask)
+    try:
+        with pytest.raises(ValueError, match="unsafe artifact path") as caught:
+            ArtifactStore(tmp_path).write("new/result.json", {"visible": True})
+    finally:
+        observed_umask = os.umask(original_umask)
+
+    assert observed_umask == original_umask
+    assert calls == [0o077]
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "new/result.json").exists()
+    assert _artifact_temps(tmp_path) == []
+
+
+def test_umask_restore_failure_is_redacted_and_attempted_without_global_change(
+    tmp_path: Path, monkeypatch
+) -> None:
+    calls = []
+
+    def simulated_umask(mode):
+        calls.append(mode)
+        if len(calls) == 1:
+            return 0o027
+        raise OSError("do-not-echo-this")
+
+    monkeypatch.setattr(artifacts, "_set_process_umask", simulated_umask)
+    original_umask = os.umask(0o027)
+    os.umask(original_umask)
+    try:
+        with pytest.raises(ValueError, match="unsafe artifact path") as caught:
+            ArtifactStore(tmp_path).write("new/result.json", {"visible": True})
+    finally:
+        observed_umask = os.umask(original_umask)
+
+    assert observed_umask == original_umask
+    assert calls == [0o077, 0o027]
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "new/result.json").exists()
+    assert _artifact_temps(tmp_path) == []
+
+
 def test_store_does_not_chmod_existing_parent(tmp_path: Path) -> None:
     existing = tmp_path / "existing"
     existing.mkdir(mode=0o755)
@@ -246,6 +298,54 @@ def test_parent_mkdir_failure_is_redacted_before_staging(
 
     _assert_concise_redacted(caught.value)
     assert not (tmp_path / "new/result.json").exists()
+    assert _artifact_temps(tmp_path) == []
+
+
+def test_initial_parent_dup_failure_is_redacted_before_staging(
+    tmp_path: Path, monkeypatch
+) -> None:
+    def failing_dup(descriptor):
+        raise OSError(errno.EMFILE, "do-not-echo-this")
+
+    monkeypatch.setattr(artifacts.os, "dup", failing_dup)
+
+    with pytest.raises(ValueError, match="unsafe artifact path") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
+    assert _artifact_temps(tmp_path) == []
+
+
+@pytest.mark.parametrize("fault", ["error", "identity"], ids=["error", "identity"])
+def test_outer_root_parent_fstat_failure_is_rejected_before_staging(
+    tmp_path: Path, monkeypatch, fault: str
+) -> None:
+    original_dup = artifacts.os.dup
+    original_fstat = artifacts.os.fstat
+    parent_descriptors = set()
+
+    def recording_dup(descriptor):
+        duplicate = original_dup(descriptor)
+        parent_descriptors.add(duplicate)
+        return duplicate
+
+    def failing_parent_fstat(descriptor):
+        result = original_fstat(descriptor)
+        if descriptor in parent_descriptors:
+            if fault == "error":
+                raise OSError(errno.EIO, "do-not-echo-this")
+            return _changed_stat(result, inode_delta=1)
+        return result
+
+    monkeypatch.setattr(artifacts.os, "dup", recording_dup)
+    monkeypatch.setattr(artifacts.os, "fstat", failing_parent_fstat)
+
+    with pytest.raises(ValueError, match="unsafe artifact path") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
     assert _artifact_temps(tmp_path) == []
 
 
@@ -438,6 +538,26 @@ def test_store_rejects_target_symlink(tmp_path: Path) -> None:
     assert _artifact_temps(tmp_path) == []
 
 
+def test_unexpected_target_stat_error_is_distinct_and_redacted(
+    tmp_path: Path, monkeypatch
+) -> None:
+    original_stat = artifacts.os.stat
+
+    def failing_target_stat(path, *args, **kwargs):
+        if path == "result.json" and kwargs.get("dir_fd") is not None:
+            raise OSError(errno.EACCES, "do-not-echo-this")
+        return original_stat(path, *args, **kwargs)
+
+    monkeypatch.setattr(artifacts.os, "stat", failing_target_stat)
+
+    with pytest.raises(ValueError, match="unsafe artifact path") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
+    assert _artifact_temps(tmp_path) == []
+
+
 def test_store_refuses_to_overwrite_existing_target(tmp_path: Path) -> None:
     target = tmp_path / "result.json"
     target.write_bytes(b"original\n")
@@ -533,6 +653,22 @@ def test_write_failure_leaves_no_target_and_retains_temp(
     _assert_concise_redacted(caught.value)
     assert not (tmp_path / "result.json").exists()
     assert len(list(tmp_path.glob(".artifact-*.tmp"))) == 1
+
+
+def test_zero_progress_write_is_redacted_and_retains_temp(
+    tmp_path: Path, monkeypatch
+) -> None:
+    def zero_write(descriptor, data):
+        return 0
+
+    monkeypatch.setattr(artifacts.os, "write", zero_write)
+
+    with pytest.raises(OSError, match="artifact staging failed") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
+    assert len(_artifact_temps(tmp_path)) == 1
 
 
 def test_temp_open_failure_leaves_no_target_and_no_temp(
@@ -775,6 +911,71 @@ def test_native_publish_non_eexist_errno_leaves_target_absent_and_temp(
         raise OSError(errno.EACCES, "do-not-echo-this")
 
     monkeypatch.setattr(artifacts, "_native_publish_noreplace", failing_publish)
+
+    with pytest.raises(OSError, match="publication failed") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    assert caught.value.errno == errno.EACCES
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
+    assert len(_artifact_temps(tmp_path)) == 1
+
+
+def test_native_publisher_cdll_load_failure_is_redacted_and_retains_temp(
+    tmp_path: Path, monkeypatch
+) -> None:
+    def failing_cdll(*args, **kwargs):
+        raise OSError(errno.ENOEXEC, "do-not-echo-this")
+
+    monkeypatch.setattr(artifacts.ctypes, "CDLL", failing_cdll)
+
+    with pytest.raises(OSError, match="publication failed") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
+    assert len(_artifact_temps(tmp_path)) == 1
+
+
+def test_native_publisher_missing_symbol_is_redacted_and_retains_temp(
+    tmp_path: Path, monkeypatch
+) -> None:
+    class LibraryWithoutPublisher:
+        pass
+
+    monkeypatch.setattr(
+        artifacts.ctypes,
+        "CDLL",
+        lambda *args, **kwargs: LibraryWithoutPublisher(),
+    )
+
+    with pytest.raises(OSError, match="publication failed") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
+    assert len(_artifact_temps(tmp_path)) == 1
+
+
+def test_native_publisher_unexpected_errno_is_redacted_and_retains_temp(
+    tmp_path: Path, monkeypatch
+) -> None:
+    class FailingOperation:
+        argtypes = None
+        restype = None
+
+        def __call__(self, *args):
+            return -1
+
+    class FailingLibrary:
+        renameatx_np = FailingOperation()
+
+    monkeypatch.setattr(
+        artifacts.ctypes,
+        "CDLL",
+        lambda *args, **kwargs: FailingLibrary(),
+    )
+    monkeypatch.setattr(artifacts.ctypes, "get_errno", lambda: errno.EACCES)
 
     with pytest.raises(OSError, match="publication failed") as caught:
         ArtifactStore(tmp_path).write("result.json", {"visible": True})
@@ -1166,6 +1367,168 @@ def test_validate_tree_file_fstat_error_is_redacted(
     assert artifact.read_text(encoding="utf-8") == "visible"
 
 
+def test_validate_tree_root_open_failure_is_redacted(
+    tmp_path: Path, monkeypatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+    original_open = artifacts.os.open
+
+    def failing_root_open(path, *args, **kwargs):
+        if path == root:
+            raise OSError(errno.EACCES, "do-not-echo-this")
+        return original_open(path, *args, **kwargs)
+
+    monkeypatch.setattr(artifacts.os, "open", failing_root_open)
+
+    with pytest.raises(ValueError, match="unsafe artifact tree") as caught:
+        validate_artifact_tree(root)
+
+    _assert_concise_redacted(caught.value)
+    assert list(root.iterdir()) == []
+
+
+@pytest.mark.parametrize("entry_kind", ["child", "file"])
+def test_validate_tree_entry_open_failure_is_redacted(
+    tmp_path: Path, monkeypatch, entry_kind: str
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+    entry_name = "child" if entry_kind == "child" else "result.json"
+    entry = root / entry_name
+    if entry_kind == "child":
+        entry.mkdir()
+    else:
+        entry.write_text("visible", encoding="utf-8")
+    original_open = artifacts.os.open
+
+    def failing_entry_open(path, *args, **kwargs):
+        if path == entry_name:
+            raise OSError(errno.EIO, "do-not-echo-this")
+        return original_open(path, *args, **kwargs)
+
+    monkeypatch.setattr(artifacts.os, "open", failing_entry_open)
+
+    with pytest.raises(ValueError, match="unsafe artifact tree") as caught:
+        validate_artifact_tree(root)
+
+    _assert_concise_redacted(caught.value)
+    assert entry.exists()
+
+
+@pytest.mark.parametrize("descriptor_kind", ["root", "file"])
+def test_validate_tree_descriptor_close_failure_is_redacted(
+    tmp_path: Path, monkeypatch, descriptor_kind: str
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+    artifact = root / "result.json"
+    if descriptor_kind == "file":
+        artifact.write_text("visible", encoding="utf-8")
+    original_open = artifacts.os.open
+    original_close = artifacts.os.close
+    selected_descriptors = set()
+
+    def recording_open(path, *args, **kwargs):
+        descriptor = original_open(path, *args, **kwargs)
+        if (descriptor_kind == "root" and path == root) or (
+            descriptor_kind == "file" and path == "result.json"
+        ):
+            selected_descriptors.add(descriptor)
+        return descriptor
+
+    def failing_selected_close(descriptor):
+        if descriptor in selected_descriptors:
+            selected_descriptors.discard(descriptor)
+            original_close(descriptor)
+            raise OSError(errno.EIO, "do-not-echo-this")
+        return original_close(descriptor)
+
+    monkeypatch.setattr(artifacts.os, "open", recording_open)
+    monkeypatch.setattr(artifacts.os, "close", failing_selected_close)
+
+    with pytest.raises(ValueError, match="unsafe artifact tree") as caught:
+        validate_artifact_tree(root)
+
+    _assert_concise_redacted(caught.value)
+    if descriptor_kind == "file":
+        assert artifact.read_text(encoding="utf-8") == "visible"
+    else:
+        assert list(root.iterdir()) == []
+
+
+@pytest.mark.parametrize("entry_kind", ["child", "file"])
+def test_validate_tree_entry_close_retries_only_while_descriptor_is_owned(
+    tmp_path: Path, monkeypatch, entry_kind: str
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+    entry_name = "child" if entry_kind == "child" else "result.json"
+    entry = root / entry_name
+    if entry_kind == "child":
+        entry.mkdir()
+    else:
+        entry.write_text("visible", encoding="utf-8")
+    original_open = artifacts.os.open
+    original_close = artifacts.os.close
+    selected_descriptors = set()
+    selected_close_calls = 0
+
+    def recording_open(path, *args, **kwargs):
+        descriptor = original_open(path, *args, **kwargs)
+        if path == entry_name:
+            selected_descriptors.add(descriptor)
+        return descriptor
+
+    def failing_then_closing_selected(descriptor):
+        nonlocal selected_close_calls
+        if descriptor in selected_descriptors:
+            selected_close_calls += 1
+            if selected_close_calls == 1:
+                raise OSError(errno.EIO, "do-not-echo-this")
+            selected_descriptors.discard(descriptor)
+        return original_close(descriptor)
+
+    monkeypatch.setattr(artifacts.os, "open", recording_open)
+    monkeypatch.setattr(artifacts.os, "close", failing_then_closing_selected)
+
+    with pytest.raises(ValueError, match="unsafe artifact tree") as caught:
+        validate_artifact_tree(root)
+
+    assert selected_close_calls == 2
+    _assert_concise_redacted(caught.value)
+    assert entry.exists()
+
+
+@pytest.mark.parametrize("fault", ["error", "identity"], ids=["error", "identity"])
+def test_validate_tree_final_root_identity_failure_is_redacted(
+    tmp_path: Path, monkeypatch, fault: str
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+    original_lstat = artifacts.os.lstat
+    root_lstats = 0
+
+    def failing_final_lstat(path, *args, **kwargs):
+        nonlocal root_lstats
+        result = original_lstat(path, *args, **kwargs)
+        if path == root:
+            root_lstats += 1
+            if root_lstats == 2:
+                if fault == "error":
+                    raise OSError(errno.EIO, "do-not-echo-this")
+                return _changed_stat(result, inode_delta=1)
+        return result
+
+    monkeypatch.setattr(artifacts.os, "lstat", failing_final_lstat)
+
+    with pytest.raises(ValueError, match="unsafe artifact tree") as caught:
+        validate_artifact_tree(root)
+
+    _assert_concise_redacted(caught.value)
+    assert list(root.iterdir()) == []
+
+
 @pytest.mark.parametrize("link_directory", [False, True])
 def test_validate_artifact_tree_rejects_symlinks(
     tmp_path: Path, link_directory: bool
@@ -1307,6 +1670,37 @@ def test_actor_payload_rejects_normalized_auth_and_env_without_echo(
 
 
 @pytest.mark.parametrize(
+    "auth_alias",
+    [
+        "oauth",
+        "OAuthHeader",
+        "oauth-header",
+        "authn",
+        "authz",
+        "preauth",
+        "request_auth",
+        "authentication",
+    ],
+)
+@pytest.mark.parametrize("kind", ["key", "value"])
+def test_actor_payload_rejects_auth_alias_tokens_without_echo(
+    auth_alias: str, kind: str
+) -> None:
+    payload = {auth_alias: "visible"} if kind == "key" else {"content": auth_alias}
+
+    with pytest.raises(ValueError, match="model-visible payload") as caught:
+        assert_actor_payload_safe(payload)
+
+    assert auth_alias not in str(caught.value)
+    assert len(str(caught.value)) < 100
+
+
+@pytest.mark.parametrize("ordinary", ["author", "author_name", "authority"])
+def test_actor_payload_allows_ordinary_auth_prefix_words(ordinary: str) -> None:
+    assert assert_actor_payload_safe({ordinary: ordinary}) is None
+
+
+@pytest.mark.parametrize(
     "credential",
     [
         "ghp_1234567890abcdefghijklmnopqrstuvwxyz",
@@ -1322,6 +1716,12 @@ def test_actor_payload_rejects_normalized_auth_and_env_without_echo(
         "xoxp-123456789012-abcdefghijklmnop",
         "xoxa-123456789012-abcdefghijklmnop",
         "xapp-1-A1234567890-1234567890-abcdefghijklmnop",
+        "AIza" + "A" * 35,
+        "sk_live_" + "A" * 24,
+        "rk_live_" + "B" * 24,
+        "glpat-" + "C" * 20,
+        "hf_" + "D" * 30,
+        "npm_" + "E" * 36,
         "Bearer abcdef123456",
         "sk-example123456789",
         "OPENROUTER_API_KEY=dummy-value",
@@ -1348,6 +1748,16 @@ def test_actor_payload_rejects_credential_shapes_without_echo(
         "a.b.c",
         "xoxb-short",
         "sketch-example123456789",
+        "AIza_short",
+        "sk_live_short",
+        "rk_live_short",
+        "sk_lively_12345678901234567890",
+        "glpat-short",
+        "glpattern-is-ordinary",
+        "hf_short",
+        "hfriend_12345678901234567890",
+        "npm_short",
+        "npm-package-name",
     ],
 )
 def test_actor_payload_allows_credential_and_short_term_near_misses(

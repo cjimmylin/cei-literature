@@ -82,6 +82,8 @@ _JUDGE_FORBIDDEN_TERMS = frozenset(
 )
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
 _CAMEL_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
+# These are standalone normalized protocol aliases, not arbitrary "auth" prefixes.
+_AUTH_ALIAS_TOKENS = frozenset({"auth", "oauth", "authn", "authz", "preauth"})
 _CREDENTIAL_SHAPE = re.compile(
     r"(?:"
     r"\bsk-[A-Za-z0-9_-]{6,}"
@@ -93,6 +95,11 @@ _CREDENTIAL_SHAPE = re.compile(
     r"[A-Za-z0-9_-]{4,}(?![A-Za-z0-9_-])"
     r"|(?<![A-Za-z0-9_-])xox[bpa]-[A-Za-z0-9-]{8,}"
     r"|(?<![A-Za-z0-9_-])xapp-[A-Za-z0-9-]{8,}"
+    r"|(?<![A-Za-z0-9_])AIza[A-Za-z0-9_-]{30,}"
+    r"|(?<![A-Za-z0-9_])(?:sk|rk)_live_[A-Za-z0-9]{16,}"
+    r"|(?<![A-Za-z0-9_-])glpat-[A-Za-z0-9_-]{16,}"
+    r"|(?<![A-Za-z0-9_])hf_[A-Za-z0-9]{20,}"
+    r"|(?<![A-Za-z0-9_])npm_[A-Za-z0-9_-]{20,}"
     r")"
 )
 _ENV_ASSIGNMENT = re.compile(r"(?m)^[ \t]*[A-Z][A-Z0-9_]{1,63}=")
@@ -120,7 +127,11 @@ def _string_is_forbidden(
     for term in forbidden_terms:
         if term == "token" and allowed_token_count:
             continue
-        if term in {"auth", "env"}:
+        if term == "auth":
+            if _AUTH_ALIAS_TOKENS & normalized_parts:
+                return True
+            continue
+        if term == "env":
             if normalized == term or term in normalized_parts:
                 return True
             continue
@@ -286,19 +297,26 @@ def _path_parts(relative: Any) -> tuple[str, ...]:
     return parts
 
 
+def _set_process_umask(mode: int) -> int:
+    return os.umask(mode)
+
+
 def _mkdir_private(component: str, parent_fd: int) -> None:
     # umask is process-global; 077 keeps unrelated concurrent creations private.
     # The lock serializes stores, and the caller documents residual mode narrowing.
     with _UMASK_LOCK:
-        previous_umask = os.umask(0o077)
+        previous_umask = _set_process_umask(0o077)
         try:
             os.mkdir(component, mode=0o700, dir_fd=parent_fd)
         finally:
-            os.umask(previous_umask)
+            _set_process_umask(previous_umask)
 
 
 def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
-    current = os.dup(root_fd)
+    try:
+        current = os.dup(root_fd)
+    except OSError as exc:
+        raise ValueError("unsafe artifact path") from exc
     try:
         for component in parts[:-1]:
             needs_directory_sync = False
@@ -384,7 +402,12 @@ def _native_publish_noreplace(parent_fd: int, temporary: str, target: str) -> No
     source = temporary.encode("utf-8")
     destination = target.encode("utf-8")
     if sys.platform == "darwin":
-        operation = library.renameatx_np
+        try:
+            operation = library.renameatx_np
+        except AttributeError as exc:
+            raise OSError(
+                errno.ENOTSUP, "atomic no-replace publication unavailable"
+            ) from exc
         operation.argtypes = [
             ctypes.c_int,
             ctypes.c_char_p,
@@ -508,6 +531,12 @@ class ArtifactStore:
             os.close(parent_fd)
             raise ValueError("unsafe artifact path") from exc
         parent_identity = (parent_stat.st_dev, parent_stat.st_ino)
+        if (
+            not stat.S_ISDIR(parent_stat.st_mode)
+            or (len(parts) == 1 and parent_identity != self._root_identity)
+        ):
+            os.close(parent_fd)
+            raise ValueError("unsafe artifact path")
         descriptor: int | None = None
         published = False
         try:
@@ -627,7 +656,11 @@ def _scan_artifact_directory(
                     raise ValueError("unsafe artifact tree")
                 _scan_artifact_directory(child_fd, seen)
             finally:
-                os.close(child_fd)
+                _close_owned_descriptor(
+                    child_fd,
+                    identity,
+                    "artifact tree child descriptor close failed",
+                )
             continue
 
         if stat.S_ISREG(entry.st_mode):
@@ -643,7 +676,11 @@ def _scan_artifact_directory(
                 ):
                     raise ValueError("unsafe artifact tree")
             finally:
-                os.close(file_fd)
+                _close_owned_descriptor(
+                    file_fd,
+                    identity,
+                    "artifact tree file descriptor close failed",
+                )
             continue
 
         raise ValueError("unsafe artifact tree")
@@ -669,4 +706,13 @@ def validate_artifact_tree(root: Path) -> None:
     except OSError as exc:
         raise ValueError("unsafe artifact tree") from exc
     finally:
-        os.close(descriptor)
+        pending_error = sys.exc_info()[0] is not None
+        try:
+            _close_owned_descriptor(
+                descriptor,
+                identity,
+                "artifact tree root descriptor close failed",
+            )
+        except OSError as exc:
+            if not pending_error:
+                raise ValueError("unsafe artifact tree") from exc

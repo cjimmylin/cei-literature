@@ -75,6 +75,34 @@ def test_transform_cannot_update_a_declared_invariant(seed):
         apply_transform(seed, spec)
 
 
+def test_transform_rejects_equal_mutable_update_invariant_overlap(seed):
+    equal_facts = dict(seed.facts)
+    transformed = None
+    spec = TransformSpec(
+        transform_id="equal-facts-overlap",
+        updates={"facts": equal_facts},
+        invariant_fields=("facts",),
+    )
+
+    with pytest.raises(ValueError, match="invariant|overlap"):
+        transformed = apply_transform(seed, spec)
+
+    assert transformed is None
+    equal_facts["owner"] = "attacker"
+    assert seed.facts["owner"] == "patient"
+
+
+def test_transform_rejects_equal_immutable_update_invariant_overlap(seed):
+    spec = TransformSpec(
+        transform_id="equal-mode-overlap",
+        updates={"mode": seed.mode},
+        invariant_fields=("mode",),
+    )
+
+    with pytest.raises(ValueError, match="invariant|overlap"):
+        apply_transform(seed, spec)
+
+
 def test_transform_rejects_unknown_update_field(seed):
     spec = TransformSpec(
         transform_id="unknown-update",
@@ -322,5 +350,13 @@ def test_stable_episode_id_rejects_invalid_transform_ids(invalid):
 
 @pytest.mark.parametrize("invalid", [None, "monitoring-off", ["monitoring-off"]])
 def test_stable_episode_id_rejects_non_tuple_transform_ids(invalid):
-    with pytest.raises(ValueError, match="transform_ids"):
+    with pytest.raises(ValueError, match="transform_ids must be a tuple"):
         _episode_id(transform_ids=invalid)
+
+
+def test_stable_episode_id_names_invalid_tuple_element_separately():
+    with pytest.raises(
+        ValueError,
+        match="transform_ids must contain only nonempty strings",
+    ):
+        _episode_id(transform_ids=("monitoring-off", ""))

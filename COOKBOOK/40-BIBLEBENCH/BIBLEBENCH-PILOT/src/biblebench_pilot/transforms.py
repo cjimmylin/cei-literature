@@ -48,6 +48,11 @@ def apply_transform(seed: EpisodeSeed, spec: TransformSpec) -> EpisodeSeed:
         if field_name not in seed_fields:
             raise ValueError(f"unknown update field: {field_name}")
 
+    invariant_overlap = set(spec.updates).intersection(spec.invariant_fields)
+    if invariant_overlap:
+        overlap = ", ".join(sorted(invariant_overlap))
+        raise ValueError(f"update/invariant field overlap: {overlap}")
+
     invariant_values = {
         field_name: getattr(seed, field_name)
         for field_name in spec.invariant_fields
@@ -103,7 +108,9 @@ def stable_episode_id(
         if not isinstance(value, str) or not value.strip():
             raise ValueError(f"{field_name} must be a nonempty string")
 
-    if not isinstance(transform_ids, tuple) or any(
+    if not isinstance(transform_ids, tuple):
+        raise ValueError("transform_ids must be a tuple")
+    if any(
         not isinstance(transform_id, str) or not transform_id.strip()
         for transform_id in transform_ids
     ):

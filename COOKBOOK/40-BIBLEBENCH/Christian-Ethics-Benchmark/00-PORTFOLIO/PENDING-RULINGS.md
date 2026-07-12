@@ -360,5 +360,40 @@ lanes, but W5 cannot run until PR-10 is ruled. No HOLDOUT path was loaded.
 
 ---
 
+## PR-11 — G5's “>0.5 points per category” is undefined for design 09's executable rubric
+
+**Surfaced:** 2026-07-12 Codex O5 continuation, before building/mock-testing the G5
+driver. No G5 model call was made.
+
+Frozen §C G5 says each matched reference pair is blind-scored and a violation occurs
+when “any rubric category” differs by **>0.5 points**. Design 06 is mechanically defined:
+its seven executable categories are ordinal `{0, 0.5, 1}`. Design 09 is not:
+`rubrics.py` exposes only `floor_compliance` (binary) and `owes_direction`
+(`{A_owes, B_owes, mutual, none}`, categorical). A categorical determination has no
+registered point distance, so “>0.5” cannot be applied without inventing a mapping.
+
+The reviewed 09 G5 DRAFT compounds the mismatch: each pair carries a **six-category
+qualitative self-audit** (`Wrong-naming`, `Debt/obligation accuracy`, `Floor compliance`,
+`Attitudinal/heart duty`, `Reasoning/method quality`, `Pastoral concreteness`) and asserts
+the pair is within 0.5 on them, but those six categories do not exist in the harness's
+09 `ScoringSpec`, have no numeric options/anchors, and therefore cannot be sent to a live
+judge as registered categories. FR-18(b) resolves which *conclusion axis* the pair may
+vary; it does not define this scoring scale.
+
+**Jimmy ruling/amendment required before live G5 or a driver can be finalized:** choose
+one registered computation, for example:
+
+1. use the existing 09 executable rubric, treating categorical identity as distance 0
+   and non-identity as distance 1 (binary floor already numeric); or
+2. register numeric options/anchors for the six reviewed G5 quality categories and use
+   that G5-only rubric for both references.
+
+Either choice defines a post-data scoring computation/scale and cannot be guessed by
+Codex. **Current behavior:** the G5 linter and directed DRAFT corrections are complete,
+but the G5 driver/live scoring thread is stopped. The active re-execution/W1/W2/W3 lanes
+are unaffected. Promotion one-liner remains separately required even after PR-11.
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

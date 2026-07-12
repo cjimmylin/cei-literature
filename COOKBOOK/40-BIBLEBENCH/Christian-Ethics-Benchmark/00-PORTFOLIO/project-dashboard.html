@@ -121,7 +121,7 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
 <a href="#plan">The frozen plan</a><a href="#history">History</a><a href="#progress">Progress now</a>
 <a href="#designs">Per-design matrix</a><a href="#rulings">Rulings ledger</a><a href="#lanes">Who owes what</a>
 <a href="#roadmap">Roadmap</a><a href="#contingency">Contingency playbook</a><a href="#docs">Document map</a>
-<a href="#protocol">Protocol &amp; changelog</a>
+<a href="#protocol">Protocol &amp; changelog</a><a href="#next-session">▶ Next session</a>
 </div>
 
 <h2 id="live"><span class="n">1</span>⚡ Live status — 2026-07-11</h2>
@@ -515,11 +515,89 @@ no external resources).</p>
 <tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
   <td>Staged the next-Fable-session boot prompt (<span class="mono">20260711i-fable-pr9-adjudication-boot-prompt.md</span>:
   rule PR-9, sweep escalations, re-issue Codex W1 orders); Live status points to it.</td></tr>
+<tr><td class="mono">2026-07-11</td><td><span class="badge b-fable">Claude (Fable)</span></td>
+  <td>Title prefixed "Christian Ethics" (Jimmy); added §12 "Instructions for the next session" (boot prompt +
+  model + directory, replaced on every new session staging) — currently the Fable PR-9 adjudication session.</td></tr>
 <tr><td class="mono">2026-07-11</td><td><span class="badge b-codex">Codex</span></td>
   <td>Audited Claude's committed dashboard/re-entry work; repaired future scored-record transcript persistence
   under fixture-driven 02/07 TDD (276 green, independent reviews PASS). PR-9 remains open; immutable O4 evidence
   untouched; zero live calls.</td></tr>
 </table>
+</div>
+
+<h2 id="next-session"><span class="n">12</span>▶ Instructions for the next session</h2>
+<div class="panel" style="border-color:#2a4a3a">
+<p style="color:var(--dim);font-size:13.5px;margin:0 0 12px"><b style="color:var(--text)">This section always
+holds THE next prepared session.</b> Whoever stages a new session replaces the contents below (boot prompt,
+model, directory) and appends a Changelog row in §11 — superseded prompts remain in their dated files.</p>
+<table class="dense" style="margin-bottom:12px">
+<tr><th style="width:130px">Field</th><th>Value</th></tr>
+<tr><td><b>Session</b></td><td>Fable — PR-9 adjudication + O5 escalation review (staged 2026-07-11,
+  <span class="mono">20260711i-fable-pr9-adjudication-boot-prompt.md</span>)</td></tr>
+<tr><td><b>Model</b></td><td><span class="badge b-fable">Claude Fable 5</span> in Claude Code
+  (<code>/model fable</code>, high effort). NOT delegable to Opus/Codex — this session RULES.</td></tr>
+<tr><td><b>Directory</b></td><td><span class="mono">/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</span>
+  (standard Claude Code working dir; the prompt scope-locks to
+  <span class="mono">COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/</span>)</td></tr>
+<tr><td><b>Human needed</b></td><td><span class="badge b-jimmy">JIMMY</span> present — PR-9 items 1+3 need his
+  one-liners inline (transcript re-execution spend; grok-4 probe vs cheap-models-only)</td></tr>
+<tr><td><b>Note</b></td><td>Codex is actively working W1 (forward transcript persistence) — the prompt already
+  instructs verifying current state first and skipping any PR-9 item that is moot or ruled by then.</td></tr>
+</table>
+<pre style="background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:14px 16px;
+font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;line-height:1.5;overflow-x:auto;
+white-space:pre-wrap;color:#c8d6ee;margin:0">
+New Fable session (fresh context): WALKWORTHY — PR-9 ADJUDICATION + O5 escalation review.
+This is a scarce Fable window: judgment stays in the main loop; delegate every heavy
+read/search/draft to Opus or Sonnet subagents with an explicit model= parameter — never
+fan out Fable agents. SCOPE LOCK: work ONLY inside
+CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/ — no sibling benches.
+
+ON OPENING (dashboard protocol): read 00-PORTFOLIO/project-dashboard.html (the LIVING
+dashboard — Live status, per-design matrix, contingency playbook C-1..C-15, rulings
+ledger) and the NEWEST dated handoff in 00-PORTFOLIO/. The state may have moved past
+this prompt — Codex sessions and Jimmy rulings may have landed since it was staged;
+verify what actually exists before ruling on anything. Then read yourself (all short):
+PENDING-RULINGS.md (esp. PR-9), 20260711h-codex-o5-phase0-w1-stop-handoff.md,
+20260711d-fable-o5-decision-framework.md §2+§6 (your own prior rulings FR-1..FR-15 and
+STOP triggers), and AGENTS.md (safety rules). The FROZEN stack you may interpret but
+NEVER rewrite: 20260710-fable-gate-prereg-pilot-adjudication.md §B/§C/§E + the FR
+rulings. Background docs (validity review 20260711c, transition package 20260711e) —
+delegate to an Opus subagent if needed; you wrote them.
+
+TASK 1 — RULE PR-9 (the active blocker; skip any item already ruled):
+(a) Item 2, delegated to you (W1 selector scope): rule whether W1 must cover the full
+    §B needs_adjudication surface (3,172 cells) rather than the 609 pending_adjudication
+    records; disposition the 20 non-tie-breakable records (05 allocation-parse and 09
+    arbiter-first pendings — likely route to their own §B handling, not the tie-breaker;
+    decide, don't assume). Log as a NEW dated ruling doc (FR-16 style), update
+    PENDING-RULINGS, flag for Jimmy ratification.
+(b) Items 1+3, Jimmy-only (transcript re-execution; grok-4 probe vs cheap-models-only):
+    present crisp options with cost/session estimates and a recommendation; if Jimmy
+    rules inline, convert immediately into exact Codex W1 orders (data-contract test
+    first, per the Codex handoff §5); if he defers, log the recommendation in
+    PENDING-RULINGS and mark W1 blocked-on-Jimmy.
+TASK 2 — Sweep for anything else Codex parked or the dashboard flags as judgment-shaped
+    (contingencies C-4: 06/09 reference-pair gaps; C-5: L7 rotation list) — decide
+    whether to pre-order that authoring work now (Opus) so G5/G7 aren't blocked later.
+TASK 3 — Amend the Codex execution orders to match your rulings (NEW dated amendment or
+    additive edits to 20260711e/20260711g per conventions) so the next Codex session can
+    resume W1 with zero open judgment.
+
+CONSTRAINTS: NO G4-dependent gate verdicts (labels absent); FIX-MECHANICS-ONLY (no item
+edits from performance); report immutability (NEW dated files); HOLDOUT never loaded;
+never delete (mv to RECYCLE-BIN/); shared git index (git log -1 AND git diff --cached
+--name-only before staging — a sibling session's staged files have been swept twice;
+explicit WALKWORTHY pathspecs; fast-forward pushes only); every ruling logged +
+ratification-flagged; anything beyond delegated authority → PENDING-RULINGS, never
+guessed.
+
+ON CLOSING: update project-dashboard.html IN PLACE (Live status, rulings ledger,
+contingency C-1..C-3 statuses, Last-updated line, Changelog row — and REPLACE the
+"Instructions for the next session" section §12 with whatever session comes after
+yours); write a NEW dated handoff; update memory; commit + fast-forward push
+WALKWORTHY paths only.
+</pre>
 </div>
 
 <p class="foot">WALKWORTHY · CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html

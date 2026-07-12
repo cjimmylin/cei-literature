@@ -24,7 +24,11 @@ _MANIFEST_FIELDS = {"manifest_version", "cores"}
 _YAML_MERGE_TAG = "tag:yaml.org,2002:merge"
 _YAML_STRING_TAG = "tag:yaml.org,2002:str"
 _MAX_YAML_DEPTH = 128  # Maximum composed-node depth, with the root at depth zero.
+_MAX_SCHEMA_DEPTH = 64  # Maximum active-subschema depth, root at depth zero.
 _MAX_VALIDATION_ERROR_LENGTH = 512  # Bounds public jsonschema error text.
+_ACTIVE_OVERRIDE_REFERENCE_ERROR = (
+    "active schema references are not permitted in overrides"
+)
 _MAP_SUBSCHEMA_KEYWORDS = frozenset(
     {
         "$defs",
@@ -185,12 +189,24 @@ def _load_authoritative_schema() -> dict[str, Any]:
         schema = json.loads(schema_text)
     except json.JSONDecodeError:
         raise ValueError("authoritative core schema is not valid JSON") from None
-    _preflight_schema_references(schema, "authoritative core schema")
+    except RecursionError:
+        raise ValueError(
+            "authoritative core schema is invalid or too deeply nested"
+        ) from None
+    _preflight_schema_references(
+        schema,
+        "authoritative core schema",
+        reject_active_references=False,
+    )
     try:
         Draft202012Validator.check_schema(schema)
     except SchemaError:
         raise ValueError(
             "authoritative core schema is not a valid Draft 2020-12 schema"
+        ) from None
+    except RecursionError:
+        raise ValueError(
+            "authoritative core schema is invalid or too deeply nested"
         ) from None
     return schema
 
@@ -204,42 +220,65 @@ def _load_override_schema(schema_path: Path) -> dict[str, Any]:
         schema = json.loads(schema_text)
     except json.JSONDecodeError:
         raise ValueError("schema override is not valid JSON") from None
-    _preflight_schema_references(schema, "schema override")
+    except RecursionError:
+        raise ValueError(
+            "schema override is invalid or too deeply nested"
+        ) from None
+    _preflight_schema_references(
+        schema,
+        "schema override",
+        reject_active_references=True,
+    )
     try:
         Draft202012Validator.check_schema(schema)
     except SchemaError:
         raise ValueError(
             "schema override is not a valid Draft 2020-12 schema"
         ) from None
+    except RecursionError:
+        raise ValueError(
+            "schema override is invalid or too deeply nested"
+        ) from None
     return schema
 
 
-def _preflight_schema_references(schema: Any, label: str) -> None:
-    pending = [schema]
+def _preflight_schema_references(
+    schema: Any,
+    label: str,
+    *,
+    reject_active_references: bool,
+) -> None:
+    pending = [(schema, 0)]
     while pending:
-        subschema = pending.pop()
+        subschema, depth = pending.pop()
+        if depth > _MAX_SCHEMA_DEPTH:
+            raise ValueError(f"{label} exceeds maximum depth")
         if not isinstance(subschema, dict):
             continue
 
         for keyword in ("$ref", "$dynamicRef"):
             reference = subschema.get(keyword)
-            if isinstance(reference, str) and not reference.startswith("#"):
+            if not isinstance(reference, str):
+                continue
+            if reject_active_references:
+                raise ValueError(_ACTIVE_OVERRIDE_REFERENCE_ERROR)
+            if not reference.startswith("#"):
                 raise ValueError(f"{label} contains a non-local reference")
 
         for keyword in _MAP_SUBSCHEMA_KEYWORDS:
             schema_map = subschema.get(keyword)
             if isinstance(schema_map, dict):
-                pending.extend(schema_map.values())
+                pending.extend((child, depth + 1) for child in schema_map.values())
 
         for keyword in _ARRAY_SUBSCHEMA_KEYWORDS:
             schema_array = subschema.get(keyword)
             if isinstance(schema_array, list):
-                pending.extend(schema_array)
+                pending.extend((child, depth + 1) for child in schema_array)
 
         for keyword in _SINGLE_SUBSCHEMA_KEYWORDS:
             child_schema = subschema.get(keyword)
             if isinstance(child_schema, (bool, dict)):
-                pending.append(child_schema)
+                pending.append((child_schema, depth + 1))
 
 
 def _bounded_validation_error(index: int, error: ValidationError) -> str:
@@ -262,6 +301,8 @@ def _validate_core(
         raise ValueError(_bounded_validation_error(index, error)) from None
     except Unresolvable:
         raise ValueError("schema reference could not be resolved") from None
+    except RecursionError:
+        raise ValueError("schema validation exceeded safe limits") from None
 
 
 def load_core_manifest(

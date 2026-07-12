@@ -80,6 +80,13 @@ def _nested_private_manifest(target_node_depth: int) -> dict:
     return manifest
 
 
+def _nested_all_of_schema(target_schema_depth: int) -> dict:
+    schema: dict = {}
+    for _ in range(target_schema_depth):
+        schema = {"allOf": [schema]}
+    return schema
+
+
 def _merged_manifest_text(default_module: str | None = None) -> str:
     merged_module = (
         f"      module: {default_module}\n" if default_module is not None else ""
@@ -306,7 +313,11 @@ def test_load_core_manifest_translates_malformed_yaml(tmp_path: Path):
 
 def test_yaml_depth_limits_are_documented():
     assert getattr(registry_module, "_MAX_YAML_DEPTH", None) == 128
+    assert getattr(registry_module, "_MAX_SCHEMA_DEPTH", None) == 64
     assert getattr(registry_module, "_MAX_VALIDATION_ERROR_LENGTH", None) == 512
+    assert getattr(registry_module, "_ACTIVE_OVERRIDE_REFERENCE_ERROR", None) == (
+        "active schema references are not permitted in overrides"
+    )
 
 
 def test_load_core_manifest_accepts_exact_yaml_depth_boundary(tmp_path: Path):
@@ -354,6 +365,55 @@ def test_load_core_manifest_bounds_deep_validation_error_text(tmp_path: Path):
     assert message.startswith("core 0 invalid at construct:")
     assert len(message) <= 512
     assert message.endswith("...")
+
+
+def test_override_schema_accepts_exact_schema_depth_boundary(tmp_path: Path):
+    schema_path = tmp_path / "schema-depth-64.json"
+    schema_path.write_text(
+        json.dumps(_nested_all_of_schema(64)),
+        encoding="utf-8",
+    )
+
+    records = load_core_manifest(
+        FIXTURES / "core-valid.yaml",
+        schema_path=schema_path,
+    )
+
+    assert records[0].core_id == "F09"
+
+
+def test_override_schema_rejects_over_schema_depth_boundary(tmp_path: Path):
+    schema_path = tmp_path / "schema-depth-65.json"
+    schema_path.write_text(
+        json.dumps(_nested_all_of_schema(65)),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="^schema override exceeds maximum depth$",
+    ) as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    assert exc_info.value.__cause__ is None
+    assert exc_info.value.__context__ is None
+
+
+def test_override_schema_translates_extreme_schema_recursion(tmp_path: Path):
+    schema_path = tmp_path / "schema-depth-700.json"
+    schema_path.write_text(
+        '{"allOf":[' * 700 + "{}" + "]}" * 700,
+        encoding="utf-8",
+    )
+
+    with pytest.raises(
+        ValueError,
+        match=(
+            "^schema override (?:exceeds maximum depth|"
+            "is invalid or too deeply nested)$"
+        ),
+    ) as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    assert exc_info.value.__cause__ is None
 
 
 def test_load_core_manifest_translates_invalid_override_schema(tmp_path: Path):
@@ -409,7 +469,7 @@ def test_override_schema_rejects_external_references_without_resolution(
 
     with pytest.raises(
         ValueError,
-        match="^schema override contains a non-local reference$",
+        match="^active schema references are not permitted in overrides$",
     ) as exc_info:
         load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
     assert exc_info.value.__cause__ is None
@@ -446,7 +506,7 @@ def test_override_schema_ignores_reference_shaped_annotation_data(
     assert records[0].core_id == "F09"
 
 
-def test_override_schema_accepts_resolvable_local_fragment(tmp_path: Path):
+def test_override_schema_rejects_resolvable_local_fragment(tmp_path: Path):
     schema_path = tmp_path / "local-reference.json"
     schema_path.write_text(
         json.dumps(
@@ -458,24 +518,46 @@ def test_override_schema_accepts_resolvable_local_fragment(tmp_path: Path):
         encoding="utf-8",
     )
 
-    records = load_core_manifest(
-        FIXTURES / "core-valid.yaml",
-        schema_path=schema_path,
-    )
+    with pytest.raises(
+        ValueError,
+        match="^active schema references are not permitted in overrides$",
+    ) as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    assert exc_info.value.__cause__ is None
+    assert exc_info.value.__context__ is None
 
-    assert records[0].core_id == "F09"
 
-
-def test_override_schema_translates_unresolvable_local_fragment(tmp_path: Path):
+def test_override_schema_rejects_unresolvable_local_fragment(tmp_path: Path):
     schema_path = tmp_path / "missing-local-reference.json"
     schema_path.write_text('{"$ref": "#/$defs/missing"}', encoding="utf-8")
 
     with pytest.raises(
         ValueError,
-        match="^schema reference could not be resolved$",
+        match="^active schema references are not permitted in overrides$",
     ) as exc_info:
         load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
-    _assert_translated_error(exc_info)
+    assert exc_info.value.__cause__ is None
+    assert exc_info.value.__context__ is None
+
+
+def test_override_schema_rejects_local_pointer_to_external_ref_annotation(
+    tmp_path: Path,
+):
+    schema = {
+        "examples": [{"$ref": "file:///definitely/missing/schema.json"}],
+        "$ref": "#/examples/0",
+    }
+    Draft202012Validator.check_schema(schema)
+    schema_path = tmp_path / "local-pointer-to-annotation.json"
+    schema_path.write_text(json.dumps(schema), encoding="utf-8")
+
+    with pytest.raises(
+        ValueError,
+        match="^active schema references are not permitted in overrides$",
+    ) as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    assert exc_info.value.__cause__ is None
+    assert exc_info.value.__context__ is None
 
 
 @pytest.mark.parametrize("invalidity", ["invalid_module", "missing_field"])

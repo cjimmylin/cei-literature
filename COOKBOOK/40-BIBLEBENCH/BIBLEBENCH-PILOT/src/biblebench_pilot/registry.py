@@ -20,6 +20,7 @@ _ARRAY_FIELDS = (
     "module_red_lines",
 )
 _MANIFEST_FIELDS = {"manifest_version", "cores"}
+_YAML_MERGE_TAG = "tag:yaml.org,2002:merge"
 
 
 class _DuplicateKeyError(yaml.YAMLError):
@@ -35,11 +36,13 @@ def _construct_unique_mapping(
     node: yaml.MappingNode,
     deep: bool = False,
 ) -> dict[Any, Any]:
-    mapping: dict[Any, Any] = {}
-    for key_node, value_node in node.value:
+    explicit_keys: set[Any] = set()
+    for key_node, _ in node.value:
+        if key_node.tag == _YAML_MERGE_TAG:
+            continue
         key = loader.construct_object(key_node, deep=deep)
         try:
-            duplicate = key in mapping
+            duplicate = key in explicit_keys
         except TypeError:
             raise yaml.constructor.ConstructorError(
                 "while constructing a mapping",
@@ -49,8 +52,14 @@ def _construct_unique_mapping(
             ) from None
         if duplicate:
             raise _DuplicateKeyError
-        mapping[key] = loader.construct_object(value_node, deep=deep)
-    return mapping
+        explicit_keys.add(key)
+
+    loader.flatten_mapping(node)
+    return yaml.constructor.SafeConstructor.construct_mapping(
+        loader,
+        node,
+        deep=deep,
+    )
 
 
 _UniqueKeySafeLoader.add_constructor(

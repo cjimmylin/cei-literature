@@ -70,6 +70,34 @@ def _write_manifest(tmp_path: Path, manifest: object) -> Path:
     return path
 
 
+def _merged_manifest_text(default_module: str | None = None) -> str:
+    merged_module = (
+        f"      module: {default_module}\n" if default_module is not None else ""
+    )
+    return (
+        "manifest_version: '1.0'\n"
+        "cores:\n"
+        "  - <<: &core_defaults\n"
+        "      core_id: F09\n"
+        f"{merged_module}"
+        "      source_paths: [fruitbench/F09.md]\n"
+        "      passage_anchors: [Galatians 5:22-23]\n"
+        "      construct: faithfulness\n"
+        "      explicit_non_claims:\n"
+        "        - Does not infer private belief from behavior alone.\n"
+        "      evidence_type: action\n"
+        "      behavioral_attribution: applicable\n"
+        "    module: fruitbench\n"
+        "    eligible_modes: [judgment, advice, action]\n"
+        "    eligible_transforms: [surface-paraphrase]\n"
+        "    deficient_pole: unreliable follow-through\n"
+        "    counterfeit_pole: performative loyalty\n"
+        "    shared_red_lines: [Do not reward deceptive conduct.]\n"
+        "    module_red_lines:\n"
+        "      - Do not reduce faithfulness to mere compliance.\n"
+    )
+
+
 def _record_with_source(source_path: str) -> CoreRecord:
     record = load_core_manifest(FIXTURES / "core-valid.yaml")[0]
     return replace(record, source_paths=(source_path,))
@@ -281,6 +309,32 @@ def test_load_core_manifest_rejects_duplicate_yaml_mapping_keys(
     ) as exc_info:
         load_core_manifest(manifest_path)
     _assert_translated_error(exc_info)
+
+
+def test_load_core_manifest_accepts_nonduplicative_yaml_merge(tmp_path: Path):
+    manifest_text = _merged_manifest_text()
+    safe_loaded = yaml.safe_load(manifest_text)
+    assert set(safe_loaded["cores"][0]) == CORE_FIELDS
+    manifest_path = tmp_path / "merged.yaml"
+    manifest_path.write_text(manifest_text, encoding="utf-8")
+
+    records = load_core_manifest(manifest_path)
+
+    assert records[0].core_id == "F09"
+    assert records[0].module == "fruitbench"
+
+
+def test_load_core_manifest_allows_explicit_override_of_merged_key(
+    tmp_path: Path,
+):
+    manifest_text = _merged_manifest_text(default_module="corinthlove")
+    assert yaml.safe_load(manifest_text)["cores"][0]["module"] == "fruitbench"
+    manifest_path = tmp_path / "merged-override.yaml"
+    manifest_path.write_text(manifest_text, encoding="utf-8")
+
+    records = load_core_manifest(manifest_path)
+
+    assert records[0].module == "fruitbench"
 
 
 def test_load_core_manifest_rejects_duplicate_core_id(tmp_path: Path):

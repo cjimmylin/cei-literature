@@ -59,6 +59,10 @@ _ACTOR_FORBIDDEN_KEYS = frozenset(
         "session_cookie",
         "cookie",
         "set_cookie",
+        "model",
+        "model_id",
+        "model_name",
+        "tested_model",
     }
 )
 _JUDGE_FORBIDDEN_KEYS = frozenset(
@@ -93,6 +97,7 @@ _JUDGE_FORBIDDEN_KEYS = frozenset(
         "session_cookie",
         "cookie",
         "set_cookie",
+        "token",
         "model",
         "model_id",
         "model_name",
@@ -124,9 +129,13 @@ _CREDENTIAL_SHAPE = re.compile(
 )
 _ENV_ASSIGNMENT = re.compile(r"(?m)^[ \t]*[A-Z][A-Z0-9_]{1,63}=")
 _SENSITIVE_ASSIGNMENT = re.compile(
-    r"(?i)(?<![a-z0-9_])(?:authorization|authentication|auth|api[_-]?key|"
-    r"password|passwd|access[_-]?token|refresh[_-]?token|session[_-]?cookie|"
-    r"cookie|set[_-]?cookie|secret|credential)[ \t]*[:=]"
+    r"(?i)(?<![a-z0-9_])(?:private|gold|ground[_-]?truth|"
+    r"expected[_-]?label|judge[_-]?id|actor(?:[_-]?(?:id|model))?|"
+    r"model(?:[_-]?(?:identity|id|name))?|tested[_-]?model|provider|route|"
+    r"cue|condition|canary|api[_-]?key|authorization|authentication|auth|"
+    r"bearer|credential|secret|token|environment|env(?:[_-]?dump)?|rubric|"
+    r"password|passwd|access[_-]?token|refresh[_-]?token|"
+    r"session[_-]?cookie|cookie|set[_-]?cookie)[ \t]*[:=]"
 )
 _PRIVATE_MARKER = re.compile(
     r"(?i)(?:^|[^a-z0-9])(?:private|canary)(?:[^a-z0-9]|$)"
@@ -379,19 +388,17 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
     except OSError as exc:
         raise ValueError("unsafe artifact path") from None
     try:
-        current_stat = os.fstat(current)
+        os.fstat(current)
     except OSError as exc:
         try:
             os.close(current)
         except OSError:
             pass
         raise ValueError("unsafe artifact path") from None
-    current_identity = (current_stat.st_dev, current_stat.st_ino)
     try:
         for component in parts[:-1]:
             needs_directory_sync = False
             created_identity: tuple[int, int] | None = None
-            child_identity: tuple[int, int] | None = None
             try:
                 child = os.open(
                     component,
@@ -422,7 +429,6 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
                 )
             try:
                 child_stat = os.fstat(child)
-                child_identity = (child_stat.st_dev, child_stat.st_ino)
                 if not stat.S_ISDIR(child_stat.st_mode):
                     raise ValueError("unsafe artifact path")
                 if created_identity is not None:
@@ -451,32 +457,24 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
                     os.fsync(current)
             except (OSError, ValueError):
                 try:
-                    if child_identity is None:
-                        os.close(child)
-                    else:
-                        _close_owned_descriptor(
-                            child,
-                            child_identity,
-                            "artifact child descriptor close failed",
-                        )
+                    _close_descriptor_once(
+                        child,
+                        "artifact child descriptor close failed",
+                    )
                 except OSError:
                     pass
                 raise
             previous_fd = current
-            previous_identity = current_identity
             current = child
-            current_identity = child_identity
-            _close_owned_descriptor(
+            _close_descriptor_once(
                 previous_fd,
-                previous_identity,
                 "artifact parent transition close failed",
             )
         return current
     except (ValueError, FileExistsError, OSError) as exc:
         try:
-            _close_owned_descriptor(
+            _close_descriptor_once(
                 current,
-                current_identity,
                 "artifact parent cleanup close failed",
             )
         except OSError:
@@ -529,9 +527,8 @@ def _create_private_staging_directory(
             raise ValueError("unsafe artifact staging directory")
     except (OSError, ValueError):
         try:
-            _close_owned_descriptor(
+            _close_descriptor_once(
                 descriptor,
-                identity,
                 "artifact staging directory close failed",
             )
         except OSError:
@@ -627,37 +624,19 @@ def _assert_target_absent(parent_fd: int, target: str) -> None:
     raise FileExistsError("artifact target already exists")
 
 
-def _close_owned_descriptor(
+def _close_descriptor_once(
     descriptor: int,
-    expected_identity: tuple[int, int],
     error_message: str,
 ) -> None:
+    # Ownership is relinquished immediately before close.  A close error is
+    # ambiguous: the numeric FD may already name an unrelated (even same-inode)
+    # open file, so it must never be inspected or retried.
     try:
         os.close(descriptor)
     except OSError as exc:
-        try:
-            current = os.fstat(descriptor)
-        except OSError:
-            pass
-        else:
-            if (current.st_dev, current.st_ino) == expected_identity:
-                try:
-                    os.close(descriptor)
-                except OSError:
-                    pass
         raise OSError(
             exc.errno or errno.EIO, error_message
         ) from None
-
-
-def _close_staged_file(
-    descriptor: int, expected_identity: tuple[int, int]
-) -> None:
-    _close_owned_descriptor(
-        descriptor,
-        expected_identity,
-        "artifact staging close failed",
-    )
 
 
 class ArtifactStore:
@@ -706,7 +685,6 @@ class ArtifactStore:
             os.close(parent_fd)
             raise ValueError("unsafe artifact path")
         staging_dir_fd: int | None = None
-        staging_dir_identity: tuple[int, int] | None = None
         descriptor: int | None = None
         temporary_identity: tuple[int, int] | None = None
         final_fd: int | None = None
@@ -715,7 +693,7 @@ class ArtifactStore:
         try:
             _assert_target_absent(parent_fd, parts[-1])
             try:
-                staging_dir_fd, staging_dir_identity = (
+                staging_dir_fd, _ = (
                     _create_private_staging_directory(parent_fd)
                 )
             except ValueError:
@@ -839,27 +817,22 @@ class ArtifactStore:
             pending_error = sys.exc_info()[0] is not None
             close_error: OSError | None = None
             close_items = (
-                (final_fd, final_identity, "artifact final descriptor close failed"),
-                (descriptor, temporary_identity, "artifact staging close failed"),
+                (final_fd, "artifact final descriptor close failed"),
+                (descriptor, "artifact staging close failed"),
                 (
                     staging_dir_fd,
-                    staging_dir_identity,
                     "artifact staging directory close failed",
                 ),
-                (parent_fd, parent_identity, "artifact parent descriptor close failed"),
+                (parent_fd, "artifact parent descriptor close failed"),
             )
-            for closing_fd, closing_identity, close_message in close_items:
+            for closing_fd, close_message in close_items:
                 if closing_fd is None:
                     continue
                 try:
-                    if closing_identity is None:
-                        os.close(closing_fd)
-                    else:
-                        _close_owned_descriptor(
-                            closing_fd,
-                            closing_identity,
-                            close_message,
-                        )
+                    _close_descriptor_once(
+                        closing_fd,
+                        close_message,
+                    )
                 except OSError as exc:
                     if close_error is None:
                         close_error = exc
@@ -910,9 +883,8 @@ def _scan_artifact_directory(
                     depth=depth + 1,
                 )
             finally:
-                _close_owned_descriptor(
+                _close_descriptor_once(
                     child_fd,
-                    identity,
                     "artifact tree child descriptor close failed",
                 )
             continue
@@ -930,9 +902,8 @@ def _scan_artifact_directory(
                 ):
                     raise ValueError("unsafe artifact tree")
             finally:
-                _close_owned_descriptor(
+                _close_descriptor_once(
                     file_fd,
-                    identity,
                     "artifact tree file descriptor close failed",
                 )
             continue
@@ -962,9 +933,8 @@ def validate_artifact_tree(root: Path) -> None:
     finally:
         pending_error = sys.exc_info()[0] is not None
         try:
-            _close_owned_descriptor(
+            _close_descriptor_once(
                 descriptor,
-                identity,
                 "artifact tree root descriptor close failed",
             )
         except OSError as exc:

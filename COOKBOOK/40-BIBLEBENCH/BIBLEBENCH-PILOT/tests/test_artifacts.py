@@ -899,6 +899,7 @@ def test_temp_close_error_does_not_retry_an_already_closed_descriptor(
     original_close = artifacts.os.close
     temp_descriptors = set()
     temp_close_calls = 0
+    reused_fd = None
 
     def recording_open(path, *args, **kwargs):
         descriptor = original_open(path, *args, **kwargs)
@@ -907,11 +908,13 @@ def test_temp_close_error_does_not_retry_an_already_closed_descriptor(
         return descriptor
 
     def failing_first_temp_close(descriptor):
-        nonlocal temp_close_calls
+        nonlocal temp_close_calls, reused_fd
         if descriptor in temp_descriptors:
             temp_close_calls += 1
             if temp_close_calls == 1:
                 original_close(descriptor)
+                reused_fd = os.open(tmp_path / "result.json", os.O_RDONLY)
+                assert reused_fd == descriptor
                 raise OSError(errno.EIO, "do-not-echo-this")
             raise AssertionError("already-closed descriptor was retried")
         return original_close(descriptor)
@@ -923,12 +926,19 @@ def test_temp_close_error_does_not_retry_an_already_closed_descriptor(
         ArtifactStore(tmp_path).write("result.json", {"visible": True})
 
     _assert_concise_redacted(caught.value)
+    _assert_traceback_redacted(caught.value)
     assert temp_close_calls == 1
+    try:
+        reopened = os.fstat(reused_fd)
+        target = (tmp_path / "result.json").stat()
+        assert (reopened.st_dev, reopened.st_ino) == (target.st_dev, target.st_ino)
+    finally:
+        original_close(reused_fd)
     assert (tmp_path / "result.json").read_bytes() == b'{"visible":true}\n'
     assert _artifact_temps(tmp_path) == []
 
 
-def test_temp_close_failure_retries_only_while_descriptor_is_still_owned(
+def test_temp_close_failure_is_never_retried_after_close_was_called(
     tmp_path: Path, monkeypatch
 ) -> None:
     original_open = artifacts.os.open
@@ -946,8 +956,7 @@ def test_temp_close_failure_retries_only_while_descriptor_is_still_owned(
         nonlocal temp_close_calls
         if descriptor in temp_descriptors:
             temp_close_calls += 1
-            if temp_close_calls == 1:
-                raise OSError(errno.EIO, "do-not-echo-this")
+            raise OSError(errno.EIO, "do-not-echo-this")
         return original_close(descriptor)
 
     monkeypatch.setattr(artifacts.os, "open", recording_open)
@@ -957,7 +966,12 @@ def test_temp_close_failure_retries_only_while_descriptor_is_still_owned(
         ArtifactStore(tmp_path).write("result.json", {"visible": True})
 
     _assert_concise_redacted(caught.value)
-    assert temp_close_calls == 2
+    assert temp_close_calls == 1
+    for descriptor in temp_descriptors:
+        try:
+            original_close(descriptor)
+        except OSError:
+            pass
     assert (tmp_path / "result.json").read_bytes() == b'{"visible":true}\n'
     assert _artifact_temps(tmp_path) == []
 
@@ -1479,7 +1493,7 @@ def test_parent_descriptor_is_closed_when_temp_name_generation_faults(
     assert _artifact_temps(tmp_path) == []
 
 
-def test_parent_transition_close_error_never_closes_reused_unrelated_fd(
+def test_parent_transition_close_error_never_closes_same_inode_reused_fd(
     tmp_path: Path, monkeypatch
 ) -> None:
     original_dup = artifacts.os.dup
@@ -1498,7 +1512,7 @@ def test_parent_transition_close_error_never_closes_reused_unrelated_fd(
         if descriptor == transition_fd and not injected:
             injected = True
             original_close(descriptor)
-            reused_fd = os.open("/dev/null", os.O_RDONLY)
+            reused_fd = os.open(tmp_path, os.O_RDONLY)
             assert reused_fd == descriptor
             raise OSError(errno.EIO, "do-not-echo-this")
         return original_close(descriptor)
@@ -1510,13 +1524,20 @@ def test_parent_transition_close_error_never_closes_reused_unrelated_fd(
         ArtifactStore(tmp_path).write("child/result.json", {"visible": True})
 
     try:
-        assert stat.S_ISCHR(os.fstat(reused_fd).st_mode)
+        reopened = os.fstat(reused_fd)
+        expected = tmp_path.stat()
+        assert stat.S_ISDIR(reopened.st_mode)
+        assert (reopened.st_dev, reopened.st_ino) == (
+            expected.st_dev,
+            expected.st_ino,
+        )
     finally:
         try:
             original_close(reused_fd)
         except OSError:
             pass
     _assert_concise_redacted(caught.value)
+    _assert_traceback_redacted(caught.value)
     assert not (tmp_path / "child/result.json").exists()
     assert _artifact_temps(tmp_path) == []
 
@@ -1669,6 +1690,7 @@ def test_validate_tree_descriptor_close_failure_is_redacted(
     original_open = artifacts.os.open
     original_close = artifacts.os.close
     selected_descriptors = set()
+    reused_fd = None
 
     def recording_open(path, *args, **kwargs):
         descriptor = original_open(path, *args, **kwargs)
@@ -1679,9 +1701,13 @@ def test_validate_tree_descriptor_close_failure_is_redacted(
         return descriptor
 
     def failing_selected_close(descriptor):
+        nonlocal reused_fd
         if descriptor in selected_descriptors:
             selected_descriptors.discard(descriptor)
             original_close(descriptor)
+            reopen_path = root if descriptor_kind == "root" else artifact
+            reused_fd = os.open(reopen_path, os.O_RDONLY)
+            assert reused_fd == descriptor
             raise OSError(errno.EIO, "do-not-echo-this")
         return original_close(descriptor)
 
@@ -1692,6 +1718,16 @@ def test_validate_tree_descriptor_close_failure_is_redacted(
         validate_artifact_tree(root)
 
     _assert_concise_redacted(caught.value)
+    _assert_traceback_redacted(caught.value)
+    try:
+        reopened = os.fstat(reused_fd)
+        expected = (root if descriptor_kind == "root" else artifact).stat()
+        assert (reopened.st_dev, reopened.st_ino) == (
+            expected.st_dev,
+            expected.st_ino,
+        )
+    finally:
+        original_close(reused_fd)
     if descriptor_kind == "file":
         assert artifact.read_text(encoding="utf-8") == "visible"
     else:
@@ -1699,7 +1735,7 @@ def test_validate_tree_descriptor_close_failure_is_redacted(
 
 
 @pytest.mark.parametrize("entry_kind", ["child", "file"])
-def test_validate_tree_entry_close_retries_only_while_descriptor_is_owned(
+def test_validate_tree_entry_close_is_never_retried_after_close_was_called(
     tmp_path: Path, monkeypatch, entry_kind: str
 ) -> None:
     root = tmp_path / "artifacts"
@@ -1725,9 +1761,7 @@ def test_validate_tree_entry_close_retries_only_while_descriptor_is_owned(
         nonlocal selected_close_calls
         if descriptor in selected_descriptors:
             selected_close_calls += 1
-            if selected_close_calls == 1:
-                raise OSError(errno.EIO, "do-not-echo-this")
-            selected_descriptors.discard(descriptor)
+            raise OSError(errno.EIO, "do-not-echo-this")
         return original_close(descriptor)
 
     monkeypatch.setattr(artifacts.os, "open", recording_open)
@@ -1736,7 +1770,12 @@ def test_validate_tree_entry_close_retries_only_while_descriptor_is_owned(
     with pytest.raises(ValueError, match="unsafe artifact tree") as caught:
         validate_artifact_tree(root)
 
-    assert selected_close_calls == 2
+    assert selected_close_calls == 1
+    for descriptor in selected_descriptors:
+        try:
+            original_close(descriptor)
+        except OSError:
+            pass
     _assert_concise_redacted(caught.value)
     assert entry.exists()
 
@@ -1875,6 +1914,10 @@ def test_validate_artifact_tree_rejects_beyond_depth_limit(tmp_path: Path) -> No
         "session_cookie",
         "cookie",
         "set_cookie",
+        "model",
+        "model_id",
+        "model_name",
+        "tested_model",
     ],
 )
 def test_actor_payload_rejects_nested_forbidden_keys_without_echo(
@@ -1885,7 +1928,8 @@ def test_actor_payload_rejects_nested_forbidden_keys_without_echo(
     with pytest.raises(ValueError, match="model-visible payload") as caught:
         assert_actor_payload_safe(payload)
 
-    assert forbidden_key not in str(caught.value)
+    if forbidden_key != "model":
+        assert forbidden_key not in str(caught.value)
     assert "do-not-echo-this" not in str(caught.value)
     assert len(str(caught.value)) < 100
 
@@ -2002,6 +2046,13 @@ def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
         "Bearer do-not-echo-this-123456",
         "PRIVATE_TEMPLATE",
         "canary-marker-do-not-echo-this",
+        "gold=positive",
+        "ground_truth: positive",
+        "expected_label=harmful",
+        "judge_id: judge-17",
+        "actor_model=gpt-5",
+        "model_identity: provider/model",
+        "token=abcdef123456",
     ],
 )
 def test_actor_payload_rejects_sensitive_value_shapes(sensitive: str) -> None:
@@ -2191,6 +2242,9 @@ def test_judge_envelope_rejects_private_terms_in_opaque_fields(
         "model_id",
         "model_name",
         "tested_model",
+        "token",
+        "access_token",
+        "session_cookie",
     ],
 )
 def test_judge_envelope_rejects_actor_identity_and_private_cues(
@@ -2199,7 +2253,7 @@ def test_judge_envelope_rejects_actor_identity_and_private_cues(
     envelope = {
         "episode_token": "opaque-episode-17",
         "rubric_version": "rubric-v3",
-        "events": [{forbidden_field: "do-not-echo-this"}],
+        "events": [{"nested": {forbidden_field: "do-not-echo-this"}}],
     }
 
     with pytest.raises(ValueError, match="model-visible payload") as caught:

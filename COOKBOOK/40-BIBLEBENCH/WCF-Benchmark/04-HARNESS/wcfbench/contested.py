@@ -74,6 +74,9 @@ from .judge import (
 #: tolerate markdown emphasis around the label AND the number (`**Score**: 0.5`), the
 #: PF-4 parse-None cause (a markdown-bold value the letter-initial parser dropped).
 _NUM_SCORE_RE = re.compile(r"[*_]*SCORE[*_]*\s*[:=]\s*[*_]*([-+]?\d+(?:\.\d+)?)", re.IGNORECASE)
+_NUM_SCORE_LINE_RE = re.compile(
+    rf"^[ \t]*{_NUM_SCORE_RE.pattern}", re.IGNORECASE | re.MULTILINE
+)
 
 #: R33.8/R31b: parse-and-report the RANKING line on CONTESTED items (never scored) — it
 #: feeds the position map + the incoherence record. A stray parenthesized multi-letter
@@ -283,7 +286,9 @@ def _numeric_axis(judge, prompt: str, item_id: Optional[str]) -> Tuple[Optional[
     if not willingness_to_grade(text):
         return None, False, "judge declined this axis (surfaced ungraded, not 0)", False, text
     value: Optional[float] = None
-    m = _NUM_SCORE_RE.search(text)
+    line_matches = list(_NUM_SCORE_LINE_RE.finditer(text))
+    matches = line_matches or list(_NUM_SCORE_RE.finditer(text))
+    m = matches[-1] if matches else None
     if m:
         value = float(m.group(1))
     else:

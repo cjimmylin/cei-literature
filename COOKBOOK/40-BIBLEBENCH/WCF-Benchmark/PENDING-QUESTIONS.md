@@ -1,0 +1,72 @@
+# WCF-Bench Pending Questions
+
+## Rulings received 2026-07-11
+
+1. **Task 4:** Keep the new manifest and close the candidate ladder.
+2. **Task 5:** Codex may draft the 22-item EPISODE registry for human review. Drafting is
+   authorized; approval and activation are not implied.
+3. **Tasks 5–6:** Pause all paid calls and continue offline only.
+4. **Task 6:** Use the current citation-gated `judge_score_anchor_use` contract as-is.
+
+**Execution status:** Questions 1 and 3 are resolved. Question 2 is resolved through the
+draft stage; Task 5 is now human-review-gated. Question 4's scorer behavior is resolved,
+but its qualified manifest surface remains unspecified. Tasks 5 and 6 remain unchecked in
+the execution plan because their required live runs are prohibited by ruling 3. The
+historical question records below are retained for provenance.
+
+**Provisional review packet:** `20260711-codex-provisional-adjudication-recommendations.md`
+spot-checks Task 4 and recommends bounded Task-5/Task-6 dispositions. It is pending Jimmy
+ratification, assigns no ruling numbers, and does not change any status above.
+
+## RESOLVED 2026-07-11 — Task 4: bridged manifest has zero OPEN-eligible families
+
+- **Ruling:** Keep the new manifest and close the ladder. No stale eligibility restoration,
+  exemplar revision, rerun, or additional candidate screening is authorized.
+
+- **Question:** How should the MVP proceed when the full R44 requalification removes Gemini's OPEN eligibility and no non-Google candidate qualifies, leaving zero OPEN-award families?
+- **Why it blocks:** R44 defines success as either a non-Google OPEN pass (cross-family) or zero candidate passes while Google remains single-family. The completed run instead produced Gemini award-consistency 0/8, Grok award-consistency 0/8, and no qualifying Cohere/Nova row. The manifest is valid for coherence, disclosure, and settled-core, but the 204 standard OPEN items cannot be scored under the new manifest, so the MVP is not testable.
+- **Evidence:** `07-PILOTS/20260711-format-bridge-requal/20260711-format-bridge-requal-report.md` and its canonical manifest.
+- **Suggested default:** Keep the new manifest and report as the honest immutable Task 4 record; close the pre-G6 candidate ladder; do not tweak the exemplar, rerun, restore stale eligibility, or screen another model without a new Jimmy/Fable ruling.
+
+## DRAFT AUTHORIZED 2026-07-11 — Task 5: no structured runner/spec registry for the 22 EPISODE items
+
+- **Ruling:** Codex may draft the registry for human review. The draft must not be treated
+  as approved scoring semantics or used for live runs before review.
+- **Draft produced:** `04-HARNESS/config/episode-spec-registry.draft.json`, loaded only
+  through the explicit review-mode seam in `wcfbench/episode_registry.py`. It contains all
+  22 EPISODE items and remains `DRAFT_UNAPPROVED` pending human review. Automated
+  specification and code-quality reviews passed; those checks do not approve the 22
+  judgmental item mappings.
+
+- **Question:** Who should supply or approve the per-item `EpisodeSpec`, tool semantics, blind prompts, and outcome detectors needed to execute the 22 frozen EPISODE items?
+- **Why it blocks:** `wcfbench/episode_live.py` is a one-spec red-team defect-calibration helper, not a blind benchmark runner. The only production `EpisodeSpec` is hard-coded in `openrouter_pilot.py`; the 22 bank records contain `episode: true` but no executable spec registry. No compliant 88-cell checkpoint/transcript/disagreement/report path exists. Authoring these mappings would introduce new scoring judgments not ruled by R42–R46.
+- **Suggested default:** Do not improvise a registry or run the calibration prompt as the examinee prompt. Keep Task 5 unchecked until Jimmy/Fable supplies or approves the structured 22-item mapping and execution semantics.
+
+## RESOLVED 2026-07-11 — Tasks 5–6: cheap-only OpenRouter constraint versus binding rosters
+
+- **Ruling:** Pause all paid calls and continue offline only. Do not substitute models.
+
+- **Question:** Which exact model slugs are approved as "cheap" for the remaining live EPISODE and PROOFTEXT work, and does that instruction supersede the exact Task 5 four-SUT roster and Task 6 qualified-judge panel?
+- **Why it blocks:** The execution plan fixes the Task 5 SUTs and requires Task 6 judge re-reading under the Task 4 manifest. Substituting cheaper models would violate the pre-registered scope, while proceeding without an approved cheap list would violate the current user instruction.
+- **Suggested default:** Make no further paid calls and do not substitute model slugs. Continue only hermetic/offline implementation until Jimmy identifies approved cheap slugs or explicitly authorizes the binding roster/panel.
+
+## PARTIALLY RESOLVED 2026-07-11 — Task 6: existing anchor-use path cannot score uncited paraphrases
+
+- **Ruling:** Use the current citation-gated scorer as-is. Do not change its prompt or
+  uncited-paraphrase behavior.
+- **Resolved scope:** The scorer contract is fixed as ruled. No prompt or citation-gate
+  change will be made.
+- **Remaining question:** Which qualified manifest surface, if any, authorizes the current
+  anchor-use prompt? The Task-4 manifest defines only `open_award`, `disclosure`,
+  `coherence`, and `settled_core`; anchor use has no probe, eligibility mapping, or template
+  hash. Aliasing it to any existing surface would invent a new ruling, while `open_award`
+  currently has zero eligible judges.
+- **Additional consequence:** Under the ruled as-is gate, uncited anchors never reach a
+  judge, so the plan's paraphrase-recovery fixture and expected floor rise cannot be met.
+- **Suggested default:** Keep Task 6 blocked; do not alias eligibility or weaken the gate.
+  If Task 6 is later resumed, specify the eligible surface and revise its acceptance
+  criteria to match the ruled citation-gated behavior.
+
+- **Question:** What exact judge contract and qualification surface should govern PROOFTEXT paraphrased-anchor use when the response correctly applies a clause without emitting its literal `Q…`/`WCF …` reference token?
+- **Why it blocks:** `judge_score_anchor_use` currently applies a mechanical citation gate and does not consult the judge for an uncited anchor, so it cannot satisfy Task 6's required paraphrased-anchor fixture. Removing that gate requires changing the judge prompt/scoring semantics; the anchor-use prompt is not represented as its own qualification surface/template hash, and the Task 4 manifest has zero OPEN-award eligibility. Wiring the current function would preserve the artifact or turn declines into low scores rather than fix it.
+- **Suggested default:** Do not change the prompt, invent an eligibility mapping, or run the persisted re-read. Jimmy/Fable should specify whether judges receive each rubric criterion/anchor for uncited semantic matching, which qualified surface admits those judgments, and whether that prompt change requires another manifest event; then Codex can implement the already-bounded scorer and cheap-approved re-read.

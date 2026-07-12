@@ -14,6 +14,10 @@ but its qualified manifest surface remains unspecified. Tasks 5 and 6 remain unc
 the execution plan because their required live runs are prohibited by ruling 3. The
 historical question records below are retained for provenance.
 
+**Provisional review packet:** `20260711-codex-provisional-adjudication-recommendations.md`
+spot-checks Task 4 and recommends bounded Task-5/Task-6 dispositions. It is pending Jimmy
+ratification, assigns no ruling numbers, and does not change any status above.
+
 ## RESOLVED 2026-07-11 — Task 4: bridged manifest has zero OPEN-eligible families
 
 - **Ruling:** Keep the new manifest and close the ladder. No stale eligibility restoration,

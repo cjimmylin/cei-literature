@@ -180,7 +180,7 @@
   <div class="living">
     <span class="tag">Living document</span>
     <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">live</span> (maintain) or <span class="chip hist">history</span> (frozen).</span>
-    <span><b>Last updated:</b> 2026-07-11 · by Codex, session 20 — Step-0 state load complete; provisional adjudication in progress</span>
+    <span><b>Last updated:</b> 2026-07-11 · by Codex, session 20 — provisional adjudication packet ready for Jimmy/Fable ratification</span>
   </div>
 
   <div class="nav">
@@ -194,13 +194,13 @@
   <h2 id="status">Live status <span class="chip live">live</span></h2>
   <table class="live-status">
     <tr><td class="k">Current phase</td><td>Milestone A — Tasks 1–4 complete; Tasks 5–6 pending; <b>MVP testable: NO</b></td></tr>
-    <tr><td class="k">Execution owner</td><td>Codex (offline work only, branch <code>codex/wcfbench-mvp-testable</code>) · Jimmy/Fable = human review and acceptance · paid OpenRouter calls paused</td></tr>
+    <tr><td class="k">Execution owner</td><td>Jimmy/Fable = ratify the provisional Task-4–6 packet · Codex remains offline-only on branch <code>codex/wcfbench-mvp-testable</code> · paid OpenRouter calls paused</td></tr>
     <tr><td class="k">Manifest of record</td><td><code>07-PILOTS/20260711-format-bridge-requal/20260711-format-bridge-requal-manifest.json</code></td></tr>
     <tr><td class="k">Judge panel of record</td><td>gemini-flash (google) + grok-4.20 (x-ai): cross-family eligible for coherence, disclosure, and settled_core; <b>zero OPEN-eligible judges/families</b>; ladder closed; gpt-4o-mini dropped</td></tr>
     <tr><td class="k">Test suite</td><td>492 pytest green after Claude-mainline merge (2026-07-11)</td></tr>
-    <tr><td class="k">Next milestone</td><td>Human item-mapping approval for the 22-item EPISODE registry draft, plus Task-6 eligibility/acceptance direction</td></tr>
+    <tr><td class="k">Next milestone</td><td>Jimmy/Fable ratification of <code>20260711-codex-provisional-adjudication-recommendations.md</code>; then human EPISODE mapping review and Task-6 eligibility/acceptance direction</td></tr>
     <tr><td class="k">Blockers</td><td>Task 5: registry is <code>DRAFT_UNAPPROVED</code>, no EPISODE run exists, and paid calls are paused · Task 6: no qualified anchor-use surface; the required as-is citation gate cannot recover uncited paraphrases; no Task-6 code or persisted re-read exists</td></tr>
-    <tr><td class="k">Open escalations</td><td><code>PENDING-QUESTIONS.md</code>: Task-5 human-review gate and Task-6 eligibility/acceptance gate</td></tr>
+    <tr><td class="k">Open escalations</td><td><code>20260711-codex-provisional-adjudication-recommendations.md</code>: Task-4 ratification recommendation plus Task-5 human-review and Task-6 eligibility/acceptance gates; R47+ reserved, not assigned</td></tr>
   </table>
 
   <div class="stats">
@@ -335,6 +335,8 @@
         <div class="what"><b>Task-5 registry draft + user rulings through <code>86996b19e</code>:</b> all 22 EPISODE items mapped in a <code>DRAFT_UNAPPROVED</code> registry; automated specification and code-quality reviews passed; suite 492 green. No paid calls; human mapping approval remains required.</div></div>
       <div class="sess codex"><div class="row"><span class="sid">S19</span><span class="badge b-codex">Codex</span><span class="small">Jul 11</span></div>
         <div class="what"><b>Claude-mainline reconciliation + dashboard sync:</b> merged mainline at <code>a677f246b</code>, confirmed the 492-test baseline, and reconciled every LIVE dashboard surface to the post-Task-4/registry state. Tasks 5–6 remain gated; paid calls remain paused.</div></div>
+      <div class="sess codex"><div class="row"><span class="sid">S20</span><span class="badge b-codex">Codex</span><span class="small">Jul 11</span></div>
+        <div class="what"><b>State-adaptive judgment handoff:</b> merged Claude's latest dashboard/boot protocol, spot-checked Task 4 against R43/R44 (19/19 focused tests), and prepared a provisional Task-4–6 adjudication packet. No R numbers assigned and no paid calls; Jimmy/Fable ratification is next.</div></div>
       <!-- AGENTS: append new session rows here (S17, S18, …) as work completes.
            Template:
       <div class="sess codex"><div class="row"><span class="sid">S17</span><span class="badge b-codex">Codex</span><span class="small">Jul 1X</span></div>
@@ -343,8 +345,8 @@
     </div>
   </div>
 
-  <div class="here">📍 YOU ARE HERE — session 19: Claude-mainline reconciled at merge <code>a677f246b</code>; Tasks 1–4 complete and Tasks 5–6 gated.
-    <div class="small">Bank frozen and audited · historical MVP descriptively complete · current manifest has zero OPEN eligibility · Task-5 human mapping review and Task-6 eligibility/acceptance are open in <code>PENDING-QUESTIONS.md</code> · paid calls paused · G6 remains Jimmy's later human gate. <b>Agents: move/update this marker as phases advance.</b></div>
+  <div class="here">📍 YOU ARE HERE — session 20: provisional Task-4–6 adjudication recommendations are ready; Jimmy/Fable ratification is next.
+    <div class="small">Bank frozen and audited · historical MVP descriptively complete · current manifest has zero OPEN eligibility · Task-5 human mapping review and Task-6 eligibility/acceptance remain open · R47+ reserved, not assigned · paid calls paused · G1–G7 pre-registration waits behind the live judgment queue. <b>Agents: move/update this marker as phases advance.</b></div>
   </div>
 
   <h2 id="results">MVP run — descriptive results <span class="chip hist">history</span></h2>
@@ -534,8 +536,9 @@
     <tr><td class="k">All agents — status NOW</td><td><b>this dashboard</b> (open on session start; update on session close)</td></tr>
     <tr><td class="k">Coding agents (Codex) — start here</td><td><code>AGENTS.md</code> → <code>20260711-codex-execution-plan.md</code></td></tr>
     <tr><td class="k">Latest binding rulings</td><td><code>20260711-fable-mvp-disagreement-adjudication-memo.md</code> (R42–R46; full chain in §R-chain above)</td></tr>
+    <tr><td class="k">Provisional Task-4–6 review</td><td><code>20260711-codex-provisional-adjudication-recommendations.md</code> (pending Jimmy ratification; R47+ reserved, not assigned)</td></tr>
     <tr><td class="k">Thread-close handoff / Claude re-entry</td><td><code>20260711-wcf-session16-handoff.md</code> (§4 re-entry protocol, §3 doc map + addendum)</td></tr>
-    <tr><td class="k">Next Fable session — start here</td><td><code>20260711-fable-next-session-boot-prompt.md</code> (state-adaptive: adjudicate Codex escalations/Task-4 ratification, else front-load the gated-run pre-registration R47+)</td></tr>
+    <tr><td class="k">Next Fable session — start here</td><td><code>20260711-fable-ratification-next-session-boot-prompt.md</code> (ratify/revise the provisional packet; only then front-load the gated-run pre-registration)</td></tr>
     <tr><td class="k">The spine (gates, perturbations, schema)</td><td><code>00-OVERVIEW/20260706-shared-spine.md</code></td></tr>
     <tr><td class="k">MVP run evidence</td><td><code>07-PILOTS/20260710-mvp-run/</code> (report, transcripts, disagreement records)</td></tr>
     <tr><td class="k">G6 rater instrument</td><td><code>06-G6-PANEL/g6-panel.html</code> + README run-book</td></tr>
@@ -552,6 +555,7 @@
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Added <code>20260711-fable-next-session-boot-prompt.md</code> (state-adaptive Fable re-entry: Codex adjudication → gated-run pre-registration) + docs-table row</td></tr>
     <tr><td class="k">2026-07-11</td><td>Claude (Fable)</td><td>Added §Instructions-for-next-session (paste block + model + directory; rewritten on every new session prep — footer protocol item 10)</td></tr>
     <tr><td class="k">2026-07-11</td><td>Codex</td><td>Session 19 LIVE-state reconciliation after merge <code>a677f246b</code>: Tasks 1–4 complete, 492-test baseline, new manifest/zero-OPEN state, Task-5/6 gates, paid-call pause, spend, sessions, and milestones synchronized</td></tr>
+    <tr><td class="k">2026-07-11</td><td>Codex</td><td>Session 20 merged Claude's §Instructions protocol, spot-checked Task 4, added the provisional Task-4–6 adjudication packet, and rewrote next-session instructions for Jimmy/Fable ratification; no paid calls</td></tr>
   </table>
 
   <h2 id="next">Instructions for next session <span class="chip live">live</span></h2>
@@ -561,23 +565,23 @@
 
   <div class="next-sess">
     <div class="meta">
-      <span><b>Lane:</b> Claude — adjudication / pre-registration (session 17)</span>
-      <span><b>Model:</b> Fable (<code>/model fable</code>) · fallback Opus in descriptive mode (see the prompt's fallback clause)</span>
+      <span><b>Lane:</b> Jimmy/Fable — Task-4–6 ratification, then gated-run pre-registration</span>
+      <span><b>Model:</b> Fable (<code>/model fable</code>) with Jimmy ratification · fallback Opus recommendations only</span>
       <span><b>Directory:</b> run Claude Code in <code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</code> (scope-locked to <code>COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/</code>)</span>
-      <span><b>Prepared:</b> 2026-07-11, session 16</span>
+      <span><b>Prepared:</b> 2026-07-11, Codex session 20</span>
     </div>
     <div class="paste"><span class="cmd">/model fable</span>
 <span class="cmd">/clear</span>
 
 Continue WCF-Bench. Execute the boot prompt at
-CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/20260711-fable-next-session-boot-prompt.md
-verbatim — read it first, then follow its Step-0 state load and read order. It is
-state-adaptive: adjudicate anything Codex surfaced (PENDING-QUESTIONS / Task-4
-ratification); otherwise the deliverable is the gated G1–G7 run pre-registration
-(R47+ binding memo). Update project-dashboard.html on open and close.</div>
-    <p class="small" style="margin-top:10px;"><b>Parallel lane (standing, no prompt needed):</b> Codex executes
-    Tasks 1–6 — launch Codex in <code>CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/</code> (it auto-reads
-    <code>AGENTS.md</code> → <code>20260711-codex-execution-plan.md</code>); worktree branch
+CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/20260711-fable-ratification-next-session-boot-prompt.md
+verbatim — read it first, then follow its Step-0 state load. Ratify or revise the
+provisional Task-4–6 packet first; only after that queue is cleared, proceed to the gated
+G1–G7 run pre-registration. Make no paid calls. Update project-dashboard.html on open and
+close.</div>
+    <p class="small" style="margin-top:10px;"><b>Codex lane:</b> wait for the ratification and
+    human-review decisions above. Offline-only work may resume from
+    <code>20260711-codex-execution-plan.md</code> when explicitly unblocked; worktree branch
     <code>codex/wcfbench-mvp-testable</code>.</p>
   </div>
 

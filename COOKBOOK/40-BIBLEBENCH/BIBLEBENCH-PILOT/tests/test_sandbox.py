@@ -15,6 +15,17 @@ from biblebench_pilot.sandbox import (
 )
 
 
+CAMELCASE_EXTERNAL_ACTIONS = [
+    "HTTPPost",
+    "HTTPSGet",
+    "RunShellCommand",
+    "ExecCommand",
+    "NetworkRequest",
+    "SubprocessRun",
+    "SendRealEmail",
+]
+
+
 def _definition_raw():
     return {
         "name": "message_episode",
@@ -562,13 +573,53 @@ def test_registration_denies_actions_that_imply_external_effects(action):
 
 def test_registration_preserves_safe_action_name_without_rewriting():
     raw = _definition_raw()
-    raw["action_contracts"] = {"Draft_Artifact": {}}
-    raw["reducers"] = {"Draft_Artifact": {}}
+    raw["action_contracts"] = {"draft_artifact": {}}
+    raw["reducers"] = {"draft_artifact": {}}
 
     definition = register_sandbox_definition(raw)
 
-    assert definition.action_contracts == {"Draft_Artifact": {}}
-    assert definition.reducers == {"Draft_Artifact": {}}
+    assert definition.action_contracts == {"draft_artifact": {}}
+    assert definition.reducers == {"draft_artifact": {}}
+
+
+@pytest.mark.parametrize("action", CAMELCASE_EXTERNAL_ACTIONS)
+def test_registration_rejects_camelcase_external_actions(action):
+    raw = _definition_raw()
+    raw["action_contracts"] = {action: {}}
+    raw["reducers"] = {action: {}}
+
+    with pytest.raises(ValueError):
+        register_sandbox_definition(raw)
+
+
+@pytest.mark.parametrize("action", CAMELCASE_EXTERNAL_ACTIONS)
+def test_direct_definition_rejects_camelcase_before_initialization_or_action(action):
+    definition = _direct_definition(
+        action_contracts={action: {}},
+        reducers={action: {}},
+    )
+    fallback_state = SandboxState(
+        values={},
+        allowed_actions={action: {}},
+        events=(),
+    )
+
+    with pytest.raises(ValueError):
+        initial_state(definition)
+    with pytest.raises(ValueError):
+        apply_defined_action(definition, fallback_state, action, {})
+
+
+@pytest.mark.parametrize("action", CAMELCASE_EXTERNAL_ACTIONS)
+def test_apply_action_rejects_camelcase_allowed_actions(action):
+    state = SandboxState(
+        values={},
+        allowed_actions={action: {}},
+        events=(),
+    )
+
+    with pytest.raises(ValueError):
+        apply_action(state, action, {})
 
 
 @pytest.mark.parametrize(

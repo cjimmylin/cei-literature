@@ -35,10 +35,8 @@ _EXTERNAL_ACTION_PREFIXES = (
     "exec_command",
 )
 _ACTION_POLICY_SEPARATORS = frozenset({"-", ".", ":", "/", "\\", "_"})
-# Public action identifiers are exactly [A-Za-z][A-Za-z0-9_]*.
-_ASCII_ACTION_START = frozenset(
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-)
+# Public action identifiers are exactly [a-z][a-z0-9_]*.
+_ASCII_ACTION_START = frozenset("abcdefghijklmnopqrstuvwxyz")
 _ASCII_ACTION_REST = _ASCII_ACTION_START | frozenset("0123456789_")
 
 

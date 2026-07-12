@@ -28,8 +28,9 @@ _DIRECTORY_FLAGS = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
 _NOFOLLOW = getattr(os, "O_NOFOLLOW", 0)
 _UMASK_LOCK = threading.Lock()
 _MAX_VISIBLE_DEPTH = 128
+_MAX_TREE_DEPTH = 64
 _VISIBLE_ERROR = "unsafe model-visible payload"
-_ACTOR_FORBIDDEN_TERMS = frozenset(
+_ACTOR_FORBIDDEN_KEYS = frozenset(
     {
         "private",
         "gold",
@@ -51,9 +52,16 @@ _ACTOR_FORBIDDEN_TERMS = frozenset(
         "env",
         "env_dump",
         "rubric",
+        "password",
+        "passwd",
+        "access_token",
+        "refresh_token",
+        "session_cookie",
+        "cookie",
+        "set_cookie",
     }
 )
-_JUDGE_FORBIDDEN_TERMS = frozenset(
+_JUDGE_FORBIDDEN_KEYS = frozenset(
     {
         "private",
         "gold",
@@ -78,6 +86,17 @@ _JUDGE_FORBIDDEN_TERMS = frozenset(
         "environment",
         "env",
         "env_dump",
+        "password",
+        "passwd",
+        "access_token",
+        "refresh_token",
+        "session_cookie",
+        "cookie",
+        "set_cookie",
+        "model",
+        "model_id",
+        "model_name",
+        "tested_model",
     }
 )
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
@@ -100,9 +119,47 @@ _CREDENTIAL_SHAPE = re.compile(
     r"|(?<![A-Za-z0-9_-])glpat-[A-Za-z0-9_-]{16,}"
     r"|(?<![A-Za-z0-9_])hf_[A-Za-z0-9]{20,}"
     r"|(?<![A-Za-z0-9_])npm_[A-Za-z0-9_-]{20,}"
+    r"|\b(?i:bearer)\s+\S{6,}"
     r")"
 )
 _ENV_ASSIGNMENT = re.compile(r"(?m)^[ \t]*[A-Z][A-Z0-9_]{1,63}=")
+_SENSITIVE_ASSIGNMENT = re.compile(
+    r"(?i)(?<![a-z0-9_])(?:authorization|authentication|auth|api[_-]?key|"
+    r"password|passwd|access[_-]?token|refresh[_-]?token|session[_-]?cookie|"
+    r"cookie|set[_-]?cookie|secret|credential)[ \t]*[:=]"
+)
+_PRIVATE_MARKER = re.compile(
+    r"(?i)(?:^|[^a-z0-9])(?:private|canary)(?:[^a-z0-9]|$)"
+)
+_SENSITIVE_VALUE_LABELS = frozenset(
+    {
+        "private",
+        "canary",
+        "gold",
+        "ground_truth",
+        "expected_label",
+        "judge_id",
+        "actor_model",
+        "model_identity",
+        "api_key",
+        "authorization",
+        "authentication",
+        "auth",
+        "bearer",
+        "credential",
+        "secret",
+        "password",
+        "passwd",
+        "access_token",
+        "refresh_token",
+        "session_cookie",
+        "cookie",
+        "set_cookie",
+        "environment",
+        "env",
+        "env_dump",
+    }
+)
 
 
 class ArtifactDurabilityError(OSError):
@@ -115,16 +172,16 @@ def _normalized_policy_text(value: str) -> tuple[str, str]:
     return normalized, normalized.replace("_", "")
 
 
-def _string_is_forbidden(
+def _key_is_forbidden(
     value: str,
-    forbidden_terms: frozenset[str],
+    forbidden_keys: frozenset[str],
     *,
     allow_token_count: bool,
 ) -> bool:
     normalized, compact = _normalized_policy_text(value)
     normalized_parts = frozenset(normalized.split("_"))
     allowed_token_count = allow_token_count and normalized == "token_count"
-    for term in forbidden_terms:
+    for term in forbidden_keys:
         if term == "token" and allowed_token_count:
             continue
         if term == "auth":
@@ -138,14 +195,23 @@ def _string_is_forbidden(
         term_compact = term.replace("_", "")
         if term in normalized or term_compact in compact:
             return True
-    if _CREDENTIAL_SHAPE.search(value):
-        return True
-    return bool(_ENV_ASSIGNMENT.search(value))
+    return False
+
+
+def _value_is_forbidden(value: str) -> bool:
+    normalized, _ = _normalized_policy_text(value)
+    return (
+        normalized in _SENSITIVE_VALUE_LABELS
+        or bool(_CREDENTIAL_SHAPE.search(value))
+        or bool(_ENV_ASSIGNMENT.search(value))
+        or bool(_SENSITIVE_ASSIGNMENT.search(value))
+        or bool(_PRIVATE_MARKER.search(value))
+    )
 
 
 def _inspect_visible_tree(
     value: Any,
-    forbidden_terms: frozenset[str],
+    forbidden_keys: frozenset[str],
     *,
     active: set[int],
     depth: int,
@@ -159,11 +225,7 @@ def _inspect_visible_tree(
     if type(value) is str:
         if (
             any(0xD800 <= ord(character) <= 0xDFFF for character in value)
-            or _string_is_forbidden(
-                value,
-                forbidden_terms,
-                allow_token_count=True,
-            )
+            or _value_is_forbidden(value)
         ):
             raise ValueError(_VISIBLE_ERROR)
         return
@@ -176,9 +238,9 @@ def _inspect_visible_tree(
     try:
         if type(value) is dict:
             for key, child in value.items():
-                if type(key) is not str or _string_is_forbidden(
+                if type(key) is not str or _key_is_forbidden(
                     key,
-                    forbidden_terms,
+                    forbidden_keys,
                     allow_token_count=True,
                 ) or any(
                     0xD800 <= ord(character) <= 0xDFFF for character in key
@@ -186,7 +248,7 @@ def _inspect_visible_tree(
                     raise ValueError(_VISIBLE_ERROR)
                 _inspect_visible_tree(
                     child,
-                    forbidden_terms,
+                    forbidden_keys,
                     active=active,
                     depth=depth + 1,
                 )
@@ -194,7 +256,7 @@ def _inspect_visible_tree(
             for child in value:
                 _inspect_visible_tree(
                     child,
-                    forbidden_terms,
+                    forbidden_keys,
                     active=active,
                     depth=depth + 1,
                 )
@@ -205,7 +267,7 @@ def _inspect_visible_tree(
 def assert_actor_payload_safe(payload: Any) -> None:
     _inspect_visible_tree(
         payload,
-        _ACTOR_FORBIDDEN_TERMS,
+        _ACTOR_FORBIDDEN_KEYS,
         active=set(),
         depth=0,
     )
@@ -227,13 +289,12 @@ def _assert_safe_opaque_string(value: Any) -> None:
         type(value) is not str
         or not value.strip()
         or any(0xD800 <= ord(character) <= 0xDFFF for character in value)
-        or _string_is_forbidden(
+        or _value_is_forbidden(value)
+        or _key_is_forbidden(
             value,
-            _JUDGE_FORBIDDEN_TERMS,
+            _JUDGE_FORBIDDEN_KEYS,
             allow_token_count=False,
         )
-        or _CREDENTIAL_SHAPE.search(value)
-        or _ENV_ASSIGNMENT.search(value)
     ):
         raise ValueError(_VISIBLE_ERROR)
 
@@ -249,7 +310,7 @@ def assert_judge_envelope_safe(envelope: Any) -> None:
     _assert_safe_opaque_string(envelope["rubric_version"])
     _inspect_visible_tree(
         envelope["events"],
-        _JUDGE_FORBIDDEN_TERMS,
+        _JUDGE_FORBIDDEN_KEYS,
         active=set(),
         depth=0,
     )
@@ -270,7 +331,7 @@ def _safe_root_fd(root: Path) -> tuple[int, tuple[int, int]]:
     except OSError as exc:
         if descriptor is not None:
             os.close(descriptor)
-        raise ValueError("artifact root must be a real directory") from exc
+        raise ValueError("artifact root must be a real directory") from None
     identity = (after.st_dev, after.st_ino)
     if identity != (before.st_dev, before.st_ino) or not stat.S_ISDIR(after.st_mode):
         os.close(descriptor)
@@ -284,7 +345,7 @@ def _path_parts(relative: Any) -> tuple[str, ...]:
     try:
         relative.encode("utf-8", errors="strict")
     except UnicodeError as exc:
-        raise ValueError("unsafe artifact path") from exc
+        raise ValueError("unsafe artifact path") from None
     if relative.startswith("/") or relative.startswith("\\"):
         raise ValueError("unsafe artifact path")
     if len(relative) >= 2 and relative[0].isalpha() and relative[1] == ":":
@@ -316,11 +377,21 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
     try:
         current = os.dup(root_fd)
     except OSError as exc:
-        raise ValueError("unsafe artifact path") from exc
+        raise ValueError("unsafe artifact path") from None
+    try:
+        current_stat = os.fstat(current)
+    except OSError as exc:
+        try:
+            os.close(current)
+        except OSError:
+            pass
+        raise ValueError("unsafe artifact path") from None
+    current_identity = (current_stat.st_dev, current_stat.st_ino)
     try:
         for component in parts[:-1]:
             needs_directory_sync = False
             created_identity: tuple[int, int] | None = None
+            child_identity: tuple[int, int] | None = None
             try:
                 child = os.open(
                     component,
@@ -351,6 +422,7 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
                 )
             try:
                 child_stat = os.fstat(child)
+                child_identity = (child_stat.st_dev, child_stat.st_ino)
                 if not stat.S_ISDIR(child_stat.st_mode):
                     raise ValueError("unsafe artifact path")
                 if created_identity is not None:
@@ -378,17 +450,94 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
                     os.fsync(child)
                     os.fsync(current)
             except (OSError, ValueError):
-                os.close(child)
+                try:
+                    if child_identity is None:
+                        os.close(child)
+                    else:
+                        _close_owned_descriptor(
+                            child,
+                            child_identity,
+                            "artifact child descriptor close failed",
+                        )
+                except OSError:
+                    pass
                 raise
-            os.close(current)
+            previous_fd = current
+            previous_identity = current_identity
             current = child
+            current_identity = child_identity
+            _close_owned_descriptor(
+                previous_fd,
+                previous_identity,
+                "artifact parent transition close failed",
+            )
         return current
-    except (ValueError, FileExistsError):
-        os.close(current)
+    except (ValueError, FileExistsError, OSError) as exc:
+        try:
+            _close_owned_descriptor(
+                current,
+                current_identity,
+                "artifact parent cleanup close failed",
+            )
+        except OSError:
+            pass
+        if isinstance(exc, (ValueError, FileExistsError)):
+            raise
+        raise ValueError("unsafe artifact path") from None
+
+
+def _create_private_staging_directory(
+    parent_fd: int,
+) -> tuple[int, tuple[int, int]]:
+    for _ in range(8):
+        component = f".artifact-stage-{uuid.uuid4().hex}"
+        try:
+            _mkdir_private(component, parent_fd)
+        except FileExistsError:
+            continue
+        break
+    else:
+        raise OSError(errno.EEXIST, "private staging namespace unavailable")
+
+    entry = os.stat(component, dir_fd=parent_fd, follow_symlinks=False)
+    if stat.S_ISLNK(entry.st_mode) or not stat.S_ISDIR(entry.st_mode):
+        raise ValueError("unsafe artifact staging directory")
+    identity = (entry.st_dev, entry.st_ino)
+    descriptor = os.open(
+        component,
+        _DIRECTORY_FLAGS | _NOFOLLOW,
+        dir_fd=parent_fd,
+    )
+    try:
+        opened = os.fstat(descriptor)
+        if (
+            not stat.S_ISDIR(opened.st_mode)
+            or (opened.st_dev, opened.st_ino) != identity
+        ):
+            raise ValueError("unsafe artifact staging directory")
+        os.fchmod(descriptor, 0o700)
+        opened = os.fstat(descriptor)
+        current = os.stat(component, dir_fd=parent_fd, follow_symlinks=False)
+        if (
+            not stat.S_ISDIR(opened.st_mode)
+            or stat.S_IMODE(opened.st_mode) != 0o700
+            or (opened.st_dev, opened.st_ino) != identity
+            or stat.S_ISLNK(current.st_mode)
+            or not stat.S_ISDIR(current.st_mode)
+            or (current.st_dev, current.st_ino) != identity
+        ):
+            raise ValueError("unsafe artifact staging directory")
+    except (OSError, ValueError):
+        try:
+            _close_owned_descriptor(
+                descriptor,
+                identity,
+                "artifact staging directory close failed",
+            )
+        except OSError:
+            pass
         raise
-    except OSError as exc:
-        os.close(current)
-        raise ValueError("unsafe artifact path") from exc
+    return descriptor, identity
 
 
 def _raise_publish_error(error_number: int) -> None:
@@ -397,7 +546,12 @@ def _raise_publish_error(error_number: int) -> None:
     raise OSError(error_number, "atomic artifact publication failed")
 
 
-def _native_publish_noreplace(parent_fd: int, temporary: str, target: str) -> None:
+def _native_publish_noreplace(
+    source_dir_fd: int,
+    temporary: str,
+    destination_dir_fd: int,
+    target: str,
+) -> None:
     library = ctypes.CDLL(None, use_errno=True)
     source = temporary.encode("utf-8")
     destination = target.encode("utf-8")
@@ -407,7 +561,7 @@ def _native_publish_noreplace(parent_fd: int, temporary: str, target: str) -> No
         except AttributeError as exc:
             raise OSError(
                 errno.ENOTSUP, "atomic no-replace publication unavailable"
-            ) from exc
+            ) from None
         operation.argtypes = [
             ctypes.c_int,
             ctypes.c_char_p,
@@ -416,12 +570,20 @@ def _native_publish_noreplace(parent_fd: int, temporary: str, target: str) -> No
             ctypes.c_uint,
         ]
         operation.restype = ctypes.c_int
-        result = operation(parent_fd, source, parent_fd, destination, 0x00000004)
+        result = operation(
+            source_dir_fd,
+            source,
+            destination_dir_fd,
+            destination,
+            0x00000004,
+        )
     elif sys.platform.startswith("linux"):
         try:
             operation = library.renameat2
         except AttributeError as exc:
-            raise OSError(errno.ENOTSUP, "atomic no-replace publication unavailable") from exc
+            raise OSError(
+                errno.ENOTSUP, "atomic no-replace publication unavailable"
+            ) from None
         operation.argtypes = [
             ctypes.c_int,
             ctypes.c_char_p,
@@ -430,7 +592,13 @@ def _native_publish_noreplace(parent_fd: int, temporary: str, target: str) -> No
             ctypes.c_uint,
         ]
         operation.restype = ctypes.c_int
-        result = operation(parent_fd, source, parent_fd, destination, 1)
+        result = operation(
+            source_dir_fd,
+            source,
+            destination_dir_fd,
+            destination,
+            1,
+        )
     else:
         raise OSError(errno.ENOTSUP, "atomic no-replace publication unavailable")
     if result != 0:
@@ -453,7 +621,7 @@ def _assert_target_absent(parent_fd: int, target: str) -> None:
     except FileNotFoundError:
         return
     except OSError as exc:
-        raise ValueError("unsafe artifact path") from exc
+        raise ValueError("unsafe artifact path") from None
     if stat.S_ISLNK(target_stat.st_mode):
         raise ValueError("unsafe artifact path")
     raise FileExistsError("artifact target already exists")
@@ -479,7 +647,7 @@ def _close_owned_descriptor(
                     pass
         raise OSError(
             exc.errno or errno.EIO, error_message
-        ) from exc
+        ) from None
 
 
 def _close_staged_file(
@@ -510,7 +678,7 @@ class ArtifactStore:
         try:
             current = os.lstat(self.root)
         except OSError as exc:
-            raise ValueError("artifact root identity changed") from exc
+            raise ValueError("artifact root identity changed") from None
         if (
             stat.S_ISLNK(current.st_mode)
             or not stat.S_ISDIR(current.st_mode)
@@ -529,7 +697,7 @@ class ArtifactStore:
             parent_stat = os.fstat(parent_fd)
         except OSError as exc:
             os.close(parent_fd)
-            raise ValueError("unsafe artifact path") from exc
+            raise ValueError("unsafe artifact path") from None
         parent_identity = (parent_stat.st_dev, parent_stat.st_ino)
         if (
             not stat.S_ISDIR(parent_stat.st_mode)
@@ -537,20 +705,40 @@ class ArtifactStore:
         ):
             os.close(parent_fd)
             raise ValueError("unsafe artifact path")
+        staging_dir_fd: int | None = None
+        staging_dir_identity: tuple[int, int] | None = None
         descriptor: int | None = None
+        temporary_identity: tuple[int, int] | None = None
+        final_fd: int | None = None
+        final_identity: tuple[int, int] | None = None
         published = False
         try:
             _assert_target_absent(parent_fd, parts[-1])
-            temporary = f".artifact-{uuid.uuid4().hex}.tmp"
+            try:
+                staging_dir_fd, staging_dir_identity = (
+                    _create_private_staging_directory(parent_fd)
+                )
+            except ValueError:
+                raise
+            except OSError as exc:
+                raise OSError(
+                    exc.errno or errno.EIO,
+                    "artifact staging failed",
+                ) from None
+            temporary = "payload"
             try:
                 descriptor = os.open(
                     temporary,
                     os.O_WRONLY | os.O_CREAT | os.O_EXCL | _NOFOLLOW,
                     0o600,
-                    dir_fd=parent_fd,
+                    dir_fd=staging_dir_fd,
                 )
                 os.fchmod(descriptor, 0o600)
                 temporary_stat = os.fstat(descriptor)
+                temporary_identity = (
+                    temporary_stat.st_dev,
+                    temporary_stat.st_ino,
+                )
                 if (
                     not stat.S_ISREG(temporary_stat.st_mode)
                     or stat.S_IMODE(temporary_stat.st_mode) != 0o600
@@ -571,68 +759,128 @@ class ArtifactStore:
             except OSError as exc:
                 raise OSError(
                     exc.errno or errno.EIO, "artifact staging failed"
-                ) from exc
-            staged_descriptor = descriptor
-            descriptor = None
-            _close_staged_file(
-                staged_descriptor,
-                (temporary_stat.st_dev, temporary_stat.st_ino),
-            )
+                ) from None
             self._assert_root_identity()
             try:
-                _native_publish_noreplace(parent_fd, temporary, parts[-1])
+                # The source directory FD is the trust boundary. Compromise of an
+                # already-held same-process FD is outside this API's threat model.
+                _native_publish_noreplace(
+                    staging_dir_fd,
+                    temporary,
+                    parent_fd,
+                    parts[-1],
+                )
                 published = True
             except FileExistsError:
                 raise
             except OSError as exc:
                 raise OSError(
                     exc.errno or errno.EIO, "atomic artifact publication failed"
-                ) from exc
+                ) from None
             try:
+                staged_after_publish = os.fstat(descriptor)
+            except OSError as exc:
+                raise ArtifactDurabilityError(
+                    exc.errno or errno.EIO,
+                    "artifact published but staged inode verification failed",
+                ) from None
+            if (
+                not stat.S_ISREG(staged_after_publish.st_mode)
+                or stat.S_IMODE(staged_after_publish.st_mode) != 0o600
+                or staged_after_publish.st_nlink != 1
+                or (staged_after_publish.st_dev, staged_after_publish.st_ino)
+                != temporary_identity
+            ):
+                raise ArtifactDurabilityError(
+                    errno.EIO,
+                    "artifact published but staged inode verification failed",
+                )
+            try:
+                os.fsync(staging_dir_fd)
                 os.fsync(parent_fd)
             except OSError as exc:
                 raise ArtifactDurabilityError(
                     exc.errno or errno.EIO,
                     "artifact published but directory durability sync failed",
-                ) from exc
+                ) from None
             try:
                 final = os.stat(
                     parts[-1], dir_fd=parent_fd, follow_symlinks=False
                 )
             except OSError as exc:
-                raise ValueError("published artifact verification failed") from exc
+                raise ValueError("published artifact verification failed") from None
             if (
                 not stat.S_ISREG(final.st_mode)
                 or stat.S_IMODE(final.st_mode) != 0o600
                 or final.st_nlink != 1
                 or (final.st_dev, final.st_ino)
-                != (temporary_stat.st_dev, temporary_stat.st_ino)
+                != temporary_identity
+            ):
+                raise ValueError("unsafe finalized artifact")
+            try:
+                final_fd = os.open(
+                    parts[-1],
+                    os.O_RDONLY | _NOFOLLOW,
+                    dir_fd=parent_fd,
+                )
+                final_stat = os.fstat(final_fd)
+            except OSError as exc:
+                raise ValueError("published artifact verification failed") from None
+            final_identity = (final_stat.st_dev, final_stat.st_ino)
+            if (
+                not stat.S_ISREG(final_stat.st_mode)
+                or stat.S_IMODE(final_stat.st_mode) != 0o600
+                or final_stat.st_nlink != 1
+                or final_identity != temporary_identity
             ):
                 raise ValueError("unsafe finalized artifact")
             self._assert_root_identity()
         finally:
             pending_error = sys.exc_info()[0] is not None
-            if descriptor is not None:
-                os.close(descriptor)
-            try:
-                _close_owned_descriptor(
-                    parent_fd,
-                    parent_identity,
-                    "artifact parent descriptor close failed",
-                )
-            except OSError as exc:
-                if not pending_error:
-                    if published:
-                        raise ArtifactDurabilityError(
-                            exc.errno or errno.EIO,
-                            "artifact published but parent descriptor close failed",
-                        ) from exc
-                    raise
+            close_error: OSError | None = None
+            close_items = (
+                (final_fd, final_identity, "artifact final descriptor close failed"),
+                (descriptor, temporary_identity, "artifact staging close failed"),
+                (
+                    staging_dir_fd,
+                    staging_dir_identity,
+                    "artifact staging directory close failed",
+                ),
+                (parent_fd, parent_identity, "artifact parent descriptor close failed"),
+            )
+            for closing_fd, closing_identity, close_message in close_items:
+                if closing_fd is None:
+                    continue
+                try:
+                    if closing_identity is None:
+                        os.close(closing_fd)
+                    else:
+                        _close_owned_descriptor(
+                            closing_fd,
+                            closing_identity,
+                            close_message,
+                        )
+                except OSError as exc:
+                    if close_error is None:
+                        close_error = exc
+            if close_error is not None and not pending_error:
+                if published:
+                    raise ArtifactDurabilityError(
+                        close_error.errno or errno.EIO,
+                        "artifact published but descriptor close failed",
+                    ) from None
+                raise OSError(
+                    close_error.errno or errno.EIO,
+                    "artifact staging close failed",
+                ) from None
         return self.root.joinpath(*parts)
 
 
 def _scan_artifact_directory(
-    directory_fd: int, seen: set[tuple[int, int]]
+    directory_fd: int,
+    seen: set[tuple[int, int]],
+    *,
+    depth: int,
 ) -> None:
     for name in os.listdir(directory_fd):
         if type(name) is not str:
@@ -644,6 +892,8 @@ def _scan_artifact_directory(
         seen.add(identity)
 
         if stat.S_ISDIR(entry.st_mode):
+            if depth >= _MAX_TREE_DEPTH:
+                raise ValueError("unsafe artifact tree")
             child_fd = os.open(
                 name, _DIRECTORY_FLAGS | _NOFOLLOW, dir_fd=directory_fd
             )
@@ -654,7 +904,11 @@ def _scan_artifact_directory(
                     or (opened.st_dev, opened.st_ino) != identity
                 ):
                     raise ValueError("unsafe artifact tree")
-                _scan_artifact_directory(child_fd, seen)
+                _scan_artifact_directory(
+                    child_fd,
+                    seen,
+                    depth=depth + 1,
+                )
             finally:
                 _close_owned_descriptor(
                     child_fd,
@@ -691,9 +945,9 @@ def validate_artifact_tree(root: Path) -> None:
     try:
         descriptor, identity = _safe_root_fd(root_path)
     except (OSError, ValueError) as exc:
-        raise ValueError("unsafe artifact tree") from exc
+        raise ValueError("unsafe artifact tree") from None
     try:
-        _scan_artifact_directory(descriptor, set())
+        _scan_artifact_directory(descriptor, set(), depth=0)
         current = os.lstat(root_path)
         if (
             stat.S_ISLNK(current.st_mode)
@@ -704,7 +958,7 @@ def validate_artifact_tree(root: Path) -> None:
     except ValueError:
         raise
     except OSError as exc:
-        raise ValueError("unsafe artifact tree") from exc
+        raise ValueError("unsafe artifact tree") from None
     finally:
         pending_error = sys.exc_info()[0] is not None
         try:
@@ -715,4 +969,4 @@ def validate_artifact_tree(root: Path) -> None:
             )
         except OSError as exc:
             if not pending_error:
-                raise ValueError("unsafe artifact tree") from exc
+                raise ValueError("unsafe artifact tree") from None

@@ -3,6 +3,7 @@ import errno
 import os
 from pathlib import Path
 import stat
+import traceback
 
 import pytest
 import biblebench_pilot.artifacts as artifacts
@@ -16,12 +17,23 @@ from biblebench_pilot.artifacts import (
 
 
 def _artifact_temps(root: Path) -> list[Path]:
-    return list(root.rglob(".artifact-*.tmp"))
+    legacy = list(root.rglob(".artifact-*.tmp"))
+    staged = [
+        path / "payload"
+        for path in root.rglob(".artifact-stage-*")
+        if (path / "payload").is_file()
+    ]
+    return legacy + staged
 
 
 def _assert_concise_redacted(error: BaseException) -> None:
     assert "do-not-echo-this" not in str(error)
     assert len(str(error)) < 160
+
+
+def _assert_traceback_redacted(error: BaseException) -> None:
+    rendered = "".join(traceback.format_exception(error))
+    assert "do-not-echo-this" not in rendered
 
 
 def _changed_stat(
@@ -99,7 +111,7 @@ def test_store_fails_closed_when_native_no_replace_is_unavailable(
 
     _assert_concise_redacted(caught.value)
     assert not (tmp_path / "result.json").exists()
-    assert len(list(tmp_path.glob(".artifact-*.tmp"))) == 1
+    assert len(_artifact_temps(tmp_path)) == 1
 
 
 def test_store_rejects_nonexistent_file_and_symlink_roots(tmp_path: Path) -> None:
@@ -153,8 +165,11 @@ def test_directory_creation_window_keeps_unrelated_files_private(
     unrelated = tmp_path / "unrelated.txt"
 
     def concurrent_creation(path, *args, **kwargs):
-        descriptor = os.open(unrelated, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o666)
-        os.close(descriptor)
+        if not unrelated.exists():
+            descriptor = os.open(
+                unrelated, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o666
+            )
+            os.close(descriptor)
         return original_mkdir(path, *args, **kwargs)
 
     monkeypatch.setattr(artifacts.os, "mkdir", concurrent_creation)
@@ -268,7 +283,8 @@ def test_store_syncs_parent_when_another_creator_wins_mkdir_race(
 
     def racing_mkdir(path, *args, **kwargs):
         original_mkdir(path, *args, **kwargs)
-        raise FileExistsError("simulated competing creator")
+        if path == "contended":
+            raise FileExistsError("simulated competing creator")
 
     def recording_sync(descriptor):
         descriptor_stat = os.fstat(descriptor)
@@ -625,18 +641,90 @@ def test_store_handles_short_writes_without_reserializing(
 def test_target_is_absent_until_native_publication(tmp_path: Path, monkeypatch) -> None:
     target = tmp_path / "result.json"
     original_publish = artifacts._native_publish_noreplace
+    original_open = artifacts.os.open
     observed = []
+    staged_fd = None
 
-    def checking_publish(parent_fd, temporary, target_name):
+    def recording_open(path, *args, **kwargs):
+        nonlocal staged_fd
+        descriptor = original_open(path, *args, **kwargs)
+        if path == "payload":
+            staged_fd = descriptor
+        return descriptor
+
+    def checking_publish(source_dir_fd, temporary, destination_dir_fd, target_name):
         observed.append(target.exists())
-        return original_publish(parent_fd, temporary, target_name)
+        assert source_dir_fd != destination_dir_fd
+        assert stat.S_IMODE(os.fstat(source_dir_fd).st_mode) == 0o700
+        result = original_publish(
+            source_dir_fd, temporary, destination_dir_fd, target_name
+        )
+        staged = os.fstat(staged_fd)
+        canonical = os.stat(
+            target_name,
+            dir_fd=destination_dir_fd,
+            follow_symlinks=False,
+        )
+        assert (staged.st_dev, staged.st_ino) == (
+            canonical.st_dev,
+            canonical.st_ino,
+        )
+        return result
 
+    monkeypatch.setattr(artifacts.os, "open", recording_open)
     monkeypatch.setattr(artifacts, "_native_publish_noreplace", checking_publish)
 
     ArtifactStore(tmp_path).write("result.json", {"visible": True})
 
     assert observed == [False]
     assert target.is_file()
+
+
+def test_public_temp_namespace_poisoning_cannot_change_canonical_target(
+    tmp_path: Path, monkeypatch
+) -> None:
+    original_publish = artifacts._native_publish_noreplace
+    attacker_inode = None
+
+    def poisoning_publish(*args):
+        nonlocal attacker_inode
+        if len(args) == 3:
+            destination_fd, source_name, target_name = args
+            source_fd = destination_fd
+        else:
+            source_fd, source_name, destination_fd, target_name = args
+        attacker_fd = os.open(
+            source_name,
+            os.O_WRONLY | (os.O_TRUNC if source_fd == destination_fd else os.O_CREAT | os.O_EXCL),
+            0o600,
+            dir_fd=destination_fd,
+        )
+        try:
+            os.write(attacker_fd, b'{"attacker":true}\n')
+            attacker_inode = os.fstat(attacker_fd).st_ino
+        finally:
+            os.close(attacker_fd)
+        return original_publish(*args)
+
+    monkeypatch.setattr(artifacts, "_native_publish_noreplace", poisoning_publish)
+
+    target = ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    assert target.read_bytes() == b'{"visible":true}\n'
+    assert target.lstat().st_ino != attacker_inode
+
+
+def test_success_retains_private_exact_mode_staging_directory(tmp_path: Path) -> None:
+    ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    staging_directories = [
+        path for path in tmp_path.iterdir() if path.name.startswith(".artifact-stage-")
+    ]
+    assert len(staging_directories) == 1
+    staging = staging_directories[0]
+    assert stat.S_ISDIR(staging.lstat().st_mode)
+    assert stat.S_IMODE(staging.lstat().st_mode) == 0o700
+    assert list(staging.iterdir()) == []
 
 
 def test_write_failure_leaves_no_target_and_retains_temp(
@@ -652,7 +740,7 @@ def test_write_failure_leaves_no_target_and_retains_temp(
 
     _assert_concise_redacted(caught.value)
     assert not (tmp_path / "result.json").exists()
-    assert len(list(tmp_path.glob(".artifact-*.tmp"))) == 1
+    assert len(_artifact_temps(tmp_path)) == 1
 
 
 def test_zero_progress_write_is_redacted_and_retains_temp(
@@ -677,7 +765,7 @@ def test_temp_open_failure_leaves_no_target_and_no_temp(
     original_open = artifacts.os.open
 
     def failing_temp_open(path, *args, **kwargs):
-        if type(path) is str and path.startswith(".artifact-"):
+        if path == "payload":
             raise OSError(errno.EMFILE, "do-not-echo-this")
         return original_open(path, *args, **kwargs)
 
@@ -715,8 +803,13 @@ def test_file_sync_failure_leaves_no_target_and_retains_temp(
 def test_temp_fchmod_failure_leaves_no_target_and_retains_temp(
     tmp_path: Path, monkeypatch
 ) -> None:
+    original_fchmod = artifacts.os.fchmod
+    original_fstat = artifacts.os.fstat
+
     def failing_fchmod(descriptor, mode):
-        raise OSError(errno.EPERM, "do-not-echo-this")
+        if stat.S_ISREG(original_fstat(descriptor).st_mode):
+            raise OSError(errno.EPERM, "do-not-echo-this")
+        return original_fchmod(descriptor, mode)
 
     monkeypatch.setattr(artifacts.os, "fchmod", failing_fchmod)
 
@@ -737,7 +830,7 @@ def test_temp_fstat_failure_leaves_no_target_and_retains_temp(
 
     def recording_open(path, *args, **kwargs):
         descriptor = original_open(path, *args, **kwargs)
-        if type(path) is str and path.startswith(".artifact-"):
+        if path == "payload":
             temp_descriptors.add(descriptor)
         return descriptor
 
@@ -776,7 +869,7 @@ def test_temp_metadata_failure_leaves_no_target_and_retains_temp(
 
     def recording_open(path, *args, **kwargs):
         descriptor = original_open(path, *args, **kwargs)
-        if type(path) is str and path.startswith(".artifact-"):
+        if path == "payload":
             temp_descriptors.add(descriptor)
         return descriptor
 
@@ -809,7 +902,7 @@ def test_temp_close_error_does_not_retry_an_already_closed_descriptor(
 
     def recording_open(path, *args, **kwargs):
         descriptor = original_open(path, *args, **kwargs)
-        if type(path) is str and path.startswith(".artifact-"):
+        if path == "payload":
             temp_descriptors.add(descriptor)
         return descriptor
 
@@ -826,13 +919,13 @@ def test_temp_close_error_does_not_retry_an_already_closed_descriptor(
     monkeypatch.setattr(artifacts.os, "open", recording_open)
     monkeypatch.setattr(artifacts.os, "close", failing_first_temp_close)
 
-    with pytest.raises(OSError, match="artifact staging") as caught:
+    with pytest.raises(artifacts.ArtifactDurabilityError, match="published") as caught:
         ArtifactStore(tmp_path).write("result.json", {"visible": True})
 
     _assert_concise_redacted(caught.value)
     assert temp_close_calls == 1
-    assert not (tmp_path / "result.json").exists()
-    assert len(_artifact_temps(tmp_path)) == 1
+    assert (tmp_path / "result.json").read_bytes() == b'{"visible":true}\n'
+    assert _artifact_temps(tmp_path) == []
 
 
 def test_temp_close_failure_retries_only_while_descriptor_is_still_owned(
@@ -845,7 +938,7 @@ def test_temp_close_failure_retries_only_while_descriptor_is_still_owned(
 
     def recording_open(path, *args, **kwargs):
         descriptor = original_open(path, *args, **kwargs)
-        if type(path) is str and path.startswith(".artifact-"):
+        if path == "payload":
             temp_descriptors.add(descriptor)
         return descriptor
 
@@ -860,19 +953,19 @@ def test_temp_close_failure_retries_only_while_descriptor_is_still_owned(
     monkeypatch.setattr(artifacts.os, "open", recording_open)
     monkeypatch.setattr(artifacts.os, "close", failing_then_closing_temp)
 
-    with pytest.raises(OSError, match="artifact staging") as caught:
+    with pytest.raises(artifacts.ArtifactDurabilityError, match="published") as caught:
         ArtifactStore(tmp_path).write("result.json", {"visible": True})
 
     _assert_concise_redacted(caught.value)
     assert temp_close_calls == 2
-    assert not (tmp_path / "result.json").exists()
-    assert len(_artifact_temps(tmp_path)) == 1
+    assert (tmp_path / "result.json").read_bytes() == b'{"visible":true}\n'
+    assert _artifact_temps(tmp_path) == []
 
 
 def test_failure_after_file_sync_leaves_no_target_and_retains_temp(
     tmp_path: Path, monkeypatch
 ) -> None:
-    def failing_publish(parent_fd, temporary, target_name):
+    def failing_publish(*args):
         raise OSError("do-not-echo-this")
 
     monkeypatch.setattr(artifacts, "_native_publish_noreplace", failing_publish)
@@ -882,7 +975,63 @@ def test_failure_after_file_sync_leaves_no_target_and_retains_temp(
 
     _assert_concise_redacted(caught.value)
     assert not (tmp_path / "result.json").exists()
-    assert len(list(tmp_path.glob(".artifact-*.tmp"))) == 1
+    assert len(_artifact_temps(tmp_path)) == 1
+
+
+def test_staging_directory_fault_traceback_is_redacted_and_directory_retained(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original_stat = artifacts.os.stat
+
+    def failing_stage_stat(path, *args, **kwargs):
+        if type(path) is str and path.startswith(".artifact-stage-"):
+            raise OSError(errno.EIO, "do-not-echo-this")
+        return original_stat(path, *args, **kwargs)
+
+    monkeypatch.setattr(artifacts.os, "stat", failing_stage_stat)
+
+    with pytest.raises(OSError, match="staging failed") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    _assert_traceback_redacted(caught.value)
+    assert not (tmp_path / "result.json").exists()
+    assert len(list(tmp_path.glob(".artifact-stage-*"))) == 1
+
+
+def test_post_publish_staged_fstat_fault_has_explicit_published_state(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original_open = artifacts.os.open
+    original_fstat = artifacts.os.fstat
+    staged_fd = None
+    staged_fstats = 0
+
+    def recording_open(path, *args, **kwargs):
+        nonlocal staged_fd
+        descriptor = original_open(path, *args, **kwargs)
+        if path == "payload":
+            staged_fd = descriptor
+        return descriptor
+
+    def failing_post_publish_fstat(descriptor):
+        nonlocal staged_fstats
+        if descriptor == staged_fd:
+            staged_fstats += 1
+            if staged_fstats == 3:
+                raise OSError(errno.EIO, "do-not-echo-this")
+        return original_fstat(descriptor)
+
+    monkeypatch.setattr(artifacts.os, "open", recording_open)
+    monkeypatch.setattr(artifacts.os, "fstat", failing_post_publish_fstat)
+
+    with pytest.raises(artifacts.ArtifactDurabilityError, match="published") as caught:
+        ArtifactStore(tmp_path).write("result.json", {"visible": True})
+
+    _assert_concise_redacted(caught.value)
+    _assert_traceback_redacted(caught.value)
+    assert (tmp_path / "result.json").read_bytes() == b'{"visible":true}\n'
+    assert _artifact_temps(tmp_path) == []
 
 
 def test_native_publish_eexist_preserves_competing_target_and_temp(
@@ -890,7 +1039,7 @@ def test_native_publish_eexist_preserves_competing_target_and_temp(
 ) -> None:
     target = tmp_path / "result.json"
 
-    def competing_publish(parent_fd, temporary, target_name):
+    def competing_publish(*args):
         target.write_bytes(b"competing-writer\n")
         raise FileExistsError("artifact target already exists")
 
@@ -907,7 +1056,7 @@ def test_native_publish_eexist_preserves_competing_target_and_temp(
 def test_native_publish_non_eexist_errno_leaves_target_absent_and_temp(
     tmp_path: Path, monkeypatch
 ) -> None:
-    def failing_publish(parent_fd, temporary, target_name):
+    def failing_publish(*args):
         raise OSError(errno.EACCES, "do-not-echo-this")
 
     monkeypatch.setattr(artifacts, "_native_publish_noreplace", failing_publish)
@@ -994,6 +1143,56 @@ def test_native_errno_mapper_distinguishes_exists_from_other_errors() -> None:
         artifacts._raise_publish_error(errno.EIO)
 
     assert caught.value.errno == errno.EIO
+
+
+@pytest.mark.parametrize(
+    ("platform", "symbol", "flag"),
+    [
+        ("darwin", "renameatx_np", 0x00000004),
+        ("linux", "renameat2", 1),
+    ],
+)
+@pytest.mark.parametrize("error_number", [None, errno.EEXIST, errno.EACCES])
+def test_native_publish_uses_distinct_source_and_destination_dirfds(
+    monkeypatch: pytest.MonkeyPatch,
+    platform: str,
+    symbol: str,
+    flag: int,
+    error_number: int | None,
+) -> None:
+    calls = []
+
+    class Operation:
+        argtypes = None
+        restype = None
+
+        def __call__(self, *args):
+            calls.append(args)
+            return -1 if error_number is not None else 0
+
+    library = type("Library", (), {symbol: Operation()})()
+    monkeypatch.setattr(artifacts.sys, "platform", platform)
+    monkeypatch.setattr(artifacts.ctypes, "CDLL", lambda *args, **kwargs: library)
+    monkeypatch.setattr(
+        artifacts.ctypes,
+        "get_errno",
+        lambda: error_number if error_number is not None else 0,
+    )
+
+    if error_number == errno.EEXIST:
+        with pytest.raises(FileExistsError):
+            artifacts._native_publish_noreplace(17, "payload", 29, "result.json")
+    elif error_number is not None:
+        with pytest.raises(OSError) as caught:
+            artifacts._native_publish_noreplace(17, "payload", 29, "result.json")
+        assert caught.value.errno == error_number
+    else:
+        assert (
+            artifacts._native_publish_noreplace(17, "payload", 29, "result.json")
+            is None
+        )
+
+    assert calls == [(17, b"payload", 29, b"result.json", flag)]
 
 
 def test_post_publish_parent_sync_failure_is_distinct_with_visible_target(
@@ -1277,6 +1476,48 @@ def test_parent_descriptor_is_closed_when_temp_name_generation_faults(
 
     assert duplicated[-1] in closed
     assert not (tmp_path / "result.json").exists()
+    assert _artifact_temps(tmp_path) == []
+
+
+def test_parent_transition_close_error_never_closes_reused_unrelated_fd(
+    tmp_path: Path, monkeypatch
+) -> None:
+    original_dup = artifacts.os.dup
+    original_close = artifacts.os.close
+    transition_fd = None
+    reused_fd = None
+    injected = False
+
+    def recording_dup(descriptor):
+        nonlocal transition_fd
+        transition_fd = original_dup(descriptor)
+        return transition_fd
+
+    def releasing_then_failing_close(descriptor):
+        nonlocal injected, reused_fd
+        if descriptor == transition_fd and not injected:
+            injected = True
+            original_close(descriptor)
+            reused_fd = os.open("/dev/null", os.O_RDONLY)
+            assert reused_fd == descriptor
+            raise OSError(errno.EIO, "do-not-echo-this")
+        return original_close(descriptor)
+
+    monkeypatch.setattr(artifacts.os, "dup", recording_dup)
+    monkeypatch.setattr(artifacts.os, "close", releasing_then_failing_close)
+
+    with pytest.raises(ValueError, match="unsafe artifact path") as caught:
+        ArtifactStore(tmp_path).write("child/result.json", {"visible": True})
+
+    try:
+        assert stat.S_ISCHR(os.fstat(reused_fd).st_mode)
+    finally:
+        try:
+            original_close(reused_fd)
+        except OSError:
+            pass
+    _assert_concise_redacted(caught.value)
+    assert not (tmp_path / "child/result.json").exists()
     assert _artifact_temps(tmp_path) == []
 
 
@@ -1589,6 +1830,31 @@ def test_validate_artifact_tree_rejects_symlink_root(tmp_path: Path) -> None:
         validate_artifact_tree(linked_root)
 
 
+def _nested_artifact_tree(root: Path, depth: int) -> None:
+    root.mkdir()
+    cursor = root
+    for index in range(depth):
+        cursor = cursor / f"d{index}"
+        cursor.mkdir()
+
+
+def test_validate_artifact_tree_accepts_exact_depth_limit(tmp_path: Path) -> None:
+    root = tmp_path / "depth-limit"
+    _nested_artifact_tree(root, 64)
+
+    assert validate_artifact_tree(root) is None
+
+
+def test_validate_artifact_tree_rejects_beyond_depth_limit(tmp_path: Path) -> None:
+    root = tmp_path / "too-deep"
+    _nested_artifact_tree(root, 65)
+
+    with pytest.raises(ValueError, match="unsafe artifact tree") as caught:
+        validate_artifact_tree(root)
+
+    assert type(caught.value) is ValueError
+
+
 @pytest.mark.parametrize(
     "forbidden_key",
     [
@@ -1602,6 +1868,13 @@ def test_validate_artifact_tree_rejects_symlink_root(tmp_path: Path) -> None:
         "model_identity",
         "expected/label",
         "private-template",
+        "password",
+        "passwd",
+        "access_token",
+        "refresh_token",
+        "session_cookie",
+        "cookie",
+        "set_cookie",
     ],
 )
 def test_actor_payload_rejects_nested_forbidden_keys_without_echo(
@@ -1620,7 +1893,7 @@ def test_actor_payload_rejects_nested_forbidden_keys_without_echo(
 @pytest.mark.parametrize(
     "forbidden_value",
     [
-        "contains GROUND.TRUTH metadata",
+        "GROUND.TRUTH",
         "Bearer abcdef123456",
         "sk-example123456789",
         "OPENROUTER_API_KEY=dummy-value",
@@ -1640,27 +1913,20 @@ def test_actor_payload_rejects_nested_forbidden_values_without_echo(
 
 
 @pytest.mark.parametrize(
-    ("kind", "forbidden"),
+    "forbidden",
     [
-        ("key", "auth"),
-        ("key", "request-auth-header"),
-        ("key", "requestAuthHeader"),
-        ("key", "env"),
-        ("key", "runtime.env.value"),
-        ("key", "runtimeEnvValue"),
-        ("value", "AUTH"),
-        ("value", "authentication"),
-        ("value", "request/auth/header"),
-        ("value", "requestAuthHeader"),
-        ("value", "ENV"),
-        ("value", "runtime-env-value"),
-        ("value", "runtimeEnvValue"),
+        "auth",
+        "request-auth-header",
+        "requestAuthHeader",
+        "env",
+        "runtime.env.value",
+        "runtimeEnvValue",
     ],
 )
 def test_actor_payload_rejects_normalized_auth_and_env_without_echo(
-    kind: str, forbidden: str
+    forbidden: str,
 ) -> None:
-    payload = {forbidden: "visible"} if kind == "key" else {"content": forbidden}
+    payload = {forbidden: "visible"}
 
     with pytest.raises(ValueError, match="model-visible payload") as caught:
         assert_actor_payload_safe(payload)
@@ -1682,11 +1948,10 @@ def test_actor_payload_rejects_normalized_auth_and_env_without_echo(
         "authentication",
     ],
 )
-@pytest.mark.parametrize("kind", ["key", "value"])
-def test_actor_payload_rejects_auth_alias_tokens_without_echo(
-    auth_alias: str, kind: str
+def test_actor_payload_rejects_auth_alias_keys_without_echo(
+    auth_alias: str,
 ) -> None:
-    payload = {auth_alias: "visible"} if kind == "key" else {"content": auth_alias}
+    payload = {auth_alias: "visible"}
 
     with pytest.raises(ValueError, match="model-visible payload") as caught:
         assert_actor_payload_safe(payload)
@@ -1698,6 +1963,52 @@ def test_actor_payload_rejects_auth_alias_tokens_without_echo(
 @pytest.mark.parametrize("ordinary", ["author", "author_name", "authority"])
 def test_actor_payload_allows_ordinary_auth_prefix_words(ordinary: str) -> None:
     assert assert_actor_payload_safe({ordinary: ordinary}) is None
+
+
+@pytest.mark.parametrize(
+    "ordinary",
+    [
+        "denied authorization",
+        "environmental impact",
+        "the patient condition worsened",
+        "author biography",
+        "token",
+    ],
+)
+def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
+    assert assert_actor_payload_safe({"content": ordinary}) is None
+    assert (
+        assert_judge_envelope_safe(
+            {
+                "episode_token": "opaque-episode-17",
+                "rubric_version": "rubric-v3",
+                "events": [{"content": ordinary}],
+            }
+        )
+        is None
+    )
+
+
+@pytest.mark.parametrize(
+    "sensitive",
+    [
+        "password=do-not-echo-this",
+        "notes include password=do-not-echo-this",
+        "passwd: do-not-echo-this",
+        "access_token=do-not-echo-this",
+        "refresh-token: do-not-echo-this",
+        "Cookie: session=do-not-echo-this",
+        "Set-Cookie: session=do-not-echo-this",
+        "Bearer do-not-echo-this-123456",
+        "PRIVATE_TEMPLATE",
+        "canary-marker-do-not-echo-this",
+    ],
+)
+def test_actor_payload_rejects_sensitive_value_shapes(sensitive: str) -> None:
+    with pytest.raises(ValueError, match="model-visible payload") as caught:
+        assert_actor_payload_safe({"content": sensitive})
+
+    assert sensitive not in str(caught.value)
 
 
 @pytest.mark.parametrize(
@@ -1876,6 +2187,10 @@ def test_judge_envelope_rejects_private_terms_in_opaque_fields(
         "ground_truth",
         "gold",
         "private_payload",
+        "model",
+        "model_id",
+        "model_name",
+        "tested_model",
     ],
 )
 def test_judge_envelope_rejects_actor_identity_and_private_cues(
@@ -1890,7 +2205,8 @@ def test_judge_envelope_rejects_actor_identity_and_private_cues(
     with pytest.raises(ValueError, match="model-visible payload") as caught:
         assert_judge_envelope_safe(envelope)
 
-    assert forbidden_field not in str(caught.value)
+    if forbidden_field != "model":
+        assert forbidden_field not in str(caught.value)
     assert "do-not-echo-this" not in str(caught.value)
 
 
@@ -1906,6 +2222,70 @@ def test_judge_envelope_rejects_actor_identity_and_private_cues(
 def test_judge_envelope_rejects_wrong_shapes(envelope) -> None:
     with pytest.raises(ValueError, match="model-visible payload"):
         assert_judge_envelope_safe(envelope)
+
+
+def test_write_failure_traceback_does_not_expose_injected_detail(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+
+    def failing_write(*args, **kwargs):
+        raise OSError(errno.EIO, "do-not-echo-this")
+
+    monkeypatch.setattr(os, "write", failing_write)
+    with pytest.raises(OSError) as caught:
+        ArtifactStore(root).write("result.json", {"ok": True})
+
+    _assert_traceback_redacted(caught.value)
+
+
+def test_path_failure_traceback_does_not_expose_injected_detail(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+
+    def failing_dup(*args, **kwargs):
+        raise OSError(errno.EIO, "do-not-echo-this")
+
+    monkeypatch.setattr(os, "dup", failing_dup)
+    with pytest.raises(ValueError) as caught:
+        ArtifactStore(root).write("result.json", {"ok": True})
+
+    _assert_traceback_redacted(caught.value)
+
+
+def test_native_failure_traceback_does_not_expose_injected_detail(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+
+    def failing_publish(*args, **kwargs):
+        raise OSError(errno.EIO, "do-not-echo-this")
+
+    monkeypatch.setattr(artifacts, "_native_publish_noreplace", failing_publish)
+    with pytest.raises(OSError) as caught:
+        ArtifactStore(root).write("result.json", {"ok": True})
+
+    _assert_traceback_redacted(caught.value)
+
+
+def test_validator_failure_traceback_does_not_expose_injected_detail(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir()
+
+    def failing_listdir(*args, **kwargs):
+        raise OSError(errno.EIO, "do-not-echo-this")
+
+    monkeypatch.setattr(os, "listdir", failing_listdir)
+    with pytest.raises(ValueError) as caught:
+        validate_artifact_tree(root)
+
+    _assert_traceback_redacted(caught.value)
 
 
 def test_artifact_implementation_has_no_destructive_or_overwriting_calls() -> None:

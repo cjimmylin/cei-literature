@@ -12,6 +12,7 @@ from jsonschema import Draft202012Validator, ValidationError
 import pytest
 import yaml
 
+from biblebench_pilot import registry as registry_module
 from biblebench_pilot.registry import (
     CoreRecord,
     load_core_manifest,
@@ -68,6 +69,15 @@ def _write_manifest(tmp_path: Path, manifest: object) -> Path:
     path = tmp_path / "manifest.yaml"
     path.write_text(yaml.safe_dump(manifest, sort_keys=False), encoding="utf-8")
     return path
+
+
+def _nested_private_manifest(target_node_depth: int) -> dict:
+    nested: object = "leaf"
+    for _ in range(target_node_depth - 3):
+        nested = [nested]
+    manifest = _valid_manifest()
+    manifest["cores"][0]["private_nested"] = nested
+    return manifest
 
 
 def _merged_manifest_text(default_module: str | None = None) -> str:
@@ -279,6 +289,12 @@ def test_pyproject_includes_packaged_schemas():
     ] == ["*.json"]
 
 
+def test_pyproject_declares_wheel_for_wheel_based_test():
+    pyproject = tomllib.loads((PACKAGE_ROOT / "pyproject.toml").read_text("utf-8"))
+
+    assert "wheel>=0.45" in pyproject["project"]["optional-dependencies"]["test"]
+
+
 def test_load_core_manifest_translates_malformed_yaml(tmp_path: Path):
     manifest_path = tmp_path / "malformed.yaml"
     manifest_path.write_text("manifest_version: [\n", encoding="utf-8")
@@ -286,6 +302,58 @@ def test_load_core_manifest_translates_malformed_yaml(tmp_path: Path):
     with pytest.raises(ValueError, match="^manifest YAML is invalid$") as exc_info:
         load_core_manifest(manifest_path)
     _assert_translated_error(exc_info)
+
+
+def test_yaml_depth_limits_are_documented():
+    assert getattr(registry_module, "_MAX_YAML_DEPTH", None) == 128
+    assert getattr(registry_module, "_MAX_VALIDATION_ERROR_LENGTH", None) == 512
+
+
+def test_load_core_manifest_accepts_exact_yaml_depth_boundary(tmp_path: Path):
+    manifest_path = _write_manifest(tmp_path, _nested_private_manifest(128))
+
+    with pytest.raises(ValueError, match="^core 0 invalid"):
+        load_core_manifest(manifest_path)
+
+
+def test_load_core_manifest_rejects_yaml_over_depth_boundary(tmp_path: Path):
+    manifest_path = _write_manifest(tmp_path, _nested_private_manifest(129))
+
+    with pytest.raises(
+        ValueError,
+        match="^manifest YAML is invalid: maximum depth exceeded$",
+    ) as exc_info:
+        load_core_manifest(manifest_path)
+    _assert_translated_error(exc_info)
+
+
+def test_load_core_manifest_translates_deep_yaml_recursion(tmp_path: Path):
+    nested_value = "[" * 600 + "'leaf'" + "]" * 600
+    manifest_path = tmp_path / "very-deep.yaml"
+    manifest_path.write_text(
+        "manifest_version: '1.0'\ncores:\n  - private_nested: " + nested_value + "\n",
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValueError, match="^manifest YAML is invalid") as exc_info:
+        load_core_manifest(manifest_path)
+    _assert_translated_error(exc_info)
+
+
+def test_load_core_manifest_bounds_deep_validation_error_text(tmp_path: Path):
+    nested: object = "x" * 2000
+    for _ in range(80):
+        nested = [nested]
+    manifest = _valid_manifest()
+    manifest["cores"][0]["construct"] = nested
+
+    with pytest.raises(ValueError) as exc_info:
+        load_core_manifest(_write_manifest(tmp_path, manifest))
+
+    message = str(exc_info.value)
+    assert message.startswith("core 0 invalid at construct:")
+    assert len(message) <= 512
+    assert message.endswith("...")
 
 
 def test_load_core_manifest_translates_invalid_override_schema(tmp_path: Path):
@@ -317,6 +385,65 @@ def test_load_core_manifest_translates_override_schema_load_errors(
         schema_path.write_text(contents, encoding="utf-8")
 
     with pytest.raises(ValueError, match=f"^{expected}$") as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    _assert_translated_error(exc_info)
+
+
+@pytest.mark.parametrize(
+    ("keyword", "reference"),
+    [
+        ("$ref", "file:///definitely/missing/core.schema.json"),
+        ("$dynamicRef", "https://example.invalid/core.schema.json"),
+    ],
+)
+def test_override_schema_rejects_external_references_without_resolution(
+    tmp_path: Path,
+    keyword: str,
+    reference: str,
+):
+    schema_path = tmp_path / "external-reference.json"
+    schema_path.write_text(
+        json.dumps({"$defs": {"unused": {keyword: reference}}}),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(
+        ValueError,
+        match="^schema override contains a non-local reference$",
+    ) as exc_info:
+        load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
+    assert exc_info.value.__cause__ is None
+    assert exc_info.value.__context__ is None
+
+
+def test_override_schema_accepts_resolvable_local_fragment(tmp_path: Path):
+    schema_path = tmp_path / "local-reference.json"
+    schema_path.write_text(
+        json.dumps(
+            {
+                "$defs": {"record": {"type": "object"}},
+                "$ref": "#/$defs/record",
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    records = load_core_manifest(
+        FIXTURES / "core-valid.yaml",
+        schema_path=schema_path,
+    )
+
+    assert records[0].core_id == "F09"
+
+
+def test_override_schema_translates_unresolvable_local_fragment(tmp_path: Path):
+    schema_path = tmp_path / "missing-local-reference.json"
+    schema_path.write_text('{"$ref": "#/$defs/missing"}', encoding="utf-8")
+
+    with pytest.raises(
+        ValueError,
+        match="^schema reference could not be resolved$",
+    ) as exc_info:
         load_core_manifest(FIXTURES / "core-valid.yaml", schema_path=schema_path)
     _assert_translated_error(exc_info)
 

@@ -7,6 +7,7 @@ from pathlib import Path, PurePosixPath, PureWindowsPath
 from typing import Any
 
 from jsonschema import Draft202012Validator, SchemaError, ValidationError
+from referencing.exceptions import Unresolvable
 import yaml
 
 
@@ -22,9 +23,15 @@ _ARRAY_FIELDS = (
 _MANIFEST_FIELDS = {"manifest_version", "cores"}
 _YAML_MERGE_TAG = "tag:yaml.org,2002:merge"
 _YAML_STRING_TAG = "tag:yaml.org,2002:str"
+_MAX_YAML_DEPTH = 128  # Maximum composed-node depth, with the root at depth zero.
+_MAX_VALIDATION_ERROR_LENGTH = 512  # Bounds public jsonschema error text.
 
 
 class _DuplicateKeyError(yaml.YAMLError):
+    pass
+
+
+class _YamlDepthError(yaml.YAMLError):
     pass
 
 
@@ -35,6 +42,7 @@ class _UniqueKeySafeLoader(yaml.SafeLoader):
             return None
         _validate_yaml_node_graph(
             node,
+            depth=0,
             active_node_ids=set(),
             completed_node_ids=set(),
         )
@@ -58,9 +66,12 @@ def _mapping_key_semantic(key_node: yaml.Node) -> tuple[str, str]:
 def _validate_yaml_node_graph(
     node: yaml.Node,
     *,
+    depth: int,
     active_node_ids: set[int],
     completed_node_ids: set[int],
 ) -> None:
+    if depth > _MAX_YAML_DEPTH:
+        raise _YamlDepthError
     node_id = id(node)
     if node_id in active_node_ids:
         raise yaml.constructor.ConstructorError(
@@ -82,6 +93,7 @@ def _validate_yaml_node_graph(
             explicit_keys.add(key)
             _validate_yaml_node_graph(
                 value_node,
+                depth=depth + 1,
                 active_node_ids=active_node_ids,
                 completed_node_ids=completed_node_ids,
             )
@@ -89,6 +101,7 @@ def _validate_yaml_node_graph(
         for child in node.value:
             _validate_yaml_node_graph(
                 child,
+                depth=depth + 1,
                 active_node_ids=active_node_ids,
                 completed_node_ids=completed_node_ids,
             )
@@ -145,6 +158,7 @@ def _load_authoritative_schema() -> dict[str, Any]:
         schema = json.loads(schema_text)
     except json.JSONDecodeError:
         raise ValueError("authoritative core schema is not valid JSON") from None
+    _preflight_schema_references(schema, "authoritative core schema")
     try:
         Draft202012Validator.check_schema(schema)
     except SchemaError:
@@ -163,6 +177,7 @@ def _load_override_schema(schema_path: Path) -> dict[str, Any]:
         schema = json.loads(schema_text)
     except json.JSONDecodeError:
         raise ValueError("schema override is not valid JSON") from None
+    _preflight_schema_references(schema, "schema override")
     try:
         Draft202012Validator.check_schema(schema)
     except SchemaError:
@@ -170,6 +185,32 @@ def _load_override_schema(schema_path: Path) -> dict[str, Any]:
             "schema override is not a valid Draft 2020-12 schema"
         ) from None
     return schema
+
+
+def _preflight_schema_references(schema: Any, label: str) -> None:
+    pending = [schema]
+    while pending:
+        value = pending.pop()
+        if isinstance(value, dict):
+            for key, child in value.items():
+                if (
+                    key in {"$ref", "$dynamicRef"}
+                    and isinstance(child, str)
+                    and not child.startswith("#")
+                ):
+                    raise ValueError(f"{label} contains a non-local reference")
+                pending.append(child)
+        elif isinstance(value, list):
+            pending.extend(value)
+
+
+def _bounded_validation_error(index: int, error: ValidationError) -> str:
+    field = _validation_field(error)
+    sanitized_message = " ".join(error.message.split())
+    message = f"core {index} invalid at {field}: {sanitized_message}"
+    if len(message) > _MAX_VALIDATION_ERROR_LENGTH:
+        return message[: _MAX_VALIDATION_ERROR_LENGTH - 3] + "..."
+    return message
 
 
 def _validate_core(
@@ -180,10 +221,9 @@ def _validate_core(
     try:
         validator.validate(row)
     except ValidationError as error:
-        field = _validation_field(error)
-        raise ValueError(
-            f"core {index} invalid at {field}: {error.message}"
-        ) from None
+        raise ValueError(_bounded_validation_error(index, error)) from None
+    except Unresolvable:
+        raise ValueError("schema reference could not be resolved") from None
 
 
 def load_core_manifest(
@@ -197,7 +237,11 @@ def load_core_manifest(
         raise ValueError(
             "manifest YAML contains a duplicate mapping key"
         ) from None
-    except yaml.YAMLError:
+    except _YamlDepthError:
+        raise ValueError(
+            "manifest YAML is invalid: maximum depth exceeded"
+        ) from None
+    except (yaml.YAMLError, RecursionError):
         raise ValueError("manifest YAML is invalid") from None
     if not isinstance(manifest, dict) or set(manifest) != _MANIFEST_FIELDS:
         raise ValueError(

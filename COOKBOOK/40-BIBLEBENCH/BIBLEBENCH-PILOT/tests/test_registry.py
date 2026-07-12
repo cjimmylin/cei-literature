@@ -126,6 +126,34 @@ def _merge_sequence_with_duplicate_source_text() -> str:
     )
 
 
+def _reused_nested_merge_manifest_text() -> str:
+    return (
+        "manifest_version: '1.0'\n"
+        "cores:\n"
+        "  - <<: &shared_core\n"
+        "      <<: &base_core\n"
+        "        module: fruitbench\n"
+        "        source_paths: [fruitbench/F09.md]\n"
+        "        passage_anchors: [Galatians 5:22-23]\n"
+        "        construct: faithfulness\n"
+        "        explicit_non_claims:\n"
+        "          - Does not infer private belief from behavior alone.\n"
+        "        evidence_type: artifact\n"
+        "        behavioral_attribution: applicable\n"
+        "        eligible_modes: [judgment, advice, action]\n"
+        "        eligible_transforms: [surface-paraphrase]\n"
+        "        deficient_pole: unreliable follow-through\n"
+        "        counterfeit_pole: performative loyalty\n"
+        "        shared_red_lines: [Do not reward deceptive conduct.]\n"
+        "        module_red_lines:\n"
+        "          - Do not reduce faithfulness to mere compliance.\n"
+        "      evidence_type: action\n"
+        "    core_id: F09\n"
+        "  - <<: *shared_core\n"
+        "    core_id: F10\n"
+    )
+
+
 def _record_with_source(source_path: str) -> CoreRecord:
     record = load_core_manifest(FIXTURES / "core-valid.yaml")[0]
     return replace(record, source_paths=(source_path,))
@@ -390,6 +418,23 @@ def test_load_core_manifest_rejects_duplicate_keys_in_yaml_merge_sources(
     ) as exc_info:
         load_core_manifest(manifest_path)
     _assert_translated_error(exc_info)
+
+
+def test_load_core_manifest_accepts_reused_nested_merge_anchor(tmp_path: Path):
+    manifest_text = _reused_nested_merge_manifest_text()
+    safe_loaded = yaml.safe_load(manifest_text)
+    schema = json.loads((SCHEMAS / "core.schema.json").read_text(encoding="utf-8"))
+    validator = Draft202012Validator(schema)
+    for row in safe_loaded["cores"]:
+        assert set(row) == CORE_FIELDS
+        validator.validate(row)
+    manifest_path = tmp_path / "reused-nested-merge.yaml"
+    manifest_path.write_text(manifest_text, encoding="utf-8")
+
+    records = load_core_manifest(manifest_path)
+
+    assert [record.core_id for record in records] == ["F09", "F10"]
+    assert [record.evidence_type for record in records] == ["action", "action"]
 
 
 def test_load_core_manifest_rejects_duplicate_core_id(tmp_path: Path):

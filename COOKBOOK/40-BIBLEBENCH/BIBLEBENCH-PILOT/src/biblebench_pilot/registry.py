@@ -21,6 +21,7 @@ _ARRAY_FIELDS = (
 )
 _MANIFEST_FIELDS = {"manifest_version", "cores"}
 _YAML_MERGE_TAG = "tag:yaml.org,2002:merge"
+_YAML_STRING_TAG = "tag:yaml.org,2002:str"
 
 
 class _DuplicateKeyError(yaml.YAMLError):
@@ -28,86 +29,72 @@ class _DuplicateKeyError(yaml.YAMLError):
 
 
 class _UniqueKeySafeLoader(yaml.SafeLoader):
-    pass
+    def get_single_data(self) -> Any:
+        node = self.get_single_node()
+        if node is None:
+            return None
+        _validate_yaml_node_graph(
+            node,
+            active_node_ids=set(),
+            completed_node_ids=set(),
+        )
+        return self.construct_document(node)
 
 
-def _check_duplicate_mapping_keys(
-    loader: _UniqueKeySafeLoader,
-    node: yaml.MappingNode,
+def _mapping_key_semantic(key_node: yaml.Node) -> tuple[str, str]:
+    if not isinstance(key_node, yaml.ScalarNode) or key_node.tag not in {
+        _YAML_MERGE_TAG,
+        _YAML_STRING_TAG,
+    }:
+        raise yaml.constructor.ConstructorError(
+            "while constructing a mapping",
+            key_node.start_mark,
+            "mapping keys must be scalar strings",
+            key_node.start_mark,
+        )
+    return key_node.tag, key_node.value
+
+
+def _validate_yaml_node_graph(
+    node: yaml.Node,
     *,
-    deep: bool,
     active_node_ids: set[int],
-    seen_node_ids: set[int],
+    completed_node_ids: set[int],
 ) -> None:
     node_id = id(node)
-    if node_id in active_node_ids or node_id in seen_node_ids:
+    if node_id in active_node_ids:
+        raise yaml.constructor.ConstructorError(
+            "while constructing a document",
+            node.start_mark,
+            "recursive aliases are not allowed",
+            node.start_mark,
+        )
+    if node_id in completed_node_ids:
         return
     active_node_ids.add(node_id)
 
-    explicit_keys: set[Any] = set()
-    merge_sources: list[yaml.MappingNode] = []
-    for key_node, value_node in node.value:
-        if key_node.tag == _YAML_MERGE_TAG:
-            if isinstance(value_node, yaml.MappingNode):
-                merge_sources.append(value_node)
-            elif isinstance(value_node, yaml.SequenceNode):
-                merge_sources.extend(
-                    source
-                    for source in value_node.value
-                    if isinstance(source, yaml.MappingNode)
-                )
-            continue
-        key = loader.construct_object(key_node, deep=deep)
-        try:
-            duplicate = key in explicit_keys
-        except TypeError:
-            raise yaml.constructor.ConstructorError(
-                "while constructing a mapping",
-                node.start_mark,
-                "found an unhashable key",
-                key_node.start_mark,
-            ) from None
-        if duplicate:
-            raise _DuplicateKeyError
-        explicit_keys.add(key)
-
-    for source in merge_sources:
-        _check_duplicate_mapping_keys(
-            loader,
-            source,
-            deep=deep,
-            active_node_ids=active_node_ids,
-            seen_node_ids=seen_node_ids,
-        )
+    if isinstance(node, yaml.MappingNode):
+        explicit_keys: set[tuple[str, str]] = set()
+        for key_node, value_node in node.value:
+            key = _mapping_key_semantic(key_node)
+            if key in explicit_keys:
+                raise _DuplicateKeyError
+            explicit_keys.add(key)
+            _validate_yaml_node_graph(
+                value_node,
+                active_node_ids=active_node_ids,
+                completed_node_ids=completed_node_ids,
+            )
+    elif isinstance(node, yaml.SequenceNode):
+        for child in node.value:
+            _validate_yaml_node_graph(
+                child,
+                active_node_ids=active_node_ids,
+                completed_node_ids=completed_node_ids,
+            )
 
     active_node_ids.remove(node_id)
-    seen_node_ids.add(node_id)
-
-
-def _construct_unique_mapping(
-    loader: _UniqueKeySafeLoader,
-    node: yaml.MappingNode,
-    deep: bool = False,
-) -> dict[Any, Any]:
-    _check_duplicate_mapping_keys(
-        loader,
-        node,
-        deep=deep,
-        active_node_ids=set(),
-        seen_node_ids=set(),
-    )
-    loader.flatten_mapping(node)
-    return yaml.constructor.SafeConstructor.construct_mapping(
-        loader,
-        node,
-        deep=deep,
-    )
-
-
-_UniqueKeySafeLoader.add_constructor(
-    yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
-    _construct_unique_mapping,
-)
+    completed_node_ids.add(node_id)
 
 
 @dataclass(frozen=True)

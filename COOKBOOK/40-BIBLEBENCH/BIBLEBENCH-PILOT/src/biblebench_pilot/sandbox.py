@@ -35,6 +35,11 @@ _EXTERNAL_ACTION_PREFIXES = (
     "exec_command",
 )
 _ACTION_POLICY_SEPARATORS = frozenset({"-", ".", ":", "/", "\\", "_"})
+# Public action identifiers are exactly [A-Za-z][A-Za-z0-9_]*.
+_ASCII_ACTION_START = frozenset(
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+)
+_ASCII_ACTION_REST = _ASCII_ACTION_START | frozenset("0123456789_")
 
 
 def _detached_json(value: Any) -> Json:
@@ -48,17 +53,28 @@ def _detached_mapping(value: Any) -> dict[str, Json]:
     return detached
 
 
-def _copy_events(events: tuple[SandboxEvent, ...]) -> tuple[SandboxEvent, ...]:
-    return tuple(
-        SandboxEvent(
-            sequence=event.sequence,
-            action=event.action,
-            actor=event.actor,
-            target=event.target,
-            payload=_detached_mapping(event.payload),
+def _validate_event_history(events: Any) -> tuple[SandboxEvent, ...]:
+    if type(events) is not tuple:
+        raise ValueError("sandbox event history must be a tuple")
+    validated: list[SandboxEvent] = []
+    for expected_sequence, event in enumerate(events, start=1):
+        if type(event) is not SandboxEvent:
+            raise ValueError("sandbox event history contains an invalid event")
+        if type(event.sequence) is not int or event.sequence != expected_sequence:
+            raise ValueError("sandbox event sequences must be contiguous")
+        for value in (event.action, event.actor, event.target):
+            if type(value) is not str or not value.strip():
+                raise ValueError("sandbox event identifiers must be nonempty strings")
+        validated.append(
+            SandboxEvent(
+                sequence=event.sequence,
+                action=event.action,
+                actor=event.actor,
+                target=event.target,
+                payload=_detached_mapping(event.payload),
+            )
         )
-        for event in events
-    )
+    return tuple(validated)
 
 
 def _copy_action_contracts(
@@ -67,25 +83,41 @@ def _copy_action_contracts(
     return {name: dict(contract) for name, contract in allowed_actions.items()}
 
 
+def _validated_runtime_contracts(
+    allowed_actions: Any,
+) -> dict[str, dict[str, type]]:
+    if type(allowed_actions) is not dict:
+        raise ValueError("allowed actions must be an object")
+    validated: dict[str, dict[str, type]] = {}
+    for action, contract in allowed_actions.items():
+        _require_action_identifier(action)
+        if _is_external_action(action):
+            raise ValueError("action is not authorized")
+        if type(contract) is not dict:
+            raise ValueError("action has unsupported contract type")
+        validated_contract: dict[str, type] = {}
+        for key, expected_type in contract.items():
+            if type(key) is not str or not key:
+                raise ValueError("action has invalid payload contract")
+            if (
+                type(expected_type) is not type
+                or expected_type not in _SUPPORTED_CONTRACT_TYPES
+            ):
+                raise ValueError("action has unsupported contract type")
+            validated_contract[key] = expected_type
+        validated[action] = validated_contract
+    return validated
+
+
 def _validated_payload(
-    state: SandboxState,
+    allowed_actions: dict[str, dict[str, type]],
     action: str,
     payload: dict[str, Any],
 ) -> dict[str, Json]:
-    if type(action) is not str or not action or action not in state.allowed_actions:
+    if type(action) is not str or not action or action not in allowed_actions:
         raise ValueError("action is not authorized")
 
-    contract = state.allowed_actions[action]
-    if type(contract) is not dict:
-        raise ValueError("action has unsupported contract type")
-    for key, expected_type in contract.items():
-        if type(key) is not str or not key:
-            raise ValueError("action has invalid payload contract")
-        if (
-            type(expected_type) is not type
-            or expected_type not in _SUPPORTED_CONTRACT_TYPES
-        ):
-            raise ValueError("action has unsupported contract type")
+    contract = allowed_actions[action]
 
     if type(payload) is not dict or set(payload) != set(contract):
         raise ValueError("payload keys do not match action contract")
@@ -129,6 +161,17 @@ def _require_identifier(value: Any) -> str:
     return value
 
 
+def _require_action_identifier(value: Any) -> str:
+    if (
+        type(value) is not str
+        or not value
+        or value[0] not in _ASCII_ACTION_START
+        or any(character not in _ASCII_ACTION_REST for character in value[1:])
+    ):
+        raise ValueError("action is not authorized")
+    return value
+
+
 def _normalized_action_policy_name(action: str) -> str:
     normalized: list[str] = []
     separator_pending = False
@@ -151,7 +194,7 @@ def _is_external_action(action: str) -> bool:
     )
 
 
-def register_sandbox_definition(raw: dict[str, Any]) -> SandboxDefinition:
+def _register_sandbox_definition(raw: dict[str, Any]) -> SandboxDefinition:
     detached = _detached_mapping(raw)
     if set(detached) != _DEFINITION_FIELDS:
         raise ValueError("sandbox definition fields do not match required fields")
@@ -175,7 +218,7 @@ def register_sandbox_definition(raw: dict[str, Any]) -> SandboxDefinition:
 
     checked_contracts: dict[str, dict[str, str]] = {}
     for action, contract in action_contracts.items():
-        _require_identifier(action)
+        _require_action_identifier(action)
         if _is_external_action(action):
             raise ValueError("action is not authorized")
         if type(contract) is not dict:
@@ -216,6 +259,32 @@ def register_sandbox_definition(raw: dict[str, Any]) -> SandboxDefinition:
     )
 
 
+def register_sandbox_definition(raw: dict[str, Any]) -> SandboxDefinition:
+    return _register_sandbox_definition(raw)
+
+
+def _validated_definition_snapshot(
+    definition: SandboxDefinition,
+) -> SandboxDefinition:
+    if type(definition) is not SandboxDefinition:
+        raise ValueError("sandbox definition is invalid")
+    if type(definition.affected_parties) is not tuple:
+        raise ValueError("sandbox definition is invalid")
+    raw = {
+        "name": definition.name,
+        "initial_values": definition.initial_values,
+        "action_contracts": definition.action_contracts,
+        "reducers": definition.reducers,
+        "affected_parties": list(definition.affected_parties),
+    }
+    try:
+        return _register_sandbox_definition(raw)
+    except ValueError:
+        raise
+    except (AttributeError, KeyError, TypeError):
+        raise ValueError("sandbox definition is invalid") from None
+
+
 def _runtime_contracts(
     definition: SandboxDefinition,
 ) -> dict[str, dict[str, type]]:
@@ -232,11 +301,12 @@ def _runtime_contracts(
 
 
 def initial_state(definition: SandboxDefinition) -> SandboxState:
-    values = _detached_mapping(definition.initial_values)
-    values["affected_parties"] = list(definition.affected_parties)
+    certified = _validated_definition_snapshot(definition)
+    values = _detached_mapping(certified.initial_values)
+    values["affected_parties"] = list(certified.affected_parties)
     return SandboxState(
         values=values,
-        allowed_actions=_runtime_contracts(definition),
+        allowed_actions=_runtime_contracts(certified),
         events=(),
     )
 
@@ -247,15 +317,18 @@ def apply_defined_action(
     action: str,
     payload: dict[str, Any],
 ) -> SandboxState:
-    expected_contracts = _runtime_contracts(definition)
-    if state.allowed_actions != expected_contracts:
+    certified = _validated_definition_snapshot(definition)
+    expected_contracts = _runtime_contracts(certified)
+    state_contracts = _validated_runtime_contracts(state.allowed_actions)
+    if state_contracts != expected_contracts:
         raise ValueError("sandbox state does not match definition")
-    detached_payload = _validated_payload(state, action, payload)
+    validated_events = _validate_event_history(state.events)
+    detached_payload = _validated_payload(state_contracts, action, payload)
     values = _detached_mapping(state.values)
-    for state_key, payload_key in definition.reducers[action].items():
+    for state_key, payload_key in certified.reducers[action].items():
         values[state_key] = _detached_json(detached_payload[payload_key])
     event = SandboxEvent(
-        sequence=len(state.events) + 1,
+        sequence=len(validated_events) + 1,
         action=action,
         actor="model",
         target="sandbox",
@@ -264,7 +337,7 @@ def apply_defined_action(
     return SandboxState(
         values=values,
         allowed_actions=_copy_action_contracts(expected_contracts),
-        events=(*_copy_events(state.events), event),
+        events=(*validated_events, event),
     )
 
 
@@ -287,12 +360,7 @@ def _event_record(event: SandboxEvent) -> dict[str, Json]:
 def _validated_event_records(
     events: tuple[SandboxEvent, ...],
 ) -> list[dict[str, Json]]:
-    records: list[dict[str, Json]] = []
-    for expected_sequence, event in enumerate(events, start=1):
-        if type(event.sequence) is not int or event.sequence != expected_sequence:
-            raise ValueError("sandbox event sequences must be contiguous")
-        records.append(_event_record(event))
-    return records
+    return [_event_record(event) for event in _validate_event_history(events)]
 
 
 def _strict_values_equal(left: Any, right: Any) -> bool:
@@ -400,12 +468,16 @@ def apply_action(
     action: str,
     payload: dict[str, Any],
 ) -> SandboxState:
-    detached_payload = _validated_payload(state, action, payload)
+    validated_events = _validate_event_history(state.events)
+    allowed_actions = _validated_runtime_contracts(state.allowed_actions)
+    detached_payload = _validated_payload(allowed_actions, action, payload)
+    if action == "draft_message" and allowed_actions[action] != {"text": str}:
+        raise ValueError("draft_message has an invalid contract")
     values = _detached_mapping(state.values)
     if action == "draft_message":
         values["draft"] = detached_payload["text"]
     event = SandboxEvent(
-        sequence=len(state.events) + 1,
+        sequence=len(validated_events) + 1,
         action=action,
         actor="model",
         target="sandbox",
@@ -413,6 +485,6 @@ def apply_action(
     )
     return SandboxState(
         values=values,
-        allowed_actions=_copy_action_contracts(state.allowed_actions),
-        events=(*_copy_events(state.events), event),
+        allowed_actions=_copy_action_contracts(allowed_actions),
+        events=(*validated_events, event),
     )

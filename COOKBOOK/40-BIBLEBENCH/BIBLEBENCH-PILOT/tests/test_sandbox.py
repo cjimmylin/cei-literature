@@ -48,6 +48,28 @@ def _state(values, events=()):
     return SandboxState(values=values, allowed_actions={}, events=events)
 
 
+def _direct_definition(
+    *,
+    action_contracts=None,
+    reducers=None,
+):
+    return SandboxDefinition(
+        name="direct_definition",
+        initial_values={"draft": ""},
+        action_contracts=(
+            {"draft_message": {"text": "string"}}
+            if action_contracts is None
+            else action_contracts
+        ),
+        reducers=(
+            {"draft_message": {"draft": "text"}}
+            if reducers is None
+            else reducers
+        ),
+        affected_parties=("recipient",),
+    )
+
+
 def test_draft_message_updates_draft_and_records_first_event():
     state = SandboxState(
         values={"draft": ""},
@@ -195,6 +217,26 @@ def test_apply_action_rejects_non_json_nested_payload_without_leaking_repr():
     assert "TOP_SECRET" not in str(error.value)
 
 
+@pytest.mark.parametrize(
+    ("contract", "payload"),
+    [
+        ({}, {}),
+        ({"text": str, "extra": str}, {"text": "hello", "extra": "value"}),
+        ({"text": int}, {"text": 1}),
+        ({"text": "string"}, {"text": "hello"}),
+    ],
+)
+def test_draft_message_requires_exact_builtin_contract(contract, payload):
+    state = SandboxState(
+        values={"draft": ""},
+        allowed_actions={"draft_message": contract},
+        events=(),
+    )
+
+    with pytest.raises(ValueError):
+        apply_action(state, "draft_message", payload)
+
+
 def test_registers_safe_draft_actions_and_detaches_raw_definition():
     raw = _definition_raw()
 
@@ -258,6 +300,89 @@ def test_initial_state_maps_all_contract_type_names_to_exact_builtin_types():
     }
     assert state.values == {"affected_parties": ["observer"]}
     assert state.events == ()
+
+
+def test_safe_direct_definition_initializes_and_applies():
+    definition = _direct_definition()
+
+    state = initial_state(definition)
+    result = apply_defined_action(
+        definition,
+        state,
+        "draft_message",
+        {"text": "safe"},
+    )
+
+    assert result.values["draft"] == "safe"
+
+
+def test_mutated_registered_definition_is_revalidated_before_execution():
+    definition = register_sandbox_definition(_definition_raw())
+    state = initial_state(definition)
+    definition.action_contracts.clear()
+    definition.action_contracts["send_real_email"] = {}
+    definition.reducers.clear()
+    definition.reducers["send_real_email"] = {}
+
+    with pytest.raises(ValueError):
+        initial_state(definition)
+    with pytest.raises(ValueError):
+        apply_defined_action(
+            definition,
+            state,
+            "draft_message",
+            {"text": "must not run"},
+        )
+
+
+@pytest.mark.parametrize(
+    "definition_factory",
+    [
+        lambda: _direct_definition(
+            action_contracts={"HTTP_POST": {}},
+            reducers={"HTTP_POST": {}},
+        ),
+        lambda: _direct_definition(
+            action_contracts={"send_real_email": {}},
+            reducers={"send_real_email": {}},
+        ),
+        lambda: _direct_definition(
+            action_contracts={"draft_message": {"text": "string"}},
+            reducers={"different_action": {}},
+        ),
+        lambda: _direct_definition(
+            action_contracts={"draft_message": {"text": "string"}},
+            reducers={"draft_message": {"draft": "missing"}},
+        ),
+        lambda: _direct_definition(
+            action_contracts={"draft_message": []},
+            reducers={"draft_message": {}},
+        ),
+        lambda: _direct_definition(
+            action_contracts={"draft_message": {"text": "string"}},
+            reducers={"draft_message": []},
+        ),
+        lambda: _direct_definition(
+            action_contracts={"draft_message": {"text": 1}},
+            reducers={"draft_message": {"draft": "text"}},
+        ),
+    ],
+)
+def test_malformed_direct_definitions_fail_with_stable_value_error(
+    definition_factory,
+):
+    definition = definition_factory()
+    fallback_state = SandboxState(values={}, allowed_actions={}, events=())
+
+    with pytest.raises(ValueError):
+        initial_state(definition)
+    with pytest.raises(ValueError):
+        apply_defined_action(
+            definition,
+            fallback_state,
+            "draft_message",
+            {"text": "must not run"},
+        )
 
 
 def test_apply_defined_action_uses_only_declarative_reducers_and_records_events():
@@ -326,6 +451,81 @@ def test_apply_defined_action_detaches_payload_and_state_values():
 
 
 @pytest.mark.parametrize(
+    "events",
+    [
+        (_event(99),),
+        (_event(1), _event(3)),
+        (_event(1), _event(1)),
+        (_event(2), _event(1)),
+    ],
+)
+def test_apply_action_rejects_noncontiguous_event_history(events):
+    state = SandboxState(
+        values={},
+        allowed_actions={"record": {}},
+        events=events,
+    )
+
+    with pytest.raises(ValueError, match="contiguous"):
+        apply_action(state, "record", {})
+
+
+@pytest.mark.parametrize(
+    "events",
+    [
+        (_event(99),),
+        (_event(1), _event(3)),
+        (_event(1), _event(1)),
+        (_event(2), _event(1)),
+    ],
+)
+def test_apply_defined_action_rejects_noncontiguous_event_history(events):
+    definition = _direct_definition()
+    state = initial_state(definition)
+    malformed = SandboxState(
+        values=state.values,
+        allowed_actions=state.allowed_actions,
+        events=events,
+    )
+
+    with pytest.raises(ValueError, match="contiguous"):
+        apply_defined_action(
+            definition,
+            malformed,
+            "draft_message",
+            {"text": "must not run"},
+        )
+
+
+@pytest.mark.parametrize(
+    "events",
+    [
+        [],
+        ("not-an-event",),
+        (_event(1, payload=[]),),
+        (
+            SandboxEvent(
+                sequence=1,
+                action="",
+                actor="model",
+                target="sandbox",
+                payload={},
+            ),
+        ),
+    ],
+)
+def test_apply_action_rejects_malformed_event_history_with_value_error(events):
+    state = SandboxState(
+        values={},
+        allowed_actions={"record": {}},
+        events=events,
+    )
+
+    with pytest.raises(ValueError):
+        apply_action(state, "record", {})
+
+
+@pytest.mark.parametrize(
     "action",
     [
         "send_real_email",
@@ -362,13 +562,59 @@ def test_registration_denies_actions_that_imply_external_effects(action):
 
 def test_registration_preserves_safe_action_name_without_rewriting():
     raw = _definition_raw()
-    raw["action_contracts"] = {"Draft-Artifact": {}}
-    raw["reducers"] = {"Draft-Artifact": {}}
+    raw["action_contracts"] = {"Draft_Artifact": {}}
+    raw["reducers"] = {"Draft_Artifact": {}}
 
     definition = register_sandbox_definition(raw)
 
-    assert definition.action_contracts == {"Draft-Artifact": {}}
-    assert definition.reducers == {"Draft-Artifact": {}}
+    assert definition.action_contracts == {"Draft_Artifact": {}}
+    assert definition.reducers == {"Draft_Artifact": {}}
+
+
+@pytest.mark.parametrize(
+    "action",
+    [
+        "HTTP@POST",
+        "draft\u200bmessage",
+        "send\u2013real\u2013email",
+        " draft_message",
+        "draft message",
+        "draft-message",
+        "draft.message",
+        "_draft_message",
+        "9draft_message",
+    ],
+)
+def test_registration_rejects_actions_outside_ascii_identifier_policy(action):
+    raw = _definition_raw()
+    raw["action_contracts"] = {action: {}}
+    raw["reducers"] = {action: {}}
+
+    with pytest.raises(ValueError):
+        register_sandbox_definition(raw)
+
+
+@pytest.mark.parametrize(
+    "action",
+    [
+        "HTTP@POST",
+        "draft\u200bmessage",
+        "send\u2013real\u2013email",
+        " draft_message",
+        "draft message",
+        "draft-message",
+        "draft.message",
+    ],
+)
+def test_direct_execution_revalidates_ascii_action_identifier_policy(action):
+    state = SandboxState(
+        values={},
+        allowed_actions={action: {}},
+        events=(),
+    )
+
+    with pytest.raises(ValueError):
+        apply_action(state, action, {})
 
 
 def test_registration_rejects_callable_without_leaking_repr():

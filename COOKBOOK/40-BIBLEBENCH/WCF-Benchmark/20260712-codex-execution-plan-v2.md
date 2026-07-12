@@ -8,7 +8,7 @@ judgment. The v1 plan's anti-rabbit-hole rules and AGENTS.md remain in force.
 
 ## Progress
 
-- [ ] **T1 — R47–R53 offline work order** (no gate; boot detail: `20260712-codex-work-order-boot-prompt.md`)
+- [x] **T1 — R47–R53 offline work order** (no gate; boot detail: `20260712-codex-work-order-boot-prompt.md`)
 - [ ] **T2 — EPISODE registry application (R54/R56)** (no gate)
 - [ ] **T2.5 — T1/T2 ratification recorded** (gate: R57 checklist passed by F2 or Jimmy — not Codex)
 - [ ] **T3 — EPISODE 88-cell live run** (gates: Jimmy paid-call reauth + SUT roster; T2; R55 build items)

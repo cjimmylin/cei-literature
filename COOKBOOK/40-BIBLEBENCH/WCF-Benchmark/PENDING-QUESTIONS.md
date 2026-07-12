@@ -1,5 +1,24 @@
 # WCF-Bench Pending Questions
 
+## Binding dispositions received 2026-07-12 — R47–R53
+
+- **R47–R49:** The zero-OPEN result was a quoted-evidence willingness-parser artifact.
+  Codex was directed to fix the parser, derive a corrected manifest from immutable Task-4
+  evidence, and re-parse the persisted MVP OPEN verdicts offline.
+- **R50:** Tasks 1–4 are ratified; the paid-call pause remains in force.
+- **R51:** The EPISODE registry mechanism is ratified; R54–R56 subsequently completed the
+  item-level review and directed mechanical application. No live run is authorized.
+- **R52:** Task 6 is formally DEFERRED under the citation-gated contract. Alignment note:
+  `20260712-task6-r52-alignment-amendment.md`.
+- **R53:** MVP-testable uses the corrected single-family OPEN manifest, excludes EPISODE
+  pending registry approval, and retains the PROOF artifact disclosure.
+
+**Current execution status:** T1 is complete and checked in the v2 plan. W-R48, W-R47.3,
+W-R49, and W-R52.2 completed offline; the corrected manifest matches R47 F-1/F-2
+exactly, and the MVP OPEN re-parse covers 155 marker-hit verdicts across 65 cells with no
+new R42-material candidate. T2 is next. There are no unresolved judgment questions in
+this file.
+
 ## Rulings received 2026-07-11
 
 1. **Task 4:** Keep the new manifest and close the candidate ladder.
@@ -14,9 +33,9 @@ but its qualified manifest surface remains unspecified. Tasks 5 and 6 remain unc
 the execution plan because their required live runs are prohibited by ruling 3. The
 historical question records below are retained for provenance.
 
-**Provisional review packet:** `20260711-codex-provisional-adjudication-recommendations.md`
-spot-checks Task 4 and recommends bounded Task-5/Task-6 dispositions. It is pending Jimmy
-ratification, assigns no ruling numbers, and does not change any status above.
+**Historical provisional packet:** `20260711-codex-provisional-adjudication-recommendations.md`
+was ratified/superseded by R47–R53. It remains provenance only and assigns no ruling
+numbers.
 
 ## RESOLVED 2026-07-11 — Task 4: bridged manifest has zero OPEN-eligible families
 

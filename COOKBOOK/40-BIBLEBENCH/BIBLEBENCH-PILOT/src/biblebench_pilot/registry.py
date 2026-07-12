@@ -118,6 +118,11 @@ def validate_source_paths(
             relative_path = Path(source_path)
             if relative_path.is_absolute():
                 raise ValueError(f"{prefix} must be relative")
+            if ".." in relative_path.parts:
+                raise ValueError(
+                    f"{prefix} contains '..' traversal "
+                    "(rejected whether or not it escapes workspace root)"
+                )
             if not source_path.endswith(".md"):
                 raise ValueError(f"{prefix} must end in .md")
 

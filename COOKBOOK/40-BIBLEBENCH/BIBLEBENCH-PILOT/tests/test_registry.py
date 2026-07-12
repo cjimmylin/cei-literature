@@ -224,6 +224,16 @@ def test_validate_source_paths_rejects_traversal(tmp_path: Path):
     _assert_source_path_error(record, workspace_root, "escapes workspace root")
 
 
+def test_validate_source_paths_rejects_lexical_traversal_inside_root(tmp_path: Path):
+    workspace_root = tmp_path / "workspace"
+    workspace_root.mkdir()
+    (workspace_root / "ok.md").write_text("# Safe target\n", encoding="utf-8")
+    (workspace_root / "sub").mkdir()
+    record = _record_with_source("sub/../ok.md")
+
+    _assert_source_path_error(record, workspace_root, "traversal")
+
+
 def test_validate_source_paths_rejects_missing_path(tmp_path: Path):
     workspace_root = tmp_path / "workspace"
     workspace_root.mkdir()

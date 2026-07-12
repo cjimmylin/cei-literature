@@ -260,8 +260,18 @@ models only for now; silently replacing the frozen tie-breaker would change §E.
    or issue a logged §E model-plan amendment; if Grok fails, decide the Part-B sizing
    required by STOP trigger 8.
 
-**Current behavior:** O5 is paused at the W1 pre-call data-contract gate. No tie-breaker
-module, derived run, paid probe, W2/W3 compute, gate verdict, or release claim was made.
+**Probe update — 2026-07-11 (Codex):** After Jimmy said to continue, Codex ran only the
+frozen `x-ai/grok-4` reliability probe: one public cell per design, explicit model, no
+HOLDOUT. It returned HTTP 404 on all 10 calls (**0/10; DROP**) and wrote the immutable
+evidence to `runs/20260711-o5-grok4-probe/probe_report.md`. Framework STOP trigger 8 is
+therefore active: the Mistral fallback cannot run as the W1 tie-breaker until Jimmy rules
+the Part-B sizing implied by its >10% own-family exclusion in every design, or issues a
+logged §E model-plan amendment. Codex made neither choice.
+
+**Current behavior:** O5 remains paused before W1 adjudication. No Mistral fallback,
+tie-breaker module/run, 02/07 re-execution, W2/W3 compute, gate verdict, or release claim
+was made. PR-9 items 1 and 2 remain open; item 3 is now the triggered Part-B sizing/model-
+plan decision above.
 
 ---
 

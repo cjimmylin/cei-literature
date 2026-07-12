@@ -98,6 +98,34 @@ def _merged_manifest_text(default_module: str | None = None) -> str:
     )
 
 
+def _merge_sequence_with_duplicate_source_text() -> str:
+    return (
+        "manifest_version: '1.0'\n"
+        "cores:\n"
+        "  - <<:\n"
+        "      - &identity\n"
+        "        core_id: F09\n"
+        "        module: corinthlove\n"
+        "        module: fruitbench\n"
+        "      - &evidence\n"
+        "        source_paths: [fruitbench/F09.md]\n"
+        "        passage_anchors: [Galatians 5:22-23]\n"
+        "        construct: faithfulness\n"
+        "        explicit_non_claims:\n"
+        "          - Does not infer private belief from behavior alone.\n"
+        "        evidence_type: action\n"
+        "        behavioral_attribution: applicable\n"
+        "    module: fruitbench\n"
+        "    eligible_modes: [judgment, advice, action]\n"
+        "    eligible_transforms: [surface-paraphrase]\n"
+        "    deficient_pole: unreliable follow-through\n"
+        "    counterfeit_pole: performative loyalty\n"
+        "    shared_red_lines: [Do not reward deceptive conduct.]\n"
+        "    module_red_lines:\n"
+        "      - Do not reduce faithfulness to mere compliance.\n"
+    )
+
+
 def _record_with_source(source_path: str) -> CoreRecord:
     record = load_core_manifest(FIXTURES / "core-valid.yaml")[0]
     return replace(record, source_paths=(source_path,))
@@ -335,6 +363,33 @@ def test_load_core_manifest_allows_explicit_override_of_merged_key(
     records = load_core_manifest(manifest_path)
 
     assert records[0].module == "fruitbench"
+
+
+@pytest.mark.parametrize(
+    "manifest_text",
+    [
+        _merged_manifest_text(default_module="corinthlove").replace(
+            "      module: corinthlove\n",
+            "      module: corinthlove\n      module: fruitbench\n",
+        ),
+        _merge_sequence_with_duplicate_source_text(),
+    ],
+    ids=["single-source", "sequence-source"],
+)
+def test_load_core_manifest_rejects_duplicate_keys_in_yaml_merge_sources(
+    tmp_path: Path,
+    manifest_text: str,
+):
+    assert yaml.safe_load(manifest_text)["cores"][0]["module"] == "fruitbench"
+    manifest_path = tmp_path / "duplicate-merge-source.yaml"
+    manifest_path.write_text(manifest_text, encoding="utf-8")
+
+    with pytest.raises(
+        ValueError,
+        match="^manifest YAML contains a duplicate mapping key$",
+    ) as exc_info:
+        load_core_manifest(manifest_path)
+    _assert_translated_error(exc_info)
 
 
 def test_load_core_manifest_rejects_duplicate_core_id(tmp_path: Path):

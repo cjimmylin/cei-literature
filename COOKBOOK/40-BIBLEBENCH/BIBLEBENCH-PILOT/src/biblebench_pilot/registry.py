@@ -31,14 +31,31 @@ class _UniqueKeySafeLoader(yaml.SafeLoader):
     pass
 
 
-def _construct_unique_mapping(
+def _check_duplicate_mapping_keys(
     loader: _UniqueKeySafeLoader,
     node: yaml.MappingNode,
-    deep: bool = False,
-) -> dict[Any, Any]:
+    *,
+    deep: bool,
+    active_node_ids: set[int],
+    seen_node_ids: set[int],
+) -> None:
+    node_id = id(node)
+    if node_id in active_node_ids or node_id in seen_node_ids:
+        return
+    active_node_ids.add(node_id)
+
     explicit_keys: set[Any] = set()
-    for key_node, _ in node.value:
+    merge_sources: list[yaml.MappingNode] = []
+    for key_node, value_node in node.value:
         if key_node.tag == _YAML_MERGE_TAG:
+            if isinstance(value_node, yaml.MappingNode):
+                merge_sources.append(value_node)
+            elif isinstance(value_node, yaml.SequenceNode):
+                merge_sources.extend(
+                    source
+                    for source in value_node.value
+                    if isinstance(source, yaml.MappingNode)
+                )
             continue
         key = loader.construct_object(key_node, deep=deep)
         try:
@@ -54,6 +71,31 @@ def _construct_unique_mapping(
             raise _DuplicateKeyError
         explicit_keys.add(key)
 
+    for source in merge_sources:
+        _check_duplicate_mapping_keys(
+            loader,
+            source,
+            deep=deep,
+            active_node_ids=active_node_ids,
+            seen_node_ids=seen_node_ids,
+        )
+
+    active_node_ids.remove(node_id)
+    seen_node_ids.add(node_id)
+
+
+def _construct_unique_mapping(
+    loader: _UniqueKeySafeLoader,
+    node: yaml.MappingNode,
+    deep: bool = False,
+) -> dict[Any, Any]:
+    _check_duplicate_mapping_keys(
+        loader,
+        node,
+        deep=deep,
+        active_node_ids=set(),
+        seen_node_ids=set(),
+    )
     loader.flatten_mapping(node)
     return yaml.constructor.SafeConstructor.construct_mapping(
         loader,

@@ -429,6 +429,29 @@ def test_run_shadow_units_persists_every_verdict_and_survives_errors(
     )
 
     persisted = [json.loads(line) for line in path.read_text().splitlines()]
+    record_keys = {
+        "kind",
+        "timestamp",
+        "judge",
+        "surface",
+        "item_id",
+        "sut_slug",
+        "response_sha256",
+        "elapsed_seconds",
+        "result",
+        "error",
+    }
+    expected_identities = [
+        {
+            "judge": name,
+            "surface": unit["surface"],
+            "item_id": unit["item_id"],
+            "sut_slug": unit["sut_slug"],
+            "response_sha256": unit["response_sha256"],
+        }
+        for name, _family, _slug in r.CANDIDATES
+        for unit in selection
+    ]
     assert len(records) == 56
     assert len([record for record in records if record["error"]]) == 8
     assert all(
@@ -451,20 +474,23 @@ def test_run_shadow_units_persists_every_verdict_and_survives_errors(
         if record["error"]
     )
     assert persisted == records
+    assert all(set(record) == record_keys for record in records)
     assert all(record["kind"] == "shadow_verdict" for record in records)
-    assert all(record["elapsed_seconds"] >= 0 for record in records)
     assert all(
-        set(
-            (
-                "judge",
-                "surface",
-                "item_id",
-                "sut_slug",
-                "response_sha256",
-            )
-        ).issubset(record)
+        record["timestamp"] == "2026-07-12T12:00:00"
         for record in records
     )
+    assert all(record["elapsed_seconds"] >= 0 for record in records)
+    assert [
+        {
+            "judge": record["judge"],
+            "surface": record["surface"],
+            "item_id": record["item_id"],
+            "sut_slug": record["sut_slug"],
+            "response_sha256": record["response_sha256"],
+        }
+        for record in records
+    ] == expected_identities
     assert [record["judge"] for record in records[:28]] == ["glm-5.2"] * 28
     assert [record["judge"] for record in records[28:]] == [
         "deepseek-v4-pro"

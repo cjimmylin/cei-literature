@@ -157,7 +157,24 @@ _STANDALONE_HEX_ID = re.compile(
     r"(?<![0-9a-f])([0-9a-f]{16})(?![0-9a-f])", re.IGNORECASE
 )
 _CUE_HOMOGLYPHS = str.maketrans(
-    {"С": "C", "с": "c", "Ϲ": "C", "ϲ": "c"}
+    {
+        "С": "C",
+        "с": "c",
+        "Ϲ": "C",
+        "ϲ": "c",
+        "ᴄ": "c",
+        "Ꮯ": "C",
+        "ꮯ": "c",
+        "Ƈ": "C",
+        "ƈ": "c",
+        "ꓚ": "C",
+        "Ⲥ": "C",
+        "ⲥ": "c",
+        "Ꞓ": "C",
+        "ꞓ": "c",
+        "Ȼ": "C",
+        "ȼ": "c",
+    }
 )
 _SENSITIVE_ASSIGNMENT = re.compile(
     r"(?<![a-z0-9])(?:"

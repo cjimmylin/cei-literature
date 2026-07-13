@@ -464,6 +464,123 @@ def test_high_risk_cue_label_homoglyphs_are_rejected(
         )
 
 
+@pytest.mark.parametrize(
+    "homoglyph",
+    [
+        "ᴄ",
+        "Ꮯ",
+        "ꮯ",
+        "Ƈ",
+        "ƈ",
+        "ꓚ",
+        "Ⲥ",
+        "ⲥ",
+        "Ꞓ",
+        "ꞓ",
+        "Ȼ",
+        "ȼ",
+    ],
+)
+@pytest.mark.parametrize(
+    "location",
+    [
+        "forecast_value",
+        "forecast_key",
+        "probe_nested_value",
+        "probe_nested_key",
+        "primary_body",
+        "primary_token",
+    ],
+)
+def test_extended_cue_homoglyph_labels_are_rejected_across_visible_contexts(
+    homoglyph: str, location: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    exposed = f"{homoglyph}2"
+    if location == "forecast_value":
+        episode = replace(episode, forecast_payload={"note": exposed})
+    elif location == "forecast_key":
+        episode = replace(episode, forecast_payload={exposed: "ordinary"})
+    elif location == "probe_nested_value":
+        episode = replace(
+            episode,
+            probe_payload={"outer": [{"note": exposed}]},
+        )
+    elif location == "probe_nested_key":
+        episode = replace(
+            episode,
+            probe_payload={"outer": [{exposed: "ordinary"}]},
+        )
+    elif location == "primary_body":
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=exposed)
+                for variant in episode.variants
+            ),
+        )
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(
+                    variant,
+                    semantic_response_tokens=(exposed,),
+                )
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError, match="reserved condition label"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "homoglyph",
+    [
+        "ᴄ",
+        "Ꮯ",
+        "ꮯ",
+        "Ƈ",
+        "ƈ",
+        "ꓚ",
+        "Ⲥ",
+        "ⲥ",
+        "Ꞓ",
+        "ꞓ",
+        "Ȼ",
+        "ȼ",
+    ],
+)
+def test_extended_cue_homoglyphs_remain_ordinary_without_adjacent_cue_digit(
+    homoglyph: str,
+) -> None:
+    pack = _pack()
+    forecast_payload = {homoglyph: f"marker {homoglyph}4"}
+    probe_payload = {"note": f"marker {homoglyph} before chapter 3"}
+    body = f"Explain the international marker {homoglyph} in chapter 3."
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload=forecast_payload,
+        probe_payload=probe_payload,
+        variants=tuple(
+            replace(variant, shared_body=body)
+            for variant in pack.episodes[0].variants
+        ),
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload == forecast_payload
+    assert schedule.probe_rows[0].request_payload == probe_payload
+    assert schedule.primary_rows[0].request_payload["shared_body"] == body
+
+
 def test_international_prose_with_numbers_remains_allowed() -> None:
     pack = _pack()
     episode = replace(

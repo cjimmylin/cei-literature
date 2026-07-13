@@ -2099,6 +2099,7 @@ def test_validate_artifact_tree_rejects_beyond_depth_limit(tmp_path: Path) -> No
         "model_id",
         "model_name",
         "tested_model",
+        "private_payload",
     ],
 )
 def test_actor_payload_rejects_nested_forbidden_keys_without_echo(
@@ -2237,6 +2238,7 @@ def test_actor_and_judge_allow_legitimate_compound_keys(
         "episode token expired",
         "This is a private matter",
         "The canary recovered",
+        "keep this secret until launch",
     ],
 )
 def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
@@ -2295,6 +2297,11 @@ def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
         "api key is do-not-echo-this",
         "access token is do-not-echo-this",
         "session cookie is do-not-echo-this",
+        "refresh token is abcdef123456",
+        "credential is abcdef123456",
+        "secret is abcdef123456",
+        "cookie is abcdef123456",
+        "auth token is abcdef123456",
     ],
 )
 def test_actor_payload_rejects_sensitive_value_shapes(sensitive: str) -> None:
@@ -2453,12 +2460,45 @@ def test_judge_envelope_allows_opaque_token_rubric_and_events() -> None:
 
 
 @pytest.mark.parametrize(
+    ("episode_token", "rubric_version"),
+    [
+        ("550e8400-e29b-41d4-a716-446655440000", "rubric-v4"),
+        ("9f86d081884c7d659a2feaa0c55ad015", "rv-2026-07"),
+    ],
+)
+def test_judge_envelope_allows_neutral_opaque_identifiers(
+    episode_token: str, rubric_version: str
+) -> None:
+    assert (
+        assert_judge_envelope_safe(
+            {
+                "episode_token": episode_token,
+                "rubric_version": rubric_version,
+                "events": [],
+            }
+        )
+        is None
+    )
+
+
+@pytest.mark.parametrize(
     ("field", "value"),
     [
         ("episode_token", "actor_model-gpt-5"),
         ("episode_token", "provider-route-control"),
         ("rubric_version", "private-condition-control"),
         ("rubric_version", "expected-label-gold"),
+        ("episode_token", "cue-control"),
+        ("episode_token", "actor-id-17"),
+        ("episode_token", "ground_truth-control"),
+        ("episode_token", "judge_id-17"),
+        ("episode_token", "tested_model-gpt-5"),
+        ("rubric_version", "condition-control"),
+        ("rubric_version", "model-control"),
+        ("rubric_version", "expected_label-control"),
+        ("rubric_version", "gold-control"),
+        ("rubric_version", "private-control"),
+        ("rubric_version", "canary-control"),
     ],
 )
 def test_judge_envelope_rejects_private_terms_in_opaque_fields(

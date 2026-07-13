@@ -8,6 +8,7 @@ import json
 import math
 import re
 import unicodedata
+from types import MappingProxyType
 from typing import Any, Literal
 
 from .artifacts import assert_judge_envelope_safe
@@ -49,57 +50,94 @@ _EVENT_FIELDS = frozenset(
 _TASK_CORRECTNESS = frozenset({"correct", "partial", "incorrect", "not_assessable"})
 _UNCERTAINTY = frozenset({"none", "expressed", "material_unresolved", "not_assessable"})
 _ACTION_ID = re.compile(r"[a-z][a-z0-9_]{0,63}\Z")
-_PRIVATE_CONCEPTS = frozenset(
-    {
-        "actor",
-        "model",
-        "provider",
-        "route",
-        "cue",
-        "condition",
-        "module",
-        "core",
-        "schedule",
-        "bundle",
-        "episode",
-        "role",
-        "gold",
-        "expected",
-        "private",
-        "lens",
-        "scorer",
-        "forecast",
-        "canary",
-        "judge",
-        "rubric",
-    }
+_PRIVATE_COMPONENT_ALIASES = MappingProxyType({
+    "actor": "actor",
+    "actors": "actor",
+    "model": "model",
+    "models": "model",
+    "provider": "provider",
+    "providers": "provider",
+    "route": "route",
+    "routes": "route",
+    "cue": "cue",
+    "cues": "cue",
+    "condition": "condition",
+    "conditions": "condition",
+    "module": "module",
+    "modules": "module",
+    "core": "core",
+    "cores": "core",
+    "schedule": "schedule",
+    "schedules": "schedule",
+    "bundle": "bundle",
+    "bundles": "bundle",
+    "episode": "episode",
+    "episodes": "episode",
+    "role": "role",
+    "roles": "role",
+    "gold": "gold",
+    "golds": "gold",
+    "expected": "expected",
+    "private": "private",
+    "privates": "private",
+    "lens": "lens",
+    "lenses": "lens",
+    "scorer": "scorer",
+    "scorers": "scorer",
+    "forecast": "forecast",
+    "forecasts": "forecast",
+    "canary": "canary",
+    "canaries": "canary",
+    "judge": "judge",
+    "judges": "judge",
+    "rubric": "rubric",
+    "rubrics": "rubric",
+    "groundtruth": "groundtruth",
+})
+_METADATA_COMPONENT_ALIASES = MappingProxyType({
+    "id": "id",
+    "ids": "id",
+    "identity": "identity",
+    "identities": "identity",
+    "name": "name",
+    "names": "name",
+    "label": "label",
+    "labels": "label",
+    "score": "score",
+    "scores": "score",
+    "result": "result",
+    "results": "result",
+    "value": "value",
+    "values": "value",
+    "copy": "copy",
+    "copies": "copy",
+    "type": "type",
+    "types": "type",
+    "key": "key",
+    "keys": "key",
+    "token": "token",
+    "tokens": "token",
+    "target": "target",
+    "targets": "target",
+    "route": "route",
+    "routes": "route",
+    "model": "model",
+    "models": "model",
+    "role": "role",
+    "roles": "role",
+})
+_COMPACT_PRIVATE_IDENTIFIERS = frozenset(
+    concept_alias + metadata_alias
+    for concept_alias in _PRIVATE_COMPONENT_ALIASES
+    for metadata_alias in _METADATA_COMPONENT_ALIASES
 )
-_PRIVATE_CONCEPT_PLURALS = frozenset(
-    {f"{concept}s" for concept in _PRIVATE_CONCEPTS} | {"lenses"}
+_PRIVATE_ALIAS_PATTERN = "|".join(
+    re.escape(alias)
+    for alias in sorted(_PRIVATE_COMPONENT_ALIASES, key=len, reverse=True)
 )
-_COMPACT_METADATA_SUFFIXES = (
-    "id",
-    "identity",
-    "name",
-    "label",
-    "score",
-    "result",
-    "value",
-    "copy",
-    "type",
-    "key",
-    "token",
-    "target",
-    "route",
-    "model",
-    "role",
-)
-_COMPACT_PRIVATE_IDENTIFIER = re.compile(
-    "(?:"
-    + "|".join(sorted(_PRIVATE_CONCEPTS, key=len, reverse=True))
-    + ")(?:"
-    + "|".join(_COMPACT_METADATA_SUFFIXES)
-    + r")\Z"
+_METADATA_ALIAS_PATTERN = "|".join(
+    re.escape(alias)
+    for alias in sorted(_METADATA_COMPONENT_ALIASES, key=len, reverse=True)
 )
 _CAMEL_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
@@ -107,17 +145,18 @@ _EVIDENCE_ID = re.compile(rf"([SE])({_EVIDENCE_NUMBER})\Z")
 _HASH = re.compile(r"[0-9a-f]{64}\Z")
 _PRIVATE_ASSIGNMENT = re.compile(
     r"(?<![a-z0-9])(?:"
-    r"actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|"
-    r"schedules?|bundles?|episodes?|roles?|gold|ground[\W_]*truth|"
-    r"expected(?:[\W_]*labels?)?|privates?|lens(?:es)?|scorers?|forecasts?|"
-    r"actormodel|goldlabel|modulename|lensscore|forecastresult|providerroute"
-    r")(?:[\W_]*(?:ids?|identit(?:y|ies)|names?|labels?|scores?|results?|"
-    r"values?|copies|types?|keys?|tokens?|targets?))?[ \t]*(?::|=|\bis\b)",
+    r"ground[\W_]*truth|(?:"
+    + _PRIVATE_ALIAS_PATTERN
+    + r"))(?:[\W_]*(?:"
+    + _METADATA_ALIAS_PATTERN
+    + r"))?[ \t]*(?::|=|\bis\b)",
     re.IGNORECASE,
 )
 _MAX_JSON_DEPTH = 64
 _MAX_JSON_NODES = 32768
 _MAX_EVENT_JSON_BYTES = 512 * 1024
+_MAX_PUBLIC_TEXT_CODEPOINTS = 256
+_MAX_PUBLIC_TEXT_UTF8_BYTES = 1024
 
 
 @dataclass(frozen=True)
@@ -308,22 +347,28 @@ def _identifier_is_private(value: str) -> bool:
         component for component in _NON_ALNUM.split(normalized) if component
     )
     return bool(
-        set(components) & (_PRIVATE_CONCEPTS | _PRIVATE_CONCEPT_PLURALS)
-        or "groundtruth" in components
-        or "expectedlabel" in components
+        any(component in _PRIVATE_COMPONENT_ALIASES for component in components)
+        or any(component in _COMPACT_PRIVATE_IDENTIFIERS for component in components)
         or any(
             left == "ground" and right == "truth"
             for left, right in zip(components, components[1:])
-        )
-        or any(
-            _COMPACT_PRIVATE_IDENTIFIER.fullmatch(component)
-            for component in components
         )
     )
 
 
 def _contains_private_assignment(value: str) -> bool:
     return bool(_PRIVATE_ASSIGNMENT.search(_normalized_policy_text(value)))
+
+
+def _public_text_is_bounded(value: str) -> bool:
+    try:
+        return (
+            len(value) <= _MAX_PUBLIC_TEXT_CODEPOINTS
+            and len(value.encode("utf-8", errors="strict"))
+            <= _MAX_PUBLIC_TEXT_UTF8_BYTES
+        )
+    except UnicodeEncodeError:
+        return False
 
 
 def _identifier_is_public(value: str) -> bool:
@@ -445,6 +490,7 @@ def _canonical_string_list(
     action_ids: bool = False,
     require_sorted: bool = True,
     max_items: int,
+    max_codepoints: int | None = None,
     max_utf8_bytes: int | None = None,
 ) -> tuple[str, ...]:
     if type(value) is not list:
@@ -460,6 +506,10 @@ def _canonical_string_list(
                 raise ValueError("invalid observable event")
         except UnicodeEncodeError:
             raise ValueError("invalid observable event") from None
+    if max_codepoints is not None and any(
+        len(item) > max_codepoints for item in result
+    ):
+        raise ValueError("invalid observable event")
     if action_ids and any(not _action_id_is_public(item) for item in result):
         raise ValueError("invalid observable event")
     if len(set(result)) != len(result) or (
@@ -515,7 +565,8 @@ def validate_observable_event_record(
             raw["consequence_summaries"],
             require_sorted=False,
             max_items=32,
-            max_utf8_bytes=1024,
+            max_codepoints=_MAX_PUBLIC_TEXT_CODEPOINTS,
+            max_utf8_bytes=_MAX_PUBLIC_TEXT_UTF8_BYTES,
         )
         if any(_contains_private_assignment(summary) for summary in summaries):
             raise ValueError
@@ -706,7 +757,7 @@ def _freeze_sandbox_log(
             or type(event.target) is not str
             or not event.target
             or not _identifier_is_public(event.target)
-            or len(event.target.encode("utf-8", errors="strict")) > 256
+            or not _public_text_is_bounded(event.target)
             or type(event.payload) is not dict
         ):
             raise ValueError("invalid observable evidence")
@@ -924,7 +975,7 @@ def observable_evidence_to_json(bundle: FrozenObservableEvidence) -> dict[str, J
                 or type(row.target) is not str
                 or not row.target
                 or not _identifier_is_public(row.target)
-                or len(row.target.encode("utf-8", errors="strict")) > 256
+                or not _public_text_is_bounded(row.target)
                 or _bounded_canonical_json_bytes(
                     public_row["payload"], max_bytes=_MAX_SOURCE_BYTES
                 )

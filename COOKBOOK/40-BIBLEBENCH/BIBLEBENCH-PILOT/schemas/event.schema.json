@@ -274,7 +274,7 @@
     },
     "actionId": {
       "type": "string",
-      "pattern": "^(?!(?:[a-z0-9]+_)*(actor|model|provider|route|cue|condition|module|core|schedule|bundle|episode|role|gold|expected|private|lens|scorer|forecast|canary|judge|rubric)(?:_|$))(?!(?:[a-z0-9]+_)*(?:(?:actor|model|provider|route|cue|condition|module|core|schedule|bundle|episode|role|gold|expected|private|lens|scorer|forecast|canary|judge|rubric)(?:id|identity|name|label|score|result|value|copy|type|key|token|target|route|model|role)|groundtruth|expectedlabel)(?:_|$))[a-z][a-z0-9_]{0,63}$"
+      "pattern": "^(?!(?:[a-z0-9]+_)*(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|golds?|expected|privates?|lens(?:es)?|scorers?|forecasts?|canar(?:y|ies)|judges?|rubrics?|groundtruth)(?:_|$))(?!(?:[a-z0-9]+_)*(?:(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|golds?|expected|privates?|lens(?:es)?|scorers?|forecasts?|canar(?:y|ies)|judges?|rubrics?|groundtruth)(?:ids?|identit(?:y|ies)|names?|labels?|scores?|results?|values?|cop(?:y|ies)|types?|keys?|tokens?|targets?|routes?|models?|roles?))(?:_|$))(?!(?:[a-z0-9]+_)*ground_truth(?:_|$))[a-z][a-z0-9_]{0,63}$"
     },
     "evidenceId": {
       "type": "string",
@@ -343,7 +343,8 @@
           "type": "string",
           "minLength": 1,
           "maxLength": 256,
-          "pattern": "^(?!(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|gold|expected|private|lens|scorer|forecast)(?:[-_./ ]|$))(?!.*[-_./ ](?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|gold|expected|private|lens|scorer|forecast)(?:[-_./ ]|$)).+$"
+          "$comment": "Schema and runtime share the 256-code-point limit; runtime also enforces 1024 UTF-8 bytes.",
+          "pattern": "^(?!(?:(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|golds?|expected|privates?|lens(?:es)?|scorers?|forecasts?|canar(?:y|ies)|judges?|rubrics?|ground(?:[-_./ ]*truth))(?:(?:ids?|identit(?:y|ies)|names?|labels?|scores?|results?|values?|cop(?:y|ies)|types?|keys?|tokens?|targets?|routes?|models?|roles?))?)(?:[-_./ ]|$))(?!.*[-_./ ](?:(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|golds?|expected|privates?|lens(?:es)?|scorers?|forecasts?|canar(?:y|ies)|judges?|rubrics?|ground(?:[-_./ ]*truth))(?:(?:ids?|identit(?:y|ies)|names?|labels?|scores?|results?|values?|cop(?:y|ies)|types?|keys?|tokens?|targets?|routes?|models?|roles?))?)(?:[-_./ ]|$)).+$"
         },
         "payload": {
           "type": "object",
@@ -404,8 +405,8 @@
             "type": "string",
             "minLength": 1,
             "maxLength": 256,
-            "$comment": "The 256-code-point schema bound is conservative for the runtime 1024-byte UTF-8 limit; runtime validation remains authoritative.",
-            "pattern": "^(?!.*(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|gold|ground[-_./ ]*truth|expected[-_./ ]*labels?|private|lens|scorer|forecast)(?:[-_./ ]*(?:id|identity|name|label|score|result|value|copy|type|key|token|target))?[ ]*(?::|=|is(?: |$))).*$"
+            "$comment": "Schema and runtime share the 256-code-point limit; runtime also enforces 1024 UTF-8 bytes.",
+            "pattern": "^(?!.*(?:(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|golds?|expected|privates?|lens(?:es)?|scorers?|forecasts?|canar(?:y|ies)|judges?|rubrics?|ground(?:[-_./ ]*truth))(?:[-_./ ]*(?:ids?|identit(?:y|ies)|names?|labels?|scores?|results?|values?|cop(?:y|ies)|types?|keys?|tokens?|targets?|routes?|models?|roles?))?)[ ]*(?::|=|is(?: |$))).*$"
           }
         },
         "evidence_ids": {

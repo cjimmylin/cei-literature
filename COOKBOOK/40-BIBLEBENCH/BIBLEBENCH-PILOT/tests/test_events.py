@@ -4,6 +4,7 @@ from dataclasses import FrozenInstanceError, replace
 import hashlib
 import json
 from pathlib import Path
+import re
 import traceback
 
 import pytest
@@ -27,6 +28,19 @@ from biblebench_pilot.events import (
 
 
 REGISTERED_ACTIONS = ("draft_message", "request_review", "send_update")
+COMPACT_PRIVATE_ALIASES = (
+    "actorsid",
+    "actorids",
+    "modelsid",
+    "modelids",
+    "providersid",
+    "lensesid",
+    "expectedlabels",
+    "goldlabels",
+    "groundtruthid",
+    "modelidentities",
+    "canaries",
+)
 
 
 def _event_raw(**overrides):
@@ -561,6 +575,64 @@ def test_observable_event_firewall_rejects_private_action_identifiers(
             _event_raw(registered_actions=[action_id], registered_omissions=[]),
             known_evidence_ids=("S001", "E001"),
             registered_action_ids=(action_id,),
+        )
+
+
+@pytest.mark.parametrize("field", ["registered_actions", "registered_omissions"])
+@pytest.mark.parametrize("identifier", COMPACT_PRIVATE_ALIASES)
+def test_compact_plural_firewall_rejects_event_action_and_omission_ids(
+    field: str,
+    identifier: str,
+) -> None:
+    overrides = {field: [identifier]}
+    other_field = (
+        "registered_omissions"
+        if field == "registered_actions"
+        else "registered_actions"
+    )
+    overrides[other_field] = []
+
+    with pytest.raises(ValueError, match="invalid observable event"):
+        validate_observable_event_record(
+            _event_raw(**overrides),
+            known_evidence_ids=("S001", "E001"),
+            registered_action_ids=(identifier,),
+        )
+
+
+@pytest.mark.parametrize("identifier", COMPACT_PRIVATE_ALIASES)
+@pytest.mark.parametrize("surface", ["target", "key", "value"])
+def test_compact_plural_firewall_rejects_every_sandbox_surface(
+    identifier: str,
+    surface: str,
+) -> None:
+    event = _sandbox_event()
+    if surface == "target":
+        event = replace(event, target=identifier)
+    elif surface == "key":
+        event = replace(event, payload={"nested": {identifier: "hidden"}})
+    else:
+        event = replace(event, payload={"nested": {"text": f"{identifier}: hidden"}})
+
+    with pytest.raises(ValueError, match="invalid observable evidence"):
+        freeze_observable_evidence(
+            b"response",
+            b"probe",
+            (event,),
+            [_event_raw(evidence_ids=["S001"])],
+            registered_action_ids=REGISTERED_ACTIONS,
+        )
+
+
+@pytest.mark.parametrize("identifier", COMPACT_PRIVATE_ALIASES)
+def test_compact_plural_firewall_rejects_summary_assignments(
+    identifier: str,
+) -> None:
+    with pytest.raises(ValueError, match="invalid observable event"):
+        validate_observable_event_record(
+            _event_raw(consequence_summaries=[f"{identifier}: hidden"]),
+            known_evidence_ids=("S001", "E001"),
+            registered_action_ids=REGISTERED_ACTIONS,
         )
 
 
@@ -1137,6 +1209,66 @@ def test_freeze_rejects_too_many_sandbox_events_and_unbounded_targets() -> None:
         )
 
 
+@pytest.mark.parametrize("surface", ["target", "summary"])
+@pytest.mark.parametrize(
+    ("text", "accepted"),
+    [
+        pytest.param("a" * 300, False, id="ascii-300"),
+        pytest.param("é" * 300, False, id="two-byte-300"),
+        pytest.param("é" * 129, True, id="two-byte-129"),
+        pytest.param("\N{GRINNING FACE}" * 256, True, id="astral-256"),
+        pytest.param("\N{GRINNING FACE}" * 257, False, id="astral-257"),
+        pytest.param("\ud800", False, id="surrogate"),
+    ],
+)
+def test_public_text_limits_match_codepoint_and_utf8_contract(
+    text: str,
+    accepted: bool,
+    surface: str,
+) -> None:
+    event = _sandbox_event()
+    event_row = _event_raw(evidence_ids=["E001"])
+    if surface == "target":
+        event = replace(event, target=text)
+    else:
+        event_row["consequence_summaries"] = [text]
+
+    if not accepted:
+        with pytest.raises(ValueError, match="invalid observable evidence"):
+            freeze_observable_evidence(
+                b"response",
+                b"probe",
+                (event,),
+                [event_row],
+                registered_action_ids=REGISTERED_ACTIONS,
+            )
+        if text != "\ud800":
+            artifact = observable_evidence_to_json(_complete_bundle())
+            if surface == "target":
+                artifact["sandbox_evidence"][0]["target"] = text
+            else:
+                artifact["events"][0]["consequence_summaries"] = [text]
+            assert list(
+                Draft202012Validator(_event_schema()).iter_errors(artifact)
+            )
+        return
+
+    bundle = freeze_observable_evidence(
+        b"response",
+        b"probe",
+        (event,),
+        [event_row],
+        registered_action_ids=REGISTERED_ACTIONS,
+    )
+    public = observable_evidence_to_json(bundle)
+
+    assert list(Draft202012Validator(_event_schema()).iter_errors(public)) == []
+    if surface == "target":
+        assert public["sandbox_evidence"][0]["target"] == text
+    else:
+        assert public["events"][0]["consequence_summaries"] == [text]
+
+
 def test_freeze_bounds_the_complete_canonical_sandbox_log() -> None:
     target = "recipient-" + "a" * 246
     sandbox_log = tuple(
@@ -1156,14 +1288,14 @@ def test_freeze_bounds_the_complete_canonical_sandbox_log() -> None:
             registered_action_ids=REGISTERED_ACTIONS,
         )
 
-    with pytest.raises(ValueError, match="invalid observable evidence"):
-        freeze_observable_evidence(
-            b"response",
-            b"probe",
-            (replace(_sandbox_event(), target="é" * 129),),
-            [_event_raw(evidence_ids=["S001"])],
-            registered_action_ids=REGISTERED_ACTIONS,
-        )
+    bundle = freeze_observable_evidence(
+        b"response",
+        b"probe",
+        (replace(_sandbox_event(), target="é" * 129),),
+        [_event_raw(evidence_ids=["S001"])],
+        registered_action_ids=REGISTERED_ACTIONS,
+    )
+    assert bundle.sandbox_evidence[0].target == "é" * 129
 
 
 def test_sandbox_actions_must_belong_to_the_registered_public_vocabulary() -> None:
@@ -1433,6 +1565,53 @@ def test_event_schema_conservatively_rejects_expressible_firewall_and_byte_risks
         artifact["events"][0]["consequence_summaries"] = [replacement]
 
     assert list(Draft202012Validator(_event_schema()).iter_errors(artifact))
+
+
+@pytest.mark.parametrize("identifier", COMPACT_PRIVATE_ALIASES)
+@pytest.mark.parametrize("surface", ["action", "target", "summary"])
+def test_event_schema_mirrors_the_compact_plural_firewall(
+    identifier: str,
+    surface: str,
+) -> None:
+    artifact = observable_evidence_to_json(_complete_bundle())
+    if surface == "action":
+        artifact["events"][0]["registered_actions"] = [identifier]
+    elif surface == "target":
+        artifact["sandbox_evidence"][0]["target"] = identifier
+    else:
+        artifact["events"][0]["consequence_summaries"] = [
+            f"{identifier}: hidden"
+        ]
+
+    assert list(Draft202012Validator(_event_schema()).iter_errors(artifact))
+
+
+def test_runtime_and_schema_cover_the_same_finite_compact_alias_cross_product(
+) -> None:
+    schema = _event_schema()
+    action_pattern = re.compile(schema["$defs"]["actionId"]["pattern"])
+    target_pattern = re.compile(
+        schema["$defs"]["sandboxEvidence"]["properties"]["target"]["pattern"]
+    )
+    summary_pattern = re.compile(
+        schema["$defs"]["event"]["properties"]["consequence_summaries"]
+        ["items"]["pattern"]
+    )
+    compact = {
+        concept + metadata
+        for concept in events_module._PRIVATE_COMPONENT_ALIASES
+        for metadata in events_module._METADATA_COMPONENT_ALIASES
+    }
+
+    assert compact == events_module._COMPACT_PRIVATE_IDENTIFIERS
+    for identifier in {
+        *events_module._PRIVATE_COMPONENT_ALIASES,
+        *compact,
+    }:
+        assert events_module._identifier_is_private(identifier)
+        assert action_pattern.fullmatch(identifier) is None
+        assert target_pattern.fullmatch(identifier) is None
+        assert summary_pattern.fullmatch(f"{identifier}: hidden") is None
 
 
 @pytest.mark.parametrize(

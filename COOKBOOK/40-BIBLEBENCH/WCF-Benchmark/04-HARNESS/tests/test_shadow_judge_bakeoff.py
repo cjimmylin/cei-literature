@@ -142,6 +142,11 @@ def test_write_selection_is_create_new(tmp_path):
 def test_shadow_battery_calls_only_two_candidates():
     r = _runner()
     calls = []
+    constructed_clients = []
+
+    def fake_client_factory(name, family, slug):
+        constructed_clients.append((name, family, slug))
+        return slug
 
     def fake_qualify(client, *, name, family, slug, k, threshold):
         assert client == slug
@@ -149,10 +154,18 @@ def test_shadow_battery_calls_only_two_candidates():
         return f"qualified:{name}"
 
     results = r.run_shadow_batteries(
-        client_factory=lambda _name, _family, slug: slug,
+        client_factory=fake_client_factory,
         qualify_fn=fake_qualify,
     )
 
+    assert constructed_clients == [
+        ("glm-5.2", "z-ai", "z-ai/glm-5.2"),
+        (
+            "deepseek-v4-pro",
+            "deepseek",
+            "deepseek/deepseek-v4-pro",
+        ),
+    ]
     assert calls == [
         ("glm-5.2", "z-ai", "z-ai/glm-5.2", 8, 5),
         (
@@ -187,22 +200,28 @@ def test_persist_probe_reps_writes_fixed_order_complete_records():
     for index, probe in enumerate(reversed(r.PROBES)):
         probe_reps[probe] = ProbeReps(
             probe=probe,
-            k=1,
+            k=2,
             n_pass=1,
             reps=[
                 {
-                    "rep": index,
+                    "rep": index * 2,
                     "passed": True,
                     "cause": "pass",
-                    "detail": f"detail:{probe}",
-                }
+                    "detail": f"first:{probe}",
+                },
+                {
+                    "rep": index * 2 + 1,
+                    "passed": False,
+                    "cause": "fail_substantive",
+                    "detail": f"second:{probe}",
+                },
             ],
         )
     qualification = JudgeQualification(
         name="glm-5.2",
         family="z-ai",
         slug="z-ai/glm-5.2",
-        k=1,
+        k=2,
         threshold=1,
         probe_reps=probe_reps,
     )
@@ -219,19 +238,25 @@ def test_persist_probe_reps_writes_fixed_order_complete_records():
         sink, qualification, now=lambda: "2026-07-12T12:00:00"
     )
 
-    assert [record["probe"] for record in sink.records] == list(r.PROBES)
-    assert len(sink.records) == len(r.PROBES)
-    for record in sink.records:
-        rep = probe_reps[record["probe"]].reps[0]
-        assert record == {
-            "kind": "probe_rep",
-            "timestamp": "2026-07-12T12:00:00",
-            "judge": "glm-5.2",
-            "family": "z-ai",
-            "slug": "z-ai/glm-5.2",
-            "probe": record["probe"],
-            "rep": rep["rep"],
-            "passed": rep["passed"],
-            "cause": rep["cause"],
-            "detail": rep["detail"],
-        }
+    assert [record["probe"] for record in sink.records] == [
+        probe for probe in r.PROBES for _rep in range(2)
+    ]
+    assert len(sink.records) == len(r.PROBES) * 2
+    expected_records = []
+    for probe in r.PROBES:
+        for rep in probe_reps[probe].reps:
+            expected_records.append(
+                {
+                    "kind": "probe_rep",
+                    "timestamp": "2026-07-12T12:00:00",
+                    "judge": "glm-5.2",
+                    "family": "z-ai",
+                    "slug": "z-ai/glm-5.2",
+                    "probe": probe,
+                    "rep": rep["rep"],
+                    "passed": rep["passed"],
+                    "cause": rep["cause"],
+                    "detail": rep["detail"],
+                }
+            )
+    assert sink.records == expected_records

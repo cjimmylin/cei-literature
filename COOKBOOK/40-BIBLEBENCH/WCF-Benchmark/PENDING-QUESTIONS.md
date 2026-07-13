@@ -22,7 +22,11 @@ complete. Paid T3/T4 calls remain separately gated and unauthorized. Jimmy separ
 authorized the exact, shadow-only judge bakeoff recorded in
 `20260712n-shadow-judge-bakeoff-design.md`, with a $1.00 NTE cap; it does not reopen the
 candidate ladder, change the manifest, or authorize any T3/T4 call. Written-spec review
-precedes implementation. There are no unresolved judgment questions in this file.
+preceded implementation. The one authorized run is now immutable and labeled `PARTIAL`:
+all 96 probe repetitions and 56 shadow-verdict attempts were persisted, but reconciliation
+was `UNRECONCILED` because the runner's internal attributed total was $0.69776393843 while
+key-wide usage increased by $5.426614419 during the pre/post interval. All further paid
+calls are frozen pending Jimmy's disposition of the question below.
 
 ## Jimmy authorization received 2026-07-12 — shadow judge bakeoff
 
@@ -40,6 +44,31 @@ precedes implementation. There are no unresolved judgment questions in this file
   8 OPEN + 8 coherence + all 6 compatible disclosure + all 6 compatible settled-core
   units = 56 new shadow verdicts. No incumbent reruns; $1 cap unchanged.
 - **Implementation plan:** `20260712q-shadow-judge-bakeoff-implementation-plan.md`.
+
+## OPEN 2026-07-12 — shadow-run key reconciliation exceeds the authorization ceiling
+
+- **Question:** How should the completed shadow evidence be labeled and used after the
+  one authorized run attributed $0.69776393843 internally but observed a $5.426614419
+  key-wide usage delta over the same interval, causing the immutable run to finalize
+  `PARTIAL / UNRECONCILED`?
+- **Why it blocks:** The full designed evidence exists (96/96 probe repetitions, 56/56
+  verdict/error attempts, 28 selected units at 8/8/6/6), but the key-wide delta exceeded
+  the $1.00 NTE authorization and differs materially from response-level accounting. The
+  run therefore emitted no Pareto candidate and cannot support a production-panel action.
+- **Evidence:**
+  `07-PILOTS/20260712-shadow-judge-bakeoff/shadow-run-metadata.json` and
+  `07-PILOTS/20260712-shadow-judge-bakeoff/20260712-shadow-judge-bakeoff-report.md`.
+  The report is explicitly `SHADOW / NOT A QUALIFICATION MANIFEST`; it records GLM as
+  shadow-eligible on all four surfaces, DeepSeek as shadow-eligible on coherence,
+  disclosure, and settled-core but not OPEN, and no Pareto name.
+- **Suggested default:** Freeze all further paid calls; preserve the run as immutable
+  descriptive shadow evidence labeled `PARTIAL / UNRECONCILED`; do not attribute the
+  unexplained key delta, name a winner, change the panel/manifest/ladder/T4 plan, or reuse
+  this authorization unless Jimmy rules in writing.
+- **Execution status:** One live invocation only; no rerun or resume. Internal attributed
+  costs were $0.31201990142 for GLM and $0.38574403701 for DeepSeek ($0.69776393843 total).
+  Key usage moved from $1415.943795768 to $1421.370410187 (delta $5.426614419), with
+  $78.629589813 limit remaining after the interval. No new Gemini/Grok calls occurred.
 
 ## Rulings received 2026-07-11
 

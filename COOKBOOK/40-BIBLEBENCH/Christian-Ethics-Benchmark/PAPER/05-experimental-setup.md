@@ -135,16 +135,16 @@ cross-family panel and a separate classifier — costs *tens of dollars*, not hu
 thousands. We regard this affordability, at this scale and coverage, as a finding the paper
 may assert.
 
-**Exploratory MVP-A1 (stopped snapshot).** In a separately registered lane, we fixed 60
-PUBLIC items and three inexpensive SUTs. All 180 registered item×SUT executions were
-persisted. A bounded exact-unit replay repaired the first malformed GPT-4.1 Nano judgment
-while retaining its original defect, and Judge 1 advanced to 63 verdict records / 163
-logical units. The run then stopped fail-closed when attempt 915 returned HTTP 200 without
-provider cost metadata; that response was neither accepted nor scored. The Meta production
-judge phase was never called. Conservative exposure including the unresolved attempt is
-\$0.435144563. We therefore report no MVP judge-derived statistics. **Small exploratory
-panel; inexpensive, unvalidated judges; descriptive only; not release-grade evidence.**
-<!-- source: 00-PORTFOLIO/20260713-mvp-a1-pr20-replay-pr21-custody-stop-report.md -->
+**Exploratory MVP-A1.** In a separately registered lane, we fixed 60 PUBLIC items, three
+inexpensive SUTs, and two inexpensive cross-family judges. The completed snapshot contains
+180/180 item×SUT executions and 480/480 logical units from each judge. All 1,715 attempts
+have paired custody finishes; conservative exposure was \$0.551363883 under a \$5.00 NTE.
+One malformed GPT-4.1 Nano unit required its single authorized exact replay. Three nominal
+HTTP-200 responses lacked provider cost metadata; each was discarded, booked at the
+registered maximum without returned-model/token claims, and recovered by one exact-payload
+retry. **Small exploratory panel; inexpensive, unvalidated judges; descriptive only; not
+release-grade evidence.**
+<!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-analysis.md §1 -->
 
 ## 5.5 Capability battery
 

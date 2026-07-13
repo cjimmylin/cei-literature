@@ -1,0 +1,30 @@
+<!-- WALKWORTHY-CANARY-7f3e2026 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">MVP-A1 registered execution and custody completeness</title>
+  <desc id="desc">All executions and both judge surfaces completed; 1715 of 1834 authorized attempts used and 0.5514 of 5 dollars booked.</desc>
+  <rect width="900" height="430" fill="#ffffff"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">MVP-A1 execution and custody completeness</text>
+  <text x="40" y="68" font-family="Arial, sans-serif" font-size="13" fill="#566176">Small exploratory panel · inexpensive, unvalidated judges · descriptive only</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#172033">
+    <text x="40" y="122">PUBLIC item×SUT executions</text>
+    <text x="40" y="182">OpenAI judge logical units</text>
+    <text x="40" y="242">Meta judge logical units</text>
+    <text x="40" y="302">Authorized attempt envelope</text>
+    <text x="40" y="362">Hard NTE exposure</text>
+  </g>
+  <g>
+    <rect x="270" y="100" width="560" height="26" rx="5" fill="#e8edf5"/><rect x="270" y="100" width="560" height="26" rx="5" fill="#2a9d8f"/>
+    <rect x="270" y="160" width="560" height="26" rx="5" fill="#e8edf5"/><rect x="270" y="160" width="560" height="26" rx="5" fill="#2a9d8f"/>
+    <rect x="270" y="220" width="560" height="26" rx="5" fill="#e8edf5"/><rect x="270" y="220" width="560" height="26" rx="5" fill="#2a9d8f"/>
+    <rect x="270" y="280" width="560" height="26" rx="5" fill="#e8edf5"/><rect x="270" y="280" width="524" height="26" rx="5" fill="#457b9d"/>
+    <rect x="270" y="340" width="560" height="26" rx="5" fill="#e8edf5"/><rect x="270" y="340" width="62" height="26" rx="5" fill="#e9a23b"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end" fill="#172033">
+    <text x="820" y="119">180 / 180</text>
+    <text x="820" y="179">480 / 480</text>
+    <text x="820" y="239">480 / 480</text>
+    <text x="820" y="299">1,715 / 1,834</text>
+    <text x="820" y="359">$0.5514 / $5.00</text>
+  </g>
+  <text x="40" y="408" font-family="Arial, sans-serif" font-size="12" fill="#566176">All 1,715 attempt starts have paired finishes; HOLDOUT never loaded; no model substitution.</text>
+</svg>

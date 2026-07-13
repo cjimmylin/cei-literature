@@ -196,16 +196,23 @@ class AttemptLedger:
     """
 
     def __init__(self, path, hard_nte_usd: float = HARD_NTE_USD,
-                 max_attempts: int = MAX_ATTEMPTS):
+                 max_attempts: int = MAX_ATTEMPTS,
+                 authorized_unresolved_attempt: Optional[int] = None):
         self.path = Path(path)
         self.hard_nte_usd = float(hard_nte_usd)
         self.max_attempts = int(max_attempts)
+        self.authorized_unresolved_attempt = authorized_unresolved_attempt
         if self.hard_nte_usd > HARD_NTE_USD + 1e-12:
             raise ValueError("MVP hard NTE cannot exceed authorized $5.00")
         if self.max_attempts > MAX_ATTEMPTS:
             raise ValueError("MVP call cap cannot exceed authorized 1,834")
         if self.hard_nte_usd <= 0 or self.max_attempts <= 0:
             raise ValueError("MVP caps must be positive")
+        if (authorized_unresolved_attempt is not None
+                and (not isinstance(authorized_unresolved_attempt, int)
+                     or isinstance(authorized_unresolved_attempt, bool)
+                     or authorized_unresolved_attempt < 1)):
+            raise ValueError("invalid authorized unresolved MVP attempt")
         self._starts: dict[int, dict] = {}
         self._finishes: dict[int, dict] = {}
         self._load()
@@ -242,11 +249,15 @@ class AttemptLedger:
         if set(self._starts) != expected:
             raise ValueError("MVP attempt ids are not contiguous")
         unresolved = sorted(set(self._starts) - set(self._finishes))
-        if unresolved:
+        if (unresolved
+                and unresolved != [self.authorized_unresolved_attempt]):
             raise ContractStop(f"MVP unresolved attempt(s) on resume: {unresolved}")
         for attempt_id in sorted(self._starts):
-            self._validate_persisted_pair(
-                self._starts[attempt_id], self._finishes[attempt_id])
+            if attempt_id in self._finishes:
+                self._validate_persisted_pair(
+                    self._starts[attempt_id], self._finishes[attempt_id])
+            else:
+                self._validate_persisted_start(self._starts[attempt_id])
         if self.actual_usd > self.hard_nte_usd + 1e-12:
             raise ContractStop("invalid persisted attempt ledger: spend exceeds hard NTE")
 
@@ -261,22 +272,13 @@ class AttemptLedger:
         return next((spec for spec in groups.get(role, ()) if spec.slug == model), None)
 
     @classmethod
-    def _validate_persisted_pair(cls, start: dict, finish: dict) -> None:
+    def _validate_persisted_start(cls, start: dict) -> ModelSpec:
         start_fields = {
             "event", "attempt_id", "requested_model", "role", "max_call_usd",
             "payload_sha256",
         }
-        finish_fields = {
-            "event", "attempt_id", "requested_model", "returned_model", "role",
-            "status", "actual_usd", "cost_basis", "prompt_tokens",
-            "completion_tokens",
-        }
-        if set(start) != start_fields or set(finish) != finish_fields:
+        if set(start) != start_fields:
             raise ContractStop("invalid persisted attempt field set")
-        if (finish["attempt_id"] != start["attempt_id"]
-                or finish["requested_model"] != start["requested_model"]
-                or finish["role"] != start["role"]):
-            raise ContractStop("invalid persisted attempt identity")
         spec = cls._role_spec(start["role"], start["requested_model"])
         if spec is None:
             raise ContractStop("invalid persisted attempt model/role")
@@ -289,6 +291,22 @@ class AttemptLedger:
         if (not isinstance(payload_hash, str)
                 or re.fullmatch(r"[0-9a-f]{64}", payload_hash) is None):
             raise ContractStop("invalid persisted attempt payload hash")
+        return spec
+
+    @classmethod
+    def _validate_persisted_pair(cls, start: dict, finish: dict) -> None:
+        finish_fields = {
+            "event", "attempt_id", "requested_model", "returned_model", "role",
+            "status", "actual_usd", "cost_basis", "prompt_tokens",
+            "completion_tokens",
+        }
+        if set(finish) != finish_fields:
+            raise ContractStop("invalid persisted attempt field set")
+        spec = cls._validate_persisted_start(start)
+        if (finish["attempt_id"] != start["attempt_id"]
+                or finish["requested_model"] != start["requested_model"]
+                or finish["role"] != start["role"]):
+            raise ContractStop("invalid persisted attempt identity")
         status = finish["status"]
         if status is not None and (not isinstance(status, int) or isinstance(status, bool)
                                    or status < 100 or status > 599):
@@ -304,19 +322,65 @@ class AttemptLedger:
         returned = finish["returned_model"]
         if returned is not None and not isinstance(returned, str):
             raise ContractStop("invalid persisted attempt returned model")
-        if status == 200:
+        basis = finish["cost_basis"]
+        if basis == "reported" and status == 200:
             model_match = (
                 isinstance(returned, str)
                 and (returned == spec.slug or returned.startswith(spec.slug + "-"))
             )
             if not model_match:
                 raise ContractStop("invalid persisted attempt returned model substitution")
-        basis = finish["cost_basis"]
         if basis == "reported":
+            return
+        if basis == "reserved_max_on_missing_cost":
+            if (status != 200 or returned is not None
+                    or finish["prompt_tokens"] != 0
+                    or finish["completion_tokens"] != 0
+                    or abs(float(actual) - spec.max_call_usd) > 1e-12):
+                raise ContractStop("invalid persisted missing-cost finish")
             return
         if (basis != "reserved_max_on_unknown_failure" or status == 200
                 or abs(float(actual) - spec.max_call_usd) > 1e-12):
             raise ContractStop("invalid persisted attempt cost basis")
+
+    @staticmethod
+    def _payload_sha256(payload: dict) -> str:
+        payload_bytes = json.dumps(
+            payload, ensure_ascii=False, sort_keys=True,
+            separators=(",", ":"),
+        ).encode("utf-8")
+        return hashlib.sha256(payload_bytes).hexdigest()
+
+    def _missing_cost_history(self, model: str, role: str) -> dict[str, list[int]]:
+        history: dict[str, list[int]] = {}
+        for attempt_id in sorted(self._starts):
+            start = self._starts[attempt_id]
+            finish = self._finishes.get(attempt_id)
+            if (start["requested_model"] == model and start["role"] == role
+                    and finish is not None
+                    and finish.get("cost_basis") == "reserved_max_on_missing_cost"):
+                history.setdefault(start["payload_sha256"], []).append(attempt_id)
+        return history
+
+    def _check_missing_cost_retry(self, model: str, role: str,
+                                  payload_sha256: str) -> None:
+        history = self._missing_cost_history(model, role)
+        pending = []
+        for prior_hash, missing_attempts in history.items():
+            first_missing = missing_attempts[0]
+            later_attempts = [
+                attempt_id for attempt_id, start in self._starts.items()
+                if attempt_id > first_missing
+                and start["requested_model"] == model
+                and start["role"] == role
+                and start["payload_sha256"] == prior_hash
+            ]
+            if not later_attempts:
+                pending.append(prior_hash)
+            if prior_hash == payload_sha256 and later_attempts:
+                raise ContractStop("MVP missing-cost retry exhausted for payload")
+        if pending and payload_sha256 not in pending:
+            raise ContractStop("MVP missing-cost retry requires identical payload")
 
     @property
     def actual_usd(self) -> float:
@@ -360,6 +424,8 @@ class AttemptLedger:
 
     def begin(self, model: str, role: str, max_call_usd: float,
               payload: dict) -> int:
+        payload_sha256 = self._payload_sha256(payload)
+        self._check_missing_cost_retry(model, role, payload_sha256)
         if len(self._starts) >= self.max_attempts:
             raise BudgetStop(
                 f"MVP-A1 call envelope exhausted ({self.max_attempts} attempts)")
@@ -368,21 +434,43 @@ class AttemptLedger:
             raise BudgetStop(
                 f"MVP-A1 hard NTE ${self.hard_nte_usd:.2f} would be exceeded")
         attempt_id = len(self._starts) + 1
-        payload_bytes = json.dumps(
-            payload, ensure_ascii=False, sort_keys=True,
-            separators=(",", ":"),
-        ).encode("utf-8")
         event = {
             "event": "attempt_started",
             "attempt_id": attempt_id,
             "requested_model": model,
             "role": role,
             "max_call_usd": float(max_call_usd),
-            "payload_sha256": hashlib.sha256(payload_bytes).hexdigest(),
+            "payload_sha256": payload_sha256,
         }
         _append_jsonl(self.path, event)
         self._starts[attempt_id] = event
         return attempt_id
+
+    def finish_missing_cost(self, attempt_id: int) -> int:
+        """Append PR-21's unusable HTTP-200 finish without response claims."""
+        if attempt_id not in self._starts:
+            raise ValueError(f"unknown MVP attempt: {attempt_id}")
+        if attempt_id in self._finishes:
+            raise ValueError(f"MVP attempt already finished: {attempt_id}")
+        start = self._starts[attempt_id]
+        event = {
+            "event": "attempt_finished",
+            "attempt_id": attempt_id,
+            "requested_model": start["requested_model"],
+            "returned_model": None,
+            "role": start["role"],
+            "status": 200,
+            "actual_usd": float(start["max_call_usd"]),
+            "cost_basis": "reserved_max_on_missing_cost",
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+        }
+        self._validate_persisted_pair(start, event)
+        _append_jsonl(self.path, event)
+        self._finishes[attempt_id] = event
+        return len(self._missing_cost_history(
+            start["requested_model"], start["role"]
+        ).get(start["payload_sha256"], []))
 
     def finish(self, attempt_id: int, status: Optional[int], response: dict) -> None:
         if attempt_id not in self._starts:
@@ -431,28 +519,38 @@ def guarded_transport(base_transport, ledger: AttemptLedger,
                 or payload.get("max_tokens") != spec.max_tokens
                 or payload.get("provider") != spec.provider_prefs):
             raise ContractStop(f"MVP payload contract mismatch for {spec.slug}")
-        attempt = ledger.begin(
-            model=spec.slug, role=role,
-            max_call_usd=spec.max_call_usd, payload=payload)
-        try:
-            status, response = base_transport(
-                url, headers, payload, timeout=timeout)
-        except Exception as exc:
-            ledger.finish(attempt, None, {"error": type(exc).__name__, "usage": {}})
-            raise
-        ledger.finish(attempt, status, response)
-        if status == 200:
-            returned_model = response.get("model") if isinstance(response, dict) else None
-            model_match = (
-                isinstance(returned_model, str)
-                and (returned_model == spec.slug
-                     or returned_model.startswith(spec.slug + "-"))
-            )
-            if not model_match:
-                raise ContractStop(
-                    f"MVP returned model substitution for {spec.slug}: "
-                    f"{returned_model!r}")
-        return status, response
+        while True:
+            attempt = ledger.begin(
+                model=spec.slug, role=role,
+                max_call_usd=spec.max_call_usd, payload=payload)
+            try:
+                status, response = base_transport(
+                    url, headers, payload, timeout=timeout)
+            except Exception as exc:
+                ledger.finish(attempt, None, {"error": type(exc).__name__, "usage": {}})
+                raise
+            usage = response.get("usage") if isinstance(response, dict) else None
+            if status == 200 and (not isinstance(usage, dict)
+                                  or usage.get("cost") is None):
+                missing_count = ledger.finish_missing_cost(attempt)
+                if missing_count >= 2:
+                    raise ContractStop(
+                        f"MVP second missing usage.cost for {spec.slug}")
+                continue
+            ledger.finish(attempt, status, response)
+            if status == 200:
+                returned_model = (response.get("model")
+                                  if isinstance(response, dict) else None)
+                model_match = (
+                    isinstance(returned_model, str)
+                    and (returned_model == spec.slug
+                         or returned_model.startswith(spec.slug + "-"))
+                )
+                if not model_match:
+                    raise ContractStop(
+                        f"MVP returned model substitution for {spec.slug}: "
+                        f"{returned_model!r}")
+            return status, response
     return transport
 
 

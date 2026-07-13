@@ -59,3 +59,14 @@ Second-tradition instantiation (the C4 test); independent human raters replacing
 single-labeler protocol; contested-tier expansion with in-tradition user studies;
 cross-design area triangulation (pre-specified exploratory in the master plan);
 next-cycle gate amendments already filed (G6 for constant-key designs).
+
+## 7.4 Exploratory MVP preview (licensed by the Jimmy-ratified MVP amendment)
+
+The cheap-panel run established execution feasibility across all ten methods at low cost,
+but it did not convert cheap judges into ground truth. Exact rubric-cell agreement varied
+substantially by design, and registered exclusions made several primary cells unavailable.
+The useful next evidence is therefore not a wider paid model panel: it is the already-frozen
+human-label surface that can validate or reject the judge-dependent rows. This is a
+paper-design observation, not a model-performance conclusion.
+<!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-analysis.md §3 -->
+<!-- source: 00-PORTFOLIO/20260713b-mvp-a1-postrun-scaling-memo.md -->

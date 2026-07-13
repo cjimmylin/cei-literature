@@ -67,14 +67,15 @@ never loaded, quoted, or otherwise surfaced in this paper or in any released art
 - **Checkpoint / resume.** Panel runs checkpoint per cell and resume idempotently, so an
   interrupted run reproduces the same records on restart
   <!-- source: 20260712-fable-codex-full-handoff.md §2 -->.
-- **Fail-closed MVP custody.** The stopped MVP-A1 snapshot retains the exact 60-item PUBLIC
-  manifest, 180/180 SUT executions, 63 base Judge-1 verdict records, the original malformed
-  verdict, and its successful exact-unit replay in a separate append-only ledger. Attempt
-  915 has a durable start but no finish because its HTTP-200 response omitted cost metadata;
-  it produced no verdict. The absent Meta pass is explicit, and no missing verdict or cost
-  was inferred or backfilled. **Small exploratory panel; inexpensive, unvalidated judges;
+- **Fail-closed MVP custody.** The completed MVP-A1 snapshot retains the exact 60-item
+  PUBLIC manifest, 180/180 SUT executions, 360 verdict records, 480 logical units per
+  judge, the original malformed verdict, and its successful exact-unit replay in a
+  separate append-only ledger. All 1,715 attempt starts have paired finishes. Three
+  HTTP-200 responses without cost metadata are recorded as unusable at their registered
+  maxima with no model/token claims; each exact-payload retry succeeded. No missing score
+  or cost was inferred. **Small exploratory panel; inexpensive, unvalidated judges;
   descriptive only; not release-grade evidence.**
-  <!-- source: 00-PORTFOLIO/20260713-mvp-a1-pr20-replay-pr21-custody-stop-report.md -->
+  <!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-analysis.md §1 -->
 - **Immutable, dated provenance.** Every reported number traces to a **dated, immutable
   report file**; reports are never overwritten or regenerated in place, and new results are
   written to new dated files <!-- source: 20260712-fable-codex-full-handoff.md §7 -->.

@@ -37,8 +37,45 @@ _OPAQUE_HEX = re.compile(r"(?:[0-9a-f]{16}|[0-9a-f]{64})")
 _MAX_VISIBLE_DEPTH = 128
 _CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
-_LATER_SCOPE_EXACT_KEYS = frozenset(
-    {"lensid", "interventionid", "physicalid", "physicalattemptid", "attemptid"}
+_IDENTIFIER_KEY_FORMS = ("id", "ids", "identifier", "identifiers")
+_SEALED_NAMESPACE_FORMS = (
+    "lens",
+    "lenses",
+    "intervention",
+    "interventions",
+    "provider",
+    "providers",
+    "route",
+    "routes",
+)
+_PHYSICAL_QUALIFIER_FORMS = (
+    *_IDENTIFIER_KEY_FORMS,
+    "call",
+    "calls",
+    "attempt",
+    "attempts",
+)
+_SEALED_NORMALIZED_KEYS = frozenset(
+    set(_SEALED_NAMESPACE_FORMS)
+    | {
+        f"{namespace}{qualifier}"
+        for namespace in _SEALED_NAMESPACE_FORMS
+        for qualifier in _IDENTIFIER_KEY_FORMS
+    }
+    | {
+        f"physical{qualifier}"
+        for qualifier in _PHYSICAL_QUALIFIER_FORMS
+    }
+    | {
+        f"physical{attempt}{identifier}"
+        for attempt in ("attempt", "attempts")
+        for identifier in _IDENTIFIER_KEY_FORMS
+    }
+    | {
+        f"{attempt}{identifier}"
+        for attempt in ("attempt", "attempts")
+        for identifier in _IDENTIFIER_KEY_FORMS
+    }
 )
 _IDENTIFIER_COMPONENTS = frozenset({"id", "identifier"})
 _ACTOR_METADATA_KEYS = frozenset({"role"})
@@ -54,6 +91,7 @@ _NAMESPACE_COMPONENT_ALIASES = {
     "ids": "id",
     "identifiers": "identifier",
     "attempts": "attempt",
+    "calls": "call",
 }
 _BLIND_FORECAST_COMPONENTS = frozenset(
     {
@@ -303,7 +341,7 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
         provider = "provider" in namespace_components
         route = "route" in namespace_components
         if (
-            normalized in _LATER_SCOPE_EXACT_KEYS
+            normalized in _SEALED_NORMALIZED_KEYS
             or lens_or_intervention
             or provider
             or (route and normalized not in _ALLOWED_TASK_ROUTE_KEYS)

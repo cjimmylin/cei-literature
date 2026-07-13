@@ -49,13 +49,12 @@ _BENIGN_PROTECTED_OCCURRENCES = {
     "gold": (("golden", 0), ("marigold", 4), ("goldfish", 0)),
     "intervention": (("interventional", 0),),
     "lens": (("lensing", 0), ("glens", 1)),
-    "lenses": (("glens", 1),),
     "model": (("modeling", 0), ("remodel", 2)),
     "provider": (("providership", 0),),
     "providers": (("providership", 0),),
     "role": (("parole", 2),),
     "route": (("reroute", 2), ("enroute", 2)),
-    "routes": (("reroute", 2), ("enroute", 2)),
+    "routes": (("reroutesummary", 2), ("enroutestatus", 2)),
     "schedule": (("reschedule", 2),),
 }
 _LATER_NAMESPACE_TOKENS = frozenset(
@@ -312,7 +311,13 @@ def _protected_occurrence_is_benign(
 ) -> bool:
     for context, offset in _BENIGN_PROTECTED_OCCURRENCES.get(protected, ()):
         context_start = start - offset
-        if context_start >= 0 and normalized.startswith(context, context_start):
+        protected_end = start + len(protected)
+        context_end = context_start + len(context)
+        if (
+            context_start >= 0
+            and protected_end <= context_end
+            and normalized.startswith(context, context_start)
+        ):
             return True
     return False
 

@@ -394,6 +394,34 @@ def test_payload_rejects_protected_metadata_with_unregistered_affixes(
 @pytest.mark.parametrize(
     "protected_key",
     [
+        "glensesid",
+        "glensessecret",
+        "prefixglensesidsuffix",
+        "reroutesid",
+        "reroutestoken",
+        "prefixreroutesidsuffix",
+        "enroutesid",
+        "enroutestoken",
+        "prefixenroutesidsuffix",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_rejects_protected_token_extending_past_benign_context(
+    protected_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {protected_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "protected_key",
+    [
         "cuecode",
         "conditionarm",
         "schedulehash",

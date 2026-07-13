@@ -410,6 +410,27 @@ def test_post_emission_accounting_stop_checkpoints_paid_cell_and_reason(tmp_path
     assert len(raw) == 2
 
 
+def test_report_status_uses_current_stop_and_allows_explicit_complete_resume(tmp_path):
+    outcome, resumed, _raw, catalog = _run_post_emission_stop(
+        tmp_path, "BudgetExceeded")
+    total = episode_run.checkpoint_attributed_cost(outcome.records, catalog)
+
+    stopped_report = episode_run.build_report(
+        outcome.records, expected_cells=1, attributed_cost_usd=total,
+        run_complete=outcome.done)
+    inferred_report = episode_run.build_report(
+        outcome.records, expected_cells=1, attributed_cost_usd=total)
+    resumed_report = episode_run.build_report(
+        resumed.records, expected_cells=1, attributed_cost_usd=total,
+        run_complete=resumed.done)
+
+    assert outcome.done is False
+    assert "Status: **PARTIAL**" in stopped_report
+    assert "Status: **PARTIAL**" in inferred_report
+    assert resumed.done is True
+    assert "Status: **COMPLETE**" in resumed_report
+
+
 def test_exact_88_cells_are_scored_or_error_recorded(tmp_path):
     plan = episode_run.build_execution_plan()
     clients = {sut: OneShotSUT("no action array") for sut in EXPECTED_SUTS}

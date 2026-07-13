@@ -518,7 +518,8 @@ def run_execution(plan: Sequence[EpisodePlanCell], sut_clients: Dict[str, Any],
 def build_report(records: Sequence[Dict[str, Any]], *, expected_cells: int,
                  attributed_cost_usd: float,
                  key_before: Optional[Dict[str, Any]] = None,
-                 key_after: Optional[Dict[str, Any]] = None) -> str:
+                 key_after: Optional[Dict[str, Any]] = None,
+                 run_complete: Optional[bool] = None) -> str:
     """Render the T3 descriptive report from the full checkpoint state."""
     records = list(records)
     comparisons = Counter(
@@ -535,8 +536,11 @@ def build_report(records: Sequence[Dict[str, Any]], *, expected_cells: int,
     )
     fallback_sources = accounting_fallback_sources(records)
     fallback_count = sum(fallback_sources.values())
-    complete = (len(records) == expected_cells
-                and all(record.get("status") in {"scored", "error"} for record in records))
+    complete = (bool(run_complete) if run_complete is not None else
+                len(records) == expected_cells
+                and all(record.get("status") in {"scored", "error"}
+                        for record in records)
+                and not any(record.get("stop") for record in records))
     scored_count = sum(record.get("status") == "scored" for record in records)
     error_count = sum(record.get("status") == "error" for record in records)
     before_usage = (key_before or {}).get("usage")
@@ -858,6 +862,7 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
         outcome.records, expected_cells=len(plan),
         attributed_cost_usd=attributed_cost,
         key_before=key_before, key_after=key_after,
+        run_complete=outcome.done,
     )
     report_path = _next_artifact_path(run_dir, "episode-report.md")
     metadata_path = _next_artifact_path(run_dir, "run-metadata.json")

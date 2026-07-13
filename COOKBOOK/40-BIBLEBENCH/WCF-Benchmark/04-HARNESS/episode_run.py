@@ -74,6 +74,9 @@ JUDGE_ROSTER = (
 )
 MAX_BUDGET_USD = 10.0
 MISSING_USAGE_FALLBACK_SOURCE = "catalog_ceiling_missing_response_usage"
+RUN_IDENTITY_FILENAME = "t3-run-identity.json"
+RAW_EVIDENCE_FILENAME = "raw-evidence.jsonl"
+RUN_IDENTITY_ARTIFACT_KIND = "WCF-Bench T3 EPISODE / DESCRIPTIVE PRE-GATE"
 
 # R54 entries whose forbidden-marker lists are calibration/advisory surfaces,
 # while the actual defection is a decision/structure. Marker hits stay flags.
@@ -369,7 +372,7 @@ class EvidenceClient:
             fallback_accounting = None
             if entries and self._usable_usage(entries):
                 self._accounting_log.extend(entries)
-            elif entries:
+            else:
                 self._accounting_log.append(fallback)
                 fallback_accounting = fallback
             self._write(
@@ -733,6 +736,43 @@ def prepare_output_dir(path: str, *, resume: bool) -> str:
     return absolute
 
 
+def build_run_identity(plan: Sequence[EpisodePlanCell]) -> Dict[str, Any]:
+    """Return the exact immutable identity/configuration of a T3 run."""
+    return {
+        "schema_version": 1,
+        "artifact_kind": RUN_IDENTITY_ARTIFACT_KIND,
+        "plan_cell_keys": [f"{cell.item.id}::{cell.sut}" for cell in plan],
+        "manifest_of_record": os.path.relpath(MANIFEST_PATH, PROJECT),
+        "suts": list(SUT_SLUGS),
+        "judges": [list(row) for row in JUDGE_ROSTER],
+        "budget_usd": MAX_BUDGET_USD,
+        "expected_cells": len(plan),
+    }
+
+
+def validate_resume_identity(run_dir: str,
+                             plan: Sequence[EpisodePlanCell]) -> None:
+    """Fail closed unless a resume is the exact T3 run with raw evidence."""
+    identity_path = os.path.join(run_dir, RUN_IDENTITY_FILENAME)
+    if not os.path.isfile(identity_path):
+        raise OutputPathError(
+            f"--resume requires an existing T3 run identity: {identity_path}")
+    try:
+        with open(identity_path, encoding="utf-8") as handle:
+            identity = json.load(handle)
+    except (OSError, json.JSONDecodeError) as exc:
+        raise OutputPathError(
+            f"--resume T3 run identity is unreadable or malformed: {identity_path}"
+        ) from exc
+    if identity != build_run_identity(plan):
+        raise OutputPathError(
+            "--resume T3 run identity does not match the requested plan/configuration")
+    raw_path = os.path.join(run_dir, RAW_EVIDENCE_FILENAME)
+    if not os.path.isfile(raw_path):
+        raise OutputPathError(
+            f"--resume requires the T3 raw-evidence surface: {raw_path}")
+
+
 def _next_artifact_path(run_dir: str, filename: str) -> str:
     """Choose an absent name so a resume never overwrites earlier report/metadata."""
     base = os.path.join(run_dir, filename)
@@ -802,6 +842,7 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
         # Validate the append-only destination before any remote metadata request.
         if resume:
             run_dir = prepare_output_dir(output_dir, resume=True)
+            validate_resume_identity(run_dir, plan)
         else:
             absolute = os.path.abspath(output_dir)
             if not re.match(r"^\d{8}-", os.path.basename(absolute)):
@@ -816,11 +857,15 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
         validate_live_catalog(catalog)
         if not resume:
             run_dir = prepare_output_dir(run_dir, resume=False)
+            _write_json_new(
+                os.path.join(run_dir, RUN_IDENTITY_FILENAME),
+                build_run_identity(plan),
+            )
     except Exception as exc:
         print(f"ERROR: preflight failed: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 2
 
-    sink = JsonlSink(os.path.join(run_dir, "raw-evidence.jsonl"))
+    sink = JsonlSink(os.path.join(run_dir, RAW_EVIDENCE_FILENAME))
     sink.touch()
     prior_records = list(mvp.load_checkpoint(run_dir).values())
     prior_cost = checkpoint_attributed_cost(prior_records, catalog)

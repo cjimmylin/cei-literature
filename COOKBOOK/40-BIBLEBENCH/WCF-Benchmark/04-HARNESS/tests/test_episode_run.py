@@ -492,6 +492,120 @@ class MissingUsageResponseClient:
         return self.response
 
 
+class ZeroUsageTransportClient:
+    def __init__(self, model, events, max_tokens=7):
+        self.model = model
+        self.system = None
+        self.max_tokens = max_tokens
+        self.events = list(events)
+        self.usage_log = []
+        self.calls = 0
+        self.last_finish_reason = None
+        self.last_truncated = False
+
+    def complete(self, _prompt, item_id=None):
+        self.calls += 1
+        event = self.events.pop(0)
+        if isinstance(event, Exception):
+            raise event
+        self.last_finish_reason = "stop"
+        self.usage_log.append({
+            "item_id": item_id, "model": self.model,
+            "usage": {"prompt_tokens": 10, "completion_tokens": 5,
+                      "total_tokens": 15, "cost": 0.25},
+            "finish_reason": "stop",
+        })
+        return event
+
+
+def _run_zero_usage_transport(tmp_path, events, *, budget=10.0,
+                              prompt_price="0.000001",
+                              completion_price="0.000002", max_tokens=7):
+    cell = _planned_cell("NARROW-C1-W301")
+    raw_path = tmp_path / "raw-evidence.jsonl"
+    sink = JsonlSink(str(raw_path))
+    sink.touch()
+    catalog = {
+        cell.sut: {"pricing": {
+            "prompt": prompt_price, "completion": completion_price}}
+    }
+    guard = BudgetGuard(budget, catalog)
+    inner = ZeroUsageTransportClient(cell.sut, events, max_tokens=max_tokens)
+    sut = episode_run.EvidenceClient(
+        inner, role="sut", name=cell.sut, slug=cell.sut,
+        guard=guard, sink=sink, now=lambda: "2026-07-13T00:00:00")
+    sleeps = []
+    outcome = episode_run.run_execution(
+        [cell], {cell.sut: sut}, RecordingPanel(0.0), str(tmp_path),
+        sleeper=sleeps.append)
+    raw = [json.loads(line) for line in raw_path.read_text().splitlines()]
+    ceiling = episode_run.mvp.cell_cost(
+        len(cell.item.stem.encode("utf-8")), max_tokens,
+        episode_run.mvp.price_for(cell.sut, catalog),
+    )
+    return inner, guard, outcome, raw, catalog, ceiling, sleeps
+
+
+def test_zero_usage_transport_retry_accounts_ceiling_then_success_actual(tmp_path):
+    error = OpenRouterError("OpenRouter HTTP 429 rate limited")
+    inner, guard, outcome, raw, catalog, ceiling, sleeps = _run_zero_usage_transport(
+        tmp_path, [error, "no action array"])
+    record = outcome.records[0]
+
+    assert inner.calls == 2 and sleeps == [0.75]
+    assert outcome.completed == 1
+    assert [call["usage"].get("accounting_source")
+            for call in record["usage"]["calls"]] == [
+                "catalog_ceiling_missing_response_usage", None]
+    assert record["usage"]["calls"][0]["usage"]["authoritative"] is False
+    assert raw[0]["usage"] == []
+    assert raw[0]["fallback_accounting"]["usage"]["fallback_cost_usd"] == pytest.approx(
+        ceiling)
+    assert episode_run.checkpoint_attributed_cost(outcome.records, catalog) == pytest.approx(
+        ceiling + 0.25)
+    assert guard.total_usd() == pytest.approx(ceiling + 0.25)
+
+
+def test_two_zero_usage_transport_failures_checkpoint_two_ceilings(tmp_path):
+    errors = [
+        OpenRouterError("OpenRouter HTTP 429 first"),
+        OpenRouterError("OpenRouter HTTP 429 second"),
+    ]
+    inner, guard, outcome, raw, catalog, ceiling, sleeps = _run_zero_usage_transport(
+        tmp_path, errors)
+    record = outcome.records[0]
+
+    assert inner.calls == 2 and sleeps == [0.75]
+    assert outcome.errored == 1 and record["status"] == "error"
+    assert len(record["usage"]["calls"]) == 2
+    assert all(call["usage"]["accounting_source"] ==
+               "catalog_ceiling_missing_response_usage"
+               for call in record["usage"]["calls"])
+    assert all(row["fallback_accounting"]["usage"]["authoritative"] is False
+               for row in raw)
+    assert episode_run.checkpoint_attributed_cost(outcome.records, catalog) == pytest.approx(
+        2 * ceiling)
+    assert guard.total_usd() == pytest.approx(2 * ceiling)
+
+
+def test_zero_usage_first_failure_can_block_retry_at_budget_ceiling(tmp_path):
+    error = OpenRouterError("OpenRouter HTTP 429 rate limited")
+    inner, guard, outcome, raw, catalog, ceiling, sleeps = _run_zero_usage_transport(
+        tmp_path, [error, "would be a second paid call"], budget=1.0,
+        prompt_price="0", completion_price="0.1", max_tokens=6)
+    record = outcome.records[0]
+
+    assert ceiling == pytest.approx(0.6)
+    assert inner.calls == 1 and sleeps == [0.75]
+    assert outcome.budget_hit is True
+    assert record["stop"]["class"] == "BudgetExceeded"
+    assert len(record["usage"]["calls"]) == 1
+    assert episode_run.checkpoint_attributed_cost(outcome.records, catalog) == pytest.approx(
+        ceiling)
+    assert guard.total_usd() == pytest.approx(ceiling)
+    assert len(raw) == 1
+
+
 def _run_real_missing_usage_stop(tmp_path, mode):
     cell = _planned_cell("NARROW-C1-W301")
     raw_path = tmp_path / "raw-evidence.jsonl"
@@ -833,6 +947,72 @@ def test_output_path_must_be_new_and_dated_unless_explicit_resume(tmp_path):
     episode_run.prepare_output_dir(str(dated), resume=True)
 
 
+def _resume_rejection_probe(output, plan, monkeypatch):
+    touched = []
+
+    def remote_or_client(*_args, **_kwargs):
+        touched.append("called")
+        raise AssertionError("resume identity must fail before remote/client access")
+
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-key-never-sent")
+    code = episode_run._run_live(
+        plan, str(output), resume=True,
+        client_factory=remote_or_client,
+        catalog_fetch=remote_or_client,
+        key_fetch=remote_or_client,
+    )
+    return code, touched
+
+
+def test_resume_rejects_unrelated_checkpoint_without_t3_identity_before_preflight(
+        tmp_path, monkeypatch, capsys):
+    output = tmp_path / "20260713-unrelated-run"
+    output.mkdir()
+    (output / "checkpoint.jsonl").write_text('{}\n')
+    (output / "raw-evidence.jsonl").write_text("")
+
+    code, touched = _resume_rejection_probe(
+        output, episode_run.build_execution_plan()[:1], monkeypatch)
+
+    assert code == 2
+    assert touched == []
+    assert "identity" in capsys.readouterr().err.lower()
+
+
+def test_resume_rejects_mismatched_t3_identity_before_preflight(
+        tmp_path, monkeypatch, capsys):
+    output = tmp_path / "20260713-mismatched-t3-run"
+    output.mkdir()
+    plan = episode_run.build_execution_plan()[:1]
+    identity = episode_run.build_run_identity(plan)
+    identity["budget_usd"] = 9.0
+    (output / "checkpoint.jsonl").write_text('{}\n')
+    (output / "raw-evidence.jsonl").write_text("")
+    (output / "t3-run-identity.json").write_text(json.dumps(identity))
+
+    code, touched = _resume_rejection_probe(output, plan, monkeypatch)
+
+    assert code == 2
+    assert touched == []
+    assert "identity" in capsys.readouterr().err.lower()
+
+
+def test_resume_requires_t3_raw_evidence_surface_before_preflight(
+        tmp_path, monkeypatch, capsys):
+    output = tmp_path / "20260713-missing-raw-t3-run"
+    output.mkdir()
+    plan = episode_run.build_execution_plan()[:1]
+    (output / "checkpoint.jsonl").write_text('{}\n')
+    (output / "t3-run-identity.json").write_text(
+        json.dumps(episode_run.build_run_identity(plan)))
+
+    code, touched = _resume_rejection_probe(output, plan, monkeypatch)
+
+    assert code == 2
+    assert touched == []
+    assert "raw-evidence" in capsys.readouterr().err.lower()
+
+
 class FakeLiveClient(UsageClient):
     constructions = []
 
@@ -892,6 +1072,22 @@ def test_live_metadata_discloses_non_authoritative_ceiling_fallback(tmp_path, mo
         "catalog_ceiling_missing_response_usage": 1}
     assert "actual-first run accounting total" in report
     assert "non-authoritative fallback events: **1**" in report
+    identity_path = output / "t3-run-identity.json"
+    identity_text = identity_path.read_text()
+    assert json.loads(identity_text) == episode_run.build_run_identity([cell])
+    raw_text = (output / "raw-evidence.jsonl").read_text()
+
+    resumed_code = episode_run._run_live(
+        [cell], str(output), resume=True,
+        client_factory=MissingUsageLiveClient,
+        catalog_fetch=lambda _key: _catalog(),
+        key_fetch=lambda _key: {
+            "usage": 1.0, "limit": 30.0, "limit_remaining": 29.0},
+    )
+
+    assert resumed_code == 0
+    assert identity_path.read_text() == identity_text
+    assert (output / "raw-evidence.jsonl").read_text() == raw_text
 
 
 def test_go_path_runs_full_fake_preflight_and_writes_complete_append_only_artifacts(

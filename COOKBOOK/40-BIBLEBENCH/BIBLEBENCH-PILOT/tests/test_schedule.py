@@ -737,12 +737,18 @@ def test_label_policy_ascii_fast_path_matches_unicode_skeleton(
     assert schedule_module._label_policy_text(unicode_value) == expected
 
 
-def test_generated_id_comparison_fast_path_matches_unicode_skeleton() -> None:
-    ascii_value = "ab-c d\t\x00e"
-    unicode_value = "ａｂ—ｃ　ｄ\u200dｅ"
-
-    assert schedule_module._comparison_skeleton(ascii_value) == "abcde"
-    assert schedule_module._comparison_skeleton(unicode_value) == "abcde"
+@pytest.mark.parametrize(
+    ("ascii_value", "unicode_value", "expected"),
+    [
+        ("ab-c d\t\x00e", "ａｂ—ｃ　ｄ\u200dｅ", "abcde"),
+        ("6e779c794025e210", "6ε779ϲ794025ε210", "6e779c794025e210"),
+    ],
+)
+def test_generated_id_comparison_fast_path_matches_unicode_skeleton(
+    ascii_value: str, unicode_value: str, expected: str
+) -> None:
+    assert schedule_module._comparison_skeleton(ascii_value) == expected
+    assert schedule_module._comparison_skeleton(unicode_value) == expected
 
 
 def test_international_prose_with_numbers_remains_allowed() -> None:
@@ -835,6 +841,17 @@ def test_explicit_sensitive_assignments_are_rejected_in_visible_strings(
         "model\u200d identity: hidden-model",
         "gοld—label: target",
         "prοvider\u200d: OpenRouter",
+        "provider\u2060assigned OpenRouter",
+        "provider\u200dis OpenAI",
+        "provider\u0301is openrouter",
+        "selected provider is openrouter",
+        "current provider: OpenAI",
+        "requested provider assigned OpenRouter",
+        "chosen provider=OpenAI",
+        "the chosen provider is openrouter",
+        "A provider is openai",
+        "The healthcare provider is OpenAI",
+        "The provider is undisclosed",
     ],
 )
 @pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
@@ -878,6 +895,10 @@ def test_registered_metadata_assignments_are_rejected_in_all_call_payloads(
         "A healthcare provider is available today",
         "A pastoral care provider is compassionate",
         "The healthcare provider is available today",
+        "The provider is useful",
+        "The provider is compassionate",
+        "The provider is available today",
+        "The chosen provider is available today",
     ],
 )
 def test_benign_assignment_like_prose_remains_allowed(benign_text: str) -> None:
@@ -961,6 +982,35 @@ def test_non_sensitive_mixed_language_prose_preserves_authored_bytes(
         schedule.primary_rows[0].request_payload["shared_body"]
         == mixed_language_text
     )
+
+
+@pytest.mark.parametrize(
+    ("ascii_assignment", "unicode_assignment"),
+    [
+        (
+            "provider assigned OpenRouter",
+            "provider\u2060assigned OpenRouter",
+        ),
+        ("provider is OpenAI", "provider\u200dis OpenAI"),
+        ("provider is openrouter", "provider\u0301is openrouter"),
+    ],
+)
+def test_provider_identity_fast_path_matches_invisible_boundaries(
+    ascii_assignment: str, unicode_assignment: str
+) -> None:
+    pack = _pack()
+    for assignment in (ascii_assignment, unicode_assignment):
+        episode = replace(
+            pack.episodes[0], forecast_payload={"note": assignment}
+        )
+
+        with pytest.raises(ValueError, match="sensitive assignment") as error:
+            compile_schedule(
+                _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+            )
+        assert "OpenRouter" not in str(error.value)
+        assert "OpenAI" not in str(error.value)
+        assert "openrouter" not in str(error.value)
 
 
 @pytest.mark.parametrize(
@@ -2876,6 +2926,40 @@ def test_generated_id_firewall_rejects_unicode_digit_and_hex_lookalikes(
         compile_schedule(
             _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
         )
+
+
+def test_generated_id_firewall_rejects_exact_lunate_sigma_escape() -> None:
+    pack = _pack()
+    private_id = "6e779c794025e210"
+    disguised_id = "6ε779ϲ794025ε210"
+    generated_ids = {
+        row.logical_call_id
+        for row in compile_schedule(pack, actor_ids=ACTORS, seed=711).logical_calls
+    }
+    assert private_id in generated_ids
+    episode = replace(
+        pack.episodes[0], probe_payload={"note": disguised_id}
+    )
+
+    with pytest.raises(ValueError, match="generated schedule identifier"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_generated_id_firewall_preserves_unrelated_greek_prose_and_id() -> None:
+    pack = _pack()
+    probe_payload = {
+        "note": "Η ελληνική λέξη σίγμα παραμένει ακριβής.",
+        "request_id": "6ε779ϲ794025ε211",
+    }
+    episode = replace(pack.episodes[0], probe_payload=probe_payload)
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.probe_rows[0].request_payload == probe_payload
 
 
 def test_generated_id_firewall_preserves_unrelated_ids_and_hashes() -> None:

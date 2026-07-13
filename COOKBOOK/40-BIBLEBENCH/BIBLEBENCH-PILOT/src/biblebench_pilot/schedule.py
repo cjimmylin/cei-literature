@@ -285,9 +285,17 @@ _SENSITIVE_ASSIGNMENT = re.compile(
     re.IGNORECASE,
 )
 _SENSITIVE_PROVIDER_ASSIGNMENT = re.compile(
-    r"(?:(?<![a-z0-9])provider assigned (?P<assigned_value>\S+)|"
-    r"(?:^|(?<![a-z0-9])the )provider is (?P<stated_value>\S+))",
+    r"(?<![a-z0-9])"
+    r"(?:(?:the|a) *)?"
+    r"(?:(?:selected|current|requested|chosen|healthcare|"
+    r"pastoral(?: *care)?) *)?"
+    r"provider *(?:is|assigned) *"
+    r"(?P<value>[a-z0-9]+(?: +[a-z0-9]+){0,2})"
+    r"(?![a-z0-9])",
     re.IGNORECASE,
+)
+_BENIGN_PROVIDER_STATES = frozenset(
+    {"available", "available today", "compassionate", "useful"}
 )
 
 
@@ -439,9 +447,9 @@ def _label_policy_text(value: str) -> str:
 
 
 def _comparison_skeleton(value: str) -> str:
-    normalized = _policy_text(value)
-    if normalized.isascii():
-        return normalized.casefold().translate(_ASCII_COMPARISON_DELETE)
+    if value.isascii():
+        return value.casefold().translate(_ASCII_COMPARISON_DELETE)
+    normalized = _policy_text(value.translate(_ID_HEX_CONFUSABLES))
     normalized = normalized.translate(_ID_HEX_CONFUSABLES).casefold()
     decomposed = unicodedata.normalize("NFKD", normalized)
     decomposed = decomposed.translate(_ID_HEX_CONFUSABLES)
@@ -937,7 +945,13 @@ def _assert_no_sensitive_assignments(payload: dict[str, Json]) -> None:
         protected_text = _protected_word_policy_text(visible)
         match = _SENSITIVE_ASSIGNMENT.search(protected_text)
         if match is None:
-            if _SENSITIVE_PROVIDER_ASSIGNMENT.search(protected_text) is None:
+            provider_match = _SENSITIVE_PROVIDER_ASSIGNMENT.search(
+                protected_text
+            )
+            if provider_match is None:
+                continue
+            provider_value = provider_match.group("value")
+            if provider_value in _BENIGN_PROVIDER_STATES:
                 continue
             raise ValueError("request payload contains a sensitive assignment")
         label = _normalized_key(match.group("label"))

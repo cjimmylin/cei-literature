@@ -1,5 +1,44 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-13 — PPP-1 four-row catalog-hash refresh choice
+
+- **Question:** May Codex append-only refresh and re-freeze the exact four-row PPP-1
+  catalog snapshot/hash after verifying that every PPP-1 prompt ceiling remains below
+  Qwen's new 256,000-token pricing-override threshold, while preserving the exact roster,
+  base prices, token caps, and strict `$23.56` NTE?
+- **Why it blocks:** The authorized live command passed authentication but failed closed
+  during catalog metadata preflight, before output-directory creation or inference,
+  because the live catalog hash
+  `e97e482f8fc963ffe2e0743257e1d1041437ebdef1cbcf9babdb03c7b2d0318a` did not match
+  the frozen hash
+  `8aaf8aed304c97244239224bedd4e0677762ea1c69fa8005c429737a49b74268`.
+  A sanitized follow-up catalog comparison found only one changed row:
+  `qwen/qwen3.7-plus` retains base prompt/completion prices of `0.00000032` /
+  `0.00000128` and now also carries an override at `min_prompt_tokens=256000` priced
+  `0.00000096` / `0.00000384` plus cache fields. The other three frozen rows are
+  identical. No run directory or inference call exists, spend is `$0`, and the one-run
+  authority remains unconsumed. The paper-first second-cycle rule prohibits an
+  autonomous third controller change.
+- **Evidence:** fail-closed S40 live preflight; interruption fix commit `5056df116`;
+  named-blocker re-review PASS; fresh focused suite 25/25 and full suite 725/725.
+- **Suggested default:** Authorize one append-only metadata refresh/re-freeze of the exact
+  four-row snapshot/hash after Codex verifies all PPP-1 prompt ceilings remain below
+  256,000 tokens. Keep the exact three SUTs, sole Gemini judge, base-price forecast,
+  2,048/512 token caps, one-run boundary, and strict `$23.56` NTE unchanged. Make no
+  inference call until Jimmy ratifies this refresh.
+
+## RESOLVED 2026-07-13 — PPP-1 second-cycle interruption-custody choice
+
+- **Disposition:** Jimmy authorized **FIX** for the PPP-1 interruption-custody P1 only.
+  Commit `5056df116` makes the wrapper-local paid-attempt custody path
+  interruption-safe and adds the bounded regression; a fresh named-blocker reviewer
+  re-reviewed only that named blocker and returned PASS. Fresh controller verification
+  is 25/25 focused and 725/725 full. The exact roster, prompts, token caps, retries,
+  strict `$23.56` NTE, and one-run authority are unchanged.
+- **Effect:** The interruption blocker is closed. The subsequent paid command stopped
+  before output-directory creation or inference on the separate catalog-hash mismatch
+  recorded above. Spend is `$0`, and the one-run authority remains unconsumed.
+
 ## OPEN 2026-07-13 — PPP-1 second-cycle interruption-custody choice
 
 - **Question:** The one allowed general quality review found that `KeyboardInterrupt`

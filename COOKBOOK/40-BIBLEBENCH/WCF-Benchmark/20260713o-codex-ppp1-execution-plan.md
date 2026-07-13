@@ -48,7 +48,7 @@ record into a new dated preview packet without editing release-labeled manuscrip
   judge-count aggregation for this explicitly single-judge artifact while still consuming
   the frozen manifest's per-surface eligibility.
 - [x] Run the focused tests green, then the full offline suite.
-- [ ] Receive one specification review and one code-quality review. Fix only findings that
+- [x] Receive one specification review and one code-quality review. Fix only findings that
   threaten validity, the strict cap, immutability, blindness, reproducibility, or an owner
   ruling. A second-cycle new finding returns to Jimmy.
 
@@ -56,6 +56,13 @@ record into a new dated preview packet without editing release-labeled manuscrip
 cycle. The subsequent general quality review found a new interruption-custody P1. Per the
 binding second-cycle rule, Task 1 is paused for Jimmy's fix/disclose/narrow/defer choice;
 no paid attempt has started.
+
+**Gate update 2026-07-13:** Jimmy authorized only the interruption-custody fix. Commit
+`5056df116` plus one regression closed that named blocker; named-blocker-only quality
+re-review PASS, focused 25/25 and full 725/725. The authorized command then failed closed
+during zero-paid catalog preflight before output-directory creation or inference because
+the live four-row catalog hash changed. Task 2 remains unchecked; `$0` was spent and the
+one-run authority is unconsumed pending Jimmy's catalog-refresh ruling.
 
 **Done when:** the mocked end-to-end plan records all 678 cells as scored-or-error, every
 attempt is evidence-accounted, no call can start beyond the strict reservation cap, and

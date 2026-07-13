@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import importlib
 import json
+from types import SimpleNamespace
 
 import pytest
 
@@ -260,3 +261,211 @@ def test_persist_probe_reps_writes_fixed_order_complete_records():
                 }
             )
     assert sink.records == expected_records
+
+
+def test_score_shadow_unit_dispatches_coherence_axis(monkeypatch):
+    r = _runner()
+    unit = {
+        "surface": "coherence",
+        "axis": "end",
+        "sut_response": "response",
+    }
+    item = SimpleNamespace(id="I1", stem="stem", rubric=[])
+
+    def fake_score_numeric_axis(score, axis, **kwargs):
+        assert axis == "end"
+        assert kwargs == {
+            "stem": "stem",
+            "rubric": [],
+            "response": "response",
+            "judge": "judge",
+            "item_id": "I1",
+        }
+        score.end = 0.75
+        score.graded[axis] = True
+
+    monkeypatch.setattr(r, "_score_numeric_axis", fake_score_numeric_axis)
+
+    assert r.score_shadow_unit(unit, item, "judge") == {
+        "graded": True,
+        "value": 0.75,
+        "axis": "end",
+        "scale_defect": False,
+    }
+
+
+def test_score_shadow_unit_returns_open_award_shape(monkeypatch):
+    r = _runner()
+    unit = {"surface": "open_award", "sut_response": "response"}
+    rubric = [
+        SimpleNamespace(
+            axis="matter", criterion="tagged keypoint", anchor=None
+        ),
+        SimpleNamespace(
+            axis=None, criterion="untagged keypoint", anchor=None
+        ),
+    ]
+    item = SimpleNamespace(id="I2", stem="stem", rubric=rubric)
+    call = SimpleNamespace(text="valid verdict", discarded=False)
+    verdict = SimpleNamespace(
+        awards={1: True},
+        compliance_defects={2: "reasonless"},
+    )
+
+    def fake_complete(judge, prompt, *, item_id, is_complete):
+        assert judge == "judge"
+        assert item_id == "I2"
+        assert is_complete("KP1: award")
+        return call
+
+    monkeypatch.setattr(r, "complete_with_retry", fake_complete)
+    monkeypatch.setattr(r, "parse_award_verdict", lambda text, **kwargs: verdict)
+
+    result = r.score_shadow_unit(unit, item, "judge")
+
+    assert set(result) == {
+        "graded",
+        "awards",
+        "compliance_defects",
+        "discarded",
+    }
+    assert result == {
+        "graded": True,
+        "awards": {1: True},
+        "compliance_defects": {2: "reasonless"},
+        "discarded": False,
+    }
+
+
+def test_score_shadow_unit_returns_disclosure_shape(monkeypatch):
+    r = _runner()
+    unit = {"surface": "disclosure", "sut_response": "response"}
+    item = SimpleNamespace(id="I3")
+    scored = SimpleNamespace(
+        graded=True,
+        value=0.5,
+        awards={"avoided_asserting_settled": True},
+        defects={"disclosure_kp2": "bad quote"},
+        discarded=False,
+    )
+    monkeypatch.setattr(r, "_score_disclosure", lambda *args: scored)
+
+    assert r.score_shadow_unit(unit, item, "judge") == {
+        "graded": True,
+        "value": 0.5,
+        "awards": {"avoided_asserting_settled": True},
+        "defects": {"disclosure_kp2": "bad quote"},
+        "discarded": False,
+    }
+
+
+def test_score_shadow_unit_returns_settled_core_shape(monkeypatch):
+    r = _runner()
+    unit = {"surface": "settled_core", "sut_response": "response"}
+    item = SimpleNamespace(id="I4")
+    monkeypatch.setattr(
+        r,
+        "score_settled_core",
+        lambda *args: ({"shared floor": True}, ["reasonless floor"], "raw"),
+    )
+
+    assert r.score_shadow_unit(unit, item, "judge") == {
+        "graded": True,
+        "keypoints": {"shared floor": True},
+        "reasonless": ["reasonless floor"],
+    }
+
+
+def test_score_shadow_unit_rejects_unknown_surface():
+    r = _runner()
+    with pytest.raises(ValueError, match="unknown shadow surface"):
+        r.score_shadow_unit(
+            {"surface": "mystery", "sut_response": "response"},
+            SimpleNamespace(id="I5"),
+            "judge",
+        )
+
+
+def test_run_shadow_units_persists_every_verdict_and_survives_errors(
+    monkeypatch, tmp_path
+):
+    r = _runner()
+    selection = []
+    for surface, count in r.SURFACE_COUNTS.items():
+        for index in range(count):
+            item_id = f"{surface}-{index}"
+            response = f"response:{item_id}"
+            selection.append(
+                {
+                    "surface": surface,
+                    "item_id": item_id,
+                    "sut_slug": f"sut:{surface}",
+                    "sut_response": response,
+                    "response_sha256": hashlib.sha256(response.encode()).hexdigest(),
+                }
+            )
+    items = {unit["item_id"]: SimpleNamespace(id=unit["item_id"]) for unit in selection}
+    clients = {name: f"client:{name}" for name, _family, _slug in r.CANDIDATES}
+
+    def fake_score(unit, item, judge):
+        assert item.id == unit["item_id"]
+        assert judge == f"client:{judge.removeprefix('client:')}"
+        if unit["item_id"].endswith("-0"):
+            raise RuntimeError(f"failed {unit['item_id']}")
+        return {"graded": True, "surface": unit["surface"]}
+
+    ticks = iter(index / 4 for index in range(112))
+    path = tmp_path / "shadow-verdicts.jsonl"
+    sink = r.JsonlSink(str(path))
+    monkeypatch.setattr(r, "score_shadow_unit", fake_score)
+
+    records = r.run_shadow_units(
+        selection,
+        clients=clients,
+        items=items,
+        sink=sink,
+        now=lambda: "2026-07-12T12:00:00",
+        clock=lambda: next(ticks),
+    )
+
+    persisted = [json.loads(line) for line in path.read_text().splitlines()]
+    assert len(records) == 56
+    assert len([record for record in records if record["error"]]) == 8
+    assert all(
+        record["error"] == f"RuntimeError: failed {record['item_id']}"
+        and record["result"] is None
+        for record in records
+        if record["item_id"].endswith("-0")
+    )
+    assert all(
+        any(
+            later["judge"] == record["judge"]
+            and later["surface"] == record["surface"]
+            and later["result"] == {
+                "graded": True,
+                "surface": record["surface"],
+            }
+            for later in records[index + 1 :]
+        )
+        for index, record in enumerate(records)
+        if record["error"]
+    )
+    assert persisted == records
+    assert all(record["kind"] == "shadow_verdict" for record in records)
+    assert all(record["elapsed_seconds"] >= 0 for record in records)
+    assert all(
+        set(
+            (
+                "judge",
+                "surface",
+                "item_id",
+                "sut_slug",
+                "response_sha256",
+            )
+        ).issubset(record)
+        for record in records
+    )
+    assert [record["judge"] for record in records[:28]] == ["glm-5.2"] * 28
+    assert [record["judge"] for record in records[28:]] == [
+        "deepseek-v4-pro"
+    ] * 28

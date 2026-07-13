@@ -244,3 +244,122 @@ def assert_template_hashes(manifest):
         raise PreflightError(
             "qualification template hash mismatch; stop before spending"
         )
+
+
+def score_shadow_unit(unit, item, judge):
+    surface = unit["surface"]
+    response = unit["sut_response"]
+
+    if surface == "open_award":
+        tagged = [
+            keypoint
+            for keypoint in item.rubric
+            if getattr(keypoint, "axis", None) in AXES
+        ]
+        prompt = build_award_prompt(
+            stem=item.stem,
+            rubric=item.rubric,
+            response=response,
+        )
+        call = complete_with_retry(
+            judge,
+            prompt,
+            item_id=item.id,
+            is_complete=lambda text: award_emission_count(text) >= len(tagged),
+        )
+        if call.discarded or not willingness_to_grade(call.text):
+            return {
+                "graded": False,
+                "awards": {},
+                "compliance_defects": {},
+                "discarded": call.discarded,
+            }
+        verdict = parse_award_verdict(call.text, require_reason=True)
+        return {
+            "graded": bool(verdict.awards),
+            "awards": verdict.awards,
+            "compliance_defects": verdict.compliance_defects,
+            "discarded": False,
+        }
+
+    if surface == "coherence":
+        axis = unit["axis"]
+        score = TriaxialScore()
+        _score_numeric_axis(
+            score,
+            axis,
+            stem=item.stem,
+            rubric=item.rubric,
+            response=response,
+            judge=judge,
+            item_id=item.id,
+        )
+        return {
+            "graded": bool(score.graded.get(axis, False)),
+            "value": getattr(score, axis),
+            "axis": axis,
+            "scale_defect": bool(score.scale_defect.get(axis, False)),
+        }
+
+    if surface == "disclosure":
+        score = _score_disclosure(judge, item, response, item.id)
+        return {
+            "graded": score.graded,
+            "value": score.value,
+            "awards": score.awards,
+            "defects": score.defects,
+            "discarded": score.discarded,
+        }
+
+    if surface == "settled_core":
+        values, reasonless, _raw = score_settled_core(
+            judge, item, response, item.id
+        )
+        return {
+            "graded": bool(values),
+            "keypoints": values,
+            "reasonless": reasonless,
+        }
+
+    raise ValueError(f"unknown shadow surface: {surface}")
+
+
+def run_shadow_units(
+    selection,
+    *,
+    clients,
+    items,
+    sink,
+    now,
+    clock=time.perf_counter,
+):
+    records = []
+    for name, _family, _slug in CANDIDATES:
+        judge = clients[name]
+        for unit in selection:
+            started = clock()
+            try:
+                result = score_shadow_unit(
+                    unit,
+                    items[unit["item_id"]],
+                    judge,
+                )
+                error = None
+            except Exception as exc:
+                result = None
+                error = f"{type(exc).__name__}: {exc}"
+            record = {
+                "kind": "shadow_verdict",
+                "timestamp": now(),
+                "judge": name,
+                "surface": unit["surface"],
+                "item_id": unit["item_id"],
+                "sut_slug": unit["sut_slug"],
+                "response_sha256": unit["response_sha256"],
+                "elapsed_seconds": max(0, clock() - started),
+                "result": result,
+                "error": error,
+            }
+            sink.write(record)
+            records.append(record)
+    return records

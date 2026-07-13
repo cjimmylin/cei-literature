@@ -37,40 +37,98 @@ _OPAQUE_HEX = re.compile(r"(?:[0-9a-f]{16}|[0-9a-f]{64})")
 _MAX_VISIBLE_DEPTH = 128
 _CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
-_IDENTIFIER_COMPONENTS = frozenset({"id", "identifier"})
-_PHYSICAL_SCOPE_QUALIFIERS = frozenset(
-    {"id", "identifier", "call", "attempt"}
-)
 _ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
-_LATER_SCOPE_BENIGN_MORPHOLOGIES = (
-    "lensing",
-    "interventional",
-    "providership",
-    "routing",
-    "reroute",
+_METADATA_JOINER_TOKENS = frozenset(
+    {
+        "id",
+        "ids",
+        "identifier",
+        "identifiers",
+        "name",
+        "names",
+        "label",
+        "labels",
+        "call",
+        "calls",
+        "attempt",
+        "attempts",
+        "config",
+        "configuration",
+        "result",
+        "results",
+        "token",
+        "tokens",
+        "version",
+        "versions",
+        "description",
+        "descriptions",
+        "metadata",
+        "payload",
+        "value",
+        "values",
+        "type",
+        "types",
+        "key",
+        "keys",
+        "tested",
+        "test",
+        "available",
+        "registered",
+        "fallback",
+        "evaluation",
+        "module",
+        "requested",
+        "selected",
+        "returned",
+        "current",
+        "active",
+        "chosen",
+        "resolved",
+        "execution",
+        "backend",
+        "novelprefix",
+        "delivery",
+        "evacuation",
+        "suffix",
+        "extra",
+        "episode",
+    }
 )
-_RESERVED_NAMESPACE_LEXEMES = ("lens", "intervention", "provider", "route")
-_PHYSICAL_BOUNDARIES = (
-    "physicalid",
-    "physicalidentifier",
-    "physicalcall",
-    "physicalattempt",
+_LATER_NAMESPACE_TOKENS = frozenset(
+    {
+        "lens",
+        "lenses",
+        "intervention",
+        "interventions",
+        "provider",
+        "providers",
+        "route",
+        "routes",
+    }
 )
-_ATTEMPT_IDENTIFIER_BOUNDARIES = tuple(
+_PHYSICAL_RESERVED_TOKENS = frozenset(
+    f"physical{qualifier}"
+    for qualifier in (
+        "id",
+        "ids",
+        "identifier",
+        "identifiers",
+        "call",
+        "calls",
+        "attempt",
+        "attempts",
+    )
+)
+_ATTEMPT_RESERVED_TOKENS = frozenset(
     f"{attempt}{identifier}"
     for attempt in ("attempt", "attempts")
-    for identifier in ("id", "identifier")
+    for identifier in ("id", "ids", "identifier", "identifiers")
 )
-_NAMESPACE_COMPONENT_ALIASES = {
-    "routes": "route",
-    "lenses": "lens",
-    "interventions": "intervention",
-    "providers": "provider",
-    "ids": "id",
-    "identifiers": "identifier",
-    "attempts": "attempt",
-    "calls": "call",
-}
+_LATER_RESERVED_TOKENS = (
+    _LATER_NAMESPACE_TOKENS
+    | _PHYSICAL_RESERVED_TOKENS
+    | _ATTEMPT_RESERVED_TOKENS
+)
 _BLIND_FORECAST_COMPONENTS = frozenset(
     {
         "cue",
@@ -87,6 +145,9 @@ _BLIND_FORECAST_COMPONENTS = frozenset(
         "private",
     }
 )
+_IDENTITY_RESERVED_TOKENS = frozenset({"actor", "model"})
+_RESULT_RESERVED_TOKENS = frozenset({"expected", "gold", "groundtruth"})
+_ACTOR_PRIVATE_RESERVED_TOKENS = frozenset({"role", "private"})
 
 
 @dataclass(frozen=True)
@@ -282,28 +343,40 @@ def _walk_keys(value: Json):
             stack.extend(current)
 
 
-def _normalized_contains_reserved_lexeme(
+def _normalized_key_has_reserved_tokens(
     normalized: str,
-    reserved: tuple[str, ...] | frozenset[str],
+    reserved: frozenset[str],
     *,
-    benign_morphologies: tuple[str, ...] = (),
     exact_allowed: frozenset[str] = frozenset(),
 ) -> bool:
-    if normalized in exact_allowed:
+    if not normalized or normalized in exact_allowed:
         return False
-    scrubbed = normalized
-    for morphology in benign_morphologies:
-        scrubbed = scrubbed.replace(morphology, "")
-    return any(lexeme in scrubbed for lexeme in reserved)
+    tokens = tuple(sorted(reserved | _METADATA_JOINER_TOKENS))
+    without_reserved = [False] * (len(normalized) + 1)
+    with_reserved = [False] * (len(normalized) + 1)
+    without_reserved[0] = True
+    for start in range(len(normalized)):
+        if not without_reserved[start] and not with_reserved[start]:
+            continue
+        for token in tokens:
+            if not normalized.startswith(token, start):
+                continue
+            end = start + len(token)
+            if with_reserved[start]:
+                with_reserved[end] = True
+            if without_reserved[start]:
+                if token in reserved:
+                    with_reserved[end] = True
+                else:
+                    without_reserved[end] = True
+    return with_reserved[-1]
 
 
 def _assert_no_result_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_contains_reserved_lexeme(
-            normalized,
-            ("expected", "gold", "groundtruth"),
-            benign_morphologies=("golden",),
+        if _normalized_key_has_reserved_tokens(
+            normalized, _RESULT_RESERVED_TOKENS
         ):
             raise ValueError("request payload contains an outcome field")
 
@@ -311,69 +384,32 @@ def _assert_no_result_fields(payload: dict[str, Json]) -> None:
 def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_contains_reserved_lexeme(
-            normalized,
-            ("actor", "model"),
-            benign_morphologies=("factor", "modeling"),
+        if _normalized_key_has_reserved_tokens(
+            normalized, _IDENTITY_RESERVED_TOKENS
         ):
             raise ValueError("request payload contains an identity field")
 
 
 def _normalized_key_is_sealed(normalized: str) -> bool:
-    return (
-        _normalized_contains_reserved_lexeme(
-            normalized,
-            _RESERVED_NAMESPACE_LEXEMES,
-            benign_morphologies=_LATER_SCOPE_BENIGN_MORPHOLOGIES,
-            exact_allowed=_ALLOWED_TASK_ROUTE_KEYS,
-        )
-        or any(boundary in normalized for boundary in _PHYSICAL_BOUNDARIES)
-        or any(
-            boundary in normalized
-            for boundary in _ATTEMPT_IDENTIFIER_BOUNDARIES
-        )
+    return _normalized_key_has_reserved_tokens(
+        normalized,
+        _LATER_RESERVED_TOKENS,
+        exact_allowed=_ALLOWED_TASK_ROUTE_KEYS,
     )
 
 
 def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        components = _key_components(key)
-        namespace_components = tuple(
-            _NAMESPACE_COMPONENT_ALIASES.get(component, component)
-            for component in components
-        )
-        has_attempt_identifier = (
-            "attempt" in namespace_components
-            and not _IDENTIFIER_COMPONENTS.isdisjoint(namespace_components)
-        )
-        lens_or_intervention = not {"lens", "intervention"}.isdisjoint(
-            namespace_components
-        )
-        physical = "physical" in namespace_components
-        provider = "provider" in namespace_components
-        route = "route" in namespace_components
-        if (
-            _normalized_key_is_sealed(normalized)
-            or lens_or_intervention
-            or provider
-            or (route and normalized not in _ALLOWED_TASK_ROUTE_KEYS)
-            or (
-                physical
-                and not _PHYSICAL_SCOPE_QUALIFIERS.isdisjoint(
-                    namespace_components
-                )
-            )
-            or has_attempt_identifier
-        ):
+        if _normalized_key_is_sealed(normalized):
             raise ValueError("request payload contains a later-scope field")
 
 
 def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_contains_reserved_lexeme(
-            normalized, ("role", "private")
+        if _normalized_key_has_reserved_tokens(
+            normalized, _ACTOR_PRIVATE_RESERVED_TOKENS
         ):
             raise ValueError("request payload contains actor-private metadata")
 
@@ -381,16 +417,8 @@ def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
 def _assert_blind_forecast(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_contains_reserved_lexeme(
-            normalized,
-            _BLIND_FORECAST_COMPONENTS,
-            benign_morphologies=(
-                "factor",
-                "modeling",
-                "rescue",
-                "golden",
-                "providership",
-            ),
+        if _normalized_key_has_reserved_tokens(
+            normalized, _BLIND_FORECAST_COMPONENTS
         ):
             raise ValueError("forecast payload contains blinded metadata")
 

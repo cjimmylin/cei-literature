@@ -82,3 +82,41 @@ def test_evidence_registry_is_public_first_party_and_matches_proposal() -> None:
         assert {
             urlparse(url).hostname for url in row["official_sources"]
         } <= allowed_hosts
+
+
+def test_preflight_builder_is_deterministic_and_offline(monkeypatch) -> None:
+    import socket
+
+    from biblebench_pilot.preflight import build_preflight_bundle
+
+    def denied(*args, **kwargs):
+        raise AssertionError("network access attempted")
+
+    monkeypatch.setattr(socket, "socket", denied)
+    first = build_preflight_bundle(PACKAGE_ROOT)
+    second = build_preflight_bundle(PACKAGE_ROOT)
+    assert first == second
+    assert set(first) == {
+        "pf002-three-model-proposal.json",
+        "pf002-preflight-consistency.json",
+        "PF002-OWNER-AUTHORIZATION-REQUEST.md",
+        "pilot-cost-estimate.json",
+        "PILOT-COST-CHECKPOINT.md",
+    }
+
+
+def test_preflight_builder_imports_no_transport_or_credentials() -> None:
+    source = (PACKAGE_ROOT / "src/biblebench_pilot/preflight.py").read_text(
+        encoding="utf-8"
+    )
+    forbidden = (
+        "requests",
+        "httpx",
+        "urllib.request",
+        "socket.create_connection",
+        "OPENAI_API_KEY",
+        "ANTHROPIC_API_KEY",
+        "GOOGLE_API_KEY",
+        "keyring",
+    )
+    assert not any(value in source for value in forbidden)

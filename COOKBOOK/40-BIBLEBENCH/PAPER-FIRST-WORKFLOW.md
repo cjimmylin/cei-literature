@@ -2,7 +2,7 @@
 
 **Authority:** Binding for every current and future benchmark under this directory.
 
-**Owner ruling:** PF-001, ratified by Jimmy Lin on 2026-07-13.
+**Owner rulings:** PF-001 and PF-002, ratified by Jimmy Lin on 2026-07-13.
 
 ## Purpose
 
@@ -53,6 +53,16 @@ Engineering work is reported as enabling or nonblocking. Test counts and impleme
 9. Resume durability engineering after pilot deliverables exist.
 
 Steps run concurrently when dependencies permit. This sequence expresses dependency priority; it does not require one track to idle while another can advance.
+
+## Low-cost MVP paper-preview phase
+
+PF-002 makes the consolidated four-benchmark MVP paper preview the immediate empirical priority. Its default geometry is all 48 episodes, exactly three inexpensive general-purpose models, one preregistered C1-plus-observable-probe surface per episode, one founding theologian-technical judge, and a $5.00 absolute spend ceiling. The exact roster, provider route, token limits, retry policy, and forecast require a separately authorized frozen manifest before any paid call.
+
+The MVP exists to reveal the real manuscript, analyses, tables, figures, limitations, and benchmark PDFs. Its findings are exploratory and descriptive. It does not support a best-model claim, stable ranking, family-level estimate, cue-effect estimate, capability-adjusted ethical attribution, inter-rater reliability claim, cross-tradition agreement, Christian consensus, or release-readiness claim.
+
+Before the owner reviews the complete MVP paper-shaped package, defer additional or premium models, larger or paid judge panels, formal concordance, mandatory repeat reliability, all C0/C1/C2 surfaces, capability-twin execution, composite rankings, and production or hostile-deployment hardening. These items may re-enter only through a recorded stop, bounded-repair, or scale-up decision after the preview, unless a specific item is necessary to prevent a P0/P1 error in the narrowed MVP claims.
+
+This phase does not reduce evidence-custody, reproducibility, safety, truthful limitation, or final paid-authorization requirements. It narrows the first empirical claim so nonessential robustness work cannot delay seeing the paper.
 
 ## Review classification
 

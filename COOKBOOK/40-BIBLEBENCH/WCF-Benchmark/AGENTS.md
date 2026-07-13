@@ -182,6 +182,31 @@ benchmark toward testable. The rules:
    invalidate qualification manifests (R35.4) and force expensive re-qualification. Never
    reword a prompt except where the plan explicitly says to.
 
+## Paper-first execution rule (BINDING — Jimmy, 2026-07-13)
+
+The unnumbered operating amendment
+`20260713-wcf-paper-first-execution-amendment.md` is binding on every session. It does not
+change R1–R68 or authorize spending. Its core rule is: **the next headline milestone is
+empirical evidence or a mandatory paper artifact; infrastructure is only enabling work.**
+
+- Work may block that milestone only for result validity, authorized-spend containment,
+  frozen-data/run integrity, examinee blindness, reproducibility, or a binding Jimmy ruling.
+- An implementation task gets one specification review and one quality review. After fixes,
+  re-review verifies only the named blockers; it does not reopen a general audit.
+- If a second fix cycle surfaces a new potential blocker, STOP and ask Jimmy to choose:
+  fix, disclose-and-run, narrow the claim, or defer. Never autonomously start a third cycle.
+- Once the minimum valid runner is green and the run is authorized, execute it. After the
+  registered retry allowance, record per-cell failures and continue; do not investigate
+  isolated model behavior.
+- At session close report: `Empirical __% · paper __% · infrastructure __% · governance/admin __%`.
+  Two consecutive infrastructure/governance-dominant sessions without evidence, a paper
+  artifact, or removal of a material blocker force the next session to **RUN OR ESCALATE**.
+
+Dashboard and handoff milestones must therefore name the paper-facing output, minimum
+sufficiency gate, session-close artifact, material blocker, engineering timebox, and any
+Jimmy-authorized exception. Test counts and implementation volume are supporting evidence,
+never substitutes for paper-facing progress.
+
 ## Current state (2026-07-12, post-S25) — one paragraph, details in the plan
 
 Bank 230/230 (audited, frozen). MVP run 816/816 descriptive (`07-PILOTS/20260710-mvp-run/`);

@@ -45,6 +45,18 @@ in `PENDING-QUESTIONS.md` (question, why it blocks, evidence, suggested default)
 when the evidence supports it — write a provisional adjudication packet with **reserved,
 never assigned** R-numbers for Jimmy to ratify. Continue other open work.
 
+## Paper-first stopping rule (BINDING, 2026-07-13)
+
+Read and apply `20260713-wcf-paper-first-execution-amendment.md`. The next headline
+milestone must be empirical evidence or a mandatory paper artifact; infrastructure is
+enabling work only. One specification review + one quality review are the default ceiling.
+After fixes, verify only the named blockers. If a second fix cycle exposes a new possible
+blocker, STOP and ask Jimmy to choose fix / disclose-and-run / narrow-claim / defer — do
+not begin a third autonomous hardening cycle. Once the minimum valid runner is green and
+authorized, run it; record per-cell failures after the registered retries instead of
+debugging model behavior. At close, disclose the session allocation across empirical,
+paper, infrastructure, and governance/admin work.
+
 ## Paper lane (NEW in v2 — tasks P1–P4, detail in the execution plan's AMENDMENT)
 
 The paper pre-draft is DONE (S24, Fable lane): `08-PAPER/` holds the master outline +

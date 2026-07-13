@@ -340,7 +340,10 @@ def test_lens_boundary_dataclasses_are_frozen() -> None:
 
 
 def test_packet_contains_only_registered_rules_and_frozen_events() -> None:
-    packet = build_lens_packet(_complete_evidence(), _spec(), _context())
+    evidence = _complete_evidence()
+    spec = _spec()
+    context = _context()
+    packet = build_lens_packet(evidence, spec, context)
 
     assert type(packet) is dict
     assert set(packet) == {"packet_id", "events", "rules", "rubric_version"}
@@ -348,7 +351,175 @@ def test_packet_contains_only_registered_rules_and_frozen_events() -> None:
     assert packet["rules"] == [_packet_rule_payload(_ethical_rule())]
     assert packet["rubric_version"] == "rv-1"
     assert len(packet["packet_id"]) == 64
-    assert_lens_packet_safe(packet)
+    assert_lens_packet_safe(packet, evidence, spec, context)
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    [
+        "packet_id",
+        "rubric_version",
+        "task_correctness",
+        "evidence_id_order",
+        "registered_action",
+        "rule_id",
+        "criterion",
+    ],
+)
+def test_strict_packet_validator_authenticates_exact_custody(
+    mutation: str,
+) -> None:
+    evidence = _complete_evidence()
+    spec = _spec()
+    context = _context()
+    packet = build_lens_packet(evidence, spec, context)
+
+    if mutation == "packet_id":
+        packet["packet_id"] = "f" * 64
+    elif mutation == "rubric_version":
+        packet["rubric_version"] = "rv-9"
+    elif mutation == "task_correctness":
+        packet["events"][0]["task_correctness"] = "correct"
+    elif mutation == "evidence_id_order":
+        packet["events"][0]["evidence_ids"] = ["E001", "S001"]
+    elif mutation == "registered_action":
+        packet["events"][0]["registered_actions"] = ["request_review"]
+    elif mutation == "rule_id":
+        packet["rules"][0]["rule_id"] = "R002"
+    else:
+        packet["rules"][0]["criterion"] = REGISTERED_CRITERIA["C002"]
+
+    with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
+        assert_lens_packet_safe(packet, evidence, spec, context)
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    [
+        "unknown_segment_id",
+        "reversed_evidence_ids",
+        "action_omission_overlap",
+        "duplicate_summaries",
+        "overlong_summary",
+    ],
+)
+def test_strict_packet_validator_preserves_task8_event_custody(
+    mutation: str,
+) -> None:
+    evidence = _complete_evidence()
+    spec = _spec()
+    context = _context()
+    packet = build_lens_packet(evidence, spec, context)
+    event = packet["events"][0]
+
+    if mutation == "unknown_segment_id":
+        event["evidence_ids"] = ["S999", "E001"]
+    elif mutation == "reversed_evidence_ids":
+        event["evidence_ids"] = ["E001", "S001"]
+    elif mutation == "action_omission_overlap":
+        event["registered_omissions"] = ["draft_message"]
+    elif mutation == "duplicate_summaries":
+        event["consequence_summaries"] = [
+            "A draft was retained for review.",
+            "A draft was retained for review.",
+        ]
+    else:
+        event["consequence_summaries"] = ["x" * 300]
+
+    with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
+        assert_lens_packet_safe(packet, evidence, spec, context)
+
+
+def test_strict_packet_validator_rejects_wrong_evidence_custody() -> None:
+    evidence = _complete_evidence()
+    changed_evidence = _complete_evidence(
+        consequence_summaries=["A different public consequence occurred."]
+    )
+    spec = _spec()
+    context = _context()
+    packet = build_lens_packet(evidence, spec, context)
+
+    with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
+        assert_lens_packet_safe(packet, changed_evidence, spec, context)
+
+
+def test_strict_packet_validator_rejects_wrong_spec_custody() -> None:
+    evidence = _complete_evidence()
+    spec = _spec()
+    changed_spec = replace(
+        spec,
+        rules=(replace(spec.rules[0], rule_id="R002"),),
+    )
+    context = _context()
+    packet = build_lens_packet(evidence, spec, context)
+
+    with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
+        assert_lens_packet_safe(packet, evidence, changed_spec, context)
+
+
+def test_strict_packet_validator_rejects_wrong_context_custody() -> None:
+    evidence = _complete_evidence()
+    spec = replace(_spec(), applicable_core_ids=("F01", "F02"))
+    context = _context(core_id="F01")
+    packet = build_lens_packet(evidence, spec, context)
+
+    with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
+        assert_lens_packet_safe(
+            packet, evidence, spec, _context(core_id="F02")
+        )
+
+
+def test_strict_packet_validator_rejects_inapplicable_custody() -> None:
+    evidence = _complete_evidence()
+    spec = _spec()
+    context = _context()
+    packet = build_lens_packet(evidence, spec, context)
+
+    with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
+        assert_lens_packet_safe(
+            packet, evidence, spec, replace(context, episode_role="null")
+        )
+
+
+@pytest.mark.parametrize(
+    "summary",
+    [
+        "Αποτέλεσμα: Η απόκριση διατηρήθηκε για έλεγχο.",
+        "Результат: Черновик сохранён для проверки.",
+        "结果：草稿已保留供审核。",
+    ],
+)
+def test_legitimate_non_ascii_declared_summary_builds_and_revalidates(
+    summary: str,
+) -> None:
+    evidence = _complete_evidence(consequence_summaries=[summary])
+    spec = _spec()
+    context = _context()
+
+    packet = build_lens_packet(evidence, spec, context)
+
+    assert packet["events"][0]["consequence_summaries"] == [summary]
+    assert_lens_packet_safe(packet, evidence, spec, context)
+
+
+@pytest.mark.parametrize(
+    "private_assignment",
+    [
+        "ᴍᴏᴅᴇʟ: hidden-value",
+        "mo-del: hidden-value",
+        "m.o.d.e.l: hidden-value",
+        "mоdel: hidden-value",
+    ],
+)
+def test_packet_build_still_rejects_obfuscated_private_assignments(
+    private_assignment: str,
+) -> None:
+    evidence = _complete_evidence(
+        consequence_summaries=[private_assignment]
+    )
+
+    with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
+        build_lens_packet(evidence, _spec(), _context())
 
 
 def test_packet_id_is_deterministic_and_input_bound() -> None:
@@ -600,7 +771,7 @@ def test_manifest_has_no_arbitrary_criterion_text_escape(
 )
 def test_packet_firewall_rejects_wrong_shapes_and_descriptive_ids(packet) -> None:
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(packet, _complete_evidence(), _spec(), _context())
 
 
 def test_packet_never_exposes_private_routing_or_source_custody() -> None:
@@ -877,7 +1048,7 @@ def test_additional_declared_metadata_has_no_free_text_route() -> None:
     packet["rules"][0]["criterion"] = "Use secretToken when judging."
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(packet, _complete_evidence(), spec, _context())
 
 
 @pytest.mark.parametrize("construct_id", ["K000", "K003", "free text", "Ｋ００１"])
@@ -1039,7 +1210,9 @@ def test_packet_rejects_oversized_unregistered_criterion_text() -> None:
     packet["rules"][0]["criterion"] = "x" * 4097
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 def test_manifest_errors_and_tracebacks_do_not_echo_hostile_values(
@@ -1080,7 +1253,9 @@ def test_direct_packet_firewall_rejects_private_action_identifiers() -> None:
     packet["events"][0]["registered_actions"] = ["lens_score"]
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 @pytest.mark.parametrize(
@@ -1098,7 +1273,9 @@ def test_direct_packet_firewall_structurally_rejects_obfuscated_metadata(
     packet["events"][0]["consequence_summaries"] = [private_assignment]
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 @pytest.mark.parametrize(
@@ -1129,7 +1306,9 @@ def test_direct_packet_firewall_rejects_mutated_semantic_boundaries(
     packet["rules"][0]["criterion"] = criterion
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 @pytest.mark.parametrize("criterion_id", ["C009", "custom", "C002"])
@@ -1140,7 +1319,9 @@ def test_direct_packet_firewall_rejects_mutated_criterion_ids(
     packet["rules"][0]["criterion_id"] = criterion_id
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 def test_direct_packet_firewall_rejects_mutated_contestability() -> None:
@@ -1150,7 +1331,9 @@ def test_direct_packet_firewall_rejects_mutated_contestability() -> None:
     )
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 def test_direct_packet_firewall_rejects_duplicate_rule_ids() -> None:
@@ -1159,7 +1342,9 @@ def test_direct_packet_firewall_rejects_duplicate_rule_ids() -> None:
     packet["rules"].append(duplicate)
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 @pytest.mark.parametrize(
@@ -1179,7 +1364,9 @@ def test_direct_packet_firewall_rejects_cross_pillar_rule_drift(
     packet["rules"][0]["doctrinal_status"] = doctrinal_status
 
     with pytest.raises(ValueError, match="^lens firewall rejected packet$"):
-        assert_lens_packet_safe(packet)
+        assert_lens_packet_safe(
+            packet, _complete_evidence(), _spec(), _context()
+        )
 
 
 def test_forecast_is_absent_from_lens_public_api_and_packet() -> None:

@@ -124,6 +124,11 @@ _CONFUSABLE_TRANSLATION = str.maketrans(
         "χ": "x",
         "ν": "v",
         "ζ": "z",
+        "ᴅ": "d",
+        "ᴇ": "e",
+        "ʟ": "l",
+        "ᴍ": "m",
+        "ᴏ": "o",
     }
 )
 _EVENT_FIELDS = frozenset(
@@ -468,31 +473,6 @@ def _contains_private_assignment(value: str) -> bool:
     )
 
 
-def _contains_mixed_script_assignment(value: str) -> bool:
-    for normalized in (
-        _policy_text(value),
-        _policy_text(value, join_controls=True),
-    ):
-        for marker in re.finditer(r"(?::|=|\bis\b)", normalized):
-            candidate = re.search(
-                r"([\w-]+)[\W_]*\Z", normalized[: marker.start()]
-            )
-            if candidate is None:
-                continue
-            identifier = candidate.group(1)
-            has_ascii_letter = any(
-                character.isascii() and character.isalpha()
-                for character in identifier
-            )
-            has_non_ascii_letter = any(
-                not character.isascii() and character.isalpha()
-                for character in identifier
-            )
-            if has_ascii_letter and has_non_ascii_letter:
-                return True
-    return False
-
-
 def _compact_metadata_aliases(
     names: tuple[str, ...] | frozenset[str],
 ) -> frozenset[str]:
@@ -507,23 +487,28 @@ def _contains_ambiguous_declared_assignment(
     value: str,
     aliases: frozenset[str],
 ) -> bool:
+    def matches_alias_suffix(left: str, alias: str) -> bool:
+        left_index = len(left) - 1
+        alias_index = len(alias) - 1
+        while alias_index >= 0:
+            while left_index >= 0 and not left[left_index].isalnum():
+                left_index -= 1
+            if left_index < 0:
+                return False
+            character = left[left_index]
+            if not character.isascii() or character != alias[alias_index]:
+                return False
+            left_index -= 1
+            alias_index -= 1
+        return left_index < 0 or not left[left_index].isalnum()
+
     for normalized in (
         _policy_text(value),
         _policy_text(value, join_controls=True),
     ):
         for marker in re.finditer(r"(?::|=|\bis\b)", normalized):
             left = normalized[max(0, marker.start() - 256) : marker.start()]
-            if any(
-                not character.isascii() and character.isalpha()
-                for character in left
-            ):
-                return True
-            compact = "".join(
-                character
-                for character in left
-                if character.isascii() and character.isalnum()
-            )
-            if any(compact.endswith(alias) for alias in aliases):
+            if any(matches_alias_suffix(left, alias) for alias in aliases):
                 return True
     return False
 
@@ -970,7 +955,6 @@ def _scan_visible_strings(
             if (
                 not _safe_string(current, max_bytes=64 * 1024)
                 or _contains_private_assignment(current)
-                or _contains_mixed_script_assignment(current)
                 or _contains_ambiguous_declared_assignment(
                     current, compact_aliases
                 )
@@ -1007,37 +991,121 @@ def _scan_visible_strings(
             raise ValueError
 
 
-def assert_lens_packet_safe(packet: dict[str, Json]) -> None:
-    """Validate the exact judge-visible lens packet without echoing failures."""
+def _context_is_applicable(
+    spec: LensSpec, context: LensRouteContext
+) -> bool:
+    return (
+        context.module == spec.module_owner
+        and context.core_id in spec.applicable_core_ids
+        and context.episode_role in spec.applicable_episode_roles
+        and context.behavioral_attribution
+        in spec.behavioral_attribution_states
+    )
+
+
+def _packet_from_validated_inputs(
+    evidence: FrozenObservableEvidence,
+    events: list[Json],
+    spec: LensSpec,
+    context: LensRouteContext,
+) -> dict[str, Json]:
+    rules: list[Json] = [_rule_to_json(rule) for rule in spec.rules]
+    packet_id_input: dict[str, Json] = {
+        "event_record_sha256": evidence.event_record_sha256,
+        "evidence_bundle_sha256": evidence.evidence_bundle_sha256,
+        "lens_spec": _spec_to_private_json(spec),
+        "routing_context": _context_to_private_json(context),
+        "rubric_version": spec.rubric_version,
+    }
+    return {
+        "packet_id": hashlib.sha256(
+            canonical_json_bytes(packet_id_input)
+        ).hexdigest(),
+        "events": json.loads(canonical_json_bytes(events)),
+        "rules": json.loads(canonical_json_bytes(rules)),
+        "rubric_version": spec.rubric_version,
+    }
+
+
+def _assert_packet_shape_and_firewall(
+    packet: Any,
+    forbidden_metadata: tuple[str, ...],
+) -> None:
+    if (
+        type(packet) is not dict
+        or set(packet)
+        != {"packet_id", "events", "rules", "rubric_version"}
+        or type(packet["packet_id"]) is not str
+        or _HASH.fullmatch(packet["packet_id"]) is None
+        or type(packet["rubric_version"]) is not str
+        or _RUBRIC_VERSION.fullmatch(packet["rubric_version"]) is None
+        or type(packet["events"]) is not list
+        or not packet["events"]
+        or len(packet["events"]) > 256
+        or type(packet["rules"]) is not list
+        or not packet["rules"]
+        or len(packet["rules"]) > _MAX_RULES
+    ):
+        raise ValueError
+    for row in packet["events"]:
+        _validate_event_projection(row)
+    for row in packet["rules"]:
+        _validate_rule_projection(row)
+    rule_ids = [row["rule_id"] for row in packet["rules"]]
+    if len(rule_ids) != len(set(rule_ids)):
+        raise ValueError
+    strict_metadata = tuple(
+        sorted(set(forbidden_metadata) - _REQUIRED_FORBIDDEN_METADATA)
+    )
+    _scan_visible_strings(
+        packet,
+        forbidden_metadata,
+        strict_forbidden_metadata=strict_metadata,
+    )
+    if len(canonical_json_bytes(packet)) > _MAX_PACKET_BYTES:
+        raise ValueError
+
+
+def assert_lens_packet_safe(
+    packet: dict[str, Json],
+    evidence: FrozenObservableEvidence,
+    spec: LensSpec,
+    context: LensRouteContext,
+) -> None:
+    """Authenticate one exact judge packet without echoing failures."""
 
     try:
-        if (
-            type(packet) is not dict
-            or set(packet)
-            != {"packet_id", "events", "rules", "rubric_version"}
-            or type(packet["packet_id"]) is not str
-            or _HASH.fullmatch(packet["packet_id"]) is None
-            or type(packet["rubric_version"]) is not str
-            or _RUBRIC_VERSION.fullmatch(packet["rubric_version"]) is None
-            or type(packet["events"]) is not list
-            or not packet["events"]
-            or len(packet["events"]) > 256
-            or type(packet["rules"]) is not list
-            or not packet["rules"]
-            or len(packet["rules"]) > _MAX_RULES
+        checked_spec = _validate_spec(spec)
+        checked_context = _validate_context(context)
+        checked_evidence, events = _validated_visible_events(evidence)
+        if not _context_is_applicable(checked_spec, checked_context):
+            raise ValueError
+        if any(
+            not set(checked_spec.required_event_fields).issubset(event)
+            for event in events
         ):
             raise ValueError
-        for row in packet["events"]:
-            _validate_event_projection(row)
-        for row in packet["rules"]:
-            _validate_rule_projection(row)
-        rule_ids = [row["rule_id"] for row in packet["rules"]]
-        if len(rule_ids) != len(set(rule_ids)):
+        expected = _packet_from_validated_inputs(
+            checked_evidence,
+            events,
+            checked_spec,
+            checked_context,
+        )
+        _assert_packet_shape_and_firewall(
+            packet, checked_spec.forbidden_metadata
+        )
+        if packet != expected:
             raise ValueError
-        _scan_visible_strings(packet, _REQUIRED_FORBIDDEN_METADATA)
-        if len(canonical_json_bytes(packet)) > _MAX_PACKET_BYTES:
-            raise ValueError
-    except (AttributeError, KeyError, TypeError, UnicodeError, ValueError):
+    except (
+        AttributeError,
+        KeyError,
+        OverflowError,
+        RecursionError,
+        RuntimeError,
+        TypeError,
+        UnicodeError,
+        ValueError,
+    ):
         raise ValueError(_FIREWALL_ERROR) from None
 
 
@@ -1051,51 +1119,20 @@ def build_lens_packet(
     checked_spec = _validate_spec(spec)
     checked_context = _validate_context(context)
     checked_evidence, events = _validated_visible_events(evidence)
-    if (
-        checked_context.module != checked_spec.module_owner
-        or checked_context.core_id not in checked_spec.applicable_core_ids
-        or checked_context.episode_role
-        not in checked_spec.applicable_episode_roles
-        or checked_context.behavioral_attribution
-        not in checked_spec.behavioral_attribution_states
-    ):
+    if not _context_is_applicable(checked_spec, checked_context):
         return NOT_APPLICABLE
     if any(
         not set(checked_spec.required_event_fields).issubset(event)
         for event in events
     ):
         raise ValueError("incomplete lens evidence")
-    rules: list[Json] = [_rule_to_json(rule) for rule in checked_spec.rules]
-    packet_id_input: dict[str, Json] = {
-        "event_record_sha256": checked_evidence.event_record_sha256,
-        "evidence_bundle_sha256": checked_evidence.evidence_bundle_sha256,
-        "lens_spec": _spec_to_private_json(checked_spec),
-        "routing_context": _context_to_private_json(checked_context),
-        "rubric_version": checked_spec.rubric_version,
-    }
-    packet: dict[str, Json] = {
-        "packet_id": hashlib.sha256(
-            canonical_json_bytes(packet_id_input)
-        ).hexdigest(),
-        "events": json.loads(canonical_json_bytes(events)),
-        "rules": json.loads(canonical_json_bytes(rules)),
-        "rubric_version": checked_spec.rubric_version,
-    }
-    assert_lens_packet_safe(packet)
-    try:
-        strict_metadata = tuple(
-            sorted(
-                set(checked_spec.forbidden_metadata)
-                - _REQUIRED_FORBIDDEN_METADATA
-            )
-        )
-        _scan_visible_strings(
-            packet,
-            checked_spec.forbidden_metadata,
-            strict_forbidden_metadata=strict_metadata,
-        )
-    except (AttributeError, KeyError, TypeError, UnicodeError, ValueError):
-        raise ValueError(_FIREWALL_ERROR) from None
+    packet = _packet_from_validated_inputs(
+        checked_evidence,
+        events,
+        checked_spec,
+        checked_context,
+    )
+    assert_lens_packet_safe(packet, evidence, spec, context)
     return packet
 
 

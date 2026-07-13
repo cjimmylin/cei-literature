@@ -164,6 +164,297 @@ def test_compile_rejects_internal_condition_labels_in_cue_surfaces_any_case(
         )
 
 
+@pytest.mark.parametrize(
+    ("location", "reserved"),
+    [
+        ("forecast_key", "Ｃ３"),
+        ("forecast_value", "conditionＣ３Surface"),
+        ("probe_key", "ordinary_𝐂𝟙_payload"),
+        ("probe_value", "visible 𝕮𝟤 label"),
+        ("primary_surface", "internal Ｃ０"),
+        ("primary_body", "condition𝑪𝟙Surface"),
+    ],
+)
+def test_compatibility_condition_labels_are_rejected_across_visible_calls(
+    location: str, reserved: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    if location == "forecast_key":
+        episode = replace(episode, forecast_payload={reserved: "ordinary"})
+    elif location == "forecast_value":
+        episode = replace(
+            episode, forecast_payload={"ordinary_note": reserved}
+        )
+    elif location == "probe_key":
+        episode = replace(
+            episode, probe_payload={"nested": [{reserved: "ordinary"}]}
+        )
+    elif location == "probe_value":
+        episode = replace(
+            episode, probe_payload={"nested": [{"ordinary": reserved}]}
+        )
+    elif location == "primary_surface":
+        variants = tuple(
+            replace(variant, cue_surface=reserved)
+            if variant.cue == "C1"
+            else variant
+            for variant in episode.variants
+        )
+        episode = replace(episode, variants=variants)
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=reserved)
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_compatibility_equivalent_cue_surfaces_are_not_distinct() -> None:
+    pack = _pack()
+    variant = replace(pack.episodes[0].variants[1], cue_surface="ｐｌａｉｎ")
+
+    with pytest.raises(ValueError, match="distinct"):
+        compile_schedule(
+            _with_variant(pack, 0, 1, variant), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    ("field_name", "protected_key"),
+    [
+        ("forecast_payload", "𝐚ctor𝑀odel"),
+        ("forecast_payload", "ｍｏｄｅｌ_id"),
+        ("forecast_payload", "ｐｒｏｖｉｄｅｒ_id"),
+        ("probe_payload", "𝓁ens-id"),
+        ("probe_payload", "roℓeLabel"),
+        ("probe_payload", "expecᵗed.label"),
+        ("probe_payload", "𝓅rivate_ﬁeld"),
+        ("probe_payload", "𝓈cheduleId"),
+    ],
+)
+def test_compatibility_policy_keys_are_rejected_recursively(
+    field_name: str, protected_key: str
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        **{field_name: {"outer": [{protected_key: "opaque"}]}},
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_compatibility_schedule_reference_keys_remain_reserved(
+    field_name: str,
+) -> None:
+    pack = _pack()
+    reserved_key = "ｐｒｉｍａｒｙ＿ｌｏｇｉｃａｌ＿ｃａｌｌ＿ｉｄ"
+    episode = replace(
+        pack.episodes[0],
+        **{field_name: {reserved_key: "opaque"}},
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    ("location", "protected_value"),
+    [
+        ("forecast", "ｍｏｄｅｌ_identity"),
+        ("probe", "ｐｒｉｖａｔｅ"),
+        ("primary_body", "ｅｘｐｅｃｔｅｄ_label"),
+        ("primary_token", "𝐚ctor_𝒎odel"),
+    ],
+)
+def test_compatibility_policy_values_are_rejected_recursively(
+    location: str, protected_value: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    if location == "forecast":
+        episode = replace(
+            episode,
+            forecast_payload={"outer": [{"ordinary": protected_value}]},
+        )
+    elif location == "probe":
+        episode = replace(
+            episode,
+            probe_payload={"outer": [{"ordinary": protected_value}]},
+        )
+    elif location == "primary_body":
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=protected_value)
+                for variant in episode.variants
+            ),
+        )
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(
+                    variant,
+                    semantic_response_tokens=(protected_value,),
+                )
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    ("field_name", "compatibility_hex"),
+    [
+        ("request_id", "ｃ３" + "ａ" * 14),
+        ("content_sha256", "ｃ２" + "ｂ" * 62),
+    ],
+)
+def test_compatibility_hex_does_not_gain_an_opaque_label_exemption(
+    field_name: str, compatibility_hex: str
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={field_name: compatibility_hex},
+    )
+
+    with pytest.raises(ValueError, match="reserved condition label"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_compatibility_hash_glyphs_are_not_accepted_as_ascii_sha256() -> None:
+    pack = _pack()
+    variants = tuple(
+        replace(variant, task_semantics_sha256="ｃ３" + "ａ" * 62)
+        for variant in pack.episodes[0].variants
+    )
+    episode = replace(pack.episodes[0], variants=variants)
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_benign_international_unicode_is_preserved_without_policy_rewrite() -> None:
+    pack = _pack()
+    forecast_payload = {
+        "ｑｕｅｓｔｉｏｎ": {
+            "説明": "ｈｅｌｌｏ oﬃce — 国際化された説明"
+        }
+    }
+    probe_payload = {
+        "追跡質問": ["普通の応答", "μοντέλο", "prívate"]
+    }
+    body = "最も責任ある次の行動を選んでください。"
+    surfaces = {"C0": "일반", "C1": "성서적", "C2": "세속적"}
+    tokens = ("回答", "理由")
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload=forecast_payload,
+        probe_payload=probe_payload,
+        variants=tuple(
+            replace(
+                variant,
+                cue_surface=surfaces[variant.cue],
+                shared_body=body,
+                semantic_response_tokens=tokens,
+            )
+            for variant in pack.episodes[0].variants
+        ),
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    forecast = next(
+        row for row in schedule.forecast_rows if row.episode_id == episode.episode_id
+    )
+    probe = next(
+        row for row in schedule.probe_rows if row.episode_id == episode.episode_id
+    )
+    primary = next(
+        row for row in schedule.primary_rows if row.episode_id == episode.episode_id
+    )
+    assert forecast.request_payload == forecast_payload
+    assert {
+        key: value
+        for key, value in probe.request_payload.items()
+        if key != "primary_logical_call_id"
+    } == probe_payload
+    assert primary.request_payload["shared_body"] == body
+    assert primary.request_payload["cue_surface"] == surfaces[primary.cue]
+    assert primary.request_payload["semantic_response_tokens"] == list(tokens)
+
+
+@pytest.mark.parametrize(
+    ("field_name", "payload"),
+    [
+        ("forecast_payload", {"ordinary": 1, "ｏｒｄｉｎａｒｙ": 2}),
+        (
+            "probe_payload",
+            {"nested": {"safe": "left", "ｓａｆｅ": "right"}},
+        ),
+    ],
+)
+def test_compatibility_colliding_policy_keys_are_rejected_recursively(
+    field_name: str, payload: dict
+) -> None:
+    pack = _pack()
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError, match="compatibility-colliding"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_compatibility_policy_view_restores_authored_tree_after_rejection(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    captured = {
+        "ｑｕｅｓｔｉｏｎ": {"ordinary": "ｐｒｉｖａｔｅ"}
+    }
+    authored = json.loads(json.dumps(captured))
+
+    def rejecting_policy(payload) -> None:
+        assert payload == {"question": {"ordinary": "private"}}
+        raise ValueError("unsafe model-visible payload")
+
+    monkeypatch.setattr(
+        schedule_module, "assert_actor_payload_safe", rejecting_policy
+    )
+
+    with pytest.raises(ValueError, match="unsafe model-visible payload"):
+        schedule_module._assert_actor_policy_safe(captured)
+
+    assert captured == authored
+    assert list(captured) == list(authored)
+
+
 def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
     encoded = _schedule().to_canonical_json()
     assert "C3" not in encoded

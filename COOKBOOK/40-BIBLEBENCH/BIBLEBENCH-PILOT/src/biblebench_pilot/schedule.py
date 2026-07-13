@@ -4,6 +4,7 @@ from collections import Counter
 from dataclasses import dataclass, replace
 import re
 from typing import Any, Literal
+import unicodedata
 
 from .artifacts import assert_actor_payload_safe
 from .contracts import Json, canonical_json_bytes, canonical_sha256
@@ -239,7 +240,7 @@ class Schedule:
         }
         encoded = canonical_json_bytes(value)
         text = encoded.decode("utf-8")
-        if _RESERVED_C3.search(text):
+        if _RESERVED_C3.search(_policy_text(text)):
             raise ValueError("schedule contains reserved condition")
         return text
 
@@ -262,6 +263,22 @@ def _strict_string(value: Any, name: str, *, nonempty: bool = True) -> str:
     if nonempty and not value.strip():
         raise ValueError(f"{name} must be nonempty")
     return value
+
+
+def _policy_text(value: str) -> str:
+    return unicodedata.normalize("NFKC", value)
+
+
+def _has_policy_key(payload: dict[str, Json], expected: str) -> bool:
+    return any(_policy_text(key) == expected for key in payload)
+
+
+def _has_compatibility_policy_key(
+    payload: dict[str, Json], expected: str
+) -> bool:
+    return any(
+        key != expected and _policy_text(key) == expected for key in payload
+    )
 
 
 def _field_allows_opaque_hex(field_name: str | None) -> bool:
@@ -315,7 +332,7 @@ def _assert_no_c3(
                 continue
             if _opaque_hex_is_allowed(field_name, current):
                 continue
-            if _EMBEDDED_CUE_LABEL.search(current):
+            if _EMBEDDED_CUE_LABEL.search(_policy_text(current)):
                 raise ValueError("value contains a reserved condition label")
             continue
         if current is None or type(current) in {bool, int, float}:
@@ -345,7 +362,9 @@ def _assert_no_c3(
             scheduled += additional
             children = []
             for key, child in current.items():
-                if type(key) is str and _EMBEDDED_CUE_LABEL.search(key):
+                if type(key) is str and _EMBEDDED_CUE_LABEL.search(
+                    _policy_text(key)
+                ):
                     raise ValueError("field contains a reserved condition label")
                 children.append((child, key if type(key) is str else None))
         elif type(current) in {tuple, list}:
@@ -361,7 +380,7 @@ def _assert_no_c3(
             scheduled += additional
             children = []
             for name, child in attributes.items():
-                if _EMBEDDED_CUE_LABEL.search(name):
+                if _EMBEDDED_CUE_LABEL.search(_policy_text(name)):
                     raise ValueError("field contains a reserved condition label")
                 children.append((child, name))
         for child, child_field in reversed(children):
@@ -380,11 +399,16 @@ def _assert_no_c3_fields(
 
 
 def _normalized_key(value: str) -> str:
-    return "".join(character.casefold() for character in value if character.isalnum())
+    normalized = _policy_text(value)
+    return "".join(
+        character.casefold()
+        for character in normalized
+        if character.isalnum()
+    )
 
 
 def _key_components(value: str) -> tuple[str, ...]:
-    separated = _CAMEL_KEY_BOUNDARY.sub("_", value)
+    separated = _CAMEL_KEY_BOUNDARY.sub("_", _policy_text(value))
     return tuple(
         component
         for component in _NON_ALNUM_KEY.split(separated.casefold())
@@ -489,6 +513,38 @@ def _bounded_json_snapshot(value: Any) -> Json:
     if len(encoded) > _MAX_REQUEST_BYTES:
         raise ValueError("JSON value exceeds limits")
     return snapshot
+
+
+def _normalized_policy_view(value: Json) -> Json:
+    if type(value) is str:
+        return _policy_text(value)
+    if type(value) is list:
+        return [_normalized_policy_view(child) for child in value]
+    if type(value) is dict:
+        normalized: dict[str, Json] = {}
+        for key, child in value.items():
+            policy_key = _policy_text(key)
+            if policy_key in normalized:
+                raise ValueError(
+                    "request payload contains compatibility-colliding fields"
+                )
+            normalized[policy_key] = _normalized_policy_view(child)
+        return normalized
+    return value
+
+
+def _assert_actor_policy_safe(captured: dict[str, Json]) -> None:
+    policy_view = _normalized_policy_view(captured)
+    if type(policy_view) is not dict:
+        raise ValueError("request payload policy view is invalid")
+    authored_items = list(captured.items())
+    captured.clear()
+    captured.update(policy_view)
+    try:
+        assert_actor_payload_safe(captured)
+    finally:
+        captured.clear()
+        captured.update(authored_items)
 
 
 def _protected_occurrence_is_benign(
@@ -657,7 +713,7 @@ def _checked_actor_payload(
     value: dict[str, Json], *, primary: bool = False
 ) -> dict[str, Json]:
     captured = _validate_payload(value, "request_payload")
-    assert_actor_payload_safe(captured)
+    _assert_actor_policy_safe(captured)
     _assert_no_identity_fields(captured)
     _assert_no_actor_visible_metadata_fields(captured, primary=primary)
     return captured
@@ -676,7 +732,7 @@ def _validate_variant(variant: Any) -> CueVariant:
     if type(variant.cue) is not str or variant.cue not in _CUES:
         raise ValueError("invalid cue")
     _strict_string(variant.cue_surface, "cue_surface")
-    if _CUE_LABEL.search(variant.cue_surface):
+    if _CUE_LABEL.search(_policy_text(variant.cue_surface)):
         raise ValueError("cue_surface exposes an internal cue label")
     _strict_string(variant.shared_body, "shared_body")
     for name in (
@@ -719,7 +775,9 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
     )
     probe_payload = _validate_payload(episode.probe_payload, "probe_payload")
     _assert_no_identity_fields(probe_payload)
-    if "primary_logical_call_id" in probe_payload:
+    if _has_policy_key(
+        forecast_payload, "primary_logical_call_id"
+    ) or _has_policy_key(probe_payload, "primary_logical_call_id"):
         raise ValueError("probe payload reserves primary_logical_call_id")
     if type(episode.variants) is not tuple:
         _type_error("variants must be a tuple")
@@ -749,7 +807,7 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
         if canonical_json_bytes(variant.decoding) != baseline_decoding:
             raise ValueError("cue variants change decoding")
     surfaces = [variant.cue_surface for variant in ordered]
-    if len(set(surfaces)) != 3:
+    if len({_policy_text(surface) for surface in surfaces}) != 3:
         raise ValueError("cue surfaces must be distinct")
     return replace(
         episode,
@@ -1098,7 +1156,7 @@ def _assert_primary_payload(payload: dict[str, Json]) -> None:
         raise ValueError("primary request payload has unexpected fields")
     _strict_string(payload["shared_body"], "shared_body")
     _strict_string(payload["cue_surface"], "cue_surface")
-    if _CUE_LABEL.search(payload["cue_surface"]):
+    if _CUE_LABEL.search(_policy_text(payload["cue_surface"])):
         raise ValueError("primary request exposes an internal cue label")
     tokens = payload["semantic_response_tokens"]
     if type(tokens) is not list or not tokens:
@@ -1225,7 +1283,9 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
             or forecast.presentation_position != -1
         ):
             raise ValueError("forecast must be first and condition independent")
-        if "primary_logical_call_id" in forecast.request_payload:
+        if _has_policy_key(
+            forecast.request_payload, "primary_logical_call_id"
+        ):
             raise ValueError("forecast payload references a condition-specific call")
         _record_cross_actor_semantics(
             forecast_semantics,
@@ -1258,6 +1318,12 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
                 raise ValueError("primary/probe sequence is not counterbalanced")
             _assert_primary_payload(primary.request_payload)
             _assert_no_identity_fields(probe.request_payload)
+            if _has_compatibility_policy_key(
+                probe.request_payload, "primary_logical_call_id"
+            ):
+                raise ValueError(
+                    "probe contains a compatibility-equivalent call reference"
+                )
             if probe.request_payload.get("primary_logical_call_id") != primary.logical_call_id:
                 raise ValueError("probe does not reference its immediately preceding primary")
             semantic_key = (bundle.episode_id, cue)
@@ -1285,7 +1351,11 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
             role_position_counts[
                 (bundle.actor_id, bundle.role, position, cue)
             ] += 1
-        if len(set(bodies)) != 1 or len(set(token_sequences)) != 1 or len(set(surfaces)) != 3:
+        if (
+            len(set(bodies)) != 1
+            or len(set(token_sequences)) != 1
+            or len({_policy_text(surface) for surface in surfaces}) != 3
+        ):
             raise ValueError("condition payload semantics are not invariant")
 
     if (

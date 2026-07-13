@@ -3,7 +3,6 @@ from __future__ import annotations
 import hashlib
 import importlib
 import json
-import math
 from types import SimpleNamespace
 
 import pytest
@@ -666,13 +665,16 @@ def _exact_selection(r):
     for surface, count in r.SURFACE_COUNTS.items():
         for index in range(count):
             item_id = f"{surface}-{index}"
+            response = f"response:{item_id}"
             units.append(
                 {
                     "surface": surface,
                     "item_id": item_id,
                     "sut_slug": "synthetic/sut",
-                    "sut_response": f"response:{item_id}",
-                    "response_sha256": f"hash:{item_id}",
+                    "sut_response": response,
+                    "response_sha256": hashlib.sha256(
+                        response.encode()
+                    ).hexdigest(),
                     "axis": "end" if surface == "coherence" else None,
                     "comparators": {},
                 }
@@ -717,7 +719,28 @@ def _complete_qualifications(r):
 
 def _complete_raw_evidence(r, selection):
     records = []
-    for name, family, slug in r.CANDIDATES:
+    for sequence, (name, family, slug) in enumerate(r.CANDIDATES, 1):
+        records.extend(
+            [
+                {
+                    "kind": "call_timing",
+                    "judge": name,
+                    "slug": slug,
+                    "item_id": "QUALIFICATION",
+                    "timing_sequence": sequence,
+                },
+                {
+                    "kind": "raw_call",
+                    "judge": name,
+                    "family": family,
+                    "slug": slug,
+                    "item_id": "QUALIFICATION",
+                    "timing_sequence": sequence,
+                    "invocation": 1,
+                    "attempt": 0,
+                },
+            ]
+        )
         for probe in r.PROBES:
             for rep in range(r.K):
                 records.append(
@@ -728,6 +751,9 @@ def _complete_raw_evidence(r, selection):
                         "slug": slug,
                         "probe": probe,
                         "rep": rep,
+                        "passed": True,
+                        "cause": "pass",
+                        "detail": "synthetic substantive evidence",
                     }
                 )
         for unit in selection:
@@ -816,6 +842,11 @@ def test_shadow_budget_is_strictly_bounded(budget):
 
 def test_one_dollar_shadow_budget_is_accepted():
     assert _runner().validate_options(1.0) is None
+
+
+def test_nonnumeric_budget_raises_preflight_with_repr():
+    with pytest.raises(_runner().PreflightError, match="received 'one'"):
+        _runner().validate_options("one")
 
 
 @pytest.mark.parametrize(
@@ -1076,8 +1107,8 @@ def test_invalid_response_usage_latches_accounting_and_persists_partial(
     assert outcome.partial_reason
     assert "accounting" in outcome.partial_reason
     assert metadata["run_status"] == "PARTIAL"
-    assert math.isfinite(metadata["internal_total_usd"])
-    assert metadata["internal_total_usd"] >= 0
+    assert metadata["internal_total_usd"] is None
+    assert metadata["reconciliation"]["status"] == "UNRECONCILED"
     assert len(raw_calls) == 1
     assert raw_calls[0]["error"]
     assert raw_calls[0]["usage"]
@@ -1524,11 +1555,12 @@ def test_final_accounting_failure_persists_partial_artifacts(
 
     metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
     report = (out_dir / "20260712-shadow-judge-bakeoff-report.md").read_text()
-    assert outcome.internal_total_usd == 0.0
+    assert outcome.internal_total_usd is None
     assert outcome.partial_reason
     assert "accounting" in outcome.partial_reason
     assert "RuntimeError: accounting unavailable" in outcome.partial_reason
-    assert metadata["internal_total_usd"] == 0.0
+    assert metadata["internal_total_usd"] is None
+    assert metadata["reconciliation"]["status"] == "UNRECONCILED"
     assert metadata["run_status"] == "PARTIAL"
     assert metadata["partial_reason"] == outcome.partial_reason
     assert "PARTIAL" in report
@@ -1553,6 +1585,57 @@ def test_exact_persisted_evidence_is_complete():
         "timing_pairs_complete": True,
         "issues": [],
     }
+
+
+@pytest.mark.parametrize(
+    "defect,issue",
+    [
+        ("threshold", "qualification substance"),
+        ("probe_detail", "probe substance"),
+        ("probe_n_pass", "probe substance"),
+        ("hollow_verdict", "verdict substance"),
+        ("duplicate_selection", "selection substance"),
+        ("bad_hash", "selection substance"),
+        ("missing_timing", "timing substance"),
+        ("timing_mismatch", "timing substance"),
+    ],
+)
+def test_evidence_counts_require_substantive_records(defect, issue):
+    r = _runner()
+    selection = _exact_selection(r)
+    qualifications = _complete_qualifications(r)
+    raw_records = _complete_raw_evidence(r, selection)
+
+    if defect == "threshold":
+        qualifications[r.CANDIDATES[0][0]].threshold += 1
+    elif defect == "probe_detail":
+        next(x for x in raw_records if x["kind"] == "probe_rep")["detail"] = ""
+    elif defect == "probe_n_pass":
+        next(x for x in raw_records if x["kind"] == "probe_rep")["passed"] = False
+    elif defect == "hollow_verdict":
+        verdict = next(x for x in raw_records if x["kind"] == "shadow_verdict")
+        verdict["result"] = None
+        verdict["error"] = ""
+    elif defect == "duplicate_selection":
+        for field in ("surface", "item_id", "sut_slug"):
+            selection[0][field] = selection[1][field]
+    elif defect == "bad_hash":
+        selection[0]["response_sha256"] = "not-the-response-hash"
+    elif defect == "missing_timing":
+        raw_records = [
+            x
+            for x in raw_records
+            if x["kind"] not in {"call_timing", "raw_call"}
+        ]
+    elif defect == "timing_mismatch":
+        next(x for x in raw_records if x["kind"] == "call_timing")[
+            "item_id"
+        ] = "DIFFERENT"
+
+    evidence = r.assess_evidence(selection, qualifications, raw_records)
+
+    assert evidence["complete"] is False
+    assert any(issue in value for value in evidence["issues"])
 
 
 def test_default_qualification_cannot_swallow_missing_usage_into_complete(
@@ -1596,9 +1679,48 @@ def test_default_qualification_cannot_swallow_missing_usage_into_complete(
     assert MissingUsageScriptedClient.underlying_calls == 1
     assert outcome.partial_reason
     assert "accounting" in outcome.partial_reason
+    assert outcome.internal_total_usd is None
     assert metadata["run_status"] == "PARTIAL"
     assert metadata["probe_reps_recorded"] == 96
+    assert metadata["reconciliation"]["status"] == "UNRECONCILED"
     assert metadata["partial_reason"] == outcome.partial_reason
+
+
+def test_guard_fatal_error_makes_internal_accounting_unavailable(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class NoCallClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+
+    def fatal_qualification(client, *, name, family, slug, **_kwargs):
+        client.guard.block_fatal("synthetic fatal evidence error")
+        return _complete_qualification(r, name, family, slug)
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=NoCallClient,
+        qualify_fn=fatal_qualification,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    assert outcome.internal_total_usd is None
+    assert "fatal evidence" in outcome.partial_reason
+    assert metadata["reconciliation"]["status"] == "UNRECONCILED"
 
 
 def test_late_sink_failure_preserves_persisted_verdict_progress(
@@ -1672,6 +1794,51 @@ def test_late_sink_failure_preserves_persisted_verdict_progress(
     assert metadata["run_status"] == "PARTIAL"
 
 
+def test_candidate_one_qualification_is_recovered_when_candidate_two_fails(
+    tmp_path,
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class NoCallClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+
+    def second_candidate_fails(_client, *, name, family, slug, **_kwargs):
+        if name == r.CANDIDATES[1][0]:
+            raise RuntimeError("candidate two failed")
+        return _complete_qualification(r, name, family, slug)
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=NoCallClient,
+        qualify_fn=second_candidate_fails,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    first_name = r.CANDIDATES[0][0]
+    assert set(outcome.qualifications) == {first_name}
+    recovered = outcome.qualifications[first_name]
+    assert isinstance(recovered, JudgeQualification)
+    assert all(recovered.probe_reps[probe].n_pass == r.K for probe in r.PROBES)
+    assert metadata["probe_reps_recorded"] == 48
+    assert metadata["qualification_complete"] is False
+    assert metadata["run_status"] == "PARTIAL"
+
+
 @pytest.mark.parametrize("invalid_total", [float("nan"), float("inf"), -0.01])
 def test_invalid_internal_total_is_conservative_partial(
     monkeypatch, invalid_total, tmp_path
@@ -1708,9 +1875,10 @@ def test_invalid_internal_total_is_conservative_partial(
     )
 
     metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
-    assert outcome.internal_total_usd == 0.0
+    assert outcome.internal_total_usd is None
     assert "internal total" in outcome.partial_reason
-    assert metadata["internal_total_usd"] == 0.0
+    assert metadata["internal_total_usd"] is None
+    assert metadata["reconciliation"]["status"] == "UNRECONCILED"
     assert metadata["run_status"] == "PARTIAL"
 
 

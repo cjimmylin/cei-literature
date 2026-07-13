@@ -43,7 +43,9 @@ from wcfbench.qualification import (
     DEFAULT_K,
     DEFAULT_THRESHOLD,
     PROBES,
+    SURFACE_PROBES,
     JudgeQualification,
+    ProbeReps,
     current_template_hashes,
     load_manifest,
     qualify_judge,
@@ -262,7 +264,7 @@ def validate_options(budget):
     ):
         raise PreflightError(
             f"shadow budget must be >$0 and <=${MAX_BUDGET:.2f}; "
-            f"received ${budget:.2f}"
+            f"received {budget!r}"
         )
 
 
@@ -560,7 +562,7 @@ class ShadowOutcome:
     paths: Dict[str, str]
     qualifications: Dict[str, Any]
     verdicts: List[Dict[str, Any]]
-    internal_total_usd: float
+    internal_total_usd: Optional[float]
     partial_reason: Optional[str]
 
 
@@ -633,6 +635,7 @@ def _qualification_coverage_complete(qualifications):
             or qualification.family != family
             or qualification.slug != slug
             or qualification.k != K
+            or qualification.threshold != THRESHOLD
             or set(qualification.probe_reps) != set(PROBES)
         ):
             return False
@@ -648,14 +651,105 @@ def _qualification_coverage_complete(qualifications):
     return True
 
 
+def recover_qualifications(qualifications, raw_records):
+    recovered = dict(qualifications)
+    for name, family, slug in CANDIDATES:
+        if name in recovered:
+            continue
+        candidate_records = [
+            record
+            for record in raw_records
+            if record.get("kind") == "probe_rep"
+            and record.get("judge") == name
+            and record.get("family") == family
+            and record.get("slug") == slug
+        ]
+        if len(candidate_records) != len(PROBES) * K:
+            continue
+        probe_reps = {}
+        for probe in PROBES:
+            records = sorted(
+                (
+                    record
+                    for record in candidate_records
+                    if record.get("probe") == probe
+                ),
+                key=lambda record: record.get("rep", -1),
+            )
+            if (
+                len(records) != K
+                or {record.get("rep") for record in records}
+                != set(range(K))
+                or not all(
+                    isinstance(record.get("passed"), bool)
+                    and isinstance(record.get("cause"), str)
+                    and bool(record["cause"].strip())
+                    and isinstance(record.get("detail"), str)
+                    and bool(record["detail"].strip())
+                    for record in records
+                )
+            ):
+                probe_reps = {}
+                break
+            reps = [
+                {
+                    "rep": record["rep"],
+                    "passed": record["passed"],
+                    "cause": record["cause"],
+                    "detail": record["detail"],
+                }
+                for record in records
+            ]
+            probe_reps[probe] = ProbeReps(
+                probe=probe,
+                k=K,
+                n_pass=sum(record["passed"] for record in records),
+                reps=reps,
+            )
+        if set(probe_reps) != set(PROBES):
+            continue
+        passed = {
+            probe: probe_reps[probe].n_pass >= THRESHOLD for probe in PROBES
+        }
+        surfaces = {
+            surface
+            for surface, gates in SURFACE_PROBES.items()
+            if all(passed[probe] for probe in gates)
+        }
+        recovered[name] = JudgeQualification(
+            name=name,
+            family=family,
+            slug=slug,
+            k=K,
+            threshold=THRESHOLD,
+            probe_reps=probe_reps,
+            surfaces=surfaces,
+        )
+    return recovered
+
+
 def assess_evidence(selection, qualifications, raw_records):
     surface_counts = {
         surface: sum(unit.get("surface") == surface for unit in selection)
         for surface in SURFACE_COUNTS
     }
+    selection_identities = [
+        (unit.get("surface"), unit.get("item_id"), unit.get("sut_slug"))
+        for unit in selection
+    ]
+    selection_substantive = (
+        len(set(selection_identities)) == len(selection_identities)
+        and all(
+            isinstance(unit.get("sut_response"), str)
+            and unit.get("response_sha256")
+            == hashlib.sha256(unit["sut_response"].encode()).hexdigest()
+            for unit in selection
+        )
+    )
     selection_complete = (
         len(selection) == sum(SURFACE_COUNTS.values())
         and surface_counts == SURFACE_COUNTS
+        and selection_substantive
     )
     qualification_complete = _qualification_coverage_complete(qualifications)
 
@@ -672,7 +766,36 @@ def assess_evidence(selection, qualifications, raw_records):
         (record.get("judge"), record.get("probe"), record.get("rep"))
         for record in probe_records
     )
-    probe_coverage_complete = actual_probes == expected_probes
+    candidate_identity = {
+        name: (family, slug) for name, family, slug in CANDIDATES
+    }
+    probe_substantive = all(
+        isinstance(record.get("passed"), bool)
+        and isinstance(record.get("cause"), str)
+        and bool(record["cause"].strip())
+        and isinstance(record.get("detail"), str)
+        and bool(record["detail"].strip())
+        and record.get("judge") in candidate_identity
+        and (record.get("family"), record.get("slug"))
+        == candidate_identity.get(record.get("judge"))
+        for record in probe_records
+    )
+    n_pass_consistent = qualification_complete and all(
+        sum(
+            bool(record.get("passed"))
+            for record in probe_records
+            if record.get("judge") == name
+            and record.get("probe") == probe
+        )
+        == qualifications[name].probe_reps[probe].n_pass
+        for name, _family, _slug in CANDIDATES
+        for probe in PROBES
+    )
+    probe_coverage_complete = (
+        actual_probes == expected_probes
+        and probe_substantive
+        and n_pass_consistent
+    )
 
     verdict_records = [
         record
@@ -700,8 +823,22 @@ def assess_evidence(selection, qualifications, raw_records):
         )
         for record in verdict_records
     )
+    verdict_substantive = all(
+        (
+            bool(record.get("result"))
+            if isinstance(record.get("result"), (dict, list, str))
+            else record.get("result") is not None
+        )
+        or (
+            isinstance(record.get("error"), str)
+            and bool(record["error"].strip())
+        )
+        for record in verdict_records
+    )
     verdict_coverage_complete = (
-        len(verdict_records) == 56 and actual_verdicts == expected_verdicts
+        len(verdict_records) == 56
+        and actual_verdicts == expected_verdicts
+        and verdict_substantive
     )
 
     timings = [
@@ -718,11 +855,31 @@ def assess_evidence(selection, qualifications, raw_records):
         (record.get("judge"), record.get("timing_sequence"))
         for record in raw_calls
     )
+    timing_by_key = {
+        (record.get("judge"), record.get("timing_sequence")): record
+        for record in timings
+    }
+    raw_by_key = {
+        (record.get("judge"), record.get("timing_sequence")): record
+        for record in raw_calls
+    }
+    timing_semantics_match = all(
+        key[0] in candidate_identity
+        and timing_by_key[key].get("slug") == candidate_identity[key[0]][1]
+        and raw_by_key[key].get("family") == candidate_identity[key[0]][0]
+        and raw_by_key[key].get("slug") == candidate_identity[key[0]][1]
+        and timing_by_key[key].get("item_id")
+        == raw_by_key[key].get("item_id")
+        for key in timing_by_key.keys() & raw_by_key.keys()
+    )
+    has_execution_evidence = bool(probe_records or verdict_records)
     timing_pairs_complete = (
         timing_keys == raw_keys
         and all(key[1] is not None for key in timing_keys)
         and all(count == 1 for count in timing_keys.values())
         and all(count == 1 for count in raw_keys.values())
+        and (not has_execution_evidence or bool(timings and raw_calls))
+        and timing_semantics_match
         and all(
             isinstance(record.get("invocation"), int)
             and isinstance(record.get("attempt"), int)
@@ -732,15 +889,19 @@ def assess_evidence(selection, qualifications, raw_records):
 
     issues = []
     if not selection_complete:
-        issues.append("selection is not exact 8/8/6/6 (28 units)")
+        issues.append(
+            "selection substance/coverage is not exact unique 8/8/6/6"
+        )
     if not qualification_complete:
-        issues.append("qualification objects lack exact two-candidate K=8 coverage")
+        issues.append(
+            "qualification substance lacks exact threshold and K=8 coverage"
+        )
     if not probe_coverage_complete:
-        issues.append("persisted probe_rep coverage is not exact 96 records")
+        issues.append("probe substance/coverage is not exact or n_pass-consistent")
     if not verdict_coverage_complete:
-        issues.append("persisted shadow_verdict coverage is not exact 56 records")
+        issues.append("verdict substance/coverage is not exact 56 records")
     if not timing_pairs_complete:
-        issues.append("call_timing/raw_call attempts are not paired one-to-one")
+        issues.append("timing substance is not nonempty, matched, and one-to-one")
     return {
         "complete": not issues,
         "selection_complete": selection_complete,
@@ -778,7 +939,11 @@ def build_metadata(
         budget=budget,
     )
     reasons = [partial_reason] if partial_reason else []
-    if internal_total > budget and not partial_reason:
+    if (
+        _finite_nonnegative(internal_total)
+        and internal_total > budget
+        and not partial_reason
+    ):
         reasons.append(
             f"actual internal total ${internal_total:.4f} exceeded "
             f"budget ${budget:.2f}"
@@ -879,7 +1044,7 @@ def execute_live(
     qualifications = {}
     verdicts = []
     guard = None
-    internal = 0.0
+    internal = None
     key_after = None
     partial_reasons = []
 
@@ -942,6 +1107,9 @@ def execute_live(
         add_partial_reason(f"{type(exc).__name__}: {exc}")
 
     if guard is not None:
+        accounting_unavailable = bool(
+            guard.accounting_error or guard.fatal_error
+        )
         if guard.accounting_error:
             add_partial_reason(
                 f"accounting error: {guard.accounting_error}"
@@ -951,18 +1119,19 @@ def execute_live(
         try:
             measured_total = guard.total_usd()
         except Exception as exc:
+            accounting_unavailable = True
             add_partial_reason(
                 f"accounting failure: {type(exc).__name__}: {exc}"
             )
         else:
             if not _finite_nonnegative(measured_total):
+                accounting_unavailable = True
                 add_partial_reason(
                     "internal total must be finite and nonnegative"
                 )
-                internal = 0.0
-            else:
+            if not accounting_unavailable:
                 internal = float(measured_total)
-            if internal > budget:
+            if internal is not None and internal > budget:
                 add_partial_reason(
                     f"actual internal total ${internal:.4f} exceeded "
                     f"budget ${budget:.2f}"
@@ -994,6 +1163,7 @@ def execute_live(
         for record in raw_records
         if record.get("kind") == "shadow_verdict"
     ]
+    qualifications = recover_qualifications(qualifications, raw_records)
     reconciliation = build_reconciliation(
         internal_total=internal,
         key_before=key_before,

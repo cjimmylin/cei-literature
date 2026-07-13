@@ -6,6 +6,8 @@ import json
 
 import pytest
 
+from wcfbench.qualification import JudgeQualification, ProbeReps
+
 
 def _runner():
     return importlib.import_module("shadow_judge_bakeoff")
@@ -135,3 +137,101 @@ def test_write_selection_is_create_new(tmp_path):
     assert json.loads(path.read_text())["surface_counts"] == r.SURFACE_COUNTS
     with pytest.raises(FileExistsError):
         r.write_json_new(str(path), {"units": []})
+
+
+def test_shadow_battery_calls_only_two_candidates():
+    r = _runner()
+    calls = []
+
+    def fake_qualify(client, *, name, family, slug, k, threshold):
+        assert client == slug
+        calls.append((name, family, slug, k, threshold))
+        return f"qualified:{name}"
+
+    results = r.run_shadow_batteries(
+        client_factory=lambda _name, _family, slug: slug,
+        qualify_fn=fake_qualify,
+    )
+
+    assert calls == [
+        ("glm-5.2", "z-ai", "z-ai/glm-5.2", 8, 5),
+        (
+            "deepseek-v4-pro",
+            "deepseek",
+            "deepseek/deepseek-v4-pro",
+            8,
+            5,
+        ),
+    ]
+    assert results == {
+        "glm-5.2": "qualified:glm-5.2",
+        "deepseek-v4-pro": "qualified:deepseek-v4-pro",
+    }
+
+
+def test_template_hash_mismatch_stops():
+    r = _runner()
+    with pytest.raises(r.PreflightError, match="template hash"):
+        r.assert_template_hashes({"template_hashes": {"g4": "stale"}})
+
+
+def test_current_ratified_manifest_template_hashes_pass():
+    r = _runner()
+    manifest = r.load_manifest(r.MANIFEST_PATH)
+    assert r.assert_template_hashes(manifest) is None
+
+
+def test_persist_probe_reps_writes_fixed_order_complete_records():
+    r = _runner()
+    probe_reps = {}
+    for index, probe in enumerate(reversed(r.PROBES)):
+        probe_reps[probe] = ProbeReps(
+            probe=probe,
+            k=1,
+            n_pass=1,
+            reps=[
+                {
+                    "rep": index,
+                    "passed": True,
+                    "cause": "pass",
+                    "detail": f"detail:{probe}",
+                }
+            ],
+        )
+    qualification = JudgeQualification(
+        name="glm-5.2",
+        family="z-ai",
+        slug="z-ai/glm-5.2",
+        k=1,
+        threshold=1,
+        probe_reps=probe_reps,
+    )
+
+    class CapturingSink:
+        def __init__(self):
+            self.records = []
+
+        def write(self, record):
+            self.records.append(record)
+
+    sink = CapturingSink()
+    r.persist_probe_reps(
+        sink, qualification, now=lambda: "2026-07-12T12:00:00"
+    )
+
+    assert [record["probe"] for record in sink.records] == list(r.PROBES)
+    assert len(sink.records) == len(r.PROBES)
+    for record in sink.records:
+        rep = probe_reps[record["probe"]].reps[0]
+        assert record == {
+            "kind": "probe_rep",
+            "timestamp": "2026-07-12T12:00:00",
+            "judge": "glm-5.2",
+            "family": "z-ai",
+            "slug": "z-ai/glm-5.2",
+            "probe": record["probe"],
+            "rep": rep["rep"],
+            "passed": rep["passed"],
+            "cause": rep["cause"],
+            "detail": rep["detail"],
+        }

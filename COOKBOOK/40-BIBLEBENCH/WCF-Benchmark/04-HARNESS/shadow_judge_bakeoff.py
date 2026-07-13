@@ -194,3 +194,53 @@ def build_selection(*, open_path, floor_path, r33_path, bank_dir):
 def write_json_new(path, value):
     with open(path, "x", encoding="utf-8") as fh:
         json.dump(value, fh, indent=2, sort_keys=True)
+
+
+def persist_probe_reps(sink, qualification, now):
+    for probe in PROBES:
+        for rep in qualification.probe_reps[probe].reps:
+            sink.write(
+                {
+                    "kind": "probe_rep",
+                    "timestamp": now(),
+                    "judge": qualification.name,
+                    "family": qualification.family,
+                    "slug": qualification.slug,
+                    "probe": probe,
+                    "rep": rep["rep"],
+                    "passed": rep["passed"],
+                    "cause": rep["cause"],
+                    "detail": rep["detail"],
+                }
+            )
+
+
+def run_shadow_batteries(
+    *,
+    client_factory,
+    qualify_fn=qualify_judge,
+    sink=None,
+    now=lambda: datetime.datetime.now().isoformat(timespec="seconds"),
+):
+    results = {}
+    for name, family, slug in CANDIDATES:
+        client = client_factory(name, family, slug)
+        result = qualify_fn(
+            client,
+            name=name,
+            family=family,
+            slug=slug,
+            k=K,
+            threshold=THRESHOLD,
+        )
+        results[name] = result
+        if sink is not None and isinstance(result, JudgeQualification):
+            persist_probe_reps(sink, result, now)
+    return results
+
+
+def assert_template_hashes(manifest):
+    if manifest.get("template_hashes") != current_template_hashes():
+        raise PreflightError(
+            "qualification template hash mismatch; stop before spending"
+        )

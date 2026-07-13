@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 import json
 import re
 from typing import Any, Literal
@@ -32,14 +32,39 @@ _CUE_LABEL = re.compile(
 _RESERVED_C3 = re.compile(
     r"(?<![A-Za-z0-9])C3(?![A-Za-z0-9])", re.IGNORECASE
 )
+_EMBEDDED_CUE_LABEL = re.compile(r"C[0-3]", re.IGNORECASE)
+_OPAQUE_HEX = re.compile(r"(?:[0-9a-f]{16}|[0-9a-f]{64})")
+_MAX_VISIBLE_DEPTH = 128
 _CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
-_LATER_SCOPE_PREFIXES = frozenset({"lens", "intervention", "physical"})
 _LATER_SCOPE_EXACT_KEYS = frozenset(
     {"lensid", "interventionid", "physicalid", "physicalattemptid", "attemptid"}
 )
 _IDENTIFIER_COMPONENTS = frozenset({"id", "identifier"})
 _ACTOR_METADATA_KEYS = frozenset({"role"})
+_LATER_SCOPE_QUALIFIERS = frozenset(
+    {"id", "identifier", "call", "result", "config", "attempt", "description"}
+)
+_PHYSICAL_SCOPE_QUALIFIERS = frozenset(
+    {"id", "identifier", "call", "attempt"}
+)
+_BLIND_FORECAST_COMPONENTS = frozenset(
+    {
+        "cue",
+        "condition",
+        "actor",
+        "model",
+        "provider",
+        "route",
+        "schedule",
+        "bundle",
+        "episode",
+        "role",
+        "expected",
+        "gold",
+        "private",
+    }
+)
 
 
 @dataclass(frozen=True)
@@ -153,41 +178,61 @@ def _strict_string(value: Any, name: str, *, nonempty: bool = True) -> str:
     return value
 
 
-def _field_names_c3(value: str) -> bool:
-    return _RESERVED_C3.search(value) is not None
+def _opaque_hex_is_allowed(field_name: str | None, value: str) -> bool:
+    if field_name is None or _OPAQUE_HEX.fullmatch(value) is None:
+        return False
+    normalized = _normalized_key(field_name)
+    components = _key_components(field_name)
+    return (
+        normalized.endswith("sha256")
+        or (bool(components) and components[-1] in {"id", "ids"})
+    )
 
 
-def _assert_no_c3(value: Any, *, active: set[int] | None = None) -> None:
-    if active is None:
-        active = set()
-    if type(value) is str:
-        if _RESERVED_C3.search(value):
-            raise ValueError("pack contains reserved condition")
-        return
-    if value is None or type(value) in {bool, int, float}:
-        return
-    if type(value) in {tuple, list, dict} or hasattr(value, "__dict__"):
-        identifier = id(value)
-        if identifier in active:
-            return
-        active.add(identifier)
-        try:
-            if type(value) is dict:
-                for key, child in value.items():
-                    if type(key) is str and _field_names_c3(key):
-                        raise ValueError("pack contains a reserved condition field")
-                    _assert_no_c3(key, active=active)
-                    _assert_no_c3(child, active=active)
-            elif type(value) in {tuple, list}:
-                for child in value:
-                    _assert_no_c3(child, active=active)
-            else:
-                for name, child in vars(value).items():
-                    if _field_names_c3(name):
-                        raise ValueError("pack contains a reserved condition field")
-                    _assert_no_c3(child, active=active)
-        finally:
-            active.remove(identifier)
+def _assert_no_c3(value: Any) -> None:
+    stack: list[tuple[str, Any, int, str | None]] = [
+        ("visit", value, 0, None)
+    ]
+    active: set[int] = set()
+    while stack:
+        operation, current, depth, field_name = stack.pop()
+        if operation == "exit":
+            active.remove(id(current))
+            continue
+        if type(current) is str:
+            if field_name == "cue" and current in _CUES:
+                continue
+            if _opaque_hex_is_allowed(field_name, current):
+                continue
+            if _EMBEDDED_CUE_LABEL.search(current):
+                raise ValueError("value contains a reserved condition label")
+            continue
+        if current is None or type(current) in {bool, int, float}:
+            continue
+        if type(current) not in {tuple, list, dict} and not hasattr(
+            current, "__dict__"
+        ):
+            continue
+        if depth >= _MAX_VISIBLE_DEPTH or id(current) in active:
+            raise ValueError("value exceeds reserved-label traversal limits")
+        active.add(id(current))
+        stack.append(("exit", current, depth, field_name))
+        if type(current) is dict:
+            children = []
+            for key, child in current.items():
+                if type(key) is str and _EMBEDDED_CUE_LABEL.search(key):
+                    raise ValueError("field contains a reserved condition label")
+                children.append((child, key if type(key) is str else None))
+        elif type(current) in {tuple, list}:
+            children = [(child, field_name) for child in current]
+        else:
+            children = []
+            for name, child in vars(current).items():
+                if _EMBEDDED_CUE_LABEL.search(name):
+                    raise ValueError("field contains a reserved condition label")
+                children.append((child, name))
+        for child, child_field in reversed(children):
+            stack.append(("visit", child, depth + 1, child_field))
 
 
 def _normalized_key(value: str) -> str:
@@ -204,30 +249,32 @@ def _key_components(value: str) -> tuple[str, ...]:
 
 
 def _walk_keys(value: Json):
-    if type(value) is dict:
-        for key, child in value.items():
-            yield key
-            yield from _walk_keys(child)
-    elif type(value) is list:
-        for child in value:
-            yield from _walk_keys(child)
+    stack = [value]
+    while stack:
+        current = stack.pop()
+        if type(current) is dict:
+            for key, child in current.items():
+                yield key
+                stack.append(child)
+        elif type(current) is list:
+            stack.extend(current)
 
 
 def _assert_no_result_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
+        components = _key_components(key)
         if (
-            "expected" in normalized
-            or "gold" in normalized
-            or "groundtruth" in normalized
+            not {"expected", "gold"}.isdisjoint(components)
+            or normalized == "groundtruth"
+            or {"ground", "truth"}.issubset(components)
         ):
             raise ValueError("request payload contains an outcome field")
 
 
 def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
-        normalized = _normalized_key(key)
-        if "actor" in normalized or "model" in normalized:
+        if not {"actor", "model"}.isdisjoint(_key_components(key)):
             raise ValueError("probe payload contains an identity field")
 
 
@@ -239,9 +286,23 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
             "attempt" in components
             and not _IDENTIFIER_COMPONENTS.isdisjoint(components)
         )
+        lens_or_intervention = not {"lens", "intervention"}.isdisjoint(
+            components
+        )
+        physical = "physical" in components
         if (
             normalized in _LATER_SCOPE_EXACT_KEYS
-            or not _LATER_SCOPE_PREFIXES.isdisjoint(components)
+            or (
+                lens_or_intervention
+                and (
+                    len(components) == 1
+                    or not _LATER_SCOPE_QUALIFIERS.isdisjoint(components)
+                )
+            )
+            or (
+                physical
+                and not _PHYSICAL_SCOPE_QUALIFIERS.isdisjoint(components)
+            )
             or has_attempt_identifier
         ):
             raise ValueError("request payload contains a later-scope field")
@@ -251,6 +312,12 @@ def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         if _normalized_key(key) in _ACTOR_METADATA_KEYS:
             raise ValueError("request payload contains actor-private metadata")
+
+
+def _assert_blind_forecast(payload: dict[str, Json]) -> None:
+    for key in _walk_keys(payload):
+        if not _BLIND_FORECAST_COMPONENTS.isdisjoint(_key_components(key)):
+            raise ValueError("forecast payload contains blinded metadata")
 
 
 def _validate_payload(value: Any, name: str) -> dict[str, Json]:
@@ -273,6 +340,12 @@ def _detached(value: dict[str, Json]) -> dict[str, Json]:
 def _checked_actor_payload(value: dict[str, Json]) -> dict[str, Json]:
     assert_actor_payload_safe(value)
     _validate_payload(value, "request_payload")
+    return value
+
+
+def _checked_forecast_payload(value: dict[str, Json]) -> dict[str, Json]:
+    _checked_actor_payload(value)
+    _assert_blind_forecast(value)
     return value
 
 
@@ -384,7 +457,13 @@ def _validate_actor_ids(actor_ids: Any) -> tuple[str, ...]:
 
 
 def _bundle_id(
-    *, seed: int, actor_id: str, module: str, episode_id: str, role: str
+    *,
+    seed: int,
+    actor_id: str,
+    module: str,
+    episode_id: str,
+    role: str,
+    logical_call_ids: tuple[str, ...],
 ) -> str:
     material: dict[str, Json] = {
         "domain": "biblebench.bundle.v1",
@@ -393,6 +472,7 @@ def _bundle_id(
         "module": module,
         "episode_id": episode_id,
         "role": role,
+        "logical_call_ids": list(logical_call_ids),
     }
     return canonical_sha256(material)[:16]
 
@@ -400,7 +480,6 @@ def _bundle_id(
 def _logical_call_id(
     *,
     seed: int,
-    bundle_id: str,
     actor_id: str,
     module: str,
     episode_id: str,
@@ -408,11 +487,11 @@ def _logical_call_id(
     call_kind: str,
     cue: str | None,
     presentation_position: int,
+    request_payload: dict[str, Json],
 ) -> str:
     material: dict[str, Json] = {
         "domain": "biblebench.logical_call.v1",
         "seed": seed,
-        "bundle_id": bundle_id,
         "actor_id": actor_id,
         "module": module,
         "episode_id": episode_id,
@@ -420,6 +499,7 @@ def _logical_call_id(
         "call_kind": call_kind,
         "cue": cue,
         "presentation_position": presentation_position,
+        "request_payload_sha256": canonical_sha256(request_payload),
     }
     return canonical_sha256(material)[:16]
 
@@ -427,7 +507,6 @@ def _logical_call_id(
 def _new_call(
     *,
     seed: int,
-    bundle_id: str,
     actor_id: str,
     module: str,
     episode_id: str,
@@ -440,7 +519,6 @@ def _new_call(
     return LogicalCall(
         logical_call_id=_logical_call_id(
             seed=seed,
-            bundle_id=bundle_id,
             actor_id=actor_id,
             module=module,
             episode_id=episode_id,
@@ -448,8 +526,9 @@ def _new_call(
             call_kind=call_kind,
             cue=cue,
             presentation_position=presentation_position,
+            request_payload=request_payload,
         ),
-        bundle_id=bundle_id,
+        bundle_id="",
         actor_id=actor_id,
         module=module,
         episode_id=episode_id,
@@ -473,6 +552,12 @@ def compile_schedule(
 
     episodes = tuple(sorted(pack.episodes, key=lambda episode: episode.episode_id))
     actor_index = {actor: index for index, actor in enumerate(actors)}
+    role_index = {role: index for index, role in enumerate(_ROLES)}
+    role_seen: Counter[str] = Counter()
+    role_ordinal: dict[str, int] = {}
+    for episode in episodes:
+        role_ordinal[episode.episode_id] = role_seen[episode.role]
+        role_seen[episode.role] += 1
     bundles: list[EvidenceBundlePlan] = []
     logical_calls: list[LogicalCall] = []
 
@@ -481,17 +566,9 @@ def compile_schedule(
         actor_order = actors[actor_offset:] + actors[:actor_offset]
         variants = {variant.cue: variant for variant in episode.variants}
         for actor_id in actor_order:
-            bundle_id = _bundle_id(
-                seed=seed,
-                actor_id=actor_id,
-                module=pack.module,
-                episode_id=episode.episode_id,
-                role=episode.role,
-            )
             bundle_calls: list[LogicalCall] = []
             forecast = _new_call(
                 seed=seed,
-                bundle_id=bundle_id,
                 actor_id=actor_id,
                 module=pack.module,
                 episode_id=episode.episode_id,
@@ -499,13 +576,18 @@ def compile_schedule(
                 call_kind="forecast",
                 cue=None,
                 presentation_position=-1,
-                request_payload=_checked_actor_payload(
+                request_payload=_checked_forecast_payload(
                     _detached(episode.forecast_payload)
                 ),
             )
             bundle_calls.append(forecast)
 
-            cue_offset = (seed + actor_index[actor_id] + episode_index) % 3
+            cue_offset = (
+                seed
+                + actor_index[actor_id]
+                + role_index[episode.role]
+                + role_ordinal[episode.episode_id]
+            ) % 3
             cue_order = _CUES[cue_offset:] + _CUES[:cue_offset]
             for position, cue in enumerate(cue_order):
                 variant = variants[cue]
@@ -516,7 +598,6 @@ def compile_schedule(
                 }
                 primary = _new_call(
                     seed=seed,
-                    bundle_id=bundle_id,
                     actor_id=actor_id,
                     module=pack.module,
                     episode_id=episode.episode_id,
@@ -533,7 +614,6 @@ def compile_schedule(
                 _checked_actor_payload(probe_payload)
                 probe = _new_call(
                     seed=seed,
-                    bundle_id=bundle_id,
                     actor_id=actor_id,
                     module=pack.module,
                     episode_id=episode.episode_id,
@@ -545,6 +625,20 @@ def compile_schedule(
                 )
                 bundle_calls.extend((primary, probe))
 
+            logical_call_ids = tuple(
+                row.logical_call_id for row in bundle_calls
+            )
+            bundle_id = _bundle_id(
+                seed=seed,
+                actor_id=actor_id,
+                module=pack.module,
+                episode_id=episode.episode_id,
+                role=episode.role,
+                logical_call_ids=logical_call_ids,
+            )
+            bundle_calls = [
+                replace(row, bundle_id=bundle_id) for row in bundle_calls
+            ]
             bundles.append(
                 EvidenceBundlePlan(
                     bundle_id=bundle_id,
@@ -552,7 +646,7 @@ def compile_schedule(
                     module=pack.module,
                     episode_id=episode.episode_id,
                     role=episode.role,
-                    logical_call_ids=tuple(row.logical_call_id for row in bundle_calls),
+                    logical_call_ids=logical_call_ids,
                 )
             )
             logical_calls.extend(bundle_calls)
@@ -622,7 +716,10 @@ def _validate_scheduled_call(row: Any) -> LogicalCall:
         raise ValueError("invalid scheduled cue")
     if type(row.presentation_position) is not int:
         _type_error("presentation position must be an integer")
-    _checked_actor_payload(row.request_payload)
+    if row.call_kind == "forecast":
+        _checked_forecast_payload(row.request_payload)
+    else:
+        _checked_actor_payload(row.request_payload)
     return row
 
 
@@ -643,7 +740,6 @@ def _assert_call_identity(row: LogicalCall, bundle: EvidenceBundlePlan, seed: in
         raise ValueError("logical call metadata does not match its bundle")
     expected = _logical_call_id(
         seed=seed,
-        bundle_id=row.bundle_id,
         actor_id=row.actor_id,
         module=row.module,
         episode_id=row.episode_id,
@@ -651,6 +747,7 @@ def _assert_call_identity(row: LogicalCall, bundle: EvidenceBundlePlan, seed: in
         call_kind=row.call_kind,
         cue=row.cue,
         presentation_position=row.presentation_position,
+        request_payload=row.request_payload,
     )
     if row.logical_call_id != expected:
         raise ValueError("logical call ID does not match its identity")
@@ -744,27 +841,34 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
         raise ValueError("global bundle order is not counterbalanced")
 
     actor_index = {actor: index for index, actor in enumerate(actors)}
-    episode_index = {episode: index for index, episode in enumerate(episodes)}
+    role_index = {role: index for index, role in enumerate(_ROLES)}
+    role_seen: Counter[str] = Counter()
+    role_ordinal: dict[str, int] = {}
+    for episode_id in episodes:
+        role = episode_roles[episode_id]
+        role_ordinal[episode_id] = role_seen[role]
+        role_seen[role] += 1
     cue_position_counts: Counter[tuple[str, int, str]] = Counter()
+    role_position_counts: Counter[tuple[str, str, int, str]] = Counter()
     all_ids = [bundle.bundle_id for bundle in bundles]
     forecast_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
     primary_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
     probe_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
 
     for bundle_number, bundle in enumerate(bundles):
+        bundle_calls = calls[bundle_number * 7 : (bundle_number + 1) * 7]
+        if bundle.logical_call_ids != tuple(row.logical_call_id for row in bundle_calls):
+            raise ValueError("bundle logical call IDs do not match global call order")
         expected_bundle_id = _bundle_id(
             seed=schedule.seed,
             actor_id=bundle.actor_id,
             module=bundle.module,
             episode_id=bundle.episode_id,
             role=bundle.role,
+            logical_call_ids=bundle.logical_call_ids,
         )
         if bundle.bundle_id != expected_bundle_id:
             raise ValueError("bundle ID does not match its identity")
-
-        bundle_calls = calls[bundle_number * 7 : (bundle_number + 1) * 7]
-        if bundle.logical_call_ids != tuple(row.logical_call_id for row in bundle_calls):
-            raise ValueError("bundle logical call IDs do not match global call order")
         for row in bundle_calls:
             _assert_call_identity(row, bundle, schedule.seed)
             all_ids.append(row.logical_call_id)
@@ -788,7 +892,8 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
         cue_offset = (
             schedule.seed
             + actor_index[bundle.actor_id]
-            + episode_index[bundle.episode_id]
+            + role_index[bundle.role]
+            + role_ordinal[bundle.episode_id]
         ) % 3
         cue_order = _CUES[cue_offset:] + _CUES[:cue_offset]
         bodies: list[str] = []
@@ -832,6 +937,9 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
             surfaces.append(primary.request_payload["cue_surface"])
             token_sequences.append(tuple(primary.request_payload["semantic_response_tokens"]))
             cue_position_counts[(bundle.actor_id, position, cue)] += 1
+            role_position_counts[
+                (bundle.actor_id, bundle.role, position, cue)
+            ] += 1
         if len(set(bodies)) != 1 or len(set(token_sequences)) != 1 or len(set(surfaces)) != 3:
             raise ValueError("condition payload semantics are not invariant")
 
@@ -852,3 +960,10 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
             for cue in _CUES:
                 if cue_position_counts[(actor, position, cue)] != 4:
                     raise ValueError("cue positions are not balanced within actor")
+            for role in _ROLES:
+                counts = [
+                    role_position_counts[(actor, role, position, cue)]
+                    for cue in _CUES
+                ]
+                if max(counts) - min(counts) > 1 or max(counts) == 4:
+                    raise ValueError("cue positions are not balanced within role")

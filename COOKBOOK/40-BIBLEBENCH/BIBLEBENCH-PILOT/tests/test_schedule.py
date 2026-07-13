@@ -206,6 +206,14 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
             "attempt_notes": "A physical attempt can be described.",
             "lensing_notes": "Lensing is an ordinary unrelated word here.",
             "physicality_notes": "Physicality is ordinary prose here.",
+            "golden_rule": "An ordinary principle, not a result field.",
+            "risk_factor": "An ordinary descriptive factor.",
+            "physical_state": "An ordinary state description.",
+        },
+        probe_payload={
+            "golden_rule": "An ordinary principle.",
+            "risk_factor": "An ordinary descriptive factor.",
+            "physical_state": "An ordinary state description.",
         },
     )
 
@@ -214,6 +222,113 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
     )
 
     assert schedule.forecast_rows[0].request_payload == episode.forecast_payload
+
+
+@pytest.mark.parametrize(
+    "blind_key",
+    [
+        "cue",
+        "condition",
+        "actor",
+        "actor_id",
+        "actor_model",
+        "model",
+        "model_id",
+        "model_name",
+        "tested_model",
+        "provider",
+        "route",
+        "schedule_id",
+        "bundle_id",
+        "episode_id",
+        "role",
+        "expected",
+        "gold",
+        "private",
+    ],
+)
+def test_forecast_payload_rejects_blinding_metadata_recursively(
+    blind_key: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], forecast_payload={"nested": [{blind_key: "opaque"}]}
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_forecast_allows_unstructured_blinding_words_in_ordinary_prose() -> None:
+    pack = _pack()
+    text = (
+        "Discuss actor and model behavior without exposing a structured provider, "
+        "route, condition, or cue field."
+    )
+    episode = replace(pack.episodes[0], forecast_payload={"question": text})
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload == {"question": text}
+
+
+@pytest.mark.parametrize(
+    ("location", "reserved"),
+    [
+        ("key", "conditionC3Payload"),
+        ("key", "actorc3metadata"),
+        ("value", "conditionC1Surface"),
+        ("value", "cueC0Value"),
+        ("surface", "actorc2metadata"),
+    ],
+)
+def test_authored_visible_strings_reject_embedded_condition_labels(
+    location: str, reserved: str
+) -> None:
+    pack = _pack()
+    if location == "key":
+        episode = replace(pack.episodes[0], forecast_payload={reserved: "ordinary"})
+        invalid = _with_episode(pack, 0, episode)
+    elif location == "value":
+        episode = replace(
+            pack.episodes[0], forecast_payload={"ordinary_note": reserved}
+        )
+        invalid = _with_episode(pack, 0, episode)
+    else:
+        variant = replace(pack.episodes[0].variants[1], cue_surface=reserved)
+        invalid = _with_variant(pack, 0, 1, variant)
+
+    with pytest.raises(ValueError):
+        compile_schedule(invalid, actor_ids=ACTORS, seed=711)
+
+
+def test_digest_and_opaque_id_fields_allow_incidental_hex_label_fragments() -> None:
+    pack = _pack()
+    variants = tuple(
+        replace(
+            variant,
+            task_semantics_sha256="c3" + "a" * 62,
+            answer_semantics_sha256="c0" + "b" * 62,
+        )
+        for variant in pack.episodes[0].variants
+    )
+    episode = replace(pack.episodes[0], variants=variants)
+    actors = (
+        "c3" + "a" * 14,
+        "c2" + "b" * 14,
+        "c1" + "c" * 14,
+        "c0" + "d" * 14,
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=actors, seed=711
+    )
+
+    schedule.assert_counterbalanced()
 
 
 def test_compile_checks_every_detached_actor_visible_payload(
@@ -350,7 +465,15 @@ def test_public_types_are_frozen_and_have_only_frozen_contract_fields() -> None:
 def test_global_order_and_bundle_sequences_follow_documented_rotations() -> None:
     schedule = _schedule()
     actors = tuple(sorted(ACTORS))
-    episodes = tuple(sorted(episode.episode_id for episode in _pack().episodes))
+    pack_episodes = tuple(sorted(_pack().episodes, key=lambda item: item.episode_id))
+    episodes = tuple(episode.episode_id for episode in pack_episodes)
+    role_by_episode = {episode.episode_id: episode.role for episode in pack_episodes}
+    role_index = {role: index for index, role in enumerate(("target", "null", "restraint"))}
+    role_seen = Counter()
+    role_ordinal = {}
+    for episode in pack_episodes:
+        role_ordinal[episode.episode_id] = role_seen[episode.role]
+        role_seen[episode.role] += 1
     expected_bundle_pairs = []
     for episode_index, episode_id in enumerate(episodes):
         offset = (schedule.seed + episode_index) % len(actors)
@@ -362,7 +485,6 @@ def test_global_order_and_bundle_sequences_follow_documented_rotations() -> None
     ] == expected_bundle_pairs
 
     actor_index = {actor: index for index, actor in enumerate(actors)}
-    episode_index = {episode: index for index, episode in enumerate(episodes)}
     first_cues = {}
     for bundle in schedule.bundles:
         calls = [
@@ -371,7 +493,8 @@ def test_global_order_and_bundle_sequences_follow_documented_rotations() -> None
         rotation = (
             schedule.seed
             + actor_index[bundle.actor_id]
-            + episode_index[bundle.episode_id]
+            + role_index[bundle.role]
+            + role_ordinal[bundle.episode_id]
         ) % 3
         expected_cues = CUES[rotation:] + CUES[:rotation]
         assert calls[0].call_kind == "forecast"
@@ -392,10 +515,22 @@ def test_global_order_and_bundle_sequences_follow_documented_rotations() -> None
         first_cues[(bundle.actor_id, bundle.episode_id)] = expected_cues[0]
 
     counts = defaultdict(Counter)
+    role_counts = defaultdict(Counter)
     for row in schedule.primary_rows:
         counts[(row.actor_id, row.presentation_position)][row.cue] += 1
+        role_counts[(row.actor_id, row.role, row.presentation_position)][row.cue] += 1
     assert set(counts) == {(actor, position) for actor in ACTORS for position in range(3)}
     assert all(counter == Counter({"C0": 4, "C1": 4, "C2": 4}) for counter in counts.values())
+    assert set(role_counts) == {
+        (actor, role, position)
+        for actor in ACTORS
+        for role in ("target", "null", "restraint")
+        for position in range(3)
+    }
+    for counter in role_counts.values():
+        values = [counter[cue] for cue in CUES]
+        assert max(values) - min(values) <= 1
+        assert max(values) < 4
     assert len({first_cues[(actor, episodes[0])] for actor in ACTORS}) == 3
 
 
@@ -410,11 +545,11 @@ def test_identifiers_use_canonical_domain_separated_material() -> None:
         "module": bundle.module,
         "episode_id": bundle.episode_id,
         "role": bundle.role,
+        "logical_call_ids": list(bundle.logical_call_ids),
     }
     call_material = {
         "domain": "biblebench.logical_call.v1",
         "seed": schedule.seed,
-        "bundle_id": call.bundle_id,
         "actor_id": call.actor_id,
         "module": call.module,
         "episode_id": call.episode_id,
@@ -422,6 +557,7 @@ def test_identifiers_use_canonical_domain_separated_material() -> None:
         "call_kind": call.call_kind,
         "cue": call.cue,
         "presentation_position": call.presentation_position,
+        "request_payload_sha256": canonical_sha256(call.request_payload),
     }
 
     assert bundle.bundle_id == canonical_sha256(bundle_material)[:16]
@@ -430,6 +566,104 @@ def test_identifiers_use_canonical_domain_separated_material() -> None:
     all_ids.extend(row.logical_call_id for row in schedule.logical_calls)
     assert len(all_ids) == len(set(all_ids))
     assert all(re.fullmatch(r"[0-9a-f]{16}", identifier) for identifier in all_ids)
+
+
+def test_payload_changes_rebind_affected_call_and_bundle_identifiers() -> None:
+    base_pack = _pack()
+    base = compile_schedule(base_pack, actor_ids=ACTORS, seed=711)
+    episode = base_pack.episodes[0]
+
+    forecast_episode = replace(
+        episode,
+        forecast_payload={"question": "alternate forecast", "choices": [0, 1]},
+    )
+    forecast_changed = compile_schedule(
+        _with_episode(base_pack, 0, forecast_episode),
+        actor_ids=ACTORS,
+        seed=711,
+    )
+
+    surface_variant = replace(
+        episode.variants[1], cue_surface="alternate scriptural surface"
+    )
+    primary_changed = compile_schedule(
+        _with_variant(base_pack, 0, 1, surface_variant),
+        actor_ids=ACTORS,
+        seed=711,
+    )
+
+    probe_episode = replace(
+        episode, probe_payload={"question": "alternate probe"}
+    )
+    probe_changed = compile_schedule(
+        _with_episode(base_pack, 0, probe_episode),
+        actor_ids=ACTORS,
+        seed=711,
+    )
+
+    def calls(schedule: Schedule) -> dict[tuple, str]:
+        return {
+            (
+                row.actor_id,
+                row.episode_id,
+                row.call_kind,
+                row.cue,
+                row.presentation_position,
+            ): row.logical_call_id
+            for row in schedule.logical_calls
+        }
+
+    base_calls = calls(base)
+    forecast_calls = calls(forecast_changed)
+    primary_calls = calls(primary_changed)
+    probe_calls = calls(probe_changed)
+    for identity, base_id in base_calls.items():
+        _, episode_id, kind, cue, _ = identity
+        if episode_id != "ep-00":
+            assert forecast_calls[identity] == base_id
+            assert primary_calls[identity] == base_id
+            assert probe_calls[identity] == base_id
+            continue
+        assert (forecast_calls[identity] != base_id) == (kind == "forecast")
+        assert (primary_calls[identity] != base_id) == (
+            cue == "C1" and kind in {"primary", "probe"}
+        )
+        assert (probe_calls[identity] != base_id) == (kind == "probe")
+
+    base_bundles = {
+        (bundle.actor_id, bundle.episode_id): bundle.bundle_id
+        for bundle in base.bundles
+    }
+    for changed in (forecast_changed, primary_changed, probe_changed):
+        for bundle in changed.bundles:
+            identity = (bundle.actor_id, bundle.episode_id)
+            assert (bundle.bundle_id != base_bundles[identity]) == (
+                bundle.episode_id == "ep-00"
+            )
+
+
+@pytest.mark.parametrize("kind", ["forecast", "primary", "probe"])
+def test_payload_mutation_under_original_identifiers_is_rejected(kind: str) -> None:
+    schedule = _schedule()
+    episode_id = schedule.bundles[0].episode_id
+    calls = list(schedule.logical_calls)
+    for index, row in enumerate(calls):
+        if row.episode_id != episode_id or row.call_kind != kind:
+            continue
+        payload = json.loads(json.dumps(row.request_payload))
+        if kind == "forecast":
+            payload["question"] = "safe changed forecast"
+        elif kind == "primary":
+            payload["shared_body"] = "Choose a different responsible action."
+        else:
+            payload["question"] = "safe changed probe"
+        calls[index] = replace(row, request_payload=payload)
+
+    invalid = _schedule_with_calls(schedule, calls)
+    with pytest.raises(ValueError, match="logical call ID"):
+        invalid.assert_counterbalanced()
+    with pytest.raises(ValueError):
+        invalid.to_canonical_json()
 
 
 def test_determinism_seed_effect_and_membership() -> None:
@@ -626,6 +860,22 @@ def test_compile_rejects_cyclic_json_payloads() -> None:
         compile_schedule(_with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711)
 
 
+def test_reserved_label_walk_rejects_excessive_depth_without_recursion_error() -> None:
+    nested = []
+    cursor = nested
+    for _ in range(2_000):
+        child = []
+        cursor.append(child)
+        cursor = child
+    pack = _pack()
+    episode = replace(pack.episodes[0], forecast_payload={"nested": nested})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
 @pytest.mark.parametrize(
     "mutation",
     [
@@ -633,6 +883,7 @@ def test_compile_rejects_cyclic_json_payloads() -> None:
         "primary_sensitive_value",
         "probe_private",
         "forecast_later_scope",
+        "forecast_blinding",
     ],
 )
 def test_scheduled_actor_payloads_are_revalidated_even_when_all_actors_match(
@@ -653,6 +904,8 @@ def test_scheduled_actor_payloads_are_revalidated_even_when_all_actors_match(
             payload["nested"] = {"private": "leak"}
         elif mutation == "forecast_later_scope" and row.call_kind == "forecast":
             payload["nested"] = {"lens_call_id": "opaque"}
+        elif mutation == "forecast_blinding" and row.call_kind == "forecast":
+            payload["nested"] = {"provider": "opaque"}
         else:
             continue
         calls[index] = replace(row, request_payload=payload)

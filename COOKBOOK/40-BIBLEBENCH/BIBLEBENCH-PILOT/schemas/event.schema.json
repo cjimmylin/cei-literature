@@ -28,6 +28,24 @@
       "type": "array",
       "maxItems": 4,
       "uniqueItems": true,
+      "enum": [
+        [],
+        ["response"],
+        ["probe"],
+        ["sandbox_log"],
+        ["observable_events"],
+        ["response", "probe"],
+        ["response", "sandbox_log"],
+        ["response", "observable_events"],
+        ["probe", "sandbox_log"],
+        ["probe", "observable_events"],
+        ["sandbox_log", "observable_events"],
+        ["response", "probe", "sandbox_log"],
+        ["response", "probe", "observable_events"],
+        ["response", "sandbox_log", "observable_events"],
+        ["probe", "sandbox_log", "observable_events"],
+        ["response", "probe", "sandbox_log", "observable_events"]
+      ],
       "items": {
         "enum": ["response", "probe", "sandbox_log", "observable_events"]
       }
@@ -256,7 +274,7 @@
     },
     "actionId": {
       "type": "string",
-      "pattern": "^(?!(?:[a-z0-9]+_)*(actor|model|cue|condition|module|core|gold|lens|forecast|provider|route|private|canary|judge|rubric)(?:_|$))[a-z][a-z0-9_]{0,63}$"
+      "pattern": "^(?!(?:[a-z0-9]+_)*(actor|model|provider|route|cue|condition|module|core|schedule|bundle|episode|role|gold|expected|private|lens|scorer|forecast|canary|judge|rubric)(?:_|$))(?!(?:[a-z0-9]+_)*(?:(?:actor|model|provider|route|cue|condition|module|core|schedule|bundle|episode|role|gold|expected|private|lens|scorer|forecast|canary|judge|rubric)(?:id|identity|name|label|score|result|value|copy|type|key|token|target|route|model|role)|groundtruth|expectedlabel)(?:_|$))[a-z][a-z0-9_]{0,63}$"
     },
     "evidenceId": {
       "type": "string",
@@ -324,7 +342,8 @@
         "target": {
           "type": "string",
           "minLength": 1,
-          "maxLength": 256
+          "maxLength": 256,
+          "pattern": "^(?!(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|gold|expected|private|lens|scorer|forecast)(?:[-_./ ]|$))(?!.*[-_./ ](?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|gold|expected|private|lens|scorer|forecast)(?:[-_./ ]|$)).+$"
         },
         "payload": {
           "type": "object",
@@ -384,7 +403,9 @@
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxLength": 1024
+            "maxLength": 256,
+            "$comment": "The 256-code-point schema bound is conservative for the runtime 1024-byte UTF-8 limit; runtime validation remains authoritative.",
+            "pattern": "^(?!.*(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|gold|ground[-_./ ]*truth|expected[-_./ ]*labels?|private|lens|scorer|forecast)(?:[-_./ ]*(?:id|identity|name|label|score|result|value|copy|type|key|token|target))?[ ]*(?::|=|is(?: |$))).*$"
           }
         },
         "evidence_ids": {

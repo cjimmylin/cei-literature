@@ -7,6 +7,7 @@ import hashlib
 import json
 import math
 import re
+import unicodedata
 from typing import Any, Literal
 
 from .artifacts import assert_judge_envelope_safe
@@ -48,32 +49,71 @@ _EVENT_FIELDS = frozenset(
 _TASK_CORRECTNESS = frozenset({"correct", "partial", "incorrect", "not_assessable"})
 _UNCERTAINTY = frozenset({"none", "expressed", "material_unresolved", "not_assessable"})
 _ACTION_ID = re.compile(r"[a-z][a-z0-9_]{0,63}\Z")
-_ACTION_RESERVED_COMPONENTS = frozenset(
+_PRIVATE_CONCEPTS = frozenset(
     {
         "actor",
         "model",
+        "provider",
+        "route",
         "cue",
         "condition",
         "module",
         "core",
+        "schedule",
+        "bundle",
+        "episode",
+        "role",
         "gold",
-        "lens",
-        "forecast",
-        "provider",
-        "route",
+        "expected",
         "private",
+        "lens",
+        "scorer",
+        "forecast",
         "canary",
         "judge",
         "rubric",
     }
 )
+_PRIVATE_CONCEPT_PLURALS = frozenset(
+    {f"{concept}s" for concept in _PRIVATE_CONCEPTS} | {"lenses"}
+)
+_COMPACT_METADATA_SUFFIXES = (
+    "id",
+    "identity",
+    "name",
+    "label",
+    "score",
+    "result",
+    "value",
+    "copy",
+    "type",
+    "key",
+    "token",
+    "target",
+    "route",
+    "model",
+    "role",
+)
+_COMPACT_PRIVATE_IDENTIFIER = re.compile(
+    "(?:"
+    + "|".join(sorted(_PRIVATE_CONCEPTS, key=len, reverse=True))
+    + ")(?:"
+    + "|".join(_COMPACT_METADATA_SUFFIXES)
+    + r")\Z"
+)
 _CAMEL_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
 _EVIDENCE_ID = re.compile(rf"([SE])({_EVIDENCE_NUMBER})\Z")
 _HASH = re.compile(r"[0-9a-f]{64}\Z")
-_LATER_SCOPE_ASSIGNMENT = re.compile(
-    r"(?i)(?<![a-z0-9_])(?:(?:module|core|lens)"
-    r"(?:[-_./\s]*(?:id|name))?|forecast)[ \t]*[:=]"
+_PRIVATE_ASSIGNMENT = re.compile(
+    r"(?<![a-z0-9])(?:"
+    r"actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|"
+    r"schedules?|bundles?|episodes?|roles?|gold|ground[\W_]*truth|"
+    r"expected(?:[\W_]*labels?)?|privates?|lens(?:es)?|scorers?|forecasts?|"
+    r"actormodel|goldlabel|modulename|lensscore|forecastresult|providerroute"
+    r")(?:[\W_]*(?:ids?|identit(?:y|ies)|names?|labels?|scores?|results?|"
+    r"values?|copies|types?|keys?|tokens?|targets?))?[ \t]*(?::|=|\bis\b)",
+    re.IGNORECASE,
 )
 _MAX_JSON_DEPTH = 64
 _MAX_JSON_NODES = 32768
@@ -182,7 +222,7 @@ def reconstruct_segments(segments: tuple[EvidenceSegment, ...]) -> bytes:
         return b""
 
     first = segments[0]
-    if type(first) is not EvidenceSegment:
+    if type(first) is not EvidenceSegment or type(first.segment_id) is not str:
         raise ValueError("invalid evidence segments")
     first_match = _SEGMENT_ID.fullmatch(first.segment_id)
     if first_match is None:
@@ -220,7 +260,18 @@ def reconstruct_segments(segments: tuple[EvidenceSegment, ...]) -> bytes:
         contents.append(segment.content)
         expected_offset = segment.end_byte
         expected_number += 1
-    return b"".join(contents)
+    reconstructed = b"".join(contents)
+    try:
+        canonical = _segment_source(
+            reconstructed,
+            source_kind=source,
+            first_number=int(first_match.group(1)),
+        )
+    except ValueError:
+        raise ValueError("invalid evidence segments") from None
+    if canonical != segments:
+        raise ValueError("invalid evidence segments")
+    return reconstructed
 
 
 def _evidence_sort_key(value: str) -> tuple[int, int]:
@@ -243,29 +294,44 @@ def _validated_registered_actions(value: Any) -> tuple[str, ...]:
 
 
 def _action_id_is_public(value: str) -> bool:
-    return bool(_ACTION_ID.fullmatch(value)) and not (
-        set(value.split("_")) & _ACTION_RESERVED_COMPONENTS
+    return bool(_ACTION_ID.fullmatch(value)) and not _identifier_is_private(value)
+
+
+def _normalized_policy_text(value: str) -> str:
+    normalized = unicodedata.normalize("NFKC", value)
+    return _CAMEL_BOUNDARY.sub("_", normalized).casefold()
+
+
+def _identifier_is_private(value: str) -> bool:
+    normalized = _normalized_policy_text(value)
+    components = tuple(
+        component for component in _NON_ALNUM.split(normalized) if component
     )
+    return bool(
+        set(components) & (_PRIVATE_CONCEPTS | _PRIVATE_CONCEPT_PLURALS)
+        or "groundtruth" in components
+        or "expectedlabel" in components
+        or any(
+            left == "ground" and right == "truth"
+            for left, right in zip(components, components[1:])
+        )
+        or any(
+            _COMPACT_PRIVATE_IDENTIFIER.fullmatch(component)
+            for component in components
+        )
+    )
+
+
+def _contains_private_assignment(value: str) -> bool:
+    return bool(_PRIVATE_ASSIGNMENT.search(_normalized_policy_text(value)))
 
 
 def _identifier_is_public(value: str) -> bool:
-    separated = _CAMEL_BOUNDARY.sub("_", value)
-    components = frozenset(
-        component
-        for component in _NON_ALNUM.split(separated.casefold())
-        if component
-    )
-    return not bool(components & _ACTION_RESERVED_COMPONENTS)
+    return not _identifier_is_private(value)
 
 
-def _later_scope_key_is_forbidden(value: str) -> bool:
-    separated = _CAMEL_BOUNDARY.sub("_", value)
-    components = frozenset(
-        component
-        for component in _NON_ALNUM.split(separated.casefold())
-        if component
-    )
-    return bool(components & {"module", "core", "lens", "forecast"})
+def _private_key_is_forbidden(value: str) -> bool:
+    return _identifier_is_private(value)
 
 
 def _validated_known_evidence_ids(value: Any) -> tuple[str, ...]:
@@ -296,6 +362,7 @@ def _assert_bounded_json(
     depth: int,
     active: set[int],
     nodes: list[int],
+    enforce_firewall: bool,
 ) -> None:
     nodes[0] += 1
     if nodes[0] > _MAX_JSON_NODES:
@@ -307,7 +374,10 @@ def _assert_bounded_json(
             return
         raise ValueError("invalid observable evidence")
     if type(value) is str:
-        if any(0xD800 <= ord(character) <= 0xDFFF for character in value):
+        if (
+            any(0xD800 <= ord(character) <= 0xDFFF for character in value)
+            or enforce_firewall and _contains_private_assignment(value)
+        ):
             raise ValueError("invalid observable evidence")
         return
     if type(value) not in {dict, list} or depth > _MAX_JSON_DEPTH:
@@ -319,25 +389,50 @@ def _assert_bounded_json(
     try:
         if type(value) is dict:
             for key, child in value.items():
-                if type(key) is not str or _later_scope_key_is_forbidden(key):
+                if type(key) is not str or (
+                    enforce_firewall and _private_key_is_forbidden(key)
+                ):
                     raise ValueError("invalid observable evidence")
                 _assert_bounded_json(
-                    key, depth=depth + 1, active=active, nodes=nodes
+                    key,
+                    depth=depth + 1,
+                    active=active,
+                    nodes=nodes,
+                    enforce_firewall=enforce_firewall,
                 )
                 _assert_bounded_json(
-                    child, depth=depth + 1, active=active, nodes=nodes
+                    child,
+                    depth=depth + 1,
+                    active=active,
+                    nodes=nodes,
+                    enforce_firewall=enforce_firewall,
                 )
         else:
             for child in value:
                 _assert_bounded_json(
-                    child, depth=depth + 1, active=active, nodes=nodes
+                    child,
+                    depth=depth + 1,
+                    active=active,
+                    nodes=nodes,
+                    enforce_firewall=enforce_firewall,
                 )
     finally:
         active.remove(identity)
 
 
-def _bounded_canonical_json_bytes(value: Any, *, max_bytes: int) -> bytes:
-    _assert_bounded_json(value, depth=0, active=set(), nodes=[0])
+def _bounded_canonical_json_bytes(
+    value: Any,
+    *,
+    max_bytes: int,
+    enforce_firewall: bool = True,
+) -> bytes:
+    _assert_bounded_json(
+        value,
+        depth=0,
+        active=set(),
+        nodes=[0],
+        enforce_firewall=enforce_firewall,
+    )
     result = canonical_json_bytes(value)
     if len(result) > max_bytes:
         raise ValueError("invalid observable evidence")
@@ -422,7 +517,7 @@ def validate_observable_event_record(
             max_items=32,
             max_utf8_bytes=1024,
         )
-        if any(_LATER_SCOPE_ASSIGNMENT.search(summary) for summary in summaries):
+        if any(_contains_private_assignment(summary) for summary in summaries):
             raise ValueError
         evidence_ids = _canonical_string_list(
             raw["evidence_ids"], require_sorted=False, max_items=256
@@ -718,7 +813,9 @@ def freeze_observable_evidence(
             )
             sandbox_log_sha256 = hashlib.sha256(
                 _bounded_canonical_json_bytes(
-                    full_sandbox_rows, max_bytes=_MAX_SOURCE_BYTES
+                    full_sandbox_rows,
+                    max_bytes=_MAX_SOURCE_BYTES,
+                    enforce_firewall=False,
                 )
             ).hexdigest()
 
@@ -925,7 +1022,9 @@ def observable_evidence_to_json(bundle: FrozenObservableEvidence) -> dict[str, J
             _HASH.fullmatch(bundle.sandbox_log_sha256) is None
             or hashlib.sha256(
                 _bounded_canonical_json_bytes(
-                    sandbox_rows, max_bytes=_MAX_SOURCE_BYTES
+                    sandbox_rows,
+                    max_bytes=_MAX_SOURCE_BYTES,
+                    enforce_firewall=False,
                 )
             ).hexdigest()
             != bundle.sandbox_log_sha256

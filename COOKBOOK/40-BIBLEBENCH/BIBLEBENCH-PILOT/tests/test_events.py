@@ -13,6 +13,7 @@ import biblebench_pilot.events as events_module
 from biblebench_pilot.contracts import SandboxEvent, canonical_json_bytes
 from biblebench_pilot.events import reconstruct_segments, segment_response
 from biblebench_pilot.events import (
+    EvidenceSegment,
     FrozenObservableEvidence,
     ObservableEventRecord,
     SandboxEvidence,
@@ -154,6 +155,29 @@ def test_reconstruction_rejects_noncanonical_or_tampered_segments(mutate) -> Non
         reconstruct_segments(tuple(mutate(segments)))
 
 
+def test_reconstruction_rejects_a_fully_rehashed_noncanonical_split() -> None:
+    canonical = segment_response(b"abc")[0]
+    split = (
+        replace(
+            canonical,
+            end_byte=1,
+            content=b"a",
+            content_sha256=hashlib.sha256(b"a").hexdigest(),
+        ),
+        EvidenceSegment(
+            segment_id="S002",
+            source="response",
+            start_byte=1,
+            end_byte=3,
+            content=b"bc",
+            content_sha256=hashlib.sha256(b"bc").hexdigest(),
+        ),
+    )
+
+    with pytest.raises(ValueError, match="invalid evidence segments"):
+        reconstruct_segments(split)
+
+
 @pytest.mark.parametrize("segments", [[], list(segment_response(b"text")), "S001"])
 def test_reconstruction_requires_an_exact_tuple(segments: object) -> None:
     with pytest.raises(ValueError, match="invalid evidence segments"):
@@ -226,6 +250,23 @@ def test_segmentation_errors_do_not_echo_source_content() -> None:
         segment_response(secret)
 
     assert "do-not-echo-this" not in str(caught.value)
+
+
+def test_reconstruction_redacts_a_hostile_segment_id_class_name() -> None:
+    class DoNotEchoActorModelSecret:
+        pass
+
+    segment = replace(
+        segment_response(b"text")[0],
+        segment_id=DoNotEchoActorModelSecret(),
+    )
+
+    with pytest.raises(ValueError, match="^invalid evidence segments$") as caught:
+        reconstruct_segments((segment,))
+
+    rendered = "".join(traceback.format_exception(caught.value))
+    assert "DoNotEchoActorModelSecret" not in rendered
+    assert len(str(caught.value)) < 80
 
 
 def test_observable_event_record_is_closed_frozen_and_canonical() -> None:
@@ -497,7 +538,20 @@ def test_observable_event_firewall_allows_ordinary_nonmetadata_prose(
 
 @pytest.mark.parametrize(
     "action_id",
-    ["gold_label", "module_name", "lens_score", "actor_model", "forecast_result"],
+    [
+        "gold_label",
+        "module_name",
+        "lens_score",
+        "actor_model",
+        "forecast_result",
+        "actormodel",
+        "goldlabel",
+        "modulename",
+        "lensscore",
+        "forecastresult",
+        "providerroute",
+        "rubric_score",
+    ],
 )
 def test_observable_event_firewall_rejects_private_action_identifiers(
     action_id: str,
@@ -507,6 +561,49 @@ def test_observable_event_firewall_rejects_private_action_identifiers(
             _event_raw(registered_actions=[action_id], registered_omissions=[]),
             known_evidence_ids=("S001", "E001"),
             registered_action_ids=(action_id,),
+        )
+
+
+@pytest.mark.parametrize(
+    "private_key",
+    ["ｍｏｄｅｌ_id", "actor_model_copy", "ground_truth", "ｇｒｏｕｎｄ_truth"],
+)
+def test_sandbox_firewall_uses_nfkc_and_occurrence_grammar_for_keys(
+    private_key: str,
+) -> None:
+    with pytest.raises(ValueError, match="invalid observable evidence"):
+        freeze_observable_evidence(
+            b"response",
+            b"probe",
+            (_sandbox_event(payload={"nested": {private_key: "hidden"}}),),
+            [_event_raw(evidence_ids=["S001"])],
+            registered_action_ids=REGISTERED_ACTIONS,
+        )
+
+
+def test_sandbox_firewall_uses_nfkc_for_targets() -> None:
+    with pytest.raises(ValueError, match="invalid observable evidence"):
+        freeze_observable_evidence(
+            b"response",
+            b"probe",
+            (replace(_sandbox_event(), target="ｍｏｄｅｌ-gpt"),),
+            [_event_raw(evidence_ids=["S001"])],
+            registered_action_ids=REGISTERED_ACTIONS,
+        )
+
+
+@pytest.mark.parametrize(
+    "summary",
+    ["ｍｏｄｕｌｅ: fruitbench", "expected label is target"],
+)
+def test_event_summary_firewall_uses_nfkc_and_structured_assignment_grammar(
+    summary: str,
+) -> None:
+    with pytest.raises(ValueError, match="invalid observable event"):
+        validate_observable_event_record(
+            _event_raw(consequence_summaries=[summary]),
+            known_evidence_ids=("S001", "E001"),
+            registered_action_ids=REGISTERED_ACTIONS,
         )
 
 
@@ -672,6 +769,67 @@ def _complete_bundle() -> FrozenObservableEvidence:
         [_event_raw(evidence_ids=["S001", "E001"])],
         registered_action_ids=REGISTERED_ACTIONS,
     )
+
+
+def test_public_projection_rejects_a_fully_rehashed_noncanonical_segment_table(
+) -> None:
+    original = _complete_bundle()
+    response = original.segments[0]
+    probe = original.segments[1]
+    segments = (
+        replace(
+            response,
+            end_byte=3,
+            content=b"res",
+            content_sha256=hashlib.sha256(b"res").hexdigest(),
+        ),
+        EvidenceSegment(
+            segment_id="S002",
+            source="response",
+            start_byte=3,
+            end_byte=8,
+            content=b"ponse",
+            content_sha256=hashlib.sha256(b"ponse").hexdigest(),
+        ),
+        replace(probe, segment_id="S003"),
+    )
+    segment_rows = [
+        {
+            "segment_id": segment.segment_id,
+            "source": segment.source,
+            "start_byte": segment.start_byte,
+            "end_byte": segment.end_byte,
+            "text": segment.content.decode("utf-8"),
+            "content_sha256": segment.content_sha256,
+        }
+        for segment in segments
+    ]
+    changed = replace(
+        original,
+        segments=segments,
+        segment_table_sha256=hashlib.sha256(
+            canonical_json_bytes(segment_rows)
+        ).hexdigest(),
+    )
+    hash_input = {
+        "version": changed.version,
+        "status": changed.status,
+        "missing_evidence": list(changed.missing_evidence),
+        "response_sha256": changed.response_sha256,
+        "probe_sha256": changed.probe_sha256,
+        "sandbox_log_sha256": changed.sandbox_log_sha256,
+        "segment_table_sha256": changed.segment_table_sha256,
+        "event_record_sha256": changed.event_record_sha256,
+    }
+    changed = replace(
+        changed,
+        evidence_bundle_sha256=hashlib.sha256(
+            canonical_json_bytes(hash_input)
+        ).hexdigest(),
+    )
+
+    with pytest.raises(ValueError, match="invalid observable evidence"):
+        observable_evidence_to_json(changed)
 
 
 @pytest.mark.parametrize(
@@ -1063,6 +1221,77 @@ def test_sandbox_evidence_rejects_later_scope_payload_keys(
         )
 
 
+@pytest.mark.parametrize(
+    "assignment",
+    [
+        "actors: hidden",
+        "models is hidden",
+        "provider=hidden",
+        "route: hidden",
+        "cue is hidden",
+        "conditions=hidden",
+        "module: hidden",
+        "core=hidden",
+        "schedule is hidden",
+        "bundle: hidden",
+        "episode=hidden",
+        "roles is hidden",
+        "gold: hidden",
+        "ground truth is hidden",
+        "expected label is hidden",
+        "private=hidden",
+        "lens: hidden",
+        "scorer is hidden",
+        "forecast=hidden",
+    ],
+)
+def test_sandbox_firewall_recursively_rejects_structured_private_values(
+    assignment: str,
+) -> None:
+    with pytest.raises(ValueError, match="invalid observable evidence"):
+        freeze_observable_evidence(
+            b"response",
+            b"probe",
+            (_sandbox_event(payload={"outer": [{"text": assignment}]}),),
+            [_event_raw(evidence_ids=["S001"])],
+            registered_action_ids=REGISTERED_ACTIONS,
+        )
+
+
+def test_firewall_allows_benign_occurrences_and_preserves_unicode_bytes() -> None:
+    authored = "Cafe\N{COMBINING ACUTE ACCENT} model railroad"
+    actions = tuple(sorted((*REGISTERED_ACTIONS, "privateer_rescue")))
+    bundle = freeze_observable_evidence(
+        b"response",
+        b"probe",
+        (
+            replace(
+                _sandbox_event(
+                    action="privateer_rescue",
+                    payload={"coreopsis": authored},
+                ),
+                target="modeling-clay",
+            ),
+        ),
+        [
+            _event_raw(
+                evidence_ids=["E001"],
+                registered_actions=["privateer_rescue"],
+                registered_omissions=[],
+                consequence_summaries=["The model railroad remained boxed."],
+            )
+        ],
+        registered_action_ids=actions,
+    )
+
+    public = observable_evidence_to_json(bundle)
+    assert list(Draft202012Validator(_event_schema()).iter_errors(public)) == []
+    assert public["sandbox_evidence"][0]["payload"]["coreopsis"] == authored
+    assert bundle.sandbox_evidence[0].payload_canonical_json == canonical_json_bytes(
+        {"coreopsis": authored}
+    )
+
+
 def test_observable_evidence_errors_and_tracebacks_do_not_echo_injected_values() -> None:
     with pytest.raises(ValueError) as caught:
         freeze_observable_evidence(
@@ -1167,6 +1396,45 @@ def test_event_schema_binds_each_missing_marker_to_its_field_and_table() -> None
     assert list(validator.iter_errors(missing_response))
 
 
+def test_event_schema_requires_canonical_missing_evidence_order() -> None:
+    artifact = observable_evidence_to_json(
+        freeze_observable_evidence(
+            None,
+            None,
+            (),
+            None,
+            registered_action_ids=REGISTERED_ACTIONS,
+        )
+    )
+    artifact["missing_evidence"] = ["probe", "response", "observable_events"]
+
+    assert list(Draft202012Validator(_event_schema()).iter_errors(artifact))
+
+
+@pytest.mark.parametrize(
+    ("field", "replacement"),
+    [
+        ("action", "actormodel"),
+        ("target", "actor-model-copy"),
+        ("summary", "module: fruitbench"),
+        ("summary", "é" * 600),
+    ],
+)
+def test_event_schema_conservatively_rejects_expressible_firewall_and_byte_risks(
+    field: str,
+    replacement: str,
+) -> None:
+    artifact = observable_evidence_to_json(_complete_bundle())
+    if field == "action":
+        artifact["events"][0]["registered_actions"] = [replacement]
+    elif field == "target":
+        artifact["sandbox_evidence"][0]["target"] = replacement
+    else:
+        artifact["events"][0]["consequence_summaries"] = [replacement]
+
+    assert list(Draft202012Validator(_event_schema()).iter_errors(artifact))
+
+
 @pytest.mark.parametrize(
     "mutate",
     [
@@ -1213,3 +1481,47 @@ def test_public_json_projection_rejects_private_data_in_sandbox_payload() -> Non
         )
 
     assert "do-not-echo-this" not in str(caught.value)
+
+
+def test_public_projection_reapplies_runtime_firewall_to_fully_rehashed_payload(
+) -> None:
+    original = _complete_bundle()
+    payload = {"text": "module: fruitbench"}
+    visible_row = {
+        "sequence": 1,
+        "action": "draft_message",
+        "target": "sandbox",
+        "payload": payload,
+    }
+    sandbox_row = replace(
+        original.sandbox_evidence[0],
+        payload_canonical_json=canonical_json_bytes(payload),
+        row_sha256=hashlib.sha256(canonical_json_bytes(visible_row)).hexdigest(),
+    )
+    full_log = [{**visible_row, "actor": "model"}]
+    changed = replace(
+        original,
+        sandbox_evidence=(sandbox_row,),
+        sandbox_log_sha256=hashlib.sha256(
+            canonical_json_bytes(full_log)
+        ).hexdigest(),
+    )
+    hash_input = {
+        "version": changed.version,
+        "status": changed.status,
+        "missing_evidence": [],
+        "response_sha256": changed.response_sha256,
+        "probe_sha256": changed.probe_sha256,
+        "sandbox_log_sha256": changed.sandbox_log_sha256,
+        "segment_table_sha256": changed.segment_table_sha256,
+        "event_record_sha256": changed.event_record_sha256,
+    }
+    changed = replace(
+        changed,
+        evidence_bundle_sha256=hashlib.sha256(
+            canonical_json_bytes(hash_input)
+        ).hexdigest(),
+    )
+
+    with pytest.raises(ValueError, match="invalid observable evidence"):
+        observable_evidence_to_json(changed)

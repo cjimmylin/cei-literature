@@ -1,268 +1,145 @@
-registry_version: "1.0"
+registry_version: "2.0"
 document_status: pre_empirical_design_and_methods
 as_of: "2026-07-13"
+authority: PF-002
 empirical_claim_count: 0
 policy:
-  one_type_per_claim: true
+  active_mvp_only: true
+  exploratory_and_descriptive_only: true
   engineering_is_not_model_evidence: true
   provisional_judgment_is_not_consensus: true
-  pending_claims_require_frozen_run_and_completed_adjudication_to_promote: true
+  pending_claims_require_authorized_run_verified_custody_and_completed_adjudication: true
+  excluded_claims:
+    - rankings
+    - composites
+    - best-model
+    - cue-effect
+    - capability-adjusted
+    - family-level
+    - Christian-consensus
+    - performance claims
 
 claims:
   - id: D001
     type: DESIGN_CLAIM
     statement: >-
-      BibleBench assesses observable outputs, consequential artifacts, sandboxed
-      actions, downstream effects, and passage-aware interpretation or counsel;
-      it does not establish inward spiritual states or Christian moral agency.
+      BibleBench assesses observable outputs, consequential artifacts, reversible
+      sandbox actions, registered omissions, downstream effects, and passage-aware
+      interpretation or counsel; it does not establish inward spiritual states or
+      Christian moral agency.
     manuscript_locations:
       - Abstract
-      - "1. Motivation and contributions"
-      - "2. Biblical and ethical construct boundaries"
+      - Introduction
+      - "Construct and Theological Frame"
+      - Ethics
     support:
       - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
         section: "2. Fixed claim boundary"
       - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/README.md
         section: complete file
-    boundary: This is a measurement-scope statement, not evidence that any model satisfies the constructs.
+    boundary: Measurement scope only; no model has been evaluated.
 
   - id: D002
     type: DESIGN_CLAIM
     statement: >-
-      The shared engine preserves FruitBench, CORINTHLOVE, 10CBench, and
+      The shared design preserves FruitBench, CORINTHLOVE, 10CBench, and
       SermonMount as passage-specific modules rather than merging them into one
-      undifferentiated Christian-ethics bank.
+      undifferentiated Christian-ethics construct.
     manuscript_locations:
       - Abstract
-      - "1. Motivation and contributions"
-      - "4. Four passage modules and 42 approved families"
+      - Introduction
+      - "Construct and Theological Frame"
     support:
       - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
-        section: "1. Objective; 5.2 Preserved module packs"
-    boundary: Shared mechanics do not make module-native constructs interchangeable.
+        section: "5.2 Preserved module packs"
+    boundary: Shared mechanics do not make the module-native constructs interchangeable.
 
   - id: D003
     type: DESIGN_CLAIM
     statement: >-
-      The owner-approved inventory contains 42 construct families: 12
-      FruitBench, 8 CORINTHLOVE, 12 10CBench, and 10 SermonMount.
+      The frozen development bank contains 48 episodes, 12 per module, with four
+      target, four null or foil, and four restraint or counterfeit roles per
+      module, and 34 common-life plus 14 Christian-facing records overall.
     manuscript_locations:
       - Abstract
-      - "4. Four passage modules and 42 approved families"
+      - "Construct and Theological Frame"
+      - "Benchmark Design"
     support:
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md
-        section: "2. Owner approval of the 42-family selection"
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-42-core-selection.md
-        sha256: c0de28c064fdb87ae9ac4d38d53190856912b88f645492cc087ff2d0cee346e2
-    boundary: Family approval does not constitute episode gold or empirical validation.
+      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/modules/README.md
+        section: Registered geometry
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority"
+    boundary: Coverage is not a family-level estimate or a population sample.
 
   - id: D004
     type: DESIGN_CLAIM
     statement: >-
-      The development bank is specified as 48 episodes, 12 per module, with
-      4 target, 4 null or foil, and 4 restraint or counterfeit roles per module,
-      and 34 common-life plus 14 Christian-facing records overall.
+      Under PF-002, the active low-cost MVP contains exactly three inexpensive
+      general-purpose models and 48 episodes, yielding 288 logical calls when each
+      model receives one C1 primary and one matched probe per episode.
     manuscript_locations:
       - Abstract
-      - "4. Four passage modules and 42 approved families"
-      - "5. Shared-episode methodology"
+      - Introduction
+      - "MVP Protocol"
     support:
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md
-        section: "5. Bank and gold track"
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/modules/README.md
-        section: Registered geometry
-    boundary: Geometry and coverage do not provide family-level or population-level estimates.
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority; 2.3 No-spend MVP runner lane"
+    boundary: Geometry is approved; exact roster, provider routes, calls, and spend are not.
 
   - id: D005
     type: DESIGN_CLAIM
     statement: >-
-      One episode per model schedules a blind forecast followed by C0, C1, and
-      C2 primaries, each with an immediately matched observable probe; one
-      12-episode module therefore has 84 logical calls per model.
+      The active MVP gives each episode-model pair exactly one C1 primary and one
+      immediately matched observable probe.
     manuscript_locations:
       - Abstract
-      - "5.2 Forecast–primary–probe sequence"
+      - Introduction
+      - "MVP Protocol"
     support:
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
-        section: "4.1 Shared-episode development geometry"
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/src/biblebench_pilot/schedule.py
-        section: compile_schedule and assert_counterbalanced
-    boundary: Logical-call counts describe schedule geometry, not executed requests.
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority; 2.3 No-spend MVP runner lane"
+    boundary: Earlier C0/C1/C2 and forecast geometry is deferred design history, not active execution wording.
 
   - id: D006
     type: DESIGN_CLAIM
     statement: >-
-      C3 is reserved for externally sealed confirmation and is absent from the
-      development bank, visible payloads, schedules, and reports.
+      The MVP report is exploratory, descriptive, and vector-first and excludes
+      rankings, composites, best-model, cue-effect, capability-adjusted,
+      family-level, Christian-consensus, and performance claims.
     manuscript_locations:
-      - "5.2 Forecast–primary–probe sequence"
-      - "9. Planned evaluation"
+      - Abstract
+      - Introduction
+      - "Planned Analysis"
     support:
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
-        section: "4.1 Shared-episode development geometry"
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/src/biblebench_pilot/schedule.py
-        section: reserved C3 validation
-    boundary: No C3 confirmation evidence exists.
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "2.4 PDF and analysis lane"
+    boundary: No model outcome or comparative conclusion exists.
 
   - id: D007
     type: DESIGN_CLAIM
     statement: >-
-      The founding adjudication protocol uses one theologian-technical expert,
-      stores accepted labels as single_expert_provisional_gold, blinds model
-      identity during judging, and prepares a stratified 20 percent repeat sample.
+      The founding adjudication protocol uses one theologian-technical expert and
+      stores accepted judgments as single-expert provisional gold, with a blinded
+      repeat frozen before pilot-output exposure.
     manuscript_locations:
       - Abstract
-      - "8. Human adjudication and provisional gold"
+      - Introduction
+      - "LLM judging and human adjudication"
+      - Ethics
     support:
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md
-        section: "5. Bank and gold track"
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
-        section: "8. Human adjudication protocol"
-    boundary: Episode owner-review fields are pending; this is not consensus or multi-judge validation.
-
-  - id: D008
-    type: DESIGN_CLAIM
-    statement: >-
-      The planned diagnostic pilot calls for four inexpensive general-purpose
-      models across at least three pinned provider families; a dated
-      proposal-only checkpoint records a candidate four-route roster and
-      conservative cost ceiling, while final identity, prices, ceilings, spend
-      authority, and expiry still require fresh owner approval.
-    manuscript_locations:
-      - Abstract
-      - "9.2 Model and provider plan"
-    support:
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md
-        section: "8. Spend and empirical execution"
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
-        section: "9. Execution phases, Phase 3"
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/PILOT-COST-CHECKPOINT.md
-        section: Proposed four-model panel and Conservative token and cost ceiling
-    boundary: The checkpoint is a time-limited proposal only. No model, provider, credential access, live call, or spend is authorized here.
-
-  - id: D009
-    type: DESIGN_CLAIM
-    statement: >-
-      The first diagnostic report is vector-only and does not authorize a
-      leaderboard, best-model claim, qualified composite, formal CORINTHLOVE
-      concordance claim, or empirical conclusion before a verified run and adjudication.
-    manuscript_locations:
-      - "1. Motivation and contributions"
-      - "9. Planned evaluation"
-      - "11. Ethics and governance"
-      - "13. Results"
-    support:
-      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md
-        section: "9. First milestone and acceptance criteria"
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/modules/README.md
-        section: Pilot claim boundary
-    boundary: No ranking or performance claim is present in the manuscript.
-
-  - id: E001
-    type: ENGINEERING_CLAIM
-    statement: >-
-      Credential-free tests verify that all four authored episode banks exist,
-      validate, have the registered geometry and core coverage, resolve source
-      hashes, contain authored capability-twin specifications, use closed answer contracts, and
-      compile through the shared scheduler.
-    manuscript_locations:
-      - "2.1 What is measured"
-      - "5.1 Episode record"
-      - "5.3 Capability controls and action environments"
-      - "10. Engineering validation"
-    support:
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/tests/test_authored_episode_banks.py
-        tests:
-          - test_all_four_authored_episode_banks_exist_and_validate
-          - test_episode_banks_have_registered_geometry_and_core_coverage
-          - test_source_hashes_and_capability_controls_are_real
-          - test_answer_contracts_are_closed_and_tokens_are_consistent
-          - test_real_episode_banks_compile_through_task7
-    boundary: >-
-      Test fixtures and compilation are not model measurements. Capability-twin
-      presence does not mean twins are converted to logical calls, executed, or
-      held in run custody by the current scheduler.
-
-  - id: E002
-    type: ENGINEERING_CLAIM
-    statement: >-
-      Each observable-evidence object retains one reconstructable response/probe
-      pair, optional canonical sandbox rows, closed condition-blind event records,
-      visible missingness, and content-bound component and bundle hashes.
-    manuscript_locations:
-      - Abstract
-      - "1. Motivation and contributions"
-      - "6. Lossless observable evidence"
-      - "10. Engineering validation"
-    support:
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/src/biblebench_pilot/events.py
-        section: FrozenObservableEvidence and freeze_observable_evidence
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/tests/test_events.py
-        section: lossless reconstruction, closed event, hash, missingness, and tamper tests
-    boundary: >-
-      Losslessness applies to one retained bounded response/probe pair, not to all
-      morally relevant reality and not to cue-specific multi-call custody. This
-      object remains cue-blind; the separate custody module supplies the
-      schedule-derived pair mapping and sealed verification contract.
-
-  - id: E003
-    type: ENGINEERING_CLAIM
-    statement: >-
-      Lens packets authenticate frozen evidence and registered rules while
-      excluding forecasts, other lens ballots, scores, composites, rankings,
-      and private routing data; adding a lens does not change actor schedule geometry.
-    manuscript_locations:
-      - Abstract
-      - "7. Isolated module-native lenses"
-      - "10. Engineering validation"
-    support:
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/src/biblebench_pilot/lenses.py
-        section: build_lens_packet and assert_lens_packet_safe
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/tests/test_lenses.py
-        section: packet custody, isolation, routing, and schedule-independence tests
-    boundary: Isolation does not make a lens normatively neutral or validated by multiple judges.
-
-  - id: E004
-    type: ENGINEERING_CLAIM
-    statement: >-
-      On 2026-07-13, the full credential-free package suite completed with
-      2826 passing tests and no test failures in the manuscript worktree.
-    manuscript_locations:
-      - "10. Engineering validation"
-    support:
-      - command: /opt/homebrew/bin/python3 -m pytest tests -q
-        cwd: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT
-        observed_result: 2826 passed in 243.85s
-        warnings: two non-failing pytest temporary-directory cleanup warnings
-    boundary: This is a time-bounded engineering result and says nothing about model behavior.
-
-  - id: E005
-    type: ENGINEERING_CLAIM
-    statement: >-
-      The private cue-custody contract derives 144 primary/probe-pair rows from
-      the schedule, authenticates canonical evidence artifacts, seals a
-      verifier-produced receipt, and fails closed at actor and judge surfaces.
-    manuscript_locations:
-      - Abstract
-      - "6. Lossless observable evidence"
-    support:
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/src/biblebench_pilot/custody.py
-        section: build_cue_custody_manifest and verify_cue_custody_manifest
-      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/tests/test_custody.py
-        section: schedule coverage, artifact authentication, tamper, and surface tests
-    boundary: >-
-      This is synthetic engineering validation. No live-run custody manifest or
-      empirical cue contrast exists.
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority; 2.2 Human-judging lane"
+    boundary: No episode gold is complete and no Christian consensus is claimed.
 
   - id: P001
     type: PROVISIONAL_THEOLOGICAL_JUDGMENT
     statement: >-
-      The founding normative stance treats Scripture as primary, uses a broadly
-      evangelical Protestant public core, uses the Westminster Standards as a
-      calibration lens rather than an identity gate, and retains contested applications.
+      The founding frame treats Scripture as primary, uses a broadly evangelical
+      Protestant public core, uses the Westminster Standards as a calibration
+      lens rather than an identity gate, and retains contested applications.
     manuscript_locations:
-      - "2.1 What is measured"
-      - "7. Isolated module-native lenses"
+      - "Construct and Theological Frame"
+      - Discussion
     support:
       - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
         section: "3. Normative stance"
@@ -274,88 +151,45 @@ claims:
       Godward, covenantal, worship-related, and Spirit-wrought teachings are not
       behaviorally attributable to a language model merely from its outward output.
     manuscript_locations:
-      - "1. Motivation and contributions"
-      - "2. Biblical and ethical construct boundaries"
-      - "7. Isolated module-native lenses"
+      - Introduction
+      - "Christian AI ethics and digital theology"
+      - Ethics
+      - Discussion
     support:
       - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
         section: "2. Fixed claim boundary"
-    boundary: Such content may be evaluated as interpretation, counsel, or role-boundary fidelity.
+    boundary: Such content may be assessed only as interpretation, counsel, or role-boundary fidelity.
 
   - id: X001
     type: EMPIRICAL_CLAIM_PENDING
     statement: >-
-      The planned pilot will test whether registered cue-surface changes are
-      associated with episode-level changes after semantic invariance review.
+      An authorized pilot would describe delivery, missingness, module-native
+      vectors, common-life and Christian-facing strata, action/probe consistency,
+      red-line incidents, and adjudication uncertainty.
     manuscript_locations:
       - Abstract
-      - "1. Motivation and contributions"
-      - "6. Lossless observable evidence"
-      - "9.1 Purpose and scope"
-      - "9.3 Freeze and execution sequence"
-      - "9.4 Planned analysis and reporting"
+      - "Planned Analysis"
     required_evidence:
-      - frozen bank and schedule
-      - >-
-        private authenticated mapping from every cue-specific primary/probe pair
-        and both logical-call IDs to its exact evidence-bundle hash, or an
-        equivalent frozen multi-call custody contract
-      - verified live responses and probes
-      - completed blinded adjudication
-      - preregistered paired analysis
-    boundary: >-
-      The package has a synthetically verified cue-pair/logical-call-to-bundle
-      custody contract, but no live-run manifest. The pending contrast is
-      ineligible until actual run evidence is mapped, authenticated, and frozen.
-    status: pending_live_run
+      - authorized frozen three-model manifest
+      - immutable requests, responses, probes, usage, and receipts
+      - completed provisional adjudication
+      - verified descriptive analysis
+    boundary: No ranking, composite, cue effect, performance, or causal claim may be promoted.
+    status: pending_empirical_run
 
   - id: X002
     type: EMPIRICAL_CLAIM_PENDING
     statement: >-
-      The planned pilot will estimate mechanical validity, missingness, and
-      diagnostic floor or ceiling behavior for the frozen development bank.
+      The founding repeat may estimate intra-rater stability only; a later
+      preregistered multi-judge study is required for inter-rater or cross-panel
+      disagreement claims.
     manuscript_locations:
-      - "5.3 Capability controls and action environments"
-      - "9.1 Purpose and scope"
-      - "9.4 Planned analysis and reporting"
+      - Introduction
+      - "LLM judging and human adjudication"
+      - Discussion
     required_evidence:
-      - immutable request and response custody
-      - verified provider and model identities
-      - frozen completion and missingness analysis
-    status: pending_live_run
-
-  - id: X003
-    type: EMPIRICAL_CLAIM_PENDING
-    statement: >-
-      The planned pilot will examine episode-level module profiles, action and
-      probe consistency, and red-line incidents without producing a leaderboard
-      or capability-adjusted ethical attribution.
-    manuscript_locations:
-      - "9.1 Purpose and scope"
-      - "9.4 Planned analysis and reporting"
-    required_evidence:
-      - frozen observable evidence
-      - completed provisional human ballots
-      - vector-first analysis
-    boundary: >-
-      Capability twins are authored but not scheduled. Any later capability-adjusted
-      claim requires implemented twin execution, exact twin custody, frozen twin
-      outcomes, and preregistered interpretation rules.
-    status: pending_live_run
-
-  - id: X004
-    type: EMPIRICAL_CLAIM_PENDING
-    statement: >-
-      The founding pilot will measure intra-rater stability from a repeat that
-      is selected after pass-one freeze but judged and frozen before any pilot
-      model call or model-output exposure; later multi-judge work will estimate
-      inter-rater and cross-panel disagreement.
-    manuscript_locations:
-      - "8. Human adjudication and provisional gold"
-      - "9.1 Purpose and scope"
-      - "14. Future multi-judge validation"
-    required_evidence:
-      - completed stratified repeat judgments
-      - preregistered agreement analysis
-      - separately approved multi-panel study for inter-rater claims
+      - frozen pass-one judgments
+      - completed blinded repeat before pilot-output exposure
+      - separately approved multi-judge protocol for any inter-rater claim
+    boundary: A single founding expert cannot establish Christian consensus.
     status: pending_adjudication_and_future_validation

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biblebench.local/schemas/mvp-authorization.schema.json",
+  "title": "PF-002 owner authorization bound to a proposal hash",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "authorization_version", "status", "owner", "approval_reference",
+    "approved_on", "expires_on", "proposal_manifest_sha256",
+    "run_id", "authorization_nonce", "owner_record_id",
+    "not_to_exceed_usd", "authorization_schema_sha256", "authorization_sha256"
+  ],
+  "properties": {
+    "authorization_version": {"const": "pf002-owner-authorization-v2"},
+    "status": {"enum": ["NOT_AUTHORIZED", "APPROVED"]},
+    "owner": {"type": ["string", "null"]},
+    "approval_reference": {"type": ["string", "null"]},
+    "approved_on": {"type": ["string", "null"], "format": "date"},
+    "expires_on": {"type": "string", "format": "date"},
+    "proposal_manifest_sha256": {"$ref": "#/$defs/hash"},
+    "run_id": {"type": ["string", "null"], "pattern": "^[a-z0-9][a-z0-9._-]{7,127}$"},
+    "authorization_nonce": {
+      "anyOf": [{"$ref": "#/$defs/hash"}, {"type": "null"}]
+    },
+    "owner_record_id": {"type": ["string", "null"], "pattern": "^[a-z0-9][a-z0-9._-]{7,127}$"},
+    "not_to_exceed_usd": {"const": 5},
+    "authorization_schema_sha256": {"$ref": "#/$defs/hash"},
+    "authorization_sha256": {"$ref": "#/$defs/hash"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "APPROVED"}}},
+      "then": {
+        "properties": {
+          "owner": {"const": "Jimmy Lin"},
+          "approval_reference": {"type": "string", "minLength": 8},
+          "approved_on": {"type": "string", "format": "date"},
+          "run_id": {"type": "string"},
+          "authorization_nonce": {"$ref": "#/$defs/hash"},
+          "owner_record_id": {"type": "string"}
+        }
+      },
+      "else": {
+        "properties": {
+          "owner": {"const": null},
+          "approval_reference": {"const": null},
+          "approved_on": {"const": null},
+          "run_id": {"const": null},
+          "authorization_nonce": {"const": null},
+          "owner_record_id": {"const": null}
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

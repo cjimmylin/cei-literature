@@ -1,0 +1,13 @@
+{
+  "artifact_status": "PENDING_EMPIRICAL_RUN",
+  "claim_boundary": "exploratory_descriptive_nonranking",
+  "figures": [
+    {"figure_id": "completion_missingness", "mark": "bar", "required_fields": ["actor", "module", "status", "count", "denominator"]},
+    {"figure_id": "module_native_vectors", "mark": "dot", "required_fields": ["actor", "module", "dimension", "value", "missing_count"]},
+    {"figure_id": "strata", "mark": "facet_bar", "required_fields": ["actor", "module", "stratum", "count", "denominator"]},
+    {"figure_id": "action_probe_consistency", "mark": "matrix", "required_fields": ["actor", "module", "consistency", "count"]},
+    {"figure_id": "red_line_incidents", "mark": "bar", "required_fields": ["actor", "module", "incident_class", "count", "evidence_available"]},
+    {"figure_id": "judge_confidence_contestability", "mark": "stacked_bar", "required_fields": ["confidence", "contestability", "count"]}
+  ],
+  "forbidden_fields": ["rank", "leaderboard", "best_model", "composite", "p_value", "cue_effect", "capability_adjusted"]
+}

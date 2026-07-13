@@ -1,0 +1,200 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biblebench.local/schemas/mvp-proposal.schema.json",
+  "title": "PF-002 real-roster proposal manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "provenance", "manifest_version", "proposal_id", "status", "authorized",
+    "expires_on", "cue", "fallback_enabled", "actors", "banks",
+    "retry_rule", "budget", "geometry", "snapshot_hashes", "manifest_sha256"
+  ],
+  "properties": {
+    "provenance": {"const": "PROPOSAL_ONLY"},
+    "manifest_version": {"const": "pf002-real-proposal-v1"},
+    "proposal_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{7,127}$"},
+    "status": {"const": "PROPOSAL_ONLY"},
+    "authorized": {"const": false},
+    "expires_on": {"type": "string", "format": "date"},
+    "cue": {"const": "C1"},
+    "fallback_enabled": {"const": false},
+    "actors": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"$ref": "#/$defs/actor"}
+    },
+    "banks": {
+      "type": "array", "minItems": 4, "maxItems": 4,
+      "items": {"$ref": "#/$defs/bank"}
+    },
+    "retry_rule": {"$ref": "#/$defs/retry"},
+    "budget": {"$ref": "#/$defs/budget"},
+    "geometry": {"$ref": "#/$defs/geometry"},
+    "snapshot_hashes": {"$ref": "#/$defs/snapshot_hashes"},
+    "manifest_sha256": {"$ref": "#/$defs/hash"}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actor_alias", "provider", "model_id", "route", "price",
+        "token_caps", "decoding", "context_window_tokens",
+        "maximum_supported_output_tokens", "route_worst_case_usd"
+      ],
+      "properties": {
+        "actor_alias": {"type": "string", "pattern": "^actor-[a-z][a-z0-9-]{0,31}$"},
+        "provider": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9 ._-]{1,63}$"},
+        "model_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._:/-]{2,127}$"},
+        "route": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["provider_family", "route_id", "api_family", "first_party", "fallback_enabled"],
+          "properties": {
+            "provider_family": {
+              "enum": ["generic_messages", "generic_responses", "generic_content"]
+            },
+            "route_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._/-]{3,127}$"},
+            "api_family": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{1,63}$"},
+            "first_party": {"const": true},
+            "fallback_enabled": {"const": false}
+          }
+        },
+        "price": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "currency", "unit", "input_usd", "output_usd",
+            "evidence_date", "evidence_url"
+          ],
+          "properties": {
+            "currency": {"const": "USD"},
+            "unit": {"const": "per_million_tokens"},
+            "input_usd": {"type": "number", "minimum": 0},
+            "output_usd": {"type": "number", "minimum": 0},
+            "evidence_date": {"type": "string", "format": "date"},
+            "evidence_url": {"type": "string", "pattern": "^https://"}
+          }
+        },
+        "token_caps": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["max_input_tokens", "max_output_tokens"],
+          "properties": {
+            "max_input_tokens": {"type": "integer", "minimum": 1},
+            "max_output_tokens": {"type": "integer", "minimum": 1}
+          }
+        },
+        "decoding": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "temperature", "top_p", "seed", "frequency_penalty",
+            "presence_penalty", "stop_sequences"
+          ],
+          "properties": {
+            "temperature": {"type": "number", "minimum": 0, "maximum": 2},
+            "top_p": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+            "seed": {"type": "integer", "minimum": 0, "maximum": 2147483647},
+            "frequency_penalty": {"type": "number", "minimum": -2, "maximum": 2},
+            "presence_penalty": {"type": "number", "minimum": -2, "maximum": 2},
+            "stop_sequences": {
+              "type": "array", "maxItems": 8,
+              "items": {"type": "string", "minLength": 1, "maxLength": 128}
+            }
+          }
+        },
+        "context_window_tokens": {"type": "integer", "minimum": 1},
+        "maximum_supported_output_tokens": {"type": "integer", "minimum": 1},
+        "route_worst_case_usd": {"type": "number", "minimum": 0}
+      }
+    },
+    "bank": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "module", "path", "sha256", "episode_count",
+        "c1_surface_registry_sha256", "primary_request_registry_sha256",
+        "probe_request_registry_sha256"
+      ],
+      "properties": {
+        "module": {
+          "enum": ["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+        },
+        "path": {"type": "string", "pattern": "^modules/[a-z]+/episodes\\.yaml$"},
+        "sha256": {"$ref": "#/$defs/hash"},
+        "episode_count": {"const": 12},
+        "c1_surface_registry_sha256": {"$ref": "#/$defs/hash"},
+        "primary_request_registry_sha256": {"$ref": "#/$defs/hash"},
+        "probe_request_registry_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "retry": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "max_retries", "maximum_attempts_per_logical_call",
+        "retryable_statuses", "unknown_delivery_terminal"
+      ],
+      "properties": {
+        "max_retries": {"const": 1},
+        "maximum_attempts_per_logical_call": {"const": 2},
+        "retryable_statuses": {
+          "type": "array", "prefixItems": [{"const": "rate_limit"}],
+          "items": false, "minItems": 1, "maxItems": 1
+        },
+        "unknown_delivery_terminal": {"const": true}
+      }
+    },
+    "budget": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "currency", "calculation_version", "forecast_usd",
+        "calculated_worst_case_usd", "forecast_limit_usd",
+        "hard_cap_usd", "not_to_exceed_usd"
+      ],
+      "properties": {
+        "currency": {"const": "USD"},
+        "calculation_version": {"const": "pf002-max-token-retry-v1"},
+        "forecast_usd": {"type": "number", "minimum": 0},
+        "calculated_worst_case_usd": {"type": "number", "minimum": 0},
+        "forecast_limit_usd": {"const": 3},
+        "hard_cap_usd": {"const": 5},
+        "not_to_exceed_usd": {"const": 5}
+      }
+    },
+    "geometry": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "episode_count", "actor_count", "primary_count", "probe_count",
+        "logical_call_count", "capability_twins"
+      ],
+      "properties": {
+        "episode_count": {"const": 48},
+        "actor_count": {"const": 3},
+        "primary_count": {"const": 144},
+        "probe_count": {"const": 144},
+        "logical_call_count": {"const": 288},
+        "capability_twins": {"const": false}
+      }
+    },
+    "snapshot_hashes": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "bank_set_sha256", "surface_registry_set_sha256",
+        "request_registry_set_sha256", "compiler_sha256", "adapter_sha256",
+        "proposal_schema_sha256", "artifact_schema_sha256",
+        "analysis_contract_sha256", "adjudication_contract_sha256"
+      ],
+      "properties": {
+        "bank_set_sha256": {"$ref": "#/$defs/hash"},
+        "surface_registry_set_sha256": {"$ref": "#/$defs/hash"},
+        "request_registry_set_sha256": {"$ref": "#/$defs/hash"},
+        "compiler_sha256": {"$ref": "#/$defs/hash"},
+        "adapter_sha256": {"$ref": "#/$defs/hash"},
+        "proposal_schema_sha256": {"$ref": "#/$defs/hash"},
+        "artifact_schema_sha256": {"$ref": "#/$defs/hash"},
+        "analysis_contract_sha256": {"$ref": "#/$defs/hash"},
+        "adjudication_contract_sha256": {"$ref": "#/$defs/hash"}
+      }
+    }
+  }
+}

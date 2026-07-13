@@ -1,0 +1,99 @@
+registry_version: "1.0"
+status: PRE-EMPIRICAL DESIGN REPORT
+author: Jimmy Lin
+reports:
+  - filename: 01-biblebench-consolidated-design-and-methods.pdf
+    title: BibleBench Consolidated Design and Methods
+    kind: manuscript
+    sources:
+      - BIBLEBENCH-PAPER/manuscript.md
+      - BIBLEBENCH-PAPER/references.bib
+    required_phrases:
+      - PENDING_EMPIRICAL_RUN
+      - observable outputs
+      - passage
+  - filename: 02-fruitbench-design-report.pdf
+    title: FruitBench Design Report
+    kind: module
+    module: fruitbench
+    sources:
+      - BIBLEBENCH-PILOT/modules/fruitbench/episodes.yaml
+    required_phrases:
+      - Galatians 5
+      - deficient pole
+      - counterfeit pole
+  - filename: 03-corinthlove-design-report.pdf
+    title: CORINTHLOVE Design Report
+    kind: module
+    module: corinthlove
+    sources:
+      - BIBLEBENCH-PILOT/modules/corinthlove/episodes.yaml
+    required_phrases:
+      - 1 Corinthians 13
+      - deficient pole
+      - counterfeit pole
+  - filename: 04-10cbench-30-design-atlas.pdf
+    title: 10CBench Thirty-Design Atlas
+    kind: tencommandments_atlas
+    sources:
+      - output/10cbench-30-designs-overview.md
+      - BIBLEBENCH-PILOT/modules/tencommandments/episodes.yaml
+    required_phrases:
+      - SOVEREIGN
+      - TABLETS
+      - PREFACE
+      - Exodus 20
+      - deficient_pole
+      - counterfeit_pole
+  - filename: 05-sermonmount-design-report.pdf
+    title: SermonMount Design Report
+    kind: module
+    module: sermonmount
+    sources:
+      - BIBLEBENCH-PILOT/modules/sermonmount/episodes.yaml
+    required_phrases:
+      - Matthew 5
+      - deficient pole
+      - counterfeit pole
+  - filename: 06-shared-episode-protocol-and-custody.pdf
+    title: Shared Episode Protocol and Custody
+    kind: markdown
+    sources:
+      - BIBLEBENCH-PAPER/reports/06-shared-protocol.md
+    required_phrases:
+      - 288 logical calls
+      - matched probe
+      - unknown delivery
+  - filename: 07-human-adjudication-handbook.pdf
+    title: Human Adjudication Handbook
+    kind: markdown
+    sources:
+      - BIBLEBENCH-PAPER/reports/07-adjudication-handbook.md
+      - BIBLEBENCH-PILOT/adjudication/PROVISIONAL-GOLD-JUDGE-GUIDE.md
+    required_phrases:
+      - single-expert provisional gold
+      - blinded repeat
+      - NOT_APPLICABLE
+  - filename: 08-reproducibility-ethics-and-data-card.pdf
+    title: Reproducibility, Ethics, and Data Card
+    kind: markdown
+    sources:
+      - BIBLEBENCH-PAPER/appendix-reproducibility.md
+      - BIBLEBENCH-PAPER/appendix-ethics.md
+      - BIBLEBENCH-PAPER/appendix-data-card.md
+    required_phrases:
+      - reproducibility
+      - ethics
+      - intended use
+  - filename: 09-analysis-tables-figures-and-claims-boundary.pdf
+    title: Analysis Tables, Figures, and Claims Boundary
+    kind: analysis
+    sources:
+      - BIBLEBENCH-PAPER/reports/09-analysis-template.md
+      - BIBLEBENCH-PILOT/analysis/final-table-shells.csv
+      - BIBLEBENCH-PILOT/analysis/figure-contracts.json
+      - BIBLEBENCH-PAPER/claims-registry.yaml
+    required_phrases:
+      - PENDING_EMPIRICAL_RUN
+      - no leaderboard
+      - descriptive

@@ -1,0 +1,8 @@
+table_id,row_key,actor,module,stratum,dimension,count,denominator,missing_count,value,status
+completion,all,,,,,,,,,PENDING_EMPIRICAL_RUN
+module_native_vector,all,,,,,,,,,PENDING_EMPIRICAL_RUN
+stratum,all,,,,,,,,,PENDING_EMPIRICAL_RUN
+action_probe_consistency,all,,,,,,,,,PENDING_EMPIRICAL_RUN
+red_line_incident,all,,,,,,,,,PENDING_EMPIRICAL_RUN
+judge_confidence,all,,,,,,,,,PENDING_EMPIRICAL_RUN
+contestability,all,,,,,,,,,PENDING_EMPIRICAL_RUN

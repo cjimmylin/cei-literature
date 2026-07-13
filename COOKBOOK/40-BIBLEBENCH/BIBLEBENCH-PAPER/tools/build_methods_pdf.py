@@ -29,6 +29,7 @@ from reportlab.platypus import (
 
 PAPER_ROOT = Path(__file__).resolve().parents[1]
 MANUSCRIPT = PAPER_ROOT / "manuscript.md"
+REFERENCES = PAPER_ROOT / "references.bib"
 OUTPUT = PAPER_ROOT / "output" / "pdf" / "biblebench-methods-prerelease.pdf"
 TITLE = (
     "BibleBench: A Passage-Preserving Design for Observable Ethical and "
@@ -149,6 +150,17 @@ def _styles() -> dict[str, ParagraphStyle]:
             leading=9.5,
             textColor=colors.HexColor("#243746"),
         ),
+        "reference": ParagraphStyle(
+            "BBReference",
+            parent=base["BodyText"],
+            fontName="BBArial",
+            fontSize=7.7,
+            leading=10.1,
+            textColor=colors.HexColor("#243746"),
+            leftIndent=13,
+            firstLineIndent=-13,
+            spaceAfter=5,
+        ),
         "table_header": ParagraphStyle(
             "BBTableHeader",
             parent=base["BodyText"],
@@ -185,6 +197,224 @@ def _inline(text: str) -> str:
     value = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", value)
     value = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<i>\1</i>", value)
     return value
+
+
+def _parse_bibliography(text: str) -> dict[str, dict[str, str]]:
+    """Parse the deliberately bounded BibTeX subset used by this manuscript."""
+    entries: dict[str, dict[str, str]] = {}
+    entry_pattern = re.compile(
+        r"^@(?P<type>[A-Za-z]+)\{(?P<key>[^,\s]+),(?P<body>.*?)(?=^@|\Z)",
+        re.MULTILINE | re.DOTALL,
+    )
+    for match in entry_pattern.finditer(text):
+        body = match.group("body").rstrip()
+        if not body.endswith("}"):
+            raise ValueError(f"unterminated bibliography entry: {match.group('key')}")
+        body = body[:-1]
+        fields: dict[str, str] = {"entry_type": match.group("type").lower()}
+        position = 0
+        while position < len(body):
+            separator = re.match(r"[\s,]*", body[position:])
+            position += separator.end()
+            if position >= len(body):
+                break
+            field_match = re.match(r"([A-Za-z][A-Za-z0-9_]*)\s*=\s*", body[position:])
+            if not field_match:
+                raise ValueError(
+                    f"invalid bibliography field in {match.group('key')}: "
+                    f"{body[position:position + 24]!r}"
+                )
+            field = field_match.group(1).lower()
+            position += field_match.end()
+            if body[position] == "{":
+                depth = 1
+                start = position + 1
+                position += 1
+                while position < len(body) and depth:
+                    if body[position] == "{":
+                        depth += 1
+                    elif body[position] == "}":
+                        depth -= 1
+                    position += 1
+                if depth:
+                    raise ValueError(
+                        f"unterminated bibliography field {field} in {match.group('key')}"
+                    )
+                value = body[start : position - 1]
+            elif body[position] == '"':
+                start = position + 1
+                position = body.find('"', start)
+                if position < 0:
+                    raise ValueError(
+                        f"unterminated bibliography field {field} in {match.group('key')}"
+                    )
+                value = body[start:position]
+                position += 1
+            else:
+                end = body.find(",", position)
+                if end < 0:
+                    end = len(body)
+                value = body[position:end].strip()
+                position = end
+            fields[field] = value.strip()
+        key = match.group("key")
+        if key in entries:
+            raise ValueError(f"duplicate bibliography key: {key}")
+        entries[key] = fields
+    if not entries:
+        raise ValueError("bibliography contains no entries")
+    return entries
+
+
+def _plain_bibtex(value: str) -> str:
+    return value.replace("{", "").replace("}", "").replace("--", "-").strip()
+
+
+def _authors(entry: dict[str, str]) -> tuple[list[str], bool]:
+    raw = entry.get("author", "").strip()
+    corporate = raw.startswith("{") and raw.endswith("}")
+    if corporate:
+        return [_plain_bibtex(raw)], True
+    return [
+        _plain_bibtex(name)
+        for name in re.split(r"\s+and\s+", raw)
+        if name.strip()
+    ], False
+
+
+def _author_year(entry: dict[str, str]) -> tuple[str, str]:
+    authors, corporate = _authors(entry)
+    if not authors:
+        label = "Anonymous"
+    elif corporate:
+        label = authors[0]
+    elif len(authors) == 1:
+        label = authors[0].split()[-1]
+    elif len(authors) == 2:
+        label = f"{authors[0].split()[-1]} and {authors[1].split()[-1]}"
+    else:
+        label = f"{authors[0].split()[-1]} et al."
+    return label, _plain_bibtex(entry.get("year", "n.d."))
+
+
+def _citation_labels(entries: dict[str, dict[str, str]]) -> dict[str, str]:
+    bases: dict[str, tuple[str, str]] = {
+        key: _author_year(entry) for key, entry in entries.items()
+    }
+    grouped: dict[tuple[str, str], list[str]] = {}
+    for key, base in bases.items():
+        grouped.setdefault(base, []).append(key)
+    labels: dict[str, str] = {}
+    for key, (author, year) in bases.items():
+        siblings = grouped[(author, year)]
+        suffix = chr(ord("a") + siblings.index(key)) if len(siblings) > 1 else ""
+        labels[key] = f"{author}, {year}{suffix}"
+    return labels
+
+
+def _resolve_citations(
+    markdown: str, entries: dict[str, dict[str, str]]
+) -> tuple[str, list[str]]:
+    labels = _citation_labels(entries)
+    cited: list[str] = []
+    citation_pattern = re.compile(
+        r"\[(?P<items>@[A-Za-z][A-Za-z0-9]*(?:\s*;\s*@[A-Za-z][A-Za-z0-9]*)*)\]"
+    )
+
+    def replace(match: re.Match[str]) -> str:
+        keys = re.findall(r"@([A-Za-z][A-Za-z0-9]*)", match.group("items"))
+        missing = [key for key in keys if key not in entries]
+        if missing:
+            raise ValueError(f"unresolved bibliography citation(s): {', '.join(missing)}")
+        for key in keys:
+            if key not in cited:
+                cited.append(key)
+        return "(" + "; ".join(labels[key] for key in keys) + ")"
+
+    resolved = citation_pattern.sub(replace, markdown)
+    unresolved = re.search(r"\[@[A-Za-z][A-Za-z0-9]*", resolved)
+    if unresolved:
+        raise ValueError(f"unresolved bibliography token: {unresolved.group(0)}")
+    return resolved, cited
+
+
+def _bibliography_entry(entry: dict[str, str], citation_year: str) -> str:
+    authors, _ = _authors(entry)
+    if not authors:
+        author_text = "Anonymous"
+    elif len(authors) > 4:
+        author_text = f"{authors[0]} et al."
+    elif len(authors) == 1:
+        author_text = authors[0]
+    else:
+        author_text = ", ".join(authors[:-1]) + f", and {authors[-1]}"
+    title = _plain_bibtex(entry.get("title", "Untitled"))
+    parts = [f"{author_text} ({citation_year}). {title}."]
+    container = entry.get("journal") or entry.get("booktitle")
+    if container:
+        parts.append(_plain_bibtex(container) + ".")
+    series = entry.get("series")
+    if series:
+        parts.append(_plain_bibtex(series) + ".")
+    publisher = entry.get("publisher")
+    if publisher:
+        parts.append(_plain_bibtex(publisher) + ".")
+    volume = _plain_bibtex(entry.get("volume", ""))
+    number = _plain_bibtex(entry.get("number", ""))
+    pages = _plain_bibtex(entry.get("pages", ""))
+    if volume:
+        parts.append(f"Volume {volume}" + (f"({number})" if number else "") + ".")
+    if pages:
+        parts.append(f"Pages {pages}.")
+    isbn = _plain_bibtex(entry.get("isbn", ""))
+    if isbn:
+        parts.append(f"ISBN {isbn}.")
+    howpublished = entry.get("howpublished")
+    if howpublished:
+        parts.append(_plain_bibtex(howpublished) + ".")
+    doi = _plain_bibtex(entry.get("doi", ""))
+    if doi:
+        parts.append(f"[DOI](https://doi.org/{doi}).")
+    url = _plain_bibtex(entry.get("url", ""))
+    if url:
+        parts.append(f"[Source]({url}).")
+    note = entry.get("note")
+    if note:
+        parts.append(_plain_bibtex(note))
+    return " ".join(parts)
+
+
+def _bibliography_story(
+    entries: dict[str, dict[str, str]],
+    cited: list[str],
+    styles: dict[str, ParagraphStyle],
+) -> list:
+    labels = _citation_labels(entries)
+    external = [key for key in cited if entries[key].get("keywords") != "local-provenance"]
+    local = [key for key in cited if entries[key].get("keywords") == "local-provenance"]
+    story: list = [
+        PageBreak(),
+        Paragraph("Bibliography", styles["h1"]),
+        Paragraph(
+            "External scholarship and local design provenance are separated below. "
+            "The bibliography resolves every author-year citation in the manuscript; "
+            "repository entries document design lineage rather than external validation.",
+            styles["body"],
+        ),
+    ]
+    for heading, keys in (("External scholarship", external), ("Local design provenance", local)):
+        if not keys:
+            continue
+        story.append(Paragraph(heading, styles["h2"]))
+        for key in keys:
+            citation_year = labels[key].rsplit(", ", 1)[-1]
+            story.append(
+                Paragraph(
+                    _inline(_bibliography_entry(entries[key], citation_year)),
+                    styles["reference"],
+                )
+            )
+    return story
 
 
 def _page(canvas, doc) -> None:  # noqa: ANN001
@@ -318,6 +548,8 @@ def build() -> Path:
     _register_fonts()
     styles = _styles()
     markdown = MANUSCRIPT.read_text(encoding="utf-8")
+    bibliography = _parse_bibliography(REFERENCES.read_text(encoding="utf-8"))
+    markdown, cited = _resolve_citations(markdown, bibliography)
     if markdown.splitlines()[0] != f"# {TITLE}":
         raise ValueError("manuscript title drifted from registered PDF metadata")
     if markdown.count("PENDING_EMPIRICAL_RUN") != 1:
@@ -387,7 +619,11 @@ def build() -> Path:
         ),
         PageBreak(),
     ]
-    doc.build(cover + _body_story(markdown, styles))
+    doc.build(
+        cover
+        + _body_story(markdown, styles)
+        + _bibliography_story(bibliography, cited, styles)
+    )
     return OUTPUT
 
 

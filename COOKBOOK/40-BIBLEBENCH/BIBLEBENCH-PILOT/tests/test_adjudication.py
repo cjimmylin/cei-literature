@@ -515,6 +515,41 @@ def test_finalize_freezes_completed_packet_with_judge_and_custody_manifest(
     assert packet_path.read_bytes() == completed_bytes
 
 
+def test_review_schema_requires_semantic_rfc3339_timestamps() -> None:
+    schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+
+    assert schema["$defs"]["utcTimestamp"] == {
+        "type": "string",
+        "format": "date-time",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$",
+    }
+
+
+def test_finalizer_rejects_impossible_calendar_completion_timestamp(tmp_path) -> None:
+    packet = build_review_packet(PACKAGE_ROOT)
+    _complete_all_record_reviews(packet)
+    input_path = tmp_path / "owner-reviewed.yaml"
+    input_path.write_text(
+        yaml.safe_dump(packet, allow_unicode=True, sort_keys=False, width=88),
+        encoding="utf-8",
+    )
+
+    with pytest.raises(ValueError, match="schema validation failed"):
+        adjudication.finalize_review_packet(
+            PACKAGE_ROOT,
+            input_path,
+            tmp_path / "frozen",
+            judge={
+                "judge_id": "jimmy_lin",
+                "display_name": "Jimmy Lin",
+                "role": "founding_theologian_technical_judge",
+            },
+            completed_at="2026-02-30T18:00:00Z",
+        )
+
+    assert not (tmp_path / "frozen" / "adjudicated-provisional-gold-review.yaml").exists()
+
+
 def test_finalize_rejects_packet_with_pending_records(tmp_path) -> None:
     packet = build_review_packet(PACKAGE_ROOT)
     input_path = tmp_path / "pending.yaml"

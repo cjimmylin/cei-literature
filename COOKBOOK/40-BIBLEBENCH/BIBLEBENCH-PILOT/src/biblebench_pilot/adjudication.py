@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import datetime
 from functools import lru_cache
 import hashlib
 import json
@@ -8,7 +9,7 @@ from pathlib import Path
 import sys
 from typing import Any, Union
 
-from jsonschema import Draft202012Validator
+from jsonschema import Draft202012Validator, FormatChecker
 import yaml
 
 MODULES = (
@@ -17,6 +18,20 @@ MODULES = (
     "tencommandments",
     "sermonmount",
 )
+
+
+def _is_utc_timestamp(value: object) -> bool:
+    if not isinstance(value, str):
+        return False
+    try:
+        datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        return False
+    return True
+
+
+UTC_FORMAT_CHECKER = FormatChecker()
+UTC_FORMAT_CHECKER.checks("date-time")(_is_utc_timestamp)
 
 
 def _canonical_sha256(value: object) -> str:
@@ -47,7 +62,9 @@ def _load_yaml_object(path: Path) -> dict[str, Any]:
 def _validate(instance: dict[str, Any], schema: dict[str, Any], *, path: Path) -> None:
     Draft202012Validator.check_schema(schema)
     errors = sorted(
-        Draft202012Validator(schema).iter_errors(instance),
+        Draft202012Validator(
+            schema, format_checker=UTC_FORMAT_CHECKER
+        ).iter_errors(instance),
         key=lambda error: tuple(str(part) for part in error.absolute_path),
     )
     if errors:

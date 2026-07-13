@@ -1,0 +1,15 @@
+{
+  "approval_reference": null,
+  "approved_on": null,
+  "authorization_nonce": null,
+  "authorization_schema_sha256": "7e6dc079e1d1786a9a2570764d3e2d354f29f5e59ff4d6c95a9ba77fcda9312e",
+  "authorization_sha256": "b0475fc4192761bcfd4790e74f3b03eccb310a37c76e1a1f1c4d5f49aaa71825",
+  "authorization_version": "pf002-owner-authorization-v2",
+  "expires_on": "2026-07-20",
+  "not_to_exceed_usd": 5,
+  "owner": null,
+  "owner_record_id": null,
+  "proposal_manifest_sha256": "33e1aae176561ecb3c93edf41b9a9682096d088b261cad8297fbed675c63872e",
+  "run_id": null,
+  "status": "NOT_AUTHORIZED"
+}

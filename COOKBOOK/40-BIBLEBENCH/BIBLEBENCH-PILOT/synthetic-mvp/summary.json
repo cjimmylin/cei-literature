@@ -1,0 +1,50 @@
+{
+  "artifact_sha256": "625b2f341d2c4fe162bc720f608228bdcf3345150fc642e7c1c3af5eb4ba271b",
+  "artifact_type": "summary",
+  "artifact_version": "pf002-mvp-artifact-v1",
+  "previous_artifact_sha256": "21aed36f4131b8b049fae6b389268e880bbf9ea62946f04ff5ad16fa9c38cd6e",
+  "provenance": "SYNTHETIC_VALIDATION_ONLY",
+  "record_count": 1,
+  "records": [
+    {
+      "payload": {
+        "actor_count": 3,
+        "authorized": false,
+        "cue": "C1",
+        "estimated_cost_usd": 0,
+        "fallback_used": false,
+        "hard_cap_usd": 5,
+        "logical_call_count": 288,
+        "missingness_count": 205,
+        "primary_count": 144,
+        "probe_count": 144,
+        "provenance": "SYNTHETIC_VALIDATION_ONLY",
+        "retry_attempt_count": 82,
+        "scenario_counts": {
+          "malformed": 41,
+          "rate_limit_once": 41,
+          "refusal": 41,
+          "retry_exhausted": 41,
+          "success": 42,
+          "truncated": 41,
+          "unknown_delivery": 41
+        },
+        "terminal_status_counts": {
+          "malformed": 41,
+          "refusal": 41,
+          "retry_exhausted": 41,
+          "success": 83,
+          "truncated": 41,
+          "unknown_delivery": 41
+        }
+      },
+      "payload_sha256": "a3ebd1c4045c9f6e6845af98106224e6ca23967f01ab6d8b361148c56267338a",
+      "previous_record_sha256": null,
+      "provenance": "SYNTHETIC_VALIDATION_ONLY",
+      "record_sha256": "3a99c181bdbf2cb05e95eaf0a8a1e287cfbbacc01b44cd68ad189c23f3683e1e",
+      "record_type": "summary",
+      "sequence": 1
+    }
+  ],
+  "records_sha256": "d961d789d9eec70131669ccadc61943bbdf78b7b3614873d540652d8256ed3ee"
+}

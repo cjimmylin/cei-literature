@@ -1,0 +1,189 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biblebench.local/schemas/mvp-artifact.schema.json",
+  "title": "PF-002 synthetic MVP hash-chained artifact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "provenance", "artifact_version", "artifact_type", "record_count",
+    "previous_artifact_sha256", "records_sha256", "records", "artifact_sha256"
+  ],
+  "properties": {
+    "provenance": {"const": "SYNTHETIC_VALIDATION_ONLY"},
+    "artifact_version": {"const": "pf002-mvp-artifact-v1"},
+    "artifact_type": {
+      "enum": ["calls", "requests", "responses", "usage", "receipts", "missingness", "summary"]
+    },
+    "record_count": {"type": "integer", "minimum": 1},
+    "previous_artifact_sha256": {"$ref": "#/$defs/hash"},
+    "records_sha256": {"$ref": "#/$defs/hash"},
+    "records": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/record"}},
+    "artifact_sha256": {"$ref": "#/$defs/hash"}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "logicalId": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+    "provenance": {"const": "SYNTHETIC_VALIDATION_ONLY"},
+    "providerFamily": {"enum": ["generic_messages", "generic_responses", "generic_content"]},
+    "scenario": {"enum": ["success", "refusal", "malformed", "truncated", "rate_limit_once", "unknown_delivery", "retry_exhausted"]},
+    "neutralRequest": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "prompt", "response_schema", "tools", "temperature", "max_output_tokens"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "prompt": {"type": "string", "minLength": 1},
+        "response_schema": {"type": "object"},
+        "tools": {"type": "object"},
+        "temperature": {"type": "number"},
+        "max_output_tokens": {"type": "integer", "minimum": 1, "maximum": 4096}
+      }
+    },
+    "callPayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "logical_call_id", "pair_id", "primary_logical_call_id", "phase", "actor_alias", "provider_family", "model_id", "module", "bank_sha256", "episode_id", "episode_sha256", "cue", "surface_sha256", "request", "request_sha256", "binding_sha256"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "pair_id": {"$ref": "#/$defs/logicalId"},
+        "primary_logical_call_id": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/logicalId"}]},
+        "phase": {"enum": ["primary", "probe"]},
+        "actor_alias": {"type": "string", "pattern": "^synthetic-actor-[a-z]+$"},
+        "provider_family": {"$ref": "#/$defs/providerFamily"},
+        "model_id": {"type": "string", "pattern": "^synthetic-model-[a-z]+$"},
+        "module": {"enum": ["fruitbench", "corinthlove", "tencommandments", "sermonmount"]},
+        "bank_sha256": {"$ref": "#/$defs/hash"},
+        "episode_id": {"type": "string", "minLength": 1},
+        "episode_sha256": {"$ref": "#/$defs/hash"},
+        "cue": {"const": "C1"},
+        "surface_sha256": {"$ref": "#/$defs/hash"},
+        "request": {"$ref": "#/$defs/neutralRequest"},
+        "request_sha256": {"$ref": "#/$defs/hash"},
+        "binding_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "requestPayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "logical_call_id", "attempt", "actor_alias", "provider_family", "model_id", "request_sha256", "adapted_request", "adapted_request_sha256"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "attempt": {"type": "integer", "minimum": 1, "maximum": 2},
+        "actor_alias": {"type": "string", "pattern": "^synthetic-actor-[a-z]+$"},
+        "provider_family": {"$ref": "#/$defs/providerFamily"},
+        "model_id": {"type": "string", "pattern": "^synthetic-model-[a-z]+$"},
+        "request_sha256": {"$ref": "#/$defs/hash"},
+        "adapted_request": {"type": "object", "minProperties": 3},
+        "adapted_request_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "responsePayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "logical_call_id", "attempt", "scenario", "status", "terminal", "content", "input_tokens", "output_tokens", "synthetic_response_sha256"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "attempt": {"type": "integer", "minimum": 1, "maximum": 2},
+        "scenario": {"$ref": "#/$defs/scenario"},
+        "status": {"enum": ["success", "refusal", "malformed", "truncated", "rate_limit", "unknown_delivery"]},
+        "terminal": {"type": "boolean"},
+        "content": {"type": ["object", "string", "null"]},
+        "input_tokens": {"type": "integer", "minimum": 0},
+        "output_tokens": {"type": "integer", "minimum": 0},
+        "synthetic_response_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "usagePayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "logical_call_id", "attempt", "input_tokens", "output_tokens", "estimated_cost_usd"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "attempt": {"type": "integer", "minimum": 1, "maximum": 2},
+        "input_tokens": {"type": "integer", "minimum": 0},
+        "output_tokens": {"type": "integer", "minimum": 0},
+        "estimated_cost_usd": {"const": 0}
+      }
+    },
+    "receiptPayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "logical_call_id", "pair_id", "actor_alias", "provider_family", "model_id", "scenario", "terminal_status", "attempt_count", "fallback_used", "request_sha256", "response_sha256", "estimated_cost_usd"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "pair_id": {"$ref": "#/$defs/logicalId"},
+        "actor_alias": {"type": "string", "pattern": "^synthetic-actor-[a-z]+$"},
+        "provider_family": {"$ref": "#/$defs/providerFamily"},
+        "model_id": {"type": "string", "pattern": "^synthetic-model-[a-z]+$"},
+        "scenario": {"$ref": "#/$defs/scenario"},
+        "terminal_status": {"enum": ["success", "refusal", "malformed", "truncated", "unknown_delivery", "retry_exhausted"]},
+        "attempt_count": {"type": "integer", "minimum": 1, "maximum": 2},
+        "fallback_used": {"const": false},
+        "request_sha256": {"$ref": "#/$defs/hash"},
+        "response_sha256": {"$ref": "#/$defs/hash"},
+        "estimated_cost_usd": {"const": 0}
+      }
+    },
+    "missingnessPayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "logical_call_id", "actor_alias", "phase", "reason", "terminal"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "actor_alias": {"type": "string", "pattern": "^synthetic-actor-[a-z]+$"},
+        "phase": {"enum": ["primary", "probe"]},
+        "reason": {"enum": ["refusal", "malformed", "truncated", "unknown_delivery", "retry_exhausted"]},
+        "terminal": {"const": true}
+      }
+    },
+    "countMap": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "integer", "minimum": 1}},
+    "summaryPayload": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "logical_call_count", "primary_count", "probe_count", "actor_count", "cue", "fallback_used", "retry_attempt_count", "terminal_status_counts", "scenario_counts", "missingness_count", "estimated_cost_usd", "hard_cap_usd", "authorized"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "logical_call_count": {"const": 288},
+        "primary_count": {"const": 144},
+        "probe_count": {"const": 144},
+        "actor_count": {"const": 3},
+        "cue": {"const": "C1"},
+        "fallback_used": {"const": false},
+        "retry_attempt_count": {"type": "integer", "minimum": 1},
+        "terminal_status_counts": {"$ref": "#/$defs/countMap"},
+        "scenario_counts": {"$ref": "#/$defs/countMap"},
+        "missingness_count": {"type": "integer", "minimum": 1},
+        "estimated_cost_usd": {"const": 0},
+        "hard_cap_usd": {"const": 5},
+        "authorized": {"const": false}
+      }
+    },
+    "record": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provenance", "record_type", "sequence", "previous_record_sha256", "payload", "payload_sha256", "record_sha256"],
+      "properties": {
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "record_type": {"enum": ["call", "request", "response", "usage", "receipt", "missingness", "summary"]},
+        "sequence": {"type": "integer", "minimum": 1},
+        "previous_record_sha256": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/hash"}]},
+        "payload": {
+          "oneOf": [
+            {"$ref": "#/$defs/callPayload"}, {"$ref": "#/$defs/requestPayload"},
+            {"$ref": "#/$defs/responsePayload"}, {"$ref": "#/$defs/usagePayload"},
+            {"$ref": "#/$defs/receiptPayload"}, {"$ref": "#/$defs/missingnessPayload"},
+            {"$ref": "#/$defs/summaryPayload"}
+          ]
+        },
+        "payload_sha256": {"$ref": "#/$defs/hash"},
+        "record_sha256": {"$ref": "#/$defs/hash"}
+      },
+      "allOf": [
+        {"if": {"properties": {"record_type": {"const": "call"}}}, "then": {"properties": {"payload": {"$ref": "#/$defs/callPayload"}}}},
+        {"if": {"properties": {"record_type": {"const": "request"}}}, "then": {"properties": {"payload": {"$ref": "#/$defs/requestPayload"}}}},
+        {"if": {"properties": {"record_type": {"const": "response"}}}, "then": {"properties": {"payload": {"$ref": "#/$defs/responsePayload"}}}},
+        {"if": {"properties": {"record_type": {"const": "usage"}}}, "then": {"properties": {"payload": {"$ref": "#/$defs/usagePayload"}}}},
+        {"if": {"properties": {"record_type": {"const": "receipt"}}}, "then": {"properties": {"payload": {"$ref": "#/$defs/receiptPayload"}}}},
+        {"if": {"properties": {"record_type": {"const": "missingness"}}}, "then": {"properties": {"payload": {"$ref": "#/$defs/missingnessPayload"}}}},
+        {"if": {"properties": {"record_type": {"const": "summary"}}}, "then": {"properties": {"payload": {"$ref": "#/$defs/summaryPayload"}}}}
+      ]
+    }
+  }
+}

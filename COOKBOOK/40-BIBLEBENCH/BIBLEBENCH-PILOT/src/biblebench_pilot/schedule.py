@@ -37,52 +37,33 @@ _OPAQUE_HEX = re.compile(r"(?:[0-9a-f]{16}|[0-9a-f]{64})")
 _MAX_VISIBLE_DEPTH = 128
 _CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
-_IDENTIFIER_KEY_FORMS = ("id", "ids", "identifier", "identifiers")
-_SEALED_NAMESPACE_FORMS = (
-    "lens",
-    "lenses",
-    "intervention",
-    "interventions",
-    "provider",
-    "providers",
-    "route",
-    "routes",
-)
-_PHYSICAL_QUALIFIER_FORMS = (
-    *_IDENTIFIER_KEY_FORMS,
-    "call",
-    "calls",
-    "attempt",
-    "attempts",
-)
-_SEALED_NORMALIZED_KEYS = frozenset(
-    set(_SEALED_NAMESPACE_FORMS)
-    | {
-        f"{namespace}{qualifier}"
-        for namespace in _SEALED_NAMESPACE_FORMS
-        for qualifier in _IDENTIFIER_KEY_FORMS
-    }
-    | {
-        f"physical{qualifier}"
-        for qualifier in _PHYSICAL_QUALIFIER_FORMS
-    }
-    | {
-        f"physical{attempt}{identifier}"
-        for attempt in ("attempt", "attempts")
-        for identifier in _IDENTIFIER_KEY_FORMS
-    }
-    | {
-        f"{attempt}{identifier}"
-        for attempt in ("attempt", "attempts")
-        for identifier in _IDENTIFIER_KEY_FORMS
-    }
-)
 _IDENTIFIER_COMPONENTS = frozenset({"id", "identifier"})
 _ACTOR_METADATA_KEYS = frozenset({"role"})
 _PHYSICAL_SCOPE_QUALIFIERS = frozenset(
     {"id", "identifier", "call", "attempt"}
 )
 _ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
+_ALLOWED_NORMALIZED_NAMESPACE_KEYS = _ALLOWED_TASK_ROUTE_KEYS | frozenset(
+    {
+        "lensingnotes",
+        "interventionalnotes",
+        "providershipnotes",
+        "routingnotes",
+        "reroutenotes",
+    }
+)
+_RESERVED_NAMESPACE_LEXEMES = ("lens", "intervention", "provider", "route")
+_PHYSICAL_BOUNDARIES = (
+    "physicalid",
+    "physicalidentifier",
+    "physicalcall",
+    "physicalattempt",
+)
+_ATTEMPT_IDENTIFIER_BOUNDARIES = tuple(
+    f"{attempt}{identifier}"
+    for attempt in ("attempt", "attempts")
+    for identifier in ("id", "identifier")
+)
 _NAMESPACE_COMPONENT_ALIASES = {
     "routes": "route",
     "lenses": "lens",
@@ -322,6 +303,19 @@ def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
             raise ValueError("probe payload contains an identity field")
 
 
+def _normalized_key_is_sealed(normalized: str) -> bool:
+    if normalized in _ALLOWED_NORMALIZED_NAMESPACE_KEYS:
+        return False
+    return (
+        any(lexeme in normalized for lexeme in _RESERVED_NAMESPACE_LEXEMES)
+        or any(boundary in normalized for boundary in _PHYSICAL_BOUNDARIES)
+        or any(
+            boundary in normalized
+            for boundary in _ATTEMPT_IDENTIFIER_BOUNDARIES
+        )
+    )
+
+
 def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
@@ -341,7 +335,7 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
         provider = "provider" in namespace_components
         route = "route" in namespace_components
         if (
-            normalized in _SEALED_NORMALIZED_KEYS
+            _normalized_key_is_sealed(normalized)
             or lens_or_intervention
             or provider
             or (route and normalized not in _ALLOWED_TASK_ROUTE_KEYS)

@@ -45,7 +45,18 @@ calls are frozen pending Jimmy's disposition of the question below.
   units = 56 new shadow verdicts. No incumbent reruns; $1 cap unchanged.
 - **Implementation plan:** `20260712q-shadow-judge-bakeoff-implementation-plan.md`.
 
-## OPEN 2026-07-12 — shadow-run key reconciliation exceeds the authorization ceiling
+## RESOLVED 2026-07-13 — shadow-run key reconciliation exceeds the authorization ceiling
+
+- **Disposition:** Jimmy identified concurrent use of the shared OpenRouter account during
+  the measurement interval, so the `$5.426614419` key-wide delta is contaminated and is
+  not a clean run-specific spend measure. Jimmy accepted the response-attributed
+  `$0.69776393843` as the shadow run's attributable cost within the `$1.00` cap. Binding
+  record: `20260713a-jimmy-shadow-reconciliation-ratification-record.md`.
+- **Offline completion:** Mechanical application of the pre-registered Pareto contract
+  makes GLM **`PARETO-PREFERRED SHADOW CANDIDATE`** **SHADOW ONLY**. Companion record:
+  `20260713b-codex-shadow-pareto-completion.md`.
+- **Effect:** No production, panel, manifest, candidate-ladder, T3, T4, benchmark-score,
+  paper, release, or paid-authorization effect. No OPEN reconciliation escalation remains.
 
 - **Question:** How should the completed shadow evidence be labeled and used after the
   one authorized run attributed $0.69776393843 internally but observed a $5.426614419
@@ -70,8 +81,10 @@ calls are frozen pending Jimmy's disposition of the question below.
   Key usage moved from $1415.943795768 to $1421.370410187 (delta $5.426614419), with
   $78.629589813 limit remaining after the interval. No new Gemini/Grok calls occurred.
 - **Provisional packet:**
-  `20260712u-codex-shadow-reconciliation-provisional-packet.md`. Status remains **OPEN
-  pending Jimmy**; the packet assigns no R-number and records no ratification.
+  `20260712u-codex-shadow-reconciliation-provisional-packet.md`. At issuance, status was
+  **OPEN pending Jimmy**; the packet assigns no R-number and records no ratification. It is
+  retained as pre-ratification provenance and was superseded by the binding disposition
+  cited above.
 
 ## Rulings received 2026-07-11
 

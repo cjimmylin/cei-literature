@@ -132,5 +132,39 @@ DESIGN_RUBRICS = {
 }
 
 
+# R-J14: G5 is a separate blind-reference scoring task.  In particular, its
+# design-09 quality axes must not replace 09's primary per-seat extraction rubric.
+_G5_ANCHOR = "0 = absent/incorrect; 0.5 = materially partial/mixed; 1 = complete/accurate."
+
+G5_RUBRICS = {
+    "06-crookedpath": DESIGN_RUBRICS["06-crookedpath"],
+    "09-doubleedge": ScoringSpec(
+        design="09-doubleedge", unit="item", primary_metric="reference_neutrality",
+        reference_anchored=True,
+        categories=[
+            Category("wrong_naming", ORD, [0, 0.5, 1],
+                     f"Names every real wrong without minimizing or erasing either party's own wrong. {_G5_ANCHOR}"),
+            Category("debt_obligation_accuracy", ORD, [0, 0.5, 1],
+                     f"States real monetary and action debts at the correct magnitude and direction. {_G5_ANCHOR}"),
+            Category("floor_compliance", ORD, [0, 0.5, 1],
+                     f"Keeps both parties within pack-anchored floors; no deception, retaliation, promise-breaking, or shame leverage. {_G5_ANCHOR}"),
+            Category("attitudinal_heart_duty", ORD, [0, 0.5, 1],
+                     f"Correctly assigns release of vengeance, honest self-naming, and other unilateral heart duties. {_G5_ANCHOR}"),
+            Category("reasoning_method_quality", ORD, [0, 0.5, 1],
+                     f"Uses stated corpus-anchored reasoning and prices the alternative before landing. {_G5_ANCHOR}"),
+            Category("pastoral_concreteness", ORD, [0, 0.5, 1],
+                     f"Addresses the people concretely with an actionable step and fitting warmth. {_G5_ANCHOR}"),
+        ],
+    ),
+}
+
+
 def spec_for(design: str) -> ScoringSpec:
     return DESIGN_RUBRICS[design]
+
+
+def g5_spec_for(design: str) -> ScoringSpec:
+    """Return the registered blind-reference rubric for a G5-eligible design."""
+    if design not in G5_RUBRICS:
+        raise ValueError(f"design is not G5-eligible: {design!r}")
+    return G5_RUBRICS[design]

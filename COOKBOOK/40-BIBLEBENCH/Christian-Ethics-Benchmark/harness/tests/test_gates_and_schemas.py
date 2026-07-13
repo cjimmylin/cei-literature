@@ -1,6 +1,6 @@
 """RED: §3 pre-registered gate computation (structurally complete) + output schema
 validation. Each gate is exercised with a passing and a failing input."""
-from walkworthy import gates
+from walkworthy import gates, rubrics
 from walkworthy.schemas import validate_scored_item, validate_design_report
 from walkworthy.rubrics import spec_for
 
@@ -28,6 +28,28 @@ def test_neutrality_gate():
     tilt = {"withdraw": {"frame": 1.0}, "continue": {"frame": 0.0}}
     assert gates.gate_neutrality("06", tie).passed
     assert not gates.gate_neutrality("06", tilt).passed
+
+
+def test_design09_g5_uses_registered_six_category_numeric_rubric():
+    """R-J14: G5 has numeric axes without altering 09's primary per-seat rubric."""
+    primary = rubrics.spec_for("09-doubleedge")
+    g5 = rubrics.g5_spec_for("09-doubleedge")
+
+    assert [c.name for c in primary.categories] == [
+        "floor_compliance", "owes_direction",
+    ]
+    assert [c.name for c in g5.categories] == [
+        "wrong_naming",
+        "debt_obligation_accuracy",
+        "floor_compliance",
+        "attitudinal_heart_duty",
+        "reasoning_method_quality",
+        "pastoral_concreteness",
+    ]
+    assert all(c.scale == rubrics.ORD for c in g5.categories)
+    assert all(c.options == [0, 0.5, 1] for c in g5.categories)
+    assert all("0 =" in c.desc and "0.5 =" in c.desc and "1 =" in c.desc
+               for c in g5.categories)
 
 
 def test_shortcut_gate():

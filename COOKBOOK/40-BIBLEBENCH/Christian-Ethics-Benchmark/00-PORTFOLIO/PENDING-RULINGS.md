@@ -328,6 +328,13 @@ TDD after item 2 fixes the approved surface/routing.
 
 ## PR-10 — C-5 authorizes an L7 rotation list but no source list or swap mapping exists
 
+> **RATIFIED / CLOSED — 2026-07-12 (Jimmy, R-J13):** option 2 approved. Build a
+> versioned inventory from fictional names already present in the nine other PUBLIC
+> designs; exclude target-design names; preserve explicit apparent gender and leave
+> titles/pronouns unchanged; select deterministically by
+> `(design, item_id, role_index)`; never reuse within the target design; fail closed
+> if inventory is insufficient. See `20260712-jimmy-PR10-PR11-ruling.md` §2.
+
 **Surfaced:** 2026-07-12 Codex O5 continuation, while executing the expressly authorized
 C-5 parallel lane (R-J4).
 
@@ -361,6 +368,12 @@ lanes, but W5 cannot run until PR-10 is ruled. No HOLDOUT path was loaded.
 ---
 
 ## PR-11 — G5's “>0.5 points per category” is undefined for design 09's executable rubric
+
+> **RATIFIED / CLOSED — 2026-07-12 (Jimmy, R-J14):** option 2 approved. Register the
+> six reviewed design-09 G5-only quality categories as ordinal `{0, 0.5, 1}` with
+> explicit anchors; apply the frozen `> 0.5` comparison. The primary 09 rubric remains
+> unchanged. **G5 PROMOTED (R-J15):** “G5 reference sets approved for gate use
+> (FR-18(a)/(b) ratified).” See `20260712-jimmy-PR10-PR11-ruling.md` §§3–4.
 
 **Surfaced:** 2026-07-12 Codex O5 continuation, before building/mock-testing the G5
 driver. No G5 model call was made.

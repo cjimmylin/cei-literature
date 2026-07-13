@@ -20,10 +20,10 @@ def test_guilt_lint_flags_unnegated_guilt_but_accepts_explicit_negation():
     assert not any(f["check"] == "FA-1" for f in good["failures"])
 
 
-def test_directed_pre_gate_lint_passes_both_final_reference_drafts(benchmark_root):
+def test_directed_pre_gate_lint_passes_both_promoted_reference_sets(benchmark_root):
     report = lint_reference_files(
-        Path(benchmark_root) / "00-PORTFOLIO/20260712-G5-06-references-DRAFT.md",
-        Path(benchmark_root) / "00-PORTFOLIO/20260712-G5-09-references-DRAFT.md",
+        Path(benchmark_root) / "harness/config/g5/20260712-06-references.md",
+        Path(benchmark_root) / "harness/config/g5/20260712-09-references.md",
         Path(benchmark_root) / "DESIGNS/09-doubleedge-seeds.md",
     )
 

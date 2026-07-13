@@ -175,6 +175,10 @@ def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
         "physical_call_id",
         "physical_attempt",
         "provider_attempt_id",
+        "registered_lens_id",
+        "module_lens_identifier",
+        "registered_intervention_id",
+        "module_physical_attempt_id",
     ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
@@ -200,6 +204,8 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
             "ordinary_notes": "A lens may help describe the ordinary prose.",
             "description": "An intervention may be discussed.",
             "attempt_notes": "A physical attempt can be described.",
+            "lensing_notes": "Lensing is an ordinary unrelated word here.",
+            "physicality_notes": "Physicality is ordinary prose here.",
         },
     )
 

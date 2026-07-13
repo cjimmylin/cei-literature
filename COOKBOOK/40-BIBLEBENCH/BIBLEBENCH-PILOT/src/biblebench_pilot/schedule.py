@@ -241,7 +241,7 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
         )
         if (
             normalized in _LATER_SCOPE_EXACT_KEYS
-            or (components and components[0] in _LATER_SCOPE_PREFIXES)
+            or not _LATER_SCOPE_PREFIXES.isdisjoint(components)
             or has_attempt_identifier
         ):
             raise ValueError("request payload contains a later-scope field")

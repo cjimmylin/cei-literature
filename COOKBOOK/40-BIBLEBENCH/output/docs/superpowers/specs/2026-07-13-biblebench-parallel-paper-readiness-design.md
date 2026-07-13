@@ -1,7 +1,7 @@
 # BibleBench Parallel Paper-Readiness Design
 
 **Date:** 2026-07-13  
-**Status:** OWNER-APPROVED DECOMPOSITION; written specification awaiting owner review  
+**Status:** OWNER APPROVED FOR IMPLEMENTATION
 **Owner:** Jimmy Lin  
 **Implementation worktree:** `codex/biblebench-pilot`
 

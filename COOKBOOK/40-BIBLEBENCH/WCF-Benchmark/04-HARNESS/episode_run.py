@@ -73,6 +73,7 @@ JUDGE_ROSTER = (
     ("grok-4.20", "x-ai", "x-ai/grok-4.20"),
 )
 MAX_BUDGET_USD = 10.0
+MISSING_USAGE_FALLBACK_SOURCE = "catalog_ceiling_missing_response_usage"
 
 # R54 entries whose forbidden-marker lists are calibration/advisory surfaces,
 # while the actual defection is a decision/structure. Marker hits stay flags.
@@ -270,6 +271,7 @@ class EvidenceClient:
         self.sink = sink
         self.now = now
         self.model = slug
+        self._accounting_log: List[Dict[str, Any]] = []
         guard.register(slug, self)
 
     def __getattr__(self, name: str) -> Any:
@@ -277,7 +279,32 @@ class EvidenceClient:
 
     @property
     def usage_log(self):
-        return getattr(self.inner, "usage_log", [])
+        return self._accounting_log
+
+    def _inner_usage_log(self) -> Sequence[Dict[str, Any]]:
+        entries = getattr(self.inner, "usage_log", None)
+        return entries if isinstance(entries, (list, tuple)) else []
+
+    def _missing_usage_fallback(self, prompt: str,
+                                item_id: Optional[str]) -> Dict[str, Any]:
+        prompt_ceiling = len(prompt.encode("utf-8"))
+        completion_ceiling = int(getattr(self.inner, "max_tokens", 0))
+        fallback_cost = mvp.cell_cost(
+            prompt_ceiling, completion_ceiling,
+            mvp.price_for(self.slug, self.guard.catalog),
+        )
+        return {
+            "item_id": item_id, "model": self.slug,
+            "usage": {
+                "prompt_tokens": prompt_ceiling,
+                "completion_tokens": completion_ceiling,
+                "total_tokens": prompt_ceiling + completion_ceiling,
+                "fallback_cost_usd": fallback_cost,
+                "accounting_source": MISSING_USAGE_FALLBACK_SOURCE,
+                "authoritative": False,
+            },
+            "finish_reason": getattr(self.inner, "last_finish_reason", None),
+        }
 
     @staticmethod
     def _usable_usage(entries: Sequence[Dict[str, Any]]) -> bool:
@@ -308,43 +335,59 @@ class EvidenceClient:
         return True
 
     def _write(self, *, prompt: str, item_id: Optional[str], text: Optional[str],
-               usage: Sequence[Dict[str, Any]], error: Optional[str]) -> None:
+               usage: Sequence[Dict[str, Any]], error: Optional[str],
+               fallback_accounting: Optional[Dict[str, Any]] = None) -> None:
         try:
-            self.sink.write({
+            record = {
                 "timestamp": self.now(), "kind": "raw_emission",
                 "role": self.role, "name": self.name, "slug": self.slug,
                 "item_id": item_id, "prompt": prompt, "text": text,
                 "finish_reason": getattr(self.inner, "last_finish_reason", None),
                 "truncated": bool(getattr(self.inner, "last_truncated", False)),
                 "usage": list(usage), "error": error,
-            })
+            }
+            if fallback_accounting is not None:
+                record["fallback_accounting"] = fallback_accounting
+            self.sink.write(record)
         except Exception as exc:
             message = f"raw evidence persistence failed: {type(exc).__name__}: {exc}"
             self.guard.block_fatal(message)
             raise EvidenceError(message) from exc
 
     def complete(self, prompt: str, item_id: Optional[str] = None) -> str:
+        fallback = self._missing_usage_fallback(prompt, item_id)
         self.guard.before_call(
             self.slug, prompt,
             max_tokens=int(getattr(self.inner, "max_tokens", 0)),
         )
-        before = len(self.usage_log)
+        inner_usage = self._inner_usage_log()
+        before = len(inner_usage)
         try:
             text = self.inner.complete(prompt, item_id=item_id)
         except Exception as exc:
-            entries = self.usage_log[before:]
+            entries = list(inner_usage[before:])
+            fallback_accounting = None
+            if entries and self._usable_usage(entries):
+                self._accounting_log.extend(entries)
+            elif entries:
+                self._accounting_log.append(fallback)
+                fallback_accounting = fallback
             self._write(
                 prompt=prompt, item_id=item_id, text=None, usage=entries,
                 error=f"{type(exc).__name__}: {exc}",
+                fallback_accounting=fallback_accounting,
             )
             raise
-        entries = self.usage_log[before:]
+        entries = list(inner_usage[before:])
         if not self._usable_usage(entries):
             message = f"missing response usage for paid call to {self.slug!r}"
+            self._accounting_log.append(fallback)
             self.guard.block_for_accounting(message)
             self._write(prompt=prompt, item_id=item_id, text=text,
-                        usage=entries, error=message)
+                        usage=entries, error=message,
+                        fallback_accounting=fallback)
             raise AccountingError(message)
+        self._accounting_log.extend(entries)
         self.guard.after_call()
         self._write(prompt=prompt, item_id=item_id, text=text, usage=entries, error=None)
         return text
@@ -490,6 +533,8 @@ def build_report(records: Sequence[Dict[str, Any]], *, expected_cells: int,
         record.get("screen", {}).get("outcome")
         for record in records if record.get("screen", {}).get("outcome")
     )
+    fallback_sources = accounting_fallback_sources(records)
+    fallback_count = sum(fallback_sources.values())
     complete = (len(records) == expected_cells
                 and all(record.get("status") in {"scored", "error"} for record in records))
     scored_count = sum(record.get("status") == "scored" for record in records)
@@ -539,18 +584,51 @@ def build_report(records: Sequence[Dict[str, Any]], *, expected_cells: int,
         lines.append("- None")
     lines.extend(["", "## SCREEN outcome counts", ""])
     lines.extend(f"- {name}: {count}" for name, count in sorted(screens.items()))
+    lines.extend(["", "## Cost", ""])
+    if fallback_count:
+        lines.extend([
+            f"- actual-first run accounting total: **${attributed_cost_usd:.6f}**",
+            f"- non-authoritative fallback events: **{fallback_count}**",
+            "- fallback sources: " + ", ".join(
+                f"{source}: {count}"
+                for source, count in sorted(fallback_sources.items())),
+        ])
+    else:
+        lines.append(
+            f"- response-attributed run cost: **${attributed_cost_usd:.6f}**")
     lines.extend([
-        "", "## Cost", "",
-        f"- response-attributed run cost: **${attributed_cost_usd:.6f}**",
         (f"- shared-key delta: **${key_delta:.6f}** (contextual only)"
          if key_delta is not None
          else "- shared-key delta: **unavailable** (contextual only)"),
         "",
-        "Response-attributed per-call cost is the run-specific accounting. The shared-account "
-        "key-wide delta is contextual reconciliation evidence only.",
+        ("The actual-first total uses response actuals where available and explicitly labeled "
+         "conservative catalog ceilings where response usage was missing or malformed."
+         if fallback_count else
+         "Response-attributed per-call cost is the run-specific accounting."),
+        "The shared-account key-wide delta is contextual reconciliation evidence only.",
         "",
     ])
     return "\n".join(lines)
+
+
+def accounting_fallback_sources(records: Sequence[Dict[str, Any]]) -> Counter:
+    sources = Counter()
+    for record in records:
+        for call in record.get("usage", {}).get("calls", []):
+            source = (call.get("usage") or {}).get("accounting_source")
+            if source:
+                sources[str(source)] += 1
+    return sources
+
+
+def _checkpoint_tokens(usage: Dict[str, Any]) -> Optional[Tuple[int, int]]:
+    values = []
+    for field_name in ("prompt_tokens", "completion_tokens"):
+        value = usage.get(field_name)
+        if (not isinstance(value, int) or isinstance(value, bool) or value < 0):
+            return None
+        values.append(value)
+    return values[0], values[1]
 
 
 def checkpoint_attributed_cost(records: Sequence[Dict[str, Any]],
@@ -559,17 +637,48 @@ def checkpoint_attributed_cost(records: Sequence[Dict[str, Any]],
     total = 0.0
     for record in records:
         for call in record.get("usage", {}).get("calls", []):
-            usage = call.get("usage") or {}
-            actual = mvp._authoritative_cost({"usage": usage})
-            if actual is not None:
+            usage = call.get("usage")
+            if not isinstance(usage, dict):
+                raise AccountingError("checkpoint usage must be an object")
+            model = call.get("model")
+            source = usage.get("accounting_source")
+            if source is not None:
+                tokens = _checkpoint_tokens(usage)
+                raw_fallback = usage.get("fallback_cost_usd")
+                if (source != MISSING_USAGE_FALLBACK_SOURCE
+                        or usage.get("authoritative") is not False
+                        or tokens is None
+                        or not isinstance(raw_fallback, (int, float))
+                        or isinstance(raw_fallback, bool)
+                        or not math.isfinite(float(raw_fallback))
+                        or float(raw_fallback) < 0):
+                    raise AccountingError(
+                        "checkpoint usage has an invalid non-authoritative fallback event")
+                expected = mvp.cell_cost(
+                    tokens[0], tokens[1], mvp.price_for(model, catalog))
+                if not math.isclose(
+                        float(raw_fallback), expected, rel_tol=1e-12, abs_tol=1e-12):
+                    raise AccountingError(
+                        "checkpoint usage fallback cost does not match its catalog ceiling")
+                total += float(raw_fallback)
+                continue
+            raw_actual = usage.get("cost")
+            if raw_actual not in (None, ""):
+                try:
+                    actual = float(raw_actual)
+                except (TypeError, ValueError) as exc:
+                    raise AccountingError(
+                        "checkpoint usage has malformed response cost") from exc
+                if not math.isfinite(actual) or actual < 0:
+                    raise AccountingError(
+                        "checkpoint usage response cost must be finite and nonnegative")
                 total += actual
                 continue
-            model = call.get("model")
-            total += mvp.cell_cost(
-                int(usage.get("prompt_tokens") or 0),
-                int(usage.get("completion_tokens") or 0),
-                mvp.price_for(model, catalog),
-            )
+            tokens = _checkpoint_tokens(usage)
+            if tokens is None:
+                raise AccountingError(
+                    "checkpoint usage lacks response actual and valid fallback tokens")
+            total += mvp.cell_cost(tokens[0], tokens[1], mvp.price_for(model, catalog))
     return total
 
 
@@ -743,6 +852,8 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
         key_after = None
     session_attributed_cost = guard.total_usd()
     attributed_cost = checkpoint_attributed_cost(outcome.records, catalog)
+    fallback_sources = accounting_fallback_sources(outcome.records)
+    fallback_count = sum(fallback_sources.values())
     report = build_report(
         outcome.records, expected_cells=len(plan),
         attributed_cost_usd=attributed_cost,
@@ -760,8 +871,14 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
         "budget_usd": MAX_BUDGET_USD,
         "budget_hit": outcome.budget_hit,
         "stop_reason": outcome.stop_reason,
-        "response_attributed_cost_usd": attributed_cost,
-        "session_response_attributed_cost_usd": session_attributed_cost,
+        "actual_first_run_accounting_total_usd": attributed_cost,
+        "session_actual_first_accounting_total_usd": session_attributed_cost,
+        "response_attributed_cost_usd": (
+            None if fallback_count else attributed_cost),
+        "session_response_attributed_cost_usd": (
+            None if fallback_count else session_attributed_cost),
+        "accounting_fallback_count": fallback_count,
+        "accounting_fallback_sources": dict(sorted(fallback_sources.items())),
         "key_before": key_before,
         "key_after": key_after,
         "manifest_path": MANIFEST_PATH,
@@ -775,7 +892,9 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
         print(f"ERROR: artifact persistence failed: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 2
     print(f"T3 {'complete' if outcome.done else 'partial'}: {len(outcome.records)}/{len(plan)} cells")
-    print(f"response-attributed cost: ${attributed_cost:.6f} / ${MAX_BUDGET_USD:.2f} NTE")
+    label = ("actual-first accounting total" if fallback_count
+             else "response-attributed cost")
+    print(f"{label}: ${attributed_cost:.6f} / ${MAX_BUDGET_USD:.2f} NTE")
     print(f"report: {report_path}")
     return 0 if outcome.done else 1
 

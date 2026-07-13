@@ -444,6 +444,120 @@ class UsageClient:
         return text
 
 
+class MissingUsageResponseClient:
+    def __init__(self, model, response, mode, max_tokens=7):
+        self.model = model
+        self.system = None
+        self.max_tokens = max_tokens
+        self.response = response
+        self.mode = mode
+        self.usage_log = []
+        self.calls = 0
+        self.last_finish_reason = "stop"
+        self.last_truncated = False
+
+    def complete(self, _prompt, item_id=None):
+        self.calls += 1
+        if self.mode == "malformed":
+            self.usage_log.append({
+                "item_id": item_id, "model": self.model,
+                "usage": {
+                    "prompt_tokens": "not-an-integer",
+                    "completion_tokens": None,
+                    "cost": "not-a-number",
+                },
+                "finish_reason": "stop",
+            })
+        return self.response
+
+
+def _run_real_missing_usage_stop(tmp_path, mode):
+    cell = _planned_cell("NARROW-C1-W301")
+    raw_path = tmp_path / "raw-evidence.jsonl"
+    sink = JsonlSink(str(raw_path))
+    sink.touch()
+    catalog = {
+        cell.sut: {"pricing": {"prompt": "0.000001", "completion": "0.000002"}}
+    }
+    guard = BudgetGuard(10.0, catalog)
+    response = "paid response text retained despite missing accounting"
+    inner = MissingUsageResponseClient(cell.sut, response, mode)
+    sut = episode_run.EvidenceClient(
+        inner, role="sut", name=cell.sut, slug=cell.sut,
+        guard=guard, sink=sink, now=lambda: "2026-07-13T00:00:00")
+    panel = RecordingPanel(1.0)
+
+    outcome = episode_run.run_execution(
+        [cell], {cell.sut: sut}, panel, str(tmp_path),
+        sleeper=lambda _seconds: None)
+    resumed = episode_run.run_execution(
+        [cell], {cell.sut: sut}, panel, str(tmp_path),
+        sleeper=lambda _seconds: None)
+    raw = [json.loads(line) for line in raw_path.read_text().splitlines()]
+    ceiling = episode_run.mvp.cell_cost(
+        len(cell.item.stem.encode("utf-8")), inner.max_tokens,
+        episode_run.mvp.price_for(cell.sut, catalog),
+    )
+    return cell, inner, guard, outcome, resumed, raw, catalog, ceiling, response, panel
+
+
+def test_real_evidence_client_missing_usage_checkpoints_labeled_ceiling(tmp_path):
+    (cell, inner, guard, outcome, resumed, raw, catalog, ceiling,
+     response, panel) = _run_real_missing_usage_stop(tmp_path, "absent")
+    record = outcome.records[0]
+    fallback = record["usage"]["calls"][0]["usage"]
+    total = episode_run.checkpoint_attributed_cost(resumed.records, catalog)
+    report = episode_run.build_report(
+        resumed.records, expected_cells=1, attributed_cost_usd=total)
+
+    assert record["stop"]["class"] == "AccountingError"
+    assert fallback["accounting_source"] == "catalog_ceiling_missing_response_usage"
+    assert fallback["authoritative"] is False
+    assert fallback["fallback_cost_usd"] == pytest.approx(ceiling)
+    assert fallback["prompt_tokens"] == len(cell.item.stem.encode("utf-8"))
+    assert fallback["completion_tokens"] == inner.max_tokens
+    assert raw[0]["text"] == response
+    assert raw[0]["usage"] == []
+    assert raw[0]["fallback_accounting"]["usage"] == fallback
+    assert "missing response usage" in raw[0]["error"]
+    assert guard.accounting_error is not None
+    assert guard.total_usd() == pytest.approx(ceiling)
+    assert total == pytest.approx(ceiling)
+    assert resumed.skipped == 1 and inner.calls == 1
+    assert panel.calls == []
+    assert "actual-first run accounting total" in report
+    assert "non-authoritative fallback events: **1**" in report
+    assert "catalog_ceiling_missing_response_usage: 1" in report
+    assert "response-attributed run cost" not in report
+
+
+def test_real_evidence_client_malformed_usage_preserves_raw_and_uses_ceiling(tmp_path):
+    (_cell, inner, _guard, outcome, resumed, raw, catalog, ceiling,
+     response, panel) = _run_real_missing_usage_stop(tmp_path, "malformed")
+    record = outcome.records[0]
+
+    assert record["stop"]["class"] == "AccountingError"
+    assert len(record["usage"]["calls"]) == 1
+    assert record["usage"]["calls"][0]["usage"]["accounting_source"] == (
+        "catalog_ceiling_missing_response_usage")
+    assert raw[0]["text"] == response
+    assert raw[0]["usage"] == [{
+        "item_id": record["item_id"], "model": record["sut"],
+        "usage": {
+            "prompt_tokens": "not-an-integer",
+            "completion_tokens": None,
+            "cost": "not-a-number",
+        },
+        "finish_reason": "stop",
+    }]
+    assert raw[0]["fallback_accounting"]["usage"]["fallback_cost_usd"] == pytest.approx(
+        ceiling)
+    assert episode_run.checkpoint_attributed_cost(resumed.records, catalog) == pytest.approx(
+        ceiling)
+    assert resumed.skipped == 1 and inner.calls == 1
+    assert panel.calls == []
+
+
 class CostedUsageClient(UsageClient):
     def __init__(self, model, response_factory, cost):
         super().__init__(model, response_factory)
@@ -646,6 +760,18 @@ def test_checkpoint_cost_prefers_response_actual_then_uses_priced_token_fallback
     assert total == pytest.approx(0.25 + 10 * 0.01 + 5 * 0.02)
 
 
+def test_checkpoint_cost_rejects_malformed_usage_without_validated_fallback():
+    sut = EXPECTED_SUTS[0]
+    catalog = {sut: {"pricing": {"prompt": "0.01", "completion": "0.02"}}}
+    records = [{"usage": {"calls": [{
+        "model": sut,
+        "usage": {"prompt_tokens": "bad", "completion_tokens": None},
+    }]}}]
+
+    with pytest.raises(AccountingError, match="checkpoint usage"):
+        episode_run.checkpoint_attributed_cost(records, catalog)
+
+
 def _catalog():
     return {
         slug: {"pricing": {"prompt": "0.000000001", "completion": "0.000000002"}}
@@ -694,6 +820,57 @@ class FakeLiveClient(UsageClient):
         response_factory = (_all_correct if model in {slug for _n, _f, slug in EXPECTED_JUDGES}
                             else lambda _prompt: "no action array")
         super().__init__(model, response_factory)
+
+
+class MissingUsageLiveClient:
+    def __init__(self, model, **kwargs):
+        self.model = model
+        self.system = kwargs.get("system")
+        self.max_tokens = kwargs["max_tokens"]
+        self.usage_log = []
+        self.last_finish_reason = "stop"
+        self.last_truncated = False
+
+    def complete(self, prompt, item_id=None):
+        if self.model in EXPECTED_SUTS:
+            return "paid response without response usage"
+        text = _all_correct(prompt)
+        self.usage_log.append({
+            "item_id": item_id, "model": self.model,
+            "usage": {"prompt_tokens": 10, "completion_tokens": 5,
+                      "total_tokens": 15, "cost": 0.001},
+            "finish_reason": "stop",
+        })
+        return text
+
+
+def test_live_metadata_discloses_non_authoritative_ceiling_fallback(tmp_path, monkeypatch):
+    output = tmp_path / "20260713-t3-missing-usage"
+    cell = episode_run.build_execution_plan()[0]
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-key-never-sent")
+
+    code = episode_run._run_live(
+        [cell], str(output), resume=False,
+        client_factory=MissingUsageLiveClient,
+        catalog_fetch=lambda _key: _catalog(),
+        key_fetch=lambda _key: {
+            "usage": 1.0, "limit": 30.0, "limit_remaining": 29.0},
+    )
+
+    assert code == 1
+    metadata = json.loads((output / "run-metadata.json").read_text())
+    checkpoint = [
+        json.loads(line) for line in (output / "checkpoint.jsonl").read_text().splitlines()
+    ]
+    expected = episode_run.checkpoint_attributed_cost(checkpoint, _catalog())
+    report = (output / "episode-report.md").read_text()
+    assert metadata["actual_first_run_accounting_total_usd"] == pytest.approx(expected)
+    assert metadata["response_attributed_cost_usd"] is None
+    assert metadata["accounting_fallback_count"] == 1
+    assert metadata["accounting_fallback_sources"] == {
+        "catalog_ceiling_missing_response_usage": 1}
+    assert "actual-first run accounting total" in report
+    assert "non-authoritative fallback events: **1**" in report
 
 
 def test_go_path_runs_full_fake_preflight_and_writes_complete_append_only_artifacts(

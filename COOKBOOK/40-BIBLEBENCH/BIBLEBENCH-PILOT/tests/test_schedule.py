@@ -633,6 +633,8 @@ def test_extended_cue_homoglyphs_remain_ordinary_without_adjacent_cue_digit(
         "cʒ",
         "CƐ",
         "cɛ",
+        "CȜ",
+        "Cȝ",
         "C٣",
         "C३",
         "C³",
@@ -827,6 +829,12 @@ def test_explicit_sensitive_assignments_are_rejected_in_visible_strings(
         "gоld label: target",
         "cоndition is treatment",
         "actоr role=target",
+        "ϲondition is treatment",
+        "Ϲue: scriptural",
+        "expected\u200d label: target",
+        "model\u200d identity: hidden-model",
+        "gοld—label: target",
+        "prοvider\u200d: OpenRouter",
     ],
 )
 @pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
@@ -866,6 +874,10 @@ def test_registered_metadata_assignments_are_rejected_in_all_call_payloads(
         "The actor is responsible",
         "gold is a color",
         "the condition is stable",
+        "A provider is useful",
+        "A healthcare provider is available today",
+        "A pastoral care provider is compassionate",
+        "The healthcare provider is available today",
     ],
 )
 def test_benign_assignment_like_prose_remains_allowed(benign_text: str) -> None:
@@ -884,7 +896,41 @@ def test_benign_assignment_like_prose_remains_allowed(benign_text: str) -> None:
         _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
     )
 
+    assert schedule.forecast_rows[0].request_payload["note"] == benign_text
+    assert schedule.probe_rows[0].request_payload["note"] == benign_text
     assert schedule.primary_rows[0].request_payload["shared_body"] == benign_text
+
+
+@pytest.mark.parametrize(
+    "confusable_c",
+    [
+        "С",
+        "с",
+        "Ϲ",
+        "ϲ",
+        "ᴄ",
+        "Ꮯ",
+        "ꮯ",
+        "Ƈ",
+        "ƈ",
+        "ꓚ",
+        "Ⲥ",
+        "ⲥ",
+        "Ꞓ",
+        "ꞓ",
+        "Ȼ",
+        "ȼ",
+    ],
+)
+def test_sensitive_policy_maps_all_registered_c_confusables(
+    confusable_c: str,
+) -> None:
+    authored = f"{confusable_c}ondition is treatment"
+
+    assert (
+        schedule_module._protected_word_policy_text(authored)
+        == "condition is treatment"
+    )
 
 
 @pytest.mark.parametrize(
@@ -2791,6 +2837,41 @@ def test_generated_id_firewall_rejects_disguised_and_embedded_ids(
         probe_payload = {"note": "\x00".join(primary_id)}
     episode = replace(pack.episodes[0], probe_payload=probe_payload)
 
+    with pytest.raises(ValueError, match="generated schedule identifier"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    ("source_characters", "translation"),
+    [
+        ("0123456789", str.maketrans("0123456789", "٠١٢٣٤٥٦٧٨٩")),
+        ("ace", str.maketrans({"a": "а", "c": "с", "e": "е"})),
+    ],
+)
+def test_generated_id_firewall_rejects_unicode_digit_and_hex_lookalikes(
+    source_characters: str, translation: dict[int, str]
+) -> None:
+    pack = _pack()
+    primary_id = next(
+        row.logical_call_id
+        for row in compile_schedule(
+            pack, actor_ids=ACTORS, seed=711
+        ).primary_rows
+        if row.episode_id == "ep-00"
+        and re.search(r"c[0-3]", row.logical_call_id, re.IGNORECASE) is None
+        and any(
+            character in row.logical_call_id
+            for character in source_characters
+        )
+    )
+    disguised_id = primary_id.translate(translation)
+    episode = replace(
+        pack.episodes[0], probe_payload={"note": disguised_id}
+    )
+
+    assert disguised_id != primary_id
     with pytest.raises(ValueError, match="generated schedule identifier"):
         compile_schedule(
             _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711

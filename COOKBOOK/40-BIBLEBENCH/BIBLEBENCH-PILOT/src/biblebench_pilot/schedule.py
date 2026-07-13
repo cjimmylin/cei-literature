@@ -189,6 +189,8 @@ _CUE_HOMOGLYPHS = str.maketrans(
         "ʒ": "3",
         "Ɛ": "3",
         "ɛ": "3",
+        "Ȝ": "3",
+        "ȝ": "3",
     }
 )
 # Fixed comparison-only table of common Greek/Cyrillic Latin lookalikes.
@@ -214,6 +216,8 @@ _PROTECTED_WORD_CONFUSABLES = str.maketrans(
         "ρ": "p",
         "τ": "t",
         "χ": "x",
+        "Ϲ": "C",
+        "ϲ": "c",
         "А": "A",
         "В": "B",
         "Е": "E",
@@ -234,18 +238,55 @@ _PROTECTED_WORD_CONFUSABLES = str.maketrans(
         "с": "c",
         "у": "y",
         "х": "x",
+        "ᴄ": "c",
+        "Ꮯ": "C",
+        "ꮯ": "c",
+        "Ƈ": "C",
+        "ƈ": "c",
+        "ꓚ": "C",
+        "Ⲥ": "C",
+        "ⲥ": "c",
+        "Ꞓ": "C",
+        "ꞓ": "c",
+        "Ȼ": "C",
+        "ȼ": "c",
+    }
+)
+_ID_HEX_CONFUSABLES = str.maketrans(
+    {
+        "Α": "A",
+        "α": "a",
+        "А": "A",
+        "а": "a",
+        "Β": "B",
+        "β": "b",
+        "В": "B",
+        "в": "b",
+        "Ϲ": "C",
+        "ϲ": "c",
+        "С": "C",
+        "с": "c",
+        "Ε": "E",
+        "ε": "e",
+        "Е": "E",
+        "е": "e",
     }
 )
 _SENSITIVE_ASSIGNMENT = re.compile(
     r"(?<![a-z0-9])(?P<label>"
-    r"expected[-_./\s]*label|tested[-_./\s]*model|"
-    r"actor[-_./\s]*(?:id|model|role)|"
-    r"model[-_./\s]*(?:identity|id|name)|"
-    r"provider|gold[-_./\s]*label|ground[-_./\s]*truth|"
-    r"condition|cue|schedule[-_./\s]*id|"
-    r"bundle[-_./\s]*id|episode[-_./\s]*id|"
-    r"private(?:[-_./\s]*(?:id|template|value))?"
-    r")[ \t]*(?:is\b|[:=])[ \t]*(?P<value>[^\s,;]+)",
+    r"expected *label|tested *model|"
+    r"actor *(?:id|model|role)|"
+    r"model *(?:identity|id|name)|"
+    r"gold *label|ground *truth|"
+    r"condition|cue|schedule *id|"
+    r"bundle *id|episode *id|"
+    r"private(?: *(?:id|template|value))?"
+    r") (?:is|assigned) (?P<value>\S+)",
+    re.IGNORECASE,
+)
+_SENSITIVE_PROVIDER_ASSIGNMENT = re.compile(
+    r"(?:(?<![a-z0-9])provider assigned (?P<assigned_value>\S+)|"
+    r"(?:^|(?<![a-z0-9])the )provider is (?P<stated_value>\S+))",
     re.IGNORECASE,
 )
 
@@ -398,23 +439,51 @@ def _label_policy_text(value: str) -> str:
 
 
 def _comparison_skeleton(value: str) -> str:
-    normalized = _policy_text(value).casefold()
+    normalized = _policy_text(value)
     if normalized.isascii():
-        return normalized.translate(_ASCII_COMPARISON_DELETE)
+        return normalized.casefold().translate(_ASCII_COMPARISON_DELETE)
+    normalized = normalized.translate(_ID_HEX_CONFUSABLES).casefold()
     decomposed = unicodedata.normalize("NFKD", normalized)
-    return "".join(
-        character
-        for character in decomposed
-        if not unicodedata.category(character).startswith(
-            ("M", "P", "Z", "C")
-        )
-    )
+    decomposed = decomposed.translate(_ID_HEX_CONFUSABLES)
+    skeleton: list[str] = []
+    for character in decomposed:
+        category = unicodedata.category(character)
+        if category.startswith(("M", "P", "Z", "C")):
+            continue
+        try:
+            digit = unicodedata.digit(character)
+        except (TypeError, ValueError):
+            skeleton.append(character)
+        else:
+            skeleton.append(str(digit))
+    return "".join(skeleton)
 
 
 def _protected_word_policy_text(value: str) -> str:
-    compatible = _policy_text(value.translate(_PROTECTED_WORD_CONFUSABLES))
-    compatible = compatible.translate(_PROTECTED_WORD_CONFUSABLES)
-    return _CAMEL_KEY_BOUNDARY.sub("_", compatible).casefold()
+    if value.isascii():
+        compatible = value
+    else:
+        compatible = value.translate(_PROTECTED_WORD_CONFUSABLES)
+        compatible = unicodedata.normalize("NFKD", compatible)
+        compatible = compatible.translate(_PROTECTED_WORD_CONFUSABLES)
+    compatible = _CAMEL_KEY_BOUNDARY.sub(" ", compatible)
+    # Preserve assignment semantics before punctuation runs collapse.
+    compatible = compatible.replace(":", " assigned ")
+    compatible = compatible.replace("=", " assigned ")
+    skeleton: list[str] = []
+    pending_space = False
+    for character in compatible:
+        category = unicodedata.category(character)
+        if category.startswith(("M", "C")):
+            continue
+        if category.startswith(("P", "Z")):
+            pending_space = True
+            continue
+        if pending_space and skeleton:
+            skeleton.append(" ")
+        skeleton.append(character)
+        pending_space = False
+    return " ".join("".join(skeleton).casefold().split())
 
 
 def _strict_identifier(value: Any, name: str) -> str:
@@ -865,11 +934,12 @@ def _assert_no_mixed_script_identifier_keys(
 
 def _assert_no_sensitive_assignments(payload: dict[str, Json]) -> None:
     for visible in _walk_visible_strings(payload):
-        match = _SENSITIVE_ASSIGNMENT.search(
-            _protected_word_policy_text(visible)
-        )
+        protected_text = _protected_word_policy_text(visible)
+        match = _SENSITIVE_ASSIGNMENT.search(protected_text)
         if match is None:
-            continue
+            if _SENSITIVE_PROVIDER_ASSIGNMENT.search(protected_text) is None:
+                continue
+            raise ValueError("request payload contains a sensitive assignment")
         label = _normalized_key(match.group("label"))
         assigned_value = _policy_text(match.group("value")).casefold()
         assigned_value = assigned_value.strip(".!?")

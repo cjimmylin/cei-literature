@@ -1,0 +1,5 @@
+{"family": "mistralai", "model": "mistralai/mistral-small-3.2-24b-instruct", "ok": true, "response_sha256": "bf5c64d8406484001866a001d7725c3f33afc6e333bfd2e006f9db1f6cbd53d0", "returned_model": "mistralai/mistral-small-3.2-24b-instruct"}
+{"family": "google", "model": "google/gemini-2.5-flash-lite", "ok": true, "response_sha256": "d49148feae4c9de24b096292c5e2084e7685d030fb3d44295e03d2d97f9c0acc", "returned_model": "google/gemini-2.5-flash-lite"}
+{"family": "qwen", "model": "qwen/qwen3-8b", "ok": true, "response_sha256": "fe8608701d3e461af00e831bac4880c7e717d1597865927b52106ac20a07c95e", "returned_model": "qwen/qwen3-8b"}
+{"family": "openai", "model": "openai/gpt-4.1-nano", "ok": true, "response_sha256": "fdc22d5d6188566920231838a0cdc0d87e2bb7522b13c927d2ddea91e7e49afb", "returned_model": "openai/gpt-4.1-nano"}
+{"family": "meta-llama", "model": "meta-llama/llama-3.3-70b-instruct", "ok": true, "response_sha256": "fdc22d5d6188566920231838a0cdc0d87e2bb7522b13c927d2ddea91e7e49afb", "returned_model": "meta-llama/llama-3.3-70b-instruct"}

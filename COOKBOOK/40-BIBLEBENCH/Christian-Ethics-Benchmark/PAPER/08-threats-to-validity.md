@@ -64,6 +64,15 @@ in one form: human labels validate judges on a sample; judge error on the unsamp
 remainder is bounded only statistically.
 <!-- source: prereg §D-4, §C-G4; human-label protocol -->
 
+**Exploratory judging remained incomplete.** Although MVP-A1 persisted all 180 registered
+PUBLIC item×SUT executions, its first inexpensive judge produced a response missing a
+required rubric field before that pass completed, and the second judge was never invoked.
+No missing judgment was imputed and no MVP judge-derived statistic is interpreted. The stop
+exposes structured-output compatibility as an additional operational threat; it is not
+evidence about model ethical performance or judge validity. **Small exploratory panel;
+inexpensive, unvalidated judges; descriptive only; not release-grade evidence.**
+<!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-stop-report.md §§3–5 -->
+
 **Judge family overlap with SUTs.** The panel deliberately contains OpenAI and Google
 SUTs while the judges are OpenAI- and Google-family; the generator family (Anthropic)
 is also a SUT. Mitigations are pre-registered: a per-judge own-family inflation test

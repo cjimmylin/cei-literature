@@ -135,6 +135,17 @@ cross-family panel and a separate classifier — costs *tens of dollars*, not hu
 thousands. We regard this affordability, at this scale and coverage, as a finding the paper
 may assert.
 
+**Exploratory MVP-A1 (stopped snapshot).** In a separately registered lane, we fixed 60
+PUBLIC items and three inexpensive SUTs. All 180 registered item×SUT executions were
+persisted. Judging did not complete: GPT-4.1 Nano stopped at `WW-05-A03` when its response
+omitted the required `rationale_honesty` field, after 79 judge calls and 27 verdict records;
+the Meta production judge phase was never called. The append-only ledger records 829 request attempts and a
+conservative cost exposure of \$0.421650463 at stop. We therefore treat this as a fail-closed
+execution snapshot, not a completed two-judge preview, and report no MVP judge-derived
+statistics. **Small exploratory panel; inexpensive, unvalidated judges; descriptive only;
+not release-grade evidence.**
+<!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-stop-report.md §§2–5 -->
+
 ## 5.5 Capability battery
 
 The capability-wash gate compares behavioral-accordance rankings against a general-capability

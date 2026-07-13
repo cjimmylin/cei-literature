@@ -820,8 +820,52 @@ Recommended exact order:
 > stop on failed probe, reserve exhaustion, or projected cap breach; no substitution;
 > descriptive-only paper preview.
 
-**OPEN — PAID RUN BLOCKED ON JIMMY.** Preparing and committing this order does not
-authorize credentials, a balance check, probes, or any paid inference.
+**RATIFIED + CLOSED 2026-07-13.** Jimmy supplied the requested authorization verbatim:
+
+> Authorize WALKWORTHY MVP-PILOT order MVP-A1: SUTs mistralai/mistral-small-3.2-24b-instruct, google/gemini-2.5-flash-lite, and qwen/qwen3-8b; judges openai/gpt-4.1-nano and meta-llama/llama-3.3-70b-instruct; classifier openai/gpt-4.1-nano; exact 60-item PUBLIC manifest hash 6874ae265588d3b10c6ef11c4b554e21e82c2f1e5d212f9e9254c150d2f40345; SUT/judge/classifier output caps 2048/256/16; price-sorted capped providers; 1,834-call authorized envelope; mandatory pre-$3 checkpoint; $5.00 hard NTE; stop on failed probe, reserve exhaustion, or projected cap breach; no substitution; descriptive-only paper preview.
+
+Immutable authority record: `20260713-jimmy-mvp-a1-authorization.md`. Paid execution is
+authorized only inside those exact model, manifest, call, price, checkpoint, claim, and
+NTE boundaries.
+
+---
+
+## PR-20 — MVP-A1 malformed-judge-unit retry contract
+
+**Surfaced:** 2026-07-13 during the ratified MVP-A1 paid run. All five probes passed and
+the exact 180/180 SUT snapshot completed. The first judge,
+`openai/gpt-4.1-nano`, then returned a missing required `rationale_honesty` field for
+`WW-05-A03` / Mistral SUT. The runner persisted the defect and stopped immediately after
+79 Judge-1 calls / 27 verdict records. Meta production calls = 0; no pre-Meta checkpoint,
+summary, or scored output exists. Conservative ledger exposure = $0.421650463.
+
+The MVP order says a model-specific reliability failure stops the thread, but does not
+register whether a malformed required field may receive a same-model replay. Continuing,
+coercing the missing value, treating the partial judge surface as complete, or substituting
+a judge would therefore be an unregistered choice.
+
+**Option 1 — recommended (bounded exact replay):** authorize at most one replay of a
+malformed judge unit at the same exact `(judge, item, SUT, unit)` key, with byte-identical
+prompt, model, output cap, and provider-price ceiling. Retain the first defect in the
+append-only ledger. If the replay parses, use it for completeness; if the same key fails
+again, stop that judge thread. Apply the same rule to either registered MVP judge. Resume
+only missing exact keys; keep the existing 1,834-call envelope and $5.00 NTE.
+
+**Option 2 — strict no-retry close:** make no further paid call, close MVP-A1 as a stopped
+pilot, and leave every judge-derived score table/figure explicitly unavailable.
+
+**Option 3 — new judge:** not permitted by MVP-A1's no-substitution order. This would
+require a new roster, probe, price/call envelope, and separate Jimmy authorization.
+
+**Requested Jimmy one-liner:**
+
+> Ratify PR-20 option 1: allow one exact same-model replay per malformed required MVP
+> judge unit, retaining the first defect; byte-identical prompt/model/cap/provider ceiling;
+> a second failure on the same key stops that judge thread; resume only missing keys within
+> the existing 1,834-call and $5.00 limits; no substitution.
+
+**OPEN — MVP-A1 PAID EXECUTION STOPPED ON JIMMY.** No further credential access or live
+call is authorized on this run until PR-20 is ruled.
 
 ---
 

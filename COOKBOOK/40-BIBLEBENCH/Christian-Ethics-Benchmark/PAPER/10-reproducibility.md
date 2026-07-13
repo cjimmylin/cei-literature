@@ -67,6 +67,13 @@ never loaded, quoted, or otherwise surfaced in this paper or in any released art
 - **Checkpoint / resume.** Panel runs checkpoint per cell and resume idempotently, so an
   interrupted run reproduces the same records on restart
   <!-- source: 20260712-fable-codex-full-handoff.md §2 -->.
+- **Fail-closed MVP custody.** The stopped MVP-A1 snapshot retains the exact 60-item PUBLIC
+  manifest, 180/180 SUT executions, a 27-record partial verdict file, and an append-only
+  ledger containing 829 request attempts. Judging stopped at the first missing required
+  rubric field; the absent Meta pass is explicit, and no missing verdict was inferred or
+  backfilled. **Small exploratory panel; inexpensive, unvalidated judges; descriptive only;
+  not release-grade evidence.**
+  <!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-stop-report.md §§1–5 -->
 - **Immutable, dated provenance.** Every reported number traces to a **dated, immutable
   report file**; reports are never overwritten or regenerated in place, and new results are
   written to new dated files <!-- source: 20260712-fable-codex-full-handoff.md §7 -->.

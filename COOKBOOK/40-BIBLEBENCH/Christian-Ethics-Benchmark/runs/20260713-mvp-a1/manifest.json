@@ -1,0 +1,276 @@
+{
+  "authority": "00-PORTFOLIO/20260713-jimmy-mvp-a1-authorization.md",
+  "classifier": {
+    "family": "openai",
+    "input_envelope": 2048,
+    "input_per_m": 0.1,
+    "max_tokens": 16,
+    "output_per_m": 0.4,
+    "provider": {
+      "allow_fallbacks": true,
+      "max_price": {
+        "completion": 0.4,
+        "prompt": 0.1
+      },
+      "require_parameters": true,
+      "sort": "price"
+    },
+    "role": "classifier",
+    "slug": "openai/gpt-4.1-nano"
+  },
+  "disclaimer": "Small exploratory panel; inexpensive, unvalidated judges; descriptive only; not release-grade evidence.",
+  "hard_nte_usd": 5.0,
+  "item_ids": [
+    "WW-01-B03",
+    "WW-01-D04",
+    "WW-01-A01",
+    "WW-01-A05",
+    "WW-01-A05-P",
+    "WW-01-B01",
+    "WW-02-B03",
+    "WW-02-C02",
+    "WW-02-A02",
+    "WW-02-A05",
+    "WW-02-B02",
+    "WW-02-B04",
+    "WW-03-B03",
+    "WW-03-B05",
+    "WW-03-A01",
+    "WW-03-A04",
+    "WW-03-A05",
+    "WW-03-B01",
+    "WW-04-D01",
+    "WW-04-D05",
+    "WW-04-A03",
+    "WW-04-A04",
+    "WW-04-B01",
+    "WW-04-B04",
+    "WW-05-A01",
+    "WW-05-C05",
+    "WW-05-A03",
+    "WW-05-B01",
+    "WW-05-B02",
+    "WW-05-B06",
+    "WW-06-A05",
+    "WW-06-D03",
+    "WW-06-A01",
+    "WW-06-A06",
+    "WW-06-B02",
+    "WW-06-B04",
+    "WW-07-A02",
+    "WW-07-C02",
+    "WW-07-A03",
+    "WW-07-B02",
+    "WW-07-B04",
+    "WW-07-C01",
+    "WW-08-B02",
+    "WW-08-D02",
+    "WW-08-A02",
+    "WW-08-A04",
+    "WW-08-B01",
+    "WW-08-B04",
+    "WW-09-A04",
+    "WW-09-A05",
+    "WW-09-B01",
+    "WW-09-B04",
+    "WW-09-C01",
+    "WW-09-C04",
+    "WW-10-A05",
+    "WW-10-B05",
+    "WW-10-A01",
+    "WW-10-A03",
+    "WW-10-B01",
+    "WW-10-B04"
+  ],
+  "judges": [
+    {
+      "family": "openai",
+      "input_envelope": 24000,
+      "input_per_m": 0.1,
+      "max_tokens": 256,
+      "output_per_m": 0.4,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.4,
+          "prompt": 0.1
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "judge",
+      "slug": "openai/gpt-4.1-nano"
+    },
+    {
+      "family": "meta-llama",
+      "input_envelope": 24000,
+      "input_per_m": 0.1,
+      "max_tokens": 256,
+      "output_per_m": 0.32,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.32,
+          "prompt": 0.1
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "judge",
+      "slug": "meta-llama/llama-3.3-70b-instruct"
+    }
+  ],
+  "max_attempts": 1834,
+  "order": "MVP-A1",
+  "ordered_item_sha256": "6874ae265588d3b10c6ef11c4b554e21e82c2f1e5d212f9e9254c150d2f40345",
+  "probes": [
+    {
+      "family": "mistralai",
+      "input_envelope": 1024,
+      "input_per_m": 0.075,
+      "max_tokens": 256,
+      "output_per_m": 0.2,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.2,
+          "prompt": 0.075
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "probe",
+      "slug": "mistralai/mistral-small-3.2-24b-instruct"
+    },
+    {
+      "family": "google",
+      "input_envelope": 1024,
+      "input_per_m": 0.1,
+      "max_tokens": 256,
+      "output_per_m": 0.4,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.4,
+          "prompt": 0.1
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "probe",
+      "slug": "google/gemini-2.5-flash-lite"
+    },
+    {
+      "family": "qwen",
+      "input_envelope": 1024,
+      "input_per_m": 0.117,
+      "max_tokens": 256,
+      "output_per_m": 0.455,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.455,
+          "prompt": 0.117
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "probe",
+      "slug": "qwen/qwen3-8b"
+    },
+    {
+      "family": "openai",
+      "input_envelope": 1024,
+      "input_per_m": 0.1,
+      "max_tokens": 256,
+      "output_per_m": 0.4,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.4,
+          "prompt": 0.1
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "probe",
+      "slug": "openai/gpt-4.1-nano"
+    },
+    {
+      "family": "meta-llama",
+      "input_envelope": 1024,
+      "input_per_m": 0.1,
+      "max_tokens": 256,
+      "output_per_m": 0.32,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.32,
+          "prompt": 0.1
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "probe",
+      "slug": "meta-llama/llama-3.3-70b-instruct"
+    }
+  ],
+  "reserve_calls": 167,
+  "scope": "PUBLIC-only descriptive MVP; never O5 evidence",
+  "suts": [
+    {
+      "family": "mistralai",
+      "input_envelope": 24000,
+      "input_per_m": 0.075,
+      "max_tokens": 2048,
+      "output_per_m": 0.2,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.2,
+          "prompt": 0.075
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "sut",
+      "slug": "mistralai/mistral-small-3.2-24b-instruct"
+    },
+    {
+      "family": "google",
+      "input_envelope": 24000,
+      "input_per_m": 0.1,
+      "max_tokens": 2048,
+      "output_per_m": 0.4,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.4,
+          "prompt": 0.1
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "sut",
+      "slug": "google/gemini-2.5-flash-lite"
+    },
+    {
+      "family": "qwen",
+      "input_envelope": 24000,
+      "input_per_m": 0.117,
+      "max_tokens": 2048,
+      "output_per_m": 0.455,
+      "provider": {
+        "allow_fallbacks": true,
+        "max_price": {
+          "completion": 0.455,
+          "prompt": 0.117
+        },
+        "require_parameters": true,
+        "sort": "price"
+      },
+      "role": "sut",
+      "slug": "qwen/qwen3-8b"
+    }
+  ]
+}

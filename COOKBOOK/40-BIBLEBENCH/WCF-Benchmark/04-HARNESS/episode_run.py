@@ -182,9 +182,8 @@ def _screen_outcome(cell: EpisodePlanCell, blind: Any) -> EpisodeOutcome:
     return outcome
 
 
-def run_episode_cell(cell: EpisodePlanCell, sut_client: Any,
-                     panel: JudgePanel) -> Dict[str, Any]:
-    """Run one blind cell; mechanical output is SCREEN and judges own the score."""
+def _usage_context(cell: EpisodePlanCell, sut_client: Any,
+                   panel: JudgePanel) -> Tuple[List[Tuple[str, str, Any]], Dict[int, int]]:
     participants = [("sut", cell.sut, sut_client)] + [
         ("judge", name, client)
         for name, _family, client in (getattr(panel, "active", None) or [])
@@ -193,6 +192,30 @@ def run_episode_cell(cell: EpisodePlanCell, sut_client: Any,
         id(client): len(getattr(client, "usage_log", None) or [])
         for _role, _name, client in participants
     }
+    return participants, before
+
+
+def _usage_since(participants: Sequence[Tuple[str, str, Any]],
+                 before: Dict[int, int]) -> Dict[str, Any]:
+    usage_calls = []
+    for role, name, client in participants:
+        entries = (getattr(client, "usage_log", None) or [])[before[id(client)]:]
+        for entry in entries:
+            usage_calls.append({
+                "role": role, "name": name,
+                "model": (entry or {}).get("model", getattr(client, "model", None)),
+                "usage": dict((entry or {}).get("usage") or {}),
+            })
+    actuals = [mvp._authoritative_cost({"usage": call["usage"]}) for call in usage_calls]
+    attributed = (sum(actuals) if actuals and all(value is not None for value in actuals)
+                  else None)
+    return {"calls": usage_calls, "attributed_cost_usd": attributed}
+
+
+def run_episode_cell(cell: EpisodePlanCell, sut_client: Any,
+                     panel: JudgePanel) -> Dict[str, Any]:
+    """Run one blind cell; mechanical output is SCREEN and judges own the score."""
+    participants, before = _usage_context(cell, sut_client, panel)
     blind = run_blind_episode(cell.entry, cell.item, cell.spec, sut_client)
     screen_outcome = _screen_outcome(cell, blind)
     marker_hits = _marker_hits(cell.spec, blind.state.deployed)
@@ -208,18 +231,6 @@ def run_episode_cell(cell: EpisodePlanCell, sut_client: Any,
     if any("EvidenceError" in error for error in judge_errors):
         raise EvidenceError("judge raw-evidence persistence failed")
     refusal = classify_refusal(blind.raw_response, should_refuse=False)
-    usage_calls = []
-    for role, name, client in participants:
-        entries = (getattr(client, "usage_log", None) or [])[before[id(client)]:]
-        for entry in entries:
-            usage_calls.append({
-                "role": role, "name": name,
-                "model": (entry or {}).get("model", getattr(client, "model", None)),
-                "usage": dict((entry or {}).get("usage") or {}),
-            })
-    actuals = [mvp._authoritative_cost({"usage": call["usage"]}) for call in usage_calls]
-    attributed = (sum(actuals) if actuals and all(value is not None for value in actuals)
-                  else None)
     return {
         "cell_key": f"{cell.item.id}::{cell.sut}",
         "item_id": cell.item.id,
@@ -241,10 +252,7 @@ def run_episode_cell(cell: EpisodePlanCell, sut_client: Any,
             "is_failure": refusal.is_failure,
             "detail": refusal.detail,
         },
-        "usage": {
-            "calls": usage_calls,
-            "attributed_cost_usd": attributed,
-        },
+        "usage": _usage_since(participants, before),
     }
 
 
@@ -399,6 +407,8 @@ def run_execution(plan: Sequence[EpisodePlanCell], sut_clients: Dict[str, Any],
         if key in done:
             outcome.skipped += 1
             continue
+        participants, usage_before = _usage_context(
+            cell, retrying[cell.sut], panel)
         try:
             record = run_episode_cell(cell, retrying[cell.sut], panel)
         except BudgetExceeded as exc:
@@ -413,6 +423,7 @@ def run_execution(plan: Sequence[EpisodePlanCell], sut_clients: Dict[str, Any],
                 "cell_key": key, "item_id": cell.item.id, "sut": cell.sut,
                 "status": "error", "error": f"{type(exc).__name__}: {exc}",
                 "timestamp": now(),
+                "usage": _usage_since(participants, usage_before),
             }
             outcome.errored += 1
         else:

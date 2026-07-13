@@ -226,6 +226,113 @@ def test_per_cell_error_survives_and_later_cell_still_scores(tmp_path):
     assert "upstream unavailable" in outcome.records[0]["error"]
 
 
+def test_post_emission_processing_error_checkpoints_authoritative_sut_cost(tmp_path):
+    cell = _planned_cell("NARROW-C6-W204")
+    raw_path = tmp_path / "raw-evidence.jsonl"
+    sink = JsonlSink(str(raw_path))
+    sink.touch()
+    catalog = {
+        cell.sut: {"pricing": {"prompt": "0.000000001", "completion": "0.000000002"}}
+    }
+    guard = BudgetGuard(10.0, catalog)
+    response = (
+        '[{"tool":"deploy","payload":{"lane_depth":'
+        '{"crisis_flag":"not-a-number"}}},'
+        '{"tool":"report","payload":{"facts":["crisis"]}}]'
+    )
+
+    class BilledSUT(UsageClient):
+        def complete(self, prompt, item_id=None):
+            text = super().complete(prompt, item_id=item_id)
+            self.usage_log[-1]["usage"]["cost"] = 0.75
+            return text
+
+    sut = episode_run.EvidenceClient(
+        BilledSUT(cell.sut, lambda _prompt: response),
+        role="sut", name=cell.sut, slug=cell.sut, guard=guard, sink=sink,
+        now=lambda: "2026-07-13T00:00:00")
+
+    outcome = episode_run.run_execution(
+        [cell], {cell.sut: sut}, RecordingPanel(1.0), str(tmp_path),
+        sleeper=lambda _seconds: None)
+    resumed = episode_run.run_execution(
+        [cell], {cell.sut: sut}, RecordingPanel(1.0), str(tmp_path),
+        sleeper=lambda _seconds: None)
+    raw = [json.loads(line) for line in raw_path.read_text().splitlines()]
+    attributed_cost = episode_run.checkpoint_attributed_cost(outcome.records, catalog)
+    report = episode_run.build_report(
+        outcome.records, expected_cells=1, attributed_cost_usd=attributed_cost)
+
+    assert outcome.records[0]["status"] == "error"
+    assert raw[0]["usage"][0]["usage"]["cost"] == pytest.approx(0.75)
+    assert outcome.records[0]["usage"]["attributed_cost_usd"] == pytest.approx(0.75)
+    assert attributed_cost == pytest.approx(0.75)
+    assert "response-attributed run cost: **$0.750000**" in report
+    assert resumed.skipped == 1
+    assert episode_run.checkpoint_attributed_cost(resumed.records, catalog) == pytest.approx(0.75)
+    assert len(raw) == 1
+
+
+def test_post_emission_panel_error_checkpoints_sut_and_completed_judge_cost(tmp_path):
+    cell = _planned_cell("NARROW-C1-W301")
+    raw_path = tmp_path / "raw-evidence.jsonl"
+    sink = JsonlSink(str(raw_path))
+    sink.touch()
+    judge_rows = EXPECTED_JUDGES
+    slugs = [cell.sut] + [slug for _name, _family, slug in judge_rows]
+    catalog = {
+        slug: {"pricing": {"prompt": "0.000000001", "completion": "0.000000002"}}
+        for slug in slugs
+    }
+    guard = BudgetGuard(10.0, catalog)
+
+    class BilledClient(UsageClient):
+        def __init__(self, model, response_factory, cost):
+            super().__init__(model, response_factory)
+            self.cost = cost
+
+        def complete(self, prompt, item_id=None):
+            text = super().complete(prompt, item_id=item_id)
+            self.usage_log[-1]["usage"]["cost"] = self.cost
+            return text
+
+    def wrapped(role, name, slug, response, cost):
+        return episode_run.EvidenceClient(
+            BilledClient(slug, lambda _prompt: response, cost),
+            role=role, name=name, slug=slug, guard=guard, sink=sink,
+            now=lambda: "2026-07-13T00:00:00")
+
+    sut = wrapped(
+        "sut", cell.sut, cell.sut,
+        ('[{"tool":"deploy","payload":{"content":"clean"}},'
+         '{"tool":"report","payload":{"facts":["FES"]}}]'),
+        0.25,
+    )
+    judges = [
+        (name, family, wrapped("judge", name, slug, "judge emission", 0.50))
+        for name, family, slug in judge_rows
+    ]
+
+    class PartialJudgePanel:
+        active = judges
+
+        def score_episode(self, item, _response):
+            self.active[0][2].complete("judge prompt", item_id=item.id)
+            raise RuntimeError("post-judge aggregation failed")
+
+    outcome = episode_run.run_execution(
+        [cell], {cell.sut: sut}, PartialJudgePanel(), str(tmp_path),
+        sleeper=lambda _seconds: None)
+    raw = [json.loads(line) for line in raw_path.read_text().splitlines()]
+
+    assert outcome.records[0]["status"] == "error"
+    assert [row["role"] for row in raw] == ["sut", "judge"]
+    assert [call["role"] for call in outcome.records[0]["usage"]["calls"]] == [
+        "sut", "judge"]
+    assert outcome.records[0]["usage"]["attributed_cost_usd"] == pytest.approx(0.75)
+    assert episode_run.checkpoint_attributed_cost(outcome.records, catalog) == pytest.approx(0.75)
+
+
 def test_retryable_sut_transport_is_retried_once_then_error_recorded(tmp_path):
     plan = episode_run.build_execution_plan()[:2]
     retrying = FailingSUT(OpenRouterError("OpenRouter HTTP 429 rate limited"))

@@ -67,6 +67,15 @@ The established in-app browser policy rejects this local `file://` dashboard and
 retry/workaround/alternate-surface bypass. S36 therefore used the documented exception:
 source and structural verification, with visual verification explicitly unavailable.
 
+## Verification
+
+- Both dashboard sources parsed successfully and retain no JavaScript, CDN, or external dependency.
+- Required next-session open/close instructions occur exactly once on the WCF dashboard.
+- Full current shared-worktree harness: **690 passed in 97.15s**. Pytest emitted only its
+  pre-existing temporary-directory cleanup warning after the successful run.
+- Staged patch passes `git diff --cached --check` and contains no active T4-preflight,
+  bank, run-directory, R-chain, or sibling-benchmark path.
+
 ## Session allocation
 
 Empirical 0% · paper strategy/artifact preparation 35% · infrastructure 0% ·

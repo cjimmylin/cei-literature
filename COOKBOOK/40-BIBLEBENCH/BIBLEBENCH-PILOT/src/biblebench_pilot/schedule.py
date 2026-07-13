@@ -297,6 +297,22 @@ _SENSITIVE_PROVIDER_ASSIGNMENT = re.compile(
 _BENIGN_PROVIDER_STATES = frozenset(
     {"available", "available today", "compassionate", "useful"}
 )
+_COMPACT_SENSITIVE_ASSIGNMENT = re.compile(
+    r"(?P<label>"
+    r"expectedlabel|testedmodel|actor(?:id|model|role)|"
+    r"model(?:identity|id|name)|goldlabel|groundtruth|"
+    r"condition|cue|scheduleid|bundleid|episodeid|"
+    r"private(?:id|template|value)?"
+    r")(?:is|assigned)(?P<value>[a-z0-9]+)",
+    re.IGNORECASE,
+)
+_COMPACT_PROVIDER_ASSIGNMENT = re.compile(
+    r"provider(?:is|assigned)(?P<value>[a-z0-9]+)",
+    re.IGNORECASE,
+)
+_COMPACT_BENIGN_PROVIDER_STATES = frozenset(
+    {"available", "availabletoday", "compassionate", "useful"}
+)
 
 
 @dataclass(frozen=True)
@@ -492,6 +508,24 @@ def _protected_word_policy_text(value: str) -> str:
         skeleton.append(character)
         pending_space = False
     return " ".join("".join(skeleton).casefold().split())
+
+
+def _compact_assignment_policy_text(value: str) -> str:
+    if value.isascii():
+        compatible = value
+    else:
+        compatible = value.translate(_PROTECTED_WORD_CONFUSABLES)
+        compatible = unicodedata.normalize("NFKD", compatible)
+        compatible = compatible.translate(_PROTECTED_WORD_CONFUSABLES)
+    compatible = compatible.replace(":", "assigned")
+    compatible = compatible.replace("=", "assigned")
+    return "".join(
+        character
+        for character in compatible
+        if not unicodedata.category(character).startswith(
+            ("M", "P", "S", "Z", "C")
+        )
+    ).casefold()
 
 
 def _strict_identifier(value: Any, name: str) -> str:
@@ -944,22 +978,39 @@ def _assert_no_sensitive_assignments(payload: dict[str, Json]) -> None:
     for visible in _walk_visible_strings(payload):
         protected_text = _protected_word_policy_text(visible)
         match = _SENSITIVE_ASSIGNMENT.search(protected_text)
-        if match is None:
-            provider_match = _SENSITIVE_PROVIDER_ASSIGNMENT.search(
-                protected_text
-            )
-            if provider_match is None:
-                continue
+        if match is not None:
+            label = _normalized_key(match.group("label"))
+            assigned_value = _policy_text(match.group("value")).casefold()
+            assigned_value = assigned_value.strip(".!?")
+            if label != "condition" or assigned_value != "stable":
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
+        compact_text = _compact_assignment_policy_text(visible)
+        compact_match = _COMPACT_SENSITIVE_ASSIGNMENT.search(compact_text)
+        if compact_match is not None:
+            label = compact_match.group("label").casefold()
+            assigned_value = compact_match.group("value").casefold()
+            if label != "condition" or assigned_value != "stable":
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
+        provider_match = _SENSITIVE_PROVIDER_ASSIGNMENT.search(protected_text)
+        if provider_match is not None:
             provider_value = provider_match.group("value")
-            if provider_value in _BENIGN_PROVIDER_STATES:
-                continue
-            raise ValueError("request payload contains a sensitive assignment")
-        label = _normalized_key(match.group("label"))
-        assigned_value = _policy_text(match.group("value")).casefold()
-        assigned_value = assigned_value.strip(".!?")
-        if label == "condition" and assigned_value == "stable":
-            continue
-        raise ValueError("request payload contains a sensitive assignment")
+            if provider_value not in _BENIGN_PROVIDER_STATES:
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
+        compact_provider_match = _COMPACT_PROVIDER_ASSIGNMENT.search(
+            compact_text
+        )
+        if compact_provider_match is not None:
+            provider_value = compact_provider_match.group("value")
+            if provider_value not in _COMPACT_BENIGN_PROVIDER_STATES:
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
 
 
 def _assert_payload_hides_generated_ids(

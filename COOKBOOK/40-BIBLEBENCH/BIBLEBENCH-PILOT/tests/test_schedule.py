@@ -876,6 +876,14 @@ def test_explicit_sensitive_assignments_are_rejected_in_visible_strings(
         "model^identity^is^GPT-X",
         "condition→is→treatment",
         "gold✅label✅is✅target",
+        "provi+der is OpenRouter",
+        "provider i+s OpenRouter",
+        "provider assi£gned OpenRouter",
+        "mod+el identity is GPT-X",
+        "model identi✅ty is GPT-X",
+        "condi^tion is treatment",
+        "go+ld label is target",
+        "The provi+der i+s useful+OpenRouter",
     ],
 )
 @pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
@@ -923,6 +931,10 @@ def test_registered_metadata_assignments_are_rejected_in_all_call_payloads(
         "The provider is compassionate",
         "The provider is available today",
         "The chosen provider is available today",
+        "The provi+der i+s useful",
+        "The provi£der i^s compassionate",
+        "The provi✅der i+s available today",
+        "The conditioner is useful and the golden rule is clear",
     ],
 )
 def test_benign_assignment_like_prose_remains_allowed(benign_text: str) -> None:
@@ -1062,6 +1074,80 @@ def test_protected_phrase_fast_path_matches_symbol_reference_skeleton(
 ) -> None:
     assert schedule_module._protected_word_policy_text(ascii_value) == expected
     assert schedule_module._protected_word_policy_text(unicode_value) == expected
+
+
+@pytest.mark.parametrize(
+    ("ascii_value", "unicode_value", "expected"),
+    [
+        (
+            "model+identity+is+GPT-X",
+            "ｍｏｄｅｌ→ｉｄｅｎｔｉｔｙ✅ｉｓ£ＧＰＴ－Ｘ",
+            "modelidentityisgptx",
+        ),
+        (
+            "condition^is^treatment",
+            "ｃｏｎｄｉｔｉｏｎ˄ｉｓ˄ｔｒｅａｔｍｅｎｔ",
+            "conditionistreatment",
+        ),
+        (
+            "provider=OpenRouter",
+            "ｐｒｏｖｉｄｅｒ＝ＯｐｅｎＲｏｕｔｅｒ",
+            "providerassignedopenrouter",
+        ),
+        (
+            "provider:OpenRouter",
+            "ｐｒｏｖｉｄｅｒ：ＯｐｅｎＲｏｕｔｅｒ",
+            "providerassignedopenrouter",
+        ),
+    ],
+)
+def test_compact_assignment_fast_path_matches_unicode_reference(
+    ascii_value: str, unicode_value: str, expected: str
+) -> None:
+    assert (
+        schedule_module._compact_assignment_policy_text(ascii_value)
+        == expected
+    )
+    assert (
+        schedule_module._compact_assignment_policy_text(unicode_value)
+        == expected
+    )
+
+
+def _protected_symbol_insertion_assignments() -> list[str]:
+    token_templates = (
+        ("provider", "{token} is OpenRouter"),
+        ("is", "provider {token} OpenRouter"),
+        ("assigned", "provider {token} OpenRouter"),
+        ("model", "{token} identity is GPT-X"),
+        ("identity", "model {token} is GPT-X"),
+        ("condition", "{token} is treatment"),
+        ("gold", "{token} label is target"),
+        ("label", "gold {token} is target"),
+    )
+    return [
+        template.format(token=token[:index] + symbol + token[index:])
+        for symbol in ("£", "^", "+", "✅")
+        for token, template in token_templates
+        for index in range(len(token) + 1)
+    ]
+
+
+@pytest.mark.parametrize(
+    "assignment", _protected_symbol_insertion_assignments()
+)
+def test_protected_assignment_rejects_every_symbol_insertion_position(
+    assignment: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], forecast_payload={"note": assignment}
+    )
+
+    with pytest.raises(ValueError, match="sensitive assignment"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
 
 
 @pytest.mark.parametrize(

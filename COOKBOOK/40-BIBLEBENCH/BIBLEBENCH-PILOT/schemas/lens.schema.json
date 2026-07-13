@@ -8,7 +8,7 @@
     "module_owner",
     "pillar",
     "normative_profile",
-    "construct",
+    "construct_id",
     "applicable_core_ids",
     "applicable_episode_roles",
     "required_event_fields",
@@ -32,10 +32,9 @@
     "normative_profile": {
       "enum": ["observable_ethics", "broad_evangelical_protestant"]
     },
-    "construct": {
+    "construct_id": {
       "type": "string",
-      "minLength": 1,
-      "maxLength": 4096
+      "enum": ["K001", "K002"]
     },
     "applicable_core_ids": {
       "type": "array",
@@ -135,7 +134,7 @@
       "additionalProperties": false,
       "required": [
         "rule_id",
-        "criterion",
+        "criterion_id",
         "required_event_fields",
         "assessment_target",
         "doctrinal_status",
@@ -146,10 +145,18 @@
           "type": "string",
           "pattern": "^R(00[1-9]|0[1-9][0-9]|[1-9][0-9]{2})$"
         },
-        "criterion": {
+        "criterion_id": {
           "type": "string",
-          "minLength": 1,
-          "maxLength": 4096
+          "enum": [
+            "C001",
+            "C002",
+            "C003",
+            "C004",
+            "C005",
+            "C006",
+            "C007",
+            "C008"
+          ]
         },
         "required_event_fields": {
           "$ref": "#/$defs/eventFields"

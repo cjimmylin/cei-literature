@@ -38,19 +38,16 @@ _MAX_VISIBLE_DEPTH = 128
 _CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
 _IDENTIFIER_COMPONENTS = frozenset({"id", "identifier"})
-_ACTOR_METADATA_KEYS = frozenset({"role"})
 _PHYSICAL_SCOPE_QUALIFIERS = frozenset(
     {"id", "identifier", "call", "attempt"}
 )
 _ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
-_ALLOWED_NORMALIZED_NAMESPACE_KEYS = _ALLOWED_TASK_ROUTE_KEYS | frozenset(
-    {
-        "lensingnotes",
-        "interventionalnotes",
-        "providershipnotes",
-        "routingnotes",
-        "reroutenotes",
-    }
+_LATER_SCOPE_BENIGN_MORPHOLOGIES = (
+    "lensing",
+    "interventional",
+    "providership",
+    "routing",
+    "reroute",
 )
 _RESERVED_NAMESPACE_LEXEMES = ("lens", "intervention", "provider", "route")
 _PHYSICAL_BOUNDARIES = (
@@ -285,29 +282,51 @@ def _walk_keys(value: Json):
             stack.extend(current)
 
 
+def _normalized_contains_reserved_lexeme(
+    normalized: str,
+    reserved: tuple[str, ...] | frozenset[str],
+    *,
+    benign_morphologies: tuple[str, ...] = (),
+    exact_allowed: frozenset[str] = frozenset(),
+) -> bool:
+    if normalized in exact_allowed:
+        return False
+    scrubbed = normalized
+    for morphology in benign_morphologies:
+        scrubbed = scrubbed.replace(morphology, "")
+    return any(lexeme in scrubbed for lexeme in reserved)
+
+
 def _assert_no_result_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        components = _key_components(key)
-        if (
-            not {"expected", "gold"}.isdisjoint(components)
-            or normalized == "groundtruth"
-            or {"ground", "truth"}.issubset(components)
+        if _normalized_contains_reserved_lexeme(
+            normalized,
+            ("expected", "gold", "groundtruth"),
+            benign_morphologies=("golden",),
         ):
             raise ValueError("request payload contains an outcome field")
 
 
 def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
-        if not {"actor", "model"}.isdisjoint(_key_components(key)):
-            raise ValueError("probe payload contains an identity field")
+        normalized = _normalized_key(key)
+        if _normalized_contains_reserved_lexeme(
+            normalized,
+            ("actor", "model"),
+            benign_morphologies=("factor", "modeling"),
+        ):
+            raise ValueError("request payload contains an identity field")
 
 
 def _normalized_key_is_sealed(normalized: str) -> bool:
-    if normalized in _ALLOWED_NORMALIZED_NAMESPACE_KEYS:
-        return False
     return (
-        any(lexeme in normalized for lexeme in _RESERVED_NAMESPACE_LEXEMES)
+        _normalized_contains_reserved_lexeme(
+            normalized,
+            _RESERVED_NAMESPACE_LEXEMES,
+            benign_morphologies=_LATER_SCOPE_BENIGN_MORPHOLOGIES,
+            exact_allowed=_ALLOWED_TASK_ROUTE_KEYS,
+        )
         or any(boundary in normalized for boundary in _PHYSICAL_BOUNDARIES)
         or any(
             boundary in normalized
@@ -352,13 +371,27 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
 
 def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
-        if _normalized_key(key) in _ACTOR_METADATA_KEYS:
+        normalized = _normalized_key(key)
+        if _normalized_contains_reserved_lexeme(
+            normalized, ("role", "private")
+        ):
             raise ValueError("request payload contains actor-private metadata")
 
 
 def _assert_blind_forecast(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
-        if not _BLIND_FORECAST_COMPONENTS.isdisjoint(_key_components(key)):
+        normalized = _normalized_key(key)
+        if _normalized_contains_reserved_lexeme(
+            normalized,
+            _BLIND_FORECAST_COMPONENTS,
+            benign_morphologies=(
+                "factor",
+                "modeling",
+                "rescue",
+                "golden",
+                "providership",
+            ),
+        ):
             raise ValueError("forecast payload contains blinded metadata")
 
 
@@ -382,6 +415,7 @@ def _detached(value: dict[str, Json]) -> dict[str, Json]:
 def _checked_actor_payload(value: dict[str, Json]) -> dict[str, Json]:
     assert_actor_payload_safe(value)
     _validate_payload(value, "request_payload")
+    _assert_no_identity_fields(value)
     return value
 
 

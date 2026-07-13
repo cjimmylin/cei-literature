@@ -691,6 +691,23 @@ def test_one_dollar_shadow_budget_is_accepted():
     assert _runner().validate_options(1.0) is None
 
 
+def test_metadata_cannot_claim_complete_above_budget():
+    r = _runner()
+    metadata = r.build_metadata(
+        catalog=_live_catalog(r),
+        budget=1.0,
+        internal_total=1.01,
+        partial_reason=None,
+        qualifications={name: {} for name, _family, _slug in r.CANDIDATES},
+        verdicts=[],
+        key_before={"usage": 1.0, "limit_remaining": 9.0},
+        key_after={"usage": 2.01, "limit_remaining": 7.99},
+    )
+
+    assert metadata["run_status"] == "PARTIAL"
+    assert "exceeded budget" in metadata["partial_reason"]
+
+
 def test_timing_client_records_one_entry_per_underlying_attempt_and_proxies():
     r = _runner()
 
@@ -879,6 +896,7 @@ def test_existing_output_path_stops_before_any_preflight_or_client(tmp_path):
         r.execute_live(
             "secret",
             out_dir=str(out_dir),
+            budget=1.01,
             key_fetch=forbidden,
             catalog_fetch=forbidden,
             client_builder=forbidden,
@@ -1021,3 +1039,171 @@ def test_live_call_failure_persists_partial_immutable_artifacts(
             out_dir=str(out_dir),
             key_fetch=lambda _key: pytest.fail("must fail before key fetch"),
         )
+
+
+def test_final_actual_overrun_is_partial_without_a_following_call(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    attempts = []
+
+    class FinalOverrunClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+        def complete(self, prompt, item_id=None):
+            attempts.append((self.model, item_id))
+            self.usage_log.append(
+                {
+                    "usage": {
+                        "prompt_tokens": 1,
+                        "completion_tokens": 1,
+                        "cost": 2.0,
+                    }
+                }
+            )
+            return "SCORE: 1.0"
+
+    def fake_qualify(client, *, name, family, slug, k, threshold):
+        if name == r.CANDIDATES[-1][0]:
+            client.complete("final paid attempt", item_id="FINAL")
+        return {"name": name}
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 3.0, "limit_remaining": 7.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        budget=1.0,
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=FinalOverrunClient,
+        qualify_fn=fake_qualify,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    assert attempts == [(r.CANDIDATES[-1][2], "FINAL")]
+    assert outcome.internal_total_usd == 2.0
+    assert outcome.partial_reason
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    report = (out_dir / "20260712-shadow-judge-bakeoff-report.md").read_text()
+    assert metadata["internal_total_usd"] == 2.0
+    assert metadata["run_status"] == "PARTIAL"
+    assert metadata["partial_reason"] == outcome.partial_reason
+    assert "PARTIAL" in report
+    assert not any("manifest" in path.name.lower() for path in out_dir.iterdir())
+
+
+@pytest.mark.parametrize("failure_stage", ["selection", "sink"])
+def test_post_directory_setup_failure_persists_partial_artifacts(
+    monkeypatch, failure_stage, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    client_calls = []
+    original_write_json_new = r.write_json_new
+
+    if failure_stage == "selection":
+        def fail_selection_only(path, value):
+            if path.endswith("selection.json"):
+                raise RuntimeError("selection setup failed")
+            original_write_json_new(path, value)
+
+        monkeypatch.setattr(r, "write_json_new", fail_selection_only)
+    else:
+        def fail_sink_touch(self):
+            raise RuntimeError("raw sink setup failed")
+
+        monkeypatch.setattr(r.JsonlSink, "touch", fail_sink_touch)
+
+    class ForbiddenClient:
+        def __init__(self, *args, **kwargs):
+            client_calls.append((args, kwargs))
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        budget=1.0,
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=ForbiddenClient,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    metadata_path = out_dir / "shadow-run-metadata.json"
+    report_path = out_dir / "20260712-shadow-judge-bakeoff-report.md"
+    assert out_dir.exists()
+    assert metadata_path.exists()
+    assert report_path.exists()
+    assert client_calls == []
+    metadata = json.loads(metadata_path.read_text())
+    assert metadata["run_status"] == "PARTIAL"
+    assert failure_stage in metadata["partial_reason"]
+    assert outcome.partial_reason == metadata["partial_reason"]
+    assert "PARTIAL" in report_path.read_text()
+
+
+def test_final_accounting_failure_persists_partial_artifacts(
+    monkeypatch, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class ExplodingGuard(r.BudgetGuard):
+        def total_usd(self):
+            raise RuntimeError("accounting unavailable")
+
+    class NoCallClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+    monkeypatch.setattr(r, "BudgetGuard", ExplodingGuard)
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        budget=1.0,
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=NoCallClient,
+        qualify_fn=lambda _client, **kwargs: {"name": kwargs["name"]},
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    report = (out_dir / "20260712-shadow-judge-bakeoff-report.md").read_text()
+    assert outcome.internal_total_usd == 0.0
+    assert outcome.partial_reason
+    assert "accounting" in outcome.partial_reason
+    assert "RuntimeError: accounting unavailable" in outcome.partial_reason
+    assert metadata["internal_total_usd"] == 0.0
+    assert metadata["run_status"] == "PARTIAL"
+    assert metadata["partial_reason"] == outcome.partial_reason
+    assert "PARTIAL" in report

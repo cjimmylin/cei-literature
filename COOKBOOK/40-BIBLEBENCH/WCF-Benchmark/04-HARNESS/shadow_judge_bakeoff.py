@@ -475,6 +475,11 @@ def build_metadata(
     key_before,
     key_after,
 ):
+    if internal_total > budget and not partial_reason:
+        partial_reason = (
+            f"actual internal total ${internal_total:.4f} exceeded "
+            f"budget ${budget:.2f}"
+        )
     return {
         "artifact_kind": "SHADOW / NOT A QUALIFICATION MANIFEST",
         "run_status": "PARTIAL" if partial_reason else "COMPLETE",
@@ -529,11 +534,11 @@ def execute_live(
     score_fn=run_shadow_units,
     now=lambda: datetime.datetime.now().isoformat(timespec="seconds"),
 ):
-    validate_options(budget)
     if os.path.exists(out_dir):
         raise OutputPathError(
             f"append-only output path already exists: {out_dir}"
         )
+    validate_options(budget)
 
     key_before = fetch_with_two_retries(key_fetch, api_key)
     require_preflight(key_before, budget)
@@ -554,23 +559,26 @@ def execute_live(
     report_path = os.path.join(
         out_dir, "20260712-shadow-judge-bakeoff-report.md"
     )
-    write_json_new(
-        selection_path,
-        {
-            "seed": SEED,
-            "surface_counts": SURFACE_COUNTS,
-            "units": selection,
-        },
-    )
-    sink = JsonlSink(raw_path)
-    sink.touch()
-    guard = BudgetGuard(budget, catalog)
     clients = {}
     qualifications = {}
     verdicts = []
-    partial_reason = None
+    guard = None
+    internal = 0.0
+    key_after = None
+    partial_reasons = []
 
     try:
+        write_json_new(
+            selection_path,
+            {
+                "seed": SEED,
+                "surface_counts": SURFACE_COUNTS,
+                "units": selection,
+            },
+        )
+        sink = JsonlSink(raw_path)
+        sink.touch()
+        guard = BudgetGuard(budget, catalog)
         for name, family, slug in CANDIDATES:
             inner = client_builder(
                 model=slug,
@@ -611,13 +619,34 @@ def execute_live(
             now=now,
         )
     except Exception as exc:
-        partial_reason = f"{type(exc).__name__}: {exc}"
+        partial_reasons.append(f"{type(exc).__name__}: {exc}")
 
-    internal = guard.total_usd()
+    if guard is not None:
+        try:
+            internal = guard.total_usd()
+        except Exception as exc:
+            partial_reasons.append(
+                f"accounting failure: {type(exc).__name__}: {exc}"
+            )
+        else:
+            if internal > budget:
+                partial_reasons.append(
+                    f"actual internal total ${internal:.4f} exceeded "
+                    f"budget ${budget:.2f}"
+                )
+            elif guard.hit and not partial_reasons:
+                partial_reasons.append(
+                    f"budget guard stopped at ${budget:.2f} cap"
+                )
+
     try:
         key_after = fetch_with_two_retries(key_fetch, api_key)
-    except Exception:
-        key_after = None
+    except Exception as exc:
+        partial_reasons.append(
+            f"key-after snapshot failure: {type(exc).__name__}: {exc}"
+        )
+
+    partial_reason = "; ".join(partial_reasons) or None
     metadata = build_metadata(
         catalog=catalog,
         budget=budget,

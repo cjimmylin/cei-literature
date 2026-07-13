@@ -47,7 +47,10 @@ gate board, and open escalations before touching anything else (in a GUI environ
 literally open it in a browser; headless, read the HTML source's LIVE sections).
 
 **SESSION CLOSE (and after any milestone/manifest/ruling change), update the LIVE
-surfaces** (each section is chipped LIVE or HISTORY in the page):
+surfaces** (each section is chipped LIVE or HISTORY in the page). This close protocol is
+mandatory for **every session that changes repository state**: code, documents, generated
+artifacts, plans, progress, rulings, spend, handoffs, or any other tracked file. A
+documentation-only or plan-only session is not exempt:
 1. The banner's **"Last updated: <date> · by <agent>"** line — mandatory, even if nothing
    else changed.
 2. The **Live-status table** (current phase, execution owner, manifest of record, panel,
@@ -64,6 +67,14 @@ surfaces** (each section is chipped LIVE or HISTORY in the page):
     directory, prepared-date) every time you prepare a new boot/re-entry prompt, so the
     next session can always be launched straight from the dashboard.
 
+**FINAL SHOW-AND-HANDOFF GATE (GUI sessions):** after the final dashboard write—and again
+after any later edit—open or reload `project-dashboard.html` in the available browser.
+Visually verify the rendered banner, Live-status state, newest session row, newest update-log
+row, and §Instructions-for-next-session. Leave that verified dashboard open for Jimmy, and
+do not send the final response until this gate passes. If browser access is genuinely
+unavailable, verify the HTML source, say explicitly that visual verification was unavailable,
+and leave the next-session instructions complete; never silently skip the gate.
+
 Sections chipped **HISTORY are frozen** — never rewrite Phases 1–5, the MVP results, the
 bank table, or past R-chain/update-log rows (append rows only). Do not restructure the
 page. The file is fully self-contained (inline CSS, no JS, no CDN); keep it that way, and
@@ -72,7 +83,8 @@ never put the canary string in it.
 **Boot-prompt convention:** any NEW boot prompt, re-entry prompt, or session handoff an
 agent writes for this project MUST include two lines: (i) "on session open: load
 `project-dashboard.html` (Live-status first)" and (ii) "on session close: update the
-dashboard per `AGENTS.md §The project dashboard`". AND: whenever you write a new boot
+dashboard per `AGENTS.md §The project dashboard`, then open/reload it in the browser and
+leave the verified next-session view open for Jimmy". AND: whenever you write a new boot
 prompt, rewrite the dashboard's **§Instructions for next session** (the paste text, which
 model, which directory). Existing prompts have been updated; keep the convention for all
 future ones.

@@ -174,9 +174,10 @@ _PRIVATE_ID_MARKER = re.compile(
     r"(?<![a-z0-9])canary[-_.][a-z0-9][a-z0-9_-]{5,}(?![a-z0-9])"
 )
 _CREDENTIAL_PHRASE = re.compile(
-    r"(?i)(?<![a-z0-9_])(?:password|credential|secret|cookie|"
-    r"api[-_./\s]*key|access[-_./\s]*token|refresh[-_./\s]*token|"
-    r"auth[-_./\s]*token|session[-_./\s]*cookie)"
+    r"(?i)(?<![a-z0-9_])(?:password|passwd|credential|secret|cookie|"
+    r"api[-_./\s]*(?:key|token)|access[-_./\s]*token|"
+    r"refresh[-_./\s]*token|auth[-_./\s]*token|"
+    r"bearer[-_./\s]*token|session[-_./\s]*cookie)"
     r"[ \t]+is[ \t]+[^\s,;]{6,}"
 )
 _SENSITIVE_VALUE_LABELS = frozenset(
@@ -235,6 +236,7 @@ def _key_is_forbidden(
 def _opaque_identifier_is_forbidden(value: str) -> bool:
     normalized, _ = _normalized_policy_text(value)
     labels = (
+        "actor",
         "actor_model",
         "actor_id",
         "model_identity",

@@ -2302,6 +2302,9 @@ def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
         "secret is abcdef123456",
         "cookie is abcdef123456",
         "auth token is abcdef123456",
+        "passwd is abcdef123456",
+        "bearer token is abcdef123456",
+        "api token is abcdef123456",
     ],
 )
 def test_actor_payload_rejects_sensitive_value_shapes(sensitive: str) -> None:
@@ -2499,6 +2502,8 @@ def test_judge_envelope_allows_neutral_opaque_identifiers(
         ("rubric_version", "gold-control"),
         ("rubric_version", "private-control"),
         ("rubric_version", "canary-control"),
+        ("episode_token", "actor-control"),
+        ("rubric_version", "actor-gpt-5"),
     ],
 )
 def test_judge_envelope_rejects_private_terms_in_opaque_fields(

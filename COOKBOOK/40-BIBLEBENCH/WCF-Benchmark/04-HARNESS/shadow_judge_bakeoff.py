@@ -1228,6 +1228,9 @@ def summarize_agreement(selection, verdicts, evidence, agreement_rows):
                 ]
                 exact_count = 0
                 disagreements = []
+                joined_count = 0
+                component_numerator = 0.0
+                component_denominator = 0
                 for record in available:
                     joined = row_by_key.get(
                         (
@@ -1239,7 +1242,17 @@ def summarize_agreement(selection, verdicts, evidence, agreement_rows):
                             comparator,
                         )
                     )
-                    if joined is not None and joined["exact"]:
+                    if joined is None:
+                        continue
+                    joined_count += 1
+                    n_components = int(joined.get("n_components") or 0)
+                    component_fraction = joined.get("component_agreement")
+                    if n_components and component_fraction is not None:
+                        component_numerator += (
+                            float(component_fraction) * n_components
+                        )
+                        component_denominator += n_components
+                    if joined["exact"]:
                         exact_count += 1
                     else:
                         disagreements.append(
@@ -1250,21 +1263,28 @@ def summarize_agreement(selection, verdicts, evidence, agreement_rows):
                                 "source_run": record["source_run"],
                             }
                         )
-                denominator = len(available)
                 summary.append(
                     {
                         "judge": name,
                         "surface": surface,
                         "comparator": comparator,
                         "planned": planned,
-                        "comparator_denominator": denominator,
+                        "comparator_available_count": len(available),
                         "graded_count": graded_count,
                         "parseable_fraction": graded_count / planned,
+                        "exact_agreement_n": exact_count,
                         "exact_agreement_fraction": (
-                            exact_count / denominator if denominator else None
+                            exact_count / joined_count if joined_count else None
                         ),
                         "disagreement_count": len(disagreements),
                         "disagreement_identifiers": disagreements,
+                        "component_agreement_numerator": component_numerator,
+                        "component_agreement_denominator": component_denominator,
+                        "component_agreement_fraction": (
+                            component_numerator / component_denominator
+                            if component_denominator
+                            else None
+                        ),
                     }
                 )
     return summary

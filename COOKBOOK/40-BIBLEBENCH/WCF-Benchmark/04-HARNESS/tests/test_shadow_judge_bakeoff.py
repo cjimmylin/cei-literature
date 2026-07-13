@@ -2196,19 +2196,109 @@ def test_agreement_summary_retains_failures_in_fixed_denominators():
         and value["comparator"] == "gemini-flash"
     )
     assert row["planned"] == 6
-    assert row["comparator_denominator"] == 2
+    assert row["comparator_available_count"] == 2
     assert row["graded_count"] == 5
     assert row["parseable_fraction"] == pytest.approx(5 / 6)
-    assert row["exact_agreement_fraction"] == 0.5
-    assert row["disagreement_count"] == 1
-    assert row["disagreement_identifiers"] == [
+    assert row["exact_agreement_n"] == 1
+    assert row["exact_agreement_fraction"] == 1.0
+    assert row["disagreement_count"] == 0
+    assert row["disagreement_identifiers"] == []
+    assert row["component_agreement_numerator"] == 1.0
+    assert row["component_agreement_denominator"] == 1
+    assert row["component_agreement_fraction"] == 1.0
+    no_evidence = next(
+        value
+        for value in summary
+        if value["judge"] == "deepseek-v4-pro"
+        and value["surface"] == "disclosure"
+        and value["comparator"] == "gemini-flash"
+    )
+    assert no_evidence["comparator_available_count"] == 2
+    assert no_evidence["graded_count"] == 0
+    assert no_evidence["exact_agreement_n"] == 0
+    assert no_evidence["exact_agreement_fraction"] is None
+    assert no_evidence["disagreement_count"] == 0
+    assert no_evidence["disagreement_identifiers"] == []
+    assert no_evidence["component_agreement_numerator"] == 0.0
+    assert no_evidence["component_agreement_denominator"] == 0
+    assert no_evidence["component_agreement_fraction"] is None
+
+
+def test_component_summary_aggregates_open_and_settled_components():
+    r = _runner()
+    selection = [
         {
-            "item_id": "I1",
+            "surface": surface,
+            "item_id": item_id,
             "sut_slug": "sut",
-            "response_sha256": "hash-1",
-            "source_run": "synthetic",
+            "response_sha256": f"hash-{item_id}",
         }
+        for surface, item_id in (
+            ("open_award", "O1"),
+            ("open_award", "O2"),
+            ("settled_core", "S1"),
+        )
     ]
+    verdicts = [
+        {
+            "judge": "glm-5.2",
+            **{key: unit[key] for key in (
+                "surface", "item_id", "sut_slug", "response_sha256"
+            )},
+            "result": {"graded": True},
+            "error": None,
+        }
+        for unit in selection
+    ]
+    evidence = [
+        {
+            **{key: unit[key] for key in (
+                "surface", "item_id", "sut_slug", "response_sha256"
+            )},
+            "source_run": "synthetic",
+            "comparator": "gemini-flash",
+            "available": True,
+        }
+        for unit in selection
+    ]
+    agreement_rows = [
+        {
+            "judge": "glm-5.2",
+            **{key: unit[key] for key in (
+                "surface", "item_id", "sut_slug", "response_sha256"
+            )},
+            "comparator": "gemini-flash",
+            "exact": exact,
+            "component_agreement": component_fraction,
+            "n_components": 2,
+        }
+        for unit, exact, component_fraction in zip(
+            selection,
+            (False, True, False),
+            (0.5, 1.0, 0.5),
+        )
+    ]
+    summary = r.summarize_agreement(
+        selection, verdicts, evidence, agreement_rows
+    )
+    open_row = next(
+        row for row in summary
+        if row["judge"] == "glm-5.2"
+        and row["surface"] == "open_award"
+        and row["comparator"] == "gemini-flash"
+    )
+    settled_row = next(
+        row for row in summary
+        if row["judge"] == "glm-5.2"
+        and row["surface"] == "settled_core"
+        and row["comparator"] == "gemini-flash"
+    )
+    assert open_row["component_agreement_numerator"] == 3.0
+    assert open_row["component_agreement_denominator"] == 4
+    assert open_row["component_agreement_fraction"] == 0.75
+    assert settled_row["component_agreement_numerator"] == 1.0
+    assert settled_row["component_agreement_denominator"] == 2
+    assert settled_row["component_agreement_fraction"] == 0.5
 
 
 def test_operational_summary_prefers_actual_cost_then_catalog_fallback():
@@ -2362,7 +2452,13 @@ def test_report_forbids_accuracy_and_production_effect():
             "analysis": {
                 "qualification": {},
                 "agreement": [],
-                "agreement_summary": [],
+                "agreement_summary": [
+                    {
+                        "component_agreement_numerator": 3.0,
+                        "component_agreement_denominator": 4,
+                        "component_agreement_fraction": 0.75,
+                    }
+                ],
                 "comparator_denominators": [],
                 "comparator_coverage_complete": True,
                 "operations": {},
@@ -2384,6 +2480,9 @@ def test_report_forbids_accuracy_and_production_effect():
     assert "more accurate" not in report.lower()
     assert "production judge" not in report.lower()
     assert "No label authorizes" in report
+    assert "component_agreement_numerator" in report
+    assert "component_agreement_denominator" in report
+    assert "component_agreement_fraction" in report
 
 
 def test_dry_run_has_zero_network_and_creates_no_directory(

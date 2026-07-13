@@ -67,10 +67,29 @@ RAW_EVIDENCE_FILENAME = episode_run.RAW_EVIDENCE_FILENAME
 CHECKPOINT_FILENAME = "checkpoint.jsonl"
 REPORT_FILENAME = "ppp1-report.md"
 METADATA_FILENAME = "run-metadata.json"
-FROZEN_CATALOG_HASH = "8aaf8aed304c97244239224bedd4e0677762ea1c69fa8005c429737a49b74268"
-PREFLIGHT_DIR = PROJECT / "07-PILOTS" / "20260713-ppp1-zero-paid-preflight"
+FROZEN_CATALOG_HASH = "e97e482f8fc963ffe2e0743257e1d1041437ebdef1cbcf9babdb03c7b2d0318a"
+FROZEN_MANIFEST_HASH = "f1121b2bd279a83053f2521c99a45b4d116c1399da78776f515dceb4f210d796"
+PREFLIGHT_DIR = PROJECT / "07-PILOTS" / "20260713-ppp1-catalog-refresh"
 PREFLIGHT_MANIFEST_PATH = PREFLIGHT_DIR / "ppp1-run-manifest.json"
 FROZEN_CATALOG_PATH = PREFLIGHT_DIR / "openrouter-catalog-snapshot.json"
+QWEN_OVERRIDE_MIN_PROMPT_TOKENS = 256000
+EXPECTED_BASE_PRICES = {
+    "meta-llama/llama-3.1-8b-instruct": {
+        "prompt": "0.00000002", "completion": "0.00000003"},
+    "deepseek/deepseek-chat": {
+        "prompt": "0.0000002002", "completion": "0.0000008001"},
+    "qwen/qwen3.7-plus": {
+        "prompt": "0.00000032", "completion": "0.00000128"},
+    "google/gemini-2.5-flash": {
+        "prompt": "0.0000003", "completion": "0.0000025"},
+}
+EXPECTED_QWEN_OVERRIDE = [{
+    "min_prompt_tokens": QWEN_OVERRIDE_MIN_PROMPT_TOKENS,
+    "prompt": "0.00000096",
+    "completion": "0.00000384",
+    "input_cache_read": "0.000000192",
+    "input_cache_write": "0.0000012",
+}]
 QUALIFICATION_MANIFEST_PATH = (
     PROJECT / "07-PILOTS" / "20260712-artifact-corrected-requal"
     / "20260712-artifact-corrected-requal-manifest.json"
@@ -111,6 +130,20 @@ def _catalog_hash(catalog: Dict[str, Dict[str, Any]]) -> str:
         rows, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
 
 
+def validate_catalog_contract(catalog: Dict[str, Dict[str, Any]]) -> None:
+    """Fail closed unless the exact roster, base prices, and Qwen override remain."""
+    expected = set((*PPP1_SUTS, PPP1_JUDGE))
+    if set(catalog) != expected:
+        raise PreflightError("PPP-1 catalog is not the exact four-model roster")
+    for slug, prices in EXPECTED_BASE_PRICES.items():
+        actual = catalog.get(slug, {}).get("pricing", {})
+        if any(actual.get(field) != value for field, value in prices.items()):
+            raise PreflightError(f"PPP-1 catalog base price mismatch for {slug}")
+    qwen_pricing = catalog["qwen/qwen3.7-plus"].get("pricing", {})
+    if qwen_pricing.get("overrides") != EXPECTED_QWEN_OVERRIDE:
+        raise PreflightError("PPP-1 Qwen pricing override mismatch")
+
+
 def load_frozen_catalog() -> Dict[str, Dict[str, Any]]:
     """Load and self-verify the immutable four-model PPP-1 catalog snapshot."""
     snapshot = _read_json(FROZEN_CATALOG_PATH)
@@ -123,11 +156,19 @@ def load_frozen_catalog() -> Dict[str, Dict[str, Any]]:
         row.get("id"): row for row in rows
         if isinstance(row, dict) and isinstance(row.get("id"), str)
     }
+    validate_catalog_contract(catalog)
     source_hash = snapshot.get("source_hash")
     computed = _catalog_hash(catalog)
     if source_hash != FROZEN_CATALOG_HASH or computed != FROZEN_CATALOG_HASH:
         raise PreflightError("frozen PPP-1 catalog hash mismatch")
     return catalog
+
+
+def load_frozen_manifest() -> Dict[str, Any]:
+    """Load the refreshed run manifest only when its exact bytes remain pinned."""
+    if _sha256(PREFLIGHT_MANIFEST_PATH) != FROZEN_MANIFEST_HASH:
+        raise PreflightError("frozen PPP-1 manifest hash mismatch")
+    return _read_json(PREFLIGHT_MANIFEST_PATH)
 
 
 @dataclass(frozen=True)
@@ -144,6 +185,67 @@ class PreviewPlan:
         ]
         return normal + [
             mvp.cell_key(cell.item.id, cell.sut) for cell in self.episode_cells]
+
+
+class _PromptCaptured(BaseException):
+    pass
+
+
+class _QwenPromptCapture:
+    model = "qwen/qwen3.7-plus"
+    max_tokens = SUT_MAX_TOKENS
+
+    def __init__(self) -> None:
+        self.prompts: List[Tuple[Optional[str], str]] = []
+        self.usage_log: List[Dict[str, Any]] = []
+
+    def complete(self, prompt: str, item_id: Optional[str] = None) -> str:
+        self.prompts.append((item_id, prompt))
+        raise _PromptCaptured()
+
+
+def verify_qwen_prompt_ceiling(plan: PreviewPlan) -> Dict[str, Any]:
+    """Render all exact Qwen SUT calls and enforce the 256k pricing boundary."""
+    rows: List[Tuple[str, int, int]] = []
+    panel = type("_UnusedPanel", (), {"active": []})()
+
+    def capture(item_id: str, invoke: Callable[[_QwenPromptCapture], Any]) -> None:
+        client = _QwenPromptCapture()
+        try:
+            invoke(client)
+        except _PromptCaptured:
+            pass
+        if len(client.prompts) != 1 or client.prompts[0][0] != item_id:
+            raise PreflightError(f"could not render exact Qwen SUT prompt for {item_id}")
+        prompt = client.prompts[0][1]
+        user_bytes = len(prompt.encode("utf-8"))
+        ceiling = len(EXAMINEE_SYSTEM.encode("utf-8")) + user_bytes
+        rows.append((item_id, user_bytes, ceiling))
+
+    for item in plan.normal_items:
+        capture(item.id, lambda client, item=item: mvp.run_cell(
+            item, "qwen/qwen3.7-plus", client, panel))
+    for cell in plan.episode_cells:
+        if cell.sut == "qwen/qwen3.7-plus":
+            capture(cell.item.id, lambda client, cell=cell:
+                    episode_run.run_episode_cell(cell, client, panel))
+
+    if len(rows) != 226:
+        raise PreflightError("Qwen prompt ceiling did not cover all 226 SUT calls")
+    item_id, user_bytes, maximum = max(rows, key=lambda row: row[2])
+    if maximum >= QWEN_OVERRIDE_MIN_PROMPT_TOKENS:
+        raise PreflightError(
+            "Qwen prompt ceiling reaches the 256000-token pricing override")
+    return {
+        "model": "qwen/qwen3.7-plus",
+        "prompt_count": len(rows),
+        "system_message_utf8_bytes": len(EXAMINEE_SYSTEM.encode("utf-8")),
+        "maximum_user_prompt_utf8_bytes": user_bytes,
+        "maximum_prompt_token_ceiling": maximum,
+        "maximum_prompt_item_id": item_id,
+        "override_min_prompt_tokens": QWEN_OVERRIDE_MIN_PROMPT_TOKENS,
+        "headroom_tokens": QWEN_OVERRIDE_MIN_PROMPT_TOKENS - maximum,
+    }
 
 
 @functools.lru_cache(maxsize=1)
@@ -174,7 +276,7 @@ def build_execution_plan() -> PreviewPlan:
     if len(plan.cell_keys) != 678 or len(set(plan.cell_keys)) != 678:
         raise PreflightError("PPP-1 execution plan must contain 678 unique cells")
 
-    frozen = _read_json(PREFLIGHT_MANIFEST_PATH)
+    frozen = load_frozen_manifest()
     frozen_items = {
         (row.get("item_id"), row.get("kind"))
         for row in frozen.get("items", []) if isinstance(row, dict)
@@ -191,6 +293,7 @@ def build_execution_plan() -> PreviewPlan:
             or frozen_items != current_items
             or frozen.get("excluded_dev_set_only_ids") != list(plan.excluded_dev_set_only_ids)):
         raise PreflightError("current PPP-1 plan does not match the immutable preflight")
+    verify_qwen_prompt_ceiling(plan)
     return plan
 
 
@@ -252,11 +355,13 @@ def validate_preflight(snapshot: Dict[str, Any],
         mvp.validate_slugs((*PPP1_SUTS, PPP1_JUDGE), catalog)
     except mvp.SlugValidationError as exc:
         raise PreflightError(f"exact PPP-1 catalog slug mismatch: {exc}") from exc
-    if _catalog_hash(catalog) != FROZEN_CATALOG_HASH:
+    selected = {slug: catalog[slug] for slug in (*PPP1_SUTS, PPP1_JUDGE)}
+    validate_catalog_contract(selected)
+    if _catalog_hash(selected) != FROZEN_CATALOG_HASH:
         raise PreflightError(
             "live catalog hash does not match the immutable PPP-1 preflight")
     for slug in (*PPP1_SUTS, PPP1_JUDGE):
-        if mvp.price_for(slug, catalog) != mvp.price_for(slug, frozen):
+        if mvp.price_for(slug, selected) != mvp.price_for(slug, frozen):
             raise PreflightError(f"live catalog price mismatch for exact slug {slug}")
 
 

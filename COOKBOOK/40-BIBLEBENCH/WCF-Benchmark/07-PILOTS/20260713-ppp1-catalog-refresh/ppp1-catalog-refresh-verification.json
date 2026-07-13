@@ -1,0 +1,57 @@
+{
+  "artifact_kind": "PPP-1_CATALOG_REFRESH_AND_QWEN_CEILING_VERIFICATION",
+  "catalog_get_count": 1,
+  "catalog_hash": "e97e482f8fc963ffe2e0743257e1d1041437ebdef1cbcf9babdb03c7b2d0318a",
+  "catalog_retrieved_at": "2026-07-13T20:15:19Z",
+  "catalog_snapshot_sha256": "1026c3800505fd6756ce9c70512eb218e6750b3facee13ae56e1b0c4c3e3dacd",
+  "exact_catalog_roster": [
+    "meta-llama/llama-3.1-8b-instruct",
+    "deepseek/deepseek-chat",
+    "qwen/qwen3.7-plus",
+    "google/gemini-2.5-flash"
+  ],
+  "expected_base_prices": {
+    "deepseek/deepseek-chat": {
+      "completion": "0.0000008001",
+      "prompt": "0.0000002002"
+    },
+    "google/gemini-2.5-flash": {
+      "completion": "0.0000025",
+      "prompt": "0.0000003"
+    },
+    "meta-llama/llama-3.1-8b-instruct": {
+      "completion": "0.00000003",
+      "prompt": "0.00000002"
+    },
+    "qwen/qwen3.7-plus": {
+      "completion": "0.00000128",
+      "prompt": "0.00000032"
+    }
+  },
+  "judge_max_tokens": 512,
+  "old_catalog_hash": "8aaf8aed304c97244239224bedd4e0677762ea1c69fa8005c429737a49b74268",
+  "old_manifest_sha256": "009a56eba6638a41bfde253e090dbc369e6a38e46d1c6ffea8d297c506e322bf",
+  "paid_inference_calls": 0,
+  "prompt_ceiling": {
+    "headroom_tokens": 253779,
+    "maximum_prompt_item_id": "MEND-C1-W301",
+    "maximum_prompt_token_ceiling": 2221,
+    "maximum_user_prompt_utf8_bytes": 1939,
+    "method": "one-token-per-UTF-8-byte conservative ceiling over EXAMINEE_SYSTEM plus each exact Qwen SUT user prompt",
+    "override_min_prompt_tokens": 256000,
+    "prompt_count": 226,
+    "system_message_included": true,
+    "system_message_utf8_bytes": 282
+  },
+  "qwen_expected_pricing_override": {
+    "completion": "0.00000384",
+    "input_cache_read": "0.000000192",
+    "input_cache_write": "0.0000012",
+    "min_prompt_tokens": 256000,
+    "prompt": "0.00000096"
+  },
+  "refreshed_manifest_sha256": "f1121b2bd279a83053f2521c99a45b4d116c1399da78776f515dceb4f210d796",
+  "result": "PASS",
+  "sut_max_tokens": 2048,
+  "validity_label": "EXPLORATORY MANUSCRIPT PREVIEW \u00b7 SINGLE-JUDGE \u00b7 NON-QUOTABLE"
+}

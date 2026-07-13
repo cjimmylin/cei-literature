@@ -59,7 +59,64 @@ def test_plan_and_identity_are_the_exact_frozen_226_by_three_preview():
     assert identity["excluded_dev_set_only_ids"] == [
         "LIB-C2-W305", "LIB-C3-W202", "LIB-C7-008", "LIB-C8-W304"]
     assert identity["catalog_identity"]["source_hash"] == (
-        "8aaf8aed304c97244239224bedd4e0677762ea1c69fa8005c429737a49b74268")
+        "e97e482f8fc963ffe2e0743257e1d1041437ebdef1cbcf9babdb03c7b2d0318a")
+    assert runner.PREFLIGHT_DIR.name == "20260713-ppp1-catalog-refresh"
+    assert identity["preflight_manifest"].startswith(
+        "07-PILOTS/20260713-ppp1-catalog-refresh/")
+    assert identity["preflight_manifest_sha256"] == runner.FROZEN_MANIFEST_HASH
+
+
+def test_qwen_all_226_prompt_ceiling_includes_system_and_stays_below_override():
+    verification = runner.verify_qwen_prompt_ceiling(runner.build_execution_plan())
+
+    assert verification == {
+        "model": "qwen/qwen3.7-plus",
+        "prompt_count": 226,
+        "system_message_utf8_bytes": 282,
+        "maximum_user_prompt_utf8_bytes": 1939,
+        "maximum_prompt_token_ceiling": 2221,
+        "maximum_prompt_item_id": "MEND-C1-W301",
+        "override_min_prompt_tokens": 256000,
+        "headroom_tokens": 253779,
+    }
+
+
+def test_qwen_prompt_ceiling_fails_closed_at_override_boundary(monkeypatch):
+    monkeypatch.setattr(
+        runner, "EXAMINEE_SYSTEM",
+        "x" * (runner.QWEN_OVERRIDE_MIN_PROMPT_TOKENS - 1939))
+
+    with pytest.raises(PreflightError, match="Qwen prompt ceiling"):
+        runner.verify_qwen_prompt_ceiling(runner.build_execution_plan())
+
+
+def test_catalog_contract_rejects_nonexact_roster_base_prices_or_qwen_override():
+    catalog = _frozen_catalog()
+    runner.validate_catalog_contract(catalog)
+
+    extra = dict(catalog)
+    extra["foreign/model"] = {"id": "foreign/model", "pricing": {}}
+    with pytest.raises(PreflightError, match="exact four-model roster"):
+        runner.validate_catalog_contract(extra)
+
+    repriced = json.loads(json.dumps(catalog))
+    repriced[runner.PPP1_SUTS[0]]["pricing"]["prompt"] = "0.1"
+    with pytest.raises(PreflightError, match="base price"):
+        runner.validate_catalog_contract(repriced)
+
+    moved_override = json.loads(json.dumps(catalog))
+    moved_override["qwen/qwen3.7-plus"]["pricing"]["overrides"][0][
+        "min_prompt_tokens"] = 255999
+    with pytest.raises(PreflightError, match="Qwen pricing override"):
+        runner.validate_catalog_contract(moved_override)
+
+
+def test_refreshed_manifest_hash_is_pinned_and_fail_closed(monkeypatch):
+    assert runner._sha256(runner.PREFLIGHT_MANIFEST_PATH) == runner.FROZEN_MANIFEST_HASH
+    monkeypatch.setattr(runner, "FROZEN_MANIFEST_HASH", "0" * 64)
+
+    with pytest.raises(PreflightError, match="manifest hash mismatch"):
+        runner.load_frozen_manifest()
 
 
 def test_default_cli_is_dry_and_output_path_does_not_create_or_call(tmp_path, capsys):
@@ -105,6 +162,16 @@ def test_preflight_requires_balance_and_exact_frozen_catalog_identity():
     repriced[runner.PPP1_JUDGE]["pricing"]["completion"] = "0.0000026"
     with pytest.raises(PreflightError, match="hash|price"):
         runner.validate_preflight(_auth(), repriced)
+
+
+def test_preflight_accepts_unrelated_live_catalog_rows_but_still_selects_exact_four():
+    full_catalog = _frozen_catalog()
+    full_catalog["unrelated/model"] = {
+        "id": "unrelated/model",
+        "pricing": {"prompt": "9", "completion": "9"},
+    }
+
+    runner.validate_preflight(_auth(), full_catalog)
 
 
 def test_preview_panel_uses_only_gemini_manifest_surfaces_and_one_episode_vote():

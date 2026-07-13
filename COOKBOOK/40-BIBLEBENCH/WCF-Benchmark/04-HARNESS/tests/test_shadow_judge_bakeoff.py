@@ -3,10 +3,12 @@ from __future__ import annotations
 import hashlib
 import importlib
 import json
+import math
 from types import SimpleNamespace
 
 import pytest
 
+from wcfbench import OpenRouterError
 from wcfbench.qualification import JudgeQualification, ProbeReps
 
 
@@ -659,6 +661,91 @@ def _live_selection():
     ]
 
 
+def _exact_selection(r):
+    units = []
+    for surface, count in r.SURFACE_COUNTS.items():
+        for index in range(count):
+            item_id = f"{surface}-{index}"
+            units.append(
+                {
+                    "surface": surface,
+                    "item_id": item_id,
+                    "sut_slug": "synthetic/sut",
+                    "sut_response": f"response:{item_id}",
+                    "response_sha256": f"hash:{item_id}",
+                    "axis": "end" if surface == "coherence" else None,
+                    "comparators": {},
+                }
+            )
+    return units
+
+
+def _complete_qualification(r, name, family, slug):
+    probe_reps = {
+        probe: ProbeReps(
+            probe=probe,
+            k=r.K,
+            n_pass=r.K,
+            reps=[
+                {
+                    "rep": rep,
+                    "passed": True,
+                    "cause": "pass",
+                    "detail": "synthetic",
+                }
+                for rep in range(r.K)
+            ],
+        )
+        for probe in r.PROBES
+    }
+    return JudgeQualification(
+        name=name,
+        family=family,
+        slug=slug,
+        k=r.K,
+        threshold=r.THRESHOLD,
+        probe_reps=probe_reps,
+    )
+
+
+def _complete_qualifications(r):
+    return {
+        name: _complete_qualification(r, name, family, slug)
+        for name, family, slug in r.CANDIDATES
+    }
+
+
+def _complete_raw_evidence(r, selection):
+    records = []
+    for name, family, slug in r.CANDIDATES:
+        for probe in r.PROBES:
+            for rep in range(r.K):
+                records.append(
+                    {
+                        "kind": "probe_rep",
+                        "judge": name,
+                        "family": family,
+                        "slug": slug,
+                        "probe": probe,
+                        "rep": rep,
+                    }
+                )
+        for unit in selection:
+            records.append(
+                {
+                    "kind": "shadow_verdict",
+                    "judge": name,
+                    "surface": unit["surface"],
+                    "item_id": unit["item_id"],
+                    "sut_slug": unit["sut_slug"],
+                    "response_sha256": unit["response_sha256"],
+                    "result": None,
+                    "error": "synthetic attempted evidence",
+                }
+            )
+    return records
+
+
 def test_exact_candidates_have_no_alias_or_fallback():
     r = _runner()
     assert r.resolve_candidates(_live_catalog(r)) == r.CANDIDATES
@@ -680,7 +767,47 @@ def test_exact_candidates_have_no_alias_or_fallback():
         r.resolve_candidates(aliases_only)
 
 
-@pytest.mark.parametrize("budget", [0, -0.01, 1.01])
+@pytest.mark.parametrize(
+    "field,value",
+    [
+        ("prompt", float("nan")),
+        ("completion", float("inf")),
+        ("prompt", -0.000001),
+    ],
+)
+def test_nonfinite_or_negative_catalog_price_stops_before_output_or_client(
+    field, value, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    catalog = _live_catalog(r)
+    catalog[r.CANDIDATES[0][2]]["pricing"][field] = value
+    client_calls = []
+
+    class ForbiddenClient:
+        def __init__(self, *args, **kwargs):
+            client_calls.append((args, kwargs))
+
+    with pytest.raises(r.PreflightError, match="finite and nonnegative"):
+        r.execute_live(
+            "secret",
+            out_dir=str(out_dir),
+            key_fetch=lambda _key: {
+                "usage": 1.0,
+                "limit": 10.0,
+                "limit_remaining": 9.0,
+            },
+            catalog_fetch=lambda _key: catalog,
+            client_builder=ForbiddenClient,
+        )
+    assert not out_dir.exists()
+    assert client_calls == []
+
+
+@pytest.mark.parametrize(
+    "budget",
+    [0, -0.01, 1.01, float("nan"), float("inf"), float("-inf")],
+)
 def test_shadow_budget_is_strictly_bounded(budget):
     r = _runner()
     with pytest.raises(r.PreflightError, match=r">\$0 and <=\$1\.00"):
@@ -689,6 +816,39 @@ def test_shadow_budget_is_strictly_bounded(budget):
 
 def test_one_dollar_shadow_budget_is_accepted():
     assert _runner().validate_options(1.0) is None
+
+
+@pytest.mark.parametrize(
+    "field,value",
+    [
+        ("usage", float("nan")),
+        ("limit_remaining", float("inf")),
+        ("limit", -1.0),
+    ],
+)
+def test_invalid_key_snapshot_stops_before_output_or_client(
+    field, value, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    snapshot = {"usage": 1.0, "limit": 10.0, "limit_remaining": 9.0}
+    snapshot[field] = value
+    later_calls = []
+
+    def forbidden(*args, **kwargs):
+        later_calls.append((args, kwargs))
+        raise AssertionError("must not be called")
+
+    with pytest.raises(r.PreflightError, match="key-before.*finite.*nonnegative"):
+        r.execute_live(
+            "secret",
+            out_dir=str(out_dir),
+            key_fetch=lambda _key: snapshot,
+            catalog_fetch=forbidden,
+            client_builder=forbidden,
+        )
+    assert not out_dir.exists()
+    assert later_calls == []
 
 
 def test_metadata_cannot_claim_complete_above_budget():
@@ -774,6 +934,155 @@ def test_timing_client_records_one_entry_per_underlying_attempt_and_proxies():
     ]
 
 
+def test_timing_and_raw_retry_attempts_share_stable_identity(tmp_path):
+    r = _runner()
+    raw_path = tmp_path / "raw.jsonl"
+    sink = r.TimingLinkedSink(str(raw_path))
+    sink.touch()
+
+    class RetryOnceClient:
+        def __init__(self):
+            self.max_tokens = 16
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+            self.attempt = 0
+
+        def complete(self, prompt, item_id=None):
+            self.attempt += 1
+            if self.attempt == 1:
+                raise OpenRouterError("transient")
+            self.usage_log.append(
+                {
+                    "usage": {
+                        "prompt_tokens": 1,
+                        "completion_tokens": 1,
+                        "total_tokens": 2,
+                        "cost": 0.001,
+                    }
+                }
+            )
+            return "ok"
+
+    inner = RetryOnceClient()
+    guard = r.BudgetGuard(1.0, _live_catalog(r))
+    guard.register(r.CANDIDATES[0][2], inner)
+    timed = r.TimingClient(
+        inner,
+        name=r.CANDIDATES[0][0],
+        slug=r.CANDIDATES[0][2],
+        sink=sink,
+        now=lambda: "2026-07-12T00:00:00",
+    )
+    client = r.StrictCapturingClient(
+        timed,
+        name=r.CANDIDATES[0][0],
+        family=r.CANDIDATES[0][1],
+        slug=r.CANDIDATES[0][2],
+        guard=guard,
+        sink=sink,
+        now=lambda: "2026-07-12T00:00:00",
+        sleeper=lambda _seconds: None,
+    )
+
+    assert client.complete("prompt", item_id="ITEM") == "ok"
+    records = [json.loads(line) for line in raw_path.read_text().splitlines()]
+    timings = [record for record in records if record["kind"] == "call_timing"]
+    raw_calls = [record for record in records if record["kind"] == "raw_call"]
+    assert len(timings) == len(raw_calls) == 2
+    assert {(x["judge"], x["timing_sequence"]) for x in timings} == {
+        (x["judge"], x["timing_sequence"]) for x in raw_calls
+    }
+    assert [(x["invocation"], x["attempt"]) for x in raw_calls] == [
+        (1, 0),
+        (1, 1),
+    ]
+    assert len({x["timing_sequence"] for x in timings}) == 2
+
+
+@pytest.mark.parametrize(
+    "usage",
+    [
+        {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2,
+            "cost": float("nan"),
+        },
+        {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2,
+            "cost": float("inf"),
+        },
+        {
+            "prompt_tokens": 1,
+            "completion_tokens": 1,
+            "total_tokens": 2,
+            "cost": -0.01,
+        },
+        {"prompt_tokens": float("nan"), "completion_tokens": 1},
+        {"prompt_tokens": 1, "completion_tokens": float("inf")},
+        {"prompt_tokens": 1, "completion_tokens": -1},
+        {"prompt_tokens": 1, "completion_tokens": 1, "total_tokens": -1},
+    ],
+)
+def test_invalid_response_usage_latches_accounting_and_persists_partial(
+    usage, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class InvalidUsageClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+        def complete(self, prompt, item_id=None):
+            self.usage_log.append({"usage": dict(usage)})
+            return "response"
+
+    def fake_qualify(client, **_kwargs):
+        client.complete("probe", item_id="PROBE")
+        return {}
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=InvalidUsageClient,
+        qualify_fn=fake_qualify,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    raw = [
+        json.loads(line)
+        for line in (out_dir / "raw_verdicts.jsonl").read_text().splitlines()
+    ]
+    raw_calls = [record for record in raw if record["kind"] == "raw_call"]
+    assert outcome.partial_reason
+    assert "accounting" in outcome.partial_reason
+    assert metadata["run_status"] == "PARTIAL"
+    assert math.isfinite(metadata["internal_total_usd"])
+    assert metadata["internal_total_usd"] >= 0
+    assert len(raw_calls) == 1
+    assert raw_calls[0]["error"]
+    assert raw_calls[0]["usage"]
+
+
 def test_selection_precedes_calls_latency_is_per_attempt_and_no_manifest(tmp_path):
     r = _runner()
     out_dir = tmp_path / "shadow"
@@ -844,7 +1153,7 @@ def test_selection_precedes_calls_latency_is_per_attempt_and_no_manifest(tmp_pat
     assert not any("manifest" in path.name.lower() for path in out_dir.iterdir())
     metadata = json.loads(expected_paths["metadata"].read_text())
     assert metadata["artifact_kind"] == "SHADOW / NOT A QUALIFICATION MANIFEST"
-    assert metadata["run_status"] == "COMPLETE"
+    assert metadata["run_status"] == "PARTIAL"
     assert metadata["candidates"] == [
         {
             "name": name,
@@ -859,14 +1168,21 @@ def test_selection_precedes_calls_latency_is_per_attempt_and_no_manifest(tmp_pat
     assert metadata["surface_counts"] == r.SURFACE_COUNTS
     assert metadata["budget_usd"] == 1.0
     assert metadata["internal_total_usd"] == 0.002
-    assert metadata["qualification_complete"] is True
+    assert metadata["qualification_complete"] is False
     assert metadata["shadow_verdicts_recorded"] == 0
     assert metadata["key_before"] == {"usage": 1.0, "limit_remaining": 9.0}
     assert metadata["key_after"] == {
         "usage": 1.002,
         "limit_remaining": 8.998,
     }
-    assert metadata["partial_reason"] is None
+    assert "evidence incomplete" in metadata["partial_reason"]
+    assert metadata["reconciliation"] == {
+        "status": "RECONCILED",
+        "internal_total_usd": 0.002,
+        "key_usage_delta_usd": pytest.approx(0.002),
+        "within_20_percent": True,
+        "unavailable_reason": None,
+    }
     assert "secret" not in expected_paths["metadata"].read_text()
     raw = [
         json.loads(line)
@@ -880,6 +1196,15 @@ def test_selection_precedes_calls_latency_is_per_attempt_and_no_manifest(tmp_pat
         for x in raw
         if x["kind"] == "call_timing"
     )
+    assert {
+        (x["judge"], x["timing_sequence"])
+        for x in raw
+        if x["kind"] == "call_timing"
+    } == {
+        (x["judge"], x["timing_sequence"])
+        for x in raw
+        if x["kind"] == "raw_call"
+    }
 
 
 def test_existing_output_path_stops_before_any_preflight_or_client(tmp_path):
@@ -1207,3 +1532,278 @@ def test_final_accounting_failure_persists_partial_artifacts(
     assert metadata["run_status"] == "PARTIAL"
     assert metadata["partial_reason"] == outcome.partial_reason
     assert "PARTIAL" in report
+
+
+def test_exact_persisted_evidence_is_complete():
+    r = _runner()
+    selection = _exact_selection(r)
+    qualifications = _complete_qualifications(r)
+    raw_records = _complete_raw_evidence(r, selection)
+
+    evidence = r.assess_evidence(selection, qualifications, raw_records)
+
+    assert evidence == {
+        "complete": True,
+        "selection_complete": True,
+        "qualification_complete": True,
+        "probe_coverage_complete": True,
+        "probe_reps_recorded": 96,
+        "verdict_coverage_complete": True,
+        "shadow_verdicts_recorded": 56,
+        "timing_pairs_complete": True,
+        "issues": [],
+    }
+
+
+def test_default_qualification_cannot_swallow_missing_usage_into_complete(
+    tmp_path,
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class MissingUsageScriptedClient:
+        underlying_calls = 0
+
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+        def complete(self, prompt, item_id=None):
+            type(self).underlying_calls += 1
+            return "scripted response without usage"
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=MissingUsageScriptedClient,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    assert MissingUsageScriptedClient.underlying_calls == 1
+    assert outcome.partial_reason
+    assert "accounting" in outcome.partial_reason
+    assert metadata["run_status"] == "PARTIAL"
+    assert metadata["probe_reps_recorded"] == 96
+    assert metadata["partial_reason"] == outcome.partial_reason
+
+
+def test_late_sink_failure_preserves_persisted_verdict_progress(
+    monkeypatch, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    original_write = r.JsonlSink.write
+    shadow_writes = {"count": 0}
+
+    def fail_fourth_shadow_write(self, record):
+        if record.get("kind") == "shadow_verdict":
+            shadow_writes["count"] += 1
+            if shadow_writes["count"] == 4:
+                raise RuntimeError("late shadow sink failure")
+        original_write(self, record)
+
+    monkeypatch.setattr(r.JsonlSink, "write", fail_fourth_shadow_write)
+
+    class NoCallClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+    def fake_qualify(_client, *, name, family, slug, **_kwargs):
+        return _complete_qualification(r, name, family, slug)
+
+    def late_failing_score(selection, *, sink, **_kwargs):
+        for unit in selection[:4]:
+            sink.write(
+                {
+                    "kind": "shadow_verdict",
+                    "judge": r.CANDIDATES[0][0],
+                    "surface": unit["surface"],
+                    "item_id": unit["item_id"],
+                    "sut_slug": unit["sut_slug"],
+                    "response_sha256": unit["response_sha256"],
+                    "result": None,
+                    "error": "synthetic",
+                }
+            )
+        return []
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=NoCallClient,
+        qualify_fn=fake_qualify,
+        selection_fn=lambda **_kwargs: _exact_selection(r),
+        score_fn=late_failing_score,
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    assert outcome.partial_reason
+    assert "late shadow sink failure" in outcome.partial_reason
+    assert len(outcome.verdicts) == 3
+    assert metadata["shadow_verdicts_recorded"] == 3
+    assert metadata["probe_reps_recorded"] == 96
+    assert metadata["run_status"] == "PARTIAL"
+
+
+@pytest.mark.parametrize("invalid_total", [float("nan"), float("inf"), -0.01])
+def test_invalid_internal_total_is_conservative_partial(
+    monkeypatch, invalid_total, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class InvalidTotalGuard(r.BudgetGuard):
+        def total_usd(self):
+            return invalid_total
+
+    class NoCallClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+
+    monkeypatch.setattr(r, "BudgetGuard", InvalidTotalGuard)
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=NoCallClient,
+        qualify_fn=lambda _client, **kwargs: {"name": kwargs["name"]},
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    assert outcome.internal_total_usd == 0.0
+    assert "internal total" in outcome.partial_reason
+    assert metadata["internal_total_usd"] == 0.0
+    assert metadata["run_status"] == "PARTIAL"
+
+
+@pytest.mark.parametrize(
+    "internal,before,after,expected_status,reason",
+    [
+        (0.0, {"usage": 1.0}, None, "UNRECONCILED", "unavailable"),
+        (
+            0.0,
+            {"usage": 1.0},
+            {"usage": float("nan")},
+            "UNRECONCILED",
+            "finite",
+        ),
+        (
+            0.0,
+            {"usage": 1.0},
+            {"usage": 0.5},
+            "UNRECONCILED",
+            "negative",
+        ),
+        (
+            0.5,
+            {"usage": 1.0},
+            {"usage": 2.1},
+            "UNRECONCILED",
+            "budget",
+        ),
+        (
+            0.001,
+            {"usage": 1.0},
+            {"usage": 1.01},
+            "UNRECONCILED",
+            "20%",
+        ),
+        (
+            0.002,
+            {"usage": 1.0},
+            {"usage": 1.002},
+            "RECONCILED",
+            None,
+        ),
+        (0.0, {"usage": 1.0}, {"usage": 1.0}, "RECONCILED", None),
+    ],
+)
+def test_key_reconciliation_status(
+    internal, before, after, expected_status, reason
+):
+    r = _runner()
+    result = r.build_reconciliation(
+        internal_total=internal,
+        key_before=before,
+        key_after=after,
+        budget=1.0,
+    )
+
+    assert result["status"] == expected_status
+    if reason is None:
+        assert result["within_20_percent"] is True
+        assert result["unavailable_reason"] is None
+    else:
+        assert reason in result["unavailable_reason"]
+
+
+def test_invalid_key_after_becomes_reconciliation_partial(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class NoCallClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": float("nan"), "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=NoCallClient,
+        qualify_fn=lambda _client, **kwargs: {"name": kwargs["name"]},
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    assert outcome.partial_reason
+    assert "key-after" in outcome.partial_reason
+    assert metadata["run_status"] == "PARTIAL"
+    assert metadata["reconciliation"]["status"] == "UNRECONCILED"

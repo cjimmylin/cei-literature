@@ -12,6 +12,7 @@ import math
 import os
 import re
 import sys
+from collections import Counter
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Sequence, Tuple
@@ -407,6 +408,49 @@ def _terminal_record(key: str, item_id: str, sut: str, exc: BaseException,
     }
 
 
+def normal_result_completeness_error(result: Any) -> Optional[str]:
+    """Return a truthful PPP-1 cell error when a routed normal result is incomplete."""
+    if result is None:
+        return "missing normal-path result"
+    kind = str(getattr(result, "kind", "")).lower()
+    if kind in {"ordinal", "anchor"}:
+        if not getattr(result, "scored", False):
+            return f"{kind.upper()} result is unparsed or mechanically unscored"
+        return None
+    if kind == "open":
+        raw = getattr(result, "judge_raw", None) or []
+        triaxial = getattr(result, "triaxial", None)
+        usable_judge = (
+            len(raw) == 1
+            and not raw[0].get("error")
+            and OPEN_AWARD in (raw[0].get("eligible_surfaces") or [])
+        )
+        if (not getattr(result, "scored", False)
+                or getattr(result, "fraction", None) is None
+                or triaxial is None or getattr(triaxial, "matter", None) is None
+                or not usable_judge):
+            return "OPEN result lacks one usable manifest-eligible Gemini verdict/headline"
+        return None
+    if kind == "contested":
+        raw = getattr(result, "judge_raw", None) or []
+        score = getattr(result, "contested_score", None)
+        required = {DISCLOSURE, COHERENCE, SETTLED_CORE}
+        usable_judge = (
+            len(raw) == 1
+            and not raw[0].get("error")
+            and required <= set(raw[0].get("eligible_surfaces") or [])
+        )
+        graded = getattr(score, "graded", {}) if score is not None else {}
+        if (score is None or not usable_judge
+                or not graded.get("disclosure") or not graded.get("coherence")
+                or getattr(score, "disclosure", None) is None
+                or getattr(score, "coherence", None) is None
+                or getattr(score, "settled_core_fraction", None) is None):
+            return "CONTESTED result lacks required single-Gemini graded preview surfaces"
+        return None
+    return f"unsupported normal-path result kind: {kind or 'missing'}"
+
+
 def run_normal_execution(items: Sequence[Any], suts: Sequence[str],
                          sut_clients: Dict[str, Any], panel: Any,
                          run_dir: str) -> PreviewRunOutcome:
@@ -441,13 +485,25 @@ def run_normal_execution(items: Sequence[Any], suts: Sequence[str],
                     }
                     outcome.errored += 1
                 else:
-                    record = {
-                        "cell_key": key, "item_id": item.id, "sut": sut,
-                        "status": "scored", "timestamp": _now(), "usage": usage,
-                        "scores": mvp._cell_scores(result) if result is not None else None,
-                        "judge_raw": getattr(result, "judge_raw", None),
-                    }
-                    outcome.completed += 1
+                    completeness_error = normal_result_completeness_error(result)
+                    if completeness_error:
+                        record = {
+                            "cell_key": key, "item_id": item.id, "sut": sut,
+                            "status": "error", "error": completeness_error,
+                            "timestamp": _now(), "usage": usage,
+                            "scores": (mvp._cell_scores(result)
+                                       if result is not None else None),
+                            "judge_raw": getattr(result, "judge_raw", None),
+                        }
+                        outcome.errored += 1
+                    else:
+                        record = {
+                            "cell_key": key, "item_id": item.id, "sut": sut,
+                            "status": "scored", "timestamp": _now(), "usage": usage,
+                            "scores": mvp._cell_scores(result),
+                            "judge_raw": getattr(result, "judge_raw", None),
+                        }
+                        outcome.completed += 1
             except (BudgetExceeded, AccountingError, EvidenceError) as exc:
                 usage = _usage_since(participants, before)
                 record = _terminal_record(key, item.id, sut, exc, usage)
@@ -568,6 +624,117 @@ def validate_resume_identity(run_dir: str, plan: PreviewPlan) -> None:
     for filename in (RAW_EVIDENCE_FILENAME, CHECKPOINT_FILENAME):
         if not os.path.isfile(os.path.join(run_dir, filename)):
             raise OutputPathError(f"--resume requires existing {filename}")
+    _validate_resume_surfaces(run_dir, plan, load_frozen_catalog())
+
+
+def _strict_checkpoint(run_dir: str, plan: PreviewPlan,
+                       catalog: Dict[str, Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], float]:
+    path = os.path.join(run_dir, CHECKPOINT_FILENAME)
+    expected = {
+        key: tuple(key.split("::", 1)) for key in plan.cell_keys
+    }
+    seen = set()
+    records: List[Dict[str, Any]] = []
+    try:
+        with open(path, encoding="utf-8") as handle:
+            for line_number, line in enumerate(handle, 1):
+                if not line.strip():
+                    raise OutputPathError(
+                        f"checkpoint line {line_number} is blank")
+                try:
+                    record = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    raise OutputPathError(
+                        f"checkpoint line {line_number} is malformed") from exc
+                if not isinstance(record, dict):
+                    raise OutputPathError(
+                        f"checkpoint line {line_number} is not an object")
+                key = record.get("cell_key")
+                if key in seen:
+                    raise OutputPathError(f"duplicate checkpoint key: {key}")
+                if key not in expected:
+                    raise OutputPathError(f"checkpoint key is foreign: {key}")
+                seen.add(key)
+                item_id, sut = expected[key]
+                if record.get("item_id") != item_id or record.get("sut") != sut:
+                    raise OutputPathError(
+                        f"checkpoint identity fields do not match key: {key}")
+                status = record.get("status")
+                if status not in {"scored", "error"}:
+                    raise OutputPathError(f"checkpoint status is invalid for {key}")
+                if status == "scored" and (record.get("error") or record.get("stop")):
+                    raise OutputPathError(f"checkpoint scored status is incoherent for {key}")
+                if status == "error" and not isinstance(record.get("error"), str):
+                    raise OutputPathError(f"checkpoint error status lacks a reason for {key}")
+                if record.get("stop") is not None:
+                    raise OutputPathError(
+                        "terminal checkpoint state requires owner disposition; refusing resume")
+                usage = record.get("usage")
+                calls = usage.get("calls") if isinstance(usage, dict) else None
+                if not isinstance(calls, list):
+                    raise OutputPathError(f"checkpoint usage is invalid for {key}")
+                for call in calls:
+                    if not isinstance(call, dict) or call.get("role") not in {"sut", "judge"}:
+                        raise OutputPathError(f"checkpoint call is invalid for {key}")
+                    model = call.get("model")
+                    allowed = set(PPP1_SUTS) if call.get("role") == "sut" else {PPP1_JUDGE}
+                    if model not in allowed or not isinstance(call.get("usage"), dict):
+                        raise OutputPathError(f"checkpoint call is foreign for {key}")
+                records.append(record)
+    except OSError as exc:
+        raise OutputPathError(f"checkpoint is unreadable: {path}") from exc
+    try:
+        cost = episode_run.checkpoint_attributed_cost(records, catalog)
+    except AccountingError as exc:
+        raise OutputPathError(f"checkpoint accounting is unreconcilable: {exc}") from exc
+    return records, cost
+
+
+def _strict_raw_ledger(run_dir: str, plan: PreviewPlan,
+                       catalog: Dict[str, Dict[str, Any]]) -> float:
+    path = os.path.join(run_dir, RAW_EVIDENCE_FILENAME)
+    expected_items = {
+        key.split("::", 1)[0] for key in plan.cell_keys
+    }
+    try:
+        with open(path, encoding="utf-8") as handle:
+            for line_number, line in enumerate(handle, 1):
+                if not line.strip():
+                    raise OutputPathError(f"raw ledger line {line_number} is blank")
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    raise OutputPathError(
+                        f"raw ledger line {line_number} is malformed") from exc
+                if not isinstance(row, dict) or row.get("kind") != "raw_emission":
+                    raise OutputPathError(
+                        f"raw ledger line {line_number} has an invalid kind")
+                role = row.get("role")
+                slug = row.get("slug")
+                allowed = set(PPP1_SUTS) if role == "sut" else {PPP1_JUDGE}
+                if (role not in {"sut", "judge"} or slug not in allowed
+                        or row.get("item_id") not in expected_items):
+                    raise OutputPathError(
+                        f"raw ledger line {line_number} is foreign to the PPP-1 identity")
+                if not isinstance(row.get("usage"), list):
+                    raise OutputPathError(
+                        f"raw ledger line {line_number} usage is invalid")
+    except OSError as exc:
+        raise OutputPathError(f"raw ledger is unreadable: {path}") from exc
+    try:
+        return episode_run.raw_evidence_accounting(run_dir, catalog)[0]
+    except AccountingError as exc:
+        raise OutputPathError(f"raw ledger accounting is unreconcilable: {exc}") from exc
+
+
+def _validate_resume_surfaces(run_dir: str, plan: PreviewPlan,
+                              catalog: Dict[str, Dict[str, Any]]) -> float:
+    _records, checkpoint_cost = _strict_checkpoint(run_dir, plan, catalog)
+    raw_cost = _strict_raw_ledger(run_dir, plan, catalog)
+    if not math.isclose(checkpoint_cost, raw_cost, rel_tol=1e-12, abs_tol=1e-12):
+        raise OutputPathError(
+            "checkpoint/raw paid-attempt accounting does not reconcile")
+    return raw_cost
 
 
 def next_artifact_path(run_dir: str, filename: str) -> str:
@@ -604,7 +771,8 @@ def _key_delta(before: Dict[str, Any], after: Optional[Dict[str, Any]]) -> Optio
 
 
 def build_report(outcome: PreviewRunOutcome, *, response_cost: Optional[float],
-                 actual_first_cost: float, key_delta: Optional[float]) -> str:
+                 actual_first_cost: float, key_delta: Optional[float],
+                 custody_reconciled: bool) -> str:
     status = "COMPLETE" if outcome.done else "PARTIAL"
     return "\n".join([
         "# WCF-Bench PPP-1 run",
@@ -620,9 +788,15 @@ def build_report(outcome: PreviewRunOutcome, *, response_cost: Optional[float],
         "## Cost",
         "",
         (f"- response-attributed cost: **${response_cost:.6f}**"
-         if response_cost is not None
-         else "- response-attributed cost: **unavailable (fallback accounting present)**"),
+         if response_cost is not None else
+         "- response-attributed cost: **unavailable (custody unreconciled)**"
+         if not custody_reconciled else
+         "- response-attributed cost: **unavailable (fallback accounting present)**"),
         f"- actual-first accounting total: **${actual_first_cost:.6f}**",
+        ("- evidence custody: **RECONCILED**"
+         if custody_reconciled
+         else "- evidence custody: **CUSTODY UNRECONCILED** — captured paid-call "
+              "accounting retained; response-attributed cost unavailable"),
         (f"- shared-key delta: **${key_delta:.6f}** (contextual only)"
          if key_delta is not None
          else "- shared-key delta: **unavailable** (contextual only)"),
@@ -645,6 +819,8 @@ def _run_live(plan: PreviewPlan, output_dir: str, *, resume: bool,
         if resume:
             run_dir = prepare_output_dir(absolute, resume=True)
             validate_resume_identity(run_dir, plan)
+            prior_cost = _validate_resume_surfaces(
+                run_dir, plan, load_frozen_catalog())
         else:
             if not re.match(r"^\d{8}-", os.path.basename(absolute)):
                 raise OutputPathError(
@@ -652,12 +828,11 @@ def _run_live(plan: PreviewPlan, output_dir: str, *, resume: bool,
             if os.path.exists(absolute):
                 raise OutputPathError(f"output directory already exists: {absolute}")
             run_dir = absolute
+            prior_cost = 0.0
 
         key_before = fetch_with_two_retries(key_fetch, api_key)
         catalog = fetch_with_two_retries(catalog_fetch, api_key)
         validate_preflight(key_before, catalog)
-        prior_cost = (episode_run.raw_evidence_accounting(run_dir, catalog)[0]
-                      if resume else 0.0)
         if prior_cost > MAX_BUDGET_USD:
             raise BudgetExceeded("resumed raw evidence already exceeds the PPP-1 cap")
         if not resume:
@@ -696,18 +871,61 @@ def _run_live(plan: PreviewPlan, output_dir: str, *, resume: bool,
         key_after = fetch_with_two_retries(key_fetch, api_key)
     except Exception:
         key_after = None
+    custody_reasons = []
     try:
-        actual_first, fallback_sources = episode_run.raw_evidence_accounting(
+        raw_total, fallback_sources = episode_run.raw_evidence_accounting(
             run_dir, catalog)
     except Exception as exc:
-        print(f"ERROR: raw accounting failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+        raw_total = None
+        fallback_sources = Counter()
+        custody_reasons.append(f"raw ledger: {type(exc).__name__}: {exc}")
+    try:
+        checkpoint_total = episode_run.checkpoint_attributed_cost(
+            outcome.records, catalog)
+    except Exception as exc:
+        checkpoint_total = None
+        custody_reasons.append(f"checkpoint: {type(exc).__name__}: {exc}")
+    try:
+        captured_total = prior_cost + guard.total_usd()
+    except Exception as exc:
+        captured_total = prior_cost
+        custody_reasons.append(f"guard: {type(exc).__name__}: {exc}")
+    known_totals = [
+        ("raw", raw_total), ("checkpoint", checkpoint_total),
+        ("guard", captured_total),
+    ]
+    present_totals = [
+        (name, float(total)) for name, total in known_totals if total is not None
+    ]
+    if (len(present_totals) > 1
+            and any(not math.isclose(
+                present_totals[0][1], value, rel_tol=1e-12, abs_tol=1e-12)
+                    for _name, value in present_totals[1:])):
+        custody_reasons.append(
+            "accounting mismatch: "
+            + ", ".join(f"{name}=${value:.12f}" for name, value in present_totals))
+    totals = [
+        float(total) for total in (raw_total, checkpoint_total, captured_total)
+        if total is not None and math.isfinite(float(total)) and float(total) >= 0
+    ]
+    if not totals:
+        print("ERROR: no valid actual-first accounting surface remains", file=sys.stderr)
         return 2
+    actual_first = max(totals)
+    custody_reconciled = (
+        not custody_reasons
+        and raw_total is not None and checkpoint_total is not None
+        and math.isclose(raw_total, checkpoint_total, rel_tol=1e-12, abs_tol=1e-12)
+        and math.isclose(raw_total, captured_total, rel_tol=1e-12, abs_tol=1e-12)
+    )
     fallback_count = sum(fallback_sources.values())
     key_usage_delta = _key_delta(key_before, key_after)
-    response_cost = None if fallback_count else actual_first
+    response_cost = (
+        actual_first if custody_reconciled and not fallback_count else None)
     report = build_report(
         outcome, response_cost=response_cost,
-        actual_first_cost=actual_first, key_delta=key_usage_delta)
+        actual_first_cost=actual_first, key_delta=key_usage_delta,
+        custody_reconciled=custody_reconciled)
     report_path = next_artifact_path(run_dir, REPORT_FILENAME)
     metadata_path = next_artifact_path(run_dir, METADATA_FILENAME)
     metadata = {
@@ -724,6 +942,8 @@ def _run_live(plan: PreviewPlan, output_dir: str, *, resume: bool,
         "actual_first_accounting_total_usd": actual_first,
         "accounting_fallback_count": fallback_count,
         "accounting_fallback_sources": dict(sorted(fallback_sources.items())),
+        "custody_reconciled": custody_reconciled,
+        "custody_reconciliation_notes": custody_reasons,
         "key_before": key_before,
         "key_after": key_after,
         "key_usage_delta_usd": key_usage_delta,

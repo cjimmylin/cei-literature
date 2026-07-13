@@ -17,6 +17,7 @@ import ppp1_run as runner  # noqa: E402
 from format_bridge_requal import (  # noqa: E402
     BudgetExceeded,
     BudgetGuard,
+    EvidenceError,
     JsonlSink,
     OutputPathError,
     PreflightError,
@@ -275,3 +276,210 @@ def test_resume_requires_same_identity_and_writes_numbered_report_metadata(tmp_p
     (out / "ppp1-run-identity.json").write_text(json.dumps(identity), encoding="utf-8")
     with pytest.raises(OutputPathError, match="identity"):
         runner.validate_resume_identity(str(out), plan)
+
+
+@pytest.mark.parametrize(
+    "result,reason",
+    [
+        (SimpleNamespace(kind="ordinal", scored=False), "ORDINAL"),
+        (SimpleNamespace(kind="anchor", scored=False), "ANCHOR"),
+        (SimpleNamespace(
+            kind="open", scored=False, fraction=None,
+            triaxial=SimpleNamespace(matter=None), judge_raw=[]), "OPEN"),
+        (SimpleNamespace(
+            kind="contested", contested_score=SimpleNamespace(
+                disclosure=None, coherence=None, settled_core_fraction=None,
+                graded={"disclosure": False, "coherence": False}),
+            judge_raw=[]), "CONTESTED"),
+    ],
+)
+def test_normal_result_completeness_rejects_unparsed_or_judge_lost_results(result, reason):
+    assert reason in runner.normal_result_completeness_error(result)
+
+
+def test_normal_result_completeness_accepts_required_mechanical_and_single_judge_results():
+    assert runner.normal_result_completeness_error(
+        SimpleNamespace(kind="ordinal", scored=True)) is None
+    assert runner.normal_result_completeness_error(SimpleNamespace(
+        kind="open", scored=True, fraction=0.5,
+        triaxial=SimpleNamespace(matter=0.5),
+        judge_raw=[{"name": "gemini-flash", "error": None,
+                    "eligible_surfaces": [OPEN_AWARD]}],
+    )) is None
+    assert runner.normal_result_completeness_error(SimpleNamespace(
+        kind="contested",
+        contested_score=SimpleNamespace(
+            disclosure=0.5, coherence=0.5, settled_core_fraction=1.0,
+            graded={"disclosure": True, "coherence": True}),
+        judge_raw=[{"name": "gemini-flash", "error": None,
+                    "eligible_surfaces": ["disclosure", "coherence", SETTLED_CORE]}],
+    )) is None
+
+
+def _resume_dir(tmp_path):
+    plan = runner.build_execution_plan()
+    out = tmp_path / "20260713-strict-resume"
+    out.mkdir()
+    (out / runner.RUN_IDENTITY_FILENAME).write_text(
+        json.dumps(runner.build_run_identity(plan)), encoding="utf-8")
+    (out / runner.RAW_EVIDENCE_FILENAME).touch()
+    (out / runner.CHECKPOINT_FILENAME).touch()
+    return plan, out
+
+
+@pytest.mark.parametrize("checkpoint", [
+    "{malformed\n",
+    json.dumps({"cell_key": "foreign::model", "item_id": "foreign",
+                "sut": "model", "status": "scored", "usage": {"calls": []}}) + "\n",
+    json.dumps({"cell_key": "x", "item_id": "x", "sut": "x",
+                "status": "unknown", "usage": {"calls": []}}) + "\n",
+])
+def test_resume_rejects_malformed_foreign_or_incoherent_checkpoint(tmp_path, checkpoint):
+    plan, out = _resume_dir(tmp_path)
+    (out / runner.CHECKPOINT_FILENAME).write_text(checkpoint, encoding="utf-8")
+
+    with pytest.raises(OutputPathError, match="checkpoint"):
+        runner.validate_resume_identity(str(out), plan)
+
+
+def test_resume_rejects_duplicate_keys_and_terminal_stop(tmp_path):
+    plan, out = _resume_dir(tmp_path)
+    key = plan.cell_keys[0]
+    item_id, sut = key.split("::", 1)
+    record = {"cell_key": key, "item_id": item_id, "sut": sut,
+              "status": "error", "error": "BudgetExceeded: stop",
+              "stop": {"class": "BudgetExceeded", "reason": "stop"},
+              "usage": {"calls": []}}
+    (out / runner.CHECKPOINT_FILENAME).write_text(
+        json.dumps(record) + "\n" + json.dumps(record) + "\n", encoding="utf-8")
+
+    with pytest.raises(OutputPathError, match="duplicate|terminal"):
+        runner.validate_resume_identity(str(out), plan)
+
+
+@pytest.mark.parametrize("raw", [
+    "{malformed\n",
+    json.dumps({"kind": "raw_emission", "role": "sut", "name": "foreign",
+                "slug": "foreign/model", "item_id": "foreign", "usage": []}) + "\n",
+    json.dumps({"kind": "wrong", "role": "sut", "slug": runner.PPP1_SUTS[0],
+                "item_id": "foreign", "usage": []}) + "\n",
+])
+def test_resume_rejects_malformed_or_foreign_raw_ledger(tmp_path, raw):
+    plan, out = _resume_dir(tmp_path)
+    (out / runner.RAW_EVIDENCE_FILENAME).write_text(raw, encoding="utf-8")
+
+    with pytest.raises(OutputPathError, match="raw"):
+        runner.validate_resume_identity(str(out), plan)
+
+
+def test_resume_reconciles_checkpoint_and_raw_paid_attempts(tmp_path):
+    plan, out = _resume_dir(tmp_path)
+    key = plan.cell_keys[0]
+    item_id, sut = key.split("::", 1)
+    usage = {"prompt_tokens": 2, "completion_tokens": 1,
+             "total_tokens": 3, "cost": 0.001}
+    call = {"role": "sut", "name": sut, "model": sut, "usage": usage}
+    checkpoint = {"cell_key": key, "item_id": item_id, "sut": sut,
+                  "status": "scored", "usage": {"calls": [call]}}
+    raw = {"kind": "raw_emission", "role": "sut", "name": sut, "slug": sut,
+           "item_id": item_id, "prompt": "p", "text": "r",
+           "usage": [{"model": sut, "usage": usage}], "error": None}
+    (out / runner.CHECKPOINT_FILENAME).write_text(
+        json.dumps(checkpoint) + "\n", encoding="utf-8")
+    (out / runner.RAW_EVIDENCE_FILENAME).write_text(
+        json.dumps(raw) + "\n", encoding="utf-8")
+
+    runner.validate_resume_identity(str(out), plan)
+
+    checkpoint["usage"]["calls"][0]["usage"]["cost"] = 0.002
+    (out / runner.CHECKPOINT_FILENAME).write_text(
+        json.dumps(checkpoint) + "\n", encoding="utf-8")
+    with pytest.raises(OutputPathError, match="reconcil"):
+        runner.validate_resume_identity(str(out), plan)
+
+
+def test_sink_failure_uses_captured_paid_cost_and_marks_custody_unreconciled(
+        monkeypatch, tmp_path):
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-only")
+    out = tmp_path / "20260713-sink-failure"
+
+    class Inner:
+        def __init__(self, model, max_tokens):
+            self.model = model
+            self.max_tokens = max_tokens
+            self.usage_log = []
+
+        def complete(self, _prompt, item_id=None):
+            self.usage_log.append({
+                "model": self.model,
+                "usage": {"prompt_tokens": 2, "completion_tokens": 1,
+                          "total_tokens": 3, "cost": 0.4},
+            })
+            return "paid response"
+
+    monkeypatch.setattr(runner.JsonlSink, "write",
+                        lambda *_args, **_kwargs: (_ for _ in ()).throw(OSError("disk lost")))
+
+    def execute(plan, sut_clients, _panel, run_dir):
+        key = plan.cell_keys[0]
+        item_id, sut = key.split("::", 1)
+        client = sut_clients[sut]
+        with pytest.raises(EvidenceError):
+            client.complete("prompt", item_id=item_id)
+        entry = client.usage_log[0]
+        record = {"cell_key": key, "item_id": item_id, "sut": sut,
+                  "status": "error", "error": "EvidenceError: disk lost",
+                  "stop": {"class": "EvidenceError", "reason": "disk lost"},
+                  "usage": {"calls": [{"role": "sut", "name": sut,
+                                         "model": sut, "usage": entry["usage"]}]}}
+        runner.mvp.append_checkpoint(run_dir, record)
+        return runner.PreviewRunOutcome(
+            expected_cells=678, records=[record],
+            errored=1, stop_reason=record["error"])
+
+    code = runner.main(
+        ["--go", "--output-dir", str(out)],
+        client_factory=lambda **kw: Inner(kw["model"], kw["max_tokens"]),
+        key_fetch=lambda _key: _auth(), catalog_fetch=lambda _key: _frozen_catalog(),
+        execute_fn=execute)
+
+    assert code == 1
+    metadata = json.loads((out / runner.METADATA_FILENAME).read_text())
+    assert metadata["actual_first_accounting_total_usd"] == pytest.approx(0.4)
+    assert metadata["response_attributed_cost_usd"] is None
+    assert metadata["custody_reconciled"] is False
+    assert any("mismatch" in note for note in metadata["custody_reconciliation_notes"])
+    report = (out / runner.REPORT_FILENAME).read_text()
+    assert "CUSTODY UNRECONCILED" in report
+    assert "fallback accounting present" not in report
+
+
+def test_real_guard_blocks_boundary_crossing_reservation_before_inner_call(tmp_path):
+    class CountingInner:
+        model = "vendor/model"
+        max_tokens = 6
+
+        def __init__(self):
+            self.calls = 0
+            self.usage_log = []
+
+        def complete(self, *_args, **_kwargs):
+            self.calls += 1
+            raise AssertionError("reservation should block before inference")
+
+    catalog = {"vendor/model": {"pricing": {"prompt": "0", "completion": "0.1"}}}
+    sink = JsonlSink(str(tmp_path / "raw.jsonl"))
+    sink.touch()
+    guard = BudgetGuard(1.0, catalog)
+    inner = CountingInner()
+    client = runner.EvidenceClient(
+        inner, role="sut", name="vendor/model", slug="vendor/model",
+        guard=guard, sink=sink)
+    client._accounting_log.append({
+        "model": "vendor/model", "usage": {"cost": 0.5}})
+
+    with pytest.raises(BudgetExceeded, match="next-call ceiling"):
+        client.complete("prompt", item_id="item")
+
+    assert inner.calls == 0
+    assert (tmp_path / "raw.jsonl").read_text() == ""

@@ -631,3 +631,393 @@ def test_run_shadow_units_canonicalizes_nested_open_keys(monkeypatch, tmp_path):
         record["result"]["compliance_defects"] == {"2": "reasonless"}
         for record in records
     )
+
+
+def _live_catalog(r):
+    return {
+        slug: {
+            "pricing": {
+                "prompt": "0.000001",
+                "completion": "0.000001",
+            }
+        }
+        for _name, _family, slug in r.CANDIDATES
+    }
+
+
+def _live_selection():
+    return [
+        {
+            "surface": "coherence",
+            "item_id": "WCF-001",
+            "sut_slug": "synthetic/sut",
+            "sut_response": "synthetic response",
+            "response_sha256": "synthetic-hash",
+            "axis": "end",
+            "comparators": {},
+        }
+    ]
+
+
+def test_exact_candidates_have_no_alias_or_fallback():
+    r = _runner()
+    assert r.resolve_candidates(_live_catalog(r)) == r.CANDIDATES
+
+    missing_price = _live_catalog(r)
+    missing_price[r.CANDIDATES[0][2]] = {"pricing": {}}
+    with pytest.raises(r.mvp.PricingError):
+        r.resolve_candidates(missing_price)
+
+    aliases_only = {
+        "z-ai/glm-4.5-air": {
+            "pricing": {"prompt": "0.000001", "completion": "0.000001"}
+        },
+        "deepseek/deepseek-chat": {
+            "pricing": {"prompt": "0.000001", "completion": "0.000001"}
+        },
+    }
+    with pytest.raises(r.mvp.SlugValidationError):
+        r.resolve_candidates(aliases_only)
+
+
+@pytest.mark.parametrize("budget", [0, -0.01, 1.01])
+def test_shadow_budget_is_strictly_bounded(budget):
+    r = _runner()
+    with pytest.raises(r.PreflightError, match=r">\$0 and <=\$1\.00"):
+        r.validate_options(budget)
+
+
+def test_one_dollar_shadow_budget_is_accepted():
+    assert _runner().validate_options(1.0) is None
+
+
+def test_timing_client_records_one_entry_per_underlying_attempt_and_proxies():
+    r = _runner()
+
+    class Sink:
+        def __init__(self):
+            self.records = []
+
+        def write(self, record):
+            self.records.append(record)
+
+    class Inner:
+        def __init__(self):
+            self.usage_log = [{"usage": {"cost": 0.001}}]
+            self.max_tokens = 2048
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+            self.fail = False
+
+        def complete(self, prompt, item_id=None):
+            if self.fail:
+                raise RuntimeError(f"failed {item_id}")
+            return f"answer:{prompt}:{item_id}"
+
+    sink = Sink()
+    inner = Inner()
+    ticks = iter([10.0, 10.25, 20.0, 19.0])
+    client = r.TimingClient(
+        inner,
+        name="glm-5.2",
+        slug="z-ai/glm-5.2",
+        sink=sink,
+        now=lambda: "2026-07-12T12:00:00",
+        clock=lambda: next(ticks),
+    )
+
+    assert client.usage_log is inner.usage_log
+    assert client.max_tokens == 2048
+    assert client.last_finish_reason == "stop"
+    assert client.last_truncated is False
+    assert client.complete("first", item_id="I1") == "answer:first:I1"
+    inner.fail = True
+    with pytest.raises(RuntimeError, match="failed I2"):
+        client.complete("second", item_id="I2")
+
+    assert sink.records == [
+        {
+            "kind": "call_timing",
+            "timestamp": "2026-07-12T12:00:00",
+            "judge": "glm-5.2",
+            "slug": "z-ai/glm-5.2",
+            "item_id": "I1",
+            "elapsed_seconds": 0.25,
+            "error": None,
+        },
+        {
+            "kind": "call_timing",
+            "timestamp": "2026-07-12T12:00:00",
+            "judge": "glm-5.2",
+            "slug": "z-ai/glm-5.2",
+            "item_id": "I2",
+            "elapsed_seconds": 0.0,
+            "error": "RuntimeError: failed I2",
+        },
+    ]
+
+
+def test_selection_precedes_calls_latency_is_per_attempt_and_no_manifest(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    first_call_saw_selection = []
+
+    class FakeClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+        def complete(self, prompt, item_id=None):
+            first_call_saw_selection.append(
+                (out_dir / "selection.json").exists()
+            )
+            self.usage_log.append(
+                {
+                    "usage": {
+                        "prompt_tokens": 1,
+                        "completion_tokens": 1,
+                        "cost": 0.001,
+                    }
+                }
+            )
+            return "SCORE: 1.0"
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.002, "limit_remaining": 8.998},
+        ]
+    )
+
+    def fake_qualify(client, *, name, family, slug, k, threshold):
+        client.complete("probe", item_id="PROBE")
+        return {"name": name, "slug": slug}
+
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        budget=1.0,
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=FakeClient,
+        qualify_fn=fake_qualify,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    expected_paths = {
+        "selection": out_dir / "selection.json",
+        "raw": out_dir / "raw_verdicts.jsonl",
+        "metadata": out_dir / "shadow-run-metadata.json",
+        "report": out_dir / "20260712-shadow-judge-bakeoff-report.md",
+    }
+    assert set(outcome.paths) == set(expected_paths)
+    assert all(path.exists() for path in expected_paths.values())
+    assert first_call_saw_selection and all(first_call_saw_selection)
+    selection = json.loads(expected_paths["selection"].read_text())
+    assert selection == {
+        "seed": r.SEED,
+        "surface_counts": r.SURFACE_COUNTS,
+        "units": _live_selection(),
+    }
+    assert not any("manifest" in path.name.lower() for path in out_dir.iterdir())
+    metadata = json.loads(expected_paths["metadata"].read_text())
+    assert metadata["artifact_kind"] == "SHADOW / NOT A QUALIFICATION MANIFEST"
+    assert metadata["run_status"] == "COMPLETE"
+    assert metadata["candidates"] == [
+        {
+            "name": name,
+            "family": family,
+            "slug": slug,
+            "pricing": _live_catalog(r)[slug]["pricing"],
+        }
+        for name, family, slug in r.CANDIDATES
+    ]
+    assert metadata["k"] == r.K
+    assert metadata["threshold"] == r.THRESHOLD
+    assert metadata["surface_counts"] == r.SURFACE_COUNTS
+    assert metadata["budget_usd"] == 1.0
+    assert metadata["internal_total_usd"] == 0.002
+    assert metadata["qualification_complete"] is True
+    assert metadata["shadow_verdicts_recorded"] == 0
+    assert metadata["key_before"] == {"usage": 1.0, "limit_remaining": 9.0}
+    assert metadata["key_after"] == {
+        "usage": 1.002,
+        "limit_remaining": 8.998,
+    }
+    assert metadata["partial_reason"] is None
+    assert "secret" not in expected_paths["metadata"].read_text()
+    raw = [
+        json.loads(line)
+        for line in expected_paths["raw"].read_text().splitlines()
+    ]
+    assert sum(x["kind"] == "call_timing" for x in raw) == sum(
+        x["kind"] == "raw_call" for x in raw
+    )
+    assert all(
+        x["elapsed_seconds"] >= 0
+        for x in raw
+        if x["kind"] == "call_timing"
+    )
+
+
+def test_existing_output_path_stops_before_any_preflight_or_client(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "existing"
+    out_dir.mkdir()
+    calls = []
+
+    def forbidden(*args, **kwargs):
+        calls.append((args, kwargs))
+        raise AssertionError("must not be called")
+
+    with pytest.raises(r.OutputPathError, match="already exists"):
+        r.execute_live(
+            "secret",
+            out_dir=str(out_dir),
+            key_fetch=forbidden,
+            catalog_fetch=forbidden,
+            client_builder=forbidden,
+        )
+    assert calls == []
+
+
+def test_low_key_credit_stops_before_output_catalog_or_client(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    later_calls = []
+
+    def forbidden(*args, **kwargs):
+        later_calls.append((args, kwargs))
+        raise AssertionError("must not be called")
+
+    with pytest.raises(r.PreflightError, match=r"below \$1.00 budget"):
+        r.execute_live(
+            "secret",
+            out_dir=str(out_dir),
+            budget=1.0,
+            key_fetch=lambda _key: {"usage": 9.5, "limit_remaining": 0.5},
+            catalog_fetch=forbidden,
+            client_builder=forbidden,
+        )
+    assert not out_dir.exists()
+    assert later_calls == []
+
+
+def test_missing_exact_slug_stops_before_output_or_client(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    client_calls = []
+
+    class ForbiddenClient:
+        def __init__(self, *args, **kwargs):
+            client_calls.append((args, kwargs))
+
+    with pytest.raises(r.mvp.SlugValidationError):
+        r.execute_live(
+            "secret",
+            out_dir=str(out_dir),
+            key_fetch=lambda _key: {"usage": 1.0, "limit_remaining": 9.0},
+            catalog_fetch=lambda _key: {
+                "z-ai/glm-4.5-air": {},
+                "deepseek/deepseek-chat": {},
+            },
+            client_builder=ForbiddenClient,
+        )
+    assert not out_dir.exists()
+    assert client_calls == []
+
+
+def test_template_mismatch_stops_before_output_or_client(monkeypatch, tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    client_calls = []
+    monkeypatch.setattr(r, "load_manifest", lambda _path: {"template_hashes": {}})
+
+    class ForbiddenClient:
+        def __init__(self, *args, **kwargs):
+            client_calls.append((args, kwargs))
+
+    with pytest.raises(r.PreflightError, match="template hash"):
+        r.execute_live(
+            "secret",
+            out_dir=str(out_dir),
+            key_fetch=lambda _key: {"usage": 1.0, "limit_remaining": 9.0},
+            catalog_fetch=lambda _key: _live_catalog(r),
+            client_builder=ForbiddenClient,
+        )
+    assert not out_dir.exists()
+    assert client_calls == []
+
+
+@pytest.mark.parametrize("failure_mode", ["missing_usage", "budget_stop"])
+def test_live_call_failure_persists_partial_immutable_artifacts(
+    failure_mode, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class FailingClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+        def complete(self, prompt, item_id=None):
+            if failure_mode == "budget_stop":
+                self.usage_log.append(
+                    {
+                        "usage": {
+                            "prompt_tokens": 1,
+                            "completion_tokens": 1,
+                            "cost": 2.0,
+                        }
+                    }
+                )
+            return "SCORE: 1.0"
+
+    def fake_qualify(client, *, name, family, slug, k, threshold):
+        client.complete("probe", item_id=f"PROBE-{name}")
+        return {"name": name}
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.0, "limit_remaining": 9.0},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        budget=1.0,
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=FailingClient,
+        qualify_fn=fake_qualify,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    assert outcome.partial_reason
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    report = (out_dir / "20260712-shadow-judge-bakeoff-report.md").read_text()
+    assert metadata["partial_reason"] == outcome.partial_reason
+    assert metadata["run_status"] == "PARTIAL"
+    assert metadata["qualification_complete"] is False
+    assert "PARTIAL" in report
+    assert outcome.partial_reason in report
+    assert not any("manifest" in path.name.lower() for path in out_dir.iterdir())
+
+    with pytest.raises(r.OutputPathError):
+        r.execute_live(
+            "secret",
+            out_dir=str(out_dir),
+            key_fetch=lambda _key: pytest.fail("must fail before key fetch"),
+        )

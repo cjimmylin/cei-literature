@@ -201,6 +201,70 @@ def write_json_new(path, value):
         json.dump(value, fh, indent=2, sort_keys=True)
 
 
+def write_text_new(path, text):
+    with open(path, "x", encoding="utf-8") as fh:
+        fh.write(text)
+
+
+def resolve_candidates(catalog):
+    slugs = [slug for _name, _family, slug in CANDIDATES]
+    mvp.validate_slugs(slugs, catalog)
+    for slug in slugs:
+        mvp.price_for(slug, catalog)
+    return CANDIDATES
+
+
+def validate_options(budget):
+    if budget <= 0 or budget > MAX_BUDGET:
+        raise PreflightError(
+            f"shadow budget must be >$0 and <=${MAX_BUDGET:.2f}; "
+            f"received ${budget:.2f}"
+        )
+
+
+class TimingClient:
+    def __init__(
+        self,
+        inner,
+        *,
+        name,
+        slug,
+        sink,
+        now,
+        clock=time.perf_counter,
+    ):
+        self.inner = inner
+        self.name = name
+        self.slug = slug
+        self.sink = sink
+        self.now = now
+        self.clock = clock
+
+    def __getattr__(self, name):
+        return getattr(self.inner, name)
+
+    def complete(self, prompt, item_id=None):
+        started = self.clock()
+        error = None
+        try:
+            return self.inner.complete(prompt, item_id=item_id)
+        except Exception as exc:
+            error = f"{type(exc).__name__}: {exc}"
+            raise
+        finally:
+            self.sink.write(
+                {
+                    "kind": "call_timing",
+                    "timestamp": self.now(),
+                    "judge": self.name,
+                    "slug": self.slug,
+                    "item_id": item_id,
+                    "elapsed_seconds": max(0.0, self.clock() - started),
+                    "error": error,
+                }
+            )
+
+
 def persist_probe_reps(sink, qualification, now):
     for probe in PROBES:
         for rep in qualification.probe_reps[probe].reps:
@@ -389,3 +453,196 @@ def run_shadow_units(
             sink.write(record)
             records.append(record)
     return records
+
+
+@dataclass
+class ShadowOutcome:
+    paths: Dict[str, str]
+    qualifications: Dict[str, Any]
+    verdicts: List[Dict[str, Any]]
+    internal_total_usd: float
+    partial_reason: Optional[str]
+
+
+def build_metadata(
+    *,
+    catalog,
+    budget,
+    internal_total,
+    partial_reason,
+    qualifications,
+    verdicts,
+    key_before,
+    key_after,
+):
+    return {
+        "artifact_kind": "SHADOW / NOT A QUALIFICATION MANIFEST",
+        "run_status": "PARTIAL" if partial_reason else "COMPLETE",
+        "candidates": [
+            {
+                "name": name,
+                "family": family,
+                "slug": slug,
+                "pricing": catalog[slug].get("pricing", {}),
+            }
+            for name, family, slug in CANDIDATES
+        ],
+        "k": K,
+        "threshold": THRESHOLD,
+        "surface_counts": SURFACE_COUNTS,
+        "budget_usd": budget,
+        "internal_total_usd": internal_total,
+        "partial_reason": partial_reason,
+        "qualification_complete": len(qualifications) == len(CANDIDATES),
+        "shadow_verdicts_recorded": len(verdicts),
+        "key_before": key_before,
+        "key_after": key_after,
+    }
+
+
+def build_report(metadata, qualifications, verdicts, selection):
+    status = metadata["run_status"]
+    return "\n".join(
+        [
+            "# WCF-Bench — Shadow Judge Bakeoff",
+            "",
+            "**SHADOW / NOT A QUALIFICATION MANIFEST**",
+            "",
+            f"Run status: **{status}**",
+            "",
+            f"partial_reason: {metadata.get('partial_reason')}",
+            "",
+        ]
+    )
+
+
+def execute_live(
+    api_key,
+    *,
+    out_dir=RUN_DIR,
+    budget=MAX_BUDGET,
+    key_fetch=mvp.fetch_key_snapshot,
+    catalog_fetch=mvp.fetch_model_catalog,
+    client_builder=OpenRouterModelClient,
+    qualify_fn=qualify_judge,
+    selection_fn=build_selection,
+    score_fn=run_shadow_units,
+    now=lambda: datetime.datetime.now().isoformat(timespec="seconds"),
+):
+    validate_options(budget)
+    if os.path.exists(out_dir):
+        raise OutputPathError(
+            f"append-only output path already exists: {out_dir}"
+        )
+
+    key_before = fetch_with_two_retries(key_fetch, api_key)
+    require_preflight(key_before, budget)
+    catalog = fetch_with_two_retries(catalog_fetch, api_key)
+    resolve_candidates(catalog)
+    assert_template_hashes(load_manifest(MANIFEST_PATH))
+    selection = selection_fn(
+        open_path=OPEN_PATH,
+        floor_path=FLOOR_PATH,
+        r33_path=R33_PATH,
+        bank_dir=BANK_DIR,
+    )
+
+    os.makedirs(out_dir, exist_ok=False)
+    selection_path = os.path.join(out_dir, "selection.json")
+    raw_path = os.path.join(out_dir, "raw_verdicts.jsonl")
+    metadata_path = os.path.join(out_dir, "shadow-run-metadata.json")
+    report_path = os.path.join(
+        out_dir, "20260712-shadow-judge-bakeoff-report.md"
+    )
+    write_json_new(
+        selection_path,
+        {
+            "seed": SEED,
+            "surface_counts": SURFACE_COUNTS,
+            "units": selection,
+        },
+    )
+    sink = JsonlSink(raw_path)
+    sink.touch()
+    guard = BudgetGuard(budget, catalog)
+    clients = {}
+    qualifications = {}
+    verdicts = []
+    partial_reason = None
+
+    try:
+        for name, family, slug in CANDIDATES:
+            inner = client_builder(
+                model=slug,
+                api_key=api_key,
+                temperature=0.0,
+                max_tokens=JUDGE_MAX_TOKENS,
+            )
+            guard.register(slug, inner)
+            timed = TimingClient(
+                inner,
+                name=name,
+                slug=slug,
+                sink=sink,
+                now=now,
+            )
+            clients[name] = CapturingClient(
+                timed,
+                name=name,
+                family=family,
+                slug=slug,
+                guard=guard,
+                sink=sink,
+                now=now,
+            )
+
+        qualifications = run_shadow_batteries(
+            client_factory=lambda name, _family, _slug: clients[name],
+            qualify_fn=qualify_fn,
+            sink=sink,
+            now=now,
+        )
+        items = {item.id: item for item in load_items(BANK_DIR)}
+        verdicts = score_fn(
+            selection,
+            clients=clients,
+            items=items,
+            sink=sink,
+            now=now,
+        )
+    except Exception as exc:
+        partial_reason = f"{type(exc).__name__}: {exc}"
+
+    internal = guard.total_usd()
+    try:
+        key_after = fetch_with_two_retries(key_fetch, api_key)
+    except Exception:
+        key_after = None
+    metadata = build_metadata(
+        catalog=catalog,
+        budget=budget,
+        internal_total=internal,
+        partial_reason=partial_reason,
+        qualifications=qualifications,
+        verdicts=verdicts,
+        key_before=key_before,
+        key_after=key_after,
+    )
+    write_json_new(metadata_path, metadata)
+    write_text_new(
+        report_path,
+        build_report(metadata, qualifications, verdicts, selection),
+    )
+    paths = {
+        "selection": selection_path,
+        "raw": raw_path,
+        "metadata": metadata_path,
+        "report": report_path,
+    }
+    return ShadowOutcome(
+        paths,
+        qualifications,
+        verdicts,
+        internal,
+        partial_reason,
+    )

@@ -178,7 +178,7 @@ _CREDENTIAL_PHRASE = re.compile(
     r"api[-_./\s]*(?:key|token)|access[-_./\s]*token|"
     r"refresh[-_./\s]*token|auth[-_./\s]*token|"
     r"bearer[-_./\s]*token|session[-_./\s]*cookie)"
-    r"[ \t]+is[ \t]+[^\s,;]{6,}"
+    r"[ \t]+is[ \t]+(?P<candidate>[^\s,;]+)"
 )
 _SENSITIVE_VALUE_LABELS = frozenset(
     {
@@ -257,6 +257,28 @@ def _opaque_identifier_is_forbidden(value: str) -> bool:
     return any(f"_{label}_" in padded for label in labels)
 
 
+def _credential_phrase_is_forbidden(value: str) -> bool:
+    for match in _CREDENTIAL_PHRASE.finditer(value):
+        candidate = match.group("candidate")
+        if len(candidate) < 6:
+            continue
+        has_letter = any(character.isalpha() for character in candidate)
+        has_digit = any(character.isdigit() for character in candidate)
+        punctuation_count = sum(
+            not character.isalnum() for character in candidate
+        )
+        mixed_case = any(character.islower() for character in candidate) and any(
+            character.isupper() for character in candidate
+        )
+        if (
+            has_letter and has_digit
+            or has_letter and punctuation_count >= 2
+            or len(candidate) >= 16 and mixed_case
+        ):
+            return True
+    return False
+
+
 def _value_is_forbidden(value: str) -> bool:
     normalized, _ = _normalized_policy_text(value)
     return (
@@ -265,7 +287,7 @@ def _value_is_forbidden(value: str) -> bool:
         or bool(_ENV_ASSIGNMENT.search(value))
         or bool(_SENSITIVE_ASSIGNMENT.search(value))
         or bool(_PRIVATE_ID_MARKER.search(value))
-        or bool(_CREDENTIAL_PHRASE.search(value))
+        or _credential_phrase_is_forbidden(value)
     )
 
 

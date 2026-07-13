@@ -2239,6 +2239,10 @@ def test_actor_and_judge_allow_legitimate_compound_keys(
         "This is a private matter",
         "The canary recovered",
         "keep this secret until launch",
+        "api token is invalid, retry later",
+        "password is incorrect",
+        "session cookie is expired",
+        "credential is missing",
     ],
 )
 def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
@@ -2305,6 +2309,11 @@ def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
         "passwd is abcdef123456",
         "bearer token is abcdef123456",
         "api token is abcdef123456",
+        "password is hunter2",
+        "credential is Abc!123xyz",
+        "password is p@ssword!",
+        "session cookie is QWxhZGRpbjpPcGVuU2VzYW1l",
+        "api token is sk-example123456789",
     ],
 )
 def test_actor_payload_rejects_sensitive_value_shapes(sensitive: str) -> None:

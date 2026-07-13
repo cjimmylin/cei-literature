@@ -88,11 +88,8 @@ preimage. No push is authorized or performed.
 
 ## 6. Known issues and next action
 
-No reconciliation escalation remains. The surviving gates are intentional: T3 needs a
-separate explicit task-specific roster, budget, and cap authorization; T4 needs its own
-budget/cap authorization; G6/G4 still gate release; Task 6 remains deferred; and paper P3
-waits for T4 plus R67.4.
+No reconciliation escalation remains. T3 and T4 remain unauthorized until Jimmy supplies separate task-specific written roster, budget, and cap authorization. G6/G4 labels gate
+release, not T4 execution; Task 6 remains deferred; and paper P3 waits for T4 plus R67.4.
 
-Next action is **state load only** unless Jimmy supplies either a separate explicit
-production ruling or task-specific T3/T4 roster, budget, and cap authorization. Do not
-infer or manufacture executor work.
+Next action is **state load only** unless Jimmy supplies a separate explicit production
+ruling. T3 and T4 remain unauthorized until Jimmy supplies separate task-specific written roster, budget, and cap authorization. Do not infer or manufacture executor work.

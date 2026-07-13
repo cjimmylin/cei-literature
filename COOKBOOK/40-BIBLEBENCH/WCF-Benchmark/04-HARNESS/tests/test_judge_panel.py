@@ -550,6 +550,7 @@ def test_score_episode_even_one_one_split_is_ungraded_and_escalated():
     }
     assert verdict.score is None
     assert verdict.escalation is True
+    assert verdict.error is None
     assert verdict.escalated_keypoints == [
         "protects the first duty", "protects the weighted duty"]
 

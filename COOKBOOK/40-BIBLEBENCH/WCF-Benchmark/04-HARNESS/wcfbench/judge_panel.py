@@ -582,6 +582,13 @@ class JudgePanel:
             numerator = sum(
                 kp.points for kp in graded if aggregate[kp.criterion] is True)
             score = numerator / denominator
+        parseable_votes = sum(len(judge["verdicts"]) for judge in per_judge)
+        if successful_emissions == 0:
+            error = f"all EPISODE judges lost for {item.id}"
+        elif parseable_votes == 0:
+            error = f"zero parseable EPISODE judge votes for {item.id}"
+        else:
+            error = None
         return EpisodeVerdict(
             score=score,
             per_keypoint=aggregate,
@@ -589,6 +596,5 @@ class JudgePanel:
             judges_used=used,
             escalation=bool(escalated),
             escalated_keypoints=escalated,
-            error=(f"all EPISODE judges lost for {item.id}"
-                   if successful_emissions == 0 else None),
+            error=error,
         )

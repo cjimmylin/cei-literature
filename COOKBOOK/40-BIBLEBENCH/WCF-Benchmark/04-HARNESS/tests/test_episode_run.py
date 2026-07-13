@@ -226,6 +226,27 @@ def test_per_cell_error_survives_and_later_cell_still_scores(tmp_path):
     assert "upstream unavailable" in outcome.records[0]["error"]
 
 
+def test_zero_parseable_judge_emissions_are_checkpointed_as_cell_error(tmp_path):
+    cell = _planned_cell("NARROW-C1-W301")
+    judge_clients = {
+        EXPECTED_JUDGES[0][2]: OneShotSUT("1: correct\n2: wrong"),
+        EXPECTED_JUDGES[1][2]: OneShotSUT("wholly unparseable judge emission"),
+    }
+    panel = episode_run.build_episode_panel(judge_clients)
+
+    outcome = episode_run.run_execution(
+        [cell], {cell.sut: OneShotSUT("no action array")}, panel,
+        str(tmp_path), sleeper=lambda _seconds: None)
+
+    record = outcome.records[0]
+    assert outcome.errored == 1 and outcome.completed == 0
+    assert record["status"] == "error"
+    assert record["error"] == (
+        f"zero parseable EPISODE judge votes for {cell.item.id}")
+    assert [row["verdict_text"] for row in record["judge"]["per_judge"]] == [
+        "1: correct\n2: wrong", "wholly unparseable judge emission"]
+
+
 def test_post_emission_processing_error_checkpoints_authoritative_sut_cost(tmp_path):
     cell = _planned_cell("NARROW-C6-W204")
     raw_path = tmp_path / "raw-evidence.jsonl"
@@ -1013,6 +1034,95 @@ def test_resume_requires_t3_raw_evidence_surface_before_preflight(
     assert "raw-evidence" in capsys.readouterr().err.lower()
 
 
+class NeverCalledLiveClient:
+    instances = []
+
+    def __init__(self, model, **kwargs):
+        self.model = model
+        self.max_tokens = kwargs["max_tokens"]
+        self.usage_log = []
+        self.last_finish_reason = None
+        self.last_truncated = False
+        self.calls = 0
+        self.instances.append(self)
+
+    def complete(self, _prompt, item_id=None):
+        self.calls += 1
+        raise AssertionError("crash-restored cost must block this paid call")
+
+
+def _write_crash_resume_surface(output, plan, raw_text):
+    output.mkdir()
+    (output / "t3-run-identity.json").write_text(
+        json.dumps(episode_run.build_run_identity(plan)))
+    (output / "raw-evidence.jsonl").write_text(raw_text)
+
+
+def test_resume_uses_orphaned_raw_emission_for_budget_and_final_total(
+        tmp_path, monkeypatch):
+    output = tmp_path / "20260713-crash-resume"
+    plan = episode_run.build_execution_plan()[:1]
+    cell = plan[0]
+    monkeypatch.setattr(episode_run, "MAX_BUDGET_USD", 1.0)
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-key-never-sent")
+    raw_row = {
+        "timestamp": "2026-07-13T00:00:00", "kind": "raw_emission",
+        "role": "sut", "name": cell.sut, "slug": cell.sut,
+        "item_id": cell.item.id, "prompt": cell.item.stem,
+        "text": "persisted paid response before crash", "finish_reason": "stop",
+        "truncated": False, "error": None,
+        "usage": [{
+            "item_id": cell.item.id, "model": cell.sut,
+            "usage": {"prompt_tokens": 10, "completion_tokens": 5,
+                      "total_tokens": 15, "cost": 0.25},
+            "finish_reason": "stop",
+        }],
+    }
+    _write_crash_resume_surface(output, plan, json.dumps(raw_row) + "\n")
+    catalog = {
+        slug: {"pricing": {"prompt": "0.000000001", "completion": "0.0004"}}
+        for slug in EXPECTED_SUTS + tuple(row[2] for row in EXPECTED_JUDGES)
+    }
+    NeverCalledLiveClient.instances = []
+
+    code = episode_run._run_live(
+        plan, str(output), resume=True,
+        client_factory=NeverCalledLiveClient,
+        catalog_fetch=lambda _key: catalog,
+        key_fetch=lambda _key: {
+            "usage": 1.0, "limit": 30.0, "limit_remaining": 29.0},
+    )
+
+    assert code == 1
+    assert not (output / "checkpoint.jsonl").exists()
+    assert sum(client.calls for client in NeverCalledLiveClient.instances) == 0
+    total, fallbacks = episode_run.raw_evidence_accounting(str(output), catalog)
+    assert total == pytest.approx(0.25) and fallbacks == {}
+    metadata = json.loads((output / "run-metadata.json").read_text())
+    assert metadata["actual_first_run_accounting_total_usd"] == pytest.approx(0.25)
+    assert metadata["response_attributed_cost_usd"] == pytest.approx(0.25)
+    assert "response-attributed run cost: **$0.250000**" in (
+        output / "episode-report.md").read_text()
+
+
+def test_resume_fails_loud_on_malformed_raw_accounting_before_paid_clients(
+        tmp_path, monkeypatch, capsys):
+    output = tmp_path / "20260713-malformed-raw-resume"
+    plan = episode_run.build_execution_plan()[:1]
+    _write_crash_resume_surface(output, plan, "{not-json}\n")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-key-never-sent")
+
+    code = episode_run._run_live(
+        plan, str(output), resume=True, client_factory=_bomb,
+        catalog_fetch=lambda _key: _catalog(),
+        key_fetch=lambda _key: {
+            "usage": 1.0, "limit": 30.0, "limit_remaining": 29.0},
+    )
+
+    assert code == 2
+    assert "raw-evidence accounting" in capsys.readouterr().err.lower()
+
+
 class FakeLiveClient(UsageClient):
     constructions = []
 
@@ -1063,13 +1173,15 @@ def test_live_metadata_discloses_non_authoritative_ceiling_fallback(tmp_path, mo
     checkpoint = [
         json.loads(line) for line in (output / "checkpoint.jsonl").read_text().splitlines()
     ]
-    expected = episode_run.checkpoint_attributed_cost(checkpoint, _catalog())
+    expected, fallback_sources = episode_run.raw_evidence_accounting(
+        str(output), _catalog())
     report = (output / "episode-report.md").read_text()
     assert metadata["actual_first_run_accounting_total_usd"] == pytest.approx(expected)
     assert metadata["response_attributed_cost_usd"] is None
     assert metadata["accounting_fallback_count"] == 1
     assert metadata["accounting_fallback_sources"] == {
         "catalog_ceiling_missing_response_usage": 1}
+    assert fallback_sources == {"catalog_ceiling_missing_response_usage": 1}
     assert "actual-first run accounting total" in report
     assert "non-authoritative fallback events: **1**" in report
     identity_path = output / "t3-run-identity.json"

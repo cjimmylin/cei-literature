@@ -522,7 +522,8 @@ def build_report(records: Sequence[Dict[str, Any]], *, expected_cells: int,
                  attributed_cost_usd: float,
                  key_before: Optional[Dict[str, Any]] = None,
                  key_after: Optional[Dict[str, Any]] = None,
-                 run_complete: Optional[bool] = None) -> str:
+                 run_complete: Optional[bool] = None,
+                 accounting_fallbacks: Optional[Dict[str, int]] = None) -> str:
     """Render the T3 descriptive report from the full checkpoint state."""
     records = list(records)
     comparisons = Counter(
@@ -537,7 +538,9 @@ def build_report(records: Sequence[Dict[str, Any]], *, expected_cells: int,
         record.get("screen", {}).get("outcome")
         for record in records if record.get("screen", {}).get("outcome")
     )
-    fallback_sources = accounting_fallback_sources(records)
+    fallback_sources = (Counter(accounting_fallbacks)
+                        if accounting_fallbacks is not None
+                        else accounting_fallback_sources(records))
     fallback_count = sum(fallback_sources.values())
     complete = (bool(run_complete) if run_complete is not None else
                 len(records) == expected_cells
@@ -689,6 +692,53 @@ def checkpoint_attributed_cost(records: Sequence[Dict[str, Any]],
     return total
 
 
+def raw_evidence_accounting(
+        run_dir: str,
+        catalog: Dict[str, Dict[str, Any]]) -> Tuple[float, Counter]:
+    """Load the append-only per-attempt ledger, failing loud on ambiguity."""
+    path = os.path.join(run_dir, RAW_EVIDENCE_FILENAME)
+    calls = []
+    try:
+        with open(path, encoding="utf-8") as handle:
+            for line_number, line in enumerate(handle, 1):
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    raise AccountingError(
+                        f"raw-evidence accounting line {line_number} is malformed") from exc
+                if not isinstance(row, dict) or row.get("kind") != "raw_emission":
+                    raise AccountingError(
+                        f"raw-evidence accounting line {line_number} is not a T3 emission")
+                entries = row.get("usage")
+                if not isinstance(entries, list):
+                    raise AccountingError(
+                        f"raw-evidence accounting line {line_number} usage is not a list")
+                fallback = row.get("fallback_accounting")
+                if fallback is not None:
+                    if (not isinstance(fallback, dict)
+                            or (entries and EvidenceClient._usable_usage(entries))):
+                        raise AccountingError(
+                            f"raw-evidence accounting line {line_number} is ambiguous")
+                    entry = fallback
+                else:
+                    if len(entries) != 1 or not EvidenceClient._usable_usage(entries):
+                        raise AccountingError(
+                            f"raw-evidence accounting line {line_number} lacks one usable event")
+                    entry = entries[0]
+                if entry.get("model") != row.get("slug"):
+                    raise AccountingError(
+                        f"raw-evidence accounting line {line_number} model does not match slug")
+                calls.append({
+                    "role": row.get("role"), "name": row.get("name"),
+                    "model": entry.get("model"), "usage": entry.get("usage"),
+                })
+    except OSError as exc:
+        raise AccountingError(f"raw-evidence accounting is unreadable: {path}") from exc
+    records = [{"usage": {"calls": calls}}]
+    return (checkpoint_attributed_cost(records, catalog),
+            accounting_fallback_sources(records))
+
+
 def validate_live_catalog(catalog: Dict[str, Dict[str, Any]]) -> None:
     """Fail loud unless every fixed SUT/judge slug has positive catalog pricing."""
     slugs = list(SUT_SLUGS) + [slug for _name, _family, slug in JUDGE_ROSTER]
@@ -727,7 +777,10 @@ def prepare_output_dir(path: str, *, resume: bool) -> str:
             raise OutputPathError(f"output path is not a directory: {absolute}")
         if not resume:
             raise OutputPathError(f"output directory already exists: {absolute}")
-        if not os.path.exists(os.path.join(absolute, "checkpoint.jsonl")):
+        if (not os.path.exists(os.path.join(absolute, "checkpoint.jsonl"))
+                and not (
+                    os.path.isfile(os.path.join(absolute, RUN_IDENTITY_FILENAME))
+                    and os.path.isfile(os.path.join(absolute, RAW_EVIDENCE_FILENAME)))):
             raise OutputPathError("--resume requires an existing checkpoint.jsonl")
         return absolute
     if resume:
@@ -855,6 +908,7 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
         validate_key_snapshot(key_before)
         catalog = fetch_with_two_retries(catalog_fetch, api_key)
         validate_live_catalog(catalog)
+        prior_cost = raw_evidence_accounting(run_dir, catalog)[0] if resume else 0.0
         if not resume:
             run_dir = prepare_output_dir(run_dir, resume=False)
             _write_json_new(
@@ -867,8 +921,6 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
 
     sink = JsonlSink(os.path.join(run_dir, RAW_EVIDENCE_FILENAME))
     sink.touch()
-    prior_records = list(mvp.load_checkpoint(run_dir).values())
-    prior_cost = checkpoint_attributed_cost(prior_records, catalog)
     remaining_budget = max(0.0, MAX_BUDGET_USD - prior_cost)
     guard = BudgetGuard(remaining_budget, catalog)
     sut_clients: Dict[str, Any] = {}
@@ -900,14 +952,18 @@ def _run_live(plan: Sequence[EpisodePlanCell], output_dir: str, *, resume: bool,
     except Exception:
         key_after = None
     session_attributed_cost = guard.total_usd()
-    attributed_cost = checkpoint_attributed_cost(outcome.records, catalog)
-    fallback_sources = accounting_fallback_sources(outcome.records)
+    try:
+        attributed_cost, fallback_sources = raw_evidence_accounting(run_dir, catalog)
+    except Exception as exc:
+        print(f"ERROR: raw accounting failed: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 2
     fallback_count = sum(fallback_sources.values())
     report = build_report(
         outcome.records, expected_cells=len(plan),
         attributed_cost_usd=attributed_cost,
         key_before=key_before, key_after=key_after,
         run_complete=outcome.done,
+        accounting_fallbacks=fallback_sources,
     )
     report_path = _next_artifact_path(run_dir, "episode-report.md")
     metadata_path = _next_artifact_path(run_dir, "run-metadata.json")

@@ -1,6 +1,34 @@
 # WCF-Bench Pending Questions
 
-## OPEN 2026-07-13 — PPP-1 exact cap exceeds the ratified $5 ceiling
+## OPEN 2026-07-13 — PPP-1 second-cycle interruption-custody choice
+
+- **Question:** The one allowed general quality review found that `KeyboardInterrupt`
+  during a paid attempt can bypass raw-evidence/checkpoint persistence and permit an
+  exact-identity resume to repeat a chargeable call. Under the binding second-cycle stop,
+  should Codex **fix**, **disclose-and-run**, **narrow the claim**, or **defer**?
+- **Why it blocks:** The PPP-1 runner passed specification re-review after its first P1
+  fix cycle, but the later quality review reproduced a zero-byte raw ledger and absent
+  checkpoint when an interrupt landed inside the call. Starting the paid run without an
+  owner choice would violate `20260713-wcf-paper-first-execution-amendment.md`'s explicit
+  second-cycle rule. Paid inference has not started, so the one-run authority remains
+  unconsumed.
+- **Evidence:** runner commits `b23cf4bf9` and `a914f5d4`; specification re-review PASS;
+  quality-review finding at `04-HARNESS/ppp1_run.py` around the composed call wrapper and
+  terminal exception path. The focused suite is 24 green and the full suite was 724 green,
+  but neither result closes the reproduced interruption custody gap.
+- **Suggested default:** **FIX.** Keep the exact authorized roster, caps, scope, prompts,
+  and one-run authority unchanged. Make only the PPP-1 call wrapper's reserve → attempt →
+  accounting capture → raw fsync path interruption-safe; persist a terminal PARTIAL
+  checkpoint on interruption; add one regression test; re-review only this named blocker;
+  then execute once and build the paper packet. Do not reopen general review.
+
+## RESOLVED 2026-07-13 — PPP-1 exact cap exceeds the ratified $5 ceiling
+
+- **Disposition:** Jimmy selected judge `max_tokens=512`, preserved the exact 226-item ×
+  three-SUT × sole-Gemini scope, authorized the minimal strict-cap runner seam, and
+  authorized one paid PPP-1 execution under a strict `$23.56` maximum-retry NTE. Record:
+  `20260713n-jimmy-ppp1-paid-authorization-record.md`. The authorization is not yet
+  consumed because no paid attempt has started.
 
 - **Question:** Should PPP-1 preserve its exact 226-item × three-SUT × single-Gemini
   scope by ratifying one of the frozen executable completion branches and its distinct

@@ -65,28 +65,28 @@ This register defines the current paper-facing contract for active work under `4
 ## WCF
 
 - `paper_claim_enabled`: Report the verified shadow-judge reconciliation and Pareto analysis within their registered shadow-only claim boundary.
-- `paper_deliverable`: Assemble the eligible offline manuscript result and limitations; advance paid T3/T4 evidence only after separate written roster, budget, and cap authorization.
-- `blocking_reason`: none for offline manuscript assembly; paid T3/T4 and production claims remain separately unauthorized.
-- `minimum_sufficiency_gate`: Use persisted verified evidence, preserve the shadow-only boundary, identify unresolved G6/G4 and T4 dependencies, and introduce no unregistered production claim.
-- `timebox`: One bounded offline manuscript-assembly session; stop at any paid or new owner-ruling boundary.
-- `stop_condition`: Produce the offline paper section and evidence table, or return to state-load if it depends on unauthorized T3/T4 execution.
-- `deferred_nonblocking_work`: T3/T4 production execution, release labeling, and other work awaiting explicit owner authority.
+- `paper_deliverable`: Complete the authorized 22×4 T3 EPISODE run and its paper-facing evidence artifact; preserve the shadow-only result boundary; advance T4 only after separate written authorization.
+- `blocking_reason`: none at the owner gate for T3; its offline R55.1–R55.3 runner, independent specification and quality reviews, and R40.1 pre-flight must pass before paid execution.
+- `minimum_sufficiency_gate`: Execute only the authorized four-SUT roster and manifest-of-record Gemini + Grok panel across exactly 22×4 cells, preserve custody and registered scoring, remain within the $10.00 NTE cap, and produce the registered T3 evidence artifact without implying T4 or release authority.
+- `timebox`: Complete the authorized T3 scope only; stop before T4, any roster/panel change, or spend above the $10.00 cap.
+- `stop_condition`: Produce and verify the T3 evidence artifact and update its manuscript scaffold, then stop at the separately unauthorized T4 gate.
+- `deferred_nonblocking_work`: T4 execution, release labeling, and other work awaiting explicit owner authority.
 - `owner_approved_exception`: none.
 
 ### Current paper-track status
 
-- Manuscript: P3 awaits T4 plus R67.4; existing eligible offline findings can be organized without live calls.
-- Executable bank: current shadow mechanics and offline Pareto companion are verified.
-- Evidence: GLM is the shadow-only Pareto-preferred candidate; production panel is unchanged.
+- Manuscript: P3 awaits T4 plus R67.4; T3 evidence should feed its registered scaffold without rewriting claims.
+- Executable bank: T3 is authorized and in progress; offline runner and review gates precede paid calls.
+- Evidence: GLM remains the shadow-only Pareto-preferred candidate; T3 uses the separately authorized four-SUT roster and manifest-of-record panel.
 - PDF: final paper deliverable remains downstream of registered evidence gates.
-- Spend: no executor task or paid T3/T4 call is authorized.
-- Local authority: `WCF-Benchmark/project-dashboard.html` and `WCF-Benchmark/20260713c-codex-session34-handoff.md`.
-- Next session: state-load or perform bounded offline manuscript assembly; do not infer T3/T4 authorization.
+- Spend: T3 is authorized up to $10.00 NTE, with $1–$2.50 expected; T4 and all other paid scopes remain unauthorized.
+- Local authority: `WCF-Benchmark/project-dashboard.html` and `WCF-Benchmark/20260713d-jimmy-t3-authorization-record.md`.
+- Next session: continue the authorized T3 sequence from the current local dashboard and checkpoint; complete offline gates before paid calls and stop before T4.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: none for the bounded offline shadow-only claim; production claims remain gated.
+- Open P1: none recorded; T3's registered offline review and pre-flight gates remain mandatory prerequisites.
 - Deferred P2: production robustness work awaiting authorization.
 - Deferred P3: release polish.
 

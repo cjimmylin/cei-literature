@@ -7,6 +7,8 @@ import re
 
 import pytest
 
+import biblebench_pilot.schedule as schedule_module
+from biblebench_pilot.artifacts import assert_actor_payload_safe
 from biblebench_pilot.contracts import canonical_sha256
 from biblebench_pilot.schedule import (
     CueVariant,
@@ -83,6 +85,16 @@ def _schedule(seed: int = 711) -> Schedule:
     return compile_schedule(_pack(), actor_ids=ACTORS, seed=seed)
 
 
+def _schedule_with_calls(
+    schedule: Schedule, calls: list[LogicalCall]
+) -> Schedule:
+    return Schedule(
+        seed=schedule.seed,
+        bundles=schedule.bundles,
+        logical_calls=tuple(calls),
+    )
+
+
 def test_compiles_required_balanced_schedule_without_reserved_condition() -> None:
     pack = _pack()
 
@@ -98,6 +110,170 @@ def test_compiles_required_balanced_schedule_without_reserved_condition() -> Non
     assert len(schedule.probe_rows) == 144
     assert pack.role_counts() == {"target": 4, "null": 4, "restraint": 4}
     schedule.assert_counterbalanced()
+
+
+@pytest.mark.parametrize("reserved", ["C3", "c3", "prefix-c3-suffix"])
+def test_compile_rejects_reserved_condition_in_authored_pack_any_case(
+    reserved: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], forecast_payload={"ordinary_note": reserved}
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "surface", ["c0", "C0", "treatment c1", "(C2)", "condition c3"]
+)
+def test_compile_rejects_internal_condition_labels_in_cue_surfaces_any_case(
+    surface: str,
+) -> None:
+    pack = _pack()
+    exposed = replace(pack.episodes[0].variants[1], cue_surface=surface)
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_variant(pack, 0, 1, exposed), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
+    encoded = _schedule().to_canonical_json()
+    assert "C3" not in encoded
+    assert re.search(
+        r"(?<![A-Za-z0-9])C3(?![A-Za-z0-9])", encoded, re.IGNORECASE
+    ) is None
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _pack(), actor_ids=("A", "B", "C", "actor-c3"), seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "later_key",
+    [
+        "lens",
+        "lens_id",
+        "Lens-ID",
+        "intervention",
+        "interventionId",
+        "physical_id",
+        "physical_attempt_id",
+        "attempt_id",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_compile_rejects_later_scope_actor_visible_fields_recursively(
+    later_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], **{field_name: {"nested": [{later_key: "opaque"}]}}
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={
+            "lens_notes": "A lens may help describe the ordinary prose.",
+            "intervention_notes": "An intervention may be discussed.",
+            "attempt_notes": "A physical attempt can be described.",
+        },
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload == episode.forecast_payload
+
+
+def test_compile_checks_every_detached_actor_visible_payload(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    checked: list[dict] = []
+
+    def recording_policy(payload) -> None:
+        checked.append(payload)
+        assert_actor_payload_safe(payload)
+
+    monkeypatch.setattr(
+        schedule_module, "assert_actor_payload_safe", recording_policy
+    )
+
+    schedule = compile_schedule(_pack(), actor_ids=ACTORS, seed=711)
+
+    assert len(checked) == len(schedule.logical_calls) == 336
+    assert {id(payload) for payload in checked} == {
+        id(row.request_payload) for row in schedule.logical_calls
+    }
+
+
+@pytest.mark.parametrize(
+    ("surface", "body", "tokens"),
+    [
+        ("actor_model", "Choose the next action.", ("answer", "reason")),
+        ("ordinary surface", "model_identity", ("answer", "reason")),
+        ("ordinary surface", "Choose the next action.", ("private",)),
+    ],
+)
+def test_compile_rejects_artifact_policy_leaks_from_variant_fields(
+    surface: str, body: str, tokens: tuple[str, ...]
+) -> None:
+    pack = _pack()
+    variants = tuple(
+        replace(
+            variant,
+            cue_surface=surface if variant.cue == "C1" else variant.cue_surface,
+            shared_body=body,
+            semantic_response_tokens=tokens,
+        )
+        for variant in pack.episodes[0].variants
+    )
+    episode = replace(pack.episodes[0], variants=variants)
+
+    with pytest.raises(ValueError, match="unsafe model-visible payload"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    ("field_name", "payload"),
+    [
+        ("forecast_payload", {"role": "do-not-echo-this"}),
+        ("forecast_payload", {"private": "do-not-echo-this"}),
+        ("probe_payload", {"actor_model": "do-not-echo-this"}),
+        ("probe_payload", {"model_identity": "do-not-echo-this"}),
+        ("probe_payload", {"expected_label": "do-not-echo-this"}),
+        ("probe_payload", {"gold": "do-not-echo-this"}),
+    ],
+)
+def test_compile_rejects_actor_payload_policy_keys_without_echo(
+    field_name: str, payload: dict
+) -> None:
+    pack = _pack()
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError) as caught:
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+    assert "do-not-echo-this" not in str(caught.value)
 
 
 def test_public_types_are_frozen_and_have_only_frozen_contract_fields() -> None:
@@ -434,6 +610,60 @@ def test_compile_rejects_cyclic_json_payloads() -> None:
 @pytest.mark.parametrize(
     "mutation",
     [
+        "all_primary_bodies",
+        "cue_surface_mapping",
+        "all_primary_tokens",
+        "forecast_semantics",
+        "probe_semantics",
+    ],
+)
+def test_assert_counterbalanced_rejects_cross_actor_semantic_changes(
+    mutation: str,
+) -> None:
+    schedule = _schedule()
+    calls = list(schedule.logical_calls)
+    bundle = schedule.bundles[0]
+    bundle_indices = [
+        index for index, row in enumerate(calls) if row.bundle_id == bundle.bundle_id
+    ]
+    if mutation == "all_primary_bodies":
+        for index in bundle_indices[1::2]:
+            payload = json.loads(json.dumps(calls[index].request_payload))
+            payload["shared_body"] = "Choose an actor-specific alternative action."
+            calls[index] = replace(calls[index], request_payload=payload)
+    elif mutation == "cue_surface_mapping":
+        first, second = bundle_indices[1], bundle_indices[3]
+        first_payload = json.loads(json.dumps(calls[first].request_payload))
+        second_payload = json.loads(json.dumps(calls[second].request_payload))
+        first_payload["cue_surface"], second_payload["cue_surface"] = (
+            second_payload["cue_surface"],
+            first_payload["cue_surface"],
+        )
+        calls[first] = replace(calls[first], request_payload=first_payload)
+        calls[second] = replace(calls[second], request_payload=second_payload)
+    elif mutation == "all_primary_tokens":
+        for index in bundle_indices[1::2]:
+            payload = json.loads(json.dumps(calls[index].request_payload))
+            payload["semantic_response_tokens"] = ["answer", "basis"]
+            calls[index] = replace(calls[index], request_payload=payload)
+    elif mutation == "forecast_semantics":
+        index = bundle_indices[0]
+        payload = json.loads(json.dumps(calls[index].request_payload))
+        payload["question"] = "alternate forecast question"
+        calls[index] = replace(calls[index], request_payload=payload)
+    elif mutation == "probe_semantics":
+        index = bundle_indices[2]
+        payload = json.loads(json.dumps(calls[index].request_payload))
+        payload["question"] = "alternate probe question"
+        calls[index] = replace(calls[index], request_payload=payload)
+
+    with pytest.raises(ValueError):
+        _schedule_with_calls(schedule, calls).assert_counterbalanced()
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    [
         "drop_bundle",
         "reorder_bundles",
         "drop_call",
@@ -447,6 +677,7 @@ def test_compile_rejects_cyclic_json_payloads() -> None:
         "bad_probe_reference",
         "c3_payload",
         "payload_alias",
+        "bad_bundle_call_order",
     ],
 )
 def test_assert_counterbalanced_rejects_mutated_schedules(mutation: str) -> None:
@@ -481,6 +712,12 @@ def test_assert_counterbalanced_rejects_mutated_schedules(mutation: str) -> None
         calls[0] = replace(calls[0], request_payload={"reserved": "C3"})
     elif mutation == "payload_alias":
         calls[7] = replace(calls[7], request_payload=calls[0].request_payload)
+    elif mutation == "bad_bundle_call_order":
+        identifiers = list(bundles[0].logical_call_ids)
+        identifiers[1], identifiers[2] = identifiers[2], identifiers[1]
+        bundles[0] = replace(
+            bundles[0], logical_call_ids=tuple(identifiers)
+        )
 
     invalid = Schedule(
         seed=schedule.seed,

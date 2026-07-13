@@ -6,6 +6,7 @@ import json
 import re
 from typing import Any, Literal
 
+from .artifacts import assert_actor_payload_safe
 from .contracts import Json, canonical_json_bytes, canonical_sha256
 
 
@@ -25,7 +26,24 @@ _ROLES = ("target", "null", "restraint")
 _MODULES = ("fruitbench", "corinthlove", "tencommandments", "sermonmount")
 _HASH = re.compile(r"[0-9a-f]{64}")
 _ID = re.compile(r"[0-9a-f]{16}")
-_CUE_LABEL = re.compile(r"(?<![A-Za-z0-9])C[012](?![A-Za-z0-9])")
+_CUE_LABEL = re.compile(
+    r"(?<![A-Za-z0-9])C[0-3](?![A-Za-z0-9])", re.IGNORECASE
+)
+_RESERVED_C3 = re.compile(
+    r"(?<![A-Za-z0-9])C3(?![A-Za-z0-9])", re.IGNORECASE
+)
+_LATER_SCOPE_KEYS = frozenset(
+    {
+        "lens",
+        "lensid",
+        "intervention",
+        "interventionid",
+        "physicalid",
+        "physicalattemptid",
+        "attemptid",
+    }
+)
+_ACTOR_METADATA_KEYS = frozenset({"role"})
 
 
 @dataclass(frozen=True)
@@ -114,7 +132,7 @@ class Schedule:
             "logical_calls": [_call_json(row) for row in self.logical_calls],
         }
         encoded = canonical_json_bytes(value).decode("utf-8")
-        if "C3" in encoded:
+        if _RESERVED_C3.search(encoded):
             raise ValueError("schedule contains reserved condition")
         return encoded
 
@@ -140,18 +158,14 @@ def _strict_string(value: Any, name: str, *, nonempty: bool = True) -> str:
 
 
 def _field_names_c3(value: str) -> bool:
-    normalized = "".join(
-        character.casefold() if character.isalnum() else " "
-        for character in value
-    )
-    return "c3" in normalized.split()
+    return _RESERVED_C3.search(value) is not None
 
 
 def _assert_no_c3(value: Any, *, active: set[int] | None = None) -> None:
     if active is None:
         active = set()
     if type(value) is str:
-        if "C3" in value:
+        if _RESERVED_C3.search(value):
             raise ValueError("pack contains reserved condition")
         return
     if value is None or type(value) in {bool, int, float}:
@@ -164,7 +178,7 @@ def _assert_no_c3(value: Any, *, active: set[int] | None = None) -> None:
         try:
             if type(value) is dict:
                 for key, child in value.items():
-                    if type(key) is str and (_field_names_c3(key) or "C3" in key):
+                    if type(key) is str and _field_names_c3(key):
                         raise ValueError("pack contains a reserved condition field")
                     _assert_no_c3(key, active=active)
                     _assert_no_c3(child, active=active)
@@ -173,7 +187,7 @@ def _assert_no_c3(value: Any, *, active: set[int] | None = None) -> None:
                     _assert_no_c3(child, active=active)
             else:
                 for name, child in vars(value).items():
-                    if _field_names_c3(name) or "C3" in name:
+                    if _field_names_c3(name):
                         raise ValueError("pack contains a reserved condition field")
                     _assert_no_c3(child, active=active)
         finally:
@@ -212,11 +226,25 @@ def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
             raise ValueError("probe payload contains an identity field")
 
 
+def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
+    for key in _walk_keys(payload):
+        if _normalized_key(key) in _LATER_SCOPE_KEYS:
+            raise ValueError("request payload contains a later-scope field")
+
+
+def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
+    for key in _walk_keys(payload):
+        if _normalized_key(key) in _ACTOR_METADATA_KEYS:
+            raise ValueError("request payload contains actor-private metadata")
+
+
 def _validate_payload(value: Any, name: str) -> dict[str, Json]:
     if type(value) is not dict:
         _type_error(f"{name} must be a dictionary")
     canonical_json_bytes(value)
     _assert_no_result_fields(value)
+    _assert_no_later_scope_fields(value)
+    _assert_no_actor_metadata_fields(value)
     return value
 
 
@@ -225,6 +253,12 @@ def _detached(value: dict[str, Json]) -> dict[str, Json]:
     if type(detached) is not dict:
         raise ValueError("detached payload is not an object")
     return detached
+
+
+def _checked_actor_payload(value: dict[str, Json]) -> dict[str, Json]:
+    assert_actor_payload_safe(value)
+    _validate_payload(value, "request_payload")
+    return value
 
 
 def _validate_variant(variant: Any) -> CueVariant:
@@ -450,7 +484,9 @@ def compile_schedule(
                 call_kind="forecast",
                 cue=None,
                 presentation_position=-1,
-                request_payload=_detached(episode.forecast_payload),
+                request_payload=_checked_actor_payload(
+                    _detached(episode.forecast_payload)
+                ),
             )
             bundle_calls.append(forecast)
 
@@ -473,10 +509,13 @@ def compile_schedule(
                     call_kind="primary",
                     cue=cue,
                     presentation_position=position,
-                    request_payload=_detached(primary_payload),
+                    request_payload=_checked_actor_payload(
+                        _detached(primary_payload)
+                    ),
                 )
                 probe_payload = _detached(episode.probe_payload)
                 probe_payload["primary_logical_call_id"] = primary.logical_call_id
+                _checked_actor_payload(probe_payload)
                 probe = _new_call(
                     seed=seed,
                     bundle_id=bundle_id,
@@ -634,6 +673,23 @@ def _assert_detached_call_payloads(calls: tuple[LogicalCall, ...]) -> None:
         visit(row.request_payload)
 
 
+def _record_cross_actor_semantics(
+    baselines: dict[str | tuple[str, str], tuple[bytes, int]],
+    key: str | tuple[str, str],
+    payload: dict[str, Json],
+    message: str,
+) -> None:
+    encoded = canonical_json_bytes(payload)
+    prior = baselines.get(key)
+    if prior is None:
+        baselines[key] = (encoded, 1)
+        return
+    prior_bytes, count = prior
+    if encoded != prior_bytes:
+        raise ValueError(message)
+    baselines[key] = (prior_bytes, count + 1)
+
+
 def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
     if type(schedule) is not Schedule:
         _type_error("value must be a Schedule")
@@ -676,6 +732,9 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
     episode_index = {episode: index for index, episode in enumerate(episodes)}
     cue_position_counts: Counter[tuple[str, int, str]] = Counter()
     all_ids = [bundle.bundle_id for bundle in bundles]
+    forecast_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
+    primary_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
+    probe_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
 
     for bundle_number, bundle in enumerate(bundles):
         expected_bundle_id = _bundle_id(
@@ -704,6 +763,12 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
             raise ValueError("forecast must be first and condition independent")
         if "primary_logical_call_id" in forecast.request_payload:
             raise ValueError("forecast payload references a condition-specific call")
+        _record_cross_actor_semantics(
+            forecast_semantics,
+            bundle.episode_id,
+            forecast.request_payload,
+            "forecast semantics change across actors",
+        )
 
         cue_offset = (
             schedule.seed
@@ -730,12 +795,40 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
             _assert_no_identity_fields(probe.request_payload)
             if probe.request_payload.get("primary_logical_call_id") != primary.logical_call_id:
                 raise ValueError("probe does not reference its immediately preceding primary")
+            semantic_key = (bundle.episode_id, cue)
+            _record_cross_actor_semantics(
+                primary_semantics,
+                semantic_key,
+                primary.request_payload,
+                "primary semantics change across actors",
+            )
+            probe_base = {
+                key: value
+                for key, value in probe.request_payload.items()
+                if key != "primary_logical_call_id"
+            }
+            _record_cross_actor_semantics(
+                probe_semantics,
+                semantic_key,
+                probe_base,
+                "probe semantics change across actors",
+            )
             bodies.append(primary.request_payload["shared_body"])
             surfaces.append(primary.request_payload["cue_surface"])
             token_sequences.append(tuple(primary.request_payload["semantic_response_tokens"]))
             cue_position_counts[(bundle.actor_id, position, cue)] += 1
         if len(set(bodies)) != 1 or len(set(token_sequences)) != 1 or len(set(surfaces)) != 3:
             raise ValueError("condition payload semantics are not invariant")
+
+    if (
+        len(forecast_semantics) != 12
+        or len(primary_semantics) != 36
+        or len(probe_semantics) != 36
+        or any(count != 4 for _, count in forecast_semantics.values())
+        or any(count != 4 for _, count in primary_semantics.values())
+        or any(count != 4 for _, count in probe_semantics.values())
+    ):
+        raise ValueError("actor-visible semantics are not complete across actors")
 
     if len(all_ids) != len(set(all_ids)):
         raise ValueError("schedule identifiers must be globally unique")

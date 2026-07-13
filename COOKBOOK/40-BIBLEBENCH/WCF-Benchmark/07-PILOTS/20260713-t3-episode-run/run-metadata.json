@@ -1,0 +1,46 @@
+{
+  "accounting_fallback_count": 0,
+  "accounting_fallback_sources": {},
+  "actual_first_run_accounting_total_usd": 0.4393786621999999,
+  "artifact_kind": "DESCRIPTIVE / PRE-GATE",
+  "budget_hit": false,
+  "budget_usd": 10.0,
+  "error_cells": 0,
+  "expected_cells": 88,
+  "judges": [
+    [
+      "gemini-flash",
+      "google",
+      "google/gemini-2.5-flash"
+    ],
+    [
+      "grok-4.20",
+      "x-ai",
+      "x-ai/grok-4.20"
+    ]
+  ],
+  "key_after": {
+    "limit": 1500.0,
+    "limit_remaining": 64.68771192700001,
+    "usage": 1435.312288073
+  },
+  "key_before": {
+    "limit": 1500.0,
+    "limit_remaining": 67.12729401599995,
+    "usage": 1432.872705984
+  },
+  "manifest_path": "/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/07-PILOTS/20260712-artifact-corrected-requal/20260712-artifact-corrected-requal-manifest.json",
+  "recorded_cells": 88,
+  "response_attributed_cost_usd": 0.4393786621999999,
+  "run_status": "COMPLETE",
+  "scored_cells": 88,
+  "session_actual_first_accounting_total_usd": 0.43937866220000005,
+  "session_response_attributed_cost_usd": 0.43937866220000005,
+  "stop_reason": null,
+  "suts": [
+    "meta-llama/llama-3.1-8b-instruct",
+    "deepseek/deepseek-chat",
+    "mistralai/mistral-large-2512",
+    "anthropic/claude-haiku-4.5"
+  ]
+}

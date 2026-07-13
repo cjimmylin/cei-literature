@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "artifact_kind": "WCF-Bench T3 EPISODE offline correction",
+  "validity_label": "DESCRIPTIVE/PRE-GATE",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T08:12:05-07:00",
+  "scope": {
+    "mode": "offline_only",
+    "paid_calls": 0,
+    "cells_reclassified": 1,
+    "other_cells_rewritten": 0,
+    "claims_made": false,
+    "gate_adjudication_made": false
+  },
+  "artifact_hierarchy": {
+    "primary_evidence": [
+      "07-PILOTS/20260713-t3-episode-run/raw-evidence.jsonl",
+      "07-PILOTS/20260713-t3-episode-run/checkpoint.jsonl"
+    ],
+    "control": "The immutable original raw evidence and checkpoint remain primary evidence. This correction controls T3 descriptive status and summary only; it does not replace or modify the source evidence."
+  },
+  "sources": [
+    {
+      "path": "07-PILOTS/20260713-t3-episode-run/raw-evidence.jsonl",
+      "sha256": "93a081d01aae4085cd5096c3795ce660647712aaa2c2142ab5410139e6072278",
+      "role": "primary raw evidence",
+      "read_only": true
+    },
+    {
+      "path": "07-PILOTS/20260713-t3-episode-run/checkpoint.jsonl",
+      "sha256": "ad2cc29f00c6ca326b9b8d8922f4665631341165369e76146d79b533f098c28c",
+      "role": "primary per-cell record",
+      "read_only": true
+    },
+    {
+      "path": "07-PILOTS/20260713-t3-episode-run/run-metadata.json",
+      "sha256": "fe2574286b8c991640d2f0fdf5882a5eb74faeb86192ba3c48071b891f77b653",
+      "role": "supporting run and accounting metadata",
+      "read_only": true
+    },
+    {
+      "path": "07-PILOTS/20260713-t3-episode-run/episode-report.md",
+      "sha256": "7903025be10218a69858d5f0b9e58e86753159d5be4dd3e1e20499308c01d251",
+      "role": "superseded descriptive summary",
+      "read_only": true
+    },
+    {
+      "path": "07-PILOTS/20260713-t3-episode-run/t3-run-identity.json",
+      "sha256": "045bc6fa7f1cd4438788352f77d990cdaadffac0c8f874d6b3ab0035c4fad1fb",
+      "role": "fixed 88-cell run identity",
+      "read_only": true
+    }
+  ],
+  "correction": {
+    "cell_key": "NARROW-C7-010::anthropic/claude-haiku-4.5",
+    "item_id": "NARROW-C7-010",
+    "sut": "anthropic/claude-haiku-4.5",
+    "source_locations": {
+      "checkpoint_line": 64,
+      "raw_cell_bundle_lines": [
+        190,
+        191,
+        192
+      ],
+      "defective_judge_raw_line": 191
+    },
+    "original_record": {
+      "status": "scored",
+      "judge_score": 1.0,
+      "comparison_status": "disagreement"
+    },
+    "corrected_override": {
+      "status": "error_recorded",
+      "judge_score": null,
+      "score_included": false,
+      "comparison_status": null,
+      "agreement_status_included": false
+    },
+    "evidence": {
+      "judge": "gemini-flash",
+      "judge_model": "google/gemini-2.5-flash",
+      "finish_reason": "error",
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "cost_usd": 0.0,
+      "expected_keypoint_verdicts": 5,
+      "observed_keypoint_verdicts": 1,
+      "gemini_emissions_in_cell_bundle": 1,
+      "retry_emissions_observed": 0,
+      "reason": "The Gemini judge emission ended with finish_reason=error, zero usage, and only one of five required keypoint verdicts. No retry emission is present, so the cell lacks a complete panel score of record."
+    }
+  },
+  "corrected_totals": {
+    "expected_cells": 88,
+    "recorded_cells": 88,
+    "scored_cells": 87,
+    "error_recorded_cells": 1,
+    "graded_cells": 80,
+    "wholly_ungraded_cells": 7,
+    "comparison_status": {
+      "agreement": 36,
+      "disagreement": 44,
+      "ungraded": 7,
+      "error_recorded": 1
+    },
+    "score_distribution": {
+      "score_1_0": 38,
+      "score_0_0": 36,
+      "partial": 6,
+      "ungraded": 7,
+      "error_excluded": 1
+    },
+    "graded_mean": 0.50375,
+    "mean_presentation_decimal_places": 5
+  },
+  "per_sut": [
+    {
+      "sut": "meta-llama/llama-3.1-8b-instruct",
+      "recorded_cells": 22,
+      "scored_cells": 22,
+      "graded_n": 20,
+      "wholly_ungraded_n": 2,
+      "error_recorded_n": 0,
+      "graded_mean": 0.19167
+    },
+    {
+      "sut": "deepseek/deepseek-chat",
+      "recorded_cells": 22,
+      "scored_cells": 22,
+      "graded_n": 20,
+      "wholly_ungraded_n": 2,
+      "error_recorded_n": 0,
+      "graded_mean": 0.34833
+    },
+    {
+      "sut": "mistralai/mistral-large-2512",
+      "recorded_cells": 22,
+      "scored_cells": 22,
+      "graded_n": 19,
+      "wholly_ungraded_n": 3,
+      "error_recorded_n": 0,
+      "graded_mean": 0.50000
+    },
+    {
+      "sut": "anthropic/claude-haiku-4.5",
+      "recorded_cells": 22,
+      "scored_cells": 21,
+      "graded_n": 21,
+      "wholly_ungraded_n": 0,
+      "error_recorded_n": 1,
+      "graded_mean": 0.95238
+    }
+  ],
+  "cost": {
+    "response_attributed_run_cost_usd": 0.4393786622,
+    "accounting_fallback_count": 0,
+    "budget_usd": 10.0,
+    "under_budget": true,
+    "offline_correction_cost_usd": 0.0,
+    "shared_key_usage_delta_usd": 2.439582089,
+    "shared_key_delta_interpretation": "contextual_only_not_attributed"
+  },
+  "length_truncations": [
+    {
+      "raw_line": 196,
+      "item_id": "NARROW-C7-W205",
+      "sut": "deepseek/deepseek-chat",
+      "finish_reason": "length",
+      "truncated": true,
+      "disposition": "preserved evidence; not reclassified and not error-recorded"
+    },
+    {
+      "raw_line": 199,
+      "item_id": "NARROW-C7-W205",
+      "sut": "mistralai/mistral-large-2512",
+      "finish_reason": "length",
+      "truncated": true,
+      "disposition": "preserved evidence; not reclassified and not error-recorded"
+    },
+    {
+      "raw_line": 259,
+      "item_id": "NARROW-XC-W306",
+      "sut": "mistralai/mistral-large-2512",
+      "finish_reason": "length",
+      "truncated": true,
+      "disposition": "preserved evidence; not reclassified and not error-recorded"
+    }
+  ]
+}

@@ -1,16 +1,29 @@
 # WCF-Bench Pending Questions
 
-## Jimmy authorization received 2026-07-13 — T3 EPISODE 88-cell run
+## RESOLVED 2026-07-13 — T3 EPISODE 88-cell authorization, execution, and correction
 
 - **Authorization record:** `20260713d-jimmy-t3-authorization-record.md`.
 - **Scope:** T3 only — 22 EPISODE items × the standing four SUTs = 88 cells, scored by
   the manifest-of-record Gemini + Grok settled-core panel under R55.1–R55.3.
 - **Budget:** strict `$10.00` NTE; expected actual `$1–$2.50`.
-- **Sequence:** offline TDD build + independent reviews, then R40.1 pre-flight, then one
-  checkpointable/resumable live run.
-- **Effect:** the T3 paid-call and roster gate is OPEN. T4 and every other paid scope
-  remain separately unauthorized. No model substitution, panel/manifest change, ladder
-  reopening, shadow-production use, G6 work, or bank edit is authorized.
+- **Execution:** the offline TDD runner and bounded reviews landed in commits
+  `aa00c7009` through `fd8d6a69c`; the R40.1 pre-flight passed, and the one authorized
+  checkpointable run completed all 88 cells. Its immutable original report records 88
+  scored cells. An independent artifact audit then found one incomplete Gemini verdict
+  that the checkpoint had treated as scored; no paid rerun or model debugging followed.
+- **Controlling descriptive correction:**
+  `07-PILOTS/20260713-t3-episode-offline-correction/` reclassifies that one cell offline.
+  Final descriptive status is 87 scored + 1 error-recorded, with 80 graded, 7 wholly
+  ungraded, agreement 36, disagreement 44, and graded mean 0.50375. The label remains
+  **DESCRIPTIVE/PRE-GATE**.
+- **Cost:** `$0.4393786622` response-attributed under the cap; the `$2.439582089`
+  shared-key delta is contextual/contaminated and is not attributed to T3.
+- **Effect:** T3 is complete and its task-specific paid authorization is consumed. T4
+  and every other paid scope remain separately unauthorized. T4 still requires Jimmy's
+  written task-specific roster, budget, and cap approval; G6 recruitment/co-labeling and
+  R67.4 gate adjudication remain Jimmy-owned. No model substitution, panel/manifest
+  change, ladder reopening, shadow-production use, G6 work, bank edit, ruling, or
+  R-number is implied.
 
 ## Binding dispositions received 2026-07-12 — R47–R53
 
@@ -25,12 +38,13 @@
 - **R53:** MVP-testable uses the corrected single-family OPEN manifest, excludes EPISODE
   pending registry approval, and retains the PROOF artifact disclosure.
 
-**Current execution status:** T1 and T2 are complete and Jimmy ratified the verified R57
+**Current execution status:** T1, T2, and T3 are complete and Jimmy ratified the verified R57
 checklist on 2026-07-12; durable record:
 `20260712l-jimmy-r57-ratification-record.md`. T2.5 is checked and WCF-Bench is MVP
 TESTABLE under R53/R58.1, retaining the R34.4 single-family OPEN label and all existing
 DESCRIPTIVE/PRE-GATE and PROOF disclosures. Paper P1 citation verification is also
-complete. Paid T3/T4 calls remain separately gated and unauthorized. Jimmy separately
+complete. T3 ran once under the exact authorization above and is now closed; paid T4
+calls remain separately gated and unauthorized. Jimmy separately
 authorized the exact, shadow-only judge bakeoff recorded in
 `20260712n-shadow-judge-bakeoff-design.md`, with a $1.00 NTE cap; it does not reopen the
 candidate ladder, change the manifest, or authorize any T3/T4 call. Written-spec review
@@ -40,9 +54,9 @@ was `UNRECONCILED` because the runner's internal attributed total was $0.6977639
 key-wide usage increased by $5.426614419 during the pre/post interval. The reconciliation
 question is **RESOLVED** by Jimmy's 2026-07-13 ratification in
 `20260713a-jimmy-shadow-reconciliation-ratification-record.md`. The later exact T3
-authorization is recorded in `20260713d-jimmy-t3-authorization-record.md`; it opens only
-T3's standing roster under a `$10.00` NTE cap. T4 and every other paid scope remain
-unauthorized.
+authorization is recorded in `20260713d-jimmy-t3-authorization-record.md`; it was consumed
+by the single completed T3 run under a `$10.00` NTE cap. T4 and every other paid scope
+remain unauthorized.
 
 ## Jimmy authorization received 2026-07-12 — shadow judge bakeoff
 
@@ -113,10 +127,11 @@ unauthorized.
 **Execution status:** Questions 1–3 are resolved through the R47–R57 work order and
 Jimmy's R57 ratification. Question 4's scorer behavior is resolved, but its qualified
 manifest surface remains unspecified and Task 6 remains deferred under R52. Paid T3/T4
-calls remain prohibited until Jimmy separately authorizes the specific roster, run, and
-budget. The later $1 shadow-bakeoff authorization above is a separate, exact exception and
-does not authorize those runs. The historical question records below are retained for
-provenance.
+calls remained prohibited until task-specific authorization; T3 was later authorized and
+completed once as recorded above, while T4 remains prohibited pending Jimmy's written
+roster, run, budget, and cap authorization. The later $1 shadow-bakeoff authorization above
+was a separate, exact exception and did not authorize either run. The historical question
+records below are retained for provenance.
 
 **Historical provisional packet:** `20260711-codex-provisional-adjudication-recommendations.md`
 was ratified/superseded by R47–R53. It remains provenance only and assigns no ruling
@@ -153,8 +168,8 @@ numbers.
 - **Ruling:** Pause all paid calls and continue offline only. Do not substitute models.
 
 - **Later bounded exception (2026-07-12):** Jimmy authorized only the two-model,
-  shadow-only bakeoff and $1 cap recorded above. Tasks 5–6 and T3/T4 remain paused unless
-  separately authorized.
+  shadow-only bakeoff and $1 cap recorded above. T3 was later separately authorized and
+  completed once; T4 and the remaining paid scopes stay paused unless separately authorized.
 
 - **Question:** Which exact model slugs are approved as "cheap" for the remaining live EPISODE and PROOFTEXT work, and does that instruction supersede the exact Task 5 four-SUT roster and Task 6 qualified-judge panel?
 - **Why it blocks:** The execution plan fixes the Task 5 SUTs and requires Task 6 judge re-reading under the Task 4 manifest. Substituting cheaper models would violate the pre-registered scope, while proceeding without an approved cheap list would violate the current user instruction.

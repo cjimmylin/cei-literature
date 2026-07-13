@@ -213,6 +213,11 @@ def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
         "registered_interventions",
         "providers",
         "available_providers",
+        "physical_ids",
+        "physical_attempts",
+        "physical_attempts_ids",
+        "attempt_ids",
+        "attempt_identifiers",
     ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])

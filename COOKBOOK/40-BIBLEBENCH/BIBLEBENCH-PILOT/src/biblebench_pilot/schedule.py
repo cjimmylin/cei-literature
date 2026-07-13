@@ -51,6 +51,9 @@ _NAMESPACE_COMPONENT_ALIASES = {
     "lenses": "lens",
     "interventions": "intervention",
     "providers": "provider",
+    "ids": "id",
+    "identifiers": "identifier",
+    "attempts": "attempt",
 }
 _BLIND_FORECAST_COMPONENTS = frozenset(
     {
@@ -306,7 +309,9 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
             or (route and normalized not in _ALLOWED_TASK_ROUTE_KEYS)
             or (
                 physical
-                and not _PHYSICAL_SCOPE_QUALIFIERS.isdisjoint(components)
+                and not _PHYSICAL_SCOPE_QUALIFIERS.isdisjoint(
+                    namespace_components
+                )
             )
             or has_attempt_identifier
         ):

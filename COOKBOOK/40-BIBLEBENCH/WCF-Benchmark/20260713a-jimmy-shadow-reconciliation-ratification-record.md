@@ -1,7 +1,7 @@
 # WCF-Bench — Jimmy Shadow-Reconciliation Ratification Record
 
-**Status:** **BINDING JIMMY-AUTHORED DISPOSITION — recorded by Codex from Jimmy's
-explicit 2026-07-13 chat ratification.**
+**Status:** **BINDING JIMMY-RATIFIED DISPOSITION — RECORDED BY CODEX.** This record
+reflects Jimmy's explicit 2026-07-13 chat ratification.
 
 **Ratifier of record:** Jimmy.
 

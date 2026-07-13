@@ -867,6 +867,66 @@ require a new roster, probe, price/call envelope, and separate Jimmy authorizati
 **OPEN — MVP-A1 PAID EXECUTION STOPPED ON JIMMY.** No further credential access or live
 call is authorized on this run until PR-20 is ruled.
 
+**Jimmy ruling (2026-07-13, verbatim):**
+
+> Ratify PR-20 option 1: allow one exact same-model replay per malformed required MVP
+> judge unit, retaining the first defect; byte-identical prompt/model/cap/provider ceiling;
+> a second failure on the same key stops that judge thread; resume only missing keys within
+> the existing 1,834-call and $5.00 limits; no substitution.
+
+**RATIFIED + CLOSED 2026-07-13.** The replay is append-only and exact-keyed. The first
+defect remains durable; one successful same-model replay may become the canonical verdict
+for completeness. A second malformed response for the same key exhausts its replay and
+stops the judge thread. The ruling changes no roster, prompt, cap, provider ceiling, call
+envelope, NTE, claim license, or O5 surface.
+
+---
+
+## PR-21 — MVP-A1 HTTP-200 response missing `usage.cost`
+
+**Surfaced:** 2026-07-13 after PR-20 was ratified and implemented. The exact
+`WW-05-A03` OpenAI judge replay succeeded with zero defects and remains separately
+append-only while the original defect is retained. OpenAI judging advanced to 63/180
+verdict records / 163/480 logical units. Attempt 915, for the next exact missing key
+(`WW-01-A05` / Gemini SUT / OpenAI judge), then returned HTTP 200 without
+`usage.cost`. The runner stopped before accepting its response or writing a verdict.
+
+Durable state: 915 starts / 914 finishes; finished-ledger exposure $0.432642163;
+unresolved maximum reservation $0.0025024; total conservative exposure $0.435144563;
+one successful PR-20 replay; no Meta production call or pre-Meta checkpoint. The raw
+attempt-915 response is not persisted and may not be reconstructed or scored.
+
+The MVP order reserves maximum cost for unknown failed attempts and includes a paid-
+duplicate reserve, but it does not explicitly classify a nominal HTTP-200 response with
+missing provider cost metadata. Recording an invented reported cost, accepting the
+unpriced response, silently treating the attempt as unbilled, or retrying without closing
+its custody pair would violate the ledger contract.
+
+**Option 1 — recommended (reserve maximum, discard, exact retry):** authorize a special
+append-only finish for attempt 915 that truthfully retains HTTP status 200, records no
+returned model or tokens, books the registered OpenAI-judge maximum $0.0025024 with cost
+basis `reserved_max_on_missing_cost`, and marks the response unusable. Permit at most one
+new attempt with the identical payload hash under the existing paid-duplicate reserve.
+Accept only a normal exact-model response with reported `usage.cost`; a second missing-cost
+response for that payload stops permanently. Apply the same fail-closed rule to any future
+MVP-A1 missing-cost response. Keep 1,834 calls / $5.00 NTE and no substitution.
+
+**Option 2 — strict incomplete close:** make no further paid call, retain attempt 915 as
+unresolved, close MVP-A1 incomplete, and leave judge-derived score surfaces unavailable.
+
+**Requested Jimmy one-liner:**
+
+> Ratify PR-21 option 1: close MVP-A1 attempt 915 as HTTP-200 custody failure with no
+> usable response, no returned-model/token claim, and the $0.0025024 registered maximum
+> booked as `reserved_max_on_missing_cost`; allow one identical-payload retry from the
+> existing reserve; require exact model plus reported usage.cost; a second missing-cost
+> response for that payload stops permanently; apply this rule to future MVP-A1
+> missing-cost responses within the unchanged 1,834-call/$5 limits; no substitution.
+
+**OPEN — MVP-A1 PAID EXECUTION STOPPED ON JIMMY.** No ledger repair, credential access,
+retry, further OpenAI call, checkpoint, Meta call, or results interpretation is authorized
+until PR-21 is ruled.
+
 ---
 
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a

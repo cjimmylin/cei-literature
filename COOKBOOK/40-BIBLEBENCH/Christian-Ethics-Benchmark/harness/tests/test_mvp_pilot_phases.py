@@ -160,7 +160,55 @@ def test_judge_phase_persists_verdicts_without_rescoring_completed_keys(
     assert resumed == {"judge": judge_spec.slug, "complete": 180, "new": 0}
 
 
-def test_judge_phase_stops_immediately_and_stays_stopped_on_first_defect(
+def test_judge_phase_replays_first_defect_once_and_uses_successful_replay(
+        benchmark_root, tmp_path):
+    execution_path = tmp_path / "executions.jsonl"
+    for index, sut_spec in enumerate(mvp.SUT_SPECS):
+        mvp.run_sut_phase(
+            benchmark_root, execution_path, sut_spec,
+            MockModelClient(sut_spec.slug, seed=index,
+                            family=sut_spec.slug.split("/", 1)[0]),
+            lambda _text, states, _design: states[0],
+        )
+
+    class FirstDefectJudge(MockJudge):
+        def __init__(self, name, family):
+            super().__init__(name, family=family)
+            self.calls = 0
+            self.defects = []
+            self.score_inputs = []
+
+        def score(self, item, execution, scoring_spec):
+            self.calls += 1
+            self.score_inputs.append((item.id, execution.model, scoring_spec.design))
+            if self.calls == 1:
+                self.defects.append({"reason": "malformed verdict"})
+            return super().score(item, execution, scoring_spec)
+
+    verdict_path = tmp_path / "verdicts.jsonl"
+    spec = mvp.JUDGE_SPECS[0]
+    judge = FirstDefectJudge(spec.slug, family="openai")
+    result = mvp.run_judge_phase(
+        benchmark_root, execution_path, verdict_path, spec, judge,
+    )
+    assert result == {"judge": spec.slug, "complete": 180, "new": 180}
+    assert judge.calls == 181
+    assert judge.score_inputs[0] == judge.score_inputs[1]
+
+    base = mvp.load_verdict_records(verdict_path)
+    assert len(base) == 180
+    assert base[0]["defects"] == [{"reason": "malformed verdict"}]
+    replays = mvp.load_replay_records(mvp.replay_path_for(verdict_path), base)
+    assert len(replays) == 1
+    assert replays[0]["defects"] == []
+    assert replays[0]["replay_attempt"] == 1
+    assert replays[0]["authority"] == "PR-20 option 1"
+    resolved = mvp.load_resolved_verdict_records(verdict_path)
+    assert len(resolved) == 180
+    assert not any(row["defects"] for row in resolved)
+
+
+def test_judge_phase_stops_after_second_defect_and_resume_makes_zero_calls(
         benchmark_root, tmp_path):
     execution_path = tmp_path / "executions.jsonl"
     for index, sut_spec in enumerate(mvp.SUT_SPECS):
@@ -189,13 +237,16 @@ def test_judge_phase_stops_immediately_and_stays_stopped_on_first_defect(
         mvp.run_judge_phase(
             benchmark_root, execution_path, verdict_path, spec, judge,
         )
-    assert judge.calls == 1
+    assert judge.calls == 2
     rows = mvp.load_verdict_records(verdict_path)
     assert len(rows) == 1
     assert rows[0]["defects"] == [{"reason": "malformed verdict"}]
+    replays = mvp.load_replay_records(mvp.replay_path_for(verdict_path), rows)
+    assert len(replays) == 1
+    assert replays[0]["defects"] == [{"reason": "malformed verdict"}]
 
     poison = DefectJudge(spec.slug, family="meta-llama")
-    with pytest.raises(mvp.ContractStop, match="persisted judge defects"):
+    with pytest.raises(mvp.ContractStop, match="replay exhausted"):
         mvp.run_judge_phase(
             benchmark_root, execution_path, verdict_path, spec, poison,
         )

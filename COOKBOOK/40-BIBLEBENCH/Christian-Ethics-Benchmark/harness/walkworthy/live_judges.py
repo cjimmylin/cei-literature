@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import re
+from copy import deepcopy
 from typing import List, Optional, Tuple
 
 from .clients import Message
@@ -257,6 +258,73 @@ class CLIJudge(Judge):
             text = _primary_text(execution)
             v.scores = self._score_text(item, spec, text, None, refs, "item")
         return v
+
+    def replay_defective_units(self, item, execution, spec: ScoringSpec,
+                               prior: Verdict, defects: list) -> tuple[Verdict, list]:
+        """Replay only PR-20's exact malformed scoring units and merge their scores."""
+        units = []
+        for defect in defects:
+            if (defect.get("item_id") != item.id
+                    or defect.get("design") != item.design
+                    or defect.get("judge") != self.name
+                    or not defect.get("unit")):
+                raise ValueError("judge defect identity is not replayable")
+            if defect["unit"] not in units:
+                units.append(defect["unit"])
+        if not units:
+            raise ValueError("no defective judge unit to replay")
+
+        corrected = deepcopy(prior)
+        refs = None
+        if spec.reference_anchored and self.reference_provider:
+            refs = self.reference_provider(item)
+
+        if spec.unit == "item":
+            if units != ["item"]:
+                raise ValueError("item verdict has a non-item replay unit")
+            text = _primary_text(execution)
+            corrected.scores = self._score_text(
+                item, spec, text, None, refs, "item")
+            return corrected, units
+
+        if spec.unit == "per_turn":
+            main = next((a for a in execution.administrations if a.label == "main"),
+                        execution.administrations[0])
+            for unit in units:
+                if unit == "terminal":
+                    text = getattr(main, "terminal_response", None)
+                    target = next((row for row in corrected.per_unit
+                                   if row.get("terminal")), None)
+                    label = "terminal artifact"
+                elif unit.startswith("t") and unit[1:].isdigit():
+                    index = int(unit[1:])
+                    turn = next((turn for turn in main.turns
+                                 if turn.index == index), None)
+                    text = None if turn is None else turn.response
+                    target = next((row for row in corrected.per_unit
+                                   if row.get("index") == index
+                                   and not row.get("terminal")), None)
+                    label = f"turn {index}"
+                else:
+                    raise ValueError(f"unknown per-turn replay unit: {unit}")
+                if text is None or target is None:
+                    raise ValueError(f"missing per-turn replay source: {unit}")
+                target["scores"] = self._score_text(
+                    item, spec, text, label, refs, unit)
+            return corrected, units
+
+        administrations = {a.label: a for a in execution.administrations}
+        for unit in units:
+            admin = administrations.get(unit)
+            target = next((row for row in corrected.per_unit
+                           if row.get("label") == unit), None)
+            if admin is None or target is None:
+                raise ValueError(f"missing administration replay source: {unit}")
+            text = ((admin.turns[0].response if admin.turns else None)
+                    or getattr(admin, "terminal_response", None) or "")
+            target["scores"] = self._score_text(
+                item, spec, text, unit, refs, unit)
+        return corrected, units
 
 
 # --------------------------------------------------------------------------- #

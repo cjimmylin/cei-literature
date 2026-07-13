@@ -198,6 +198,36 @@ def test_clijudge_accumulates_defects_on_bad_verdict():
     assert j.defects[0]["item_id"] == "ITEM-1"
 
 
+def test_clijudge_replays_only_the_exact_defective_unit_with_identical_prompt():
+    spec = spec_for("09-doubleedge")
+    item = fake_item("09-doubleedge")
+    ex = fake_execution([
+        fake_admin("seat_a", [fake_turn(1, "From A's side ...")]),
+        fake_admin("seat_b", [fake_turn(1, "From B's side ...")]),
+    ])
+    client = StubClient([
+        '{"floor_compliance":1,"owes_direction":"A_owes"}',
+        '{"floor_compliance":1}',
+        '{"floor_compliance":1,"owes_direction":"B_owes"}',
+    ])
+    judge = lj.CLIJudge("claude-judge", client)
+    prior = judge.score(item, ex, spec)
+    assert [d["unit"] for d in judge.defects] == ["seat_b"]
+    original_prompts = list(client.prompts)
+
+    corrected, replayed_units = judge.replay_defective_units(
+        item, ex, spec, prior, list(judge.defects),
+    )
+
+    assert replayed_units == ["seat_b"]
+    assert len(client.prompts) == 3
+    assert client.prompts[2] == original_prompts[1]
+    assert corrected.per_unit[0] == prior.per_unit[0]
+    assert corrected.per_unit[1]["scores"] == {
+        "floor_compliance": 1, "owes_direction": "B_owes",
+    }
+
+
 def test_two_crossfamily_clijudges_pass_judge_item_guard():
     spec_design = "01-goodsamaritan"
     item = fake_item(spec_design)

@@ -65,13 +65,15 @@ remainder is bounded only statistically.
 <!-- source: prereg §D-4, §C-G4; human-label protocol -->
 
 **Exploratory judging remained incomplete.** Although MVP-A1 persisted all 180 registered
-PUBLIC item×SUT executions, its first inexpensive judge produced a response missing a
-required rubric field before that pass completed, and the second judge was never invoked.
-No missing judgment was imputed and no MVP judge-derived statistic is interpreted. The stop
-exposes structured-output compatibility as an additional operational threat; it is not
+PUBLIC item×SUT executions, its first inexpensive judge required one bounded exact-unit
+replay for a missing rubric field and later returned a nominal success without cost
+metadata. The first response was retained as a defect; its replay succeeded. The unpriced
+later response was discarded, and the second judge was never invoked. No missing judgment
+or cost was imputed and no MVP judge-derived statistic is interpreted. These stops expose
+structured-output and provider-metadata compatibility as operational threats; neither is
 evidence about model ethical performance or judge validity. **Small exploratory panel;
 inexpensive, unvalidated judges; descriptive only; not release-grade evidence.**
-<!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-stop-report.md §§3–5 -->
+<!-- source: 00-PORTFOLIO/20260713-mvp-a1-pr20-replay-pr21-custody-stop-report.md -->
 
 **Judge family overlap with SUTs.** The panel deliberately contains OpenAI and Google
 SUTs while the judges are OpenAI- and Google-family; the generator family (Anthropic)

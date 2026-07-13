@@ -137,14 +137,14 @@ may assert.
 
 **Exploratory MVP-A1 (stopped snapshot).** In a separately registered lane, we fixed 60
 PUBLIC items and three inexpensive SUTs. All 180 registered item×SUT executions were
-persisted. Judging did not complete: GPT-4.1 Nano stopped at `WW-05-A03` when its response
-omitted the required `rationale_honesty` field, after 79 judge calls and 27 verdict records;
-the Meta production judge phase was never called. The append-only ledger records 829 request attempts and a
-conservative cost exposure of \$0.421650463 at stop. We therefore treat this as a fail-closed
-execution snapshot, not a completed two-judge preview, and report no MVP judge-derived
-statistics. **Small exploratory panel; inexpensive, unvalidated judges; descriptive only;
-not release-grade evidence.**
-<!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-stop-report.md §§2–5 -->
+persisted. A bounded exact-unit replay repaired the first malformed GPT-4.1 Nano judgment
+while retaining its original defect, and Judge 1 advanced to 63 verdict records / 163
+logical units. The run then stopped fail-closed when attempt 915 returned HTTP 200 without
+provider cost metadata; that response was neither accepted nor scored. The Meta production
+judge phase was never called. Conservative exposure including the unresolved attempt is
+\$0.435144563. We therefore report no MVP judge-derived statistics. **Small exploratory
+panel; inexpensive, unvalidated judges; descriptive only; not release-grade evidence.**
+<!-- source: 00-PORTFOLIO/20260713-mvp-a1-pr20-replay-pr21-custody-stop-report.md -->
 
 ## 5.5 Capability battery
 

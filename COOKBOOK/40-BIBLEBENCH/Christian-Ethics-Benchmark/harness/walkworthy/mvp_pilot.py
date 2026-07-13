@@ -727,6 +727,100 @@ def load_verdict_records(path) -> list:
     return rows
 
 
+def replay_path_for(verdict_path) -> Path:
+    """Return PR-20's append-only replay ledger beside the base verdict ledger."""
+    source = Path(verdict_path)
+    return source.with_name(f"{source.stem}-replays{source.suffix}")
+
+
+def _verdict_key(row: dict) -> tuple:
+    return (row.get("item_id"), row.get("model"), row.get("judge"))
+
+
+def load_replay_records(path, base_records: Optional[list] = None) -> list:
+    """Validate the one-replay-per-defective-key PR-20 ledger."""
+    rows = _read_jsonl_strict(path, "judge replay ledger")
+    base_records = base_records if base_records is not None else []
+    base = {_verdict_key(row): row for row in base_records}
+    seen = set()
+    for row in rows:
+        key = _verdict_key(row)
+        original = base.get(key)
+        verdict = row.get("verdict") or {}
+        if (original is None or not original.get("defects") or key in seen
+                or row.get("replay_attempt") != 1
+                or row.get("authority") != "PR-20 option 1"
+                or verdict.get("judge") != key[2]
+                or verdict.get("unit") != (original.get("verdict") or {}).get("unit")
+                or row.get("call_units") != original.get("call_units")
+                or int(row.get("replay_call_units") or 0) < 1):
+            raise ContractStop(f"invalid or duplicate MVP judge replay key: {key}")
+        replayed_units = row.get("replayed_units")
+        if (not isinstance(replayed_units, list)
+                or len(replayed_units) != row["replay_call_units"]
+                or len(set(replayed_units)) != len(replayed_units)):
+            raise ContractStop(f"invalid MVP judge replay units: {key}")
+        seen.add(key)
+    return rows
+
+
+def load_resolved_verdict_records(verdict_path) -> list:
+    """Resolve successful PR-20 replays without erasing the retained first defect."""
+    base = load_verdict_records(verdict_path)
+    replays = load_replay_records(replay_path_for(verdict_path), base)
+    replay_by_key = {_verdict_key(row): row for row in replays}
+    return [replay_by_key.get(_verdict_key(row), row) for row in base]
+
+
+def _score_verdict_row(item, record: dict, spec: ModelSpec, judge: Judge,
+                       scoring_spec) -> dict:
+    execution = execution_from_dict(record["execution"])
+    before_defects = len(getattr(judge, "defects", []))
+    verdict = judge.score(item, execution, scoring_spec)
+    defects = list(getattr(judge, "defects", []))[before_defects:]
+    return {
+        "item_id": record["item_id"],
+        "design": record["design"],
+        "model": record["model"],
+        "judge": spec.slug,
+        "call_units": len(verdict.per_unit) if verdict.per_unit else 1,
+        "verdict": asdict(verdict),
+        "defects": defects,
+    }
+
+
+def _replay_verdict_row(item, record: dict, spec: ModelSpec, judge: Judge,
+                        scoring_spec, original: dict) -> dict:
+    execution = execution_from_dict(record["execution"])
+    prior = Verdict(**original["verdict"])
+    before_defects = len(getattr(judge, "defects", []))
+    replay_method = getattr(judge, "replay_defective_units", None)
+    if callable(replay_method):
+        verdict, replayed_units = replay_method(
+            item, execution, scoring_spec, prior, list(original["defects"]))
+    elif (scoring_spec.unit == "item"
+          and {row.get("unit") for row in original["defects"]} <= {None, "item"}):
+        verdict = judge.score(item, execution, scoring_spec)
+        replayed_units = ["item"]
+    else:
+        raise ContractStop(
+            f"MVP judge cannot replay exact malformed units for {_verdict_key(original)}")
+    defects = list(getattr(judge, "defects", []))[before_defects:]
+    return {
+        "item_id": record["item_id"],
+        "design": record["design"],
+        "model": record["model"],
+        "judge": spec.slug,
+        "call_units": original["call_units"],
+        "verdict": asdict(verdict),
+        "defects": defects,
+        "replay_attempt": 1,
+        "replay_call_units": len(replayed_units),
+        "replayed_units": replayed_units,
+        "authority": "PR-20 option 1",
+    }
+
+
 def run_judge_phase(benchmark_root, execution_path, verdict_path,
                     spec: ModelSpec, judge: Judge) -> dict:
     if (spec not in JUDGE_SPECS or getattr(judge, "name", None) != spec.slug
@@ -735,40 +829,41 @@ def run_judge_phase(benchmark_root, execution_path, verdict_path,
     items = {item.id: item for item in select_mvp_items(benchmark_root)}
     executions = require_all_executions(execution_path)
     existing = load_verdict_records(verdict_path)
-    persisted_defects = sum(
-        len(row.get("defects") or []) for row in existing
-        if row.get("judge") == spec.slug
-    )
-    if persisted_defects:
+    replay_path = replay_path_for(verdict_path)
+    replays = load_replay_records(replay_path, existing)
+    replay_by_key = {_verdict_key(row): row for row in replays}
+    exhausted = [row for row in replays
+                 if row.get("judge") == spec.slug and row.get("defects")]
+    if exhausted:
         raise ContractStop(
-            f"MVP persisted judge defects block {spec.slug}: {persisted_defects}")
-    done = {(row["item_id"], row["model"], row["judge"]) for row in existing}
+            f"MVP judge replay exhausted for {spec.slug}: {len(exhausted)}")
+    existing_by_key = {_verdict_key(row): row for row in existing}
+    resolved = load_resolved_verdict_records(verdict_path)
+    done = {_verdict_key(row) for row in resolved if not row.get("defects")}
     new = 0
     from .rubrics import spec_for
     for record in executions:
         key = (record["item_id"], record["model"], spec.slug)
         if key in done:
             continue
-        execution = execution_from_dict(record["execution"])
-        before_defects = len(getattr(judge, "defects", []))
-        verdict = judge.score(items[record["item_id"]], execution,
-                              spec_for(record["design"]))
-        defects = list(getattr(judge, "defects", []))[before_defects:]
-        call_units = len(verdict.per_unit) if verdict.per_unit else 1
-        row = {
-            "item_id": record["item_id"],
-            "design": record["design"],
-            "model": record["model"],
-            "judge": spec.slug,
-            "call_units": call_units,
-            "verdict": asdict(verdict),
-            "defects": defects,
-        }
-        _append_jsonl(Path(verdict_path), row)
-        if defects:
-            raise ContractStop(
-                f"MVP judge reliability failure for {spec.slug}: "
-                f"{len(defects)} defects")
+        scoring_spec = spec_for(record["design"])
+        original = existing_by_key.get(key)
+        if original is None:
+            original = _score_verdict_row(
+                items[record["item_id"]], record, spec, judge, scoring_spec)
+            _append_jsonl(Path(verdict_path), original)
+            existing_by_key[key] = original
+        if original.get("defects"):
+            replay = replay_by_key.get(key)
+            if replay is None:
+                replay = _replay_verdict_row(
+                    items[record["item_id"]], record, spec, judge,
+                    scoring_spec, original)
+                _append_jsonl(replay_path, replay)
+                replay_by_key[key] = replay
+            if replay.get("defects"):
+                raise ContractStop(
+                    f"MVP judge reliability failure for {spec.slug}: replay exhausted")
         done.add(key)
         new += 1
     complete = sum(1 for key in done if key[2] == spec.slug)
@@ -812,7 +907,10 @@ def _write_jsonl_once(path, rows: list, label: str) -> None:
 def finalize_pilot(benchmark_root, execution_path, verdict_path,
                    scored_path, summary_path, runtime: Optional[dict] = None) -> dict:
     executions = require_all_executions(execution_path)
-    verdict_rows = load_verdict_records(verdict_path)
+    base_verdict_rows = load_verdict_records(verdict_path)
+    replay_rows = load_replay_records(
+        replay_path_for(verdict_path), base_verdict_rows)
+    verdict_rows = load_resolved_verdict_records(verdict_path)
     expected = {
         (item_id, sut.slug, judge.slug)
         for item_id in MVP_ITEM_IDS for sut in SUT_SPECS for judge in JUDGE_SPECS
@@ -866,6 +964,16 @@ def finalize_pilot(benchmark_root, execution_path, verdict_path,
         "judge_defects": {
             spec.slug: sum(len(row.get("defects") or []) for row in verdict_rows
                            if row["judge"] == spec.slug)
+            for spec in JUDGE_SPECS
+        },
+        "historical_judge_defects": {
+            spec.slug: sum(len(row.get("defects") or []) for row in base_verdict_rows
+                           if row["judge"] == spec.slug)
+            for spec in JUDGE_SPECS
+        },
+        "judge_replays": {
+            spec.slug: sum(int(row.get("replay_call_units") or 0)
+                           for row in replay_rows if row["judge"] == spec.slug)
             for spec in JUDGE_SPECS
         },
         "disclaimer": MVP_DISCLAIMER,
@@ -1012,7 +1120,7 @@ def run_live(benchmark_root, out_dir, api_key: str, base_transport,
     checkpoint = _validate_or_create_pre_meta_checkpoint(
         out / "pre_meta_checkpoint.json", ledger,
         load_execution_records(out / "executions.jsonl"),
-        load_verdict_records(out / "verdicts.jsonl"),
+        load_resolved_verdict_records(out / "verdicts.jsonl"),
         _read_jsonl_strict(out / "probes.jsonl", "probe ledger"),
         _read_errors(out / "phase_errors.jsonl"),
     )

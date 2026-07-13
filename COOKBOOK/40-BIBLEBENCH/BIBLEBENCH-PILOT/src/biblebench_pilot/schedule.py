@@ -48,6 +48,9 @@ _PHYSICAL_SCOPE_QUALIFIERS = frozenset(
 _ROUTE_SCOPE_QUALIFIERS = frozenset(
     {"id", "identifier", "name", "config", "identity"}
 )
+_ROUTE_SCOPE_PREFIXES = frozenset(
+    {"selected", "requested", "returned", "provider"}
+)
 _BLIND_FORECAST_COMPONENTS = frozenset(
     {
         "cue",
@@ -299,7 +302,9 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
                 route
                 and (
                     len(components) == 1
+                    or components[0] == "route"
                     or not _ROUTE_SCOPE_QUALIFIERS.isdisjoint(components)
+                    or not _ROUTE_SCOPE_PREFIXES.isdisjoint(components)
                 )
             )
             or (

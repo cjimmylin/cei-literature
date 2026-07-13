@@ -189,6 +189,12 @@ def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
         "route_id",
         "route_name",
         "route_config",
+        "route_token",
+        "route_version",
+        "route_description",
+        "selected_route",
+        "requested_route",
+        "returned_route",
     ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
@@ -218,6 +224,9 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
             "physicality_notes": "Physicality is ordinary prose here.",
             "interventional_notes": "Interventional is an unrelated adjective.",
             "delivery_route": "An ordinary task delivery path.",
+            "evacuation_route": "An ordinary task evacuation path.",
+            "routing_notes": "Ordinary routing prose.",
+            "reroute_notes": "Ordinary reroute prose.",
             "golden_rule": "An ordinary principle, not a result field.",
             "risk_factor": "An ordinary descriptive factor.",
             "physical_state": "An ordinary state description.",
@@ -228,6 +237,9 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
             "physical_state": "An ordinary state description.",
             "interventional_notes": "Interventional is an unrelated adjective.",
             "delivery_route": "An ordinary task delivery path.",
+            "evacuation_route": "An ordinary task evacuation path.",
+            "routing_notes": "Ordinary routing prose.",
+            "reroute_notes": "Ordinary reroute prose.",
         },
     )
 

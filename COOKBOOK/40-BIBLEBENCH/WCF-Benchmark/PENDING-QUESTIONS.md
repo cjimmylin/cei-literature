@@ -18,8 +18,23 @@ checklist on 2026-07-12; durable record:
 `20260712l-jimmy-r57-ratification-record.md`. T2.5 is checked and WCF-Bench is MVP
 TESTABLE under R53/R58.1, retaining the R34.4 single-family OPEN label and all existing
 DESCRIPTIVE/PRE-GATE and PROOF disclosures. Paper P1 citation verification is also
-complete. Paid T3/T4 calls remain separately gated and unauthorized. There are no
-unresolved judgment questions in this file.
+complete. Paid T3/T4 calls remain separately gated and unauthorized. Jimmy separately
+authorized the exact, shadow-only judge bakeoff recorded in
+`20260712n-shadow-judge-bakeoff-design.md`, with a $1.00 NTE cap; it does not reopen the
+candidate ladder, change the manifest, or authorize any T3/T4 call. Written-spec review
+precedes implementation. There are no unresolved judgment questions in this file.
+
+## Jimmy authorization received 2026-07-12 — shadow judge bakeoff
+
+- **Scope:** Shadow evidence only. T4, the manifest of record, and the R47.4 closed
+  candidate ladder remain unchanged.
+- **Paid models:** exactly `z-ai/glm-5.2` and `deepseek/deepseek-v4-pro`.
+- **Offline comparators:** reuse persisted `x-ai/grok-4.20` and
+  `google/gemini-2.5-flash` evidence; no new Grok or Gemini calls.
+- **Budget:** strict $1.00 not-to-exceed cap. This authorization does not extend to T3,
+  T4, another model, a substitute slug, or a production-panel change.
+- **Design of record:** `20260712n-shadow-judge-bakeoff-design.md`, pending Jimmy's review
+  of the written spec before implementation.
 
 ## Rulings received 2026-07-11
 
@@ -33,7 +48,9 @@ unresolved judgment questions in this file.
 Jimmy's R57 ratification. Question 4's scorer behavior is resolved, but its qualified
 manifest surface remains unspecified and Task 6 remains deferred under R52. Paid T3/T4
 calls remain prohibited until Jimmy separately authorizes the specific roster, run, and
-budget. The historical question records below are retained for provenance.
+budget. The later $1 shadow-bakeoff authorization above is a separate, exact exception and
+does not authorize those runs. The historical question records below are retained for
+provenance.
 
 **Historical provisional packet:** `20260711-codex-provisional-adjudication-recommendations.md`
 was ratified/superseded by R47–R53. It remains provenance only and assigns no ruling
@@ -68,6 +85,10 @@ numbers.
 ## RESOLVED 2026-07-11 — Tasks 5–6: cheap-only OpenRouter constraint versus binding rosters
 
 - **Ruling:** Pause all paid calls and continue offline only. Do not substitute models.
+
+- **Later bounded exception (2026-07-12):** Jimmy authorized only the two-model,
+  shadow-only bakeoff and $1 cap recorded above. Tasks 5–6 and T3/T4 remain paused unless
+  separately authorized.
 
 - **Question:** Which exact model slugs are approved as "cheap" for the remaining live EPISODE and PROOFTEXT work, and does that instruction supersede the exact Task 5 four-SUT roster and Task 6 qualified-judge panel?
 - **Why it blocks:** The execution plan fixes the Task 5 SUTs and requires Task 6 judge re-reading under the Task 4 manifest. Substituting cheaper models would violate the pre-registered scope, while proceeding without an approved cheap list would violate the current user instruction.

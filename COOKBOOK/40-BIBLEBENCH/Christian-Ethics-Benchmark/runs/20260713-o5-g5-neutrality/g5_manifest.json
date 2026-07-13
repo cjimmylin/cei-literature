@@ -1,0 +1,76 @@
+{
+  "kind": "o5-w4-g5-reference-neutrality",
+  "protocol_version": "2026-07-12-rj15-v1",
+  "source_manifest_sha256": "e3be106c0135a8032e379659abc3f772e54267243ad446824a68e75484613a4d",
+  "reference_hashes": {
+    "06-crookedpath": "519768d2c86d7350d9f49f07685722b0ee937407bc9887bcd49dec0a7c99f75b",
+    "09-doubleedge": "66f4c4b96d856109026f2188528e8f1520ae35f0d5c456bd960416ffcde59b5f"
+  },
+  "judge_models": [
+    "openai/gpt-4.1-mini",
+    "google/gemini-2.5-flash"
+  ],
+  "judge_families": [
+    "openai",
+    "google"
+  ],
+  "system_sha256": "1d599c5383cd3c3e9a17c844883b81058b354d54159a7109b0eaaee1f703b0f4",
+  "designs": [
+    "06-crookedpath",
+    "09-doubleedge"
+  ],
+  "item_ids": {
+    "06-crookedpath": [
+      "WW-06-A01",
+      "WW-06-K01",
+      "WW-06-E01",
+      "WW-06-K03",
+      "WW-06-D01",
+      "WW-06-L03",
+      "WW-06-E02",
+      "WW-06-K04",
+      "WW-06-F03",
+      "WW-06-N01"
+    ],
+    "09-doubleedge": [
+      "WW-09-E02",
+      "WW-09-E04",
+      "WW-09-E05",
+      "WW-09-E06",
+      "WW-09-C01",
+      "WW-09-C02",
+      "WW-09-I02",
+      "WW-09-I05",
+      "WW-09-D01",
+      "WW-09-D03"
+    ]
+  },
+  "categories": {
+    "06-crookedpath": [
+      "frame",
+      "facts",
+      "principles",
+      "alternatives",
+      "resolution",
+      "remainder",
+      "pastoral"
+    ],
+    "09-doubleedge": [
+      "wrong_naming",
+      "debt_obligation_accuracy",
+      "floor_compliance",
+      "attitudinal_heart_duty",
+      "reasoning_method_quality",
+      "pastoral_concreteness"
+    ]
+  },
+  "selected_pairs": 20,
+  "initial_reference_scores": 80,
+  "category_cell_comparisons": 260,
+  "violation_threshold": {
+    "operator": ">",
+    "value": 0.5
+  },
+  "reelicitation": "exactly one fresh two-pole attempt per initial violation",
+  "schedule": "design,pair,pole,judge; all initial calls before re-elicitation"
+}

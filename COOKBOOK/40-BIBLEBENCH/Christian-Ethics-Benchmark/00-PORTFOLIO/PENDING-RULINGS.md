@@ -732,8 +732,58 @@ adversarial-review memo to Jimmy and requires a one-line ratification on first u
 > 20260712-codex-paper-fill-boot-prompt.md (master-plan §5 conditional; Fable window
 > closed).
 
-**OPEN — JIMMY RULING.** The Codex conformance checklist and Opus review request exist;
-no Opus memo or Jimmy acceptance is claimed.
+**Jimmy ruling (2026-07-13, verbatim):**
+
+> Ratify paper claims review routed Opus memo → Jimmy per
+> 20260712-codex-paper-fill-boot-prompt.md (master-plan §5 conditional; Fable window
+> closed).
+
+**RATIFIED / CLOSED.** The first post-Fable paper-claims review is authorized to use
+the staged Opus adversarial-review memo → Jimmy route. The Codex conformance checklist
+and review request exist; no Opus memo or Jimmy acceptance is claimed yet.
+
+---
+
+## PR-18 — W5 G7 production mechanics are under-specified
+
+**Surfaced:** 2026-07-13 Codex O5 W4→W5 session, before building or making any live
+G7 call. W4 is unaffected. No PUBLIC item, key, perturbation, or model output was
+changed, and no private split was loaded.
+
+The frozen G7 rule requires a deterministic “first 20% by id per design, stratified
+easy/hard,” two batteries (name swap and meaning-preserving paraphrase), L1–L9 lint,
+and a single per-design flip rate over item×model cells. It does not register the
+following production mechanics:
+
+1. **Stratum rounding/allocation.** On the current PUBLIC banks, flooring 20% within
+   each easy/hard stratum selects 59 items and gives designs 04/06 zero easy items;
+   nearest-integer selection gives 73 items; ceiling each nonempty stratum gives 75.
+   No existing selector or ruling chooses among these materially different surfaces.
+2. **Paraphrase surface and lint.** L1–L9 are prose item-authoring rules, not an
+   executable paraphrase data contract. The framework does not say which administration
+   fields are paraphrased for paired or multi-turn designs; how branch structure,
+   quantities, names, facts-diff identity, anchors, and keyed scope are proven invariant;
+   or what deterministic/semantic checks constitute “meaning-preserving.”
+3. **Two-battery reduction.** The rule does not say whether name-swap and paraphrase
+   flip rates are gated separately, pooled as two item×model observations, or collapsed
+   to one any-battery-flip value per item×model cell.
+4. **Name-role materialization.** R-J13 fixes replacement eligibility and prohibits
+   replacement-name reuse across a target design's whole battery, but no role-metadata
+   source/extractor is registered. The existing helper allocates collision-free names
+   only within one item unless a production driver adds a design-wide registry.
+5. **Outcome/Part-B reduction.** The normal outcome accessor ignores the post-W1
+   derived adjudicated verdict, and the frozen G7 text does not state whether an
+   unresolved original or perturbed cell is excluded from the denominator or treated
+   as a non-pass pending Part B.
+
+**Jimmy ruling required before W5 implementation or live calls:** register (a) the
+sampling rounding/allocation rule, (b) the exact paraphrase surface plus executable
+invariance/lint acceptance contract, (c) how the two batteries reduce to G7, (d) the
+role-extraction/design-wide name-registry contract, and (e) unresolved-cell denominator
+handling. Codex may implement whichever exact mechanics Jimmy supplies; it must not
+infer them from results.
+
+**OPEN — W5 STOPPED ON JIMMY.** W4 G5 remains on the active label-free critical path.
 
 ---
 

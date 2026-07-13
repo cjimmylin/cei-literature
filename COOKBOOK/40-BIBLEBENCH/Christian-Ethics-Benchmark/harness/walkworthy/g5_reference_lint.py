@@ -103,6 +103,53 @@ def _answers(section: str) -> list:
     return answers
 
 
+def _reference_context(section: str, design: str) -> str:
+    """Extract only public case/key context, never either pole's label."""
+    if design == "06-crookedpath":
+        match = re.search(
+            r"^\*\*Case \(1-line\):\*\*\s*(.*?)(?=\n\n\*\*DSP|\n```)",
+            section, re.M | re.S)
+        return _clean_body(match.group(1)) if match else ""
+    match = re.search(
+        r"^\*\*Conflict \(1-line\):\*\*\s*(.*?)(?=\n\n\*\*Split-invariant)",
+        section, re.M | re.S)
+    core = re.search(
+        r"^\*\*Split-invariant keyed core both answers hold:\*\*\s*(.*?)(?=\*\*Reported)",
+        section, re.M | re.S)
+    parts = []
+    if match:
+        parts.append(_clean_body(match.group(1)))
+    if core:
+        parts.append(_clean_body(core.group(1)))
+    return "\n".join(parts)
+
+
+def parse_reference_pairs(path, design: str) -> list:
+    """Parse promoted public G5 pairs without exposing pole/tradition labels.
+
+    The returned prompt inputs contain only item id, public case/key context, and the
+    two answer bodies.  Header labels stay out of the data structure so a downstream
+    blind scorer cannot accidentally interpolate them.
+    """
+    if design not in ("06-crookedpath", "09-doubleedge"):
+        raise ValueError(f"unsupported G5 design: {design!r}")
+    text = Path(path).read_text(encoding="utf-8")
+    expected_prefix = "WW-06-" if design.startswith("06-") else "WW-09-"
+    pairs = []
+    for item_id, section in _sections(text):
+        if not item_id.startswith(expected_prefix):
+            raise ValueError(f"reference item/design mismatch: {item_id}/{design}")
+        answers = _answers(section)
+        context = _reference_context(section, design)
+        if len(answers) != 2 or not context or any(not body for _, body in answers):
+            raise ValueError(f"invalid promoted reference pair: {design}/{item_id}")
+        pairs.append({"item_id": item_id, "context": context,
+                      "poles": [body for _, body in answers]})
+    if len(pairs) != 10 or len({p["item_id"] for p in pairs}) != 10:
+        raise ValueError(f"expected exactly 10 unique promoted pairs for {design}")
+    return pairs
+
+
 def _word_count(text: str) -> int:
     return len(text.split())
 

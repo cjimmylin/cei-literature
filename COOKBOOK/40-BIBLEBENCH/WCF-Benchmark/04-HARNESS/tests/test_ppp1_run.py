@@ -172,6 +172,49 @@ def test_evidence_client_checks_reservation_before_call_and_persists_raw(tmp_pat
     assert row["text"] == "ok"
 
 
+def test_paid_attempt_interrupt_is_captured_checkpointed_and_not_resumable(tmp_path):
+    plan, out = _resume_dir(tmp_path)
+    item = plan.normal_items[0]
+    sut = runner.PPP1_SUTS[0]
+
+    class InterruptedInner:
+        model = sut
+        max_tokens = runner.SUT_MAX_TOKENS
+
+        def __init__(self):
+            self.calls = 0
+            self.usage_log = []
+
+        def complete(self, _prompt, item_id=None):
+            self.calls += 1
+            raise KeyboardInterrupt("operator stop")
+
+    inner = InterruptedInner()
+    sink = JsonlSink(str(out / runner.RAW_EVIDENCE_FILENAME))
+    guard = BudgetGuard(runner.MAX_BUDGET_USD, _frozen_catalog())
+    client = runner.EvidenceClient(
+        inner, role="sut", name=sut, slug=sut, guard=guard, sink=sink)
+
+    outcome = runner.run_normal_execution(
+        [item], [sut], {sut: client}, SimpleNamespace(active=[]), str(out))
+
+    assert outcome.stop_reason.startswith(
+        "EvidenceError: paid attempt interrupted: KeyboardInterrupt")
+    assert inner.calls == 1
+    raw = json.loads((out / runner.RAW_EVIDENCE_FILENAME).read_text())
+    assert raw["error"] == "KeyboardInterrupt: operator stop"
+    assert raw["fallback_accounting"]["usage"]["fallback_cost_usd"] > 0
+    checkpoint = json.loads((out / runner.CHECKPOINT_FILENAME).read_text())
+    assert checkpoint["stop"]["class"] == "EvidenceError"
+    assert len(checkpoint["usage"]["calls"]) == 1
+    assert checkpoint["usage"]["calls"][0]["model"] == sut
+    assert checkpoint["usage"]["calls"][0]["usage"] == (
+        raw["fallback_accounting"]["usage"])
+    with pytest.raises(OutputPathError, match="terminal"):
+        runner.validate_resume_identity(str(out), plan)
+    assert inner.calls == 1
+
+
 def test_budget_stop_is_terminal_and_checkpointed(tmp_path):
     item = runner.build_execution_plan().normal_items[0]
 

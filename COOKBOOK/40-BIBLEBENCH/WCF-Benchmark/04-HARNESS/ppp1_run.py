@@ -358,6 +358,36 @@ class PreviewJudgePanel(JudgePanel):
             error=item_error)
 
 
+class EvidenceClient(episode_run.EvidenceClient):
+    """PPP-1 wrapper that retains custody when a paid attempt is interrupted."""
+
+    def complete(self, prompt: str, item_id: Optional[str] = None) -> str:
+        inner_usage = self._inner_usage_log()
+        usage_before = len(inner_usage)
+        accounting_before = len(self._accounting_log)
+        try:
+            return super().complete(prompt, item_id=item_id)
+        except Exception:
+            raise
+        except BaseException as exc:
+            entries = list(inner_usage[usage_before:])
+            fallback_accounting = None
+            if len(self._accounting_log) == accounting_before:
+                if entries and self._usable_usage(entries):
+                    self._accounting_log.extend(entries)
+                else:
+                    fallback_accounting = self._missing_usage_fallback(
+                        prompt, item_id)
+                    self._accounting_log.append(fallback_accounting)
+            self._write(
+                prompt=prompt, item_id=item_id, text=None, usage=entries,
+                error=f"{type(exc).__name__}: {exc}",
+                fallback_accounting=fallback_accounting,
+            )
+            raise EvidenceError(
+                f"paid attempt interrupted: {type(exc).__name__}: {exc}") from exc
+
+
 @dataclass
 class PreviewRunOutcome:
     expected_cells: int
@@ -852,12 +882,12 @@ def _run_live(plan: PreviewPlan, output_dir: str, *, resume: bool,
         inner = client_factory(
             model=slug, api_key=api_key, system=EXAMINEE_SYSTEM,
             max_tokens=SUT_MAX_TOKENS)
-        sut_clients[slug] = episode_run.EvidenceClient(
+        sut_clients[slug] = EvidenceClient(
             inner, role="sut", name=slug, slug=slug, guard=guard, sink=sink)
     judge_inner = client_factory(
         model=PPP1_JUDGE, api_key=api_key, system=None,
         max_tokens=JUDGE_MAX_TOKENS)
-    judge_client = episode_run.EvidenceClient(
+    judge_client = EvidenceClient(
         judge_inner, role="judge", name="gemini-flash", slug=PPP1_JUDGE,
         guard=guard, sink=sink)
     try:
@@ -1004,8 +1034,6 @@ def main(argv: Optional[Sequence[str]] = None, *,
         client_factory=client_factory, key_fetch=key_fetch,
         catalog_fetch=catalog_fetch, execute_fn=execute_fn)
 
-
-EvidenceClient = episode_run.EvidenceClient
 
 
 if __name__ == "__main__":

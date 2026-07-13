@@ -10,27 +10,27 @@ This register defines the current paper-facing contract for active work under `4
 
 - `paper_claim_enabled`: A shared-episode battery can measure observable ethical behavior and passage-grounded Christian interpretation without collapsing them into one score.
 - `paper_deliverable`: Methods/design manuscript draft, 48 executable episodes, pilot analyses and tables, and the required benchmark PDF deliverables.
-- `blocking_reason`: P1 until Jimmy completes pass-one episode adjudication and the registered blinded repeat, with both frozen before any pilot model call or output exposure, and every record is approved, repaired, rejected/replaced, or explicitly deferred with a narrowed claim; exact cue-pair-to-evidence custody also remains a pre-live P1 for any cue-contrast analysis.
-- `minimum_sufficiency_gate`: The executable-bank gate has passed: 12 episodes per benchmark; 4 target, 4 null/foil, and 4 restraint/counterfeit; 34 common-life and 14 Christian-facing overall; C0/C1/C2, probe, answer contract, capability twin specification, failure poles, exact provenance, shared-scheduler compilation, and bounded P0/P1 review. The next gate is a frozen single-expert provisional-gold packet with no unresolved record-level P0/P1, plus exact private cue-pair/logical-call-to-evidence binding before live cue analysis.
-- `timebox`: One owner pass-one adjudication, one bounded record-repair pass, and one pre-live cue-custody integration pass; stop rather than reopening P2/P3 hardening.
-- `stop_condition`: Freeze pass one and the blinded repeat without pilot-output exposure, freeze the pre-live evidence-custody mapping, then present the exact cheap-model roster and cost checkpoint for separate authorization; do not execute calls or capability-adjusted attribution first.
+- `blocking_reason`: P1 until Jimmy completes pass-one episode adjudication and the registered blinded repeat, with both frozen before any pilot model call or output exposure, and every record is approved, repaired, rejected/replaced, or explicitly deferred with a narrowed claim. The cue-custody implementation P1 is closed; a run-specific manifest remains a mandatory runtime gate before any live cue contrast.
+- `minimum_sufficiency_gate`: The executable-bank and offline pre-pilot gates have passed: 48 episodes with registered geometry, a blinded 10-record repeat workflow, authenticated 144-row cue custody, vector-first synthetic analysis, a proposal-only cost checkpoint, and a visually verified methods PDF. The next gate is a frozen single-expert provisional-gold packet with no unresolved record-level P0/P1 and a completed blinded repeat.
+- `timebox`: One owner pass-one adjudication, one bounded record-repair pass, and one blinded repeat; stop rather than reopening P2/P3 hardening.
+- `stop_condition`: Freeze pass one and the blinded repeat without pilot-output exposure, then present the exact proposal-only cheap-model roster and cost checkpoint for separate authorization. At execution, build and verify the run-specific custody manifest from actual evidence before any cue analysis; do not execute calls or capability-adjusted attribution first.
 - `deferred_nonblocking_work`: Capability-twin execution and capability-adjusted attribution are outside the narrowed first cheap-pilot claim until separately scheduled and custody-bound; hostile-deployment hardening, broad Unicode compatibility, optional transport adapters, exhaustive adversarial edge cases, and other P2/P3 findings remain deferred.
 - `owner_approved_exception`: none.
 
 ### Current paper-track status
 
-- Manuscript: venue-neutral design/methods draft, typed claims registry, local bibliography scaffold, and limitations register exist; results remain `PENDING_EMPIRICAL_RUN`.
+- Manuscript: venue-neutral design/methods draft, typed claims registry, local bibliography scaffold, and limitations register exist; a deterministic nine-page prerelease PDF is visually verified; results remain `PENDING_EMPIRICAL_RUN`.
 - Executable bank: 48 episodes are authored, provenance-validated, bounded-reviewed, and compiled through the shared scheduler at commit `8940378a7`; the research bank is frozen for owner adjudication.
-- Evidence: deterministic 48-record provisional-gold packet and judge guide exist; all owner decisions are blank and pending. No consolidated cheap-model pilot evidence exists.
-- PDF: prior design PDFs exist; manuscript and pilot-result PDFs remain downstream of owner gold and empirical evidence.
-- Spend: no new paid call is authorized by this register.
+- Evidence: deterministic 48-record provisional-gold packet and judge guide exist; the authenticated blinded-repeat workflow, actual-byte cue-custody contract, and synthetic vector-analysis scaffold pass the integrated offline gate. All owner decisions are blank and pending; no model evidence exists.
+- PDF: the prerelease methods PDF is generated and visually verified; pilot-result PDFs remain downstream of owner gold and empirical evidence.
+- Spend: a dated four-model proposal estimates $2.72117760 worst case and proposes a $4.00 hard ceiling; it authorizes no credential access, call, roster, route, or spend.
 - Local authority: `output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md` in the consolidated pilot worktree, plus each benchmark's current handoff.
-- Next session: Jimmy completes pass-one theologian-technical adjudication and the registered blinded repeat without pilot-output exposure. In parallel, close the exact cue-pair evidence-binding P1 and prepare—but do not execute—the exact cheap-model roster and cost checkpoint.
+- Next session: Jimmy completes pass-one theologian-technical adjudication; after pass one freezes, generate and complete the authenticated blinded repeat without pilot-output exposure. Then review the proposal-only cheap-model checkpoint for separate authorization.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: owner pass-one plus blinded-repeat provisional-gold adjudication before any pilot output; exact cue-pair/logical-call-to-evidence binding before any live cue-contrast claim.
+- Open P1: owner pass-one plus blinded-repeat provisional-gold adjudication before any pilot output. Run-specific cue custody remains a mandatory execution/analysis gate, not an open implementation defect.
 - Deferred P2: compatibility and deployment hardening that cannot change registered pilot conclusions.
 - Deferred P3: polish and hypothetical hostile-deployment edge cases.
 

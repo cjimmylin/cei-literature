@@ -124,9 +124,10 @@ claims:
     type: DESIGN_CLAIM
     statement: >-
       The planned diagnostic pilot calls for four inexpensive general-purpose
-      models across at least three pinned provider families, with the exact
-      roster, prices, ceilings, spend authority, and expiry decided only at a
-      fresh owner checkpoint.
+      models across at least three pinned provider families; a dated
+      proposal-only checkpoint records a candidate four-route roster and
+      conservative cost ceiling, while final identity, prices, ceilings, spend
+      authority, and expiry still require fresh owner approval.
     manuscript_locations:
       - Abstract
       - "9.2 Model and provider plan"
@@ -135,7 +136,9 @@ claims:
         section: "8. Spend and empirical execution"
       - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
         section: "9. Execution phases, Phase 3"
-    boundary: No model, provider, credential access, live call, or spend is authorized here.
+      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/PILOT-COST-CHECKPOINT.md
+        section: Proposed four-model panel and Conservative token and cost ceiling
+    boundary: The checkpoint is a time-limited proposal only. No model, provider, credential access, live call, or spend is authorized here.
 
   - id: D009
     type: DESIGN_CLAIM
@@ -198,9 +201,9 @@ claims:
         section: lossless reconstruction, closed event, hash, missingness, and tamper tests
     boundary: >-
       Losslessness applies to one retained bounded response/probe pair, not to all
-      morally relevant reality and not to cue-specific multi-call custody. No
-      mapping from C0/C1/C2 logical-call pairs to evidence-bundle hashes is
-      implemented or evidenced by this object.
+      morally relevant reality and not to cue-specific multi-call custody. This
+      object remains cue-blind; the separate custody module supplies the
+      schedule-derived pair mapping and sealed verification contract.
 
   - id: E003
     type: ENGINEERING_CLAIM
@@ -223,15 +226,33 @@ claims:
     type: ENGINEERING_CLAIM
     statement: >-
       On 2026-07-13, the full credential-free package suite completed with
-      2720 passing tests and no test failures in the manuscript worktree.
+      2826 passing tests and no test failures in the manuscript worktree.
     manuscript_locations:
       - "10. Engineering validation"
     support:
       - command: /opt/homebrew/bin/python3 -m pytest tests -q
         cwd: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT
-        observed_result: 2720 passed in 170.75s
+        observed_result: 2826 passed in 243.85s
         warnings: two non-failing pytest temporary-directory cleanup warnings
     boundary: This is a time-bounded engineering result and says nothing about model behavior.
+
+  - id: E005
+    type: ENGINEERING_CLAIM
+    statement: >-
+      The private cue-custody contract derives 144 primary/probe-pair rows from
+      the schedule, authenticates canonical evidence artifacts, seals a
+      verifier-produced receipt, and fails closed at actor and judge surfaces.
+    manuscript_locations:
+      - Abstract
+      - "6. Lossless observable evidence"
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/src/biblebench_pilot/custody.py
+        section: build_cue_custody_manifest and verify_cue_custody_manifest
+      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/tests/test_custody.py
+        section: schedule coverage, artifact authentication, tamper, and surface tests
+    boundary: >-
+      This is synthetic engineering validation. No live-run custody manifest or
+      empirical cue contrast exists.
 
   - id: P001
     type: PROVISIONAL_THEOLOGICAL_JUDGMENT
@@ -283,8 +304,9 @@ claims:
       - completed blinded adjudication
       - preregistered paired analysis
     boundary: >-
-      The current package has no cue-pair/logical-call-to-bundle mapping. The
-      pending contrast is ineligible until that private custody gate closes.
+      The package has a synthetically verified cue-pair/logical-call-to-bundle
+      custody contract, but no live-run manifest. The pending contrast is
+      ineligible until actual run evidence is mapped, authenticated, and frozen.
     status: pending_live_run
 
   - id: X002

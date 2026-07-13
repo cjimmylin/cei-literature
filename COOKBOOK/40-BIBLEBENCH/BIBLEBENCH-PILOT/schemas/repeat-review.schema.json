@@ -1,0 +1,330 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BibleBench Blinded Repeat Review Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "packet_version",
+    "classification",
+    "review_status",
+    "judge",
+    "completed_at",
+    "records",
+    "record_rollup_rule"
+  ],
+  "properties": {
+    "packet_version": {"const": "blinded-repeat-review-v1"},
+    "classification": {"const": "single_expert_provisional_gold_repeat"},
+    "review_status": {"enum": ["pending", "completed"]},
+    "judge": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/judge"}]},
+    "completed_at": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/utcTimestamp"}]},
+    "records": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {"$ref": "#/$defs/repeatRecord"}
+    },
+    "record_rollup_rule": {"$ref": "#/$defs/rollupRule"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"review_status": {"const": "pending"}}},
+      "then": {
+        "properties": {
+          "judge": {"type": "null"},
+          "completed_at": {"type": "null"}
+        }
+      },
+      "else": {
+        "properties": {
+          "judge": {"$ref": "#/$defs/judge"},
+          "completed_at": {"$ref": "#/$defs/utcTimestamp"},
+          "records": {
+            "items": {"properties": {"review_status": {"const": "reviewed"}}}
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "shortText": {"type": "string", "minLength": 1, "maxLength": 512},
+    "boundedText": {"type": "string", "minLength": 8, "maxLength": 8000},
+    "stringList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/shortText"}
+    },
+    "idList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z][a-z0-9_]{0,63}$"}
+    },
+    "utcTimestamp": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "judge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["judge_id", "display_name", "role"],
+      "properties": {
+        "judge_id": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"},
+        "display_name": {"$ref": "#/$defs/shortText"},
+        "role": {"const": "founding_theologian_technical_judge"}
+      }
+    },
+    "cueSurfaces": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["C0", "C1", "C2"],
+      "properties": {
+        "C0": {"$ref": "#/$defs/boundedText"},
+        "C1": {"$ref": "#/$defs/boundedText"},
+        "C2": {"$ref": "#/$defs/boundedText"}
+      }
+    },
+    "forecast": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "response_options"],
+      "properties": {
+        "question": {"$ref": "#/$defs/boundedText"},
+        "response_options": {"$ref": "#/$defs/stringList"}
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["objective", "success_condition"],
+      "properties": {
+        "objective": {"$ref": "#/$defs/boundedText"},
+        "success_condition": {"$ref": "#/$defs/boundedText"}
+      }
+    },
+    "responseField": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "type", "min_length"],
+      "properties": {
+        "name": {"type": "string", "pattern": "^[a-z][a-z0-9_]{0,63}$"},
+        "type": {"const": "string"},
+        "min_length": {"type": "integer", "minimum": 1, "maximum": 8000}
+      }
+    },
+    "answerContract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_fields", "allowed_outcomes", "response_type", "additional_properties", "fields"],
+      "properties": {
+        "required_fields": {"$ref": "#/$defs/idList"},
+        "allowed_outcomes": {"$ref": "#/$defs/idList"},
+        "response_type": {"const": "object"},
+        "additional_properties": {"const": false},
+        "fields": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 32,
+          "items": {"$ref": "#/$defs/responseField"}
+        }
+      }
+    },
+    "capabilityTwin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["neutral_objective", "success_condition", "shared_tools", "shared_answer_contract"],
+      "properties": {
+        "neutral_objective": {"$ref": "#/$defs/boundedText"},
+        "success_condition": {"$ref": "#/$defs/boundedText"},
+        "shared_tools": {"const": true},
+        "shared_answer_contract": {"const": true}
+      }
+    },
+    "stateEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "value"],
+      "properties": {
+        "name": {"type": "string", "pattern": "^[a-z][a-z0-9_]{0,63}$"},
+        "value": {"type": ["string", "integer", "number", "boolean"]}
+      }
+    },
+    "executionContract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "initial_state", "allowed_actions", "terminal_observables"],
+      "properties": {
+        "kind": {"enum": ["sandbox", "text"]},
+        "initial_state": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 32,
+          "items": {"$ref": "#/$defs/stateEntry"}
+        },
+        "allowed_actions": {"$ref": "#/$defs/idList"},
+        "terminal_observables": {"$ref": "#/$defs/idList"}
+      }
+    },
+    "probe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "response_fields"],
+      "properties": {
+        "question": {"$ref": "#/$defs/boundedText"},
+        "response_fields": {"$ref": "#/$defs/idList"}
+      }
+    },
+    "reviewContent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "role", "stratum", "mode", "passage_anchors", "affected_parties",
+        "authority_boundary", "scenario", "cue_surfaces", "forecast", "task",
+        "answer_contract", "tool_actions", "semantic_response_tokens",
+        "acceptable_action_band", "prohibited_actions", "deficient_pole",
+        "counterfeit_pole", "red_line_classes", "capability_twin",
+        "execution_contract", "probe", "repair_expectations",
+        "behavioral_attribution", "authored_judge_confidence",
+        "authored_contestability"
+      ],
+      "properties": {
+        "role": {"enum": ["target", "null", "restraint"]},
+        "stratum": {"enum": ["common_life", "christian_facing"]},
+        "mode": {"enum": ["action", "advice", "judgment"]},
+        "passage_anchors": {"$ref": "#/$defs/stringList"},
+        "affected_parties": {"$ref": "#/$defs/idList"},
+        "authority_boundary": {"$ref": "#/$defs/boundedText"},
+        "scenario": {"$ref": "#/$defs/boundedText"},
+        "cue_surfaces": {"$ref": "#/$defs/cueSurfaces"},
+        "forecast": {"$ref": "#/$defs/forecast"},
+        "task": {"$ref": "#/$defs/task"},
+        "answer_contract": {"$ref": "#/$defs/answerContract"},
+        "tool_actions": {"$ref": "#/$defs/idList"},
+        "semantic_response_tokens": {"$ref": "#/$defs/idList"},
+        "acceptable_action_band": {"$ref": "#/$defs/stringList"},
+        "prohibited_actions": {"$ref": "#/$defs/stringList"},
+        "deficient_pole": {"$ref": "#/$defs/boundedText"},
+        "counterfeit_pole": {"$ref": "#/$defs/boundedText"},
+        "red_line_classes": {"$ref": "#/$defs/idList"},
+        "capability_twin": {"$ref": "#/$defs/capabilityTwin"},
+        "execution_contract": {"$ref": "#/$defs/executionContract"},
+        "probe": {"$ref": "#/$defs/probe"},
+        "repair_expectations": {"$ref": "#/$defs/stringList"},
+        "behavioral_attribution": {"enum": ["applicable", "not_behaviorally_attributable"]},
+        "authored_judge_confidence": {"enum": ["low", "medium", "high"]},
+        "authored_contestability": {"enum": ["clear", "contested", "outside_competence"]}
+      }
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["issue_id", "priority", "track", "summary", "affected_fields", "repair_condition"],
+      "properties": {
+        "issue_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9_-]{2,63}$"},
+        "priority": {"enum": ["P0", "P1", "P2", "P3"]},
+        "track": {"enum": ["behavior", "interpretive", "record", "custody"]},
+        "summary": {"$ref": "#/$defs/boundedText"},
+        "affected_fields": {"$ref": "#/$defs/stringList"},
+        "repair_condition": {"$ref": "#/$defs/boundedText"}
+      }
+    },
+    "repeatRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repeat_id", "review_content_sha256", "review_content", "review_status",
+        "behavior_applicability_decision", "interpretive_applicability_decision",
+        "behavior_decision", "interpretive_decision", "record_decision",
+        "behavior_rationale", "interpretive_rationale", "confidence",
+        "contestability", "issues", "judge_id", "notes", "reviewed_at"
+      ],
+      "properties": {
+        "repeat_id": {"type": "string", "pattern": "^RPT-0(?:0[1-9]|10)$"},
+        "review_content_sha256": {"$ref": "#/$defs/hash"},
+        "review_content": {"$ref": "#/$defs/reviewContent"},
+        "review_status": {"enum": ["pending", "reviewed"]},
+        "behavior_applicability_decision": {"enum": [null, "APPLICABLE", "NOT_APPLICABLE"]},
+        "interpretive_applicability_decision": {"enum": [null, "APPLICABLE", "NOT_APPLICABLE"]},
+        "behavior_decision": {"enum": [null, "APPROVE", "REVISE", "REJECT", "DEFER", "NOT_APPLICABLE"]},
+        "interpretive_decision": {"enum": [null, "APPROVE", "REVISE", "REJECT", "DEFER", "NOT_APPLICABLE"]},
+        "record_decision": {"enum": [null, "APPROVE", "REVISE", "REJECT", "DEFER"]},
+        "behavior_rationale": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/boundedText"}]},
+        "interpretive_rationale": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/boundedText"}]},
+        "confidence": {"enum": [null, "low", "medium", "high"]},
+        "contestability": {"enum": [null, "clear", "contested", "outside_competence"]},
+        "issues": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "array", "maxItems": 32, "items": {"$ref": "#/$defs/issue"}}
+          ]
+        },
+        "judge_id": {"oneOf": [{"type": "null"}, {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"}]},
+        "notes": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/boundedText"}]},
+        "reviewed_at": {"oneOf": [{"type": "null"}, {"$ref": "#/$defs/utcTimestamp"}]}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"review_status": {"const": "pending"}}},
+          "then": {
+            "properties": {
+              "behavior_applicability_decision": {"type": "null"},
+              "interpretive_applicability_decision": {"type": "null"},
+              "behavior_decision": {"type": "null"},
+              "interpretive_decision": {"type": "null"},
+              "record_decision": {"type": "null"},
+              "behavior_rationale": {"type": "null"},
+              "interpretive_rationale": {"type": "null"},
+              "confidence": {"type": "null"},
+              "contestability": {"type": "null"},
+              "issues": {"type": "null"},
+              "judge_id": {"type": "null"},
+              "notes": {"type": "null"},
+              "reviewed_at": {"type": "null"}
+            }
+          },
+          "else": {
+            "properties": {
+              "behavior_applicability_decision": {"enum": ["APPLICABLE", "NOT_APPLICABLE"]},
+              "interpretive_applicability_decision": {"enum": ["APPLICABLE", "NOT_APPLICABLE"]},
+              "behavior_decision": {"enum": ["APPROVE", "REVISE", "REJECT", "DEFER", "NOT_APPLICABLE"]},
+              "interpretive_decision": {"enum": ["APPROVE", "REVISE", "REJECT", "DEFER", "NOT_APPLICABLE"]},
+              "record_decision": {"enum": ["APPROVE", "REVISE", "REJECT", "DEFER"]},
+              "behavior_rationale": {"$ref": "#/$defs/boundedText"},
+              "interpretive_rationale": {"$ref": "#/$defs/boundedText"},
+              "confidence": {"enum": ["low", "medium", "high"]},
+              "contestability": {"enum": ["clear", "contested", "outside_competence"]},
+              "issues": {"type": "array", "maxItems": 32, "items": {"$ref": "#/$defs/issue"}},
+              "judge_id": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"},
+              "reviewed_at": {"$ref": "#/$defs/utcTimestamp"}
+            }
+          }
+        }
+      ]
+    },
+    "rollupRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version", "behavior_decision_field", "interpretive_decision_field",
+        "record_decision_field", "applicable_track_decisions",
+        "not_applicable_value", "not_applicable_handling", "precedence",
+        "no_applicable_tracks_result"
+      ],
+      "properties": {
+        "version": {"const": "dual-track-rollup-v1"},
+        "behavior_decision_field": {"const": "behavior_decision"},
+        "interpretive_decision_field": {"const": "interpretive_decision"},
+        "record_decision_field": {"const": "record_decision"},
+        "applicable_track_decisions": {"const": ["APPROVE", "REVISE", "REJECT", "DEFER"]},
+        "not_applicable_value": {"const": "NOT_APPLICABLE"},
+        "not_applicable_handling": {"const": "ignored"},
+        "precedence": {"const": ["DEFER", "REJECT", "REVISE", "APPROVE"]},
+        "no_applicable_tracks_result": {"const": "DEFER"}
+      }
+    }
+  }
+}

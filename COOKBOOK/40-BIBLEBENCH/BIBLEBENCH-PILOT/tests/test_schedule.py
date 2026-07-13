@@ -95,6 +95,28 @@ def _schedule_with_calls(
     )
 
 
+def _binary_alias_dag(levels: int):
+    shared = {"value": "ordinary"}
+    for _ in range(levels):
+        shared = [shared, shared]
+    return shared
+
+
+def _assert_no_mutable_aliases(value) -> None:
+    seen = set()
+    stack = [value]
+    while stack:
+        current = stack.pop()
+        if type(current) not in {dict, list}:
+            continue
+        identifier = id(current)
+        if identifier in seen:
+            raise AssertionError("canonical JSON received a mutable alias")
+        seen.add(identifier)
+        children = current.values() if type(current) is dict else current
+        stack.extend(children)
+
+
 def test_compiles_required_balanced_schedule_without_reserved_condition() -> None:
     pack = _pack()
 
@@ -893,6 +915,66 @@ def test_request_limits_apply_before_payload_expansion(
     assert detached_calls == 0
 
 
+def test_validate_payload_captures_before_canonical_mutation(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    payload = {
+        "question": "before",
+        "nested": {"note": "before"},
+    }
+    original = schedule_module.canonical_json_bytes
+    mutated = False
+
+    def mutate_source_during_canonical(value):
+        nonlocal mutated
+        if not mutated:
+            payload["nested"]["note"] = "after"
+            mutated = True
+        return original(value)
+
+    monkeypatch.setattr(
+        schedule_module,
+        "canonical_json_bytes",
+        mutate_source_during_canonical,
+    )
+
+    captured = schedule_module._validate_payload(payload, "payload")
+
+    assert mutated
+    assert payload["nested"]["note"] == "after"
+    assert captured["nested"]["note"] == "before"
+    assert captured is not payload
+
+
+def test_validate_pack_returns_a_fully_captured_tree() -> None:
+    pack = _pack()
+
+    captured = schedule_module._validate_pack(pack)
+
+    assert captured is not pack
+    assert captured.episodes[0] is not pack.episodes[0]
+    assert (
+        captured.episodes[0].forecast_payload
+        is not pack.episodes[0].forecast_payload
+    )
+    assert (
+        captured.episodes[0].forecast_payload["choices"]
+        is not pack.episodes[0].forecast_payload["choices"]
+    )
+    assert (
+        captured.episodes[0].variants[0].decoding
+        is not pack.episodes[0].variants[0].decoding
+    )
+
+    pack.episodes[0].forecast_payload["choices"].append(9)
+    pack.episodes[0].probe_payload["question"] = "changed"
+    pack.episodes[0].variants[0].decoding["temperature"] = 1
+
+    assert captured.episodes[0].forecast_payload["choices"] == [0, 1]
+    assert captured.episodes[0].probe_payload["question"] == "probe-0"
+    assert captured.episodes[0].variants[0].decoding["temperature"] == 0
+
+
 def test_pack_request_label_budgets_are_scoped_per_payload() -> None:
     pack = _pack()
     episodes = tuple(
@@ -947,6 +1029,44 @@ def test_pack_rejects_one_variant_over_label_walk_budget() -> None:
         compile_schedule(
             _with_variant(pack, 0, 0, variant), actor_ids=ACTORS, seed=711
         )
+
+
+@pytest.mark.parametrize("levels", [12, 14, 18])
+def test_variant_alias_dag_rejects_before_canonicalization(
+    levels: int, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original = schedule_module.canonical_json_bytes
+    canonical_calls = 0
+
+    def guarded_canonical(value):
+        nonlocal canonical_calls
+        _assert_no_mutable_aliases(value)
+        canonical_calls += 1
+        return original(value)
+
+    monkeypatch.setattr(
+        schedule_module, "canonical_json_bytes", guarded_canonical
+    )
+    variant = replace(
+        _variant("C0"), decoding={"dag": _binary_alias_dag(levels)}
+    )
+
+    with pytest.raises(ValueError, match="limits"):
+        schedule_module._validate_variant(variant)
+    assert canonical_calls == 0
+
+
+def test_variant_small_alias_is_captured_without_shared_containers() -> None:
+    shared = {"value": "ordinary"}
+    variant = replace(
+        _variant("C0"), decoding={"first": shared, "second": shared}
+    )
+
+    captured = schedule_module._validate_variant(variant)
+
+    assert captured.decoding == variant.decoding
+    assert captured.decoding is not variant.decoding
+    assert captured.decoding["first"] is not captured.decoding["second"]
 
 
 @pytest.mark.parametrize(
@@ -1155,12 +1275,12 @@ def test_compile_checks_every_detached_actor_visible_payload(
 
     assert len(schedule.logical_calls) == 336
     assert len(checked) == len(schedule.logical_calls) * 2
-    assert {id(payload) for payload in checked} == {
+    checked_ids = {id(payload) for payload in checked}
+    schedule_payload_ids = {
         id(row.request_payload) for row in schedule.logical_calls
     }
-    assert Counter(id(payload) for payload in checked) == Counter(
-        {id(row.request_payload): 2 for row in schedule.logical_calls}
-    )
+    assert len(checked_ids) == len(checked)
+    assert schedule_payload_ids < checked_ids
 
 
 @pytest.mark.parametrize(
@@ -1473,10 +1593,61 @@ def test_payload_mutation_under_original_identifiers_is_rejected(kind: str) -> N
         invalid.to_canonical_json()
 
 
-def test_canonical_serialization_validates_the_encoded_payload_snapshot(
+@pytest.mark.parametrize("levels", [12, 18])
+def test_canonical_serialization_rejects_alias_dag_before_canonicalization(
+    levels: int, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    schedule = _schedule()
+    calls = list(schedule.logical_calls)
+    calls[0] = replace(
+        calls[0], request_payload={"dag": _binary_alias_dag(levels)}
+    )
+    schedule = _schedule_with_calls(schedule, calls)
+    original = schedule_module.canonical_json_bytes
+    canonical_calls = 0
+
+    def guarded_canonical(value):
+        nonlocal canonical_calls
+        _assert_no_mutable_aliases(value)
+        canonical_calls += 1
+        return original(value)
+
+    monkeypatch.setattr(
+        schedule_module, "canonical_json_bytes", guarded_canonical
+    )
+
+    with pytest.raises(ValueError, match="limits"):
+        schedule.to_canonical_json()
+    assert canonical_calls == 0
+
+
+def test_canonical_serialization_never_canonicalizes_mutable_aliases(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     schedule = _schedule()
+    original = schedule_module.canonical_json_bytes
+    canonical_calls = 0
+
+    def guarded_canonical(value):
+        nonlocal canonical_calls
+        _assert_no_mutable_aliases(value)
+        canonical_calls += 1
+        return original(value)
+
+    monkeypatch.setattr(
+        schedule_module, "canonical_json_bytes", guarded_canonical
+    )
+
+    schedule.to_canonical_json()
+
+    assert canonical_calls > len(schedule.logical_calls)
+
+
+def test_canonical_serialization_uses_an_immutable_payload_snapshot(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    schedule = _schedule()
+    original_question = schedule.logical_calls[0].request_payload["question"]
     original = schedule_module.canonical_json_bytes
     mutated = False
 
@@ -1495,9 +1666,18 @@ def test_canonical_serialization_validates_the_encoded_payload_snapshot(
         mutate_during_full_schedule_encoding,
     )
 
-    with pytest.raises(ValueError, match="logical call ID"):
-        schedule.to_canonical_json()
+    encoded = schedule.to_canonical_json()
+
     assert mutated
+    parsed = json.loads(encoded)
+    assert (
+        parsed["logical_calls"][0]["request_payload"]["question"]
+        == original_question
+    )
+    assert (
+        schedule.logical_calls[0].request_payload["question"]
+        == "mutated during serialization"
+    )
 
 
 def test_determinism_seed_effect_and_membership() -> None:
@@ -1739,6 +1919,73 @@ def test_reserved_label_walk_inspects_shared_alias_dag_once(
     assert bounded.calls <= 2 * levels + 2
 
 
+@pytest.mark.parametrize(
+    "field_order",
+    [("opaque_id", "ordinary"), ("ordinary", "opaque_id")],
+)
+def test_reserved_label_walk_rescans_alias_under_each_policy_context(
+    field_order: tuple[str, str],
+) -> None:
+    shared = ["c3" + "a" * 14]
+    payload = {name: shared for name in field_order}
+
+    with pytest.raises(ValueError, match="reserved condition label"):
+        schedule_module._assert_no_c3(payload)
+
+
+def test_reserved_label_walk_allows_safe_aliases_with_one_policy_context() -> None:
+    opaque = ["c3" + "a" * 14]
+    ordinary = ["ordinary"]
+
+    schedule_module._assert_no_c3(
+        {"first_id": opaque, "second_id": opaque}
+    )
+    schedule_module._assert_no_c3(
+        {"first": ordinary, "second": ordinary}
+    )
+
+
+@pytest.mark.parametrize(
+    "field_order",
+    [("opaque_id", "ordinary"), ("ordinary", "opaque_id")],
+)
+def test_reserved_label_walk_allows_safe_aliases_across_policy_contexts(
+    field_order: tuple[str, str],
+) -> None:
+    shared = ["ordinary"]
+
+    schedule_module._assert_no_c3(
+        {name: shared for name in field_order}
+    )
+
+
+def test_reserved_label_walk_context_states_remain_bounded(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    original = schedule_module._EMBEDDED_CUE_LABEL
+
+    class BoundedSearch:
+        calls = 0
+
+        def search(self, value):
+            self.calls += 1
+            if self.calls > 256:
+                raise AssertionError("reserved-label contexts were unbounded")
+            return original.search(value)
+
+    bounded = BoundedSearch()
+    monkeypatch.setattr(schedule_module, "_EMBEDDED_CUE_LABEL", bounded)
+    shared = ["ordinary"]
+    payload = {
+        **{f"opaque_{index}_id": shared for index in range(100)},
+        **{f"ordinary_{index}": shared for index in range(100)},
+    }
+
+    schedule_module._assert_no_c3(payload)
+
+    assert bounded.calls <= 202
+
+
 def test_reserved_label_walk_rejects_wide_container_before_children() -> None:
     wide = ["C3", *([None] * 4_096)]
 
@@ -1783,6 +2030,10 @@ def test_compile_accepts_small_shared_payload_aliases(
     )
     assert rows[0].request_payload["left"] == shared
     assert rows[0].request_payload["right"] == shared
+    assert (
+        rows[0].request_payload["left"]
+        is not rows[0].request_payload["right"]
+    )
 
 
 def test_reserved_label_walk_rejects_excessive_depth_without_recursion_error() -> None:
@@ -1911,7 +2162,6 @@ def test_assert_counterbalanced_rejects_cross_actor_semantic_changes(
         "bad_payload",
         "bad_probe_reference",
         "c3_payload",
-        "payload_alias",
         "bad_bundle_call_order",
     ],
 )
@@ -1945,8 +2195,6 @@ def test_assert_counterbalanced_rejects_mutated_schedules(mutation: str) -> None
         calls[2] = replace(calls[2], request_payload=changed)
     elif mutation == "c3_payload":
         calls[0] = replace(calls[0], request_payload={"reserved": "C3"})
-    elif mutation == "payload_alias":
-        calls[7] = replace(calls[7], request_payload=calls[0].request_payload)
     elif mutation == "bad_bundle_call_order":
         identifiers = list(bundles[0].logical_call_ids)
         identifiers[1], identifiers[2] = identifiers[2], identifiers[1]
@@ -1961,6 +2209,22 @@ def test_assert_counterbalanced_rejects_mutated_schedules(mutation: str) -> None
     )
     with pytest.raises(ValueError):
         invalid.assert_counterbalanced()
+
+
+def test_assert_counterbalanced_accepts_a_bounded_payload_alias_snapshot() -> None:
+    schedule = _schedule()
+    calls = list(schedule.logical_calls)
+    calls[7] = replace(
+        calls[7], request_payload=calls[0].request_payload
+    )
+    aliased = _schedule_with_calls(schedule, calls)
+
+    aliased.assert_counterbalanced()
+    encoded = aliased.to_canonical_json()
+
+    assert json.loads(encoded)["logical_calls"][0]["request_payload"] == (
+        json.loads(encoded)["logical_calls"][7]["request_payload"]
+    )
 
 
 def test_canonical_json_has_only_public_schedule_structure() -> None:

@@ -2,7 +2,6 @@ from __future__ import annotations
 
 from collections import Counter
 from dataclasses import dataclass, replace
-import json
 import re
 from typing import Any, Literal
 
@@ -223,32 +222,22 @@ class Schedule:
         return tuple(row for row in self.logical_calls if row.call_kind == "probe")
 
     def to_canonical_json(self) -> str:
+        snapshot_calls = tuple(
+            replace(row, request_payload=_detached(row.request_payload))
+            for row in self.logical_calls
+        )
+        snapshot = replace(self, logical_calls=snapshot_calls)
+        snapshot.assert_counterbalanced()
         value: dict[str, Json] = {
-            "seed": self.seed,
-            "bundles": [_bundle_json(bundle) for bundle in self.bundles],
-            "logical_calls": [_call_json(row) for row in self.logical_calls],
+            "seed": snapshot.seed,
+            "bundles": [
+                _bundle_json(bundle) for bundle in snapshot.bundles
+            ],
+            "logical_calls": [
+                _call_json(row) for row in snapshot.logical_calls
+            ],
         }
         encoded = canonical_json_bytes(value)
-        detached = json.loads(encoded.decode("utf-8"))
-        if type(detached) is not dict:
-            raise ValueError("schedule snapshot is invalid")
-        detached_calls = detached.get("logical_calls")
-        if type(detached_calls) is not list or len(detached_calls) != len(
-            self.logical_calls
-        ):
-            raise ValueError("schedule snapshot is invalid")
-        snapshot_calls = []
-        for row, detached_call in zip(self.logical_calls, detached_calls):
-            if type(detached_call) is not dict:
-                raise ValueError("schedule snapshot is invalid")
-            request_payload = detached_call.get("request_payload")
-            if type(request_payload) is not dict:
-                raise ValueError("schedule snapshot is invalid")
-            snapshot_calls.append(
-                replace(row, request_payload=request_payload)
-            )
-        snapshot = replace(self, logical_calls=tuple(snapshot_calls))
-        snapshot.assert_counterbalanced()
         text = encoded.decode("utf-8")
         if _RESERVED_C3.search(text):
             raise ValueError("schedule contains reserved condition")
@@ -275,8 +264,8 @@ def _strict_string(value: Any, name: str, *, nonempty: bool = True) -> str:
     return value
 
 
-def _opaque_hex_is_allowed(field_name: str | None, value: str) -> bool:
-    if field_name is None or _OPAQUE_HEX.fullmatch(value) is None:
+def _field_allows_opaque_hex(field_name: str | None) -> bool:
+    if field_name is None:
         return False
     normalized = _normalized_key(field_name)
     components = _key_components(field_name)
@@ -286,6 +275,23 @@ def _opaque_hex_is_allowed(field_name: str | None, value: str) -> bool:
     )
 
 
+def _opaque_hex_is_allowed(field_name: str | None, value: str) -> bool:
+    return (
+        _OPAQUE_HEX.fullmatch(value) is not None
+        and _field_allows_opaque_hex(field_name)
+    )
+
+
+def _label_policy_context(
+    field_name: str | None, *, allow_structural_cues: bool
+) -> int:
+    if allow_structural_cues and field_name == "cue":
+        return 2
+    if _field_allows_opaque_hex(field_name):
+        return 1
+    return 0
+
+
 def _assert_no_c3(
     value: Any, *, allow_structural_cues: bool = True
 ) -> None:
@@ -293,7 +299,7 @@ def _assert_no_c3(
         ("visit", value, 0, None)
     ]
     active: set[int] = set()
-    seen: set[int] = set()
+    seen: set[tuple[int, int]] = set()
     scheduled = 1
     while stack:
         operation, current, depth, field_name = stack.pop()
@@ -321,11 +327,15 @@ def _assert_no_c3(
         identity = id(current)
         if identity in active:
             raise ValueError("value exceeds reserved-label traversal limits")
-        if identity in seen:
+        context = _label_policy_context(
+            field_name, allow_structural_cues=allow_structural_cues
+        )
+        state = (identity, context)
+        if state in seen:
             continue
         if depth >= _MAX_VISIBLE_DEPTH:
             raise ValueError("value exceeds reserved-label traversal limits")
-        seen.add(identity)
+        seen.add(state)
         active.add(identity)
         stack.append(("exit", current, depth, field_name))
         if type(current) is dict:
@@ -414,49 +424,71 @@ def _utf8_size(value: str) -> int:
         raise ValueError("request payload is invalid") from error
 
 
-def _request_payload_bytes(value: dict[str, Json]) -> bytes:
-    stack: list[tuple[str, Json, int]] = [("visit", value, 0)]
+def _bounded_json_snapshot(value: Any) -> Json:
+    root: list[Json] = [None]
+    stack: list[tuple[str, Any, Any, Any, int]] = [
+        ("visit", value, root, 0, 0)
+    ]
     active: set[int] = set()
-    visited = 0
+    scheduled = 1
     while stack:
-        operation, current, depth = stack.pop()
+        operation, current, parent, slot, depth = stack.pop()
         if operation == "exit":
             active.remove(id(current))
             continue
-        visited += 1
-        if visited > _MAX_REQUEST_FIELDS_AND_NODES:
-            raise ValueError("request payload exceeds limits")
-        if type(current) is str:
-            if _utf8_size(current) > _MAX_REQUEST_STRING_BYTES:
-                raise ValueError("request payload exceeds limits")
-            continue
         if current is None or type(current) in {bool, int, float}:
-            continue
-        if type(current) not in {dict, list}:
-            raise ValueError("request payload is invalid")
-        if depth >= _MAX_VISIBLE_DEPTH or id(current) in active:
-            raise ValueError("request payload exceeds limits")
-        active.add(id(current))
-        stack.append(("exit", current, depth))
-        if type(current) is dict:
-            children = []
-            for key, child in current.items():
-                visited += 1
-                if visited > _MAX_REQUEST_FIELDS_AND_NODES:
-                    raise ValueError("request payload exceeds limits")
-                if type(key) is not str:
-                    raise ValueError("request payload is invalid")
-                if _utf8_size(key) > _MAX_REQUEST_KEY_BYTES:
-                    raise ValueError("request payload exceeds limits")
-                children.append(child)
+            detached: Json = current
+        elif type(current) is str:
+            if _utf8_size(current) > _MAX_REQUEST_STRING_BYTES:
+                raise ValueError("JSON value exceeds limits")
+            detached = current
+        elif type(current) in {dict, list}:
+            identity = id(current)
+            if depth >= _MAX_VISIBLE_DEPTH or identity in active:
+                raise ValueError("JSON value exceeds limits")
+            if type(current) is dict:
+                additional = len(current) * 2
+                if scheduled + additional > _MAX_REQUEST_FIELDS_AND_NODES:
+                    raise ValueError("JSON value exceeds limits")
+                scheduled += additional
+                items = list(current.items())
+                for key, _ in items:
+                    if type(key) is not str:
+                        raise ValueError("JSON value is invalid")
+                    if _utf8_size(key) > _MAX_REQUEST_KEY_BYTES:
+                        raise ValueError("JSON value exceeds limits")
+                detached = {}
+            else:
+                if scheduled + len(current) > _MAX_REQUEST_FIELDS_AND_NODES:
+                    raise ValueError("JSON value exceeds limits")
+                scheduled += len(current)
+                detached = [None] * len(current)
+            active.add(identity)
+            stack.append(("exit", current, None, None, depth))
+            if type(current) is dict:
+                for key, child in reversed(items):
+                    stack.append(
+                        ("visit", child, detached, key, depth + 1)
+                    )
+            else:
+                for index in range(len(current) - 1, -1, -1):
+                    stack.append(
+                        ("visit", current[index], detached, index, depth + 1)
+                    )
         else:
-            children = list(current)
-        for child in reversed(children):
-            stack.append(("visit", child, depth + 1))
-    encoded = canonical_json_bytes(value)
+            raise ValueError("JSON value is invalid")
+        if type(parent) is list:
+            parent[slot] = detached
+        else:
+            parent[slot] = detached
+    snapshot = root[0]
+    try:
+        encoded = canonical_json_bytes(snapshot)
+    except (TypeError, ValueError, OverflowError, RecursionError) as error:
+        raise ValueError("JSON value is invalid") from error
     if len(encoded) > _MAX_REQUEST_BYTES:
-        raise ValueError("request payload exceeds limits")
-    return encoded
+        raise ValueError("JSON value exceeds limits")
+    return snapshot
 
 
 def _protected_occurrence_is_benign(
@@ -601,16 +633,21 @@ def _assert_blind_forecast(payload: dict[str, Json]) -> None:
 def _validate_payload(value: Any, name: str) -> dict[str, Json]:
     if type(value) is not dict:
         _type_error(f"{name} must be a dictionary")
-    _assert_no_c3(value, allow_structural_cues=False)
-    _request_payload_bytes(value)
-    _assert_no_result_fields(value)
-    _assert_no_later_scope_fields(value)
-    _assert_no_actor_metadata_fields(value)
-    return value
+    try:
+        captured = _bounded_json_snapshot(value)
+    except (TypeError, ValueError, OverflowError, RecursionError) as error:
+        raise ValueError("request payload exceeds limits") from error
+    if type(captured) is not dict:
+        raise ValueError("request payload snapshot is invalid")
+    _assert_no_c3(captured, allow_structural_cues=False)
+    _assert_no_result_fields(captured)
+    _assert_no_later_scope_fields(captured)
+    _assert_no_actor_metadata_fields(captured)
+    return captured
 
 
 def _detached(value: dict[str, Json]) -> dict[str, Json]:
-    detached = json.loads(canonical_json_bytes(value).decode("utf-8"))
+    detached = _bounded_json_snapshot(value)
     if type(detached) is not dict:
         raise ValueError("detached payload is not an object")
     return detached
@@ -619,17 +656,17 @@ def _detached(value: dict[str, Json]) -> dict[str, Json]:
 def _checked_actor_payload(
     value: dict[str, Json], *, primary: bool = False
 ) -> dict[str, Json]:
-    assert_actor_payload_safe(value)
-    _validate_payload(value, "request_payload")
-    _assert_no_identity_fields(value)
-    _assert_no_actor_visible_metadata_fields(value, primary=primary)
-    return value
+    captured = _validate_payload(value, "request_payload")
+    assert_actor_payload_safe(captured)
+    _assert_no_identity_fields(captured)
+    _assert_no_actor_visible_metadata_fields(captured, primary=primary)
+    return captured
 
 
 def _checked_forecast_payload(value: dict[str, Json]) -> dict[str, Json]:
-    _checked_actor_payload(value)
-    _assert_blind_forecast(value)
-    return value
+    captured = _checked_actor_payload(value)
+    _assert_blind_forecast(captured)
+    return captured
 
 
 def _validate_variant(variant: Any) -> CueVariant:
@@ -653,14 +690,16 @@ def _validate_variant(variant: Any) -> CueVariant:
             raise ValueError(f"{name} must be lowercase SHA-256")
     if type(variant.decoding) is not dict:
         _type_error("decoding must be a dictionary")
-    canonical_json_bytes(variant.decoding)
+    decoding = _bounded_json_snapshot(variant.decoding)
+    if type(decoding) is not dict:
+        raise ValueError("decoding snapshot is invalid")
     if type(variant.semantic_response_tokens) is not tuple:
         _type_error("semantic_response_tokens must be a tuple")
     if not variant.semantic_response_tokens:
         raise ValueError("semantic_response_tokens must be nonempty")
     for token in variant.semantic_response_tokens:
         _strict_string(token, "semantic response token")
-    return variant
+    return replace(variant, decoding=decoding)
 
 
 def _validate_episode(episode: Any) -> DevelopmentEpisode:
@@ -675,7 +714,9 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
     _strict_string(episode.episode_id, "episode_id")
     if type(episode.role) is not str or episode.role not in _ROLES:
         raise ValueError("invalid episode role")
-    _validate_payload(episode.forecast_payload, "forecast_payload")
+    forecast_payload = _validate_payload(
+        episode.forecast_payload, "forecast_payload"
+    )
     probe_payload = _validate_payload(episode.probe_payload, "probe_payload")
     _assert_no_identity_fields(probe_payload)
     if "primary_logical_call_id" in probe_payload:
@@ -710,7 +751,12 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
     surfaces = [variant.cue_surface for variant in ordered]
     if len(set(surfaces)) != 3:
         raise ValueError("cue surfaces must be distinct")
-    return episode
+    return replace(
+        episode,
+        forecast_payload=forecast_payload,
+        probe_payload=probe_payload,
+        variants=variants,
+    )
 
 
 def _validate_pack(pack: Any) -> DevelopmentPack:
@@ -731,7 +777,7 @@ def _validate_pack(pack: Any) -> DevelopmentPack:
         {"target": 4, "null": 4, "restraint": 4}
     ):
         raise ValueError("development roles must be balanced 4/4/4")
-    return pack
+    return replace(pack, episodes=episodes)
 
 
 def _validate_actor_ids(actor_ids: Any) -> tuple[str, ...]:
@@ -867,7 +913,7 @@ def compile_schedule(
                 cue=None,
                 presentation_position=-1,
                 request_payload=_checked_forecast_payload(
-                    _detached(episode.forecast_payload)
+                    episode.forecast_payload
                 ),
             )
             bundle_calls.append(forecast)
@@ -896,12 +942,12 @@ def compile_schedule(
                     cue=cue,
                     presentation_position=position,
                     request_payload=_checked_actor_payload(
-                        _detached(primary_payload), primary=True
+                        primary_payload, primary=True
                     ),
                 )
                 probe_payload = _detached(episode.probe_payload)
                 probe_payload["primary_logical_call_id"] = primary.logical_call_id
-                _checked_actor_payload(probe_payload)
+                probe_payload = _checked_actor_payload(probe_payload)
                 probe = _new_call(
                     seed=seed,
                     actor_id=actor_id,
@@ -1007,12 +1053,14 @@ def _validate_scheduled_call(row: Any) -> LogicalCall:
     if type(row.presentation_position) is not int:
         _type_error("presentation position must be an integer")
     if row.call_kind == "forecast":
-        _checked_forecast_payload(row.request_payload)
+        request_payload = _checked_forecast_payload(row.request_payload)
     elif row.call_kind == "primary":
-        _checked_actor_payload(row.request_payload, primary=True)
+        request_payload = _checked_actor_payload(
+            row.request_payload, primary=True
+        )
     else:
-        _checked_actor_payload(row.request_payload)
-    return row
+        request_payload = _checked_actor_payload(row.request_payload)
+    return replace(row, request_payload=request_payload)
 
 
 def _assert_call_identity(row: LogicalCall, bundle: EvidenceBundlePlan, seed: int) -> None:

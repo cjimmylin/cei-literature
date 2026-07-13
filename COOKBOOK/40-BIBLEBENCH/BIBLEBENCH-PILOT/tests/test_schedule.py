@@ -179,6 +179,16 @@ def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
         "module_lens_identifier",
         "registered_intervention_id",
         "module_physical_attempt_id",
+        "lens_token",
+        "lens_version",
+        "intervention_token",
+        "provider_id",
+        "provider_route",
+        "requested_provider",
+        "route",
+        "route_id",
+        "route_name",
+        "route_config",
     ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
@@ -206,6 +216,8 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
             "attempt_notes": "A physical attempt can be described.",
             "lensing_notes": "Lensing is an ordinary unrelated word here.",
             "physicality_notes": "Physicality is ordinary prose here.",
+            "interventional_notes": "Interventional is an unrelated adjective.",
+            "delivery_route": "An ordinary task delivery path.",
             "golden_rule": "An ordinary principle, not a result field.",
             "risk_factor": "An ordinary descriptive factor.",
             "physical_state": "An ordinary state description.",
@@ -214,6 +226,8 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
             "golden_rule": "An ordinary principle.",
             "risk_factor": "An ordinary descriptive factor.",
             "physical_state": "An ordinary state description.",
+            "interventional_notes": "Interventional is an unrelated adjective.",
+            "delivery_route": "An ordinary task delivery path.",
         },
     )
 

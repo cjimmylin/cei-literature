@@ -42,11 +42,11 @@ _LATER_SCOPE_EXACT_KEYS = frozenset(
 )
 _IDENTIFIER_COMPONENTS = frozenset({"id", "identifier"})
 _ACTOR_METADATA_KEYS = frozenset({"role"})
-_LATER_SCOPE_QUALIFIERS = frozenset(
-    {"id", "identifier", "call", "result", "config", "attempt", "description"}
-)
 _PHYSICAL_SCOPE_QUALIFIERS = frozenset(
     {"id", "identifier", "call", "attempt"}
+)
+_ROUTE_SCOPE_QUALIFIERS = frozenset(
+    {"id", "identifier", "name", "config", "identity"}
 )
 _BLIND_FORECAST_COMPONENTS = frozenset(
     {
@@ -55,7 +55,6 @@ _BLIND_FORECAST_COMPONENTS = frozenset(
         "actor",
         "model",
         "provider",
-        "route",
         "schedule",
         "bundle",
         "episode",
@@ -290,13 +289,17 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
             components
         )
         physical = "physical" in components
+        provider = "provider" in components
+        route = "route" in components
         if (
             normalized in _LATER_SCOPE_EXACT_KEYS
+            or lens_or_intervention
+            or provider
             or (
-                lens_or_intervention
+                route
                 and (
                     len(components) == 1
-                    or not _LATER_SCOPE_QUALIFIERS.isdisjoint(components)
+                    or not _ROUTE_SCOPE_QUALIFIERS.isdisjoint(components)
                 )
             )
             or (

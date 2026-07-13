@@ -47,7 +47,7 @@ _ASCII_COMPARISON_DELETE = str.maketrans(
         chr(codepoint): None
         for codepoint in range(128)
         if unicodedata.category(chr(codepoint)).startswith(
-            ("M", "P", "Z", "C")
+            ("M", "P", "S", "Z", "C")
         )
     }
 )
@@ -435,7 +435,7 @@ def _label_policy_text(value: str) -> str:
     skeleton: list[str] = []
     for character in decomposed:
         category = unicodedata.category(character)
-        if category.startswith(("M", "P", "Z", "C")):
+        if category.startswith(("M", "P", "S", "Z", "C")):
             continue
         try:
             digit = unicodedata.digit(character)
@@ -456,7 +456,7 @@ def _comparison_skeleton(value: str) -> str:
     skeleton: list[str] = []
     for character in decomposed:
         category = unicodedata.category(character)
-        if category.startswith(("M", "P", "Z", "C")):
+        if category.startswith(("M", "P", "S", "Z", "C")):
             continue
         try:
             digit = unicodedata.digit(character)
@@ -484,7 +484,7 @@ def _protected_word_policy_text(value: str) -> str:
         category = unicodedata.category(character)
         if category.startswith(("M", "C")):
             continue
-        if category.startswith(("P", "Z")):
+        if category.startswith(("P", "S", "Z")):
             pending_space = True
             continue
         if pending_space and skeleton:
@@ -1140,8 +1140,9 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
     for variant in ordered[1:]:
         if variant.shared_body.encode("utf-8") != baseline_body:
             raise ValueError("cue variants change the shared body")
-        if any(getattr(variant, name) != getattr(baseline, name) for name in invariant_names):
-            raise ValueError("cue variants change semantic invariants")
+        for name in invariant_names:
+            if getattr(variant, name) != getattr(baseline, name):
+                raise ValueError(f"cue variants change {name}")
         if canonical_json_bytes(variant.decoding) != baseline_decoding:
             raise ValueError("cue variants change decoding")
     surfaces = [variant.cue_surface for variant in ordered]

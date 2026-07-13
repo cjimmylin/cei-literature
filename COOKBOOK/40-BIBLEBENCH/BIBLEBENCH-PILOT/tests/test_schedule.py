@@ -625,6 +625,12 @@ def test_extended_cue_homoglyphs_remain_ordinary_without_adjacent_cue_digit(
         "C—3",
         "C--3",
         "C  3",
+        "C+3",
+        "C=3",
+        "C→3",
+        "C✅3",
+        "C£3",
+        "C^3",
         "CЗ",
         "cз",
         "СЗ",
@@ -698,6 +704,9 @@ def test_combining_ignorable_and_separator_cue_labels_are_rejected(
         "C 4",
         "第3章",
         "word\u200d 3",
+        "Budget £5 + tax remains visible ✅",
+        "x → y; the modifier ˄ is documented.",
+        "Use model+craft and provider+care as ordinary compounds.",
     ],
 )
 def test_diacritic_and_international_nonlabels_preserve_exact_bytes(
@@ -728,6 +737,10 @@ def test_diacritic_and_international_nonlabels_preserve_exact_bytes(
     [
         ("C_3", "Ｃ—٣", "C3"),
         ("C\t3", "С\u200dЗ", "C3"),
+        ("C+3", "Ｃ→٣", "C3"),
+        ("C$3", "Ｃ£٣", "C3"),
+        ("C^3", "Ｃ˄٣", "C3"),
+        ("C*3", "Ｃ✅٣", "C3"),
     ],
 )
 def test_label_policy_ascii_fast_path_matches_unicode_skeleton(
@@ -742,6 +755,8 @@ def test_label_policy_ascii_fast_path_matches_unicode_skeleton(
     [
         ("ab-c d\t\x00e", "ａｂ—ｃ　ｄ\u200dｅ", "abcde"),
         ("6e779c794025e210", "6ε779ϲ794025ε210", "6e779c794025e210"),
+        ("ab+cd=ef", "ａｂ→ｃｄ✅ｅｆ", "abcdef"),
+        ("ab$cd^ef", "ａｂ£ｃｄ˄ｅｆ", "abcdef"),
     ],
 )
 def test_generated_id_comparison_fast_path_matches_unicode_skeleton(
@@ -852,6 +867,15 @@ def test_explicit_sensitive_assignments_are_rejected_in_visible_strings(
         "A provider is openai",
         "The healthcare provider is OpenAI",
         "The provider is undisclosed",
+        "provider+is+OpenRouter",
+        "model+identity+is+GPT-X",
+        "condition+is+treatment",
+        "gold+label+is+target",
+        "The provider is useful+OpenRouter",
+        "provider£is£OpenRouter",
+        "model^identity^is^GPT-X",
+        "condition→is→treatment",
+        "gold✅label✅is✅target",
     ],
 )
 @pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
@@ -1011,6 +1035,33 @@ def test_provider_identity_fast_path_matches_invisible_boundaries(
         assert "OpenRouter" not in str(error.value)
         assert "OpenAI" not in str(error.value)
         assert "openrouter" not in str(error.value)
+
+
+@pytest.mark.parametrize(
+    ("ascii_value", "unicode_value", "expected"),
+    [
+        (
+            "model+identity+is+GPT-X",
+            "ｍｏｄｅｌ→ｉｄｅｎｔｉｔｙ✅ｉｓ£ＧＰＴ－Ｘ",
+            "model identity is gpt x",
+        ),
+        (
+            "condition^is^treatment",
+            "ｃｏｎｄｉｔｉｏｎ˄ｉｓ˄ｔｒｅａｔｍｅｎｔ",
+            "condition is treatment",
+        ),
+        (
+            "provider=OpenRouter",
+            "ｐｒｏｖｉｄｅｒ＝ＯｐｅｎＲｏｕｔｅｒ",
+            "provider assigned open router",
+        ),
+    ],
+)
+def test_protected_phrase_fast_path_matches_symbol_reference_skeleton(
+    ascii_value: str, unicode_value: str, expected: str
+) -> None:
+    assert schedule_module._protected_word_policy_text(ascii_value) == expected
+    assert schedule_module._protected_word_policy_text(unicode_value) == expected
 
 
 @pytest.mark.parametrize(
@@ -2947,6 +2998,28 @@ def test_generated_id_firewall_rejects_exact_lunate_sigma_escape() -> None:
         )
 
 
+@pytest.mark.parametrize("symbol", ["+", "=", "→", "✅", "£", "^"])
+def test_generated_id_firewall_rejects_symbol_split_private_id(
+    symbol: str,
+) -> None:
+    pack = _pack()
+    private_id = "6e779c794025e210"
+    disguised_id = symbol.join(private_id)
+    generated_ids = {
+        row.logical_call_id
+        for row in compile_schedule(pack, actor_ids=ACTORS, seed=711).logical_calls
+    }
+    assert private_id in generated_ids
+    episode = replace(
+        pack.episodes[0], probe_payload={"note": disguised_id}
+    )
+
+    with pytest.raises(ValueError, match="generated schedule identifier"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
 def test_generated_id_firewall_preserves_unrelated_greek_prose_and_id() -> None:
     pack = _pack()
     probe_payload = {
@@ -3101,6 +3174,31 @@ def test_compile_enforces_cue_invariants(changed) -> None:
     pack = _pack()
     invalid = _with_variant(pack, 0, 1, replace(pack.episodes[0].variants[1], **changed))
     with pytest.raises(ValueError):
+        compile_schedule(invalid, actor_ids=ACTORS, seed=711)
+
+
+@pytest.mark.parametrize(
+    ("field_name", "changed_value"),
+    [
+        ("task_semantics_sha256", "e" * 64),
+        ("answer_semantics_sha256", "f" * 64),
+        ("tool_schema_sha256", "0" * 64),
+        ("response_schema_sha256", "1" * 64),
+        ("semantic_response_tokens", ("answer", "basis")),
+    ],
+)
+def test_cue_invariant_mismatch_error_names_constant_field(
+    field_name: str, changed_value: object
+) -> None:
+    pack = _pack()
+    changed_variant = replace(
+        pack.episodes[0].variants[1], **{field_name: changed_value}
+    )
+    invalid = _with_variant(pack, 0, 1, changed_variant)
+
+    with pytest.raises(
+        ValueError, match=rf"cue variants change {field_name}$"
+    ):
         compile_schedule(invalid, actor_ids=ACTORS, seed=711)
 
 

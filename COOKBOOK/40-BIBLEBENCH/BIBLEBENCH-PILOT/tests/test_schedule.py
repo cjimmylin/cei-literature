@@ -272,6 +272,60 @@ def test_compatibility_schedule_reference_keys_remain_reserved(
         )
 
 
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+@pytest.mark.parametrize(
+    "reserved_key",
+    [
+        "logical_call_id",
+        "logicalCallId",
+        "logical-call-id",
+        "primaryLogicalCallId",
+        "sourcePrimaryLogicalCallIdCopy",
+        "primary logical call id",
+        "ｐｒｉｍａｒｙ＿ｌｏｇｉｃａｌ＿ｃａｌｌ＿ｉｄ",
+    ],
+)
+def test_authored_logical_call_reference_keys_are_rejected_recursively(
+    field_name: str, reserved_key: str
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        **{field_name: {"outer": [{reserved_key: "opaque"}]}},
+    )
+
+    with pytest.raises(ValueError, match="logical call reference"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "benign_key",
+    ["logical_reasoning", "callback_id", "calligraphy_notes"],
+)
+def test_benign_call_words_remain_allowed_in_authored_payloads(
+    benign_key: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={"outer": [{benign_key: "ordinary"}]},
+        probe_payload={"outer": [{benign_key: "ordinary"}]},
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload["outer"] == [
+        {benign_key: "ordinary"}
+    ]
+    assert schedule.probe_rows[0].request_payload["outer"] == [
+        {benign_key: "ordinary"}
+    ]
+
+
 @pytest.mark.parametrize(
     ("location", "protected_value"),
     [
@@ -1667,6 +1721,7 @@ def test_public_types_are_frozen_and_have_only_frozen_contract_fields() -> None:
             "call_kind",
             "cue",
             "presentation_position",
+            "primary_logical_call_id",
             "request_payload",
         ),
         Schedule: ("seed", "bundles", "logical_calls"),
@@ -1775,6 +1830,7 @@ def test_identifiers_use_canonical_domain_separated_material() -> None:
         "call_kind": call.call_kind,
         "cue": call.cue,
         "presentation_position": call.presentation_position,
+        "primary_logical_call_id": call.primary_logical_call_id,
         "request_payload_sha256": canonical_sha256(call.request_payload),
     }
 
@@ -2003,8 +2059,10 @@ def test_request_payloads_are_minimal_private_safe_and_detached() -> None:
         "cue_surface": primary.request_payload["cue_surface"],
         "semantic_response_tokens": ["answer", "reason"],
     }
-    assert set(probe.request_payload) == {"question", "primary_logical_call_id"}
-    assert probe.request_payload["primary_logical_call_id"] == primary.logical_call_id
+    assert probe.request_payload == {"question": "probe-0"}
+    assert forecast.primary_logical_call_id is None
+    assert primary.primary_logical_call_id is None
+    assert probe.primary_logical_call_id == primary.logical_call_id
     serialized_payloads = json.dumps(
         [row.request_payload for row in schedule.logical_calls], sort_keys=True
     ).lower()
@@ -2025,6 +2083,39 @@ def test_request_payloads_are_minimal_private_safe_and_detached() -> None:
     )
     primary.request_payload["semantic_response_tokens"].append("mutated")
     assert another_primary.request_payload["semantic_response_tokens"] == ["answer", "reason"]
+
+
+def test_probe_payloads_are_cue_invariant_while_private_links_are_distinct() -> None:
+    schedule = _schedule()
+    bundle = schedule.bundles[0]
+    calls = [
+        row for row in schedule.logical_calls if row.bundle_id == bundle.bundle_id
+    ]
+    primaries = calls[1::2]
+    probes = calls[2::2]
+
+    assert len({canonical_sha256(row.request_payload) for row in probes}) == 1
+    assert all(
+        "logical_call_id" not in json.dumps(row.request_payload).casefold()
+        for row in probes
+    )
+    assert [row.primary_logical_call_id for row in probes] == [
+        row.logical_call_id for row in primaries
+    ]
+    assert len({row.primary_logical_call_id for row in probes}) == 3
+
+
+def test_canonical_schedule_serializes_private_probe_links_only_as_row_metadata() -> None:
+    schedule = _schedule()
+    parsed = json.loads(schedule.to_canonical_json())
+
+    for source, serialized in zip(
+        schedule.logical_calls, parsed["logical_calls"], strict=True
+    ):
+        assert serialized["primary_logical_call_id"] == (
+            source.primary_logical_call_id
+        )
+        assert "primary_logical_call_id" not in serialized["request_payload"]
 
 
 @pytest.mark.parametrize(
@@ -2500,6 +2591,67 @@ def test_assert_counterbalanced_rejects_mutated_schedules(mutation: str) -> None
     )
     with pytest.raises(ValueError):
         invalid.assert_counterbalanced()
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    [
+        "missing_probe_link",
+        "wrong_primary_link",
+        "cross_bundle_link",
+        "cross_actor_link",
+        "self_link",
+        "forecast_link",
+        "primary_link",
+    ],
+)
+def test_private_probe_linkage_fails_closed_under_tampering(
+    mutation: str,
+) -> None:
+    schedule = _schedule()
+    calls = list(schedule.logical_calls)
+    probe_index = 2
+    probe = calls[probe_index]
+    if mutation == "missing_probe_link":
+        calls[probe_index] = replace(probe, primary_logical_call_id=None)
+    elif mutation == "wrong_primary_link":
+        calls[probe_index] = replace(
+            probe, primary_logical_call_id=calls[3].logical_call_id
+        )
+    elif mutation == "cross_bundle_link":
+        calls[probe_index] = replace(
+            probe, primary_logical_call_id=calls[8].logical_call_id
+        )
+    elif mutation == "cross_actor_link":
+        other_actor_primary = next(
+            row
+            for row in calls
+            if row.call_kind == "primary"
+            and row.episode_id == probe.episode_id
+            and row.actor_id != probe.actor_id
+        )
+        calls[probe_index] = replace(
+            probe,
+            primary_logical_call_id=other_actor_primary.logical_call_id,
+        )
+    elif mutation == "self_link":
+        calls[probe_index] = replace(
+            probe, primary_logical_call_id=probe.logical_call_id
+        )
+    elif mutation == "forecast_link":
+        calls[0] = replace(
+            calls[0], primary_logical_call_id=calls[0].logical_call_id
+        )
+    else:
+        calls[1] = replace(
+            calls[1], primary_logical_call_id=calls[1].logical_call_id
+        )
+
+    invalid = _schedule_with_calls(schedule, calls)
+    with pytest.raises(ValueError):
+        invalid.assert_counterbalanced()
+    with pytest.raises(ValueError):
+        invalid.to_canonical_json()
 
 
 def test_assert_counterbalanced_accepts_a_bounded_payload_alias_snapshot() -> None:

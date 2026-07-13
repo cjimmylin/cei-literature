@@ -142,6 +142,15 @@ _ACTOR_VISIBLE_METADATA_TOKENS = frozenset(
 _PRIMARY_ALLOWED_METADATA_KEYS = frozenset({"cuesurface"})
 _ROLE_PLAY_KEY_COMPONENTS = ("role", "play")
 _PRIMARY_CUE_SURFACE_COMPONENTS = ("cue", "surface")
+_LOGICAL_CALL_REFERENCE_COMPONENTS = frozenset(
+    {
+        ("logical", "call", "id"),
+        ("primary", "logical", "call", "id"),
+    }
+)
+_LOGICAL_CALL_REFERENCE_KEYS = frozenset(
+    {"logicalcallid", "primarylogicalcallid"}
+)
 
 
 @dataclass(frozen=True)
@@ -201,6 +210,7 @@ class LogicalCall:
     call_kind: Literal["forecast", "primary", "probe"]
     cue: Literal["C0", "C1", "C2"] | None
     presentation_position: int
+    primary_logical_call_id: str | None
     request_payload: dict[str, Json]
 
 
@@ -267,18 +277,6 @@ def _strict_string(value: Any, name: str, *, nonempty: bool = True) -> str:
 
 def _policy_text(value: str) -> str:
     return unicodedata.normalize("NFKC", value)
-
-
-def _has_policy_key(payload: dict[str, Json], expected: str) -> bool:
-    return any(_policy_text(key) == expected for key in payload)
-
-
-def _has_compatibility_policy_key(
-    payload: dict[str, Json], expected: str
-) -> bool:
-    return any(
-        key != expected and _policy_text(key) == expected for key in payload
-    )
 
 
 def _field_allows_opaque_hex(field_name: str | None) -> bool:
@@ -644,6 +642,28 @@ def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
             raise ValueError("request payload contains actor-private metadata")
 
 
+def _assert_no_logical_call_reference_fields(
+    payload: dict[str, Json],
+) -> None:
+    for key in _walk_keys(payload):
+        components = _key_components(key)
+        has_component_sequence = any(
+            components[index : index + len(sequence)] == sequence
+            for sequence in _LOGICAL_CALL_REFERENCE_COMPONENTS
+            for index in range(len(components) - len(sequence) + 1)
+        )
+        if (
+            has_component_sequence
+            or any(
+                reference in _normalized_key(key)
+                for reference in _LOGICAL_CALL_REFERENCE_KEYS
+            )
+        ):
+            raise ValueError(
+                "request payload contains a logical call reference"
+            )
+
+
 def _assert_no_actor_visible_metadata_fields(
     payload: dict[str, Json], *, primary: bool
 ) -> None:
@@ -699,6 +719,7 @@ def _validate_payload(value: Any, name: str) -> dict[str, Json]:
     _assert_no_result_fields(captured)
     _assert_no_later_scope_fields(captured)
     _assert_no_actor_metadata_fields(captured)
+    _assert_no_logical_call_reference_fields(captured)
     return captured
 
 
@@ -775,10 +796,6 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
     )
     probe_payload = _validate_payload(episode.probe_payload, "probe_payload")
     _assert_no_identity_fields(probe_payload)
-    if _has_policy_key(
-        forecast_payload, "primary_logical_call_id"
-    ) or _has_policy_key(probe_payload, "primary_logical_call_id"):
-        raise ValueError("probe payload reserves primary_logical_call_id")
     if type(episode.variants) is not tuple:
         _type_error("variants must be a tuple")
     if len(episode.variants) != 3:
@@ -881,6 +898,7 @@ def _logical_call_id(
     call_kind: str,
     cue: str | None,
     presentation_position: int,
+    primary_logical_call_id: str | None,
     request_payload: dict[str, Json],
 ) -> str:
     material: dict[str, Json] = {
@@ -893,6 +911,7 @@ def _logical_call_id(
         "call_kind": call_kind,
         "cue": cue,
         "presentation_position": presentation_position,
+        "primary_logical_call_id": primary_logical_call_id,
         "request_payload_sha256": canonical_sha256(request_payload),
     }
     return canonical_sha256(material)[:16]
@@ -908,6 +927,7 @@ def _new_call(
     call_kind: Literal["forecast", "primary", "probe"],
     cue: Literal["C0", "C1", "C2"] | None,
     presentation_position: int,
+    primary_logical_call_id: str | None,
     request_payload: dict[str, Json],
 ) -> LogicalCall:
     return LogicalCall(
@@ -920,6 +940,7 @@ def _new_call(
             call_kind=call_kind,
             cue=cue,
             presentation_position=presentation_position,
+            primary_logical_call_id=primary_logical_call_id,
             request_payload=request_payload,
         ),
         bundle_id="",
@@ -930,6 +951,7 @@ def _new_call(
         call_kind=call_kind,
         cue=cue,
         presentation_position=presentation_position,
+        primary_logical_call_id=primary_logical_call_id,
         request_payload=request_payload,
     )
 
@@ -970,6 +992,7 @@ def compile_schedule(
                 call_kind="forecast",
                 cue=None,
                 presentation_position=-1,
+                primary_logical_call_id=None,
                 request_payload=_checked_forecast_payload(
                     episode.forecast_payload
                 ),
@@ -999,13 +1022,14 @@ def compile_schedule(
                     call_kind="primary",
                     cue=cue,
                     presentation_position=position,
+                    primary_logical_call_id=None,
                     request_payload=_checked_actor_payload(
                         primary_payload, primary=True
                     ),
                 )
-                probe_payload = _detached(episode.probe_payload)
-                probe_payload["primary_logical_call_id"] = primary.logical_call_id
-                probe_payload = _checked_actor_payload(probe_payload)
+                probe_payload = _checked_actor_payload(
+                    episode.probe_payload
+                )
                 probe = _new_call(
                     seed=seed,
                     actor_id=actor_id,
@@ -1015,6 +1039,7 @@ def compile_schedule(
                     call_kind="probe",
                     cue=cue,
                     presentation_position=position,
+                    primary_logical_call_id=primary.logical_call_id,
                     request_payload=probe_payload,
                 )
                 bundle_calls.extend((primary, probe))
@@ -1072,6 +1097,7 @@ def _call_json(row: LogicalCall) -> dict[str, Json]:
         "call_kind": row.call_kind,
         "cue": row.cue,
         "presentation_position": row.presentation_position,
+        "primary_logical_call_id": row.primary_logical_call_id,
         "request_payload": row.request_payload,
     }
 
@@ -1110,6 +1136,14 @@ def _validate_scheduled_call(row: Any) -> LogicalCall:
         raise ValueError("invalid scheduled cue")
     if type(row.presentation_position) is not int:
         _type_error("presentation position must be an integer")
+    if row.call_kind == "probe":
+        if (
+            type(row.primary_logical_call_id) is not str
+            or _ID.fullmatch(row.primary_logical_call_id) is None
+        ):
+            raise ValueError("probe must name one primary logical call")
+    elif row.primary_logical_call_id is not None:
+        raise ValueError("only probes may name a primary logical call")
     if row.call_kind == "forecast":
         request_payload = _checked_forecast_payload(row.request_payload)
     elif row.call_kind == "primary":
@@ -1145,6 +1179,7 @@ def _assert_call_identity(row: LogicalCall, bundle: EvidenceBundlePlan, seed: in
         call_kind=row.call_kind,
         cue=row.cue,
         presentation_position=row.presentation_position,
+        primary_logical_call_id=row.primary_logical_call_id,
         request_payload=row.request_payload,
     )
     if row.logical_call_id != expected:
@@ -1283,10 +1318,6 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
             or forecast.presentation_position != -1
         ):
             raise ValueError("forecast must be first and condition independent")
-        if _has_policy_key(
-            forecast.request_payload, "primary_logical_call_id"
-        ):
-            raise ValueError("forecast payload references a condition-specific call")
         _record_cross_actor_semantics(
             forecast_semantics,
             bundle.episode_id,
@@ -1318,13 +1349,7 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
                 raise ValueError("primary/probe sequence is not counterbalanced")
             _assert_primary_payload(primary.request_payload)
             _assert_no_identity_fields(probe.request_payload)
-            if _has_compatibility_policy_key(
-                probe.request_payload, "primary_logical_call_id"
-            ):
-                raise ValueError(
-                    "probe contains a compatibility-equivalent call reference"
-                )
-            if probe.request_payload.get("primary_logical_call_id") != primary.logical_call_id:
+            if probe.primary_logical_call_id != primary.logical_call_id:
                 raise ValueError("probe does not reference its immediately preceding primary")
             semantic_key = (bundle.episode_id, cue)
             _record_cross_actor_semantics(
@@ -1333,15 +1358,10 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
                 primary.request_payload,
                 "primary semantics change across actors",
             )
-            probe_base = {
-                key: value
-                for key, value in probe.request_payload.items()
-                if key != "primary_logical_call_id"
-            }
             _record_cross_actor_semantics(
                 probe_semantics,
-                semantic_key,
-                probe_base,
+                bundle.episode_id,
+                probe.request_payload,
                 "probe semantics change across actors",
             )
             bodies.append(primary.request_payload["shared_body"])
@@ -1361,10 +1381,10 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
     if (
         len(forecast_semantics) != 12
         or len(primary_semantics) != 36
-        or len(probe_semantics) != 36
+        or len(probe_semantics) != 12
         or any(count != 4 for _, count in forecast_semantics.values())
         or any(count != 4 for _, count in primary_semantics.values())
-        or any(count != 4 for _, count in probe_semantics.values())
+        or any(count != 12 for _, count in probe_semantics.values())
     ):
         raise ValueError("actor-visible semantics are not complete across actors")
 

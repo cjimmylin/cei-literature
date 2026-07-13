@@ -408,5 +408,63 @@ are unaffected. Promotion one-liner remains separately required even after PR-11
 
 ---
 
+## PR-12 — Isolated model sharding for the 02/07 re-execution
+
+> **RATIFIED / CLOSED — 2026-07-12 (Jimmy, inline):** “Authorize isolated per-model
+> sharding and validated merge for this 02/07 re-execution.” This authorization is
+> run-specific. Claude may finish in the canonical checkpoint while DeepSeek, Mistral,
+> and Llama run concurrently in separate checkpoint/error directories. Every shard
+> must retain the exact registered SUT slug, frozen explicit judge/classifier slugs,
+> panel name, PUBLIC designs, and full item surface. No two live processes may write to
+> the same checkpoint. Before an append-only merge, TDD mechanics must require the
+> exact expected `(item_id, model)` surface and reject missing, extra, within-file
+> duplicate, or conflicting cross-input keys. The canonical process must stop at the
+> Claude model boundary so it cannot overlap the DeepSeek shard. **No general
+> concurrency precedent is created.**
+
+**Surfaced and ruled:** 2026-07-12 during O5 W1 production resume, after the canonical
+runner was confirmed sequential and without a supported worker flag. Subagents were
+not used because they share the worktree and cannot safely accelerate provider calls;
+the isolated process shards are the bounded mechanical speedup Jimmy authorized.
+
+---
+
+## PR-13 — Which W1 disagreement surface binds after the immutable 02/07 re-execution?
+
+**Surfaced:** 2026-07-13, O5 W1 production resume, immediately after the required
+one-new-unit Mistral probe. The probe itself parsed successfully (one call, zero defects,
+zero ambiguity, `$0.000514`) and is checkpointed; the full W1 run did not start.
+
+The registered historical O4 surface is **2,678 groups / 3,172 cells**, including
+**458 own-family groups / 580 cells**. The validated immutable 02/07 re-execution is
+internally complete (378/378 keys, every transcript response present), but whole-record
+replacement regenerates both the SUT transcripts and the frozen-pair judge reports.
+W1 therefore sees **2,682 groups / 3,176 cells**, still exactly **458 own-family groups /
+580 cells**. This is not four isolated new cells: relative to the historical cell
+identities, **437 are added and 433 removed** (added: 258 design-02 + 179 design-07;
+removed: 268 design-02 + 165 design-07), net +4.
+
+**Why Codex stopped:** FR-16 and the execution handoff repeatedly name the literal
+3,172-cell surface, while the transition mechanics require new complete transcripts but
+never state whether the historical judge surface or the internally consistent
+re-executed judge surface controls after replacement. Continuing on 3,176 would change
+the registered acceptance count; forcing 3,172 would pair historical judge scores with
+newly generated responses for the originally missing turns. Either choice is
+judgment-shaped and cannot be inferred mechanically.
+
+**Jimmy ruling required (one line):**
+
+1. **Recommended — re-executed surface:** ratify 2,682 groups / 3,176 cells as the W1
+   production surface for this run. Continue from the existing one-unit checkpoint;
+   the approved own-family Part-B burden remains exactly 580 cells.
+2. **Historical surface:** keep the literal 2,678 / 3,172 surface and specify how the
+   723 historically missing response texts may be paired with historical judge scores
+   without silently mixing judgments on old responses with new transcripts.
+
+**Current behavior:** W1 stopped after the successful one-unit probe. No full W1, W2,
+W3, W4, W5, gate verdict, or release claim was run. **OPEN.**
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

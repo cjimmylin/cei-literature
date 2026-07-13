@@ -1,0 +1,154 @@
+{
+  "panel": "20260712-o5-02-07-reexecution",
+  "date_str": "20260712",
+  "designs": [
+    "02-twomasters",
+    "07-seventyseven"
+  ],
+  "item_ids": [
+    "WW-02-A02",
+    "WW-02-B02",
+    "WW-02-B03",
+    "WW-02-C01",
+    "WW-02-C02",
+    "WW-02-E01",
+    "WW-02-E02",
+    "WW-02-F02",
+    "WW-02-F03",
+    "WW-02-G02",
+    "WW-02-H01",
+    "WW-02-H02",
+    "WW-02-I01",
+    "WW-02-L01",
+    "WW-02-L02",
+    "WW-02-M01",
+    "WW-02-N01",
+    "WW-02-N02",
+    "WW-02-B04",
+    "WW-02-C03",
+    "WW-02-F04",
+    "WW-02-G03",
+    "WW-02-I03",
+    "WW-02-K01",
+    "WW-02-L03",
+    "WW-02-M03",
+    "WW-02-N03",
+    "WW-02-A05",
+    "WW-02-D03",
+    "WW-02-D04",
+    "WW-02-F05",
+    "WW-02-G04",
+    "WW-02-K03",
+    "WW-02-L04",
+    "WW-02-M04",
+    "WW-02-N04",
+    "WW-07-E02",
+    "WW-07-E03",
+    "WW-07-G02",
+    "WW-07-G03",
+    "WW-07-G04",
+    "WW-07-B02",
+    "WW-07-A02",
+    "WW-07-C01",
+    "WW-07-C02",
+    "WW-07-I02",
+    "WW-07-I03",
+    "WW-07-M01",
+    "WW-07-M02",
+    "WW-07-L01",
+    "WW-07-A03",
+    "WW-07-B04",
+    "WW-07-D03",
+    "WW-07-F02",
+    "WW-07-I04",
+    "WW-07-L02",
+    "WW-07-M03",
+    "WW-07-M04",
+    "WW-07-L03",
+    "WW-07-F03",
+    "WW-07-H03",
+    "WW-07-H04",
+    "WW-07-D04"
+  ],
+  "models": [
+    {
+      "name": "meta-llama/llama-3.3-70b-instruct",
+      "family": "meta-llama",
+      "adapter": "openrouter"
+    }
+  ],
+  "judges": [
+    {
+      "name": "or:openai/gpt-4.1-mini",
+      "family": "openai"
+    },
+    {
+      "name": "or:google/gemini-2.5-flash",
+      "family": "google"
+    }
+  ],
+  "permutation_seeds": {
+    "seat_order": 20260706,
+    "twin_order": 20260706,
+    "variant_order": 20260706,
+    "claimant_order": 20260706,
+    "arbiter_placement": 20260706
+  },
+  "capability_battery": [
+    {
+      "id": "mmlu_pro",
+      "name": "MMLU-Pro",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Broad multi-domain reasoning; the canonical successor to MMLU, harder and less saturated.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gpqa_diamond",
+      "name": "GPQA (Diamond)",
+      "class": "reasoning",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Graduate-level, Google-proof science QA; separates frontier reasoning from recall.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "swe_bench_verified",
+      "name": "SWE-bench Verified",
+      "class": "agentic",
+      "metric": "resolved (%)",
+      "higher_is_better": true,
+      "why": "Multi-step agentic coding on real GitHub issues; a strong general agency signal.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "gaia",
+      "name": "GAIA",
+      "class": "agentic",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "General assistant tasks needing tool use, browsing, and multi-step planning.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "ruler",
+      "name": "RULER",
+      "class": "long_context",
+      "metric": "score (%) at fixed context length",
+      "higher_is_better": true,
+      "why": "Synthetic long-context stress test (retrieval, multi-hop, aggregation) at a pinned length.",
+      "source": "public leaderboard / model card at O4 time"
+    },
+    {
+      "id": "mrcr",
+      "name": "MRCR (multi-round coreference resolution)",
+      "class": "long_context",
+      "metric": "accuracy (%)",
+      "higher_is_better": true,
+      "why": "Long-context multi-turn coreference — relevant to WALKWORTHY's scripted multi-turn designs (02/07) without measuring their ethics.",
+      "source": "public leaderboard / model card at O4 time"
+    }
+  ],
+  "notes": "o5-reexecution: 63 items x 1 models (measurement path; P0 PILOT — real cross-model measurement ...)."
+}

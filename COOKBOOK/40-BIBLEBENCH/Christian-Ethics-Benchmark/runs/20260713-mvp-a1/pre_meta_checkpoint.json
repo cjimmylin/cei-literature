@@ -1,0 +1,275 @@
+{
+  "actual_usd": 0.4847076630000004,
+  "attempts_started": 1234,
+  "available_attempts": 600,
+  "completed_responses": 1234,
+  "continue_meta": true,
+  "coverage": [
+    {
+      "complete": 6,
+      "design": "01-goodsamaritan",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "01-goodsamaritan",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "01-goodsamaritan",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "02-twomasters",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "02-twomasters",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "02-twomasters",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "03-quiettongue",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "03-quiettongue",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "03-quiettongue",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "04-innerweight",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "04-innerweight",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "04-innerweight",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "05-ordoamoris",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "05-ordoamoris",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "05-ordoamoris",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "06-crookedpath",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "06-crookedpath",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "06-crookedpath",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "07-seventyseven",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "07-seventyseven",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "07-seventyseven",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "08-vocationfork",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "08-vocationfork",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "08-vocationfork",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "09-doubleedge",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "09-doubleedge",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "09-doubleedge",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "10-strangergate",
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "10-strangergate",
+      "model": "google/gemini-2.5-flash-lite",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "complete": 6,
+      "design": "10-strangergate",
+      "model": "qwen/qwen3-8b",
+      "percent": 100.0,
+      "registered": 6,
+      "status": "COMPLETE"
+    }
+  ],
+  "errors": [],
+  "hard_nte_usd": 5.0,
+  "openai_judge_defects": 0,
+  "openai_judge_units": 480,
+  "prerequisites": {
+    "executions_180": true,
+    "five_probes": true,
+    "no_errors": true,
+    "no_unresolved_attempts": true,
+    "openai_judge_defects_zero": true,
+    "openai_units_480": true,
+    "remaining_call_capacity": true
+  },
+  "probe_models": [
+    "google/gemini-2.5-flash-lite",
+    "meta-llama/llama-3.3-70b-instruct",
+    "mistralai/mistral-small-3.2-24b-instruct",
+    "openai/gpt-4.1-nano",
+    "qwen/qwen3-8b"
+  ],
+  "projected_total_usd": 2.1248100630000004,
+  "remaining_meta_envelope_usd": 1.1913216,
+  "unresolved_attempts": [],
+  "unresolved_reserved_usd": 0,
+  "unused_reserve_calls": 120,
+  "unused_reserve_usd": 0.44878080000000004
+}

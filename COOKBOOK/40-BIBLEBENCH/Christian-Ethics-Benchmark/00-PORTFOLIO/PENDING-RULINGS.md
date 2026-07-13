@@ -927,6 +927,18 @@ unresolved, close MVP-A1 incomplete, and leave judge-derived score surfaces unav
 retry, further OpenAI call, checkpoint, Meta call, or results interpretation is authorized
 until PR-21 is ruled.
 
+**Jimmy ruling (2026-07-13, verbatim):**
+
+> Ratify PR-21 option 1: close MVP-A1 attempt 915 as HTTP-200 custody failure with no usable response, no returned-model/token claim, and the $0.0025024 registered maximum booked as reserved_max_on_missing_cost; allow one identical-payload retry from the existing reserve; require exact model plus reported usage.cost; a second missing-cost response for that payload stops permanently; apply this rule to future MVP-A1 missing-cost responses within the unchanged 1,834-call/$5 limits; no substitution.
+
+**RATIFIED + CLOSED 2026-07-13.** Attempt 915 must receive one truthful append-only
+failure finish with no usable response, returned-model claim, or token claim and with the
+registered maximum booked under `reserved_max_on_missing_cost`. Exactly one identical-
+payload retry is available from the existing reserve. A second missing-cost response for
+that payload permanently stops it. The rule applies prospectively to MVP-A1 without
+changing the roster, prompt, cap, provider ceiling, 1,834-call envelope, $5.00 NTE,
+no-substitution constraint, or descriptive-only claim boundary.
+
 ---
 
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a

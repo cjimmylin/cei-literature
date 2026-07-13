@@ -157,6 +157,141 @@ def test_attempt_ledger_never_accepts_unknown_negative_or_nonfinite_cost(
         ledger.finish(attempt, 200, {"usage": usage})
 
 
+def test_pr21_closes_one_authorized_unresolved_attempt_without_response_claims(
+        tmp_path):
+    path = tmp_path / "attempts.jsonl"
+    spec = mvp.JUDGE_SPECS[0]
+    payload = {
+        "model": spec.slug, "messages": [{"role": "user", "content": "x"}],
+        "max_tokens": spec.max_tokens, "provider": spec.provider_prefs,
+    }
+    ledger = mvp.AttemptLedger(path)
+    attempt = ledger.begin(spec.slug, "judge", spec.max_call_usd, payload)
+    with pytest.raises(mvp.ContractStop, match="unresolved attempt"):
+        mvp.AttemptLedger(path)
+
+    recovery = mvp.AttemptLedger(
+        path, authorized_unresolved_attempt=attempt,
+    )
+    recovery.finish_missing_cost(attempt)
+    resumed = mvp.AttemptLedger(path)
+    assert resumed.snapshot() == {
+        "attempts_started": 1,
+        "completed_responses": 1,
+        "actual_usd": pytest.approx(spec.max_call_usd),
+        "unresolved_reserved_usd": 0,
+        "unresolved_attempts": [],
+    }
+    finish = json.loads(path.read_text().splitlines()[-1])
+    assert finish == {
+        "event": "attempt_finished",
+        "attempt_id": attempt,
+        "requested_model": spec.slug,
+        "returned_model": None,
+        "role": "judge",
+        "status": 200,
+        "actual_usd": spec.max_call_usd,
+        "cost_basis": "reserved_max_on_missing_cost",
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+    }
+
+
+def test_pr21_missing_cost_retries_once_with_identical_payload_and_can_recover(
+        tmp_path):
+    path = tmp_path / "attempts.jsonl"
+    ledger = mvp.AttemptLedger(path)
+    spec = mvp.JUDGE_SPECS[0]
+    payload = {
+        "model": spec.slug, "messages": [{"role": "user", "content": "same"}],
+        "max_tokens": spec.max_tokens, "provider": spec.provider_prefs,
+    }
+    calls = []
+
+    def base(_url, _headers, sent, timeout=None):
+        calls.append(json.loads(json.dumps(sent, sort_keys=True)))
+        if len(calls) == 1:
+            return 200, {
+                "model": spec.slug,
+                "usage": {"prompt_tokens": 10, "completion_tokens": 2},
+            }
+        return 200, {
+            "model": spec.slug,
+            "usage": {"cost": 0.0002, "prompt_tokens": 10,
+                      "completion_tokens": 2},
+        }
+
+    status, response = mvp.guarded_transport(base, ledger, spec, "judge")(
+        "url", {}, payload,
+    )
+    assert status == 200
+    assert response["usage"]["cost"] == pytest.approx(0.0002)
+    assert calls == [payload, payload]
+    events = [json.loads(line) for line in path.read_text().splitlines()]
+    assert len(events) == 4
+    assert events[0]["payload_sha256"] == events[2]["payload_sha256"]
+    assert events[1]["cost_basis"] == "reserved_max_on_missing_cost"
+    assert events[1]["returned_model"] is None
+    assert events[1]["prompt_tokens"] == events[1]["completion_tokens"] == 0
+    assert events[3]["cost_basis"] == "reported"
+
+
+def test_pr21_second_missing_cost_stops_before_a_third_attempt(tmp_path):
+    path = tmp_path / "attempts.jsonl"
+    spec = mvp.JUDGE_SPECS[0]
+    payload = {
+        "model": spec.slug, "messages": [{"role": "user", "content": "same"}],
+        "max_tokens": spec.max_tokens, "provider": spec.provider_prefs,
+    }
+    calls = []
+
+    def missing(_url, _headers, sent, timeout=None):
+        calls.append(sent)
+        return 200, {"model": spec.slug, "usage": {}}
+
+    ledger = mvp.AttemptLedger(path)
+    with pytest.raises(mvp.ContractStop, match="second missing usage.cost"):
+        mvp.guarded_transport(missing, ledger, spec, "judge")(
+            "url", {}, payload,
+        )
+    assert len(calls) == 2
+    assert mvp.AttemptLedger(path).snapshot()["completed_responses"] == 2
+
+    calls_after_resume = []
+
+    def must_not_run(*args, **kwargs):
+        calls_after_resume.append(True)
+        raise AssertionError("third paid attempt must not run")
+
+    resumed = mvp.AttemptLedger(path)
+    with pytest.raises(mvp.ContractStop, match="missing-cost retry exhausted"):
+        mvp.guarded_transport(must_not_run, resumed, spec, "judge")(
+            "url", {}, payload,
+        )
+    assert calls_after_resume == []
+
+
+def test_pr21_pending_retry_rejects_payload_drift_before_call(tmp_path):
+    path = tmp_path / "attempts.jsonl"
+    spec = mvp.JUDGE_SPECS[0]
+    original = {
+        "model": spec.slug, "messages": [{"role": "user", "content": "original"}],
+        "max_tokens": spec.max_tokens, "provider": spec.provider_prefs,
+    }
+    ledger = mvp.AttemptLedger(path)
+    attempt = ledger.begin(spec.slug, "judge", spec.max_call_usd, original)
+    recovery = mvp.AttemptLedger(path, authorized_unresolved_attempt=attempt)
+    recovery.finish_missing_cost(attempt)
+
+    calls = []
+    changed = {**original, "messages": [{"role": "user", "content": "changed"}]}
+    with pytest.raises(mvp.ContractStop, match="identical payload"):
+        mvp.guarded_transport(
+            lambda *args, **kwargs: calls.append(True), recovery, spec, "judge",
+        )("url", {}, changed)
+    assert calls == []
+
+
 def test_guarded_transport_records_then_rejects_returned_model_substitution(tmp_path):
     ledger = mvp.AttemptLedger(tmp_path / "attempts.jsonl")
 

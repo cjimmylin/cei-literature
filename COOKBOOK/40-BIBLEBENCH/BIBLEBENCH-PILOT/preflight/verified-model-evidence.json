@@ -4,6 +4,9 @@
       "actor_alias": "actor-alpha",
       "api_family": "responses",
       "context_window_tokens": 400000,
+      "control_evidence_sources": [
+        "https://developers.openai.com/api/reference/resources/responses/methods/create"
+      ],
       "input_usd_per_million_tokens": 0.05,
       "maximum_output_tokens": 128000,
       "model_id": "gpt-5-nano-2025-08-07",
@@ -13,12 +16,19 @@
       ],
       "output_usd_per_million_tokens": 0.4,
       "provider": "OpenAI",
+      "registered_adapter_controls": {
+        "max_output_tokens": 700,
+        "temperature": 0
+      },
       "route_id": "openai/first-party/responses"
     },
     {
       "actor_alias": "actor-beta",
       "api_family": "generate_content",
       "context_window_tokens": 1048576,
+      "control_evidence_sources": [
+        "https://ai.google.dev/api/generate-content"
+      ],
       "input_usd_per_million_tokens": 0.1,
       "maximum_output_tokens": 65536,
       "model_id": "gemini-2.5-flash-lite",
@@ -29,12 +39,19 @@
       ],
       "output_usd_per_million_tokens": 0.4,
       "provider": "Google",
+      "registered_adapter_controls": {
+        "max_output_tokens": 700,
+        "temperature": 0
+      },
       "route_id": "google/first-party/generate-content"
     },
     {
       "actor_alias": "actor-gamma",
       "api_family": "messages",
       "context_window_tokens": 200000,
+      "control_evidence_sources": [
+        "https://platform.claude.com/docs/en/api/messages/create"
+      ],
       "input_usd_per_million_tokens": 1,
       "maximum_output_tokens": 64000,
       "model_id": "claude-haiku-4-5-20251001",
@@ -44,6 +61,10 @@
       ],
       "output_usd_per_million_tokens": 5,
       "provider": "Anthropic",
+      "registered_adapter_controls": {
+        "max_output_tokens": 700,
+        "temperature": 0
+      },
       "route_id": "anthropic/first-party/messages"
     }
   ],

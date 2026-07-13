@@ -87,6 +87,23 @@ def _validate_evidence(
             )
         ):
             raise ValueError("non-official evidence source")
+        if row.get("registered_adapter_controls") != {
+            "max_output_tokens": 700,
+            "temperature": 0,
+        }:
+            raise ValueError("adapter-control evidence mismatch")
+        control_sources = row.get("control_evidence_sources")
+        if (
+            type(control_sources) is not list
+            or not control_sources
+            or any(
+                type(source) is not str
+                or urlparse(source).scheme != "https"
+                or urlparse(source).hostname not in _ALLOWED_SOURCE_HOSTS
+                for source in control_sources
+            )
+        ):
+            raise ValueError("non-official adapter-control source")
 
 
 def _checkpoint_payload(
@@ -170,10 +187,18 @@ def _authorization_markdown(
     consistency: dict[str, Any],
 ) -> str:
     roster = "\n".join(
-        f"- `{actor['actor_alias']}`: {actor['provider']} "
-        f"`{actor['model_id']}` via `{actor['route']['api_family']}`"
+        "| {alias} | {provider} | `{model}` | `{route}` | "
+        "${input_price:.2f} / ${output_price:.2f} | 4,096 input / 700 output |".format(
+            alias=actor["actor_alias"],
+            provider=actor["provider"],
+            model=actor["model_id"],
+            route=actor["route"]["route_id"],
+            input_price=actor["price"]["input_usd"],
+            output_price=actor["price"]["output_usd"],
+        )
         for actor in proposal["actors"]
     )
+    hashes = proposal["snapshot_hashes"]
     return f"""# PF-002 Owner Authorization Request
 
 Status: `NOT_AUTHORIZED`
@@ -192,14 +217,48 @@ Run ID: _blank_
 - Proposal hash: `{proposal['manifest_sha256']}`
 - Expiry: `{proposal['expires_on']}`
 - Geometry: 48 episodes × 3 actors × C1 primary plus matched probe = **288 logical calls**
+- Dispatch boundary: no C0/C2 dispatch; no capability twins; fallback disabled
 - Retry exposure: at most 2 attempts per logical call, rate-limit only
+- Missingness: unknown delivery is terminal missingness
 - Forecast: **${proposal['budget']['forecast_usd']:.7f}**, below the **$3.00** forecast gate
 - Hard not-to-exceed ceiling: **$5.00**
 - Evidence hash: `{consistency['evidence_registry_sha256']}`
+- Registered adapter controls: temperature `0`; maximum output `700`
 
 ### Roster
 
+Prices are standard synchronous text input/output USD per million tokens.
+
+| Alias | Provider | Exact model | Exact first-party route | Input / output price | Token caps |
+|---|---|---|---|---:|---:|
 {roster}
+
+### Frozen contract hashes
+
+- Runner hash: `{hashes['compiler_sha256']}`
+- Adapter hash: `{hashes['adapter_sha256']}`
+- Proposal schema hash: `{hashes['proposal_schema_sha256']}`
+- Artifact schema hash: `{hashes['artifact_schema_sha256']}`
+- Bank-set hash: `{hashes['bank_set_sha256']}`
+- Request-registry-set hash: `{hashes['request_registry_set_sha256']}`
+- Surface-registry-set hash: `{hashes['surface_registry_set_sha256']}`
+- Analysis-contract hash: `{hashes['analysis_contract_sha256']}`
+- Adjudication-contract hash: `{hashes['adjudication_contract_sha256']}`
+
+### Unresolved pre-call facts
+
+Unresolved facts are account entitlement, live model availability, account
+rate limits, taxes, billing rounding, and regional availability or pricing.
+They cannot be verified without entering a credential or provider surface.
+They remain explicitly unresolved. Any material change requires a refreshed
+proposal and owner review.
+
+### Human-readable consistency statement
+
+The proposal hash, evidence hash, geometry, budget, checkpoint, frozen contract
+hashes, and blank owner fields above describe the same `PROPOSAL_ONLY` object.
+The machine-readable companion is `pf002-preflight-consistency.json`, whose
+checkpoint hash is `{consistency['checkpoint_sha256']}`.
 
 ## Owner gate
 
@@ -271,12 +330,16 @@ def build_preflight_bundle(package_root: Path) -> dict[str, bytes]:
     _validate_evidence(proposal, evidence)
     checkpoint = _checkpoint_payload(proposal, evidence, total)
     consistency = _consistency_payload(proposal, evidence, checkpoint)
+    authorization_request = _authorization_markdown(
+        proposal, evidence, consistency
+    ).encode("utf-8")
+    consistency["authorization_request_sha256"] = _sha256(
+        authorization_request
+    )
     return {
         "pf002-three-model-proposal.json": _pretty_json(proposal),
         "pf002-preflight-consistency.json": _pretty_json(consistency),
-        "PF002-OWNER-AUTHORIZATION-REQUEST.md": _authorization_markdown(
-            proposal, evidence, consistency
-        ).encode("utf-8"),
+        "PF002-OWNER-AUTHORIZATION-REQUEST.md": authorization_request,
         "pilot-cost-estimate.json": _pretty_json(checkpoint),
         "PILOT-COST-CHECKPOINT.md": _checkpoint_markdown(
             proposal, evidence, checkpoint

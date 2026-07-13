@@ -10,7 +10,7 @@ This register defines the current paper-facing contract for active work under `4
 
 - `paper_claim_enabled`: An exploratory shared-episode pilot can separately describe observable ethical behavior and passage-grounded Christian interpretation across four modules and three inexpensive general-purpose models without a ranking or definitive validation claim.
 - `paper_deliverable`: A source-verified methods-and-pilot manuscript preview, the 48-episode bank, one-surface PF-002 runner, descriptive table/figure contracts, nine benchmark design PDFs, and—after separate authority—pilot results plus a stop/repair/scale memo.
-- `blocking_reason`: The offline package is scientifically ready. Live evidence remains blocked until Jimmy completes a scientifically adequate single-expert provisional-gold pass with no unresolved MVP-relevant P0/P1 and separately authorizes the exact three-model paid manifest.
+- `blocking_reason`: The offline package and source-verified three-model PF-002 proposal packet are scientifically ready. Live evidence remains blocked until Jimmy completes a scientifically adequate single-expert provisional-gold pass with no unresolved MVP-relevant P0/P1 and separately authorizes the exact hash-bound paid manifest.
 - `minimum_sufficiency_gate`: Preserve all 48 frozen episodes; use one C1 primary plus matched probe per episode; compile exactly 288 calls across exactly three inexpensive general-purpose models; preserve immutable custody and missingness; keep the forecast at or below $3 and cap at $5; retain exploratory descriptive claims; complete one founding judge pass; and obtain separate paid-call authority.
 - `timebox`: One owner pass and bounded repair, one exact roster/cost preflight, one authorized low-cost run, and one paper/PDF results assembly pass. Stop P2/P3 review loops.
 - `stop_condition`: Produce the complete paper-shaped preview and stop for Jimmy's stop, bounded-repair, or scale decision. Stop earlier at unresolved P0/P1, the paid-manifest gate, custody failure, or the $5 ceiling.
@@ -21,12 +21,12 @@ This register defines the current paper-facing contract for active work under `4
 
 - Manuscript: the venue-neutral draft now has source-verified related work, claims and limitations registers, reproducibility/ethics/data-card appendices, and a visually verified nine-page citation-resolved methods PDF; Results remains `PENDING_EMPIRICAL_RUN`.
 - Executable bank: 48 episodes remain frozen. A contamination-safe offline 48-record judge interface and a deterministic synthetic PF-002 runner compile exactly 288 C1-only calls—144 primaries and 144 probes—across three synthetic actors.
-- Evidence: no model evidence exists. All owner decisions remain pending. Synthetic runner artifacts are visibly `SYNTHETIC_VALIDATION_ONLY`, byte reproducible, offline, unauthorized, and zero cost.
+- Evidence: no model-output evidence exists. The exact OpenAI/Google/Anthropic proposal, official-source registry, corrected checkpoint, consistency record, and blank owner request are byte reproducible, `PROPOSAL_ONLY`, and `NOT_AUTHORIZED`; synthetic runner artifacts remain visibly `SYNTHETIC_VALIDATION_ONLY`.
 - PDF: nine pre-empirical design reports (86 pages total) are machine-checked and visually verified, including all 30 10CBench designs plus its 12 executable episodes. Pilot-result PDFs remain downstream of owner gold and empirical evidence.
-- Spend: $0.00 spent and zero provider calls. PF-002 sets a forecast target at or below $3 and a $5 hard ceiling; the exact real manifest remains separately gated.
-- Verification: independent P0/P1 reviews are closed across the paper, judge UI, runner, and nine-report PDF package; the final integrated suite passed 2,926 tests with one skip.
-- Local authority: PF-002 and `output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md` in the consolidated pilot worktree.
-- Next session: Jimmy completes pass-one theologian-technical adjudication using the offline interface; repair only MVP-relevant P0/P1. Then present the exact three-model roster, routes, prices, token caps, retry rule, forecast, expiry, and $5 NTE for separate authorization.
+- Spend: $0.00 spent, zero provider calls, and no credentials accessed. The exact 288-call proposal forecasts $1.6839168 at maximum registered tokens and retry exposure, below the $3 gate, with a $5 hard NTE; paid execution remains separately gated.
+- Verification: independent P0/P1 reviews are closed across the paper, judge UI, runner, and nine-report PDF package; the current integrated suite passed 2,934 tests with one skip, followed by 25/25 focused preflight and fail-closed checks.
+- Local authority: PF-002, `output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md`, and `output/docs/superpowers/specs/2026-07-13-biblebench-pf002-owner-ready-preflight-design.md` in the consolidated pilot worktree.
+- Next session: Jimmy completes pass-one theologian-technical adjudication using the offline interface; repair only MVP-relevant P0/P1. Then review `BIBLEBENCH-PILOT/preflight/PF002-OWNER-AUTHORIZATION-REQUEST.md` and separately approve or reject its exact proposal hash, roster, expiry, $1.6839168 forecast, and $5 NTE.
 
 ### Review disposition
 

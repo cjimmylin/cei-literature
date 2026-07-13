@@ -83,6 +83,14 @@ def test_evidence_registry_is_public_first_party_and_matches_proposal() -> None:
         assert {
             urlparse(url).hostname for url in row["official_sources"]
         } <= allowed_hosts
+        assert row["registered_adapter_controls"] == {
+            "max_output_tokens": 700,
+            "temperature": 0,
+        }
+        assert row["control_evidence_sources"]
+        assert {
+            urlparse(url).hostname for url in row["control_evidence_sources"]
+        } <= allowed_hosts
 
 
 def test_preflight_builder_is_deterministic_and_offline(monkeypatch) -> None:
@@ -135,6 +143,9 @@ def test_consistency_record_binds_every_owner_facing_artifact() -> None:
     assert consistency["checkpoint_sha256"] == hashlib.sha256(
         (json.dumps(checkpoint, indent=2, sort_keys=True) + "\n").encode("utf-8")
     ).hexdigest()
+    assert consistency["authorization_request_sha256"] == hashlib.sha256(
+        AUTH_REQUEST.read_bytes()
+    ).hexdigest()
 
 
 def test_authorization_request_has_blank_owner_fields_and_exact_stop_gate() -> None:
@@ -146,3 +157,25 @@ def test_authorization_request_has_blank_owner_fields_and_exact_stop_gate() -> N
     assert "Run ID: _blank_" in text
     assert "No credential, provider, model, or billing surface was accessed" in text
     assert "288" in text and "$3.00" in text and "$5.00" in text
+    assert "4,096 input / 700 output" in text
+    assert "temperature `0`" in text
+    for value in (
+        "openai/first-party/responses",
+        "google/first-party/generate-content",
+        "anthropic/first-party/messages",
+        "$0.05 / $0.40",
+        "$0.10 / $0.40",
+        "$1.00 / $5.00",
+        "Runner hash",
+        "Adapter hash",
+        "Proposal schema hash",
+        "Unresolved pre-call facts",
+        "account entitlement",
+        "billing rounding",
+        "regional availability",
+        "no C0/C2 dispatch",
+        "no capability twins",
+        "fallback disabled",
+        "unknown delivery is terminal missingness",
+    ):
+        assert value in text

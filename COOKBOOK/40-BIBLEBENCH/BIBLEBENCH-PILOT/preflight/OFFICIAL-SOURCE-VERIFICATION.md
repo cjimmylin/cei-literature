@@ -26,8 +26,19 @@ accessed. Provider calls: **0**. Spend: **$0.00**.
   documents the Generate Content family.
 - Anthropic: [Models overview](https://platform.claude.com/docs/en/about-claude/models/overview)
   identifies the exact Claude API ID, price, context window, and maximum output.
-  [Messages reference](https://docs.anthropic.com/en/api/messages) identifies the
-  first-party Messages API family.
+  [Messages reference](https://platform.claude.com/docs/en/api/messages/create)
+  identifies the first-party Messages API family and request controls.
+
+## Registered adapter controls
+
+The local offline adapter emits only `temperature: 0` and the 700-token output
+cap from the proposal's broader decoding record. The official
+[Responses request schema](https://developers.openai.com/api/reference/resources/responses/methods/create),
+[Generate Content schema](https://ai.google.dev/api/generate-content), and
+[Messages request schema](https://platform.claude.com/docs/en/api/messages/create)
+document those API-family controls; the model pages above separately establish
+the exact eligible models and output limits. The packet makes no support claim
+for unused decoding metadata and constructs no live request.
 
 These facts establish proposal eligibility only. They are not an availability
 probe, account entitlement check, authorization record, or permission to call

@@ -4,7 +4,7 @@
   "calls_made": 0,
   "cue": "C1",
   "estimate_version": "pf002-three-model-preflight-v1",
-  "evidence_registry_sha256": "b07c2ad71bc01f84c8dbbdf95106bda09f8b808e7fcab88c45219ccc075272e9",
+  "evidence_registry_sha256": "bcfb95c07c5b5a41af4f8913be28c96e7c946573d975fde8c372955587354b82",
   "expires_on": "2026-07-20",
   "forecast_limit_usd": 3,
   "forecast_usd": 1.6839168,

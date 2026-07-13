@@ -1,4 +1,5 @@
 {
+  "authorization_request_sha256": "0983d4720e9ffdaf2b706eb6522a764a16ef6dd44bfd4d130a441b71b84bfff1",
   "authorized": false,
   "budget": {
     "calculated_worst_case_usd": 1.6839168,
@@ -9,10 +10,10 @@
     "hard_cap_usd": 5,
     "not_to_exceed_usd": 5
   },
-  "checkpoint_sha256": "04500f4648e8be13c790e26c52732a278224b9da99feb586926e76857004c321",
+  "checkpoint_sha256": "7a42de7c1374310174a20ca2e4398076fe69c3699758d684325ac60492f9735c",
   "classification": "PROPOSAL_ONLY",
   "credentials_accessed": false,
-  "evidence_registry_sha256": "b07c2ad71bc01f84c8dbbdf95106bda09f8b808e7fcab88c45219ccc075272e9",
+  "evidence_registry_sha256": "bcfb95c07c5b5a41af4f8913be28c96e7c946573d975fde8c372955587354b82",
   "generated_by": "pf002-owner-ready-preflight-v1",
   "geometry": {
     "actor_count": 3,

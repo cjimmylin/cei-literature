@@ -8,31 +8,31 @@ This register defines the current paper-facing contract for active work under `4
 
 ## Consolidated BibleBench pilot — FruitBench, CORINTHLOVE, 10CBench, SermonMount
 
-- `paper_claim_enabled`: A shared-episode battery can measure observable ethical behavior and passage-grounded Christian interpretation without collapsing them into one score.
-- `paper_deliverable`: Methods/design manuscript draft, 48 executable episodes, pilot analyses and tables, and the required benchmark PDF deliverables.
-- `blocking_reason`: P1 until all 48 episodes pass the approved geometry, schema, provenance, and shared-scheduler compilation checks.
-- `minimum_sufficiency_gate`: 12 episodes per benchmark; 4 target, 4 null/foil, and 4 restraint/counterfeit; 34 common-life and 14 Christian-facing overall; C0/C1/C2, probe, answer contract, capability twin, failure poles, and exact provenance present; no open P0/P1 review finding.
-- `timebox`: Freeze after one bounded integration review and one repair pass unless Jimmy approves an exception.
-- `stop_condition`: Freeze the research snapshot and begin the authorized cheap general-purpose model pilot when the sufficiency gate passes; do not continue nonblocking hardening first.
-- `deferred_nonblocking_work`: Hostile-deployment hardening, broad Unicode compatibility, optional transport adapters, exhaustive adversarial edge cases, and other P2/P3 findings.
+- `paper_claim_enabled`: An exploratory shared-episode pilot can demonstrate the feasibility of separately assessing observable ethical behavior and passage-grounded Christian interpretation across four modules and can describe patterns from three inexpensive general-purpose models without claiming a ranking or definitive validation.
+- `paper_deliverable`: A complete methods-and-pilot manuscript preview, frozen three-model run manifest and spend ledger, descriptive tables and figures for all four modules, required benchmark PDFs, limitations register, and one-page stop/repair/scale decision memo.
+- `blocking_reason`: The MVP evidence phase remains blocked only by a P0/P1 that could change its narrowed claims, absence of a scientifically adequate single-expert provisional-gold pass, inability to freeze the one-surface schedule and custody, or lack of separate owner authorization for the exact paid manifest.
+- `minimum_sufficiency_gate`: Preserve the 48-episode geometry; freeze one C1-plus-observable-probe surface per episode; use exactly three inexpensive general-purpose models; complete one founding theologian-technical provisional-gold pass and one blinded response-scoring pass; record reproducible custody, a forecast at or below $3.00, and a $5.00 absolute ceiling; close, narrow, or owner-rule every MVP-relevant P1; obtain separate final paid-call authorization.
+- `timebox`: One bounded bank/gold readiness pass, one exact roster-and-cost preflight, one low-cost pilot execution, and one paper/PDF assembly pass. Stop review loops when the narrowed MVP claims are scientifically adequate.
+- `stop_condition`: Produce the complete paper-shaped preview and stop for Jimmy's explicit stop, bounded-repair, or scale decision. Stop earlier at the paid-manifest authorization gate, $5.00 ceiling, custody failure, or P0 event.
+- `deferred_nonblocking_work`: Additional or premium models; multi-judge or paid judge panels; mandatory blinded-repeat reliability; formal concordance; all C0/C1/C2 contrasts; capability-twin execution and capability-adjustment; family-level estimates; composite rankings; hostile-deployment, broad compatibility, optional transport, and release hardening.
 - `owner_approved_exception`: none.
 
 ### Current paper-track status
 
-- Manuscript: dual-track design approved; methods/design drafting may proceed alongside episode integration.
-- Executable bank: 48-episode authoring and shared-engine compilation are the immediate critical path.
-- Evidence: no consolidated cheap-model pilot evidence yet.
-- PDF: prior design PDFs exist; pilot-result deliverables await executable-bank freeze and evidence.
-- Spend: no new paid call is authorized by this register.
-- Local authority: `output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md` in the consolidated pilot worktree, plus each benchmark's current handoff.
-- Next session: finish the 48 episodes, run the bounded integration review and one repair pass, freeze, then advance manuscript and cheap-model pilot work concurrently.
+- Manuscript: the dual-track design is approved; the immediate target is a complete exploratory methods-and-pilot preview rather than a definitive benchmark paper.
+- Executable bank: the target remains 48 episodes, 12 per module; the consolidated worktree remains authoritative for current freeze and gold status.
+- Evidence: no consolidated three-model MVP evidence exists yet.
+- PDF: prior design PDFs exist; the MVP closes only when pilot-result benchmark PDFs and the manuscript preview are inspectable together.
+- Spend: PF-002 sets a $5.00 ceiling and a preflight target at or below $3.00, but this register does not authorize credentials, provider access, or paid calls.
+- Local authority: `output/docs/superpowers/specs/2026-07-13-biblebench-low-cost-mvp-paper-strategy-design.md`, PF-002, the consolidated pilot worktree, and each benchmark's current handoff.
+- Next session: reconcile the frozen bank and provisional-gold readiness, freeze the one-surface schedule, and present the exact three-model manifest and cost forecast for separate authorization; do not add models, judge panels, cue surfaces, or nonblocking hardening first.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: executable episode bank has not yet passed the full sufficiency gate.
-- Deferred P2: compatibility and deployment hardening that cannot change registered pilot conclusions.
-- Deferred P3: polish and hypothetical hostile-deployment edge cases.
+- Open P1: exact consolidated bank/gold/custody readiness must be reconciled from its authoritative worktree before the paid-manifest gate.
+- Deferred P2: additional judge/model robustness, cue surfaces, capability twins, compatibility, and deployment hardening that cannot change the narrowed MVP conclusions.
+- Deferred P3: scale-up polish and hypothetical release or hostile-deployment edge cases.
 
 ## WALKWORTHY
 

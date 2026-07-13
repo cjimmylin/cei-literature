@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BibleBench Paper-First Portfolio</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17211d;
+      --muted: #5c6762;
+      --paper: #f7f3e8;
+      --panel: #fffdf7;
+      --line: #d8d0bd;
+      --green: #256447;
+      --green-soft: #e4f0e8;
+      --amber: #8a5a10;
+      --amber-soft: #f7ecd5;
+      --red: #8b302b;
+      --red-soft: #f7e2df;
+      --blue: #244f73;
+      --blue-soft: #e5edf4;
+      --shadow: 0 12px 32px rgba(46, 39, 26, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+      line-height: 1.55;
+    }
+
+    a { color: var(--blue); }
+    a:hover, a:focus-visible { color: #17364f; }
+
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 64px;
+    }
+
+    header {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(28px, 5vw, 58px);
+      border: 1px solid #2e4739;
+      border-radius: 22px;
+      background: linear-gradient(135deg, #183b2c 0%, #28533d 68%, #8b6a30 150%);
+      color: #fffaf0;
+      box-shadow: var(--shadow);
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      width: 260px;
+      height: 260px;
+      right: -90px;
+      top: -110px;
+      border: 1px solid rgba(255, 250, 240, 0.22);
+      border-radius: 50%;
+      box-shadow: 0 0 0 34px rgba(255, 250, 240, 0.04), 0 0 0 72px rgba(255, 250, 240, 0.03);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      font: 700 0.78rem/1.2 ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #f0d99b;
+    }
+
+    h1, h2, h3 { line-height: 1.14; }
+    h1 { margin: 0; max-width: 760px; font-size: clamp(2.1rem, 5vw, 4.7rem); letter-spacing: -0.035em; }
+    h2 { margin: 0 0 16px; font-size: clamp(1.45rem, 3vw, 2.2rem); }
+    h3 { margin: 0; font-size: 1.25rem; }
+
+    .subtitle { max-width: 760px; margin: 18px 0 0; font-size: 1.1rem; color: #e5eee8; }
+    .updated { margin: 24px 0 0; font: 600 0.9rem/1.4 ui-sans-serif, system-ui, sans-serif; color: #d7e1da; }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 10px;
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      font: 800 0.72rem/1 ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .status::before { content: "●"; font-size: 0.7em; }
+    .on-path { color: var(--green); background: var(--green-soft); }
+    .at-risk { color: var(--amber); background: var(--amber-soft); }
+    .off-path { color: var(--red); background: var(--red-soft); }
+    header .status { margin-top: 18px; color: #fff8e7; background: rgba(255,255,255,0.09); }
+
+    .quick-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 16px 0 0;
+    }
+
+    .quick-links a {
+      padding: 9px 12px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(255,255,255,0.52);
+      font: 700 0.86rem/1.2 ui-sans-serif, system-ui, sans-serif;
+      text-decoration: none;
+    }
+
+    section { margin-top: 38px; }
+
+    .summary-grid, .track-grid, .bench-grid, .detail-grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    .summary-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 20px; }
+    .track-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .bench-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .detail-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .card, .track, .summary, .notice {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+      box-shadow: 0 8px 24px rgba(46, 39, 26, 0.045);
+    }
+
+    .summary, .track { padding: 18px; }
+    .summary .number { display: block; margin-top: 6px; font-size: 1.8rem; font-weight: 700; }
+    .label { font: 700 0.78rem/1.2 ui-sans-serif, system-ui, sans-serif; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+
+    .track { min-height: 150px; border-top: 4px solid var(--blue); }
+    .track p { margin: 10px 0 0; color: var(--muted); }
+
+    .card { padding: 22px; }
+    .card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+    .card dl { margin: 20px 0 0; }
+    .card dt { margin-top: 14px; font: 800 0.74rem/1.2 ui-sans-serif, system-ui, sans-serif; color: var(--muted); letter-spacing: 0.05em; text-transform: uppercase; }
+    .card dd { margin: 4px 0 0; }
+
+    .notice { padding: 22px; }
+    .notice h3 { margin-bottom: 10px; }
+    .notice ul, .notice ol { margin: 10px 0 0; padding-left: 22px; }
+    .notice li + li { margin-top: 7px; }
+    .muted { color: var(--muted); }
+
+    .boundary {
+      border-left: 5px solid var(--amber);
+      background: #fffaf0;
+    }
+
+    .next {
+      border-left: 5px solid var(--green);
+      background: #f7fcf8;
+    }
+
+    .footer {
+      margin-top: 42px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font: 0.86rem/1.5 ui-sans-serif, system-ui, sans-serif;
+    }
+
+    @media (max-width: 940px) {
+      .summary-grid, .track-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .bench-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .shell { width: min(100% - 20px, 1180px); padding-top: 10px; }
+      header { border-radius: 14px; padding: 25px 20px; }
+      .summary-grid, .track-grid, .detail-grid { grid-template-columns: 1fr; }
+      .card-head { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">BibleBench portfolio</p>
+      <h1>Paper-first critical path</h1>
+      <p class="subtitle">Scientific sufficiency, executable evidence, manuscript progress, and deliverables move together. Nonblocking hardening does not silently become the project.</p>
+      <p class="updated">Last updated: 2026-07-13 · by Codex</p>
+      <span class="status on-path">ON PATH — portfolio</span>
+    </header>
+
+    <nav class="quick-links" aria-label="Portfolio documents">
+      <a href="PAPER-FIRST-WORKFLOW.md">Binding policy</a>
+      <a href="ACTIVE-CRITICAL-PATHS.md">Active critical paths</a>
+      <a href="PAPER-FIRST-DECISIONS.md">Owner decisions</a>
+      <a href="templates/SESSION-OPEN-CLOSE.md">Session template</a>
+    </nav>
+
+    <section aria-labelledby="summary-title">
+      <h2 id="summary-title">Portfolio snapshot</h2>
+      <div class="summary-grid">
+        <article class="summary"><span class="label">Active paper paths</span><span class="number">3</span><span class="muted">Consolidated pilot, WALKWORTHY, WCF</span></article>
+        <article class="summary"><span class="label">Immediate build</span><span class="number">48</span><span class="muted">Executable episodes across four passage benchmarks</span></article>
+        <article class="summary"><span class="label">Open P0</span><span class="number">0</span><span class="muted">No portfolio P0 recorded</span></article>
+        <article class="summary"><span class="label">Open P1 boundaries</span><span class="number">2</span><span class="muted">Episode sufficiency gate and WALKWORTHY PR-13</span></article>
+      </div>
+      <p class="muted"><strong>Engineering-to-paper ratio:</strong> not yet baselined. Begin counting enabling tasks versus nonblocking engineering in the next reporting window; this is a drift diagnostic, not a performance score.</p>
+    </section>
+
+    <section aria-labelledby="tracks-title">
+      <h2 id="tracks-title">Four progress tracks</h2>
+      <div class="track-grid">
+        <article class="track"><span class="label">Manuscript</span><h3>Draft now</h3><p>Dual-track methods/design work proceeds while the executable bank is integrated.</p></article>
+        <article class="track"><span class="label">Executable bank</span><h3>Critical path</h3><p>Complete and compile 48 episodes; stop after the bounded integration review and repair pass.</p></article>
+        <article class="track"><span class="label">Evidence</span><h3>Next after freeze</h3><p>Cheap general-purpose model pilot and theologian-technical human judging remain downstream of sufficiency.</p></article>
+        <article class="track"><span class="label">PDF</span><h3>Designs exist</h3><p>Pilot-result reports and paper-facing tables follow the frozen executable bank and evidence.</p></article>
+      </div>
+    </section>
+
+    <section aria-labelledby="bench-title">
+      <h2 id="bench-title">Active benchmarks</h2>
+      <div class="bench-grid">
+        <article class="card">
+          <div class="card-head"><h3>Consolidated BibleBench pilot</h3><span class="status on-path">ON PATH</span></div>
+          <dl>
+            <dt>Next paper-facing milestone</dt><dd>Freeze 48 executable episodes and advance the methods manuscript in parallel.</dd>
+            <dt>Manuscript</dt><dd>Dual-track design approved; methods/design drafting is unblocked.</dd>
+            <dt>Executable bank</dt><dd>12 episodes each for FruitBench, CORINTHLOVE, 10CBench, and SermonMount.</dd>
+            <dt>Evidence</dt><dd>No consolidated cheap-model pilot evidence yet.</dd>
+            <dt>PDF</dt><dd>Design PDFs exist; pilot-result deliverables await evidence.</dd>
+            <dt>Current blocker</dt><dd>P1: complete schema, geometry, provenance, and scheduler compilation.</dd>
+            <dt>Engineering timebox</dt><dd>One bounded integration review and one repair pass.</dd>
+            <dt>Deferred hardening</dt><dd>Hostile-deployment, broad compatibility, and optional adapter P2/P3 work.</dd>
+            <dt>Spend</dt><dd>No new paid call authorized.</dd>
+            <dt>Owner exception</dt><dd>None.</dd>
+          </dl>
+          <p><a href="ACTIVE-CRITICAL-PATHS.md#consolidated-biblebench-pilot--fruitbench-corinthlove-10cbench-sermonmount">Full contract</a></p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>WALKWORTHY</h3><span class="status at-risk">AT RISK</span></div>
+          <dl>
+            <dt>Next paper-facing milestone</dt><dd>Obtain and record the PR-13 response-surface ruling.</dd>
+            <dt>Manuscript</dt><dd>Pre-draft exists; results remain gated by the registered sequence.</dd>
+            <dt>Executable bank</dt><dd>Re-execution is complete and transcript-valid.</dd>
+            <dt>Evidence</dt><dd>Surface disposition awaits Jimmy's ruling.</dd>
+            <dt>PDF</dt><dd>Final paper-facing report waits on the valid analysis surface.</dd>
+            <dt>Current blocker</dt><dd>P1 owner ruling PR-13.</dd>
+            <dt>Engineering timebox</dt><dd>One bounded ruling-record and offline analysis session after the ruling.</dd>
+            <dt>Deferred hardening</dt><dd>Judge-label and transport improvements that do not change conclusions.</dd>
+            <dt>Spend</dt><dd>No paid resumption authorized.</dd>
+            <dt>Owner exception</dt><dd>None.</dd>
+          </dl>
+          <p><a href="Christian-Ethics-Benchmark/00-PORTFOLIO/project-dashboard.html">Local dashboard</a> · <a href="ACTIVE-CRITICAL-PATHS.md#walkworthy">Full contract</a></p>
+        </article>
+
+        <article class="card">
+          <div class="card-head"><h3>WCF</h3><span class="status on-path">ON PATH</span></div>
+          <dl>
+            <dt>Next paper-facing milestone</dt><dd>Complete the authorized 22×4 T3 EPISODE evidence artifact.</dd>
+            <dt>Manuscript</dt><dd>P3 waits T4 and R67.4; T3 evidence feeds the registered scaffold.</dd>
+            <dt>Executable bank</dt><dd>T3 is authorized and in progress; offline runner and review gates precede paid calls.</dd>
+            <dt>Evidence</dt><dd>GLM remains shadow-only Pareto-preferred; T3 has its separate four-SUT and panel authority.</dd>
+            <dt>PDF</dt><dd>Final deliverable remains downstream of registered evidence gates.</dd>
+            <dt>Current blocker</dt><dd>None at the owner gate for T3; registered offline reviews and R40.1 pre-flight remain mandatory.</dd>
+            <dt>Engineering timebox</dt><dd>Authorized T3 scope only; stop before T4 or any roster/panel change.</dd>
+            <dt>Deferred hardening</dt><dd>T4, release labels, and other work awaiting separate authority.</dd>
+            <dt>Spend</dt><dd>T3: $10 NTE, $1–$2.50 expected. T4 and other paid scopes unauthorized.</dd>
+            <dt>Owner exception</dt><dd>None.</dd>
+          </dl>
+          <p><a href="WCF-Benchmark/project-dashboard.html">Local dashboard</a> · <a href="ACTIVE-CRITICAL-PATHS.md#wcf">Full contract</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="detail-grid" aria-label="Governance details">
+      <article class="notice boundary">
+        <h3>Blocking and deferred work</h3>
+        <p><strong>Open P0:</strong> none recorded.</p>
+        <p><strong>Open P1:</strong> consolidated episode sufficiency; WALKWORTHY PR-13.</p>
+        <p><strong>Deferred P2/P3:</strong> compatibility, optional transport, public-deployment hardening, release polish, and hypothetical edge cases that cannot change registered pilot conclusions.</p>
+      </article>
+      <article class="notice">
+        <h3>Spend and Owner exception</h3>
+        <p><strong>Spend checkpoint:</strong> this workflow authorizes no live call, credential access, or paid execution.</p>
+        <p><strong>Active owner exceptions:</strong> none.</p>
+        <p>Any exception requires Jimmy's explicit approval in <a href="PAPER-FIRST-DECISIONS.md">the append-only decision log</a>, with reason, scope, affected milestone, and expiration condition.</p>
+      </article>
+      <article class="notice">
+        <h3>Drift rules</h3>
+        <ul>
+          <li><strong>ON PATH:</strong> advancing a deliverable or removing a P0/P1 blocker within timebox.</li>
+          <li><strong>AT RISK:</strong> approaching an owner, timebox, budget, or external gate.</li>
+          <li><strong>OFF PATH:</strong> a session yields no paper artifact or P0/P1 removal, P2/P3 work delays evidence, or unapproved scope enters the critical path.</li>
+        </ul>
+      </article>
+      <article class="notice next">
+        <h3>Exact next-session instruction</h3>
+        <ol>
+          <li>Read <a href="PAPER-FIRST-WORKFLOW.md">the policy</a> and <a href="ACTIVE-CRITICAL-PATHS.md">active contracts</a>.</li>
+          <li>Continue the consolidated pilot's 48 executable episodes.</li>
+          <li>Run one bounded integration review and one repair pass.</li>
+          <li>Freeze when the sufficiency gate passes.</li>
+          <li>Advance manuscript drafting and the authorized cheap-model pilot concurrently; do not start nonblocking hardening first.</li>
+        </ol>
+      </article>
+    </section>
+
+    <section aria-labelledby="log-title">
+      <h2 id="log-title">Portfolio update log</h2>
+      <article class="notice">
+        <ol>
+          <li><strong>2026-07-13 · Jimmy Lin:</strong> ratified PF-001—the dashboard plus portfolio charter, inherited agent contract, and benchmark critical-path contracts apply to every current and future BibleBench benchmark.</li>
+          <li><strong>2026-07-13 · Codex:</strong> created the policy, inherited instructions, templates, decision log, active register, and portfolio dashboard; reconciled WCF to its newer T3 authorization; deferred reverse-link edits so active local dashboards remained untouched.</li>
+        </ol>
+      </article>
+    </section>
+
+    <p class="footer">Portfolio authority: <a href="PAPER-FIRST-WORKFLOW.md">PAPER-FIRST-WORKFLOW.md</a> · Owner ruling: <a href="PAPER-FIRST-DECISIONS.md#pf-001--portfolio-wide-paper-first-default">PF-001</a> · This file is a living status surface; Git history preserves snapshots.</p>
+  </main>
+</body>
+</html>
+<!-- QA 2026-07-13: the in-app browser blocked local file URLs by policy; source, structure, required fields, local links, and responsive breakpoints were verified without attempting a bypass. -->

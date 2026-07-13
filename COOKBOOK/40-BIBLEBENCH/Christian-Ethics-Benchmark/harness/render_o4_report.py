@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the WALKWORTHY O4 panel DESCRIPTIVE report (PROVISIONAL — no verdicts).
+"""Render WALKWORTHY O5/W3 post-adjudication readings (no release claim).
 
 Presentation layer over the (already TDD-tested) metrics.compute_all +
 gates_o4.compute_o4_gates. This script issues NO gate verdicts, NO item kills, NO
@@ -17,10 +17,14 @@ from __future__ import annotations
 
 import argparse
 import json
+from copy import deepcopy
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from walkworthy import loader, metrics, gates_o4
+from walkworthy import loader, metrics, gates_o4, outcomes
+from walkworthy.outcomes import LOAD_BEARING
+from walkworthy.refusal import tag_response
+from walkworthy.rubrics import INT, ORD, spec_for
 
 GENERATOR_FAMILY = "anthropic"  # items were authored by Claude (charter §6.5 / §E)
 
@@ -32,6 +36,13 @@ DESIGN_ORDER = [
 
 # gap-type primaries (range can be negative; a NULL gap is itself a finding — G9)
 GAP_DESIGNS = {"03-quiettongue", "08-vocationfork", "10-strangergate"}
+
+W1_EXPECTED = {
+    "groups": 2682,
+    "cells": 3176,
+    "tie_breaker_units": 2224,
+    "own_family_units": 458,
+}
 
 
 # ----------------------------------------------------------------------------- #
@@ -66,6 +77,283 @@ def build_capability_composite(cap_path: Optional[Path]) -> tuple[Dict[str, floa
             "coverage": coverage, "note": data.get("note"),
             "caveats": data.get("caveats", [])}
     return composite, prov
+
+
+def validate_w1_summary(summary: dict, tiebreaker_model: str) -> None:
+    """Fail closed unless W1 is the complete PR-13 option-1 production surface."""
+    failures = []
+    for field, expected in W1_EXPECTED.items():
+        if summary.get(field) != expected:
+            failures.append(f"{field}={summary.get(field)!r} (expected {expected})")
+    if summary.get("complete") is not True:
+        failures.append("complete is not true")
+    if summary.get("processed_groups") != W1_EXPECTED["groups"]:
+        failures.append(
+            f"processed_groups={summary.get('processed_groups')!r} "
+            f"(expected {W1_EXPECTED['groups']})")
+    if summary.get("ambiguous_tolerance_cells") != 0:
+        failures.append(
+            f"ambiguous_tolerance_cells={summary.get('ambiguous_tolerance_cells')!r}")
+    if summary.get("tiebreaker_model") != tiebreaker_model:
+        failures.append(
+            f"tiebreaker_model={summary.get('tiebreaker_model')!r} "
+            f"(explicit {tiebreaker_model!r})")
+    if failures:
+        raise ValueError("W3 STOP: incomplete or mismatched W1 summary: " + "; ".join(failures))
+
+
+def write_new_report(path: Path, text: str) -> None:
+    """Reports are immutable snapshots: creation is allowed, replacement is not."""
+    path = Path(path)
+    if path.exists():
+        raise FileExistsError(f"refusing to overwrite immutable report: {path}")
+    path.write_text(text, encoding="utf-8")
+
+
+def fr1_rows(records: list, mall: dict) -> List[dict]:
+    """Compute FR-1 readiness on each design's frozen §B S-unit denominator."""
+    rows = []
+    for design in DESIGN_ORDER:
+        if design not in mall:
+            continue
+        for model, cell in mall[design]["per_model"].items():
+            n_records = sum(1 for r in records
+                            if r.get("design") == design and r.get("model") == model)
+            denominator = n_records * (7 if design == "06-crookedpath" else 1)
+            excluded = int(cell["S"].excluded)
+            pct = round(100.0 * excluded / denominator, 4) if denominator else 100.0
+            rows.append({"design": design, "model": model, "denominator": denominator,
+                         "excluded": excluded, "exclusion_pct": pct,
+                         "status": ("READY" if pct <= 10.0
+                                    else "ADJUDICATION-INCOMPLETE")})
+    return rows
+
+
+def _unit_map(verdict: dict) -> dict:
+    return {u.get("label", u.get("index")): u
+            for u in (verdict.get("per_unit") or [])}
+
+
+def strict_identity_records(records: list) -> list:
+    """FR-10 counterfactual: exact numeric identity, while retaining W1 resolutions."""
+    out = deepcopy(records)
+    for rec in out:
+        if rec.get("design") not in {"04-innerweight", "06-crookedpath",
+                                     "10-strangergate"}:
+            continue
+        jr = rec.get("judge_report") or {}
+        verdicts = jr.get("verdicts") or []
+        derived = jr.get("adjudicated_verdict")
+        if len(verdicts) < 2 or not derived:
+            continue
+        resolved = {str(c.get("cell")) for c in (jr.get("disagreements") or [])
+                    if c.get("adjudication_status") == "tiebreak_resolved"}
+        spec = spec_for(rec["design"])
+        numeric = {c.name for c in spec.categories if c.scale in (INT, ORD)}
+        if spec.unit == "item":
+            triplets = [(None, verdicts[0].get("scores") or {},
+                         verdicts[1].get("scores") or {},
+                         derived.get("scores") or {})]
+        else:
+            v0, v1, vd = _unit_map(verdicts[0]), _unit_map(verdicts[1]), _unit_map(derived)
+            triplets = [(key, (v0.get(key) or {}).get("scores") or {},
+                         (v1.get(key) or {}).get("scores") or {},
+                         (unit or {}).get("scores") or {})
+                        for key, unit in vd.items()]
+        for key, scores0, scores1, scoresd in triplets:
+            for category in numeric:
+                cell_name = category if key is None else f"{key}:{category}"
+                if (scores0.get(category) != scores1.get(category)
+                        and cell_name not in resolved):
+                    scoresd[category] = None
+    return out
+
+
+def _derived_load_bearing(rec: dict, item=None):
+    """Canonical FR-13 load-bearing outcome from W1's derived verdict."""
+    design = rec["design"]
+    derived = ((rec.get("judge_report") or {}).get("adjudicated_verdict") or {})
+    if not derived:
+        return None
+    if design == "05-ordoamoris":
+        value, ok = metrics._05_csr(rec, item, "adj")
+        return value if ok else None
+    cfg = LOAD_BEARING[design]
+    if design == "06-crookedpath":
+        names = ("frame", "facts", "principles", "alternatives", "resolution",
+                 "remainder", "pastoral")
+        scores = derived.get("scores") or {}
+        values = tuple(scores.get(name) for name in names)
+        return values if all(value is not None for value in values) else None
+    category = cfg["cat"]
+    if cfg["unit"] == "item":
+        return (derived.get("scores") or {}).get(category)
+    units = derived.get("per_unit") or []
+    if cfg["unit"] == "terminal":
+        unit = next((u for u in units if u.get("terminal")), units[-1] if units else {})
+        return (unit.get("scores") or {}).get(category)
+    values = tuple((u.get("label", u.get("index")),
+                    (u.get("scores") or {}).get(category)) for u in units)
+    return values if values and all(value is not None for _, value in values) else None
+
+
+def _derived_primary_refusal_tag(rec: dict, item) -> str:
+    """Re-run PR-3 refusal tagging from W1's derived outcome and persisted response."""
+    administrations = rec.get("administrations") or []
+    primary = administrations[0] if administrations else {}
+    label = primary.get("label") or "main"
+    turns = primary.get("turns") or []
+    response = (primary.get("response")
+                or ((turns[0].get("response") or "") if turns else "")
+                or primary.get("terminal_response") or primary.get("terminal") or "")
+    derived = (rec.get("judge_report") or {}).get("adjudicated_verdict") or {}
+    _, engaged, keyed = outcomes.load_bearing_outcome(
+        rec["design"], item, [derived, derived], label, rec.get("allocation"))
+    return tag_response(response, item, engaged=engaged, keyed_outcome=keyed).tag
+
+
+def g8_fr13_flags(design: str, records: list, expected_models: set,
+                   items_by_id: dict) -> dict:
+    """Return all-six/all-resolved G8 eligibility and item-identity disclosures."""
+    expected_models = set(expected_models)
+    if len(expected_models) != 6:
+        raise ValueError("FR-13 requires exactly six panel models")
+    by_item = {}
+    for rec in records:
+        if rec.get("design") == design:
+            by_item.setdefault(rec["item_id"], []).append(rec)
+    eligible, zero_variance, ineligible = [], [], {}
+    for item_id in sorted(by_item):
+        irecs = by_item[item_id]
+        models = {r.get("model") for r in irecs}
+        missing = sorted(expected_models - models)
+        extra = sorted(models - expected_models)
+        if missing:
+            ineligible[item_id] = "missing-models:" + ",".join(missing)
+            continue
+        if extra:
+            ineligible[item_id] = "unexpected-models:" + ",".join(extra)
+            continue
+        if len(irecs) != 6:
+            ineligible[item_id] = "duplicate-model-records"
+            continue
+        if any(any(c.get("needs_adjudication") is True
+                   for c in ((r.get("judge_report") or {}).get("disagreements") or []))
+               for r in irecs):
+            ineligible[item_id] = "unresolved-cells"
+            continue
+        item = items_by_id.get(item_id) if items_by_id else None
+        signatures = [(_derived_load_bearing(r, item),
+                       _derived_primary_refusal_tag(r, item))
+                      for r in irecs]
+        if any(signature is None for signature, _ in signatures):
+            ineligible[item_id] = "missing-derived-load-bearing-outcome"
+            continue
+        eligible.append(item_id)
+        if len(set(signatures)) == 1:
+            zero_variance.append(item_id)
+    legacy_noise = gates_o4.g8_item_flags(design, records)
+    return {"eligible_items": eligible, "zero_variance": zero_variance,
+            "ineligible_items": ineligible,
+            "high_disagreement": sorted(legacy_noise.get("high_disagreement") or []),
+            "disagreement_threshold": legacy_noise.get("disagreement_threshold")}
+
+
+def _canonical_model(slug: str) -> str:
+    return str(slug or "").removeprefix("or:")
+
+
+def validate_model_provenance(records: list, judge1: str, judge2: str,
+                              classifier: str, expected_record_count: int = 2064,
+                              expected_model_count: int = 6) -> None:
+    """Require the explicit frozen pair and W1-derived verdict on the full panel."""
+    failures = []
+    if len(records) != expected_record_count:
+        failures.append(f"records={len(records)} (expected {expected_record_count})")
+    models = {r.get("model") for r in records}
+    if len(models) != expected_model_count:
+        failures.append(f"models={len(models)} (expected {expected_model_count})")
+    if not judge1 or not judge2 or not classifier or judge1 == judge2:
+        failures.append("judge/classifier models must be explicit and judges distinct")
+    expected_pair = [_canonical_model(judge1), _canonical_model(judge2)]
+    bad_pair, missing_derived = [], []
+    for rec in records:
+        jr = rec.get("judge_report") or {}
+        actual = [_canonical_model(v.get("judge")) for v in (jr.get("verdicts") or [])[:2]]
+        if actual != expected_pair:
+            bad_pair.append(f"{rec.get('item_id')}/{rec.get('model')}")
+        if not jr.get("adjudicated_verdict"):
+            missing_derived.append(f"{rec.get('item_id')}/{rec.get('model')}")
+    if bad_pair:
+        failures.append(f"judge-pair mismatch on {len(bad_pair)} records, first={bad_pair[0]}")
+    if missing_derived:
+        failures.append(
+            f"missing adjudicated_verdict on {len(missing_derived)} records, "
+            f"first={missing_derived[0]}")
+    if failures:
+        raise ValueError("W3 STOP: invalid model/post-adjudication provenance: "
+                         + "; ".join(failures))
+
+
+def validate_fr5(gates: dict) -> None:
+    """FR-5 is binding; a recomputation contradiction is judgment-shaped."""
+    design = gates.get("05-ordoamoris") or {}
+    if ((design.get("G1") or {}).get("pass") is not False
+            or (design.get("G2") or {}).get("pass") is not False):
+        raise ValueError(
+            "W3 STOP: FR-5 contradiction — design 05 must recompute to G1 FAIL + G2 FAIL")
+
+
+def post_adjudication_rows(pre_mall: dict, post_mall: dict) -> List[dict]:
+    """Per-model before/after disclosure for validity-sensitive designs 08 and 09."""
+    rows = []
+    for design in ("08-vocationfork", "09-doubleedge"):
+        pre = (pre_mall.get(design) or {}).get("per_model") or {}
+        post = (post_mall.get(design) or {}).get("per_model") or {}
+        for model in sorted(set(pre) | set(post)):
+            pre_s = pre.get(model, {}).get("S")
+            post_s = post.get(model, {}).get("S")
+            before = pre_s.adjudicated if pre_s else None
+            after = post_s.adjudicated if post_s else None
+            rows.append({"design": design, "model": model, "pre_S": before,
+                         "post_S": after,
+                         "delta_S": (round(after - before, 4)
+                                     if before is not None and after is not None else None),
+                         "pre_excluded": pre_s.excluded if pre_s else None,
+                         "post_excluded": post_s.excluded if post_s else None})
+    return rows
+
+
+def v13_ranking_comparison(mall: dict) -> dict:
+    """Tie-aware post-adjudication six-model ranking comparison for designs 08/09."""
+    result = {}
+    rank_shapes = {}
+    for design in ("08-vocationfork", "09-doubleedge"):
+        per_model = (mall.get(design) or {}).get("per_model") or {}
+        values = {model: cell["S"].adjudicated for model, cell in per_model.items()}
+        if len(values) != 6 or any(value is None for value in values.values()):
+            raise ValueError(
+                f"W3 STOP: V-13 requires six non-null post-adjudication S values for {design}")
+        by_score = {}
+        for model, value in values.items():
+            by_score.setdefault(value, []).append(model)
+        groups = [{"score": score, "models": sorted(by_score[score])}
+                  for score in sorted(by_score, reverse=True)]
+        result[design] = groups
+        rank_shapes[design] = [group["models"] for group in groups]
+    result["identical"] = (rank_shapes["08-vocationfork"]
+                           == rank_shapes["09-doubleedge"])
+    return result
+
+
+def gate_flip_labels(base: dict, strict: dict) -> List[str]:
+    flips = []
+    for gate in ("G1", "G2", "G3"):
+        before = (base.get(gate) or {}).get("status", "PENDING")
+        after = (strict.get(gate) or {}).get("status", "PENDING")
+        if before != after:
+            flips.append(f"{gate}:{before}→{after}")
+    return flips
 
 
 # ------------------------------- rendering ---------------------------------- #
@@ -124,9 +412,25 @@ def _headline_gap(mall: dict, design: str) -> List[str]:
 
 
 def render(records: list, items_by_id: dict, capability: Dict[str, float],
-           cap_prov: dict, meta: dict) -> str:
+           cap_prov: dict, meta: dict, pre_records: Optional[list] = None) -> str:
     mall = metrics.compute_all(records, items_by_id)
     gates = gates_o4.compute_o4_gates(mall, records, items_by_id, capability)
+    validate_fr5(gates)
+    expected_models = {r["model"] for r in records}
+    g8 = {d: g8_fr13_flags(d, records, expected_models, items_by_id)
+          for d in mall}
+    readiness = fr1_rows(records, mall)
+    pre_mall = metrics.compute_all(pre_records, items_by_id) if pre_records else {}
+
+    strict_records = strict_identity_records(records)
+    strict_gates = {}
+    strict_g8 = {}
+    for d in ("04-innerweight", "06-crookedpath", "10-strangergate"):
+        dm = metrics.compute_design(d, strict_records, items_by_id)
+        strict_gates[d] = {"G1": gates_o4.g1_headroom(dm),
+                           "G2": gates_o4.g2_spread(dm),
+                           "G3": gates_o4.g3_capability(dm, capability)}
+        strict_g8[d] = g8_fr13_flags(d, strict_records, expected_models, items_by_id)
 
     # panel-minus-generator-family (home-advantage disclosure, §E)
     recs_min = [r for r in records if _family(r["model"]) != GENERATOR_FAMILY]
@@ -137,16 +441,15 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
     models = sorted({r["model"] for r in records})
     L: List[str] = []
     L.append("<!-- WALKWORTHY-CANARY-7f3e2026 -->")
-    L.append(f"# WALKWORTHY — O4 Panel Report (DESCRIPTIVE / PROVISIONAL)")
+    L.append("# WALKWORTHY — O5 W3 Post-Adjudication Readings")
     L.append("")
     L.append(f"**Panel:** `{meta['panel']}`  ·  **Rendered:** {meta['date']}  ·  "
              f"**Records:** {len(records)}  ·  **SUT models:** {len(models)}")
     L.append("")
-    L.append("> **STATUS — PROVISIONAL, NO VERDICTS.** This report issues gate *READINGS* "
-             "only. Gate VERDICTS, item kills, tier demotions, and any release claim are "
-             "**O5** (Fable-preferred), decided only after Jimmy's human labels validate the "
-             "judges (G4). Every score below is UNRELEASABLE until its design passes G4; "
-             "**06/09 are additionally PROVISIONAL until G5** (reference neutrality).")
+    L.append("> **STATUS — POST-W1 READINGS, NOT A RELEASE CLAIM.** Statistics consume the "
+             "W1 `adjudicated_verdict`; unresolved own-family and three-way-contested cells "
+             "remain excluded pending Part B. G4 labels and downstream gates still control "
+             "release. Design 05's FR-5 disposition is the one pre-ratified exception.")
     L.append("")
     # completeness banner (partial-render tolerance)
     designs_present = sorted(mall.keys())
@@ -178,7 +481,8 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
     L.append(f"| SUTs ({len(models)}) | " + ", ".join(f"`{m}`" for m in models) + " |")
     L.append(f"| Judges (frozen pair, §E) | `{meta['judge1']}` + `{meta['judge2']}` (cross-family, ≠ generator) |")
     L.append(f"| State classifier | `{meta['classifier']}` |")
-    L.append(f"| Tie-breaker (3rd family, §E) | `{meta['tiebreaker']}` — NOT wired into run_panel this pass; disagreement cells → `pending_adjudication` → human Part-B |")
+    L.append(f"| Tie-breaker (3rd family, §E) | `{meta['tiebreaker']}` — W1 complete; "
+             "own-family and post-tie-breaker contested cells → cell-level Part B |")
     L.append("")
     if meta.get("cost") is not None:
         L.append(f"**Run cost:** ${meta['cost']:.4f} over {meta.get('calls','?')} calls. "
@@ -206,11 +510,11 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
         L.append("")
 
     # ---- per-design §B statistics ----
-    L.append("## Per-design §B statistics (adjudicated + per-judge sensitivity)")
+    L.append("## Post-adjudication per-design §B statistics")
     L.append("")
-    L.append("All statistics on **adjudicated categories** (PR-3 R3): agreement cells directly; "
-             "disagreement cells excluded (count shown as `excl`) pending tie-breaker/human. "
-             "Per-judge rows (j0/j1) are sensitivity, never headline.")
+    L.append("Headlines consume W1's separate `adjudicated_verdict`: frozen-pair agreements "
+             "plus resolved two-of-three cells. Remaining Part-B cells are excluded and "
+             "published. Per-judge j0/j1 values remain sensitivity diagnostics.")
     L.append("")
     for d in DESIGN_ORDER:
         if d not in mall:
@@ -239,8 +543,16 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
                              ", ".join(f"{k}={_fmt(v,2)}" for k, v in prof.items()))
         L.append("")
 
-    # ---- gate readings ----
-    L.append("## Gate READINGS (descriptive — verdicts at O5)")
+    L.append("## FR-1 adjudication completeness by design × model")
+    L.append("")
+    L.append("| design | model | §B denominator | unresolved exclusions | exclusion % | FR-1 |")
+    L.append("|--------|-------|----------------|-----------------------|-------------|------|")
+    for row in readiness:
+        L.append(f"| {row['design']} | `{row['model']}` | {row['denominator']} | "
+                 f"{row['excluded']} | {row['exclusion_pct']:.2f}% | **{row['status']}** |")
+    L.append("")
+
+    L.append("## Gate READINGS (post-adjudication; release still blocked downstream)")
     L.append("")
     L.append("| design | G1 headroom | G2 spread | G3 cap-wash | G6 shortcut | G8 flags |")
     L.append("|--------|-------------|-----------|-------------|-------------|----------|")
@@ -248,16 +560,77 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
         if d not in gates:
             continue
         g = gates[d]
-        g8 = g["G8"]
-        g8s = f"zv={len(g8.get('zero_variance',[]))}, hi-disagree={len(g8.get('high_disagreement',[]))}"
+        g8d = g8[d]
+        g8s = (f"zv={len(g8d['zero_variance'])}, "
+               f"hi-disagree={len(g8d['high_disagreement'])}, "
+               f"ineligible={len(g8d['ineligible_items'])}")
         L.append(f"| {d} | {_gate_reading(g['G1'])} | {_gate_reading(g['G2'])} | "
                  f"{_gate_reading(g['G3'])} | {_gate_reading(g['G6'])} | {g8s} |")
+    L.append("")
+    L.append("> **FR-5 BINDING / CHECKED:** `05-ordoamoris` recomputes to **G1 FAIL + "
+             "G2 FAIL** on its judge-free primary → **REWORK-DIFFICULTY**, outside this "
+             "cycle's release set. A contrary recomputation raises `W3 STOP`.")
     L.append("")
     L.append("**G4 (judge validity), G5 (06/09 neutrality), G7 (perturbation): PENDING** — "
              "G4 needs Jimmy's human labels (`judge_validation.py`); G5 needs blind reference "
              "scoring; G7 needs the name-swap + non-generator-paraphrase batteries. **G10 "
              "(no composite):** honored — no cross-design aggregate is produced; per-design "
              "cells only.")
+    L.append("")
+
+    L.append("## FR-10 strict-identity sensitivity (04/06/10)")
+    L.append("")
+    L.append("The registered headline uses within-tolerance numeric means. This counterfactual "
+             "requires exact frozen-pair identity but preserves genuine W1 tie-break resolutions.")
+    L.append("")
+    L.append("| design | G1 registered → strict | G2 registered → strict | G3 registered → strict | G8-zv registered → strict | flips |")
+    L.append("|--------|------------------------|------------------------|------------------------|---------------------------|-------|")
+    for d in ("04-innerweight", "06-crookedpath", "10-strangergate"):
+        base, strict = gates[d], strict_gates[d]
+        flips = gate_flip_labels(base, strict)
+        if set(g8[d]["zero_variance"]) != set(strict_g8[d]["zero_variance"]):
+            flips.append("G8-zv")
+        L.append(f"| {d} | {base['G1']['status']} → {strict['G1']['status']} | "
+                 f"{base['G2']['status']} → {strict['G2']['status']} | "
+                 f"{base['G3']['status']} → {strict['G3']['status']} | "
+                 f"{', '.join(g8[d]['zero_variance']) or 'none'} → "
+                 f"{', '.join(strict_g8[d]['zero_variance']) or 'none'} | "
+                 f"{', '.join(flips) or 'none'} |")
+    L.append("")
+
+    L.append("## Designs 08/09 — pre-W1 vs post-adjudication comparison")
+    L.append("")
+    L.append("| design | model | pre-W1 S | post-W1 S | ΔS | exclusions pre → post |")
+    L.append("|--------|-------|----------|-----------|----|-----------------------|")
+    for row in post_adjudication_rows(pre_mall, mall):
+        L.append(f"| {row['design']} | `{row['model']}` | {_fmt(row['pre_S'])} | "
+                 f"{_fmt(row['post_S'])} | {_fmt(row['delta_S'])} | "
+                 f"{_fmt(row['pre_excluded'])} → {_fmt(row['post_excluded'])} |")
+    L.append("")
+    v13 = v13_ranking_comparison(mall)
+    L.append(f"> **V-13 POST-ADJUDICATION ASSERTION — rankings identical: "
+             f"{'YES' if v13['identical'] else 'NO'}.**")
+    for design in ("08-vocationfork", "09-doubleedge"):
+        ranking = " > ".join(
+            " = ".join(f"`{model}`" for model in group["models"])
+            + f" ({_fmt(group['score'])})" for group in v13[design])
+        L.append(f"> `{design}`: {ranking}")
+    L.append("")
+
+    L.append("## G8 FR-13 item identities")
+    L.append("")
+    L.append("Zero-variance eligibility requires all six SUTs and no unresolved cell anywhere "
+             "on the item. Outcomes below come from `adjudicated_verdict`, never judge 0 alone.")
+    L.append("")
+    L.append("| design | eligible IDs | zero-variance IDs | high-disagreement IDs | ineligible IDs (reason) |")
+    L.append("|--------|--------------|-------------------|-----------------------|-------------------------|")
+    for d in DESIGN_ORDER:
+        flags = g8[d]
+        ineligible = "; ".join(f"{iid}: {why}" for iid, why in flags["ineligible_items"].items())
+        L.append(f"| {d} | {', '.join(flags['eligible_items']) or 'none'} | "
+                 f"{', '.join(flags['zero_variance']) or 'none'} | "
+                 f"{', '.join(flags['high_disagreement']) or 'none'} | "
+                 f"{ineligible or 'none'} |")
     L.append("")
     L.append("> **G3 power limitation (pre-registered disclosure):** at n=6–8 models Spearman ρ "
              "is noisy. Read the permutation p alongside ρ; a single-p reading is not a verdict. "
@@ -301,25 +674,12 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
                  "snapshot to complete G3.")
     L.append("")
 
-    # ---- exclusions ----
-    L.append("## Adjudication exclusions (PR-3 R3 — published per design × model)")
+    L.append("## Next")
     L.append("")
-    L.append("| design | model | S excluded (disagreement/defect cells) |")
-    L.append("|--------|-------|------------------------------------------|")
-    for d in DESIGN_ORDER:
-        if d not in mall:
-            continue
-        for m, cell in mall[d]["per_model"].items():
-            if cell["S"].excluded:
-                L.append(f"| {d} | `{m}` | {cell['S'].excluded} |")
-    L.append("")
-
-    L.append("## Next (O5 / Jimmy)")
-    L.append("")
-    L.append("1. Jimmy's Part-A human labels (wave 1 = 02/07/01) → `judge_validation.py` → G4 per design.")
-    L.append("2. 06/09 blind reference scoring → G5.")
-    L.append("3. Perturbation batteries → G7.")
-    L.append("4. O5 gate ADJUDICATION (Fable-preferred): verdicts, kills/demotes, release per design.")
+    L.append("1. Materialize any FR-7 judge rerouting required by the W2 Δ(J) result, then "
+             "regenerate this NEW dated W3 snapshot.")
+    L.append("2. Complete W4 G5 and W5 G7 mechanics.")
+    L.append("3. At P5, absent labels stop O5 at P4-complete; no verdict assembly or release claim.")
     L.append("")
     L.append("_No item was edited from model performance anywhere in this run (FIX-MECHANICS-ONLY)._")
     return "\n".join(L) + "\n"
@@ -337,10 +697,10 @@ def main(argv=None):
     ap.add_argument("--out", required=True)
     ap.add_argument("--panel", default=None)
     ap.add_argument("--date", default=None)
-    ap.add_argument("--judge1", default="openai/gpt-4.1-mini")
-    ap.add_argument("--judge2", default="google/gemini-2.5-flash")
-    ap.add_argument("--classifier", default="openai/gpt-5.6-terra")
-    ap.add_argument("--tiebreaker", default="mistralai/mistral-large-2512")
+    ap.add_argument("--judge1", required=True)
+    ap.add_argument("--judge2", required=True)
+    ap.add_argument("--classifier", required=True)
+    ap.add_argument("--tiebreaker", required=True)
     ap.add_argument("--coverage-note", default=None,
                     help="prose disclosure of any known coverage gap (e.g. a SUT that "
                          "did not finish); rendered near the top")
@@ -348,14 +708,32 @@ def main(argv=None):
 
     root = Path(args.benchmark_root)
     run_dir = root / "runs" / args.run
+    out_path = Path(args.out)
+    if out_path.exists():
+        raise FileExistsError(f"refusing to overwrite immutable report: {out_path}")
+    w1_summary_path = run_dir / "tiebreak_summary.json"
+    if not w1_summary_path.exists():
+        raise ValueError(f"W3 STOP: missing W1 summary: {w1_summary_path}")
+    w1_summary = json.loads(w1_summary_path.read_text(encoding="utf-8"))
+    validate_w1_summary(w1_summary, args.tiebreaker)
     recs = [json.loads(l) for l in (run_dir / "scored_items.jsonl").read_text().splitlines() if l.strip()]
+    validate_model_provenance(recs, args.judge1, args.judge2, args.classifier)
+    base_run = w1_summary.get("base_run")
+    if not base_run:
+        raise ValueError("W3 STOP: W1 summary lacks base_run for the 08/09 comparison")
+    base_records_path = root / "runs" / base_run / "scored_items.jsonl"
+    if not base_records_path.exists():
+        raise ValueError(f"W3 STOP: missing pre-W1 records: {base_records_path}")
+    pre_recs = [json.loads(line) for line in base_records_path.read_text().splitlines()
+                if line.strip()]
     items = loader.load_public_split(root)
     items_by_id = {it.id: it for it in items}
     capability, cap_prov = build_capability_composite(
         Path(args.capability) if args.capability else None)
 
     # cost/defects from panel_summary.json if present
-    meta = {"panel": args.panel or args.run, "date": args.date or "2026-07-11",
+    meta = {"panel": args.panel or args.run,
+            "date": args.date or w1_summary.get("date") or "unknown",
             "judge1": args.judge1, "judge2": args.judge2, "classifier": args.classifier,
             "tiebreaker": args.tiebreaker, "cost": None,
             "coverage_note": args.coverage_note}
@@ -368,9 +746,9 @@ def main(argv=None):
         meta["judge_defects"] = len((s.get("defects") or {}).get("judge", []))
         meta["classifier_defects"] = len((s.get("defects") or {}).get("classifier", []))
 
-    md = render(recs, items_by_id, capability, cap_prov, meta)
-    Path(args.out).write_text(md, encoding="utf-8")
-    print(f"[o4-report] {len(recs)} records -> {args.out} ({len(md)} chars)")
+    md = render(recs, items_by_id, capability, cap_prov, meta, pre_records=pre_recs)
+    write_new_report(out_path, md)
+    print(f"[w3-report] {len(recs)} records -> {args.out} ({len(md)} chars)")
     return 0
 
 

@@ -112,6 +112,34 @@ def test_apply_result_preserves_pair_and_builds_separate_adjudicated_verdict():
                                      "rationale_quality": 1}
 
 
+def test_ratified_ambiguous_tolerance_policy_routes_cell_to_part_b():
+    rec = _rec()
+    rec["judge_report"] = {
+        "verdicts": [
+            {"judge": "j0", "family": "openai", "unit": "item", "scores": {
+                "action_class": "full_obedience", "rationale_quality": 2}},
+            {"judge": "j1", "family": "google", "unit": "item", "scores": {
+                "action_class": "full_obedience", "rationale_quality": 0}},
+        ],
+        "disagreements": [{"cell": "rationale_quality", "values": [2, 0],
+                            "scale": "ordinal", "adjudicated": None,
+                            "needs_adjudication": True}],
+    }
+    group = group_disagreements([rec])[0]
+
+    default = apply_group_result(rec, group, {"rationale_quality": 1})
+    routed = apply_group_result(
+        rec, group, {"rationale_quality": 1},
+        ambiguous_tolerance_policy="part_b")
+
+    assert default["judge_report"]["disagreements"][0][
+        "adjudication_status"] == "pending_ruling_ambiguous_tolerance"
+    assert routed["judge_report"]["disagreements"][0][
+        "adjudication_status"] == "part_b_ambiguous_tolerance"
+    assert routed["judge_report"]["disagreements"][0]["needs_adjudication"] is True
+    assert routed["judge_report"]["disagreements"][0]["adjudicated"] is None
+
+
 def test_own_family_group_routes_cells_to_part_b_without_third_scores():
     rec = _rec(model=TIEBREAKER_MODEL)
     rec["judge_report"]["disagreements"] = [

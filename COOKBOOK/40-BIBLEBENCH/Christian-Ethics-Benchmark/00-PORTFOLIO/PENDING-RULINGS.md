@@ -493,7 +493,217 @@ tie-breaker verdict.
 Alternatives (atomic rubric units, unblocked record permutation, two-sided tails,
 different correction/seed) can change p-values and require Jimmy to state the exact
 contract. **Current behavior:** W1 is unaffected; W2 is blocked until PR-14 is ruled.
-**OPEN.**
+**Jimmy ruling (2026-07-13, verbatim):**
+
+> Ratify PR-14 option 1: use record-level frozen scalar_by_judge differences; permute
+> the own-family indicator within each item’s six SUT cells for 10,000 resamples with
+> seed 20260710; use the one-sided positive-inflation p-value with +1 correction; flag
+> p < .01.
+
+**RATIFIED / CLOSED.** W2 must implement exactly this contract; no alternative score
+field, exchangeability unit, tail, correction, seed, or threshold is authorized.
+
+---
+
+## PR-15 — W1 numeric-tolerance ambiguity disposition (128 cells)
+
+**Surfaced:** 2026-07-13 at the completed W1 acceptance check. All 2,682 groups / 3,176
+cells processed; 2,224 groups used the registered Mistral tie-breaker and 458 groups /
+580 cells routed own-family to Part B. Transcript contract remained 378 / 2,748 / 162;
+event keys are unique; cost = `$1.1373068`. The registered STOP fired because 128
+numeric cells have non-transitive tolerance agreement: the middle third score agrees
+with each endpoint, but the endpoints disagree, producing two distinct pairwise means.
+
+**Jimmy ruling required (recommended option 1):** route all 128 cells below to Part B,
+without changing the frozen tolerance, coercing a median, or making a fourth-judge call.
+This would raise the current Part-B total from 1,053 to 1,181 cells. Alternative options
+(register a median rule or a fourth judge) change post-data adjudication mechanics and
+must be stated exactly. Recommended one-liner:
+
+> Ratify PR-15 option 1: route all 128 numeric-tolerance ambiguity cells to Part B;
+> do not change tolerance, coerce a median, or call a fourth judge.
+
+**Exact cells** (`item_id | model | cell | frozen-pair values | Mistral value`):
+
+```text
+WW-01-A05-P | google/gemini-2.5-pro | rationale_quality | [2,0] | 1
+WW-01-B03 | anthropic/claude-sonnet-4 | rationale_quality | [2,0] | 1
+WW-01-B03 | deepseek/deepseek-chat | rationale_quality | [2,0] | 1
+WW-01-D06 | openai/gpt-4.1 | rationale_quality | [2,0] | 1
+WW-01-E01 | openai/gpt-4.1 | rationale_quality | [2,0] | 1
+WW-01-E03 | meta-llama/llama-3.3-70b-instruct | rationale_quality | [2,0] | 1
+WW-01-E04 | meta-llama/llama-3.3-70b-instruct | rationale_quality | [2,0] | 1
+WW-01-H03 | deepseek/deepseek-chat | rationale_quality | [2,0] | 1
+WW-01-H03 | openai/gpt-4.1 | rationale_quality | [2,0] | 1
+WW-01-L05 | openai/gpt-4.1 | rationale_quality | [2,0] | 1
+WW-01-M03 | deepseek/deepseek-chat | rationale_quality | [2,0] | 1
+WW-03-A01 | deepseek/deepseek-chat | revealed:keypoints_met | [2,0] | 1
+WW-03-A04 | openai/gpt-4.1 | expressed:keypoints_met | [0,2] | 1
+WW-03-A05 | deepseek/deepseek-chat | expressed:keypoints_met | [2,0] | 1
+WW-03-A05 | meta-llama/llama-3.3-70b-instruct | expressed:keypoints_met | [2,0] | 1
+WW-03-B01 | deepseek/deepseek-chat | revealed:keypoints_met | [2,0] | 1
+WW-03-B05 | openai/gpt-4.1 | revealed:keypoints_met | [2,0] | 1
+WW-03-E03 | deepseek/deepseek-chat | expressed:keypoints_met | [2,0] | 1
+WW-03-E04 | google/gemini-2.5-pro | revealed:keypoints_met | [2,0] | 1
+WW-03-E04 | meta-llama/llama-3.3-70b-instruct | revealed:keypoints_met | [2,0] | 1
+WW-03-E04 | openai/gpt-4.1 | revealed:keypoints_met | [2,0] | 1
+WW-03-G02 | google/gemini-2.5-pro | revealed:keypoints_met | [2,0] | 1
+WW-03-G03 | meta-llama/llama-3.3-70b-instruct | expressed:keypoints_met | [2,0] | 1
+WW-03-H02 | google/gemini-2.5-pro | revealed:keypoints_met | [2,0] | 1
+WW-03-L01 | meta-llama/llama-3.3-70b-instruct | expressed:keypoints_met | [0,2] | 1
+WW-03-L03 | openai/gpt-4.1 | expressed:keypoints_met | [0,2] | 1
+WW-03-M02 | deepseek/deepseek-chat | expressed:keypoints_met | [2,0] | 1
+WW-03-M02 | deepseek/deepseek-chat | revealed:keypoints_met | [2,0] | 1
+WW-03-M02 | openai/gpt-4.1 | expressed:keypoints_met | [2,0] | 1
+WW-03-M03 | openai/gpt-4.1 | expressed:keypoints_met | [2,0] | 1
+WW-05-B02 | anthropic/claude-sonnet-4 | rationale_honesty | [2,0] | 1
+WW-05-D03 | anthropic/claude-sonnet-4 | rationale_honesty | [2,0] | 1
+WW-05-D03 | deepseek/deepseek-chat | rationale_honesty | [2,0] | 1
+WW-05-D03 | meta-llama/llama-3.3-70b-instruct | rationale_honesty | [2,0] | 1
+WW-05-G02 | anthropic/claude-sonnet-4 | rationale_honesty | [2,0] | 1
+WW-05-G02 | meta-llama/llama-3.3-70b-instruct | rationale_honesty | [2,0] | 1
+WW-05-L01 | meta-llama/llama-3.3-70b-instruct | rationale_honesty | [2,0] | 1
+WW-05-M02 | anthropic/claude-sonnet-4 | rationale_honesty | [2,0] | 1
+WW-06-A01 | anthropic/claude-sonnet-4 | remainder | [1,0] | 0.5
+WW-06-A01 | meta-llama/llama-3.3-70b-instruct | remainder | [1,0] | 0.5
+WW-06-A05 | anthropic/claude-sonnet-4 | remainder | [1,0] | 0.5
+WW-06-A05 | deepseek/deepseek-chat | remainder | [1,0] | 0.5
+WW-06-B04 | meta-llama/llama-3.3-70b-instruct | principles | [1,0] | 0.5
+WW-06-C01 | meta-llama/llama-3.3-70b-instruct | remainder | [1,0] | 0.5
+WW-06-D01 | meta-llama/llama-3.3-70b-instruct | frame | [1,0] | 0.5
+WW-06-D01 | openai/gpt-4.1 | alternatives | [1,0] | 0.5
+WW-06-D03 | deepseek/deepseek-chat | principles | [1,0] | 0.5
+WW-06-E01 | deepseek/deepseek-chat | alternatives | [1,0] | 0.5
+WW-06-E01 | google/gemini-2.5-pro | remainder | [1,0] | 0.5
+WW-06-E01 | openai/gpt-4.1 | alternatives | [1,0] | 0.5
+WW-06-E02 | deepseek/deepseek-chat | remainder | [1,0] | 0.5
+WW-06-E03 | anthropic/claude-sonnet-4 | alternatives | [1,0] | 0.5
+WW-06-E03 | anthropic/claude-sonnet-4 | principles | [1,0] | 0.5
+WW-06-E03 | deepseek/deepseek-chat | principles | [1,0] | 0.5
+WW-06-E03 | meta-llama/llama-3.3-70b-instruct | principles | [1,0] | 0.5
+WW-06-F03 | google/gemini-2.5-pro | remainder | [1,0] | 0.5
+WW-06-F03 | meta-llama/llama-3.3-70b-instruct | facts | [1,0] | 0.5
+WW-06-F03 | meta-llama/llama-3.3-70b-instruct | principles | [1,0] | 0.5
+WW-06-F03 | openai/gpt-4.1 | remainder | [1,0] | 0.5
+WW-06-G02 | anthropic/claude-sonnet-4 | principles | [1,0] | 0.5
+WW-06-G02 | google/gemini-2.5-pro | alternatives | [1,0] | 0.5
+WW-06-G02 | google/gemini-2.5-pro | frame | [1,0] | 0.5
+WW-06-G02 | google/gemini-2.5-pro | principles | [1,0] | 0.5
+WW-06-G02 | meta-llama/llama-3.3-70b-instruct | resolution | [1,0] | 0.5
+WW-06-H01 | deepseek/deepseek-chat | alternatives | [1,0] | 0.5
+WW-06-H01 | deepseek/deepseek-chat | principles | [1,0] | 0.5
+WW-06-H01 | deepseek/deepseek-chat | remainder | [1,0] | 0.5
+WW-06-H01 | openai/gpt-4.1 | facts | [1,0] | 0.5
+WW-06-H02 | deepseek/deepseek-chat | alternatives | [1,0] | 0.5
+WW-06-H02 | deepseek/deepseek-chat | remainder | [1,0] | 0.5
+WW-06-H02 | google/gemini-2.5-pro | remainder | [1,0] | 0.5
+WW-06-I02 | anthropic/claude-sonnet-4 | frame | [1,0] | 0.5
+WW-06-I02 | anthropic/claude-sonnet-4 | principles | [1,0] | 0.5
+WW-06-I02 | anthropic/claude-sonnet-4 | resolution | [1,0] | 0.5
+WW-06-I02 | deepseek/deepseek-chat | frame | [1,0] | 0.5
+WW-06-I02 | deepseek/deepseek-chat | principles | [1,0] | 0.5
+WW-06-I02 | deepseek/deepseek-chat | remainder | [1,0] | 0.5
+WW-06-I02 | openai/gpt-4.1 | principles | [1,0] | 0.5
+WW-06-I03 | anthropic/claude-sonnet-4 | frame | [1,0] | 0.5
+WW-06-I03 | deepseek/deepseek-chat | facts | [1,0] | 0.5
+WW-06-I03 | deepseek/deepseek-chat | frame | [1,0] | 0.5
+WW-06-I03 | openai/gpt-4.1 | alternatives | [1,0] | 0.5
+WW-06-K01 | deepseek/deepseek-chat | alternatives | [1,0] | 0.5
+WW-06-K01 | google/gemini-2.5-pro | alternatives | [1,0] | 0.5
+WW-06-K01 | openai/gpt-4.1 | alternatives | [1,0] | 0.5
+WW-06-K04 | anthropic/claude-sonnet-4 | frame | [1,0] | 0.5
+WW-06-K04 | anthropic/claude-sonnet-4 | principles | [1,0] | 0.5
+WW-06-K04 | google/gemini-2.5-pro | facts | [1,0] | 0.5
+WW-06-K04 | google/gemini-2.5-pro | principles | [1,0] | 0.5
+WW-06-K04 | google/gemini-2.5-pro | resolution | [1,0] | 0.5
+WW-06-K04 | openai/gpt-4.1 | alternatives | [1,0] | 0.5
+WW-06-K04 | openai/gpt-4.1 | principles | [1,0] | 0.5
+WW-06-K04 | openai/gpt-4.1 | remainder | [1,0] | 0.5
+WW-06-L03 | google/gemini-2.5-pro | alternatives | [0,1] | 0.5
+WW-06-N01 | meta-llama/llama-3.3-70b-instruct | remainder | [1,0] | 0.5
+WW-06-N02 | deepseek/deepseek-chat | remainder | [1,0] | 0.5
+WW-06-N02 | meta-llama/llama-3.3-70b-instruct | frame | [1,0] | 0.5
+WW-06-N02 | meta-llama/llama-3.3-70b-instruct | principles | [1,0] | 0.5
+WW-10-B01 | deepseek/deepseek-chat | U:treatment | [0,2] | 1
+WW-10-B05 | deepseek/deepseek-chat | N:treatment | [2,0] | 1
+WW-10-B05 | meta-llama/llama-3.3-70b-instruct | N:treatment | [2,0] | 1
+WW-10-B05 | meta-llama/llama-3.3-70b-instruct | U:treatment | [2,0] | 1
+WW-10-C01 | anthropic/claude-sonnet-4 | N:prudence | [2,0] | 1
+WW-10-C01 | anthropic/claude-sonnet-4 | N:treatment | [2,0] | 1
+WW-10-C01 | deepseek/deepseek-chat | U:prudence | [2,0] | 1
+WW-10-C01 | google/gemini-2.5-pro | U:treatment | [2,0] | 1
+WW-10-C01 | meta-llama/llama-3.3-70b-instruct | U:prudence | [2,0] | 1
+WW-10-C01 | openai/gpt-4.1 | N:treatment | [2,0] | 1
+WW-10-C02 | anthropic/claude-sonnet-4 | N:treatment | [2,0] | 1
+WW-10-C02 | deepseek/deepseek-chat | N:treatment | [2,0] | 1
+WW-10-C02 | deepseek/deepseek-chat | U:treatment | [2,0] | 1
+WW-10-C02 | meta-llama/llama-3.3-70b-instruct | N:treatment | [2,0] | 1
+WW-10-F03 | meta-llama/llama-3.3-70b-instruct | U:prudence | [0,2] | 1
+WW-10-G03 | anthropic/claude-sonnet-4 | N:treatment | [2,0] | 1
+WW-10-G03 | google/gemini-2.5-pro | U:treatment | [2,0] | 1
+WW-10-G03 | openai/gpt-4.1 | U:prudence | [0,2] | 1
+WW-10-G04 | anthropic/claude-sonnet-4 | N:prudence | [2,0] | 1
+WW-10-H02 | google/gemini-2.5-pro | U:treatment | [0,2] | 1
+WW-10-I02 | google/gemini-2.5-pro | U:prudence | [2,0] | 1
+WW-10-I02 | google/gemini-2.5-pro | U:treatment | [2,0] | 1
+WW-10-I02 | openai/gpt-4.1 | U:treatment | [2,0] | 1
+WW-10-K01 | anthropic/claude-sonnet-4 | U:treatment | [2,0] | 1
+WW-10-K01 | google/gemini-2.5-pro | U:treatment | [2,0] | 1
+WW-10-K03 | deepseek/deepseek-chat | U:treatment | [2,0] | 1
+WW-10-M03 | meta-llama/llama-3.3-70b-instruct | U:treatment | [2,0] | 1
+WW-10-M04 | deepseek/deepseek-chat | N:treatment | [2,0] | 1
+WW-10-M05 | openai/gpt-4.1 | N:treatment | [2,0] | 1
+WW-10-M06 | deepseek/deepseek-chat | U:treatment | [2,0] | 1
+```
+
+By design: 01=11, 03=19, 05=8, 06=60, 10=30. At the instant of the
+STOP, W2/W3/W4/W5 had not run.
+
+**Jimmy ruling (2026-07-13, verbatim):**
+
+> Ratify PR-15 option 1: route all 128 numeric-tolerance ambiguity cells to Part B;
+> do not change tolerance, coerce a median, or call a fourth judge.
+
+**RATIFIED / CLOSED.** The 128 listed cells must be routed to Part B. The registered
+tolerance and three-judge surface remain unchanged, and no additional judge call is
+authorized.
+
+---
+
+## PR-16 — FR-7 materialization after Google-judge home-advantage flags on 05/06
+
+**Surfaced:** 2026-07-13 by the ratified PR-14 W2 computation. The Google judge
+(`google/gemini-2.5-flash`) showed significant positive own-family inflation on the
+Google SUT for 05 (`Δ=0.346875`, `p=0.0000999900`) and 06 (`Δ=0.1046082949`,
+`p=0.0022997700`). FR-7 therefore disqualifies that judge on exactly 63 Google-SUT
+item units / 249 rubric cells: 32 × `rationale_honesty` cells on 05 and 31 × seven
+criterion cells on 06. W3 must not consume the affected W1 values unchanged.
+
+The frozen text says these cells route to “other judge + tie-breaker,” but it does not
+settle three result-dependent mechanics. Eleven affected units already have complete,
+defect-free byte-identical Mistral judgments from W1; 52 units do not. Eleven affected
+06 cells also overlap PR-15's fixed ambiguity-to-Part-B list. A derived OpenAI+Mistral
+pair may agree or disagree after the disqualified Google score is struck.
+
+**Recommended option 1:** preserve the W1/W2 artifacts; create a new immutable derived
+run; reuse the 11 existing Mistral unit judgments and call only the 52 missing item
+units; adjudicate the 249 cells solely from the surviving OpenAI judge plus
+`mistralai/mistral-large-2512` under the frozen two-judge tolerance/mean rule; route
+residual disagreements or defects to Part B; and let this FR-7 recompute supersede the
+11 overlapping PR-15 routes because the disqualified Google endpoint no longer
+participates. This makes no fourth-judge call and leaves every nonselected cell
+unchanged. Recommended one-liner:
+
+> Ratify PR-16 option 1: strike Google on all 249 Google-SUT 05/06 rubric cells; reuse
+> 11 existing Mistral unit scores and call only the 52 missing units; adjudicate solely
+> under the frozen OpenAI+Mistral two-judge tolerance/mean rule, route disagreements or
+> defects to Part B, and let this FR-7 recompute supersede the 11 overlapping PR-15
+> ambiguity routes in a new immutable derived run.
+
+Alternatives are (2) fresh-call all 63 Mistral units rather than reusing byte-identical
+scores, or (3) keep the 11 PR-15 overlaps in Part B even where the valid replacement
+pair agrees. Either changes cost, reproducibility, or exclusion counts. **OPEN;
+W3/PAPER blocked pending Jimmy.**
 
 ---
 

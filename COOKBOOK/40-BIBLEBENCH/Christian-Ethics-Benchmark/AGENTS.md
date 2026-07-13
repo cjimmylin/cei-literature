@@ -123,6 +123,60 @@ Read alongside: `00-PORTFOLIO/20260710-human-label-protocol.md`,
   to the gitignored DRAFT (A01/K01/E01 relabels, re-key K01, trim D01/L03/N01) — needs Jimmy
   ratification before entering `DESIGNS/06-*.md`; 06 stays PROVISIONAL until G5 regardless.
 
+## Paper-critical-path execution policy (BINDING)
+
+The default objective is to convert validated benchmark evidence into paper-ready
+statistics and claims as quickly as validity permits. The active priority is always:
+
+1. Complete the current critical-path stage.
+2. Run the next mechanically required stage.
+3. When a paper-entry artifact becomes available, update the PAPER scaffold in the
+   same session unless a frozen gate blocks interpretation.
+4. Perform ancillary engineering only when it directly blocks steps 1–3.
+
+The current critical path is **W1 → W2 Δ(J) → W3 post-adjudication readings → PAPER
+results fill**. Human labels proceed in parallel and gate G4/verdicts, not W1–W3.
+
+### Anti-tangent rules
+
+- No refactoring, new infrastructure, concurrency experiments, broad audits, or paper
+  polish unless required to unblock the next critical-path command.
+- Log a newly discovered non-blocking issue in `PENDING-RULINGS.md`, park it, and
+  continue independent critical-path work. A blocking gap gets one concise ruling
+  request with a recommended one-line disposition; do not multiply decision memos.
+- Use existing validated concurrency. Investigate additional concurrency only when
+  Jimmy explicitly authorizes it and the expected wall-clock saving is material.
+- Test proportionally: one full baseline at session entry, focused tests for changed
+  mechanics, and one full suite before commit. Do not rerun the full suite without an
+  intervening code change or a specific verification need.
+- Reconcile the dashboard and write the dated handoff once at session closure. A
+  mid-session update is warranted only when handing control to another agent.
+- Do not create documentation that merely restates an existing authoritative document.
+
+### Paper-conversion triggers
+
+- When W3 readings exist, immediately fill every licensed statistics/results
+  placeholder those readings support. Do not wait for G4 to draft clearly marked
+  descriptive results.
+- When each label wave lands, run its G4 branch and update the corresponding paper
+  tables incrementally. Do not wait for all designs when a truthful partial fill is
+  licensed.
+- Gate verdicts and release claims still require every frozen prerequisite; speed never
+  authorizes premature interpretation.
+
+### Session success and effort budget
+
+Every execution session names one primary deliverable that advances the critical path.
+Prefer, in order: completed measurement/adjudication stage → validated readings/gate
+artifact → paper section populated from that artifact → supporting mechanics or
+documentation. A session producing only audits, plans, dashboards, or handoffs is
+incomplete unless a genuine STOP condition prevented execution.
+
+Target at least 80% of session effort on critical-path execution and at most 20% on
+testing, documentation, dashboard maintenance, and handoff work combined. Every new
+handoff must state (a) paper-facing progress, (b) the next paper-conversion trigger,
+and (c) any ancillary work performed and why it was blocking.
+
 ## Project dashboard (LIVING document — binds ALL agents)
 `00-PORTFOLIO/project-dashboard.html` is the rolling project dashboard: plan since genesis,
 timeline, gate status, who-owes-what lanes, session forecasts, live status, changelog.

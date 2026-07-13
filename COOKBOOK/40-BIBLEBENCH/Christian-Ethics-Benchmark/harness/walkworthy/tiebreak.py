@@ -177,7 +177,8 @@ def _category(spec, name: str):
     return next((c for c in spec.categories if c.name == name), None)
 
 
-def apply_group_result(rec: dict, group: dict, third_scores) -> dict:
+def apply_group_result(rec: dict, group: dict, third_scores,
+                       ambiguous_tolerance_policy: str = "stop") -> dict:
     """Apply one checkpointed unit result to a copy; frozen-pair verdicts stay intact."""
     out = deepcopy(rec)
     spec = spec_for(out["design"])
@@ -202,7 +203,10 @@ def apply_group_result(rec: dict, group: dict, third_scores) -> dict:
             cell["needs_adjudication"] = False
             cell["adjudication_status"] = "tiebreak_resolved"
         elif status == "ambiguous_tolerance":
-            cell["adjudication_status"] = "pending_ruling_ambiguous_tolerance"
+            cell["adjudication_status"] = (
+                "part_b_ambiguous_tolerance"
+                if ambiguous_tolerance_policy == "part_b"
+                else "pending_ruling_ambiguous_tolerance")
         else:
             cell["adjudication_status"] = f"part_b_{status}"
     (out.get("judge_report") or {}).setdefault("tiebreaker_units", []).append({
@@ -289,7 +293,8 @@ def _cost_delta(before, after) -> dict:
 
 
 def run_tiebreak(records: list, items_by_id: dict, client, checkpoint_path,
-                 cost_probe=None, max_new_tiebreak_units=None) -> tuple:
+                 cost_probe=None, max_new_tiebreak_units=None,
+                 ambiguous_tolerance_policy: str = "stop") -> tuple:
     """Run/resume W1 unit calls and return derived records plus mechanical counts."""
     checkpoint = Path(checkpoint_path)
     checkpoint.parent.mkdir(parents=True, exist_ok=True)
@@ -337,7 +342,9 @@ def run_tiebreak(records: list, items_by_id: dict, client, checkpoint_path,
                 events[key] = event
                 counts["new_units"] += 1
             idx = group["record_index"]
-            out[idx] = apply_group_result(out[idx], group, event.get("scores"))
+            out[idx] = apply_group_result(
+                out[idx], group, event.get("scores"),
+                ambiguous_tolerance_policy=ambiguous_tolerance_policy)
             counts["processed_groups"] += 1
 
     for rec in out:
@@ -379,6 +386,9 @@ def main(argv=None):
     ap.add_argument("--tiebreaker-model", required=True)
     ap.add_argument("--max-new-tiebreak-units", type=int, default=None,
                     help="bounded reliability probe; omit for the full resumable W1 run")
+    ap.add_argument("--ambiguous-tolerance-policy", choices=("stop", "part_b"),
+                    default="stop",
+                    help="PR-15 disposition; part_b requires Jimmy's ratified option 1")
     args = ap.parse_args(argv)
     if args.tiebreaker_model != TIEBREAKER_MODEL:
         raise SystemExit(f"W1 model must be explicit frozen slug: {TIEBREAKER_MODEL}")
@@ -408,11 +418,13 @@ def main(argv=None):
     derived, summary = run_tiebreak(
         merged, items, client, out_dir / "tiebreak_events.jsonl",
         cost_probe=lambda: dict(transport.acc),
-        max_new_tiebreak_units=args.max_new_tiebreak_units)
+        max_new_tiebreak_units=args.max_new_tiebreak_units,
+        ambiguous_tolerance_policy=args.ambiguous_tolerance_policy)
     summary.update({"date": args.date or f"{date.today():%Y%m%d}",
                     "base_run": args.base_run,
                     "reexecution_run": args.reexecution_run,
                     "tiebreaker_model": TIEBREAKER_MODEL,
+                    "ambiguous_tolerance_policy": args.ambiguous_tolerance_policy,
                     "transcript_contract": transcript,
                     "reparse05": reparse_summary})
     with (out_dir / "scored_items.jsonl").open("w", encoding="utf-8") as fh:

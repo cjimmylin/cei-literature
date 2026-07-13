@@ -10,8 +10,9 @@ question in `PENDING-QUESTIONS.md`.
 
 ## Question presented
 
-How should the completed shadow evidence be labeled and used when its response-attributed
-internal accounting and its key-wide interval accounting do not reconcile within the
+How should the completed shadow evidence be labeled and used given two distinct facts:
+the response-attributed internal accounting and key-wide interval accounting do not
+reconcile, and the `$5.426614419` key-wide interval delta exceeds the `$1.00` written
 authorization ceiling?
 
 The immutable run is:
@@ -56,13 +57,16 @@ of record, the paper, or release status.
 
 ## Ratification checklist
 
-Jimmy should mark one disposition. Each ruling-number field remains unassigned and
-**RESERVED** unless Jimmy records a separate written ratification.
+The unchecked boxes below are review aids only; they are not an execution interface. Do
+not check or edit this immutable dated packet. Checking or editing this packet would not
+ratify or reject anything, and all ruling slots remain **RESERVED** here.
 
-- [ ] **Ruling slot: RESERVED — RATIFY.** Adopt the bounded recommendation exactly as
-  written.
-- [ ] **Ruling slot: RESERVED — REJECT.** Do not adopt the bounded recommendation; attach
-  Jimmy's replacement disposition and any newly authorized scope in writing.
+- [ ] **Review aid — ruling slot RESERVED: RATIFY.** Adopt the bounded recommendation
+  exactly as written.
+- [ ] **Review aid — ruling slot RESERVED: REJECT.** Do not adopt the bounded
+  recommendation; specify any replacement disposition and newly authorized scope.
 
-Until Jimmy marks and records a disposition, this packet remains PROVISIONAL, the
-reconciliation question remains OPEN, and all paid calls remain frozen.
+Any binding disposition must be recorded separately in a **NEW dated Jimmy-authored
+ratification/ruling record**, which may cite this packet. Until Jimmy issues that separate
+record, this packet remains PROVISIONAL, the reconciliation question remains OPEN, and all
+paid calls remain frozen.

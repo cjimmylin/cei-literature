@@ -311,7 +311,8 @@ def _protected_occurrence_is_benign(
     normalized: str, protected: str, start: int
 ) -> bool:
     for context, offset in _BENIGN_PROTECTED_OCCURRENCES.get(protected, ()):
-        if start == offset and normalized.startswith(context):
+        context_start = start - offset
+        if context_start >= 0 and normalized.startswith(context, context_start):
             return True
     return False
 
@@ -366,7 +367,13 @@ def _normalized_key_is_sealed(normalized: str) -> bool:
 def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_key_is_sealed(normalized):
+        has_sealed_component = not _LATER_NAMESPACE_TOKENS.isdisjoint(
+            _key_components(key)
+        )
+        if _normalized_key_is_sealed(normalized) or (
+            normalized not in _ALLOWED_TASK_ROUTE_KEYS
+            and has_sealed_component
+        ):
             raise ValueError("request payload contains a later-scope field")
 
 

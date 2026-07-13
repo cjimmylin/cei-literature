@@ -446,6 +446,19 @@ def test_forecast_rejects_blinded_metadata_with_unregistered_affixes(
         "callernotes",
         "deliveryroute",
         "evacuationroute",
+        "subcontractorname",
+        "farmtractorid",
+        "dataextractornotes",
+        "kitchenremodelplan",
+        "postparolestatus",
+        "wildmarigoldcolor",
+        "pondgoldfishcount",
+        "mountainglenscount",
+        "statusenroute",
+        "noninterventionalsummary",
+        "newprovidershipsummary",
+        "cameralensingnotes",
+        "againreroutesummary",
     ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
@@ -469,8 +482,37 @@ def test_payload_allows_registered_benign_key_families_across_calls(
 
 
 @pytest.mark.parametrize(
+    "benign_key",
+    [
+        "emergencyrescuenotes",
+        "familybarbecueplan",
+        "projectrescheduleoptions",
+    ],
+)
+def test_forecast_allows_prefixed_benign_blinding_contexts(
+    benign_key: str,
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {benign_key: "ordinary"}}]}
+    episode = replace(pack.episodes[0], forecast_payload=payload)
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload == payload
+
+
+@pytest.mark.parametrize(
     "compound_key",
-    ["contractoractorid", "goldenexpectedlabel", "reroutelensid"],
+    [
+        "contractoractorid",
+        "goldenexpectedlabel",
+        "reroutelensid",
+        "prefixcontractoractoridsuffix",
+        "prefixgoldenexpectedlabelsuffix",
+        "prefixreroutelensidsuffix",
+    ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
 def test_benign_occurrence_does_not_shield_another_protected_occurrence(
@@ -479,6 +521,27 @@ def test_benign_occurrence_does_not_shield_another_protected_occurrence(
     pack = _pack()
     payload = {"outer": [{"inner": {compound_key: "opaque"}}]}
     episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "compound_key",
+    [
+        "prefixrescuecuecodesuffix",
+        "prefixbarbecuecuecodesuffix",
+        "prefixrescheduleschedulehashsuffix",
+    ],
+)
+def test_forecast_benign_context_does_not_shield_second_blinded_occurrence(
+    compound_key: str,
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {compound_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], forecast_payload=payload)
 
     with pytest.raises(ValueError):
         compile_schedule(
@@ -497,6 +560,27 @@ def test_payload_scans_very_long_keys_iteratively(field_name: str) -> None:
         compile_schedule(
             _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
         )
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_scans_very_long_benign_contexts_iteratively(
+    field_name: str,
+) -> None:
+    pack = _pack()
+    benign_key = "contractor" * 20_000
+    payload = {"outer": [{"inner": {benign_key: "ordinary"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    rows = (
+        schedule.forecast_rows
+        if field_name == "forecast_payload"
+        else schedule.probe_rows
+    )
+    assert rows[0].request_payload["outer"] == payload["outer"]
 
 
 @pytest.mark.parametrize(

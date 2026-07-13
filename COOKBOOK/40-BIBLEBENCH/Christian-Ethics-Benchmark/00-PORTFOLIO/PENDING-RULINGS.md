@@ -431,6 +431,10 @@ the isolated process shards are the bounded mechanical speedup Jimmy authorized.
 
 ## PR-13 — Which W1 disagreement surface binds after the immutable 02/07 re-execution?
 
+> **RATIFIED / CLOSED — 2026-07-13 (Jimmy, inline):** “Ratify PR-13 option 1:
+> use the internally consistent re-executed surface of 2,682 groups / 3,176 cells;
+> own-family Part B remains 580 cells.”
+
 **Surfaced:** 2026-07-13, O5 W1 production resume, immediately after the required
 one-new-unit Mistral probe. The probe itself parsed successfully (one call, zero defects,
 zero ambiguity, `$0.000514`) and is checkpointed; the full W1 run did not start.
@@ -461,8 +465,35 @@ judgment-shaped and cannot be inferred mechanically.
    723 historically missing response texts may be paired with historical judge scores
    without silently mixing judgments on old responses with new transcripts.
 
-**Current behavior:** W1 stopped after the successful one-unit probe. No full W1, W2,
-W3, W4, W5, gate verdict, or release claim was run. **OPEN.**
+**Binding behavior:** Option 1 governs this run. Resume W1 from the successful one-unit
+checkpoint over exactly 2,682 groups / 3,176 cells; route the unchanged 458 own-family
+groups / 580 cells to Part B. Any mismatch or nonzero ambiguity remains a new STOP.
+At the instant of ratification, no full W1, W2, W3, W4, W5, gate verdict, or release
+claim had run. **CLOSED.**
+
+---
+
+## PR-14 — W2 §E Δ(J) permutation-test data contract
+
+**Surfaced:** 2026-07-13 during the pre-W2 read-only audit while W1 was running. Frozen
+§E specifies, per judge × design, Δ(J) = the difference between mean
+`score_J − score_other` on J-own-family SUT cells and all other cells, tested with
+10,000 permutations at α=.01. It does not pin the concrete score field, exchangeability
+unit, tail, Monte Carlo correction, or RNG seed. No W2 implementation exists.
+
+**Jimmy ruling required (recommended option 1):** use each public `(item_id, SUT model)`
+record's two frozen `judge_report.scalar_by_judge` values; within each design and item,
+shuffle which one of the six SUT cells carries the own-family indicator (one per item),
+recompute the mean-difference statistic for 10,000 permutations with seed `20260710`,
+and use the one-sided positive-inflation p-value
+`(1 + count(permuted >= observed)) / 10001`. Flag only `p < .01`. This preserves item
+difficulty blocks, tests the registered inflation direction, and never uses the derived
+tie-breaker verdict.
+
+Alternatives (atomic rubric units, unblocked record permutation, two-sided tails,
+different correction/seed) can change p-values and require Jimmy to state the exact
+contract. **Current behavior:** W1 is unaffected; W2 is blocked until PR-14 is ruled.
+**OPEN.**
 
 ---
 

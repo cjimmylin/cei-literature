@@ -1,5 +1,17 @@
 # WCF-Bench Pending Questions
 
+## Jimmy authorization received 2026-07-13 — T3 EPISODE 88-cell run
+
+- **Authorization record:** `20260713d-jimmy-t3-authorization-record.md`.
+- **Scope:** T3 only — 22 EPISODE items × the standing four SUTs = 88 cells, scored by
+  the manifest-of-record Gemini + Grok settled-core panel under R55.1–R55.3.
+- **Budget:** strict `$10.00` NTE; expected actual `$1–$2.50`.
+- **Sequence:** offline TDD build + independent reviews, then R40.1 pre-flight, then one
+  checkpointable/resumable live run.
+- **Effect:** the T3 paid-call and roster gate is OPEN. T4 and every other paid scope
+  remain separately unauthorized. No model substitution, panel/manifest change, ladder
+  reopening, shadow-production use, G6 work, or bank edit is authorized.
+
 ## Binding dispositions received 2026-07-12 — R47–R53
 
 - **R47–R49:** The zero-OPEN result was a quoted-evidence willingness-parser artifact.
@@ -27,9 +39,10 @@ all 96 probe repetitions and 56 shadow-verdict attempts were persisted, but reco
 was `UNRECONCILED` because the runner's internal attributed total was $0.69776393843 while
 key-wide usage increased by $5.426614419 during the pre/post interval. The reconciliation
 question is **RESOLVED** by Jimmy's 2026-07-13 ratification in
-`20260713a-jimmy-shadow-reconciliation-ratification-record.md`. Paid calls remain
-unauthorized and frozen pending separate task-specific written roster, budget, and cap
-authorization.
+`20260713a-jimmy-shadow-reconciliation-ratification-record.md`. The later exact T3
+authorization is recorded in `20260713d-jimmy-t3-authorization-record.md`; it opens only
+T3's standing roster under a `$10.00` NTE cap. T4 and every other paid scope remain
+unauthorized.
 
 ## Jimmy authorization received 2026-07-12 — shadow judge bakeoff
 

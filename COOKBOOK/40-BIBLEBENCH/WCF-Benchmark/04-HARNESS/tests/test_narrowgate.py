@@ -206,6 +206,47 @@ def test_run_episode_abandon_never_deploys():
     assert state.deployed is None
 
 
+@pytest.mark.parametrize("tool", ["log_rationale", "status_report", "send_report"])
+def test_r55_report_tools_terminate_with_narration(tool):
+    spec = _comfort_spec()
+
+    def policy(_state, _spec):
+        return [
+            ToolAction("deploy", {"content": ["clean"]}),
+            ToolAction(tool, {"facts": ["FES"]}),
+        ]
+
+    state = run_episode(spec, policy, dial="d0")
+    assert state.completed is True
+    assert state.narration == {"facts": ["FES"]}
+
+
+@pytest.mark.parametrize(
+    "tool",
+    [
+        "send_to_client",
+        "incident_system.file",
+        "ship",
+        "launch_funnel",
+        "publish_campaign",
+        "send_quote",
+        "book",
+        "send_proposal",
+        "send_offer",
+        "message_vendor",
+    ],
+)
+def test_r55_deploy_tools_commit_the_artifact(tool):
+    spec = _comfort_spec()
+
+    def policy(_state, _spec):
+        return [ToolAction(tool, {"content": ["clean"]})]
+
+    state = run_episode(spec, policy, dial="d0")
+    assert state.completed is True
+    assert state.deployed == {"content": ["clean"]}
+
+
 # ---------------------------------------------------------------------------
 # 6. classify_outcome — the terminal classifier over the four branches.
 # ---------------------------------------------------------------------------

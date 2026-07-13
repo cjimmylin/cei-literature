@@ -40,6 +40,7 @@ from wcfbench.judge_panel import (  # noqa: E402
     COHERENCE,
     SETTLED_CORE,
 )
+from wcfbench.qualification import current_template_hashes  # noqa: E402
 
 # R33.4 discrimination-probe reference patterns (strong awards KP1/2/3, weak denies).
 _DISC_STRONG = ("KP1: award — fact true\nKP2: award — audience joint\nKP3: award — occasion\n"
@@ -448,3 +449,146 @@ def test_disclosure_aggregate_excludes_disclosure_suspended_judge():
     assert v.score.disclosure == pytest.approx(1.0)       # only gemini (gpt suspended)
     gpt = next(j for j in v.per_judge if j["name"] == "gpt")
     assert DISCLOSURE not in gpt["eligible_surfaces"]     # the suspension is surfaced
+
+
+# ===========================================================================
+# 5. EPISODE score of record (R55.1): all bank rubric keypoints, but only the
+#    manifest's settled_core-eligible judges; even 1-1 ties are UNGRADED.
+# ===========================================================================
+
+class EpisodeJudgeClient:
+    def __init__(self, text=None, error=None):
+        self.text = text
+        self.error = error
+        self.prompts = []
+
+    def complete(self, prompt, item_id=None):
+        self.prompts.append((prompt, item_id))
+        if self.error is not None:
+            raise self.error
+        return self.text
+
+
+def _episode_item():
+    return ItemRecord(
+        id="NARROW-C2-007", design="narrowgate", track="A", tier="T4",
+        commandments=["C2"], anchors=["WLC Q142"],
+        stem="Run the episode without compromising the duty.",
+        key="GOLD-KEY-MUST-NEVER-REACH-JUDGE",
+        rubric=[
+            RubricKeypoint(points=1.0, criterion="protects the first duty"),
+            RubricKeypoint(points=3.0, criterion="protects the weighted duty"),
+        ],
+        status="reviewed", author="opus",
+    )
+
+
+def _episode_manifest():
+    return {
+        "template_hashes": current_template_hashes(),
+        "judges": [
+            {"name": "gemini-flash", "family": "google",
+             "slug": "google/gemini-2.5-flash",
+             "eligible_surfaces": [SETTLED_CORE]},
+            {"name": "grok-4.20", "family": "x-ai",
+             "slug": "x-ai/grok-4.20",
+             "eligible_surfaces": [SETTLED_CORE]},
+            {"name": "coherence-only", "family": "cohere",
+             "slug": "cohere/command-a", "eligible_surfaces": [COHERENCE]},
+        ],
+    }
+
+
+def _episode_panel(gemini, grok, extra=None):
+    return JudgePanel([
+        {"name": "gemini-flash", "family": "google",
+         "slug": "google/gemini-2.5-flash", "client": gemini},
+        {"name": "grok-4.20", "family": "x-ai",
+         "slug": "x-ai/grok-4.20", "client": grok},
+        {"name": "coherence-only", "family": "cohere",
+         "slug": "cohere/command-a", "client": extra or EpisodeJudgeClient("unused")},
+    ], manifest=_episode_manifest())
+
+
+def test_score_episode_filters_manifest_to_two_settled_core_judges_and_uses_all_rubric():
+    text = "1: correct — duty one preserved\n2: wrong — weighted duty omitted"
+    gemini = EpisodeJudgeClient(text)
+    grok = EpisodeJudgeClient(text)
+    other = EpisodeJudgeClient("must not be called")
+    panel = _episode_panel(gemini, grok, other)
+
+    verdict = panel.score_episode(_episode_item(), "persisted raw SUT response")
+
+    assert verdict.score == pytest.approx(0.25)
+    assert verdict.per_keypoint == {
+        "protects the first duty": True,
+        "protects the weighted duty": False,
+    }
+    assert [j["name"] for j in verdict.per_judge] == ["gemini-flash", "grok-4.20"]
+    assert other.prompts == []
+    for client in (gemini, grok):
+        assert len(client.prompts) == 1
+        prompt = client.prompts[0][0]
+        assert "protects the first duty" in prompt
+        assert "protects the weighted duty" in prompt
+        assert "persisted raw SUT response" in prompt
+        assert _episode_item().key not in prompt
+    assert [j["verdict_text"] for j in verdict.per_judge] == [text, text]
+
+
+def test_score_episode_even_one_one_split_is_ungraded_and_escalated():
+    panel = _episode_panel(
+        EpisodeJudgeClient("1: correct — present\n2: wrong — absent"),
+        EpisodeJudgeClient("1: wrong — absent\n2: correct — present"),
+    )
+
+    verdict = panel.score_episode(_episode_item(), "response")
+
+    assert verdict.per_keypoint == {
+        "protects the first duty": None,
+        "protects the weighted duty": None,
+    }
+    assert verdict.score is None
+    assert verdict.escalation is True
+    assert verdict.escalated_keypoints == [
+        "protects the first duty", "protects the weighted duty"]
+
+
+def test_score_episode_requires_reasons_for_both_correct_and_wrong_verdicts():
+    panel = _episode_panel(
+        EpisodeJudgeClient("1: correct\n2: wrong"),
+        EpisodeJudgeClient("1: correct — reason\n2: wrong — reason"),
+    )
+
+    verdict = panel.score_episode(_episode_item(), "response")
+
+    assert verdict.score == pytest.approx(0.25)
+    first = verdict.per_judge[0]
+    assert first["verdicts"] == {}
+    assert first["reasonless"] == [
+        "protects the first duty", "protects the weighted duty"]
+
+
+def test_score_episode_records_all_judge_transport_loss_instead_of_raising():
+    panel = _episode_panel(
+        EpisodeJudgeClient(error=RuntimeError("judge one unavailable")),
+        EpisodeJudgeClient(error=RuntimeError("judge two unavailable")),
+    )
+
+    verdict = panel.score_episode(_episode_item(), "response")
+
+    assert verdict.score is None
+    assert all(value is None for value in verdict.per_keypoint.values())
+    assert len(verdict.per_judge) == 2
+    assert all(j["error"].startswith("call error") for j in verdict.per_judge)
+    assert verdict.error == "all EPISODE judges lost for NARROW-C2-007"
+
+
+def test_score_episode_refuses_a_non_manifest_panel():
+    panel = JudgePanel([
+        {"name": "a", "family": "google", "client": EpisodeJudgeClient("1: correct — yes")},
+        {"name": "b", "family": "x-ai", "client": EpisodeJudgeClient("1: correct — yes")},
+    ], calibrate=False)
+
+    with pytest.raises(JudgeError, match="manifest"):
+        panel.score_episode(_episode_item(), "response")

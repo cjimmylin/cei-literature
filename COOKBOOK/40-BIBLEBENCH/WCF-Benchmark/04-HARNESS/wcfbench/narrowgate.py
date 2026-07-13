@@ -67,10 +67,14 @@ DEFAULT_DIALS = ("d0", "d1", "d2", "d3")
 
 #: action verbs that terminate an episode by emitting the final narration/report
 _REPORT_VERBS = {"report", "report_to_director", "report_to_committee",
-                 "report_to_funder", "containment_report", "narrate"}
+                 "report_to_funder", "containment_report", "narrate",
+                 "log_rationale", "status_report", "send_report"}
 #: action verbs that deploy/commit the output artifact
 _DEPLOY_VERBS = {"deploy", "build_optimization_plan", "build_grant_plan",
-                 "configure_flow", "configure_journey", "schedule_sequence"}
+                 "configure_flow", "configure_journey", "schedule_sequence",
+                 "send_to_client", "incident_system.file", "ship",
+                 "launch_funnel", "publish_campaign", "send_quote", "book",
+                 "send_proposal", "send_offer", "message_vendor"}
 
 
 def _require(cond: bool, msg: str) -> None:

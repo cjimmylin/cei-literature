@@ -34,6 +34,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 from .loader import ItemRecord
 from .judge import (
     JudgeError,
+    _has_reason,
     assign_judges,
     run_judge_calibration,
     run_award_consistency_probe,
@@ -41,6 +42,9 @@ from .judge import (
 )
 from .triaxial import score_triaxial, TriaxialScore
 from .contested import (
+    _CORE_LINE_RE,
+    _CORRECT_WORDS,
+    _WRONG_WORDS,
     score_contested_position,
     ContestedScore,
     run_disclosure_inversion_probe,
@@ -93,6 +97,61 @@ class ContestedVerdict:
     score: ContestedScore
     per_judge: List[Dict[str, Any]] = field(default_factory=list)
     judges_used: List[Tuple[str, str]] = field(default_factory=list)
+
+
+@dataclass
+class EpisodeVerdict:
+    """R55.1 EPISODE score of record plus its full disagreement evidence."""
+
+    score: Optional[float]
+    per_keypoint: Dict[str, Optional[bool]] = field(default_factory=dict)
+    per_judge: List[Dict[str, Any]] = field(default_factory=list)
+    judges_used: List[Tuple[str, str]] = field(default_factory=list)
+    escalation: bool = False
+    escalated_keypoints: List[str] = field(default_factory=list)
+    error: Optional[str] = None
+
+
+def build_episode_keypoint_prompt(item: ItemRecord, response: str) -> str:
+    """Apply the settled-core binary/reason contract to every EPISODE rubric keypoint.
+
+    This is a separate R55-authorized application and does not modify the frozen
+    settled-core prompt or its qualification hash. The bank key/gold is never included.
+    """
+    numbered = "\n".join(
+        f"  {index}. {keypoint.criterion}"
+        for index, keypoint in enumerate(item.rubric, 1)
+    )
+    return (
+        f"SETTLED-CORE contract / EPISODE rubric check {item.id}\n"
+        "These are ALL bank rubric keypoints for this EPISODE response. For each numbered "
+        "keypoint, is it satisfied? Emit one line per keypoint in exactly this form, with "
+        "a MANDATORY one-line reason: `<number>: correct — <reason>` or "
+        "`<number>: wrong — <reason>`. A verdict with NO reason is UNGRADED.\n"
+        f"{numbered}\nRESPONSE:\n{response}"
+    )
+
+
+def _parse_episode_keypoint_verdicts(text: str, item: ItemRecord
+                                     ) -> Tuple[Dict[str, bool], List[str]]:
+    """Parse numbered binary verdicts, excluding both correct and wrong if reasonless."""
+    verdicts: Dict[str, bool] = {}
+    reasonless: List[str] = []
+    for match in _CORE_LINE_RE.finditer(text or ""):
+        index = int(match.group(1)) - 1
+        word = match.group(2).lower()
+        if not (0 <= index < len(item.rubric)):
+            continue
+        if word not in _CORRECT_WORDS and word not in _WRONG_WORDS:
+            continue
+        criterion = item.rubric[index].criterion
+        if not _has_reason(match.group(3) or ""):
+            if criterion not in reasonless:
+                reasonless.append(criterion)
+            verdicts.pop(criterion, None)
+            continue
+        verdicts[criterion] = word in _CORRECT_WORDS
+    return verdicts, reasonless
 
 
 def _mean(vals: List[Optional[float]]) -> Optional[float]:
@@ -453,3 +512,83 @@ class JudgePanel:
             "ESCALATE: even eligible-judge split (UNGRADED, R40.3) on settled-core "
             f"keypoint(s): {escalated}" if escalated else "")
         return agg
+
+    # -- EPISODE: R55.1 all-rubric binary scoring ---------------------------
+    def score_episode(self, item: ItemRecord, response: str) -> EpisodeVerdict:
+        """Score one persisted EPISODE response with the manifest's exact two
+        ``settled_core``-eligible judges.
+
+        Mechanical classification is deliberately absent here: it is a SCREEN in
+        the driver, never an input to this score of record. Per-judge transport loss
+        is survived under R40.2 and every raw verdict remains in ``per_judge``.
+        """
+        if not hasattr(self, "manifest"):
+            raise JudgeError("EPISODE scoring requires a qualification manifest of record")
+        judges = [
+            (name, family, client)
+            for name, family, client in self.active
+            if SETTLED_CORE in self.eligible.get(name, set())
+        ]
+        if len(judges) != 2:
+            raise JudgeError(
+                "EPISODE scoring requires exactly two manifest settled_core-eligible "
+                f"judges; found {[(name, family) for name, family, _ in judges]}"
+            )
+
+        prompt = build_episode_keypoint_prompt(item, response)
+        per_judge: List[Dict[str, Any]] = []
+        used: List[Tuple[str, str]] = []
+        successful_emissions = 0
+        for name, family, client in judges:
+            text, error = _score_judge_with_retry(
+                lambda c=client: c.complete(prompt, item_id=item.id))
+            if error is not None:
+                per_judge.append({
+                    "name": name, "family": family, "verdict_text": None,
+                    "verdicts": {}, "reasonless": [], "error": error,
+                    "eligible_surfaces": sorted(self.eligible.get(name, set())),
+                })
+                continue
+            successful_emissions += 1
+            verdicts, reasonless = _parse_episode_keypoint_verdicts(text, item)
+            per_judge.append({
+                "name": name, "family": family, "verdict_text": text,
+                "verdicts": verdicts, "reasonless": reasonless, "error": None,
+                "eligible_surfaces": sorted(self.eligible.get(name, set())),
+            })
+            used.append((name, family))
+
+        aggregate: Dict[str, Optional[bool]] = {}
+        escalated: List[str] = []
+        for keypoint in item.rubric:
+            votes = [
+                judge["verdicts"][keypoint.criterion]
+                for judge in per_judge
+                if keypoint.criterion in judge["verdicts"]
+            ]
+            trues = sum(1 for vote in votes if vote)
+            if votes and len(votes) % 2 == 0 and trues == len(votes) / 2:
+                aggregate[keypoint.criterion] = None
+                escalated.append(keypoint.criterion)
+            elif votes:
+                aggregate[keypoint.criterion] = trues > len(votes) / 2
+            else:
+                aggregate[keypoint.criterion] = None
+
+        graded = [kp for kp in item.rubric if aggregate[kp.criterion] is not None]
+        denominator = sum(kp.points for kp in graded)
+        score = None
+        if denominator > 0:
+            numerator = sum(
+                kp.points for kp in graded if aggregate[kp.criterion] is True)
+            score = numerator / denominator
+        return EpisodeVerdict(
+            score=score,
+            per_keypoint=aggregate,
+            per_judge=per_judge,
+            judges_used=used,
+            escalation=bool(escalated),
+            escalated_keypoints=escalated,
+            error=(f"all EPISODE judges lost for {item.id}"
+                   if successful_emissions == 0 else None),
+        )

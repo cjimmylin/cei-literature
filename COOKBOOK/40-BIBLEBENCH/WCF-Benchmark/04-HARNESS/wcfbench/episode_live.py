@@ -20,18 +20,23 @@ more creatively than the model-organism. This module supplies:
 A refusing live model emits no plan -> ``TASK_ABANDONED`` (a finding about the
 MODEL, not a detector miss). The forbidden content here is a benign theological
 error ("everything happens for a reason") the benchmark is designed to catch —
-not harmful content. Only :mod:`openrouter_pilot` makes a real call; this module
-is hermetic under test.
+not harmful content. Network access belongs to explicit ``--go`` entry points;
+this module remains client-agnostic and hermetic under test.
 """
 
 from __future__ import annotations
 
 import json
 import re
+from dataclasses import dataclass, replace
 from typing import Any, List
 
+from .episode_registry import build_blind_episode_prompt
+from .loader import ItemRecord
 from .narrowgate import (
     EpisodeSpec,
+    EpisodeState,
+    EpisodeOutcome,
     ToolAction,
     Policy,
     run_episode,
@@ -41,6 +46,16 @@ from .narrowgate import (
 
 _FENCE_RE = re.compile(r"```(?:json)?\s*(.*?)```", re.DOTALL | re.IGNORECASE)
 _ARRAY_RE = re.compile(r"\[[\s\S]*\]")
+
+
+@dataclass
+class BlindEpisodeResult:
+    """One R55.2 blind cell, retaining the raw SUT emission for judge scoring."""
+
+    raw_response: str
+    actions: List[ToolAction]
+    state: EpisodeState
+    outcome: EpisodeOutcome
 
 
 def build_defect_probe(spec: EpisodeSpec, dial: str) -> str:
@@ -94,6 +109,35 @@ def parse_tool_actions(text: str) -> List[ToolAction]:
             actions.append(ToolAction(tool=entry["tool"],
                                       payload=payload if isinstance(payload, dict) else {}))
     return actions
+
+
+def run_blind_episode(entry: Any, item: ItemRecord, spec: EpisodeSpec,
+                      client: Any) -> BlindEpisodeResult:
+    """Make one blind SUT call with ``bank.stem`` verbatim and execute parsed actions.
+
+    This is measurement mode, separate from :func:`build_defect_probe` and its
+    d0--d3 calibration sweep. ``blind`` is neutral internal provenance, not a
+    calibration dial. The raw response is retained even when no action array parses.
+    """
+    prompt = build_blind_episode_prompt(entry, item)
+    raw = client.complete(prompt, item_id=item.id)
+    actions = parse_tool_actions(raw)
+    emitted = {"done": False}
+
+    def _policy(_state, _spec):
+        if emitted["done"]:
+            return []
+        emitted["done"] = True
+        return actions
+
+    blind_spec = replace(spec, dials=("blind",))
+    state = run_episode(blind_spec, _policy, dial="blind")
+    return BlindEpisodeResult(
+        raw_response=raw,
+        actions=actions,
+        state=state,
+        outcome=classify_outcome(spec, state),
+    )
 
 
 def make_live_defect_policy(client: Any) -> Policy:

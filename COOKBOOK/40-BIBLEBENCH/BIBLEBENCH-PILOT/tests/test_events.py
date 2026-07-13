@@ -5,7 +5,9 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import time
 import traceback
+import unicodedata
 
 import pytest
 from jsonschema import Draft202012Validator
@@ -1445,6 +1447,24 @@ def _event_schema():
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _fullwidth_ascii(value: str) -> str:
+    return "".join(
+        chr(ord(character) + 0xFEE0)
+        if "!" <= character <= "~"
+        else character
+        for character in value
+    )
+
+
+def _mathematical_bold_ascii(value: str) -> str:
+    return "".join(
+        chr(0x1D41A + ord(character) - ord("a"))
+        if "a" <= character <= "z"
+        else character
+        for character in value
+    )
+
+
 def test_closed_event_schema_accepts_complete_and_incomplete_artifacts() -> None:
     schema = _event_schema()
     Draft202012Validator.check_schema(schema)
@@ -1590,12 +1610,13 @@ def test_runtime_and_schema_cover_the_same_finite_compact_alias_cross_product(
 ) -> None:
     schema = _event_schema()
     action_pattern = re.compile(schema["$defs"]["actionId"]["pattern"])
-    target_pattern = re.compile(
-        schema["$defs"]["sandboxEvidence"]["properties"]["target"]["pattern"]
+    target_forbidden = re.compile(
+        schema["$defs"]["sandboxEvidence"]["properties"]["target"]["not"]
+        ["pattern"]
     )
-    summary_pattern = re.compile(
+    summary_forbidden = re.compile(
         schema["$defs"]["event"]["properties"]["consequence_summaries"]
-        ["items"]["pattern"]
+        ["items"]["not"]["pattern"]
     )
     compact = {
         concept + metadata
@@ -1603,15 +1624,94 @@ def test_runtime_and_schema_cover_the_same_finite_compact_alias_cross_product(
         for metadata in events_module._METADATA_COMPONENT_ALIASES
     }
 
+    assert len(compact) == 1_260
     assert compact == events_module._COMPACT_PRIVATE_IDENTIFIERS
-    for identifier in {
-        *events_module._PRIVATE_COMPONENT_ALIASES,
-        *compact,
-    }:
-        assert events_module._identifier_is_private(identifier)
-        assert action_pattern.fullmatch(identifier) is None
-        assert target_pattern.fullmatch(identifier) is None
-        assert summary_pattern.fullmatch(f"{identifier}: hidden") is None
+    for concept in events_module._PRIVATE_COMPONENT_ALIASES:
+        for metadata in events_module._METADATA_COMPONENT_ALIASES:
+            compact_identifier = concept + metadata
+            variants = (
+                compact_identifier,
+                concept + metadata.title(),
+                concept + "\t" + metadata,
+                _fullwidth_ascii(compact_identifier),
+                _mathematical_bold_ascii(compact_identifier),
+            )
+            for identifier in variants:
+                assert unicodedata.normalize("NFKC", identifier).casefold().replace(
+                    "\t", ""
+                ) == compact_identifier
+                assert events_module._identifier_is_private(identifier)
+                assert events_module._contains_private_assignment(
+                    f"{identifier}: hidden"
+                )
+                assert action_pattern.fullmatch(identifier) is None
+                assert target_forbidden.search(identifier) is not None
+                assert summary_forbidden.search(f"{identifier}: hidden") is not None
+
+    benign = (
+        "privateer",
+        "modeling",
+        "modelidentitiesx",
+        _fullwidth_ascii("privateer"),
+        _mathematical_bold_ascii("modeling"),
+    )
+    for identifier in benign:
+        assert not events_module._identifier_is_private(identifier)
+        assert target_forbidden.search(identifier) is None
+        assert summary_forbidden.search(f"{identifier} remained visible.") is None
+
+
+@pytest.mark.parametrize(
+    "target",
+    [
+        "actorModel",
+        "ｍｏｄｅｌ_id",
+        "groundTruth",
+        "expectedLabel",
+        "model\tidentity",
+    ],
+)
+def test_schema_rejects_transformed_private_targets(target: str) -> None:
+    artifact = observable_evidence_to_json(_complete_bundle())
+    artifact["sandbox_evidence"][0]["target"] = target
+
+    assert list(Draft202012Validator(_event_schema()).iter_errors(artifact))
+
+
+@pytest.mark.parametrize(
+    "summary",
+    [
+        "actorModel: hidden",
+        "model\tidentity:\thidden",
+        "groundTruth is hidden",
+        "ｅｘｐｅｃｔｅｄＬａｂｅｌ: hidden",
+    ],
+)
+def test_schema_rejects_transformed_private_summary_assignments(summary: str) -> None:
+    artifact = observable_evidence_to_json(_complete_bundle())
+    artifact["events"][0]["consequence_summaries"] = [summary]
+
+    assert list(Draft202012Validator(_event_schema()).iter_errors(artifact))
+
+
+def test_schema_firewall_patterns_are_linear_on_long_benign_text() -> None:
+    schema = _event_schema()
+    target_forbidden = re.compile(
+        schema["$defs"]["sandboxEvidence"]["properties"]["target"]["not"]
+        ["pattern"]
+    )
+    summary_forbidden = re.compile(
+        schema["$defs"]["event"]["properties"]["consequence_summaries"]
+        ["items"]["not"]["pattern"]
+    )
+    benign = "x" * 1_000_000
+
+    started = time.monotonic()
+    assert target_forbidden.search(benign) is None
+    assert summary_forbidden.search(benign) is None
+    elapsed = time.monotonic() - started
+
+    assert elapsed < 1.0
 
 
 @pytest.mark.parametrize(

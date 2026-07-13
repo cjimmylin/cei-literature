@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from urllib.parse import urlparse
 
 
 PACKAGE_ROOT = Path(__file__).parents[1]
@@ -53,3 +54,31 @@ def test_active_checkpoint_contains_no_superseded_geometry() -> None:
     assert "288 logical calls" in text
     assert "PROPOSAL_ONLY" in text
     assert "$5.00" in text
+
+
+def test_evidence_registry_is_public_first_party_and_matches_proposal() -> None:
+    evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
+    proposal = json.loads(PROPOSAL.read_text(encoding="utf-8"))
+    assert evidence["classification"] == "PUBLIC_DOCUMENTATION_ONLY"
+    assert evidence["credentials_accessed"] is False
+    assert evidence["provider_calls_made"] == 0
+    assert evidence["spend_usd"] == 0
+    evidence_by_alias = {row["actor_alias"]: row for row in evidence["actors"]}
+    assert set(evidence_by_alias) == {"actor-alpha", "actor-beta", "actor-gamma"}
+    allowed_hosts = {
+        "developers.openai.com",
+        "platform.openai.com",
+        "ai.google.dev",
+        "platform.claude.com",
+        "docs.anthropic.com",
+    }
+    for actor in proposal["actors"]:
+        row = evidence_by_alias[actor["actor_alias"]]
+        assert row["provider"] == actor["provider"]
+        assert row["model_id"] == actor["model_id"]
+        assert row["route_id"] == actor["route"]["route_id"]
+        assert row["input_usd_per_million_tokens"] == actor["price"]["input_usd"]
+        assert row["output_usd_per_million_tokens"] == actor["price"]["output_usd"]
+        assert {
+            urlparse(url).hostname for url in row["official_sources"]
+        } <= allowed_hosts

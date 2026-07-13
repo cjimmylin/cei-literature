@@ -64,31 +64,31 @@ This register defines the current paper-facing contract for active work under `4
 
 ## WCF
 
-- `paper_claim_enabled`: Report the verified shadow-judge reconciliation and Pareto analysis within their registered shadow-only claim boundary.
-- `paper_deliverable`: Complete the authorized 22×4 T3 EPISODE run and its paper-facing evidence artifact; preserve the shadow-only result boundary; advance T4 only after separate written authorization.
-- `blocking_reason`: none at the owner gate for T3; its offline R55.1–R55.3 runner, independent specification and quality reviews, and R40.1 pre-flight must pass before paid execution.
-- `minimum_sufficiency_gate`: Execute only the authorized four-SUT roster and manifest-of-record Gemini + Grok panel across exactly 22×4 cells, preserve custody and registered scoring, remain within the $10.00 NTE cap, and produce the registered T3 evidence artifact without implying T4 or release authority.
-- `timebox`: Complete the authorized T3 scope only; stop before T4, any roster/panel change, or spend above the $10.00 cap.
-- `stop_condition`: Produce and verify the T3 evidence artifact and update its manuscript scaffold, then stop at the separately unauthorized T4 gate.
-- `deferred_nonblocking_work`: T4 execution, release labeling, and other work awaiting explicit owner authority.
-- `owner_approved_exception`: none.
+- `paper_claim_enabled`: An explicitly exploratory three-model, single-judge preview can show WCF-Bench's full paper shape and describe preliminary patterns across all runnable base items without claiming ranking, validation, panel consensus, gate completion, or release readiness.
+- `paper_deliverable`: An immutable 226-item × three-SUT PPP-1 evidence record, provisional aggregate and per-design tables, minimum useful figures, populated preview Results and Discussion, a conspicuous limitations box, an assembled manuscript preview, and an owner-facing stop/repair/scale decision point.
+- `blocking_reason`: Before inference, exact current PPP-1 slugs, prices, availability, balance, forecast, and cap must be frozen in a zero-paid preflight and separately authorized by Jimmy. Any P0/P1 that could invalidate the narrowed exploratory claim also blocks execution.
+- `minimum_sufficiency_gate`: Run exactly the 226 runnable base items with `meta-llama/llama-3.1-8b-instruct`, `deepseek/deepseek-chat`, and `qwen/qwen3.7-plus`; use only `google/gemini-2.5-flash` for judge-required preview surfaces; preserve mechanical scoring, custody, and frozen bank integrity; make no perturbation or gate claim; keep spend within a separately approved cap no greater than $5.00; label every output **EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE**; and deliver the complete paper packet.
+- `timebox`: One zero-paid roster/price/balance preflight, one separately authorized bounded preview run, and one immediate paper-fill/assembly pass. Stop infrastructure work at the minimum valid runner.
+- `stop_condition`: Stop after the complete PPP-1 paper packet for Jimmy's explicit revise, bounded-repair, full-T4, narrow, or defer decision. Stop earlier at missing paid authority, projected or actual spend above the approved cap, custody failure, or a P0 event.
+- `deferred_nonblocking_work`: Registered full T4; premium or additional SUTs; stronger or multiple judges; perturbations; G1–G7 conclusions; release labels; rankings; and robustness or hardening that cannot change the narrowed preview claim.
+- `owner_approved_exception`: PF-003 and `WCF-Benchmark/20260713-wcf-cheap-paper-preview-strategy-amendment.md` ratify PPP-1 as the immediate milestone; they do not authorize spending or alter R1–R68.
 
 ### Current paper-track status
 
-- Manuscript: P3 awaits T4 plus R67.4; T3 evidence should feed its registered scaffold without rewriting claims.
-- Executable bank: T3 is authorized and in progress; offline runner and review gates precede paid calls.
-- Evidence: GLM remains the shadow-only Pareto-preferred candidate; T3 uses the separately authorized four-SUT roster and manifest-of-record panel.
-- PDF: final paper deliverable remains downstream of registered evidence gates.
-- Spend: T3 is authorized up to $10.00 NTE, with $1–$2.50 expected; T4 and all other paid scopes remain unauthorized.
-- Local authority: `WCF-Benchmark/project-dashboard.html` and `WCF-Benchmark/20260713d-jimmy-t3-authorization-record.md`.
-- Next session: continue the authorized T3 sequence from the current local dashboard and checkpoint; complete offline gates before paid calls and stop before T4.
+- Manuscript: the pre-draft exists; PPP-1 now supplies the provisional tables, figures, Results, Discussion, limitations, and assembled preview before confirmatory T4.
+- Executable bank: 230 items are audited and frozen; PPP-1 uses all 226 runnable base items and excludes the four `dev_set_only` items.
+- Evidence: T3 is complete. No PPP-1 inference has begun; its single-judge output will be exploratory and non-quotable, not panel or gate evidence.
+- PDF: the next paper-facing deliverable is the assembled PPP-1 manuscript preview; release-labeled paper content remains downstream of registered confirmatory evidence.
+- Spend: PPP-1 planning basis is about $2.80 with a proposed $5.00 NTE cap, but credential access, catalog/auth preflight, balance lookup, and paid calls still require explicit authority.
+- Local authority: `WCF-Benchmark/20260713-wcf-cheap-paper-preview-strategy-amendment.md`, PF-003, and the local dashboard.
+- Next session: perform only the authorized zero-paid PPP-1 preflight when Jimmy grants credential/catalog access; freeze the exact manifest and return exact cost, balance/top-up, runtime, and cap for separate paid-call ratification. Do not start inference or expand the roster.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: none recorded; T3's registered offline review and pre-flight gates remain mandatory prerequisites.
-- Deferred P2: production robustness work awaiting authorization.
-- Deferred P3: release polish.
+- Open P1: exact live roster availability/pricing and preview-run adequacy must be confirmed in the zero-paid preflight before paid authorization.
+- Deferred P2: additional judge/model robustness and perturbation work that cannot change the narrowed preview conclusions.
+- Deferred P3: release, leaderboard, and production-hardening polish.
 
 ## Registration rule for future benchmarks
 

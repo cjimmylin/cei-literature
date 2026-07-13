@@ -21,17 +21,29 @@ out of rabbit holes" below). Session entry point: `20260712g-codex-standing-boot
 (supersedes the 20260712 v1 prompt; v2 adds the paper lane P1–P4 and the R58–R68 prereg);
 full handover map: `20260712-wcf-codex-handover-plan.md`.
 
+**OWNER STRATEGY OVERRIDE (2026-07-13):** The immediate paper-facing milestone is
+**PPP-1 — Exploratory Manuscript Preview**, governed by
+`20260713-wcf-cheap-paper-preview-strategy-amendment.md` and executed from
+`20260713i-wcf-cheap-paper-preview-propagation-plan.md`. PPP-1 covers all 226 runnable
+base items with the frozen three-cheap-SUT roster and one cheap Gemini judge. Every output
+is **EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE**. PPP-1 precedes but
+does not replace, amend, or satisfy registered T4; it provides no paid-call authority.
+
 ## Read order (total ~15 min; do NOT read the whole directory)
 
 1. This file.
 2. **`project-dashboard.html`** — the LIVING project dashboard: current status, history,
    milestones. Open it (or read its Live-status table in source) for where things stand
    RIGHT NOW; you will also update it at session end (see "The project dashboard" below).
-3. `20260712-codex-execution-plan-v2.md` — the task list you will execute.
-4. `20260712-fable-ratification-memo.md` (R47–R53) and
+3. `20260713-wcf-cheap-paper-preview-strategy-amendment.md` and
+   `20260713i-wcf-cheap-paper-preview-propagation-plan.md` — the immediate PPP-1 paper
+   milestone, scope, stop rule, and propagation checklist.
+4. `20260712-codex-execution-plan-v2.md` — the standing full-project task list, subject to
+   the PPP-1 sequencing override above.
+5. `20260712-fable-ratification-memo.md` (R47–R53) and
    `20260712-fable-episode-registry-review-memo.md` (R54–R57) — the binding decisions your
    current tasks implement. You implement these; you never re-decide them.
-5. Only when a task's spec cites one: earlier memos (R1–R46), handoffs, reports. On demand,
+6. Only when a task's spec cites one: earlier memos (R1–R46), handoffs, reports. On demand,
    never up front.
 
 ## The project dashboard (`project-dashboard.html`) — ALL agents maintain it
@@ -188,6 +200,8 @@ The unnumbered operating amendment
 `20260713-wcf-paper-first-execution-amendment.md` is binding on every session. It does not
 change R1–R68 or authorize spending. Its core rule is: **the next headline milestone is
 empirical evidence or a mandatory paper artifact; infrastructure is only enabling work.**
+The later ratified `20260713-wcf-cheap-paper-preview-strategy-amendment.md` applies that
+rule by making PPP-1 the immediate empirical milestone before registered full T4.
 
 - Work may block that milestone only for result validity, authorized-spend containment,
   frozen-data/run integrity, examinee blindness, reproducibility, or a binding Jimmy ruling.
@@ -207,23 +221,17 @@ sufficiency gate, session-close artifact, material blocker, engineering timebox,
 Jimmy-authorized exception. Test counts and implementation volume are supporting evidence,
 never substitutes for paper-facing progress.
 
-## Current state (2026-07-12, post-S25) — one paragraph, details in the plan
+## Current state (2026-07-13, post-T3 and PPP-1 ratification)
 
-Bank 230/230 (audited, frozen). MVP run 816/816 descriptive (`07-PILOTS/20260710-mvp-run/`);
-suite 492 green. Panel: **gemini-flash + grok-4.20**. R-chain spans **R1–R68**; Fable has
-fully EXITED (R68 + the S24 writing session) — Codex is the sole executor, Jimmy the sole
-adjudicator. R47–R53 ruled the Task-4 "zero OPEN eligibility" a **parser artifact**
-(willingness veto tripped by judges quoting the fixture's "I won't…" line) and directed
-the fully-offline T1 work order (parser fix → corrected manifest from the immutable
-Task-4 raw → MVP OPEN re-parse of 155 nulled verdicts/65 cells). R54–R56 approved the
-22-item EPISODE registry with exact field corrections (T2, mechanical). After T1+T2 + an
-R57-checklist ratification (**Jimmy**, R58.1), the MVP is **testable** per R53 with zero
-further spend. The gated G1–G7 run is fully pre-registered (**R58–R68**,
-`20260712c-fable-gated-run-prereg-memo.md` — T4's prereg gate SATISFIED, conditional on
-R57 passing unmodified). The paper is pre-drafted in `08-PAPER/` (S24; editorial
-decisions E1–E8 frozen); Codex owns P1–P4 per the execution plan's 2026-07-12 AMENDMENT.
-Still Jimmy-gated — not agent work, do not start them: paid calls (T3+), G6 rater work,
-T4 execution (budget + R57 ratification), and all gate adjudication (R67.4).
+Bank 230/230 is audited and frozen; 226 base items are runnable. T3 is complete and its
+immutable evidence exists. The paper is pre-drafted in `08-PAPER/`. Jimmy has now made
+PPP-1 the next paper-facing milestone: exactly three cheap SUTs, one cheap Gemini judge,
+all 226 runnable base items, no perturbations, no gates, and conspicuous exploratory /
+single-judge / non-quotable labeling. The planning basis is about $2.80 with a proposed
+$5.00 NTE cap, but no live credential access or paid inference is authorized by this
+strategy. The next step is a fresh zero-paid PPP-1 auth/catalog preflight and exact frozen
+manifest/cost forecast for Jimmy's separate approval. Registered full T4 and R1–R68 remain
+unchanged as the later confirmatory study.
 
 ## Session convention
 

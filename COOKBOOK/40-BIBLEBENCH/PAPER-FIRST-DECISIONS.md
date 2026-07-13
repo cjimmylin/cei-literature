@@ -47,3 +47,17 @@ Append every exception using all fields below:
 ```
 
 An exception authorizes only its stated scope. It does not authorize spending, credential access, live calls, frozen-surface changes, or broader work unless those actions are explicit in the owner ruling.
+
+## PF-003 — WCF exploratory manuscript preview
+
+- Date: 2026-07-13
+- Status: RATIFIED
+- Owner: Jimmy Lin
+- Reason: WCF-Bench needs a complete paper-shaped empirical preview before expanding to the registered full T4 roster, premium models, stronger or multiple judges, perturbations, or release-grade gates.
+- Scope: WCF-Bench PPP-1 only: all 226 runnable base items; exactly `meta-llama/llama-3.1-8b-instruct`, `deepseek/deepseek-chat`, and `qwen/qwen3.7-plus` as SUTs; `google/gemini-2.5-flash` as the sole judge; provisional tables, figures, Results, Discussion, limitations, and assembled manuscript preview; no perturbations or gate claims.
+- Decision: Make PPP-1 the immediate WCF empirical milestone and label every output **EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE**. Preserve registered full T4 unchanged as a later confirmatory study and stop after the assembled preview for an owner scale/repair/defer decision.
+- Affected paper milestone: First complete WCF-Bench manuscript preview populated with traceable empirical evidence across every runnable base item.
+- Approval words: Jimmy selected “Exploratory manuscript preview,” selected “All 226 runnable base items,” approved the exact three-SUT/single-Gemini design, and directed Codex to execute the required strategy propagation.
+- Expiration or completion condition: Jimmy reviews the assembled PPP-1 paper packet and records a stop, bounded repair, full-T4 authorization, narrowing, or deferral decision.
+- Spending boundary: Planning basis is about $2.80 with a proposed $5.00 NTE cap. This ruling authorizes no credential access and no paid calls; exact current prices, balance, manifest, forecast, cap, and paid execution require separate written authorization.
+- Closing disposition: active WCF preview strategy.

@@ -195,6 +195,14 @@ def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
         "selected_route",
         "requested_route",
         "returned_route",
+        "fallback_route",
+        "current_route",
+        "active_route",
+        "chosen_route",
+        "resolved_route",
+        "execution_route",
+        "backend_route",
+        "novelprefix_route",
     ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])

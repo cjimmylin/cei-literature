@@ -45,12 +45,7 @@ _ACTOR_METADATA_KEYS = frozenset({"role"})
 _PHYSICAL_SCOPE_QUALIFIERS = frozenset(
     {"id", "identifier", "call", "attempt"}
 )
-_ROUTE_SCOPE_QUALIFIERS = frozenset(
-    {"id", "identifier", "name", "config", "identity"}
-)
-_ROUTE_SCOPE_PREFIXES = frozenset(
-    {"selected", "requested", "returned", "provider"}
-)
+_ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
 _BLIND_FORECAST_COMPONENTS = frozenset(
     {
         "cue",
@@ -298,15 +293,7 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
             normalized in _LATER_SCOPE_EXACT_KEYS
             or lens_or_intervention
             or provider
-            or (
-                route
-                and (
-                    len(components) == 1
-                    or components[0] == "route"
-                    or not _ROUTE_SCOPE_QUALIFIERS.isdisjoint(components)
-                    or not _ROUTE_SCOPE_PREFIXES.isdisjoint(components)
-                )
-            )
+            or (route and normalized not in _ALLOWED_TASK_ROUTE_KEYS)
             or (
                 physical
                 and not _PHYSICAL_SCOPE_QUALIFIERS.isdisjoint(components)

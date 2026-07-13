@@ -1,0 +1,50 @@
+{
+  "artifacts": [
+    {
+      "bytes": 358607,
+      "path": "provisional-gold-review.yaml",
+      "sha256": "289228c05900e520ccd361e4d605670f34992a853402c2cd8052f90e0b854166"
+    }
+  ],
+  "classification": "single_expert_provisional_gold",
+  "inputs": {
+    "authored_episode_bank_schema": {
+      "bytes": 9325,
+      "path": "schemas/authored-episode-bank.schema.json",
+      "sha256": "90fdda0966b4e7df0f2c5516384f5c504501adb00cf2cebc6d172c4d8f261824"
+    },
+    "episode_banks": [
+      {
+        "canonical_sha256": "8664d43b698af9a4f62bfa6a51c0f21eefaf3e8338d1670c8c158aea9164bc89",
+        "module": "fruitbench",
+        "path": "modules/fruitbench/episodes.yaml",
+        "sha256": "64992bd4dbde489c063be84ab73b2997e5cf8b3db8d5f39a5fd454c3937f2742"
+      },
+      {
+        "canonical_sha256": "c5be9e12871db8c5feb967b8e57aa59ee21eeb5180d6ba904d5cabb0cf2a179d",
+        "module": "corinthlove",
+        "path": "modules/corinthlove/episodes.yaml",
+        "sha256": "b0ceb959dea876b43cd1e789a9edb8f9a5acaa88a12d84e71663a45141c49623"
+      },
+      {
+        "canonical_sha256": "6429ecdeae5ec9d83baf94dc82a8117c93e604123125035150745866ed3f7743",
+        "module": "tencommandments",
+        "path": "modules/tencommandments/episodes.yaml",
+        "sha256": "f537d155115ee5af2a4351c4c15532aa6560a4c96ae9ad2e2e5f4702b47c08d6"
+      },
+      {
+        "canonical_sha256": "239e92aa6f8e2f036a5f2677a84c123bb929246c076b38d914ceb0fdbf5aad3d",
+        "module": "sermonmount",
+        "path": "modules/sermonmount/episodes.yaml",
+        "sha256": "e8b2f85700280427e3748e507df65ce9679dd55c82a7c830b5b880cd8aa596a2"
+      }
+    ],
+    "provisional_gold_review_schema": {
+      "bytes": 18625,
+      "path": "schemas/provisional-gold-review.schema.json",
+      "sha256": "0fa0ff996f86f373a30cd0ffcfc407693a1b4376520bbd122b5a2ed9030399e2"
+    }
+  },
+  "manifest_version": "packet-manifest-v1",
+  "record_count": 48
+}

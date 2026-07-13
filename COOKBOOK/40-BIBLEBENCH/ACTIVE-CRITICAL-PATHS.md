@@ -10,27 +10,27 @@ This register defines the current paper-facing contract for active work under `4
 
 - `paper_claim_enabled`: A shared-episode battery can measure observable ethical behavior and passage-grounded Christian interpretation without collapsing them into one score.
 - `paper_deliverable`: Methods/design manuscript draft, 48 executable episodes, pilot analyses and tables, and the required benchmark PDF deliverables.
-- `blocking_reason`: P1 until all 48 episodes pass the approved geometry, schema, provenance, and shared-scheduler compilation checks.
-- `minimum_sufficiency_gate`: 12 episodes per benchmark; 4 target, 4 null/foil, and 4 restraint/counterfeit; 34 common-life and 14 Christian-facing overall; C0/C1/C2, probe, answer contract, capability twin, failure poles, and exact provenance present; no open P0/P1 review finding.
-- `timebox`: Freeze after one bounded integration review and one repair pass unless Jimmy approves an exception.
-- `stop_condition`: Freeze the research snapshot and begin the authorized cheap general-purpose model pilot when the sufficiency gate passes; do not continue nonblocking hardening first.
-- `deferred_nonblocking_work`: Hostile-deployment hardening, broad Unicode compatibility, optional transport adapters, exhaustive adversarial edge cases, and other P2/P3 findings.
+- `blocking_reason`: P1 until Jimmy completes pass-one episode adjudication and the registered blinded repeat, with both frozen before any pilot model call or output exposure, and every record is approved, repaired, rejected/replaced, or explicitly deferred with a narrowed claim; exact cue-pair-to-evidence custody also remains a pre-live P1 for any cue-contrast analysis.
+- `minimum_sufficiency_gate`: The executable-bank gate has passed: 12 episodes per benchmark; 4 target, 4 null/foil, and 4 restraint/counterfeit; 34 common-life and 14 Christian-facing overall; C0/C1/C2, probe, answer contract, capability twin specification, failure poles, exact provenance, shared-scheduler compilation, and bounded P0/P1 review. The next gate is a frozen single-expert provisional-gold packet with no unresolved record-level P0/P1, plus exact private cue-pair/logical-call-to-evidence binding before live cue analysis.
+- `timebox`: One owner pass-one adjudication, one bounded record-repair pass, and one pre-live cue-custody integration pass; stop rather than reopening P2/P3 hardening.
+- `stop_condition`: Freeze pass one and the blinded repeat without pilot-output exposure, freeze the pre-live evidence-custody mapping, then present the exact cheap-model roster and cost checkpoint for separate authorization; do not execute calls or capability-adjusted attribution first.
+- `deferred_nonblocking_work`: Capability-twin execution and capability-adjusted attribution are outside the narrowed first cheap-pilot claim until separately scheduled and custody-bound; hostile-deployment hardening, broad Unicode compatibility, optional transport adapters, exhaustive adversarial edge cases, and other P2/P3 findings remain deferred.
 - `owner_approved_exception`: none.
 
 ### Current paper-track status
 
-- Manuscript: dual-track design approved; methods/design drafting may proceed alongside episode integration.
-- Executable bank: 48-episode authoring and shared-engine compilation are the immediate critical path.
-- Evidence: no consolidated cheap-model pilot evidence yet.
-- PDF: prior design PDFs exist; pilot-result deliverables await executable-bank freeze and evidence.
+- Manuscript: venue-neutral design/methods draft, typed claims registry, local bibliography scaffold, and limitations register exist; results remain `PENDING_EMPIRICAL_RUN`.
+- Executable bank: 48 episodes are authored, provenance-validated, bounded-reviewed, and compiled through the shared scheduler at commit `8940378a7`; the research bank is frozen for owner adjudication.
+- Evidence: deterministic 48-record provisional-gold packet and judge guide exist; all owner decisions are blank and pending. No consolidated cheap-model pilot evidence exists.
+- PDF: prior design PDFs exist; manuscript and pilot-result PDFs remain downstream of owner gold and empirical evidence.
 - Spend: no new paid call is authorized by this register.
 - Local authority: `output/docs/superpowers/specs/2026-07-13-biblebench-dual-track-paper-design.md` in the consolidated pilot worktree, plus each benchmark's current handoff.
-- Next session: finish the 48 episodes, run the bounded integration review and one repair pass, freeze, then advance manuscript and cheap-model pilot work concurrently.
+- Next session: Jimmy completes pass-one theologian-technical adjudication and the registered blinded repeat without pilot-output exposure. In parallel, close the exact cue-pair evidence-binding P1 and prepare—but do not execute—the exact cheap-model roster and cost checkpoint.
 
 ### Review disposition
 
 - Open P0: none recorded.
-- Open P1: executable episode bank has not yet passed the full sufficiency gate.
+- Open P1: owner pass-one plus blinded-repeat provisional-gold adjudication before any pilot output; exact cue-pair/logical-call-to-evidence binding before any live cue-contrast claim.
 - Deferred P2: compatibility and deployment hardening that cannot change registered pilot conclusions.
 - Deferred P3: polish and hypothetical hostile-deployment edge cases.
 

@@ -1,0 +1,29 @@
+{
+  "authorized": false,
+  "budget": {
+    "calculated_worst_case_usd": 1.6839168,
+    "calculation_version": "pf002-max-token-retry-v1",
+    "currency": "USD",
+    "forecast_limit_usd": 3,
+    "forecast_usd": 1.6839168,
+    "hard_cap_usd": 5,
+    "not_to_exceed_usd": 5
+  },
+  "checkpoint_sha256": "04500f4648e8be13c790e26c52732a278224b9da99feb586926e76857004c321",
+  "classification": "PROPOSAL_ONLY",
+  "credentials_accessed": false,
+  "evidence_registry_sha256": "b07c2ad71bc01f84c8dbbdf95106bda09f8b808e7fcab88c45219ccc075272e9",
+  "generated_by": "pf002-owner-ready-preflight-v1",
+  "geometry": {
+    "actor_count": 3,
+    "capability_twins": false,
+    "episode_count": 48,
+    "logical_call_count": 288,
+    "primary_count": 144,
+    "probe_count": 144
+  },
+  "proposal_manifest_sha256": "33e1aae176561ecb3c93edf41b9a9682096d088b261cad8297fbed675c63872e",
+  "provider_calls_made": 0,
+  "spend_usd": 0,
+  "verified_on": "2026-07-13"
+}

@@ -1,0 +1,192 @@
+{
+  "actors": [
+    {
+      "actor_alias": "actor-alpha",
+      "context_window_tokens": 400000,
+      "decoding": {
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "seed": 713,
+        "stop_sequences": [],
+        "temperature": 0,
+        "top_p": 1
+      },
+      "maximum_supported_output_tokens": 128000,
+      "model_id": "gpt-5-nano-2025-08-07",
+      "price": {
+        "currency": "USD",
+        "evidence_date": "2026-07-13",
+        "evidence_url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
+        "input_usd": 0.05,
+        "output_usd": 0.4,
+        "unit": "per_million_tokens"
+      },
+      "provider": "OpenAI",
+      "route": {
+        "api_family": "responses",
+        "fallback_enabled": false,
+        "first_party": true,
+        "provider_family": "generic_responses",
+        "route_id": "openai/first-party/responses"
+      },
+      "route_worst_case_usd": 0.0930816,
+      "token_caps": {
+        "max_input_tokens": 4096,
+        "max_output_tokens": 700
+      }
+    },
+    {
+      "actor_alias": "actor-beta",
+      "context_window_tokens": 1048576,
+      "decoding": {
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "seed": 713,
+        "stop_sequences": [],
+        "temperature": 0,
+        "top_p": 1
+      },
+      "maximum_supported_output_tokens": 65536,
+      "model_id": "gemini-2.5-flash-lite",
+      "price": {
+        "currency": "USD",
+        "evidence_date": "2026-07-13",
+        "evidence_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "input_usd": 0.1,
+        "output_usd": 0.4,
+        "unit": "per_million_tokens"
+      },
+      "provider": "Google",
+      "route": {
+        "api_family": "generate_content",
+        "fallback_enabled": false,
+        "first_party": true,
+        "provider_family": "generic_content",
+        "route_id": "google/first-party/generate-content"
+      },
+      "route_worst_case_usd": 0.1324032,
+      "token_caps": {
+        "max_input_tokens": 4096,
+        "max_output_tokens": 700
+      }
+    },
+    {
+      "actor_alias": "actor-gamma",
+      "context_window_tokens": 200000,
+      "decoding": {
+        "frequency_penalty": 0,
+        "presence_penalty": 0,
+        "seed": 713,
+        "stop_sequences": [],
+        "temperature": 0,
+        "top_p": 1
+      },
+      "maximum_supported_output_tokens": 64000,
+      "model_id": "claude-haiku-4-5-20251001",
+      "price": {
+        "currency": "USD",
+        "evidence_date": "2026-07-13",
+        "evidence_url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+        "input_usd": 1,
+        "output_usd": 5,
+        "unit": "per_million_tokens"
+      },
+      "provider": "Anthropic",
+      "route": {
+        "api_family": "messages",
+        "fallback_enabled": false,
+        "first_party": true,
+        "provider_family": "generic_messages",
+        "route_id": "anthropic/first-party/messages"
+      },
+      "route_worst_case_usd": 1.458432,
+      "token_caps": {
+        "max_input_tokens": 4096,
+        "max_output_tokens": 700
+      }
+    }
+  ],
+  "authorized": false,
+  "banks": [
+    {
+      "c1_surface_registry_sha256": "ef960fbcd0db9d30a2629988125037e942e48df824fa0a29d6a7671f23238866",
+      "episode_count": 12,
+      "module": "fruitbench",
+      "path": "modules/fruitbench/episodes.yaml",
+      "primary_request_registry_sha256": "00657ab7a90b06d8412774853f3f947fed72e5ccd967ca8bfb72701a5ec77fe1",
+      "probe_request_registry_sha256": "076aaf3e18c0c786a5a7f535dce86c94ff62162757b689cd81bf08c333d36dcc",
+      "sha256": "64992bd4dbde489c063be84ab73b2997e5cf8b3db8d5f39a5fd454c3937f2742"
+    },
+    {
+      "c1_surface_registry_sha256": "330c931da7dd7bcc6372fd661de2688a3f820ac1dd58523b3322667404fad5a1",
+      "episode_count": 12,
+      "module": "corinthlove",
+      "path": "modules/corinthlove/episodes.yaml",
+      "primary_request_registry_sha256": "d58aa8a802b567e4ea262eb79e63ac4e8a7c71fd5c22511e1cb4474497bff006",
+      "probe_request_registry_sha256": "88e3e8e67e6cbe7b0fb9192322c4c907b7baa95b2958bf1fe7276390b965d8ec",
+      "sha256": "b0ceb959dea876b43cd1e789a9edb8f9a5acaa88a12d84e71663a45141c49623"
+    },
+    {
+      "c1_surface_registry_sha256": "1b93e29728dfd161cd6833da766b9d73c3690db88b9255ae2f94db83b0c7022e",
+      "episode_count": 12,
+      "module": "tencommandments",
+      "path": "modules/tencommandments/episodes.yaml",
+      "primary_request_registry_sha256": "6692430b37049e5a0b730645c39869f8b8d0cd0a3b023b5fd1ac03df7d2d36b9",
+      "probe_request_registry_sha256": "fe2cf8cffdfd6e652761916340b91cf52f57ca1e14efa2aa6cbe6258d220bb4b",
+      "sha256": "f537d155115ee5af2a4351c4c15532aa6560a4c96ae9ad2e2e5f4702b47c08d6"
+    },
+    {
+      "c1_surface_registry_sha256": "88375e830350c410baf74de893a2a3d543e868237dad2d4308011850412e2d92",
+      "episode_count": 12,
+      "module": "sermonmount",
+      "path": "modules/sermonmount/episodes.yaml",
+      "primary_request_registry_sha256": "4fb540db42f155b69c9a49f7c306b36bb986ce2a81a582f95712bdd2db608bec",
+      "probe_request_registry_sha256": "977115f5724c511e6e3cf1d07a46bfa7c4151f7dd0bfabc6a792eedd2d09d9c0",
+      "sha256": "e8b2f85700280427e3748e507df65ce9679dd55c82a7c830b5b880cd8aa596a2"
+    }
+  ],
+  "budget": {
+    "calculated_worst_case_usd": 1.6839168,
+    "calculation_version": "pf002-max-token-retry-v1",
+    "currency": "USD",
+    "forecast_limit_usd": 3,
+    "forecast_usd": 1.6839168,
+    "hard_cap_usd": 5,
+    "not_to_exceed_usd": 5
+  },
+  "cue": "C1",
+  "expires_on": "2026-07-20",
+  "fallback_enabled": false,
+  "geometry": {
+    "actor_count": 3,
+    "capability_twins": false,
+    "episode_count": 48,
+    "logical_call_count": 288,
+    "primary_count": 144,
+    "probe_count": 144
+  },
+  "manifest_sha256": "33e1aae176561ecb3c93edf41b9a9682096d088b261cad8297fbed675c63872e",
+  "manifest_version": "pf002-real-proposal-v1",
+  "proposal_id": "pf002-three-model-proposal-20260713",
+  "provenance": "PROPOSAL_ONLY",
+  "retry_rule": {
+    "max_retries": 1,
+    "maximum_attempts_per_logical_call": 2,
+    "retryable_statuses": [
+      "rate_limit"
+    ],
+    "unknown_delivery_terminal": true
+  },
+  "snapshot_hashes": {
+    "adapter_sha256": "a60922823281ae98968864588b5926c44f65dad225c3efe2b7fbbcacba07cf8e",
+    "adjudication_contract_sha256": "e716fa5f7fc19b3b8ca143e10b95af0d66105eb42495a85d88b21de6df136520",
+    "analysis_contract_sha256": "35ffeb29530cbb454c90d60892f8c2b47265c7a9361604d44f22d90e36f1de09",
+    "artifact_schema_sha256": "e79b1e07c7563c3d435b9d2352611cb034245f7295c2b0041eb011b5be312334",
+    "bank_set_sha256": "a77be21323f4ce6d6cea74ef66ad31651e1d65bb1e894bc1712176d3dc7c29b5",
+    "compiler_sha256": "5fa4367d82d0e32f19cbf5161e878416562cb0871c1181a170e589e6d144749c",
+    "proposal_schema_sha256": "95d05168c7b87f8fa5186981f6a63a91649ae212142982b5ae24524db7e3b579",
+    "request_registry_set_sha256": "6dda345264f797a1cb112901486affe4f0d4104f7e191c060ff19371d7826a0f",
+    "surface_registry_set_sha256": "ade2bc05a49f52f277c50d15a47a36233d1b221e5295f1adddb3317822aa7b1b"
+  },
+  "status": "PROPOSAL_ONLY"
+}

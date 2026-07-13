@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -120,3 +121,28 @@ def test_preflight_builder_imports_no_transport_or_credentials() -> None:
         "keyring",
     )
     assert not any(value in source for value in forbidden)
+
+
+def test_consistency_record_binds_every_owner_facing_artifact() -> None:
+    consistency = json.loads(CONSISTENCY.read_text(encoding="utf-8"))
+    proposal = json.loads(PROPOSAL.read_text(encoding="utf-8"))
+    checkpoint = json.loads(CHECKPOINT_JSON.read_text(encoding="utf-8"))
+    assert consistency["classification"] == "PROPOSAL_ONLY"
+    assert consistency["authorized"] is False
+    assert consistency["proposal_manifest_sha256"] == proposal["manifest_sha256"]
+    assert consistency["geometry"] == proposal["geometry"]
+    assert consistency["budget"] == proposal["budget"]
+    assert consistency["checkpoint_sha256"] == hashlib.sha256(
+        (json.dumps(checkpoint, indent=2, sort_keys=True) + "\n").encode("utf-8")
+    ).hexdigest()
+
+
+def test_authorization_request_has_blank_owner_fields_and_exact_stop_gate() -> None:
+    text = AUTH_REQUEST.read_text(encoding="utf-8")
+    assert "Status: `NOT_AUTHORIZED`" in text
+    assert "Owner: _blank_" in text
+    assert "Approval reference: _blank_" in text
+    assert "Authorization nonce: _blank_" in text
+    assert "Run ID: _blank_" in text
+    assert "No credential, provider, model, or billing surface was accessed" in text
+    assert "288" in text and "$3.00" in text and "$5.00" in text

@@ -23,7 +23,12 @@ from format_bridge_requal import (
     require_preflight,
 )
 from wcfbench import load_items, mvp
-from wcfbench.contested import _score_disclosure, score_settled_core
+from wcfbench.contested import (
+    _parse_core_verdicts,
+    _score_disclosure,
+    score_settled_core,
+    settled_core_keypoints,
+)
 from wcfbench.judge import (
     award_emission_count,
     build_award_prompt,
@@ -275,10 +280,21 @@ def score_shadow_unit(unit, item, judge):
                 "discarded": call.discarded,
             }
         verdict = parse_award_verdict(call.text, require_reason=True)
+        expected_indices = set(range(1, len(tagged) + 1))
+        awards = {
+            index: value
+            for index, value in verdict.awards.items()
+            if index in expected_indices
+        }
+        compliance_defects = {
+            index: value
+            for index, value in verdict.compliance_defects.items()
+            if index in expected_indices
+        }
         return {
-            "graded": bool(verdict.awards),
-            "awards": verdict.awards,
-            "compliance_defects": verdict.compliance_defects,
+            "graded": bool(awards),
+            "awards": awards,
+            "compliance_defects": compliance_defects,
             "discarded": False,
         }
 
@@ -312,16 +328,25 @@ def score_shadow_unit(unit, item, judge):
         }
 
     if surface == "settled_core":
-        values, reasonless, _raw = score_settled_core(
+        values, reasonless, raw = score_settled_core(
             judge, item, response, item.id
         )
+        explicit_components, _parsed_reasonless = _parse_core_verdicts(
+            raw,
+            settled_core_keypoints(item),
+            require_reason=True,
+        )
         return {
-            "graded": bool(values),
+            "graded": bool(explicit_components),
             "keypoints": values,
             "reasonless": reasonless,
         }
 
     raise ValueError(f"unknown shadow surface: {surface}")
+
+
+def _canonical_json(value):
+    return json.loads(json.dumps(value, ensure_ascii=False))
 
 
 def run_shadow_units(
@@ -360,6 +385,7 @@ def run_shadow_units(
                 "result": result,
                 "error": error,
             }
+            record = _canonical_json(record)
             sink.write(record)
             records.append(record)
     return records

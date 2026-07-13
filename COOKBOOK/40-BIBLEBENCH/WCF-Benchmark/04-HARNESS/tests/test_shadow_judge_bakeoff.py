@@ -302,7 +302,7 @@ def test_score_shadow_unit_returns_open_award_shape(monkeypatch):
             axis="matter", criterion="tagged keypoint", anchor=None
         ),
         SimpleNamespace(
-            axis=None, criterion="untagged keypoint", anchor=None
+            axis="manner", criterion="second tagged keypoint", anchor=None
         ),
     ]
     item = SimpleNamespace(id="I2", stem="stem", rubric=rubric)
@@ -315,7 +315,7 @@ def test_score_shadow_unit_returns_open_award_shape(monkeypatch):
     def fake_complete(judge, prompt, *, item_id, is_complete):
         assert judge == "judge"
         assert item_id == "I2"
-        assert is_complete("KP1: award")
+        assert is_complete("KP1: award\nKP2: deny")
         return call
 
     monkeypatch.setattr(r, "complete_with_retry", fake_complete)
@@ -333,6 +333,34 @@ def test_score_shadow_unit_returns_open_award_shape(monkeypatch):
         "graded": True,
         "awards": {1: True},
         "compliance_defects": {2: "reasonless"},
+        "discarded": False,
+    }
+
+
+def test_score_shadow_unit_rejects_out_of_range_open_awards(monkeypatch):
+    r = _runner()
+    unit = {"surface": "open_award", "sut_response": "response"}
+    item = SimpleNamespace(
+        id="I2-out-of-range",
+        stem="stem",
+        rubric=[
+            SimpleNamespace(
+                axis="matter", criterion="tagged keypoint", anchor=None
+            )
+        ],
+    )
+    call = SimpleNamespace(text="valid verdict", discarded=False)
+    verdict = SimpleNamespace(
+        awards={99: True},
+        compliance_defects={99: "out of range"},
+    )
+    monkeypatch.setattr(r, "complete_with_retry", lambda *args, **kwargs: call)
+    monkeypatch.setattr(r, "parse_award_verdict", lambda *args, **kwargs: verdict)
+
+    assert r.score_shadow_unit(unit, item, "judge") == {
+        "graded": False,
+        "awards": {},
+        "compliance_defects": {},
         "discarded": False,
     }
 
@@ -362,17 +390,84 @@ def test_score_shadow_unit_returns_disclosure_shape(monkeypatch):
 def test_score_shadow_unit_returns_settled_core_shape(monkeypatch):
     r = _runner()
     unit = {"surface": "settled_core", "sut_response": "response"}
-    item = SimpleNamespace(id="I4")
+    item = SimpleNamespace(
+        id="I4",
+        rubric=[
+            SimpleNamespace(
+                anchor="Q152", criterion="shared floor", axis=None
+            )
+        ],
+    )
     monkeypatch.setattr(
         r,
         "score_settled_core",
-        lambda *args: ({"shared floor": True}, ["reasonless floor"], "raw"),
+        lambda *args: (
+            {"shared floor": True},
+            ["reasonless floor"],
+            "1: correct — explicit reason",
+        ),
     )
 
     assert r.score_shadow_unit(unit, item, "judge") == {
         "graded": True,
         "keypoints": {"shared floor": True},
         "reasonless": ["reasonless floor"],
+    }
+
+
+def test_score_shadow_unit_settled_core_refusal_is_ungraded(monkeypatch):
+    r = _runner()
+    unit = {"surface": "settled_core", "sut_response": "response"}
+    item = SimpleNamespace(
+        id="I4-refusal",
+        rubric=[
+            SimpleNamespace(
+                anchor="Q152", criterion="shared floor", axis=None
+            )
+        ],
+    )
+    monkeypatch.setattr(
+        r,
+        "score_settled_core",
+        lambda *args: (
+            {"shared floor": False},
+            [],
+            "I refuse to grade this response.",
+        ),
+    )
+
+    assert r.score_shadow_unit(unit, item, "judge") == {
+        "graded": False,
+        "keypoints": {"shared floor": False},
+        "reasonless": [],
+    }
+
+
+def test_score_shadow_unit_settled_core_explicit_wrong_is_graded(monkeypatch):
+    r = _runner()
+    unit = {"surface": "settled_core", "sut_response": "response"}
+    item = SimpleNamespace(
+        id="I4-wrong",
+        rubric=[
+            SimpleNamespace(
+                anchor="Q152", criterion="shared floor", axis=None
+            )
+        ],
+    )
+    monkeypatch.setattr(
+        r,
+        "score_settled_core",
+        lambda *args: (
+            {"shared floor": False},
+            [],
+            "1: wrong — response misses the floor",
+        ),
+    )
+
+    assert r.score_shadow_unit(unit, item, "judge") == {
+        "graded": True,
+        "keypoints": {"shared floor": False},
+        "reasonless": [],
     }
 
 
@@ -495,3 +590,44 @@ def test_run_shadow_units_persists_every_verdict_and_survives_errors(
     assert [record["judge"] for record in records[28:]] == [
         "deepseek-v4-pro"
     ] * 28
+
+
+def test_run_shadow_units_canonicalizes_nested_open_keys(monkeypatch, tmp_path):
+    r = _runner()
+    selection = [
+        {
+            "surface": "open_award",
+            "item_id": "open-1",
+            "sut_slug": "sut:model",
+            "sut_response": "response",
+            "response_sha256": "synthetic-hash",
+        }
+    ]
+    monkeypatch.setattr(
+        r,
+        "score_shadow_unit",
+        lambda *args: {
+            "graded": True,
+            "awards": {1: True},
+            "compliance_defects": {2: "reasonless"},
+            "discarded": False,
+        },
+    )
+    path = tmp_path / "canonical-shadow-verdicts.jsonl"
+
+    records = r.run_shadow_units(
+        selection,
+        clients={name: name for name, _family, _slug in r.CANDIDATES},
+        items={"open-1": SimpleNamespace(id="open-1")},
+        sink=r.JsonlSink(str(path)),
+        now=lambda: "2026-07-12T12:00:00",
+        clock=iter([0.0, 0.1, 0.2, 0.3]).__next__,
+    )
+
+    persisted = [json.loads(line) for line in path.read_text().splitlines()]
+    assert records == persisted
+    assert all(record["result"]["awards"] == {"1": True} for record in records)
+    assert all(
+        record["result"]["compliance_defects"] == {"2": "reasonless"}
+        for record in records
+    )

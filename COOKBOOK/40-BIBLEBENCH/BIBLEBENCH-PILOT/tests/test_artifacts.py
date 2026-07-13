@@ -42,6 +42,7 @@ def _changed_stat(
     mode: int | None = None,
     inode_delta: int = 0,
     links: int | None = None,
+    uid: int | None = None,
 ) -> os.stat_result:
     values = list(original)
     if mode is not None:
@@ -50,6 +51,8 @@ def _changed_stat(
         values[stat.ST_INO] += inode_delta
     if links is not None:
         values[stat.ST_NLINK] = links
+    if uid is not None:
+        values[stat.ST_UID] = uid
     return os.stat_result(values)
 
 
@@ -123,6 +126,184 @@ def test_store_rejects_nonexistent_file_and_symlink_roots(tmp_path: Path) -> Non
     for root in (tmp_path / "missing", file_root, symlink_root):
         with pytest.raises(ValueError, match="real directory"):
             ArtifactStore(root)
+
+
+@pytest.mark.parametrize("mode", [0o777, 0o1777], ids=["world-writable", "sticky"])
+def test_store_rejects_untrusted_root_before_staging(
+    tmp_path: Path, mode: int
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir(mode=0o700)
+    os.chmod(root, mode)
+
+    with pytest.raises(ValueError, match="trusted directory"):
+        ArtifactStore(root)
+
+    assert not (root / "result.json").exists()
+    assert list(root.glob(".artifact-stage-*")) == []
+
+
+@pytest.mark.parametrize("mode", [0o777, 0o1777], ids=["world-writable", "sticky"])
+def test_store_rejects_untrusted_existing_parent_before_staging(
+    tmp_path: Path, mode: int
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir(mode=0o700)
+    parent = root / "existing"
+    parent.mkdir(mode=0o700)
+    os.chmod(parent, mode)
+
+    with pytest.raises(ValueError, match="trusted directory"):
+        ArtifactStore(root).write("existing/result.json", {"visible": True})
+
+    assert not (parent / "result.json").exists()
+    assert list(parent.glob(".artifact-stage-*")) == []
+
+
+def test_store_rejects_foreign_owner_descriptor_before_staging(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir(mode=0o700)
+    original_fstat = artifacts.os.fstat
+
+    def foreign_directory_fstat(descriptor):
+        result = original_fstat(descriptor)
+        if stat.S_ISDIR(result.st_mode):
+            return _changed_stat(result, uid=os.geteuid() + 1)
+        return result
+
+    monkeypatch.setattr(artifacts.os, "fstat", foreign_directory_fstat)
+
+    with pytest.raises(ValueError, match="trusted directory"):
+        ArtifactStore(root)
+
+    assert list(root.glob(".artifact-stage-*")) == []
+
+
+def test_store_allows_owned_non_writable_parent_modes(tmp_path: Path) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir(mode=0o700)
+    parent = root / "existing"
+    parent.mkdir(mode=0o700)
+    os.chmod(root, 0o755)
+    os.chmod(parent, 0o750)
+
+    target = ArtifactStore(root).write("existing/result.json", {"visible": True})
+
+    assert target.read_bytes() == b'{"visible":true}\n'
+
+
+def test_parent_is_revalidated_immediately_before_staging_mkdir(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir(mode=0o700)
+    parent = root / "existing"
+    parent.mkdir(mode=0o700)
+    original_absence_check = artifacts._assert_target_absent
+
+    def make_parent_untrusted(parent_fd, target):
+        original_absence_check(parent_fd, target)
+        os.chmod(parent, 0o777)
+
+    monkeypatch.setattr(artifacts, "_assert_target_absent", make_parent_untrusted)
+
+    with pytest.raises(ValueError, match="trusted directory"):
+        ArtifactStore(root).write("existing/result.json", {"visible": True})
+
+    assert not (parent / "result.json").exists()
+    assert list(parent.glob(".artifact-stage-*")) == []
+
+
+def test_parent_is_revalidated_immediately_before_publication(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir(mode=0o700)
+    parent = root / "existing"
+    parent.mkdir(mode=0o700)
+    original_write_all = artifacts._write_all
+
+    def write_then_make_parent_untrusted(descriptor, data):
+        original_write_all(descriptor, data)
+        os.chmod(parent, 0o777)
+
+    monkeypatch.setattr(artifacts, "_write_all", write_then_make_parent_untrusted)
+
+    with pytest.raises(ValueError, match="trusted directory"):
+        ArtifactStore(root).write("existing/result.json", {"visible": True})
+
+    assert not (parent / "result.json").exists()
+    assert len(_artifact_temps(parent)) == 1
+
+
+@pytest.mark.parametrize("replacement", ["symlink", "world-writable-directory"])
+def test_store_rejects_physical_staging_namespace_replacement(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+    replacement: str,
+) -> None:
+    root = tmp_path / "artifacts"
+    root.mkdir(mode=0o700)
+    attacker = tmp_path / "attacker"
+    attacker.mkdir(mode=0o700)
+    (attacker / "payload").write_bytes(b'{"attacker":true}\n')
+    original_mkdir_private = artifacts._mkdir_private
+
+    def replacing_staging_directory(component, parent_fd):
+        original_mkdir_private(component, parent_fd)
+        artifacts._native_publish_noreplace(
+            parent_fd,
+            component,
+            parent_fd,
+            f"{component}.retained",
+        )
+        if replacement == "symlink":
+            os.symlink(attacker, component, dir_fd=parent_fd)
+            return
+        os.mkdir(component, mode=0o700, dir_fd=parent_fd)
+        stage_fd = os.open(
+            component,
+            os.O_RDONLY | getattr(os, "O_DIRECTORY", 0),
+            dir_fd=parent_fd,
+        )
+        try:
+            payload_fd = os.open(
+                "payload",
+                os.O_WRONLY | os.O_CREAT | os.O_EXCL,
+                0o600,
+                dir_fd=stage_fd,
+            )
+            try:
+                os.write(payload_fd, b'{"attacker":true}\n')
+            finally:
+                os.close(payload_fd)
+            os.fchmod(stage_fd, 0o777)
+        finally:
+            os.close(stage_fd)
+
+    monkeypatch.setattr(
+        artifacts,
+        "_mkdir_private",
+        replacing_staging_directory,
+    )
+
+    with pytest.raises(ValueError, match="unsafe artifact staging directory"):
+        ArtifactStore(root).write("result.json", {"visible": True})
+
+    assert not (root / "result.json").exists()
+    if replacement == "symlink":
+        assert (attacker / "payload").read_bytes() == b'{"attacker":true}\n'
+    else:
+        stage = next(root.glob(".artifact-stage-*"))
+        if stage.name.endswith(".retained"):
+            stage = next(
+                path
+                for path in root.glob(".artifact-stage-*")
+                if not path.name.endswith(".retained")
+            )
+        assert (stage / "payload").read_bytes() == b'{"attacker":true}\n'
 
 
 def test_store_creates_private_real_parent_directories(tmp_path: Path) -> None:
@@ -2010,6 +2191,32 @@ def test_actor_payload_allows_ordinary_auth_prefix_words(ordinary: str) -> None:
 
 
 @pytest.mark.parametrize(
+    "ordinary_key",
+    [
+        "authorization_required",
+        "environmental_policy",
+        "model_output_format",
+        "author",
+        "authority",
+    ],
+)
+def test_actor_and_judge_allow_legitimate_compound_keys(
+    ordinary_key: str,
+) -> None:
+    assert assert_actor_payload_safe({ordinary_key: "visible"}) is None
+    assert (
+        assert_judge_envelope_safe(
+            {
+                "episode_token": "opaque-episode-17",
+                "rubric_version": "rubric-v3",
+                "events": [{ordinary_key: "visible"}],
+            }
+        )
+        is None
+    )
+
+
+@pytest.mark.parametrize(
     "ordinary",
     [
         "denied authorization",
@@ -2028,6 +2235,8 @@ def test_actor_payload_allows_ordinary_auth_prefix_words(ordinary: str) -> None:
         "episode.token expired",
         "episode/token expired",
         "episode token expired",
+        "This is a private matter",
+        "The canary recovered",
     ],
 )
 def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
@@ -2078,6 +2287,14 @@ def test_actor_payload_allows_ordinary_prose_values(ordinary: str) -> None:
         "access.token=abcdef123456",
         "access/token=abcdef123456",
         "access token=abcdef123456",
+        "private_id=do-not-echo-this",
+        "private_template: do-not-echo-this",
+        "canary_id=do-not-echo-this",
+        "CANARY-abcdef123456",
+        "password is do-not-echo-this",
+        "api key is do-not-echo-this",
+        "access token is do-not-echo-this",
+        "session cookie is do-not-echo-this",
     ],
 )
 def test_actor_payload_rejects_sensitive_value_shapes(sensitive: str) -> None:
@@ -2085,6 +2302,16 @@ def test_actor_payload_rejects_sensitive_value_shapes(sensitive: str) -> None:
         assert_actor_payload_safe({"content": sensitive})
 
     assert sensitive not in str(caught.value)
+    with pytest.raises(ValueError, match="model-visible payload") as judge_caught:
+        assert_judge_envelope_safe(
+            {
+                "episode_token": "opaque-episode-17",
+                "rubric_version": "rubric-v3",
+                "events": [{"content": sensitive}],
+            }
+        )
+
+    assert sensitive not in str(judge_caught.value)
 
 
 @pytest.mark.parametrize(

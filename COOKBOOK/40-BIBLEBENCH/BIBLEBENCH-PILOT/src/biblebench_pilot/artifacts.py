@@ -30,6 +30,8 @@ _UMASK_LOCK = threading.Lock()
 _MAX_VISIBLE_DEPTH = 128
 _MAX_TREE_DEPTH = 64
 _VISIBLE_ERROR = "unsafe model-visible payload"
+_TRUST_ERROR = "artifact root or parent must be a trusted directory"
+_STAGING_TRUST_ERROR = "unsafe artifact staging directory"
 _ACTOR_FORBIDDEN_KEYS = frozenset(
     {
         "private",
@@ -52,6 +54,7 @@ _ACTOR_FORBIDDEN_KEYS = frozenset(
         "env",
         "env_dump",
         "rubric",
+        "rubric_version",
         "password",
         "passwd",
         "access_token",
@@ -63,6 +66,17 @@ _ACTOR_FORBIDDEN_KEYS = frozenset(
         "model_id",
         "model_name",
         "tested_model",
+        "private_template",
+        "private_id",
+        "canary_id",
+        "request_auth",
+        "request_auth_header",
+        "oauth",
+        "oauth_header",
+        "authn",
+        "authz",
+        "preauth",
+        "runtime_env_value",
     }
 )
 _JUDGE_FORBIDDEN_KEYS = frozenset(
@@ -102,12 +116,23 @@ _JUDGE_FORBIDDEN_KEYS = frozenset(
         "model_id",
         "model_name",
         "tested_model",
+        "private_payload",
+        "private_template",
+        "private_id",
+        "canary_id",
+        "actor_id",
+        "request_auth",
+        "request_auth_header",
+        "oauth",
+        "oauth_header",
+        "authn",
+        "authz",
+        "preauth",
+        "runtime_env_value",
     }
 )
 _NON_ALNUM = re.compile(r"[^a-z0-9]+")
 _CAMEL_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
-# These are standalone normalized protocol aliases, not arbitrary "auth" prefixes.
-_AUTH_ALIAS_TOKENS = frozenset({"auth", "oauth", "authn", "authz", "preauth"})
 _CREDENTIAL_SHAPE = re.compile(
     r"(?:"
     r"\bsk-[A-Za-z0-9_-]{6,}"
@@ -129,19 +154,28 @@ _CREDENTIAL_SHAPE = re.compile(
 )
 _ENV_ASSIGNMENT = re.compile(r"(?m)^[ \t]*[A-Z][A-Z0-9_]{1,63}=")
 _SENSITIVE_ASSIGNMENT = re.compile(
-    r"(?i)(?<![a-z0-9_])(?:private|gold|ground[-_./\s]*truth|"
+    r"(?i)(?<![a-z0-9_])(?:private(?:[-_./\s]*(?:id|template))?|"
+    r"gold|ground[-_./\s]*truth|"
     r"expected[-_./\s]*label|judge[-_./\s]*id|"
     r"actor(?:[-_./\s]*(?:id|model))?|"
     r"model(?:[-_./\s]*(?:identity|id|name))?|"
-    r"tested[-_./\s]*model|provider|route|cue|condition|canary|"
+    r"tested[-_./\s]*model|provider|route|cue|condition|"
+    r"canary(?:[-_./\s]*id)?|"
     r"api[-_./\s]*key|authorization|authentication|auth|bearer|credential|"
     r"secret|(?:episode[-_./\s]*)?token|environment|"
     r"env(?:[-_./\s]*dump)?|rubric|password|passwd|"
     r"access[-_./\s]*token|refresh[-_./\s]*token|"
     r"session[-_./\s]*cookie|cookie|set[-_./\s]*cookie)[ \t]*[:=]"
 )
-_PRIVATE_MARKER = re.compile(
-    r"(?i)(?:^|[^a-z0-9])(?:private|canary)(?:[^a-z0-9]|$)"
+_PRIVATE_ID_MARKER = re.compile(
+    r"(?i)(?<![a-z0-9])(?:private[-_./\s]*(?:id|template)|"
+    r"canary[-_./\s]*id)(?![a-z0-9])|"
+    r"(?<![a-z0-9])canary[-_.][a-z0-9][a-z0-9_-]{5,}(?![a-z0-9])"
+)
+_CREDENTIAL_PHRASE = re.compile(
+    r"(?i)(?<![a-z0-9_])(?:password|api[-_./\s]*key|"
+    r"access[-_./\s]*token|session[-_./\s]*cookie)"
+    r"[ \t]+is[ \t]+[^\s,;]{6,}"
 )
 _SENSITIVE_VALUE_LABELS = frozenset(
     {
@@ -190,24 +224,26 @@ def _key_is_forbidden(
     *,
     allow_token_count: bool,
 ) -> bool:
-    normalized, compact = _normalized_policy_text(value)
-    normalized_parts = frozenset(normalized.split("_"))
-    allowed_token_count = allow_token_count and normalized == "token_count"
-    for term in forbidden_keys:
-        if term == "token" and allowed_token_count:
-            continue
-        if term == "auth":
-            if _AUTH_ALIAS_TOKENS & normalized_parts:
-                return True
-            continue
-        if term == "env":
-            if normalized == term or term in normalized_parts:
-                return True
-            continue
-        term_compact = term.replace("_", "")
-        if term in normalized or term_compact in compact:
-            return True
-    return False
+    normalized, _ = _normalized_policy_text(value)
+    if allow_token_count and normalized == "token_count":
+        return False
+    return normalized in forbidden_keys
+
+
+def _opaque_identifier_is_forbidden(value: str) -> bool:
+    normalized, _ = _normalized_policy_text(value)
+    labels = (
+        "actor_model",
+        "model_identity",
+        "provider",
+        "route",
+        "private",
+        "condition",
+        "expected_label",
+        "gold",
+    )
+    padded = f"_{normalized}_"
+    return any(f"_{label}_" in padded for label in labels)
 
 
 def _value_is_forbidden(value: str) -> bool:
@@ -217,7 +253,8 @@ def _value_is_forbidden(value: str) -> bool:
         or bool(_CREDENTIAL_SHAPE.search(value))
         or bool(_ENV_ASSIGNMENT.search(value))
         or bool(_SENSITIVE_ASSIGNMENT.search(value))
-        or bool(_PRIVATE_MARKER.search(value))
+        or bool(_PRIVATE_ID_MARKER.search(value))
+        or bool(_CREDENTIAL_PHRASE.search(value))
     )
 
 
@@ -302,11 +339,7 @@ def _assert_safe_opaque_string(value: Any) -> None:
         or not value.strip()
         or any(0xD800 <= ord(character) <= 0xDFFF for character in value)
         or _value_is_forbidden(value)
-        or _key_is_forbidden(
-            value,
-            _JUDGE_FORBIDDEN_KEYS,
-            allow_token_count=False,
-        )
+        or _opaque_identifier_is_forbidden(value)
     ):
         raise ValueError(_VISIBLE_ERROR)
 
@@ -328,12 +361,47 @@ def assert_judge_envelope_safe(envelope: Any) -> None:
     )
 
 
+def _assert_trusted_directory_stat(
+    info: os.stat_result,
+    *,
+    error_message: str = _TRUST_ERROR,
+    exact_mode: int | None = None,
+) -> None:
+    mode = stat.S_IMODE(info.st_mode)
+    if (
+        not stat.S_ISDIR(info.st_mode)
+        or info.st_uid != os.geteuid()
+        or mode & 0o022
+        or (exact_mode is not None and mode != exact_mode)
+    ):
+        raise ValueError(error_message)
+
+
+def _trusted_directory_fstat(
+    descriptor: int,
+    *,
+    error_message: str = _TRUST_ERROR,
+    exact_mode: int | None = None,
+) -> os.stat_result:
+    try:
+        info = os.fstat(descriptor)
+    except OSError:
+        raise ValueError(error_message) from None
+    _assert_trusted_directory_stat(
+        info,
+        error_message=error_message,
+        exact_mode=exact_mode,
+    )
+    return info
+
+
 def _safe_root_fd(root: Path) -> tuple[int, tuple[int, int]]:
     descriptor: int | None = None
     try:
         before = os.lstat(root)
         if stat.S_ISLNK(before.st_mode) or not stat.S_ISDIR(before.st_mode):
             raise ValueError("artifact root must be a real directory")
+        _assert_trusted_directory_stat(before)
         descriptor = os.open(root, _DIRECTORY_FLAGS | _NOFOLLOW)
         after = os.fstat(descriptor)
     except ValueError:
@@ -348,6 +416,11 @@ def _safe_root_fd(root: Path) -> tuple[int, tuple[int, int]]:
     if identity != (before.st_dev, before.st_ino) or not stat.S_ISDIR(after.st_mode):
         os.close(descriptor)
         raise ValueError("artifact root must be a real directory")
+    try:
+        _assert_trusted_directory_stat(after)
+    except ValueError:
+        os.close(descriptor)
+        raise
     return descriptor, identity
 
 
@@ -391,13 +464,18 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
     except OSError as exc:
         raise ValueError("unsafe artifact path") from None
     try:
-        os.fstat(current)
-    except OSError as exc:
+        current_info = os.fstat(current)
+    except OSError:
         try:
             os.close(current)
         except OSError:
             pass
         raise ValueError("unsafe artifact path") from None
+    try:
+        _assert_trusted_directory_stat(current_info)
+    except ValueError:
+        os.close(current)
+        raise
     try:
         for component in parts[:-1]:
             needs_directory_sync = False
@@ -410,6 +488,7 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
                 )
             except FileNotFoundError:
                 needs_directory_sync = True
+                _trusted_directory_fstat(current)
                 try:
                     _mkdir_private(component, current)
                 except FileExistsError:
@@ -455,6 +534,7 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
                         != created_identity
                     ):
                         raise ValueError("unsafe artifact path")
+                _assert_trusted_directory_stat(child_stat)
                 if needs_directory_sync:
                     os.fsync(child)
                     os.fsync(current)
@@ -490,6 +570,7 @@ def _open_parent(root_fd: int, parts: tuple[str, ...]) -> int:
 def _create_private_staging_directory(
     parent_fd: int,
 ) -> tuple[int, tuple[int, int]]:
+    _trusted_directory_fstat(parent_fd)
     for _ in range(8):
         component = f".artifact-stage-{uuid.uuid4().hex}"
         try:
@@ -502,7 +583,12 @@ def _create_private_staging_directory(
 
     entry = os.stat(component, dir_fd=parent_fd, follow_symlinks=False)
     if stat.S_ISLNK(entry.st_mode) or not stat.S_ISDIR(entry.st_mode):
-        raise ValueError("unsafe artifact staging directory")
+        raise ValueError(_STAGING_TRUST_ERROR)
+    _assert_trusted_directory_stat(
+        entry,
+        error_message=_STAGING_TRUST_ERROR,
+        exact_mode=0o700,
+    )
     identity = (entry.st_dev, entry.st_ino)
     descriptor = os.open(
         component,
@@ -515,10 +601,18 @@ def _create_private_staging_directory(
             not stat.S_ISDIR(opened.st_mode)
             or (opened.st_dev, opened.st_ino) != identity
         ):
-            raise ValueError("unsafe artifact staging directory")
-        os.fchmod(descriptor, 0o700)
-        opened = os.fstat(descriptor)
+            raise ValueError(_STAGING_TRUST_ERROR)
+        _assert_trusted_directory_stat(
+            opened,
+            error_message=_STAGING_TRUST_ERROR,
+            exact_mode=0o700,
+        )
         current = os.stat(component, dir_fd=parent_fd, follow_symlinks=False)
+        _assert_trusted_directory_stat(
+            current,
+            error_message=_STAGING_TRUST_ERROR,
+            exact_mode=0o700,
+        )
         if (
             not stat.S_ISDIR(opened.st_mode)
             or stat.S_IMODE(opened.st_mode) != 0o700
@@ -527,7 +621,7 @@ def _create_private_staging_directory(
             or not stat.S_ISDIR(current.st_mode)
             or (current.st_dev, current.st_ino) != identity
         ):
-            raise ValueError("unsafe artifact staging directory")
+            raise ValueError(_STAGING_TRUST_ERROR)
     except (OSError, ValueError):
         try:
             _close_descriptor_once(
@@ -667,6 +761,7 @@ class ArtifactStore:
             or (current.st_dev, current.st_ino) != self._root_identity
         ):
             raise ValueError("artifact root identity changed")
+        _assert_trusted_directory_stat(current)
 
     def write(self, relative: str, payload: dict[str, Json]) -> Path:
         parts = _path_parts(relative)
@@ -687,6 +782,11 @@ class ArtifactStore:
         ):
             os.close(parent_fd)
             raise ValueError("unsafe artifact path")
+        try:
+            _assert_trusted_directory_stat(parent_stat)
+        except ValueError:
+            os.close(parent_fd)
+            raise
         staging_dir_fd: int | None = None
         descriptor: int | None = None
         temporary_identity: tuple[int, int] | None = None
@@ -743,8 +843,15 @@ class ArtifactStore:
                 ) from None
             self._assert_root_identity()
             try:
+                _trusted_directory_fstat(parent_fd)
+                _trusted_directory_fstat(
+                    staging_dir_fd,
+                    error_message=_STAGING_TRUST_ERROR,
+                    exact_mode=0o700,
+                )
                 # The source directory FD is the trust boundary. Compromise of an
-                # already-held same-process FD is outside this API's threat model.
+                # already-held same-process FD is outside this API's threat model;
+                # same-euid exact-0700 writers with FD/name knowledge are trusted.
                 _native_publish_noreplace(
                     staging_dir_fd,
                     temporary,

@@ -36,19 +36,31 @@ def test_fixed_shadow_roster_counts_and_budget():
 
 def test_contested_source_priority_never_joins_a_different_response():
     r = _runner()
+    floor_a_judges = [
+        {"name": "gemini-flash", "scores": {"evidence": "floor A"}}
+    ]
+    r33_a_judges = [
+        {"name": "gemini-flash", "scores": {"evidence": "different A"}}
+    ]
+    r33_c_judges = [
+        {"name": "gemini-flash", "scores": {"evidence": "r33 C"}}
+    ]
     floor = [
-        _record("A", "llama", "floor A", [{"name": "gemini-flash", "scores": {}}]),
+        _record("A", "llama", "floor A", floor_a_judges),
         _record("B", "llama", "floor B", [{"name": "grok-4.20", "scores": {}}]),
         _record("C", "deepseek", None, []),
     ]
     r33 = [
-        _record("A", "llama", "different A", [{"name": "gemini-flash", "scores": {}}]),
-        _record("C", "deepseek", "r33 C", [{"name": "gemini-flash", "scores": {}}]),
+        _record("A", "llama", "different A", r33_a_judges),
+        _record("C", "deepseek", "r33 C", r33_c_judges),
     ]
     chosen = r.select_contested_records(floor, r33, expected=3)
     by_key = {(x["item_id"], x["model"]): x for x in chosen}
     assert by_key[("A", "llama")]["sut_response"] == "floor A"
+    assert by_key[("A", "llama")]["judges"] == floor_a_judges
+    assert by_key[("A", "llama")]["judges"] != r33_a_judges
     assert by_key[("C", "deepseek")]["sut_response"] == "r33 C"
+    assert by_key[("C", "deepseek")]["judges"] == r33_c_judges
 
 
 def test_seeded_surface_order_is_sha256_and_exact_count():

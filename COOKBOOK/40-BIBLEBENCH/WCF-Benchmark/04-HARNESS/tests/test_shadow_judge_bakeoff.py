@@ -662,15 +662,20 @@ def _live_selection():
 
 def _exact_selection(r):
     units = []
+    settled_ids = ("AGG-C3-W302", "AGG-C5-W304", "AGG-C8-W305")
     for surface, count in r.SURFACE_COUNTS.items():
         for index in range(count):
-            item_id = f"{surface}-{index}"
+            item_id = (
+                settled_ids[index % len(settled_ids)]
+                if surface == "settled_core"
+                else f"{surface}-{index}"
+            )
             response = f"response:{item_id}"
             units.append(
                 {
                     "surface": surface,
                     "item_id": item_id,
-                    "sut_slug": "synthetic/sut",
+                    "sut_slug": f"synthetic/sut-{index}",
                     "sut_response": response,
                     "response_sha256": hashlib.sha256(
                         response.encode()
@@ -727,6 +732,7 @@ def _complete_raw_evidence(r, selection):
                     "judge": name,
                     "slug": slug,
                     "item_id": "QUALIFICATION",
+                    "phase": "qualification",
                     "timing_sequence": sequence,
                 },
                 {
@@ -735,6 +741,7 @@ def _complete_raw_evidence(r, selection):
                     "family": family,
                     "slug": slug,
                     "item_id": "QUALIFICATION",
+                    "phase": "qualification",
                     "timing_sequence": sequence,
                     "invocation": 1,
                     "attempt": 0,
@@ -956,6 +963,7 @@ def test_timing_client_records_one_entry_per_underlying_attempt_and_proxies():
             "judge": "glm-5.2",
             "slug": "z-ai/glm-5.2",
             "item_id": "I1",
+            "phase": "qualification",
             "elapsed_seconds": 0.25,
             "error": None,
         },
@@ -965,6 +973,7 @@ def test_timing_client_records_one_entry_per_underlying_attempt_and_proxies():
             "judge": "glm-5.2",
             "slug": "z-ai/glm-5.2",
             "item_id": "I2",
+            "phase": "qualification",
             "elapsed_seconds": 0.0,
             "error": "RuntimeError: failed I2",
         },
@@ -1035,6 +1044,8 @@ def test_timing_and_raw_retry_attempts_share_stable_identity(tmp_path):
         (1, 1),
     ]
     assert len({x["timing_sequence"] for x in timings}) == 2
+    assert {x["phase"] for x in timings} == {"qualification"}
+    assert [x["phase"] for x in timings] == [x["phase"] for x in raw_calls]
 
 
 @pytest.mark.parametrize(
@@ -1213,6 +1224,7 @@ def test_selection_precedes_calls_latency_is_per_attempt_and_no_manifest(tmp_pat
         "limit_remaining": 8.998,
     }
     assert "evidence incomplete" in metadata["partial_reason"]
+    assert metadata["analysis"]["pareto_names"] == []
     assert metadata["reconciliation"] == {
         "status": "RECONCILED",
         "internal_total_usd": 0.002,
@@ -1991,7 +2003,6 @@ def test_comparator_and_candidate_values_are_surface_specific():
             "awards": {"1": True, "2": False},
             "manner": 0.75,
             "disclosure": 0.5,
-            "settled_core": {"floor": True},
         }
     }
 
@@ -2001,7 +2012,14 @@ def test_comparator_and_candidate_values_are_surface_specific():
     }
     assert r.comparator_value("coherence", comparator, unit) == 0.75
     assert r.comparator_value("disclosure", comparator, unit) == 0.5
-    assert r.comparator_value("settled_core", comparator, unit) == {
+    settled = {
+        "scores": {"settled_core_fraction": 1.0},
+        "verdict_texts": ["unused", "1: correct — explicit reason"],
+    }
+    item = SimpleNamespace(
+        rubric=[SimpleNamespace(anchor="Q152", criterion="floor", axis=None)]
+    )
+    assert r.comparator_value("settled_core", settled, unit, item=item) == {
         "floor": True
     }
     assert r.candidate_value("open_award", {"awards": {"1": True}}) == {
@@ -2025,6 +2043,11 @@ def test_agreement_is_componentwise_and_requires_shared_components():
         "exact": False,
         "component_agreement": None,
         "n_components": 0,
+    }
+    assert r.agreement({"1": True}, {1: True, 2: False}) == {
+        "exact": False,
+        "component_agreement": 0.5,
+        "n_components": 2,
     }
     assert r.agreement(0.75, 0.75) == {
         "exact": True,
@@ -2084,6 +2107,110 @@ def test_agreement_rows_require_exact_response_identity_and_known_comparator():
     ]
 
 
+def test_actual_selection_has_reparsed_settled_comparator_coverage():
+    r = _runner()
+    selection = r.build_selection(
+        open_path=r.OPEN_PATH,
+        floor_path=r.FLOOR_PATH,
+        r33_path=r.R33_PATH,
+        bank_dir=r.BANK_DIR,
+    )
+    evidence = r.build_comparator_evidence(selection)
+    counts = {
+        (surface, comparator): sum(
+            row["surface"] == surface
+            and row["comparator"] == comparator
+            and row["available"]
+            for row in evidence
+        )
+        for surface in r.SURFACE_COUNTS
+        for comparator in ("gemini-flash", "grok-4.20")
+    }
+    assert counts == {
+        ("open_award", "gemini-flash"): 8,
+        ("open_award", "grok-4.20"): 8,
+        ("coherence", "gemini-flash"): 8,
+        ("coherence", "grok-4.20"): 8,
+        ("disclosure", "gemini-flash"): 6,
+        ("disclosure", "grok-4.20"): 2,
+        ("settled_core", "gemini-flash"): 6,
+        ("settled_core", "grok-4.20"): 2,
+    }
+    settled = [row for row in evidence if row["surface"] == "settled_core"]
+    assert all(isinstance(row["value"], dict) and row["value"] for row in settled)
+    assert len(
+        {
+            (
+                row["item_id"],
+                row["sut_slug"],
+                row["response_sha256"],
+                row["source_run"],
+                row["comparator"],
+            )
+            for row in settled
+        }
+    ) == len(settled)
+
+
+def test_agreement_summary_retains_failures_in_fixed_denominators():
+    r = _runner()
+    selection = []
+    verdicts = []
+    for index in range(6):
+        unit = {
+            "surface": "disclosure",
+            "item_id": f"I{index}",
+            "sut_slug": "sut",
+            "response_sha256": f"hash-{index}",
+            "source_run": "synthetic",
+            "comparators": (
+                {"gemini-flash": {"scores": {"disclosure": 0.5}}}
+                if index < 2
+                else {}
+            ),
+        }
+        selection.append(unit)
+        verdicts.append(
+            {
+                "judge": "glm-5.2",
+                "surface": "disclosure",
+                "item_id": unit["item_id"],
+                "sut_slug": "sut",
+                "response_sha256": unit["response_sha256"],
+                "result": (
+                    {"graded": True, "value": 0.5}
+                    if index != 1
+                    else None
+                ),
+                "error": "failed" if index == 1 else None,
+            }
+        )
+    evidence = r.build_comparator_evidence(selection)
+    rows = r.build_agreement_rows(selection, verdicts, evidence=evidence)
+    summary = r.summarize_agreement(selection, verdicts, evidence, rows)
+    row = next(
+        value
+        for value in summary
+        if value["judge"] == "glm-5.2"
+        and value["surface"] == "disclosure"
+        and value["comparator"] == "gemini-flash"
+    )
+    assert row["planned"] == 6
+    assert row["comparator_denominator"] == 2
+    assert row["graded_count"] == 5
+    assert row["parseable_fraction"] == pytest.approx(5 / 6)
+    assert row["exact_agreement_fraction"] == 0.5
+    assert row["disagreement_count"] == 1
+    assert row["disagreement_identifiers"] == [
+        {
+            "item_id": "I1",
+            "sut_slug": "sut",
+            "response_sha256": "hash-1",
+            "source_run": "synthetic",
+        }
+    ]
+
+
 def test_operational_summary_prefers_actual_cost_then_catalog_fallback():
     r = _runner()
     name, family, slug = r.CANDIDATES[0]
@@ -2094,6 +2221,7 @@ def test_operational_summary_prefers_actual_cost_then_catalog_fallback():
             "family": family,
             "slug": slug,
             "attempt": 0,
+            "phase": "qualification",
             "truncated": False,
             "error": None,
             "usage": [
@@ -2112,6 +2240,7 @@ def test_operational_summary_prefers_actual_cost_then_catalog_fallback():
             "family": family,
             "slug": slug,
             "attempt": 1,
+            "phase": "real_response",
             "truncated": True,
             "error": "transient",
             "usage": [
@@ -2121,11 +2250,13 @@ def test_operational_summary_prefers_actual_cost_then_catalog_fallback():
         {
             "kind": "call_timing",
             "judge": name,
+            "phase": "qualification",
             "elapsed_seconds": 0.2,
         },
         {
             "kind": "call_timing",
             "judge": name,
+            "phase": "real_response",
             "elapsed_seconds": 0.4,
         },
     ]
@@ -2145,6 +2276,37 @@ def test_operational_summary_prefers_actual_cost_then_catalog_fallback():
         "mean_call_seconds": pytest.approx(0.3),
         "parse_fraction": 0.5,
         "errors": 1,
+        "by_surface": {
+            surface: {
+                "planned": count,
+                "graded": 0,
+                "parseable_fraction": 0.0,
+                "errors": 0,
+            }
+            for surface, count in r.SURFACE_COUNTS.items()
+        },
+        "by_phase": {
+            "qualification": {
+                "calls": 1,
+                "retries": 0,
+                "truncations": 0,
+                "prompt_tokens": 10,
+                "completion_tokens": 5,
+                "actual_cost_usd": pytest.approx(0.002),
+                "mean_call_seconds": pytest.approx(0.2),
+                "errors": 0,
+            },
+            "real_response": {
+                "calls": 1,
+                "retries": 1,
+                "truncations": 1,
+                "prompt_tokens": 3,
+                "completion_tokens": 2,
+                "actual_cost_usd": pytest.approx(0.000005),
+                "mean_call_seconds": pytest.approx(0.4),
+                "errors": 1,
+            },
+        },
     }
     assert operations[r.CANDIDATES[1][0]]["calls"] == 0
     assert operations[r.CANDIDATES[1][0]]["actual_cost_usd"] == 0.0
@@ -2165,7 +2327,10 @@ def test_qualification_summary_labels_and_componentwise_pareto():
         "cause_tally": {"pass": r.K},
     }
     labels = r.candidate_labels(
-        qualifications[r.CANDIDATES[1][0]], "deepseek", 0.0
+        qualifications[r.CANDIDATES[1][0]],
+        "deepseek",
+        0.0,
+        insufficient=True,
     )
     assert "SHADOW-ELIGIBLE FOR coherence" in labels
     assert "SHADOW-INELIGIBLE FOR open_award" in labels
@@ -2197,6 +2362,9 @@ def test_report_forbids_accuracy_and_production_effect():
             "analysis": {
                 "qualification": {},
                 "agreement": [],
+                "agreement_summary": [],
+                "comparator_denominators": [],
+                "comparator_coverage_complete": True,
                 "operations": {},
                 "pareto_names": [],
             },
@@ -2211,6 +2379,7 @@ def test_report_forbids_accuracy_and_production_effect():
     assert "panel" in report
     assert "manifest" in report
     assert "closed candidate ladder" in report
+    assert "score of record" in report
     assert "accuracy" not in report.lower()
     assert "more accurate" not in report.lower()
     assert "production judge" not in report.lower()
@@ -2242,6 +2411,7 @@ def test_fully_mocked_exact_evidence_reaches_complete_with_analysis(tmp_path):
     r = _runner()
     out_dir = tmp_path / "shadow"
     selection = _exact_selection(r)
+    bank_items = {item.id: item for item in r.load_items(r.BANK_DIR)}
     for unit in selection:
         if unit["surface"] == "open_award":
             scores = {"awards": {"1": True}}
@@ -2250,11 +2420,28 @@ def test_fully_mocked_exact_evidence_reaches_complete_with_analysis(tmp_path):
         elif unit["surface"] == "disclosure":
             scores = {"disclosure": 1.0}
         else:
-            scores = {"settled_core": {"floor": True}}
-        unit["comparators"] = {
-            "gemini-flash": {"scores": scores},
-            "grok-4.20": {"scores": scores},
-        }
+            scores = {"settled_core_fraction": 1.0}
+            verdict = "\n".join(
+                f"{index}: correct — explicit reason"
+                for index, _keypoint in enumerate(
+                    r.settled_core_keypoints(bank_items[unit["item_id"]]), 1
+                )
+            )
+        unit["comparators"] = {"gemini-flash": {"scores": scores}}
+        if unit["surface"] == "settled_core":
+            unit["comparators"]["gemini-flash"]["verdict_texts"] = [
+                "unused",
+                verdict,
+            ]
+        if unit["surface"] in {"open_award", "coherence"} or int(
+            unit["sut_slug"].rsplit("-", 1)[-1]
+        ) < 2:
+            unit["comparators"]["grok-4.20"] = {"scores": scores}
+            if unit["surface"] == "settled_core":
+                unit["comparators"]["grok-4.20"]["verdict_texts"] = [
+                    "unused",
+                    verdict,
+                ]
 
     class FakeClient:
         def __init__(self, model, **kwargs):
@@ -2283,8 +2470,10 @@ def test_fully_mocked_exact_evidence_reaches_complete_with_analysis(tmp_path):
         qualification.surfaces = set(r.SURFACE_COUNTS)
         return qualification
 
-    def fake_score(units, *, sink, now, **_kwargs):
+    def fake_score(units, *, clients, sink, now, **_kwargs):
         records = []
+        for name, client in clients.items():
+            client.complete("real response", item_id=f"REAL-{name}")
         for name, _family, _slug in r.CANDIDATES:
             for unit in units:
                 if unit["surface"] == "open_award":
@@ -2315,7 +2504,7 @@ def test_fully_mocked_exact_evidence_reaches_complete_with_analysis(tmp_path):
     snapshots = iter(
         [
             {"usage": 1.0, "limit_remaining": 9.0},
-            {"usage": 1.002, "limit_remaining": 8.998},
+            {"usage": 1.004, "limit_remaining": 8.996},
         ]
     )
     outcome = r.execute_live(
@@ -2337,8 +2526,82 @@ def test_fully_mocked_exact_evidence_reaches_complete_with_analysis(tmp_path):
     assert metadata["analysis"]["pareto_names"] == sorted(
         name for name, _family, _slug in r.CANDIDATES
     )
-    assert len(metadata["analysis"]["agreement"]) == 112
-    assert metadata["analysis"]["operations"]["glm-5.2"]["calls"] == 1
+    assert len(metadata["analysis"]["agreement"]) == 96
+    assert len(metadata["analysis"]["agreement_summary"]) == 16
+    assert all(
+        row["planned"] == r.SURFACE_COUNTS[row["surface"]]
+        for row in metadata["analysis"]["agreement_summary"]
+    )
+    assert metadata["analysis"]["operations"]["glm-5.2"]["calls"] == 2
+    assert metadata["analysis"]["operations"]["glm-5.2"]["by_phase"][
+        "qualification"
+    ]["calls"] == 1
+    assert metadata["analysis"]["operations"]["glm-5.2"]["by_phase"][
+        "real_response"
+    ]["calls"] == 1
     assert "SHADOW / NOT A QUALIFICATION MANIFEST" in report
     assert "accuracy" not in report.lower()
     assert not any("manifest" in path.name.lower() for path in out_dir.iterdir())
+
+
+def test_post_call_analysis_failure_preserves_partial_artifacts(
+    monkeypatch, tmp_path
+):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+
+    class FakeClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+        def complete(self, prompt, item_id=None):
+            self.usage_log.append(
+                {
+                    "usage": {
+                        "prompt_tokens": 1,
+                        "completion_tokens": 1,
+                        "cost": 0.001,
+                    }
+                }
+            )
+            return "synthetic"
+
+    def fake_qualify(client, **kwargs):
+        client.complete("paid probe", item_id="PROBE")
+        return {"name": kwargs["name"]}
+
+    monkeypatch.setattr(
+        r,
+        "operational_summary",
+        lambda *_args, **_kwargs: (_ for _ in ()).throw(
+            RuntimeError("analysis normalization failed")
+        ),
+    )
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.002, "limit_remaining": 8.998},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=FakeClient,
+        qualify_fn=fake_qualify,
+        selection_fn=lambda **_kwargs: _live_selection(),
+        score_fn=lambda *_args, **_kwargs: [],
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    report = (out_dir / "20260712-shadow-judge-bakeoff-report.md").read_text()
+    assert "analysis normalization failed" in outcome.partial_reason
+    assert metadata["run_status"] == "PARTIAL"
+    assert metadata["analysis"]["pareto_names"] == []
+    assert "PARTIAL" in report
+    assert (out_dir / "raw_verdicts.jsonl").stat().st_size > 0

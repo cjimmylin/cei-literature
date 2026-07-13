@@ -86,6 +86,12 @@ SURFACE_COUNTS = {
     "disclosure": 6,
     "settled_core": 6,
 }
+EXPECTED_COMPARATOR_COUNTS = {
+    "open_award": {"gemini-flash": 8, "grok-4.20": 8},
+    "coherence": {"gemini-flash": 8, "grok-4.20": 8},
+    "disclosure": {"gemini-flash": 6, "grok-4.20": 2},
+    "settled_core": {"gemini-flash": 6, "grok-4.20": 2},
+}
 K = DEFAULT_K
 THRESHOLD = DEFAULT_THRESHOLD
 MAX_BUDGET = 1.0
@@ -282,14 +288,18 @@ class TimingLinkedSink(JsonlSink):
             self._next_timing_sequence += 1
             sequence = self._next_timing_sequence
             linked["timing_sequence"] = sequence
-            self._pending_by_judge.setdefault(judge, []).append(sequence)
+            self._pending_by_judge.setdefault(judge, []).append(
+                (sequence, linked.get("phase"))
+            )
         elif kind == "raw_call":
             pending = self._pending_by_judge.get(judge, [])
             if not pending:
                 raise RuntimeError(
                     f"raw_call for {judge!r} has no pending call_timing record"
                 )
-            linked["timing_sequence"] = pending.pop(0)
+            sequence, phase = pending.pop(0)
+            linked["timing_sequence"] = sequence
+            linked["phase"] = phase
         super().write(linked)
 
 
@@ -333,6 +343,7 @@ class TimingClient:
         slug,
         sink,
         now,
+        phase="qualification",
         clock=time.perf_counter,
     ):
         self.inner = inner
@@ -340,6 +351,7 @@ class TimingClient:
         self.slug = slug
         self.sink = sink
         self.now = now
+        self.phase = phase
         self.clock = clock
 
     def __getattr__(self, name):
@@ -361,6 +373,7 @@ class TimingClient:
                     "judge": self.name,
                     "slug": self.slug,
                     "item_id": item_id,
+                    "phase": self.phase,
                     "elapsed_seconds": max(0.0, self.clock() - started),
                     "error": error,
                 }
@@ -870,6 +883,10 @@ def assess_evidence(selection, qualifications, raw_records):
         and raw_by_key[key].get("slug") == candidate_identity[key[0]][1]
         and timing_by_key[key].get("item_id")
         == raw_by_key[key].get("item_id")
+        and timing_by_key[key].get("phase")
+        == raw_by_key[key].get("phase")
+        and timing_by_key[key].get("phase")
+        in {"qualification", "real_response"}
         for key in timing_by_key.keys() & raw_by_key.keys()
     )
     has_execution_evidence = bool(probe_records or verdict_records)
@@ -987,7 +1004,7 @@ def build_metadata(
     }
 
 
-def comparator_value(surface, comparator, unit):
+def comparator_value(surface, comparator, unit, *, item=None):
     scores = comparator.get("scores", {})
     if surface == "open_award":
         return {
@@ -999,7 +1016,17 @@ def comparator_value(surface, comparator, unit):
     if surface == "disclosure":
         return scores.get("disclosure")
     if surface == "settled_core":
-        return scores.get("settled_core")
+        if scores.get("settled_core_fraction") is None or item is None:
+            return None
+        verdict_texts = comparator.get("verdict_texts", [])
+        if not verdict_texts:
+            return None
+        parsed, _reasonless = _parse_core_verdicts(
+            verdict_texts[-1],
+            settled_core_keypoints(item),
+            require_reason=True,
+        )
+        return parsed or None
     raise ValueError(surface)
 
 
@@ -1017,12 +1044,17 @@ def agreement(candidate, comparator):
     if isinstance(candidate, dict) and isinstance(comparator, dict):
         left = {str(key): value for key, value in candidate.items()}
         right = {str(key): value for key, value in comparator.items()}
-        keys = sorted(set(left) & set(right))
+        keys = sorted(set(left) | set(right))
         return {
-            "exact": bool(keys)
-            and all(left[key] == right[key] for key in keys),
+            "exact": bool(keys) and left == right,
             "component_agreement": (
-                sum(left[key] == right[key] for key in keys) / len(keys)
+                sum(
+                    key in left
+                    and key in right
+                    and left[key] == right[key]
+                    for key in keys
+                )
+                / len(keys)
                 if keys
                 else None
             ),
@@ -1035,7 +1067,45 @@ def agreement(candidate, comparator):
     }
 
 
-def build_agreement_rows(selection, verdicts):
+def build_comparator_evidence(selection, items=None):
+    if items is None and any(
+        unit.get("surface") == "settled_core" for unit in selection
+    ):
+        items = {item.id: item for item in load_items(BANK_DIR)}
+    items = items or {}
+    evidence = []
+    for unit in selection:
+        for comparator_name, comparator in unit.get("comparators", {}).items():
+            if comparator_name not in {"gemini-flash", "grok-4.20"}:
+                continue
+            error = None
+            try:
+                value = comparator_value(
+                    unit["surface"],
+                    comparator,
+                    unit,
+                    item=items.get(unit["item_id"]),
+                )
+            except Exception as exc:
+                value = None
+                error = f"{type(exc).__name__}: {exc}"
+            evidence.append(
+                {
+                    "surface": unit["surface"],
+                    "item_id": unit["item_id"],
+                    "sut_slug": unit["sut_slug"],
+                    "response_sha256": unit["response_sha256"],
+                    "source_run": unit.get("source_run"),
+                    "comparator": comparator_name,
+                    "available": value is not None,
+                    "value": value,
+                    "error": error,
+                }
+            )
+    return evidence
+
+
+def build_agreement_rows(selection, verdicts, *, evidence=None):
     units = {
         (
             unit["surface"],
@@ -1044,6 +1114,18 @@ def build_agreement_rows(selection, verdicts):
             unit["response_sha256"],
         ): unit
         for unit in selection
+    }
+    comparator_evidence = evidence or build_comparator_evidence(selection)
+    evidence_by_key = {
+        (
+            record["surface"],
+            record["item_id"],
+            record["sut_slug"],
+            record["response_sha256"],
+            record["comparator"],
+        ): record
+        for record in comparator_evidence
+        if record["available"]
     }
     rows = []
     for verdict in verdicts:
@@ -1058,11 +1140,9 @@ def build_agreement_rows(selection, verdicts):
         if unit is None or verdict.get("error") or not result.get("graded"):
             continue
         value = candidate_value(verdict["surface"], result)
-        for comparator_name, comparator in unit.get("comparators", {}).items():
-            if comparator_name not in {"gemini-flash", "grok-4.20"}:
-                continue
-            incumbent = comparator_value(verdict["surface"], comparator, unit)
-            if incumbent is None:
+        for comparator_name in ("gemini-flash", "grok-4.20"):
+            incumbent_record = evidence_by_key.get((*key, comparator_name))
+            if incumbent_record is None:
                 continue
             rows.append(
                 {
@@ -1072,10 +1152,122 @@ def build_agreement_rows(selection, verdicts):
                     "sut_slug": verdict["sut_slug"],
                     "response_sha256": verdict["response_sha256"],
                     "comparator": comparator_name,
-                    **agreement(value, incumbent),
+                    **agreement(value, incumbent_record["value"]),
                 }
             )
     return rows
+
+
+def summarize_agreement(selection, verdicts, evidence, agreement_rows):
+    verdict_by_key = {
+        (
+            record.get("judge"),
+            record.get("surface"),
+            record.get("item_id"),
+            record.get("sut_slug"),
+            record.get("response_sha256"),
+        ): record
+        for record in verdicts
+    }
+    row_by_key = {
+        (
+            record["judge"],
+            record["surface"],
+            record["item_id"],
+            record["sut_slug"],
+            record["response_sha256"],
+            record["comparator"],
+        ): record
+        for record in agreement_rows
+    }
+    summary = []
+    for name, _family, _slug in CANDIDATES:
+        for surface, planned in SURFACE_COUNTS.items():
+            surface_units = [
+                unit for unit in selection if unit.get("surface") == surface
+            ]
+            graded_count = sum(
+                isinstance(
+                    (
+                        verdict_by_key.get(
+                            (
+                                name,
+                                surface,
+                                unit["item_id"],
+                                unit["sut_slug"],
+                                unit["response_sha256"],
+                            )
+                        )
+                        or {}
+                    ).get("result"),
+                    dict,
+                )
+                and bool(
+                    (
+                        verdict_by_key.get(
+                            (
+                                name,
+                                surface,
+                                unit["item_id"],
+                                unit["sut_slug"],
+                                unit["response_sha256"],
+                            )
+                        )
+                        or {}
+                    )["result"].get("graded")
+                )
+                for unit in surface_units
+            )
+            for comparator in ("gemini-flash", "grok-4.20"):
+                available = [
+                    record
+                    for record in evidence
+                    if record["surface"] == surface
+                    and record["comparator"] == comparator
+                    and record["available"]
+                ]
+                exact_count = 0
+                disagreements = []
+                for record in available:
+                    joined = row_by_key.get(
+                        (
+                            name,
+                            surface,
+                            record["item_id"],
+                            record["sut_slug"],
+                            record["response_sha256"],
+                            comparator,
+                        )
+                    )
+                    if joined is not None and joined["exact"]:
+                        exact_count += 1
+                    else:
+                        disagreements.append(
+                            {
+                                "item_id": record["item_id"],
+                                "sut_slug": record["sut_slug"],
+                                "response_sha256": record["response_sha256"],
+                                "source_run": record["source_run"],
+                            }
+                        )
+                denominator = len(available)
+                summary.append(
+                    {
+                        "judge": name,
+                        "surface": surface,
+                        "comparator": comparator,
+                        "planned": planned,
+                        "comparator_denominator": denominator,
+                        "graded_count": graded_count,
+                        "parseable_fraction": graded_count / planned,
+                        "exact_agreement_fraction": (
+                            exact_count / denominator if denominator else None
+                        ),
+                        "disagreement_count": len(disagreements),
+                        "disagreement_identifiers": disagreements,
+                    }
+                )
+    return summary
 
 
 def _row_cost(row, catalog):
@@ -1132,6 +1324,81 @@ def operational_summary(raw_records, verdicts, catalog):
             actual_cost = sum(_row_cost(row, catalog) for row in calls)
         except (PreflightError, mvp.PricingError, ValueError, TypeError):
             actual_cost = None
+        by_surface = {}
+        for surface, planned in SURFACE_COUNTS.items():
+            surface_verdicts = [
+                verdict
+                for verdict in judged
+                if verdict.get("surface") == surface
+            ]
+            graded = sum(
+                isinstance(verdict.get("result"), dict)
+                and verdict["result"].get("graded") is True
+                for verdict in surface_verdicts
+            )
+            by_surface[surface] = {
+                "planned": planned,
+                "graded": graded,
+                "parseable_fraction": graded / planned,
+                "errors": sum(
+                    verdict.get("error") is not None
+                    for verdict in surface_verdicts
+                ),
+            }
+        by_phase = {}
+        for phase in ("qualification", "real_response"):
+            phase_calls = [row for row in calls if row.get("phase") == phase]
+            phase_timings = [
+                row.get("elapsed_seconds")
+                for row in raw_records
+                if row.get("kind") == "call_timing"
+                and row.get("judge") == name
+                and row.get("phase") == phase
+                and _finite_nonnegative(row.get("elapsed_seconds"))
+            ]
+            phase_usage = [
+                entry.get("usage", {})
+                for row in phase_calls
+                for entry in row.get("usage", [])
+            ]
+            try:
+                phase_cost = sum(
+                    _row_cost(row, catalog) for row in phase_calls
+                )
+            except (PreflightError, mvp.PricingError, ValueError, TypeError):
+                phase_cost = None
+            by_phase[phase] = {
+                "calls": len(phase_calls),
+                "retries": sum(
+                    int(row.get("attempt", 0)) > 0 for row in phase_calls
+                ),
+                "truncations": sum(
+                    bool(row.get("truncated")) for row in phase_calls
+                ),
+                "prompt_tokens": sum(
+                    value.get("prompt_tokens", 0)
+                    for value in phase_usage
+                    if _finite_nonnegative_integer(
+                        value.get("prompt_tokens", 0)
+                    )
+                ),
+                "completion_tokens": sum(
+                    value.get("completion_tokens", 0)
+                    for value in phase_usage
+                    if _finite_nonnegative_integer(
+                        value.get("completion_tokens", 0)
+                    )
+                ),
+                "actual_cost_usd": phase_cost,
+                "mean_call_seconds": (
+                    sum(phase_timings) / len(phase_timings)
+                    if phase_timings
+                    else None
+                ),
+                "errors": sum(
+                    row.get("error") is not None for row in phase_calls
+                ),
+            }
         by_judge[name] = {
             "calls": len(calls),
             "retries": sum(int(row.get("attempt", 0)) > 0 for row in calls),
@@ -1163,6 +1430,8 @@ def operational_summary(raw_records, verdicts, catalog):
                 else 0.0
             ),
             "errors": sum(verdict.get("error") is not None for verdict in judged),
+            "by_surface": by_surface,
+            "by_phase": by_phase,
         }
     return by_judge
 
@@ -1185,7 +1454,9 @@ def qualification_summary(qualifications):
     }
 
 
-def candidate_labels(qualification, family, parse_fraction):
+def candidate_labels(
+    qualification, family, parse_fraction, *, insufficient=False
+):
     labels = [
         (
             f"SHADOW-ELIGIBLE FOR {surface}"
@@ -1196,7 +1467,7 @@ def candidate_labels(qualification, family, parse_fraction):
     ]
     if family in {"deepseek", "z-ai"}:
         labels.append("INDEPENDENCE-CONFLICTED")
-    if parse_fraction == 0:
+    if insufficient or parse_fraction == 0:
         labels.append("INSUFFICIENT EVIDENCE")
     return labels
 
@@ -1246,9 +1517,10 @@ def pareto_names(qualifications, operations):
 
 def build_report(metadata, qualifications, verdicts, selection):
     analysis = metadata["analysis"]
-    comparator_counts = Counter(
-        (row["judge"], row["surface"], row["comparator"])
-        for row in analysis["agreement"]
+    insufficient = (
+        metadata.get("run_status") != "COMPLETE"
+        or not metadata.get("evidence", {}).get("complete", False)
+        or not analysis.get("comparator_coverage_complete", False)
     )
     lines = [
         "# WCF-Bench — Shadow Judge Bakeoff",
@@ -1257,14 +1529,20 @@ def build_report(metadata, qualifications, verdicts, selection):
         "",
         f"Run status: **{metadata['run_status']}**",
         "",
-        "This descriptive report does not change T4, the panel, the manifest, "
-        "or the closed candidate ladder.",
+        "This descriptive report has no effect on T4, the panel, the manifest, "
+        "the closed candidate ladder, or any score of record.",
         "",
         "## Scope",
         "",
         f"Surface denominators: `{SURFACE_COUNTS}`; seed {SEED}.",
-        "Comparator-specific denominators: "
-        f"`{dict(sorted(comparator_counts.items(), key=str))}`.",
+        "Comparator-specific denominators:",
+        "```json",
+        json.dumps(
+            analysis.get("comparator_denominators", []),
+            indent=2,
+            sort_keys=True,
+        ),
+        "```",
         "",
         "## Qualification",
         "",
@@ -1283,7 +1561,8 @@ def build_report(metadata, qualifications, verdicts, selection):
             )
             lines.append(
                 f"- {name}: surfaces={sorted(qualification.surfaces)}; "
-                f"labels={candidate_labels(qualification, family, parse_fraction)}"
+                "labels="
+                f"{candidate_labels(qualification, family, parse_fraction, insufficient=insufficient)}"
             )
     lines += [
         "",
@@ -1292,7 +1571,11 @@ def build_report(metadata, qualifications, verdicts, selection):
         "Incumbent agreement is descriptive and the incumbents are not human labels.",
         "",
         "```json",
-        json.dumps(analysis["agreement"], indent=2, sort_keys=True),
+        json.dumps(
+            analysis.get("agreement_summary", []),
+            indent=2,
+            sort_keys=True,
+        ),
         "```",
         "",
         "## Operations",
@@ -1304,9 +1587,13 @@ def build_report(metadata, qualifications, verdicts, selection):
         "Internal actual/fallback cost: "
         f"${metadata.get('internal_total_usd') or 0:.4f}.",
         "",
-        "## PARETO recommendation",
+        "## PARETO disclosure",
         "",
-        f"Non-dominated shadow candidates: {analysis['pareto_names']}.",
+        (
+            f"Non-dominated shadow candidates: {analysis['pareto_names']}."
+            if analysis.get("pareto_names")
+            else "No Pareto candidate is emitted."
+        ),
         "No weighted composite is used. No label authorizes deployment.",
         "",
     ]
@@ -1412,6 +1699,8 @@ def execute_live(
             sink=sink,
             now=now,
         )
+        for client in clients.values():
+            client.inner.phase = "real_response"
         items = {item.id: item for item in load_items(BANK_DIR)}
         verdicts = score_fn(
             selection,
@@ -1487,17 +1776,72 @@ def execute_live(
         key_after=key_after,
         budget=budget,
     )
-    operations = operational_summary(raw_records, verdicts, catalog)
-    analysis = {
-        "qualification": qualification_summary(qualifications),
-        "agreement": build_agreement_rows(selection, verdicts),
-        "operations": operations,
-        "pareto_names": (
-            pareto_names(qualifications, operations)
-            if len(qualifications) == len(CANDIDATES)
-            else []
-        ),
-    }
+    try:
+        operations = operational_summary(raw_records, verdicts, catalog)
+        comparator_evidence = build_comparator_evidence(selection)
+        agreement_rows = build_agreement_rows(
+            selection, verdicts, evidence=comparator_evidence
+        )
+        agreement_summary = summarize_agreement(
+            selection, verdicts, comparator_evidence, agreement_rows
+        )
+        comparator_denominators = [
+            {
+                "surface": surface,
+                "comparator": comparator,
+                "planned": SURFACE_COUNTS[surface],
+                "required_comparator_records": EXPECTED_COMPARATOR_COUNTS[
+                    surface
+                ][comparator],
+                "persisted_comparator_records": sum(
+                    record["surface"] == surface
+                    and record["comparator"] == comparator
+                    for record in comparator_evidence
+                ),
+                "available": sum(
+                    record["surface"] == surface
+                    and record["comparator"] == comparator
+                    and record["available"]
+                    for record in comparator_evidence
+                ),
+            }
+            for surface in SURFACE_COUNTS
+            for comparator in ("gemini-flash", "grok-4.20")
+        ]
+        comparator_coverage_complete = all(
+            denominator["persisted_comparator_records"]
+            == EXPECTED_COMPARATOR_COUNTS[denominator["surface"]][
+                denominator["comparator"]
+            ]
+            and denominator["available"]
+            == denominator["persisted_comparator_records"]
+            for denominator in comparator_denominators
+        )
+        analysis = {
+            "qualification": qualification_summary(qualifications),
+            "agreement": agreement_rows,
+            "agreement_summary": agreement_summary,
+            "comparator_denominators": comparator_denominators,
+            "comparator_coverage_complete": comparator_coverage_complete,
+            "operations": operations,
+            "pareto_names": [],
+        }
+        if not comparator_coverage_complete:
+            add_partial_reason("required comparator coverage is incomplete")
+    except Exception as exc:
+        add_partial_reason(
+            f"analysis failure: {type(exc).__name__}: {exc}"
+        )
+        operations = {}
+        analysis = {
+            "qualification": {},
+            "agreement": [],
+            "agreement_summary": [],
+            "comparator_denominators": [],
+            "comparator_coverage_complete": False,
+            "operations": {},
+            "pareto_names": [],
+        }
     partial_reason = "; ".join(partial_reasons) or None
     metadata = build_metadata(
         catalog=catalog,
@@ -1513,12 +1857,53 @@ def execute_live(
         raw_records=raw_records,
         reconciliation=reconciliation,
     )
+    if (
+        metadata["run_status"] == "COMPLETE"
+        and analysis["comparator_coverage_complete"]
+    ):
+        analysis["pareto_names"] = pareto_names(
+            qualifications, operations
+        )
     partial_reason = metadata["partial_reason"]
+    try:
+        report = build_report(metadata, qualifications, verdicts, selection)
+    except Exception as exc:
+        add_partial_reason(
+            f"report failure: {type(exc).__name__}: {exc}"
+        )
+        analysis["pareto_names"] = []
+        metadata = build_metadata(
+            catalog=catalog,
+            budget=budget,
+            internal_total=internal,
+            partial_reason="; ".join(partial_reasons) or None,
+            qualifications=qualifications,
+            verdicts=verdicts,
+            analysis=analysis,
+            key_before=key_before,
+            key_after=key_after,
+            selection=selection,
+            raw_records=raw_records,
+            reconciliation=reconciliation,
+        )
+        partial_reason = metadata["partial_reason"]
+        report = "\n".join(
+            [
+                "# WCF-Bench — Shadow Judge Bakeoff",
+                "",
+                "**SHADOW / NOT A QUALIFICATION MANIFEST**",
+                "",
+                "Run status: **PARTIAL**",
+                "",
+                "This artifact has no effect on T4, the panel, the manifest, "
+                "the closed candidate ladder, or any score of record.",
+                "",
+                f"> PARTIAL / STOPPED: {partial_reason}",
+                "",
+            ]
+        )
     write_json_new(metadata_path, metadata)
-    write_text_new(
-        report_path,
-        build_report(metadata, qualifications, verdicts, selection),
-    )
+    write_text_new(report_path, report)
     paths = {
         "selection": selection_path,
         "raw": raw_path,

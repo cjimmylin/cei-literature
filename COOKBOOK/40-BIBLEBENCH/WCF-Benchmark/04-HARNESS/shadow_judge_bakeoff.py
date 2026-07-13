@@ -121,3 +121,76 @@ def take_seeded(surface, rows, count):
     if len(ordered) < count:
         raise PreflightError(f"{surface}: need {count} units, found {len(ordered)}")
     return ordered[:count]
+
+
+def _judges_by_name(record):
+    return {str(j["name"]): j for j in record.get("judges", [])}
+
+
+def _unit(surface, record, axis=None):
+    response = str(record["sut_response"])
+    return {
+        "surface": surface,
+        "item_id": str(record["item_id"]),
+        "sut_slug": str(record["model"]),
+        "sut_response": response,
+        "response_sha256": hashlib.sha256(response.encode()).hexdigest(),
+        "source_run": record.get("source_run", "corrected-mvp-open-reparse"),
+        "axis": axis,
+        "comparators": _judges_by_name(record),
+    }
+
+
+def build_selection(*, open_path, floor_path, r33_path, bank_dir):
+    items = {item.id: item for item in load_items(bank_dir)}
+    open_rows = [
+        row for row in read_jsonl(open_path) if row.get("kind") == "open"
+    ]
+    award_rows = []
+    coherence_rows = []
+    for row in open_rows:
+        judges = _judges_by_name(row)
+        comparator_names = ("gemini-flash", "grok-4.20")
+        if not set(comparator_names).issubset(judges):
+            continue
+        if all(
+            judges[name].get("scores", {}).get("awards")
+            for name in comparator_names
+        ):
+            award_rows.append(row)
+        item = items[row["item_id"]]
+        untagged = [
+            axis
+            for axis in AXES
+            if not any(
+                getattr(keypoint, "axis", None) == axis
+                for keypoint in item.rubric
+            )
+        ]
+        if len(untagged) == 1 and all(
+            judges[name].get("scores", {}).get(untagged[0]) is not None
+            for name in comparator_names
+        ):
+            copied = dict(row)
+            copied["numeric_axis"] = untagged[0]
+            coherence_rows.append(copied)
+
+    selected = [
+        _unit("open_award", row)
+        for row in take_seeded("open_award", award_rows, 8)
+    ]
+    selected += [
+        _unit("coherence", row, axis=row["numeric_axis"])
+        for row in take_seeded("coherence", coherence_rows, 8)
+    ]
+    contested = select_contested_records(
+        read_jsonl(floor_path), read_jsonl(r33_path)
+    )
+    selected += [_unit("disclosure", row) for row in contested]
+    selected += [_unit("settled_core", row) for row in contested]
+    return selected
+
+
+def write_json_new(path, value):
+    with open(path, "x", encoding="utf-8") as fh:
+        json.dump(value, fh, indent=2, sort_keys=True)

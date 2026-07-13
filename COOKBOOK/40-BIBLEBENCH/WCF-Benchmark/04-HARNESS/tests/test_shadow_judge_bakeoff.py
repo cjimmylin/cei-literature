@@ -2,6 +2,9 @@ from __future__ import annotations
 
 import hashlib
 import importlib
+import json
+
+import pytest
 
 
 def _runner():
@@ -76,3 +79,59 @@ def test_seeded_surface_order_is_sha256_and_exact_count():
     assert [(x["item_id"], x["model"]) for x in got] == [
         (x["item_id"], x["model"]) for x in expected
     ]
+
+
+def test_build_selection_has_exact_counts_and_response_hashes():
+    r = _runner()
+    selection = r.build_selection(
+        open_path=r.OPEN_PATH,
+        floor_path=r.FLOOR_PATH,
+        r33_path=r.R33_PATH,
+        bank_dir=r.BANK_DIR,
+    )
+
+    assert {
+        surface: sum(unit["surface"] == surface for unit in selection)
+        for surface in r.SURFACE_COUNTS
+    } == r.SURFACE_COUNTS
+    assert len(selection) == 28
+    assert all(
+        unit["response_sha256"]
+        == hashlib.sha256(unit["sut_response"].encode()).hexdigest()
+        for unit in selection
+    )
+
+    contested = [
+        unit
+        for unit in selection
+        if unit["surface"] in {"disclosure", "settled_core"}
+    ]
+    assert {unit["source_run"] for unit in contested} == {
+        "floor-rerun",
+        "r33-3judge",
+    }
+    source_rows = {
+        "floor-rerun": r.read_jsonl(r.FLOOR_PATH),
+        "r33-3judge": r.read_jsonl(r.R33_PATH),
+    }
+    for unit in contested:
+        matching = [
+            row
+            for row in source_rows[unit["source_run"]]
+            if str(row.get("item_id")) == unit["item_id"]
+            and str(row.get("model")) == unit["sut_slug"]
+            and row.get("sut_response") == unit["sut_response"]
+        ]
+        assert len(matching) == 1
+        assert unit["comparators"] == r._judges_by_name(matching[0])
+
+
+def test_write_selection_is_create_new(tmp_path):
+    r = _runner()
+    path = tmp_path / "selection.json"
+    r.write_json_new(
+        str(path), {"surface_counts": r.SURFACE_COUNTS, "units": []}
+    )
+    assert json.loads(path.read_text())["surface_counts"] == r.SURFACE_COUNTS
+    with pytest.raises(FileExistsError):
+        r.write_json_new(str(path), {"units": []})

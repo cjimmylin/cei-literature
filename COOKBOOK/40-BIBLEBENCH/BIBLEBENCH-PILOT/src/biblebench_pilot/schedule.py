@@ -35,27 +35,50 @@ _RESERVED_C3 = re.compile(
 _EMBEDDED_CUE_LABEL = re.compile(r"C[0-3]", re.IGNORECASE)
 _OPAQUE_HEX = re.compile(r"(?:[0-9a-f]{16}|[0-9a-f]{64})")
 _MAX_VISIBLE_DEPTH = 128
+_MAX_REQUEST_BYTES = 64 * 1024
+_MAX_REQUEST_KEY_BYTES = 512
+_MAX_REQUEST_STRING_BYTES = 32 * 1024
+_MAX_REQUEST_FIELDS_AND_NODES = 4096
 _CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
 _ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
-_ALLOWED_FACTOR_KEYS = frozenset({"riskfactor"})
-_BENIGN_PROTECTED_OCCURRENCES = {
+_BENIGN_PROTECTED_GRAMMARS = {
     "actor": (
-        ("contractor", 5),
-        ("tractor", 2),
-        ("extractor", 4),
+        ("factor", 1, ("", "s")),
+        ("contractor", 5, ("name",)),
+        ("tractor", 2, ("id",)),
+        ("extractor", 4, ("notes",)),
     ),
-    "cue": (("rescue", 3), ("barbecue", 5)),
-    "gold": (("golden", 0), ("marigold", 4), ("goldfish", 0)),
-    "intervention": (("interventional", 0),),
-    "lens": (("lensing", 0), ("glens", 1)),
-    "model": (("modeling", 0), ("remodel", 2)),
-    "provider": (("providership", 0),),
-    "providers": (("providership", 0),),
-    "role": (("parole", 2),),
-    "route": (("reroute", 2), ("enroute", 2)),
-    "routes": (("reroutesummary", 2), ("enroutestatus", 2)),
-    "schedule": (("reschedule", 2),),
+    "cue": (("rescue", 3, ("notes",)), ("barbecue", 5, ("plan",))),
+    "gold": (
+        ("golden", 0, ("rule",)),
+        ("marigold", 4, ("color",)),
+        ("goldfish", 0, ("count",)),
+    ),
+    "intervention": (
+        ("interventional", 0, ("notes", "summary")),
+    ),
+    "lens": (
+        ("lensing", 0, ("notes", "summary")),
+        ("glens", 1, ("count",)),
+    ),
+    "model": (
+        ("modeling", 0, ("notes",)),
+        ("modelling", 0, ("notes",)),
+        ("remodel", 2, ("plan",)),
+    ),
+    "provider": (("providership", 0, ("notes", "summary")),),
+    "providers": (("providership", 0, ("notes", "summary")),),
+    "role": (("roleplay", 0, ("",)), ("parole", 2, ("status",))),
+    "route": (
+        ("reroute", 2, ("notes", "summary")),
+        ("enroute", 2, ("status",)),
+    ),
+    "routes": (
+        ("reroutesummary", 2, ("",)),
+        ("enroutestatus", 2, ("",)),
+    ),
+    "schedule": (("reschedule", 2, ("options",)),),
 }
 _LATER_NAMESPACE_TOKENS = frozenset(
     {
@@ -111,6 +134,8 @@ _BLIND_FORECAST_COMPONENTS = frozenset(
 _IDENTITY_RESERVED_TOKENS = frozenset({"actor", "model"})
 _RESULT_RESERVED_TOKENS = frozenset({"expected", "gold", "groundtruth"})
 _ACTOR_PRIVATE_RESERVED_TOKENS = frozenset({"role", "private"})
+_ACTOR_VISIBLE_METADATA_TOKENS = frozenset({"cue", "condition", "schedule"})
+_PRIMARY_ALLOWED_METADATA_KEYS = frozenset({"cuesurface"})
 
 
 @dataclass(frozen=True)
@@ -192,16 +217,36 @@ class Schedule:
         return tuple(row for row in self.logical_calls if row.call_kind == "probe")
 
     def to_canonical_json(self) -> str:
-        self.assert_counterbalanced()
         value: dict[str, Json] = {
             "seed": self.seed,
             "bundles": [_bundle_json(bundle) for bundle in self.bundles],
             "logical_calls": [_call_json(row) for row in self.logical_calls],
         }
-        encoded = canonical_json_bytes(value).decode("utf-8")
-        if _RESERVED_C3.search(encoded):
+        encoded = canonical_json_bytes(value)
+        detached = json.loads(encoded.decode("utf-8"))
+        if type(detached) is not dict:
+            raise ValueError("schedule snapshot is invalid")
+        detached_calls = detached.get("logical_calls")
+        if type(detached_calls) is not list or len(detached_calls) != len(
+            self.logical_calls
+        ):
+            raise ValueError("schedule snapshot is invalid")
+        snapshot_calls = []
+        for row, detached_call in zip(self.logical_calls, detached_calls):
+            if type(detached_call) is not dict:
+                raise ValueError("schedule snapshot is invalid")
+            request_payload = detached_call.get("request_payload")
+            if type(request_payload) is not dict:
+                raise ValueError("schedule snapshot is invalid")
+            snapshot_calls.append(
+                replace(row, request_payload=request_payload)
+            )
+        snapshot = replace(self, logical_calls=tuple(snapshot_calls))
+        snapshot.assert_counterbalanced()
+        text = encoded.decode("utf-8")
+        if _RESERVED_C3.search(text):
             raise ValueError("schedule contains reserved condition")
-        return encoded
+        return text
 
     def assert_counterbalanced(self) -> None:
         _assert_schedule_counterbalanced(self)
@@ -235,7 +280,9 @@ def _opaque_hex_is_allowed(field_name: str | None, value: str) -> bool:
     )
 
 
-def _assert_no_c3(value: Any) -> None:
+def _assert_no_c3(
+    value: Any, *, allow_structural_cues: bool = True
+) -> None:
     stack: list[tuple[str, Any, int, str | None]] = [
         ("visit", value, 0, None)
     ]
@@ -246,7 +293,11 @@ def _assert_no_c3(value: Any) -> None:
             active.remove(id(current))
             continue
         if type(current) is str:
-            if field_name == "cue" and current in _CUES:
+            if (
+                allow_structural_cues
+                and field_name == "cue"
+                and current in _CUES
+            ):
                 continue
             if _opaque_hex_is_allowed(field_name, current):
                 continue
@@ -306,10 +357,63 @@ def _walk_keys(value: Json):
             stack.extend(current)
 
 
+def _utf8_size(value: str) -> int:
+    try:
+        return len(value.encode("utf-8"))
+    except UnicodeEncodeError as error:
+        raise ValueError("request payload is invalid") from error
+
+
+def _request_payload_bytes(value: dict[str, Json]) -> bytes:
+    stack: list[tuple[str, Json, int]] = [("visit", value, 0)]
+    active: set[int] = set()
+    visited = 0
+    while stack:
+        operation, current, depth = stack.pop()
+        if operation == "exit":
+            active.remove(id(current))
+            continue
+        visited += 1
+        if visited > _MAX_REQUEST_FIELDS_AND_NODES:
+            raise ValueError("request payload exceeds limits")
+        if type(current) is str:
+            if _utf8_size(current) > _MAX_REQUEST_STRING_BYTES:
+                raise ValueError("request payload exceeds limits")
+            continue
+        if current is None or type(current) in {bool, int, float}:
+            continue
+        if type(current) not in {dict, list}:
+            raise ValueError("request payload is invalid")
+        if depth >= _MAX_VISIBLE_DEPTH or id(current) in active:
+            raise ValueError("request payload exceeds limits")
+        active.add(id(current))
+        stack.append(("exit", current, depth))
+        if type(current) is dict:
+            children = []
+            for key, child in current.items():
+                visited += 1
+                if visited > _MAX_REQUEST_FIELDS_AND_NODES:
+                    raise ValueError("request payload exceeds limits")
+                if type(key) is not str:
+                    raise ValueError("request payload is invalid")
+                if _utf8_size(key) > _MAX_REQUEST_KEY_BYTES:
+                    raise ValueError("request payload exceeds limits")
+                children.append(child)
+        else:
+            children = list(current)
+        for child in reversed(children):
+            stack.append(("visit", child, depth + 1))
+    encoded = canonical_json_bytes(value)
+    if len(encoded) > _MAX_REQUEST_BYTES:
+        raise ValueError("request payload exceeds limits")
+    return encoded
+
+
 def _protected_occurrence_is_benign(
     normalized: str, protected: str, start: int
 ) -> bool:
-    for context, offset in _BENIGN_PROTECTED_OCCURRENCES.get(protected, ()):
+    grammars = _BENIGN_PROTECTED_GRAMMARS.get(protected, ())
+    for context, offset, terminal_suffixes in grammars:
         context_start = start - offset
         protected_end = start + len(protected)
         context_end = context_start + len(context)
@@ -317,6 +421,7 @@ def _protected_occurrence_is_benign(
             context_start >= 0
             and protected_end <= context_end
             and normalized.startswith(context, context_start)
+            and normalized[context_end:] in terminal_suffixes
         ):
             return True
     return False
@@ -356,7 +461,6 @@ def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
         if _normalized_key_has_protected_occurrence(
             normalized,
             _IDENTITY_RESERVED_TOKENS,
-            exact_allowed=_ALLOWED_FACTOR_KEYS,
         ):
             raise ValueError("request payload contains an identity field")
 
@@ -391,13 +495,26 @@ def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
             raise ValueError("request payload contains actor-private metadata")
 
 
+def _assert_no_actor_visible_metadata_fields(
+    payload: dict[str, Json], *, primary: bool
+) -> None:
+    exact_allowed = _PRIMARY_ALLOWED_METADATA_KEYS if primary else frozenset()
+    for key in _walk_keys(payload):
+        normalized = _normalized_key(key)
+        if _normalized_key_has_protected_occurrence(
+            normalized,
+            _ACTOR_VISIBLE_METADATA_TOKENS,
+            exact_allowed=exact_allowed,
+        ):
+            raise ValueError("request payload contains condition metadata")
+
+
 def _assert_blind_forecast(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
         if _normalized_key_has_protected_occurrence(
             normalized,
             _BLIND_FORECAST_COMPONENTS,
-            exact_allowed=_ALLOWED_FACTOR_KEYS,
         ):
             raise ValueError("forecast payload contains blinded metadata")
 
@@ -405,7 +522,7 @@ def _assert_blind_forecast(payload: dict[str, Json]) -> None:
 def _validate_payload(value: Any, name: str) -> dict[str, Json]:
     if type(value) is not dict:
         _type_error(f"{name} must be a dictionary")
-    canonical_json_bytes(value)
+    _request_payload_bytes(value)
     _assert_no_result_fields(value)
     _assert_no_later_scope_fields(value)
     _assert_no_actor_metadata_fields(value)
@@ -419,10 +536,14 @@ def _detached(value: dict[str, Json]) -> dict[str, Json]:
     return detached
 
 
-def _checked_actor_payload(value: dict[str, Json]) -> dict[str, Json]:
+def _checked_actor_payload(
+    value: dict[str, Json], *, primary: bool = False
+) -> dict[str, Json]:
     assert_actor_payload_safe(value)
+    _assert_no_c3(value, allow_structural_cues=False)
     _validate_payload(value, "request_payload")
     _assert_no_identity_fields(value)
+    _assert_no_actor_visible_metadata_fields(value, primary=primary)
     return value
 
 
@@ -689,7 +810,7 @@ def compile_schedule(
                     cue=cue,
                     presentation_position=position,
                     request_payload=_checked_actor_payload(
-                        _detached(primary_payload)
+                        _detached(primary_payload), primary=True
                     ),
                 )
                 probe_payload = _detached(episode.probe_payload)
@@ -801,6 +922,8 @@ def _validate_scheduled_call(row: Any) -> LogicalCall:
         _type_error("presentation position must be an integer")
     if row.call_kind == "forecast":
         _checked_forecast_payload(row.request_payload)
+    elif row.call_kind == "primary":
+        _checked_actor_payload(row.request_payload, primary=True)
     else:
         _checked_actor_payload(row.request_payload)
     return row

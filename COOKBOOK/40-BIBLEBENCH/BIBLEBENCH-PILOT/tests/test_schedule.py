@@ -452,10 +452,13 @@ def test_forecast_rejects_blinded_metadata_with_unregistered_affixes(
         "reroutenotes",
         "riskfactor",
         "risk_factor",
+        "risk_factors",
         "contractorname",
         "tractorid",
         "extractornotes",
+        "role_play",
         "modelingnotes",
+        "modelling_notes",
         "remodelplan",
         "rescuenotes",
         "barbecueplan",
@@ -482,7 +485,7 @@ def test_forecast_rejects_blinded_metadata_with_unregistered_affixes(
         "wildmarigoldcolor",
         "pondgoldfishcount",
         "mountainglenscount",
-        "statusenroute",
+        "statusenroutestatus",
         "noninterventionalsummary",
         "newprovidershipsummary",
         "cameralensingnotes",
@@ -507,6 +510,73 @@ def test_payload_allows_registered_benign_key_families_across_calls(
         else schedule.probe_rows
     )
     assert rows[0].request_payload["outer"] == payload["outer"]
+
+
+@pytest.mark.parametrize(
+    "benign_key",
+    [
+        "auditfactor",
+        "auditfactors",
+        "storybookroleplay",
+        "ukmodellingnotes",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_allows_complete_benign_grammars_at_arbitrary_positions(
+    benign_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {benign_key: "ordinary"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    rows = (
+        schedule.forecast_rows
+        if field_name == "forecast_payload"
+        else schedule.probe_rows
+    )
+    assert rows[0].request_payload["outer"] == payload["outer"]
+
+
+@pytest.mark.parametrize(
+    "protected_key",
+    [
+        "providership_id",
+        "reschedule_id",
+        "golden_label",
+        "lensing_id",
+        "contractor_token",
+        "tractor_label",
+        "extractor_score",
+        "roleplay_config",
+        "parole_hash",
+        "modeling_token",
+        "remodel_id",
+        "marigold_label",
+        "goldfish_score",
+        "enroute_token",
+        "reroute_config",
+        "glens_id",
+        "interventional_hash",
+        "rescue_id",
+        "barbecue_label",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_rejects_benign_stems_with_unregistered_terminal_suffixes(
+    protected_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {protected_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
 
 
 @pytest.mark.parametrize(
@@ -584,19 +654,53 @@ def test_payload_scans_very_long_keys_iteratively(field_name: str) -> None:
     payload = {"outer": [{"inner": {protected_key: "opaque"}}]}
     episode = replace(pack.episodes[0], **{field_name: payload})
 
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="request payload exceeds limits"):
         compile_schedule(
             _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
         )
 
 
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
-def test_payload_scans_very_long_benign_contexts_iteratively(
+def test_payload_rejects_very_long_repeated_benign_contexts(
     field_name: str,
 ) -> None:
     pack = _pack()
     benign_key = "contractor" * 20_000
     payload = {"outer": [{"inner": {benign_key: "ordinary"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError, match="request payload exceeds limits"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "payload",
+    [
+        {"first": "x" * (32 * 1024), "second": "y" * (32 * 1024)},
+        {"é" * 257: "ordinary"},
+        {"ordinary": "é" * 16_385},
+        {"items": [None] * 4_096},
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_rejects_request_limit_overruns(
+    payload: dict, field_name: str
+) -> None:
+    pack = _pack()
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError, match="request payload exceeds limits"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_accepts_utf8_key_and_string_at_limits(field_name: str) -> None:
+    pack = _pack()
+    payload = {"é" * 256: "é" * 16_384}
     episode = replace(pack.episodes[0], **{field_name: payload})
 
     schedule = compile_schedule(
@@ -608,7 +712,35 @@ def test_payload_scans_very_long_benign_contexts_iteratively(
         if field_name == "forecast_payload"
         else schedule.probe_rows
     )
-    assert rows[0].request_payload["outer"] == payload["outer"]
+    assert next(
+        value
+        for value in rows[0].request_payload.values()
+        if type(value) is str and len(value) > 1_000
+    ) == next(iter(payload.values()))
+
+
+def test_request_limits_apply_before_payload_expansion(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], forecast_payload={"ordinary": "x" * 32_769}
+    )
+    detached_calls = 0
+    original = schedule_module._detached
+
+    def recording_detached(value):
+        nonlocal detached_calls
+        detached_calls += 1
+        return original(value)
+
+    monkeypatch.setattr(schedule_module, "_detached", recording_detached)
+
+    with pytest.raises(ValueError, match="request payload exceeds limits"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+    assert detached_calls == 0
 
 
 @pytest.mark.parametrize(
@@ -706,6 +838,46 @@ def test_authored_visible_strings_reject_embedded_condition_labels(
 
     with pytest.raises(ValueError):
         compile_schedule(invalid, actor_ids=ACTORS, seed=711)
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+@pytest.mark.parametrize(
+    "payload",
+    [
+        {"cue": "C0"},
+        {"condition": "ordinary"},
+        {"ordinary": {"nested": ["visible C2 label"]}},
+    ],
+)
+def test_authored_actor_visible_payloads_reject_condition_metadata_and_labels(
+    field_name: str, payload: dict
+) -> None:
+    pack = _pack()
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("call_kind", ["forecast", "primary", "probe"])
+def test_scheduled_actor_visible_payloads_have_no_structural_cue_exemption(
+    call_kind: str,
+) -> None:
+    schedule = _schedule()
+    calls = list(schedule.logical_calls)
+    index = next(
+        index
+        for index, row in enumerate(calls)
+        if row.call_kind == call_kind
+    )
+    payload = json.loads(json.dumps(calls[index].request_payload))
+    payload["cue"] = "C0"
+    calls[index] = replace(calls[index], request_payload=payload)
+
+    with pytest.raises(ValueError, match="reserved condition label"):
+        _schedule_with_calls(schedule, calls).assert_counterbalanced()
 
 
 def test_digest_and_opaque_id_fields_allow_incidental_hex_label_fragments() -> None:
@@ -1066,6 +1238,33 @@ def test_payload_mutation_under_original_identifiers_is_rejected(kind: str) -> N
         invalid.assert_counterbalanced()
     with pytest.raises(ValueError):
         invalid.to_canonical_json()
+
+
+def test_canonical_serialization_validates_the_encoded_payload_snapshot(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    schedule = _schedule()
+    original = schedule_module.canonical_json_bytes
+    mutated = False
+
+    def mutate_during_full_schedule_encoding(value):
+        nonlocal mutated
+        if type(value) is dict and "logical_calls" in value and not mutated:
+            schedule.logical_calls[0].request_payload["question"] = (
+                "mutated during serialization"
+            )
+            mutated = True
+        return original(value)
+
+    monkeypatch.setattr(
+        schedule_module,
+        "canonical_json_bytes",
+        mutate_during_full_schedule_encoding,
+    )
+
+    with pytest.raises(ValueError, match="logical call ID"):
+        schedule.to_canonical_json()
+    assert mutated
 
 
 def test_determinism_seed_effect_and_membership() -> None:

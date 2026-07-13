@@ -923,6 +923,7 @@ def build_metadata(
     partial_reason,
     qualifications,
     verdicts,
+    analysis,
     key_before,
     key_after,
     selection=None,
@@ -980,25 +981,341 @@ def build_metadata(
         "shadow_verdicts_recorded": evidence["shadow_verdicts_recorded"],
         "evidence": evidence,
         "reconciliation": reconciliation,
+        "analysis": analysis,
         "key_before": key_before,
         "key_after": key_after,
     }
 
 
+def comparator_value(surface, comparator, unit):
+    scores = comparator.get("scores", {})
+    if surface == "open_award":
+        return {
+            int(key): bool(value)
+            for key, value in scores.get("awards", {}).items()
+        }
+    if surface == "coherence":
+        return scores.get(unit["axis"])
+    if surface == "disclosure":
+        return scores.get("disclosure")
+    if surface == "settled_core":
+        return scores.get("settled_core")
+    raise ValueError(surface)
+
+
+def candidate_value(surface, result):
+    if surface == "open_award":
+        return result.get("awards")
+    if surface in {"coherence", "disclosure"}:
+        return result.get("value")
+    if surface == "settled_core":
+        return result.get("keypoints")
+    raise ValueError(surface)
+
+
+def agreement(candidate, comparator):
+    if isinstance(candidate, dict) and isinstance(comparator, dict):
+        left = {str(key): value for key, value in candidate.items()}
+        right = {str(key): value for key, value in comparator.items()}
+        keys = sorted(set(left) & set(right))
+        return {
+            "exact": bool(keys)
+            and all(left[key] == right[key] for key in keys),
+            "component_agreement": (
+                sum(left[key] == right[key] for key in keys) / len(keys)
+                if keys
+                else None
+            ),
+            "n_components": len(keys),
+        }
+    return {
+        "exact": candidate == comparator,
+        "component_agreement": float(candidate == comparator),
+        "n_components": 1,
+    }
+
+
+def build_agreement_rows(selection, verdicts):
+    units = {
+        (
+            unit["surface"],
+            unit["item_id"],
+            unit["sut_slug"],
+            unit["response_sha256"],
+        ): unit
+        for unit in selection
+    }
+    rows = []
+    for verdict in verdicts:
+        key = (
+            verdict.get("surface"),
+            verdict.get("item_id"),
+            verdict.get("sut_slug"),
+            verdict.get("response_sha256"),
+        )
+        unit = units.get(key)
+        result = verdict.get("result") or {}
+        if unit is None or verdict.get("error") or not result.get("graded"):
+            continue
+        value = candidate_value(verdict["surface"], result)
+        for comparator_name, comparator in unit.get("comparators", {}).items():
+            if comparator_name not in {"gemini-flash", "grok-4.20"}:
+                continue
+            incumbent = comparator_value(verdict["surface"], comparator, unit)
+            if incumbent is None:
+                continue
+            rows.append(
+                {
+                    "judge": verdict["judge"],
+                    "surface": verdict["surface"],
+                    "item_id": verdict["item_id"],
+                    "sut_slug": verdict["sut_slug"],
+                    "response_sha256": verdict["response_sha256"],
+                    "comparator": comparator_name,
+                    **agreement(value, incumbent),
+                }
+            )
+    return rows
+
+
+def _row_cost(row, catalog):
+    total = 0.0
+    for entry in row.get("usage", []):
+        usage = entry.get("usage", {})
+        if usage.get("cost") not in (None, ""):
+            if not _finite_nonnegative(usage["cost"]):
+                raise PreflightError(
+                    "persisted actual cost must be finite and nonnegative"
+                )
+            total += float(usage["cost"])
+            continue
+        prompt_tokens = usage.get("prompt_tokens")
+        completion_tokens = usage.get("completion_tokens")
+        if not all(
+            _finite_nonnegative_integer(value)
+            for value in (prompt_tokens, completion_tokens)
+        ):
+            raise PreflightError(
+                "persisted usage lacks actual cost or strict token fallback"
+            )
+        total += mvp.cell_cost(
+            prompt_tokens,
+            completion_tokens,
+            mvp.price_for(row["slug"], catalog),
+        )
+    return total
+
+
+def operational_summary(raw_records, verdicts, catalog):
+    by_judge = {}
+    for name, _family, _slug in CANDIDATES:
+        calls = [
+            record
+            for record in raw_records
+            if record.get("kind") == "raw_call"
+            and record.get("judge") == name
+        ]
+        timings = [
+            record.get("elapsed_seconds")
+            for record in raw_records
+            if record.get("kind") == "call_timing"
+            and record.get("judge") == name
+            and _finite_nonnegative(record.get("elapsed_seconds"))
+        ]
+        usage = [
+            entry.get("usage", {})
+            for row in calls
+            for entry in row.get("usage", [])
+        ]
+        judged = [verdict for verdict in verdicts if verdict.get("judge") == name]
+        try:
+            actual_cost = sum(_row_cost(row, catalog) for row in calls)
+        except (PreflightError, mvp.PricingError, ValueError, TypeError):
+            actual_cost = None
+        by_judge[name] = {
+            "calls": len(calls),
+            "retries": sum(int(row.get("attempt", 0)) > 0 for row in calls),
+            "truncations": sum(bool(row.get("truncated")) for row in calls),
+            "prompt_tokens": sum(
+                value.get("prompt_tokens", 0)
+                for value in usage
+                if _finite_nonnegative_integer(value.get("prompt_tokens", 0))
+            ),
+            "completion_tokens": sum(
+                value.get("completion_tokens", 0)
+                for value in usage
+                if _finite_nonnegative_integer(
+                    value.get("completion_tokens", 0)
+                )
+            ),
+            "actual_cost_usd": actual_cost,
+            "mean_call_seconds": (
+                sum(timings) / len(timings) if timings else None
+            ),
+            "parse_fraction": (
+                sum(
+                    verdict.get("result", {}).get("graded") is True
+                    for verdict in judged
+                    if isinstance(verdict.get("result"), dict)
+                )
+                / len(judged)
+                if judged
+                else 0.0
+            ),
+            "errors": sum(verdict.get("error") is not None for verdict in judged),
+        }
+    return by_judge
+
+
+def qualification_summary(qualifications):
+    return {
+        name: {
+            "eligible_surfaces": sorted(qualification.surfaces),
+            "probes": {
+                probe: {
+                    "n_pass": reps.n_pass,
+                    "k": reps.k,
+                    "cause_tally": reps.cause_tally(),
+                }
+                for probe, reps in qualification.probe_reps.items()
+            },
+        }
+        for name, qualification in qualifications.items()
+        if isinstance(qualification, JudgeQualification)
+    }
+
+
+def candidate_labels(qualification, family, parse_fraction):
+    labels = [
+        (
+            f"SHADOW-ELIGIBLE FOR {surface}"
+            if surface in qualification.surfaces
+            else f"SHADOW-INELIGIBLE FOR {surface}"
+        )
+        for surface in SURFACE_COUNTS
+    ]
+    if family in {"deepseek", "z-ai"}:
+        labels.append("INDEPENDENCE-CONFLICTED")
+    if parse_fraction == 0:
+        labels.append("INSUFFICIENT EVIDENCE")
+    return labels
+
+
+def dominates(left, right):
+    better_or_equal = (
+        left["eligible_count"] >= right["eligible_count"]
+        and left["parse_fraction"] >= right["parse_fraction"]
+        and left["actual_cost_usd"] <= right["actual_cost_usd"]
+        and left["independence_conflicts"] <= right["independence_conflicts"]
+    )
+    strictly_better = (
+        left["eligible_count"] > right["eligible_count"]
+        or left["parse_fraction"] > right["parse_fraction"]
+        or left["actual_cost_usd"] < right["actual_cost_usd"]
+        or left["independence_conflicts"] < right["independence_conflicts"]
+    )
+    return better_or_equal and strictly_better
+
+
+def pareto_names(qualifications, operations):
+    if not all(
+        isinstance(qualifications.get(name), JudgeQualification)
+        and _finite_nonnegative(operations.get(name, {}).get("actual_cost_usd"))
+        for name, _family, _slug in CANDIDATES
+    ):
+        return []
+    metrics = {}
+    for name, family, _slug in CANDIDATES:
+        qualification = qualifications[name]
+        metrics[name] = {
+            "eligible_count": len(qualification.surfaces),
+            "parse_fraction": operations[name]["parse_fraction"],
+            "actual_cost_usd": operations[name]["actual_cost_usd"],
+            "independence_conflicts": int(family in {"deepseek", "z-ai"}),
+        }
+    return sorted(
+        name
+        for name in metrics
+        if not any(
+            dominates(other, metrics[name])
+            for other_name, other in metrics.items()
+            if other_name != name
+        )
+    )
+
+
 def build_report(metadata, qualifications, verdicts, selection):
-    status = metadata["run_status"]
-    return "\n".join(
-        [
-            "# WCF-Bench — Shadow Judge Bakeoff",
-            "",
-            "**SHADOW / NOT A QUALIFICATION MANIFEST**",
-            "",
-            f"Run status: **{status}**",
-            "",
-            f"partial_reason: {metadata.get('partial_reason')}",
+    analysis = metadata["analysis"]
+    comparator_counts = Counter(
+        (row["judge"], row["surface"], row["comparator"])
+        for row in analysis["agreement"]
+    )
+    lines = [
+        "# WCF-Bench — Shadow Judge Bakeoff",
+        "",
+        "**SHADOW / NOT A QUALIFICATION MANIFEST**",
+        "",
+        f"Run status: **{metadata['run_status']}**",
+        "",
+        "This descriptive report does not change T4, the panel, the manifest, "
+        "or the closed candidate ladder.",
+        "",
+        "## Scope",
+        "",
+        f"Surface denominators: `{SURFACE_COUNTS}`; seed {SEED}.",
+        "Comparator-specific denominators: "
+        f"`{dict(sorted(comparator_counts.items(), key=str))}`.",
+        "",
+        "## Qualification",
+        "",
+        "```json",
+        json.dumps(analysis["qualification"], indent=2, sort_keys=True),
+        "```",
+        "",
+    ]
+    for name, family, _slug in CANDIDATES:
+        qualification = qualifications.get(name)
+        if not isinstance(qualification, JudgeQualification):
+            lines.append(f"- {name}: INSUFFICIENT EVIDENCE")
+        else:
+            parse_fraction = analysis["operations"].get(name, {}).get(
+                "parse_fraction", 0.0
+            )
+            lines.append(
+                f"- {name}: surfaces={sorted(qualification.surfaces)}; "
+                f"labels={candidate_labels(qualification, family, parse_fraction)}"
+            )
+    lines += [
+        "",
+        "## Real-response agreement",
+        "",
+        "Incumbent agreement is descriptive and the incumbents are not human labels.",
+        "",
+        "```json",
+        json.dumps(analysis["agreement"], indent=2, sort_keys=True),
+        "```",
+        "",
+        "## Operations",
+        "",
+        "```json",
+        json.dumps(analysis["operations"], indent=2, sort_keys=True),
+        "```",
+        "",
+        "Internal actual/fallback cost: "
+        f"${metadata.get('internal_total_usd') or 0:.4f}.",
+        "",
+        "## PARETO recommendation",
+        "",
+        f"Non-dominated shadow candidates: {analysis['pareto_names']}.",
+        "No weighted composite is used. No label authorizes deployment.",
+        "",
+    ]
+    if metadata.get("partial_reason"):
+        lines += [
+            f"> PARTIAL / STOPPED: {metadata['partial_reason']}",
             "",
         ]
-    )
+    return "\n".join(lines)
 
 
 def execute_live(
@@ -1170,6 +1487,17 @@ def execute_live(
         key_after=key_after,
         budget=budget,
     )
+    operations = operational_summary(raw_records, verdicts, catalog)
+    analysis = {
+        "qualification": qualification_summary(qualifications),
+        "agreement": build_agreement_rows(selection, verdicts),
+        "operations": operations,
+        "pareto_names": (
+            pareto_names(qualifications, operations)
+            if len(qualifications) == len(CANDIDATES)
+            else []
+        ),
+    }
     partial_reason = "; ".join(partial_reasons) or None
     metadata = build_metadata(
         catalog=catalog,
@@ -1178,6 +1506,7 @@ def execute_live(
         partial_reason=partial_reason,
         qualifications=qualifications,
         verdicts=verdicts,
+        analysis=analysis,
         key_before=key_before,
         key_after=key_after,
         selection=selection,
@@ -1203,3 +1532,47 @@ def execute_live(
         internal,
         partial_reason,
     )
+
+
+def print_plan(budget):
+    print("WCF-Bench shadow judge bakeoff — DRY RUN (0 network calls)")
+    print(
+        f"candidates={CANDIDATES}; K={K}; surfaces={SURFACE_COUNTS}; "
+        f"budget=${budget:.2f}"
+    )
+    print(f"live output (created only with --go): {RUN_DIR}")
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--go", action="store_true")
+    parser.add_argument("--budget", type=float, default=MAX_BUDGET)
+    args = parser.parse_args(argv)
+    try:
+        validate_options(args.budget)
+    except PreflightError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
+    if not args.go:
+        print_plan(args.budget)
+        return 0
+    api_key = os.environ.get("OPENROUTER_API_KEY")
+    if not api_key:
+        print("ERROR: $OPENROUTER_API_KEY is required with --go", file=sys.stderr)
+        return 2
+    try:
+        outcome = execute_live(api_key, budget=args.budget)
+    except (
+        PreflightError,
+        OutputPathError,
+        mvp.SlugValidationError,
+        mvp.PricingError,
+    ) as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
+    print(f"wrote {outcome.paths}")
+    return 3 if outcome.partial_reason else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

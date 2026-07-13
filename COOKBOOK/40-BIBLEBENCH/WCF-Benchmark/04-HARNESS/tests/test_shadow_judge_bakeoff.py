@@ -891,6 +891,12 @@ def test_metadata_cannot_claim_complete_above_budget():
         partial_reason=None,
         qualifications={name: {} for name, _family, _slug in r.CANDIDATES},
         verdicts=[],
+        analysis={
+            "qualification": {},
+            "agreement": [],
+            "operations": {},
+            "pareto_names": [],
+        },
         key_before={"usage": 1.0, "limit_remaining": 9.0},
         key_after={"usage": 2.01, "limit_remaining": 7.99},
     )
@@ -1975,3 +1981,364 @@ def test_invalid_key_after_becomes_reconciliation_partial(tmp_path):
     assert "key-after" in outcome.partial_reason
     assert metadata["run_status"] == "PARTIAL"
     assert metadata["reconciliation"]["status"] == "UNRECONCILED"
+
+
+def test_comparator_and_candidate_values_are_surface_specific():
+    r = _runner()
+    unit = {"axis": "manner"}
+    comparator = {
+        "scores": {
+            "awards": {"1": True, "2": False},
+            "manner": 0.75,
+            "disclosure": 0.5,
+            "settled_core": {"floor": True},
+        }
+    }
+
+    assert r.comparator_value("open_award", comparator, unit) == {
+        1: True,
+        2: False,
+    }
+    assert r.comparator_value("coherence", comparator, unit) == 0.75
+    assert r.comparator_value("disclosure", comparator, unit) == 0.5
+    assert r.comparator_value("settled_core", comparator, unit) == {
+        "floor": True
+    }
+    assert r.candidate_value("open_award", {"awards": {"1": True}}) == {
+        "1": True
+    }
+    assert r.candidate_value("coherence", {"value": 0.75}) == 0.75
+    assert r.candidate_value("disclosure", {"value": 0.5}) == 0.5
+    assert r.candidate_value(
+        "settled_core", {"keypoints": {"floor": True}}
+    ) == {"floor": True}
+
+
+def test_agreement_is_componentwise_and_requires_shared_components():
+    r = _runner()
+    assert r.agreement({"1": True, "2": False}, {1: True, 2: True}) == {
+        "exact": False,
+        "component_agreement": 0.5,
+        "n_components": 2,
+    }
+    assert r.agreement({}, {}) == {
+        "exact": False,
+        "component_agreement": None,
+        "n_components": 0,
+    }
+    assert r.agreement(0.75, 0.75) == {
+        "exact": True,
+        "component_agreement": 1.0,
+        "n_components": 1,
+    }
+
+
+def test_agreement_rows_require_exact_response_identity_and_known_comparator():
+    r = _runner()
+    selection = [
+        {
+            "surface": "disclosure",
+            "item_id": "I1",
+            "sut_slug": "sut",
+            "response_sha256": "same-response",
+            "comparators": {
+                "gemini-flash": {"scores": {"disclosure": 0.5}},
+                "grok-4.20": {"scores": {"disclosure": None}},
+                "gpt4omini": {"scores": {"disclosure": 0.5}},
+            },
+        }
+    ]
+    verdicts = [
+        {
+            "judge": "glm-5.2",
+            "surface": "disclosure",
+            "item_id": "I1",
+            "sut_slug": "sut",
+            "response_sha256": "same-response",
+            "result": {"graded": True, "value": 0.5},
+            "error": None,
+        },
+        {
+            "judge": "deepseek-v4-pro",
+            "surface": "disclosure",
+            "item_id": "I1",
+            "sut_slug": "sut",
+            "response_sha256": "different-response",
+            "result": {"graded": True, "value": 0.5},
+            "error": None,
+        },
+    ]
+
+    assert r.build_agreement_rows(selection, verdicts) == [
+        {
+            "judge": "glm-5.2",
+            "surface": "disclosure",
+            "item_id": "I1",
+            "sut_slug": "sut",
+            "response_sha256": "same-response",
+            "comparator": "gemini-flash",
+            "exact": True,
+            "component_agreement": 1.0,
+            "n_components": 1,
+        }
+    ]
+
+
+def test_operational_summary_prefers_actual_cost_then_catalog_fallback():
+    r = _runner()
+    name, family, slug = r.CANDIDATES[0]
+    raw = [
+        {
+            "kind": "raw_call",
+            "judge": name,
+            "family": family,
+            "slug": slug,
+            "attempt": 0,
+            "truncated": False,
+            "error": None,
+            "usage": [
+                {
+                    "usage": {
+                        "prompt_tokens": 10,
+                        "completion_tokens": 5,
+                        "cost": 0.002,
+                    }
+                }
+            ],
+        },
+        {
+            "kind": "raw_call",
+            "judge": name,
+            "family": family,
+            "slug": slug,
+            "attempt": 1,
+            "truncated": True,
+            "error": "transient",
+            "usage": [
+                {"usage": {"prompt_tokens": 3, "completion_tokens": 2}}
+            ],
+        },
+        {
+            "kind": "call_timing",
+            "judge": name,
+            "elapsed_seconds": 0.2,
+        },
+        {
+            "kind": "call_timing",
+            "judge": name,
+            "elapsed_seconds": 0.4,
+        },
+    ]
+    verdicts = [
+        {"judge": name, "result": {"graded": True}, "error": None},
+        {"judge": name, "result": None, "error": "parse failed"},
+    ]
+    operations = r.operational_summary(raw, verdicts, _live_catalog(r))
+
+    assert operations[name] == {
+        "calls": 2,
+        "retries": 1,
+        "truncations": 1,
+        "prompt_tokens": 13,
+        "completion_tokens": 7,
+        "actual_cost_usd": pytest.approx(0.002005),
+        "mean_call_seconds": pytest.approx(0.3),
+        "parse_fraction": 0.5,
+        "errors": 1,
+    }
+    assert operations[r.CANDIDATES[1][0]]["calls"] == 0
+    assert operations[r.CANDIDATES[1][0]]["actual_cost_usd"] == 0.0
+
+
+def test_qualification_summary_labels_and_componentwise_pareto():
+    r = _runner()
+    qualifications = _complete_qualifications(r)
+    qualifications[r.CANDIDATES[0][0]].surfaces = set(r.SURFACE_COUNTS)
+    qualifications[r.CANDIDATES[1][0]].surfaces = {"coherence"}
+    summary = r.qualification_summary(qualifications)
+    assert summary[r.CANDIDATES[0][0]]["eligible_surfaces"] == sorted(
+        r.SURFACE_COUNTS
+    )
+    assert summary[r.CANDIDATES[0][0]]["probes"]["g4"] == {
+        "n_pass": r.K,
+        "k": r.K,
+        "cause_tally": {"pass": r.K},
+    }
+    labels = r.candidate_labels(
+        qualifications[r.CANDIDATES[1][0]], "deepseek", 0.0
+    )
+    assert "SHADOW-ELIGIBLE FOR coherence" in labels
+    assert "SHADOW-INELIGIBLE FOR open_award" in labels
+    assert "INDEPENDENCE-CONFLICTED" in labels
+    assert "INSUFFICIENT EVIDENCE" in labels
+
+    operations = {
+        r.CANDIDATES[0][0]: {
+            "parse_fraction": 1.0,
+            "actual_cost_usd": 0.1,
+        },
+        r.CANDIDATES[1][0]: {
+            "parse_fraction": 0.5,
+            "actual_cost_usd": 0.2,
+        },
+    }
+    assert r.pareto_names(qualifications, operations) == [r.CANDIDATES[0][0]]
+
+
+def test_report_forbids_accuracy_and_production_effect():
+    r = _runner()
+    qualifications = _complete_qualifications(r)
+    report = r.build_report(
+        {
+            "artifact_kind": "SHADOW / NOT A QUALIFICATION MANIFEST",
+            "run_status": "COMPLETE",
+            "internal_total_usd": 0.2,
+            "partial_reason": None,
+            "analysis": {
+                "qualification": {},
+                "agreement": [],
+                "operations": {},
+                "pareto_names": [],
+            },
+        },
+        qualifications,
+        [],
+        [],
+    )
+    assert "SHADOW / NOT A QUALIFICATION MANIFEST" in report
+    assert "PARETO" in report
+    assert "T4" in report
+    assert "panel" in report
+    assert "manifest" in report
+    assert "closed candidate ladder" in report
+    assert "accuracy" not in report.lower()
+    assert "more accurate" not in report.lower()
+    assert "production judge" not in report.lower()
+    assert "No label authorizes" in report
+
+
+def test_dry_run_has_zero_network_and_creates_no_directory(
+    tmp_path, monkeypatch
+):
+    r = _runner()
+    run_dir = tmp_path / "shadow"
+    monkeypatch.setattr(r, "RUN_DIR", str(run_dir))
+    monkeypatch.setattr(
+        r.mvp, "fetch_key_snapshot", lambda *_a, **_k: 1 / 0
+    )
+    assert r.main([]) == 0
+    assert not run_dir.exists()
+
+
+def test_cli_requires_key_only_with_go(monkeypatch):
+    r = _runner()
+    monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
+    assert r.main(["--budget", "1.00"]) == 0
+    assert r.main(["--go", "--budget", "1.00"]) == 2
+    assert r.main(["--budget", "1.01"]) == 2
+
+
+def test_fully_mocked_exact_evidence_reaches_complete_with_analysis(tmp_path):
+    r = _runner()
+    out_dir = tmp_path / "shadow"
+    selection = _exact_selection(r)
+    for unit in selection:
+        if unit["surface"] == "open_award":
+            scores = {"awards": {"1": True}}
+        elif unit["surface"] == "coherence":
+            scores = {unit["axis"]: 1.0}
+        elif unit["surface"] == "disclosure":
+            scores = {"disclosure": 1.0}
+        else:
+            scores = {"settled_core": {"floor": True}}
+        unit["comparators"] = {
+            "gemini-flash": {"scores": scores},
+            "grok-4.20": {"scores": scores},
+        }
+
+    class FakeClient:
+        def __init__(self, model, **kwargs):
+            self.model = model
+            self.max_tokens = kwargs["max_tokens"]
+            self.usage_log = []
+            self.last_finish_reason = "stop"
+            self.last_truncated = False
+
+        def complete(self, prompt, item_id=None):
+            self.usage_log.append(
+                {
+                    "usage": {
+                        "prompt_tokens": 1,
+                        "completion_tokens": 1,
+                        "total_tokens": 2,
+                        "cost": 0.001,
+                    }
+                }
+            )
+            return "synthetic"
+
+    def fake_qualify(client, *, name, family, slug, **_kwargs):
+        client.complete("probe", item_id="QUALIFICATION")
+        qualification = _complete_qualification(r, name, family, slug)
+        qualification.surfaces = set(r.SURFACE_COUNTS)
+        return qualification
+
+    def fake_score(units, *, sink, now, **_kwargs):
+        records = []
+        for name, _family, _slug in r.CANDIDATES:
+            for unit in units:
+                if unit["surface"] == "open_award":
+                    result = {"graded": True, "awards": {"1": True}}
+                elif unit["surface"] in {"coherence", "disclosure"}:
+                    result = {"graded": True, "value": 1.0}
+                else:
+                    result = {
+                        "graded": True,
+                        "keypoints": {"floor": True},
+                    }
+                record = {
+                    "kind": "shadow_verdict",
+                    "timestamp": now(),
+                    "judge": name,
+                    "surface": unit["surface"],
+                    "item_id": unit["item_id"],
+                    "sut_slug": unit["sut_slug"],
+                    "response_sha256": unit["response_sha256"],
+                    "elapsed_seconds": 0.0,
+                    "result": result,
+                    "error": None,
+                }
+                sink.write(record)
+                records.append(record)
+        return records
+
+    snapshots = iter(
+        [
+            {"usage": 1.0, "limit_remaining": 9.0},
+            {"usage": 1.002, "limit_remaining": 8.998},
+        ]
+    )
+    outcome = r.execute_live(
+        "secret",
+        out_dir=str(out_dir),
+        key_fetch=lambda _key: next(snapshots),
+        catalog_fetch=lambda _key: _live_catalog(r),
+        client_builder=FakeClient,
+        qualify_fn=fake_qualify,
+        selection_fn=lambda **_kwargs: selection,
+        score_fn=fake_score,
+        now=lambda: "2026-07-12T00:00:00",
+    )
+
+    metadata = json.loads((out_dir / "shadow-run-metadata.json").read_text())
+    report = (out_dir / "20260712-shadow-judge-bakeoff-report.md").read_text()
+    assert outcome.partial_reason is None
+    assert metadata["run_status"] == "COMPLETE"
+    assert metadata["analysis"]["pareto_names"] == sorted(
+        name for name, _family, _slug in r.CANDIDATES
+    )
+    assert len(metadata["analysis"]["agreement"]) == 112
+    assert metadata["analysis"]["operations"]["glm-5.2"]["calls"] == 1
+    assert "SHADOW / NOT A QUALIFICATION MANIFEST" in report
+    assert "accuracy" not in report.lower()
+    assert not any("manifest" in path.name.lower() for path in out_dir.iterdir())

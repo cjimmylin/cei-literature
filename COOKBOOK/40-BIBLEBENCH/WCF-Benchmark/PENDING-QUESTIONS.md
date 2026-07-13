@@ -33,8 +33,13 @@ precedes implementation. There are no unresolved judgment questions in this file
   `google/gemini-2.5-flash` evidence; no new Grok or Gemini calls.
 - **Budget:** strict $1.00 not-to-exceed cap. This authorization does not extend to T3,
   T4, another model, a substitute slug, or a production-panel change.
-- **Design of record:** `20260712n-shadow-judge-bakeoff-design.md`, pending Jimmy's review
-  of the written spec before implementation.
+- **Design of record:** `20260712n-shadow-judge-bakeoff-design.md`, approved by Jimmy and
+  amended only by the evidence-count correction below.
+- **Written-spec review:** Jimmy approved the design on 2026-07-12, then approved the
+  evidence-count amendment in `20260712p-shadow-judge-bakeoff-design-amendment.md`:
+  8 OPEN + 8 coherence + all 6 compatible disclosure + all 6 compatible settled-core
+  units = 56 new shadow verdicts. No incumbent reruns; $1 cap unchanged.
+- **Implementation plan:** `20260712q-shadow-judge-bakeoff-implementation-plan.md`.
 
 ## Rulings received 2026-07-11
 

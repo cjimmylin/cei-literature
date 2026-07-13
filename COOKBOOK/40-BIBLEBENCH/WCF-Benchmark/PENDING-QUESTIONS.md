@@ -25,8 +25,11 @@ candidate ladder, change the manifest, or authorize any T3/T4 call. Written-spec
 preceded implementation. The one authorized run is now immutable and labeled `PARTIAL`:
 all 96 probe repetitions and 56 shadow-verdict attempts were persisted, but reconciliation
 was `UNRECONCILED` because the runner's internal attributed total was $0.69776393843 while
-key-wide usage increased by $5.426614419 during the pre/post interval. All further paid
-calls are frozen pending Jimmy's disposition of the question below.
+key-wide usage increased by $5.426614419 during the pre/post interval. The reconciliation
+question is **RESOLVED** by Jimmy's 2026-07-13 ratification in
+`20260713a-jimmy-shadow-reconciliation-ratification-record.md`. Paid calls remain
+unauthorized and frozen pending separate task-specific written roster, budget, and cap
+authorization.
 
 ## Jimmy authorization received 2026-07-12 — shadow judge bakeoff
 

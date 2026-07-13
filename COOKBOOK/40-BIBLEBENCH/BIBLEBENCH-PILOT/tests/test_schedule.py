@@ -639,6 +639,58 @@ def test_payload_preserves_registered_noncomponent_grammars(
 @pytest.mark.parametrize(
     "protected_key",
     [
+        "resCUENotes",
+        "reSCHEDULEOptions",
+        "contrACTORName",
+        "reMODELPlan",
+        "mariGOLDColor",
+        "paROLEStatus",
+        "userROLEPlay",
+        "statusROLEPlay",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_rejects_acronym_title_reserved_components(
+    protected_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], **{field_name: {protected_key: "opaque"}}
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_preserves_ordinary_acronym_and_hash_keys(
+    field_name: str,
+) -> None:
+    pack = _pack()
+    payload = {
+        "HTTPStatus": "ordinary",
+        "taskSHA256": "c3" + "a" * 62,
+    }
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    rows = (
+        schedule.forecast_rows
+        if field_name == "forecast_payload"
+        else schedule.probe_rows
+    )
+    assert rows[0].request_payload["HTTPStatus"] == "ordinary"
+    assert rows[0].request_payload["taskSHA256"] == payload["taskSHA256"]
+
+
+@pytest.mark.parametrize(
+    "protected_key",
+    [
         "providership_id",
         "reschedule_id",
         "golden_label",
@@ -839,6 +891,89 @@ def test_request_limits_apply_before_payload_expansion(
             _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
         )
     assert detached_calls == 0
+
+
+def test_pack_request_label_budgets_are_scoped_per_payload() -> None:
+    pack = _pack()
+    episodes = tuple(
+        replace(
+            episode,
+            forecast_payload={"items": [None] * 150},
+            probe_payload={"items": [None] * 150},
+        )
+        for episode in pack.episodes
+    )
+
+    schedule = compile_schedule(
+        replace(pack, episodes=episodes), actor_ids=ACTORS, seed=711
+    )
+
+    assert len(schedule.logical_calls) == 336
+
+
+def test_pack_accepts_one_request_at_node_budget_boundary() -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], forecast_payload={"items": [None] * 4_093}
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert len(schedule.forecast_rows[0].request_payload["items"]) == 4_093
+
+
+def test_pack_rejects_one_request_over_node_budget() -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], forecast_payload={"items": [None] * 4_094}
+    )
+
+    with pytest.raises(ValueError, match="limits"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_pack_rejects_one_variant_over_label_walk_budget() -> None:
+    pack = _pack()
+    variant = replace(
+        pack.episodes[0].variants[0],
+        decoding={"items": [None] * 4_094},
+    )
+
+    with pytest.raises(ValueError, match="limits"):
+        compile_schedule(
+            _with_variant(pack, 0, 0, variant), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "location", ["episode_id", "shared_body", "cue_surface"]
+)
+def test_scoped_pack_label_walk_still_rejects_authored_c3(
+    location: str,
+) -> None:
+    pack = _pack()
+    if location == "episode_id":
+        episode = replace(pack.episodes[0], episode_id="ep-C3")
+        invalid = _with_episode(pack, 0, episode)
+    elif location == "shared_body":
+        variants = tuple(
+            replace(variant, shared_body="visible C3")
+            for variant in pack.episodes[0].variants
+        )
+        episode = replace(pack.episodes[0], variants=variants)
+        invalid = _with_episode(pack, 0, episode)
+    else:
+        variant = replace(
+            pack.episodes[0].variants[0], cue_surface="visible C3"
+        )
+        invalid = _with_variant(pack, 0, 0, variant)
+
+    with pytest.raises(ValueError, match="reserved condition label"):
+        compile_schedule(invalid, actor_ids=ACTORS, seed=711)
 
 
 @pytest.mark.parametrize(
@@ -1540,6 +1675,15 @@ def test_compile_rejects_an_added_c3_field_anywhere_in_pack() -> None:
     object.__setattr__(pack.episodes[0], "c3", {"otherwise": "innocent"})
 
     with pytest.raises(ValueError):
+        compile_schedule(pack, actor_ids=ACTORS, seed=711)
+
+
+def test_scoped_pack_scalar_walk_remains_bounded() -> None:
+    pack = _pack()
+    for index in range(4_096):
+        object.__setattr__(pack, f"extra_{index}", None)
+
+    with pytest.raises(ValueError, match="traversal limits"):
         compile_schedule(pack, actor_ids=ACTORS, seed=711)
 
 

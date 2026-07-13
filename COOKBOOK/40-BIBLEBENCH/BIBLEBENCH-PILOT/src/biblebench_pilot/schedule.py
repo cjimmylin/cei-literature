@@ -39,7 +39,9 @@ _MAX_REQUEST_BYTES = 64 * 1024
 _MAX_REQUEST_KEY_BYTES = 512
 _MAX_REQUEST_STRING_BYTES = 32 * 1024
 _MAX_REQUEST_FIELDS_AND_NODES = 4096
-_CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
+_CAMEL_KEY_BOUNDARY = re.compile(
+    r"(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])"
+)
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
 _ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
 _BENIGN_PROTECTED_GRAMMARS = {
@@ -356,6 +358,17 @@ def _assert_no_c3(
             stack.append(("visit", child, depth + 1, child_field))
 
 
+def _assert_no_c3_fields(
+    value: Any, *, excluded: frozenset[str] = frozenset()
+) -> None:
+    attributes = vars(value)
+    if len(attributes) > _MAX_REQUEST_FIELDS_AND_NODES:
+        raise ValueError("value exceeds reserved-label traversal limits")
+    for name, child in attributes.items():
+        if name not in excluded:
+            _assert_no_c3({name: child})
+
+
 def _normalized_key(value: str) -> str:
     return "".join(character.casefold() for character in value if character.isalnum())
 
@@ -588,6 +601,7 @@ def _assert_blind_forecast(payload: dict[str, Json]) -> None:
 def _validate_payload(value: Any, name: str) -> dict[str, Json]:
     if type(value) is not dict:
         _type_error(f"{name} must be a dictionary")
+    _assert_no_c3(value, allow_structural_cues=False)
     _request_payload_bytes(value)
     _assert_no_result_fields(value)
     _assert_no_later_scope_fields(value)
@@ -606,7 +620,6 @@ def _checked_actor_payload(
     value: dict[str, Json], *, primary: bool = False
 ) -> dict[str, Json]:
     assert_actor_payload_safe(value)
-    _assert_no_c3(value, allow_structural_cues=False)
     _validate_payload(value, "request_payload")
     _assert_no_identity_fields(value)
     _assert_no_actor_visible_metadata_fields(value, primary=primary)
@@ -622,6 +635,7 @@ def _checked_forecast_payload(value: dict[str, Json]) -> dict[str, Json]:
 def _validate_variant(variant: Any) -> CueVariant:
     if type(variant) is not CueVariant:
         _type_error("variants must contain CueVariant values")
+    _assert_no_c3(variant)
     if type(variant.cue) is not str or variant.cue not in _CUES:
         raise ValueError("invalid cue")
     _strict_string(variant.cue_surface, "cue_surface")
@@ -652,6 +666,12 @@ def _validate_variant(variant: Any) -> CueVariant:
 def _validate_episode(episode: Any) -> DevelopmentEpisode:
     if type(episode) is not DevelopmentEpisode:
         _type_error("episodes must contain DevelopmentEpisode values")
+    _assert_no_c3_fields(
+        episode,
+        excluded=frozenset(
+            {"forecast_payload", "probe_payload", "variants"}
+        ),
+    )
     _strict_string(episode.episode_id, "episode_id")
     if type(episode.role) is not str or episode.role not in _ROLES:
         raise ValueError("invalid episode role")
@@ -696,7 +716,7 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
 def _validate_pack(pack: Any) -> DevelopmentPack:
     if type(pack) is not DevelopmentPack:
         _type_error("pack must be a DevelopmentPack")
-    _assert_no_c3(pack)
+    _assert_no_c3_fields(pack, excluded=frozenset({"episodes"}))
     if type(pack.module) is not str or pack.module not in _MODULES:
         raise ValueError("invalid module")
     if type(pack.episodes) is not tuple:
@@ -1086,7 +1106,9 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
     _assert_no_c3(schedule.seed)
     _assert_no_c3(schedule.bundles)
     for row in schedule.logical_calls:
-        _assert_no_c3(row)
+        _assert_no_c3_fields(
+            row, excluded=frozenset({"request_payload"})
+        )
 
     bundles = tuple(_validate_scheduled_bundle(bundle) for bundle in schedule.bundles)
     calls = tuple(_validate_scheduled_call(row) for row in schedule.logical_calls)

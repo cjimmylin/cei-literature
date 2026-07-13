@@ -384,9 +384,28 @@ class EpisodeRunOutcome:
 
     @property
     def done(self) -> bool:
-        return (len(self.records) == self.expected_cells
+        return (self.stop_reason is None
+                and len(self.records) == self.expected_cells
                 and all(record.get("status") in {"scored", "error"}
                         for record in self.records))
+
+
+def _terminal_stop_record(cell: EpisodePlanCell, key: str, stop_class: str,
+                          stop_reason: str,
+                          participants: Sequence[Tuple[str, str, Any]],
+                          usage_before: Dict[int, int],
+                          now: Callable[[], str]) -> Optional[Dict[str, Any]]:
+    usage = _usage_since(participants, usage_before)
+    if not usage["calls"]:
+        return None
+    error = (stop_reason if stop_reason.startswith(f"{stop_class}:")
+             else f"{stop_class}: {stop_reason}")
+    return {
+        "cell_key": key, "item_id": cell.item.id, "sut": cell.sut,
+        "status": "error", "error": error,
+        "stop": {"class": stop_class, "reason": stop_reason},
+        "timestamp": now(), "usage": usage,
+    }
 
 
 def run_execution(plan: Sequence[EpisodePlanCell], sut_clients: Dict[str, Any],
@@ -409,15 +428,22 @@ def run_execution(plan: Sequence[EpisodePlanCell], sut_clients: Dict[str, Any],
             continue
         participants, usage_before = _usage_context(
             cell, retrying[cell.sut], panel)
+        stop = False
         try:
             record = run_episode_cell(cell, retrying[cell.sut], panel)
         except BudgetExceeded as exc:
             outcome.budget_hit = True
             outcome.stop_reason = str(exc)
-            break
+            record = _terminal_stop_record(
+                cell, key, type(exc).__name__, outcome.stop_reason,
+                participants, usage_before, now)
+            stop = True
         except (AccountingError, EvidenceError) as exc:
             outcome.stop_reason = f"{type(exc).__name__}: {exc}"
-            break
+            record = _terminal_stop_record(
+                cell, key, type(exc).__name__, outcome.stop_reason,
+                participants, usage_before, now)
+            stop = True
         except Exception as exc:  # per-cell error survival
             record = {
                 "cell_key": key, "item_id": cell.item.id, "sut": cell.sut,
@@ -435,8 +461,13 @@ def run_execution(plan: Sequence[EpisodePlanCell], sut_clients: Dict[str, Any],
             else:
                 outcome.completed += 1
             record["timestamp"] = now()
-        mvp.append_checkpoint(run_dir, record)
-        done[key] = record
+        if record is not None:
+            if stop:
+                outcome.errored += 1
+            mvp.append_checkpoint(run_dir, record)
+            done[key] = record
+        if stop:
+            break
     outcome.records = list(done.values())
     return outcome
 

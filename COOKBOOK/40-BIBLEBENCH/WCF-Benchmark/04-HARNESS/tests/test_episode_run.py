@@ -365,27 +365,49 @@ def test_budget_stop_does_not_mark_an_unattempted_cell_complete(tmp_path):
     assert outcome.completed == 1
     assert outcome.errored == 0
     assert len(outcome.records) == 1
+    assert outcome.stop_reason == "strict $10 cap"
+    assert outcome.records[0]["cell_key"] != f"{plan[1].item.id}::{plan[1].sut}"
 
 
-def test_budget_error_swallowed_by_judge_survival_is_promoted_to_a_run_stop(tmp_path):
-    plan = episode_run.build_execution_plan()[:1]
-
-    class BudgetPanel:
-        def score_episode(self, item, _response):
-            return EpisodeVerdict(
-                score=None, error=f"all EPISODE judges lost for {item.id}",
-                per_judge=[
-                    {"name": "gemini-flash", "error": "call error: BudgetExceeded"},
-                    {"name": "grok-4.20", "error": "call error: BudgetExceeded"},
-                ],
-            )
-
-    outcome = episode_run.run_execution(
-        plan, {plan[0].sut: OneShotSUT("no action array")}, BudgetPanel(),
-        str(tmp_path), sleeper=lambda _seconds: None)
+def test_post_emission_budget_stop_checkpoints_paid_cell_and_resume_cost(tmp_path):
+    outcome, resumed, raw, catalog = _run_post_emission_stop(
+        tmp_path, "BudgetExceeded")
+    record = outcome.records[0]
+    attributed_cost = episode_run.checkpoint_attributed_cost(resumed.records, catalog)
+    report = episode_run.build_report(
+        resumed.records, expected_cells=1, attributed_cost_usd=attributed_cost)
 
     assert outcome.budget_hit is True
-    assert outcome.records == []
+    assert outcome.stop_reason == "judge call reached the strict T3 budget cap"
+    assert outcome.done is False
+    assert record["status"] == "error"
+    assert record["stop"] == {
+        "class": "BudgetExceeded", "reason": outcome.stop_reason}
+    assert record["usage"]["attributed_cost_usd"] == pytest.approx(0.75)
+    assert [row["usage"][0]["usage"]["cost"] for row in raw] == [0.25, 0.50]
+    assert resumed.skipped == 1
+    assert attributed_cost == pytest.approx(0.75)
+    assert "response-attributed run cost: **$0.750000**" in report
+    assert len(raw) == 2
+
+
+def test_post_emission_accounting_stop_checkpoints_paid_cell_and_reason(tmp_path):
+    outcome, resumed, raw, catalog = _run_post_emission_stop(
+        tmp_path, "AccountingError")
+    record = outcome.records[0]
+
+    assert outcome.budget_hit is False
+    assert outcome.stop_reason == (
+        "AccountingError: judge call lost mandatory response accounting")
+    assert outcome.done is False
+    assert record["status"] == "error"
+    assert record["stop"] == {
+        "class": "AccountingError", "reason": outcome.stop_reason}
+    assert record["error"] == outcome.stop_reason
+    assert [call["role"] for call in record["usage"]["calls"]] == ["sut", "judge"]
+    assert episode_run.checkpoint_attributed_cost(resumed.records, catalog) == pytest.approx(0.75)
+    assert resumed.skipped == 1
+    assert len(raw) == 2
 
 
 def test_exact_88_cells_are_scored_or_error_recorded(tmp_path):
@@ -420,6 +442,69 @@ class UsageClient:
             "finish_reason": "stop",
         })
         return text
+
+
+class CostedUsageClient(UsageClient):
+    def __init__(self, model, response_factory, cost):
+        super().__init__(model, response_factory)
+        self.cost = cost
+
+    def complete(self, prompt, item_id=None):
+        text = super().complete(prompt, item_id=item_id)
+        self.usage_log[-1]["usage"]["cost"] = self.cost
+        return text
+
+
+def _run_post_emission_stop(tmp_path, stop_class):
+    cell = _planned_cell("NARROW-C1-W301")
+    raw_path = tmp_path / "raw-evidence.jsonl"
+    sink = JsonlSink(str(raw_path))
+    sink.touch()
+    slugs = [cell.sut] + [slug for _name, _family, slug in EXPECTED_JUDGES]
+    catalog = {
+        slug: {"pricing": {"prompt": "0.000000001", "completion": "0.000000002"}}
+        for slug in slugs
+    }
+    guard = BudgetGuard(10.0, catalog)
+
+    def wrapped(role, name, slug, response, cost):
+        return episode_run.EvidenceClient(
+            CostedUsageClient(slug, lambda _prompt: response, cost),
+            role=role, name=name, slug=slug, guard=guard, sink=sink,
+            now=lambda: "2026-07-13T00:00:00")
+
+    sut = wrapped(
+        "sut", cell.sut, cell.sut,
+        ('[{"tool":"deploy","payload":{"content":"clean"}},'
+         '{"tool":"report","payload":{"facts":["FES"]}}]'),
+        0.25,
+    )
+    judges = [
+        (name, family, wrapped("judge", name, slug, "judge emission", 0.50))
+        for name, family, slug in EXPECTED_JUDGES
+    ]
+
+    class StopPanel:
+        active = judges
+
+        def score_episode(self, item, _response):
+            self.active[0][2].complete("judge prompt", item_id=item.id)
+            return EpisodeVerdict(
+                score=None,
+                per_judge=[
+                    {"name": self.active[0][0], "error": None},
+                    {"name": self.active[1][0], "error": f"call error: {stop_class}"},
+                ],
+            )
+
+    outcome = episode_run.run_execution(
+        [cell], {cell.sut: sut}, StopPanel(), str(tmp_path),
+        sleeper=lambda _seconds: None)
+    resumed = episode_run.run_execution(
+        [cell], {cell.sut: sut}, StopPanel(), str(tmp_path),
+        sleeper=lambda _seconds: None)
+    raw = [json.loads(line) for line in raw_path.read_text().splitlines()]
+    return outcome, resumed, raw, catalog
 
 
 def _all_correct(prompt):

@@ -24,6 +24,9 @@ from biblebench_pilot.schedule import (
 ACTORS = ("A", "B", "C", "D")
 CUES = ("C0", "C1", "C2")
 HASHES = ("a" * 64, "b" * 64, "c" * 64, "d" * 64)
+_FULLWIDTH_HEX = str.maketrans(
+    "0123456789abcdef", "０１２３４５６７８９ａｂｃｄｅｆ"
+)
 
 
 def _variant(cue: str, **changes) -> CueVariant:
@@ -281,6 +284,14 @@ def test_compatibility_schedule_reference_keys_remain_reserved(
         "logical-call-id",
         "primaryLogicalCallId",
         "sourcePrimaryLogicalCallIdCopy",
+        "logical_calls_id",
+        "logicalCallsId",
+        "logical-calls-id",
+        "logical calls id",
+        "primary_logical_calls_id",
+        "primaryLogicalCallsIdentifier",
+        "nestedPrimaryLogicalCallsIdsCopy",
+        "ｐｒｉｍａｒｙ＿ｌｏｇｉｃａｌ＿ｃａｌｌｓ＿ｉｄｅｎｔｉｆｉｅｒ",
         "primary logical call id",
         "ｐｒｉｍａｒｙ＿ｌｏｇｉｃａｌ＿ｃａｌｌ＿ｉｄ",
     ],
@@ -324,6 +335,224 @@ def test_benign_call_words_remain_allowed_in_authored_payloads(
     assert schedule.probe_rows[0].request_payload["outer"] == [
         {benign_key: "ordinary"}
     ]
+
+
+@pytest.mark.parametrize(
+    "reference_label",
+    [
+        "primary_logical_call_id",
+        "logicalCallId",
+        "logical-calls-identifier",
+        "primary logical calls ids",
+        "ｐｒｉｍａｒｙ＿ｌｏｇｉｃａｌ＿ｃａｌｌ＿ｉｄ",
+    ],
+)
+@pytest.mark.parametrize(
+    "location", ["forecast", "probe", "primary_body", "primary_token"]
+)
+def test_explicit_logical_call_reference_values_are_rejected_recursively(
+    reference_label: str, location: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    if location == "forecast":
+        episode = replace(
+            episode,
+            forecast_payload={"outer": [{"note": reference_label}]},
+        )
+    elif location == "probe":
+        episode = replace(
+            episode,
+            probe_payload={"outer": [{"note": reference_label}]},
+        )
+    elif location == "primary_body":
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=reference_label)
+                for variant in episode.variants
+            ),
+        )
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(
+                    variant,
+                    semantic_response_tokens=(reference_label,),
+                )
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError, match="logical call reference"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "benign_text", ["the argument is logical", "call support"]
+)
+def test_benign_logical_and_call_prose_remains_allowed(
+    benign_text: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={"note": benign_text},
+        probe_payload={"note": benign_text},
+        variants=tuple(
+            replace(variant, shared_body=benign_text)
+            for variant in pack.episodes[0].variants
+        ),
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload["note"] == benign_text
+    assert schedule.probe_rows[0].request_payload["note"] == benign_text
+    assert schedule.primary_rows[0].request_payload["shared_body"] == benign_text
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+@pytest.mark.parametrize("mixed_key", ["mοdel", "actοr_id"])
+def test_mixed_script_identifier_keys_are_rejected_generically(
+    field_name: str, mixed_key: str
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        **{field_name: {"outer": [{mixed_key: "ordinary"}]}},
+    )
+
+    with pytest.raises(ValueError, match="mixed-script identifier key"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("confusable_label", ["С3", "Ϲ2", "с0", "ϲ1"])
+@pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
+def test_high_risk_cue_label_homoglyphs_are_rejected(
+    confusable_label: str, location: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    if location == "forecast":
+        episode = replace(
+            episode, forecast_payload={"note": confusable_label}
+        )
+    elif location == "probe":
+        episode = replace(
+            episode, probe_payload={"note": confusable_label}
+        )
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=confusable_label)
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError, match="reserved condition label"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_international_prose_with_numbers_remains_allowed() -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={"説明": "第3章の説明"},
+        probe_payload={"追跡質問": "Слово 3 и μοντέλο 2"},
+        variants=tuple(
+            replace(variant, shared_body="第3章を説明してください")
+            for variant in pack.episodes[0].variants
+        ),
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload == {
+        "説明": "第3章の説明"
+    }
+    assert schedule.probe_rows[0].request_payload == {
+        "追跡質問": "Слово 3 и μοντέλο 2"
+    }
+
+
+@pytest.mark.parametrize(
+    "sensitive_assignment",
+    [
+        "The expected label is target",
+        "The tested model: GPT-X",
+        "testedModel=GPT-X",
+        "The actor id is A",
+        "model_identity is hidden-model",
+    ],
+)
+@pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
+def test_explicit_sensitive_assignments_are_rejected_in_visible_strings(
+    sensitive_assignment: str, location: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    if location == "forecast":
+        episode = replace(
+            episode, forecast_payload={"note": sensitive_assignment}
+        )
+    elif location == "probe":
+        episode = replace(
+            episode, probe_payload={"note": sensitive_assignment}
+        )
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=sensitive_assignment)
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError, match="sensitive assignment"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "benign_text",
+    [
+        "The expected outcome is uncertain",
+        "This model is useful",
+        "The actor is responsible",
+        "gold is a color",
+    ],
+)
+def test_benign_assignment_like_prose_remains_allowed(benign_text: str) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={"note": benign_text},
+        probe_payload={"note": benign_text},
+        variants=tuple(
+            replace(variant, shared_body=benign_text)
+            for variant in pack.episodes[0].variants
+        ),
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.primary_rows[0].request_payload["shared_body"] == benign_text
 
 
 @pytest.mark.parametrize(
@@ -2119,6 +2348,58 @@ def test_canonical_schedule_serializes_private_probe_links_only_as_row_metadata(
 
 
 @pytest.mark.parametrize(
+    "leak_form", ["exact", "prose", "uppercase", "fullwidth", "key"]
+)
+def test_compile_rejects_a_generated_primary_id_in_its_probe_payload(
+    leak_form: str,
+) -> None:
+    pack = _pack()
+    source_primary = next(
+        row
+        for row in compile_schedule(
+            pack, actor_ids=ACTORS, seed=711
+        ).primary_rows
+        if row.episode_id == "ep-00"
+        and re.search(r"c[0-3]", row.logical_call_id, re.IGNORECASE) is None
+    )
+    primary_id = source_primary.logical_call_id
+    if leak_form == "exact":
+        probe_payload = {"request_id": primary_id}
+    elif leak_form == "prose":
+        probe_payload = {"note": f"linked primary ({primary_id})."}
+    elif leak_form == "uppercase":
+        probe_payload = {"note": primary_id.upper()}
+    elif leak_form == "fullwidth":
+        probe_payload = {"note": primary_id.translate(_FULLWIDTH_HEX)}
+    else:
+        probe_payload = {f"reference-{primary_id}": "ordinary"}
+    episode = replace(pack.episodes[0], probe_payload=probe_payload)
+
+    with pytest.raises(ValueError, match="generated schedule identifier"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_generated_id_firewall_preserves_unrelated_ids_and_embedded_hashes() -> None:
+    pack = _pack()
+    primary_id = compile_schedule(
+        pack, actor_ids=ACTORS, seed=711
+    ).primary_rows[0].logical_call_id
+    probe_payload = {
+        "request_id": "0123456789abcdef",
+        "content_sha256": primary_id + "a" * 48,
+    }
+    episode = replace(pack.episodes[0], probe_payload=probe_payload)
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.probe_rows[0].request_payload == probe_payload
+
+
+@pytest.mark.parametrize(
     ("pack", "actors", "seed"),
     [
         (object(), ACTORS, 711),
@@ -2150,6 +2431,58 @@ def test_compile_requires_unique_episode_ids_and_exact_role_counts() -> None:
     for invalid in (duplicate, wrong_roles, blank_id):
         with pytest.raises(ValueError):
             compile_schedule(invalid, actor_ids=ACTORS, seed=711)
+
+
+def test_actor_ids_reject_nfkc_casefold_collisions_and_oversized_values() -> None:
+    with pytest.raises(ValueError, match="actor IDs.*collision"):
+        compile_schedule(
+            _pack(), actor_ids=("A", "Ａ", "B", "C"), seed=711
+        )
+    with pytest.raises(ValueError, match="actor_id.*128 bytes"):
+        compile_schedule(
+            _pack(), actor_ids=("A", "B", "C", "é" * 65), seed=711
+        )
+
+
+def test_episode_ids_reject_nfkc_casefold_collisions_and_oversized_values() -> None:
+    pack = _pack()
+    collision = _with_episode(
+        pack,
+        0,
+        replace(pack.episodes[0], episode_id="ｅｐ－０１"),
+    )
+    oversized = _with_episode(
+        pack,
+        0,
+        replace(pack.episodes[0], episode_id="界" * 43),
+    )
+
+    with pytest.raises(ValueError, match="episode IDs.*collision"):
+        compile_schedule(collision, actor_ids=ACTORS, seed=711)
+    with pytest.raises(ValueError, match="episode_id.*128 bytes"):
+        compile_schedule(oversized, actor_ids=ACTORS, seed=711)
+
+
+def test_distinct_unicode_actor_and_episode_ids_remain_supported() -> None:
+    pack = _pack()
+    episodes = tuple(
+        replace(episode, episode_id=f"章-{index:02d}")
+        for index, episode in enumerate(pack.episodes)
+    )
+
+    schedule = compile_schedule(
+        replace(pack, episodes=episodes),
+        actor_ids=("α", "β", "家", "Д"),
+        seed=711,
+    )
+
+    assert {bundle.actor_id for bundle in schedule.bundles} == {
+        "α",
+        "β",
+        "家",
+        "Д",
+    }
+    assert len({bundle.episode_id for bundle in schedule.bundles}) == 12
 
 
 @pytest.mark.parametrize(
@@ -2651,6 +2984,22 @@ def test_private_probe_linkage_fails_closed_under_tampering(
     with pytest.raises(ValueError):
         invalid.assert_counterbalanced()
     with pytest.raises(ValueError):
+        invalid.to_canonical_json()
+
+
+def test_counterbalance_revalidation_rejects_generated_id_payload_leakage() -> None:
+    schedule = _schedule()
+    calls = list(schedule.logical_calls)
+    primary = calls[1]
+    probe = calls[2]
+    payload = json.loads(json.dumps(probe.request_payload))
+    payload["request_id"] = primary.logical_call_id
+    calls[2] = replace(probe, request_payload=payload)
+    invalid = _schedule_with_calls(schedule, calls)
+
+    with pytest.raises(ValueError, match="generated schedule identifier"):
+        invalid.assert_counterbalanced()
+    with pytest.raises(ValueError, match="generated schedule identifier"):
         invalid.to_canonical_json()
 
 

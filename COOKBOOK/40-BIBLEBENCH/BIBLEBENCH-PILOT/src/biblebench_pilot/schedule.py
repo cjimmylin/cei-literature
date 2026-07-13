@@ -39,6 +39,7 @@ _MAX_REQUEST_BYTES = 64 * 1024
 _MAX_REQUEST_KEY_BYTES = 512
 _MAX_REQUEST_STRING_BYTES = 32 * 1024
 _MAX_REQUEST_FIELDS_AND_NODES = 4096
+_MAX_IDENTIFIER_BYTES = 128
 _CAMEL_KEY_BOUNDARY = re.compile(
     r"(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])"
 )
@@ -142,14 +143,29 @@ _ACTOR_VISIBLE_METADATA_TOKENS = frozenset(
 _PRIMARY_ALLOWED_METADATA_KEYS = frozenset({"cuesurface"})
 _ROLE_PLAY_KEY_COMPONENTS = ("role", "play")
 _PRIMARY_CUE_SURFACE_COMPONENTS = ("cue", "surface")
-_LOGICAL_CALL_REFERENCE_COMPONENTS = frozenset(
-    {
-        ("logical", "call", "id"),
-        ("primary", "logical", "call", "id"),
-    }
+_LOGICAL_CALL_REFERENCE_COMPONENTS = ("logical", "call", "id")
+_LOGICAL_REFERENCE_COMPONENT_CANONICAL = {
+    "calls": "call",
+    "ids": "id",
+    "identifier": "id",
+    "identifiers": "id",
+}
+_LOGICAL_CALL_REFERENCE_COMPACT = re.compile(
+    r"logicalcalls?(?:ids?|identifiers?)", re.IGNORECASE
 )
-_LOGICAL_CALL_REFERENCE_KEYS = frozenset(
-    {"logicalcallid", "primarylogicalcallid"}
+_STANDALONE_HEX_ID = re.compile(
+    r"(?<![0-9a-f])([0-9a-f]{16})(?![0-9a-f])", re.IGNORECASE
+)
+_CUE_HOMOGLYPHS = str.maketrans(
+    {"С": "C", "с": "c", "Ϲ": "C", "ϲ": "c"}
+)
+_SENSITIVE_ASSIGNMENT = re.compile(
+    r"(?<![a-z0-9])(?:"
+    r"expected[-_./\s]*label|tested[-_./\s]*model|"
+    r"actor[-_./\s]*(?:id|model)|"
+    r"model[-_./\s]*(?:identity|id|name)"
+    r")[ \t]*(?:is\b|[:=])[ \t]*\S",
+    re.IGNORECASE,
 )
 
 
@@ -250,7 +266,7 @@ class Schedule:
         }
         encoded = canonical_json_bytes(value)
         text = encoded.decode("utf-8")
-        if _RESERVED_C3.search(_policy_text(text)):
+        if _RESERVED_C3.search(_label_policy_text(text)):
             raise ValueError("schedule contains reserved condition")
         return text
 
@@ -277,6 +293,21 @@ def _strict_string(value: Any, name: str, *, nonempty: bool = True) -> str:
 
 def _policy_text(value: str) -> str:
     return unicodedata.normalize("NFKC", value)
+
+
+def _label_policy_text(value: str) -> str:
+    return _policy_text(value.translate(_CUE_HOMOGLYPHS))
+
+
+def _strict_identifier(value: Any, name: str) -> str:
+    captured = _strict_string(value, name)
+    if _utf8_size(captured) > _MAX_IDENTIFIER_BYTES:
+        raise ValueError(f"{name} must not exceed 128 bytes")
+    return captured
+
+
+def _identifier_collision_key(value: str) -> str:
+    return _policy_text(value).casefold()
 
 
 def _field_allows_opaque_hex(field_name: str | None) -> bool:
@@ -330,7 +361,7 @@ def _assert_no_c3(
                 continue
             if _opaque_hex_is_allowed(field_name, current):
                 continue
-            if _EMBEDDED_CUE_LABEL.search(_policy_text(current)):
+            if _EMBEDDED_CUE_LABEL.search(_label_policy_text(current)):
                 raise ValueError("value contains a reserved condition label")
             continue
         if current is None or type(current) in {bool, int, float}:
@@ -361,7 +392,7 @@ def _assert_no_c3(
             children = []
             for key, child in current.items():
                 if type(key) is str and _EMBEDDED_CUE_LABEL.search(
-                    _policy_text(key)
+                    _label_policy_text(key)
                 ):
                     raise ValueError("field contains a reserved condition label")
                 children.append((child, key if type(key) is str else None))
@@ -378,7 +409,7 @@ def _assert_no_c3(
             scheduled += additional
             children = []
             for name, child in attributes.items():
-                if _EMBEDDED_CUE_LABEL.search(_policy_text(name)):
+                if _EMBEDDED_CUE_LABEL.search(_label_policy_text(name)):
                     raise ValueError("field contains a reserved condition label")
                 children.append((child, name))
         for child, child_field in reversed(children):
@@ -432,6 +463,20 @@ def _walk_keys(value: Json):
     while stack:
         current = stack.pop()
         if type(current) is dict:
+            for key, child in current.items():
+                yield key
+                stack.append(child)
+        elif type(current) is list:
+            stack.extend(current)
+
+
+def _walk_visible_strings(value: Json):
+    stack = [value]
+    while stack:
+        current = stack.pop()
+        if type(current) is str:
+            yield current
+        elif type(current) is dict:
             for key, child in current.items():
                 yield key
                 stack.append(child)
@@ -645,22 +690,71 @@ def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
 def _assert_no_logical_call_reference_fields(
     payload: dict[str, Json],
 ) -> None:
-    for key in _walk_keys(payload):
-        components = _key_components(key)
+    for visible in _walk_visible_strings(payload):
+        components = tuple(
+            _LOGICAL_REFERENCE_COMPONENT_CANONICAL.get(
+                component, component
+            )
+            for component in _key_components(visible)
+        )
+        sequence = _LOGICAL_CALL_REFERENCE_COMPONENTS
         has_component_sequence = any(
             components[index : index + len(sequence)] == sequence
-            for sequence in _LOGICAL_CALL_REFERENCE_COMPONENTS
             for index in range(len(components) - len(sequence) + 1)
         )
         if (
             has_component_sequence
-            or any(
-                reference in _normalized_key(key)
-                for reference in _LOGICAL_CALL_REFERENCE_KEYS
+            or _LOGICAL_CALL_REFERENCE_COMPACT.search(
+                _normalized_key(visible)
             )
         ):
             raise ValueError(
                 "request payload contains a logical call reference"
+            )
+
+
+def _assert_no_mixed_script_identifier_keys(
+    payload: dict[str, Json],
+) -> None:
+    for key in _walk_keys(payload):
+        normalized = _policy_text(key)
+        has_ascii_alnum = any(
+            character.isascii() and character.isalnum()
+            for character in normalized
+        )
+        has_non_ascii_alnum = any(
+            not character.isascii() and character.isalnum()
+            for character in normalized
+        )
+        if has_ascii_alnum and has_non_ascii_alnum:
+            raise ValueError(
+                "request payload contains a mixed-script identifier key"
+            )
+
+
+def _assert_no_sensitive_assignments(payload: dict[str, Json]) -> None:
+    for visible in _walk_visible_strings(payload):
+        separated = _CAMEL_KEY_BOUNDARY.sub("_", _policy_text(visible))
+        if _SENSITIVE_ASSIGNMENT.search(separated.casefold()):
+            raise ValueError("request payload contains a sensitive assignment")
+
+
+def _assert_payload_hides_generated_ids(
+    payload: dict[str, Json], generated_ids: frozenset[str]
+) -> None:
+    if not generated_ids:
+        return
+    normalized_ids = frozenset(
+        _policy_text(identifier).casefold() for identifier in generated_ids
+    )
+    for visible in _walk_visible_strings(payload):
+        normalized = _policy_text(visible).casefold()
+        if any(
+            match.group(1).casefold() in normalized_ids
+            for match in _STANDALONE_HEX_ID.finditer(normalized)
+        ):
+            raise ValueError(
+                "request payload contains a generated schedule identifier"
             )
 
 
@@ -720,6 +814,8 @@ def _validate_payload(value: Any, name: str) -> dict[str, Json]:
     _assert_no_later_scope_fields(captured)
     _assert_no_actor_metadata_fields(captured)
     _assert_no_logical_call_reference_fields(captured)
+    _assert_no_mixed_script_identifier_keys(captured)
+    _assert_no_sensitive_assignments(captured)
     return captured
 
 
@@ -753,7 +849,7 @@ def _validate_variant(variant: Any) -> CueVariant:
     if type(variant.cue) is not str or variant.cue not in _CUES:
         raise ValueError("invalid cue")
     _strict_string(variant.cue_surface, "cue_surface")
-    if _CUE_LABEL.search(_policy_text(variant.cue_surface)):
+    if _CUE_LABEL.search(_label_policy_text(variant.cue_surface)):
         raise ValueError("cue_surface exposes an internal cue label")
     _strict_string(variant.shared_body, "shared_body")
     for name in (
@@ -788,7 +884,7 @@ def _validate_episode(episode: Any) -> DevelopmentEpisode:
             {"forecast_payload", "probe_payload", "variants"}
         ),
     )
-    _strict_string(episode.episode_id, "episode_id")
+    _strict_identifier(episode.episode_id, "episode_id")
     if type(episode.role) is not str or episode.role not in _ROLES:
         raise ValueError("invalid episode role")
     forecast_payload = _validate_payload(
@@ -848,6 +944,11 @@ def _validate_pack(pack: Any) -> DevelopmentPack:
     episode_ids = [episode.episode_id for episode in episodes]
     if len(set(episode_ids)) != len(episode_ids):
         raise ValueError("episode IDs must be unique")
+    episode_collision_keys = [
+        _identifier_collision_key(identifier) for identifier in episode_ids
+    ]
+    if len(set(episode_collision_keys)) != len(episode_collision_keys):
+        raise ValueError("episode IDs have an NFKC/casefold collision")
     if Counter(episode.role for episode in episodes) != Counter(
         {"target": 4, "null": 4, "restraint": 4}
     ):
@@ -861,9 +962,14 @@ def _validate_actor_ids(actor_ids: Any) -> tuple[str, ...]:
     if len(actor_ids) != 4:
         raise ValueError("exactly four actor IDs are required")
     for actor_id in actor_ids:
-        _strict_string(actor_id, "actor_id")
+        _strict_identifier(actor_id, "actor_id")
     if len(set(actor_ids)) != 4:
         raise ValueError("actor IDs must be unique")
+    actor_collision_keys = [
+        _identifier_collision_key(identifier) for identifier in actor_ids
+    ]
+    if len(set(actor_collision_keys)) != len(actor_collision_keys):
+        raise ValueError("actor IDs have an NFKC/casefold collision")
     return tuple(sorted(actor_ids))
 
 
@@ -1030,6 +1136,10 @@ def compile_schedule(
                 probe_payload = _checked_actor_payload(
                     episode.probe_payload
                 )
+                _assert_payload_hides_generated_ids(
+                    probe_payload,
+                    frozenset({primary.logical_call_id}),
+                )
                 probe = _new_call(
                     seed=seed,
                     actor_id=actor_id,
@@ -1105,8 +1215,10 @@ def _call_json(row: LogicalCall) -> dict[str, Json]:
 def _validate_scheduled_bundle(bundle: Any) -> EvidenceBundlePlan:
     if type(bundle) is not EvidenceBundlePlan:
         _type_error("schedule bundles must be EvidenceBundlePlan values")
-    for name in ("bundle_id", "actor_id", "module", "episode_id", "role"):
+    for name in ("bundle_id", "module", "role"):
         _strict_string(getattr(bundle, name), name)
+    _strict_identifier(bundle.actor_id, "actor_id")
+    _strict_identifier(bundle.episode_id, "episode_id")
     if _ID.fullmatch(bundle.bundle_id) is None:
         raise ValueError("invalid bundle ID")
     if bundle.module not in _MODULES or bundle.role not in _ROLES:
@@ -1124,8 +1236,10 @@ def _validate_scheduled_bundle(bundle: Any) -> EvidenceBundlePlan:
 def _validate_scheduled_call(row: Any) -> LogicalCall:
     if type(row) is not LogicalCall:
         _type_error("schedule calls must be LogicalCall values")
-    for name in ("logical_call_id", "bundle_id", "actor_id", "module", "episode_id", "role"):
+    for name in ("logical_call_id", "bundle_id", "module", "role"):
         _strict_string(getattr(row, name), name)
+    _strict_identifier(row.actor_id, "actor_id")
+    _strict_identifier(row.episode_id, "episode_id")
     if _ID.fullmatch(row.logical_call_id) is None or _ID.fullmatch(row.bundle_id) is None:
         raise ValueError("invalid logical call ID")
     if row.module not in _MODULES or row.role not in _ROLES:
@@ -1191,7 +1305,7 @@ def _assert_primary_payload(payload: dict[str, Json]) -> None:
         raise ValueError("primary request payload has unexpected fields")
     _strict_string(payload["shared_body"], "shared_body")
     _strict_string(payload["cue_surface"], "cue_surface")
-    if _CUE_LABEL.search(_policy_text(payload["cue_surface"])):
+    if _CUE_LABEL.search(_label_policy_text(payload["cue_surface"])):
         raise ValueError("primary request exposes an internal cue label")
     tokens = payload["semantic_response_tokens"]
     if type(tokens) is not list or not tokens:
@@ -1253,12 +1367,24 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
 
     bundles = tuple(_validate_scheduled_bundle(bundle) for bundle in schedule.bundles)
     calls = tuple(_validate_scheduled_call(row) for row in schedule.logical_calls)
+    generated_ids = frozenset(
+        [bundle.bundle_id for bundle in bundles]
+        + [row.logical_call_id for row in calls]
+    )
+    for row in calls:
+        _assert_payload_hides_generated_ids(
+            row.request_payload, generated_ids
+        )
     _assert_detached_call_payloads(calls)
     actors = tuple(sorted({bundle.actor_id for bundle in bundles}))
     episodes = tuple(sorted({bundle.episode_id for bundle in bundles}))
     modules = {bundle.module for bundle in bundles}
     if len(actors) != 4 or len(episodes) != 12 or len(modules) != 1:
         raise ValueError("schedule has invalid actor, episode, or module membership")
+    if len({_identifier_collision_key(actor) for actor in actors}) != 4:
+        raise ValueError("actor IDs have an NFKC/casefold collision")
+    if len({_identifier_collision_key(episode) for episode in episodes}) != 12:
+        raise ValueError("episode IDs have an NFKC/casefold collision")
     if len({(bundle.actor_id, bundle.episode_id) for bundle in bundles}) != 48:
         raise ValueError("actor/episode bundles must be unique")
 

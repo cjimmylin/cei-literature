@@ -1,0 +1,3026 @@
+{
+  "auth_retrieved_at": "2026-07-13T17:23:54Z",
+  "budget_branches": [
+    {
+      "branch": "judge_max_tokens_2048",
+      "executable": true,
+      "forecast_cost_usd": 11.5698587676,
+      "judge_completion_tokens": 2048,
+      "minimum_ratifiable_cap_usd": 14.47,
+      "sut_completion_tokens": 2048,
+      "within_strategy_cap": false
+    },
+    {
+      "branch": "judge_max_tokens_1024",
+      "executable": true,
+      "forecast_cost_usd": 8.8972187676,
+      "judge_completion_tokens": 1024,
+      "minimum_ratifiable_cap_usd": 11.13,
+      "sut_completion_tokens": 2048,
+      "within_strategy_cap": false
+    },
+    {
+      "branch": "judge_max_tokens_512",
+      "executable": true,
+      "forecast_cost_usd": 7.5608987675999995,
+      "judge_completion_tokens": 512,
+      "minimum_ratifiable_cap_usd": 9.46,
+      "sut_completion_tokens": 2048,
+      "within_strategy_cap": false
+    },
+    {
+      "branch": "judge_max_tokens_256",
+      "executable": true,
+      "forecast_cost_usd": 6.892738767599999,
+      "judge_completion_tokens": 256,
+      "minimum_ratifiable_cap_usd": 8.62,
+      "sut_completion_tokens": 2048,
+      "within_strategy_cap": false
+    },
+    {
+      "branch": "zero_completion_price_floor",
+      "executable": false,
+      "forecast_cost_usd": 5.2479232028,
+      "judge_completion_tokens": 0,
+      "minimum_ratifiable_cap_usd": 6.56,
+      "sut_completion_tokens": 0,
+      "within_strategy_cap": false
+    }
+  ],
+  "call_plan": {
+    "classes": [
+      {
+        "count": 226,
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "meta-llama/llama-3.1-8b-instruct"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-3.1-8b-instruct"
+      },
+      {
+        "count": 226,
+        "model": "deepseek/deepseek-chat",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 226,
+        "model": "qwen/qwen3.7-plus",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "qwen/qwen3.7-plus"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "qwen/qwen3.7-plus"
+      }
+    ],
+    "episode_items": 22,
+    "excluded_dev_set_only_ids": [
+      "LIB-C2-W305",
+      "LIB-C3-W202",
+      "LIB-C7-008",
+      "LIB-C8-W304"
+    ],
+    "initial_api_attempts": 1722,
+    "item_manifest": [
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C1-005",
+        "kind": "open"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C10-009",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C10-W205",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C10-W308",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C2-010",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C2-W201",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C3-003",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C3-W302",
+        "kind": "contested"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C4-006",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C4-W202",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C5-004",
+        "kind": "open"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C5-W304",
+        "kind": "contested"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C6-008",
+        "kind": "open"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C6-W203",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C6-W301",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C7-007",
+        "kind": "contested"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C7-W204",
+        "kind": "open"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C7-W307",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C8-002",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C8-W303",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C8-W305",
+        "kind": "contested"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C9-001",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-C9-W306",
+        "kind": "ordinal"
+      },
+      {
+        "design": "aggravate",
+        "execution_path": "run_mvp",
+        "item_id": "AGG-XC-W206",
+        "kind": "ordinal"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C1-006",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C1-W201",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C10-010",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C10-W205",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C2-002",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C2-W302",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C3-007",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C3-W202",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C4-005",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C4-W305",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C5-008",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C5-W203",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C6-003",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C6-W303",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C7-009",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C7-W204",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C8-004",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C8-W301",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C8-W306",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C9-001",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C9-W304",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-C9-W307",
+        "kind": "open"
+      },
+      {
+        "design": "complicit",
+        "execution_path": "run_mvp",
+        "item_id": "COMP-XC-W206",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C1-004",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C1-W306",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C10-009",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C10-W206",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C2-005",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C2-W201",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C3-006",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C3-W202",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C4-007",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C4-W203",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C5-003",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C5-W303",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C6-008",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C6-W204",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C7-W205",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C7-W301",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C7-W302",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C8-002",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C8-W304",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C9-001",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-C9-W305",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-XC-W207",
+        "kind": "open"
+      },
+      {
+        "design": "crosswind",
+        "execution_path": "run_mvp",
+        "item_id": "CROSS-XC-W307",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C1-006",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C1-W201",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C10-010",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C10-W205",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C2-007",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C2-W202",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C3-008",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C3-W203",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C4-004",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C4-W301",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C5-003",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C5-W302",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C6-002",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C6-W303",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C7-009",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C7-W204",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C8-005",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C8-W304",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C8-W305",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C9-001",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C9-W306",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-C9-W307",
+        "kind": "open"
+      },
+      {
+        "design": "dutybound",
+        "execution_path": "run_mvp",
+        "item_id": "DUTY-XC-W206",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C1-006",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C1-W201",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C10-009",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C10-W205",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C2-004",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C2-W307",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C3-007",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C4-002",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C4-W301",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C5-005",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C5-W303",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C5-W306",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C6-001",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C6-W302",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C7-W203",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C8-003",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C9-010",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-C9-W204",
+        "kind": "open"
+      },
+      {
+        "design": "liberty",
+        "execution_path": "run_mvp",
+        "item_id": "LIB-XC-W206",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-A-003",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-A-010",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-A-W305",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C1-W201",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C1-W301",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C10-008",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C10-W206",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C2-005",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C2-W302",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C3-W202",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C4-007",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C4-W203",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C5-009",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C5-W204",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C6-004",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C6-W303",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C6-W306",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C7-006",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C7-W205",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C8-001",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C8-W304",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C9-002",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-C9-W307",
+        "kind": "open"
+      },
+      {
+        "design": "mending",
+        "execution_path": "run_mvp",
+        "item_id": "MEND-XC-W207",
+        "kind": "open"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C1-006",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C1-W201",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C1-W301",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C1-W302",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C10-005",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C2-007",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C2-W202",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C3-002",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C4-003",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C5-008",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C5-W203",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C6-009",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C6-W204",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C6-W303",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C6-W304",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C7-010",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C7-W205",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C8-001",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-C9-004",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-XC-W206",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-XC-W305",
+        "kind": "episode"
+      },
+      {
+        "design": "narrowgate",
+        "execution_path": "episode_run",
+        "item_id": "NARROW-XC-W306",
+        "kind": "episode"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C1-005",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C1-W303",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C1-W306",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C10-009",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C10-W205",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C2-006",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C2-W201",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C3-002",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C4-004",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C4-W301",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C5-007",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C5-W202",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C6-010",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C6-W203",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C6-W304",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C7-008",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C7-W204",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C7-W307",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C8-003",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C8-W302",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C9-001",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-C9-W305",
+        "kind": "anchor"
+      },
+      {
+        "design": "prooftext",
+        "execution_path": "run_mvp",
+        "item_id": "PROOF-XC-W206",
+        "kind": "anchor"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C1-009",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C1-W201",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C1-W306",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C10-004",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C10-W307",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C2-005",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C2-W301",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C3-010",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C3-W202",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C4-001",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C4-W302",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C5-002",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C5-W303",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C6-006",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C6-W203",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C7-007",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C7-W204",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C8-008",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C8-W205",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C9-003",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C9-W304",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-C9-W305",
+        "kind": "open"
+      },
+      {
+        "design": "steadfast",
+        "execution_path": "run_mvp",
+        "item_id": "STED-XC-W206",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C1-004",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C1-W302",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C10-005",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C10-W305",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C2-006",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C2-W201",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C3-007",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C3-W202",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C4-008",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C4-W203",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C5-003",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C5-W303",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C6-009",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C6-W204",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C7-010",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C7-W205",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C8-002",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C8-W304",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C8-W306",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C9-001",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-C9-W301",
+        "kind": "open"
+      },
+      {
+        "design": "wholeheart",
+        "execution_path": "run_mvp",
+        "item_id": "WHOLE-XC-W206",
+        "kind": "open"
+      }
+    ],
+    "judge_calls_per_sut": 348,
+    "normal_items": 204,
+    "retry_policy": "conservative reservation of one retry per logical request; a retry is not selected spend",
+    "retry_reservation_increment": 1722,
+    "retry_reserved_api_attempts": 3444,
+    "runnable_items": 226,
+    "totals": {
+      "judge": 1044,
+      "sut": 678,
+      "total": 1722
+    }
+  },
+  "catalog_capabilities": [
+    {
+      "completion_price": 3e-08,
+      "context_length": 131072,
+      "declares_max_tokens": true,
+      "declares_response_format": true,
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "prompt_price": 2e-08,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ]
+    },
+    {
+      "completion_price": 8.001e-07,
+      "context_length": 131072,
+      "declares_max_tokens": true,
+      "declares_response_format": true,
+      "model": "deepseek/deepseek-chat",
+      "prompt_price": 2.002e-07,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ]
+    },
+    {
+      "completion_price": 1.28e-06,
+      "context_length": 1000000,
+      "declares_max_tokens": true,
+      "declares_response_format": true,
+      "model": "qwen/qwen3.7-plus",
+      "prompt_price": 3.2e-07,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ]
+    },
+    {
+      "completion_price": 2.5e-06,
+      "context_length": 1048576,
+      "declares_max_tokens": true,
+      "declares_response_format": true,
+      "model": "google/gemini-2.5-flash",
+      "prompt_price": 3e-07,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ]
+    }
+  ],
+  "catalog_hash": "8aaf8aed304c97244239224bedd4e0677762ea1c69fa8005c429737a49b74268",
+  "catalog_retrieved_at": "2026-07-13T17:23:54Z",
+  "episode_items": 22,
+  "excluded_dev_set_only_ids": [
+    "LIB-C2-W305",
+    "LIB-C3-W202",
+    "LIB-C7-008",
+    "LIB-C8-W304"
+  ],
+  "forecast_cost_usd": 11.5698587676,
+  "gate_claims_included": false,
+  "initial_api_attempts": 1722,
+  "items": [
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C1-005",
+      "kind": "open"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C10-009",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C10-W205",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C10-W308",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C2-010",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C2-W201",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C3-003",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C3-W302",
+      "kind": "contested"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C4-006",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C4-W202",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C5-004",
+      "kind": "open"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C5-W304",
+      "kind": "contested"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C6-008",
+      "kind": "open"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C6-W203",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C6-W301",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C7-007",
+      "kind": "contested"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C7-W204",
+      "kind": "open"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C7-W307",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C8-002",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C8-W303",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C8-W305",
+      "kind": "contested"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C9-001",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-C9-W306",
+      "kind": "ordinal"
+    },
+    {
+      "design": "aggravate",
+      "execution_path": "run_mvp",
+      "item_id": "AGG-XC-W206",
+      "kind": "ordinal"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C1-006",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C1-W201",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C10-010",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C10-W205",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C2-002",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C2-W302",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C3-007",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C3-W202",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C4-005",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C4-W305",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C5-008",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C5-W203",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C6-003",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C6-W303",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C7-009",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C7-W204",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C8-004",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C8-W301",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C8-W306",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C9-001",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C9-W304",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-C9-W307",
+      "kind": "open"
+    },
+    {
+      "design": "complicit",
+      "execution_path": "run_mvp",
+      "item_id": "COMP-XC-W206",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C1-004",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C1-W306",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C10-009",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C10-W206",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C2-005",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C2-W201",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C3-006",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C3-W202",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C4-007",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C4-W203",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C5-003",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C5-W303",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C6-008",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C6-W204",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C7-W205",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C7-W301",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C7-W302",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C8-002",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C8-W304",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C9-001",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-C9-W305",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-XC-W207",
+      "kind": "open"
+    },
+    {
+      "design": "crosswind",
+      "execution_path": "run_mvp",
+      "item_id": "CROSS-XC-W307",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C1-006",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C1-W201",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C10-010",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C10-W205",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C2-007",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C2-W202",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C3-008",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C3-W203",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C4-004",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C4-W301",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C5-003",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C5-W302",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C6-002",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C6-W303",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C7-009",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C7-W204",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C8-005",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C8-W304",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C8-W305",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C9-001",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C9-W306",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-C9-W307",
+      "kind": "open"
+    },
+    {
+      "design": "dutybound",
+      "execution_path": "run_mvp",
+      "item_id": "DUTY-XC-W206",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C1-006",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C1-W201",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C10-009",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C10-W205",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C2-004",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C2-W307",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C3-007",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C4-002",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C4-W301",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C5-005",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C5-W303",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C5-W306",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C6-001",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C6-W302",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C7-W203",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C8-003",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C9-010",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-C9-W204",
+      "kind": "open"
+    },
+    {
+      "design": "liberty",
+      "execution_path": "run_mvp",
+      "item_id": "LIB-XC-W206",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-A-003",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-A-010",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-A-W305",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C1-W201",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C1-W301",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C10-008",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C10-W206",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C2-005",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C2-W302",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C3-W202",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C4-007",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C4-W203",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C5-009",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C5-W204",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C6-004",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C6-W303",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C6-W306",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C7-006",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C7-W205",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C8-001",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C8-W304",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C9-002",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-C9-W307",
+      "kind": "open"
+    },
+    {
+      "design": "mending",
+      "execution_path": "run_mvp",
+      "item_id": "MEND-XC-W207",
+      "kind": "open"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C1-006",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C1-W201",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C1-W301",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C1-W302",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C10-005",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C2-007",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C2-W202",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C3-002",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C4-003",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C5-008",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C5-W203",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C6-009",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C6-W204",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C6-W303",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C6-W304",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C7-010",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C7-W205",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C8-001",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-C9-004",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-XC-W206",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-XC-W305",
+      "kind": "episode"
+    },
+    {
+      "design": "narrowgate",
+      "execution_path": "episode_run",
+      "item_id": "NARROW-XC-W306",
+      "kind": "episode"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C1-005",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C1-W303",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C1-W306",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C10-009",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C10-W205",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C2-006",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C2-W201",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C3-002",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C4-004",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C4-W301",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C5-007",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C5-W202",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C6-010",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C6-W203",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C6-W304",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C7-008",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C7-W204",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C7-W307",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C8-003",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C8-W302",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C9-001",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-C9-W305",
+      "kind": "anchor"
+    },
+    {
+      "design": "prooftext",
+      "execution_path": "run_mvp",
+      "item_id": "PROOF-XC-W206",
+      "kind": "anchor"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C1-009",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C1-W201",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C1-W306",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C10-004",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C10-W307",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C2-005",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C2-W301",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C3-010",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C3-W202",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C4-001",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C4-W302",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C5-002",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C5-W303",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C6-006",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C6-W203",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C7-007",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C7-W204",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C8-008",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C8-W205",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C9-003",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C9-W304",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-C9-W305",
+      "kind": "open"
+    },
+    {
+      "design": "steadfast",
+      "execution_path": "run_mvp",
+      "item_id": "STED-XC-W206",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C1-004",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C1-W302",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C10-005",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C10-W305",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C2-006",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C2-W201",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C3-007",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C3-W202",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C4-008",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C4-W203",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C5-003",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C5-W303",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C6-009",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C6-W204",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C7-010",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C7-W205",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C8-002",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C8-W304",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C8-W306",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C9-001",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-C9-W301",
+      "kind": "open"
+    },
+    {
+      "design": "wholeheart",
+      "execution_path": "run_mvp",
+      "item_id": "WHOLE-XC-W206",
+      "kind": "open"
+    }
+  ],
+  "judge": "google/gemini-2.5-flash",
+  "judge_calls": 1044,
+  "logical_calls": 1722,
+  "minimum_ratifiable_cap_usd": 14.47,
+  "normal_items": 204,
+  "paid_inference_authorized": false,
+  "paid_inference_performed": false,
+  "perturbations_included": false,
+  "pre_run_blockers": [
+    "The existing 204-item and 22-EPISODE runners do not expose a shared single-Gemini strict-pre-call-cap path without bypassing production panel qualification semantics."
+  ],
+  "proposed_nte_cap_usd": null,
+  "provenance_canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "required_top_up_usd": 0.0,
+  "retry_policy": "conservative reservation of one retry per logical request; a retry is not selected spend",
+  "retry_reservation_increment": 1722,
+  "retry_reserved_api_attempts": 3444,
+  "runnable_items": 226,
+  "runner_coverage": {
+    "episode_run_existing_path": 22,
+    "live_adapter_status": "BLOCKED_SINGLE_JUDGE_STRICT_CAP_SEAM",
+    "run_mvp_existing_path": 204,
+    "total": 226
+  },
+  "runtime": {
+    "baseline_minutes": 265.475,
+    "calls_per_minute": 6.486486486486486,
+    "logical_calls": 1722,
+    "planning_band_minutes": [
+      212.38000000000002,
+      353.96666666666664
+    ]
+  },
+  "strategy_cap_feasible": false,
+  "strategy_cap_usd": 5.0,
+  "sut_calls": 678,
+  "sut_roster": [
+    "meta-llama/llama-3.1-8b-instruct",
+    "deepseek/deepseek-chat",
+    "qwen/qwen3.7-plus"
+  ],
+  "token_profiles": {
+    "base_judge": {
+      "completion_tokens": 2048,
+      "derivation": {
+        "completion_method": "fixed_max_tokens",
+        "completion_provenance": "OpenRouterModelClient fixed max_tokens=2048",
+        "fixed_completion_cap": 2048,
+        "max_rendered_prompt_bytes": 16000,
+        "prompt_method": "max_rendered_utf8_bytes",
+        "prompt_provenance": "offline-render:base-judge:20260713",
+        "prompt_scope": "all routed base judge templates with an 8192-byte SUT-response allowance",
+        "request_class": "base_judge"
+      },
+      "prompt_tokens": 16000,
+      "source": "rendered_prompt_fixed_completion_ceiling"
+    },
+    "base_sut": {
+      "completion_tokens": 2048,
+      "derivation": {
+        "completion_method": "fixed_max_tokens",
+        "completion_provenance": "OpenRouterModelClient fixed max_tokens=2048",
+        "fixed_completion_cap": 2048,
+        "max_rendered_prompt_bytes": 1939,
+        "prompt_method": "max_rendered_utf8_bytes",
+        "prompt_provenance": "offline-render:base-sut:20260713",
+        "prompt_scope": "all 226 frozen base SUT prompts; normal prompts via build_examinee_prompt and EPISODE via item stem",
+        "request_class": "base_sut"
+      },
+      "prompt_tokens": 1939,
+      "source": "rendered_prompt_fixed_completion_ceiling"
+    }
+  },
+  "truncation_stop_branch": {
+    "budget": "stop before paid execution until Jimmy ratifies an exact branch and NTE cap",
+    "judge": "registered retry once; post-retry loss is recorded per cell and the run continues",
+    "sut": "surface truncation and never silently mark it complete"
+  },
+  "validity_label": "EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE"
+}

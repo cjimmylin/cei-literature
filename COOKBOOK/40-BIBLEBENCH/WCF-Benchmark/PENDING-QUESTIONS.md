@@ -1,5 +1,45 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-13 — PPP-1 exact cap exceeds the ratified $5 ceiling
+
+- **Question:** Should PPP-1 preserve its exact 226-item × three-SUT × single-Gemini
+  scope by ratifying one of the frozen executable completion branches and its distinct
+  maximum-retry NTE cap below, or should the scope/roster/judge be amended to retain a
+  `$5.00` ceiling?
+- **Why it blocks:** The authorized zero-paid preflight found a `$11.5698587676`
+  conservative forecast and `$14.47` minimum 80%-safe cap at the reviewed 2,048-token
+  ceilings. Even the non-executable zero-completion price floor is `$5.2479232028`
+  (minimum cap `$6.56`), so the currently ratified exact scope cannot fit `$5.00` under
+  any token-cap branch. Paid inference remains unauthorized.
+- **Frozen executable choices:** each row is `logical no-retry forecast / planning cap;
+  maximum-retry forecast / strict NTE cap`:
+  - judge `max_tokens=2048`: `$11.5698587676 / $14.47`; `$29.9010952848 / $37.38`;
+  - judge `max_tokens=1024`: `$8.8972187676 / $11.13`; `$22.5282952848 / $28.17`;
+  - judge `max_tokens=512`: `$7.5608987676 / $9.46`; `$18.8418952848 / $23.56`;
+  - judge `max_tokens=256`: `$6.8927387676 / $8.62`; `$16.9986952848 / $21.25`.
+  In every executable row, SUT `max_tokens` remains 2,048. The 256-token row is cheapest
+  but has the greatest structured-verdict truncation risk. A lower logical planning cap
+  can stop early during a retry storm; the maximum-retry cap preserves the registered
+  retry/error-survival path without implying that amount will be spent.
+- **Evidence:** `07-PILOTS/20260713-ppp1-zero-paid-preflight/` plus its append-only
+  supersession at `07-PILOTS/20260713-ppp1-zero-paid-preflight-retry-correction/` and
+  final branch interpretation at
+  `07-PILOTS/20260713-ppp1-zero-paid-preflight-branch-addendum/`. The
+  original logical forecast remains valid; the correction supersedes its blanket 3,444
+  retry-reserved attempts with the production-seam maximum of 3,624 and supplies the
+  maximum-retry forecast/cap. The
+  2026-07-13T17:23:54Z catalog snapshot resolves the exact four slugs and current prices;
+  the contextual shared-key balance was `$62.97400935900009`, so none of the listed
+  branches needs a top-up.
+- **Suggested default:** Preserve the paper-facing 226×3 scope and ratify the balanced
+  512-token judge branch with an expected `$7.5608987676` no-retry forecast and strict
+  `$23.56` maximum-retry NTE cap, together with explicit authority
+  for only the minimal offline single-judge runner seam and one paid PPP-1 execution.
+  Keep the required **EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE**
+  label, stop after the paper packet, and leave full T4 unchanged. If retaining `$5.00`
+  is more important than preserving the ratified scope, Jimmy must explicitly amend the
+  scope/roster/judge before any further controller work or paid call.
+
 ## OPEN 2026-07-13 — T4 cap choice after the zero-paid R40.1 preflight
 
 - **Question:** Should the later confirmatory T4 be ratified at the full-run minimum cap

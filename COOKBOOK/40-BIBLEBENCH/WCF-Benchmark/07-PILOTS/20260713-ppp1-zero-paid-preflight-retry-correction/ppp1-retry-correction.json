@@ -1,0 +1,110 @@
+{
+  "balance": {
+    "limit_remaining": 62.97400935900009,
+    "retrieved_at": "2026-07-13T17:23:54Z"
+  },
+  "catalog": {
+    "retrieved_at": "2026-07-13T17:23:54Z",
+    "source_hash": "8aaf8aed304c97244239224bedd4e0677762ea1c69fa8005c429737a49b74268"
+  },
+  "episode_items": 22,
+  "judge": "google/gemini-2.5-flash",
+  "logical_forecast_cost_usd": 11.5698587676,
+  "logical_minimum_ratifiable_cap_usd": 14.47,
+  "maximum_retry_reserved_forecast_cost_usd": 29.9010952848,
+  "maximum_retry_reserved_minimum_cap_usd": 37.38,
+  "maximum_retry_reserved_top_up_usd": 0.0,
+  "network_calls": 0,
+  "normal_items": 204,
+  "paid_inference_authorized": false,
+  "paid_inference_performed": false,
+  "provenance_canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "retry_geometry": {
+    "derivation": {
+      "contested_judge": "JudgePanel.score_contested whole-score transport replay plus disclosure complete_with_retry; four logical calls become at most ten attempts",
+      "episode_judge": "JudgePanel.score_episode uses _score_judge_with_retry around one emission",
+      "episode_sut": "episode_run._RetryingSUTClient.complete: one conditional transport retry",
+      "normal_sut": "wcfbench.runner._score_item: one completion; exceptions are recorded, not retried",
+      "open_judge": "JudgePanel.score_open whole-score transport replay plus triaxial award truncation retry; numeric-only items have whole-score replay only"
+    },
+    "initial_api_attempts": {
+      "contested_judge": 48,
+      "episode_judge": 66,
+      "episode_sut": 66,
+      "normal_sut": 612,
+      "open_judge": 930,
+      "total": 1722
+    },
+    "maximum_api_attempts": {
+      "contested_judge": 120,
+      "episode_judge": 132,
+      "episode_sut": 132,
+      "normal_sut": 612,
+      "open_judge": 2628,
+      "total": 3624
+    },
+    "maximum_retry_increment": 1902,
+    "open_item_geometry": {
+      "numeric_three_axes": {
+        "initial_per_item": 3,
+        "items": 33,
+        "maximum_per_item": 6
+      },
+      "tagged_all_axes": {
+        "initial_per_item": 1,
+        "items": 49,
+        "maximum_per_item": 4
+      },
+      "tagged_one_axis": {
+        "initial_per_item": 3,
+        "items": 4,
+        "maximum_per_item": 8
+      },
+      "tagged_two_axes": {
+        "initial_per_item": 2,
+        "items": 75,
+        "maximum_per_item": 6
+      }
+    },
+    "per_sut_judge_attempts": {
+      "initial": {
+        "contested": 16,
+        "episode": 22,
+        "open": 310,
+        "total": 348
+      },
+      "maximum": {
+        "contested": 40,
+        "episode": 44,
+        "open": 876,
+        "total": 960
+      }
+    }
+  },
+  "roster": [
+    "meta-llama/llama-3.1-8b-instruct",
+    "deepseek/deepseek-chat",
+    "qwen/qwen3.7-plus"
+  ],
+  "runnable_items": 226,
+  "source_packet": "../07-PILOTS/20260713-ppp1-zero-paid-preflight",
+  "status": "SUPERSEDING_CORRECTION",
+  "strategy_cap_feasible": false,
+  "strategy_cap_usd": 5.0,
+  "supersedes": {
+    "cap_fields": "original logical-only forecast/cap remain valid; this correction adds the distinct maximum retry-reserved forecast/cap",
+    "retry_policy": {
+      "corrected": "actual per-seam maximum geometry in retry_geometry",
+      "original": "conservative reservation of one retry per logical request; a retry is not selected spend"
+    },
+    "retry_reservation_increment": {
+      "corrected": 1902,
+      "original": 1722
+    },
+    "retry_reserved_api_attempts": {
+      "corrected": 3624,
+      "original": 3444
+    }
+  },
+  "validity_label": "EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE"
+}

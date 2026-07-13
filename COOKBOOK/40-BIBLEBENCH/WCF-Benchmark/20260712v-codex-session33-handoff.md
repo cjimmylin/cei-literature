@@ -53,11 +53,10 @@ run-artifact, manifest, memo, or execution-plan-checkbox edits.
 
 ## 4. Dashboard browser status
 
-At session start, the controller attempted to open the local `file://` dashboard in the
-in-app browser. The browser's URL security policy blocked that open. No policy bypass or
-alternate browser surface was attempted. The documented source-verification exception is
-therefore in effect for this session, and the controller will make the required final
-dashboard attempt after the closure commit.
+The in-app browser `file://` dashboard open was attempted during the session and blocked by
+URL security policy. After that rejection, browser policy prohibited retry, workaround, or
+alternate-surface bypass. Final visual verification was unavailable. Source and structural
+verification completed under the documented exception.
 
 ## 5. Jimmy action and frozen-state rule
 
@@ -76,7 +75,8 @@ authorization gate.
 This closure task changed exactly:
 
 - `20260712v-codex-session33-handoff.md` — new session handoff.
-- `project-dashboard.html` — Session 33 live-close surfaces and append-only records.
+- `project-dashboard.html` — Session 33 LIVE surfaces and appended S33 Phase 6 and
+  update-log rows. All pre-Session-33 HISTORY content was preserved byte-for-byte.
 
 The already-reviewed packet and OPEN PENDING entry were inputs to this close and were not
 edited by this closure task.
@@ -84,6 +84,7 @@ edited by this closure task.
 Known issues at handoff:
 
 - the accounting difference remains unresolved and unattributed;
-- the in-app browser has so far blocked the local dashboard under its URL policy, so final
-  visual verification remains with the controller; and
+- final visual verification was unavailable after browser policy blocked the `file://` open
+  and prohibited retry, workaround, or alternate-surface bypass; source and structural
+  verification completed under the documented exception; and
 - the non-failing pytest temporary-directory cleanup warning remains noted above.

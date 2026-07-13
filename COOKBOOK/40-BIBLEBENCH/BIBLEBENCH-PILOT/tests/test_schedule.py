@@ -434,6 +434,28 @@ def test_mixed_script_identifier_keys_are_rejected_generically(
         )
 
 
+def test_script_aware_key_tokens_preserve_latin_and_separated_scripts() -> None:
+    pack = _pack()
+    payload = {
+        "café": "ordinary",
+        "résumé2": "ordinary",
+        "第1章": "ordinary",
+        "質問_v2": "ordinary",
+    }
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload=payload,
+        probe_payload=payload,
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload == payload
+    assert schedule.probe_rows[0].request_payload == payload
+
+
 @pytest.mark.parametrize("confusable_label", ["С3", "Ϲ2", "с0", "ϲ1"])
 @pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
 def test_high_risk_cue_label_homoglyphs_are_rejected(
@@ -581,6 +603,105 @@ def test_extended_cue_homoglyphs_remain_ordinary_without_adjacent_cue_digit(
     assert schedule.primary_rows[0].request_payload["shared_body"] == body
 
 
+@pytest.mark.parametrize(
+    "disguised_label",
+    [
+        "Ç3",
+        "ç3",
+        "Ć3",
+        "ć3",
+        "C\u03273",
+        "C\u200d3",
+        "C\u200c3",
+        "C\ufe0f3",
+        "C\u00ad3",
+        "C-3",
+        "C 3",
+    ],
+)
+@pytest.mark.parametrize(
+    "location",
+    [
+        "forecast_value",
+        "forecast_key",
+        "probe_nested_value",
+        "probe_nested_key",
+        "primary_body",
+    ],
+)
+def test_combining_ignorable_and_separator_cue_labels_are_rejected(
+    disguised_label: str, location: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    if location == "forecast_value":
+        episode = replace(
+            episode, forecast_payload={"note": disguised_label}
+        )
+    elif location == "forecast_key":
+        episode = replace(
+            episode, forecast_payload={disguised_label: "ordinary"}
+        )
+    elif location == "probe_nested_value":
+        episode = replace(
+            episode,
+            probe_payload={"outer": [{"note": disguised_label}]},
+        )
+    elif location == "probe_nested_key":
+        episode = replace(
+            episode,
+            probe_payload={"outer": [{disguised_label: "ordinary"}]},
+        )
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=disguised_label)
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError, match="reserved condition label"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "benign_text",
+    [
+        "façade 3",
+        "Ćiril 3",
+        "Café 3",
+        "C-4",
+        "C 4",
+        "第3章",
+        "word\u200d 3",
+    ],
+)
+def test_diacritic_and_international_nonlabels_preserve_exact_bytes(
+    benign_text: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={"note": benign_text},
+        probe_payload={"note": benign_text},
+        variants=tuple(
+            replace(variant, shared_body=benign_text)
+            for variant in pack.episodes[0].variants
+        ),
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload["note"] == benign_text
+    assert schedule.probe_rows[0].request_payload["note"] == benign_text
+    assert schedule.primary_rows[0].request_payload["shared_body"] == benign_text
+
+
 def test_international_prose_with_numbers_remains_allowed() -> None:
     pack = _pack()
     episode = replace(
@@ -645,12 +766,57 @@ def test_explicit_sensitive_assignments_are_rejected_in_visible_strings(
 
 
 @pytest.mark.parametrize(
+    "sensitive_assignment",
+    [
+        "The provider is OpenRouter",
+        "gold label: target",
+        "groundTruth=target",
+        "The condition is treatment",
+        "cue: scriptural",
+        "actor role=target",
+        "schedule id is hidden-schedule",
+        "bundleId is hidden-bundle",
+        "episode id: hidden-episode",
+        "private id=hidden-private",
+    ],
+)
+@pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
+def test_registered_metadata_assignments_are_rejected_in_all_call_payloads(
+    sensitive_assignment: str, location: str
+) -> None:
+    pack = _pack()
+    episode = pack.episodes[0]
+    if location == "forecast":
+        episode = replace(
+            episode, forecast_payload={"note": sensitive_assignment}
+        )
+    elif location == "probe":
+        episode = replace(
+            episode, probe_payload={"note": sensitive_assignment}
+        )
+    else:
+        episode = replace(
+            episode,
+            variants=tuple(
+                replace(variant, shared_body=sensitive_assignment)
+                for variant in episode.variants
+            ),
+        )
+
+    with pytest.raises(ValueError, match="sensitive assignment"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
     "benign_text",
     [
         "The expected outcome is uncertain",
         "This model is useful",
         "The actor is responsible",
         "gold is a color",
+        "the condition is stable",
     ],
 )
 def test_benign_assignment_like_prose_remains_allowed(benign_text: str) -> None:
@@ -2498,14 +2664,58 @@ def test_compile_rejects_a_generated_primary_id_in_its_probe_payload(
         )
 
 
-def test_generated_id_firewall_preserves_unrelated_ids_and_embedded_hashes() -> None:
+@pytest.mark.parametrize(
+    "leak_form",
+    [
+        "hash_prefix",
+        "hash_middle",
+        "zwj_split",
+        "hyphen_split",
+        "space_split",
+        "combining_split",
+    ],
+)
+def test_generated_id_firewall_rejects_disguised_and_embedded_ids(
+    leak_form: str,
+) -> None:
     pack = _pack()
-    primary_id = compile_schedule(
-        pack, actor_ids=ACTORS, seed=711
-    ).primary_rows[0].logical_call_id
+    primary_id = next(
+        row.logical_call_id
+        for row in compile_schedule(
+            pack, actor_ids=ACTORS, seed=711
+        ).primary_rows
+        if row.episode_id == "ep-00"
+        and re.search(r"c[0-3]", row.logical_call_id, re.IGNORECASE) is None
+    )
+    if leak_form == "hash_prefix":
+        probe_payload = {"content_sha256": primary_id + "a" * 48}
+    elif leak_form == "hash_middle":
+        probe_payload = {
+            "content_sha256": "a" * 24 + primary_id + "b" * 24
+        }
+    elif leak_form == "zwj_split":
+        probe_payload = {"note": "\u200d".join(primary_id)}
+    elif leak_form == "hyphen_split":
+        probe_payload = {"note": "-".join(primary_id)}
+    elif leak_form == "space_split":
+        probe_payload = {"note": " ".join(primary_id)}
+    else:
+        probe_payload = {"note": primary_id[:8] + "\u0327" + primary_id[8:]}
+    episode = replace(pack.episodes[0], probe_payload=probe_payload)
+
+    with pytest.raises(ValueError, match="generated schedule identifier"):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+def test_generated_id_firewall_preserves_unrelated_ids_and_hashes() -> None:
+    pack = _pack()
     probe_payload = {
         "request_id": "0123456789abcdef",
-        "content_sha256": primary_id + "a" * 48,
+        "content_sha256": "0" * 64,
+        "alternate_hash": "f" * 64,
+        "note": "dead-beef-dead-beef",
     }
     episode = replace(pack.episodes[0], probe_payload=probe_payload)
 

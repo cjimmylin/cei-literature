@@ -27,12 +27,14 @@ _MODULES = ("fruitbench", "corinthlove", "tencommandments", "sermonmount")
 _HASH = re.compile(r"[0-9a-f]{64}")
 _ID = re.compile(r"[0-9a-f]{16}")
 _CUE_LABEL = re.compile(
-    r"(?<![A-Za-z0-9])C[0-3](?![A-Za-z0-9])", re.IGNORECASE
+    r"(?<![A-Za-z0-9])C[- ]?[0-3](?![A-Za-z0-9])",
+    re.IGNORECASE,
 )
 _RESERVED_C3 = re.compile(
-    r"(?<![A-Za-z0-9])C3(?![A-Za-z0-9])", re.IGNORECASE
+    r"(?<![A-Za-z0-9])C[- ]?3(?![A-Za-z0-9])",
+    re.IGNORECASE,
 )
-_EMBEDDED_CUE_LABEL = re.compile(r"C[0-3]", re.IGNORECASE)
+_EMBEDDED_CUE_LABEL = re.compile(r"C[- ]?[0-3]", re.IGNORECASE)
 _OPAQUE_HEX = re.compile(r"(?:[0-9a-f]{16}|[0-9a-f]{64})")
 _MAX_VISIBLE_DEPTH = 128
 _MAX_REQUEST_BYTES = 64 * 1024
@@ -40,6 +42,13 @@ _MAX_REQUEST_KEY_BYTES = 512
 _MAX_REQUEST_STRING_BYTES = 32 * 1024
 _MAX_REQUEST_FIELDS_AND_NODES = 4096
 _MAX_IDENTIFIER_BYTES = 128
+_ASCII_COMPARISON_DELETE = str.maketrans(
+    {
+        chr(codepoint): None
+        for codepoint in range(128)
+        if unicodedata.category(chr(codepoint)).startswith(("P", "Z"))
+    }
+)
 _CAMEL_KEY_BOUNDARY = re.compile(
     r"(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])"
 )
@@ -153,9 +162,7 @@ _LOGICAL_REFERENCE_COMPONENT_CANONICAL = {
 _LOGICAL_CALL_REFERENCE_COMPACT = re.compile(
     r"logicalcalls?(?:ids?|identifiers?)", re.IGNORECASE
 )
-_STANDALONE_HEX_ID = re.compile(
-    r"(?<![0-9a-f])([0-9a-f]{16})(?![0-9a-f])", re.IGNORECASE
-)
+_HEX_RUN = re.compile(r"[0-9a-f]+")
 _CUE_HOMOGLYPHS = str.maketrans(
     {
         "С": "C",
@@ -177,11 +184,15 @@ _CUE_HOMOGLYPHS = str.maketrans(
     }
 )
 _SENSITIVE_ASSIGNMENT = re.compile(
-    r"(?<![a-z0-9])(?:"
+    r"(?<![a-z0-9])(?P<label>"
     r"expected[-_./\s]*label|tested[-_./\s]*model|"
-    r"actor[-_./\s]*(?:id|model)|"
-    r"model[-_./\s]*(?:identity|id|name)"
-    r")[ \t]*(?:is\b|[:=])[ \t]*\S",
+    r"actor[-_./\s]*(?:id|model|role)|"
+    r"model[-_./\s]*(?:identity|id|name)|"
+    r"provider|gold[-_./\s]*label|ground[-_./\s]*truth|"
+    r"condition|cue|schedule[-_./\s]*id|"
+    r"bundle[-_./\s]*id|episode[-_./\s]*id|"
+    r"private(?:[-_./\s]*(?:id|template|value))?"
+    r")[ \t]*(?:is\b|[:=])[ \t]*(?P<value>[^\s,;]+)",
     re.IGNORECASE,
 )
 
@@ -313,7 +324,29 @@ def _policy_text(value: str) -> str:
 
 
 def _label_policy_text(value: str) -> str:
-    return _policy_text(value.translate(_CUE_HOMOGLYPHS))
+    compatible = _policy_text(value.translate(_CUE_HOMOGLYPHS))
+    compatible = compatible.translate(_CUE_HOMOGLYPHS)
+    if compatible.isascii():
+        return compatible
+    decomposed = unicodedata.normalize("NFKD", compatible)
+    return "".join(
+        character
+        for character in decomposed
+        if unicodedata.category(character) not in {"Mn", "Me", "Cf"}
+    )
+
+
+def _comparison_skeleton(value: str) -> str:
+    normalized = _policy_text(value).casefold()
+    if normalized.isascii():
+        return normalized.translate(_ASCII_COMPARISON_DELETE)
+    decomposed = unicodedata.normalize("NFKD", normalized)
+    return "".join(
+        character
+        for character in decomposed
+        if not unicodedata.category(character).startswith(("P", "Z"))
+        and unicodedata.category(character) not in {"Mn", "Me", "Cf"}
+    )
 
 
 def _strict_identifier(value: Any, name: str) -> str:
@@ -735,25 +768,45 @@ def _assert_no_mixed_script_identifier_keys(
 ) -> None:
     for key in _walk_keys(payload):
         normalized = _policy_text(key)
-        has_ascii_alnum = any(
-            character.isascii() and character.isalnum()
-            for character in normalized
-        )
-        has_non_ascii_alnum = any(
-            not character.isascii() and character.isalnum()
-            for character in normalized
-        )
-        if has_ascii_alnum and has_non_ascii_alnum:
-            raise ValueError(
-                "request payload contains a mixed-script identifier key"
+        tokens: list[str] = []
+        current: list[str] = []
+        for character in normalized:
+            if character.isalnum():
+                current.append(character)
+            elif current:
+                tokens.append("".join(current))
+                current = []
+        if current:
+            tokens.append("".join(current))
+        for token in tokens:
+            has_ascii_letter = any(
+                character.isascii() and character.isalpha()
+                for character in token
             )
+            has_non_latin_letter = any(
+                character.isalpha()
+                and not character.isascii()
+                and "LATIN" not in unicodedata.name(character, "")
+                for character in token
+            )
+            if has_ascii_letter and has_non_latin_letter:
+                raise ValueError(
+                    "request payload contains a mixed-script identifier key"
+                )
 
 
 def _assert_no_sensitive_assignments(payload: dict[str, Json]) -> None:
     for visible in _walk_visible_strings(payload):
         separated = _CAMEL_KEY_BOUNDARY.sub("_", _policy_text(visible))
-        if _SENSITIVE_ASSIGNMENT.search(separated.casefold()):
-            raise ValueError("request payload contains a sensitive assignment")
+        match = _SENSITIVE_ASSIGNMENT.search(separated.casefold())
+        if match is None:
+            continue
+        label = _normalized_key(match.group("label"))
+        assigned_value = _policy_text(match.group("value")).casefold()
+        assigned_value = assigned_value.strip(".!?")
+        if label == "condition" and assigned_value == "stable":
+            continue
+        raise ValueError("request payload contains a sensitive assignment")
 
 
 def _assert_payload_hides_generated_ids(
@@ -762,17 +815,19 @@ def _assert_payload_hides_generated_ids(
     if not generated_ids:
         return
     normalized_ids = frozenset(
-        _policy_text(identifier).casefold() for identifier in generated_ids
+        _comparison_skeleton(identifier) for identifier in generated_ids
     )
     for visible in _walk_visible_strings(payload):
-        normalized = _policy_text(visible).casefold()
-        if any(
-            match.group(1).casefold() in normalized_ids
-            for match in _STANDALONE_HEX_ID.finditer(normalized)
-        ):
-            raise ValueError(
-                "request payload contains a generated schedule identifier"
-            )
+        normalized = _comparison_skeleton(visible)
+        for match in _HEX_RUN.finditer(normalized):
+            run = match.group(0)
+            if any(
+                run[index : index + 16] in normalized_ids
+                for index in range(len(run) - 15)
+            ):
+                raise ValueError(
+                    "request payload contains a generated schedule identifier"
+                )
 
 
 def _assert_no_actor_visible_metadata_fields(

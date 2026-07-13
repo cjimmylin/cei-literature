@@ -134,8 +134,17 @@ statistics and claims as quickly as validity permits. The active priority is alw
    same session unless a frozen gate blocks interpretation.
 4. Perform ancillary engineering only when it directly blocks steps 1–3.
 
-The current critical path is **W1 → W2 Δ(J) → W3 post-adjudication readings → PAPER
-results fill**. Human labels proceed in parallel and gate G4/verdicts, not W1–W3.
+W1 → W2 Δ(J) → W3 and the first licensed PAPER results fill are complete. The
+immediate paper-facing priority is now the separately registered **MVP-PILOT** in
+`00-PORTFOLIO/20260713-walkworthy-mvp-paper-strategy-amendment.md`: a deterministic
+60-item PUBLIC preview using 3 inexpensive SUTs and 2 inexpensive cross-family judges,
+under a $5.00 NTE cap. Its outputs are descriptive only and never substitute for O5.
+
+The next authorized step is documentation-only: name exact model slugs, verify current
+prices/availability, calculate worst-case spend, and obtain Jimmy's separate paid-run
+authorization. Until then, no credential access or live call is authorized. O5 remains
+the release-grade lane; human labels still gate G4/verdicts, and all frozen O5 rules
+remain binding.
 
 ### Anti-tangent rules
 

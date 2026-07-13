@@ -91,5 +91,4 @@ preimage. No push is authorized or performed.
 No reconciliation escalation remains. T3 and T4 remain unauthorized until Jimmy supplies separate task-specific written roster, budget, and cap authorization. G6/G4 labels gate
 release, not T4 execution; Task 6 remains deferred; and paper P3 waits for T4 plus R67.4.
 
-Next action is **state load only** unless Jimmy supplies a separate explicit production
-ruling. T3 and T4 remain unauthorized until Jimmy supplies separate task-specific written roster, budget, and cap authorization. Do not infer or manufacture executor work.
+State load only unless Jimmy supplies either (a) a separate explicit production ruling or (b) separate task-specific written T3/T4 roster, budget, and cap authorization. Do not infer or manufacture executor work; no paid call is authorized without (b).

@@ -46,6 +46,12 @@ _PHYSICAL_SCOPE_QUALIFIERS = frozenset(
     {"id", "identifier", "call", "attempt"}
 )
 _ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
+_NAMESPACE_COMPONENT_ALIASES = {
+    "routes": "route",
+    "lenses": "lens",
+    "interventions": "intervention",
+    "providers": "provider",
+}
 _BLIND_FORECAST_COMPONENTS = frozenset(
     {
         "cue",
@@ -279,16 +285,20 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
         components = _key_components(key)
+        namespace_components = tuple(
+            _NAMESPACE_COMPONENT_ALIASES.get(component, component)
+            for component in components
+        )
         has_attempt_identifier = (
-            "attempt" in components
-            and not _IDENTIFIER_COMPONENTS.isdisjoint(components)
+            "attempt" in namespace_components
+            and not _IDENTIFIER_COMPONENTS.isdisjoint(namespace_components)
         )
         lens_or_intervention = not {"lens", "intervention"}.isdisjoint(
-            components
+            namespace_components
         )
-        physical = "physical" in components
-        provider = "provider" in components
-        route = "route" in components
+        physical = "physical" in namespace_components
+        provider = "provider" in namespace_components
+        route = "route" in namespace_components
         if (
             normalized in _LATER_SCOPE_EXACT_KEYS
             or lens_or_intervention

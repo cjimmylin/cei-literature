@@ -22,6 +22,8 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 from walkworthy import loader, metrics, gates_o4, outcomes
+from walkworthy.adjudication import (AGREED, EXCLUDED_DEFECT, EXCLUDED_DISAGREEMENT,
+                                     adjudicated_value)
 from walkworthy.outcomes import LOAD_BEARING
 from walkworthy.refusal import tag_response
 from walkworthy.rubrics import INT, ORD, spec_for
@@ -102,6 +104,155 @@ def validate_w1_summary(summary: dict, tiebreaker_model: str) -> None:
         raise ValueError("W3 STOP: incomplete or mismatched W1 summary: " + "; ".join(failures))
 
 
+def validate_home_reroute_summary(summary: dict, tiebreaker_model: str) -> None:
+    """Fail closed unless the ratified PR-16 derived run is complete."""
+    expected = {
+        "selected_units": 63, "selected_cells": 249,
+        "reused_w1_units": 11, "new_call_units": 52,
+        "processed_units": 63, "superseded_pr15_cells": 11,
+        "source_records": 2064, "derived_records": 2064,
+        "surviving_judge": "openai/gpt-4.1-mini",
+        "disqualified_judge": "google/gemini-2.5-flash",
+        "tiebreaker_model": tiebreaker_model,
+        "complete": True,
+    }
+    failures = [f"{field}={summary.get(field)!r} (expected {value!r})"
+                for field, value in expected.items() if summary.get(field) != value]
+    routed = sum(int(summary.get(field, 0)) for field in (
+        "resolved_cells", "part_b_disagreement_cells", "part_b_defect_cells"))
+    if routed != 249:
+        failures.append(f"final routed cells={routed} (expected 249)")
+    if failures:
+        raise ValueError("W3 STOP: incomplete or mismatched PR-16 summary: "
+                         + "; ".join(failures))
+
+
+def validate_home_reroute_record(record: dict, event: dict,
+                                 tiebreaker_model: str) -> dict:
+    """Validate every selected replacement-pair cell from record-level evidence."""
+    categories_by_design = {
+        "05-ordoamoris": ("rationale_honesty",),
+        "06-crookedpath": ("frame", "facts", "principles", "alternatives",
+                           "resolution", "remainder", "pastoral"),
+    }
+    design = record.get("design")
+    categories = categories_by_design.get(design)
+    if not categories or record.get("model") != "google/gemini-2.5-pro":
+        raise ValueError("W3 STOP: nonselected record presented as a PR-16 reroute")
+    report = record.get("judge_report") or {}
+    home = report.get("home_reroute") or {}
+    pair = ["openai/gpt-4.1-mini", tiebreaker_model]
+    failures = []
+    if home.get("replacement_judges") != pair:
+        failures.append("record replacement pair is not OpenAI+Mistral")
+    if home.get("disqualified_judge") != "google/gemini-2.5-flash":
+        failures.append("record does not strike the Google judge")
+    event_expected = {
+        "item_id": record.get("item_id"), "design": design,
+        "model": record.get("model"), "unit_key": "item",
+        "route": "home_reroute", "tiebreaker_model": tiebreaker_model,
+    }
+    if any(event.get(field) != value for field, value in event_expected.items()):
+        failures.append("reroute event key/model provenance is invalid")
+    if event.get("source") not in {"reused_w1", "new_call"}:
+        failures.append("reroute event source is invalid")
+    event_scores = event.get("scores") or {}
+    verdicts = report.get("verdicts") or []
+    openai = [verdict for verdict in verdicts
+              if str(verdict.get("judge", "")).removeprefix("or:")
+              == "openai/gpt-4.1-mini"]
+    if len(openai) != 1:
+        failures.append("record lacks the unique surviving OpenAI verdict")
+    openai_scores = (openai[0].get("scores") or {}) if len(openai) == 1 else {}
+    home_cells = home.get("cells") or []
+    if [cell.get("cell") for cell in home_cells] != list(categories):
+        failures.append("record home-reroute cell list does not match the frozen surface")
+    home_by_name = {str(cell.get("cell")): cell for cell in home_cells}
+    disagreements = report.get("disagreements") or []
+    selected = [cell for cell in disagreements if str(cell.get("cell")) in categories]
+    by_name = {str(cell.get("cell")): cell for cell in selected}
+    if len(selected) != len(categories) or set(by_name) != set(categories):
+        failures.append("record lacks exactly one evidence row per rerouted cell")
+    derived_scores = (report.get("adjudicated_verdict") or {}).get("scores") or {}
+    counts = {"resolved_cells": 0, "part_b_disagreement_cells": 0,
+              "part_b_defect_cells": 0}
+    expected_status = {
+        AGREED: ("home_reroute_resolved", "resolved_cells", False),
+        EXCLUDED_DISAGREEMENT: (
+            "part_b_home_reroute_disagreement", "part_b_disagreement_cells", True),
+        EXCLUDED_DEFECT: ("part_b_home_reroute_defect", "part_b_defect_cells", True),
+    }
+    spec = spec_for(design)
+    spec_categories = {category.name: category for category in spec.categories}
+    for name in categories:
+        cell = by_name.get(name) or {}
+        values = cell.get("values") or []
+        if (cell.get("replacement_judges") != pair
+                or cell.get("disqualified_judge") != "google/gemini-2.5-flash"
+                or cell.get("tiebreaker_model") != tiebreaker_model
+                or len(values) != 2
+                or (len(values) == 2 and cell.get("tiebreaker_value") != values[1])
+                or (len(values) == 2 and values[0] != openai_scores.get(name))
+                or (len(values) == 2 and values[1] != event_scores.get(name))):
+            failures.append(f"{name}: invalid replacement-pair provenance")
+            continue
+        value, adjudication_status = adjudicated_value(
+            spec_categories[name], values[0], values[1])
+        status, count_name, unresolved = expected_status[adjudication_status]
+        if (cell.get("adjudication_status") != status
+                or cell.get("needs_adjudication") is not unresolved
+                or cell.get("adjudicated") != value
+                or derived_scores.get(name) != (value if not unresolved else None)
+                or (home_by_name.get(name) or {}).get("status") != status
+                or (home_by_name.get(name) or {}).get("value") != value):
+            failures.append(f"{name}: replacement value/status is inconsistent")
+        else:
+            counts[count_name] += 1
+    if failures:
+        raise ValueError(f"W3 STOP: malformed PR-16 record {record.get('item_id')}: "
+                         + "; ".join(failures))
+    return counts
+
+
+def validate_home_reroute_records(records: list, events: list, summary: dict,
+                                  tiebreaker_model: str) -> None:
+    keys = [(record.get("item_id"), record.get("model")) for record in records]
+    if len(records) != 2064 or len(keys) != len(set(keys)):
+        raise ValueError("W3 STOP: PR-16 derived run must retain 2,064 unique records")
+    target_designs = {"05-ordoamoris", "06-crookedpath"}
+    selected = [record for record in records
+                if record.get("design") in target_designs
+                and record.get("model") == "google/gemini-2.5-pro"]
+    stray = [record.get("item_id") for record in records
+             if (record.get("judge_report") or {}).get("home_reroute")
+             and record not in selected]
+    if len(selected) != 63 or stray:
+        raise ValueError("W3 STOP: PR-16 record-level selected surface is not exact")
+    event_map = {}
+    for event in events:
+        key = (event.get("item_id"), event.get("model"), event.get("unit_key"))
+        if key in event_map:
+            raise ValueError("W3 STOP: duplicate PR-16 reroute event key")
+        event_map[key] = event
+    selected_keys = {(record.get("item_id"), record.get("model"), "item")
+                     for record in selected}
+    if set(event_map) != selected_keys:
+        raise ValueError("W3 STOP: PR-16 reroute event surface is not exact")
+    if (sum(event.get("source") == "reused_w1" for event in events) != 11
+            or sum(event.get("source") == "new_call" for event in events) != 52):
+        raise ValueError("W3 STOP: PR-16 reroute event provenance counts changed")
+    totals = {"resolved_cells": 0, "part_b_disagreement_cells": 0,
+              "part_b_defect_cells": 0}
+    for record in selected:
+        key = (record.get("item_id"), record.get("model"), "item")
+        counts = validate_home_reroute_record(record, event_map[key], tiebreaker_model)
+        for field in totals:
+            totals[field] += counts[field]
+    if sum(totals.values()) != 249 or any(
+            totals[field] != int(summary.get(field, -1)) for field in totals):
+        raise ValueError("W3 STOP: PR-16 record-level counts do not match its summary")
+
+
 def write_new_report(path: Path, text: str) -> None:
     """Reports are immutable snapshots: creation is allowed, replacement is not."""
     path = Path(path)
@@ -146,8 +297,11 @@ def strict_identity_records(records: list) -> list:
         derived = jr.get("adjudicated_verdict")
         if len(verdicts) < 2 or not derived:
             continue
-        resolved = {str(c.get("cell")) for c in (jr.get("disagreements") or [])
+        disagreements = jr.get("disagreements") or []
+        resolved = {str(c.get("cell")) for c in disagreements
                     if c.get("adjudication_status") == "tiebreak_resolved"}
+        replacement = {str(c.get("cell")): c for c in disagreements
+                       if c.get("adjudication_status") == "home_reroute_resolved"}
         spec = spec_for(rec["design"])
         numeric = {c.name for c in spec.categories if c.scale in (INT, ORD)}
         if spec.unit == "item":
@@ -163,6 +317,11 @@ def strict_identity_records(records: list) -> list:
         for key, scores0, scores1, scoresd in triplets:
             for category in numeric:
                 cell_name = category if key is None else f"{key}:{category}"
+                if cell_name in replacement:
+                    values = replacement[cell_name].get("values") or [None, None]
+                    if len(values) < 2 or values[0] != values[1]:
+                        scoresd[category] = None
+                    continue
                 if (scores0.get(category) != scores1.get(category)
                         and cell_name not in resolved):
                     scoresd[category] = None
@@ -484,6 +643,17 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
     L.append(f"| Tie-breaker (3rd family, §E) | `{meta['tiebreaker']}` — W1 complete; "
              "own-family and post-tie-breaker contested cells → cell-level Part B |")
     L.append("")
+    if meta.get("home_reroute"):
+        home = meta["home_reroute"]
+        L.append("**FR-7 reroute (PR-16):** Google was struck from 249 Google-SUT "
+                 "05/06 rubric cells; 11 Mistral item-unit judgments were reused and "
+                 "52 were newly called. The OpenAI+Mistral replacement pair resolved "
+                 f"{home['resolved_cells']} cells; "
+                 f"{home['part_b_disagreement_cells']} disagreements and "
+                 f"{home['part_b_defect_cells']} defects route to Part B. Exactly "
+                 f"{home['superseded_pr15_cells']} overlapping PR-15 routes were "
+                 "superseded.")
+        L.append("")
     if meta.get("cost") is not None:
         L.append(f"**Run cost:** ${meta['cost']:.4f} over {meta.get('calls','?')} calls. "
                  f"**Schema errors:** {meta.get('schema_errors','?')}. "
@@ -581,7 +751,9 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
     L.append("## FR-10 strict-identity sensitivity (04/06/10)")
     L.append("")
     L.append("The registered headline uses within-tolerance numeric means. This counterfactual "
-             "requires exact frozen-pair identity but preserves genuine W1 tie-break resolutions.")
+             "requires exact identity from the valid judging pair for each cell (the frozen "
+             "pair normally; OpenAI+Mistral on PR-16-rerouted cells) while preserving genuine "
+             "W1 tie-break resolutions.")
     L.append("")
     L.append("| design | G1 registered → strict | G2 registered → strict | G3 registered → strict | G8-zv registered → strict | flips |")
     L.append("|--------|------------------------|------------------------|------------------------|---------------------------|-------|")
@@ -676,8 +848,7 @@ def render(records: list, items_by_id: dict, capability: Dict[str, float],
 
     L.append("## Next")
     L.append("")
-    L.append("1. Materialize any FR-7 judge rerouting required by the W2 Δ(J) result, then "
-             "regenerate this NEW dated W3 snapshot.")
+    L.append("1. Fill only the W3-licensed PAPER statistics from this dated snapshot.")
     L.append("2. Complete W4 G5 and W5 G7 mechanics.")
     L.append("3. At P5, absent labels stop O5 at P4-complete; no verdict assembly or release claim.")
     L.append("")
@@ -716,7 +887,18 @@ def main(argv=None):
         raise ValueError(f"W3 STOP: missing W1 summary: {w1_summary_path}")
     w1_summary = json.loads(w1_summary_path.read_text(encoding="utf-8"))
     validate_w1_summary(w1_summary, args.tiebreaker)
+    home_summary_path = run_dir / "home_reroute_summary.json"
+    if not home_summary_path.exists():
+        raise ValueError(f"W3 STOP: missing PR-16 summary: {home_summary_path}")
+    home_summary = json.loads(home_summary_path.read_text(encoding="utf-8"))
+    validate_home_reroute_summary(home_summary, args.tiebreaker)
     recs = [json.loads(l) for l in (run_dir / "scored_items.jsonl").read_text().splitlines() if l.strip()]
+    home_events_path = run_dir / "home_reroute_events.jsonl"
+    if not home_events_path.exists():
+        raise ValueError(f"W3 STOP: missing PR-16 events: {home_events_path}")
+    home_events = [json.loads(line) for line in home_events_path.read_text().splitlines()
+                   if line.strip()]
+    validate_home_reroute_records(recs, home_events, home_summary, args.tiebreaker)
     validate_model_provenance(recs, args.judge1, args.judge2, args.classifier)
     base_run = w1_summary.get("base_run")
     if not base_run:
@@ -736,7 +918,8 @@ def main(argv=None):
             "date": args.date or w1_summary.get("date") or "unknown",
             "judge1": args.judge1, "judge2": args.judge2, "classifier": args.classifier,
             "tiebreaker": args.tiebreaker, "cost": None,
-            "coverage_note": args.coverage_note}
+            "coverage_note": args.coverage_note,
+            "home_reroute": home_summary}
     summ = run_dir / "panel_summary.json"
     if summ.exists():
         s = json.loads(summ.read_text())

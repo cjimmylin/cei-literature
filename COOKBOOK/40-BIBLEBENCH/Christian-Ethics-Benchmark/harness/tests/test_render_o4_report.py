@@ -44,6 +44,91 @@ def test_validate_w1_summary_requires_ratified_complete_surface():
             report.validate_w1_summary(_complete_w1_summary(**changed), FROZEN_TIEBREAKER)
 
 
+def _complete_home_summary(**overrides):
+    summary = {
+        "selected_units": 63, "selected_cells": 249,
+        "reused_w1_units": 11, "new_call_units": 52,
+        "processed_units": 63, "resolved_cells": 200,
+        "part_b_disagreement_cells": 48, "part_b_defect_cells": 1,
+        "superseded_pr15_cells": 11, "complete": True,
+        "surviving_judge": "openai/gpt-4.1-mini",
+        "disqualified_judge": "google/gemini-2.5-flash",
+        "tiebreaker_model": FROZEN_TIEBREAKER,
+        "source_records": 2064, "derived_records": 2064,
+    }
+    summary.update(overrides)
+    return summary
+
+
+def test_validate_home_reroute_summary_requires_complete_ratified_surface():
+    report.validate_home_reroute_summary(_complete_home_summary(), FROZEN_TIEBREAKER)
+
+    for changed in (
+        {"complete": False}, {"selected_units": 62}, {"selected_cells": 248},
+        {"reused_w1_units": 10}, {"new_call_units": 53},
+        {"processed_units": 62}, {"superseded_pr15_cells": 10},
+        {"resolved_cells": 199}, {"tiebreaker_model": "wrong/model"},
+        {"derived_records": 2063},
+    ):
+        with pytest.raises(ValueError, match="W3 STOP"):
+            report.validate_home_reroute_summary(
+                _complete_home_summary(**changed), FROZEN_TIEBREAKER)
+
+
+def test_validate_home_reroute_record_checks_pair_values_and_status():
+    scores = {name: 1 for name in (
+        "frame", "facts", "principles", "alternatives", "resolution", "remainder",
+        "pastoral")}
+    rec = {
+        "item_id": "WW-06-X", "design": "06-crookedpath",
+        "model": "google/gemini-2.5-pro",
+        "judge_report": {
+            "adjudicated_verdict": {"scores": dict(scores)},
+            "home_reroute": {
+                "disqualified_judge": "google/gemini-2.5-flash",
+                "replacement_judges": ["openai/gpt-4.1-mini", FROZEN_TIEBREAKER],
+                "cells": [{"cell": name, "status": "home_reroute_resolved",
+                           "value": 1} for name in scores],
+            },
+            "disagreements": [{
+                "cell": name, "values": [1, 1], "adjudicated": 1,
+                "needs_adjudication": False,
+                "replacement_judges": ["openai/gpt-4.1-mini", FROZEN_TIEBREAKER],
+                "disqualified_judge": "google/gemini-2.5-flash",
+                "tiebreaker_model": FROZEN_TIEBREAKER, "tiebreaker_value": 1,
+                "adjudication_status": "home_reroute_resolved",
+            } for name in scores],
+        },
+    }
+
+    event = {
+        "item_id": "WW-06-X", "design": "06-crookedpath",
+        "model": "google/gemini-2.5-pro", "unit_key": "item",
+        "route": "home_reroute", "source": "new_call",
+        "tiebreaker_model": FROZEN_TIEBREAKER, "scores": dict(scores),
+        "defects": [],
+    }
+    rec["judge_report"]["verdicts"] = [{
+        "judge": "or:openai/gpt-4.1-mini", "scores": dict(scores)},
+        {"judge": "or:google/gemini-2.5-flash",
+         "scores": {name: 0 for name in scores}},
+    ]
+
+    counts = report.validate_home_reroute_record(rec, event, FROZEN_TIEBREAKER)
+    assert counts == {"resolved_cells": 7, "part_b_disagreement_cells": 0,
+                      "part_b_defect_cells": 0}
+
+    corrupt = deepcopy(rec)
+    corrupt["judge_report"]["disagreements"][0]["values"] = [1, 0]
+    with pytest.raises(ValueError, match="W3 STOP"):
+        report.validate_home_reroute_record(corrupt, event, FROZEN_TIEBREAKER)
+
+    corrupt_event = deepcopy(event)
+    corrupt_event["scores"]["frame"] = 0
+    with pytest.raises(ValueError, match="W3 STOP"):
+        report.validate_home_reroute_record(rec, corrupt_event, FROZEN_TIEBREAKER)
+
+
 def test_write_report_refuses_to_overwrite(tmp_path):
     out = tmp_path / "20260713-w3.md"
     out.write_text("immutable", encoding="utf-8")
@@ -162,6 +247,34 @@ def test_strict_identity_counterfactual_preserves_tiebreak_resolutions():
 
     assert strict["judge_report"]["adjudicated_verdict"]["per_unit"][0]["scores"][
         "treatment"] == 1
+
+
+def test_strict_identity_counterfactual_preserves_fr7_reroute_resolutions():
+    scores0 = {name: 1 for name in (
+        "frame", "facts", "principles", "alternatives", "resolution", "remainder",
+        "pastoral")}
+    scores1 = dict(scores0)
+    scores1["frame"] = 0
+    derived = dict(scores0)
+    derived["frame"] = 1
+    rec = {
+        "item_id": "WW-06-X", "design": "06-crookedpath", "model": "sut",
+        "judge_report": {
+            "verdicts": [
+                {"judge": "j0", "unit": "item", "scores": scores0},
+                {"judge": "j1", "unit": "item", "scores": scores1},
+            ],
+            "disagreements": [{"cell": "frame", "values": [1, 1],
+                                "needs_adjudication": False,
+                                "adjudication_status": "home_reroute_resolved"}],
+            "adjudicated_verdict": {"judge": "derived", "unit": "item",
+                                     "scores": derived},
+        },
+    }
+
+    strict = report.strict_identity_records([rec])[0]
+
+    assert strict["judge_report"]["adjudicated_verdict"]["scores"]["frame"] == 1
 
 
 def _g8_record(item_id, model, derived_state="partial", unresolved=False,

@@ -1,0 +1,39 @@
+{
+  "ruling": "PR-16-option-1",
+  "selected_units": 63,
+  "selected_cells": 249,
+  "reused_w1_units": 11,
+  "new_call_units": 52,
+  "superseded_pr15_cells": 11,
+  "checkpointed_units": 0,
+  "new_units_this_invocation": 52,
+  "processed_units": 63,
+  "resolved_cells": 245,
+  "part_b_disagreement_cells": 4,
+  "part_b_defect_cells": 0,
+  "complete": true,
+  "surviving_judge": "openai/gpt-4.1-mini",
+  "disqualified_judge": "google/gemini-2.5-flash",
+  "tiebreaker_model": "mistralai/mistral-large-2512",
+  "by_design": {
+    "05-ordoamoris": {
+      "home_reroute_resolved": 30,
+      "part_b_home_reroute_disagreement": 2
+    },
+    "06-crookedpath": {
+      "home_reroute_resolved": 215,
+      "part_b_home_reroute_disagreement": 2
+    }
+  },
+  "cost": {
+    "usd": 0.0534336,
+    "calls": 52,
+    "prompt_tokens": 105240,
+    "completion_tokens": 2016
+  },
+  "date": "20260713",
+  "source_run": "20260712-o5-tiebreak",
+  "out_run": "20260713-o5-home-reroute",
+  "source_records": 2064,
+  "derived_records": 2064
+}

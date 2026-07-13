@@ -705,6 +705,36 @@ scores, or (3) keep the 11 PR-15 overlaps in Part B even where the valid replace
 pair agrees. Either changes cost, reproducibility, or exclusion counts. **OPEN;
 W3/PAPER blocked pending Jimmy.**
 
+**Jimmy ruling (2026-07-13, verbatim):**
+
+> Ratify PR-16 option 1: strike Google on all 249 Google-SUT 05/06 rubric cells; reuse
+> 11 existing Mistral unit scores and call only the 52 missing units; adjudicate solely
+> under the frozen OpenAI+Mistral two-judge tolerance/mean rule, route disagreements or
+> defects to Part B, and let this FR-7 recompute supersede the 11 overlapping PR-15
+> ambiguity routes in a new immutable derived run.
+
+**RATIFIED / CLOSED.** This is the binding FR-7 materialization order. W1 and W2 remain
+immutable; the replacement computation must be emitted as a new derived run with exact
+11-reuse / 52-call provenance and must not change any nonselected cell.
+
+---
+
+## PR-17 — Post-Fable paper-claims review routing
+
+**Surfaced:** 2026-07-13 on the first use of the standing paper-fill prompt. The
+conditional Fable claims review in master-plan §5 cannot run because the Fable window
+closed. `20260712-codex-paper-fill-boot-prompt.md` routes the substitute as an Opus
+adversarial-review memo to Jimmy and requires a one-line ratification on first use.
+
+**Recommended one-liner:**
+
+> Ratify paper claims review routed Opus memo → Jimmy per
+> 20260712-codex-paper-fill-boot-prompt.md (master-plan §5 conditional; Fable window
+> closed).
+
+**OPEN — JIMMY RULING.** The Codex conformance checklist and Opus review request exist;
+no Opus memo or Jimmy acceptance is claimed.
+
 ---
 
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a

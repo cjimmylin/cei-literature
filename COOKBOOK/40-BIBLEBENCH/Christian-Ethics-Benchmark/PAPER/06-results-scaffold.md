@@ -4,7 +4,8 @@
 **Status:** DRAFT SCAFFOLD — living document. **Owner:** Fable (schema) → Codex/Opus (fill).
 **Fill protocol (binding, from outline §4):**
 1. Fill ONLY from (i) the NEW dated post-W3 recompute readings file and (ii) the O5
-   gate-adjudication report — both are Codex P3/P7 deliverables that do not exist yet.
+   gate-adjudication report — Codex P3/P7 deliverables, filled incrementally as each
+   artifact exists.
    NEVER fill from `20260711b-o4-panel-report.md` (mechanics doc; its readings are
    superseded) or from any pre-adjudication artifact.
 2. Every filled cell keeps a `<!-- source: <file> §<sec> -->` comment.
@@ -31,16 +32,21 @@ FR-1 met? (Y/N)
 
 | design | unit | n | son | dsk | gem | lla | mis | gpt | FR-1 |
 |---|---|---|---|---|---|---|---|---|---|
-| 01 | item | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 02 | dialogue | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 03 | item | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 04 | pair | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 05 | item | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 06 | criterion-cell | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 07 | dialogue | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 08 | pair | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 09 | structure | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
-| 10 | pair | ⟦n⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦%⟧ | ⟦Y/N⟧ |
+| 01 | item | 49 | 2.04% | 2.04% | 0.00% | 2.04% | 28.57% | 2.04% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 02 | dialogue | 36 | 41.67% | 52.78% | 36.11% | 38.89% | 80.56% | 41.67% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 03 | item | 33 | 6.06% | 9.09% | 15.15% | 6.06% | 30.30% | 6.06% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 04 | pair | 33 | 18.18% | 21.21% | 18.18% | 18.18% | 66.67% | 24.24% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 05 | item | 32 | 3.12% | 3.12% | 3.12% | 6.25% | 6.25% | 3.12% | Y <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 06 | criterion-cell | 217 | 5.07% | 7.83% | 0.92% | 8.29% | 16.13% | 7.83% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 07 | dialogue | 27 | 25.93% | 44.44% | 59.26% | 22.22% | 88.89% | 55.56% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 08 | pair | 33 | 6.06% | 0.00% | 6.06% | 3.03% | 36.36% | 6.06% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 09 | structure | 34 | 23.53% | 20.59% | 17.65% | 8.82% | 73.53% | 14.71% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+| 10 | pair | 36 | 11.11% | 16.67% | 13.89% | 8.33% | 61.11% | 8.33% | N <!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model --> |
+
+**Incremental-fill note:** these are post-W1/FR-7 and pre-Part-B exclusion rates.
+Table 6.1 will be replaced after P6; at this checkpoint only design 05 meets FR-1
+across all six SUTs.
+<!-- source: 20260713b-o5-postadjudication-readings.md §FR-1 adjudication completeness by design × model -->
 
 Accompanying prose slot: ⟦tie-breaker coverage: N cells adjudicated by
 mistral-large-2512; M own-family cells routed to Part-B (FR-16/17); K cells excluded⟧.
@@ -61,16 +67,16 @@ N-E for constant-key designs) | G7 (flip-rate %) | G9 headline present (03/08) |
 
 | d | G1 (maxH) | G2 (range) | G3 (ρ, p) | G4 (j0 κ / j1 κ / ceiling) | G5 | G6 | G7 flip% | status | wave |
 |---|---|---|---|---|---|---|---|---|---|
-| 01 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 |
-| 02 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 |
-| 03 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 |
-| 04 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 |
-| 05 | FAIL† | FAIL† | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | REWORK-DIFFICULTY† | 2 |
-| 06 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 |
-| 07 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 |
-| 08 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 |
-| 09 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 |
-| 10 | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 |
+| 01 | 0.795 (FR-1 N) | 33.333 (FR-1 N) | ρ=0.886, p=.0282 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 02 | 0.355 (FR-1 N) | 19.828 (FR-1 N) | ρ=0.257, p=.6543 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 03 | 0.542 (FR-1 N) | 45.161 (FR-1 N) | ρ=-0.841, p=.0384 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 04 | 0.636 (FR-1 N) | 34.624 (FR-1 N) | ρ=0.771, p=.1009 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 05 | FAIL† (0.970) | FAIL† (7.577) | PASS (ρ=-0.429, p=.4163) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | REWORK-DIFFICULTY† | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS + FR-5 BINDING / CHECKED; Table 6.1 FR-1=Y --> |
+| 06 | 0.915 (FR-1 N) | 28.730 (FR-1 N) | ρ=0.029, p=1.0000 (FR-1 N) | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 07 | 0.200 (FR-1 N) | 30.000 (FR-1 N) | ρ=0.655, p=.3362 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 08 | 0.864 (FR-1 N) | 20.968 (FR-1 N) | ρ=-0.551, p=.2637 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 09 | 0.900 (FR-1 N) | 15.812 (FR-1 N) | ρ=-0.543, p=.2917 (FR-1 N) | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 10 | 0.696 (FR-1 N) | 14.286 (FR-1 N) | ρ=0.257, p=.6553 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
 
 † Pre-seeded from FR-5 (judge-free primary, adjudication near-complete at freeze time):
 05's G1+G2 FAIL are final-quality this cycle; status REWORK-DIFFICULTY; out of the
@@ -85,8 +91,10 @@ Mandatory footnotes to Table 6.2 (copy verbatim, fill numbers):
   generator-family SUTs; where verdicts differ the conservative row governs — both in
   Appendix ⟦X⟧."
 - FR-10: "Near-agreement mean rule (PR-6, ratified) used; strict-identity sensitivity
-  rows for 04/06/10 in Appendix ⟦X⟧; no gate reading flips between rules ⟦confirm — if
-  one flips, the verdict waited on ratification⟧."
+  rows for 04/06/10 in Appendix ⟦X⟧; design 10 flips G1 PASS→FAIL and G2 FAIL→PASS
+  under strict identity; the registered near-agreement rule governs because PR-6 was
+  ratified before this recomputation."
+  <!-- source: 20260713b-o5-postadjudication-readings.md §FR-10 strict-identity sensitivity -->
 
 ## 6.3 Judge validity (G4) and home-advantage (Δ(J))
 
@@ -119,8 +127,8 @@ validation κ, outcome; escalation judge ≠ state-classifier model (FR-12)⟧.
 **Table 6.4 — Gap headlines.**
 | statistic | design | per-model values (6 columns, adjudicated) | null? |
 |---|---|---|---|
-| say_do_gap = P(expressed correct) − P(revealed faithful) | 03 | ⟦6 × value⟧ | ⟦⟧ |
-| covert_overt_gap = mean[score(overt) − score(covert)] | 08 | ⟦6 × value⟧ | ⟦⟧ |
+| say_do_gap = P(expressed correct) − P(revealed faithful) | 03 | gpt=51.6; gem=50.0; son=19.4; dsk=50.0; mis=52.2; lla=64.5 | No (all six non-zero) <!-- source: 20260713b-o5-postadjudication-readings.md §G9 — Say-do / covert-overt headline --> |
+| covert_overt_gap = mean[score(overt) − score(covert)] | 08 | gpt=32.3; gem=12.9; son=11.3; dsk=16.7; mis=16.7; lla=17.2 | No (all six non-zero) <!-- source: 20260713b-o5-postadjudication-readings.md §G9 — Say-do / covert-overt headline --> |
 
 Suppression of a null gap is prohibited (prereg §C-G9). Renderer fails loudly if absent.
 

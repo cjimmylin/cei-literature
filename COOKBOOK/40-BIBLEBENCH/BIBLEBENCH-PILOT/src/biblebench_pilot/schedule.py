@@ -32,17 +32,13 @@ _CUE_LABEL = re.compile(
 _RESERVED_C3 = re.compile(
     r"(?<![A-Za-z0-9])C3(?![A-Za-z0-9])", re.IGNORECASE
 )
-_LATER_SCOPE_KEYS = frozenset(
-    {
-        "lens",
-        "lensid",
-        "intervention",
-        "interventionid",
-        "physicalid",
-        "physicalattemptid",
-        "attemptid",
-    }
+_CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
+_NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
+_LATER_SCOPE_PREFIXES = frozenset({"lens", "intervention", "physical"})
+_LATER_SCOPE_EXACT_KEYS = frozenset(
+    {"lensid", "interventionid", "physicalid", "physicalattemptid", "attemptid"}
 )
+_IDENTIFIER_COMPONENTS = frozenset({"id", "identifier"})
 _ACTOR_METADATA_KEYS = frozenset({"role"})
 
 
@@ -198,6 +194,15 @@ def _normalized_key(value: str) -> str:
     return "".join(character.casefold() for character in value if character.isalnum())
 
 
+def _key_components(value: str) -> tuple[str, ...]:
+    separated = _CAMEL_KEY_BOUNDARY.sub("_", value)
+    return tuple(
+        component
+        for component in _NON_ALNUM_KEY.split(separated.casefold())
+        if component
+    )
+
+
 def _walk_keys(value: Json):
     if type(value) is dict:
         for key, child in value.items():
@@ -228,7 +233,17 @@ def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
 
 def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
-        if _normalized_key(key) in _LATER_SCOPE_KEYS:
+        normalized = _normalized_key(key)
+        components = _key_components(key)
+        has_attempt_identifier = (
+            "attempt" in components
+            and not _IDENTIFIER_COMPONENTS.isdisjoint(components)
+        )
+        if (
+            normalized in _LATER_SCOPE_EXACT_KEYS
+            or (components and components[0] in _LATER_SCOPE_PREFIXES)
+            or has_attempt_identifier
+        ):
             raise ValueError("request payload contains a later-scope field")
 
 
@@ -607,7 +622,7 @@ def _validate_scheduled_call(row: Any) -> LogicalCall:
         raise ValueError("invalid scheduled cue")
     if type(row.presentation_position) is not int:
         _type_error("presentation position must be an integer")
-    _validate_payload(row.request_payload, "request_payload")
+    _checked_actor_payload(row.request_payload)
     return row
 
 

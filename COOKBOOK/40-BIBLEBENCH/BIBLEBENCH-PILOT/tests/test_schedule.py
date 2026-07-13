@@ -166,6 +166,15 @@ def test_canonical_schedule_rejects_lowercase_reserved_condition() -> None:
         "physical_id",
         "physical_attempt_id",
         "attempt_id",
+        "lens_call_id",
+        "lens_identifier",
+        "lens_result",
+        "lens_description",
+        "intervention_call_id",
+        "intervention_config",
+        "physical_call_id",
+        "physical_attempt",
+        "provider_attempt_id",
     ],
 )
 @pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
@@ -188,8 +197,8 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
     episode = replace(
         pack.episodes[0],
         forecast_payload={
-            "lens_notes": "A lens may help describe the ordinary prose.",
-            "intervention_notes": "An intervention may be discussed.",
+            "ordinary_notes": "A lens may help describe the ordinary prose.",
+            "description": "An intervention may be discussed.",
             "attempt_notes": "A physical attempt can be described.",
         },
     )
@@ -216,10 +225,14 @@ def test_compile_checks_every_detached_actor_visible_payload(
 
     schedule = compile_schedule(_pack(), actor_ids=ACTORS, seed=711)
 
-    assert len(checked) == len(schedule.logical_calls) == 336
+    assert len(schedule.logical_calls) == 336
+    assert len(checked) == len(schedule.logical_calls) * 2
     assert {id(payload) for payload in checked} == {
         id(row.request_payload) for row in schedule.logical_calls
     }
+    assert Counter(id(payload) for payload in checked) == Counter(
+        {id(row.request_payload): 2 for row in schedule.logical_calls}
+    )
 
 
 @pytest.mark.parametrize(
@@ -605,6 +618,44 @@ def test_compile_rejects_cyclic_json_payloads() -> None:
     episode = replace(pack.episodes[0], probe_payload={"cycle": cyclic})
     with pytest.raises(ValueError):
         compile_schedule(_with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711)
+
+
+@pytest.mark.parametrize(
+    "mutation",
+    [
+        "forecast_private",
+        "primary_sensitive_value",
+        "probe_private",
+        "forecast_later_scope",
+    ],
+)
+def test_scheduled_actor_payloads_are_revalidated_even_when_all_actors_match(
+    mutation: str,
+) -> None:
+    schedule = _schedule()
+    episode_id = schedule.bundles[0].episode_id
+    calls = list(schedule.logical_calls)
+    for index, row in enumerate(calls):
+        if row.episode_id != episode_id:
+            continue
+        payload = json.loads(json.dumps(row.request_payload))
+        if mutation == "forecast_private" and row.call_kind == "forecast":
+            payload["nested"] = {"private": "leak"}
+        elif mutation == "primary_sensitive_value" and row.call_kind == "primary":
+            payload["shared_body"] = "model_identity"
+        elif mutation == "probe_private" and row.call_kind == "probe":
+            payload["nested"] = {"private": "leak"}
+        elif mutation == "forecast_later_scope" and row.call_kind == "forecast":
+            payload["nested"] = {"lens_call_id": "opaque"}
+        else:
+            continue
+        calls[index] = replace(row, request_payload=payload)
+
+    invalid = _schedule_with_calls(schedule, calls)
+    with pytest.raises(ValueError):
+        invalid.assert_counterbalanced()
+    with pytest.raises(ValueError):
+        invalid.to_canonical_json()
 
 
 @pytest.mark.parametrize(

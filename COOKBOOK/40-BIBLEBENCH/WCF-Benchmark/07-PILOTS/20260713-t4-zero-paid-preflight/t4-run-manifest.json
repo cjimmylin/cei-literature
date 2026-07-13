@@ -1,0 +1,2808 @@
+{
+  "branches": [
+    {
+      "branch": "full",
+      "forecast_cost_usd": 278.7886467416001,
+      "logical_calls": 16698,
+      "minimum_ratifiable_cap_usd": 348.49,
+      "required_top_up_usd": 285.48,
+      "runtime": {
+        "baseline_minutes": 2574.275,
+        "calls_per_minute": 6.486486486486486,
+        "logical_calls": 16698,
+        "planning_band_minutes": [
+          2059.42,
+          3432.366666666667
+        ]
+      },
+      "selected": false
+    },
+    {
+      "branch": "drop_p6",
+      "forecast_cost_usd": 271.0537135216,
+      "logical_calls": 16253,
+      "minimum_ratifiable_cap_usd": 338.82,
+      "required_top_up_usd": 275.81,
+      "runtime": {
+        "baseline_minutes": 2505.6708333333336,
+        "calls_per_minute": 6.486486486486486,
+        "logical_calls": 16253,
+        "planning_band_minutes": [
+          2004.5366666666669,
+          3340.8944444444446
+        ]
+      },
+      "selected": false
+    },
+    {
+      "branch": "drop_p3",
+      "forecast_cost_usd": 220.02401675360005,
+      "logical_calls": 13333,
+      "minimum_ratifiable_cap_usd": 275.04,
+      "required_top_up_usd": 212.03,
+      "runtime": {
+        "baseline_minutes": 2055.504166666667,
+        "calls_per_minute": 6.486486486486486,
+        "logical_calls": 13333,
+        "planning_band_minutes": [
+          1644.4033333333336,
+          2740.672222222222
+        ]
+      },
+      "selected": false
+    },
+    {
+      "branch": "drop_p4",
+      "forecast_cost_usd": 174.09148173760002,
+      "logical_calls": 10708,
+      "minimum_ratifiable_cap_usd": 217.62,
+      "required_top_up_usd": 154.61,
+      "runtime": {
+        "baseline_minutes": 1650.8166666666668,
+        "calls_per_minute": 6.486486486486486,
+        "logical_calls": 10708,
+        "planning_band_minutes": [
+          1320.6533333333334,
+          2201.088888888889
+        ]
+      },
+      "selected": false
+    },
+    {
+      "branch": "halve_episode_roster",
+      "conflict": "prescribed rung drops base EPISODE cells although base cells are never dropped",
+      "forecast_cost_usd": 169.3391310576,
+      "logical_calls": 10378,
+      "minimum_ratifiable_cap_usd": 211.68,
+      "prescribed_call_saving": 330,
+      "required_top_up_usd": 148.67,
+      "requires_jimmy_ruling": true,
+      "runtime": {
+        "baseline_minutes": 1599.9416666666668,
+        "calls_per_minute": 6.486486486486486,
+        "logical_calls": 10378,
+        "planning_band_minutes": [
+          1279.9533333333336,
+          2133.2555555555555
+        ]
+      },
+      "selected": false
+    }
+  ],
+  "call_plan": {
+    "base_per_judge_weight": 348,
+    "classes": [
+      {
+        "count": 226,
+        "model": "openai/gpt-5.5",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 226,
+        "model": "deepseek/deepseek-v4-pro",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 226,
+        "model": "qwen/qwen3.7-plus",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "qwen/qwen3.7-plus"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "qwen/qwen3.7-plus"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "qwen/qwen3.7-plus"
+      },
+      {
+        "count": 226,
+        "model": "moonshotai/kimi-k2.6",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 226,
+        "model": "meta-llama/llama-4-maverick",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 226,
+        "model": "deepseek/deepseek-chat",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 226,
+        "model": "mistralai/mistral-large-2512",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "mistralai/mistral-large-2512"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "mistralai/mistral-large-2512"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "mistralai/mistral-large-2512"
+      },
+      {
+        "count": 226,
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "meta-llama/llama-3.1-8b-instruct"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-3.1-8b-instruct"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-3.1-8b-instruct"
+      },
+      {
+        "count": 226,
+        "model": "cohere/command-a",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "cohere/command-a"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "cohere/command-a"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "cohere/command-a"
+      },
+      {
+        "count": 226,
+        "model": "amazon/nova-pro-v1",
+        "phase": "base",
+        "request_class": "base_sut",
+        "role": "sut",
+        "sut_context": "amazon/nova-pro-v1"
+      },
+      {
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "amazon/nova-pro-v1"
+      },
+      {
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "phase": "base",
+        "request_class": "base_judge",
+        "role": "judge",
+        "sut_context": "amazon/nova-pro-v1"
+      },
+      {
+        "count": 140,
+        "model": "moonshotai/kimi-k2.6",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 140,
+        "model": "openai/gpt-5.5",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 140,
+        "model": "deepseek/deepseek-v4-pro",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 140,
+        "model": "deepseek/deepseek-chat",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 140,
+        "model": "meta-llama/llama-4-maverick",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p3",
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 131,
+        "model": "moonshotai/kimi-k2.6",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 131,
+        "model": "openai/gpt-5.5",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 131,
+        "model": "deepseek/deepseek-v4-pro",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 131,
+        "model": "deepseek/deepseek-chat",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 131,
+        "model": "meta-llama/llama-4-maverick",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p4",
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 25,
+        "model": "moonshotai/kimi-k2.6",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "moonshotai/kimi-k2.6"
+      },
+      {
+        "count": 25,
+        "model": "openai/gpt-5.5",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "openai/gpt-5.5"
+      },
+      {
+        "count": 25,
+        "model": "deepseek/deepseek-v4-pro",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "count": 25,
+        "model": "deepseek/deepseek-chat",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "deepseek/deepseek-chat"
+      },
+      {
+        "count": 25,
+        "model": "meta-llama/llama-4-maverick",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "phase": "variant_p6",
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 310,
+        "model": "google/gemini-2.5-flash",
+        "phase": "g5b",
+        "request_class": "g5b_judge",
+        "role": "judge"
+      },
+      {
+        "count": 310,
+        "model": "x-ai/grok-4.20",
+        "phase": "g5b",
+        "request_class": "g5b_judge",
+        "role": "judge"
+      },
+      {
+        "count": 200,
+        "model": "meta-llama/llama-4-maverick",
+        "phase": "g5c",
+        "request_class": "g5c_sut",
+        "role": "sut",
+        "sut_context": "meta-llama/llama-4-maverick"
+      },
+      {
+        "count": 334,
+        "model": "google/gemini-2.5-flash",
+        "phase": "g5c",
+        "request_class": "g5c_judge",
+        "role": "judge"
+      },
+      {
+        "count": 334,
+        "model": "x-ai/grok-4.20",
+        "phase": "g5c",
+        "request_class": "g5c_judge",
+        "role": "judge"
+      }
+    ],
+    "episode_removal_classes": [
+      {
+        "count": 22,
+        "model": "qwen/qwen3.7-plus",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_sut",
+        "role": "sut"
+      },
+      {
+        "count": 22,
+        "model": "google/gemini-2.5-flash",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "x-ai/grok-4.20",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "mistralai/mistral-large-2512",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_sut",
+        "role": "sut"
+      },
+      {
+        "count": 22,
+        "model": "google/gemini-2.5-flash",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "x-ai/grok-4.20",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_sut",
+        "role": "sut"
+      },
+      {
+        "count": 22,
+        "model": "google/gemini-2.5-flash",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "x-ai/grok-4.20",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "cohere/command-a",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_sut",
+        "role": "sut"
+      },
+      {
+        "count": 22,
+        "model": "google/gemini-2.5-flash",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "x-ai/grok-4.20",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "amazon/nova-pro-v1",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_sut",
+        "role": "sut"
+      },
+      {
+        "count": 22,
+        "model": "google/gemini-2.5-flash",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      },
+      {
+        "count": 22,
+        "model": "x-ai/grok-4.20",
+        "phase": "episode_roster_reduction",
+        "request_class": "base_judge",
+        "role": "judge"
+      }
+    ],
+    "frontier": [
+      "moonshotai/kimi-k2.6",
+      "openai/gpt-5.5",
+      "deepseek/deepseek-v4-pro",
+      "deepseek/deepseek-chat",
+      "meta-llama/llama-4-maverick"
+    ],
+    "g5c_per_judge_weight": 334,
+    "probe_model": "meta-llama/llama-4-maverick",
+    "roster": [
+      "openai/gpt-5.5",
+      "deepseek/deepseek-v4-pro",
+      "qwen/qwen3.7-plus",
+      "moonshotai/kimi-k2.6",
+      "meta-llama/llama-4-maverick",
+      "deepseek/deepseek-chat",
+      "mistralai/mistral-large-2512",
+      "meta-llama/llama-3.1-8b-instruct",
+      "cohere/command-a",
+      "amazon/nova-pro-v1"
+    ],
+    "totals": {
+      "base": {
+        "judge": 6960,
+        "sut": 2260,
+        "total": 9220
+      },
+      "full": {
+        "judge": 12758,
+        "sut": 3940,
+        "total": 16698
+      },
+      "g5b": {
+        "judge": 620,
+        "sut": 0,
+        "total": 620
+      },
+      "g5c": {
+        "judge": 668,
+        "sut": 200,
+        "total": 868
+      },
+      "variants": {
+        "judge": 4510,
+        "sut": 1480,
+        "total": 5990
+      }
+    },
+    "variant_item_counts": {
+      "P3": 140,
+      "P4": 131,
+      "P6": 25
+    }
+  },
+  "catalog_hash": "cddf368d81955df502397bfeabf8aec5fc5cbcc8ecaeb9b743a470cc9cb8e3c5",
+  "catalog_retrieved_at": "2026-07-13T17:00:45Z",
+  "five_cheapest_base_shard": [
+    {
+      "model": "meta-llama/llama-3.1-8b-instruct",
+      "per_base_sut_call_usd": 0.00010021999999999999
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "per_base_sut_call_usd": 0.0020261999999999997
+    },
+    {
+      "model": "deepseek/deepseek-chat",
+      "per_base_sut_call_usd": 0.0020267926
+    },
+    {
+      "model": "deepseek/deepseek-v4-pro",
+      "per_base_sut_call_usd": 0.002625225
+    },
+    {
+      "model": "qwen/qwen3.7-plus",
+      "per_base_sut_call_usd": 0.00324192
+    }
+  ],
+  "frontier": [
+    "moonshotai/kimi-k2.6",
+    "openai/gpt-5.5",
+    "deepseek/deepseek-v4-pro",
+    "deepseek/deepseek-chat",
+    "meta-llama/llama-4-maverick"
+  ],
+  "full_cost": {
+    "rows": [
+      {
+        "completion_price": 3e-05,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "openai/gpt-5.5",
+        "per_call_usd": 0.071135,
+        "phase": "base",
+        "prompt_price": 5e-06,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 16.076510000000003,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.7e-07,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "deepseek/deepseek-v4-pro",
+        "per_call_usd": 0.002625225,
+        "phase": "base",
+        "prompt_price": 4.35e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.59330085,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 1.28e-06,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "qwen/qwen3.7-plus",
+        "per_call_usd": 0.00324192,
+        "phase": "base",
+        "prompt_price": 3.2e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.73267392,
+        "sut_context": "qwen/qwen3.7-plus",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "qwen/qwen3.7-plus",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "qwen/qwen3.7-plus",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3.41e-06,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "moonshotai/kimi-k2.6",
+        "per_call_usd": 0.00826342,
+        "phase": "base",
+        "prompt_price": 6.6e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 1.8675329200000002,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8e-07,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "meta-llama/llama-4-maverick",
+        "per_call_usd": 0.0020261999999999997,
+        "phase": "base",
+        "prompt_price": 2e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.4579211999999999,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.001e-07,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "deepseek/deepseek-chat",
+        "per_call_usd": 0.0020267926,
+        "phase": "base",
+        "prompt_price": 2.002e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.4580551276,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 1.5e-06,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "mistralai/mistral-large-2512",
+        "per_call_usd": 0.0040415,
+        "phase": "base",
+        "prompt_price": 5e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.9133789999999999,
+        "sut_context": "mistralai/mistral-large-2512",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "mistralai/mistral-large-2512",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "mistralai/mistral-large-2512",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3e-08,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "per_call_usd": 0.00010021999999999999,
+        "phase": "base",
+        "prompt_price": 2e-08,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.022649719999999998,
+        "sut_context": "meta-llama/llama-3.1-8b-instruct",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "meta-llama/llama-3.1-8b-instruct",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "meta-llama/llama-3.1-8b-instruct",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 1e-05,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "cohere/command-a",
+        "per_call_usd": 0.025327500000000003,
+        "phase": "base",
+        "prompt_price": 2.5e-06,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 5.7240150000000005,
+        "sut_context": "cohere/command-a",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "cohere/command-a",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "cohere/command-a",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3.2e-06,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "amazon/nova-pro-v1",
+        "per_call_usd": 0.008104799999999999,
+        "phase": "base",
+        "prompt_price": 8e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 1.8316847999999997,
+        "sut_context": "amazon/nova-pro-v1",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "amazon/nova-pro-v1",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "amazon/nova-pro-v1",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3.41e-06,
+        "completion_tokens": 2048,
+        "count": 140,
+        "model": "moonshotai/kimi-k2.6",
+        "per_call_usd": 0.0083248,
+        "phase": "variant_p3",
+        "prompt_price": 6.6e-07,
+        "prompt_tokens": 2032,
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "subtotal_usd": 1.165472,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p3",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 2.20224,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p3",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 5.57664,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3e-05,
+        "completion_tokens": 2048,
+        "count": 140,
+        "model": "openai/gpt-5.5",
+        "per_call_usd": 0.0716,
+        "phase": "variant_p3",
+        "prompt_price": 5e-06,
+        "prompt_tokens": 2032,
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "subtotal_usd": 10.024,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p3",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 2.20224,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p3",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 5.57664,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.7e-07,
+        "completion_tokens": 2048,
+        "count": 140,
+        "model": "deepseek/deepseek-v4-pro",
+        "per_call_usd": 0.00266568,
+        "phase": "variant_p3",
+        "prompt_price": 4.35e-07,
+        "prompt_tokens": 2032,
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "subtotal_usd": 0.3731952,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p3",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 2.20224,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p3",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 5.57664,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.001e-07,
+        "completion_tokens": 2048,
+        "count": 140,
+        "model": "deepseek/deepseek-chat",
+        "per_call_usd": 0.0020454112,
+        "phase": "variant_p3",
+        "prompt_price": 2.002e-07,
+        "prompt_tokens": 2032,
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "subtotal_usd": 0.286357568,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p3",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 2.20224,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p3",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 5.57664,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8e-07,
+        "completion_tokens": 2048,
+        "count": 140,
+        "model": "meta-llama/llama-4-maverick",
+        "per_call_usd": 0.0020448,
+        "phase": "variant_p3",
+        "prompt_price": 2e-07,
+        "prompt_tokens": 2032,
+        "request_class": "variant_p3_sut",
+        "role": "sut",
+        "subtotal_usd": 0.28627199999999997,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p3",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 2.20224,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 222,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p3",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p3_judge",
+        "role": "judge",
+        "subtotal_usd": 5.57664,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3.41e-06,
+        "completion_tokens": 2048,
+        "count": 131,
+        "model": "moonshotai/kimi-k2.6",
+        "per_call_usd": 0.00837364,
+        "phase": "variant_p4",
+        "prompt_price": 6.6e-07,
+        "prompt_tokens": 2106,
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "subtotal_usd": 1.09694684,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p4",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 1.95424,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p4",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 4.94864,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3e-05,
+        "completion_tokens": 2048,
+        "count": 131,
+        "model": "openai/gpt-5.5",
+        "per_call_usd": 0.07197,
+        "phase": "variant_p4",
+        "prompt_price": 5e-06,
+        "prompt_tokens": 2106,
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "subtotal_usd": 9.42807,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p4",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 1.95424,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p4",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 4.94864,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.7e-07,
+        "completion_tokens": 2048,
+        "count": 131,
+        "model": "deepseek/deepseek-v4-pro",
+        "per_call_usd": 0.00269787,
+        "phase": "variant_p4",
+        "prompt_price": 4.35e-07,
+        "prompt_tokens": 2106,
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "subtotal_usd": 0.35342097,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p4",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 1.95424,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p4",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 4.94864,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.001e-07,
+        "completion_tokens": 2048,
+        "count": 131,
+        "model": "deepseek/deepseek-chat",
+        "per_call_usd": 0.002060226,
+        "phase": "variant_p4",
+        "prompt_price": 2.002e-07,
+        "prompt_tokens": 2106,
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "subtotal_usd": 0.269889606,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p4",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 1.95424,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p4",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 4.94864,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8e-07,
+        "completion_tokens": 2048,
+        "count": 131,
+        "model": "meta-llama/llama-4-maverick",
+        "per_call_usd": 0.0020596,
+        "phase": "variant_p4",
+        "prompt_price": 2e-07,
+        "prompt_tokens": 2106,
+        "request_class": "variant_p4_sut",
+        "role": "sut",
+        "subtotal_usd": 0.2698076,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p4",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 1.95424,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 197,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p4",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p4_judge",
+        "role": "judge",
+        "subtotal_usd": 4.94864,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3.41e-06,
+        "completion_tokens": 2048,
+        "count": 25,
+        "model": "moonshotai/kimi-k2.6",
+        "per_call_usd": 0.00816838,
+        "phase": "variant_p6",
+        "prompt_price": 6.6e-07,
+        "prompt_tokens": 1795,
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "subtotal_usd": 0.2042095,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p6",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.31744,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p6",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.80384,
+        "sut_context": "moonshotai/kimi-k2.6",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3e-05,
+        "completion_tokens": 2048,
+        "count": 25,
+        "model": "openai/gpt-5.5",
+        "per_call_usd": 0.070415,
+        "phase": "variant_p6",
+        "prompt_price": 5e-06,
+        "prompt_tokens": 1795,
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "subtotal_usd": 1.7603750000000002,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p6",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.31744,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p6",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.80384,
+        "sut_context": "openai/gpt-5.5",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.7e-07,
+        "completion_tokens": 2048,
+        "count": 25,
+        "model": "deepseek/deepseek-v4-pro",
+        "per_call_usd": 0.002562585,
+        "phase": "variant_p6",
+        "prompt_price": 4.35e-07,
+        "prompt_tokens": 1795,
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "subtotal_usd": 0.064064625,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p6",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.31744,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p6",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.80384,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.001e-07,
+        "completion_tokens": 2048,
+        "count": 25,
+        "model": "deepseek/deepseek-chat",
+        "per_call_usd": 0.0019979638,
+        "phase": "variant_p6",
+        "prompt_price": 2.002e-07,
+        "prompt_tokens": 1795,
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "subtotal_usd": 0.049949095,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p6",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.31744,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p6",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.80384,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8e-07,
+        "completion_tokens": 2048,
+        "count": 25,
+        "model": "meta-llama/llama-4-maverick",
+        "per_call_usd": 0.0019974,
+        "phase": "variant_p6",
+        "prompt_price": 2e-07,
+        "prompt_tokens": 1795,
+        "request_class": "variant_p6_sut",
+        "role": "sut",
+        "subtotal_usd": 0.04993499999999999,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "variant_p6",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.31744,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 32,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "variant_p6",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "variant_p6_judge",
+        "role": "judge",
+        "subtotal_usd": 0.80384,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 310,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.0093068,
+        "phase": "g5b",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 13956,
+        "request_class": "g5b_judge",
+        "role": "judge",
+        "subtotal_usd": 2.8851080000000002,
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 310,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.022565,
+        "phase": "g5b",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 13956,
+        "request_class": "g5b_judge",
+        "role": "judge",
+        "subtotal_usd": 6.995150000000001,
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8e-07,
+        "completion_tokens": 2048,
+        "count": 200,
+        "model": "meta-llama/llama-4-maverick",
+        "per_call_usd": 0.0147456,
+        "phase": "g5c",
+        "prompt_price": 2e-07,
+        "prompt_tokens": 65536,
+        "request_class": "g5c_sut",
+        "role": "sut",
+        "subtotal_usd": 2.9491199999999997,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 334,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.0093068,
+        "phase": "g5c",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 13956,
+        "request_class": "g5c_judge",
+        "role": "judge",
+        "subtotal_usd": 3.1084712000000003,
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 334,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.022565,
+        "phase": "g5c",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 13956,
+        "request_class": "g5c_judge",
+        "role": "judge",
+        "subtotal_usd": 7.53671,
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      }
+    ],
+    "total_usd": 278.7886467416001
+  },
+  "full_minimum_cap_usd": 348.49,
+  "full_runtime": {
+    "baseline_minutes": 2574.275,
+    "calls_per_minute": 6.486486486486486,
+    "logical_calls": 16698,
+    "planning_band_minutes": [
+      2059.42,
+      3432.366666666667
+    ]
+  },
+  "full_top_up_usd": 285.48,
+  "g5c_plan": {
+    "evaluation_allocation": {
+      "aggravate": 10,
+      "complicit": 12,
+      "crosswind": 11,
+      "dutybound": 11,
+      "liberty": 10,
+      "mending": 12,
+      "prooftext": 11,
+      "steadfast": 12,
+      "wholeheart": 11
+    },
+    "evaluation_ids": [
+      "AGG-C1-005",
+      "AGG-C10-009",
+      "AGG-C4-W202",
+      "AGG-C5-004",
+      "AGG-C6-008",
+      "AGG-C6-W203",
+      "AGG-C6-W301",
+      "AGG-C7-W204",
+      "AGG-C8-W303",
+      "AGG-C9-W306",
+      "COMP-C1-006",
+      "COMP-C1-W201",
+      "COMP-C2-002",
+      "COMP-C2-W302",
+      "COMP-C3-007",
+      "COMP-C4-W305",
+      "COMP-C5-008",
+      "COMP-C7-009",
+      "COMP-C8-W306",
+      "COMP-C9-001",
+      "COMP-C9-W304",
+      "COMP-XC-W206",
+      "CROSS-C10-009",
+      "CROSS-C10-W206",
+      "CROSS-C2-W201",
+      "CROSS-C3-W202",
+      "CROSS-C6-008",
+      "CROSS-C7-W205",
+      "CROSS-C7-W301",
+      "CROSS-C7-W302",
+      "CROSS-C8-W304",
+      "CROSS-C9-001",
+      "CROSS-XC-W307",
+      "DUTY-C1-W201",
+      "DUTY-C10-010",
+      "DUTY-C2-007",
+      "DUTY-C3-008",
+      "DUTY-C4-W301",
+      "DUTY-C5-W302",
+      "DUTY-C8-005",
+      "DUTY-C8-W304",
+      "DUTY-C9-001",
+      "DUTY-C9-W306",
+      "DUTY-XC-W206",
+      "LIB-C1-W201",
+      "LIB-C10-009",
+      "LIB-C2-004",
+      "LIB-C3-007",
+      "LIB-C4-002",
+      "LIB-C4-W301",
+      "LIB-C5-005",
+      "LIB-C5-W303",
+      "LIB-C6-001",
+      "LIB-C9-W204",
+      "MEND-A-003",
+      "MEND-A-W305",
+      "MEND-C10-008",
+      "MEND-C2-W302",
+      "MEND-C3-W202",
+      "MEND-C5-009",
+      "MEND-C6-W306",
+      "MEND-C7-W205",
+      "MEND-C8-001",
+      "MEND-C9-002",
+      "MEND-C9-W307",
+      "MEND-XC-W207",
+      "PROOF-C1-W306",
+      "PROOF-C10-W205",
+      "PROOF-C2-W201",
+      "PROOF-C4-004",
+      "PROOF-C4-W301",
+      "PROOF-C5-W202",
+      "PROOF-C6-010",
+      "PROOF-C6-W203",
+      "PROOF-C8-003",
+      "PROOF-C9-001",
+      "PROOF-C9-W305",
+      "STED-C1-W201",
+      "STED-C10-004",
+      "STED-C10-W307",
+      "STED-C2-W301",
+      "STED-C3-010",
+      "STED-C4-001",
+      "STED-C4-W302",
+      "STED-C5-002",
+      "STED-C6-W203",
+      "STED-C7-007",
+      "STED-C8-W205",
+      "STED-XC-W206",
+      "WHOLE-C1-004",
+      "WHOLE-C3-007",
+      "WHOLE-C3-W202",
+      "WHOLE-C4-W203",
+      "WHOLE-C5-003",
+      "WHOLE-C5-W303",
+      "WHOLE-C6-009",
+      "WHOLE-C7-010",
+      "WHOLE-C7-W205",
+      "WHOLE-C9-001",
+      "WHOLE-C9-W301"
+    ],
+    "evaluation_seed": 1648,
+    "priming_allocation": {
+      "aggravate": 2,
+      "complicit": 3,
+      "crosswind": 3,
+      "dutybound": 3,
+      "liberty": 2,
+      "mending": 3,
+      "prooftext": 3,
+      "steadfast": 2,
+      "wholeheart": 2
+    },
+    "priming_ids": [
+      "AGG-C7-W307",
+      "AGG-XC-W206",
+      "COMP-C10-010",
+      "COMP-C4-005",
+      "COMP-C6-W303",
+      "CROSS-C1-004",
+      "CROSS-C1-W306",
+      "CROSS-C5-W303",
+      "DUTY-C3-W203",
+      "DUTY-C7-009",
+      "DUTY-C9-W307",
+      "LIB-C6-W302",
+      "LIB-C8-003",
+      "MEND-C1-W301",
+      "MEND-C2-005",
+      "MEND-C5-W204",
+      "PROOF-C2-006",
+      "PROOF-C3-002",
+      "PROOF-C8-W302",
+      "STED-C3-W202",
+      "STED-C7-W204",
+      "WHOLE-C10-W305",
+      "WHOLE-C8-002"
+    ],
+    "priming_seed": 1647
+  },
+  "master_seed": 1647,
+  "paid_inference_authorized": false,
+  "phase_one_cost": {
+    "rows": [
+      {
+        "completion_price": 8.7e-07,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "deepseek/deepseek-v4-pro",
+        "per_call_usd": 0.002625225,
+        "phase": "base",
+        "prompt_price": 4.35e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.59330085,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "deepseek/deepseek-v4-pro",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 1.28e-06,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "qwen/qwen3.7-plus",
+        "per_call_usd": 0.00324192,
+        "phase": "base",
+        "prompt_price": 3.2e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.73267392,
+        "sut_context": "qwen/qwen3.7-plus",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "qwen/qwen3.7-plus",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "qwen/qwen3.7-plus",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8e-07,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "meta-llama/llama-4-maverick",
+        "per_call_usd": 0.0020261999999999997,
+        "phase": "base",
+        "prompt_price": 2e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.4579211999999999,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "meta-llama/llama-4-maverick",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 8.001e-07,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "deepseek/deepseek-chat",
+        "per_call_usd": 0.0020267926,
+        "phase": "base",
+        "prompt_price": 2.002e-07,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.4580551276,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "deepseek/deepseek-chat",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 3e-08,
+        "completion_tokens": 2048,
+        "count": 226,
+        "model": "meta-llama/llama-3.1-8b-instruct",
+        "per_call_usd": 0.00010021999999999999,
+        "phase": "base",
+        "prompt_price": 2e-08,
+        "prompt_tokens": 1939,
+        "request_class": "base_sut",
+        "role": "sut",
+        "subtotal_usd": 0.022649719999999998,
+        "sut_context": "meta-llama/llama-3.1-8b-instruct",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "google/gemini-2.5-flash",
+        "per_call_usd": 0.00992,
+        "phase": "base",
+        "prompt_price": 3e-07,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 3.45216,
+        "sut_context": "meta-llama/llama-3.1-8b-instruct",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      },
+      {
+        "completion_price": 2.5e-06,
+        "completion_tokens": 2048,
+        "count": 348,
+        "model": "x-ai/grok-4.20",
+        "per_call_usd": 0.02512,
+        "phase": "base",
+        "prompt_price": 1.25e-06,
+        "prompt_tokens": 16000,
+        "request_class": "base_judge",
+        "role": "judge",
+        "subtotal_usd": 8.74176,
+        "sut_context": "meta-llama/llama-3.1-8b-instruct",
+        "token_source": "rendered_prompt_fixed_completion_ceiling"
+      }
+    ],
+    "total_usd": 63.23420081759999
+  },
+  "phase_one_logical_calls": 4610,
+  "phase_one_minimum_cap_usd": 79.05,
+  "phase_one_runtime": {
+    "baseline_minutes": 710.7083333333334,
+    "calls_per_minute": 6.486486486486486,
+    "logical_calls": 4610,
+    "planning_band_minutes": [
+      568.5666666666667,
+      947.6111111111111
+    ]
+  },
+  "phase_one_top_up_usd": 16.04,
+  "provenance_canary": "WCFBENCH-CANARY-c1647-x9k4q",
+  "roster_resolution": {
+    "arena_ordering_disclosure": "Official LMArena rating is used as the current successor ordering field for the memo's historical text Elo wording.",
+    "family_resolution": {
+      "deepseek": {
+        "higher_rated_excluded": [
+          {
+            "arena_name": "deepseek-v4-pro-thinking",
+            "eligible": false,
+            "exclusion_reason": "config-specific thinking row; no exact OpenRouter catalog identity",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1456.774801,
+            "reason": "config-specific thinking row; no exact OpenRouter catalog identity",
+            "slug": null
+          }
+        ],
+        "selected": {
+          "provenance": {
+            "retrieved_at": "2026-07-13T16:18:32Z",
+            "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+            "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+            "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+          },
+          "rating": 1456.326755,
+          "reason": "primary-highest-rating",
+          "selected_family": "deepseek",
+          "slot_family": "deepseek",
+          "slug": "deepseek/deepseek-v4-pro"
+        },
+        "source_complete": true,
+        "source_note": null
+      },
+      "meta-llama": {
+        "higher_rated_excluded": [],
+        "selected": {
+          "provenance": {
+            "retrieved_at": "2026-07-13T16:18:32Z",
+            "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+            "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+            "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+          },
+          "rating": 1327.091629,
+          "reason": "primary-highest-rating",
+          "selected_family": "meta-llama",
+          "slot_family": "meta-llama",
+          "slug": "meta-llama/llama-4-maverick"
+        },
+        "source_complete": true,
+        "source_note": "Higher muse-spark1.1/muse-spark rows were not OpenRouter Meta slugs; higher Llama 3.1 405B BF16/FP8 rows were configuration-specific without an exact catalog identity. Exact ratings were not retained, so they are disclosed but not fabricated as candidate rows."
+      },
+      "moonshotai": {
+        "higher_rated_excluded": [],
+        "selected": {
+          "provenance": {
+            "retrieved_at": "2026-07-13T16:18:32Z",
+            "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+            "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+            "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+          },
+          "rating": 1461.74069,
+          "reason": "primary-highest-rating",
+          "selected_family": "moonshotai",
+          "slot_family": "moonshotai",
+          "slug": "moonshotai/kimi-k2.6"
+        },
+        "source_complete": true,
+        "source_note": null
+      },
+      "openai": {
+        "higher_rated_excluded": [
+          {
+            "arena_name": "gpt-5.6-sol-xhigh",
+            "eligible": false,
+            "exclusion_reason": "config-specific Arena row is ambiguous versus the base OpenRouter slug; no exact catalog identity",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1486.314332,
+            "reason": "config-specific Arena row is ambiguous versus the base OpenRouter slug; no exact catalog identity",
+            "slug": null
+          },
+          {
+            "arena_name": "gpt-5.5-high",
+            "eligible": false,
+            "exclusion_reason": "config-specific Arena row; no exact OpenRouter catalog identity",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1481.040666,
+            "reason": "config-specific Arena row; no exact OpenRouter catalog identity",
+            "slug": null
+          },
+          {
+            "arena_name": "gpt-5.4-high",
+            "eligible": false,
+            "exclusion_reason": "config-specific Arena row; no exact OpenRouter catalog identity",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1476.434719,
+            "reason": "config-specific Arena row; no exact OpenRouter catalog identity",
+            "slug": null
+          },
+          {
+            "arena_name": "gpt-5.2-chat-latest-20260210",
+            "eligible": false,
+            "exclusion_reason": "versioned latest alias has no exact OpenRouter catalog slug",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1475.535472,
+            "reason": "versioned latest alias has no exact OpenRouter catalog slug",
+            "slug": null
+          }
+        ],
+        "selected": {
+          "provenance": {
+            "retrieved_at": "2026-07-13T16:18:32Z",
+            "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+            "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+            "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+          },
+          "rating": 1474.456036,
+          "reason": "primary-highest-rating",
+          "selected_family": "openai",
+          "slot_family": "openai",
+          "slug": "openai/gpt-5.5"
+        },
+        "source_complete": true,
+        "source_note": null
+      },
+      "qwen/alibaba": {
+        "higher_rated_excluded": [
+          {
+            "arena_name": "qwen3.7-max-preview",
+            "eligible": false,
+            "exclusion_reason": "preview model excluded by the R59.2 non-preview rule",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1475.043377,
+            "reason": "preview model excluded by the R59.2 non-preview rule",
+            "slug": null
+          },
+          {
+            "arena_name": "qwen3.5-max-preview",
+            "eligible": false,
+            "exclusion_reason": "preview model excluded by the R59.2 non-preview rule",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1465.022292,
+            "reason": "preview model excluded by the R59.2 non-preview rule",
+            "slug": null
+          },
+          {
+            "arena_name": "qwen3.6-max-preview",
+            "eligible": false,
+            "exclusion_reason": "preview model excluded by the R59.2 non-preview rule",
+            "provenance": {
+              "retrieved_at": "2026-07-13T16:18:32Z",
+              "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+              "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+              "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+            },
+            "rating": 1460.326415,
+            "reason": "preview model excluded by the R59.2 non-preview rule",
+            "slug": null
+          }
+        ],
+        "selected": {
+          "provenance": {
+            "retrieved_at": "2026-07-13T16:18:32Z",
+            "source_hash": "ff6706b152bb9156eccaebf1613187b80f98de07c3fddc790af096c112eb5eb8",
+            "source_revision": "1bd5480b8fddb2dcfaf8b92e7372b36aa712c18d; text_style_control/latest; overall; 2026-07-10",
+            "source_url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"
+          },
+          "rating": 1459.868984,
+          "reason": "primary-highest-rating",
+          "selected_family": "qwen/alibaba",
+          "slot_family": "qwen/alibaba",
+          "slug": "qwen/qwen3.7-plus"
+        },
+        "source_complete": true,
+        "source_note": null
+      }
+    },
+    "formula_models": [
+      "openai/gpt-5.5",
+      "deepseek/deepseek-v4-pro",
+      "qwen/qwen3.7-plus",
+      "moonshotai/kimi-k2.6",
+      "meta-llama/llama-4-maverick"
+    ],
+    "pins": [
+      "deepseek/deepseek-chat",
+      "mistralai/mistral-large-2512",
+      "meta-llama/llama-3.1-8b-instruct",
+      "cohere/command-a",
+      "amazon/nova-pro-v1"
+    ],
+    "roster": [
+      "openai/gpt-5.5",
+      "deepseek/deepseek-v4-pro",
+      "qwen/qwen3.7-plus",
+      "moonshotai/kimi-k2.6",
+      "meta-llama/llama-4-maverick",
+      "deepseek/deepseek-chat",
+      "mistralai/mistral-large-2512",
+      "meta-llama/llama-3.1-8b-instruct",
+      "cohere/command-a",
+      "amazon/nova-pro-v1"
+    ],
+    "target_met": true,
+    "trace": [
+      {
+        "rating": 1474.456036,
+        "reason": "primary-highest-rating",
+        "selected_family": "openai",
+        "slot_family": "openai",
+        "slug": "openai/gpt-5.5"
+      },
+      {
+        "rating": 1456.326755,
+        "reason": "primary-highest-rating",
+        "selected_family": "deepseek",
+        "slot_family": "deepseek",
+        "slug": "deepseek/deepseek-v4-pro"
+      },
+      {
+        "rating": 1459.868984,
+        "reason": "primary-highest-rating",
+        "selected_family": "qwen/alibaba",
+        "slot_family": "qwen/alibaba",
+        "slug": "qwen/qwen3.7-plus"
+      },
+      {
+        "rating": 1461.74069,
+        "reason": "primary-highest-rating",
+        "selected_family": "moonshotai",
+        "slot_family": "moonshotai",
+        "slug": "moonshotai/kimi-k2.6"
+      },
+      {
+        "rating": 1327.091629,
+        "reason": "primary-highest-rating",
+        "selected_family": "meta-llama",
+        "slot_family": "meta-llama",
+        "slug": "meta-llama/llama-4-maverick"
+      }
+    ]
+  }
+}

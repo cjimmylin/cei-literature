@@ -1,5 +1,25 @@
 # WCF-Bench Pending Questions
 
+## OPEN 2026-07-13 — T4 cap choice after the zero-paid R40.1 preflight
+
+- **Question:** Should the later confirmatory T4 be ratified at the full-run minimum cap
+  of `$348.49`, which exceeds R59.5's `$300` planning ceiling, or should the registered
+  truncation ladder govern under the existing ceiling?
+- **Why it blocks:** The frozen reservation-safe forecast is `$278.7886467416001`; the
+  80%-safe cap is therefore `$348.49`. The first cumulative branch that fits within the
+  `$300` ceiling is `drop_p6 + drop_p3` at `$220.02401675360005` forecast and `$275.04`
+  minimum cap. The five-cheapest base shard is separately `$63.23420081759999` forecast,
+  `$79.05` minimum cap, and needs a `$16.04` top-up against the metadata snapshot's
+  `$63.01088785899992` remaining balance. No paid authority follows from this preflight.
+- **Evidence:** `07-PILOTS/20260713-t4-zero-paid-preflight/` — especially
+  `t4-run-manifest.json`, `t4-cost-plan.csv`, and `t4-preflight-report.md`.
+- **Suggested default:** Keep every T4 paid call paused and preserve the frozen manifest.
+  Complete the owner-ratified PPP-1 paper-preview sequence first. When confirmatory T4
+  returns to the critical path, either Jimmy explicitly raises the planning ceiling and
+  approves the `$348.49` cap, or he keeps `$300` and ratifies the first within-ceiling
+  registered branch (`drop_p6 + drop_p3`, cap `$275.04`). The final EPISODE-halving rung
+  remains unavailable without its separate base-cell-conflict ruling.
+
 ## RESOLVED 2026-07-13 — T3 EPISODE 88-cell authorization, execution, and correction
 
 - **Authorization record:** `20260713d-jimmy-t3-authorization-record.md`.

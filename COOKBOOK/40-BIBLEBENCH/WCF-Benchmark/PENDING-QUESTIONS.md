@@ -69,6 +69,9 @@ calls are frozen pending Jimmy's disposition of the question below.
   costs were $0.31201990142 for GLM and $0.38574403701 for DeepSeek ($0.69776393843 total).
   Key usage moved from $1415.943795768 to $1421.370410187 (delta $5.426614419), with
   $78.629589813 limit remaining after the interval. No new Gemini/Grok calls occurred.
+- **Provisional packet:**
+  `20260712u-codex-shadow-reconciliation-provisional-packet.md`. Status remains **OPEN
+  pending Jimmy**; the packet assigns no R-number and records no ratification.
 
 ## Rulings received 2026-07-11
 

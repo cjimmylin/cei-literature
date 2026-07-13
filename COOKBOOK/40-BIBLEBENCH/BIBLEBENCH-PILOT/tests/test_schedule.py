@@ -617,6 +617,25 @@ def test_extended_cue_homoglyphs_remain_ordinary_without_adjacent_cue_digit(
         "C\u00ad3",
         "C-3",
         "C 3",
+        "C_3",
+        "C/3",
+        "C.3",
+        "C\t3",
+        "C\n3",
+        "C—3",
+        "C--3",
+        "C  3",
+        "CЗ",
+        "cз",
+        "СЗ",
+        "сз",
+        "CƷ",
+        "cʒ",
+        "CƐ",
+        "cɛ",
+        "C٣",
+        "C३",
+        "C³",
     ],
 )
 @pytest.mark.parametrize(
@@ -702,6 +721,28 @@ def test_diacritic_and_international_nonlabels_preserve_exact_bytes(
     assert schedule.primary_rows[0].request_payload["shared_body"] == benign_text
 
 
+@pytest.mark.parametrize(
+    ("ascii_value", "unicode_value", "expected"),
+    [
+        ("C_3", "Ｃ—٣", "C3"),
+        ("C\t3", "С\u200dЗ", "C3"),
+    ],
+)
+def test_label_policy_ascii_fast_path_matches_unicode_skeleton(
+    ascii_value: str, unicode_value: str, expected: str
+) -> None:
+    assert schedule_module._label_policy_text(ascii_value) == expected
+    assert schedule_module._label_policy_text(unicode_value) == expected
+
+
+def test_generated_id_comparison_fast_path_matches_unicode_skeleton() -> None:
+    ascii_value = "ab-c d\t\x00e"
+    unicode_value = "ａｂ—ｃ　ｄ\u200dｅ"
+
+    assert schedule_module._comparison_skeleton(ascii_value) == "abcde"
+    assert schedule_module._comparison_skeleton(unicode_value) == "abcde"
+
+
 def test_international_prose_with_numbers_remains_allowed() -> None:
     pack = _pack()
     episode = replace(
@@ -778,6 +819,14 @@ def test_explicit_sensitive_assignments_are_rejected_in_visible_strings(
         "bundleId is hidden-bundle",
         "episode id: hidden-episode",
         "private id=hidden-private",
+        "The prοvider is OpenRouter",
+        "gοld label: target",
+        "cοndition is treatment",
+        "actοr role=target",
+        "The prоvider is OpenRouter",
+        "gоld label: target",
+        "cоndition is treatment",
+        "actоr role=target",
     ],
 )
 @pytest.mark.parametrize("location", ["forecast", "probe", "primary"])
@@ -836,6 +885,36 @@ def test_benign_assignment_like_prose_remains_allowed(benign_text: str) -> None:
     )
 
     assert schedule.primary_rows[0].request_payload["shared_body"] == benign_text
+
+
+@pytest.mark.parametrize(
+    "mixed_language_text",
+    ["The οcean is calm", "Смешанный οтвет полезен"],
+)
+def test_non_sensitive_mixed_language_prose_preserves_authored_bytes(
+    mixed_language_text: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0],
+        forecast_payload={"note": mixed_language_text},
+        probe_payload={"note": mixed_language_text},
+        variants=tuple(
+            replace(variant, shared_body=mixed_language_text)
+            for variant in pack.episodes[0].variants
+        ),
+    )
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    assert schedule.forecast_rows[0].request_payload["note"] == mixed_language_text
+    assert schedule.probe_rows[0].request_payload["note"] == mixed_language_text
+    assert (
+        schedule.primary_rows[0].request_payload["shared_body"]
+        == mixed_language_text
+    )
 
 
 @pytest.mark.parametrize(
@@ -2673,6 +2752,9 @@ def test_compile_rejects_a_generated_primary_id_in_its_probe_payload(
         "hyphen_split",
         "space_split",
         "combining_split",
+        "tab_split",
+        "newline_split",
+        "nul_split",
     ],
 )
 def test_generated_id_firewall_rejects_disguised_and_embedded_ids(
@@ -2699,8 +2781,14 @@ def test_generated_id_firewall_rejects_disguised_and_embedded_ids(
         probe_payload = {"note": "-".join(primary_id)}
     elif leak_form == "space_split":
         probe_payload = {"note": " ".join(primary_id)}
-    else:
+    elif leak_form == "combining_split":
         probe_payload = {"note": primary_id[:8] + "\u0327" + primary_id[8:]}
+    elif leak_form == "tab_split":
+        probe_payload = {"note": "\t".join(primary_id)}
+    elif leak_form == "newline_split":
+        probe_payload = {"note": "\n".join(primary_id)}
+    else:
+        probe_payload = {"note": "\x00".join(primary_id)}
     episode = replace(pack.episodes[0], probe_payload=probe_payload)
 
     with pytest.raises(ValueError, match="generated schedule identifier"):

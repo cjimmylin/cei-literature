@@ -46,7 +46,9 @@ _ASCII_COMPARISON_DELETE = str.maketrans(
     {
         chr(codepoint): None
         for codepoint in range(128)
-        if unicodedata.category(chr(codepoint)).startswith(("P", "Z"))
+        if unicodedata.category(chr(codepoint)).startswith(
+            ("M", "P", "Z", "C")
+        )
     }
 )
 _CAMEL_KEY_BOUNDARY = re.compile(
@@ -181,6 +183,57 @@ _CUE_HOMOGLYPHS = str.maketrans(
         "ꞓ": "c",
         "Ȼ": "C",
         "ȼ": "c",
+        "З": "3",
+        "з": "3",
+        "Ʒ": "3",
+        "ʒ": "3",
+        "Ɛ": "3",
+        "ɛ": "3",
+    }
+)
+# Fixed comparison-only table of common Greek/Cyrillic Latin lookalikes.
+_PROTECTED_WORD_CONFUSABLES = str.maketrans(
+    {
+        "Α": "A",
+        "Β": "B",
+        "Ε": "E",
+        "Ζ": "Z",
+        "Η": "H",
+        "Ι": "I",
+        "Κ": "K",
+        "Μ": "M",
+        "Ν": "N",
+        "Ο": "O",
+        "Ρ": "P",
+        "Τ": "T",
+        "Υ": "Y",
+        "Χ": "X",
+        "ι": "i",
+        "κ": "k",
+        "ο": "o",
+        "ρ": "p",
+        "τ": "t",
+        "χ": "x",
+        "А": "A",
+        "В": "B",
+        "Е": "E",
+        "К": "K",
+        "М": "M",
+        "Н": "H",
+        "О": "O",
+        "Р": "P",
+        "С": "C",
+        "Т": "T",
+        "Х": "X",
+        "а": "a",
+        "е": "e",
+        "і": "i",
+        "ј": "j",
+        "о": "o",
+        "р": "p",
+        "с": "c",
+        "у": "y",
+        "х": "x",
     }
 )
 _SENSITIVE_ASSIGNMENT = re.compile(
@@ -326,14 +379,22 @@ def _policy_text(value: str) -> str:
 def _label_policy_text(value: str) -> str:
     compatible = _policy_text(value.translate(_CUE_HOMOGLYPHS))
     compatible = compatible.translate(_CUE_HOMOGLYPHS)
-    if compatible.isascii():
-        return compatible
     decomposed = unicodedata.normalize("NFKD", compatible)
-    return "".join(
-        character
-        for character in decomposed
-        if unicodedata.category(character) not in {"Mn", "Me", "Cf"}
-    )
+    decomposed = decomposed.translate(_CUE_HOMOGLYPHS)
+    if decomposed.isascii():
+        return decomposed.translate(_ASCII_COMPARISON_DELETE)
+    skeleton: list[str] = []
+    for character in decomposed:
+        category = unicodedata.category(character)
+        if category.startswith(("M", "P", "Z", "C")):
+            continue
+        try:
+            digit = unicodedata.digit(character)
+        except (TypeError, ValueError):
+            skeleton.append(character)
+        else:
+            skeleton.append(str(digit))
+    return "".join(skeleton)
 
 
 def _comparison_skeleton(value: str) -> str:
@@ -344,9 +405,16 @@ def _comparison_skeleton(value: str) -> str:
     return "".join(
         character
         for character in decomposed
-        if not unicodedata.category(character).startswith(("P", "Z"))
-        and unicodedata.category(character) not in {"Mn", "Me", "Cf"}
+        if not unicodedata.category(character).startswith(
+            ("M", "P", "Z", "C")
+        )
     )
+
+
+def _protected_word_policy_text(value: str) -> str:
+    compatible = _policy_text(value.translate(_PROTECTED_WORD_CONFUSABLES))
+    compatible = compatible.translate(_PROTECTED_WORD_CONFUSABLES)
+    return _CAMEL_KEY_BOUNDARY.sub("_", compatible).casefold()
 
 
 def _strict_identifier(value: Any, name: str) -> str:
@@ -797,8 +865,9 @@ def _assert_no_mixed_script_identifier_keys(
 
 def _assert_no_sensitive_assignments(payload: dict[str, Json]) -> None:
     for visible in _walk_visible_strings(payload):
-        separated = _CAMEL_KEY_BOUNDARY.sub("_", _policy_text(visible))
-        match = _SENSITIVE_ASSIGNMENT.search(separated.casefold())
+        match = _SENSITIVE_ASSIGNMENT.search(
+            _protected_word_policy_text(visible)
+        )
         if match is None:
             continue
         label = _normalized_key(match.group("label"))

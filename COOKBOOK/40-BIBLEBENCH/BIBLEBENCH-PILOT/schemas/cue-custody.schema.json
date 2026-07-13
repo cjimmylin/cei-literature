@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BibleBench Private Authenticated Cue Custody Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_version",
+    "status",
+    "private",
+    "surface_policy",
+    "canonical_schedule_sha256",
+    "row_count",
+    "rows",
+    "manifest_sha256",
+    "custody_receipt"
+  ],
+  "properties": {
+    "manifest_version": {"const": "cue-custody-v1"},
+    "status": {"const": "AUTHENTICATED_COMPLETE"},
+    "private": {"const": true},
+    "surface_policy": {
+      "const": "PRIVATE_CUSTODY_ONLY_PROHIBITED_FROM_MODEL_AND_JUDGE_SURFACES"
+    },
+    "canonical_schedule_sha256": {"$ref": "#/$defs/hash"},
+    "row_count": {"const": 144},
+    "rows": {
+      "type": "array",
+      "minItems": 144,
+      "maxItems": 144,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/row"}
+    },
+    "manifest_sha256": {"$ref": "#/$defs/hash"},
+    "custody_receipt": {"$ref": "#/$defs/receipt"}
+  },
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "logicalId": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{16}$"
+    },
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "module": {
+      "enum": ["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+    },
+    "role": {
+      "enum": ["target", "null", "restraint"]
+    },
+    "cue": {
+      "enum": ["C0", "C1", "C2"]
+    },
+    "evidenceArtifact": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 512,
+      "pattern": "^(?![A-Za-z]:)(?!.*\\\\)(?!.*(?:^|/)\\.{1,2}(?:/|$))[^/\\u0000]+(?:/[^/\\u0000]+)*$"
+    },
+    "row": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bundle_id",
+        "actor_id",
+        "module",
+        "episode_id",
+        "role",
+        "cue",
+        "primary_logical_call_id",
+        "probe_logical_call_id",
+        "primary_canonical_request_sha256",
+        "probe_canonical_request_sha256",
+        "evidence_artifact",
+        "evidence_bundle_sha256"
+      ],
+      "properties": {
+        "bundle_id": {"$ref": "#/$defs/logicalId"},
+        "actor_id": {"$ref": "#/$defs/identifier"},
+        "module": {"$ref": "#/$defs/module"},
+        "episode_id": {"$ref": "#/$defs/identifier"},
+        "role": {"$ref": "#/$defs/role"},
+        "cue": {"$ref": "#/$defs/cue"},
+        "primary_logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "probe_logical_call_id": {"$ref": "#/$defs/logicalId"},
+        "primary_canonical_request_sha256": {"$ref": "#/$defs/hash"},
+        "probe_canonical_request_sha256": {"$ref": "#/$defs/hash"},
+        "evidence_artifact": {"$ref": "#/$defs/evidenceArtifact"},
+        "evidence_bundle_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "receipt_version",
+        "status",
+        "surface_policy",
+        "manifest_sha256",
+        "canonical_schedule_sha256",
+        "row_count",
+        "receipt_sha256"
+      ],
+      "properties": {
+        "receipt_version": {"const": "cue-custody-receipt-v1"},
+        "status": {"const": "VERIFIED_PRIVATE_CUSTODY"},
+        "surface_policy": {
+          "const": "PRIVATE_CUSTODY_ONLY_PROHIBITED_FROM_MODEL_AND_JUDGE_SURFACES"
+        },
+        "manifest_sha256": {"$ref": "#/$defs/hash"},
+        "canonical_schedule_sha256": {"$ref": "#/$defs/hash"},
+        "row_count": {"const": 144},
+        "receipt_sha256": {"$ref": "#/$defs/hash"}
+      }
+    }
+  }
+}

@@ -1,0 +1,404 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from importlib.resources import files
+import json
+from pathlib import Path, PurePosixPath, PureWindowsPath
+from typing import Any
+
+from jsonschema import Draft202012Validator, SchemaError, ValidationError
+from referencing.exceptions import Unresolvable
+import yaml
+
+
+_ARRAY_FIELDS = (
+    "source_paths",
+    "passage_anchors",
+    "explicit_non_claims",
+    "eligible_modes",
+    "eligible_transforms",
+    "shared_red_lines",
+    "module_red_lines",
+)
+_MANIFEST_FIELDS = {"manifest_version", "cores"}
+_YAML_MERGE_TAG = "tag:yaml.org,2002:merge"
+_YAML_STRING_TAG = "tag:yaml.org,2002:str"
+_MAX_YAML_DEPTH = 128  # Maximum composed-node depth, with the root at depth zero.
+_MAX_SCHEMA_DEPTH = 64  # Maximum active-subschema depth, root at depth zero.
+_MAX_VALIDATION_ERROR_LENGTH = 512  # Bounds public jsonschema error text.
+_ACTIVE_OVERRIDE_REFERENCE_ERROR = (
+    "active schema references are not permitted in overrides"
+)
+_MAP_SUBSCHEMA_KEYWORDS = frozenset(
+    {
+        "$defs",
+        "definitions",
+        "properties",
+        "patternProperties",
+        "dependentSchemas",
+    }
+)
+_ARRAY_SUBSCHEMA_KEYWORDS = frozenset(
+    {"allOf", "anyOf", "oneOf", "prefixItems"}
+)
+_SINGLE_SUBSCHEMA_KEYWORDS = frozenset(
+    {
+        "not",
+        "if",
+        "then",
+        "else",
+        "items",
+        "contains",
+        "propertyNames",
+        "additionalProperties",
+        "unevaluatedItems",
+        "unevaluatedProperties",
+        "contentSchema",
+    }
+)
+
+
+class _DuplicateKeyError(yaml.YAMLError):
+    pass
+
+
+class _YamlDepthError(yaml.YAMLError):
+    pass
+
+
+class _UniqueKeySafeLoader(yaml.SafeLoader):
+    def get_single_data(self) -> Any:
+        node = self.get_single_node()
+        if node is None:
+            return None
+        _validate_yaml_node_graph(
+            node,
+            depth=0,
+            active_node_ids=set(),
+            completed_node_ids=set(),
+        )
+        return self.construct_document(node)
+
+
+def _mapping_key_semantic(key_node: yaml.Node) -> tuple[str, str]:
+    if not isinstance(key_node, yaml.ScalarNode) or key_node.tag not in {
+        _YAML_MERGE_TAG,
+        _YAML_STRING_TAG,
+    }:
+        raise yaml.constructor.ConstructorError(
+            "while constructing a mapping",
+            key_node.start_mark,
+            "mapping keys must be scalar strings",
+            key_node.start_mark,
+        )
+    return key_node.tag, key_node.value
+
+
+def _validate_yaml_node_graph(
+    node: yaml.Node,
+    *,
+    depth: int,
+    active_node_ids: set[int],
+    completed_node_ids: set[int],
+) -> None:
+    if depth > _MAX_YAML_DEPTH:
+        raise _YamlDepthError
+    node_id = id(node)
+    if node_id in active_node_ids:
+        raise yaml.constructor.ConstructorError(
+            "while constructing a document",
+            node.start_mark,
+            "recursive aliases are not allowed",
+            node.start_mark,
+        )
+    if node_id in completed_node_ids:
+        return
+    active_node_ids.add(node_id)
+
+    if isinstance(node, yaml.MappingNode):
+        explicit_keys: set[tuple[str, str]] = set()
+        for key_node, value_node in node.value:
+            key = _mapping_key_semantic(key_node)
+            if key in explicit_keys:
+                raise _DuplicateKeyError
+            explicit_keys.add(key)
+            _validate_yaml_node_graph(
+                value_node,
+                depth=depth + 1,
+                active_node_ids=active_node_ids,
+                completed_node_ids=completed_node_ids,
+            )
+    elif isinstance(node, yaml.SequenceNode):
+        for child in node.value:
+            _validate_yaml_node_graph(
+                child,
+                depth=depth + 1,
+                active_node_ids=active_node_ids,
+                completed_node_ids=completed_node_ids,
+            )
+
+    active_node_ids.remove(node_id)
+    completed_node_ids.add(node_id)
+
+
+@dataclass(frozen=True)
+class CoreRecord:
+    core_id: str
+    module: str
+    source_paths: tuple[str, ...]
+    passage_anchors: tuple[str, ...]
+    construct: str
+    explicit_non_claims: tuple[str, ...]
+    evidence_type: str
+    behavioral_attribution: str
+    eligible_modes: tuple[str, ...]
+    eligible_transforms: tuple[str, ...]
+    deficient_pole: str
+    counterfeit_pole: str
+    shared_red_lines: tuple[str, ...]
+    module_red_lines: tuple[str, ...]
+
+
+def _validation_field(error: ValidationError) -> str:
+    if error.path:
+        return ".".join(str(part) for part in error.path)
+    if error.validator == "required" and isinstance(error.instance, dict):
+        for field in error.validator_value:
+            if field not in error.instance:
+                return field
+    return "<root>"
+
+
+def _to_core_record(row: dict[str, Any]) -> CoreRecord:
+    values = dict(row)
+    for field in _ARRAY_FIELDS:
+        values[field] = tuple(values[field])
+    return CoreRecord(**values)
+
+
+def _load_authoritative_schema() -> dict[str, Any]:
+    try:
+        schema_text = (
+            files("biblebench_pilot.schemas")
+            .joinpath("core.schema.json")
+            .read_text(encoding="utf-8")
+        )
+    except OSError:
+        raise ValueError("authoritative core schema could not be read") from None
+    try:
+        schema = json.loads(schema_text)
+    except json.JSONDecodeError:
+        raise ValueError("authoritative core schema is not valid JSON") from None
+    except RecursionError:
+        raise ValueError(
+            "authoritative core schema is invalid or too deeply nested"
+        ) from None
+    _preflight_schema_references(
+        schema,
+        "authoritative core schema",
+        reject_active_references=False,
+    )
+    try:
+        Draft202012Validator.check_schema(schema)
+    except SchemaError:
+        raise ValueError(
+            "authoritative core schema is not a valid Draft 2020-12 schema"
+        ) from None
+    except RecursionError:
+        raise ValueError(
+            "authoritative core schema is invalid or too deeply nested"
+        ) from None
+    return schema
+
+
+def _load_override_schema(schema_path: Path) -> dict[str, Any]:
+    try:
+        schema_text = Path(schema_path).read_text(encoding="utf-8")
+    except OSError:
+        raise ValueError("schema override could not be read") from None
+    try:
+        schema = json.loads(schema_text)
+    except json.JSONDecodeError:
+        raise ValueError("schema override is not valid JSON") from None
+    except RecursionError:
+        raise ValueError(
+            "schema override is invalid or too deeply nested"
+        ) from None
+    _preflight_schema_references(
+        schema,
+        "schema override",
+        reject_active_references=True,
+    )
+    try:
+        Draft202012Validator.check_schema(schema)
+    except SchemaError:
+        raise ValueError(
+            "schema override is not a valid Draft 2020-12 schema"
+        ) from None
+    except RecursionError:
+        raise ValueError(
+            "schema override is invalid or too deeply nested"
+        ) from None
+    return schema
+
+
+def _preflight_schema_references(
+    schema: Any,
+    label: str,
+    *,
+    reject_active_references: bool,
+) -> None:
+    pending = [(schema, 0)]
+    while pending:
+        subschema, depth = pending.pop()
+        if depth > _MAX_SCHEMA_DEPTH:
+            raise ValueError(f"{label} exceeds maximum depth")
+        if not isinstance(subschema, dict):
+            continue
+
+        for keyword in ("$ref", "$dynamicRef"):
+            reference = subschema.get(keyword)
+            if not isinstance(reference, str):
+                continue
+            if reject_active_references:
+                raise ValueError(_ACTIVE_OVERRIDE_REFERENCE_ERROR)
+            if not reference.startswith("#"):
+                raise ValueError(f"{label} contains a non-local reference")
+
+        for keyword in _MAP_SUBSCHEMA_KEYWORDS:
+            schema_map = subschema.get(keyword)
+            if isinstance(schema_map, dict):
+                pending.extend((child, depth + 1) for child in schema_map.values())
+
+        for keyword in _ARRAY_SUBSCHEMA_KEYWORDS:
+            schema_array = subschema.get(keyword)
+            if isinstance(schema_array, list):
+                pending.extend((child, depth + 1) for child in schema_array)
+
+        for keyword in _SINGLE_SUBSCHEMA_KEYWORDS:
+            child_schema = subschema.get(keyword)
+            if isinstance(child_schema, (bool, dict)):
+                pending.append((child_schema, depth + 1))
+
+
+def _bounded_validation_error(index: int, error: ValidationError) -> str:
+    field = _validation_field(error)
+    sanitized_message = " ".join(error.message.split())
+    message = f"core {index} invalid at {field}: {sanitized_message}"
+    if len(message) > _MAX_VALIDATION_ERROR_LENGTH:
+        return message[: _MAX_VALIDATION_ERROR_LENGTH - 3] + "..."
+    return message
+
+
+def _validate_core(
+    validator: Draft202012Validator,
+    row: Any,
+    index: int,
+) -> None:
+    try:
+        validator.validate(row)
+    except ValidationError as error:
+        raise ValueError(_bounded_validation_error(index, error)) from None
+    except Unresolvable:
+        raise ValueError("schema reference could not be resolved") from None
+    except RecursionError:
+        raise ValueError("schema validation exceeded safe limits") from None
+
+
+def load_core_manifest(
+    path: Path,
+    schema_path: Path | None = None,
+) -> tuple[CoreRecord, ...]:
+    manifest_text = Path(path).read_text(encoding="utf-8")
+    try:
+        manifest = yaml.load(manifest_text, Loader=_UniqueKeySafeLoader)
+    except _DuplicateKeyError:
+        raise ValueError(
+            "manifest YAML contains a duplicate mapping key"
+        ) from None
+    except _YamlDepthError:
+        raise ValueError(
+            "manifest YAML is invalid: maximum depth exceeded"
+        ) from None
+    except (yaml.YAMLError, RecursionError):
+        raise ValueError("manifest YAML is invalid") from None
+    if not isinstance(manifest, dict) or set(manifest) != _MANIFEST_FIELDS:
+        raise ValueError(
+            "manifest top-level must contain exactly manifest_version and cores"
+        )
+
+    manifest_version = manifest["manifest_version"]
+    if not isinstance(manifest_version, str) or not manifest_version:
+        raise ValueError("manifest_version must be a nonempty string")
+
+    cores = manifest["cores"]
+    if not isinstance(cores, list) or not cores:
+        raise ValueError("cores must be a nonempty list")
+
+    authoritative_validator = Draft202012Validator(_load_authoritative_schema())
+    override_validator = None
+    if schema_path is not None:
+        override_validator = Draft202012Validator(
+            _load_override_schema(schema_path)
+        )
+
+    records: list[CoreRecord] = []
+    core_ids: set[str] = set()
+    for index, row in enumerate(cores):
+        _validate_core(authoritative_validator, row, index)
+        if override_validator is not None:
+            _validate_core(override_validator, row, index)
+
+        core_id = row["core_id"]
+        if core_id in core_ids:
+            raise ValueError(f"duplicate core_id {core_id}")
+        core_ids.add(core_id)
+        records.append(_to_core_record(row))
+
+    return tuple(records)
+
+
+def validate_source_paths(
+    records: tuple[CoreRecord, ...],
+    workspace_root: Path,
+) -> None:
+    try:
+        root = Path(workspace_root).resolve()
+    except (OSError, RuntimeError):
+        raise ValueError("workspace_root must be an existing directory") from None
+    if not root.is_dir():
+        raise ValueError("workspace_root must be an existing directory")
+
+    for record in records:
+        for source_path in record.source_paths:
+            prefix = f"core {record.core_id} source path {source_path!r}"
+            relative_path = Path(source_path)
+            posix_path = PurePosixPath(source_path)
+            windows_path = PureWindowsPath(source_path)
+            if (
+                relative_path.is_absolute()
+                or posix_path.is_absolute()
+                or bool(windows_path.drive)
+                or bool(windows_path.root)
+            ):
+                raise ValueError(f"{prefix} must be relative")
+            if ".." in posix_path.parts or ".." in windows_path.parts:
+                raise ValueError(
+                    f"{prefix} contains '..' traversal "
+                    "(rejected whether or not it escapes workspace root)"
+                )
+            if not source_path.endswith(".md"):
+                raise ValueError(f"{prefix} must end in .md")
+
+            try:
+                resolved_path = (root / relative_path).resolve()
+                resolved_path.relative_to(root)
+            except ValueError:
+                raise ValueError(f"{prefix} escapes workspace root") from None
+            except (OSError, RuntimeError):
+                raise ValueError(f"{prefix} cannot be resolved") from None
+
+            if not resolved_path.exists():
+                raise ValueError(f"{prefix} does not exist")
+            if not resolved_path.is_file():
+                raise ValueError(f"{prefix} is not a regular file")

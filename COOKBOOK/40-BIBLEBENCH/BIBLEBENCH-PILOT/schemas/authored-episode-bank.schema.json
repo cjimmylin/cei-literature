@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BibleBench Authored Episode Bank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifest_version", "module", "selection_sha256", "episodes"],
+  "properties": {
+    "manifest_version": {"const": "episode-bank-v1"},
+    "module": {
+      "enum": ["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+    },
+    "selection_sha256": {"$ref": "#/$defs/hash"},
+    "episodes": {
+      "type": "array",
+      "minItems": 12,
+      "maxItems": 12,
+      "items": {"$ref": "#/$defs/episode"}
+    }
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "identifier": {"type": "string", "pattern": "^[a-z][a-z0-9_]{0,63}$"},
+    "boundedText": {"type": "string", "minLength": 8, "maxLength": 8000},
+    "shortText": {"type": "string", "minLength": 2, "maxLength": 512},
+    "stringList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/shortText"}
+    },
+    "idList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/identifier"}
+    },
+    "sourceArtifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "heading"],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+\\.md$"
+        },
+        "sha256": {"$ref": "#/$defs/hash"},
+        "heading": {"type": "string", "minLength": 2, "maxLength": 512}
+      }
+    },
+    "cueSurfaces": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["C0", "C1", "C2"],
+      "properties": {
+        "C0": {"$ref": "#/$defs/boundedText"},
+        "C1": {"$ref": "#/$defs/boundedText"},
+        "C2": {"$ref": "#/$defs/boundedText"}
+      }
+    },
+    "forecastPayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "response_options"],
+      "properties": {
+        "question": {"$ref": "#/$defs/boundedText"},
+        "response_options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 7,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1, "maxLength": 64}
+        }
+      }
+    },
+    "taskSemantics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["objective", "success_condition"],
+      "properties": {
+        "objective": {"$ref": "#/$defs/boundedText"},
+        "success_condition": {"$ref": "#/$defs/boundedText"}
+      }
+    },
+    "answerSemantics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_fields", "allowed_outcomes"],
+      "properties": {
+        "required_fields": {"$ref": "#/$defs/idList"},
+        "allowed_outcomes": {"$ref": "#/$defs/idList"}
+      }
+    },
+    "toolSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["actions"],
+      "properties": {"actions": {"$ref": "#/$defs/idList"}}
+    },
+    "responseFieldSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "minLength"],
+      "properties": {
+        "type": {"const": "string"},
+        "minLength": {"type": "integer", "minimum": 1, "maximum": 4096}
+      }
+    },
+    "responseSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "required", "additionalProperties", "properties"],
+      "properties": {
+        "type": {"const": "object"},
+        "required": {"$ref": "#/$defs/idList"},
+        "additionalProperties": {"const": false},
+        "properties": {
+          "type": "object",
+          "minProperties": 1,
+          "maxProperties": 12,
+          "propertyNames": {"$ref": "#/$defs/identifier"},
+          "additionalProperties": {"$ref": "#/$defs/responseFieldSchema"}
+        }
+      }
+    },
+    "decoding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["temperature", "max_tokens"],
+      "properties": {
+        "temperature": {"const": 0},
+        "max_tokens": {"type": "integer", "minimum": 64, "maximum": 2048}
+      }
+    },
+    "capabilityTwin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "twin_id",
+        "neutral_objective",
+        "success_condition",
+        "shared_tools",
+        "shared_answer_contract"
+      ],
+      "properties": {
+        "twin_id": {"type": "string", "pattern": "^[FLTS][0-9]{2}-(?:TARGET|NULL|RESTRAINT)-0[1-9]-CAP$"},
+        "neutral_objective": {"$ref": "#/$defs/boundedText"},
+        "success_condition": {"$ref": "#/$defs/boundedText"},
+        "shared_tools": {"const": true},
+        "shared_answer_contract": {"const": true}
+      }
+    },
+    "executionContract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "contract_id",
+        "initial_state",
+        "allowed_actions",
+        "terminal_observables"
+      ],
+      "properties": {
+        "kind": {"enum": ["sandbox", "consequential_artifact", "interpretation"]},
+        "contract_id": {"$ref": "#/$defs/identifier"},
+        "initial_state": {"type": "object", "maxProperties": 32},
+        "allowed_actions": {"$ref": "#/$defs/idList"},
+        "terminal_observables": {"$ref": "#/$defs/idList"}
+      }
+    },
+    "probePayload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "response_fields"],
+      "properties": {
+        "question": {"$ref": "#/$defs/boundedText"},
+        "response_fields": {"$ref": "#/$defs/idList"}
+      }
+    },
+    "episode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "episode_id",
+        "core_id",
+        "role",
+        "stratum",
+        "bank_partition",
+        "mode",
+        "passage_anchors",
+        "source_artifacts",
+        "affected_parties",
+        "authority_boundary",
+        "shared_body",
+        "cue_surfaces",
+        "forecast_payload",
+        "task_semantics",
+        "answer_semantics",
+        "tool_schema",
+        "response_schema",
+        "decoding",
+        "semantic_response_tokens",
+        "acceptable_action_band",
+        "prohibited_actions",
+        "deficient_pole",
+        "counterfeit_pole",
+        "red_line_classes",
+        "capability_twin",
+        "execution_contract",
+        "probe_payload",
+        "repair_expectations",
+        "behavioral_attribution",
+        "judge_confidence",
+        "contestability",
+        "owner_review_status"
+      ],
+      "properties": {
+        "episode_id": {"type": "string", "pattern": "^[FLTS](?:0[1-9]|1[0-2])-(?:TARGET|NULL|RESTRAINT)-0[1-9]$"},
+        "core_id": {"type": "string", "pattern": "^(?:F(?:0[1-9]|1[0-2])|L0[1-8]|T(?:0[1-9]|1[0-2])|S(?:0[1-9]|10))$"},
+        "role": {"enum": ["target", "null", "restraint"]},
+        "stratum": {"enum": ["common_life", "christian_facing"]},
+        "bank_partition": {"const": "development"},
+        "mode": {"enum": ["judgment", "advice", "action"]},
+        "passage_anchors": {"$ref": "#/$defs/stringList"},
+        "source_artifacts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {"$ref": "#/$defs/sourceArtifact"}
+        },
+        "affected_parties": {"$ref": "#/$defs/idList"},
+        "authority_boundary": {"$ref": "#/$defs/boundedText"},
+        "shared_body": {"$ref": "#/$defs/boundedText"},
+        "cue_surfaces": {"$ref": "#/$defs/cueSurfaces"},
+        "forecast_payload": {"$ref": "#/$defs/forecastPayload"},
+        "task_semantics": {"$ref": "#/$defs/taskSemantics"},
+        "answer_semantics": {"$ref": "#/$defs/answerSemantics"},
+        "tool_schema": {"$ref": "#/$defs/toolSchema"},
+        "response_schema": {"$ref": "#/$defs/responseSchema"},
+        "decoding": {"$ref": "#/$defs/decoding"},
+        "semantic_response_tokens": {"$ref": "#/$defs/idList"},
+        "acceptable_action_band": {"$ref": "#/$defs/stringList"},
+        "prohibited_actions": {"$ref": "#/$defs/stringList"},
+        "deficient_pole": {"$ref": "#/$defs/boundedText"},
+        "counterfeit_pole": {"$ref": "#/$defs/boundedText"},
+        "red_line_classes": {"$ref": "#/$defs/idList"},
+        "capability_twin": {"$ref": "#/$defs/capabilityTwin"},
+        "execution_contract": {"$ref": "#/$defs/executionContract"},
+        "probe_payload": {"$ref": "#/$defs/probePayload"},
+        "repair_expectations": {"$ref": "#/$defs/stringList"},
+        "behavioral_attribution": {"enum": ["applicable", "not_behaviorally_attributable"]},
+        "judge_confidence": {"enum": ["low", "medium", "high"]},
+        "contestability": {"enum": ["clear", "contested", "outside_competence"]},
+        "owner_review_status": {"const": "pending"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"mode": {"const": "action"}}},
+          "then": {
+            "properties": {
+              "capability_twin": {"type": "object"},
+              "execution_contract": {
+                "properties": {"kind": {"const": "sandbox"}}
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

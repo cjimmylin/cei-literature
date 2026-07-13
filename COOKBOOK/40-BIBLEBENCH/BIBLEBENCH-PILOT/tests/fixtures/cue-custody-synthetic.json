@@ -1,0 +1,9 @@
+{
+  "classification": "SYNTHETIC_VALIDATION_ONLY",
+  "evidence_object_version": "synthetic-cue-evidence-v1",
+  "contains_provider_or_model_output": false,
+  "contains_secrets": false,
+  "artifact_prefix": "synthetic-validation/evidence",
+  "synthetic_primary_marker": "PRIMARY_PROVIDER_BYTES_ABSENT",
+  "synthetic_probe_marker": "PROBE_PROVIDER_BYTES_ABSENT"
+}

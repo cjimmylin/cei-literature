@@ -1,0 +1,195 @@
+registry_version: "2.0"
+document_status: pre_empirical_design_and_methods
+as_of: "2026-07-13"
+authority: PF-002
+empirical_claim_count: 0
+policy:
+  active_mvp_only: true
+  exploratory_and_descriptive_only: true
+  engineering_is_not_model_evidence: true
+  provisional_judgment_is_not_consensus: true
+  pending_claims_require_authorized_run_verified_custody_and_completed_adjudication: true
+  excluded_claims:
+    - rankings
+    - composites
+    - best-model
+    - cue-effect
+    - capability-adjusted
+    - family-level
+    - Christian-consensus
+    - performance claims
+
+claims:
+  - id: D001
+    type: DESIGN_CLAIM
+    statement: >-
+      BibleBench assesses observable outputs, consequential artifacts, reversible
+      sandbox actions, registered omissions, downstream effects, and passage-aware
+      interpretation or counsel; it does not establish inward spiritual states or
+      Christian moral agency.
+    manuscript_locations:
+      - Abstract
+      - Introduction
+      - "Construct and Theological Frame"
+      - Ethics
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
+        section: "2. Fixed claim boundary"
+      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/README.md
+        section: complete file
+    boundary: Measurement scope only; no model has been evaluated.
+
+  - id: D002
+    type: DESIGN_CLAIM
+    statement: >-
+      The shared design preserves FruitBench, CORINTHLOVE, 10CBench, and
+      SermonMount as passage-specific modules rather than merging them into one
+      undifferentiated Christian-ethics construct.
+    manuscript_locations:
+      - Abstract
+      - Introduction
+      - "Construct and Theological Frame"
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
+        section: "5.2 Preserved module packs"
+    boundary: Shared mechanics do not make the module-native constructs interchangeable.
+
+  - id: D003
+    type: DESIGN_CLAIM
+    statement: >-
+      The frozen development bank contains 48 episodes, 12 per module, with four
+      target, four null or foil, and four restraint or counterfeit roles per
+      module, and 34 common-life plus 14 Christian-facing records overall.
+    manuscript_locations:
+      - Abstract
+      - "Construct and Theological Frame"
+      - "Benchmark Design"
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/BIBLEBENCH-PILOT/modules/README.md
+        section: Registered geometry
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority"
+    boundary: Coverage is not a family-level estimate or a population sample.
+
+  - id: D004
+    type: DESIGN_CLAIM
+    statement: >-
+      Under PF-002, the active low-cost MVP contains exactly three inexpensive
+      general-purpose models and 48 episodes, yielding 288 logical calls when each
+      model receives one C1 primary and one matched probe per episode.
+    manuscript_locations:
+      - Abstract
+      - Introduction
+      - "MVP Protocol"
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority; 2.3 No-spend MVP runner lane"
+    boundary: Geometry is approved; exact roster, provider routes, calls, and spend are not.
+
+  - id: D005
+    type: DESIGN_CLAIM
+    statement: >-
+      The active MVP gives each episode-model pair exactly one C1 primary and one
+      immediately matched observable probe.
+    manuscript_locations:
+      - Abstract
+      - Introduction
+      - "MVP Protocol"
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority; 2.3 No-spend MVP runner lane"
+    boundary: Earlier C0/C1/C2 and forecast geometry is deferred design history, not active execution wording.
+
+  - id: D006
+    type: DESIGN_CLAIM
+    statement: >-
+      The MVP report is exploratory, descriptive, and vector-first and excludes
+      rankings, composites, best-model, cue-effect, capability-adjusted,
+      family-level, Christian-consensus, and performance claims.
+    manuscript_locations:
+      - Abstract
+      - Introduction
+      - "Planned Analysis"
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "2.4 PDF and analysis lane"
+    boundary: No model outcome or comparative conclusion exists.
+
+  - id: D007
+    type: DESIGN_CLAIM
+    statement: >-
+      The founding adjudication protocol uses one theologian-technical expert and
+      stores accepted judgments as single-expert provisional gold, with a blinded
+      repeat frozen before pilot-output exposure.
+    manuscript_locations:
+      - Abstract
+      - Introduction
+      - "LLM judging and human adjudication"
+      - Ethics
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-13-biblebench-parallel-paper-readiness-design.md
+        section: "1. Objective and authority; 2.2 Human-judging lane"
+    boundary: No episode gold is complete and no Christian consensus is claimed.
+
+  - id: P001
+    type: PROVISIONAL_THEOLOGICAL_JUDGMENT
+    statement: >-
+      The founding frame treats Scripture as primary, uses a broadly evangelical
+      Protestant public core, uses the Westminster Standards as a calibration
+      lens rather than an identity gate, and retains contested applications.
+    manuscript_locations:
+      - "Construct and Theological Frame"
+      - Discussion
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
+        section: "3. Normative stance"
+    boundary: Owner-approved founding judgment; not an ecumenical or population consensus.
+
+  - id: P002
+    type: PROVISIONAL_THEOLOGICAL_JUDGMENT
+    statement: >-
+      Godward, covenantal, worship-related, and Spirit-wrought teachings are not
+      behaviorally attributable to a language model merely from its outward output.
+    manuscript_locations:
+      - Introduction
+      - "Christian AI ethics and digital theology"
+      - Ethics
+      - Discussion
+    support:
+      - path: COOKBOOK/40-BIBLEBENCH/output/docs/superpowers/specs/2026-07-11-biblebench-shared-engine-design.md
+        section: "2. Fixed claim boundary"
+    boundary: Such content may be assessed only as interpretation, counsel, or role-boundary fidelity.
+
+  - id: X001
+    type: EMPIRICAL_CLAIM_PENDING
+    statement: >-
+      An authorized pilot would describe delivery, missingness, module-native
+      vectors, common-life and Christian-facing strata, action/probe consistency,
+      red-line incidents, and adjudication uncertainty.
+    manuscript_locations:
+      - Abstract
+      - "Planned Analysis"
+    required_evidence:
+      - authorized frozen three-model manifest
+      - immutable requests, responses, probes, usage, and receipts
+      - completed provisional adjudication
+      - verified descriptive analysis
+    boundary: No ranking, composite, cue effect, performance, or causal claim may be promoted.
+    status: pending_empirical_run
+
+  - id: X002
+    type: EMPIRICAL_CLAIM_PENDING
+    statement: >-
+      The founding repeat may estimate intra-rater stability only; a later
+      preregistered multi-judge study is required for inter-rater or cross-panel
+      disagreement claims.
+    manuscript_locations:
+      - Introduction
+      - "LLM judging and human adjudication"
+      - Discussion
+    required_evidence:
+      - frozen pass-one judgments
+      - completed blinded repeat before pilot-output exposure
+      - separately approved multi-judge protocol for any inter-rater claim
+    boundary: A single founding expert cannot establish Christian consensus.
+    status: pending_adjudication_and_future_validation

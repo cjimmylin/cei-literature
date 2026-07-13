@@ -1,0 +1,1807 @@
+from __future__ import annotations
+
+from collections import Counter
+from dataclasses import dataclass, replace
+import re
+from typing import Any, Literal
+import unicodedata
+
+from .artifacts import assert_actor_payload_safe
+from .contracts import Json, canonical_json_bytes, canonical_sha256
+
+
+__all__ = (
+    "CueVariant",
+    "DevelopmentEpisode",
+    "DevelopmentPack",
+    "EvidenceBundlePlan",
+    "LogicalCall",
+    "Schedule",
+    "compile_schedule",
+)
+
+
+_CUES = ("C0", "C1", "C2")
+_ROLES = ("target", "null", "restraint")
+_MODULES = ("fruitbench", "corinthlove", "tencommandments", "sermonmount")
+_HASH = re.compile(r"[0-9a-f]{64}")
+_ID = re.compile(r"[0-9a-f]{16}")
+_CUE_LABEL = re.compile(
+    r"(?<![A-Za-z0-9])C[- ]?[0-3](?![A-Za-z0-9])",
+    re.IGNORECASE,
+)
+_RESERVED_C3 = re.compile(
+    r"(?<![A-Za-z0-9])C[- ]?3(?![A-Za-z0-9])",
+    re.IGNORECASE,
+)
+_EMBEDDED_CUE_LABEL = re.compile(r"C[- ]?[0-3]", re.IGNORECASE)
+_OPAQUE_HEX = re.compile(r"(?:[0-9a-f]{16}|[0-9a-f]{64})")
+_MAX_VISIBLE_DEPTH = 128
+_MAX_REQUEST_BYTES = 64 * 1024
+_MAX_REQUEST_KEY_BYTES = 512
+_MAX_REQUEST_STRING_BYTES = 32 * 1024
+_MAX_REQUEST_FIELDS_AND_NODES = 4096
+_MAX_IDENTIFIER_BYTES = 128
+_ASCII_COMPARISON_DELETE = str.maketrans(
+    {
+        chr(codepoint): None
+        for codepoint in range(128)
+        if unicodedata.category(chr(codepoint)).startswith(
+            ("M", "P", "S", "Z", "C")
+        )
+    }
+)
+_CAMEL_KEY_BOUNDARY = re.compile(
+    r"(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])"
+)
+_NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
+_ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
+_BENIGN_PROTECTED_GRAMMARS = {
+    "actor": (
+        ("factor", 1, ("", "s")),
+        ("contractor", 5, ("name",)),
+        ("tractor", 2, ("id",)),
+        ("extractor", 4, ("notes",)),
+    ),
+    "cue": (("rescue", 3, ("notes",)), ("barbecue", 5, ("plan",))),
+    "gold": (
+        ("golden", 0, ("rule",)),
+        ("marigold", 4, ("color",)),
+        ("goldfish", 0, ("count",)),
+    ),
+    "intervention": (
+        ("interventional", 0, ("notes", "summary")),
+    ),
+    "lens": (
+        ("lensing", 0, ("notes", "summary")),
+        ("glens", 1, ("count",)),
+    ),
+    "model": (
+        ("modeling", 0, ("notes",)),
+        ("modelling", 0, ("notes",)),
+        ("remodel", 2, ("plan",)),
+    ),
+    "provider": (("providership", 0, ("notes", "summary")),),
+    "providers": (("providership", 0, ("notes", "summary")),),
+    "role": (("roleplay", 0, ("",)), ("parole", 2, ("status",))),
+    "route": (
+        ("reroute", 2, ("notes", "summary")),
+        ("enroute", 2, ("status",)),
+    ),
+    "routes": (
+        ("reroutesummary", 2, ("",)),
+        ("enroutestatus", 2, ("",)),
+    ),
+    "schedule": (("reschedule", 2, ("options",)),),
+}
+_LATER_NAMESPACE_TOKENS = frozenset(
+    {
+        "lens",
+        "lenses",
+        "intervention",
+        "interventions",
+        "provider",
+        "providers",
+        "route",
+        "routes",
+    }
+)
+_PHYSICAL_RESERVED_TOKENS = frozenset(
+    f"physical{qualifier}"
+    for qualifier in (
+        "id",
+        "ids",
+        "identifier",
+        "identifiers",
+        "call",
+        "calls",
+        "attempt",
+        "attempts",
+    )
+)
+_ATTEMPT_RESERVED_TOKENS = frozenset(
+    f"{attempt}{identifier}"
+    for attempt in ("attempt", "attempts")
+    for identifier in ("id", "ids", "identifier", "identifiers")
+)
+_LATER_RESERVED_TOKENS = (
+    _LATER_NAMESPACE_TOKENS
+    | _PHYSICAL_RESERVED_TOKENS
+    | _ATTEMPT_RESERVED_TOKENS
+)
+_BLIND_FORECAST_COMPONENTS = frozenset(
+    {
+        "cue",
+        "condition",
+        "actor",
+        "model",
+        "provider",
+        "schedule",
+        "bundle",
+        "episode",
+        "role",
+        "expected",
+        "gold",
+        "private",
+    }
+)
+_IDENTITY_RESERVED_TOKENS = frozenset({"actor", "model"})
+_RESULT_RESERVED_TOKENS = frozenset({"expected", "gold", "groundtruth"})
+_ACTOR_PRIVATE_RESERVED_TOKENS = frozenset({"role", "private"})
+_ACTOR_VISIBLE_METADATA_TOKENS = frozenset(
+    {"cue", "condition", "schedule", "bundle", "episode"}
+)
+_PRIMARY_ALLOWED_METADATA_KEYS = frozenset({"cuesurface"})
+_ROLE_PLAY_KEY_COMPONENTS = ("role", "play")
+_PRIMARY_CUE_SURFACE_COMPONENTS = ("cue", "surface")
+_LOGICAL_CALL_REFERENCE_COMPONENTS = ("logical", "call", "id")
+_LOGICAL_REFERENCE_COMPONENT_CANONICAL = {
+    "calls": "call",
+    "ids": "id",
+    "identifier": "id",
+    "identifiers": "id",
+}
+_LOGICAL_CALL_REFERENCE_COMPACT = re.compile(
+    r"logicalcalls?(?:ids?|identifiers?)", re.IGNORECASE
+)
+_HEX_RUN = re.compile(r"[0-9a-f]+")
+_CUE_HOMOGLYPHS = str.maketrans(
+    {
+        "С": "C",
+        "с": "c",
+        "Ϲ": "C",
+        "ϲ": "c",
+        "ᴄ": "c",
+        "Ꮯ": "C",
+        "ꮯ": "c",
+        "Ƈ": "C",
+        "ƈ": "c",
+        "ꓚ": "C",
+        "Ⲥ": "C",
+        "ⲥ": "c",
+        "Ꞓ": "C",
+        "ꞓ": "c",
+        "Ȼ": "C",
+        "ȼ": "c",
+        "З": "3",
+        "з": "3",
+        "Ʒ": "3",
+        "ʒ": "3",
+        "Ɛ": "3",
+        "ɛ": "3",
+        "Ȝ": "3",
+        "ȝ": "3",
+    }
+)
+# Fixed comparison-only table of common Greek/Cyrillic Latin lookalikes.
+_PROTECTED_WORD_CONFUSABLES = str.maketrans(
+    {
+        "Α": "A",
+        "Β": "B",
+        "Ε": "E",
+        "Ζ": "Z",
+        "Η": "H",
+        "Ι": "I",
+        "Κ": "K",
+        "Μ": "M",
+        "Ν": "N",
+        "Ο": "O",
+        "Ρ": "P",
+        "Τ": "T",
+        "Υ": "Y",
+        "Χ": "X",
+        "ι": "i",
+        "κ": "k",
+        "ο": "o",
+        "ρ": "p",
+        "τ": "t",
+        "χ": "x",
+        "Ϲ": "C",
+        "ϲ": "c",
+        "А": "A",
+        "В": "B",
+        "Е": "E",
+        "К": "K",
+        "М": "M",
+        "Н": "H",
+        "О": "O",
+        "Р": "P",
+        "С": "C",
+        "Т": "T",
+        "Х": "X",
+        "а": "a",
+        "е": "e",
+        "і": "i",
+        "ј": "j",
+        "о": "o",
+        "р": "p",
+        "с": "c",
+        "у": "y",
+        "х": "x",
+        "ᴄ": "c",
+        "Ꮯ": "C",
+        "ꮯ": "c",
+        "Ƈ": "C",
+        "ƈ": "c",
+        "ꓚ": "C",
+        "Ⲥ": "C",
+        "ⲥ": "c",
+        "Ꞓ": "C",
+        "ꞓ": "c",
+        "Ȼ": "C",
+        "ȼ": "c",
+    }
+)
+_ID_HEX_CONFUSABLES = str.maketrans(
+    {
+        "Α": "A",
+        "α": "a",
+        "А": "A",
+        "а": "a",
+        "Β": "B",
+        "β": "b",
+        "В": "B",
+        "в": "b",
+        "Ϲ": "C",
+        "ϲ": "c",
+        "С": "C",
+        "с": "c",
+        "Ε": "E",
+        "ε": "e",
+        "Е": "E",
+        "е": "e",
+    }
+)
+_SENSITIVE_ASSIGNMENT = re.compile(
+    r"(?<![a-z0-9])(?P<label>"
+    r"expected *label|tested *model|"
+    r"actor *(?:id|model|role)|"
+    r"model *(?:identity|id|name)|"
+    r"gold *label|ground *truth|"
+    r"condition|cue|schedule *id|"
+    r"bundle *id|episode *id|"
+    r"private(?: *(?:id|template|value))?"
+    r") (?:is|assigned) (?P<value>\S+)",
+    re.IGNORECASE,
+)
+_SENSITIVE_PROVIDER_ASSIGNMENT = re.compile(
+    r"(?<![a-z0-9])"
+    r"(?:(?:the|a) *)?"
+    r"(?:(?:selected|current|requested|chosen|healthcare|"
+    r"pastoral(?: *care)?) *)?"
+    r"provider *(?:is|assigned) *"
+    r"(?P<value>[a-z0-9]+(?: +[a-z0-9]+){0,2})"
+    r"(?![a-z0-9])",
+    re.IGNORECASE,
+)
+_BENIGN_PROVIDER_STATES = frozenset(
+    {"available", "available today", "compassionate", "useful"}
+)
+_COMPACT_SENSITIVE_ASSIGNMENT = re.compile(
+    r"(?P<label>"
+    r"expectedlabel|testedmodel|actor(?:id|model|role)|"
+    r"model(?:identity|id|name)|goldlabel|groundtruth|"
+    r"condition|cue|scheduleid|bundleid|episodeid|"
+    r"private(?:id|template|value)?"
+    r")(?:is|assigned)(?P<value>[a-z0-9]+)",
+    re.IGNORECASE,
+)
+_COMPACT_PROVIDER_ASSIGNMENT = re.compile(
+    r"provider(?:is|assigned)(?P<value>[a-z0-9]+)",
+    re.IGNORECASE,
+)
+_COMPACT_BENIGN_PROVIDER_STATES = frozenset(
+    {"available", "availabletoday", "compassionate", "useful"}
+)
+
+
+@dataclass(frozen=True)
+class CueVariant:
+    cue: Literal["C0", "C1", "C2"]
+    cue_surface: str
+    shared_body: str
+    task_semantics_sha256: str
+    answer_semantics_sha256: str
+    tool_schema_sha256: str
+    response_schema_sha256: str
+    decoding: dict[str, Json]
+    semantic_response_tokens: tuple[str, ...]
+
+
+@dataclass(frozen=True)
+class DevelopmentEpisode:
+    episode_id: str
+    role: Literal["target", "null", "restraint"]
+    forecast_payload: dict[str, Json]
+    probe_payload: dict[str, Json]
+    variants: tuple[CueVariant, ...]
+
+
+@dataclass(frozen=True)
+class DevelopmentPack:
+    module: Literal["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+    episodes: tuple[DevelopmentEpisode, ...]
+
+    @property
+    def episode_count(self) -> int:
+        return len(self.episodes)
+
+    def role_counts(self) -> dict[str, int]:
+        counts = Counter(episode.role for episode in self.episodes)
+        return {role: counts[role] for role in _ROLES}
+
+
+@dataclass(frozen=True)
+class EvidenceBundlePlan:
+    bundle_id: str
+    actor_id: str
+    module: Literal["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+    episode_id: str
+    role: Literal["target", "null", "restraint"]
+    logical_call_ids: tuple[str, ...]
+
+
+@dataclass(frozen=True)
+class LogicalCall:
+    logical_call_id: str
+    bundle_id: str
+    actor_id: str
+    module: Literal["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+    episode_id: str
+    role: Literal["target", "null", "restraint"]
+    call_kind: Literal["forecast", "primary", "probe"]
+    cue: Literal["C0", "C1", "C2"] | None
+    presentation_position: int
+    primary_logical_call_id: str | None
+    request_payload: dict[str, Json]
+
+
+@dataclass(frozen=True)
+class Schedule:
+    seed: int
+    bundles: tuple[EvidenceBundlePlan, ...]
+    logical_calls: tuple[LogicalCall, ...]
+
+    @property
+    def forecast_rows(self) -> tuple[LogicalCall, ...]:
+        return tuple(row for row in self.logical_calls if row.call_kind == "forecast")
+
+    @property
+    def primary_rows(self) -> tuple[LogicalCall, ...]:
+        return tuple(row for row in self.logical_calls if row.call_kind == "primary")
+
+    @property
+    def probe_rows(self) -> tuple[LogicalCall, ...]:
+        return tuple(row for row in self.logical_calls if row.call_kind == "probe")
+
+    def to_canonical_json(self) -> str:
+        snapshot_calls = tuple(
+            replace(row, request_payload=_detached(row.request_payload))
+            for row in self.logical_calls
+        )
+        snapshot = replace(self, logical_calls=snapshot_calls)
+        snapshot.assert_counterbalanced()
+        value: dict[str, Json] = {
+            "seed": snapshot.seed,
+            "bundles": [
+                _bundle_json(bundle) for bundle in snapshot.bundles
+            ],
+            "logical_calls": [
+                _call_json(row) for row in snapshot.logical_calls
+            ],
+        }
+        encoded = canonical_json_bytes(value)
+        text = encoded.decode("utf-8")
+        if _RESERVED_C3.search(_label_policy_text(text)):
+            raise ValueError("schedule contains reserved condition")
+        return text
+
+    def assert_counterbalanced(self) -> None:
+        _assert_schedule_counterbalanced(self)
+
+
+def _type_error(message: str) -> None:
+    raise TypeError(message)
+
+
+def _require(condition: bool, message: str) -> None:
+    if not condition:
+        raise ValueError(message)
+
+
+def _strict_string(value: Any, name: str, *, nonempty: bool = True) -> str:
+    if type(value) is not str:
+        _type_error(f"{name} must be a string")
+    if nonempty and not value.strip():
+        raise ValueError(f"{name} must be nonempty")
+    return value
+
+
+def _policy_text(value: str) -> str:
+    return unicodedata.normalize("NFKC", value)
+
+
+def _label_policy_text(value: str) -> str:
+    compatible = _policy_text(value.translate(_CUE_HOMOGLYPHS))
+    compatible = compatible.translate(_CUE_HOMOGLYPHS)
+    decomposed = unicodedata.normalize("NFKD", compatible)
+    decomposed = decomposed.translate(_CUE_HOMOGLYPHS)
+    if decomposed.isascii():
+        return decomposed.translate(_ASCII_COMPARISON_DELETE)
+    skeleton: list[str] = []
+    for character in decomposed:
+        category = unicodedata.category(character)
+        if category.startswith(("M", "P", "S", "Z", "C")):
+            continue
+        try:
+            digit = unicodedata.digit(character)
+        except (TypeError, ValueError):
+            skeleton.append(character)
+        else:
+            skeleton.append(str(digit))
+    return "".join(skeleton)
+
+
+def _comparison_skeleton(value: str) -> str:
+    if value.isascii():
+        return value.casefold().translate(_ASCII_COMPARISON_DELETE)
+    normalized = _policy_text(value.translate(_ID_HEX_CONFUSABLES))
+    normalized = normalized.translate(_ID_HEX_CONFUSABLES).casefold()
+    decomposed = unicodedata.normalize("NFKD", normalized)
+    decomposed = decomposed.translate(_ID_HEX_CONFUSABLES)
+    skeleton: list[str] = []
+    for character in decomposed:
+        category = unicodedata.category(character)
+        if category.startswith(("M", "P", "S", "Z", "C")):
+            continue
+        try:
+            digit = unicodedata.digit(character)
+        except (TypeError, ValueError):
+            skeleton.append(character)
+        else:
+            skeleton.append(str(digit))
+    return "".join(skeleton)
+
+
+def _protected_word_policy_text(value: str) -> str:
+    if value.isascii():
+        compatible = value
+    else:
+        compatible = value.translate(_PROTECTED_WORD_CONFUSABLES)
+        compatible = unicodedata.normalize("NFKD", compatible)
+        compatible = compatible.translate(_PROTECTED_WORD_CONFUSABLES)
+    compatible = _CAMEL_KEY_BOUNDARY.sub(" ", compatible)
+    # Preserve assignment semantics before punctuation runs collapse.
+    compatible = compatible.replace(":", " assigned ")
+    compatible = compatible.replace("=", " assigned ")
+    skeleton: list[str] = []
+    pending_space = False
+    for character in compatible:
+        category = unicodedata.category(character)
+        if category.startswith(("M", "C")):
+            continue
+        if category.startswith(("P", "S", "Z")):
+            pending_space = True
+            continue
+        if pending_space and skeleton:
+            skeleton.append(" ")
+        skeleton.append(character)
+        pending_space = False
+    return " ".join("".join(skeleton).casefold().split())
+
+
+def _compact_assignment_policy_text(value: str) -> str:
+    if value.isascii():
+        compatible = value
+    else:
+        compatible = value.translate(_PROTECTED_WORD_CONFUSABLES)
+        compatible = unicodedata.normalize("NFKD", compatible)
+        compatible = compatible.translate(_PROTECTED_WORD_CONFUSABLES)
+    compatible = compatible.replace(":", "assigned")
+    compatible = compatible.replace("=", "assigned")
+    return "".join(
+        character
+        for character in compatible
+        if not unicodedata.category(character).startswith(
+            ("M", "P", "S", "Z", "C")
+        )
+    ).casefold()
+
+
+def _strict_identifier(value: Any, name: str) -> str:
+    captured = _strict_string(value, name)
+    if _utf8_size(captured) > _MAX_IDENTIFIER_BYTES:
+        raise ValueError(f"{name} must not exceed 128 bytes")
+    return captured
+
+
+def _identifier_collision_key(value: str) -> str:
+    return _policy_text(value).casefold()
+
+
+def _field_allows_opaque_hex(field_name: str | None) -> bool:
+    if field_name is None:
+        return False
+    normalized = _normalized_key(field_name)
+    components = _key_components(field_name)
+    return (
+        normalized.endswith("sha256")
+        or (bool(components) and components[-1] in {"id", "ids"})
+    )
+
+
+def _opaque_hex_is_allowed(field_name: str | None, value: str) -> bool:
+    return (
+        _OPAQUE_HEX.fullmatch(value) is not None
+        and _field_allows_opaque_hex(field_name)
+    )
+
+
+def _label_policy_context(
+    field_name: str | None, *, allow_structural_cues: bool
+) -> int:
+    if allow_structural_cues and field_name == "cue":
+        return 2
+    if _field_allows_opaque_hex(field_name):
+        return 1
+    return 0
+
+
+def _assert_no_c3(
+    value: Any, *, allow_structural_cues: bool = True
+) -> None:
+    stack: list[tuple[str, Any, int, str | None]] = [
+        ("visit", value, 0, None)
+    ]
+    active: set[int] = set()
+    seen: set[tuple[int, int]] = set()
+    scheduled = 1
+    while stack:
+        operation, current, depth, field_name = stack.pop()
+        if operation == "exit":
+            active.remove(id(current))
+            continue
+        if type(current) is str:
+            if (
+                allow_structural_cues
+                and field_name == "cue"
+                and current in _CUES
+            ):
+                continue
+            if _opaque_hex_is_allowed(field_name, current):
+                continue
+            if _EMBEDDED_CUE_LABEL.search(_label_policy_text(current)):
+                raise ValueError("value contains a reserved condition label")
+            continue
+        if current is None or type(current) in {bool, int, float}:
+            continue
+        if type(current) not in {tuple, list, dict} and not hasattr(
+            current, "__dict__"
+        ):
+            continue
+        identity = id(current)
+        if identity in active:
+            raise ValueError("value exceeds reserved-label traversal limits")
+        context = _label_policy_context(
+            field_name, allow_structural_cues=allow_structural_cues
+        )
+        state = (identity, context)
+        if state in seen:
+            continue
+        if depth >= _MAX_VISIBLE_DEPTH:
+            raise ValueError("value exceeds reserved-label traversal limits")
+        seen.add(state)
+        active.add(identity)
+        stack.append(("exit", current, depth, field_name))
+        if type(current) is dict:
+            additional = len(current) * 2
+            if scheduled + additional > _MAX_REQUEST_FIELDS_AND_NODES:
+                raise ValueError("value exceeds reserved-label traversal limits")
+            scheduled += additional
+            children = []
+            for key, child in current.items():
+                if type(key) is str and _EMBEDDED_CUE_LABEL.search(
+                    _label_policy_text(key)
+                ):
+                    raise ValueError("field contains a reserved condition label")
+                children.append((child, key if type(key) is str else None))
+        elif type(current) in {tuple, list}:
+            if scheduled + len(current) > _MAX_REQUEST_FIELDS_AND_NODES:
+                raise ValueError("value exceeds reserved-label traversal limits")
+            scheduled += len(current)
+            children = [(child, field_name) for child in current]
+        else:
+            attributes = vars(current)
+            additional = len(attributes) * 2
+            if scheduled + additional > _MAX_REQUEST_FIELDS_AND_NODES:
+                raise ValueError("value exceeds reserved-label traversal limits")
+            scheduled += additional
+            children = []
+            for name, child in attributes.items():
+                if _EMBEDDED_CUE_LABEL.search(_label_policy_text(name)):
+                    raise ValueError("field contains a reserved condition label")
+                children.append((child, name))
+        for child, child_field in reversed(children):
+            stack.append(("visit", child, depth + 1, child_field))
+
+
+def _assert_no_c3_fields(
+    value: Any, *, excluded: frozenset[str] = frozenset()
+) -> None:
+    attributes = vars(value)
+    if len(attributes) > _MAX_REQUEST_FIELDS_AND_NODES:
+        raise ValueError("value exceeds reserved-label traversal limits")
+    for name, child in attributes.items():
+        if name not in excluded:
+            _assert_no_c3({name: child})
+
+
+def _normalized_key(value: str) -> str:
+    normalized = _policy_text(value)
+    return "".join(
+        character.casefold()
+        for character in normalized
+        if character.isalnum()
+    )
+
+
+def _key_components(value: str) -> tuple[str, ...]:
+    separated = _CAMEL_KEY_BOUNDARY.sub("_", _policy_text(value))
+    return tuple(
+        component
+        for component in _NON_ALNUM_KEY.split(separated.casefold())
+        if component
+    )
+
+
+def _key_has_protected_component(
+    value: str,
+    protected: frozenset[str],
+    *,
+    exact_allowed: frozenset[tuple[str, ...]] = frozenset(),
+) -> bool:
+    components = _key_components(value)
+    return (
+        components not in exact_allowed
+        and not protected.isdisjoint(components)
+    )
+
+
+def _walk_keys(value: Json):
+    stack = [value]
+    while stack:
+        current = stack.pop()
+        if type(current) is dict:
+            for key, child in current.items():
+                yield key
+                stack.append(child)
+        elif type(current) is list:
+            stack.extend(current)
+
+
+def _walk_visible_strings(value: Json):
+    stack = [value]
+    while stack:
+        current = stack.pop()
+        if type(current) is str:
+            yield current
+        elif type(current) is dict:
+            for key, child in current.items():
+                yield key
+                stack.append(child)
+        elif type(current) is list:
+            stack.extend(current)
+
+
+def _utf8_size(value: str) -> int:
+    try:
+        return len(value.encode("utf-8"))
+    except UnicodeEncodeError as error:
+        raise ValueError("request payload is invalid") from error
+
+
+def _bounded_json_snapshot(value: Any) -> Json:
+    root: list[Json] = [None]
+    stack: list[tuple[str, Any, Any, Any, int]] = [
+        ("visit", value, root, 0, 0)
+    ]
+    active: set[int] = set()
+    scheduled = 1
+    while stack:
+        operation, current, parent, slot, depth = stack.pop()
+        if operation == "exit":
+            active.remove(id(current))
+            continue
+        if current is None or type(current) in {bool, int, float}:
+            detached: Json = current
+        elif type(current) is str:
+            if _utf8_size(current) > _MAX_REQUEST_STRING_BYTES:
+                raise ValueError("JSON value exceeds limits")
+            detached = current
+        elif type(current) in {dict, list}:
+            identity = id(current)
+            if depth >= _MAX_VISIBLE_DEPTH or identity in active:
+                raise ValueError("JSON value exceeds limits")
+            if type(current) is dict:
+                additional = len(current) * 2
+                if scheduled + additional > _MAX_REQUEST_FIELDS_AND_NODES:
+                    raise ValueError("JSON value exceeds limits")
+                scheduled += additional
+                items = list(current.items())
+                for key, _ in items:
+                    if type(key) is not str:
+                        raise ValueError("JSON value is invalid")
+                    if _utf8_size(key) > _MAX_REQUEST_KEY_BYTES:
+                        raise ValueError("JSON value exceeds limits")
+                detached = {}
+            else:
+                if scheduled + len(current) > _MAX_REQUEST_FIELDS_AND_NODES:
+                    raise ValueError("JSON value exceeds limits")
+                scheduled += len(current)
+                detached = [None] * len(current)
+            active.add(identity)
+            stack.append(("exit", current, None, None, depth))
+            if type(current) is dict:
+                for key, child in reversed(items):
+                    stack.append(
+                        ("visit", child, detached, key, depth + 1)
+                    )
+            else:
+                for index in range(len(current) - 1, -1, -1):
+                    stack.append(
+                        ("visit", current[index], detached, index, depth + 1)
+                    )
+        else:
+            raise ValueError("JSON value is invalid")
+        if type(parent) is list:
+            parent[slot] = detached
+        else:
+            parent[slot] = detached
+    snapshot = root[0]
+    try:
+        encoded = canonical_json_bytes(snapshot)
+    except (TypeError, ValueError, OverflowError, RecursionError) as error:
+        raise ValueError("JSON value is invalid") from error
+    if len(encoded) > _MAX_REQUEST_BYTES:
+        raise ValueError("JSON value exceeds limits")
+    return snapshot
+
+
+def _normalized_policy_view(value: Json) -> Json:
+    if type(value) is str:
+        return _policy_text(value)
+    if type(value) is list:
+        return [_normalized_policy_view(child) for child in value]
+    if type(value) is dict:
+        normalized: dict[str, Json] = {}
+        for key, child in value.items():
+            policy_key = _policy_text(key)
+            if policy_key in normalized:
+                raise ValueError(
+                    "request payload contains compatibility-colliding fields"
+                )
+            normalized[policy_key] = _normalized_policy_view(child)
+        return normalized
+    return value
+
+
+def _assert_actor_policy_safe(captured: dict[str, Json]) -> None:
+    policy_view = _normalized_policy_view(captured)
+    if type(policy_view) is not dict:
+        raise ValueError("request payload policy view is invalid")
+    authored_items = list(captured.items())
+    captured.clear()
+    captured.update(policy_view)
+    try:
+        assert_actor_payload_safe(captured)
+    finally:
+        captured.clear()
+        captured.update(authored_items)
+
+
+def _protected_occurrence_is_benign(
+    normalized: str, protected: str, start: int
+) -> bool:
+    grammars = _BENIGN_PROTECTED_GRAMMARS.get(protected, ())
+    for context, offset, terminal_suffixes in grammars:
+        context_start = start - offset
+        protected_end = start + len(protected)
+        context_end = context_start + len(context)
+        if (
+            context_start >= 0
+            and protected_end <= context_end
+            and normalized.startswith(context, context_start)
+            and normalized[context_end:] in terminal_suffixes
+        ):
+            return True
+    return False
+
+
+def _normalized_key_has_protected_occurrence(
+    normalized: str,
+    protected: frozenset[str],
+    *,
+    exact_allowed: frozenset[str] = frozenset(),
+) -> bool:
+    if not normalized or normalized in exact_allowed:
+        return False
+    for token in protected:
+        start = normalized.find(token)
+        while start >= 0:
+            if not _protected_occurrence_is_benign(
+                normalized, token, start
+            ):
+                return True
+            start = normalized.find(token, start + 1)
+    return False
+
+
+def _assert_no_result_fields(payload: dict[str, Json]) -> None:
+    for key in _walk_keys(payload):
+        if _key_has_protected_component(key, _RESULT_RESERVED_TOKENS):
+            raise ValueError("request payload contains an outcome field")
+        normalized = _normalized_key(key)
+        if _normalized_key_has_protected_occurrence(
+            normalized, _RESULT_RESERVED_TOKENS
+        ):
+            raise ValueError("request payload contains an outcome field")
+
+
+def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
+    for key in _walk_keys(payload):
+        if _key_has_protected_component(key, _IDENTITY_RESERVED_TOKENS):
+            raise ValueError("request payload contains an identity field")
+        normalized = _normalized_key(key)
+        if _normalized_key_has_protected_occurrence(
+            normalized,
+            _IDENTITY_RESERVED_TOKENS,
+        ):
+            raise ValueError("request payload contains an identity field")
+
+
+def _normalized_key_is_sealed(normalized: str) -> bool:
+    return _normalized_key_has_protected_occurrence(
+        normalized,
+        _LATER_RESERVED_TOKENS,
+        exact_allowed=_ALLOWED_TASK_ROUTE_KEYS,
+    )
+
+
+def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
+    for key in _walk_keys(payload):
+        normalized = _normalized_key(key)
+        has_sealed_component = not _LATER_NAMESPACE_TOKENS.isdisjoint(
+            _key_components(key)
+        )
+        if _normalized_key_is_sealed(normalized) or (
+            normalized not in _ALLOWED_TASK_ROUTE_KEYS
+            and has_sealed_component
+        ):
+            raise ValueError("request payload contains a later-scope field")
+
+
+def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
+    component_exceptions = frozenset({_ROLE_PLAY_KEY_COMPONENTS})
+    for key in _walk_keys(payload):
+        if _key_has_protected_component(
+            key,
+            _ACTOR_PRIVATE_RESERVED_TOKENS,
+            exact_allowed=component_exceptions,
+        ):
+            raise ValueError("request payload contains actor-private metadata")
+        normalized = _normalized_key(key)
+        if _normalized_key_has_protected_occurrence(
+            normalized, _ACTOR_PRIVATE_RESERVED_TOKENS
+        ):
+            raise ValueError("request payload contains actor-private metadata")
+
+
+def _assert_no_logical_call_reference_fields(
+    payload: dict[str, Json],
+) -> None:
+    for visible in _walk_visible_strings(payload):
+        components = tuple(
+            _LOGICAL_REFERENCE_COMPONENT_CANONICAL.get(
+                component, component
+            )
+            for component in _key_components(visible)
+        )
+        sequence = _LOGICAL_CALL_REFERENCE_COMPONENTS
+        has_component_sequence = any(
+            components[index : index + len(sequence)] == sequence
+            for index in range(len(components) - len(sequence) + 1)
+        )
+        if (
+            has_component_sequence
+            or _LOGICAL_CALL_REFERENCE_COMPACT.search(
+                _normalized_key(visible)
+            )
+        ):
+            raise ValueError(
+                "request payload contains a logical call reference"
+            )
+
+
+def _assert_no_mixed_script_identifier_keys(
+    payload: dict[str, Json],
+) -> None:
+    for key in _walk_keys(payload):
+        normalized = _policy_text(key)
+        tokens: list[str] = []
+        current: list[str] = []
+        for character in normalized:
+            if character.isalnum():
+                current.append(character)
+            elif current:
+                tokens.append("".join(current))
+                current = []
+        if current:
+            tokens.append("".join(current))
+        for token in tokens:
+            has_ascii_letter = any(
+                character.isascii() and character.isalpha()
+                for character in token
+            )
+            has_non_latin_letter = any(
+                character.isalpha()
+                and not character.isascii()
+                and "LATIN" not in unicodedata.name(character, "")
+                for character in token
+            )
+            if has_ascii_letter and has_non_latin_letter:
+                raise ValueError(
+                    "request payload contains a mixed-script identifier key"
+                )
+
+
+def _assert_no_sensitive_assignments(payload: dict[str, Json]) -> None:
+    for visible in _walk_visible_strings(payload):
+        protected_text = _protected_word_policy_text(visible)
+        match = _SENSITIVE_ASSIGNMENT.search(protected_text)
+        if match is not None:
+            label = _normalized_key(match.group("label"))
+            assigned_value = _policy_text(match.group("value")).casefold()
+            assigned_value = assigned_value.strip(".!?")
+            if label != "condition" or assigned_value != "stable":
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
+        compact_text = _compact_assignment_policy_text(visible)
+        compact_match = _COMPACT_SENSITIVE_ASSIGNMENT.search(compact_text)
+        if compact_match is not None:
+            label = compact_match.group("label").casefold()
+            assigned_value = compact_match.group("value").casefold()
+            if label != "condition" or assigned_value != "stable":
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
+        provider_match = _SENSITIVE_PROVIDER_ASSIGNMENT.search(protected_text)
+        if provider_match is not None:
+            provider_value = provider_match.group("value")
+            if provider_value not in _BENIGN_PROVIDER_STATES:
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
+        compact_provider_match = _COMPACT_PROVIDER_ASSIGNMENT.search(
+            compact_text
+        )
+        if compact_provider_match is not None:
+            provider_value = compact_provider_match.group("value")
+            if provider_value not in _COMPACT_BENIGN_PROVIDER_STATES:
+                raise ValueError(
+                    "request payload contains a sensitive assignment"
+                )
+
+
+def _assert_payload_hides_generated_ids(
+    payload: dict[str, Json], generated_ids: frozenset[str]
+) -> None:
+    if not generated_ids:
+        return
+    normalized_ids = frozenset(
+        _comparison_skeleton(identifier) for identifier in generated_ids
+    )
+    for visible in _walk_visible_strings(payload):
+        normalized = _comparison_skeleton(visible)
+        for match in _HEX_RUN.finditer(normalized):
+            run = match.group(0)
+            if any(
+                run[index : index + 16] in normalized_ids
+                for index in range(len(run) - 15)
+            ):
+                raise ValueError(
+                    "request payload contains a generated schedule identifier"
+                )
+
+
+def _assert_no_actor_visible_metadata_fields(
+    payload: dict[str, Json], *, primary: bool
+) -> None:
+    exact_allowed = _PRIMARY_ALLOWED_METADATA_KEYS if primary else frozenset()
+    component_exceptions = (
+        frozenset({_PRIMARY_CUE_SURFACE_COMPONENTS})
+        if primary
+        else frozenset()
+    )
+    for key in _walk_keys(payload):
+        if _key_has_protected_component(
+            key,
+            _ACTOR_VISIBLE_METADATA_TOKENS,
+            exact_allowed=component_exceptions,
+        ):
+            raise ValueError("request payload contains condition metadata")
+        normalized = _normalized_key(key)
+        if _normalized_key_has_protected_occurrence(
+            normalized,
+            _ACTOR_VISIBLE_METADATA_TOKENS,
+            exact_allowed=exact_allowed,
+        ):
+            raise ValueError("request payload contains condition metadata")
+
+
+def _assert_blind_forecast(payload: dict[str, Json]) -> None:
+    component_exceptions = frozenset({_ROLE_PLAY_KEY_COMPONENTS})
+    for key in _walk_keys(payload):
+        if _key_has_protected_component(
+            key,
+            _BLIND_FORECAST_COMPONENTS,
+            exact_allowed=component_exceptions,
+        ):
+            raise ValueError("forecast payload contains blinded metadata")
+        normalized = _normalized_key(key)
+        if _normalized_key_has_protected_occurrence(
+            normalized,
+            _BLIND_FORECAST_COMPONENTS,
+        ):
+            raise ValueError("forecast payload contains blinded metadata")
+
+
+def _validate_payload(value: Any, name: str) -> dict[str, Json]:
+    if type(value) is not dict:
+        _type_error(f"{name} must be a dictionary")
+    try:
+        captured = _bounded_json_snapshot(value)
+    except (TypeError, ValueError, OverflowError, RecursionError) as error:
+        raise ValueError("request payload exceeds limits") from error
+    if type(captured) is not dict:
+        raise ValueError("request payload snapshot is invalid")
+    _assert_no_c3(captured, allow_structural_cues=False)
+    _assert_no_result_fields(captured)
+    _assert_no_later_scope_fields(captured)
+    _assert_no_actor_metadata_fields(captured)
+    _assert_no_logical_call_reference_fields(captured)
+    _assert_no_mixed_script_identifier_keys(captured)
+    _assert_no_sensitive_assignments(captured)
+    return captured
+
+
+def _detached(value: dict[str, Json]) -> dict[str, Json]:
+    detached = _bounded_json_snapshot(value)
+    if type(detached) is not dict:
+        raise ValueError("detached payload is not an object")
+    return detached
+
+
+def _checked_actor_payload(
+    value: dict[str, Json], *, primary: bool = False
+) -> dict[str, Json]:
+    captured = _validate_payload(value, "request_payload")
+    _assert_actor_policy_safe(captured)
+    _assert_no_identity_fields(captured)
+    _assert_no_actor_visible_metadata_fields(captured, primary=primary)
+    return captured
+
+
+def _checked_forecast_payload(value: dict[str, Json]) -> dict[str, Json]:
+    captured = _checked_actor_payload(value)
+    _assert_blind_forecast(captured)
+    return captured
+
+
+def _validate_variant(variant: Any) -> CueVariant:
+    if type(variant) is not CueVariant:
+        _type_error("variants must contain CueVariant values")
+    _assert_no_c3(variant)
+    if type(variant.cue) is not str or variant.cue not in _CUES:
+        raise ValueError("invalid cue")
+    _strict_string(variant.cue_surface, "cue_surface")
+    if _CUE_LABEL.search(_label_policy_text(variant.cue_surface)):
+        raise ValueError("cue_surface exposes an internal cue label")
+    _strict_string(variant.shared_body, "shared_body")
+    for name in (
+        "task_semantics_sha256",
+        "answer_semantics_sha256",
+        "tool_schema_sha256",
+        "response_schema_sha256",
+    ):
+        value = getattr(variant, name)
+        if type(value) is not str or _HASH.fullmatch(value) is None:
+            raise ValueError(f"{name} must be lowercase SHA-256")
+    if type(variant.decoding) is not dict:
+        _type_error("decoding must be a dictionary")
+    decoding = _bounded_json_snapshot(variant.decoding)
+    if type(decoding) is not dict:
+        raise ValueError("decoding snapshot is invalid")
+    if type(variant.semantic_response_tokens) is not tuple:
+        _type_error("semantic_response_tokens must be a tuple")
+    if not variant.semantic_response_tokens:
+        raise ValueError("semantic_response_tokens must be nonempty")
+    for token in variant.semantic_response_tokens:
+        _strict_string(token, "semantic response token")
+    return replace(variant, decoding=decoding)
+
+
+def _validate_episode(episode: Any) -> DevelopmentEpisode:
+    if type(episode) is not DevelopmentEpisode:
+        _type_error("episodes must contain DevelopmentEpisode values")
+    _assert_no_c3_fields(
+        episode,
+        excluded=frozenset(
+            {"forecast_payload", "probe_payload", "variants"}
+        ),
+    )
+    _strict_identifier(episode.episode_id, "episode_id")
+    if type(episode.role) is not str or episode.role not in _ROLES:
+        raise ValueError("invalid episode role")
+    forecast_payload = _validate_payload(
+        episode.forecast_payload, "forecast_payload"
+    )
+    probe_payload = _validate_payload(episode.probe_payload, "probe_payload")
+    _assert_no_identity_fields(probe_payload)
+    if type(episode.variants) is not tuple:
+        _type_error("variants must be a tuple")
+    if len(episode.variants) != 3:
+        raise ValueError("each episode must have exactly three variants")
+    variants = tuple(_validate_variant(variant) for variant in episode.variants)
+    by_cue = {variant.cue: variant for variant in variants}
+    if len(by_cue) != 3 or set(by_cue) != set(_CUES):
+        raise ValueError("variants must contain exactly C0, C1, and C2")
+
+    ordered = tuple(by_cue[cue] for cue in _CUES)
+    baseline = ordered[0]
+    invariant_names = (
+        "task_semantics_sha256",
+        "answer_semantics_sha256",
+        "tool_schema_sha256",
+        "response_schema_sha256",
+        "semantic_response_tokens",
+    )
+    baseline_body = baseline.shared_body.encode("utf-8")
+    baseline_decoding = canonical_json_bytes(baseline.decoding)
+    for variant in ordered[1:]:
+        if variant.shared_body.encode("utf-8") != baseline_body:
+            raise ValueError("cue variants change the shared body")
+        for name in invariant_names:
+            if getattr(variant, name) != getattr(baseline, name):
+                raise ValueError(f"cue variants change {name}")
+        if canonical_json_bytes(variant.decoding) != baseline_decoding:
+            raise ValueError("cue variants change decoding")
+    surfaces = [variant.cue_surface for variant in ordered]
+    if len({_policy_text(surface) for surface in surfaces}) != 3:
+        raise ValueError("cue surfaces must be distinct")
+    return replace(
+        episode,
+        forecast_payload=forecast_payload,
+        probe_payload=probe_payload,
+        variants=variants,
+    )
+
+
+def _validate_pack(pack: Any) -> DevelopmentPack:
+    if type(pack) is not DevelopmentPack:
+        _type_error("pack must be a DevelopmentPack")
+    _assert_no_c3_fields(pack, excluded=frozenset({"episodes"}))
+    if type(pack.module) is not str or pack.module not in _MODULES:
+        raise ValueError("invalid module")
+    if type(pack.episodes) is not tuple:
+        _type_error("episodes must be a tuple")
+    if len(pack.episodes) != 12:
+        raise ValueError("development pack must contain exactly 12 episodes")
+    episodes = tuple(_validate_episode(episode) for episode in pack.episodes)
+    episode_ids = [episode.episode_id for episode in episodes]
+    if len(set(episode_ids)) != len(episode_ids):
+        raise ValueError("episode IDs must be unique")
+    episode_collision_keys = [
+        _identifier_collision_key(identifier) for identifier in episode_ids
+    ]
+    if len(set(episode_collision_keys)) != len(episode_collision_keys):
+        raise ValueError("episode IDs have an NFKC/casefold collision")
+    if Counter(episode.role for episode in episodes) != Counter(
+        {"target": 4, "null": 4, "restraint": 4}
+    ):
+        raise ValueError("development roles must be balanced 4/4/4")
+    return replace(pack, episodes=episodes)
+
+
+def _validate_actor_ids(actor_ids: Any) -> tuple[str, ...]:
+    if type(actor_ids) is not tuple:
+        _type_error("actor_ids must be a tuple")
+    if len(actor_ids) != 4:
+        raise ValueError("exactly four actor IDs are required")
+    for actor_id in actor_ids:
+        _strict_identifier(actor_id, "actor_id")
+    if len(set(actor_ids)) != 4:
+        raise ValueError("actor IDs must be unique")
+    actor_collision_keys = [
+        _identifier_collision_key(identifier) for identifier in actor_ids
+    ]
+    if len(set(actor_collision_keys)) != len(actor_collision_keys):
+        raise ValueError("actor IDs have an NFKC/casefold collision")
+    return tuple(sorted(actor_ids))
+
+
+def _bundle_id(
+    *,
+    seed: int,
+    actor_id: str,
+    module: str,
+    episode_id: str,
+    role: str,
+    logical_call_ids: tuple[str, ...],
+) -> str:
+    material: dict[str, Json] = {
+        "domain": "biblebench.bundle.v1",
+        "seed": seed,
+        "actor_id": actor_id,
+        "module": module,
+        "episode_id": episode_id,
+        "role": role,
+        "logical_call_ids": list(logical_call_ids),
+    }
+    return canonical_sha256(material)[:16]
+
+
+def _logical_call_id(
+    *,
+    seed: int,
+    actor_id: str,
+    module: str,
+    episode_id: str,
+    role: str,
+    call_kind: str,
+    cue: str | None,
+    presentation_position: int,
+    primary_logical_call_id: str | None,
+    request_payload: dict[str, Json],
+) -> str:
+    material: dict[str, Json] = {
+        "domain": "biblebench.logical_call.v1",
+        "seed": seed,
+        "actor_id": actor_id,
+        "module": module,
+        "episode_id": episode_id,
+        "role": role,
+        "call_kind": call_kind,
+        "cue": cue,
+        "presentation_position": presentation_position,
+        "primary_logical_call_id": primary_logical_call_id,
+        "request_payload_sha256": canonical_sha256(request_payload),
+    }
+    return canonical_sha256(material)[:16]
+
+
+def _new_call(
+    *,
+    seed: int,
+    actor_id: str,
+    module: str,
+    episode_id: str,
+    role: str,
+    call_kind: Literal["forecast", "primary", "probe"],
+    cue: Literal["C0", "C1", "C2"] | None,
+    presentation_position: int,
+    primary_logical_call_id: str | None,
+    request_payload: dict[str, Json],
+) -> LogicalCall:
+    return LogicalCall(
+        logical_call_id=_logical_call_id(
+            seed=seed,
+            actor_id=actor_id,
+            module=module,
+            episode_id=episode_id,
+            role=role,
+            call_kind=call_kind,
+            cue=cue,
+            presentation_position=presentation_position,
+            primary_logical_call_id=primary_logical_call_id,
+            request_payload=request_payload,
+        ),
+        bundle_id="",
+        actor_id=actor_id,
+        module=module,
+        episode_id=episode_id,
+        role=role,
+        call_kind=call_kind,
+        cue=cue,
+        presentation_position=presentation_position,
+        primary_logical_call_id=primary_logical_call_id,
+        request_payload=request_payload,
+    )
+
+
+def compile_schedule(
+    pack: DevelopmentPack,
+    actor_ids: tuple[str, ...],
+    seed: int,
+) -> Schedule:
+    pack = _validate_pack(pack)
+    actors = _validate_actor_ids(actor_ids)
+    if type(seed) is not int:
+        _type_error("seed must be an integer")
+
+    episodes = tuple(sorted(pack.episodes, key=lambda episode: episode.episode_id))
+    actor_index = {actor: index for index, actor in enumerate(actors)}
+    role_index = {role: index for index, role in enumerate(_ROLES)}
+    role_seen: Counter[str] = Counter()
+    role_ordinal: dict[str, int] = {}
+    for episode in episodes:
+        role_ordinal[episode.episode_id] = role_seen[episode.role]
+        role_seen[episode.role] += 1
+    bundles: list[EvidenceBundlePlan] = []
+    logical_calls: list[LogicalCall] = []
+
+    for episode_index, episode in enumerate(episodes):
+        actor_offset = (seed + episode_index) % len(actors)
+        actor_order = actors[actor_offset:] + actors[:actor_offset]
+        variants = {variant.cue: variant for variant in episode.variants}
+        for actor_id in actor_order:
+            bundle_calls: list[LogicalCall] = []
+            forecast = _new_call(
+                seed=seed,
+                actor_id=actor_id,
+                module=pack.module,
+                episode_id=episode.episode_id,
+                role=episode.role,
+                call_kind="forecast",
+                cue=None,
+                presentation_position=-1,
+                primary_logical_call_id=None,
+                request_payload=_checked_forecast_payload(
+                    episode.forecast_payload
+                ),
+            )
+            bundle_calls.append(forecast)
+
+            cue_offset = (
+                seed
+                + actor_index[actor_id]
+                + role_index[episode.role]
+                + role_ordinal[episode.episode_id]
+            ) % 3
+            cue_order = _CUES[cue_offset:] + _CUES[:cue_offset]
+            for position, cue in enumerate(cue_order):
+                variant = variants[cue]
+                primary_payload: dict[str, Json] = {
+                    "shared_body": variant.shared_body,
+                    "cue_surface": variant.cue_surface,
+                    "semantic_response_tokens": list(variant.semantic_response_tokens),
+                }
+                primary = _new_call(
+                    seed=seed,
+                    actor_id=actor_id,
+                    module=pack.module,
+                    episode_id=episode.episode_id,
+                    role=episode.role,
+                    call_kind="primary",
+                    cue=cue,
+                    presentation_position=position,
+                    primary_logical_call_id=None,
+                    request_payload=_checked_actor_payload(
+                        primary_payload, primary=True
+                    ),
+                )
+                probe_payload = _checked_actor_payload(
+                    episode.probe_payload
+                )
+                _assert_payload_hides_generated_ids(
+                    probe_payload,
+                    frozenset({primary.logical_call_id}),
+                )
+                probe = _new_call(
+                    seed=seed,
+                    actor_id=actor_id,
+                    module=pack.module,
+                    episode_id=episode.episode_id,
+                    role=episode.role,
+                    call_kind="probe",
+                    cue=cue,
+                    presentation_position=position,
+                    primary_logical_call_id=primary.logical_call_id,
+                    request_payload=probe_payload,
+                )
+                bundle_calls.extend((primary, probe))
+
+            logical_call_ids = tuple(
+                row.logical_call_id for row in bundle_calls
+            )
+            bundle_id = _bundle_id(
+                seed=seed,
+                actor_id=actor_id,
+                module=pack.module,
+                episode_id=episode.episode_id,
+                role=episode.role,
+                logical_call_ids=logical_call_ids,
+            )
+            bundle_calls = [
+                replace(row, bundle_id=bundle_id) for row in bundle_calls
+            ]
+            bundles.append(
+                EvidenceBundlePlan(
+                    bundle_id=bundle_id,
+                    actor_id=actor_id,
+                    module=pack.module,
+                    episode_id=episode.episode_id,
+                    role=episode.role,
+                    logical_call_ids=logical_call_ids,
+                )
+            )
+            logical_calls.extend(bundle_calls)
+
+    schedule = Schedule(seed=seed, bundles=tuple(bundles), logical_calls=tuple(logical_calls))
+    schedule.assert_counterbalanced()
+    return schedule
+
+
+def _bundle_json(bundle: EvidenceBundlePlan) -> dict[str, Json]:
+    return {
+        "bundle_id": bundle.bundle_id,
+        "actor_id": bundle.actor_id,
+        "module": bundle.module,
+        "episode_id": bundle.episode_id,
+        "role": bundle.role,
+        "logical_call_ids": list(bundle.logical_call_ids),
+    }
+
+
+def _call_json(row: LogicalCall) -> dict[str, Json]:
+    return {
+        "logical_call_id": row.logical_call_id,
+        "bundle_id": row.bundle_id,
+        "actor_id": row.actor_id,
+        "module": row.module,
+        "episode_id": row.episode_id,
+        "role": row.role,
+        "call_kind": row.call_kind,
+        "cue": row.cue,
+        "presentation_position": row.presentation_position,
+        "primary_logical_call_id": row.primary_logical_call_id,
+        "request_payload": row.request_payload,
+    }
+
+
+def _validate_scheduled_bundle(bundle: Any) -> EvidenceBundlePlan:
+    if type(bundle) is not EvidenceBundlePlan:
+        _type_error("schedule bundles must be EvidenceBundlePlan values")
+    for name in ("bundle_id", "module", "role"):
+        _strict_string(getattr(bundle, name), name)
+    _strict_identifier(bundle.actor_id, "actor_id")
+    _strict_identifier(bundle.episode_id, "episode_id")
+    if _ID.fullmatch(bundle.bundle_id) is None:
+        raise ValueError("invalid bundle ID")
+    if bundle.module not in _MODULES or bundle.role not in _ROLES:
+        raise ValueError("invalid bundle metadata")
+    if type(bundle.logical_call_ids) is not tuple or len(bundle.logical_call_ids) != 7:
+        raise ValueError("bundle must name exactly seven logical calls")
+    if any(
+        type(identifier) is not str or _ID.fullmatch(identifier) is None
+        for identifier in bundle.logical_call_ids
+    ):
+        raise ValueError("invalid bundled logical call ID")
+    return bundle
+
+
+def _validate_scheduled_call(row: Any) -> LogicalCall:
+    if type(row) is not LogicalCall:
+        _type_error("schedule calls must be LogicalCall values")
+    for name in ("logical_call_id", "bundle_id", "module", "role"):
+        _strict_string(getattr(row, name), name)
+    _strict_identifier(row.actor_id, "actor_id")
+    _strict_identifier(row.episode_id, "episode_id")
+    if _ID.fullmatch(row.logical_call_id) is None or _ID.fullmatch(row.bundle_id) is None:
+        raise ValueError("invalid logical call ID")
+    if row.module not in _MODULES or row.role not in _ROLES:
+        raise ValueError("invalid logical call metadata")
+    if type(row.call_kind) is not str or row.call_kind not in {"forecast", "primary", "probe"}:
+        raise ValueError("invalid call kind")
+    if row.cue is not None and (type(row.cue) is not str or row.cue not in _CUES):
+        raise ValueError("invalid scheduled cue")
+    if type(row.presentation_position) is not int:
+        _type_error("presentation position must be an integer")
+    if row.call_kind == "probe":
+        if (
+            type(row.primary_logical_call_id) is not str
+            or _ID.fullmatch(row.primary_logical_call_id) is None
+        ):
+            raise ValueError("probe must name one primary logical call")
+    elif row.primary_logical_call_id is not None:
+        raise ValueError("only probes may name a primary logical call")
+    if row.call_kind == "forecast":
+        request_payload = _checked_forecast_payload(row.request_payload)
+    elif row.call_kind == "primary":
+        request_payload = _checked_actor_payload(
+            row.request_payload, primary=True
+        )
+    else:
+        request_payload = _checked_actor_payload(row.request_payload)
+    return replace(row, request_payload=request_payload)
+
+
+def _assert_call_identity(row: LogicalCall, bundle: EvidenceBundlePlan, seed: int) -> None:
+    if (
+        row.bundle_id,
+        row.actor_id,
+        row.module,
+        row.episode_id,
+        row.role,
+    ) != (
+        bundle.bundle_id,
+        bundle.actor_id,
+        bundle.module,
+        bundle.episode_id,
+        bundle.role,
+    ):
+        raise ValueError("logical call metadata does not match its bundle")
+    expected = _logical_call_id(
+        seed=seed,
+        actor_id=row.actor_id,
+        module=row.module,
+        episode_id=row.episode_id,
+        role=row.role,
+        call_kind=row.call_kind,
+        cue=row.cue,
+        presentation_position=row.presentation_position,
+        primary_logical_call_id=row.primary_logical_call_id,
+        request_payload=row.request_payload,
+    )
+    if row.logical_call_id != expected:
+        raise ValueError("logical call ID does not match its identity")
+
+
+def _assert_primary_payload(payload: dict[str, Json]) -> None:
+    if set(payload) != {"shared_body", "cue_surface", "semantic_response_tokens"}:
+        raise ValueError("primary request payload has unexpected fields")
+    _strict_string(payload["shared_body"], "shared_body")
+    _strict_string(payload["cue_surface"], "cue_surface")
+    if _CUE_LABEL.search(_label_policy_text(payload["cue_surface"])):
+        raise ValueError("primary request exposes an internal cue label")
+    tokens = payload["semantic_response_tokens"]
+    if type(tokens) is not list or not tokens:
+        raise ValueError("primary semantic response tokens must be a nonempty list")
+    for token in tokens:
+        _strict_string(token, "semantic response token")
+
+
+def _assert_detached_call_payloads(calls: tuple[LogicalCall, ...]) -> None:
+    seen: set[int] = set()
+
+    def visit(value: Json) -> None:
+        if type(value) not in {dict, list}:
+            return
+        identifier = id(value)
+        if identifier in seen:
+            raise ValueError("logical call payloads must not share mutable aliases")
+        seen.add(identifier)
+        children = value.values() if type(value) is dict else value
+        for child in children:
+            visit(child)
+
+    for row in calls:
+        visit(row.request_payload)
+
+
+def _record_cross_actor_semantics(
+    baselines: dict[str | tuple[str, str], tuple[bytes, int]],
+    key: str | tuple[str, str],
+    payload: dict[str, Json],
+    message: str,
+) -> None:
+    encoded = canonical_json_bytes(payload)
+    prior = baselines.get(key)
+    if prior is None:
+        baselines[key] = (encoded, 1)
+        return
+    prior_bytes, count = prior
+    if encoded != prior_bytes:
+        raise ValueError(message)
+    baselines[key] = (prior_bytes, count + 1)
+
+
+def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
+    if type(schedule) is not Schedule:
+        _type_error("value must be a Schedule")
+    if type(schedule.seed) is not int:
+        _type_error("schedule seed must be an integer")
+    if type(schedule.bundles) is not tuple or type(schedule.logical_calls) is not tuple:
+        _type_error("schedule collections must be tuples")
+    if len(schedule.bundles) != 48 or len(schedule.logical_calls) != 336:
+        raise ValueError("schedule must contain 48 bundles and 336 logical calls")
+    _assert_no_c3(schedule.seed)
+    _assert_no_c3(schedule.bundles)
+    for row in schedule.logical_calls:
+        _assert_no_c3_fields(
+            row, excluded=frozenset({"request_payload"})
+        )
+
+    bundles = tuple(_validate_scheduled_bundle(bundle) for bundle in schedule.bundles)
+    calls = tuple(_validate_scheduled_call(row) for row in schedule.logical_calls)
+    generated_ids = frozenset(
+        [bundle.bundle_id for bundle in bundles]
+        + [row.logical_call_id for row in calls]
+    )
+    for row in calls:
+        _assert_payload_hides_generated_ids(
+            row.request_payload, generated_ids
+        )
+    _assert_detached_call_payloads(calls)
+    actors = tuple(sorted({bundle.actor_id for bundle in bundles}))
+    episodes = tuple(sorted({bundle.episode_id for bundle in bundles}))
+    modules = {bundle.module for bundle in bundles}
+    if len(actors) != 4 or len(episodes) != 12 or len(modules) != 1:
+        raise ValueError("schedule has invalid actor, episode, or module membership")
+    if len({_identifier_collision_key(actor) for actor in actors}) != 4:
+        raise ValueError("actor IDs have an NFKC/casefold collision")
+    if len({_identifier_collision_key(episode) for episode in episodes}) != 12:
+        raise ValueError("episode IDs have an NFKC/casefold collision")
+    if len({(bundle.actor_id, bundle.episode_id) for bundle in bundles}) != 48:
+        raise ValueError("actor/episode bundles must be unique")
+
+    episode_roles: dict[str, str] = {}
+    for bundle in bundles:
+        prior = episode_roles.setdefault(bundle.episode_id, bundle.role)
+        if prior != bundle.role:
+            raise ValueError("episode role changes across actors")
+    if Counter(episode_roles.values()) != Counter({"target": 4, "null": 4, "restraint": 4}):
+        raise ValueError("episode roles are not balanced")
+
+    expected_pairs: list[tuple[str, str]] = []
+    for episode_index, episode_id in enumerate(episodes):
+        actor_offset = (schedule.seed + episode_index) % 4
+        actor_order = actors[actor_offset:] + actors[:actor_offset]
+        expected_pairs.extend((actor, episode_id) for actor in actor_order)
+    if [(bundle.actor_id, bundle.episode_id) for bundle in bundles] != expected_pairs:
+        raise ValueError("global bundle order is not counterbalanced")
+
+    actor_index = {actor: index for index, actor in enumerate(actors)}
+    role_index = {role: index for index, role in enumerate(_ROLES)}
+    role_seen: Counter[str] = Counter()
+    role_ordinal: dict[str, int] = {}
+    for episode_id in episodes:
+        role = episode_roles[episode_id]
+        role_ordinal[episode_id] = role_seen[role]
+        role_seen[role] += 1
+    cue_position_counts: Counter[tuple[str, int, str]] = Counter()
+    role_position_counts: Counter[tuple[str, str, int, str]] = Counter()
+    all_ids = [bundle.bundle_id for bundle in bundles]
+    forecast_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
+    primary_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
+    probe_semantics: dict[str | tuple[str, str], tuple[bytes, int]] = {}
+
+    for bundle_number, bundle in enumerate(bundles):
+        bundle_calls = calls[bundle_number * 7 : (bundle_number + 1) * 7]
+        if bundle.logical_call_ids != tuple(row.logical_call_id for row in bundle_calls):
+            raise ValueError("bundle logical call IDs do not match global call order")
+        expected_bundle_id = _bundle_id(
+            seed=schedule.seed,
+            actor_id=bundle.actor_id,
+            module=bundle.module,
+            episode_id=bundle.episode_id,
+            role=bundle.role,
+            logical_call_ids=bundle.logical_call_ids,
+        )
+        if bundle.bundle_id != expected_bundle_id:
+            raise ValueError("bundle ID does not match its identity")
+        for row in bundle_calls:
+            _assert_call_identity(row, bundle, schedule.seed)
+            all_ids.append(row.logical_call_id)
+
+        forecast = bundle_calls[0]
+        if (
+            forecast.call_kind != "forecast"
+            or forecast.cue is not None
+            or forecast.presentation_position != -1
+        ):
+            raise ValueError("forecast must be first and condition independent")
+        _record_cross_actor_semantics(
+            forecast_semantics,
+            bundle.episode_id,
+            forecast.request_payload,
+            "forecast semantics change across actors",
+        )
+
+        cue_offset = (
+            schedule.seed
+            + actor_index[bundle.actor_id]
+            + role_index[bundle.role]
+            + role_ordinal[bundle.episode_id]
+        ) % 3
+        cue_order = _CUES[cue_offset:] + _CUES[:cue_offset]
+        bodies: list[str] = []
+        token_sequences: list[tuple[str, ...]] = []
+        surfaces: list[str] = []
+        for position, cue in enumerate(cue_order):
+            primary = bundle_calls[1 + position * 2]
+            probe = bundle_calls[2 + position * 2]
+            if (
+                primary.call_kind != "primary"
+                or probe.call_kind != "probe"
+                or primary.cue != cue
+                or probe.cue != cue
+                or primary.presentation_position != position
+                or probe.presentation_position != position
+            ):
+                raise ValueError("primary/probe sequence is not counterbalanced")
+            _assert_primary_payload(primary.request_payload)
+            _assert_no_identity_fields(probe.request_payload)
+            if probe.primary_logical_call_id != primary.logical_call_id:
+                raise ValueError("probe does not reference its immediately preceding primary")
+            semantic_key = (bundle.episode_id, cue)
+            _record_cross_actor_semantics(
+                primary_semantics,
+                semantic_key,
+                primary.request_payload,
+                "primary semantics change across actors",
+            )
+            _record_cross_actor_semantics(
+                probe_semantics,
+                bundle.episode_id,
+                probe.request_payload,
+                "probe semantics change across actors",
+            )
+            bodies.append(primary.request_payload["shared_body"])
+            surfaces.append(primary.request_payload["cue_surface"])
+            token_sequences.append(tuple(primary.request_payload["semantic_response_tokens"]))
+            cue_position_counts[(bundle.actor_id, position, cue)] += 1
+            role_position_counts[
+                (bundle.actor_id, bundle.role, position, cue)
+            ] += 1
+        if (
+            len(set(bodies)) != 1
+            or len(set(token_sequences)) != 1
+            or len({_policy_text(surface) for surface in surfaces}) != 3
+        ):
+            raise ValueError("condition payload semantics are not invariant")
+
+    if (
+        len(forecast_semantics) != 12
+        or len(primary_semantics) != 36
+        or len(probe_semantics) != 12
+        or any(count != 4 for _, count in forecast_semantics.values())
+        or any(count != 4 for _, count in primary_semantics.values())
+        or any(count != 12 for _, count in probe_semantics.values())
+    ):
+        raise ValueError("actor-visible semantics are not complete across actors")
+
+    if len(all_ids) != len(set(all_ids)):
+        raise ValueError("schedule identifiers must be globally unique")
+    for actor in actors:
+        for position in range(3):
+            for cue in _CUES:
+                if cue_position_counts[(actor, position, cue)] != 4:
+                    raise ValueError("cue positions are not balanced within actor")
+            for role in _ROLES:
+                counts = [
+                    role_position_counts[(actor, role, position, cue)]
+                    for cue in _CUES
+                ]
+                if max(counts) - min(counts) > 1 or max(counts) == 4:
+                    raise ValueError("cue positions are not balanced within role")

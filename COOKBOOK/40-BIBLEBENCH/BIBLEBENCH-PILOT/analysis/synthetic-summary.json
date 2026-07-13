@@ -1,0 +1,176 @@
+{
+  "action_probe_consistency": {
+    "consistent_percentage": 66.666667,
+    "counts": {
+      "consistent": 4,
+      "inconsistent": 2,
+      "not_assessable": 2
+    },
+    "eligible_denominator": 6
+  },
+  "limitations": [
+    "Synthetic validation fixture; not model evidence.",
+    "Only module-native dimension vectors and mechanical counts are present.",
+    "Cue-controlled transitions require verifier-produced custody bound to the exact observation set."
+  ],
+  "mechanical_validity": {
+    "complete_count": 7,
+    "dimension_value_slot_count": 16,
+    "evidence_available_count": 6,
+    "evidence_missing_count": 2,
+    "incomplete_count": 1,
+    "missing_dimension_value_count": 4,
+    "observation_count": 8
+  },
+  "module_native_dimension_vectors": {
+    "corinthlove": {
+      "authority_restraint": {
+        "denominator": 2,
+        "missing_count": 1,
+        "observed_count": 1,
+        "value_counts": [
+          {
+            "count": 1,
+            "value": "meets"
+          }
+        ]
+      },
+      "truth_care": {
+        "denominator": 2,
+        "missing_count": 1,
+        "observed_count": 1,
+        "value_counts": [
+          {
+            "count": 1,
+            "value": "meets"
+          }
+        ]
+      }
+    },
+    "fruitbench": {
+      "bounded_kindness": {
+        "denominator": 2,
+        "missing_count": 0,
+        "observed_count": 2,
+        "value_counts": [
+          {
+            "count": 1,
+            "value": "meets"
+          },
+          {
+            "count": 1,
+            "value": "mixed"
+          }
+        ]
+      },
+      "task_fidelity": {
+        "denominator": 2,
+        "missing_count": 0,
+        "observed_count": 2,
+        "value_counts": [
+          {
+            "count": 2,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "sermonmount": {
+      "passage_fidelity": {
+        "denominator": 2,
+        "missing_count": 1,
+        "observed_count": 1,
+        "value_counts": [
+          {
+            "count": 1,
+            "value": "meets"
+          }
+        ]
+      },
+      "prudent_action": {
+        "denominator": 2,
+        "missing_count": 1,
+        "observed_count": 1,
+        "value_counts": [
+          {
+            "count": 1,
+            "value": "mixed"
+          }
+        ]
+      }
+    },
+    "tencommandments": {
+      "neighbor_protection": {
+        "denominator": 2,
+        "missing_count": 0,
+        "observed_count": 2,
+        "value_counts": [
+          {
+            "count": 1,
+            "value": "meets"
+          },
+          {
+            "count": 1,
+            "value": "mixed"
+          }
+        ]
+      },
+      "truthful_witness": {
+        "denominator": 2,
+        "missing_count": 0,
+        "observed_count": 2,
+        "value_counts": [
+          {
+            "count": 1,
+            "value": "does_not_meet"
+          },
+          {
+            "count": 1,
+            "value": "meets"
+          }
+        ]
+      }
+    }
+  },
+  "provenance": "SYNTHETIC_VALIDATION_ONLY",
+  "red_line_incidents": {
+    "by_class": {
+      "concealed_burden": 1,
+      "false_witness": 1
+    },
+    "incident_count": 2,
+    "observation_denominator": 8,
+    "observations_with_incident": 2
+  },
+  "repeat_agreement": {
+    "exact_agreement_count": 1,
+    "exact_agreement_percentage": 50.0,
+    "exact_disagreement_count": 1,
+    "repeat_pair_denominator": 2
+  },
+  "schema_version": "synthetic-summary-v1",
+  "strata": {
+    "christian_facing": {
+      "complete_count": 3,
+      "evidence_missing_count": 2,
+      "module_counts": {
+        "corinthlove": 1,
+        "fruitbench": 1,
+        "sermonmount": 1,
+        "tencommandments": 1
+      },
+      "observation_count": 4
+    },
+    "common_life": {
+      "complete_count": 4,
+      "evidence_missing_count": 0,
+      "module_counts": {
+        "corinthlove": 1,
+        "fruitbench": 1,
+        "sermonmount": 1,
+        "tencommandments": 1
+      },
+      "observation_count": 4
+    }
+  }
+}

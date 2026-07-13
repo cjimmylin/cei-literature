@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biblebench.local/schemas/mvp-owner-record.schema.json",
+  "title": "PF-002 externally anchored owner approval record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "owner_record_version", "owner_record_id", "status", "owner",
+    "approval_reference", "approved_on", "expires_on",
+    "proposal_manifest_sha256", "authorization_sha256", "run_id",
+    "authorization_nonce", "not_to_exceed_usd",
+    "owner_record_schema_sha256"
+  ],
+  "properties": {
+    "owner_record_version": {"const": "pf002-owner-record-v1"},
+    "owner_record_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{7,127}$"},
+    "status": {"const": "APPROVED"},
+    "owner": {"const": "Jimmy Lin"},
+    "approval_reference": {"type": "string", "minLength": 8},
+    "approved_on": {"type": "string", "format": "date"},
+    "expires_on": {"type": "string", "format": "date"},
+    "proposal_manifest_sha256": {"$ref": "#/$defs/hash"},
+    "authorization_sha256": {"$ref": "#/$defs/hash"},
+    "run_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{7,127}$"},
+    "authorization_nonce": {"$ref": "#/$defs/hash"},
+    "not_to_exceed_usd": {"const": 5},
+    "owner_record_schema_sha256": {"$ref": "#/$defs/hash"}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

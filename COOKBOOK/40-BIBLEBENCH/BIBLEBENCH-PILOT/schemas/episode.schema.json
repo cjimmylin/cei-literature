@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BibleBench Pilot Episode Reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "episode_id",
+    "core_id",
+    "split",
+    "stratum",
+    "mode",
+    "transform_ids",
+    "capability_twin_id",
+    "actor_payload_sha256"
+  ],
+  "properties": {
+    "episode_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "core_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "split": {
+      "enum": ["public_calibration", "private_evaluation"]
+    },
+    "stratum": {
+      "enum": ["common_life", "christian_facing"]
+    },
+    "mode": {
+      "enum": ["judgment", "advice", "action"]
+    },
+    "transform_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "capability_twin_id": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "actor_payload_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BibleBench Frozen Observable Evidence",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "status",
+    "missing_evidence",
+    "segments",
+    "sandbox_evidence",
+    "events",
+    "response_sha256",
+    "probe_sha256",
+    "sandbox_log_sha256",
+    "segment_table_sha256",
+    "event_record_sha256",
+    "evidence_bundle_sha256"
+  ],
+  "properties": {
+    "version": {
+      "const": "event-v1"
+    },
+    "status": {
+      "enum": ["COMPLETE", "INCOMPLETE_EVIDENCE"]
+    },
+    "missing_evidence": {
+      "type": "array",
+      "maxItems": 4,
+      "uniqueItems": true,
+      "enum": [
+        [],
+        ["response"],
+        ["probe"],
+        ["sandbox_log"],
+        ["observable_events"],
+        ["response", "probe"],
+        ["response", "sandbox_log"],
+        ["response", "observable_events"],
+        ["probe", "sandbox_log"],
+        ["probe", "observable_events"],
+        ["sandbox_log", "observable_events"],
+        ["response", "probe", "sandbox_log"],
+        ["response", "probe", "observable_events"],
+        ["response", "sandbox_log", "observable_events"],
+        ["probe", "sandbox_log", "observable_events"],
+        ["response", "probe", "sandbox_log", "observable_events"]
+      ],
+      "items": {
+        "enum": ["response", "probe", "sandbox_log", "observable_events"]
+      }
+    },
+    "segments": {
+      "type": "array",
+      "maxItems": 999,
+      "items": {
+        "$ref": "#/$defs/segment"
+      }
+    },
+    "sandbox_evidence": {
+      "type": "array",
+      "maxItems": 999,
+      "items": {
+        "$ref": "#/$defs/sandboxEvidence"
+      }
+    },
+    "events": {
+      "type": "array",
+      "maxItems": 256,
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "response_sha256": {
+      "$ref": "#/$defs/hashOrNull"
+    },
+    "probe_sha256": {
+      "$ref": "#/$defs/hashOrNull"
+    },
+    "sandbox_log_sha256": {
+      "$ref": "#/$defs/hashOrNull"
+    },
+    "segment_table_sha256": {
+      "$ref": "#/$defs/hash"
+    },
+    "event_record_sha256": {
+      "$ref": "#/$defs/hash"
+    },
+    "evidence_bundle_sha256": {
+      "$ref": "#/$defs/hash"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "COMPLETE"
+          }
+        },
+        "required": ["status"]
+      },
+      "then": {
+        "properties": {
+          "missing_evidence": {
+            "maxItems": 0
+          },
+          "events": {
+            "minItems": 1
+          },
+          "response_sha256": {
+            "$ref": "#/$defs/hash"
+          },
+          "probe_sha256": {
+            "$ref": "#/$defs/hash"
+          },
+          "sandbox_log_sha256": {
+            "$ref": "#/$defs/hash"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "missing_evidence": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "missing_evidence": {
+            "contains": {
+              "const": "response"
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "response_sha256": {
+            "type": "null"
+          },
+          "segments": {
+            "not": {
+              "contains": {
+                "type": "object",
+                "properties": {
+                  "source": {
+                    "const": "response"
+                  }
+                },
+                "required": ["source"]
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "response_sha256": {
+            "$ref": "#/$defs/hash"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "missing_evidence": {
+            "contains": {
+              "const": "probe"
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "probe_sha256": {
+            "type": "null"
+          },
+          "segments": {
+            "not": {
+              "contains": {
+                "type": "object",
+                "properties": {
+                  "source": {
+                    "const": "probe"
+                  }
+                },
+                "required": ["source"]
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "probe_sha256": {
+            "$ref": "#/$defs/hash"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "missing_evidence": {
+            "contains": {
+              "const": "sandbox_log"
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "sandbox_log_sha256": {
+            "type": "null"
+          },
+          "sandbox_evidence": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "sandbox_log_sha256": {
+            "$ref": "#/$defs/hash"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "missing_evidence": {
+            "contains": {
+              "const": "observable_events"
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "events": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "events": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "hashOrNull": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/hash"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "actionId": {
+      "type": "string",
+      "pattern": "^(?!(?:[a-z0-9]+_)*(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|golds?|expected|privates?|lens(?:es)?|scorers?|forecasts?|canar(?:y|ies)|judges?|rubrics?|groundtruth)(?:_|$))(?!(?:[a-z0-9]+_)*(?:(?:actors?|models?|providers?|routes?|cues?|conditions?|modules?|cores?|schedules?|bundles?|episodes?|roles?|golds?|expected|privates?|lens(?:es)?|scorers?|forecasts?|canar(?:y|ies)|judges?|rubrics?|groundtruth)(?:ids?|identit(?:y|ies)|names?|labels?|scores?|results?|values?|cop(?:y|ies)|types?|keys?|tokens?|targets?|routes?|models?|roles?))(?:_|$))(?!(?:[a-z0-9]+_)*ground_truth(?:_|$))[a-z][a-z0-9_]{0,63}$"
+    },
+    "evidenceId": {
+      "type": "string",
+      "pattern": "^[SE](00[1-9]|0[1-9][0-9]|[1-9][0-9]{2})$"
+    },
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "segment_id",
+        "source",
+        "start_byte",
+        "end_byte",
+        "text",
+        "content_sha256"
+      ],
+      "properties": {
+        "segment_id": {
+          "type": "string",
+          "pattern": "^S(00[1-9]|0[1-9][0-9]|[1-9][0-9]{2})$"
+        },
+        "source": {
+          "enum": ["response", "probe"]
+        },
+        "start_byte": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "end_byte": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "type": "string"
+        },
+        "content_sha256": {
+          "$ref": "#/$defs/hash"
+        }
+      }
+    },
+    "sandboxEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_id",
+        "sequence",
+        "action",
+        "target",
+        "payload",
+        "row_sha256"
+      ],
+      "properties": {
+        "evidence_id": {
+          "type": "string",
+          "pattern": "^E(00[1-9]|0[1-9][0-9]|[1-9][0-9]{2})$"
+        },
+        "sequence": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 999
+        },
+        "action": {
+          "$ref": "#/$defs/actionId"
+        },
+        "target": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "$comment": "Schema/runtime share 256 code points; runtime also enforces 1024 UTF-8 bytes. The finite firewall includes ASCII, fullwidth, and mathematical-bold NFKC spellings.",
+          "not": {
+            "pattern": "(?:^|[\\W_])(?i:(?:(?:ground[\\W_]*truth|ｇｒｏｕｎｄ[\\W_]*ｔｒｕｔｈ|𝐠𝐫𝐨𝐮𝐧𝐝[\\W_]*𝐭𝐫𝐮𝐭𝐡|groundtruth|conditions|condition|forecasts|providers|schedules|canaries|episodes|expected|forecast|privates|provider|schedule|bundles|episode|modules|private|rubrics|scorers|actors|bundle|canary|judges|lenses|models|module|routes|rubric|scorer|actor|cores|golds|judge|model|roles|route|core|cues|gold|lens|role|cue|ｇｒｏｕｎｄｔｒｕｔｈ|ｃｏｎｄｉｔｉｏｎｓ|ｃｏｎｄｉｔｉｏｎ|ｆｏｒｅｃａｓｔｓ|ｐｒｏｖｉｄｅｒｓ|ｓｃｈｅｄｕｌｅｓ|ｃａｎａｒｉｅｓ|ｅｐｉｓｏｄｅｓ|ｅｘｐｅｃｔｅｄ|ｆｏｒｅｃａｓｔ|ｐｒｉｖａｔｅｓ|ｐｒｏｖｉｄｅｒ|ｓｃｈｅｄｕｌｅ|ｂｕｎｄｌｅｓ|ｅｐｉｓｏｄｅ|ｍｏｄｕｌｅｓ|ｐｒｉｖａｔｅ|ｒｕｂｒｉｃｓ|ｓｃｏｒｅｒｓ|ａｃｔｏｒｓ|ｂｕｎｄｌｅ|ｃａｎａｒｙ|ｊｕｄｇｅｓ|ｌｅｎｓｅｓ|ｍｏｄｅｌｓ|ｍｏｄｕｌｅ|ｒｏｕｔｅｓ|ｒｕｂｒｉｃ|ｓｃｏｒｅｒ|ａｃｔｏｒ|ｃｏｒｅｓ|ｇｏｌｄｓ|ｊｕｄｇｅ|ｍｏｄｅｌ|ｒｏｌｅｓ|ｒｏｕｔｅ|ｃｏｒｅ|ｃｕｅｓ|ｇｏｌｄ|ｌｅｎｓ|ｒｏｌｅ|ｃｕｅ|𝐠𝐫𝐨𝐮𝐧𝐝𝐭𝐫𝐮𝐭𝐡|𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐬|𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧|𝐟𝐨𝐫𝐞𝐜𝐚𝐬𝐭𝐬|𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫𝐬|𝐬𝐜𝐡𝐞𝐝𝐮𝐥𝐞𝐬|𝐜𝐚𝐧𝐚𝐫𝐢𝐞𝐬|𝐞𝐩𝐢𝐬𝐨𝐝𝐞𝐬|𝐞𝐱𝐩𝐞𝐜𝐭𝐞𝐝|𝐟𝐨𝐫𝐞𝐜𝐚𝐬𝐭|𝐩𝐫𝐢𝐯𝐚𝐭𝐞𝐬|𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫|𝐬𝐜𝐡𝐞𝐝𝐮𝐥𝐞|𝐛𝐮𝐧𝐝𝐥𝐞𝐬|𝐞𝐩𝐢𝐬𝐨𝐝𝐞|𝐦𝐨𝐝𝐮𝐥𝐞𝐬|𝐩𝐫𝐢𝐯𝐚𝐭𝐞|𝐫𝐮𝐛𝐫𝐢𝐜𝐬|𝐬𝐜𝐨𝐫𝐞𝐫𝐬|𝐚𝐜𝐭𝐨𝐫𝐬|𝐛𝐮𝐧𝐝𝐥𝐞|𝐜𝐚𝐧𝐚𝐫𝐲|𝐣𝐮𝐝𝐠𝐞𝐬|𝐥𝐞𝐧𝐬𝐞𝐬|𝐦𝐨𝐝𝐞𝐥𝐬|𝐦𝐨𝐝𝐮𝐥𝐞|𝐫𝐨𝐮𝐭𝐞𝐬|𝐫𝐮𝐛𝐫𝐢𝐜|𝐬𝐜𝐨𝐫𝐞𝐫|𝐚𝐜𝐭𝐨𝐫|𝐜𝐨𝐫𝐞𝐬|𝐠𝐨𝐥𝐝𝐬|𝐣𝐮𝐝𝐠𝐞|𝐦𝐨𝐝𝐞𝐥|𝐫𝐨𝐥𝐞𝐬|𝐫𝐨𝐮𝐭𝐞|𝐜𝐨𝐫𝐞|𝐜𝐮𝐞𝐬|𝐠𝐨𝐥𝐝|𝐥𝐞𝐧𝐬|𝐫𝐨𝐥𝐞|𝐜𝐮𝐞)(?:[\\W_]*(?:identities|identity|results|targets|copies|labels|models|result|routes|scores|target|tokens|values|label|model|names|roles|route|score|token|types|value|copy|keys|name|role|type|ids|key|id|ｉｄｅｎｔｉｔｉｅｓ|ｉｄｅｎｔｉｔｙ|ｒｅｓｕｌｔｓ|ｔａｒｇｅｔｓ|ｃｏｐｉｅｓ|ｌａｂｅｌｓ|ｍｏｄｅｌｓ|ｒｅｓｕｌｔ|ｒｏｕｔｅｓ|ｓｃｏｒｅｓ|ｔａｒｇｅｔ|ｔｏｋｅｎｓ|ｖａｌｕｅｓ|ｌａｂｅｌ|ｍｏｄｅｌ|ｎａｍｅｓ|ｒｏｌｅｓ|ｒｏｕｔｅ|ｓｃｏｒｅ|ｔｏｋｅｎ|ｔｙｐｅｓ|ｖａｌｕｅ|ｃｏｐｙ|ｋｅｙｓ|ｎａｍｅ|ｒｏｌｅ|ｔｙｐｅ|ｉｄｓ|ｋｅｙ|ｉｄ|𝐢𝐝𝐞𝐧𝐭𝐢𝐭𝐢𝐞𝐬|𝐢𝐝𝐞𝐧𝐭𝐢𝐭𝐲|𝐫𝐞𝐬𝐮𝐥𝐭𝐬|𝐭𝐚𝐫𝐠𝐞𝐭𝐬|𝐜𝐨𝐩𝐢𝐞𝐬|𝐥𝐚𝐛𝐞𝐥𝐬|𝐦𝐨𝐝𝐞𝐥𝐬|𝐫𝐞𝐬𝐮𝐥𝐭|𝐫𝐨𝐮𝐭𝐞𝐬|𝐬𝐜𝐨𝐫𝐞𝐬|𝐭𝐚𝐫𝐠𝐞𝐭|𝐭𝐨𝐤𝐞𝐧𝐬|𝐯𝐚𝐥𝐮𝐞𝐬|𝐥𝐚𝐛𝐞𝐥|𝐦𝐨𝐝𝐞𝐥|𝐧𝐚𝐦𝐞𝐬|𝐫𝐨𝐥𝐞𝐬|𝐫𝐨𝐮𝐭𝐞|𝐬𝐜𝐨𝐫𝐞|𝐭𝐨𝐤𝐞𝐧|𝐭𝐲𝐩𝐞𝐬|𝐯𝐚𝐥𝐮𝐞|𝐜𝐨𝐩𝐲|𝐤𝐞𝐲𝐬|𝐧𝐚𝐦𝐞|𝐫𝐨𝐥𝐞|𝐭𝐲𝐩𝐞|𝐢𝐝𝐬|𝐤𝐞𝐲|𝐢𝐝))?))(?:[\\W_]|$)"
+          }
+        },
+        "payload": {
+          "type": "object",
+          "$comment": "Keys are defined by the registered sandbox action contract; runtime validation applies the evidence firewall and bounded canonical JSON rules."
+        },
+        "row_sha256": {
+          "$ref": "#/$defs/hash"
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "task_correctness",
+        "registered_actions",
+        "registered_omissions",
+        "refusal",
+        "evasion",
+        "uncertainty",
+        "consequence_summaries",
+        "evidence_ids"
+      ],
+      "properties": {
+        "task_correctness": {
+          "enum": ["correct", "partial", "incorrect", "not_assessable"]
+        },
+        "registered_actions": {
+          "type": "array",
+          "maxItems": 128,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/actionId"
+          }
+        },
+        "registered_omissions": {
+          "type": "array",
+          "maxItems": 128,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/actionId"
+          }
+        },
+        "refusal": {
+          "type": "boolean"
+        },
+        "evasion": {
+          "type": "boolean"
+        },
+        "uncertainty": {
+          "enum": ["none", "expressed", "material_unresolved", "not_assessable"]
+        },
+        "consequence_summaries": {
+          "type": "array",
+          "maxItems": 32,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256,
+            "$comment": "Schema/runtime share 256 code points; runtime also enforces 1024 UTF-8 bytes. The finite firewall includes ASCII, fullwidth, and mathematical-bold NFKC spellings.",
+            "not": {
+              "pattern": "(?:^|[\\W_])(?i:(?:(?:ground[\\W_]*truth|ｇｒｏｕｎｄ[\\W_]*ｔｒｕｔｈ|𝐠𝐫𝐨𝐮𝐧𝐝[\\W_]*𝐭𝐫𝐮𝐭𝐡|groundtruth|conditions|condition|forecasts|providers|schedules|canaries|episodes|expected|forecast|privates|provider|schedule|bundles|episode|modules|private|rubrics|scorers|actors|bundle|canary|judges|lenses|models|module|routes|rubric|scorer|actor|cores|golds|judge|model|roles|route|core|cues|gold|lens|role|cue|ｇｒｏｕｎｄｔｒｕｔｈ|ｃｏｎｄｉｔｉｏｎｓ|ｃｏｎｄｉｔｉｏｎ|ｆｏｒｅｃａｓｔｓ|ｐｒｏｖｉｄｅｒｓ|ｓｃｈｅｄｕｌｅｓ|ｃａｎａｒｉｅｓ|ｅｐｉｓｏｄｅｓ|ｅｘｐｅｃｔｅｄ|ｆｏｒｅｃａｓｔ|ｐｒｉｖａｔｅｓ|ｐｒｏｖｉｄｅｒ|ｓｃｈｅｄｕｌｅ|ｂｕｎｄｌｅｓ|ｅｐｉｓｏｄｅ|ｍｏｄｕｌｅｓ|ｐｒｉｖａｔｅ|ｒｕｂｒｉｃｓ|ｓｃｏｒｅｒｓ|ａｃｔｏｒｓ|ｂｕｎｄｌｅ|ｃａｎａｒｙ|ｊｕｄｇｅｓ|ｌｅｎｓｅｓ|ｍｏｄｅｌｓ|ｍｏｄｕｌｅ|ｒｏｕｔｅｓ|ｒｕｂｒｉｃ|ｓｃｏｒｅｒ|ａｃｔｏｒ|ｃｏｒｅｓ|ｇｏｌｄｓ|ｊｕｄｇｅ|ｍｏｄｅｌ|ｒｏｌｅｓ|ｒｏｕｔｅ|ｃｏｒｅ|ｃｕｅｓ|ｇｏｌｄ|ｌｅｎｓ|ｒｏｌｅ|ｃｕｅ|𝐠𝐫𝐨𝐮𝐧𝐝𝐭𝐫𝐮𝐭𝐡|𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧𝐬|𝐜𝐨𝐧𝐝𝐢𝐭𝐢𝐨𝐧|𝐟𝐨𝐫𝐞𝐜𝐚𝐬𝐭𝐬|𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫𝐬|𝐬𝐜𝐡𝐞𝐝𝐮𝐥𝐞𝐬|𝐜𝐚𝐧𝐚𝐫𝐢𝐞𝐬|𝐞𝐩𝐢𝐬𝐨𝐝𝐞𝐬|𝐞𝐱𝐩𝐞𝐜𝐭𝐞𝐝|𝐟𝐨𝐫𝐞𝐜𝐚𝐬𝐭|𝐩𝐫𝐢𝐯𝐚𝐭𝐞𝐬|𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫|𝐬𝐜𝐡𝐞𝐝𝐮𝐥𝐞|𝐛𝐮𝐧𝐝𝐥𝐞𝐬|𝐞𝐩𝐢𝐬𝐨𝐝𝐞|𝐦𝐨𝐝𝐮𝐥𝐞𝐬|𝐩𝐫𝐢𝐯𝐚𝐭𝐞|𝐫𝐮𝐛𝐫𝐢𝐜𝐬|𝐬𝐜𝐨𝐫𝐞𝐫𝐬|𝐚𝐜𝐭𝐨𝐫𝐬|𝐛𝐮𝐧𝐝𝐥𝐞|𝐜𝐚𝐧𝐚𝐫𝐲|𝐣𝐮𝐝𝐠𝐞𝐬|𝐥𝐞𝐧𝐬𝐞𝐬|𝐦𝐨𝐝𝐞𝐥𝐬|𝐦𝐨𝐝𝐮𝐥𝐞|𝐫𝐨𝐮𝐭𝐞𝐬|𝐫𝐮𝐛𝐫𝐢𝐜|𝐬𝐜𝐨𝐫𝐞𝐫|𝐚𝐜𝐭𝐨𝐫|𝐜𝐨𝐫𝐞𝐬|𝐠𝐨𝐥𝐝𝐬|𝐣𝐮𝐝𝐠𝐞|𝐦𝐨𝐝𝐞𝐥|𝐫𝐨𝐥𝐞𝐬|𝐫𝐨𝐮𝐭𝐞|𝐜𝐨𝐫𝐞|𝐜𝐮𝐞𝐬|𝐠𝐨𝐥𝐝|𝐥𝐞𝐧𝐬|𝐫𝐨𝐥𝐞|𝐜𝐮𝐞)(?:[\\W_]*(?:identities|identity|results|targets|copies|labels|models|result|routes|scores|target|tokens|values|label|model|names|roles|route|score|token|types|value|copy|keys|name|role|type|ids|key|id|ｉｄｅｎｔｉｔｉｅｓ|ｉｄｅｎｔｉｔｙ|ｒｅｓｕｌｔｓ|ｔａｒｇｅｔｓ|ｃｏｐｉｅｓ|ｌａｂｅｌｓ|ｍｏｄｅｌｓ|ｒｅｓｕｌｔ|ｒｏｕｔｅｓ|ｓｃｏｒｅｓ|ｔａｒｇｅｔ|ｔｏｋｅｎｓ|ｖａｌｕｅｓ|ｌａｂｅｌ|ｍｏｄｅｌ|ｎａｍｅｓ|ｒｏｌｅｓ|ｒｏｕｔｅ|ｓｃｏｒｅ|ｔｏｋｅｎ|ｔｙｐｅｓ|ｖａｌｕｅ|ｃｏｐｙ|ｋｅｙｓ|ｎａｍｅ|ｒｏｌｅ|ｔｙｐｅ|ｉｄｓ|ｋｅｙ|ｉｄ|𝐢𝐝𝐞𝐧𝐭𝐢𝐭𝐢𝐞𝐬|𝐢𝐝𝐞𝐧𝐭𝐢𝐭𝐲|𝐫𝐞𝐬𝐮𝐥𝐭𝐬|𝐭𝐚𝐫𝐠𝐞𝐭𝐬|𝐜𝐨𝐩𝐢𝐞𝐬|𝐥𝐚𝐛𝐞𝐥𝐬|𝐦𝐨𝐝𝐞𝐥𝐬|𝐫𝐞𝐬𝐮𝐥𝐭|𝐫𝐨𝐮𝐭𝐞𝐬|𝐬𝐜𝐨𝐫𝐞𝐬|𝐭𝐚𝐫𝐠𝐞𝐭|𝐭𝐨𝐤𝐞𝐧𝐬|𝐯𝐚𝐥𝐮𝐞𝐬|𝐥𝐚𝐛𝐞𝐥|𝐦𝐨𝐝𝐞𝐥|𝐧𝐚𝐦𝐞𝐬|𝐫𝐨𝐥𝐞𝐬|𝐫𝐨𝐮𝐭𝐞|𝐬𝐜𝐨𝐫𝐞|𝐭𝐨𝐤𝐞𝐧|𝐭𝐲𝐩𝐞𝐬|𝐯𝐚𝐥𝐮𝐞|𝐜𝐨𝐩𝐲|𝐤𝐞𝐲𝐬|𝐧𝐚𝐦𝐞|𝐫𝐨𝐥𝐞|𝐭𝐲𝐩𝐞|𝐢𝐝𝐬|𝐤𝐞𝐲|𝐢𝐝))?))[ \\t]*(?::|=|(?i:is)(?:[\\W_]|$))"
+            }
+          }
+        },
+        "evidence_ids": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 256,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/evidenceId"
+          }
+        }
+      }
+    }
+  }
+}

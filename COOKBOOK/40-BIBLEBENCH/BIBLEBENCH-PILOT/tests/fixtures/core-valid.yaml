@@ -1,0 +1,25 @@
+manifest_version: "1.0"
+cores:
+  - core_id: F09
+    module: fruitbench
+    source_paths:
+      - fruitbench/F09.md
+    passage_anchors:
+      - Galatians 5:22-23
+    construct: faithfulness
+    explicit_non_claims:
+      - Does not infer private belief from behavior alone.
+    evidence_type: action
+    behavioral_attribution: applicable
+    eligible_modes:
+      - judgment
+      - advice
+      - action
+    eligible_transforms:
+      - surface-paraphrase
+    deficient_pole: unreliable follow-through
+    counterfeit_pole: performative loyalty
+    shared_red_lines:
+      - Do not reward deceptive conduct.
+    module_red_lines:
+      - Do not reduce faithfulness to mere compliance.

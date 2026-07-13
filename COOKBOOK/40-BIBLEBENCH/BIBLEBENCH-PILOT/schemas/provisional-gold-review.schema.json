@@ -1,0 +1,541 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BibleBench Provisional Gold Review Packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "packet_version",
+    "classification",
+    "owner_review_status",
+    "owner_judge",
+    "owner_completed_at",
+    "source_bank_schema_sha256",
+    "source_banks",
+    "records",
+    "owner_record_rollup_rule",
+    "blinded_repeat_procedure"
+  ],
+  "properties": {
+    "packet_version": {"const": "provisional-gold-review-v1"},
+    "classification": {"const": "single_expert_provisional_gold"},
+    "owner_review_status": {"enum": ["pending", "completed"]},
+    "owner_judge": {
+      "oneOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/ownerJudge"}
+      ]
+    },
+    "owner_completed_at": {
+      "oneOf": [
+        {"type": "null"},
+        {"$ref": "#/$defs/utcTimestamp"}
+      ]
+    },
+    "source_bank_schema_sha256": {"$ref": "#/$defs/hash"},
+    "source_banks": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {"$ref": "#/$defs/sourceBank"}
+    },
+    "records": {
+      "type": "array",
+      "minItems": 48,
+      "maxItems": 48,
+      "items": {"$ref": "#/$defs/reviewRecord"}
+    },
+    "owner_record_rollup_rule": {"$ref": "#/$defs/ownerRecordRollupRule"},
+    "blinded_repeat_procedure": {"$ref": "#/$defs/repeatProcedure"}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"owner_review_status": {"const": "pending"}}
+      },
+      "then": {
+        "properties": {
+          "owner_judge": {"type": "null"},
+          "owner_completed_at": {"type": "null"}
+        }
+      },
+      "else": {
+        "properties": {
+          "owner_judge": {"$ref": "#/$defs/ownerJudge"},
+          "owner_completed_at": {"$ref": "#/$defs/utcTimestamp"},
+          "records": {
+            "items": {
+              "properties": {"owner_review_status": {"const": "reviewed"}}
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "module": {
+      "enum": ["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+    },
+    "episodeId": {
+      "type": "string",
+      "pattern": "^[FLTS](?:0[1-9]|1[0-2])-(?:TARGET|NULL|RESTRAINT)-0[1-9]$"
+    },
+    "coreId": {
+      "type": "string",
+      "pattern": "^(?:F(?:0[1-9]|1[0-2])|L0[1-8]|T(?:0[1-9]|1[0-2])|S(?:0[1-9]|10))$"
+    },
+    "shortText": {"type": "string", "minLength": 2, "maxLength": 512},
+    "boundedText": {"type": "string", "minLength": 8, "maxLength": 8000},
+    "stringList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/shortText"}
+    },
+    "idList": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z][a-z0-9_]{0,63}$"}
+    },
+    "sourceArtifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "heading"],
+      "properties": {
+        "path": {"type": "string", "minLength": 3, "maxLength": 512},
+        "sha256": {"$ref": "#/$defs/hash"},
+        "heading": {"$ref": "#/$defs/shortText"}
+      }
+    },
+    "sourceBank": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["module", "path", "file_sha256", "canonical_sha256"],
+      "properties": {
+        "module": {"$ref": "#/$defs/module"},
+        "path": {"type": "string", "pattern": "^modules/[a-z]+/episodes\\.yaml$"},
+        "file_sha256": {"$ref": "#/$defs/hash"},
+        "canonical_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passage_anchors", "source_artifacts"],
+      "properties": {
+        "passage_anchors": {"$ref": "#/$defs/stringList"},
+        "source_artifacts": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {"$ref": "#/$defs/sourceArtifact"}
+        }
+      }
+    },
+    "observableCriteria": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "affected_parties",
+        "authority_boundary",
+        "acceptable_action_band",
+        "prohibited_actions",
+        "deficient_pole",
+        "counterfeit_pole",
+        "red_line_classes",
+        "terminal_observables",
+        "repair_expectations"
+      ],
+      "properties": {
+        "affected_parties": {"$ref": "#/$defs/idList"},
+        "authority_boundary": {"$ref": "#/$defs/boundedText"},
+        "acceptable_action_band": {"$ref": "#/$defs/stringList"},
+        "prohibited_actions": {"$ref": "#/$defs/stringList"},
+        "deficient_pole": {"$ref": "#/$defs/boundedText"},
+        "counterfeit_pole": {"$ref": "#/$defs/boundedText"},
+        "red_line_classes": {"$ref": "#/$defs/idList"},
+        "terminal_observables": {"$ref": "#/$defs/idList"},
+        "repair_expectations": {"$ref": "#/$defs/stringList"}
+      }
+    },
+    "trackApplicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["behavior", "interpretive"],
+      "properties": {
+        "behavior": {"enum": ["applicable", "not_applicable"]},
+        "interpretive": {"enum": ["applicable", "not_applicable"]}
+      }
+    },
+    "trackDecisionOrBlank": {
+      "enum": [null, "APPROVE", "REVISE", "REJECT", "DEFER", "NOT_APPLICABLE"]
+    },
+    "recordDecisionOrBlank": {
+      "enum": [null, "APPROVE", "REVISE", "REJECT", "DEFER"]
+    },
+    "utcTimestamp": {
+      "type": "string",
+      "format": "date-time",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"
+    },
+    "ownerJudge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["judge_id", "display_name", "role"],
+      "properties": {
+        "judge_id": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"},
+        "display_name": {"$ref": "#/$defs/shortText"},
+        "role": {"const": "founding_theologian_technical_judge"}
+      }
+    },
+    "ownerIssue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "issue_id",
+        "priority",
+        "track",
+        "summary",
+        "affected_fields",
+        "repair_condition"
+      ],
+      "properties": {
+        "issue_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9_-]{2,63}$"},
+        "priority": {"enum": ["P0", "P1", "P2", "P3"]},
+        "track": {"enum": ["behavior", "interpretive", "record", "custody"]},
+        "summary": {"$ref": "#/$defs/boundedText"},
+        "affected_fields": {"$ref": "#/$defs/stringList"},
+        "repair_condition": {"$ref": "#/$defs/boundedText"}
+      }
+    },
+    "reviewRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "module",
+        "episode_id",
+        "core_id",
+        "role",
+        "stratum",
+        "authored_episode_sha256",
+        "review_payload",
+        "review_payload_sha256",
+        "provenance",
+        "observable_criteria",
+        "behavioral_attribution",
+        "judge_confidence",
+        "contestability",
+        "track_applicability",
+        "classification",
+        "owner_review_status",
+        "owner_behavior_decision",
+        "owner_interpretive_decision",
+        "owner_record_decision",
+        "owner_behavior_rationale",
+        "owner_interpretive_rationale",
+        "owner_confidence",
+        "owner_contestability",
+        "owner_issues",
+        "owner_judge_id",
+        "owner_notes",
+        "owner_reviewed_at"
+      ],
+      "properties": {
+        "module": {"$ref": "#/$defs/module"},
+        "episode_id": {"$ref": "#/$defs/episodeId"},
+        "core_id": {"$ref": "#/$defs/coreId"},
+        "role": {"enum": ["target", "null", "restraint"]},
+        "stratum": {"enum": ["common_life", "christian_facing"]},
+        "authored_episode_sha256": {"$ref": "#/$defs/hash"},
+        "review_payload": {"type": "object", "minProperties": 1},
+        "review_payload_sha256": {"$ref": "#/$defs/hash"},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "observable_criteria": {"$ref": "#/$defs/observableCriteria"},
+        "behavioral_attribution": {
+          "enum": ["applicable", "not_behaviorally_attributable"]
+        },
+        "judge_confidence": {"enum": ["low", "medium", "high"]},
+        "contestability": {"enum": ["clear", "contested", "outside_competence"]},
+        "track_applicability": {"$ref": "#/$defs/trackApplicability"},
+        "classification": {"const": "single_expert_provisional_gold"},
+        "owner_review_status": {"enum": ["pending", "reviewed"]},
+        "owner_behavior_decision": {"$ref": "#/$defs/trackDecisionOrBlank"},
+        "owner_interpretive_decision": {"$ref": "#/$defs/trackDecisionOrBlank"},
+        "owner_record_decision": {"$ref": "#/$defs/recordDecisionOrBlank"},
+        "owner_behavior_rationale": {
+          "oneOf": [{"type": "null"}, {"$ref": "#/$defs/boundedText"}]
+        },
+        "owner_interpretive_rationale": {
+          "oneOf": [{"type": "null"}, {"$ref": "#/$defs/boundedText"}]
+        },
+        "owner_confidence": {"enum": [null, "low", "medium", "high"]},
+        "owner_contestability": {
+          "enum": [null, "clear", "contested", "outside_competence"]
+        },
+        "owner_issues": {
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "array",
+              "maxItems": 32,
+              "uniqueItems": true,
+              "items": {"$ref": "#/$defs/ownerIssue"}
+            }
+          ]
+        },
+        "owner_judge_id": {
+          "oneOf": [
+            {"type": "null"},
+            {"type": "string", "pattern": "^[a-z][a-z0-9_-]{2,63}$"}
+          ]
+        },
+        "owner_notes": {
+          "oneOf": [{"type": "null"}, {"$ref": "#/$defs/boundedText"}]
+        },
+        "owner_reviewed_at": {
+          "oneOf": [{"type": "null"}, {"$ref": "#/$defs/utcTimestamp"}]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {"owner_review_status": {"const": "pending"}}
+          },
+          "then": {
+            "properties": {
+              "owner_behavior_decision": {"type": "null"},
+              "owner_interpretive_decision": {"type": "null"},
+              "owner_record_decision": {"type": "null"},
+              "owner_behavior_rationale": {"type": "null"},
+              "owner_interpretive_rationale": {"type": "null"},
+              "owner_confidence": {"type": "null"},
+              "owner_contestability": {"type": "null"},
+              "owner_issues": {"type": "null"},
+              "owner_judge_id": {"type": "null"},
+              "owner_notes": {"type": "null"},
+              "owner_reviewed_at": {"type": "null"}
+            }
+          },
+          "else": {
+            "properties": {
+              "owner_behavior_decision": {"type": "string"},
+              "owner_interpretive_decision": {"type": "string"},
+              "owner_record_decision": {"type": "string"},
+              "owner_behavior_rationale": {"$ref": "#/$defs/boundedText"},
+              "owner_interpretive_rationale": {"$ref": "#/$defs/boundedText"},
+              "owner_confidence": {"enum": ["low", "medium", "high"]},
+              "owner_contestability": {
+                "enum": ["clear", "contested", "outside_competence"]
+              },
+              "owner_issues": {"type": "array"},
+              "owner_judge_id": {"type": "string"},
+              "owner_reviewed_at": {"$ref": "#/$defs/utcTimestamp"}
+            },
+            "allOf": [
+              {
+                "if": {
+                  "anyOf": [
+                    {"properties": {"owner_behavior_decision": {"const": "DEFER"}}},
+                    {"properties": {"owner_interpretive_decision": {"const": "DEFER"}}}
+                  ]
+                },
+                "then": {
+                  "properties": {"owner_record_decision": {"const": "DEFER"}}
+                },
+                "else": {
+                  "if": {
+                    "anyOf": [
+                      {"properties": {"owner_behavior_decision": {"const": "REJECT"}}},
+                      {"properties": {"owner_interpretive_decision": {"const": "REJECT"}}}
+                    ]
+                  },
+                  "then": {
+                    "properties": {"owner_record_decision": {"const": "REJECT"}}
+                  },
+                  "else": {
+                    "if": {
+                      "anyOf": [
+                        {"properties": {"owner_behavior_decision": {"const": "REVISE"}}},
+                        {"properties": {"owner_interpretive_decision": {"const": "REVISE"}}}
+                      ]
+                    },
+                    "then": {
+                      "properties": {"owner_record_decision": {"const": "REVISE"}}
+                    },
+                    "else": {
+                      "if": {
+                        "anyOf": [
+                          {"properties": {"owner_behavior_decision": {"const": "APPROVE"}}},
+                          {"properties": {"owner_interpretive_decision": {"const": "APPROVE"}}}
+                        ]
+                      },
+                      "then": {
+                        "properties": {"owner_record_decision": {"const": "APPROVE"}}
+                      },
+                      "else": {
+                        "properties": {"owner_record_decision": {"const": "DEFER"}}
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "track_applicability": {
+                "properties": {"behavior": {"const": "applicable"}}
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "owner_behavior_decision": {
+                "enum": [null, "APPROVE", "REVISE", "REJECT", "DEFER"]
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "owner_behavior_decision": {"enum": [null, "NOT_APPLICABLE"]}
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "track_applicability": {
+                "properties": {"interpretive": {"const": "applicable"}}
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "owner_interpretive_decision": {
+                "enum": [null, "APPROVE", "REVISE", "REJECT", "DEFER"]
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "owner_interpretive_decision": {"enum": [null, "NOT_APPLICABLE"]}
+            }
+          }
+        }
+      ]
+    },
+    "ownerRecordRollupRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "behavior_decision_field",
+        "interpretive_decision_field",
+        "record_decision_field",
+        "applicable_track_decisions",
+        "not_applicable_value",
+        "not_applicable_handling",
+        "precedence",
+        "no_applicable_tracks_result"
+      ],
+      "properties": {
+        "version": {"const": "dual-track-rollup-v1"},
+        "behavior_decision_field": {"const": "owner_behavior_decision"},
+        "interpretive_decision_field": {"const": "owner_interpretive_decision"},
+        "record_decision_field": {"const": "owner_record_decision"},
+        "applicable_track_decisions": {
+          "type": "array",
+          "prefixItems": [
+            {"const": "APPROVE"},
+            {"const": "REVISE"},
+            {"const": "REJECT"},
+            {"const": "DEFER"}
+          ],
+          "items": false,
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "not_applicable_value": {"const": "NOT_APPLICABLE"},
+        "not_applicable_handling": {"const": "ignored"},
+        "precedence": {
+          "type": "array",
+          "prefixItems": [
+            {"const": "DEFER"},
+            {"const": "REJECT"},
+            {"const": "REVISE"},
+            {"const": "APPROVE"}
+          ],
+          "items": false,
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "no_applicable_tracks_result": {"const": "DEFER"}
+      }
+    },
+    "repeatProcedure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "timing",
+        "target_fraction",
+        "sample_size",
+        "stratification",
+        "module_minimum",
+        "role_minimum",
+        "seed_domain",
+        "digest_input",
+        "ranking_rule",
+        "selection_rule",
+        "skip_rule",
+        "backfill_rule",
+        "tie_break",
+        "opaque_repeat_id_format",
+        "mapping_custody",
+        "unblinding"
+      ],
+      "properties": {
+        "timing": {"const": "post_pass_one"},
+        "target_fraction": {"const": 0.2},
+        "sample_size": {"const": 10},
+        "stratification": {
+          "type": "array",
+          "prefixItems": [{"const": "module"}, {"const": "role"}],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "module_minimum": {"const": 2},
+        "role_minimum": {"const": 3},
+        "seed_domain": {"const": "repeat_sampling_v1"},
+        "digest_input": {
+          "const": "UTF-8(repeat_sampling_v1) + NUL + ASCII(adjudicated_packet_sha256) + NUL + UTF-8(episode_id)"
+        },
+        "ranking_rule": {
+          "const": "Sort by digest ascending, then episode_id Unicode-code-point ascending."
+        },
+        "selection_rule": {
+          "const": "Scan the ranking once and greedily accept the earliest candidate whose inclusion still permits a 10-record completion with every module and role minimum satisfied."
+        },
+        "skip_rule": {
+          "const": "Skip a ranked candidate exactly when accepting it would leave no 10-record completion satisfying every module and role minimum."
+        },
+        "backfill_rule": {
+          "const": "Continue the same ranked feasibility scan until 10 records are selected; there is no discretionary backfill."
+        },
+        "tie_break": {
+          "const": "Digest ties are resolved by episode_id Unicode-code-point ascending."
+        },
+        "opaque_repeat_id_format": {"const": "RPT-{ordinal:03d}"},
+        "mapping_custody": {
+          "const": "Create and hold the episode-to-repeat-ID mapping outside the pass-one packet after selection."
+        },
+        "unblinding": {"const": "after_repeat_submission"}
+      }
+    }
+  }
+}

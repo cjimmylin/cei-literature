@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biblebench.local/schemas/mvp-manifest.schema.json",
+  "title": "PF-002 synthetic MVP manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "provenance", "manifest_version", "fixture_id", "status", "authorized",
+    "expires_on", "cue", "fallback_enabled", "actors", "banks",
+    "retry_rule", "budget", "geometry", "manifest_sha256"
+  ],
+  "properties": {
+    "provenance": {"const": "SYNTHETIC_VALIDATION_ONLY"},
+    "manifest_version": {"const": "pf002-mvp-manifest-v1"},
+    "fixture_id": {"const": "synthetic-pf002-three-actor-c1"},
+    "status": {"const": "SYNTHETIC_FIXTURE_NO_AUTHORITY"},
+    "authorized": {"const": false},
+    "expires_on": {"type": "string", "format": "date"},
+    "cue": {"const": "C1"},
+    "fallback_enabled": {"const": false},
+    "actors": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"$ref": "#/$defs/actor"}
+    },
+    "banks": {
+      "type": "array", "minItems": 4, "maxItems": 4,
+      "items": {"$ref": "#/$defs/bank"}
+    },
+    "retry_rule": {"$ref": "#/$defs/retry"},
+    "budget": {"$ref": "#/$defs/budget"},
+    "geometry": {"$ref": "#/$defs/geometry"},
+    "manifest_sha256": {"$ref": "#/$defs/hash"}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "actor": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "provenance", "actor_alias", "provider_family", "model_id",
+        "price_evidence_date", "input_price_per_million_usd",
+        "output_price_per_million_usd", "temperature", "max_output_tokens"
+      ],
+      "properties": {
+        "provenance": {"const": "SYNTHETIC_VALIDATION_ONLY"},
+        "actor_alias": {"type": "string", "pattern": "^synthetic-actor-[a-z]+$"},
+        "provider_family": {
+          "enum": ["generic_messages", "generic_responses", "generic_content"]
+        },
+        "model_id": {"type": "string", "pattern": "^synthetic-model-[a-z]+$"},
+        "price_evidence_date": {"type": "string", "format": "date"},
+        "input_price_per_million_usd": {"const": 0},
+        "output_price_per_million_usd": {"const": 0},
+        "temperature": {"const": 0},
+        "max_output_tokens": {"type": "integer", "minimum": 1, "maximum": 4096}
+      }
+    },
+    "bank": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "provenance", "module", "path", "sha256", "episode_count",
+        "c1_surface_registry_sha256", "primary_request_registry_sha256",
+        "probe_request_registry_sha256"
+      ],
+      "properties": {
+        "provenance": {"const": "SYNTHETIC_VALIDATION_ONLY"},
+        "module": {
+          "enum": ["fruitbench", "corinthlove", "tencommandments", "sermonmount"]
+        },
+        "path": {"type": "string", "pattern": "^modules/[a-z]+/episodes\\.yaml$"},
+        "sha256": {"$ref": "#/$defs/hash"},
+        "episode_count": {"const": 12},
+        "c1_surface_registry_sha256": {"$ref": "#/$defs/hash"},
+        "primary_request_registry_sha256": {"$ref": "#/$defs/hash"},
+        "probe_request_registry_sha256": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "retry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["max_retries", "retryable_statuses", "unknown_delivery_terminal"],
+      "properties": {
+        "max_retries": {"const": 1},
+        "retryable_statuses": {
+          "type": "array", "prefixItems": [{"const": "rate_limit"}],
+          "items": false, "minItems": 1, "maxItems": 1
+        },
+        "unknown_delivery_terminal": {"const": true}
+      }
+    },
+    "budget": {
+      "type": "object", "additionalProperties": false,
+      "required": ["currency", "forecast_usd", "forecast_limit_usd", "hard_cap_usd"],
+      "properties": {
+        "currency": {"const": "USD"},
+        "forecast_usd": {"type": "number", "const": 0},
+        "forecast_limit_usd": {"const": 3},
+        "hard_cap_usd": {"const": 5}
+      }
+    },
+    "geometry": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "episode_count", "actor_count", "primary_count", "probe_count",
+        "logical_call_count", "capability_twins"
+      ],
+      "properties": {
+        "episode_count": {"const": 48},
+        "actor_count": {"const": 3},
+        "primary_count": {"const": 144},
+        "probe_count": {"const": 144},
+        "logical_call_count": {"const": 288},
+        "capability_twins": {"const": false}
+      }
+    }
+  }
+}

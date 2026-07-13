@@ -57,6 +57,6 @@
 - [x] Record completed propagation, unchanged T4 boundary, zero spend, concurrent-file caveats, and the exact next step.
 - [x] Include the mandatory dashboard open/close lines in the handoff.
 - [x] Check diffs for accidental changes to R-chain, run directories, bank files, or active T4-preflight artifacts.
-- [ ] Commit and push only safely isolated paths; leave any mixed concurrent hunk unstaged and identify it explicitly.
+- [x] Commit and push only safely isolated paths; leave any mixed concurrent hunk unstaged and identify it explicitly.
 
 **Done when:** The owner strategy is durable, the next session is unambiguous, no paid call occurred, and unrelated work remains untouched.

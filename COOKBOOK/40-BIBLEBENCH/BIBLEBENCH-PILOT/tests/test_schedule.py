@@ -358,6 +358,148 @@ def test_later_scope_prose_and_nonexact_keys_remain_allowed() -> None:
 
 
 @pytest.mark.parametrize(
+    "protected_key",
+    [
+        "lenssecret",
+        "secretlens",
+        "providersocket",
+        "routeendpoint",
+        "physicalidsecret",
+        "attemptidsecret",
+        "actorsecret",
+        "secretactorid",
+        "modelsecret",
+        "secretmodelid",
+        "riskfactorsecret",
+        "expectedoutcome",
+        "goldscore",
+        "rolecode",
+        "privateblob",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_rejects_protected_metadata_with_unregistered_affixes(
+    protected_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {protected_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "protected_key",
+    [
+        "cuecode",
+        "conditionarm",
+        "schedulehash",
+        "bundlehash",
+        "episodehash",
+    ],
+)
+def test_forecast_rejects_blinded_metadata_with_unregistered_affixes(
+    protected_key: str,
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {protected_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], forecast_payload=payload)
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "benign_key",
+    [
+        "lensingnotes",
+        "interventionalnotes",
+        "providershipnotes",
+        "routingnotes",
+        "reroutenotes",
+        "riskfactor",
+        "risk_factor",
+        "contractorname",
+        "tractorid",
+        "extractornotes",
+        "modelingnotes",
+        "remodelplan",
+        "rescuenotes",
+        "barbecueplan",
+        "goldenrule",
+        "marigoldcolor",
+        "goldfishcount",
+        "parolestatus",
+        "enroutestatus",
+        "glenscount",
+        "rescheduleoptions",
+        "physicalitynotes",
+        "physicalstate",
+        "physical_state",
+        "attemptingnotes",
+        "identifyingnotes",
+        "callernotes",
+        "deliveryroute",
+        "evacuationroute",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_allows_registered_benign_key_families_across_calls(
+    benign_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {benign_key: "ordinary"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    rows = (
+        schedule.forecast_rows
+        if field_name == "forecast_payload"
+        else schedule.probe_rows
+    )
+    assert rows[0].request_payload["outer"] == payload["outer"]
+
+
+@pytest.mark.parametrize(
+    "compound_key",
+    ["contractoractorid", "goldenexpectedlabel", "reroutelensid"],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_benign_occurrence_does_not_shield_another_protected_occurrence(
+    compound_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {compound_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_scans_very_long_keys_iteratively(field_name: str) -> None:
+    pack = _pack()
+    protected_key = f"{'x' * 200_000}actorsecret"
+    payload = {"outer": [{"inner": {protected_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
     "blind_key",
     [
         "cue",

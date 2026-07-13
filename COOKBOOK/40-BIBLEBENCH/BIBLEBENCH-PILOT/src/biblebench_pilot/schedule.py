@@ -38,62 +38,26 @@ _MAX_VISIBLE_DEPTH = 128
 _CAMEL_KEY_BOUNDARY = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
 _NON_ALNUM_KEY = re.compile(r"[^a-z0-9]+")
 _ALLOWED_TASK_ROUTE_KEYS = frozenset({"deliveryroute", "evacuationroute"})
-_METADATA_JOINER_TOKENS = frozenset(
-    {
-        "id",
-        "ids",
-        "identifier",
-        "identifiers",
-        "name",
-        "names",
-        "label",
-        "labels",
-        "call",
-        "calls",
-        "attempt",
-        "attempts",
-        "config",
-        "configuration",
-        "result",
-        "results",
-        "token",
-        "tokens",
-        "version",
-        "versions",
-        "description",
-        "descriptions",
-        "metadata",
-        "payload",
-        "value",
-        "values",
-        "type",
-        "types",
-        "key",
-        "keys",
-        "tested",
-        "test",
-        "available",
-        "registered",
-        "fallback",
-        "evaluation",
-        "module",
-        "requested",
-        "selected",
-        "returned",
-        "current",
-        "active",
-        "chosen",
-        "resolved",
-        "execution",
-        "backend",
-        "novelprefix",
-        "delivery",
-        "evacuation",
-        "suffix",
-        "extra",
-        "episode",
-    }
-)
+_ALLOWED_FACTOR_KEYS = frozenset({"riskfactor"})
+_BENIGN_PROTECTED_OCCURRENCES = {
+    "actor": (
+        ("contractor", 5),
+        ("tractor", 2),
+        ("extractor", 4),
+    ),
+    "cue": (("rescue", 3), ("barbecue", 5)),
+    "gold": (("golden", 0), ("marigold", 4), ("goldfish", 0)),
+    "intervention": (("interventional", 0),),
+    "lens": (("lensing", 0), ("glens", 1)),
+    "lenses": (("glens", 1),),
+    "model": (("modeling", 0), ("remodel", 2)),
+    "provider": (("providership", 0),),
+    "providers": (("providership", 0),),
+    "role": (("parole", 2),),
+    "route": (("reroute", 2), ("enroute", 2)),
+    "routes": (("reroute", 2), ("enroute", 2)),
+    "schedule": (("reschedule", 2),),
+}
 _LATER_NAMESPACE_TOKENS = frozenset(
     {
         "lens",
@@ -343,39 +307,38 @@ def _walk_keys(value: Json):
             stack.extend(current)
 
 
-def _normalized_key_has_reserved_tokens(
+def _protected_occurrence_is_benign(
+    normalized: str, protected: str, start: int
+) -> bool:
+    for context, offset in _BENIGN_PROTECTED_OCCURRENCES.get(protected, ()):
+        if start == offset and normalized.startswith(context):
+            return True
+    return False
+
+
+def _normalized_key_has_protected_occurrence(
     normalized: str,
-    reserved: frozenset[str],
+    protected: frozenset[str],
     *,
     exact_allowed: frozenset[str] = frozenset(),
 ) -> bool:
     if not normalized or normalized in exact_allowed:
         return False
-    tokens = tuple(sorted(reserved | _METADATA_JOINER_TOKENS))
-    without_reserved = [False] * (len(normalized) + 1)
-    with_reserved = [False] * (len(normalized) + 1)
-    without_reserved[0] = True
-    for start in range(len(normalized)):
-        if not without_reserved[start] and not with_reserved[start]:
-            continue
-        for token in tokens:
-            if not normalized.startswith(token, start):
-                continue
-            end = start + len(token)
-            if with_reserved[start]:
-                with_reserved[end] = True
-            if without_reserved[start]:
-                if token in reserved:
-                    with_reserved[end] = True
-                else:
-                    without_reserved[end] = True
-    return with_reserved[-1]
+    for token in protected:
+        start = normalized.find(token)
+        while start >= 0:
+            if not _protected_occurrence_is_benign(
+                normalized, token, start
+            ):
+                return True
+            start = normalized.find(token, start + 1)
+    return False
 
 
 def _assert_no_result_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_key_has_reserved_tokens(
+        if _normalized_key_has_protected_occurrence(
             normalized, _RESULT_RESERVED_TOKENS
         ):
             raise ValueError("request payload contains an outcome field")
@@ -384,14 +347,16 @@ def _assert_no_result_fields(payload: dict[str, Json]) -> None:
 def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_key_has_reserved_tokens(
-            normalized, _IDENTITY_RESERVED_TOKENS
+        if _normalized_key_has_protected_occurrence(
+            normalized,
+            _IDENTITY_RESERVED_TOKENS,
+            exact_allowed=_ALLOWED_FACTOR_KEYS,
         ):
             raise ValueError("request payload contains an identity field")
 
 
 def _normalized_key_is_sealed(normalized: str) -> bool:
-    return _normalized_key_has_reserved_tokens(
+    return _normalized_key_has_protected_occurrence(
         normalized,
         _LATER_RESERVED_TOKENS,
         exact_allowed=_ALLOWED_TASK_ROUTE_KEYS,
@@ -408,7 +373,7 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
 def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_key_has_reserved_tokens(
+        if _normalized_key_has_protected_occurrence(
             normalized, _ACTOR_PRIVATE_RESERVED_TOKENS
         ):
             raise ValueError("request payload contains actor-private metadata")
@@ -417,8 +382,10 @@ def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
 def _assert_blind_forecast(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
         normalized = _normalized_key(key)
-        if _normalized_key_has_reserved_tokens(
-            normalized, _BLIND_FORECAST_COMPONENTS
+        if _normalized_key_has_protected_occurrence(
+            normalized,
+            _BLIND_FORECAST_COMPONENTS,
+            exact_allowed=_ALLOWED_FACTOR_KEYS,
         ):
             raise ValueError("forecast payload contains blinded metadata")
 

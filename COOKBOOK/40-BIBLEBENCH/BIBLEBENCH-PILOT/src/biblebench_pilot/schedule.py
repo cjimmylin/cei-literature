@@ -134,8 +134,12 @@ _BLIND_FORECAST_COMPONENTS = frozenset(
 _IDENTITY_RESERVED_TOKENS = frozenset({"actor", "model"})
 _RESULT_RESERVED_TOKENS = frozenset({"expected", "gold", "groundtruth"})
 _ACTOR_PRIVATE_RESERVED_TOKENS = frozenset({"role", "private"})
-_ACTOR_VISIBLE_METADATA_TOKENS = frozenset({"cue", "condition", "schedule"})
+_ACTOR_VISIBLE_METADATA_TOKENS = frozenset(
+    {"cue", "condition", "schedule", "bundle", "episode"}
+)
 _PRIMARY_ALLOWED_METADATA_KEYS = frozenset({"cuesurface"})
+_ROLE_PLAY_KEY_COMPONENTS = ("role", "play")
+_PRIMARY_CUE_SURFACE_COMPONENTS = ("cue", "surface")
 
 
 @dataclass(frozen=True)
@@ -287,6 +291,8 @@ def _assert_no_c3(
         ("visit", value, 0, None)
     ]
     active: set[int] = set()
+    seen: set[int] = set()
+    scheduled = 1
     while stack:
         operation, current, depth, field_name = stack.pop()
         if operation == "exit":
@@ -310,21 +316,39 @@ def _assert_no_c3(
             current, "__dict__"
         ):
             continue
-        if depth >= _MAX_VISIBLE_DEPTH or id(current) in active:
+        identity = id(current)
+        if identity in active:
             raise ValueError("value exceeds reserved-label traversal limits")
-        active.add(id(current))
+        if identity in seen:
+            continue
+        if depth >= _MAX_VISIBLE_DEPTH:
+            raise ValueError("value exceeds reserved-label traversal limits")
+        seen.add(identity)
+        active.add(identity)
         stack.append(("exit", current, depth, field_name))
         if type(current) is dict:
+            additional = len(current) * 2
+            if scheduled + additional > _MAX_REQUEST_FIELDS_AND_NODES:
+                raise ValueError("value exceeds reserved-label traversal limits")
+            scheduled += additional
             children = []
             for key, child in current.items():
                 if type(key) is str and _EMBEDDED_CUE_LABEL.search(key):
                     raise ValueError("field contains a reserved condition label")
                 children.append((child, key if type(key) is str else None))
         elif type(current) in {tuple, list}:
+            if scheduled + len(current) > _MAX_REQUEST_FIELDS_AND_NODES:
+                raise ValueError("value exceeds reserved-label traversal limits")
+            scheduled += len(current)
             children = [(child, field_name) for child in current]
         else:
+            attributes = vars(current)
+            additional = len(attributes) * 2
+            if scheduled + additional > _MAX_REQUEST_FIELDS_AND_NODES:
+                raise ValueError("value exceeds reserved-label traversal limits")
+            scheduled += additional
             children = []
-            for name, child in vars(current).items():
+            for name, child in attributes.items():
                 if _EMBEDDED_CUE_LABEL.search(name):
                     raise ValueError("field contains a reserved condition label")
                 children.append((child, name))
@@ -342,6 +366,19 @@ def _key_components(value: str) -> tuple[str, ...]:
         component
         for component in _NON_ALNUM_KEY.split(separated.casefold())
         if component
+    )
+
+
+def _key_has_protected_component(
+    value: str,
+    protected: frozenset[str],
+    *,
+    exact_allowed: frozenset[tuple[str, ...]] = frozenset(),
+) -> bool:
+    components = _key_components(value)
+    return (
+        components not in exact_allowed
+        and not protected.isdisjoint(components)
     )
 
 
@@ -448,6 +485,8 @@ def _normalized_key_has_protected_occurrence(
 
 def _assert_no_result_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
+        if _key_has_protected_component(key, _RESULT_RESERVED_TOKENS):
+            raise ValueError("request payload contains an outcome field")
         normalized = _normalized_key(key)
         if _normalized_key_has_protected_occurrence(
             normalized, _RESULT_RESERVED_TOKENS
@@ -457,6 +496,8 @@ def _assert_no_result_fields(payload: dict[str, Json]) -> None:
 
 def _assert_no_identity_fields(payload: dict[str, Json]) -> None:
     for key in _walk_keys(payload):
+        if _key_has_protected_component(key, _IDENTITY_RESERVED_TOKENS):
+            raise ValueError("request payload contains an identity field")
         normalized = _normalized_key(key)
         if _normalized_key_has_protected_occurrence(
             normalized,
@@ -487,7 +528,14 @@ def _assert_no_later_scope_fields(payload: dict[str, Json]) -> None:
 
 
 def _assert_no_actor_metadata_fields(payload: dict[str, Json]) -> None:
+    component_exceptions = frozenset({_ROLE_PLAY_KEY_COMPONENTS})
     for key in _walk_keys(payload):
+        if _key_has_protected_component(
+            key,
+            _ACTOR_PRIVATE_RESERVED_TOKENS,
+            exact_allowed=component_exceptions,
+        ):
+            raise ValueError("request payload contains actor-private metadata")
         normalized = _normalized_key(key)
         if _normalized_key_has_protected_occurrence(
             normalized, _ACTOR_PRIVATE_RESERVED_TOKENS
@@ -499,7 +547,18 @@ def _assert_no_actor_visible_metadata_fields(
     payload: dict[str, Json], *, primary: bool
 ) -> None:
     exact_allowed = _PRIMARY_ALLOWED_METADATA_KEYS if primary else frozenset()
+    component_exceptions = (
+        frozenset({_PRIMARY_CUE_SURFACE_COMPONENTS})
+        if primary
+        else frozenset()
+    )
     for key in _walk_keys(payload):
+        if _key_has_protected_component(
+            key,
+            _ACTOR_VISIBLE_METADATA_TOKENS,
+            exact_allowed=component_exceptions,
+        ):
+            raise ValueError("request payload contains condition metadata")
         normalized = _normalized_key(key)
         if _normalized_key_has_protected_occurrence(
             normalized,
@@ -510,7 +569,14 @@ def _assert_no_actor_visible_metadata_fields(
 
 
 def _assert_blind_forecast(payload: dict[str, Json]) -> None:
+    component_exceptions = frozenset({_ROLE_PLAY_KEY_COMPONENTS})
     for key in _walk_keys(payload):
+        if _key_has_protected_component(
+            key,
+            _BLIND_FORECAST_COMPONENTS,
+            exact_allowed=component_exceptions,
+        ):
+            raise ValueError("forecast payload contains blinded metadata")
         normalized = _normalized_key(key)
         if _normalized_key_has_protected_occurrence(
             normalized,
@@ -1017,7 +1083,10 @@ def _assert_schedule_counterbalanced(schedule: Schedule) -> None:
         _type_error("schedule collections must be tuples")
     if len(schedule.bundles) != 48 or len(schedule.logical_calls) != 336:
         raise ValueError("schedule must contain 48 bundles and 336 logical calls")
-    _assert_no_c3(schedule)
+    _assert_no_c3(schedule.seed)
+    _assert_no_c3(schedule.bundles)
+    for row in schedule.logical_calls:
+        _assert_no_c3(row)
 
     bundles = tuple(_validate_scheduled_bundle(bundle) for bundle in schedule.bundles)
     calls = tuple(_validate_scheduled_call(row) for row in schedule.logical_calls)

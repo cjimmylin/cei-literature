@@ -544,6 +544,101 @@ def test_payload_allows_complete_benign_grammars_at_arbitrary_positions(
 @pytest.mark.parametrize(
     "protected_key",
     [
+        "res_cue_notes",
+        "resCueNotes",
+        "barbe_cue_plan",
+        "re_schedule_options",
+        "reScheduleOptions",
+        "f_actor",
+        "contr_actor_name",
+        "re_model_plan",
+        "gold_en_rule",
+        "mari_gold_color",
+        "pa_role_status",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_rejects_reserved_key_components_before_benign_grammar(
+    protected_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {protected_key: "opaque"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("protected_key", ["bundle_id", "episode_id"])
+def test_probe_rejects_all_actor_visible_metadata_components(
+    protected_key: str,
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], probe_payload={protected_key: "opaque"}
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize("protected_key", ["user_role_play", "statusRolePlay"])
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_role_component_exception_is_exactly_role_play(
+    protected_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    episode = replace(
+        pack.episodes[0], **{field_name: {protected_key: "opaque"}}
+    )
+
+    with pytest.raises(ValueError):
+        compile_schedule(
+            _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+        )
+
+
+@pytest.mark.parametrize(
+    "benign_key",
+    [
+        "rescue_notes",
+        "barbecue_plan",
+        "reschedule_options",
+        "remodel_plan",
+        "golden_rule",
+        "marigold_color",
+        "parole_status",
+        "role_play",
+        "rolePlay",
+    ],
+)
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_payload_preserves_registered_noncomponent_grammars(
+    benign_key: str, field_name: str
+) -> None:
+    pack = _pack()
+    payload = {"outer": [{"inner": {benign_key: "ordinary"}}]}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    rows = (
+        schedule.forecast_rows
+        if field_name == "forecast_payload"
+        else schedule.probe_rows
+    )
+    assert rows[0].request_payload["outer"] == payload["outer"]
+
+
+@pytest.mark.parametrize(
+    "protected_key",
+    [
         "providership_id",
         "reschedule_id",
         "golden_label",
@@ -691,7 +786,10 @@ def test_payload_rejects_request_limit_overruns(
     pack = _pack()
     episode = replace(pack.episodes[0], **{field_name: payload})
 
-    with pytest.raises(ValueError, match="request payload exceeds limits"):
+    with pytest.raises(
+        ValueError,
+        match=r"exceeds (?:reserved-label traversal )?limits",
+    ):
         compile_schedule(
             _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
         )
@@ -1469,6 +1567,78 @@ def test_compile_rejects_cyclic_json_payloads() -> None:
     episode = replace(pack.episodes[0], probe_payload={"cycle": cyclic})
     with pytest.raises(ValueError):
         compile_schedule(_with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711)
+
+
+@pytest.mark.parametrize("levels", [20, 30])
+def test_reserved_label_walk_inspects_shared_alias_dag_once(
+    levels: int, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original = schedule_module._EMBEDDED_CUE_LABEL
+
+    class BoundedSearch:
+        calls = 0
+
+        def search(self, value):
+            self.calls += 1
+            if self.calls > 200:
+                raise AssertionError("reserved-label walk repeated a shared alias")
+            return original.search(value)
+
+    bounded = BoundedSearch()
+    monkeypatch.setattr(schedule_module, "_EMBEDDED_CUE_LABEL", bounded)
+    shared = {"ordinary_note": "ordinary"}
+    for _ in range(levels):
+        shared = {"left": shared, "right": shared}
+
+    schedule_module._assert_no_c3(shared)
+
+    assert bounded.calls <= 2 * levels + 2
+
+
+def test_reserved_label_walk_rejects_wide_container_before_children() -> None:
+    wide = ["C3", *([None] * 4_096)]
+
+    with pytest.raises(ValueError, match="traversal limits"):
+        schedule_module._assert_no_c3(wide)
+
+
+def test_reserved_label_walk_still_rejects_cycles_with_seen_aliases() -> None:
+    cyclic = []
+    cyclic.append(cyclic)
+
+    with pytest.raises(ValueError, match="traversal limits"):
+        schedule_module._assert_no_c3(cyclic)
+
+
+def test_reserved_label_walk_still_rejects_depth_boundary() -> None:
+    nested = []
+    for _ in range(128):
+        nested = [nested]
+
+    with pytest.raises(ValueError, match="traversal limits"):
+        schedule_module._assert_no_c3(nested)
+
+
+@pytest.mark.parametrize("field_name", ["forecast_payload", "probe_payload"])
+def test_compile_accepts_small_shared_payload_aliases(
+    field_name: str,
+) -> None:
+    pack = _pack()
+    shared = {"ordinary_note": "ordinary"}
+    payload = {"left": shared, "right": shared}
+    episode = replace(pack.episodes[0], **{field_name: payload})
+
+    schedule = compile_schedule(
+        _with_episode(pack, 0, episode), actor_ids=ACTORS, seed=711
+    )
+
+    rows = (
+        schedule.forecast_rows
+        if field_name == "forecast_payload"
+        else schedule.probe_rows
+    )
+    assert rows[0].request_payload["left"] == shared
+    assert rows[0].request_payload["right"] == shared
 
 
 def test_reserved_label_walk_rejects_excessive_depth_without_recursion_error() -> None:

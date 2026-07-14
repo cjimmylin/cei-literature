@@ -1,0 +1,109 @@
+{
+  "validity_label": "EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE",
+  "run_status": "COMPLETE",
+  "input_artifacts": [
+    {
+      "artifact_kind": "run_identity",
+      "path": "07-PILOTS/20260713-ppp1-exploratory-preview/ppp1-run-identity.json",
+      "sha256": "64df38e5f5d7327b439217383519302516cd560dcdc53b5f1686bc3aee4e0439",
+      "bytes": 32614,
+      "selected_version": "only frozen run identity"
+    },
+    {
+      "artifact_kind": "checkpoint",
+      "path": "07-PILOTS/20260713-ppp1-exploratory-preview/checkpoint.jsonl",
+      "sha256": "a3b8586edb0ef8bf3917f63fe965bb6f371bc861722213d6650213f3531eaae0",
+      "bytes": 3228290,
+      "selected_version": "final COMPLETE checkpoint; 678 cells"
+    },
+    {
+      "artifact_kind": "raw_evidence",
+      "path": "07-PILOTS/20260713-ppp1-exploratory-preview/raw-evidence.jsonl",
+      "sha256": "b5739f50c3187bc10770fb9149745bbb435f1d78ab3726707026d8895dd28f46",
+      "bytes": 11858890,
+      "selected_version": "final append-only raw ledger selected by run identity"
+    },
+    {
+      "artifact_kind": "final_metadata",
+      "path": "07-PILOTS/20260713-ppp1-exploratory-preview/run-metadata.json",
+      "sha256": "c73613a0b877783f49a1c6430af1e0620767f6f31eb61c7c38adaa8ccc52c721",
+      "bytes": 34936,
+      "selected_version": "unsuffixed final metadata selected; run_status COMPLETE"
+    },
+    {
+      "artifact_kind": "final_report",
+      "path": "07-PILOTS/20260713-ppp1-exploratory-preview/ppp1-report.md",
+      "sha256": "e42192513d77e0514a4df2ff7f21af6282fe3c53bb4813441891131a592afdb8",
+      "bytes": 594,
+      "selected_version": "unsuffixed final report selected"
+    },
+    {
+      "artifact_kind": "frozen_bank",
+      "path": "05-BANK-YAML/*.yaml|*.yml",
+      "sha256": "f4f7b8bc941979c8769f7ce2914a567e3b4aa9f5f256d9f7ed080eb326c758c5",
+      "bytes": 1103582,
+      "selected_version": "sorted aggregate of 40 frozen YAML files; 230 loaded / 226 runnable"
+    },
+    {
+      "artifact_kind": "manuscript_source",
+      "path": "08-PAPER/02-introduction.md",
+      "sha256": "06abb7ace20df9455190edf869f9c8f920da61a5e2c8bba7928ce11788d99eac",
+      "bytes": 12098,
+      "selected_version": "exact unchanged source selected: 02-introduction.md"
+    },
+    {
+      "artifact_kind": "manuscript_source",
+      "path": "08-PAPER/03-related-work.md",
+      "sha256": "db4e6cb5144a46d3fc2d1584bf1a8f87abcd57e3a3d86a3058cfb6f78bf77aa1",
+      "bytes": 12341,
+      "selected_version": "exact unchanged source selected: 03-related-work.md"
+    },
+    {
+      "artifact_kind": "manuscript_source",
+      "path": "08-PAPER/04-benchmark-design.md",
+      "sha256": "b898c8b77eea29bc652c679ea1639e207fe94ac19be765aa5fc4abc7aaf90ef7",
+      "bytes": 32118,
+      "selected_version": "exact unchanged source selected: 04-benchmark-design.md"
+    },
+    {
+      "artifact_kind": "manuscript_source",
+      "path": "08-PAPER/05-methods-validity.md",
+      "sha256": "e64c986cb503f61d359ae4a8356df4d3161267d2457be96252046b884db5aa80",
+      "bytes": 36819,
+      "selected_version": "exact unchanged source selected: 05-methods-validity.md"
+    }
+  ],
+  "score_contract": {
+    "ordinal_anchor_open": "checkpoint.jsonl:scores.fraction",
+    "episode": "checkpoint.jsonl:judge.score",
+    "contested": "checkpoint.jsonl:scores.contested.* (no headline composite)",
+    "missingness": "errors/ungraded/unrecorded are not imputed"
+  },
+  "roster": {
+    "suts": [
+      "meta-llama/llama-3.1-8b-instruct",
+      "deepseek/deepseek-chat",
+      "qwen/qwen3.7-plus"
+    ],
+    "judge": "google/gemini-2.5-flash"
+  },
+  "generated_files": [
+    "00-README.md",
+    "01-source-manifest.json",
+    "02-normalized-cells.csv",
+    "03-traceability.csv",
+    "04-traceability.md",
+    "05-preview-results.md",
+    "06-preview-discussion.md",
+    "07-preview-limitations.md",
+    "08-assembled-manuscript-preview.md",
+    "tables/01-per-design-per-sut.csv",
+    "tables/01-per-design-per-sut.md",
+    "tables/02-per-sut-aggregate.csv",
+    "tables/02-per-sut-aggregate.md",
+    "tables/03-overall-aggregate.csv",
+    "tables/03-overall-aggregate.md",
+    "figures/01-design-by-sut.svg",
+    "figures/02-per-sut-aggregate.svg"
+  ]
+}

@@ -75,13 +75,13 @@ touch T4, edit bank files, or build convenience tooling.
 
 **Output:** new `07-PILOTS/20260713-ppp1-exploratory-preview/` only.
 
-- [ ] Before inference, perform the runner's R40.1 auth and catalog checks, validate the
+- [x] Before inference, perform the runner's R40.1 auth and catalog checks, validate the
   four exact slugs/prices and at least `$23.56` remaining balance, then freeze run identity.
-- [ ] Start the one authorized run with `--go`, judge cap 512, SUT cap 2,048, budget 23.56,
+- [x] Start the one authorized run with `--go`, judge cap 512, SUT cap 2,048, budget 23.56,
   exact new output directory, and no substitutions.
-- [ ] Allow only registered retries. Persist isolated cell failures as errors and continue;
+- [x] Allow only registered retries. Persist isolated cell failures as errors and continue;
   never debug or rerun them.
-- [ ] Reconcile response-attributed run cost and contextual shared-key delta; do not assign
+- [x] Reconcile response-attributed run cost and contextual shared-key delta; do not assign
   concurrent shared-account spend to PPP-1 without evidence.
 
 **Done when:** all 678 cells are scored-or-error-recorded, or the strict cap stops the run
@@ -91,25 +91,25 @@ with every completed attempt persisted. The authorization is consumed either way
 
 **Files:** create only under `08-PAPER/20260713-ppp1-exploratory-preview/`.
 
-- [ ] Parse the immutable run record offline and create traceable per-design, per-SUT, and
+- [x] Parse the immutable run record offline and create traceable per-design, per-SUT, and
   aggregate CSV/Markdown tables with denominators and error/ungraded counts.
-- [ ] Create the minimum useful self-contained SVG figures directly from those tables.
-- [ ] Draft preview Results, evidence-supported Discussion, conspicuous limitations box,
+- [x] Create the minimum useful self-contained SVG figures directly from those tables.
+- [x] Draft preview Results, evidence-supported Discussion, conspicuous limitations box,
   and an assembled manuscript preview. Preserve uncertainty and do not make rankings,
   gate, release, family-level, consensus, or quotable claims.
-- [ ] Include a provenance map from every displayed value to immutable run fields.
-- [ ] Receive one specification review and one quality review, fixing only P0/P1 blockers.
+- [x] Include a provenance map from every displayed value to immutable run fields.
+- [x] Receive one specification review and one quality review, fixing only P0/P1 blockers.
 
 **Done when:** Jimmy can review one assembled, labeled, paper-shaped packet containing the
 required tables, figures, Results, Discussion, limitations, and traceability map.
 
 ## Task 4 — Close and hand off
 
-- [ ] Resolve the PPP-1 authorization question in `PENDING-QUESTIONS.md` without rewriting
+- [x] Resolve the PPP-1 authorization question in `PENDING-QUESTIONS.md` without rewriting
   historical text; append the execution outcome or blocker.
-- [ ] Update only authorized WCF/portfolio live surfaces whose WCF contract materially
+- [x] Update only authorized WCF/portfolio live surfaces whose WCF contract materially
   changed; preserve unrelated dirty changes.
-- [ ] Run fresh focused and full verification plus artifact/secret/bank/run immutability
+- [x] Run fresh focused and full verification plus artifact/secret/bank/run immutability
   checks.
 - [ ] Write a new dated session handoff, update `project-dashboard.html`, commit and push
   explicit WCF paths, reload the dashboard in the browser, visually verify it, and leave it

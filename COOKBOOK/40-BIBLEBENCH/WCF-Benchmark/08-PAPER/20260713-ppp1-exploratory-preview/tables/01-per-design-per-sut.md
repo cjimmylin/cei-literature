@@ -1,0 +1,38 @@
+# PPP-1 per-design × per-SUT
+
+> **EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE**
+
+Errors and ungraded cells are missing values, never zero-imputed.
+
+| design | sut | expected_n | headline_expected_n | recorded_n | status_scored_n | numeric_n | error_n | ungraded_n | unrecorded_n | contested_n | mechanical_numeric_n | judge_numeric_n | coverage | mean | sd | ci95_low | ci95_high | ci_method | open_matter_n | open_matter_mean | open_manner_n | open_manner_mean | open_end_n | open_end_mean |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| dutybound | meta-llama/llama-3.1-8b-instruct | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.4564 | 0.3021 | 0.3260 | 0.5792 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.4564 | 23 | 0.5870 | 22 | 0.4886 |
+| dutybound | deepseek/deepseek-chat | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.8726 | 0.1449 | 0.8127 | 0.9251 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.8726 | 22 | 0.9318 | 21 | 0.8929 |
+| dutybound | qwen/qwen3.7-plus | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.8893 | 0.2372 | 0.7835 | 0.9686 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.8893 | 21 | 0.8571 | 19 | 0.8684 |
+| complicit | meta-llama/llama-3.1-8b-instruct | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.4403 | 0.3720 | 0.2896 | 0.5816 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.4403 | 23 | 0.8478 | 23 | 0.4674 |
+| complicit | deepseek/deepseek-chat | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.7679 | 0.3449 | 0.6213 | 0.8973 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.7679 | 23 | 0.8913 | 22 | 0.7727 |
+| complicit | qwen/qwen3.7-plus | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.8768 | 0.2283 | 0.7862 | 0.9601 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.8768 | 23 | 0.9130 | 20 | 0.8875 |
+| aggravate | meta-llama/llama-3.1-8b-instruct | 24 | 20 | 24 | 21 | 17 | 3 | 0 | 0 | 4 | 14 | 3 | 0.8500 | 0.7059 | 0.4697 | 0.4706 | 0.9231 | item bootstrap within design; 1000 deterministic resamples | 3 | 0.0000 | 3 | 0.0000 | 3 | 0.0000 |
+| aggravate | deepseek/deepseek-chat | 24 | 20 | 24 | 16 | 12 | 8 | 0 | 0 | 4 | 10 | 2 | 0.6000 | 0.8611 | 0.3321 | 0.6333 | 1.0000 | item bootstrap within design; 1000 deterministic resamples | 2 | 1.0000 | 1 | 1.0000 | 2 | 1.0000 |
+| aggravate | qwen/qwen3.7-plus | 24 | 20 | 24 | 20 | 17 | 4 | 0 | 0 | 4 | 16 | 1 | 0.8500 | 0.8824 | 0.3321 | 0.6875 | 1.0000 | item bootstrap within design; 1000 deterministic resamples | 1 | 1.0000 | 1 | 1.0000 | 2 | 1.0000 |
+| steadfast | meta-llama/llama-3.1-8b-instruct | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.2492 | 0.2815 | 0.1471 | 0.3759 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.2492 | 23 | 0.4928 | 23 | 0.1630 |
+| steadfast | deepseek/deepseek-chat | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.9133 | 0.2309 | 0.8190 | 0.9842 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.9133 | 23 | 0.8841 | 23 | 0.9565 |
+| steadfast | qwen/qwen3.7-plus | 23 | 23 | 23 | 21 | 21 | 2 | 0 | 0 | 0 | 0 | 21 | 0.9130 | 0.9138 | 0.1712 | 0.8391 | 0.9769 | item bootstrap within design; 1000 deterministic resamples | 21 | 0.9138 | 21 | 0.8571 | 21 | 0.9238 |
+| crosswind | meta-llama/llama-3.1-8b-instruct | 23 | 23 | 23 | 22 | 22 | 1 | 0 | 0 | 0 | 0 | 22 | 0.9565 | 0.5138 | 0.4175 | 0.3473 | 0.6835 | item bootstrap within design; 1000 deterministic resamples | 22 | 0.5138 | 22 | 0.6364 | 22 | 0.5795 |
+| crosswind | deepseek/deepseek-chat | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 0 | 23 | 1.0000 | 0.9304 | 0.1636 | 0.8565 | 0.9913 | item bootstrap within design; 1000 deterministic resamples | 23 | 0.9304 | 23 | 0.9130 | 22 | 0.9432 |
+| crosswind | qwen/qwen3.7-plus | 23 | 23 | 23 | 21 | 21 | 2 | 0 | 0 | 0 | 0 | 21 | 0.9130 | 0.9203 | 0.2346 | 0.7991 | 1.0000 | item bootstrap within design; 1000 deterministic resamples | 21 | 0.9203 | 23 | 0.9130 | 19 | 1.0000 |
+| liberty | meta-llama/llama-3.1-8b-instruct | 19 | 19 | 19 | 18 | 18 | 1 | 0 | 0 | 0 | 0 | 18 | 0.9474 | 0.4359 | 0.4230 | 0.2491 | 0.6286 | item bootstrap within design; 1000 deterministic resamples | 18 | 0.4359 | 16 | 0.6094 | 16 | 0.4313 |
+| liberty | deepseek/deepseek-chat | 19 | 19 | 19 | 17 | 17 | 2 | 0 | 0 | 0 | 0 | 17 | 0.8947 | 0.7977 | 0.3023 | 0.6490 | 0.9271 | item bootstrap within design; 1000 deterministic resamples | 17 | 0.7977 | 17 | 0.9265 | 18 | 0.8750 |
+| liberty | qwen/qwen3.7-plus | 19 | 19 | 19 | 16 | 16 | 3 | 0 | 0 | 0 | 0 | 16 | 0.8421 | 0.9740 | 0.0845 | 0.9278 | 1.0000 | item bootstrap within design; 1000 deterministic resamples | 16 | 0.9740 | 16 | 0.9375 | 15 | 0.9333 |
+| prooftext | meta-llama/llama-3.1-8b-instruct | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 23 | 0 | 1.0000 | 0.0239 | 0.0796 | 0.0000 | 0.0609 | item bootstrap within design; 1000 deterministic resamples | 0 | — | 0 | — | 0 | — |
+| prooftext | deepseek/deepseek-chat | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 23 | 0 | 1.0000 | 0.2872 | 0.3415 | 0.1618 | 0.4262 | item bootstrap within design; 1000 deterministic resamples | 0 | — | 0 | — | 0 | — |
+| prooftext | qwen/qwen3.7-plus | 23 | 23 | 23 | 23 | 23 | 0 | 0 | 0 | 0 | 23 | 0 | 1.0000 | 0.3158 | 0.3068 | 0.1990 | 0.4474 | item bootstrap within design; 1000 deterministic resamples | 0 | — | 0 | — | 0 | — |
+| mending | meta-llama/llama-3.1-8b-instruct | 24 | 24 | 24 | 21 | 21 | 3 | 0 | 0 | 0 | 0 | 21 | 0.8750 | 0.2663 | 0.3655 | 0.1254 | 0.4208 | item bootstrap within design; 1000 deterministic resamples | 21 | 0.2663 | 15 | 0.1500 | 22 | 0.4205 |
+| mending | deepseek/deepseek-chat | 24 | 24 | 24 | 20 | 20 | 4 | 0 | 0 | 0 | 0 | 20 | 0.8333 | 0.8507 | 0.2793 | 0.7177 | 0.9591 | item bootstrap within design; 1000 deterministic resamples | 20 | 0.8507 | 14 | 1.0000 | 17 | 1.0000 |
+| mending | qwen/qwen3.7-plus | 24 | 24 | 24 | 16 | 16 | 8 | 0 | 0 | 0 | 0 | 16 | 0.6667 | 0.9816 | 0.0399 | 0.9618 | 1.0000 | item bootstrap within design; 1000 deterministic resamples | 16 | 0.9816 | 9 | 1.0000 | 18 | 0.9861 |
+| wholeheart | meta-llama/llama-3.1-8b-instruct | 22 | 22 | 22 | 21 | 21 | 1 | 0 | 0 | 0 | 0 | 21 | 0.9545 | 0.4224 | 0.4010 | 0.2614 | 0.5887 | item bootstrap within design; 1000 deterministic resamples | 21 | 0.4224 | 19 | 0.5000 | 18 | 0.5444 |
+| wholeheart | deepseek/deepseek-chat | 22 | 22 | 22 | 16 | 16 | 6 | 0 | 0 | 0 | 0 | 16 | 0.7273 | 0.8628 | 0.2751 | 0.7179 | 0.9688 | item bootstrap within design; 1000 deterministic resamples | 16 | 0.8628 | 17 | 0.8529 | 18 | 0.6944 |
+| wholeheart | qwen/qwen3.7-plus | 22 | 22 | 22 | 10 | 10 | 12 | 0 | 0 | 0 | 0 | 10 | 0.4545 | 0.8917 | 0.2486 | 0.7130 | 1.0000 | item bootstrap within design; 1000 deterministic resamples | 10 | 0.8917 | 11 | 1.0000 | 11 | 0.9318 |
+| narrowgate | meta-llama/llama-3.1-8b-instruct | 22 | 22 | 22 | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 22 | 1.0000 | 0.4582 | 0.3786 | 0.3219 | 0.6037 | item bootstrap within design; 1000 deterministic resamples | 0 | — | 0 | — | 0 | — |
+| narrowgate | deepseek/deepseek-chat | 22 | 22 | 22 | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 22 | 1.0000 | 0.8076 | 0.3266 | 0.6697 | 0.9273 | item bootstrap within design; 1000 deterministic resamples | 0 | — | 0 | — | 0 | — |
+| narrowgate | qwen/qwen3.7-plus | 22 | 22 | 22 | 22 | 22 | 0 | 0 | 0 | 0 | 0 | 22 | 1.0000 | 0.9372 | 0.1553 | 0.8727 | 0.9917 | item bootstrap within design; 1000 deterministic resamples | 0 | — | 0 | — | 0 | — |

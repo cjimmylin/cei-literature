@@ -27,6 +27,32 @@
   2,048/512 token caps, one-run boundary, and strict `$23.56` NTE unchanged. Make no
   inference call until Jimmy ratifies this refresh.
 
+## RESOLVED 2026-07-13 — PPP-1 four-row catalog refresh, execution, and packet
+
+- **Disposition:** Jimmy authorized one append-only four-row catalog refresh and
+  re-freeze after an exact offline ceiling check. All 226 Qwen SUT prompts, including
+  the system text, remained below the new pricing override: the maximum was 2,221
+  tokens at `MEND-C1-W301`, leaving 253,779 tokens of headroom below 256,000. The
+  refreshed catalog hash is
+  `e97e482f8fc963ffe2e0743257e1d1041437ebdef1cbcf9babdb03c7b2d0318a`; the frozen
+  refreshed manifest SHA-256 is
+  `f1121b2bd279a83053f2521c99a45b4d116c1399da78776f515dceb4f210d796`.
+- **Execution:** The unchanged exact roster, base prices, 2,048/512 token caps, retry
+  rules, one-run boundary, and strict `$23.56` NTE were preserved. The one authorized
+  run completed once with 678/678 cells recorded: 618 scored and 60 error-recorded,
+  with no terminal stop or budget hit. The one-run authority is consumed; no rerun is
+  authorized.
+- **Cost reconciliation:** The actual-first accounting total is `$3.0552242489`, below
+  the strict NTE. Response-attributed cost is unavailable because two calls required
+  fallback accounting. The shared-key delta of `$13.7768984160` is contextual only:
+  Jimmy identified concurrent use of the shared account, and the key limit also changed
+  during the interval. It is not attributed to PPP-1.
+- **Paper effect:** The complete packet at
+  `08-PAPER/20260713-ppp1-exploratory-preview/` passed specification re-review after one
+  bounded fix cycle and then passed quality review. It remains
+  **EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE**. No ranking, gate,
+  release, family-level, consensus, T4, or additional paid-call effect follows.
+
 ## RESOLVED 2026-07-13 — PPP-1 second-cycle interruption-custody choice
 
 - **Disposition:** Jimmy authorized **FIX** for the PPP-1 interruption-custody P1 only.

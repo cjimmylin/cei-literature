@@ -111,7 +111,7 @@ required tables, figures, Results, Discussion, limitations, and traceability map
   changed; preserve unrelated dirty changes.
 - [x] Run fresh focused and full verification plus artifact/secret/bank/run immutability
   checks.
-- [ ] Write a new dated session handoff, update `project-dashboard.html`, commit and push
+- [x] Write a new dated session handoff, update `project-dashboard.html`, commit and push
   explicit WCF paths, reload the dashboard in the browser, visually verify it, and leave it
   open for Jimmy.
 

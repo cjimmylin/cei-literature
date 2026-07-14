@@ -1118,5 +1118,44 @@ substitution or extra probe authority.
 
 ---
 
+## PR-26 — G7 paraphrase-author prompt, parser, and semantic L1–L9 contract are absent
+
+**Surfaced:** 2026-07-13 during the required $0 G7-A1 custody-driver build, after the
+fresh 469-test baseline and before credential access. PR-18 B1 requires every
+Mistral-authored paraphrase to pass exact structural/literal invariants and the full
+L1–L9 lint before any perturbed SUT call. The implemented no-call mechanics provide
+protected field templates and accept only an exact Boolean L1–L9 result, but the
+repository contains no literal author prompt, response schema/parser, or executable
+semantic lint source. L5 (no villain prose) and L9 (citation-gloss integrity) cannot be
+derived mechanically without an authorized reviewer. Inventing any of these surfaces
+would violate the zero-judgment and STOP-AND-ASK rules.
+
+The PR-25 custody core is now independently reviewed and green, but no G7-A1 run
+directory, credential access, POST, or spend occurred. The production thread stops
+before the 73-call paraphrase-author stage.
+
+**Recommended option 1:** route one authoring-contract memo to an explicit Opus reviewer,
+then Jimmy. The memo must freeze the literal Mistral prompt, exact JSON field-path
+schema/parser, operational L1–L9 review checklist, and first/second author-output or
+lint-failure disposition. Jimmy ratifies the resulting artifact/hash before Codex makes
+any paraphrase-author or SUT call. PR-18 B1 invariants, the fixed 73-item/438-cell
+denominator, and every PR-25 replay/cost/roster limit remain unchanged.
+
+**Option 2:** remain no-call; keep G7 PENDING while human labels/G4 continue.
+
+**Exact requested ruling:**
+
+> Ratify PR-26 option 1: route the missing G7 paraphrase-author contract to one explicit
+> Opus memo that freezes the literal Mistral prompt, exact JSON field-path schema/parser,
+> operational L1–L9 checklist, and first/second author-output or lint-failure
+> disposition; require Jimmy ratification of that memo and its artifact hash before any
+> author or perturbed-SUT call; retain PR-18 B1 invariants, the fixed 73-item/438-cell
+> denominator, and every PR-25 roster/replay/cost limit; no substitution, item
+> replacement, denominator change, HOLDOUT access, or automatic scale-up.
+
+**Status:** OPEN / G7-A1 PAID EXECUTION STOPPED. No credential or live call until ruled.
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

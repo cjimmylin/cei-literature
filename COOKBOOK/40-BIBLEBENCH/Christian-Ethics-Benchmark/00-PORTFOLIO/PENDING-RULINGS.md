@@ -1153,15 +1153,16 @@ denominator, and every PR-25 replay/cost/roster limit remain unchanged.
 > denominator, and every PR-25 roster/replay/cost limit; no substitution, item
 > replacement, denominator change, HOLDOUT access, or automatic scale-up.
 
-**Status:** OPTION 1 ROUTING RATIFIED 2026-07-13; OPUS MEMO COMPLETE; SECOND JIMMY GATE
-OPEN / G7-A1 PAID EXECUTION STOPPED. Jimmy supplied the requested option-1 ruling
-verbatim; immutable record: `20260713r-jimmy-pr26-routing-ruling.md`. Exactly one explicit
+**Status:** RATIFIED + CLOSED 2026-07-13. Jimmy supplied the requested option-1 routing
+and then ratified the exact Opus artifact/hash together with PR-27 option 1. The routing
+record is `20260713r-jimmy-pr26-routing-ruling.md`; exact contract:
+`20260713s-opus-g7-paraphrase-author-contract.md`; final ruling:
+`20260713v-jimmy-pr27-contract-ruling.md`. Exactly one explicit
 Opus reviewer produced `20260713s-opus-g7-paraphrase-author-contract.md`; immutable
 custody record: `20260713t-codex-pr26-opus-contract-custody.md`; exact artifact SHA-256:
-`59caaa1c055dd1badd16694e078a91a40b18e4e1ebd9f6d15510f89e9f79b320`. The artifact
-identified the residual runtime-reviewer decision now parked as PR-27. No credential,
-production-run creation, or live call is authorized until Jimmy ratifies the exact
-artifact/hash and rules PR-27.
+`59caaa1c055dd1badd16694e078a91a40b18e4e1ebd9f6d15510f89e9f79b320`. Implementation
+and the PR-25(a) author stage are now authorized; downstream perturbed-SUT calls remain
+item-gated on Gate A plus Jimmy's applicable semantic booleans.
 
 ---
 
@@ -1201,8 +1202,40 @@ are registered. Remain no-call until then.
 > HOLDOUT access, or automatic scale-up, and keep every PR-18 B1 and PR-25/25(a) roster,
 > replay, cost, checkpoint, concurrency, call-cap, and $30 NTE limit unchanged.
 
-**Status:** OPEN / SECOND PR-26 GATE + PAID G7-A1 STOPPED. No credential or live call
-until the exact Opus artifact/hash and PR-27 are ratified.
+**Status:** RATIFIED + CLOSED 2026-07-13. Jimmy ratified option 1 verbatim together with
+the exact Opus artifact/hash. Immutable record: `20260713v-jimmy-pr27-contract-ruling.md`.
+Jimmy is the non-model PUBLIC-only semantic reviewer; no API call/model/spend was added.
+
+---
+
+## PR-28 — Exact author-runtime materialization is under-specified
+
+**Surfaced:** 2026-07-13 after PR-27 ratification, during the required RED-first mapping
+and before credential access. Independent code/test audits found that the ratified memo
+does not exactly define `key_direction_summary`, the L8 Scripture-reference grammar, or
+the lifecycle difference between an unsubmitted Jimmy review and an explicit missing or
+malformed review. The current spend ledger also completes a transport-valid response
+before parser/Gate A/Gate B can decide whether the one replay is required.
+
+**Recommended option 1:** adopt the complete mechanical definitions in
+`20260713w-codex-pr28-author-runtime-contract-decision.md`: canonical JSON of `Item.key`;
+the exact conservative no-flags L8 regex; and append-only `validation_pending`, where
+mere absence remains pending and only an explicit review-complete submission can turn a
+missing/malformed/uncertain result into `false`. First validation failure permits the
+one exact replay; second failure becomes unresolved; author/review bodies remain outside
+the spend ledger.
+
+**Option 2:** remain no-call until Jimmy supplies alternative exact definitions.
+
+**Exact requested ruling:**
+
+> Ratify PR-28 option 1: materialize the ratified G7 author contract by defining
+> `key_direction_summary` as `json.dumps(item.key, ensure_ascii=False, sort_keys=True,
+> separators=(",", ":"))`; implement L8 with exact no-flags regex
+> `(?<!\w)(?:[1-3]\s+)?[A-Z][A-Za-z]*\.?(?:\s+[A-Z][A-Za-z]*\.?){0,2}\s+\d{1,3}(?::\d{1,3}(?:[-–]\d{1,3})?)?(?!\w)` and fail only on matches newly introduced versus the corresponding original fields; add append-only `validation_pending` after transport so an unsubmitted Jimmy review remains pending and consumes no replay, while an explicit review-complete submission makes any omitted, malformed, mismatched, non-boolean, refusing, or uncertain required result `false`; first parser/Gate-A/semantic failure permits the one byte-identical replay, second failure becomes unresolved without replacement, and only all-true validation completes the logical key; retain full author/review custody outside the body-free spend ledger and keep every PR-18/25/25(a)/26/27 model, call, replay, cost, checkpoint, concurrency, denominator, HOLDOUT, substitution, scale-up, and $30 NTE boundary unchanged.
+
+**Status:** OPEN / G7 AUTHOR IMPLEMENTATION + PAID CALLS STOPPED. No credential or author
+call until ruled.
 
 ---
 

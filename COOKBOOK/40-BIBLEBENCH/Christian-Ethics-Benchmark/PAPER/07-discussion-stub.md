@@ -65,8 +65,16 @@ next-cycle gate amendments already filed (G6 for constant-key designs).
 The cheap-panel run established execution feasibility across all ten methods at low cost,
 but it did not convert cheap judges into ground truth. Exact rubric-cell agreement varied
 substantially by design, and registered exclusions made several primary cells unavailable.
-The useful next evidence is therefore not a wider paid model panel: it is the already-frozen
-human-label surface that can validate or reject the judge-dependent rows. This is a
-paper-design observation, not a model-performance conclusion.
+The useful next evidence is therefore not a wider paid model panel. Two distinct paths
+exist and must not be conflated: (i) to make any *release-grade* statement about these
+designs, complete the already-frozen O5 human-label waves (wave 1 `{02,07,01}`) and run
+G4 on the frozen O5 judge pair—these labels validate the O5 judges on O4/O5-panel
+responses and populate the separate §6 results, not the exploratory §6A cells; (ii) to
+strengthen the §6A rows themselves would instead require new human adjudication of these
+exact cheap-SUT responses, or re-judging them with a validated judge. The frozen O5
+labels do not validate the MVP-A1 cheap judges (`gpt-4.1-nano`, `llama-3.3-70b`), which
+scored different responses. This is a paper-design observation, not a model-performance
+conclusion.
 <!-- source: 00-PORTFOLIO/20260713-mvp-a1-descriptive-analysis.md §3 -->
-<!-- source: 00-PORTFOLIO/20260713b-mvp-a1-postrun-scaling-memo.md -->
+<!-- source: 00-PORTFOLIO/20260713b-mvp-a1-postrun-scaling-memo.md (historical; corrected below) -->
+<!-- source: 00-PORTFOLIO/20260713d-mvp-a1-scaling-scope-correction.md -->

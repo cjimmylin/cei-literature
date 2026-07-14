@@ -1,0 +1,8 @@
+{
+  "mode": "second_labeler",
+  "primary_labeler_id": "REPLACE_WITH_OPAQUE_ID",
+  "reliability_labeler_id": "REPLACE_WITH_DISTINCT_OPAQUE_ID",
+  "primary_completed_at": "YYYY-MM-DDTHH:MM:SS+00:00",
+  "reliability_completed_at": "YYYY-MM-DDTHH:MM:SS+00:00",
+  "test_retest_ratified": false
+}

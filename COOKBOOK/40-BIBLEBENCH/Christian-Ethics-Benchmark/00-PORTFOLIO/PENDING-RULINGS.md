@@ -1305,8 +1305,16 @@ G4 mechanics until it is complete.
 > status → manuscript/PDF, while changing no frozen threshold, item/key, model, spend,
 > HOLDOUT boundary, G7 state, MVP §6A result, or public-release authority.
 
-**Status:** OPEN — one bundled owner decision. No label, gate, code, model, spend,
-HOLDOUT, item/key, G7, manuscript-result, or public-release change occurred.
+**Jimmy ruling (2026-07-14, verbatim):**
+
+> Ratify PR-29 option 1.
+
+**RATIFIED + CLOSED 2026-07-14.** Option 1 is binding exactly as specified in
+`20260714-codex-pr29-g4-intake-preflight.md`. Immutable ruling record:
+`20260714-jimmy-pr29-g4-intake-ruling.md`. Codex may implement only the offline
+PUBLIC-label intake bridge under TDD. No live call, credential, paid work, model,
+candidate rejudge, frozen-rule change, HOLDOUT, G7, MVP §6A, premature O5 verdict, or
+public-release authority is added.
 
 ---
 

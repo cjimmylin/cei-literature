@@ -29,7 +29,12 @@ The panel is complete for all 6 SUTs × 10 designs, so every sample below is fin
 
 ## Second labeler
 Protocol §3.4 needs a 2nd labeler on the double-labeled overlap for the human–human ceiling
-κ (or the disclosed test–retest fallback). Both labelers score the SAME blind CSVs.
+κ (or the disclosed test–retest fallback). PR-29 materializes the exact independent
+overlap instruments under `reliability/`; use its `00-README.md` and frozen manifest
+SHA-256 `41370641bf5de8e9512ce11ac31181930548a7030bd5be026d72443be20f3abb`.
+The second labeler scores only those separate same-schema files and never sees Jimmy's
+primary submissions. A complete design needs primary labels, reliability labels, the
+declaration, and disagreement adjudications before G4 can run.
 
 ## Provenance note
 07–10 were drawn *after* `gemini-2.5-pro` completed its 07–10 cells (an OpenRouter credit

@@ -22,6 +22,8 @@
   h2{color:var(--gold); font-size:1.35rem; margin:46px 0 16px; padding-bottom:8px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:10px;}
   h3{color:var(--ink); font-size:1.05rem; margin-bottom:8px;}
   p.sub{color:var(--dim); font-size:.95rem;}
+  .top-assessment{display:inline-flex; align-items:center; color:var(--bg); background:var(--gold); border:1px solid var(--gold); border-radius:8px; padding:9px 16px; margin-top:14px; font-size:.9rem; font-weight:800; text-decoration:none; letter-spacing:.01em; box-shadow:0 6px 18px rgba(201,168,76,.18);}
+  .top-assessment:hover{background:#dfc068; border-color:#dfc068;}
   .small{font-size:.83rem; color:var(--dim);}
   code{background:var(--card2); padding:1px 6px; border-radius:4px; font-size:.85em; color:#b9c6e0;}
 
@@ -163,6 +165,7 @@
   @media print{
     body{background:#fff; color:#1a2233; padding:10px;}
     :root{--bg:#fff; --card:#f4f6fa; --card2:#e9edf5; --line:#c9d2e0; --ink:#1a2233; --dim:#5a6478; --gold:#8a6d1f; --blue:#2456a0; --teal:#2c7d5f; --red:#a03434; --purple:#6a4ba0; --amber:#8a6d1f;}
+    .top-assessment{color:#1a2233; background:#f4e4ad; border-color:#8a6d1f; box-shadow:none;}
     .sess::before{border-color:#fff;}
     .nav{display:none;}
     h2{page-break-after:avoid;}
@@ -176,11 +179,12 @@
   <h1>WCF-Bench Project Dashboard</h1>
   <p class="sub">Westminster Standards alignment benchmark — history, live progress, validity state,
   and the plan to a finalized benchmark and paper.</p>
+  <a class="top-assessment" href="efficiency-assessment.html">Open Efficiency Assessment</a>
 
   <div class="living">
     <span class="tag">Living document</span>
     <span>Continually updated by <b>all agents</b> — Anthropic (Claude), OpenAI (Codex), and any other model working this project. Update protocol: <code>AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">live</span> (maintain) or <span class="chip hist">history</span> (frozen).</span>
-    <span><b>Last updated:</b> 2026-07-14 · by Codex, session 43 — <b>EFFICIENCY AUDIT COMPLETE:</b> the 45-label S1–S42 ledger was assessed against the shortest credible path to the accepted exploratory MVP. The recommended next milestone is one separately authorized, 4–8 hour, $0 paper-only assembly session producing an integrated manuscript and visually verified PDF; the audit itself does not manufacture paper progress or authorize execution</span>
+    <span><b>Last updated:</b> 2026-07-14 · by Codex, session 44 — <b>DASHBOARD NAVIGATION IMPROVED:</b> a prominent gold link to the existing Efficiency Assessment now appears immediately below the subtitle as the dashboard's first actionable element; the existing Documents-section link remains in place</span>
   </div>
 
   <div class="nav">
@@ -206,7 +210,7 @@
   </table>
 
   <div class="stats">
-    <div class="stat"><div class="n">43</div><div class="l">sessions so far</div></div>
+    <div class="stat"><div class="n">44</div><div class="l">sessions so far</div></div>
     <div class="stat"><div class="n">7</div><div class="l">days elapsed</div></div>
     <div class="stat"><div class="n">230</div><div class="l">items, audited</div></div>
     <div class="stat"><div class="n">816</div><div class="l">MVP cells, 0 errors</div></div>
@@ -411,6 +415,8 @@
         <div class="what"><b>PPP-1 ACCEPTED FOR EXPLORATORY MANUSCRIPT USE:</b> Jimmy accepted the immutable packet under EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE. The dated owner record resolves manuscript-use disposition only; the immutable run, packet, bank, manifest, panel, and prior records are unchanged. No external quotation, rerun, T4 work, paid call, ranking, gate, or release claim is authorized. The next owner choice is a separately authorized bounded paper-only integration/polish pass toward an MVP exploratory paper or deferral pending confirmatory T4; neither is selected. No empirical change or spend. Allocation: empirical 0% · paper 0% · infrastructure 0% · governance/admin 100%.</div></div>
       <div class="sess codex"><div class="row"><span class="sid">S43</span><span class="badge b-codex">Codex</span><span class="small">Jul 14 · retrospective efficiency audit</span></div>
         <div class="what"><b>45-LABEL EFFICIENCY AUDIT COMPLETE:</b> S1–S42, including S1b, S5b, and S35-P, were scored against the shortest credible path to the accepted exploratory MVP: 10 score-5, 21 score-4, 5 score-3, 6 score-2, and 3 score-1; mean 3.64/5. The audit distinguishes MVP-testable S28, T3 complete S35, PPP-1 complete/accepted S41/S42, and separately gated release-grade work. Recommendation: Jimmy authorize or defer one 4–8 hour, $0, paper-only assembly in a NEW dated append-only directory, producing one traceable manuscript and visually verified PDF with one P0/P1 review and at most one correction cycle. No network, credential, paid, empirical, bank, runner, manifest, judge, gate, or budget change. Allocation: empirical 0% · paper strategy 30% · infrastructure 0% · governance/admin 70%.</div></div>
+      <div class="sess codex"><div class="row"><span class="sid">S44</span><span class="badge b-codex">Codex</span><span class="small">Jul 14 · dashboard navigation</span></div>
+        <div class="what"><b>EFFICIENCY ASSESSMENT MOVED TO THE FIRST ACTIONABLE POSITION:</b> a prominent gold <code>Open Efficiency Assessment</code> link now appears immediately below the dashboard subtitle and above the living-document banner; the existing Documents-section link remains. All substantive paper-assembly instructions and benchmark status surfaces are unchanged. Allocation: empirical 0% · paper 0% · infrastructure 0% · governance/admin 100%.</div></div>
       <!-- AGENTS: append new session rows here (S17, S18, …) as work completes.
            Template:
       <div class="sess codex"><div class="row"><span class="sid">S17</span><span class="badge b-codex">Codex</span><span class="small">Jul 1X</span></div>
@@ -419,7 +425,7 @@
     </div>
   </div>
 
-  <div class="here">📍 YOU ARE HERE — session 43: the retrospective efficiency audit is complete; paper progress remains 70%. MVP-testable S28, T3 complete S35, and PPP-1 complete/accepted S41/S42 remain distinct from the unfinished release-grade benchmark.
+  <div class="here">📍 YOU ARE HERE — session 44: dashboard navigation now places the existing Efficiency Assessment first; paper progress remains 70%. MVP-testable S28, T3 complete S35, and PPP-1 complete/accepted S41/S42 remain distinct from the unfinished release-grade benchmark.
     <div class="small">Jimmy's next choice is to authorize or defer one bounded 4–8 hour, $0 paper-only assembly session producing a NEW dated integrated exploratory manuscript and visually verified PDF. Do not overwrite the packet or paper pre-draft; do not use model calls, change the runner/harness/run/bank/manifest, begin T4 or G6 execution, or make rankings, gates, release claims, or external quotations. <b>Agents: move/update this marker as phases advance.</b></div>
   </div>
 
@@ -688,6 +694,7 @@
     <tr><td class="k">2026-07-14</td><td>Codex + Jimmy</td><td>Session 41: Jimmy authorized one exact four-row catalog refresh; all 226 Qwen prompts remained below 256k (maximum 2,221). PPP-1 then completed once: 678/678 cells, 618 scored + 60 error-recorded, 1,722 calls, 9h46m18s, $3.0552242489 actual-first under $23.56. The immutable exploratory packet passed specification re-review after one bounded fix cycle and quality review; 733 tests green. Label remains EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE. Authority consumed; no rerun, T4, or paid-call authority.</td></tr>
     <tr><td class="k">2026-07-14</td><td>Codex + Jimmy</td><td>Session 42: recorded Jimmy's exact acceptance of the immutable PPP-1 packet for exploratory manuscript use under EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE; resolved the manuscript-use disposition; synchronized LIVE acceptance and next-step state. No empirical artifact, packet, bank, manifest, panel, gate, judge table, or prior dated record changed; no paid calls or spend. No external quotation, rerun, T4 work, ranking, gate, or release claim is authorized.</td></tr>
     <tr><td class="k">2026-07-14</td><td>Codex</td><td>Session 43: added the Markdown + self-contained HTML efficiency assessment for all 45 S1–S42 labels (mean 3.64/5), defined the four distinct completion states, and put one separately authorized 4–8 hour / $0 integrated exploratory manuscript + visually verified PDF ahead of later G6/T4 release work. LIVE paper progress stays 70%; quotability, gates, judges, budget, empirical artifacts, and paid authority are unchanged.</td></tr>
+    <tr><td class="k">2026-07-14</td><td>Codex</td><td>Session 44: added a prominent gold <code>Open Efficiency Assessment</code> link immediately below the dashboard subtitle and above the living-document banner, while retaining the existing Documents-section link. Paper instructions and all benchmark status surfaces remain unchanged.</td></tr>
   </table>
 
   <h2 id="next">Instructions for next session <span class="chip live">live</span></h2>
@@ -700,7 +707,7 @@
       <span><b>Lane:</b> Jimmy authorize/defer → Codex paper-only assembly if authorized</span>
       <span><b>Model:</b> Jimmy for the owner decision; Codex for one bounded writing session only after written authority</span>
       <span><b>Directory:</b> <code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</code> (scope-locked to <code>COOKBOOK/40-BIBLEBENCH/WCF-Benchmark/</code>) — <b>work on main</b></span>
-      <span><b>Prepared:</b> 2026-07-14, Codex session 43 close (efficiency audit complete; paper progress 70%; assembly not yet authorized)</span>
+      <span><b>Prepared:</b> 2026-07-14, Codex session 44 close (dashboard navigation improved; paper progress 70%; assembly not yet authorized)</span>
     </div>
     <div class="paste">Decide whether to authorize the bounded WCF-Bench exploratory paper assembly.
 On session open: load project-dashboard.html (Live-status first).

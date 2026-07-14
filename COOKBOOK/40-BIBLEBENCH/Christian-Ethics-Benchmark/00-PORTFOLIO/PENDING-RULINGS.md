@@ -783,7 +783,23 @@ role-extraction/design-wide name-registry contract, and (e) unresolved-cell deno
 handling. Codex may implement whichever exact mechanics Jimmy supplies; it must not
 infer them from results.
 
-**OPEN — W5 STOPPED ON JIMMY.** W4 G5 remains on the active label-free critical path.
+**Jimmy ruling (2026-07-13, verbatim):**
+
+> Ratify PR-18 choices A2/B1/C3/D1/E3: round half-up within each nonempty
+> easy/hard stratum for 73 PUBLIC items and 438 item×model cells per battery;
+> paraphrase only protected user-authored administration fields under exact
+> structural, literal-invariant, and L1–L9 fail-closed checks; reduce the two
+> batteries by any-battery flip per item×model cell, with PASS at at most 43/438
+> flips and affected items at at least 3/6 models; use explicit checked-in role
+> manifests plus a deterministic design-wide no-reuse registry; and keep the fixed
+> denominator and G7 PENDING until every original and perturbed cell is adjudicated
+> through the frozen P1/Part-B path. No HOLDOUT access, item/key edits, or live calls
+> are authorized by this ruling.
+
+**RATIFIED / CLOSED.** Exact materialization is recorded in
+`20260713e-jimmy-pr18-ruling.md`. Mechanical implementation and a no-call paid-run
+preflight may proceed. Credential access, model calls, spend, substitutions, item/key
+edits, and any G7 verdict remain unauthorized.
 
 ---
 
@@ -974,6 +990,52 @@ leaves avoidable MVP/O5 ambiguity, so Opus does not recommend it.
 `20260713d-mvp-a1-scaling-scope-correction.md` supersedes only the affected scope and
 scaling statements in the immutable `20260713b` memo; the three P3 nits are waived for
 now. This ruling authorizes no paid call, scale-up, model addition, or O5 rule change.
+
+## PR-23 — G7 name-swap field surface and non-given-name forms
+
+**Surfaced:** 2026-07-13 during the no-call PR-18 implementation audit. PR-18 D1
+requires explicit role occurrences but does not say whether name swaps cover all
+model-visible system/user fields or only B1's user-authored paraphrase fields. The A2
+sample also contains a plural family surname (`WW-01-A01` `Hendersons`) and a compound
+tenant label (`WW-08-B04` `Larsen/Whitby`) that the ratified first-name inventory cannot
+rotate without changing grammar or role cardinality.
+
+Options and exact evidence are in
+`20260713f-codex-pr23-g7-name-surface-decision.md`.
+
+**Recommended owner one-liner:**
+
+> Ratify PR-23 option 1: G7 name swaps cover every exact declared personal given-name
+> occurrence in model-visible administration system and user fields; hidden metadata,
+> keys, anchors, facts_diff, and extras remain unchanged; plural family surnames,
+> compound household labels, surnames, and initials are protected non-role literals;
+> explicit zero-role items remain fixed-denominator no-op name-swap cells; do not add a
+> surname inventory, replace sampled items, shrink the denominator, or make live calls.
+
+**OPEN — PRODUCTION ROLE MANIFEST / W5 LIVE RUN STOPPED ON JIMMY.** No credential
+access, live call, spend, sampled-item replacement, denominator change, surname
+inventory, or production role-manifest assumption is authorized.
+
+---
+
+## PR-24 — Design-05 G7 load-bearing categorical outcome
+
+**Surfaced:** 2026-07-13 independent PR-18 implementation review. Design 05's frozen
+§B primary is judge-free allocation CSR and has no judge-adjudicated load-bearing
+category. Using `rationale_honesty` would silently substitute a judged secondary.
+
+Options and evidence: `20260713g-codex-pr24-g7-design05-outcome-decision.md`.
+
+**Recommended owner one-liner:**
+
+> Ratify PR-24 option 1: for design-05 G7 only, derive the load-bearing category
+> mechanically from the frozen judge-free allocation CSR as `all_constraints_met` iff
+> CSR = 1, otherwise `one_or_more_constraints_violated`; an unparseable allocation or
+> uncomputable CSR remains unresolved under PR-18 E3; never substitute
+> rationale_honesty, compare raw allocation vectors, change §B CSR, or make live calls.
+
+**OPEN — DESIGN-05 G7 REDUCTION STOPPED ON JIMMY.** The code must keep these cells
+unresolved/PENDING until ruled. No live call or gate result is authorized.
 
 ---
 

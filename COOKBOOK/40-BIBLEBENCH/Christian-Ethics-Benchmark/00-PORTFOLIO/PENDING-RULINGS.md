@@ -1266,5 +1266,49 @@ the descriptive claim boundary remain unauthorized. Immutable ruling record:
 
 ---
 
+## PR-29 — G4 overlap, reliability, adjudicated-gold, and completeness contract
+
+**Surfaced:** 2026-07-14 during the paper-first label-entry preflight after descriptive
+MVP v0.1 private-circulation ratification. All 439 Part-A rows remain blank. The existing
+offline `judge_validation.py` can join primary labels but has no exact overlap manifest,
+independent reliability/adjudication input, or ceiling computation; it accepts partial
+designs and does not emit the registered Q-R1/Q-R2 detector readout. It therefore cannot
+produce a frozen-formula G4 decision even after Jimmy's primary labels arrive.
+
+**Bundled evidence and exact option:**
+`20260714-codex-pr29-g4-intake-preflight.md`.
+
+**Recommended option 1:** use the first rows of the already randomized blind CSVs for
+the registered overlap counts; check in a hashed PUBLIC-only overlap manifest and
+separate same-schema reliability instruments; require a declared second-labeler or
+eligible ≥14-day test–retest arm; preserve both independent submissions and record every
+atomic disagreement in append-only Jimmy-adjudicated gold JSONL; extend the existing
+offline CLI under TDD to reject partial or mismatched inputs, compute the frozen ceiling
+and judge-versus-gold statistics, and report Q-R1/Q-R2. Convert each complete design
+immediately into G4, available Part B, frozen status, and paper/PDF updates.
+
+**Option 2:** Jimmy supplies a different exact intake contract; remain blocked before
+G4 mechanics until it is complete.
+
+**Exact requested ruling:**
+
+> Ratify PR-29 option 1 as the complete WALKWORTHY G4 label-intake contract: select the
+> registered overlap as the first blinded randomized CSV rows using counts 20 for
+> 01/03/04/06/08/10, 4 for 02/07, 10 for 05, and 8 for 09; check in a hashed PUBLIC-only
+> overlap manifest and separate same-schema reliability instruments; require an explicit
+> second-labeler or eligible ≥14-day test–retest declaration, preserve both independent
+> submissions, and record every atomic disagreement in append-only Jimmy-adjudicated
+> gold JSONL; extend the existing offline judge-validation CLI to reject partial designs
+> and any provenance/schema/member/value mismatch, compute the frozen human–human ceiling
+> and judge-versus-adjudicated-gold κ, and report the registered Q-R1/Q-R2 detector readout;
+> allow a complete design to convert immediately through G4 → available Part B → frozen
+> status → manuscript/PDF, while changing no frozen threshold, item/key, model, spend,
+> HOLDOUT boundary, G7 state, MVP §6A result, or public-release authority.
+
+**Status:** OPEN — one bundled owner decision. No label, gate, code, model, spend,
+HOLDOUT, item/key, G7, manuscript-result, or public-release change occurred.
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

@@ -1,5 +1,21 @@
 # WCF-Bench Pending Questions
 
+## RESOLVED 2026-07-14 — PPP-1 manuscript-use disposition
+
+- **Disposition:** Jimmy stated exactly: “I ACCEPT the immutable PPP-1 packet for
+  exploratory manuscript use under the label EXPLORATORY MANUSCRIPT PREVIEW ·
+  SINGLE-JUDGE · NON-QUOTABLE. This does not authorize external quotation, reruns,
+  T4 work, paid calls, rankings, gates, or release claims.” Binding record:
+  `20260714a-jimmy-ppp1-manuscript-use-acceptance-record.md`.
+- **Effect:** The immutable packet is accepted for exploratory manuscript use under the
+  exact label. The run, packet, bank, manifest, panel, and prior dated records remain
+  unchanged. No packet overwrite, correction, rerun, T4, paid-call, ranking, gate,
+  release, or external-quotation authority follows.
+- **Next owner choice:** Jimmy may separately authorize a bounded paper-only
+  integration/polish pass toward an MVP exploratory paper, or defer further paper work
+  pending confirmatory T4. Neither path is selected or authorized by this disposition.
+  The still-open T4 cap question below remains unchanged.
+
 ## OPEN 2026-07-13 — PPP-1 four-row catalog-hash refresh choice
 
 - **Question:** May Codex append-only refresh and re-freeze the exact four-row PPP-1

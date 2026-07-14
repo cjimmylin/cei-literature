@@ -107,7 +107,16 @@
   .toplink{display:block;margin:0 0 18px;padding:12px 16px;border:1px solid #315f85;border-radius:10px;
            background:#132a3d;color:#91c9f7;font-size:15px;font-weight:700;text-align:center}
   .toplink:hover{background:#18354d;text-decoration:none}
-  @media (max-width:760px){.answers,.lanes{grid-template-columns:1fr}}
+  .figureShowcase{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0 22px}
+  .figureCard{background:linear-gradient(145deg,#13243a,#101a2b);border:1px solid #315f85;border-radius:12px;padding:16px 18px}
+  .figureCard h3{margin:0 0 6px;font-size:16px;color:#e8f2ff}.figureCard p{margin:0 0 12px;color:var(--dim);font-size:13px;line-height:1.45}
+  .flowPreview{display:flex;align-items:center;gap:5px;margin:10px 0 13px;color:#8ea0b9;font-size:11px;font-weight:700;overflow:hidden}
+  .flowPreview span{white-space:nowrap}.flowPreview .node{padding:5px 8px;border-radius:12px;background:#1b3851;color:#bfe3ff;border:1px solid #315f85}
+  .flowPreview .result{padding:5px 8px;border-radius:12px;background:#173b34;color:#a9eadb;border:1px solid #2a6b5d}
+  .flowPreview .gate{padding:5px 8px;border-radius:12px;background:#463718;color:#ffd98c;border:1px solid #775d28}
+  .figureLinks{display:flex;gap:9px;flex-wrap:wrap}.figureLinks a{display:inline-block;padding:6px 10px;border-radius:6px;background:#1a3851;border:1px solid #315f85;color:#91c9f7;font-size:12.5px;font-weight:700}
+  .figureLinks a:hover{background:#224967;text-decoration:none}
+  @media (max-width:760px){.answers,.lanes,.figureShowcase{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -117,9 +126,24 @@
 
 <h1>Christian Ethics WALKWORTHY — Project Dashboard <span style="font-size:14px;font-weight:600;color:var(--jimmy);vertical-align:6px">LIVING DOCUMENT</span></h1>
 <p class="sub">10 method-major benchmarks measuring <em>enacted</em> Christian ethics against a fixed 15-book corpus
-· <b style="color:var(--text)">Last updated: 2026-07-14 by Codex — PR-29 G4 INTAKE COMPLETE; LABELS ARE THE RATE LIMITER</b>
+· <b style="color:var(--text)">Last updated: 2026-07-14 by Codex — ASSESSMENT GRAPHICS COMPLETE; LABELS REMAIN THE RATE LIMITER</b>
 · <b>All agents</b> (Anthropic, OpenAI/Codex, others): read at session start, update at session end —
 the one file exempt from report-immutability (protocol: HTML comment atop this file, AGENTS.md, and §12 below).</p>
+
+<div class="figureShowcase" aria-label="Benchmark assessment graphics">
+  <div class="figureCard">
+    <h3>Scientific case-to-status flow</h3>
+    <p>Actual PUBLIC case, judge values, tie-break, Design-01 aggregation, gate readings, and the explicit no-release endpoint.</p>
+    <div class="flowPreview" aria-hidden="true"><span class="node">CASE</span><span>→</span><span class="node">LLM</span><span>→</span><span class="node">JUDGES</span><span>→</span><span class="result">S/H</span><span>→</span><span class="gate">STATUS</span></div>
+    <div class="figureLinks"><a href="../PAPER/figures/walkworthy-case-to-status-scientific.svg">Open SVG</a><a href="../PAPER/figures/walkworthy-case-to-status-scientific.png">Open PNG</a></div>
+  </div>
+  <div class="figureCard">
+    <h3>Plain-language pictorial explainer</h3>
+    <p>A reader-friendly walkthrough of the same evidence, emphasizing that cases contribute to design readings rather than one universal score.</p>
+    <div class="flowPreview" aria-hidden="true"><span class="node">PROMPT</span><span>→</span><span class="node">2 JUDGES</span><span>→</span><span class="node">TIE-BREAK</span><span>→</span><span class="gate">G1–G7</span></div>
+    <div class="figureLinks"><a href="../PAPER/figures/walkworthy-case-to-status-explainer.svg">Open SVG</a><a href="../PAPER/figures/walkworthy-case-to-status-explainer.png">Open PNG</a></div>
+  </div>
+</div>
 
 <div class="toc">
 <a href="#live">⚡ Live status</a><a href="#forecast">Forecasts</a><a href="#mission">Mission &amp; release bar</a>
@@ -190,6 +214,12 @@ the one file exempt from report-immutability (protocol: HTML comment atop this f
     <code>labels/20260710-partA/reliability/</code>: 10 blank instruments / 146 whole overlap units; manifest
     SHA-256 <code>41370641…3abb</code>. Full suite <b>554/554</b>. No G4 report was emitted because labels remain
     0/439; no code work remains before a complete design lands.<br><br>
+    <b>ASSESSMENT GRAPHICS COMPLETE:</b> two standalone, paper-ready explanatory figures now trace the actual
+    PUBLIC case <code>WW-01-G02-P</code> through Llama response custody, independent OpenAI/Google judging,
+    Mistral tie-break resolution, Design-01 S/H aggregation, and the separate G1–G7 release formula. Both SVG
+    and 1800-pixel PNG versions are linked above. They explicitly show that the case has no universal final
+    score and that Design 01 has no final release determination. The ratified manuscript/PDF hashes remain
+    unchanged; the label-triggered §12 session is still controlling.<br><br>
     <b>Efficiency reset:</b> human labels are the release-grade rate limiter. New work must deliver a paper artifact or remove a genuine P0/P1 blocker;
     P2/P3 hardening, serial specification rulings, and artifact-free dashboard/handoff sessions are off-path.
     Full assessment: <code>00-PORTFOLIO/efficiency-assessment.{md,html}</code>.</div>
@@ -622,10 +652,11 @@ cited) — a bad outcome costs sessions, never a new decision. STOP = halt, log 
 <tr><td><b>MVP v0.1 private circulation</b></td><td class="mono">PAPER/walkworthy-mvp-manuscript.md + .pdf — 20,516 words · 36 US-letter pages · exact hashes/reproduction in 20260714-walkworthy-mvp-v0.1-release-candidate.md · R-J16 ratification in 20260714-jimmy-mvp-v0.1-private-circulation-ratification.md</td></tr>
 <tr><td><b>G4 intake bridge</b></td><td class="mono">00-PORTFOLIO/20260714-codex-pr29-g4-intake-preflight.md + 20260714-jimmy-pr29-g4-intake-ruling.md — PR-29 option 1 RATIFIED + IMPLEMENTED; labels/20260710-partA/reliability/ contains the 146-unit manifest/instruments (SHA-256 41370641bf5de8e9512ce11ac31181930548a7030bd5be026d72443be20f3abb)</td></tr>
 <tr><td><b>Efficiency assessment</b></td><td class="mono">00-PORTFOLIO/efficiency-assessment.md + efficiency-assessment.html — all 47 logical sessions scored; its manuscript/PDF recommendation is now complete; labels remain the release rate limiter</td></tr>
+<tr><td><b>Assessment graphics</b></td><td class="mono">PAPER/figures/walkworthy-case-to-status-scientific.{svg,png} + walkworthy-case-to-status-explainer.{svg,png} — actual PUBLIC case → SUT → independent judges → tie-break/Part B → Design-01 S/H → G1–G7/status; explanatory only</td></tr>
 <tr><td><b>Authority stack (frozen)</b></td><td class="mono">00-PORTFOLIO/20260706-normative-charter.md · 20260706-master-plan.md · 20260706-opus-item-playbook.md · 20260710-fable-gate-prereg-pilot-adjudication.md (§B/§C/§E) · 20260710-fable-PR3-ruling.md · 20260711d-fable-o5-decision-framework.md (FR-1…15) · 20260712-fable-FR16-w1-surface-ruling.md · 20260712-fable-ruling-session-log.md (FR-17 + R-J1..12) · 20260712-fable-G5-reference-review.md (FR-18) · 20260712-jimmy-PR10-PR11-ruling.md (R-J13..15)</td></tr>
 <tr><td><b>O5 execution (Codex)</b></td><td class="mono">harness/walkworthy/g7_runner.py + g7_author_contract.py + g7_author_stage.py · runs/20260713-o5-g7-a1/author-replay-checkpoint.json (146/146 author POSTs; G7 PENDING) · 20260713s-opus-g7-paraphrase-author-contract.md (SHA 59caaa1c…b320; RATIFIED) · 20260713v-jimmy-pr27-contract-ruling.md · 20260713y-jimmy-pr28-runtime-ruling.md</td></tr>
 <tr><td><b>PAPER lane</b></td><td class="mono">PAPER/ (release-grade §6 + separate exploratory §6A; G7 PENDING limitation now recorded; outline.md claims skeleton) · 20260713d-mvp-a1-scaling-scope-correction.md · 20260713d-codex-mvp-claims-correction-checklist.md</td></tr>
-<tr><td><b>Latest handoffs</b></td><td class="mono">20260714-codex-pr29-g4-intake-complete-handoff.md (NEWEST / G4 INTAKE READY) · 20260714-codex-mvp-v0.1-ratification-handoff.md (PRIVATE CIRCULATION RATIFIED)</td></tr>
+<tr><td><b>Latest handoffs</b></td><td class="mono">20260714-codex-benchmark-assessment-graphics-handoff.md (NEWEST / FIGURES COMPLETE) · 20260714-codex-pr29-g4-intake-complete-handoff.md (G4 INTAKE READY) · 20260714-codex-mvp-v0.1-ratification-handoff.md (PRIVATE CIRCULATION RATIFIED)</td></tr>
 <tr><td><b>Measurement record</b></td><td class="mono">runs/20260713-o5-g5-neutrality/ (W4 COMPLETE) · 20260713b-o5-postadjudication-readings.md (W3 PAPER source) · runs/20260713-o5-home-reroute/ (PR-16 COMPLETE) · runs/20260713-o5-home-advantage/ (W2) · runs/20260712-o5-tiebreak/ (W1) · 20260711b-o4-panel-report.md (historical; never paper source)</td></tr>
 <tr><td><b>Open questions</b></td><td class="mono">00-PORTFOLIO/PENDING-RULINGS.md — no current-cycle owner ruling blocks G4 intake; PR-7 remains next-cycle; no G7 owner ruling is open</td></tr>
 <tr><td><b>Labels (Jimmy)</b></td><td class="mono">labels/20260710-partA/ — 10 primary blind CSVs + instructions + 00-WAVE-PLAN-README.md; reliability/ contains 10 independent overlap instruments, manifest, README, and declaration template (waves {02,07,01} → {03,04,05,06} → {08,09,10})</td></tr>
@@ -914,6 +945,13 @@ no external resources).</p>
   Q-R1/Q-R2 reporting, and materialized the exact 146-unit PUBLIC overlap packet at manifest SHA-256
   <span class="mono">41370641bf5de8e9512ce11ac31181930548a7030bd5be026d72443be20f3abb</span>.
   Full suite 554/554. No G4 report was emitted: labels remain 0/439; no call, spend, HOLDOUT, G7, or manuscript change.</td></tr>
+<tr><td class="mono">2026-07-14</td><td><span class="badge b-codex">Codex</span></td>
+  <td><b>ACTUAL CASE-TO-STATUS GRAPHICS COMPLETE.</b> Added a journal-ready scientific flowchart and a
+  plain-language pictorial explainer in SVG + 1800-pixel PNG. Both use the actual PUBLIC
+  <span class="mono">WW-01-G02-P</span> Llama/OpenAI/Google/Mistral record, preserve the null case scalar,
+  show the registered <span class="mono">I(full_obedience)=0</span> contribution and provisional S/H readings,
+  and end at no final release determination. Dashboard previews/links added; manuscript/PDF hashes and §12
+  label trigger unchanged. No call, spend, HOLDOUT, label, gate, or frozen-rule change.</td></tr>
 </table>
 </div>
 

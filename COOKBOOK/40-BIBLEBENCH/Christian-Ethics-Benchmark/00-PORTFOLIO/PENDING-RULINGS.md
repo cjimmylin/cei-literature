@@ -1243,5 +1243,28 @@ boundary.
 
 ---
 
+## R-J16 — Descriptive MVP v0.1 private-circulation ratification
+
+**Requested:** 2026-07-14 in
+`20260714-walkworthy-mvp-v0.1-release-candidate.md` §5 after the candidate was
+hash-frozen and technically verified.
+
+**Jimmy ruling (2026-07-14, verbatim):**
+
+> Ratify WALKWORTHY descriptive MVP v0.1 for private circulation under the Anonymous
+> manuscript byline; descriptive claims only, with no public release, O5 verdict, paid
+> call, or scale-up authorized.
+
+**RATIFIED + CLOSED 2026-07-14.** The ruling applies to the exact v0.1 candidate defined
+by manuscript SHA-256
+`dcf329166a4cb064adf779e8aa3e0e4429a120a9305cd8e0c7c6d5f537f9e214` and PDF
+SHA-256 `1b678a5317581db38801964632992973572d2f4519be7cc871f6ffafaeba0a4e`.
+Private circulation under the `Anonymous manuscript` byline is authorized. Public
+release, O5 verdicts, paid calls, scale-up, model additions, and any expansion beyond
+the descriptive claim boundary remain unauthorized. Immutable ruling record:
+`20260714-jimmy-mvp-v0.1-private-circulation-ratification.md`.
+
+---
+
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a
 guessed disposition until ruled.)*

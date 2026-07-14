@@ -1234,8 +1234,12 @@ the spend ledger.
 > separators=(",", ":"))`; implement L8 with exact no-flags regex
 > `(?<!\w)(?:[1-3]\s+)?[A-Z][A-Za-z]*\.?(?:\s+[A-Z][A-Za-z]*\.?){0,2}\s+\d{1,3}(?::\d{1,3}(?:[-–]\d{1,3})?)?(?!\w)` and fail only on matches newly introduced versus the corresponding original fields; add append-only `validation_pending` after transport so an unsubmitted Jimmy review remains pending and consumes no replay, while an explicit review-complete submission makes any omitted, malformed, mismatched, non-boolean, refusing, or uncertain required result `false`; first parser/Gate-A/semantic failure permits the one byte-identical replay, second failure becomes unresolved without replacement, and only all-true validation completes the logical key; retain full author/review custody outside the body-free spend ledger and keep every PR-18/25/25(a)/26/27 model, call, replay, cost, checkpoint, concurrency, denominator, HOLDOUT, substitution, scale-up, and $30 NTE boundary unchanged.
 
-**Status:** OPEN / G7 AUTHOR IMPLEMENTATION + PAID CALLS STOPPED. No credential or author
-call until ruled.
+**Status:** RATIFIED + CLOSED 2026-07-13. Jimmy ratified option 1 verbatim. Immutable
+record: `20260713y-jimmy-pr28-runtime-ruling.md`. The exact canonical key serialization,
+L8 regex, and append-only `validation_pending` lifecycle are binding. Author-contract
+implementation may proceed under TDD; any live work remains subject to every unchanged
+PR-18/25/25(a)/26/27 roster, replay, cost, checkpoint, concurrency, call-cap, and $30 NTE
+boundary.
 
 ---
 

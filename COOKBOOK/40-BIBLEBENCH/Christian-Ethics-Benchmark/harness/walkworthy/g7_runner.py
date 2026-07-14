@@ -201,6 +201,7 @@ class AttemptLedger:
         }
         self._starts: dict[int, dict] = {}
         self._finishes: dict[int, dict] = {}
+        self._validations: dict[int, dict] = {}
         with self._locked():
             if self.path.exists():
                 self._load()
@@ -215,6 +216,7 @@ class AttemptLedger:
     def _load(self) -> None:
         self._starts = {}
         self._finishes = {}
+        self._validations = {}
         histories: dict[str, list[int]] = {}
         saw_registration = False
         for line_number, line in enumerate(
@@ -233,6 +235,24 @@ class AttemptLedger:
                     raise ContractStop("invalid G7 registration contract")
                 saw_registration = True
                 continue
+            if kind in ("validation_pending", "validation_failed",
+                        "logical_complete", "unresolved"):
+                attempt = event.get("attempt_id") if isinstance(event, dict) else None
+                if (set(event) != {"event", "attempt_id", "logical_key"}
+                        or type(attempt) is not int
+                        or attempt not in self._starts
+                        or attempt not in self._finishes
+                        or event["logical_key"] != self._starts[attempt]["logical_key"]
+                        or self._starts[attempt]["role"] != "paraphrase_author"):
+                    raise ContractStop("invalid G7 author validation event")
+                prior = self._validations.get(attempt)
+                if kind == "validation_pending":
+                    if prior is not None or self._finishes[attempt]["failure"] is not None:
+                        raise ContractStop("invalid G7 author validation chronology")
+                elif prior is None or prior["event"] != "validation_pending":
+                    raise ContractStop("invalid G7 author validation chronology")
+                self._validations[attempt] = event
+                continue
             if line_number == 1:
                 raise ContractStop("G7 chronological violation: registration must be first")
             attempt = event.get("attempt_id") if isinstance(event, dict) else None
@@ -248,7 +268,10 @@ class AttemptLedger:
                 history = histories.setdefault(key, [])
                 if history:
                     prior = history[-1]
-                    if prior not in self._finishes or self._finishes[prior]["failure"] is None:
+                    prior_validation = self._validations.get(prior, {}).get("event")
+                    if (prior not in self._finishes
+                            or (self._finishes[prior]["failure"] is None
+                                and prior_validation != "validation_failed")):
                         raise ContractStop("G7 chronological violation: replay before failure")
                     first = self._starts[history[0]]
                     if (event["payload_sha256"] != first["payload_sha256"]
@@ -377,6 +400,25 @@ class AttemptLedger:
                 "inflight": self._inflight_cached(),
             }
 
+    def attempt_snapshot(self, attempt: int) -> dict:
+        """Return one fresh body-free view of a registered attempt."""
+        if type(attempt) is not int:
+            raise ContractStop("invalid G7 attempt snapshot id")
+        with self._locked():
+            self._load()
+            start = self._starts.get(attempt)
+            if start is None:
+                raise ContractStop(f"unknown G7 attempt: {attempt}")
+            history = self._history(start["logical_key"])
+            return {
+                "start": dict(start),
+                "finish": (dict(self._finishes[attempt])
+                           if attempt in self._finishes else None),
+                "validation": (dict(self._validations[attempt])
+                               if attempt in self._validations else None),
+                "history": tuple(history),
+            }
+
     @property
     def planned_count(self) -> int:
         return self.snapshot()["planned"]
@@ -421,7 +463,14 @@ class AttemptLedger:
             last_finish = self._finishes.get(history[-1])
             if last_finish is None:
                 raise ThreadStop(f"G7 key already in flight: {logical_key}")
-            if last_finish["failure"] is None:
+            validation = self._validations.get(history[-1], {}).get("event")
+            if last_finish["failure"] is None and validation == "validation_pending":
+                raise ThreadStop(f"G7 validation pending for {logical_key}")
+            if last_finish["failure"] is None and validation == "logical_complete":
+                raise ContractStop(f"duplicate completed key: {logical_key}")
+            if last_finish["failure"] is None and validation == "unresolved":
+                raise ThreadStop(f"G7 replay exhausted for {logical_key}")
+            if last_finish["failure"] is None and validation != "validation_failed":
                 raise ContractStop(f"duplicate completed key: {logical_key}")
             if len(history) >= 2:
                 raise ThreadStop(f"G7 replay exhausted for {logical_key}")
@@ -506,7 +555,67 @@ class AttemptLedger:
             raise BudgetStop("G7 hard NTE exceeded after reported cost custody")
         if failure is not None and len(self._history(start["logical_key"])) >= 2:
             raise ThreadStop(f"G7 second failure for {start['logical_key']}")
+        if failure is None and spec.role == "paraphrase_author":
+            pending = {
+                "event": "validation_pending", "attempt_id": attempt,
+                "logical_key": start["logical_key"],
+            }
+            _append(self.path, pending)
+            self._validations[attempt] = pending
+            return "validation_pending"
         return "complete" if failure is None else "replay_required"
+
+    def mark_author_validation(self, attempt: int, passed: bool) -> str:
+        """Close a transport-valid author attempt only after post-transport validation."""
+        if type(passed) is not bool:
+            raise ContractStop("G7 author validation result must be boolean")
+        with self._locked():
+            self._load()
+            start = self._starts.get(attempt)
+            finish = self._finishes.get(attempt)
+            current = self._validations.get(attempt, {}).get("event")
+            if (start is None or start["role"] != "paraphrase_author"
+                    or finish is None or finish["failure"] is not None
+                    or current != "validation_pending"):
+                raise ContractStop("G7 author attempt is not validation pending")
+            history = self._history(start["logical_key"])
+            if passed:
+                event_name, status = "logical_complete", "complete"
+            elif len(history) == 1:
+                event_name, status = "validation_failed", "replay_required"
+            else:
+                event_name, status = "unresolved", "unresolved"
+            event = {
+                "event": event_name, "attempt_id": attempt,
+                "logical_key": start["logical_key"],
+            }
+            _append(self.path, event)
+            self._validations[attempt] = event
+            return status
+
+    def reconcile_author_pending(self, attempt: int) -> str:
+        """Recover the sole crash gap after a successful author finish."""
+        if type(attempt) is not int:
+            raise ContractStop("invalid G7 author reconciliation attempt")
+        with self._locked():
+            self._load()
+            start = self._starts.get(attempt)
+            finish = self._finishes.get(attempt)
+            if (start is None or start["role"] != "paraphrase_author"
+                    or finish is None or finish["failure"] is not None):
+                raise ContractStop(
+                    "G7 author reconciliation requires transport success"
+                )
+            current = self._validations.get(attempt)
+            if current is not None:
+                return current["event"]
+            pending = {
+                "event": "validation_pending", "attempt_id": attempt,
+                "logical_key": start["logical_key"],
+            }
+            _append(self.path, pending)
+            self._validations[attempt] = pending
+            return "validation_pending"
 
 
 def write_once_json(path, payload: dict) -> dict:

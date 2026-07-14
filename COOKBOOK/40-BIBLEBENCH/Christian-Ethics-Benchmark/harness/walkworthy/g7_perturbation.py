@@ -114,6 +114,7 @@ class ItemRoleManifest:
     design: str
     item_id: str
     roles: Tuple[RoleManifestRow, ...]
+    protected_non_roles: Tuple["ProtectedNonRole", ...] = ()
 
 
 @dataclass(frozen=True)
@@ -285,13 +286,19 @@ def load_production_role_manifest(
             occurrence_count += len(occurrences)
         if not set(role.original for role in roles).issubset(set(exclusions.get(item.design, ()))):
             raise ValueError(f"G7 role manifest exclusions omit a role: {item.id}")
+        protected_non_roles = []
         for protected in raw_item.get("protected_non_roles", ()):
             literal = protected.get("literal") if isinstance(protected, Mapping) else None
             occurrences = tuple(
                 _occurrence_from_json(value) for value in protected.get("occurrences", ())
             ) if isinstance(protected, Mapping) else ()
             _validate_exact_occurrences(item, literal, occurrences, token_boundary=False)
-        manifests.append(ItemRoleManifest(item.design, item.id, tuple(roles)))
+            protected_non_roles.append(ProtectedNonRole(
+                literal, protected.get("kind"), occurrences
+            ))
+        manifests.append(ItemRoleManifest(
+            item.design, item.id, tuple(roles), tuple(protected_non_roles)
+        ))
     if seen_keys != set(item_by_key):
         raise ValueError("G7 role manifest does not cover the A2 surface")
     if role_count != raw.get("role_count") or occurrence_count != raw.get("occurrence_count"):
@@ -612,13 +619,12 @@ def _set_user_field(item: Item, path: UserFieldPath, value: str) -> None:
         turn.branches[path.branch] = value  # type: ignore[index]
 
 
-def materialize_paraphrase(
+def gate_a_paraphrase(
     item: Item,
     prepared: PreparedParaphrase,
     authored: Mapping[UserFieldPath, str],
-    lint_hook: Callable[[Item], Mapping[str, bool]],
 ) -> ParaphraseResult:
-    """Restore protected literals and return a changed copy only after all checks pass."""
+    """Restore protected literals only after the frozen deterministic Gate A."""
     if prepared.item_id != item.id:
         return ParaphraseResult(False, None, ("item_id_mismatch",), ())
     digest = hashlib.sha256(json.dumps(
@@ -658,6 +664,20 @@ def materialize_paraphrase(
         ):
             return ParaphraseResult(False, None, ("literal_invariant_mismatch",), ())
         _set_user_field(output, field.path, text)
+    return ParaphraseResult(True, output, (), ())
+
+
+def materialize_paraphrase(
+    item: Item,
+    prepared: PreparedParaphrase,
+    authored: Mapping[UserFieldPath, str],
+    lint_hook: Callable[[Item], Mapping[str, bool]],
+) -> ParaphraseResult:
+    """Restore protected literals and return a changed copy only after all checks pass."""
+    gate_a = gate_a_paraphrase(item, prepared, authored)
+    if not gate_a.accepted:
+        return gate_a
+    output = gate_a.item
     try:
         raw_lint = lint_hook(output)
     except Exception:

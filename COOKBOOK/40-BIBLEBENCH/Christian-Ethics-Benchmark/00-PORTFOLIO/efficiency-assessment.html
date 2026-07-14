@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>WALKWORTHY efficiency assessment</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:1180px;margin:0 auto;padding:36px 28px 80px;color:#172033;line-height:1.55}h1,h2,h3{color:#102a43;line-height:1.2}h1{border-bottom:3px solid #2f80ed;padding-bottom:.35em}h2{margin-top:2.2em;border-bottom:1px solid #d8e2ef;padding-bottom:.25em}table{border-collapse:collapse;width:100%;font-size:.91rem;margin:1rem 0 2rem}th,td{border:1px solid #cad5e3;padding:.55rem .65rem;vertical-align:top}th{background:#edf4fb;text-align:left;position:sticky;top:0}tr:nth-child(even){background:#f8fafc}code{background:#eef2f6;padding:.12rem .3rem;border-radius:4px}blockquote{border-left:4px solid #2f80ed;margin-left:0;padding-left:1rem;color:#425466}#TOC{background:#f4f8fc;border:1px solid #d8e2ef;border-radius:10px;padding:1rem 1.5rem;margin:1.5rem 0 2.5rem}a{color:#1769aa}@media(max-width:800px){body{padding:20px 14px}table{display:block;overflow-x:auto;font-size:.82rem}}</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">WALKWORTHY efficiency assessment</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#walkworthy-efficiency-assessment"
+id="toc-walkworthy-efficiency-assessment">WALKWORTHY efficiency
+assessment</a>
+<ul>
+<li><a href="#executive-conclusion"
+id="toc-executive-conclusion">Executive conclusion</a></li>
+<li><a href="#evidence-base-and-unit-of-analysis"
+id="toc-evidence-base-and-unit-of-analysis">Evidence base and unit of
+analysis</a></li>
+<li><a href="#contribution-rubric"
+id="toc-contribution-rubric">Contribution rubric</a></li>
+<li><a href="#portfolio-level-result"
+id="toc-portfolio-level-result">Portfolio-level result</a></li>
+<li><a href="#session-by-session-assessment"
+id="toc-session-by-session-assessment">Session-by-session
+assessment</a></li>
+<li><a href="#what-truly-moved-the-needle"
+id="toc-what-truly-moved-the-needle">What truly moved the
+needle</a></li>
+<li><a href="#rabbit-hole-indicators"
+id="toc-rabbit-hole-indicators">Rabbit-hole indicators</a></li>
+<li><a href="#recommended-path-from-here"
+id="toc-recommended-path-from-here">Recommended path from here</a></li>
+<li><a href="#session-operating-contract-for-future-work"
+id="toc-session-operating-contract-for-future-work">Session operating
+contract for future work</a></li>
+<li><a href="#file-and-code-actions" id="toc-file-and-code-actions">File
+and code actions</a></li>
+<li><a href="#best-immediate-actions"
+id="toc-best-immediate-actions">Best immediate actions</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="walkworthy-efficiency-assessment">WALKWORTHY efficiency
+assessment</h1>
+<p><strong>Assessment date:</strong> 2026-07-14</p>
+<p><strong>Scope:</strong> all recorded WALKWORTHY logical sessions from
+genesis through the final bounded G7 attempt</p>
+<p><strong>Primary question:</strong> which work actually advanced the
+MVP benchmark and MVP paper, which work was necessary enabling work, and
+which work consumed attention without producing proportional paper
+value?</p>
+<h2 id="executive-conclusion">Executive conclusion</h2>
+<p>WALKWORTHY has not lacked useful work. It has produced a large
+authored bank, a public/holdout split, a tested harness, a six-model
+panel, frozen gate rules, a full adjudication path, corrected
+descriptive statistics, a reviewed exploratory MVP run, and a
+substantial paper scaffold. The strongest sessions were unusually
+productive.</p>
+<p>The project nevertheless developed a sequencing problem. Once the
+exploratory MVP-A1 preview was complete and reviewed on 2026-07-13, nine
+logical G7 sessions followed. They generated careful contracts, custody
+code, rulings, and 146 author calls, but no perturbed response, no
+438-cell robustness battery, and no flip-rate statistic. The only
+paper-facing result was a truthful limitation: G7 is
+<code>PENDING</code>. That work was defensible as release-grade
+hardening, but it was not the shortest path to the MVP paper and it ran
+ahead of the actual release bottleneck: human labels.</p>
+<p>The central distinction is:</p>
+<ul>
+<li><strong>Exploratory MVP-A1 benchmark and preview:</strong> already
+complete, reviewed, and bounded to descriptive claims.</li>
+<li><strong>Complete MVP manuscript/PDF:</strong> not yet assembled as a
+single reader-ready artifact; this is the highest-value agent task now
+and does not require G4.</li>
+<li><strong>Release-grade O5 benchmark and claims:</strong> incomplete;
+human Part-A/Part-B labels are the rate limiter, followed by G4,
+recomputation, verdict assembly, and owner sign-off.</li>
+</ul>
+<p>The correct strategy is therefore two-lane and paper-first:</p>
+<ol type="1">
+<li>assemble and visually verify the complete descriptive MVP
+manuscript/PDF now, with G4 and G7 explicitly pending;</li>
+<li>in parallel, complete labels and convert each finished wave
+immediately into G4 results, verdict/status rows, and revised paper
+content.</li>
+</ol>
+<p>No further G7 work, new model work, broad audit, refactor, or serial
+ruling chain should enter the critical path.</p>
+<h2 id="evidence-base-and-unit-of-analysis">Evidence base and unit of
+analysis</h2>
+<p>This assessment uses:</p>
+<ul>
+<li>the nine pre-dashboard major sessions summarized in
+<code>00-PORTFOLIO/project-dashboard.html</code> §5;</li>
+<li>all 38 append-only dashboard changelog entries through
+2026-07-14;</li>
+<li>the scoped git history;</li>
+<li>the dated handoffs and rulings in <code>00-PORTFOLIO/</code>;</li>
+<li><code>PAPER/outline.md</code>,
+<code>PAPER/06-results-scaffold.md</code>, and the completed MVP §6A
+artifacts;</li>
+<li>the current label instruments and
+<code>harness/walkworthy/judge_validation.py</code>.</li>
+</ul>
+<p>The result is <strong>47 logical sessions</strong>. Commit-level
+checkpoints inside a logical session are rolled into the session that
+produced the closing artifact. The scoring is retrospective and
+evaluates contribution to the MVP benchmark/paper; it is not a judgment
+of effort or technical quality.</p>
+<h2 id="contribution-rubric">Contribution rubric</h2>
+<table>
+<colgroup>
+<col style="width: 57%" />
+<col style="width: 42%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: right;">Score</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">5</td>
+<td>Directly produced benchmark evidence, a manuscript artifact, a paper
+table/claim, or closed a material P0/P1 scientific blocker and
+immediately converted the result into the paper.</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Necessary enabling work on the shortest path, with a concrete
+executable/evidence artifact and little avoidable overhead.</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Useful supporting work or a valid stop that reduced uncertainty, but
+did not itself create a paper-facing result.</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Coordination, hardening, or downstream robustness work with limited
+near-term paper contribution.</td>
+</tr>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Mostly planning, dashboard/handoff churn, serial authorization, or
+specification detail that could have been bundled or deferred.</td>
+</tr>
+<tr>
+<td style="text-align: right;">0</td>
+<td>No durable value or net regression. No session was scored 0.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="portfolio-level-result">Portfolio-level result</h2>
+<table>
+<colgroup>
+<col style="width: 21%" />
+<col style="width: 28%" />
+<col style="width: 28%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr>
+<th>Phase</th>
+<th style="text-align: right;">Sessions</th>
+<th style="text-align: right;">Average</th>
+<th>Assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Foundation through O4 panel</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">4.44</td>
+<td>Excellent. Built the scientific object and generated real
+evidence.</td>
+</tr>
+<tr>
+<td>Dashboard/transition/PR-9 interval</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">2.22</td>
+<td>Necessary controls mixed with substantial coordination overhead and
+repeated prompt staging.</td>
+</tr>
+<tr>
+<td>Judgment closure, W1–W4, and first paper conversion</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">3.67</td>
+<td>Strong overall; highest value came when a run, ruling, recompute,
+and paper fill occurred in the same session.</td>
+</tr>
+<tr>
+<td>MVP strategy, execution, review, and correction</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">4.38</td>
+<td>The most efficient paper-facing sequence after the foundation. It
+delivered the reviewed MVP preview cheaply.</td>
+</tr>
+<tr>
+<td>G7 specification and bounded attempt</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">1.56</td>
+<td>Scientifically careful but poorly sequenced for the MVP. It ended
+with a limitation rather than a robustness statistic.</td>
+</tr>
+<tr>
+<td><strong>All logical sessions</strong></td>
+<td style="text-align: right;"><strong>47</strong></td>
+<td style="text-align: right;"><strong>3.26</strong></td>
+<td><strong>24 sessions scored 4–5; 17 scored 1–2. The project can now
+eliminate most low-yield session types.</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="session-by-session-assessment">Session-by-session
+assessment</h2>
+<h3 id="foundation-and-empirical-panel">Foundation and empirical
+panel</h3>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 23%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Date</th>
+<th>Session</th>
+<th style="text-align: right;">Score</th>
+<th>Critical assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>07-06</td>
+<td>Genesis: charter, PRD, 10 designs, anchors, seed banks, playbook,
+master plan</td>
+<td style="text-align: right;">5</td>
+<td>Created the benchmark’s scientific and normative object in one
+bounded session. Directly enabled the Methods and Construction
+sections.</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>07-07</td>
+<td>Wave 2 bank expansion and adversarial review</td>
+<td style="text-align: right;">4</td>
+<td>Increased coverage and reduced defect rate. Valuable, though the
+bank was already large enough for an earlier pilot; expansion was
+justified by coverage, not paper polish.</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>07-09</td>
+<td>O1 bank completion and PUBLIC/HOLDOUT split</td>
+<td style="text-align: right;">5</td>
+<td>Produced the frozen empirical surface and contamination boundary.
+Essential to evidence integrity and the paper.</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>07-09</td>
+<td>O2 mock-first harness</td>
+<td style="text-align: right;">4</td>
+<td>Built the minimum executable pipeline and exposed no-HOLDOUT
+enforcement. Strong enabling work with clear exit criteria.</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>07-09</td>
+<td>O3 live mechanics smoke</td>
+<td style="text-align: right;">3</td>
+<td>Valid smoke-scale learning and found the refusal-taxonomy defect,
+but the CLI/OAuth path was transitional and did not itself yield
+reusable benchmark evidence.</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>07-09</td>
+<td>OpenRouter path, O4 preparation, and P0 pilot</td>
+<td style="text-align: right;">5</td>
+<td>Converted infrastructure into real cross-model evidence and revealed
+judge-agreement risk before the full panel. A model high-value pilot
+session.</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>07-10</td>
+<td>Gate preregistration, PR-3 ruling, and human-label protocol</td>
+<td style="text-align: right;">5</td>
+<td>Froze interpretation before results and defined the true release
+bottleneck. One of the project’s most scientifically important
+sessions.</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>07-10</td>
+<td>O4 offline build: metrics, labels, gates, roster</td>
+<td style="text-align: right;">4</td>
+<td>Necessary implementation against frozen rules. High value because it
+was bounded to the imminent panel rather than generalized
+infrastructure.</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>07-10/11</td>
+<td>O4 full six-model panel</td>
+<td style="text-align: right;">5</td>
+<td>Generated the core 2,064-record empirical asset and label sample.
+Direct evidence, despite two live bugs that were fixed during
+execution.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="transition-dashboard-and-pr-9">Transition, dashboard, and
+PR-9</h3>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 23%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Date</th>
+<th>Session</th>
+<th style="text-align: right;">Score</th>
+<th>Critical assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">10</td>
+<td>07-11</td>
+<td>Initial roadmap HTML</td>
+<td style="text-align: right;">2</td>
+<td>Improved visibility, but did not change evidence or the paper.
+Useful once; low marginal value thereafter.</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td>07-11</td>
+<td>Living dashboard conversion</td>
+<td style="text-align: right;">2</td>
+<td>Established durable coordination for a shared worktree. Necessary
+governance overhead, not paper progress.</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td>07-11</td>
+<td>Comprehensive dashboard edition</td>
+<td style="text-align: right;">2</td>
+<td>Consolidated status and contingencies, but consumed a full session
+without an evidence artifact. This is the type of work that should now
+be capped at session close.</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td>07-11</td>
+<td>PR-9 Fable boot prompt staging</td>
+<td style="text-align: right;">1</td>
+<td>A handoff-only session. It should have been bundled with the ruling
+session or the preceding stop.</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td>07-11</td>
+<td>Dashboard title and §12 prompt</td>
+<td style="text-align: right;">1</td>
+<td>Useful polish/convention, but negligible contribution to the MVP
+benchmark or paper.</td>
+</tr>
+<tr>
+<td style="text-align: right;">15</td>
+<td>07-11</td>
+<td>Transcript persistence repair</td>
+<td style="text-align: right;">4</td>
+<td>Fixed a genuine P0 evidence-custody defect. This engineering was
+justified because missing response text made adjudication scientifically
+unusable.</td>
+</tr>
+<tr>
+<td style="text-align: right;">16</td>
+<td>07-11</td>
+<td>Frozen Grok-4 reliability probe</td>
+<td style="text-align: right;">3</td>
+<td>Correctly discharged a registered option and stopped on 0/10. Small,
+bounded, decision-producing work.</td>
+</tr>
+<tr>
+<td style="text-align: right;">17</td>
+<td>07-11</td>
+<td>PR-9 surface/cost decision evidence</td>
+<td style="text-align: right;">3</td>
+<td>Reduced owner uncertainty with exact counts and cost. Valuable
+decision support, but not a paper artifact.</td>
+</tr>
+<tr>
+<td style="text-align: right;">18</td>
+<td>07-12</td>
+<td>Definitive ruling-session prompt</td>
+<td style="text-align: right;">2</td>
+<td>More complete than the earlier prompt, but represents serial prompt
+refinement. A single bundled preflight would have been more
+efficient.</td>
+</tr>
+</tbody>
+</table>
+<h3
+id="judgment-closure-o5-execution-and-first-paper-conversion">Judgment
+closure, O5 execution, and first paper conversion</h3>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 23%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Date</th>
+<th>Session</th>
+<th style="text-align: right;">Score</th>
+<th>Critical assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">19</td>
+<td>07-12</td>
+<td>All judgment closed: FR-16/17/18, PR-9, backlog ratification</td>
+<td style="text-align: right;">5</td>
+<td>Removed the largest decision bottleneck in one owner-present
+session. Bundling rulings worked and should be the future model.</td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td>07-12</td>
+<td>Paper pre-draft</td>
+<td style="text-align: right;">5</td>
+<td>Created the claims skeleton and eleven-section scaffold before final
+results. This prevented the manuscript from waiting on every gate.</td>
+</tr>
+<tr>
+<td style="text-align: right;">21</td>
+<td>07-12</td>
+<td>Fable exit and standing paper-fill orders</td>
+<td style="text-align: right;">3</td>
+<td>Useful ownership clarification and mechanical paper-fill contract.
+Indirect but reduced future ambiguity.</td>
+</tr>
+<tr>
+<td style="text-align: right;">22</td>
+<td>07-12</td>
+<td>Comprehensive dashboard/memory closure sweep</td>
+<td style="text-align: right;">1</td>
+<td>Corrected some real status errors, but the amount of reconciliation
+was disproportionate to paper value. This is clear overhead to avoid
+repeating.</td>
+</tr>
+<tr>
+<td style="text-align: right;">23</td>
+<td>07-12</td>
+<td>W1 build and 02/07 re-execution start</td>
+<td style="text-align: right;">4</td>
+<td>Built exactly the mechanics needed to recover invalid evidence and
+began the authorized run. Necessary P0 repair.</td>
+</tr>
+<tr>
+<td style="text-align: right;">24</td>
+<td>07-12</td>
+<td>Re-execution resume and G5 pre-gate</td>
+<td style="text-align: right;">3</td>
+<td>Advanced the run and identified real PR-10/11 gaps, but mixed
+downstream W4/W5 preparation into an unfinished W1 critical path.</td>
+</tr>
+<tr>
+<td style="text-align: right;">25</td>
+<td>07-12</td>
+<td>PR-10/11 implementation and G5 promotion</td>
+<td style="text-align: right;">4</td>
+<td>Closed genuine registered blockers with executable artifacts. Good
+work, though it could have waited until W1 completion without delaying
+the paper.</td>
+</tr>
+<tr>
+<td style="text-align: right;">26</td>
+<td>07-12</td>
+<td>Next-session pinning/audit</td>
+<td style="text-align: right;">1</td>
+<td>Produced no new evidence. The re-entry information belonged in the
+preceding handoff.</td>
+</tr>
+<tr>
+<td style="text-align: right;">27</td>
+<td>07-13</td>
+<td>02/07 re-execution complete, transcript validation, probe, PR-13
+stop</td>
+<td style="text-align: right;">5</td>
+<td>Recovered the invalid evidence surface, validated every key, and
+stopped correctly on a material denominator discrepancy. High-value
+execution.</td>
+</tr>
+<tr>
+<td style="text-align: right;">28</td>
+<td>07-13</td>
+<td>Binding paper-critical-path policy</td>
+<td style="text-align: right;">3</td>
+<td>A necessary process correction that later enabled the MVP lane. Its
+value is preventive rather than empirical.</td>
+</tr>
+<tr>
+<td style="text-align: right;">29</td>
+<td>07-13</td>
+<td>PR-13/14/15 closure; W1 and W2 complete</td>
+<td style="text-align: right;">5</td>
+<td>Converted rulings directly into adjudication and a registered
+statistical test. Strong session discipline.</td>
+</tr>
+<tr>
+<td style="text-align: right;">30</td>
+<td>07-13</td>
+<td>PR-16 reroute, W3 recompute, and first PAPER fill</td>
+<td style="text-align: right;">5</td>
+<td>The best execution pattern: fix the validity issue, generate the
+immutable reading, and fill paper tables in the same session.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="exploratory-mvp-and-review">Exploratory MVP and review</h3>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 23%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Date</th>
+<th>Session</th>
+<th style="text-align: right;">Score</th>
+<th>Critical assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">31</td>
+<td>07-13</td>
+<td>WALKWORTHY MVP-PILOT strategy</td>
+<td style="text-align: right;">4</td>
+<td>Narrowed the immediate claim, roster, surface, and budget. This was
+the right corrective response to release-grade scope growth.</td>
+</tr>
+<tr>
+<td style="text-align: right;">32</td>
+<td>07-13</td>
+<td>W4 G5 gate and PR-18 stop</td>
+<td style="text-align: right;">4</td>
+<td>Produced release-grade evidence cheaply and closed W4. Useful, but
+not required for the exploratory MVP paper.</td>
+</tr>
+<tr>
+<td style="text-align: right;">33</td>
+<td>07-13</td>
+<td>MVP roster and budget preflight</td>
+<td style="text-align: right;">4</td>
+<td>Exact, bounded, inexpensive, and immediately actionable. Good
+paid-run discipline.</td>
+</tr>
+<tr>
+<td style="text-align: right;">34</td>
+<td>07-13</td>
+<td>MVP SUT snapshot and PR-20 stop</td>
+<td style="text-align: right;">5</td>
+<td>Produced all 180 SUT executions and correctly stopped on a required
+judge defect without corrupting evidence.</td>
+</tr>
+<tr>
+<td style="text-align: right;">35</td>
+<td>07-13</td>
+<td>PR-20 replay and PR-21 cost-custody stop</td>
+<td style="text-align: right;">4</td>
+<td>Necessary evidence-integrity repair with one exact replay. The
+serial ruling was justified because it governed live custody, though
+preflight could have anticipated missing-cost behavior.</td>
+</tr>
+<tr>
+<td style="text-align: right;">36</td>
+<td>07-13</td>
+<td>MVP-A1 complete and exploratory paper preview filled</td>
+<td style="text-align: right;">5</td>
+<td>Directly achieved the registered MVP benchmark and populated the
+paper preview for $0.551 conservative exposure. The clearest “moved the
+needle” session.</td>
+</tr>
+<tr>
+<td style="text-align: right;">37</td>
+<td>07-13</td>
+<td>Opus claims review and PR-22</td>
+<td style="text-align: right;">4</td>
+<td>Independently reproduced every number and found one material scope
+error. High-value review because it changed a paper claim.</td>
+</tr>
+<tr>
+<td style="text-align: right;">38</td>
+<td>07-13</td>
+<td>PR-22 paper correction</td>
+<td style="text-align: right;">5</td>
+<td>Corrected the manuscript and scaling memo without new calls or scope
+growth. Direct paper-quality improvement.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="g7-chain-after-the-mvp-preview">G7 chain after the MVP
+preview</h3>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 23%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Date</th>
+<th>Session</th>
+<th style="text-align: right;">Score</th>
+<th>Critical assessment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">39</td>
+<td>07-13</td>
+<td>PR-18 mechanics and PR-23/24 stop</td>
+<td style="text-align: right;">2</td>
+<td>Careful release-grade robustness mechanics, but downstream of both
+the completed MVP and absent labels. This marks the start of the
+rabbit-hole sequence.</td>
+</tr>
+<tr>
+<td style="text-align: right;">40</td>
+<td>07-13</td>
+<td>PR-23/24 implementation and G7 preflight</td>
+<td style="text-align: right;">2</td>
+<td>Produced exact geometry and budget, but still no robustness evidence
+or paper need. A single end-to-end preflight should have found the later
+gaps here.</td>
+</tr>
+<tr>
+<td style="text-align: right;">41</td>
+<td>07-13</td>
+<td>PR-25 paid authorization record</td>
+<td style="text-align: right;">1</td>
+<td>Authorization-only session. Necessary administratively, but it
+should have been bundled with a complete executable contract.</td>
+</tr>
+<tr>
+<td style="text-align: right;">42</td>
+<td>07-13</td>
+<td>PR-25(a) cheap-first order</td>
+<td style="text-align: right;">1</td>
+<td>Sensible ordering, but another serial approval session without
+evidence.</td>
+</tr>
+<tr>
+<td style="text-align: right;">43</td>
+<td>07-13</td>
+<td>G7 custody core and PR-26 stop</td>
+<td style="text-align: right;">2</td>
+<td>Technically solid, but extensive durability work preceded proof that
+the author contract could produce one valid output. A one-item
+end-to-end canary should have come first.</td>
+</tr>
+<tr>
+<td style="text-align: right;">44</td>
+<td>07-13</td>
+<td>Opus author contract and PR-27 stop</td>
+<td style="text-align: right;">1</td>
+<td>Necessary only because the preceding preflight was incomplete. The
+contract, semantic-review identity, parser, and lint semantics should
+have been frozen together.</td>
+</tr>
+<tr>
+<td style="text-align: right;">45</td>
+<td>07-13</td>
+<td>PR-27 closure and PR-28 stop</td>
+<td style="text-align: right;">1</td>
+<td>Three low-level runtime details triggered another ruling. This is
+precisely the serial-specification pattern to replace with one preflight
+review.</td>
+</tr>
+<tr>
+<td style="text-align: right;">46</td>
+<td>07-13</td>
+<td>PR-28 implementation and 73 first author calls</td>
+<td style="text-align: right;">2</td>
+<td>Executed within bounds, but skipped the highest-information action:
+a single strict-output canary before all 73 calls. It produced no valid
+author output.</td>
+</tr>
+<tr>
+<td style="text-align: right;">47</td>
+<td>07-14</td>
+<td>Final 73 exact replays and G7 PENDING close</td>
+<td style="text-align: right;">2</td>
+<td>Correctly closed the authorized thread and produced a paper
+limitation. Necessary once authorized, but the value was closure, not a
+robustness result.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="what-truly-moved-the-needle">What truly moved the needle</h2>
+<p>The highest-contribution sessions shared six characteristics:</p>
+<ol type="1">
+<li><strong>A paper-facing exit criterion was named before work
+began.</strong> O4-RUN targeted a complete panel; MVP-A1 targeted a
+complete descriptive preview; W3 targeted a dated reading plus immediate
+table fill.</li>
+<li><strong>The scientific question was bounded.</strong> Exact items,
+models, calls, prices, and claims were frozen. The session did not build
+for hypothetical future use.</li>
+<li><strong>Execution and paper conversion happened together.</strong>
+The strongest example is session 30: PR-16 repair → W3 recompute → PAPER
+tables in one session.</li>
+<li><strong>Stops protected evidence, not convenience.</strong>
+Transcript repair, PR-13, PR-20, and PR-21 were material integrity
+issues; stopping prevented false claims.</li>
+<li><strong>Owner decisions were bundled.</strong> The 07-12 ruling
+session closed an entire backlog at once. Serial one-line ratifications
+were much less efficient.</li>
+<li><strong>The session ended with evidence or prose, not merely more
+readiness.</strong> A run, table, corrected claim, or manuscript section
+is a real delta; a higher test count alone is not.</li>
+</ol>
+<h2 id="rabbit-hole-indicators">Rabbit-hole indicators</h2>
+<p>A task should be presumed off-path when two or more of these are
+true:</p>
+<ul>
+<li>it concerns a downstream gate while an upstream human-data
+prerequisite is absent;</li>
+<li>its output is another prompt, handoff, dashboard rewrite,
+authorization memo, or specification decision rather than evidence or
+manuscript content;</li>
+<li>it adds robustness, replay, concurrency, custody, or provider
+abstraction beyond the narrowed paper claim;</li>
+<li>it discovers one specification gap per session instead of running
+one end-to-end preflight;</li>
+<li>success is described mainly by test-count growth or implementation
+volume;</li>
+<li>a one-item canary could answer the key feasibility question before
+bulk engineering or calls;</li>
+<li>the manuscript can truthfully disclose the issue as
+<code>PENDING</code> or a limitation without changing the registered
+conclusion;</li>
+<li>it consumes a full session without a paper-facing artifact or
+removal of a P0/P1 blocker.</li>
+</ul>
+<p>G7 exhibited nearly all of these indicators. The work was not random,
+but its sequence optimized reproducibility of a robustness gate before
+confirming the gate could produce any usable perturbation and while
+labels remained the release bottleneck.</p>
+<h2 id="recommended-path-from-here">Recommended path from here</h2>
+<h3 id="lane-a-complete-the-mvp-paper-now">Lane A — complete the MVP
+paper now</h3>
+<p>The exploratory MVP-A1 evidence is already complete and reviewed. The
+next agent session should:</p>
+<ol type="1">
+<li>assemble the living <code>PAPER/</code> sections into one
+reader-ready MVP manuscript;</li>
+<li>replace every non-required result placeholder with either the
+licensed descriptive value or an explicit
+<code>PENDING</code>/limitation statement;</li>
+<li>keep O5 release claims separate from MVP §6A;</li>
+<li>fill the abstract only with licensed benchmark-construction, MVP,
+and descriptive claims;</li>
+<li>generate and visually inspect a PDF;</li>
+<li>issue one claims-conformance checklist and stop for Jimmy’s
+manuscript review.</li>
+</ol>
+<p>This is a one-session paper deliverable. It requires no new model
+call, label, ruling, or harness feature.</p>
+<h3 id="lane-b-complete-release-grade-o5-incrementally">Lane B —
+complete release-grade O5 incrementally</h3>
+<p>Jimmy’s labeling is the long pole. Work one design at a time, in
+frozen FR-17(a) order:</p>
+<ol type="1">
+<li>wave 1 Part A: <code>02</code>, <code>07</code>, <code>01</code> =
+84 CSV rows, plus the registered overlap/reliability arm;</li>
+<li>wave 1 Part B: work the exported unresolved cells for the same
+designs;</li>
+<li>as soon as one design is complete, run
+<code>walkworthy.judge_validation</code>; do not wait for the full wave
+if the frozen input contract permits a truthful per-design report;</li>
+<li>apply the frozen G4 branch and recompute that design’s
+Part-B-resolved metrics;</li>
+<li>update Table 6.1, Table 6.2, Table 6.3, the O5 report, and
+limitations in the same session;</li>
+<li>repeat for waves 2 and 3;</li>
+<li>after all available verdicts, obtain one Opus adversarial memo and
+one Jimmy sign-off session.</li>
+</ol>
+<p>If no labels exist, an O5 execution session stops immediately. It may
+switch to already-authorized paper assembly, but it must not invent
+another engineering lane.</p>
+<h2 id="session-operating-contract-for-future-work">Session operating
+contract for future work</h2>
+<p>Every future session should begin with five explicit fields:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paper delta</td>
+<td>Exact table, paragraph, figure, report, or PDF that will be new at
+close.</td>
+</tr>
+<tr>
+<td>Sufficiency gate</td>
+<td>The smallest condition that makes that delta truthful.</td>
+</tr>
+<tr>
+<td>P0/P1 blocker</td>
+<td>One concrete blocker, or <code>none</code>. P2/P3 cannot block.</td>
+</tr>
+<tr>
+<td>Execution timebox</td>
+<td>At least 80% of effort; documentation/testing/dashboard at most
+20%.</td>
+</tr>
+<tr>
+<td>Stop condition</td>
+<td>The event that ends the task without opening a new lane.</td>
+</tr>
+</tbody>
+</table>
+<p>Additional controls:</p>
+<ul>
+<li><strong>One preflight, one ruling bundle.</strong> Before paid or
+complex execution, review prompt, parser, schema, reviewer identity,
+retry, missing-cost behavior, outputs, and claim boundary together.
+Submit one owner decision package.</li>
+<li><strong>Canary before framework.</strong> Run the cheapest
+permissible one-item end-to-end canary before building bulk resume,
+concurrency, or crash-recovery features.</li>
+<li><strong>No artifact-free session.</strong> A session cannot be
+called complete based on tests, plans, prompts, handoffs, or dashboard
+changes alone unless it hit a genuine external stop.</li>
+<li><strong>Paper conversion is part of execution.</strong> A new
+reading is incomplete until the licensed table/prose is updated.</li>
+<li><strong>No speculative code.</strong> Change code only after a
+focused failing test demonstrates that existing mechanics block the next
+statistic, verdict, table, or claim.</li>
+<li><strong>Dashboard once.</strong> Reconcile the dashboard and handoff
+at session close, not repeatedly during execution.</li>
+<li><strong>Limitations beat indefinite hardening.</strong> If a P2/P3
+issue can be truthfully bounded without changing the paper conclusion,
+disclose and defer it.</li>
+</ul>
+<h2 id="file-and-code-actions">File and code actions</h2>
+<h3 id="change-now">Change now</h3>
+<ul>
+<li><code>00-PORTFOLIO/project-dashboard.html</code>: make manuscript
+assembly the next agent deliverable, labels the parallel owner
+bottleneck, and add the session-value/anti-rabbit-hole gate.</li>
+<li><code>00-PORTFOLIO/efficiency-assessment.md</code> and
+<code>.html</code>: freeze this retrospective and make it discoverable
+from the dashboard.</li>
+</ul>
+<h3 id="next-high-value-session">Next high-value session</h3>
+<ul>
+<li>Create <code>PAPER/walkworthy-mvp-manuscript.md</code> as the single
+assembled reader-facing draft.</li>
+<li>Create a visually verified
+<code>PAPER/walkworthy-mvp-manuscript.pdf</code>.</li>
+<li>Update existing living paper sections only where assembly reveals an
+unlicensed claim, unresolved placeholder, or missing source link.</li>
+<li>Use Pandoc/Typst or the existing PDF tooling directly. Do
+<strong>not</strong> build a general document pipeline unless the
+one-off assembly command proves insufficient.</li>
+</ul>
+<h3 id="when-labels-land">When labels land</h3>
+<ul>
+<li>Use existing <code>harness/walkworthy/judge_validation.py</code>;
+its CLI already joins filled blind CSVs and emits a dated immutable G4
+report.</li>
+<li>Use existing <code>harness/walkworthy/label_sample.py</code> Part-B
+export functions and the post-PR-16 derived records.</li>
+<li>Add code only if a focused label fixture proves the existing
+join/export cannot consume the actual completed files. The first
+acceptable code change is a narrow validator or adapter with TDD—not a
+new labeling platform.</li>
+<li>Produce NEW dated G4/O5 reports; update the living PAPER files
+immediately.</li>
+</ul>
+<h3 id="do-not-change-now">Do not change now</h3>
+<ul>
+<li>no G7 author, perturbation, SUT, judge, replay, parser, or custody
+code;</li>
+<li>no model roster, provider, concurrency, or retry framework;</li>
+<li>no benchmark item/key or frozen gate-rule changes;</li>
+<li>no HOLDOUT access;</li>
+<li>no broad test refactor or dashboard generator;</li>
+<li>no parent BibleBench portfolio file from this scope-locked session.
+The parent <code>ACTIVE-CRITICAL-PATHS.md</code> is stale and should be
+corrected in a separate portfolio-scoped session.</li>
+</ul>
+<h2 id="best-immediate-actions">Best immediate actions</h2>
+<ol type="1">
+<li><strong>Next Codex session:</strong> assemble the complete
+descriptive MVP manuscript and PDF; update no benchmark mechanics.</li>
+<li><strong>Jimmy in parallel:</strong> complete wave-1 labels and the
+reliability overlap.</li>
+<li><strong>First label trigger:</strong> run G4 and Part-B recompute
+for the completed design(s), then update paper tables in the same
+session.</li>
+<li><strong>After each wave:</strong> one bounded review; no new model
+or robustness work.</li>
+<li><strong>After O5 report:</strong> one Opus adversarial claims memo →
+Jimmy sign-off.</li>
+</ol>
+<p>The project should now measure progress by reader-ready evidence and
+manuscript pages, not by the number of tests, contracts, rulings, or
+prepared future calls.</p>
+</body>
+</html>

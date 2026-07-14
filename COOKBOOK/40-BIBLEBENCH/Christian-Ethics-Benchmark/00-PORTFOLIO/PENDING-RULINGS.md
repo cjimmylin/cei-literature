@@ -1105,6 +1105,17 @@ binding as displayed above and recorded in
 started in the ruling-record session. No substitution, automatic scale-up, denominator
 change, item replacement, HOLDOUT, or premature G7/paper verdict is authorized.
 
+**Additive owner execution order (2026-07-13):** after Codex proposed $0 mock validation
+and retained production canaries/shards on Llama → DeepSeek → Mistral before the more
+expensive fixed SUTs, Jimmy responded verbatim:
+
+> approve
+
+**PR-25(a) APPROVED.** `20260713o-jimmy-pr25a-cheap-first-order.md` binds the exact
+cheap-first scheduling and additive checkpoint. The six-model roster, evidence surface,
+10,680 POST cap, $30 hard NTE, and all PR-25 stops remain unchanged; this is not model
+substitution or extra probe authority.
+
 ---
 
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a

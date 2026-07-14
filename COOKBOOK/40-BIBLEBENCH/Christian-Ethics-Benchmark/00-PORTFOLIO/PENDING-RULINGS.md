@@ -939,7 +939,7 @@ that payload permanently stops it. The rule applies prospectively to MVP-A1 with
 changing the roster, prompt, cap, provider ceiling, 1,834-call envelope, $5.00 NTE,
 no-substitution constraint, or descriptive-only claim boundary.
 
-## PR-22 — MVP/O5 human-label attribution in paper preview (OPEN — JIMMY)
+## PR-22 — MVP/O5 human-label attribution in paper preview (RATIFIED + CLOSED 2026-07-13)
 
 **Opened:** 2026-07-13 by the single authorized Opus claims review. Source:
 `20260713c-opus-mvp-a1-paper-claims-adversarial-review.md` P1.
@@ -965,6 +965,15 @@ leaves avoidable MVP/O5 ambiguity, so Opus does not recommend it.
 **Exact requested ruling:**
 
 > Ratify PR-22 option 1: accept the Opus P1; replace PAPER §7.4 with the exact reviewed scope correction; create a NEW dated superseding scaling correction memo stating frozen O5 labels populate separate §6/O5 results and do not validate or change MVP §6A, while strengthening §6A requires new labels on the exact MVP responses or a validated judge; waive the three P3 nits for now; no paid calls, scale-up, model additions, or O5 rule changes.
+
+**Jimmy ruling (verbatim, 2026-07-13):**
+
+> Ratify PR-22 option 1: accept the Opus P1; replace PAPER §7.4 with the exact reviewed scope correction; create a NEW dated superseding scaling correction memo stating frozen O5 labels populate separate §6/O5 results and do not validate or change MVP §6A, while strengthening §6A requires new labels on the exact MVP responses or a validated judge; waive the three P3 nits for now; no paid calls, scale-up, model additions, or O5 rule changes.
+
+**Disposition:** RATIFIED + CLOSED. The exact reviewed §7.4 correction was applied;
+`20260713d-mvp-a1-scaling-scope-correction.md` supersedes only the affected scope and
+scaling statements in the immutable `20260713b` memo; the three P3 nits are waived for
+now. This ruling authorizes no paid call, scale-up, model addition, or O5 rule change.
 
 ---
 

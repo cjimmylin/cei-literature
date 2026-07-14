@@ -1094,8 +1094,16 @@ continues.
 > premium-model probe; no substitution, denominator change, item replacement, HOLDOUT,
 > automatic scale-up, or G7/paper verdict before the frozen P1/Part-B path is complete.
 
-**OPEN — G7 PAID EXECUTION STOPPED ON JIMMY.** No credential access, retry-mechanics
-change, live request, or spend is authorized until the exact order is ratified.
+**Jimmy ruling (2026-07-13, verbatim response):**
+
+> yes, ratify: Jimmy must ratify PR-25 option 1 before any paid G7 execution.
+
+**RATIFIED + CLOSED 2026-07-13.** Jimmy ratified option 1 by explicit reference. Exact
+G7-A1 execution, custody, retry, provider, cap, checkpoint, and $30 hard-NTE terms are
+binding as displayed above and recorded in
+`20260713m-jimmy-pr25-g7-a1-authorization.md`. Paid execution is authorized but has not
+started in the ruling-record session. No substitution, automatic scale-up, denominator
+change, item replacement, HOLDOUT, or premature G7/paper verdict is authorized.
 
 ---
 

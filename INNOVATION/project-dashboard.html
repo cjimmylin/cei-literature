@@ -94,7 +94,7 @@ pre.paste{background:#0f1526;border:1px solid var(--teal);border-radius:10px;pad
 <h1>🧭 INNOVATION — Project Dashboard</h1>
 <div class="banner">
 <b>LIVING DOCUMENT — continually updated by ALL agents</b> working this lane: Anthropic (Claude — Fable/Opus/Sonnet/Haiku), OpenAI (Codex), and any other model. Read at session <b>open</b>, update in place at session <b>close</b>; protocol: <code>INNOVATION/AGENTS.md §The project dashboard</code>. Sections are chipped <span class="chip live">LIVE</span> (maintain) or <span class="chip hist">HISTORY</span> (frozen; append-only).<br>
-<b>Last updated:</b> 2026-07-11 · by Claude (Fable), P3-gate session — dashboard created; P3 pre-submission gate executed (CONDITIONAL-GO).
+<b>Last updated:</b> 2026-07-14 · by Claude (Fable) — next-session boot prompt formalized as <code>20260714-next-session-boot-prompt.md</code>; §12 synced (lane state unchanged: PR-02/PR-03 open, no keys).
 </div>
 
 <!-- ══════════════ 1. LIVE STATUS ══════════════ -->
@@ -227,6 +227,7 @@ Full protocol: <code>INNOVATION/AGENTS.md §The project dashboard</code> and the
 <table>
 <tr><th>Date</th><th>Agent</th><th>Change</th></tr>
 <tr><td>2026-07-11</td><td>Claude (Fable)</td><td>Dashboard created (Jimmy direction). Initial state: Cycle 1 closed; P3 gate executed → CONDITIONAL-GO; ledger-v2 61/3/0; gate-protocols memo; §12 = draft-v1 Opus session.</td></tr>
+<tr><td>2026-07-14</td><td>Claude (Fable)</td><td>Next-session boot prompt formalized as dated file <code>20260714-next-session-boot-prompt.md</code> (Jimmy request); §12 synced with Step-0 branches (PR-03 patch / keys-log) + close-books detail. Lane state verified unchanged.</td></tr>
 </table>
 
 <!-- ══════════════ 12. NEXT SESSION ══════════════ -->
@@ -236,40 +237,55 @@ Full protocol: <code>INNOVATION/AGENTS.md §The project dashboard</code> and the
 <tr><th style="width:170px">Session</th><td><b>P3 draft-v1 build</b> (revision work order execution)</td></tr>
 <tr><th>Model</th><td><b>Opus</b> (<code>/model opus</code>) — mechanical-with-craft execution from a binding work order; no Fable needed</td></tr>
 <tr><th>Directory</th><td><code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS/</code> (single lane: <code>INNOVATION/</code>)</td></tr>
-<tr><th>Prepared</th><td>2026-07-11, by the Fable P3-gate session</td></tr>
+<tr><th>Prepared</th><td>2026-07-14 — canonical dated copy: <code>INNOVATION/20260714-next-session-boot-prompt.md</code> (this block is its mirror)</td></tr>
 <tr><th>Human needed?</th><td>No (Jimmy's decisions come AFTER: re-gate ratification + external-use call). PR-02/PR-03 remain separately with Jimmy.</td></tr>
 </table>
 <b>Paste this boot prompt:</b>
-<pre class="paste">This is an Opus session (/model opus), single lane: CEI-Lit-WS/INNOVATION/. EXECUTION mode.
-On session open: read INNOVATION/project-dashboard.html (Live status first) + INNOVATION/AGENTS.md.
+<pre class="paste">This is an Opus session, single lane: CEI-Lit-WS/INNOVATION/. EXECUTION mode — produce files, not
+plans. The Fable window is closed: escalations go to PENDING-RULINGS (Jimmy decides), never
+self-approve. Delegate mechanical work to Sonnet agents with explicit model=.
+
+Step 0 — state sync: read INNOVATION/project-dashboard.html (Live status + §12 first), then
+INNOVATION/AGENTS.md, then INNOVATION/20260711-p3-gate-session-handoff.md. Branch: if PR-03 is
+signed in PENDING-RULINGS.md, add a Sonnet agent to apply the §6 patch from
+20260710-stage4-vocab-reconciliation-proposal.md mechanically (+ validator, tick 3.5). If API keys
+have landed, LOG it but do not expand scope — Cycle 2 gets its own session. Neither PR is
+self-approvable.
 
 MISSION: build P3 draft-v1 per the BINDING work order in
 INNOVATION/20260711-fable-p3-presubmission-review.md §5 (read it in full first).
 
 Inputs (read-only): 40-BUILDS/p3-position-paper/20260709-draft-v0.md (FROZEN — never edit),
-20260711-ledger-v2.md (current ledger, 61/3/0), both 20260711-review-*.md files, the verdict memo.
+20260711-ledger-v2.md (current ledger, 61/3/0), both 20260711-review-*.md files.
 
-Output: 40-BUILDS/p3-position-paper/&lt;YYYYMMDD&gt;-draft-v1.md (NEW dated file) + a one-page change
-map keyed to work-order item codes (A-1…A-9 correctness · B-1…B-5 repositioning · C-1…C-4 evidence
-hygiene). Every item REQUIRED unless marked optional; add no new claims without ledger rows.
+Output: 40-BUILDS/p3-position-paper/&lt;YYYYMMDD&gt;-draft-v1.md (NEW dated file, actual session date)
++ a one-page change map keyed to work-order item codes (A-1…A-9 correctness · B-1…B-5
+repositioning · C-1…C-4 evidence hygiene). Every item REQUIRED unless marked optional; add no new
+claims without ledger rows.
 
 Also execute: C-1 (S1/S10 OpenAI web artifacts — Playwright-render + prose-verify per the Lane-B
-manual-ingest precedent, or keep explicit web-citation hedging; S11 stays hedged, do NOT scrape);
-C-2 (verify §6's utility-engineering characterization against the on-disk Mazeika extract);
-C-3 (check/acquire Berriaud &amp; Wattenhofer, AAMAS 2026, clone-robust benchmark aggregation —
-adjust contribution 4a's originality claim if needed; verify identity before any download).
+manual-ingest precedent [new ledger rev = new dated file; ledger-v2 frozen], or keep explicit
+web-citation hedging; S11 stays hedged with DOI, do NOT scrape);
+C-2 (verify §6's utility-engineering characterization against PDF Extracts/2025/
+2025-Mazeika-Utility Engineering.md; "NeurIPS 2025 spotlight" stays struck unless evidenced);
+C-3 (check Berriaud &amp; Wattenhofer, AAMAS 2026, clone-robust benchmark aggregation — verify
+identity before any download, never guess IDs; adjust contribution 4a's originality claim if needed).
 
-Hard rules: report immutability (new dated files only; draft-v0 + ledger-v1 frozen) · evidence-class
-tags travel with every citation · tags: empty scalar on any new paper record · run
-validate_all_papers.py ONCE if records created · no rm ever (RECYCLE-BIN) · git: stage ONLY your
-named files, verify git diff --cached --name-only, plain git commit — NEVER add -A, NEVER pathspec
-commits (DL-22) · check the WHOLE vault (grep papers/ by arXiv ID) before acquiring anything (DL-26).
+Hard rules: lane isolation (this lane's files + living files only) · report immutability (new
+dated files only; draft-v0 + ledger-v1 + ledger-v2 frozen) · evidence-class tags travel with every
+citation; nothing ⚠/SC as unhedged fact · tags: empty scalar on any new paper record · grep the
+WHOLE vault by arXiv ID before acquiring anything (DL-26) · run validate_all_papers.py ONCE if
+records created · no rm ever (RECYCLE-BIN) · git: stage ONLY your named files, verify
+git diff --cached --name-only, plain git commit — NEVER add -A, NEVER pathspec commits (DL-22),
+git log -1 before committing (shared worktree).
 
-On close: queue draft-v1 for the light re-gate (Opus memo → Jimmy, per
+On close: queue draft-v1 + change map for the light re-gate (Opus memo → Jimmy, per
 20260711-fable-gate-protocols-memo.md §1 pattern; re-review checks the change map against the work
-order only); write a dated handoff; append DL entries; update the dashboard per AGENTS.md
-§The project dashboard — including REWRITING its §Instructions-for-next-session to the re-gate
-session.</pre>
+order only — it does not reopen settled findings; external use = Jimmy regardless); dated handoff
+INNOVATION/&lt;YYYYMMDD&gt;-&lt;x&gt;-session-handoff.md; DL entries in 00-CHARTER/04-decision-log.md; update
+the innovation-portfolio-state memory; update the dashboard per AGENTS.md §The project dashboard —
+including REWRITING its §Instructions-for-next-session to the re-gate session; commit (staged-only)
++ push.</pre>
 <div class="small">Note: the next <b>Fable</b> session globally is <b>Governance Symphony</b> (<code>CEI-AI-Statements/GENERATION3/20260709-fable-session-boot-prompt.md</code>, per FABLE-WEEK) — a different lane. The prompt above is this lane's next session and runs fine post-window.</div>
 </div>
 

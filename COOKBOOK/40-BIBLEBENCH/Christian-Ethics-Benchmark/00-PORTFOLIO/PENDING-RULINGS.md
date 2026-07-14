@@ -1153,7 +1153,56 @@ denominator, and every PR-25 replay/cost/roster limit remain unchanged.
 > denominator, and every PR-25 roster/replay/cost limit; no substitution, item
 > replacement, denominator change, HOLDOUT access, or automatic scale-up.
 
-**Status:** OPEN / G7-A1 PAID EXECUTION STOPPED. No credential or live call until ruled.
+**Status:** OPTION 1 ROUTING RATIFIED 2026-07-13; OPUS MEMO COMPLETE; SECOND JIMMY GATE
+OPEN / G7-A1 PAID EXECUTION STOPPED. Jimmy supplied the requested option-1 ruling
+verbatim; immutable record: `20260713r-jimmy-pr26-routing-ruling.md`. Exactly one explicit
+Opus reviewer produced `20260713s-opus-g7-paraphrase-author-contract.md`; immutable
+custody record: `20260713t-codex-pr26-opus-contract-custody.md`; exact artifact SHA-256:
+`59caaa1c055dd1badd16694e078a91a40b18e4e1ebd9f6d15510f89e9f79b320`. The artifact
+identified the residual runtime-reviewer decision now parked as PR-27. No credential,
+production-run creation, or live call is authorized until Jimmy ratifies the exact
+artifact/hash and rules PR-27.
+
+---
+
+## PR-27 — Runtime executor for semantic L1/L4/L5/L9 is not authorized
+
+**Surfaced:** 2026-07-13 by the single PR-26-authorized Opus contract memo. The memo
+freezes a PUBLIC-only, fail-closed input/output contract for the semantic portions of
+`L1_sense`, paired-item `L4`, `L5`, and `L9`, but no existing ruling names the runtime
+executor. The PR-25 roster contains six SUTs, two frozen downstream judges, the
+classifier, and Mistral author/tie-breaker roles; adding a model reviewer would change
+the registered roster, call geometry, and cost envelope. Guessing an executor would
+therefore violate PR-25 and the zero-judgment rule.
+
+**Recommended option 1:** Jimmy performs the semantic review as a non-model human gate.
+For each mechanically valid author attempt, Codex presents exactly the memo §4.1
+PUBLIC-only records; Jimmy returns the exact booleans for `L1_sense`, applicable paired
+`L4`, `L5`, and `L9`, makes no text edit, and returns `false` on uncertainty. A `false`
+follows the memo §5 one-byte-identical-replay rule; a second failure yields six unresolved
+paraphrase cells without replacement. This adds no API call, model, or spend and leaves
+the PR-25 call/post/cost envelope unchanged.
+
+**Option 2:** commission a separately authorized model reviewer only after a new exact
+slug, prompt, cap, provider ceiling, call/replay geometry, and additive cost authorization
+are registered. Remain no-call until then.
+
+**Exact requested combined ruling:**
+
+> Ratify PR-27 option 1 and the G7 paraphrase-author contract frozen in
+> `00-PORTFOLIO/20260713s-opus-g7-paraphrase-author-contract.md` at SHA-256
+> `59caaa1c055dd1badd16694e078a91a40b18e4e1ebd9f6d15510f89e9f79b320` as the exact
+> byte-frozen Mistral author prompt, JSON schema/parser, mechanical Gate A, and registered
+> L1–L9 lint/disposition contract; assign Jimmy as the non-model runtime semantic reviewer
+> for `L1_sense`, paired-item `L4`, `L5`, and `L9` under the memo §4.1 exact PUBLIC-only
+> input/output contract, with no text edits and fail-closed `false` on uncertainty; retain
+> the single byte-identical author replay and second-failure unresolved-PENDING disposition;
+> add no API call, model, spend, substitution, item replacement, denominator change,
+> HOLDOUT access, or automatic scale-up, and keep every PR-18 B1 and PR-25/25(a) roster,
+> replay, cost, checkpoint, concurrency, call-cap, and $30 NTE limit unchanged.
+
+**Status:** OPEN / SECOND PR-26 GATE + PAID G7-A1 STOPPED. No credential or live call
+until the exact Opus artifact/hash and PR-27 are ratified.
 
 ---
 

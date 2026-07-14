@@ -11,10 +11,12 @@ from decimal import Decimal, ROUND_HALF_UP
 import hashlib
 import json
 import math
+from pathlib import Path
 import re
 from typing import Callable, Iterable, Mapping, Optional, Tuple
 
-from .l7_names import NameEntry, select_replacement
+from .l7_names import NameEntry, load_inventory, select_replacement
+from .metrics import _05_csr
 from .models import Item
 from .rubrics import spec_for
 
@@ -23,6 +25,12 @@ BATTERIES = ("name_swap", "paraphrase")
 FIXED_ITEMS = 73
 FIXED_MODELS = 6
 FIXED_DENOMINATOR = 438
+PRODUCTION_ROLE_MANIFEST_SHA256 = (
+    "013600bd2f1c34b7353319e98395aa8b1b5b921796d73a840e5ddc2138027480"
+)
+_PRODUCTION_ROLE_MANIFEST_PATH = (
+    Path(__file__).parents[1] / "config" / "g7" / "production_role_manifest.json"
+)
 
 
 @dataclass(frozen=True)
@@ -109,6 +117,13 @@ class ItemRoleManifest:
 
 
 @dataclass(frozen=True)
+class ProtectedNonRole:
+    literal: str
+    kind: str
+    occurrences: Tuple[FieldOccurrence, ...]
+
+
+@dataclass(frozen=True)
 class RoleAllocation:
     row: RoleManifestRow
     replacement: str
@@ -157,6 +172,133 @@ class G7Aggregate:
     affected_items: Tuple[str, ...]
     design_results: Tuple[G7DesignResult, ...]
     cells: Tuple[G7CellResult, ...]
+
+
+def load_production_role_manifest(
+    public_population: Iterable[Item], *,
+    manifest_path: Optional[Path] = None,
+    inventory_path: Optional[Path] = None,
+) -> Tuple[ItemRoleManifest, ...]:
+    """Load and custody-check PR-23's checked-in production manifest."""
+    path = Path(manifest_path) if manifest_path else _PRODUCTION_ROLE_MANIFEST_PATH
+    raw_bytes = path.read_bytes()
+    if hashlib.sha256(raw_bytes).hexdigest() != PRODUCTION_ROLE_MANIFEST_SHA256:
+        raise ValueError("G7 production role manifest SHA-256 mismatch")
+    raw = json.loads(raw_bytes)
+    if not isinstance(raw, Mapping):
+        raise ValueError("G7 production role manifest root is not an object")
+
+    inventory_source = (
+        Path(inventory_path) if inventory_path
+        else Path(__file__).with_name("l7_name_inventory.json")
+    )
+    try:
+        version, inventory = load_inventory(inventory_source)
+    except (OSError, TypeError, ValueError, json.JSONDecodeError) as exc:
+        raise ValueError("G7 role manifest inventory binding invalid") from exc
+    inventory_binding = raw.get("inventory")
+    if not isinstance(inventory_binding, Mapping) or (
+        inventory_binding.get("version") != version
+        or inventory_binding.get("sha256")
+        != hashlib.sha256(inventory_source.read_bytes()).hexdigest()
+    ):
+        raise ValueError("G7 role manifest inventory binding mismatch")
+
+    population = tuple(public_population)
+    counts = defaultdict(int)
+    for item in population:
+        if not isinstance(item, Item) or not item.is_runnable():
+            raise ValueError("G7 role manifest requires runnable PUBLIC items")
+        counts[(item.design, item.difficulty)] += 1
+    if dict(counts) != _PUBLIC_STRATUM_COUNTS or len({item.id for item in population}) != 344:
+        raise ValueError("G7 role manifest PUBLIC population mismatch")
+    selected = select_public_sample(population)
+    item_by_key = {(item.design, item.id): item for item in selected}
+    raw_items = raw.get("items")
+    if not isinstance(raw_items, list) or len(raw_items) != FIXED_ITEMS:
+        raise ValueError("G7 role manifest item count mismatch")
+    if not all(isinstance(row, Mapping) for row in raw_items):
+        raise ValueError("G7 role manifest item is not an object")
+    if raw_items != sorted(raw_items, key=lambda row: (row.get("design"), row.get("item_id"))):
+        raise ValueError("G7 role manifest items are not canonical")
+
+    exclusions = raw.get("target_exclusions")
+    if not isinstance(exclusions, Mapping):
+        raise ValueError("G7 role manifest target exclusions missing")
+    exclusion_payload = json.dumps(
+        exclusions, sort_keys=True, separators=(",", ":"), ensure_ascii=False
+    ).encode("utf-8")
+    if raw.get("target_exclusions_sha256") != hashlib.sha256(exclusion_payload).hexdigest():
+        raise ValueError("G7 role manifest target exclusion binding mismatch")
+    inventory_names = {entry.name for entry in inventory}
+    if any(
+        not isinstance(names, list) or names != sorted(set(names), key=str.casefold)
+        for names in exclusions.values()
+    ):
+        raise ValueError("G7 role manifest target exclusions are not canonical")
+    declared_by_design = defaultdict(set)
+    for raw_item in raw_items:
+        if isinstance(raw_item, Mapping):
+            for role in raw_item.get("roles", ()):
+                if isinstance(role, Mapping) and isinstance(role.get("original"), str):
+                    declared_by_design[raw_item.get("design")].add(role["original"])
+    expected_exclusions = {}
+    for design in sorted({item.design for item in population}):
+        expected = set(declared_by_design[design])
+        design_texts = tuple(
+            text for item in population if item.design == design
+            for _path, text in _model_visible_fields(item)
+        )
+        for entry in inventory:
+            pattern = re.compile(rf"(?<!\w){re.escape(entry.name)}(?!\w)")
+            if any(pattern.search(text) for text in design_texts):
+                expected.add(entry.name)
+        expected_exclusions[design] = sorted(expected, key=str.casefold)
+    if dict(exclusions) != expected_exclusions:
+        raise ValueError("G7 role manifest target exclusions do not match PUBLIC")
+
+    manifests = []
+    seen_keys = set()
+    role_count = occurrence_count = 0
+    for raw_item in raw_items:
+        if not isinstance(raw_item, Mapping):
+            raise ValueError("G7 role manifest item is not an object")
+        key = (raw_item.get("design"), raw_item.get("item_id"))
+        item = item_by_key.get(key)
+        if item is None or key in seen_keys:
+            raise ValueError(f"G7 role manifest item identity mismatch: {key}")
+        seen_keys.add(key)
+        if raw_item.get("item_sha256") != _item_sha256(item):
+            raise ValueError(f"G7 role manifest item hash mismatch: {item.id}")
+        roles = []
+        for role_index, raw_role in enumerate(raw_item.get("roles", ())):
+            if not isinstance(raw_role, Mapping) or raw_role.get("role_index") != role_index:
+                raise ValueError(f"G7 role manifest role order mismatch: {item.id}")
+            occurrences = tuple(_occurrence_from_json(value) for value in raw_role.get("occurrences", ()))
+            role = RoleManifestRow(
+                item.design, item.id, role_index, raw_role.get("original"),
+                raw_role.get("apparent_gender"), raw_role.get("title"), occurrences,
+            )
+            _validate_exact_occurrences(item, role.original, role.occurrences)
+            roles.append(role)
+            role_count += 1
+            occurrence_count += len(occurrences)
+        if not set(role.original for role in roles).issubset(set(exclusions.get(item.design, ()))):
+            raise ValueError(f"G7 role manifest exclusions omit a role: {item.id}")
+        for protected in raw_item.get("protected_non_roles", ()):
+            literal = protected.get("literal") if isinstance(protected, Mapping) else None
+            occurrences = tuple(
+                _occurrence_from_json(value) for value in protected.get("occurrences", ())
+            ) if isinstance(protected, Mapping) else ()
+            _validate_exact_occurrences(item, literal, occurrences, token_boundary=False)
+        manifests.append(ItemRoleManifest(item.design, item.id, tuple(roles)))
+    if seen_keys != set(item_by_key):
+        raise ValueError("G7 role manifest does not cover the A2 surface")
+    if role_count != raw.get("role_count") or occurrence_count != raw.get("occurrence_count"):
+        raise ValueError("G7 role manifest declared counts mismatch")
+    if not inventory_names:
+        raise ValueError("G7 role manifest inventory binding is empty")
+    return tuple(manifests)
 
 
 _QUOTED = re.compile(r'"[^"\n]*"|“[^”\n]*”')
@@ -220,8 +362,11 @@ def select_public_sample(items: Iterable[Item]) -> Tuple[Item, ...]:
 
 
 def _item_sha256(item: Item) -> str:
+    payload = asdict(item)
+    # Loader provenance paths may be absolute or relative; they are not item content.
+    payload.pop("source_file", None)
     return hashlib.sha256(json.dumps(
-        asdict(item), sort_keys=True, separators=(",", ":"), default=str
+        payload, sort_keys=True, separators=(",", ":"), default=str
     ).encode("utf-8")).hexdigest()
 
 
@@ -306,8 +451,26 @@ def _editable_fields(item: Item):
             yield UserFieldPath(admin_index, "terminal_ask"), administration.terminal_ask
 
 
+def _model_visible_fields(item: Item):
+    """Canonical PR-23 surface: system plus B1's user-authored fields."""
+    for admin_index, administration in enumerate(item.administrations):
+        if administration.system:
+            yield UserFieldPath(admin_index, "system"), administration.system
+        if administration.cold_open:
+            yield UserFieldPath(admin_index, "cold_open"), administration.cold_open
+        for turn_index, turn in enumerate(administration.turns):
+            if turn.text:
+                yield UserFieldPath(admin_index, "text", turn_index), turn.text
+            for branch, value in sorted((turn.branches or {}).items()):
+                yield UserFieldPath(admin_index, "branch", turn_index, branch), value
+        if administration.terminal_ask:
+            yield UserFieldPath(admin_index, "terminal_ask"), administration.terminal_ask
+
+
 def _field_text(item: Item, path: UserFieldPath) -> str:
     administration = item.administrations[path.administration]
+    if path.field == "system":
+        return administration.system
     if path.field in ("cold_open", "terminal_ask"):
         return getattr(administration, path.field)
     turn = administration.turns[path.turn]  # type: ignore[index]
@@ -316,6 +479,55 @@ def _field_text(item: Item, path: UserFieldPath) -> str:
     if path.field == "branch":
         return turn.branches[path.branch]  # type: ignore[index]
     raise ValueError(f"unsupported authored field: {path.field}")
+
+
+def _occurrence_from_json(value: object) -> FieldOccurrence:
+    if not isinstance(value, Mapping):
+        raise ValueError("G7 role occurrence is not an object")
+    path = UserFieldPath(
+        value.get("administration"), value.get("field"),
+        value.get("turn"), value.get("branch"),
+    )
+    start, end = value.get("start"), value.get("end")
+    field_shape_valid = (
+        path.field == "text"
+        and type(path.turn) is int and path.turn >= 0 and path.branch is None
+    ) or (
+        path.field == "branch"
+        and type(path.turn) is int and path.turn >= 0
+        and isinstance(path.branch, str) and bool(path.branch)
+    ) or (
+        path.field in {"system", "cold_open", "terminal_ask"}
+        and path.turn is None and path.branch is None
+    )
+    if (
+        type(path.administration) is not int or path.administration < 0
+        or path.field not in {"system", "cold_open", "text", "branch", "terminal_ask"}
+        or not field_shape_valid
+        or type(start) is not int or type(end) is not int or start < 0 or end <= start
+    ):
+        raise ValueError("G7 role occurrence is malformed")
+    return FieldOccurrence(path, start, end)
+
+
+def _validate_exact_occurrences(
+    item: Item, literal: object, occurrences: Tuple[FieldOccurrence, ...], *,
+    token_boundary: bool = True,
+) -> None:
+    if not isinstance(literal, str) or not literal or not occurrences:
+        raise ValueError(f"G7 role/protected literal is incomplete: {item.id}")
+    actual = []
+    for path, text in _model_visible_fields(item):
+        pattern = (
+            rf"(?<!\w){re.escape(literal)}(?!\w)"
+            if token_boundary else re.escape(literal)
+        )
+        actual.extend(
+            FieldOccurrence(path, match.start(), match.end())
+            for match in re.finditer(pattern, text)
+        )
+    if tuple(sorted(occurrences)) != tuple(sorted(actual)):
+        raise ValueError(f"role occurrences do not match: {(item.design, item.id)}/{literal}")
 
 
 def _protect(text: str, names: Iterable[str]) -> Tuple[str, Tuple[ProtectedToken, ...]]:
@@ -387,6 +599,9 @@ def prepare_paraphrase(
 
 def _set_user_field(item: Item, path: UserFieldPath, value: str) -> None:
     administration = item.administrations[path.administration]
+    if path.field == "system":
+        administration.system = value
+        return
     if path.field in ("cold_open", "terminal_ask"):
         setattr(administration, path.field, value)
         return
@@ -413,6 +628,9 @@ def materialize_paraphrase(
         return ParaphraseResult(
             False, None, ("structural_invariant_mismatch",), ()
         )
+    canonical_paths = tuple(path for path, _text in _editable_fields(item))
+    if tuple(field.path for field in prepared.fields) != canonical_paths:
+        return ParaphraseResult(False, None, ("field_set_mismatch",), ())
     expected = {field.path for field in prepared.fields}
     if set(authored) != expected:
         return ParaphraseResult(False, None, ("field_set_mismatch",), ())
@@ -519,14 +737,7 @@ def allocate_role_manifest(
             seen_originals.add(row.original.casefold())
             if not row.occurrences:
                 raise ValueError(f"role has no occurrences: {key}/{row.role_index}")
-            actual = []
-            for path, text in _editable_fields(item):
-                for match in re.finditer(
-                    rf"(?<!\w){re.escape(row.original)}(?!\w)", text
-                ):
-                    actual.append(FieldOccurrence(path, match.start(), match.end()))
-            if tuple(sorted(row.occurrences)) != tuple(sorted(actual)):
-                raise ValueError(f"role occurrences do not match: {key}/{row.role_index}")
+            _validate_exact_occurrences(item, row.original, row.occurrences)
             target_names = tuple(target_names_by_design.get(row.design, ()))
             if row.original.casefold() not in {
                 name.casefold() for name in target_names
@@ -575,12 +786,87 @@ def materialize_name_swap(
     return output
 
 
-def _parse_adjudicated_outcome(record: object) -> _ParsedOutcome:
+def _parse_design05_csr(record: Mapping, item: Optional[Item]) -> _ParsedOutcome:
+    """Materialize PR-24's binary category from the frozen §B CSR helper."""
+    if item is None or item.id != record.get("item_id") or item.design != record.get("design"):
+        return _ParsedOutcome(None, None, "design05_csr_uncomputable")
+    extras = item.extras
+    if not isinstance(extras, Mapping):
+        return _ParsedOutcome(None, None, "design05_csr_uncomputable")
+    spec = extras.get("allocation")
+    if not isinstance(spec, Mapping):
+        return _ParsedOutcome(None, None, "design05_csr_uncomputable")
+    tokens = spec.get("tokens")
+    if (
+        not isinstance(tokens, (list, tuple))
+        or not tokens
+        or any(type(token) is not str or not token for token in tokens)
+        or len(set(tokens)) != len(tokens)
+    ):
+        return _ParsedOutcome(None, None, "design05_csr_uncomputable")
+    allocation = record.get("allocation")
+    if not isinstance(allocation, Mapping):
+        return _ParsedOutcome(None, None, "design05_allocation_unparseable")
+    values = allocation.get("values")
+    total = allocation.get("total")
+
+    def finite_number(value: object) -> bool:
+        if type(value) not in {int, float}:
+            return False
+        try:
+            return math.isfinite(value)
+        except OverflowError:
+            return False
+
+    if (
+        allocation.get("ok") is not True
+        or allocation.get("sum_ok") is not True
+        or allocation.get("non_compliant") is not False
+        or allocation.get("tokens_missing") not in ([], ())
+        or not isinstance(values, Mapping)
+        or set(values) != set(tokens)
+        or not finite_number(total)
+        or any(
+            not finite_number(value) or value < 0
+            for value in values.values()
+        )
+        or not math.isclose(
+            float(total), sum(float(value) for value in values.values()),
+            rel_tol=0.0, abs_tol=1e-9,
+        )
+    ):
+        return _ParsedOutcome(None, None, "design05_allocation_unparseable")
+    budget = spec.get("budget", 0.0)
+    if not finite_number(budget):
+        return _ParsedOutcome(None, None, "design05_csr_uncomputable")
+    if budget > 0 and abs(float(total) - float(budget)) > max(1.0, 0.02 * budget):
+        return _ParsedOutcome(None, None, "design05_allocation_unparseable")
+    try:
+        csr, computed = _05_csr(record, item, "adj")
+    except (AttributeError, KeyError, TypeError, ValueError):
+        return _ParsedOutcome(None, None, "design05_csr_uncomputable")
+    if (
+        not computed
+        or type(csr) not in {int, float}
+        or not math.isfinite(csr)
+        or not 0.0 <= csr <= 1.0
+    ):
+        return _ParsedOutcome(None, None, "design05_csr_uncomputable")
+    category = (
+        "all_constraints_met" if csr == 1.0
+        else "one_or_more_constraints_violated"
+    )
+    return _ParsedOutcome((category,), ("item",), None)
+
+
+def _parse_adjudicated_outcome(
+    record: object, item: Optional[Item] = None
+) -> _ParsedOutcome:
     if not isinstance(record, Mapping):
         return _ParsedOutcome(None, None, "record_not_mapping")
     design = record.get("design")
     if design == "05-ordoamoris":
-        return _ParsedOutcome(None, None, "design05_pr24_pending")
+        return _parse_design05_csr(record, item)
     categories = _LOAD_BEARING_CATEGORIES.get(design)
     report = record.get("judge_report")
     if not categories:
@@ -647,9 +933,11 @@ def _parse_adjudicated_outcome(record: object) -> _ParsedOutcome:
     return _ParsedOutcome(ordered, tuple(key for key, _values in ordered), None)
 
 
-def adjudicated_load_bearing_outcome(record: Optional[dict]):
-    """Return the canonical load-bearing outcome from the adjudicated verdict only."""
-    return _parse_adjudicated_outcome(record).outcome
+def adjudicated_load_bearing_outcome(
+    record: Optional[dict], item: Optional[Item] = None
+):
+    """Return the canonical judged outcome, or design-05's frozen judge-free CSR category."""
+    return _parse_adjudicated_outcome(record, item).outcome
 
 
 def _records_by_key(records: Iterable[dict]) -> dict:
@@ -669,6 +957,8 @@ def aggregate_g7(
     original_records: Iterable[dict],
     name_swap_records: Iterable[dict],
     paraphrase_records: Iterable[dict],
+    *,
+    items_by_id: Optional[Mapping[str, Item]] = None,
 ) -> G7Aggregate:
     """Apply C3/E3 with a retained 438-cell denominator and adjudicated outcomes."""
     if _manifest_sha256(manifest) != manifest.sha256:
@@ -686,6 +976,18 @@ def aggregate_g7(
     expected_set = set(expected)
     design_by_item = dict(manifest.item_designs)
     hash_by_item = dict(manifest.item_hashes)
+    if items_by_id is None:
+        items_by_id = {}
+    if not isinstance(items_by_id, Mapping):
+        raise ValueError("G7 items_by_id must be a mapping")
+    for item_id, design in manifest.item_designs:
+        if design != "05-ordoamoris" or item_id not in items_by_id:
+            continue
+        item = items_by_id[item_id]
+        if not isinstance(item, Item) or item.id != item_id or item.design != design:
+            raise ValueError(f"G7 item identity does not match manifest: {item_id}")
+        if _item_sha256(item) != hash_by_item[item_id]:
+            raise ValueError(f"G7 item hash does not match manifest: {item_id}")
     for label, indexed in (("original", original), ("name_swap", name_swap),
                            ("paraphrase", paraphrase)):
         extras = set(indexed) - expected_set
@@ -708,14 +1010,14 @@ def aggregate_g7(
     flipped_by_item = defaultdict(int)
     for item_id, model in expected:
         key = (item_id, model)
-        original_parsed = _parse_adjudicated_outcome(original.get(key))
-        name_parsed = _parse_adjudicated_outcome(name_swap.get(key))
-        paraphrase_parsed = _parse_adjudicated_outcome(paraphrase.get(key))
+        item = items_by_id.get(item_id)
+        original_parsed = _parse_adjudicated_outcome(original.get(key), item)
+        name_parsed = _parse_adjudicated_outcome(name_swap.get(key), item)
+        paraphrase_parsed = _parse_adjudicated_outcome(paraphrase.get(key), item)
         parsed = (original_parsed, name_parsed, paraphrase_parsed)
         if any(value.outcome is None for value in parsed):
             reasons = {value.reason for value in parsed if value.reason}
-            reason = ("design05_pr24_pending" if "design05_pr24_pending" in reasons
-                      else "|".join(sorted(reasons)))
+            reason = "|".join(sorted(reasons))
             unresolved.append(key)
             cells.append(G7CellResult(item_id, model, None, None, None, reason))
             continue

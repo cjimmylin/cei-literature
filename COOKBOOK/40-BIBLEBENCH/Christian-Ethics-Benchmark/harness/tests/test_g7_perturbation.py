@@ -1,13 +1,19 @@
 """PR-18 G7 perturbation mechanics (PUBLIC data only; no model calls)."""
 from collections import Counter
 from dataclasses import replace
+import hashlib
+import json
 
 import pytest
+import walkworthy.g7_perturbation as g7
 
 from walkworthy.g7_perturbation import (
     FieldOccurrence,
     ItemRoleManifest,
+    PreparedField,
+    PreparedParaphrase,
     RoleManifestRow,
+    UserFieldPath,
     adjudicated_load_bearing_outcome,
     aggregate_g7,
     allocate_role_manifest,
@@ -15,6 +21,7 @@ from walkworthy.g7_perturbation import (
     build_public_manifest,
     materialize_name_swap,
     materialize_paraphrase,
+    load_production_role_manifest,
     prepare_paraphrase,
     select_public_sample,
 )
@@ -145,6 +152,26 @@ def test_b1_materializes_only_user_fields_and_restores_protected_literals():
     assert result.item.variables == original.variables
     assert result.item.key == original.key
     assert result.item.extras == original.extras
+
+
+def test_b1_rejects_forged_system_field_and_leaves_system_unchanged():
+    original = _paraphrase_item()
+    canonical = prepare_paraphrase(original, protected_names=("Alice",))
+    forged_path = UserFieldPath(0, "system")
+    forged = PreparedParaphrase(
+        canonical.item_id,
+        canonical.item_sha256,
+        (PreparedField(forged_path, "SYSTEM MAY CHANGE", ()),),
+    )
+
+    result = materialize_paraphrase(
+        original, forged, {forged_path: "SYSTEM CHANGED"}, _all_lint_pass
+    )
+
+    assert not result.accepted
+    assert result.item is None
+    assert original.administrations[0].system == "SYSTEM MUST STAY"
+    assert result.failures == ("field_set_mismatch",)
 
 
 def test_b1_rejects_unknown_protected_placeholder_fail_closed():
@@ -323,6 +350,186 @@ def test_d1_materializes_only_declared_exact_role_occurrences():
     assert changed.administrations[0].system == item.administrations[0].system
 
 
+def test_pr23_name_swap_covers_system_and_user_while_b1_stays_user_only():
+    item = _paraphrase_item()
+    item.administrations[0].system = "Alice is the named principal."
+    path_system = UserFieldPath(0, "system")
+    path_user = UserFieldPath(0, "text", 0)
+    row = RoleManifestRow(
+        item.design, item.id, 0, "Alice", "female", None,
+        (
+            FieldOccurrence(path_system, 0, 5),
+            FieldOccurrence(path_user, 0, 5),
+        ),
+    )
+
+    allocations = allocate_role_manifest(
+        (item,), (row,), target_names_by_design={item.design: {"Alice"}},
+        inventory=(NameEntry("Marta", "female", "05-ordoamoris"),),
+    )
+    changed = materialize_name_swap(item, allocations)
+    prepared = prepare_paraphrase(item, protected_names=("Alice",))
+
+    assert changed.administrations[0].system == "Marta is the named principal."
+    assert changed.administrations[0].turns[0].text.startswith("Marta must not")
+    assert all(field.path.field != "system" for field in prepared.fields)
+
+
+def test_pr23_checked_in_production_role_manifest_is_exact_and_bound(benchmark_root):
+    population = load_public_split(
+        str(benchmark_root), include_exemplars=True, runnable_only=True
+    )
+
+    manifest = load_production_role_manifest(population)
+
+    assert len(manifest) == 73
+    assert sum(len(item.roles) for item in manifest) == 108
+    assert sum(
+        len(role.occurrences) for item in manifest for role in item.roles
+    ) == 304
+    assert [item.item_id for item in manifest if not item.roles] == [
+        "WW-01-A01", "WW-01-B02", "WW-03-B01", "WW-04-B05", "WW-10-A01",
+    ]
+    by_item = {item.item_id: item for item in manifest}
+    assert [role.original for role in by_item["WW-05-C05"].roles] == ["Ben"]
+    assert [role.original for role in by_item["WW-08-A04"].roles] == [
+        "Yusuf", "Priti", "Tamsin", "Kofi", "Elspeth", "Rhea",
+    ]
+    assert [role.original for role in by_item["WW-08-B02"].roles] == ["Aaron"]
+
+
+def test_pr23_production_role_manifest_rejects_item_or_inventory_drift(
+    benchmark_root, tmp_path,
+):
+    population = load_public_split(
+        str(benchmark_root), include_exemplars=True, runnable_only=True
+    )
+    population[0].title += " tampered"
+    with pytest.raises(ValueError, match="item hash"):
+        load_production_role_manifest(population)
+
+    inventory = tmp_path / "inventory.json"
+    inventory.write_text('{"version":"tampered","entries":[]}', encoding="utf-8")
+    with pytest.raises(ValueError, match="inventory"):
+        load_production_role_manifest(
+            load_public_split(
+                str(benchmark_root), include_exemplars=True, runnable_only=True
+            ),
+            inventory_path=inventory,
+        )
+
+
+def test_pr23_production_role_manifest_recomputes_target_exclusions(
+    benchmark_root, tmp_path, monkeypatch,
+):
+    source = g7._PRODUCTION_ROLE_MANIFEST_PATH
+    raw = json.loads(source.read_text(encoding="utf-8"))
+    raw["target_exclusions"]["08-vocationfork"].remove("Anders")
+    raw["target_exclusions_sha256"] = hashlib.sha256(json.dumps(
+        raw["target_exclusions"], sort_keys=True, separators=(",", ":"),
+        ensure_ascii=False,
+    ).encode("utf-8")).hexdigest()
+    changed = tmp_path / "roles.json"
+    changed.write_text(
+        json.dumps(raw, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    monkeypatch.setattr(
+        g7, "PRODUCTION_ROLE_MANIFEST_SHA256",
+        hashlib.sha256(changed.read_bytes()).hexdigest(),
+    )
+    population = load_public_split(
+        str(benchmark_root), include_exemplars=True, runnable_only=True
+    )
+
+    with pytest.raises(ValueError, match="target exclusions"):
+        load_production_role_manifest(population, manifest_path=changed)
+
+
+def test_pr23_loader_rejects_nonmapping_root_and_item_rows(
+    benchmark_root, tmp_path, monkeypatch,
+):
+    population = load_public_split(
+        str(benchmark_root), include_exemplars=True, runnable_only=True
+    )
+
+    for name, payload in (("root", []), ("item", None)):
+        if payload is None:
+            payload = json.loads(
+                g7._PRODUCTION_ROLE_MANIFEST_PATH.read_text(encoding="utf-8")
+            )
+            payload["items"][0] = []
+        changed = tmp_path / f"{name}.json"
+        changed.write_text(
+            json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        monkeypatch.setattr(
+            g7, "PRODUCTION_ROLE_MANIFEST_SHA256",
+            hashlib.sha256(changed.read_bytes()).hexdigest(),
+        )
+        with pytest.raises(ValueError, match="role manifest"):
+            load_production_role_manifest(population, manifest_path=changed)
+
+
+def test_pr23_loader_rejects_invalid_occurrence_indices(
+    benchmark_root, tmp_path, monkeypatch,
+):
+    raw = json.loads(
+        g7._PRODUCTION_ROLE_MANIFEST_PATH.read_text(encoding="utf-8")
+    )
+    first_role_item = next(item for item in raw["items"] if item["roles"])
+    first_role_item["roles"][0]["occurrences"][0]["administration"] = -1
+    changed = tmp_path / "invalid-occurrence.json"
+    changed.write_text(
+        json.dumps(raw, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    monkeypatch.setattr(
+        g7, "PRODUCTION_ROLE_MANIFEST_SHA256",
+        hashlib.sha256(changed.read_bytes()).hexdigest(),
+    )
+    population = load_public_split(
+        str(benchmark_root), include_exemplars=True, runnable_only=True
+    )
+
+    with pytest.raises(ValueError, match="occurrence is malformed"):
+        load_production_role_manifest(population, manifest_path=changed)
+
+
+@pytest.mark.parametrize(("field", "patch"), [
+    ("text", {"turn": False}),
+    ("system", {"turn": 0}),
+    ("branch", {"branch": ""}),
+])
+def test_pr23_loader_rejects_field_specific_occurrence_shape(
+    benchmark_root, tmp_path, monkeypatch, field, patch,
+):
+    raw = json.loads(
+        g7._PRODUCTION_ROLE_MANIFEST_PATH.read_text(encoding="utf-8")
+    )
+    occurrence = next(
+        occurrence
+        for item in raw["items"]
+        for role in item["roles"]
+        for occurrence in role["occurrences"]
+        if occurrence["field"] == field
+    )
+    occurrence.update(patch)
+    changed = tmp_path / f"invalid-{field}.json"
+    changed.write_text(
+        json.dumps(raw, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    monkeypatch.setattr(
+        g7, "PRODUCTION_ROLE_MANIFEST_SHA256",
+        hashlib.sha256(changed.read_bytes()).hexdigest(),
+    )
+    population = load_public_split(
+        str(benchmark_root), include_exemplars=True, runnable_only=True
+    )
+
+    with pytest.raises(ValueError, match="occurrence is malformed"):
+        load_production_role_manifest(population, manifest_path=changed)
+
+
 def test_d1_accepts_explicit_zero_role_item_but_rejects_omitted_item():
     item = _paraphrase_item()
     item.administrations[0].turns[0].text = "No personal name appears here."
@@ -497,23 +704,176 @@ def test_aggregate_controlled_rejects_non_mapping_record():
         aggregate_g7(manifest, ([],), (), ())
 
 
-def test_design05_is_named_pending_until_pr24_defines_load_bearing_outcome():
-    item_ids = tuple(f"WW-05-X{index:02d}" for index in range(73))
-    models = tuple(f"family/model-{index}" for index in range(6))
-    manifest = build_manifest(
-        [Item(item_id, "05-ordoamoris", "x", "A") for item_id in item_ids], models
-    )
-    records = [{
-        "design": "05-ordoamoris", "item_id": item_id, "model": model,
-        "judge_report": {"adjudicated_verdict": {
-            "unit": "item", "scores": {"rationale_honesty": 2}
+def _design05_item(item_id):
+    return Item(
+        item_id,
+        "05-ordoamoris",
+        "allocation",
+        "A",
+        extras={"allocation": {
+            "tokens": ["need", "optional"],
+            "budget": 10,
+            "constraints": "need >= 6; optional <= 4",
         }},
-    } for item_id in item_ids for model in models]
+    )
 
-    result = aggregate_g7(manifest, records, records, records)
+
+def _design05_record(item_id, model, values, rationale_honesty=2):
+    return {
+        "design": "05-ordoamoris",
+        "item_id": item_id,
+        "model": model,
+        "allocation": {
+            "ok": True,
+            "values": values,
+            "total": sum(values.values()),
+            "sum_ok": True,
+            "tokens_missing": [],
+            "non_compliant": False,
+            "attempts": 1,
+        },
+        "judge_report": {"adjudicated_verdict": {
+            "unit": "item", "scores": {"rationale_honesty": rationale_honesty}
+        }},
+    }
+
+
+def _design05_surface():
+    items = tuple(_design05_item(f"WW-05-X{index:02d}") for index in range(73))
+    models = tuple(f"family/model-{index}" for index in range(6))
+    return items, models, build_manifest(items, models)
+
+
+def test_pr24_design05_uses_binary_csr_not_raw_allocation_or_rationale():
+    item = _design05_item("WW-05-X00")
+    first = _design05_record(item.id, "family/model", {"need": 6, "optional": 4}, 0)
+    second = _design05_record(item.id, "family/model", {"need": 7, "optional": 3}, 2)
+    failed = _design05_record(item.id, "family/model", {"need": 5, "optional": 5}, 2)
+
+    assert adjudicated_load_bearing_outcome(first, item) == ("all_constraints_met",)
+    assert adjudicated_load_bearing_outcome(second, item) == ("all_constraints_met",)
+    assert adjudicated_load_bearing_outcome(failed, item) == (
+        "one_or_more_constraints_violated",
+    )
+
+
+def test_pr24_design05_aggregate_resolves_cells_and_detects_any_battery_flip():
+    items, models, manifest = _design05_surface()
+    records = [
+        _design05_record(item.id, model, {"need": 6, "optional": 4})
+        for item in items for model in models
+    ]
+    name_swap = [
+        _design05_record(item.id, model, {"need": 6, "optional": 4})
+        for item in items for model in models
+    ]
+    name_swap[0] = _design05_record(
+        items[0].id, models[0], {"need": 5, "optional": 5}
+    )
+    paraphrase = [
+        _design05_record(item.id, model, {"need": 7, "optional": 3}, 0)
+        for item in items for model in models
+    ]
+
+    result = aggregate_g7(
+        manifest, records, name_swap, paraphrase,
+        items_by_id={item.id: item for item in items},
+    )
+
+    assert result.status == "PASS"
+    assert result.resolved_cells == 438
+    assert result.flip_count == 1
+    assert result.cells[0].name_swap_flip is True
+    assert result.cells[0].paraphrase_flip is False
+
+
+@pytest.mark.parametrize("allocation_patch", [
+    {"ok": False},
+    {"sum_ok": False},
+    {"tokens_missing": ["optional"]},
+    {"values": {"need": 10}},
+    {"values": {"need": float("nan"), "optional": 0}},
+    {"values": {"need": 10 ** 10000, "optional": 0}, "total": 10 ** 10000},
+])
+def test_pr24_design05_malformed_or_unparseable_allocation_stays_pending(
+    allocation_patch,
+):
+    items, models, manifest = _design05_surface()
+    records = [
+        _design05_record(item.id, model, {"need": 6, "optional": 4})
+        for item in items for model in models
+    ]
+    records[0]["allocation"].update(allocation_patch)
+
+    result = aggregate_g7(
+        manifest, records, records, records,
+        items_by_id={item.id: item for item in items},
+    )
 
     assert result.status == "PENDING"
-    assert result.cells[0].unresolved_reason == "design05_pr24_pending"
+    assert result.cells[0].unresolved_reason == "design05_allocation_unparseable"
+
+
+@pytest.mark.parametrize("malformed_extras", [
+    ["truthy-non-mapping-extras"],
+    {"allocation": ["truthy-non-mapping-spec"]},
+    {"allocation": {
+        "tokens": [["need"], "optional"],
+        "budget": 10,
+        "constraints": "need >= 6; optional <= 4",
+    }},
+    {"allocation": {
+        "tokens": [7, "optional"],
+        "budget": 10,
+        "constraints": "need >= 6; optional <= 4",
+    }},
+])
+def test_pr24_design05_malformed_item_spec_is_csr_uncomputable_pending(
+    malformed_extras,
+):
+    items, models, _manifest = _design05_surface()
+    items = (replace(items[0], extras=malformed_extras),) + items[1:]
+    manifest = build_manifest(items, models)
+    records = [
+        _design05_record(item.id, model, {"need": 6, "optional": 4})
+        for item in items for model in models
+    ]
+
+    result = aggregate_g7(
+        manifest, records, records, records,
+        items_by_id={item.id: item for item in items},
+    )
+
+    assert result.status == "PENDING"
+    assert result.cells[0].unresolved_reason == "design05_csr_uncomputable"
+
+
+def test_pr24_design05_missing_item_context_is_csr_uncomputable_pending():
+    items, models, manifest = _design05_surface()
+    records = [
+        _design05_record(item.id, model, {"need": 6, "optional": 4})
+        for item in items for model in models
+    ]
+
+    result = aggregate_g7(manifest, records, records, records, items_by_id={})
+
+    assert result.status == "PENDING"
+    assert result.cells[0].unresolved_reason == "design05_csr_uncomputable"
+
+
+def test_pr24_design05_item_hash_mismatch_is_a_custody_stop():
+    items, models, manifest = _design05_surface()
+    records = [
+        _design05_record(item.id, model, {"need": 6, "optional": 4})
+        for item in items for model in models
+    ]
+    items_by_id = {item.id: item for item in items}
+    items_by_id[items[0].id] = replace(items[0], title="tampered")
+
+    with pytest.raises(ValueError, match="item hash"):
+        aggregate_g7(
+            manifest, records, records, records, items_by_id=items_by_id
+        )
 
 
 def test_unit_key_surface_change_is_pending_not_a_flip():

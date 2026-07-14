@@ -1012,9 +1012,15 @@ Options and exact evidence are in
 > explicit zero-role items remain fixed-denominator no-op name-swap cells; do not add a
 > surname inventory, replace sampled items, shrink the denominator, or make live calls.
 
-**OPEN — PRODUCTION ROLE MANIFEST / W5 LIVE RUN STOPPED ON JIMMY.** No credential
-access, live call, spend, sampled-item replacement, denominator change, surname
-inventory, or production role-manifest assumption is authorized.
+**Jimmy ruling (2026-07-13, verbatim response to both displayed one-liners):**
+
+> yes to both ratification. continue full next-session
+
+**RATIFIED + CLOSED 2026-07-13.** Option 1 is binding exactly as displayed above.
+Materialize every declared given-name occurrence across model-visible system/user fields;
+protect surname/family/compound/initial forms; retain explicit zero-role fixed-denominator
+cells. No credential access, live call, spend, item replacement, denominator change,
+surname inventory, or item/key edit is authorized.
 
 ---
 
@@ -1034,8 +1040,62 @@ Options and evidence: `20260713g-codex-pr24-g7-design05-outcome-decision.md`.
 > uncomputable CSR remains unresolved under PR-18 E3; never substitute
 > rationale_honesty, compare raw allocation vectors, change §B CSR, or make live calls.
 
-**OPEN — DESIGN-05 G7 REDUCTION STOPPED ON JIMMY.** The code must keep these cells
-unresolved/PENDING until ruled. No live call or gate result is authorized.
+**Jimmy ruling (2026-07-13, verbatim response to both displayed one-liners):**
+
+> yes to both ratification. continue full next-session
+
+**RATIFIED + CLOSED 2026-07-13.** Option 1 is binding exactly as displayed above.
+Design-05 G7 uses only the frozen judge-free allocation CSR binary category; unparseable
+or uncomputable cells remain unresolved under E3. No live call, spend, metric change,
+raw-vector comparison, judged-secondary substitution, or gate result is authorized.
+
+---
+
+## PR-25 — O5 G7 paid-run custody, retry, and budget order
+
+**Surfaced:** 2026-07-13 after PR-23/24 mechanical closure and exact no-call production
+preflight. The frozen G7 rulings do not authorize credential access, paid calls,
+provider ceilings, output caps, retry externalization, an attempt reserve, or a spend
+ceiling. The corrected maximum is 9,709 logical calls; the earlier 10,031 estimate
+double-counted design-05 judging and included the PR-24-forbidden judged secondary.
+
+Exact evidence, current public prices, hashes, call geometry, original Part-B burden,
+and budget analogues are in `20260713j-g7-paid-run-preflight.md`. Options and the exact
+owner line are in `20260713k-codex-pr25-g7-paid-run-order-decision.md`.
+
+**Recommended option 1:** authorize bounded order G7-A1: exact frozen roster and
+manifest hashes; price-sorted capped same-model routing; role output caps; 9,709 planned
+logical calls plus 971 exact replays; every POST ledgered; concurrency 2; one exact
+replay then thread stop; exact returned model and cost custody; staged checkpoints;
+$30 hard NTE; no separate premium probe, substitution, denominator change, item
+replacement, HOLDOUT, automatic scale-up, or premature G7/paper verdict.
+
+**Option 2:** remain no-call and keep G7 PENDING while the independent label/G4 lane
+continues.
+
+**Exact requested ruling:**
+
+> Ratify PR-25 option 1: authorize WALKWORTHY O5 G7 order G7-A1 on the exact six-SUT,
+> frozen `openai/gpt-4.1-mini` + `google/gemini-2.5-flash` judge, explicit
+> `openai/gpt-5.6-terra` classifier, and `mistralai/mistral-large-2512`
+> paraphrase-author/tie-breaker roster; bind production manifest SHA-256
+> `616d2e93491adcb8da9fc00664693cd8c4685a95fc36b6fc09816c32414edf0e` and role-manifest
+> SHA-256 `013600bd2f1c34b7353319e98395aa8b1b5b921796d73a840e5ddc2138027480`;
+> use price-sorted, parameter-compatible same-model providers capped at the
+> 2026-07-13 preflight rates; output caps SUT/author/judge/tie/classifier =
+> 32768/4096/256/256/16; maximum 9,709 planned logical calls plus 971 exact-payload
+> replay attempts, 10,680 client POSTs total, concurrency at most 2; disable hidden
+> retries and ledger every attempt; allow one byte-identical same-model/cap/price-ceiling
+> replay per failed, empty, malformed, or missing-cost key, booking the registered
+> role/model maximum when cost is missing, and stop that thread on a second failure;
+> require exact returned model plus `usage.cost`; checkpoint after authoring + battery 1,
+> before $20, and before tie-breakers; enforce a $30.00 hard NTE before every request;
+> use each slug's first retained production request as its canary, with no separate
+> premium-model probe; no substitution, denominator change, item replacement, HOLDOUT,
+> automatic scale-up, or G7/paper verdict before the frozen P1/Part-B path is complete.
+
+**OPEN — G7 PAID EXECUTION STOPPED ON JIMMY.** No credential access, retry-mechanics
+change, live request, or spend is authorized until the exact order is ratified.
 
 ---
 

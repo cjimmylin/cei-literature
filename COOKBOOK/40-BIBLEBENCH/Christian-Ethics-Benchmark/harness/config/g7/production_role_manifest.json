@@ -1,0 +1,4867 @@
+{
+  "schema_version": "walkworthy-g7-pr23-role-manifest-v1",
+  "surface": "production_public_a2_all_model_visible",
+  "item_count": 73,
+  "role_count": 108,
+  "occurrence_count": 304,
+  "zero_role_item_count": 5,
+  "inventory": {
+    "version": "2026-07-12-rj13-v1",
+    "sha256": "73711dd6ae89989ae0dfdad67a7a9516b84518eff0366e30fa061c70496b70b0"
+  },
+  "target_exclusions": {
+    "01-goodsamaritan": [
+      "Aida",
+      "Bram",
+      "Dana",
+      "Danica",
+      "Dermot",
+      "Dwayne",
+      "Gareth",
+      "Lena",
+      "Marcus",
+      "Marisa",
+      "Priya",
+      "Priyanka",
+      "Ruel",
+      "Tomas",
+      "Walter",
+      "Yusuf"
+    ],
+    "02-twomasters": [
+      "Aldous",
+      "Anders",
+      "Anouk",
+      "Bertrand",
+      "Bianca",
+      "Coralie",
+      "Cyrus",
+      "Dana",
+      "Freya",
+      "Halvard",
+      "Hana",
+      "Idris",
+      "Ines",
+      "Marcus",
+      "Maria",
+      "Marta",
+      "Milo",
+      "Nadia",
+      "Ngozi",
+      "Noor",
+      "Priya",
+      "Priyanka",
+      "Rachel",
+      "Renata",
+      "Reuben",
+      "Roland",
+      "Silas",
+      "Tomas",
+      "Yolanda"
+    ],
+    "03-quiettongue": [
+      "Anouk",
+      "Callum",
+      "Dmitri",
+      "Femi",
+      "Junia",
+      "Lena",
+      "Marcus",
+      "Marisol",
+      "Milo",
+      "Nadia",
+      "Petra",
+      "Priya",
+      "Priyanka",
+      "Roland",
+      "Teodoro",
+      "Tomas",
+      "Óscar"
+    ],
+    "04-innerweight": [
+      "Amaya",
+      "Beatriz",
+      "Bram",
+      "Callum",
+      "Corinne",
+      "Dana",
+      "Devin",
+      "Jonas",
+      "Marcus",
+      "Naomi",
+      "Petra",
+      "Priya",
+      "Ray",
+      "Theo",
+      "Tomas",
+      "Yusuf"
+    ],
+    "05-ordoamoris": [
+      "Ben",
+      "Deborah",
+      "Dev",
+      "Fatima",
+      "Idris",
+      "Jonas",
+      "Lucia",
+      "Marta",
+      "Matteo",
+      "Nadia",
+      "Naomi",
+      "Owen",
+      "Priya",
+      "Reuben",
+      "Ruth",
+      "Yusuf"
+    ],
+    "06-crookedpath": [
+      "Anders",
+      "Declan",
+      "Deepa",
+      "Delphine",
+      "Ezra",
+      "Faye",
+      "Halima",
+      "Ingrid",
+      "Mara",
+      "Marisol",
+      "Nadia",
+      "Petra",
+      "Radha",
+      "Renata",
+      "Talia",
+      "Teodoro",
+      "Tobias",
+      "Wesley"
+    ],
+    "07-seventyseven": [
+      "Abena",
+      "Bec",
+      "Callum",
+      "Colm",
+      "Dessa",
+      "Emil",
+      "Kojo",
+      "Luis",
+      "Nadia",
+      "Priya",
+      "Renata",
+      "Reuben",
+      "Sami",
+      "Talia",
+      "Theo"
+    ],
+    "08-vocationfork": [
+      "Aaron",
+      "Ana",
+      "Anders",
+      "Callum",
+      "Dagny",
+      "Dana",
+      "Delia",
+      "Deshi",
+      "Elspeth",
+      "Grace",
+      "Ines",
+      "Jordan",
+      "Kofi",
+      "Lena",
+      "Margit",
+      "Marisol",
+      "Nadia",
+      "Petar",
+      "Priti",
+      "Priya",
+      "Priyanka",
+      "Ray",
+      "Rhea",
+      "Sofia",
+      "Tamsin",
+      "Tom",
+      "Yusuf"
+    ],
+    "09-doubleedge": [
+      "Aaron",
+      "Colette",
+      "Devin",
+      "Devon",
+      "Duncan",
+      "Fatima",
+      "Freya",
+      "Hal",
+      "Idris",
+      "Jamal",
+      "Marcus",
+      "Marta",
+      "Mia",
+      "Nadia",
+      "Nolan",
+      "Olivia",
+      "Petra",
+      "Priya",
+      "Roland",
+      "Simone",
+      "Sol",
+      "Tessa",
+      "Tobias",
+      "Yara",
+      "Yusuf"
+    ],
+    "10-strangergate": [
+      "Bianca",
+      "Delia",
+      "Dwayne",
+      "Emmett",
+      "Ken",
+      "Marcus",
+      "Maren",
+      "Marisol",
+      "Petra",
+      "Priya",
+      "Ray",
+      "Reuben",
+      "Roland",
+      "Silas",
+      "Tanya",
+      "Tobias",
+      "Yolanda",
+      "Yusuf"
+    ]
+  },
+  "target_exclusions_sha256": "a6ebbe8f81f236033779c9d6113923ba7419de16e2d142ca622bc37c98fa0366",
+  "items": [
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-A01",
+      "item_sha256": "c6698b16a9a6b94eb3eff479967f9ea5afa8044214dcaa8fed2ebe85c1f2a027",
+      "roles": [],
+      "protected_non_roles": [
+        {
+          "literal": "Hendersons",
+          "kind": "plural_family_surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 46,
+              "end": 56
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 214,
+              "end": 224
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 505,
+              "end": 515
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-A05",
+      "item_sha256": "e0bb3a48fa3795caaf8305242889c6bf5525bd1071f196a7ad1a88b5c7d538fd",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Dermot",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 26,
+              "end": 32
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 90,
+              "end": 96
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 331,
+              "end": 337
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 487,
+              "end": 493
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Vasey",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 33,
+              "end": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-A05-P",
+      "item_sha256": "d037737f57afbdf283df17105db9aaf90f1020a4f4cd027861c07faf93237db8",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Dermot",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 26,
+              "end": 32
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 90,
+              "end": 96
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 335,
+              "end": 341
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 491,
+              "end": 497
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Vasey",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 33,
+              "end": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-B01",
+      "item_sha256": "b738826ec9f53a6a916d351eed252065a1cf2efbec2131bea821b6e8f7b04128",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Dwayne",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Okoro",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 7,
+              "end": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-B02",
+      "item_sha256": "ddc6fb27d67c223849bdb3a2c43d563d5309f3f2493edecf4023bc61505f0d6f",
+      "roles": [],
+      "protected_non_roles": [
+        {
+          "literal": "Peakline Supply",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-B03",
+      "item_sha256": "5887f3c90c163cacaf83ce9c4cd887b301b53783f04a557f6bc04742ceb86e6f",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Aida",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 38,
+              "end": 42
+            },
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 139,
+              "end": 143
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 14,
+              "end": 18
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 242,
+              "end": 246
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Fontaine",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 43,
+              "end": 51
+            }
+          ]
+        },
+        {
+          "literal": "Northside Pantry",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 52,
+              "end": 68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-B04",
+      "item_sha256": "887a0ada4a115d10e1c7939bdf8b59878e3856d5e962813d05c2ecbbd637f323",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Ruel",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 79,
+              "end": 83
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 102,
+              "end": 106
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Domingo",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 84,
+              "end": 91
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 735,
+              "end": 742
+            }
+          ]
+        },
+        {
+          "literal": "Torvane Tool & Trailer Rental",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 38,
+              "end": 67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-B04-P",
+      "item_sha256": "44b384e18ab9498f45f65d0f95c9d39eec46dea2a1c428d0e2a162ea2249b532",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Ruel",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 79,
+              "end": 83
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 102,
+              "end": 106
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Domingo",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 84,
+              "end": 91
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 808,
+              "end": 815
+            }
+          ]
+        },
+        {
+          "literal": "Torvane Tool & Trailer Rental",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 38,
+              "end": 67
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-C01",
+      "item_sha256": "571f801816af329b00516651bc9b73fa7c5cd4ebc56bf3f8151bc32d7aeb94b2",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Gareth",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 300,
+              "end": 306
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 562,
+              "end": 568
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Poole",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 7,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "literal": "Vantor",
+          "kind": "account_label",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 284,
+              "end": 290
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "01-goodsamaritan",
+      "item_id": "WW-01-D04",
+      "item_sha256": "fe51fd95c8d07edbb181dd3e5694028722e9780c1da4ede4257e9c2b41b6bad3",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Lena",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 27,
+              "end": 31
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Marsh",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 32,
+              "end": 37
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-A02",
+      "item_sha256": "5e21d05314f4fbad378059fba6a1114be5c642f1d2f34a4a644d995be04feb44",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Priya",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 22,
+              "end": 27
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 22,
+              "end": 27
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Rachel",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "cold_open",
+              "turn": null,
+              "branch": null,
+              "start": 171,
+              "end": 177
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 138,
+              "end": 144
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "refused",
+              "start": 78,
+              "end": 84
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 7,
+              "branch": null,
+              "start": 147,
+              "end": 153
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 171,
+              "end": 177
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Dana",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 2,
+              "branch": "complied",
+              "start": 122,
+              "end": 126
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 2,
+              "branch": "refused",
+              "start": 109,
+              "end": 113
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "complied",
+              "start": 12,
+              "end": 16
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "complied",
+              "start": 38,
+              "end": 42
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "refused",
+              "start": 35,
+              "end": 39
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "complied",
+              "start": 21,
+              "end": 25
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "complied",
+              "start": 138,
+              "end": 142
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "refused",
+              "start": 64,
+              "end": 68
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 26,
+              "end": 30
+            }
+          ]
+        },
+        {
+          "role_index": 3,
+          "original": "Marcus",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "complied",
+              "start": 149,
+              "end": 155
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "refused",
+              "start": 75,
+              "end": 81
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 35,
+              "end": 41
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "M.",
+          "kind": "initial",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "cold_open",
+              "turn": null,
+              "branch": null,
+              "start": 178,
+              "end": 180
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 145,
+              "end": 147
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "refused",
+              "start": 85,
+              "end": 87
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 7,
+              "branch": null,
+              "start": 154,
+              "end": 156
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 178,
+              "end": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-A05",
+      "item_sha256": "380cd05e3fe28aff4a6d8b56ac70d123968da297d5a904caf4753626e523e503",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Cyrus",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 28,
+              "end": 33
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 28,
+              "end": 33
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Aeronix",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "cold_open",
+              "turn": null,
+              "branch": null,
+              "start": 163,
+              "end": 170
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "complied",
+              "start": 111,
+              "end": 118
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "refused",
+              "start": 60,
+              "end": 67
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "complied",
+              "start": 13,
+              "end": 20
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 7,
+              "branch": null,
+              "start": 53,
+              "end": 60
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 163,
+              "end": 170
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-B02",
+      "item_sha256": "bf70beafd442e74b9d2d69e82c340b356ebcca44ad3549a2c3fb8df7ab9e70f7",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Renata",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 26,
+              "end": 32
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 26,
+              "end": 32
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Maria",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "cold_open",
+              "turn": null,
+              "branch": null,
+              "start": 250,
+              "end": 255
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "complied",
+              "start": 124,
+              "end": 129
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "refused",
+              "start": 78,
+              "end": 83
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 17,
+              "end": 22
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 7,
+              "branch": null,
+              "start": 113,
+              "end": 118
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 250,
+              "end": 255
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-B03",
+      "item_sha256": "4f063ea2e62c9ed5392d8a15dd3cfde8e06b08d09be69b35bca4fd3ea807aba8",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Tomas",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 20,
+              "end": 25
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 20,
+              "end": 25
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-B04",
+      "item_sha256": "38b13f9527ef195d684ca70262124e95b13d8f3ad239ee0ae3074b451cdf6b9c",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Coralie",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 25,
+              "end": 32
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 25,
+              "end": 32
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Aldous",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 119,
+              "end": 125
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 1,
+              "branch": "complied",
+              "start": 129,
+              "end": 135
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 1,
+              "branch": "refused",
+              "start": 116,
+              "end": 122
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 2,
+              "branch": "refused",
+              "start": 1,
+              "end": 7
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "refused",
+              "start": 1,
+              "end": 7
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 7,
+              "branch": "complied",
+              "start": 210,
+              "end": 216
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 7,
+              "branch": "refused",
+              "start": 207,
+              "end": 213
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 119,
+              "end": 125
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Noor",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 4,
+              "branch": null,
+              "start": 0,
+              "end": 4
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 8,
+              "branch": "complied",
+              "start": 53,
+              "end": 57
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 9,
+              "branch": null,
+              "start": 197,
+              "end": 201
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Riverbend",
+          "kind": "named_fund",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "complied",
+              "start": 100,
+              "end": 109
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "complied",
+              "start": 206,
+              "end": 215
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "refused",
+              "start": 68,
+              "end": 77
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "refused",
+              "start": 174,
+              "end": 183
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 14,
+              "end": 23
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 94,
+              "end": 103
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "refused",
+              "start": 43,
+              "end": 52
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 8,
+              "branch": "complied",
+              "start": 86,
+              "end": 95
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 8,
+              "branch": "refused",
+              "start": 66,
+              "end": 75
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 9,
+              "branch": null,
+              "start": 107,
+              "end": 116
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-C01",
+      "item_sha256": "80020679878726c712a840217c8b659b12261fc4624c39176cf383b37de74daf",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Hana",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 36,
+              "end": 40
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 36,
+              "end": 40
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-C02",
+      "item_sha256": "c732822a0e7b22acfd67c317256fdb4cf9ad3c807f699cd8b717dfe180f3d73c",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Reuben",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 18,
+              "end": 24
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 18,
+              "end": 24
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "02-twomasters",
+      "item_id": "WW-02-C03",
+      "item_sha256": "e4fca5587e0f80474455fe9d1c043983faaa73ba9a7f7733c8039c42c1bf8cd1",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Bertrand",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 17,
+              "end": 25
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 17,
+              "end": 25
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Halvard",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 165,
+              "end": 172
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "refused",
+              "start": 1,
+              "end": 8
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 4,
+              "branch": null,
+              "start": 82,
+              "end": 89
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "complied",
+              "start": 229,
+              "end": 236
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 5,
+              "branch": "refused",
+              "start": 204,
+              "end": 211
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 9,
+              "branch": null,
+              "start": 305,
+              "end": 312
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 165,
+              "end": 172
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Ngozi",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 2,
+              "branch": "complied",
+              "start": 71,
+              "end": 76
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 2,
+              "branch": "refused",
+              "start": 37,
+              "end": 42
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "complied",
+              "start": 115,
+              "end": 120
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 6,
+              "branch": "refused",
+              "start": 74,
+              "end": 79
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 8,
+              "branch": "complied",
+              "start": 90,
+              "end": 95
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 8,
+              "branch": "refused",
+              "start": 82,
+              "end": 87
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 9,
+              "branch": null,
+              "start": 180,
+              "end": 185
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "03-quiettongue",
+      "item_id": "WW-03-A01",
+      "item_sha256": "d873edca97b7e4d1f165f04eaf71058792e62c56fd3a23f5125da8e01e1f0f0a",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Tomas",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 191,
+              "end": 196
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 29,
+              "end": 34
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Lena",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 50,
+              "end": 54
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "03-quiettongue",
+      "item_id": "WW-03-A04",
+      "item_sha256": "b2bd451f6e9c8fd85ea9e0d2d2e8dcd982b679c0d84d94e19691517b2ddb3c68",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Marcus",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 11,
+              "end": 17
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "03-quiettongue",
+      "item_id": "WW-03-A05",
+      "item_sha256": "720b5412c4bb07b72e4b23b3cbc27b770c03b9b7545d88014aa83ccfc31ae989",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Nadia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 166,
+              "end": 171
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 34,
+              "end": 39
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Covington Builders",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 102,
+              "end": 120
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 61,
+              "end": 79
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "03-quiettongue",
+      "item_id": "WW-03-B01",
+      "item_sha256": "2a122dd01cab7ab3de9cebf6f5704cf328fc21ef8f64169a53d408f82d07a475",
+      "roles": [],
+      "protected_non_roles": [
+        {
+          "literal": "WaterBridge",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 63,
+              "end": 74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "03-quiettongue",
+      "item_id": "WW-03-B03",
+      "item_sha256": "5bb93929573023814305555d5f7762873f876970c82081ccfa7df05084cb6951",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Priya",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 12,
+              "end": 17
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 9,
+              "end": 14
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "03-quiettongue",
+      "item_id": "WW-03-B05",
+      "item_sha256": "7cfe87dcf1c1d1220aed162e87dc4c260a7a6b906d646c107fe6dcee07576773",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Dmitri",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 31,
+              "end": 37
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "03-quiettongue",
+      "item_id": "WW-03-C01",
+      "item_sha256": "3da7641fecae3bd2c38fb09238174a4a4d26bbbd39a7f0cce1183468bb2ae421",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Óscar",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 17,
+              "end": 22
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 32,
+              "end": 37
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "04-innerweight",
+      "item_id": "WW-04-A03",
+      "item_sha256": "123eded955ac7b92548cbff2aa2fc43f2028ed7f132148a1b58219deac0ce73a",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Petra",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 81,
+              "end": 86
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 385,
+              "end": 390
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 81,
+              "end": 86
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 385,
+              "end": 390
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 427,
+              "end": 432
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Yusuf",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 26,
+              "end": 31
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 678,
+              "end": 683
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 26,
+              "end": 31
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 749,
+              "end": 754
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "04-innerweight",
+      "item_id": "WW-04-A04",
+      "item_sha256": "9c99230731d305b12ca834110322dd914eb71001c2751e8840596d5dd075e585",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Beatriz",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 24,
+              "end": 31
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 519,
+              "end": 526
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 24,
+              "end": 31
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 287,
+              "end": 294
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 329,
+              "end": 336
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 527,
+              "end": 534
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Corinne",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 63,
+              "end": 70
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 263,
+              "end": 270
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 63,
+              "end": 70
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 242,
+              "end": 249
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 480,
+              "end": 487
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "04-innerweight",
+      "item_id": "WW-04-B01",
+      "item_sha256": "ab4f1e5f7772ca1a0abbd8dfcaa7aa8aa3df3727b0c8480b727c03d6cec2b676",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Marcus",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 610,
+              "end": 616
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 619,
+              "end": 625
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "04-innerweight",
+      "item_id": "WW-04-B04",
+      "item_sha256": "d60a584e5adc92fa4880cf3eee7feafbdcca8e054199adacd73f32e8859edb34",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Amaya",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 17,
+              "end": 22
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 611,
+              "end": 616
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 17,
+              "end": 22
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 682,
+              "end": 687
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "04-innerweight",
+      "item_id": "WW-04-B05",
+      "item_sha256": "21bbfd36ea12f1351381a306faf21f7b81ab330415fb32f1b8746497ebf99cbb",
+      "roles": [],
+      "protected_non_roles": []
+    },
+    {
+      "design": "04-innerweight",
+      "item_id": "WW-04-C02",
+      "item_sha256": "ff1a404719f56863800c43dd9d0f6a81ca176c4b197090f3fe585d358831605d",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Devin",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 529,
+              "end": 534
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 662,
+              "end": 667
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 529,
+              "end": 534
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 662,
+              "end": 667
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "04-innerweight",
+      "item_id": "WW-04-D01",
+      "item_sha256": "2e6decd2cebff47f812ed10cf21ca497fd94bebf8fdc7f83f5e58b08280fa344",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Naomi",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 409,
+              "end": 414
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 454,
+              "end": 459
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "05-ordoamoris",
+      "item_id": "WW-05-A01",
+      "item_sha256": "5a2027a56e857a1ad7b0ca96e63d76360ccecb5c00f444fe2f11b05cbc423c33",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Deborah",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 7
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 592,
+              "end": 599
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "05-ordoamoris",
+      "item_id": "WW-05-A03",
+      "item_sha256": "e17ea6cd85aabc62c0dccff2d701c5f0ea25387ca39517ab0cc92c66d4018984",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Priya",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "05-ordoamoris",
+      "item_id": "WW-05-B01",
+      "item_sha256": "314febd0d69f77eedb8f169f8bcf712967dacd6e6340538042d0d354bd22dad9",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Dev",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "05-ordoamoris",
+      "item_id": "WW-05-B02",
+      "item_sha256": "7141c064fd91a7858ee650394bfb5472964445811679920a991ed7e07af63ffd",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Priya",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "05-ordoamoris",
+      "item_id": "WW-05-B06",
+      "item_sha256": "da69ab94f850cf2a2c4bd09d104e1e018e4b1d51aa7dee2f0adb82315d853ba3",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Lucia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 244,
+              "end": 249
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Marta",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 187,
+              "end": 192
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 316,
+              "end": 321
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "05-ordoamoris",
+      "item_id": "WW-05-C01",
+      "item_sha256": "09288dc4373aa4b4a064c9034a68e7c3159c1d001517d0bc5cb42a9a03f87ea9",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Ruth",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "05-ordoamoris",
+      "item_id": "WW-05-C05",
+      "item_sha256": "df7731f656f48fc228e197011ae3ac7094ca823463a6f75cd84de0a625c53b18",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Ben",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 3
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "06-crookedpath",
+      "item_id": "WW-06-A01",
+      "item_sha256": "61a394add61a679555c0e43e0d969da4922d4772a9021394a22a301676c876b4",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Mara",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 4
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 376,
+              "end": 380
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 490,
+              "end": 494
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 678,
+              "end": 682
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Talia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 192,
+              "end": 197
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 388,
+              "end": 393
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 403,
+              "end": 408
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 627,
+              "end": 632
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "06-crookedpath",
+      "item_id": "WW-06-A05",
+      "item_sha256": "63e57b1dbb06c6deca98483873423879e906e0038089a4ab6aeca4719da916ae",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Halima",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 174,
+              "end": 180
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 841,
+              "end": 847
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 935,
+              "end": 941
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Petra",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 141,
+              "end": 146
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 809,
+              "end": 814
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Wesley",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 46,
+              "end": 52
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 208,
+              "end": 214
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 538,
+              "end": 544
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "06-crookedpath",
+      "item_id": "WW-06-A06",
+      "item_sha256": "68a845061e5fafbe8318a18733a716a421bfccaa8d4f6471736cdbfd82ff66ed",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Declan",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 70,
+              "end": 76
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 535,
+              "end": 541
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 892,
+              "end": 898
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1082,
+              "end": 1088
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1354,
+              "end": 1360
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1694,
+              "end": 1700
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Marisol",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 358,
+              "end": 365
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1003,
+              "end": 1010
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1539,
+              "end": 1546
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1732,
+              "end": 1739
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Tobias",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 306,
+              "end": 312
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 833,
+              "end": 839
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1602,
+              "end": 1608
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 1661,
+              "end": 1667
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "06-crookedpath",
+      "item_id": "WW-06-B02",
+      "item_sha256": "aab2109e75d61cbf8c608727a2645297d58fddcd3428bd0ebab1fc713fbd8b29",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Ingrid",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 6
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 206,
+              "end": 212
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 773,
+              "end": 779
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "06-crookedpath",
+      "item_id": "WW-06-B04",
+      "item_sha256": "bf2ead5f1f7b9ba765ded515c5ed9d4ecb2ec442f8274126e0b02dfad4e5b0ae",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Delphine",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 199,
+              "end": 207
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 506,
+              "end": 514
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 583,
+              "end": 591
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Ezra",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 26,
+              "end": 30
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 166,
+              "end": 170
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 529,
+              "end": 533
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Faye",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 4
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 239,
+              "end": 243
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 520,
+              "end": 524
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 611,
+              "end": 615
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 662,
+              "end": 666
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "06-crookedpath",
+      "item_id": "WW-06-C01",
+      "item_sha256": "3fffff2e32b82d2ef75315d6475106c578cb3d2529c19dc5938b934dad820fd8",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Deepa",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 671,
+              "end": 676
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "06-crookedpath",
+      "item_id": "WW-06-C04",
+      "item_sha256": "17ecc5f3602852d5cfee9f29c35c503f6db1394ac47828cb2368b74317393010",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Radha",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 0,
+              "end": 5
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 744,
+              "end": 749
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "07-seventyseven",
+      "item_id": "WW-07-A02",
+      "item_sha256": "78bac3398c7edb2962230dedd1f2017bf1705cc51173adf94ebdb867544366f9",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Bec",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 320,
+              "end": 323
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "challenged",
+              "start": 51,
+              "end": 54
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "07-seventyseven",
+      "item_id": "WW-07-A03",
+      "item_sha256": "0e419ea22d9032aa95425dde6dfe1cdf18873734ddb1f0ef70d15b49db61c72a",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Colm",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 366,
+              "end": 370
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "07-seventyseven",
+      "item_id": "WW-07-B02",
+      "item_sha256": "584b943eed3cc9394d2c224c61019428b67fb1d1ed4aed261eb52aba7a6d0179",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Nadia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 353,
+              "end": 358
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 522,
+              "end": 527
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "validated",
+              "start": 223,
+              "end": 228
+            },
+            {
+              "administration": 0,
+              "field": "terminal_ask",
+              "turn": null,
+              "branch": null,
+              "start": 30,
+              "end": 35
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "07-seventyseven",
+      "item_id": "WW-07-B04",
+      "item_sha256": "e3c3b2975c82bd6b8ae053cb30340cb4d2f826ffb2966d9ba365bb5dc578e115",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Sami",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 98,
+              "end": 102
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "challenged",
+              "start": 32,
+              "end": 36
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 4,
+              "branch": "validated",
+              "start": 23,
+              "end": 27
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Talia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 82,
+              "end": 87
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "07-seventyseven",
+      "item_id": "WW-07-C01",
+      "item_sha256": "e1e0a9b198a3457fd56be1551867b378401a6d4532a8e3ee811db5ba398d5c0c",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Theo",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 431,
+              "end": 435
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 2,
+              "branch": "validated",
+              "start": 32,
+              "end": 36
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "challenged",
+              "start": 59,
+              "end": 63
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "validated",
+              "start": 3,
+              "end": 7
+            },
+            {
+              "administration": 0,
+              "field": "terminal_ask",
+              "turn": null,
+              "branch": null,
+              "start": 91,
+              "end": 95
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "07-seventyseven",
+      "item_id": "WW-07-C02",
+      "item_sha256": "e81fe10c43b9bf0cc55126454e73ff23f69561c7f083cc870c822b1069cc340d",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Luis",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "challenged",
+              "start": 55,
+              "end": 59
+            },
+            {
+              "administration": 0,
+              "field": "branch",
+              "turn": 3,
+              "branch": "validated",
+              "start": 26,
+              "end": 30
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "08-vocationfork",
+      "item_id": "WW-08-A02",
+      "item_sha256": "2b62b0853fa18c87b5f38c1dd43799f65e390d479860c6ede74cca1d127fb227",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Ines",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 41,
+              "end": 45
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 41,
+              "end": 45
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "08-vocationfork",
+      "item_id": "WW-08-A04",
+      "item_sha256": "1e52fb5076fce183d6990f302dde8f25a72be494a091bdc08a51ac71fb2cf368",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Yusuf",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 41,
+              "end": 46
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 41,
+              "end": 46
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Priti",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 318,
+              "end": 323
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 318,
+              "end": 323
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Tamsin",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 404,
+              "end": 410
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 404,
+              "end": 410
+            }
+          ]
+        },
+        {
+          "role_index": 3,
+          "original": "Kofi",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 479,
+              "end": 483
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 479,
+              "end": 483
+            }
+          ]
+        },
+        {
+          "role_index": 4,
+          "original": "Elspeth",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 585,
+              "end": 592
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 585,
+              "end": 592
+            }
+          ]
+        },
+        {
+          "role_index": 5,
+          "original": "Rhea",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 703,
+              "end": 707
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 703,
+              "end": 707
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "J.",
+          "kind": "initial",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 324,
+              "end": 326
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 324,
+              "end": 326
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "08-vocationfork",
+      "item_id": "WW-08-B01",
+      "item_sha256": "3a262794727a867d1b0c64df0c88cd5c4ceec699d76beb3e1876dc7b8993c752",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Priya",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 44,
+              "end": 49
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 44,
+              "end": 49
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Tom",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 52,
+              "end": 55
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 29,
+              "end": 32
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 52,
+              "end": 55
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 29,
+              "end": 32
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Dana",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 340,
+              "end": 344
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 340,
+              "end": 344
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "St. Mark's",
+          "kind": "organization",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 267,
+              "end": 277
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 267,
+              "end": 277
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "08-vocationfork",
+      "item_id": "WW-08-B02",
+      "item_sha256": "bb6bce53e7adf2173c2ee6640856000a27f9d1c757d79eb3bd0e8e63c83705f8",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Aaron",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 60,
+              "end": 65
+            },
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 67,
+              "end": 72
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 60,
+              "end": 65
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 67,
+              "end": 72
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Meridian Consumer Credit Fund",
+          "kind": "fund_label",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 230,
+              "end": 259
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 230,
+              "end": 259
+            }
+          ]
+        },
+        {
+          "literal": "Kestrel Broad Index",
+          "kind": "fund_label",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 422,
+              "end": 441
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 422,
+              "end": 441
+            }
+          ]
+        },
+        {
+          "literal": "Aldous Investment-Grade Bond",
+          "kind": "fund_label",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 477,
+              "end": 505
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 477,
+              "end": 505
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "08-vocationfork",
+      "item_id": "WW-08-B04",
+      "item_sha256": "d24949eda23968117e5076a662c77f6307d0e7f77e2c9fabde223e30f5e80a02",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Margit",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 35,
+              "end": 41
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 35,
+              "end": 41
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Deshi",
+          "apparent_gender": "unspecified",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 333,
+              "end": 338
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 333,
+              "end": 338
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Sofia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 410,
+              "end": 415
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 410,
+              "end": 415
+            }
+          ]
+        },
+        {
+          "role_index": 3,
+          "original": "Ana",
+          "apparent_gender": "female",
+          "title": "Mrs.",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 448,
+              "end": 451
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 448,
+              "end": 451
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "K.",
+          "kind": "initial",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 339,
+              "end": 341
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 339,
+              "end": 341
+            }
+          ]
+        },
+        {
+          "literal": "Larsen/Whitby",
+          "kind": "compound_household_label",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 369,
+              "end": 382
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 369,
+              "end": 382
+            }
+          ]
+        },
+        {
+          "literal": "P.",
+          "kind": "initial",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 416,
+              "end": 418
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 416,
+              "end": 418
+            }
+          ]
+        },
+        {
+          "literal": "Ferreira",
+          "kind": "surname",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 452,
+              "end": 460
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 452,
+              "end": 460
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 778,
+              "end": 786
+            }
+          ]
+        },
+        {
+          "literal": "Mrs. Ferreira",
+          "kind": "surname_title",
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 773,
+              "end": 786
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "08-vocationfork",
+      "item_id": "WW-08-C01",
+      "item_sha256": "374a68c3092d4e6004659aaa02d4191cb2f43a96489dd5882ac8d50c1d716484",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Jordan",
+          "apparent_gender": "unspecified",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 8,
+              "end": 14
+            },
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 39,
+              "end": 45
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 8,
+              "end": 14
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 39,
+              "end": 45
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Lena",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 308,
+              "end": 312
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 308,
+              "end": 312
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Braxton",
+          "kind": "project_label",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 17,
+              "end": 24
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 17,
+              "end": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "08-vocationfork",
+      "item_id": "WW-08-D02",
+      "item_sha256": "0c78359e160f5cb2e7ff355b03b59cc138a2b9b7714699687e09cad0bdc270cf",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Grace",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 8,
+              "end": 13
+            },
+            {
+              "administration": 1,
+              "field": "system",
+              "turn": null,
+              "branch": null,
+              "start": 8,
+              "end": 13
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": [
+        {
+          "literal": "Mr. Adeyemi",
+          "kind": "surname_title",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 269,
+              "end": 280
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 269,
+              "end": 280
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "09-doubleedge",
+      "item_id": "WW-09-A04",
+      "item_sha256": "b915343c4937bf9e7cc87b9c2ac62706d8479fc6eaa22c889e0ee7a8173987b4",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Devin",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 23,
+              "end": 28
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 440,
+              "end": 445
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Sol",
+          "apparent_gender": "unspecified",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 236,
+              "end": 239
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 289,
+              "end": 292
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 294,
+              "end": 297
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 341,
+              "end": 344
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Freya",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 46,
+              "end": 51
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 303,
+              "end": 308
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "09-doubleedge",
+      "item_id": "WW-09-A05",
+      "item_sha256": "b1ff6d2ba32cd462f9c66ea4e3bf50b3ebb19ece13990265a3b66edd97810d98",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Idris",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 40,
+              "end": 45
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Duncan",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 48,
+              "end": 54
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 398,
+              "end": 404
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "09-doubleedge",
+      "item_id": "WW-09-B01",
+      "item_sha256": "18e159eb32c436f5640a55b63b0bc875195ec75f60d3a681fc4db75026e59d64",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Nadia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 43,
+              "end": 48
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Tobias",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 10,
+              "end": 16
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "09-doubleedge",
+      "item_id": "WW-09-B04",
+      "item_sha256": "5a6f9cf08273f5d79ac95bec33bcd81b37fc8c5f1ae5832d8e4495513d5970e8",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Mia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 35,
+              "end": 38
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 156,
+              "end": 159
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 482,
+              "end": 485
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 613,
+              "end": 616
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 72,
+              "end": 75
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 130,
+              "end": 133
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 568,
+              "end": 571
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Hal",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 679,
+              "end": 682
+            }
+          ]
+        },
+        {
+          "role_index": 2,
+          "original": "Tessa",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 19,
+              "end": 24
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "09-doubleedge",
+      "item_id": "WW-09-C01",
+      "item_sha256": "b79dd2db488161195f93b513e08d7df195ab63067e985e8162c9fcd0261a8fcd",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Devon",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 375,
+              "end": 380
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Yara",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 159,
+              "end": 163
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 545,
+              "end": 549
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "09-doubleedge",
+      "item_id": "WW-09-C04",
+      "item_sha256": "0aa660e858bc18320bf5bbc7fb27841686554cf7beed427e920620387dbc8cf2",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Nolan",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 56,
+              "end": 61
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Simone",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 96,
+              "end": 102
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "09-doubleedge",
+      "item_id": "WW-09-D01",
+      "item_sha256": "4d6b8f7e95df008b1d1f4184620ff255ac5eaa7d5e016ac2cd70103982874572",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Jamal",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 46,
+              "end": 51
+            }
+          ]
+        },
+        {
+          "role_index": 1,
+          "original": "Olivia",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 71,
+              "end": 77
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "10-strangergate",
+      "item_id": "WW-10-A01",
+      "item_sha256": "ce716796bfa65f0509ff3c0e5dd4404c2e9d7554c2c4fdb2ea1d21a74713acff",
+      "roles": [],
+      "protected_non_roles": [
+        {
+          "literal": "Dr. Ansel",
+          "kind": "surname_title",
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 62,
+              "end": 71
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 62,
+              "end": 71
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "design": "10-strangergate",
+      "item_id": "WW-10-A03",
+      "item_sha256": "f0b2151e7111476100ffd52a543dc4ba0d915250d63cc166105df62e111b99f8",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Bianca",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 125,
+              "end": 131
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 257,
+              "end": 263
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 125,
+              "end": 131
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 257,
+              "end": 263
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "10-strangergate",
+      "item_id": "WW-10-A05",
+      "item_sha256": "0ad943aeb4bf2306b3aa653ed1d4cbbaa6619198d39618c88eb54785441db1db",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Marisol",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 59,
+              "end": 66
+            },
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 424,
+              "end": 431
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 59,
+              "end": 66
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 438,
+              "end": 445
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "10-strangergate",
+      "item_id": "WW-10-B01",
+      "item_sha256": "d4d59ab7feeda28beb470e1be7ff69ca09a5149483009d8ae9d6191d8aaf11ad",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Ray",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 10,
+              "end": 13
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 10,
+              "end": 13
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "10-strangergate",
+      "item_id": "WW-10-B04",
+      "item_sha256": "03b51ae4f9a4be6312d4527b412656d80b9ec82a03d0de5fcacc44b6d9ca0da8",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Petra",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 16,
+              "end": 21
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 16,
+              "end": 21
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "10-strangergate",
+      "item_id": "WW-10-B05",
+      "item_sha256": "cd47277b80397f7b550900b3beb71e7ba0e85d1cd716e340ce58ac9313ff8090",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Roland",
+          "apparent_gender": "male",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 12,
+              "end": 18
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 12,
+              "end": 18
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    },
+    {
+      "design": "10-strangergate",
+      "item_id": "WW-10-C02",
+      "item_sha256": "366b7bbb4943a616e513035c3efe919a03ec339f4a5a70a710f884fe64819f6e",
+      "roles": [
+        {
+          "role_index": 0,
+          "original": "Maren",
+          "apparent_gender": "female",
+          "title": null,
+          "occurrences": [
+            {
+              "administration": 0,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 143,
+              "end": 148
+            },
+            {
+              "administration": 1,
+              "field": "text",
+              "turn": 0,
+              "branch": null,
+              "start": 143,
+              "end": 148
+            }
+          ]
+        }
+      ],
+      "protected_non_roles": []
+    }
+  ]
+}

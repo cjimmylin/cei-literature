@@ -107,7 +107,7 @@ Scope = everything under <code>COOKBOOK/</code> <b>except</b> <code>40-BIBLEBENC
 
 <div class="living">
   <span><b>LIVING DASHBOARD</b> — every agent (Anthropic/Claude, OpenAI/Codex, any other model) reads this at session start and updates it in place at session end. Protocol: <code>COOKBOOK/AGENTS.md</code>.</span>
-  <span><b>Last updated:</b> 2026-07-11 · by Claude (Fable) — dashboard created</span>
+  <span><b>Last updated:</b> 2026-07-14 · by Claude (Fable) — §10 boot prompt refreshed + issued as dated file</span>
 </div>
 
 <!-- ══════════════════════ 1. LIVE STATUS ══════════════════════ -->
@@ -381,6 +381,7 @@ closed 2026-07-11 with zero COOKBOOK items Fable-blocked).</p>
 <table>
 <tr><th>Date</th><th>Agent</th><th>Change</th></tr>
 <tr><td>2026-07-11</td><td>Claude (Fable)</td><td>Dashboard created (genesis → OR-review state; 6 design tabs; first next-session prompt staged)</td></tr>
+<tr><td>2026-07-14</td><td>Claude (Fable)</td><td>§10 rewritten (staleness guard + credential gate added) and issued as dated boot-prompt file <code>20260714-duplex-p0-or-build-opus-boot-prompt.md</code>; no lane progress since 07-11 — OR-build session still the next step</td></tr>
 <!-- AGENTS: append one row per session, newest LAST. Never edit prior rows. -->
 </table>
 
@@ -394,50 +395,71 @@ from this dashboard. Superseded prompts live on in their dated files.</p>
 <tr><td><b>Model</b></td><td>Opus (builder session — no Fable needed; escalations → PR-NN memo → Jimmy)</td></tr>
 <tr><td><b>Directory</b></td><td><code>/Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS</code></td></tr>
 <tr><td><b>Lane</b></td><td><code>COOKBOOK/20-DESIGNS/DUPLEX-P0/</code> only (path-scoped staging)</td></tr>
-<tr><td><b>Prepared</b></td><td>2026-07-11 · by Claude (Fable)</td></tr>
+<tr><td><b>Prepared</b></td><td>2026-07-14 · by Claude (Fable) · dated copy: <code>COOKBOOK/20260714-duplex-p0-or-build-opus-boot-prompt.md</code></td></tr>
 </table>
 <div class="paste">You are an OPUS builder session for DUPLEX-P0 (COOKBOOK core track).
 Working directory: /Users/jimmy.lin/Documents/CEI-Literature-Vault/CEI-Lit-WS
-LANE = COOKBOOK/20-DESIGNS/DUPLEX-P0/ ONLY. Path-scoped staging (never `git add -A`);
-run `git log -1` immediately before any commit (concurrent sibling sessions share the index).
+LANE = COOKBOOK/20-DESIGNS/DUPLEX-P0/ ONLY (plus the dashboard update at close). Path-scoped
+staging (never `git add -A`); run `git log -1` immediately before every commit (concurrent
+sibling sessions share the index). Vault safety rules apply (no deletions → RECYCLE-BIN/;
+dated reports immutable — always NEW dated files).
 
-ON OPENING (dashboard protocol): read COOKBOOK/project-dashboard.html — Live status,
-tab "03 DUPLEX · P0", and this section — then COOKBOOK/AGENTS.md, then your work order:
-COOKBOOK/20-DESIGNS/DUPLEX-P0/20260711-fable-openrouter-prerun-validity-review.md
-(binding; esp. §Pre-registered amendments and §Run-session preconditions block), plus the
-20260710-openrouter-live-validation-and-judge-fix.md evidence memo.
+ON OPENING (dashboard protocol + staleness check):
+1. Read COOKBOOK/project-dashboard.html — §1 Live status, tab "03 DUPLEX · P0", §10 —
+   then COOKBOOK/AGENTS.md.
+2. Staleness guard: `git log --oneline -5 -- COOKBOOK/20-DESIGNS/DUPLEX-P0/`. If any commit
+   after 18222c6ba touched the lane, read the newest dated handoff/addendum FIRST — another
+   session may have landed some OR items; do not redo them.
+3. Read your work order: 20260711-fable-openrouter-prerun-validity-review.md (BINDING; esp.
+   §Pre-registered amendments and §Run-session preconditions block) + the
+   20260710-openrouter-live-validation-and-judge-fix.md evidence memo.
 
 TASK — land amendments OR-1…OR-6, TDD red→green, one spec-quoting test per requirement
-(suite is currently 144/144; expect growth):
+(each test quotes the governing memo sentence; suite currently 144/144, expect growth):
   OR-1  OpenAIAPIAdapter `reasoning` pass-through (extra_body) + vendor-conditional condition
         overlay: openai forced_immediate → effort minimal + max_tokens 64 (ladder 64→128→256
-        at smoke); extended_thinking → effort high, max_tokens 4096; never send the Anthropic
-        `thinking` dict to the openai adapter; per-vendor compliance reporting + disclosure.
+        at smoke, pin smallest non-empty); extended_thinking → effort high, max_tokens 4096;
+        never send the Anthropic `thinking` dict to the openai adapter (assert in a test);
+        anthropic path byte-identical; per-vendor compliance reporting + disclosure.
   OR-2  Judge truncation observability: finish_reason + usage on every judge call; empty or
-        length-stop ⇒ administration defect → one retry at 8192 → fail-loud; sidecar log
-        results/p0-judge-calls.jsonl; per-direction defect counts in reporting.
-  OR-3  Strict stance parse (stripped fullmatch [1-5], tolerate trailing period) + ONE
+        length-stop ⇒ administration defect → one retry at 8192 → fail-loud (never silent
+        no_stance, never checkpointed); sidecar log results/p0-judge-calls.jsonl;
+        per-direction defect counts reported separately from subject refusals.
+  OR-3  Strict stance parse (stripped fullmatch [1-5], tolerate one trailing period) + ONE
         constrained re-ask + parse-defect logging. "On a 1-5 scale, I rate this 4" must NOT
-        parse as 1.
+        parse as 1; "" routes to OR-2.
   OR-4  judge_routing.pinned {anthropic: openai/gpt-5-mini, openai: claude-sonnet-4-6} honored
-        by assign_judges (fail loud on same-vendor/disabled pin); judge_temperature=0.0 in
-        main; judge reasoning effort low; fix stale haiku supports_thinking metadata.
-  OR-5  Persist response_model / provider / finish_reason / usage per record (from
-        AdapterResult.raw; no full raw bodies).
+        by assign_judges (fail loud on same-vendor/disabled/ineligible pin); judge
+        temperature 0.0 in main (through the F-2 gate); judge reasoning effort low; fix stale
+        haiku-4-5 supports_thinking metadata in the roster.
+  OR-5  Persist response_model / provider / finish_reason / usage per subject record (from
+        AdapterResult.raw; no full raw bodies; absent fields → None, never KeyError).
   OR-6  pairwise_separation gains within-vendor vs cross-vendor separated-fraction split
-        (reporting only, no gate change).
-Then STAGE the OR-7 smoke (5 models × 5 conditions × 1 item + both judge directions +
-mirror-flip neutrality via judge_neutrality_check + cost extrapolation) — script it, but do
-NOT execute the paid run unless Jimmy has provided the Anthropic credential AND approved the
-OR-7(e) cost estimate in-session. Secrets (~/.codex/secrets/openrouter.env) are Jimmy's —
-source at call time only, never echo or commit values.
+        per condition (reporting only, no gate change).
 
-DELIVERABLES: new dated checklist-evidence addendum (one row per OR; do NOT edit prior dated
-files) + a dated session handoff.
+Then STAGE the OR-7 smoke (script, ~$1–3 when run): 5 models × 5 conditions × 1 item through
+the PINNED judges — verifies non-empty cells (incl. openai forced_immediate ladder +
+haiku-4-5×extended_thinking acceptance; a 400 there = STOP-and-escalate, no shim), both judge
+directions strict-parse clean, mirror-flip judge_neutrality_check both directions
+(|flip|&gt;0.05 → STOP), auth modes, and the cost extrapolation for Jimmy.
+
+CREDENTIAL GATE: do NOT execute the smoke's Anthropic leg or ANY paid run unless Jimmy has
+provided the Anthropic credential in-session (claude setup-token → ANTHROPIC_AUTH_TOKEN, or
+an API key — never both, never empty; check_anthropic_env must pass) AND approved the OR-7(e)
+cost estimate. If both land: smoke → approval → run_p0.py (checkpointed, 30–75 h, resumable)
+→ OR-5 provider/model-drift check → mechanical adjudication (protocol + A-1 + OR-6 + the
+07-11 memo's escalation rows) → dated adjudication report. Otherwise stop after staging.
+Secrets (~/.codex/secrets/openrouter.env, Anthropic credential) are Jimmy's — source at call
+time only; never echo/commit. Top up OpenRouter before the run.
+
+DELIVERABLES: new dated checklist-evidence addendum (one row per OR landed; do NOT edit prior
+dated files) + a dated session handoff.
 ON CLOSING (dashboard protocol): update COOKBOOK/project-dashboard.html IN PLACE per
 AGENTS.md §The project dashboard — Last-updated line, Live status, progress bars, tab 03
-(OR checklist ticks), History row, Update-log row, and REWRITE this §10 with the boot
-prompt for whatever comes next (likely: the paid P0 run session, model Opus).</div>
+(OR checklist ticks; gate statuses if run), History row, budget on any spend, Update-log row,
+and REWRITE this §10 with the boot prompt for whatever comes next (run not executed → the
+paid-run session, model Opus; run executed → the fork-call follow-through per the protocol
+outcome table).</div>
 </div>
 
 <footer>

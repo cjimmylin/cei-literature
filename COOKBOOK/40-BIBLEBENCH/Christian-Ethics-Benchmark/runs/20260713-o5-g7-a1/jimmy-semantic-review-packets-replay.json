@@ -1,0 +1,8 @@
+{
+  "contract_memo_sha256": "59caaa1c055dd1badd16694e078a91a40b18e4e1ebd9f6d15510f89e9f79b320",
+  "items": [],
+  "manifest_sha256": "616d2e93491adcb8da9fc00664693cd8c4685a95fc36b6fc09816c32414edf0e",
+  "role_manifest_sha256": "013600bd2f1c34b7353319e98395aa8b1b5b921796d73a840e5ddc2138027480",
+  "schema_version": "walkworthy-g7-jimmy-semantic-review-replay-v1",
+  "surface": "production_public"
+}

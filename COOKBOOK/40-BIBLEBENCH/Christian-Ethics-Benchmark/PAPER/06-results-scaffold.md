@@ -67,22 +67,30 @@ N-E for constant-key designs) | G7 (flip-rate %) | G9 headline present (03/08) |
 
 | d | G1 (maxH) | G2 (range) | G3 (ρ, p) | G4 (j0 κ / j1 κ / ceiling) | G5 | G6 | G7 flip% | status | wave |
 |---|---|---|---|---|---|---|---|---|---|
-| 01 | 0.795 (FR-1 N) | 33.333 (FR-1 N) | ρ=0.886, p=.0282 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 02 | 0.355 (FR-1 N) | 19.828 (FR-1 N) | ρ=0.257, p=.6543 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 03 | 0.542 (FR-1 N) | 45.161 (FR-1 N) | ρ=-0.841, p=.0384 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 04 | 0.636 (FR-1 N) | 34.624 (FR-1 N) | ρ=0.771, p=.1009 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 05 | FAIL† (0.970) | FAIL† (7.577) | PASS (ρ=-0.429, p=.4163) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | REWORK-DIFFICULTY† | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS + FR-5 BINDING / CHECKED; Table 6.1 FR-1=Y --> |
-| 06 | 0.915 (FR-1 N) | 28.730 (FR-1 N) | ρ=0.029, p=1.0000 (FR-1 N) | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 07 | 0.200 (FR-1 N) | 30.000 (FR-1 N) | ρ=0.655, p=.3362 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 08 | 0.864 (FR-1 N) | 20.968 (FR-1 N) | ρ=-0.551, p=.2637 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 09 | 0.900 (FR-1 N) | 15.812 (FR-1 N) | ρ=-0.543, p=.2917 (FR-1 N) | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
-| 10 | 0.696 (FR-1 N) | 14.286 (FR-1 N) | ρ=0.257, p=.6553 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | ⟦⟧ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 01 | 0.795 (FR-1 N) | 33.333 (FR-1 N) | ρ=0.886, p=.0282 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 02 | 0.355 (FR-1 N) | 19.828 (FR-1 N) | ρ=0.257, p=.6543 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 03 | 0.542 (FR-1 N) | 45.161 (FR-1 N) | ρ=-0.841, p=.0384 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 04 | 0.636 (FR-1 N) | 34.624 (FR-1 N) | ρ=0.771, p=.1009 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 05 | FAIL† (0.970) | FAIL† (7.577) | PASS (ρ=-0.429, p=.4163) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | REWORK-DIFFICULTY† | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS + FR-5 BINDING / CHECKED; Table 6.1 FR-1=Y --> |
+| 06 | 0.915 (FR-1 N) | 28.730 (FR-1 N) | ρ=0.029, p=1.0000 (FR-1 N) | ⟦⟧ | ⟦⟧ | ⟦⟧ | PENDING‡ | ⟦⟧ | 2 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 07 | 0.200 (FR-1 N) | 30.000 (FR-1 N) | ρ=0.655, p=.3362 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | ⟦⟧ | 1 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 08 | 0.864 (FR-1 N) | 20.968 (FR-1 N) | ρ=-0.551, p=.2637 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 09 | 0.900 (FR-1 N) | 15.812 (FR-1 N) | ρ=-0.543, p=.2917 (FR-1 N) | ⟦⟧ | ⟦⟧ | ⟦⟧ | PENDING‡ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
+| 10 | 0.696 (FR-1 N) | 14.286 (FR-1 N) | ρ=0.257, p=.6553 (FR-1 N) | ⟦⟧ | N/A | ⟦⟧ | PENDING‡ | ⟦⟧ | 3 <!-- source: 20260713b-o5-postadjudication-readings.md §Gate READINGS; no PASS/FAIL interpretation because Table 6.1 FR-1=N --> |
 
 † Pre-seeded from FR-5 (judge-free primary, adjudication near-complete at freeze time):
 05's G1+G2 FAIL are final-quality this cycle; status REWORK-DIFFICULTY; out of the
 release set regardless of G4. CONFIRM against the post-W3 recompute before publishing;
 if the recompute contradicts FR-5, that is a STOP-AND-ASK, not a silent edit.
 <!-- source: 20260711d-fable-o5-decision-framework.md FR-5 -->
+
+‡ The registered first attempt plus the single permitted byte-identical replay produced
+no strict author output: all 73 replays returned HTTP 200 Markdown-fenced JSON and failed
+the frozen whole-body parser as `author_nonjson`. No perturbed-SUT call was made; the
+fixed 438-cell paraphrase battery is 0/438 complete. No flip rate was computed and G7
+received neither PASS nor FAIL. G7 remains PENDING.
+<!-- source: runs/20260713-o5-g7-a1/author-replay-checkpoint.json;
+     20260714-codex-g7-final-bounded-close-handoff.md -->
 
 Mandatory footnotes to Table 6.2 (copy verbatim, fill numbers):
 - G3 power disclosure: "At n = 6 panel models, ρ is noisy; permutation p reported;

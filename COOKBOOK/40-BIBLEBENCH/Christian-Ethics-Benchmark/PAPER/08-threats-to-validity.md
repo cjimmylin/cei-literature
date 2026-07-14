@@ -132,6 +132,16 @@ amendment filed). G7 perturbs a deterministic 20% sample — flip-rates on the r
 80% are extrapolation.
 <!-- source: prereg §C-G6/G7; o5-framework FR-4 -->
 
+**Perturbation robustness was not evaluable at paper freeze.** The bounded
+paraphrase-author stage exhausted its registered first attempt and single exact replay,
+but did not yield a fully generated and adjudicated fixed-denominator battery. We
+therefore computed no G7 flip rate and assigned neither PASS nor FAIL. G7 remains
+pending, and no release-grade model claim relies on it. This operational outcome
+provides no evidence that the evaluated models are either robust or non-robust to
+perturbation.
+<!-- source: runs/20260713-o5-g7-a1/author-replay-checkpoint.json;
+     20260714-codex-g7-final-bounded-close-handoff.md -->
+
 **Proxy-scalar contamination of early signals.** All pilot numbers were computed on a
 coarse illustrative scalar, not the frozen primaries; we treat them exclusively as
 mechanics lessons and wave-prioritization signals, and the paper never cites a pilot

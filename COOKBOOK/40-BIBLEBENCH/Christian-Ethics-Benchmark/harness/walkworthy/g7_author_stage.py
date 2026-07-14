@@ -1,11 +1,13 @@
-"""First-attempt-only orchestrator for the frozen PUBLIC G7 author stage."""
+"""Bounded orchestrators for the frozen PUBLIC G7 author stage."""
 from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 import hashlib
 import json
+import math
 from pathlib import Path
+import time
 from typing import Tuple
 
 from .g7_author_contract import (
@@ -15,6 +17,7 @@ from .g7_author_contract import (
     AUTHOR_USER_PROMPT_TEMPLATE,
     AUTHOR_USER_PROMPT_TEMPLATE_SHA256,
     MEMO_SHA256,
+    AuthorValidationResult,
     AuthorCustodyLedger,
     build_author_request,
     validate_author_output,
@@ -31,6 +34,7 @@ from .g7_runner import (
     ROLE_SPECS,
     AttemptLedger,
     ContractStop,
+    ThreadStop,
     conservative_input_bytes,
     default_transport_request_bytes,
     spec_for,
@@ -42,6 +46,33 @@ from .openrouter_backend import OPENROUTER_URL
 
 AUTHOR_MEMO_PATH = "00-PORTFOLIO/20260713s-opus-g7-paraphrase-author-contract.md"
 AUTHOR_TIMEOUT_SECONDS = 120.0
+PRODUCTION_FIRST_ARTIFACT_PREFIXES = {
+    "author-registration.json": {
+        "size": 2067,
+        "sha256": "1c7ff038d0228b02d22ac98872f44d3d1969d1b8b1bc38dbc37786e9092aefc2",
+        "append_only": False,
+    },
+    "author-attempts.jsonl": {
+        "size": 37144,
+        "sha256": "0853669ddbb75d4e504d3c167125c9f5bd8a5f59ed2cc718db692757f591279e",
+        "append_only": True,
+    },
+    "author-custody.jsonl": {
+        "size": 593108,
+        "sha256": "0e48560ec27651b265457c5eeeebf60c2d68c343a0fb62f1eb950d5d2ac20301",
+        "append_only": True,
+    },
+    "author-checkpoint.json": {
+        "size": 3481,
+        "sha256": "836bfb758ac7fc5331c4b2148c753e5d0605c13c5569eff6c3fe84ce324b95af",
+        "append_only": False,
+    },
+    "jimmy-semantic-review-packets.json": {
+        "size": 391,
+        "sha256": "fc6e8e4384fe0d10d2a108b8a0056c7c2a69733d7a5d16446d2ab78762e1aea1",
+        "append_only": False,
+    },
+}
 
 
 @dataclass(frozen=True)
@@ -170,6 +201,12 @@ def _custody_state(path: Path):
                      if row.get("event") == "author_transport_outcome"},
         "packets": {row["attempt_id"]: row for row in rows
                     if row.get("event") == "review_packets_custodied"},
+        "decisions": {row["attempt_id"]: row for row in rows
+                      if row.get("event") == "review_decision_custodied"},
+        "validation_outcomes": {
+            row["attempt_id"]: row for row in rows
+            if row.get("event") == "validation_outcome"
+        },
     }
 
 
@@ -220,11 +257,29 @@ def _reconcile_started_attempts(
                 or transport_row["payload_sha256"] != exact_digest
                 or transport_row["request_json"] != exact_request.decode("utf-8")):
             raise ContractStop("G7 author custodied request binding conflict")
+        outcome_row = state["outcomes"].get(attempt)
+        if outcome_row is not None and (
+                outcome_row.get("logical_key") != item.id
+                or outcome_row.get("custody_sha256")
+                != transport_row.get("custody_sha256")):
+            raise ContractStop("G7 author custodied outcome binding conflict")
 
-        custody.finish_transport(
-            spend, item.id, attempt, request.payload,
-            transport_row["status"], transport_row["response"],
-        )
+        if snapshot["finish"] is None or outcome_row is None:
+            try:
+                custody.finish_transport(
+                    spend, item.id, attempt, request.payload,
+                    transport_row["status"], transport_row["response"],
+                )
+            except ThreadStop:
+                refreshed = spend.attempt_snapshot(attempt)
+                refreshed_state = _custody_state(custody_path)
+                outcome = refreshed_state["outcomes"].get(attempt)
+                if (len(refreshed["history"]) != 2
+                        or refreshed["finish"] is None
+                        or refreshed["finish"]["failure"] is None
+                        or outcome is None
+                        or outcome.get("outcome") != "thread_stop"):
+                    raise
         snapshot = spend.attempt_snapshot(attempt)
         state = _custody_state(custody_path)
 
@@ -239,6 +294,24 @@ def _reconcile_started_attempts(
                 review_submission=None, review_complete=False,
             )
             custody.record_validation(item.id, attempt, result, spend)
+            state = _custody_state(custody_path)
+
+        snapshot = spend.attempt_snapshot(attempt)
+        validation = snapshot["validation"]
+        validation_event = validation["event"] if validation else None
+        decision = state["decisions"].get(attempt)
+        validation_outcome = state["validation_outcomes"].get(attempt)
+        if (validation_event in {
+                "validation_failed", "logical_complete", "unresolved",
+            } and decision is None):
+            raise ContractStop("G7 author spend validation lacks decision custody")
+        if decision is not None and validation_outcome is None:
+            recovered = AuthorValidationResult(
+                decision["state"], tuple(decision["failures"]),
+                tuple(decision["review_packets"]), None,
+                decision["review_submission"],
+            )
+            custody.record_validation(item.id, attempt, recovered, spend)
             state = _custody_state(custody_path)
 
     # Force a fresh cross-file validation before dispatching any never-started key.
@@ -428,4 +501,258 @@ def run_author_first_attempts(
     surface = build_production_author_surface(benchmark_root)
     return run_author_surface_first_attempts(
         surface, out_dir, api_key, transport, max_workers=max_workers
+    )
+
+
+def _replay_candidates(spend: AttemptLedger, keys):
+    by_key = _attempts_by_key(spend)
+    missing = [key for key in keys if key not in by_key]
+    if missing:
+        raise ContractStop("G7 author first-attempt surface is incomplete")
+    candidates = []
+    for key in keys:
+        _attempt, snapshot = by_key[key]
+        history = snapshot["history"]
+        if len(history) > 2:
+            raise ContractStop("G7 author key exceeds the single replay limit")
+        if len(history) == 2:
+            continue
+        finish = snapshot["finish"]
+        validation = snapshot["validation"]
+        validation_event = validation["event"] if validation else None
+        if finish is None:
+            raise ContractStop("G7 author first attempt remains in flight")
+        if finish["failure"] is not None or validation_event == "validation_failed":
+            candidates.append(key)
+        else:
+            raise ContractStop(
+                f"G7 author first attempt is not replay-required: {key}"
+            )
+    return tuple(candidates)
+
+
+def _verify_first_artifact_prefixes(out: Path, expected) -> None:
+    required_names = set(PRODUCTION_FIRST_ARTIFACT_PREFIXES)
+    if not isinstance(expected, dict) or set(expected) != required_names:
+        raise ContractStop("G7 first-attempt artifact hash contract is invalid")
+    for name in sorted(required_names):
+        rule = expected[name]
+        if (not isinstance(rule, dict)
+                or set(rule) != {"size", "sha256", "append_only"}
+                or type(rule["size"]) is not int or rule["size"] < 0
+                or not isinstance(rule["sha256"], str)
+                or len(rule["sha256"]) != 64
+                or type(rule["append_only"]) is not bool):
+            raise ContractStop("G7 first-attempt artifact hash rule is invalid")
+        path = out / name
+        if not path.is_file():
+            raise ContractStop("G7 replay lacks a first-attempt artifact")
+        data = path.read_bytes()
+        size = rule["size"]
+        if len(data) < size or (not rule["append_only"] and len(data) != size):
+            raise ContractStop(f"G7 first-attempt artifact size mismatch: {name}")
+        if hashlib.sha256(data[:size]).hexdigest() != rule["sha256"]:
+            raise ContractStop(f"G7 first-attempt artifact SHA mismatch: {name}")
+
+
+def _derive_replay_outputs(surface, keys, spend, custody_path):
+    by_key = _attempts_by_key(spend)
+    packet_rows = _custody_packet_rows(custody_path)
+    pending = []
+    unresolved = []
+    complete = []
+    replay_remaining = []
+    replayed = []
+    packet_items = []
+    for item_id in keys:
+        entry = by_key.get(item_id)
+        if entry is None:
+            replay_remaining.append(item_id)
+            continue
+        attempt, snapshot = entry
+        history = snapshot["history"]
+        if len(history) > 1:
+            replayed.append(item_id)
+        finish = snapshot["finish"]
+        validation = snapshot["validation"]
+        validation_event = validation["event"] if validation else None
+        if len(history) == 1 and (
+                finish is None or finish["failure"] is not None
+                or validation_event == "validation_failed"):
+            replay_remaining.append(item_id)
+        elif finish is None:
+            replay_remaining.append(item_id)
+        elif finish["failure"] is not None:
+            unresolved.append(item_id)
+        elif validation_event in {"validation_failed", "unresolved"}:
+            unresolved.append(item_id)
+        elif validation_event == "logical_complete":
+            complete.append(item_id)
+        elif validation_event == "validation_pending":
+            packet = packet_rows.get(attempt)
+            if packet is None:
+                unresolved.append(item_id)
+            else:
+                pending.append(item_id)
+                packet_items.append({
+                    "item_id": item_id,
+                    "attempt_id": attempt,
+                    "review_packets": packet["review_packets"],
+                })
+        else:
+            unresolved.append(item_id)
+
+    packet_export = {
+        "schema_version": "walkworthy-g7-jimmy-semantic-review-replay-v1",
+        "surface": "production_public",
+        "manifest_sha256": surface.manifest_sha256,
+        "role_manifest_sha256": surface.role_manifest_sha256,
+        "contract_memo_sha256": MEMO_SHA256,
+        "items": sorted(
+            packet_items, key=lambda row: (row["item_id"], row["attempt_id"])
+        ),
+    }
+    accounting = spend.snapshot()
+    remaining = (HARD_NTE_USD - accounting["actual"]
+                 - accounting["reserved"] - accounting["inflight"])
+    if replay_remaining:
+        status = "replay_incomplete"
+    elif pending:
+        status = "validation_pending_jimmy"
+    else:
+        status = "bounded_replay_closed_g7_pending"
+    checkpoint = {
+        "schema_version": "walkworthy-g7-author-replay-checkpoint-v1",
+        "surface": "production_public",
+        "manifest_sha256": surface.manifest_sha256,
+        "role_manifest_sha256": surface.role_manifest_sha256,
+        "contract_memo_sha256": MEMO_SHA256,
+        "author_system_prompt_sha256": AUTHOR_SYSTEM_PROMPT_SHA256,
+        "author_user_prompt_template_sha256": AUTHOR_USER_PROMPT_TEMPLATE_SHA256,
+        "planned": len(keys),
+        "posts": accounting["posts"],
+        "replays": accounting["replay"],
+        "replay_remaining": len(replay_remaining),
+        "validation_pending": len(pending),
+        "unresolved": len(unresolved),
+        "complete_items": len(complete),
+        "author_failed_item_model_cells": 6 * len(unresolved),
+        "paraphrase_battery_cells_total": 6 * len(keys),
+        "paraphrase_battery_cells_completed": 0,
+        "paraphrase_battery_cells_unresolved": 6 * len(keys),
+        "actual_usd": str(accounting["actual"]),
+        "reserved_usd": str(accounting["reserved"]),
+        "remaining_global_nte_usd": str(remaining),
+        "replayed_item_ids": replayed,
+        "replay_remaining_item_ids": replay_remaining,
+        "pending_item_ids": pending,
+        "unresolved_item_ids": unresolved,
+        "complete_item_ids": complete,
+        "bounded_paid_attempt_closed": not replay_remaining,
+        "perturbed_sut_posts": 0,
+        "g7_status": "PENDING",
+        "flip_rate_computed": False,
+        "status": status,
+    }
+    return checkpoint, packet_export
+
+
+def run_author_surface_replays(
+    surface: AuthorStageSurface, out_dir, api_key, transport, *, pacing_seconds,
+    first_artifact_prefixes,
+):
+    """Issue at most one exact replay for each failed first author attempt."""
+    if not callable(transport):
+        raise ContractStop("G7 author transport must be callable")
+    if not isinstance(api_key, str) or not api_key:
+        raise ContractStop("G7 author API key must be supplied explicitly")
+    if (isinstance(pacing_seconds, bool)
+            or not isinstance(pacing_seconds, (int, float))
+            or not math.isfinite(pacing_seconds)
+            or pacing_seconds < 0):
+        raise ContractStop("G7 author replay pacing must be nonnegative")
+    items, keys, requests, spec = _prepare_surface(surface)
+    out = Path(out_dir)
+    if not out.is_dir():
+        raise ContractStop("G7 author replay requires the first-attempt run directory")
+    required = (
+        out / "author-registration.json",
+        out / "author-checkpoint.json",
+        out / "jimmy-semantic-review-packets.json",
+        out / "author-attempts.jsonl",
+        out / "author-custody.jsonl",
+    )
+    if any(not path.is_file() for path in required):
+        raise ContractStop("G7 author replay lacks a first-attempt artifact")
+    _verify_first_artifact_prefixes(out, first_artifact_prefixes)
+    write_once_json(
+        out / "author-registration.json",
+        _registration(surface, keys, spec.max_missing_cost * len(keys)),
+    )
+
+    spend = AttemptLedger(
+        out / "author-attempts.jsonl", expected_keys=keys,
+        hard_nte_usd=HARD_NTE_USD, planned_cap=len(keys),
+        replay_cap=len(keys), post_cap=2 * len(keys), max_concurrency=2,
+    )
+    custody_path = out / "author-custody.jsonl"
+    custody = AuthorCustodyLedger(custody_path)
+    _reconcile_started_attempts(
+        spend, custody, custody_path, items, requests
+    )
+    candidates = _replay_candidates(spend, keys)
+    request_by_key = {
+        item.id: request for item, request in zip(items, requests)
+    }
+    headers = _headers(api_key)
+
+    for index, logical_key in enumerate(candidates):
+        if index and pacing_seconds:
+            time.sleep(pacing_seconds)
+        request = request_by_key[logical_key]
+        attempt = spend.begin(logical_key, spec, request.payload)
+        try:
+            status, response = transport(
+                OPENROUTER_URL, headers, request.payload,
+                timeout=AUTHOR_TIMEOUT_SECONDS,
+            )
+        except Exception as exc:
+            status = None
+            response = {
+                "transport_exception": {
+                    "type": type(exc).__name__, "message": "transport raised",
+                }
+            }
+        try:
+            outcome = custody.finish_transport(
+                spend, logical_key, attempt, request.payload, status, response
+            )
+        except ThreadStop:
+            outcome = "thread_stop"
+        if outcome == "validation_pending":
+            item = next(item for item in items if item.id == logical_key)
+            result = validate_author_output(
+                item, request.prepared, _response_body(response),
+                review_submission=None, review_complete=False,
+            )
+            custody.record_validation(logical_key, attempt, result, spend)
+
+    custody = AuthorCustodyLedger(custody_path)
+    checkpoint, packet_export = _derive_replay_outputs(
+        surface, keys, spend, custody_path
+    )
+    write_once_json(
+        out / "jimmy-semantic-review-packets-replay.json", packet_export
+    )
+    return write_once_json(out / "author-replay-checkpoint.json", checkpoint)
+
+
+def run_author_replays(
+    benchmark_root, out_dir, api_key, transport, *, pacing_seconds,
+):
+    """Run the final bounded replay pass on the exact 73 PUBLIC author keys."""
+    surface = build_production_author_surface(benchmark_root)
+    return run_author_surface_replays(
+        surface, out_dir, api_key, transport, pacing_seconds=pacing_seconds,
+        first_artifact_prefixes=PRODUCTION_FIRST_ARTIFACT_PREFIXES,
     )

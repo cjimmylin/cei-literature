@@ -108,6 +108,6 @@ A venue-ready checklist; locations are placeholders to be resolved at artifact r
 | Raw human-label data | Withheld / aggregate only | protocol + aggregate stats released |
 | Mock-first test suite (276 tests) | Released (on sign-off) | artifact repository — `harness/tests/` |
 | Canary string in all released files | Enforced | every released file |
-| Perturbation battery (G7) evidence | Released (on sign-off) | dated readings report |
+| Perturbation battery (G7) evidence | **PENDING — no complete adjudicated battery; no flip rate** | bounded-attempt custody record |
 | Pre-registration documents (frozen) | Released (on sign-off) | dated pre-registration files |
 | Reproduction commands | To be included | artifact `README` at release |

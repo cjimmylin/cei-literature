@@ -1,3 +1,4 @@
+import hashlib
 import json
 import re
 import threading
@@ -5,12 +6,17 @@ from copy import deepcopy
 
 import pytest
 
-from walkworthy.g7_author_contract import AUTHOR_MODEL, AuthorCustodyLedger
+from walkworthy.g7_author_contract import (
+    AUTHOR_MODEL,
+    AuthorCustodyLedger,
+    validate_author_output,
+)
 from walkworthy.g7_author_stage import (
     AuthorStageSurface,
     _prepare_surface,
     _registration,
     build_production_author_surface,
+    run_author_surface_replays,
     run_author_surface_first_attempts,
 )
 from walkworthy.g7_runner import (
@@ -115,6 +121,18 @@ class _CrashAfterSpendFinish:
     def finish(self, attempt, status, response):
         self.spend.finish(attempt, status, response)
         raise _InjectedCrash("after spend finish")
+
+
+class _CrashAfterValidationMark:
+    def __init__(self, spend):
+        self.spend = spend
+
+    def attempt_snapshot(self, attempt):
+        return self.spend.attempt_snapshot(attempt)
+
+    def mark_author_validation(self, attempt, passed):
+        self.spend.mark_author_validation(attempt, passed)
+        raise _InjectedCrash("after validation mark")
 
 
 class RecordingValidTransport:
@@ -350,3 +368,312 @@ def test_pending_outcome_without_packet_recovers_packet_before_missing_post(tmp_
     assert [row["item_id"] for row in packet_export["items"]] == [
         "WW-01-X01", "WW-01-X02",
     ]
+
+
+class AllFirstAttemptsFailTransport:
+    def __init__(self):
+        self.calls = []
+
+    def __call__(self, _url, _headers, payload, timeout=None):
+        self.calls.append((deepcopy(payload), timeout))
+        item_id = re.search(
+            r"^ITEM_ID: (.+)$", payload["messages"][1]["content"], re.MULTILINE
+        ).group(1)
+        suffix = int(item_id.rsplit("X", 1)[1])
+        if suffix % 2:
+            return 429, {"error": {"message": "Provider returned error"}}
+        return 200, {
+            "model": AUTHOR_MODEL,
+            "usage": {"cost": 0.001},
+            "choices": [{"message": {
+                "content": f"```json\n{_valid_body(payload)}\n```",
+            }}],
+        }
+
+
+class MixedReplayTransport:
+    def __init__(self):
+        self.calls = []
+
+    def __call__(self, _url, _headers, payload, timeout=None):
+        self.calls.append((deepcopy(payload), timeout))
+        item_id = re.search(
+            r"^ITEM_ID: (.+)$", payload["messages"][1]["content"], re.MULTILINE
+        ).group(1)
+        suffix = int(item_id.rsplit("X", 1)[1])
+        if suffix == 1:
+            return 429, {"error": {"message": "Provider returned error"}}
+        if suffix == 2:
+            return 200, {
+                "model": AUTHOR_MODEL,
+                "usage": {"cost": 0.001},
+                "choices": [{"message": {
+                    "content": f"```json\n{_valid_body(payload)}\n```",
+                }}],
+            }
+        return 200, _response(payload)
+
+
+def _first_request_payloads(custody_path):
+    rows = [json.loads(line) for line in custody_path.read_text().splitlines()]
+    return {
+        row["logical_key"]: json.loads(row["request_json"])
+        for row in rows
+        if row.get("event") == "author_transport_custodied"
+        and row["attempt_id"] <= 3
+    }
+
+
+def _first_artifact_prefixes(out):
+    values = {}
+    for name in (
+        "author-registration.json",
+        "author-attempts.jsonl",
+        "author-custody.jsonl",
+        "author-checkpoint.json",
+        "jimmy-semantic-review-packets.json",
+    ):
+        data = (out / name).read_bytes()
+        values[name] = {
+            "size": len(data),
+            "sha256": hashlib.sha256(data).hexdigest(),
+            "append_only": name in {
+                "author-attempts.jsonl", "author-custody.jsonl",
+            },
+        }
+    return values
+
+
+def test_exact_replays_close_paid_attempts_without_overwriting_first_outputs(
+        tmp_path, monkeypatch):
+    surface = _surface(3)
+    out = tmp_path / "replay-run"
+    first_transport = AllFirstAttemptsFailTransport()
+    first_checkpoint = run_author_surface_first_attempts(
+        surface, out, "FIRST-SECRET", first_transport, max_workers=1
+    )
+    assert first_checkpoint["replay_required"] == 3
+    old_checkpoint = (out / "author-checkpoint.json").read_bytes()
+    old_packets = (out / "jimmy-semantic-review-packets.json").read_bytes()
+    first_payloads = _first_request_payloads(out / "author-custody.jsonl")
+    first_artifacts = _first_artifact_prefixes(out)
+
+    sleeps = []
+    monkeypatch.setattr(
+        "walkworthy.g7_author_stage.time.sleep", lambda seconds: sleeps.append(seconds)
+    )
+    replay_transport = MixedReplayTransport()
+    replay_checkpoint = run_author_surface_replays(
+        surface, out, "REPLAY-SECRET", replay_transport, pacing_seconds=0.25,
+        first_artifact_prefixes=first_artifacts,
+    )
+
+    assert len(replay_transport.calls) == 3
+    assert sleeps == [0.25, 0.25]
+    assert all(timeout == 120.0 for _payload, timeout in replay_transport.calls)
+    for payload, _timeout in replay_transport.calls:
+        item_id = re.search(
+            r"^ITEM_ID: (.+)$", payload["messages"][1]["content"], re.MULTILINE
+        ).group(1)
+        assert payload == first_payloads[item_id]
+        assert payload["model"] == AUTHOR_MODEL
+        assert payload["max_tokens"] == 4096
+
+    assert (out / "author-checkpoint.json").read_bytes() == old_checkpoint
+    assert (out / "jimmy-semantic-review-packets.json").read_bytes() == old_packets
+    assert replay_checkpoint["planned"] == 3
+    assert replay_checkpoint["posts"] == 6
+    assert replay_checkpoint["replays"] == 3
+    assert replay_checkpoint["replay_remaining"] == 0
+    assert replay_checkpoint["validation_pending"] == 1
+    assert replay_checkpoint["unresolved"] == 2
+    assert replay_checkpoint["pending_item_ids"] == ["WW-01-X03"]
+    assert replay_checkpoint["unresolved_item_ids"] == [
+        "WW-01-X01", "WW-01-X02",
+    ]
+    assert replay_checkpoint["bounded_paid_attempt_closed"] is True
+    assert replay_checkpoint["g7_status"] == "PENDING"
+    assert replay_checkpoint["status"] == "validation_pending_jimmy"
+    assert replay_checkpoint["paraphrase_battery_cells_total"] == 18
+    assert replay_checkpoint["paraphrase_battery_cells_completed"] == 0
+    assert replay_checkpoint["paraphrase_battery_cells_unresolved"] == 18
+    assert replay_checkpoint["author_failed_item_model_cells"] == 12
+    assert replay_checkpoint["actual_usd"] == "0.003"
+    assert replay_checkpoint["reserved_usd"] == "0.054432000"
+    assert replay_checkpoint["remaining_global_nte_usd"] == "29.942568000"
+
+    replay_packets = json.loads(
+        (out / "jimmy-semantic-review-packets-replay.json").read_text()
+    )
+    assert [(row["item_id"], row["attempt_id"])
+            for row in replay_packets["items"]] == [("WW-01-X03", 6)]
+    assert "response" not in json.dumps(replay_packets)
+    spend_text = (out / "author-attempts.jsonl").read_text()
+    custody_text = (out / "author-custody.jsonl").read_text()
+    assert "FIRST-SECRET" not in spend_text + custody_text
+    assert "REPLAY-SECRET" not in spend_text + custody_text
+    assert '"response"' not in spend_text
+    assert '"response"' in custody_text
+
+    no_more_calls = MixedReplayTransport()
+    sleeps.clear()
+    assert run_author_surface_replays(
+        surface, out, "THIRD-SECRET", no_more_calls, pacing_seconds=0.25,
+        first_artifact_prefixes=first_artifacts,
+    ) == replay_checkpoint
+    assert no_more_calls.calls == []
+    assert sleeps == []
+
+
+def test_replay_rebuild_mismatch_stops_before_post(tmp_path):
+    surface = _surface(1)
+    out = tmp_path / "mismatch-run"
+    run_author_surface_first_attempts(
+        surface, out, "FIRST", AllFirstAttemptsFailTransport(), max_workers=1
+    )
+    first_artifacts = _first_artifact_prefixes(out)
+    surface.items[0].administrations[0].cold_open = "Changed after attempt one."
+    transport = MixedReplayTransport()
+
+    with pytest.raises(ContractStop, match="rebuilt request"):
+        run_author_surface_replays(
+            surface, out, "REPLAY", transport, pacing_seconds=0,
+            first_artifact_prefixes=first_artifacts,
+        )
+
+    assert transport.calls == []
+
+
+def test_replay_resume_reconciles_custodied_second_failure_and_continues(tmp_path):
+    surface = _surface(2)
+    out = tmp_path / "replay-resume"
+    run_author_surface_first_attempts(
+        surface, out, "FIRST", AllFirstAttemptsFailTransport(), max_workers=1
+    )
+    first_artifacts = _first_artifact_prefixes(out)
+    items, keys, requests, spec = _prepare_surface(surface)
+    spend = AttemptLedger(
+        out / "author-attempts.jsonl", expected_keys=keys,
+        hard_nte_usd=HARD_NTE_USD, planned_cap=len(keys),
+        replay_cap=len(keys), post_cap=2 * len(keys), max_concurrency=2,
+    )
+    custody = AuthorCustodyLedger(out / "author-custody.jsonl")
+    attempt = spend.begin(items[0].id, spec, requests[0].payload)
+    with pytest.raises(_InjectedCrash, match="before spend finish"):
+        custody.finish_transport(
+            _FailBeforeSpendFinish(spend), items[0].id, attempt,
+            requests[0].payload, 429,
+            {"error": {"message": "Provider returned error"}},
+        )
+
+    transport = MixedReplayTransport()
+    checkpoint = run_author_surface_replays(
+        surface, out, "REPLAY", transport, pacing_seconds=0,
+        first_artifact_prefixes=first_artifacts,
+    )
+
+    assert len(transport.calls) == 1
+    assert "WW-01-X02" in transport.calls[0][0]["messages"][1]["content"]
+    assert checkpoint["replays"] == 2
+    assert checkpoint["replay_remaining"] == 0
+    assert checkpoint["unresolved"] == 2
+    assert checkpoint["status"] == "bounded_replay_closed_g7_pending"
+
+
+def test_replay_rejects_non_replay_required_first_state_before_post(tmp_path):
+    surface = _surface(1)
+    out = tmp_path / "pending-first-attempt"
+    run_author_surface_first_attempts(
+        surface, out, "FIRST", RecordingValidTransport(), max_workers=1
+    )
+    first_artifacts = _first_artifact_prefixes(out)
+    transport = MixedReplayTransport()
+
+    with pytest.raises(ContractStop, match="not replay-required"):
+        run_author_surface_replays(
+            surface, out, "REPLAY", transport, pacing_seconds=0,
+            first_artifact_prefixes=first_artifacts,
+        )
+
+    assert transport.calls == []
+
+
+def test_replay_rejects_corrupted_first_artifact_before_post(tmp_path):
+    surface = _surface(1)
+    out = tmp_path / "corrupt-baseline"
+    run_author_surface_first_attempts(
+        surface, out, "FIRST", AllFirstAttemptsFailTransport(), max_workers=1
+    )
+    first_artifacts = _first_artifact_prefixes(out)
+    checkpoint_path = out / "author-checkpoint.json"
+    checkpoint_path.write_bytes(checkpoint_path.read_bytes() + b" ")
+    transport = MixedReplayTransport()
+
+    with pytest.raises(ContractStop, match="first-attempt artifact"):
+        run_author_surface_replays(
+            surface, out, "REPLAY", transport, pacing_seconds=0,
+            first_artifact_prefixes=first_artifacts,
+        )
+
+    assert transport.calls == []
+
+
+def test_replay_resume_repairs_decision_without_outcome_before_later_post(tmp_path):
+    surface = _surface(2)
+    out = tmp_path / "validation-outcome-crash"
+    run_author_surface_first_attempts(
+        surface, out, "FIRST", AllFirstAttemptsFailTransport(), max_workers=1
+    )
+    first_artifacts = _first_artifact_prefixes(out)
+    items, keys, requests, spec = _prepare_surface(surface)
+    spend = AttemptLedger(
+        out / "author-attempts.jsonl", expected_keys=keys,
+        hard_nte_usd=HARD_NTE_USD, planned_cap=len(keys),
+        replay_cap=len(keys), post_cap=2 * len(keys), max_concurrency=2,
+    )
+    custody = AuthorCustodyLedger(out / "author-custody.jsonl")
+    attempt = spend.begin(items[0].id, spec, requests[0].payload)
+    response = {
+        "model": AUTHOR_MODEL,
+        "usage": {"cost": 0.001},
+        "choices": [{"message": {
+            "content": f"```json\n{_valid_body(requests[0].payload)}\n```",
+        }}],
+    }
+    assert custody.finish_transport(
+        spend, items[0].id, attempt, requests[0].payload, 200, response
+    ) == "validation_pending"
+    result = validate_author_output(
+        items[0], requests[0].prepared,
+        response["choices"][0]["message"]["content"],
+        review_submission=None, review_complete=False,
+    )
+    with pytest.raises(_InjectedCrash, match="after validation mark"):
+        custody.record_validation(
+            items[0].id, attempt, result,
+            _CrashAfterValidationMark(spend),
+        )
+    custody_before = (out / "author-custody.jsonl").read_text()
+    assert custody_before.count('"event":"review_decision_custodied"') == 2
+    assert custody_before.count('"event":"validation_outcome"') == 1
+
+    transport = MixedReplayTransport()
+    checkpoint = run_author_surface_replays(
+        surface, out, "REPLAY", transport, pacing_seconds=0,
+        first_artifact_prefixes=first_artifacts,
+    )
+
+    assert len(transport.calls) == 1
+    assert "WW-01-X02" in transport.calls[0][0]["messages"][1]["content"]
+    custody_rows = [
+        json.loads(line)
+        for line in (out / "author-custody.jsonl").read_text().splitlines()
+    ]
+    outcome_attempts = {
+        row["attempt_id"] for row in custody_rows
+        if row.get("event") == "validation_outcome"
+    }
+    assert outcome_attempts == {2, 3, 4}
+    assert checkpoint["replays"] == 2
+    assert checkpoint["replay_remaining"] == 0
+    assert checkpoint["unresolved"] == 2

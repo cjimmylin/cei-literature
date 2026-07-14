@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCF-Bench Efficiency Assessment</title>
+<style>
+  :root{--bg:#f5f2ea;--paper:#fffdf8;--ink:#20242c;--muted:#606874;--line:#d8d1c4;--navy:#183754;--teal:#176a64;--gold:#a06f16;--red:#963d37;--green:#2c6b44}
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  main{max-width:1240px;margin:0 auto;padding:38px 28px 70px}.hero{background:linear-gradient(135deg,var(--navy),#285675);color:#fff;padding:34px;border-radius:16px;box-shadow:0 10px 30px #18375425}
+  h1{font-size:2.25rem;margin:0 0 8px}h2{color:var(--navy);margin-top:36px;border-bottom:2px solid var(--line);padding-bottom:7px}h3{color:var(--teal);margin-top:26px}
+  p,li{max-width:1000px}.meta{color:#dce9f2}.verdict{font-size:1.08rem;background:#eef5f2;border-left:5px solid var(--teal);padding:18px 22px;margin:24px 0}
+  .states{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:24px 0}.state{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:16px}.state b{color:var(--navy)}
+  table{width:100%;border-collapse:collapse;background:var(--paper);margin:14px 0 24px;font-size:.91rem}th,td{border:1px solid var(--line);padding:9px 10px;vertical-align:top;text-align:left}th{background:#e8eef2;color:var(--navy);position:sticky;top:0}tr:nth-child(even) td{background:#fbfaf6}.score{text-align:center;font-weight:800;white-space:nowrap}.s5{color:var(--green)}.s4{color:var(--teal)}.s3{color:var(--gold)}.s2,.s1{color:var(--red)}
+  code{background:#ece9e1;padding:.1em .32em;border-radius:4px}pre{background:#18202b;color:#e8edf3;padding:18px;overflow:auto;border-radius:9px;font-size:.88rem}pre code{background:transparent;padding:0}.callout{border:1px solid #dec991;background:#fff7da;padding:16px 20px;border-radius:9px}.danger{border-left:5px solid var(--red);background:#f9ecea;padding:16px 20px}.small{font-size:.9rem;color:var(--muted)}
+  nav{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}nav a{color:#fff;text-decoration:none;border:1px solid #ffffff55;border-radius:20px;padding:5px 11px;font-size:.86rem}
+  @media(max-width:760px){main{padding:18px 10px 40px}.hero{padding:22px}.states{grid-template-columns:1fr}table{font-size:.78rem;display:block;overflow-x:auto}h1{font-size:1.7rem}}
+  @media print{body{background:#fff}main{max-width:none;padding:0}.hero{box-shadow:none;border-radius:0}nav{display:none}th{position:static}table{font-size:8.5pt}h2{break-after:avoid}tr{break-inside:avoid}}
+</style>
+</head>
+<body><main>
+<header class="hero">
+  <h1>WCF-Bench Efficiency Assessment</h1>
+  <div class="meta">Prepared 2026-07-14 · Canonical ledger: S1–S42 including S1b, S5b, and S35-P · 45 labeled sessions</div>
+  <nav><a href="#verdict">Verdict</a><a href="#method">Method</a><a href="#summary">Summary</a><a href="#ledger">45-session ledger</a><a href="#patterns">Patterns</a><a href="#path">Fastest path</a><a href="#recommendations">Recommendations</a><a href="#decision">Owner decision</a></nav>
+</header>
+
+<section id="verdict">
+<h2>Executive verdict</h2>
+<div class="states">
+  <div class="state"><b>MVP-testable benchmark — ACHIEVED S28.</b><br>The bank, harness, corrected qualification state, approved EPISODE registry, and owner checklist were sufficient to begin the registered evidence program.</div>
+  <div class="state"><b>T3 evidence — COMPLETE S35.</b><br>The controlling offline correction records 87 scored + 1 error-recorded, 80 graded + 7 wholly ungraded, agreement 36 / disagreement 44, and graded mean 0.50375.</div>
+  <div class="state"><b>PPP-1 evidence/packet — COMPLETE S41, ACCEPTED S42.</b><br>It remains exactly <b>EXPLORATORY MANUSCRIPT PREVIEW · SINGLE-JUDGE · NON-QUOTABLE</b>.</div>
+  <div class="state"><b>Release-grade / quotable benchmark — NOT complete.</b><br>G6 and registered T4/G1–G7 work remain separately gated. PPP-1 does not satisfy or amend them.</div>
+</div>
+<p class="verdict">The reconciled mean is <b>3.64/5</b>, with 31 of 45 sessions scoring 4 or 5. The main efficiency failure was sequencing, not competence: authoring ran ahead of executable custody, judge validity was discovered through serial live cycles, and S29–S34 became a six-session shadow-study detour with 29 WCF-scoped commits but no production panel, manifest, T4, score, or paper effect. The strongest sessions persisted evidence, read samples, removed only material blockers, and produced a paper-facing artifact.</p>
+<p>The fastest credible next move is one separately authorized, zero-paid paper-only assembly session using the accepted PPP-1 packet and existing pre-draft—no new runner work.</p>
+</section>
+
+<section id="method"><h2>Audit method, rubric, evidence, and limitations</h2>
+<p><code>project-dashboard.html</code> is the canonical ledger. Ratings are retrospective against the <b>shortest credible path to the accepted exploratory MVP</b>; they are not judgments of effort, intelligence, or technical competence.</p>
+<table><thead><tr><th>Score</th><th>Class</th><th>Meaning</th></tr></thead><tbody>
+<tr><td class="score s5">5</td><td>Decisive</td><td>Produced a paper/evidence/MVP gate or directly crossed it.</td></tr>
+<tr><td class="score s4">4</td><td>Strong necessary</td><td>Made a necessary contribution or removed a material P0/P1 blocker.</td></tr>
+<tr><td class="score s3">3</td><td>Useful enabling</td><td>Advanced the path without itself producing or unlocking the headline artifact.</td></tr>
+<tr><td class="score s2">2</td><td>Indirect / overhead / late</td><td>Useful administration or relevant work sequenced later than the shortest path required.</td></tr>
+<tr><td class="score s1">1</td><td>Detour</td><td>Little or no consumable effect on the accepted exploratory MVP.</td></tr>
+</tbody></table>
+<p>Evidence includes the dashboard's frozen history, LIVE status, progress, path-to-paper, critical path, budget, allocations, and explicit no-effect statements. Line counts—2,243 for EPISODE runner plus tests, 4,689 for shadow bakeoff plus tests, and 1,740 for PPP-1 runner plus tests—are proportionality proxies only, not proof of waste.</p>
+<p class="small">Limits: session duration and team size vary; early sessions had less information; the ledger compresses retries and parallel work; counterfactual sequencing cannot prove first-attempt success. Scores evaluate consumable effect and ordering, not blame.</p>
+</section>
+
+<section id="summary"><h2>Quantitative summary and phase analysis</h2>
+<table><thead><tr><th>Score</th><th>Sessions</th><th>Share</th></tr></thead><tbody>
+<tr><td>5</td><td>10</td><td>22.2%</td></tr><tr><td>4</td><td>21</td><td>46.7%</td></tr><tr><td>3</td><td>5</td><td>11.1%</td></tr><tr><td>2</td><td>6</td><td>13.3%</td></tr><tr><td>1</td><td>3</td><td>6.7%</td></tr><tr><th>Total / mean</th><th>45</th><th>3.64/5</th></tr>
+</tbody></table>
+<table><thead><tr><th>Retrospective phase</th><th>Labels</th><th>Mean</th><th>Assessment</th></tr></thead><tbody>
+<tr><td>Design, bank, harness, first live slice (S1–S6 incl. b-labels)</td><td>8</td><td>3.88</td><td>Strong foundation; authoring breadth ran ahead of machine-readable executability.</td></tr>
+<tr><td>Judge validity (S7–S14)</td><td>8</td><td>4.25</td><td>Mostly necessary; realistic fixtures, persistence, repeats, full hashing, auth preflight, and retries could have compressed cycles.</td></tr>
+<tr><td>MVP through testability (S15–S28)</td><td>14</td><td>3.93</td><td>High value; some administration and the uncapped 18k-word draft added weight.</td></tr>
+<tr><td>Shadow-study lane (S29–S34)</td><td>6</td><td>1.50</td><td>Technically competent detour with no production or paper effect.</td></tr>
+<tr><td>Paper-first recovery (S35-P–S42)</td><td>9</td><td>3.89</td><td>Strong recovery; S37 was out of sequence and S41 combined evidence and paper utility.</td></tr>
+</tbody></table></section>
+
+<section id="ledger"><h2>Full 45-session assessment</h2>
+<table><thead><tr><th>Session</th><th>Score</th><th>Class</th><th>Concrete contribution</th><th>Inefficiency / counterfactual</th><th>Lesson</th></tr></thead><tbody>
+<tr><td>S1</td><td class="score s4">4</td><td>Strong necessary</td><td>Defined 10 designs, gates, perturbations, anchors, exemplars, PRD, and deck.</td><td>Design breadth preceded a machine-readable slice.</td><td>Prove one executable vertical slice while scaling.</td></tr>
+<tr><td>S1b</td><td class="score s4">4</td><td>Strong necessary</td><td>Completed the 10×10 exemplar matrix; suite reached 161.</td><td>More authoring accumulated before ingestion and custody.</td><td>Couple every authoring wave to executable acceptance.</td></tr>
+<tr><td>S2</td><td class="score s3">3</td><td>Useful enabling</td><td>Added 21 reviewed items, anchor checks, loader, and scorers.</td><td>Bank growth still outpaced machine-readable coverage.</td><td>Use loadable, scorable items as the progress unit.</td></tr>
+<tr><td>S3</td><td class="score s4">4</td><td>Strong necessary</td><td>Reached 230 authored items; built harness backbone/backend.</td><td>Authored completeness was not runnable completeness.</td><td>Headline complete only when source, schema, loader, runner agree.</td></tr>
+<tr><td>S4</td><td class="score s4">4</td><td>Strong necessary</td><td>Reviewed 48 items, audited anchors, issued R8–R23.</td><td>Review preceded full executable ingestion.</td><td>Review validity and execution readiness together.</td></tr>
+<tr><td>S5</td><td class="score s3">3</td><td>Useful enabling</td><td>Built EPISODE/judge/scoring machinery; transcribed 69 items.</td><td>Only 69/230 items were machine-readable.</td><td>Front-load schema and batch validation.</td></tr>
+<tr><td>S5b</td><td class="score s4">4</td><td>Strong necessary</td><td>Smoke-validated the live chain across three families.</td><td>Did not prove persistence, resume, price, or auth controls.</td><td>First live slice should exercise custody and cost seams.</td></tr>
+<tr><td>S6</td><td class="score s5">5</td><td>Decisive</td><td>Green live pilot, G6 instrument, adherence ruling, sanctioned path.</td><td>Could have occurred earlier with a narrow bank slice.</td><td>A credible live vertical slice is the fastest validator.</td></tr>
+<tr><td>S7</td><td class="score s4">4</td><td>Strong necessary</td><td>Exposed axis-scale and judge-defensibility defects.</td><td>Parser/evidence realism should precede live scaling.</td><td>Use adversarial parser fixtures before paid evidence.</td></tr>
+<tr><td>S8</td><td class="score s4">4</td><td>Strong necessary</td><td>Ruled per-keypoint scoring, persistence, probes, H-DISC prereg.</td><td>Persistence became mandatory only after ambiguity.</td><td>Persistence is a launch prerequisite.</td></tr>
+<tr><td>S9</td><td class="score s4">4</td><td>Strong necessary</td><td>Implemented R24–R28; tagged 273 keypoints; restored bounded axes.</td><td>Another live cycle validated predictable geometry.</td><td>Test exact result geometry offline first.</td></tr>
+<tr><td>S10</td><td class="score s4">4</td><td>Strong necessary</td><td>Sample reading invalidated award/disclosure channels; ordered quotes.</td><td>Realistic quote fixtures should have preceded qualification.</td><td>Read samples early; aggregates hide invalid mechanisms.</td></tr>
+<tr><td>S11</td><td class="score s4">4</td><td>Strong necessary</td><td>Added reason/quote checks; exposed Mistral failure and non-determinism.</td><td>Repeat probes arrived after another rerun.</td><td>Qualification must include stability at launch.</td></tr>
+<tr><td>S12</td><td class="score s5">5</td><td>Decisive</td><td>K=8 proved GPT response-insensitive; froze majority gating/manifests.</td><td>Full prompt hashing/stability policy could be earlier.</td><td>Freeze prompts and repeat behavior before scale.</td></tr>
+<tr><td>S13</td><td class="score s5">5</td><td>Decisive</td><td>Built gates and qualified Grok as second disclosure family.</td><td>Auth/catalog and retry resilience still lagged.</td><td>External metadata and retries are validity custody.</td></tr>
+<tr><td>S14</td><td class="score s4">4</td><td>Strong necessary</td><td>Ratified Grok and pinned floor semantics.</td><td>One more divergence/adjudication cycle.</td><td>Resolve semantics from samples before registry hardening.</td></tr>
+<tr><td>S15</td><td class="score s5">5</td><td>Decisive</td><td>Completed/audited bank and 816/816 run, zero errors.</td><td>Custody/resume and cost paths insufficiently proven.</td><td>Pre-prove checkpoint and accounting seams.</td></tr>
+<tr><td>S16</td><td class="score s5">5</td><td>Decisive</td><td>Sample read found artifacts, removed GPT, authorized bridge, handed over.</td><td>Value came from evidence, not more infrastructure.</td><td>Interrogate disagreements before rebuilding.</td></tr>
+<tr><td>S17</td><td class="score s4">4</td><td>Strong necessary</td><td>Fixed parsing/disagreement/cost; built bridge manifest.</td><td>Zero-OPEN risk was not fixture-tested realistically.</td><td>Test quoted refusal text before manifest conclusions.</td></tr>
+<tr><td>S18</td><td class="score s3">3</td><td>Useful enabling</td><td>Drafted 22 EPISODE mappings with reviews/tests.</td><td>Registry hardening preceded semantic review.</td><td>Review semantics before encoding.</td></tr>
+<tr><td>S19</td><td class="score s2">2</td><td>Indirect / overhead</td><td>Reconciled mainline and dashboard.</td><td>Could fold into S18/S20 closure.</td><td>Bundle administration with a deliverable.</td></tr>
+<tr><td>S20</td><td class="score s3">3</td><td>Useful enabling</td><td>Prepared Task-4–6 adjudication packet and spot-check.</td><td>Governance advanced more than evidence.</td><td>Generate escalation packets at blocker close.</td></tr>
+<tr><td>S21</td><td class="score s5">5</td><td>Decisive</td><td>Evidence read reversed zero-OPEN artifact and quantified impact.</td><td>Quote fixtures would have prevented the false headline.</td><td>Samples outrank aggregates and extra infrastructure.</td></tr>
+<tr><td>S22</td><td class="score s4">4</td><td>Strong necessary</td><td>Adjudicated mappings and made acceptance checkable.</td><td>Some handover packaging was foldable.</td><td>Turn judgments into executable criteria immediately.</td></tr>
+<tr><td>S23</td><td class="score s4">4</td><td>Strong necessary</td><td>Pre-registered T4 roster, costs, gates, seed, release semantics.</td><td>Strong future rigor, not fastest exploratory MVP route.</td><td>Do not let later prereg displace immediate paper work.</td></tr>
+<tr><td>S24</td><td class="score s5">5</td><td>Decisive</td><td>Produced pre-draft, result scaffolds, gate branches, editorial decisions.</td><td>About 18k words with no cap was oversized.</td><td>Timebox manuscript scope to supported evidence.</td></tr>
+<tr><td>S25</td><td class="score s2">2</td><td>Indirect / overhead</td><td>Consolidated handover, prompts, plan, paper lane.</td><td>Mostly foldable into S24/S26.</td><td>One durable entry point is enough.</td></tr>
+<tr><td>S26</td><td class="score s4">4</td><td>Strong necessary</td><td>Fixed willingness parser; restored manifest; re-parsed 309 cells.</td><td>Confirms the original fixture gap.</td><td>Persist bidirectional quote fixtures before qualification.</td></tr>
+<tr><td>S27</td><td class="score s4">4</td><td>Strong necessary</td><td>Applied exact EPISODE rulings and parity fixtures.</td><td>Correct work after a premature draft cycle.</td><td>Judgment first, registry second, fixtures third.</td></tr>
+<tr><td>S28</td><td class="score s5">5</td><td>Decisive</td><td>Achieved MVP TESTABLE and completed citation verification.</td><td>No material inefficiency; optional polish skipped.</td><td>Stop at sufficiency and bank the paper artifact.</td></tr>
+<tr><td>S29</td><td class="score s1">1</td><td>Detour</td><td>Authorized/designed bounded shadow comparison.</td><td>Explicitly no production, T4, score, or paper effect.</td><td>No adjunct without a named claim or P0/P1.</td></tr>
+<tr><td>S30</td><td class="score s1">1</td><td>Detour</td><td>Approved shadow spec and seven-task TDD plan.</td><td>Planning transaction cost for non-critical study.</td><td>Non-critical experiments do not merit critical-path plans.</td></tr>
+<tr><td>S31</td><td class="score s2">2</td><td>Indirect / overhead</td><td>Executed shadow evidence; exposed accounting discrepancy.</td><td>No Pareto name; reconciliation; no production/paper effect.</td><td>Adjuncts need clean custody and consumable stopping output.</td></tr>
+<tr><td>S32</td><td class="score s2">2</td><td>Indirect / overhead</td><td>Made dashboard close-and-show protocol durable.</td><td>Governance could append to a substantive close.</td><td>Adopt concise operational rules just in time.</td></tr>
+<tr><td>S33</td><td class="score s1">1</td><td>Detour</td><td>Prepared/reviewed shadow reconciliation packet.</td><td>More transactions on evidence irrelevant to MVP.</td><td>Stop non-critical branches at accounting boundaries.</td></tr>
+<tr><td>S34</td><td class="score s2">2</td><td>Indirect / overhead</td><td>Ratified accounting and produced offline Pareto companion.</td><td>Clean closure, no production/paper change.</td><td>Competence does not make work critical-path.</td></tr>
+<tr><td>S35-P</td><td class="score s3">3</td><td>Useful enabling</td><td>Ratified paper-first rule and bounded reviews.</td><td>Governance only.</td><td>Use policy once, then enforce through artifacts.</td></tr>
+<tr><td>S35</td><td class="score s5">5</td><td>Decisive</td><td>Completed T3 with custody and controlling correction.</td><td>Infrastructure still 50%.</td><td>Persisted evidence and correction beat reruns.</td></tr>
+<tr><td>S36</td><td class="score s4">4</td><td>Strong necessary</td><td>Reset immediate strategy to cheap all-base PPP-1.</td><td>Needed after confirmatory machinery led sequencing.</td><td>Choose smallest evidence for next paper claim.</td></tr>
+<tr><td>S37</td><td class="score s2">2</td><td>Indirect / overhead</td><td>Valid zero-paid T4 roster/cost preflight.</td><td>Sequenced ahead of immediate PPP-1.</td><td>Preflight the milestone about to run.</td></tr>
+<tr><td>S38</td><td class="score s4">4</td><td>Strong necessary</td><td>Froze PPP-1 roster, geometry, retries, and caps.</td><td>Transaction-heavy; freeze could be just in time.</td><td>Freeze external metadata at execution boundary.</td></tr>
+<tr><td>S39</td><td class="score s4">4</td><td>Strong necessary</td><td>Built/reviewed minimum runner; found real custody P1.</td><td>Multiple review transactions stretched the gate.</td><td>Review custody first and cap review cycles.</td></tr>
+<tr><td>S40</td><td class="score s4">4</td><td>Strong necessary</td><td>Fixed custody and failed closed on catalog drift.</td><td>Just-in-time catalog freeze could compress launch.</td><td>Catalog hashes are ephemeral; bind at execution.</td></tr>
+<tr><td>S41</td><td class="score s5">5</td><td>Decisive</td><td>Completed 678/678 under cap and delivered paper packet.</td><td>Minimal residual overhead; errors recorded, not chased.</td><td>Combine evidence, traceability, and manuscript utility.</td></tr>
+<tr><td>S42</td><td class="score s4">4</td><td>Strong necessary</td><td>Owner accepted PPP-1 and removed disposition blocker.</td><td>No artifact change; integration remains.</td><td>Decisions should immediately unlock a named artifact.</td></tr>
+</tbody></table>
+<p class="danger"><b>S29–S34 was a six-session shadow-study detour and cleanup lane spanning 29 WCF-scoped commits.</b> Technical competence did not change the binding fact that it had no production panel, manifest, T4, score, or paper effect.</p>
+</section>
+
+<section id="patterns"><h2>Needle-moving sessions, rabbit holes, and rate limiters</h2>
+<h3>Characteristics of true needle-moving sessions</h3>
+<ul><li>Cross a named sufficiency gate or deliver immediately usable evidence/manuscript content.</li><li>Use persisted evidence and sample-level reading.</li><li>Remove a validity blocker without broadening scope.</li><li>Combine stages that belong together: run plus packet, or decision plus acceptance record.</li><li>Stop at the ceiling: skip optional polish, correct offline, and record errors instead of chasing them.</li></ul>
+<h3>Rabbit-hole signatures and root causes</h3>
+<ol><li>Authored mistaken for executable.</li><li>Live calls substituted for adversarial fixtures.</li><li>Infrastructure became the deliverable; line count is only a warning proxy.</li><li>Governance split into stand-alone sessions.</li><li>Bounded side studies still consumed the critical path.</li><li>Later-stage rigor was sequenced before the immediate milestone.</li><li>Review transactions multiplied.</li></ol>
+<p>Root causes: unclear state naming, weak paper-facing session contracts, late custody requirements, and no standing requirement to <b>RUN, WRITE, or DECIDE</b> toward a named artifact or P0/P1.</p>
+<h3>Rate-limiting steps now</h3>
+<p>For the exploratory paper, the limiter is <b>assembly and claim discipline</b>: integrate accepted evidence, reconcile terminology and traceability, render figures/tables, and verify the PDF. No runner, bank, manifest, panel, or model call is needed.</p>
+<p>For release-grade claims, <b>G6 recruitment</b> dominates wall-clock. Full T4 is 16,698 calls, 42h54m baseline, $278.788647 forecast / $348.49 minimum cap. The first registered branch within $300 is <code>drop_p6 + drop_p3</code> at $220.024017 / $275.04 cap. These figures do not authorize calls.</p>
+</section>
+
+<section id="path"><h2>Recommended fastest path to the MVP exploratory paper</h2>
+<ol><li><b>Jimmy authorizes one bounded zero-paid paper-only assembly session.</b></li><li>Codex creates a new dated append-only directory such as <code>08-PAPER/20260714-mvp-exploratory-paper/</code>, using only the accepted PPP-1 packet and existing pre-draft; no overwrite.</li><li>Produce one coherent manuscript: abstract, experimental setup, existing design/methods, accepted PPP-1 results/discussion/limitations, embedded figures/tables, references, traceability, and visually verified PDF. <b>Timebox 4–8 agent hours; spend $0; no model calls; no harness/run/bank/manifest changes.</b></li><li>One adversarial manuscript review limited to claim/traceability/consistency P0/P1, one correction cycle maximum, then Jimmy accept/revise/defer. No rankings, external quotation, or release claims.</li><li>Only after that choose whether to start release-grade work.</li></ol>
+<p class="callout"><b>Minimum sufficiency:</b> every empirical statement traces to accepted PPP-1 or frozen evidence; the exact exploratory/single-judge/non-quotable label remains; figures/tables reproduce packet values; PDF is visually verified.</p>
+<h3>Separate later release-grade path</h3>
+<p>If Jimmy wants release-grade claims, start G6 recruitment in parallel without blocking the exploratory paper. Separately resolve T4 cap/branch authorization, then execute existing G1–G7, perturbation, human-panel, P3/P4, and release steps. PPP-1 is never silently promoted. This assessment authorizes no paid call, T4 action, G6 execution, top-up, or branch selection.</p>
+</section>
+
+<section id="recommendations"><h2>File/code recommendations and future learning</h2>
+<h3>Do now</h3><ul><li>Create the dated append-only paper directory after authority.</li><li>Assemble manuscript/PDF and a compact claim-to-evidence traceability matrix.</li><li>Have the portfolio lane update stale <code>../ACTIVE-CRITICAL-PATHS.md</code>; do not edit it from locked WCF scope.</li></ul>
+<h3>Do later</h3><ul><li>If release claims are desired, begin G6 recruitment and separately resolve T4.</li><li>After the paper, add a concise AGENTS.md value gate: RUN, WRITE, or DECIDE; named artifact or P0/P1 removal; otherwise fold/defer.</li><li>Only after the paper, consider lightweight session-contract validation.</li></ul>
+<h3>Do not do</h3><ul><li>No new MVP paper runner or harness change.</li><li>No PPP-1 rerun/overwrite, bank edit, manifest/panel change, or judge search.</li><li>No guardrail tooling before the MVP paper; the dashboard gate is enough.</li><li>No rankings, external quotations, gated results, or release claims from PPP-1.</li></ul>
+<h3>Lightweight future session contract</h3>
+<pre><code>{
+  "session": "S44",
+  "mode": "WRITE",
+  "paper_milestone": "Integrated exploratory manuscript and PDF",
+  "sufficiency_gate": [
+    "all result claims trace to accepted PPP-1 evidence",
+    "exact exploratory/single-judge/non-quotable label retained",
+    "PDF visually verified"
+  ],
+  "named_artifact": "08-PAPER/20260714-mvp-exploratory-paper/manuscript.pdf",
+  "p0_p1_removed": "PPP-1 integration gap",
+  "timebox_hours": 8,
+  "spend_cap_usd": 0,
+  "forbidden": ["model_calls", "runner_changes", "bank_edits", "manifest_changes", "overwrite"],
+  "stop_condition": "one P0/P1 review and one correction cycle completed"
+}</code></pre>
+<h3>Minimal no-dependency validator example</h3>
+<pre><code>#!/usr/bin/env python3
+import json
+import sys
+from pathlib import Path
+
+REQUIRED = {
+    "session", "mode", "paper_milestone", "sufficiency_gate",
+    "named_artifact", "timebox_hours", "spend_cap_usd",
+    "forbidden", "stop_condition",
+}
+
+def main(path: str) -&gt; int:
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    missing = sorted(REQUIRED - data.keys())
+    errors = []
+    if missing:
+        errors.append("missing: " + ", ".join(missing))
+    if data.get("mode") not in {"RUN", "WRITE", "DECIDE"}:
+        errors.append("mode must be RUN, WRITE, or DECIDE")
+    if not data.get("named_artifact") and not data.get("p0_p1_removed"):
+        errors.append("name an artifact or a removed P0/P1")
+    if not isinstance(data.get("sufficiency_gate"), list) or not data.get("sufficiency_gate"):
+        errors.append("sufficiency_gate must be a non-empty list")
+    if data.get("timebox_hours", 0) &lt;= 0 or data.get("spend_cap_usd", -1) &lt; 0:
+        errors.append("timebox must be positive and spend cap non-negative")
+    if errors:
+        print("INVALID: " + "; ".join(errors), file=sys.stderr)
+        return 1
+    print("VALID")
+    return 0
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1]))</code></pre>
+<p class="callout"><b>Do not implement this validator until after the MVP exploratory paper.</b> The current dashboard gate is enough. The immediate behavioral rule is RUN, WRITE, or DECIDE; close with a named paper artifact or named P0/P1 removal; fold/defer otherwise.</p>
+</section>
+
+<section id="decision"><h2>Final recommended owner decision</h2>
+<p class="verdict"><b>Authorize one 4–8 hour, $0, paper-only assembly session now.</b> Require a new dated append-only paper directory, one integrated exploratory manuscript, embedded figures/tables, traceability, and a visually verified PDF; allow one P0/P1 manuscript review and one correction cycle; then accept, revise, or defer. Preserve the exact PPP-1 label and prohibit model calls, runner/harness/run/bank/manifest changes, overwrites, rankings, external quotation, and release claims.</p>
+<p>After that manuscript decision—and not before—choose whether release-grade claims justify parallel G6 recruitment and the separately gated T4 program.</p>
+</section>
+</main></body></html>

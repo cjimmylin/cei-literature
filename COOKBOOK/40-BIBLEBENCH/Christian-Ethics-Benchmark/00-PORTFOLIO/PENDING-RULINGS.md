@@ -939,6 +939,33 @@ that payload permanently stops it. The rule applies prospectively to MVP-A1 with
 changing the roster, prompt, cap, provider ceiling, 1,834-call envelope, $5.00 NTE,
 no-substitution constraint, or descriptive-only claim boundary.
 
+## PR-22 — MVP/O5 human-label attribution in paper preview (OPEN — JIMMY)
+
+**Opened:** 2026-07-13 by the single authorized Opus claims review. Source:
+`20260713c-opus-mvp-a1-paper-claims-adversarial-review.md` P1.
+
+**Verified gap:** `PAPER/07-discussion-stub.md` §7.4 and the immutable
+`20260713b-mvp-a1-postrun-scaling-memo.md` imply the frozen O5 human-label waves can
+validate or change the MVP §6A cheap-judge rows. The O5 labels cover O4/O5-panel
+responses and the frozen O5 judges (`gpt-4.1-mini` + `gemini-2.5-flash`); MVP-A1 uses
+different cheap-SUT responses and different judges (`gpt-4.1-nano` +
+`llama-3.3-70b`). O5 labels can populate separate release-grade §6 results but cannot
+validate the MVP judges or change §6A cells.
+
+**Recommended option 1:** accept the Opus P1. Mechanically replace PAPER §7.4 with the
+exact memo language; create a NEW dated superseding scaling correction memo (never edit
+the immutable `20260713b` memo) stating that O5 labels serve §6/O5 while changing §6A
+requires new labels on the exact MVP responses or a validated judge; waive the three P3
+nits for now. No paid call, scale-up, model addition, or O5 rule change.
+
+**Option 2:** downgrade to P2 because “judge-dependent rows” was intended to mean the
+separate O5 designs; retain the present paper wording and log the interpretation. This
+leaves avoidable MVP/O5 ambiguity, so Opus does not recommend it.
+
+**Exact requested ruling:**
+
+> Ratify PR-22 option 1: accept the Opus P1; replace PAPER §7.4 with the exact reviewed scope correction; create a NEW dated superseding scaling correction memo stating frozen O5 labels populate separate §6/O5 results and do not validate or change MVP §6A, while strengthening §6A requires new labels on the exact MVP responses or a validated judge; waive the three P3 nits for now; no paid calls, scale-up, model additions, or O5 rule changes.
+
 ---
 
 *(Add new rulings below with the next PR-N id. Parked items are NOT shipped/scored under a

@@ -1705,8 +1705,10 @@ never loaded, quoted, or otherwise surfaced in this paper or in any released art
 - A **mock-first regression suite** (549 tests, no live API calls) exercises the harness end to end
   against recorded transcripts, so the pipeline can be verified without any paid inference
   <!-- source: 20260712-fable-codex-full-handoff.md §2 -->.
-- **Exact reproduction commands** — for the mock suite, for a smoke run, and for a scored
-  panel run from a shared manifest — will be included with the artifact release.
+- **Exact offline verification and PDF-build commands** are recorded in the v0.1
+  release-candidate manifest. Live smoke or scored-panel execution remains subject to
+  a separate model, credential, and spending authorization and is not required to
+  reproduce the descriptive paper artifact.
 
 ## 10.5 Reproducibility checklist
 
@@ -1726,7 +1728,29 @@ A venue-ready checklist; locations are planned artifact-relative destinations an
 | Canary string in all released files | Enforced | every released file |
 | Perturbation battery (G7) evidence | **PENDING — no complete adjudicated battery; no flip rate** | bounded-attempt custody record |
 | Pre-registration documents (frozen) | Released (on sign-off) | dated pre-registration files |
-| Reproduction commands | To be included | artifact `README` at release |
+| Offline verification and PDF-build commands | Included | v0.1 release-candidate manifest |
+
+# 11. Conclusion
+
+WALKWORTHY demonstrates a bounded way to evaluate enacted accordance with a declared
+normative corpus without turning that corpus into a universal moral standard. Its main
+contribution is the combination of method-major behavioral designs, item-level textual
+anchors, explicit treatment of intra-corpus disagreement, and validity gates frozen
+before the full-panel scores they govern. The completed six-model panel and inexpensive
+MVP-A1 run show that the artifact can be executed with complete custody at modest cost.
+
+The present manuscript deliberately stops at that descriptive claim. MVP-A1 establishes
+execution feasibility and operational compatibility, not validated model performance.
+No WALKWORTHY design is reported as released: the O5 lane still requires human Part-A
+and Part-B labels, judge validation, the remaining registered gate conjuncts, and human
+sign-off; perturbation robustness remains pending without a computed flip rate. These
+limitations are part of the result rather than details to be optimized away.
+
+The immediate research step is therefore narrow: complete one registered label design
+and its reliability arm, convert it through G4 and Part B, and update the paper in the
+same evidence-producing session. Until then, this v0.1 candidate provides a complete,
+auditable account of the benchmark's construct, artifact, governance, and exploratory
+MVP evidence while withholding claims the current evidence cannot support.
 
 # References
 

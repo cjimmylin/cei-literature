@@ -90,6 +90,13 @@ def _load_one(
     for index, (source_row, expected_turn_count) in enumerate(
         zip(source_rows, expected_turn_counts)
     ):
+        if None in source_row or any(
+            source_row.get(fieldname) is None for fieldname in HEADER
+        ):
+            raise HelperContractError(
+                f"source row cardinality mismatch at row {index}"
+            )
+
         expected_unit_id = f"{DESIGN}-U{index:03d}"
         if source_row["unit_id"] != expected_unit_id:
             raise HelperContractError(
@@ -138,13 +145,8 @@ def _load_one(
     )
 
 
-def load_instruments(primary_path: Path, reliability_path: Path) -> InstrumentBundle:
-    primary = _load_one(primary_path, PRIMARY_SHA256, PRIMARY_TURN_COUNTS)
-    reliability = _load_one(
-        reliability_path, RELIABILITY_SHA256, RELIABILITY_TURN_COUNTS
-    )
-
-    primary_overlap = primary.rows[: len(reliability.rows)]
+def _validate_overlap(primary: Instrument, reliability: Instrument) -> None:
+    primary_overlap = primary.rows[:4]
     if tuple(row.unit_id for row in reliability.rows) != tuple(
         row.unit_id for row in primary_overlap
     ):
@@ -157,5 +159,14 @@ def load_instruments(primary_path: Path, reliability_path: Path) -> InstrumentBu
         raise HelperContractError(
             "reliability contexts must equal the first four primary contexts"
         )
+
+
+def load_instruments(primary_path: Path, reliability_path: Path) -> InstrumentBundle:
+    primary = _load_one(primary_path, PRIMARY_SHA256, PRIMARY_TURN_COUNTS)
+    reliability = _load_one(
+        reliability_path, RELIABILITY_SHA256, RELIABILITY_TURN_COUNTS
+    )
+
+    _validate_overlap(primary, reliability)
 
     return InstrumentBundle(primary=primary, reliability=reliability)

@@ -2,11 +2,13 @@ import base64
 import csv
 import hashlib
 import json
+import os
 import re
 from dataclasses import FrozenInstanceError, replace
 from pathlib import Path
 
 import pytest
+from playwright.sync_api import sync_playwright
 
 from walkworthy import design02_labeling_helper as helper
 
@@ -17,6 +19,44 @@ RELIABILITY = (
     BENCHMARK
     / "labels/20260710-partA/reliability/02-twomasters-partA-overlap-blind.csv"
 )
+DEFAULT_CHROME = Path(
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+)
+
+
+@pytest.fixture
+def browser_page():
+    chrome = Path(os.environ.get("WALKWORTHY_CHROME", DEFAULT_CHROME))
+    if not chrome.is_file():
+        pytest.fail(
+            "System Chrome is required for Design 02 helper browser tests; "
+            f"set WALKWORTHY_CHROME or install it at {DEFAULT_CHROME}"
+        )
+
+    with sync_playwright() as playwright:
+        browser = playwright.chromium.launch(
+            headless=True,
+            executable_path=str(chrome),
+        )
+        page = browser.new_page(viewport={"width": 1280, "height": 900})
+        console_errors = []
+        page.on(
+            "console",
+            lambda message: console_errors.append(message.text)
+            if message.type == "error"
+            else None,
+        )
+        try:
+            yield page, console_errors
+        finally:
+            browser.close()
+
+
+def _generated(tmp_path):
+    bundle = helper.load_instruments(PRIMARY, RELIABILITY)
+    output_dir = tmp_path / "helper"
+    helper.generate(bundle, output_dir)
+    return output_dir
 
 
 def _source_row(index, context_and_response=None):
@@ -372,3 +412,69 @@ def test_render_label_page_rejects_unsafe_source_hash(unsafe_sha):
 
     with pytest.raises(helper.HelperContractError, match="SHA-256"):
         helper.render_label_page(unsafe_instrument, "primary")
+
+
+def test_guided_turn_flow_requires_conditional_qr2(tmp_path, browser_page):
+    output_dir = _generated(tmp_path)
+    page, console_errors = browser_page
+
+    page.goto((output_dir / "02-primary-labeling.html").as_uri())
+    assert page.get_by_test_id("turn-progress").text_content() == "Turn 1 of 21"
+
+    page.get_by_role("radio", name="holds_line", exact=True).check()
+    page.get_by_label("Confidence", exact=True).select_option("2")
+    page.get_by_role("radio", name="Q-R1 no", exact=True).check()
+    assert page.locator("#qr2-options").is_hidden()
+    page.get_by_test_id("next").click()
+
+    assert page.get_by_test_id("turn-progress").text_content() == "Turn 2 of 21"
+    page.get_by_role("radio", name="soft_concession", exact=True).check()
+    page.get_by_role("radio", name="Q-R1 partially", exact=True).check()
+    assert page.locator("#qr2-options").is_visible()
+    page.get_by_test_id("next").click()
+
+    assert page.get_by_test_id("turn-progress").text_content() == "Turn 2 of 21"
+    assert "Q-R2 is required" in page.get_by_test_id("error").text_content()
+    assert console_errors == []
+
+
+def test_primary_draft_resumes_without_leaking_to_reliability(
+    tmp_path, browser_page
+):
+    output_dir = _generated(tmp_path)
+    page, console_errors = browser_page
+    primary = output_dir / "02-primary-labeling.html"
+
+    page.goto(primary.as_uri())
+    page.get_by_role("radio", name="holds_line", exact=True).check()
+    page.get_by_label("Confidence", exact=True).select_option("3")
+    page.get_by_role("radio", name="Q-R1 no", exact=True).check()
+    page.get_by_test_id("next").click()
+    page.reload()
+
+    assert page.get_by_role("radio", name="holds_line", exact=True).is_checked()
+    assert page.get_by_label("Confidence", exact=True).input_value() == "3"
+    assert page.get_by_role("radio", name="Q-R1 no", exact=True).is_checked()
+
+    page.goto((output_dir / "02-reliability-labeling.html").as_uri())
+    assert not page.get_by_role(
+        "radio", name="holds_line", exact=True
+    ).is_checked()
+
+    for _ in range(7):
+        page.get_by_role("radio", name="holds_line", exact=True).check()
+        page.get_by_label("Confidence", exact=True).select_option("3")
+        page.get_by_role("radio", name="Q-R1 no", exact=True).check()
+        page.get_by_test_id("next").click()
+
+    assert page.get_by_test_id("review-screen").is_visible()
+    assert (
+        page.get_by_test_id("review-screen").text_content()
+        == "Review completed labels4 units and 7 turns completed."
+    )
+    assert page.get_by_test_id("export-csv").is_enabled()
+    assert page.get_by_test_id("previous").is_visible()
+    page.get_by_test_id("previous").click()
+    assert page.get_by_test_id("turn-progress").text_content() == "Turn 7 of 7"
+    assert page.get_by_role("radio", name="holds_line", exact=True).is_checked()
+    assert console_errors == []

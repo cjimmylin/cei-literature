@@ -63,6 +63,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
     label[for] {{ display: block; font-weight: 700; margin-top: 0.75rem; }}
     select, textarea {{ box-sizing: border-box; display: block; max-width: 100%; width: 24rem; }}
     textarea {{ min-height: 7rem; }}
+    [hidden] {{ display: none !important; }}
     :focus-visible {{ outline: 3px solid currentColor; outline-offset: 3px; }}
     @media (max-width: 700px) {{
       header, main {{ padding: 0.75rem; }}
@@ -73,6 +74,7 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
 <body>
   <header><h1>{title}</h1><p id="role-boundary"></p></header>
   <main data-unit-ids="{unit_ids}">
+    <p id="draft-warning" role="status" aria-live="polite"></p>
     <section id="label-screen">
       <p data-testid="unit-progress"></p>
       <p data-testid="turn-progress"></p>
@@ -100,16 +102,310 @@ LABEL_PAGE_TEMPLATE = """<!DOCTYPE html>
         <label><input type="radio" name="qr2" value="yes">Q-R2 yes</label>
         <label><input type="radio" name="qr2" value="no">Q-R2 no</label>
       </fieldset>
-      <button data-testid="previous" type="button">Previous</button>
       <button data-testid="next" type="button">Save and next</button>
     </section>
     <section data-testid="review-screen" hidden></section>
+    <button data-testid="previous" type="button">Previous</button>
     <button data-testid="export-csv" type="button" disabled>Download completed CSV</button>
     <p data-testid="error" role="alert"></p>
   </main>
   <script>
     const STORAGE_KEY = {storage_key};
     const DATA_B64 = {data_b64};
+    const payloadBytes = Uint8Array.from(
+      atob(DATA_B64), character => character.charCodeAt(0)
+    );
+    const payload = JSON.parse(new TextDecoder().decode(payloadBytes));
+    const turns = payload.rows.flatMap((row, rowIndex) =>
+      row.turns.map((text, turnOffset) => ({{
+        rowIndex: rowIndex,
+        turnOffset: turnOffset,
+        member: turnOffset + 1,
+        text: text
+      }}))
+    );
+    const confidenceValues = ["", "1", "2", "3"];
+    const q1Values = ["", "yes", "partially", "no"];
+    const q2Values = ["", "yes", "no", "n-a"];
+    const labelScreen = document.getElementById("label-screen");
+    const reviewScreen = document.querySelector('[data-testid="review-screen"]');
+    const responseText = document.querySelector('[data-testid="response-text"]');
+    const unitProgress = document.querySelector('[data-testid="unit-progress"]');
+    const turnProgress = document.querySelector('[data-testid="turn-progress"]');
+    const errorMessage = document.querySelector('[data-testid="error"]');
+    const draftWarning = document.getElementById("draft-warning");
+    const confidence = document.getElementById("confidence");
+    const notes = document.getElementById("notes");
+    const qr2Options = document.getElementById("qr2-options");
+    const previousButton = document.querySelector('[data-testid="previous"]');
+    const nextButton = document.querySelector('[data-testid="next"]');
+    const exportButton = document.querySelector('[data-testid="export-csv"]');
+
+    function blankRow(row) {{
+      return {{
+        turnStates: row.turns.map(() => null),
+        confidence: "",
+        notes: "",
+        q1: "",
+        q2: ""
+      }};
+    }}
+
+    function exactKeys(value, expected) {{
+      if (value === null || typeof value !== "object" || Array.isArray(value)) {{
+        return false;
+      }}
+      const actual = Object.keys(value).sort();
+      const wanted = expected.slice().sort();
+      return actual.length === wanted.length &&
+        actual.every((key, index) => key === wanted[index]);
+    }}
+
+    function validDraftRow(value, sourceRow) {{
+      if (!exactKeys(
+        value,
+        ["turnStates", "confidence", "notes", "q1", "q2"]
+      )) {{
+        return false;
+      }}
+      if (!Array.isArray(value.turnStates) ||
+          value.turnStates.length !== sourceRow.turns.length ||
+          !value.turnStates.every(state =>
+            state === null || payload.turn_states.includes(state)
+          )) {{
+        return false;
+      }}
+      if (!confidenceValues.includes(value.confidence) ||
+          typeof value.notes !== "string" ||
+          !q1Values.includes(value.q1) ||
+          !q2Values.includes(value.q2)) {{
+        return false;
+      }}
+      if (value.q1 === "" && value.q2 !== "") {{
+        return false;
+      }}
+      if (value.q1 === "no" && value.q2 !== "n-a") {{
+        return false;
+      }}
+      if ((value.q1 === "yes" || value.q1 === "partially") &&
+          value.q2 !== "yes" && value.q2 !== "no") {{
+        return false;
+      }}
+      return true;
+    }}
+
+    function loadRows() {{
+      const freshRows = payload.rows.map(blankRow);
+      const stored = localStorage.getItem(STORAGE_KEY);
+      if (stored === null) {{
+        return freshRows;
+      }}
+      try {{
+        const draft = JSON.parse(stored);
+        if (!exactKeys(draft, ["sourceSha256", "role", "rows"]) ||
+            draft.sourceSha256 !== payload.source_sha256 ||
+            draft.role !== payload.role ||
+            !Array.isArray(draft.rows) ||
+            draft.rows.length !== payload.rows.length ||
+            !draft.rows.every((row, index) =>
+              validDraftRow(row, payload.rows[index])
+            )) {{
+          throw new Error("invalid draft");
+        }}
+        return draft.rows;
+      }} catch (error) {{
+        draftWarning.textContent =
+          "A stale or invalid draft was ignored; no values were migrated.";
+        return freshRows;
+      }}
+    }}
+
+    const rows = loadRows();
+    let currentTurnIndex = 0;
+
+    function saveDraft() {{
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({{
+        sourceSha256: payload.source_sha256,
+        role: payload.role,
+        rows: rows
+      }}));
+    }}
+
+    function checkedValue(name) {{
+      const checked = document.querySelector(
+        'input[name="' + name + '"]:checked'
+      );
+      return checked === null ? "" : checked.value;
+    }}
+
+    function setCheckedValue(name, value) {{
+      document.querySelectorAll('input[name="' + name + '"]').forEach(input => {{
+        input.checked = input.value === value;
+      }});
+    }}
+
+    function setQr2Visibility(row) {{
+      const required = row.q1 === "yes" || row.q1 === "partially";
+      qr2Options.hidden = !required;
+      setCheckedValue("qr2", required ? row.q2 : "");
+    }}
+
+    function captureVisibleFields() {{
+      const turn = turns[currentTurnIndex];
+      const row = rows[turn.rowIndex];
+      const turnState = checkedValue("turn-state");
+      row.turnStates[turn.turnOffset] = turnState === "" ? null : turnState;
+      row.confidence = confidence.value;
+      row.notes = notes.value;
+      row.q1 = checkedValue("qr1");
+      if (row.q1 === "no") {{
+        row.q2 = "n-a";
+      }} else if (row.q1 === "yes" || row.q1 === "partially") {{
+        row.q2 = checkedValue("qr2");
+      }} else {{
+        row.q2 = "";
+      }}
+    }}
+
+    function validateCurrentTurn() {{
+      const turn = turns[currentTurnIndex];
+      const row = rows[turn.rowIndex];
+      if (!payload.turn_states.includes(row.turnStates[turn.turnOffset])) {{
+        return "Turn state is required.";
+      }}
+      if (!confidenceValues.slice(1).includes(row.confidence)) {{
+        return "Confidence is required.";
+      }}
+      if (!q1Values.slice(1).includes(row.q1)) {{
+        return "Q-R1 is required.";
+      }}
+      if ((row.q1 === "yes" || row.q1 === "partially") &&
+          (row.q2 !== "yes" && row.q2 !== "no")) {{
+        return "Q-R2 is required when Q-R1 is yes or partially.";
+      }}
+      return "";
+    }}
+
+    function validateRow(row) {{
+      if (!row.turnStates.every(state => payload.turn_states.includes(state))) {{
+        return "Every turn state is required.";
+      }}
+      if (!confidenceValues.slice(1).includes(row.confidence)) {{
+        return "Confidence is required.";
+      }}
+      if (!q1Values.slice(1).includes(row.q1)) {{
+        return "Q-R1 is required.";
+      }}
+      if ((row.q1 === "yes" || row.q1 === "partially") &&
+          (row.q2 !== "yes" && row.q2 !== "no")) {{
+        return "Q-R2 is required when Q-R1 is yes or partially.";
+      }}
+      if (row.q1 === "no" && row.q2 !== "n-a") {{
+        return "Q-R2 must be n-a when Q-R1 is no.";
+      }}
+      return "";
+    }}
+
+    function updateExportState() {{
+      exportButton.disabled = !rows.every(row => validateRow(row) === "");
+    }}
+
+    function renderTurn() {{
+      const turn = turns[currentTurnIndex];
+      const row = rows[turn.rowIndex];
+      labelScreen.hidden = false;
+      reviewScreen.hidden = true;
+      errorMessage.textContent = "";
+      turnProgress.textContent =
+        "Turn " + (currentTurnIndex + 1) + " of " + turns.length;
+      unitProgress.textContent =
+        "Unit " + (turn.rowIndex + 1) + " of " + payload.rows.length;
+      responseText.textContent = turn.text;
+      setCheckedValue("turn-state", row.turnStates[turn.turnOffset]);
+      confidence.value = row.confidence;
+      notes.value = row.notes;
+      setCheckedValue("qr1", row.q1);
+      setQr2Visibility(row);
+      previousButton.disabled = currentTurnIndex === 0;
+      updateExportState();
+    }}
+
+    function renderReview() {{
+      labelScreen.hidden = true;
+      reviewScreen.hidden = false;
+      previousButton.disabled = false;
+      reviewScreen.replaceChildren();
+      const heading = document.createElement("h2");
+      heading.textContent = "Review completed labels";
+      const summary = document.createElement("p");
+      summary.textContent =
+        payload.rows.length + " units and " + turns.length + " turns completed.";
+      reviewScreen.append(heading, summary);
+      errorMessage.textContent = "";
+      updateExportState();
+    }}
+
+    function goNext() {{
+      captureVisibleFields();
+      const validationError = validateCurrentTurn();
+      if (validationError !== "") {{
+        errorMessage.textContent = validationError;
+        updateExportState();
+        return;
+      }}
+      saveDraft();
+      if (currentTurnIndex < turns.length - 1) {{
+        currentTurnIndex += 1;
+        renderTurn();
+        return;
+      }}
+      const firstInvalid = rows.map(validateRow).find(message => message !== "");
+      if (firstInvalid !== undefined) {{
+        errorMessage.textContent = firstInvalid;
+        updateExportState();
+        return;
+      }}
+      renderReview();
+    }}
+
+    function goPrevious() {{
+      if (!reviewScreen.hidden) {{
+        renderTurn();
+        return;
+      }}
+      captureVisibleFields();
+      if (currentTurnIndex > 0) {{
+        currentTurnIndex -= 1;
+      }}
+      renderTurn();
+    }}
+
+    confidenceValues.forEach(value => {{
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      confidence.append(option);
+    }});
+    document.getElementById("role-boundary").textContent =
+      payload.role === "primary"
+        ? "Primary labeling draft"
+        : "Independent reliability draft";
+    document.querySelectorAll('input[name="qr1"]').forEach(input => {{
+      input.addEventListener("change", () => {{
+        const row = rows[turns[currentTurnIndex].rowIndex];
+        const priorQ1 = row.q1;
+        row.q1 = checkedValue("qr1");
+        if (row.q1 === "no") {{
+          row.q2 = "n-a";
+        }} else if (priorQ1 === "no" || row.q2 === "n-a") {{
+          row.q2 = "";
+        }}
+        setQr2Visibility(row);
+      }});
+    }});
+    previousButton.addEventListener("click", goPrevious);
+    nextButton.addEventListener("click", goNext);
+    renderTurn();
   </script>
 </body>
 </html>"""
